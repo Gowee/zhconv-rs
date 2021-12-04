@@ -1,0 +1,31 @@
+[package]
+name = "zhconv"
+version = "0.1.0"
+edition = "2018"
+authors = ["Hung-I Wang <whygowe@gmail.com>"]
+license = "GPL-2.0-or-later"
+repository = "https://github.com/Gowee/zhconv-rs"
+categories = []
+mwcommit = ""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5"   
+lazy_static = "1.4"
+itertools = "0.10"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[build-dependencies]
+const_format = "0.2"
+reqwest = { version = "0.11", features = ["default-tls", "blocking"]}
+sha2 = "0.9"
+hex-literal = "0.3"
+regex = "1.5"
+itertools = "0.10"
+
+[[bench]]
+name = "zhconv_benchmark"
+harness = false
