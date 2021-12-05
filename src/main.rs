@@ -7,7 +7,7 @@ use zhconv::{convs::*, ZhConverter};
 fn main() {
     let mut input = String::new();
     io::stdin().lock().read_to_string(&mut input).unwrap();
-
+    // dbg!(*ZH_HANT_TW_CONV);
     println!("{}", zhconv::Zh2HantConverter.convert(&input));
     // dbg!(ZH_HANT_TW_CONV);
     // let c1 = make_converter(ZH_TW_CONV);

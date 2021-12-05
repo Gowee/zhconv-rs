@@ -4,6 +4,7 @@ use zhconv::{convs::*, ZhConverter};
 
 const DATA54K: &'static str = include_str!("data54k.txt");
 const DATA689K: &'static str = include_str!("data689k.txt");
+const DATA3185K: &'static str = include_str!("data3185k.txt");
 
 fn criterion_benchmark(c: &mut Criterion) {    c.bench_function("build zh-Hant-HK", |b| {
         b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANT_CONV), black_box(ZH_HK_CONV)))
@@ -67,6 +68,12 @@ fn criterion_benchmark(c: &mut Criterion) {    c.bench_function("build zh-Hant-H
     });
     c.bench_function("zh2TW data689k", |b| {
         b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA689K))
+    });
+    c.bench_function("zh2Hant data3185k", |b| {
+        b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA3185K))
+    });
+    c.bench_function("zh2TW data3185k", |b| {
+        b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA3185K))
     });
 }
 
