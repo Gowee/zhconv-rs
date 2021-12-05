@@ -2,11 +2,10 @@ use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
 use zhconv::{convs::*, ZhConverter};
 
-fn criterion_benchmark(c: &mut Criterion) {
-    c.bench_function("build zh-Hant-TW conv", |b| {
-        b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANT_CONV), black_box(ZH_TW_CONV)))
-    });
-    c.bench_function("build zh-Hant-HK", |b| {
+const DATA54K: &'static str = include_str!("data54k.txt");
+const DATA689K: &'static str = include_str!("data689k.txt");
+
+fn criterion_benchmark(c: &mut Criterion) {    c.bench_function("build zh-Hant-HK", |b| {
         b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANT_CONV), black_box(ZH_HK_CONV)))
     });
     c.bench_function("build zh-Hant-MO", |b| {
@@ -56,6 +55,19 @@ fn criterion_benchmark(c: &mut Criterion) {
     //         )
     //     })
     // });
+
+    c.bench_function("zh2TW data54k", |b| {
+        b.iter_with_large_drop(|| zhconv::Zh2TWConverter.convert(DATA54K))
+    });
+    c.bench_function("zh2CN data54k", |b| {
+        b.iter_with_large_drop(|| zhconv::Zh2CNConverter.convert(DATA54K))
+    });
+    c.bench_function("zh2Hant data689k", |b| {
+        b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA689K))
+    });
+    c.bench_function("zh2TW data689k", |b| {
+        b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA689K))
+    });
 }
 
 criterion_group!(benches, criterion_benchmark);
