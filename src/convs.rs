@@ -1,7 +1,8 @@
+use std::collections::HashMap;
+
 use itertools;
 use lazy_static::lazy_static;
 use regex::Regex;
-use std::collections::HashMap;
 
 use super::ZhConverter;
 
@@ -21,10 +22,49 @@ pub const ZH_HK_CONV: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2HK.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2HK.to.conv")),
 );
+pub const ZH_MO_CONV: (&'static str, &'static str) = ZH_HK_CONV;
 pub const ZH_CN_CONV: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2CN.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2CN.to.conv")),
 );
+pub const ZH_SG_CONV: (&'static str, &'static str) = ZH_CN_CONV;
+pub const ZH_MY_CONV: (&'static str, &'static str) = ZH_SG_CONV;
+
+lazy_static! {
+    pub static ref ZH_HANT_TW_CONV: (&'static str, &'static str) = merge_convs_leaked(ZH_TW_CONV, ZH_HANT_CONV);
+    pub static ref ZH_HANT_HK_CONV: (&'static str, &'static str) = merge_convs_leaked(ZH_HK_CONV, ZH_HANT_CONV);
+    pub static ref ZH_HANT_MO_CONV: (&'static str, &'static str) = merge_convs_leaked(ZH_MO_CONV, ZH_HANT_CONV);
+    pub static ref ZH_HANS_CN_CONV: (&'static str, &'static str) = merge_convs_leaked(ZH_CN_CONV, ZH_HANS_CONV);
+    pub static ref ZH_HANS_SG_CONV: (&'static str, &'static str) = merge_convs_leaked(ZH_SG_CONV, ZH_HANS_CONV);
+    pub static ref ZH_HANS_MY_CONV: (&'static str, &'static str) = merge_convs_leaked(ZH_MY_CONV, ZH_HANS_CONV);
+}
+
+// TODO: How to make these lazy consts more idiomatic?
+
+fn merge_convs_leaked(conv1: (&str, &str), conv2: (&str, &str)) -> (&'static str, &'static str) {
+    let conv = Box::leak(Box::new(merge_conv(conv1, conv2)));
+    (conv.0.as_ref(), conv.1.as_ref())
+}
+
+pub fn merge_conv(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String) {
+    let mut froms = String::with_capacity(conv1.0.len() + conv2.0.len());
+    let mut tos = String::with_capacity(conv1.1.len() + conv2.1.len());
+    let mut it = itertools::Itertools::merge_by(
+        itertools::zip(conv1.0.trim().split("|"), conv1.1.trim().split("|")),
+        itertools::zip(conv2.0.trim().split("|"), conv2.1.trim().split("|")),
+        |pair1, pair2| pair1.0.len() >= pair2.0.len(),
+    )
+    .peekable();
+    while let Some((from, to)) = it.next() {
+        froms.push_str(from);
+        tos.push_str(to);
+        if it.peek().is_some() {
+            froms.push_str("|");
+            tos.push_str("|");
+        }
+    }
+    return (froms, tos);
+}
 
 // pub const ZH_HANT_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.to.conv"));
 

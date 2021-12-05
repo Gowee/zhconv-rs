@@ -49,6 +49,8 @@ impl ZhConverter {
         converted
     }
 
+    // pub fn convert
+
     // pub fn convert_inplace(&self, text: &mut String) {
     //     let tbp = VecDeque::<&str>::new(); // to be pushed
     //     let mut wi = 0; // writing index

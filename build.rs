@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use std::collections::HashSet;
 use std::convert::TryInto;
 use std::env;
 use std::fs::{self, File};
@@ -33,6 +34,20 @@ fn main() {
         let mut fto = File::create(&dest_path_to).unwrap();
 
         pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()));
+
+        let olen = pairs.len();
+        pairs.dedup();
+        assert_eq!(olen, pairs.len(), "deduping pairs of {}", name);
+        assert_eq!(
+            pairs.len(),
+            pairs
+                .iter()
+                .map(|(from, _to_)| from)
+                .collect::<HashSet<_>>()
+                .len(),
+            "deduping keys of {}",
+            name
+        );
 
         for e in Itertools::intersperse(pairs.iter().map(|(from, _to)| from.as_str()), "|") {
             write!(ffrom, "{}", e).unwrap();
