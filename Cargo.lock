@@ -1411,6 +1411,7 @@ dependencies = [
 name = "zhconv"
 version = "0.1.0"
 dependencies = [
+ "aho-corasick",
  "const_format",
  "criterion",
  "hex-literal",

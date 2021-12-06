@@ -3,6 +3,7 @@ use std::collections::HashMap;
 use itertools;
 use lazy_static::lazy_static;
 use regex::Regex;
+use aho_corasick::{AhoCorasickBuilder, MatchKind};
 
 use crate::converter::ZhConverter;
 
@@ -107,12 +108,13 @@ pub fn merge_convs(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String)
 /// Build a `ZhConverter` from a conversion table
 pub fn build_converter((froms, tos): (&str, &str)) -> ZhConverter {
     // dbg!(froms, tos);
-    let p = Regex::new(froms).unwrap();
+    // let p = Regex::new(froms).unwrap();
+    let ac = AhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build(froms.trim().split("|").map(|s| s.to_owned()).collect::<Vec<String>>());
     let m: HashMap<String, String> = itertools::zip(froms.trim().split("|"), tos.trim().split("|"))
         .map(|(a, b)| (a.to_owned(), b.to_owned()))
         .collect();
     // dbg!(&p,&m);
-    ZhConverter::new(p, m)
+    ZhConverter::new(ac, m)
 }
 
 // https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L144

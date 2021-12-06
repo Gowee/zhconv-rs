@@ -14,6 +14,7 @@ mwcommit = ""
 regex = "1.5"   
 lazy_static = "1.4"
 itertools = "0.10"
+aho-corasick = "0.7"
 
 [dev-dependencies]
 criterion = "0.3"
