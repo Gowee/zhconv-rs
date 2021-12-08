@@ -14,6 +14,10 @@ mwcommit = ""
 regex = "1.5"   
 lazy_static = "1.4"
 itertools = "0.10"
+oxilangtag = "0.1"
+strum = { version = "0.23", features = ["derive"] }
+once_cell = "1.8"
+paste = "*"
 
 [dev-dependencies]
 criterion = "0.3"
@@ -25,6 +29,7 @@ sha2 = "0.9"
 hex-literal = "0.3"
 regex = "1.5"
 itertools = "0.10"
+once_cell = "1.8"
 
 [[bench]]
 name = "zhconv_benchmark"

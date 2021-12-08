@@ -38,6 +38,7 @@ pub const ZH_SG_CONV: (&'static str, &'static str) = ZH_CN_CONV;
 /// Mainland Singapore-specific phrases conversion table
 pub const ZH_MY_CONV: (&'static str, &'static str) = ZH_SG_CONV;
 
+// Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L157
 lazy_static! {
     /// For `Zh2TWConverter`, merged from `ZH_HANT_CONV` and `ZH_TW_CONV`
     pub static ref ZH_HANT_TW_CONV: (&'static str, &'static str) =
