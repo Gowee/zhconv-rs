@@ -193,7 +193,7 @@ impl FromStr for Conv {
             || (None, s),
             |i| {
                 let (first, last) = s.split_at(i);
-                (Some(first), &last[1..])
+                (Some(first), &last[2..])
             },
         );
 

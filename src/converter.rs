@@ -86,6 +86,8 @@ impl ZhConverter {
     }
 
     pub fn convert_allowing_inline_rules(&self, text: &str) -> String {
+        // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855
+        //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
         let p1 = Lazy::new(|| Regex::new(r#"-\{"#).unwrap()); // TODO: exclude html
         let p2 = Lazy::new(|| Regex::new(r#"-\{|\}-"#).unwrap());
         let mut pos = 0;
