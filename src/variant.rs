@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 use std::convert::From;
+use std::fmt::{self, Display};
 use std::str::FromStr;
 // use std::convert::From;
 
@@ -26,6 +27,25 @@ pub enum Variant {
     ZhSG,
     ZhCN,
     // Unknown(String)
+}
+
+impl Variant {
+    #[inline(always)]
+    fn get_name(self) -> &'static str {
+        // actually, the name should also follow variant context, but just use these for simplicity
+        use Variant::*;
+        match self {
+            Zh => "原文", // 中文
+            ZhHant => "简体",
+            ZhHans => "繁体",
+            ZhTW => "臺灣",
+            ZhHK => "香港",
+            ZhMO => "澳門",
+            ZhMY => "大马",
+            ZhSG => "新加坡",
+            ZhCN => "大陆", // a.k.a mainland China
+        }
+    }
 }
 
 /// Map variants to text, e.g. `zh-hans:计算机; zh-hant:電腦;`
@@ -108,7 +128,8 @@ impl FromStr for VariantMap {
         // TODO: implement a clean iterator instead
         let mut parse_single = |s: &str| -> Result<(), Self::Err> {
             let (v, t) = s.split_at(s.find(':').ok_or(())?);
-            map.insert(Variant::from_str(v).map_err(|_| ())?, t.to_owned());
+            let t = &t[1..]; // strip ":"
+            map.insert(Variant::from_str(v.trim()).map_err(|_| ())?, t.trim().to_owned());
             Ok(())
         };
         let mut i = 0;
@@ -149,6 +170,15 @@ impl FromStr for VariantMap {
         // }
         // s.split(";")
         Ok(VariantMap(map))
+    }
+}
+
+impl Display for VariantMap {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        for (v, t) in self.0.iter() {
+            write!(f, "{}：{}；", v, t)?;
+        }
+        Ok(())
     }
 }
 

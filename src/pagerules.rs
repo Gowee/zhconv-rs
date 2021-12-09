@@ -3,13 +3,13 @@ use crate::{
     variant::{Variant, VariantMap},
 };
 
-/// A group of rules, corresponding to a [Module:CGroup](https://zh.wikipedia.org/wiki/Module:CGroup)
-pub struct CGroup {
+/// A set of rules, usually extracted from the wikitext of a page
+pub struct PageRules {
     title: Option<VariantMap>,
     conv_actions: Vec<ConvAction>,
 }
 
-impl CGroup {
+impl PageRules {
     pub fn get_title(&self, target: Variant) -> Option<&str> {
         // MEDIAWIKI: fallback applies to title conversion
         self.title
@@ -20,4 +20,8 @@ impl CGroup {
     pub fn as_conv_actions(&self) -> &[ConvAction] {
         &self.conv_actions
     }
+
+    // pub fn iter_adds(&self) -> impl Iterator<Item=&'> {
+
+    // }
 }

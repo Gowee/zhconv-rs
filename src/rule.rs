@@ -1,4 +1,5 @@
 use std::convert::AsRef;
+use std::fmt::{self, Display};
 use std::str::FromStr;
 
 use once_cell::sync::Lazy;
@@ -50,6 +51,18 @@ pub enum Action {
 pub enum RuleError {
     InvalidFlag(char),
     InvalidConv,
+}
+
+impl ConvRule {
+    pub fn write_output(&self, mut dest: impl fmt::Write, target: Variant) -> fmt::Result {
+        match self.output {
+            None => Ok(()),
+            Some(Output::Normal) => write!(dest, "{}", self.conv.get_text_by_target(target)),
+            Some(Output::VariantName) => write!(dest, "{}", target), // TODO: correct format?
+            // TODO: but mediawiki does not expect Unid when displaying description
+            Some(Output::Description) => write!(dest, "{}", self.conv),
+        }
+    }
 }
 
 impl FromStr for ConvRule {
@@ -134,6 +147,16 @@ pub enum Conv {
 }
 
 impl Conv {
+    pub fn get_text_by_target(&self, target: Variant) -> &str {
+        match self {
+            &Conv::Verbatim(ref inner) => inner.as_ref(),
+            &Conv::Bid(ref map) => map.get_text_with_fallback(target).unwrap(), // FIX:
+            &Conv::Unid(ref from, ref map) => {
+                todo!() // Unid should come with output
+            }
+        }
+    }
+
     pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
         match self {
             &Conv::Verbatim(ref inner) => vec![(inner, inner)],
@@ -145,6 +168,16 @@ impl Conv {
                     vec![]
                 }
             }
+        }
+    }
+}
+
+impl Display for Conv {
+    fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
+        match self {
+            &Conv::Verbatim(ref inner) => fmt.write_str(inner),
+            &Conv::Bid(ref map) => map.fmt(fmt),
+            &Conv::Unid(ref from, ref map) => write!(fmt, "{} ⇒ {}", from, map),
         }
     }
 }

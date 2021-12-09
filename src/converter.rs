@@ -1,36 +1,64 @@
 use std::collections::{BTreeMap, HashMap};
+use std::iter::Iterator;
+use std::str::FromStr;
 
-use lazy_static::lazy_static;
+use itertools::{self, Itertools};
+use once_cell::unsync::Lazy;
 use regex::Regex;
 
-use crate::{cgroup::CGroup, variant::Variant};
+use crate::{
+    pagerules::PageRules,
+    rule::{ConvAction, ConvRule},
+    variant::Variant,
+};
+
+const CONV_RULE_MAX_LEN: usize = 128;
 
 pub struct ZhConverter {
+    variant: Variant,
     regex: Regex,
     mapping: HashMap<String, String>, // Or str?
                                       // cgroups: Vec<Cgroup>
+                                      // mediawiki: bool
 }
 
 impl ZhConverter {
     pub fn new(regex: Regex, mapping: HashMap<String, String>) -> ZhConverter {
-        ZhConverter { regex, mapping }
+        ZhConverter {
+            variant: Variant::Zh,
+            regex,
+            mapping,
+        }
     }
 
     // pub fn set_cgroups()
 
+    #[inline]
     pub fn from_pairs(mut pairs: Vec<(String, String)>) -> ZhConverter {
         pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()));
-        let mut pat = String::with_capacity(pairs.len() * 2 + 1);
+        let size_hint = pairs.len() * 3 * 2 + 1; // TODO: correct?; 3: 3bytes / CJK characters in usual; 2: pair
+        Self::from_pairs_sorted(pairs.into_iter().map(|(from, to)| (from, to)), size_hint)
+    }
+
+    pub fn from_pairs_sorted<'i>(
+        pairs: impl Iterator<Item = (impl AsRef<str>, impl AsRef<str>)>,
+        size_hint: usize,
+    ) -> ZhConverter {
+        // TODO: panic if unsorted
+        // FIX: mediawiki
+        let mut pat = String::with_capacity(size_hint);
         let mut mapping = HashMap::new();
         let mut it = pairs.into_iter().peekable();
         while let Some((from, to)) = it.next() {
+            let (from, to) = (from.as_ref(), to.as_ref());
             pat.push_str(&from);
             if it.peek().is_some() {
                 pat.push_str("|");
             }
-            mapping.insert(from, to);
+            mapping.insert(from.to_owned(), to.to_owned());
         }
         ZhConverter {
+            variant: Variant::Zh, // TODO:
             regex: Regex::new(&pat).unwrap(),
             mapping,
         }
@@ -41,6 +69,7 @@ impl ZhConverter {
         let mut converted = String::with_capacity(text.len());
         let mut last = 0;
         let mut cnt = HashMap::<usize, usize>::new();
+        // leftmost-longest matching
         for (s, e) in self.regex.find_iter(text).map(|m| (m.start(), m.end())) {
             if s > last {
                 converted.push_str(&text[last..s]);
@@ -53,6 +82,83 @@ impl ZhConverter {
         }
         dbg!(cnt);
         converted.push_str(&text[last..]);
+        converted
+    }
+
+    pub fn convert_allowing_inline_rules(&self, text: &str) -> String {
+        let p1 = Lazy::new(|| Regex::new(r#"-\{"#).unwrap()); // TODO: exclude html
+        let p2 = Lazy::new(|| Regex::new(r#"-\{|\}-"#).unwrap());
+        let mut pos = 0;
+        let mut converted = String::with_capacity(text.len());
+        let mut starts = vec![];
+        let mut pieces = vec![];
+        // loop {
+        while let Some(m1) = p1.find_at(text, pos) {
+            // convert anything before the (possible) toplevel -{
+            // TODO: pass &mut String in
+            converted.push_str(&self.convert(&text[pos..m1.start()]));
+            if m1.as_str() != "-{" {
+                // not start tag, just something to exclude
+                converted.push_str(&text[m1.start()..m1.end()]); // TODO: adapt to nohtml
+                pos = m1.end();
+                continue;
+            }
+            // found toplevel -{
+            pos = m1.start() + 2;
+            starts.push(m1.start());
+            pieces.push(String::new());
+            while let Some(m2) = p2.find_at(text, pos) {
+                // let mut piece = String::from(&text[pos..m2.start()]);
+                if m2.as_str() == "-{" {
+                    // if there are two many open start tag, ignore the new nested rule
+                    if starts.len() >= 10 {
+                        pos += 2;
+                        continue;
+                    }
+                    // start tag
+                    starts.push(m2.start());
+                    pieces.last_mut().unwrap().push_str(&text[pos..m2.start()]);
+                    pieces.push(String::new()); // e.g. -{ zh: AAA -{
+                    pos = m2.end();
+                } else {
+                    // end tag
+                    dbg!(&starts, &pieces);
+                    let start = starts.pop().unwrap();
+                    let mut piece = pieces.pop().unwrap();
+                    dbg!(&piece);
+                    piece.push_str(&text[pos..m2.start()]);
+                    dbg!(&piece);
+                    let upper = if let Some(upper) = pieces.last_mut() {
+                        upper
+                    } else {
+                        &mut converted
+                    };
+                    if let Ok(rule) = ConvRule::from_str(&piece) {
+                        // just take it output; mutations to global rules are ignored
+                        rule.write_output(upper, self.variant).unwrap();
+                    } else {
+                        // rule is invalid
+                        // TODO: what should we do actually?
+                        // for now, we just do nothing to it
+                        upper.push_str(&piece);
+                    }
+                    pos = m2.end()
+                    // starts.last().unwrap()
+                }
+            }
+            while let Some(_start) = starts.pop() {
+                let piece = pieces.pop().unwrap();
+                converted.push_str("-{");
+                converted.push_str(&piece);
+            }
+            // TODO: produce convert(&text[pos..])
+        }
+        if pos < text.len() {
+            // no more conv rules, just convert and append
+            converted.push_str(&self.convert(&text[pos..]));
+        }
+        // }
+        // unimplemented!();
         converted
     }
 
@@ -77,7 +183,7 @@ pub struct ZhConverterBuilder<'t, 'c> {
     tables: Vec<(&'t str, &'t str)>,
     adds: BTreeMap<&'c str, &'c str>,
     removes: BTreeMap<&'c str, &'c str>,
-    inline_conv: bool
+    inline_conv: bool,
 }
 
 impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
@@ -103,11 +209,12 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
         self
     }
 
-    /// Add a [CGroup](https://zh.wikipedia.org/wiki/Module:CGroup) (a.k.a 公共轉換組)
-    ///
-    /// Rules in `CGroup` take the precedence over those specified via `table`.
-    pub fn cgroup(mut self, cgroup: &'c CGroup) -> Self {
-        for conv_action in cgroup.as_conv_actions().iter() {
+    //  [CGroup](https://zh.wikipedia.org/wiki/Module:CGroup) (a.k.a 公共轉換組)
+
+    // Add a set of rules extracted from a page
+    // / These rules take the same precedence over those specified via `table`.
+    pub fn page_rules(mut self, page_rules: impl Iterator<Item = &'c ConvAction>) -> Self {
+        for conv_action in page_rules {
             let map = if conv_action.adds() {
                 &mut self.adds
             } else {
@@ -122,23 +229,54 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
     }
 
     /// Add a single conversion pair
-    /// 
+    ///
     /// It takes the precedence over those specified via `table`. It shares the same precedence level with those specified via `cgroup`.
     pub fn add_conv(mut self, from: &'c str, to: &'c str) -> Self {
         self.adds.insert(from, to);
         self
     }
-    
+
     /// Remove a single conversion pair
-    /// 
-    /// Any rule with the same `from`, whether specified via `add_conv`, `cgroup` or `table`, is removed. 
+    ///
+    /// Any rule with the same `from`, whether specified via `add_conv`, `cgroup` or `table`, is removed.
     pub fn remove_conv(mut self, from: &'c str, to: &'c str) -> Self {
         self.removes.insert(from, to);
         self
     }
 
     pub fn build(self) -> ZhConverter {
-        
-        unimplemented!()
+        let Self {
+            target: _target,
+            tables,
+            adds,
+            removes,
+            inline_conv,
+        } = self;
+        let size_hint = tables.iter().map(|&table| table.0.len() + 1).sum::<usize>() - 1
+            + if adds.is_empty() {
+                0
+            } else {
+                1 + adds.len() * 4 - 1
+            }
+            - (removes.len() * 4 - 1);
+        let cmp_fn = |&pair1: &(&str, &str), &pair2: &(&str, &str)| pair1.0.len() >= pair2.0.len();
+        let it = itertools::kmerge_by(
+            tables
+                .into_iter() // earlier tables have greater precedence
+                .map(|(froms, tos)| itertools::zip(froms.trim().split("|"), tos.trim().split("|"))),
+            cmp_fn,
+        )
+        .merge_by(adds.into_iter().map(|(from, to)| (from, to)), cmp_fn)
+        .dedup_by(|pair1, pair2| pair1.0 == pair2.0)
+        .filter(|(from, _to)| !removes.contains_key(from));
+        // TODO: GROUP > tables
+        ZhConverter::from_pairs_sorted(it, size_hint)
+        // for (from, to) in it {
+        //     if self.removes.contains_key(&from) {
+        //         continue;
+        //     }
+        // }
+
+        // unimplemented!()
     }
 }

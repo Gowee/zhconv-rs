@@ -8,7 +8,7 @@ fn main() {
     let mut input = String::new();
     io::stdin().lock().read_to_string(&mut input).unwrap();
     // dbg!(*ZH_HANT_TW_CONV);
-    println!("{}", zhconv::Zh2HantConverter.convert(&input));
+    println!("{}", zhconv::Zh2HantConverter.convert_allowing_inline_rules(&input));
     // dbg!(ZH_HANT_TW_CONV);
     // let c1 = make_converter(ZH_TW_CONV);
     // let c2 = &zhconv::Zh2CNConverter;
