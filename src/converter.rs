@@ -12,7 +12,8 @@ use crate::{
     variant::Variant,
 };
 
-const CONV_RULE_MAX_LEN: usize = 128;
+// Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L76
+const NESTED_RULE_MAX_DEPTH: usize = 10;
 
 pub struct ZhConverter {
     variant: Variant,
@@ -113,7 +114,7 @@ impl ZhConverter {
                 // let mut piece = String::from(&text[pos..m2.start()]);
                 if m2.as_str() == "-{" {
                     // if there are two many open start tag, ignore the new nested rule
-                    if starts.len() >= 10 {
+                    if starts.len() >= NESTED_RULE_MAX_DEPTH {
                         pos += 2;
                         continue;
                     }
@@ -147,7 +148,7 @@ impl ZhConverter {
                     pos = m2.end();
                     if pieces.is_empty() {
                         // return to toplevel
-                        break; 
+                        break;
                     }
                     // starts.last().unwrap()
                 }

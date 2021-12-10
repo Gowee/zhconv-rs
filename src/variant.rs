@@ -36,8 +36,8 @@ impl Variant {
         use Variant::*;
         match self {
             Zh => "原文", // 中文
-            ZhHant => "简体",
-            ZhHans => "繁体",
+            ZhHant => "繁体",
+            ZhHans => "简体",
             ZhTW => "臺灣",
             ZhHK => "香港",
             ZhMO => "澳門",
