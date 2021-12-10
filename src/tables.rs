@@ -7,63 +7,63 @@ use regex::Regex;
 use crate::converter::ZhConverter;
 
 /// Simplified Chinese to Traditional Chinese conversion table, including no region-specific phrases
-pub const ZH_HANT_CONV: (&'static str, &'static str) = (
+pub const ZH_HANT_TABLE: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.to.conv")),
 );
 /// Traditional Chinese to Simplified Chinese conversion table, including no region-specific phrases
-pub const ZH_HANS_CONV: (&'static str, &'static str) = (
+pub const ZH_HANS_TABLE: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.to.conv")),
 );
 /// Taiwan-specific phrases conversion table
-pub const ZH_TW_CONV: (&'static str, &'static str) = (
+pub const ZH_TW_TABLE: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2TW.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2TW.to.conv")),
 );
 /// Hong Kong-specific phrases conversion table
-pub const ZH_HK_CONV: (&'static str, &'static str) = (
+pub const ZH_HK_TABLE: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2HK.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2HK.to.conv")),
 );
 /// Macau-specific phrases conversion table
-pub const ZH_MO_CONV: (&'static str, &'static str) = ZH_HK_CONV;
+pub const ZH_MO_TABLE: (&'static str, &'static str) = ZH_HK_TABLE;
 /// Mainland China-specific phrases conversion table
-pub const ZH_CN_CONV: (&'static str, &'static str) = (
+pub const ZH_CN_TABLE: (&'static str, &'static str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2CN.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2CN.to.conv")),
 );
 /// Mainland Singapore-specific phrases conversion table
-pub const ZH_SG_CONV: (&'static str, &'static str) = ZH_CN_CONV;
+pub const ZH_SG_TABLE: (&'static str, &'static str) = ZH_CN_TABLE;
 /// Mainland Singapore-specific phrases conversion table
-pub const ZH_MY_CONV: (&'static str, &'static str) = ZH_SG_CONV;
+pub const ZH_MY_TABLE: (&'static str, &'static str) = ZH_SG_TABLE;
 
 // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L157
 lazy_static! {
-    /// For `Zh2TWConverter`, merged from `ZH_HANT_CONV` and `ZH_TW_CONV`
-    pub static ref ZH_HANT_TW_CONV: (&'static str, &'static str) =
-        merge_convs_leaked(ZH_TW_CONV, ZH_HANT_CONV);
-    /// For `Zh2HKConverter`, merged from `ZH_HANT_CONV` and `ZH_HK_CONV`
-    pub static ref ZH_HANT_HK_CONV: (&'static str, &'static str) =
-        merge_convs_leaked(ZH_HK_CONV, ZH_HANT_CONV);
-    /// For `Zh2MOConverter`, merged from `ZH_HANT_CONV` and `ZH_MO_CONV`
-    pub static ref ZH_HANT_MO_CONV: (&'static str, &'static str) =
-        merge_convs_leaked(ZH_MO_CONV, ZH_HANT_CONV);
-    /// For `Zh2CNConverter`, merged from `ZH_HANS_CONV` and `ZH_CN_CONV`
-    pub static ref ZH_HANS_CN_CONV: (&'static str, &'static str) =
-        merge_convs_leaked(ZH_CN_CONV, ZH_HANS_CONV);
-    /// For `Zh2CNConverter`, merged from `ZH_HANS_CONV` and `ZH_SG_CONV`
-    pub static ref ZH_HANS_SG_CONV: (&'static str, &'static str) =
-        merge_convs_leaked(ZH_SG_CONV, ZH_HANS_CONV);
-    /// For `Zh2CNConverter`, merged from `ZH_HANS_CONV` and `ZH_MY_CONV`
-    pub static ref ZH_HANS_MY_CONV: (&'static str, &'static str) =
-        merge_convs_leaked(ZH_MY_CONV, ZH_HANS_CONV);
+    /// For `ZH_TO_TW_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_TW_TABLE`
+    pub static ref ZH_HANT_TW_TABLE: (&'static str, &'static str) =
+        merge_tables_leaked(ZH_TW_TABLE, ZH_HANT_TABLE);
+    /// For `ZH_TO_HK_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_HK_TABLE`
+    pub static ref ZH_HANT_HK_TABLE: (&'static str, &'static str) =
+        merge_tables_leaked(ZH_HK_TABLE, ZH_HANT_TABLE);
+    /// For `ZH_TO_MO_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_MO_TABLE`
+    pub static ref ZH_HANT_MO_TABLE: (&'static str, &'static str) =
+        merge_tables_leaked(ZH_MO_TABLE, ZH_HANT_TABLE);
+    /// For `ZH_TO_CN_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_CN_TABLE`
+    pub static ref ZH_HANS_CN_TABLE: (&'static str, &'static str) =
+        merge_tables_leaked(ZH_CN_TABLE, ZH_HANS_TABLE);
+    /// For `ZH_TO_CN_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_SG_TABLE`
+    pub static ref ZH_HANS_SG_TABLE: (&'static str, &'static str) =
+        merge_tables_leaked(ZH_SG_TABLE, ZH_HANS_TABLE);
+    /// For `ZH_TO_CN_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_MY_TABLE`
+    pub static ref ZH_HANS_MY_TABLE: (&'static str, &'static str) =
+        merge_tables_leaked(ZH_MY_TABLE, ZH_HANS_TABLE);
 }
 
 // TODO: How to make these lazy consts more idiomatic?
 
-fn merge_convs_leaked(conv1: (&str, &str), conv2: (&str, &str)) -> (&'static str, &'static str) {
-    let (froms, tos) = merge_convs(conv1, conv2);
+fn merge_tables_leaked(conv1: (&str, &str), conv2: (&str, &str)) -> (&'static str, &'static str) {
+    let (froms, tos) = merge_tables(conv1, conv2);
     (
         Box::leak(froms.into_boxed_str()),
         Box::leak(tos.into_boxed_str()),
@@ -71,7 +71,7 @@ fn merge_convs_leaked(conv1: (&str, &str), conv2: (&str, &str)) -> (&'static str
 }
 
 /// Merge two conversion table
-pub fn merge_convs(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String) {
+pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String) {
     let mut froms = String::with_capacity(conv1.0.len() + conv2.0.len());
     let mut tos = String::with_capacity(conv1.1.len() + conv2.1.len());
     let mut it = itertools::Itertools::merge_by(

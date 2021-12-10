@@ -8,73 +8,73 @@ const DATA3185K: &'static str = include_str!("data3185k.txt");
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("build zh-Hant-HK", |b| {
-        b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANT_CONV), black_box(ZH_HK_CONV)))
+        b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANT_TABLE), black_box(ZH_HK_TABLE)))
     });
     c.bench_function("build zh-Hant-MO", |b| {
-        b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANT_CONV), black_box(ZH_MO_CONV)))
+        b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANT_TABLE), black_box(ZH_MO_TABLE)))
     });
     c.bench_function("build zh-Hans-CN", |b| {
-        b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANS_CONV), black_box(ZH_CN_CONV)))
+        b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_CN_TABLE)))
     });
     c.bench_function("build zh-Hans-SG", |b| {
-        b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANS_CONV), black_box(ZH_SG_CONV)))
+        b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_SG_TABLE)))
     });
     c.bench_function("build zh-Hans-MY", |b| {
-        b.iter_with_large_drop(|| merge_convs(black_box(ZH_HANS_CONV), black_box(ZH_MY_CONV)))
+        b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_MY_TABLE)))
     });
     c.bench_function("load zh2Hant", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(ZH_HANT_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(ZH_HANT_TABLE)))
     });
     c.bench_function("load zh2Hans", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(ZH_HANS_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(ZH_HANS_TABLE)))
     });
     c.bench_function("load zh2TW", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_TW_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_TW_TABLE)))
     });
     c.bench_function("load zh2HK", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_HK_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_HK_TABLE)))
     });
     c.bench_function("load zh2MO", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_MO_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_MO_TABLE)))
     });
     c.bench_function("load zh2CN", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_CN_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_CN_TABLE)))
     });
     c.bench_function("load zh2SG", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_SG_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_SG_TABLE)))
     });
     c.bench_function("load zh2MY", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_MY_CONV)))
+        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_MY_TABLE)))
     });
     // c.bench_function("load all", |b| {
     //     b.iter_with_large_drop(|| {
     //         (
-    //             make_converter(black_box(ZH_HANS_CONV)),
-    //             make_converter(black_box(ZH_HANT_CONV)),
-    //             make_converter(black_box(ZH_CN_CONV)),
-    //             make_converter(black_box(ZH_HK_CONV)),
-    //             make_converter(black_box(ZH_TW_CONV)),
+    //             make_converter(black_box(ZH_HANS_TABLE)),
+    //             make_converter(black_box(ZH_HANT_TABLE)),
+    //             make_converter(black_box(ZH_CN_TABLE)),
+    //             make_converter(black_box(ZH_HK_TABLE)),
+    //             make_converter(black_box(ZH_TW_TABLE)),
     //         )
     //     })
     // });
 
     c.bench_function("zh2TW data54k", |b| {
-        b.iter_with_large_drop(|| zhconv::Zh2TWConverter.convert(DATA54K))
+        b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA54K))
     });
     c.bench_function("zh2CN data54k", |b| {
-        b.iter_with_large_drop(|| zhconv::Zh2CNConverter.convert(DATA54K))
+        b.iter_with_large_drop(|| zhconv::ZH_TO_CN_CONVERTER.convert(DATA54K))
     });
     c.bench_function("zh2Hant data689k", |b| {
-        b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA689K))
+        b.iter_with_large_drop(|| zhconv::ZH_TO_HANT_CONVERTER.convert(DATA689K))
     });
     c.bench_function("zh2TW data689k", |b| {
-        b.iter_with_large_drop(|| zhconv::Zh2TWConverter.convert(DATA689K))
+        b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA689K))
     });
     c.bench_function("zh2Hant data3185k", |b| {
-        b.iter_with_large_drop(|| zhconv::Zh2HantConverter.convert(DATA3185K))
+        b.iter_with_large_drop(|| zhconv::ZH_TO_HANT_CONVERTER.convert(DATA3185K))
     });
     c.bench_function("zh2TW data3185k", |b| {
-        b.iter_with_large_drop(|| zhconv::Zh2TWConverter.convert(DATA3185K))
+        b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA3185K))
     });
 }
 
