@@ -58,7 +58,15 @@ impl ConvRule {
         match self.output {
             None => Ok(()),
             Some(Output::Normal) => write!(dest, "{}", self.conv.get_text_by_target(target)),
-            Some(Output::VariantName) => write!(dest, "{}", target), // TODO: correct format?
+            Some(Output::VariantName) => write!(
+                dest,
+                "{}",
+                self.conv
+                    .as_verbatim()
+                    .and_then(|v| Variant::from_str(v).ok())
+                    .map(|v| v.get_name())
+                    .unwrap_or("")
+            ), // TODO: correct format?
             // TODO: but mediawiki does not expect Unid when displaying description
             Some(Output::Description) => write!(dest, "{}", self.conv),
         }
@@ -115,17 +123,28 @@ impl FromStr for ConvRule {
                 }
                 // output nothing
                 'H' => {
+                    action = Some(Action::Add);
                     output = None;
                 }
-                // output as normal (by default)
-                'S' => {}
+                'S' => {
+                    // output as normal (by default)
+                }
+                'A' => {
+                    // A implies +S
+                    action = Some(Action::Add)
+                }
                 'T' => {
                     set_title = true;
+                    output = None
                 }
                 unknown => return Err(RuleError::InvalidFlag(unknown)),
             }
         }
-        let conv = Conv::from_str(conv).map_err(|_| RuleError::InvalidConv)?;
+        let conv = if output == Some(Output::VariantName) {
+            Conv::Verbatim(conv.to_owned())
+        } else {
+            Conv::from_str(conv).map_err(|_| RuleError::InvalidConv)?
+        };
         Ok(Self {
             action,
             output,
@@ -139,6 +158,7 @@ impl FromStr for ConvRule {
 #[derive(Debug, Clone)]
 pub enum Conv {
     /// Not a conversion, just return the inner rule as is, e.g. `-{简体字繁體字}-`
+    /// For flag `N`, this stores the right-side param in the raw format.
     Verbatim(String),
     /// Bi-directional mapping, e.g. `-{zh-hans:计算机; zh-hant:電腦;}-`.
     Bid(VariantMap),
@@ -147,6 +167,15 @@ pub enum Conv {
 }
 
 impl Conv {
+    #[inline(always)]
+    pub fn as_verbatim(&self) -> Option<&str> {
+        match self {
+            Conv::Verbatim(inner) => Some(inner),
+            _ => None,
+        }
+    }
+
+    #[inline]
     pub fn get_text_by_target(&self, target: Variant) -> &str {
         match self {
             &Conv::Verbatim(ref inner) => inner.as_ref(),
@@ -157,6 +186,7 @@ impl Conv {
         }
     }
 
+    #[inline]
     pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
         match self {
             &Conv::Verbatim(ref inner) => vec![(inner, inner)],

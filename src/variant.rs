@@ -31,7 +31,7 @@ pub enum Variant {
 
 impl Variant {
     #[inline(always)]
-    fn get_name(self) -> &'static str {
+    pub fn get_name(self) -> &'static str {
         // actually, the name should also follow variant context, but just use these for simplicity
         use Variant::*;
         match self {
@@ -129,7 +129,10 @@ impl FromStr for VariantMap {
         let mut parse_single = |s: &str| -> Result<(), Self::Err> {
             let (v, t) = s.split_at(s.find(':').ok_or(())?);
             let t = &t[1..]; // strip ":"
-            map.insert(Variant::from_str(v.trim()).map_err(|_| ())?, t.trim().to_owned());
+            map.insert(
+                Variant::from_str(v.trim()).map_err(|_| ())?,
+                t.trim().to_owned(),
+            );
             Ok(())
         };
         let mut i = 0;
@@ -176,7 +179,8 @@ impl FromStr for VariantMap {
 impl Display for VariantMap {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         for (v, t) in self.0.iter() {
-            write!(f, "{}：{}；", v, t)?;
+            // TODO: insertion order
+            write!(f, "{}：{}；", v.get_name(), t)?;
         }
         Ok(())
     }
