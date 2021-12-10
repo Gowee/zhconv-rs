@@ -81,3 +81,11 @@ macro_rules! get_with_fallback {
     };
 }
 pub(crate) use get_with_fallback;
+
+macro_rules! for_wasm {
+    ($($item:item)*) => {$(
+        #[cfg(target_arch = "wasm32")]
+        $item
+    )*}
+}
+pub(crate) use for_wasm;

@@ -1,5 +1,6 @@
 use std::collections::{BTreeMap, HashMap};
-use std::iter::Iterator;
+use std::fmt::Write;
+use std::iter::IntoIterator;
 use std::str::FromStr;
 
 use itertools::{self, Itertools};
@@ -37,11 +38,16 @@ impl ZhConverter {
     #[inline]
     pub fn from_pairs(mut pairs: Vec<(String, String)>) -> ZhConverter {
         pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()));
-        let size_hint = pairs.len() * 3 * 2 + 1; // TODO: correct?; 3: 3bytes / CJK characters in usual; 2: pair
-        Self::from_pairs_sorted(pairs.into_iter().map(|(from, to)| (from, to)), size_hint)
+        let size_hint = (pairs.len() * (3 + 1)).saturating_sub(1); // TODO: correct?; 3: 3bytes / CJK characters in usual; 1 for |
+        Self::from_pairs_sorted(
+            Variant::Zh, /* TODO: */
+            pairs.into_iter().map(|(from, to)| (from, to)),
+            size_hint,
+        )
     }
 
     pub fn from_pairs_sorted<'i>(
+        target: Variant,
         pairs: impl Iterator<Item = (impl AsRef<str>, impl AsRef<str>)>,
         size_hint: usize,
     ) -> ZhConverter {
@@ -59,33 +65,43 @@ impl ZhConverter {
             mapping.insert(from.to_owned(), to.to_owned());
         }
         ZhConverter {
-            variant: Variant::Zh, // TODO:
+            variant: target,
             regex: Regex::new(&pat).unwrap(),
             mapping,
         }
     }
 
+    /// Convert a text
     pub fn convert(&self, text: &str) -> String {
+        let mut output = String::with_capacity(text.len());
+        self.converted(text, &mut output);
+        output
+    }
+
+    /// Same as [`convert`], except that it takes a `&mut String` as dest instead of returning a `String`
+    pub fn converted(&self, text: &str, output: &mut String) {
         // Ref: https://github.dev/rust-lang/regex/blob/5197f21287344d2994f9cf06758a3ea30f5a26c3/src/re_trait.rs#L192
-        let mut converted = String::with_capacity(text.len());
         let mut last = 0;
         let mut cnt = HashMap::<usize, usize>::new();
         // leftmost-longest matching
         for (s, e) in self.regex.find_iter(text).map(|m| (m.start(), m.end())) {
             if s > last {
-                converted.push_str(&text[last..s]);
+                output.push_str(&text[last..s]);
             }
             // if text[s..e].chars().count() > 2{
             *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
             // }
-            converted.push_str(&self.mapping.get(&text[s..e]).unwrap());
+            output.push_str(&self.mapping.get(&text[s..e]).unwrap());
             last = e;
         }
         dbg!(cnt);
-        converted.push_str(&text[last..]);
-        converted
+        output.push_str(&text[last..]);
     }
 
+    /// Convert a text with inline conv rules parsed
+    ///
+    /// It only processes the display output of inline rules. Mutations to global rules specified
+    /// via inline rules are just ignored.
     pub fn convert_allowing_inline_rules(&self, text: &str) -> String {
         // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
@@ -218,10 +234,21 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
 
     //  [CGroup](https://zh.wikipedia.org/wiki/Module:CGroup) (a.k.a 公共轉換組)
 
-    // Add a set of rules extracted from a page
-    // / These rules take the same precedence over those specified via `table`.
-    pub fn page_rules(mut self, page_rules: impl Iterator<Item = &'c ConvAction>) -> Self {
-        for conv_action in page_rules {
+    /// Add a set of rules extracted from a page
+    ///
+    /// A helper wrapper around `conv_actions`. These rules take the higher precedence over those
+    /// specified via `table`.
+    #[inline(always)]
+    pub fn page_rules(mut self, page_rules: &'c PageRules) -> Self {
+        self.conv_actions(page_rules.as_conv_actions())
+    }
+
+    /// Add a set of rules
+    ///
+    /// These rules take the higher precedence over those specified via `table`.
+    pub fn conv_actions(mut self, conv_actions: impl IntoIterator<Item = &'c ConvAction>) -> Self {
+        for conv_action in conv_actions {
+            dbg!(&conv_action);
             let map = if conv_action.adds() {
                 &mut self.adds
             } else {
@@ -231,6 +258,7 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
             for (from, to) in conv.get_convs_by_target(self.target).into_iter() {
                 map.insert(from, to);
             }
+            dbg!(&map);
         }
         self
     }
@@ -253,19 +281,24 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
 
     pub fn build(self) -> ZhConverter {
         let Self {
-            target: _target,
+            target,
             tables,
             adds,
             removes,
             inline_conv,
         } = self;
-        let size_hint = tables.iter().map(|&table| table.0.len() + 1).sum::<usize>() - 1
+        dbg!(&adds, &removes);
+        let size_hint = (tables
+            .iter()
+            .map(|&table| table.0.len() + 1)
+            .sum::<usize>()
+            .saturating_sub(1)
             + if adds.is_empty() {
                 0
             } else {
-                1 + adds.len() * 4 - 1
-            }
-            - (removes.len() * 4 - 1);
+                (1 + adds.len() * 4).saturating_sub(1)
+            })
+        .saturating_sub((removes.len() * 4).saturating_sub(1));
         let cmp_fn = |&pair1: &(&str, &str), &pair2: &(&str, &str)| pair1.0.len() >= pair2.0.len();
         let it = itertools::kmerge_by(
             tables
@@ -277,7 +310,7 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
         .dedup_by(|pair1, pair2| pair1.0 == pair2.0)
         .filter(|(from, _to)| !removes.contains_key(from));
         // TODO: GROUP > tables
-        ZhConverter::from_pairs_sorted(it, size_hint)
+        ZhConverter::from_pairs_sorted(target, it, size_hint)
         // for (from, to) in it {
         //     if self.removes.contains_key(&from) {
         //         continue;

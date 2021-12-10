@@ -1,6 +1,6 @@
 use std::io::{self, Read};
 
-use zhconv::{convs::*, ZhConverter};
+use zhconv::{convs::*, Variant, ZhConverter};
 
 // const t: &str = include_str!("../benches/data689k.txt");
 
@@ -8,10 +8,7 @@ fn main() {
     let mut input = String::new();
     io::stdin().lock().read_to_string(&mut input).unwrap();
     // dbg!(*ZH_HANT_TW_CONV);
-    println!(
-        "{}",
-        zhconv::Zh2HantConverter.convert_allowing_inline_rules(&input)
-    );
+    println!("{}", zhconv::zhconv_mw(&input, Variant::ZhTW));
     // dbg!(ZH_HANT_TW_CONV);
     // let c1 = make_converter(ZH_TW_CONV);
     // let c2 = &zhconv::Zh2CNConverter;

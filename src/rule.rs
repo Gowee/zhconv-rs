@@ -28,16 +28,17 @@ use crate::{
 
 #[derive(Debug, Clone)]
 pub struct ConvRule {
-    action: Option<Action>,
-    output: Option<Output>,
-    conv: Conv,
-    set_title: bool,
+    pub(crate) action: Option<Action>,
+    pub(crate) output: Option<Output>,
+    pub(crate) conv: Option<Conv>,
+    pub(crate) set_title: bool,
 }
 
-#[derive(Debug, Copy, Clone, PartialEq, Eq)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub enum Output {
     Normal,
-    VariantName,
+    VariantName(Variant),
+    Verbatim(String),
     Description,
 }
 
@@ -51,24 +52,40 @@ pub enum Action {
 pub enum RuleError {
     InvalidFlag(char),
     InvalidConv,
+    InvalidConvForTitle,
+    InvalidVariant,
 }
 
 impl ConvRule {
     pub fn write_output(&self, mut dest: impl fmt::Write, target: Variant) -> fmt::Result {
-        match self.output {
+        match &self.output {
             None => Ok(()),
-            Some(Output::Normal) => write!(dest, "{}", self.conv.get_text_by_target(target)),
-            Some(Output::VariantName) => write!(
+            Some(Output::Verbatim(inner)) => write!(dest, "{}", inner),
+            Some(Output::Normal) => write!(
                 dest,
                 "{}",
                 self.conv
-                    .as_verbatim()
-                    .and_then(|v| Variant::from_str(v).ok())
-                    .map(|v| v.get_name())
+                    .as_ref()
+                    .map(|c| c.get_text_by_target(target))
                     .unwrap_or("")
-            ), // TODO: correct format?
+            ), // unwrap?
+            Some(Output::VariantName(variant)) => write!(dest, "{}", variant.get_name()), // TODO: correct format?
             // TODO: but mediawiki does not expect Unid when displaying description
-            Some(Output::Description) => write!(dest, "{}", self.conv),
+            Some(Output::Description) => {
+                if let Some(conv) = self.conv.as_ref() {
+                    write!(dest, "{}", conv)
+                } else {
+                    Ok(())
+                }
+            }
+        }
+    }
+
+    pub fn into_conv_action(self) -> Option<ConvAction> {
+        if let (Some(action), Some(conv)) = (self.action, self.conv) {
+            Some(ConvAction(action, conv))
+        } else {
+            None
         }
     }
 }
@@ -77,7 +94,7 @@ impl FromStr for ConvRule {
     type Err = RuleError;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        let (flags, conv) = s.find('|').map_or_else(
+        let (flags, body) = s.find('|').map_or_else(
             || ("", s),
             |i| {
                 let (first, last) = s.split_at(i);
@@ -85,12 +102,24 @@ impl FromStr for ConvRule {
             },
         );
         if flags.is_empty() {
-            return Ok(ConvRule {
-                action: None,
-                output: Some(Output::Normal),
-                conv: Conv::from_str(conv).map_err(|_| RuleError::InvalidConv)?,
-                set_title: false,
+            return Ok(if let Ok(conv) = Conv::from_str(body) {
+                // inline rule
+                ConvRule {
+                    action: None,
+                    output: Some(Output::Normal),
+                    conv: Some(conv),
+                    set_title: false,
+                }
+            } else {
+                // or verbatim
+                ConvRule {
+                    action: None,
+                    output: Some(Output::Verbatim(body.to_owned())),
+                    conv: None,
+                    set_title: false,
+                }
             });
+
             // return Ok(ConvRule {set_title: false, action: None, output: Output::Verbatim});
         }
         let mut set_title = false;
@@ -108,14 +137,16 @@ impl FromStr for ConvRule {
                 'R' => {
                     return Ok(ConvRule {
                         action: None,
-                        output: Some(Output::Normal),
-                        conv: Conv::from_str(conv).map_err(|_| RuleError::InvalidConv)?,
+                        output: Some(Output::Verbatim(body.to_owned())),
+                        conv: None,
                         set_title: false,
                     });
                 }
                 // output the variant name of the context
                 'N' => {
-                    output = Some(Output::VariantName);
+                    output = Some(Output::VariantName(
+                        Variant::from_str(body).map_err(|_| RuleError::InvalidVariant)?,
+                    ));
                 }
                 // output rule description
                 'D' => {
@@ -140,11 +171,14 @@ impl FromStr for ConvRule {
                 unknown => return Err(RuleError::InvalidFlag(unknown)),
             }
         }
-        let conv = if output == Some(Output::VariantName) {
-            Conv::Verbatim(conv.to_owned())
+        let conv = if let Some(Output::VariantName(_)) = output {
+            None
         } else {
-            Conv::from_str(conv).map_err(|_| RuleError::InvalidConv)?
+            Some(Conv::from_str(body).map_err(|_| RuleError::InvalidConv)?)
         };
+        if set_title && (conv.is_none() || !conv.as_ref().unwrap().is_bid()) {
+            return Err(RuleError::InvalidConvForTitle);
+        }
         Ok(Self {
             action,
             output,
@@ -157,9 +191,9 @@ impl FromStr for ConvRule {
 /// The inner of a [`ConvRule`] without flags and actions
 #[derive(Debug, Clone)]
 pub enum Conv {
-    /// Not a conversion, just return the inner rule as is, e.g. `-{简体字繁體字}-`
-    /// For flag `N`, this stores the right-side param in the raw format.
-    Verbatim(String),
+    //     /// Not a conversion, just return the inner rule as is, e.g. `-{简体字繁體字}-`
+    //     /// For flag `N`, this stores the right-side param in the raw format.
+    //     Verbatim(String),
     /// Bi-directional mapping, e.g. `-{zh-hans:计算机; zh-hant:電腦;}-`.
     Bid(VariantMap),
     /// Uni-directional mapping, e.g. `-{H|巨集=>zh-cn:宏;}- `.
@@ -167,10 +201,31 @@ pub enum Conv {
 }
 
 impl Conv {
+    // #[inline(always)]
+    // pub fn as_verbatim(&self) -> Option<&str> {
+    //     match self {
+    //         Conv::Verbatim(inner) => Some(inner),
+    //         _ => None,
+    //     }
+    // }
+
     #[inline(always)]
-    pub fn as_verbatim(&self) -> Option<&str> {
+    pub fn as_bid(&self) -> Option<&VariantMap> {
         match self {
-            Conv::Verbatim(inner) => Some(inner),
+            Conv::Bid(map) => Some(map),
+            _ => None,
+        }
+    }
+
+    #[inline(always)]
+    pub fn is_bid(&self) -> bool {
+        self.as_bid().is_some()
+    }
+
+    #[inline(always)]
+    pub fn into_bid(self) -> Option<VariantMap> {
+        match self {
+            Conv::Bid(map) => Some(map),
             _ => None,
         }
     }
@@ -178,10 +233,10 @@ impl Conv {
     #[inline]
     pub fn get_text_by_target(&self, target: Variant) -> &str {
         match self {
-            &Conv::Verbatim(ref inner) => inner.as_ref(),
+            // &Conv::Verbatim(ref inner) => inner.as_ref(),
             &Conv::Bid(ref map) => map.get_text_with_fallback(target).unwrap(), // FIX:
             &Conv::Unid(ref from, ref map) => {
-                todo!() // Unid should come with output
+                todo!() // Unid should not come with output
             }
         }
     }
@@ -189,10 +244,11 @@ impl Conv {
     #[inline]
     pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
         match self {
-            &Conv::Verbatim(ref inner) => vec![(inner, inner)],
+            // &Conv::Verbatim(ref inner) => vec![(inner, inner)],
             &Conv::Bid(ref map) => map.get_convs_by_target(target),
             &Conv::Unid(ref from, ref map) => {
                 if let Some(to) = map.get_text(target) {
+                    // TODO: fallback here?
                     vec![(from, to)]
                 } else {
                     vec![]
@@ -205,7 +261,7 @@ impl Conv {
 impl Display for Conv {
     fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
         match self {
-            &Conv::Verbatim(ref inner) => fmt.write_str(inner),
+            // &Conv::Verbatim(ref inner) => fmt.write_str(inner),
             &Conv::Bid(ref map) => map.fmt(fmt),
             &Conv::Unid(ref from, ref map) => write!(fmt, "{} ⇒ {}", from, map),
         }
@@ -236,7 +292,7 @@ impl FromStr for Conv {
         ) {
             (Some(from), Some(map)) => Ok(Conv::Unid(from.to_owned(), map)), // this allow -{FOO => }-
             (None, Some(map)) => Ok(Conv::Bid(map)),
-            (None, None) => Ok(Conv::Verbatim(s.to_owned())), // FIX: ?
+            (None, None) => Err(()),
             (Some(_), None) => {
                 Err(())
                 // TODO: treat as valid? e.g. -{FOO => BAR}-
@@ -246,7 +302,8 @@ impl FromStr for Conv {
     }
 }
 
-// A `([Action], [Conv])` with some helper methods
+// A `([Action], [Conv])` pair with some helper methods
+#[derive(Debug, Clone)]
 pub struct ConvAction(Action, Conv);
 
 impl ConvAction {
@@ -274,9 +331,11 @@ static REGEX_RULE: Lazy<Regex> = Lazy::new(|| Regex::new(r"-\{.+?\}-").unwrap())
 pub fn extract_rules<'s>(
     text: &'s str,
 ) -> Map<Matches<'static, 's>, impl FnMut(Match<'s>) -> Result<ConvRule, RuleError>> {
+    // note: the regex works a little differently from the parser in converter
     (*REGEX_RULE).find_iter(text).map(|m| {
         let rule = m.as_str();
-        ConvRule::from_str(&rule[2..rule.len() - 4])
+        dbg!(rule);
+        dbg!(ConvRule::from_str(&rule[2..rule.len() - 2]))
     })
 }
 

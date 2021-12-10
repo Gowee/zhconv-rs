@@ -5,19 +5,35 @@ edition = "2018"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
+description = "TBF"
 categories = []
-mwcommit = ""
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 regex = "1.5"   
 lazy_static = "1.4"
 itertools = "0.10"
-oxilangtag = "0.1"
 strum = { version = "0.23", features = ["derive"] }
 once_cell = "1.8"
-paste = "*"
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = "0.2"
+
+# The `console_error_panic_hook` crate provides better debugging of panics by
+# logging them with `console.error`. This is great for development, but requires
+# all the `std::fmt` and `std::panicking` infrastructure, so isn't great for
+# code size when deploying.
+console_error_panic_hook = {version = "0.1", default-features = true, optional = true}
+
+# # `wee_alloc` is a tiny allocator for wasm that is only ~1K in code size
+# # compared to the default allocator's ~10K. It is slower than the default
+# # allocator, however.
+# #
+# # Unfortunately, `wee_alloc` requires nightly Rust when targeting wasm for now.
+# wee_alloc = {version = "0.4", default-features = true, optional = true}
+
 
 [dev-dependencies]
 criterion = "0.3"
@@ -25,7 +41,7 @@ criterion = "0.3"
 [build-dependencies]
 const_format = "0.2"
 reqwest = { version = "0.11", features = ["default-tls", "blocking"]}
-sha2 = "0.9"
+sha2 = "0.10"
 hex-literal = "0.3"
 regex = "1.5"
 itertools = "0.10"
@@ -34,3 +50,6 @@ once_cell = "1.8"
 [[bench]]
 name = "zhconv_benchmark"
 harness = false
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

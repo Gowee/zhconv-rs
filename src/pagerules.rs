@@ -1,9 +1,12 @@
+use std::str::FromStr;
+
 use crate::{
-    rule::{Action, Conv, ConvAction},
+    rule::{extract_rules, Action, Conv, ConvAction},
     variant::{Variant, VariantMap},
 };
 
 /// A set of rules, usually extracted from the wikitext of a page
+#[derive(Debug, Clone)]
 pub struct PageRules {
     title: Option<VariantMap>,
     conv_actions: Vec<ConvAction>,
@@ -24,4 +27,38 @@ impl PageRules {
     // pub fn iter_adds(&self) -> impl Iterator<Item=&'> {
 
     // }
+}
+
+impl FromStr for PageRules {
+    type Err = (); // TODO: better error propagation
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        // pages are not structured data, so it is normal see a lot of incompliant usage of rule
+        // we just ignore them to ensure this function never return Err
+        let mut title = None;
+        let mut conv_actions = vec![];
+        // or should be propogate the error?
+        for rule in extract_rules(s).filter_map(|r| r.ok()) {
+            if rule.set_title {
+                if let Some(conv) = rule
+                    .conv
+                    .as_ref()
+                    .and_then(|conv| conv.as_bid())
+                    .map(|conv| conv.clone())
+                {
+                    // actually, our parser ensure this is Some(Bid)
+                    // just be more tolerant here
+                    title = Some(conv.clone()); // unwrap?
+                }
+            }
+            // it is absolutely normal that not all rules are global
+            if let Some(ca) = rule.into_conv_action() {
+                conv_actions.push(ca);
+            }
+        }
+        Ok(PageRules {
+            title,
+            conv_actions,
+        })
+    }
 }

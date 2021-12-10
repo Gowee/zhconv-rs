@@ -66,7 +66,7 @@ impl VariantMap {
         // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L65
         use Variant::*;
         // self.0.
-
+        dbg!(target, &self);
         match_fallback!(
             self.0,
             target,
