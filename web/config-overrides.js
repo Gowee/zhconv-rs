@@ -12,8 +12,8 @@ module.exports = function override(config, env) {
     new WasmPackPlugin({
       crateDirectory: path.resolve(__dirname, "../"),
       withTypeScript: true,
-      // it is 'index' by default, different from the default (package name) of wasm-pack
-      outName: 'cidr_aggregator'
+      // NOTE: it is 'index' by default, different from the default (package name) of wasm-pack
+      outName: 'zhconv'
     }));
 
   const wasmExtensionRegExp = /\.wasm$/;
