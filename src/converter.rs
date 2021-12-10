@@ -144,7 +144,11 @@ impl ZhConverter {
                         // for now, we just do nothing to it
                         upper.push_str(&piece);
                     }
-                    pos = m2.end()
+                    pos = m2.end();
+                    if pieces.is_empty() {
+                        // return to toplevel
+                        break; 
+                    }
                     // starts.last().unwrap()
                 }
             }
