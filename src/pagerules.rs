@@ -1,7 +1,7 @@
 use std::str::FromStr;
 
 use crate::{
-    rule::{extract_rules, Action, Conv, ConvAction},
+    rule::{extract_rules, ConvAction},
     variant::{Variant, VariantMap},
 };
 
@@ -40,12 +40,7 @@ impl FromStr for PageRules {
         // or should be propogate the error?
         for rule in extract_rules(s).filter_map(|r| r.ok()) {
             if rule.set_title {
-                if let Some(conv) = rule
-                    .conv
-                    .as_ref()
-                    .and_then(|conv| conv.as_bid())
-                    .map(|conv| conv.clone())
-                {
+                if let Some(conv) = rule.conv.as_ref().and_then(|conv| conv.as_bid()).cloned() {
                     // actually, our parser ensure this is Some(Bid)
                     // just be more tolerant here
                     title = Some(conv.clone()); // unwrap?

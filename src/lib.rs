@@ -23,8 +23,8 @@ pub use self::variant::Variant;
 
 lazy_static! {
     #[allow(non_upper_case_globals)]
-    pub static ref ZhBlankConverter: ZhConverter = tables::build_converter(("", ""));
-    pub static ref ZH2HANT_CONVERTER: ZhConverter = tables::build_converter(tables::ZH_HANT_TABLE);
+    pub static ref ZH_BLANK_CONVERTER: ZhConverter = tables::build_converter(("", ""));
+    pub static ref ZH_TO_HANT_CONVERTER: ZhConverter = tables::build_converter(tables::ZH_HANT_TABLE);
     pub static ref ZH_TO_HANS_CONVERTER: ZhConverter = tables::build_converter(tables::ZH_HANS_TABLE);
     pub static ref ZH_TO_TW_CONVERTER: ZhConverter = tables::build_converter(*tables::ZH_HANT_TW_TABLE);
     pub static ref ZH_TO_HK_CONVERTER: ZhConverter = tables::build_converter(*tables::ZH_HANT_HK_TABLE);
@@ -61,8 +61,8 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
 pub fn get_builtin_converter(target: Variant) -> &'static ZhConverter {
     use Variant::*;
     match target {
-        Zh => &*ZhBlankConverter,
-        ZhHant => &*ZH2HANT_CONVERTER,
+        Zh => &*ZH_BLANK_CONVERTER,
+        ZhHant => &*ZH_TO_HANT_CONVERTER,
         ZhHans => &*ZH_TO_HANS_CONVERTER,
         ZhTW => &*ZH_TO_TW_CONVERTER,
         ZhHK => &*ZH_TO_HK_CONVERTER,

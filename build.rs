@@ -13,9 +13,9 @@ use regex::Regex;
 use reqwest::blocking as reqwest;
 use sha2::{Digest, Sha256};
 
-const COMMIT: &'static str = "2682461394ee5c631b48f1cec8c0328634152558";
+const COMMIT: &str = "2682461394ee5c631b48f1cec8c0328634152558";
 const SHA256: [u8; 32] = hex!("0f0979dc3041c68884a31d3bbd181d30d3b95ad77cfa110404c59e794bf7df4b");
-const URL: &'static str = formatcp!("https://raw.githubusercontent.com/wikimedia/mediawiki/{}/includes/languages/data/ZhConversion.php", COMMIT);
+const URL: &str = formatcp!("https://raw.githubusercontent.com/wikimedia/mediawiki/{}/includes/languages/data/ZhConversion.php", COMMIT);
 
 fn main() {
     // let URL = format!("https://raw.githubusercontent.com/wikimedia/mediawiki/{}/includes/languages/data/ZhConversion.php", COMMIT);

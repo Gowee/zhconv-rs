@@ -7,36 +7,36 @@ use regex::Regex;
 use crate::converter::ZhConverter;
 
 /// Simplified Chinese to Traditional Chinese conversion table, including no region-specific phrases
-pub const ZH_HANT_TABLE: (&'static str, &'static str) = (
+pub const ZH_HANT_TABLE: (&str, &str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.to.conv")),
 );
 /// Traditional Chinese to Simplified Chinese conversion table, including no region-specific phrases
-pub const ZH_HANS_TABLE: (&'static str, &'static str) = (
+pub const ZH_HANS_TABLE: (&str, &str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.to.conv")),
 );
 /// Taiwan-specific phrases conversion table
-pub const ZH_TW_TABLE: (&'static str, &'static str) = (
+pub const ZH_TW_TABLE: (&str, &str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2TW.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2TW.to.conv")),
 );
 /// Hong Kong-specific phrases conversion table
-pub const ZH_HK_TABLE: (&'static str, &'static str) = (
+pub const ZH_HK_TABLE: (&str, &str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2HK.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2HK.to.conv")),
 );
 /// Macau-specific phrases conversion table
-pub const ZH_MO_TABLE: (&'static str, &'static str) = ZH_HK_TABLE;
+pub const ZH_MO_TABLE: (&str, &str) = ZH_HK_TABLE;
 /// Mainland China-specific phrases conversion table
-pub const ZH_CN_TABLE: (&'static str, &'static str) = (
+pub const ZH_CN_TABLE: (&str, &str) = (
     include_str!(concat!(env!("OUT_DIR"), "/zh2CN.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/zh2CN.to.conv")),
 );
 /// Mainland Singapore-specific phrases conversion table
-pub const ZH_SG_TABLE: (&'static str, &'static str) = ZH_CN_TABLE;
+pub const ZH_SG_TABLE: (&str, &str) = ZH_CN_TABLE;
 /// Mainland Singapore-specific phrases conversion table
-pub const ZH_MY_TABLE: (&'static str, &'static str) = ZH_SG_TABLE;
+pub const ZH_MY_TABLE: (&str, &str) = ZH_SG_TABLE;
 
 // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L157
 lazy_static! {
@@ -75,8 +75,8 @@ pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String
     let mut froms = String::with_capacity(conv1.0.len() + conv2.0.len());
     let mut tos = String::with_capacity(conv1.1.len() + conv2.1.len());
     let mut it = itertools::Itertools::merge_by(
-        itertools::zip(conv1.0.trim().split("|"), conv1.1.trim().split("|")),
-        itertools::zip(conv2.0.trim().split("|"), conv2.1.trim().split("|")),
+        itertools::zip(conv1.0.trim().split('|'), conv1.1.trim().split('|')),
+        itertools::zip(conv2.0.trim().split('|'), conv2.1.trim().split('|')),
         |pair1, pair2| pair1.0.len() >= pair2.0.len(),
     )
     .peekable();
@@ -84,11 +84,11 @@ pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String
         froms.push_str(from);
         tos.push_str(to);
         if it.peek().is_some() {
-            froms.push_str("|");
-            tos.push_str("|");
+            froms.push('|');
+            tos.push('|');
         }
     }
-    return (froms, tos);
+    (froms, tos)
 }
 
 // pub const ZH_HANT_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.to.conv"));
@@ -109,7 +109,7 @@ pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String
 pub fn build_converter((froms, tos): (&str, &str)) -> ZhConverter {
     // dbg!(froms, tos);
     let p = Regex::new(froms).unwrap();
-    let m: HashMap<String, String> = itertools::zip(froms.trim().split("|"), tos.trim().split("|"))
+    let m: HashMap<String, String> = itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
         .map(|(a, b)| (a.to_owned(), b.to_owned()))
         .collect();
     // dbg!(&p,&m);

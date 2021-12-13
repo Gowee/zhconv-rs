@@ -6,10 +6,7 @@ use once_cell::sync::Lazy;
 use regex::{Match, Matches, Regex};
 use std::iter::Map;
 
-use crate::{
-    utils::split_once,
-    variant::{Variant, VariantMap},
-};
+use crate::variant::{Variant, VariantMap};
 
 /// A single rule used for language conversion, usually extracted from wikitext in the syntax `-{ }-`, as documented in [ConverterRule.php](https://doc.wikimedia.org/mediawiki-core/master/php/ConverterRule_8php.html)
 
@@ -234,8 +231,8 @@ impl Conv {
     pub fn get_text_by_target(&self, target: Variant) -> &str {
         match self {
             // &Conv::Verbatim(ref inner) => inner.as_ref(),
-            &Conv::Bid(ref map) => map.get_text_with_fallback(target).unwrap(), // FIX:
-            &Conv::Unid(ref from, ref map) => {
+            Conv::Bid(map) => map.get_text_with_fallback(target).unwrap(), // FIX:
+            Conv::Unid(_from, _map) => {
                 todo!() // Unid should not come with output
             }
         }
@@ -245,8 +242,8 @@ impl Conv {
     pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
         match self {
             // &Conv::Verbatim(ref inner) => vec![(inner, inner)],
-            &Conv::Bid(ref map) => map.get_convs_by_target(target),
-            &Conv::Unid(ref from, ref map) => {
+            Conv::Bid(map) => map.get_convs_by_target(target),
+            Conv::Unid(from, map) => {
                 if let Some(to) = map.get_text(target) {
                     // TODO: fallback here?
                     vec![(from, to)]
@@ -262,8 +259,8 @@ impl Display for Conv {
     fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
         match self {
             // &Conv::Verbatim(ref inner) => fmt.write_str(inner),
-            &Conv::Bid(ref map) => map.fmt(fmt),
-            &Conv::Unid(ref from, ref map) => write!(fmt, "{} ⇒ {}", from, map),
+            Conv::Bid(map) => map.fmt(fmt),
+            Conv::Unid(from, ref map) => write!(fmt, "{} ⇒ {}", from, map),
         }
     }
 }

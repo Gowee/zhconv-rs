@@ -1,5 +1,4 @@
 use std::collections::{BTreeMap, HashMap};
-use std::fmt::Write;
 use std::iter::IntoIterator;
 use std::str::FromStr;
 
@@ -46,7 +45,7 @@ impl ZhConverter {
         )
     }
 
-    pub fn from_pairs_sorted<'i>(
+    pub fn from_pairs_sorted(
         target: Variant,
         pairs: impl Iterator<Item = (impl AsRef<str>, impl AsRef<str>)>,
         size_hint: usize,
@@ -58,9 +57,9 @@ impl ZhConverter {
         let mut it = pairs.into_iter().peekable();
         while let Some((from, to)) = it.next() {
             let (from, to) = (from.as_ref(), to.as_ref());
-            pat.push_str(&from);
+            pat.push_str(from);
             if it.peek().is_some() {
-                pat.push_str("|");
+                pat.push('|');
             }
             mapping.insert(from.to_owned(), to.to_owned());
         }
@@ -91,7 +90,7 @@ impl ZhConverter {
             // if text[s..e].chars().count() > 2{
             *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
             // }
-            output.push_str(&self.mapping.get(&text[s..e]).unwrap());
+            output.push_str(self.mapping.get(&text[s..e]).unwrap());
             last = e;
         }
         dbg!(cnt);
@@ -109,7 +108,7 @@ impl ZhConverter {
         let p2 = Lazy::new(|| Regex::new(r#"-\{|\}-"#).unwrap());
         let mut pos = 0;
         let mut converted = String::with_capacity(text.len());
-        let mut starts = vec![];
+        // let mut starts = vec![];
         let mut pieces = vec![];
         // loop {
         while let Some(m1) = p1.find_at(text, pos) {
@@ -124,29 +123,26 @@ impl ZhConverter {
             }
             // found toplevel -{
             pos = m1.start() + 2;
-            starts.push(m1.start());
+            // starts.push(m1.start());
             pieces.push(String::new());
             while let Some(m2) = p2.find_at(text, pos) {
                 // let mut piece = String::from(&text[pos..m2.start()]);
                 if m2.as_str() == "-{" {
                     // if there are two many open start tag, ignore the new nested rule
-                    if starts.len() >= NESTED_RULE_MAX_DEPTH {
+                    if pieces.len() >= NESTED_RULE_MAX_DEPTH {
                         pos += 2;
                         continue;
                     }
                     // start tag
-                    starts.push(m2.start());
+                    // starts.push(m2.start());
                     pieces.last_mut().unwrap().push_str(&text[pos..m2.start()]);
                     pieces.push(String::new()); // e.g. -{ zh: AAA -{
                     pos = m2.end();
                 } else {
                     // end tag
-                    dbg!(&starts, &pieces);
-                    let start = starts.pop().unwrap();
+                    // let start = starts.pop().unwrap();
                     let mut piece = pieces.pop().unwrap();
-                    dbg!(&piece);
                     piece.push_str(&text[pos..m2.start()]);
-                    dbg!(&piece);
                     let upper = if let Some(upper) = pieces.last_mut() {
                         upper
                     } else {
@@ -169,8 +165,8 @@ impl ZhConverter {
                     // starts.last().unwrap()
                 }
             }
-            while let Some(_start) = starts.pop() {
-                let piece = pieces.pop().unwrap();
+            while let Some(piece) = pieces.pop() {
+                // let piece = pieces.pop().unwrap();
                 converted.push_str("-{");
                 converted.push_str(&piece);
             }
@@ -239,7 +235,7 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
     /// A helper wrapper around `conv_actions`. These rules take the higher precedence over those
     /// specified via `table`.
     #[inline(always)]
-    pub fn page_rules(mut self, page_rules: &'c PageRules) -> Self {
+    pub fn page_rules(self, page_rules: &'c PageRules) -> Self {
         self.conv_actions(page_rules.as_conv_actions())
     }
 
@@ -285,7 +281,7 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
             tables,
             adds,
             removes,
-            inline_conv,
+            inline_conv: _,
         } = self;
         dbg!(&adds, &removes);
         let size_hint = (tables
@@ -303,7 +299,7 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
         let it = itertools::kmerge_by(
             tables
                 .into_iter() // earlier tables have greater precedence
-                .map(|(froms, tos)| itertools::zip(froms.trim().split("|"), tos.trim().split("|"))),
+                .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|'))),
             cmp_fn,
         )
         .merge_by(adds.into_iter().map(|(from, to)| (from, to)), cmp_fn)
@@ -311,12 +307,5 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
         .filter(|(from, _to)| !removes.contains_key(from));
         // TODO: GROUP > tables
         ZhConverter::from_pairs_sorted(target, it, size_hint)
-        // for (from, to) in it {
-        //     if self.removes.contains_key(&from) {
-        //         continue;
-        //     }
-        // }
-
-        // unimplemented!()
     }
 }

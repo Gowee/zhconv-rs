@@ -2,11 +2,7 @@ use std::collections::HashMap;
 use std::convert::From;
 use std::fmt::{self, Display};
 use std::str::FromStr;
-// use std::convert::From;
 
-// use oxilangtag::{LanguageTag, LanguageTagParseError};
-use once_cell::unsync::Lazy;
-use regex::Regex;
 use strum::{Display, EnumString, IntoStaticStr};
 
 use crate::utils::get_with_fallback;
@@ -196,12 +192,8 @@ impl From<HashMap<Variant, String>> for VariantMap {
 macro_rules! match_fallback {
     ( $map:expr, $target:expr, $($t:tt)* ) => {
         match_fallback!(@build $map, $target, (), $($t)*)
-        // match $target {
-        //     match_fallback!(@build $map, $target, $($t)*)
-        // }
     };
     (@build $map:expr, $target:expr, ($($arms:tt)*), $variant:ident -> [ $($fallbacks:tt)* ], $($others:tt)* ) => {
-        // $variant => get_with_fallback!($map, $target, $($fallbacks)*).map(String::as_str()),
         match_fallback!(@build $map, $target, ($($arms)* $variant => get_with_fallback!($map, $variant, $($fallbacks)*),), $($others)*)
     };
     (@build $map:expr, $target:expr, ($($arms:tt)*) $(,)? ) => {
