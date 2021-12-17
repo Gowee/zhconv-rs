@@ -8,7 +8,7 @@ use regex::Regex;
 
 use crate::{
     pagerules::PageRules,
-    rule::{ConvAction, ConvRule},
+    rule::{Conv, ConvAction, ConvRule},
     variant::Variant,
 };
 
@@ -197,29 +197,21 @@ impl ZhConverter {
     // }
 }
 
+#[derive(Debug, Clone, Default)]
 pub struct ZhConverterBuilder<'t, 'c> {
     target: Variant,
     tables: Vec<(&'t str, &'t str)>,
+    texts: Vec<&'c str>,
     adds: BTreeMap<&'c str, &'c str>,
     removes: BTreeMap<&'c str, &'c str>,
-    inline_conv: bool,
 }
 
 impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
     pub fn new(target: Variant) -> Self {
         Self {
             target,
-            tables: Default::default(),
-            adds: Default::default(),
-            removes: Default::default(),
-            inline_conv: Default::default(),
+            ..Default::default()
         }
-    }
-
-    /// Activate the support of inline conversion rules of Mediawiki
-    pub fn activate_inline_conv(mut self) -> Self {
-        self.inline_conv = true;
-        self
     }
 
     // Add a conversion table
@@ -275,15 +267,42 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
         self
     }
 
+    /// Add a text of conv lines
+    ///
+    /// e.g.
+    /// ```
+    /// zh-cn:天堂执法者; zh-hk:夏威夷探案; zh-tw:檀島警騎2.0;
+    /// zh-cn:史蒂芬·'史蒂夫'·麦格瑞特; zh-tw:史提夫·麥加雷; zh-hk:麥星帆;
+    /// zh-cn:丹尼尔·'丹尼/丹诺'·威廉姆斯; zh-tw:丹尼·威廉斯; zh-hk:韋丹尼;
+    ///     /// ```
+    pub fn conv_lines(mut self, lines: &'c str) -> Self {
+        self.texts.push(lines);
+        self
+    }
+
     pub fn build(self) -> ZhConverter {
         let Self {
             target,
             tables,
+            texts,
             adds,
             removes,
-            inline_conv: _,
         } = self;
         dbg!(&adds, &removes);
+
+        let mut convs: Vec<(String, String)> = Vec::new();
+        for text in texts {
+            for line in text.lines() {
+                convs.extend(
+                    line.parse::<Conv>()
+                        .expect("Valid conversion")
+                        .get_convs_by_target(target)
+                        .into_iter()
+                        .map(|(f, t)| (f.to_owned(), t.to_owned())),
+                );
+            }
+        }
+
         let size_hint = (tables
             .iter()
             .map(|&table| table.0.len() + 1)

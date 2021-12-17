@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 use std::convert::From;
+use std::default::Default;
 use std::fmt::{self, Display};
 use std::str::FromStr;
 
@@ -44,11 +45,17 @@ impl Variant {
     }
 }
 
+impl Default for Variant {
+    fn default() -> Self {
+        Variant::Zh
+    }
+}
+
 /// Map variants to text, e.g. `zh-hans:计算机; zh-hant:電腦;`
 #[derive(Debug, Clone)]
-pub struct VariantMap(pub HashMap<Variant, String>);
+pub struct VariantMap<T>(pub HashMap<Variant, T>);
 
-impl VariantMap {
+impl VariantMap<String> {
     /// Get the text for the target variant, if any
     #[inline(always)]
     pub fn get_text(&self, target: Variant) -> Option<&str> {
@@ -90,6 +97,10 @@ impl VariantMap {
     /// Get the pairs of conversion for a target variant
     // TODO: better naming?
     pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
+        // pub struct ConvIter {
+        //     target: Variant,
+        //     iter: Option<>
+        // } // TODO: Iterator
         // MEDIAWIKI: unlike inline conversion rules, global conversion rule has no fallback
         if let Some(to) = self.0.get(&target) {
             let mut pairs = vec![];
@@ -105,20 +116,28 @@ impl VariantMap {
     }
 }
 
-impl VariantMap {
-    pub fn into_inner(self) -> HashMap<Variant, String> {
+impl VariantMap<Vec<(String, String)>> {
+    /// Get the pairs of conversion for a target variant
+    pub fn get_convs_by_target(&self, target: Variant) -> &[(String, String)] {
+        // MEDIAWIKI: unlike inline conversion rules, global conversion rule has no fallback
+        self.0.get(&target).map(|p| p.as_slice()).unwrap_or(&[])
+    }
+}
+
+impl<T> VariantMap<T> {
+    pub fn into_inner(self) -> HashMap<Variant, T> {
         self.0
     }
 
     pub fn is_empty(&self) -> bool {
-        self.0.is_empty()
+        self.0.is_empty() // TODO: Deref
     }
 }
 
-impl FromStr for VariantMap {
+impl FromStr for VariantMap<String> {
     type Err = (); // TODO: better error propagation
 
-    fn from_str(s: &str) -> Result<VariantMap, Self::Err> {
+    fn from_str(s: &str) -> Result<VariantMap<String>, Self::Err> {
         let s = s.trim();
         let mut map = HashMap::new();
         // TODO: implement a clean iterator instead
@@ -172,7 +191,7 @@ impl FromStr for VariantMap {
     }
 }
 
-impl Display for VariantMap {
+impl Display for VariantMap<String> {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         for (v, t) in self.0.iter() {
             // TODO: insertion order
@@ -182,8 +201,19 @@ impl Display for VariantMap {
     }
 }
 
-impl From<HashMap<Variant, String>> for VariantMap {
-    fn from(hm: HashMap<Variant, String>) -> Self {
+impl Display for VariantMap<Vec<(String, String)>> {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        for (variant, pairs) in self.0.iter() {
+            for (from, to) in pairs.iter() {
+                write!(f, "{}⇒{}: {}", from, variant, to)?;
+            }
+        }
+        Ok(())
+    }
+}
+
+impl<T> From<HashMap<Variant, T>> for VariantMap<T> {
+    fn from(hm: HashMap<Variant, T>) -> Self {
         Self(hm)
     }
 }

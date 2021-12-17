@@ -1,4 +1,6 @@
 use std::convert::AsRef;
+// use std::ffi::VaListImpl;
+use std::collections::HashMap;
 use std::fmt::{self, Display};
 use std::str::FromStr;
 
@@ -173,7 +175,7 @@ impl FromStr for ConvRule {
         } else {
             Some(Conv::from_str(body).map_err(|_| RuleError::InvalidConv)?)
         };
-        if set_title && (conv.is_none() || !conv.as_ref().unwrap().is_bid()) {
+        if set_title && (conv.is_none() || conv.as_ref().unwrap().bid.is_empty()) {
             return Err(RuleError::InvalidConvForTitle);
         }
         Ok(Self {
@@ -185,16 +187,23 @@ impl FromStr for ConvRule {
     }
 }
 
+// /// The inner of a [`ConvRule`] without flags and actions
+// #[derive(Debug, Clone)]
+// pub enum Conv {
+//     //     /// Not a conversion, just return the inner rule as is, e.g. `-{简体字繁體字}-`
+//     //     /// For flag `N`, this stores the right-side param in the raw format.
+//     //     Verbatim(String),
+//     /// Bi-directional mapping, e.g. `-{zh-hans:计算机; zh-hant:電腦;}-`.
+//     Bid(VariantMap),
+//     /// Uni-directional mapping, e.g. `-{H|巨集=>zh-cn:宏;}- `.
+//     Unid(String, VariantMap),
+// }
+
 /// The inner of a [`ConvRule`] without flags and actions
 #[derive(Debug, Clone)]
-pub enum Conv {
-    //     /// Not a conversion, just return the inner rule as is, e.g. `-{简体字繁體字}-`
-    //     /// For flag `N`, this stores the right-side param in the raw format.
-    //     Verbatim(String),
-    /// Bi-directional mapping, e.g. `-{zh-hans:计算机; zh-hant:電腦;}-`.
-    Bid(VariantMap),
-    /// Uni-directional mapping, e.g. `-{H|巨集=>zh-cn:宏;}- `.
-    Unid(String, VariantMap),
+pub struct Conv {
+    pub bid: VariantMap<String>,
+    pub unid: VariantMap<Vec<(String, String)>>,
 }
 
 impl Conv {
@@ -206,62 +215,76 @@ impl Conv {
     //     }
     // }
 
-    #[inline(always)]
-    pub fn as_bid(&self) -> Option<&VariantMap> {
-        match self {
-            Conv::Bid(map) => Some(map),
-            _ => None,
-        }
-    }
+    // #[inline(always)]
+    // pub fn get_bid(&self) -> Option<&VariantMap> {
+    //     self.0
+    // }
 
-    #[inline(always)]
-    pub fn is_bid(&self) -> bool {
-        self.as_bid().is_some()
-    }
+    // #[inline(always)]
+    // pub fn is_bid(&self) -> bool {
+    //     self.as_bid().is_some()
+    // }
 
-    #[inline(always)]
-    pub fn into_bid(self) -> Option<VariantMap> {
-        match self {
-            Conv::Bid(map) => Some(map),
-            _ => None,
-        }
-    }
+    // #[inline(always)]
+    // pub fn into_bid(self) -> Option<VariantMap> {
+    //     match self {
+    //         Conv::Bid(map) => Some(map),
+    //         _ => None,
+    //     }
+    // }
 
     #[inline]
+    /// The the text to display for the target variant
     pub fn get_text_by_target(&self, target: Variant) -> &str {
-        match self {
-            // &Conv::Verbatim(ref inner) => inner.as_ref(),
-            Conv::Bid(map) => map.get_text_with_fallback(target).unwrap(), // FIX:
-            Conv::Unid(_from, _map) => {
-                todo!() // Unid should not come with output
-            }
-        }
+        self.bid.get_text_with_fallback(target).unwrap() // FIX:
+                                                         // match self {
+                                                         //     // &Conv::Verbatim(ref inner) => inner.as_ref(),
+                                                         //     Conv::Bid(map) => map.get_text_with_fallback(target).unwrap(), // FIX:
+                                                         //     Conv::Unid(_from, _map) => {
+                                                         //         todo!() // Unid should not come with output
+                                                         //     }
+                                                         // }
     }
 
     #[inline]
     pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
-        match self {
-            // &Conv::Verbatim(ref inner) => vec![(inner, inner)],
-            Conv::Bid(map) => map.get_convs_by_target(target),
-            Conv::Unid(from, map) => {
-                if let Some(to) = map.get_text(target) {
-                    // TODO: fallback here?
-                    vec![(from, to)]
-                } else {
-                    vec![]
-                }
-            }
-        }
+        // TODO: iterator
+        let mut pairs = self.bid.get_convs_by_target(target);
+        pairs.extend(
+            self.unid
+                .get_convs_by_target(target)
+                .iter()
+                .map(|(f, t)| (f.as_ref(), t.as_ref())),
+        );
+        pairs
+        // match self {
+        //     // &Conv::Verbatim(ref inner) => vec![(inner, inner)],
+        //     Conv::Bid(map) => map.get_convs_by_target(target),
+        //     Conv::Unid(from, map) => {
+        //         if let Some(to) = map.get_text(target) {
+        //             // TODO: fallback here?
+        //             vec![(from, to)]
+        //         } else {
+        //             vec![]
+        //         }
+        //     }
+        // }
     }
 }
 
 impl Display for Conv {
     fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
-        match self {
-            // &Conv::Verbatim(ref inner) => fmt.write_str(inner),
-            Conv::Bid(map) => map.fmt(fmt),
-            Conv::Unid(from, ref map) => write!(fmt, "{} ⇒ {}", from, map),
+        // match self {
+        //     // &Conv::Verbatim(ref inner) => fmt.write_str(inner),
+        //     Conv::Bid(map) => map.fmt(fmt),
+        //     Conv::Unid(from, ref map) => write!(fmt, "{} ⇒ {}", from, map),
+        // }
+        write!(fmt, "{}", self.bid)?;
+        if !self.bid.is_empty() && !self.unid.is_empty() {
+            write!(fmt, "；")?;
         }
+        write!(fmt, "{}", self.unid)?;
+        Ok(())
     }
 }
 
@@ -270,32 +293,65 @@ impl FromStr for Conv {
 
     fn from_str(s: &str) -> Result<Conv, Self::Err> {
         if s.is_empty() {
-            // return
+            // TODO: return?
         }
-        let (left, right) = s.find("=>").map_or_else(
-            || (None, s),
-            |i| {
-                let (first, last) = s.split_at(i);
-                (Some(first), &last[2..])
-            },
-        );
 
-        match (
-            left,
-            right
-                .parse::<VariantMap>()
-                .ok()
-                .and_then(|m| if m.is_empty() { None } else { Some(m) }),
-        ) {
-            (Some(from), Some(map)) => Ok(Conv::Unid(from.to_owned(), map)), // this allow -{FOO => }-
-            (None, Some(map)) => Ok(Conv::Bid(map)),
-            (None, None) => Err(()),
-            (Some(_), None) => {
-                Err(())
-                // TODO: treat as valid? e.g. -{FOO => BAR}-
-                // Conv::Unid(from.to_owned(), VariantMap::from())
+        let s = s.trim();
+        let mut bid = HashMap::new();
+        let mut unid = HashMap::new();
+        // TODO: implement a clean iterator instead
+        let mut parse_single = |s: &str| -> Result<(), Self::Err> {
+            if s.trim().is_empty() {
+                return Ok(());
+            };
+            let (left, right) = s.find("=>").map_or_else(
+                || (None, s),
+                |i| {
+                    let (first, last) = s.split_at(i);
+                    (Some(first), &last[2..])
+                },
+            );
+            let (variant, to) = right.split_at(s.find(':').ok_or(())?);
+            let to = &to[1..]; // strip ":"
+            let variant = variant.trim().parse::<Variant>().map_err(|_| ())?;
+            if let Some(from) = left {
+                unid.entry(variant)
+                    .or_insert_with(|| Vec::new())
+                    .push((from.to_owned(), to.to_owned()));
+            } else {
+                bid.insert(variant, to.to_owned());
             }
+            Ok(())
+        };
+        let mut i = 0;
+        let mut ampersand = None;
+        for (j, &c) in s.as_bytes().iter().enumerate() {
+            match c {
+                b'&' => {
+                    ampersand = Some(j);
+                    // if ampersand, the new & is the new start
+                }
+                b';' => {
+                    if !(ampersand.is_some() && j - ampersand.unwrap() > 1) {
+                        parse_single(&s[i..j])?;
+                        i = j + 1;
+                    }
+                }
+                _ => {
+                    if ampersand.is_some() & !(b'#' == c || char::from(c).is_ascii_alphanumeric()) {
+                        ampersand = None;
+                    }
+                }
+            }
+            // match &s[i]
         }
+        if i != s.as_bytes().len() {
+            parse_single(&s[i..])?;
+        }
+        Ok(Conv {
+            bid: bid.into(),
+            unid: unid.into(),
+        })
     }
 }
 

@@ -8,7 +8,7 @@ use crate::{
 /// A set of rules, usually extracted from the wikitext of a page
 #[derive(Debug, Clone)]
 pub struct PageRules {
-    title: Option<VariantMap>,
+    title: Option<VariantMap<String>>,
     conv_actions: Vec<ConvAction>,
 }
 
@@ -40,10 +40,12 @@ impl FromStr for PageRules {
         // or should be propogate the error?
         for rule in extract_rules(s).filter_map(|r| r.ok()) {
             if rule.set_title {
-                if let Some(conv) = rule.conv.as_ref().and_then(|conv| conv.as_bid()).cloned() {
-                    // actually, our parser ensure this is Some(Bid)
+                if let Some(map) = rule.conv.as_ref().map(|conv| conv.bid.clone()) {
+                    // actually, our parser ensure this is !is_empty
                     // just be more tolerant here
-                    title = Some(conv.clone()); // unwrap?
+                    if !map.is_empty() {
+                        title = Some(map); // unwrap?
+                    }
                 }
             }
             // it is absolutely normal that not all rules are global

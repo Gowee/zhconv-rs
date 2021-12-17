@@ -44,6 +44,7 @@ REGEX_RULE7 = re.compile(
 REGEX_RULE8 = re.compile(
     r"""{{\s*CItemLan\/R\s*\|\s*([12]=)?\s*(?P<original>[^|]+)\|\s*([12]=)?\s*(?P<conv>.*?)\s*(\|\s*)?}}"""
 )
+REGEX_SPECIAL_CHAR_NOTICE = re.compile(r"""<span[^>]*>([^>]+)<\/span>""")
 
 # REGEX_CGROUP_LIST = re.compile(
 #     r"""{{\s*CGroup\/Item\|([^|]*)\|([^|]*)\|([^|]*)}}"""
@@ -89,6 +90,7 @@ def cgroup_templates(site):
             "Template:CGroup/sandbox",
             "Template:CGroup/CHead",
             "Template:CGroup/editintro",
+            "Template:CGroup/New Style"
             # "Template:CGroup/Science" # including several other templates
         }:
             continue  # not targets
@@ -169,10 +171,14 @@ def fetch_cgroups(site):
                     text.split("\n"),
                 ),
             ):
+                conv = REGEX_SPECIAL_CHAR_NOTICE.sub(
+                    r"\1",
+                    mrule.group("conv").replace("{{=}}", "="),
+                )
                 rules.append(
                     {
                         "original": mrule.group("original"),
-                        "content": mrule.group("conv").replace(
+                        "conv": mrule.group("conv").replace(
                             "{{=}}", "="
                         ),  # e.g. `=>` in {{CItem}}
                     }

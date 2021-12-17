@@ -11,6 +11,11 @@ import InputEditor from "./components/InputEditor";
 import OutputEditor from "./components/OutputEditor";
 import OptionsControl from "./components/OptionsControl";
 
+(async () => {
+  // preload wasm
+  await import("../../pkg/zhconv.js");
+})();
+
 const useStyles = makeStyles((theme) => ({
   // root: {
   //   display: 'flex',
@@ -90,9 +95,9 @@ function App() {
     const { zhconv, zhconv_mw } = await import("../../pkg/zhconv.js");
     let convert;
     if (mediawiki) {
-      convert = zhconv;
-    } else {
       convert = zhconv_mw;
+    } else {
+      convert = zhconv;
     }
     setOutput(await convert(input, target));
     controlRef?.current &&

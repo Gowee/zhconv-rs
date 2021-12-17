@@ -26,13 +26,20 @@ export default function InputEditor({
         fullWidth
         autoFocus
         rows={16}
-        inputProps={{ wrap: "soft" }}
+        inputProps={{ wrap: "soft", fontSize: "1.2em" }}
         value={input}
         onChange={(event) => setInput(event.target.value)}
       />
       <Box className={classes.statusLineWrapper}>
         <Typography variant="caption" color="textSecondary">
-          Lines: {useMemo(() => countLines(input), [input])} / Chars: {input.length}
+          Lines/行: {useMemo(() => countLines(input), [input])}
+          <Box
+            component="span"
+            sx={{ marginLeft: "0.3em", marginRight: "0.3em" }}
+          >
+            ・
+          </Box>
+          Chars/字: {input.length}
         </Typography>
       </Box>
     </>

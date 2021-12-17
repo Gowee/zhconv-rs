@@ -1,4 +1,4 @@
-import {useMemo} from 'react';
+import { useMemo } from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -20,7 +20,11 @@ function Partial({ name, status }: { name: string; status: any }) {
 export default function OutputStatusLine({ output }: { output: any }) {
   return (
     <Typography variant="caption" color="textSecondary">
-      Lines: {useMemo(() => countLines(output), [output])} / Chars: { output ? output.length : 0}
+      Lines/行: {useMemo(() => countLines(output), [output])}
+      <Box component="span" sx={{ marginLeft: "0.3em", marginRight: "0.3em" }}>
+        ・
+      </Box>
+      Chars/字: {output ? output.length : 0}
     </Typography>
     // <Grid container direction="row" justifyContent="space-between">
     //   <Grid item>
