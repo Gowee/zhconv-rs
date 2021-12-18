@@ -1,6 +1,6 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
-use zhconv::{convs::*, ZhConverter};
+use zhconv::{tables::*, ZhConverter};
 
 const DATA54K: &'static str = include_str!("data54k.txt");
 const DATA689K: &'static str = include_str!("data689k.txt");
@@ -75,6 +75,29 @@ fn criterion_benchmark(c: &mut Criterion) {
     });
     c.bench_function("zh2TW data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA3185K))
+    });
+    c.bench_function("zh2TW data55m", |b| {
+        b.iter_with_large_drop(|| {
+            zhconv::ZH_TO_TW_CONVERTER.convert(
+                &(String::from(DATA3185K)
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K
+                    + DATA3185K),
+            )
+        })
     });
 }
 

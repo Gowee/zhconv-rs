@@ -49,7 +49,8 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 pub fn zhconv_mw(text: &str, target: Variant) -> String {
     let rules = PageRules::from_str(text).unwrap();
     let base = get_builtin_table(target);
-    ZhConverterBuilder::new(target)
+    ZhConverterBuilder::new()
+        .target(target)
         .table(base)
         .page_rules(&rules)
         .build()

@@ -4,7 +4,7 @@ use itertools;
 use lazy_static::lazy_static;
 use regex::Regex;
 
-use crate::converter::ZhConverter;
+use crate::converter::{ZhConverter, ZhConverterBuilder};
 
 /// Simplified Chinese to Traditional Chinese conversion table, including no region-specific phrases
 pub const ZH_HANT_TABLE: (&str, &str) = (
@@ -106,14 +106,15 @@ pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String
 // pub const ZH_CN_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2CN.to.conv"));
 
 /// Build a `ZhConverter` from a conversion table
-pub fn build_converter((froms, tos): (&str, &str)) -> ZhConverter {
-    // dbg!(froms, tos);
-    let p = Regex::new(froms).unwrap();
-    let m: HashMap<String, String> = itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
-        .map(|(a, b)| (a.to_owned(), b.to_owned()))
-        .collect();
-    // dbg!(&p,&m);
-    ZhConverter::new(p, m)
+pub fn build_converter(table: (&str, &str)) -> ZhConverter {
+    // // dbg!(froms, tos);
+    // let p = Regex::new(froms).unwrap();
+    // let m: HashMap<String, String> = itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
+    //     .map(|(a, b)| (a.to_owned(), b.to_owned()))
+    //     .collect();
+    // // dbg!(&p,&m);
+    // ZhConverter::new(p, m)
+    ZhConverterBuilder::new().table(table).dfa(true).build()
 }
 
 // https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L144

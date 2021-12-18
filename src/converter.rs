@@ -1,3 +1,4 @@
+use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
 use std::collections::{BTreeMap, HashMap};
 use std::iter::IntoIterator;
 use std::str::FromStr;
@@ -17,17 +18,17 @@ const NESTED_RULE_MAX_DEPTH: usize = 10;
 
 pub struct ZhConverter {
     variant: Variant,
-    regex: Regex,
+    automaton: AhoCorasick,
     mapping: HashMap<String, String>, // Or str?
                                       // cgroups: Vec<Cgroup>
                                       // mediawiki: bool
 }
 
 impl ZhConverter {
-    pub fn new(regex: Regex, mapping: HashMap<String, String>) -> ZhConverter {
+    pub fn new(automaton: AhoCorasick, mapping: HashMap<String, String>) -> ZhConverter {
         ZhConverter {
             variant: Variant::Zh,
-            regex,
+            automaton,
             mapping,
         }
     }
@@ -36,36 +37,30 @@ impl ZhConverter {
 
     #[inline]
     pub fn from_pairs(mut pairs: Vec<(String, String)>) -> ZhConverter {
-        pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()));
+        // We switch the automaton from Regex-based NFA/DFA to AC. So no need to sort any longer.
+        // pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()));
         let size_hint = (pairs.len() * (3 + 1)).saturating_sub(1); // TODO: correct?; 3: 3bytes / CJK characters in usual; 1 for |
-        Self::from_pairs_sorted(
-            Variant::Zh, /* TODO: */
-            pairs.into_iter().map(|(from, to)| (from, to)),
-            size_hint,
-        )
+        Self::from_pairs_sorted(Variant::Zh /* TODO: */, &pairs, size_hint)
     }
 
     pub fn from_pairs_sorted(
         target: Variant,
-        pairs: impl Iterator<Item = (impl AsRef<str>, impl AsRef<str>)>,
+        pairs: &[(impl AsRef<str>, impl AsRef<str>)],
         size_hint: usize,
     ) -> ZhConverter {
-        // TODO: panic if unsorted
         // FIX: mediawiki
-        let mut pat = String::with_capacity(size_hint);
-        let mut mapping = HashMap::new();
-        let mut it = pairs.into_iter().peekable();
-        while let Some((from, to)) = it.next() {
-            let (from, to) = (from.as_ref(), to.as_ref());
-            pat.push_str(from);
-            if it.peek().is_some() {
-                pat.push('|');
-            }
-            mapping.insert(from.to_owned(), to.to_owned());
-        }
+        let mut mapping = HashMap::with_capacity(pairs.len());
+        let automaton = AhoCorasickBuilder::new()
+            .match_kind(MatchKind::LeftmostLongest)
+            .build(pairs.iter().map(|(f, t)| f.as_ref()));
+        mapping.extend(
+            pairs
+                .iter()
+                .map(|(f, t)| (f.as_ref().to_owned(), t.as_ref().to_owned())),
+        );
         ZhConverter {
             variant: target,
-            regex: Regex::new(&pat).unwrap(),
+            automaton,
             mapping,
         }
     }
@@ -83,7 +78,7 @@ impl ZhConverter {
         let mut last = 0;
         let mut cnt = HashMap::<usize, usize>::new();
         // leftmost-longest matching
-        for (s, e) in self.regex.find_iter(text).map(|m| (m.start(), m.end())) {
+        for (s, e) in self.automaton.find_iter(text).map(|m| (m.start(), m.end())) {
             if s > last {
                 output.push_str(&text[last..s]);
             }
@@ -198,20 +193,26 @@ impl ZhConverter {
 }
 
 #[derive(Debug, Clone, Default)]
-pub struct ZhConverterBuilder<'t, 'c> {
+pub struct ZhConverterBuilder<'t> {
     target: Variant,
+    /// The base conversion table
     tables: Vec<(&'t str, &'t str)>,
-    texts: Vec<&'c str>,
-    adds: BTreeMap<&'c str, &'c str>,
-    removes: BTreeMap<&'c str, &'c str>,
+    // texts: Vec<&'c str>,
+    /// Rules to be added, from page rules or cgroups
+    adds: HashMap<String, String>,
+    /// Rules to be removed, from page rules or cgroups
+    removes: HashMap<String, String>, // TODO: unnecessary owned type
+    dfa: bool,
 }
 
-impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
-    pub fn new(target: Variant) -> Self {
-        Self {
-            target,
-            ..Default::default()
-        }
+impl<'t> ZhConverterBuilder<'t> {
+    pub fn new() -> Self {
+        Default::default()
+    }
+
+    pub fn target(mut self, variant: Variant) -> Self {
+        self.target = variant;
+        self
     }
 
     // Add a conversion table
@@ -227,26 +228,23 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
     /// A helper wrapper around `conv_actions`. These rules take the higher precedence over those
     /// specified via `table`.
     #[inline(always)]
-    pub fn page_rules(self, page_rules: &'c PageRules) -> Self {
+    pub fn page_rules(self, page_rules: &PageRules) -> Self {
         self.conv_actions(page_rules.as_conv_actions())
     }
 
     /// Add a set of rules
     ///
     /// These rules take the higher precedence over those specified via `table`.
-    pub fn conv_actions(mut self, conv_actions: impl IntoIterator<Item = &'c ConvAction>) -> Self {
+    fn conv_actions<'i>(mut self, conv_actions: impl IntoIterator<Item = &'i ConvAction>) -> Self {
         for conv_action in conv_actions {
-            dbg!(&conv_action);
-            let map = if conv_action.adds() {
-                &mut self.adds
+            let pairs = conv_action.as_conv().get_convs_by_target(self.target);
+            if conv_action.adds() {
+                self.adds
+                    .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
             } else {
-                &mut self.removes
-            };
-            let conv = conv_action.as_conv();
-            for (from, to) in conv.get_convs_by_target(self.target).into_iter() {
-                map.insert(from, to);
+                self.removes
+                    .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
             }
-            dbg!(&map);
         }
         self
     }
@@ -254,16 +252,18 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
     /// Add a single conversion pair
     ///
     /// It takes the precedence over those specified via `table`. It shares the same precedence level with those specified via `cgroup`.
-    pub fn add_conv(mut self, from: &'c str, to: &'c str) -> Self {
-        self.adds.insert(from, to);
+    pub fn add_conv_pair(mut self, from: impl AsRef<str>, to: impl AsRef<str>) -> Self {
+        self.adds
+            .insert(from.as_ref().to_owned(), to.as_ref().to_owned());
         self
     }
 
     /// Remove a single conversion pair
     ///
     /// Any rule with the same `from`, whether specified via `add_conv`, `cgroup` or `table`, is removed.
-    pub fn remove_conv(mut self, from: &'c str, to: &'c str) -> Self {
-        self.removes.insert(from, to);
+    pub fn remove_conv_pair(mut self, from: impl AsRef<str>, to: impl AsRef<str>) -> Self {
+        self.removes
+            .insert(from.as_ref().to_owned(), to.as_ref().to_owned());
         self
     }
 
@@ -274,9 +274,22 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
     /// zh-cn:天堂执法者; zh-hk:夏威夷探案; zh-tw:檀島警騎2.0;
     /// zh-cn:史蒂芬·'史蒂夫'·麦格瑞特; zh-tw:史提夫·麥加雷; zh-hk:麥星帆;
     /// zh-cn:丹尼尔·'丹尼/丹诺'·威廉姆斯; zh-tw:丹尼·威廉斯; zh-hk:韋丹尼;
-    ///     /// ```
-    pub fn conv_lines(mut self, lines: &'c str) -> Self {
-        self.texts.push(lines);
+    /// ```
+    pub fn conv_lines(mut self, lines: &str) -> Self {
+        for line in lines.lines() {
+            if let Ok(conv) = Conv::from_str(line) {
+                self.adds.extend(
+                    conv.get_convs_by_target(self.target)
+                        .iter()
+                        .map(|&(f, t)| (f.to_owned(), t.to_owned())),
+                );
+            }
+        }
+        self
+    }
+
+    pub fn dfa(mut self, enabled: bool) -> Self {
+        self.dfa = enabled;
         self
     }
 
@@ -284,47 +297,74 @@ impl<'t, 'c> ZhConverterBuilder<'t, 'c> {
         let Self {
             target,
             tables,
-            texts,
+            dfa,
+            // texts,
             adds,
             removes,
         } = self;
-        dbg!(&adds, &removes);
+        // dbg!(&adds, &removes);
 
-        let mut convs: Vec<(String, String)> = Vec::new();
-        for text in texts {
-            for line in text.lines() {
-                convs.extend(
-                    line.parse::<Conv>()
-                        .expect("Valid conversion")
-                        .get_convs_by_target(target)
-                        .into_iter()
-                        .map(|(f, t)| (f.to_owned(), t.to_owned())),
-                );
-            }
-        }
-
-        let size_hint = (tables
-            .iter()
-            .map(|&table| table.0.len() + 1)
-            .sum::<usize>()
-            .saturating_sub(1)
-            + if adds.is_empty() {
-                0
-            } else {
-                (1 + adds.len() * 4).saturating_sub(1)
-            })
-        .saturating_sub((removes.len() * 4).saturating_sub(1));
-        let cmp_fn = |&pair1: &(&str, &str), &pair2: &(&str, &str)| pair1.0.len() >= pair2.0.len();
-        let it = itertools::kmerge_by(
+        // let mut convs: Vec<(String, String)> = Vec::new();
+        // for text in texts {
+        //     for line in text.lines() {
+        //         convs.extend(
+        //             line.parse::<Conv>()
+        //                 .expect("Valid conversion")
+        //                 .get_convs_by_target(target)
+        //                 .into_iter()
+        //                 .map(|(f, t)| (f.to_owned(), t.to_owned())),
+        //         );
+        //     }
+        // }
+        let mut mapping = HashMap::with_capacity(
+            (tables.iter().map(|(fs, ts)| fs.len()).sum::<usize>() + adds.len())
+                .saturating_sub(removes.len()),
+        );
+        mapping.extend(
             tables
-                .into_iter() // earlier tables have greater precedence
-                .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|'))),
-            cmp_fn,
-        )
-        .merge_by(adds.into_iter().map(|(from, to)| (from, to)), cmp_fn)
-        .dedup_by(|pair1, pair2| pair1.0 == pair2.0)
-        .filter(|(from, _to)| !removes.contains_key(from));
-        // TODO: GROUP > tables
-        ZhConverter::from_pairs_sorted(target, it, size_hint)
+                .into_iter()
+                .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
+                .flatten()
+                .filter(|&(from, _to)| !removes.contains_key(from)) // TODO: why it is &(&, &) here?
+                .map(|(from, to)| (from.to_owned(), to.to_owned())),
+        );
+        mapping.extend(
+            adds.into_iter()
+                .filter(|(from, _to)| !removes.contains_key(from))
+                .map(|(from, to)| (from.to_owned(), to.to_owned())),
+        );
+        let sequence = mapping.keys();
+        let automaton = AhoCorasickBuilder::new()
+            .match_kind(MatchKind::LeftmostFirst)
+            .dfa(dfa)
+            .build(sequence);
+
+        // let size_hint = (tables
+        //     .iter()
+        //     .map(|&table| table.0.len() + 1)
+        //     .sum::<usize>()
+        //     .saturating_sub(1)
+        //     + if adds.is_empty() {
+        //         0
+        //     } else {
+        //         (1 + adds.len() * 4).saturating_sub(1)
+        //     })
+        // .saturating_sub((removes.len() * 4).saturating_sub(1));
+        // let cmp_fn = |&pair1: &(&str, &str), &pair2: &(&str, &str)| pair1.0.len() >= pair2.0.len();
+        // let it = itertools::kmerge_by(
+        //     tables
+        //         .into_iter() // earlier tables have greater precedence
+        //         .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|'))),
+        //     cmp_fn,
+        // )
+        // .merge_by(adds.into_iter().map(|(from, to)| (from, to)), cmp_fn)
+        // .dedup_by(|pair1, pair2| pair1.0 == pair2.0)
+        // .filter(|(from, _to)| !removes.contains_key(from));
+        // // TODO: GROUP > tables
+        ZhConverter {
+            variant: target,
+            mapping,
+            automaton,
+        }
     }
 }

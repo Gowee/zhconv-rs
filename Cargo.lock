@@ -1467,6 +1467,7 @@ dependencies = [
 name = "zhconv"
 version = "0.1.0"
 dependencies = [
+ "aho-corasick",
  "console_error_panic_hook",
  "const_format",
  "criterion",
