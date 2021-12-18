@@ -1,8 +1,5 @@
-use std::collections::HashMap;
-
 use itertools;
 use lazy_static::lazy_static;
-use regex::Regex;
 
 use crate::converter::{ZhConverter, ZhConverterBuilder};
 
@@ -91,29 +88,8 @@ pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String
     (froms, tos)
 }
 
-// pub const ZH_HANT_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.to.conv"));
-
-// pub const ZH_HANS_FROM: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.from.conv"));
-// pub const ZH_HANS_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.to.conv"));
-
-// pub const ZH_TW_FROM: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2TW.from.conv"));
-// pub const ZH_TW_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2TW.to.conv"));
-
-// pub const ZH_HK_FROM: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2HK.from.conv"));
-// pub const ZH_HK_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2HK.to.conv"));
-
-// pub const ZH_CN_FROM: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2CN.from.conv"));
-// pub const ZH_CN_TO: &str = include_str!(concat!(env!("OUT_DIR"), "/zh2CN.to.conv"));
-
 /// Build a `ZhConverter` from a conversion table
 pub fn build_converter(table: (&str, &str)) -> ZhConverter {
-    // // dbg!(froms, tos);
-    // let p = Regex::new(froms).unwrap();
-    // let m: HashMap<String, String> = itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
-    //     .map(|(a, b)| (a.to_owned(), b.to_owned()))
-    //     .collect();
-    // // dbg!(&p,&m);
-    // ZhConverter::new(p, m)
     ZhConverterBuilder::new().table(table).dfa(true).build()
 }
 

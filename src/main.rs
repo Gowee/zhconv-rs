@@ -1,6 +1,6 @@
 use std::io::{self, Read};
 
-use zhconv::{zhconv, zhconv_mw, Variant};
+use zhconv::{zhconv_mw, Variant};
 
 // const t: &str = include_str!("../benches/data689k.txt");
 

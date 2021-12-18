@@ -1,10 +1,10 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
-use zhconv::{tables::*, ZhConverter};
+use zhconv::{tables::*};
 
-const DATA54K: &'static str = include_str!("data54k.txt");
-const DATA689K: &'static str = include_str!("data689k.txt");
-const DATA3185K: &'static str = include_str!("data3185k.txt");
+const DATA54K: &str = include_str!("data54k.txt");
+const DATA689K: &str = include_str!("data689k.txt");
+const DATA3185K: &str = include_str!("data3185k.txt");
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("build zh-Hant-HK", |b| {

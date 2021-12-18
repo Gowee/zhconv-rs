@@ -1,9 +1,9 @@
 use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
-use std::collections::{BTreeMap, HashMap};
+use std::collections::HashMap;
 use std::iter::IntoIterator;
 use std::str::FromStr;
 
-use itertools::{self, Itertools};
+use itertools;
 use once_cell::unsync::Lazy;
 use regex::Regex;
 
@@ -19,9 +19,7 @@ const NESTED_RULE_MAX_DEPTH: usize = 10;
 pub struct ZhConverter {
     variant: Variant,
     automaton: AhoCorasick,
-    mapping: HashMap<String, String>, // Or str?
-                                      // cgroups: Vec<Cgroup>
-                                      // mediawiki: bool
+    mapping: HashMap<String, String>
 }
 
 impl ZhConverter {
@@ -33,36 +31,13 @@ impl ZhConverter {
         }
     }
 
-    // pub fn set_cgroups()
-
-    #[inline]
-    pub fn from_pairs(mut pairs: Vec<(String, String)>) -> ZhConverter {
-        // We switch the automaton from Regex-based NFA/DFA to AC. So no need to sort any longer.
-        // pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()));
-        let size_hint = (pairs.len() * (3 + 1)).saturating_sub(1); // TODO: correct?; 3: 3bytes / CJK characters in usual; 1 for |
-        Self::from_pairs_sorted(Variant::Zh /* TODO: */, &pairs, size_hint)
-    }
-
-    pub fn from_pairs_sorted(
-        target: Variant,
-        pairs: &[(impl AsRef<str>, impl AsRef<str>)],
-        size_hint: usize,
-    ) -> ZhConverter {
-        // FIX: mediawiki
-        let mut mapping = HashMap::with_capacity(pairs.len());
-        let automaton = AhoCorasickBuilder::new()
-            .match_kind(MatchKind::LeftmostLongest)
-            .build(pairs.iter().map(|(f, t)| f.as_ref()));
-        mapping.extend(
-            pairs
-                .iter()
-                .map(|(f, t)| (f.as_ref().to_owned(), t.as_ref().to_owned())),
-        );
-        ZhConverter {
-            variant: target,
-            automaton,
-            mapping,
+    #[inline(always)]
+    pub fn from_pairs(pairs: &[(impl AsRef<str>, impl AsRef<str>)]) -> ZhConverter {
+        let mut builder = ZhConverterBuilder::new();
+        for (from, to) in pairs {
+            builder = builder.add_conv_pair(from.to_owned(), to.to_owned());
         }
+        builder.build()
     }
 
     /// Convert a text
@@ -103,13 +78,10 @@ impl ZhConverter {
         let p2 = Lazy::new(|| Regex::new(r#"-\{|\}-"#).unwrap());
         let mut pos = 0;
         let mut converted = String::with_capacity(text.len());
-        // let mut starts = vec![];
         let mut pieces = vec![];
-        // loop {
         while let Some(m1) = p1.find_at(text, pos) {
             // convert anything before the (possible) toplevel -{
-            // TODO: pass &mut String in
-            converted.push_str(&self.convert(&text[pos..m1.start()]));
+            self.converted(&text[pos..m1.start()], &mut converted);
             if m1.as_str() != "-{" {
                 // not start tag, just something to exclude
                 converted.push_str(&text[m1.start()..m1.end()]); // TODO: adapt to nohtml
@@ -118,7 +90,6 @@ impl ZhConverter {
             }
             // found toplevel -{
             pos = m1.start() + 2;
-            // starts.push(m1.start());
             pieces.push(String::new());
             while let Some(m2) = p2.find_at(text, pos) {
                 // let mut piece = String::from(&text[pos..m2.start()]);
@@ -129,13 +100,11 @@ impl ZhConverter {
                         continue;
                     }
                     // start tag
-                    // starts.push(m2.start());
                     pieces.last_mut().unwrap().push_str(&text[pos..m2.start()]);
                     pieces.push(String::new()); // e.g. -{ zh: AAA -{
                     pos = m2.end();
                 } else {
                     // end tag
-                    // let start = starts.pop().unwrap();
                     let mut piece = pieces.pop().unwrap();
                     piece.push_str(&text[pos..m2.start()]);
                     let upper = if let Some(upper) = pieces.last_mut() {
@@ -144,12 +113,11 @@ impl ZhConverter {
                         &mut converted
                     };
                     if let Ok(rule) = ConvRule::from_str(&piece) {
-                        // just take it output; mutations to global rules are ignored
+                        // only take it output; mutations to global rules are ignored
                         rule.write_output(upper, self.variant).unwrap();
                     } else {
                         // rule is invalid
-                        // TODO: what should we do actually?
-                        // for now, we just do nothing to it
+                        // TODO: what should we do actually? for now, we just do nothing to it
                         upper.push_str(&piece);
                     }
                     pos = m2.end();
@@ -157,11 +125,9 @@ impl ZhConverter {
                         // return to toplevel
                         break;
                     }
-                    // starts.last().unwrap()
                 }
             }
             while let Some(piece) = pieces.pop() {
-                // let piece = pieces.pop().unwrap();
                 converted.push_str("-{");
                 converted.push_str(&piece);
             }
@@ -171,13 +137,11 @@ impl ZhConverter {
             // no more conv rules, just convert and append
             converted.push_str(&self.convert(&text[pos..]));
         }
-        // }
-        // unimplemented!();
         converted
     }
 
-    // pub fn convert
-
+    // TODO: inplace? we need to maintain a stack which could be at most O(n)
+    //       and it requires access to underlying bytes for subtle mutations 
     // pub fn convert_inplace(&self, text: &mut String) {
     //     let tbp = VecDeque::<&str>::new(); // to be pushed
     //     let mut wi = 0; // writing index
@@ -197,7 +161,6 @@ pub struct ZhConverterBuilder<'t> {
     target: Variant,
     /// The base conversion table
     tables: Vec<(&'t str, &'t str)>,
-    // texts: Vec<&'c str>,
     /// Rules to be added, from page rules or cgroups
     adds: HashMap<String, String>,
     /// Rules to be removed, from page rules or cgroups
@@ -288,6 +251,10 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
+    /// Set whether to activate the DFA of Aho-Corasick.
+    ///
+    /// With DFA enabled, it takes rougly 5x time to build the converter while the conversion
+    /// speed is < 2x faster. 
     pub fn dfa(mut self, enabled: bool) -> Self {
         self.dfa = enabled;
         self
@@ -298,26 +265,11 @@ impl<'t> ZhConverterBuilder<'t> {
             target,
             tables,
             dfa,
-            // texts,
             adds,
             removes,
         } = self;
-        // dbg!(&adds, &removes);
-
-        // let mut convs: Vec<(String, String)> = Vec::new();
-        // for text in texts {
-        //     for line in text.lines() {
-        //         convs.extend(
-        //             line.parse::<Conv>()
-        //                 .expect("Valid conversion")
-        //                 .get_convs_by_target(target)
-        //                 .into_iter()
-        //                 .map(|(f, t)| (f.to_owned(), t.to_owned())),
-        //         );
-        //     }
-        // }
         let mut mapping = HashMap::with_capacity(
-            (tables.iter().map(|(fs, ts)| fs.len()).sum::<usize>() + adds.len())
+            (tables.iter().map(|(fs, _ts)| fs.len()).sum::<usize>() + adds.len())
                 .saturating_sub(removes.len()),
         );
         mapping.extend(
@@ -325,42 +277,19 @@ impl<'t> ZhConverterBuilder<'t> {
                 .into_iter()
                 .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
                 .flatten()
-                .filter(|&(from, _to)| !removes.contains_key(from)) // TODO: why it is &(&, &) here?
+                .filter(|&(from, _to)| !removes.contains_key(from))
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         mapping.extend(
             adds.into_iter()
                 .filter(|(from, _to)| !removes.contains_key(from))
-                .map(|(from, to)| (from.to_owned(), to.to_owned())),
+                // .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         let sequence = mapping.keys();
         let automaton = AhoCorasickBuilder::new()
             .match_kind(MatchKind::LeftmostFirst)
             .dfa(dfa)
             .build(sequence);
-
-        // let size_hint = (tables
-        //     .iter()
-        //     .map(|&table| table.0.len() + 1)
-        //     .sum::<usize>()
-        //     .saturating_sub(1)
-        //     + if adds.is_empty() {
-        //         0
-        //     } else {
-        //         (1 + adds.len() * 4).saturating_sub(1)
-        //     })
-        // .saturating_sub((removes.len() * 4).saturating_sub(1));
-        // let cmp_fn = |&pair1: &(&str, &str), &pair2: &(&str, &str)| pair1.0.len() >= pair2.0.len();
-        // let it = itertools::kmerge_by(
-        //     tables
-        //         .into_iter() // earlier tables have greater precedence
-        //         .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|'))),
-        //     cmp_fn,
-        // )
-        // .merge_by(adds.into_iter().map(|(from, to)| (from, to)), cmp_fn)
-        // .dedup_by(|pair1, pair2| pair1.0 == pair2.0)
-        // .filter(|(from, _to)| !removes.contains_key(from));
-        // // TODO: GROUP > tables
         ZhConverter {
             variant: target,
             mapping,

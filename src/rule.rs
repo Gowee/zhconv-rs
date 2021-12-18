@@ -316,7 +316,7 @@ impl FromStr for Conv {
             let variant = variant.trim().parse::<Variant>().map_err(|_| ())?;
             if let Some(from) = left {
                 unid.entry(variant)
-                    .or_insert_with(|| Vec::new())
+                    .or_insert_with(Vec::new)
                     .push((from.to_owned(), to.to_owned()));
             } else {
                 bid.insert(variant, to.to_owned());
