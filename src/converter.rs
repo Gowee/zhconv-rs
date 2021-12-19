@@ -19,7 +19,7 @@ const NESTED_RULE_MAX_DEPTH: usize = 10;
 pub struct ZhConverter {
     variant: Variant,
     automaton: AhoCorasick,
-    mapping: HashMap<String, String>
+    mapping: HashMap<String, String>,
 }
 
 impl ZhConverter {
@@ -141,7 +141,7 @@ impl ZhConverter {
     }
 
     // TODO: inplace? we need to maintain a stack which could be at most O(n)
-    //       and it requires access to underlying bytes for subtle mutations 
+    //       and it requires access to underlying bytes for subtle mutations
     // pub fn convert_inplace(&self, text: &mut String) {
     //     let tbp = VecDeque::<&str>::new(); // to be pushed
     //     let mut wi = 0; // writing index
@@ -187,6 +187,16 @@ impl<'t> ZhConverterBuilder<'t> {
     //  [CGroup](https://zh.wikipedia.org/wiki/Module:CGroup) (a.k.a 公共轉換組)
 
     /// Add a set of rules extracted from a page
+    ///
+    /// This is a helper wrapper around `page_rules`.
+    #[inline(always)]
+    pub fn rules_from_page(self, text: &str) -> Self {
+        self.page_rules(
+            &PageRules::from_str(text).expect("Page rules parsing in infallible for now"),
+        )
+    }
+
+    /// Add a set of rules from `PageRules`
     ///
     /// A helper wrapper around `conv_actions`. These rules take the higher precedence over those
     /// specified via `table`.
@@ -254,7 +264,7 @@ impl<'t> ZhConverterBuilder<'t> {
     /// Set whether to activate the DFA of Aho-Corasick.
     ///
     /// With DFA enabled, it takes rougly 5x time to build the converter while the conversion
-    /// speed is < 2x faster. 
+    /// speed is < 2x faster.
     pub fn dfa(mut self, enabled: bool) -> Self {
         self.dfa = enabled;
         self
@@ -277,13 +287,13 @@ impl<'t> ZhConverterBuilder<'t> {
                 .into_iter()
                 .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
                 .flatten()
+                .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
                 .filter(|&(from, _to)| !removes.contains_key(from))
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         mapping.extend(
             adds.into_iter()
-                .filter(|(from, _to)| !removes.contains_key(from))
-                // .map(|(from, to)| (from.to_owned(), to.to_owned())),
+                .filter(|(from, _to)| !removes.contains_key(from)), // .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         let sequence = mapping.keys();
         let automaton = AhoCorasickBuilder::new()
