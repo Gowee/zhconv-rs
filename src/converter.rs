@@ -249,8 +249,8 @@ impl<'t> ZhConverterBuilder<'t> {
     /// zh-cn:丹尼尔·'丹尼/丹诺'·威廉姆斯; zh-tw:丹尼·威廉斯; zh-hk:韋丹尼;
     /// ```
     pub fn conv_lines(mut self, lines: &str) -> Self {
-        for line in lines.lines() {
-            if let Ok(conv) = Conv::from_str(line) {
+        for line in lines.lines().map(str::trim).filter(|s| !s.is_empty()) {
+            if let Ok(conv) = Conv::from_str(line.trim()) {
                 self.adds.extend(
                     conv.get_convs_by_target(self.target)
                         .iter()
@@ -297,7 +297,7 @@ impl<'t> ZhConverterBuilder<'t> {
         );
         let sequence = mapping.keys();
         let automaton = AhoCorasickBuilder::new()
-            .match_kind(MatchKind::LeftmostFirst)
+            .match_kind(MatchKind::LeftmostLongest)
             .dfa(dfa)
             .build(sequence);
         ZhConverter {
