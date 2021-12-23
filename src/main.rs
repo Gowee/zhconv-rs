@@ -1,6 +1,6 @@
 use std::io::{self, Read};
 
-use zhconv::{get_builtin_table, zhconv, zhconv_mw, Variant, ZhConverterBuilder};
+use zhconv::{get_builtin_table, Variant, ZhConverterBuilder};
 
 // const t: &str = include_str!("../benches/data689k.txt");
 

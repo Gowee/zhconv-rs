@@ -41,17 +41,19 @@
 //! ```
 //!
 //! To load or add additional conversion rules such as CGroup, see [`ZhConverterBuilder`].
-//! 
+//!
 
 use std::str::FromStr;
 
 mod converter;
 mod utils;
-pub mod tables;
+
 pub mod converters;
+pub mod tables;
+
 pub mod variant;
-pub mod rule;
 pub mod pagerules;
+pub mod rule;
 
 use self::utils::for_wasm;
 
@@ -95,7 +97,6 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
         .target(target)
         .table(base)
         .page_rules(&page_rules)
-        // .conv_lines("zh-cn:人工智能; zh-hk:人工智能; zh-tw:人工智慧;\nzh:訪問; zh-cn:访问; zh-tw:存取;\nzh-cn:访问控制表;zh-tw:存取控制串列\nzh-cn:接入点;\n")
         .build()
         .convert_allowing_inline_rules(text)
 }

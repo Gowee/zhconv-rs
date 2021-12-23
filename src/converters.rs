@@ -5,7 +5,7 @@
 
 use lazy_static::lazy_static; // TODO: once_cell
 
-use crate::{Variant, ZhConverter, tables::*};
+use crate::{tables::*, Variant, ZhConverter};
 
 lazy_static! {
     #[allow(non_upper_case_globals)]
