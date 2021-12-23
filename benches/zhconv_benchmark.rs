@@ -1,6 +1,6 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
-use zhconv::{tables::*};
+use zhconv::{tables::*, Variant};
 
 const DATA54K: &str = include_str!("data54k.txt");
 const DATA689K: &str = include_str!("data689k.txt");
@@ -23,28 +23,28 @@ fn criterion_benchmark(c: &mut Criterion) {
         b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_MY_TABLE)))
     });
     c.bench_function("load zh2Hant", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(ZH_HANT_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(ZH_HANT_TABLE)))
     });
     c.bench_function("load zh2Hans", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(ZH_HANS_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(ZH_HANS_TABLE)))
     });
     c.bench_function("load zh2TW", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_TW_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(*ZH_HANT_TW_TABLE)))
     });
     c.bench_function("load zh2HK", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_HK_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(*ZH_HANT_HK_TABLE)))
     });
     c.bench_function("load zh2MO", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANT_MO_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(*ZH_HANT_MO_TABLE)))
     });
     c.bench_function("load zh2CN", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_CN_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(*ZH_HANS_CN_TABLE)))
     });
     c.bench_function("load zh2SG", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_SG_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(*ZH_HANS_SG_TABLE)))
     });
     c.bench_function("load zh2MY", |b| {
-        b.iter_with_large_drop(|| build_converter(black_box(*ZH_HANS_MY_TABLE)))
+        b.iter_with_large_drop(|| build_converter(Variant::Zh, black_box(*ZH_HANS_MY_TABLE)))
     });
     // c.bench_function("load all", |b| {
     //     b.iter_with_large_drop(|| {

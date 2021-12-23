@@ -1,3 +1,8 @@
+//! Struct to extract global rules from wikitext.
+//!
+//! **Note**: This module is exposed for convenience. It might have breaking changes at any time in
+//!           violation of semver.
+
 use std::str::FromStr;
 
 use crate::{

@@ -1,14 +1,21 @@
 use std::io::{self, Read};
 
-use zhconv::{zhconv_mw, Variant};
+use zhconv::{get_builtin_table, zhconv, zhconv_mw, Variant, ZhConverterBuilder};
 
 // const t: &str = include_str!("../benches/data689k.txt");
 
 fn main() {
     let mut input = String::new();
     io::stdin().lock().read_to_string(&mut input).unwrap();
-    // dbg!(*ZH_HANT_TW_TABLE);
-    println!("{}", zhconv_mw(&input, Variant::ZhHant));
+    // dbg!(*ZH_HANT_TW_TABLE);s
+    println!("{}", ZhConverterBuilder::new()
+    .target(Variant::ZhTW)
+    .table(get_builtin_table(Variant::ZhTW))
+    .conv_lines("zh-cn:人工智能; zh-hk:人工智能; zh-tw:人工智慧;\nzh:訪問; zh-cn:访问; zh-tw:存取;\nzh-cn:访问控制表;zh-tw:存取控制串列\nzh-cn:接入点;\n")
+    .rules_from_page(&input)
+    .dfa(false)
+    .build()
+    .convert(&input));
     // dbg!(ZH_HANT_TW_TABLE);
     // let c1 = make_converter(ZH_TW_TABLE);
     // let c2 = &zhconv::ZH_TO_CN_CONVERTER;
