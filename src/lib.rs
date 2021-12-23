@@ -11,7 +11,7 @@
 //! on the page base. For completeness, the converter also optionally supports the conversion rule
 //! syntax used in MediaWiki in the form `-{FOO BAR}-` and loading external rules defined line by
 //! line, which are typically extracted and pre-processed from a [CGroup](https://zh.wikipedia.org/wiki/Category:%E5%85%AC%E5%85%B1%E8%BD%AC%E6%8D%A2%E7%BB%84%E6%A8%A1%E5%9D%97)
-//! for a specific topic.
+//! on a specific topic.
 //!
 //! # Usage
 //! This crate TODO: will be [on crates.io](https://crates.io/crates/regex).
@@ -31,7 +31,7 @@
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
 //! ```
 //!
-//! With MediaWiki conversion rule:
+//! With MediaWiki conversion rules:
 //! ```
 //! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("天-{干}-物燥 小心火烛", "zh-Hant".parse::<Variant>().unwrap()), "天干物燥 小心火燭");
@@ -39,17 +39,19 @@
 //! assert_eq!(zhconv_mw("菊科草本植物包括-{zh-tw:鼠麴草;zh-cn:香茅;}-等。", Variant::ZhTW), "菊科草本植物包括鼠麴草等。");
 //! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // global rule
 //! ```
+//!
+//! To load or add additional conversion rules such as CGroup, see [`ZhConverterBuilder`].
+//! 
 
 use std::str::FromStr;
 
-use lazy_static::lazy_static;
-
 mod converter;
-pub mod pagerules;
-pub mod rule;
-pub mod tables;
 mod utils;
+pub mod tables;
+pub mod converters;
 pub mod variant;
+pub mod rule;
+pub mod pagerules;
 
 use self::utils::for_wasm;
 
@@ -58,29 +60,8 @@ for_wasm! {
 }
 
 pub use self::converter::{ZhConverter, ZhConverterBuilder};
+pub use self::converters::{get_builtin_converter, get_builtin_table};
 pub use self::variant::Variant;
-
-lazy_static! {
-    #[allow(non_upper_case_globals)]
-    /// Placeholding converter (`zh`/原文). Nothing will be converted with this.
-    pub static ref ZH_BLANK_CONVERTER: ZhConverter = tables::build_converter(Variant::Zh, ("", ""));
-    /// Zh2Hant converter (`zh-Hant`/繁體中文), lazily built from [`ZH_HANT_TABLE`](crate::tables::ZH_HANT_TABLE).
-    pub static ref ZH_TO_HANT_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhHant, tables::ZH_HANT_TABLE);
-    /// Zh2Hans converter (`zh-Hans`/简体中文), lazily built from [`ZH_HANS_TABLE`](crate::tables::ZH_HANS_TABLE).
-    pub static ref ZH_TO_HANS_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhHans, tables::ZH_HANS_TABLE);
-    /// Zh2TW converter (`zh-Hant-TW`/臺灣正體), lazily built from [`ZH_HANT_TW_TABLE`](crate::tables::ZH_HANT_TW_TABLE).
-    pub static ref ZH_TO_TW_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhTW, *tables::ZH_HANT_TW_TABLE);
-    /// Zh2HK converter (`zh-Hant-HK`/香港繁體), lazily built from [`ZH_HANT_HK_TABLE`](crate::tables::ZH_HANT_HK_TABLE).
-    pub static ref ZH_TO_HK_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhHK, *tables::ZH_HANT_HK_TABLE);
-    /// Zh2MO converter (`zh-Hant-MO`/澳門繁體), lazily built from [`ZH_HANT_MO_TABLE`](crate::tables::ZH_HANT_MO_TABLE).
-    pub static ref ZH_TO_MO_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhMO, *tables::ZH_HANT_MO_TABLE);
-    /// Zh2CN converter (`zh-Hans-CN`/大陆简体), lazily built from [`ZH_HANS_CN_TABLE`](crate::tables::ZH_HANS_CN_TABLE).
-    pub static ref ZH_TO_CN_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhCN, *tables::ZH_HANS_CN_TABLE);
-    /// Zh2SG converter (`zh-Hans-SG`/新加坡简体), lazily built from [`ZH_HANS_SG_TABLE`](crate::tables::ZH_HANS_SG_TABLE).
-    pub static ref ZH_TO_SG_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhSG, *tables::ZH_HANS_SG_TABLE);
-    /// Zh2MY converter (`zh-Hans-MY`/大马简体), lazily built from [`ZH_HANS_MY_TABLE`](crate::tables::ZH_HANS_MY_TABLE).
-    pub static ref ZH_TO_MY_CONVERTER: ZhConverter = tables::build_converter(Variant::ZhMY, *tables::ZH_HANS_MY_TABLE);
-}
 
 /// Helper function for general conversion.
 ///
@@ -117,42 +98,4 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
         // .conv_lines("zh-cn:人工智能; zh-hk:人工智能; zh-tw:人工智慧;\nzh:訪問; zh-cn:访问; zh-tw:存取;\nzh-cn:访问控制表;zh-tw:存取控制串列\nzh-cn:接入点;\n")
         .build()
         .convert_allowing_inline_rules(text)
-}
-
-/// Get the builtin converter for a target Chinese variant.
-#[inline(always)]
-pub fn get_builtin_converter(target: Variant) -> &'static ZhConverter {
-    use Variant::*;
-    match target {
-        Zh => &*ZH_BLANK_CONVERTER,
-        ZhHant => &*ZH_TO_HANT_CONVERTER,
-        ZhHans => &*ZH_TO_HANS_CONVERTER,
-        ZhTW => &*ZH_TO_TW_CONVERTER,
-        ZhHK => &*ZH_TO_HK_CONVERTER,
-        ZhMO => &*ZH_TO_MO_CONVERTER,
-        ZhCN => &*ZH_TO_CN_CONVERTER,
-        ZhMY => &*ZH_TO_MY_CONVERTER,
-        ZhSG => &*ZH_TO_SG_CONVERTER,
-    }
-}
-
-/// Get the builtin conversion table for a target Chinese variant.
-///
-/// Accessing a table is only necessary when building a custom converter.
-/// Otherwise, there is [`get_builtin_converter`].
-#[inline(always)]
-pub fn get_builtin_table(target: Variant) -> (&'static str, &'static str) {
-    use tables::*;
-    use Variant::*;
-    match target {
-        Zh => ("", ""),
-        ZhHant => ZH_HANT_TABLE,
-        ZhHans => ZH_HANS_TABLE,
-        ZhTW => *ZH_HANT_TW_TABLE,
-        ZhHK => *ZH_HANT_HK_TABLE,
-        ZhMO => *ZH_HANT_MO_TABLE,
-        ZhCN => *ZH_HANS_CN_TABLE,
-        ZhMY => *ZH_HANS_MY_TABLE,
-        ZhSG => *ZH_HANS_SG_TABLE,
-    }
 }
