@@ -17,7 +17,7 @@
 //! This crate TODO: will be [on crates.io](https://crates.io/crates/regex).
 //! ```toml
 //! [dependencies]
-//! zhconv = "0.2"
+//! zhconv = "0.1"
 //! ```
 //!
 //! # Example
@@ -51,9 +51,9 @@ mod utils;
 pub mod converters;
 pub mod tables;
 
-pub mod variant;
 pub mod pagerules;
 pub mod rule;
+pub mod variant;
 
 use self::utils::for_wasm;
 
