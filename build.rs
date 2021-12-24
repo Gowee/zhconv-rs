@@ -19,14 +19,9 @@ const SHA256: [u8; 32] = hex!("0f0979dc3041c68884a31d3bbd181d30d3b95ad77cfa11040
 const URL: &str = formatcp!("https://raw.githubusercontent.com/wikimedia/mediawiki/{}/includes/languages/data/ZhConversion.php", COMMIT);
 
 fn main() {
-    // let URL = format!("https://raw.githubusercontent.com/wikimedia/mediawiki/{}/includes/languages/data/ZhConversion.php", COMMIT);
-
     let zhconv = fetch_zhconv();
 
     let out_dir = env::var_os("OUT_DIR").unwrap();
-    // let dest_path = Path::new(&out_dir).join("convs.rs");
-    // let mut f = File::create(&dest_path).unwrap();
-    // writeln!(f, "// Generated from zhConversion.php at {}\n", COMMIT).unwrap();
 
     for (name, mut pairs) in parse(&zhconv).into_iter() {
         let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
@@ -56,41 +51,8 @@ fn main() {
         for e in Itertools::intersperse(pairs.iter().map(|(_from, to)| to.as_str()), "|") {
             write!(fto, "{}", e).unwrap();
         }
-
-        // writeln!(f, "fn gen_{}() -> ZhConverter {{", name).unwrap();
-        // writeln!(f, "let mut m = HashMap::with_capacity({});", pairs.len()).unwrap();
-
-        // write!(f, r#"let p = Regex::new("("#).unwrap();
-        // let mut it = pairs.iter().peekable();
-        // while let Some((from, _to)) = it.next() {
-        //     assert!(!from.contains('|'));
-        //     write!(f, "{}", from).unwrap();
-        //     if it.peek().is_some() {
-        //         write!(f, "|").unwrap();
-        //     }
-        // }
-        // write!(f, r#")").unwrap();"#).unwrap();
-
-        // let mut it = pairs.iter(); //.peekable();
-        // while let Some((from, to)) = it.next() {
-        //     assert!(!from.contains('"') && !to.contains('"'));
-        //     writeln!(f, r#"m.insert("{}".to_owned(), "{}".to_owned());"#, from, to).unwrap();
-        //     // if it.peek().is_some() {
-        //     //     write!(f, ", ").unwrap();
-        //     // }
-        // }
-        // writeln!(f, "\nZhConverter::new(p, m)\n}}").unwrap();
-
-        // writeln!(f, "lazy_static! {{").unwrap();
-        // writeln!(f, r"pub static ref {name}Converter: ZhConverter = gen_{name}();", name=name).unwrap();
-
-        // writeln!(f, "}}").unwrap();
     }
 
-    // fs::write(
-    //     &dest_path,
-    //     &zhconv
-    // ).unwrap();
     vergen(VergenConfig::default()).expect("vergen");
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
