@@ -59,26 +59,26 @@ fn criterion_benchmark(c: &mut Criterion) {
     // });
 
     c.bench_function("zh2TW data54k", |b| {
-        b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA54K))
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA54K))
     });
     c.bench_function("zh2CN data54k", |b| {
-        b.iter_with_large_drop(|| zhconv::ZH_TO_CN_CONVERTER.convert(DATA54K))
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert(DATA54K))
     });
     c.bench_function("zh2Hant data689k", |b| {
-        b.iter_with_large_drop(|| zhconv::ZH_TO_HANT_CONVERTER.convert(DATA689K))
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_HANT_CONVERTER.convert(DATA689K))
     });
     c.bench_function("zh2TW data689k", |b| {
-        b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA689K))
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA689K))
     });
     c.bench_function("zh2Hant data3185k", |b| {
-        b.iter_with_large_drop(|| zhconv::ZH_TO_HANT_CONVERTER.convert(DATA3185K))
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_HANT_CONVERTER.convert(DATA3185K))
     });
     c.bench_function("zh2TW data3185k", |b| {
-        b.iter_with_large_drop(|| zhconv::ZH_TO_TW_CONVERTER.convert(DATA3185K))
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA3185K))
     });
     c.bench_function("zh2TW data55m", |b| {
         b.iter_with_large_drop(|| {
-            zhconv::ZH_TO_TW_CONVERTER.convert(
+            zhconv::converters::ZH_TO_TW_CONVERTER.convert(
                 &(String::from(DATA3185K)
                     + DATA3185K
                     + DATA3185K
