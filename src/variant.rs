@@ -122,7 +122,7 @@ impl VariantMap<String> {
                     for (_variant, from) in self.0.iter() {
                         // when variant == target, from == to, which indicates preventing the word
                         // from converting
-                        pairs.push((from.as_ref(), to.as_ref()));
+                        pairs.push((from.as_ref(), to));
                     }
                     pairs
                 } else {

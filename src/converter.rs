@@ -69,7 +69,6 @@ impl ZhConverter {
             output.push_str(self.mapping.get(&text[s..e]).unwrap());
             last = e;
         }
-        // dbg!(cnt);
         output.push_str(&text[last..]);
     }
 
@@ -127,7 +126,6 @@ impl ZhConverter {
                     };
                     if let Ok(rule) = ConvRule::from_str(&piece) {
                         // only take it output; mutations to global rules are ignored
-                        dbg!(&rule);
                         rule.write_output(upper, self.variant).unwrap();
                     } else {
                         // rule is invalid
@@ -256,6 +254,22 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
+    /// Add a conv.
+    pub fn add_conv(mut self, conv: Conv) -> Self {
+        let pairs = conv.get_convs_by_target(self.target);
+        self.adds
+            .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
+        self
+    }
+
+    /// Mark a conv as removed.
+    pub fn remove_conv(mut self, conv: Conv) -> Self {
+        let pairs = conv.get_convs_by_target(self.target);
+        self.removes
+            .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
+        self
+    }
+
     /// Add a single conversion pair.
     ///
     /// It takes the precedence over those specified via `table`. It shares the same precedence level with those specified via `cgroup`.
@@ -315,7 +329,7 @@ impl<'t> ZhConverterBuilder<'t> {
     ///
     /// It internally aggregate previously specified tables, rules and pairs, from where an
     /// automaton and a mapping are built, which are then feed into the new converter.
-    pub fn build(self) -> ZhConverter {
+    pub fn build(&self) -> ZhConverter {
         let Self {
             target,
             tables,
@@ -329,7 +343,7 @@ impl<'t> ZhConverterBuilder<'t> {
         );
         mapping.extend(
             tables
-                .into_iter()
+                .iter()
                 .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
                 .flatten()
                 .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
@@ -337,16 +351,17 @@ impl<'t> ZhConverterBuilder<'t> {
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         mapping.extend(
-            adds.into_iter()
-                .filter(|(from, _to)| !removes.contains_key(from)), // .map(|(from, to)| (from.to_owned(), to.to_owned())),
+            adds.iter()
+                .filter(|(from, _to)| !removes.contains_key(from.as_str()))
+                .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         let sequence = mapping.keys();
         let automaton = AhoCorasickBuilder::new()
             .match_kind(MatchKind::LeftmostLongest)
-            .dfa(dfa)
+            .dfa(*dfa)
             .build(sequence);
         ZhConverter {
-            variant: target,
+            variant: *target,
             mapping,
             automaton,
         }
