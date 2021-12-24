@@ -1,0 +1,867 @@
+{
+  "name": "Transformers",
+  "description": "變形金剛",
+  "path": "Template:CGroup/Transformers",
+  "rules": [
+    {
+      "original": "Optimus Prime",
+      "conv": "zh-tw:柯博文; zh-hk:柯柏文; zh-cn:擎天柱;"
+    },
+    {
+      "original": "Bluestreak",
+      "conv": "zh-tw:藍紋; zh-hk:藍光; zh-cn:蓝霹雳;"
+    },
+    {
+      "original": "Hound",
+      "conv": "zh-tw:獵犬; zh-hk:獵犬; zh-cn:探长;"
+    },
+    {
+      "original": "Prowl",
+      "conv": "zh-tw:巡弋者; zh-hk:潛行獸; zh-cn:警车;"
+    },
+    {
+      "original": "Ratchet",
+      "conv": "zh-tw:制輪機; zh-hk:力捷; zh-cn:救护车;"
+    },
+    {
+      "original": "Ratchet",
+      "conv": "zh-tw:飛輪; zh-hk:力捷; zh-cn:救护车;"
+    },
+    {
+      "original": "Sideswipe",
+      "conv": "zh-tw:側掃; zh-hk:斯韋伯; zh-cn:横炮;"
+    },
+    {
+      "original": "Sunstreaker",
+      "conv": "zh-tw:太陽紋; zh-hk:閃電光; zh-cn:飞毛腿;"
+    },
+    {
+      "original": "Trailbreaker",
+      "conv": "zh-tw:開路先鋒; zh-hk:機密戰士; zh-cn:开路先锋;"
+    },
+    {
+      "original": "Wheeljack",
+      "conv": "zh-tw:輪傑; zh-hk:阿積; zh-cn:千斤顶;"
+    },
+    {
+      "original": "Brawn",
+      "conv": "zh-tw:布朗; zh-hk:布朗; zh-cn:大汉;"
+    },
+    {
+      "original": "Cliffjumper",
+      "conv": "zh-tw:跳崖; zh-hk:跳崖者; zh-cn:飞过山;"
+    },
+    {
+      "original": "Cliffjumper",
+      "conv": "zh-tw:跳崖者; zh-hk:跳崖者; zh-cn:飞过山;"
+    },
+    {
+      "original": "Cliffjumper",
+      "conv": "zh-tw:飛過山; zh-hk:跳崖者; zh-cn:飞过山;"
+    },
+    {
+      "original": "Gears",
+      "conv": "zh-tw:齒輪; zh-hk:波段; zh-cn:变速箱;"
+    },
+    {
+      "original": "Huffer",
+      "conv": "zh-tw:哈佛; zh-hk:夏發; zh-cn:鲁莽;"
+    },
+    {
+      "original": "Windcharger",
+      "conv": "zh-tw:充風; zh-hk:追風者; zh-cn:充电器;"
+    },
+    {
+      "original": "Inferno",
+      "conv": "zh-tw:地獄; zh-hk:火地獄; zh-cn:消防车;"
+    },
+    {
+      "original": "Tracks",
+      "conv": "zh-hk:吉斯; zh-cn:轮胎;"
+    },
+    {
+      "original": "Hoist",
+      "conv": "zh-tw:舉升機; zh-hk:荷斯; zh-cn:滑车;"
+    },
+    {
+      "original": "Grapple",
+      "conv": "zh-hk:基夫; zh-cn:吊车;"
+    },
+    {
+      "original": "Slag",
+      "conv": "zh-tw:熔渣; zh-hk:火炭; zh-cn:铁渣;"
+    },
+    {
+      "original": "Snarl",
+      "conv": "zh-tw:咆哮; zh-hk:哮叫; zh-cn:嚎叫;"
+    },
+    {
+      "original": "Swoop",
+      "conv": "zh-tw:猛撲; zh-hk:飛撲; zh-cn:飞标;"
+    },
+    {
+      "original": "Sentinel Prime",
+      "conv": "zh-tw:警戒至尊; zh-cn:御天敌;"
+    },
+    {
+      "original": "Sentinel Prime",
+      "conv": "zh-tw:御天至尊; zh-cn:御天敌;"
+    },
+    {
+      "original": "Ultra Magnus",
+      "conv": "zh-tw:馬格斯; zh-cn:通天晓;"
+    },
+    {
+      "original": "Alpha Trion",
+      "conv": "zh-tw:阿法特利昂; zh-hk:艾迪安; zh-cn:钛师父;"
+    },
+    {
+      "original": "Inferno",
+      "conv": "zh-tw:地獄; zh-hk:地獄火; zh-cn:消防车;"
+    },
+    {
+      "original": "Red Alert",
+      "conv": "zh-tw:紅色警戒; zh-hk:滅火車; zh-cn:红色警报;"
+    },
+    {
+      "original": "Omega Supreme",
+      "conv": "zh-tw:奧米加; zh-hk:龐龍; zh-cn:大力金刚;"
+    },
+    {
+      "original": "Blaster",
+      "conv": "zh-tw:爆破者; zh-hk:拍子達; zh-cn:录音机;"
+    },
+    {
+      "original": "Perceptor",
+      "conv": "zh-tw:感應者; zh-hk:博士; zh-cn:感知器;"
+    },
+    {
+      "original": "Powerglide",
+      "conv": "zh-tw:動力滑翔; zh-hk:力基; zh-cn:滑翔机;"
+    },
+    {
+      "original": "Seaspray",
+      "conv": "zh-tw:浪花; zh-hk:海浪; zh-cn:浪花;"
+    },
+    {
+      "original": "Warpath",
+      "conv": "zh-tw:戰道; zh-hk:衝鋒頭; zh-cn:战戟;"
+    },
+    {
+      "original": "Cosmos",
+      "conv": "zh-tw:小宇宙; zh-hk:宇宙客; zh-cn:宇宙飞碟;"
+    },
+    {
+      "original": "Superion",
+      "conv": "zh-tw:速伯利昂; zh-hk:超級戰士; zh-cn:大无畏;"
+    },
+    {
+      "original": "Silverbolt",
+      "conv": "zh-tw:銀閃電; zh-hk:灰甲; zh-cn:银箭;"
+    },
+    {
+      "original": "Skydive",
+      "conv": "zh-hk:天狄; zh-cn:俯冲;"
+    },
+    {
+      "original": "Fireflight",
+      "conv": "zh-tw:飛翔火; zh-hk:飞天火; zh-cn:飞火;"
+    },
+    {
+      "original": "Slingshot",
+      "conv": "zh-tw:彈弓; zh-hk:史寧; zh-cn:弹弓;"
+    },
+    {
+      "original": "Defensor",
+      "conv": "zh-tw:保衛者; zh-cn:守护神;"
+    },
+    {
+      "original": "Hotspot",
+      "conv": "zh-tw:危險地帶; zh-hk:救火喉; zh-cn:热点;"
+    },
+    {
+      "original": "Blades",
+      "conv": "zh-tw:刀鋒; zh-hk:霹雳飞刀; zh-cn:刀刃;"
+    },
+    {
+      "original": "Streetwise",
+      "conv": "zh-tw:基層跑首; zh-hk:雷達威; zh-cn:大街;"
+    },
+    {
+      "original": "Groove",
+      "conv": "zh-tw:快活; zh-hk:穿山甲; zh-cn:车辙;"
+    },
+    {
+      "original": "FirstAid",
+      "conv": "zh-tw:首席助理; zh-hk:大國手; zh-cn:护理员;"
+    },
+    {
+      "original": "Computron",
+      "conv": "zh-tw:電腦金剛; zh-hk:電腦金剛; zh-cn:计算王;"
+    },
+    {
+      "original": "Scattershot",
+      "conv": "zh-tw:散彈槍; zh-hk:鋼炮; zh-cn:激光炮;"
+    },
+    {
+      "original": "Nosecone",
+      "conv": "zh-tw:頭錐; zh-hk:髙鼻; zh-cn:钻探机;"
+    },
+    {
+      "original": "Afterburner",
+      "conv": "zh-tw:後燃器; zh-hk:助燃器; zh-cn:烙铁;"
+    },
+    {
+      "original": "Arcee",
+      "conv": "zh-tw:雅希;zh-hk:雅詩;zh-cn:阿尔茜;zh-hant:艾茜;zh-mo:雅詩;"
+    },
+    {
+      "original": "Arcee",
+      "conv": "zh-tw:亞希;zh-hk:雅詩;zh-cn:阿尔茜;zh-hant:艾茜;zh-mo:雅詩;"
+    },
+    {
+      "original": "Hot Rod",
+      "conv": "zh-tw:羅德; zh-hk:火棒; zh-cn:热破;"
+    },
+    {
+      "original": "Rodimus Prime",
+      "conv": "zh-tw:羅迪至尊; zh-hk:洛狄文; zh-cn:补天士;"
+    },
+    {
+      "original": "Metroplex",
+      "conv": "zh-tw:大都會; zh-hk:大力士; zh-cn:猛大帅;"
+    },
+    {
+      "original": "Blurr",
+      "conv": "zh-tw:布勒; zh-hk:急先鋒; zh-cn:罗嗦;"
+    },
+    {
+      "original": "Wheelie",
+      "conv": "zh-tw:威利; zh-hk:雲尼; zh-cn:转轮;"
+    },
+    {
+      "original": "Wheelie",
+      "conv": "zh-tw:甩輪; zh-hk:雲尼; zh-cn:转轮;"
+    },
+    {
+      "original": "Wreck-Gar",
+      "conv": "zh-tw:雷卡;zh-hk:百搭; zh-cn:营救车;"
+    },
+    {
+      "original": "Kup",
+      "conv": "zh-tw:卡普;zh-hk:葛伯; zh-cn:杯子;"
+    },
+    {
+      "original": "Sandstorm",
+      "conv": "zh-tw:沙暴;zh-hk:飛沙雷; zh-cn:沙漠风暴;"
+    },
+    {
+      "original": "Boardside",
+      "conv": "zh-hk:博西; zh-cn:舷炮;"
+    },
+    {
+      "original": "Springer",
+      "conv": "zh-tw:跳躍者;zh-hk:百丈跳; zh-cn:弹簧;"
+    },
+    {
+      "original": "SkyLynx",
+      "conv": "zh-tw:飛天山貓;zh-hk:天豹; zh-cn:天猫;"
+    },
+    {
+      "original": "Fortress Maximus",
+      "conv": "zh-tw:巨無霸福特; zh-hk:巨無霸福特; zh-cn:巨无霸福特;"
+    },
+    {
+      "original": "Metalhawk",
+      "conv": "zh-tw:霍克; zh-cn:汉克; zh-hk:漢克;"
+    },
+    {
+      "original": "Jinrai",
+      "conv": "zh-tw:迅雷; zh-hk:仁萊; zh-cn:仁莱;"
+    },
+    {
+      "original": "Doubledealer",
+      "conv": "zh-tw:雙面人;zh-hk:電腦怪傑; zh-cn:快枪手;"
+    },
+    {
+      "original": "Godbomber",
+      "conv": "zh-tw:神力轟炸手;zh-hk:雷電一號; zh-cn:神弹;"
+    },
+    {
+      "original": "Star Saber",
+      "conv": "zh-tw:星際軍刀; zh-hk:史達; zh-cn:史达;"
+    },
+    {
+      "original": "Victory Leo",
+      "conv": "zh-tw:勝利猛獅; zh-hk:獅王; zh-cn:狮王;"
+    },
+    {
+      "original": "Live Convoy",
+      "conv": "zh-tw:萊普康柏; zh-hk:守護; zh-cn:守护;"
+    },
+    {
+      "original": "Nitro Convoy",
+      "conv": "zh-tw:尼多羅; zh-hk:火線總司令; zh-cn:火线总司令;"
+    },
+    {
+      "original": "Flame Convoy",
+      "conv": "zh-tw:普雷姆康柏; zh-hk:烈焰總司令; zh-cn:烈焰总司令;"
+    },
+    {
+      "original": "Megalo Convoy",
+      "conv": "zh-tw:梅卡羅康柏; zh-hk:巨神總司令; zh-cn:巨神总司令;"
+    },
+    {
+      "original": "Bulkhead",
+      "conv": "zh-tw:鐵漢; zh-hk:蠻頭; zh-cn:隔板;"
+    },
+    {
+      "original": "Megatron",
+      "conv": "zh-tw:密卡登; zh-hk:麥加登; zh-cn:威震天;"
+    },
+    {
+      "original": "Starscream",
+      "conv": "zh-tw:吼星; zh-hk:星星叫; zh-cn:红蜘蛛;"
+    },
+    {
+      "original": "Starscream",
+      "conv": "zh-tw:天王星; zh-hk:星星叫; zh-cn:红蜘蛛;"
+    },
+    {
+      "original": "Thundercracker",
+      "conv": "zh-tw:裂雷; zh-hk:雷公; zh-cn:惊天雷;"
+    },
+    {
+      "original": "Skywarp",
+      "conv": "zh-tw:天彎; zh-hk:天鷗; zh-cn:闹翻天;"
+    },
+    {
+      "original": "Shockwave",
+      "conv": "zh-tw:震波; zh-hk:震波; zh-cn:震荡波;"
+    },
+    {
+      "original": "Shockwave",
+      "conv": "zh-tw:震盪波; zh-hk:震波; zh-cn:震荡波;"
+    },
+    {
+      "original": "Soundwave",
+      "conv": "zh-tw:音波; zh-hk:音波; zh-cn:声波;"
+    },
+    {
+      "original": "Soundwave",
+      "conv": "zh-tw:聲波; zh-hk:音波; zh-cn:声波;"
+    },
+    {
+      "original": "Laserbeak",
+      "conv": "zh-tw:雷射鷹; zh-hk:激光鳥; zh-cn:激光鸟;"
+    },
+    {
+      "original": "Buzzsaw",
+      "conv": "zh-tw:鋸齒鳥; zh-hk:激光燕; zh-cn:圆锯鸟;"
+    },
+    {
+      "original": "Ratbat",
+      "conv": "zh-tw:蝙蝠;zh-hk:偉伯; zh-cn:机器蝙蝠;"
+    },
+    {
+      "original": "Ravage",
+      "conv": "zh-tw:黑豹\"破壞\"; zh-hk:野犬; zh-cn:机器狗;"
+    },
+    {
+      "original": "Frenzy",
+      "conv": "zh-tw:法蘭茲; zh-hk:瘋狂; zh-cn:迷乱;"
+    },
+    {
+      "original": "Frenzy",
+      "conv": "zh-tw:疾瘋; zh-hk:瘋狂; zh-cn:迷乱;"
+    },
+    {
+      "original": "Rumble",
+      "conv": "zh-tw:蘭波; zh-hk:雷響; zh-cn:轰隆隆;"
+    },
+    {
+      "original": "Reflector",
+      "conv": "zh-tw:反射器; zh-hk:反射器; zh-cn:照相机;"
+    },
+    {
+      "original": "Kickback",
+      "conv": "zh-tw:反衝; zh-hk:神腿; zh-cn:反冲;"
+    },
+    {
+      "original": "Shrapnel",
+      "conv": "zh-tw:霰彈; zh-hk:子母彈; zh-cn:弹片;"
+    },
+    {
+      "original": "Ramjet",
+      "conv": "zh-tw:噴射器; zh-hk:羅渣; zh-cn:喷气机;"
+    },
+    {
+      "original": "Dirge",
+      "conv": "zh-tw:輓歌; zh-hk:戴治; zh-cn:挽歌;"
+    },
+    {
+      "original": "Thurst",
+      "conv": "zh-tw:衝刺; zh-hk:突斯; zh-cn:沖锋;"
+    },
+    {
+      "original": "Scrapper",
+      "conv": "zh-tw:廢鐵; zh-hk:廢鐵; zh-cn:铲土机;"
+    },
+    {
+      "original": "Hook",
+      "conv": "zh-tw:虎克; zh-hk:漢克; zh-cn:钓钩;"
+    },
+    {
+      "original": "Long Haul",
+      "conv": "zh-tw:耐力; zh-hk:小可; zh-cn:拖头;"
+    },
+    {
+      "original": "Scavenger",
+      "conv": "zh-tw:清道夫; zh-hk:清道夫; zh-cn:清扫机;"
+    },
+    {
+      "original": "Bonecrusher",
+      "conv": "zh-tw:碎骨機; zh-hk:船頭浪; zh-cn:推土机;"
+    },
+    {
+      "original": "Mixmaster",
+      "conv": "zh-tw:攪拌大師; zh-hk:攪拌機; zh-cn:搅拌车;"
+    },
+    {
+      "original": "Devastator",
+      "conv": "zh-tw:蹂躪者; zh-hk:破壞者; zh-cn:大力神;"
+    },
+    {
+      "original": "Blitzwing",
+      "conv": "zh-tw:閃電; zh-hk:閃電; zh-cn:闪电;"
+    },
+    {
+      "original": "Astrotrain",
+      "conv": "zh-tw:太空火車; zh-hk:智慧魔星; zh-cn:大火车;"
+    },
+    {
+      "original": "Octane",
+      "conv": "zh-tw:辛烷; zh-hk:惡頓; zh-cn:毒气弹;"
+    },
+    {
+      "original": "Motormaster",
+      "conv": "zh-tw:馬達大師; zh-hk:車主; zh-cn:汽车大师;"
+    },
+    {
+      "original": "Dead End",
+      "conv": "zh-tw:死巷; zh-hk:死路; zh-cn:封锁;"
+    },
+    {
+      "original": "Breakdown",
+      "conv": "zh-tw:拋錨; zh-hk:死火; zh-cn:打击;"
+    },
+    {
+      "original": "Drag Strip",
+      "conv": "zh-tw:奔馳; zh-hk:迪士龍; zh-cn:抢劫;"
+    },
+    {
+      "original": "Wildrider",
+      "conv": "zh-tw:狂野騎士; zh-hk:亂衝; zh-cn:莽撞;"
+    },
+    {
+      "original": "Menasor",
+      "conv": "zh-tw:威脅者; zh-hk:萬能喪士; zh-cn:飞天虎;"
+    },
+    {
+      "original": "Onslaught",
+      "conv": "zh-tw:突擊; zh-hk:安史羅; zh-cn:袭击;"
+    },
+    {
+      "original": "Off",
+      "conv": "zh-tw:升空; zh-hk:火爆; zh-cn:爆炸;"
+    },
+    {
+      "original": "Swindle",
+      "conv": "zh-tw:騙子; zh-hk:史雲度; zh-cn:诈骗;"
+    },
+    {
+      "original": "Brawl",
+      "conv": "zh-tw:爭吵;zh-hk:布朗; zh-cn:吵闹;"
+    },
+    {
+      "original": "Vortex",
+      "conv": "zh-tw:旋渦;zh-hk:维迪斯; zh-cn:旋风;"
+    },
+    {
+      "original": "Bruticus",
+      "conv": "zh-tw:布魯提卡斯; zh-hk:布斯達; zh-cn:混天豹;"
+    },
+    {
+      "original": "Trypticon",
+      "conv": "zh-tw:暴龍金剛; zh-hk:毀滅大王; zh-cn:铁甲龙;"
+    },
+    {
+      "original": "Galvatron",
+      "conv": "zh-tw:格威隆; zh-hk:甲威龍; zh-cn:惊破天;"
+    },
+    {
+      "original": "Cyclonus",
+      "conv": "zh-tw:旋風; zh-hk:旋風; zh-cn:狂飙;"
+    },
+    {
+      "original": "Scourge",
+      "conv": "zh-tw:災厄;zh-hk:探子; zh-cn:瘟疫;"
+    },
+    {
+      "original": "Predaking",
+      "conv": "zh-tw:掠食王;zh-hk:霹靂星; zh-cn:冲云霄;"
+    },
+    {
+      "original": "Abominus",
+      "conv": "zh-tw:憎恨者;zh-hk:寶斯; zh-cn:犰狳鬼;"
+    },
+    {
+      "original": "Sixshot",
+      "conv": "zh-tw:西夏; zh-hk:六面獸; zh-cn:六面兽;"
+    },
+    {
+      "original": "Scorponok",
+      "conv": "zh-tw:巨蠍; zh-hk:史捷; zh-cn:萨克巨人;"
+    },
+    {
+      "original": "Megazarak",
+      "conv": "zh-tw:薩拉; zh-hk:薩克巨人; zh-cn:萨克巨人;"
+    },
+    {
+      "original": "Giga",
+      "conv": "zh-tw:吉加; zh-cn:韦陀; zh-hk:韋陀;"
+    },
+    {
+      "original": "Mega",
+      "conv": "zh-tw:美加; zh-cn:美陀; zh-hk:美陀;"
+    },
+    {
+      "original": "Sunstorm",
+      "conv": "zh-tw:日暴; zh-hk:太陽風; zh-cn:太阳风;"
+    },
+    {
+      "original": "Barricade",
+      "conv": "zh-tw:判官; zh-hk:路障; zh-cn:路障;"
+    },
+    {
+      "original": "Blackout",
+      "conv": "zh-tw:黑魔; zh-hk:黑狂; zh-cn:眩晕;"
+    },
+    {
+      "original": "Blackout",
+      "conv": "zh-tw:天震; zh-hk:震天; zh-cn:天震;"
+    },
+    {
+      "original": "Makeshift",
+      "conv": "zh-tw:千面客; zh-hk:千面手; zh-cn:千面客;"
+    },
+    {
+      "original": "Knock Out",
+      "conv": "zh-tw:擊破; zh-hk:擊破; zh-cn:擊倒;"
+    },
+    {
+      "original": "Breakdown",
+      "conv": "zh-tw:死火; zh-hk:死火; zh-cn:打擊;"
+    },
+    {
+      "original": "Shatter",
+      "conv": "zh-tw:殺無赦; zh-hk:粉碎; zh-cn:粉碎;"
+    },
+    {
+      "original": "Dropkick",
+      "conv": "zh-tw:飛天腿; zh-hk:反彈球; zh-cn:反射弹;"
+    },
+    {
+      "original": "Spike",
+      "conv": "zh-tw:史派克; zh-hk:史碧加; zh-cn:斯派克;"
+    },
+    {
+      "original": "Spike",
+      "conv": "zh-tw:史派克; zh-hk:史柏克; zh-cn:斯派克;"
+    },
+    {
+      "original": "Witwicky",
+      "conv": "zh-tw:魏瓦奇; zh-hk:魏瓦奇; zh-cn:维特维奇;"
+    },
+    {
+      "original": "Michaela",
+      "conv": "zh-tw:蜜琪; zh-hk:米凱拉; zh-cn:米凯拉;"
+    },
+    {
+      "original": "Primus",
+      "conv": "zh-tw:普萊瑪斯; zh-hk:普萊姆斯; zh-cn:元始天尊;"
+    },
+    {
+      "original": "Unicron",
+      "conv": "zh-tw:尤尼克隆; zh-hk:獨角獸; zh-cn:宇宙大帝;"
+    },
+    {
+      "original": "Liege Maximo",
+      "conv": "zh-tw:王侯大帝; zh-cn:马克西莫大君"
+    },
+    {
+      "original": "Optimus Primal",
+      "conv": "zh-tw:金剛王; zh-hk:奧狄武; zh-cn:黑猩猩队长;"
+    },
+    {
+      "original": "Megatron",
+      "conv": "zh-tw:恐龍王; zh-hk:麥卡頓; zh-cn:霸王龙;"
+    },
+    {
+      "original": "Tarantulas",
+      "conv": "zh-tw:蜘蛛; zh-hk:蜘蛛獸; zh-cn:狼蛛勇士;"
+    },
+    {
+      "original": "Waspinator",
+      "conv": "zh-tw:胡蜂; zh-hk:黃蜂獸; zh-cn:黄蜂勇士;"
+    },
+    {
+      "original": "Vector Prime",
+      "conv": "zh-tw:貝克達; zh-hk:古劍; zh-cn:引天行;"
+    },
+    {
+      "original": "Raf",
+      "conv": "zh-tw:拉菲; zh-hk:華輝; zh-cn:拉夫;"
+    },
+    {
+      "original": "Fowler",
+      "conv": "zh-tw:富勒; zh-hk:法勒; zh-cn:福勒;"
+    },
+    {
+      "original": "Sierra",
+      "conv": "zh-tw:喜兒拉; zh-hk:雪莉亞; zh-cn:薩拉;"
+    },
+    {
+      "original": "Cade Yeager",
+      "conv": "zh-tw:凱德·伊格; zh-hk:伊奇德; zh-cn:凯德·伊格;"
+    },
+    {
+      "original": "Cade Yeager",
+      "conv": "zh-tw:凱德; zh-hk:奇德; zh-cn:凯德;"
+    },
+    {
+      "original": "Tessa Yeager",
+      "conv": "zh-tw:泰莎·伊格; zh-hk:伊泰莎; zh-cn:泰莎·伊格;"
+    },
+    {
+      "original": "Harold Attinger",
+      "conv": "zh-tw:哈洛·亞汀傑; zh-hk:厄先生; zh-cn:哈罗德·亚汀杰;"
+    },
+    {
+      "original": "Attinger",
+      "conv": "zh-tw:亞汀傑; zh-hk:厄先生; zh-cn:亚汀杰;"
+    },
+    {
+      "original": "James Savoy",
+      "conv": "zh-tw:詹姆士·薩沃; zh-hk:薩占士; zh-cn:詹姆斯·萨伏;"
+    },
+    {
+      "original": "Savoy",
+      "conv": "zh-tw:薩沃; zh-hk:薩占士; zh-cn:萨伏;"
+    },
+    {
+      "original": "Darcy",
+      "conv": "zh-tw:妲西; zh-hk:迪詩; zh-cn:妲西;"
+    },
+    {
+      "original": "Autobots",
+      "conv": "zh-tw:博派; zh-hk:博派; zh-cn:汽车人;"
+    },
+    {
+      "original": "Decepticons",
+      "conv": "zh-tw:狂派; zh-hk:狂派; zh-cn:霸天虎;"
+    },
+    {
+      "original": "Maximals",
+      "conv": "zh-tw:極限動物; zh-hk:密斯武; zh-cn:巨无霸;"
+    },
+    {
+      "original": "Predacons",
+      "conv": "zh-tw:掠食金剛; zh-hk:巴達乾; zh-cn:原始兽;"
+    },
+    {
+      "original": "Cemetery Wind",
+      "conv": "zh-tw:墓風部隊; zh-hk:墓場之風; zh-cn:墓风部队;"
+    },
+    {
+      "original": "Prime",
+      "conv": "zh-tw:至尊; zh-hk:先鋒至尊; zh-cn:领袖;"
+    },
+    {
+      "original": "Cybertron",
+      "conv": "zh-tw:賽博坦; zh-hk:斯比頓; zh-cn:赛伯坦;"
+    },
+    {
+      "original": "Cybertron",
+      "conv": "zh-tw:賽博創; zh-hk:斯比頓; zh-cn:赛伯坦;"
+    },
+    {
+      "original": "Matrix",
+      "conv": "zh-tw:原能矩陣; zh-hk:基體; zh-cn:能源宝;"
+    },
+    {
+      "original": "Vector Sigma",
+      "conv": "zh-tw:Vector Sigma; zh-hk:Vector Sigma; zh-cn:魔力神球;"
+    },
+    {
+      "original": "Allspark",
+      "conv": "zh-tw:神火源; zh-hk:能量火種; zh-cn:火种;"
+    },
+    {
+      "original": "All Spark",
+      "conv": "zh-tw:火種源; zh-hk:能量火種; zh-cn:火种;"
+    },
+    {
+      "original": "Dinobots",
+      "conv": "zh-tw:恐龍巴特; zh-hk:機械恐龍; zh-cn:恐龙金刚;"
+    },
+    {
+      "original": "Dinobots",
+      "conv": "zh-tw:機器恐龍; zh-hk:機械恐龍; zh-cn:机械恐龙;"
+    },
+    {
+      "original": "Constructicons",
+      "conv": "zh-tw:工程金剛; zh-hk:建造派; zh-cn:挖地虎;"
+    },
+    {
+      "original": "Insecticons",
+      "conv": "zh-tw:昆蟲金剛; zh-hk:昆蟲派; zh-cn:机械昆虫;"
+    },
+    {
+      "original": "Aerialbots",
+      "conv": "zh-tw:航空巴特;zh-hk:飛空派; zh-cn:飞行太保;"
+    },
+    {
+      "original": "Protectobots",
+      "conv": "zh-tw:保衛巴特;zh-hk:保衛派; zh-cn:机器卫兵;"
+    },
+    {
+      "original": "Technobots",
+      "conv": "zh-tw:科技巴特;zh-hk:科幻使者; zh-cn:神风队;"
+    },
+    {
+      "original": "Triple Changers",
+      "conv": "zh-tw:三變金剛;zh-hk:三變戰士; zh-cn:三变金刚;"
+    },
+    {
+      "original": "Stunticons",
+      "conv": "zh-tw:特技金剛;zh-hk:衝鋒派; zh-cn:飞虎队;"
+    },
+    {
+      "original": "Combaticons",
+      "conv": "zh-tw:戰鬥金剛;zh-hk:戰鬥派; zh-cn:战车队;"
+    },
+    {
+      "original": "Predacons",
+      "conv": "zh-tw:掠食金剛;zh-hk:野獸派; zh-cn:巨狰狞;"
+    },
+    {
+      "original": "Terrorcons",
+      "conv": "zh-tw:恐怖金剛;zh-hk:魔神; zh-cn:龙头怪;"
+    },
+    {
+      "original": "Pretenders",
+      "conv": "zh-tw:偽裝者; zh-hk:布利天; zh-cn:布利天;"
+    },
+    {
+      "original": "Rhisling",
+      "conv": "zh-tw:Rhisling; zh-cn:玄天剑;"
+    },
+    {
+      "original": "The Wreckers",
+      "conv": "zh-tw:雷霆戰隊; zh-hk:雷霆戰隊; zh-cn:雷霆拯救隊;"
+    },
+    {
+      "original": "超神マスターフォース",
+      "conv": "zh-tw:超神MasterForce; zh-hk:隱者戰士; zh-cn:隐者战士"
+    },
+    {
+      "original": "超神マスターフォース",
+      "conv": "zh-tw:超神戰士軍; zh-hk:隱者戰士; zh-cn:隐者战士"
+    },
+    {
+      "original": "戦え!超ロボット生命体 トランスフォーマーV",
+      "conv": "zh-tw:變形金剛Ｖ; zh-hk:變形金剛之勝利鬥爭; zh-cn:变形金刚之胜利斗争"
+    },
+    {
+      "original": "Beast Wars",
+      "conv": "zh-tw:百變金剛;zh-hk:特種變形勇士;zh-hans:超能勇士;zh-hant:百變金剛;zh-cn:超能勇士;zh-mo:特種變形勇士;"
+    },
+    {
+      "original": "Beast Machines",
+      "conv": "zh-tw:百變金剛：重機械系列; zh-hk:特種變形金剛; zh-cn:猛兽侠;"
+    },
+    {
+      "original": "カーロボット",
+      "conv": "zh-tw:Car Robot; zh-cn:汽车人战记"
+    },
+    {
+      "original": "バイナルテック",
+      "conv": "zh-tw:Binaltech; zh-hk:鋼魂轉生; zh-cn:钢魂转生"
+    },
+    {
+      "original": "ギャラクシーフォース",
+      "conv": "zh-tw:銀河之力; zh-hk:銀河戰士; zh-cn:银河之力;"
+    },
+    {
+      "original": "Transformers Animated",
+      "conv": "zh-tw:變形金剛08動畫; zh-cn:变形金刚08动画;"
+    },
+    {
+      "original": "Revenge of the Fallen",
+      "conv": "zh-tw:復仇之戰; zh-hk:狂派再起; zh-cn:变形金刚2; zh-sg:复仇之战;"
+    },
+    {
+      "original": "Dark of the Moon",
+      "conv": "zh-tw:變形金剛3; zh-hk:黑月降臨; zh-cn:月黑之时; zh-sg:黑暗之月;"
+    },
+    {
+      "original": "Age of Extinction",
+      "conv": "zh-hk:殲滅世紀; zh-tw:絕跡重生; zh-cn:绝迹重生;"
+    },
+    {
+      "original": "The Last Knight",
+      "conv": "zh-tw:最終騎士; zh-hk:終極戰士; zh-cn:最后的骑士; zh-sg:最终骑士;"
+    },
+    {
+      "original": "Devastation",
+      "conv": "zh-hans:破坏战士;zh-hant:毀滅行動 "
+    },
+    {
+      "original": "Marvel Cocmics",
+      "conv": "zh-cn:漫威漫画; zh-tw:驚奇漫畫; zh-hk:漫威漫畫;"
+    },
+    {
+      "original": "Shia LaBeouf",
+      "conv": "zh-tw:西亞·李畢福; zh-hk:沙·拉保夫; zh-cn:席亚·拉伯夫;"
+    },
+    {
+      "original": "Megan Fox",
+      "conv": "zh-tw:梅根·福斯; zh-hk:美瑾·霍絲; zh-cn:梅根·福克斯"
+    },
+    {
+      "original": "Megan Fox",
+      "conv": "zh-tw:梅根·福克斯; zh-hk:美瑾·霍絲; zh-cn:梅根·福克斯"
+    },
+    {
+      "original": "Rosie Huntington-Whiteley",
+      "conv": "zh-tw:蘿西·杭廷頓·惠特利; zh-hk:露絲·漢丁頓-維莉; zh-cn:罗茜·汉丁顿-惠特莉;"
+    },
+    {
+      "original": "Michael Bay",
+      "conv": "zh-tw:麥可·貝; zh-hk:米高比爾; zh-cn:迈克尔·贝;"
+    },
+    {
+      "original": "Michael Bay",
+      "conv": "zh-tw:麥可貝; zh-hk:米高比爾; zh-cn:迈克尔贝;"
+    },
+    {
+      "original": "Steven Spielberg",
+      "conv": "zh-tw:史蒂芬·史匹柏; zh-hk:史提芬·史匹堡; zh-cn:斯蒂芬·斯皮尔伯格;"
+    },
+    {
+      "original": "Spielberg",
+      "conv": "zh-tw:史匹柏; zh-hk:史匹堡; zh-cn:斯皮尔伯格;"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "伊朗足球",
+  "description": "伊朗職業足球聯賽",
+  "path": "Template:CGroup/伊朗足球",
+  "rules": [
+    {
+      "original": "Sepahan F.C.",
+      "conv": "zh:沙巴罕伊斯法罕; zh-hans:塞帕罕; zh-cn:塞帕罕; zh-hk:沙巴罕; "
+    },
+    {
+      "original": "Esteghlal F.C.",
+      "conv": "zh:埃斯特拉尔; zh-hans:德黑兰独立; zh-cn:德黑兰独立; zh-tw:德黑蘭獨立; zh-hk:艾斯迪格拿; "
+    },
+    {
+      "original": "Esteghlal Ahvaz F.C.",
+      "conv": "zh-cn:阿瓦士独立; zh-hk:艾華斯; "
+    },
+    {
+      "original": "Esteghlal Khuzestan F.C.",
+      "conv": "zh-cn:胡齐斯坦独立; zh-hk:古澤斯旦; "
+    },
+    {
+      "original": "Foolad F.C.",
+      "conv": "zh:弗拉德; zh-hans:胡齐斯坦钢铁; zh-cn:胡齐斯坦钢铁; zh-hant:胡齊斯坦鋼鐵; zh-hk:富拿特; "
+    },
+    {
+      "original": "Naft Tehran F.C.",
+      "conv": "zh:德黑兰石油; zh-hans:德黑兰石油; zh-cn:德黑兰石油; zh-hk:德黑蘭石油; "
+    },
+    {
+      "original": "Tractor Sazi F.C.",
+      "conv": "zh:大不里士拖拉机; zh-hans:大不里士拖拉机; zh-cn:大不里士拖拉机; zh-hant:大不里士拖拉機; zh-hk:泰拉克托; "
+    },
+    {
+      "original": "Padideh F.C.",
+      "conv": "zh-hans:佩迪德; zh-tw:佩迪德; zh-hk:柏迪治; "
+    },
+    {
+      "original": "Persepolis F.C.",
+      "conv": "zh:波斯波利斯; zh-hans:波斯波利斯; zh-cn:波斯波利斯; zh-hk:柏斯波利斯; zh-tw:波斯波里斯 "
+    },
+    {
+      "original": "Malavan F.C.",
+      "conv": "zh:马拉云; zh-hans:安扎利港水手; zh-hk:馬拉雲; "
+    },
+    {
+      "original": "Saba Qom F.C.",
+      "conv": "zh:沙巴庫姆; zh-hans:库姆萨巴; zh-cn:萨巴电池; zh-hk:沙巴科姆; "
+    },
+    {
+      "original": "Rah Ahan Sorinet F.C.",
+      "conv": "zh:拉亞罕; zh-hans:雷伊铁路; zh-hk:拉亞漢; "
+    },
+    {
+      "original": "Zob Ahan Isfahan F.C.",
+      "conv": "zh:伊斯法罕佐布阿汉; zh-hans:佐帕罕; zh-cn:佐布阿汉; zh-hk:索柏阿罕; zh-hant:索柏阿漢; "
+    },
+    {
+      "original": "Paykan F.C.",
+      "conv": "zh:帕坎; zh-hans:加兹温箭头; zh-hk:柏簡; "
+    },
+    {
+      "original": "Shahr Khodro F.C.",
+      "conv": "zh:沙哈霍德罗; zh-hans:沙哈霍德罗; zh-cn:汽车城; zh-hk:帕蒂德馬斯哈德; zh-tw:沙哈霍德羅; "
+    }
+  ]
+}

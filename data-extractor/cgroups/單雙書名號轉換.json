@@ -1,0 +1,15 @@
+{
+  "name": "單雙書名號轉換",
+  "description": "單雙書名號轉換",
+  "path": "Module:CGroup/單雙書名號轉換",
+  "rules": [
+    {
+      "original": "〈",
+      "conv": "〈=>zh-cn:《;〈=>zh-my:《;〈=>zh-sg:《;"
+    },
+    {
+      "original": "〉",
+      "conv": "〉=>zh-cn:》;〉=>zh-my:》;〉=>zh-sg:》;"
+    }
+  ]
+}

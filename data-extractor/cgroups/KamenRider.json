@@ -1,0 +1,603 @@
+{
+  "name": "KamenRider",
+  "description": "-{zh:假面騎士;zh-tw:假面騎士;zh-cn:假面骑士;zh-hk:幪面超人;zh-sg:假面骑士}-",
+  "path": "Template:CGroup/KamenRider",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士;zh-tw:假面騎士;zh-cn:假面骑士;zh-hk:幪面超人;zh-sg:假面骑士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:摩托车;zh-tw:機車;zh-cn:摩托车;zh-hk:電單車;zh-mo:電單車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士;zh-tw:假面騎士;zh-cn:假面骑士;zh-hk:幪面超人;zh-sg:假面骑士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:本乡猛;zh-tw:本鄉猛;zh-cn:本乡猛;zh-hk:洪大龍;zh-sg:本乡猛;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:一文字隼人;zh-tw:一文字隼人;zh-cn:一文字隼人;zh-hk:洪飛虎;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佐尔大佐;zh-tw:佐爾上校;zh-cn:佐尔大佐;zh-hk:卓靈上校;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:黑将军;zh-tw:黑將軍;zh-cn:黑将军;zh-hk:黑魔將軍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:修卡;zh-tw:修卡;zh-cn:修卡;zh-hk:撒旦幫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:盖尔修卡;zh-tw:蓋爾修卡;zh-cn:盖尔修卡;zh-hk:魔鬼幫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士对修卡;zh-tw:假面騎士對修卡;zh-cn:假面骑士对修卡;zh-hk:幪面超人對撒旦幫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士x超级战队 超级英雄大战;zh-tw:假面騎士x超級戰隊 超級英雄大戰;zh-cn:假面骑士x超级战队 超级英雄大战;zh-hk:幪面超人x超級戰隊 SUPER HERO大戰;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:平成骑士対昭和骑士 假面骑士大战 feat.超級战队;zh-tw:平成騎士對昭和騎士 假面騎士大戰 feat.超級戰隊;zh-cn:平成骑士対昭和骑士 假面骑士大战 feat.超級战队;zh-hk:平成對昭和 幪面超人大戰 feat.超級戰隊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士V3;zh-tw:假面騎士V3;zh-cn:假面骑士V3;zh-hk:幪面超人V3;zh-sg:假面骑士V3;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:风见志郎;zh-tw:風見志郎;zh-cn:风见志郎;zh-hk:洪天馬;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:迪斯特龙;zh-tw:迪斯特龍;zh-cn:迪斯特龙;zh-hk:毒蠍幫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:骑士人;zh-tw:騎士人;zh-cn:骑士人;zh-hk:怪金剛;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:骑士踢;zh-tw:騎士踢;zh-cn:骑士踢;zh-hk:風雷電;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Doctor·G;zh-tw:G博士;zh-cn:G博士;zh-hk:毒蠍將軍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Amazon;zh-tw:假面騎士Amazon;zh-cn:假面骑士亚马逊;zh-hk:幪面超人亞馬遜;zh-sg:假面骑士Amazon;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奇顿;zh-tw:哥頓;zh-cn:奇顿;zh-hk:基頓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:叽叽腕轮;zh-tw:Gigi手環;zh-cn:叽叽腕轮;zh-hk:Gigi臂環;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士强人;zh-tw:假面騎士強人;zh-cn:假面骑士强人;zh-hk:幪面超人強者;zh-sg:假面骑士强人;zh:假面騎士Stronger;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:强人;zh-tw:強人;zh-cn:强人;zh-hk:強者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:电波人;zh-tw:塔克爾;zh-cn:电波人;zh-hk:甲蟲女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士BLACK;zh-tw:假面騎士Black;zh-cn:假面骑士暗日;zh-hk:幪面超人BLACK;zh-sg:假面骑士BLACK;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士BLACK RX;zh-tw:假面騎士BLACK RX;zh-cn:假面骑士暗日重生;zh-hk:幪面超人BLACK RX;zh-sg:假面骑士BLACK RX;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士空我;zh-tw:假面騎士空我;zh-cn:假面骑士空我;zh-hk:幪面超人古迦;zh-sg:假面骑士空我;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:空我;zh-tw:空我;zh-cn:空我;zh-hk:古迦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士AgitΩ;zh-tw:假面騎士顎門;zh-cn:假面骑士亚极陀;zh-hk:幪面超人亞極陀;zh-sg:假面骑士AgitΩ;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:顎門;zh-tw:Agito;zh-cn:亚极陀;zh-hk:亞極陀;zh-sg:亚极陀"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士龙骑;zh-tw:假面騎士龍騎;zh-cn:假面骑士龙骑;zh-hk:幪面超人龍騎;zh-sg:假面骑士龙骑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡片;zh-tw:卡片;zh-cn:卡片;zh-hk:咭;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无双龙;zh-tw:無雙龍;zh-cn:无双龙;zh-hk:無雙赤龍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:生存形态;zh-tw:生存形態;zh-cn:生存形态;zh-hk:新生型態;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士555;zh-tw:假面騎士555;zh-cn:假面骑士555;zh-hk:幪面超人555;zh-sg:假面骑士555;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奥非以诺;zh-tw:操冥使徒;zh-cn:奥非以诺;zh-hk:操冥使徒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:手柄;zh-tw:手把;zh-cn:手柄;zh-hk:手掣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:自动马人;zh-tw:自動馬人;zh-cn:自动马人;zh-hk:機動天馬;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士剑;zh-tw:假面騎士劍;zh-cn:假面骑士剑;zh-hk:幪面超人劍;zh-sg:假面骑士剑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Chalice;zh-tw:假面騎士聖杯;zh-cn:假面骑士卡里斯;zh-hk:幪面超人卡里斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Garren;zh-tw:假面騎士金幣;zh-cn:假面骑士格连;zh-hk:幪面超人格連;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Leangle;zh-tw:假面騎士權杖;zh-cn:假面骑士连格尔;zh-hk:幪面超人尼高;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:栞;zh-tw:栞;zh-cn:栞;zh-hk:詩織;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Kabuto;zh-tw:假面騎士Kabuto;zh-cn:假面骑士甲斗王;zh-hk:幪面超人甲鬥王;zh-sg:假面骑士Kabuto;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Kabuto;zh-tw:Kabuto;zh-cn:甲斗王;zh-hk:甲鬥王;zh-sg:Kabuto;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:钢斗;zh-tw:戰鍬;zh-cn:钢斗王;zh-hk:鋼鬥王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:斗蜂;zh-tw:鬥蜂;zh-cn:斗蜂;zh-hk:旋蜂王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雷蜓;zh-tw:疾蜓;zh-cn:雷蜓;zh-hk:雷蜓王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:剑蝎;zh-tw:劍蠍;zh-cn:剑蝎;zh-hk:蠍子王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:踢蝗;zh-tw:踢蝗;zh-cn:踢蝗;zh-hk:草蜢王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:拳蝗;zh-tw:拳蝗;zh-cn:拳蝗;zh-hk:黑蜢王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:异虫;zh-tw:異蟲;zh-cn:异虫;zh-hk:宇蟲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:原虫;zh-tw:原蟲;zh-cn:原虫;zh-hk:原居民;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:影子;zh-tw:幻影;zh-cn:影子;zh-hk:影子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士电王;zh-tw:假面騎士電王;zh-cn:假面骑士电王;zh-hk:幪面超人電王;zh-sg:假面骑士电王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Den-Liner;zh-tw:電列車;zh-cn:时间列车;zh-hk:時空列車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:零诺斯;zh-tw:零王;zh-cn:零诺斯;zh-hk:零王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:叶奈;zh-tw:羽奈;zh-cn:叶奈;zh-hk:夏娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:异魔神;zh-tw:異魔人;zh-cn:异魔神;zh-hk:意像人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桃塔罗斯;zh-tw:桃太洛斯;zh-cn:桃塔罗斯;zh-hk:桃塔羅斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:浦塔罗斯;zh-tw:浦太洛斯;zh-cn:浦塔罗斯;zh-hk:浦島塔羅斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:金塔罗斯;zh-tw:金太洛斯;zh-cn:金塔罗斯;zh-hk:金塔羅斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:龙塔罗斯;zh-tw:龍太洛斯;zh-cn:龙塔罗斯;zh-hk:龍塔羅斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:天津四;zh-tw:天津四;zh-cn:天津四;zh-hk:弁慶;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:圣剑形态;zh-tw:劍王模式;zh-cn:圣剑形态;zh-hk:重劍模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:圣竿形态;zh-tw:杖王模式;zh-cn:圣竿形态;zh-hk:聖杖模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:圣斧形态;zh-tw:斧王模式;zh-cn:圣斧形态;zh-hk:戰斧模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:圣枪形态;zh-tw:槍王模式;zh-cn:圣枪形态;zh-hk:神槍模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:圣翼形态;zh-tw:翼王模式;zh-cn:圣翼形态;zh-hk:翼模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:顶级形态;zh-tw:頂極模式;zh-cn:顶级形态;zh-hk:CLIMAX模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:超顶级形态;zh-tw:超頂極模式;zh-cn:超顶级形态;zh-hk:超CLIMAX模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:零列車;zh-tw:零列車;zh-cn:零列車;zh-hk:零號列車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:帝王列車;zh-tw:帝王列車;zh-cn:帝王列車;zh-hk:帝王列車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Kiva;zh-tw:假面骑士Kiva;zh-cn:假面骑士月骑;zh-hk:幪面超人月騎;zh-sg:假面骑士Kiva;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Fangire;zh-tw:牙血鬼;zh-cn:Fangire;zh-hk:梵佳亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:友里;zh-tw:百合;zh-cn:友里;zh-hk:百合;zh-mo:百合;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:牙蝙蝠;zh-tw:牙蝙蝠;zh-cn:牙蝙蝠;zh-hk:月夜蝙蝠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:螺门;zh-tw:螺門;zh-cn:螺门;zh-hk:拉蒙;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:德兰城堡;zh-tw:德蘭城堡;zh-cn:德兰城堡;zh-hk:卡西爾城堡;zh-mo:卡西尔城堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:至上蓝天会;zh-tw:美好的青空會;zh-cn:至上蓝天会;zh-hk:耀眼藍天會;zh-mo:耀眼蓝天会;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:路克;zh-tw:路克;zh-cn:路克;zh-hk:盧克;zh-mo:盧克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:间牙;zh-tw:闇黑Kiva;zh-cn:间牙;zh-hk:闇黑月騎;zh-mo:闇黑月骑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士帝骑;zh-tw:假面騎士Decade;zh-cn:假面骑士帝骑;zh-hk:幪面超人帝騎;zh-sg:假面骑士Decade;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士终骑;zh-tw:假面騎士Diend;zh-cn:假面骑士终骑;zh-hk:幪面超人獵騎;zh-sg:假面骑士Diend;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:帝骑;zh-tw:Decade;zh-cn:帝骑;zh-hk:帝騎;zh-sg:Decade"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:终骑;zh-tw:Diend;zh-cn:终骑;zh-hk:獵騎;zh-sg:Diend"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:牙蝠兰;zh-tw:牙蝠蘭;zh-cn:牙蝠兰;zh-hk:月夜白蝙蝠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:暗影世界;zh-tw:暗影世界;zh-cn:暗影世界;zh-hk:暗黑世界;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:全骑士 VS 大修卡;zh-tw:全騎士 VS 大修卡;zh-cn:全骑士对战大修卡;zh-hk:之決戰撒旦幫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士W;zh-tw:假面騎士W;zh-cn:假面骑士双骑;zh-hk:幪面超人W;zh-sg:假面骑士W;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Accel;zh-tw:假面騎士Accel;zh-cn:假面骑士警骑;zh-hk:幪面超人警騎;zh-sg:假面骑士Accel;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:盖亚记忆体;zh-tw:蓋亞記憶體;zh-cn:盖亚记忆体;zh-hk:佳亞記憶體;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:掺杂体;zh-tw:摻雜體;zh-cn:掺杂体;zh-hk:多班特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:地球图书馆;zh-tw:地球圖書館;zh-cn:地球图书馆;zh-hk:行星書架;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:名字叫Accel;zh-tw:名字叫Accel;zh-cn:名字叫警骑;zh-hk:名字叫警騎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:再见了E;zh-tw:再見了E;zh-cn:再见了E;zh-hk:向E說再見"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无线电视;zh-tw:無線電視;zh-cn:无线电视;zh-hk:無綫電視;zh-sg:无线电视;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士OOO;zh-tw:假面騎士OOO;zh-cn:假面骑士欧茲;zh-hk:幪面超人OOO;zh-sg:假面骑士OOO;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:联组;zh-tw:聯組;zh-cn:联组;zh-hk:組合;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:赝品Yummy;zh-tw:贗品Yummy;zh-cn:赝品貪慾者;zh-hk:廢物Yummy;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:试作型Birth;zh-tw:試作型Birth;zh-cn:试作型誕騎;zh-hk:原型Birth;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Fourze;zh-tw:假面騎士Fourze;zh-cn:假面骑士卅骑;zh-hk:幪面超人Fourze;zh-sg:假面骑士Fourze"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Meteor;zh-tw:假面騎士Meteor;zh-cn:假面骑士流星;zh-hk:幪面超人Meteor;zh-sg:假面骑士Meteor;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:天文装置;zh-tw:天文裝置;zh-cn:天文装置;zh-hk:太空開關;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士部;zh-tw:假面騎士部;zh-cn:假面骑士部;zh-hk:幪面超人學會;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Zodiarts;zh-tw:宙體闇使;zh-cn:星徒;zh-hk:Zodiarts;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Wizard;zh-tw:假面騎士Wizard;zh-cn:假面骑士巫骑;zh-hk:幪面超人Wizard;zh-sg:假面骑士Wizard;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:魔法使;zh-tw:魔法使;zh-cn:魔法使;zh-hk:魔法師;zh-sg:魔法使;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:不死鸟;zh-tw:菲尼克斯;zh-cn:不死鸟;zh-hk:不死鳥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:历;zh-tw:曆;zh-cn:历;zh-hk:曆美;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奇美拉;zh-tw:奇美拉;zh-cn:奇美拉;zh-hk:基米拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古利姆连;zh-tw:古利姆連;zh-cn:古利姆连;zh-hk:小魔怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士铠武;zh-tw:假面騎士鎧武;zh-cn:假面骑士铠武;zh-hk:幪面超人鎧武;zh-sg:假面骑士铠武;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士齐格德;zh-tw:假面騎士齊格飛;zh-cn:假面骑士齐格德;zh-hk:幪面超人薛格特;zh-sg:假面骑士齐格德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士迪克;zh-tw:假面騎士迪克;zh-cn:假面骑士迪克;zh-hk:幪面超人杜古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士纳高尔;zh-tw:假面騎士納克爾;zh-cn:假面骑士纳高尔;zh-hk:幪面超人納高爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士布拉弗;zh-tw:假面騎士布拉弗;zh-cn:假面骑士布拉弗;zh-hk:幪面超人Bravo;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海姆冥界;zh-tw:海爾冥界;zh-cn:海姆冥界;zh-hk:海姆冥界;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Zack;zh-tw:柴克;zh-cn:Zack;zh-hk:薩古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:薛度;zh-tw:席德;zh-cn:薛度;zh-hk:薛特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Chucky;zh-tw:Chucky;zh-cn:Chucky;zh-hk:積琪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Peco;zh-tw:Peco;zh-cn:Peco;zh-hk:比高;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Rika;zh-tw:莉香;zh-cn:Rika;zh-hk:莉香;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凰莲・皮埃尔・阿方索;zh-tw:凰蓮・皮耶爾・阿爾馮斯;zh-cn:凰莲・皮埃尔・阿方索;zh-hk:凰蓮・皮埃爾・阿方素;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:异域者;zh-tw:異域精靈;zh-cn:异域者;zh-hk:異域者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:世界树之塔;zh-tw:世界樹高塔;zh-cn:世界树之塔;zh-hk:世界樹塔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Rat;zh-tw:阿鼠;zh-cn:Rat;zh-hk:拿特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊予;zh-tw:伊予;zh-cn:伊予;zh-hk:伊代;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雷特狂野;zh-tw:狂野奇襲;zh-cn:雷特狂野;zh-hk:雷特狂野;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:因维托队;zh-tw:無敵隊;zh-cn:因维托队;zh-hk:因維托隊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:菲姆辛姆;zh-tw:菲姆席姆;zh-cn:菲姆辛姆;zh-hk:菲姆辛姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:迪姆修;zh-tw:迪穆修;zh-cn:迪姆修;zh-hk:狄姆殊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雷迪艾;zh-tw:雷迪耶;zh-cn:雷迪艾;zh-hk:雷杜埃;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗修奥;zh-tw:羅修沃;zh-cn:罗修奥;zh-hk:羅修奧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:起始之女;zh-tw:起始之女;zh-cn:起始之女;zh-hk:起源之女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:起始之男;zh-tw:起始之男;zh-cn:起始之男;zh-hk:起源之男;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:霸主异域者;zh-tw:異域霸者;zh-cn:霸主异域者;zh-hk:霸主異域者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:多多安修;zh-tw:多多安修;zh-cn:多多安修;zh-hk:杜杜安殊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古林查;zh-tw:古靈夏;zh-cn:古林查;zh-hk:古林沙;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:禁果;zh-tw:禁忌果實;zh-cn:禁果;zh-hk:禁果;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:勋爵巴隆;zh-tw:帝王巴隆;zh-cn:勋爵巴隆;zh-hk:勳爵巴隆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面騎士Build;zh-tw:假面騎士Build;zh-cn:假面骑士创骑;zh-hk:幪面超人Build;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面騎士Grease;zh-tw:假面騎士Grease;zh-cn:假面骑士格里斯;zh-hk:幪面超人古列斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面騎士Rogue;zh-tw:假面騎士Rogue;zh-cn:假面骑士恶霸;zh-hk:幪面超人洛古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面騎士Mad Rogue;zh-tw:假面騎士Mad Rogue;zh-cn:假面騎士狂霸;zh-hk:幪面超人Mad Rogue;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:夜霸;zh-tw:暗夜惡徒;zh-cn:夜霸;zh-hk:暗黑騎士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:血逐;zh-tw:血色潛行者;zh-cn:血逐;zh-hk:毒牙騎士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:满裝瓶;zh-tw:满裝瓶;zh-cn:能量瓶;zh-hk:能量瓶;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:危險扳機;zh-tw:危險扳機;zh-cn:危险扳机;zh-hk:危機觸發器;"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "ALeague",
+  "description": "澳大利亞職業足球聯賽",
+  "path": "Template:CGroup/ALeague",
+  "rules": [
+    {
+      "original": "Australia",
+      "conv": "zh:澳大利亞; zh-hant:澳洲; zh-hans:澳大利亚; zh-cn:澳大利亚; zh-tw:澳洲; zh-hk:澳洲; zh-mo:澳洲; "
+    },
+    {
+      "original": "Adelaide United",
+      "conv": "zh:阿德莱德联; zh-cn:阿德莱德联; zh-hk:阿德萊德聯; zh-tw:阿得雷德聯; "
+    },
+    {
+      "original": "Brisbane Roar",
+      "conv": "zh:布里斯班獅吼; zh-hans:布里斯班狮吼; zh-cn:布里斯班狮吼; zh-hk:布里斯班獅吼; zh-tw:布里斯本獅吼; "
+    },
+    {
+      "original": "Roar",
+      "conv": "zh:獅吼; zh-hans:狮吼; zh-cn:狮吼; zh-hk:獅吼; zh-tw:獅吼; "
+    },
+    {
+      "original": "Central Coast Mariners",
+      "conv": "zh:中央海岸水手; zh-cn:中央海岸水手; zh-hk:中岸水手; zh-tw:中部海岸海員; "
+    },
+    {
+      "original": "Central Coast Mariners",
+      "conv": "zh:水手; zh-cn:水手; zh-hk:水手; zh-tw:海員; "
+    },
+    {
+      "original": "Melbourne Heart",
+      "conv": "zh:墨爾本雄心; zh-cn:墨尔本中心; zh-hk:墨爾本雄心; zh-tw:墨爾本雄心; "
+    },
+    {
+      "original": "Melbourne Victory",
+      "conv": "zh:墨尔本胜利; zh-cn:墨尔本胜利; zh-hk:墨爾本勝利; zh-tw:墨爾本勝仗; "
+    },
+    {
+      "original": "Newcastle Jets",
+      "conv": "zh:纽卡斯尔喷射机; zh-hant:紐卡斯爾噴氣機; zh-cn:纽卡斯尔喷气机; zh-hk:紐卡素噴射機; zh-tw:紐卡索噴氣機; "
+    },
+    {
+      "original": "Jets",
+      "conv": "zh:喷射机; zh-hant:噴氣機; zh-cn:喷气机; zh-hk:噴射機; zh-tw:噴氣機; "
+    },
+    {
+      "original": "Newcastle United Jets",
+      "conv": "zh:纽卡斯尔联喷射机; zh-hant:紐卡斯爾聯噴氣機; zh-cn:纽卡斯尔联喷气机; zh-hk:紐卡素聯噴射機; zh-tw:紐卡索聯噴氣機; "
+    },
+    {
+      "original": "N.Q.Fury",
+      "conv": "zh:狂怒; zh-cn:狂怒; zh-hk:風暴; zh-tw:狂暴; "
+    },
+    {
+      "original": "Perth Glory",
+      "conv": "zh:珀斯光荣; zh-cn:珀斯光荣; zh-hk:珀斯光輝; zh-tw:伯斯光榮; "
+    },
+    {
+      "original": "Sydney FC",
+      "conv": "zh:悉尼FC; zh-cn:悉尼FC; zh-hk:FC悉尼; zh-tw:雪梨FC; "
+    },
+    {
+      "original": "Wellington Phoenix",
+      "conv": "zh:威靈頓鳳凰; zh-cn:惠灵顿凤凰; zh-hk:威靈頓鳳凰; zh-tw:威靈頓鳳凰; "
+    },
+    {
+      "original": "Western Sydney Wanderers",
+      "conv": "zh:西悉尼漫遊者; zh-hans:西悉尼巡游者; zh-cn:西悉尼流浪者; zh-hk:西悉尼流浪者; zh-tw:西雪梨流浪者; "
+    },
+    {
+      "original": "Wanderers",
+      "conv": "zh:漫遊者; zh-hans:巡游者; zh-cn:流浪者; zh-hk:流浪者; zh-tw:流浪者; "
+    },
+    {
+      "original": "A-League",
+      "conv": "zh:澳大利亚职业足球联赛; zh-hans:澳大利亚A联赛; zh-hant:澳大利亞足球甲級聯賽; zh-cn:澳大利亚A联赛; zh-hk:澳洲職業足球聯賽; zh-tw:澳洲足球甲級聯賽; "
+    },
+    {
+      "original": "A-League",
+      "conv": "zh:澳职; zh-hans:澳甲; zh-hant:澳甲; zh-cn:澳职; zh-hk:澳職; zh-tw:澳甲; "
+    },
+    {
+      "original": "FFA Cup",
+      "conv": "zh:澳大利亚足协杯; zh-hans:澳大利亚足总杯; zh-hant:澳洲足總盃; zh-cn:澳大利亚足协杯; zh-hk:澳洲足總盃; zh-tw:澳洲足協盃; "
+    },
+    {
+      "original": "Hindmarsh Stadium",
+      "conv": "zh:欣德马什体育场; zh-hans:欣德马什体育场; zh-hant:海馬許體育場; zh-cn:欣德马什体育场; zh-hk:海馬許體育場; zh-tw:欣德馬什體育場; "
+    },
+    {
+      "original": "Alessandro Diamanti",
+      "conv": "zh:亚历山德罗·迪亚曼蒂; zh-hans:亚历山德罗·迪亚曼蒂; zh-hk:亞歷山度·迪亞文迪; zh-tw:亞歷山德羅·狄亞曼提; "
+    },
+    {
+      "original": "Steven Taylor",
+      "conv": "zh:斯蒂芬·泰勒; zh-hans:斯蒂芬·泰勒; zh-hk:史堤芬·泰萊; zh-tw:史蒂芬·泰勒; "
+    }
+  ]
+}

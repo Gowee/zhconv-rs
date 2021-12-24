@@ -1,0 +1,1863 @@
+{
+  "name": "BE Places",
+  "description": "比利时地名",
+  "path": "Module:CGroup/BE Places",
+  "rules": [
+    {
+      "original": "Vlaams/flamand",
+      "conv": "zh-hans:弗拉芒; zh-tw:佛拉蒙; zh-hk:弗拉芒;"
+    },
+    {
+      "original": "Waals/Wallon/Wallonisch",
+      "conv": "zh-hans:瓦隆; zh-tw:瓦隆; zh-hk:華隆;"
+    },
+    {
+      "original": "Vlaanderen/Flandre/Flandern",
+      "conv": "zh-cn:佛兰德; zh-hant:法蘭德斯; zh-sg:法兰德斯"
+    },
+    {
+      "original": "Brabant",
+      "conv": "zh-cn:布拉班特; zh-hant:布拉邦; "
+    },
+    {
+      "original": "Liège",
+      "conv": "zh-hans:列日;zh-hk:列治;zh-tw:列日;"
+    },
+    {
+      "original": "Oostende/Ostende",
+      "conv": "zh-cn:奥斯坦德;zh-hk:奧斯坦德;zh-tw:奧斯滕德;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "zh-hans:滑铁卢;zh-hant:滑鐵盧;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "窩打老=>zh-cn:滑铁卢;窩打老=>zh-my:滑铁卢;窩打老=>zh-sg:滑铁卢;窩打老=>zh-tw:滑鐵盧;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "窝打老=>zh-cn:滑铁卢;窝打老=>zh-my:滑铁卢;窝打老=>zh-sg:滑铁卢;窝打老=>zh-tw:滑鐵盧;"
+    },
+    {
+      "original": "Ardennes/Ardennen",
+      "conv": "zh-hans:阿登; zh-hant:亞爾丁;"
+    },
+    {
+      "original": "Forêt d‘Ardenne",
+      "conv": "zh-hans:阿登森林; zh-hant:亞爾丁森林"
+    },
+    {
+      "original": "Wallonie/Wallonië",
+      "conv": "zh-hans:瓦隆尼亚; zh-tw:瓦隆尼亞; zh-hk:華隆尼亞;"
+    },
+    {
+      "original": "Friesland/Frise",
+      "conv": "zh-hans:弗里斯兰;zh-hant:弗里斯蘭;zh-tw:菲士蘭;zh-hk:菲士蘭;zh-mo:菲士蘭;"
+    },
+    {
+      "original": "Dunkerque/Duinkerke",
+      "conv": "zh-hans:敦刻尔克; zh-hant:敦克爾克; zh-hk:鄧寇克;"
+    },
+    {
+      "original": "Waterloo Road",
+      "conv": "zh-hans:窝打老道;zh-hant:窩打老道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登巴; zh-hant:阿登巴"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登班; zh-hant:阿登班"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登邦; zh-hant:阿登邦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登本; zh-hant:阿登本"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登宾; zh-hant:阿登賓"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登采; zh-hant:阿登采"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登蔡; zh-hant:阿登蔡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登苍; zh-hant:阿登蒼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登策; zh-hant:阿登策"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登岑; zh-hant:阿登岑"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登察; zh-hant:阿登察"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登查; zh-hant:阿登查"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登楚; zh-hant:阿登楚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登茨; zh-hant:阿登茨"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登聪; zh-hant:阿登聰"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登达; zh-hant:阿登達"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登丹; zh-hant:阿登丹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登當; zh-hant:阿登當"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登道; zh-hant:阿登道"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登德; zh-hant:阿登德"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登蒂; zh-hant:阿登蒂"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登多; zh-hant:阿登多"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登法; zh-hant:阿登法"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登凡; zh-hant:阿登凡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登方; zh-hant:阿登方"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登芬; zh-hant:阿登芬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登丰; zh-hant:阿登豐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登冯; zh-hant:阿登馮"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登夫; zh-hant:阿登夫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登福; zh-hant:阿登福"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登富; zh-hant:阿登富"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登甘; zh-hant:阿登甘"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登冈; zh-hant:阿登岡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登格; zh-hant:阿登格"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登戈; zh-hant:阿登戈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登贡; zh-hant:阿登貢"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登古; zh-hant:阿登古"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登哈; zh-hant:阿登哈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登海; zh-hant:阿登海"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登漢; zh-hant:阿登漢"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登杭; zh-hant:阿登杭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登赫; zh-hant:阿登赫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登亨; zh-hant:阿登亨"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登洪; zh-hant:阿登洪"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登胡; zh-hant:阿登胡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登霍; zh-hant:阿登霍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登基; zh-hant:阿登基"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登吉; zh-hant:阿登吉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登加; zh-hant:阿登加"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登贾; zh-hant:阿登賈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登杰; zh-hant:阿登傑"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登金; zh-hant:阿登金"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登京; zh-hant:阿登京"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登卡; zh-hant:阿登卡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登坎; zh-hant:阿登坎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登康; zh-hant:阿登康"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登科; zh-hant:阿登科"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登克; zh-hant:阿登克"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登肯; zh-hant:阿登肯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登拉; zh-hant:阿登拉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登萊; zh-hant:阿登萊"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登兰; zh-hant:阿登蘭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登朗; zh-hant:阿登朗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登雷; zh-hant:阿登雷"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登里; zh-hant:阿登里"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登利; zh-hant:阿登利"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登林; zh-hant:阿登林"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登龙; zh-hant:阿登龍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登隆; zh-hant:阿登隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登罗; zh-hant:阿登羅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登洛; zh-hant:阿登洛"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登卢; zh-hant:阿登盧"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登鲁; zh-hant:阿登魯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登伦; zh-hant:阿登倫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登马; zh-hant:阿登馬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登曼; zh-hant:阿登曼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登梅; zh-hant:阿登梅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登门; zh-hant:阿登門"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登蒙; zh-hant:阿登蒙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登穆; zh-hant:阿登穆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登纳; zh-hant:阿登納"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登纽; zh-hant:阿登紐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登诺; zh-hant:阿登諾"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登帕; zh-hant:阿登帕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登派; zh-hant:阿登派"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登潘; zh-hant:阿登潘"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登庞; zh-hant:阿登龐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佩阿登; zh-hant:佩阿登"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登佩; zh-hant:阿登佩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登彭; zh-hant:阿登彭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登蓬; zh-hant:阿登蓬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登萨; zh-hant:阿登薩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登桑; zh-hant:阿登桑"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登瑟; zh-hant:阿登瑟"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登森; zh-hant:阿登森"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登沙; zh-hant:阿登沙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登尚; zh-hant:阿登尚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登绍; zh-hant:阿登紹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登申; zh-hant:阿登申"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登施; zh-hant:阿登施"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登什; zh-hant:阿登什"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登舍; zh-hant:阿登舍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登斯; zh-hant:阿登斯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登思; zh-hant:阿登思"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登松; zh-hant:阿登松"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登苏; zh-hant:阿登蘇"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登孙; zh-hant:阿登孫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登塔; zh-hant:阿登塔"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登坦; zh-hant:阿登坦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登唐; zh-hant:阿登唐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登特; zh-hant:阿登特"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登滕; zh-hant:阿登滕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登通; zh-hant:阿登通"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登图; zh-hant:阿登圖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登托; zh-hant:阿登托"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登瓦; zh-hant:阿登瓦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登万; zh-hant:阿登萬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登旺; zh-hant:阿登旺"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登温; zh-hant:阿登溫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登翁; zh-hant:阿登翁"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登沃; zh-hant:阿登沃"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登乌; zh-hant:阿登烏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登武; zh-hant:阿登武"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登伍; zh-hant:阿登伍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登希; zh-hant:阿登希"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登席; zh-hant:阿登席"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登夏; zh-hant:阿登夏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登雄; zh-hant:阿登雄"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登许; zh-hant:阿登许"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登叙; zh-hant:阿登叙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登泽; zh-hant:阿登澤"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登扎; zh-hant:阿登扎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登詹; zh-hant:阿登詹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登茲; zh-hant:阿登茲"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登佐; zh-hant:阿登佐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿登祖; zh-hant:阿登祖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿瓦隆; zh-hant:阿瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆阿; zh-hant:瓦隆阿"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:安瓦隆; zh-hant:安瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆安; zh-hant:瓦隆安"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:昂瓦隆; zh-hant:昂瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆昂; zh-hant:瓦隆昂"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奥瓦隆; zh-hant:奧瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆奥; zh-hant:瓦隆奧"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巴瓦隆; zh-hant:巴瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆巴; zh-hant:瓦隆巴"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:班瓦隆; zh-hant:班瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆班; zh-hant:瓦隆班"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:邦瓦隆; zh-hant:邦瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆邦; zh-hant:瓦隆邦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:本瓦隆; zh-hant:本瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆本; zh-hant:瓦隆本"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:宾瓦隆; zh-hant:賓瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆宾; zh-hant:瓦隆賓"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:采瓦隆; zh-hant:采瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆采; zh-hant:瓦隆采"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蔡瓦隆; zh-hant:蔡瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆蔡; zh-hant:瓦隆蔡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苍瓦隆; zh-hant:蒼瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆苍; zh-hant:瓦隆蒼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:策瓦隆; zh-hant:策瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆策; zh-hant:瓦隆策"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:岑瓦隆; zh-hant:岑瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆岑; zh-hant:瓦隆岑"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:察瓦隆; zh-hant:察瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆察; zh-hant:瓦隆察"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:查瓦隆; zh-hant:查瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆查; zh-hant:瓦隆查"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:楚瓦隆; zh-hant:楚瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆楚; zh-hant:瓦隆楚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:茨瓦隆; zh-hant:策瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆茨; zh-hant:瓦隆茨"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:聪瓦隆; zh-hant:聰瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆聪; zh-hant:瓦隆聰"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:达瓦隆; zh-hant:達瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆达; zh-hant:瓦隆達"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丹瓦隆; zh-hant:丹瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆丹; zh-hant:瓦隆丹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:当瓦隆; zh-hant:当瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆當; zh-hant:瓦隆當"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:道瓦隆; zh-hant:道瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆道; zh-hant:瓦隆道"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:栋瓦隆; zh-hant:棟瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆栋; zh-hant:瓦隆棟"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:德瓦隆; zh-hant:德瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆德; zh-hant:瓦隆德"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蒂瓦隆; zh-hant:蒂瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆蒂; zh-hant:瓦隆蒂"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:多瓦隆; zh-hant:多瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆多; zh-hant:瓦隆多"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:厄瓦隆; zh-hant:厄瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆厄; zh-hant:瓦隆厄"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:恩瓦隆; zh-hant:恩瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:尔瓦隆; zh-hant:爾瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:法瓦隆; zh-hant:法瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆法; zh-hant:瓦隆法"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凡瓦隆; zh-hant:凡瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆凡; zh-hant:瓦隆凡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:方瓦隆; zh-hant:方瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆方; zh-hant:瓦隆方"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:芬瓦隆; zh-hant:芬瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆芬; zh-hant:瓦隆芬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丰瓦隆; zh-hant:豐瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆丰; zh-hant:瓦隆豐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:冯瓦隆; zh-hant:馮瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆冯; zh-hant:瓦隆馮"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:夫瓦隆; zh-hant:夫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆夫; zh-hant:瓦隆夫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆弗; zh-hant:瓦隆弗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:福瓦隆; zh-hant:福瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆福; zh-hant:瓦隆福"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:富瓦隆; zh-hant:富瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆富; zh-hant:瓦隆富"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:甘瓦隆; zh-hant:甘瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆甘; zh-hant:瓦隆甘"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:冈瓦隆; zh-hant:岡瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆冈; zh-hant:瓦隆岡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:格瓦隆; zh-hant:格瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆格; zh-hant:瓦隆格"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:戈瓦隆; zh-hant:戈瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆戈; zh-hant:瓦隆戈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:贡瓦隆; zh-hant:貢瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆贡; zh-hant:瓦隆貢"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古瓦隆; zh-hant:古瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆古; zh-hant:瓦隆古"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哈瓦隆; zh-hant:哈瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆哈; zh-hant:瓦隆哈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海瓦隆; zh-hant:海瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆海; zh-hant:瓦隆海"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:汉瓦隆; zh-hant:漢瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆漢; zh-hant:瓦隆漢"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杭瓦隆; zh-hant:杭瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆杭; zh-hant:瓦隆杭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:赫瓦隆; zh-hant:赫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆赫; zh-hant:瓦隆赫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亨瓦隆; zh-hant:亨瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆亨; zh-hant:瓦隆亨"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:洪瓦隆; zh-hant:洪瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆洪; zh-hant:瓦隆洪"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:胡瓦隆; zh-hant:胡瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆胡; zh-hant:瓦隆胡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:霍瓦隆; zh-hant:霍瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆霍; zh-hant:瓦隆霍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:基瓦隆; zh-hant:基瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆基; zh-hant:瓦隆基"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:吉瓦隆; zh-hant:吉瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆吉; zh-hant:瓦隆吉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:加瓦隆; zh-hant:加瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆加; zh-hant:瓦隆加"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:贾瓦隆; zh-hant:賈瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆贾; zh-hant:瓦隆賈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰瓦隆; zh-hant:傑瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆杰; zh-hant:瓦隆傑"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:金瓦隆; zh-hant:金瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆金; zh-hant:瓦隆金"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:京瓦隆; zh-hant:京瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆京; zh-hant:瓦隆京"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡瓦隆; zh-hant:卡瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆卡; zh-hant:瓦隆卡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:坎瓦隆; zh-hant:坎瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆坎; zh-hant:瓦隆坎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:康瓦隆; zh-hant:康瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆康; zh-hant:瓦隆康"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:科瓦隆; zh-hant:科瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆科; zh-hant:瓦隆科"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克瓦隆; zh-hant:克瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆克; zh-hant:瓦隆克"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:肯瓦隆; zh-hant:肯瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆肯; zh-hant:瓦隆肯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:库瓦隆; zh-hant:庫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆庫; zh-hant:瓦隆庫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:昆瓦隆; zh-hant:昆瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆昆; zh-hant:瓦隆昆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:孔瓦隆; zh-hant:孔瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆孔; zh-hant:瓦隆孔"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:拉瓦隆; zh-hant:拉瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆拉; zh-hant:瓦隆拉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:莱瓦隆; zh-hant:萊瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆萊; zh-hant:瓦隆萊"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:兰瓦隆; zh-hant:蘭瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆兰; zh-hant:瓦隆蘭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:朗瓦隆; zh-hant:朗瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆朗; zh-hant:瓦隆朗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:劳瓦隆; zh-hant:勞瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆劳; zh-hant:瓦隆勞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雷瓦隆; zh-hant:雷瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆雷; zh-hant:瓦隆雷"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:里瓦隆; zh-hant:里瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆里; zh-hant:瓦隆里"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:利瓦隆; zh-hant:利瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆利; zh-hant:瓦隆利"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:林瓦隆; zh-hant:林瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆林; zh-hant:瓦隆林"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:龙瓦隆; zh-hant:龍瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆龙; zh-hant:瓦隆龍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:隆瓦隆; zh-hant:隆瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆隆; zh-hant:瓦隆隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗瓦隆; zh-hant:羅瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆罗; zh-hant:瓦隆羅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:洛瓦隆; zh-hant:洛瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆洛; zh-hant:瓦隆洛"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卢瓦隆; zh-hant:盧瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆卢; zh-hant:瓦隆盧"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鲁瓦隆; zh-hant:魯瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆鲁; zh-hant:瓦隆魯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伦瓦隆; zh-hant:倫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆伦; zh-hant:瓦隆倫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马瓦隆; zh-hant:馬瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆马; zh-hant:瓦隆馬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:曼瓦隆; zh-hant:曼瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆曼; zh-hant:瓦隆曼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:梅瓦隆; zh-hant:梅瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆梅; zh-hant:瓦隆梅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:门瓦隆; zh-hant:門瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆门; zh-hant:瓦隆門"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蒙瓦隆; zh-hant:蒙瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆蒙; zh-hant:瓦隆蒙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:摩瓦隆; zh-hant:摩瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆摩; zh-hant:瓦隆摩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:莫瓦隆; zh-hant:莫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆莫; zh-hant:瓦隆莫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:姆瓦隆; zh-hant:姆瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:穆瓦隆; zh-hant:穆瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆穆; zh-hant:瓦隆穆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:纳瓦隆; zh-hant:納瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆纳; zh-hant:瓦隆納"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:楠瓦隆; zh-hant:楠瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:纽瓦隆; zh-hant:紐瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆纽; zh-hant:瓦隆紐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:诺瓦隆; zh-hant:諾瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆诺; zh-hant:瓦隆諾"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:欧瓦隆; zh-hant:歐瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆欧; zh-hant:瓦隆歐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:帕瓦隆; zh-hant:帕瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆帕; zh-hant:瓦隆帕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:派瓦隆; zh-hant:派瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆派; zh-hant:瓦隆派"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:潘瓦隆; zh-hant:潘瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆潘; zh-hant:瓦隆潘"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:庞瓦隆; zh-hant:龐瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆庞; zh-hant:瓦隆龐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佩瓦隆; zh-hant:佩瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆佩; zh-hant:瓦隆佩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彭瓦隆; zh-hant:彭瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆彭; zh-hant:瓦隆彭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蓬瓦隆; zh-hant:蓬瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆蓬; zh-hant:瓦隆蓬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:钱瓦隆; zh-hant:錢瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆钱; zh-hant:瓦隆錢"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:琼瓦隆; zh-hant:瓊瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆琼; zh-hant:瓦隆瓊"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:萨瓦隆; zh-hant:薩瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆萨; zh-hant:瓦隆薩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桑瓦隆; zh-hant:桑瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆桑; zh-hant:瓦隆桑"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瑟瓦隆; zh-hant:瑟瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆瑟; zh-hant:瓦隆瑟"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:森瓦隆; zh-hant:森瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆森; zh-hant:瓦隆森"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:沙瓦隆; zh-hant:沙瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆沙; zh-hant:瓦隆沙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:尚瓦隆; zh-hant:尚瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆尚; zh-hant:瓦隆尚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绍瓦隆; zh-hant:紹瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆绍; zh-hant:瓦隆紹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:申瓦隆; zh-hant:申瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆申; zh-hant:瓦隆申"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:施瓦隆; zh-hant:施瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆施; zh-hant:瓦隆施"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:什瓦隆; zh-hant:什瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆什; zh-hant:瓦隆什"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:舍瓦隆; zh-hant:舍瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆舍; zh-hant:瓦隆舍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:斯瓦隆; zh-hant:斯瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆斯; zh-hant:瓦隆斯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:思瓦隆; zh-hant:思瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:松瓦隆; zh-hant:松瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆松; zh-hant:瓦隆松"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苏瓦隆; zh-hant:蘇瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆苏; zh-hant:瓦隆蘇"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:孙瓦隆; zh-hant:孫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆孙; zh-hant:瓦隆孫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塔瓦隆; zh-hant:塔瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆塔; zh-hant:瓦隆塔"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:坦瓦隆; zh-hant:坦瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆坦; zh-hant:瓦隆坦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:唐瓦隆; zh-hant:唐瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆唐; zh-hant:瓦隆唐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:特瓦隆; zh-hant:特瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆特; zh-hant:瓦隆特"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:滕瓦隆; zh-hant:滕瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆滕; zh-hant:瓦隆滕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:通瓦隆; zh-hant:通瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆通; zh-hant:瓦隆通"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:图瓦隆; zh-hant:圖瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆图; zh-hant:瓦隆圖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:托瓦隆; zh-hant:托瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆托; zh-hant:瓦隆托"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦瓦隆; zh-hant:瓦瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆瓦; zh-hant:瓦隆瓦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:万瓦隆; zh-hant:萬瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆万; zh-hant:瓦隆萬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:旺瓦隆; zh-hant:旺瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆旺; zh-hant:瓦隆旺"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:温瓦隆; zh-hant:溫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆温; zh-hant:瓦隆溫"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:翁瓦隆; zh-hant:翁瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆翁; zh-hant:瓦隆翁"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:沃瓦隆; zh-hant:沃瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆沃; zh-hant:瓦隆沃"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:乌瓦隆; zh-hant:烏瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆乌; zh-hant:瓦隆烏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:武瓦隆; zh-hant:武瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆武; zh-hant:瓦隆武"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伍瓦隆; zh-hant:伍瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆伍; zh-hant:瓦隆伍"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:希瓦隆; zh-hant:希瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆希; zh-hant:瓦隆希"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:席瓦隆; zh-hant:席瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆席; zh-hant:瓦隆席"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:锡瓦隆; zh-hant:錫瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:夏瓦隆; zh-hant:夏瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆夏; zh-hant:瓦隆夏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雄瓦隆; zh-hant:雄瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆雄; zh-hant:瓦隆雄"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:许瓦隆; zh-hant:許瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆许; zh-hant:瓦隆許"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:叙瓦隆; zh-hant:叙瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆叙; zh-hant:瓦隆叙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雅瓦隆; zh-hant:雅瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆雅; zh-hant:瓦隆雅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亚瓦隆; zh-hant:亞瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆亚; zh-hant:瓦隆亞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊瓦隆; zh-hant:伊瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆伊; zh-hant:瓦隆伊"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:因瓦隆; zh-hant:因瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆因; zh-hant:瓦隆因"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:泽瓦隆; zh-hant:澤瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆泽; zh-hant:瓦隆澤"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:扎瓦隆; zh-hant:扎瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆扎; zh-hant:瓦隆扎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:詹瓦隆; zh-hant:詹瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆詹; zh-hant:瓦隆詹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:兹瓦隆; zh-hant:茲瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆茲; zh-hant:瓦隆茲"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佐瓦隆; zh-hant:佐瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆佐; zh-hant:瓦隆佐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:祖瓦隆; zh-hant:祖瓦隆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦隆祖; zh-hant:瓦隆祖"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "name": "US Government",
+  "description": "美國政府",
+  "path": "Template:CGroup/US Government",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-tw:白宮幕僚長;zh-hk:白宮幕僚長;zh-sg:白宫幕僚长;zh-cn:白宫办公厅主任;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:白宮助理幕僚長;zh-hk:白宮助理幕僚長;;zh-sg:白宫助理幕僚长;zh-cn:白宫办公厅副主任;"
+    },
+    {
+      "original": "Census Bureau",
+      "conv": "zh-hant:人口普查局; zh-hans:人口调查局"
+    },
+    {
+      "original": "Coast guard",
+      "conv": "zh-hant:海岸防衛隊; zh-hans:海岸警卫队"
+    },
+    {
+      "original": "Federal Reserve Board of Governors",
+      "conv": "zh-tw:聯邦準備理事會; zh-hk:聯邦儲備委員會; zh-cn:联邦储备委员会"
+    },
+    {
+      "original": "Federal Reserve System",
+      "conv": "zh-tw:聯邦準備制度; zh-hk:聯邦儲備系統; zh-cn:联邦储备系统"
+    },
+    {
+      "original": "Federal Reserve",
+      "conv": "zh-tw:聯邦準備; zh-hk:聯邦儲備; zh-cn:联邦储备"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:聯準; zh-hk:聯儲; zh-cn:联储"
+    },
+    {
+      "original": "National Aeronautics and Space Administration",
+      "conv": "zh-tw:國家航空暨太空總署; zh-hk:太空總署; zh-cn:国家航空航天局"
+    },
+    {
+      "original": "National Oceanic and Atmospheric Administration",
+      "conv": "zh-tw:國家海洋暨大氣總署; zh-hk:國家海洋及大氣管理局; zh-cn:国家海洋和大气管理局"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:航空總署;zh-hk:航空管理局;;zh-cn:航空管理局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:公路總署;zh-hk:公路管理局;zh-cn:公路管理局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:汽車運輸安全總署;zh-hk:汽車運輸安全管理局;zh-cn:汽车运输安全局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:鐵路總署;zh-hk:鐵路管理局;zh-cn:铁路局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:公共運輸總署;zh-hk:公共交通管理局;zh-cn:公共交通管理局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:海運總署;zh-hk:海事局;zh-cn:海事局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:公路交通安全總署;zh-hk:公路交通安全海事局;zh-cn:公路交通安全管理局;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:運輸安全總署;zh-hk:運輸安全管理局;zh-cn:运输安全管理局;"
+    },
+    {
+      "original": "National Security Council",
+      "conv": "zh-tw:國家安全會議; zh-hk:國家安全委員會;zh-cn:国家安全委员会"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:海關及邊境保衛局; zh-hk:海關及邊境保衛局; zh-cn:海关和边境保护局"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:移民及海關執法局; zh-hk:移民及海關執法局; zh-cn:移民和海关执法局"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:衛生及公共服務部; zh-cn:卫生与公众服务部; zh-sg:卫生及公共服务部"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:住房及城市發展部; zh-cn:住房与城市发展部; zh-sg:住房及城市发展部"
+    },
+    {
+      "original": "The Pentagon",
+      "conv": "zh-tw:五角大廈; zh-cn:五角大楼"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:高等研究計劃署; zh-hk:高級研究計劃局; zh-cn:高级研究计划局"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:國家食品暨農業研究院;  zh-hk:國家食品和農業研究所; zh-cn:国家食品和农业研究所"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:林業局; zh-cn:林务局"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:國家標準暨技術研究院;  zh-hk:國家標準技術研究所; zh-cn:国家标准技术研究所"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:教育科學研究院;  zh-hk:教育科學研究所; zh-cn:教育科学研究所"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:退伍軍人健康總署;  zh-hk:退伍軍人健康管理局; zh-cn:退伍軍人健康管理局"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:國家身心障礙暨復健研究院;  zh-hk:國家身心障礙和康復研究所; zh-cn:国家身心障碍和康复研究所"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:貿易代表署;  zh-hk:貿易代表處; zh-cn:贸易代表办公室"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:小商業局; zh-cn:小企业局"
+    },
+    {
+      "original": "Agency executive",
+      "conv": "署長 => zh-cn:局长"
+    },
+    {
+      "original": null,
+      "conv": "常务副国务卿 => zh-tw:副國務卿"
+    },
+    {
+      "original": null,
+      "conv": "幕僚長 => zh-cn:办公厅主任"
+    },
+    {
+      "original": null,
+      "conv": "助理幕僚長 => zh-cn:办公厅副主任"
+    },
+    {
+      "original": null,
+      "conv": "國務次卿 => zh-cn:副国务卿; 次卿 => zh-cn:副国务卿"
+    },
+    {
+      "original": null,
+      "conv": "次長 => zh-cn:副部长; 次长 => zh-cn:副部长"
+    },
+    {
+      "original": null,
+      "conv": "司庫 => zh-cn:国库局局长; 國庫主任 => zh-cn:国库局局长"
+    }
+  ]
+}

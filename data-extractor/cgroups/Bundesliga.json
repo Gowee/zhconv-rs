@@ -1,0 +1,187 @@
+{
+  "name": "Bundesliga",
+  "description": "德國足球聯賽",
+  "path": "Module:CGroup/Bundesliga",
+  "rules": [
+    {
+      "original": "1. Bundesliga",
+      "conv": "zh:德国足球甲级联赛;zh-hans:德国足球甲级联赛;zh-hk:德國甲組足球聯賽;zh-tw:德國足球甲級聯賽;"
+    },
+    {
+      "original": "2. Bundesliga",
+      "conv": "zh:德国足球乙级联赛;zh-hans:德国足球乙级联赛;zh-hk:德國乙組足球聯賽;zh-tw:德國足球乙級聯賽;"
+    },
+    {
+      "original": "3. Bundesliga",
+      "conv": "zh:德国足球丙级联赛;zh-hans:德国足球丙级联赛;zh-hk:德國丙組足球聯賽;zh-tw:德國足球丙級聯賽;"
+    },
+    {
+      "original": "DFB Pokal",
+      "conv": "zh:德国杯;zh-hans:德国足协杯;zh-hk:德國盃;zh-tw:德國足協盃;"
+    },
+    {
+      "original": "1860 München",
+      "conv": "zh:慕尼黑1860;zh-hans:慕尼黑1860;zh-hant:1860慕尼黑;"
+    },
+    {
+      "original": "VfR Aalen",
+      "conv": "zh:阿伦;zh-hans:阿伦;zh-hk:阿倫;zh-tw:艾亞倫;zh-mo:艾阿倫"
+    },
+    {
+      "original": "VfL Bochum",
+      "conv": "zh:波鸿;zh-hans:波鸿;zh-hk:波琴;zh-tw:波鴻;"
+    },
+    {
+      "original": "Union Berlin",
+      "conv": "zh-hans:柏林联盟;zh-hk:柏林聯;zh-tw:柏林聯盟;"
+    },
+    {
+      "original": "Braunschweig",
+      "conv": "zh:布伦瑞克;zh-hans:不伦瑞克;zh-hk:布倫瑞克;zh-tw:布倫斯維克;zh-mo:布倫斯維克;"
+    },
+    {
+      "original": "Chemnitzer",
+      "conv": "zh:开姆尼茨;zh-hans:开姆尼茨;zh-hk:真尼沙;zh-tw:開姆尼茨;"
+    },
+    {
+      "original": "Dynamo",
+      "conv": "zh:迪納摩;zh-hans:迪纳摩;zh-hk:戴拿模;zh-tw:迪納摩;"
+    },
+    {
+      "original": "Dresden",
+      "conv": "zh-hans:德累斯顿;zh-hk:特雷斯登;zh-tw:德勒斯登;德累斯頓=>zh-hans:德累斯顿;德累斯頓=>zh-hk:特雷斯登;德累斯頓=>zh-tw:德勒斯登;德雷斯頓=>zh-hans:德累斯顿;德雷斯頓=>zh-hk:特雷斯登;德雷斯頓=>zh-tw:德勒斯登;德勒斯登=>zh-hans:德累斯顿;德勒斯登=>zh-hk:特雷斯登;"
+    },
+    {
+      "original": "Dortmund",
+      "conv": "zh:多特蒙德;zh-hans:多特蒙德;zh-hk:多蒙特;zh-tw:多特蒙德;"
+    },
+    {
+      "original": "Darmstadt",
+      "conv": "zh:达姆斯塔特;zh-hans:达姆施塔特;zh-hk:達斯泰特;zh-tw:達姆斯塔特;"
+    },
+    {
+      "original": "Düsseldorf",
+      "conv": "zh-cn:杜塞尔多夫;zh-my:杜塞尔多夫;zh-sg:杜塞尔多夫;zh-tw:杜塞多夫;zh-hk:杜斯多夫;zh-mo:杜斯多夫;"
+    },
+    {
+      "original": "Düsseldorf",
+      "conv": "杜塞道夫=>zh-cn:杜塞尔多夫;杜塞道夫=>zh-my:杜塞尔多夫;杜塞道夫=>zh-sg:杜塞尔多夫;杜塞道夫=>zh-hk:杜斯多夫;杜塞道夫=>zh-mo:杜斯多夫;"
+    },
+    {
+      "original": "Düsseldorf",
+      "conv": "杜塞爾多夫=>zh-tw:杜塞道夫;杜塞爾多夫=>zh-hk:杜斯多夫;杜塞爾多夫=>zh-mo:杜斯多夫;"
+    },
+    {
+      "original": "Hertha BSC Berlin",
+      "conv": "zh:柏林赫塔;zh-hans:柏林赫塔;zh-hk:哈化柏林;zh-tw:柏林赫塔;"
+    },
+    {
+      "original": "SC Freiburg",
+      "conv": "zh:弗赖堡;zh-hans:弗赖堡;zh-hant:弗賴堡;zh-hk:弗賴堡;zh-tw:弗萊堡;zh-mo:費雷堡;"
+    },
+    {
+      "original": "Greuther Fürth",
+      "conv": "zh:格罗伊特菲尔特;zh-hans:格罗伊特菲尔特;zh-hant:格羅伊特菲爾特;zh-hk:格雷特霍夫;zh-tw:格羅伊特菲爾特;zh-mo:格雷特霍夫;"
+    },
+    {
+      "original": "Hallischer",
+      "conv": "zh:哈勒;zh-hans:哈勒;zh-hk:賀利舒查;zh-tw:哈勒;"
+    },
+    {
+      "original": "Heidenheim",
+      "conv": "zh:海登咸;zh-hans:海登海姆;zh-hk:海登咸;zh-tw:海登海姆;"
+    },
+    {
+      "original": "Hoffenheim",
+      "conv": "zh:霍芬海姆;zh-hans:霍芬海姆;zh-hant:霍芬海姆;zh-hk:賀芬咸;zh-tw:霍芬海姆;zh-mo:賀芬咸;"
+    },
+    {
+      "original": "Ingolstadt 04",
+      "conv": "zh:因戈爾施塔特;zh-hans:因戈尔施塔特;zh-hk:恩高斯達特;zh-tw:因戈施塔特;"
+    },
+    {
+      "original": "Karlsruher SC",
+      "conv": "zh:卡尔斯鲁厄;zh-hans:卡尔斯鲁厄;zh-hant:卡爾斯魯厄;zh-hk:卡爾斯魯厄;zh-tw:卡爾斯魯;zh-mo:卡斯魯厄;"
+    },
+    {
+      "original": "Bayer Leverkusen",
+      "conv": "zh:勒沃库森;zh-hans:勒沃库森;zh-hant:勒沃庫森;zh-hk:利華古遜;zh-tw:勒沃庫森;zh-mo:利華古遜;"
+    },
+    {
+      "original": "Mainz 05",
+      "conv": "zh:美茵茨;zh-hans:美因茨;zh-hant:美因茲;zh-hk:緬恩斯;zh-mo:緬恩斯;"
+    },
+    {
+      "original": "Mönchengladbach",
+      "conv": "zh:门兴格拉德巴赫;zh-hans:门兴格拉德巴赫;zh-hant:門興格拉德巴赫;zh-hk:慕遜加柏;zh-tw:門興格拉德巴赫;zh-mo:慕遜加柏;"
+    },
+    {
+      "original": "Oberhausen",
+      "conv": "zh:奥伯豪森;zh-hans:奥伯豪森;zh-hk:奧柏侯遜;zh-tw:奧伯豪森;"
+    },
+    {
+      "original": "Osnabrück",
+      "conv": "zh:奥斯纳布吕克;zh-hans:奥斯纳布吕克;zh-hk:奧斯納布克;zh-tw:奧斯納貝克;"
+    },
+    {
+      "original": "Paderborn",
+      "conv": "zh:帕德博恩;zh-hans:帕德博恩;zh-hant:帕德博恩;zh-hk:柏達邦;zh-tw:帕德博恩;zh-mo:柏德博恩;"
+    },
+    {
+      "original": "Preussen Munster",
+      "conv": "zh:普鲁士明斯特;zh-hans:普鲁士明斯特;zh-hk:普斯辛蒙斯達;zh-tw:普魯士明斯特;"
+    },
+    {
+      "original": "RB Leipzig",
+      "conv": "zh:RB萊比錫;zh-hans:莱比锡RB;zh-hk:RB萊比錫;zh-tw:RB萊比錫;"
+    },
+    {
+      "original": "Sandhausen",
+      "conv": "zh:辛特侯遜;zh-hans:桑德豪森;zh-hk:辛特侯遜;zh-tw:桑德豪森;"
+    },
+    {
+      "original": "Schalke",
+      "conv": "zh:沙尔克;zh-hans:沙尔克;zh-hant:沙爾克;zh-hk:史浩克;zh-tw:沙爾克;zh-mo:史浩克;"
+    },
+    {
+      "original": "Stuttgart",
+      "conv": "zh:斯图加特;zh-hans:斯图加特;zh-hant:斯圖加特;zh-hk:史特加;zh-tw:斯圖加特;zh-mo:史特加;司徒加特=>zh-hk:史特加;司徒加特=>zh-mo:史特加;司徒加特=>zh-hans:斯图加特;司徒加=>zh-hk:史特加;司徒加=>zh-mo:史特加;司徒加=>zh-hans:斯图加特;"
+    },
+    {
+      "original": "Werder Bremen",
+      "conv": "zh:云达不来梅;zh-hans:云达不来梅;zh-hant:不來梅沙洲;zh-hk:雲達不來梅;zh-tw:文達不來梅;zh-mo:雲達不萊梅;"
+    },
+    {
+      "original": "VfL Wolfsburg",
+      "conv": "zh:沃尔夫斯堡;zh-hans:沃尔夫斯堡;zh-hant:沃爾夫斯堡;zh-hk:禾夫斯堡;zh-tw:狼堡;zh-mo:沃爾夫斯堡;"
+    },
+    {
+      "original": "Wattenscheid",
+      "conv": "zh:瓦滕沙伊德;zh-hans:瓦滕沙伊德;zh-hant:瓦滕沙伊德;zh-hk:華登舒特;zh-tw:瓦滕沙伊德;zh-mo:華登舒特;"
+    },
+    {
+      "original": "Unterhaching",
+      "conv": "zh:翁特哈兴;zh-hans:翁特哈兴;zh-hant:翁特哈興;zh-hk:安達赫治;zh-tw:翁特哈興;zh-mo:安達赫治;"
+    },
+    {
+      "original": "Kaiserslautern",
+      "conv": "zh:凯泽斯劳滕;zh-hans:凯泽斯劳滕;zh-hant:凱澤斯勞滕;zh-hk:凱沙羅頓;zh-tw:凱撒勞頓;zh-mo:凱沙羅頓;"
+    },
+    {
+      "original": "Franz Beckenbauer",
+      "conv": "zh-hans:弗朗茨·贝肯鲍尔;zh-hk:法蘭斯·碧根鮑華;zh-tw:弗朗茨·貝肯鮑爾;"
+    },
+    {
+      "original": "Kevin de Bruyne",
+      "conv": "zh-hans:凯文·德布劳内;zh-hk:奇雲·迪布尼;zh-tw:凱文·德布勞内;"
+    },
+    {
+      "original": "Matthäus",
+      "conv": "zh-hans:马特乌斯;zh-hk:馬圖斯;zh-tw:馬特烏斯;"
+    },
+    {
+      "original": "Fritz Walter",
+      "conv": "zh-hans:弗里茨·瓦尔特;zh-hk:費斯·禾達;zh-tw:弗里茨·瓦爾特;"
+    }
+  ]
+}

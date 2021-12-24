@@ -33,7 +33,7 @@ REGEX_RULE4 = re.compile(
 )
 # For [[Category:公共轉換組模板]]; e.g. [[Template:CGroup/People]], [[Template:CGroup/文學]]
 REGEX_RULE5 = re.compile(
-    r"""{{\s*(CI(tem(Hidden)?)?|CNoteA)\s*\|(\s*desc\s*=\s*[^|]*\s*\|)?\s*original\s*=\s*(?P<original>[^|]*?)\s*(\|\s*desc\s*=\s*[^|]*\s*)?\|\s*(?P<conv>[^}]+)(\|\s*desc\s*=\s*[^|]*\s*)?(\|\s*)?}}"""
+    r"""{{\s*(CI(tem(Hidden)?)?|CNoteA)\s*\|(\s*desc\s*=\s*[^|]*\s*\|)?\s*original\s*=\s*(?P<original>[^|]*?)\s*(\|\s*desc\s*=\s*[^|]*\s*)?\|\s*(1=)?\s*(?P<conv>[^}]+)(\|\s*desc\s*=\s*[^|]*\s*)?(\|\s*)?}}"""
 )
 REGEX_RULE6 = re.compile(
     r"""{{\s*(CI(tem(Hidden)?)?|CNoteA)\s*(\|\s*desc\s*=\s*[^|]*\s*)?\|\s*(1=)?\s*(?P<conv>[^|]+)\s*(\|\s*desc\s*=\s*[^|]*\s*)?(\|\s*original\s*=\s*(?P<original>.*?))?\s*(\|\s*desc\s*=\s*[^|]*\s*)?(\|\s*)?}}"""

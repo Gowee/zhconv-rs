@@ -1,0 +1,2951 @@
+{
+  "name": "People",
+  "description": "人物译名",
+  "path": "Module:CGroup/People",
+  "rules": [
+    {
+      "original": "Abidal",
+      "conv": "zh-cn:阿比达尔; zh-tw:阿比達; zh-hk:艾比度;"
+    },
+    {
+      "original": "Abigail",
+      "conv": "zh-hant:艾碧該;zh-hans:阿比盖尔;"
+    },
+    {
+      "original": "Abram",
+      "conv": "zh-cn:艾布拉姆;zh-hant:艾布拉姆;zh-hk:艾伯林;"
+    },
+    {
+      "original": "Ἀχιλλεύς; Achilles",
+      "conv": "zh-cn:阿喀琉斯; zh-tw:阿基里斯; zh-hk:阿基利斯;"
+    },
+    {
+      "original": "Afonso; Alfonso",
+      "conv": "zh-cn:阿方索;zh-tw:阿風索;zh-hk:亞豐素;"
+    },
+    {
+      "original": "احمدی‌نژاد; Ahmadinezhād",
+      "conv": "zh-cn:艾哈迈迪-内贾德; zh-tw:阿赫瑪迪內賈德; zh-hk:艾哈邁迪內賈德;"
+    },
+    {
+      "original": "Albaina",
+      "conv": "zh-cn:阿尔瓦伊纳; zh-tw:阿爾拜納; zh-hk:艾爾拜納;"
+    },
+    {
+      "original": "Alban",
+      "conv": "zh-cn:阿尔班; zh-tw:阿爾班; zh-hk:艾爾班;"
+    },
+    {
+      "original": "Albert",
+      "conv": "zh-hans:阿尔伯特; zh-tw:阿爾伯特; zh-hk:亞厘畢;"
+    },
+    {
+      "original": "Alec",
+      "conv": "zh-cn:亚历克; zh-tw:亞歷;"
+    },
+    {
+      "original": "Alec",
+      "conv": "亚历克=>zh-hk:艾力;亚历克=>zh-mo:艾力;亞歷=>zh-hk:艾力;亞歷=>zh-mo:艾力;"
+    },
+    {
+      "original": "Alejandro",
+      "conv": "zh-cn:亚历杭德罗; zh-tw:亞歷杭德羅;"
+    },
+    {
+      "original": "Alex",
+      "conv": "zh-cn:亚历克斯; zh-tw:艾力克斯; zh-hk:艾力士;"
+    },
+    {
+      "original": "Alexander",
+      "conv": " zh-cn:亚历山大; zh-tw:亞歷山大; zh-hk:亞歷山大;"
+    },
+    {
+      "original": "Alexandra ",
+      "conv": "zh-cn:亚历山德拉; zh-tw:亞歷山德拉; zh-hk:亞歷珊卓;"
+    },
+    {
+      "original": "Alfred",
+      "conv": "zh-cn:阿尔弗雷德; zh-tw:阿佛烈; zh-tw:阿佛烈;"
+    },
+    {
+      "original": "Allen",
+      "conv": "zh-cn:艾伦; zh-tw:艾倫; zh-hk:亞倫;"
+    },
+    {
+      "original": "Алексей (Aleksiey)",
+      "conv": "zh-cn:阿列克谢; zh-tw:亞歷克賽; zh-hk:阿列克謝;"
+    },
+    {
+      "original": "Алёша (Alyosha);Aljoša",
+      "conv": "zh-cn:阿廖沙; zh-tw:亞盧夏; zh-hk:阿廖沙;"
+    },
+    {
+      "original": "Almodóvar",
+      "conv": "zh-cn:阿尔莫多瓦尔; zh-tw:阿莫多瓦; zh-hk:艾慕杜華;"
+    },
+    {
+      "original": "Altman",
+      "conv": "zh-cn:奥特曼; zh-tw:阿特曼; zh-hk:柯曼;"
+    },
+    {
+      "original": "Amadeus",
+      "conv": "zh-cn:阿马德乌斯; zh-tw:阿瑪迪斯; zh-hk:阿瑪迪斯;"
+    },
+    {
+      "original": "Anderson",
+      "conv": "zh-cn:安德森; zh-tw:安德森; zh-hk:安達臣;"
+    },
+    {
+      "original": "Andreas",
+      "conv": "zh-cn:安德雷斯; zh-tw:安德雷斯; zh-hk:安達斯; zh-sg:安迪亚斯;"
+    },
+    {
+      "original": "Андреев (Andreev)",
+      "conv": "zh-cn:安德列夫; zh-tw:安德列夫; zh-hk:安祖夫;"
+    },
+    {
+      "original": "Angloma",
+      "conv": "zh-cn:安格洛马; zh-tw:安格洛馬; zh-hk:安高馬;"
+    },
+    {
+      "original": "Annacone",
+      "conv": "zh-cn:安纳孔; zh-tw:安納寇尼; zh-hk:安納干尼;"
+    },
+    {
+      "original": "Anthony",
+      "conv": "zh-hans:安东尼; zh-hant:安東尼;"
+    },
+    {
+      "original": "Antoinette",
+      "conv": "zh-cn:安托瓦内特; zh-tw:安東娃妮特;"
+    },
+    {
+      "original": "Apatow",
+      "conv": "zh-cn:阿帕图; zh-tw:艾帕托; zh-hk:柏圖;"
+    },
+    {
+      "original": "Αριστοτέλης (Aristotélēs)",
+      "conv": "zh-cn:亚里士多德; zh-tw:亞里斯多德; zh-hk:亞里士多德;"
+    },
+    {
+      "original": "Armando",
+      "conv": "zh-cn:阿曼多; zh-tw:阿曼多; zh-hk:阿曼度;"
+    },
+    {
+      "original": "Armstrong",
+      "conv": "zh-cn:阿姆斯特朗; zh-tw:阿姆斯壯; zh-hk:岩士唐;"
+    },
+    {
+      "original": "Areola",
+      "conv": "zh-cn:雷奥拉; zh-tw:雷奧拉; zh-hk:艾路拿;"
+    },
+    {
+      "original": "Armand",
+      "conv": "zh-hans:阿尔芒;zh-hant:亞曼;"
+    },
+    {
+      "original": "Arnold",
+      "conv": "zh-cn:阿诺德; zh-tw:阿諾; zh-hk:阿諾;"
+    },
+    {
+      "original": "Arthur",
+      "conv": "zh-hk:阿瑟;zh-tw:亞瑟;zh-cn:阿瑟;"
+    },
+    {
+      "original": "Asanovic ",
+      "conv": "zh-cn:阿桑诺维奇; zh-tw:阿桑諾維奇; zh-hk:阿辛奴域;"
+    },
+    {
+      "original": "Astin",
+      "conv": "zh-cn:阿斯廷; zh-tw:艾斯汀; zh-hk:艾斯丁;"
+    },
+    {
+      "original": "Astroza",
+      "conv": "zh-cn:阿斯特拉; zh-tw:阿斯特拉; zh-hk:安天托;"
+    },
+    {
+      "original": "Atkinson",
+      "conv": "zh-cn:阿特金森; zh-tw:艾金森; zh-hk:雅堅遜;"
+    },
+    {
+      "original": "Attenborough",
+      "conv": "zh-cn:阿滕伯勒; zh-tw:艾登堡; zh-hk:艾登堡;"
+    },
+    {
+      "original": "Aubameyang",
+      "conv": "zh-cn:奥巴梅扬; zh-tw:奧巴梅揚; zh-hk:奧巴美揚;"
+    },
+    {
+      "original": "Audrey",
+      "conv": "zh-cn:奥黛丽; zh-tw:奧黛麗; zh-hk:柯德莉;"
+    },
+    {
+      "original": "Aung San",
+      "conv": "zh-cn:昂山; zh-tw:翁山; zh-hk:昂山; zh-sg:翁山;"
+    },
+    {
+      "original": "အောင်ဆန်းစုကြည် (Aung San Suu Kyi)",
+      "conv": "zh-cn:昂山素季; zh-tw:翁山蘇姬; zh-hk:昂山素姬; zh-sg:翁山淑枝;"
+    },
+    {
+      "original": "Austin",
+      "conv": "zh-cn:奥斯汀;zh-tw:奧斯丁;zh-hk:柯士甸;"
+    },
+    {
+      "original": "Austin",
+      "conv": "奥斯丁=>zh-hk:柯士甸;奥斯丁=>zh-mo:柯士甸;"
+    },
+    {
+      "original": "Aykroyd",
+      "conv": "zh-cn:艾克罗伊德; zh-tw:艾克洛德; zh-hk:艾克萊;"
+    },
+    {
+      "original": "Aylward",
+      "conv": "zh-cn:艾尔沃德;zh-tw:艾爾沃德;zh-hk:艾華德;"
+    },
+    {
+      "original": "Azpilicueta",
+      "conv": "zh-cn:阿斯皮利奎塔; zh-tw:阿斯皮利奎塔; zh-hk:艾斯派古達;"
+    },
+    {
+      "original": "Bacon",
+      "conv": "zh-cn:贝肯; zh-tw:貝肯; zh-hk:貝根;"
+    },
+    {
+      "original": "Backham",
+      "conv": "zh-cn:贝克汉姆; zh-tw:貝克漢; zh-hk:碧咸;"
+    },
+    {
+      "original": "Baldwin",
+      "conv": "zh-cn:鲍德温; zh-tw:鮑德溫; zh-hk:寶雲;"
+    },
+    {
+      "original": "Bale; Bell; Biel",
+      "conv": "zh-cn:比尔; zh-tw:比爾; zh-hk:比爾;"
+    },
+    {
+      "original": "Baker",
+      "conv": "碧加=>zh-cn:贝克; 碧加=>zh-tw:貝克; 碧加=>zh-hk:碧加;"
+    },
+    {
+      "original": "Ballmer",
+      "conv": "zh-cn:鲍尔默; zh-tw:巴爾默; zh-hk:鮑爾默;"
+    },
+    {
+      "original": "Barack",
+      "conv": "zh-cn:贝拉克; zh-tw:巴拉克; zh-hk:巴拉克;"
+    },
+    {
+      "original": "Baron",
+      "conv": "zh-cn:巴伦;zh-hk:巴倫;zh-tw:巴隆;"
+    },
+    {
+      "original": "Barthez",
+      "conv": "zh-cn:巴特茲; zh-tw:巴特茲; zh-hk:巴夫斯;"
+    },
+    {
+      "original": "Baruchel",
+      "conv": "zh-cn:巴鲁契; zh-tw:巴魯契; zh-hk:巴朗祖;"
+    },
+    {
+      "original": "Bates",
+      "conv": "zh-cn:贝兹; zh-tw:貝茲; zh-hk:比絲;"
+    },
+    {
+      "original": "Beckenbauer",
+      "conv": "zh-cn:贝肯鲍尔; zh-tw:貝肯鮑爾; zh-hk:碧根鮑華;"
+    },
+    {
+      "original": "Beckford",
+      "conv": "zh-hans:贝克福德; zh-hk:碧福特;"
+    },
+    {
+      "original": "Beckham",
+      "conv": "zh-cn:贝克汉姆; zh-tw:貝克漢; zh-hk:碧咸;"
+    },
+    {
+      "original": "Benedict",
+      "conv": "zh-cn:本尼迪克特; zh-tw:班奈狄克; zh-hk:班尼狄;"
+    },
+    {
+      "original": "Bengt",
+      "conv": "zh-cn:本特; zh-hk:賓治; zh-tw:班特;"
+    },
+    {
+      "original": "Bening",
+      "conv": "zh-cn:贝宁; zh-tw:班寧; zh-hk:貝寧;"
+    },
+    {
+      "original": "Benz",
+      "conv": "zh-cn:本茨; zh-hk:平治; zh-tw:賓士;"
+    },
+    {
+      "original": "Best",
+      "conv": "zh-cn:贝斯特; zh-hk:貝斯;"
+    },
+    {
+      "original": "Berdych",
+      "conv": "zh-cn:伯蒂奇; zh-tw:貝爾迪赫; zh-hk:貝迪治;"
+    },
+    {
+      "original": "Bergman",
+      "conv": "zh-cn:伯格曼; zh-tw:柏格曼; zh-hk:褒曼;"
+    },
+    {
+      "original": "Beria",
+      "conv": "贝利亚=>zh-cn:贝利亚; 贝利亚=>zh-tw:貝利亞; 贝利亚=>zh-hk:貝利亞;"
+    },
+    {
+      "original": "ภูมิพลอดุลยเดช, Bhumibol",
+      "conv": "zh-cn:普密蓬; zh-tw:蒲美蓬; zh-hk:普密蓬;"
+    },
+    {
+      "original": "Bilson",
+      "conv": "zh-cn:比尔森; zh-tw:比爾森; zh-hk:碧遜;"
+    },
+    {
+      "original": "bin",
+      "conv": "zh-cn:本·; zh-tw:賓·; zh-hk:本·; zh-sg:本·;"
+    },
+    {
+      "original": "[[奥萨马·本·拉登|bin Laden]]",
+      "conv": "zh-cn:本拉登; zh-tw:賓拉登; zh-hk:本拉登; zh-sg:本拉登;"
+    },
+    {
+      "original": "[[奥萨马·本·拉登|bin Laden]]",
+      "conv": "zh-cn:本·拉登; zh-tw:賓·拉登; zh-hk:本·拉登; zh-sg:本·拉登;"
+    },
+    {
+      "original": "Blanc",
+      "conv": "zh-cn:布兰克; zh-hk:白蘭斯; zh-tw:勃朗;"
+    },
+    {
+      "original": "Bloom",
+      "conv": "布卢姆=>zh-hk:布林;布卢姆=>zh-tw:布魯;"
+    },
+    {
+      "original": "Bolívar",
+      "conv": "zh-cn:玻利瓦尔;zh-hk:玻利華;zh-tw:玻利瓦;"
+    },
+    {
+      "original": "Bolívar",
+      "conv": "玻利瓦爾=>zh-hk:玻利華;玻利瓦爾=>zh-mo:玻利華;玻利瓦爾=>zh-tw:玻利瓦;"
+    },
+    {
+      "original": "Bolt",
+      "conv": "zh-cn:博尔特;zh-hk:保特;zh-tw:博爾特;"
+    },
+    {
+      "original": "Boris, Борис",
+      "conv": "zh-cn:鲍里斯;zh-tw:鮑利斯;"
+    },
+    {
+      "original": "Born",
+      "conv": "zh-hans:玻恩;zh-hant:波恩;"
+    },
+    {
+      "original": "Bosworth",
+      "conv": "zh-cn:伯茨沃斯; zh-tw:柏絲沃; zh-hk:寶絲禾芙;"
+    },
+    {
+      "original": "Botha",
+      "conv": "zh-hans:波塔;zh-hant:波塔;zh-hk:博塔;"
+    },
+    {
+      "original": "Braun",
+      "conv": "zh-cn:布劳恩;zh-tw:勃勞恩;zh-hk:布勞恩;"
+    },
+    {
+      "original": "Брежнев (Brezhnev)",
+      "conv": "zh-cn:勃列日涅夫; zh-tw:布里茲涅夫; zh-hk:布里茲尼夫; zh-sg:布列茲涅夫;"
+    },
+    {
+      "original": "Bridges",
+      "conv": "zh-cn:布里吉斯; zh-tw:布里吉; zh-hk:布烈治;"
+    },
+    {
+      "original": "Britney",
+      "conv": "zh-cn:布兰妮; zh-tw:布蘭妮; zh-hk:布蘭妮"
+    },
+    {
+      "original": "Britney Spears",
+      "conv": "zh-cn:布兰妮·斯皮尔斯; zh-tw:布蘭妮·斯皮爾斯; zh-hk:布蘭妮·斯皮雅斯"
+    },
+    {
+      "original": "Brosnan",
+      "conv": "zh-cn:布鲁斯南; zh-tw:布洛斯南; zh-hk:布士南;"
+    },
+    {
+      "original": "Bruce",
+      "conv": "zh-cn:布鲁斯;zh-tw:布魯斯;zh-hk:布魯士;"
+    },
+    {
+      "original": "Bruno",
+      "conv": "zh-cn:布鲁诺; zh-tw:布魯諾; zh-hk:般奴;"
+    },
+    {
+      "original": "Bryan",
+      "conv": "zh-cn:布赖恩;zh-tw:布萊恩;zh-hk:白賴仁;"
+    },
+    {
+      "original": "Burton",
+      "conv": "zh-cn:伯顿; zh-tw:波頓; zh-hk:布頓;"
+    },
+    {
+      "original": "Bush",
+      "conv": "zh-cn:布什; zh-tw:布希; zh-hk:布殊;"
+    },
+    {
+      "original": "Buttigieg",
+      "conv": "zh-cn:布蒂吉格;zh-tw:布塔朱吉;zh-hk:砵得智;"
+    },
+    {
+      "original": "Buttigieg",
+      "conv": "布塔加智=>zh-cn:布蒂吉格;布塔加智=>zh-my:布蒂吉格;布塔加智=>zh-sg:布蒂吉格;布塔加智=>zh-tw:布塔朱吉;布塔加智=>zh-hk:砵得智;布塔加智=>zh-mo:砵得智;"
+    },
+    {
+      "original": "Cameron",
+      "conv": "zh-cn:卡梅伦; zh-tw:卡麥隆; zh-hk:金馬倫"
+    },
+    {
+      "original": "Campbell",
+      "conv": "zh-cn:甘贝尔; zh-tw:甘貝爾; zh-hk:金寶"
+    },
+    {
+      "original": "Cantona",
+      "conv": "zh-cn:坎通纳; zh-tw:坎托涅; zh-hk:簡東拿;"
+    },
+    {
+      "original": "Carvalho",
+      "conv": "zh-cn:卡瓦略; zh-tw:卡瓦略; zh-hk:卡維奴;"
+    },
+    {
+      "original": "Carlos",
+      "conv": "zh-cn:卡洛斯; zh-tw:卡洛斯; zh-hk:卡路士;"
+    },
+    {
+      "original": "Caspar",
+      "conv": "zh-hans:卡斯帕; zh-hant:卡斯巴;"
+    },
+    {
+      "original": "Castro",
+      "conv": "zh-cn:卡斯特罗; zh-tw:卡斯楚; zh-hk:卡斯特羅;"
+    },
+    {
+      "original": "Catharine; Katharine",
+      "conv": "zh-cn:凯瑟琳; zh-tw:凱薩琳; zh-hk:嘉芙蓮;"
+    },
+    {
+      "original": "Ceauşescu",
+      "conv": "zh-hans:齐奥塞斯库; zh-hant:西奧塞古; zh-hk:壽西斯古;"
+    },
+    {
+      "original": "Čech",
+      "conv": "zh-hans:切赫; zh-tw:切赫; zh-hk:施治;"
+    },
+    {
+      "original": "César",
+      "conv": "zh-cn:塞萨尔; zh-tw:塞薩爾; zh-hk:施薩;"
+    },
+    {
+      "original": "Chadwick",
+      "conv": "zh-cn:查德维克; zh-tw:查德威克; zh-hk:查域; zh-hant:查德維克"
+    },
+    {
+      "original": "Chakri",
+      "conv": "zh-cn:扎克里; zh-tw:扎克里; zh-hk:扎克里;"
+    },
+    {
+      "original": "Chamakh",
+      "conv": "zh-cn:沙马赫; zh-tw:沙馬克; zh-hk:查馬克;"
+    },
+    {
+      "original": "Charles",
+      "conv": "zh-cn:查尔斯; zh-tw:查爾斯; zh-hk:查理斯;"
+    },
+    {
+      "original": "Chauvin",
+      "conv": "zh-cn:肖万; zh-tw:蕭文; zh-hk:肖萬;"
+    },
+    {
+      "original": "Chávez",
+      "conv": "zh-cn:查韦斯; zh-hk:查韋斯; zh-tw:查維茲;"
+    },
+    {
+      "original": "Cheyrou",
+      "conv": "zh-cn:谢鲁; zh-tw:謝魯; zh-hk:芝禾爾;"
+    },
+    {
+      "original": "Cheney",
+      "conv": "zh-cn:切尼;zh-hk:切尼;zh-tw:錢尼;"
+    },
+    {
+      "original": "Cheryshev",
+      "conv": "zh-cn:切里舍夫;zh-hk:謝利舒夫;zh-tw:切里舍夫;"
+    },
+    {
+      "original": "Chirac",
+      "conv": "zh-cn:希拉克;zh-hk:希拉克;zh-tw:席哈克;"
+    },
+    {
+      "original": "Chilavert",
+      "conv": "zh-cn:奇拉维特; zh-tw:奇拉維特; zh-hk:芝拉華特;"
+    },
+    {
+      "original": "Chris",
+      "conv": "zh-cn:克里斯; zh-tw:克里斯; zh-hk:基斯;"
+    },
+    {
+      "original": "Christian",
+      "conv": "zh-cn:克里斯蒂安; zh-tw:克里斯汀; zh-hk:基斯頓;"
+    },
+    {
+      "original": "Christensen",
+      "conv": "zh-cn:克里斯滕森; zh-tw:克里斯滕森; zh-hk:基斯甸臣; zh-sg:克里斯甸臣"
+    },
+    {
+      "original": "Christopher",
+      "conv": "zh-cn:克里斯托弗; zh-tw:克里斯多夫; zh-hk:基斯杜化;"
+    },
+    {
+      "original": "Christopher",
+      "conv": "克里斯多福=>zh-cn:克里斯托弗; zh-hk:基斯杜化;"
+    },
+    {
+      "original": "Churchill",
+      "conv": "zh-hans:丘吉尔; zh-hant:邱吉爾;"
+    },
+    {
+      "original": "Claude",
+      "conv": "zh-cn:克劳迪奥; zh-tw:克勞迪奧; zh-hk:哥迪奧;"
+    },
+    {
+      "original": "Clausewitz",
+      "conv": "zh-hans:克劳塞维茨; zh-hant:克勞塞維茲;"
+    },
+    {
+      "original": "Clemenceau",
+      "conv": "zh-cn:克列孟梭;zh-tw:克里孟梭;zh-sg:克里门梭;"
+    },
+    {
+      "original": "Clemenceau",
+      "conv": "克莱孟梭=>zh-cn:克列孟梭;克莱孟梭=>zh-hk:克里孟梭;克莱孟梭=>zh-mo:克里孟梭;克莱孟梭=>zh-tw:克里孟梭;克莱孟梭=>zh-my:克里门梭;克莱孟梭=>zh-sg:克里门梭;"
+    },
+    {
+      "original": "Clemenceau",
+      "conv": "克萊孟梭=>zh-cn:克列孟梭;克萊孟梭=>zh-hk:克里孟梭;克萊孟梭=>zh-mo:克里孟梭;克萊孟梭=>zh-tw:克里孟梭;克萊孟梭=>zh-my:克里门梭;克萊孟梭=>zh-sg:克里门梭;"
+    },
+    {
+      "original": "Clemenceau",
+      "conv": "克里蒙梭=>zh-cn:克列孟梭;克里蒙梭=>zh-hk:克里孟梭;克里蒙梭=>zh-mo:克里孟梭;克里蒙梭=>zh-tw:克里孟梭;克里蒙梭=>zh-my:克里门梭;克里蒙梭=>zh-sg:克里门梭;"
+    },
+    {
+      "original": "Clemenceau",
+      "conv": "克莱蒙梭=>zh-cn:克列孟梭;克莱蒙梭=>zh-hk:克里孟梭;克莱蒙梭=>zh-mo:克里孟梭;克莱蒙梭=>zh-tw:克里孟梭;克莱蒙梭=>zh-my:克里门梭;克莱蒙梭=>zh-sg:克里门梭;"
+    },
+    {
+      "original": "Clemenceau",
+      "conv": "克萊蒙梭=>zh-cn:克列孟梭;克萊蒙梭=>zh-hk:克里孟梭;克萊蒙梭=>zh-mo:克里孟梭;克萊蒙梭=>zh-tw:克里孟梭;克萊蒙梭=>zh-my:克里门梭;克萊蒙梭=>zh-sg:克里门梭;"
+    },
+    {
+      "original": "Clifton",
+      "conv": "zh-cn:克利夫顿; zh-tw:克利夫頓; zh-hk:奇里夫頓;"
+    },
+    {
+      "original": "Clinton",
+      "conv": "zh-cn:克林顿; zh-tw:柯林頓; zh-hk:克林頓;"
+    },
+    {
+      "original": "Clooney",
+      "conv": "克隆尼=>zh-cn:克鲁尼; 克隆尼=>zh-tw:克隆尼; 克隆尼=>zh-hk:古尼;"
+    },
+    {
+      "original": "Coase",
+      "conv": "zh-cn:科斯; zh-tw:寇斯;"
+    },
+    {
+      "original": "Coase",
+      "conv": "科斯=>zh-hk:高斯; 寇斯=>zh-hk:高斯;"
+    },
+    {
+      "original": "Colin",
+      "conv": "zh-tw:柯林; zh-hk:哥連; zh-cn:科林;"
+    },
+    {
+      "original": "Condoleezza",
+      "conv": "zh-cn:康多莉扎; zh-tw:康朵麗莎; zh-hk:康多莉莎;"
+    },
+    {
+      "original": "Corentin",
+      "conv": "zh-cn:科朗坦; zh-tw:科倫丁; zh-hk:哥倫天;"
+    },
+    {
+      "original": "Cornelius",
+      "conv": "zh-cn:科内柳斯; zh-tw:科内利尤斯; zh-hk:哥尼利斯;"
+    },
+    {
+      "original": "Coupet",
+      "conv": "zh-cn:库佩; zh-tw:庫佩; zh-hk:哥柏;"
+    },
+    {
+      "original": "Courbet",
+      "conv": "zh-cn:库尔贝; zh-tw:科爾貝; zh-hk:科爾貝;"
+    },
+    {
+      "original": "Cristiano",
+      "conv": "zh-cn:克里斯蒂亚诺; zh-tw:克里斯提亞諾; zh-hk:基斯坦奴;"
+    },
+    {
+      "original": "Crombie",
+      "conv": "zh-cn:克罗姆比; zh-tw:克倫比; zh-hk:龔比;"
+    },
+    {
+      "original": "Cromwell",
+      "conv": "zh-cn:克伦威尔; zh-hk:克倫威爾; zh-tw:克倫威爾;"
+    },
+    {
+      "original": "Cruise",
+      "conv": "zh-cn:克鲁斯; zh-tw:克魯斯; zh-hk:告魯斯;"
+    },
+    {
+      "original": "Cruz",
+      "conv": "zh-cn:克鲁兹; zh-tw:克魯茲; zh-hk:古絲;"
+    },
+    {
+      "original": "Cygan",
+      "conv": "zh-cn:西甘; zh-tw:西甘; zh-hk:施根;"
+    },
+    {
+      "original": "da Silva",
+      "conv": "zh-cn:达席尔瓦; zh-tw:達席爾瓦; zh-hk:達施華;"
+    },
+    {
+      "original": "Daddario",
+      "conv": "zh-cn:达达里奥; zh-tw:妲妲里奧; zh-hk:達迪莉奧;"
+    },
+    {
+      "original": "Danny",
+      "conv": "丹尼=>zh-hk:戴利;"
+    },
+    {
+      "original": "de Klerk",
+      "conv": "zh-hans:德克勒克; zh-hant:德克勒克; zh-tw:戴克拉克"
+    },
+    {
+      "original": "Deakins",
+      "conv": "zh-cn:迪金斯; zh-tw:狄金斯; zh-hk:戴健士;"
+    },
+    {
+      "original": "Debreu",
+      "conv": "zh-cn:德布鲁; zh-tw:德布魯; zh-hk:德布魯;"
+    },
+    {
+      "original": "Denilson",
+      "conv": "zh-hans:德尼尔森;zh-tw:德尼爾森 ;zh-hk:丹尼臣;"
+    },
+    {
+      "original": "Denise",
+      "conv": "zh-cn:丹尼丝; zh-tw:德妮絲;"
+    },
+    {
+      "original": "Dennis",
+      "conv": "zh-hans:丹尼斯;zh-tw:丹尼斯 ;zh-hk:丹尼士;"
+    },
+    {
+      "original": "del Potro",
+      "conv": "zh-cn:德尔波特罗; zh-tw:德爾波特羅; zh-hk:迪普祖;"
+    },
+    {
+      "original": "Depay",
+      "conv": "zh-hans:迪佩;zh-tw:德佩 ;zh-hk:迪比;"
+    },
+    {
+      "original": "Dessailly",
+      "conv": "zh-hans:德塞利; zh-tw:德塞利;zh-hk:迪西里;"
+    },
+    {
+      "original": "Deschamps",
+      "conv": "zh-hans:德尚; zh-tw:德尚;zh-hk:迪甘斯;"
+    },
+    {
+      "original": "Deutch",
+      "conv": "zh-cn:达奇;zh-tw:德區;zh-hk:德芝;"
+    },
+    {
+      "original": "Didier",
+      "conv": "zh-cn:迪迪埃; zh-tw:迪迪埃; zh-hk:迪迪亞;"
+    },
+    {
+      "original": "Diego",
+      "conv": "zh-cn:迭戈; zh-tw:迪亞哥; zh-hk:迪亞高;"
+    },
+    {
+      "original": "Diouf",
+      "conv": "zh-cn:迪乌夫; zh-tw:迪奧夫; zh-hk:迪奧夫;"
+    },
+    {
+      "original": "Dimon",
+      "conv": "zh-tw:戴蒙;zh-cn:戴蒙;zh-hk:戴文;"
+    },
+    {
+      "original": "Djibril",
+      "conv": "zh-cn:吉布里尔; zh-tw:迪布里勒; zh-hk:迪積比爾;"
+    },
+    {
+      "original": "Djokovic",
+      "conv": "zh-cn:德约科维奇;zh-hk:祖高域;zh-tw:喬科維奇;"
+    },
+    {
+      "original": "Djorkaeff",
+      "conv": "zh-cn:德约卡夫; zh-tw:德約卡夫; zh-hk:佐卡夫;"
+    },
+    {
+      "original": "Дмитрий (Dmitry)",
+      "conv": "zh-cn:德米特里; zh-tw:德米特里; zh-hk:德米特里;"
+    },
+    {
+      "original": "Dolberg",
+      "conv": "zh-cn:多贝治; zh-hk:杜貝治; zh-tw:多貝治"
+    },
+    {
+      "original": "Domenech",
+      "conv": "zh-cn:多梅内克; zh-hk:杜明尼治; zh-tw:多梅尼克"
+    },
+    {
+      "original": "Donal",
+      "conv": "zh-cn:多纳尔; zh-hk:當奴; zh-tw:多納爾"
+    },
+    {
+      "original": "Donald",
+      "conv": "zh-hant:唐納德; zh-hans:唐纳德; zh-cn:唐纳德; zh-hk:當奴; zh-mo:當勞; zh-tw:唐納; zh-sg:唐纳德;"
+    },
+    {
+      "original": "Drogba",
+      "conv": "zh-cn:德罗巴; zh-tw:德羅巴; zh-hk:杜奧巴;"
+    },
+    {
+      "original": "Durković",
+      "conv": "zh-cn:杜尔科维奇; zh-tw:杜科維奇; zh-hk:杜高域;"
+    },
+    {
+      "original": "Dustin",
+      "conv": "zh-cn:达斯汀; zh-tw:達斯汀; zh-hk:德斯汀;"
+    },
+    {
+      "original": "Dzyuba",
+      "conv": "zh-cn:迪斯尤巴; zh-tw:久巴; zh-hk:久巴;"
+    },
+    {
+      "original": "Eden",
+      "conv": "zh-hans:艾登;zh-hant:伊登;"
+    },
+    {
+      "original": "Edman",
+      "conv": "zh-hans:埃德曼;zh-tw:埃德曼;zh-hk:艾文;zh-sg:艾特文;"
+    },
+    {
+      "original": "Eduardo",
+      "conv": "zh-hans:埃杜阿尔多;zh-tw:愛德華多;zh-hk:艾杜亞度;"
+    },
+    {
+      "original": "El",
+      "conv": "zh-cn:埃尔;zh-tw:艾爾;zh-hk:艾爾;"
+    },
+    {
+      "original": "Elinor",
+      "conv": "zh-cn:埃莉诺;zh-tw:伊莉諾;zh-hk:伊莉諾;"
+    },
+    {
+      "original": "Elizabath",
+      "conv": "zh-cn:伊丽莎白;zh-tw:伊莉莎白;zh-hk:伊利沙伯;"
+    },
+    {
+      "original": "Elizabath",
+      "conv": "伊莉莎伯=>zh-cn:伊丽莎白;伊莉莎伯=>zh-my:伊丽莎白;伊莉莎伯=>zh-sg:伊丽莎白;伊莉莎伯=>zh-tw:伊莉莎白;伊莉莎伯=>zh-hk:伊利沙伯;伊莉莎伯=>zh-mo:伊利沙伯;"
+    },
+    {
+      "original": "Elizabath",
+      "conv": "伊利莎伯=>zh-cn:伊丽莎白;伊利莎伯=>zh-my:伊丽莎白;伊利莎伯=>zh-sg:伊丽莎白;伊利莎伯=>zh-tw:伊莉莎白;伊利莎伯=>zh-hk:伊利沙伯;伊利莎伯=>zh-mo:伊利沙伯;"
+    },
+    {
+      "original": "Elizabath",
+      "conv": "伊丽沙白=>zh-cn:伊丽莎白;伊丽沙白=>zh-cn:伊丽莎白;伊丽沙白=>zh-cn:伊丽莎白;伊丽沙白=>zh-tw:伊莉莎白;伊丽沙白=>zh-hk:伊利沙伯;伊丽沙白=>zh-mo:伊利沙伯;"
+    },
+    {
+      "original": "Emma",
+      "conv": "zh-cn:埃玛;zh-tw:艾瑪;zh-hk:愛瑪;zh-sg:艾玛;"
+    },
+    {
+      "original": "Emmanuel",
+      "conv": "zh-cn:埃马纽埃尔;zh-tw:艾曼紐;zh-hk:伊曼努爾;"
+    },
+    {
+      "original": "Emmanuel",
+      "conv": "埃馬紐埃爾=>zh-tw:艾曼紐;埃馬紐埃爾=>zh-hk:伊曼努爾;埃馬紐埃爾=>zh-hk:伊曼努爾;"
+    },
+    {
+      "original": "Emmanuel",
+      "conv": "伊曼紐=>zh-cn:埃马纽埃尔;伊曼紐=>zh-my:埃马纽埃尔;伊曼紐=>zh-sg:埃马纽埃尔;伊曼紐=>zh-tw:艾曼紐;"
+    },
+    {
+      "original": "Emmanuel",
+      "conv": "埃曼努尔=>zh-cn:埃马纽埃尔;埃曼努尔=>zh-my:埃马纽埃尔;埃曼努尔=>zh-sg:埃马纽埃尔;埃曼努尔=>zh-tw:艾曼紐;埃曼努尔=>zh-hk:伊曼努爾;埃曼努尔=>zh-mo:伊曼努爾;"
+    },
+    {
+      "original": "Enrique; Henrique(s)",
+      "conv": "zh-hk:殷理基;zh-mo:殷理基;zh-tw:恩里克;zh-cn:恩里克;"
+    },
+    {
+      "original": "Enrique; Henrique(s)",
+      "conv": "恩里克斯=>zh-hk:殷理基;恩里克斯=>zh-mo:殷理基;"
+    },
+    {
+      "original": "Enzo",
+      "conv": "zh-hans:恩佐;zh-tw:恩佐;zh-hk:安素;"
+    },
+    {
+      "original": "Erdogan",
+      "conv": "zh-cn:埃尔多安;zh-hk:埃爾多安;zh-tw:艾爾多安;"
+    },
+    {
+      "original": "Éric",
+      "conv": "zh-cn:埃里克;zh-tw:艾瑞克;"
+    },
+    {
+      "original": "Éric",
+      "conv": "埃里克=>zh-hk:艾力;埃里克=>zh-mo:艾力;"
+    },
+    {
+      "original": "Éric",
+      "conv": "艾瑞克=>zh-hk:艾力;艾瑞克=>zh-mo:艾力;"
+    },
+    {
+      "original": "Ernest",
+      "conv": "zh-cn:欧内斯特;zh-tw:厄尼斯特;zh-hk:歐内斯特;"
+    },
+    {
+      "original": "Erwin",
+      "conv": "zh-cn:埃尔温;zh-tw:埃爾溫;zh-hk:厄溫;"
+    },
+    {
+      "original": "Essien",
+      "conv": "zh-cn:埃辛;zh-tw:艾辛;zh-hk:艾辛;"
+    },
+    {
+      "original": "Eto'o",
+      "conv": "zh-cn:埃托奥;zh-tw:艾托奧;zh-hk:伊度奧;"
+    },
+    {
+      "original": "Eva",
+      "conv": "zh-tw:伊娃;zh-hk:愛娃;"
+    },
+    {
+      "original": "Fabiano",
+      "conv": "zh-cn:法比亚诺;zh-tw:法比亞諾;zh-hk:法比安奴;"
+    },
+    {
+      "original": "Fàbregas",
+      "conv": "zh-cn:法布雷加斯;zh-tw:法布雷加斯;zh-hk:法比加斯;"
+    },
+    {
+      "original": "Falcó",
+      "conv": "zh-cn:法尔孔;zh-tw:法爾肯;zh-hk:法爾肯;"
+    },
+    {
+      "original": "Fauci",
+      "conv": "zh-cn:福奇;zh-hans:弗契;zh-tw:弗契;zh-hk:弗契;"
+    },
+    {
+      "original": "Felipe; Filipe",
+      "conv": "費利佩=>zh-tw:菲利普;費利佩=>zh-hk:菲臘;費利佩=>zh-mo:菲臘;"
+    },
+    {
+      "original": "Felipe; Filipe",
+      "conv": "费利佩=>zh-tw:菲利普;费利佩=>zh-hk:菲臘;费利佩=>zh-mo:菲臘;"
+    },
+    {
+      "original": "Felipe; Filipe",
+      "conv": "菲利佩=>zh-tw:菲利普;菲利佩=>zh-hk:菲臘;菲利佩=>zh-mo:菲臘;"
+    },
+    {
+      "original": "Felix",
+      "conv": "zh-cn:费利克斯;zh-tw:菲利克斯;zh-hk:菲力士;"
+    },
+    {
+      "original": "Ferdinand",
+      "conv": "zh-cn:费迪南德;zh-tw:斐迪南;zh-hk:費迪南;"
+    },
+    {
+      "original": "Fernandes",
+      "conv": "zh-cn:费尔南德斯;zh-tw:費南德茲;zh-hk:費南迪斯;"
+    },
+    {
+      "original": "Fernando",
+      "conv": "zh-hans:费尔南多;zh-hant:費南度;"
+    },
+    {
+      "original": "Fernando",
+      "conv": "费南度=>zh-cn:费尔南多;费南度=>zh-my:费尔南多;费南度=>zh-sg:费尔南多;"
+    },
+    {
+      "original": "Fernando",
+      "conv": "費爾南多=>zh-hk:費南度;費爾南多=>zh-mo:費南度;費爾南多=>zh-tw:費南度;"
+    },
+    {
+      "original": "Fernando",
+      "conv": "费南多=>zh-cn:费尔南多;费南多=>zh-my:费尔南多;费南多=>zh-sg:费尔南多;费南多=>zh-hk:費南度;费南多=>zh-mo:費南度;费南多=>zh-tw:費南度;"
+    },
+    {
+      "original": "Fernando",
+      "conv": "費南多=>zh-cn:费尔南多;費南多=>zh-my:费尔南多;費南多=>zh-sg:费尔南多;費南多=>zh-hk:費南度;費南多=>zh-mo:費南度;費南多=>zh-tw:費南度;"
+    },
+    {
+      "original": "Figo",
+      "conv": "zh-cn:菲戈;zh-tw:菲戈;zh-hk:費高;"
+    },
+    {
+      "original": "Fischer",
+      "conv": "zh-cn:费舍尔;zh-tw:費雪;zh-hk:費沙;"
+    },
+    {
+      "original": "Florentino",
+      "conv": "zh-cn:弗洛伦蒂诺;zh-tw:佛倫提諾;zh-hk:費倫天奴;"
+    },
+    {
+      "original": "Florian",
+      "conv": "zh-cn:弗洛里安;zh-tw:佛洛里安;"
+    },
+    {
+      "original": "Fogel",
+      "conv": "zh-hk:科高;zh-cn:福格尔;zh-tw:福格;"
+    },
+    {
+      "original": "Fontaine",
+      "conv": "zh-cn:方丹;zh-tw:方丹;zh-hk:方亭;"
+    },
+    {
+      "original": "Fonte",
+      "conv": "zh-cn:丰特;zh-tw:馮特;zh-hk:方迪;"
+    },
+    {
+      "original": "Forbes",
+      "conv": "zh-cn:福布斯;zh-tw:富比士;zh-hk:福布斯;"
+    },
+    {
+      "original": "Fox",
+      "conv": "zh-cn:福克斯;zh-tw:福斯;zh-hk:霍士;zh-sg:福斯;"
+    },
+    {
+      "original": "Francis",
+      "conv": "zh-hans:弗朗西斯;zh-hant:法蘭西斯;"
+    },
+    {
+      "original": "Francisco",
+      "conv": "zh-hans:弗朗西斯科;zh-tw:法蘭西斯科;"
+    },
+    {
+      "original": "Franco",
+      "conv": "zh-cn:弗兰科;zh-tw:法蘭科;zh-hk:法蘭高;"
+    },
+    {
+      "original": "François",
+      "conv": "zh-hans:弗朗索瓦;zh-hant:法蘭索瓦;"
+    },
+    {
+      "original": "Frank",
+      "conv": "zh-hans:弗兰克;zh-hant:法蘭克;"
+    },
+    {
+      "original": "Frank",
+      "conv": "弗兰克=>zh-hk:法蘭;弗兰克=>zh-mo:法蘭;"
+    },
+    {
+      "original": "Frank",
+      "conv": "法蘭克=>zh-hk:法蘭;法蘭克=>zh-mo:法蘭;"
+    },
+    {
+      "original": "Franz",
+      "conv": "zh-cn:弗朗茨;zh-tw:法蘭茲; zh-hk:法蘭斯;"
+    },
+    {
+      "original": "Fraunhofer",
+      "conv": "zh-cn:弗劳恩霍费;zh-tw:弗朗霍夫;zh-hk:夫朗和斐;"
+    },
+    {
+      "original": "Fred",
+      "conv": "zh-cn:弗雷德;zh-tw:佛瑞德;zh-hk:費德;"
+    },
+    {
+      "original": "Frédéric; Frederic; Frederik",
+      "conv": "zh-cn:弗雷德里克;zh-tw:法雷迪;費德歷=>zh-hk:費德歷;"
+    },
+    {
+      "original": "Freddie",
+      "conv": "zh-cn:弗雷迪;zh-tw:佛萊迪;zh-hk:費迪;"
+    },
+    {
+      "original": "Frei",
+      "conv": "zh-cn:弗雷;zh-tw:佛雷;zh-hk:費爾;"
+    },
+    {
+      "original": "Friedman",
+      "conv": "zh-cn:弗里德曼; zh-tw:傅利曼; zh-hk:佛利民;"
+    },
+    {
+      "original": "Friedrich",
+      "conv": "zh-cn:弗里德里希; zh-tw:佛烈德利赫; zh-hk:腓特烈;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "zh-cn:弗里兹;zh-tw:弗瑞慈;zh-hk:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "弗里茲=>zh-tw:弗瑞慈;弗里茲=>zh-hk:費立茲;弗里茲=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "弗瑞茲=>zh-cn:弗里兹;弗瑞茲=>zh-my:弗里兹;弗瑞茲=>zh-sg:弗里兹;弗瑞茲=>zh-tw:弗瑞慈;弗瑞茲=>zh-hk:費立茲;弗瑞茲=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "弗瑞兹=>zh-cn:弗里兹;弗瑞兹=>zh-my:弗里兹;弗瑞兹=>zh-sg:弗里兹;弗瑞兹=>zh-tw:弗瑞慈;弗瑞兹=>zh-hk:費立茲;弗瑞兹=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "弗利茲=>zh-cn:弗里兹;弗利茲=>zh-my:弗里兹;弗利茲=>zh-sg:弗里兹;弗利茲=>zh-tw:弗瑞慈;弗利茲=>zh-hk:費立茲;弗利茲=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "弗利兹=>zh-cn:弗里兹;弗利兹=>zh-my:弗里兹;弗利兹=>zh-sg:弗里兹;弗利兹=>zh-tw:弗瑞慈;弗利兹=>zh-hk:費立茲;弗利兹=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "弗里茨=>zh-cn:弗里兹;弗里茨=>zh-my:弗里兹;弗里茨=>zh-sg:弗里兹;弗里茨=>zh-tw:弗瑞慈;弗里茨=>zh-hk:費立茲;弗里茨=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fritz",
+      "conv": "傅里茨=>zh-cn:弗里兹;傅里茨=>zh-my:弗里兹;傅里茨=>zh-sg:弗里兹;傅里茨=>zh-tw:弗瑞慈;傅里茨=>zh-hk:費立茲;傅里茨=>zh-mo:費立茲;"
+    },
+    {
+      "original": "Fry",
+      "conv": "zh-cn:弗莱;zh-hk:費亞;zh-tw:佛萊;"
+    },
+    {
+      "original": "Fucsovics",
+      "conv": "zh-cn:弗索维茨;zh-hant:福索維斯;"
+    },
+    {
+      "original": "Gábor; Gabor",
+      "conv": "zh-cn:加博尔; zh-tw:蓋博; zh-hk:嘉寶;"
+    },
+    {
+      "original": "Gallas",
+      "conv": "zh-cn:加拉斯; zh-tw:加拉斯; zh-hk:加拿斯; zh-sg:加拉塞"
+    },
+    {
+      "original": "Garfield",
+      "conv": "加菲尔德=>zh-hk:加菲;加菲爾德=>zh-hk:加菲;加菲尔德=>zh-mo:加菲;加菲爾德=>zh-mo:加菲;"
+    },
+    {
+      "original": "Gary",
+      "conv": "zh-cn:加里;zh-tw:蓋瑞;zh-hk:加利;"
+    },
+    {
+      "original": "Gaudí; Gaudi",
+      "conv": "zh-cn:高迪;zh-tw:高第;zh-hk:高迪;"
+    },
+    {
+      "original": "Gates",
+      "conv": "zh-cn:盖茨;zh-tw:蓋茲;zh-hk:蓋茨;"
+    },
+    {
+      "original": "Gazinsky",
+      "conv": "zh-cn:加济斯基;zh-tw:加濟斯基;zh-hk:加仙斯基;"
+    },
+    {
+      "original": "Gelson",
+      "conv": "zh-hans:热尔松;zh-tw:吉爾森;zh-hk:謝臣;"
+    },
+    {
+      "original": "George",
+      "conv": "zh-hans:乔治;zh-hk:佐治;zh-sg:乔治;zh-tw:喬治;zh-cn:乔治;"
+    },
+    {
+      "original": "Gibbs",
+      "conv": "zh-cn:吉布斯;zh-tw:吉布斯;zh-hk:傑斯;"
+    },
+    {
+      "original": "Gibbs",
+      "conv": "劫士=>zh-cn:吉布斯;劫士=>zh-my:吉布斯;劫士=>zh-sg:吉布斯;劫士=>zh-tw:吉布斯;"
+    },
+    {
+      "original": "Gibson",
+      "conv": "zh-cn:吉布森;zh-tw:吉勃遜;zh-hk:吉遜;"
+    },
+    {
+      "original": "Giménez",
+      "conv": "zh-cn:吉梅内斯; zh-tw:希梅内斯; zh-hk:基文尼斯;"
+    },
+    {
+      "original": "Giresse",
+      "conv": "zh-cn:吉雷瑟; zh-tw:吉雷瑟; zh-hk:居理斯;"
+    },
+    {
+      "original": "Giroud",
+      "conv": "zh-cn:吉鲁; zh-tw:吉魯; zh-hk:基奧特;"
+    },
+    {
+      "original": "Glenn",
+      "conv": "zh-cn:格伦; zh-tw:葛倫; zh-hk:格連;"
+    },
+    {
+      "original": "Горбачёв, Gorbachev",
+      "conv": "zh-cn:戈尔巴乔夫; zh-tw:戈巴契夫; zh-hk:戈巴卓夫;"
+    },
+    {
+      "original": "Gómez",
+      "conv": "zh-cn:戈麦斯; zh-tw:戈梅茲; zh-hk:高美斯;"
+    },
+    {
+      "original": "Gore",
+      "conv": "zh-cn:戈尔; zh-tw:高爾; zh-hk:戈爾;"
+    },
+    {
+      "original": "Golovin",
+      "conv": "zh-cn:戈洛温; zh-tw:格洛文; zh-hk:高路雲;"
+    },
+    {
+      "original": "Gottfried",
+      "conv": "zh-cn:戈特弗里德; zh-tw:哥特佛萊德; zh-hk:葛腓烈;"
+    },
+    {
+      "original": "Gourcuff",
+      "conv": "zh-cn:古尔库夫; zh-tw:古爾庫夫; zh-hk:哥古夫;"
+    },
+    {
+      "original": "Grace",
+      "conv": "zh-cn:格蕾丝; zh-tw:葛蕾絲; zh-hk:嘉麗絲;"
+    },
+    {
+      "original": "Gradel",
+      "conv": "zh-cn:格拉德尔; zh-tw:格拉德爾; zh-hk:格拉度;"
+    },
+    {
+      "original": "Greenaway",
+      "conv": "zh-cn:格林纳威; zh-tw:格林那威; zh-hk:格連納韋;"
+    },
+    {
+      "original": "Greenwald",
+      "conv": "zh-cn:格林沃尔德; zh-tw:葛林華德; zh-hk:格連韋特; zh-hant:格林華德;"
+    },
+    {
+      "original": "Grégory",
+      "conv": "zh-hans:格雷戈里; zh-tw:格列哥里; zh-hk:格哥利;"
+    },
+    {
+      "original": "Gropius",
+      "conv": "zh-hans:格罗皮乌斯; zh-hant:格羅佩斯; zh-tw:葛羅培斯; zh-hk:葛羅佩斯;"
+    },
+    {
+      "original": "Guerreiro",
+      "conv": "zh-cn:格雷罗; zh-tw:古埃雷羅; zh-hk:古里路;"
+    },
+    {
+      "original": "Guivarch",
+      "conv": "zh-cn:吉瓦什; zh-tw:吉瓦什; zh-hk:古華治;"
+    },
+    {
+      "original": "Gutenberg",
+      "conv": "zh-cn:古滕贝格; zh-tw:古騰堡; zh-hk:古騰堡;"
+    },
+    {
+      "original": "Hadji",
+      "conv": "zh-hans:哈吉; zh-tw:哈吉; zh-hk:哈積;"
+    },
+    {
+      "original": "Hall",
+      "conv": "zh-cn:霍尔; zh-tw:霍爾; zh-hk:賀爾;"
+    },
+    {
+      "original": "Hamilton",
+      "conv": "zh-hans:汉密尔顿; zh-tw:漢密頓; zh-hk:咸美頓;"
+    },
+    {
+      "original": "Hardwick",
+      "conv": "zh-hans:哈德维克; zh-tw:哈德威克; zh-hk:夏域; zh-hant:哈德維克;"
+    },
+    {
+      "original": "Harris",
+      "conv": "zh-cn:哈里斯; zh-tw:哈里斯; zh-hk:夏里斯;"
+    },
+    {
+      "original": "Harrison",
+      "conv": "zh-cn:哈里森; zh-tw:哈里遜; zh-hk:夏里遜;"
+    },
+    {
+      "original": "Harsányi",
+      "conv": "zh-cn:海萨尼; zh-tw:夏仙義; zh-hk:夏仙義;"
+    },
+    {
+      "original": "Händel; Handel",
+      "conv": "zh-cn:亨德尔; zh-tw:韓德爾; zh-hk:韓德爾;"
+    },
+    {
+      "original": "Hayek",
+      "conv": "zh-cn:哈耶克; zh-tw:海耶克; zh-hk:海耶克;"
+    },
+    {
+      "original": "Hazard",
+      "conv": "zh-cn:阿扎尔; zh-tw:阿扎爾; zh-hk:夏薩特;"
+    },
+    {
+      "original": "Heidegger",
+      "conv": "zh-hans:海德格尔;zh-hant:海德格;"
+    },
+    {
+      "original": "Herberger",
+      "conv": "zh-cn:赫尔贝格; zh-tw:赫爾貝格; zh-hk:希比加;"
+    },
+    {
+      "original": "Herbert",
+      "conv": "zh-cn:赫伯特;zh-tw:赫伯特;zh-hk:夏拔;"
+    },
+    {
+      "original": "Hernán",
+      "conv": "zh-cn:埃尔南; zh-tw:赫爾南; zh-hk:靴南;"
+    },
+    {
+      "original": "Herschel",
+      "conv": "zh-cn:赫歇尔; zh-tw:赫雪爾; zh-hk:赫歇爾;"
+    },
+    {
+      "original": "Highmore",
+      "conv": "zh-cn:海默;zh-tw:海默;zh-hk:夏摩亞;"
+    },
+    {
+      "original": "Highmore",
+      "conv": "海默爾=>zh-cn:海默;海默爾=>zh-my:海默;海默爾=>zh-sg:海默;海默爾=>zh-tw:海默;海默爾=>zh-hk:夏摩亞;海默爾=>zh-mo:夏摩亞;"
+    },
+    {
+      "original": "Highmore",
+      "conv": "海默尔=>zh-cn:海默;海默尔=>zh-my:海默;海默尔=>zh-sg:海默;海默尔=>zh-tw:海默;海默尔=>zh-hk:夏摩亞;海默尔=>zh-mo:夏摩亞;"
+    },
+    {
+      "original": "Hitler",
+      "conv": "zh-cn:希特勒; zh-tw:希特勒; zh-hk:希特拉;"
+    },
+    {
+      "original": "Hoffman",
+      "conv": "zh-cn:霍夫曼; zh-tw:霍夫曼; zh-hk:荷夫曼;"
+    },
+    {
+      "original": "Holmström",
+      "conv": "zh-cn:霍尔姆斯特伦; zh-hk:霍姆斯特龍; zh-tw:霍姆斯壯;"
+    },
+    {
+      "original": "Howard",
+      "conv": "zh-cn:霍华德; zh-tw:霍華德; zh-hk:侯活;"
+    },
+    {
+      "original": "Hillary",
+      "conv": "zh-cn:希拉里; zh-tw:希拉蕊; zh-hk:希拉里; zh-sg:希拉莉;"
+    },
+    {
+      "original": "Hollande",
+      "conv": "zh-hans:奥朗德; zh-tw:歐蘭德; zh-hk:奧朗德;"
+    },
+    {
+      "original": "Holly",
+      "conv": "zh-cn:霍利; zh-tw:荷莉; zh-hk:荷莉;"
+    },
+    {
+      "original": "Holmes",
+      "conv": "zh-cn:霍姆斯; zh-tw:荷姆斯; zh-hk:荷姆絲;"
+    },
+    {
+      "original": "Hoover",
+      "conv": "zh-cn:胡佛;zh-hk:賀夫;zh-tw:胡佛;"
+    },
+    {
+      "original": "Humphreys",
+      "conv": "zh-cn:亨弗雷斯; zh-tw:漢弗萊斯; zh-hk:堪富利士;"
+    },
+    {
+      "original": "Hunter",
+      "conv": "zh-cn:亨特; zh-tw:杭特; zh-hk:亨特;"
+    },
+    {
+      "original": "Hugo",
+      "conv": "zh-cn:雨果; zh-tw:雨果; zh-hk:曉高;"
+    },
+    {
+      "original": "حسین; (Al-)Hussein",
+      "conv": "zh-cn:侯赛因; zh-tw:海珊; zh-hk:侯賽因; zh-sg:胡申;"
+    },
+    {
+      "original": "Ingmar",
+      "conv": "zh-cn:英格玛; zh-hk:英瑪; zh-tw:英格瑪;"
+    },
+    {
+      "original": "Ingrid",
+      "conv": "zh-cn:英格丽; zh-tw:英格麗; zh-hk:英格麗;"
+    },
+    {
+      "original": "Ivan; Iván; Ioan; Иван",
+      "conv": "zh-hans:伊万; zh-hk:艾雲; zh-tw:伊萬;"
+    },
+    {
+      "original": "Ivanishin; Иванишин",
+      "conv": "zh-hans:伊万尼申; zh-hant:伊凡尼辛;"
+    },
+    {
+      "original": "Ivanka",
+      "conv": "zh-cn:伊万卡; zh-tw:伊凡卡; zh-hk:伊萬卡;"
+    },
+    {
+      "original": "Ive",
+      "conv": "zh-cn:埃维; zh-tw:伊夫; zh-hk:伊夫;"
+    },
+    {
+      "original": "Jacinto",
+      "conv": "zh-hk:夏先圖;zh-tw:哈辛托;zh-cn:哈辛托;"
+    },
+    {
+      "original": "Jacinto",
+      "conv": "zh-hk:乍先圖;zh-tw:賈辛托;zh-cn:贾辛托;"
+    },
+    {
+      "original": "Jacinto",
+      "conv": "贾希尼托=>zh-hk:乍先圖;贾希尼托=>zh-mo:乍先圖;贾希尼托=>zh-tw:賈辛托;"
+    },
+    {
+      "original": "Jack; Jake",
+      "conv": "zh-hans:杰克; zh-hant:傑克;"
+    },
+    {
+      "original": "Jack; Jake",
+      "conv": "杰克=>zh-hk:積; 傑克=>zh-hk:積; 杰克=>zh-mo:積; 傑克=>zh-mo:積;"
+    },
+    {
+      "original": "Jackson",
+      "conv": "zh-cn:杰克逊; zh-tw:傑克森; zh-hk:積遜;"
+    },
+    {
+      "original": "Jackson",
+      "conv": "傑克遜=>zh-tw:傑克森; 傑克遜=>zh-hk:積遜; 傑克遜=>zh-mo:積遜;"
+    },
+    {
+      "original": "Jacob",
+      "conv": "zh-hans:雅各布; zh-hant:雅各布;"
+    },
+    {
+      "original": "Jacob",
+      "conv": "雅各布=>zh-hk:雅各; 雅各布=>zh-mo:雅各;"
+    },
+    {
+      "original": "Jacqueline",
+      "conv": "zh-cn:杰奎琳; zh-tw:賈桂琳; zh-hk:積琪蓮;"
+    },
+    {
+      "original": "Jacques",
+      "conv": "zh-hans:雅克; zh-hant:積基斯;"
+    },
+    {
+      "original": "Jacques",
+      "conv": "雅克=>zh-tw:雅各; 積基斯=>zh-tw:雅各;"
+    },
+    {
+      "original": "Jacquet",
+      "conv": "zh-cn:雅凯; zh-tw:雅凱; zh-hk:積基特;"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆斯; zh-tw:詹姆士; zh-hk:占士;"
+    },
+    {
+      "original": "Jamie",
+      "conv": "zh-cn:杰米; zh-tw:傑米; zh-hk:謝美;"
+    },
+    {
+      "original": "Jane",
+      "conv": "zh-cn:·简·;zh-tw:·珍·;"
+    },
+    {
+      "original": "Jane",
+      "conv": "zh-cn:·简;zh-tw:·珍;"
+    },
+    {
+      "original": "Jane",
+      "conv": "zh-cn:简·;zh-tw:珍·;"
+    },
+    {
+      "original": "Janet; Janny",
+      "conv": "zh-cn:珍妮; zh-tw:珍娜; zh-hk:珍納;"
+    },
+    {
+      "original": "Jaruzelski",
+      "conv": "zh-cn:雅鲁泽尔斯基;zh-tw:賈魯塞斯基;zh-hk:扎魯謝斯基;"
+    },
+    {
+      "original": "Jean",
+      "conv": "zh-hans:·让·;zh-hant:·尚·;"
+    },
+    {
+      "original": "Jean",
+      "conv": "zh-hans:·让;zh-hant:·尚;"
+    },
+    {
+      "original": "Jean",
+      "conv": "zh-hans:让·;zh-hant:尚·;"
+    },
+    {
+      "original": "Jean-Paul Sartre",
+      "conv": "zh-cn:让-保罗·萨特; zh-tw:尚-保羅·沙特; zh-hk:尚-保羅·薩特;"
+    },
+    {
+      "original": "Jeff",
+      "conv": "zh-cn:杰夫; zh-tw:傑夫; zh-hk:謝夫;"
+    },
+    {
+      "original": "Jefferson",
+      "conv": "zh-cn:杰斐逊; zh-tw:傑佛遜; zh-hk:傑佛遜;"
+    },
+    {
+      "original": "Jeffrey; Jeffry; Jeffy; Jeffery; Geffrey",
+      "conv": "zh-cn:杰弗里; zh-tw:傑佛瑞; zh-hk:謝菲;"
+    },
+    {
+      "original": "Jenifer",
+      "conv": "zh-cn:珍妮弗; zh-tw:珍妮佛; zh-hk:珍妮花;"
+    },
+    {
+      "original": "Jeremy",
+      "conv": "zh-cn:杰里米; zh-tw:傑瑞米; zh-hk:謝洛美;"
+    },
+    {
+      "original": "Jermaine",
+      "conv": "zh-hans:杰梅因; zh-hk:謝美伊;"
+    },
+    {
+      "original": "Jerome",
+      "conv": "zh-cn:杰罗姆; zh-tw:傑洛姆; zh-hk:哲羅姆;"
+    },
+    {
+      "original": "Jesper",
+      "conv": "zh-cn:杰斯佩; zh-tw:傑斯佩; zh-hk:謝斯柏;"
+    },
+    {
+      "original": "Jessica",
+      "conv": "zh-cn:杰西卡;  zh-tw:潔西卡; zh-hk:謝茜嘉;"
+    },
+    {
+      "original": "Jill",
+      "conv": "zh-cn:吉尔;zh-tw:吉兒;zh-hk:吉爾;"
+    },
+    {
+      "original": "Jim",
+      "conv": "吉姆=>zh-hk:占;吉姆=>zh-mo:占;"
+    },
+    {
+      "original": "João",
+      "conv": "若昂=>zh-tw:約翰;若昂=>zh-hk:約翰;若昂=>zh-mo:約翰;"
+    },
+    {
+      "original": "Jimmy",
+      "conv": "zh-cn:吉米;zh-tw:吉米;zh-hk:占美;"
+    },
+    {
+      "original": "Jobs",
+      "conv": "zh-cn:乔布斯; zh-tw:賈伯斯; zh-hk:喬布斯;"
+    },
+    {
+      "original": "Johan",
+      "conv": "zh-cn:约翰; zh-tw:約翰; zh-hk:約翰;"
+    },
+    {
+      "original": "Johannes",
+      "conv": "zh-cn:约翰内斯; zh-tw:約翰尼斯; zh-hk:約翰內斯;"
+    },
+    {
+      "original": "John",
+      "conv": "约翰=>zh-hk:尊;約翰=>zh-hk:尊;"
+    },
+    {
+      "original": "Johnson",
+      "conv": "zh-cn:约翰逊; zh-tw:詹森; zh-hk:莊臣;"
+    },
+    {
+      "original": "Jonathan",
+      "conv": "zh-cn:乔纳森; zh-tw:強納生; zh-hk:莊拿芬;"
+    },
+    {
+      "original": "Jordan",
+      "conv": "zh-cn:乔丹;zh-tw:喬丹;zh-hk:佐敦;"
+    },
+    {
+      "original": "Joseph",
+      "conv": "zh-tw:約瑟;zh-cn:约瑟;zh-hk:祖瑟;"
+    },
+    {
+      "original": "Josh",
+      "conv": "zh-cn:约什; zh-tw:約什; zh-hk:祖殊;"
+    },
+    {
+      "original": "Joshua",
+      "conv": "zh-cn:约书亚; zh-tw:約書亞; zh-hk:約書亞;"
+    },
+    {
+      "original": "José",
+      "conv": "zh-cn:何塞;zh-tw:荷西;zh-hk:何西;zh-sg:荷西;"
+    },
+    {
+      "original": "José",
+      "conv": "zh-hans:若泽;zh-hant:若瑟;"
+    },
+    {
+      "original": "José",
+      "conv": "乔塞=>zh-cn:若泽;乔塞=>zh-my:若泽;乔塞=>zh-sg:若泽;乔塞=>zh-hk:若瑟;乔塞=>zh-mo:若瑟;乔塞=>zh-tw:若瑟;"
+    },
+    {
+      "original": "José",
+      "conv": "喬西=>zh-cn:若泽;喬西=>zh-my:若泽;喬西=>zh-sg:若泽;喬西=>zh-hk:若瑟;喬西=>zh-mo:若瑟;喬西=>zh-tw:若瑟;"
+    },
+    {
+      "original": "José",
+      "conv": "祖斯=>zh-cn:若泽;祖斯=>zh-my:若泽;祖斯=>zh-sg:若泽;祖斯=>zh-hk:若瑟;祖斯=>zh-mo:若瑟;祖斯=>zh-tw:若瑟;"
+    },
+    {
+      "original": "José",
+      "conv": "若澤=>zh-hk:若瑟;若澤=>zh-mo:若瑟;若澤=>zh-tw:若瑟;"
+    },
+    {
+      "original": "Juan",
+      "conv": "zh-cn:胡安;zh-tw:胡安;zh-hk:胡安;"
+    },
+    {
+      "original": "Juan",
+      "conv": "zh-cn:祖安;zh-tw:祖安;zh-hk:祖安;"
+    },
+    {
+      "original": "Jouffre",
+      "conv": "zh-cn:约弗尔; zh-tw:茹弗爾; zh-hk:祖費爾;"
+    },
+    {
+      "original": "Judd",
+      "conv": "zh-cn:贾德; zh-tw:賈德; zh-hk:祖艾;"
+    },
+    {
+      "original": "Julie",
+      "conv": "zh-cn:朱莉; zh-tw:茱莉; zh-hk:茱莉;"
+    },
+    {
+      "original": "Jurić",
+      "conv": "zh-cn:尤里奇; zh-tw:尤里奇; zh-hk:祖歷;"
+    },
+    {
+      "original": "Justin",
+      "conv": "zh-hans:贾斯汀;zh-hk:積斯甸;zh-tw:賈斯汀;"
+    },
+    {
+      "original": "Kahn",
+      "conv": "zh-cn:卡恩;zh-hk:簡尼;zh-tw:卡恩;"
+    },
+    {
+      "original": "Kahneman",
+      "conv": "zh-tw:康納曼; zh-cn:卡尼曼; zh-hk:加利曼;"
+    },
+    {
+      "original": "Kanouté",
+      "conv": "zh-cn:卡努特; zh-tw:卡努特; zh-hk:簡路迪;"
+    },
+    {
+      "original": "Karen",
+      "conv": "zh-cn:凯伦; zh-tw:凱倫; zh-hk:嘉倫;"
+    },
+    {
+      "original": "Karembeu",
+      "conv": "zh-cn:卡伦布; zh-tw:卡倫布; zh-hk:卡林保;"
+    },
+    {
+      "original": "Kasper",
+      "conv": "zh-cn:卡斯佩; zh-tw:卡斯佩; zh-hk:卡斯柏;"
+    },
+    {
+      "original": "Kathy",
+      "conv": "zh-cn:凯西; zh-tw:凱西; zh-hk:嘉菲;"
+    },
+    {
+      "original": "Kate",
+      "conv": "zh-cn:凯特; zh-tw:凱特; zh-hk:姬蒂;"
+    },
+    {
+      "original": "Katie; Katty",
+      "conv": "zh-cn:凯蒂; zh-tw:凱蒂; zh-hk:姬蒂;"
+    },
+    {
+      "original": "Kelly",
+      "conv": "zh-cn:凯利; zh-hk:基利; zh-tw:凱利;"
+    },
+    {
+      "original": "Kempes",
+      "conv": "zh-cn:肯佩斯; zh-tw:肯佩斯; zh-hk:甘巴斯;"
+    },
+    {
+      "original": "Kennedy",
+      "conv": "zh-cn:肯尼迪; zh-tw:甘迺迪; zh-hk:甘迺迪;"
+    },
+    {
+      "original": "Kevin",
+      "conv": "zh-cn:凯文; zh-tw:凱文; zh-hk:奇雲;"
+    },
+    {
+      "original": "Хрущёв (Khrusjtsjov)",
+      "conv": "zh-cn:赫鲁晓夫; zh-tw:赫魯雪夫; zh-hk:赫魯雪夫;"
+    },
+    {
+      "original": "Kidman",
+      "conv": "zh-cn:基德曼; zh-tw:基嫚; zh-hk:潔曼; zh-sg:基曼;"
+    },
+    {
+      "original": "Kissinger",
+      "conv": "zh-cn:基辛格; zh-tw:季辛吉; zh-hk:基辛格;"
+    },
+    {
+      "original": "Kjær",
+      "conv": "zh-cn:凯尔; zh-tw:克亞爾; zh-hk:卡積亞;"
+    },
+    {
+      "original": "Koke",
+      "conv": "zh-cn:科克; zh-tw:科克; zh-hk:高基;"
+    },
+    {
+      "original": "Krohn-Dehli",
+      "conv": "zh-cn:克罗恩-德利; zh-tw:克羅恩-德利; zh-hk:高朗達利;"
+    },
+    {
+      "original": "Krugman",
+      "conv": "zh-hans:克鲁格曼; zh-hk:克魯明; zh-tw:克魯曼;"
+    },
+    {
+      "original": "Landreau",
+      "conv": "zh-cn:朗德罗;zh-tw:朗德羅;zh-hk:蘭特奴;zh-mo:蘭度;"
+    },
+    {
+      "original": "Landsbergis",
+      "conv": "zh-cn:兰茨贝吉斯;zh-tw:藍斯柏吉斯;"
+    },
+    {
+      "original": "Landsbergis",
+      "conv": "藍茨伯基斯=>zh-cn:兰茨贝吉斯;藍茨伯基斯=>zh-my:兰茨贝吉斯;藍茨伯基斯=>zh-sg:兰茨贝吉斯;"
+    },
+    {
+      "original": "Larry",
+      "conv": "zh-cn:拉里; zh-tw:賴瑞; zh-hk:拉利; zh-my:拉里; zh-sg:拉里; 賴瑞=>zh-cn:拉里; 賴瑞=>zh-tw:賴利; 賴瑞=>zh-hk:拉利; 賴瑞=>zh-my:拉里; 賴瑞=>zh-sg:拉里"
+    },
+    {
+      "original": "Lasse",
+      "conv": "zh-cn:拉塞; zh-tw:拉塞; zh-hk:拿斯"
+    },
+    {
+      "original": "Laurence/Lawrence",
+      "conv": "zh-cn:劳伦斯; zh-tw:勞倫斯; zh-hk:羅倫士;"
+    },
+    {
+      "original": "Laurent",
+      "conv": "zh-cn:洛朗; zh-tw:洛朗; zh-hk:羅倫特;"
+    },
+    {
+      "original": "Lavoisier",
+      "conv": "zh-hans:拉瓦锡; zh-tw:拉瓦節; zh-hk:拉華斯;"
+    },
+    {
+      "original": "Lea",
+      "conv": "莉亞=>zh-cn:莉; 莉亞=>zh-hk:莉雅; 莉亞=>zh-tw:莉亞;"
+    },
+    {
+      "original": "Lea",
+      "conv": "莉雅=>zh-cn:莉; 莉雅=>zh-hk:莉雅; 莉雅=>zh-tw:莉亞;"
+    },
+    {
+      "original": "Leboeuf",
+      "conv": "zh-cn:勒伯夫; zh-tw:勒伯夫; zh-hk:拿保夫;"
+    },
+    {
+      "original": "Leibniz",
+      "conv": "zh-cn:莱布尼茨; zh-tw:萊布尼茲; zh-hk:萊布尼茨;"
+    },
+    {
+      "original": "Leonardo",
+      "conv": "里安納度=>zh-cn:莱昂纳多; 里安納度=>zh-tw:萊昂納多; 里安納度=>zh-hk:里安納度;"
+    },
+    {
+      "original": "Lieberman",
+      "conv": "zh-cn:利伯曼; zh-tw:李伯曼; zh-hk:利伯曼;"
+    },
+    {
+      "original": "Lineker",
+      "conv": "zh-cn:莱因克尔; zh-tw:萊因克爾; zh-hk:連尼加;"
+    },
+    {
+      "original": "Lizarazu",
+      "conv": "zh-hans:利扎拉祖; zh-tw:利扎拉祖; zh-hk:李沙拉素;"
+    },
+    {
+      "original": "Lloyd",
+      "conv": "zh-cn:劳埃德;zh-tw:勞埃德;zh-hk:勞萊;"
+    },
+    {
+      "original": "Lloyd",
+      "conv": "勞合=>zh-hk:勞萊"
+    },
+    {
+      "original": "Lloyd",
+      "conv": "劳合=>zh-hk:勞萊"
+    },
+    {
+      "original": "Lopes",
+      "conv": "羅培茲=>zh-cn:洛佩斯;羅培茲=>zh-my:洛佩斯;羅培茲=>zh-sg:洛佩斯;羅培茲=>zh-hk:盧比斯;羅培茲=>zh-mo:盧比斯;"
+    },
+    {
+      "original": "López",
+      "conv": "zh-cn:洛佩斯;zh-tw:洛佩斯;zh-hk:盧比斯;"
+    },
+    {
+      "original": "López",
+      "conv": "洛佩茲=>zh-hk:盧比斯;洛佩茲=>zh-mo:盧比斯;"
+    },
+    {
+      "original": "López",
+      "conv": "洛佩兹=>zh-hk:盧比斯;洛佩兹=>zh-mo:盧比斯;"
+    },
+    {
+      "original": "Lucas",
+      "conv": "zh-cn:卢卡斯; zh-tw:盧卡斯; zh-hk:魯卡斯;"
+    },
+    {
+      "original": "Лёша (Lyosha)",
+      "conv": "zh-cn:廖沙; zh-tw:盧夏; zh-hk:廖沙;"
+    },
+    {
+      "original": "MacArthur",
+      "conv": "zh-hans:麦克阿瑟; zh-hant:麥克阿瑟; zh-hk:麥克阿瑟;"
+    },
+    {
+      "original": "Macdonald",
+      "conv": "zh-hans:麦克唐纳; zh-hant:麥克唐納; zh-hk:麥當勞;"
+    },
+    {
+      "original": "MacPherson",
+      "conv": "zh-cn:麦弗逊; zh-hk:麥花臣; zh-tw:麥弗遜;"
+    },
+    {
+      "original": "Macron",
+      "conv": "zh-cn:马克龙; zh-hk:馬克龍; zh-tw:馬克宏;"
+    },
+    {
+      "original": "Makélélé",
+      "conv": "zh-cn:马克莱莱; zh-hk:馬基利尼; zh-tw:馬克萊萊;"
+    },
+    {
+      "original": "Malcolm",
+      "conv": "zh-cn:马尔科姆; zh-hk:馬爾甘; zh-tw:馬爾科姆;"
+    },
+    {
+      "original": "Mandanda",
+      "conv": "zh-cn:曼丹达; zh-tw:曼丹達; zh-hk:文丹達; zh-sg:芒當達;"
+    },
+    {
+      "original": "Mandelson",
+      "conv": "zh-cn:曼德尔森;zh-tw:曼德森;zh-hk:文德森; zh-sg:曼德尔森;"
+    },
+    {
+      "original": "Manny",
+      "conv": "zh-cn:曼尼;zh-tw:曼尼;zh-hk:文尼;zh-mo:曼尼;"
+    },
+    {
+      "original": "Manny",
+      "conv": "梅尼=>zh-cn:曼尼;梅尼=>zh-my:曼尼;梅尼=>zh-sg:曼尼;梅尼=>zh-tw:曼尼;梅尼=>zh-hk:文尼;梅尼=>zh-mo:曼尼;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "zh-cn:曼努埃尔;zh-hk:文路爾;zh-mo:曼紐;zh-tw:曼紐;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼努埃爾=>zh-hk:文路爾;曼努埃爾=>zh-mo:曼紐;曼努埃爾=>zh-tw:曼紐;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼纽埃尔=>zh-hk:文路爾;曼纽埃尔=>zh-mo:曼紐;曼纽埃尔=>zh-tw:曼紐;曼纽埃尔=>zh-cn:曼努埃尔;曼纽埃尔=>zh-my:曼努埃尔;曼纽埃尔=>zh-sg:曼努埃尔;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼紐埃爾=>zh-hk:文路爾;曼紐埃爾=>zh-mo:曼紐;曼紐埃爾=>zh-tw:曼紐;曼紐埃爾=>zh-cn:曼努埃尔;曼紐埃爾=>zh-my:曼努埃尔;曼紐埃爾=>zh-sg:曼努埃尔;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼努尔=>zh-hk:文路爾;曼努尔=>zh-mo:曼紐;曼努尔=>zh-tw:曼紐;曼努尔=>zh-cn:曼努埃尔;曼努尔=>zh-my:曼努埃尔;曼努尔=>zh-sg:曼努埃尔;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼努爾=>zh-hk:文路爾;曼努爾=>zh-mo:曼紐;曼努爾=>zh-tw:曼紐;曼努爾=>zh-cn:曼努埃尔;曼努爾=>zh-my:曼努埃尔;曼努爾=>zh-sg:曼努埃尔;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼纽尔=>zh-hk:文路爾;曼纽尔=>zh-mo:曼紐;曼纽尔=>zh-tw:曼紐;曼纽尔=>zh-cn:曼努埃尔;曼纽尔=>zh-my:曼努埃尔;曼纽尔=>zh-sg:曼努埃尔;"
+    },
+    {
+      "original": "Manuel",
+      "conv": "曼紐爾=>zh-hk:文路爾;曼紐爾=>zh-mo:曼紐;曼紐爾=>zh-tw:曼紐;曼紐爾=>zh-cn:曼努埃尔;曼紐爾=>zh-my:曼努埃尔;曼紐爾=>zh-sg:曼努埃尔;"
+    },
+    {
+      "original": "Mapother",
+      "conv": "zh-cn:马波瑟; zh-hk:梅波瑟; zh-tw:馬波瑟;"
+    },
+    {
+      "original": "Maradona",
+      "conv": "zh-cn:马拉多纳;zh-hk:馬勒當拿; zh-tw:馬拉度納;"
+    },
+    {
+      "original": "Margaret",
+      "conv": "zh-cn:玛格丽特; zh-tw:瑪格麗特; zh-hk:瑪嘉烈; zh-sg:玛格丽特;"
+    },
+    {
+      "original": "Martín; Martin; Matin",
+      "conv": "zh-tw:馬丁; zh-cn:马丁; zh-hk:馬田;"
+    },
+    {
+      "original": "Martins",
+      "conv": "zh-tw:馬丁斯; zh-cn:马丁斯; zh-hk:馬田斯;"
+    },
+    {
+      "original": "Maslow ",
+      "conv": "zh-tw:馬斯洛; zh-cn:马斯洛; zh-hk:馬思勞;"
+    },
+    {
+      "original": "Matthew",
+      "conv": "zh-tw:馬修; zh-cn:马修; zh-hk:馬菲;"
+    },
+    {
+      "original": "Mauro",
+      "conv": "zh-cn:毛罗; zh-tw:毛羅; zh-hk:慕洛;"
+    },
+    {
+      "original": "Maxi",
+      "conv": "zh-cn:马克西; zh-tw:馬克西; zh-hk:麥斯;"
+    },
+    {
+      "original": "Maxwell",
+      "conv": "zh-tw:麥斯威爾;zh-cn:马克斯韦尔;zh-hk:麥士威;zh-sg:麦士威;zh-hant:馬克斯韋爾;"
+    },
+    {
+      "original": "Maxwell",
+      "conv": "zh-cn:麦克斯韦;zh-hant:馬克士威;"
+    },
+    {
+      "original": "Mbappé ",
+      "conv": "zh-tw:姆巴佩; zh-cn:姆巴佩; zh-hk:麥巴比;"
+    },
+    {
+      "original": "Mboma",
+      "conv": "zh-cn:姆博马; zh-tw:姆博馬; zh-hk:麥保馬;"
+    },
+    {
+      "original": "Медведев; Medvedev",
+      "conv": "zh-cn:梅德韦杰夫;zh-tw:麥德維夫; zh-hk:梅德韋傑夫;"
+    },
+    {
+      "original": "Meadows",
+      "conv": "zh-cn:梅多斯; zh-tw:米道斯;"
+    },
+    {
+      "original": "Megan",
+      "conv": "zh-cn:梅根; zh-tw:梅根; zh-hk:美瑾;"
+    },
+    {
+      "original": "مهران ; Mehran",
+      "conv": "zh-cn:梅赫兰; zh-tw:梅赫蘭; zh-hk:梅朗;"
+    },
+    {
+      "original": "Mel",
+      "conv": "zh-cn:梅尔; zh-tw:梅爾; zh-hk:米路;"
+    },
+    {
+      "original": "Melania/Melanija",
+      "conv": "zh-cn:梅拉尼娅;zh-hk:梅拉尼亞;zh-tw:梅蘭妮亞;"
+    },
+    {
+      "original": "Melinda",
+      "conv": "zh-cn:美琳达; zh-tw:梅琳達; zh-hk:美蓮達;"
+    },
+    {
+      "original": "Merkel",
+      "conv": "zh-cn:默克尔;zh-hk:默克爾;zh-tw:梅克爾;"
+    },
+    {
+      "original": "Meyers",
+      "conv": "zh-cn:迈耶斯;zh-tw:梅爾斯;zh-hk:美雅絲;"
+    },
+    {
+      "original": "Michael",
+      "conv": "zh-cn:迈克尔; zh-tw:麥可; zh-hk:米高;"
+    },
+    {
+      "original": "Michael",
+      "conv": "迈克尔=>zh-sg:麦克;"
+    },
+    {
+      "original": "Michael",
+      "conv": "麥可=>zh-sg:麦克;"
+    },
+    {
+      "original": "Michael",
+      "conv": "米高=>zh-sg:麦克;"
+    },
+    {
+      "original": "Michelangelo",
+      "conv": "zh-cn:米开朗基罗; zh-tw:米開朗基羅; zh-hk:米高安哲羅;"
+    },
+    {
+      "original": "Michelle",
+      "conv": "zh-cn:米歇尔;zh-tw:蜜雪兒;zh-hk:米歇爾;"
+    },
+    {
+      "original": "Mickaël",
+      "conv": "zh-cn:米卡埃尔; zh-tw:米克亞爾; zh-hk:米凱爾;"
+    },
+    {
+      "original": "Micoud",
+      "conv": "zh-cn:米库; zh-tw:米庫; zh-hk:麥哥特;"
+    },
+    {
+      "original": "Mikoyan",
+      "conv": "zh-cn:米高扬; zh-tw:米高揚; zh-hk:米高揚;"
+    },
+    {
+      "original": "Mill",
+      "conv": "zh-cn:密尔;zh-hk:米爾;zh-tw:彌爾;"
+    },
+    {
+      "original": "Miller",
+      "conv": "zh-cn:米拉;zh-hk:米拿;zh-tw:米勒;"
+    },
+    {
+      "original": "Mithridates",
+      "conv": "zh-hant:米特里達梯;zh-hans:米特里达梯;"
+    },
+    {
+      "original": "Moldovan",
+      "conv": "zh-cn:摩尔多万; zh-hk:摩杜雲; zh-tw:莫爾多萬;"
+    },
+    {
+      "original": "Moresby",
+      "conv": "zh-cn:莫尔斯比;zh-hk:莫士比;zh-tw:摩斯比;"
+    },
+    {
+      "original": "Moresby",
+      "conv": "莫尔兹比=>zh-cn:莫尔斯比;莫尔兹比=>zh-my:莫尔斯比;莫尔兹比=>zh-sg:莫尔斯比;莫尔兹比=>zh-hk:莫士比;莫尔兹比=>zh-mo:莫士比;莫尔兹比=>zh-tw:摩斯比;"
+    },
+    {
+      "original": "مرسي; Morsi",
+      "conv": "zh-cn:穆尔西; zh-tw:穆希; zh-hk:穆爾西;"
+    },
+    {
+      "original": "Motlanthe",
+      "conv": "zh-hans:莫特兰蒂; zh-hant:莫特蘭蒂; zh-tw:莫特蘭德"
+    },
+    {
+      "original": "Mozart",
+      "conv": "zh-cn:莫扎特; zh-tw:莫札特; zh-hk:莫扎特;"
+    },
+    {
+      "original": "Mundell",
+      "conv": "zh-tw:孟岱爾; zh-cn:蒙代尔; zh-hk:蒙道;"
+    },
+    {
+      "original": "Müller",
+      "conv": "zh-cn:穆勒; zh-tw:穆勒; zh-hk:梅拿;"
+    },
+    {
+      "original": "Müller",
+      "conv": "zh-cn:米勒; zh-tw:穆勒;"
+    },
+    {
+      "original": "Murphey; Murphy",
+      "conv": "zh-tw:墨非;zh-hk:墨菲;zh-cn:墨菲;"
+    },
+    {
+      "original": "Murphey; Murphy",
+      "conv": "摩菲=>zh-tw:墨非;摩菲=>zh-hk:墨菲;摩菲=>zh-mo:墨菲;摩菲=>zh-cn:墨菲;摩菲=>zh-my:墨菲;摩菲=>zh-sg:墨菲;"
+    },
+    {
+      "original": "Myron",
+      "conv": "zh-cn:迈伦;zh-tw:麥倫;zh-hk:邁倫;"
+    },
+    {
+      "original": "Nabil",
+      "conv": "zh-cn:纳比勒;zh-hant:納比爾;zh-tw:納比勒; zh-hk:納貝爾;"
+    },
+    {
+      "original": "Nacho",
+      "conv": "zh-cn:纳乔; zh-tw:納丘; zh-hk:拿祖;"
+    },
+    {
+      "original": "Nancy",
+      "conv": "zh-cn:南茜;zh-hk:蘭茜;zh-tw:南希;"
+    },
+    {
+      "original": "Nash",
+      "conv": "zh-hans:纳什; zh-hk:納殊; zh-tw:奈許;"
+    },
+    {
+      "original": "ناصری ; Nasseri",
+      "conv": "zh-cn:纳赛里;zh-tw:納賽里;zh-hk:羅瑞利;"
+    },
+    {
+      "original": "Nicholas",
+      "conv": "zh-cn:尼古拉斯; zh-tw:尼可拉斯; zh-hk:尼古拉斯;"
+    },
+    {
+      "original": "Nicole",
+      "conv": "zh-cn:妮可; zh-hk:妮歌; zh-tw:妮可; zh-sg:妮可;"
+    },
+    {
+      "original": "Nixon",
+      "conv": "zh-cn:尼克松; zh-tw:尼克森; zh-hk:尼克遜; zh-sg:尼逊;"
+    },
+    {
+      "original": "Nobel",
+      "conv": "zh-cn:诺贝尔; zh-tw:諾貝爾; zh-hk:諾貝爾;"
+    },
+    {
+      "original": "Néstor",
+      "conv": "zh-cn:内斯托尔; zh-tw:內斯托爾; zh-hk:尼斯高;"
+    },
+    {
+      "original": "Obama",
+      "conv": "zh-cn:奥巴马; zh-tw:歐巴馬; zh-hk:奧巴馬;"
+    },
+    {
+      "original": "Oliver",
+      "conv": "zh-cn:奥利弗; zh-tw:奧立佛; zh-hk:奧利華; zh-sg:奥立弗;"
+    },
+    {
+      "original": "Olivier",
+      "conv": "zh-cn:奥利韦尔; zh-hk:奧利華; zh-tw:奧利弗;"
+    },
+    {
+      "original": "Olsen",
+      "conv": "zh-cn:奥尔森; zh-hk:奧臣; zh-tw:奧爾森;"
+    },
+    {
+      "original": "Orlando",
+      "conv": "zh-cn:奥兰多; zh-hk:奧蘭度; zh-tw:奧蘭多;"
+    },
+    {
+      "original": "Osama",
+      "conv": "zh-tw:奧薩瑪; zh-hk:奧薩馬; zh-cn:奥萨马; zh-sg:奥萨马;"
+    },
+    {
+      "original": "Osmān",
+      "conv": "zh-cn:奥斯曼; zh-tw:鄂圖曼; zh-hk:奧斯曼;"
+    },
+    {
+      "original": "Ostrom",
+      "conv": "zh-cn:奥斯特罗姆; zh-tw:歐斯壯; zh-hk:奧斯壯;"
+    },
+    {
+      "original": "Otellinii",
+      "conv": "zh-cn:奥特利尼; zh-tw:歐德寧;"
+    },
+    {
+      "original": "Ousmane",
+      "conv": "奧士文尼=>zh-hans:奥斯曼; 奧士文尼=>zh-hk:奧士文尼; 奧士文尼=>zh-tw:奧斯曼;"
+    },
+    {
+      "original": "Pablo",
+      "conv": "zh-cn:巴勃罗; zh-tw:巴布羅; zh-hk:柏保路;"
+    },
+    {
+      "original": "Papin",
+      "conv": "zh-hans:帕潘; zh-tw:帕潘; zh-hk:柏賓;"
+    },
+    {
+      "original": "Paris",
+      "conv": "zh-cn:帕丽斯; zh-tw:芭黎絲; zh-hk:芭麗絲;"
+    },
+    {
+      "original": "Patrick",
+      "conv": "zh-cn:帕特里克; zh-tw:派屈克; zh-hk:柏德烈; zh-mo:柏特歷;"
+    },
+    {
+      "original": "Pascal",
+      "conv": "zh-cn:帕斯卡尔; zh-tw:帕斯卡; zh-hk:帕斯卡;"
+    },
+    {
+      "original": "Pauleta",
+      "conv": "zh-cn:保萊塔; zh-tw:保萊塔; zh-hk:保連達;"
+    },
+    {
+      "original": "Payne",
+      "conv": "佩恩=>zh-hk:披"
+    },
+    {
+      "original": "Pedro",
+      "conv": "zh-cn:佩德罗;zh-hk:佩德羅;zh-tw:貝德羅;"
+    },
+    {
+      "original": "Peebles",
+      "conv": "zh-cn:皮布尔斯; zh-tw:皮博斯"
+    },
+    {
+      "original": "Pellegrini",
+      "conv": "zh-hans:佩莱格里尼;zh-hk:柏歷堅尼;zh-tw:佩萊格里尼;"
+    },
+    {
+      "original": "Penélope",
+      "conv": "zh-cn:佩内洛普; zh-tw:潘妮洛普; zh-hk:彭妮露;"
+    },
+    {
+      "original": "Perón",
+      "conv": "zh-cn:庇隆; zh-tw:裴隆; zh-hk:貝隆;"
+    },
+    {
+      "original": "Pereira",
+      "conv": "zh-cn:佩雷拉; zh-tw:佩雷拉; zh-hk:彭利拿;"
+    },
+    {
+      "original": "Peter; Pete; Пётр",
+      "conv": "彼德=>zh-cn:彼得;彼德=>zh-my:彼得;彼德=>zh-sg:彼得;彼德=>zh-tw:彼得;彼德=>zh-hk:彼得;彼德=>zh-mo:彼得;"
+    },
+    {
+      "original": "Peter; Pete; Пётр",
+      "conv": "皮特=>zh-cn:彼得;皮特=>zh-my:彼得;皮特=>zh-sg:彼得;皮特=>zh-tw:彼得;皮特=>zh-hk:彼得;皮特=>zh-mo:彼得;"
+    },
+    {
+      "original": "Peter; Pete; Пётр",
+      "conv": "彼特=>zh-cn:彼得;彼特=>zh-my:彼得;彼特=>zh-sg:彼得;彼特=>zh-tw:彼得;彼特=>zh-hk:彼得;彼特=>zh-mo:彼得;"
+    },
+    {
+      "original": "Petratos",
+      "conv": "zh-cn:佩特拉托斯; zh-tw:柏特拉圖斯; zh-hk:柏拉杜斯;"
+    },
+    {
+      "original": "Philip",
+      "conv": "zh-cn:菲利普; zh-tw:菲利普; zh-hk:菲臘; zh-sg:菲利普;"
+    },
+    {
+      "original": "Pierce",
+      "conv": "zh-cn:皮尔斯; zh-tw:皮爾斯; zh-hk:皮雅斯;"
+    },
+    {
+      "original": "Pierre",
+      "conv": "zh-hans:皮埃尔; zh-hant:皮耶;"
+    },
+    {
+      "original": "Piquionne",
+      "conv": "zh-hans:皮奎昂尼; zh-tw:皮奎昂尼; zh-hk:比基安尼;"
+    },
+    {
+      "original": "Pitana",
+      "conv": "zh-cn:皮塔纳; zh-tw:比塔納; zh-hk:比達拿;"
+    },
+    {
+      "original": "Поклонская; Poklonskaya",
+      "conv": "zh-cn:波克隆斯卡娅; zh-tw:波克隆斯卡亞;"
+    },
+    {
+      "original": "Powell",
+      "conv": "zh-cn:鲍威尔; zh-hant:鮑威爾; zh-tw:鮑爾; zh-sg:鲍威尔; zh-hk:鮑爾; zh-mo:鮑爾;"
+    },
+    {
+      "original": "Pretorius",
+      "conv": "zh-cn:比勒陀利乌斯; zh-tw:普利托利奧斯; zh-hk:比勒陀利烏斯;"
+    },
+    {
+      "original": "Proudhon",
+      "conv": "zh-hans:蒲鲁东; zh-hant:普魯東;"
+    },
+    {
+      "original": "Psaki",
+      "conv": "zh-cn:普萨基; zh-tw:莎琪; zh-hk:普薩基;"
+    },
+    {
+      "original": "Путин; Putin",
+      "conv": "zh-cn:普京; zh-tw:普丁; zh-hk:普京;"
+    },
+    {
+      "original": "القَذَّافِي; Al-Gaddafi",
+      "conv": "zh-cn:卡扎菲; zh-tw:格達費; zh-hk:卡達菲; zh-sg:卡达菲;"
+    },
+    {
+      "original": "Rachel",
+      "conv": "zh-cn:蕾切尔; zh-tw:瑞秋; zh-hk:麗素;"
+    },
+    {
+      "original": "Рахма́нинов; Rachmaninoff",
+      "conv": "zh-hans:拉赫玛尼诺夫; zh-hant:拉赫曼尼諾夫;"
+    },
+    {
+      "original": "Ramaphosa",
+      "conv": "zh-hans:拉马福萨; zh-hant:拉馬福薩; zh-tw:拉瑪佛沙"
+    },
+    {
+      "original": "Ramos",
+      "conv": "zh-cn:拉蒙斯; zh-tw:拉蒙斯; zh-hk:拉莫斯;"
+    },
+    {
+      "original": "Randolph",
+      "conv": "zh-cn:兰道夫; zh-tw:藍道夫; zh-hk:蘭道夫"
+    },
+    {
+      "original": "Ranieri",
+      "conv": "zh-hans:拉涅利; zh-tw:拉涅利; zh-hk:雲尼亞里;"
+    },
+    {
+      "original": "Randy",
+      "conv": "zh-cn:兰迪; zh-tw:藍迪; zh-hk:蘭迪; zh-mo:蘭迪;"
+    },
+    {
+      "original": "Reagan",
+      "conv": "zh-cn:里根; zh-tw:雷根; zh-hk:列根;"
+    },
+    {
+      "original": "Rep",
+      "conv": "zh-cn:雷普; zh-tw:雷普; zh-hk:立普;"
+    },
+    {
+      "original": "Réveillère",
+      "conv": "zh-cn:雷维耶; zh-tw:雷維耶; zh-hk:李維利尼;"
+    },
+    {
+      "original": "Ricardinho",
+      "conv": "zh-hans:里卡迪尼奥; zh-tw:里卡迪尼奧; zh-hk:列卡甸奴;"
+    },
+    {
+      "original": "Ricardo",
+      "conv": "zh-cn:里卡多; zh-tw:里卡多; zh-hk:列卡度;"
+    },
+    {
+      "original": "Richard",
+      "conv": "zh-cn:理查德;zh-tw:理察;zh-hk:李察;zh-sg:理查特;"
+    },
+    {
+      "original": "Richard",
+      "conv": "理查=>zh-cn:理查德;理查=>zh-tw:理察;理查=>zh-hk:李察;理查=>zh-mo:李察;理查=>zh-my:理查特;理查=>zh-sg:理查特;"
+    },
+    {
+      "original": "Richelieu",
+      "conv": "zh-hans:黎塞留;zh-hant:黎希留;"
+    },
+    {
+      "original": "Richelieu",
+      "conv": "黎胥留=>zh-cn:黎塞留;黎胥留=>zh-my:黎塞留;黎胥留=>zh-sg:黎塞留;黎胥留=>zh-hk:黎希留;黎胥留=>zh-mo:黎希留;黎胥留=>zh-tw:黎希留;"
+    },
+    {
+      "original": "Richelieu",
+      "conv": "黎須留=>zh-cn:黎塞留;黎須留=>zh-my:黎塞留;黎須留=>zh-sg:黎塞留;黎須留=>zh-hk:黎希留;黎須留=>zh-mo:黎希留;黎須留=>zh-tw:黎希留;"
+    },
+    {
+      "original": "Richelieu",
+      "conv": "黎须留=>zh-cn:黎塞留;黎须留=>zh-my:黎塞留;黎须留=>zh-sg:黎塞留;黎须留=>zh-hk:黎希留;黎须留=>zh-mo:黎希留;黎须留=>zh-tw:黎希留;"
+    },
+    {
+      "original": "Risdon",
+      "conv": "zh-cn:里斯顿; zh-tw:里斯頓; zh-hk:列斯頓;"
+    },
+    {
+      "original": "Robert",
+      "conv": "zh-hans:罗伯特; zh-hant:羅伯特; zh-tw:勞勃; zh-hk:羅拔;"
+    },
+    {
+      "original": "Roberson",
+      "conv": "zh-cn:罗伯森; zh-tw:勞勃森; zh-hk:羅拔臣;"
+    },
+    {
+      "original": "Roberto",
+      "conv": "zh-cn:罗伯托; zh-tw:羅貝多; zh-hk:羅拔圖;"
+    },
+    {
+      "original": "Roberts",
+      "conv": "zh-cn:罗伯斯; zh-tw:勞勃斯; zh-hk:羅拔斯;"
+    },
+    {
+      "original": "Robson",
+      "conv": "zh-cn:罗布森; zh-tw:羅布森; zh-hk:笠臣;"
+    },
+    {
+      "original": "Rocheteau",
+      "conv": "zh-cn:罗歇托; zh-tw:羅歇托; zh-hk:洛捷圖;"
+    },
+    {
+      "original": "Rodham",
+      "conv": "zh-cn:罗德姆; zh-tw:羅得漢; zh-hk:洛咸;"
+    },
+    {
+      "original": "Rodríguez",
+      "conv": "zh-cn:罗德里格斯; zh-tw:羅德里奎茲; zh-hk:洛迪古斯;"
+    },
+    {
+      "original": "Roger",
+      "conv": "zh-cn:罗杰; zh-tw:羅傑; zh-hk:羅渣;"
+    },
+    {
+      "original": "Romer",
+      "conv": "zh-cn:罗默; zh-hk:羅默; zh-tw:羅莫;"
+    },
+    {
+      "original": "Romero",
+      "conv": "zh-cn:罗梅罗; zh-tw:羅梅洛; zh-hk:羅米路;"
+    },
+    {
+      "original": "Ronald",
+      "conv": "zh-cn:罗纳德; zh-tw:隆納; zh-hk:朗奴;"
+    },
+    {
+      "original": "Ronalda",
+      "conv": "zh-cn:罗纳达; zh-hk:朗娜達;"
+    },
+    {
+      "original": "Ronaldinho",
+      "conv": "zh-cn:罗纳尔迪尼奥; zh-tw:羅納汀荷; zh-hk:朗拿甸奴;"
+    },
+    {
+      "original": "Ronaldo",
+      "conv": "zh-cn:罗纳尔多; zh-tw:羅納度; zh-hk:朗拿度;"
+    },
+    {
+      "original": "Rowan",
+      "conv": "zh-cn:罗温; zh-hk:路雲; zh-tw:羅溫;"
+    },
+    {
+      "original": "Royal",
+      "conv": "zh-cn:罗亚尔;zh-hk:羅亞爾;zh-tw:賀雅爾;"
+    },
+    {
+      "original": "Saddam",
+      "conv": "zh-cn:萨达姆; zh-tw:薩達姆; zh-hk:薩達姆; zh-sg:萨达姆;"
+    },
+    {
+      "original": "Saddam Hussein",
+      "conv": "zh-cn:萨达姆·侯赛因; zh-tw:薩達姆·海珊; zh-hk:薩達姆·侯賽因; zh-sg:萨达姆·胡申;"
+    },
+    {
+      "original": "Sagnol",
+      "conv": "zh-cn:萨尼奥尔; zh-tw:薩尼奧爾; zh-hk:沙洛;"
+    },
+    {
+      "original": "Samuel",
+      "conv": "zh-cn:塞缪尔; zh-tw:山繆; zh-hk:森姆;"
+    },
+    {
+      "original": "Samuelson",
+      "conv": "zh-cn:萨缪尔森; zh-tw:薩繆森; zh-hk:森穆遜;"
+    },
+    {
+      "original": "Saint Patrick",
+      "conv": "zh-cn:圣帕特里克; zh-tw:聖派翠克; zh-hk:聖柏德歷"
+    },
+    {
+      "original": "Santini",
+      "conv": "zh-cn:桑蒂尼; zh-tw:桑蒂尼; zh-hk:辛天尼;"
+    },
+    {
+      "original": "Sarkozy",
+      "conv": "zh-cn:萨科齐; zh-hk:薩科齊; zh-tw:薩科吉;"
+    },
+    {
+      "original": "Saveljić",
+      "conv": "zh-cn:萨维利奇; zh-tw:薩維利奇; zh-hk:沙維積;"
+    },
+    {
+      "original": "Scholz",
+      "conv": "zh-cn:朔尔茨; zh-tw:蕭茲; zh-hk:朔爾茨;"
+    },
+    {
+      "original": "Schumacher",
+      "conv": "zh-cn:舒马赫; zh-tw:舒馬克; zh-hk:舒麥加;"
+    },
+    {
+      "original": "Schwarzenegger",
+      "conv": "zh-cn:施瓦辛格; zh-tw:史瓦辛格; zh-hk:舒華辛力加;"
+    },
+    {
+      "original": "Schøne",
+      "conv": "zh-cn:舍内; zh-tw:舍内; zh-hk:舒尼;"
+    },
+    {
+      "original": "Scifo",
+      "conv": "zh-hans:希福; zh-tw:希福; zh-hk:史斯富;"
+    },
+    {
+      "original": "Scolari",
+      "conv": "zh-cn:斯科拉里; zh-tw:斯科拉里; zh-hk:史高拉利;"
+    },
+    {
+      "original": "Scott",
+      "conv": "zh-cn:斯科特; zh-tw:史考特; zh-hk:史葛;"
+    },
+    {
+      "original": "Sean; Shawn; Shown",
+      "conv": "zh-cn:肖恩;zh-tw:尚恩;zh-hk:沙恩;"
+    },
+    {
+      "original": "Sean; Shawn; Shown",
+      "conv": "西恩=>zh-cn:肖恩;西恩=>zh-my:肖恩;西恩=>zh-sg:肖恩;西恩=>zh-tw:尚恩;西恩=>zh-hk:沙恩;西恩=>zh-mo:沙恩;"
+    },
+    {
+      "original": "Sergio",
+      "conv": "zh-cn:塞尔希奥; zh-tw:塞爾希奧; zh-hk:沙治奧; zh-hant:塞吉歐;"
+    },
+    {
+      "original": "Shilton",
+      "conv": "zh-cn:希尔顿; zh-tw:希爾頓; zh-hk:施路頓;"
+    },
+    {
+      "original": "Шостакович; Shostakovich",
+      "conv": "zh-cn:肖斯塔科维奇;zh-tw:蕭士塔高維奇;zh-hk:蕭斯達高維契;"
+    },
+    {
+      "original": "Sibierski",
+      "conv": "zh-cn:西别尔斯基; zh-tw:西比爾斯基; zh-hk:斯比斯基;"
+    },
+    {
+      "original": "Sidibé",
+      "conv": "zh-cn:西迪贝; zh-tw:西迪貝; zh-hk:薛迪比;"
+    },
+    {
+      "original": "សីហនុ (Sihanouk)",
+      "conv": "zh-cn:西哈努克;zh-tw:施亞努;zh-hk:施漢諾;zh-sg:西哈诺;"
+    },
+    {
+      "original": "Silva",
+      "conv": "zh-cn:席尔瓦; zh-tw:席爾瓦; zh-hk:施華;"
+    },
+    {
+      "original": "Silvestre",
+      "conv": "zh-cn:西尔韦斯特; zh-tw:西爾韋斯特; zh-hk:施維斯達;"
+    },
+    {
+      "original": "Simon",
+      "conv": "zh-cn:西蒙;zh-tw:西門;zh-hk:施蒙;"
+    },
+    {
+      "original": "Singh",
+      "conv": "辛格=>zh-hk:星; 辛格=>zh-mo:星;"
+    },
+    {
+      "original": "Singleton",
+      "conv": "zh-hk:辛格頓;zh-tw:辛格頓;zh-cn:辛格顿;"
+    },
+    {
+      "original": "Smith",
+      "conv": "zh-cn:史密斯; zh-tw:史密斯; zh-hk:史密夫;"
+    },
+    {
+      "original": "Snowden",
+      "conv": "zh-tw:史諾登;zh-cn:斯诺登;zh-hant:斯諾登;zh-hans:斯诺登;zh-hk:斯諾登;zh-mo:斯諾登;"
+    },
+    {
+      "original": "Soeharto",
+      "conv": "zh-hans:苏哈托; zh-hant:蘇哈托; zh-sg:苏哈多;"
+    },
+    {
+      "original": "Solow",
+      "conv": "zh-tw:梭羅; zh-cn:索洛; zh-hk:索洛;"
+    },
+    {
+      "original": "Speer",
+      "conv": "zh-cn:施佩尔; zh-tw:史佩爾;"
+    },
+    {
+      "original": "Speer",
+      "conv": "zh-cn:施佩爾; zh-tw:史佩爾;"
+    },
+    {
+      "original": "Spence",
+      "conv": "zh-cn:斯彭斯; zh-hk:斯彭斯; zh-tw:史彭斯;"
+    },
+    {
+      "original": "Spencer",
+      "conv": "zh-cn:斯潘塞;zh-tw:斯賓塞;zh-hk:史賓沙;"
+    },
+    {
+      "original": "Spencer",
+      "conv": "斯宾塞=>zh-cn:斯潘塞;斯宾塞=>zh-my:斯潘塞;斯宾塞=>zh-sg:斯潘塞;斯宾塞=>zh-hk:史賓沙;斯宾塞=>zh-mo:史賓沙;"
+    },
+    {
+      "original": "Spencer",
+      "conv": "史賓塞=>zh-cn:斯潘塞;史賓塞=>zh-my:斯潘塞;史賓塞=>zh-sg:斯潘塞;史賓塞=>zh-tw:斯賓塞;史賓塞=>zh-hk:史賓沙;史賓塞=>zh-mo:史賓沙;"
+    },
+    {
+      "original": "Солженицын (Solzhenitsyn)",
+      "conv": "zh-cn:索尔仁尼琴;zh-hk:索贊尼辛;zh-tw:索忍尼辛"
+    },
+    {
+      "original": "Сталин (Stalin)",
+      "conv": "zh-cn:斯大林; zh-tw:史達林; zh-hk:史太林;"
+    },
+    {
+      "original": "Sousa",
+      "conv": "zh-cn:索萨; zh-hk:蘇沙; zh-tw:索薩"
+    },
+    {
+      "original": "Stanley",
+      "conv": "zh-cn:斯坦利; zh-tw:史丹利; zh-hk:士丹利;"
+    },
+    {
+      "original": "Steve",
+      "conv": "zh-cn:斯蒂弗; zh-tw:史蒂夫; zh-hk:史提夫;"
+    },
+    {
+      "original": "Stephen/Steven",
+      "conv": "zh-cn:斯蒂芬; zh-tw:史蒂芬; zh-hk:史提芬;"
+    },
+    {
+      "original": "Stewart/Stuart",
+      "conv": "zh-cn:斯图尔特;zh-tw:史都華;zh-hk:史超域;"
+    },
+    {
+      "original": "Stewart/Stuart",
+      "conv": "史釗域=>zh-cn:斯图尔特;史釗域=>zh-tw:史都華;"
+    },
+    {
+      "original": "Stewart/Stuart",
+      "conv": "斯圖亞特=>zh-tw:史都華;斯圖亞特=>zh-hk:史超域;斯圖亞特=>zh-mo:史超域;"
+    },
+    {
+      "original": "Stewart/Stuart",
+      "conv": "斯图亚特=>zh-tw:史都華;斯图亚特=>zh-hk:史超域;斯图亚特=>zh-mo:史超域;"
+    },
+    {
+      "original": "Stewart/Stuart",
+      "conv": "斯圖爾特=>zh-tw:史都華;斯圖爾特=>zh-hk:史超域;斯圖爾特=>zh-mo:史超域;"
+    },
+    {
+      "original": "Stigler",
+      "conv": "zh-cn:斯蒂格勒;zh-tw:斯蒂格勒;zh-hk:史德拉;"
+    },
+    {
+      "original": "Stiglitz",
+      "conv": "zh-tw:史迪格里茲; zh-cn:斯蒂格利茨; zh-hk:斯蒂格里茨;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "zh-cn:斯特林;zh-hk:士他令;zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特靈=>zh-hk:士他令;斯特靈=>zh-mo:士他令;斯特靈=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "士打令=>zh-cn:斯特林;士打令=>zh-my:斯特林;士打令=>zh-sg:斯特林;士打令=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特灵=>zh-cn:斯特林;史特灵=>zh-my:斯特林;史特灵=>zh-sg:斯特林;史特灵=>zh-hk:士他令;史特灵=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯德零=>zh-cn:斯特林;斯德零=>zh-my:斯特林;斯德零=>zh-sg:斯特林;斯德零=>zh-hk:士他令;斯德零=>zh-mo:士他令;斯德零=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特陵=>zh-cn:斯特林;斯特陵=>zh-my:斯特林;斯特陵=>zh-sg:斯特林;斯特陵=>zh-hk:士他令;斯特陵=>zh-mo:士他令;斯特陵=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特凌=>zh-cn:斯特林;斯特凌=>zh-my:斯特林;斯特凌=>zh-sg:斯特林;斯特凌=>zh-hk:士他令;斯特凌=>zh-mo:士他令;斯特凌=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特林=>zh-cn:斯特林;斯特林=>zh-my:斯特林;斯特林=>zh-sg:斯特林;斯特林=>zh-hk:士他令;斯特林=>zh-mo:士他令;斯特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特林=>zh-cn:斯特林;史特林=>zh-my:斯特林;史特林=>zh-sg:斯特林;史特林=>zh-hk:士他令;史特林=>zh-mo:士他令;史特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Strauss",
+      "conv": "zh-cn:施特劳斯; zh-hk:史特勞斯; zh-tw:史特勞斯;"
+    },
+    {
+      "original": "Strother",
+      "conv": "zh-cn:斯特罗瑟; zh-hk:史特羅哲; zh-tw:史特羅哲;"
+    },
+    {
+      "original": "Stryker",
+      "conv": "zh-cn:斯特赖克; zh-hk:史崔克; zh-tw:史崔克;"
+    },
+    {
+      "original": "Sukarno",
+      "conv": "zh-hans:苏加诺; zh-hant:蘇加諾; zh-tw:蘇卡諾; zh-sg:苏卡诺;"
+    },
+    {
+      "original": "Swazi",
+      "conv": "zh-hans:斯威士; zh-hant:斯威士; zh-tw:史瓦帝"
+    },
+    {
+      "original": "I. Szent István, Saint Stephen I",
+      "conv": "zh-hans:伊什特万一世;zh-hk:聖伊什特萬一世;zh-tw:聖史蒂芬一世;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:尸逐;zh-hant:尸逐;"
+    },
+    {
+      "original": "Taylor",
+      "conv": "zh-cn:泰勒; zh-hk:泰萊; zh-tw:泰勒;"
+    },
+    {
+      "original": "Terry",
+      "conv": "zh-tw:泰瑞; zh-hk:泰瑞; zh-cn:特里;"
+    },
+    {
+      "original": "Тесла (Tesla)",
+      "conv": "zh-cn:特斯拉; zh-tw:特斯拉; zh-hk:忒斯拉;"
+    },
+    {
+      "original": "Thatcher",
+      "conv": "zh-cn:撒切尔; zh-tw:柴契爾; zh-hk:戴卓爾;"
+    },
+    {
+      "original": "Thauvin",
+      "conv": "zh-cn:托万; zh-tw:托萬; zh-hk:泰奧雲;"
+    },
+    {
+      "original": "Theodore",
+      "conv": "zh-hans:西奥多; zh-hant:狄奧多;"
+    },
+    {
+      "original": "Theodore",
+      "conv": "zh:西奧多; zh-hans:西奥多; zh-hk:狄奧多; zh-tw:西奧多;"
+    },
+    {
+      "original": "Theresia, Terézia",
+      "conv": "zh-hans:特蕾西亚; zh-hant:泰瑞莎;"
+    },
+    {
+      "original": "Thomas",
+      "conv": "zh-cn:托马斯; zh-tw:湯瑪斯; zh-hk:湯馬士;"
+    },
+    {
+      "original": "Thompson",
+      "conv": "zh-tw:湯普森; zh-hk:湯遜; zh-cn:汤普森;"
+    },
+    {
+      "original": "Tigana",
+      "conv": "zh-cn:蒂加纳; zh-tw:蒂加納;zh-hk:泰簡拿;"
+    },
+    {
+      "original": "Tim",
+      "conv": "zh-hans:蒂姆;zh-hant:提姆;"
+    },
+    {
+      "original": "Tim",
+      "conv": "蒂姆=>zh-hk:添;蒂姆=>zh-mo:添"
+    },
+    {
+      "original": "Tim",
+      "conv": "提姆=>zh-hk:添;提姆=>zh-mo:添"
+    },
+    {
+      "original": "Timothy",
+      "conv": "zh-cn:蒂莫西;zh-tw:提摩西;zh-hk:添曼菲;"
+    },
+    {
+      "original": "Tolisso",
+      "conv": "zh-cn:托利索;zh-tw:托利索;zh-hk:杜利素;"
+    },
+    {
+      "original": "Tom",
+      "conv": "zh-cn:汤姆;zh-tw:湯姆;"
+    },
+    {
+      "original": "Tom",
+      "conv": "汤姆=>zh-hk:湯;汤姆=>zh-mo:湯"
+    },
+    {
+      "original": "Tom",
+      "conv": "湯姆=>zh-hk:湯;湯姆=>zh-mo:湯"
+    },
+    {
+      "original": "Tomi",
+      "conv": "zh-cn:汤米;zh-tw:湯米;zh-hk:杜米;"
+    },
+    {
+      "original": "Tony",
+      "conv": "zh-hans:托尼;zh-hant:東尼;"
+    },
+    {
+      "original": "Travis",
+      "conv": "zh-cn:特拉维斯;zh-tw:崔維斯;zh-hk:特拉維斯;"
+    },
+    {
+      "original": "Trevor",
+      "conv": "zh-cn:特雷弗;zh-tw:崔佛;zh-hk:崔佛;"
+    },
+    {
+      "original": "Trésor",
+      "conv": "zh-cn:特雷索尔;zh-tw:特雷索爾;zh-hk:車素;"
+    },
+    {
+      "original": "Trump",
+      "conv": "zh-hant:川普;zh-hans:川普;zh-cn:特朗普;zh-hk:特朗普;zh-mo:杜林普;zh-tw:川普;zh-sg:特朗普;"
+    },
+    {
+      "original": "Троцкий (Trotsky)",
+      "conv": "zh-cn:托洛茨基;zh-tw:托洛斯基;zh-hk:托洛茨基;"
+    },
+    {
+      "original": "Tswana",
+      "conv": "zh-hans:茨瓦纳; zh-hant:茨瓦納;zh-tw:札那"
+    },
+    {
+      "original": "Тимошенко (Tymoshenko)",
+      "conv": "zh-cn:季莫申科;zh-hk:季莫申科;zh-tw:提摩申科;"
+    },
+    {
+      "original": "van Riebeeck",
+      "conv": "zh-hans:范里贝克;zh-hant:范里貝克"
+    },
+    {
+      "original": "Vázquez",
+      "conv": "zh-cn:巴斯克斯;zh-hk:華斯基斯;zh-tw:瓦斯克斯"
+    },
+    {
+      "original": "Vestergaard",
+      "conv": "zh-cn:维斯特加德;zh-hk:韋斯特高;zh-tw:維斯特加德;zh-hant:維斯達加特;"
+    },
+    {
+      "original": "Viktor",
+      "conv": "zh-cn:维克托;zh-hk:域陀;zh-tw:維克托;"
+    },
+    {
+      "original": "Владимир; Vladimir",
+      "conv": "zh-cn:弗拉基米尔;zh-tw:弗拉迪米爾;zh-hk:弗拉基米爾;"
+    },
+    {
+      "original": "Владимирович; Vladimirovich",
+      "conv": "zh-cn:弗拉基米罗维奇;zh-tw:弗拉迪米羅維奇;zh-hk:弗拉基米羅維奇;"
+    },
+    {
+      "original": "Владимировна; Vladimirovna",
+      "conv": "zh-cn:弗拉基米罗芙娜; zh-hk:弗拉基米羅芙娜; zh-tw:弗拉迪米羅芙娜;"
+    },
+    {
+      "original": "von Neumann",
+      "conv": "zh-cn:冯·诺伊曼;zh-tw:馮紐曼"
+    },
+    {
+      "original": "Vuković",
+      "conv": "zh-cn:武科维奇;zh-hk:胡高域;zh-tw:武科維奇"
+    },
+    {
+      "original": "Wallis",
+      "conv": "zh-cn:华里丝; zh-hk:華莉絲; zh-tw:華麗絲"
+    },
+    {
+      "original": "Wagner",
+      "conv": "zh-cn:瓦格纳; zh-hk:華格納; zh-tw:華格納"
+    },
+    {
+      "original": "Wales",
+      "conv": "zh-cn:威尔士; zh-hk:威爾斯; zh-tw:威爾斯"
+    },
+    {
+      "original": "Wałęsa",
+      "conv": "zh-cn:瓦文萨;zh-hk:華里沙;zh-sg:瓦文萨;zh-tw:華勒沙;"
+    },
+    {
+      "original": "Walpole",
+      "conv": "zh-cn:沃波尔; zh-hk:華波; zh-tw:沃波爾"
+    },
+    {
+      "original": "Walz",
+      "conv": "zh-hk:沃茨; zh-tw:華茲; zh-hans:瓦尔茨;"
+    },
+    {
+      "original": "Warren",
+      "conv": "zh-cn:沃伦; zh-tw:沃倫; zh-hk:華倫;"
+    },
+    {
+      "original": "Watson",
+      "conv": "zh-hk:屈臣; zh-tw:華森; zh-hans:沃森;"
+    },
+    {
+      "original": "Wawrinka",
+      "conv": "zh-hk:華雲卡;zh-tw:瓦林卡;zh-cn:瓦林卡;"
+    },
+    {
+      "original": "Webb",
+      "conv": "zh-tw:韋伯;zh-hans:韦布;"
+    },
+    {
+      "original": "Webb",
+      "conv": "韋伯=>zh-hk:韋;韋伯=>zh-mo:韋;"
+    },
+    {
+      "original": "Webb",
+      "conv": "韦布=>zh-hk:韋;韦布=>zh-mo:韋;"
+    },
+    {
+      "original": "Wegener ",
+      "conv": "zh-tw:韋格納;zh-cn:魏格纳;"
+    },
+    {
+      "original": "Weizmann ",
+      "conv": "zh-tw:魏茲曼;zh-cn:魏茨曼;"
+    },
+    {
+      "original": "Whiteside",
+      "conv": "zh-hans:懷特塞德; zh-hk:韋西迪; zh-tw:懷塞德;"
+    },
+    {
+      "original": "Whitney",
+      "conv": "zh-cn:惠特妮;zh-tw:惠妮;zh-hk:雲妮;"
+    },
+    {
+      "original": "Wilhelmsson",
+      "conv": "zh-hans:威廉松;zh-tw:威廉森;zh-hk:韋希臣;"
+    },
+    {
+      "original": "Williamson",
+      "conv": "zh-cn:威廉姆森;zh-cn:威廉姆森;zh-hk:威廉遜;"
+    },
+    {
+      "original": "Wilmots",
+      "conv": "zh-cn:维尔莫茨;zh-hk:韋莫斯;zh-tw:威爾莫茨;"
+    },
+    {
+      "original": "Wilson",
+      "conv": "zh-cn:威尔逊;zh-tw:威爾遜;zh-hk:韋爾遜;"
+    },
+    {
+      "original": "Wilson",
+      "conv": "惠柳新=>zh-cn:威尔逊;惠柳新=>zh-my:威尔逊;惠柳新=>zh-sg:威尔逊;惠柳新=>zh-tw:威爾遜;"
+    },
+    {
+      "original": "Wiltord",
+      "conv": "zh-cn:维尔托德;zh-tw:維爾托德;zh-hk:韋托特;"
+    },
+    {
+      "original": "Wolfgang",
+      "conv": "zh-cn:沃尔夫冈;zh-tw:沃夫岡;zh-hk:胡爾夫岡;"
+    },
+    {
+      "original": "Wood",
+      "conv": "zh-cn:伍德;zh-tw:伍德;"
+    },
+    {
+      "original": "Wood",
+      "conv": "伍德=>zh-hk:活;伍德=>zh-mo:活;"
+    },
+    {
+      "original": "Woodruff",
+      "conv": "zh-cn:伍德拉夫;zh-tw:伍卓夫;zh-hk:活拉夫;zh-mo:活拉夫;"
+    },
+    {
+      "original": "Woody",
+      "conv": "zh-cn:伍迪;zh-hk:活地;zh-tw:伍迪;"
+    },
+    {
+      "original": "Wozniak",
+      "conv": "zh-tw:沃茲尼克;zh-cn:沃兹尼亚克;"
+    },
+    {
+      "original": "Yann",
+      "conv": "雅恩=>zh-hk:揚;雅恩=>zh-tw:揚;"
+    },
+    {
+      "original": "Ельцин (Yeltsin)",
+      "conv": "zh-cn:叶利钦;zh-sg:耶尔辛;zh-tw:葉爾辛;zh-hk:葉利欽;"
+    },
+    {
+      "original": "Юлія (Yulia)",
+      "conv": "zh-cn:尤莉娅;zh-hk:尤莉婭;zh-tw:尤莉亞;"
+    },
+    {
+      "original": "Ющенко (Yuschenko)",
+      "conv": "zh-cn:尤先科;zh-tw:尤申科;zh-hk:尤先科;"
+    },
+    {
+      "original": "Yerokhin",
+      "conv": "zh-cn:叶罗欣;zh-hk:艾路軒;zh-tw:葉羅辛;"
+    },
+    {
+      "original": "Zagallo",
+      "conv": "zh-cn:扎加洛;zh-tw:查加洛;zh-hk:薩加奴;"
+    },
+    {
+      "original": "Zamorano",
+      "conv": "zh-cn:萨莫拉诺;zh-tw:薩莫拉諾;zh-hk:森莫蘭奴;"
+    },
+    {
+      "original": "Zidane",
+      "conv": "zh-cn:齐达内;zh-tw:席丹;zh-hk:施丹;"
+    },
+    {
+      "original": "Zuckerberg",
+      "conv": "zh-cn:扎克伯格; zh-tw:祖克柏; zh-hk:朱克伯格; zh-sg:扎克伯格;"
+    },
+    {
+      "original": "Zuma",
+      "conv": "zh-cn:祖玛;zh-hk:祖馬;zh-tw:朱瑪;"
+    },
+    {
+      "original": "Zuma",
+      "conv": "祖瑪=>zh-hk:祖馬;祖瑪=>zh-mo:祖馬;祖瑪=>zh-tw:朱瑪;"
+    },
+    {
+      "original": "Zoey",
+      "conv": "zh-cn:佐伊;zh-tw:柔伊;zh-hk:素兒;"
+    },
+    {
+      "original": "Bulgaria",
+      "conv": "zh-hans:保加利亚;zh-hant:保加利亞;"
+    },
+    {
+      "original": "California",
+      "conv": "zh-hans:加利福尼亚;zh-hant:加利福尼亞;"
+    },
+    {
+      "original": "Pakistan",
+      "conv": "zh-cn:巴基斯坦;zh-tw:巴基斯坦;zh-hk:巴基斯坦;"
+    },
+    {
+      "original": "add",
+      "conv": "zh-cn:添加;zh-tw:添加;zh-hk:添加;"
+    },
+    {
+      "original": "Houston",
+      "conv": "zh-cn:休斯敦;zh-tw:休士頓;zh-hk:侯斯頓;"
+    },
+    {
+      "original": "Huston",
+      "conv": "zh-cn:休斯顿;zh-tw:休斯頓;zh-hk:侯斯頓;"
+    },
+    {
+      "original": "東南亞歷史詞典",
+      "conv": "zh-hans:东南亚历史词典;zh-hant:東南亞歷史詞典;"
+    },
+    {
+      "original": "雲南西部",
+      "conv": "zh-hans:云南西部;zh-hant:雲南西部;"
+    },
+    {
+      "original": "雲南西平侯",
+      "conv": "zh-hans:云南西平侯;zh-hant:雲南西平侯;"
+    },
+    {
+      "original": "日本特許廳",
+      "conv": "zh-hans:日本特许厅;zh-hant:日本特許廳;"
+    },
+    {
+      "original": "St. John",
+      "conv": "zh-hans:圣约翰;zh-hant:聖約翰;"
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "name": "magi",
+  "description": "《[[魔奇少年|-{zh:魔奇少年;zh-cn:天方魔谭MAGI;zh-tw:MAGI魔奇少年;zh-hk:魔奇少年;}-]]》及《[[Magi 角色列表|-{zh:Magi 角色列表;zh-cn:天方魔谭角色列表;zh-tw:魔奇少年角色列表;zh-hk:魔奇角色列表;}-]]》",
+  "path": "Template:CGroup/magi",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:阿里爸爸;zh-cn:阿里巴巴;zh-tw:阿里巴巴;zh-hk:阿里巴巴;"
+    },
+    {
+      "original": null,
+      "conv": "zh:沙魯扎;zh-cn:萨尔迦;zh-tw:沙爾賈;zh-hk:沙璐查;"
+    },
+    {
+      "original": null,
+      "conv": "zh:怪傑阿里爸爸;zh-cn:怪杰阿里巴巴;zh-tw:怪傑阿里巴巴;zh-hk:怪盜阿里巴巴;"
+    },
+    {
+      "original": null,
+      "conv": "zh:莫路珍娜;zh-cn:摩尔迦娜;zh-tw:摩兒迦娜;zh-hk:莫路珍娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh:莫路小姐;zh-cn:摩儿小姐;zh-tw:摩兒小姐;zh-hk:莫路姐姐;"
+    },
+    {
+      "original": null,
+      "conv": "zh:扎米爾;zh-cn:贾米尔;zh-tw:賈米爾;zh-hk:扎米爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:普迪魯;zh-cn:布德鲁;zh-tw:布戴爾;zh-hk:寶度;"
+    },
+    {
+      "original": null,
+      "conv": "zh:米娜;zh-cn:米娜;zh-tw:蜜娜;zh-hk:美娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh:哥魯達斯;zh-cn:哥尔塔斯;zh-tw:果達斯;zh-hk:哥達斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊莉莎伯;zh-cn:伊丽莎白;zh-tw:艾莉扎貝絲;zh-hk:伊莉莎伯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:托娃;zh-cn:朵雅;zh-tw:托雅;zh-hk:圖雅;"
+    },
+    {
+      "original": null,
+      "conv": "zh:多魯吉;zh-cn:多尔吉;zh-tw:多爾極;zh-hk:多爾智;"
+    },
+    {
+      "original": null,
+      "conv": "zh:婆婆;zh-cn:婆婆;zh-tw:嬤嬤;zh-hk:婆婆;"
+    },
+    {
+      "original": null,
+      "conv": "zh:成加･沙曼;zh-cn:恰卡･沙玛;zh-tw:查干･夏曼;zh-hk:成加･沙曼;"
+    },
+    {
+      "original": null,
+      "conv": "zh:成加･汗;zh-cn:恰卡･汗;zh-tw:查干･汗;zh-hk:成加･汗;"
+    },
+    {
+      "original": null,
+      "conv": "zh:萊拉;zh-cn:莱拉;zh-tw:萊拉;zh-hk:麗娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh:莎艾莎;zh-cn:萨纱;zh-tw:莎亞紗;zh-hk:莎紗;"
+    },
+    {
+      "original": null,
+      "conv": "zh:法丁馬;zh-cn:法提马;zh-tw:法締瑪;zh-hk:法添馬;"
+    },
+    {
+      "original": null,
+      "conv": "zh:妮嘉;zh-cn:娜嘉;zh-tw:娜嘉;zh-hk:妮嘉;"
+    },
+    {
+      "original": null,
+      "conv": "zh:仙巴;zh-cn:辛巴德;zh-tw:辛巴達;zh-hk:仙巴;"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿布馬多;zh-cn:阿卜玛德;zh-tw:阿布瑪德;zh-hk:涵密;"
+    },
+    {
+      "original": null,
+      "conv": "zh:沙布馬多;zh-cn:沙卜玛德;zh-tw:沙布瑪德;zh-hk:沁密;"
+    },
+    {
+      "original": null,
+      "conv": "zh:立世德;zh-cn:拉希德;zh-tw:立世德;zh-hk:立世德;"
+    },
+    {
+      "original": null,
+      "conv": "zh:卡西姆;zh-cn:卡西姆;zh-tw:卡希姆;zh-hk:卡禪;"
+    },
+    {
+      "original": null,
+      "conv": "zh:塞娜普;zh-cn:赛娜卜;zh-tw:翟娜布;zh-hk:珍楠;"
+    },
+    {
+      "original": null,
+      "conv": "zh:柏桑;zh-cn:哈桑;zh-tw:哈珊;zh-hk:赫辰;"
+    },
+    {
+      "original": null,
+      "conv": "zh:馬斯魯路;zh-cn:马斯鲁尔;zh-tw:馬斯魯爾;zh-hk:默司護;"
+    },
+    {
+      "original": null,
+      "conv": "zh:積法魯;zh-cn:贾法尔;zh-tw:賈法爾;zh-hk:昃琺;"
+    },
+    {
+      "original": null,
+      "conv": "zh:祖達魯;zh-cn:裘达尔;zh-tw:裘達爾;zh-hk:誅鐸;"
+    },
+    {
+      "original": null,
+      "conv": "zh:巴魯卡克;zh-cn:巴尔喀克;zh-tw:巴爾卡克;zh-hk:巴革;"
+    },
+    {
+      "original": null,
+      "conv": "zh:耶姆麗赫;zh-cn:雅姆莱哈;zh-tw:雅姆萊赫;zh-hk:雅沐麗霞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:耶姆姊姊;zh-cn:雅姆姐姐;zh-tw:雅姆姊姊;zh-hk:雅沐姐姐;"
+    },
+    {
+      "original": null,
+      "conv": "zh:沙魯魯加;zh-cn:迦尔鲁卡;zh-tw:夏洛爾岡;zh-hk:沙爾勤;"
+    },
+    {
+      "original": null,
+      "conv": "zh:比絲丁;zh-cn:皮丝缇;zh-tw:碧絲蒂;zh-hk:彼思緹;"
+    },
+    {
+      "original": null,
+      "conv": "zh:斯巴魯托斯;zh-cn:斯帕尔多斯;zh-tw:斯巴爾托斯;zh-hk:司柏徒;"
+    },
+    {
+      "original": null,
+      "conv": "zh:喜那開開;zh-cn:席纳霍霍;zh-tw:席那赫霍;zh-hk:喜挪可賀;"
+    },
+    {
+      "original": null,
+      "conv": "zh:多拉岡;zh-cn:多拉公;zh-tw:德拉龍;zh-hk:謝龔;"
+    },
+    {
+      "original": null,
+      "conv": "zh:提達斯;zh-cn:缇特斯;zh-tw:緹特斯;zh-hk:瑅德斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:亞力基勞斯;zh-cn:阿勒奇乌斯;zh-tw:阿勒奇烏斯;zh-hk:阿歷西斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:穆;zh-cn:穆;zh-tw:穆;zh-hk:武;"
+    },
+    {
+      "original": null,
+      "conv": "zh:米朗;zh-cn:缪萝;zh-tw:繆蘿;zh-hk:慕朗;"
+    },
+    {
+      "original": null,
+      "conv": "zh:羅路;zh-cn:罗罗;zh-tw:羅羅;zh-hk:勞勞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊格那修;zh-cn:伊克纳提乌斯;zh-tw:伊克納緹烏斯;zh-hk:奕尼修;"
+    },
+    {
+      "original": null,
+      "conv": "zh:托托;zh-cn:多多;zh-tw:多多;zh-hk:多多;"
+    },
+    {
+      "original": null,
+      "conv": "zh:香巴魯;zh-cn:夏巴鲁;zh-tw:夏巴魯;zh-hk:森伯爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:拉馬;zh-cn:拉玛;zh-tw:拉瑪;zh-hk:拉馬;"
+    },
+    {
+      "original": null,
+      "conv": "zh:馬達魯;zh-cn:玛塔路;zh-tw:瑪塔路;zh-hk:瑪圖;"
+    },
+    {
+      "original": null,
+      "conv": "zh:莫加麥特;zh-cn:莫迦梅特;zh-tw:莫迦梅特;zh-hk:莫加密;"
+    },
+    {
+      "original": null,
+      "conv": "zh:瑪雅茲;zh-cn:玛雅兹;zh-tw:瑪雅茲;zh-hk:邁雅思;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊蕾娜;zh-cn:伊蕾奴;zh-tw:伊蕾娜;zh-hk:綺玲;"
+    },
+    {
+      "original": null,
+      "conv": "zh:斯美露諾芙;zh-cn:史密尔诺弗;zh-tw:史密爾諾弗;zh-hk:思梅諾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:史芬托斯;zh-cn:斯芬托斯;zh-tw:斯芬特斯;zh-hk:索風陶;"
+    },
+    {
+      "original": null,
+      "conv": "zh:卡門;zh-cn:卡门;zh-tw:卡門;zh-hk:卡文;"
+    },
+    {
+      "original": null,
+      "conv": "zh:杜妮雅;zh-cn:朵妮雅;zh-tw:朵妮雅;zh-hk:杜妮雅;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊薩克;zh-cn:伊萨亚克;zh-tw:伊薩亞克;zh-hk:以朔;"
+    },
+    {
+      "original": null,
+      "conv": "zh:奧利弗;zh-cn:奥鲁巴;zh-tw:奧魯巴;zh-hk:奧巴;"
+    },
+    {
+      "original": null,
+      "conv": "zh:丘南;zh-cn:尤纳恩;zh-tw:尤南;zh-hk:淵瀾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:沙希拉扎特;zh-cn:莎赫札德;zh-tw:莎赫拉查德;zh-hk:雪希華瑟;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊蘇南;zh-cn:伊苏南;zh-tw:伊斯南;zh-hk:伊輔楠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:艾玛卡;zh-tw:艾瑪卡;zh-hk:阿瑪勤;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阿梅恩·拉;zh-tw:阿梅恩·拉;zh-hk:艾璊·拿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:纳尔梅斯;zh-tw:納爾梅斯;zh-hk:紐美斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:米拉;zh-tw:米拉;zh-hk:美萊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:蒂亚诺丝;zh-tw:蒂亞諾絲;zh-hk:戴安妮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:艾尔缇美娜;zh-tw:艾爾緹美娜;zh-hk:艾提美娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:帕露西娜;zh-tw:帕露西娜;zh-hk:珀晨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:普拉提米亚;zh-tw:普拉提米亞;zh-hk:珀提美亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:达利奥斯;zh-tw:達利奧斯;zh-hk:大流士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:雷奥塞斯;zh-tw:雷歐塞斯;zh-hk:李嶽薛司;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拉梅托托;zh-tw:拉梅托托;zh-hk:拉邁妥砣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伊姆西西卡;zh-tw:伊姆希希卡;zh-hk:嚴史師卡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:皮皮莉卡;zh-tw:皮皮莉卡;zh-hk:彼庇莉卡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亚克多;zh-tw:亞庫多;zh-hk:野豁;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拉素尔;zh-tw:拉索爾;zh-hk:麗佐兒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:涅尔瓦;zh-tw:涅爾瓦;zh-hk:內華;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:尤利乌斯;zh-tw:尤利烏斯;zh-hk:宇琉士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:卡尔亚德斯;zh-tw:卡爾亞德斯;zh-hk:哥拿狄司;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阿伦;zh-tw:阿倫;zh-hk:阿朗;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:约恩;zh-tw:約恩;zh-hk:潤;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:布罗尔;zh-tw:布羅魯;zh-hk:鉢羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:碧尔奇朵;zh-tw:碧爾奇朵;zh-hk:漂潔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:佩鲁纳迪乌斯;zh-tw:佩魯納迪烏斯;zh-hk:佩楠迪司;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:古古尔坎;zh-tw:庫庫爾坎;zh-hk:古古根;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:玛露迦;zh-tw:瑪露迦;zh-hk:瑪嘉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:玛格丽特;zh-tw:瑪格麗特;zh-hk:瑪嘉烈;"
+    },
+    {
+      "original": null,
+      "conv": "zh:烏哥;zh-cn:乌戈;zh-tw:烏戈;zh-hk:烏哥;"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿蒙;zh-cn:亚蒙;zh-tw:亞蒙;zh-hk:阿蒙;"
+    },
+    {
+      "original": null,
+      "conv": "zh:科卡羅魯;zh-cn:弗伽洛;zh-tw:佛卡洛;zh-hk:福卡羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh:謝柏魯;zh-cn:桀派;zh-tw:桀派;zh-hk:謝柏;"
+    },
+    {
+      "original": null,
+      "conv": "zh:巴魯;zh-cn:巴力;zh-tw:巴力;zh-hk:峇爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:凡雷科魯;zh-cn:华利弗;zh-tw:華利弗;zh-hk:華萊科;"
+    },
+    {
+      "original": null,
+      "conv": "zh:科魯科魯;zh-cn:佛尔佛尔;zh-tw:佛爾佛爾;zh-hk:科富;"
+    },
+    {
+      "original": null,
+      "conv": "zh:貝柏魯;zh-cn:威沛;zh-tw:威沛;zh-hk:威沛;"
+    },
+    {
+      "original": null,
+      "conv": "zh:古洛西魯;zh-cn:克罗赛尔;zh-tw:克羅賽爾;zh-hk:戈修;"
+    },
+    {
+      "original": null,
+      "conv": "zh:凡妮亞;zh-cn:拜恩;zh-tw:拜恩;zh-hk:梵尼亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:撒加;zh-cn:赛共;zh-tw:撒共;zh-hk:撒根;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:瓦沙克;zh-tw:瓦沙克;zh-hk:華煞戈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:刻耳珀洛斯;zh-tw:刻耳柏洛斯;zh-hk:猞拜羅斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:安洛先;zh-tw:安洛先;zh-hk:阿羅先思;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:弗内乌斯;zh-tw:弗內烏斯;zh-hk:科紐司;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阿加雷斯;zh-tw:阿加雷斯;zh-hk:阿加歷斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亚斯祂录;zh-tw:亞斯她錄;zh-hk:阿斯他祿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:菲尼克斯;zh-tw:菲尼克斯;zh-hk:鳳尼思;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:但他林;zh-tw:但他林;zh-hk:但他林;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:列拉金;zh-tw:列拉金;zh-hk:麗拉琊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:巴巴妥司;zh-tw:巴巴妥司;zh-hk:巴伯圖;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:普尔森;zh-tw:普爾森;zh-hk:普臣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沙克斯;zh-tw:沙克斯;zh-hk:煞司;"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿魯瑪;zh-cn:阿尔玛;zh-tw:阿爾瑪;zh-hk:艾瑪;"
+    },
+    {
+      "original": null,
+      "conv": "zh:支鄉;zh-cn:岐山;zh-tw:七湘;zh-hk:支鄉;"
+    },
+    {
+      "original": null,
+      "conv": "zh:巴魯巴德;zh-cn:巴尔巴德;zh-tw:巴爾巴德;zh-hk:巴爾弼;"
+    },
+    {
+      "original": null,
+      "conv": "zh:黃牙族;zh-cn:黄牙族;zh-tw:黃牙一族;zh-hk:黃牙族;"
+    },
+    {
+      "original": null,
+      "conv": "zh:法那利斯;zh-cn:法纳利斯;zh-tw:法納利斯;zh-hk:樊力仕;"
+    },
+    {
+      "original": null,
+      "conv": "zh:暗黑大陸;zh-cn:黑暗大陆;zh-tw:暗黑大陸;zh-hk:暗黑大陸;"
+    },
+    {
+      "original": null,
+      "conv": "zh:卡特魯哥;zh-cn:卡塔尔哥;zh-tw:卡塔葛;zh-hk:迦太閣;"
+    },
+    {
+      "original": null,
+      "conv": "zh:仙杜尼亞;zh-cn:辛德利亚;zh-tw:辛德利亞;zh-hk:仙治亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:雷姆;zh-cn:雷姆;zh-tw:雷姆;zh-hk:灆;"
+    },
+    {
+      "original": null,
+      "conv": "zh:帕魯提比亞;zh-cn:帕鲁提比亚;zh-tw:帕爾戴比亞;zh-hk:珀提比亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:馬古羅修達;zh-cn:马格诺修泰德;zh-tw:馬格諾修達特;zh-hk:陌梛修達;"
+    },
+    {
+      "original": null,
+      "conv": "zh:埃里奧哈普特;zh-cn:哈利奥巴布德;zh-tw:艾里歐哈布特;zh-hk:艾里奧赫;"
+    },
+    {
+      "original": null,
+      "conv": "zh:艾蒂米拉;zh-cn:艾尔缇穆拉;zh-tw:亞爾提謬拉;zh-hk:艾提牧拿;"
+    },
+    {
+      "original": null,
+      "conv": "zh:薩辛;zh-cn:萨桑;zh-tw:沙珊;zh-hk:沙辛;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊姆察克;zh-cn:伊姆查克;zh-tw:伊姆恰克;zh-hk:嚴察古;"
+    },
+    {
+      "original": null,
+      "conv": "zh:卡修根;zh-cn:卡修冈;zh-tw:卡修剛;zh-hk:卡修根;"
+    },
+    {
+      "original": null,
+      "conv": "zh:密斯達西姆;zh-cn:穆斯塔西姆;zh-tw:穆斯塔西姆;zh-hk:穆思達禪;"
+    },
+    {
+      "original": null,
+      "conv": "zh:亞古蒂亞;zh-cn:阿库提亚;zh-tw:阿庫提亞;zh-hk:渥堤亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:五等許可區;zh-cn:5等许可区;zh-tw:5等許可區;zh-hk:第五等許可區;"
+    },
+    {
+      "original": null,
+      "conv": "zh:托蘭;zh-cn:托兰;zh-tw:托朗;zh-hk:托蘭;"
+    },
+    {
+      "original": null,
+      "conv": "zh:Rukh;zh-cn:若凫;zh-tw:鵬鳥;zh-hk:留風;"
+    },
+    {
+      "original": null,
+      "conv": "zh:義賊;zh-cn:义贼;zh-tw:義賊;zh-hk:俠盜;"
+    },
+    {
+      "original": null,
+      "conv": "zh:仙巴歷險記;zh-cn:辛巴德的冒险;zh-tw:辛巴達的冒險;zh-hk:仙巴歷險記;"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿魯･沙門;zh-cn:埃尔萨梅;zh-tw:八芳星;zh-hk:八芳星;"
+    },
+    {
+      "original": null,
+      "conv": "zh:七海聯盟;zh-cn:七海联盟;zh-tw:七海聯合;zh-hk:七海聯盟;"
+    },
+    {
+      "original": null,
+      "conv": "zh:神魔;zh-cn:魔神;zh-tw:魔人;zh-hk:神魔;"
+    },
+    {
+      "original": null,
+      "conv": "zh:金屬器;zh-cn:金属器;zh-tw:金具;zh-hk:金屬器;"
+    },
+    {
+      "original": null,
+      "conv": "zh:眷屬器;zh-cn:眷属器;zh-tw:眷具;zh-hk:眷屬器;"
+    },
+    {
+      "original": null,
+      "conv": "zh:防禦魔法;zh-cn:防御魔法;zh-tw:防壁魔法;zh-hk:防禦魔法;"
+    },
+    {
+      "original": null,
+      "conv": "zh:魔法師;zh-cn:魔法使;zh-tw:魔法使;zh-hk:魔法使;"
+    },
+    {
+      "original": null,
+      "conv": "zh:Magi 角色列表;zh-cn:天方魔谭角色列表;zh-tw:魔奇少年角色列表;zh-hk:魔奇角色列表;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:天方魔谭MAGI外传 辛巴德的冒险;zh-tw:MAGI魔奇少年前傳 辛巴達的冒險;zh-hk:魔奇－仙巴歷險記;"
+    },
+    {
+      "original": null,
+      "conv": "zh:武器;zh-cn:武器;zh-tw:武器;zh-hk:武器;"
+    },
+    {
+      "original": null,
+      "conv": "zh:武人;zh-cn:武人;zh-tw:武人;zh-hk:武人;"
+    },
+    {
+      "original": null,
+      "conv": "zh:武力;zh-cn:武力;zh-tw:武力;zh-hk:武力;"
+    },
+    {
+      "original": null,
+      "conv": "zh:武者;zh-cn:武者;zh-tw:武者;zh-hk:武者;"
+    },
+    {
+      "original": null,
+      "conv": "zh:黷武;zh-cn:黩武;zh-tw:黷武;zh-hk:黷武;"
+    },
+    {
+      "original": null,
+      "conv": "zh:;zh-cn:;zh-tw:;zh-hk:;"
+    }
+  ]
+}

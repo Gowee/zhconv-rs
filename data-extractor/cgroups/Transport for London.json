@@ -1,0 +1,103 @@
+{
+  "name": "Transport for London",
+  "description": "倫敦交通局",
+  "path": "Module:CGroup/Transport for London",
+  "rules": [
+    {
+      "original": "Transport for London",
+      "conv": "zh-hans:伦敦交通局; zh-tw:倫敦交通局; zh-hk:倫敦運輸局;"
+    },
+    {
+      "original": "Bakerloo line",
+      "conv": "zh-hant:貝克盧線; zh-hans:贝克卢线; zh-tw:貝克盧線; zh-hk:必嘉老綫;"
+    },
+    {
+      "original": "Central line",
+      "conv": "zh-hant:中央線; zh-hans:中央线; zh-tw:中央線; zh-hk:中央綫;"
+    },
+    {
+      "original": "Circle line",
+      "conv": "zh-hant:環線; zh-hans:环线; zh-tw:環狀線; zh-hk:環綫; 环状线 => zh-hans:环线;"
+    },
+    {
+      "original": "District line",
+      "conv": "zh-hant:區域線; zh-hans:区域线; zh-tw:區域線; zh-hk:區域綫;"
+    },
+    {
+      "original": "East London line",
+      "conv": "zh-hant:東倫敦線; zh-hans:东伦敦线; zh-hk:東倫敦綫; zh-tw:東倫敦線;"
+    },
+    {
+      "original": "Elizabeth line",
+      "conv": "zh-hant:伊利莎伯線; 伊利沙伯線 => zh-hant:伊利莎伯線; zh-hans:伊利莎伯线; 伊丽莎白线 => zh-hans:伊利莎伯线; zh-hk:伊利莎伯綫; zh-tw:伊利莎伯線;"
+    },
+    {
+      "original": "Hammersmith & City line",
+      "conv": "zh-hans:哈默史密斯及城市线; 汉默史密斯及城市线 => zh-hans:哈默史密斯及城市线; zh-hant:漢默史密斯及城市線; zh-hk:咸默史密夫及城市綫; zh-tw:漢默史密斯及城市線;"
+    },
+    {
+      "original": "Jubilee line",
+      "conv": "zh-hant:銀禧線; zh-hans:银禧线; zh-tw:朱比利線; zh-hk:銀禧綫;"
+    },
+    {
+      "original": "Metropolitan line",
+      "conv": "zh-hant:大都會線; zh-hans:大都会线; zh-tw:大都會線; zh-hk:大都會綫;"
+    },
+    {
+      "original": "Northern line",
+      "conv": "zh-hant:北線; zh-hans:北线; zh-tw:北線; zh-hk:北綫;"
+    },
+    {
+      "original": "Piccadilly line",
+      "conv": "zh-hant:皮卡迪利線; zh-hans:皮卡迪利线; zh-tw:皮卡迪利線; zh-hk:皮卡迪利綫;"
+    },
+    {
+      "original": "Victoria line",
+      "conv": "zh-hant:維多利亞線; zh-hans:维多利亚线; zh-tw:維多利亞線; zh-hk:維多利亞綫;"
+    },
+    {
+      "original": "Waterloo & City line",
+      "conv": "zh-hant:滑鐵盧及城市線; zh-hans:滑铁卢及城市线; zh-tw:滑鐵盧及城市線; zh-hk:窩打老及城市綫;"
+    },
+    {
+      "original": "East London line",
+      "conv": "zh-hant:東倫敦線; zh-hans:东伦敦线; zh-tw:東倫敦線; zh-hk:東倫敦綫;"
+    },
+    {
+      "original": "Gospel Oak - Barking Line line",
+      "conv": " zh-hant:福音橡至巴金線; zh-hans:福音橡至巴金线; zh-tw:福音橡至巴金線; zh-hk:福音橡至巴金綫;"
+    },
+    {
+      "original": "Lea Valley line",
+      "conv": "zh-hant:李河谷線; zh-hans:李河谷线; zh-tw:李河谷線; zh-hk:李河谷綫;"
+    },
+    {
+      "original": "North London line",
+      "conv": "zh-hant:北倫敦線; zh-hans:北伦敦线; zh-tw:北倫敦線; zh-hk:北倫敦綫;"
+    },
+    {
+      "original": "Romford–Upminster line",
+      "conv": "zh-hant:羅姆福德－上敏斯特線; zh-hans:罗姆福德－上敏斯特线; zh-tw:羅姆福德－上敏斯特線; zh-hk:羅姆福德－上敏斯特綫;"
+    },
+    {
+      "original": "South London line",
+      "conv": "zh-hant:南倫敦線; zh-hans:南伦敦线; zh-tw:南倫敦線; zh-hk:南倫敦綫;"
+    },
+    {
+      "original": "Watford DC line",
+      "conv": "zh-hant:沃特福德直流電鐵線; zh-hans:沃特福德直流电铁线; zh-tw:沃特福德直流電鐵線; zh-hk:沃特福德直流電鐵綫;"
+    },
+    {
+      "original": "West London line",
+      "conv": "zh-hant:西倫敦線; zh-hans:西伦敦线; zh-tw:西倫敦線; zh-hk:西倫敦綫;"
+    },
+    {
+      "original": "Queensway",
+      "conv": "zh-hant:女王道; zh-hans:女王道; zh-tw:女王道; zh-hk:女皇道;"
+    },
+    {
+      "original": "Oyster Card",
+      "conv": "zh-tw:牡蠣卡; zh-hk:蠔卡; zh-cn:牡蛎卡; "
+    }
+  ]
+}

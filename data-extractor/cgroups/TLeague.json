@@ -1,0 +1,11 @@
+{
+  "name": "TLeague",
+  "description": "泰國職業足球聯賽",
+  "path": "Template:CGroup/TLeague",
+  "rules": [
+    {
+      "original": "Thai FA Cup",
+      "conv": "zh:泰国足协杯; zh-cn:泰国足协杯; zh-tw:泰國足協盃; zh-hk:泰國足總盃;  "
+    }
+  ]
+}

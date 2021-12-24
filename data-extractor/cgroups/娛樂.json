@@ -1,0 +1,75 @@
+{
+  "name": "娛樂",
+  "description": "娛樂",
+  "path": "Template:CGroup/娛樂",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-hans:大运会;zh-hant:世大運;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:魔方;zh-hant:魔術方塊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:残疾人奥林匹克运动会;zh-hk:傷殘奧林匹克運動會;zh-tw:帕拉林匹克運動會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:残奥会;zh-tw:帕拉林匹克運動會;zh-hk:殘奧會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:残奥;zh-tw:帕運;zh-hk:殘奧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:沒戏;zh-hant:沒戲唱;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:国庆节;zh-hant:國慶日;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:游园会;zh-hant:園遊會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:单本剧;zh-hant:單元劇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小蝸;zh-hant:小耳朵;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:戛纳; zh-tw:坎城; zh-hk:康城;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:悬疑; zh-hant:懸疑;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:朋克; zh-hant:龐克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:军旅; zh-hant:軍教;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:军旅剧; zh-hant:軍教片;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:系列片; zh-hant:影集; zh-hk:劇集;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:报告文学; zh-hant:報導文學;"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "name": "MUFC",
+  "description": "[[曼聯]]",
+  "path": "Template:CGroup/MUFC",
+  "rules": [
+    {
+      "original": "Old Trafford Stadium",
+      "conv": "zh-hans:老特拉福德球场;zh-hk:奧脫福球場;zh-tw:老特拉福球場;"
+    },
+    {
+      "original": "Old Trafford",
+      "conv": "zh-hans:老特拉福德;zh-hk:奧脫福;zh-tw:老特拉福;"
+    },
+    {
+      "original": "Newton Heath",
+      "conv": "zh-hans:纽顿希斯; zh-hk:紐頓希夫; zh-tw:紐頓希斯;"
+    },
+    {
+      "original": "Alex Ferguson",
+      "conv": "zh:弗格森;zh-hans:弗格森;zh-hk:費格遜;zh-tw:佛格森;"
+    },
+    {
+      "original": "Alex Ferguson",
+      "conv": "zh:亚历克斯·弗格森;zh-hans:亚历克斯·弗格森;zh-hk:亞歷斯·費格遜;zh-tw:亞歷克斯·佛格森;"
+    },
+    {
+      "original": "Queiroz",
+      "conv": "zh:奎罗斯;zh-hans:奎罗斯;zh-hk:昆洛斯;zh-tw:凱羅斯;"
+    },
+    {
+      "original": "Carlos Queiroz",
+      "conv": "zh:卡洛斯·奎罗斯;zh-hans:卡洛斯·奎罗斯;zh-hk:卡路士·昆洛斯;zh-tw:卡洛斯·凱羅斯;"
+    },
+    {
+      "original": "Ron Atkinson",
+      "conv": "zh:罗恩·阿特金森; zh-hans:罗恩·阿特金森; zh-hant:朗·艾堅遜"
+    },
+    {
+      "original": "Atkinson",
+      "conv": "zh:阿特金森; zh-hans:阿特金森; zh-hant:艾堅遜"
+    },
+    {
+      "original": "Matt Busby",
+      "conv": "zh:马特·巴斯比;zh-hans:马特·巴斯比;zh-hk:麥·畢士比;zh-tw:馬特·巴斯比;"
+    },
+    {
+      "original": "Busby",
+      "conv": "zh:巴斯比;zh-hans:巴斯比;zh-hk:畢士比;zh-tw:巴斯比;"
+    },
+    {
+      "original": "Jimmy Murphy",
+      "conv": "zh-hans:吉米·墨菲; zh-hk:占美·梅菲;"
+    },
+    {
+      "original": "van Gaal",
+      "conv": "zh-hans:范加尔;zh-tw:范加爾;zh-hk:雲高爾;"
+    },
+    {
+      "original": "Ben Amos",
+      "conv": "zh-hans:本·阿莫斯;zh-hk:賓·艾摩斯;zh-tw:班·阿莫斯;"
+    },
+    {
+      "original": "Amos",
+      "conv": "zh-hans:阿莫斯;zh-hk:艾摩斯;zh-tw:阿莫斯;"
+    },
+    {
+      "original": "Anderson Luís de Abreu Oliveira",
+      "conv": "zh-hans:安德森·路易斯·迪·阿布努·奥利维拉;zh-hk:安達臣·路爾斯·迪·阿布努·奧利華拉;zh-tw:安德森·路易斯·迪·阿布努·奧利維拉;"
+    },
+    {
+      "original": "Anderson",
+      "conv": "zh-hans:安德森;zh-hk:安達臣;zh-tw:安德森;"
+    },
+    {
+      "original": "David Beckham",
+      "conv": "zh-hans:大卫·贝克汉姆; zh-hk:大衛·碧咸; zh-tw:大衛·貝克漢;"
+    },
+    {
+      "original": "Beckham",
+      "conv": "zh-hans:贝克汉姆; zh-hk:碧咸; zh-tw:貝克漢;"
+    },
+    {
+      "original": "George Best",
+      "conv": "zh-hans:乔治·贝斯特;zh-hk:佐治·貝斯;zh-tw:佐治·貝斯;"
+    },
+    {
+      "original": "Fraizer Campbell",
+      "conv": "zh-hans:弗雷泽·坎贝尔;zh-hk:費沙·金寶;zh-tw:弗雷澤·坎貝爾;"
+    },
+    {
+      "original": "Campbell",
+      "conv": "zh-hans:坎贝尔;zh-hk:金寶;zh-tw:坎貝爾;"
+    },
+    {
+      "original": "Eric Cantona",
+      "conv": "zh-hans:埃里克·坎通纳; zh-hk:艾力·簡東拿; zh-tw:埃里克·坎通納"
+    },
+    {
+      "original": "Cantona",
+      "conv": "zh-hans:坎通纳; zh-hk:簡東拿; zh-tw:坎通納"
+    },
+    {
+      "original": "Michael Carrick",
+      "conv": "zh-hans:迈克尔·卡里克;zh-hk:米高·卡域克;zh-tw:邁克爾·卡里克;"
+    },
+    {
+      "original": "Carrick",
+      "conv": "zh-hans:卡里克;zh-hk:卡域克;zh-tw:卡里克;"
+    },
+    {
+      "original": "Bobby Charlton",
+      "conv": "zh-hans:博比·查尔顿;zh-hk:卜比·查爾頓;zh-tw:卜比·查爾頓;"
+    },
+    {
+      "original": "James Chester",
+      "conv": "zh-hans:詹姆斯·切斯特;zh-hk:占士·謝斯達;zh-tw:詹姆斯·徹斯特;"
+    },
+    {
+      "original": "Tom Cleverley",
+      "conv": "zh-hans:汤姆·克莱维利;zh-hk:湯·卡華利;zh-tw:湯姆·克萊維利;"
+    },
+    {
+      "original": "Cleverley",
+      "conv": "zh-hans:克莱维利;zh-hk:卡華利;zh-tw:克萊維利;"
+    },
+    {
+      "original": "Andy Cole",
+      "conv": "zh-hans:安迪·科尔;zh-hk:安迪·高爾;zh-tw:安迪·科爾;"
+    },
+    {
+      "original": "Cole",
+      "conv": "zh-hans:科尔;zh-hk:高爾;zh-tw:科爾;"
+    },
+    {
+      "original": "Fábio da Silva",
+      "conv": "zh-hans:法比奥·达席尔瓦; zh-hk:法比奧·達施華"
+    },
+    {
+      "original": "Rafael da Silva",
+      "conv": "zh-hans:拉斐尔·达席尔瓦; zh-hk:拉菲爾·達施華"
+    },
+    {
+      "original": "de Gea",
+      "conv": "zh-hk:迪基亞;zh-hans:德赫亚;zh-tw:德赫亞;"
+    },
+    {
+      "original": "Jonny Evans",
+      "conv": "zh-hans:乔尼·埃文斯;zh-hk:莊尼·伊雲斯;zh-tw:喬尼·埃文斯;"
+    },
+    {
+      "original": "Evans",
+      "conv": "zh-hans:埃文斯;zh-hk:伊雲斯;zh-tw:埃文斯;"
+    },
+    {
+      "original": "Patrice Evra",
+      "conv": "zh-hans:帕特里斯·埃弗拉;zh-hk:柏特利斯·艾夫拿;zh-tw:帕特里斯·埃夫拉;"
+    },
+    {
+      "original": "Evra",
+      "conv": "zh-hans:埃弗拉;zh-hk:艾夫拿;zh-tw:埃夫拉;"
+    },
+    {
+      "original": "Marouane Fellaini",
+      "conv": "zh-hans:马罗阿尼·费莱尼;zh-hk:馬羅阿尼·費蘭尼;zh-tw:馬羅阿尼·費萊尼;"
+    },
+    {
+      "original": "Fellaini",
+      "conv": "zh-hans:费莱尼;zh-hk:費蘭尼;zh-tw:費萊尼;"
+    },
+    {
+      "original": "Rio Ferdinand",
+      "conv": "zh-hans:里奥·费迪南德;zh-hk:里奧·費迪南;zh-tw:里奧·費迪南德;"
+    },
+    {
+      "original": "Ferdinand",
+      "conv": "zh-hans:费迪南德;zh-hk:費迪南;zh-tw:費迪南德;"
+    },
+    {
+      "original": "Darren Fletcher",
+      "conv": "zh-hans:达伦·弗莱彻;zh-hk:戴倫·費查;zh-tw:達倫·弗萊徹;"
+    },
+    {
+      "original": "Fletcher",
+      "conv": "zh-hans:弗莱彻;zh-hk:費查;zh-tw:弗萊徹;"
+    },
+    {
+      "original": "Ben Foster",
+      "conv": "zh-hans:本·福斯特;zh-hk:賓·科士打;zh-tw:本·福斯特;"
+    },
+    {
+      "original": "Foster",
+      "conv": "zh-hans:福斯特;zh-hk:科士打;zh-tw:福斯特;"
+    },
+    {
+      "original": "Darron Gibson",
+      "conv": "zh-hans:达隆·吉布森;zh-hk:戴倫·吉遜;zh-tw:達朗·傑臣;"
+    },
+    {
+      "original": "Ryan Giggs",
+      "conv": "zh-hans:瑞恩·吉格斯;zh-hk:賴恩·傑斯;zh-tw:瑞恩·吉格斯;"
+    },
+    {
+      "original": "Giggs",
+      "conv": "zh-hans:吉格斯;zh-hk:傑斯;zh-tw:吉格斯;"
+    },
+    {
+      "original": "Hargreaves",
+      "conv": "zh-hans:哈格里夫斯;zh-hk:夏格維斯;zh-tw:哈格里夫斯;"
+    },
+    {
+      "original": "Gabriel Heinze",
+      "conv": "zh-hans:加布里埃尔·海因策;zh-hk:加比奧·軒斯;zh-tw:蓋布瑞·海因茲"
+    },
+    {
+      "original": "Heinze",
+      "conv": "zh-hans:海因策;zh-hk:軒斯;zh-tw:海因茲"
+    },
+    {
+      "original": "Ander Herrera",
+      "conv": "zh-hans:安德尔·埃雷拉;zh-hk:安達·靴里拉;zh-tw:安德爾·埃雷拉;"
+    },
+    {
+      "original": "Herrera",
+      "conv": "zh-hans:埃雷拉;zh-hk:靴里拉;zh-tw:埃雷拉;"
+    },
+    {
+      "original": "Sam Hewson",
+      "conv": "zh-hans:萨姆·休森;zh-hk:森姆·胡辛;zh-tw:山姆·休森;"
+    },
+    {
+      "original": "Javier Hernández",
+      "conv": "zh-hans:哈维尔·埃尔南德斯; zh-hk:查維亞·靴南迪斯; zh-tw:哈維爾·赫南德斯;"
+    },
+    {
+      "original": "Hernández",
+      "conv": "zh-hans:埃尔南德斯; zh-hk:靴南迪斯; zh-tw:赫南德斯;"
+    },
+    {
+      "original": "Hewson",
+      "conv": "zh-hans:休森;zh-hk:胡辛;zh-tw:休森;"
+    },
+    {
+      "original": "Mark Hughes",
+      "conv": "zh-hans:马克·休斯; zh-hk:馬克·曉士"
+    },
+    {
+      "original": "Adnan Januzaj",
+      "conv": "zh-hans:阿德南·贾努扎伊;zh-hk:阿德南·贊奴沙;zh-tw:阿德南·亞努扎伊;"
+    },
+    {
+      "original": "Januzaj",
+      "conv": "zh-hans:贾努扎伊;zh-hk:贊奴沙;zh-tw:亞努扎伊;"
+    },
+    {
+      "original": "Phil Jones",
+      "conv": "zh-hans:菲尔·琼斯; zh-hk:菲爾·鍾斯"
+    },
+    {
+      "original": "Kanchelskis",
+      "conv": "zh-cn:坎切尔斯基; zh-tw:坎切爾斯基; zh-hk:簡察斯基;"
+    },
+    {
+      "original": "Roy Keane",
+      "conv": "zh-hans:罗伊·基恩;zh-hk:萊·堅尼;zh-tw:羅伊·基恩;"
+    },
+    {
+      "original": "Keane",
+      "conv": "zh-hans:基恩;zh-hk:堅尼;zh-tw:基恩;"
+    },
+    {
+      "original": "Tomasz Kuszczack",
+      "conv": "zh-hans:托马什·库什察克;zh-hk:湯馬士·古斯錫;zh-tw:托馬什·庫什察克;"
+    },
+    {
+      "original": "Kuszczack",
+      "conv": "zh-hans:库什察克;zh-hk:古斯錫;zh-tw:庫什察克;"
+    },
+    {
+      "original": "Denis Law",
+      "conv": "zh-cn:丹尼斯·劳; zh-hk:丹尼士·羅;"
+    },
+    {
+      "original": "Joe Mercer",
+      "conv": "zh-hans:乔·麦瑟;zh-hk:祖·梅沙;zh-tw:喬·麥瑟;"
+    },
+    {
+      "original": "Mata",
+      "conv": "zh-hans:马塔;zh-hk:馬達;zh-tw:馬塔;"
+    },
+    {
+      "original": "Brian McClair",
+      "conv": "zh-hk:拜仁·麥佳亞; zh-cn:布莱恩·麦克莱尔;"
+    },
+    {
+      "original": "McClair",
+      "conv": "zh-hk:麥佳亞; zh-cn:麦克莱尔;"
+    },
+    {
+      "original": "Nani",
+      "conv": "zh-hans:纳尼;zh-hk:蘭尼;zh-tw:納尼;"
+    },
+    {
+      "original": "Gary Neville",
+      "conv": "zh-hans:加里·内维尔;zh-hk:加利·尼維利;zh-tw:加里·耐維爾;"
+    },
+    {
+      "original": "Philip Neville",
+      "conv": "zh-hans:菲尔·内维尔;zh-hk:菲臘·尼維利;zh-tw:菲力普·耐維爾;"
+    },
+    {
+      "original": "Neville",
+      "conv": "zh-hans:内维尔;zh-hk:尼維利;zh-tw:耐維爾;"
+    },
+    {
+      "original": "John O'Shea",
+      "conv": "zh-hans:约翰·奥谢;zh-hk:約翰·奧沙;zh-tw:約翰·奧謝;"
+    },
+    {
+      "original": "O'Shea",
+      "conv": "zh-hans:奥谢;zh-hk:奧沙;zh-tw:奧謝;"
+    },
+    {
+      "original": "Owen",
+      "conv": "zh-hans:欧文;zh-hk:奧雲;zh-tw:歐文;"
+    },
+    {
+      "original": "Pallister",
+      "conv": "zh-hans:帕莱斯特;zh-hk:巴里斯達;"
+    },
+    {
+      "original": "Bryan Robson",
+      "conv": "zh-hans:布莱恩·罗布森; zh-hk:白賴仁·笠臣; zh-tw:布莱恩·罗布森;"
+    },
+    {
+      "original": "Cristiano Ronaldo",
+      "conv": "zh-hans:克里斯蒂亚诺·罗纳尔多;zh-hk:基斯坦奴·朗拿度;zh-tw:克里斯蒂亞諾·羅納度;"
+    },
+    {
+      "original": "Ronaldo",
+      "conv": "zh-hans:罗纳尔多;zh-hk:朗拿度;zh-tw:羅納度;"
+    },
+    {
+      "original": "Wayne Rooney",
+      "conv": "zh-hans:韦恩·鲁尼;zh-hk:韋恩·朗尼;zh-tw:韋恩·魯尼;"
+    },
+    {
+      "original": "Rooney",
+      "conv": "zh-hans:鲁尼;zh-hk:朗尼;zh-tw:魯尼;"
+    },
+    {
+      "original": "Luke Shaw",
+      "conv": "zh-hans:卢克·肖; zh-hk:魯克·梳爾;"
+    },
+    {
+      "original": "Louis Saha",
+      "conv": "zh-hans:路易·萨哈;zh-hk:路易·沙夏;zh-tw:路易·薩哈;"
+    },
+    {
+      "original": "Saha",
+      "conv": "zh-hans:萨哈;zh-hk:沙夏;zh-tw:薩哈;"
+    },
+    {
+      "original": "Peter Schmeichel",
+      "conv": "zh-hans:彼得·舒梅切尔; zh-hk:彼得·舒米高"
+    },
+    {
+      "original": "Schmeichel",
+      "conv": "zh-hans:舒梅切尔; zh-hk:舒米高"
+    },
+    {
+      "original": "Paul Scholes",
+      "conv": "zh-hans:保罗·斯科尔斯;zh-hk:保羅·史高斯;zh-tw:保羅·斯科爾斯;"
+    },
+    {
+      "original": "Scholes",
+      "conv": "zh-hans:斯科尔斯;zh-hk:史高斯;zh-tw:斯科爾斯;"
+    },
+    {
+      "original": "Teddy Sheringham",
+      "conv": "zh-hans:特迪·谢林汉姆;zh-hk:泰迪·舒寧咸;zh-tw:泰迪·謝林漢姆;"
+    },
+    {
+      "original": "Sheringham",
+      "conv": "zh-hans:谢林汉姆;zh-hk:舒寧咸;zh-tw:謝林漢姆;"
+    },
+    {
+      "original": "Mikael Silverstre",
+      "conv": "zh-hans:米卡埃尔·西尔维斯特;zh-hk:米凱爾·施維斯達;zh-tw:米卡埃爾·西爾韋斯特;"
+    },
+    {
+      "original": "Silverstre",
+      "conv": "zh-hans:西尔维斯特;zh-hk:施維斯達;zh-tw:西爾韋斯特;"
+    },
+    {
+      "original": "Chris Smalling",
+      "conv": "zh-hans:克里斯·斯莫林;zh-tw:克里斯·斯莫林;zh-hk:基斯·史摩寧;"
+    },
+    {
+      "original": "Smalling",
+      "conv": "zh-hans:斯莫林;zh-tw:斯莫林;zh-hk:史摩寧;"
+    },
+    {
+      "original": "Ole Gunnar Solskjær",
+      "conv": "zh-hans:奥勒·居纳尔·索尔斯克亚;zh-hk:奧利·根拿·蘇斯克查;zh-tw:奧萊·貢納·索爾斯克亞;"
+    },
+    {
+      "original": "Solskjær",
+      "conv": "zh-hans:索尔斯克亚;zh-hk:蘇斯克查;zh-tw:索爾斯克亞;"
+    },
+    {
+      "original": "Jaap Stam",
+      "conv": "zh-hans:雅普·斯塔姆; zh-hk:雅普·史譚"
+    },
+    {
+      "original": "Stam",
+      "conv": "zh-hans:斯塔姆; zh-hk:史譚"
+    },
+    {
+      "original": "Carlos Tevez",
+      "conv": "zh-hans:卡洛斯·特维斯;zh-hk:卡路士·迪維斯;zh-tw:卡洛斯·特維斯;"
+    },
+    {
+      "original": "Tevez",
+      "conv": "zh-hans:特维斯;zh-hk:迪維斯;zh-tw:特維斯;"
+    },
+    {
+      "original": "Antonio Valencia",
+      "conv": "zh-hans:安东尼奥·瓦伦西亚; zh-hk:安東尼奧·華倫西亞"
+    },
+    {
+      "original": "Edwin van der Saar",
+      "conv": "zh-hans:埃德文·范德萨;zh-hk:埃德文·雲達沙;zh-tw:埃德文·范德薩;"
+    },
+    {
+      "original": "van der Saar",
+      "conv": "zh-hans:范德萨;zh-hk:雲達沙;zh-tw:范德薩;"
+    },
+    {
+      "original": "Ruud van Nistelrooy",
+      "conv": "zh-hans:路德·范尼斯特鲁伊; zh-hk:路德·雲尼斯達萊"
+    },
+    {
+      "original": "van Nistelrooy",
+      "conv": "zh-hans:范尼斯特鲁伊; zh-hk:雲尼斯達萊"
+    },
+    {
+      "original": "Robin van Persie",
+      "conv": "zh-hans:罗宾·范佩西;zh-hk:羅賓·雲佩斯;zh-tw:羅賓·范佩西;"
+    },
+    {
+      "original": "Robin van Persie",
+      "conv": "zh-hans:范佩西;zh-hk:雲佩斯;zh-tw:范佩西;"
+    },
+    {
+      "original": "Nemanja Vidic",
+      "conv": "zh-hans:内马尼亚·维迪奇;zh-hk:尼曼查·維迪;zh-tw:內馬尼亞·維迪奇;"
+    },
+    {
+      "original": "Vidic",
+      "conv": "zh-hans:维迪奇;zh-hk:維迪;zh-tw:維迪奇;"
+    },
+    {
+      "original": "Welbeck",
+      "conv": "zh-hans:维尔贝克;zh-hk:韋碧克;zh-tw:維爾貝克;"
+    },
+    {
+      "original": "Dwight Yorke",
+      "conv": "zh-hans:德怀特·约克;zh-hk:韋治·約基;zh-tw:德懷特·約克;"
+    },
+    {
+      "original": "Ashley Young",
+      "conv": "zh-hans:阿什利·杨;zh-hk:艾殊利·楊格;zh-tw:阿什利·楊;"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "name": "House",
+  "description": "豪斯醫生",
+  "path": "Module:CGroup/House",
+  "rules": [
+    {
+      "original": "Adams",
+      "conv": "zh-cn:亚当斯; zh-tw:亞當斯;"
+    },
+    {
+      "original": "Adams",
+      "conv": "亚当斯=>zh-hk:倪; 亞當斯=>zh-hk:倪;"
+    },
+    {
+      "original": "Adams, Jessica",
+      "conv": "zh-cn:杰西卡·亚当斯; zh-tw:傑西卡·亞當斯; zh-hk:倪潔西;"
+    },
+    {
+      "original": "Allison",
+      "conv": "zh-cn:艾莉森; zh-tw:阿莉森; zh-hk:毅齡;"
+    },
+    {
+      "original": "Alvarez",
+      "conv": "zh-cn:阿尔瓦雷斯; zh-tw:阿爾瓦雷斯;"
+    },
+    {
+      "original": "Alvarez",
+      "conv": "阿尔瓦雷斯=>zh-hk:魏; 阿爾瓦雷斯=>zh-hk:魏;"
+    },
+    {
+      "original": "Alvarez, Juan",
+      "conv": "zh-cn:胡安·阿尔瓦雷斯; zh-tw:胡安·阿爾瓦雷斯; zh-hk:魏宏;"
+    },
+    {
+      "original": "Alvarez, Juan \"Alvie\"",
+      "conv": "zh-cn:胡安·“阿尔维”·阿尔瓦雷斯; zh-tw:胡安·「阿爾維」·阿爾瓦雷斯; zh-hk:魏宏「阿魏」;"
+    },
+    {
+      "original": "Alvie",
+      "conv": "zh-cn:阿尔维; zh-tw:阿爾維; zh-hk:阿魏;"
+    },
+    {
+      "original": "Amber",
+      "conv": "zh-cn:安珀; zh-tw:安珀; zh-hk:雁冰;"
+    },
+    {
+      "original": "Arlene",
+      "conv": "zh-cn:阿琳; zh-tw:阿琳; zh-hk:雅蓮;"
+    },
+    {
+      "original": "Blythe",
+      "conv": "zh-cn:布莱丝; zh-tw:布萊絲; zh-hk:柏麗;"
+    },
+    {
+      "original": "Cameron",
+      "conv": "zh-cn:卡梅伦; zh-tw:卡梅倫;"
+    },
+    {
+      "original": "Cameron",
+      "conv": "卡梅伦=>zh-hk:甘; 卡梅倫=>zh-hk:甘;"
+    },
+    {
+      "original": "Cameron, Allison",
+      "conv": "zh-cn:艾莉森·卡梅伦; zh-tw:阿莉森·卡梅倫; zh-hk:甘毅齡; zh-hant:艾莉森·卡梅倫;"
+    },
+    {
+      "original": "Carr",
+      "conv": "zh-cn:卡尔; zh-tw:卡爾;"
+    },
+    {
+      "original": "Carr",
+      "conv": "卡尔=>zh-hk:賈; 卡爾=>zh-hk:賈;"
+    },
+    {
+      "original": "Carr, Sam",
+      "conv": "zh-cn:珊姆·卡尔; zh-tw:珊姆·卡爾; zh-hk:賈森雯;"
+    },
+    {
+      "original": "Chase",
+      "conv": "zh-cn:蔡斯; zh-tw:柴斯;"
+    },
+    {
+      "original": "Chase",
+      "conv": "蔡斯=>zh-hk:程; 柴斯=>zh-hk:程;"
+    },
+    {
+      "original": "Chase, Robert",
+      "conv": "zh-cn:罗伯特·蔡斯; zh-tw:勞勃·柴斯; zh-hk:程偉邦; zh-hant:羅伯特·蔡斯;"
+    },
+    {
+      "original": "Chris",
+      "conv": "zh-cn:克里斯; zh-tw:克里斯; zh-hk:其轁;"
+    },
+    {
+      "original": "Cuddy",
+      "conv": "zh-cn:卡迪; zh-tw:柯帝;"
+    },
+    {
+      "original": "Cuddy",
+      "conv": "卡迪=>zh-hk:古; 柯帝=>zh-hk:古;"
+    },
+    {
+      "original": "Cuddy, Arlene",
+      "conv": "zh-cn:阿琳·卡迪; zh-tw:阿琳·卡迪; zh-hk:古雅蓮;"
+    },
+    {
+      "original": "Cuddy, Julia",
+      "conv": "zh-cn:朱莉娅·卡迪; zh-tw:茱莉亞·卡迪; zh-hk:古祖莉; zh-hant:朱莉婭·卡迪;"
+    },
+    {
+      "original": "Cuddy, Lisa",
+      "conv": "zh-cn:丽莎·卡迪; zh-tw:莉莎·柯帝; zh-hk:古麗珊; zh-hant:莉莎·卡迪;"
+    },
+    {
+      "original": "Cuddy, Rachel",
+      "conv": "zh-cn:瑞秋·卡迪; zh-tw:瑞秋·卡迪; zh-hk:古慧芝;"
+    },
+    {
+      "original": "Darryl",
+      "conv": "zh-cn:达里尔; zh-tw:達里爾; zh-hk:戴倫;"
+    },
+    {
+      "original": "Dominika",
+      "conv": "zh-cn:多米妮卡; zh-tw:多米妮卡; zh-hk:冬雯;"
+    },
+    {
+      "original": "Douglas",
+      "conv": "zh-cn:道格拉斯; zh-tw:道格拉斯;"
+    },
+    {
+      "original": "Douglas",
+      "conv": "道格拉斯=>zh-hk:鄧;"
+    },
+    {
+      "original": "Douglas, Lucas",
+      "conv": "zh-cn:卢卡斯·道格拉斯; zh-tw:路卡斯·道格拉斯; zh-hk:鄧樂勤; zh-hant:盧卡斯·道格拉斯;"
+    },
+    {
+      "original": "Edward",
+      "conv": "zh-cn:爱德华; zh-tw:愛德華; zh-hk:艾威;"
+    },
+    {
+      "original": "Eric",
+      "conv": "zh-cn:埃里克; zh-tw:艾瑞克; zh-hk:艾榮;"
+    },
+    {
+      "original": "Foreman",
+      "conv": "zh-cn:福尔曼; zh-tw:佛曼;"
+    },
+    {
+      "original": "Foreman",
+      "conv": "福尔曼=>zh-hk:霍; 福爾曼=>zh-hk:霍; 佛曼=>zh-hk:霍;"
+    },
+    {
+      "original": "Foreman, Eric",
+      "conv": "zh-cn:埃里克·福尔曼; zh-tw:艾瑞克·佛曼; zh-hk:霍艾榮; zh-hant:埃里克·福爾曼;"
+    },
+    {
+      "original": "Gregory",
+      "conv": "zh-cn:格里高利; zh-tw:格瑞利; zh-hk:國基;"
+    },
+    {
+      "original": "Hadley",
+      "conv": "zh-cn:哈德利; zh-tw:海德利;"
+    },
+    {
+      "original": "Hadley",
+      "conv": "zh-cn:哈德利=>zh-hk:向; zh-tw:海德利=>zh-hk:向;"
+    },
+    {
+      "original": "Hadley, Remy",
+      "conv": "zh-cn:蕾米·哈德利; zh-tw:蕾蜜·海德利; zh-hk:向惠美;"
+    },
+    {
+      "original": "Hopkins",
+      "conv": "zh-cn:霍普金斯; zh-tw:霍普金斯; zh-hk:霍金斯;"
+    },
+    {
+      "original": "Hourani",
+      "conv": "zh-cn:胡拉尼; zh-tw:胡拉尼;"
+    },
+    {
+      "original": "Hourani",
+      "conv": "胡拉尼=>zh-hk:賀;"
+    },
+    {
+      "original": "Hourani, Lawrence",
+      "conv": "zh-cn:劳伦斯·胡拉尼; zh-tw:勞倫斯·胡拉尼; zh-hk:賀樂倫;"
+    },
+    {
+      "original": "House",
+      "conv": "zh-cn:豪斯; zh-tw:豪斯;"
+    },
+    {
+      "original": "House",
+      "conv": "豪斯=>zh-hk:侯;"
+    },
+    {
+      "original": "House, Blythe",
+      "conv": "zh-cn:布莱丝·豪斯; zh-tw:布萊絲·豪斯; zh-hk:侯柏麗;"
+    },
+    {
+      "original": "House, Dominika",
+      "conv": "zh-cn:多米妮卡·豪斯; zh-tw:多米妮卡·豪斯; zh-hk:侯冬雯;"
+    },
+    {
+      "original": "House, Gregory",
+      "conv": "zh-cn:格里高利·豪斯; zh-tw:格瑞利·豪斯; zh-hk:侯國基;"
+    },
+    {
+      "original": "House, John",
+      "conv": "zh-cn:约翰·豪斯; zh-tw:約翰·豪斯; zh-hk:侯約翰;"
+    },
+    {
+      "original": "House, M.D.",
+      "conv": "zh-cn:豪斯医生; zh-tw:怪醫豪斯; zh-hk:醫神; zh-hant:豪斯醫生;"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆士; zh-tw:詹姆斯; zh-hk:志誠;"
+    },
+    {
+      "original": "Juan",
+      "conv": "zh-cn:胡安; zh-tw:胡安;"
+    },
+    {
+      "original": "Juan",
+      "conv": "胡安=>zh-hk:宏;"
+    },
+    {
+      "original": "Julia",
+      "conv": "zh-cn:朱莉娅; zh-tw:茱莉亞; zh-hk:祖莉; zh-hant:朱莉婭;"
+    },
+    {
+      "original": "Kutner",
+      "conv": "zh-cn:卡特纳; zh-tw:卡特納;"
+    },
+    {
+      "original": "Kutner",
+      "conv": "卡特纳=>zh-hk:寇; 卡特納=>zh-hk:寇;"
+    },
+    {
+      "original": "Kutner, Lawrence",
+      "conv": "zh-cn:劳伦斯·卡特纳; zh-tw:勞倫斯·卡特納; zh-hk:寇樂倫;"
+    },
+    {
+      "original": "Lawrence",
+      "conv": "zh-cn:劳伦斯; zh-tw:勞倫斯; zh-hk:樂倫;"
+    },
+    {
+      "original": "Lisa",
+      "conv": "zh-cn:丽莎; zh-tw:莉莎; zh-hk:麗珊;"
+    },
+    {
+      "original": "Lucas",
+      "conv": "zh-cn:卢卡斯; zh-tw:路卡斯; zh-hk:樂勤;"
+    },
+    {
+      "original": "Martha",
+      "conv": "zh-cn:玛莎; zh-tw:瑪莎; zh-hk:曼花;"
+    },
+    {
+      "original": "Masters",
+      "conv": "zh-cn:马斯特斯; zh-tw:麥斯特;"
+    },
+    {
+      "original": "Masters",
+      "conv": "马斯特斯=>zh-hk:馬; 馬斯特斯=>zh-hk:馬; 麥斯特=>zh-hk:馬;"
+    },
+    {
+      "original": "Masters, Martha M.",
+      "conv": "zh-cn:玛莎·马斯特斯; zh-tw:瑪莎·麥斯特; zh-hk:馬曼花; zh-hant:瑪莎·馬斯特斯;"
+    },
+    {
+      "original": "Mayfield",
+      "conv": "zh-cn:梅菲尔德; zh-tw:美福德; zh-hk:美菲; zh-hant:梅菲爾德;"
+    },
+    {
+      "original": "Michael",
+      "conv": "zh-cn:迈克尔; zh-tw:邁可; zh-hk:萬其;"
+    },
+    {
+      "original": "Nolan",
+      "conv": "zh-cn:诺兰; zh-tw:諾蘭; zh-cn:诺兰=>zh-hk:盧;"
+    },
+    {
+      "original": "Nolan",
+      "conv": "諾蘭=>zh-hk:盧;"
+    },
+    {
+      "original": "Nolan, Darryl",
+      "conv": "zh-cn:达里尔·诺兰; zh-tw:達里爾·諾蘭; zh-hk:盧戴倫;"
+    },
+    {
+      "original": "Petrova",
+      "conv": "zh-cn:佩特洛娃; zh-tw:佩特洛娃;"
+    },
+    {
+      "original": "Petrova",
+      "conv": "佩特洛娃=>zh-hk:龐(柏);"
+    },
+    {
+      "original": "Petrova, Dominika",
+      "conv": "zh-cn:多米妮卡·佩特洛娃; zh-tw:多米妮卡·佩特洛娃; zh-hk:龐冬雯(柏冬雯);"
+    },
+    {
+      "original": "Rachel",
+      "conv": "zh-cn:瑞秋; zh-tw:瑞秋; zh-hk:慧芝(倩華);"
+    },
+    {
+      "original": "Remy",
+      "conv": "zh-cn:蕾米; zh-tw:蕾蜜; zh-hk:惠美;"
+    },
+    {
+      "original": "Riggin",
+      "conv": "zh-cn:里金; zh-tw:瑞金;"
+    },
+    {
+      "original": "Riggin",
+      "conv": "里金=>zh-hk:屈; 瑞金=>zh-hk:屈;"
+    },
+    {
+      "original": "Robert",
+      "conv": "zh-cn:罗伯特; zh-tw:勞勃; zh-hk:偉邦;"
+    },
+    {
+      "original": "Ruby",
+      "conv": "zh-cn:鲁比; zh-tw:胡碧; zh-hk:璐碧; zh-hant:魯比;"
+    },
+    {
+      "original": "Sam",
+      "conv": "zh-cn:珊姆; zh-tw:珊姆; zh-hk:森雯;"
+    },
+    {
+      "original": "Sanford",
+      "conv": "zh-cn:桑福德; zh-tw:桑福德; zh-hk:信福;"
+    },
+    {
+      "original": "Simpson",
+      "conv": "zh-cn:辛普森; zh-tw:辛普森;"
+    },
+    {
+      "original": "Simpson",
+      "conv": "辛普森=>zh-hk:沈;"
+    },
+    {
+      "original": "Stacy",
+      "conv": "zh-cn:史黛西; zh-tw:史黛西; zh-hk:瑞詩;"
+    },
+    {
+      "original": "Taub",
+      "conv": "zh-cn:陶布; zh-tw:陶柏;"
+    },
+    {
+      "original": "Taub",
+      "conv": "陶布=>zh-hk:杜; 陶柏=>zh-hk:杜;"
+    },
+    {
+      "original": "Taub, Chris",
+      "conv": "zh-cn:克里斯·陶布; zh-tw:克里斯·陶柏; zh-hk:杜其轁;"
+    },
+    {
+      "original": "Taub, Rachel",
+      "conv": "zh-cn:瑞秋·陶布; zh-tw:瑞秋·陶柏; zh-hk:杜慧芝(杜倩華);"
+    },
+    {
+      "original": "Tritter",
+      "conv": "zh-cn:特里特; zh-tw:崔特;"
+    },
+    {
+      "original": "Tritter",
+      "conv": "特里特=>zh-hk:徐; 崔特=>zh-hk:徐;"
+    },
+    {
+      "original": "Tritter, Michael",
+      "conv": "zh-cn:迈克尔·特里特; zh-tw:邁可·崔特; zh-hk:徐萬其; zh-hant:邁克爾·崔特"
+    },
+    {
+      "original": "Vicodin",
+      "conv": "zh-cn:維可丁; zh-tw:維可汀; zh-hk:唯寇錠;"
+    },
+    {
+      "original": "Vogler",
+      "conv": "zh-cn:沃格勒; zh-tw:沃格勒;"
+    },
+    {
+      "original": "Vogler",
+      "conv": "沃格勒=>zh-hk:黃;"
+    },
+    {
+      "original": "Vogler, Edward",
+      "conv": "zh-cn:爱德华·沃格勒; zh-tw:愛德華·沃格勒; zh-hk:黃艾威;"
+    },
+    {
+      "original": "Volakis",
+      "conv": "zh-cn:沃拉基斯; zh-tw:弗拉卡斯;"
+    },
+    {
+      "original": "Volakis",
+      "conv": "沃拉基斯=>zh-hk:華; 弗拉卡斯=>zh-hk:華;"
+    },
+    {
+      "original": "Volakis, Amber",
+      "conv": "zh-cn:安珀·沃拉基斯; zh-tw:安珀·弗拉卡斯; zh-hk:華雁冰;"
+    },
+    {
+      "original": "Warner",
+      "conv": "zh-cn:华纳; zh-tw:華納; zh-cn:华纳=>zh-hk:汪;"
+    },
+    {
+      "original": "Warner",
+      "conv": "華納=>zh-hk:汪;"
+    },
+    {
+      "original": "Warner, Mark",
+      "conv": "zh-cn:马克·华纳; zh-tw:馬克·華納; zh-hk:汪馬克;"
+    },
+    {
+      "original": "Warner, Stacy",
+      "conv": "zh-cn:史黛西·华纳; zh-tw:史黛西·華納; zh-hk:汪瑞詩;"
+    },
+    {
+      "original": "Wells",
+      "conv": "zh-cn:韦尔斯; zh-tw:韋爾斯;"
+    },
+    {
+      "original": "Wells",
+      "conv": "韦尔斯=>zh-hk:衛; 韋爾斯=>zh-hk:衛;"
+    },
+    {
+      "original": "Wells, Sanford",
+      "conv": "zh-cn:桑福德·韦尔斯; zh-tw:桑福德·韋爾斯; zh-hk:衛信福;"
+    },
+    {
+      "original": "Wilson",
+      "conv": "zh-cn:威尔逊; zh-tw:威爾森;"
+    },
+    {
+      "original": "Wilson",
+      "conv": "威尔逊=>zh-hk:韋; 威爾森=>zh-hk:韋; 威爾遜=>韋;"
+    },
+    {
+      "original": "Wilson, James",
+      "conv": "zh-cn:詹姆士·威尔逊; zh-tw:詹姆斯·威爾森; zh-hk:韋志誠; zh-hant:詹姆斯·威爾遜;"
+    },
+    {
+      "original": "Wilson, Sam",
+      "conv": "zh-cn:珊姆·威尔逊; zh-tw:珊姆·威爾森; zh-hk:韋森雯; zh-hant:珊姆·威爾遜;"
+    }
+  ]
+}

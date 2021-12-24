@@ -1,0 +1,495 @@
+{
+  "name": "StarCraft2",
+  "description": "星际争霸2",
+  "path": "Template:CGroup/StarCraft2",
+  "rules": [
+    {
+      "original": "StarCraft Ⅱ",
+      "conv": "zh-cn:星际争霸Ⅱ;zh-tw:星海爭霸Ⅱ;"
+    },
+    {
+      "original": "Heart of the Swarm",
+      "conv": "zh-cn:虫群之心;zh-tw:蟲族之心;"
+    },
+    {
+      "original": "Nova Covert Ops",
+      "conv": "zh-cn:诺娃隐秘行动;zh-tw:諾娃特務密令;"
+    },
+    {
+      "original": "Koprulu Sector",
+      "conv": "zh-cn:科普卢星区;zh-tw:克普魯星區;"
+    },
+    {
+      "original": "Terran",
+      "conv": "zh-cn:人类;zh-tw:人類;"
+    },
+    {
+      "original": "Zerg",
+      "conv": "zh-cn:异虫;zh-tw:蟲族;"
+    },
+    {
+      "original": "Protoss",
+      "conv": "zh-cn:星灵;zh-tw:神族;"
+    },
+    {
+      "original": "Xel'Naga",
+      "conv": "zh-cn:萨尔纳加; zh-tw:薩爾納加;"
+    },
+    {
+      "original": "Terran Dominion",
+      "conv": "zh-cn:泰伦帝国;zh-tw:泰倫自治聯盟;"
+    },
+    {
+      "original": "Kel-Morian Combine",
+      "conv": "zh-cn:凯莫瑞安联合体;zh-tw:凱爾莫瑞亞集團;"
+    },
+    {
+      "original": "Umojan Protectorate",
+      "conv": "zh-cn:尤摩扬护国军;zh-tw:尤摩捷護衛隊;"
+    },
+    {
+      "original": "Umojan Ruling Council",
+      "conv": "zh-cn:尤摩扬议会;zh-tw:尤摩捷統治委員會;"
+    },
+    {
+      "original": "The Guild Wars",
+      "conv": "zh-cn:凯联战争;zh-tw:政權戰爭;"
+    },
+    {
+      "original": "Whispers of Oblivion",
+      "conv": "zh-cn:湮灭低语;zh-tw:滅絕之呢喃;"
+    },
+    {
+      "original": "SCV",
+      "conv": "zh-cn:SCV;zh-tw:太空工程車;"
+    },
+    {
+      "original": "Marine",
+      "conv": "zh-cn:陆战队员;zh-tw:陸戰隊;"
+    },
+    {
+      "original": "Marauder",
+      "conv": "zh-cn:劫掠者;zh-tw:掠奪者;"
+    },
+    {
+      "original": "Reaper",
+      "conv": "zh-cn:收割者;zh-tw:死神;"
+    },
+    {
+      "original": "Ghost",
+      "conv": "zh-cn:幽灵;zh-tw:幽靈特務;"
+    },
+    {
+      "original": "Hellion",
+      "conv": "zh-cn:恶火;zh-tw:惡狼;"
+    },
+    {
+      "original": "Thor",
+      "conv": "zh-cn:雷神;zh-tw:雷神號;"
+    },
+    {
+      "original": "Medivac",
+      "conv": "zh-cn:医疗运输机;zh-tw:醫療艇;"
+    },
+    {
+      "original": "Raven",
+      "conv": "zh-cn:铁鸦;zh-tw:渡鴉;"
+    },
+    {
+      "original": "Banshee",
+      "conv": "zh-cn:女妖;zh-tw:女妖轟炸機;"
+    },
+    {
+      "original": "Battlecruiser",
+      "conv": "zh-cn:战列巡航舰;zh-tw:戰巡艦;"
+    },
+    {
+      "original": "Hellbat",
+      "conv": "zh-cn:恶蝠;zh-tw:戰狼;"
+    },
+    {
+      "original": "Widow Mine",
+      "conv": "zh-cn:寡妇雷;zh-tw:寡婦詭雷;"
+    },
+    {
+      "original": "Drone",
+      "conv": "zh-cn:工蜂;zh-tw:工蟲;"
+    },
+    {
+      "original": "Zergling",
+      "conv": "zh-cn:跳虫;zh-tw:異化蟲;"
+    },
+    {
+      "original": "Queen",
+      "conv": "zh-cn:虫后;zh-tw:后蟲;"
+    },
+    {
+      "original": "Baneling",
+      "conv": "zh-cn:爆虫;zh-tw:毒爆蟲;"
+    },
+    {
+      "original": "Overseer",
+      "conv": "zh-cn:眼虫;zh-tw:監察王蟲;"
+    },
+    {
+      "original": "Infestor",
+      "conv": "zh-cn:感染者;zh-tw:感染蟲;"
+    },
+    {
+      "original": "Mutalisk",
+      "conv": "zh-cn:异龙;zh-tw:飛螳;"
+    },
+    {
+      "original": "Corruptor",
+      "conv": "zh-cn:腐化者;zh-tw:腐化飛蟲;"
+    },
+    {
+      "original": "Nydus Worm",
+      "conv": "zh-cn:坑道虫;zh-tw:地下蠕蟲;"
+    },
+    {
+      "original": "Brood Lord",
+      "conv": "zh-cn:巢虫领主;zh-tw:寄生王蟲;"
+    },
+    {
+      "original": "Swarm Host",
+      "conv": "zh-cn:虫群宿主;zh-tw:百生獸;"
+    },
+    {
+      "original": "Viper",
+      "conv": "zh-cn:飞蛇;zh-tw:飛蟒;"
+    },
+    {
+      "original": "Probe",
+      "conv": "zh-cn:探机;zh-tw:探測機;"
+    },
+    {
+      "original": "Zealot",
+      "conv": "zh-cn:狂热者;zh-tw:狂戰士;"
+    },
+    {
+      "original": "Sentry",
+      "conv": "zh-cn:机械哨兵;zh-tw:哨衛;"
+    },
+    {
+      "original": "Observer",
+      "conv": "zh-cn:侦测器;zh-tw:觀察者;"
+    },
+    {
+      "original": "Warp Prism",
+      "conv": "zh-cn:折跃棱镜;zh-tw:傳輸稜鏡;"
+    },
+    {
+      "original": "Phoenix",
+      "conv": "zh-cn:凤凰;zh-tw:鳳凰戰機;"
+    },
+    {
+      "original": "Void Ray",
+      "conv": "zh-cn:虚空辉光舰;zh-tw:虛空艦;"
+    },
+    {
+      "original": "Carrier",
+      "conv": "zh-cn:航母;zh-tw:航空母艦;"
+    },
+    {
+      "original": "Mothership",
+      "conv": "zh-cn:母舰;zh-tw:聖母艦;"
+    },
+    {
+      "original": "Oracle",
+      "conv": "zh-cn:先知;zh-tw:先知艦;"
+    },
+    {
+      "original": "Tempest",
+      "conv": "zh-cn:风暴战舰;zh-tw:暴風艦;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:轨道控制基地;zh-tw:星軌指揮總部"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工程站;zh-tw:電機工程所"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:精炼厂;zh-tw:瓦斯精煉廠"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:导弹塔;zh-tw:飛彈砲台"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:地堡;zh-tw:碉堡"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:重工厂;zh-tw:軍工廠"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:幽灵军校;zh-tw:幽靈特務學院"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:星港;zh-tw:星際港"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:军械库;zh-tw:兵工廠"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:聚变芯体;zh-tw:核聚變核心"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:反应堆;zh-tw:反應爐"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:孵化场;zh-tw:孵化所"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:主巢;zh-tw:蟲巢"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:分裂池;zh-tw:孵化池"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:进化腔;zh-tw:進化室"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:萃取房;zh-tw:瓦斯萃取巢"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:蟑螂温室;zh-tw:蟑螂繁殖場"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:爆虫巢穴;zh-tw:毒爆蟲巢"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:脊针爬虫;zh-tw:脊刺爬行蟲"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:孢子爬虫;zh-tw:孢子爬行蟲"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:感染深渊;zh-tw:感染巢"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:刺蛇巢;zh-tw:刺蛇獸穴"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:尖塔;zh-tw:螺旋塔"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:虫道网络;zh-tw:蟲殖地網"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:雷兽窟;zh-tw:雷獸洞穴"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:星灵枢纽;zh-tw:星核"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:吸纳舱;zh-tw:瓦斯處理廠"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:折跃门;zh-tw:空間之門"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:锻炉;zh-tw:冶煉廠"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:控制芯核;zh-tw:機械控制核心"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:光子炮台;zh-tw:光子加農砲"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:星门;zh-tw:星際之門"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:机械台;zh-tw:機械製造廠"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:光影议会;zh-tw:暮光議會"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:舰队航标;zh-tw:艦隊導航台"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:文献馆;zh-tw:聖堂文庫"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黑暗圣坛;zh-tw:黑暗聖殿"
+    },
+    {
+      "original": "Kerrigan",
+      "conv": "zh-cn:凯瑞甘; zh-tw:凱莉根;"
+    },
+    {
+      "original": "Arcturus",
+      "conv": "zh-cn:阿克图尔斯; zh-tw:阿克圖洛斯;"
+    },
+    {
+      "original": "Valerian",
+      "conv": "zh-cn:瓦伦里安; zh-tw:維勒安;"
+    },
+    {
+      "original": "Izsha",
+      "conv": "zh-cn:伊兹莎; zh-tw:伊茲夏;"
+    },
+    {
+      "original": "Zagara",
+      "conv": "zh-cn:扎加拉; zh-tw:札迦拉;"
+    },
+    {
+      "original": "Matt",
+      "conv": "zh-cn:马特; zh-tw:麥特;"
+    },
+    {
+      "original": "Horace",
+      "conv": "zh-cn:霍瑞斯; zh-tw:賀萊士;"
+    },
+    {
+      "original": "Warfield",
+      "conv": "zh-cn:沃菲尔德; zh-tw:沃菲爾;"
+    },
+    {
+      "original": "Tychus",
+      "conv": "zh-cn:泰凯斯; zh-tw:泰科斯;"
+    },
+    {
+      "original": "Rory",
+      "conv": "zh-cn:罗瑞; zh-tw:羅利;"
+    },
+    {
+      "original": "Swann",
+      "conv": "zh-cn:斯旺; zh-tw:史汪;"
+    },
+    {
+      "original": "Ariel",
+      "conv": "zh-cn:艾蕊尔; zh-tw:艾瑞兒;"
+    },
+    {
+      "original": "Hanson",
+      "conv": "zh-cn:汉森; zh-tw:韓森;"
+    },
+    {
+      "original": "Edmund",
+      "conv": "zh-cn:埃德蒙; zh-tw:艾德蒙;"
+    },
+    {
+      "original": "Alexei",
+      "conv": "zh-cn:阿列克谢; zh-tw:艾力克希;"
+    },
+    {
+      "original": "Stukov",
+      "conv": "zh-cn:斯图科夫; zh-tw:斯杜科夫;"
+    },
+    {
+      "original": "Kaldalis",
+      "conv": "zh-cn:塔達力斯; zh-tw:卡達力斯;"
+    },
+    {
+      "original": "Alarak",
+      "conv": "zh-cn:阿拉纳克; zh-tw:亞拉瑞克;"
+    },
+    {
+      "original": "Tal'Darim",
+      "conv": "zh-cn:塔達林; zh-tw:塔達力姆;"
+    },
+    {
+      "original": "Amon",
+      "conv": "zh-cn:埃蒙; zh-tw:亞蒙;"
+    },
+    {
+      "original": "Narud",
+      "conv": "zh-cn:那魯德; zh-tw:那魯;"
+    },
+    {
+      "original": "Gabriel",
+      "conv": "zh-cn:加布里埃尔; zh-tw:蓋布瑞;"
+    },
+    {
+      "original": "Tosh",
+      "conv": "zh-cn:托什; zh-tw:托許;"
+    },
+    {
+      "original": "Egon",
+      "conv": "zh-cn:艾格; zh-tw:伊崗;"
+    },
+    {
+      "original": "Stetmann",
+      "conv": "zh-cn:斯台特曼; zh-tw:斯特曼;"
+    },
+    {
+      "original": "Milo",
+      "conv": "zh-cn:米罗; zh-tw:麥洛;"
+    },
+    {
+      "original": "Kachinsky",
+      "conv": "zh-cn:卡琴斯基; zh-tw:卡臣斯基;"
+    },
+    {
+      "original": "Graven",
+      "conv": "zh-cn:格莱文; zh-tw:葛拉文;"
+    },
+    {
+      "original": "Braxis",
+      "conv": "zh-cn:布莱克西斯; zh-tw:布萊西斯;"
+    },
+    {
+      "original": "Kaldir",
+      "conv": "zh-cn:卡亚迪尔; zh-tw:卡迪爾;"
+    },
+    {
+      "original": "Korhal",
+      "conv": "zh-cn:克哈; zh-tw:克哈;"
+    },
+    {
+      "original": "Mar Sara",
+      "conv": "zh-cn:玛·萨拉; zh-tw:瑪而‧薩拉;"
+    },
+    {
+      "original": "New Folsom",
+      "conv": "zh-cn:新福尔松; zh-tw:紐佛森;"
+    },
+    {
+      "original": "Shiloh",
+      "conv": "zh-cn:塞罗; zh-tw:希羅;"
+    },
+    {
+      "original": "Umoja",
+      "conv": "zh-cn:尤摩扬; zh-tw:尤摩捷;"
+    }
+  ]
+}

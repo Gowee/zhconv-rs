@@ -1,0 +1,579 @@
+{
+  "name": "妖怪手錶",
+  "description": "妖怪手錶",
+  "path": "Template:CGroup/妖怪手錶",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-cn:星風绮罗罗; zh-tw:星風綺羅羅; zh-hk:星風Kirara;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:今井拓海; zh-tw:今井拓海; zh-hk:今井卓巳;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:森野叶子; zh-tw:森野葉子; zh-hk:森野優子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:热血狮; zh-tw:熱血獅; zh-hk:美拉美拉獅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:少根筋小鬼; zh-tw:少根筋小鬼; zh-hk:不用心坊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:特攻胆小鬼; zh-tw:特攻膽小鬼; zh-hk:格拉奇坊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:力量麻吉; zh-tw:力量麻吉; zh-hk:大力年糕;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:胜负士; zh-tw:勝負士; zh-hk:勝負師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:机械弁庆; zh-tw:機械弁慶; zh-hk:機關弁慶;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:睡豬豬; zh-tw:睡豬豬; zh-hk:睡豬;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:燈節豬; zh-tw:燈節豬; zh-hk:睡魔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鍬形蟲武士; zh-tw:鍬形蟲武士; zh-hk:鍬蟲武士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:大锹形虫神; zh-tw:大鍬形蟲神; zh-hk:大鍬形之神;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:八卦婆; zh-tw:八卦婆; zh-hk:八卦婆婆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:扩音婆; zh-tw:擴音婆; zh-hk:大聲婆婆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:忘记帽; zh-tw:忘記帽; zh-hk:健忘帽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:傻瓜头巾; zh-tw:傻瓜頭巾; zh-hk:蠢材頭巾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:放弃僧; zh-tw:放棄僧; zh-hk:不行僧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:骷髅婆; zh-tw:骷髏婆; zh-hk:骷髏婆婆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:当红妖男; zh-tw:當紅妖男; zh-hk:摩天馬古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:电波小鬼; zh-tw:電波小鬼; zh-hk:電波小僧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:电波神; zh-tw:電波神; zh-hk:電神;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:幻觉老师; zh-tw:幻覺老師; zh-hk:魔幻老師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:暗影老师; zh-tw:暗影老師; zh-hk:奇影老師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:读心狗狗; zh-tw:讀心狗狗; zh-hk:悟性狗;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:開花傘; zh-tw:開花傘; zh-hk:反反傘;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:藏紙神; zh-tw:藏紙神; zh-hk:藏紙大神;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:破殼蛋蛋; zh-tw:破殼蛋蛋; zh-hk:脫殼怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:圓雞塊; zh-tw:圓雞塊; zh-hk:卸膊球童;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:修罗小石; zh-tw:修羅小石; zh-hk:修羅哥瑪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:不行墙; zh-tw:不行牆; zh-hk:無理牆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:机器喵; zh-tw:機器喵; zh-hk:Robot喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拒绝城; zh-tw:拒絕城; zh-hk:無理城;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:懒懒不倒翁; zh-tw:懶懶不倒翁; zh-hk:達達磨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:肌肉不倒翁; zh-tw:肌肉不倒翁; zh-hk:筋肉達磨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:嘘嘘象; zh-tw:噓噓象; zh-hk:尿急象;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:富士雪山; zh-tw:富士雪山; zh-hk:富士山;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:混混妖; zh-tw:混混妖; zh-hk:古里裡林;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:老大妖; zh-tw:老大妖; zh-hk:大哥鬼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:大太了法师; zh-tw:大太了法師; zh-hk:大大法師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:高傲丼; zh-tw:高傲丼; zh-hk:自尊炸蝦飯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:忍耐長毛象; zh-tw:忍耐長毛象; zh-hk:忍忍長毛象;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:脫線車; zh-tw:脫線戰車; zh-hk:脫線戰車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:狗喵; zh-tw:狗狗喵; zh-hk:狗狗喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:攔路河豚; zh-tw:攔路河豚; zh-hk:不通河豚;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:破舊骷髏頭; zh-tw:破舊骷髏頭; zh-hk:差錯骨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:誇張漢堡; zh-tw:誇張漢堡; zh-hk:Over漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔雲天; zh-tw:魔雲天; zh-hk:魔鬼駕駛;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:模仿假人; zh-tw:模仿假人; zh-hk:模仿人偶;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:聚雷神; zh-tw:聚雷神; zh-hk:避雷神;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:吉胖喵; zh-tw:吉胖喵; zh-hk:地縛喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:染色喵; zh-tw:染色喵; zh-hk:威斯喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:白骨夫人; zh-tw:白骨夫人; zh-hk:時尚夫人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:长刺喵; zh-tw:長刺喵; zh-hk:突棘喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:旅行河童; zh-tw:旅行河童; zh-hk:旅河童;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:狮子小石; zh-tw:獅子小石; zh-hk:獅子哥瑪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:白抛抛千金; zh-tw:白拋拋千金; zh-hk:卡啦卡啦小姐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:流氓喵; zh-tw:流氓喵; zh-hk:惡霸喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小石狮; zh-tw:小石獅; zh-hk:哥瑪先生;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小石次郎; zh-tw:小石次郎; zh-hk:哥瑪次郎;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:吹雪姫; zh-tw:吹雪姫; zh-hk:吹雪公主;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:猴子喵; zh-tw:猴子喵; zh-hk:馬騮喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:爆雷女孩; zh-tw:爆雷女孩; zh-hk:劇透舞者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:狼狽麵包; zh-tw:狼狽麵包; zh-hk:慘敗麵包;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:懶喵哥倫布; zh-tw:懶喵哥倫布; zh-hk:睡睡哥倫布;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:吉胖哥瑪先生; zh-tw:吉胖小石; zh-hk:地縛哥瑪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:哥瑪先生兄弟的母親; zh-tw:哥瑪先生兄弟的母親; zh-hk:哥瑪媽媽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:裝成熟鬥牛犬; zh-tw:裝大人鬥犬; zh-hk:扮大人老虎狗;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:空腹爷爷; zh-tw:空腹爺爺; zh-hk:肚餓爺爺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:有够兴奋蝶; zh-tw:有夠興奮蝶; zh-hk:鳳鳳蝶;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:雷老爸; zh-tw:雷老爸; zh-hk:雷爸爸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:昆布哥; zh-tw:昆布哥; zh-hk:昆布哥哥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:海藻妹; zh-tw:海藻妹; zh-hk:海草妹妹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:偷吃鬼之助; zh-tw:偷吃鬼之助; zh-hk:偷食之助;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:贪吃爷爷; zh-tw:貪吃爺爺; zh-hk:為食爺爺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:暖暖妖; zh-tw:暖暖妖; zh-hk:可喏啵喏;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:挫折妖; zh-tw:挫折妖; zh-hk:頹氣妖;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:圣诞老老师; zh-tw:聖誕老老師; zh-hk:聖誕老師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:福袋老爷爷; zh-tw:福袋老爺爺; zh-hk:福袋爺爺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:假日爸爸; zh-tw:假日爸爸; zh-hk:新地爸爸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:雉雞喵; zh-tw:雉雞喵; zh-hk:野雞喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:樂天童; zh-tw:樂天童; zh-hk:樂天童子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:加笛安麥爾; zh-tw:卡麥亞管家; zh-hk:卡德米亞管家;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:明天加油女孩; zh-tw:明天加油女孩; zh-hk:明日加油girl;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:聖奶奶; zh-tw:聖奶奶; zh-hk:聖媽媽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:薄影族; zh-tw:薄影族; zh-hk:陰沉族;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宅宅蝙蝠; zh-tw:宅宅蝙蝠; zh-hk:宅男蝙蝠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:无畏恶魔; zh-tw:無畏惡魔; zh-hk:不緊張惡魔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:暗麻吕; zh-tw:闇麻呂; zh-hk:黑暗麻呂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:指路鬼; zh-tw:指路鬼; zh-hk:邊度鬼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:偏心鬼; zh-tw:偏心鬼; zh-hk:大細超鬼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:坐肩小鬼头; zh-tw:坐肩小鬼頭; zh-hk:坐肩小僧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:腰酸背痛工头; zh-tw:腰痠背痛工頭; zh-hk:坐肩大爺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:悲观蚊; zh-tw:悲觀蚊; zh-hk:負能量蚊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超悲观蚊; zh-tw:超悲觀蚊; zh-hk:超負能量蚊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:影忍; zh-tw:影忍; zh-hk:占美;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:影无; zh-tw:影無; zh-hk:陽炎;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:住家蝙蝠; zh-tw:住家蝙蝠; zh-hk:隱青蝙蝠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:忧郁天狗; zh-tw:憂鬱天狗; zh-hk:憂鬱魔天狗;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:怕怕恶魔; zh-tw:怕怕惡魔; zh-hk:緊張惡魔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:推託仙人; zh-tw:推託仙人; zh-hk:卸責仙人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:癢癢怪; zh-tw:癢癢怪; zh-hk:痕痕蚊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:遙控器不見妖; zh-tw:遙控器不見妖; zh-hk:電視妖控;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:冷知識魔; zh-tw:冷知識魔; zh-hk:博學魔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:果然拳擊手; zh-tw:果然拳擊手; zh-hk:負能量小拳王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:自卑王; zh-tw:討厭自己王; zh-hk:討厭自己王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:DJ河童; zh-tw:DJ河童; zh-hk:勁Rap河童;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:作弊雞; zh-tw:作弊雞; zh-hk:卑鄙雞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:易怒培根; zh-tw:易怒培根; zh-hk:硬梆梆煙肉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:USA兔; zh-tw:USA蹦; zh-hk:USA蹦;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:不眠; zh-tw:不眠; zh-hk:不眠怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:刺刺栗子; zh-tw:刺刺栗子; zh-hk:拮拮栗子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:抢夺鸟; zh-tw:搶奪鳥; zh-hk:搶走鳥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:人面肚皮鸟; zh-tw:人面肚皮鳥; zh-hk:肚皮舞鳥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:倒楣楣鸟; zh-tw:倒楣楣鳥; zh-hk:黑仔鵝;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:不刚好鸟; zh-tw:不剛好鳥; zh-hk:出醜鵠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:双头犬; zh-tw:雙頭犬; zh-hk:加奧比羅斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:降雨怪; zh-tw:降雨怪; zh-hk:落雨怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:大话恶女; zh-tw:大話惡女; zh-hk:得把口女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:挑剔女王; zh-tw:挑剔女王; zh-hk:奄尖姐姐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阴沉怪; zh-tw:陰沉怪; zh-hk:冬陰莉露;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小屁孩; zh-tw:小屁孩; zh-hk:放屁仔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:放屁鬼神; zh-tw:放屁鬼神; zh-hk:臭屁鬼神;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鄧盆推託者; zh-tw:鄧盆推託者; zh-hk:呼啦木桶;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:否认男; zh-tw:否認男; zh-hk:否認MEN;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:帥哥犬; zh-tw:帥哥犬; zh-hk:靚仔犬;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:蛇形族; zh-tw:蛇形族; zh-hk:滑嘟嘟族;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小土龙; zh-tw:小土龍; zh-hk:支樂哥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乱买贝; zh-tw:亂買貝; zh-hk:無節制怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:落落长鼻; zh-tw:落落長鼻; zh-hk:長鼻怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小福龙; zh-tw:小福龍; zh-hk:福龍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:龙宝; zh-tw:龍寶; zh-hk:龍仔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:闲晃鲨鱼; zh-tw:閒晃鯊魚; zh-hk:遊蕩鯊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:初学者鲨鱼; zh-tw:初學者鯊魚; zh-hk:初學鯊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:凯子贝壳; zh-tw:凱子貝殼; zh-hk:大洗貝殼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:长鼻芭娜娜; zh-tw:長鼻芭娜娜; zh-hk:長蕉怪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:回想鱉; zh-tw:回想鱉; zh-hk:回憶水魚;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:初學者鯊; zh-tw:初學者鯊; zh-hk:初學鯊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:多話蛇; zh-tw:多話蛇; zh-hk:添足蛇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:歡笑土壺; zh-tw:歡笑土壺; zh-hk:笑笑壺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:驚嚇鱷; zh-tw:驚嚇鱷; zh-hk:驚青鱷魚;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黯淡騎士; zh-tw:黯淡騎士; zh-hk:一身空螺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:熊猫小土龙; zh-tw:熊貓小土龍; zh-hk:支樂熊貓;"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "name": "Heroes of the Storm",
+  "description": "[[Template:CGroup/Heroes_of_the_Storm|风暴英雄]]",
+  "path": "Template:CGroup/Heroes of the Storm",
+  "rules": [
+    {
+      "original": "Heroes of the Storm",
+      "conv": "zh-cn:风暴英雄;zh-tw:暴雪英霸;zh-hk:暴雪英霸;zh-sg:暴雪英霸;zh-mo:暴雪英霸;"
+    },
+    {
+      "original": "Diabio",
+      "conv": "zh-cn:暗黑破坏神;zh-tw:暗黑破壞神;zh-hk:暗黑破壞神;zh-sg:暗黑破坏神;zh-mo:暗黑破壞神;"
+    },
+    {
+      "original": "Warcraft",
+      "conv": "zh-cn:魔兽世界;zh-tw:魔獸爭霸;zh-hk:魔獸爭霸;zh-sg:魔兽争霸;zh-mo:魔獸爭霸;"
+    },
+    {
+      "original": "Overwatch",
+      "conv": "zh-cn:守望先锋;zh-tw:鬥陣特攻;zh-hk:鬥陣特攻;zh-sg:守望先锋;zh-mo:鬥陣特攻;"
+    },
+    {
+      "original": "Classic",
+      "conv": "zh-cn:复古;zh-tw:懷舊經典;zh-hk:懷舊經典;zh-sg:怀旧经典;zh-mo:懷舊經典;"
+    },
+    {
+      "original": "Starcraft",
+      "conv": "zh-cn:星际争霸;zh-tw:星海爭霸;zh-hk:星際爭霸;zh-sg:星际争霸;zh-mo:星海爭霸;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:战斗型;zh-hk:戰士;zh-tw:戰士;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:刺杀型;zh-hk:刺客;zh-tw:刺客;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:辅助型;zh-hk:輔助;zh-tw:輔助;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:专业型;zh-hk:專家;zh-tw:專家;"
+    },
+    {
+      "original": "Li Li",
+      "conv": "zh-cn:丽丽;zh-tw:莉莉;zh-hk:莉莉;zh-sg:莉莉;zh-mo:莉莉;"
+    },
+    {
+      "original": "Murky",
+      "conv": "zh-cn:奔波尔霸;zh-tw:莫奇;zh-hk:莫奇;zh-sg:莫奇;zh-mo:莫奇;"
+    },
+    {
+      "original": "Rehgar",
+      "conv": "zh-cn:雷加尔;zh-tw:雷加;zh-hk:雷加;zh-sg:雷加;zh-mo:雷加;"
+    },
+    {
+      "original": "Brightwing",
+      "conv": "zh-cn:光明之翼;zh-tw:亮翼;zh-hk:亮翼;zh-sg:亮翼;zh-mo:亮翼;"
+    },
+    {
+      "original": "Arthas",
+      "conv": "zh-cn:阿尔萨斯;zh-hk:阿薩斯;zh-tw:阿薩斯;"
+    },
+    {
+      "original": "Malfurion",
+      "conv": "zh-cn:玛法里奥;zh-tw:瑪法里恩;"
+    },
+    {
+      "original": "Tyrande",
+      "conv": "zh-cn:泰兰德;zh-hk:泰蘭妲;zh-tw:泰蘭妲;"
+    },
+    {
+      "original": "Uther",
+      "conv": "zh-cn:乌瑟尔;zh-hk:烏瑟;zh-tw:烏瑟;"
+    },
+    {
+      "original": "Chen",
+      "conv": "老陳=>zh-cn:陈;老陳=>zh-sg:老陈;"
+    },
+    {
+      "original": "Jaina",
+      "conv": "zh-cn:吉安娜·普罗德摩尔;zh-hk:珍娜;zh-tw:珍娜;"
+    },
+    {
+      "original": "Thrall",
+      "conv": "zh-cn:萨尔;zh-hk:索爾;zh-tw:索爾;"
+    },
+    {
+      "original": "Sylvanas",
+      "conv": "zh-cn:希尔瓦纳斯;zh-hk:希瓦娜斯;zh-tw:希瓦娜斯;"
+    },
+    {
+      "original": "Greymane",
+      "conv": "zh-cn:格雷迈恩;zh-hk:葛雷邁恩;zh-tw:葛雷邁恩;"
+    },
+    {
+      "original": "Chogall",
+      "conv": "zh-cn:古加尔;zh-hk:丘加利;zh-tw:丘加利;"
+    },
+    {
+      "original": "Mountain King",
+      "conv": "zh-cn:山丘之王;zh-tw:山脈之王;zh-hk:山脈之王;zh-sg:山脉之王;zh-mo:山脈之王;"
+    },
+    {
+      "original": "World Wanderer",
+      "conv": "zh-cn:世界行者;zh-tw:漂泊遊子;zh-hk:漂泊遊子;zh-sg:漂泊遊子;zh-mo:漂泊遊子;"
+    },
+    {
+      "original": "Shaman of the Earthen Ring",
+      "conv": "zh-cn:大地之环萨满;zh-tw:陶土議會的薩滿;zh-hk:陶土議會的薩滿;zh-sg:陶土议会的萨满;zh-mo:陶土議會的薩滿;"
+    },
+    {
+      "original": "Boss of Ratchet",
+      "conv": "zh-cn:棘齿城老板;zh-tw:棘齒城的老大;zh-hk:棘齒城的老大;zh-sg:棘齿城的老大;zh-mo:棘齒城的老大;"
+    },
+    {
+      "original": "E.T.C.",
+      "conv": "zh-cn:精英牛头人酋长;zh-tw:精英牛頭大佬;zh-hk:精英牛頭大佬;zh-sg:精英牛头大佬;zh-mo:精英牛頭大佬;"
+    },
+    {
+      "original": "Rock God",
+      "conv": "zh-cn:摇滚教父;zh-tw:搖滾之神;zh-hk:搖滾之神;zh-sg:摇滚之神;zh-mo:搖滾之神;"
+    },
+    {
+      "original": "High Priestess of Elune",
+      "conv": "zh-cn:艾露恩的高阶女祭司;zh-tw:伊露恩的高階女祭司;zh-hk:伊露恩的高階女祭司;zh-sg:伊露恩的高阶女祭司;zh-mo:伊露恩的高階女祭司;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:叛变的国王;zh-hk:逆王;zh-tw:逆王;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:传奇酒仙;zh-hk:傳奇釀酒大師;zh-tw:傳奇釀酒大師;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:肯瑞托大法师;zh-hk:大法師;zh-tw:大法師;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:部落大酋长;zh-hk:部落的大酋長;zh-tw:部落的大酋長;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:暮光之锤的酋长;zh-hk:暮光之鎚的酋長;zh-tw:暮光之鎚的酋長;"
+    },
+    {
+      "original": "Tychus",
+      "conv": "zh-cn:泰凯斯;zh-tw:泰科斯;zh-hk:泰科斯;zh-sg:泰科斯;zh-mo:泰科斯;"
+    },
+    {
+      "original": "Tassadar",
+      "conv": "zh-cn:塔萨达尔;zh-tw:塔薩達;zh-hk:塔薩達;zh-sg:塔萨达;zh-mo:塔薩達;"
+    },
+    {
+      "original": "Zagara",
+      "conv": "zh-cn:扎加拉;zh-tw:扎迦拉;zh-hk:扎迦拉;zh-sg:扎迦拉;zh-mo:扎迦拉;"
+    },
+    {
+      "original": "SGT. Hammer",
+      "conv": "zh-cn:重锤军士;zh-tw:榔頭中士;zh-hk:榔頭中士;zh-sg:榔头中士;zh-mo:榔頭中士;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:凯瑞甘;zh-hk:凱莉根;zh-tw:凱莉根;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:莫拉莉斯中尉;zh-hk:莫拉萊斯中尉;zh-tw:莫拉萊斯中尉;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:阿塔尼斯;zh-hk:亞坦尼斯;zh-tw:亞坦尼斯;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:德哈卡;zh-hk:德哈卡;zh-tw:德哈卡;"
+    },
+    {
+      "original": "Queen of Blades",
+      "conv": "zh-cn:刀锋女王;zh-tw:刀鋒女皇;zh-hk:刀鋒女皇;zh-sg:刀锋女皇;zh-mo:刀鋒女皇;"
+    },
+    {
+      "original": "Notorious Outlaw",
+      "conv": "zh-cn:臭名昭著的罪犯;zh-tw:惡名昭彰的罪犯;zh-hk:惡名昭彰的罪犯;zh-sg:恶名昭彰的罪犯;zh-mo:惡名昭彰的罪犯;"
+    },
+    {
+      "original": "Brood Mother of the Swarm",
+      "conv": "zh-cn:虫群之母;zh-tw:蟲群蟲后;zh-hk:蟲群蟲后;zh-sg:虫群虫后;zh-mo:蟲群蟲后;"
+    },
+    {
+      "original": "Renegade Commander",
+      "conv": "zh-cn:起义军指挥官;zh-tw:反抗組織指揮官;zh-hk:反抗組織指揮官;zh-sg:反抗组织指挥官;zh-mo:反抗組織指揮官;"
+    },
+    {
+      "original": "Dark Prelate",
+      "conv": "zh-cn:黑暗圣堂领袖;zh-tw:黑暗教長;zh-hk:黑暗教長;zh-sg:黑暗教长;zh-mo:黑暗教長;"
+    },
+    {
+      "original": "Evolution Master",
+      "conv": "zh-cn:进化大师;zh-tw:進化管理者;zh-hk:進化管理者;zh-sg:进化管理者;zh-mo:進化管理者;"
+    },
+    {
+      "original": "Dominion Ghost",
+      "conv": "zh-cn:帝国幽灵特工;zh-tw:自治聯盟幽靈特務;zh-hk:自治聯盟幽靈特務;zh-sg:自治联盟幽灵特务;zh-mo:自治聯盟幽靈特務;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:战地医疗兵;zh-hk:戰地醫護官;zh-tw:戰地醫護官;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:达拉姆的大主教;zh-hk:達蘭的大主教;zh-tw:達蘭的大主教;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:原始族群首领;zh-hk:原生族群領袖;zh-tw:原生族群領袖;"
+    },
+    {
+      "original": "Sonya",
+      "conv": "zh-cn:桑娅;zh-tw:桑雅;zh-hk:桑雅;zh-sg:桑雅;zh-mo:桑雅;"
+    },
+    {
+      "original": "Diablo",
+      "conv": "zh-cn:迪亚波罗;zh-hk:迪亞布羅;zh-tw:迪亞布羅;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:纳兹巴;zh-hk:納奇班;zh-tw:納奇班;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:乔汉娜;zh-hk:喬安娜;zh-tw:喬安娜;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:卡拉辛姆;zh-hk:克拉辛;zh-tw:克拉辛;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:祖尔;zh-hk:蘇爾;zh-tw:蘇爾;"
+    },
+    {
+      "original": "Demon Hunter",
+      "conv": "zh-cn:猎魔人;zh-hk:狩魔獵人;zh-tw:狩魔獵人"
+    },
+    {
+      "original": "Archangel of Justice",
+      "conv": "zh-cn:正义大天使;zh-tw:義天使;zh-hk:義天使;zh-sg:义天使;zh-mo:義天使;"
+    },
+    {
+      "original": "Umbaru Heretic",
+      "conv": "zh-cn:异教徒巫医;zh-tw:異端巫醫;zh-hk:異端巫醫;zh-sg:异端巫医;zh-mo:異端巫醫;"
+    },
+    {
+      "original": "Wanderer of the North",
+      "conv": "zh-cn:迷途野蛮人;zh-hk:流浪野蠻人;zh-tw:流浪野蠻人;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:萨卡兰姆圣教军;zh-hk:撒卡蘭姆的聖教軍;zh-tw:撒卡蘭姆的聖教軍;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:血肉雕刻者;zh-hk:血肉剁切者;zh-tw:血肉剁切者;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:梵罗达尼武僧;zh-hk:梵羅達尼的武僧;zh-tw:梵羅達尼的武僧;"
+    },
+    {
+      "original": "待补充",
+      "conv": "zh-cn:狂热的魔法师;zh-hk:叛逆的秘術師;zh-tw:叛逆的秘術師;"
+    },
+    {
+      "original": "Tracer",
+      "conv": "zh-cn:猎空;zh-hk:閃光;zh-tw:閃光;"
+    },
+    {
+      "original": "Zarya",
+      "conv": "zh-cn:查莉娅;zh-hk:札莉雅;zh-tw:札莉雅;"
+    },
+    {
+      "original": "Agent of Overwatch",
+      "conv": "zh-cn:守望先锋特工;zh-hk:捍衛者成員;zh-tw:捍衛者成員;"
+    },
+    {
+      "original": "Defender of Russia",
+      "conv": "zh-cn:俄罗斯卫士;zh-hk:俄羅斯的守護者;zh-tw:俄羅斯的守護者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:JT;zh-tw:FT;zh-hk:FT;zh-sg:FT;zh-mo:FT;"
+    }
+  ]
+}

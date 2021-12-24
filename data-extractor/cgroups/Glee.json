@@ -1,0 +1,275 @@
+{
+  "name": "Glee",
+  "description": "歡樂合唱團",
+  "path": "Module:CGroup/Glee",
+  "rules": [
+    {
+      "original": "Artie",
+      "conv": "zh-tw:亞提;zh-hk:雅德;zh-hans:阿蒂"
+    },
+    {
+      "original": "Blaine",
+      "conv": "zh-tw:布萊恩;zh-hk:秉良;zh-hans:布莱恩"
+    },
+    {
+      "original": "Brittany",
+      "conv": "zh-tw:布芮塔妮;zh-hk:碧彤;zh-hans:布里特妮"
+    },
+    {
+      "original": "Carl",
+      "conv": "zh-tw:卡爾;zh-hk:家賢;zh-hans:卡尔"
+    },
+    {
+      "original": "Mike Chang",
+      "conv": "zh-tw:張麥克;zh-hk:張明;zh-hans:麦克·张"
+    },
+    {
+      "original": "Tina Cohen-Chang",
+      "conv": "zh-tw:張蒂娜;zh-hk:張天娜;zh-hans:蒂娜·常"
+    },
+    {
+      "original": "Sunshine Corazon",
+      "conv": "zh-tw:陽光·可拉頌; zh-hk:郭天晴;zh-hans:阳光"
+    },
+    {
+      "original": "Emma",
+      "conv": "zh-tw:愛瑪; zh-hk:安曼;zh-hans:艾玛"
+    },
+    {
+      "original": "Finn",
+      "conv": "zh-tw:菲恩; zh-hk:輝;zh-hans:芬恩"
+    },
+    {
+      "original": "Holly Holliday",
+      "conv": "zh-tw:荷莉·霍勒迪;zh-hk:何可鈴;zh-hans:霍莉·霍勒迪"
+    },
+    {
+      "original": "Kurt",
+      "conv": "zh-tw:科特;zh-hk:洪強;zh-hans:科特"
+    },
+    {
+      "original": "Mercedes",
+      "conv": "zh-tw:梅塞德絲;zh-hk:美詩;zh-hans:梅塞德斯"
+    },
+    {
+      "original": "Noah",
+      "conv": "zh-tw:諾亞;zh-hk:諾雅;zh-hans:诺亚"
+    },
+    {
+      "original": "Quinn",
+      "conv": "zh-tw:昆恩;zh-hk:君欣;zh-hans:奎恩"
+    },
+    {
+      "original": "Rachel",
+      "conv": "zh-tw:瑞秋; zh-hk:蕙秋;zh-hans:蕾切尔"
+    },
+    {
+      "original": "Bryan Ryan",
+      "conv": "zh-tw:布萊恩·萊恩;zh-hk:衛百仁;zh-hans:布莱恩·莱恩"
+    },
+    {
+      "original": "Sam",
+      "conv": "zh-tw:山姆;zh-hk:艾信;zh-hans:萨姆"
+    },
+    {
+      "original": "Santana",
+      "conv": "zh-tw:珊塔娜;zh-hk:倩婷;zh-hans:桑塔娜"
+    },
+    {
+      "original": "Terri Schuester",
+      "conv": "zh-tw:泰莉·舒斯特;zh-hk:舒泰莉;zh-hans:特丽·舒斯特"
+    },
+    {
+      "original": "Sue",
+      "conv": "zh-tw:蘇;zh-hk:素兒;zh-hans:苏"
+    },
+    {
+      "original": "Will",
+      "conv": "zh-tw:威爾; zh-hk:偉廉;zh-hans:威尔"
+    },
+    {
+      "original": "Dianna Agron",
+      "conv": "zh-tw:黛安娜·亞格朗;zh-hk:戴安娜·艾嘉朗;zh-hans:戴安娜·亚格朗"
+    },
+    {
+      "original": "Chris Colfer",
+      "conv": "zh-tw:克里斯·柯佛;zh-hk:基斯·高佛;zh-hans:克里斯·科佛"
+    },
+    {
+      "original": "Darren Criss",
+      "conv": "zh-tw:戴倫·克里斯;zh-hk:戴倫·紀思;zh-hans:达伦·克里斯"
+    },
+    {
+      "original": "Jessalyn Gilsig",
+      "conv": "zh-tw:潔薩琳·基爾西格;zh-hk:頌思琳·基思格;zh-hans:洁萨琳·基尔西格"
+    },
+    {
+      "original": "Jayma Mays",
+      "conv": "zh-tw:潔瑪·梅斯;zh-hk:珍曼·美詩;zh-hans:杰玛·梅斯"
+    },
+    {
+      "original": "Kevin McHale",
+      "conv": "zh-tw:凱文·麥克海爾;zh-hk:奇雲·米高·麥凱爾;zh-hans:凯文·麦克海尔"
+    },
+    {
+      "original": "Cory Monteith",
+      "conv": "zh-tw:柯瑞·蒙堤斯;zh-hk:紀偉·蒙迪芬;zh-hans:科瑞·蒙堤斯"
+    },
+    {
+      "original": "Heather Morris",
+      "conv": "zh-tw:希瑟·莫理斯;zh-hk:杏花·妙麗詩;zh-hans:希瑟·莫理斯"
+    },
+    {
+      "original": "Matthew Morrison",
+      "conv": "zh-tw:馬修·莫瑞森;zh-hk:文輝·馬連森;zh-hans:马修·莫瑞森"
+    },
+    {
+      "original": "Mike OMalley",
+      "conv": "zh-tw:麥克·歐馬利;zh-hk:邁克·奧麥雷;zh-hans:麦克·欧马利"
+    },
+    {
+      "original": "Chord Overstreet",
+      "conv": "zh-tw:寇爾德·歐弗史崔特;zh-hk:捷德·歐福士圖;zh-hans:寇尔德·欧弗史崔特"
+    },
+    {
+      "original": "Amber Riley",
+      "conv": "zh-tw:安玻爾·萊利;zh-hk:愛芭·慧莉;zh-hans:安玻尔·莱利"
+    },
+    {
+      "original": "Naya Rivera",
+      "conv": "zh-tw:娜雅·李維拉;zh-hk:蓮雅·惠福娜;zh-hans:娜雅·利维拉"
+    },
+    {
+      "original": "Mark Salling",
+      "conv": "zh-tw:馬克·薩林;zh-hk:馬可·森里;zh-hans:马克·赛林"
+    },
+    {
+      "original": "Harry Shum, Jr.",
+      "conv": "zh-tw:岑勇康;zh-hk:岑勇康;zh-hans:岑勇康"
+    },
+    {
+      "original": "Jenna Ushkowitz",
+      "conv": "zh-tw:珍娜·烏什克維茲;zh-hk:珍娜·鳥古茨;zh-hans:珍娜·乌什克维兹"
+    },
+    {
+      "original": "Alex",
+      "conv": "zh-tw:亞歷克斯;zh-hans:艾利克斯"
+    },
+    {
+      "original": "Cameron",
+      "conv": "zh-tw:卡麥隆;zh-hans:卡梅隆;"
+    },
+    {
+      "original": "Damian",
+      "conv": "zh-tw:達米安;zh-hans:达米安;"
+    },
+    {
+      "original": "Emily",
+      "conv": "zh-tw:艾蜜莉;zh-hans:艾米丽;"
+    },
+    {
+      "original": "Fernandes",
+      "conv": "zh-tw:費南德斯;zh-hans:费尔南德斯;"
+    },
+    {
+      "original": "Larsen",
+      "conv": "zh-tw:拉森;zh-hans:劳森;"
+    },
+    {
+      "original": "Lindsay",
+      "conv": "zh-tw:琳賽;zh-hans:林茜;"
+    },
+    {
+      "original": "Marissa",
+      "conv": "zh-tw:瑪莉莎;zh-hans:米丽莎;"
+    },
+    {
+      "original": "McGinty",
+      "conv": "zh-tw:麥金提;zh-hans:米金提;"
+    },
+    {
+      "original": "McKynleigh",
+      "conv": "zh-tw:麥金莉;zh-hans:麦金利;"
+    },
+    {
+      "original": "Mitchell",
+      "conv": "zh-tw:米歇爾;zh-hans:米切尔;"
+    },
+    {
+      "original": "Newell",
+      "conv": "zh-tw:紐厄爾;zh-hans:尼维尔;"
+    },
+    {
+      "original": "Ross-Johnson",
+      "conv": "zh-tw:羅斯·強森;zh-hans:罗斯·约翰逊;"
+    },
+    {
+      "original": "von Bleicken",
+      "conv": "zh-tw:馮·布萊肯;zh-hans:沃恩·布莱肯;"
+    },
+    {
+      "original": "Samuel",
+      "conv": "zh-tw:山謬;zh-hans:塞缪尔;"
+    },
+    {
+      "original": "Nikki",
+      "conv": "zh-tw:妮基;zh-hans:尼基;"
+    },
+    {
+      "original": "Nikki Anders",
+      "conv": "zh-tw:妮基·安德斯;zh-hans:尼基·安德斯;"
+    },
+    {
+      "original": "Michael Davies",
+      "conv": "zh-tw:麥可·戴維斯;zh-hans:迈克尔·达维斯"
+    },
+    {
+      "original": "Dante Di Loreto",
+      "conv": "zh-tw:但丁·狄·洛雷托;zh-hans:丹特·迪·洛雷托;"
+    },
+    {
+      "original": "Brad Falchuk",
+      "conv": "zh-tw:布萊德·法查克;zh-hk:布拉德·法查克;"
+    },
+    {
+      "original": "Ryan Murphy",
+      "conv": "zh-tw:萊恩·墨菲;zh-hans:莱恩·墨菲;"
+    },
+    {
+      "original": "Robert Ulrich",
+      "conv": "zh-tw:羅伯特·攸瑞克;zh-hans:罗伯特·乌尔里希;"
+    },
+    {
+      "original": "Zach Woodlee",
+      "conv": "zh-tw:扎克·伍得理;zh-hans:扎克·乌迪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:歡樂合唱團;zh-hk:吉列合唱團;zh-hans:欢乐合唱团"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:歡樂合唱爭霸戰;zh-hans:欢乐计划"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:真人實境秀;zh-hans:真人秀"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:裁判;zh-hans:评判"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:墊底三名;zh-hans:待定三人"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:墊底;zh-hans:待定"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:客座指導;zh-hans:客座教练"
+    }
+  ]
+}

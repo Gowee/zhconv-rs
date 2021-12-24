@@ -1,0 +1,3159 @@
+{
+  "name": "LuaShow",
+  "description": "藝人譯名",
+  "path": "Template:CGroup/LuaShow",
+  "rules": [
+    {
+      "original": "Adams, Amy",
+      "conv": "zh-hans:艾米·亚当斯; zh-hk:愛美·雅當絲; zh-tw:艾美·亞當斯;"
+    },
+    {
+      "original": "Adele",
+      "conv": "zh-hans:阿黛尔; zh-hk:愛黛兒; zh-cn:阿黛尔; zh-tw:愛黛兒; zh-sg:阿黛尔;"
+    },
+    {
+      "original": "Affleck, Ben",
+      "conv": "zh-hans:本·阿弗莱克; zh-hk:賓·艾佛力; zh-tw:班·艾佛列克;"
+    },
+    {
+      "original": "Aguilera, Christina",
+      "conv": "zh-cn:克里斯蒂娜·阿奎莱拉; zh-tw:克莉絲汀·阿奎萊拉; zh-hk:克莉絲汀·阿奎萊拉;"
+    },
+    {
+      "original": "Alba, Jessica",
+      "conv": "zh-cn:杰西卡·阿尔巴; zh-hk:謝茜嘉·艾芭; zh-tw:潔西卡·艾芭"
+    },
+    {
+      "original": "Allen, Gene",
+      "conv": "zh-cn:金·艾伦; zh-hk:真·亞倫; zh-tw:金·艾倫;"
+    },
+    {
+      "original": "Allen, Joan",
+      "conv": "zh-hk:鍾·艾倫; zh-tw:瓊·愛倫; zh-cn:琼·爱伦;"
+    },
+    {
+      "original": "Allen, Woody",
+      "conv": "zh-cn:伍迪·艾伦; zh-hk:活地·亞倫; zh-tw:伍迪·艾倫;"
+    },
+    {
+      "original": "Almodóvar, Pedro",
+      "conv": "zh-hans:佩德罗·阿尔莫多瓦尔; zh-hk:貝德羅·艾慕杜華; zh-tw:佩德羅·阿莫多瓦;"
+    },
+    {
+      "original": "Altman, Robert",
+      "conv": "zh-hk:羅拔·柯曼; zh-tw:勞勃·阿特曼; zh-cn:罗伯特·奥特曼;"
+    },
+    {
+      "original": "Andrews, Julie",
+      "conv": "zh-cn:朱莉·安德鲁斯; zh-hk:茱莉·安德絲; zh-tw:茱莉·安德魯絲"
+    },
+    {
+      "original": "Aniston, Jennifer",
+      "conv": "zh-cn:珍妮佛·安妮斯顿; zh-tw:珍妮佛·安妮斯頓; zh-hk:珍妮花·安妮斯頓;"
+    },
+    {
+      "original": "Aoki, Devon",
+      "conv": "zh-tw:戴文·青木; zh-hk:迪芳·青木; zh-cn:戴文·青木;"
+    },
+    {
+      "original": "Apatow, Judd",
+      "conv": "zh-cn:贾德·阿帕图; zh-hk:祖艾·柏圖; zh-tw:賈德·艾帕托"
+    },
+    {
+      "original": "Archuleta, David",
+      "conv": "zh-cn:大卫·阿楚雷塔; zh-hk:大衛·阿丘利塔; zh-tw:陽光大衛"
+    },
+    {
+      "original": "Arkin, Alan",
+      "conv": "zh-cn:阿兰·阿尔金; zh-tw:亞倫·艾金; zh-hk:艾倫·雅堅;"
+    },
+    {
+      "original": "Arterton, Gemma",
+      "conv": "zh-cn:杰玛·阿特登; zh-tw:潔瑪·艾特頓; zh-hk:珍瑪·雅德頓;"
+    },
+    {
+      "original": "Astin, Sean",
+      "conv": "zh-cn:肖恩·阿斯廷; zh-hk:辛·艾斯丁; zh-tw:西恩·艾斯汀"
+    },
+    {
+      "original": "Atkinson, Rowan",
+      "conv": "zh-cn:罗温·阿特金森; zh-hk:路雲·雅堅遜; zh-tw:羅溫·艾金森"
+    },
+    {
+      "original": "Attenborough, David",
+      "conv": "zh-cn:大卫·阿滕伯勒; zh-hk:大衛·艾登堡; zh-tw:大衛·艾登堡"
+    },
+    {
+      "original": "Autry, Gene",
+      "conv": "zh-cn:吉恩·奥特里; zh-hk:眞·柯利; zh-tw:金·奧崔;"
+    },
+    {
+      "original": "Aykroyd, Dan",
+      "conv": "zh-tw:丹·艾克洛德; zh-hk:丹·艾克萊; zh-hans:丹·艾克罗伊德;"
+    },
+    {
+      "original": "Bacall, Lauren",
+      "conv": "羅蘭·比歌=>zh-tw:洛琳·白考兒;羅蘭·比歌=>zh-cn:劳伦·白考尔;"
+    },
+    {
+      "original": "Bacall, Lauren",
+      "conv": "zh-tw:洛琳·白考兒;zh-hk:羅蓮·比歌;zh-cn:劳伦·白考尔;"
+    },
+    {
+      "original": "Bacon, Kevin",
+      "conv": "zh-cn:凯文·贝肯; zh-hk:奇雲·貝根; zh-tw:凱文·貝肯"
+    },
+    {
+      "original": "Baker, Simon",
+      "conv": "zh-cn:赛门·贝克; zh-tw:賽門·貝克; zh-hk:西門·碧加;"
+    },
+    {
+      "original": "Baldwin, Alec",
+      "conv": "艾力克·包德溫=>zh-tw:亞歷·鮑德溫;艾力克·包德溫=>zh-hk:艾力·寶雲;艾力克·包德溫=>zh-cn:亚历克·鲍德温;艾力克·包德溫=>zh-mo:艾力·寶雲;"
+    },
+    {
+      "original": "Baldwin, Alec",
+      "conv": "zh-cn:亚历克·鲍德温; zh-tw:亞歷·鮑德溫; zh-hk:艾力·寶雲;"
+    },
+    {
+      "original": "Bale, Christian Charles Philip",
+      "conv": "zh-cn:克里斯蒂安·查尔斯·菲利普·贝尔; zh-tw:克里斯汀·查爾斯·菲力普·貝爾; zh-hk:基斯頓·查理斯·菲臘·比爾;"
+    },
+    {
+      "original": "Bale, Christian",
+      "conv": "zh-cn:克里斯蒂安·贝尔; zh-tw:克里斯汀·貝爾; zh-hk:基斯頓·比爾;"
+    },
+    {
+      "original": "Banderas, Antonio",
+      "conv": "zh-cn:安东尼奥·班德拉斯; zh-tw:安東尼奧·班德拉斯; zh-hk:安東尼奧·班達拉斯;"
+    },
+    {
+      "original": "Banks, Elizabeth",
+      "conv": "zh-cn:伊莉莎白·班克絲; zh-tw:伊莉莎白·班克絲; zh-hk:伊莉莎伯·班絲;"
+    },
+    {
+      "original": "Bardem, Javier",
+      "conv": "zh-cn:贾维尔·巴尔登; zh-tw:哈維爾·巴登; zh-hk:查維爾·巴頓;"
+    },
+    {
+      "original": "Barrymore, Drew",
+      "conv": "zh-cn:德鲁·巴里莫尔; zh-hk:茱·芭莉摩; zh-tw:茱兒·芭莉摩"
+    },
+    {
+      "original": "Barton, Mischa",
+      "conv": "zh-cn:米沙·巴顿; zh-hk:美莎·芭頓; zh-tw:米莎·巴頓"
+    },
+    {
+      "original": "Baruchel, Jay",
+      "conv": "zh-hk:積·巴朗祖; zh-tw:傑·巴魯契; zh-cn:杰·巴鲁契;"
+    },
+    {
+      "original": "Basinger, Kim",
+      "conv": "zh-cn:金·贝辛杰; zh-tw:金·貝辛格; zh-hk:金·碧辛嘉;"
+    },
+    {
+      "original": "Bates, Kathy",
+      "conv": "zh-tw:凱西·貝茲; zh-hk:嘉菲·比絲; zh-cn:凯西·贝兹;"
+    },
+    {
+      "original": "Batista, Henry",
+      "conv": "zh-tw:亨利·巴提斯塔; zh-hk:亨利·巴提斯塔; zh-cn:亨利·巴蒂斯塔;"
+    },
+    {
+      "original": "Beals, Jennifer",
+      "conv": "zh-tw:珍妮佛·貝兒; zh-hk:珍妮花·貝絲; zh-hans:珍妮弗·比尔斯;"
+    },
+    {
+      "original": "Bean, Sean",
+      "conv": "zh-cn:肖恩·比恩; zh-hk:辛·般; zh-tw:西恩·賓"
+    },
+    {
+      "original": "Beatles, The",
+      "conv": "zh-cn:披头士; zh-hk:披頭四; zh-tw:披頭四"
+    },
+    {
+      "original": "Beckinsale, Kate",
+      "conv": "zh-cn:凯特·贝金塞尔; zh-hk:姬蒂·碧金莎; zh-tw:凱特·貝琴薩;"
+    },
+    {
+      "original": "Bell, Jamie",
+      "conv": "zh-cn:杰米·贝尔; zh-hk:占美·比爾; zh-tw:傑米·貝爾"
+    },
+    {
+      "original": "Bell, Kristen",
+      "conv": "zh-cn:克里斯滕·贝尔; zh-hk:基絲汀·貝爾; zh-tw:克莉絲汀·貝爾"
+    },
+    {
+      "original": "Bellamy, Matthew",
+      "conv": "zh-cn:马修·贝拉米; zh-tw:馬修·貝勒米; zh-hk:馬修·貝勒米; zh-sg:马修·贝拉米;"
+    },
+    {
+      "original": "Bellucci, Monica",
+      "conv": "zh-cn:莫妮卡·贝鲁奇; zh-hk:蒙妮卡·貝露琪; zh-tw:莫妮卡·貝魯奇"
+    },
+    {
+      "original": "Benigni, Roberto",
+      "conv": "zh-cn:罗伯托·贝尼尼; zh-tw:羅貝托·貝尼尼; zh-hk:羅貝托·貝尼尼;"
+    },
+    {
+      "original": "Berenger, Tom",
+      "conv": "zh-cn:汤姆·贝伦杰;zh-tw:湯姆·貝林傑;zh-hk:湯·比靈治;;"
+    },
+    {
+      "original": "Bergman, Ingmar",
+      "conv": "zh-hk:英瑪·褒曼; zh-tw:英格瑪·柏格曼; zh-cn:英格玛·伯格曼;"
+    },
+    {
+      "original": "Bergman, Ingrid",
+      "conv": "zh-hk:英格麗·褒曼; zh-tw:英格麗·褒曼; zh-cn:英格丽·褒曼;"
+    },
+    {
+      "original": "Bernstein, Leonard",
+      "conv": "zh-cn:伦纳德·伯恩斯坦; zh-hk:雷納德·伯恩斯坦; zh-tw:雷納德·伯恩斯坦;"
+    },
+    {
+      "original": "Berry, Halle",
+      "conv": "zh-cn:哈莉·贝瑞; zh-hk:荷爾·芭莉; zh-tw:荷莉·貝瑞"
+    },
+    {
+      "original": "Berryman, Guy",
+      "conv": "zh-cn:盖伊·贝里曼; zh-tw:蓋·貝瑞曼; zh-hk:蓋·貝瑞曼; zh-sg:盖伊·贝里曼;"
+    },
+    {
+      "original": "Bert, Malcolm",
+      "conv": "zh-cn:马尔科姆·伯特; zh-hk:馬琴·畢; zh-tw:麥爾坎·伯特;"
+    },
+    {
+      "original": "Besson, Luc",
+      "conv": "zh-cn:吕克·贝松; zh-tw:盧·貝松; zh-hk:洛·比桑;"
+    },
+    {
+      "original": "Bettany, Paul",
+      "conv": "zh-cn:保罗·贝特尼; zh-tw:保羅·彼特尼; zh-hk:保羅·畢丹尼;"
+    },
+    {
+      "original": "Biel, Jessica",
+      "conv": "zh-cn:杰西卡·贝尔; zh-hk:謝茜嘉·比爾; zh-tw:潔西卡·貝兒"
+    },
+    {
+      "original": "Big, Mr.",
+      "conv": "zh-cn:大先生乐队; zh-hk:大人物合唱團; zh-tw:大人物合唱團"
+    },
+    {
+      "original": "Bigelow, Kathryn",
+      "conv": "zh-tw:凱薩琳·畢格羅; zh-cn:凯萨琳·毕格罗; zh-hk:嘉芙蓮·碧嘉露;"
+    },
+    {
+      "original": "Bilson, Rachel",
+      "conv": "zh-cn:蕾切尔·比尔森; zh-tw:瑞秋·比爾森; zh-hk:美曹·碧遜;"
+    },
+    {
+      "original": "Björk",
+      "conv": "zh-cn:比约克; zh-hk:碧玉; zh-tw:碧玉"
+    },
+    {
+      "original": "Black, Jack",
+      "conv": "zh-cn:杰克·布莱克; zh-hk:積·伯克; zh-tw:傑克·布萊克"
+    },
+    {
+      "original": "Blanchett, Cate",
+      "conv": "zh-cn:凯特·布兰切特; zh-hk:姬蒂·白蘭芝; zh-tw:凱特·布蘭琪"
+    },
+    {
+      "original": "Bloom, Orlando",
+      "conv": "zh-cn:奥兰多·布卢姆; zh-hk:奧蘭度·布林; zh-tw:奧蘭多·布魯"
+    },
+    {
+      "original": "Blunt, Emily",
+      "conv": "zh-tw:愛蜜莉·布朗; zh-hk:艾美莉·賓特; zh-cn:艾米莉·布朗特;"
+    },
+    {
+      "original": "Bogart, Humphrey",
+      "conv": "zh-cn:亨弗莱·鲍嘉; zh-tw:亨佛萊·鮑嘉; zh-hk:堪富利·保加;"
+    },
+    {
+      "original": "Borzage, Frank",
+      "conv": "zh-tw:法蘭克鮑才奇; zh-hk:法蘭保沙治"
+    },
+    {
+      "original": "Bosworth, Kate",
+      "conv": "zh-tw:凱特·柏絲沃; zh-cn:凯特·伯茨沃斯; zh-hk:姬蒂·寶絲禾芙"
+    },
+    {
+      "original": "Bower, Jamie Campbell",
+      "conv": "zh-tw:傑米·坎貝爾·鮑爾;zh-hk:占美·金寶·鮑華;zh-cn:杰米·坎贝尔·鲍尔;"
+    },
+    {
+      "original": "Bomer, Matt",
+      "conv": "zh-cn:马修·波莫;zh-tw:馬修·波莫;zh-hk:馬修·波莫;"
+    },
+    {
+      "original": "Bonham Carter, Helena",
+      "conv": "zh-cn:海伦娜·博纳姆·卡特; zh-hk:海倫娜·寶咸·卡達; zh-tw:海倫娜·寶漢·卡特;"
+    },
+    {
+      "original": "Bowie, David",
+      "conv": "zh-tw:大衛·鮑伊; zh-cn:大卫·鲍伊; zh-hk:大衛·寶兒;"
+    },
+    {
+      "original": "Boyd, Billy",
+      "conv": "zh-cn:比利·博伊德; zh-hk:比利·包依德; zh-tw:比利·包依德"
+    },
+    {
+      "original": "Branagh, Kenneth",
+      "conv": "zh-hans:肯尼斯·布莱纳; zh-hk:簡尼夫·班納; zh-tw:肯尼斯·布萊納;"
+    },
+    {
+      "original": "Brand, Russell",
+      "conv": "zh-tw:羅素·布蘭德; zh-cn:拉塞尔·布兰德; zh-hk:羅素·布蘭特;"
+    },
+    {
+      "original": "Breslin, Abigail",
+      "conv": "zh-tw:艾碧·貝絲琳; zh-hk:艾碧姬·比絲蓮; zh-cn:阿比吉尔·布莱斯林;"
+    },
+    {
+      "original": "Bridges, Jeff",
+      "conv": "zh-cn:杰夫·布里吉斯; zh-tw:傑夫·布里吉; zh-hk:謝夫·布烈治;"
+    },
+    {
+      "original": "Broadbent, Jim",
+      "conv": "zh-cn:吉姆·布劳德本特; zh-tw:吉姆·布洛班特; zh-hk:吉姆·布勞德本特"
+    },
+    {
+      "original": "Broderick, Matthew",
+      "conv": "zh-hk:馬修·波特歷; zh-tw:馬修·柏德瑞克; zh-cn:马修·布罗德里克; zh-hant:馬修·布羅德瑞克; zh-mo:馬修·波特歷;"
+    },
+    {
+      "original": "Brody, Adrien",
+      "conv": "zh-cn:阿德里安·布罗迪; zh-tw:安德林·布洛迪; zh-hk:艾哲倫·保迪"
+    },
+    {
+      "original": "Bronson, Charles",
+      "conv": "zh-cn:查尔斯·布朗森; zh-hk:查理士·布朗臣; zh-tw:查爾斯·布朗森"
+    },
+    {
+      "original": "Brosnan, Pierce",
+      "conv": "zh-cn:皮尔斯·布鲁斯南; zh-tw:皮爾斯·布洛斯南; zh-hk:皮雅斯·布士南"
+    },
+    {
+      "original": "Brown Findlay, Jessica",
+      "conv": "zh-tw:潔西卡·布朗·芬德莉; zh-cn:杰西卡·布朗·芬德利; zh-hk:謝茜嘉·布朗·芬迪妮;"
+    },
+    {
+      "original": "Brown, Chris",
+      "conv": "zh-cn:克里斯·布朗; zh-tw:克里斯小子; zh-hk:克里斯小子"
+    },
+    {
+      "original": "Brown, James",
+      "conv": "zh-tw:詹姆士·布朗; zh-hk:占士·布朗; zh-cn:詹姆斯·布朗; zh-sg:詹姆斯·布朗;"
+    },
+    {
+      "original": "Bruckheimer, Jerry",
+      "conv": "zh-hans:杰瑞·布洛克海默; zh-hk:謝利·畢咸瑪; zh-tw:傑瑞·布洛克海默;"
+    },
+    {
+      "original": "Bublé, Michael",
+      "conv": "zh-hans:迈克尔·布伯雷; zh-hk:麥可·布伯雷; zh-tw:麥可·布伯雷;zh-hant:麥可·布雷;"
+    },
+    {
+      "original": "Buckland, Jonny",
+      "conv": "zh-cn:强尼·巴克兰; zh-tw:強尼·邦藍; zh-hk:強尼·邦藍; zh-sg:强尼·巴克兰;"
+    },
+    {
+      "original": "Bullock, Sandra",
+      "conv": "zh-cn:桑德拉·布洛克; zh-hk:珊迪娜·布洛; zh-tw:珊卓·布拉克"
+    },
+    {
+      "original": "Burks, Robert",
+      "conv": "zh-cn:罗伯特·伯克斯; zh-hant:羅伯特·伯克斯; zh-hk:羅拔·伯克斯; zh-tw:勞勃·伯克斯;"
+    },
+    {
+      "original": "Burton, Richard",
+      "conv": "zh-cn:理查德·伯顿; zh-hk:李察·波頓; zh-tw:李察·波頓"
+    },
+    {
+      "original": "Burton, Tim",
+      "conv": "zh-cn:蒂姆·伯顿; zh-hk:添·布頓; zh-tw:提姆·波頓;"
+    },
+    {
+      "original": "Butler, Gerard",
+      "conv": "zh-cn:杰瑞德·巴特勒; zh-hk:謝拉·畢拿; zh-tw:傑拉德·巴特勒;"
+    },
+    {
+      "original": "Cage, Nicolas",
+      "conv": "zh-cn:尼古拉斯·凯奇; zh-hk:尼古拉斯·基治; zh-tw:尼可拉斯·凱吉;"
+    },
+    {
+      "original": "Caine, Michael",
+      "conv": "zh-cn:迈克尔·凯恩; zh-tw:米高·肯恩; zh-hk:米高·堅;"
+    },
+    {
+      "original": "Cameron, James",
+      "conv": "zh-cn:詹姆斯·卡梅隆; zh-tw:詹姆斯·卡麥隆; zh-hk:占士·金馬倫"
+    },
+    {
+      "original": "Campion, Jane",
+      "conv": "zh-hk:珍·甘比茵; zh-tw:珍·康萍; zh-cn:简·坎皮恩;"
+    },
+    {
+      "original": "Carey, Mariah",
+      "conv": "zh-cn:玛丽亚·凯里; zh-hk:瑪麗·嘉兒; zh-tw:瑪麗亞·凱莉"
+    },
+    {
+      "original": "Carrell, Steve",
+      "conv": "zh-tw:史提夫·卡爾; zh-hk:史提夫·加維; zh-cn:史蒂夫·加瑞尔;"
+    },
+    {
+      "original": "Carrey, Jim",
+      "conv": "zh-cn:金·凯瑞; zh-hk:占·基利; zh-tw:金·凱瑞"
+    },
+    {
+      "original": "Cassel, Vincent",
+      "conv": "zh-hans:凡松·卡塞; zh-hant:文森·卡索;"
+    },
+    {
+      "original": "Cattrall, Kim",
+      "conv": "zh-tw:金·凱特羅; zh-hk:甘·嘉德露; zh-cn:金·卡特罗尔;"
+    },
+    {
+      "original": "Celtic Woman",
+      "conv": "zh-cn:凯尔特女人; zh-hk:天使女伶; zh-tw:天使女伶;"
+    },
+    {
+      "original": "Champion, Will",
+      "conv": "zh-cn:威尔·钱皮恩; zh-tw:威爾·查恩; zh-hk:威爾·查恩; zh-sg:威尔·钱皮恩;"
+    },
+    {
+      "original": "Chaplin, Charlie",
+      "conv": "zh-cn:查理·卓别林; zh-hk:差利·卓別靈; zh-tw:查理·卓別林"
+    },
+    {
+      "original": "Chaplin, Saul",
+      "conv": "zh-cn:索尔·卓别林; zh-hk:索爾·卓別靈; zh-tw:索爾·卓別林"
+    },
+    {
+      "original": "Chastain, Jessica",
+      "conv": "zh-hk:謝茜嘉·翠絲頓; zh-tw:潔西卡·崔絲坦; zh-cn:杰西卡·查斯坦;"
+    },
+    {
+      "original": "Cheadle, Don",
+      "conv": "zh-cn:唐·钱德尔; zh-tw:唐·奇鐸; zh-hk:當·卓度;"
+    },
+    {
+      "original": "Chevalier, Maurice",
+      "conv": "zh-cn:莫里斯·切瓦力亚; zh-tw:莫里斯·雪佛萊; zh-hk:莫里斯·雪佛萊;"
+    },
+    {
+      "original": "Chriqui, Emmanuelle",
+      "conv": "zh-cn:埃曼纽尔·施莱琪 ; zh-tw:曼紐爾·克莉琪 ; zh-hk:伊曼紐·舒琪"
+    },
+    {
+      "original": "Christensen, Hayden",
+      "conv": "zh-cn:海登·克里斯滕森; zh-tw:海登·克里斯唐森; zh-hk:凱頓·基斯登遜"
+    },
+    {
+      "original": "Christie, Julie",
+      "conv": "zh-cn:朱莉·克里斯蒂; zh-hk:茱莉·姬絲蒂; zh-tw:茱莉·克莉絲蒂"
+    },
+    {
+      "original": "Clapton, Eric",
+      "conv": "zh-tw:艾瑞克·克萊普頓; zh-hk:艾瑞克·克萊普頓; zh-cn:埃里克·克莱普顿; zh-sg:埃里克·克莱普顿;"
+    },
+    {
+      "original": "Clooney, George",
+      "conv": "zh-cn:乔治·克鲁尼; zh-hk:佐治·古尼; zh-tw:喬治·克隆尼"
+    },
+    {
+      "original": "Clooney, Rosemary",
+      "conv": "zh-cn:露丝玛丽·克鲁尼; zh-hk:露絲瑪莉·古尼; zh-tw:蘿絲瑪麗·克隆尼"
+    },
+    {
+      "original": "Close, Glenn",
+      "conv": "zh-tw:葛倫·克蘿絲; zh-hk:格蓮·高絲; zh-hans:葛伦·克萝丝;"
+    },
+    {
+      "original": "Cobb, Lee",
+      "conv": "zh-cn:李·科布; zh-hk:李·谷; zh-tw:李·柯布;"
+    },
+    {
+      "original": "Cobb, Lee J.",
+      "conv": "zh-cn:李·J·科布; zh-hk:李·J·谷; zh-tw:李·J·柯布;"
+    },
+    {
+      "original": "Coen brothers",
+      "conv": "zh-cn:科恩兄弟; zh-hk:高安兄弟; zh-tw:柯安兄弟"
+    },
+    {
+      "original": "Coen, Ethan",
+      "conv": "zh-cn:伊桑·科恩; zh-hk:伊頓·高安; zh-tw:伊森·柯安"
+    },
+    {
+      "original": "Coen, Joel",
+      "conv": "zh-cn:乔尔·科恩; zh-hk:祖爾·高安; zh-tw:喬伊·柯安"
+    },
+    {
+      "original": "Colbert, Stephen",
+      "conv": "zh-cn:斯蒂芬·科尔伯特; zh-hk:史提芬·科拜尔; zh-tw:史提芬·荷伯"
+    },
+    {
+      "original": "Cole, Lily",
+      "conv": "zh-tw:莉莉·蔻兒; zh-hk:莉莉·高爾; zh-cn:莉莉·科尔;"
+    },
+    {
+      "original": "Collet-Serra, Jaume",
+      "conv": "贊美·哥勒施拉=>zh-hk:贊美·哥勒-施拉;贊美·哥勒施拉=>zh-cn:佐米·希尔拉;贊美·哥勒施拉=>zh-tw:豪梅·寇勒特-瑟拉;"
+    },
+    {
+      "original": "Collet-Serra, Jaume",
+      "conv": "zh-hk:贊美·哥勒-施拉;zh-cn:佐米·希尔拉;zh-tw:豪梅·寇勒特-瑟拉;"
+    },
+    {
+      "original": "Collins, Lily",
+      "conv": "zh-tw:莉莉·柯林斯; zh-hk:莉莉·歌蓮絲; zh-cn:丽莉·柯林斯;"
+    },
+    {
+      "original": "Connelly, Jennifer",
+      "conv": "zh-hans:詹妮弗·康纳利; zh-hant:珍妮佛·康納利; zh-tw:珍妮佛·康納莉; zh-hk:珍妮花·康納莉; zh-mo:珍妮花·康納莉;"
+    },
+    {
+      "original": "Connery, Sean",
+      "conv": "zh-cn:肖恩·康纳利; zh-hk:辛·康納利; zh-tw:史恩·康納萊"
+    },
+    {
+      "original": "Cooper, Bradley",
+      "conv": "zh-tw:布萊德利·古柏; zh-hk:畢列·谷巴; zh-cn:布莱德利·库珀"
+    },
+    {
+      "original": "Cooper, Chris",
+      "conv": "zh-hk:基斯·谷巴; zh-cn:克里斯·库柏; zh-tw:克里斯·庫柏;"
+    },
+    {
+      "original": "Copperfield, David",
+      "conv": "zh-cn:大卫·科波菲尔; zh-hk:大衛·高柏飛; zh-tw:大衛·考柏菲; zh-sg:大卫·考柏菲"
+    },
+    {
+      "original": "Coppola, Francis Ford",
+      "conv": "zh-cn:弗朗西斯·福特·科波拉; zh-hk:法蘭斯·福特·哥普拉; zh-tw:法蘭西斯·福特·科波拉"
+    },
+    {
+      "original": "Coppola, Francis",
+      "conv": "zh-cn:弗朗西斯·科波拉; zh-hk:法蘭斯·哥普拉; zh-tw:法蘭西斯·科波拉"
+    },
+    {
+      "original": "Coppola, Sofia",
+      "conv": "zh-cn:索菲亚·科波拉; zh-hk:蘇菲亞·哥普拉; zh-tw:蘇菲亞·柯波拉"
+    },
+    {
+      "original": "Cosgrove, Miranda",
+      "conv": "zh-tw:米蘭達·蔻思葛芙; zh-hk:美蓮達·歌絲高芙; zh-cn:米兰达·卡斯格拉夫;"
+    },
+    {
+      "original": "Costner, Kevin",
+      "conv": "zh-hans:凯文·科斯特纳; zh-hk:奇雲·高士拿; zh-tw:凱文·科斯納;"
+    },
+    {
+      "original": "Cotillard, Marion",
+      "conv": "zh-cn:玛丽昂·歌迪亚; zh-hk:瑪莉安·歌迪雅; zh-tw:瑪莉詠·柯蒂亞"
+    },
+    {
+      "original": "Cox, Brian",
+      "conv": "布赖恩·考克斯;zh-hk:拜仁·確斯;zh-tw:布萊恩·考克斯;"
+    },
+    {
+      "original": "Coxon, Graham",
+      "conv": "zh-cn:格雷厄姆·考克森; zh-tw:葛拉罕·卡克森; zh-hk:格拉漢姆·考克森; zh-sg:格雷厄姆·考克森;"
+    },
+    {
+      "original": "Craig, Daniel",
+      "conv": "zh-cn:丹尼尔·克雷格; zh-tw:丹尼爾·克雷格; zh-hk:丹尼爾·基克;"
+    },
+    {
+      "original": "Cranston, Bryan",
+      "conv": "zh-cn:布莱恩·科兰斯顿;zh-tw:布萊恩·克蘭斯頓;zh-hk:拜仁·鈞士頓;"
+    },
+    {
+      "original": "Crosby, Bing",
+      "conv": "zh-cn:宾·克罗斯比; zh-hk:冰·哥羅士比; zh-tw:平·克勞斯貝"
+    },
+    {
+      "original": "Crow, Sheryl",
+      "conv": "zh-cn:谢里尔·克罗;zh-hk:雪瑞兒·可洛;zh-tw:雪瑞兒·可洛;"
+    },
+    {
+      "original": "Crowe, Russell",
+      "conv": "zh-hans:罗素·克劳; zh-tw:羅素·克洛; zh-hk:羅素·高爾;"
+    },
+    {
+      "original": "Cruise, Tom",
+      "conv": "zh-cn:汤姆·克鲁斯; zh-hk:湯·告魯斯; zh-tw:湯姆·克魯斯; zh-sg:汤姆·克鲁斯"
+    },
+    {
+      "original": "Cruz, Penélope",
+      "conv": "zh-cn:佩内洛普·克鲁兹; zh-tw:潘妮洛普·克魯茲; zh-hk:彭妮露·古絲;"
+    },
+    {
+      "original": "Crystal, Billy",
+      "conv": "zh-cn:比利·克里斯托; zh-tw:比利·克里斯托; zh-hk:比利·基斯度;"
+    },
+    {
+      "original": "Csokas, Marton",
+      "conv": "zh-tw:馬頓·索柯斯; zh-hk:馬頓·高基斯; zh-cn:马尔顿·索克斯;"
+    },
+    {
+      "original": "Cube, Ice",
+      "conv": "zh-tw:冰塊酷巴; zh-hk:冰塊酷巴; zh-cn:艾斯·库伯;"
+    },
+    {
+      "original": "Cumberbatch, Benedict",
+      "conv": "zh-cn:本尼迪克特·康伯巴奇;zh-hk:班尼狄·甘巴貝治;zh-tw:班奈狄克·康柏拜區;"
+    },
+    {
+      "original": "Cummings, Jack",
+      "conv": "zh-cn:杰克·卡明斯; zh-tw:傑克·卡明斯; zh-hk:積·卡明斯;"
+    },
+    {
+      "original": "Curtis, Jamie Lee",
+      "conv": "zh-cn:杰米·李·柯蒂斯; zh-tw:潔美·李·寇蒂斯; zh-hk:潔美·李·寇蒂斯;"
+    },
+    {
+      "original": "Cusack, John",
+      "conv": "zh-cn:约翰·库萨克; zh-tw:約翰·庫薩克; zh-hk:尊·古錫;"
+    },
+    {
+      "original": "Cuthbert, Elisha",
+      "conv": "zh-cn:伊丽莎·库斯伯特; zh-hk:艾莉莎·姬芙拔; zh-tw:艾莉莎·庫絲柏"
+    },
+    {
+      "original": "Cyrus, Miley",
+      "conv": "zh-cn:麦莉·赛勒斯; zh-hk:麥莉·希拉; zh-tw:麥莉·希拉"
+    },
+    {
+      "original": "Dafoe, Willem",
+      "conv": "zh-cn:威廉·达福; zh-tw:威廉·達佛;"
+    },
+    {
+      "original": "Daft Punk",
+      "conv": "zh-tw:傻瓜龐克; zh-hans:傻朋克;"
+    },
+    {
+      "original": "Daldry, Stephen",
+      "conv": "zh-cn:斯蒂芬·达尔德里; zh-hk:史提芬·杜德利; zh-tw:史蒂芬·戴爾卓"
+    },
+    {
+      "original": "Dalton, Timothy",
+      "conv": "zh-cn:蒂莫西·道尔顿; zh-hk:鐵摩·達頓; zh-tw:提摩西·達頓"
+    },
+    {
+      "original": "Damon, Matt",
+      "conv": "zh-cn:马特·戴蒙; zh-hk:麥·迪文; zh-tw:麥特·戴蒙"
+    },
+    {
+      "original": "Dandridge, Dorothy",
+      "conv": "zh-cn:桃乐茜·丹缀之; zh-tw:桃樂絲·丹鐸;"
+    },
+    {
+      "original": "Dandridge, Dorothy",
+      "conv": "桃樂蒂·丹德瑞姬=>zh-cn:桃乐茜·丹缀之;"
+    },
+    {
+      "original": "Dandridge, Dorothy",
+      "conv": "多萝西·丹德里奇=>zh-tw:桃樂絲·丹鐸;"
+    },
+    {
+      "original": "Darabont, Frank",
+      "conv": "zh-cn:弗兰克·达拉邦特; zh-hk:法蘭·達拉本特; zh-tw:法蘭克·戴拉邦"
+    },
+    {
+      "original": "Davies, Valentine",
+      "conv": "zh-cn:瓦伦丁·戴维斯; zh-tw:瓦倫丁·戴維斯; zh-hk:華倫天奴·戴維斯;"
+    },
+    {
+      "original": "Davis, Kristin",
+      "conv": "zh-cn:克里斯汀·戴维斯; zh-hk:姬絲汀·戴維絲; zh-tw:克莉絲汀·戴維斯"
+    },
+    {
+      "original": "Davis, Viola",
+      "conv": "zh-tw:薇拉·戴維絲; zh-cn:维奥拉·戴维斯; zh-hk:維奧拉·戴維斯;"
+    },
+    {
+      "original": "Dawson, Ralph",
+      "conv": "zh-cn:拉尔夫·道森; zh-hk:賴夫·多遜; zh-tw:雷夫·道森;"
+    },
+    {
+      "original": "Day, Doris",
+      "conv": "zh-cn:多丽丝·黛; zh-hk:桃麗絲·黛; zh-tw:桃樂絲·黛"
+    },
+    {
+      "original": "Day, Richard",
+      "conv": "zh-cn:理查德·戴; zh-hk:李察·戴; zh-tw:李察·戴;"
+    },
+    {
+      "original": "Day-Lewis, Daniel",
+      "conv": "zh-cn:丹尼尔·戴-刘易斯; zh-tw:丹尼爾·戴-路易斯; zh-hk:丹尼爾·戴-路易斯"
+    },
+    {
+      "original": "De Niro, Robert",
+      "conv": "zh-cn:罗伯特·德尼罗; zh-hk:羅拔·迪尼路; zh-tw:勞勃·狄尼洛"
+    },
+    {
+      "original": "De Palma, Brian",
+      "conv": "zh-cn:布赖恩·德帕尔马; zh-hk:白賴仁·龐馬; zh-tw:布萊恩·狄帕瑪"
+    },
+    {
+      "original": "de Ravin,  Emilie",
+      "conv": "zh-hans:艾米莉·德瑞文; zh-hk:艾美莉·迪韋雲; zh-tw:艾蜜莉·迪瑞文;"
+    },
+    {
+      "original": "Dean, James",
+      "conv": "zh-tw:詹姆斯·狄恩; zh-hk:占士·甸; zh-cn:詹姆斯·迪恩;"
+    },
+    {
+      "original": "DeBlois, Dean",
+      "conv": "zh-cn:迪恩·戴布洛伊; zh-hk:甸恩·迪波爾斯; zh-tw:迪恩·戴布洛伊"
+    },
+    {
+      "original": "Def, Mos",
+      "conv": "zh-tw:摩斯·戴夫; zh-hk:莫斯·迪夫; zh-cn:摩斯·戴夫;"
+    },
+    {
+      "original": "DeGeneres, Ellen",
+      "conv": "zh-hans:艾伦·德杰尼勒斯; zh-hk:艾倫·狄珍妮; zh-tw:艾倫·狄珍妮;"
+    },
+    {
+      "original": "Delon, Alain",
+      "conv": "zh-cn:阿兰·德龙; zh-hk:阿倫·狄龍; zh-tw:亞蘭·德倫"
+    },
+    {
+      "original": "DeMille, Cecil B.",
+      "conv": "zh-cn:塞西尔·德米尔; zh-tw:西席·地密爾"
+    },
+    {
+      "original": "Dench, Judi",
+      "conv": "zh-cn:朱迪·丹奇; zh-hk:茱迪·丹芝; zh-tw:茱蒂·丹契"
+    },
+    {
+      "original": "Deneuve, Catherine",
+      "conv": "zh-hk:嘉芙蓮·丹露; zh-tw:凱撒琳·丹尼芙; zh-cn:凯瑟琳·德纳芙;"
+    },
+    {
+      "original": "Depardieu, Gérard",
+      "conv": "zh-tw:傑哈·德巴狄厄;zh-hk:謝勒·狄柏度;zh-cn:热拉尔·德帕迪约;"
+    },
+    {
+      "original": "Depp, Johnny",
+      "conv": "zh-cn:约翰尼·德普; zh-hk:尊尼·特普; zh-tw:強尼·戴普; zh-sg:尊尼·特普;"
+    },
+    {
+      "original": "Deschanel, Zooey",
+      "conv": "zh-cn:佐伊·丹斯切尔; zh-hk:素兒·達莎妮; zh-tw:柔伊·黛絲香奈"
+    },
+    {
+      "original": "Desplat, Alexandre",
+      "conv": "zh-hk:亞歷山大·達士勒;zh-tw:亞歷山大·戴斯培;zh-cn:亚历山大·德斯普拉;"
+    },
+    {
+      "original": "Desmond, Johnny",
+      "conv": "zh-cn:约翰尼·德斯蒙德; zh-hk:尊尼·戴斯蒙; zh-tw:強尼·戴斯蒙"
+    },
+    {
+      "original": "DeVito, Danny",
+      "conv": "zh-cn:丹尼·狄维托; zh-tw:丹尼·狄維托; zh-hk:丹尼·狄維托"
+    },
+    {
+      "original": "Diaz, Cameron",
+      "conv": "zh-cn:卡梅隆·迪亚兹; zh-hk:金美倫·戴雅絲; zh-tw:卡麥蓉·狄亞"
+    },
+    {
+      "original": "DiCaprio, Leonardo",
+      "conv": "zh-cn:莱昂纳多·迪卡普里奥; zh-hk:里安納度·狄卡比奧; zh-tw:李奧納多·狄卡皮歐; zh-sg:李奥纳多·狄卡比奥"
+    },
+    {
+      "original": "Diesel, Vin",
+      "conv": "zh-cn:范·迪塞尔; zh-tw:馮·迪索; zh-hk:雲·迪素"
+    },
+    {
+      "original": "Docter, Pete",
+      "conv": "zh-cn:皮特·多克特; zh-tw:彼特·達克特; zh-hk:彼德·托達"
+    },
+    {
+      "original": "Door, The",
+      "conv": "zh-cn:大门乐队; zh-tw:門戶樂團; zh-hk:門戶樂團"
+    },
+    {
+      "original": "Douglas, Kirk",
+      "conv": "zh-cn:柯克·道格拉斯; zh-tw:寇克·道格拉斯; zh-hk:卻·德格拉斯"
+    },
+    {
+      "original": "Douglas, Michael",
+      "conv": "zh-cn:迈克尔·道格拉斯; zh-tw:麥可·道格拉斯; zh-hk:米高·德格拉斯"
+    },
+    {
+      "original": "Downey Jr., Robert",
+      "conv": "zh-cn:小罗伯特·唐尼; zh-tw:小勞勃·道尼; zh-hk:羅拔·唐尼"
+    },
+    {
+      "original": "Duff, Hilary",
+      "conv": "zh-cn:希拉里·达夫; zh-hk:希拉莉·杜芙; zh-tw:希拉蕊·朵芙"
+    },
+    {
+      "original": "Dunst, Kirsten",
+      "conv": "zh-tw:克絲汀·鄧斯特; zh-hk:姬絲汀·登絲; zh-cn:克斯汀·邓斯特;"
+    },
+    {
+      "original": "Duvall, Robert",
+      "conv": "zh-cn:罗伯特·杜瓦尔; zh-hk:羅拔·杜華; zh-tw:勞勃·杜瓦"
+    },
+    {
+      "original": "Dylan, Bob",
+      "conv": "zh-cn:鲍勃·迪伦; zh-hk:卜·戴倫; zh-tw:巴布·狄倫"
+    },
+    {
+      "original": "Eastwood, Clint",
+      "conv": "zh-cn:克林特·伊斯特伍德; zh-tw:克林·伊斯威特; zh-hk:奇連·伊士活;"
+    },
+    {
+      "original": "Eccleston, Christopher",
+      "conv": "zh-cn:克里斯托弗·埃克莱斯顿; zh-tw:克里斯多福·艾克斯頓; zh-hk:基斯杜化·艾克斯頓;"
+    },
+    {
+      "original": "Eckhart, Aaron",
+      "conv": "zh-tw:亞倫·艾克哈特; zh-hk:阿朗·艾克; zh-cn:艾伦·埃克哈特;"
+    },
+    {
+      "original": "Elba, Idris",
+      "conv": "zh-tw:伊卓瑞斯·艾巴; zh-hk:艾德里斯·艾巴; zh-cn:伊德瑞斯·艾尔巴;"
+    },
+    {
+      "original": "Eminem",
+      "conv": "痞子阿姆=>zh-hk:Eminem; 痞子阿姆=>zh-cn:埃米纳姆;"
+    },
+    {
+      "original": "Eminem",
+      "conv": "Eminem=>zh-tw:阿姆; 埃米纳姆=>zh-tw:阿姆; zh-hk:Eminem; zh-cn:埃米纳姆;"
+    },
+    {
+      "original": "Evans, Chris",
+      "conv": "zh-cn:克里斯·埃文斯; zh-hk:基斯·伊雲斯; zh-tw:克里斯·伊凡"
+    },
+    {
+      "original": "Everett, Rupert",
+      "conv": "zh-hk:路柏·艾弗烈; zh-cn:鲁伯特·艾弗雷特; zh-tw:鲁伯特·埃弗里特;"
+    },
+    {
+      "original": "Efron, Zac",
+      "conv": "zh-hk:碩克·艾佛朗;zh-hans:查克·艾弗隆;zh-tw:柴克·艾弗隆;zh-cn:扎克·埃夫隆;"
+    },
+    {
+      "original": "Fanning, Dakota",
+      "conv": "zh-tw:達科塔·芬妮;zh-hk:狄高達·芬寧;zh-cn:达科塔·范宁;"
+    },
+    {
+      "original": "Fanning, Elle",
+      "conv": "zh-cn:艾丽·范宁; zh-tw:艾兒·芬妮;zh-hk:艾麗·芬寧;"
+    },
+    {
+      "original": "Farrell, Colin",
+      "conv": "zh-cn:科林·法雷尔; zh-tw:柯林·法洛; zh-hk:哥連·費路;"
+    },
+    {
+      "original": "Favreau, Jon",
+      "conv": "強·法瑞=>zh-tw:強·法夫洛;強·法瑞=>zh-hk:莊·法來奧;強·法瑞=>zh-cn:乔恩·费儒;強·法瑞=>zh-mo:莊·法來奧;"
+    },
+    {
+      "original": "Favreau, Jon",
+      "conv": "zh-tw:強·法夫洛; zh-hk:莊·法來奧; zh-cn:乔恩·费儒;"
+    },
+    {
+      "original": "Fawcett, Farrah",
+      "conv": "zh-cn:法拉·弗西; zh-hk:花拉·科茜; zh-tw:法拉·佛西;"
+    },
+    {
+      "original": "Ferrell, Will",
+      "conv": "zh-tw:威爾·法洛; zh-hk:韋·費路; zh-cn:威尔·法瑞尔;"
+    },
+    {
+      "original": "Fey, Tina",
+      "conv": "zh-cn:蒂娜·菲; zh-tw:蒂娜·費; zh-hk:天娜·菲;"
+    },
+    {
+      "original": "Ficarra, Glenn",
+      "conv": "zh-hk:格連·費加拉; zh-tw:葛倫·費卡拉; zh-cn:格伦·费卡拉;"
+    },
+    {
+      "original": "Field, Sally",
+      "conv": "zh-tw:莎莉·菲爾德; zh-hk:莎莉·菲; zh-cn:莎莉·菲尔德;"
+    },
+    {
+      "original": "Fiennes, Joseph",
+      "conv": "zh-cn:约瑟夫·费因斯; zh-hk:約瑟·費恩斯; zh-tw:約瑟夫·范恩斯;"
+    },
+    {
+      "original": "Fiennes, Ralph",
+      "conv": "zh-cn:拉尔夫·费因斯; zh-hk:賴夫·費恩斯; zh-tw:雷夫·范恩斯;"
+    },
+    {
+      "original": "Fincher, David",
+      "conv": "zh-cn:大卫·芬奇; zh-hk:大衛·芬查; zh-tw:大衛·芬奇"
+    },
+    {
+      "original": "Firth, Colin",
+      "conv": "哥連·卓夫=>zh-tw:柯林·佛斯;哥連·卓夫=>zh-hk:哥連·費夫;哥連·卓夫=>zh-hans:科林·费尔斯;哥連·卓夫=>zh-mo:哥連·費夫;"
+    },
+    {
+      "original": "Firth, Colin",
+      "conv": "柯林·弗斯=>zh-tw:柯林·佛斯;柯林·弗斯=>zh-hk:哥連·費夫;柯林·弗斯=>zh-hans:科林·费尔斯;柯林·弗斯=>zh-mo:哥連·費夫;"
+    },
+    {
+      "original": "Firth, Colin",
+      "conv": "科林·费斯=>zh-tw:柯林·佛斯;科林·费斯=>zh-hk:哥連·費夫;科林·费斯=>zh-hans:科林·费尔斯;科林·费斯=>zh-mo:哥連·費夫;"
+    },
+    {
+      "original": "Firth, Colin",
+      "conv": "zh-hk:哥連·費夫; zh-tw:柯林·佛斯; zh-cn:科林·费尔斯;"
+    },
+    {
+      "original": "Fishburne, Laurence",
+      "conv": "zh-cn:劳伦斯·菲什伯恩; zh-hk:羅蘭士·費斯賓; zh-tw:勞倫斯·費許朋;"
+    },
+    {
+      "original": "Flockhart, Calista",
+      "conv": "zh-tw:卡莉絲塔·佛拉赫特; zh-hk:嘉莉絲達·霍克; zh-cn:卡莉斯塔·弗洛克哈特;"
+    },
+    {
+      "original": "Folsey, George J.",
+      "conv": "zh-cn:乔治·J·福尔西; zh-hk:佐治·J·福爾西; zh-tw:喬治·J·福爾西;"
+    },
+    {
+      "original": "Folsey, George",
+      "conv": "zh-cn:乔治·福尔西; zh-hk:佐治·福爾西; zh-tw:喬治·福爾西;"
+    },
+    {
+      "original": "Folsey, George",
+      "conv": "乔治·福尔瑟=>zh-hk:佐治·福爾西; 乔治·福尔瑟=>zh-tw:喬治·福爾西;"
+    },
+    {
+      "original": "Fonda, Jane",
+      "conv": "zh-hans:简·方达; zh-hant:珍·芳達;"
+    },
+    {
+      "original": "Ford, Harrison",
+      "conv": "zh-cn:哈里森·福特; zh-hk:夏里遜·福; zh-tw:哈里遜·福特;"
+    },
+    {
+      "original": "Forster, Marc",
+      "conv": "zh-hans:马克·福斯特; zh-hk:馬可·科士打; zh-tw:馬克·福斯特;"
+    },
+    {
+      "original": "Foster, Jodie",
+      "conv": "zh-hans:朱迪·福斯特; zh-hk:茱迪·科士打; zh-tw:茱蒂·福斯特;"
+    },
+    {
+      "original": "Fox, Matthew",
+      "conv": "zh-cn:马修·福克斯; zh-tw:馬修·福克斯; zh-hk:馬修·霍士;"
+    },
+    {
+      "original": "Fox, Megan",
+      "conv": "zh-cn:梅根·福克斯; zh-hk:美瑾·霍絲; zh-tw:梅根·福克斯;"
+    },
+    {
+      "original": "Fox, Michael J.",
+      "conv": "zh-cn:迈克尔·J·福克斯; zh-hk:米高·J·霍士; zh-tw:麥可·J·福克斯;"
+    },
+    {
+      "original": "Fox, Michael",
+      "conv": "zh-cn:迈克尔·福克斯; zh-hk:米高·霍士; zh-tw:麥可·福克斯;"
+    },
+    {
+      "original": "Fox, Paul S.",
+      "conv": "zh-cn:保罗·S·福克斯; zh-hk:保羅·S·霍士; zh-tw:保羅·S·福克斯;"
+    },
+    {
+      "original": "Fox, Paul",
+      "conv": "zh-cn:保罗·福克斯; zh-hk:保羅·霍士; zh-tw:保羅·福克斯;"
+    },
+    {
+      "original": "Foxx, Jamie",
+      "conv": "zh-cn:杰米·福克斯; zh-tw:傑米·福克斯; zh-hk:占美·霍士;"
+    },
+    {
+      "original": "Francis, Cedric",
+      "conv": "zh-cn:塞德里克·弗朗西斯; zh-tw:西追·佛蘭西斯; zh-hk:西追·法蘭西斯;"
+    },
+    {
+      "original": "Franco, James",
+      "conv": "zh-tw:詹姆斯·法蘭科; zh-hk:占士·法蘭高; zh-cn:詹姆斯·弗兰科;"
+    },
+    {
+      "original": "Frank, Melvin",
+      "conv": "zh-cn:梅尔文·弗兰克; zh-hk:梅爾文·法蘭; zh-tw:梅爾文·法蘭克;"
+    },
+    {
+      "original": "Frankel, David",
+      "conv": "zh-cn:大卫·弗兰克; zh-tw:大衛·法蘭科; zh-hk:大衛·法蘭基爾;"
+    },
+    {
+      "original": "Fraser, Brendan",
+      "conv": "zh-cn:布兰登·弗雷泽; zh-tw:布蘭登·費雪; zh-hk:班頓·費沙;"
+    },
+    {
+      "original": "Frears, Stephen",
+      "conv": "zh-cn:斯蒂芬·弗里尔斯; zh-hk:史提芬·費雅斯; zh-tw:史蒂芬·佛瑞爾斯;"
+    },
+    {
+      "original": "Freeman, Martin",
+      "conv": "zh-cn:马丁·弗里曼; zh-tw:馬丁·費里曼; zh-hk:馬田·費曼;"
+    },
+    {
+      "original": "Freeman, Morgan",
+      "conv": "zh-cn:摩根·弗里曼; zh-hk:摩根·費曼; zh-tw:摩根·費里曼;"
+    },
+    {
+      "original": "Fry, Stephen",
+      "conv": "zh-hk:史提芬·費亞; zh-tw:史蒂芬·弗萊; zh-cn:史蒂芬·弗莱; zh-hans:斯蒂芬·弗雷;"
+    },
+    {
+      "original": "Furlong, Edward",
+      "conv": "zh-cn:爱德华·弗朗; zh-tw:艾德華·福隆; zh-hk:愛德華·費朗;"
+    },
+    {
+      "original": "Gable, Clark",
+      "conv": "zh-cn:克拉克·盖博; zh-hk:奇勒·基寶; zh-tw:克拉克·蓋博;"
+    },
+    {
+      "original": "Gambon, Michael",
+      "conv": "米高·詹邦=>zh-cn:迈克尔·刚本;米高·詹邦=>zh-tw:邁可·坎邦;米高·詹邦=>zh-hk:米高·甘邦;米高·詹邦=>zh-mo:米高·甘邦;"
+    },
+    {
+      "original": "Gambon, Michael",
+      "conv": "麥可·坎邦=>zh-hans:迈克尔·刚本;麥可·坎邦=>zh-tw:邁可·坎邦;麥可·坎邦=>zh-hk:米高·甘邦;麥可·坎邦=>zh-mo:米高·甘邦;"
+    },
+    {
+      "original": "Gambon, Michael",
+      "conv": "zh-cn:迈克尔·刚本; zh-tw:邁可·坎邦; zh-hk:米高·甘邦;"
+    },
+    {
+      "original": "Gandolfini, James",
+      "conv": "zh-tw:詹姆斯·甘多費尼; zh-hk:占士·簡東費尼; zh-cn:詹姆斯·甘多菲尼;"
+    },
+    {
+      "original": "Garfield, Andrew",
+      "conv": "zh-cn:安德鲁·加菲尔德;zh-hk:安德魯·嘉菲;zh-tw:安德魯·加菲爾德;"
+    },
+    {
+      "original": "Garland, Judy",
+      "conv": "zh-cn:朱迪·加兰; zh-hk:茱地·嘉蘭; zh-tw:茱蒂·嘉蘭;"
+    },
+    {
+      "original": "Gaynor, Gloria",
+      "conv": "zh-cn:凯莱·盖纳; zh-tw:葛蘿莉亞·蓋納;"
+    },
+    {
+      "original": "Geraghty, Brian",
+      "conv": "zh-hk:白賴仁·謝洛田; zh-tw:布萊恩·傑瑞提; zh-cn:布莱恩·杰拉蒂;"
+    },
+    {
+      "original": "Gere, Richard",
+      "conv": "zh-cn:理查·基尔; zh-hk:李察·基爾; zh-tw:李察·吉爾; zh-sg:李察·基尔;"
+    },
+    {
+      "original": "Gerrard, Lisa",
+      "conv": "zh-cn:莉萨·杰勒德; zh-tw:麗莎·傑拉德;"
+    },
+    {
+      "original": "Giamatti, Paul",
+      "conv": "zh-hk:保羅·基安馬提;zh-cn:保罗·吉亚玛提;zh-tw:保羅·吉馬蒂;"
+    },
+    {
+      "original": "Gibbons, Cedric",
+      "conv": "zh-cn:塞德里克·吉本森; zh-tw:西追·吉本森; zh-hk:西追·吉本森;"
+    },
+    {
+      "original": "Gibson, Mel",
+      "conv": "zh-cn:梅尔·吉布森; zh-tw:梅爾·吉勃遜; zh-hk:米路·吉遜;"
+    },
+    {
+      "original": "Gilbert, Herschel Burke",
+      "conv": "zh-cn:赫歇尔·柏克·吉尔伯特; zh-tw:赫雪爾·柏克·吉伯特; zh-hk:赫歇爾·柏克·吉伯; zh-sg:赫谢尔·柏克·吉尔伯特;"
+    },
+    {
+      "original": "Gilliam, Terry",
+      "conv": "zh-cn:特里·吉列姆; zh-tw:泰瑞·吉連; zh-hk:泰利·基咸;"
+    },
+    {
+      "original": "Glover, Guy",
+      "conv": "zh-cn:盖伊·格洛佛; zh-hk:佳·格洛佛; zh-tw:蓋·葛洛佛"
+    },
+    {
+      "original": "Goldberg, Whoopi",
+      "conv": "zh-hans:乌比·戈德堡; zh-tw:琥碧·戈柏; zh-hk:胡比·高拔;"
+    },
+    {
+      "original": "Gomez, Selena",
+      "conv": "zh-tw:賽琳娜·戈梅茲; zh-hk:莎蓮娜·高美絲; zh-cn:赛琳娜·戈麦斯;"
+    },
+    {
+      "original": "Goode, Matthew",
+      "conv": "zh-tw:馬修·古迪; zh-hk:馬修·古德; zh-cn:马修·古迪;"
+    },
+    {
+      "original": "Gordon-Levitt, Joseph",
+      "conv": "zh-tw:喬瑟夫·高登-李維; zh-hk:祖瑟夫·哥頓-利域; zh-cn:约瑟夫·高登-莱维特;"
+    },
+    {
+      "original": "Gosling, Ryan",
+      "conv": "zh-cn:雷恩·高斯林; zh-tw:雷恩·葛斯林; zh-hk:賴恩·哥斯寧"
+    },
+    {
+      "original": "Grace, Topher",
+      "conv": "zh-tw:托佛·格雷斯; zh-hk:杜飛·格雷斯;zh-cn:托弗·戈瑞斯;"
+    },
+    {
+      "original": "Grant, Hugh",
+      "conv": "zh-cn:休·格兰特; zh-tw:休·葛蘭; zh-hk:曉·格蘭; zh-sg:休·格兰特"
+    },
+    {
+      "original": "Grazer, Brian",
+      "conv": "zh-cn:布莱恩·格雷泽; zh-hk:白賴仁·基沙; zh-tw:布萊恩·葛瑟"
+    },
+    {
+      "original": "Green Day",
+      "conv": "zh-tw:年輕歲月; zh-hk:Green Day; zh-cn:绿日乐队;"
+    },
+    {
+      "original": "Green, Eva",
+      "conv": "zh-tw:伊娃·葛林; zh-hk:伊娃·格蓮; zh-cn:伊娃·格林;"
+    },
+    {
+      "original": "Green, Johnny",
+      "conv": "zh-cn:约翰尼·格林; zh-hk:尊尼·格連; zh-tw:強尼·葛林"
+    },
+    {
+      "original": "Greengrass, Paul",
+      "conv": "zh-cn:保罗·格林格拉斯; zh-hk:保羅·格連加斯; zh-tw:保羅·葛林葛瑞斯"
+    },
+    {
+      "original": "Guðmundsdóttir, Björk",
+      "conv": "zh-cn:比约克·古蒙兹多泰尔; zh-hk:碧玉·古蒙茲多泰爾; zh-tw:碧玉·古蒙茲多泰爾"
+    },
+    {
+      "original": "Guillory, Sienna",
+      "conv": "zh-cn:西耶娜·盖尔利; zh-tw:席安娜·蓋蘿莉;"
+    },
+    {
+      "original": "Guinness, Alec",
+      "conv": "zh-cn:亚历克·吉尼斯; zh-tw:亞歷·堅尼斯; zh-hk:阿力·肯尼斯;"
+    },
+    {
+      "original": "Gyllenhaal, Jake",
+      "conv": "zh-hans:杰克·吉林哈尔; zh-tw:傑克·葛倫霍; zh-hk:積·佳蘭賀;zh-cn:杰克·吉伦哈尔;"
+    },
+    {
+      "original": "Hackman, Gene",
+      "conv": "zh-cn:金·哈克曼; zh-tw:金·哈克曼; zh-hk:真·赫曼;"
+    },
+    {
+      "original": "Hall, Michael C.",
+      "conv": "zh-hans:迈克尔·霍尔; zh-tw:麥可·霍爾; zh-hk:米高·賀爾;"
+    },
+    {
+      "original": "Hall, Michael C.",
+      "conv": "zh-hans:迈克尔·C·霍尔; zh-tw:麥可·C·霍爾; zh-hk:米高·C·賀爾;"
+    },
+    {
+      "original": "Haneke, Michael",
+      "conv": "zh-cn:迈克尔·哈内克; zh-tw:麥可·漢內克; zh-hk:米高·漢尼卡"
+    },
+    {
+      "original": "Hanks, Tom",
+      "conv": "zh-cn:汤姆·汉克斯; zh-tw:湯姆·漢克; zh-hk:湯·漢斯;"
+    },
+    {
+      "original": "Hardy, Tom",
+      "conv": "zh-cn:汤姆·哈迪;zh-tw:湯姆·哈迪;zh-hk:湯·夏迪;"
+    },
+    {
+      "original": "Harrelson, Woody",
+      "conv": "zh-cn:伍迪·哈里森; zh-tw:伍迪·哈里遜; zh-hk:活地·夏里遜;"
+    },
+    {
+      "original": "Harris, Calvin",
+      "conv": "zh-cn:卡尔文·哈里斯; zh-hant:凱文·哈里斯;"
+    },
+    {
+      "original": "Harris, Ed",
+      "conv": "zh-cn:艾德·哈里斯; zh-tw:艾德·哈里斯; zh-hk:艾·哈里斯;"
+    },
+    {
+      "original": "Harrison, George",
+      "conv": "zh-cn:乔治·哈里森; zh-hk:佐治·夏里遜; zh-tw:喬治·哈里森;"
+    },
+    {
+      "original": "Hatcher, Teri",
+      "conv": "zh-cn:泰瑞·海切尔; zh-tw:泰瑞·海契; zh-hk:泰莉·夏卓爾; zh-hant:泰瑞·海切爾; zh-mo:泰莉·夏卓爾;"
+    },
+    {
+      "original": "Hathaway, Anne",
+      "conv": "zh-cn:安妮·海瑟薇; zh-tw:安·海瑟薇; zh-hk:安妮·夏菲維;"
+    },
+    {
+      "original": "Hauer, Rutger",
+      "conv": "zh-cn:鲁特格尔·哈尔; zh-tw:魯格·豪爾; zh-hk:路格·海華;"
+    },
+    {
+      "original": "Hawke, Ethan",
+      "conv": "zh-hans:伊森·霍克; zh-hk:伊芬·鶴健; zh-tw:伊森·霍克;"
+    },
+    {
+      "original": "Hawn, Goldie",
+      "conv": "zh-cn:戈尔迪·霍恩; zh-tw:歌蒂·韓; zh-hk:高蒂·韓;"
+    },
+    {
+      "original": "Hayek, Salma",
+      "conv": "zh-cn:萨尔玛·海耶克; zh-tw:莎瑪·海耶克; zh-hk:莎瑪·希恩;"
+    },
+    {
+      "original": "Hazanavicius, Michel",
+      "conv": "zh-cn:迈克尔·哈扎纳维希乌斯; zh-tw:米歇爾·哈札納維西斯; zh-hk:米高·哈薩拿維斯;"
+    },
+    {
+      "original": "Head, Edith",
+      "conv": "zh-cn:伊迪丝·海德; zh-tw:伊蒂絲·海德;"
+    },
+    {
+      "original": "Head, Edith",
+      "conv": "艾迪丝·海德=>zh-tw:伊蒂絲·海德;"
+    },
+    {
+      "original": "Head, Edith",
+      "conv": "伊迪斯·海德=>zh-tw:伊蒂絲·海德;"
+    },
+    {
+      "original": "Head, Edith",
+      "conv": "艾迪芺·希德=>zh-cn:伊迪丝·海德;"
+    },
+    {
+      "original": "Head, Edith",
+      "conv": "zh-cn:贝拉·希思科特;zh-tw:貝拉·希斯寇特;zh-hk:貝娜·希夫卻德;"
+    },
+    {
+      "original": "Heathcote, Bella",
+      "conv": "貝拉·希思科特=>zh-cn:贝拉·希思科特;"
+    },
+    {
+      "original": "Heathcote, Bella",
+      "conv": "貝拉·希思科特=>zh-tw:貝拉·希斯寇特;"
+    },
+    {
+      "original": "Heathcote, Bella",
+      "conv": "貝拉·希思科特=>zh-hk:貝娜·希夫卻德;"
+    },
+    {
+      "original": "Heigl, Katherine",
+      "conv": "zh-cn:凯瑟琳·海格尔; zh-tw:凱瑟琳·海格 zh-hk:嘉芙蓮·希歌;"
+    },
+    {
+      "original": "Hemsworth, Chris",
+      "conv": "zh-tw:克里斯·漢斯沃; zh-hk:基斯·咸士禾夫; zh-cn:克里斯·海姆斯沃斯;"
+    },
+    {
+      "original": "Hemsworth, Liam",
+      "conv": "zh-cn:利亚姆·海姆斯沃斯;zh-tw:連恩·漢斯沃;zh-hk:里安·咸士禾夫;"
+    },
+    {
+      "original": "Hepburn, Audrey",
+      "conv": "zh-cn:奥黛丽·赫本; zh-tw:奧黛麗·赫本; zh-hk:柯德莉·夏萍;"
+    },
+    {
+      "original": "Hepburn, Katharine",
+      "conv": "zh-cn:凯瑟琳·赫本; zh-tw:凱瑟琳·赫本; zh-hk:嘉芙蓮·協賓;"
+    },
+    {
+      "original": "Hershey, Barbara",
+      "conv": "zh-tw:芭芭拉·荷西; zh-hk:芭芭拉·赫希; zh-cn:芭芭拉·赫希"
+    },
+    {
+      "original": "Highmore, Freddie",
+      "conv": "zh-cn:弗雷迪·海默; zh-tw:弗雷迪·海默; zh-hk:費迪·夏摩亞;"
+    },
+    {
+      "original": "Hill, George Roy",
+      "conv": "zh-cn:喬治·洛·希尔; zh-hk:佐治·萊·曉; zh-tw:喬治·洛·希爾;"
+    },
+    {
+      "original": "Hill, Jonah",
+      "conv": "zh-cn:乔纳·希尔; zh-tw:喬納·希爾; zh-hk:祖納·希爾;"
+    },
+    {
+      "original": "Hilton, Paris",
+      "conv": "zh-cn:帕丽斯·希尔顿; zh-tw:芭黎絲·希爾頓; zh-hk:芭麗絲·希爾頓;"
+    },
+    {
+      "original": "Hitchcock, Alfred",
+      "conv": "zh-cn:希区柯克; zh-tw:希區考克; zh-hk:希治閣;"
+    },
+    {
+      "original": "Hitchcock, Alfred",
+      "conv": "zh-cn:阿尔弗雷德·希区柯克;zh-sg:阿尔弗雷德·希区柯克;zh-hk:亞弗列·希治閣;zh-mo:亞弗列·希治閣;zh-tw:亞佛烈德·希區考克;"
+    },
+    {
+      "original": "Hoffman, Dustin",
+      "conv": "zh-cn:达斯汀·霍夫曼; zh-tw:達斯汀·霍夫曼; zh-hk:德斯汀·荷夫曼; zh-sg:达斯汀·霍夫曼;"
+    },
+    {
+      "original": "Hoffman, Philip Seymour",
+      "conv": "zh-cn:菲利普·西摩·霍夫曼; zh-tw:菲利浦·西摩·霍夫曼; zh-hk:菲臘·西摩·荷夫曼;"
+    },
+    {
+      "original": "Holm, Ian",
+      "conv": "zh-cn:伊恩·霍尔姆; zh-tw:伊恩·霍姆; zh-hk:伊恩·荷姆;"
+    },
+    {
+      "original": "Holmes, Katie",
+      "conv": "zh-cn:凯蒂·霍姆斯; zh-tw:凱蒂·荷姆斯; zh-hk:姬蒂·荷姆絲;"
+    },
+    {
+      "original": "Hopkins, Anthony",
+      "conv": "zh-cn:安东尼·霍普金斯; zh-tw:安東尼·霍普金斯; zh-hk:安東尼·鶴健士; zh-sg:安东尼·霍普金斯;"
+    },
+    {
+      "original": "Hopkins, George James",
+      "conv": "zh-cn:乔治·詹姆斯·霍普金斯; zh-hk:佐治·占士·鶴健士; zh-tw:喬治·詹姆斯·霍普金斯;"
+    },
+    {
+      "original": "Hoult, Nicholas",
+      "conv": "zh-cn:尼古拉斯·霍尔特; zh-tw:尼克拉斯·霍特; zh-hk:尼古拉斯·侯特;"
+    },
+    {
+      "original": "Hounsou, Djimon",
+      "conv": "zh-cn:吉蒙·休斯; zh-tw:迪蒙·杭蘇; zh-hk:狄哲文·侯蘇;"
+    },
+    {
+      "original": "Houston, Whitney",
+      "conv": "zh-cn:惠特妮·休斯顿; zh-tw:惠妮·休斯頓; zh-hk:雲妮·侯斯頓;"
+    },
+    {
+      "original": "Howard, Ron",
+      "conv": "zh-cn:朗·霍华德; zh-tw:朗·霍華; zh-hk:朗·侯活;"
+    },
+    {
+      "original": "Hudson, Jennifer",
+      "conv": "zh-cn:珍妮弗·赫德森; zh-hant:珍妮佛·哈德遜; zh-tw:珍妮佛·哈德森; zh-hk:珍妮花·赫遜; zh-mo:珍妮花·赫遜;"
+    },
+    {
+      "original": "Hudson, Kate",
+      "conv": "zh-cn:凯特·赫德森; zh-tw:凱特·哈德森; zh-hk:姬·韓遜;"
+    },
+    {
+      "original": "Huffman, Felicity",
+      "conv": "zh-cn:菲丽西提·霍夫曼; zh-tw:費麗西蒂·荷夫曼; zh-hk:菲莉絲蒂·夏夫曼;"
+    },
+    {
+      "original": "Hunnam, Charlie",
+      "conv": "zh-tw:查理·杭南; zh-cn:查理·汉纳姆; zh-hk:查理·漢納姆;"
+    },
+    {
+      "original": "Hunt, Helen",
+      "conv": "zh-cn:海伦·亨特; zh-tw:海倫·杭特; zh-hk:海倫·亨特;"
+    },
+    {
+      "original": "Hunter, Holly",
+      "conv": "zh-cn:霍利·亨特; zh-tw:荷莉·杭特; zh-hk:荷莉·亨特;"
+    },
+    {
+      "original": "Hurt, John",
+      "conv": "zh-cn:约翰·赫特; zh-tw:約翰·赫特; zh-hk:尊·赫;"
+    },
+    {
+      "original": "Huston, John",
+      "conv": "zh-hk:尊·候斯頓; zh-tw:約翰·休斯頓; zh-cn:约翰·休斯顿;"
+    },
+    {
+      "original": "Hutcherson, Josh",
+      "conv": "喬許·哈契森=>zh-cn:乔什·哈切森; 喬許·哈契森=>zh-hk:祖舒·夏捷臣;"
+    },
+    {
+      "original": "Hutcherson, Josh",
+      "conv": "zh-cn:乔什·哈切森; zh-tw:喬許·哈卻森; zh-hk:祖舒·夏捷臣;"
+    },
+    {
+      "original": "Iñárritu, Alejandro González",
+      "conv": "zh-cn:亚历桑德罗·冈萨雷斯·伊纳里图; zh-tw:阿利安卓·崗札雷·伊納利圖; zh-hk:艾力謝路·高沙里斯·依拿力圖;"
+    },
+    {
+      "original": "Idol, Billy",
+      "conv": "zh-hans:比利·爱多尔; zh-tw:比利·艾鐸;"
+    },
+    {
+      "original": "Imagine Dragons",
+      "conv": "zh-cn:梦想之龙乐队; zh-tw:謎幻樂團; zh-hk:Imagine Dragons;"
+    },
+    {
+      "original": "Isaacs, Jason",
+      "conv": "zh-tw:傑森·艾塞克; zh-hk:積遜·艾薩斯;"
+    },
+    {
+      "original": "Ivory, James",
+      "conv": "zh-hk:占士·艾禾里; zh-tw:詹姆斯·艾弗利; zh-cn:詹姆斯·伊沃里;"
+    },
+    {
+      "original": "Jaa, Tony",
+      "conv": "zh-cn:托尼·贾; zh-hk:柏朗·伊雲; zh-tw:東尼嘉; zh-sg:托尼·贾"
+    },
+    {
+      "original": "Jackman, Hugh",
+      "conv": "zh-cn:休·杰克曼; zh-hk:曉治·積曼; zh-tw:休·傑克曼; zh-sg:休·杰克曼"
+    },
+    {
+      "original": "Jackson, Brandon T.",
+      "conv": "zh-tw:布萊德·傑克森; zh-hk:布蘭頓·積遜; zh-cn:布兰登·杰克逊;"
+    },
+    {
+      "original": "Jackson, Janet",
+      "conv": "zh-cn:珍妮·杰克逊; zh-hant:珍娜·傑克遜; zh-tw:珍娜·傑克森; zh-hk:珍納·積遜; zh-mo:珍納·積遜;"
+    },
+    {
+      "original": "Jackson, Michael",
+      "conv": "zh-cn:迈克尔·杰克逊; zh-hk:米高·積遜; zh-tw:麥可·傑克森; zh-sg:麦克·杰逊"
+    },
+    {
+      "original": "Jackson, Peter",
+      "conv": "zh-cn:彼得·杰克逊; zh-hk:彼德·積遜; zh-tw:彼得·傑克森; zh-sg:彼得·杰逊"
+    },
+    {
+      "original": "Jackson, Samuel L.",
+      "conv": "zh-cn:塞缪尔·杰克逊; zh-hk:森姆·積遜; zh-tw:山繆·傑克森; zh-sg:塞缪尔·杰逊"
+    },
+    {
+      "original": "Jagger, Mick",
+      "conv": "zh-hk:米·積加; zh-cn:米克·贾格尔; zh-tw:米克·傑格;"
+    },
+    {
+      "original": "Janssen, Famke",
+      "conv": "zh-tw:芳姬·詹森; zh-hk:花姬·贊臣; zh-cn:法米克·詹森;"
+    },
+    {
+      "original": "Jeunet, Jean-Pierre",
+      "conv": "zh-hk:尚-彼亞·桑里; zh-tw:尚-皮耶·居內; zh-cn:让-皮埃尔·热内;"
+    },
+    {
+      "original": "Johansson, Scarlett",
+      "conv": "zh-cn:斯嘉丽·约翰逊; zh-hk:史嘉莉·祖安遜; zh-tw:史嘉蕾·喬韓森"
+    },
+    {
+      "original": "John, Elton",
+      "conv": "zh-tw:艾爾頓·強; zh-hk:艾爾頓·約翰; zh-cn:艾尔顿·约翰; zh-sg:艾尔顿·约翰"
+    },
+    {
+      "original": "Johnson, Aaron",
+      "conv": "zh-tw:亞倫·強森; zh-hk:艾倫·莊遜; zh-cn:亚伦·约翰逊;"
+    },
+    {
+      "original": "Johnson, Dwayne",
+      "conv": "zh-tw:巨石强森; zh-hk:狄維·莊遜; zh-cn:道恩·强森;"
+    },
+    {
+      "original": "Jolie, Angelina",
+      "conv": "zh-hans:安吉丽娜·茱莉; zh-cn:安吉丽娜·朱莉; zh-hk:安祖蓮娜·祖莉; zh-tw:安潔莉娜·裘莉; zh-sg:安吉丽娜·卓莉"
+    },
+    {
+      "original": "Jonas Brothers",
+      "conv": "zh-hk:鍾拿斯兄弟; zh-tw:強納斯兄弟; zh-cn:乔纳斯兄弟;"
+    },
+    {
+      "original": "Jonas, Joe",
+      "conv": "zh-hk:祖·鍾拿斯; zh-tw:喬·強納斯; zh-cn:乔·乔纳斯;"
+    },
+    {
+      "original": "Jonas, Kevin",
+      "conv": "zh-hk:基雲·鍾拿斯; zh-tw:凱文·強納斯; zh-cn:凯文·乔纳斯;"
+    },
+    {
+      "original": "Jonas, Nick",
+      "conv": "zh-hk:力奇·鍾拿斯; zh-tw:尼克·強納斯; zh-cn:尼可·乔纳斯;"
+    },
+    {
+      "original": "Jones, Tommy Lee",
+      "conv": "zh-cn:汤米·李·琼斯; zh-hk:湯美·李·鍾斯; zh-tw:湯米·李·瓊斯; zh-sg:汤米·李·琼"
+    },
+    {
+      "original": "Jovovich, Milla",
+      "conv": "zh-cn:米拉·乔沃维奇; zh-hk:米娜·祖華域芝; zh-tw:蜜拉·喬娃薇琪"
+    },
+    {
+      "original": "Justin Bieber",
+      "conv": "zh-cn:贾斯汀·比伯; zh-hk:小賈斯汀; zh-tw:小賈斯汀"
+    },
+    {
+      "original": "Justin Timberlake",
+      "conv": "zh-cn:贾斯汀·汀布莱克;zh-tw:賈斯汀·提姆布萊克;zh-hk:賈斯汀·提姆布萊克;"
+    },
+    {
+      "original": "Kaufman, Charlie",
+      "conv": "zh-cn:查理·考夫曼; zh-tw:查理·考夫曼; zh-hk:查理·卡夫曼;"
+    },
+    {
+      "original": "Katy Perry",
+      "conv": "zh-cn:凯蒂·派瑞; zh-tw:凱蒂·佩芮; zh-hk:凱蒂·佩芮;zh-sg:姬蒂·佩芮"
+    },
+    {
+      "original": "Kazan, Elia",
+      "conv": "zh-cn:伊利亚·卡赞; zh-tw:伊力·卡山; zh-hk:伊力·卡山;"
+    },
+    {
+      "original": "Keitel, Harvey",
+      "conv": "zh-hk:夏菲·基圖; zh-hans:哈维·凯特尔; zh-tw:哈維·凱托;"
+    },
+    {
+      "original": "Kelly, Grace",
+      "conv": "zh-cn:格蕾丝·凯莉;zh-hk:嘉麗絲·姬莉;zh-tw:葛莉絲·凱莉;"
+    },
+    {
+      "original": "Kendrick, Anna",
+      "conv": "zh-cn:安娜·肯德里克; zh-tw:安娜·坎卓克; zh-hk:安娜·姬妲妮;"
+    },
+    {
+      "original": "Kerr, Deborah",
+      "conv": "zh-cn:德博拉·克尔; zh-tw:黛博拉·寇兒; zh-hk:狄波拉·嘉;"
+    },
+    {
+      "original": "Keys, Alicia",
+      "conv": "zh-hans:艾丽西亚·凯斯; zh-hant:艾莉西亞·凱斯"
+    },
+    {
+      "original": "Khalifa, Wiz",
+      "conv": "zh-hans:维兹·卡利法; zh-tw:威茲·哈利法"
+    },
+    {
+      "original": "Kidman, Nicole",
+      "conv": "zh-cn:尼科尔·基德曼; zh-hk:妮歌·潔曼; zh-tw:妮可·基嫚; zh-sg:妮可·基曼"
+    },
+    {
+      "original": "Kilmer, Val",
+      "conv": "zh-cn:瓦尔·基尔默; zh-tw:方·基墨; zh-hk:韋·基馬;"
+    },
+    {
+      "original": "King, B. B.",
+      "conv": "zh-cn:B·B·金; zh-tw:比·比·金; zh-hk:B·B·金"
+    },
+    {
+      "original": "King, Stephen",
+      "conv": "zh-cn:斯蒂芬·金; zh-hk:史提芬·京; zh-mo:史蒂芬·金; zh-sg:斯蒂芬·金; zh-tw:史蒂芬·金"
+    },
+    {
+      "original": "Kingsley, Ben",
+      "conv": "zh-tw:班·金斯利; zh-hk:賓·京士利; zh-cn:本·金斯利;"
+    },
+    {
+      "original": "Kinski, Nastassja",
+      "conv": "zh-cn:娜塔莎·金斯基; zh-hant:娜塔莎·金斯基"
+    },
+    {
+      "original": "Kitsch, Taylor",
+      "conv": "zh-tw:泰勒·基奇; zh-hk:泰勒·基奇; zh-cn:泰勒·克奇;"
+    },
+    {
+      "original": "Knightley, Keira",
+      "conv": "zh-cn:凯拉·奈特莉; zh-tw:綺拉·奈特莉; zh-hk:姬拉·麗莉; zh-hans:凯拉·奈特利;"
+    },
+    {
+      "original": "Kruger, Diane",
+      "conv": "zh-cn:黛安·克鲁格; zh-hk:戴安·古嘉; zh-tw:黛安·克魯格"
+    },
+    {
+      "original": "Kubrick, Stanley",
+      "conv": "zh-cn:斯坦利·库布里克; zh-tw:史丹利·庫柏力克; zh-hk:史丹利·寇比力克;"
+    },
+    {
+      "original": "Kunis, Mila",
+      "conv": "zh-cn:米娜·古妮丝; zh-tw:蜜拉·庫妮絲; zh-hk:米娜·古妮絲;"
+    },
+    {
+      "original": "Kuri, Emile",
+      "conv": "zh-cn:埃米尔·库里; zh-tw:艾米爾·庫里; zh-hk:艾米爾·古利;"
+    },
+    {
+      "original": "Kutcher, Ashton",
+      "conv": "zh-cn:阿什顿·库奇; zh-tw:艾希頓·庫奇; zh-hk:艾希頓·古查"
+    },
+    {
+      "original": "LaBeouf, Shia",
+      "conv": "zh-cn:希亚·拉博夫; zh-tw:西亞·李畢福; zh-hk:沙·拉保夫;"
+    },
+    {
+      "original": "Lady Gaga",
+      "conv": "嘎嘎小姐=>zh-tw:女神卡卡; 嘎嘎小姐=>zh-hk:Lady GaGa"
+    },
+    {
+      "original": "Lady Gaga",
+      "conv": "zh-cn:Lady Gaga; zh-tw:女神卡卡; zh-hk:Lady Gaga;"
+    },
+    {
+      "original": "Lake, Veronica",
+      "conv": "zh-hans:维若妮卡·蕾克;zh-hk:華朗妮嘉·歷;zh-tw:維若妮卡·蕾克;"
+    },
+    {
+      "original": "Lambert, Christopher",
+      "conv": "zh:克里斯多弗·藍伯特; zh-tw:克里斯多夫·藍伯特; zh-hk:基斯杜化·林拔; zh-cn:克里斯托弗·兰伯特;"
+    },
+    {
+      "original": "Lancaster, Burt",
+      "conv": "zh-cn:伯特·兰开斯特; zh-tw:伯特·蘭卡斯特; zh-hk:畢·蘭加士打;"
+    },
+    {
+      "original": "Lane, Diane",
+      "conv": "zh-cn:戴安·琳恩; zh-tw:黛安·蓮恩; zh-hk:戴安·蓮;"
+    },
+    {
+      "original": "Lang, Charles",
+      "conv": "zh-cn:查尔斯·朗; zh-hk:查理斯·朗; zh-tw:查爾斯·朗;"
+    },
+    {
+      "original": "Langella, Frank",
+      "conv": "zh-cn:弗兰克·兰格拉;zh-hk:法蘭·朗基拿;zh-tw:法蘭克·蘭吉拉;"
+    },
+    {
+      "original": "Lasseter, John",
+      "conv": "zh-cn:约翰·雷斯特; zh-tw:約翰·拉薩特; zh-hk:尊·賴斯達;"
+    },
+    {
+      "original": "Laughton, Charles",
+      "conv": "zh-hk:查理士·羅頓; zh-hans:查尔斯·劳顿; zh-tw:查爾斯·勞頓;"
+    },
+    {
+      "original": "Laurie, Hugh",
+      "conv": "zh-tw:休·羅利; zh-cn:休·劳瑞; zh-hk:曉·萊利;"
+    },
+    {
+      "original": "Lautner, Taylor",
+      "conv": "zh:泰勒·洛納; zh-tw:泰勒·洛特; zh-hk:泰勒·洛特; zh-cn:泰勒·洛特纳;"
+    },
+    {
+      "original": "Law, Jude",
+      "conv": "zh-hans:裘德·洛; zh-tw:裘德·洛; zh-hk:祖迪·羅;"
+    },
+    {
+      "original": "Lawrence, Francis",
+      "conv": "zh-cn:弗朗西斯·劳伦斯; zh-tw:佛蘭西斯·路易斯; zh-hk:法蘭西斯·羅倫斯;"
+    },
+    {
+      "original": "Lawrence, Jack",
+      "conv": "zh-cn:杰克·劳伦斯; zh-tw:傑克·路易斯; zh-hk:積·羅倫斯;"
+    },
+    {
+      "original": "Lawrence, Jennifer",
+      "conv": "zh-tw:珍妮佛·勞倫斯; zh-hk:珍妮花·羅倫絲; zh-cn:詹妮弗·劳伦斯;"
+    },
+    {
+      "original": "Lazar, Andrew",
+      "conv": "zh-tw:安德魯·拉薩; zh-hk:安德魯·拉沙; zh-cn:安德鲁·拉萨;"
+    },
+    {
+      "original": "Lazenby, George",
+      "conv": "zh-tw:喬治·拉贊貝; zh-cn:乔治·拉兹比; zh-hk:佐治·拉辛比;"
+    },
+    {
+      "original": "Lean, David",
+      "conv": "zh-cn:大卫·利恩; zh-tw:大衛·連; zh-hk:大衛·連;"
+    },
+    {
+      "original": "Ledger, Heath",
+      "conv": "zh-cn:希斯·莱杰; zh-tw:希斯·萊傑; zh-hk:希夫·烈達;"
+    },
+    {
+      "original": "Lee, Christopher",
+      "conv": "zh-cn:克里斯托弗·李; zh-hk:基斯杜化·李; zh-tw:克里斯多夫·李"
+    },
+    {
+      "original": "Lehman, Ernest",
+      "conv": "zh-cn:恩斯特·莱赫曼; zh-hk:恩斯特·雷曼; zh-tw:恩斯特·雷曼;"
+    },
+    {
+      "original": "Lehman, Ernest",
+      "conv": "歐尼斯·烈茲曼=>zh-cn:恩斯特·莱赫曼; 歐尼斯·烈茲曼=>zh-hk:恩斯特·雷曼;"
+    },
+    {
+      "original": "Leigh, Vivien",
+      "conv": "zh-cn:费雯·丽; zh-hk:慧雲·李; zh-tw:費雯·麗"
+    },
+    {
+      "original": "Lemmon, Jack",
+      "conv": "zh-cn:杰克·莱蒙; zh-hk:積·林蒙; zh-tw:傑克·李蒙;"
+    },
+    {
+      "original": "Lennon, John",
+      "conv": "zh-cn:约翰·列侬; zh-tw:約翰·藍儂; zh-hk:約翰·連儂;"
+    },
+    {
+      "original": "Leo, Melissa",
+      "conv": "zh-tw:梅莉莎·李歐; zh-hk:梅麗莎·李奧; zh-cn:梅丽莎·里奥;"
+    },
+    {
+      "original": "Leone, Sergio",
+      "conv": "zh-tw:塞吉歐·李昂尼; zh-hk:沙治奧·里昂; zh-cn:赛尔乔·莱翁内;"
+    },
+    {
+      "original": "Lerman, Logan",
+      "conv": "zh-tw:羅根·勒曼;zh-hk:盧根·利文;zh-cn:罗根·勒曼;"
+    },
+    {
+      "original": "Lester, Adrian",
+      "conv": "zh-hk:艾哲倫·雷斯特; zh-cn:阿德里安·莱斯特;"
+    },
+    {
+      "original": "Leto, Jared",
+      "conv": "zh-cn:杰瑞德·莱托;zh-tw:加爾德·勒托; zh-hk:謝拉·力圖;"
+    },
+    {
+      "original": "Levy, Shawn",
+      "conv": "zh-hk:桑·里維; zh-tw:薛恩·李維; zh-cn:肖恩·利维;"
+    },
+    {
+      "original": "Li, Jet",
+      "conv": "zh-cn:李连杰; zh-hk:李連杰; zh-tw:李連杰; zh-sg:李连杰"
+    },
+    {
+      "original": "Liman, Doug",
+      "conv": "zh-cn:道格·里曼; zh-tw:道格·李曼; zh-hk:德格·里文;"
+    },
+    {
+      "original": "Linney, Laura",
+      "conv": "zh-hans:劳拉·琳尼; zh-hk:羅娜·蓮妮; zh-tw:蘿拉·琳妮;"
+    },
+    {
+      "original": "Loach, Ken",
+      "conv": "zh-cn:肯·罗奇; zh-hk:堅·盧治; zh-tw:肯·洛區"
+    },
+    {
+      "original": "Lohan, Lindsay",
+      "conv": "zh-cn:林赛·罗韩; zh-tw:琳賽·蘿涵; zh-hk:蓮茜·露漢"
+    },
+    {
+      "original": "Longoria, Eva",
+      "conv": "zh-cn:伊娃·朗格里亚; zh-hk:伊娃·朗歌莉亞; zh-tw:伊娃·朗格莉亞"
+    },
+    {
+      "original": "Lopez, Jennifer",
+      "conv": "zh-tw:珍妮佛·羅培茲; zh-hk:珍妮花·露柏絲; zh-cn:珍妮弗·洛佩兹;"
+    },
+    {
+      "original": "Lorde",
+      "conv": "zh-cn:洛德; zh-tw:蘿兒; zh-hk:蘿兒;"
+    },
+    {
+      "original": "Loren, Sophia",
+      "conv": "zh-cn:索非娅·罗兰; zh-tw:蘇菲亞·羅蘭; zh-hk:蘇菲亞·羅蘭;"
+    },
+    {
+      "original": "Louis, Jean",
+      "conv": "zh-cn:让·路易; zh-hk:尚·路易; zh-tw:尚·路易;"
+    },
+    {
+      "original": "Lovato, Demi",
+      "conv": "zh-cn:黛米·洛瓦托; zh-hk:迪美·羅法圖; zh-tw:黛咪·洛瓦特"
+    },
+    {
+      "original": "Lucas, George",
+      "conv": "zh-cn:乔治·卢卡斯; zh-hk:佐治·魯卡斯; zh-tw:喬治·盧卡斯"
+    },
+    {
+      "original": "Luhrmann, Baz",
+      "conv": "zh-hk:巴茲·雷曼; zh-tw:巴茲·魯曼; zh-cn:巴兹·鲁尔曼;"
+    },
+    {
+      "original": "Lynch, David",
+      "conv": "zh-hans:大卫·林奇; zh-hk:大衛·連治; zh-tw:大衛·林區;"
+    },
+    {
+      "original": "Park, Linkin",
+      "conv": "zh-cn:林肯公园; zh-tw:聯合公園; zh-hk:聯合公園; zh-sg:联合公园;"
+    },
+    {
+      "original": "Mackie, Anthony",
+      "conv": "zh-hk:安東尼·麥奇; zh-tw:安東尼·麥基; zh-cn:安东尼·麦凯;"
+    },
+    {
+      "original": "MacLaine, Shirley",
+      "conv": "zh-tw:莎莉·麥克琳; zh-hk:莎莉·麥蓮; zh-cn:雪莉·麦克雷恩;"
+    },
+    {
+      "original": "Macpherson, Elle",
+      "conv": "zh-tw:艾勒·麥克法森; zh-hk:艾麗·麥花遜; zh-cn:埃里·麦克弗森;"
+    },
+    {
+      "original": "Madonna",
+      "conv": "zh-cn:麦当娜; zh-hk:麥當娜; zh-tw:瑪丹娜; zh-sg:麦当娜"
+    },
+    {
+      "original": "Maguire, Tobey",
+      "conv": "zh-cn:托比·马奎尔;zh-tw:陶比·麥奎爾;zh-hk:杜比·麥奎爾;zh-mo:杜比·麥奎爾;"
+    },
+    {
+      "original": "Maher, Bill",
+      "conv": "zh-cn:比尔·马厄; zh-hk:標·馬艾; zh-tw:比爾·麥赫"
+    },
+    {
+      "original": "Malden, Karl",
+      "conv": "zh-cn:卡尔·莫尔登; zh-hk:卡爾·馬登; zh-tw:卡爾·馬登;"
+    },
+    {
+      "original": "Malkovich, John",
+      "conv": "zh-cn:约翰·马尔科维奇; zh-hk:尊·麥高維治; zh-tw:約翰·馬克維奇"
+    },
+    {
+      "original": "Mankiewicz, Joseph L.",
+      "conv": "zh-cn:约瑟夫·曼凯维奇; zh-hk:約瑟·曼基威士; zh-tw:約瑟夫·孟威茲;"
+    },
+    {
+      "original": "Mann, Leslie",
+      "conv": "zh-tw:樂絲莉·蔓; zh-cn:莱斯利·曼恩; zh-hk:莉絲里·曼恩;"
+    },
+    {
+      "original": "Mann, Michael",
+      "conv": "zh-hans:迈克尔·曼; zh-hant:邁可·曼恩; zh-tw:麥可·曼恩; zh-hk:米高·曼; zh-mo:米高·曼;"
+    },
+    {
+      "original": "Margulies, Julianna",
+      "conv": "zh-hk:茱莉安娜·麥佳莉絲; zh-tw:茱莉安娜·瑪格麗絲; zh-cn:朱丽安娜·玛格丽丝"
+    },
+    {
+      "original": "Marley, Bob",
+      "conv": "zh-cn:鲍勃·马利; zh-hant:巴布·馬利"
+    },
+    {
+      "original": "Mars, Bruno",
+      "conv": "zh-cn:布鲁诺·马尔斯; zh-tw:火星人布魯諾; zh-hk:布魯諾·馬斯"
+    },
+    {
+      "original": "Marshall, Garry",
+      "conv": "zh-hk:加利·馬素; zh-tw:蓋瑞·馬歇爾; zh-cn:加里·马歇尔;"
+    },
+    {
+      "original": "Martin, Chris",
+      "conv": "zh-cn:克里斯·马丁; zh-tw:克里斯·馬汀; zh-hk:克里斯·馬汀; zh-sg:克里斯·马丁;"
+    },
+    {
+      "original": "Martin, Dean",
+      "conv": "zh-tw:迪恩·馬丁; zh-hk:甸恩·馬田; zh-cn:迪恩·马丁;"
+    },
+    {
+      "original": "Martin, Steve",
+      "conv": "zh-tw:史提夫·馬丁; zh-hk:史提夫·馬田; zh-cn:史蒂夫·马丁;"
+    },
+    {
+      "original": "Martin, Tony",
+      "conv": "zh-tw:東尼·馬丁; zh-hk:東尼·馬田; zh-cn:托尼·马丁;"
+    },
+    {
+      "original": "Marvin, Lee",
+      "conv": "zh-tw:李·馬文; zh-hk:李·馬榮; zh-cn:李·马文;"
+    },
+    {
+      "original": "Mason, James",
+      "conv": "zh-hk:占士·美臣; zh-tw:詹姆士·梅遜; zh-hans:詹姆士·梅逊;"
+    },
+    {
+      "original": "McAdams, Rachel",
+      "conv": "zh-hk:麗素·麥雅當絲; zh-tw:瑞秋·麥亞當斯; zh-cn:瑞秋·麦亚当斯;"
+    },
+    {
+      "original": "McAvoy, James",
+      "conv": "zh-hans:詹姆斯·麦卡沃伊; zh-hk:占士·麥艾禾; zh-tw:詹姆斯·麥艾維;"
+    },
+    {
+      "original": "McCartney, Paul",
+      "conv": "zh-cn:保罗·麦卡特尼; zh-hk:保羅·麥卡尼; zh-tw:保羅·麥卡尼;"
+    },
+    {
+      "original": "McEntire, Reba",
+      "conv": "zh-cn:芮芭·麦克伊泰; zh-hk:芮芭·麥克伊泰; zh-tw:蕾芭·麥肯泰爾;"
+    },
+    {
+      "original": "McGraw, Tim",
+      "conv": "zh-cn:蒂姆·麦格罗;zh-hk:添·麥格羅;zh-tw:提姆·麥克羅;"
+    },
+    {
+      "original": "McGregor, Ewan Gordon",
+      "conv": "zh-cn:伊万·迈克格雷戈; zh-tw:伊旺·麥奎格; zh-hk:伊雲·麥葵格"
+    },
+    {
+      "original": "McKellen, Ian",
+      "conv": "zh-cn:伊恩·麦凯伦; zh-tw:伊恩·麥克連; zh-hk:伊恩·麥基倫; zh-sg:伊恩·麦凯伦"
+    },
+    {
+      "original": "Mendes, Eva",
+      "conv": "zh-cn:伊娃·门德斯; zh-tw:伊娃·曼德絲; zh-hk:伊娃·文迪絲;"
+    },
+    {
+      "original": "Mendes, Sam",
+      "conv": "zh-cn:山姆·曼德斯; zh-tw:山姆·曼德斯; zh-hk:森·曼特斯;"
+    },
+    {
+      "original": "Meyers, Seth",
+      "conv": "zh-cn:塞斯·梅耶斯;zh-tw:賽斯·梅爾;"
+    },
+    {
+      "original": "Michele, Lea",
+      "conv": "zh:麗婭·米歇爾; zh-tw:麗婭·米雪兒; zh-cn:丽亚·米雪儿; zh-hk:莉雅·米雪;"
+    },
+    {
+      "original": "Mikkelsen, Mads",
+      "conv": "zh-cn:麦德斯·米科尔森; zh-tw:麥德斯·米科爾森; zh-hk:麥斯·米基辛;"
+    },
+    {
+      "original": "Milford, Gene",
+      "conv": "zh-cn:金·米尔福特; zh-tw:金·米爾福特; 真·米爾福特;"
+    },
+    {
+      "original": "Miller, Sienna",
+      "conv": "zh-cn:西耶娜·米勒; zh-tw:席艾娜·米勒; zh-hk:施安娜·米勒"
+    },
+    {
+      "original": "Miller, Wentworth",
+      "conv": "zh-cn:温特沃思·米勒; zh-tw:溫特沃思·米勒; zh-hk:溫特禾夫·米拿;"
+    },
+    {
+      "original": "Mintz-Plasse, Christopher",
+      "conv": "zh-tw:克里斯·敏茲-普雷斯; zh-hk:基斯杜化·曼茲比薩; zh-cn:克里斯托夫·梅兹-普莱瑟;"
+    },
+    {
+      "original": "Mirren, Helen",
+      "conv": "zh-cn:海伦·米伦; zh-tw:海倫·米蘭; zh-hk:海倫·美蘭;"
+    },
+    {
+      "original": "Mitchell, Radha",
+      "conv": "zh-tw:蕾達·蜜雪兒; zh-hk:莉達·美雪; zh-cn:拉妲·米契尔;"
+    },
+    {
+      "original": "Mitra, Rhona",
+      "conv": "zh-cn:罗娜·迈特拉; zh-tw:蘿娜·米莎; zh-hk:露娜·美查"
+    },
+    {
+      "original": "Monaghan, Dominic",
+      "conv": "zh-cn:多米尼克·莫纳汉; zh-tw:多米尼克·莫納漢; zh-hk:杜明尼·莫納漢;"
+    },
+    {
+      "original": "Monteith, Cory",
+      "conv": "zh:科里·蒙蒂思; zh-tw:柯瑞·蒙提斯; zh-cn:柯瑞·蒙特斯; zh-hk:紀偉·蒙迪芬;"
+    },
+    {
+      "original": "Moore, Demi",
+      "conv": "zh-cn:黛米·摩尔; zh-hk:狄美·摩亞; zh-tw:黛咪·摩爾; zh-sg:狄美·摩亚"
+    },
+    {
+      "original": "Moore, Michael",
+      "conv": "zh-cn:麦可·摩尔; zh-hk:米高·摩亞; zh-tw:麥可·摩爾;"
+    },
+    {
+      "original": "Moore, Roger",
+      "conv": "zh-cn:罗杰·摩尔; zh-hk:羅渣·摩亞; zh-tw:羅傑·摩爾;"
+    },
+    {
+      "original": "Moretz, Chloë",
+      "conv": "zh-tw:克蘿伊·摩蕾茲; zh-hk:嘉兒·莫蕊茲; zh-cn:科洛·莫瑞兹;"
+    },
+    {
+      "original": "Morricone, Ennio",
+      "conv": "zh-tw:顏尼歐·莫利克奈; zh-cn:恩尼奥·莫里科内; zh-hk:安尼奧·摩利哥;"
+    },
+    {
+      "original": "Mortensen, Viggo",
+      "conv": "zh-cn:维戈·莫腾森; zh-hk:維高·摩天臣; zh-tw:維果·莫天森"
+    },
+    {
+      "original": "Mortimer, Emily",
+      "conv": "zh-cn:艾米莉·莫迪默;zh-tw:艾蜜莉·摩提默;zh-hk:艾美莉·莫添瑪;"
+    },
+    {
+      "original": "Morton, Joe",
+      "conv": "zh-tw:喬·摩頓; zh-cn:乔·摩顿; zh-hk:祖·莫頓;"
+    },
+    {
+      "original": "Mulligan, Carey",
+      "conv": "zh-tw:凱莉·墨里根; zh-hk:嘉莉·慕萊根; zh-cn:凯瑞·穆里根;"
+    },
+    {
+      "original": "Murphy, Brittany",
+      "conv": "zh-cn:布莱特妮·墨菲; zh-tw:布蘭妮·墨菲; zh-hk:布坦妮·梅菲;"
+    },
+    {
+      "original": "Murphy, Cillian",
+      "conv": "zh-cn:基利安·墨菲; zh-tw:席尼·墨菲; zh-hk:施利安·梅菲"
+    },
+    {
+      "original": "Murphy, Eddie",
+      "conv": "zh-cn:埃迪·墨菲; zh-tw:艾迪·墨菲; zh-hk:愛迪·梅菲;"
+    },
+    {
+      "original": "Murray, Bill",
+      "conv": "zh-cn:比尔·莫瑞; zh-tw:比爾·莫瑞; zh-hk:標·梅利;"
+    },
+    {
+      "original": "Myers, Mike",
+      "conv": "zh-cn:迈克·梅尔斯; zh-tw:麥克·邁爾斯; zh-hk:米高·邁亞斯;"
+    },
+    {
+      "original": "Myers, Richard",
+      "conv": "zh-cn:理查德·梅尔斯; zh-tw:李察·邁爾斯; zh-hk:李察·邁亞斯;"
+    },
+    {
+      "original": "Neeson, Liam",
+      "conv": "zh-cn:连姆·尼森; zh-tw:連恩·尼遜; zh-hk:里安·尼遜"
+    },
+    {
+      "original": "Nichols, Mike",
+      "conv": "zh-cn:迈克·尼科尔斯; zh-tw:麥克·尼可斯; zh-hk:米克·尼高斯;"
+    },
+    {
+      "original": "Nicholson, Jack",
+      "conv": "zh-cn:杰克·尼科尔森; zh-hk:積·尼高遜; zh-tw:傑克·尼克遜; zh-sg:杰克·尼克逊"
+    },
+    {
+      "original": "Nixon, Cynthia",
+      "conv": "zh-tw:辛西亞·尼克森; zh-hk:仙菲亞·歷遜; zh-cn:辛西娅·尼克松;"
+    },
+    {
+      "original": "Nolan, Christopher",
+      "conv": "zh-cn:克里斯托弗·诺兰; zh-tw:克里斯多福·諾蘭; zh-hk:基斯杜化·路蘭;"
+    },
+    {
+      "original": "Nolan, Jonathan",
+      "conv": "zh-cn:乔纳森·诺兰; zh-tw:強納森·諾蘭; zh-hk:尊立頓·路蘭;"
+    },
+    {
+      "original": "Nighy, Bill",
+      "conv": "zh-hk:標·尼菲; zh-cn:比·乃尔; zh-tw:比爾·奈伊;"
+    },
+    {
+      "original": "O'Brien, Edmond",
+      "conv": "zh-cn:艾德蒙·奥布莱恩; zh-hk:愛門·奧勃連; zh-tw:艾德蒙·歐布朗;"
+    },
+    {
+      "original": "O'Donnell, Chris",
+      "conv": "zh-cn:克里斯·奥唐纳; zh-tw:克里斯·歐唐納; zh-hk:基斯·奧當奴; zh-hant:克里斯·奧唐納; zh-mo:基斯·奧當奴;"
+    },
+    {
+      "original": "O'Herlihy, Dan",
+      "conv": "zh-cn:丹·奥赫里奇; zh-tw:丹·歐賀利;"
+    },
+    {
+      "original": "O'Toole, Peter",
+      "conv": "zh-cn:彼德·奥图; zh-tw:彼得·奧圖;"
+    },
+    {
+      "original": "Oberon, Merle",
+      "conv": "zh-cn:梅尔·奥勃朗; zh-tw:瑪麗·奧白朗;"
+    },
+    {
+      "original": "Ocean, Frank",
+      "conv": "zh-hans:弗兰克·奥申; zh-tw:法蘭克海洋"
+    },
+    {
+      "original": "Oldman, Gary",
+      "conv": "zh-cn:加里·奥德曼; zh-tw:蓋瑞·歐德曼; zh-hk:加利·奧文;"
+    },
+    {
+      "original": "Olsen, Ashley",
+      "conv": "zh-cn:阿什莉·奥尔森;zh-tw:艾希莉·歐森;"
+    },
+    {
+      "original": "Olsen, Elizabeth",
+      "conv": "zh-cn:伊丽莎白·奥尔森;zh-tw:伊莉莎白·歐森;"
+    },
+    {
+      "original": "Olsen, Mary-Kate",
+      "conv": "zh-cn:玛丽-凯特·奥尔森;zh-tw:瑪麗-凱特·歐森;"
+    },
+    {
+      "original": "On, Andy",
+      "conv": "zh:安志杰;zh-hant:安志杰;zh-hans:安志杰;"
+    },
+    {
+      "original": "Ophüls, Max",
+      "conv": "zh-cn:马克斯·奥菲尔斯; zh-hk:麥士·奧福斯; zh-tw:馬克思·歐弗斯;"
+    },
+    {
+      "original": "Owen, Clive",
+      "conv": "zh-hk:佳夫·奧雲; zh-tw:克萊夫·歐文; zh-cn:克里夫·欧文;"
+    },
+    {
+      "original": "Pacino, Al",
+      "conv": "zh-cn:艾尔·帕西诺; zh-hk:阿爾·柏仙奴; zh-tw:艾爾·帕西諾"
+    },
+    {
+      "original": "Page, Ellen",
+      "conv": "zh-cn:艾伦·佩姬; zh-hk:愛倫·比芝; zh-tw:艾倫·佩姬"
+    },
+    {
+      "original": "Presley, Elvis",
+      "conv": "zh-cn:埃尔维斯·普雷斯利; zh-hk:埃爾維斯·皮禮士利; zh-tw:艾維斯·普利斯萊; zh-sg:埃尔维斯·普雷斯利"
+    },
+    {
+      "original": "Palmer, Teresa",
+      "conv": "zh-cn:特雷莎·帕尔默; zh-hk:特雷莎·帕尔默; zh-tw:泰瑞莎·帕瑪"
+    },
+    {
+      "original": "Paltrow, Gwyneth",
+      "conv": "zh-cn:格温妮丝·帕特罗; zh-hk:桂莉芙·柏德露; zh-tw:葛妮絲·派特洛; zh-sg:桂莉芙·柏德露"
+    },
+    {
+      "original": "Parillaud, Anne",
+      "conv": "zh-cn:安妮·芭莉罗; zh-hk:安妮·芭莉羅; zh-tw:安娜·芭麗瑤"
+    },
+    {
+      "original": "Parker, Sarah Jessica",
+      "conv": "zh-tw:莎拉·潔西卡·帕克; zh-hk:莎拉·謝茜嘉·柏加; zh-cn:莎拉·杰茜卡·帕克;"
+    },
+    {
+      "original": "Parker, Tony",
+      "conv": "zh-cn:托尼·帕克; zh-hk:東尼·柏加; zh-tw:托尼·帕克"
+    },
+    {
+      "original": "Pattinson, Robert",
+      "conv": "zh-tw:羅伯·派汀森;zh-cn:罗伯特·帕廷森;zh-hk:羅拔·柏迪臣;"
+    },
+    {
+      "original": "Pearce, Guy",
+      "conv": "zh-hk:佳·皮雅斯; zh-cn:盖·皮尔斯; zh-tw:蓋·皮爾斯"
+    },
+    {
+      "original": "Peck, Gregory",
+      "conv": "zh-hk:格力哥利·柏; zh-tw:葛雷哥萊·畢克; zh-cn:格里高利·派克;"
+    },
+    {
+      "original": "Pegg, Simon",
+      "conv": "zh-cn:西蒙·佩吉; zh-hk:西蒙·柏奇; zh-tw:賽門·佩吉"
+    },
+    {
+      "original": "Perlman, Ron",
+      "conv": "zh-tw:朗·帕爾曼; zh-hk:朗·柏曼; zh-cn:朗·普尔曼;"
+    },
+    {
+      "original": "Penn, Sean",
+      "conv": "zh-cn:西恩·潘; zh-hk:辛·潘; zh-tw:西恩·潘; zh-sg:西恩·潘"
+    },
+    {
+      "original": "Perry, Katy",
+      "conv": "zh-hans:姬蒂·佩芮; zh-tw:凱蒂·佩芮; zh-cn:凯蒂·派瑞;"
+    },
+    {
+      "original": "Petersen, Wolfgang",
+      "conv": "zh-cn:沃尔夫冈·彼得森; zh-hk:胡根·彼德遜; zh-tw:沃夫岡·彼得森"
+    },
+    {
+      "original": "Pfeiffer, Michelle",
+      "conv": "zh-cn:米歇尔·法伊弗; zh-tw:蜜雪兒·菲佛; zh-hk:米雪·菲花; zh-sg:米雪·菲花"
+    },
+    {
+      "original": "Phillips, Phillip",
+      "conv": "zh-cn:菲利普·菲利普斯; zh-tw:菲利·飛力普; zh-hk:菲臘·菲臘斯;"
+    },
+    {
+      "original": "Phillippe, Ryan",
+      "conv": "zh-cn:瑞安·菲利普; zh-tw:雷恩·菲力浦; zh-hk:賴恩·菲臘彼"
+    },
+    {
+      "original": "Phoenix, Joaquin",
+      "conv": "zh-cn:杰昆·菲尼克斯; zh-hk:祖昆·馮力士; zh-tw:瓦昆·費尼克斯"
+    },
+    {
+      "original": "Phoenix, River",
+      "conv": "zh-cn:里弗·菲尼克斯; zh-hk:里華·馮力士; zh-tw:瑞凡·費尼克斯"
+    },
+    {
+      "original": "Smith, Jada Pinkett",
+      "conv": "zh-tw:潔達·蘋姬·史密斯; zh-cn:贾达·萍克特·史密斯; zh-hk:珍達·娉琦·史密夫;"
+    },
+    {
+      "original": "Pitt, Brad",
+      "conv": "zh-cn:布拉德·皮特; zh-hk:畢·彼特; zh-tw:布萊德·彼特; zh-sg:布莱德·彼特"
+    },
+    {
+      "original": "Plummer, Christopher",
+      "conv": "zh-hans:克里斯托弗·普卢默; zh-hk:基斯杜化·龐馬; zh-tw:克里斯多夫·柏麥;"
+    },
+    {
+      "original": "Poitier, Sidney",
+      "conv": "zh-hans:西德尼·波蒂埃; zh-hk:薜尼·波達; zh-tw:薜尼·鮑迪;"
+    },
+    {
+      "original": "Portman, Natalie",
+      "conv": "zh-cn:娜塔莉·波特曼; zh-tw:娜塔莉·波曼; zh-hk:妮妲莉·寶雯;"
+    },
+    {
+      "original": "Postlethwaite, Pete",
+      "conv": "zh-cn:皮特·波斯尔思韦特;zh-tw:彼得·普斯特李威;zh-hk:彼特·保士圖伏維特;"
+    },
+    {
+      "original": "Purcell, Dominic",
+      "conv": "zh-cn:多米尼克·珀塞尔; zh-hk:杜明歷·珀素; zh-tw:多明尼克·普塞爾"
+    },
+    {
+      "original": "Psihoyos, Louie",
+      "conv": "zh-hans:路易·西霍尤斯; zh-hk:路易·沙凱約斯; zh-tw:路易·賽侯尤斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:艾迪特·皮雅芙;zh-tw:愛迪·琵雅芙; zh-cn:伊迪丝·琵雅芙;zh-hk:伊蒂·琵雅芙;"
+    },
+    {
+      "original": "Quaid, Dennis",
+      "conv": "zh-cn:丹尼斯·奎德; zh-hk:丹尼斯·奎爾; zh-tw:丹尼斯·奎德; zh-sg:丹尼斯·奎德"
+    },
+    {
+      "original": "Latifah, Queen",
+      "conv": "zh-tw:皇后·拉蒂法; zh-hk:拉蒂法女皇;zh-cn:奎恩·拉提法;"
+    },
+    {
+      "original": "Radcliffe, Daniel",
+      "conv": "zh-cn:丹尼尔·拉德克利夫; zh-tw:丹尼爾·雷德克里夫; zh-hk:丹尼爾·域基夫"
+    },
+    {
+      "original": "Raimi, Sam",
+      "conv": "zh-cn:萨姆·莱米;zh-hk:森·溫美;zh-tw:山姆·雷米;"
+    },
+    {
+      "original": "Reagan, Ronald",
+      "conv": "zh-cn:罗纳德·里根; zh-tw:隆納·雷根; zh-hk:朗奴·列根;"
+    },
+    {
+      "original": "Reddick, Lance",
+      "conv": "zh-cn:兰斯·雷迪克; zh-hk:蘭斯·雷迪克; zh-tw:藍斯·瑞迪克;"
+    },
+    {
+      "original": "Redford, Robert",
+      "conv": "zh-cn:罗伯特·雷德福; zh-hk:羅拔·烈福; zh-tw:勞勃·瑞福;"
+    },
+    {
+      "original": "Redgrave, Vanessa",
+      "conv": "zh-cn:瓦妮莎·雷德格瑞夫; zh-hk:雲尼莎·韋姬芙; zh-tw:凡妮莎·蕾格烈芙;"
+    },
+    {
+      "original": "Reed, Donna",
+      "conv": "zh-tw:唐娜·李德; zh-hk:唐娜·李德; zh-cn:唐娜·里德;"
+    },
+    {
+      "original": "Reed, Oliver",
+      "conv": "zh-tw:奧利佛·李德; zh-hk:奧利佛·李德; zh-cn:奥利弗·里德;"
+    },
+    {
+      "original": "Reed, Tom",
+      "conv": "zh-tw:湯姆·李德; zh-hk:湯·李德; zh-cn:湯姆·里德;"
+    },
+    {
+      "original": "Reeve, Christopher",
+      "conv": "zh-cn:克里斯托弗·里夫; zh-hk:基斯杜化·李夫; zh-tw:克里斯多福·李維;"
+    },
+    {
+      "original": "Reeves, Keanu",
+      "conv": "zh-cn:基努·里维斯; zh-tw:基努·李維; zh-hk:奇洛·李維斯; zh-sg:奇洛·李维斯;"
+    },
+    {
+      "original": "Reitman, Jason",
+      "conv": "zh-cn:贾森·雷特曼; zh-hk:積遜·懷文; zh-tw:傑森·瑞特曼;"
+    },
+    {
+      "original": "Renner, Jeremy",
+      "conv": "zh-hk:謝洛美·維納; zh-tw:傑瑞米·雷納; zh-cn:杰瑞米·雷纳;"
+    },
+    {
+      "original": "Reno, Jean",
+      "conv": "zh-cn:让·雷诺; zh-hk:尚·連奴; zh-tw:尚·雷諾"
+    },
+    {
+      "original": "Requa, John",
+      "conv": "zh-tw:約翰·瑞卡; zh-hk:約翰·雷卡; zh-cn:约翰·雷夸;"
+    },
+    {
+      "original": "Rey, Lana Del",
+      "conv": "zh-tw:拉娜·德芮; zh-hk:拉娜·德芮; zh-cn:拉娜·德雷;"
+    },
+    {
+      "original": "Reynolds, Ryan",
+      "conv": "zh-tw:萊恩·雷諾斯; zh-hk:賴恩·雷諾士; zh-cn:瑞安·雷诺兹"
+    },
+    {
+      "original": "Rhys-Davies, John",
+      "conv": "zh-cn:约翰·里斯-戴维斯; zh-hk:約翰·里斯-戴維斯; zh-tw:約翰·萊斯-戴維斯"
+    },
+    {
+      "original": "Rhys Meyers, Jonathan",
+      "conv": "zh-hk:尊立頓·麥亞斯;zh-hans:乔纳森·雷·麦耶斯;zh-tw:強納森·萊斯·梅爾;"
+    },
+    {
+      "original": "Richard, Cliff",
+      "conv": "zh-cn:克里夫·理查德; zh-hk:奇里夫·李察; zh-tw:克里夫·李察"
+    },
+    {
+      "original": "Richardson, Ian",
+      "conv": "zh-hans:伊安·理查森; zh-tw:伊恩·里察森; zh-hk:伊恩·李察遜;"
+    },
+    {
+      "original": "Rickman, Alan",
+      "conv": "zh-cn:阿伦·瑞克曼; zh-hk:阿倫·烈卡文; zh-tw:艾倫·瑞克曼"
+    },
+    {
+      "original": "Ritchie, Guy",
+      "conv": "zh-cn:盖伊·里奇; zh-hk:佳·烈治; zh-tw:蓋·瑞奇"
+    },
+    {
+      "original": "Ritter, Thelma",
+      "conv": "zh-cn:瑟尔玛·瑞特; zh-tw:瑟爾瑪·麗特;"
+    },
+    {
+      "original": "Ritter, Thelma",
+      "conv": "塞尔马·里特=>zh-tw:瑟爾瑪·麗特;"
+    },
+    {
+      "original": "Robbins, Tim",
+      "conv": "zh-cn:蒂姆·罗宾斯; zh-hk:添·羅賓斯; zh-tw:提姆·羅賓斯"
+    },
+    {
+      "original": "Roberts, Julia",
+      "conv": "zh-cn:茱莉娅·罗伯茨; zh-hk:茱莉亞·羅拔絲; zh-tw:茱莉亞·羅勃茲; zh-sg:茱莉亚·罗拔丝;"
+    },
+    {
+      "original": "Roberts, Stanley",
+      "conv": "zh-cn:斯坦利·罗伯茨; zh-hk:史丹利·羅拔斯; zh-tw:史丹利·羅勃茲;"
+    },
+    {
+      "original": "Rock, Chris",
+      "conv": "zh-hans:克里斯·洛克; zh-hk:基斯·洛克; zh-tw:克里斯·洛克;"
+    },
+    {
+      "original": "Rockwell, Sam",
+      "conv": "zh-tw:山姆·洛克威; zh-hk:森·洛維; zh-cn:山姆·洛克威;"
+    },
+    {
+      "original": "Rodriguez, Robert",
+      "conv": "zh-tw:勞勃·羅里葛茲; zh-hk:羅拔·洛迪格斯; zh-cn:罗伯特·罗德里格兹;"
+    },
+    {
+      "original": "Rogen, Seth",
+      "conv": "zh-cn:塞思·罗根; zh-hk:薛夫·洛根; zh-tw:塞斯·羅根"
+    },
+    {
+      "original": "Rogers, Mimi",
+      "conv": "zh-cn:美美·罗杰斯; zh-tw:咪咪·羅傑斯; zh-hk:美美·羅傑斯"
+    },
+    {
+      "original": "Ronan, Saoirse",
+      "conv": "zh-cn:西尔莎·罗南; zh-hk:莎愛絲·露娜; zh-tw:希爾莎·羅南;"
+    },
+    {
+      "original": "Ross, Gary",
+      "conv": "zh-cn:加里·罗斯; zh-tw:蓋瑞·羅斯;"
+    },
+    {
+      "original": "Roth, Tim",
+      "conv": "zh-hans:蒂姆·罗斯; zh-hant:蒂姆·羅斯; zh-tw:提姆·羅斯; zh-hk:添·羅夫; zh-mo:添·羅夫;"
+    },
+    {
+      "original": "Roth, Tim",
+      "conv": "提姆·羅素=>zh-hans:蒂姆·罗斯;提姆·羅素=>zh-hant:提姆·羅斯;提姆·羅素=>zh-hk:添·羅夫;提姆·羅素=>zh-mo:添·羅夫;"
+    },
+    {
+      "original": "Rourke, Mickey",
+      "conv": "zh-cn:米基·洛克; zh-tw:米基·洛克; zh-hk:米奇·洛基;"
+    },
+    {
+      "original": "Rush, Geoffrey",
+      "conv": "zh-cn:杰弗里·拉什; zh-tw:傑佛瑞·羅許; zh-hk:謝菲·路殊;"
+    },
+    {
+      "original": "Russell, Kurt",
+      "conv": "zh-cn:库尔特·拉塞尔; zh-hk:卻·羅素; zh-tw:寇特·羅素"
+    },
+    {
+      "original": "Ryan, Meg",
+      "conv": "zh-cn:梅格·瑞安; zh-tw:梅格·萊恩; zh-hk:美琪·賴恩; zh-sg:梅格·莱恩"
+    },
+    {
+      "original": "Ryder, Winona",
+      "conv": "zh-cn:威诺纳·赖德; zh-hans:薇诺娜·瑞德; zh-tw:薇諾娜·瑞德; zh-hk:雲露娜·維達;"
+    },
+    {
+      "original": "Saarsgard, Peter",
+      "conv": "zh-hk:彼得·沙士格; zh-cn:彼得·塞斯嘉; zh-tw:彼得·塞斯嘉;"
+    },
+    {
+      "original": "Saint, Eva Marie",
+      "conv": "zh-cn:爱娃·玛丽·森特; zh-hk:伊娃·瑪莉·聖; zh-tw:伊娃·瑪莉·桑特;"
+    },
+    {
+      "original": "Saint-Laurent, Yves",
+      "conv": "zh-cn:伊夫·圣洛朗; zh-hk:伊夫·聖羅蘭; zh-tw:伊夫·聖羅蘭; zh-sg:伊夫·圣罗兰"
+    },
+    {
+      "original": "Samberg, Andy",
+      "conv": "zh-cn:安迪·萨姆伯格;zh-tw:安迪·山伯格;zh-hk:安迪·森堡;zh-sg:安迪·萨姆博格;"
+    },
+    {
+      "original": "Sanders, Chris",
+      "conv": "zh-tw:克里斯·桑德斯; zh-hk:基斯·辛達斯; zh-cn:克里斯·桑德斯;"
+    },
+    {
+      "original": "Sanders, Dennis",
+      "conv": "zh-tw:丹尼斯·桑德斯; zh-hk:丹尼斯·辛達斯; zh-cn:丹尼斯·桑德斯;"
+    },
+    {
+      "original": "Sanders, Terry",
+      "conv": "zh-tw:泰瑞·桑德斯; zh-hk:泰利·辛達斯; zh-cn:特里·桑德斯; "
+    },
+    {
+      "original": "Sandler, Adam",
+      "conv": "zh-tw:亞當·山德勒; zh-hk:阿當·桑迪拿; zh-cn:亚当·桑德勒;"
+    },
+    {
+      "original": "Sarandon, Susan",
+      "conv": "zh-cn:苏珊·莎兰登; zh-hk:蘇珊·莎朗頓; zh-tw:蘇珊·莎蘭登;"
+    },
+    {
+      "original": "Sarsgaard, Peter",
+      "conv": "zh-hk:彼得·沙士加特;zh-tw:彼得·賽斯嘉;zh-cn:彼得·萨斯加德;"
+    },
+    {
+      "original": "Schneider, Rob",
+      "conv": "zh-tw:勞勃·許奈德; zh-hk:洛·舒奈達; zh-cn:罗伯·施奈德;"
+    },
+    {
+      "original": "Schwarzenegger, Arnold",
+      "conv": "zh-cn:阿诺德·施瓦辛格; zh-tw:阿諾·史瓦辛格; zh-hk:阿諾·舒華辛力加;"
+    },
+    {
+      "original": "Scorsese, Martin",
+      "conv": "马丁·斯科塞斯=>zh-hk:馬田·史高西斯;马丁·斯科塞斯=>zh-tw:馬丁·史柯西斯;马丁·斯科塞斯=>zh-mo:馬田·史高西斯;"
+    },
+    {
+      "original": "Scorsese, Martin",
+      "conv": "zh-cn:马丁·斯科西斯; zh-hk:馬田·史高西斯; zh-tw:馬丁·史柯西斯"
+    },
+    {
+      "original": "Scott, George",
+      "conv": "zh-hans:乔治·斯科特;zh-hk:佐治·史葛;zh-tw:喬治·斯科特;"
+    },
+    {
+      "original": "Scott, George Campbell",
+      "conv": "zh-hans:乔治·坎贝尔·斯科特;zh-hk:佐治·金寶·史葛;zh-tw:喬治·坎貝爾·斯科特;"
+    },
+    {
+      "original": "Scott, Ridley",
+      "conv": "zh-cn:雷德利·斯科特; zh-hk:列尼·史葛; zh-tw:雷利·史考特; zh-hans:里德利·斯科特;"
+    },
+    {
+      "original": "Scott, Tony",
+      "conv": "zh-cn:托尼·斯科特; zh-hk:東尼·史葛; zh-tw:東尼·史考特; zh-hans:東尼·斯科特;"
+    },
+    {
+      "original": "Scott, Sean William",
+      "conv": "zh-hk:尚·威廉·史葛; zh-tw:西恩·威廉·史考特; zh-cn:西恩·威廉·史考特;"
+    },
+    {
+      "original": "Scott, Walter",
+      "conv": "zh-cn:沃尔特·斯科特; zh-hk:華特·史葛; zh-tw:華特·史考特;"
+    },
+    {
+      "original": "Scott, Walter",
+      "conv": "zh-cn:沃尔特·M·斯科特; zh-hk:華特·M·史葛; zh-tw:華特·M·史考特;"
+    },
+    {
+      "original": "Seagal, Steven",
+      "conv": "zh-cn:斯蒂芬·西格尔; zh-hk:史提芬·史葛; zh-tw:史蒂芬·席格"
+    },
+    {
+      "original": "Seaton, George",
+      "conv": "zh-cn:乔治·薛顿; zh-hk:佐治·薛頓; zh-tw:喬治·薛頓;"
+    },
+    {
+      "original": "Seaton, George",
+      "conv": "乔治·席顿=>zh-hk:佐治·薛頓; 乔治·席顿=>zh-tw:喬治·薛頓;"
+    },
+    {
+      "original": "Seaton, George",
+      "conv": "乔治·希顿=>zh-hk:佐治·薛頓; 乔治·希顿=>zh-tw:喬治·薛頓;"
+    },
+    {
+      "original": "Seaton, George",
+      "conv": "喬治·席頓=>zh-cn:乔治·薛顿; 喬治·席頓=>zh-hk:佐治·薛頓;"
+    },
+    {
+      "original": "Seaton, George",
+      "conv": "喬治·希頓=>zh-cn:乔治·薛顿; 喬治·希頓=>zh-hk:佐治·薛頓;"
+    },
+    {
+      "original": "Sedgwick, Kyra",
+      "conv": "zh-hans:凯拉·塞吉维克; zh-tw:凱拉·塞吉薇克; zh-hk:姬娜·薛域;"
+    },
+    {
+      "original": "Serkis, Andy",
+      "conv": "zh-cn:安迪·塞基斯; zh-hk:安迪·薛堅斯; zh-tw:安迪·瑟克斯"
+    },
+    {
+      "original": "Sewell, Rufus",
+      "conv": "zh-tw:魯佛·西維爾; zh-cn:卢夫斯·塞维尔; zh-hk:魯夫斯·史維爾;"
+    },
+    {
+      "original": "Seyfried, Amanda",
+      "conv": "zh-cn:阿曼达·西耶弗里德; zh-tw:亞曼達·塞佛瑞; zh-hk:雅曼達·施菲;"
+    },
+    {
+      "original": "Seymour, Jane",
+      "conv": "zh-hans:简·西摩; zh-hk:珍·茜摩爾; zh-tw:珍·西摩兒;"
+    },
+    {
+      "original": "Shannon, Michael",
+      "conv": "zh-hans:迈克尔·珊农; zh-tw:麥可·夏儂;"
+    },
+    {
+      "original": "Sharif, Omar",
+      "conv": "zh-hans:奥马·沙里夫; zh-tw:奧瑪·雪瑞夫;"
+    },
+    {
+      "original": "Sheen, Charlie",
+      "conv": "zh-cn:查理·西恩; zh-hk:查理·辛; zh-sg:查理·辛;"
+    },
+    {
+      "original": "Sheen, Martin",
+      "conv": "zh-cn:马丁·辛; zh-hk:馬田·辛; zh-tw:馬丁·辛; zh-sg:马丁·辛"
+    },
+    {
+      "original": "Sheen, Michael",
+      "conv": "zh-hans:麦克尔·辛; zh-hk:米高·辛; zh-tw:麥可·辛;"
+    },
+    {
+      "original": "Sidibe, Gabourey",
+      "conv": "zh-hk:嘉碧·絲狄比; zh-cn:加布蕾·丝迪贝; zh-tw:嘉柏莉·西迪貝;"
+    },
+    {
+      "original": "Silverstone, Alicia",
+      "conv": "zh-hans:艾丽西亚·希尔维斯通; zh-hant:愛莉西亞·席維史東; zh-cn:艾丽西亚·希尔维斯通; zh-tw:愛莉西亞·席維史東; zh-hk:雅麗茜亞·蕭華史東; zh-mo:雅麗茜亞·蕭華史東;"
+    },
+    {
+      "original": "Simmons, Jean",
+      "conv": "zh-hk:珍·茜蒙絲; zh-tw:珍·西蒙絲; zh-cn:简·西蒙斯;"
+    },
+    {
+      "original": "Simon, Neil",
+      "conv": "zh-tw:尼爾·賽門; zh-hk:紐·西蒙; zh-cn:尼尔·西蒙;"
+    },
+    {
+      "original": "Simon & Garfunkel",
+      "conv": "zh-hans:西蒙和加芬克尔; zh-tw:賽門與葛芬柯;"
+    },
+    {
+      "original": "Simpson, Cody",
+      "conv": "zh-tw:陽光寇弟;zh-hans:寇弟·辛普森;"
+    },
+    {
+      "original": "Sinatra, Frank",
+      "conv": "zh-hans:弗兰克·西纳特拉;zh-hk:法蘭·仙納杜拉;zh-tw:法蘭克·辛納屈;"
+    },
+    {
+      "original": "Skarsgård, Stellan",
+      "conv": "zh-hans:斯特兰·斯卡斯加德; zh-hk:史戴倫·史卡斯格; zh-tw:史戴倫·史柯斯嘉;"
+    },
+    {
+      "original": "Smith, Maggie",
+      "conv": "zh-cn:玛吉·史密斯; zh-hk:瑪姬·史密芙; zh-tw:瑪姬·史密斯;"
+    },
+    {
+      "original": "Smith, Will",
+      "conv": "zh-cn:威尔·史密斯; zh-hk:韋·史密夫; zh-tw:威爾·史密斯; zh-sg:威尔·史密斯"
+    },
+    {
+      "original": "Smulders, Cobie",
+      "conv": "zh-hant:科比·斯馬得兒; zh-tw:蔻碧·史莫德; zh-hk:高碧·史蜜達絲; zh-cn:寇碧·史莫德斯;"
+    },
+    {
+      "original": "Snyder, Zack",
+      "conv": "zh-tw:查克·史奈德; zh-hk:薩克·薛達; zh-cn:扎克·施奈德;"
+    },
+    {
+      "original": "Soderbergh, Steven",
+      "conv": "zh-cn:史蒂文·索德伯格; zh-tw:史蒂芬·索德柏; zh-hk:史提芬·蘇德堡;"
+    },
+    {
+      "original": "Sommers, Stephen",
+      "conv": "zh-cn:斯蒂芬·索莫斯; zh-hk:史提芬·森瑪斯; zh-tw:史蒂芬·桑莫"
+    },
+    {
+      "original": "Sokurov, Alexander",
+      "conv": "zh-hans:亚历山大·索科洛夫; zh-hant:亞歷山大·索科洛夫;"
+    },
+    {
+      "original": "Sorvino, Mira",
+      "conv": "zh-hans:米拉·索维诺; zh-hk:美娜·蘇雲露; zh-tw:蜜拉·索維諾;"
+    },
+    {
+      "original": "Sorkin, Aaron",
+      "conv": "zh-hk:阿倫·索金; zh-tw:艾倫·索金; zh-cn:阿伦·索尔金;"
+    },
+    {
+      "original": "Spacek, Sissy",
+      "conv": "zh-tw:西西·史派克; zh-cn:西席·斯贝西克; zh-hk:茜絲·史治;"
+    },
+    {
+      "original": "Spacey, Kevin",
+      "conv": "zh-cn:凯文·史派西; zh-tw:凱文·史貝西; zh-hk:奇雲·史柏西; zh-sg:凯文·斯贝西"
+    },
+    {
+      "original": "Spader, James",
+      "conv": "zh-hk:占士·史碧達; zh-tw:詹姆斯·史派德; zh-hans:詹姆斯·斯派德;"
+    },
+    {
+      "original": "Spencer, Octavia",
+      "conv": "zh-tw:奧塔薇亞·史班森; zh-cn:奥克塔维亚·斯宾塞; zh-hk:奧緹華·史賓莎;"
+    },
+    {
+      "original": "Spielberg, Steven",
+      "conv": "zh-cn:斯蒂芬·斯皮尔伯格; zh-hk:史提芬·史匹堡; zh-tw:史蒂芬·史匹柏; zh-hant:史蒂芬·史匹伯; zh-mo:史提芬·史匹堡;"
+    },
+    {
+      "original": "Stallone, Sylvester",
+      "conv": "zh-cn:西尔维斯特·史泰龙; zh-tw:席維斯·史特龍; zh-hk:史泰龍;"
+    },
+    {
+      "original": "Stan, Sebastian",
+      "conv": "zh-cn:塞巴斯蒂安·斯坦; zh-hk:施巴斯坦·史丹; zh-tw:賽巴斯汀·斯坦;"
+    },
+    {
+      "original": "Starr, Ringo",
+      "conv": "zh-cn:林戈·斯塔尔; zh-hk:靈高·史達; zh-tw:林哥·史達;"
+    },
+    {
+      "original": "Statham, Jason",
+      "conv": "zh-cn:杰森·斯塔森; zh-tw:傑森·史塔森; zh-hk:積遜·斯特咸;"
+    },
+    {
+      "original": "Stefani, Gwen",
+      "conv": "zh-hans:格温·史蒂芬妮; zh-hant:關·史蒂芬妮; "
+    },
+    {
+      "original": "Steiger, Rod",
+      "conv": "zh-cn:罗德·斯泰格尔; zh-tw:洛·史泰格; zh-hk:洛·史德加;"
+    },
+    {
+      "original": "Steinfeld, Hailee",
+      "conv": "zh-tw:海莉·史坦菲德; zh-hk:希莉·施丹菲; zh-cn:海莉·斯坦菲尔德;"
+    },
+    {
+      "original": "Sterling, Jan",
+      "conv": "zh-cn:珍·史达玲; zh-hk:珍·史泰玲; zh-tw:珍·史達玲;"
+    },
+    {
+      "original": "Stewart, James",
+      "conv": "zh-cn:詹姆斯·斯图尔特; zh-hk:占士·史超域; zh-tw:詹姆斯·史都華;"
+    },
+    {
+      "original": "Stewart, Jimmy",
+      "conv": "zh-cn:吉米·斯图尔特; zh-hk:占美·史超域; zh-tw:吉米·史都華;"
+    },
+    {
+      "original": "Stewart, Kristen",
+      "conv": "zh-tw:克莉絲汀·史都華; zh-hk:姬絲汀·史超域; zh-cn:克里斯汀·斯图尔特;"
+    },
+    {
+      "original": "Stiller, Ben",
+      "conv": "zh-cn:本·斯蒂勒; zh-tw:班·史提勒; zh-hk:賓·史迪拿;"
+    },
+    {
+      "original": "Stone, Emma",
+      "conv": "zh-hk:愛瑪·史東;zh-tw:艾瑪·史東;zh-cn:艾玛·斯通;"
+    },
+    {
+      "original": "Stone, Oliver",
+      "conv": "zh-cn:奥利弗·斯通; zh-hk:奧利華·史東; zh-tw:奧立佛·史東;"
+    },
+    {
+      "original": "Stone, Sharon",
+      "conv": "zh-cn:莎朗·斯通; zh-hant:莎朗·史東;"
+    },
+    {
+      "original": "Streep, Meryl",
+      "conv": "梅丽尔·斯特丽普=>zh-cn:梅丽尔·斯特里普;梅丽尔·斯特丽普=>zh-tw:梅莉·史翠普;梅丽尔·斯特丽普=>zh-hk:梅麗·史翠普;梅丽尔·斯特丽普=>zh-sg:梅莉·史翠普;梅丽尔·斯特丽普=>zh-mo:梅麗·史翠普;"
+    },
+    {
+      "original": "Streep, Meryl",
+      "conv": "zh-cn:梅丽尔·斯特里普; zh-tw:梅莉·史翠普; zh-hk:梅麗·史翠普; zh-sg:梅莉·史翠普;"
+    },
+    {
+      "original": "Sturgess, Jim",
+      "conv": "zh-tw:吉姆·史特格斯;zh-cn:吉姆·斯特吉斯;zh-hk:占·史杜哲斯;"
+    },
+    {
+      "original": "Sutherland, Donald",
+      "conv": "zh-cn:唐纳德·萨瑟兰; zh-tw:唐納·蘇德蘭; zh-hk:當奴·修打蘭;"
+    },
+    {
+      "original": "Sutherland, Keifer",
+      "conv": "zh-cn:基佛·苏德兰; zh-tw:基佛·蘇德蘭; zh-hk:基夫·修打蘭;"
+    },
+    {
+      "original": "Swank, Hilary",
+      "conv": "zh-cn:希拉里·斯旺克; zh-tw:希拉蕊·史璜; zh-hk:希拉莉·絲韻; zh-hant:希拉蕊·史旺; zh-mo:希拉莉·絲韻;"
+    },
+    {
+      "original": "Swayze, Patrick",
+      "conv": "zh-hans:帕特里克·斯韦兹; zh-hk:柏德烈·史域斯; zh-tw:派屈克·史威茲;"
+    },
+    {
+      "original": "Swift, Taylor",
+      "conv": "zh-hans:泰勒·斯威夫特; zh-hk:泰勒·斯威夫特; zh-tw:泰勒絲; zh-cn:泰勒·斯威夫特;"
+    },
+    {
+      "original": "Swinton, Tilda",
+      "conv": "zh-cn:蒂尔达·斯温顿; zh-hk:蒂達·史雲頓; zh-tw:蒂妲·絲雲頓"
+    },
+    {
+      "original": "Tarantino, Quentin",
+      "conv": "zh-cn:昆汀·塔伦蒂诺; zh-tw:昆汀·塔倫提諾; zh-hk:昆頓·塔倫天奴"
+    },
+    {
+      "original": "Tarantino, Quentin",
+      "conv": "昆廷·塔伦蒂诺=>zh-cn:昆汀·塔伦蒂诺;昆廷·塔伦蒂诺=>zh-tw:昆汀·塔倫提諾;昆廷·塔伦蒂诺=>zh-hk:昆頓·塔倫天奴;昆廷·塔伦蒂诺=>zh-mo:昆頓·塔倫天奴;"
+    },
+    {
+      "original": "Tatum, Channing",
+      "conv": "zh-cn:查宁·塔图姆; zh-hk:查寧·泰坦; zh-tw:查寧·塔圖;"
+    },
+    {
+      "original": "Taylor, Elizabeth",
+      "conv": "zh-cn:伊丽莎白·泰勒; zh-hk:伊莉沙伯·泰萊; zh-tw:伊莉莎白·泰勒;"
+    },
+    {
+      "original": "Taylor, Samuel A.",
+      "conv": "zh-cn:塞缪尔·泰勒; zh-hk:森姆·泰勒; zh-tw:山繆·泰勒; zh-sg:塞缪尔·泰勒;"
+    },
+    {
+      "original": "Taylor, Samuel A.",
+      "conv": "zh-cn:塞缪尔·A·泰勒; zh-hk:森姆·A·泰勒; zh-tw:山繆·A·泰勒; zh-sg:塞缪尔·A·泰勒;"
+    },
+    {
+      "original": "Tempah, Tinie",
+      "conv": "zh-hans:泰尼·坦普; zh-tw:天霸泰尼"
+    },
+    {
+      "original": "Theron, Charlize",
+      "conv": "zh-cn:查理兹·塞隆; zh-tw:莎莉·賽隆; zh-hk:查理絲·花朗;"
+    },
+    {
+      "original": "Theron, Charlize",
+      "conv": "莎莉兹·赛隆=>zh-cn:查理兹·塞隆; 莎莉兹·赛隆=>zh-tw:莎莉·賽隆; 莎莉兹·赛隆=>zh-hk:查理絲·花朗;"
+    },
+    {
+      "original": "Thompson, Emma",
+      "conv": "zh-hans:埃玛·汤普森;zh-hk:愛瑪·湯遜;zh-tw:艾瑪·湯普遜;"
+    },
+    {
+      "original": "Thornton, Billy Bob",
+      "conv": "zh-hk:比利·卜·科頓; zh-tw:比利·鮑伯·湯頓; zh-cn:比利·鲍伯·松顿;"
+    },
+    {
+      "original": "Thurman, Uma",
+      "conv": "zh-cn:乌玛·瑟曼; zh-hk:奧瑪·花曼; zh-tw:鄔瑪·舒曼;"
+    },
+    {
+      "original": "Tomei, Marisa",
+      "conv": "zh-cn:玛丽莎·托梅; zh-hk:瑪麗莎·杜美; zh-tw:瑪麗莎·托梅"
+    },
+    {
+      "original": "Tomlin, Lily",
+      "conv": "zh-cn:莉莉·汤姆林; zh-hk:莉莉·湯蓮; zh-tw:莉莉·湯瑪琳;"
+    },
+    {
+      "original": "Travolta, John",
+      "conv": "zh-cn:约翰·特拉沃尔塔; zh-hk:尊·特拉華特; zh-tw:約翰·屈伏塔; zh-sg:约翰·特拉沃尔塔"
+    },
+    {
+      "original": "Trevor, Claire",
+      "conv": "zh-cn:克莱尔·特雷弗; zh-hk:嘉麗拉·挑莉娥; zh-tw:嘉麗·杜莉華;"
+    },
+    {
+      "original": "Trevor, Claire",
+      "conv": "克萊兒·崔華=>zh-cn:克莱尔·特雷弗; 克萊兒·崔華=>zh-hk:嘉麗拉·挑莉娥;"
+    },
+    {
+      "original": "Tucci, Stanley",
+      "conv": "zh-hans:史丹利·图奇; zh-hk:史丹利·特治; zh-tw:史丹利·圖奇;"
+    },
+    {
+      "original": "Tucker, Christ",
+      "conv": "zh-cn:克里斯·塔克; zh-hk:基斯·德加; zh-tw:克里斯·塔克; zh-sg:克里斯·塔克"
+    },
+    {
+      "original": "Tully, Tom",
+      "conv": "zh-cn:湯姆·塔利; zh-hk:湯·塔利; zh-tw:湯姆·塔利;"
+    },
+    {
+      "original": "Twain, Shania",
+      "conv": "zh-cn:莎妮娅·特温; zh-tw:仙妮亞·唐恩"
+    },
+    {
+      "original": "Tyler, Liv",
+      "conv": "zh-cn:丽芙·泰勒; zh-hk:莉芙·泰萊; zh-tw:麗芙·泰勒; zh-sg:丽芙·泰勒"
+    },
+    {
+      "original": "Tyler, Walter",
+      "conv": "zh-cn:瓦尔特·泰勒; zh-hk:華特·泰萊; zh-tw:華特·泰勒;"
+    },
+    {
+      "original": "Tyler, Walter H.",
+      "conv": "zh-cn:瓦尔特·H·泰勒; zh-hk:華爾特·H·泰萊; zh-tw:華爾特·H·泰勒;"
+    },
+    {
+      "original": "Underwood, Carrie",
+      "conv": "zh-cn:凯莉·安德伍德;zh-hk:卡麗·安德伍;zh-tw:卡麗·安德伍;"
+    },
+    {
+      "original": "Ustinov, Peter",
+      "conv": "zh-hans:皮特·乌斯蒂诺夫; zh-hant:彼得·尤斯汀諾夫;"
+    },
+    {
+      "original": "Union, Gabrielle",
+      "conv": "zh-tw:蓋柏莉·尤恩; zh-cn:加布里埃尔·尤尼恩; zh-hk:蓋柏莉·尤恩"
+    },
+    {
+      "original": "Cleef, Lee Van",
+      "conv": "zh-cn:李·范·克里夫; zh-hk:李·雲·奇里夫; zh-tw:李·范·克里夫;"
+    },
+    {
+      "original": "Damme, Jean-Claude Van",
+      "conv": "zh-cn:尚-克劳德·范·戴姆; zh-tw:尚-克勞德·范·達美; zh-hk:尚-格·雲·頓;"
+    },
+    {
+      "original": "Sant, Gus Van",
+      "conv": "zh-cn:格斯·范·桑特; zh-hk:吉士·雲·辛; zh-tw:葛斯·范·桑;"
+    },
+    {
+      "original": "Voight, Jon",
+      "conv": "zh-tw:強·沃特; zh-hk:莊·威; zh-cn:乔恩·沃伊特;"
+    },
+    {
+      "original": "Wahlberg, Mark",
+      "conv": "zh-cn:马克·沃尔伯格; zh-tw:馬克·華柏格; zh-hk:麥克·華堡;"
+    },
+    {
+      "original": "Wachowski Brothers",
+      "conv": "zh-cn:沃卓斯基兄弟; zh-tw:華卓斯基兄弟; zh-hk:華高斯基兄弟; zh-sg:沃卓斯基兄弟"
+    },
+    {
+      "original": "Walker, Paul",
+      "conv": "zh-tw:保羅·沃克; zh-hk:保羅·獲加; zh-cn:保罗·沃克;"
+    },
+    {
+      "original": "Waltz, Christoph",
+      "conv": "zh-cn:克里斯托弗·瓦尔兹; zh-tw:克里斯多夫·華茲; zh-hk:基斯托夫·華薩;"
+    },
+    {
+      "original": "Warren, John F.",
+      "conv": "zh-cn:约翰·F·沃伦; zh-hk:約翰·F·華倫; zh-tw:約翰·F·華倫;"
+    },
+    {
+      "original": "Washington, Denzel",
+      "conv": "zh-cn:丹泽尔·华盛顿; zh-tw:丹佐·華盛頓; zh-hk:丹素·華盛頓; zh-sg:丹佐·华盛顿;"
+    },
+    {
+      "original": "Watson, Emma",
+      "conv": "zh-cn:埃玛·沃森; zh-tw:艾瑪·華森; zh-hk:愛瑪·屈臣; zh-sg:艾玛·沃森;"
+    },
+    {
+      "original": "Watts, Naomi",
+      "conv": "zh-hans:妮奥米·瓦兹; zh-hk:娜奧美·屈絲; zh-tw:娜歐蜜·華茲;"
+    },
+    {
+      "original": "Wayne, John",
+      "conv": "zh-cn:约翰·韦恩; zh-tw:約翰·韋恩; zh-hk:尊·榮;"
+    },
+    {
+      "original": "Weaver, Jacki",
+      "conv": "zh-cn:杰姬·韦弗; zh-tw:賈姬·威佛; zh-hk:積琪·韋花;"
+    },
+    {
+      "original": "Weaver, Sigourney",
+      "conv": "zh-cn:西格妮·韦弗; zh-hk:薛歌妮·韋花; zh-tw:雪歌妮·薇佛;"
+    },
+    {
+      "original": "Weaving, Hugo",
+      "conv": "zh-cn:雨果·威文; zh-hk:曉高·韋榮; zh-tw:雨果·威明"
+    },
+    {
+      "original": "Webb, Marc",
+      "conv": "zh-cn:马克·韦布;zh-hk:馬克·韋伯;zh-tw:馬克·偉柏;"
+    },
+    {
+      "original": "Weerasethakul, Apichatpong",
+      "conv": "zh-hans:阿彼察邦·韦拉斯哈古; zh-tw:阿比查邦·魏拉希沙可; zh-hk:阿彼察邦·韋拉斯花古;"
+    },
+    {
+      "original": "Weisz, Rachel",
+      "conv": "zh-cn:瑞切尔·薇兹; zh-tw:瑞秋·懷茲; zh-hk:麗素·慧絲;"
+    },
+    {
+      "original": "Wellman, William",
+      "conv": "zh-cn:威廉·惠曼; zh-hk:威廉·韋曼; zh-tw:威廉·惠曼;"
+    },
+    {
+      "original": "Wellman, William A.",
+      "conv": "zh-cn:威廉·A·惠曼; zh-hk:威廉·A·韋曼; zh-tw:威廉·A·惠曼;"
+    },
+    {
+      "original": "West, Kanye",
+      "conv": "zh-cn:坎耶·韦斯特; zh-hk:肯伊·威斯特; zh-tw:肯伊·威斯特;"
+    },
+    {
+      "original": "Whishaw, Ben",
+      "conv": "zh-tw:班·維蕭; zh-cn:本·威士肖;zh-hk:賓·韋沙;"
+    },
+    {
+      "original": "Whitaker, Forest",
+      "conv": "zh-tw:佛瑞斯·惠特克; zh-hk:科力士·韋德加; zh-hans:福里斯特·惠特克;"
+    },
+    {
+      "original": "Whiteley, Jon",
+      "conv": "zh-cn:乔恩·怀特利; zh-hk:莊·懷特利; zh-tw:強·懷特利;"
+    },
+    {
+      "original": "Wiig, Kristen",
+      "conv": "zh-tw:克莉絲汀·薇格; zh-hk:姬絲汀·慧; zh-cn: 克里斯汀·韦格;"
+    },
+    {
+      "original": "Wilde, Olivia",
+      "conv": "zh-hans:奥利维亚·维尔德; zh-tw:奧莉薇亞·懷德; zh-hk:奧莉菲亞·懷特;"
+    },
+    {
+      "original": "Wilder, Billy",
+      "conv": "zh-cn:比利·怀尔德; zh-tw:比利·懷德; zh-hk:比利·懷特;"
+    },
+    {
+      "original": "Wilder, Billy",
+      "conv": "比利·怀德=>zh-tw:比利·懷德; 比利·怀德=>zh-hk:比利·懷特;"
+    },
+    {
+      "original": "Wilkinson, Tom",
+      "conv": "zh-cn:汤姆·威尔金森; zh-tw:湯姆·威金森; zh-hk:湯·韋堅遜;"
+    },
+    {
+      "original": "Williams, Michelle",
+      "conv": "zh-hans:米歇尔·威廉姆斯; zh-hk:米雪·威廉絲; zh-tw:蜜雪兒·威廉絲;"
+    },
+    {
+      "original": "Williams, Pharrell",
+      "conv": "zh-hans:法瑞尔·威廉姆斯;zh-tw:菲瑞·威廉斯;"
+    },
+    {
+      "original": "Willis, Bruce",
+      "conv": "zh-cn:布鲁斯·威利斯; zh-tw:布魯斯·威利; zh-hk:布斯·韋利士; zh-sg:布鲁斯·威利斯;"
+    },
+    {
+      "original": "Willis, Edwin",
+      "conv": "zh-cn:埃德溫·威利斯; zh-tw:艾德溫·威利; zh-hk:艾德溫·韋利士; zh-sg:埃德溫·威利斯;"
+    },
+    {
+      "original": "Willis, Edwin B.",
+      "conv": "zh-cn:埃德溫·B·威利斯; zh-tw:艾德溫·B·威利; zh-hk:艾德溫·B·韋利士; zh-sg:埃德溫·B·威利斯;"
+    },
+    {
+      "original": "Wilson, Brian",
+      "conv": "zh-cn:布赖恩·威尔逊; zh-tw:布萊恩·威爾森;"
+    },
+    {
+      "original": "Wilson, Owen",
+      "conv": "zh-cn:欧文·威尔逊; zh-tw:歐文·威爾森; zh-hk:奧雲·韋遜;"
+    },
+    {
+      "original": "Wilton, Penelope",
+      "conv": "zh-cn:佩内洛普·威尔顿; zh-tw: 潘妮洛普·威爾頓; zh-hk:彭妮露比·韋頓"
+    },
+    {
+      "original": "Winfrey, Oprah",
+      "conv": "zh-cn:奥普拉·温弗里; zh-tw:歐普拉·溫芙蕾; zh-hk:奧花·雲費;"
+    },
+    {
+      "original": "Winslet, Kate",
+      "conv": "zh-cn:凯特·温斯莱特; zh-tw:凱特·溫絲蕾; zh-hk:琦·溫斯莉; zh-sg:凯特·温斯莱特"
+    },
+    {
+      "original": "Winslet, Kate",
+      "conv": "zh-cn:凯特·温斯莱特; zh-tw:凱特·溫絲蕾; zh-hk:琦·溫斯莉; zh-sg:凯特·温斯莱特;"
+    },
+    {
+      "original": "Winters, Ralph",
+      "conv": "zh-cn:拉尔夫·溫特斯; zh-hk:賴夫·溫特斯; zh-tw:雷夫·溫特斯;"
+    },
+    {
+      "original": "Winters, Ralph E.",
+      "conv": "zh-cn:拉尔夫·E·溫特斯; zh-hk:賴夫·E·溫特斯; zh-tw:雷夫·E·溫特斯;"
+    },
+    {
+      "original": "Wise, Robert",
+      "conv": "zh-cn:罗伯特·怀斯; zh-hk:羅拔·懷斯; zh-tw:勞勃·懷斯;"
+    },
+    {
+      "original": "Wiseman, Len",
+      "conv": "zh-hans:伦·怀斯曼; zh-tw:連恩·懷斯曼; zh-hk:連·韋斯曼;"
+    },
+    {
+      "original": "Witherspoon, Reese",
+      "conv": "zh-cn:里斯·威瑟斯庞; zh-tw:瑞絲·薇斯朋; zh-hk:麗絲·韋花絲潘;"
+    },
+    {
+      "original": "Wood, Elijah",
+      "conv": "zh-cn:伊莱贾·伍德; zh-tw:伊利亞·伍德; zh-hk:伊力查·活;"
+    },
+    {
+      "original": "Wood, Natalie",
+      "conv": "zh-hans:娜塔莉·伍德; zh-hk:妮妲梨·活; zh-tw:娜妲麗·華;"
+    },
+    {
+      "original": "Woodley, Shailene",
+      "conv": "zh-tw:雪琳·伍德莉;zh-cn:谢琳·伍德利;zh-hk:莎蓮·活莉;"
+    },
+    {
+      "original": "Woodward, Joanne",
+      "conv": "zh-hans:乔安·伍德沃德; zh-tw:瓊安·伍華德; zh-hk:鍾安·活華;"
+    },
+    {
+      "original": "Worthington, Sam",
+      "conv": "zh-cn:萨姆·沃辛顿; zh-tw:山姆·沃辛頓; zh-hk:森·禾霍頓;"
+    },
+    {
+      "original": "Wright, Bonnie",
+      "conv": "zh-cn:邦妮·赖特;zh-tw:邦妮·萊特;zh-hk:邦妮·韋特;"
+    },
+    {
+      "original": "Wright Penn, Robin",
+      "conv": "zh-cn:罗宾·怀特·潘; zh-tw:羅蘋·萊特·潘; zh-hk:羅冰·活麗·萍;"
+    },
+    {
+      "original": "Wright, Robin",
+      "conv": "zh-cn:罗宾·怀特; zh-tw:羅蘋·萊特; zh-hk:羅冰·活麗;"
+    },
+    {
+      "original": "Wyman, Jane",
+      "conv": "zh-cn:珍·惠曼; zh-hk:珍·惠文; zh-tw:珍·惠曼;"
+    },
+    {
+      "original": "Yu, Ringo",
+      "conv": "zh:于榮光;zh-hk:于榮光; zh-tw:于榮光; zh-hans:于荣光;"
+    },
+    {
+      "original": "York, Susannah",
+      "conv": "zh-hk:蘇珊娜·玉; zh-tw:蘇珊娜·約克; zh-hans:苏珊娜·约克;"
+    },
+    {
+      "original": "Zellweger, Renée",
+      "conv": "zh-hans:蕾妮·齐薇格; zh-hk:雲妮·絲維嘉; zh-tw:芮妮·齊薇格;"
+    },
+    {
+      "original": "Zemeckis, Robert",
+      "conv": "zh-cn:罗伯特·泽米吉斯; zh-hant:羅勃·辛密克斯; zh-tw:勞勃·辛密克斯; zh-hk:羅拔·湛米基斯; zh-mo:羅拔·湛米基斯;"
+    },
+    {
+      "original": "Zeta-Jones, Catherine",
+      "conv": "zh-cn:凯瑟琳·泽塔-琼斯; zh-tw:凱薩琳·麗塔-瓊絲; zh-hk:嘉芙蓮·薜達-鍾斯; zh-sg:凯瑟琳·泽塔-琼斯; zh-hant:凱瑟琳·麗塔-瓊斯; zh-mo:嘉芙蓮·薜達-鍾斯;"
+    },
+    {
+      "original": "Zimmer, Hans",
+      "conv": "zh-hans:汉斯·季默; zh-hk:漢斯·森瑪; zh-tw:漢斯·季默;"
+    },
+    {
+      "original": "Zwick, Edward",
+      "conv": "zh-cn:爱德华·茨威克; zh-hk:艾活·史域; zh-tw:愛德華·茲維克;"
+    },
+    {
+      "original": "Hanks",
+      "conv": "汉克斯=>zh-hk:漢斯; 漢克斯=>zh-hk:漢斯;"
+    },
+    {
+      "original": "Hathaway",
+      "conv": "zh-cn:海瑟薇; zh-tw:海瑟薇; zh-hk:夏菲維; zh-sg:海瑟薇"
+    },
+    {
+      "original": "Jamie, Jimmy",
+      "conv": "占美=>zh-hk:占美;占美=>zh-mo:占美;"
+    },
+    {
+      "original": "Leonardo",
+      "conv": "zh-cn:莱昂纳多; zh-tw:李奧納多; zh-hk:里安納度; zh-sg:李奥纳多"
+    },
+    {
+      "original": "Michael",
+      "conv": "zh-cn:迈克尔; zh-hk:米高; zh-tw:麥可;"
+    },
+    {
+      "original": "Saint Laurent",
+      "conv": "zh-cn:圣洛朗; zh-hk:聖羅蘭; zh-tw:聖羅蘭; zh-sg:圣罗兰"
+    },
+    {
+      "original": "Spielberg",
+      "conv": "zh-cn:斯皮尔伯格; zh-hk:史匹堡; zh-tw:史匹柏"
+    },
+    {
+      "original": "Wachowski",
+      "conv": "zh-cn:沃卓斯基; zh-hk:華高斯基; zh-tw:華卓斯基; zh-sg:沃卓斯基"
+    },
+    {
+      "original": "Witherspoon",
+      "conv": "zh-cn:威瑟斯庞; zh-hk:韋花絲潘; zh-tw:薇斯朋"
+    },
+    {
+      "original": "Film Festival",
+      "conv": "zh-cn:电影节; zh-tw:影展; zh-hk:影展;"
+    },
+    {
+      "original": "Grammy Awards",
+      "conv": "zh-cn:格莱美; zh-hk:格林美; zh-tw:葛萊美; zh-sg:葛莱美"
+    },
+    {
+      "original": "20th Century Fox",
+      "conv": "zh-cn:二十世纪福克斯; zh-tw:二十世紀福斯; zh-hk:二十世紀霍士; zh-sg:二十世纪霍士"
+    },
+    {
+      "original": "DreamWorks",
+      "conv": "zh-cn:梦工厂; zh-hk:夢工場; zh-tw:夢工廠; zh-sg:梦工厂"
+    },
+    {
+      "original": "Lucasfilm",
+      "conv": "zh-cn:卢卡斯电影; zh-hk:魯卡斯電影; zh-tw:盧卡斯電影; zh-sg:卢卡斯电影"
+    },
+    {
+      "original": "Pixar Animation Studios",
+      "conv": "zh-cn:皮克斯动画工作室; zh-tw:皮克斯動畫工作室; zh-hk:彼思動畫製作室; zh-sg:皮克斯动画工作室"
+    },
+    {
+      "original": "Pixar",
+      "conv": "zh-cn:皮克斯; zh-tw:皮克斯; zh-hk:彼思; zh-sg:皮克斯"
+    },
+    {
+      "original": "Band",
+      "conv": "zh-cn:乐队; zh-hk:樂隊; zh-tw:樂團; zh-sg:乐队"
+    },
+    {
+      "original": "Bollywood",
+      "conv": "zh-cn:宝莱坞; zh-hk:波里活; zh-tw:寶萊塢;"
+    },
+    {
+      "original": "Cannes",
+      "conv": "zh-cn:戛纳; zh-hk:康城; zh-tw:坎城; zh-sg:康城"
+    },
+    {
+      "original": "Film editing",
+      "conv": "zh-cn:剪辑; zh-hk:剪接; zh-tw:剪輯;"
+    },
+    {
+      "original": "Guitar",
+      "conv": "zh-cn:吉他; zh-hk:結他; zh-tw:吉他; zh-sg:吉他"
+    },
+    {
+      "original": "Hollywood",
+      "conv": "zh-cn:好莱坞; zh-hk:荷里活; zh-tw:好萊塢; zh-sg:好莱坞"
+    },
+    {
+      "original": "Machine Shop Recordings",
+      "conv": "zh-cn:机动店唱片公司; zh-hk:Machine Shop Recordings; zh-tw:Machine Shop Recordings; zh-sg:Machine Shop Recordings"
+    },
+    {
+      "original": "Rhythm and Blues",
+      "conv": "zh-cn:节奏布鲁斯; zh-tw:節奏藍調; zh-tw:節奏藍調; zh-sg:节奏蓝调;"
+    }
+  ]
+}

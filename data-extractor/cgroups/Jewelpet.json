@@ -1,0 +1,475 @@
+{
+  "name": "Jewelpet",
+  "description": "寶石寵物",
+  "path": "Template:CGroup/Jewelpet",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-cn:卡内特; zh-tw:佳娜德; zh-hk:佳娜德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拉布拉; zh-tw:拉布拉; zh-hk:奈娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:贾斯柏; zh-tw:嘉斯巴; zh-hk:積斯巴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:查洛特; zh-tw:茶蘿絲; zh-hk:查洛特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:安祖娜; zh-tw:安潔拉; zh-hk:安祖娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:芝露; zh-tw:吉魯; zh-hk:芝露;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:梅萝莉娜; zh-tw:梅蘿莉娜; zh-hk:蜜瓜蓮娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:哈妮; zh-tw:哈妮; zh-hk:蜜糖兒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:布琳琪; zh-tw:布琳琪; zh-hk:布甸琪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:多那多那; zh-tw:多那多那; zh-hk:冬甩東拿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:玛卡洛尼亚; zh-tw:瑪卡洛尼亞; zh-hk:瑪卡瓏妮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:艾克莲; zh-tw:艾克蓮; zh-hk:泡芙蓮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:萨克兰; zh-tw:薩克蘭; zh-hk:櫻桃;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:古咪咪; zh-tw:古咪咪; zh-hk:古米米;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:柏菇君; zh-tw:柏菇君; zh-hk:大食仔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:索库娜; zh-tw:修克菈; zh-hk:朱古妮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:摩尔多拜多校長; zh-tw:莫魯塔貝多校長; zh-hk:摩德弗茲校長;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:赫莱特; zh-tw:郝萊特; zh-hk:哈莉特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沙鲁法; zh-tw:薩魯夫; zh-hk:薩魯夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:喜魔女; zh-tw:喜悅魔女; zh-hk:喜魔女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:怒魔女; zh-tw:憤怒魔女; zh-hk:怒魔女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:哀魔女; zh-tw:哀傷魔女; zh-hk:哀魔女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乐魔女; zh-tw:快樂魔女; zh-hk:樂魔女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:敏特; zh-tw:薄荷; zh-hk:冰薄荷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小明; zh-tw:小明; zh-hk:阿明;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:莱昂; zh-tw:雷恩; zh-hk:利昂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:茱蒂; zh-tw:茱蒂; zh-hk:朱迪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:朱莉; zh-tw:裘莉; zh-hk:祖莉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:梅琳; zh-tw:梅莉; zh-hk:瑪莉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阿美杜玲、托莉斯汀; zh-tw:亞美德琳、桃莉斯汀; zh-hk:阿美杜玲、托莉斯汀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:艾莉娜; zh-tw:愛莉娜; zh-hk:艾莉娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:祐里; zh-tw:尤里; zh-hk:祐里;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:莫妮卡; zh-tw:莫尼卡; zh-hk:莫妮卡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:玛丽安娜; zh-tw:瑪莉安娜; zh-hk:瑪麗安娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:卡特莉娜; zh-tw:卡德麗娜; zh-hk:卡特莉娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:安洁莉娜; zh-tw:安潔麗娜; zh-hk:安潔莉娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:菲安丽娜; zh-tw:菲雅莉娜; zh-hk:費莉娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:西边洞窟的老婆婆; zh-tw:西邊洞窟的老婆婆; zh-hk:西洞窟老婆婆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亞露比娜; zh-tw:亞露比娜; zh-hk:艾爾比亞娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:塞琳．布莱特; zh-tw:雪莉布萊特; zh-hk:絲莉露布萊特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亚米莉; zh-tw:愛米莉; zh-hk:亞米莉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:格兰．马尼艾鲁．萧克拉．朱利安捷尼; zh-tw:葛蘭．馬尼艾爾．修克拉．裘莉安潔莉; zh-hk:格蘭．馬尼艾魯．蕭克拉．朱利安捷尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小未; zh-tw:小米; zh-hk:小未;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:佳奈; zh-tw:佳奈; zh-hk:加奈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:优子; zh-tw:優子; zh-hk:裕子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:高田莉娜; zh-tw:高田麗娜; zh-hk:高田莉娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:埃卡娜特; zh-tw:艾可奈特; zh-hk:艾卡麗桃;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:艾灵基大臣; zh-tw:耶林奇大臣; zh-hk:艾靈基大臣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沙更; zh-tw:沙坎; zh-hk:沙更;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:希露迪; zh-tw:菲露狄; zh-hk:希露迪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拉也; zh-tw:萊雅; zh-hk:拉也;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:冼尼斯; zh-tw:希利斯; zh-hk:冼尼斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阿鲁化; zh-tw:阿爾法; zh-hk:阿魯化;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:保罗权; zh-tw:布朗奇; zh-hk:保羅權;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伊四郎; zh-tw:伊普希隆; zh-hk:伊四郎;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:华鲁夫; zh-tw:瓦爾夫; zh-hk:華魯夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:阿透; zh-tw:塔沃; zh-hk:阿透;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:更河; zh-tw:鋼荷; zh-hk:更河;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:; zh-tw:; zh-hk:茱莉娜女王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石乐园; zh-tw:寶石王國; zh-hk:寶石樂園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:艾克斯兰特学园; zh-tw:艾克史蘭德學園; zh-hk:艾克斯蘭特學園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石小镇; zh-tw:寶石小鎮; zh-hk:Jewel Town;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:甜点王国; zh-tw:甜點王國; zh-hk:甜品樂園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石魔杖; zh-tw:寶石手杖; zh-hk:寶石寵物魔法寶杖;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:憤怒之X; zh-tw:小暖桌X; zh-hk:超波爐X;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石笔记; zh-tw:寶石手冊; zh-hk:寶石寵物魔法日記;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石护符; zh-tw:寶石護身符; zh-hk:Jewel Charm;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石卡片; zh-tw:寶石卡片; zh-hk:Jewelpod;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:「宝石」; zh-tw:「寶石」; zh-hk:Jewel Stone;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝利宝利糖; zh-tw:悠游糖; zh-hk:寶利寶利糖;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔法之镜; zh-tw:魔法鏡; zh-hk:魔法之鏡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:音乐之果实; zh-tw:音樂的果實; zh-hk:音樂之果實;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Jewel Flash; zh-tw:寶石閃光; zh-hk:Jewel Flash;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Puripuri Pururin Puririzumu Open Jewel Heart;zh-tw:噗哩噗哩 噗嚕拎 噗哩律動 開啟 寶石的心;zh-hk:Puripuri Pururin Puririzumu Open Jewel Heart;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Puripuri Pururin Puririzumu Open Jewel Heart Evolution;zh-tw:噗哩噗哩 噗嚕拎 噗哩律動 開啟 寶石的心 寶石進化;zh-hk:Puripuri Pururin Puririzumu Open Jewel Heart Evolution;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Kirapikarin;zh-tw:閃閃亮晶晶;zh-hk:Kirapikarin;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Purupuru Purizumu Jewellizm ○○ Jewel Flash;zh-tw:噗嚕噗嚕 噗哩律動 寶石律動 ○○ 寶石閃光;zh-hk:Purupuru Purizumu Jewellizm ○○ Jewel Flash;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Miracle Million Purupuru Purizumu Jewellizm ○○ Jewel Flash;zh-tw:無限奇蹟 噗嚕噗嚕 噗哩律動 寶石律動 ○○ 寶石閃光;zh-hk:Miracle Million Purupuru Purizumu Jewellizm ○○ Jewel Flash;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Puripuru Puropuru Purifoni ○○ Jewel Return;zh-tw:噗嚕噗嚕 噗囉噗嚕 嚕哩啵呢 ○○ 寶石回歸;zh-hk:Puripuru Puropuru Purifoni ○○ Jewel Return;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Dark Dark Diamond Eyes Power;zh-tw:黑暗 黑暗 黑鑽石的冰魔力;zh-hk:Dark Dark Diamond Eyes Power;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Dark Dark Obsidian Eyes Power;zh-tw:黑暗 黑暗 黑曜石眼之魔力;zh-hk:Dark Dark Obsidian Eyes Power;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Piropiro Pirorori Piririzumu Come On Jewel Light;zh-tw:皮囉皮囉 皮囉拎 皮哩律動 出現吧 寶石光芒;zh-hk:Piropiro Pirorori Piririzumu Come On Jewel Light;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Piro Pirial Pirimal Jewellizm ○○ Jewel Flash;zh-tw:皮囉皮囉 皮囉拎 寶石律動 ○○ 寶石閃光;zh-hk:Piro Pirial Pirimal Jewellizm ○○ Jewel Flash;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Bobore; zh-tw:Boboore; zh-hk:Bobore;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Randeabu; zh-tw:Rande-Ur-b（Randeagu、Randerabu）; zh-hk:Randeabu;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Noiwako Ribu; zh-tw:Noiwakori-bu; zh-hk:Noiwako Ribu;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira; zh-tw:Gurizararira Guririra Ranguri Ranguro Rangu-ra Burogure Burogura Buri-buropu; zh-hk:Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira Gurizararira;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Reniamu; zh-tw:Renia-mu; zh-hk:Reniamu;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Dindonbell; zh-tw:Dindonberu; zh-hk:Dindonbell;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Lucky Jewel; zh-tw:幸運寶石; zh-hk:Lucky Jewel;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:闪闪亮亮Love卡內特; zh-tw:閃閃亮亮愛Love佳娜德; zh-hk:閃閃亮亮I Love佳娜德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:最喜欢甜点 珊瑚 喵; zh-tw:最喜歡甜點的珊瑚，喵; zh-hk:最喜歡吃甜品的珊瑚，喵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:闪耀的蓝宝石满载的是友情; zh-tw:燦爛奪目的藍寶石滿載的友情; zh-hk:閃耀的藍寶石滿載的是友情;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拜托妳了 我的旋律; zh-tw:我愛美樂蒂; zh-hk:奇幻魔法Melody;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:雷亚; zh-tw:雷亞; zh-hk:利亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:原田宝石网购; zh-tw:原田寶石網購; zh-hk:寶石網絡原田;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:千夜一夜草; zh-tw:一千零一夜草; zh-hk:千夜一夜草;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:七大怪谈; zh-tw:七大怪談; zh-hk:七不思議;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝石之星竞赛; zh-tw:寶石之星競賽; zh-hk:寶石之星大賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:时空旅程之门; zh-tw:穿越時空之門; zh-hk:時空旅程之門;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔法天使; zh-tw:魔法天使三人組; zh-hk:魔法天使;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Bravo树; zh-tw:太棒了之樹; zh-hk:Bravo樹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:滴溜滴溜花; zh-tw:咕嚕咕啦轉之花; zh-hk:滴溜滴溜花;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:荆棘兰; zh-tw:棘蘭; zh-hk:荊棘蘭;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:笨笨鸟; zh-tw:笨笨鳥; zh-hk:柏加鳥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:哼歌草; zh-tw:吟唱草; zh-hk:哼歌草;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:摇摇摆摆昆布; zh-tw:麻酥酥海帶; zh-hk:搖搖擺擺昆布;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:禁断之魔法書; zh-tw:禁忌的魔法書; zh-hk:禁斷之魔法書;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:巴蒂斯特; zh-tw:巴蒂斯特; zh-hk:懲罰考驗;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:盛名天使; zh-tw:名媛天使; zh-hk:盛名天使;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:好奇小子; zh-tw:為甚麼君; zh-hk:為甚麼為甚麼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:止住打嗝君; zh-tw:停止打嗝君; zh-hk:打嗝小子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:I Am Pen; zh-tw:艾亞魔筆; zh-hk:I Am Pen;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔法恋爱药粉; zh-cn:魔法戀愛藥粉; zh-tw:心動藥粉; zh-hk:魔法戀愛藥粉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Cosmo Boys; zh-tw:宇宙男孩; zh-hk:Cosmo Boys;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:甜点宠物; zh-tw:甜點寵物; zh-hk:甜品寵物;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:;zh-tw:;zh-hk:;"
+    }
+  ]
+}

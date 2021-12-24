@@ -1,0 +1,139 @@
+{
+  "name": "Power Rangers",
+  "description": "-{zh-tw:金剛戰士;zh-cn:恐龙战队;zh-hk:Power Rangers}-",
+  "path": "Template:CGroup/Power Rangers",
+  "rules": [
+    {
+      "original": "zh-hans:恐龙战队;zh-hk:新恐龍戰隊;zh-tw:金剛戰士;",
+      "conv": "Mighty Morphin Power Rangers"
+    },
+    {
+      "original": "zh-hans:外星战队; zh-hant:異星戰士",
+      "conv": "Power Rangers Alien Rangers"
+    },
+    {
+      "original": "zh-hans:西奥战队;zh-hant:新金剛戰士",
+      "conv": "Power Rangers: Zeo"
+    },
+    {
+      "original": "zh-hans:激走战队;zh-hk:霹靂戰隊;zh-tw:鐵弋戰警;",
+      "conv": "Power Rangers: Turbo"
+    },
+    {
+      "original": "zh-hans:佐藤;zh-hant:宙威",
+      "conv": "Zordon"
+    },
+    {
+      "original": "zh-hans:阿尔法;zh-hant:智多星",
+      "conv": "Alpha"
+    },
+    {
+      "original": "zh-hans:汤米;zh-hant:大明",
+      "conv": "Tommy"
+    },
+    {
+      "original": "zh-hans:杰森;zh-hant:英傑",
+      "conv": "Jason"
+    },
+    {
+      "original": "zh-hans:扎克;zh-hant:賽克",
+      "conv": "Zack"
+    },
+    {
+      "original": "zh-hans:金伯莉;zh-hant:小晴",
+      "conv": "Kimberly"
+    },
+    {
+      "original": "zh-hans:曲妮;zh-hant:珍妮",
+      "conv": "Trini"
+    },
+    {
+      "original": "zh-hans:凯瑟琳;zh-hant:凱琳",
+      "conv": "Katherine"
+    },
+    {
+      "original": "zh-hans:阿达姆;zh-hant:亞當",
+      "conv": "Adam"
+    },
+    {
+      "original": "zh-hans:洛奇;zh-hant:洛基",
+      "conv": "Rocky"
+    },
+    {
+      "original": "zh-hans:布尔克;zh-hant:王天霸",
+      "conv": "Bulk"
+    },
+    {
+      "original": "zh-hans:斯戈尔;zh-hant:史古頭",
+      "conv": "Skull"
+    },
+    {
+      "original": "zh-hans:丽达;zh-hant:幽冥",
+      "conv": "Rita"
+    },
+    {
+      "original": "zh-hans:高达;zh-hant:天狼將軍",
+      "conv": "Goldar"
+    },
+    {
+      "original": "zh-hans:乍德爵士;zh-hant:玄冥大帝",
+      "conv": "Lord Zedd"
+    },
+    {
+      "original": "zh-hans:怪杰老妖;zh-hant:終極魔王",
+      "conv": "Master Vile"
+    },
+    {
+      "original": "zh-hans:普梯兵;zh-hant:魔土鬼面卒",
+      "conv": "Putty Patrol"
+    },
+    {
+      "original": "zh-hans:Z形普梯兵;zh-hant:奪命鬼面卒",
+      "conv": "Z Putties"
+    },
+    {
+      "original": "zh-hans:超级佐德;zh-hant:金剛戰神",
+      "conv": "Megazord"
+    },
+    {
+      "original": "zh-hans:霸王龙;zh-hant:戰鬥暴龍",
+      "conv": "Tyrannosaurus"
+    },
+    {
+      "original": "zh-hans:乳齿象佐德;zh-hant:戰鬥長毛象",
+      "conv": "Mastodon"
+    },
+    {
+      "original": "zh-hans:三角龙佐德;zh-hant:戰鬥犄角龍",
+      "conv": "Triceratops"
+    },
+    {
+      "original": "zh-hans剑齿虎佐德:;zh-hant:戰鬥長牙虎",
+      "conv": "Saber-Toothed Tiger"
+    },
+    {
+      "original": "zh-hans:翼手龙佐德;zh-hant:戰鬥翼龍",
+      "conv": "Pterodactyl"
+    },
+    {
+      "original": "zh-hans:大龙神佐德;zh-hant:戰鬥異特龍",
+      "conv": "Dragonzord"
+    },
+    {
+      "original": "zh-hans:大雷神佐德;zh-hant:大連王",
+      "conv": "Thunder Megazord"
+    },
+    {
+      "original": "zh-hans:忍者佐德;zh-hant:忍獸",
+      "conv": "Ninja Zords"
+    },
+    {
+      "original": "zh-hans:幕府佐德;zh-hant:獸將",
+      "conv": "Shogun Zords"
+    },
+    {
+      "original": "zh-hans:西奥水晶;zh-hant:奇奧水晶",
+      "conv": "Zeo"
+    }
+  ]
+}

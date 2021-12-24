@@ -1,0 +1,19 @@
+{
+  "name": "當個創世神",
+  "description": "Minecraft",
+  "path": "Template:CGroup/當個創世神",
+  "rules": [
+    {
+      "original": "Minecraft",
+      "conv": "zh-cn:我的世界;zh-tw:當個創世神;"
+    },
+    {
+      "original": "Minecraft News",
+      "conv": "zh-cn:我的世界新闻;zh-tw:創世神新聞;"
+    },
+    {
+      "original": "Minecraft Bedrock Edition",
+      "conv": "zh-cn:我的世界 基岩版;zh-tw:當個創世神 基岩版;"
+    }
+  ]
+}

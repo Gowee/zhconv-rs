@@ -1,0 +1,1807 @@
+{
+  "name": "Lifesciences",
+  "description": "生命科学",
+  "path": "Module:CGroup/Lifesciences",
+  "rules": [
+    {
+      "original": "Chargaff",
+      "conv": "zh-cn:查戈夫;zh-hk:察卡夫;zh-tw:查加夫;"
+    },
+    {
+      "original": "Golgi",
+      "conv": "zh-cn:高尔基;zh-hk:高爾基;zh-tw:高基;"
+    },
+    {
+      "original": "Meselson",
+      "conv": "zh-cn:梅塞尔森;zh-hk:麥賽爾森;zh-tw:梅瑟生;"
+    },
+    {
+      "original": "Stahl",
+      "conv": "zh-cn:斯塔尔;zh-hk:斯特爾;zh-tw:史達;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:氨酸; zh-tw:胺酸; zh-hk:氨酸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:异构体; zh-tw:異構物; zh-hk:異構體;"
+    },
+    {
+      "original": "abscisic acid",
+      "conv": "zh-cn:脱落酸;zh-hk:脫落酸;zh-tw:離層素;"
+    },
+    {
+      "original": "apoenzyme",
+      "conv": "zh-cn:脱辅基酶;zh-tw:去輔基酶;zh-hant:脫輔基酶"
+    },
+    {
+      "original": "chitin",
+      "conv": "zh-cn:甲壳素;zh-hk:甲殼素;zh-tw:幾丁質;"
+    },
+    {
+      "original": "activate",
+      "conv": "zh-cn:激活;zh-hk:活化;zh-tw:活化;"
+    },
+    {
+      "original": "agar",
+      "conv": "zh-tw:洋菜;zh-cn:琼脂;zh-hk:大菜;zh-mo:大菜;zh-sg:琼脂;"
+    },
+    {
+      "original": "allosteric",
+      "conv": "zh-cn:别构;zh-hk:變構;zh-tw:異位;"
+    },
+    {
+      "original": "amide",
+      "conv": "zh-cn:酰胺;zh-hk:酰胺;zh-tw:醯胺;"
+    },
+    {
+      "original": "amino acid",
+      "conv": "zh-cn:氨基酸;zh-hk:氨基酸;zh-tw:胺基酸;"
+    },
+    {
+      "original": "amino group",
+      "conv": "zh-cn:氨基;zh-hk:氨基;zh-tw:胺基"
+    },
+    {
+      "original": "aminoacyl-",
+      "conv": "zh-cn:氨酰;zh-tw:胺醯"
+    },
+    {
+      "original": "aminopeptidase",
+      "conv": "zh-cn:氨肽酶;zh-hk:氨肽酶;zh-tw:胺肽酶;"
+    },
+    {
+      "original": "amyloid",
+      "conv": "zh-cn:淀粉样物质;zh-hk:澱粉樣蛋白;zh-tw:類澱粉蛋白;"
+    },
+    {
+      "original": "anabolic steroid",
+      "conv": "zh-cn:蛋白同化甾类;zh-hk:同化類固醇;zh-tw:同化類固醇;"
+    },
+    {
+      "original": "asparagine",
+      "conv": "zh-cn:天冬酰胺;zh-hk:天冬酰胺;zh-tw:天門冬醯胺;"
+    },
+    {
+      "original": "asparaginyl-",
+      "conv": "zh-cn:天冬酰氨酰;zh-tw:天門冬醯胺醯"
+    },
+    {
+      "original": "aspartyl-",
+      "conv": "zh-cn:天冬氨酰;zh-tw:天門冬胺醯"
+    },
+    {
+      "original": "aspartic acid",
+      "conv": "zh-cn:天冬氨酸;zh-hk:天冬氨酸;zh-tw:天門冬胺酸;"
+    },
+    {
+      "original": "atrial natriuretic peptide",
+      "conv": "zh-cn:心房钠尿肽;zh-hk:心房利鈉肽;zh-tw:心房排鈉肽;"
+    },
+    {
+      "original": "cinnamaldehyde",
+      "conv": "zh-cn:肉桂醛;zh-hk:肉桂醛;zh-tw:桂皮醛;"
+    },
+    {
+      "original": "cyclin",
+      "conv": "zh-cn:周期蛋白;zh-hk:週期素;zh-tw:週期素;"
+    },
+    {
+      "original": "deamination",
+      "conv": "zh-cn:脱氨;zh-hk:脫氨;zh-tw:去胺"
+    },
+    {
+      "original": "dehydrogen-",
+      "conv": "zh-cn:脱氢;zh-hk:脫氫;zh-tw:去氫;"
+    },
+    {
+      "original": "deiodina-",
+      "conv": "zh-cn:脱碘;zh-hk:脫碘;zh-tw:去碘;"
+    },
+    {
+      "original": "deoxy-",
+      "conv": "zh-cn:脱氧;zh-hk:脫氧;zh-tw:去氧;"
+    },
+    {
+      "original": "functional group",
+      "conv": "zh-cn:官能团;zh-tw:官能基;"
+    },
+    {
+      "original": "gibberellin",
+      "conv": "zh-cn:赤霉素;zh-hk:赤黴素;zh-tw:吉貝素;"
+    },
+    {
+      "original": "glucagon",
+      "conv": "zh-cn:胰高血糖素;zh-hk:胰高血糖素;zh-tw:升糖素;"
+    },
+    {
+      "original": "gluconeogenesis",
+      "conv": "zh-cn:糖异生;zh-hk:糖質新生;zh-tw:糖質新生;"
+    },
+    {
+      "original": "glutamic",
+      "conv": "zh-cn:谷氨; zh-hk:穀氨; zh-tw:麩胺;"
+    },
+    {
+      "original": "glutamine",
+      "conv": "zh-cn:谷胺酰氨;zh-hk:穀氨醯胺;zh-tw:麩醯胺酸"
+    },
+    {
+      "original": "glutaminyl-",
+      "conv": "zh-cn:谷胺酰氨酰;zh-tw:麩胺醯胺醯"
+    },
+    {
+      "original": "glutamyl-",
+      "conv": "zh-cn:谷氨酰;zh-tw:麩胺醯"
+    },
+    {
+      "original": "glutathione",
+      "conv": "zh-cn:谷胱甘肽;zh-hk:穀胱甘肽;zh-tw:麩胱甘肽"
+    },
+    {
+      "original": "glycan",
+      "conv": "zh-cn:聚糖;zh-hk:聚糖;zh-tw:聚醣;"
+    },
+    {
+      "original": "glycogen phosphorylase",
+      "conv": "zh-cn:糖原磷酸化酶;zh-hk:糖原磷酸化酶;zh-tw:肝糖磷解酶"
+    },
+    {
+      "original": "glycolysis",
+      "conv": "zh-cn:糖酵解;zh-hk:糖酵解;zh-tw:糖解;"
+    },
+    {
+      "original": "glycoprotein",
+      "conv": "zh-cn:糖蛋白; zh-tw:醣蛋白"
+    },
+    {
+      "original": "glycosyl",
+      "conv": "zh-cn:糖基;zh-tw:醣苷基; zh-hk:糖基"
+    },
+    {
+      "original": "glycosylation",
+      "conv": "zh-cn:糖基化; zh-tw:醣基化; zh-hk:糖基化"
+    },
+    {
+      "original": "histamine",
+      "conv": "zh-cn:组胺;zh-hk:組織胺;zh-tw:組織胺;"
+    },
+    {
+      "original": "histidine",
+      "conv": "zh-cn:组氨酸;zh-hk:組氨酸;zh-tw:組胺酸;"
+    },
+    {
+      "original": "isoleucine",
+      "conv": "zh-cn:异亮氨酸;zh-hk:異白氨酸;zh-tw:異白胺酸;"
+    },
+    {
+      "original": "leucine",
+      "conv": "zh-cn:亮氨酸;zh-hk:白氨酸;zh-tw:白胺酸;"
+    },
+    {
+      "original": "leucyl-",
+      "conv": "zh-cn:亮氨酰;zh-hk:白氨醯;zh-tw:白胺醯;"
+    },
+    {
+      "original": "lyase",
+      "conv": "zh-cn:裂合酶;zh-hk:裂解酶;zh-tw:解離酶;"
+    },
+    {
+      "original": "lysine",
+      "conv": "zh-cn:赖氨酸;zh-tw:離胺酸;"
+    },
+    {
+      "original": "lysyl-",
+      "conv": "zh-cn:赖氨酰;zh-tw:離胺醯"
+    },
+    {
+      "original": "metabolic network",
+      "conv": "zh-cn:代谢网络;zh-hk:代謝網絡;zh-tw:代謝網路"
+    },
+    {
+      "original": "mole",
+      "conv": "zh-cn:摩尔;zh-hk:摩爾;zh-tw:莫耳;"
+    },
+    {
+      "original": "neuraminic acid",
+      "conv": "zh-cn:神经氨酸;zh-hk:神經氨酸;zh-tw:神經胺酸;"
+    },
+    {
+      "original": "niacin",
+      "conv": "zh-cn:烟酸;zh-hk:煙酸;zh-tw:菸鹼酸;"
+    },
+    {
+      "original": "nicotinamide",
+      "conv": "zh-cn:烟酰胺;zh-hk:煙酰胺;zh-tw:菸鹼醯胺;"
+    },
+    {
+      "original": "orexin",
+      "conv": "zh-cn:食欲肽;zh-hk:食慾素;zh-tw:食慾素;"
+    },
+    {
+      "original": "ox-",
+      "conv": "zh-cn:噁;zh-hk:噁;zh-tw:噁;"
+    },
+    {
+      "original": "plastocyanin",
+      "conv": "zh-cn:质体蓝蛋白;zh-hk:質體藍素;zh-tw:質體藍素;"
+    },
+    {
+      "original": "porphyrin",
+      "conv": "zh-cn:卟啉;zh-hk:紫質;zh-tw:紫質;"
+    },
+    {
+      "original": "proteome",
+      "conv": "zh-cn:蛋白质组;zh-hk:蛋白質組;zh-tw:蛋白質體;"
+    },
+    {
+      "original": "serum glutamic oxaloacetic transaminase",
+      "conv": "zh-cn:谷草转氨酶;zh-hant:穀草轉胺酶;zh-tw:麩草轉胺酶;"
+    },
+    {
+      "original": "somatostatin",
+      "conv": "zh-cn:生长抑素;zh-hk:生長抑素;zh-tw:體抑素;"
+    },
+    {
+      "original": "substrate",
+      "conv": "zh-cn:底物;zh-hk:基質;zh-tw:受質;"
+    },
+    {
+      "original": "substrate-level phosphorylation",
+      "conv": "zh-cn:底物水平磷酸化;zh-hk:基質水平磷酸化;zh-tw:受質級磷酸化;"
+    },
+    {
+      "original": "transaminase",
+      "conv": "zh-cn:转氨酶;zh-tw:轉胺酶;zh-hant:轉氨酶"
+    },
+    {
+      "original": "triglyceride",
+      "conv": "zh-cn:三酰甘油;zh-hk:甘油三酸酯;zh-tw:三酸甘油酯;zh-sg:三酸甘油酯;"
+    },
+    {
+      "original": "salvage pathway",
+      "conv": "zh-hans:补救途径;zh-hant:再利用路徑;"
+    },
+    {
+      "original": "salvage synthesis",
+      "conv": "zh-hans:补救合成;zh-hant:再利用合成;"
+    },
+    {
+      "original": "staphylokinase",
+      "conv": "zh-hans:金葡菌激酶;zh-tw:葡萄球菌激酶;"
+    },
+    {
+      "original": "spike protein",
+      "conv": "zh-cn:刺突蛋白;zh-tw:棘蛋白;"
+    },
+    {
+      "original": "-ose",
+      "conv": "zh-cn:碳糖;zh-hk:碳糖;zh-tw:碳醣"
+    },
+    {
+      "original": "aldose",
+      "conv": "zh-cn:醛糖;zh-hk:醛糖;zh-tw:醛醣"
+    },
+    {
+      "original": "carbohydrate",
+      "conv": "zh-cn:糖类;zh-hk:糖類;zh-tw:醣類"
+    },
+    {
+      "original": "carbohydrate chemistry",
+      "conv": "zh-cn:糖化学;zh-hk:糖化學;zh-tw:醣化學"
+    },
+    {
+      "original": "cyclic carbohydrate",
+      "conv": "zh-cn:环状糖;zh-hk:環狀糖;zh-tw:環狀醣"
+    },
+    {
+      "original": "D sugar",
+      "conv": "zh-cn:D型糖;zh-hk:D型糖;zh-tw:D型醣"
+    },
+    {
+      "original": "disaccharide",
+      "conv": "zh-cn:双糖;zh-hk:雙糖;zh-tw:雙醣"
+    },
+    {
+      "original": "erythrose",
+      "conv": "zh-cn:赤藓糖;zh-tw:赤藻糖;zh-hk:赤蘚糖"
+    },
+    {
+      "original": "erythrulose",
+      "conv": "zh-cn:赤藓酮糖;zh-tw:赤藻酮糖;zh-hk:赤蘚酮糖"
+    },
+    {
+      "original": "furanose",
+      "conv": "zh-cn:呋喃糖;zh-hk:呋喃糖;zh-tw:呋喃醣"
+    },
+    {
+      "original": "glycobiology",
+      "conv": "zh-cn:糖生物学;zh-hk:糖生物學;zh-tw:醣生物學"
+    },
+    {
+      "original": "glycogen",
+      "conv": "zh-cn:糖原;zh-hk:糖原;zh-tw:肝糖"
+    },
+    {
+      "original": "glycome",
+      "conv": "zh-cn:糖组;zh-tw:醣體"
+    },
+    {
+      "original": "glycomics",
+      "conv": "zh-cn:糖组学;zh-tw:醣體學"
+    },
+    {
+      "original": "glycosid-",
+      "conv": "zh-cn:糖苷;zh-hk:糖苷;zh-tw:醣苷"
+    },
+    {
+      "original": "glycosidase",
+      "conv": "zh-cn:葡糖苷酶;zh-tw:葡萄糖苷酶"
+    },
+    {
+      "original": "liver glycogen",
+      "conv": "zh-cn:肝糖原;zh-hk:肝糖原;zh-tw:肝糖原"
+    },
+    {
+      "original": "hexose",
+      "conv": "zh-cn:己糖;zh-hk:己糖;zh-tw:己醣"
+    },
+    {
+      "original": "ketose",
+      "conv": "zh-cn:酮糖;zh-hk:酮糖;zh-tw:酮醣"
+    },
+    {
+      "original": "L sugar",
+      "conv": "zh-cn:L型糖;zh-hk:L型糖;zh-tw:L型醣"
+    },
+    {
+      "original": "monosaccharide",
+      "conv": "zh-cn:单糖;zh-hk:單糖;zh-tw:單醣"
+    },
+    {
+      "original": "oligosaccharide",
+      "conv": "zh-cn:寡糖;zh-hk:寡糖;zh-tw:寡醣"
+    },
+    {
+      "original": "oligosaccharide",
+      "conv": "zh-cn:低聚糖;zh-hk:低聚糖;zh-tw:低聚醣"
+    },
+    {
+      "original": "pentose",
+      "conv": "zh-cn:戊糖;zh-hk:戊糖;zh-tw:戊醣"
+    },
+    {
+      "original": "polysaccharide",
+      "conv": "zh-cn:多糖;zh-hk:多糖;zh-tw:多醣"
+    },
+    {
+      "original": "pullulan",
+      "conv": "zh-cn:普鲁兰多糖;zh-tw:聚三葡萄糖"
+    },
+    {
+      "original": "pyranose",
+      "conv": "zh-cn:吡喃糖;zh-hk:吡喃糖;zh-tw:吡喃醣"
+    },
+    {
+      "original": "reducing sugar",
+      "conv": "zh-cn:还原糖;zh-hk:還原糖;zh-tw:還原醣"
+    },
+    {
+      "original": "straight-chain carbohydrate",
+      "conv": "zh-cn:直链糖;zh-hk:直鏈糖;zh-tw:直鏈醣"
+    },
+    {
+      "original": "tetrose",
+      "conv": "zh-cn:丁糖;zh-hk:丁糖;zh-tw:丁醣"
+    },
+    {
+      "original": "triose",
+      "conv": "zh-cn:丙糖;zh-hk:丙糖;zh-tw:丙醣"
+    },
+    {
+      "original": "calcium channel",
+      "conv": "zh-cn:钙通道;zh-hk:鈣通道;zh-tw:鈣離子通道;"
+    },
+    {
+      "original": "cristae",
+      "conv": "zh-cn:嵴;zh-hk:嵴;zh-tw:皺褶;"
+    },
+    {
+      "original": "facilitated diffusion",
+      "conv": "zh-cn:易化扩散;zh-hk:易化擴散;zh-tw:促進性擴散;"
+    },
+    {
+      "original": "Golgi apparatus",
+      "conv": "zh-cn:高尔基体;zh-hk:高爾基體;zh-tw:高基氏體;"
+    },
+    {
+      "original": "lysosome",
+      "conv": "zh-cn:溶酶体;zh-hk:溶酶體;zh-tw:溶體;"
+    },
+    {
+      "original": "mitochondrion",
+      "conv": "zh-cn:线粒体;zh-hk:線粒體;zh-tw:粒線體;"
+    },
+    {
+      "original": "vacuole",
+      "conv": "zh-tw:液胞;zh-cn:液泡;zh-hk:液泡"
+    },
+    {
+      "original": "Nissl body",
+      "conv": "zh-cn:尼氏体;zh-hk:尼氏體;zh-tw:尼斯小體;"
+    },
+    {
+      "original": "node of Ranvier",
+      "conv": "zh-cn:郎飞结;zh-tw:郎氏結"
+    },
+    {
+      "original": "organelle",
+      "conv": "zh-cn:细胞器;zh-hk:細胞器;zh-tw:胞器;"
+    },
+    {
+      "original": "peroxisome",
+      "conv": "zh-cn:过氧化物酶体;zh-hk:過氧化物酶體;zh-tw:過氧化體;"
+    },
+    {
+      "original": "plasmid",
+      "conv": "zh-cn:质粒;zh-hk:質粒;zh-tw:質體;"
+    },
+    {
+      "original": "plasmodesma",
+      "conv": "zh-cn:胞间连丝;zh-hk:胞間連絲;zh-tw:原生質絲;"
+    },
+    {
+      "original": "primary active transport",
+      "conv": "zh-cn:原发性主动运输;zh-tw:初級主動運輸;"
+    },
+    {
+      "original": "rough endoplasmic reticulum",
+      "conv": "zh-cn:粗面内质网;zh-hk:粗糙內質網;zh-tw:粗糙內質網;"
+    },
+    {
+      "original": "secondary active transport",
+      "conv": "zh-cn:继发性主动运输;zh-tw:次級主動運輸;"
+    },
+    {
+      "original": "signal transduction",
+      "conv": "zh-cn:信号转导;zh-hk:信號轉導;zh-tw:訊息傳遞;"
+    },
+    {
+      "original": "smooth endoplasmic reticulum",
+      "conv": "zh-cn:光面内质网;zh-hk:平滑內質網;zh-tw:平滑內質網;"
+    },
+    {
+      "original": "sodium-potassium pump",
+      "conv": "zh-cn:钠钾泵;zh-hk:鈉鉀泵;zh-tw:鈉鉀幫浦;"
+    },
+    {
+      "original": "Toll-like receptor",
+      "conv": "zh-cn:Toll样受体;zh-hk:Toll樣受體;zh-tw:類鐸受體;"
+    },
+    {
+      "original": "Calcium signaling",
+      "conv": "zh-cn:钙讯号;zh-hk:鈣訊號;zh-tw:鈣訊號;"
+    },
+    {
+      "original": "apocrine sweat gland",
+      "conv": "zh-cn:顶泌汗腺; zh-tw:頂漿腺"
+    },
+    {
+      "original": "crystalline lens",
+      "conv": "zh-cn:晶状体; zh-hk:晶狀體; zh-tw:水晶體"
+    },
+    {
+      "original": "lens",
+      "conv": "zh-cn:晶状体; zh-hk:晶狀體; zh-tw:水晶體"
+    },
+    {
+      "original": "simple eyes",
+      "conv": "zh-cn:简单眼; zh-tw:單眼"
+    },
+    {
+      "original": "germinal center",
+      "conv": "zh-hans:生发中心;zh-hant:生發中心;"
+    },
+    {
+      "original": "gyrus",
+      "conv": "zh-hans:脑回;zh-tw:腦迴;zh-hant:腦回;"
+    },
+    {
+      "original": "hippocampus",
+      "conv": "zh-hans:海马体;zh-tw:海馬迴;zh-hant:海馬體;"
+    },
+    {
+      "original": "precentral gyrus",
+      "conv": "zh-hans:中央前回;zh-tw:中央前迴;zh-hant:中央前回;"
+    },
+    {
+      "original": "postcentral gyrus",
+      "conv": "zh-hans:中央后回;zh-tw:中央後迴;zh-hant:中央後回;"
+    },
+    {
+      "original": "parahippocampal gyrus",
+      "conv": "zh-hans:海马旁回;zh-tw:海馬旁迴;zh-hant:海馬旁回;"
+    },
+    {
+      "original": "seminiferous tubule",
+      "conv": "zh-hans:生精小管;zh-tw:細精管;zh-hant:生精小管;"
+    },
+    {
+      "original": "stratum spinosum",
+      "conv": "zh-hans:棘层;zh-tw:棘狀層;"
+    },
+    {
+      "original": "autosome",
+      "conv": "zh-cn:常染色体;zh-hk:常染色體;zh-tw:體染色體;"
+    },
+    {
+      "original": "blot",
+      "conv": "zh-cn:印迹;zh-hk:印跡;zh-tw:墨點;"
+    },
+    {
+      "original": "chain reaction",
+      "conv": "zh-cn:链式反应; zh-tw:連鎖反應;"
+    },
+    {
+      "original": "chain reaction",
+      "conv": "连锁反应=>zh-cn:链式反应; 连锁反应=>zh-sg:链式反应; 连锁反应=>zh-my:链式反应;"
+    },
+    {
+      "original": "chain reaction",
+      "conv": "鏈式反應=>zh-tw:連鎖反應; 鏈式反應=>zh-hk:連鎖反應; 鏈式反應=>zh-mo:連鎖反應;"
+    },
+    {
+      "original": "chain reaction",
+      "conv": "链反应=>zh-tw:連鎖反應; 链反应=>zh-hk:連鎖反應; 链反应=>zh-mo:連鎖反應;"
+    },
+    {
+      "original": "chain reaction",
+      "conv": "鏈反應=>zh-tw:連鎖反應; 鏈反應=>zh-hk:連鎖反應; 鏈反應=>zh-mo:連鎖反應;"
+    },
+    {
+      "original": "deoxyribose",
+      "conv": "zh-cn:脱氧核糖;zh-hk:脫氧核糖;zh-tw:去氧核糖;"
+    },
+    {
+      "original": "enhancer",
+      "conv": "zh-cn:增强子;zh-hk:增強子;zh-tw:強化子;"
+    },
+    {
+      "original": "expression",
+      "conv": "表达=>zh-tw:表現; 表达=>zh-hk:表達;"
+    },
+    {
+      "original": "gene expression",
+      "conv": "zh-cn:基因表达;zh-hk:基因表達;zh-tw:基因表現;"
+    },
+    {
+      "original": "gene knockout",
+      "conv": "zh-cn:基因敲除;zh-hk:基因敲除;zh-tw:基因剔除;"
+    },
+    {
+      "original": "histone",
+      "conv": "zh-cn:组蛋白;zh-hk:組蛋白;zh-tw:組織蛋白;"
+    },
+    {
+      "original": "imprinting",
+      "conv": "zh-cn:印记;zh-hk:印記;zh-tw:銘印; "
+    },
+    {
+      "original": "lagging strand",
+      "conv": "zh-cn:后随链;zh-tw:延遲股; "
+    },
+    {
+      "original": "leading strand",
+      "conv": "zh-cn:前导链;zh-tw:領先股; "
+    },
+    {
+      "original": "northern blot",
+      "conv": "zh-cn:北方印迹;zh-hk:北方印跡;zh-tw:北方墨點;"
+    },
+    {
+      "original": "phylogenetics",
+      "conv": "zh-cn:系统发生学;zh-hk:種系發生學;zh-tw:種系發生學;"
+    },
+    {
+      "original": "primer",
+      "conv": "zh-cn:引物;zh-tw:引子;"
+    },
+    {
+      "original": "pseudoautosomal region",
+      "conv": "zh-cn:拟常染色体区;zh-hk:擬常染色體區;zh-tw:偽體染色體區;"
+    },
+    {
+      "original": "reverse transcription",
+      "conv": "zh-cn:逆转录; zh-tw:反轉錄; zh-hk:逆轉錄;"
+    },
+    {
+      "original": "sex linkage",
+      "conv": "zh-cn:伴性遗传;zh-hk:性連鎖遺傳;zh-tw:性聯遺傳;"
+    },
+    {
+      "original": "signal recognition particle",
+      "conv": "zh-cn:信号识别颗粒;zh-hk:信號識別粒子;zh-tw:訊息確認顆粒;"
+    },
+    {
+      "original": "transgene",
+      "conv": "zh-cn:转基因;zh-hk:轉基因;zh-tw:基因轉移;"
+    },
+    {
+      "original": "translation",
+      "conv": "zh-cn:翻译;zh-hk:轉譯;zh-tw:轉譯;"
+    },
+    {
+      "original": "southern blot",
+      "conv": "zh-cn:Southern印迹;zh-hk:南方印跡;zh-tw:南方墨點;"
+    },
+    {
+      "original": "northern blot",
+      "conv": "zh-cn:Northern印迹;zh-hk:北方印跡;zh-tw:北方墨點;"
+    },
+    {
+      "original": "western blot",
+      "conv": "zh-cn:Western印迹;zh-hk:西方印跡;zh-tw:西方墨點;"
+    },
+    {
+      "original": "binomial nomenclature",
+      "conv": "zh-cn:双名法;zh-hk:二名法;zh-tw:二名法;"
+    },
+    {
+      "original": "<i>Arabidopsis thaliana</i>",
+      "conv": "zh-tw:阿拉伯芥;zh-cn:拟南芥;zh-sg:拟南芥;"
+    },
+    {
+      "original": "<i>Nematomorpha</i>",
+      "conv": "zh-cn:线形虫动物门;zh-hk:線形蟲動物門;zh-tw:線形動物門;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:软体生物;zh-hk:軟體生物;zh-tw:軟體生物;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:软体动物;zh-hk:軟體動物;zh-tw:軟體動物;"
+    },
+    {
+      "original": "Ames test",
+      "conv": "zh-cn:埃姆斯试验;zh-hk:安姆氏試驗;zh-tw:艾美氏試驗;"
+    },
+    {
+      "original": "glycogen storage disease",
+      "conv": "zh-cn:糖原贮积症;zh-hk:糖原貯積症;zh-tw:肝糖儲積症;"
+    },
+    {
+      "original": "pseudorabies",
+      "conv": "zh-cn:伪狂犬病;zh-hk:假性狂犬病;zh-tw:假性狂犬病;"
+    },
+    {
+      "original": "Syndrome",
+      "conv": "zh-tw:症候群; zh-hk:綜合症; zh-cn:综合征; zh-sg:综合症;"
+    },
+    {
+      "original": "adrenocorticotropic hormone",
+      "conv": "zh-cn:促肾上腺皮质激素;zh-hk:促腎上腺皮質激素;zh-tw:促腎上腺皮質素"
+    },
+    {
+      "original": "angiotensin",
+      "conv": "zh-cn:血管紧张素;zh-hk:血管緊張素;zh-tw:血管收縮素;"
+    },
+    {
+      "original": "blood cell",
+      "conv": "zh-cn:血细胞; zh-hk:血球; zh-tw:血球"
+    },
+    {
+      "original": "erythrocyte",
+      "conv": "zh-cn:红细胞;zh-hk:紅血球;zh-tw:紅血球;"
+    },
+    {
+      "original": "erythrocyte",
+      "conv": "血红细胞=>zh-tw:紅血球; 血紅細胞=>zh-tw:紅血球"
+    },
+    {
+      "original": "fibroblast",
+      "conv": "zh-cn:成纤维细胞;zh-tw:纖維母細胞"
+    },
+    {
+      "original": "follicle-stimulating hormone",
+      "conv": "zh-cn:促卵泡激素; zh-hk:促卵泡激素; zh-tw:濾泡刺激素"
+    },
+    {
+      "original": "follicle-stimulating hormone",
+      "conv": "zh-cn:卵泡刺激素; zh-hk:卵泡刺激素; zh-tw:濾泡刺激素"
+    },
+    {
+      "original": "glomerulus",
+      "conv": "zh-cn:肾小球;zh-hk:腎小球;zh-tw:絲球體"
+    },
+    {
+      "original": "glomerulus",
+      "conv": "zh-cn:肾丝球;zh-hk:腎絲球;zh-tw:絲球體"
+    },
+    {
+      "original": "glucocorticoid",
+      "conv": "zh-cn:糖皮质激素;zh-hk:糖皮質激素;zh-tw:糖皮質素"
+    },
+    {
+      "original": "heart",
+      "conv": "zh-cn:心脏;zh-tw:心臟;"
+    },
+    {
+      "original": "heme",
+      "conv": "血红素=>zh-tw:血基質;血基質=>zh-cn:血红素;血基質=>zh-hk:血紅素;血基質=>zh-tw:血基質"
+    },
+    {
+      "original": "hemoglobin",
+      "conv": "血红蛋白=>zh-tw:血紅素;血紅蛋白=>zh-tw:血紅素"
+    },
+    {
+      "original": "intrinsic factor",
+      "conv": "zh-cn:内因子; zh-hk:內因子; zh-tw:內在因子"
+    },
+    {
+      "original": "leukocyte",
+      "conv": "zh-cn:白细胞;zh-hk:白血球;zh-tw:白血球;"
+    },
+    {
+      "original": "loop of Henle",
+      "conv": "zh-cn:亨利氏环;zh-hk:亨利氏環;zh-tw:亨耳環管"
+    },
+    {
+      "original": "luteinizing hormone",
+      "conv": "zh-cn:黄体生成素; zh-hk:黃體生成素; zh-tw:黃體成長激素"
+    },
+    {
+      "original": "luteinizing hormone",
+      "conv": "黄体化激素=>zh-tw:黃體成長激素; 黃體化激素=>zh-tw:黃體成長激素"
+    },
+    {
+      "original": "lymphocyte",
+      "conv": "zh-cn:淋巴细胞; zh-hk:淋巴細胞; zh-tw:淋巴球"
+    },
+    {
+      "original": "medulla oblongata",
+      "conv": "zh-cn:延髓; zh-hk:延髓; zh-tw:延腦"
+    },
+    {
+      "original": "mineralocorticoid",
+      "conv": "zh-cn:盐皮质激素;zh-hk:鹽皮質激素;zh-tw:礦物皮質素"
+    },
+    {
+      "original": "myoglobin",
+      "conv": "zh-cn:肌红蛋白;zh-hk:肌紅蛋白;zh-tw:肌紅素"
+    },
+    {
+      "original": "nephron",
+      "conv": "zh-cn:肾单位;zh-hk:腎單位;zh-tw:腎元;"
+    },
+    {
+      "original": "neurotransmitter",
+      "conv": "zh-cn:神经递质;zh-hk:神經遞質;zh-tw:神經傳遞物"
+    },
+    {
+      "original": "neurotransmitter",
+      "conv": "zh-cn:递质;zh-hk:遞質;zh-tw:傳遞物"
+    },
+    {
+      "original": "norepinephrine",
+      "conv": "zh-cn:去甲肾上腺素; zh-hk:去甲腎上腺素; zh-tw:正腎上腺素;"
+    },
+    {
+      "original": "ovarian follicle",
+      "conv": "zh-cn:卵泡; zh-hk:卵泡; zh-tw:濾泡;"
+    },
+    {
+      "original": "parathyroid gland",
+      "conv": "zh-cn:甲状旁腺;zh-hk:甲狀旁腺;zh-tw:副甲狀腺;"
+    },
+    {
+      "original": "parathyroid hormone",
+      "conv": "zh-cn:甲状旁腺激素;zh-hk:副甲狀腺激素;zh-tw:副甲狀腺素;"
+    },
+    {
+      "original": "pituitary gland",
+      "conv": "zh-cn:垂体;zh-hk:垂體;zh-tw:腦垂腺;"
+    },
+    {
+      "original": "pituitary gland",
+      "conv": "zh-cn:脑垂体;zh-hk:腦垂體;zh-tw:腦垂腺;"
+    },
+    {
+      "original": "pituitary gland",
+      "conv": "zh-cn:脑下垂体;zh-hk:腦下垂體;zh-tw:腦垂腺;"
+    },
+    {
+      "original": "pons",
+      "conv": "zh-cn:脑桥;zh-hk:腦橋;zh-tw:橋腦;"
+    },
+    {
+      "original": "Purkinje fiber",
+      "conv": "zh-cn:浦肯野纤维;zh-hk:蒲金耶氏纖維;zh-tw:浦肯野纖維;"
+    },
+    {
+      "original": "secretin",
+      "conv": "zh-cn:促胰液素; zh-hk:促胰液素; zh-tw:胰泌素"
+    },
+    {
+      "original": "thalamus",
+      "conv": "zh-cn:丘脑; zh-hk:丘腦; zh-tw:視丘"
+    },
+    {
+      "original": "rod cell",
+      "conv": "zh-cn:视杆细胞;zh-hk:視桿細胞;zh-tw:視桿細胞;"
+    },
+    {
+      "original": "dysplasia",
+      "conv": "zh-hans:发育不良;zh-hant:異生;"
+    },
+    {
+      "original": "antigen-presenting cell",
+      "conv": "zh-cn:抗原呈递细胞;zh-hk:抗原呈遞細胞;zh-tw:抗原呈現細胞"
+    },
+    {
+      "original": "basophil granulocyte",
+      "conv": "zh-cn:嗜碱性粒细胞;zh-hk:嗜鹼顆粒白血球;zh-tw:嗜鹼性球;"
+    },
+    {
+      "original": "dendritic cell",
+      "conv": "zh-cn:树突状细胞;zh-hk:樹狀細胞;zh-tw:樹突細胞;"
+    },
+    {
+      "original": "eosinophil granulocyte",
+      "conv": "zh-cn:嗜酸性粒细胞;zh-hk:嗜曙紅顆粒白血球;zh-tw:嗜酸性球;"
+    },
+    {
+      "original": "granulocyte",
+      "conv": "zh-cn:粒细胞;zh-hk:顆粒白血球;zh-tw:顆粒球;"
+    },
+    {
+      "original": "Kupffer cell",
+      "conv": "zh-cn:库普弗细胞;zh-hk:柯弗氏細胞;zh-tw:庫佛氏細胞;"
+    },
+    {
+      "original": "monocyte",
+      "conv": "zh-cn:单核细胞;zh-hk:單核白血球;zh-tw:單核球;"
+    },
+    {
+      "original": "natural killer cell",
+      "conv": "zh-cn:自然杀伤细胞;zh-hk:自然殺傷細胞;zh-tw:自然殺手細胞"
+    },
+    {
+      "original": "killer cell",
+      "conv": "zh-cn:杀伤细胞;zh-hk:殺傷細胞;zh-tw:殺手細胞"
+    },
+    {
+      "original": "neutrophil granulocyte",
+      "conv": "zh-cn:中性粒细胞;zh-hk:嗜中性顆粒白血球;zh-tw:嗜中性球;"
+    },
+    {
+      "original": "somatic hypermutation",
+      "conv": "zh-hans:体细胞高频突变;zh-hant:體細胞超突變;"
+    },
+    {
+      "original": "Hymenochaetaceae",
+      "conv": "zh-cn:锈革孔菌;zh-hk:鏽革孔菌;zh-tw:刺革菌;"
+    },
+    {
+      "original": "apoplast pathway",
+      "conv": "zh-cn:质体外途径;zh-hk:質體外途徑;zh-tw:原生質體外路徑;"
+    },
+    {
+      "original": "apoplast transport",
+      "conv": "zh-cn:质体外运输;zh-hk:質體外運輸;zh-tw:原生質體外運輸;"
+    },
+    {
+      "original": "Casparian strip",
+      "conv": "zh-cn:凯氏带;zh-hk:嘉氏帶;zh-tw:卡氏帶;"
+    },
+    {
+      "original": "symplast pathway",
+      "conv": "zh-cn:共质体途径;zh-hk:共質體途徑;zh-tw:原生質體內路徑;"
+    },
+    {
+      "original": "symplast transport",
+      "conv": "zh-cn:共质体运输;zh-hk:共質體運輸;zh-tw:原生質體內運輸;"
+    },
+    {
+      "original": "transpiration",
+      "conv": "zh-cn:蒸腾;zh-hk:蒸騰;zh-tw:蒸散;"
+    },
+    {
+      "original": "Curcuma zedoaria",
+      "conv": "zh-cn:莪术;zh-hk:莪朮;zh-tw:莪朮;"
+    },
+    {
+      "original": "companion cell",
+      "conv": "zh-cn:伴胞;zh-hk:伴胞;zh-tw:伴細胞;"
+    },
+    {
+      "original": "Angiopteris",
+      "conv": "zh-cn:莲座蕨;zh-hk:蓮座蕨;zh-tw:觀音座蓮;"
+    },
+    {
+      "original": "Haplomitriopsida",
+      "conv": "zh-cn:裸蒴苔;zh-hk:裸蒴苔;zh-tw:裸蒴蘚"
+    },
+    {
+      "original": "Treubiales",
+      "conv": "zh-cn:陶氏苔;zh-hk:陶氏苔;zh-tw:陶氏蘚"
+    },
+    {
+      "original": "Jungermanniopsida",
+      "conv": "zh-cn:叶苔;zh-hk:葉苔;zh-tw:葉蘚"
+    },
+    {
+      "original": "Sphaerocarpales",
+      "conv": "zh-cn:囊果苔;zh-hk:囊果苔;zh-tw:囊果蘚"
+    },
+    {
+      "original": "Blasiales",
+      "conv": "zh-cn:壶苞苔;zh-hk:壺包苔;zh-tw:壺包蘚"
+    },
+    {
+      "original": "Metzgeriales",
+      "conv": "zh-cn:叉苔;zh-hk:叉苔;zh-tw:叉蘚"
+    },
+    {
+      "original": "Neohodgsoniales",
+      "conv": "zh-cn:叉托苔;zh-hk:叉托苔;zh-tw:叉托蘚"
+    },
+    {
+      "original": "Lunulariales",
+      "conv": "zh-cn:半月苔;zh-hk:半月苔;zh-tw:半月蘚"
+    },
+    {
+      "original": "Pelliales",
+      "conv": "zh-cn:溪苔;zh-hk:溪苔;zh-tw:溪蘚"
+    },
+    {
+      "original": "Fossombroniales",
+      "conv": "zh-cn:小叶苔;zh-hk:小葉苔;zh-tw:小葉蘚"
+    },
+    {
+      "original": "Pallaviciniales",
+      "conv": "zh-cn:带叶苔;zh-hk:帶葉苔;zh-tw:帶葉蘚"
+    },
+    {
+      "original": "Pleuroziales",
+      "conv": "zh-cn:紫叶苔;zh-hk:紫葉苔;zh-tw:紫葉蘚"
+    },
+    {
+      "original": "Porellales",
+      "conv": "zh-cn:光萼苔;zh-hk:光萼苔;zh-tw:光萼蘚"
+    },
+    {
+      "original": "Ptilidiales",
+      "conv": "zh-cn:毛叶苔;zh-hk:毛葉苔;zh-tw:毛葉蘚"
+    },
+    {
+      "original": "hornworts",
+      "conv": "zh-cn:角苔;zh-hk:角苔;zh-tw:角蘚"
+    },
+    {
+      "original": "Bryophyta",
+      "conv": "zh-cn:藓类植物门;zh-hk:蘚類植物門;zh-tw:苔類植物門"
+    },
+    {
+      "original": "Lejeuneaceae",
+      "conv": "zh-cn:细鳞苔科;zh-hk:細鱗苔科;zh-tw:細鱗蘚科"
+    },
+    {
+      "original": "Tracheophyta",
+      "conv": "zh-cn:维管植物;zh-hk:維管束植物;zh-tw:維管束植物"
+    },
+    {
+      "original": "Blyxa",
+      "conv": "zh-cn:水筛属;zh-hk:水篩屬;zh-tw:簀藻屬"
+    },
+    {
+      "original": "Blyxa aubertii",
+      "conv": "zh-cn:无尾水筛;zh-hk:無尾水篩;zh-tw:瘤果簀藻"
+    },
+    {
+      "original": "Halophila",
+      "conv": "zh-cn:喜盐草属;zh-hk:喜鹽草屬;zh-tw:鹽藻屬"
+    },
+    {
+      "original": "Halophila beccarii",
+      "conv": "zh-cn:贝克喜盐草;zh-hk:貝克喜鹽草;zh-tw:貝氏鹽藻"
+    },
+    {
+      "original": "Halophila decipiens",
+      "conv": "zh-cn:毛叶喜盐草;zh-tw:毛葉鹽藻;zh-hk:毛葉喜鹽草"
+    },
+    {
+      "original": "Halophila ovalis",
+      "conv": "zh-cn:喜盐草;zh-tw:卵葉鹽藻;zh-hk:喜鹽草"
+    },
+    {
+      "original": "Hydrilla",
+      "conv": "zh-cn:黑藻;zh-hk:黑藻;zh-tw:水王孫"
+    },
+    {
+      "original": "Limnobium",
+      "conv": "zh-cn:水蛛花属;zh-tw:南美海綿屬"
+    },
+    {
+      "original": "Najas",
+      "conv": "zh-cn:茨藻属;zh-tw:拂尾藻屬;zh-hk:茨藻屬"
+    },
+    {
+      "original": "Najas graminea",
+      "conv": "zh-cn:草茨藻;zh-tw:拂尾藻;zh-hk:草茨藻"
+    },
+    {
+      "original": "Mucuna",
+      "conv": "zh-cn:黎豆属;zh-hk:黧豆屬;zh-tw:血藤屬"
+    },
+    {
+      "original": "Premna",
+      "conv": "zh-cn:豆腐柴属;zh-hk:豆腐柴屬;zh-tw:臭魚木屬"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伞形科;zh-hk:傘形科;zh-tw:繖形科;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伞形花;zh-hk:傘形花;zh-tw:繖形花;"
+    },
+    {
+      "original": "Lasianthus",
+      "conv": "zh-cn:粗叶木属;zh-hk:粗葉木屬;zh-tw:雞屎樹屬"
+    },
+    {
+      "original": "Lasianthus",
+      "conv": "zh-cn:粗叶木族;zh-hk:粗葉木族;zh-tw:雞屎樹族"
+    },
+    {
+      "original": "Cheirostylis",
+      "conv": "zh-cn:叉柱兰属;zh-hk:叉柱蘭屬;zh-tw:指柱蘭屬"
+    },
+    {
+      "original": "Senecio",
+      "conv": "zh-cn:千里光属;zh-hk:千里光屬;zh-tw:黃菀屬"
+    },
+    {
+      "original": "Merremieae",
+      "conv": "zh-cn:鱼黄草族;zh-hk:魚黃草族;zh-tw:菜欒藤族"
+    },
+    {
+      "original": "Merremia",
+      "conv": "zh-cn:鱼黄草属;zh-hk:魚黃草屬;zh-tw:菜欒藤屬"
+    },
+    {
+      "original": "Merremia gemella",
+      "conv": "zh-cn: 金花鱼黄草; zh-tw: 菜欒藤;"
+    },
+    {
+      "original": "Merremia hirta",
+      "conv": "zh-cn: 毛山猪菜; zh-tw: 變葉姬旋花;"
+    },
+    {
+      "original": "Merremia umbellata",
+      "conv": "zh-cn: 伞花茉栾藤; zh-tw: 繖花菜欒藤;"
+    },
+    {
+      "original": "Alocasia",
+      "conv": "zh-hk: 海芋屬; zh-tw: 姑婆芋屬; zh-cn: 海芋属;"
+    },
+    {
+      "original": "Zantedeschia aethiopica",
+      "conv": "zh-cn: 马蹄莲; zh-tw: 海芋;"
+    },
+    {
+      "original": "Alocasia macrorrhizos",
+      "conv": "zh-hk: 海芋;   zh-tw: 蘭嶼姑婆芋; zh-cn: 海芋;"
+    },
+    {
+      "original": "Alocasia cucullata",
+      "conv": "zh-hk: 尖尾芋; zh-tw: 尖尾姑婆芋; zh-cn: 尖尾芋;"
+    },
+    {
+      "original": "Alocasia",
+      "conv": "zh-hk: 海芋屬; zh-tw: 姑婆芋屬; zh-cn: 海芋属;"
+    },
+    {
+      "original": "Zantedeschia aethiopica",
+      "conv": "zh-cn: 马蹄莲; zh-hk: 馬蹄蓮; zh-tw: 海芋;"
+    },
+    {
+      "original": "Alocasia macrorrhizos",
+      "conv": "zh-hk: 海芋;   zh-tw: 蘭嶼姑婆芋; zh-cn: 海芋;"
+    },
+    {
+      "original": "Alocasia cucullata",
+      "conv": "zh-hk: 尖尾芋; zh-tw: 尖尾姑婆芋; zh-cn: 尖尾芋;"
+    },
+    {
+      "original": "Astrophytum",
+      "conv": "zh-tw: 有星屬; zh-cn: 星球属;"
+    },
+    {
+      "original": "Astrophytum capricorne",
+      "conv": "zh-cn: 瑞凤玉; zh-tw: 多角仙人球;"
+    },
+    {
+      "original": "Astrophytum myriostigma",
+      "conv": "zh-cn: 鸾凤玉; zh-tw: 多蕊仙人球;"
+    },
+    {
+      "original": "Astrophytum ornatum",
+      "conv": "zh-cn: 般若; zh-tw: 裝飾仙人球;"
+    },
+    {
+      "original": "Callistemon",
+      "conv": "zh-cn: 红千层属; zh-tw: 瓶刷子樹屬;"
+    },
+    {
+      "original": "Corymbia",
+      "conv": "zh-hk: 傘房桉屬; zh-tw: 檸檬桉屬;"
+    },
+    {
+      "original": "Melaleuca",
+      "conv": "zh-cn: 千層樹; zh-tw: 白千層屬;"
+    },
+    {
+      "original": "Eucalyptus botryoides",
+      "conv": "zh-cn: 葡萄桉; zh-tw: 鹽風桉;"
+    },
+    {
+      "original": "Eucalyptus grandis",
+      "conv": "zh-cn: 大桉; zh-tw: 玫瑰桉;"
+    },
+    {
+      "original": "Eucalyptus microcorys",
+      "conv": "zh-cn: 小帽桉; zh-tw: 脂桉;"
+    },
+    {
+      "original": "Eucalyptus saligna",
+      "conv": "zh-cn: 柳叶桉; zh-tw: 雪梨藍桉;"
+    },
+    {
+      "original": "Eucalyptus torelliana",
+      "conv": "zh-cn: 毛叶桉; zh-tw: 托列里桉;"
+    },
+    {
+      "original": "Eucalyptus amplifolia",
+      "conv": "zh-cn: 广叶桉; zh-tw: 山藍桉;"
+    },
+    {
+      "original": "Eucalyptus maculata",
+      "conv": "zh-cn: 斑皮桉; zh-tw: 斑桉;"
+    },
+    {
+      "original": "Eucalyptus maculata",
+      "conv": "zh-cn: 斑叶桉; zh-tw: 灰桉;"
+    },
+    {
+      "original": "Amphibia",
+      "conv": "zh-cn:两栖纲;zh-tw:兩生綱;zh-hk:兩棲綱;"
+    },
+    {
+      "original": "Ranidae",
+      "conv": "赤蛙科=>zh-hans:蛙科; 赤蛙科=>zh-hk:蛙科; 赤蛙科=>zh-mo:蛙科;"
+    },
+    {
+      "original": "Rana",
+      "conv": "赤蛙屬=>zh-hans:蛙属; 赤蛙屬=>zh-hk:蛙屬; 赤蛙屬=>zh-mo:蛙屬;"
+    },
+    {
+      "original": "Dicroglossidae",
+      "conv": "zh-cn:叉舌蟾科;zh-tw:叉舌蛙科;"
+    },
+    {
+      "original": "Reptilia",
+      "conv": "zh-cn:爬行纲;zh-tw:爬蟲綱;zh-hk:爬行綱;"
+    },
+    {
+      "original": "Reptilia",
+      "conv": "zh-cn:爬行类;zh-tw:爬蟲類;zh-hk:爬行類;"
+    },
+    {
+      "original": "Hypsipetes amaurotis",
+      "conv": "zh-cn:栗耳短脚鹎;zh-tw:棕耳鵯;"
+    },
+    {
+      "original": "Hypsipetes leucocephalus",
+      "conv": "zh-cn:黑短脚鹎;zh-tw:紅嘴黑鵯;"
+    },
+    {
+      "original": "Polyneoptera",
+      "conv": "zh-cn:复新翅类;zh-tw:複新翅類;zh-hk:複新翅類;zh-sg:复新翅类;"
+    },
+    {
+      "original": "Achilidae",
+      "conv": "zh-hans:颖蜡蝉科;zh-tw:小頭飛蝨科;zh-hk:仄腹蠟蟬科;"
+    },
+    {
+      "original": "Aclerdidae",
+      "conv": "zh-hans:仁蚧科;zh-tw:仁介殼蟲科;"
+    },
+    {
+      "original": "Aleyrodidae",
+      "conv": "zh-hans:粉虱;zh-hant:粉蝨;"
+    },
+    {
+      "original": "Aphalaridae",
+      "conv": "zh-hans:斑木虱;zh-hant:斑木蝨;"
+    },
+    {
+      "original": "Aphididae",
+      "conv": "zh-hans:蚜科;zh-tw:常蚜科;zh-hant:蚜科"
+    },
+    {
+      "original": "Aphrodidae",
+      "conv": "zh-hans:脊冠叶蝉科;zh-tw:緣脊葉蟬科;"
+    },
+    {
+      "original": "Asterolecaniidae",
+      "conv": "zh-hans:链蚧;zh-tw:鏈介殼蟲;"
+    },
+    {
+      "original": "Calophyidae",
+      "conv": "zh-hans:丽木虱;zh-hant:麗木蝨;"
+    },
+    {
+      "original": "Carsidaridae",
+      "conv": "zh-hans:裂木虱科;zh-hant:錦葵木蝨科;"
+    },
+    {
+      "original": "Cixiidae",
+      "conv": "zh-hans:菱蜡蝉科;zh-hant:菱飛蝨科;"
+    },
+    {
+      "original": "Delphacidae",
+      "conv": "zh-hans:飞虱科;zh-tw:稻蝨科;zh-hk:飛虱科;"
+    },
+    {
+      "original": "Diaspididae",
+      "conv": "zh-hans:盾蚧科;zh-tw:盾介殼蟲科;zh-hk:盾介殼蟲科;"
+    },
+    {
+      "original": "Derbidae",
+      "conv": "zh-hans:袖蜡蝉科;zh-tw:長翅飛蝨科;zh-hk:袖蠟蟬科;"
+    },
+    {
+      "original": "Issidae",
+      "conv": "zh-hans:瓢蜡蝉科;zh-tw:圓飛蝨科;zh-hk:瓢蠟蟬科;"
+    },
+    {
+      "original": "Meenoplidae",
+      "conv": "zh-hans:脉蜡蝉科;zh-hant:縞飛蝨科;"
+    },
+    {
+      "original": "Scutelleridae",
+      "conv": "zh-hans:盾蝽科;zh-tw:盾背蝽科;zh-hk:盾蝽科;"
+    },
+    {
+      "original": "Triozidae",
+      "conv": "zh-hans:个木虱科;zh-tw:叉木蝨科;"
+    },
+    {
+      "original": "Tropiduchidae",
+      "conv": "zh-hans:扁蜡蝉科;zh-tw:軍配飛蝨科;zh-hk:扁蠟蟬科;"
+    },
+    {
+      "original": "Mesohomotoma",
+      "conv": "zh-hans:瘦木虱属;zh-tw:中尾突木蝨屬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:朽木甲;zh-tw:朽木蟲;"
+    },
+    {
+      "original": "Anthicidae",
+      "conv": "zh-cn:蚁形甲;zh-tw:蟻形蟲"
+    },
+    {
+      "original": "Attelabidae",
+      "conv": "zh-cn:卷象科;zh-tw:捲葉象鼻蟲科;zh-hk:捲象科"
+    },
+    {
+      "original": "Bolboceratidae",
+      "conv": "zh-cn:隆金龟科;zh-tw:厚角金龜科;zh-hk:粗角甲科"
+    },
+    {
+      "original": "Bothrideridae",
+      "conv": "zh-cn:穴甲;zh-tw:長蕈蟲"
+    },
+    {
+      "original": "Buprestidae",
+      "conv": "zh-cn:吉丁科;zh-tw:吉丁蟲科;zh-hk:吉丁蟲科"
+    },
+    {
+      "original": "Callirhipidae",
+      "conv": "zh-cn:扇角甲科;zh-tw:細櫛角蟲科;zh-hk:扇角甲科"
+    },
+    {
+      "original": "Cantharidae",
+      "conv": "zh-cn:花萤科;zh-tw:菊虎科;zh-hk:花螢科"
+    },
+    {
+      "original": "Carabidae",
+      "conv": "zh-cn:步甲;zh-tw:步行蟲;zh-hk:步甲"
+    },
+    {
+      "original": "Chelonariidae",
+      "conv": "zh-cn:缩头甲;zh-tw:縮頭花蚤"
+    },
+    {
+      "original": "Chrysomelidae",
+      "conv": "zh-cn:叶甲科;zh-tw:金花蟲科;zh-hk:葉甲科"
+    },
+    {
+      "original": "Clambidae",
+      "conv": "zh-cn:拳甲科;zh-tw:拳蕈蟲科"
+    },
+    {
+      "original": "Cleridae",
+      "conv": "zh-cn:郭公甲;zh-tw:郭公蟲;zh-hk:郭公蟲"
+    },
+    {
+      "original": "Coccinellidae",
+      "conv": "zh-cn:瓢甲科;zh-tw:瓢蟲科;zh-hk:瓢蟲科"
+    },
+    {
+      "original": "Cryptophagidae",
+      "conv": "zh-cn:隐食甲;zh-tw:吸木蟲"
+    },
+    {
+      "original": "Curculionidae",
+      "conv": "zh-cn:象甲科;zh-tw:象鼻蟲科;zh-hk:象甲科"
+    },
+    {
+      "original": "Dermestidae",
+      "conv": "zh-cn:皮蠹;zh-tw:鰹節蟲;zh-hk:皮蠹"
+    },
+    {
+      "original": "Dryophthoridae",
+      "conv": "zh-cn:隐颏象科;zh-tw:椰象鼻蟲科"
+    },
+    {
+      "original": "Dryopidae",
+      "conv": "zh-cn:泥甲;zh-tw:泥蟲"
+    },
+    {
+      "original": "Dytiscidae",
+      "conv": "zh-cn:龙虱;zh-tw:龍蝨;zh-hk:龍虱"
+    },
+    {
+      "original": "Elateridae",
+      "conv": "zh-cn:叩甲;zh-tw:叩頭蟲;zh-hk:叩甲"
+    },
+    {
+      "original": "Elmidae",
+      "conv": "zh-cn:溪泥甲;zh-tw:長角泥蟲"
+    },
+    {
+      "original": "Eulichadidae",
+      "conv": "zh-cn:擎爪泥甲科;zh-tw:角胸泥蟲科;zh-hk:擎爪泥甲科"
+    },
+    {
+      "original": "Haliplidae",
+      "conv": "zh-cn:沼梭甲;zh-tw:小頭水蟲"
+    },
+    {
+      "original": "Helotidae",
+      "conv": "zh-cn:蜡斑甲;zh-tw:大吸木甲"
+    },
+    {
+      "original": "Heteroceridae",
+      "conv": "zh-cn:长泥甲科;zh-tw:四節泥蟲科"
+    },
+    {
+      "original": "Histeridae",
+      "conv": "zh-cn:阎甲科;zh-tw:閻魔蟲科"
+    },
+    {
+      "original": "Hydraenidae",
+      "conv": "zh-cn:平唇水龟科;zh-tw:細牙蟲科"
+    },
+    {
+      "original": "Hydrophilidae",
+      "conv": "zh-cn:牙甲科;zh-tw:牙蟲科;zh-hk:水龜甲科"
+    },
+    {
+      "original": "Latridiidae",
+      "conv": "zh-cn:薪甲;zh-tw:姬薪蟲"
+    },
+    {
+      "original": "Limnichidae",
+      "conv": "zh-cn:泽甲科;zh-tw:微泥蟲科"
+    },
+    {
+      "original": "Lucanidae",
+      "conv": "zh-cn:锹甲科;zh-tw:鍬形蟲科;zh-hk:鍬甲科"
+    },
+    {
+      "original": "Lymexylidae",
+      "conv": "zh-cn:筒蠹;zh-tw:筒蠹蟲"
+    },
+    {
+      "original": "Meloidae",
+      "conv": "zh-cn:芫菁科;zh-tw:地膽科;zh-hk:芫菁科"
+    },
+    {
+      "original": "Monotomidae",
+      "conv": "zh-cn:球棒甲;zh-tw:出尾扁甲"
+    },
+    {
+      "original": "Mycetophagidae",
+      "conv": "zh-cn:小蕈甲;zh-tw:小蕈蟲;zh-hk:小蕈甲"
+    },
+    {
+      "original": "Nitidulidae",
+      "conv": "zh-cn:露尾甲;zh-tw:出尾蟲"
+    },
+    {
+      "original": "Ptiliidae",
+      "conv": "zh-cn:缨甲科;zh-tw:櫻毛蕈蟲科;zh-hk:纓甲科"
+    },
+    {
+      "original": "Ptilodactylidae",
+      "conv": "zh-cn:毛泥甲;zh-tw:長花蚤;zh-hk:長花蚤"
+    },
+    {
+      "original": "Rhysodidae",
+      "conv": "zh-cn:条脊甲;zh-tw:背條蟲;zh-hk:條脊甲"
+    },
+    {
+      "original": "Scarabaeidae",
+      "conv": "zh-cn:金龟科;zh-tw:金龜子科;zh-hk:金龜科"
+    },
+    {
+      "original": "Silphidae",
+      "conv": "zh-cn:葬甲科;zh-tw:埋葬蟲科;zh-hk:葬甲科"
+    },
+    {
+      "original": "Silvanidae",
+      "conv": "zh-cn:锯谷盗科;zh-tw:細扁甲科"
+    },
+    {
+      "original": "Spercheidae",
+      "conv": "zh-cn:毛牙甲科;zh-tw:毛牙蟲科"
+    },
+    {
+      "original": "Staphylinidae",
+      "conv": "zh-cn:隐翅甲科;zh-tw:隱翅蟲科;zh-hk:隱翅蟲科"
+    },
+    {
+      "original": "Tenebrionidae",
+      "conv": "zh-cn:拟步甲科;zh-tw:擬步行蟲科;zh-hk:擬步甲科"
+    },
+    {
+      "original": "Vesperidae",
+      "conv": "zh-cn:暗天牛科;zh-tw:太古天牛科"
+    },
+    {
+      "original": "Zopheridae",
+      "conv": "zh-cn:幽甲科;zh-tw:瘤擬步行蟲科"
+    },
+    {
+      "original": "Tineidae",
+      "conv": "zh-cn:谷蛾科; zh-hk:穀蛾科; zh-tw:蕈蛾科;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:噩灰蝶; zh-hk:噩灰蝶; zh-tw:虎灰蝶; zh-sg:噩灰蝶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:圆灰蝶; zh-hk:圓灰蝶; zh-tw:錦灰蝶; zh-sg:圆灰蝶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:眼灰蝶; zh-hk:眼灰蝶; zh-tw:藍灰蝶; zh-sg:眼灰蝶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:线灰蝶亚科; zh-hk:線灰蝶亞科; zh-tw:翠灰蝶亞科; zh-sg:线灰蝶亚科;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:线灰蝶族; zh-hk:線灰蝶族; zh-tw:翠灰蝶族; zh-sg:线灰蝶族;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:轭灰蝶属; zh-hk:軛灰蝶屬; zh-tw:鋩灰蝶屬; zh-sg:轭灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:黄灰蝶属; zh-hk:黃灰蝶屬; zh-tw:焰灰蝶屬; zh-sg:黄灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:癞灰蝶属; zh-hk:癩灰蝶屬; zh-tw:墨點灰蝶屬; zh-sg:癞灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:青灰蝶属; zh-hk:青灰蝶屬; zh-tw:折線灰蝶屬; zh-sg:青灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:璐灰蝶属; zh-hk:璐灰蝶屬; zh-tw:瓏灰蝶屬; zh-sg:璐灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:冷灰蝶属; zh-hk:冷灰蝶屬; zh-tw:朗灰蝶屬; zh-sg:冷灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奥斯灰蝶属; zh-hk:奧斯灰蝶屬; zh-tw:璀灰蝶屬; zh-sg:奥斯灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:丫灰蝶属; zh-hk:丫灰蝶屬; zh-tw:尖灰蝶屬; zh-sg:丫灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:华灰蝶属; zh-hk:華灰蝶屬; zh-tw:線灰蝶屬; zh-sg:华灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:宝岛华灰蝶; zh-hk:寶島華灰蝶; zh-tw:臺灣線灰蝶; zh-sg:宝岛华灰蝶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:线灰蝶属; zh-hk:線灰蝶屬; zh-tw:翠灰蝶屬; zh-sg:线灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:翠灰蝶属; zh-hk:翠灰蝶屬; zh-tw:榿翠灰蝶屬; zh-sg:翠灰蝶属;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:线灰蝶族; zh-hk:線灰蝶族; zh-tw:翠灰蝶族; zh-sg:线灰蝶族;"
+    },
+    {
+      "original": "Cylindrotomidae",
+      "conv": "zh-cn:烛大蚊; zh-tw:錐大蚊;"
+    },
+    {
+      "original": "Limoniidae",
+      "conv": "zh-cn:沼大蚊; zh-tw:亮大蚊;"
+    },
+    {
+      "original": "Limoniidae",
+      "conv": "zh-cn:窗大蚊; zh-tw:平大蚊;"
+    },
+    {
+      "original": "Araneidae",
+      "conv": "zh-cn:园蛛科; zh-tw:金蛛科; zh-hk:園蛛科;"
+    },
+    {
+      "original": "Salticidae",
+      "conv": "zh-cn:跳蛛科; zh-tw:蠅虎科; zh-hk:跳蛛科;"
+    },
+    {
+      "original": "Carrhotus xanthogramma",
+      "conv": "zh-cn:黑猫跳蛛; zh-tw:橙黃蠅虎;"
+    },
+    {
+      "original": "Euophrys",
+      "conv": "zh-cn:斑蛛属; zh-tw:侏斑蛛屬"
+    },
+    {
+      "original": "Hasarius",
+      "conv": "zh-cn:哈沙蛛属; zh-tw:遜蠅虎屬"
+    },
+    {
+      "original": "Hasarius adansoni",
+      "conv": "zh-cn:花哈沙蛛; zh-tw:安德遜蠅虎"
+    },
+    {
+      "original": "Harmochirus",
+      "conv": "zh-cn:蛤莫蛛属; zh-tw:蛤蟆蛛屬;zh-hk:蛤莫蛛屬"
+    },
+    {
+      "original": "Harmochirus brachiatus",
+      "conv": "zh-cn:鳃蛤莫蛛; zh-tw:鰓蛤蟆蛛;zh-hk:鰓蛤莫蛛"
+    },
+    {
+      "original": "Marpissa pulla",
+      "conv": "zh-cn:横纹蝇狮; zh-tw:橫紋蠅虎;"
+    },
+    {
+      "original": "Mendoza elongata",
+      "conv": "zh-cn:长腹蒙蛛; zh-tw:箭形蠅虎;"
+    },
+    {
+      "original": "Phintella",
+      "conv": "zh-cn:金蝉蛛属; zh-tw:黑條蠅虎屬;zh-hk:金蟬蛛屬;"
+    },
+    {
+      "original": "Phintella abnormis",
+      "conv": "zh-cn:异金蝉蛛; zh-tw:異常黑條蠅虎"
+    },
+    {
+      "original": "Plexippus",
+      "conv": "zh-cn:蝇虎属; zh-tw:條斑蠅虎屬;"
+    },
+    {
+      "original": "Uloboridae",
+      "conv": "zh-cn:蟱蛛科; zh-tw:渦蛛科; zh-hk:嫵蛛科;"
+    },
+    {
+      "original": "Hyptiotes",
+      "conv": "zh-cn:三角蛛属; zh-tw:扇網蛛屬;"
+    },
+    {
+      "original": "Hyptiotes affinis",
+      "conv": "zh-cn:近亲三角蛛; zh-tw:扇網蛛;"
+    },
+    {
+      "original": "Octonoba spinosa",
+      "conv": "zh-cn:刺涡蛛; zh-tw:棘渦蛛;"
+    },
+    {
+      "original": "Miagrammopes",
+      "conv": "zh-cn:长蟱蛛属; zh-tw:夜蛛屬; zh-hk:長嫵蛛屬;"
+    },
+    {
+      "original": "Miagrammopes oblongus",
+      "conv": "zh-cn:长蟱蛛; zh-tw:長夜蛛; zh-hk:長嫵蛛;"
+    },
+    {
+      "original": "Miagrammopes orientalis",
+      "conv": "zh-cn:东方长蟱蛛; zh-tw:東亞夜蛛; zh-hk:東方長嫵蛛;"
+    },
+    {
+      "original": "Philoponella",
+      "conv": "zh-cn:喜蟱蛛属; zh-tw:菲蛛屬;"
+    },
+    {
+      "original": "Philoponella prominens",
+      "conv": "zh-cn:隆喜蟱蛛; zh-tw:隆背菲蛛;"
+    },
+    {
+      "original": "Zosis geniculata",
+      "conv": "zh-cn:结实腰蟱蛛; zh-tw:膝形渦蛛;"
+    },
+    {
+      "original": "Theridiidae",
+      "conv": "zh-cn:球蛛科; zh-tw:姬蛛科; zh-hk:球蛛科;"
+    },
+    {
+      "original": "Anelosimus",
+      "conv": "zh-cn:阿內蛛属; zh-tw:粗腳姬蛛屬; zh-hk:阿內蛛屬;"
+    },
+    {
+      "original": "Chrysso",
+      "conv": "zh-cn:丽蛛属; zh-tw:金姬蛛屬; zh-hk:麗蛛屬;"
+    },
+    {
+      "original": "Coleosoma",
+      "conv": "zh-cn:鞘腹蛛属; zh-tw:鞘腹姬蛛屬; zh-hk:鞘腹蛛屬;"
+    },
+    {
+      "original": "Coleosoma",
+      "conv": "zh-cn:丘腹蛛属; zh-tw:菱蛛屬; zh-hk:丘腹蛛屬;"
+    },
+    {
+      "original": "Theridion",
+      "conv": "zh-cn:球蛛属; zh-tw:姬蛛屬; zh-hk:球蛛屬;"
+    },
+    {
+      "original": "Pleocyemata",
+      "conv": "zh-cn:腹胚亚目; zh-tw:抱卵亞目; 腹胚亞目=>zh-tw:抱卵亞目; 抱卵亚目=>zh-cn:腹胚亚目;"
+    },
+    {
+      "original": "[[Arcoida]]",
+      "conv": "zh-cn:蚶目; zh-tw:魁蛤目;"
+    },
+    {
+      "original": "[[Arcidae]]",
+      "conv": "zh-cn:蚶科; zh-tw:魁蛤科;"
+    },
+    {
+      "original": "[[Mytilidae]]",
+      "conv": "zh-cn:贻贝科; zh-tw:殼菜蛤科"
+    },
+    {
+      "original": "[[中国海大锉蛤|<i>A. marissinica</i>]]",
+      "conv": "zh-cn:中国海大锉蛤; zh-tw:大黃狐蛤;"
+    },
+    {
+      "original": "[[Arca|<i>Arca</i>]]",
+      "conv": "zh-cn:蚶属; zh-tw:魁蛤屬;"
+    },
+    {
+      "original": "[[榛蚶|<i>A. avellana</i>]]",
+      "conv": "zh-cn:榛蚶; zh-tw:船魁蛤;"
+    },
+    {
+      "original": "[[布氏蚶|<i>A. boucardi</i>]]",
+      "conv": "zh-cn:布氏蚶; zh-tw:布氏魁蛤;"
+    },
+    {
+      "original": "[[舟蚶|<i>A. navicularis</i>]]",
+      "conv": "zh-cn:舟蚶; zh-tw:鷹翼魁蛤;"
+    },
+    {
+      "original": "[[偏胀蚶|<i>A. ventricosa</i>]]",
+      "conv": "zh-cn:偏胀蚶; zh-tw:鞋魁蛤;"
+    },
+    {
+      "original": "mosaic virus",
+      "conv": "zh-cn:花叶病毒;zh-hk:花葉病毒;zh-tw:鑲嵌病毒;"
+    },
+    {
+      "original": "prion",
+      "conv": "zh-cn:朊毒体;zh-hk:朊毒體;zh-tw:普里昂"
+    },
+    {
+      "original": "prion protein",
+      "conv": "zh-cn:朊蛋白;zh-hk:朊毒體蛋白;zh-tw:普里昂蛋白"
+    },
+    {
+      "original": "Chlamydia",
+      "conv": "zh-cn:衣原体;zh-hk:衣原體;zh-tw:披衣菌;"
+    },
+    {
+      "original": "Chlamydiae",
+      "conv": "zh-cn:衣原体门;zh-hk:衣原體門;zh-tw:披衣菌門;"
+    },
+    {
+      "original": "Letovirus",
+      "conv": "zh-cn:勒托病毒;zh-hk:勒托病毒;zh-tw:勒托病毒;"
+    },
+    {
+      "original": "trophozoite",
+      "conv": "zh-hans:活动体;zh-hant:滋養體;"
+    },
+    {
+      "original": "Entamoeba histolytica",
+      "conv": "zh-hans:溶组织内阿米巴;zh-hant:痢疾阿米巴;"
+    },
+    {
+      "original": "Hymenolepis diminuta",
+      "conv": "zh-hans:缩小膜壳绦虫;zh-hant:縮小絛蟲;"
+    },
+    {
+      "original": "data",
+      "conv": "zh-cn:数据;zh-hk:數據;zh-tw:資料;"
+    },
+    {
+      "original": "information",
+      "conv": "zh-cn:信息;zh-hk:資訊;zh-tw:資訊;"
+    },
+    {
+      "original": "program",
+      "conv": "zh-cn:程序;zh-hk:程式;zh-tw:程式;"
+    },
+    {
+      "original": "search",
+      "conv": "zh-cn:搜索;zh-hk:搜尋;zh-tw:搜尋;"
+    },
+    {
+      "original": "autotroph",
+      "conv": "zh-cn:自养;zh-tw:自營;"
+    },
+    {
+      "original": "heterotroph",
+      "conv": "zh-cn:异养;zh-tw:異營;"
+    }
+  ]
+}

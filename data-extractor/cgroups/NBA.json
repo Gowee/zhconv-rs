@@ -1,0 +1,2683 @@
+{
+  "name": "NBA",
+  "description": "NBA",
+  "path": "Module:CGroup/NBA",
+  "rules": [
+    {
+      "original": "Atlanta Hawks",
+      "conv": "zh-cn:亚特兰大老鹰;zh-tw:亞特蘭大老鷹;zh-hk:阿特蘭大鷹"
+    },
+    {
+      "original": "Bucks",
+      "conv": "zh-cn:雄鹿;zh-tw:公鹿;zh-hk:公鹿"
+    },
+    {
+      "original": "Celtics",
+      "conv": "zh-cn:凯尔特人;zh-tw:塞爾提克;zh-hk:塞爾特人"
+    },
+    {
+      "original": "Clippers",
+      "conv": "zh-cn:快船;zh-tw:快艇;zh-hk:快艇"
+    },
+    {
+      "original": "Dallas Mavericks",
+      "conv": "zh-cn:独行侠;zh-tw:獨行俠;zh-hk:獨行俠"
+    },
+    {
+      "original": "Hawks",
+      "conv": "zh-cn:老鹰;zh-tw:老鷹;zh-hk:鷹隊"
+    },
+    {
+      "original": "Kings",
+      "conv": "zh-cn:国王;zh-tw:國王;zh-hk:帝王"
+    },
+    {
+      "original": "Knicks",
+      "conv": "尼克斯=>zh-hk:紐約人;尼克斯=>zh-mo:紐約人;"
+    },
+    {
+      "original": "New York Knicks",
+      "conv": "纽约尼克斯=>zh-cn:纽约尼克斯;纽约尼克斯=>zh-tw:紐約尼克;纽约尼克斯=>zh-hk:紐約人;纽约尼克斯=>zh-mo:紐約人;"
+    },
+    {
+      "original": "New York Knicks",
+      "conv": "紐約尼克斯=>zh-cn:纽约尼克斯;紐約尼克斯=>zh-tw:紐約尼克;紐約尼克=>zh-hk:紐約人;紐約尼克斯=>zh-mo:紐約人;"
+    },
+    {
+      "original": "New York Knicks",
+      "conv": "紐約尼克=>zh-cn:纽约尼克斯;紐約尼克=>zh-tw:紐約尼克;紐約尼克=>zh-hk:紐約人;紐約尼克=>zh-mo:紐約人;"
+    },
+    {
+      "original": "Nuggets",
+      "conv": "zh-cn:掘金;zh-tw:金塊;zh-hk:金塊"
+    },
+    {
+      "original": "Pacers",
+      "conv": "zh-cn:步行者;zh-tw:溜馬;zh-hk:溜馬"
+    },
+    {
+      "original": "Pelicans",
+      "conv": "zh-cn:鹈鹕;zh-tw:鵜鶘;zh-hk:塘鵝"
+    },
+    {
+      "original": "Raptors",
+      "conv": "zh-hans:猛龙;zh-hant:暴龍;zh-tw:暴龍;zh-hk:速龍;zh-mo:速龍;"
+    },
+    {
+      "original": "Minnesota Timberwolves",
+      "conv": "zh-cn:明尼苏达森林狼;zh-tw:明尼蘇達灰狼;zh-hk:明尼蘇達木狼"
+    },
+    {
+      "original": "Timberwolves",
+      "conv": "zh-cn:森林狼;zh-tw:灰狼;zh-hk:木狼"
+    },
+    {
+      "original": "Trail Blazers",
+      "conv": "zh-cn:开拓者;zh-hant:拓荒者;"
+    },
+    {
+      "original": "Wizards",
+      "conv": "zh-cn:奇才;zh-hant:巫師;zh-tw:巫師;zh-hk:巫師;zh-mo:巫師;"
+    },
+    {
+      "original": "Syracuse Nationals",
+      "conv": "zh-cn:锡拉丘兹民族;zh-hant:雪城國民;zh-tw:雪城國民;"
+    },
+    {
+      "original": "Atlanta",
+      "conv": "zh-cn:亚特兰大;zh-tw:亞特蘭大;zh-hk:阿特蘭大"
+    },
+    {
+      "original": "Buffalo",
+      "conv": "zh-cn:布法罗;zh-tw:水牛城;zh-hk:水牛城"
+    },
+    {
+      "original": "Cleveland",
+      "conv": "zh-cn:克利夫兰;zh-my:克利夫兰;zh-sg:克利夫兰;zh-tw:克里夫蘭;zh-hk:克里夫蘭;zh-mo:克里夫蘭"
+    },
+    {
+      "original": "Cleveland",
+      "conv": "克里夫兰=>zh-cn:克利夫兰;克里夫兰=>zh-my:克利夫兰;克里夫兰=>zh-sg:克利夫兰;克里夫兰=>zh-tw:克里夫蘭;克里夫兰=>zh-hk:克里夫蘭;克里夫兰=>zh-mo:克里夫蘭;"
+    },
+    {
+      "original": "Houston",
+      "conv": "zh-cn:休斯敦;zh-tw:休士頓;zh-hk:侯斯頓"
+    },
+    {
+      "original": "Houston",
+      "conv": "休斯顿=>zh-hk:侯斯頓"
+    },
+    {
+      "original": "Houston",
+      "conv": "休斯頓=>zh-hk:侯斯頓"
+    },
+    {
+      "original": "Kansas",
+      "conv": "zh-cn:堪萨斯;zh-tw:堪薩斯;zh-hk:肯薩斯"
+    },
+    {
+      "original": "Memphis",
+      "conv": "zh-cn:孟菲斯;zh-tw:曼非斯;zh-hk:孟菲斯"
+    },
+    {
+      "original": "Memphis",
+      "conv": "曼斐斯=>zh-cn:孟菲斯;曼斐斯=>zh-tw:曼非斯;曼斐斯=>zh-hk:孟菲斯;曼斐斯=>zh-mo:孟菲斯;"
+    },
+    {
+      "original": "Miami",
+      "conv": "zh-cn:迈阿密; zh-tw:邁阿密; zh-hk:邁亞密;"
+    },
+    {
+      "original": "Milwaukee",
+      "conv": "zh-cn:密尔沃基;zh-tw:密爾瓦基;zh-hk:密爾沃基"
+    },
+    {
+      "original": "Minneapolis",
+      "conv": "zh-cn:明尼阿波利斯;zh-tw:明尼亞波利斯;zh-hk:明尼亞波利斯"
+    },
+    {
+      "original": "New Orleans",
+      "conv": "zh-cn:新奥尔良;zh-tw:紐奧良;zh-hk:新奧爾良"
+    },
+    {
+      "original": "Oklahoma City",
+      "conv": "zh-cn:俄克拉何马城;zh-hant:奧克拉荷馬市;zh-tw:奧克拉荷馬市;zh-hk:奧克拉荷馬城;zh-mo:奧克拉荷馬城;"
+    },
+    {
+      "original": "Phoenix",
+      "conv": "zh-cn:菲尼克斯;zh-tw:鳳凰城;zh-hk:鳳凰城"
+    },
+    {
+      "original": "Sacramento",
+      "conv": "zh-cn:萨克拉门托;zh-tw:沙加緬度;zh-hk:薩克拉門托"
+    },
+    {
+      "original": "San Diego",
+      "conv": "zh-cn:圣迭戈;zh-tw:聖地牙哥;zh-hk:聖地牙哥"
+    },
+    {
+      "original": "Springfield",
+      "conv": "zh-cn:斯普林菲尔德;zh-tw:春田市;zh-hk:春田市"
+    },
+    {
+      "original": "Springfield",
+      "conv": "斯普林菲尔德市=>zh-tw:春田市"
+    },
+    {
+      "original": "St. Louis",
+      "conv": "zh-hans:圣路易斯;zh-hant:聖路易"
+    },
+    {
+      "original": "Syracuse",
+      "conv": "zh-hans:锡拉丘兹;zh-hant:雪城"
+    },
+    {
+      "original": "California",
+      "conv": "zh-cn:加利福尼亚州;zh-tw:加利福尼亞州;zh-hk:加利福尼亞州"
+    },
+    {
+      "original": "Carolina",
+      "conv": "zh-cn:卡罗来纳;zh-tw:卡羅來納;zh-hk:卡羅萊納"
+    },
+    {
+      "original": "Georgia",
+      "conv": "zh-cn:佐治亚州; zh-tw:喬治亞州;zh-hk:喬治亞州"
+    },
+    {
+      "original": "Idaho",
+      "conv": "zh-cn:爱达荷;zh-tw:愛達荷;zh-hk:愛達荷"
+    },
+    {
+      "original": "Louisiana",
+      "conv": "zh-cn:路易斯安那;zh-tw:路易斯安那;zh-hk:路易斯安那"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "zh-cn:马萨诸塞州;zh-tw:麻薩諸塞州;zh-hk:麻省"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "马萨诸塞州=>zh-tw:麻薩諸塞州;马萨诸塞州=>zh-hk:麻省"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "馬薩諸塞州=>zh-cn:马萨诸塞州;馬薩諸塞州=>zh-tw:麻薩諸塞州;馬薩諸塞州=>zh-hk:麻省"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "麻薩諸塞州=>zh-cn:马萨诸塞州;麻薩諸塞州=>zh-tw:麻薩諸塞州;麻薩諸塞州=>zh-hk:麻省"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "马萨诸塞州=>zh-tw:麻薩諸塞州;马萨诸塞州=>zh-hk:麻省"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "麻州=>zh-cn:马萨诸塞州;麻州=>zh-tw:麻州;麻州=>zh-hk:麻省"
+    },
+    {
+      "original": "Massachusetts",
+      "conv": "麻萨诸塞州=>zh-cn:麻萨诸塞州;麻萨诸塞州=>zh-tw:麻薩諸塞州;麻萨诸塞州=>zh-hk:麻省"
+    },
+    {
+      "original": "Michigan",
+      "conv": "zh-cn:密歇根;zh-tw:密西根;zh-hk:密芝根"
+    },
+    {
+      "original": "New Jersey",
+      "conv": "zh-cn:新泽西;zh-tw:紐澤西;zh-hk:新澤西"
+    },
+    {
+      "original": "North Carolina",
+      "conv": "zh-cn:北卡罗来纳;zh-tw:北卡羅來納;zh-hk:北卡羅萊納"
+    },
+    {
+      "original": "Oklahoma",
+      "conv": "zh-cn:俄克拉何马;zh-hant:奧克拉荷馬;zh-tw:奧克拉荷馬;zh-hk:奧克拉荷馬;zh-mo:奧克拉荷馬;"
+    },
+    {
+      "original": "Oregon",
+      "conv": "zh-cn:俄勒冈;zh-tw:俄勒岡;zh-hk:俄勒岡"
+    },
+    {
+      "original": "Sorth Carolina",
+      "conv": "zh-cn:南卡罗来纳;zh-tw:南卡羅來納;zh-hk:南卡羅萊納"
+    },
+    {
+      "original": "Texas",
+      "conv": "得克薩斯=>zh-cn:德克萨斯;得克薩斯=>zh-tw:德克薩斯;得克薩斯=>zh-hk:德薩斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "得克萨斯=>zh-cn:德克萨斯;得克萨斯=>zh-tw:德克薩斯;得克萨斯=>zh-hk:德薩斯;"
+    },
+    {
+      "original": "Virginia",
+      "conv": "zh-cn:弗吉尼亚;zh-tw:維吉尼亞;zh-hk:維珍尼亞"
+    },
+    {
+      "original": "Wisconsin",
+      "conv": "zh-cn:威斯康星;zh-tw:威斯康辛;zh-hk:威斯康辛"
+    },
+    {
+      "original": "Grambling",
+      "conv": "zh-cn:格兰布林;zh-tw:格蘭布林;zh-hk:格蘭布林"
+    },
+    {
+      "original": "Atlanta Hawks",
+      "conv": "亚特兰大鹰=>zh-hant:亞特蘭大老鷹;亚特兰大鹰=>zh-tw:亞特蘭大老鷹;亚特兰大鹰=>zh-hk:阿特蘭大鷹;亞特蘭大鷹=>zh-hk:阿特蘭大鷹; 亚特兰大鹰=>zh-mo:阿特蘭大鷹;"
+    },
+    {
+      "original": "Celtics",
+      "conv": "凱爾特人=>zh-hant:塞爾提克;凱爾特人=>zh-cn:凯尔特人;凱爾特人=>zh-tw:塞爾提克;凱爾特人=>zh-hk:塞爾特人;凱爾特人=>zh-mo:塞爾特人;"
+    },
+    {
+      "original": "Miami Heat",
+      "conv": "迈阿密热队=>zh-hant:邁阿密熱火;迈阿密热队=>zh-tw:邁阿密熱火;迈阿密热队=>zh-hk:邁阿密熱火;迈阿密热队=>zh-mo:邁阿密熱火;"
+    },
+    {
+      "original": "New Jersey Nets",
+      "conv": "新泽西网=>zh-hant:紐澤西籃網;新泽西网=>zh-tw:紐澤西籃網;新泽西网=>zh-hk:新澤西籃網;新泽西网=>zh-mo:新澤西籃網;"
+    },
+    {
+      "original": "New Jersey Nets",
+      "conv": "新澤西網隊=>zh-hant:紐澤西籃網;新澤西網隊=>zh-tw:紐澤西籃網;新澤西網隊=>zh-hk:新澤西籃網;新澤西網隊=>zh-mo:新澤西籃網;"
+    },
+    {
+      "original": "Milwaukee Bucks",
+      "conv": "密爾沃基雄鹿=>zh-cn:密尔沃基雄鹿;密爾沃基雄鹿=>zh-tw:密爾瓦基公鹿"
+    },
+    {
+      "original": "New York Knicks",
+      "conv": "紐約尼克斯=>zh-cn:纽约尼克斯;紐約尼克斯=>zh-tw:紐約尼克"
+    },
+    {
+      "original": "Delta Center",
+      "conv": "zh-cn:三角洲中心;zh-tw:達美中心"
+    },
+    {
+      "original": "Rose Garden",
+      "conv": "zh-cn:玫瑰园;zh-tw:攻瑰花園"
+    },
+    {
+      "original": "Staples Center",
+      "conv": "zh-cn:斯台普斯中心;zh-tw:史坦波中心;zh-hk:史達普斯中心"
+    },
+    {
+      "original": "Staples Center",
+      "conv": "zh-cn:斯台普斯球场;zh-tw:史坦波球場;zh-hk:史達普斯球場"
+    },
+    {
+      "original": "Aaron",
+      "conv": "zh-cn:阿隆;zh-tw:亞倫;zh-hk:艾朗"
+    },
+    {
+      "original": "Abdul",
+      "conv": "zh-cn:阿卜杜勒;zh-tw:阿布都;zh-hk:阿杜"
+    },
+    {
+      "original": "Adam",
+      "conv": "zh-cn:亚当;zh-tw:亞當;zh-hk:阿當"
+    },
+    {
+      "original": "Adebayo",
+      "conv": "zh-cn:阿德巴约;zh-tw:阿德巴約;zh-hk:艾迪巴約"
+    },
+    {
+      "original": "Adelman",
+      "conv": "zh-cn:阿德尔曼;zh-tw:艾德曼;zh-hk:艾度文"
+    },
+    {
+      "original": "Ainge",
+      "conv": "zh-cn:安吉;zh-tw:安吉;zh-hk:安治"
+    },
+    {
+      "original": "Al",
+      "conv": "zh-cn:艾尔;zh-tw:艾爾;zh-hk:艾爾"
+    },
+    {
+      "original": "Alaric",
+      "conv": "zh-cn:阿拉里克;zh-tw:亞拉里克;zh-hk:阿拿歷"
+    },
+    {
+      "original": "Albert",
+      "conv": "zh-cn:阿尔伯特;zh-tw:艾伯特;zh-hk:艾拔"
+    },
+    {
+      "original": "Aldridge",
+      "conv": "zh-cn:阿尔德里奇;zh-tw:艾德里奇;zh-hk:艾迪列治"
+    },
+    {
+      "original": "Alex",
+      "conv": "zh-cn:阿莱克斯;zh-tw:亞歷克斯;zh-hk:亞歷克斯"
+    },
+    {
+      "original": "Allen",
+      "conv": "zh-cn:艾伦;zh-tw:艾倫;zh-hk:阿倫"
+    },
+    {
+      "original": "Alonzo",
+      "conv": "zh-cn:阿伦佐;zh-tw:阿隆佐;zh-hk:阿朗素"
+    },
+    {
+      "original": "Amare",
+      "conv": "zh-cn:阿玛雷;zh-tw:阿瑪雷;zh-hk:阿瑪利"
+    },
+    {
+      "original": "Andersen, Anderson",
+      "conv": "zh-cn:安德森;zh-tw:安德森;zh-hk:安達臣"
+    },
+    {
+      "original": "Andre",
+      "conv": "zh-cn:安德烈;zh-tw:安德烈;zh-hk:安祖"
+    },
+    {
+      "original": "Andrew",
+      "conv": "zh-cn:安德鲁;zh-tw:安德魯;zh-hk:安祖"
+    },
+    {
+      "original": "Antetokounmpo",
+      "conv": "zh-cn:安特托昆博;zh-tw:安戴托昆波;zh-hk:艾迪杜高普"
+    },
+    {
+      "original": "Anthony",
+      "conv": "zh-cn:安东尼;zh-tw:安東尼;zh-hk:安東尼"
+    },
+    {
+      "original": "Antoine",
+      "conv": "zh-cn:安托万;zh-tw:安東;zh-hk:安塔萬"
+    },
+    {
+      "original": "Archibald",
+      "conv": "zh-cn:阿奇博尔德;zh-tw:阿奇博德;zh-hk:阿茲波特"
+    },
+    {
+      "original": "Arcidiacono",
+      "conv": "zh-cn:阿西迪亚科诺;zh-tw:亞希迪亞卡諾;zh-hk:阿斯迪亞高奴"
+    },
+    {
+      "original": "Arenas",
+      "conv": "zh-cn:阿里纳斯;zh-tw:亞瑞納斯;zh-hk:阿連拿斯"
+    },
+    {
+      "original": "Arison",
+      "conv": "zh-cn:阿里森;zh-tw:艾瑞森;zh-hk:艾利臣"
+    },
+    {
+      "original": "Ariza",
+      "conv": "zh-cn:阿里扎;zh-tw:亞瑞查;zh-hk:艾列沙"
+    },
+    {
+      "original": "Armstrong",
+      "conv": "zh-cn:阿姆斯特朗;zh-tw:阿姆斯壯;zh-hk:岩士唐"
+    },
+    {
+      "original": "Arroyo",
+      "conv": "zh-cn:阿罗约;zh-tw:阿洛尤;zh-hk:艾萊奧"
+    },
+    {
+      "original": "Artest",
+      "conv": "zh-cn:阿泰斯特;zh-tw:亞泰斯特;zh-hk:阿堤斯"
+    },
+    {
+      "original": "Atkins",
+      "conv": "zh-cn:阿特金斯;zh-tw:艾特金斯;zh-hk:艾堅斯"
+    },
+    {
+      "original": "Atkins",
+      "conv": "亞特金斯=>zh-cn:阿特金斯;亞特金斯=>zh-tw:艾特金斯;亞特金斯=>zh-hk:艾堅斯;亞特金斯=>zh-mo:艾堅斯;"
+    },
+    {
+      "original": "Auerbach",
+      "conv": "zh-cn:奥尔巴赫;zh-tw:奧拜克;zh-hk:奧巴治"
+    },
+    {
+      "original": "Avery",
+      "conv": "zh-cn:艾弗里;zh-tw:艾佛瑞;zh-hk:艾維利"
+    },
+    {
+      "original": "Augustin",
+      "conv": "zh-cn:奥古斯汀;zh-tw:奧古斯汀;zh-hk:奧古斯甸"
+    },
+    {
+      "original": "Babbitt",
+      "conv": "zh-cn:巴比特"
+    },
+    {
+      "original": "Barbosa",
+      "conv": "zh-cn:巴博萨;zh-tw:巴伯沙;zh-hk:巴保沙"
+    },
+    {
+      "original": "Barea",
+      "conv": "zh-cn:巴雷亚;zh-tw:巴瑞亞;zh-hk:巴利亞"
+    },
+    {
+      "original": "Baron",
+      "conv": "zh-cn:拜伦;zh-tw:貝倫;zh-hk:巴朗"
+    },
+    {
+      "original": "Barry",
+      "conv": "zh-cn:巴里;zh-tw:貝瑞;zh-hk:巴利"
+    },
+    {
+      "original": "Battier",
+      "conv": "zh-cn:巴蒂尔;zh-tw:巴提耶;zh-hk:比堤亞"
+    },
+    {
+      "original": "Batum",
+      "conv": "zh-cn:巴图姆;zh-tw:巴頓;zh-hk:巴杜姆"
+    },
+    {
+      "original": "Baylor",
+      "conv": "zh-cn:贝勒;zh-tw:貝勒;zh-hk:庇拿"
+    },
+    {
+      "original": "Beasley",
+      "conv": "zh-cn:比斯利;zh-tw:畢斯利;zh-hk:比士利"
+    },
+    {
+      "original": "Belinelli",
+      "conv": "zh-cn:贝里内利;zh-tw:貝里納利;zh-hk:比連尼利"
+    },
+    {
+      "original": "Bender",
+      "conv": "zh-cn:本德尔;zh-tw:班德;zh-hk:賓特"
+    },
+    {
+      "original": "Bennett",
+      "conv": "zh-cn:本内特;zh-tw:貝内特;zh-hk:班尼特"
+    },
+    {
+      "original": "Beverley",
+      "conv": "zh-cn:贝弗利;zh-tw:貝佛利;zh-hk:比華利"
+    },
+    {
+      "original": "Big Ben",
+      "conv": "zh-cn:大本;zh-tw:大班;zh-hk:大賓"
+    },
+    {
+      "original": "Bibby",
+      "conv": "zh-cn:毕比;zh-tw:畢比;zh-hk:碧比"
+    },
+    {
+      "original": "Bickerstaff",
+      "conv": "zh-cn:比克斯塔夫;zh-tw:畢克史塔夫;zh-hk:比加史達夫"
+    },
+    {
+      "original": "Bill",
+      "conv": "zh-cn:比尔·;zh-tw:比爾·;zh-hk:標·"
+    },
+    {
+      "original": "Billups",
+      "conv": "zh-cn:比卢普斯;zh-tw:畢拉普斯;zh-hk:比立斯"
+    },
+    {
+      "original": "Bird",
+      "conv": "zh-cn:伯德;zh-tw:柏德;zh-hk:布特"
+    },
+    {
+      "original": "Biyombo",
+      "conv": "zh-cn:比永博;zh-tw:畢永柏;zh-hk:比奧姆保"
+    },
+    {
+      "original": "Blake",
+      "conv": "zh-cn:布莱克;zh-tw:布雷克;zh-hk:比歷克"
+    },
+    {
+      "original": "Blakeney",
+      "conv": "zh-cn:布莱克尼;zh-tw:布雷克尼;zh-hk:"
+    },
+    {
+      "original": "Bledsoe",
+      "conv": "zh-cn:布莱索;zh-tw:布萊德索;zh-hk:比歷素"
+    },
+    {
+      "original": "Bob",
+      "conv": "zh-cn:鲍勃;zh-tw:鮑伯;zh-hk:卜"
+    },
+    {
+      "original": "Bobby",
+      "conv": "zh-cn:鲍比;zh-tw:巴比;zh-hk:波比"
+    },
+    {
+      "original": "Bogdanović",
+      "conv": "zh-cn:博格达诺维奇;zh-tw:波格丹諾維奇;zh-hk:波達奴域"
+    },
+    {
+      "original": "Bogues",
+      "conv": "zh-cn:博格斯;zh-tw:博格斯;zh-hk:波古斯"
+    },
+    {
+      "original": "Bogut",
+      "conv": "zh-cn:博古特;zh-tw:波格特;zh-hk:保格"
+    },
+    {
+      "original": "Booker",
+      "conv": "zh-cn:布克;zh-tw:布克;zh-hk:布加"
+    },
+    {
+      "original": "Boozer",
+      "conv": "zh-cn:布泽尔;zh-tw:布瑟;zh-hk:保沙"
+    },
+    {
+      "original": "Bosh",
+      "conv": "zh-cn:波什;zh-tw:波許;zh-hk:保殊"
+    },
+    {
+      "original": "Boucher",
+      "conv": "zh-cn:布歇;zh-tw:布徹;zh-hk:保查"
+    },
+    {
+      "original": "Bowen",
+      "conv": "zh-cn:鲍文;zh-tw:包溫;zh-hk:保雲"
+    },
+    {
+      "original": "Bradley",
+      "conv": "zh-cn:布拉德利;zh-tw:布萊德利;zh-hk:巴特利"
+    },
+    {
+      "original": "Brandon",
+      "conv": "zh-cn:布兰登;zh-tw:布蘭登;zh-hk:班頓"
+    },
+    {
+      "original": "Brewer",
+      "conv": "zh-cn:布鲁尔;zh-tw:布魯爾;zh-hk:比華"
+    },
+    {
+      "original": "Brooks",
+      "conv": "zh-cn:布鲁克斯;zh-tw:布魯克斯;zh-hk:布祿士"
+    },
+    {
+      "original": "Brown",
+      "conv": "zh-cn:布朗;zh-tw:布朗;zh-hk:布朗"
+    },
+    {
+      "original": "Bruce",
+      "conv": "zh-cn:布鲁斯;zh-tw:布魯斯;zh-hk:布魯士"
+    },
+    {
+      "original": "Brunson",
+      "conv": "zh-cn:布伦森;zh-tw:布朗森;zh-hk:賓遜"
+    },
+    {
+      "original": "Bryant",
+      "conv": "zh-cn:布莱恩特;zh-tw:布萊恩;zh-hk:拜仁"
+    },
+    {
+      "original": "Butler",
+      "conv": "zh-cn:巴特勒;zh-tw:巴特勒;zh-hk:畢拿"
+    },
+    {
+      "original": "Budenholzer",
+      "conv": "zh-cn:布登霍尔泽;zh-tw:布丹霍澤;zh-hk:畢頓荷沙"
+    },
+    {
+      "original": "Bynum",
+      "conv": "zh-cn:拜纳姆;zh-tw:拜南;zh-hk:拜林"
+    },
+    {
+      "original": "Camby",
+      "conv": "zh-cn:坎比;zh-tw:坎比;zh-hk:甘比"
+    },
+    {
+      "original": "Carlos",
+      "conv": "zh-cn:卡洛斯;zh-tw:卡洛斯;zh-hk:卡路士"
+    },
+    {
+      "original": "Carmelo",
+      "conv": "zh:卡梅隆; zh-cn:卡梅洛;zh-tw:卡梅羅;zh-hk:卡美路;zh-mo:卡美路"
+    },
+    {
+      "original": "Caron",
+      "conv": "zh-cn:卡龙;zh-tw:卡隆;zh-hk:卡朗"
+    },
+    {
+      "original": "Carter",
+      "conv": "zh-cn:卡特;zh-tw:卡特;zh-hk:卡達"
+    },
+    {
+      "original": "Cassell",
+      "conv": "zh-cn:卡塞尔;zh-tw:卡塞爾;zh-hk:卡素爾"
+    },
+    {
+      "original": "Cato",
+      "conv": "zh-cn:卡托;zh-tw:卡托;zh-hk:卡圖"
+    },
+    {
+      "original": "Chalmers ",
+      "conv": "zh-cn:查尔莫斯;zh-tw:查莫斯;zh-hk:查馬斯"
+    },
+    {
+      "original": "Chandler",
+      "conv": "zh-cn:钱德勒;zh-tw:錢德勒;zh-hk:贊特拿"
+    },
+    {
+      "original": "Charles",
+      "conv": "zh-cn:查尔斯;zh-tw:查爾斯;zh-hk:查理斯"
+    },
+    {
+      "original": "Chris",
+      "conv": "zh-cn:克里斯;zh-tw:克里斯;zh-hk:基斯;zh-mo:基斯;"
+    },
+    {
+      "original": "Chucky",
+      "conv": "zh-cn:查基;zh-tw:恰奇;zh-hk:昌基"
+    },
+    {
+      "original": "Clifford",
+      "conv": "zh-cn:克利福德;zh-tw:克里夫;zh-hk:奇利福"
+    },
+    {
+      "original": "Coleman",
+      "conv": "zh-cn:科尔曼;zh-tw:柯曼;zh-hk:高文"
+    },
+    {
+      "original": "Collins",
+      "conv": "zh-hans:科林斯;zh-hk:哥連斯;zh-tw:科林斯;"
+    },
+    {
+      "original": "Collinsworth",
+      "conv": "zh-cn:科林斯沃斯;zh-tw:柯林斯沃斯"
+    },
+    {
+      "original": "Collison",
+      "conv": "zh-cn:科里森;zh-tw:柯利森;zh-hk:哥利臣"
+    },
+    {
+      "original": "Conley",
+      "conv": "zh-cn:康利;zh-tw:康利; zh-hk:干尼"
+    },
+    {
+      "original": "Connaughton",
+      "conv": "zh-cn:康诺顿;zh-tw:康納頓;zh-hk:干拿頓"
+    },
+    {
+      "original": "Cook",
+      "conv": "zh-cn:库克;zh-tw:庫克;zh-hk:曲"
+    },
+    {
+      "original": "Corey",
+      "conv": "zh-cn:科里;zh-tw:科里;zh-hk:哥尼"
+    },
+    {
+      "original": "Cory",
+      "conv": "zh-cn:科里;zh-tw:科里;zh-hk:哥利"
+    },
+    {
+      "original": "Covington",
+      "conv": "zh:科溫頓; zh-cn:科溫顿;zh-tw:柯文頓;zh-hk:高榮頓"
+    },
+    {
+      "original": "Cousy",
+      "conv": "zh-cn:库锡;zh-tw:庫西;zh-hk:古斯"
+    },
+    {
+      "original": "Cowens",
+      "conv": "zh-cn:考恩斯;zh-tw:考文斯;zh-hk:哥雲斯"
+    },
+    {
+      "original": "Craig",
+      "conv": "zh-cn:克雷格;zh-tw:克雷格;zh-hk:格力"
+    },
+    {
+      "original": "Crawford",
+      "conv": "zh-cn:克劳福德;zh-tw:克勞佛;zh-hk:哥羅福"
+    },
+    {
+      "original": "Crittenton",
+      "conv": "zh-cn:科里坦顿;zh-tw:克里天頓"
+    },
+    {
+      "original": "Cunningham",
+      "conv": "zh-cn:坎宁安;zh-tw:康寧漢;zh-hk:根寧咸"
+    },
+    {
+      "original": "Cuttino",
+      "conv": "zh-cn:卡蒂诺;zh-tw:卡提諾;zh-hk:卡蒂諾"
+    },
+    {
+      "original": "Curry",
+      "conv": "zh-cn:库里;zh-tw:柯瑞;zh-hk:居里"
+    },
+    {
+      "original": "Curry",
+      "conv": "科里=>zh-cn:库里;科里=>zh-tw:柯瑞;科里=>zh-hk:居里;"
+    },
+    {
+      "original": "Dalembert",
+      "conv": "zh-cn:戴勒姆伯特;zh-tw:戴倫波"
+    },
+    {
+      "original": "Damien, Damian",
+      "conv": "zh-cn:达米恩;zh-tw:達米安;zh-hk:達米安"
+    },
+    {
+      "original": "Damon",
+      "conv": "zh-cn:达蒙;zh-tw:戴蒙;zh-hk:迪蒙"
+    },
+    {
+      "original": "D'Antoni",
+      "conv": "zh-cn:德安东尼;zh-tw:狄安東尼;zh-hk:迪安東尼"
+    },
+    {
+      "original": "Darrell",
+      "conv": "zh-cn:达瑞尔;zh-tw:戴瑞;zh-hk:戴路"
+    },
+    {
+      "original": "D'Aaron",
+      "conv": "zh-cn:德阿隆;zh-tw:德亞倫;zh-hk:迪艾朗"
+    },
+    {
+      "original": "DeBusschere",
+      "conv": "zh-cn:德布斯切尔;zh-tw:狄博學;zh-hk:德布斯卓"
+    },
+    {
+      "original": "Dekker",
+      "conv": "zh-cn:德克尔;zh-tw:戴克;zh-hk:迪加"
+    },
+    {
+      "original": "Dellavedova",
+      "conv": "zh-cn:德拉维多瓦;zh-tw:德拉維多瓦;zh-hk:迪拉維杜華"
+    },
+    {
+      "original": "Deng",
+      "conv": "zh-cn:邓;zh-tw:丹恩;zh-hk:鄧格"
+    },
+    {
+      "original": "Denis, Dennis",
+      "conv": "zh-cn:丹尼斯;zh-tw:丹尼斯;zh-hk:丹尼士"
+    },
+    {
+      "original": "Derek, Derrick",
+      "conv": "zh-cn:德里克;zh-tw:德瑞克;zh-hk:戴歷"
+    },
+    {
+      "original": "Derrick Rose",
+      "conv": "zh-cn:德里克·罗斯;zh-tw:德瑞克·羅斯;zh-hk:戴歷·路斯"
+    },
+    {
+      "original": "Deron",
+      "conv": "zh-cn:德隆;zh-tw:德隆;zh-hk:迪朗"
+    },
+    {
+      "original": "DeRozan",
+      "conv": "zh-cn:德罗赞;zh-tw:德羅展;zh-hk:迪羅辛"
+    },
+    {
+      "original": "Desmond",
+      "conv": "zh-cn:德斯蒙德;zh-tw:戴斯蒙;zh-hk:迪斯文"
+    },
+    {
+      "original": "Detlef",
+      "conv": "zh-cn:德特勒夫;zh-tw:德特夫"
+    },
+    {
+      "original": "Devin",
+      "conv": "zh-cn:德文;zh-tw:德文;zh-hk:迪雲"
+    },
+    {
+      "original": "Dikembe",
+      "conv": "zh-cn:迪肯贝;zh-tw:迪肯貝;zh-hk:迪甘比"
+    },
+    {
+      "original": "Divac",
+      "conv": "zh-cn:迪瓦茨;zh-tw:迪瓦茲;zh-hk:戴域"
+    },
+    {
+      "original": "DiVincenzo",
+      "conv": "zh-cn:迪温琴佐;zh-tw:迪文森佐;zh-hk:迪雲辛素"
+    },
+    {
+      "original": "Dominique, Dominic",
+      "conv": "zh-cn:多米尼克;zh-tw:多明尼克;zh-hk:杜明歷"
+    },
+    {
+      "original": "Donovan",
+      "conv": "zh-cn:多诺万;zh-tw:唐諾文;zh-hk:當路雲"
+    },
+    {
+      "original": "Donte",
+      "conv": "zh-cn:丹特;zh-tw:唐特;zh-hk:當特"
+    },
+    {
+      "original": "Dragic",
+      "conv": "zh-cn:德拉季奇;zh-tw:卓吉奇;zh-hk:達拉積"
+    },
+    {
+      "original": "Draymond",
+      "conv": "zh-cn:德雷蒙德; zh-hk:祖蒙特; zh-tw:卓雷蒙"
+    },
+    {
+      "original": "Drexler",
+      "conv": "zh-cn:德雷克斯勒;zh-tw:崔斯勒;zh-hk:德士拿"
+    },
+    {
+      "original": "Dončić",
+      "conv": "zh-cn:东契奇;zh-tw:唐西奇;zh-hk:當錫"
+    },
+    {
+      "original": "Drummond",
+      "conv": "zh-cn:德拉蒙德;zh-tw:卓蒙德;zh-hk:祖蒙特"
+    },
+    {
+      "original": "Dumars",
+      "conv": "zh-cn:杜马斯;zh-tw:杜馬斯;zh-hk:杜馬士"
+    },
+    {
+      "original": "Duncan",
+      "conv": "zh-cn:邓肯;zh-tw:鄧肯;zh-hk:鄧肯"
+    },
+    {
+      "original": "Dunleavy",
+      "conv": "zh-cn:邓利维;zh-tw:鄧利維;zh-hk:鄧利維"
+    },
+    {
+      "original": "Dunn",
+      "conv": "zh-cn:邓恩;zh-tw:鄧恩;zh-hk:鄧尼"
+    },
+    {
+      "original": "Dwight",
+      "conv": "zh-cn:德怀特;zh-tw:德懷特;zh-hk:迪韋特"
+    },
+    {
+      "original": "Dwyane",
+      "conv": "德怀恩=>zh-cn:德维恩;德怀恩=>zh-tw:德韋恩;德怀恩=>zh-hk:迪韋恩;德怀恩=>zh-mo:迪韋恩;"
+    },
+    {
+      "original": "Dwyane",
+      "conv": "德韦恩=>zh-cn:德韦恩;德韦恩=>zh-tw:德韋恩;德韦恩=>zh-hk:迪韋恩;德韦恩=>zh-mo:迪韋恩;"
+    },
+    {
+      "original": "Dwyane Wade",
+      "conv": "zh-cn:德维恩·韦德;zh-tw:德韋恩·韋德;zh-hk:迪韋恩·韋迪"
+    },
+    {
+      "original": "Ed",
+      "conv": "zh-cn:埃德;zh-tw:艾德;zh-hk:艾德"
+    },
+    {
+      "original": "Eddy, Eddie",
+      "conv": "zh-cn:埃迪;zh-tw:艾迪;zh-hk:艾迪"
+    },
+    {
+      "original": "Edwards",
+      "conv": "zh-cn:爱德华兹;zh-tw:愛德華茲;zh-hk:艾德華"
+    },
+    {
+      "original": "Elgin",
+      "conv": "zh-cn:埃尔金;zh-tw:艾爾金;zh-hk:艾堅"
+    },
+    {
+      "original": "Ellington",
+      "conv": "zh-cn:艾灵顿;zh-tw:艾靈頓;zh-hk:艾寧頓"
+    },
+    {
+      "original": "Ellis",
+      "conv": "zh-cn:埃利斯;zh-tw:艾利斯;zh-hk:艾利斯"
+    },
+    {
+      "original": "Ellison",
+      "conv": "zh-cn:埃里森;zh-tw:艾里森;zh-hk:艾利遜"
+    },
+    {
+      "original": "Elton",
+      "conv": "zh-cn:埃尔顿;zh-tw:艾爾頓;zh-hk:艾頓"
+    },
+    {
+      "original": "Elvin",
+      "conv": "zh-cn:埃尔文;zh-tw:艾爾文;zh-hk:艾雲"
+    },
+    {
+      "original": "Emeka",
+      "conv": "zh-cn:埃米卡;zh-tw:艾美卡"
+    },
+    {
+      "original": "Emmett",
+      "conv": "zh-cn:埃米特;zh-tw:艾米特"
+    },
+    {
+      "original": "English",
+      "conv": "zh-cn:英格利什;zh-tw:英格利許;zh-hk:英格利殊"
+    },
+    {
+      "original": "Ennis",
+      "conv": "zh-cn:恩尼斯;zh-tw:恩尼斯;zh-hk:安尼斯"
+    },
+    {
+      "original": "Eric",
+      "conv": "zh-cn:埃里克;zh-tw:艾瑞克;zh-hk:艾歷"
+    },
+    {
+      "original": "Erving",
+      "conv": "zh-cn:欧文;zh-tw:厄文;zh-hk:艾榮"
+    },
+    {
+      "original": "Evan",
+      "conv": "zh-cn:埃文;zh-tw:伊凡;zh-hk:伊雲"
+    },
+    {
+      "original": "Evans",
+      "conv": "zh-cn:埃文斯;zh-tw:伊凡斯;zh-hk:伊雲斯"
+    },
+    {
+      "original": "Ewing",
+      "conv": "zh-cn:尤因;zh-tw:尤英;zh-hk:伊榮"
+    },
+    {
+      "original": "Enes ",
+      "conv": "zh-cn:埃內斯;zh-tw:艾內斯;zh-hk:安尼斯"
+    },
+    {
+      "original": "Farmar",
+      "conv": "zh-cn:法玛尔;zh-tw:法瑪爾;zh-hk:法瑪"
+    },
+    {
+      "original": "Ferdinand",
+      "conv": "zh-cn:费迪南德;zh-tw:斐迪南;zh-hk:費迪南"
+    },
+    {
+      "original": "Ferrari",
+      "conv": "zh-cn:法拉利;zh-tw:法拉利"
+    },
+    {
+      "original": "Ferry",
+      "conv": "zh-cn:费里;zh-tw:費瑞;zh-hk:費利"
+    },
+    {
+      "original": "Fields",
+      "conv": "zh-cn:菲尔兹;zh-tw:費爾茲;zh-hk:費斯"
+    },
+    {
+      "original": "Finley",
+      "conv": "zh-cn:芬利;zh-tw:芬利;zh-hk:芬尼"
+    },
+    {
+      "original": "Fisher",
+      "conv": "zh-cn:费舍尔;zh-tw:費雪;zh-hk:費沙"
+    },
+    {
+      "original": "Fizdale",
+      "conv": "zh-cn:菲兹戴尔;zh-tw:費茲戴爾;zh-hk:費斯戴爾"
+    },
+    {
+      "original": "Fox",
+      "conv": "zh-cn:福克斯;zh-tw:福克斯;zh-hk:霍斯"
+    },
+    {
+      "original": "Francis",
+      "conv": "zh-cn:弗朗西斯;zh-tw:法蘭西斯;zh-hk:法蘭西斯"
+    },
+    {
+      "original": "Franck, Frank",
+      "conv": "zh-cn:弗兰克;zh-tw:法蘭克;zh-hk:法蘭;"
+    },
+    {
+      "original": "Fultz",
+      "conv": "zh-cn:富尔茨;zh-tw:富爾茲;zh-hk:富斯;"
+    },
+    {
+      "original": "Gallinari",
+      "conv": "zh-cn:加利纳里;zh-tw:蓋里納利;zh-hk:加連拿利"
+    },
+    {
+      "original": "Gentry",
+      "conv": "zh-hans:金特里; zh-hk:金泰瑞; zh-tw:簡崔;"
+    },
+    {
+      "original": "Garnett",
+      "conv": "zh-cn:加内特;zh-tw:賈奈特;zh-hk:加納特"
+    },
+    {
+      "original": "Garnett",
+      "conv": "加內特=>zh-cn:加内特;加內特=>zh-tw:賈奈特;加內特=>zh-hk:加納特;加內特=>zh-mo:加納特;"
+    },
+    {
+      "original": "Garrett",
+      "conv": "zh-cn:加莱特;zh-tw:蓋瑞特;zh-hk:加烈"
+    },
+    {
+      "original": "Gary",
+      "conv": "zh-cn:加里;zh-tw:蓋瑞;zh-hk:加利"
+    },
+    {
+      "original": "Gasol",
+      "conv": "zh-cn:加索尔;zh-tw:蓋索;zh-hk:加素;zh-mo:加素爾"
+    },
+    {
+      "original": "Gay",
+      "conv": "zh-cn:盖伊;zh-tw:蓋伊;zh-hk:基爾"
+    },
+    {
+      "original": "George",
+      "conv": "zh-cn:乔治;zh-tw:喬治;zh-hk:佐治"
+    },
+    {
+      "original": "Gerald",
+      "conv": "zh-cn:杰拉德;zh-tw:傑拉德;zh-hk:謝拉特"
+    },
+    {
+      "original": "Gervin",
+      "conv": "zh-cn:格温;zh-tw:葛文;zh-hk:卻雲"
+    },
+    {
+      "original": "Gilbert",
+      "conv": "zh-cn:吉尔伯特;zh-tw:吉爾伯特;zh-hk:基拔"
+    },
+    {
+      "original": "Ginobili",
+      "conv": "zh-cn:吉诺比利;zh-tw:吉諾比利;zh-hk:真路比利"
+    },
+    {
+      "original": "Glen",
+      "conv": "zh-cn:格伦;zh-tw:葛倫;zh-hk:格連"
+    },
+    {
+      "original": "Gobert",
+      "conv": "zh-cn:戈贝尔;zh-tw:戈貝爾;zh-hant:戈貝爾;zh-hk:高比亞"
+    },
+    {
+      "original": "Gomes",
+      "conv": "zh-cn:戈麦斯;zh-tw:高梅茲;zh-hk:高美斯"
+    },
+    {
+      "original": "Goran",
+      "conv": "zh-cn:戈兰;zh-tw:戈倫;zh-hk:戈蘭"
+    },
+    {
+      "original": "Gordon",
+      "conv": "zh-cn:戈登;zh-tw:高登;zh-hk:哥頓"
+    },
+    {
+      "original": "Grant",
+      "conv": "zh-cn:格兰特;zh-tw:格蘭特;zh-hk:格蘭"
+    },
+    {
+      "original": "Green",
+      "conv": "zh-cn:格林;zh-tw:格林;zh-hk:格連"
+    },
+    {
+      "original": "Griffin",
+      "conv": "zh-cn:格里芬;zh-tw:葛里芬;zh-hk:格芬"
+    },
+    {
+      "original": "Groza",
+      "conv": "zh-cn:格罗扎;zh-tw:葛羅薩;zh-hk:格羅沙"
+    },
+    {
+      "original": "Hakeem",
+      "conv": "zh-cn:阿基姆;zh-tw:哈基姆;zh-hk:哈金"
+    },
+    {
+      "original": "Hamilton",
+      "conv": "zh-cn:汉密尔顿;zh-tw:漢米爾頓;zh-hk:咸美頓"
+    },
+    {
+      "original": "Hardaway",
+      "conv": "zh-cn:哈达威;zh-tw:哈德威;zh-hk:夏達威"
+    },
+    {
+      "original": "Harden",
+      "conv": "zh-cn:哈登;zh-tw:哈登;zh-hk:夏登"
+    },
+    {
+      "original": "Harrellson",
+      "conv": "zh-cn:哈雷尔森;zh-tw:哈瑞爾森"
+    },
+    {
+      "original": "Harris",
+      "conv": "zh-cn:哈里斯;zh-tw:哈里斯;zh-hk:夏利士"
+    },
+    {
+      "original": "Harrison",
+      "conv": "zh-cn:哈里森;zh-tw:哈里森;zh-hk:夏里遜"
+    },
+    {
+      "original": "Haslem",
+      "conv": "zh-cn:哈斯勒姆;zh-tw:哈斯倫;zh-hk:夏士林"
+    },
+    {
+      "original": "Hasheem",
+      "conv": "zh-cn:哈希姆;zh-tw:哈辛;zh-hk:哈希姆"
+    },
+    {
+      "original": "Havlicek",
+      "conv": "zh-cn:哈夫利切克;zh-tw:哈維契克;zh-hk:夏夫利沙"
+    },
+    {
+      "original": "Hawes",
+      "conv": "zh-cn:霍伊斯;zh-tw:霍斯;zh-hk:賀斯"
+    },
+    {
+      "original": "Hayes",
+      "conv": "zh-cn:海耶斯;zh-tw:海斯;zh-hk:希耶斯"
+    },
+    {
+      "original": "Hayward",
+      "conv": "zh-cn:海沃德;zh-tw:海沃德;zh-hk:希活"
+    },
+    {
+      "original": "Hernangómez",
+      "conv": "zh-hant:埃爾南戈麥斯;zh-hk:靴蘭高美斯;zh-cn:赫南戈麦斯;zh-tw:埃爾南高梅茲;"
+    },
+    {
+      "original": "Herro",
+      "conv": "zh-hk:希路;zh-cn:希罗;zh-tw:赫洛;"
+    },
+    {
+      "original": "Hidayet",
+      "conv": "zh-cn:希达耶特;zh-tw:希達耶特;zh-hk:希度"
+    },
+    {
+      "original": "Hield",
+      "conv": "zh-cn:希尔德;zh-tw:希爾德;zh-hk:希特"
+    },
+    {
+      "original": "Hinrich",
+      "conv": "zh-cn:辛里奇;zh-tw:韓瑞克;zh-hk:軒歷治"
+    },
+    {
+      "original": "Holiday",
+      "conv": "zh-cn:霍勒迪;zh-tw:哈勒戴;zh-hk:賀列迪"
+    },
+    {
+      "original": "Hood",
+      "conv": "zh-cn:胡德;zh-tw:胡德;zh-hk:賀特"
+    },
+    {
+      "original": "Hornacek",
+      "conv": "zh-cn:霍纳塞克;zh-tw:霍納塞克;zh-hk:漢拿錫"
+    },
+    {
+      "original": "Horry",
+      "conv": "zh-cn:霍里;zh-tw:歐瑞;zh-hk:荷利"
+    },
+    {
+      "original": "Horford",
+      "conv": "zh-cn:霍福德;zh-tw:霍福德;zh-hk:賀福特"
+    },
+    {
+      "original": "Howard",
+      "conv": "zh-cn:霍华德;zh-tw:霍華德;zh-hk:侯活"
+    },
+    {
+      "original": "Howard",
+      "conv": "霍華=>zh-cn:霍华德;霍華=>zh-tw:霍華德;霍華=>zh-hk:侯活;霍華=>zh-mo:侯活;"
+    },
+    {
+      "original": "Iguodala",
+      "conv": "zh-cn:伊格达拉;zh-tw:伊古達拉;zh-hk:伊古達拿"
+    },
+    {
+      "original": "Ilgauskas",
+      "conv": "zh-cn:伊尔格斯卡斯;zh-tw:伊高斯卡斯;zh-hk:伊古斯卡斯"
+    },
+    {
+      "original": "Ingram",
+      "conv": "zh-cn:英格拉姆;zh-tw:英格倫;zh-hk:恩格林"
+    },
+    {
+      "original": "Isaiah",
+      "conv": "zh-cn:以赛亚;zh-tw:以賽亞;zh-hk:艾西亞"
+    },
+    {
+      "original": "Ish",
+      "conv": "zh-cn:伊什;zh-tw:伊許;zh-hk:"
+    },
+    {
+      "original": "Isiah",
+      "conv": "zh-cn:伊塞亚;zh-tw:以賽亞;zh-hk:艾西亞"
+    },
+    {
+      "original": "Iverson",
+      "conv": "zh-cn:艾弗森;zh-tw:艾佛森;zh-hk:艾佛遜"
+    },
+    {
+      "original": "Jabari",
+      "conv": "zh-cn:贾巴里;zh-tw:賈貝瑞;zh-hk:查巴利"
+    },
+    {
+      "original": "Jabari",
+      "conv": "賈巴里=>zh-hk:查巴利;"
+    },
+    {
+      "original": "Jabbar",
+      "conv": "zh-cn:贾巴尔;zh-tw:賈霸;zh-hk:渣巴"
+    },
+    {
+      "original": "Jackson",
+      "conv": "zh-cn:杰克逊;zh-tw:傑克森;zh-hk:積遜"
+    },
+    {
+      "original": "Jamal, Jamaal",
+      "conv": "zh-cn:贾马尔;zh-tw:賈邁爾;zh-hk:謝美"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆斯;zh-tw:詹姆士;zh-hk:占士"
+    },
+    {
+      "original": "Jamison",
+      "conv": "zh-cn:贾米森;zh-tw:傑米森;zh-hk:占美臣"
+    },
+    {
+      "original": "Jamison",
+      "conv": "杰米森=>zh-cn:贾米森;杰米森=>zh-tw:傑米森;杰米森=>zh-hk:占美臣;杰米森=>zh-mo:占美臣;"
+    },
+    {
+      "original": "JaMychal",
+      "conv": "zh-cn:杰迈克尔;zh-tw:賈麥可;zh-hk:賈麥考"
+    },
+    {
+      "original": "Jason",
+      "conv": "zh-hans:杰森; zh-cn:贾森;zh-tw:傑森;zh-hk:積臣"
+    },
+    {
+      "original": "Jason",
+      "conv": "贾森=>zh-cn:贾森;贾森=>zh-tw:傑森;贾森=>zh-hk:積臣;贾森=>zh-mo:積臣;"
+    },
+    {
+      "original": "Javaris",
+      "conv": "zh-cn:贾瓦里斯;zh-tw:賈瓦瑞斯"
+    },
+    {
+      "original": "JaVale",
+      "conv": "zh-cn:贾维尔;zh-tw:加瓦勒;zh-hk:謝維爾"
+    },
+    {
+      "original": "Jaylen",
+      "conv": "zh-cn:杰伦;zh-tw:杰倫;zh-hk:積倫"
+    },
+    {
+      "original": "Jeff",
+      "conv": "zh-cn:杰夫;zh-tw:傑夫;zh-hk:謝夫"
+    },
+    {
+      "original": "Jeffrey",
+      "conv": "zh-cn:杰弗里;zh-tw:傑佛瑞;zh-hk:謝菲"
+    },
+    {
+      "original": "Jeffrey",
+      "conv": "傑弗瑞=>zh-cn:杰弗里;傑弗瑞=>zh-tw:傑佛瑞;傑弗瑞=>zh-hk:謝菲;傑弗瑞=>zh-mo:謝菲;"
+    },
+    {
+      "original": "Jefferson",
+      "conv": "zh-cn:杰弗森;zh-tw:傑佛森;zh-hk:謝菲臣"
+    },
+    {
+      "original": "Jefferson",
+      "conv": "杰弗逊=>zh-tw:傑佛森;杰弗逊=>zh-cn:杰弗森;杰弗逊=>zh-hk:謝法臣;杰弗逊=>zh-mo:謝法臣;"
+    },
+    {
+      "original": "Jerebko",
+      "conv": "zh-cn:杰雷布科;zh-tw:傑雷布柯;zh-hk:謝列高"
+    },
+    {
+      "original": "Jerry",
+      "conv": "zh-cn:杰里;zh-tw:傑瑞;zh-hk:謝利"
+    },
+    {
+      "original": "Jermaine",
+      "conv": "zh-cn:杰梅因;zh-tw:傑曼;zh-hk:謝美"
+    },
+    {
+      "original": "Jimmy",
+      "conv": "zh-cn:吉米;zh-tw:吉米;zh-hk:占美"
+    },
+    {
+      "original": "Joe",
+      "conv": "zh-cn:乔·;zh-tw:喬·;zh-hk:祖·"
+    },
+    {
+      "original": "Joel",
+      "conv": "zh-cn:乔尔·;zh-tw:喬爾·;zh-hk:祖爾·"
+    },
+    {
+      "original": "Johnny",
+      "conv": "zh-cn:约翰尼;zh-tw:強尼;zh-hk:莊尼"
+    },
+    {
+      "original": "Johnson",
+      "conv": "zh-cn:约翰逊;zh-tw:強森;zh-hk:莊遜"
+    },
+    {
+      "original": "Jokić",
+      "conv": "zh-cn:约基奇;zh-tw:約基奇;zh-hk:尤基治"
+    },
+    {
+      "original": "Jonas",
+      "conv": "zh-cn:约纳斯;zh-tw:強納斯;zh-hk:莊拿斯"
+    },
+    {
+      "original": "Jones",
+      "conv": "zh-cn:琼斯;zh-tw:瓊斯;zh-hk:鍾斯"
+    },
+    {
+      "original": "Jordan",
+      "conv": "zh-cn:乔丹;zh-tw:喬丹;zh-hk:佐敦"
+    },
+    {
+      "original": "Jordan",
+      "conv": "喬登=>zh-cn:乔丹;喬登=>zh-tw:喬丹;喬登=>zh-hk:佐敦;喬登=>zh-mo:佐敦;"
+    },
+    {
+      "original": "José",
+      "conv": "zh-cn:何塞;zh-tw:荷西;zh-hk:荷西"
+    },
+    {
+      "original": "Joseph",
+      "conv": "zh-cn:约瑟夫;zh-tw:約瑟夫;zh-hk:祖斯夫"
+    },
+    {
+      "original": "Josh",
+      "conv": "zh-cn:约什;zh-tw:喬許;zh-hk:祖殊"
+    },
+    {
+      "original": "Julius",
+      "conv": "zh-cn:朱利叶斯;zh-tw:朱利葉斯;zh-hk:祖利奧斯"
+    },
+    {
+      "original": "Juwan",
+      "conv": "zh-hans:朱旺;zh-cn:朱万;zh-tw:朱萬;zh-hk:祖雲"
+    },
+    {
+      "original": "Justin",
+      "conv": "zh-cn:贾斯汀;zh-tw:賈斯汀;zh-hk:祖斯甸"
+    },
+    {
+      "original": "Jusuf",
+      "conv": "zh-cn:尤素夫;zh-tw:優素福;zh-hk:尤素夫"
+    },
+    {
+      "original": "Karl",
+      "conv": "zh-cn:卡尔;zh-tw:卡爾;zh-hk:卡爾"
+    },
+    {
+      "original": "Kanter",
+      "conv": "zh-cn:坎特;zh-tw:坎特;zh-hk:根達"
+    },
+    {
+      "original": "Kawhi",
+      "conv": "zh-cn:科怀;zh-hk:卡威;zh-tw:科懷;zh-sg:科怀"
+    },
+    {
+      "original": "Kemba",
+      "conv": "zh-cn:肯巴;zh-tw:肯巴;zh-hk:甘巴"
+    },
+    {
+      "original": "Kemp",
+      "conv": "zh-cn:坎普;zh-tw:坎普;zh-hk:甘普"
+    },
+    {
+      "original": "Kennard",
+      "conv": "zh-cn:肯纳德;zh-tw:肯納德;zh-hk:"
+    },
+    {
+      "original": "Kennedy",
+      "conv": "zh-cn:肯尼迪;zh-tw:甘迺迪;zh-hk:堅尼地"
+    },
+    {
+      "original": "Kenny",
+      "conv": "zh-cn:肯尼;zh-tw:肯尼;zh-hk:堅尼"
+    },
+    {
+      "original": "Kenyon",
+      "conv": "zh-cn:肯杨;zh-tw:肯楊;zh-hk:簡恩"
+    },
+    {
+      "original": "Kerr",
+      "conv": "zh-hans:科尔;zh-tw:科爾;zh-hk:卡爾"
+    },
+    {
+      "original": "Kevin",
+      "conv": "zh-cn:凯文;zh-tw:凱文;zh-hk:奇雲"
+    },
+    {
+      "original": "Kidd",
+      "conv": "zh-cn:基德;zh-tw:基德;zh-hk:傑特"
+    },
+    {
+      "original": "kilpatrick",
+      "conv": "zh-cn:基尔帕特里克;zh-tw:基爾派屈克;zh-hk:"
+    },
+    {
+      "original": "Klay",
+      "conv": "zh-cn:克莱;zh-tw:克雷;zh-hk:基利"
+    },
+    {
+      "original": "Kleber",
+      "conv": "zh-cn:克勒贝尔;zh-tw:克萊柏;zh-hk:克萊博"
+    },
+    {
+      "original": "Kobe",
+      "conv": "zh-cn:科比;zh-tw:柯比;zh-hk:高比"
+    },
+    {
+      "original": "Korver",
+      "conv": "zh-cn:科沃尔;zh-tw:柯佛;zh-hk:高化"
+    },
+    {
+      "original": "Kristaps",
+      "conv": "zh-cn:克里斯塔普斯;zh-tw:克里斯塔普斯;zh-hk:基斯塔斯"
+    },
+    {
+      "original": "Kukoc",
+      "conv": "zh-cn:库科奇;zh-tw:庫柯奇;zh-hk:古高"
+    },
+    {
+      "original": "Kuzma",
+      "conv": "zh-cn:库兹马;zh-tw:庫茲馬;zh-hk:古斯馬"
+    },
+    {
+      "original": "Kwame",
+      "conv": "zh-cn:夸梅;zh-tw:夸米;zh-hk:加域"
+    },
+    {
+      "original": "Kyle",
+      "conv": "zh-cn:凯尔;zh-tw:凱爾;zh-hk:基爾"
+    },
+    {
+      "original": "Labissière",
+      "conv": "zh-cn:拉比西埃;zh-tw:拉比希耶;zh-hk:拉比斯爾"
+    },
+    {
+      "original": "Laettner",
+      "conv": "zh-cn:莱特纳;zh-tw:雷特納;zh-hk:列拿"
+    },
+    {
+      "original": "Laimbeer",
+      "conv": "zh-cn:兰比尔;zh-tw:藍比爾;zh-hk:林比亞"
+    },
+    {
+      "original": "Lamar",
+      "conv": "zh-cn:拉马尔;zh-tw:拉瑪;zh-hk:拉馬"
+    },
+    {
+      "original": "LaMelo",
+      "conv": "zh-cn:拉梅洛;zh-tw:拉梅羅;zh-hk:拿美路"
+    },
+    {
+      "original": "Larry",
+      "conv": "zh-cn:拉里;zh-tw:賴瑞;zh-hk:拉利"
+    },
+    {
+      "original": "LaMarcus",
+      "conv": "zh-cn:拉玛库斯;zh-tw:拉馬庫斯;zh-hk:拉馬吉斯"
+    },
+    {
+      "original": "Latrell",
+      "conv": "zh-cn:拉特里尔;zh-tw:拉崔爾"
+    },
+    {
+      "original": "LeBron",
+      "conv": "zh-cn:勒布朗;zh-tw:雷霸龍;zh-hk:勒邦"
+    },
+    {
+      "original": "Lenny",
+      "conv": "zh-cn:兰尼;zh-tw:藍尼;zh-hk:蘭尼"
+    },
+    {
+      "original": "Leonard",
+      "conv": "zh:倫納德;zh-cn:伦纳德;zh-hk:李安納;zh-mo:李奧拿德;zh-tw:雷納德;zh-sg:伦纳德;"
+    },
+    {
+      "original": "Leonardo",
+      "conv": "zh-cn:莱昂纳多;zh-tw:李奧納多;zh-hk:李安納度"
+    },
+    {
+      "original": "Leuer",
+      "conv": "zh-cn:洛伊尔;zh-tw:魯爾;zh-hk:利奧亞"
+    },
+    {
+      "original": "Lewis",
+      "conv": "zh-cn:刘易斯;zh-tw:路易斯;zh-hk:劉易斯"
+    },
+    {
+      "original": "Livingston",
+      "conv": "zh-cn:利文斯顿;zh-tw:李文斯頓;zh-hk:利雲斯頓"
+    },
+    {
+      "original": "Lillard",
+      "conv": "zh-cn:利拉德;zh-tw:里拉德;zh-hk:利拿特"
+    },
+    {
+      "original": "Lofton",
+      "conv": "zh-cn:洛夫顿;zh-tw:洛夫頓;zh-hk:"
+    },
+    {
+      "original": "Longley",
+      "conv": "zh-cn:朗利;zh-tw:隆利;zh-hk:朗尼"
+    },
+    {
+      "original": "Love",
+      "conv": "zh-cn:乐福;zh-tw:洛夫;zh-hk:拿夫"
+    },
+    {
+      "original": "Lowry",
+      "conv": "zh-cn:洛里;zh-tw:洛瑞;zh-hk:羅利"
+    },
+    {
+      "original": "Luc, Luke",
+      "conv": "zh-cn:卢克;zh-tw:盧克;zh-hk:路克"
+    },
+    {
+      "original": "Lue",
+      "conv": "zh-cn:·鲁;zh-tw:·魯;zh-hk:·路爾"
+    },
+    {
+      "original": "Lopez",
+      "conv": "zh-cn:洛佩斯;zh-tw:羅培茲;zh-hk:盧比斯"
+    },
+    {
+      "original": "Magic Johnson",
+      "conv": "zh-cn:魔术师约翰逊;zh-tw:魔術強森;zh-hk:魔術手莊遜"
+    },
+    {
+      "original": "Manu",
+      "conv": "zh-cn:马努;zh-tw:馬努;zh-hk:文奴"
+    },
+    {
+      "original": "Marcus",
+      "conv": "zh-cn:马库斯;zh-tw:馬庫斯;zh-hk:馬吉斯"
+    },
+    {
+      "original": "Mario",
+      "conv": "zh-cn:马里奧;zh-tw:馬利歐;zh-hk:馬利奧"
+    },
+    {
+      "original": "Marion",
+      "conv": "zh-cn:马里昂;zh-tw:馬里安;zh-hk:馬利安"
+    },
+    {
+      "original": "Marjanović",
+      "conv": "zh-cn:马扬诺维奇;zh-tw:馬揚諾維奇;zh-hk:馬積奴域"
+    },
+    {
+      "original": "Markelle",
+      "conv": "zh-cn:马克尔;zh-tw:馬凱爾;zh-hk:馬基爾"
+    },
+    {
+      "original": "Markkanen",
+      "conv": "zh-cn:马尔卡宁;zh-tw:馬爾卡寧;zh-hk:馬簡倫"
+    },
+    {
+      "original": "Martin",
+      "conv": "zh-cn:马丁;zh-tw:馬丁;zh-hk:馬田"
+    },
+    {
+      "original": "Mashburn",
+      "conv": "zh-cn:马什本;zh-tw:馬許本;zh-hk:馬殊班"
+    },
+    {
+      "original": "Mason",
+      "conv": "zh-cn:梅森;zh-tw:梅森;zh-hk:馬臣"
+    },
+    {
+      "original": "Maxwell",
+      "conv": "zh-cn:马克斯韦尔;zh-tw:麥斯威爾;zh-hk:麥斯韋"
+    },
+    {
+      "original": "Mayo",
+      "conv": "zh-cn:梅奥;zh-tw:梅歐;zh-hk:梅奧"
+    },
+    {
+      "original": "McCollum",
+      "conv": "zh-cn:麦科勒姆;zh-tw:麥凱倫;zh-hk:麥高林"
+    },
+    {
+      "original": "McDyess",
+      "conv": "zh-cn:麦克代斯;zh-tw:麥克戴斯;zh-hk:麥戴斯"
+    },
+    {
+      "original": "McGrady",
+      "conv": "zh-cn:麦克格雷迪;zh-tw:麥葛瑞迪;zh-hk:麥基迪"
+    },
+    {
+      "original": "McHale",
+      "conv": "zh-cn:麦克海尔;zh-tw:麥克海爾;zh-hk:麥希爾"
+    },
+    {
+      "original": "McLemore",
+      "conv": "zh-hans:麦克莱默; zh-hk:麥利摩爾; zh-tw:麥克藍莫"
+    },
+    {
+      "original": "Meeks",
+      "conv": "zh-cn:米克斯"
+    },
+    {
+      "original": "Michael",
+      "conv": "zh-cn:迈克尔;zh-tw:麥可;zh-hk:米高"
+    },
+    {
+      "original": "Middleton",
+      "conv": "zh-cn:米德尔顿;zh-tw:米道頓;zh-hk:米度頓"
+    },
+    {
+      "original": "Mihm",
+      "conv": "zh-cn:米姆;zh-tw:米姆;zh-hk:米恩"
+    },
+    {
+      "original": "Mikan",
+      "conv": "zh-cn:迈肯;zh-tw:麥肯;zh-hk:麥肯"
+    },
+    {
+      "original": "Mike",
+      "conv": "zh-cn:迈克;zh-tw:麥克;zh-hk:米克"
+    },
+    {
+      "original": "Miller",
+      "conv": "zh-cn:米勒;zh-tw:米勒;zh-hk:米拿"
+    },
+    {
+      "original": "Millsap",
+      "conv": "zh-cn:米尔萨普;zh-tw:米爾塞普;zh-hk:米薩"
+    },
+    {
+      "original": "Mitch",
+      "conv": "zh-cn:米奇;zh-tw:米契;zh-hk:米治"
+    },
+    {
+      "original": "Mitchell",
+      "conv": "zh-cn:米切尔;zh-tw:米契爾;zh-hk:米曹"
+    },
+    {
+      "original": "Mobley",
+      "conv": "zh-cn:莫布里;zh-tw:莫布里;zh-hk:莫比利"
+    },
+    {
+      "original": "Monroe",
+      "conv": "zh-cn:门罗;zh-tw:孟洛;zh-hk:蒙路"
+    },
+    {
+      "original": "Moses",
+      "conv": "zh-cn:摩西;zh-tw:摩斯;zh-hk:摩西斯"
+    },
+    {
+      "original": "Motiejunas",
+      "conv": "zh-cn:莫泰尤纳斯;zh-tw:莫提尤納斯;zh-hk:蒙迪祖拿斯"
+    },
+    {
+      "original": "Mudiay",
+      "conv": "zh-cn:穆迪埃;zh-tw:穆迪耶;zh-hk:梅迪亞"
+    },
+    {
+      "original": "Mullin",
+      "conv": "zh-cn:穆林;zh-tw:穆林;zh-hk:穆連"
+    },
+    {
+      "original": "Muresan",
+      "conv": "zh-cn:穆雷桑;zh-tw:穆瑞森"
+    },
+    {
+      "original": "Murray",
+      "conv": "zh-cn:穆雷;zh-tw:莫瑞;zh-hk:梅利"
+    },
+    {
+      "original": "Mutombo",
+      "conv": "zh-cn:穆托姆博;zh-tw:穆湯波;zh-hk:莫湯保"
+    },
+    {
+      "original": "Naismith",
+      "conv": "zh-cn:奈史密斯;zh-tw:奈史密斯;zh-hk:納史密夫"
+    },
+    {
+      "original": "Nash",
+      "conv": "zh-cn:纳什;zh-tw:奈許;zh-hk:拿殊"
+    },
+    {
+      "original": "Nate",
+      "conv": "zh-cn:內特;zh-tw:奈特;zh-hk:拿特"
+    },
+    {
+      "original": "Nathaniel",
+      "conv": "zh-cn:纳撒尼尔;zh-tw:內森尼爾;zh-hk:尼森尼爾"
+    },
+    {
+      "original": "Nenê",
+      "conv": "zh-cn:内内;zh-tw:努內;zh-hk:尼利"
+    },
+    {
+      "original": "Nelson",
+      "conv": "zh-cn:尼尔森;zh-tw:尼爾森;zh-hk:尼爾遜·"
+    },
+    {
+      "original": "Nick",
+      "conv": "zh-cn:尼克·;zh-tw:尼克·;zh-hk:歷克·"
+    },
+    {
+      "original": "Nissalke",
+      "conv": "zh-cn:尼萨尔科;zh-tw:尼薩科;zh-hk:"
+    },
+    {
+      "original": "Noah",
+      "conv": "zh-cn:诺阿;zh-tw:諾亞;zh-hk:路亞"
+    },
+    {
+      "original": "Nowitzki",
+      "conv": "zh-cn:诺维茨基;zh-tw:諾威斯基;zh-hk:魯域斯基"
+    },
+    {
+      "original": "Nowitzki",
+      "conv": "諾維茨基=>zh-cn:诺维茨基;諾維茨基=>zh-tw:諾威斯基;諾維茨基=>zh-hk:魯域斯基;諾維茨基=>zh-mo:魯域斯基;"
+    },
+    {
+      "original": "Ntilikina",
+      "conv": "zh-cn:尼利基纳;zh-tw:尼利基納;zh-hk:迪利基拿"
+    },
+    {
+      "original": "Nurkić",
+      "conv": "zh-cn:努尔基奇;zh-tw:諾基奇;zh-hk:紐基"
+    },
+    {
+      "original": "O'Brien",
+      "conv": "zh-cn:奥布莱恩;zh-tw:歐布萊恩;zh-hk:奧拜恩"
+    },
+    {
+      "original": "Oden",
+      "conv": "zh-cn:奥登;zh-tw:歐登;zh-hk:奧頓"
+    },
+    {
+      "original": "Odom",
+      "conv": "zh-cn:奥多姆;zh-tw:歐登;zh-hk:奧當"
+    },
+    {
+      "original": "Okafor",
+      "conv": "zh-cn:奥卡福;zh-tw:歐卡佛;zh-hk:奧卡科"
+    },
+    {
+      "original": "Okur",
+      "conv": "zh-cn:奥库;zh-tw:歐庫;zh-hk:奧古"
+    },
+    {
+      "original": "Oladipo",
+      "conv": "zh-cn:奥拉迪波;zh-tw:歐拉迪波;zh-hk:奧拉迪普"
+    },
+    {
+      "original": "Olajuwon",
+      "conv": "zh-cn:奥拉朱旺;zh-tw:歐拉朱萬;zh-hk:奧拉祖雲"
+    },
+    {
+      "original": "Olowokandi",
+      "conv": "zh-cn:奥洛沃坎迪;zh-tw:歐羅伍坎迪;zh-hk:奧路禾根迪"
+    },
+    {
+      "original": "O'Neal",
+      "conv": "zh-cn:奥尼尔;zh-tw:歐尼爾;zh-hk:奧尼爾"
+    },
+    {
+      "original": "O'Quinn",
+      "conv": "zh-cn:奥奎因;zh-tw:歐奎恩;zh-hk:奧昆恩"
+    },
+    {
+      "original": "Pachulia",
+      "conv": "zh-cn:帕楚里亚;zh-tw:帕楚利亞;zh-hk:柏卓拉"
+    },
+    {
+      "original": "Parish",
+      "conv": "zh-cn:帕里什;zh-tw:派瑞許;zh-hk:巴里殊"
+    },
+    {
+      "original": "Parker",
+      "conv": "zh-cn:帕克;zh-tw:帕克;zh-hk:柏加"
+    },
+    {
+      "original": "Parsons",
+      "conv": "zh-cn:帕森斯;zh-tw:帕森斯;zh-hk:柏臣斯"
+    },
+    {
+      "original": "Patrick",
+      "conv": "zh-cn:帕特里克;zh-tw:派屈克;zh-hk:柏德烈"
+    },
+    {
+      "original": "Patterson",
+      "conv": "zh-cn:帕特森;zh-tw:帕特森;zh-hk:柏德遜"
+    },
+    {
+      "original": "Payton",
+      "conv": "zh-cn:佩顿;zh-tw:裴頓;zh-hk:披頓"
+    },
+    {
+      "original": "Petitt",
+      "conv": "zh-cn:佩蒂特;zh-tw:派提特;zh-hk:柏堤"
+    },
+    {
+      "original": "Phil",
+      "conv": "zh-cn:菲尔;zh-tw:菲爾;zh-hk:菲爾"
+    },
+    {
+      "original": "Philip",
+      "conv": "zh-cn:菲利普;zh-tw:菲利普;zh-hk:菲臘"
+    },
+    {
+      "original": "Pierce",
+      "conv": "zh-cn:皮尔斯;zh-tw:皮爾斯;zh-hk:皮雅斯"
+    },
+    {
+      "original": "Pippen",
+      "conv": "zh-cn:皮蓬;zh-tw:皮朋;zh-hk:柏賓"
+    },
+    {
+      "original": "Plumlee",
+      "conv": "zh-cn:普拉姆利;zh-tw:普拉里;zh-hk:普林利"
+    },
+    {
+      "original": "Polynice",
+      "conv": "zh-cn:波里尼斯;zh-tw:波里尼斯;zh-hk:普利萊斯"
+    },
+    {
+      "original": "Popovich",
+      "conv": "zh-cn:波波维奇; zh-tw:波波維奇; zh-hk:普波域治"
+    },
+    {
+      "original": "Portis",
+      "conv": "zh-cn:波蒂斯;zh-tw:波提斯;zh-hk:波迪斯"
+    },
+    {
+      "original": "Porzingis",
+      "conv": "zh:波爾津吉斯; zh-cn:波尔津吉斯;zh-tw:波爾辛吉斯;zh-hk:普辛基斯"
+    },
+    {
+      "original": "Posey",
+      "conv": "zh-cn:波西;zh-tw:波西;zh-hk:普斯"
+    },
+    {
+      "original": "Powell",
+      "conv": "zh-cn:鲍威尔;zh-tw:鮑威爾;zh-hk:保維"
+    },
+    {
+      "original": "Quentin",
+      "conv": "zh-cn:昆廷;zh-tw:昆汀;zh-hk:昆頓"
+    },
+    {
+      "original": "Radmanovic",
+      "conv": "zh-cn:拉德马诺维奇;zh-tw:雷曼諾維奇;zh-hk:韋文奴域"
+    },
+    {
+      "original": "Rahim",
+      "conv": "zh-cn:拉希姆;zh-tw:拉辛;zh-hk:華謙"
+    },
+    {
+      "original": "Ralph",
+      "conv": "zh-cn:拉尔夫;zh-tw:雷夫;zh-hk:拉夫"
+    },
+    {
+      "original": "Ramsay",
+      "conv": "zh-cn:拉姆齐;zh-tw:朗塞;zh-hk:藍斯"
+    },
+    {
+      "original": "Randle",
+      "conv": "zh-cn:兰德尔;zh-tw:蘭德爾;zh-hk:蘭度"
+    },
+    {
+      "original": "Randolph",
+      "conv": "zh-cn:兰多夫;zh-tw:藍道夫;zh-hk:蘭度夫"
+    },
+    {
+      "original": "Rashard",
+      "conv": "zh-cn:拉沙德;zh-tw:拉沙德;zh-hk:拉桑德"
+    },
+    {
+      "original": "Rasheed",
+      "conv": "zh-cn:拉希德;zh-tw:拉席德;zh-hk:拉舒"
+    },
+    {
+      "original": "Ratliff",
+      "conv": "zh-cn:拉特里夫;zh-tw:瑞特里夫;zh-hk:拉里夫"
+    },
+    {
+      "original": "Raymone",
+      "conv": "zh-cn:雷蒙;zh-tw:雷蒙;zh-hk:利蒙"
+    },
+    {
+      "original": "Red,Redd,Reed",
+      "conv": "zh-cn:里德;zh-tw:瑞德;zh-hk:列特"
+    },
+    {
+      "original": "Redick",
+      "conv": "zh-cn:雷迪克;zh-tw:瑞迪克;zh-hk:列迪克"
+    },
+    {
+      "original": "Reggie",
+      "conv": "zh-cn:雷吉;zh-tw:雷吉;zh-hk:列治"
+    },
+    {
+      "original": "Richard",
+      "conv": "zh-cn:理查德;zh-tw:理察;zh-hk:李察"
+    },
+    {
+      "original": "Richardson",
+      "conv": "zh-cn:理查德森;zh-tw:理察森;zh-hk:李察臣"
+    },
+    {
+      "original": "Richmond",
+      "conv": "zh-cn:里奇蒙德;zh-tw:里奇蒙;zh-hk:列治文"
+    },
+    {
+      "original": "Ricardo",
+      "conv": "zh-cn:里卡多;zh-tw:瑞卡多; zh-hk:列卡度"
+    },
+    {
+      "original": "Rick",
+      "conv": "zh-cn:里克;zh-tw:瑞克;zh-hk:歷克"
+    },
+    {
+      "original": "Ricky",
+      "conv": "zh-hans:里基;zh-hant:里奇;zh-tw:瑞奇;zh-hk:歷奇;zh-mo:歷奇"
+    },
+    {
+      "original": "Rivers",
+      "conv": "zh-cn:里弗斯;zh-tw:瑞佛斯;zh-hk:李華士"
+    },
+    {
+      "original": "Robert",
+      "conv": "zh-cn:罗伯特;zh-tw:羅伯特;zh-hk:羅拔"
+    },
+    {
+      "original": "Robertson, Roberson",
+      "conv": "zh-cn:罗伯逊;zh-tw:羅伯森;zh-hk:羅拔臣"
+    },
+    {
+      "original": "Robinson",
+      "conv": "zh-cn:罗宾逊;zh-tw:羅賓森;zh-hk:羅賓遜"
+    },
+    {
+      "original": "Rodney",
+      "conv": "zh-cn:罗德尼;zh-tw:羅德尼;zh-hk:路尼"
+    },
+    {
+      "original": "Rodman",
+      "conv": "zh-cn:罗德曼;zh-tw:羅德曼;zh-hk:洛文"
+    },
+    {
+      "original": "Ron",
+      "conv": "zh-cn:罗恩·;zh-tw:朗·;zh-hk:朗·"
+    },
+    {
+      "original": "Rondo",
+      "conv": "zh-cn:朗多;zh-tw:朗多;zh-hk:朗度"
+    },
+    {
+      "original": "Rubio",
+      "conv": "zh-hans:鲁维奥;zh-hant:魯比奧;zh-tw:魯比歐;zh-hk:盧比奧;zh-mo:盧比奧"
+    },
+    {
+      "original": "Russell",
+      "conv": "zh-cn:拉塞尔;zh-tw:羅素;zh-hk:羅素"
+    },
+    {
+      "original": "Ryan",
+      "conv": "zh-cn:里安;zh-tw:萊恩;zh-hk:賴恩"
+    },
+    {
+      "original": "Sabonis",
+      "conv": "zh-cn:萨博尼斯;zh-tw:沙波尼斯;zh-hk:沙邦尼斯"
+    },
+    {
+      "original": "Sam",
+      "conv": "zh-cn:萨姆;zh-tw:山姆"
+    },
+    {
+      "original": "Sam",
+      "conv": "萨姆=>zh-cn:萨姆;萨姆=>zh-tw:山姆;萨姆=>zh-hk:森;萨姆=>zh-mo:森;"
+    },
+    {
+      "original": "Sam",
+      "conv": "山姆=>zh-cn:萨姆;山姆=>zh-tw:山姆;山姆=>zh-hk:森;山姆=>zh-mo:森;"
+    },
+    {
+      "original": "Sampson, Simpson",
+      "conv": "zh-cn:桑普森;zh-tw:辛普森;zh-hk:森遜"
+    },
+    {
+      "original": "Samuel",
+      "conv": "zh-cn:萨缪尔;zh-tw:山繆;zh-hk:森姆"
+    },
+    {
+      "original": "Saric",
+      "conv": "zh-cn:萨里奇;zh-tw:薩利奇;zh-hk:沙歷"
+    },
+    {
+      "original": "Schrempf",
+      "conv": "zh-cn:施伦普夫; zh-tw:史倫夫"
+    },
+    {
+      "original": "Scot, Scott",
+      "conv": "zh-cn:斯科特;zh-tw:史考特;zh-hk:史葛"
+    },
+    {
+      "original": "Scottie",
+      "conv": "zh-cn:斯科蒂;zh-tw:史考提;zh-hk:史葛迪"
+    },
+    {
+      "original": "Sefolosha",
+      "conv": "zh-cn:塞弗罗萨;zh-tw:塞福洛沙;zh-hk:史科路沙"
+    },
+    {
+      "original": "Seth",
+      "conv": "zh-cn:塞思;zh-tw:薩夫;zh-hk:施夫"
+    },
+    {
+      "original": "Shaquille",
+      "conv": "zh-cn:沙奎尔;zh-hk:沙基"
+    },
+    {
+      "original": "Shaquille",
+      "conv": "沙奎尔=>zh-cn:沙奎尔;沙奎尔=>zh-tw:俠客;沙奎尔=>zh-hk:沙基;沙奎尔=>zh-mo:沙基;"
+    },
+    {
+      "original": "Shaquille",
+      "conv": "沙奎爾=>zh-cn:沙奎尔;沙奎爾=>zh-tw:俠客;沙奎爾=>zh-hk:沙基;沙奎爾=>zh-mo:沙基;"
+    },
+    {
+      "original": "Shaquille",
+      "conv": "俠客·歐尼爾=>zh-cn:沙奎尔·奥尼尔;俠客·歐尼爾=>zh-tw:俠客·歐尼爾;俠客·歐尼爾=>zh-hk:沙基·奧尼爾;俠客·歐尼爾=>zh-mo:沙基·奧尼爾;"
+    },
+    {
+      "original": "Sharman",
+      "conv": "zh-cn:沙尔曼;zh-tw:夏曼;zh-hk:沙曼"
+    },
+    {
+      "original": "Shaun",
+      "conv": "zh-cn:肖恩;zh-tw:尚恩;zh-hk:沙恩"
+    },
+    {
+      "original": "Shumpert",
+      "conv": "zh-cn:香珀特;zh-tw:尚波特;zh-hk:森柏特"
+    },
+    {
+      "original": "Siakam",
+      "conv": "zh-cn:西亚卡姆;zh-tw:席亞康;zh-hk:施亞甘"
+    },
+    {
+      "original": "Sidney",
+      "conv": "zh-cn:·悉尼;zh-tw:·雪梨;zh-hk:·薛尼"
+    },
+    {
+      "original": "Simmons",
+      "conv": "zh-cn:西蒙斯;zh-tw:西蒙斯;zh-hk:施蒙斯"
+    },
+    {
+      "original": "Skiles",
+      "conv": "zh-cn:史凯尔斯;zh-tw:史凱爾斯;zh-hk:斯基爾斯"
+    },
+    {
+      "original": "Sloan",
+      "conv": "zh-cn:斯隆;zh-tw:史隆;zh-hk:史隆"
+    },
+    {
+      "original": "Smith",
+      "conv": "zh-cn:史密斯;zh-tw:史密斯;zh-hk:史密夫"
+    },
+    {
+      "original": "Spencer",
+      "conv": "zh-cn:斯宾瑟;zh-tw:史賓瑟;zh-hk:史賓沙"
+    },
+    {
+      "original": "Spoelstra",
+      "conv": "zh-cn:斯波尔斯特拉;zh-tw:史波斯查;zh-hk:史波斯查"
+    },
+    {
+      "original": "Sprewell",
+      "conv": "zh-cn:斯普雷威尔;zh-tw:史普利威爾;zh-hk:史比威爾"
+    },
+    {
+      "original": "Sprewell",
+      "conv": "斯普雷维尔=>zh-cn:斯普雷威尔;斯普雷维尔=>zh-tw:史普利威爾;斯普雷维尔=>zh-hk:史比威爾;斯普雷维尔=>zh-mo:史比威爾;"
+    },
+    {
+      "original": "Stackhouse",
+      "conv": "zh-cn:斯塔克豪斯;zh-tw:史塔克豪斯;zh-hk:史達侯斯"
+    },
+    {
+      "original": "Stan",
+      "conv": "zh-cn:斯坦;zh-tw:史丹;zh-hk:史丹"
+    },
+    {
+      "original": "Stauskas",
+      "conv": "zh-cn:斯陶斯卡斯;zh-tw:史陶斯卡斯"
+    },
+    {
+      "original": "Stephen, Stephon, Steven",
+      "conv": "zh-hans:史蒂文; zh-cn:斯蒂芬;zh-tw:史蒂芬;zh-hk:史提芬"
+    },
+    {
+      "original": "Stern",
+      "conv": "zh-cn:斯特恩;zh-tw:史騰;zh-hk:史端"
+    },
+    {
+      "original": "Steve",
+      "conv": "zh-cn:史蒂夫;zh-tw:史蒂夫;zh-hk:史提夫"
+    },
+    {
+      "original": "Steve",
+      "conv": "斯蒂夫=>zh-cn:史蒂夫;斯蒂夫=>zh-tw:史蒂夫;斯蒂夫=>zh-hk:史提夫;斯蒂夫=>zh-mo:史提夫;"
+    },
+    {
+      "original": "Stockton",
+      "conv": "zh-cn:斯托克顿;zh-tw:史塔克頓;zh-hk:史托頓"
+    },
+    {
+      "original": "Stojakovic",
+      "conv": "zh-cn:斯托亚科维奇;zh-tw:史托亞柯維奇;zh-hk:史杜積高域"
+    },
+    {
+      "original": "Stoudamire, Stoudemire",
+      "conv": "zh-cn:斯塔德迈尔;zh-tw:史陶德邁爾;zh-hk:史杜達米亞"
+    },
+    {
+      "original": "Szczerbiak",
+      "conv": "zh-cn:斯泽比亚克;zh-tw:瑟比亞克;zh-hk:舒碧克"
+    },
+    {
+      "original": "Teague",
+      "conv": "zh-cn:蒂格;zh-tw:提格;zh-hk:迪治"
+    },
+    {
+      "original": "Telfair",
+      "conv": "zh-cn:特尔费尔;zh-tw:泰菲爾;zh-hk:泰菲爾"
+    },
+    {
+      "original": "Terry",
+      "conv": "zh-cn:特里;zh-tw:泰瑞;zh-hk:泰利"
+    },
+    {
+      "original": "Thabeet",
+      "conv": "zh-cn:塔比特;zh-tw:塔壁;zh-hk:泰比特"
+    },
+    {
+      "original": "Thabo",
+      "conv": "zh-cn:萨博;zh-tw:塔博;zh-hk:塔博"
+    },
+    {
+      "original": "Thibodeau",
+      "conv": "zh-cn:希伯杜;zh-tw:錫伯杜;zh-hk:泰保度"
+    },
+    {
+      "original": "Thomas",
+      "conv": "zh-cn:托马斯;zh-tw:湯瑪斯;zh-hk:湯馬士"
+    },
+    {
+      "original": "Thompson",
+      "conv": "zh-cn:汤普森;zh-tw:湯普森;zh-hk:湯臣"
+    },
+    {
+      "original": "Tim",
+      "conv": "zh-cn:蒂姆·;zh-tw:提姆·;zh-hk:添·"
+    },
+    {
+      "original": "Tomjanovich",
+      "conv": "zh-cn:汤姆贾诺维奇;zh-tw:湯加諾維奇;zh-hk:湯贊奴域"
+    },
+    {
+      "original": "Tony",
+      "conv": "zh-cn:托尼;zh-tw:東尼;zh-hk:東尼"
+    },
+    {
+      "original": "Tracy",
+      "conv": "zh-cn:特雷西;zh-tw:崔西;zh-hk:卓斯"
+    },
+    {
+      "original": "Trae, Trey",
+      "conv": "zh-cn:特雷;zh-tw:崔;zh-hk:卓"
+    },
+    {
+      "original": "Trevon",
+      "conv": "zh-cn:特雷文;zh-tw:崔文;zh-hk:卓文"
+    },
+    {
+      "original": "Trevor",
+      "conv": "zh-cn:特雷沃;zh-tw:崔佛;zh-hk:卓沃"
+    },
+    {
+      "original": "Tristan",
+      "conv": "zh-cn:特里斯坦;zh-tw:崔斯坦;zh-hk:卓斯坦"
+    },
+    {
+      "original": "Turkoglu",
+      "conv": "zh-cn:特科格鲁;zh-tw:特克魯;zh-hk:圖告魯"
+    },
+    {
+      "original": "Turner",
+      "conv": "zh-cn:特纳;zh-tw:透納;zh-hk:端拿"
+    },
+    {
+      "original": "Tyrone, Tyronn",
+      "conv": "zh-cn:泰伦;zh-tw:泰隆;zh-hk:泰隆"
+    },
+    {
+      "original": "Ulis",
+      "conv": "zh-cn:尤利斯;zh-tw:烏利斯;zh-hk:"
+    },
+    {
+      "original": "Unseld",
+      "conv": "zh-cn:昂塞尔德;zh-tw:安索;zh-hk:安素"
+    },
+    {
+      "original": "Valančiūnas",
+      "conv": "zh-cn:瓦兰丘纳斯;zh-tw:瓦蘭丘納斯;zh-hk:華連斯休拿斯"
+    },
+    {
+      "original": "Van Exel",
+      "conv": "zh-cn:范埃克赛尔;zh-tw:范艾克索;zh-hk:雲艾素"
+    },
+    {
+      "original": "Van Gundy",
+      "conv": "zh-cn:范甘迪;zh-tw:范甘迪;zh-hk:雲根迪"
+    },
+    {
+      "original": "Van Gundy",
+      "conv": "zh-cn:·范甘迪;zh-tw:·范甘迪;zh-hk:·雲根迪"
+    },
+    {
+      "original": "Van Horn",
+      "conv": "zh-cn:范霍恩;zh-tw:范洪;zh-hk:雲漢"
+    },
+    {
+      "original": "Varejão",
+      "conv": "zh-cn:瓦莱乔;zh-tw:瓦雷讓;zh-hk:華利祖"
+    },
+    {
+      "original": "VanVleet",
+      "conv": "zh-cn:范弗利特;zh-tw:范弗利特;zh-hk:雲維利特"
+    },
+    {
+      "original": "Vincent",
+      "conv": "zh-cn:文森特;zh-tw:文森特;zh-hk:雲遜"
+    },
+    {
+      "original": "Vogel",
+      "conv": "zh-cn:沃格尔;zh-tw:沃格爾;zh-hk:雲高"
+    },
+    {
+      "original": "Vujacic",
+      "conv": "zh-cn:武贾西奇;zh-tw:烏賈基茨;zh-hk:華查錫"
+    },
+    {
+      "original": "Wade",
+      "conv": "zh-cn:韦德;zh-tw:韋德;zh-hk:韋迪"
+    },
+    {
+      "original": "Walker",
+      "conv": "zh-cn:沃克;zh-tw:沃克;zh-hk:獲加"
+    },
+    {
+      "original": "Wallace",
+      "conv": "zh-cn:华莱士;zh-tw:華勒斯;zh-hk:華萊士"
+    },
+    {
+      "original": "Walter",
+      "conv": "zh-cn:沃尔特;zh-tw:華特;zh-hk:禾特"
+    },
+    {
+      "original": "Walton",
+      "conv": "zh-hans:沃顿;zh-hk:禾頓;zh-tw:華頓;"
+    },
+    {
+      "original": "Wes",
+      "conv": "zh-cn:韦斯;zh-tw:衛斯;zh-hk:韋斯"
+    },
+    {
+      "original": "Wesson",
+      "conv": "zh-cn:韦森;zh-tw:衛森;zh-hk:韋臣"
+    },
+    {
+      "original": "West",
+      "conv": "zh-cn:韦斯特;zh-tw:衛斯特;zh-hk:韋斯"
+    },
+    {
+      "original": "Westbrook",
+      "conv": "zh-hans:威斯布鲁克;zh-hk:韋斯布祿;zh-tw:衛斯特布魯克;"
+    },
+    {
+      "original": "Whiteside",
+      "conv": "zh-cn:怀特塞德;zh-tw:懷塞德;zh-hk:韋西迪"
+    },
+    {
+      "original": "Williams",
+      "conv": "zh-cn:威廉姆斯;zh-tw:威廉斯;zh-hk:威廉士"
+    },
+    {
+      "original": "Williamson",
+      "conv": "zh-cn:威廉姆森;zh-tw:威廉森;zh-hk:威廉臣"
+    },
+    {
+      "original": "Will",
+      "conv": "威尔=>zh-cn:威尔;威尔=>zh-tw:威爾;威尔=>zh-hk:韋;威尔=>zh-mo:韋;"
+    },
+    {
+      "original": "Will",
+      "conv": "威爾=>zh-cn:威尔;威爾=>zh-tw:威爾;威爾=>zh-hk:韋;威爾=>zh-mo:韋;"
+    },
+    {
+      "original": "Willis",
+      "conv": "zh-cn:威利斯;zh-tw:威利斯;zh-hk:韋利斯"
+    },
+    {
+      "original": "Wilkens",
+      "conv": "zh-cn:威尔肯斯;zh-tw:威肯斯;zh-hk:韋健士"
+    },
+    {
+      "original": "Wilkins",
+      "conv": "zh-cn:威尔金斯;zh-tw:威金斯;zh-hk:韋健士"
+    },
+    {
+      "original": "Wiggins",
+      "conv": "zh-cn:威金斯;zh-tw:威金斯;zh-hk:域堅斯"
+    },
+    {
+      "original": "Wilson",
+      "conv": "zh-cn:威尔逊;zh-tw:威爾森;zh-hk:韋遜"
+    },
+    {
+      "original": "Worthy",
+      "conv": "zh-cn:沃西;zh-tw:沃錫;zh-hk:禾菲"
+    },
+    {
+      "original": "Wright",
+      "conv": "zh-cn:赖特;zh-tw:萊特;zh-hk:韋特"
+    },
+    {
+      "original": "Zach, Zack",
+      "conv": "zh-cn:扎克;zh-tw:查克;zh-hk:錫克"
+    },
+    {
+      "original": "Zizic",
+      "conv": "zh-cn:日日奇;zh-tw:希基奇;zh-hk:薛錫"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "zh-cn:东部;zh-tw:東區;zh-hk:東岸"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "zh-cn:西部;zh-tw:西區;zh-hk:西岸"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "东部联盟=>zh-hk:東岸"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "西部联盟=>zh-hk:西岸"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "東區聯盟=>zh-hk:東岸"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "西區聯盟=>zh-hk:西岸"
+    },
+    {
+      "original": "Atlantic Division",
+      "conv": "zh-cn:大西洋赛区;zh-tw:大西洋組;zh-hk:大西洋組"
+    },
+    {
+      "original": "Southeast Division",
+      "conv": "zh-cn:东南赛区;zh-tw:東南組;zh-hk:東南組"
+    },
+    {
+      "original": "Central Division",
+      "conv": "zh-cn:中部赛区;zh-tw:中央組;zh-hk:中央組"
+    },
+    {
+      "original": "Southwest Division",
+      "conv": "zh-cn:西南赛区;zh-tw:西南組;zh-hk:西南組"
+    },
+    {
+      "original": "Pacific Division",
+      "conv": "zh-cn:太平洋赛区;zh-tw:太平洋組;zh-hk:太平洋組"
+    },
+    {
+      "original": "Northwest Division",
+      "conv": "zh-cn:西北赛区;zh-tw:西北組;zh-hk:西北組"
+    },
+    {
+      "original": "Midwest Division",
+      "conv": "zh-cn:中西赛区;zh-tw:中西組;zh-hk:中西組"
+    },
+    {
+      "original": "Division",
+      "conv": "zh-cn:赛区;zh-tw:分組;zh-hk:組別"
+    },
+    {
+      "original": "Eastern Conference Semifinals",
+      "conv": "zh-cn:东部半决赛;zh-tw:東區準決賽;zh-hk:東岸準決賽"
+    },
+    {
+      "original": "Western Conference Semifinals",
+      "conv": "zh-cn:西部半决赛;zh-tw:西區準決賽;zh-hk:西岸準決賽"
+    },
+    {
+      "original": "Eastern Conference Finals",
+      "conv": "zh-cn:东部决赛;zh-tw:東區決賽;zh-hk:東岸決賽"
+    },
+    {
+      "original": "Western Conference Finals",
+      "conv": "zh-cn:西部决赛;zh-tw:西區決賽;zh-hk:西岸決賽"
+    },
+    {
+      "original": "Eastern Conference champion",
+      "conv": "zh-cn:东部冠军;zh-tw:東區冠軍;zh-hk:東岸冠軍"
+    },
+    {
+      "original": "Western Conference champion",
+      "conv": "zh-cn:西部冠军;zh-tw:西區冠軍;zh-hk:西岸冠軍"
+    },
+    {
+      "original": "Dream Team",
+      "conv": "zh-cn:梦之队;zh-tw:夢幻隊;zh-hk:夢幻隊"
+    },
+    {
+      "original": "Dream Team I (1992)",
+      "conv": "zh-cn:梦一;zh-tw:夢幻一;zh-hk:夢一"
+    },
+    {
+      "original": "Dream Team II (1994)",
+      "conv": "zh-cn:梦二;zh-tw:夢幻二;zh-hk:夢二"
+    },
+    {
+      "original": "Dream Team III (1996)",
+      "conv": "zh-cn:梦三;zh-tw:夢幻三;zh-hk:夢三"
+    },
+    {
+      "original": "The Dirty Dozen (1998)",
+      "conv": "zh-cn:梦四;zh-tw:夢幻四;zh-hk:夢四"
+    },
+    {
+      "original": "USA Men's World Championship Team (2002)",
+      "conv": "zh-cn:梦五;zh-tw:夢幻五;zh-hk:夢五"
+    },
+    {
+      "original": "Olympics U.S. Men's Basketball Team (2004)",
+      "conv": "zh-cn:梦六;zh-tw:夢幻六;zh-hk:夢六"
+    },
+    {
+      "original": "U.S. Men's Basketball Team (2006)",
+      "conv": "zh-cn:梦七;zh-tw:夢幻七;zh-hk:夢七"
+    },
+    {
+      "original": "The Redeem Team (2008)",
+      "conv": "zh-cn:梦八;zh-tw:夢幻八;zh-hk:夢八"
+    },
+    {
+      "original": "Steal",
+      "conv": "zh-cn:抢断;zh-tw:抄截;zh-hk:搶截"
+    },
+    {
+      "original": "Steal",
+      "conv": "搶斷=>zh-cn:抢断;zh-tw:抄截;zh-hk:搶截;zh-mo:搶截"
+    },
+    {
+      "original": "dunk",
+      "conv": "zh-cn:扣篮;zh-tw:灌籃;zh-hk:入樽"
+    },
+    {
+      "original": "Block",
+      "conv": "zh-cn:盖帽;zh-tw:阻攻;zh-hk:封阻"
+    },
+    {
+      "original": "Block",
+      "conv": "蓋帽=>zh-cn:盖帽;蓋帽=>zh-tw:阻攻;蓋帽=>zh-hk:封阻;蓋帽=>zh-mo:阻攻;"
+    },
+    {
+      "original": "Official",
+      "conv": "zh-cn:裁判;zh-tw:裁判;zh-hk:球證"
+    },
+    {
+      "original": "Head coach",
+      "conv": "zh-cn:主教练;zh-tw:總教練;zh-hk:主教練"
+    },
+    {
+      "original": "Salary cap",
+      "conv": "zh-cn:工资帽;zh-tw:薪資上限;zh-hk:薪酬上限"
+    },
+    {
+      "original": "Starter",
+      "conv": "zh-cn:首发;zh-tw:先發;zh-hk:正選"
+    },
+    {
+      "original": "Starter",
+      "conv": "先发=>zh-hk:正選"
+    },
+    {
+      "original": "Starter",
+      "conv": "首發=>zh-hk:正選"
+    },
+    {
+      "original": "Substitute",
+      "conv": "zh-cn:替补;zh-tw:替補;zh-hk:後備"
+    },
+    {
+      "original": "Average, per game",
+      "conv": "zh-cn:场均;zh-tw:每場平均;zh-hk:每場平均"
+    },
+    {
+      "original": "Most Improved Player",
+      "conv": "zh-cn:进步最快球员;zh-tw:最佳進步球員;zh-hk:最佳進步球員"
+    },
+    {
+      "original": "Double-double",
+      "conv": "zh-cn:两双;zh-tw:雙十;zh-hk:雙雙"
+    },
+    {
+      "original": "Triple-double",
+      "conv": "zh-cn:三双;zh-tw:大三元;zh-hk:大三元"
+    },
+    {
+      "original": "Quadruple-double",
+      "conv": "zh-cn:四双;zh-tw:大四喜"
+    },
+    {
+      "original": "Regular season",
+      "conv": "zh:例行赛; zh-cn:常规赛;zh-tw:例行賽;zh-hk:常規賽"
+    },
+    {
+      "original": "Regular season",
+      "conv": "例行赛=>zh-tw:例行賽;例行赛=>zh-hk:常規賽;"
+    },
+    {
+      "original": "Overtime, OT",
+      "conv": "zh-cn:加时;zh-tw:延長;zh-hk:加時"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:黑八奇迹;zh-tw:老八傳奇;zh-hk:黑八奇蹟"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:七场四胜制;zh-tw:七戰四勝制;zh-hk:七場四勝制"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:五场三胜制;zh-tw:五戰三勝制;zh-hk:五場三勝制"
+    },
+    {
+      "original": "Hack-a-Shaq",
+      "conv": "zh-cn:砍鲨战术;zh-tw:駭客戰術;zh-hk:駭客戰術"
+    },
+    {
+      "original": "NBA",
+      "conv": "zh-cn:国家篮球协会;zh-tw:國家籃球協會;zh-hk:國家籃球總會"
+    },
+    {
+      "original": "ABA",
+      "conv": "zh-cn:美国篮球协会;zh-tw:美國籃球協會;zh-hk:美國籃球總會"
+    },
+    {
+      "original": "Adidas",
+      "conv": "zh-cn:阿迪达斯;zh-tw:愛迪達;zh-hk:Adidas"
+    },
+    {
+      "original": "Contract",
+      "conv": "zh-cn:合同;zh-tw:合約;zh-hk:合約"
+    },
+    {
+      "original": "Katrina",
+      "conv": "zh-cn:卡特里娜;zh-tw:卡崔娜;zh-hk:卡特里娜"
+    },
+    {
+      "original": "Nickname",
+      "conv": "zh-cn:绰号;zh-tw:綽號;zh-hk:暱稱"
+    },
+    {
+      "original": "Position",
+      "conv": "司职=>zh-tw:場上位置為"
+    },
+    {
+      "original": "Position",
+      "conv": "司職=>zh-tw:場上位置為"
+    },
+    {
+      "original": "Retire",
+      "conv": "zh-cn:退役;zh-tw:退休;zh-hk:退役"
+    },
+    {
+      "original": "Ring",
+      "conv": "指環=>zh-tw:戒指;指環=>zh-hk:指環;指環=>zh-mo:指環;"
+    },
+    {
+      "original": "Salary",
+      "conv": "zh-cn:工资;zh-tw:薪資;zh-hk:薪金"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Current Roster",
+      "conv": "zh-cn:现时球员名单;zh-tw:現役球員名單;zh-hk:現役球員名單;"
+    },
+    {
+      "original": "Linsanity",
+      "conv": "zh-cn:林来疯;zh-tw:林來瘋;zh-hk:林瘋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:NBA50大巨星;zh-tw:NBA50大球星;zh-hk:NBA50大球星;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:NBA史上50大巨星;zh-tw:NBA史上50大球星;zh-hk:NBA史上50大球星;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:;zh-tw:戰績;zh-hk:賽績;"
+    },
+    {
+      "original": "England",
+      "conv": "zh-cn:英格兰;zh-tw:英格蘭;zh-hk:英格蘭;"
+    },
+    {
+      "original": "Slav(s)",
+      "conv": "zh-hans:斯拉夫;zh-hant:斯拉夫;"
+    },
+    {
+      "original": "Yugoslavia",
+      "conv": "zh-hans:南斯拉夫;zh-hant:南斯拉夫;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    }
+  ]
+}

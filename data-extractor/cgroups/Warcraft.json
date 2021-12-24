@@ -1,0 +1,743 @@
+{
+  "name": "Warcraft",
+  "description": "魔兽系列",
+  "path": "Template:CGroup/Warcraft",
+  "rules": [
+    {
+      "original": "Nightelf",
+      "conv": "zh-cn:暗夜精灵;zh-hant:夜精靈;"
+    },
+    {
+      "original": "Goblin",
+      "conv": "zh-cn:地精;zh-hant:哥布林;"
+    },
+    {
+      "original": "Scourge",
+      "conv": "zh-cn:天灾;zh-hant:天譴;"
+    },
+    {
+      "original": "Naga",
+      "conv": "zh-cn:娜迦;zh-hant:那迦;"
+    },
+    {
+      "original": "Burning Legion",
+      "conv": "zh-cn:燃烧军团;zh-hant:灼炎軍團;"
+    },
+    {
+      "original": "Nightelf Sentry",
+      "conv": "zh-cn:哨兵;zh-hant:鐵衛;"
+    },
+    {
+      "original": "Tauren",
+      "conv": "zh-cn:牛头人;zh-hant:戰牛族;"
+    },
+    {
+      "original": "Troll",
+      "conv": "zh-cn:巨魔;zh-hant:食人妖;"
+    },
+    {
+      "original": "A'dal",
+      "conv": "zh-cn:阿达尔;zh-hant:阿達歐;"
+    },
+    {
+      "original": "Aethas",
+      "conv": "zh-cn:艾萨斯;zh-hant:埃薩;"
+    },
+    {
+      "original": "Alexandros",
+      "conv": "zh-cn:亚历山德罗斯;zh-hant:亞歷山卓斯;"
+    },
+    {
+      "original": "Alextrasza",
+      "conv": "zh-cn:阿莱克斯塔萨;zh-hant:雅立史卓莎;"
+    },
+    {
+      "original": "Algalon",
+      "conv": "zh-cn:奥尔加隆;zh-hant:艾爾加隆;"
+    },
+    {
+      "original": "Alleria",
+      "conv": "zh-cn:奥蕾莉亚;zh-hant:艾蘭里亞;"
+    },
+    {
+      "original": "Anachronos",
+      "conv": "zh-cn:阿纳克洛斯;zh-hant:安納克羅斯;"
+    },
+    {
+      "original": "Anasterian",
+      "conv": "zh-cn:安纳斯特里亚;zh-hant:安納斯提安;"
+    },
+    {
+      "original": "Anduin",
+      "conv": "zh-cn:安度因;zh-hant:安杜因;"
+    },
+    {
+      "original": "Arthas",
+      "conv": "zh-cn:阿尔萨斯;zh-hant:阿薩斯;"
+    },
+    {
+      "original": "Balnazzar",
+      "conv": "zh-cn:巴纳扎尔;zh-hant:巴納札爾;"
+    },
+    {
+      "original": "Broll Bearmantle",
+      "conv": "zh-cn:布罗尔·熊皮;zh-hant:布洛·熊皮;"
+    },
+    {
+      "original": "Budd",
+      "conv": "zh-cn:巴德;zh-hant:霸德;"
+    },
+    {
+      "original": "Caelestrasz",
+      "conv": "zh-cn:凯雷斯特拉兹;zh-hant:凱雷斯塔茲;"
+    },
+    {
+      "original": "Cho'gall",
+      "conv": "zh-cn:古加尔;zh-hant:丘加利;"
+    },
+    {
+      "original": "Darion",
+      "conv": "zh-cn:达里安;zh-hant:达瑞安;"
+    },
+    {
+      "original": "Dar'Khan",
+      "conv": "zh-cn:达尔坎;zh-hant:達克汗;"
+    },
+    {
+      "original": "Doomhammer",
+      "conv": "zh-cn:毁灭之锤;zh-hant:末日鎚;"
+    },
+    {
+      "original": "Drathir",
+      "conv": "zh-cn:德拉希尔;zh-hant:崔希爾;"
+    },
+    {
+      "original": "Durotan",
+      "conv": "zh-cn:杜隆坦;zh-hant:杜洛坦;"
+    },
+    {
+      "original": "Elune",
+      "conv": "zh-cn:艾露恩;zh-hant:伊露恩;"
+    },
+    {
+      "original": "Galakrond",
+      "conv": "zh-cn:迦拉克隆;zh-hant:葛拉克朗;"
+    },
+    {
+      "original": "Garrosh",
+      "conv": "zh-cn:加尔鲁什;zh-hant:卡爾洛斯;"
+    },
+    {
+      "original": "Greymane",
+      "conv": "zh-cn:格雷迈恩;zh-hant:葛雷邁恩;"
+    },
+    {
+      "original": "Grom",
+      "conv": "zh-cn:格罗姆;zh-hant:葛羅;"
+    },
+    {
+      "original": "Grommash",
+      "conv": "zh-cn:格罗玛什;zh-hant:葛羅瑪許;"
+    },
+    {
+      "original": "Gruul",
+      "conv": "zh-cn:格鲁尔;zh-hant:戈魯爾;"
+    },
+    {
+      "original": "Halduron",
+      "conv": "zh-cn:哈杜伦;zh-hant:赫杜倫;"
+    },
+    {
+      "original": "Halduron Brightwing",
+      "conv": "zh-cn:哈杜伦·明翼;zh-hant:赫杜倫·亮翼;"
+    },
+    {
+      "original": "Halion",
+      "conv": "zh-cn:海里昂;zh-hant:海萊恩;"
+    },
+    {
+      "original": "Hellscream",
+      "conv": "zh-cn:地狱咆哮;zh-hant:地獄吼;"
+    },
+    {
+      "original": "Jaina",
+      "conv": "zh-cn:吉安娜;zh-hant:珍娜;"
+    },
+    {
+      "original": "Jarod",
+      "conv": "zh-cn:迦洛德;zh-hant:亞羅德;"
+    },
+    {
+      "original": "Jorad Mace",
+      "conv": "zh-cn:乔拉德·迈斯;zh-hant:喬洛德·麥斯;"
+    },
+    {
+      "original": "Kazzak",
+      "conv": "zh-cn:卡扎克;zh-hant:卡札克;"
+    },
+    {
+      "original": "Kel'thuzad",
+      "conv": "zh-cn:克尔苏加德;zh-hant:科爾蘇加德;"
+    },
+    {
+      "original": "Koltira",
+      "conv": "zh-cn:库尔迪拉;zh-hant:寇爾提拉;"
+    },
+    {
+      "original": "Korialstrasz",
+      "conv": "zh-cn:克莱奥斯特拉兹;zh-hant:考雷斯塔茲;"
+    },
+    {
+      "original": "Krasus",
+      "conv": "zh-cn:克拉苏斯;zh-hant:卡薩斯;"
+    },
+    {
+      "original": "Lilian Voss",
+      "conv": "zh-cn:莉莉安•沃斯;zh-hant:莉莉安•佛斯;"
+    },
+    {
+      "original": "Lor'themar",
+      "conv": "zh-cn:洛瑟玛;zh-hant:洛索瑪;"
+    },
+    {
+      "original": "Lo'Gosh",
+      "conv": "zh-cn:拉格什;zh-hant:洛戈許;"
+    },
+    {
+      "original": "Maiev",
+      "conv": "zh-cn:玛维;zh-hant:瑪翼夫;"
+    },
+    {
+      "original": "Malfurion",
+      "conv": "zh-cn:玛法里奥;zh-hant:瑪法里恩;"
+    },
+    {
+      "original": "Meryl Winterstorm",
+      "conv": "zh-cn:梅里·冬风;zh-hant:梅里爾·冬風暴;"
+    },
+    {
+      "original": "Meryl Felstorm",
+      "conv": "zh-cn:梅瑞尔·邪风;zh-hant:梅里爾·魔風;"
+    },
+    {
+      "original": "Muln Earthfury",
+      "conv": "zh-cn:穆恩·大地之怒;zh-hant:穆恩·地怒;"
+    },
+    {
+      "original": "Murmur",
+      "conv": "zh-cn:摩摩尔;zh-hant:莫爾墨;"
+    },
+    {
+      "original": "M'uru",
+      "conv": "zh-cn:穆鲁;zh-hant:莫魯;"
+    },
+    {
+      "original": "Nobundo",
+      "conv": "zh-cn:努波顿;zh-hant:諾柏多;"
+    },
+    {
+      "original": "Ner'zhul",
+      "conv": "zh-cn:耐奥祖;zh-hant:奈祖奧;"
+    },
+    {
+      "original": "N'Zoth",
+      "conv": "zh-cn:恩佐斯;zh-hant:恩若斯;"
+    },
+    {
+      "original": "Orgrim",
+      "conv": "zh-cn:奥格瑞姆;zh-hant:奧格林;"
+    },
+    {
+      "original": "Proudmoore",
+      "conv": "zh-cn:普罗德摩尔;zh-hant:普勞德摩爾;"
+    },
+    {
+      "original": "Putress",
+      "conv": "zh-cn:普特雷斯;zh-hant:普崔司;"
+    },
+    {
+      "original": "Rehgar Earthfury",
+      "conv": "zh-cn:雷加·大地之怒;zh-hant:雷加·地怒;"
+    },
+    {
+      "original": "Rhonin",
+      "conv": "zh-cn:罗宁;zh-hant:羅甯;"
+    },
+    {
+      "original": "Rokhan",
+      "conv": "zh-cn:洛坎;zh-hant:洛克漢;"
+    },
+    {
+      "original": "Shaohao",
+      "conv": "zh-cn:少昊;zh-hant:紹昊;"
+    },
+    {
+      "original": "Sindragosa",
+      "conv": "zh-cn:辛达苟萨;zh-hant:辛德拉苟莎;"
+    },
+    {
+      "original": "Sinestra",
+      "conv": "zh-cn:希奈丝特拉;zh-hant:赛丝特拉;"
+    },
+    {
+      "original": "Taran Zhu",
+      "conv": "zh-cn:祝踏岗;zh-hant:塔蘭•祝;"
+    },
+    {
+      "original": "Teron Gorefiend",
+      "conv": "zh-cn:塔隆·血魔;zh-hant:泰朗·血魔;"
+    },
+    {
+      "original": "Thassarian",
+      "conv": "zh-cn:萨萨里安;zh-hant:薩沙理安;"
+    },
+    {
+      "original": "Thrall",
+      "conv": "zh-cn:萨尔;zh-hant:索爾;"
+    },
+    {
+      "original": "Trag",
+      "conv": "zh-cn:特拉格;zh-hant:塔拉格;"
+    },
+    {
+      "original": "Tyrande",
+      "conv": "zh-cn:泰兰德;zh-hant:泰蘭妲;"
+    },
+    {
+      "original": "Tyrigosa",
+      "conv": "zh-cn:泰蕾苟萨;zh-hant:泰洛苟莎;"
+    },
+    {
+      "original": "Uther",
+      "conv": "zh-cn:乌瑟尔;zh-hant:烏瑟;"
+    },
+    {
+      "original": "Vereesa",
+      "conv": "zh-cn:温蕾萨;zh-hant:凡蕾莎;"
+    },
+    {
+      "original": "Yogg-Saron",
+      "conv": "zh-cn:尤格-萨隆;zh-hant:尤格薩倫;"
+    },
+    {
+      "original": "Mannoroth",
+      "conv": "zh-cn:玛诺洛斯;zh-hant:曼諾洛斯;"
+    },
+    {
+      "original": "Y'shaarj",
+      "conv": "zh-cn:亚煞极;zh-hant:亞煞拉懼;"
+    },
+    {
+      "original": "Vashj",
+      "conv": "zh-cn:瓦斯琪;zh-hant:瓦許;"
+    },
+    {
+      "original": "Velen",
+      "conv": "zh-cn:维纶;zh-hant:費倫;"
+    },
+    {
+      "original": "Blood Mage",
+      "conv": "zh-cn:血魔法师;zh-hant:血法師;"
+    },
+    {
+      "original": "Shadow Hunter",
+      "conv": "zh-cn:暗影猎手;zh-hant:暗影獵人;"
+    },
+    {
+      "original": "Crypt Lord",
+      "conv": "zh-cn:地穴领主;zh-hant:古墓之王;"
+    },
+    {
+      "original": "Warden",
+      "conv": "zh-cn:守望者;zh-hant:典獄長;"
+    },
+    {
+      "original": "Naga Sea Witch",
+      "conv": "zh-cn:娜迦海妖;zh-hant:納迦海巫;"
+    },
+    {
+      "original": "Pandaren Brewmaster",
+      "conv": "zh-cn:熊猫酒仙;zh-hant:熊貓釀酒師;"
+    },
+    {
+      "original": "Beastmaster",
+      "conv": "zh-cn:驯兽师;zh-hant:神獸師;"
+    },
+    {
+      "original": "Dark Ranger",
+      "conv": "zh-cn:黑暗游侠;zh-hant:黑暗游騎兵;"
+    },
+    {
+      "original": "Pit Lord",
+      "conv": "zh-cn:深渊魔王;zh-hant:深淵魔;"
+    },
+    {
+      "original": "Firelord",
+      "conv": "zh-cn:火焰领主;zh-hant:火焰魔君;"
+    },
+    {
+      "original": "Demon Hunter",
+      "conv": "zh-cn:恶魔猎手;zh-hant:狩魔獵人;"
+    },
+    {
+      "original": "Keeper of the Grove",
+      "conv": "zh-cn:丛林守护者;zh-hant:森林衛士;"
+    },
+    {
+      "original": "Priestess of the Moon",
+      "conv": "zh-cn:月之女祭司;zh-hant:月之祭司;"
+    },
+    {
+      "original": "Blademaster",
+      "conv": "zh-cn:剑圣;zh-hant:大劍師;"
+    },
+    {
+      "original": "Tauren Chieftain",
+      "conv": "zh-cn:牛头人酋长;zh-hant:戰牛酋長;"
+    },
+    {
+      "original": "Dreadlord",
+      "conv": "zh-cn:恐惧魔王;zh-hant:魔將;"
+    },
+    {
+      "original": "Mountain King",
+      "conv": "zh-cn:山丘之王;zh-hant:矮人山王;"
+    },
+    {
+      "original": "Paladin",
+      "conv": "zh-cn:圣骑士;zh-hant:聖武士;"
+    },
+    {
+      "original": "Farseer",
+      "conv": "zh-cn:先知;zh-hant:預言家;"
+    },
+    {
+      "original": "Shamans",
+      "conv": "zh-cn:萨满祭司;zh-hant:薩滿;"
+    },
+    {
+      "original": "Frostmourne",
+      "conv": "zh-cn:霜之哀伤;zh-hant:嘆霜之劍;"
+    },
+    {
+      "original": "Dalaran",
+      "conv": "zh-cn:达拉然;zh-hant:達拉朗;"
+    },
+    {
+      "original": "Ashenvale",
+      "conv": "zh-cn:灰谷;zh-hant:梣谷;"
+    },
+    {
+      "original": "Lordaeron",
+      "conv": "zh-cn:洛丹伦;zh-hant:羅達隆;"
+    },
+    {
+      "original": "Innkeeper",
+      "conv": "zh-cn:旅店;zh-hant:旅館;"
+    },
+    {
+      "original": "Town Hall",
+      "conv": "zh-cn:城镇大厅;zh-hant:城鎮大堂;"
+    },
+    {
+      "original": "Arcane Vault",
+      "conv": "zh-cn:神秘藏宝室;zh-hant:魔法儲藏室;"
+    },
+    {
+      "original": "Arcane Tower",
+      "conv": "zh-cn:神秘之塔;zh-hant:奧術之塔;"
+    },
+    {
+      "original": "Voodoo Lounge",
+      "conv": "zh-cn:巫毒商店;zh-hant:巫毒小屋;"
+    },
+    {
+      "original": "Orc Burrow",
+      "conv": "zh-cn:兽族地洞;zh-hant:半獸人營帳;"
+    },
+    {
+      "original": "Tomb of Relics",
+      "conv": "zh-cn:古墓废墟;zh-hant:古物之墓;"
+    },
+    {
+      "original": "Nerubian Tower",
+      "conv": "zh-cn:蛛网怪塔;zh-hant:蜘蛛高塔;"
+    },
+    {
+      "original": "Ancients of Wonders",
+      "conv": "zh-cn:奇迹古树;zh-hant:古代奇觀;"
+    },
+    {
+      "original": "Mortar Team",
+      "conv": "zh-cn:迫击炮小队;zh-hant:迫擊砲班;"
+    },
+    {
+      "original": "Peon",
+      "conv": "zh-cn:苦工;zh-hant:農奴;"
+    },
+    {
+      "original": "Troll Headhunter",
+      "conv": "zh-cn:巨魔猎头者;zh-hant:食人妖獵頭族;"
+    },
+    {
+      "original": "Kodo Beast",
+      "conv": "zh-cn:科多兽;zh-hant:可多獸;"
+    },
+    {
+      "original": "Shaman",
+      "conv": "zh-cn:萨满;zh-hant:巫醫;"
+    },
+    {
+      "original": "Wisp",
+      "conv": "zh-cn:小精灵;zh-hant:幽光;"
+    },
+    {
+      "original": "Huntress",
+      "conv": "zh-cn:女猎手;zh-hant:女獵戶;"
+    },
+    {
+      "original": "Dryad",
+      "conv": "zh-cn:树妖;zh-hant:林精;"
+    },
+    {
+      "original": "Druid of the Claw",
+      "conv": "zh-cn:利爪德鲁伊;zh-hant:猛爪督依德;"
+    },
+    {
+      "original": "Druid of the Talon",
+      "conv": "zh-cn:猛禽德鲁伊;zh-hant:翔風督依德;"
+    },
+    {
+      "original": "Hippogryph",
+      "conv": "zh-cn:角鹰;zh-hant:鹿鴉;"
+    },
+    {
+      "original": "Chimera",
+      "conv": "zh-cn:奇美拉;zh-hant:雙頭獸;"
+    },
+    {
+      "original": "Mountain Giant",
+      "conv": "zh-cn:山岭巨人;zh-hant:山巨人;"
+    },
+    {
+      "original": "Faerie Dragon",
+      "conv": "zh-cn:精灵龙;zh-hant:妖龍;"
+    },
+    {
+      "original": "Acolyte",
+      "conv": "zh-cn:侍僧;zh-hant:祭司;"
+    },
+    {
+      "original": "Spell Breaker",
+      "conv": "zh-cn:魔法破坏者;zh-hant:破魔師;"
+    },
+    {
+      "original": "Troll Batrider",
+      "conv": "zh-cn:蝙蝠骑士;zh-hant:食人妖蝠騎士;"
+    },
+    {
+      "original": "Spirit Walker",
+      "conv": "zh-cn:灵魂行者;zh-hant:靈行者;"
+    },
+    {
+      "original": "Obsidian Statue",
+      "conv": "zh-cn:十胜石雕像;zh-hant:黑曜石像;"
+    },
+    {
+      "original": "Glaive Thrower",
+      "conv": "zh-cn:投刃车;zh-hant:飛刀投擲車;"
+    },
+    {
+      "original": "Rifleman",
+      "conv": "zh-cn:矮人火枪手;zh-hant:步槍兵;"
+    },
+    {
+      "original": "Sorceress",
+      "conv": "zh-cn:女巫;zh-hant:女術士;"
+    },
+    {
+      "original": "Grunt",
+      "conv": "zh-cn:兽族步兵;zh-hant:蠻兵;"
+    },
+    {
+      "original": "Witch Doctor",
+      "conv": "zh-cn:巨魔巫医;zh-hant:巨魔醫術師;"
+    },
+    {
+      "original": "Crypt Fiend",
+      "conv": "zh-cn:穴居恶魔;zh-hant:古墓巨蛛;"
+    },
+    {
+      "original": "Necromancer",
+      "conv": "zh-cn:不死族巫师;zh-hant:死靈法師;"
+    },
+    {
+      "original": "Banshee",
+      "conv": "zh-cn:女妖;zh-hant:報喪女妖;"
+    },
+    {
+      "original": "Meat Wagon",
+      "conv": "zh-cn:绞肉车;zh-hant:血河車;"
+    },
+    {
+      "original": "Abomination",
+      "conv": "zh-cn:憎恶;zh-hant:肉傀儡;"
+    },
+    {
+      "original": "Shade",
+      "conv": "zh-cn:阴影;zh-hant:鬼影;"
+    },
+    {
+      "original": "Frost Wyrm",
+      "conv": "zh-cn:冰霜巨龙;zh-hant:寒霜翼龙;"
+    },
+    {
+      "original": "Ballista",
+      "conv": "zh-cn:弩车;zh-hant:弩炮;"
+    },
+    {
+      "original": "Exodus of the Horde",
+      "conv": "zh-cn:兽族大逃亡;zh-hant:王族的出兵;"
+    },
+    {
+      "original": "Chasing Visions",
+      "conv": "zh-cn:对梦想的追逐;zh-hant:幻影的追逐;"
+    },
+    {
+      "original": "Departures",
+      "conv": "zh-cn:离开;zh-hant:出航;"
+    },
+    {
+      "original": "The Scourge of Lordaeron",
+      "conv": "zh-cn:洛丹伦大陆的灾难;zh-hant:羅達隆的毀滅;"
+    },
+    {
+      "original": "The Defense of Strahnbrad",
+      "conv": "zh-cn:斯坦恩布莱德防御战;zh-hant:史坦布雷德防禦戰;"
+    },
+    {
+      "original": "Blackrock & Roll",
+      "conv": "zh-cn:黑石族的混战;zh-hant:黑石族大混戰;"
+    },
+    {
+      "original": "Jaina's Meeting",
+      "conv": "zh-cn:吉安娜的会议;zh-hant:珍娜的會面;"
+    },
+    {
+      "original": "Ravages of the Plague",
+      "conv": "zh-cn:灾难的创伤;zh-hant:瘟疫的蹂躏;"
+    },
+    {
+      "original": "Cult of the Damned",
+      "conv": "zh-cn:诅咒教派;zh-hant:詛咒的儀式;"
+    },
+    {
+      "original": "March of the Scourge",
+      "conv": "zh-cn:灾难的扩散;zh-hant:行進的疫軍;"
+    },
+    {
+      "original": "The Prince and the Prophet",
+      "conv": "zh-cn:王子和预言者;zh-hant:王子與先知;"
+    },
+    {
+      "original": "The Culling",
+      "conv": "zh-cn:抉择;zh-hant:採收;"
+    },
+    {
+      "original": "Divergent Courses",
+      "conv": "zh-cn:异途;zh-hant:分歧的道路;"
+    },
+    {
+      "original": "The Shores of Northrend",
+      "conv": "zh-cn:诺森德海岸;zh-hant:北裂境的海岸;"
+    },
+    {
+      "original": "Dissension",
+      "conv": "zh-cn:纷争;zh-hant:唱反調;"
+    },
+    {
+      "original": "Path of the Damned",
+      "conv": "zh-cn:诅咒之路;zh-hant:受詛咒的道路;"
+    },
+    {
+      "original": "Trudging Through the Ashes",
+      "conv": "zh-cn:在灰烬中前行;zh-hant:在灰燼中跋涉;"
+    },
+    {
+      "original": "Digging up the Dead",
+      "conv": "zh-cn:死亡的觉醒;zh-hant:死者的挖掘;"
+    },
+    {
+      "original": "The Dreadlords Convene",
+      "conv": "zh-cn:恐惧魔王的集结;zh-hant:魔將集會;"
+    },
+    {
+      "original": "Into the Realm Eternal",
+      "conv": "zh-cn:深入永恒领域;zh-hant:進入永恆之地;"
+    },
+    {
+      "original": "Key to the Three Moons",
+      "conv": "zh-cn:三月之钥;zh-hant:三月鑰;"
+    },
+    {
+      "original": "Terror of the Tides",
+      "conv": "zh-cn:恐怖之潮;zh-hant:恐懼的浪潮;"
+    },
+    {
+      "original": "Rise of the Naga",
+      "conv": "zh-cn:娜迦族的崛起;zh-hant:那迦的興起;"
+    },
+    {
+      "original": "The Broken Isles",
+      "conv": "zh-cn:破碎之岛;zh-hant:破碎的島嶼;"
+    },
+    {
+      "original": "The Tomb of Sargeras",
+      "conv": "zh-cn:萨格拉斯之墓;zh-hant:沙吉拉斯陵墓;"
+    },
+    {
+      "original": "Wrath of the Betrayer",
+      "conv": "zh-cn:背叛者的愤怒;zh-hant:叛徒的忿怒;"
+    },
+    {
+      "original": "Unfinished Business",
+      "conv": "zh-cn:恩怨未了;zh-hant:未完的事情;"
+    },
+    {
+      "original": "Shards of the Alliance",
+      "conv": "zh-cn:联盟的破裂;zh-hant:同盟的碎片;"
+    },
+    {
+      "original": "Malfurion's Vision",
+      "conv": "zh-cn:玛法里奥的幻觉;zh-hant:梅爾福力安的幻像;"
+    },
+    {
+      "original": "The Ruins of Dalaran",
+      "conv": "zh-cn:达拉然的废墟;zh-hant:達拉朗的廢墟;"
+    },
+    {
+      "original": "The Brothers Stormrage",
+      "conv": "zh-cn:兄弟情仇;zh-hant:怒風兄弟;"
+    },
+    {
+      "original": "Legacy of the Damned",
+      "conv": "zh-cn:诅咒者的遗物;zh-hant:詛咒的傳說;"
+    },
+    {
+      "original": "Tide of Darkness",
+      "conv": "zh-cn:黑潮; zh-hant:黑暗浪潮;"
+    },
+    {
+      "original": "Reign of Chaos",
+      "conv": "zh-cn:混乱之治; zh-hant:混亂之治;"
+    },
+    {
+      "original": "The Frozen Throne",
+      "conv": "zh-cn:冰封王座; zh-hant:寒冰霸權;"
+    },
+    {
+      "original": "Reforged",
+      "conv": "zh-cn:重制版; zh-hant:淬鍊重生;"
+    }
+  ]
+}

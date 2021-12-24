@@ -1,0 +1,995 @@
+{
+  "name": "StarTrek",
+  "description": "-{zh:星际旅行;zh-cn:星际旅行;zh-tw:星艦奇航記;zh-hk:星空奇遇記}-",
+  "path": "Module:CGroup/StarTrek",
+  "rules": [
+    {
+      "original": "Cardassia",
+      "conv": "zh:卡达西;zh-cn:卡达西;zh-tw:卡達西"
+    },
+    {
+      "original": "Sarek",
+      "conv": "zh:沙瑞克;zh-cn:萨瑞克;zh-tw:沙瑞克;"
+    },
+    {
+      "original": "chief medical officer",
+      "conv": "zh:总医官;zh-cn:总医官;zh-tw:總醫官"
+    },
+    {
+      "original": "microphone",
+      "conv": "zh-cn:麦克风;zh-tw:麥克風; zh-hk:咪高峰;"
+    },
+    {
+      "original": "Rick and Morty",
+      "conv": "zh-cn:瑞克和莫蒂; zh-tw:瑞克和莫蒂; zh-hk:瑞克和莫蒂;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "TAS",
+      "conv": "zh:动画系列;zh-cn:动画系列;zh-tw:動畫版;"
+    },
+    {
+      "original": "TNG",
+      "conv": "zh-cn:下一代; zh-tw:銀河飛龍; zh-hk:新星空奇遇記;"
+    },
+    {
+      "original": "TNG",
+      "conv": "zh-cn:星际旅行：下一代;zh-tw:銀河飛龍; zh-hk:新星空奇遇記;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "DS9",
+      "conv": "zh:深空九号;zh-cn:深空九号; zh-hant:銀河前哨;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "VOY",
+      "conv": "zh-cn:星际旅行：航海家号;zh-tw:星際爭霸戰：重返地球;zh-hk:星空奇遇記：重返地球;"
+    },
+    {
+      "original": "VOY",
+      "conv": "zh:《航海家号》;zh-cn:《航海家号》;zh-hant:《重返地球》"
+    },
+    {
+      "original": "ENT",
+      "conv": "zh-cn:星际旅行：进取号; zh-tw:企業號;"
+    },
+    {
+      "original": "ENT",
+      "conv": "zh:星艦前傳;zh-cn:进取号; zh-tw:企業號"
+    },
+    {
+      "original": "DISCO",
+      "conv": "zh-cn:星际迷航：发现号; zh-tw:星際爭霸戰：發現號; zh-hk:星空奇遇記：發現號; zh-sg:星际迷航：探索号;"
+    },
+    {
+      "original": "DISCO",
+      "conv": "zh-cn:发现号; zh-tw:發現號; zh-hk:發現號; zh-sg:探索号;"
+    },
+    {
+      "original": "LD",
+      "conv": "zh-cn:星际迷航：下层甲板; zh-hk:星空奇遇記：底層甲板; zh-tw:星際爭霸戰：底層甲板;"
+    },
+    {
+      "original": "LD",
+      "conv": "zh-cn:下层甲板; zh-hk:底層甲板; zh-tw:底層甲板;"
+    },
+    {
+      "original": "The Motion Picture",
+      "conv": "星际旅行：无限太空=>zh-tw:星艦迷航記;星际旅行：无限太空=>zh-hk:星空奇遇記;星际旅行：无限太空=>zh-mo:星空奇遇記;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "The Wrath of Khan",
+      "conv": "zh-cn:可汗怒吼; zh-tw:星戰大怒吼; zh-hk:大汗的憤怒;"
+    },
+    {
+      "original": "The Search for Spock",
+      "conv": "zh-cn:石破天惊; zh-tw:石破天驚; zh-hk:魔宮龍虎鬥;"
+    },
+    {
+      "original": "The Voyage Home",
+      "conv": "zh-cn:抢救未来; zh-tw:搶救未來; zh-hk:回到地球;"
+    },
+    {
+      "original": "The Final Frontier",
+      "conv": "zh-hans:终极先锋; zh-tw:終極先鋒; zh-hk:最後戰線;"
+    },
+    {
+      "original": "The Undiscovered Country",
+      "conv": "zh-cn:未来之城; zh-tw:邁入未來; zh-hk:邁向未來;"
+    },
+    {
+      "original": "Generations",
+      "conv": "zh-cn:日换星移; zh-tw:日換星移; zh-hk:星空奇兵;"
+    },
+    {
+      "original": "First Contact",
+      "conv": "zh-cn:第一次接触; zh-tw:戰鬥巡航; zh-hk:星空第一擊;"
+    },
+    {
+      "original": "Insurrection",
+      "conv": "zh-cn:起义; zh-tw:星際叛變; zh-hk:星空反攻;"
+    },
+    {
+      "original": "Nemesis",
+      "conv": "zh-cn:复仇女神; zh-tw:星戰啟示錄; zh-hk:星戰啟示錄;"
+    },
+    {
+      "original": "Star Trek (film) 10",
+      "conv": "zh-cn:星际旅行X：复仇女神; zh-tw:星艦迷航記X：星戰啟示錄; zh-hk:星空奇遇記X：星戰啟示錄;"
+    },
+    {
+      "original": "Star Trek (film)",
+      "conv": "zh-cn:星际迷航 (电影); zh-tw:星際爭霸戰 (電影); zh-hk:星空奇遇記 (電影); zh-sg:星际争霸战 (电影);"
+    },
+    {
+      "original": "Star Trek (film)",
+      "conv": "星际迷航=>zh-tw:星際爭霸戰;星际迷航=>zh-hk:星空奇遇記;星际迷航=>zh-mo:星空奇遇記;星际迷航=>zh-sg:星际争霸战;"
+    },
+    {
+      "original": "Star Trek into Darkness",
+      "conv": "zh-cn:星际迷航：暗黑无界; zh-tw:闇黑無界：星際爭霸戰; zh-hk:星空奇遇記：黑域時空; zh-sg:暗黑无界：星际争霸战;"
+    },
+    {
+      "original": "Star Trek into Darkness",
+      "conv": "zh-cn:暗黑无界; zh-tw:闇黑無界; zh-hk:黑域時空;"
+    },
+    {
+      "original": "Star Trek Beyond",
+      "conv": "zh-cn:星际迷航3：超越星辰; zh-tw:星際爭霸戰：浩瀚無垠; zh-hk:星空奇遇記：超域時空; zh-sg:星际争霸战：浩瀚无垠;"
+    },
+    {
+      "original": "Star Trek Beyond",
+      "conv": "zh-cn:超越星辰; zh-tw:浩瀚無垠; zh-hk:超域時空; zh-sg:浩瀚无垠;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Kirk",
+      "conv": "zh-cn:柯克; zh-tw:寇克; zh-hk:卻克;"
+    },
+    {
+      "original": "Shatner",
+      "conv": "zh-cn:夏特纳; zh-tw:薛特納"
+    },
+    {
+      "original": "Leonard",
+      "conv": "zh:伦纳德;zh-cn:伦纳德;zh-tw:李奧納德"
+    },
+    {
+      "original": "Nemoy",
+      "conv": "zh:尼莫伊;zh-cn:尼莫伊;zh-tw:尼摩伊"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆斯; zh-tw:詹姆士; zh-hk:占士;"
+    },
+    {
+      "original": "Tiberius",
+      "conv": "zh-cn:泰比里厄斯; zh-tw:提庇留"
+    },
+    {
+      "original": "Spock",
+      "conv": "zh:斯波克; zh-cn:史波克; zh-tw:史巴克; zh-hk:冼樸;"
+    },
+    {
+      "original": "DeForest",
+      "conv": "zh-cn:德福雷斯特; zh-tw:德佛瑞斯特;"
+    },
+    {
+      "original": "McCoy",
+      "conv": "zh-cn:麦科伊; zh-tw:麥考伊; zh-hk:麥哥;"
+    },
+    {
+      "original": "Doohan",
+      "conv": "zh-cn:杜汉; zh-tw:督漢;"
+    },
+    {
+      "original": "Scott",
+      "conv": "zh-cn:斯科特; zh-tw:史考特; zh-hk:史葛;"
+    },
+    {
+      "original": "Scotty",
+      "conv": "zh-cn:斯科提; zh-tw:史考提; zh-hk:史葛提;"
+    },
+    {
+      "original": "Sulu",
+      "conv": "zh-cn:苏鲁; zh-tw:蘇魯; zh-hk:蘇奴;"
+    },
+    {
+      "original": "Chekov",
+      "conv": "zh-cn:切科夫; zh-tw:契可夫; zh-hk:柴可夫;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Uhura",
+      "conv": "zh-cn:乌乎拉; zh-tw:烏瑚拉; zh-hk:胡玉娜;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Chapel",
+      "conv": "zh:查普尔;zh-cn:查普尔;zh-tw:查培爾"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Nicholas",
+      "conv": "zh:尼古拉斯;zh-tw:尼可拉斯;zh-cn:尼古拉斯"
+    },
+    {
+      "original": "Meyer",
+      "conv": "zh:迈耶;zh-tw:梅耶;zh-cn:迈耶"
+    },
+    {
+      "original": "Yosemite",
+      "conv": "zh:约塞米蒂;zh-cn:约塞米蒂;zh-tw:優勝美地"
+    },
+    {
+      "original": "Jerry",
+      "conv": "zh:杰里;zh-cn:杰里;zh-tw:傑瑞"
+    },
+    {
+      "original": "Goldsmith",
+      "conv": "zh:戈德史密斯;zh-cn:戈德史密斯;zh-tw:高史密斯"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Glenn",
+      "conv": "zh:格伦;zh-cn:格伦;zh-tw:葛蘭"
+    },
+    {
+      "original": "Corbett",
+      "conv": "zh:科比特;zh-cn:科比特;zh-tw:寇爾貝特"
+    },
+    {
+      "original": "Jeffrey (Jacob Abrams)",
+      "conv": "zh:杰弗里;zh-cn:杰弗里;zh-tw:傑弗瑞"
+    },
+    {
+      "original": "(Jeffrey) Jacob (Abrams)",
+      "conv": "zh:雅各布;zh-cn:雅各布;zh-tw:賈克柏"
+    },
+    {
+      "original": "(Jeffrey Jacob) Abrams",
+      "conv": "zh-cn:艾布拉姆斯; zh-tw:亞柏拉罕; zh-hk:艾布斯;"
+    },
+    {
+      "original": "(Carol) Marcus",
+      "conv": "zh-cn:马库斯; zh-tw:馬可斯;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Enterprise",
+      "conv": "zh:勇往号;zh-cn:勇往号;zh-tw:企業號;"
+    },
+    {
+      "original": "Enterprise",
+      "conv": "zh-cn:进取号; zh-tw:企業號; zh-hk:企業號;"
+    },
+    {
+      "original": "Deep Space 5",
+      "conv": "zh:深空五号;zh-cn:深空五号;zh-tw:深太空五號"
+    },
+    {
+      "original": "Defiant",
+      "conv": "zh:勇抗号;zh-cn:勇抗号;zh-tw:挑戰號"
+    },
+    {
+      "original": "Defiant Class",
+      "conv": "zh:勇抗级;zh-cn:勇抗级;zh-tw:挑戰級"
+    },
+    {
+      "original": "Kelvin",
+      "conv": "zh-cn:开尔文号; zh-tw:凱文號; zh-hk:奇雲號;"
+    },
+    {
+      "original": "Reliant",
+      "conv": "zh-cn:信望号; zh-tw:信心號;"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Kelvin Timeline",
+      "conv": "zh-cn:开尔文时间线; zh-tw:凱文時間線; zh-hk:奇雲時間線;"
+    },
+    {
+      "original": "Bana, Eric",
+      "conv": "zh-cn:埃里克; zh-tw:艾瑞克; zh-hk:艾力;"
+    },
+    {
+      "original": "Bana, Eric",
+      "conv": "zh-cn:巴纳; zh-tw:巴納; zh-hk:班納;"
+    },
+    {
+      "original": "Lindelof, Damon",
+      "conv": "zh-cn:林德洛夫; zh-tw:林道夫;"
+    },
+    {
+      "original": "Pine, Chris",
+      "conv": "zh-cn:克里斯·派恩; zh-tw:克里斯·潘恩; zh-hk:基斯·派恩;"
+    },
+    {
+      "original": "Pine, Chris",
+      "conv": "zh-cn:派恩; zh-tw:潘恩; zh-hk:派恩;"
+    },
+    {
+      "original": "Quinto, Zachary",
+      "conv": "zh-cn:扎克瑞·昆图; zh-tw:柴克瑞·恩杜; zh-hk:沙查·昆圖;"
+    },
+    {
+      "original": "Quinto, <u>Zachary</u>",
+      "conv": "zh-cn:扎克瑞; zh-tw:柴克瑞; zh-hk:沙查;"
+    },
+    {
+      "original": "Quinto, Zachary",
+      "conv": "zh-cn:昆图; zh-tw:恩杜; zh-hk:昆圖;"
+    },
+    {
+      "original": "Saldana, <u>Zoe</u>",
+      "conv": "zh-cn:佐伊; zh-tw:柔伊; zh-hk:素兒;"
+    },
+    {
+      "original": "<u>Saldana</u>, Zoe",
+      "conv": "zh-cn:索尔达娜; zh-tw:莎達娜; zh-hk:蘇丹娜;"
+    },
+    {
+      "original": "<u>Saldana</u>, Zoe",
+      "conv": "沙達納=>zh-cn:索尔达娜; 沙達納=>zh-hk:蘇丹娜;"
+    },
+    {
+      "original": "Urban, Karl",
+      "conv": "zh-cn:卡尔·厄本; zh-tw:卡爾·厄本; zh-hk:卡爾·艾本;"
+    },
+    {
+      "original": "Urban, Karl",
+      "conv": "zh-cn:厄本; zh-tw:厄本; zh-hk:艾本;"
+    }
+  ]
+}

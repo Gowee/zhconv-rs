@@ -1,0 +1,1879 @@
+{
+  "name": "HarryPotter",
+  "description": "-{zh-tw:哈利波特;zh-cn:哈利·波特;zh-hk:哈利波特}-",
+  "path": "Module:CGroup/HarryPotter",
+  "rules": [
+    {
+      "original": "Harry Potter and the Philosopher's Stone",
+      "conv": "zh-cn:哈利·波特与魔法石;zh-tw:哈利波特－神秘的魔法石"
+    },
+    {
+      "original": "Harry Potter and the Chamber of Secrets",
+      "conv": "zh-cn:哈利·波特与密室;zh-tw:哈利波特－消失的密室"
+    },
+    {
+      "original": "Harry Potter and the Prisoner of Azkaban",
+      "conv": "zh-cn:哈利·波特与阿兹卡班囚徒;zh-tw:哈利波特－阿茲卡班的逃犯"
+    },
+    {
+      "original": "Harry Potter and the Goblet of Fire",
+      "conv": "zh-cn:哈利·波特与火焰杯;zh-tw:哈利波特－火盃的考驗"
+    },
+    {
+      "original": "Harry Potter and the Order of the Phoenix",
+      "conv": "zh-cn:哈利·波特与凤凰社;zh-tw:哈利波特－鳳凰會的密令"
+    },
+    {
+      "original": "Harry Potter and the Half-Blood Prince",
+      "conv": "zh-cn:哈利·波特与“混血王子”;zh-tw:哈利波特－混血王子的背叛"
+    },
+    {
+      "original": "Harry Potter and the Deathly Hallows",
+      "conv": "zh-cn:哈利·波特与死亡圣器;zh-tw:哈利波特－死神的聖物"
+    },
+    {
+      "original": "Harry Potter and the Deathly Hallows",
+      "conv": "zh-cn:哈利·波特与被诅咒的孩子;zh-tw:哈利波特－被詛咒的孩子"
+    },
+    {
+      "original": "(Harry Potter and) the Goblet of Fire",
+      "conv": "zh-cn:火焰杯;zh-tw:火盃"
+    },
+    {
+      "original": "(Harry Potter and the) Order of the Phoenix",
+      "conv": "zh-cn:凤凰社;zh-tw:鳳凰會"
+    },
+    {
+      "original": "(Harry Potter and) the Deathly Hallows",
+      "conv": "zh-cn:死亡圣器;zh-tw:死神的聖物"
+    },
+    {
+      "original": "Harry Potter and the Philosopher's Stone",
+      "conv": "哈利波特：神秘的魔法石=>zh-cn:哈利·波特与魔法石"
+    },
+    {
+      "original": "Harry Potter and the Chamber of Secrets",
+      "conv": "哈利波特：消失的密室=>zh-cn:哈利·波特与密室"
+    },
+    {
+      "original": "Harry Potter and the Prisoner of Azkaban",
+      "conv": "哈利波特：阿茲卡班的逃犯=>zh-cn:哈利·波特与阿兹卡班的囚徒"
+    },
+    {
+      "original": "Harry Potter and the Goblet of Fire",
+      "conv": "哈利波特：火盃的考驗=>zh-cn:哈利·波特与火焰杯"
+    },
+    {
+      "original": "Harry Potter and the Order of the Phoenix",
+      "conv": "哈利波特：鳳凰會的密令=>zh-cn:哈利·波特与凤凰社"
+    },
+    {
+      "original": "Harry Potter and the Half-Blood Prince",
+      "conv": "哈利波特：混血王子的背叛=>zh-cn:哈利·波特与混血王子"
+    },
+    {
+      "original": "Harry Potter and the Deathly Hallows",
+      "conv": "哈利波特：死神的聖物=>zh-cn:哈利·波特与死亡圣器"
+    },
+    {
+      "original": "Harry Potter and the Deathly Hallows – Part 1",
+      "conv": "哈利波特：死神的聖物1=>zh-cn:哈利·波特与死亡圣器（上）"
+    },
+    {
+      "original": "Harry Potter and the Deathly Hallows – Part 2",
+      "conv": "哈利波特：死神的聖物2=>zh-cn:哈利·波特与死亡圣器（下）"
+    },
+    {
+      "original": "(Harry Potter and) the Deathly Hallows – Part 1",
+      "conv": "zh-cn:死亡圣器（上）; zh-tw:死神的聖物1;"
+    },
+    {
+      "original": "(Harry Potter and) the Deathly Hallows – Part 2",
+      "conv": "zh-cn:死亡圣器（下）; zh-tw:死神的聖物2;"
+    },
+    {
+      "original": "Fantastic Beasts and Where to Find Them",
+      "conv": "怪獸與牠們的產地=>zh-cn:神奇动物在哪里"
+    },
+    {
+      "original": "Fantastic Beasts: The Crimes of Grindelwald",
+      "conv": "zh-tw:怪獸與葛林戴華德的罪行;zh-hk:怪獸與葛林戴華德之罪;zh-cn:神奇动物：格林德沃之罪"
+    },
+    {
+      "original": "Emma Watson",
+      "conv": "zh-cn:埃玛·沃森;zh-tw:艾瑪·華森;zh-hk:愛瑪·屈臣"
+    },
+    {
+      "original": "Daniel Radcliffe",
+      "conv": "zh-cn:丹尼尔·拉德克利夫;zh-tw:丹尼爾·雷德克里夫;zh-hk:丹尼爾·域基夫"
+    },
+    {
+      "original": "Radcliffe",
+      "conv": "zh-cn:拉德克利夫;zh-tw:雷德克里夫;zh-hk:域基夫"
+    },
+    {
+      "original": "Jim Broadbent",
+      "conv": "zh-cn:吉姆·布劳德本特;zh-tw:吉姆·布洛班特;zh-hk:占·博班特;"
+    },
+    {
+      "original": "Michael Gambon",
+      "conv": "zh-cn:迈克尔·刚本;zh-tw:邁可·坎邦;zh-hk:米高·甘邦;"
+    },
+    {
+      "original": "Aurelius (Dumbledore)",
+      "conv": "zh-tw:阿留思;zh-cn:奥瑞利乌斯"
+    },
+    {
+      "original": "Barebone (Credence)",
+      "conv": "zh-tw:巴波;zh-cn:巴瑞博恩斯"
+    },
+    {
+      "original": "Cedric (Diggory)",
+      "conv": "zh-cn:塞德里克;zh-tw:西追"
+    },
+    {
+      "original": "(Cedric) Diggory",
+      "conv": "zh-cn:迪戈里;zh-tw:迪哥里"
+    },
+    {
+      "original": "Cho Chang",
+      "conv": "zh-cn:秋·张;zh-tw:張秋"
+    },
+    {
+      "original": "Colin (Creevey)",
+      "conv": "zh-cn:科林;zh-tw:柯林"
+    },
+    {
+      "original": "(Colin) Creevey",
+      "conv": "zh-cn:克里维;zh-tw:克利維"
+    },
+    {
+      "original": "(Barebone) Credence",
+      "conv": "zh-tw:魁登斯;zh-cn:克雷登斯"
+    },
+    {
+      "original": "Dean Thomas",
+      "conv": "zh-cn:迪安·托马斯;zh-tw:丁·湯瑪斯"
+    },
+    {
+      "original": "Dean (Thomas)",
+      "conv": "迪安=>zh-tw:丁;迪安=>zh-cn:迪安"
+    },
+    {
+      "original": "(Dean) Thomas",
+      "conv": "zh-cn:托马斯;zh-tw:湯馬斯"
+    },
+    {
+      "original": "Draco (Malfoy)",
+      "conv": "zh-cn:德拉科;zh-tw:跩哥"
+    },
+    {
+      "original": "(Draco) Malfoy",
+      "conv": "zh-cn:马尔福;zh-tw:馬份"
+    },
+    {
+      "original": "Goldstein (Tina)",
+      "conv": "zh-tw:金坦;zh-cn:戈德斯坦"
+    },
+    {
+      "original": "Gregory (Goyle)",
+      "conv": "zh-cn:格雷戈里;zh-tw:格瑞"
+    },
+    {
+      "original": "Harry Potter",
+      "conv": "zh-cn:哈利·波特;zh-tw:哈利波特;zh-sg:哈利波特"
+    },
+    {
+      "original": "(Hannah) Abbott",
+      "conv": "zh-cn:艾博;zh-tw:艾寶"
+    },
+    {
+      "original": "Hermione (Granger)",
+      "conv": "zh-cn:赫敏;zh-tw:妙麗"
+    },
+    {
+      "original": "(Hermione) Granger",
+      "conv": "zh-tw:格蘭傑;zh-cn:格兰杰"
+    },
+    {
+      "original": "Justin (Finch-Fletchley)",
+      "conv": "zh-cn:贾斯廷;zh-tw:賈斯汀"
+    },
+    {
+      "original": "(Justin) Finch-Fletchley",
+      "conv": "zh-cn:芬列里;zh-tw:方列里"
+    },
+    {
+      "original": "Lavender (Brown)",
+      "conv": "zh-cn:拉文德;zh-tw:文妲"
+    },
+    {
+      "original": "Leta (Lestrange)",
+      "conv": "zh-tw:莉塔;zh-cn:丽塔"
+    },
+    {
+      "original": "Luna (Lovegood)",
+      "conv": "zh-cn:卢娜;zh-tw:露娜"
+    },
+    {
+      "original": "(Luna) Lovegood",
+      "conv": "zh-cn:洛夫古德;zh-tw:羅古德"
+    },
+    {
+      "original": "Marcus (Flint)",
+      "conv": "zh-cn:马库斯;zh-tw:馬科"
+    },
+    {
+      "original": "(Marcus) Flint",
+      "conv": "zh-cn:弗林特;zh-tw:福林"
+    },
+    {
+      "original": "Marietta Edgecombe",
+      "conv": "zh-cn:玛丽埃塔·艾克莫;zh-tw:毛莉·邊坑"
+    },
+    {
+      "original": "Michael Corner",
+      "conv": "zh-cn:迈克尔·科纳;zh-tw:麥可·寇那"
+    },
+    {
+      "original": "Neville (Longbottom)",
+      "conv": "zh-cn:纳威;zh-tw:奈威"
+    },
+    {
+      "original": "(Neville) Longbottom",
+      "conv": "zh-cn:隆巴顿;zh-tw:隆巴頓"
+    },
+    {
+      "original": "Oliver (Wood)",
+      "conv": "zh-cn:奥利弗;zh-tw:奧利佛"
+    },
+    {
+      "original": "(Oliver) Wood",
+      "conv": "zh-cn:伍德;zh-tw:木透"
+    },
+    {
+      "original": "Parvati (Patil)",
+      "conv": "zh-cn:帕瓦蒂;zh-tw:芭蒂"
+    },
+    {
+      "original": "(Parvati) Patil",
+      "conv": "zh-cn:佩蒂尔;zh-tw:巴提"
+    },
+    {
+      "original": "Penelope (Clearwater)",
+      "conv": "zh-cn:佩内洛;zh-tw:潘妮"
+    },
+    {
+      "original": "(Seamus) Finnegan",
+      "conv": "zh-cn:斐尼甘;zh-tw:斐尼干"
+    },
+    {
+      "original": "Theseus (Scamander)",
+      "conv": "zh-tw:西瑟;zh-cn:忒修斯"
+    },
+    {
+      "original": "Xenophilius (Lovegood)",
+      "conv": "zh-cn:谢诺菲留斯;zh-tw:贊諾"
+    },
+    {
+      "original": "Vincent (Crabbe)",
+      "conv": "zh-cn:文森特;zh-tw:文森"
+    },
+    {
+      "original": "(Vincent) Crabbe",
+      "conv": "zh-cn:克拉布;zh-tw:克拉"
+    },
+    {
+      "original": "Alicia Spinnet",
+      "conv": "zh-cn:艾丽娅·斯平内特;zh-tw:西亞·史賓特"
+    },
+    {
+      "original": "Vernon (Dursley)",
+      "conv": "zh-cn:弗农;zh-tw:威農"
+    },
+    {
+      "original": "Uncle Vernon",
+      "conv": "zh-cn:弗农姨父;zh-tw:威農姨丈"
+    },
+    {
+      "original": "Aunt Petunia",
+      "conv": "zh-cn:佩妮姨妈;zh-tw:佩妮阿姨"
+    },
+    {
+      "original": "Aragog",
+      "conv": "zh-cn:阿拉戈克;zh-tw:阿辣哥"
+    },
+    {
+      "original": "Errol",
+      "conv": "zh-cn:埃罗尔;zh-tw:愛落"
+    },
+    {
+      "original": "Buckbeak",
+      "conv": "zh-cn:巴克比克;zh-tw:巴嘴"
+    },
+    {
+      "original": "Witherwings",
+      "conv": "zh-tw:枯翅;zh-cn:蔫翼"
+    },
+    {
+      "original": "Trevor",
+      "conv": "zh-cn:莱福;zh-tw:吹寶"
+    },
+    {
+      "original": "Fawkes",
+      "conv": "zh-cn:福克斯;zh-tw:佛客使"
+    },
+    {
+      "original": "Hermes",
+      "conv": "zh-cn:赫梅斯;zh-tw:赫密士"
+    },
+    {
+      "original": "Hedwig",
+      "conv": "zh-cn:海德薇;zh-tw:嘿美"
+    },
+    {
+      "original": "Norbert",
+      "conv": "zh-cn:诺伯;zh-tw:蘿蔔"
+    },
+    {
+      "original": "Fluffy",
+      "conv": "zh-cn:路威;zh-tw:毛毛"
+    },
+    {
+      "original": "Mrs Norris",
+      "conv": "zh-cn:洛丽丝夫人;zh-tw:拿樂絲太太"
+    },
+    {
+      "original": "Nagini",
+      "conv": "zh-cn:纳吉尼;zh-tw:娜吉妮"
+    },
+    {
+      "original": "Crookshanks",
+      "conv": "zh-cn:克鲁克山;zh-tw:歪腿"
+    },
+    {
+      "original": "Pigwidgeon (Pig)",
+      "conv": "zh-cn:朱薇琼;zh-tw:豬水鳧"
+    },
+    {
+      "original": "Moaning Myrtle",
+      "conv": "zh-cn:哭泣的桃金娘;zh-tw:愛哭鬼麥朵"
+    },
+    {
+      "original": "Moaning Myrtle",
+      "conv": "zh-cn:桃金娘;zh-tw:麥朵"
+    },
+    {
+      "original": "Nearly Headless Nick",
+      "conv": "zh-cn:差点没头的尼克;zh-tw:差點沒頭的尼克"
+    },
+    {
+      "original": "(Sir) Cadogan",
+      "conv": "zh-tw:卡多甘;zh-cn:卡多根"
+    },
+    {
+      "original": "The Bloody Baron",
+      "conv": "zh-cn:血人巴罗;zh-tw:血腥男爵"
+    },
+    {
+      "original": "The Fat Friar",
+      "conv": "zh-cn:胖修士幽灵;zh-tw:胖修士"
+    },
+    {
+      "original": "The Gray Lady",
+      "conv": "zh-cn:格雷女士;zh-tw:灰衣貴婦"
+    },
+    {
+      "original": "Auror",
+      "conv": "zh-tw:正氣師;zh-cn:傲罗"
+    },
+    {
+      "original": "Amelia (Susan Bones)",
+      "conv": "zh-cn:阿米莉亚;zh-tw:愛蜜莉"
+    },
+    {
+      "original": "(Amelia Susan) Bones",
+      "conv": "zh-cn:博恩斯;zh-tw:波恩"
+    },
+    {
+      "original": "Barty (Crouch)",
+      "conv": "zh-cn:巴蒂;zh-tw:巴堤"
+    },
+    {
+      "original": "(Barty) Crouch",
+      "conv": "zh-cn:克劳奇;zh-tw:柯羅奇"
+    },
+    {
+      "original": "(Barty) Crouch",
+      "conv": "zh-cn:巴蒂·克劳奇;zh-tw:巴堤·柯羅奇"
+    },
+    {
+      "original": "Bertha (Jorkins)",
+      "conv": "zh-cn:伯莎;zh-tw:柏莎"
+    },
+    {
+      "original": "(Bertha) Jorkins",
+      "conv": "zh-cn:乔金斯;zh-tw:喬金"
+    },
+    {
+      "original": "Cornelius (Oswald Fudge)",
+      "conv": "zh-cn:康奈利;zh-tw:康尼留斯"
+    },
+    {
+      "original": "(Cornelius) Oswald (Fudge)",
+      "conv": "zh-cn:奥斯瓦尔德;zh-tw:傲司沃"
+    },
+    {
+      "original": "(Cornelius Oswald) Fudge",
+      "conv": "zh-cn:福吉;zh-tw:夫子"
+    },
+    {
+      "original": "Dolores (Jane Umbridge)",
+      "conv": "zh-cn:多洛雷斯;zh-tw:桃樂絲"
+    },
+    {
+      "original": "(Dolores Jane) Umbridge",
+      "conv": "zh-cn:乌姆里奇;zh-tw:恩不里居"
+    },
+    {
+      "original": "Dolores Jane Umbridge",
+      "conv": "zh-cn:多洛雷斯·简·乌姆里奇;zh-tw:桃樂絲·珍·恩不里居"
+    },
+    {
+      "original": "Ern(Ernie Prang)",
+      "conv": "zh-cn:厄恩;zh-tw:老爾"
+    },
+    {
+      "original": "Ernie (Prang)",
+      "conv": "zh-cn:厄尼;zh-tw:爾尼"
+    },
+    {
+      "original": "Kingsley (Shacklebolt)",
+      "conv": "zh-cn:金斯莱;zh-tw:金利"
+    },
+    {
+      "original": "(Kingsley) Shacklebolt",
+      "conv": "zh-cn:沙克尔;zh-tw:俠鉤帽"
+    },
+    {
+      "original": "Ludo (Bagman)",
+      "conv": "zh-cn:卢多;zh-tw:魯多"
+    },
+    {
+      "original": "(Ludo) Bagman",
+      "conv": "zh-cn:巴格曼;zh-tw:貝漫"
+    },
+    {
+      "original": "Mundungous (Fletcher)",
+      "conv": "zh-cn:蒙顿格斯;zh-tw:蒙當葛"
+    },
+    {
+      "original": "(Mundungous) Fletcher",
+      "conv": "zh-cn:弗莱奇;zh-tw:弗列契"
+    },
+    {
+      "original": "Nymphadora (Tonks)",
+      "conv": "zh-cn:尼法朵拉;zh-tw:小仙女"
+    },
+    {
+      "original": "(Nymphadora) Tonks",
+      "conv": "zh-cn:唐克斯;zh-tw:東施"
+    },
+    {
+      "original": "Rufous (Scrimgeour)",
+      "conv": "zh-cn:鲁弗斯;zh-tw:盧夫"
+    },
+    {
+      "original": "(Rufous) Scrimgeour",
+      "conv": "zh-cn:斯克林杰;zh-tw:昆爵"
+    },
+    {
+      "original": "Stan (Shunpike)",
+      "conv": "zh-cn:斯坦;zh-tw:史坦"
+    },
+    {
+      "original": "(Stan) Shunpike",
+      "conv": "zh-cn:桑帕克;zh-tw:桑派"
+    },
+    {
+      "original": "Viktor (Krum)",
+      "conv": "zh-cn:威克多尔;zh-tw:維克多"
+    },
+    {
+      "original": "(Viktor) Krum",
+      "conv": "zh-cn:克鲁姆;zh-tw:喀浪"
+    },
+    {
+      "original": "Bane",
+      "conv": "zh-cn:贝恩;zh-tw:禍頭"
+    },
+    {
+      "original": "Dementor",
+      "conv": "zh-cn:摄魂怪;zh-tw:催狂魔"
+    },
+    {
+      "original": "Boggart",
+      "conv": "zh-cn:博格特;zh-tw:幻形怪"
+    },
+    {
+      "original": "Fenrir (Greyback)",
+      "conv": "zh-cn:芬里尔;zh-tw:焚銳"
+    },
+    {
+      "original": "(Fenrir) Greyback",
+      "conv": "zh-cn:格雷伯克;zh-tw:灰背"
+    },
+    {
+      "original": "Firenze",
+      "conv": "zh-cn:费伦泽;zh-tw:翡冷翠"
+    },
+    {
+      "original": "Griphook",
+      "conv": "zh-cn:拉环;zh-tw:拉環"
+    },
+    {
+      "original": "Kreacher",
+      "conv": "zh-cn:克利切;zh-tw:怪角"
+    },
+    {
+      "original": "Ronan",
+      "conv": "zh-cn:罗南;zh-tw:如男"
+    },
+    {
+      "original": "Winky",
+      "conv": "zh-cn:闪闪;zh-tw:眨眨"
+    },
+    {
+      "original": "Grawp",
+      "conv": "zh-cn:格洛普;zh-tw:呱啦"
+    },
+    {
+      "original": "Fleur (Delacour)",
+      "conv": "zh-cn:芙蓉;zh-tw:花兒"
+    },
+    {
+      "original": "(Fleur) Delacour",
+      "conv": "zh-cn:德拉库尔;zh-tw:戴樂古"
+    },
+    {
+      "original": "Molly (Weasley)",
+      "conv": "zh-cn:莫丽;zh-tw:茉莉"
+    },
+    {
+      "original": "Percy (Weasley)",
+      "conv": "zh-cn:珀西;zh-tw:派西"
+    },
+    {
+      "original": "Ron (Weasley)",
+      "conv": "zh-cn:罗恩;zh-tw:榮恩"
+    },
+    {
+      "original": "Fred (Weasley)",
+      "conv": "zh-cn:弗雷德;zh-tw:弗雷"
+    },
+    {
+      "original": "George (Weasley)",
+      "conv": "zh-cn:乔治;zh-tw:喬治"
+    },
+    {
+      "original": "Ginny (Weasley)",
+      "conv": "zh-cn:金妮;zh-tw:金妮"
+    },
+    {
+      "original": "Weasley",
+      "conv": "zh-cn:韦斯莱;zh-tw:衛斯理"
+    },
+    {
+      "original": "Death Eaters",
+      "conv": "zh-tw:食死人;zh-cn:食死徒"
+    },
+    {
+      "original": "Gaunt",
+      "conv": "zh-tw:剛特;zh-cn:冈特"
+    },
+    {
+      "original": "Bellatrix Lestrange",
+      "conv": "zh-cn:贝拉特里克斯·莱斯特兰奇;zh-tw:貝拉·雷斯壯"
+    },
+    {
+      "original": "Lestrange",
+      "conv": "zh-cn:莱斯特兰奇;zh-tw:雷斯壯"
+    },
+    {
+      "original": "Gellert Grindelwald",
+      "conv": "zh-tw:葛林戴華德;zh-cn:格林德沃"
+    },
+    {
+      "original": "Igor (Karkaroff)",
+      "conv": "zh-cn:伊戈尔;zh-tw:依果"
+    },
+    {
+      "original": "(Igor) Karkaroff",
+      "conv": "zh-cn:卡卡洛夫;zh-tw:卡卡夫"
+    },
+    {
+      "original": "Lucius (Malfoy)",
+      "conv": "zh-cn:卢修斯;zh-tw:魯休思"
+    },
+    {
+      "original": "(Lucius) Malfoy",
+      "conv": "zh-cn:马尔福;zh-tw:馬份"
+    },
+    {
+      "original": "Morfin",
+      "conv": "zh-cn:莫芬;zh-tw:魔份"
+    },
+    {
+      "original": "Marvolo",
+      "conv": "zh-cn:马沃罗;zh-tw:魔佛羅"
+    },
+    {
+      "original": "Merope",
+      "conv": "zh-cn:梅洛普;zh-tw:魔柔"
+    },
+    {
+      "original": "Narcissa (Malfoy)",
+      "conv": "zh-tw:水仙;zh-cn:纳西莎"
+    },
+    {
+      "original": "Peter (Pettigrew)",
+      "conv": "zh-cn:小矮星彼得;zh-tw:彼得·佩迪魯"
+    },
+    {
+      "original": "(Peter) Pettigrew",
+      "conv": "zh-cn:小矮星;zh-tw:佩迪魯"
+    },
+    {
+      "original": "(Tom Marvolo) Riddle",
+      "conv": "zh-cn:里德尔;zh-tw:瑞斗"
+    },
+    {
+      "original": "Voldemort",
+      "conv": "zh-cn:伏地魔;zh-tw:佛地魔"
+    },
+    {
+      "original": "You-Know-Who",
+      "conv": "zh-cn:神秘人;zh-tw:那個人"
+    },
+    {
+      "original": "(Alastor) Mad-eye (Moody)",
+      "conv": "zh-cn:疯眼汉;zh-tw:瘋眼"
+    },
+    {
+      "original": "Alastor (Mad-eye) Moody",
+      "conv": "zh-cn:阿拉斯托·穆迪;zh-tw:阿拉特·穆敵"
+    },
+    {
+      "original": "(Alastor) Mad-eye Moody",
+      "conv": "zh-cn:疯眼汉穆迪;zh-tw:瘋眼·穆敵"
+    },
+    {
+      "original": "(Alastor Mad-eye) Moody",
+      "conv": "zh-cn:穆迪;zh-tw:穆敵"
+    },
+    {
+      "original": "(Albus) Dumbledore",
+      "conv": "zh-cn:邓布利多;zh-tw:鄧不利多"
+    },
+    {
+      "original": "(Albus) Percival (Wulfric Brian Dumbledore)",
+      "conv": "zh-cn:珀西瓦尔;zh-tw:博知維"
+    },
+    {
+      "original": "(Albus Percival) Wulfric (Brian Dumbledore)",
+      "conv": "zh-cn:伍尔弗里克;zh-tw:巫服利"
+    },
+    {
+      "original": "(Albus Percival Wulfric) Brian (Dumbledore)",
+      "conv": "zh-cn:布赖恩;zh-tw:布萊恩"
+    },
+    {
+      "original": "Argus (Filch)",
+      "conv": "zh-cn:阿格斯;zh-tw:阿各"
+    },
+    {
+      "original": "(Argus) Filch",
+      "conv": "zh-cn:费尔奇;zh-tw:飛七"
+    },
+    {
+      "original": "(Mr) Flitwick",
+      "conv": "zh-cn:弗立维;zh-tw:孚立維"
+    },
+    {
+      "original": "Gilderoy (Lockhart)",
+      "conv": "zh-cn:吉德罗;zh-tw:吉德羅"
+    },
+    {
+      "original": "(Gilderoy) Lockhart",
+      "conv": "zh-cn:洛哈特;zh-tw:洛哈"
+    },
+    {
+      "original": "Griselda (Marchbanks)",
+      "conv": "zh-cn:玛奇班;zh-tw:馬治邦"
+    },
+    {
+      "original": "Griselda Marchbanks (Professor Marchbanks)",
+      "conv": "zh-cn:玛奇班教授;zh-tw:溫順·馬治邦"
+    },
+    {
+      "original": "(Madam) Hooch",
+      "conv": "zh-cn:霍琦;zh-tw:胡奇"
+    },
+    {
+      "original": "Horace (Slughorn)",
+      "conv": "zh-cn:霍拉斯;zh-tw:赫瑞司"
+    },
+    {
+      "original": "(Horace) Slughorn",
+      "conv": "zh-cn:斯拉格霍恩;zh-tw:史拉轟"
+    },
+    {
+      "original": "(Irma) Pince",
+      "conv": "zh-cn:平斯夫人;zh-tw:朋夫人"
+    },
+    {
+      "original": "Minerva McGonagall",
+      "conv": "zh-cn:米勒娃·麦格;zh-tw:麥米奈娃"
+    },
+    {
+      "original": "Professor McGonagall",
+      "conv": "zh-tw:麥教授;zh-cn:麦格教授"
+    },
+    {
+      "original": "(Professor) Quirrel",
+      "conv": "zh-cn:奇洛;zh-tw:奎若"
+    },
+    {
+      "original": "(Professor Pomona) Sprout",
+      "conv": "zh-cn:斯普劳特;zh-tw:芽菜"
+    },
+    {
+      "original": "(Professor) Binns",
+      "conv": "zh-cn:宾斯;zh-tw:丙斯"
+    },
+    {
+      "original": "(Madam Poppy) Pomfrey",
+      "conv": "zh-cn:庞弗雷;zh-tw:龐芮"
+    },
+    {
+      "original": "Remus (Lupin)",
+      "conv": "zh-cn:莱姆斯;zh-tw:雷木思"
+    },
+    {
+      "original": "(Remus) Lupin",
+      "conv": "zh-cn:卢平;zh-tw:路平"
+    },
+    {
+      "original": "Rubeus (Hagrid)",
+      "conv": "zh-cn:鲁伯;zh-tw:魯霸"
+    },
+    {
+      "original": "Severus (Snape)",
+      "conv": "zh-cn:西弗勒斯;zh-tw:賽佛勒斯"
+    },
+    {
+      "original": "(Severus) Snape",
+      "conv": "zh-cn:斯内普;zh-tw:石內卜"
+    },
+    {
+      "original": "(Professor) Sinistra",
+      "conv": "zh-cn:辛尼斯塔;zh-tw:辛尼區"
+    },
+    {
+      "original": "Sybill (Trelawny)",
+      "conv": "zh-cn:西比尔;zh-tw:西碧"
+    },
+    {
+      "original": "(Sybill) Trelawny",
+      "conv": "zh-cn:特里劳妮;zh-tw:崔老妮"
+    },
+    {
+      "original": "(Professor) Tofty",
+      "conv": "zh-cn:托福迪;zh-tw:禿福"
+    },
+    {
+      "original": "(Professor) Wilhelmina (Grubbly-Plank)",
+      "conv": "zh-tw:薇米;zh-cn:威尔米娜"
+    },
+    {
+      "original": "(Professor Wilhelmina) Grubbly-Plank",
+      "conv": "zh-cn:格拉普兰;zh-tw:葛柏蘭"
+    },
+    {
+      "original": "Gabrielle (Delacour)",
+      "conv": "zh-tw:佳兒;zh-cn:加布丽"
+    },
+    {
+      "original": "Aberforth (Dumbledore)",
+      "conv": "zh-tw:阿波佛;zh-cn:阿不福思"
+    },
+    {
+      "original": "Andromeda (Black)",
+      "conv": "zh-cn:安多米达;zh-tw:美黛"
+    },
+    {
+      "original": "(Lily) Evans",
+      "conv": "zh-tw:伊凡;zh-cn:伊万丝"
+    },
+    {
+      "original": "Moony",
+      "conv": "zh-cn:月亮脸;zh-tw:月影"
+    },
+    {
+      "original": "Olympe (Maxime)",
+      "conv": "zh-cn:奥利姆;zh-tw:歐琳"
+    },
+    {
+      "original": "(Olympe) Maxime",
+      "conv": "zh-cn:马克西姆;zh-tw:美心"
+    },
+    {
+      "original": "Padfoot",
+      "conv": "zh-cn:大脚板;zh-tw:獸足"
+    },
+    {
+      "original": "Prongs",
+      "conv": "zh-cn:尖头叉子;zh-tw:鹿角"
+    },
+    {
+      "original": "(Rita) Skeeter",
+      "conv": "zh-cn:斯基特;zh-tw:史譏"
+    },
+    {
+      "original": "Rodolphus (Lestrange)",
+      "conv": "zh-cn:罗道夫斯;zh-tw:道夫"
+    },
+    {
+      "original": "Regulus Arcturus (Black)",
+      "conv": "zh-cn:雷古勒斯‧阿克图勒斯;zh-tw:獅子‧阿爾發"
+    },
+    {
+      "original": "Sirius Black",
+      "conv": "zh-cn:小天狼星布莱克;zh-tw:天狼星·布萊克"
+    },
+    {
+      "original": "Sirius (Black)",
+      "conv": "zh-cn:小天狼星;zh-tw:天狼星"
+    },
+    {
+      "original": "Phineas (Nigellus Black)",
+      "conv": "zh-tw:非尼呀;zh-cn:菲尼亚斯"
+    },
+    {
+      "original": "(Phineas) Nigellus (Black)",
+      "conv": "zh-tw:耐吉;zh-cn:奈杰勒斯"
+    },
+    {
+      "original": "Wormtail",
+      "conv": "zh-cn:虫尾巴;zh-tw:蟲尾"
+    },
+    {
+      "original": "Hepzibah Smith",
+      "conv": "zh-tw:花奇葩·史密;zh-cn:赫普兹巴·史密斯"
+    },
+    {
+      "original": "Beauxbatons",
+      "conv": "zh-cn:布斯巴顿;zh-tw:波巴洞"
+    },
+    {
+      "original": "Diagon Alley",
+      "conv": "zh-cn:对角巷;zh-tw:斜角巷"
+    },
+    {
+      "original": "Durmstrang",
+      "conv": "zh-cn:德姆斯特朗;zh-tw:德姆蘭"
+    },
+    {
+      "original": "Godric's Hollow",
+      "conv": "zh-cn:戈德里克山谷;zh-tw:高錐克洞"
+    },
+    {
+      "original": "Grimmauld Palace",
+      "conv": "zh-tw:古里某街;zh-cn:格里莫广场"
+    },
+    {
+      "original": "Hogsmeade",
+      "conv": "zh-cn:霍格莫德;zh-tw:活米村"
+    },
+    {
+      "original": "Hogwarts School of Witchcraft and Wizardry",
+      "conv": "zh-cn:霍格沃茨魔法学校;zh-tw:霍格華茲魔法與巫術學院;zh-hk:霍格華茲魔法學校"
+    },
+    {
+      "original": "Hogwarts",
+      "conv": "zh-cn:霍格沃茨;zh-tw:霍格華茲"
+    },
+    {
+      "original": "King's Cross Station",
+      "conv": "zh-cn:国王十字车站;zh-tw:國王十字車站"
+    },
+    {
+      "original": "Platform Nine and Three-Quarters",
+      "conv": "zh-cn:九又四分之三站台;zh-tw:九又四分之三月台"
+    },
+    {
+      "original": "Platform 9¾",
+      "conv": "zh-cn:9¾站台;zh-tw:9¾月台"
+    },
+    {
+      "original": "Knockturn Alley",
+      "conv": "zh-cn:翻倒巷;zh-tw:夜行巷"
+    },
+    {
+      "original": "Little Hangleton",
+      "conv": "zh-cn:小汉格顿;zh-tw:小漢果頓"
+    },
+    {
+      "original": "Little Whinging",
+      "conv": "zh-cn:小惠金区;zh-tw:小惠因區"
+    },
+    {
+      "original": "Magnolia Crescent",
+      "conv": "zh-cn:木兰花新月街;zh-tw:蘭月街"
+    },
+    {
+      "original": "Ottery St. Catchpole",
+      "conv": "zh-cn:奥特里-圣卡奇波尔;zh-tw:凱奇波區奧特瑞街"
+    },
+    {
+      "original": "Privet Drive",
+      "conv": "zh-cn:女贞路;zh-tw:水蠟樹街"
+    },
+    {
+      "original": "Room of Requirement",
+      "conv": "zh-tw:萬應室;zh-cn:有求必应屋"
+    },
+    {
+      "original": "Shell Cottage",
+      "conv": "zh-tw:貝殼屋;zh-cn:贝壳小屋"
+    },
+    {
+      "original": "Spider's End",
+      "conv": "zh-cn:蜘蛛尾巷;zh-tw:紡紗街"
+    },
+    {
+      "original": "St Mungo's Hospital for Magical Maladies and Injuries",
+      "conv": "zh-cn:圣芒戈魔法伤病医院;zh-tw:聖蒙果魔法疾病與傷害醫院"
+    },
+    {
+      "original": "Stoatshead Hill",
+      "conv": "zh-cn:白鼬山;zh-tw:鼬頭丘"
+    },
+    {
+      "original": "The Burrow",
+      "conv": "zh-cn:陋居;zh-tw:洞穴屋"
+    },
+    {
+      "original": "Godric (Gryffindor)",
+      "conv": "zh-cn:戈德里克;zh-tw:高錐客"
+    },
+    {
+      "original": "Gryffindor",
+      "conv": "zh-cn:格兰芬多;zh-tw:葛來分多"
+    },
+    {
+      "original": "Helga (Hufflepuff)",
+      "conv": "zh-cn:赫尔加;zh-tw:海加"
+    },
+    {
+      "original": "Hufflepuff",
+      "conv": "zh-cn:赫奇帕奇;zh-tw:赫夫帕夫"
+    },
+    {
+      "original": "Rowena (Ravenclaw)",
+      "conv": "zh-cn:罗伊纳;zh-tw:羅威娜"
+    },
+    {
+      "original": "Ravenclaw",
+      "conv": "zh-cn:拉文克劳;zh-tw:雷文克勞"
+    },
+    {
+      "original": "Salazar (Slytherin)",
+      "conv": "zh-cn:萨拉查;zh-tw:薩拉札"
+    },
+    {
+      "original": "Slytherin",
+      "conv": "zh-cn:斯莱特林;zh-tw:史萊哲林"
+    },
+    {
+      "original": "Borgin (& Burkes)",
+      "conv": "zh-cn:博金;zh-tw:波金"
+    },
+    {
+      "original": "(Borgin &) Burkes",
+      "conv": "zh-cn:博克;zh-tw:伯克斯"
+    },
+    {
+      "original": "Borgin & Burkes",
+      "conv": "zh-cn:博金—博克;zh-tw:波金與伯克斯"
+    },
+    {
+      "original": "Dervish (& Banges)",
+      "conv": "zh-cn:德维斯;zh-tw:德維"
+    },
+    {
+      "original": "(Dervish &) Banges",
+      "conv": "zh-cn:班斯;zh-tw:班吉"
+    },
+    {
+      "original": "Dervish & Banges",
+      "conv": "zh-cn:德维斯—班斯;zh-tw:德維與班吉"
+    },
+    {
+      "original": "Eeylops Owl Emporium",
+      "conv": "zh-cn:咿啦猫头鹰商店;zh-tw:咿啦貓頭鷹商場"
+    },
+    {
+      "original": "Florean (Fortescue)",
+      "conv": "zh-cn:福洛林;zh-tw:伏林"
+    },
+    {
+      "original": "(Florean) Fortescue",
+      "conv": "zh-cn:福斯科;zh-tw:伏德秋"
+    },
+    {
+      "original": "Florean Fortescue's Ice-Cream Parlour",
+      "conv": "zh-cn:福洛林·福斯科的冰淇淋小店;zh-tw:伏林·伏德秋冰淇淋店"
+    },
+    {
+      "original": "Florean Fortescue's Ice-Cream Parlour",
+      "conv": "zh-cn:弗洛林冷饮店;zh-tw:伏林·伏德秋冰淇淋店"
+    },
+    {
+      "original": "Flourish & Blotts",
+      "conv": "zh-cn:丽痕书店;zh-tw:華麗與污痕書店"
+    },
+    {
+      "original": "Gambol & Japes Wizarding Joke Shop",
+      "conv": "zh-cn:蹦跳嬉闹魔法笑话商店;zh-tw:嬉戲與戲謔巫術惡作劇商店"
+    },
+    {
+      "original": "Gladrags Wizardwear",
+      "conv": "zh-cn:风雅牌巫师服装店;zh-tw:高級巫師服飾"
+    },
+    {
+      "original": "Honeydukes",
+      "conv": "zh-cn:蜂蜜公爵;zh-tw:蜂蜜公爵糖果店"
+    },
+    {
+      "original": "Madam Malkin's Robes for All Occasions",
+      "conv": "zh-cn:摩金夫人长袍专卖店;zh-tw:摩金夫人的各式長袍"
+    },
+    {
+      "original": "Madam Puddifoot('s tea shop)",
+      "conv": "zh-cn:帕笛芙夫人;zh-tw:泥腳夫人"
+    },
+    {
+      "original": "Madam Puddifoot's tea shop",
+      "conv": "zh-cn:帕笛芙夫人的茶馆;zh-tw:「泥腳夫人」的喫茶店"
+    },
+    {
+      "original": "Magical Menagerie",
+      "conv": "zh-cn:神奇动物园;zh-tw:奇獸動物園"
+    },
+    {
+      "original": "Ollivanders",
+      "conv": "zh-cn:奥利凡德;zh-tw:奧利凡德"
+    },
+    {
+      "original": "Quality Quidditch Supplies",
+      "conv": "zh-cn:魁地奇精品专卖店;zh-tw:優質魁地奇用品商店"
+    },
+    {
+      "original": "Scrivenshaft's Quill Shop",
+      "conv": "zh-cn:文人居羽毛笔店;zh-tw:寫字人羽毛筆店"
+    },
+    {
+      "original": "The Hog's Head",
+      "conv": "zh-cn:猪头酒吧;zh-tw:豬頭酒吧"
+    },
+    {
+      "original": "The Leaky Cauldron",
+      "conv": "zh-cn:破釜酒吧;zh-tw:破釜酒吧"
+    },
+    {
+      "original": "The Three Broomsticks",
+      "conv": "zh-cn:三把扫帚;zh-tw:三根掃帚"
+    },
+    {
+      "original": "Twilfitt and Tatting's",
+      "conv": "zh-cn:脱凡成衣店;zh-tw:何紳與華邊"
+    },
+    {
+      "original": "Weasley's Wizard Wheezes",
+      "conv": "zh-cn:韦斯莱魔法把戏坊;zh-tw:衛氏巫師法寶店"
+    },
+    {
+      "original": "Zonko's Wizarding Joke Shop",
+      "conv": "zh-cn:佐科笑话店;zh-tw:桑柯的惡作劇商店"
+    },
+    {
+      "original": "Auto-Answer Quill",
+      "conv": "zh-cn:自动答题羽毛笔;zh-tw:自動作答羽毛筆"
+    },
+    {
+      "original": "Bludger",
+      "conv": "zh-cn:游走球;zh-tw:搏格"
+    },
+    {
+      "original": "Broom Compass",
+      "conv": "zh-cn:扫帚指南针;zh-tw:掃帚指南針"
+    },
+    {
+      "original": "Detachable Cribbing Cuffs",
+      "conv": "zh-cn:拆卸式夹带袖口;zh-tw:分離式抄襲袖套"
+    },
+    {
+      "original": "Elder Wand",
+      "conv": "zh-cn:老魔杖;zh-tw:接骨木魔杖"
+    },
+    {
+      "original": "Ever-Bashing Boomerang",
+      "conv": "zh-cn:连击飞回镖;zh-tw:一直緊追著人不放的迴力錶"
+    },
+    {
+      "original": "Extendable Ears",
+      "conv": "zh-cn:伸缩耳;zh-tw:伸縮耳"
+    },
+    {
+      "original": "Fanged Frisbee",
+      "conv": "zh-cn:狼牙飞碟;zh-tw:長牙齒的飛盤"
+    },
+    {
+      "original": "Firebolt",
+      "conv": "zh-cn:火弩箭;zh-tw:火閃電"
+    },
+    {
+      "original": "Floo Powder",
+      "conv": "zh-cn:飞路粉;zh-tw:呼嚕粉"
+    },
+    {
+      "original": "Floo Network",
+      "conv": "zh-cn:飞路网;zh-tw:呼嚕網"
+    },
+    {
+      "original": "Foe-Glass",
+      "conv": "zh-cn:照妖镜;zh-tw:仇敵鏡"
+    },
+    {
+      "original": "Gobstones",
+      "conv": "zh-cn:高布石;zh-tw:多多石"
+    },
+    {
+      "original": "Golden Snitch",
+      "conv": "zh-cn:金色飞贼;zh-tw:金探子"
+    },
+    {
+      "original": "GubraithianFire",
+      "conv": "zh-cn:古卜莱仙火;zh-tw:不滅火"
+    },
+    {
+      "original": "Handof Glory",
+      "conv": "zh-cn:光荣之手;zh-tw:光榮之手"
+    },
+    {
+      "original": "Horcrux",
+      "conv": "zh-tw:分靈體;zh-cn:魂器"
+    },
+    {
+      "original": "Howler",
+      "conv": "zh-cn:吼叫信;zh-tw:咆哮信"
+    },
+    {
+      "original": "Invisibility Cloak",
+      "conv": "zh-cn:隐形衣;zh-tw:隱形斗篷"
+    },
+    {
+      "original": "Lunascope",
+      "conv": "zh-cn:望月镜;zh-tw:月亮觀測儀"
+    },
+    {
+      "original": "Marauders' Map",
+      "conv": "zh-cn:活点地图;zh-tw:劫盜地圖"
+    },
+    {
+      "original": "Mirrorof Erised",
+      "conv": "zh-cn:厄里斯魔镜;zh-tw:意若思鏡"
+    },
+    {
+      "original": "Nose-Biting Teacup",
+      "conv": "zh-cn:咬鼻子茶杯;zh-tw:會咬人鼻子的茶杯"
+    },
+    {
+      "original": "Omnioculars",
+      "conv": "zh-cn:全景望远镜;zh-tw:全效望遠鏡"
+    },
+    {
+      "original": "Pensieve",
+      "conv": "zh-cn:冥想盆;zh-tw:儲思盆"
+    },
+    {
+      "original": "Portkey",
+      "conv": "zh-cn:门钥匙;zh-tw:港口鑰"
+    },
+    {
+      "original": "Put-Outer",
+      "conv": "zh-cn:熄灯器;zh-tw:熄燈器"
+    },
+    {
+      "original": "Quick-Quotes Quill",
+      "conv": "zh-cn:速记羽毛笔;zh-tw:速記筆"
+    },
+    {
+      "original": "Quaffle",
+      "conv": "zh-cn:鬼飞球;zh-tw:快浮"
+    },
+    {
+      "original": "Remembrall",
+      "conv": "zh-cn:记忆球;zh-tw:記憶球"
+    },
+    {
+      "original": "Revealer",
+      "conv": "zh-cn:显形橡皮;zh-tw:現形擦"
+    },
+    {
+      "original": "Screaming Yo-yo",
+      "conv": "zh-cn:尖叫游游球;zh-tw:會尖叫的溜溜球"
+    },
+    {
+      "original": "Secrecy Sensor",
+      "conv": "zh-cn:探秘器;zh-tw:祕密感應器"
+    },
+    {
+      "original": "Self-Correcting Ink",
+      "conv": "zh-cn:自动纠错墨水;zh-tw:自動更正墨水"
+    },
+    {
+      "original": "Sneak-o-scope",
+      "conv": "zh-cn:窥镜;zh-tw:測奸器"
+    },
+    {
+      "original": "Sorting Hat",
+      "conv": "zh-cn:分院帽;zh-tw:分類帽"
+    },
+    {
+      "original": "Spellotape",
+      "conv": "zh-cn:魔法胶带;zh-tw:魔術膠帶"
+    },
+    {
+      "original": "TailTwig Clippers",
+      "conv": "zh-cn:扫帚细枝剪切器;zh-tw:掃尾細枝修剪刀"
+    },
+    {
+      "original": "Time-Turner",
+      "conv": "zh-cn:时间转换器;zh-tw:時光器"
+    },
+    {
+      "original": "Polyjuice",
+      "conv": "zh-cn:复方汤剂;zh-tw:變身水"
+    },
+    {
+      "original": "Deathly Hallows",
+      "conv": "zh-cn:死亡圣器;zh-tw:死神聖物"
+    },
+    {
+      "original": "Resurrection Stone",
+      "conv": "zh-cn:复活石;zh-tw:還魂石"
+    },
+    {
+      "original": "Accio",
+      "conv": "zh-cn:飞来飞去;zh-tw:速速前"
+    },
+    {
+      "original": "Alohomora",
+      "conv": "zh-cn:阿拉霍洞开;zh-tw:阿喀哈呣啦"
+    },
+    {
+      "original": "Animagi",
+      "conv": "zh-cn:阿尼玛吉;zh-tw:化獸術"
+    },
+    {
+      "original": "Aparecium",
+      "conv": "zh-cn:急急现形;zh-tw:阿八拉象"
+    },
+    {
+      "original": "Avada Kedavra",
+      "conv": "zh-cn:阿瓦达索命;zh-tw:啊哇呾喀呾啦"
+    },
+    {
+      "original": "Avis",
+      "conv": "zh-cn:飞鸟群群 ;zh-tw:飛飛禽"
+    },
+    {
+      "original": "Colloportus",
+      "conv": "zh-cn:快快禁锢 ;zh-tw:密密膠"
+    },
+    {
+      "original": "Crucio",
+      "conv": "zh-cn:钻心剜骨 ;zh-tw:咒咒虐"
+    },
+    {
+      "original": "Deletrius",
+      "conv": "zh-cn:消隐无踪;zh-tw:吹吹除"
+    },
+    {
+      "original": "Densaugeo",
+      "conv": "zh-cn:门牙赛大棒 ;zh-tw:涎涎牙"
+    },
+    {
+      "original": "Diffindo",
+      "conv": "zh-cn:四分五裂;zh-tw:吩吩綻"
+    },
+    {
+      "original": "Dissendium",
+      "conv": "zh-cn:左右为难 ;zh-tw:咻咻降"
+    },
+    {
+      "original": "Enervate",
+      "conv": "zh-cn:快快复苏 ;zh-tw:萎萎起"
+    },
+    {
+      "original": "Engorgio",
+      "conv": "zh-cn:速速变大;zh-tw:暴暴吞"
+    },
+    {
+      "original": "Evanesco",
+      "conv": "zh-cn:消影无踪;zh-tw:消消藏"
+    },
+    {
+      "original": "Expecto Patronum",
+      "conv": "zh-cn:呼神护卫;zh-tw:疾疾，護法現身"
+    },
+    {
+      "original": "Expelliarmus",
+      "conv": "zh-cn:除你武器 ;zh-tw:去去，武器走"
+    },
+    {
+      "original": "Ferula",
+      "conv": "zh-cn:阿魏啦 ;zh-tw:咕咕圈"
+    },
+    {
+      "original": "Finite",
+      "conv": "zh-cn:终了结束;zh-tw:止止止"
+    },
+    {
+      "original": "Finite incantatem",
+      "conv": "zh-cn:咒立停 ;zh-tw:止止，魔咒消"
+    },
+    {
+      "original": "Flagrate",
+      "conv": "zh-cn:标记显现;zh-tw:辣辣燃"
+    },
+    {
+      "original": "Furnunculus",
+      "conv": "zh-cn:火烤热辣辣;zh-tw:熔熔沸"
+    },
+    {
+      "original": "Impedimenta",
+      "conv": "zh-cn:障碍重重;zh-tw:噴噴障"
+    },
+    {
+      "original": "Imperio",
+      "conv": "zh-cn:魂魄出窍;zh-tw:噩噩令"
+    },
+    {
+      "original": "Impervius",
+      "conv": "zh-cn:防水防湿;zh-tw:止止，不透"
+    },
+    {
+      "original": "Incarcerous",
+      "conv": "zh-cn:速速禁锢;zh-tw:繩繩禁"
+    },
+    {
+      "original": "Incendio",
+      "conv": "zh-cn:火焰熊熊;zh-tw:吼吼燒"
+    },
+    {
+      "original": "Legilimens",
+      "conv": "zh-cn:摄神取念;zh-tw:破破心"
+    },
+    {
+      "original": "Locomotor ....",
+      "conv": "zh-cn:移动;zh-tw:疾疾，動"
+    },
+    {
+      "original": "Locomotor Mortis",
+      "conv": "zh-cn:腿立僵停死;zh-tw:榫頭-失準"
+    },
+    {
+      "original": "Lumos",
+      "conv": "zh-cn:荧光闪烁;zh-tw:路摸思"
+    },
+    {
+      "original": "Mobiliarbus",
+      "conv": "zh-cn:幻影移形;zh-tw:呼呼移"
+    },
+    {
+      "original": "Mobilicorpus",
+      "conv": "zh-cn:移形幻影;zh-tw:浮浮，殭屍行"
+    },
+    {
+      "original": "Morsmordre",
+      "conv": "zh-cn:尸骨再现;zh-tw:魔魔斃"
+    },
+    {
+      "original": "Nox",
+      "conv": "zh-cn:诺克斯;zh-tw:吶剋斯"
+    },
+    {
+      "original": "Obliviate",
+      "conv": "zh-cn:一忘皆空;zh-tw:空空，遺忘"
+    },
+    {
+      "original": "Occlumency",
+      "conv": "zh-cn:大脑封闭术;zh-tw:鎖心術"
+    },
+    {
+      "original": "Orchideus",
+      "conv": "zh-cn:兰花盛开;zh-tw:噗噗蘭"
+    },
+    {
+      "original": "Pack",
+      "conv": "zh-cn:收拾;zh-tw:打包"
+    },
+    {
+      "original": "Parselmouth",
+      "conv": "zh-cn:蛇佬腔;zh-tw:爬說嘴"
+    },
+    {
+      "original": "Peskipiksi Pesternomi",
+      "conv": "zh-cn:佩斯奇皮克西 佩斯特诺米;zh-tw:皮斯克皮克斯，皮斯特諾米"
+    },
+    {
+      "original": "Petrificus totalus",
+      "conv": "zh-cn:统统石化;zh-tw:整整，石化"
+    },
+    {
+      "original": "Point Me",
+      "conv": "zh-cn:给我指路;zh-tw:指引我方向"
+    },
+    {
+      "original": "Portus",
+      "conv": "zh-cn:门托斯;zh-tw:港口現"
+    },
+    {
+      "original": "Prior Incantato",
+      "conv": "zh-cn:闪回前咒;zh-tw:呼呼，前咒現"
+    },
+    {
+      "original": "Protego",
+      "conv": "zh-cn:盔甲护身;zh-tw:破心護"
+    },
+    {
+      "original": "Quietus",
+      "conv": "zh-cn:悄声细语;zh-tw:噓噓靜"
+    },
+    {
+      "original": "Reducio",
+      "conv": "zh-cn:速速缩小;zh-tw:啾啾縮"
+    },
+    {
+      "original": "Reducto",
+      "conv": "zh-cn:粉身碎骨;zh-tw:嚗嚗消"
+    },
+    {
+      "original": "Relashio",
+      "conv": "zh-cn:力松劲泄;zh-tw:嘶嘶退"
+    },
+    {
+      "original": "Reparo",
+      "conv": "zh-cn:恢复如初;zh-tw:復復修"
+    },
+    {
+      "original": "Rictusempra",
+      "conv": "zh-cn:咧嘴呼啦啦;zh-tw:哩吐三卜啦"
+    },
+    {
+      "original": "Riddikulus",
+      "conv": "zh-cn:滑稽滑稽;zh-tw:叱叱，荒唐"
+    },
+    {
+      "original": "Scourgify",
+      "conv": "zh-cn:清理一新;zh-tw:滅滅淨"
+    },
+    {
+      "original": "Serpensortia",
+      "conv": "zh-cn:乌龙出洞;zh-tw:蛇蛇攻"
+    },
+    {
+      "original": "Silencio",
+      "conv": "zh-cn:无声无息;zh-tw:默默靜"
+    },
+    {
+      "original": "Sonorus",
+      "conv": "zh-cn:声音洪亮;zh-tw:哄哄響"
+    },
+    {
+      "original": "Stupefy",
+      "conv": "zh-cn:昏昏倒地;zh-tw:咄咄失"
+    },
+    {
+      "original": "Sectumsempra",
+      "conv": "zh-cn:神锋无影;zh-tw:撕淌三步殺"
+    },
+    {
+      "original": "Tarantallegra",
+      "conv": "zh-cn:塔朗泰拉舞;zh-tw:塔朗泰拉跳"
+    },
+    {
+      "original": "Waddiwasi",
+      "conv": "zh-cn:瓦迪瓦西;zh-tw:哇嘀哇唏"
+    },
+    {
+      "original": "Wingardium Leviosa",
+      "conv": "zh-cn:羽加迪姆 勒维奥萨;zh-tw:溫咖癲啦唯啊薩"
+    },
+    {
+      "original": "Patronus",
+      "conv": "zh-tw:護法;zh-cn:守护神"
+    },
+    {
+      "original": "Mrs Figg",
+      "conv": "zh-tw:費太太;zh-cn:费格太太"
+    },
+    {
+      "original": "Quidditch Through the Ages",
+      "conv": "zh-cn:神奇的魁地奇球;zh-tw:穿越歷史的魁地奇"
+    },
+    {
+      "original": "Fantastic Beasts and Where to Find Them",
+      "conv": "zh-cn:神奇动物在哪里; zh-tw:怪獸與牠們的產地; zh-sg:怪兽与它们的产地;"
+    },
+    {
+      "original": "Fantastic Beasts: The Crimes of Grindelwald",
+      "conv": "zh-cn:神奇动物：格林德沃之罪; zh-hk:怪獸與葛林戴華德之罪; zh-tw:怪獸與葛林戴華德的罪行; zh-sg:怪兽与葛林戴华德的罪行;"
+    },
+    {
+      "original": "The Tales of Beedle the Bard",
+      "conv": "zh-cn:诗翁彼豆故事集; zh-tw:吟遊詩人皮陀故事集"
+    },
+    {
+      "original": "Ancient Runes",
+      "conv": "zh-tw:古代神秘文字研究;zh-cn:古代魔文"
+    },
+    {
+      "original": "Animagus",
+      "conv": "zh-tw:化獸師;zh-cn:阿尼玛格斯"
+    },
+    {
+      "original": "Department of Mysteries",
+      "conv": "zh-tw:神秘部;zh-cn:神秘事务司"
+    },
+    {
+      "original": "Dumbledore's Army",
+      "conv": "zh-cn:邓布利多军;zh-tw:鄧不利多的軍隊"
+    },
+    {
+      "original": "(Evan) Rosier",
+      "conv": "zh-tw:伊凡·羅西兒;zh-cn:埃文·罗齐尔"
+    },
+    {
+      "original": "Forbidden Forest",
+      "conv": "zh-cn:禁林;zh-tw:禁忌森林"
+    },
+    {
+      "original": "Hippogriff",
+      "conv": "zh-tw:鷹馬;zh-cn:鹰头马身有翼兽"
+    },
+    {
+      "original": "House-elves",
+      "conv": "zh-tw:家庭小精靈;zh-cn:家养小精灵"
+    },
+    {
+      "original": "Mudblood",
+      "conv": "zh-cn:泥巴种;zh-tw:麻種"
+    },
+    {
+      "original": "Squib",
+      "conv": "zh-tw:爆竹;zh-cn:哑炮"
+    },
+    {
+      "original": "The Quibbler",
+      "conv": "zh-tw:謬論家;zh-cn:唱唱反调"
+    },
+    {
+      "original": "Triwizard Tournament",
+      "conv": "zh-tw:三巫鬥法大賽;zh-cn:三强争霸赛"
+    },
+    {
+      "original": "Troll",
+      "conv": "zh-tw:山怪;zh-cn:巨怪"
+    },
+    {
+      "original": "Whomping Willow",
+      "conv": "zh-cn:打人柳;zh-tw:渾拚柳"
+    },
+    {
+      "original": "Wizengamot",
+      "conv": "zh-tw:巫審加碼;zh-cn:威森加摩"
+    },
+    {
+      "original": "Apparition",
+      "conv": "zh-tw:现影;zh-cn:幻影显形"
+    },
+    {
+      "original": "Disapparition",
+      "conv": "zh-tw:消影;zh-cn:幻影移形"
+    },
+    {
+      "original": "Thestral",
+      "conv": "zh-tw:騎士墜鬼馬;zh-cn:夜骐"
+    },
+    {
+      "original": "Fidelius Charm",
+      "conv": "zh-tw:忠實咒;zh-cn:赤胆忠心咒"
+    },
+    {
+      "original": "Unbreakable Vow",
+      "conv": "zh-cn:牢不可破的誓言;zh-tw:不破誓"
+    },
+    {
+      "original": "International Statute of Secrecy",
+      "conv": "zh-cn:国际保密法;zh-tw:國際保密規章"
+    },
+    {
+      "original": "Yaxley",
+      "conv": "zh-cn:亚克斯利;zh-tw:牙克厲"
+    },
+    {
+      "original": "Pius Thicknesse",
+      "conv": "zh-cn:皮尔斯·辛克尼斯;zh-tw:派厄思·希克尼"
+    },
+    {
+      "original": "Veela",
+      "conv": "zh-cn:媚娃;zh-tw:迷拉"
+    },
+    {
+      "original": "Grigovich",
+      "conv": "zh-cn:格里戈维奇;zh-tw:葛果羅威"
+    },
+    {
+      "original": "Periculum",
+      "conv": "zh-cn:红色火花;zh-tw:啪銳喀錀"
+    },
+    {
+      "original": "Immobulus",
+      "conv": "zh-cn:全部定身;zh-tw:依莫比拉"
+    },
+    {
+      "original": "common room",
+      "conv": "zh-cn:公共休息室;zh-tw:交誼廳"
+    },
+    {
+      "original": "Amycus",
+      "conv": "zh-cn:阿米库斯;zh-tw:艾米克"
+    },
+    {
+      "original": "Regulus Arcturus Black",
+      "conv": "zh-cn:雷古勒斯·阿塔洛斯·布莱克;zh-tw:獅子阿爾發·布萊克"
+    },
+    {
+      "original": "Reverse-spell Effect",
+      "conv": "zh-cn:闪回咒效应;zh-tw:符咒倒轉效應"
+    },
+    {
+      "original": "Arania Exumai",
+      "conv": "zh-cn:蜘蛛退散;zh-tw:阿洛尼艾斯美"
+    },
+    {
+      "original": "I solemnly swear that I am up to no good",
+      "conv": "zh-cn:我庄严宣誓我不干好事;zh-tw:我在此鄭重發誓，我絕對不懷好意"
+    },
+    {
+      "original": "Mischief managed",
+      "conv": "zh-cn:恶作剧完毕;zh-tw:惡作劇完成"
+    },
+    {
+      "original": "Dissendium",
+      "conv": "zh-cn:左右分离;zh-tw:咻咻降"
+    },
+    {
+      "original": "12 Grimmauld Place",
+      "conv": "zh-cn:格里莫广场12号;zh-tw:古裡某街12號"
+    },
+    {
+      "original": "Ms Weasley",
+      "conv": "zh-cn:韦斯莱夫人;zh-tw:衞斯理太太"
+    },
+    {
+      "original": "St Mungo",
+      "conv": "zh-cn:圣芒戈;zh-tw:聖蒙果"
+    },
+    {
+      "original": "Imperious Curse",
+      "conv": "zh-cn:夺魂咒;zh-tw:蠻橫咒"
+    },
+    {
+      "original": "Professor McGonagall",
+      "conv": "zh-cn:麦格教授;zh-tw:麥教授"
+    },
+    {
+      "original": "Unforgivable Curses",
+      "conv": "zh-cn:不可饶恕咒;zh-tw:不赦咒"
+    },
+    {
+      "original": "Legilimency",
+      "conv": "zh-cn:摄神取念术;zh-tw:破心術"
+    },
+    {
+      "original": "Occlumency",
+      "conv": "zh-cn:大脑封闭术;zh-tw:鎖心術"
+    },
+    {
+      "original": "Levicorpus",
+      "conv": "zh-cn:倒挂金钟;zh-tw:倒倒吊"
+    },
+    {
+      "original": "Aguamenti",
+      "conv": "zh-cn:清水如泉;zh-tw:水水噴"
+    },
+    {
+      "original": "Rennervate",
+      "conv": "zh-cn:恢复活力;zh-tw:力力復"
+    },
+    {
+      "original": "Tergeo",
+      "conv": "zh-cn:旋风扫净;zh-tw:哆哆潔"
+    },
+    {
+      "original": "Muffliato",
+      "conv": "zh-cn:闭耳塞听;zh-tw:嗡嗡鳴"
+    },
+    {
+      "original": "Langlock",
+      "conv": "zh-cn:锁舌封喉;zh-tw:噤噤言"
+    },
+    {
+      "original": "Anapneo",
+      "conv": "zh-cn:安咳消;zh-tw:路路通"
+    },
+    {
+      "original": "Oppugno",
+      "conv": "zh-cn:万箭齐发;zh-tw:衝衝攻"
+    },
+    {
+      "original": "Liberacorpus",
+      "conv": "zh-cn:金钟落地;zh-tw:退退降"
+    },
+    {
+      "original": "Gerremoffme",
+      "conv": "zh-cn:消影无踪;zh-tw:讓它們滾"
+    },
+    {
+      "original": "Dijjindo",
+      "conv": "zh-cn:四分五裂;zh-tw:吩吩綻"
+    },
+    {
+      "original": "Descendo",
+      "conv": "zh-cn:应声落地;zh-tw:低低降"
+    },
+    {
+      "original": "Deprimo",
+      "conv": "zh-cn:房塌地陷;zh-tw:窟窿現"
+    },
+    {
+      "original": "Defodio",
+      "conv": "zh-cn:四分五裂;zh-tw:洞洞鑿"
+    },
+    {
+      "original": "Expulso",
+      "conv": "zh-cn:飞沙走石;zh-tw:轟轟破"
+    },
+    {
+      "original": "Geminio",
+      "conv": "zh-cn:复制成双;zh-tw:雙雙製"
+    },
+    {
+      "original": "Confringo",
+      "conv": "zh-cn:霹雳爆炸;zh-tw:爆爆炸"
+    },
+    {
+      "original": "Homenum Revelio",
+      "conv": "zh-cn:人形显身;zh-tw:人人現"
+    },
+    {
+      "original": "Meteolojinx Recanto",
+      "conv": "zh-cn:云咒撤回;zh-tw:撒撒—氣象"
+    },
+    {
+      "original": "Piertotum Locomotor",
+      "conv": "zh-cn:石礅出动;zh-tw:雕像，行行起"
+    },
+    {
+      "original": "Protego Horribilis",
+      "conv": "zh-cn:降敌陷阱;zh-tw:破心護，強強厲威"
+    },
+    {
+      "original": "Protego Totalum",
+      "conv": "zh-cn:统统加护;zh-tw:全全破心護"
+    },
+    {
+      "original": "Repello Muggletum",
+      "conv": "zh-cn:麻瓜屏蔽;zh-tw:去去麻瓜走"
+    },
+    {
+      "original": "Salvio Hexia",
+      "conv": "zh-cn:平安镇守;zh-tw:安安，除惡咒"
+    },
+    {
+      "original": "Undetectable Extension Charm",
+      "conv": "zh-cn:无痕伸展咒;zh-tw:無形伸展咒"
+    },
+    {
+      "original": "Glisseo",
+      "conv": "zh-cn:滑道平平;zh-tw:光光滑"
+    },
+    {
+      "original": "Duro",
+      "conv": "zh-cn:幻形石板;zh-tw:硬硬堅"
+    },
+    {
+      "original": "Confundo",
+      "conv": "zh-cn:混淆视听;zh-tw:糊糊迷"
+    },
+    {
+      "original": "Confundus Charm",
+      "conv": "zh-cn:混淆咒;zh-tw:迷糊咒"
+    },
+    {
+      "original": "Animagi",
+      "conv": "zh-cn:阿尼马吉;zh-tw:化獸法"
+    },
+    {
+      "original": "Peruvian Instant Darkness Powder",
+      "conv": "zh-cn:秘鲁隐身烟雾弹;zh-tw:秘魯神奇黑暗粉"
+    },
+    {
+      "original": "Locomotor Trunk",
+      "conv": "zh-cn:箱子移动;zh-tw:疾疾動箱"
+    },
+    {
+      "original": "Protean Charm",
+      "conv": "zh-cn:变化咒;zh-tw:多身咒"
+    },
+    {
+      "original": "Protean Charm",
+      "conv": "zh-cn:厉火;zh-tw:惡魔之火"
+    },
+    {
+      "original": "Disillusion Charm",
+      "conv": "zh-cn:幻身咒;zh-tw:滅幻咒"
+    },
+    {
+      "original": "Blast-Ended Skrewts",
+      "conv": "zh-cn:炸尾螺;zh-tw:爆尾釘蝦"
+    },
+    {
+      "original": "Repello Inimicumt",
+      "conv": "zh-cn:驱逐敌方;zh-tw:護護敵不進"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:比比多味豆; zh-hant:柏蒂全口味豆;"
+    },
+    {
+      "original": "Latin",
+      "conv": "zh-cn:拉丁;zh-tw:拉丁"
+    }
+  ]
+}

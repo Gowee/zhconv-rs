@@ -1,0 +1,359 @@
+{
+  "name": "Sim",
+  "description": "模拟系列游戏",
+  "path": "Template:CGroup/Sim",
+  "rules": [
+    {
+      "original": "The Sims Livin' Large",
+      "conv": "zh-cn:模拟人生 美好生活;zh-tw:模擬市民：美麗人生;zh-hk:模擬人生：美好生活;"
+    },
+    {
+      "original": "The Sims House Party",
+      "conv": "zh-cn:模拟人生 欢乐派对;zh-tw:模擬市民：家庭派對;"
+    },
+    {
+      "original": "The Sims Hot Date",
+      "conv": "zh-cn:模拟人生 燃情约会;zh-tw:模擬市民：非常男女; zh-hk:模擬人生：燃情約會"
+    },
+    {
+      "original": "The Sims Vacation",
+      "conv": "zh-cn:模拟人生 我在休假;zh-tw:模擬人生：歡樂假期;"
+    },
+    {
+      "original": "The Sims Unleashed",
+      "conv": "zh-cn:模拟人生 家有宠物;zh-tw:模擬人生：寵物世代;"
+    },
+    {
+      "original": "The Sims Superstar",
+      "conv": "zh-cn:模拟人生 超级明星;zh-tw:模擬人生：超級巨星;"
+    },
+    {
+      "original": "The Sims Makin' Magic",
+      "conv": "zh-cn:模拟人生 魔幻天地;zh-tw:模擬市民：魔法世界;zh-hk:模擬人生：魔幻天地"
+    },
+    {
+      "original": "The Sims 2 University",
+      "conv": "zh-cn:模拟人生2 大学城;zh-tw:模擬市民2：夢幻大學城;zh-hk:模擬人生2：夢幻大學城;"
+    },
+    {
+      "original": "The Sims 2 Nightlife",
+      "conv": "zh-cn:模拟人生2 夜生活;zh-tw:模擬市民2：美麗夜未眠;zh-hk:模擬人生2：美麗夜未眠;"
+    },
+    {
+      "original": "The Sims 2 Open for Business",
+      "conv": "zh-cn:模拟人生2 我要开店;zh-tw:模擬市民2：開店達人;zh-hk:模擬人生2：開店達人;"
+    },
+    {
+      "original": "The Sims 2 Pets",
+      "conv": "zh-cn:模拟人生2 宠物当家;zh-tw:模擬市民2：寵物當家;zh-hk:模擬人生2：寵物當家;"
+    },
+    {
+      "original": "The Sims 2 Seasons",
+      "conv": "zh-cn:模拟人生2 缤纷四季;zh-tw:模擬市民2：度假四季;zh-hk:模擬人生2：繽紛四季;"
+    },
+    {
+      "original": "The Sims 2 Bon Voyage",
+      "conv": "zh-cn:模拟人生2 游遍天下;zh-tw:模擬市民2：環遊世界;zh-hk:模擬人生2：環遊世界;"
+    },
+    {
+      "original": "The Sims 2 FreeTime",
+      "conv": "zh-cn:模拟人生2 休闲时光;zh-tw:模擬市民2：玩耍時光;zh-hk:模擬人生2：休閒時光;"
+    },
+    {
+      "original": "The Sims 2 Apartment Life",
+      "conv": "zh-cn:模拟人生2 公寓生活;zh-tw:模擬市民2：公寓生活;zh-hk:模擬人生2：公寓生活;"
+    },
+    {
+      "original": "The Sims 2 Holiday Edition/Holiday Party Pack",
+      "conv": "zh-cn:模拟人生2 佳节时刻;zh-tw:模擬市民2：佳節時刻;"
+    },
+    {
+      "original": "The Sims 2 Family Fun Stuff",
+      "conv": "zh-cn:模拟人生2 欢乐家庭;zh-tw:模擬市民2：歡樂家庭組合;"
+    },
+    {
+      "original": "The Sims 2 Glamour Life Stuff",
+      "conv": "zh-cn:模拟人生2 美满人生;zh-tw:模擬市民2：時尚生活組合;"
+    },
+    {
+      "original": "The Sims 2 Happy Holiday Stuff",
+      "conv": "zh-cn:模拟人生2 欢乐假期;zh-tw:模擬市民2：冬季派對組合;"
+    },
+    {
+      "original": "The Sims 2 Celebration Stuff",
+      "conv": "zh-cn:模拟人生2 非常派对;zh-tw:模擬市民2：玩樂派對組合;"
+    },
+    {
+      "original": "The Sims 2 H&M Fashion Stuff",
+      "conv": "zh-cn:模拟人生2 H&M无限风尚;zh-tw:模擬市民2：H&M流行組合;"
+    },
+    {
+      "original": "The Sims 2 Teen Style Stuff",
+      "conv": "zh-cn:模拟人生2 豆蔻风情;zh-tw:模擬市民2：年輕潮流組合;"
+    },
+    {
+      "original": "The Sims 2 Kitchen & Bath Interior Design Stuff",
+      "conv": "zh-cn:模拟人生2 开心厨浴装饰;zh-tw:模擬市民2：廚浴美學組合;"
+    },
+    {
+      "original": "The Sims 2 IKEA Home Stuff",
+      "conv": "zh-cn:模拟人生2 宜家家居;zh-tw:模擬市民2：IKEA家具設計組合;"
+    },
+    {
+      "original": "The Sims 2 Mansion & Garden Stuff",
+      "conv": "zh-cn:模拟人生2 园艺大师;zh-tw:模擬市民2：花園別墅組合;"
+    },
+    {
+      "original": "The Sims 3: Ambitions",
+      "conv": "zh-cn:模拟人生3：野心;zh-tw:模擬市民3：夢想起飛;"
+    },
+    {
+      "original": "The Sims 3: Generations",
+      "conv": "zh-cn:模拟人生3：世代;zh-tw:模擬市民3：花樣年華;"
+    },
+    {
+      "original": "The Sims 3: Pets",
+      "conv": "zh-cn:模拟人生3：宠物;zh-tw:模擬市民3：玩美寵物;"
+    },
+    {
+      "original": "Livin' Large",
+      "conv": "zh-cn:美好生活;zh-tw:美麗人生;"
+    },
+    {
+      "original": "House Party",
+      "conv": "zh-cn:欢乐派对;zh-tw:家庭派對;"
+    },
+    {
+      "original": "Hot Date",
+      "conv": "zh-cn:燃情约会;zh-tw:非常男女;"
+    },
+    {
+      "original": "Vacation",
+      "conv": "zh-cn:我在休假;zh-tw:歡樂假期;"
+    },
+    {
+      "original": "Unleashed",
+      "conv": "zh-cn:家有宠物;zh-tw:寵物世代;"
+    },
+    {
+      "original": "Superstar",
+      "conv": "zh-cn:超级明星;zh-tw:超級巨星;"
+    },
+    {
+      "original": "Makin' Magic",
+      "conv": "zh-cn:魔幻天地;zh-tw:魔法世界;"
+    },
+    {
+      "original": "University",
+      "conv": "zh-cn:大学城;zh-tw:夢幻大學城;"
+    },
+    {
+      "original": "Nightlife",
+      "conv": "zh-cn:夜生活;zh-tw:美麗夜未眠;"
+    },
+    {
+      "original": "Open for Business",
+      "conv": "zh-cn:我要开店;zh-tw:開店達人;"
+    },
+    {
+      "original": "Pets",
+      "conv": "zh-cn:宠物当家;zh-tw:寵物當家;"
+    },
+    {
+      "original": "Seasons",
+      "conv": "zh-cn:缤纷四季;zh-tw:度假四季;zh-hk:繽紛四季;"
+    },
+    {
+      "original": "Bon Voyage",
+      "conv": "zh-cn:游遍天下;zh-tw:環遊世界;"
+    },
+    {
+      "original": "FreeTime",
+      "conv": "zh-cn:休闲时光;zh-tw:玩耍時光;zh-hk:休閒時光"
+    },
+    {
+      "original": "Apartment Life",
+      "conv": "zh-cn:公寓生活;zh-tw:公寓生活;"
+    },
+    {
+      "original": "Family Fun Stuff",
+      "conv": "zh-cn:欢乐家庭;zh-tw:歡樂家庭組合;"
+    },
+    {
+      "original": "Glamour Life Stuff",
+      "conv": "zh-cn:美满人生;zh-tw:時尚生活組合;"
+    },
+    {
+      "original": "Holiday Edition/Holiday Party Pack",
+      "conv": "zh-cn:佳节时刻;zh-tw:佳節時刻;"
+    },
+    {
+      "original": "Happy Holiday Stuff",
+      "conv": "zh-cn:欢乐假期;zh-tw:冬季派對組合;"
+    },
+    {
+      "original": "Celebration Stuff",
+      "conv": "zh-cn:非常派对;zh-tw:玩樂派對組合;"
+    },
+    {
+      "original": "H&M Fashion Stuff",
+      "conv": "zh-cn:H&M无限风尚;zh-tw:H&M流行組合;"
+    },
+    {
+      "original": "Teen Style Stuff",
+      "conv": "zh-cn:豆蔻风情;zh-tw:年輕潮流組合;"
+    },
+    {
+      "original": "Kitchen & Bath Interior Design Stuff",
+      "conv": "zh-cn:开心厨浴装饰;zh-tw:廚浴美學組合;"
+    },
+    {
+      "original": "IKEA Home Stuff",
+      "conv": "zh-cn:宜家家居;zh-tw:IKEA家具設計組合;"
+    },
+    {
+      "original": "Mansion & Garden Stuff",
+      "conv": "zh-cn:园艺大师; zh-tw:花園別墅組合;"
+    },
+    {
+      "original": "TWorld Adventures",
+      "conv": "zh-cn:世界冒险; zh-tw:世界歷險記;"
+    },
+    {
+      "original": "Ambitions",
+      "conv": "夢想起飛=>zh-cn:野心; 夢想起飛=>zh-sg:野心;"
+    },
+    {
+      "original": "Late Night",
+      "conv": "zh-cn:深夜狂欢;zh-tw:夜店人生;"
+    },
+    {
+      "original": "Generations",
+      "conv": "花樣年華=>zh-cn:世代; 花樣年華=>zh-sg:世代;"
+    },
+    {
+      "original": "Pets",
+      "conv": "玩美寵物=>zh-cn:宠物; 玩美寵物=>zh-sg:宠物;"
+    },
+    {
+      "original": "Showtime",
+      "conv": "zh-cn:作秀时刻; zh-tw:華麗舞台;"
+    },
+    {
+      "original": "Supernatural",
+      "conv": "zh-cn:邪恶力量; zh-tw:異能新世紀;"
+    },
+    {
+      "original": "The Sims Stories",
+      "conv": "zh-cn:模拟人生 物语;zh-tw:模擬市民趴趴走;"
+    },
+    {
+      "original": "The Sims Life Stories",
+      "conv": "zh-cn:模拟人生 生活物语;zh-tw:模擬市民趴趴走：人生大冒險;"
+    },
+    {
+      "original": "Life Stories",
+      "conv": "zh-cn:生活物语;zh-tw:人生大冒險;"
+    },
+    {
+      "original": "The Sims Pets Stories",
+      "conv": "zh-cn:模拟人生 宠物物语;zh-tw:模擬市民趴趴走：寵物大挑戰;"
+    },
+    {
+      "original": "Pets Stories",
+      "conv": "zh-cn:宠物物语;zh-tw:寵物大挑戰;"
+    },
+    {
+      "original": "The Sims Castaway Stories",
+      "conv": "zh-cn:模拟人生 孤岛物语;zh-tw:模擬市民趴趴走：荒島歷險記;"
+    },
+    {
+      "original": "Castaway Stories",
+      "conv": "zh-cn:孤岛物语;zh-tw:荒島歷險記;"
+    },
+    {
+      "original": "The Sims",
+      "conv": "zh-cn:模拟人生;zh-tw:模擬市民;zh-hk:模擬人生;"
+    },
+    {
+      "original": "The Sims 2",
+      "conv": "zh-cn:模拟人生2;zh-tw:模擬市民2;zh-hk:模擬人生2;"
+    },
+    {
+      "original": "The Sims 3",
+      "conv": "zh-cn:模拟人生3;zh-tw:模擬市民3;zh-hk:模擬人生3;"
+    },
+    {
+      "original": "The Sims 4",
+      "conv": "zh-cn:模拟人生4;zh-tw:模擬市民4;zh-hk:模擬人生4;"
+    },
+    {
+      "original": "Simlish",
+      "conv": "zh-cn:模拟语;zh-tw:模擬市民語;zh-hk:模擬語;"
+    },
+    {
+      "original": "Deluxe",
+      "conv": "zh-cn:特别版;zh-tw:超值版;"
+    },
+    {
+      "original": "Double Deluxe",
+      "conv": "zh-cn:豪华礼包;zh-tw:雙超值版;"
+    },
+    {
+      "original": "Body Shop",
+      "conv": "zh-cn:造型中心;zh-tw:美體工坊;"
+    },
+    {
+      "original": "Home Crafter",
+      "conv": "zh-cn:美丽小屋;zh-tw:夢幻屋坊;"
+    },
+    {
+      "original": "Bumperblast",
+      "conv": "zh-cn:快乐碰;zh-tw:轟炸彈力球;"
+    },
+    {
+      "original": "Collector's Edition",
+      "conv": "zh-cn:珍藏版本;zh-tw:綠水晶限定版;"
+    },
+    {
+      "original": "SimCity",
+      "conv": "zh-cn:模拟城市;zh-tw:模擬城市;"
+    },
+    {
+      "original": "SimCity 4 Rush Hour",
+      "conv": "zh-cn:模拟城市4 高峰时刻;zh-tw:模擬城市4：尖峰時刻;zh-hk:模擬城市4：高峰時刻;"
+    },
+    {
+      "original": "Rush Hour",
+      "conv": "zh-cn:高峰时刻;zh-tw:尖峰時刻;zh-hk:高峰時刻;"
+    },
+    {
+      "original": "SimCity Societies",
+      "conv": "zh-cn:模拟城市 梦想之都;zh-tw:模擬城市：夢之都;"
+    },
+    {
+      "original": "Societies",
+      "conv": "zh-cn:梦想之都;zh-tw:夢之都;"
+    },
+    {
+      "original": "SimCity Societies Destinations",
+      "conv": "zh-cn:模拟城市 梦想之都 度假胜地;zh-tw:模擬城市：度假天堂;"
+    },
+    {
+      "original": "Destinations",
+      "conv": "zh-cn:度假胜地;zh-tw:度假天堂;"
+    },
+    {
+      "original": "Spore Creature Creator",
+      "conv": "zh-cn:孢子生物创造器;zh-tw:Spore創意大師;"
+    },
+    {
+      "original": "Based game",
+      "conv": "zh-cn:基础版;zh-tw:主程式;zh-hk:原版;"
+    },
+    {
+      "original": "Stuff pack",
+      "conv": "zh-cn:物品包;zh-tw:組合;"
+    }
+  ]
+}

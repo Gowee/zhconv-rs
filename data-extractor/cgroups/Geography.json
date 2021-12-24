@@ -1,0 +1,23 @@
+{
+  "name": "Geography",
+  "description": "地理学",
+  "path": "Module:CGroup/Geography",
+  "rules": [
+    {
+      "original": "Cartographic generalization",
+      "conv": "zh-cn:制图综合; zh-tw:地圖概括;"
+    },
+    {
+      "original": "GIS",
+      "conv": "zh-cn:地理信息系统; zh-tw:地理資訊系統;"
+    },
+    {
+      "original": "Mercator",
+      "conv": "zh-cn:墨卡托; zh-tw:麥卡托;"
+    },
+    {
+      "original": "Remote sensing",
+      "conv": "zh:遙感;zh-cn:遥感;zh-tw:遙測;"
+    }
+  ]
+}

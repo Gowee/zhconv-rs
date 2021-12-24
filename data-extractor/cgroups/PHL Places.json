@@ -1,0 +1,71 @@
+{
+  "name": "PHL Places",
+  "description": "菲律宾地名",
+  "path": "Module:CGroup/PHL Places",
+  "rules": [
+    {
+      "original": "Babuyan",
+      "conv": "zh-cn:巴布延; zh-tw:巴布煙"
+    },
+    {
+      "original": "Balintang",
+      "conv": "zh-cn:巴林塘; zh-tw:巴林坦"
+    },
+    {
+      "original": "Bulacan",
+      "conv": "zh-cn:布拉卡; zh-hk:比立勤; zh-tw:布拉干"
+    },
+    {
+      "original": "Cagayan",
+      "conv": "zh-cn:卡加延; zh-tw:卡加煙"
+    },
+    {
+      "original": "Camarines",
+      "conv": "zh-cn:甘马粦; zh-hk:甘馬粦; zh-tw:甘馬仁"
+    },
+    {
+      "original": "Cebu",
+      "conv": "zh-cn:宿务; zh-hk:宿霧; zh-tw:宿霧"
+    },
+    {
+      "original": "Lungsod ng Dabaw",
+      "conv": "zh-cn:达沃市; zh-hk:達沃市; zh-tw:納卯市"
+    },
+    {
+      "original": "Iloilo",
+      "conv": "zh-cn:伊洛伊洛; zh-hk:依路; zh-tw:怡朗"
+    },
+    {
+      "original": "Leyte",
+      "conv": "zh-cn:莱特省; zh-hk:雷伊泰省; zh-tw:雷伊泰省"
+    },
+    {
+      "original": "Pulo ng Leyte",
+      "conv": "zh-cn:莱特岛; zh-hk:雷伊泰島; zh-tw:雷伊泰島"
+    },
+    {
+      "original": "Golpo ng Leyte",
+      "conv": "zh-cn:莱特湾; zh-hk:雷伊泰灣; zh-tw:雷伊泰灣"
+    },
+    {
+      "original": "Makati",
+      "conv": "zh-cn:马卡蒂; zh-hk:馬卡迪; zh-tw:馬卡蒂"
+    },
+    {
+      "original": "Mindanao",
+      "conv": "zh-cn:棉兰老; zh-hk:棉蘭老; zh-tw:民答那峨"
+    },
+    {
+      "original": "Paliparang Pandaigdig ng Ninoy Aquino",
+      "conv": "zh-cn:尼诺伊·阿基诺国际机场; zh-hk:尼諾伊·亞基諾國際機場; zh-tw:尼諾伊·艾奎諾國際機場"
+    },
+    {
+      "original": "Kabisay-an",
+      "conv": "zh-cn:米沙鄢; zh-hk:維薩亞斯; zh-tw:維薩亞斯"
+    },
+    {
+      "original": "Bisaya",
+      "conv": "zh-cn:米沙鄢人; zh-hk:維薩亞人; zh-tw:維薩亞人"
+    }
+  ]
+}

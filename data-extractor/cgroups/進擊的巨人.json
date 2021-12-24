@@ -1,0 +1,471 @@
+{
+  "name": "進擊的巨人",
+  "description": "[[進擊的巨人]]",
+  "path": "Template:CGroup/進擊的巨人",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:三笠; zh-tw:米卡莎; zh-hk:米卡莎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿克曼; zh-tw:阿卡曼; zh-hk:阿加曼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾伦; zh-tw:艾連; zh-hk:艾倫;"
+    },
+    {
+      "original": "",
+      "conv": "艾连=>zh-hk:艾倫;艾连=>zh-mo:艾倫;艾连=>zh-cn:艾伦;艾连=>zh-sg:艾伦;艾连=>zh-tw:艾連;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:叶卡; zh-cn:耶格尔; zh-sg:耶格尔; zh-tw:葉卡; zh-hk:耶格;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:爱尔敏; zh-tw:阿爾敏;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿诺德; zh-tw:亞魯雷特;"
+    },
+    {
+      "original": "",
+      "conv": "約翰=>zh-hk:莊;約翰=>zh-mo:莊;約翰=>zh-cn:让;約翰=>zh-sg:让;約翰=>zh-tw:約翰"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基尔希斯坦; zh-tw:基爾休坦; zh-hk:基爾斯坦;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:亚妮; zh-tw:亞妮; zh-hk:安妮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赫里斯塔; zh-tw:克里斯塔; zh-hk:克里絲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:连兹; zh-tw:連茲; zh-hk:寧斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:萨莎; zh-tw:莎夏;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:尤弥尔; zh-hant:尤彌爾; zh-tw:尤米爾; zh-hk:尤米爾; zh-mo:尤米爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:托马斯; zh-tw:托馬斯; zh-hk:湯馬士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瓦格纳; zh-tw:瓦格納; zh-hk:華古洛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:柯尼; zh-tw:柯尼; zh-hk:哥尼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:山謬; zh-cn:山谬; zh-tw:山姆耶爾; zh-hk:森姆爾; zh-mo:森姆爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奈克·提亚斯; zh-tw:奈克·提亞斯; zh-hk:納吉·迪亞斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米力伍斯; zh-tw:米力伍斯; zh-hk:米力斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:贝尔托特; zh-tw:貝爾托特; zh-hk:貝爾托特;"
+    },
+    {
+      "original": "",
+      "conv": "zh:利威爾;zh-cn:利威尔; zh-hant:里維; zh-tw:里維; zh-hk:里維; zh-mo:里維;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:韩吉; zh-tw:漢吉; zh-hk:杏斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:佐伊; zh-tw:佐耶; zh-hk:素爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:佩托拉; zh-tw:佩托拉; zh-hk:貝多拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拉尔; zh-tw:拉爾; zh-hk:麗爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:史密斯; zh-tw:史密斯; zh-hk:史密夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米克; zh-tw:米可; zh-hk:麥克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:欧鲁; zh-tw:歐魯; zh-hk:柯魯安;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:波札德; zh-tw:波札德; zh-hk:博贊度;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾鲁多·琴; zh-tw:艾魯多·琴; zh-hk:艾爾度·贊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾鲁多; zh-tw:艾魯多; zh-hk:艾爾度;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:君达; zh-tw:君達; zh-hk:軍達;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:尼斯; zh-tw:尼斯; zh-hk:列斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:托玛; zh-tw:托瑪; zh-hk:湯瑪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希斯; zh-tw:希斯; zh-hk:施殊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希斯特莉亚; zh-tw:希絲特莉亞; zh-hk:希斯特莉亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:雷斯; zh-tw:雷斯; zh-hk:衛斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:莫布里特; zh-tw:莫布利特; zh-hk:莫保力頓;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:柏纳; zh-tw:柏納; zh-hk:賓拿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:贺宁格; zh-tw:賀寧格; zh-hk:亨寧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拉萨德; zh-tw:拉薩德; zh-hk:拉沙德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:迪克; zh-tw:迪爾克; zh-hk:迪克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:瑪蕾奈; zh-cn:玛蕾奈; zh-tw:馬雷涅; zh-hk:瑪蓮娜; zh-mo:瑪蓮娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:弗洛克; zh-tw:弗洛克; zh-hk:福洛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:桑德拉; zh-hans:桑德拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:皮克希斯; zh-tw:皮克希斯; zh-hk:彼克斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:达特; zh-tw:達特; zh-hk:托特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伊安; zh-tw:伊安; zh-hk:伊恩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:迪特里西; zh-tw:迪特里希; zh-hk:迪度理希;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:黎各; zh-tw:里柯; zh-hk:妮可;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:布雷琴斯卡; zh-tw:布雷騫絲卡; zh-hk:布里積斯加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米塔比; zh-tw:米塔比; zh-hk:密達比;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:雅哈; zh-tw:亞爾納哈; zh-hk:也路立夏;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:汉尼斯; zh-tw:漢尼斯; zh-hk:漢尼斯; zh-mo:漢尼斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奈尔; zh-tw:奈爾; zh-hk:賴爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:德克; zh-tw:德克; zh-hk:德古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马尔洛; zh-hant:馬爾洛; zh-tw:馬洛; zh-hk:馬爾羅; zh-mo:馬爾羅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:桑德; zh-tw:桑德; zh-hk:費登堡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:朵丽丝; zh-tw:朵麗絲; zh-hk:杜利斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凯尼; zh-tw:肯尼; zh-hk:堅尼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拉尔夫; zh-tw:拉爾夫; zh-hk:華夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杰尔; zh-tw:傑爾; zh-hk:謝爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:薩內斯; zh-cn:萨内斯; zh-tw:薩尼斯; zh-hk:薩尼斯; zh-mo:薩尼斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基斯; zh-tw:奇斯; zh-hk:傑斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:沙迪斯; zh-tw:夏迪斯; zh-hk:沙迪斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:芙莉妲; zh-tw:芙莉妲; zh-hk:芙莉達;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:达里斯; zh-tw:達里斯; zh-hk:達列斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:萨克雷; zh-tw:薩克雷; zh-hk:澤古歷;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:弗里茨; zh-hant:弗里茲; zh-tw:弗利茲; zh-hk:費茲; zh-mo:費茲;"
+    },
+    {
+      "original": "",
+      "conv": "弗利兹=>zh-hk:費茲;弗利兹=>zh-mo:費茲;弗利兹=>zh-cn:弗里茨;弗利兹=>zh-sg:弗里茨;弗利兹=>zh-tw:弗利茲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾尔迪亚; zh-tw:艾爾迪亞; zh-hk:艾迪亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:吉克; zh-tw:吉克; zh-hk:薛克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:古洛斯; zh-tw:古洛斯; zh-hk:高斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克鲁格; zh-hant:克魯格; zh-tw:庫爾迦; zh-hk:古格; zh-mo:古格;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:枭; zh-tw:梟; zh-hk:貓頭鷹;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:雷贝利欧; zh-hant:雷貝利歐; zh-tw:雷貝里歐; zh-hk:利比維奧; zh-mo:利比維奧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:黛娜; zh-tw:黛娜; zh-hk:戴娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:葛莱斯; zh-tw:葛萊斯; zh-hk:葛斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴鲁多; zh-tw:巴魯多; zh-hk:巴魯度;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马赛尔; zh-tw:馬賽; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:迪墨; zh-tw:迪墨; zh-hk:迪摩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:弗雷盖尔; zh-tw:弗雷格爾; zh-hk:菲利高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:利布斯; zh-tw:利布斯; zh-hk:里夫斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:羅伊; zh-tw:羅伊; zh-hk:洛伊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:比尤雷; zh-tw:畢雷; zh-hk:佩里;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿尔玛; zh-tw:阿爾瑪; zh-hk:艾瑪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:迪尔克; zh-tw:迪爾克; zh-hk:迪克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:阿贝尔; zh-tw:艾貝爾; zh-hk:艾寶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:弗洛莉安; zh-tw:弗羅利安; zh-hk:芳雲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:乌克林; zh-tw:烏爾庫林; zh-hk:烏克連;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:库契尔; zh-tw:庫契爾; zh-hk:古雪兒;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:塞拉姆; zh-tw:賽拉姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:西干希娜; zh-tw:希干希納; zh-hk:西甘希娜"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:托洛斯; zh-tw:托洛斯; zh-hk:托羅斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:斯托贝斯; zh-tw:史托黑斯; zh-hk:史托希斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:玛丽亚; zh-tw:瑪利亞; zh-hk:瑪莉亞"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:罗赛; zh-hant:羅賽; zh-tw:羅塞; zh-hk:蘿紗; zh-mo:蘿紗;"
+    },
+    {
+      "original": "",
+      "conv": "露絲=>zh-cn:罗塞;露絲=>zh-tw:羅塞;露絲=>zh-hk:蘿紗;露絲=>zh-mo:蘿紗"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:席娜; zh-cn:希娜; zh-tw:席納; zh-hk:仙娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:馬萊;zh-cn:马莱; zh-tw:瑪雷"
+    },
+    {
+      "original": "",
+      "conv": "玛雷=>zh-hk:瑪雷;玛雷=>zh-mo:瑪雷;玛雷=>zh-cn:马莱;玛雷=>zh-sg:马莱;玛雷=>zh-tw:瑪雷;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾米哈; zh-tw:艾米哈; zh-hk:耶米哈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:厄特加尔; zh-tw:厄特加爾; zh-hk:烏特嘉德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克罗鲁巴; zh-tw:克羅魯巴; zh-hk:哥路華;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奥尔福德; zh-hant:奧爾福德; zh-tw:歐爾布德; zh-hk:奧胡德; zh-mo:奧胡德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:米托拉斯; zh-hk:米多勒斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:鎧之巨人; zh-cn:铠之巨人; zh-tw:盔甲巨人; zh-hk:盔甲巨人; zh-mo:盔甲巨人;"
+    },
+    {
+      "original": "",
+      "conv": "zh:軍團;zh-cn:兵团; zh-tw:軍團; zh-hk:兵團; zh-mo:兵團;"
+    },
+    {
+      "original": "",
+      "conv": "zh:军团;zh-cn:兵团; zh-tw:軍團; zh-hk:兵團; zh-mo:兵團;"
+    },
+    {
+      "original": "",
+      "conv": "zh:兵團;zh-cn:兵团; zh-tw:軍團; zh-hk:兵團; zh-mo:兵團;"
+    },
+    {
+      "original": "",
+      "conv": "zh:兵团;zh-cn:兵团; zh-tw:軍團; zh-hk:兵團; zh-mo:兵團;"
+    },
+    {
+      "original": "",
+      "conv": "駐屯=>zh-hk:駐紮;駐屯=>zh-mo:駐紮;駐屯=>zh-tw:駐紮"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:割喉者; zh-tw:割喉者; zh-hk:割喉手;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:割喉者; zh-tw:割喉者; zh-hk:割喉手;"
+    },
+    {
+      "original": "",
+      "conv": "硬質化=>zh-hk:硬化;硬質化=>zh-mo:硬化;zh-tw:硬質化;"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "VLeague",
+  "description": "越南職業足球聯賽",
+  "path": "Template:CGroup/VLeague",
+  "rules": [
+    {
+      "original": "Cúp Quốc gia Việt Nam",
+      "conv": "zh:越南国家杯; zh-cn:越南国家杯; zh-hant:越南國家盃; "
+    },
+    {
+      "original": "Câu lạc bộ bóng đá Becamex Bình Dương",
+      "conv": "zh-hant:平陽貝卡麥克斯; zh-hans:平阳贝卡麦克斯; zh-hk:平陽比金邁; "
+    },
+    {
+      "original": "Sông Lam Nghệ An F.C.",
+      "conv": "zh-hant:乂安藍江; zh-hans:乂安蓝江; zh-hk:宋蘭義安; "
+    },
+    {
+      "original": "Câu lạc bộ Bóng đá Thành phố Hồ Chí Minh",
+      "conv": "zh-hant:胡志明市足球俱樂部; zh-hans:胡志明市足球俱乐部; zh-hk:胡志明市足球會; "
+    }
+  ]
+}

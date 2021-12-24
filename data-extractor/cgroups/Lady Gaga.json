@@ -1,0 +1,111 @@
+{
+  "name": "Lady Gaga",
+  "description": "-{zh-cn:嘎嘎小姐; zh-tw:女神卡卡; zh-hk:Lady Gaga}-",
+  "path": "Template:CGroup/Lady Gaga",
+  "rules": [
+    {
+      "original": "Lady Gaga",
+      "conv": "zh-cn:Lady Gaga; zh-hk:Lady Gaga; zh-tw:女神卡卡; zh-sg:女神卡卡"
+    },
+    {
+      "original": "Gaga",
+      "conv": "zh-cn:嘎嘎; zh-hk:Gaga; zh-tw:卡卡; zh-sg:卡卡"
+    },
+    {
+      "original": "Stefani Joanne Angelina Germanotta",
+      "conv": "zh-cn:史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔; zh-hk:絲蒂芬妮·祖安·安祖蓮娜·祖瑪娜達; zh-tw:史蒂芬妮·喬安·安潔麗娜·潔曼諾塔"
+    },
+    {
+      "original": "Paparazzi",
+      "conv": "zh-cn:狗仔队; zh-tw:愛情狗仔"
+    },
+    {
+      "original": "Poker Face",
+      "conv": "zh-cn:无动于衷; zh-tw:撲克臉"
+    },
+    {
+      "original": "Beautiful, Dirty, Rich",
+      "conv": "zh-cn:拜金女郎; zh-tw:美麗 骯髒 富有"
+    },
+    {
+      "original": "Money Honey",
+      "conv": "zh-cn:奢侈生活; zh-tw:金錢寶貝"
+    },
+    {
+      "original": "Money Honey",
+      "conv": "zh-cn:坏小孩; zh-tw:男孩 男孩 男孩"
+    },
+    {
+      "original": "Paper Gangsta",
+      "conv": "zh-cn:粉饰太平; zh-tw:紙上流氓"
+    },
+    {
+      "original": "Brown Eyes",
+      "conv": "zh-cn:褐色眼眸; zh-tw:棕色眼眸"
+    },
+    {
+      "original": "I Like It Rough",
+      "conv": "zh-cn:我心狂野; zh-tw:喜歡來硬的"
+    },
+    {
+      "original": "Disco Heaven",
+      "conv": "zh-cn:舞曲天堂; zh-tw:迪斯可天堂"
+    },
+    {
+      "original": "The Fame Monster",
+      "conv": "zh-cn:超人气女魔头; zh-tw:超人氣魔神"
+    },
+    {
+      "original": "Alejandro",
+      "conv": "zh-cn:亚力翰卓; zh-tw:亞歷山卓"
+    },
+    {
+      "original": "Monster",
+      "conv": "zh-cn:魔怪; zh-tw:魔女"
+    },
+    {
+      "original": "Dance in the Dark",
+      "conv": "zh-cn:黑暗中起舞; zh-tw:在黑暗中漫舞"
+    },
+    {
+      "original": "So Happy I Could Die",
+      "conv": "zh-cn:死而无憾; zh-tw:死無遺憾"
+    },
+    {
+      "original": "Judas",
+      "conv": "zh-cn:背叛者; zh-tw:猶大"
+    },
+    {
+      "original": "Hair",
+      "conv": "zh-cn:我型我秀; zh-tw:自由髮則"
+    },
+    {
+      "original": "Scheiße",
+      "conv": "zh-cn:无需多言; zh-tw:狗屎事"
+    },
+    {
+      "original": "Bloody Mary",
+      "conv": "zh-cn:红色玛丽; zh-tw:血腥瑪莉"
+    },
+    {
+      "original": "Bad Kids",
+      "conv": "zh-cn:坏孩子; zh-tw:壞胚子"
+    },
+    {
+      "original": "G.U.Y.",
+      "conv": "zh-cn:男神; zh-tw:男子漢"
+    },
+    {
+      "original": "Jewels N` Drugs",
+      "conv": "zh-cn:珠宝; zh-tw:財富與上癮"
+    },
+    {
+      "original": "Mary Jane Holland",
+      "conv": "zh-cn:荷兰玛丽珍; zh-tw:荷蘭“麻”莉珍"
+    },
+    {
+      "original": "Cheek to Cheek",
+      "conv": "zh-cn:脸贴脸; zh-tw:爵對經典"
+    }
+  ]
+}

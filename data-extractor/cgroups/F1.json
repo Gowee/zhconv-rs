@@ -1,0 +1,451 @@
+{
+  "name": "F1",
+  "description": "F1",
+  "path": "Module:CGroup/F1",
+  "rules": [
+    {
+      "original": "Alguersuari, Jaime ",
+      "conv": "zh-cn:哈伊梅·阿古尔苏阿里;zh-tw:哈伊梅·阿古爾蘇阿里;zh-hk:哈伊梅·阿古蘇利;"
+    },
+    {
+      "original": "Alonso, Fernando  ",
+      "conv": "zh-cn:费尔南多·阿隆索;zh-hk:費蘭度·阿朗素;zh-tw:費爾南多·阿隆索;"
+    },
+    {
+      "original": "Albon, Alexander ",
+      "conv": "zh-cn:亚历山大·阿尔本;zh-hk:亞歷山大·艾邦;zh-tw:亞歷山大·阿爾本;"
+    },
+    {
+      "original": "Barrichello, Rubens ",
+      "conv": "zh-hans:鲁本斯·巴里切罗;zh-tw:魯本斯·巴利切羅;zh-hk:魯賓斯·巴利加奴;zh-mo:魯賓斯·巴里捷奴"
+    },
+    {
+      "original": "Bianchi, Jules  ",
+      "conv": "zh-cn:朱尔斯·比安奇;zh-tw:儒勒·比安奇;zh-mo:祖利斯·比安基;"
+    },
+    {
+      "original": "Bottas, Valtteri  ",
+      "conv": "zh-cn:瓦尔特里·博塔斯; zh-hk:華特利·保達斯; zh-tw:維爾特利·鮑達斯; zh-sg:瓦尔特里·博塔斯; zh-mo:華特利·保達斯;"
+    },
+    {
+      "original": "Buemi, Sebastian  ",
+      "conv": "zh-hans:塞巴斯蒂安·布埃米;zh-hk:施巴斯坦·布美;zh-tw:塞巴斯蒂安·布米;"
+    },
+    {
+      "original": "Button, Jenson  ",
+      "conv": "zh-hans:詹森·巴顿;zh-hk:詹臣·畢頓;zh-tw:詹森·巴頓;"
+    },
+    {
+      "original": "Coulthard, David  ",
+      "conv": "zh-hans:大卫·库特哈德;zh-hk:大衛·古達;zh-tw:大衛·庫塔;"
+    },
+    {
+      "original": "Chilton, Max  ",
+      "conv": "zh-hans:马克斯·齐尔顿;zh-tw:馬克斯·齊爾頓;"
+    },
+    {
+      "original": "Di Resta, Paul  ",
+      "conv": "zh-cn:保罗·迪雷斯塔;zh-tw:保羅·迪·雷斯塔;zh-hk:保羅·達·雷斯塔;zh-mo:保羅·迪·雷斯達;"
+    },
+    {
+      "original": "Ericsson, Marcus  ",
+      "conv": "zh-cn:马库斯·埃里克森;zh-hk:馬庫斯·艾力臣;zh-tw:馬庫斯·埃里克森;"
+    },
+    {
+      "original": "Fangio, Juan  ",
+      "conv": "zh-hans:胡安·方吉奥;zh-tw:胡安·方吉歐;"
+    },
+    {
+      "original": "Félix da Costa, António  ",
+      "conv": "zh-cn:安东尼奥·费利什·达科斯塔;zh-hk:安東尼奧·菲歷斯·達·哥斯達;zh-tw:安東尼奧·費利克斯·達·科斯塔;"
+    },
+    {
+      "original": "Fisichella, Giancarlo  ",
+      "conv": "zh-hans:詹卡洛·费斯切拉;zh-hk:云加羅·費斯卓拿;zh-tw:尚卡羅·費希切拉;zh-mo:贊卡路·費斯捷拿;"
+    },
+    {
+      "original": "Fittipaldi, Pietro  ",
+      "conv": "zh-cn:彼得罗·菲蒂帕尔迪;zh-hk:皮雅曹·菲迪帕迪;zh-tw:皮耶特羅·菲蒂帕爾迪;"
+    },
+    {
+      "original": "Frijns, Robin  ",
+      "conv": "zh-cn:罗宾·弗林斯;zh-tw:羅賓·夫林斯;"
+    },
+    {
+      "original": "Glock, Timo  ",
+      "conv": "zh-cn:蒂莫·格洛克;zh-tw:提摩·格洛克;zh-hk:添模·葛克;zh-mo:添模·葛克;"
+    },
+    {
+      "original": "Grosjean, Romain  ",
+      "conv": "zh-cn:罗曼·格罗斯让;zh-hk:羅曼·哥桑;zh-tw:羅曼·格羅斯讓;"
+    },
+    {
+      "original": "Gutiérrez, Esteban  ",
+      "conv": "zh-cn:埃斯特班·古铁雷斯;zh-hk:艾斯特賓·古迪利斯;zh-tw:埃斯特班·古鐵雷斯;"
+    },
+    {
+      "original": "Gasly, Pierre  ",
+      "conv": "zh-cn:皮埃尔·嘉斯利;zh-hk:派爾·加斯利;zh-tw:皮埃爾·蓋斯利;zh-mo:派爾·加士里;"
+    },
+    {
+      "original": "Giovinazzi, Antonio  ",
+      "conv": "zh-cn:安东尼奥·吉奥维纳兹;zh-hk:安東尼奧·基奧雲拿斯;zh-tw:安東尼奧·焦維納齊;"
+    },
+    {
+      "original": "Häkkinen, Mika ",
+      "conv": "zh-cn:米卡·哈基宁;zh-hk:米高·夏健倫;zh-tw:米卡·海基寧;"
+    },
+    {
+      "original": "Hamilton, Lewis  ",
+      "conv": "zh-cn:刘易斯·汉密尔顿;zh-hk:劉易斯·咸美頓;zh-mo:路易斯·咸美頓;zh-tw:路易斯·漢米爾頓;"
+    },
+    {
+      "original": "Hartley, Brendon ",
+      "conv": "zh-cn:布伦登·哈特利;zh-hk:布蘭登·哈特利;zh-tw:布蘭登·哈特利;zh-mo:布蘭登·赫利;"
+    },
+    {
+      "original": "Haryanto, Rio  ",
+      "conv": "zh-cn:里奥·哈扬托;zh-tw:里奧·哈里恩多;zh-mo:里奧·夏恩圖"
+    },
+    {
+      "original": "Heidfeld, Nick  ",
+      "conv": "zh-cn:尼克·海费尔德;zh-tw:尼克·海菲爾德;zh-hk:尼克·夏菲特;"
+    },
+    {
+      "original": "Hill, Damon  ",
+      "conv": "zh-cn:达蒙·希尔;zh-hk:戴蒙·希爾;zh-tw:戴蒙·希爾;"
+    },
+    {
+      "original": "Hülkenberg, Nicolas  ",
+      "conv": "zh-cn:尼科·霍肯博格;zh-tw:尼可拉斯·賀根堡;zh-hk:尼古拉斯·侯根堡;zh-mo:尼古拉斯·侯根堡;"
+    },
+    {
+      "original": "Hülkenberg, Nico  ",
+      "conv": "zh-cn:尼科·霍肯博格;zh-tw:尼可·賀根堡;zh-hk:尼古·侯根堡;zh-mo:尼古·侯根堡;"
+    },
+    {
+      "original": "Hülkenberg, Nico  ",
+      "conv": "zh-cn:詹姆斯·亨特;zh-tw:詹姆士·亨特;zh-hk:詹仕亨;"
+    },
+    {
+      "original": "Illiot, Callum",
+      "conv": "zh-cn:卡勒姆·艾洛特;zh-hk:哥林·艾洛;zh-mo:哥林·艾洛;zh-my:卡勒姆·艾洛特;zh-sg:卡勒姆·艾洛特;zh-tw:克勞姆·伊洛特;"
+    },
+    {
+      "original": "Karthikeyan, Narain ",
+      "conv": "zh-cn:纳拉因·加蒂盖延;zh-hk:納拉因·卡蒂凱揚;zh-tw:納拉因·卡蒂凱揚;"
+    },
+    {
+      "original": "Kovalainen, Heikki ",
+      "conv": "zh-cn:海基·科瓦莱宁;zh-tw:海基·科瓦萊寧;zh-hk:海基·高華拉倫;zh-mo:海基·高華利能;"
+    },
+    {
+      "original": "Kubica, Robert ",
+      "conv": "zh-cn:罗伯特·库比卡;zh-hk:羅伯特·古碧沙;zh-tw:羅伯特·庫畢薩;zh-mo:羅拔·古碧沙;"
+    },
+    {
+      "original": "Kvyat, Daniil ",
+      "conv": "zh-cn:丹尼尔·科维亚特;zh-hk:丹尼爾·基亞特;zh-tw:丹尼爾·科維亞特;"
+    },
+    {
+      "original": "Latifi, Nicholas",
+      "conv": "zh-cn:尼古拉斯·拉提菲;zh-hk:尼古拉斯·拿迪菲;zh-tw:尼古拉斯·拉提菲;"
+    },
+    {
+      "original": "Leclerc, Charles ",
+      "conv": "zh-cn:夏尔·勒克莱尔;zh-hk:查爾·陸克萊;zh-tw:夏爾·勒克萊爾;"
+    },
+    {
+      "original": "Liuzzi, Vitantonio  ",
+      "conv": "zh-cn:维坦托尼奥·里尤兹;zh-hk:維塔托尼奧·柳齊;zh-tw:維塔托尼奧·柳齊;"
+    },
+    {
+      "original": "Magnussen, Kevin ",
+      "conv": "zh-cn:凯文·马格努森;zh-hk:奇雲·麥勞臣;zh-tw:凱文·馬格努森;"
+    },
+    {
+      "original": "Maldonado, Pastor ",
+      "conv": "zh-cn:帕斯托·马尔多纳多; zh-tw:帕斯托·馬爾多納多 ; zh-hk:柏斯他·馬當拿度;"
+    },
+    {
+      "original": "Mansell, Nigel  ",
+      "conv": "zh-cn:奈杰尔·曼塞尔;zh-hk:尼高·文素;zh-tw:奈傑爾·曼塞爾;"
+    },
+    {
+      "original": "Massa, Felipe ",
+      "conv": "zh-cn:费利佩·马萨;zh-hk:菲利比·馬沙;zh-tw:費利佩·馬薩;"
+    },
+    {
+      "original": "Mazepin, Nikita ",
+      "conv": "zh-cn:尼基塔·马泽平;zh-tw:尼基塔·馬澤平;zh-hk:尼基塔·馬士鞭;zh-mo:尼基塔·馬沙賓;"
+    },
+    {
+      "original": "Nasr, Felipe  ",
+      "conv": "zh-cn:费利佩·纳斯尔;zh-hk:菲利比·納斯爾;zh-tw:費利佩·納斯爾;zh-mo:菲利比·拿斯亞;"
+    },
+    {
+      "original": "Norris, Lando  ",
+      "conv": "zh-cn:兰多·诺里斯;zh-hk:蘭多·羅禮士;zh-tw:蘭多·諾里斯;"
+    },
+    {
+      "original": "Ocon, Esteban ",
+      "conv": "zh-cn:埃斯特班·奥康;zh-tw:埃斯特班·奧康;zh-hk:艾斯特賓·奧干;zh-mo:艾斯特賓·奧康;"
+    },
+    {
+      "original": "Palmer, Jolyon ",
+      "conv": "zh-cn:乔利恩·帕尔默;zh-tw:喬里昂·帕爾默;zh-hk:祖利安·彭瑪;"
+    },
+    {
+      "original": "Perez, Sergio ",
+      "conv": "zh-cn:塞尔希奥·佩雷兹;zh-tw:塞吉歐·培瑞茲;zh-hk:沙治奧·佩雷斯;"
+    },
+    {
+      "original": "Petrov, Vitaly ",
+      "conv": "zh-cn:维塔利·彼得罗夫;zh-tw:維塔利·佩特羅夫;zh-hk:維塔利·柏杜夫;"
+    },
+    {
+      "original": "Piquet, Nelson  ",
+      "conv": "zh-cn:尼尔森·皮奎特;zh-tw:尼爾森·畢奇;zh-hk:尼爾遜·畢奇;"
+    },
+    {
+      "original": "Piquet, Nelson Jr. ",
+      "conv": "zh-cn:尼尔森·小皮奎特;zh-tw:尼爾森·小畢奇;zh-hk:尼爾遜·小畢奇;"
+    },
+    {
+      "original": "Prost, Alain  ",
+      "conv": "zh-cn:阿兰·普罗斯特;zh-tw:阿蘭·普羅斯特;zh-hk:阿蘭·保魯斯;"
+    },
+    {
+      "original": "Räikkönen, Kimi  ",
+      "conv": "zh-cn:基米·莱科宁;zh-hk:基米·拉高倫;zh-sg:基米·莱科嫩;zh-tw:奇米·雷克南;"
+    },
+    {
+      "original": "Ricciardo, Daniel  ",
+      "conv": "zh-cn:丹尼尔·里卡多;zh-tw:丹尼爾·里奇亞多;zh-hk:丹尼爾·列卡度;"
+    },
+    {
+      "original": "Rosberg, Nico  ",
+      "conv": "zh-cn:尼科·罗斯伯格;zh-hk:尼高·羅斯堡;zh-tw:尼可·羅斯堡;"
+    },
+    {
+      "original": "Russell, George  ",
+      "conv": "zh-cn:乔治·拉塞尔;zh-hk:佐治·羅素;zh-tw:喬治·羅素;"
+    },
+    {
+      "original": "Sainz Jr., Carlos ",
+      "conv": "zh-cn:小卡洛斯·塞恩斯;zh-tw:小卡洛斯·塞恩斯;zh-hk:小卡路士·辛斯;zh-mo:小卡路士·塞恩斯;"
+    },
+    {
+      "original": "Schumacher, Michael ",
+      "conv": "zh-cn:迈克尔·舒马赫;zh-hk:米高·舒麥加;zh-mo:米高·舒麥加;zh-my:迈克·舒马克;zh-sg:迈克·舒马克;zh-tw:麥可·舒馬克;"
+    },
+    {
+      "original": "Schumacher, Mick",
+      "conv": "zh-cn:米克·舒马赫;zh-hk:米克·舒麥加;zh-mo:米克·舒麥加;zh-my:米克·舒马赫;zh-sg:米克·舒马赫;zh-tw:米克·舒馬赫;"
+    },
+    {
+      "original": "Schumacher, Ralf",
+      "conv": "zh-cn:拉尔夫·舒马赫;zh-hk:拉夫·舒麥加;zh-my:;zh-sg:拉尔夫·舒马赫;zh-tw:拉夫·舒馬克;"
+    },
+    {
+      "original": "Senna, Ayrton  ",
+      "conv": "zh-cn:艾尔顿·塞纳;zh-tw:艾爾頓·冼拿;"
+    },
+    {
+      "original": "Shwartzman, Robert ",
+      "conv": "zh-cn:罗伯特·施瓦茨曼;zh-hk:羅拔·舒華文;zh-tw:羅伯特·施瓦茨曼;"
+    },
+    {
+      "original": "Stewart, Jackie ",
+      "conv": "zh-cn:杰基·斯图尔特;zh-hk:積奇·史都華;zh-tw:傑奇·史都華;"
+    },
+    {
+      "original": "Stroll, Lance  ",
+      "conv": "zh-cn:兰斯·斯托尔; zh-hk:蘭斯·史杜爾; zh-tw:蘭斯·斯托爾;"
+    },
+    {
+      "original": "Sutil, Adrian  ",
+      "conv": "zh-cn:艾德里安·苏蒂尔;zh-hk:阿達·舒杜;zh-tw:艾德里安·蘇蒂爾;"
+    },
+    {
+      "original": "Sirotkin, Sergey ",
+      "conv": "zh-cn:谢尔盖·西罗特金;zh-tw:謝爾蓋·希洛金;zh-hk:些奇·斯洛金;"
+    },
+    {
+      "original": "Senna, Bruno ",
+      "conv": "zh-cn:布鲁诺·塞纳;zh-sg:布鲁诺·冼拿;zh-hk:般奴·冼拿;zh-tw:布魯諾·冼拿;"
+    },
+    {
+      "original": "Ticktum, Dan  ",
+      "conv": "zh-cn:丹·提克图姆;zh-tw:丹·蒂克特姆;zh-hk:丹·迪圖;"
+    },
+    {
+      "original": "Trulli, Jarno  ",
+      "conv": "zh-cn:雅诺·特鲁利;zh-tw:亞諾·楚理;zh-hk:亞諾·杜連;"
+    },
+    {
+      "original": "Vergne, Jean-Eric  ",
+      "conv": "zh-cn:让-埃里克·韦尔涅;zh-hk:桑-艾力·獲尼;zh-tw:若-艾瑞克·沃尼;"
+    },
+    {
+      "original": "Verstappen, Max ",
+      "conv": "zh-cn:马克斯·维斯塔潘;zh-hk:麥斯·韋斯塔本;zh-tw:馬克斯·維斯塔潘;zh-mo:麥斯·韋特本;"
+    },
+    {
+      "original": "Vettel, Sebastian  ",
+      "conv": "zh-cn:塞巴斯蒂安·维特尔;zh-tw:塞巴斯蒂安·維泰爾;zh-hk:施巴斯坦·維度爾;zh-mo:施巴斯坦·華迪爾;"
+    },
+    {
+      "original": "Vandoorne, Stoffel ",
+      "conv": "zh-cn:斯托费尔·范多尔内;zh-tw:斯托弗·范多恩;zh-hk:史托飛·雲度尼;zh-mo:史托飛·范多內;"
+    },
+    {
+      "original": "Villeneuve, Jacques  ",
+      "conv": "zh-cn:雅克·维伦纽夫;zh-hk:雅各·韋利夫;zh-tw:雅克·維倫紐夫;zh-mo:雅各·韋侖諾夫;"
+    },
+    {
+      "original": "Villeneuve, Gilles  ",
+      "conv": "zh-cn:吉尔·维伦纽夫;zh-hk:基士·韋利夫;zh-tw:吉爾·維倫紐夫;zh-mo:基爾·韋侖諾夫;"
+    },
+    {
+      "original": "Webber, Mark  ",
+      "conv": "zh-cn:马克·韦伯;zh-hk:馬克·韋伯;zh-tw:馬克·韋伯;"
+    },
+    {
+      "original": "Wehrlein, Pascal  ",
+      "conv": "zh-cn:帕斯卡·维尔莱茵;zh-hk:帕斯卡·韋亞連;zh-tw:帕斯卡·維爾萊茵;zh-mo:帕斯卡·韋亞連"
+    },
+    {
+      "original": "Alfa Romeo",
+      "conv": "zh-cn:阿尔法·罗密欧;zh-hk:愛快;zh-tw:愛快羅密歐;"
+    },
+    {
+      "original": "AlphaTauri",
+      "conv": "zh-cn:阿尔法托利;zh-hk:艾法托利;zh-mo:艾法托利;zh-my:阿尔法托利;zh-sg:阿尔法托利;zh-tw:艾法托利;"
+    },
+    {
+      "original": "Aston Martin ",
+      "conv": "zh-cn:阿斯顿·马丁;zh-hk:雅士頓·馬田;zh-tw:奧斯頓·馬丁;zh-mo:雅士頓·馬田;zh-hant:阿斯頓·馬丁;"
+    },
+    {
+      "original": "Benetton ",
+      "conv": "zh-cn:贝纳通;zh-hk:班尼頓;zh-tw:班尼頓;"
+    },
+    {
+      "original": "Benz ",
+      "conv": "zh-cn:奔驰;zh-hk:平治;zh-tw:賓士;zh-sg:宾士;"
+    },
+    {
+      "original": "Force India ",
+      "conv": "zh-cn:印度力量;zh-mo:印度力量;zh-tw:印度威力"
+    },
+    {
+      "original": "Lotus ",
+      "conv": "zh-cn:路特斯;zh-hk:蓮花;zh-tw:蓮花;"
+    },
+    {
+      "original": "McLaren ",
+      "conv": "zh-cn:迈凯伦;zh-hk:麥拿倫;zh-tw:麥拉倫;"
+    },
+    {
+      "original": "Mercedes ",
+      "conv": "zh-cn:梅赛德斯; zh-tw:梅賽德斯; zh-hk:梅斯特斯;zh-sg:马赛地;"
+    },
+    {
+      "original": "Mercedes-Benz ",
+      "conv": "zh-cn:梅赛德斯-奔驰; zh-tw:梅賽德斯-賓士; zh-hk:梅斯特斯-平治;zh-sg:马赛地-宾士;"
+    },
+    {
+      "original": "Renault ",
+      "conv": "zh-cn:雷诺; zh-tw:雷諾; zh-hk:威龍; zh-mo:雷諾;"
+    },
+    {
+      "original": "Sauber ",
+      "conv": "zh-cn:索伯;zh-hk:沙巴;zh-tw:薩伯;"
+    },
+    {
+      "original": "Williams ",
+      "conv": "zh-cn:威廉姆斯;zh-hk:威廉士;zh-tw:威廉斯;"
+    },
+    {
+      "original": "AlphaTauri ",
+      "conv": "zh-cn:阿尔法托利;zh-hk:艾法托利;zh-tw:艾法托利;"
+    },
+    {
+      "original": "Abu Dhabi ",
+      "conv": "zh-cn:阿布扎比; zh-hk:阿布達比; zh-tw:阿布達比"
+    },
+    {
+      "original": "Albert Park ",
+      "conv": "zh-cn:阿尔伯特公园;zh-hk:亞厘畢公園;zh-tw:阿爾伯特公園"
+    },
+    {
+      "original": "Austin ",
+      "conv": "zh-cn:奥斯汀; zh-tw:奧斯丁; zh-hk:柯士甸; zh-hant:奧斯汀"
+    },
+    {
+      "original": "Australia ",
+      "conv": "zh-cn:澳大利亚; zh-tw:澳洲; zh-hk:澳洲"
+    },
+    {
+      "original": "Autodromo Nazionale Monza ",
+      "conv": "zh-cn:蒙扎国家赛车场;zh-hk:國立蒙札賽車場;zh-tw:國立蒙札賽車場;"
+    },
+    {
+      "original": "Azerbaijan ",
+      "conv": "zh-cn:阿塞拜疆; zh-hk:阿塞拜疆; zh-tw:亞塞拜然"
+    },
+    {
+      "original": "Horner, Christian ",
+      "conv": "zh-cn:克里斯蒂安·霍納;zh-tw:克里斯蒂安·霍納;zh-hk:基斯甸·漢拿;"
+    },
+    {
+      "original": "Williams, Frank ",
+      "conv": "zh-cn:弗兰克·威廉姆斯;zh-tw:弗蘭克·威廉斯; zh-hk:法蘭·威廉士;zh-mo:法蘭·威廉士;zh-hant:弗蘭克·威廉斯;"
+    },
+    {
+      "original": "FIA ",
+      "conv": "zh-cn:国际汽车联合会; zh-tw:國際汽車聯盟; zh-hk:國際汽車聯合會; zh-sg:国际汽车联合会;"
+    },
+    {
+      "original": "Italia ",
+      "conv": "zh-cn:意大利;zh-hk:意大利;zh-tw:義大利;"
+    },
+    {
+      "original": "Monte-Carlo ",
+      "conv": "zh-cn:蒙特卡洛;zh-hk:蒙地卡羅;zh-tw:蒙特卡洛;"
+    },
+    {
+      "original": "Montreal ",
+      "conv": "zh-cn:蒙特利尔;zh-hk:滿地可;zh-tw:蒙特婁;"
+    },
+    {
+      "original": "Monza ",
+      "conv": "zh-cn:蒙扎;zh-hk:蒙札;zh-tw:蒙札;"
+    },
+    {
+      "original": "Suspension ",
+      "conv": "zh-cn:悬挂; zh-tw:懸吊; zh-mo:懸掛;"
+    },
+    {
+      "original": "Goodyear ",
+      "conv": "zh-cn:固特异; zh-hk:好時年; zh-tw:固特異;"
+    },
+    {
+      "original": "Michelin ",
+      "conv": "zh-cn:米其林; zh-hk:米芝蓮; zh-tw:米其林;"
+    },
+    {
+      "original": "Bridgestone ",
+      "conv": "zh-cn:普利司通; zh-hk:石橋牌; zh-tw:普利司通;"
+    },
+    {
+      "original": "Firestone ",
+      "conv": "zh-cn:凡士通; zh-hk:凡世通; zh-tw:泛世通;"
+    },
+    {
+      "original": "Dunlop ",
+      "conv": "zh-cn:邓禄普; zh-hk:鄧祿普; zh-tw:登祿普;"
+    }
+  ]
+}

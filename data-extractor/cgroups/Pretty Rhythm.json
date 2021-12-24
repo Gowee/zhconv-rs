@@ -1,0 +1,423 @@
+{
+  "name": "Pretty Rhythm",
+  "description": "[[星光少女]]",
+  "path": "Template:CGroup/Pretty Rhythm",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:爱良; zh-hant:艾菈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:天宫律舞; zh-hant:天宮旋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:律舞; zh-hant:小旋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:萨莉娜; zh-hant:莎莉娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿翔; zh-hant:阿尚;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:树; zh-hant:樹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:神崎其方; zh-hant:神崎曲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:其方; zh-hant:小曲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:东都律舞; zh-hant:藤堂旋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:花铃; zh-hant:果鈴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫美; zh-hant:彩海;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海恩; zh-hant:慧仁;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:希韵; zh-hant:時倫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佳恩; zh-hant:在恩;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佳韵; zh-hant:彩暻;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:素敏; zh-hant:沼珉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:勇華; zh-hant:容和;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫镜王牌; zh-hant:星光王牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:铃音; zh-tw:凜音; zh-hk:鈴音"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奈露; zh-tw:小鳴; zh-hk:奈瑠"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩濑奈露; zh-tw:彩瀨鳴; zh-hk:彩瀨奈瑠"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:小杏; zh-tw:小杏; zh-hk:阿杏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:小弦; zh-tw:小糸; zh-hk:阿糸"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:涼野弦; zh-tw:涼野糸; zh-hk:涼野糸"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:音羽; zh-tw:音羽; zh-hk:乙葉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:红月; zh-tw:貝兒; zh-hk:芭爾"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:乐符丽; zh-tw:拉芙鈴; zh-hk:拉蓓莉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巴布; zh-tw:波寶; zh-hk:波布"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:可露; zh-tw:庫倫; zh-hk:咕嚕;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:费咪妮; zh-tw:菲米妮; zh-hk:菲米妮"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:艾丝妮; zh-tw:艾絲妮; zh-hk:艾思妮"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:赛西妮; zh-tw:賽席妮; zh-hk:雪梨"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丝丹; zh-tw:絲坦恩; zh-hk:絲妲"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:茱奈;zh-tw:純音; zh-hk:茱莉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桃子;zh-tw:桃子; zh-hk:摩摩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:比可库;zh-hk:必樂古;zh-tw:皮可庫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:啦啦;zh-tw:菈菈; zh-hk:菈菈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫镜時尚秀; zh-tw:星光時尚秀; zh-hk:Prism Show;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:极光腾跃Dream; zh-hant:極光騰躍美夢成真;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:极光腾跃Final; zh-hant:極光騰躍完成式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:星尘之雨; zh-hant:星光流星雨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:水晶满点; zh-hant:水晶螢光點點;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:心花满点; zh-hant:心花怒放;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:欢乐之心潜行; zh-hant:歡樂心動潛行;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:漫天飞舞恋爱之花; zh-hant:漫天飛舞的戀愛花瓣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:心弧幻想; zh-hant:夢幻愛心拱門;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:我的妖精女孩; zh-hant:魔法妖精女孩;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:金色星之魔法; zh-hant:金色星光魔法;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:动人彩虹; zh-hant:美麗彩虹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:可爱香水满点; zh-hant:俏麗芳香水花;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:闪闪发光 未来之星; zh-hant:星光閃耀 明日之星;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:闪耀爱之邱比特; zh-hant:閃耀愛情邱比特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:世界爱之邱比特; zh-hant:世界愛情邱比特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫镜石幻想; zh-hant:夢幻寶石拱門;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丛林之王; zh-hant:叢林之王; zh-tw:森林之王; zh-hk:森林之王; zh-mo:森林之王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:流行光斑; zh-tw:流行光點; zh-hk:流行飛揚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:星之光斑; zh-tw:閃亮光點; zh-hk:星光飛濺"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:酷炫光斑; zh-tw:酷炫光點; zh-hk:冷酷激濺"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:性感光斑; zh-tw:艷麗光點; zh-hk:艷光四射"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:淑女光斑; zh-tw:優雅光點; zh-hk:優雅飄揚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:可爱光斑; zh-tw:可愛光點; zh-hk:可愛飄蕩"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:异域光斑; zh-tw:民族風光點; zh-hk:民族風飄揚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:闪电光斑; zh-tw:閃電光點; zh-hk:閃電光點"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:宝石螺旋交错; zh-tw:寶石交叉迴旋; zh-hk:寶石回轉Cross"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:心动摇摆节奏; zh-tw:心動搖擺節奏; zh-hk:回蕩心靈節奏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:百分百 纯洁之箭; zh-tw:100% 純純的箭; zh-hk:百分百純潔之箭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:热情玫瑰百万朵; zh-tw:熱情百萬薔薇; zh-hk:熱情的百萬薔薇"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:我的童话梦想城市; zh-tw:我的童話夢幻城市; zh-hk:乙葉夢幻的Dream City"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:觉醒之花华尔兹; zh-tw:覺醒之百花華爾茲; zh-hk:覺醒百花華爾茲"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:红系 夏之恋; zh-tw:紅線・夏日之戀; zh-hk:紅線・夏日之戀"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:梦幻万花筒; zh-tw:夢幻萬花鏡; zh-hk:夢幻萬花筒"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:我的童话茶会派对; zh-tw:我的夢幻童話下午茶; zh-hk:我的夢幻童話下午茶"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:展翅翱翔 彩虹之尾; zh-tw:展翅飛翔 彩虹尾翼; zh-hk:振翅高飛 彩虹尾翼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:燃炎剑斩; zh-tw:熾燄之劍 披荊斬棘; zh-hk:熾燄之劍 披荊斬棘"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无限棱镜凤凰; zh-tw:夢幻星光鳳凰; zh-hk:夢幻星光鳳凰"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无限快乐流星箭; zh-tw:無限快樂開心的箭; zh-hk:無限快樂開心的箭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩虹拱门奇域; zh-tw:彩虹奇幻拱門; zh-hk:彩虹奇幻拱門"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:超级美味甜点黄金地; zh-tw:美味無窮！甜點木馬！; zh-hk:美味無窮！甜點木馬！"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:燃烧！盛大交叉回旋; zh-tw:燃燒！盛大交叉迴旋; zh-hk:燃燒！盛大交叉迴旋"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:月神的彩虹天堂之旅; zh-tw:月神的彩虹天堂之旅; zh-hk:月神的彩虹天堂之旅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:闪亮转台; zh-tw:閃亮金色唱盤; zh-hk:閃亮金色唱盤"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:觉醒之绽放我心花; zh-tw:覺醒之綻放我心花; zh-hk:覺醒之綻放我心花"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:爱的燃烧 火焰之恋; zh-tw:愛的太陽 火焰之戀; zh-hk:愛的太陽 火焰之戀"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:快乐笑容服装; zh-hant:歡樂微笑綵衣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亲爱我的未来; zh-hant:美夢成真;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:交响曲大道; zh-hant:通往交響曲之路;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美妙旋律; zh-hant:星光少女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩虹之梦; zh-hant:極光之夢;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Dear My Future; zh-hant:美夢成真;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Rainbow Live; zh-hant:彩虹舞台;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:全星选拔; zh-hant:全星選拔; zh-tw:群星閃耀; zh-hk:群星閃耀; zh-mo:群星閃耀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩虹羽翼; zh-hant:極光騰躍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:夏娃纯白婚纱奇石; zh-hant:純白結婚禮服奇石;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:滑冰; zh-hant:冰刀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩球棒; zh-hant:綵球棒; tw:彩球棒; zh-hk:啦啦球棒; zh-mo:啦啦球棒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫镜; zh-hant:星光;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫石; zh-hant:寶石;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:感恩交响曲; zh-hant:無尚禮讚交響曲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:騰飛; zh-hk:展翅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:绫镜演奏会; zh-tw:星光演唱會;zh-hk:星光演奏會;"
+    },
+    {
+      "original": null,
+      "conv": "zh:Pripara;zh-hans:美妙天堂; zh-hant:星光樂園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:吉他; zh-tw:吉他; zh-hk:結他;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:埃德尔玫瑰; zh-tw:薔薇學園; zh-hk:Edel Rose;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:; zh-hant:;"
+    }
+  ]
+}

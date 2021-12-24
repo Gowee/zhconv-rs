@@ -1,0 +1,475 @@
+{
+  "name": "黑執事",
+  "description": "黑執事",
+  "path": "Template:CGroup/黑執事",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:赛巴斯钦; zh-tw:賽巴斯欽; zh-hk:錫巴斯查恩; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赛巴斯酱; zh-tw:賽巴斯小子; zh-hk:小錫巴斯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米加艾里斯; zh-tw:米卡艾利斯; zh-hk:米加艾里斯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夏尔; zh-tw:謝爾; zh-hk:西雅爾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凡多姆海伍; zh-tw:凡多姆海伍; zh-hk:法多姆凱貝; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凡多姆; zh-tw:凡多姆; zh-hk:法多姆; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:美玲; zh-tw:梅琳; zh-hk:美鈴; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:费尼安; zh-tw:菲尼安; zh-hk:費尼安; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拜尔特; zh-tw:巴爾德; zh-hk:拜爾特箂爾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瑞秋; zh-tw:瑞秋; zh-hk:瑞吉兒; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:文森特; zh-tw:文森; zh-hk:文生; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米多福特; zh-tw:米多福特; zh-hk:密德福特; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伊丽莎白; zh-tw:伊莉莎白; zh-hk:伊麗莎白; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:丽莎; zh-tw:莉西; zh-hk:麗莎; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拜尼特; zh-tw:巴奈特; zh-hk:拜尼特; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:安洁莉娜; zh-tw:安潔莉娜; zh-hk:安祖蓮娜; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:达雷斯; zh-tw:達雷斯; zh-hk:戴尼斯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:紅夫人; zh-hk:紅女士; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:格雷尔; zh-tw:格雷爾; zh-hk:葛里爾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:沙多克里夫; zh-hk:薩多古里夫; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:史皮爾斯; zh-hk:史畢艾茲; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:羅納德; zh-hk:朗奴; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:諾克斯; zh-hk:諾克斯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:葬仪屋; zh-tw:葬儀社; zh-hk:殯儀屋; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:索馬; zh-hk:索瑪; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿斯曼加達爾; zh-hk:艾斯曼加達魯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿格尼; zh-hk:亞格尼; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴拉蒙; zh-hk:婆羅門; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿爾夏多; zh-hk:亞爾薩德; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:班卡爾藩國; zh-hk:孟加拉藩王國; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:米娜; zh-hk:美娜; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿雷斯特; zh-hk:艾里斯特; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:錢帕; zh-hk:森巴; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:多爾伊特; zh-hk:德諾依多; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:諾亞方舟; zh-hk:挪亞方舟; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:凱爾文; zh-hk:凱爾文; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:JOKER; zh-hk:JOKER; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:BEAST; zh-hk:畢絲蒂; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:DAGGER; zh-hk:戴加; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:SNAKE; zh-tw:蛇男SNAKE; zh-hk:史尼克; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:彼得; zh-hk:彼德; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:DOLL; zh-hk:多爾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:JUMBO; zh-hk:珍寶; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:SMILE; zh-hk:斯邁爾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:BLACK; zh-hk:白蘭克; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:哈洛德; zh-hk:哈羅德; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威斯特; zh-hk:衛斯特; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:傑布; zh-hk:扎普; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:暴坊伯爵; zh-hk:暴力伯爵; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:蓝道; zh-tw:藍道; zh-hk:蘭度爾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:弗瑞德; zh-hk:佛雷特; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿巴萊; zh-hk:阿伯萊恩; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:札萊密; zh-hk:札箂密; zh-tw:札萊密;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:死神鐮刀; zh-hk:死神之鐮; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:遵命，我的主人; zh-hk:遵命，我的主人; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:女王; zh-hk:女皇; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:王立倫敦醫院; zh-hk:皇家倫敦醫院; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:回收科; zh-hk:回收部; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:威士頓; zh-hk:威斯頓; zh-tw:威士頓"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:那名執事…; zh-hk:那位執事，; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:寶拉; zh-hk:波娜; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:普魯托; zh-hk:布魯圖; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:安潔拉; zh-hk:安琪拉; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:布朗; zh-hk:布朗; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:亨利; zh-hk:亨利; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴利摩; zh-hk:巴里摩亞; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:亞修; zh-hk:亞瑟·蘭達斯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:西蒙絲; zh-hk:詩夢慈; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:多羅塞爾; zh-hk:桃洛修; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:凱因茲; zh-hk:凱因斯; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:曼德雷; zh-hk:曼德勒; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:漢茲沃斯; zh-hk:鴻斯禾富; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:亞洛斯; zh-tw:亞洛斯; zh-hk:雅萊仕; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:特兰西; zh-tw:特蘭西; zh-hk:查麟趾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克劳德; zh-tw:克勞德; zh-hk:古浪淘; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:弗斯达斯; zh-tw:弗史塔斯; zh-hk:浮士德; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:漢娜; zh-hk:杏娜; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:安娜費羅斯; zh-hk:安楠翡綠; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:湯普森; zh-hk:唐步信; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:汀柏; zh-hk:添柏; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:坎特伯里; zh-hk:耿達培; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:艾諾; zh-hk:亞諾; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:吉姆; zh-hk:瞻明; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:麥肯; zh-hk:馬健; "
+    },
+    {
+      "original": "",
+      "conv": "zh:盧卡; zh-tw:路卡; zh-hk:瑠嘉; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夏尔的奇幻仙境; zh-tw:謝爾的奇幻仙境; zh-hk:西雅爾夢遊仙境; "
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:; zh-tw:; zh-hk:; zh-hans:;"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "name": "McDonald's",
+  "description": "麥當勞",
+  "path": "Template:CGroup/McDonald's",
+  "rules": [
+    {
+      "original": "外語原文",
+      "conv": "zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:澳門;"
+    },
+    {
+      "original": "外語原文",
+      "conv": "原文=>zh-cn:大陆;原文=>zh-tw:臺灣;原文=>zh-hk:香港;原文=>zh-sg:新馬;zh-mo:澳門;"
+    },
+    {
+      "original": "Big Mac",
+      "conv": "zh:麥香堡;zh-hans:巨无霸;zh-hk:巨無霸;zh-tw:大麥克;"
+    },
+    {
+      "original": "Happy Meal",
+      "conv": "zh-hans:开心乐园餐;zh-hk:開心樂園餐;zh-tw:快樂兒童餐;"
+    },
+    {
+      "original": null,
+      "conv": "麥滿分=>zh-hans:麦满分;麥滿分=>zh-tw:滿福堡;麥滿分=>zh-hk:漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "麦满分=>zh-tw:滿福堡;麦满分=>zh-hk:漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "滿福堡=>zh-hans:麦满分;滿福堡=>zh-hk:漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:吉士蛋麦满分;zh-hant:滿福堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:猪柳麥滿分;zh-hans:猪柳麦满分;zh-hk:豬柳漢堡;zh-tw:豬肉滿福堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:猪柳蛋麦满分;zh-hk:豬柳蛋漢堡;zh-tw:豬肉滿福堡加蛋;"
+    },
+    {
+      "original": null,
+      "conv": "zh:麥克雞塊;zh-hans:麦乐鸡;zh-hk:麥樂雞;zh-tw:麥克鷄塊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:超码的我;zh-hk:不瘦降之謎;zh-tw:麥胖報告;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:盎司牛肉堡;zh-hk:足三兩;zh-tw:四盎司牛肉堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巨无霸指数;zh-hk:巨無霸指數;zh-tw:大麥克指數;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:麦香鱼;zh-hk:魚柳飽;zh-tw:麥香魚;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:芝士汉堡;zh-hk:芝士漢堡;zh-tw:吉士漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:麥脆雞;zh-hans:麦辣鸡翅;zh-hk:脆香雞翼;zh-tw:麥脆鷄;"
+    },
+    {
+      "original": null,
+      "conv": "zh:勁辣雞腿堡;zh-hans:麦辣鸡腿汉堡;zh-hk:脆辣雞腿飽;zh-tw:勁辣鷄腿堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:板烤雞腿堡;zh-hans:板烧鸡腿堡;zh-hk:板燒雞腿飽;zh-tw:板烤鷄腿堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:烟肉蛋麦满分;zh-hk:煙肉蛋漢堡;zh-tw:培根滿福堡加蛋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苹果派;zh-hk:蘋果批;zh-tw:蘋果派;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:紅豆派;zh-hk:紅豆批;zh-tw:紅豆派;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:香芋派;zh-hk:香芋批;zh-tw:芋頭派;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:汽水;zh-hk:汽水;zh-tw:碳酸飲料;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:冰旋风;zh-hk:麥旋風;zh-tw:冰旋風;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:早晨全餐;zh-hk:精選早晨套餐;zh-tw:早晨全餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:饮料;zh-hk:飲品;zh-tw:飲料;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:超值套餐;zh-hk:超值套餐;zh-tw:超值全餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:小飞飞;zh-hk:小飛飛;zh-tw:大鳥姐姐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:滑溜溜;zh-hk:滑嘟嘟;zh-tw:奶昔大哥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:吉士汉堡包;zh-hk:芝士漢堡飽;zh-tw:吉事漢堡;"
+    },
+    {
+      "original": "McDouble",
+      "conv": "zh-hans:麦克双牛堡;zh-hk:雙牛芝堡;zh-tw:麥克雙牛堡;"
+    },
+    {
+      "original": "Double Cheeseburger",
+      "conv": "zh-hans:双层吉士汉堡包;zh-hk:雙層芝士孖堡;zh-tw:雙層牛肉吉事堡;"
+    },
+    {
+      "original": "Double Filet-O-Fish",
+      "conv": "zh-hans:双层麦香鱼;zh-hk:Double魚柳飽;zh-tw:雙層麥香魚;"
+    },
+    {
+      "original": "McChicken",
+      "conv": "zh-hans:麦香鸡;zh-hk:麥香雞;zh-tw:麥香鷄;"
+    },
+    {
+      "original": "McCrispy",
+      "conv": "zh-hans:脆香鸡;zh-hk:麥脆雞;zh-tw:麥脆鷄;"
+    },
+    {
+      "original": "Double Quarter Pounder with Cheese",
+      "conv": "zh-hans:双层盎司牛肉堡;zh-hk:Double足三兩;zh-tw:雙層四盎司牛肉堡;"
+    },
+    {
+      "original": "Double Burger",
+      "conv": "zh-hans:双层牛肉堡;zh-hk:孖堡;zh-tw:雙層牛肉漢堡;"
+    },
+    {
+      "original": "Tripple Cheeseburger",
+      "conv": "zh-hans:三层吉士堡包;zh-hk:三層芝士堡;zh-tw:三層牛肉吉事堡;"
+    },
+    {
+      "original": "Big N' Tasty",
+      "conv": "zh-hans:鲜蔬足尊牛堡;zh-hk:至尊漢堡;zh-tw:大美味牛肉堡;"
+    },
+    {
+      "original": "Grilled Chicken Toasted Rice Burger",
+      "conv": "zh-hans:饭香堡;zh-hk:飯tastic;zh-tw:一品燒飯香堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:双层芝士汉堡;zh-hk:雙層芝士孖堡;zh-tw:雙層吉事漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:猪柳汉堡;zh-hk:豬柳漢堡;zh-tw:豬肉滿福堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:猪柳蛋汉堡;zh-hk:豬柳蛋漢堡;zh-tw:豬肉滿福堡加蛋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:烟肉蛋松饼;zh-hk:煙肉蛋漢堡;zh-tw:培根滿福堡加蛋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:经典大早餐; zh-hk:珍寶套餐; zh-tw:好時光大早餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超值套餐; zh-hk:超值套餐; zh-tw:超值全餐;"
+    }
+  ]
+}

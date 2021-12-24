@@ -1,0 +1,131 @@
+{
+  "name": "名偵探柯南",
+  "description": "名偵探柯南",
+  "path": "Template:CGroup/名偵探柯南",
+  "rules": [
+    {
+      "original": "名探偵コナン 14番目の標的",
+      "conv": "zh-cn:名侦探柯南：第十四个目标;zh-tw:名偵探柯南：第十四號獵物;"
+    },
+    {
+      "original": "名探偵コナン 天国へのカウントダウン",
+      "conv": "zh-cn:名侦探柯南：通往天国的倒计时;zh-tw:名偵探柯南：往天國的倒數計時;"
+    },
+    {
+      "original": "名探偵コナン 迷宮の十字路",
+      "conv": "zh-cn:名侦探柯南：迷宫的十字路口;zh-tw:名偵探柯南：迷宮的十字路;"
+    },
+    {
+      "original": "名探偵コナン 銀翼の奇術師",
+      "conv": "zh-cn:名侦探柯南：银翼的魔术师;zh-tw:名偵探柯南：銀翼的奇術師;"
+    },
+    {
+      "original": "名探偵コナン 漆黒の追跡者",
+      "conv": "zh-cn:名侦探柯南：漆黑的追踪者;zh-tw:名偵探柯南：漆黑的追跡者;"
+    },
+    {
+      "original": "名探偵コナン 天空の難破船",
+      "conv": "zh-cn:名侦探柯南：天空的遇难船;zh-tw:名偵探柯南：天空的劫難船;zh-cn:名侦探柯南：天空的遇难船;zh-hk:名偵探柯南：天空的遇難船;zh-tw:名偵探柯南：天空的劫難船;zh-mo:名偵探柯南：天空的遇難船;"
+    },
+    {
+      "original": "名探偵コナン 11人目のストライカー",
+      "conv": "zh-cn:名侦探柯南：第11名前锋;zh-tw:名偵探柯南：第11位前鋒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:第十四个目标;zh-tw:第十四號獵物;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:通往天国的倒计时;zh-tw:往天國的倒數計時;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:迷宫的十字路口;zh-tw:迷宮的十字路;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:银翼的魔术师;zh-tw:銀翼的奇術師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:漆黑的追踪者;zh-tw:漆黑的追跡者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:天空的遇难船;zh-tw:天空的劫難船;zh-cn:天空的遇难船;zh-hk:天空的遇難船;zh-tw:天空的劫難船;zh-mo:天空的遇難船;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:第11名前锋;zh-tw:第11位前鋒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:远海的侦探;zh-tw:絕海的偵探;"
+    },
+    {
+      "original": "緋色の弾丸",
+      "conv": "zh-cn:绯色的子弹;zh-tw:緋色的彈丸;zh-hk:緋色的彈丸;"
+    },
+    {
+      "original": "Vermouth",
+      "conv": "zh-cn:贝尔摩德;zh-hk:苦艾酒;zh-tw:苦艾酒"
+    },
+    {
+      "original": "Korn",
+      "conv": "zh-cn:科恩;zh-hk:科倫;zh-tw:柯倫"
+    },
+    {
+      "original": "Calvados",
+      "conv": "zh-cn:卡尔瓦多斯;zh-hk:蘋果白蘭地;zh-tw:蘋果白蘭地"
+    },
+    {
+      "original": "Chianti",
+      "conv": "zh-cn:基安蒂;zh-hk:香堤;zh-tw:香堤"
+    },
+    {
+      "original": "小嶋 元太",
+      "conv": "zh-hans:小岛元太;zh-hk:小島元太;zh-tw:小嶋元太"
+    },
+    {
+      "original": "Rum",
+      "conv": "zh-cn:朗姆;zh-tw:蘭姆;zh-hk:藍姆"
+    },
+    {
+      "original": "Korn",
+      "conv": "zh-cn:柯恩;zh-tw:柯倫"
+    },
+    {
+      "original": "脇田",
+      "conv": "zh-hans:胁田;zh-hant:脇田"
+    },
+    {
+      "original": "Agatha Christie",
+      "conv": "zh-cn:阿加莎·克里斯蒂; zh-sg:阿加莎·克里斯蒂; zh-tw:阿嘉莎·克莉絲蒂; zh-hk:阿嘉莎·姬絲蒂;"
+    },
+    {
+      "original": "Jane Marple",
+      "conv": "zh-hans:简·马普尔; zh-hant:珍·瑪波;"
+    },
+    {
+      "original": "Luís Figo",
+      "conv": "zh-hans:路易斯·菲戈;zh-hk:路爾斯·費高;zh-tw:路易斯·菲戈;"
+    },
+    {
+      "original": "仮面",
+      "conv": "zh-hans:假面;zh-hk:幪面;zh-tw:假面;"
+    },
+    {
+      "original": "仮面ライダー",
+      "conv": "zh-hans:假面骑士;zh-hk:幪面超人;zh-tw:假面騎士;"
+    },
+    {
+      "original": "まじっく快斗　まじっくかいと",
+      "conv": "zh-cn:魔术快斗;zh-hk:魔術快斗;zh-tw:神偷怪盜"
+    },
+    {
+      "original": "マツダ",
+      "conv": "zh-hans:马自达;zh-hk:萬事得;zh-tw:馬自達;"
+    }
+  ]
+}

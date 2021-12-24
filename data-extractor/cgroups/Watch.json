@@ -1,0 +1,67 @@
+{
+  "name": "Watch",
+  "description": "巡者系列",
+  "path": "Template:CGroup/Watch",
+  "rules": [
+    {
+      "original": "Night Watch",
+      "conv": "zh-hans:守夜人;zh-hant:夜巡者;"
+    },
+    {
+      "original": "Day Watch",
+      "conv": "zh-hans:守日人;zh-hant:日巡者;"
+    },
+    {
+      "original": "Dusk Watch",
+      "conv": "zh-hans:黄昏使者;zh-hant:幽巡者;"
+    },
+    {
+      "original": "the last watch",
+      "conv": "zh-hans:最后的守护人;zh-hant:終巡者;"
+    },
+    {
+      "original": "Destiny",
+      "conv": "zh-hans:自身的命运;zh-hant:自己的命運;"
+    },
+    {
+      "original": "Among His Own Kind",
+      "conv": "zh-hans:自己人在自己人中间;zh-hant:;"
+    },
+    {
+      "original": "All for My Own Kind",
+      "conv": "zh-hans:只为自己人;zh-hant:;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:;zh-hant:閒人莫入;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:;zh-hant:異界外人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:;zh-hant:超凡法力;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黄昏界;zh-hant:幽界;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:他者;zh-hant:超凡人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:守夜人巡查队;zh-hant:夜巡隊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:守日人巡查队;zh-hant:日巡隊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:宗教法庭;zh-hant:大審判法庭;"
+    }
+  ]
+}

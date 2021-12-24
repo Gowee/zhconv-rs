@@ -1,0 +1,31 @@
+{
+  "name": "inter",
+  "description": "國際米蘭",
+  "path": "Template:CGroup/inter",
+  "rules": [
+    {
+      "original": "Francesco Toldo",
+      "conv": "zh:托度;zh-hans:弗朗切斯科·托尔多;zh-hk:托度;zh-tw:弗朗切斯科·托爾多;"
+    },
+    {
+      "original": "Júlio César Soares",
+      "conv": "zh:朱利奥·塞萨尔;zh-hans:儒利奥·塞萨尔;zh-hk:祖利奧施薩;zh-tw:儒里奧·塞薩爾;"
+    },
+    {
+      "original": "Paolo Orlandoni",
+      "conv": "zh:保罗·奧兰多尼;zh-hans:保罗·奥兰多尼;zh-hk:奧蘭當尼;zh-tw:保罗·奧兰多尼;"
+    },
+    {
+      "original": "Iván Córdoba",
+      "conv": "zh:科尔多巴;zh-hans:科尔多巴;zh-hk:哥度巴;zh-tw:科尔多巴;"
+    },
+    {
+      "original": "João Mário",
+      "conv": "zh:祖奧·馬里奧;zh-hans:若昂·马里奥;zh-hk:祖奧·馬里奧;zh-tw:若昂·馬里奧;"
+    },
+    {
+      "original": "José Mourinho",
+      "conv": "zh:何塞·穆里尼奥;zh-hans:何塞·穆里尼奥;zh-hk:荷西·摩連奴;zh-tw:若澤·穆里尼奧;"
+    }
+  ]
+}

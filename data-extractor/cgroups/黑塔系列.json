@@ -1,0 +1,111 @@
+{
+  "name": "黑塔系列",
+  "description": "-{zh-tw:黑塔小說系列;zh-cn:黑暗塔小說系列;zh-hk:黑塔小說系列}-",
+  "path": "Template:CGroup/黑塔系列",
+  "rules": [
+    {
+      "original": "zh-hans:枪侠;zh-hant:最後的槍客",
+      "conv": "The Dark Tower: The Gunslinger"
+    },
+    {
+      "original": "zh-hans:三张牌;zh-hant:三張預言牌",
+      "conv": "The The Dark Tower II: The Drawing of the Three"
+    },
+    {
+      "original": "zh-hans:荒原;zh-hant:荒原的試煉",
+      "conv": "The Dark Tower III: The Waste Lands"
+    },
+    {
+      "original": "zh-hans:巫师与玻璃球;zh-hant:巫師與水晶球",
+      "conv": "The Dark Tower IV: Wizard and Glass"
+    },
+    {
+      "original": "zh-hans:卡拉之狼;zh-hant:卡拉之狼",
+      "conv": "The Dark Tower V: Wolves of the Calla"
+    },
+    {
+      "original": "zh-hans:黑暗之塔;zh-hant:業之門",
+      "conv": "The Dark Tower VII: The Dark Tower"
+    },
+    {
+      "original": "zh-hans:黑暗塔;zh-hant:黑塔",
+      "conv": "The Dark Tower"
+    },
+    {
+      "original": "zh-hans:德鄯;zh-hant:德斯欽",
+      "conv": "Deschain"
+    },
+    {
+      "original": "zh-hans:奥伊;zh-hant:仔仔",
+      "conv": "Oy"
+    },
+    {
+      "original": "zh-hans:米阿;zh-hant:米亞",
+      "conv": "Mia"
+    },
+    {
+      "original": "zh-hans:巴拉扎;zh-hant:巴拉札",
+      "conv": "Balazar"
+    },
+    {
+      "original": "zh-hans:曼尼族;zh-hant:曼寧人",
+      "conv": "Manni"
+    },
+    {
+      "original": "zh-hans:埃蒂;zh-hant:艾迪",
+      "conv": "Eddie"
+    },
+    {
+      "original": "zh-hans:低等人;zh-hant:下等人",
+      "conv": "Low Men"
+    },
+    {
+      "original": "zh-hans:飞贼;zh-hant:銀探子",
+      "conv": "Sneetches"
+    },
+    {
+      "original": "zh-hans:深纽;zh-hant:亞倫",
+      "conv": "Aaron"
+    },
+    {
+      "original": "zh-hans:神夫;zh-hant:神父",
+      "conv": "Father"
+    },
+    {
+      "original": "zh-hans:莫俊德;zh-hant:莫德瑞",
+      "conv": "Mordred"
+    },
+    {
+      "original": "zh-hans:黑衣人;zh-hant:黑衣人",
+      "conv": "Man in Black"
+    },
+    {
+      "original": "zh-hans:斯蒂芬;zh-hant:史蒂芬",
+      "conv": "Stephen"
+    },
+    {
+      "original": "zh-hans:卡泰特;zh-hant:共業",
+      "conv": "ka-tet"
+    },
+    {
+      "original": "zh-hans:枪侠;zh-hant:槍客",
+      "conv": "Gunslinger"
+    },
+    {
+      "original": "zh-hans:时空之门;zh-hant:門洞",
+      "conv": "Doorway Cave"
+    },
+    {
+      "original": "zh-hans:泰特集团;zh-hant:共業股份有限公司",
+      "conv": "Tet Corporation"
+    },
+    {
+      "original": "zh-hans:雷劈;zh-hant:霹靂地",
+      "conv": "Thunderclap"
+    },
+    {
+      "original": "zh-hans:蓝色天堂;zh-hant:藍天堂",
+      "conv": "Blue Heaven"
+    }
+  ]
+}

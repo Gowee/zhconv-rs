@@ -1,0 +1,243 @@
+{
+  "name": "HTGAWM",
+  "description": "-{zh:逍遙法外;zh-tw:謀殺入門課;zh-hk:法網危情;zh-hans:逍遥法外}-",
+  "path": "Template:CGroup/HTGAWM",
+  "rules": [
+    {
+      "original": "How to Get Away with Murder",
+      "conv": "zh:逍遙法外;zh-tw:謀殺入門課;zh-hk:法網危情;zh-hans:逍遥法外"
+    },
+    {
+      "original": "Annalise Keating",
+      "conv": "zh:安娜莉絲·基汀;zh-tw:安娜莉絲·基汀;zh-hk:祈安娜;zh-cn:安娜莱丝·基廷;zh-sg:安娜莉丝·基廷"
+    },
+    {
+      "original": "Annalise",
+      "conv": "zh:安娜莉絲;zh-tw:安娜莉絲;zh-hk:安娜;zh-cn:安娜莱丝;zh-sg:安娜莉丝"
+    },
+    {
+      "original": "Keating",
+      "conv": "zh:基汀;zh-tw:基汀;zh-hk:祈氏;zh-hans:基廷"
+    },
+    {
+      "original": "Nate Lahey",
+      "conv": "zh:奈特·黎西;zh-tw:奈特·黎西;zh-hk:李尼特;zh-hans:纳特·莱西"
+    },
+    {
+      "original": "Nate",
+      "conv": "zh:奈特;zh-tw:奈特;zh-hk:尼特;zh-hans:纳特"
+    },
+    {
+      "original": "Wesley \"Wes\" Gibbins",
+      "conv": "zh:“衛斯”理·吉賓斯;zh-tw:“衛斯”理·吉賓斯;zh-hk:紀偉斯理;zh-hans:“卫斯”理·吉伯彬斯"
+    },
+    {
+      "original": "Wes Gibbins",
+      "conv": "zh:衛斯·吉賓斯;zh-tw:衛斯·吉賓斯;zh-hk:紀偉斯;zh-hans:卫斯·吉伯彬斯"
+    },
+    {
+      "original": "Wes",
+      "conv": "zh:衛斯;zh-tw:衛斯;zh-hk:偉斯;zh-hans:卫斯"
+    },
+    {
+      "original": "Christopher",
+      "conv": "zh:克里斯托夫;zh-tw:克里斯托夫;zh-hk:奇斯"
+    },
+    {
+      "original": "Connor Walsh",
+      "conv": "zh:康納·沃許;zh-tw:康納·沃許;zh-hk:華康納"
+    },
+    {
+      "original": "Rebecca Sutter",
+      "conv": "zh:蕾貝卡·沙特;zh-tw:蕾貝卡·沙特;zh-hk:史碧嘉;zh-cn:瑞贝卡·苏特;zh-sg:蕾贝卡·苏特"
+    },
+    {
+      "original": "Rebecca",
+      "conv": "zh:蕾貝卡;zh-tw:蕾貝卡;zh-hk:碧嘉;zh-cn:瑞贝卡;zh-sg:蕾贝卡"
+    },
+    {
+      "original": "Michaela Pratt",
+      "conv": "zh:米凱拉·普萊特;zh-tw:米凱拉·普萊特;zh-hk:彭美雪;zh-cn:麦琪拉·普拉特;zh-sg:米凯拉·普拉特"
+    },
+    {
+      "original": "Michaela",
+      "conv": "zh:米凱拉;zh-tw:米凱拉;zh-hk:美雪;zh-cn:麦琪拉;zh-sg:米凯拉"
+    },
+    {
+      "original": "Pratt",
+      "conv": "zh:普萊特;zh-tw:普萊特;zh-hans:普拉特"
+    },
+    {
+      "original": "Asher Millstone",
+      "conv": "zh:亞瑟·麥爾史東;zh-tw:亞瑟·麥爾史東;zh-hk:明艾沙"
+    },
+    {
+      "original": "Asher",
+      "conv": "zh:亞瑟;zh-tw:亞瑟;zh-hk:艾沙"
+    },
+    {
+      "original": "Laurel Castillo",
+      "conv": "zh:蘿瑞爾·卡斯提洛;zh-tw:蘿瑞爾·卡斯提洛;zh-hk:賈羅莉;zh-cn:洛萝儿·卡西提欧;zh-sg:劳蕾尔·卡斯提洛"
+    },
+    {
+      "original": "Laurel",
+      "conv": "zh:蘿瑞爾;zh-tw:蘿瑞爾;zh-hk:羅莉;zh-cn:洛萝儿;zh-sg:劳蕾尔"
+    },
+    {
+      "original": "Castillo",
+      "conv": "zh:卡斯提洛;zh-tw:卡斯提洛;zh-hans:卡西提欧"
+    },
+    {
+      "original": "Frank Delfino",
+      "conv": "zh:法蘭克·迪爾菲諾;zh-tw:法蘭克·迪爾菲諾;zh-hk:狄法蘭;zh-hans:弗兰克"
+    },
+    {
+      "original": "Frank",
+      "conv": "zh:法蘭克;zh-tw:法蘭克;zh-hk:法蘭;zh-hans:弗兰克"
+    },
+    {
+      "original": "Bonnie Winterbottom",
+      "conv": "zh:邦妮·溫特巴頓;zh-tw:邦妮·溫特巴頓;zh-hk:溫貝妮"
+    },
+    {
+      "original": "Bonnie",
+      "conv": "zh:邦妮;zh-tw:邦妮;zh-hk:貝妮"
+    },
+    {
+      "original": "Oliver Hampton",
+      "conv": "zh:奧利佛·漢普頓;zh-tw:奧利佛·漢普頓;zh-hk:奧利"
+    },
+    {
+      "original": "Oliver",
+      "conv": "zh:奧利佛;zh-tw:奧利佛;zh-hk:奧利"
+    },
+    {
+      "original": "Sam Keating",
+      "conv": "zh:山姆·基汀;zh-tw:山姆·基汀;zh-hk:祈森;zh-hans:山姆·基廷"
+    },
+    {
+      "original": "Sam",
+      "conv": "zh:山姆;zh-tw:山姆;zh-hk:森"
+    },
+    {
+      "original": "Hannah Keating",
+      "conv": "zh:漢娜·基汀;zh-tw:漢娜·基汀;zh-hk:祈海娜;zh-hans:汉娜·基廷"
+    },
+    {
+      "original": "Hannah",
+      "conv": "zh:漢娜;zh-tw:漢娜;zh-hk:海娜"
+    },
+    {
+      "original": "Griffin O'Reilly",
+      "conv": "zh:葛里芬·歐萊利;zh-tw:葛里芬·歐萊利;zh-hk:歐葛夫"
+    },
+    {
+      "original": "Griffin",
+      "conv": "zh:葛里芬;zh-tw:葛里芬;zh-hk:葛夫"
+    },
+    {
+      "original": "Max St. Vincent",
+      "conv": "zh:麥斯·聖·文森;zh-tw:麥斯·聖·文森;zh-hk:盛默斯"
+    },
+    {
+      "original": "Max",
+      "conv": "zh:麥斯;zh-tw:麥斯;zh-hk:默斯"
+    },
+    {
+      "original": "Lila Stangard",
+      "conv": "zh:萊拉·史坦嘉;zh-tw:萊拉·史坦嘉;zh-hk:施莉娜"
+    },
+    {
+      "original": "Lila",
+      "conv": "zh:萊拉;zh-tw:萊拉;zh-hk:莉娜"
+    },
+    {
+      "original": "Aiden Walker",
+      "conv": "zh:艾登·沃克;zh-tw:艾登·沃克;zh-hk:王艾登"
+    },
+    {
+      "original": "Wendy Parks",
+      "conv": "zh:溫蒂·帕克斯;zh-tw:溫蒂·帕克斯;zh-hk:白瑋婷"
+    },
+    {
+      "original": "Wendy",
+      "conv": "zh:溫蒂;zh-tw:溫蒂;zh-hk:瑋婷"
+    },
+    {
+      "original": "Mary Walker",
+      "conv": "zh:梅莉·沃克;zh-tw:梅莉·沃克;zh-hk:王瑪麗"
+    },
+    {
+      "original": "Mary",
+      "conv": "zh:梅莉;zh-tw:梅莉;zh-hk:瑪麗"
+    },
+    {
+      "original": "Marren Trudeau",
+      "conv": "zh:瑪蓮·楚道爾;zh-tw:瑪蓮·楚道爾;zh-hk:塗美蓮"
+    },
+    {
+      "original": "Marren",
+      "conv": "zh:瑪蓮;zh-tw:瑪蓮;zh-hk:美蓮"
+    },
+    {
+      "original": "Kan",
+      "conv": "zh:肯恩;zh-tw:肯恩;zh-hk:漢"
+    },
+    {
+      "original": "Caleb Hapstall",
+      "conv": "zh:凱勒布·哈普斯塔爾;zh-tw:凱勒布·哈普斯塔爾;zh-hk:夏曉立;zh-hans:凯勒布·哈斯托"
+    },
+    {
+      "original": "Caleb",
+      "conv": "zh:凱勒布;zh-tw:凱勒布;zh-hk:曉立;zh-hans:凯勒布"
+    },
+    {
+      "original": "Catherine Hapstall",
+      "conv": "zh:凱瑟琳·哈普斯塔爾;zh-tw:凱瑟琳·哈普斯塔爾;zh-hk:夏曉芙;zh-hans:凯瑟琳·哈斯托"
+    },
+    {
+      "original": "Catherine",
+      "conv": "zh:凱瑟琳;zh-tw:凱瑟琳;zh-hk:曉芙;zh-hans:凯瑟琳"
+    },
+    {
+      "original": "Hapstall",
+      "conv": "zh:哈普斯塔爾;zh-tw:哈普斯塔爾;zh-hk:夏氏;zh-hans:哈斯托"
+    },
+    {
+      "original": "Philip",
+      "conv": "zh:菲利浦;zh-tw:菲利浦;zh-hk:輝立;zh-hans:菲立"
+    },
+    {
+      "original": "Emily Sinclair",
+      "conv": "zh:艾蜜莉·辛克萊爾;zh-tw:艾蜜莉·辛克萊爾;zh-hk:冼愛媚;zh-hans:艾蜜莉·辛克莱"
+    },
+    {
+      "original": "Emily",
+      "conv": "zh:艾蜜莉;zh-tw:艾蜜莉;zh-hk:愛媚;zh-hans:艾蜜莉"
+    },
+    {
+      "original": "Sinclair",
+      "conv": "zh:辛克萊爾;zh-tw:辛克萊爾;zh-hk:冼氏;zh-hans:辛克莱"
+    },
+    {
+      "original": "Jill Hartford",
+      "conv": "zh:吉兒·哈福特;zh-tw:吉兒·哈福特;zh-hk:雷吉兒"
+    },
+    {
+      "original": "Helena Hapstall",
+      "conv": "zh:海倫娜·哈普斯塔爾;zh-tw:海倫娜·哈普斯塔爾;zh-hk:夏馨蘭;zh-hans:海伦娜·哈斯托"
+    },
+    {
+      "original": "Helena",
+      "conv": "zh:海倫娜;zh-tw:海倫娜;zh-hk:馨蘭"
+    },
+    {
+      "original": "Eve",
+      "conv": "zh:伊芙;zh-tw:伊芙;zh-hk:依華"
+    },
+    {
+      "original": "Sylvia",
+      "conv": "zh:席爾維亞;zh-hant:席爾維亞;zh-hans:西尔维娅"
+    }
+  ]
+}

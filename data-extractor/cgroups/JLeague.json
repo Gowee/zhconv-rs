@@ -1,0 +1,43 @@
+{
+  "name": "JLeague",
+  "description": "日本職業足球聯賽",
+  "path": "Template:CGroup/JLeague",
+  "rules": [
+    {
+      "original": "{{lang|ja|ベガルタ仙台",
+      "conv": "zh:仙台七夕; zh-cn:仙台七夕; zh-tw:仙台維加泰; zh-hk:仙台維加泰; zh-sg:仙台维加泰; "
+    },
+    {
+      "original": "{{lang|ja|柏レイソル",
+      "conv": "zh:柏雷素尔; zh-cn:柏太阳神; zh-tw:柏太陽王; zh-hk:柏雷素爾; zh-sg:柏雷素尔; "
+    },
+    {
+      "original": "{{lang|ja|湘南ベルマーレ",
+      "conv": "zh:湘南比馬; zh-hans:湘南丽海; zh-tw:湘南麗海; zh-hk:湘南比馬 "
+    },
+    {
+      "original": "{{lang|ja|ジュビロ磐田",
+      "conv": "zh:磐田喜悦; zh-cn:磐田喜悦; zh-hk:磐田山葉; zh-tw:磐田喜悅; "
+    },
+    {
+      "original": "{{lang|ja|ガンバ大阪",
+      "conv": "zh:大阪鋼巴; zh-cn:大阪钢巴; zh-tw:大阪飛腳; zh-hk:大阪飛腳; zh-sg:大阪飞脚; "
+    },
+    {
+      "original": "{{lang|ja|カマタマーレ讃岐",
+      "conv": "zh:讚岐釜玉海; zh-hant:讚岐釜玉海; zh-hans:赞岐釜玉海; zh-hk:讚岐卡馬達馬尼; zh-tw:讚岐卡馬達馬尼; "
+    },
+    {
+      "original": "{{lang|ja|ロアッソ熊本",
+      "conv": "zh:熊本罗亚素; zh-hans:熊本深红; zh-hk:熊本羅亞素; zh-mo:熊本深紅; zh-hant:熊本深紅; "
+    },
+    {
+      "original": "{{lang|ja|サガン鳥栖",
+      "conv": "zh:鳥栖砂岩; zh-hans:鸟栖砂岩; zh-hk:鳥棲砂岩; zh-mo:鳥栖砂岩; zh-tw:鳥栖砂岩; "
+    },
+    {
+      "original": "{{lang|ja|FC東京",
+      "conv": "zh:FC東京; zh-cn:东京FC; zh-tw:FC東京; zh-hk:FC東京; zh-sg:FC东京; "
+    }
+  ]
+}

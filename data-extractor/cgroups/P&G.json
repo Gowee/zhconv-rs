@@ -1,0 +1,139 @@
+{
+  "name": "P&G",
+  "description": "寶潔",
+  "path": "Template:CGroup/P&G",
+  "rules": [
+    {
+      "original": "P&G",
+      "conv": "zh-cn:宝洁;zh-tw:寶鹼;zh-hk:寶潔;"
+    },
+    {
+      "original": "P&G",
+      "conv": "寶鹼=>zh-cn:宝洁;"
+    },
+    {
+      "original": "P&G",
+      "conv": "寶鹼=>zh-hk:寶潔;"
+    },
+    {
+      "original": "Ambi Pur",
+      "conv": "zh-tw:香必飄;zh-hk:香必飄;"
+    },
+    {
+      "original": "Ariel",
+      "conv": "zh-cn:碧浪;"
+    },
+    {
+      "original": "Braun",
+      "conv": "zh-cn:博朗;zh-tw:德國百靈;zh-hk:百靈;"
+    },
+    {
+      "original": "Camay",
+      "conv": "zh-cn:卡玫尔;zh-tw:佳美;"
+    },
+    {
+      "original": "Crest",
+      "conv": "zh-cn:佳洁士;zh-hk:佳潔士;zh-tw:克瑞斯;"
+    },
+    {
+      "original": "Crisco",
+      "conv": "zh-cn:克里斯科;zh-tw:克里思可;"
+    },
+    {
+      "original": "Clairol Professional",
+      "conv": "zh-cn:伊卡璐丝焕专业美发"
+    },
+    {
+      "original": "Duracell",
+      "conv": "zh-cn:金霸王;zh-tw:金頂;zh-hk:金霸王;"
+    },
+    {
+      "original": "Eukanuba",
+      "conv": "zh-cn:优卡;zh-tw:優卡;zh-hk:優卡;"
+    },
+    {
+      "original": "Fusion",
+      "conv": "zh-cn:锋隐;zh-tw:鋒隱;zh-hk:Fusion;"
+    },
+    {
+      "original": "Gillette",
+      "conv": "zh-cn:吉列;zh-tw:吉列;zh-hk:吉列;"
+    },
+    {
+      "original": "Head & Shoulders",
+      "conv": "zh-cn:海飞丝;zh-tw:海倫仙度絲;zh-hk:海倫仙度絲;"
+    },
+    {
+      "original": "Herbal Essences",
+      "conv": "zh-cn:伊卡璐;zh-tw:可麗柔;zh-hk:草本精華;"
+    },
+    {
+      "original": "Iams",
+      "conv": "zh-tw:愛慕思;zh-hk:愛慕思;"
+    },
+    {
+      "original": "MACH3",
+      "conv": "zh-cn:锋速3;zh-tw:鋒速3;zh-hk:MACH3;"
+    },
+    {
+      "original": "Naturella",
+      "conv": "zh-cn:朵朵;"
+    },
+    {
+      "original": "Olay",
+      "conv": "zh-cn:玉兰油;zh-tw:歐蕾;zh-hk:Olay;"
+    },
+    {
+      "original": "Oral-B",
+      "conv": "zh-cn:欧乐-B;zh-tw:歐樂 B;zh-hk:Oral-B;"
+    },
+    {
+      "original": "Pampers",
+      "conv": "zh-cn:帮宝适;zh-tw:幫寶適;zh-hk:幫寶適;"
+    },
+    {
+      "original": "Pantene",
+      "conv": "zh-cn:潘婷;zh-tw:潘婷;zh-hk:潘婷;"
+    },
+    {
+      "original": "Pantene CLINICARE",
+      "conv": "zh-tw:Pantene CLINICARE;zh-hk:Pantene CLINICARE;"
+    },
+    {
+      "original": "Pert/Rejoice",
+      "conv": "zh-cn:飘柔;zh-tw:飛柔;zh-hk:飄柔;"
+    },
+    {
+      "original": "Safeguard",
+      "conv": "zh-cn:舒肤佳;zh-hant:舒膚佳"
+    },
+    {
+      "original": "SK-II",
+      "conv": "zh-cn:SK-II;zh-tw:SK-II;zh-hk:SK-II;"
+    },
+    {
+      "original": "Sebastian Professional",
+      "conv": "zh-cn:塞巴司汀;"
+    },
+    {
+      "original": "Tide/Fab",
+      "conv": "zh-cn:汰渍;zh-tw:汰漬;zh-hk:快潔;"
+    },
+    {
+      "original": "Venus",
+      "conv": "zh-cn:Venus;zh-tw:維納斯;zh-hk:Venus;"
+    },
+    {
+      "original": "Vidal Sassoon",
+      "conv": "zh-cn:沙宣;zh-tw:沙宣;zh-hk:沙宣;"
+    },
+    {
+      "original": "Wella",
+      "conv": "zh-cn:威娜;zh-tw:葳娜;zh-hk:威娜;"
+    },
+    {
+      "original": "Whisper",
+      "conv": "zh-cn:护舒宝;zh-tw:好自在;zh-hk:護舒寶;"
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "name": "Mabinogi",
+  "description": "Mabinogi组全文转换",
+  "path": "Template:CGroup/Mabinogi",
+  "rules": [
+    {
+      "original": "Mabinogi",
+      "conv": "zh-cn:洛奇; zh-tw:瑪奇;"
+    },
+    {
+      "original": "Advent of the Goddess",
+      "conv": "zh-cn:女神降临;zh-tw:女神降臨;"
+    },
+    {
+      "original": "Paladin",
+      "conv": "zh-cn:帕拉丁;zh-tw:聖騎士之路;"
+    },
+    {
+      "original": "Dark Knight",
+      "conv": "zh-cn:暗黑骑士;zh-tw:闇黑武士;"
+    },
+    {
+      "original": "Pioneers of Iria",
+      "conv": "zh-cn:圣骑战争;zh-tw:伊利亞大冒險;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:沙漠精灵;zh-tw:精靈樂章;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:远古争霸;zh-tw:菲西斯傳說;"
+    },
+    {
+      "original": "The River of Tropics",
+      "conv": "zh-cn:热带雨林;zh-tw:探索·古·文明;"
+    },
+    {
+      "original": "The Dragon",
+      "conv": "zh-cn:龙之战争;zh-tw:Dragon;"
+    },
+    {
+      "original": "Alchemist",
+      "conv": "zh-cn:炼金时代;zh-tw:Alchemist;"
+    },
+    {
+      "original": "The Goddess of Light",
+      "conv": "zh-cn:光明女神;zh-tw:光之女神;"
+    },
+    {
+      "original": "Sword of the Gods",
+      "conv": "zh-cn:诸神之剑;zh-tw:SWORD OF THE GODS;"
+    },
+    {
+      "original": "Imbolic",
+      "conv": "zh-cn:立春;zh-tw:立春;"
+    },
+    {
+      "original": "Eiler",
+      "conv": "zh-cn:春分;zh-tw:春分;"
+    },
+    {
+      "original": "Beltane",
+      "conv": "zh-cn:入夏;zh-tw:入夏;"
+    },
+    {
+      "original": "Heruin",
+      "conv": "zh-cn:夏至;zh-tw:立夏;"
+    },
+    {
+      "original": "Lughnasadh",
+      "conv": "zh-cn:秋收;zh-tw:秋收;"
+    },
+    {
+      "original": "Elved",
+      "conv": "zh-cn:秋收节;zh-tw:秋收節;"
+    },
+    {
+      "original": "Samhain",
+      "conv": "zh-cn:元旦;zh-tw:山夏;"
+    },
+    {
+      "original": "Erinn",
+      "conv": "zh-cn:爱琳;zh-tw:愛爾琳;"
+    },
+    {
+      "original": "Urla",
+      "conv": "zh-cn:佑拉; zh-tw:歐拉;"
+    },
+    {
+      "original": "Iria",
+      "conv": "zh-cn:伊利雅; zh-tw:伊利亞;"
+    },
+    {
+      "original": "Tir Chonaill",
+      "conv": "zh-cn:迪尔科内尔; zh-tw:堤爾克那;"
+    },
+    {
+      "original": "Dunbarton",
+      "conv": "zh-cn:敦巴伦; zh-tw:杜巴頓;"
+    },
+    {
+      "original": "Bangor",
+      "conv": "zh-cn:班格; zh-tw:班克爾;"
+    },
+    {
+      "original": "Emain Macha",
+      "conv": "zh-cn:艾明马恰; zh-tw:艾明馬夏;"
+    },
+    {
+      "original": "Dugald Town",
+      "conv": "zh-cn:杜加德居住地; zh-tw:杜加德社區;"
+    },
+    {
+      "original": "Filla",
+      "conv": "zh-cn:菲利亚; zh-tw:比路里亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:迈兹平原; zh-tw:梅兹平原;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鲁特拉江; zh-tw:鲁特納江;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伦迦沙漠; zh-tw:侖格沙漠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鲁菲斯沙漠; zh-tw:羅佩斯沙漠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:穆游沙漠; zh-tw:莫尤沙漠;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:卡皮峡谷; zh-tw:卡比峽谷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:耶兰斯峡谷; zh-tw:葉藍斯峽谷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:诺贝斯山脉; zh-tw:努比斯山脈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:内尔斯高原; zh-tw:納雷斯高原;"
+    },
+    {
+      "original": "Valles",
+      "conv": "zh-cn:巴勒斯; zh-tw:巴雷斯;"
+    },
+    {
+      "original": "Courcle",
+      "conv": "zh-cn:克拉格; zh-tw:庫爾克勒;"
+    },
+    {
+      "original": "Physis",
+      "conv": "zh-cn:彼辛斯; zh-tw:菲西斯;"
+    },
+    {
+      "original": "Cor",
+      "conv": "zh-cn:库拉; zh-tw:科爾;"
+    },
+    {
+      "original": "Tara",
+      "conv": "zh-cn:塔拉; zh-tw:塔拉;"
+    },
+    {
+      "original": "Connous",
+      "conv": "zh-cn:肯努斯;zh-tw:克諾斯;"
+    },
+    {
+      "original": "Sidhe Sneachta",
+      "conv": "zh-cn:希德赫雪原;zh-tw:希德斯特雪原;"
+    },
+    {
+      "original": "Taillteann",
+      "conv": "zh-cn:塔汀;zh-tw:塔爾汀;"
+    },
+    {
+      "original": "SenMag",
+      "conv": "zh-cn:仙魔平原;zh-tw:山米爾平原;"
+    },
+    {
+      "original": "Avon",
+      "conv": "zh-cn:埃文;zh-tw:雅芬;"
+    },
+    {
+      "original": "Til Na Nog",
+      "conv": "zh-cn:迪尔纳诺;zh-tw:堤爾納諾;"
+    },
+    {
+      "original": "Alby",
+      "conv": "zh-cn:伊比;zh-tw:艾菲;"
+    },
+    {
+      "original": "Ciar",
+      "conv": "zh-cn:塞尔;zh-tw:賽維爾;"
+    },
+    {
+      "original": "Rabbie",
+      "conv": "zh-cn:拉比;zh-tw:萊比;"
+    },
+    {
+      "original": "Rabbie",
+      "conv": "zh-cn:玛斯;zh-tw:瑪斯;"
+    },
+    {
+      "original": "Fiodhe",
+      "conv": "zh-cn:菲奥纳;zh-tw:菲歐納;"
+    },
+    {
+      "original": "Peaca",
+      "conv": "zh-cn:皮卡;zh-tw:貝卡;"
+    },
+    {
+      "original": "Barri",
+      "conv": "zh-cn:巴里;zh-tw:巴里;"
+    },
+    {
+      "original": "Coil",
+      "conv": "zh-cn:克丽尔;zh-tw:高爾;"
+    },
+    {
+      "original": "Runda",
+      "conv": "zh-cn:伦达;zh-tw:倫達;"
+    },
+    {
+      "original": "Maiz",
+      "conv": "zh-cn:迈兹;zh-tw:梅茲;"
+    },
+    {
+      "original": "Maiz",
+      "conv": "zh-cn:迈兹;zh-tw:梅茲;"
+    },
+    {
+      "original": "Red Succubus",
+      "conv": "zh-cn:红色女妖;zh-tw:紅魅魔;"
+    },
+    {
+      "original": "Lycanthrope",
+      "conv": "zh-cn:变狼狂;zh-tw:萊肯;"
+    },
+    {
+      "original": "Succubus",
+      "conv": "zh-cn:女妖; zh-tw:魅魔;"
+    },
+    {
+      "original": "Golem",
+      "conv": "zh-cn:石巨人;zh-tw:巨魔像;"
+    },
+    {
+      "original": "Mimic",
+      "conv": "zh-cn:怪物箱子;zh-tw:寶箱怪;"
+    },
+    {
+      "original": "Black Succubus",
+      "conv": "zh-cn:黑色女妖;zh-tw:黑魅魔;"
+    },
+    {
+      "original": "Glasgavelen",
+      "conv": "zh-cn:格拉斯贝恩; zh-tw:格里斯貝恩;"
+    },
+    {
+      "original": "Bebhinn",
+      "conv": "zh-cn:贝欣; zh-tw:貝婷;"
+    },
+    {
+      "original": "Caitin",
+      "conv": "zh-cn:凯婷; zh-tw:凱琳;"
+    },
+    {
+      "original": "Deian",
+      "conv": "zh-cn:迪安; zh-tw:迪恩;"
+    },
+    {
+      "original": "Endelyon",
+      "conv": "zh-cn:恩迪莉; zh-tw:安黛莉;"
+    },
+    {
+      "original": "Meven",
+      "conv": "zh-cn:麦文; zh-tw:米恩;"
+    },
+    {
+      "original": "Ferghus",
+      "conv": "zh-cn:福格斯;zh-tw:佛格斯;"
+    },
+    {
+      "original": "Lassar",
+      "conv": "zh-cn:拉莎; zh-tw:麗莎;"
+    },
+    {
+      "original": "Malcolm",
+      "conv": "zh-cn:马尔科姆; zh-tw:瑪姆斯汀;"
+    },
+    {
+      "original": "Nora",
+      "conv": "zh-cn:劳拉; zh-tw:蘿拉;"
+    },
+    {
+      "original": "Piaras",
+      "conv": "zh-cn:皮拉斯;zh-tw:皮爾斯;"
+    },
+    {
+      "original": "Trefor",
+      "conv": "zh-cn:屈弗; zh-tw:崔弗;"
+    },
+    {
+      "original": "Kristell",
+      "conv": "zh-cn:克莉斯特; zh-tw:克莉絲;"
+    },
+    {
+      "original": "Glenis",
+      "conv": "zh-cn:格莉娜斯; zh-tw:格莉娜;"
+    },
+    {
+      "original": "Stewart",
+      "conv": "zh-cn:斯图尔特; zh-tw:史帝華;"
+    },
+    {
+      "original": "Manus",
+      "conv": "zh-cn:马纽斯;zh-tw:馬努斯;"
+    },
+    {
+      "original": "Nerys",
+      "conv": "zh-cn:内莉斯; zh-tw:奈麗絲;"
+    },
+    {
+      "original": "Bryce",
+      "conv": "zh-cn:布莱斯;zh-tw:布洛斯;"
+    },
+    {
+      "original": "Gilmore",
+      "conv": "zh-cn:吉尔默;zh-tw:吉爾摩;"
+    },
+    {
+      "original": "Ibbie",
+      "conv": "zh-cn:艾比; zh-tw:貝蒂;"
+    },
+    {
+      "original": "Aer",
+      "conv": "zh-cn:亚鲁; zh-tw:雅戈;"
+    },
+    {
+      "original": "Vena",
+      "conv": "zh-cn:薇娜; zh-tw:凡娜;"
+    },
+    {
+      "original": "Andras",
+      "conv": "zh-cn:安德拉斯;zh-tw:安德拉絲;"
+    },
+    {
+      "original": "Breched",
+      "conv": "zh-cn:贝里西德;zh-tw:貝瑞克希德;"
+    },
+    {
+      "original": "Comgan",
+      "conv": "zh-cn:康甘; zh-tw:康格;"
+    },
+    {
+      "original": "Sion",
+      "conv": "zh-cn:锡安; zh-tw:史恩;"
+    },
+    {
+      "original": "Jenifer",
+      "conv": "zh-cn:珍妮弗;zh-tw:珍妮佛;"
+    },
+    {
+      "original": "Ailionoa",
+      "conv": "zh-cn:埃莉诺阿;zh-tw:艾莉娜"
+    },
+    {
+      "original": "Agnes",
+      "conv": "zh-cn:艾格尼丝;zh-tw:安格妮絲"
+    },
+    {
+      "original": "Del",
+      "conv": "zh-cn:代尔; zh-tw:黛兒;"
+    },
+    {
+      "original": "Delen",
+      "conv": "zh-cn:代伦; zh-tw:黛蓮;"
+    },
+    {
+      "original": "Galvin",
+      "conv": "zh-cn:噶尔文; zh-tw:蓋維;"
+    },
+    {
+      "original": "Nele",
+      "conv": "zh-cn:纳乐; zh-tw:納里;"
+    },
+    {
+      "original": "Osla",
+      "conv": "zh-cn:奥斯拉; zh-tw:歐絲拉;"
+    },
+    {
+      "original": "Rua",
+      "conv": "zh-cn:茹娅; zh-tw:露雅;"
+    },
+    {
+      "original": "Wyllow",
+      "conv": "zh-cn:月罗; zh-tw:威洛;"
+    },
+    {
+      "original": "Craig",
+      "conv": "zh-cn:克雷格;zh-tw:柯倫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:泰纶;zh-tw:迪倫;"
+    },
+    {
+      "original": "Jocelin",
+      "conv": "zh-cn:菊斯林;zh-tw:喬瑟琳;"
+    },
+    {
+      "original": "Fraser",
+      "conv": "zh-cn:沛雷德;zh-tw:佛瑞哲"
+    },
+    {
+      "original": "Gordon",
+      "conv": "zh-cn:戈登;zh-tw:高登"
+    },
+    {
+      "original": "Shena",
+      "conv": "zh-cn:瑟娜;zh-tw:蘇娜"
+    },
+    {
+      "original": "Aodhan",
+      "conv": "zh-cn:奥顿;zh-tw:艾德翰"
+    },
+    {
+      "original": "Lucas",
+      "conv": "zh-cn:卢卡斯;zh-tw:路卡斯"
+    },
+    {
+      "original": "Alexina",
+      "conv": "zh-cn:埃丽克斯; zh-tw:艾莉克娜;"
+    },
+    {
+      "original": "Effie",
+      "conv": "zh-cn:艾菲; zh-tw:伊菲;"
+    },
+    {
+      "original": "Ethna",
+      "conv": "zh-cn:爱迪娜; zh-tw:伊絲娜;"
+    },
+    {
+      "original": "Heulfryn",
+      "conv": "zh-cn:赫富琳; zh-tw:希布林;"
+    },
+    {
+      "original": "Atrata",
+      "conv": "zh-cn:娅特拉; zh-tw:雅拉塔;"
+    },
+    {
+      "original": "Castanea",
+      "conv": "zh-cn:卡斯蒂娜; zh-tw:卡絲妮亞;"
+    },
+    {
+      "original": "Granites",
+      "conv": "zh-cn:克兰帝斯; zh-tw:葛尼提斯;"
+    },
+    {
+      "original": "Hagel",
+      "conv": "zh-cn:赫克尔; zh-tw:哈吉爾;"
+    },
+    {
+      "original": "Lepus",
+      "conv": "zh-cn:莱弗斯; zh-tw:里普斯;"
+    },
+    {
+      "original": "Meles",
+      "conv": "zh-cn:美莉丝; zh-tw:梅麗絲;"
+    },
+    {
+      "original": "Kawsay",
+      "conv": "zh-cn:焅塞;zh-tw:庫塞;"
+    },
+    {
+      "original": "Wovoka",
+      "conv": "zh-cn:沃保卡;zh-tw:沃沃卡;"
+    },
+    {
+      "original": "Voight",
+      "conv": "zh-cn:保维德;zh-tw:博伊特;"
+    },
+    {
+      "original": "Tupay",
+      "conv": "zh-cn:图帕伊;zh-tw:圖派依;"
+    },
+    {
+      "original": "Ruway",
+      "conv": "zh-cn:卢瓦伊;zh-tw:洛瓦伊;"
+    },
+    {
+      "original": "Kirine",
+      "conv": "zh-cn:吉莉恩;zh-tw:姬琳;"
+    },
+    {
+      "original": "Mores",
+      "conv": "zh-cn:玛鲁斯; zh-tw:瑪洛士;"
+    },
+    {
+      "original": "Krug",
+      "conv": "zh-cn:克鲁格;zh-tw:庫魯格;"
+    },
+    {
+      "original": "Taunes",
+      "conv": "zh-cn:塔尼斯;zh-tw:陶恩斯;"
+    },
+    {
+      "original": "Wanst",
+      "conv": "zh-cn:万斯特;zh-tw:瓦安特;"
+    },
+    {
+      "original": "Zeder",
+      "conv": "zh-cn:吉德;zh-tw:雷德歐;"
+    },
+    {
+      "original": "Weide",
+      "conv": "zh-cn:瓦一德;zh-tw:維伊德;"
+    },
+    {
+      "original": "Nao",
+      "conv": "zh-cn:娜儿; zh-tw:娜歐;"
+    },
+    {
+      "original": "Tin",
+      "conv": "zh-cn:迪恩; zh-tw:汀;"
+    },
+    {
+      "original": "Fleta",
+      "conv": "zh-cn:普莱达; zh-tw:腓力特;"
+    },
+    {
+      "original": "Tarlach",
+      "conv": "zh-cn:塔拉克; zh-tw:特拉克;"
+    },
+    {
+      "original": "Keyhole",
+      "conv": "zh-cn:锁孔; zh-tw:錫古;"
+    },
+    {
+      "original": "Price",
+      "conv": "zh-cn:普來斯; zh-tw:布萊斯;"
+    },
+    {
+      "original": "Rian",
+      "conv": "zh-cn:莉婉; zh-tw:里安;"
+    },
+    {
+      "original": "Esras",
+      "conv": "zh-cn:艾斯拉斯; zh-tw:艾斯拉;"
+    },
+    {
+      "original": "Triona",
+      "conv": "zh-cn:特里亚那; zh-tw:特里歐納;"
+    },
+    {
+      "original": "Brenda",
+      "conv": "zh-cn:布伦达;zh-tw:普琳達;"
+    },
+    {
+      "original": "Collen",
+      "conv": "zh-cn:考连;zh-tw:柯洛恩;"
+    },
+    {
+      "original": "Devi",
+      "conv": "zh-cn:泰比;zh-tw:德比;"
+    },
+    {
+      "original": "Dorren",
+      "conv": "zh-cn:多连;zh-tw:多琳;"
+    },
+    {
+      "original": "Eabha",
+      "conv": "zh-cn:艾巴;zh-tw:阿依巴;"
+    },
+    {
+      "original": "Granat",
+      "conv": "zh-cn:格拉纳特;zh-tw:格拉納特;"
+    },
+    {
+      "original": "Karpfen",
+      "conv": "zh-cn:卡尔芬;zh-tw:卡芬;"
+    },
+    {
+      "original": "Pierrick",
+      "conv": "zh-cn:皮埃尔;zh-tw:派瑞克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:莫兰特;zh-tw:摩根特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:达克罗德·莫兰特;zh-tw:黑暗領主·摩根特;"
+    },
+    {
+      "original": "Ruari",
+      "conv": "zh-cn:鲁拉里;zh-tw:魯艾利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:篝火;zh-tw:營火;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:治愈;zh-tw:包紮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:手艺;zh-tw:手工藝;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:组队治疗;zh-tw:隊伍治癒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:治疗术;zh-tw:治療;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:药剂制作;zh-tw:藥水製作;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔法精通;zh-tw:精通魔法;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔法释放;zh-tw:魔力賦予;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:火球;zh-tw:火球術;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:雷箭;zh-tw:雷矢;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:暗黑骑士; zh-tw:黑暗領主;"
+    },
+    {
+      "original": "Soul of Chaos",
+      "conv": "zh-cn:灵魂混乱; zh-tw:混沌之心;"
+    },
+    {
+      "original": "Body of Chaos",
+      "conv": "zh-cn:躯体混乱; zh-tw:混沌之體;"
+    },
+    {
+      "original": "Brain of Chaos",
+      "conv": "zh-cn:精神混乱; zh-tw:混沌之智;"
+    },
+    {
+      "original": "Hands of Chaos",
+      "conv": "zh-cn:行动混乱; zh-tw:混沌之手;"
+    },
+    {
+      "original": "Dark Natural Shield",
+      "conv": "zh-cn:暗黑自然防御; zh-tw:闇黑武士自然防護;"
+    },
+    {
+      "original": "Dark Heavy Stander",
+      "conv": "zh-cn:暗黑终极防御; zh-tw:闇黑武士抵抗;"
+    },
+    {
+      "original": "Dark Mana Refractor",
+      "conv": "zh-cn:反射黑暗魔法; zh-tw:闇黑武士魔法反射;"
+    },
+    {
+      "original": "Control of Darkness",
+      "conv": "zh-cn:黑暗控制; zh-tw:闇影操控;"
+    },
+    {
+      "original": "Paladin",
+      "conv": "zh-cn:帕拉丁;zh-tw:聖騎士;"
+    },
+    {
+      "original": "Spirit of Order",
+      "conv": "zh-cn:灵魂命令; zh-tw:神聖之心;"
+    },
+    {
+      "original": "Spirit of Power",
+      "conv": "zh-cn:力量命令; zh-tw:神聖之力;"
+    },
+    {
+      "original": "Eye of Power",
+      "conv": "zh-cn:追随命令; zh-tw:神聖之眼;"
+    },
+    {
+      "original": "Sword of Power",
+      "conv": "zh-cn:剑魂命令; zh-tw:神聖之刃;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:风车;zh-tw:旋風擺蓮腿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:格斗精通;zh-tw:精通格鬥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:无限斩;zh-tw:無限斬擊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:旋转箭;zh-tw:旋風箭;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:助攻箭;zh-tw:支援箭;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:远距离战术精通;zh-tw:精通遠距離戰術;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:装死;zh-tw:假死;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:演出;zh-tw:街頭公演;"
+    },
+    {
+      "original": "Extra Storage Service",
+      "conv": "zh-cn:改变地形;zh-tw:地形變化;"
+    },
+    {
+      "original": "Nao's Support Service",
+      "conv": "zh-cn:娜儿的援助;zh-tw:娜歐支援;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:天天送礼;zh-tw:天天送禮;"
+    },
+    {
+      "original": "Extra Storage Service",
+      "conv": "zh-cn:仓库加倍;zh-tw:倉儲空間;"
+    },
+    {
+      "original": "Lower",
+      "conv": "zh-cn:低级;zh-tw:初級;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:精灵之森;zh-tw:新手重生區;"
+    },
+    {
+      "original": "Erskin Bank",
+      "conv": "zh-cn:阿斯金银行;zh-tw:奧斯金銀行;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:打败女妖的;zh-tw:打倒魅魔的;"
+    }
+  ]
+}

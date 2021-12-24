@@ -1,0 +1,55 @@
+{
+  "name": "Friends",
+  "description": "Friends",
+  "path": "Template:CGroup/Friends",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:老友记; zh-cn:老友记; zh-tw:六人行; zh-hk:老友記;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:罗斯; zh-tw:羅斯; zh-hk:洛斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:莫妮卡; zh-tw:莫妮卡; zh-hk:莫妮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:钱德勒; zh-tw:錢德; zh-hk:昌德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乔伊; zh-tw:喬伊; zh-hk:祖兒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:瑞秋; zh-tw:瑞秋; zh-hk:麗珍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:麗珍·格林;zh-cn:瑞秋·格林;zh-tw:瑞秋·葛林;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:莫妮·蓋勒;zh-cn:莫妮卡·盖勒;zh-tw:莫妮卡·蓋勒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:祖兒·崔比雅尼;zh-cn:乔伊·崔比雅尼;zh-tw:喬伊·崔比亞尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:昌德·賓;zh-cn:钱德勒·宾;zh-tw:錢德·賓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:洛斯·蓋勒;zh-cn:罗斯·盖勒;zh-tw:羅斯·蓋勒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:六人行：當我們又在一起;zh-cn:老友记重聚特辑"
+    }
+  ]
+}

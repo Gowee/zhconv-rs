@@ -1,0 +1,31 @@
+{
+  "name": "Chanel",
+  "description": "Chanel",
+  "path": "Module:CGroup/Chanel",
+  "rules": [
+    {
+      "original": "Chanel",
+      "conv": "zh: 香奈兒; zh-hans: 香奈儿; zh-hant: 香奈兒; "
+    },
+    {
+      "original": "香奈爾",
+      "conv": "zh: 香奈兒; zh-hans: 香奈儿; zh-hant: 香奈兒; "
+    },
+    {
+      "original": "香奈尔",
+      "conv": "zh: 香奈兒; zh-hans: 香奈儿; zh-hant: 香奈兒; "
+    },
+    {
+      "original": "Coco Chanel",
+      "conv": "zh: 可可·香奈兒; zh-hans: 可可·香奈儿; zh-hant: 可可·香奈兒; "
+    },
+    {
+      "original": "可可·香奈爾",
+      "conv": "zh: 可可·香奈兒; zh-hans: 可可·香奈儿; zh-hant: 可可·香奈兒; "
+    },
+    {
+      "original": "可可·香奈尔",
+      "conv": "zh: 可可·香奈兒; zh-hans: 可可·香奈儿; zh-hant: 可可·香奈兒; "
+    }
+  ]
+}

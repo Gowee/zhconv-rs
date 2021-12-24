@@ -1,0 +1,495 @@
+{
+  "name": "Warriors",
+  "description": "-{zh-hans:猫武士;zh-hant:貓戰士}-",
+  "path": "Module:CGroup/Warriors",
+  "rules": [
+    {
+      "original": "Erin Hunter",
+      "conv": "zh-cn:艾琳·亨特;zh-tw:艾琳·杭特;zh-hans:艾琳·亨特;zh-hant:艾琳·杭特;"
+    },
+    {
+      "original": "apprentice",
+      "conv": "zh-cn:学徒;zh-tw:見習生;"
+    },
+    {
+      "original": "clan",
+      "conv": "zh-cn:族群;zh-tw:部族;"
+    },
+    {
+      "original": "rogue",
+      "conv": "zh-cn:泼皮貓;zh-tw:無賴貓"
+    },
+    {
+      "original": "warrior",
+      "conv": "zh-cn:武士;zh-tw:戰士"
+    },
+    {
+      "original": "apprentice",
+      "conv": "zh-cn:学徒;zh-tw:見習生"
+    },
+    {
+      "original": "leader",
+      "conv": "zh-cn:族长;zh-tw:族長"
+    },
+    {
+      "original": "deputy",
+      "conv": "zh-cn:副族长;zh-tw:族長代表;"
+    },
+    {
+      "original": "Warriors",
+      "conv": "zh-cn:猫武士;zh-tw:貓戰士"
+    },
+    {
+      "original": "Into the Wild",
+      "conv": "zh-cn:呼唤野性;zh-tw:荒野新生"
+    },
+    {
+      "original": "Fire and Ice",
+      "conv": "zh-cn:寒冰烈火;zh-tw:烈火寒冰"
+    },
+    {
+      "original": "Forest of Secret",
+      "conv": "zh-cn:疑云重重;zh-tw:秘密之森"
+    },
+    {
+      "original": "Rising Storm",
+      "conv": "zh-cn:风起云涌;zh-tw:風暴將臨"
+    },
+    {
+      "original": "A Dangerous Path",
+      "conv": "zh-cn:险路惊魂;zh-tw:危險小徑"
+    },
+    {
+      "original": "Darkest Hour",
+      "conv": "zh-cn:力挽狂澜;zh-tw:黑暗時刻"
+    },
+    {
+      "original": "Dark River",
+      "conv": "zh-cn:暗河汹涌;zh-tw:洶湧暗河"
+    },
+    {
+      "original": "The Fourth Apprentice",
+      "conv": "zh-cn:第四学徒;zh-tw:第四見習生"
+    },
+    {
+      "original": "Night Whispers",
+      "conv": "zh-cn:暗夜密语;zh-tw:星夜私語"
+    },
+    {
+      "original": "Sign of the Moon",
+      "conv": "zh-cn:月光印记;zh-tw:月亮蹤跡"
+    },
+    {
+      "original": "The Forgotten Warrior",
+      "conv": "zh-cn:武士归来;zh-tw:失落戰士"
+    },
+    {
+      "original": "The Last Hope",
+      "conv": "zh-cn:群星之战;zh-tw:最後希望"
+    },
+    {
+      "original": "The Sun Trail",
+      "conv": "zh-cn:追随太阳;zh-tw:阳光小径"
+    },
+    {
+      "original": "Thunder Rising",
+      "conv": "zh-cn:雷电崛起;zh-tw:迅雷崛起"
+    },
+    {
+      "original": "The First Battle",
+      "conv": "zh-cn:首次战争;zh-tw:最初战役"
+    },
+    {
+      "original": "Firestar's Quest",
+      "conv": "zh-cn:火星的探索;zh-tw:火星的追尋"
+    },
+    {
+      "original": "The Lost Warrior",
+      "conv": "zh-cn:武士失踪;zh-tw:失落的戰士"
+    },
+    {
+      "original": "Warrior's Refuge",
+      "conv": "zh-cn:武士避难;zh-tw:戰士的躲藏"
+    },
+    {
+      "original": "Warrior's Return",
+      "conv": "zh-cn:武士回归;zh-tw:戰士的返回"
+    },
+    {
+      "original": "SnakeRocks",
+      "conv": "zh-cn:蛇岩;zh-tw:蛇岩;"
+    },
+    {
+      "original": "Sunning Rocks",
+      "conv": "zh-cn:阳光石;zh-tw:陽光岩;"
+    },
+    {
+      "original": "Treecut place",
+      "conv": "zh-cn:伐木场;zh-tw:伐木場;"
+    },
+    {
+      "original": "Great Sycamore",
+      "conv": "zh-cn:巨悬铃树;zh-tw:大梧桐樹;"
+    },
+    {
+      "original": "Sandy Dollow",
+      "conv": "zh-cn:沙坑;zh-tw:沙坑;"
+    },
+    {
+      "original": "ThunderPath",
+      "conv": "zh-cn:雷鬼路;zh-tw:轟雷路;"
+    },
+    {
+      "original": "OwlTree",
+      "conv": "zh-cn:猫头鹰树;zh-tw:貓頭鷹樹;"
+    },
+    {
+      "original": "Tallpines",
+      "conv": "zh-cn:松林;zh-tw:松樹林;"
+    },
+    {
+      "original": "ThunderClan Camp",
+      "conv": "zh-cn:雷族营地;zh-tw:雷族營地;"
+    },
+    {
+      "original": "Rusty",
+      "conv": "zh-cn:拉斯特;zh-tw:羅斯提"
+    },
+    {
+      "original": "Firepaw",
+      "conv": "zh-cn:火爪;zh-tw:火掌"
+    },
+    {
+      "original": "Graystripe",
+      "conv": "zh-cn:灰条;zh-tw:灰紋"
+    },
+    {
+      "original": "Graypaw",
+      "conv": "zh-cn:灰爪;zh-tw:灰掌"
+    },
+    {
+      "original": "Bramblepaw",
+      "conv": "zh-cn:黑莓爪;zh-tw:棘掌"
+    },
+    {
+      "original": "Brambleclaw",
+      "conv": "zh-cn:黑莓掌;zh-tw:棘爪"
+    },
+    {
+      "original": "Bramblestar",
+      "conv": "zh-cn:黑莓星;zh-tw:棘星"
+    },
+    {
+      "original": "Sandpaw",
+      "conv": "zh-cn:沙爪;zh-tw:沙掌"
+    },
+    {
+      "original": "Sandstorm",
+      "conv": "zh-cn:沙风;zh-tw:沙暴"
+    },
+    {
+      "original": "Fernpaw",
+      "conv": "zh-cn:香薇爪;zh-tw:蕨掌"
+    },
+    {
+      "original": "Ferncloud",
+      "conv": "zh-cn:香薇云;zh-tw:蕨雲"
+    },
+    {
+      "original": "Cinderpelt",
+      "conv": "zh-cn:炭毛;zh-tw:煤皮"
+    },
+    {
+      "original": "Whitestorm",
+      "conv": "zh-cn:白风;zh-tw:白風暴"
+    },
+    {
+      "original": "Ashfur",
+      "conv": "zh-cn:蜡毛;zh-tw:灰毛"
+    },
+    {
+      "original": "Cinderheart",
+      "conv": "zh-cn:炭心;zh-tw:煤心"
+    },
+    {
+      "original": "Ravenpaw",
+      "conv": "zh-cn:乌爪;zh-tw:烏掌"
+    },
+    {
+      "original": "Darkstripe",
+      "conv": "zh-cn:黑条;zh-tw:暗紋"
+    },
+    {
+      "original": "Brindleface",
+      "conv": "zh-cn:纹脸;zh-tw:斑臉"
+    },
+    {
+      "original": "Dustpelt",
+      "conv": "zh-cn:尘毛;zh-tw:塵皮"
+    },
+    {
+      "original": "Patchpelt",
+      "conv": "zh-cn:团毛;zh-tw:斑皮"
+    },
+    {
+      "original": "Swiftpaw",
+      "conv": "zh-cn:迅爪;zh-tw:疾掌"
+    },
+    {
+      "original": "Willowpelt",
+      "conv": "zh-cn:柳带;zh-tw:柳皮"
+    },
+    {
+      "original": "Millie",
+      "conv": "zh-cn:米莉;zh-tw:蜜妮"
+    },
+    {
+      "original": "Blossomfall",
+      "conv": "zh-cn:梅花落;zh-tw:花落"
+    },
+    {
+      "original": "Briarlight",
+      "conv": "zh-cn:荆棘光;zh-tw:薔光"
+    },
+    {
+      "original": "Bumblestripe",
+      "conv": "zh-cn:蜂条;zh-tw:蜂紋"
+    },
+    {
+      "original": "Blossomfall",
+      "conv": "zh-cn:梅花落;zh-tw:花落"
+    },
+    {
+      "original": "Toadstep",
+      "conv": "zh-cn:蟾步;zh-tw:蟾蜍步"
+    },
+    {
+      "original": "Thistleclaw",
+      "conv": "zh-cn:薊掌;zh-tw:薊爪"
+    },
+    {
+      "original": "One-eye",
+      "conv": "zh-cn:一只眼;zh-tw:獨眼"
+    },
+    {
+      "original": "Speckletail",
+      "conv": "zh-cn:纹尾;zh-tw:斑尾"
+    },
+    {
+      "original": "Runningwind",
+      "conv": "zh-cn:奔风;zh-tw:追風"
+    },
+    {
+      "original": "Tigerclaw",
+      "conv": "zh-cn:虎掌;zh-tw:虎爪"
+    },
+    {
+      "original": "Brokentail",
+      "conv": "zh-cn:断尾;zh-tw:碎尾"
+    },
+    {
+      "original": "Brokenstar",
+      "conv": "zh-cn:断星;zh-tw:碎星"
+    },
+    {
+      "original": "Clawface",
+      "conv": "zh-cn:爪脸;zh-tw:爪面"
+    },
+    {
+      "original": "Raggedpelt",
+      "conv": "zh-cn:残毛;zh-tw:鋸皮"
+    },
+    {
+      "original": "Raggedstar",
+      "conv": "zh-cn:残星;zh-tw:鋸星"
+    },
+    {
+      "original": "Runningnose",
+      "conv": "zh-cn:奔鼻;zh-tw:鼻涕蟲"
+    },
+    {
+      "original": "Russetfur",
+      "conv": "zh-cn:黄毛;zh-tw:枯毛"
+    },
+    {
+      "original": "Blackfoot",
+      "conv": "zh-cn:黑脚;zh-tw:黑足"
+    },
+    {
+      "original": "Rowanclaw",
+      "conv": "zh-cn:花楸掌;zh-tw:花楸爪"
+    },
+    {
+      "original": "Dawnpelt",
+      "conv": "zh-cn:曙皮;zh-tw:曦皮"
+    },
+    {
+      "original": "Lizardstripe",
+      "conv": "zh-cn:蜥蜴条;zh-tw:蜥蜴紋"
+    },
+    {
+      "original": "Tallpoppy",
+      "conv": "zh-cn:高红;zh-tw:高罌粟"
+    },
+    {
+      "original": "Talonpaw",
+      "conv": "zh-cn:爪爪;zh-tw:爪掌"
+    },
+    {
+      "original": "Ratscar",
+      "conv": "zh-cn:鼠痕;zh-tw:鼠疤"
+    },
+    {
+      "original": "Crowfrost",
+      "conv": "zh-cn:乌霜;zh-tw:鴉霜"
+    },
+    {
+      "original": "Ferretclaw",
+      "conv": "zh-cn:雪貂爪;zh-tw:雪貂掌"
+    },
+    {
+      "original": "Crookedkit",
+      "conv": "zh-cn:小钩;zh-tw:小曲"
+    },
+    {
+      "original": "Crookedjaw",
+      "conv": "zh-cn:钩嘴;zh-tw:曲顎"
+    },
+    {
+      "original": "Crookedstar",
+      "conv": "zh-cn:钩星;zh-tw:曲星"
+    },
+    {
+      "original": "Mistyfoot",
+      "conv": "zh-cn:雾脚;zh-tw:霧足"
+    },
+    {
+      "original": "Silverstream",
+      "conv": "zh-cn:银溪;zh-tw:銀流"
+    },
+    {
+      "original": "Heavystep",
+      "conv": "zh-cn:巨步;zh-tw:沉步"
+    },
+    {
+      "original": "Mosspelt",
+      "conv": "zh-cn:藓毛;zh-tw:苔皮"
+    },
+    {
+      "original": "Shadepelt",
+      "conv": "zh-cn:影毛;zh-tw:影皮"
+    },
+    {
+      "original": "Blackclaw",
+      "conv": "zh-cn:黑掌;zh-tw:黑爪"
+    },
+    {
+      "original": "Loudbelly",
+      "conv": "zh-cn:响肚;zh-tw:大肚"
+    },
+    {
+      "original": "Minnowtail",
+      "conv": "zh-cn:鱼尾;zh-tw:鯉尾"
+    },
+    {
+      "original": "Whiteclaw",
+      "conv": "zh-cn:白掌;zh-tw:白爪"
+    },
+    {
+      "original": "Barkface",
+      "conv": "zh-cn:青面;zh-tw:吠臉"
+    },
+    {
+      "original": "Ashfoot",
+      "conv": "zh-cn:灰脚;zh-tw:灰足"
+    },
+    {
+      "original": "Webfoot",
+      "conv": "zh-cn:网脚;zh-tw:網足"
+    },
+    {
+      "original": "Mudclaw",
+      "conv": "zh-cn:泥掌;zh-tw:泥爪"
+    },
+    {
+      "original": "Crowpaw",
+      "conv": "zh-cn:鸦爪;zh-tw:鴉掌"
+    },
+    {
+      "original": "Kestrelflight",
+      "conv": "zh-cn:隼飞;zh-tw:隼翔"
+    },
+    {
+      "original": "Sharpclaw",
+      "conv": "zh-cn:锐爪;zh-tw:銳爪"
+    },
+    {
+      "original": "Echosong",
+      "conv": "zh-cn:回声之歌;zh-tw:回颯"
+    },
+    {
+      "original": "Bouncefire",
+      "conv": "zh-cn:跳火;zh-tw:彈火"
+    },
+    {
+      "original": "Cherrytail",
+      "conv": "zh-cn:櫻尾;zh-tw:櫻桃尾"
+    },
+    {
+      "original": "Patchfoot",
+      "conv": "zh-cn:斑脚;zh-tw:斑足"
+    },
+    {
+      "original": "Rockshade",
+      "conv": "zh-cn:岩荫;zh-tw:石影"
+    },
+    {
+      "original": "Sagepaw",
+      "conv": "zh-cn:鼠尾掌;zh-tw:鼠尾草掌"
+    },
+    {
+      "original": "Sky",
+      "conv": "zh-cn:忆天;zh-tw:思天"
+    },
+    {
+      "original": "Skywatcher",
+      "conv": "zh-cn:护天;zh-tw:守天"
+    },
+    {
+      "original": "Shortwhisker",
+      "conv": "zh-cn:短鬚;zh-tw:矮鬚"
+    },
+    {
+      "original": "Sparrowpelt",
+      "conv": "zh-cn:雀毛;zh-tw:雀皮"
+    },
+    {
+      "original": "Billystorm",
+      "conv": "zh-cn:比利风;zh-tw:比利暴"
+    },
+    {
+      "original": "Buzzardstar",
+      "conv": "zh-cn:鹫尾;zh-tw:鳩尾"
+    },
+    {
+      "original": "Fawnstep",
+      "conv": "zh-cn:褐步;zh-tw:鹿步"
+    },
+    {
+      "original": "Birdflight",
+      "conv": "zh-cn:鸟飞;zh-tw:飛鳥"
+    },
+    {
+      "original": "Mousefang",
+      "conv": "zh-cn:鼠牙;zh-tw:鼠齒"
+    },
+    {
+      "original": "Furled Bracken",
+      "conv": "zh-cn:卷叶;zh-tw:捲蕨"
+    },
+    {
+      "original": "Shame Deer",
+      "conv": "zh-cn:惊鹿;zh-tw:羞鹿"
+    }
+  ]
+}

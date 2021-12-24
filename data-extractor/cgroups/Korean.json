@@ -1,0 +1,23 @@
+{
+  "name": "Korean",
+  "description": "朝鮮半島",
+  "path": "Template:CGroup/Korean",
+  "rules": [
+    {
+      "original": "North Korea",
+      "conv": "zh-cn:北朝鲜;zh-tw:北韓;zh-hk:北韓"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:南朝鲜;zh-tw:南韓;zh-hk:南韓"
+    },
+    {
+      "original": "조선민주주의인민공화국",
+      "conv": "zh-cn:朝鲜民主主义人民共和国;zh-tw:朝鮮民主主義人民共和國"
+    }
+  ]
+}

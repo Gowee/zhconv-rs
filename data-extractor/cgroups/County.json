@@ -1,0 +1,15 @@
+{
+  "name": "County",
+  "description": "郡縣轉換",
+  "path": "Module:CGroup/County",
+  "rules": [
+    {
+      "original": "County/Landkreis",
+      "conv": "zh-cn:县;zh-hk:縣;zh-tw:郡;"
+    },
+    {
+      "original": "counties",
+      "conv": "zh-hans:郡县;zh-hant:郡縣;"
+    }
+  ]
+}

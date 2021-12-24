@@ -1,0 +1,39 @@
+{
+  "name": "科威特职业足球联赛",
+  "description": "科威特职业足球联赛",
+  "path": "Module:CGroup/科威特职业足球联赛",
+  "rules": [
+    {
+      "original": "Kuwait SC",
+      "conv": "zh:阿尔科威特;zh-hans:科威特体育;zh-hant:阿爾科威特;zh-cn:科威特竞技;zh-hk:科威特SC;"
+    },
+    {
+      "original": "Qadsia SC",
+      "conv": "zh:卡迪西亚;zh-hans:卡迪西亚;zh-hant:卡迪斯亞;zh-cn:卡迪西亚;"
+    },
+    {
+      "original": "Al-Arabi SC",
+      "conv": "zh:阿尔阿拉比;zh-hans:科威特阿拉比;zh-hant:科威特阿拉比;zh-cn:科威特沙漠;zh-hk:艾拉比;"
+    },
+    {
+      "original": "Kuwait Premier League",
+      "conv": "zh:科威特足球超级联赛;zh-hans:科威特足球超级联赛;zh-hant:科威特足球超級聯賽;zh-cn:科威特足球超级联赛;zh-hk:科威特超級足球聯賽;"
+    },
+    {
+      "original": "Kuwait Emir Cup",
+      "conv": "zh:科威特国王杯;zh-hans:科威特国王杯;zh-hant:科威特國王盃;zh-cn:科威特国王杯;zh-hk:科威特國王盃;"
+    },
+    {
+      "original": "Kuwait Crown Prince Cup",
+      "conv": "zh:科威特王储杯;zh-hans:科威特皇冠王子杯;zh-hant:科威特王储盃;zh-cn:科威特王储杯;zh-hk:科威特王储盃;"
+    },
+    {
+      "original": "Kuwait Federation Cup",
+      "conv": "zh:科威特联合会杯;zh-hans:科威特联盟杯;zh-hant:科威特聯盟盃;zh-cn:科威特联合会杯;zh-hk:科威特聯盟盃;"
+    },
+    {
+      "original": "Kuwait Super Cup",
+      "conv": "zh:科威特超级杯;zh-hans:科威特超级杯;zh-hant:科威特超级盃;zh-cn:科威特超级杯;zh-hk:科威特超级盃;"
+    }
+  ]
+}

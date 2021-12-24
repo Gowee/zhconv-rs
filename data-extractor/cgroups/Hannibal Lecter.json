@@ -1,0 +1,43 @@
+{
+  "name": "Hannibal Lecter",
+  "description": "-{zh-cn:汉尼拔·莱克特; zh-tw:漢尼拔·萊克特}-",
+  "path": "Template:CGroup/Hannibal Lecter",
+  "rules": [
+    {
+      "original": "Red Dragon",
+      "conv": "zh-cn:红龙; zh-hant:紅色龍"
+    },
+    {
+      "original": "Hannibal",
+      "conv": "zh-cn:汉尼拔; zh-hant:人魔"
+    },
+    {
+      "original": "Hannibal Rising",
+      "conv": "zh-cn:汉尼拔崛起; zh-hant:人魔崛起"
+    },
+    {
+      "original": "Manhunter",
+      "conv": "zh-hk:孽慾殺人夜; zh-tw:1987大懸案; zh-cn:孽欲杀人夜;"
+    },
+    {
+      "original": "Hannibal",
+      "conv": "zh-hk:沉默的殺機;zh-cn:汉尼拔;zh-tw:人魔;"
+    },
+    {
+      "original": "Red Dragon",
+      "conv": "zh-hans:红龙;zh-hk:沉默的赤龍;zh-tw:紅龍;"
+    },
+    {
+      "original": "Hannibal Rising",
+      "conv": "zh-cn:少年汉尼拔;zh-hk:沉默的羔羊前傳之揭開罪幕;zh-tw:人魔崛起;"
+    },
+    {
+      "original": "Hannibal Lecter",
+      "conv": "zh-cn:汉尼拔·莱克特; zh-tw:漢尼拔·萊克特"
+    },
+    {
+      "original": "Hannibal",
+      "conv": "zh-hans:汉尼拔;zh-hk:沉默的羔羊前傳;zh-tw:雙面人魔;"
+    }
+  ]
+}

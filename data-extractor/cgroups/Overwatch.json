@@ -1,0 +1,167 @@
+{
+  "name": "Overwatch",
+  "description": "[[守望先锋]]",
+  "path": "Template:CGroup/Overwatch",
+  "rules": [
+    {
+      "original": "Overwatch",
+      "conv": "zh-cn:守望先锋; zh-tw:鬥陣特攻;"
+    },
+    {
+      "original": "Pharah",
+      "conv": "zh-cn:法老之鹰; zh-tw:法拉;"
+    },
+    {
+      "original": "Tracer",
+      "conv": "zh-cn:猎空; zh-hant:閃光;"
+    },
+    {
+      "original": "McCree",
+      "conv": "zh-cn:麦克雷; zh-hant:麥卡利;"
+    },
+    {
+      "original": "Bastion",
+      "conv": "zh-cn:堡垒; zh-hant:壁壘機兵;"
+    },
+    {
+      "original": "Widowmaker",
+      "conv": "zh-cn:黑百合; zh-hant:奪命女;"
+    },
+    {
+      "original": "Junkrat",
+      "conv": "zh-cn:狂鼠; zh-hant:炸彈鼠;"
+    },
+    {
+      "original": "Roadhog",
+      "conv": "zh-cn:路霸; zh-hant:攔路豬;"
+    },
+    {
+      "original": "Zarya",
+      "conv": "zh-cn:查莉娅; zh-hant:札莉雅;"
+    },
+    {
+      "original": "Winston",
+      "conv": "zh-cn:温斯顿; zh-hant:溫斯頓;"
+    },
+    {
+      "original": "Reinhardt",
+      "conv": "zh-cn:莱因哈特; zh-hant:萊因哈特;"
+    },
+    {
+      "original": "Mercy",
+      "conv": "zh-cn:天使; zh-tw:慈悲;"
+    },
+    {
+      "original": "Zenyatta",
+      "conv": "zh-cn:禅雅塔; zh-hant:禪亞塔;"
+    },
+    {
+      "original": "Lúcio",
+      "conv": "zh-cn:卢西奥; zh-hant:路西歐;"
+    },
+    {
+      "original": "Symmetra",
+      "conv": "zh-cn:秩序之光; zh-hant:辛梅塔;"
+    },
+    {
+      "original": "Sombra",
+      "conv": "zh-cn:黑影; zh-hant:駭影;"
+    },
+    {
+      "original": "Orisa",
+      "conv": "zh-cn:奥丽莎; zh-hant:歐瑞莎;"
+    },
+    {
+      "original": "Doomfist",
+      "conv": "zh-cn:末日铁拳; zh-hant:毀滅拳王;"
+    },
+    {
+      "original": "Brigitte",
+      "conv": "zh-cn:布丽吉塔; zh-hant:碧姬;"
+    },
+    {
+      "original": "Wrecking Ball",
+      "conv": "zh-cn:破坏球; zh-hant:火爆鋼球;"
+    },
+    {
+      "original": "Ashe",
+      "conv": "zh-cn:艾什; zh-hant:艾西;"
+    },
+    {
+      "original": "offense",
+      "conv": "zh-cn:突击型; zh-tw:攻擊型;"
+    },
+    {
+      "original": "tank",
+      "conv": "zh-cn:重装型; zh-tw:肉盾型;"
+    },
+    {
+      "original": "support",
+      "conv": "zh-cn:支援型; zh-tw:輔助型;"
+    },
+    {
+      "original": "Play of the Game",
+      "conv": "zh-cn:全场最佳; zh-tw:精彩重播;"
+    },
+    {
+      "original": "Volskaya Industries",
+      "conv": "zh-cn:沃斯卡娅工业区; zh-hant:伏斯凱亞工業;"
+    },
+    {
+      "original": "Watchpoint: Gibraltar",
+      "conv": "zh-cn:监测站：直布罗陀; zh-hant:捍衛者基地：直布羅陀;"
+    },
+    {
+      "original": "Lijiang Tower",
+      "conv": "zh-cn:漓江塔; zh-hant:灕江天塔;"
+    },
+    {
+      "original": "Ilios",
+      "conv": "zh-cn:伊利奥斯; zh-hant:伊利歐斯;"
+    },
+    {
+      "original": "Eichinwalde",
+      "conv": "zh-cn:艾兴瓦尔德; zh-hant:愛西瓦德;"
+    },
+    {
+      "original": "Eichinwalde",
+      "conv": "zh-cn:“地平线”月球基地; zh-hant:地平線月球殖民地;"
+    },
+    {
+      "original": "Junkertown",
+      "conv": "zh-cn:渣客镇; zh-hant:垃圾鎮;"
+    },
+    {
+      "original": "Deadlock Gang",
+      "conv": "zh-cn:死局帮; zh-hant:亡鎖幫;"
+    },
+    {
+      "original": "Talon",
+      "conv": "zh-cn:黑爪; zh-hant:利爪;"
+    },
+    {
+      "original": "Vishkar",
+      "conv": "zh-cn:费斯卡; zh-hant:維旭卡;"
+    },
+    {
+      "original": "Los Muertos",
+      "conv": "zh-cn:骷髅帮; zh-hant:烈骨幫;"
+    },
+    {
+      "original": "Helix Security International",
+      "conv": "zh-cn:海力士国际安保公司; zh-hant:螺旋國際安全公司;"
+    },
+    {
+      "original": "Overwatch League",
+      "conv": "zh-cn:守望先锋联赛; zh-hant:鬥陣特攻職業電競聯賽;"
+    },
+    {
+      "original": "New York Excelsior",
+      "conv": "zh-cn:纽约九霄天擎; zh-hant:紐約菁英;"
+    },
+    {
+      "original": "Houston Outlaws",
+      "conv": "zh-cn:休斯顿神枪手; zh-hant:休士頓神槍手;"
+    }
+  ]
+}

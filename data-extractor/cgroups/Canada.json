@@ -1,0 +1,195 @@
+{
+  "name": "Canada",
+  "description": "加拿大名字翻譯",
+  "path": "Template:CGroup/Canada",
+  "rules": [
+    {
+      "original": "Queen",
+      "conv": "zh-tw:女王;zh-hk:女皇;zh-hans:女王;"
+    },
+    {
+      "original": "Elizabeth II",
+      "conv": "zh-tw:伊麗莎白二世;zh-hk:伊利沙伯二世;zh-hans:伊丽莎白二世;"
+    },
+    {
+      "original": "Queen Victoria",
+      "conv": "zh-tw:維多利亞女王;zh-hk:維多利亞女皇;zh-hans:维多利亚女王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:凱瑟琳;zh-hk:嘉芙蓮;zh-mo:嘉芙蓮;zh-hans:凯瑟琳;"
+    },
+    {
+      "original": "Stephen Harper",
+      "conv": "zh-tw:史蒂芬·哈珀;zh-hk:史提芬·哈珀;zh-hans:斯蒂芬·哈珀;"
+    },
+    {
+      "original": "Erik the Red",
+      "conv": "zh-tw:紅鬍子艾瑞克;zh-hk:紅鬚艾力;zh-hans:红胡子埃里克;"
+    },
+    {
+      "original": "Francis I",
+      "conv": "zh-tw:法蘭索瓦一世;zh-cn:弗朗索瓦一世;"
+    },
+    {
+      "original": "Samuel de Champlain",
+      "conv": "zh-hant:山姆·德·尚普蘭;zh-hans:萨缪尔·德·尚普兰;"
+    },
+    {
+      "original": "Jacques Cartier",
+      "conv": "zh-tw:雅克·卡蒂亞;zh-cn:雅克·卡蒂埃;"
+    },
+    {
+      "original": "John Alexander Macdonald",
+      "conv": "zh-hant:莊·亞歷山大·麥當勞;zh-hans:约翰·亚历山大·麦克唐纳;"
+    },
+    {
+      "original": "Barack Obama",
+      "conv": "zh-tw:巴拉克·歐巴馬; zh-hk:巴拉克·奧巴馬;zh-cn:贝拉克·奥巴马;"
+    },
+    {
+      "original": "Pierre Trudeau",
+      "conv": "zh-hans:皮埃尔·特鲁多;zh-hk:皮耶·杜魯多;zh-tw:皮埃爾·杜魯道;"
+    },
+    {
+      "original": "Martin Brian Mulroney",
+      "conv": "zh-hans:马丁·布赖恩·马尔罗尼;zh-tw:馬丁·布賴恩·馬爾羅尼;zh-hk:馬田·白賴仁·梅隆尼;zh-sg:马丁·布赖恩·马尔罗尼;zh-cn:马丁·布赖恩·马尔罗尼;"
+    },
+    {
+      "original": "Paul Martin",
+      "conv": "zh-hans:保罗·马丁;zh-hk:保羅·馬田;zh-tw:保羅·馬丁;"
+    },
+    {
+      "original": "Justin Trudeau",
+      "conv": "zh-hans:贾斯汀·特鲁多;zh-hk:賈斯汀·杜魯多;zh-tw:賈斯汀·杜魯道;"
+    },
+    {
+      "original": "Chrystia Freeland",
+      "conv": "zh-tw:方慧蘭;zh-hk:方慧蘭;zh-cn:克里斯蒂亚·弗里兰德;"
+    },
+    {
+      "original": "Commonwealth of Nations",
+      "conv": "zh-hant:英聯邦;zh-tw:大英國協;zh-sg:共和联邦;zh-cn:英联邦;"
+    },
+    {
+      "original": "Saint Pierre et Miquelon",
+      "conv": "zh-tw:聖皮耶與密克隆群島;zh-hk:聖皮埃爾和密克隆群島;zh-hans:圣皮埃尔和密克隆群岛;"
+    },
+    {
+      "original": "Hudson Bay",
+      "conv": "zh-hant:哈德森灣;zh-hans:哈德逊湾;"
+    },
+    {
+      "original": "Edmonton",
+      "conv": "zh-tw:艾德蒙頓;zh-hk:愛民頓;zh-hans:埃德蒙顿;"
+    },
+    {
+      "original": "Alberta",
+      "conv": "zh-tw:亞伯達; zh-hk:亞伯達;zh-cn:艾伯塔;"
+    },
+    {
+      "original": "Calgary",
+      "conv": "zh-tw:卡加利;zh-hk:卡加利;zh-hans:卡尔加里;"
+    },
+    {
+      "original": "New Brunswick",
+      "conv": "zh-tw:新布藍茲維;zh-hk:紐賓士域;zh-cn:新不伦瑞克;"
+    },
+    {
+      "original": "Nova Scotia",
+      "conv": "zh-tw:新斯科細亞; zh-hk:諾華斯高沙; zh-cn:新斯科舍;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "zh-tw:曼尼托巴;zh-hk:緬尼托巴; zh-cn:马尼托巴;"
+    },
+    {
+      "original": "Saskatchewan",
+      "conv": "zh-tw:薩斯喀徹溫; zh-hk:沙士加芝灣; zh-cn:萨斯喀彻温;"
+    },
+    {
+      "original": "Northwest Territories",
+      "conv": "zh-hans:西北地区;zh-tw:西北地方;zh-hk:西北地區;"
+    },
+    {
+      "original": "Hamilton",
+      "conv": "zh-tw:哈密爾頓;zh-hk:咸美頓;zh-hans:哈密尔顿;"
+    },
+    {
+      "original": "Saint Lawrence",
+      "conv": "zh-tw:聖羅倫斯;zh-cn:圣劳伦斯;"
+    },
+    {
+      "original": "Lake Superior",
+      "conv": "zh-hant:蘇必略湖;zh-hans:苏必利尔湖; "
+    },
+    {
+      "original": "Rocky Mountains",
+      "conv": "zh-hant:洛磯山脈;zh-hans:洛矶山脉;zh-cn:落基山脉;"
+    },
+    {
+      "original": "Invation of Normandy",
+      "conv": "zh-tw:諾曼地戰役; zh-hk:諾曼第戰役;zh-cn:诺曼底战役;"
+    },
+    {
+      "original": "Operation Overlord",
+      "conv": "zh-hant:大君主作戰;zh-hans:霸王行动; "
+    },
+    {
+      "original": "Inuktitut",
+      "conv": "zh-tw:因努伊特; zh-cn:因纽特;"
+    },
+    {
+      "original": "George",
+      "conv": "zh-hans:乔治;zh-tw:喬治;zh-hk:佐治;zh-sg:乔治;zh-cn:乔治;"
+    },
+    {
+      "original": "Second Boer War",
+      "conv": "zh-hant:第二次波耳戰爭;zh-hans:第二次布尔战争;"
+    },
+    {
+      "original": "Korean War",
+      "conv": "zh-cn:朝鲜战争; zh-tw:韓戰; zh-hk:韓戰; zh-sg:韩战;"
+    },
+    {
+      "original": "Asia-Pacific Economic Cooperation",
+      "conv": "zh-hans:亚洲太平洋经济合作组织;zh-tw:亞洲太平洋經濟合作會議;zh-hk:亞洲太平洋經濟合作組織;"
+    },
+    {
+      "original": "Developing",
+      "conv": "zh-tw:開發中;zh-hk:發展中; zh-sg:发展中;zh-cn:发展中;"
+    },
+    {
+      "original": "Organisation for Economic Co-operation and Development",
+      "conv": "zh-tw:經濟合作暨發展組織;zh-cn:经济合作与发展组织;"
+    },
+    {
+      "original": "Gross Domestic Product",
+      "conv": "zh-hans:国内生产总值;zh-tw:國內生產毛額;zh-hk:本地生產總值;"
+    },
+    {
+      "original": "Group of Eight",
+      "conv": "zh-hant:八大工業國組織;zh-hans:八国集团;"
+    },
+    {
+      "original": "International Space Station",
+      "conv": "zh-hant:國際太空站;zh-hans:国际空间站; zh-sg:国际太空站;"
+    },
+    {
+      "original": "National Aeronautics and Space Administration",
+      "conv": "zh-tw:國家航空暨太空總署; zh-hk:太空總署;zh-cn:国家航空航天局;"
+    },
+    {
+      "original": "Space Shuttle",
+      "conv": "zh-tw:太空梭;zh-hk:太空穿梭機;zh-cn:航天飞机;"
+    },
+    {
+      "original": "Developed",
+      "conv": "zh-tw:已開發; zh-cn:发达; zh-hk:發達;"
+    },
+    {
+      "original": "National Broadcasting Company",
+      "conv": "zh-hans:全国广播公司;zh-tw:國家廣播公司;zh-hk:全國廣播公司;"
+    }
+  ]
+}

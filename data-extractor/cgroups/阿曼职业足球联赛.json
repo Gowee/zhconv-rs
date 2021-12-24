@@ -1,0 +1,27 @@
+{
+  "name": "阿曼职业足球联赛",
+  "description": "阿曼職業足球聯賽",
+  "path": "Template:CGroup/阿曼职业足球联赛",
+  "rules": [
+    {
+      "original": "Al-Nahda",
+      "conv": "zh:布赖米顽强; zh-hans:布赖米顽强; zh-cn:布赖米顽强; zh-hk:阿爾拿達; "
+    },
+    {
+      "original": "Fanja",
+      "conv": "zh:芬贾; zh-hans:芬贾; zh-cn:芬贾; zh-hk:費加亞; "
+    },
+    {
+      "original": "Saham",
+      "conv": "zh:萨罕; zh-hans:萨罕; zh-cn:萨罕; zh-hk:沙漢姆; "
+    },
+    {
+      "original": "Oman Professional League",
+      "conv": "zh:阿曼职业足球联赛; zh-hans:阿曼职业足球联赛; zh-cn:阿曼职业足球联赛; zh-hant:阿曼足球聯賽; zh-hk:阿曼足球聯賽; "
+    },
+    {
+      "original": "Sultan Qaboos Cup",
+      "conv": "zh:阿曼苏丹杯; zh-hans:阿曼苏丹杯; zh-cn:阿曼苏丹杯; zh-hk:阿曼蘇丹盃; "
+    }
+  ]
+}

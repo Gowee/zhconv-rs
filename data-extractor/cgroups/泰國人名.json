@@ -1,0 +1,75 @@
+{
+  "name": "泰國人名",
+  "description": "泰國人名",
+  "path": "Module:CGroup/泰國人名",
+  "rules": [
+    {
+      "original": "ยิ่งลักษณ์",
+      "conv": "zh-cn:英拉;zh-tw:盈拉;zh-hk:英祿;zh-sg:英叻;"
+    },
+    {
+      "original": "ชินวัตร",
+      "conv": "zh-cn:西那瓦;zh-tw:欽那瓦; zh-hk:西那瓦;zh-sg:钦那瓦;"
+    },
+    {
+      "original": "ทักษิณl",
+      "conv": "zh-cn:他信;zh-tw:塔克辛; zh-hk:他信; zh-sg:达信;"
+    },
+    {
+      "original": "อภิสิทธิ์",
+      "conv": "zh-cn:阿披实;zh-tw:艾比希;zh-hk:阿披實; zh-sg:阿比昔;"
+    },
+    {
+      "original": "ภูมิพลอดุลยเดช",
+      "conv": "zh-cn:普密蓬; zh-tw:蒲美蓬;zh-hk:普密蓬;zh-sg:蒲眉蓬;"
+    },
+    {
+      "original": "ชวน หลีกภัย",
+      "conv": "zh-cn:川·立派;zh-tw:乃川;zh-hk:川立派;"
+    },
+    {
+      "original": "ชวลิต",
+      "conv": "zh-cn:差瓦立;zh-tw:昭華利;zh-hk:差瓦立;zh-sg:查瓦利;"
+    },
+    {
+      "original": "สนธิ",
+      "conv": "zh-cn:颂提;zh-tw:宋帝;zh-hk:頌提;"
+    },
+    {
+      "original": "สมชาย",
+      "conv": "zh-cn:颂猜;zh-tw:宋才;zh-hk:頌猜;"
+    },
+    {
+      "original": "ชาติชาย",
+      "conv": "zh-cn:差猜;zh-tw:察柴;zh-hk:差提猜;"
+    },
+    {
+      "original": "คึกฤทธิ์ ปราโมช",
+      "conv": "zh-cn:克立·巴莫;zh-tw:克里巴莫;zh-hk:克立·巴莫;"
+    },
+    {
+      "original": "เสนีย์",
+      "conv": "zh-cn:社尼;zh-tw:西尼;zh-hk:社尼;"
+    },
+    {
+      "original": "ธานินทร์",
+      "conv": "zh-cn:他宁;zh-tw:譚寧;zh-hk:他寧;"
+    },
+    {
+      "original": "เกรียงศักดิ์",
+      "conv": "zh-cn:江萨;zh-tw:克利安薩;zh-hk:江薩;"
+    },
+    {
+      "original": "สงัด",
+      "conv": "zh-cn:沙鄂;zh-tw:桑加德;zh-hk:沙鄂;"
+    },
+    {
+      "original": "จันทร์โอชา",
+      "conv": "zh-tw:詹歐查;zh-hk:占奧差;zh-cn:占奥差;"
+    },
+    {
+      "original": "ประยุทธ์",
+      "conv": "zh-tw:帕拉育;zh-hk:巴育;zh-cn:巴育;"
+    }
+  ]
+}

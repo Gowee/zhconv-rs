@@ -1,0 +1,203 @@
+{
+  "name": "Nobel Prize",
+  "description": "诺贝尔奖",
+  "path": "Template:CGroup/Nobel Prize",
+  "rules": [
+    {
+      "original": "Борис Пастернак",
+      "conv": "zh-cn:鲍里斯·帕斯捷尔纳克; zh-tw:鮑里斯·帕斯捷爾納克; zh-hk:鮑里斯·巴斯特納克;"
+    },
+    {
+      "original": "Jean-Paul Sartre",
+      "conv": "zh-cn:让-保罗·萨特; zh-tw:尚-保羅·沙特;zh-hk:尚-保羅·薩特;"
+    },
+    {
+      "original": "Bjørnstjerne Martinus Bjørnson",
+      "conv": "zh-cn:比约恩斯彻纳·比昂松; zh-tw:比約恩斯徹納·比昂松; zh-hk:比昂斯滕·比昂松;"
+    },
+    {
+      "original": "Giosuè Carducci",
+      "conv": "zh-cn:焦苏埃·卡尔杜奇; zh-tw:焦蘇埃·卡爾杜奇; zh-hk:喬祖埃·卡爾杜齊;"
+    },
+    {
+      "original": "Rudolf Eucken",
+      "conv": "zh-cn:倭铿; zh-tw:倭鏗; zh-hk:魯道爾夫·歐肯;"
+    },
+    {
+      "original": "Paul Heyse",
+      "conv": "zh-cn:保罗·海泽; zh-tw:保羅·海澤; zh-hk:保羅·海塞;"
+    },
+    {
+      "original": "Gerhart Hauptmann",
+      "conv": "zh-cn:盖哈特·霍普特曼; zh-tw:蓋哈特·霍普特曼; zh-hk:格哈特·霍普特曼;"
+    },
+    {
+      "original": "Verner von Heidenstam",
+      "conv": "zh-cn:维尔纳·冯·海登斯坦; zh-tw:維爾納·馮·海登斯坦; zh-hk:魏爾納·海頓斯坦姆;"
+    },
+    {
+      "original": "Sigrid Undset",
+      "conv": "zh-cn:西格丽德·温塞特; zh-tw:西格麗德·溫塞特; zh-hk:西格里德·溫塞特;"
+    },
+    {
+      "original": "Salvatore Quasimodo",
+      "conv": "zh-cn:萨瓦多尔·夸西莫多; zh-tw:薩瓦多爾·夸西莫多; zh-hk:薩瓦多爾·誇西莫多;"
+    },
+    {
+      "original": "Nelly Sachs",
+      "conv": "zh-cn:内莉·萨克斯; zh-tw:內莉·薩克斯; zh-hk:奈莉·薩克斯;"
+    },
+    {
+      "original": "Александр Солженицын",
+      "conv": "zh-cn:亚历山大·索尔仁尼琴; zh-tw:亞歷山大·索忍尼辛; zh-hk:亞歷山大·索贊尼辛;"
+    },
+    {
+      "original": "Eyvind Johnson",
+      "conv": "zh-cn:雍松; zh-tw:雍松; zh-hk:埃溫特·約翰遜;"
+    },
+    {
+      "original": "Harry Martinson",
+      "conv": "zh-cn:哈里·马丁松; zh-tw:哈里·馬丁松; zh-hk:哈里·馬丁遜;"
+    },
+    {
+      "original": "García Márquez",
+      "conv": "zh-cn:加西亚·马尔克斯; zh-tw:賈西亞·馬奎斯; zh-hk:加西亞·馬爾克斯;"
+    },
+    {
+      "original": "Claude Simon",
+      "conv": "zh-cn:克劳德·西蒙; zh-tw:克勞德·西蒙; zh-hk:克洛德·西蒙;"
+    },
+    {
+      "original": "Herta Müller",
+      "conv": "zh-cn:赫塔·米勒; zh-tw:荷塔·慕勒; zh-hk:赫塔·米勒;"
+    },
+    {
+      "original": "Jean Henri Dunant",
+      "conv": "zh-cn:让·亨利·杜南; zh-tw:尚·亨利·杜南; zh-hk:讓·亨利·杜南;"
+    },
+    {
+      "original": "Lester Pearson",
+      "conv": "zh-cn:莱斯特·皮尔森; zh-tw:萊斯特·皮爾森; zh-hk:萊斯特·皮爾遜;"
+    },
+    {
+      "original": "Henry Kissinger",
+      "conv": "zh-cn:亨利·基辛格; zh-tw:亨利·季辛吉; zh-hk:亨利·基辛格;"
+    },
+    {
+      "original": "Mother Teresa",
+      "conv": "zh-cn:德蕾莎修女; zh-tw:德蕾莎修女; zh-hk:德蘭修女;"
+    },
+    {
+      "original": "Lech Wałęsa",
+      "conv": "zh-cn:莱赫·瓦文萨; zh-tw:萊赫·華勒沙; zh-hk:萊赫·華里沙; zh-sg:莱赫·瓦文萨;"
+    },
+    {
+      "original": "Михаил Горбачёв",
+      "conv": "zh-cn:米哈伊尔·戈尔巴乔夫; zh-tw:米哈伊爾·戈巴契夫; zh-hk:米哈伊爾·戈爾巴喬夫;"
+    },
+    {
+      "original": "အောင်ဆန်းစုကြည်",
+      "conv": "zh-cn:昂山素季; zh-tw:翁山蘇姬; zh-hk:昂山素姬; zh-sg:昂山舒吉;"
+    },
+    {
+      "original": "José Ramos-Horta",
+      "conv": "zh-cn:何塞·拉莫斯·霍塔; zh-tw:何塞·拉莫斯·霍塔; zh-hk:若澤·拉莫斯·奧爾塔;"
+    },
+    {
+      "original": "شیرین عبادی",
+      "conv": "zh-cn:希林·伊巴迪; zh-tw:希林·伊巴迪; zh-hk:希爾琳·艾芭迪;"
+    },
+    {
+      "original": "Intergovernmental Panel on Climate Change",
+      "conv": "zh-cn:政府间气候变化专门委员会; zh-tw:政府間氣候變化專門委員會; zh-hk:政府間氣候變化專業委員會;"
+    },
+    {
+      "original": "Barack Obama",
+      "conv": "zh-cn:贝拉克·奥巴马; zh-tw:巴拉克·歐巴馬; zh-hk:巴拉克·奧巴馬;"
+    },
+    {
+      "original": "John Nash",
+      "conv": "zh-cn:约翰·纳什; zh-tw:約翰·納什; zh-hk:約翰·拿殊;"
+    },
+    {
+      "original": "Harsányi János",
+      "conv": "zh-cn:约翰·海萨尼; zh-tw:約翰·海薩尼; zh-hk:約翰·夏仙義;"
+    },
+    {
+      "original": "Eric Maskin",
+      "conv": "zh-cn:埃里克·马斯金; zh-tw:埃里克·馬斯金; zh-hk:艾力克·馬斯金;"
+    },
+    {
+      "original": "Eduard Buchner",
+      "conv": "zh-cn:爱德华·比希纳; zh-tw:愛德華·比希納; zh-hk:愛德華·畢希納;"
+    },
+    {
+      "original": "Marie Curie",
+      "conv": "zh-cn:玛丽·居里; zh-tw:瑪麗·居里; zh-hk:瑪麗·居禮;"
+    },
+    {
+      "original": "Hans Fischer",
+      "conv": "zh-cn:汉斯·费歇尔; zh-tw:漢斯·費歇爾; zh-hk:漢斯·費雪;"
+    },
+    {
+      "original": "Frédéric Joliot-Curie",
+      "conv": "zh-cn:弗雷德里克·约里奥-居里; zh-tw:弗雷德里克·約里奧-居里; zh-hk:弗雷德里克·約里奧-居禮;"
+    },
+    {
+      "original": "Irène Joliot-Curie",
+      "conv": "zh-cn:伊伦·约里奥-居里; zh-tw:伊倫·約里奧-居里; zh-hk:伊倫·約里奧-居禮;"
+    },
+    {
+      "original": "Никола Семёнов",
+      "conv": "zh-cn:尼科莱·谢苗诺夫; zh-tw:尼科萊·謝苗諾夫; zh-hk:伊尼古拉·謝苗諾夫;"
+    },
+    {
+      "original": "Giulio Natta",
+      "conv": "zh-cn:居里奥·纳塔; zh-tw:居里奧·納塔; zh-hk:居禮奧·納塔;"
+    },
+    {
+      "original": "Luis Federico Leloir",
+      "conv": "zh-cn:卢伊斯·弗德里科·莱洛伊尔; zh-tw:盧伊斯·費德里科·萊洛伊爾; zh-hk:路易士·費德里克·勒盧瓦爾;"
+    },
+    {
+      "original": "Aaron Klug",
+      "conv": "zh-cn:阿龙·克卢格; zh-tw:阿龍·克盧格; zh-hk:亞倫·克拉格;"
+    },
+    {
+      "original": "Jean-Marie Lehn",
+      "conv": "zh-cn:让-马里·莱恩; zh-tw:尚-馬里·萊恩; zh-hk:讓-馬里·萊恩;"
+    },
+    {
+      "original": "Rudolph Marcus",
+      "conv": "zh-cn:鲁道夫·马库斯; zh-tw:魯道夫·馬庫斯; zh-hk:羅道夫·馬庫斯;"
+    },
+    {
+      "original": "أحمد زويل",
+      "conv": "zh-cn:艾哈迈德·兹韦勒; zh-tw:艾哈邁德·茲韋勒; zh-hk:亞米德·齊威爾;"
+    },
+    {
+      "original": "Venkatraman Ramakrishnan",
+      "conv": "zh-cn:万卡特拉曼·莱马克里斯南; zh-tw:萬卡特拉曼·萊馬克里斯南; zh-hk:文卡特拉曼·拉馬克里希南;"
+    },
+    {
+      "original": "Robert Koch",
+      "conv": "zh-cn:罗伯特·科赫; zh-tw:羅伯特·科赫; zh-hk:羅伯·柯霍;"
+    },
+    {
+      "original": "Charles Nicolle",
+      "conv": "zh-cn:夏尔·尼科勒; zh-tw:夏爾·尼科勒; zh-hk:查爾斯·尼柯爾;"
+    },
+    {
+      "original": "Francis Crick",
+      "conv": "zh-cn:佛朗西斯·克里克; zh-tw:弗朗西斯·克里克; zh-hk:佛朗西斯·克里克;"
+    },
+    {
+      "original": "Jean Dausset",
+      "conv": "zh-cn:让·多塞; zh-tw:尚·多塞; zh-hk:讓·多塞;"
+    },
+    {
+      "original": "Luc Montagnier",
+      "conv": "zh-cn:吕克·蒙塔尼耶; zh-tw:呂克·蒙塔尼耶; zh-hk:呂克·蒙塔尼;"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Unilever",
+  "description": "聯合利華",
+  "path": "Template:CGroup/Unilever",
+  "rules": [
+    {
+      "original": "AXE/LYNX",
+      "conv": "zh-cn:凌仕;zh-hk:LYNX;zh-tw:AXE;"
+    },
+    {
+      "original": "BEN & JERRY'S",
+      "conv": "zh-hk:BEN & JERRY'S;"
+    },
+    {
+      "original": "CIF",
+      "conv": "zh-cn:晶杰;zh-hk:潔而亮;"
+    },
+    {
+      "original": "CLEAR",
+      "conv": "zh-cn:清扬;zh-hk:淨;zh-tw:淨;"
+    },
+    {
+      "original": "COMFORT/SNUGGLE",
+      "conv": "zh-cn:金纺;zh-hk:金紡;zh-tw:熊寶貝;"
+    },
+    {
+      "original": "DOVE",
+      "conv": "zh-cn:多芬;zh-hk:多芬;zh-tw:多芬;"
+    },
+    {
+      "original": "KNORR",
+      "conv": "zh-cn:家乐;zh-hk:家樂牌;zh-sg:家乐;zh-tw:康寶;"
+    },
+    {
+      "original": "LIFEBUOY",
+      "conv": "zh-cn:卫宝;zh-hk:衛健;"
+    },
+    {
+      "original": "LIPTON",
+      "conv": "zh-cn:立顿;zh-hk:立頓;zh-sg:立顿;zh-tw:立頓;"
+    },
+    {
+      "original": "LUX",
+      "conv": "zh-cn:力士;zh-hk:力士;zh-tw:麗仕;"
+    },
+    {
+      "original": "OMO",
+      "conv": "zh-cn:奥妙;"
+    },
+    {
+      "original": "POND'S",
+      "conv": "zh-cn:旁氏;zh-hk:旁氏;zh-tw:旁氏;"
+    },
+    {
+      "original": "REXONA",
+      "conv": "zh-cn:舒耐;zh-hk:蕊娜;zh-tw:蕊娜;"
+    },
+    {
+      "original": "TRESemmé",
+      "conv": "zh-hk:TRESemmé;"
+    },
+    {
+      "original": "UNILEVER FOOD SOLUTIONS",
+      "conv": "zh-cn:联合利华饮食策划;zh-hk:聯合利華飲食策劃;zh-sg:联合利华饮食策划;zh-tw:聯合利華飲食策劃;"
+    },
+    {
+      "original": "VASELINE",
+      "conv": "zh-cn:凡士林;zh-hk:凡士林;zh-tw:凡士林;"
+    },
+    {
+      "original": "WALL'S",
+      "conv": "zh-cn:和路雪;"
+    }
+  ]
+}

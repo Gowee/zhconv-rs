@@ -1,0 +1,75 @@
+{
+  "name": "Esports",
+  "description": "电子竞技",
+  "path": "Module:CGroup/Esports",
+  "rules": [
+    {
+      "original": "final 32",
+      "conv": "zh-hk:32強賽; zh-cn:十六分之一决赛; zh-tw:32強賽;"
+    },
+    {
+      "original": "final 16",
+      "conv": "zh-hk:16強賽; zh-cn:八分之一决赛; zh-tw:16強賽;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "zh-hk:八強賽; zh-cn:四分之一决赛; zh-tw:半準決賽;"
+    },
+    {
+      "original": "semifinal",
+      "conv": "zh-hk:準決賽; zh-cn:半决赛; zh-tw:準決賽;"
+    },
+    {
+      "original": "first round",
+      "conv": "zh-cn:第一轮; zh-hk:第一圈; zh-tw:第一輪;"
+    },
+    {
+      "original": "second round",
+      "conv": "zh-cn:第二轮; zh-hk:第二圈; zh-tw:第二輪;"
+    },
+    {
+      "original": "third round",
+      "conv": "zh-cn:第三轮; zh-hk:第三圈; zh-tw:第三輪;"
+    },
+    {
+      "original": "4th round",
+      "conv": "zh-cn:第四轮; zh-hk:第四圈; zh-tw:第四輪;"
+    },
+    {
+      "original": "5th round",
+      "conv": "zh-cn:第五轮; zh-hk:第五圈; zh-tw:第五輪;"
+    },
+    {
+      "original": "6th round",
+      "conv": "zh-cn:第六轮; zh-hk:第六圈; zh-tw:第六輪;"
+    },
+    {
+      "original": "7th round",
+      "conv": "zh-cn:第七轮; zh-hk:第七圈; zh-tw:第七輪;"
+    },
+    {
+      "original": "8th round",
+      "conv": "zh-cn:第八轮; zh-hk:第八圈; zh-tw:第八輪;"
+    },
+    {
+      "original": "9th round",
+      "conv": "zh-cn:第九轮; zh-hk:第九圈; zh-tw:第九輪;"
+    },
+    {
+      "original": "10th round",
+      "conv": "zh-cn:第十轮; zh-hk:第十圈; zh-tw:第十輪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:16位; zh-hant:16位;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:32位; zh-hant:32位;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:64位; zh-hant:64位;"
+    }
+  ]
+}

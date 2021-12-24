@@ -1,0 +1,87 @@
+{
+  "name": "TheBeatles",
+  "description": "披頭四",
+  "path": "Template:CGroup/TheBeatles",
+  "rules": [
+    {
+      "original": "The Beatles",
+      "conv": "zh-tw:披頭四樂團; zh-hk:披頭四樂隊; zh-cn:披头士乐队; zh-sg:披头士乐队 "
+    },
+    {
+      "original": "John Lennon",
+      "conv": "zh-tw:約翰·藍儂; zh-hk:約翰·連儂; zh-cn:约翰·列侬; zh-sg:约翰·列侬 "
+    },
+    {
+      "original": "Lennon",
+      "conv": "zh-tw:藍儂; zh-hk:連儂; zh-cn:列侬; zh-sg:列侬 "
+    },
+    {
+      "original": "Paul McCarthey",
+      "conv": "zh-tw:保羅·麥卡尼; zh-hk:保羅·麥卡尼; zh-cn:保罗·麦卡特尼; zh-sg:保罗·麦卡特尼 "
+    },
+    {
+      "original": "McCarthey",
+      "conv": "zh-tw:麥卡尼; zh-hk:麥卡尼; zh-cn:麦卡特尼; zh-sg:麦卡特尼 "
+    },
+    {
+      "original": "George Harrison",
+      "conv": "zh-tw:喬治·哈里森; zh-hk:佐治·夏里遜; zh-cn:乔治·哈里森; zh-sg:乔治·哈里森 "
+    },
+    {
+      "original": "George",
+      "conv": "zh-tw:喬治; zh-hk:佐治; zh-cn:乔治; zh-sg:乔治 "
+    },
+    {
+      "original": "Harrison",
+      "conv": "zh-tw:哈里森; zh-hk:夏里遜; zh-cn:哈里森; zh-sg:哈里森 "
+    },
+    {
+      "original": "Ringo Starr",
+      "conv": "zh-tw:林哥·史達; zh-hk:靈高·史達; zh-cn:林戈·斯塔尔; zh-sg:林戈·斯塔尔 "
+    },
+    {
+      "original": "Ringo",
+      "conv": "zh-tw:林哥; zh-hk:靈高; zh-cn:林戈; zh-sg:林戈 "
+    },
+    {
+      "original": "Starr",
+      "conv": "zh-tw:史達; zh-hk:史達; zh-cn:斯塔尔; zh-sg:斯塔尔 "
+    },
+    {
+      "original": "Stuart Sutcliffe",
+      "conv": "zh-tw:史都·薩克里夫; zh-hk:史都特·沙克里夫; zh-cn:斯图尔特·萨克利夫; zh-sg:斯图尔特·萨克利夫 "
+    },
+    {
+      "original": "Stuart",
+      "conv": "zh-tw:史都; zh-hk:史都特; zh-cn:斯图尔特; zh-sg:斯图尔特 "
+    },
+    {
+      "original": "Sutcliffe",
+      "conv": "zh-tw:薩克里夫; zh-hk:沙克里夫; zh-cn:萨克利夫; zh-sg:萨克利夫 "
+    },
+    {
+      "original": "Pete Best",
+      "conv": "zh-tw:彼特·貝斯特; zh-hk:彼特·貝斯特; zh-cn:皮特·贝斯特; zh-sg:皮特·贝斯特 "
+    },
+    {
+      "original": "Pete",
+      "conv": "zh-tw:彼特; zh-hk:彼特; zh-cn:皮特; zh-sg:皮特 "
+    },
+    {
+      "original": "BeatlesForSales",
+      "conv": "zh-tw:廉價披頭; zh-hk:廉價披頭; zh-cn:披头士待售; zh-sg:披头士待售 "
+    },
+    {
+      "original": "Revolver",
+      "conv": "zh-tw:左輪連發槍; zh-hk:左輪連發槍; zh-cn:左轮手枪; zh-sg:左轮手枪 "
+    },
+    {
+      "original": "Revolver",
+      "conv": "zh-tw:比伯軍曹寂寞芳心俱樂部樂隊; zh-hk:胡椒軍士寂寞芳心俱樂部樂隊; zh-cn:佩珀军士的孤独之心俱乐部乐队; zh-sg:佩珀军士的孤独之心俱乐部乐队 "
+    },
+    {
+      "original": "The Beatles",
+      "conv": "zh-tw:The Beatles (披頭四專輯); zh-hk:The Beatles (披頭士專輯); zh-cn:The Beatles (披头士专辑); zh-sg:The Beatles (披头士专辑) "
+    }
+  ]
+}

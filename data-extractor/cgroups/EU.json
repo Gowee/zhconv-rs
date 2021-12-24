@@ -1,0 +1,115 @@
+{
+  "name": "EU",
+  "description": "歐洲聯盟",
+  "path": "Module:CGroup/EU",
+  "rules": [
+    {
+      "original": "European Council",
+      "conv": "zh-tw:歐盟高峰會; zh-hk:歐洲理事會; zh-cn:欧洲理事会;"
+    },
+    {
+      "original": "European Council",
+      "conv": "歐盟高峰會=>zh-tw:歐盟高峰會; 歐盟高峰會=>zh-hk:歐洲理事會; 歐盟高峰會=>zh-cn:欧洲理事会;"
+    },
+    {
+      "original": "European Council",
+      "conv": "欧洲理事会=>zh-tw:歐盟高峰會; 欧洲理事会=>zh-hk:歐洲理事會; 欧洲理事会=>zh-cn:欧洲理事会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "zh-tw:歐洲執行委員會; zh-hk:歐洲聯盟委員會; zh-cn:欧洲联盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "zh-tw:歐盟執行委員會; zh-hk:歐洲聯盟委員會; zh-cn:欧洲联盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "zh-tw:歐盟執委會; zh-hk:歐盟委員會; zh-cn:欧盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "zh-tw:執委會; zh-hant:委員會; zh-hans:委员会;"
+    },
+    {
+      "original": "Council of the European Union",
+      "conv": "zh-tw:歐洲聯盟理事會; zh-hk:歐洲聯盟理事會; zh-cn:欧洲联盟理事会;"
+    },
+    {
+      "original": "Council of the European Union",
+      "conv": "zh-tw:歐盟部長理事會; zh-hk:歐盟部長理事會; zh-cn:欧盟部长理事会;"
+    },
+    {
+      "original": "Council of the European Union",
+      "conv": "zh-tw:歐盟理事會; zh-hk:歐盟理事會; zh-cn:欧盟理事会;"
+    },
+    {
+      "original": "Council of the European Union",
+      "conv": "zh-tw:部長理事會; zh-hk:部長理事會; zh-cn:部长理事会;"
+    },
+    {
+      "original": "European Parliament",
+      "conv": "zh-tw:歐洲議會; zh-hk:歐洲議會; zh-cn:欧洲议会;"
+    },
+    {
+      "original": "European Union",
+      "conv": "zh-tw:歐洲聯盟; zh-hk:歐洲聯盟; zh-cn:欧洲联盟;"
+    },
+    {
+      "original": "Council of Europe",
+      "conv": "歐洲委員會=>zh-tw:歐洲理事會; 歐洲委員會=>zh-hant:歐洲委員會; 歐洲委員會=>zh-hans:欧洲委员会;"
+    },
+    {
+      "original": "Council of Europe",
+      "conv": "欧洲委员会=>zh-tw:歐洲理事會; 欧洲委员会=>zh-hant:歐洲委員會; 欧洲委员会=>zh-hans:欧洲委员会;"
+    },
+    {
+      "original": "European Space Agency",
+      "conv": "zh-tw:歐洲太空總署;  zh-hk:歐洲太空總署; zh-cn:欧洲空间局;"
+    },
+    {
+      "original": "Walter Hallstein",
+      "conv": "zh-hant:華特·霍爾斯坦; zh-hans:沃尔特·哈尔斯坦;"
+    },
+    {
+      "original": "Walter Hallstein",
+      "conv": "zh-hant:華特; zh-hans:沃尔特;"
+    },
+    {
+      "original": "Walter Hallstein",
+      "conv": "zh-hant:霍爾斯坦; zh-hans:哈尔斯坦;"
+    },
+    {
+      "original": "Donald Franciszek Tusk",
+      "conv": "zh-tw:唐納·圖斯克; zh-hk:當奴·圖斯克; zh-cn:唐纳德·图斯克;"
+    },
+    {
+      "original": "Donald Franciszek Tusk",
+      "conv": "zh-tw:唐納; zh-hk:當奴; zh-cn:唐纳德;"
+    },
+    {
+      "original": "Donald Franciszek Tusk",
+      "conv": "zh-tw:圖斯克; zh-hk:圖斯克; zh-cn:图斯克;"
+    },
+    {
+      "original": "Jean-Claude Juncker",
+      "conv": "zh-tw:尚-克勞德·榮克; zh-hk:尚-格·容克; zh-cn:让-克洛德·容克;"
+    },
+    {
+      "original": "Jean-Claude Juncker",
+      "conv": "zh-tw:榮克; zh-hk:容克; zh-cn:容克;"
+    },
+    {
+      "original": "Maastricht Treaty",
+      "conv": "zh-tw:馬斯垂克條約; zh-hk:馬城條約; zh-hans:马斯特里赫特条约;"
+    },
+    {
+      "original": "Maastricht",
+      "conv": "zh-tw:馬斯垂克; zh-hk:馬城; zh-hans:马斯特里赫特;"
+    },
+    {
+      "original": "Croatia",
+      "conv": "zh-tw:克羅埃西亞; zh-hk:克羅地亞; zh-hans:克罗地亚;"
+    }
+  ]
+}

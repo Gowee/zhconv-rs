@@ -1,0 +1,599 @@
+{
+  "name": "FullmetalAlchemist",
+  "description": "鋼之鍊金術師",
+  "path": "Template:CGroup/FullmetalAlchemist",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:钢之炼金术师 FULLMETAL ALCHEMIST;zh-hant:鋼之鍊金術師 FULLMETAL ALCHEMIST;zh-tw:鋼之鍊金術師 BROTHERHOOD;zh-hk:鋼之鍊金術師FA;zh-mo:鋼之鍊金術師FA;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:钢之炼金术师;zh-hant:鋼之鍊金術師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:爱力克;zh-hk:艾力克;zh-tw:愛力克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿尔冯斯;zh-hk:艾爾凡斯;zh-tw:阿爾馮斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿尔;zh-hk:艾爾;zh-tw:阿爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:温莉;zh-hk:雲尼;zh-tw:溫莉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:比拿可;zh-hk:皮納高;zh-tw:比拿可;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊兹米;zh-hk:泉;zh-tw:伊茲米;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:席古;zh-hk:斯古;zh-tw:席古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:冯·霍恩海姆;zh-hk:班·賀恩漢;zh-tw:馮·霍恩海姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗伊·;zh-hk:萊·;zh-tw:羅伊·;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:霍克爱;zh-hk:褔艾;zh-tw:霍克愛;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:休斯;zh-hk:修茲;zh-tw:休斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:榭丝卡;zh-hk:謝西嘉;zh-tw:榭絲卡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亚力士·路易;zh-hk:阿力士·路易;zh-tw:亞力士·路易;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奥莉薇·米拉;zh-hk:奧莉維亞·米娜;zh-tw:奧莉薇·米拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿姆斯壮;zh-hk:阿姆士唐;zh-tw:阿姆斯壯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哈博克;zh-hk:夏卜;zh-tw:哈博克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:普雷达;zh-hk:布萊達;zh-tw:普雷達;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:肯·菲利;zh-hk:健·菲利;zh-sg:肯恩·菲利;zh-tw:肯恩·菲利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:瓦特·法尔曼;zh-hk:巴托·法爾曼;zh-tw:瓦特·法爾曼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佐鲁夫·J;zh-hk:索魯夫·J;zh-sg:佐尔夫·J;zh-tw:佐爾夫·J;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:金普利;zh-hk:金布里;zh-tw:金普利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:法兰克·;zh-hk:法蘭克·;zh-tw:法蘭克·;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亚伽;zh-hk:阿查（阿齊）;zh-tw:亞伽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:玛丽亚;zh-hk:瑪利亞;zh-tw:瑪麗亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丹尼;zh-hk:迪尼;zh-tw:丹尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:普罗修;zh-hk:布羅修;zh-tw:普羅修;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:金格;zh-hk:肯格;zh-tw:金格;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:布拉德雷;zh-hk:布拉多萊;zh-tw:布拉德雷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哈库洛;zh-hk:哈古洛;zh-tw:哈庫洛;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:拉斯多;zh-hk:賴斯黛;zh-tw:拉斯多;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:库拉托尼;zh-hk:桂杜尼;zh-tw:庫拉多尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:恩维;zh-hk:安比;zh-tw:恩維;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:斯洛乌斯;zh-hk:斯洛司;zh-tw:斯洛烏斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:斯洛思;zh-hk:斯洛司;zh-tw:斯洛思;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:茱丽叶·道格拉斯;zh-hk:茱麗葉·德格拉斯;zh-tw:茱麗葉·道格拉斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古利德;zh-hk:格利特;zh-tw:古利德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:普莱德;zh-hk:派拉特;zh-tw:普萊德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰利姆;zh-hk:塞利姆;zh-tw:傑利姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:朵莉夏;zh-hk:杜麗莎;zh-tw:朵莉夏;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗赛;zh-hk:羅莎;zh-tw:羅賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凯因;zh-hk:阿健;zh-tw:凱因;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:霍恩海姆;zh-hk:賀恩漢;zh-tw:霍恩海姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:洛克贝尔;zh-hk:諾貝爾;zh-tw:洛克貝爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马斯坦古;zh-hk:馬斯丹;zh-tw:馬斯坦古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巴斯古;zh-hk:巴斯克;zh-tw:巴斯古;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:姚麟;zh-hk:姚林;zh-tw:姚麟;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:胡爷爷;zh-hk:付爺爺;zh-tw:胡爺爺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:提姆;zh-hk:添姆;zh-tw:提姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马可;zh-hk:馬爾哥;zh-tw:馬可;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:利克;zh-hk:歷克;zh-tw:利克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雷欧;zh-hk:李奧;zh-tw:雷歐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:帕妮娘;zh-hk:帕尼娜;zh-tw:帕妮孃;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:多明尼克;zh-hk:多米尼克;zh-tw:多明尼克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:柯奈洛;zh-hk:哥尼羅;zh-tw:柯奈洛;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克雷;zh-hk:古利爾;zh-tw:克雷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巴鲁特;zh-hk:巴爾多;zh-tw:巴魯特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塔克;zh-hk:塔卡;zh-tw:塔克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亚历山大;zh-hk:阿歷山大;zh-tw:亞歷山大;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡耶尔;zh-hk:卡也;zh-tw:卡耶爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:荷林;zh-hk:霍林;zh-tw:荷林;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马吉哈鲁;zh-hk:馬茲哈魯（馬茲哈爾）;zh-tw:馬吉哈魯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:可洛洁;zh-hk:格羅冶（古洛芝）;zh-tw:可洛潔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡琳;zh-hk:卡絲琳（卡琳）;zh-tw:卡琳;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蕾琵;zh-hk:蕾比（妮比）;zh-tw:蕾琵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:莱拉;zh-hk:麗娜（拉娜）;zh-tw:萊拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:怪盗赛伦;zh-hk:俠盜塞蓮（怪盜茜鈴）;zh-tw:怪盜賽倫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:库菈菈;zh-hk:古拉娜（古拉拉）;zh-tw:庫菈菈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马古瓦尔;zh-hk:馬格瓦爾;zh-tw:馬古瓦爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:托林卡姆;zh-hk:特林卡姆;zh-tw:托林卡姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:拉瑟尔;zh-hk:拉塞爾;zh-tw:拉瑟爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:弗雷查;zh-hk:弗列查;zh-tw:弗雷查;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:贝尔席欧;zh-hk:巴魯奧（貝爾素／比爾斯奧）;zh-tw:貝爾席歐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:路琼;zh-hk:盧喬（路松）;zh-tw:路瓊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丽比雅;zh-hk:蕾比亞（莉維亞）;zh-tw:麗比雅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马可度加鲁;zh-hk:麥克杜加爾;zh-tw:馬可度加魯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰杜;zh-hk:祖德;zh-tw:傑杜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哈奈特;zh-hk:哈尼特;zh-tw:哈奈特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:史坦纳;zh-hk:蘇泰納;zh-tw:史坦納;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:席鲁巴;zh-hant:席魯巴;zh-hk:銀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:柯鲁多;zh-hk:戈爾特;zh-tw:柯魯多;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蕾贝卡;zh-hk:莉碧嘉;zh-tw:蕾貝卡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡达莉纳;zh-hk:卡塔妮娜;zh-tw:卡達莉納;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:迈尔斯;zh-hk:邁爾茲;zh-tw:邁爾斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:帕卡尼亚;zh-hk:伯嘉尼亞;zh-tw:帕卡尼亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰尔森;zh-hk:傑爾索;zh-tw:傑爾森;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桑巴诺;zh-hk:贊巴洛;zh-tw:桑巴諾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海因凯尔;zh-hk:凱基爾;zh-tw:海因凱爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塔利乌斯;zh-hk:達利奧斯;zh-tw:塔利烏斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:葛蕾希亚;zh-hk:格蕾莎;zh-tw:葛蕾希亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗亚;zh-hk:洛亞;zh-tw:羅亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:多鲁契德;zh-hk:多徹特;zh-tw:多魯契德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马黛儿;zh-hk:瑪蒂;zh-tw:馬黛兒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:诺雅;zh-hk:羅亞;zh-tw:諾雅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:黛琳蒂·;zh-hk:迪蓮蒂·;zh-tw:黛琳蒂·;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奕卡特;zh-hk:奕卡度;zh-tw:奕卡特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:诺克斯;zh-hk:洛克斯;zh-tw:諾克斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:炼;zh-hant:鍊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:钢之炼金术师特别版OVA;zh-hk:鋼之鍊金術師 豪華資料集;zh-tw:鋼之鍊金術師特別版OVA;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:七大人造人;zh-hk:七大霍爾蒙克斯;zh-tw:七大人造人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:真人电影篇;zh-hk:寫實篇;zh-tw:真人電影篇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:孩子篇;zh-hk:兒童篇;zh-tw:孩子篇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:香巴拉;zh-hk:森巴拉;zh-tw:香巴拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:水之都－阿库罗亚;zh-hk:水鄉－亞克洛亞（水都－亞萊亞城）;zh-tw:水之都－阿庫羅亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰诺塔姆;zh-hk:積奴泰姆;zh-tw:傑諾塔姆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奇修亚;zh-hk:奇修阿（基修亞）;zh-tw:奇修亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:化石病;zh-hk:化石病（石化病）;zh-tw:化石病;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:砂砾的大地;zh-hk:砂礫之大地;zh-tw:砂礫的大地;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:血红之水;zh-hk:紅水;zh-tw:血紅之水;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:血红之石;zh-hk:紅石;zh-tw:血紅之石;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亚美斯多利斯;zh-hk:亞美利斯特利斯;zh-tw:亞美斯多利斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊修瓦拉;zh-hk:伊修巴拉;zh-tw:伊修瓦拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:纽奥布丁;zh-hk:新奧普田;zh-tw:紐奧布丁;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:西国;zh-hk:新國;zh-sg:清国;zh-tw:清國;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古雷达;zh-hk:克萊塔;zh-tw:古雷達;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿耶鲁戈;zh-hk:阿爾路哥;zh-tw:阿耶魯戈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:德拉古马;zh-hk:多拉克馬;zh-tw:多蘭庫瑪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克赛鲁克塞斯;zh-hk:克塞爾克塞斯;zh-sg:克塞鲁克塞斯;zh-tw:克塞魯克塞斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:利塞布尔;zh-hk:利正布爾;zh-tw:利塞布爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:里欧尔;zh-hk:利奧爾;zh-tw:里歐爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:雷托教;zh-hk:雷特教;zh-tw:雷托教;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊修瓦尔;zh-hk:伊修巴爾;zh-tw:伊修瓦爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:拉修巴雷;zh-hk:拉修山谷;zh-tw:拉修巴雷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:达普利斯;zh-hk:達布里斯;zh-tw:達普利斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:特普市;zh-hk:桌之城;zh-tw:特普市;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:切碎者;zh-hk:快刀手;zh-tw:切碎者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:剁碎手巴利;zh-hk:巴利屠夫;zh-tw:剁碎手巴利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:利塞布尔的母豹;zh-hk:利正布爾的豹女;zh-tw:利塞布爾的母豹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:冰冻之炼金术师;zh-hk:冰之鍊金術師;zh-tw:冰凍之鍊金術師;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:布里克斯;zh-hk:布里古茲;zh-tw:布利古斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:七宗罪;zh-hk:七宗罪;zh-sg:七大原罪;zh-tw:七大原罪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:衔尾蛇;zh-hk:咬尾蛇;zh-tw:銜尾蛇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:刺青;zh-hk:紋身;zh-tw:刺青;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:强欲;zh-hk:貪婪;zh-tw:強慾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:怠惰;zh-hk:懶惰;zh-tw:怠惰;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:傲慢;zh-hk:驕傲;zh-tw:傲慢;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:暴食;zh-hk:饕餮;zh-tw:暴食;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:色欲;zh-hk:淫欲;zh-tw:色慾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:完全导读手册;zh-hk:PERFECT GUIDE BOOK;zh-tw:完全導讀手冊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:角色导读;zh-hk:CHARACTER GUIDE;zh-tw:角色導讀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:白色花瓣飘舞的山谷;zh-hk:白花飛舞的山谷;zh-tw:白色花瓣飄舞的山谷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:在遥远的青空下;zh-hk:遙遠的天空下;zh-tw:在遙遠的青空下;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:各自的羁绊;zh-hk:各人的羈絆;zh-tw:各自的羈絆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:继承神的少女;zh-hk:繼承神之少女;zh-tw:繼承神的少女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:准将;zh-hk:准將;zh-tw:准將;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:准尉;zh-hk:准尉;zh-tw:准尉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杜利協会;zh-hk:陶利協會;zh-tw:杜利協會;"
+    }
+  ]
+}

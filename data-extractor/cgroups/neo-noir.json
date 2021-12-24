@@ -1,0 +1,439 @@
+{
+  "name": "neo-noir",
+  "description": "新黑色电影",
+  "path": "Module:CGroup/neo-noir",
+  "rules": [
+    {
+      "original": "American Gangster",
+      "conv": "zh:美国黑帮;zh-cn:美国黑帮;zh-tw:美國黑幫;zh-hk:犯罪帝國;"
+    },
+    {
+      "original": "American Psycho",
+      "conv": "zh:美色殺人狂 ;zh-cn:美国精神病人 ;zh-tw:美國殺人魔 ;zh-hk:美色殺人狂 ;zh-sg:美国杀人魔;"
+    },
+    {
+      "original": "Assassination of Richard Nixon",
+      "conv": "zh:刺殺尼克森 ;zh-cn:刺杀尼克松 ;zh-tw:刺殺尼克森 ;zh-hk:刺殺尼克森 ;zh-sg:刺杀尼克森;"
+    },
+    {
+      "original": "Bad Education",
+      "conv": "zh:壞教慾 ;zh-cn:不良教育 ;zh-tw:壞教慾 ;zh-hk:聖·教·慾;"
+    },
+    {
+      "original": "Bad Lieutenant: Port of Call New Orleans",
+      "conv": "zh:壞中尉 ;zh-cn:坏中尉 ;zh-tw:爆裂警官 ;zh-hk:腐敗刑警 ;zh-sg:爆裂警官;"
+    },
+    {
+      "original": "Basic Instinct 2",
+      "conv": "zh:第六感追緝令2 ;zh-cn:本能2 ;zh-tw:第六感追緝令2 ;zh-hk:本能2 ;zh-sg:第六感追緝令2;"
+    },
+    {
+      "original": "Batman Begins",
+      "conv": "zh:蝙蝠俠：開戰時刻 ;zh-cn:蝙蝠侠：侠影之谜 ;zh-tw:蝙蝠俠：開戰時刻 ;zh-hk:蝙蝠俠—俠影之謎 ;zh-sg:蝙蝠侠：开战时刻;"
+    },
+    {
+      "original": "Before the Devil Knows Youre Dead",
+      "conv": "zh:魔鬼知道你死前 ;zh-cn:在魔鬼知道你死前 ;zh-tw:魔鬼知道你死前 ;zh-sg:魔鬼知道你死前;"
+    },
+    {
+      "original": "Beyond a Reasonable Doubt",
+      "conv": "zh:絕命線索 ;zh-cn:高度怀疑 ;zh-tw:絕命線索 ;zh-sg:绝命线索;"
+    },
+    {
+      "original": "The Black Dahlia",
+      "conv": "zh:艷屍案中案 ;zh-cn:黑色大丽花 ;zh-tw:黑色大理花懸案 ;zh-hk:艷屍案中案 ;zh-sg:黑色大理花悬案;"
+    },
+    {
+      "original": "The Bourne Identity",
+      "conv": "zh:神鬼認證 ;zh-cn:谍影重重 ;zh-tw:神鬼認證 ;zh-hk:叛諜追擊 ;zh-sg:神鬼认证;"
+    },
+    {
+      "original": "Caché",
+      "conv": "zh:隱藏攝影機 ;zh-cn:隐藏摄像机 ;zh-tw:隱藏攝影機 ;zh-hk:偷拍 ;zh-sg:隐藏摄影机;"
+    },
+    {
+      "original": "City of God",
+      "conv": "zh:無法無天 ;zh-cn:上帝之城 ;zh-tw:無法無天 ;zh-hk:無主之城;"
+    },
+    {
+      "original": "Collateral",
+      "conv": "zh:落日殺神 ;zh-cn:借刀杀人 ;zh-tw:落日殺神 ;zh-hk:同行殺機 ;zh-sg:落日杀神;"
+    },
+    {
+      "original": "The Consequences of Love",
+      "conv": "zh:愛情的結果 ;zh-cn:爱情的结果 ;zh-tw:愛無忌憚;"
+    },
+    {
+      "original": "The Cooler",
+      "conv": "zh:倒霉蛋 ;zh-cn:倒霉蛋 ;zh-tw:鬼牌逆轉勝 ;zh-hk:厄運急轉彎 ;zh-sg:鬼牌逆转胜 ;"
+    },
+    {
+      "original": "The Dark Knight",
+      "conv": "zh:黑暗騎士 ;zh-cn:蝙蝠侠：黑暗骑士 ;zh-tw:黑暗騎士 ;zh-hk:蝙蝠俠—黑夜之神 ;zh-sg:黑暗骑士;"
+    },
+    {
+      "original": "Deception",
+      "conv": "zh:桃色名單 ;zh-cn:玩叛游戏 ;zh-tw:桃色名單 ;zh-sg:桃色名單;"
+    },
+    {
+      "original": "The Deep End",
+      "conv": "zh:暗夜搖籃曲 ;zh-cn:欲劫迷离 ;zh-tw:暗夜搖籃曲 ;zh-sg:暗夜摇篮曲;"
+    },
+    {
+      "original": "The Departed",
+      "conv": "zh:無間道風雲 ;zh-cn:无间行者 ;zh-tw:神鬼無間 ;zh-hk:無間道風雲 ;zh-sg:神鬼无间;"
+    },
+    {
+      "original": "Derailed",
+      "conv": "zh:玩火 ;zh-cn:越轨追击 ;zh-tw:玩火 ;zh-sg:玩火;"
+    },
+    {
+      "original": "Duplicity",
+      "conv": "zh:口是心非 ;zh-cn:口是心非 ;zh-tw:口是心非 ;zh-hk:最佳情．敵;"
+    },
+    {
+      "original": "Enough",
+      "conv": "zh:追情殺手 ;zh-cn:忍无可忍 ;zh-tw:追情殺手 ;zh-sg:追情杀手;"
+    },
+    {
+      "original": "Femme Fatale",
+      "conv": "zh:雙面驚悚 ;zh-cn:蛇蝎美人 ;zh-tw:雙面驚悚 ;zh-hk:絕色偷天 ;zh-sg:双面惊悚;"
+    },
+    {
+      "original": "Gone Baby Gone",
+      "conv": "zh:失蹤人口 ;zh-cn:失踪宝贝 ;zh-tw:失蹤人口 ;zh-sg:失踪人口;"
+    },
+    {
+      "original": "A History of Violence",
+      "conv": "zh:暴力效應 ;zh-cn:暴力史 ;zh-tw:暴力效應 ;zh-sg:暴力效应;"
+    },
+    {
+      "original": "Hollywoodland",
+      "conv": "zh:銀色殺機 ;zh-cn:好莱坞庄园 ;zh-tw:銀色殺機 ;zh-hk:驚殺荷里活 ;zh-sg:银色杀机;"
+    },
+    {
+      "original": "Hostage",
+      "conv": "zh:終極人質 ;zh-cn:火线对峙 ;zh-tw:終極人質 ;zh-hk:虎膽狙擊 ;zh-sg:终极人质;"
+    },
+    {
+      "original": "In the Cut",
+      "conv": "zh:凶線第六感 ;zh-cn:裸体切割 ;zh-tw:凶線第六感 ;zh-sg:凶线第六感;"
+    },
+    {
+      "original": "Inside Man",
+      "conv": "zh:臥底 ;zh-cn:局内人 ;zh-tw:臥底 ;zh-hk:案內人 ;zh-sg:卧底;"
+    },
+    {
+      "original": "Insomnia",
+      "conv": "zh:白夜追兇 ;zh-cn:失眠症 ;zh-tw:針鋒相對 ;zh-hk:白夜追兇 ;zh-sg:针锋相对;"
+    },
+    {
+      "original": "Just Another Love Story",
+      "conv": "zh:另一個愛情故事 ;zh-cn:再次上演的爱情故事 ;zh-tw:另一個愛情故事 ;zh-sg:另一个爱情故事;"
+    },
+    {
+      "original": "Kill Bill: Volume 1",
+      "conv": "zh:追殺比爾 ;zh-cn:杀死比尔 ;zh-tw:追殺比爾 ;zh-hk:標殺令 ;zh-sg:追杀比尔;"
+    },
+    {
+      "original": "Kill Bill: Volume 2",
+      "conv": "zh:追殺比爾2：愛的大逃殺 ;zh-cn:杀死比尔2 ;zh-tw:追殺比爾2：愛的大逃殺 ;zh-hk:標殺令2 ;zh-sg:追杀比尔2;"
+    },
+    {
+      "original": "Kiss Kiss Bang Bang",
+      "conv": "zh:吻兩下打兩槍 ;zh-cn:小贼·美女·妙探 ;zh-tw:吻兩下打兩槍 ;zh-hk:冒牌神探撞親愛 ;zh-sg:吻两下打两枪;"
+    },
+    {
+      "original": "Klopka",
+      "conv": "zh:完美设陷 ;zh-cn:完美设陷 ;zh-tw:搶救紐曼亞 ;zh-hk:搶救紐曼亞;"
+    },
+    {
+      "original": "Layer Cake",
+      "conv": "zh:雙面任務 ;zh-cn:夹心蛋糕 ;zh-tw:雙面任務 ;zh-hk:雙面任務 ;zh-sg:双面任务;"
+    },
+    {
+      "original": "Lucky Number Slevin",
+      "conv": "zh:幸運數字斯萊文 ;zh-cn:幸运数字斯莱文 ;zh-tw:關鍵密碼 ;zh-hk:七殺令 ;zh-sg:关键密码;"
+    },
+    {
+      "original": "The Machinist",
+      "conv": "zh:克里斯汀貝爾之黑暗時刻 ;zh-cn:机械师 ;zh-tw:克里斯汀貝爾之黑暗時刻 ;zh-hk:迷魂殺陣;"
+    },
+    {
+      "original": "The Man Who Wasnt There",
+      "conv": "zh:缺席的男人 ;zh-cn:缺席的人 ;zh-tw:缺席的男人 ;zh-hk:綠帽離奇勒索 ;zh-sg:缺席的男人;"
+    },
+    {
+      "original": "The Manchurian Candidate",
+      "conv": "zh:戰略迷魂 ;zh-cn:谍网迷魂 ;zh-tw:戰略迷魂 ;zh-hk:洗腦密令 ;zh-sg:战略迷魂;"
+    },
+    {
+      "original": "Max Payne",
+      "conv": "zh:魔間煞星 ;zh-cn:马克思·佩恩 ;zh-tw:麥斯·潘恩 ;zh-hk:魔間煞星 ;zh-sg:麦斯·潘恩;"
+    },
+    {
+      "original": "Memento",
+      "conv": "zh:凶心人 ;zh-cn:记忆碎片 ;zh-tw:記憶拼圖 ;zh-hk:凶心人 ;zh-sg:失忆症;"
+    },
+    {
+      "original": "Merci pour le chocolat",
+      "conv": "zh:謝謝你的巧克力 ;zh-cn:亡情巧克力 ;zh-tw:謝謝你的巧克力 ;zh-hk:亡情朱古力;"
+    },
+    {
+      "original": "Miami Vice",
+      "conv": "zh:邁阿密風暴 ;zh-cn:迈阿密风云 ;zh-tw:邁阿密風雲 ;zh-hk:邁阿密風暴;"
+    },
+    {
+      "original": "Million Dollar Baby",
+      "conv": "zh:登峰造擊 ;zh-cn:百万美元宝贝 ;zh-tw:登峰造擊 ;zh-hk:擊情;"
+    },
+    {
+      "original": "Minority Report",
+      "conv": "zh:少數派報告 ;zh-cn:少数派报告 ;zh-tw:關鍵報告 ;zh-hk:未來報告 ;zh-sg:关键报告;"
+    },
+    {
+      "original": "Mulholland Drive",
+      "conv": "zh:穆荷蘭大道 ;zh-cn:穆赫兰大道 ;zh-tw:穆荷蘭大道 ;zh-hk:失憶大道 ;zh-sg:穆荷兰大道;"
+    },
+    {
+      "original": "Mystic River",
+      "conv": "zh:神秘河流 ;zh-cn:神秘河流 ;zh-tw:神秘河流 ;zh-hk:懸河殺機;"
+    },
+    {
+      "original": "No Country For Old Men",
+      "conv": "zh:險路勿近 ;zh-cn:老无所依 ;zh-tw:險路勿近 ;zh-hk:二百萬奪命奇案 ;zh-sg:险路勿近;"
+    },
+    {
+      "original": "Oldboy",
+      "conv": "zh:原罪犯 ;zh-cn:老男孩 ;zh-tw:原罪犯 ;zh-hk:原罪犯;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "Alois Nebel",
+      "conv": "zh:霧里的鐵道員 ;zh-cn:捷克列车员 ;zh-tw:卡夫卡列車 ;zh-hk:霧里的鐵道員;zh-mo:霧里的鐵道員;"
+    },
+    {
+      "original": "Cold in July",
+      "conv": "zh:七月寒潮 ;zh-cn:七月寒潮 ;zh-tw:七月寒潮 ;zh-hk:七月寒戰;"
+    },
+    {
+      "original": "The Dark Knight Rises",
+      "conv": "zh:黑暗騎士：黎明昇起 ;zh-cn:蝙蝠侠：黑暗骑士崛起 ;zh-tw:黑暗騎士：黎明昇起 ;zh-hk:蝙蝠俠：夜神起義 ;zh-sg:黑暗骑士：黎明昇起;"
+    },
+    {
+      "original": "Drive",
+      "conv": "zh:亡命驾驶 ;zh-cn:亡命驾驶 ;zh-tw:落日車神 ;zh-hk:極速罪駕 ;zh-sg:落日车神;"
+    },
+    {
+      "original": "Dragged Across Concrete",
+      "conv": "zh:逃出水泥地 ;zh-cn:逃出水泥地 ;zh-tw:高壓制裁 ;zh-hk:逃出水泥地;"
+    },
+    {
+      "original": "Inception",
+      "conv": "zh:盗梦空间 ;zh-cn:盗梦空间 ;zh-tw:全面啟動 ;zh-hk:潛行凶間 ;zh-sg:全面启动;"
+    },
+    {
+      "original": "John Wick",
+      "conv": "zh:疾速追杀 ;zh-cn:疾速追杀 ;zh-tw:捍衛任務 ;zh-hk:殺神John Wick ;zh-sg:扞卫任务;"
+    },
+    {
+      "original": "John Wick: Chapter 2",
+      "conv": "zh:疾速特攻 ;zh-cn:疾速特攻 ;zh-tw:捍衛任務2：殺神回歸 ;zh-hk:殺神John Wick 2 ;zh-sg:扞卫任务2：杀神回归;"
+    },
+    {
+      "original": "The Killer Inside Me",
+      "conv": "zh:魔由心生 ;zh-cn:心中的杀手 ;zh-tw:魔由心生 ;zh-sg:魔由心生;"
+    },
+    {
+      "original": "Looper",
+      "conv": "zh:环形使者 ;zh-cn:环形使者 ;zh-tw:迴路殺手 ;zh-hk:時凶獵殺 ;zh-sg:回路杀手;"
+    },
+    {
+      "original": "Lost River",
+      "conv": "zh:迷河 ;zh-cn:迷河 ;zh-tw:遺落流域 ;zh-hk:謎河 ;zh-sg:遗落流域;"
+    },
+    {
+      "original": "Mute",
+      "conv": "zh:缄默 ;zh-cn:缄默 ;zh-tw:默 ;zh-sg:默;"
+    },
+    {
+      "original": "The Nice Guys",
+      "conv": "zh:耐撕侦探 ;zh-cn:耐撕侦探 ;zh-tw:假會徵信社 ;zh-hk:黐筋雙响炮 ;zh-sg:假会徵信社;"
+    },
+    {
+      "original": "Nightcrawler",
+      "conv": "zh:獨家腥聞 ;zh-cn:夜行者 ;zh-tw:獨家腥聞 ;zh-hk:頭條殺機 ;zh-sg:独家腥闻;"
+    },
+    {
+      "original": "Nocturnal Animals",
+      "conv": "zh:夜行動物 ;zh-cn:夜行动物 ;zh-tw:夜行動物 ;zh-hk:迷離字戀;"
+    },
+    {
+      "original": "Only God Forgives",
+      "conv": "zh:罪無可赦 ;zh-cn:唯神能恕 ;zh-tw:罪無可赦 ;zh-hk:罪無可赦 ;zh-sg:罪无可赦;"
+    },
+    {
+      "original": "The Place Beyond the Pines",
+      "conv": "zh:松林外 ;zh-cn:松林外 ;zh-tw:末路車神 ;zh-sg:末路车神;"
+    },
+    {
+      "original": "Pocket Listing",
+      "conv": "zh:口袋清单 ;zh-cn:口袋清单 ;zh-tw:緝殺房仲業 ;zh-sg:缉杀房仲业;"
+    },
+    {
+      "original": "Shutter Island",
+      "conv": "zh:禁闭岛 ;zh-cn:禁闭岛 ;zh-tw:隔離島 ;zh-hk:不赦島;"
+    },
+    {
+      "original": "Spring Breakers",
+      "conv": "zh:春假 ;zh-cn:春假 ;zh-tw:放浪青春 ;zh-hk:狂野青春 ;zh-sg:放浪青春;"
+    },
+    {
+      "original": "Trance",
+      "conv": "zh:迷幻 ;zh-cn:迷幻 ;zh-tw:索命記憶 ;zh-hk:催眠潛凶 zh-sg:索命记忆;"
+    },
+    {
+      "original": "Wind River",
+      "conv": "zh:極地追擊 ;zh-cn:猎凶风河谷 ;zh-tw:極地追擊 ;zh-hk:風河谷謀殺案 ;zh-sg:极地追击;"
+    },
+    {
+      "original": "Broken City",
+      "conv": "zh:驚爆危城 ;zh-cn:破碎之城 ;zh-tw:驚爆危城 ;zh-sg:惊爆危城;"
+    },
+    {
+      "original": "A Walk Among the Tombstones",
+      "conv": "zh:鐵血神探 ;zh-cn:行过死荫之地 ;zh-tw:鐵血神探 ;zh-hk:亡命救參 ;zh-sg:铁血神探;"
+    },
+    {
+      "original": "Serenity",
+      "conv": "zh:惊涛迷局 ;zh-cn:惊涛迷局 ;zh-tw:驚濤佈局 ;zh-sg:惊涛布局;"
+    },
+    {
+      "original": "Brawl in Cell Block 99",
+      "conv": "zh:困斗99号囚室 ;zh-cn:困斗99号囚室 ;zh-tw:99號牢房的賽局 ;zh-sg:99号牢房的赛局;"
+    },
+    {
+      "original": "Magical Girl",
+      "conv": "zh:通往黑暗的瞬間 ;zh-cn:神奇女孩 ;zh-tw:通往黑暗的瞬間 ;zh-hk:通往黑暗的瞬間;"
+    },
+    {
+      "original": "Widows",
+      "conv": "zh:寡婦 ;zh-cn:寡妇聯盟 ;zh-tw:寡婦 ;zh-hk:剋·寡婦 ;zh-sg:寡妇;"
+    },
+    {
+      "original": "Destroyer",
+      "conv": "zh:摧毀者 ;zh-cn:无间炼狱 ;zh-tw:毀滅者 ;zh-hk:無間煉獄 ;zh-sg:毁灭者;"
+    },
+    {
+      "original": "Under the Silver Lake",
+      "conv": "zh:银湖之底 ;zh-cn:银湖之底 ;zh-tw:解碼遊戲 ;zh-hk:銀湖之底 ;zh-sg:解码游戏;"
+    },
+    {
+      "original": "Motherless Brooklyn",
+      "conv": "zh:布鲁克林孤儿 ;zh-cn:布鲁克林秘案 ;zh-tw:布魯克林孤兒 ;zh-hk:無母之城 ;zh-sg:布鲁克林孤儿;"
+    },
+    {
+      "original": "The Ghost Writer",
+      "conv": "zh:獵殺幽靈寫手 ;zh-cn:影子写手 ;zh-tw:獵殺幽靈寫手 ;zh-hk:影子滅殺令 ;zh-sg:猎杀幽灵写手;"
+    },
+    {
+      "original": "Last Moment of Clarity",
+      "conv": "zh:雙面遊戲 ;zh-cn:最后的清晰时刻 ;zh-tw:雙面遊戲;"
+    },
+    {
+      "original": "The Little Things",
+      "conv": "zh:細物警探 ;zh-cn:蛛丝马迹 ;zh-tw:細物警探 ;zh-hk:蛛屍馬跡 ;zh-sg:细物警探;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文片名;zh-cn:中国片名;zh-tw:臺灣片名;zh-hk:香港片名;zh-sg:新加坡片名;"
+    }
+  ]
+}

@@ -1,0 +1,1071 @@
+{
+  "name": "UK Places",
+  "description": "英國地名",
+  "path": "Module:CGroup/UK Places",
+  "rules": [
+    {
+      "original": "Abbey Road",
+      "conv": "zh-hans:阿比路;zh-hant:艾比路;"
+    },
+    {
+      "original": "Aberdeen",
+      "conv": "zh-cn:阿伯丁;zh-hk:鴨巴甸;zh-tw:亞伯丁;"
+    },
+    {
+      "original": "Alnwick",
+      "conv": "zh-cn:阿因维克;zh-hk:安域;zh-tw:阿因維克;"
+    },
+    {
+      "original": "Argyll/Argyle",
+      "conv": "zh-hans:阿盖尔;zh-hk:亞皆老;zh-tw:阿蓋爾;"
+    },
+    {
+      "original": "Arran",
+      "conv": "zh-hans:阿倫;zh-hant:阿倫;zh-hk:鴉蘭;"
+    },
+    {
+      "original": "Avon",
+      "conv": "zh-hans:埃文;zh-hant:雅芳;"
+    },
+    {
+      "original": "Baker Street",
+      "conv": "zh:貝克街;zh-hk:必嘉街;"
+    },
+    {
+      "original": "Barking",
+      "conv": "zh-hant:巴金;zh-hans:巴金;zh-cn:柏京;"
+    },
+    {
+      "original": "Barnet",
+      "conv": "zh-hans:巴尼特;zh-hant:巴內特;zh-hk:班列特;"
+    },
+    {
+      "original": "Balmoral",
+      "conv": "zh-cn:巴尔莫勒尔;zh-hant:巴爾莫勒爾;zh-tw:巴摩拉;zh-hk:巴摩盧;"
+    },
+    {
+      "original": "Basildon",
+      "conv": "zh-cn:巴西尔登;zh-hant:巴西爾登;zh-tw:巴休敦;zh-hk:巴兆敦;"
+    },
+    {
+      "original": "Bath",
+      "conv": "zh-cn:巴斯;zh-tw:巴斯;zh-hk:巴芙;"
+    },
+    {
+      "original": "Beaconsfield",
+      "conv": "zh-hans:比肯斯菲尔德;zh-hant:比更士菲;"
+    },
+    {
+      "original": "Becontree",
+      "conv": "zh-hans:贝肯翠;zh-tw:貝肯翠;zh-hk:碧勤翠;"
+    },
+    {
+      "original": "Bedford",
+      "conv": "zh-cn:贝德福德;zh-tw:貝德福;zh-hk:百福;"
+    },
+    {
+      "original": "Berwick",
+      "conv": "zh-cn:伯立克;zh-hk:巴域;zh-tw:伯立克;"
+    },
+    {
+      "original": "Bethnal Green",
+      "conv": "zh-cn:贝夫诺格林;zh-hk:貝夫農綠地;zh-tw:貝思納爾綠地;zh-hant:貝夫諾格林;"
+    },
+    {
+      "original": "Big Ben",
+      "conv": "zh-cn:大本钟;zh-tw:大笨鐘;zh-hk:大笨鐘;zh-sg:大笨钟;"
+    },
+    {
+      "original": "Birmingham",
+      "conv": "zh-cn:伯明翰;zh-hk:伯明翰;zh-tw:伯明罕;"
+    },
+    {
+      "original": "Blenheim",
+      "conv": "zh-cn:布伦海姆;zh-tw:布倫亨;zh-hk:白蘭軒;"
+    },
+    {
+      "original": "Blenheim",
+      "conv": "布伦汉姆=>zh-cn:布伦海姆;布伦汉姆=>zh-my:布伦海姆;布伦汉姆=>zh-sg:布伦海姆;布伦汉姆=>zh-tw:布倫亨;布伦汉姆=>zh-hk:白蘭軒;布伦汉姆=>zh-mo:白蘭軒;"
+    },
+    {
+      "original": "Blenheim",
+      "conv": "布倫海姆=>zh-tw:布倫亨;布倫海姆=>zh-hk:白蘭軒;布倫海姆=>zh-mo:白蘭軒;"
+    },
+    {
+      "original": "Blackburn",
+      "conv": "zh-cn:布莱克本;zh-hk:布力般;zh-tw:布拉克本;"
+    },
+    {
+      "original": "Blackburn with Darwen",
+      "conv": "zh-cn:布莱克本-達文;zh-hk:布力般及達溫;zh-tw:布拉克本-達文;zh-hant:布力般-達溫;"
+    },
+    {
+      "original": "Blackheath",
+      "conv": "zh-cn:布莱克希斯;zh-tw:布萊克希斯;zh-hk:布力希斯;zh-hant:布勒希斯;"
+    },
+    {
+      "original": "Blackpool",
+      "conv": "zh-cn:布莱克浦;zh-hk:黑池;zh-tw:黑潭;"
+    },
+    {
+      "original": "Bloomsbury",
+      "conv": "zh-cn:布卢姆茨伯里;zh-tw:布魯姆斯伯里;zh-hk:布林斯貝利;zh-hant:布盧姆茨伯里;"
+    },
+    {
+      "original": "Bolton",
+      "conv": "zh-cn:博尔顿;zh-hk:保頓;zh-tw:博爾頓;"
+    },
+    {
+      "original": "Bournemouth",
+      "conv": "zh-cn:伯恩茅斯;zh-hk:般尼茅夫;zh-tw:伯恩茅斯;"
+    },
+    {
+      "original": "Bradford",
+      "conv": "zh-cn:布拉德福德;zh-hk:巴拉福特;zh-tw:布拉福;"
+    },
+    {
+      "original": "Braintree",
+      "conv": "zh-tw:布雷恩垂;zh-hant:布倫特里;zh-hans:布伦特里;"
+    },
+    {
+      "original": "Brighton",
+      "conv": "zh-cn:布赖顿;zh-hk:白禮頓;zh-tw:布萊頓;"
+    },
+    {
+      "original": "Brighton and Hove",
+      "conv": "zh-cn:布赖顿-霍夫;zh-hk:白禮頓及荷甫;zh-tw:布萊頓-霍夫;"
+    },
+    {
+      "original": "Bristol",
+      "conv": "zh-hans:布里斯托尔;zh-hant:布里斯托;zh-hk:碧仙桃"
+    },
+    {
+      "original": "Bristol",
+      "conv": "碧仙桃=>zh-cn:布里斯托尔;碧仙桃=>zh-my:布里斯托尔;碧仙桃=>zh-sg:布里斯托尔;碧仙桃=>zh-hk:碧仙桃=>zh-mo:碧仙桃=>zh-tw:布里斯托;"
+    },
+    {
+      "original": "Bristol Road",
+      "conv": "zh-hans:碧仙桃路;zh-hant:碧仙桃路;"
+    },
+    {
+      "original": "Bromley",
+      "conv": "zh-hant:布羅姆利;zh-hk:布羅姆利;zh-hans:布罗姆利;zh-tw:布倫來;"
+    },
+    {
+      "original": "Burnley",
+      "conv": "zh-cn:伯恩利;zh-hk:般尼;zh-tw:班來;"
+    },
+    {
+      "original": "Bute",
+      "conv": "zh-cn:比特;zh-hk:弼;zh-tw:比特;"
+    },
+    {
+      "original": "Caernarfon/Carnarvon",
+      "conv": "zh-cn:卡纳温;zh-my:卡纳温;zh-sg:卡纳温;zh-hk:加拿分;zh-mo:加拿分;zh-tw:卡納芬;"
+    },
+    {
+      "original": "Caernarfon/Carnarvon",
+      "conv": "卡納溫=>zh-hk:加拿分;卡納溫=>zh-mo:加拿分;卡納溫=>zh-tw:卡納芬;"
+    },
+    {
+      "original": "Caernarfon/Carnarvon",
+      "conv": "卡那封=>zh-cn:卡纳温;卡那封=>zh-my:卡纳温;卡那封=>zh-sg:卡纳温;卡那封=>zh-hk:加拿分;卡那封=>zh-mo:加拿分;卡那封=>zh-tw:卡納芬;"
+    },
+    {
+      "original": "Caernarfon/Carnarvon",
+      "conv": "加拿芬=>zh-cn:卡纳温;加拿芬=>zh-my:卡纳温;加拿芬=>zh-sg:卡纳温;加拿芬=>zh-hk:加拿分;加拿芬=>zh-mo:加拿分;加拿芬=>zh-tw:卡納芬;"
+    },
+    {
+      "original": "Caernarfon/Carnarvon",
+      "conv": "卡納豐=>zh-cn:卡纳温;卡納豐=>zh-my:卡纳温;卡納豐=>zh-sg:卡纳温;卡納豐=>zh-hk:加拿分;卡納豐=>zh-mo:加拿分;卡納豐=>zh-tw:卡納芬;"
+    },
+    {
+      "original": "Caernarfon/Carnarvon",
+      "conv": "卡纳丰=>zh-cn:卡纳温;卡纳丰=>zh-my:卡纳温;卡纳丰=>zh-sg:卡纳温;卡纳丰=>zh-hk:加拿分;卡纳丰=>zh-mo:加拿分;卡纳丰=>zh-tw:卡納芬;"
+    },
+    {
+      "original": "Camberwell",
+      "conv": "zh-cn:坎伯韦尔;zh-hk:堅伯威;zh-tw:坎伯韋爾;"
+    },
+    {
+      "original": "Camden",
+      "conv": "zh-cn:卡姆登;zh-hk:劍頓;zh-tw:康登;"
+    },
+    {
+      "original": "Cannon",
+      "conv": "zh-cn:坎农;zh-hk:景隆;zh-tw:坎農;"
+    },
+    {
+      "original": "Canterbury",
+      "conv": "zh-cn:坎特伯雷;zh-hk:坎特伯雷;zh-tw:坎特伯里;"
+    },
+    {
+      "original": "Cardiff",
+      "conv": "zh-cn:加的夫;zh-hk:卡迪夫;zh-tw:卡地夫;zh-hant:加地夫;"
+    },
+    {
+      "original": "Cheltenham",
+      "conv": "zh-cn:切尔滕纳姆;zh-hk:車特咸;zh-tw:卓特咸;zh-hant:切爾滕納姆;"
+    },
+    {
+      "original": "Chelsea",
+      "conv": "zh-cn:切尔西;zh-hk:車路士;zh-tw:切爾西;"
+    },
+    {
+      "original": "Cheshire",
+      "conv": "zh-cn:柴郡;zh-hk:車士打郡;zh-tw:柴郡;"
+    },
+    {
+      "original": "Chester",
+      "conv": "zh-cn:切斯特;zh-hk:車士打;zh-tw:切斯特;"
+    },
+    {
+      "original": "Chesterfield",
+      "conv": "zh-cn:切斯特菲尔德;zh-hant:切斯特菲爾德;zh-hk:車士打菲特;zh-tw:赤斯特非;"
+    },
+    {
+      "original": "Chichester",
+      "conv": "zh-cn:奇切斯特;zh-hk:席車士打;zh-tw:奇徹斯特;"
+    },
+    {
+      "original": "Chippenham",
+      "conv": "zh-cn:奇彭纳姆;zh-hk:切柏咸;zh-tw:奇彭納姆;"
+    },
+    {
+      "original": "Chiswick",
+      "conv": "zh-cn:奇司威克;zh-hk:茲錫;zh-tw:奇西克;"
+    },
+    {
+      "original": "Clapham",
+      "conv": "zh-cn:克拉珀姆;zh-hk:嘉立咸;zh-tw:克拉珀姆;"
+    },
+    {
+      "original": "Coventry",
+      "conv": "zh-cn:考文垂;zh-hk:高雲地利;zh-tw:科芬特里;"
+    },
+    {
+      "original": "Colchester",
+      "conv": "zh-hk:高車士打;zh-cn:科尔切斯特;zh-hans:科尔切斯特;zh-hant:科爾切斯特;zh-mo:高車士打;zh-tw:科赤斯特;"
+    },
+    {
+      "original": "Cornhill",
+      "conv": "zh-cn:康希尔;zh-hk:康山;zh-tw:康希爾;"
+    },
+    {
+      "original": "Cornwall",
+      "conv": "zh-hant:康沃爾;zh-cn:康沃尔;zh-hk:康和;zh-tw:康瓦爾;"
+    },
+    {
+      "original": "Croydon",
+      "conv": "zh-cn:克罗伊登;zh-hk:歌來頓;zh-tw:克羅伊登;"
+    },
+    {
+      "original": "Cumberland",
+      "conv": "zh-cn:坎伯兰;zh-hk:金巴倫;zh-tw:坎伯蘭;"
+    },
+    {
+      "original": "Cumbria",
+      "conv": "zh-hant:坎布里亞;zh-hans:坎布里亚;zh-hk:金巴倫;zh-mo:金巴倫;"
+    },
+    {
+      "original": "Dagenham",
+      "conv": "zh-hant:達格納姆;zh-hans:达格纳姆;zh-tw:達根罕;zh-hk:杜根咸;"
+    },
+    {
+      "original": "Derby",
+      "conv": "zh-cn:德比;zh-hk:打比;zh-tw:德貝;"
+    },
+    {
+      "original": "Derwent",
+      "conv": "zh-cn:德文特;zh-hk:德文特;zh-tw:德文特;"
+    },
+    {
+      "original": "Devon",
+      "conv": "zh-cn:德文;zh-hk:德雲;zh-tw:德文;"
+    },
+    {
+      "original": "Dorset",
+      "conv": "zh-cn:多塞特;zh-hk:多實;zh-tw:多塞特;"
+    },
+    {
+      "original": "Doncaster",
+      "conv": "zh-cn:唐卡斯特;zh-hk:唐卡士打;zh-tw:唐卡斯特;"
+    },
+    {
+      "original": "Dumbarton",
+      "conv": "zh-cn:邓巴顿;zh-tw:敦巴頓;zh-hk:東寶庭;"
+    },
+    {
+      "original": "Dunbar",
+      "conv": "zh-cn:邓巴;zh-tw:鄧巴;zh-hk:登巴;"
+    },
+    {
+      "original": "Dundee",
+      "conv": "zh-cn:邓迪;zh-hk:登地;zh-tw:丹地;zh-hant:鄧迪;"
+    },
+    {
+      "original": "Durham",
+      "conv": "zh-cn:达勒姆;zh-hk:對衡;zh-tw:達拉謨;zh-hant:達勒姆;"
+    },
+    {
+      "original": "Durham",
+      "conv": "杜倫=>zh-cn:达勒姆;杜倫=>zh-my:达勒姆;杜倫=>zh-sg:达勒姆;杜倫=>zh-tw:達拉謨;杜倫=>zh-hk:對衡;"
+    },
+    {
+      "original": "Ealing",
+      "conv": "zh-hant:伊靈;zh-hans:伊灵;zh-hk:伊靈;zh-mo:伊靈;zh-tw:伊令;"
+    },
+    {
+      "original": "East Ham",
+      "conv": "zh-hant:東漢姆;zh-hans:东汉姆;zh-hk:東咸;"
+    },
+    {
+      "original": "Eltham",
+      "conv": "zh-cn:埃尔特姆;zh-tw:埃爾特姆;zh-hk:愛特咸;"
+    },
+    {
+      "original": "Enfield",
+      "conv": "zh-hans:恩菲尔德;zh-tw:恩菲特;zh-hk:恩菲路;zh-hant:恩菲爾德;"
+    },
+    {
+      "original": "Essex",
+      "conv": "zh-cn:埃塞克斯;zh-tw:艾塞克斯;zh-hk:雅息士;"
+    },
+    {
+      "original": "Exeter",
+      "conv": "zh-cn:埃克塞特;zh-tw:艾希特;zh-hk:雅息特;"
+    },
+    {
+      "original": "Exeter",
+      "conv": "艾克希特=>zh-cn:埃克塞特;艾克希特=>zh-my:埃克塞特;艾克希特=>zh-sg:埃克塞特;艾克希特=>zh-hk:雅息特;艾克希特=>zh-mo:雅息特;"
+    },
+    {
+      "original": "Farnborough",
+      "conv": "zh-cn:法恩伯勒;zh-tw:法恩堡;"
+    },
+    {
+      "original": "Feltham",
+      "conv": "zh-cn:费尔特姆;zh-tw:費爾特姆;zh-hk:費特咸;"
+    },
+    {
+      "original": "Flint",
+      "conv": "zh-cn:弗林特;zh-tw:弗林特;zh-hk:扶蓮;"
+    },
+    {
+      "original": "Fife",
+      "conv": "zh-cn:法夫;zh-hk:快富;zh-tw:法夫;"
+    },
+    {
+      "original": "Finsbury",
+      "conv": "zh-cn:芬斯伯雷;zh-hk:芬士巴利;zh-tw:芬斯伯里;"
+    },
+    {
+      "original": "Forfar",
+      "conv": "zh-cn:福弗尔;zh-hk:科發;zh-tw:福弗爾;"
+    },
+    {
+      "original": "Fulham",
+      "conv": "zh-tw:富勒姆;zh-cn:富勒姆;zh-hk:富咸;"
+    },
+    {
+      "original": "Gateshead",
+      "conv": "zh-cn:盖茨黑德;zh-hk:格士黑德;zh-tw:蓋茨黑德;"
+    },
+    {
+      "original": "Gatwick",
+      "conv": "zh:蓋特威克;zh-cn:盖特威克;zh-tw:蓋威克;zh-hk:格域;"
+    },
+    {
+      "original": "Gloucester",
+      "conv": "zh-cn:格洛斯特;zh-hk:告羅士打;zh-tw:格洛斯特;"
+    },
+    {
+      "original": "Gloucester",
+      "conv": "告士打=>zh-cn:格洛斯特;告士打=>zh-my:格洛斯特;告士打=>zh-sg:格洛斯特;告士打=>zh-tw:格洛斯特;告士打=>zh-hk:告士打;"
+    },
+    {
+      "original": "Guildford",
+      "conv": "zh-cn:吉尔福德;zh-hk:僑福;zh-tw:基爾福;zh-hant:吉爾福德;"
+    },
+    {
+      "original": "Grampian",
+      "conv": "zh-cn:格兰扁;zh-hk:嘉林邊;zh-tw:格蘭扁;"
+    },
+    {
+      "original": "Greenwich",
+      "conv": "zh-hans:格林尼治;zh-hant:格林威治;"
+    },
+    {
+      "original": "Gwynedd",
+      "conv": "zh-cn:格温内斯;zh-tw:格溫內斯;zh-hk:圭內斯;"
+    },
+    {
+      "original": "Hamilton",
+      "conv": "zh-cn:汉密尔顿;zh-tw:漢密爾頓;zh-hk:咸美頓;"
+    },
+    {
+      "original": "Hamilton",
+      "conv": "zh-cn:哈密尔顿;zh-hk:咸美頓;zh-tw:漢彌爾頓;"
+    },
+    {
+      "original": "Hammersmith",
+      "conv": "zh-cn:哈默史密斯;zh-hk:咸默史密夫;zh-tw:漢默史密斯;"
+    },
+    {
+      "original": "Hampshire",
+      "conv": "zh-cn:汉普;zh-hk:衡州;zh-tw:漢普;"
+    },
+    {
+      "original": "Hampshire",
+      "conv": "汉普夏=>zh-hk:衡州;汉普夏=>zh-mo:衡州;"
+    },
+    {
+      "original": "Hampshire",
+      "conv": "漢普夏=>zh-hk:衡州;漢普夏=>zh-mo:衡州;"
+    },
+    {
+      "original": "Hampshire",
+      "conv": "罕布夏=>zh-cn:汉普;罕布夏=>zh-my:汉普;罕布夏=>zh-sg:汉普;罕布夏=>zh-tw:漢普;罕布夏=>zh-hk:衡州;罕布夏=>zh-mo:衡州;"
+    },
+    {
+      "original": "Haringey",
+      "conv": "zh-cn:哈林盖;zh-tw:哈林蓋;zh-hk:夏靈基;"
+    },
+    {
+      "original": "Harlech",
+      "conv": "zh-cn:哈萊克;zh-tw:哈萊克;zh-hk:夏力;"
+    },
+    {
+      "original": "Harrow",
+      "conv": "zh-hant:哈羅;zh-hans:哈罗;zh-tw:哈洛;zh-cn:哈罗;zh-hk:哈羅;"
+    },
+    {
+      "original": "Heathrow",
+      "conv": "zh-hans:希思罗;zh-hant:希思羅;zh-hk:希斯路;zh-mo:希斯路;zh-tw:希斯洛;"
+    },
+    {
+      "original": "Hereford",
+      "conv": "zh-cn:赫里福德;zh-tw:赫里福德;zh-hk:禧福;"
+    },
+    {
+      "original": "Hertford",
+      "conv": "zh-cn:赫特福德;zh-tw:赫特福德;zh-hk:赫福;"
+    },
+    {
+      "original": "Hove",
+      "conv": "zh-cn:霍夫;zh-hk:荷甫;zh-tw:霍夫;"
+    },
+    {
+      "original": "Hounslow",
+      "conv": "zh-hk:豪士羅;zh-hans:豪恩斯洛;zh-hant:豪恩斯洛;"
+    },
+    {
+      "original": "Huddersfield",
+      "conv": "zh-cn:哈德斯菲尔德;zh-hk:哈德斯菲爾德;zh-tw:哈特斯菲;"
+    },
+    {
+      "original": "Hull",
+      "conv": "zh-hk:侯河;zh-tw:赫爾河;zh-cn:赫尔河;"
+    },
+    {
+      "original": "Inverness",
+      "conv": "zh-cn:因弗内斯;zh-tw:印威內斯;zh-hk:延文禮士;"
+    },
+    {
+      "original": "Ipswich",
+      "conv": "zh-hant:伊普斯維奇;zh-cn:伊普斯维奇;zh-hk:葉士域治;zh-tw:伊普斯威奇;"
+    },
+    {
+      "original": "Islington",
+      "conv": "zh-hk:伊斯靈頓;zh-hans:伊斯灵顿;zh-tw:伊斯林頓;"
+    },
+    {
+      "original": "Jula Island",
+      "conv": "zh-cn:朱拉岛;zh-tw:侏羅島;"
+    },
+    {
+      "original": "Kent",
+      "conv": "zh-cn:肯特;zh-hk:根德;zh-tw:肯特;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "zh-cn:金斯顿;zh-hk:京士頓;zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "金斯顿=>zh-cn:金斯顿;金斯顿=>zh-hk:京士頓;金斯顿=>zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "金斯頓=>zh-cn:金斯顿;金斯頓=>zh-hk:京士頓;金斯頓=>zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "京士顿=>zh-cn:金斯顿;京士顿=>zh-hk:京士頓;京士顿=>zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "京士頓=>zh-cn:金斯顿;京士頓=>zh-hk:京士頓;京士頓=>zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "京斯顿=>zh-cn:金斯顿;京斯顿=>zh-hk:京士頓;京斯顿=>zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "京斯頓=>zh-cn:金斯顿;京斯頓=>zh-hk:京士頓;京斯頓=>zh-tw:京斯頓;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "zh-cn:赫尔河畔金斯敦;zh-hk:侯城;zh-tw:赫爾河畔京斯敦;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "赫尔河畔金斯顿=>zh-hk:侯城;赫尔河畔金斯顿=>zh-mo:侯城;赫尔河畔金斯顿=>zh-tw:京斯敦;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "赫爾河畔金斯頓=>zh-hk:侯城;赫爾河畔金斯頓=>zh-mo:侯城;赫爾河畔金斯頓=>zh-tw:赫爾河畔京斯敦;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "赫尔河畔京斯顿=>zh-hk:侯城;赫尔河畔京斯顿=>zh-mo:侯城;赫尔河畔京斯顿=>zh-cn:赫尔河畔金斯敦;赫尔河畔京斯顿=>zh-my:赫尔河畔金斯敦;赫尔河畔京斯顿=>zh-sg:赫尔河畔金斯敦;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "赫爾河畔京斯頓=>zh-hk:侯城;赫爾河畔京斯頓=>zh-mo:侯城;赫爾河畔京斯頓=>zh-cn:赫尔河畔金斯敦;赫爾河畔京斯頓=>zh-my:赫尔河畔金斯敦;赫爾河畔京斯頓=>zh-sg:赫尔河畔金斯敦;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "赫尔=>zh-hk:侯城;赫尔=>zh-mo:侯城;"
+    },
+    {
+      "original": "Kingston upon Hull",
+      "conv": "赫爾=>zh-hk:侯城;赫爾=>zh-mo:侯城;"
+    },
+    {
+      "original": "Knutsford",
+      "conv": "zh-cn:纳茨福德;zh-tw:納茨福德;zh-hk:諾士佛;"
+    },
+    {
+      "original": "Lambeth",
+      "conv": "zh-cn:兰贝斯;zh-hk:琳寶;zh-tw:蘭貝斯;"
+    },
+    {
+      "original": "Lancaster",
+      "conv": "zh-cn:兰开斯特;zh-hk:蘭卡斯特;zh-tw:蘭卡斯特;zh-hant:蘭開斯特;"
+    },
+    {
+      "original": "Leeds",
+      "conv": "zh-cn:利兹;zh-my:利兹;zh-sg:利兹;zh-tw:里茲;zh-hk:列斯;zh-mo:列斯;"
+    },
+    {
+      "original": "Leeds",
+      "conv": "利茲=>zh-cn:利兹;利茲=>zh-my:利兹;利茲=>zh-sg:利兹;利茲=>zh-tw:里茲;利茲=>zh-hk:列斯;利茲=>zh-mo:列斯;"
+    },
+    {
+      "original": "Leeds",
+      "conv": "里兹=>zh-cn:利兹;里兹=>zh-my:利兹;里兹=>zh-sg:利兹;里兹=>zh-tw:里茲;里兹=>zh-hk:列斯;里兹=>zh-mo:列斯;"
+    },
+    {
+      "original": "Leicester",
+      "conv": "zh-cn:莱斯特;zh-tw:萊斯特;zh-hk:李斯特;"
+    },
+    {
+      "original": "Lewisham",
+      "conv": "zh-cn:刘易舍姆;zh-hk:路易咸;zh-tw:劉易舍姆;"
+    },
+    {
+      "original": "Lichfield",
+      "conv": "zh-cn:利奇菲尔德;zh-hk:李治菲特;zh-tw:利奇菲爾德;"
+    },
+    {
+      "original": "Lomond",
+      "conv": "zh-cn:洛蒙德;zh-hk:露明;zh-tw:洛蒙德;"
+    },
+    {
+      "original": "Maidstone",
+      "conv": "zh-cn:梅德斯通;zh-hk:美善同;zh-tw:梅德斯通;"
+    },
+    {
+      "original": "Mansfield",
+      "conv": "zh-cn:曼斯菲尔德;zh-hk:曼斯菲特;zh-tw:曼斯菲爾德;"
+    },
+    {
+      "original": "Midlands",
+      "conv": "zh-cn:米德兰;zh-hk:密德蘭;zh-tw:密德蘭;zh-mo:米德蘭;米德蘭茲=>zh-cn:米德兰;米德蘭茲=>zh-hk:密德蘭;米德蘭茲=>zh-tw:密德蘭;米德蘭茲=>zh-mo:米德蘭;米德兰茲=>zh-cn:米德兰;米德兰茲=>zh-hk:密德蘭;米德兰茲=>zh-tw:密德蘭;米德兰茲=>zh-mo:米德蘭;"
+    },
+    {
+      "original": "Middlesex",
+      "conv": "zh-cn:米德尔塞克斯;zh-hk:美度石士;zh-tw:米德爾塞克斯;"
+    },
+    {
+      "original": "Middlesex",
+      "conv": "米德塞克斯=>zh-hk:美度石士;米德塞克斯=>zh-mo:美度石士;"
+    },
+    {
+      "original": "Monmouth",
+      "conv": "zh-cn:蒙茅斯;zh-hk:萬茂;zh-tw:蒙茅斯;"
+    },
+    {
+      "original": "Moray",
+      "conv": "zh-cn:莫里;zh-hk:慕禮;zh-tw:莫里;"
+    },
+    {
+      "original": "Newcastle",
+      "conv": "zh-cn:纽卡斯尔;zh-hk:紐卡素;zh-tw:新堡;zh-hant:紐卡斯爾;"
+    },
+    {
+      "original": "Newcastle",
+      "conv": "紐卡斯爾=>zh-hk:紐卡素;紐卡斯爾=>zh-mo:紐卡素;紐卡斯爾=>zh-tw:新堡;"
+    },
+    {
+      "original": "Newham",
+      "conv": "zh-hans:纽汉;zh-hk:紐咸;zh-hant:紐漢;"
+    },
+    {
+      "original": "Newport",
+      "conv": "zh-cn:纽波特;zh-hk:新港;zh-tw:紐波特;"
+    },
+    {
+      "original": "Northampton",
+      "conv": "zh-cn:北安普顿;zh-tw:北安普敦;zh-hk:諾咸頓;"
+    },
+    {
+      "original": "Nottingham",
+      "conv": "zh-cn:诺丁汉;zh-hk:諾定咸;zh-tw:諾丁罕;zh-hant:諾丁漢;"
+    },
+    {
+      "original": "Norwich",
+      "conv": "zh-cn:诺里奇;zh-hk:諾域治;zh-tw:諾威治;"
+    },
+    {
+      "original": "Norwich",
+      "conv": "諾里奇=>zh-cn:诺里奇;諾里奇=>zh-tw:諾里奇;諾里奇=>zh-hk:諾域治;"
+    },
+    {
+      "original": "Norwich",
+      "conv": "諾維奇=>zh-cn:诺里奇;諾維奇=>zh-tw:諾維奇;諾維奇=>zh-hk:諾域治;"
+    },
+    {
+      "original": "Norwich",
+      "conv": "诺威奇=>zh-cn:诺里奇;诺威奇=>zh-tw:諾維奇;诺威奇=>zh-hk:諾域治;"
+    },
+    {
+      "original": "Oareford",
+      "conv": "zh-hk:俄福;zh-cn:奥福德;zh-tw:奧福德;"
+    },
+    {
+      "original": "Oldham",
+      "conv": "zh-hk:奧咸;zh-cn:奥尔德姆;zh-tw:奧爾德姆;"
+    },
+    {
+      "original": "Paddington",
+      "conv": "zh-cn:帕丁顿;zh-tw:派丁頓;zh-hk:柏靈頓;zh-hant:帕丁頓;"
+    },
+    {
+      "original": "Pentland",
+      "conv": "zh-cn: 彭特兰;zh-tw:彭特蘭;zh-hk:品蘭;"
+    },
+    {
+      "original": "Perth",
+      "conv": "zh-cn:珀斯;zh-tw:伯斯;zh-hk:珀斯;"
+    },
+    {
+      "original": "Peterborough",
+      "conv": "zh-cn:彼得伯勒;zh-hk:彼德堡;zh-tw:彼得伯勒;"
+    },
+    {
+      "original": "Pimlico",
+      "conv": "zh-cn:皮姆利科;zh-hk:匹黎哥;zh-tw:匹黎可;"
+    },
+    {
+      "original": "Portsmouth",
+      "conv": "zh-cn:朴次茅斯;zh-hk:樸茨茅夫;zh-tw:樸茨茅斯;zh-hant:朴茨茅斯;"
+    },
+    {
+      "original": "Portland",
+      "conv": "zh-cn:波特兰;zh-hk:砵蘭;zh-tw:波特蘭;zh-hant:波特蘭;"
+    },
+    {
+      "original": "Queen\\'s Park",
+      "conv": "zh-tw:女王公園;zh-hk:昆士柏;zh-cn:女王公园;"
+    },
+    {
+      "original": "Redbridge",
+      "conv": "zh-hans:雷德布里奇;zh-hant:雷德布里奇;zh-hk:紅橋;zh-tw:紅橋;"
+    },
+    {
+      "original": "Renfrew",
+      "conv": "zh-cn:伦弗鲁;zh-tw:倫弗魯;zh-hk:聯福;"
+    },
+    {
+      "original": "Richmond",
+      "conv": "zh-hans:里士满;zh-hk:列治文;zh-tw:里奇蒙;"
+    },
+    {
+      "original": "Rochdale",
+      "conv": "zh-cn:罗奇代尔;zh-hk:羅慈地;zh-tw:羅奇代爾;"
+    },
+    {
+      "original": "Rotherham",
+      "conv": "zh-cn:罗瑟勒姆;zh-hk:洛達咸;zh-tw:羅瑟勒姆;"
+    },
+    {
+      "original": "Richmond",
+      "conv": "zh-cn:里士满;zh-hk:列治文;zh-tw:里奇蒙;"
+    },
+    {
+      "original": "Rutland",
+      "conv": "zh-cn:拉特兰;zh-hk:律倫;zh-tw:拉特蘭;"
+    },
+    {
+      "original": "Salford",
+      "conv": "zh-cn:索尔福德;zh-hk:蘇福;zh-tw:索爾福德;"
+    },
+    {
+      "original": "Salisbury",
+      "conv": "zh-cn:索尔兹伯里;zh-hk:梳士巴利;zh-tw:索爾茲伯里;"
+    },
+    {
+      "original": "Salisbury",
+      "conv": "索爾斯伯里=>zh-hk:梳士巴利;索爾斯伯里=>zh-mo:梳士巴利;"
+    },
+    {
+      "original": "Salisbury",
+      "conv": "索尔斯伯里=>zh-hk:梳士巴利;索尔斯伯里=>zh-mo:梳士巴利;"
+    },
+    {
+      "original": "Sandringham",
+      "conv": "zh-cn:桑德灵厄姆;zh-hant:桑德靈厄姆;zh-tw:桑德令罕;zh-hk:山靜咸;"
+    },
+    {
+      "original": "Selkirk",
+      "conv": "zh-cn:塞尔扣克;zh-hk:西谷;zh-tw:塞爾扣克;"
+    },
+    {
+      "original": "Selsey",
+      "conv": "zh-cn:塞尔西;zh-hk:些路士;zh-tw:塞爾西;"
+    },
+    {
+      "original": "Sheffield",
+      "conv": "zh-cn:谢菲尔德;zh-hk:錫菲;zh-tw:雪菲爾;zh-hant:謝菲爾德;"
+    },
+    {
+      "original": "Shetland",
+      "conv": "zh-cn:设得兰;zh-tw:昔得蘭;zh-sg:设德兰;zh-hk:泄蘭;zh-hant:設德蘭;"
+    },
+    {
+      "original": "Shrewsbury",
+      "conv": "zh-cn:什鲁斯伯里;zh-tw:士魯斯柏立;zh-hk:梳士貝利;zh-hant:什魯斯伯里;"
+    },
+    {
+      "original": "Shrop",
+      "conv": "zh-cn:什罗普;zh-hk:史樂;zh-tw:施洛普;zh:什羅普;"
+    },
+    {
+      "original": "Smithfield",
+      "conv": "zh-cn:史密斯菲尔德;zh-tw:史密斯菲爾德;zh-hk:士美菲;"
+    },
+    {
+      "original": "Solihull",
+      "conv": "zh-cn:索利赫尔;zh-hk:梳利侯;zh-tw:索利赫爾;"
+    },
+    {
+      "original": "Soomerset/Somerset",
+      "conv": "zh-cn:萨默塞特;zh-hk:森麻實;zh-tw:索美塞特;zh-sg:索美塞;"
+    },
+    {
+      "original": "Soomerset/Somerset",
+      "conv": "薩默塞特=>zh-tw:索美塞特;薩默塞特=>zh-hk:森麻實;薩默塞特=>zh-mo:森麻實;薩默塞特=>zh-my:索美塞;薩默塞特=>zh-sg:索美塞;"
+    },
+    {
+      "original": "Southampton",
+      "conv": "zh-cn:南安普敦;zh-hk:修咸頓;zh-tw:南安普敦;"
+    },
+    {
+      "original": "Southwark",
+      "conv": "zh-hans:南华克;zh-cn:萨瑟克;zh-hk:南華克;zh-tw:南華克;"
+    },
+    {
+      "original": "St James\\'s",
+      "conv": "zh-hans:圣詹姆斯;zh-hant:聖詹姆斯;zh-cn:圣詹姆斯;zh-tw:聖詹姆士;zh-hk:聖占士;"
+    },
+    {
+      "original": "Stafford",
+      "conv": "zh-cn:斯塔福德;zh-hk:施他佛;zh-tw:史丹佛;"
+    },
+    {
+      "original": "Stevenage",
+      "conv": "zh-cn:斯蒂夫尼奇;zh-tw:史蒂文納吉;zh-hk:史提芬納治;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "zh-cn:斯特灵;zh-hk:士他令;zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特靈=>zh-hk:士他令;斯特靈=>zh-mo:士他令;斯特靈=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "士打令=>zh-cn:斯特灵;士打令=>zh-my:斯特灵;士打令=>zh-sg:斯特灵;士打令=>zh-tw:史特靈;士打令=>zh-hk:士他令;士打令=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特灵=>zh-cn:斯特灵;史特灵=>zh-my:斯特灵;史特灵=>zh-sg:斯特灵;史特灵=>zh-hk:士他令;史特灵=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯德零=>zh-cn:斯特灵;斯德零=>zh-my:斯特灵;斯德零=>zh-sg:斯特灵;斯德零=>zh-hk:士他令;斯德零=>zh-mo:士他令;斯德零=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特陵=>zh-cn:斯特灵;斯特陵=>zh-my:斯特灵;斯特陵=>zh-sg:斯特灵;斯特陵=>zh-hk:士他令;斯特陵=>zh-mo:士他令;斯特陵=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特凌=>zh-cn:斯特灵;斯特凌=>zh-my:斯特灵;斯特凌=>zh-sg:斯特灵;斯特凌=>zh-hk:士他令;斯特凌=>zh-mo:士他令;斯特凌=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特林=>zh-cn:斯特灵;斯特林=>zh-my:斯特灵;斯特林=>zh-sg:斯特灵;斯特林=>zh-hk:士他令;斯特林=>zh-mo:士他令;斯特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特林=>zh-cn:斯特灵;史特林=>zh-my:斯特灵;史特林=>zh-sg:斯特灵;史特林=>zh-hk:士他令;史特林=>zh-mo:士他令;史特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stoke-on-Trent",
+      "conv": "zh-cn:特伦特河畔斯托克;zh-hk:史篤;zh-tw:斯托克;"
+    },
+    {
+      "original": "Suffolk",
+      "conv": "zh-cn:萨福克;zh-hk:沙福;zh-tw:沙福;zh-hant:薩福克;"
+    },
+    {
+      "original": "Sunderland",
+      "conv": "zh-cn:桑德兰;zh-hk:新特蘭;zh-tw:巽德蘭;zh-hant:桑德蘭;"
+    },
+    {
+      "original": "Surrey",
+      "conv": "zh-cn:萨里;zh-hk:舒梨;zh-tw:薩里;"
+    },
+    {
+      "original": "Sussex",
+      "conv": "zh-cn:萨塞克斯;zh-hk:修適士;zh-tw:薩塞克斯;"
+    },
+    {
+      "original": "Sussex",
+      "conv": "zh-cn:萨塞克斯;zh-hk:修適士;zh-tw:薩塞克斯;"
+    },
+    {
+      "original": "Sutton",
+      "conv": "zh-hk:薩頓;zh-hans:萨顿;zh-tw:索頓;"
+    },
+    {
+      "original": "Swansea",
+      "conv": "zh-cn:斯旺西;zh-hk:史雲斯;zh-tw:斯旺西;zh-hant:斯溫西;"
+    },
+    {
+      "original": "Swindon",
+      "conv": "zh-cn:斯温登;zh-hk:史雲頓;zh-tw:斯溫頓;"
+    },
+    {
+      "original": "Tower Hamlets",
+      "conv": "zh-hant:陶爾哈姆萊茨;zh-hans:陶尔哈姆莱茨;zh-tw:哈姆雷特塔;zh-hk:塔村;zh-mo:塔村;"
+    },
+    {
+      "original": "Trowbridge",
+      "conv": "zh-cn:特罗布里奇;zh-hk:措必列治;zh-tw:特羅布里奇;"
+    },
+    {
+      "original": "Tunbridge Wells",
+      "conv": "zh-cn:坦布里奇韦尔斯;zh-hk:唐橋井;zh-tw:坦布里奇韋爾斯;"
+    },
+    {
+      "original": "Tweed",
+      "conv": "zh-cn:特威德;zh-tw:特威德;zh-hk:陶域;"
+    },
+    {
+      "original": "United Kingdom of Great Britain and Ireland",
+      "conv": "zh-cn:大不列颠及爱尔兰联合王国;zh-tw:大不列顛暨愛爾蘭聯合王國;zh-hk:大不列顛及愛爾蘭聯合王國"
+    },
+    {
+      "original": "United Kingdom of Great Britain and Northern Ireland",
+      "conv": "zh-cn:大不列颠及北爱尔兰联合王国;zh-tw:大不列顛暨北愛爾蘭聯合王國;zh-hk:大不列顛及北愛爾蘭聯合王國"
+    },
+    {
+      "original": "Up Holland",
+      "conv": "zh-cn:艾霍兰;zh-tw:艾霍蘭;zh-hk:上荷蘭;"
+    },
+    {
+      "original": "Upton",
+      "conv": "zh-hans:厄普顿;zh-tw:厄普頓;zh-hk:烏普頓;"
+    },
+    {
+      "original": "Wakefield",
+      "conv": "zh-hk:域菲路;zh-tw:韋克菲爾德;zh-cn:韦克菲尔德;"
+    },
+    {
+      "original": "Wales",
+      "conv": "zh-hans:威尔士;zh-hant:威爾斯;"
+    },
+    {
+      "original": "Walsall",
+      "conv": "zh-cn:沃尔索尔;zh-hk:華素爾;zh-tw:沃爾索爾;"
+    },
+    {
+      "original": "Waltham Forest",
+      "conv": "zh-cn:沃尔瑟姆福里斯特;zh-hk:窩咸森林;zh-tw:瓦爾珊森林;"
+    },
+    {
+      "original": "Walthamstow",
+      "conv": "zh-cn:沃尔瑟姆斯托;zh-hk:窩咸史杜;zh-tw:沃爾瑟姆斯托;"
+    },
+    {
+      "original": "Wandsworth",
+      "conv": "zh-cn:旺兹沃思;zh-hk:灣斯禾夫;zh-tw:旺茲沃思;"
+    },
+    {
+      "original": "Warwick",
+      "conv": "zh-cn:沃里克;zh-hk:和域;zh-tw:華威;"
+    },
+    {
+      "original": "Warwick",
+      "conv": "沃威克=>zh-cn:沃里克;沃威克=>zh-my:沃里克;沃威克=>zh-sg:沃里克;沃威克=>zh-hk:和域;沃威克=>zh-mo:和域;沃威克=>zh-tw:華威;"
+    },
+    {
+      "original": "Warwick",
+      "conv": "华威=>zh-cn:沃里克;华威=>zh-my:沃里克;华威=>zh-sg:沃里克;华威=>zh-hk:和域;华威=>zh-mo:和域;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "zh-hans:滑铁卢;zh-hant:滑鐵盧;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "窩打老=>zh-cn:滑铁卢;窩打老=>zh-my:滑铁卢;窩打老=>zh-sg:滑铁卢;窩打老=>zh-tw:滑鐵盧;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "窝打老=>zh-cn:滑铁卢;窝打老=>zh-my:滑铁卢;窝打老=>zh-sg:滑铁卢;窝打老=>zh-tw:滑鐵盧;"
+    },
+    {
+      "original": "Watford",
+      "conv": "zh-cn:沃特福德;zh-hk:屈福特;zh-tw:瓦特福;"
+    },
+    {
+      "original": "West Ham",
+      "conv": "zh-hans:西汉姆;zh-hant:西漢姆;zh-tw:西漢姆;zh-hk:韋斯咸;"
+    },
+    {
+      "original": "Westminster",
+      "conv": "zh-cn:威斯敏斯特;zh-hk:西敏;zh-tw:西敏;zh-sg:西敏;"
+    },
+    {
+      "original": "Westminster",
+      "conv": "zh-cn:威斯敏斯特教堂;zh-hk:西敏寺;zh-tw:西敏寺;zh-sg:西敏寺;"
+    },
+    {
+      "original": "Whitchurch",
+      "conv": "zh-cn:惠特彻奇;zh-hk:韋卓;zh-tw:維特祖治;zh-hant:惠特徹奇;"
+    },
+    {
+      "original": "Wiltshire",
+      "conv": "zh-cn:威尔特;zh-tw:威爾特;zh-hk:渭州;"
+    },
+    {
+      "original": "Wimbledon",
+      "conv": "zh-cn:温布尔登;zh-hk:溫布頓;zh-tw:溫布頓;"
+    },
+    {
+      "original": "Winchester",
+      "conv": "zh-cn:温切斯特;zh-tw:溫徹斯特;zh-hk:溫車士打;zh-hant:溫徹斯特;zh-sg:温彻斯特;"
+    },
+    {
+      "original": "Wolverhampton",
+      "conv": "zh-cn:伍尔弗汉普顿;zh-hk:和夫咸頓;zh-tw:伍爾弗漢普頓;"
+    },
+    {
+      "original": "Worcester",
+      "conv": "zh-cn:伍斯特;zh-hk:窩士打;zh-tw:伍斯特;"
+    },
+    {
+      "original": "Wokingham",
+      "conv": "zh-hk:禾京咸;zh-tw:沃金厄姆;zh-cn:沃金厄姆"
+    },
+    {
+      "original": "Workington",
+      "conv": "zh-cn:沃金顿;zh-hk:窩京頓;zh-tw:沃金頓;"
+    },
+    {
+      "original": "Woolwich",
+      "conv": "zh-cn:伍利奇;zh-hk:胡列治;zh-tw:伍利奇;"
+    },
+    {
+      "original": "Wood",
+      "conv": "zh-cn:伍德;zh-tw:伍德;"
+    },
+    {
+      "original": "Wood",
+      "conv": "伍德=>zh-hk:活;伍德=>zh-mo:活;"
+    },
+    {
+      "original": "Wrexham",
+      "conv": "zh-cn:雷克瑟姆;zh-tw:雷克斯漢姆;zh-hk:域斯咸;"
+    },
+    {
+      "original": "Akrotiri",
+      "conv": "zh-cn:阿克罗蒂里;zh-tw:亞克羅提利;"
+    },
+    {
+      "original": "Akrotiri and Dhekelia",
+      "conv": "zh-cn:阿克罗蒂里和泽凯利亚;zh-tw:亞克羅提利與德凱利亞;"
+    },
+    {
+      "original": "Bermuda",
+      "conv": "zh-cn:百慕大;zh-tw:百慕達;zh-hk:百慕達;"
+    },
+    {
+      "original": "Dhekelia",
+      "conv": "zh-cn:泽凯利亚;zh-tw:德凱利亞;"
+    },
+    {
+      "original": "English Channel",
+      "conv": "zh-cn:英吉利海峡;zh-tw:英吉利海峽;zh-hk:英倫海峽;"
+    },
+    {
+      "original": "Isle of Man",
+      "conv": "zh-tw:曼島;zh-cn:马恩岛;zh-hk:人島;"
+    },
+    {
+      "original": "Isle of Man",
+      "conv": "萌島=>zh-tw:曼島;萌島=>zh-cn:马恩岛;萌島=>zh-my:马恩岛;萌島=>zh-sg:马恩岛;萌島=>zh-hk:人島;萌島=>zh-mo:人島;"
+    },
+    {
+      "original": "Isle of Man",
+      "conv": "馬恩島=>zh-tw:曼島;馬恩島=>zh-cn:马恩岛;馬恩島=>zh-my:马恩岛;馬恩島=>zh-sg:马恩岛;馬恩島=>zh-hk:人島;馬恩島=>zh-mo:人島;"
+    },
+    {
+      "original": "Sovereign Base Areas",
+      "conv": "zh-cn:主权基地区;zh-tw:英屬基地區;"
+    },
+    {
+      "original": "Virgin",
+      "conv": "zh-cn:维尔京;zh-tw:維京;zh-hk:處女;"
+    },
+    {
+      "original": "Virgin",
+      "conv": "維爾京=>zh-tw:維京;維爾京=>zh-hk:處女;"
+    },
+    {
+      "original": "Vikings",
+      "conv": "zh-hans:维京人;zh-hant:維京人;"
+    },
+    {
+      "original": "Waterloo Road",
+      "conv": "zh-hans:窝打老道;zh-hant:窩打老道;"
+    }
+  ]
+}

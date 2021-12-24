@@ -1,0 +1,55 @@
+{
+  "name": "A Song of Ice and Fire",
+  "description": "冰與火之歌",
+  "path": "Module:CGroup/A Song of Ice and Fire",
+  "rules": [
+    {
+      "original": "A Game of Thrones",
+      "conv": "zh-cn:权力的游戏;zh-tw:權力遊戲;"
+    },
+    {
+      "original": "A Clash of Kings",
+      "conv": "zh-cn:列王的纷争;zh-tw:烽火危城;"
+    },
+    {
+      "original": "A Storm of Swords",
+      "conv": "zh-cn:冰雨的风暴;zh-tw:劍刃風暴;"
+    },
+    {
+      "original": "A Feast for Crows",
+      "conv": "zh-cn:群鸦的盛宴;zh-tw:群鴉盛宴;"
+    },
+    {
+      "original": "A Dance with Dragons",
+      "conv": "zh-cn:魔龙的狂舞;zh-tw:與龍共舞;"
+    },
+    {
+      "original": "The Winds of Winter",
+      "conv": "zh-cn:凛冬的寒风;zh-tw:寒冬冽風;"
+    },
+    {
+      "original": "A Dream of Spring",
+      "conv": "zh-cn:春晓的梦想;zh-tw:春日幻夢;"
+    },
+    {
+      "original": "A Time for Wolves",
+      "conv": "zh-cn:奔狼的年代;zh-tw:群狼年代;"
+    },
+    {
+      "original": "Ygritte",
+      "conv": "zh-cn:耶哥蕊特;zh-tw:伊格黎;"
+    },
+    {
+      "original": "Dorne",
+      "conv": "zh:冬恩;zh-hans:多恩;zh-hant:冬恩;zh-cn:多恩;zh-tw:冬恩;"
+    },
+    {
+      "original": "George",
+      "conv": "zh-cn:乔治;zh-tw:喬治;zh-hk:佐治;"
+    },
+    {
+      "original": "Martin",
+      "conv": "zh-tw:馬丁;zh-cn:马丁;zh-hk:馬田;"
+    }
+  ]
+}

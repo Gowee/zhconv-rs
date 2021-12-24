@@ -1,0 +1,243 @@
+{
+  "name": "Guardians of Ga'Hoole",
+  "description": "-{zh-hans:猫头鹰王国;zh-hant:貓頭鷹守護神;zh-cn:猫头鹰王国;zh-hk:守護神傳奇;zh-tw:貓頭鷹守護神;}-",
+  "path": "Template:CGroup/Guardians of Ga'Hoole",
+  "rules": [
+    {
+      "original": "Guardians of Ga'Hoole",
+      "conv": "zh-cn:猫头鹰王国;zh-hk:守護神傳奇;zh-tw:貓頭鷹守護神;"
+    },
+    {
+      "original": "The Capture",
+      "conv": "逃離聖鬼鴞學院=>zh-cn:暗算"
+    },
+    {
+      "original": "The Journey",
+      "conv": "飛向蓋胡島神木=>zh-cn:险途"
+    },
+    {
+      "original": "The Rescue",
+      "conv": "索倫的救援計畫=>zh-cn:营救"
+    },
+    {
+      "original": "The Siege",
+      "conv": "衝破鐵鉤封鎖線=>zh-cn:围攻"
+    },
+    {
+      "original": "The Shattering",
+      "conv": "火攻魔嘴岩=>zh-cn:扰乱"
+    },
+    {
+      "original": "The Burning",
+      "conv": "探尋北方王國=>zh-cn:燃烧"
+    },
+    {
+      "original": "The Hatchling",
+      "conv": "宿命之子誕生=>zh-cn:新生"
+    },
+    {
+      "original": "The Outcast",
+      "conv": "登上蓋胡島王位=>zh-cn:放逐"
+    },
+    {
+      "original": "The First Collier",
+      "conv": "蓋胡傳說的誕生=>zh-cn:传奇"
+    },
+    {
+      "original": "The Coming of Hoole",
+      "conv": "火焰之子傳奇=>zh-cn:瑚儿"
+    },
+    {
+      "original": "To Be a King",
+      "conv": "王者復歸天下=>zh-cn:王者"
+    },
+    {
+      "original": "The Golden Tree",
+      "conv": "宿命的對決之旅=>zh-cn:金树"
+    },
+    {
+      "original": "The River of Wind",
+      "conv": "發現迎風谷王國=>zh-cn:久国"
+    },
+    {
+      "original": "Exile",
+      "conv": "決戰不幸烽火夜=>zh-cn:虚荣"
+    },
+    {
+      "original": "Ga'Hoole",
+      "conv": "zh-cn:珈瑚;zh-tw:蓋胡;"
+    },
+    {
+      "original": "The Ember of Hoole",
+      "conv": "zh-cn:瑚儿炭火;zh-tw:蓋胡火炭;"
+    },
+    {
+      "original": "Great Ga'Hoole Tree",
+      "conv": "zh-cn:珈瑚巨树;zh-tw:蓋胡神木"
+    },
+    {
+      "original": "St. Aggies",
+      "conv": "zh-cn:圣灵鸮;zh-tw:聖鬼鴞"
+    },
+    {
+      "original": "St. Aegolius Academy of Orphaned Owls",
+      "conv": "zh-cn:圣灵鸮猫头鹰孤儿院;zh-tw:聖鬼鴞學院"
+    },
+    {
+      "original": "Beyond the Beyond",
+      "conv": "zh-cn:边缘之地;zh-tw:遙遠彼處"
+    },
+    {
+      "original": "The Band",
+      "conv": "zh-cn:无敌四人组;zh-tw:生命共同體"
+    },
+    {
+      "original": "The Pure Ones",
+      "conv": "zh-cn:纯族;zh-tw:純血團"
+    },
+    {
+      "original": "Soren",
+      "conv": "zh-cn:赛林;zh-tw:索倫"
+    },
+    {
+      "original": "Kludd",
+      "conv": "zh-cn:昆郎;zh-tw:克勞德"
+    },
+    {
+      "original": "Gylfie",
+      "conv": "zh-cn:吉菲;zh-tw:吉爾菲"
+    },
+    {
+      "original": "Madame Plonk",
+      "conv": "zh-cn:嘭嚓嚓太太;zh-tw:噗朗夫人"
+    },
+    {
+      "original": "Octavia",
+      "conv": "zh-cn:奥塔;zh-tw:奧塔維"
+    },
+    {
+      "original": "Trader Mags",
+      "conv": "zh-cn:马大姐;zh-tw:商人馬格斯"
+    },
+    {
+      "original": "Octavia",
+      "conv": "zh-cn:丽莎;zh-tw:奧麗莎"
+    },
+    {
+      "original": "Nyra",
+      "conv": "zh-cn:妮拉;zh-tw:奈拉"
+    },
+    {
+      "original": "Grimble",
+      "conv": "zh-cn:林伯;zh-tw:孤伶包"
+    },
+    {
+      "original": "Ezylryb",
+      "conv": "zh-cn:一指大师;zh-tw:席爾里布"
+    },
+    {
+      "original": "Coryn",
+      "conv": "zh-cn:考林;zh-tw:柯林"
+    },
+    {
+      "original": "Nyroc",
+      "conv": "zh-cn:林考;zh-tw:奈洛"
+    },
+    {
+      "original": "Hoole",
+      "conv": "zh-cn:瑚儿;zh-tw:胡"
+    },
+    {
+      "original": "Noctus",
+      "conv": "zh-cn:诺图;zh-tw:納陀"
+    },
+    {
+      "original": "Marilla",
+      "conv": "zh-cn:玛莱拉;zh-tw:瑪莉拉"
+    },
+    {
+      "original": "Eglantine",
+      "conv": "zh-cn:伊兰;zh-tw:小薇"
+    },
+    {
+      "original": "Skench",
+      "conv": "zh-cn:斯吭;zh-tw:肯瞿"
+    },
+    {
+      "original": "Unk",
+      "conv": "zh-cn:阿舅;zh-tw:大叔"
+    },
+    {
+      "original": "Horace Plithiver",
+      "conv": "zh-cn:贺瑞斯·皮圈;zh-tw:普莉席佛·賀瑞斯"
+    },
+    {
+      "original": "Twilight",
+      "conv": "zh-cn:灰灰;zh-tw:曙光"
+    },
+    {
+      "original": "Digger",
+      "conv": "zh-cn:掘哥;zh-tw:迪哥"
+    },
+    {
+      "original": "Pellimore",
+      "conv": "zh-cn:白莉茉;zh-tw:芭莉摩"
+    },
+    {
+      "original": "Pelli",
+      "conv": "zh-cn:莉莉;zh-tw:芭莉"
+    },
+    {
+      "original": "Boron",
+      "conv": "zh-cn:白伦;zh-tw:波隆"
+    },
+    {
+      "original": "Barran",
+      "conv": "zh-cn:白兰;zh-tw:芭倫"
+    },
+    {
+      "original": "Strix Struma",
+      "conv": "zh-cn:思趣;zh-tw:史翠·史都"
+    },
+    {
+      "original": "Primrose",
+      "conv": "zh-cn:迎春花;zh-tw:琵玫瑰"
+    },
+    {
+      "original": "Dustytuft",
+      "conv": "zh-cn:达达;zh-tw:灰噗噗"
+    },
+    {
+      "original": "Gyllbane",
+      "conv": "zh-cn:盖本;zh-tw:吉爾班"
+    },
+    {
+      "original": "Cleve",
+      "conv": "zh-cn:克雷;zh-tw:克里夫"
+    },
+    {
+      "original": "Hamish",
+      "conv": "zh-cn:哈密希;zh-tw:漢密許"
+    },
+    {
+      "original": "Cody",
+      "conv": "zh-cn:科迪;zh-tw:柯弟"
+    },
+    {
+      "original": "Obea",
+      "conv": "zh-cn:欧贝;zh-tw:欧贝"
+    },
+    {
+      "original": "malcadh",
+      "conv": "zh-cn:马尔卡达哈;zh-tw:马尔卡达哈"
+    },
+    {
+      "original": "gnaw wolf",
+      "conv": "zh-cn:啃骨狼;zh-tw:啃骨狼"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文;zh-cn:简体;zh-hant:繁體;zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:香港;"
+    }
+  ]
+}

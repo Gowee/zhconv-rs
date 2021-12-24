@@ -1,0 +1,31 @@
+{
+  "name": "伊拉克足球",
+  "description": "伊拉克職業足球聯賽",
+  "path": "Template:CGroup/伊拉克足球",
+  "rules": [
+    {
+      "original": "Al Shorta",
+      "conv": "zh:阿尔索达; zh-hans:巴格达警察; zh-cn:巴格达警察; zh-hk:艾爾索達; "
+    },
+    {
+      "original": "Al-Zawra'a SC",
+      "conv": "zh-hans:萨乌拉; zh-cn:祖拉; zh-hk:薩烏拉; "
+    },
+    {
+      "original": "Erbil SC",
+      "conv": "zh:埃尔比勒; zh-hans:埃尔比勒; zh-cn:埃尔比勒竞技; zh-hk:阿比爾; "
+    },
+    {
+      "original": "Naft Al-Wasat",
+      "conv": "zh-hans:纳夫艾瓦萨; zh-cn:纳杰夫中央石油; zh-hk:納夫艾華薩特; "
+    },
+    {
+      "original": "Iraqi Premier League",
+      "conv": "zh:伊拉克足球超级联赛; zh-hans:伊拉克足球超级联赛; zh-cn:伊拉克足球超级联赛; zh-hant:伊拉克超級足球聯賽; zh-hk:伊拉克超級足球聯賽; "
+    },
+    {
+      "original": "Iraq FA Cup",
+      "conv": "zh:伊拉克足协杯; zh-hans:伊拉克足协杯; zh-cn:伊拉克足协杯; zh-hk:伊拉克足總盃; "
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "约旦职业足球联赛",
+  "description": "约旦職業足球聯賽",
+  "path": "Template:CGroup/约旦职业足球联赛",
+  "rules": [
+    {
+      "original": "Al-Wehdat",
+      "conv": "zh:安曼新营; zh-hans:安曼新营; zh-cn:安曼新营; zh-hk:阿爾維達特; "
+    },
+    {
+      "original": "Al-Jazeera",
+      "conv": "zh:安曼半岛; zh-hans:安曼半岛; zh-cn:安曼半岛; zh-hk:艾查斯拿; "
+    },
+    {
+      "original": "Al-Shabab Ordon",
+      "conv": "zh:安曼约旦青年; zh-hans:安曼约旦青年; zh-cn:安曼约旦青年; zh-hk:沙巴阿羅登; "
+    },
+    {
+      "original": "Al-Ahli(Amman)",
+      "conv": "zh:安曼阿赫利; zh-hans:安曼民族; zh-cn:安曼国民; zh-hk:阿爾利; "
+    },
+    {
+      "original": "Al-Ahli(Amman)",
+      "conv": "zh:安曼阿赫利; zh-hans:安曼民族; zh-cn:安曼国民; zh-hk:艾阿里安曼; "
+    },
+    {
+      "original": "Jordan Premier League",
+      "conv": "zh:约旦足球超级联赛; zh-hans:约旦足球超级联赛; zh-cn:约旦足球超级联赛; zh-hant:約旦超級足球聯賽; zh-hk:約旦超級足球聯賽; "
+    },
+    {
+      "original": "Jordan FA Cup",
+      "conv": "zh:约旦足协杯; zh-hans:约旦足协杯; zh-cn:约旦足协杯; zh-hk:約旦足總盃; "
+    }
+  ]
+}

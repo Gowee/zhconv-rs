@@ -1,0 +1,67 @@
+{
+  "name": "ThePeanuts",
+  "description": "花生漫畫",
+  "path": "Template:CGroup/ThePeanuts",
+  "rules": [
+    {
+      "original": "Charles Schulz",
+      "conv": "zh-cn:查尔斯·舒尔茨; zh-hk:查理斯·舒爾茨; zh-mo:查理斯·舒爾茨; zh-sg:查尔斯·舒尔茨; zh-tw:查爾斯·舒茲"
+    },
+    {
+      "original": "Schulz",
+      "conv": "zh-cn:舒尔茨; zh-hk:舒爾茨; zh-mo:舒爾茨; zh-sg:舒尔茨; zh-tw:舒茲"
+    },
+    {
+      "original": "Frieda",
+      "conv": "zh-cn:傅丽达; zh-hk:菲莉達; zh-mo:菲莉達; zh-sg:傅丽达; zh-tw:傅麗達"
+    },
+    {
+      "original": "Linus",
+      "conv": "zh-cn:莱纳斯; zh-hk:萊納斯; zh-mo:萊納斯; zh-sg:莱纳斯; zh-tw:奈勒斯"
+    },
+    {
+      "original": "Lucy",
+      "conv": "zh-cn:露西; zh-hk:露絲; zh-mo:露絲; zh-sg:露西; zh-tw:露西"
+    },
+    {
+      "original": "Marcie",
+      "conv": "zh-cn:玛西; zh-hk:瑪思; zh-mo:瑪思; zh-sg:玛西; zh-tw:瑪西"
+    },
+    {
+      "original": "Patty",
+      "conv": "zh-cn:派蒂; zh-hk:碧蒂; zh-mo:碧蒂; zh-sg:派蒂; zh-tw:佩蒂"
+    },
+    {
+      "original": "Peppermint Patty",
+      "conv": "zh-cn:薄荷·派蒂; zh-hk:薄荷·碧蒂; zh-mo:薄荷·碧蒂; zh-sg:薄荷·派蒂; zh-tw:派伯敏特·佩蒂"
+    },
+    {
+      "original": "PigPen",
+      "conv": "zh-cn:乒乓; zh-hk:豬圈仔; zh-mo:豬圈仔; zh-sg:乒乓; zh-tw:乒乓"
+    },
+    {
+      "original": "Rerun",
+      "conv": "zh-cn:礼让; zh-hk:禮讓; zh-mo:禮讓; zh-sg:礼让; zh-tw:小雷"
+    },
+    {
+      "original": "Schroeder",
+      "conv": "zh-cn:施洛德; zh-hk:舒路達; zh-mo:舒路達; zh-sg:施洛德; zh-tw:謝勒德"
+    },
+    {
+      "original": "Snoopy",
+      "conv": "zh-cn:史努比; zh-hk:史諾比; zh-mo:史諾比; zh-sg:史努比; zh-tw:史努比"
+    },
+    {
+      "original": "Violet",
+      "conv": "zh-cn:阿兰; zh-hk:范蕾特; zh-mo:范蕾特; zh-sg:范蕾特; zh-tw:范蕾特"
+    },
+    {
+      "original": "Woodstock",
+      "conv": "zh-cn:糊涂塌客; zh-hk:胡士托; zh-mo:胡士托; zh-sg:糊涂塌客; zh-tw:糊塗塌客"
+    },
+    {
+      "original": "The Peanuts Movie",
+      "conv": "zh-cn:史努比：花生大电影; zh-tw:史努比 The Peanuts Movie; zh-hk:史諾比：花生漫畫大電影; zh-sg:史努比：花生漫画大电影;"
+    }
+  ]
+}

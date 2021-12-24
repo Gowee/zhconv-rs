@@ -1,0 +1,59 @@
+{
+  "name": "Laos",
+  "description": "-{zh-cn:老挝; zh-tw:寮國; zh-hk:老撾; zh-sg:寮国;}-",
+  "path": "Template:CGroup/Laos",
+  "rules": [
+    {
+      "original": "Laos",
+      "conv": "zh-cn:老挝; zh-tw:寮國; zh-hk:老撾; zh-sg:寮国;"
+    },
+    {
+      "original": "Lao People's Democratic Republic",
+      "conv": "zh-cn:老挝人民民主共和国; zh-tw:寮人民民主共和國; zh-hk:老撾人民民主共和國; zh-sg:寮人民民主共和国;"
+    },
+    {
+      "original": "Kingdom of Laos",
+      "conv": "zh-cn:老挝王国; zh-tw:寮王國; zh-hk:老撾王國;zh-sg:寮王国;"
+    },
+    {
+      "original": "Protectorate  of Laos",
+      "conv": "zh-cn:老挝保护国; zh-tw:寮保護國; zh-hk:老撾保護國;zh-sg:寮保护国;"
+    },
+    {
+      "original": "French Protectorate  of Laos",
+      "conv": "zh-cn:老挝法国保护国; zh-tw:寮法國保護國; zh-hk:老撾法國保護國;zh-sg:寮法国保护国;"
+    },
+    {
+      "original": "Lao",
+      "conv": "zh-cn:老挝语; zh-tw:寮語; zh-hk:老撾語; zh-sg:寮语;"
+    },
+    {
+      "original": "Vientiane",
+      "conv": "zh-cn:万象; zh-tw:永珍; zh-hk:萬象; zh-sg:永珍;"
+    },
+    {
+      "original": "Lao alphabet",
+      "conv": "zh-cn:老挝文; zh-tw:寮文; zh-hk:老撾文; zh-sg:寮文;"
+    },
+    {
+      "original": "Pathet Lao",
+      "conv": "zh-cn:巴特寮; zh-tw:巴特寮; zh-hk:巴特寮; zh-sg:巴特寮"
+    },
+    {
+      "original": "Lao nation",
+      "conv": "zh-cn:老挝国; zh-tw:寮國; zh-hk:老撾國; zh-sg:寮国"
+    },
+    {
+      "original": "Emblem of Laos",
+      "conv": "zh-cn:老挝国徽; zh-tw:寮國國徽; zh-hk:老撾國徽; zh-sg:寮国国徽"
+    },
+    {
+      "original": "Flag of Laos",
+      "conv": "zh-cn:老挝国旗; zh-tw:寮國國旗; zh-hk:老撾國旗; zh-sg:寮国国旗"
+    },
+    {
+      "original": "National Anthem of Laos",
+      "conv": "zh-cn:老挝国歌; zh-tw:寮國國歌; zh-hk:老撾國歌; zh-sg:寮国国歌"
+    }
+  ]
+}

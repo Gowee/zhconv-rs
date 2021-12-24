@@ -1,0 +1,355 @@
+{
+  "name": "James Bond",
+  "description": "-{zh-cn:詹姆斯·邦德;zh-hk:占士·邦;zh-tw:詹姆士·龐德;}-",
+  "path": "Template:CGroup/James Bond",
+  "rules": [
+    {
+      "original": "zh-cn:诺博士; zh-tw:第七號情報員; zh-hk:鐵金剛勇破神秘島; zh-mo:鐵金剛勇破神秘島;",
+      "conv": "Dr. No "
+    },
+    {
+      "original": "勇破神秘島=>zh-cn:诺博士; 勇破神秘島=>zh-tw:第七號情報員; 勇破神秘島=>zh-hk:勇破神秘島; 勇破神秘島=>zh-mo:勇破神秘島;",
+      "conv": "Dr. No "
+    },
+    {
+      "original": "zh-cn:来自俄罗斯的爱; zh-tw:第七號情報員續集; zh-hk:鐵金剛勇破間諜網;",
+      "conv": "From Russia With Love "
+    },
+    {
+      "original": "勇破間諜網 => zh-cn:来自俄罗斯的爱; 勇破間諜網 => zh-tw:第七號情報員續集;",
+      "conv": "From Russia With Love "
+    },
+    {
+      "original": "zh-cn:金手指; zh-hk:鐵金剛大戰金手指; zh-tw:金手指;",
+      "conv": "Goldfinger "
+    },
+    {
+      "original": "zh-cn:雷霆万钧; zh-tw:霹靂彈; zh-hk:鐵金剛勇戰魔鬼黨; zh-mo:鐵金剛勇戰魔鬼黨;",
+      "conv": "Thunderball "
+    },
+    {
+      "original": "勇戰魔鬼黨 => zh-cn:雷霆万钧; 勇戰魔鬼黨 => zh-tw:霹靂彈;",
+      "conv": "Thunderball "
+    },
+    {
+      "original": "zh-cn:雷霆谷; zh-tw:雷霆谷; zh-hk:鐵金剛勇破火箭嶺; zh-mo:鐵金剛勇破火箭嶺;",
+      "conv": "You Only Live Twice "
+    },
+    {
+      "original": "勇破火箭嶺 => zh-cn:雷霆谷; 勇破火箭嶺 =>  zh-tw:雷霆谷;",
+      "conv": "You Only Live Twice "
+    },
+    {
+      "original": "zh-cn:女王密使; zh-tw:女王密使; zh-hk:鐵金剛勇破雪山堡; zh-mo:鐵金剛勇破雪山堡;",
+      "conv": "On Her Majesty's Secret Service "
+    },
+    {
+      "original": "勇破雪山堡 => zh-cn:女王密使; 勇破雪山堡 => zh-tw:女王密使;",
+      "conv": "On Her Majesty's Secret Service "
+    },
+    {
+      "original": "zh-cn:永远的钻石; zh-tw:金剛鑽; zh-hk:鐵金剛勇破鑽石黨; zh-mo:鐵金剛勇破鑽石黨;",
+      "conv": "Diamonds Are Forever "
+    },
+    {
+      "original": "勇破鑽石黨 => zh-cn:永远的钻石; 勇破鑽石黨 => zh-tw:金剛鑽;",
+      "conv": "Diamonds Are Forever "
+    },
+    {
+      "original": "zh-cn:你死我活; zh-tw:生死關頭; zh-hk:鐵金剛勇破黑魔黨; zh-mo:鐵金剛勇破黑魔黨;",
+      "conv": "Live and Let Die "
+    },
+    {
+      "original": "勇破黑魔黨 => zh-cn:你死我活; 勇破黑魔黨 => zh-tw:生死關頭;",
+      "conv": "Live and Let Die "
+    },
+    {
+      "original": "zh-cn:金枪客; zh-tw:金鎗人; zh-hk:鐵金剛大戰金槍客; zh-mo:鐵金剛大戰金槍客;",
+      "conv": "The Man with the Golden Gun "
+    },
+    {
+      "original": "大戰金槍客 => zh-cn:金枪客; 大戰金槍客 => zh-tw:金鎗人;",
+      "conv": "The Man with the Golden Gun "
+    },
+    {
+      "original": "zh-cn:海底城; zh-hk:鐵金剛勇破海底城; zh-tw:海底城;",
+      "conv": "The Spy Who Loved Me "
+    },
+    {
+      "original": "勇破海底城 => zh-cn:海底城; 勇破海底城 => zh-tw:海底城;",
+      "conv": "The Spy Who Loved Me "
+    },
+    {
+      "original": "zh-cn:太空城;zh-hk:鐵金剛勇破太空城; zh-tw:太空城;",
+      "conv": "Moonraker "
+    },
+    {
+      "original": "勇破太空城 => zh-cn:太空城; 勇破太空城 => zh-tw:太空城;",
+      "conv": "Moonraker "
+    },
+    {
+      "original": "zh-cn:只为你的双眼; zh-tw:最高機密; zh-hk:鐵金剛勇破海龍幫; zh-mo:鐵金剛勇破海龍幫;",
+      "conv": "For Your Eyes Only "
+    },
+    {
+      "original": "勇破海龍幫 => zh-cn:只为你的双眼; 勇破海龍幫 => zh-tw:最高機密;",
+      "conv": "For Your Eyes Only "
+    },
+    {
+      "original": "zh-cn:八爪女;zh-tw:八爪女; zh-hk:鐵金剛勇破爆炸黨; zh-mo:鐵金剛勇破爆炸黨;",
+      "conv": "Octopussy "
+    },
+    {
+      "original": "勇破爆炸黨 => zh-cn:八爪女; 勇破爆炸黨 => zh-tw:八爪女;",
+      "conv": "Octopussy "
+    },
+    {
+      "original": "zh-cn:雷霆杀机; zh-tw:雷霆殺機; zh-hk:鐵金剛勇戰大狂魔; zh-mo:鐵金剛勇戰大狂魔;",
+      "conv": "A View to a Kill "
+    },
+    {
+      "original": "勇戰大狂魔 => zh-cn:雷霆杀机; 勇戰大狂魔 => zh-tw:雷霆殺機;",
+      "conv": "A View to a Kill "
+    },
+    {
+      "original": "zh-cn:黎明杀机; zh-tw:黎明生機; zh-hk:鐵金剛大戰特務飛龍; zh-mo:鐵金剛大戰特務飛龍;",
+      "conv": "The Living Daylights "
+    },
+    {
+      "original": "大戰特務飛龍 => zh-cn:黎明杀机; 大戰特務飛龍 => zh-tw:黎明生機;",
+      "conv": "The Living Daylights "
+    },
+    {
+      "original": "zh-cn:杀人执照; zh-tw:殺人執照; zh-hk:鐵金剛勇戰殺人狂魔; zh-mo:鐵金剛勇戰殺人狂魔;",
+      "conv": "Licence to Kill "
+    },
+    {
+      "original": "勇戰殺人狂魔 => zh-cn:杀人执照; 勇戰殺人狂魔 => zh-tw:殺人執照;",
+      "conv": "Licence to Kill "
+    },
+    {
+      "original": "zh-cn:黄金眼; zh-tw:黃金眼; zh-hk:新鐵金剛之金眼睛;",
+      "conv": "GoldenEye "
+    },
+    {
+      "original": "金眼睛 => zh-cn:黄金眼; 金眼睛 => zh-tw:黃金眼",
+      "conv": "GoldenEye "
+    },
+    {
+      "original": "zh-cn:明日帝国; zh-hk:新鐵金剛之明日帝國; zh-tw:明日帝國;",
+      "conv": "Tomorrow Never Dies "
+    },
+    {
+      "original": "zh-cn:黑日危机; zh-tw:縱橫天下; zh-hk:新鐵金剛之黑日危機; zh-mo:新鐵金剛之黑日危機;",
+      "conv": "The World Is Not Enough "
+    },
+    {
+      "original": "zh-cn:择日而亡; zh-tw:誰與爭鋒; zh-hk:新鐵金剛之不日殺機; zh-mo:新鐵金剛之不日殺機;",
+      "conv": "Die Another Day "
+    },
+    {
+      "original": "不日殺機 => zh-cn:择日而亡; 不日殺機 => zh-tw:誰與爭鋒;",
+      "conv": "Die Another Day "
+    },
+    {
+      "original": "zh-cn:007：大战皇家赌场; zh-tw:007首部曲：皇家夜總會; zh-hk:新鐵金剛智破皇家賭場; zh-mo:新鐵金剛智破皇家賭場;",
+      "conv": "Casino Royale "
+    },
+    {
+      "original": "zh-cn:大战皇家赌场; zh-tw:皇家夜總會; zh-hk:智破皇家賭場; zh-mo:智破皇家賭場;",
+      "conv": "Casino Royale "
+    },
+    {
+      "original": "zh-cn:007：大破量子危机; zh-tw:007量子危機; zh-hk:新鐵金剛之量子殺機;",
+      "conv": "Quantum of Solace "
+    },
+    {
+      "original": "zh-cn:大破量子危机; zh-tw:量子危機; zh-hk:量子殺機;",
+      "conv": "Quantum of Solace "
+    },
+    {
+      "original": "zh-cn:007：大破天幕杀机; zh-tw:007：空降危機; zh-hk:新鐵金剛：智破天凶城;",
+      "conv": "Skyfall "
+    },
+    {
+      "original": "zh-cn:大破天幕杀机; zh-tw:空降危機; zh-hk:智破天凶城;",
+      "conv": "Skyfall "
+    },
+    {
+      "original": "zh-cn:007：幽灵党; zh-tw:007：惡魔四伏; zh-hk:007：鬼影帝國;",
+      "conv": "Spectre "
+    },
+    {
+      "original": "zh-tw:惡魔四伏; zh-hk:鬼影帝國;鬼影帝國 => zh-cn:幽灵党;惡魔四伏 => zh-cn:幽灵党;",
+      "conv": "Spectre "
+    },
+    {
+      "original": "zh-cn:007：无暇赴死; zh-tw:007：生死交戰; zh-hk:007：生死有時;",
+      "conv": "No Time to Die "
+    },
+    {
+      "original": "zh-cn:无暇赴死; zh-tw:生死交戰; zh-hk:生死有時;",
+      "conv": "No Time to Die "
+    },
+    {
+      "original": "zh-cn:皮尔斯·布鲁斯南;zh-hk:皮雅斯·布士南;zh-tw:皮爾斯·布洛斯南;",
+      "conv": "Pierce Brosnan "
+    },
+    {
+      "original": "zh-cn:布鲁斯南;zh-hk:布士南;zh-tw:布洛斯南;",
+      "conv": "(Pierce) Brosnan "
+    },
+    {
+      "original": "zh-cn:肖恩·康纳利;zh-hk:辛·康納利;zh-tw:史恩·康納萊;",
+      "conv": "Sean Connery "
+    },
+    {
+      "original": "zh-cn:丹尼尔·克雷格;zh-hk:丹尼爾·基克;zh-tw:丹尼爾·克雷格;",
+      "conv": "Daniel Craig "
+    },
+    {
+      "original": "zh-cn:克雷格;zh-hk:基克;zh-tw:克雷格;",
+      "conv": "(Daniel) Craig "
+    },
+    {
+      "original": "zh-cn:蒂姆西·道尔顿;zh-hk:鐵摩·達頓;zh-tw:提摩西·達頓;",
+      "conv": "Timothy Dalton "
+    },
+    {
+      "original": "zh-cn:伊恩·弗莱明;zh-hk:伊安·法蘭明;zh-tw:伊恩·佛萊明;",
+      "conv": "Ian Fleming "
+    },
+    {
+      "original": "zh-cn:乔治·拉兹比;zh-hk:佐治·拉辛比;zh-tw:喬治·拉贊貝;",
+      "conv": "George Lazenby "
+    },
+    {
+      "original": "zh-cn:罗杰·摩尔;zh-hk:羅渣·摩亞;zh-tw:羅傑·摩爾;",
+      "conv": "Roger Moore "
+    },
+    {
+      "original": "zh-cn:伊娃·格林; zh-tw:伊娃·葛林; zh-hk:伊娃·格蓮;",
+      "conv": "Eva Green"
+    },
+    {
+      "original": "zh-cn:詹姆斯·邦德;zh-hk:占士·邦;zh-sg:占士·邦;zh-tw:詹姆士·龐德;",
+      "conv": "James Bond "
+    },
+    {
+      "original": "zh-cn:詹姆斯·邦德;zh-hk:占士·邦;zh-sg:占士·邦;zh-tw:詹姆士·龐德;",
+      "conv": "James Bond "
+    },
+    {
+      "original": "zh-cn:詹姆斯;zh-hk:占士;zh-sg:詹姆士;zh-tw:詹姆士;",
+      "conv": "James (Bond) "
+    },
+    {
+      "original": "zh-cn:邦德;zh-hk:邦;zh-sg:龐德;zh-tw:龐德;",
+      "conv": "(James) Bond "
+    },
+    {
+      "original": "zh-cn:邦女郎;zh-hk:邦女郎;zh-sg:龐德女郎;zh-tw:龐德女郎;",
+      "conv": "(James) Bond Girl"
+    },
+    {
+      "original": "zh-cn:希弗斯; zh-tw:契夫軻;zh-hk:利志弗;",
+      "conv": "Chiffre "
+    },
+    {
+      "original": "zh-cn:曼妮佩妮;zh-tw:曼妮潘妮;zh-hk:文盼妮;",
+      "conv": "Moneypenny"
+    },
+    {
+      "original": "zh-cn:费利克斯;zh-tw:菲力克斯;zh-hk:菲力士;",
+      "conv": "Felix (Leiter)"
+    },
+    {
+      "original": "zh-cn:雷特;zh-tw:萊德;zh-hk:拉塔;",
+      "conv": "(Felix) Leiter"
+    },
+    {
+      "original": "zh-cn:薇丝朋·琳德;zh-hk:慧絲柏·蓮;zh-tw:薇絲朋·琳德;zh-mo:慧絲柏·蓮;",
+      "conv": "Vesper Lynd"
+    },
+    {
+      "original": "zh-cn:怀特先生; zh-tw:白博士; zh-hk:懷特先生;",
+      "conv": "Mr.White"
+    },
+    {
+      "original": "zh-cn:幽灵党; zh-tw:惡魔黨; zh-hk:魔鬼黨;",
+      "conv": "SPECTRE "
+    },
+    {
+      "original": "zh-tw:恩斯特·史塔羅·布洛菲; zh-hk:恩斯·史達魯·布魯弗;",
+      "conv": "Ernst Stavro Blofeld "
+    },
+    {
+      "original": "zh-tw:布洛菲; zh-hk:布魯弗;",
+      "conv": "(Ernst Stavro) Blofeld "
+    },
+    {
+      "original": "zh-cn:天幕庄园; zh-tw:空降莊園; zh-hk:天塌;",
+      "conv": "Skyfall "
+    },
+    {
+      "original": "zh-cn:席尔瓦; zh-tw:西法; zh-hk:施化;",
+      "conv": "Silva "
+    },
+    {
+      "original": "zh-cn:玛德琳; zh-tw:瑪德琳; zh-hk:瑪德蓮;",
+      "conv": "Madeleine (Swann) "
+    },
+    {
+      "original": "zh-cn:斯旺; zh-tw:史旺; zh-hk:絲雲;",
+      "conv": "(Madeleine) Swann "
+    },
+    {
+      "original": "zh-cn:玛蒂尔德; zh-hk:瑪蒂德;",
+      "conv": "Mathilde "
+    },
+    {
+      "original": "zh-tw:法蘭茲·奧柏豪瑟; zh-hk:法蘭斯·奧巴侯沙;",
+      "conv": "Franz Oberhauser "
+    },
+    {
+      "original": "zh-cn:蒂亚戈·罗德里格斯; zh-tw:迪亞哥·羅里葛茲; zh-hk:駱哲高;",
+      "conv": "Tiago Rodriguez "
+    },
+    {
+      "original": "zh-cn:吕西弗; zh-hk:魯西法;",
+      "conv": "Lyutsifer (Safin) "
+    },
+    {
+      "original": "zh-cn:萨芬; zh-hk:薩菲;",
+      "conv": "(Lyutsifer) Safin "
+    },
+    {
+      "original": "zh-cn:诺米; zh-tw:諾咪; zh-hk:奈美;",
+      "conv": "Nomi "
+    },
+    {
+      "original": "zh-cn:罗根; zh-tw:羅根; zh-hk:勞根;",
+      "conv": "Logan (Ash) "
+    },
+    {
+      "original": "zh-cn:艾许; zh-tw:艾許; zh-hk:艾殊;",
+      "conv": "(Logan) Ash "
+    },
+    {
+      "original": "zh-cn:瓦尔多; zh-hk:維杜;",
+      "conv": "Valdo (Obruchev) "
+    },
+    {
+      "original": "zh-cn:奥布鲁切夫; zh-hk:奧齊;",
+      "conv": "(Valdo) Obruchev "
+    },
+    {
+      "original": "zh-cn:坦纳; zh-tw:坦納; zh-hk:唐納;",
+      "conv": "(Bill) Tanner "
+    },
+    {
+      "original": "zh-cn:赫拉克勒斯; zh-hk:海克力斯;",
+      "conv": "Heracles"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "name": "ResidentEvil",
+  "description": "ResidentEvil",
+  "path": "Module:CGroup/ResidentEvil",
+  "rules": [
+    {
+      "original": "Resident Evil",
+      "conv": "zh-cn:生化危机; zh-tw:惡靈古堡; zh-hk:生化危機;"
+    },
+    {
+      "original": "Code: Veronica",
+      "conv": "zh-cn: 代号：维罗妮卡; zh-tw:聖女密碼; zh-hk:聖女密碼;"
+    },
+    {
+      "original": "The Darkside Chronicles",
+      "conv": "zh-cn:暗黑编年史; zh-tw:黑暗面編年史;"
+    },
+    {
+      "original": "Gun Survivor",
+      "conv": "zh-cn:枪下游魂; zh-tw:生存遊戲; zh-hk:槍下遊魂;"
+    },
+    {
+      "original": "Resident Evil: Outbreak",
+      "conv": "zh-cn:生化危机 逃出生天; zh-tw:惡靈古堡 擴散; zh-hk:生化危機 逃出生天;"
+    },
+    {
+      "original": "Outbreak",
+      "conv": "zh-cn:逃出生天; zh-tw:擴散; zh-hk:逃出生天;"
+    },
+    {
+      "original": "Resident Evil: Revelations",
+      "conv": "zh-cn:生化危机 启示录; zh-tw:惡靈古堡 啟示; zh-hk:生化危機 啟示;"
+    },
+    {
+      "original": "Resident Evil 7: Biohazard",
+      "conv": "zh-cn:生化危机7; zh-tw:惡靈古堡7 生化危機; zh-hk:生化危機7 惡靈古堡;"
+    },
+    {
+      "original": "Resident Evil (movie)",
+      "conv": "zh-cn:生化危机 (电影); zh-tw:惡靈古堡 (電影); zh-hk:生化危機之變種生還者;"
+    },
+    {
+      "original": "Resident Evil: Apocalypse",
+      "conv": "zh-cn:生化危机2：启示录; zh-tw:惡靈古堡2：啟示錄; zh-hk:生化危機之殲滅生還者;"
+    },
+    {
+      "original": "Resident Evil: Extinction",
+      "conv": "zh-cn:生化危机3：灭绝; zh-tw:惡靈古堡3：大滅絕; zh-hk:生化危機3：絕種生還者;"
+    },
+    {
+      "original": "Resident Evil: Afterlife",
+      "conv": "zh:生化危機4：陰陽界; zh-cn:生化危机4：来生; zh-tw:惡靈古堡4：陰陽界; zh-hk:生化危機3D：戰神再生;"
+    },
+    {
+      "original": "Resident Evil: Retributio",
+      "conv": "zh-cn:生化危机：惩罚; zh-tw:惡靈古堡5：天譴日;zh-hk:生化危機之滅絕真相;"
+    },
+    {
+      "original": "Resident Evil: The Final Chapter",
+      "conv": "zh-cn:生化危机6：终章; zh-tw:惡靈古堡：最終章; zh-hk:生化危機：終極屍殺;"
+    },
+    {
+      "original": "Resident Evil: Degeneration",
+      "conv": "zh:生化危機：惡化; zh-cn:生化危机：恶化; zh-tw:惡靈古堡：惡化; zh-hk:生化危機：變種異獸;"
+    },
+    {
+      "original": "Resident Evil: Damnation",
+      "conv": "zh:生化危機：詛咒; zh-cn:生化危机：诅咒; zh-tw:惡靈古堡：詛咒; zh-hk:生化危機：詛咒之城;"
+    },
+    {
+      "original": "Resident Evil: Vendetta",
+      "conv": "zh:生化危机：血仇; zh-cn:生化危机：复仇; zh-tw:惡靈古堡：血仇; zh-hk:生化危機：血仇殺戮;"
+    },
+    {
+      "original": "Resident Evil: Infinite Darkness",
+      "conv": "zh-cn:生化危机：无尽黑暗; zh-sg:生化危机：无尽黑暗; zh-tw:惡靈古堡：無盡闇黑; zh-hk:生化危機：無盡黑暗;"
+    },
+    {
+      "original": "Albert",
+      "conv": "zh-cn:阿尔伯特; zh-tw:亞伯;"
+    },
+    {
+      "original": "Ashley",
+      "conv": "zh-cn:阿什莉; zh-hk:雅士利; zh-tw:愛旭莉;"
+    },
+    {
+      "original": "Benford",
+      "conv": "zh-cn:本福德; zh-hk:班佛; zh-tw:班福德;"
+    },
+    {
+      "original": "Coen",
+      "conv": "zh-cn:科恩; zh-hk:寇恩; zh-tw:柯恩;"
+    },
+    {
+      "original": "Chambers",
+      "conv": "zh-cn:珍巴斯; zh-hk:錢伯斯; zh-tw:錢伯斯;"
+    },
+    {
+      "original": "Claire",
+      "conv": "zh-cn:克莱尔; zh-tw:克蕾兒;"
+    },
+    {
+      "original": "Deborah",
+      "conv": "zh-cn:黛博拉; zh-hk:黛博拉;zh-tw:黛波拉;"
+    },
+    {
+      "original": "Finn Macauley",
+      "conv": "zh-cn:芬恩·麦考雷; zh-tw:芬·馬科雷; zh-hk:芬·麥考雷;"
+    },
+    {
+      "original": "Graham",
+      "conv": "zh-cn:格林汉姆; zh-hk:格拉漢;zh-tw:葛拉漢;"
+    },
+    {
+      "original": "Helena",
+      "conv": "zh-cn:海莲娜; zh-hk:海蓮娜;zh-tw:海倫娜;"
+    },
+    {
+      "original": "Hunnigan",
+      "conv": "zh-cn:海尼根; zh-hk:漢尼根;zh-tw:漢妮卡;"
+    },
+    {
+      "original": "Jill",
+      "conv": "zh-cn:吉尔; zh-tw:吉兒;"
+    },
+    {
+      "original": "Jovovichy",
+      "conv": "zh-cn:乔沃维奇; zh-tw:喬娃薇琪; zh-hk:祖華域芝;"
+    },
+    {
+      "original": "Kennedy",
+      "conv": "zh-cn:肯尼迪; zh-hk:肯尼迪; zh-tw:甘乃迪;"
+    },
+    {
+      "original": "Milla",
+      "conv": "zh-cn:米拉; zh-tw:蜜拉; zh-hk:米娜;"
+    },
+    {
+      "original": "Muller",
+      "conv": "zh-cn:穆勒; zh-tw:謬拉; zh-hk:米勒;"
+    },
+    {
+      "original": "Macauley",
+      "conv": "zh-cn:麦考雷; zh-hk:麥考雷; zh-tw:馬科雷;"
+    },
+    {
+      "original": "Nivans",
+      "conv": "zh-cn:奈文斯; zh-tw:尼凡斯;"
+    },
+    {
+      "original": "Radames",
+      "conv": "zh-cn:雷达姆斯; zh-hk:拉德梅斯;zh-tw:拉達梅斯;"
+    },
+    {
+      "original": "Rebecca",
+      "conv": "zh-cn:瑞贝卡; zh-hk:瑞貝卡; zh-tw:蕾貝卡;"
+    },
+    {
+      "original": "Red Queen",
+      "conv": "zh-cn:红后; zh-tw:紅后;"
+    },
+    {
+      "original": "Redfiel",
+      "conv": "zh-cn:雷德菲尔德; zh-tw:雷德菲爾;"
+    },
+    {
+      "original": "Scott",
+      "conv": "zh-cn:斯科特; zh-hk:史考特; zh-tw:史考特;"
+    },
+    {
+      "original": "Simmons",
+      "conv": "zh-cn:西蒙; zh-hk:西蒙;zh-tw:西蒙斯;"
+    },
+    {
+      "original": "Valentine",
+      "conv": "zh-cn:瓦伦蒂安; zh-tw:范倫廷;"
+    },
+    {
+      "original": "Wesker",
+      "conv": "zh-cn:威斯克; zh-hk:維斯卡;zh-tw:威斯卡;"
+    },
+    {
+      "original": "Umbrella",
+      "conv": "zh-cn:安布雷拉; zh-hk:雨傘; zh-tw:保護傘;"
+    },
+    {
+      "original": "Raccoon City",
+      "conv": "zh-cn:浣熊市; zh-hk:浣熊市; zh-tw:拉昆市;"
+    },
+    {
+      "original": "Zombie",
+      "conv": "zh-cn:丧尸; zh-hk:喪屍; zh-tw:殭屍;"
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "name": "Football",
+  "description": "[[足球]]",
+  "path": "Module:CGroup/Football",
+  "rules": [
+    {
+      "original": "Advance to",
+      "conv": "zh-hant:晉身;zh-cn:晋级"
+    },
+    {
+      "original": "Avoid relegation",
+      "conv": "zh-cn:保级;zh-hk:護級;zh-tw:保級;zh-mo:保組"
+    },
+    {
+      "original": "Bosman",
+      "conv": "zh-cn:博斯曼;zh-hk:波士文;zh-tw:博斯曼"
+    },
+    {
+      "original": "Compete",
+      "conv": "zh-cn:比赛;zh-hk:作賽;zh-tw:比賽"
+    },
+    {
+      "original": "Derby",
+      "conv": "zh-cn:德比;zh-tw:德比;zh-hk:打吡"
+    },
+    {
+      "original": "Draw",
+      "conv": "zh-cn:战平; zh-tw:戰平; zh-hk:賽和;"
+    },
+    {
+      "original": "Each Round",
+      "conv": "zh-cn:每轮; zh-tw:每輪; zh-hk:每圈;"
+    },
+    {
+      "original": "Entered",
+      "conv": "zh-cn:闯进; zh-tw:闖入; zh-hk:殺入;"
+    },
+    {
+      "original": "Entered",
+      "conv": "zh-cn:打进; zh-tw:打入; zh-hk:打入;"
+    },
+    {
+      "original": "Extra time",
+      "conv": "zh-cn:加时;zh-tw:延長賽;zh-hk:加時"
+    },
+    {
+      "original": "Extra time",
+      "conv": "zh-cn:加时赛;zh-tw:延長賽;zh-hk:加時賽;zh-hans:加时赛;zh-hant:加時賽"
+    },
+    {
+      "original": "Final stage",
+      "conv": "zh-cn:决赛圈;zh-tw:決賽圈;zh-hk:決賽週"
+    },
+    {
+      "original": "First Division",
+      "conv": "zh-cn:甲级联赛;zh-hk:甲組聯賽;zh-tw:甲級聯賽"
+    },
+    {
+      "original": "First Division",
+      "conv": "zh-cn:足球甲级联赛;zh-hk:甲組足球聯賽;zh-tw:甲級足球聯賽"
+    },
+    {
+      "original": "First start",
+      "conv": "zh-cn:首发;zh-tw:先發;zh-hk:正選"
+    },
+    {
+      "original": "Free agent",
+      "conv": "自由球員=>zh-cn:自由球员"
+    },
+    {
+      "original": "Free kick",
+      "conv": "zh-cn:任意球;zh-tw:自由球;zh-hk:自由球"
+    },
+    {
+      "original": "Free kick",
+      "conv": "罰球=>zh:罰球; 罰球=>zh-cn:任意球; 罰球=>zh-tw:自由球; 罰球=>zh-hk:罰球;"
+    },
+    {
+      "original": "Friendly",
+      "conv": "友賽=>zh:友賽; 友賽=>zh-cn:友谊赛; 友賽=>zh-sg:友谊赛; 友賽=>zh-tw:友誼賽; 友賽=>zh-hk:友賽; 友賽=>zh-mo:友誼賽;"
+    },
+    {
+      "original": "Giants",
+      "conv": "zh-cn:豪门;zh-tw:班霸;zh-hk:班霸"
+    },
+    {
+      "original": "Goal",
+      "conv": "zh-cn:进球;zh-tw:進球;zh-hk:入球;zh-mo:入球;"
+    },
+    {
+      "original": "Goal difference",
+      "conv": "zh-cn:净胜球;zh-hk:得失球;zh-tw:淨球數"
+    },
+    {
+      "original": "Goal difference",
+      "conv": "zh-cn:净胜;zh-hk:得失球;zh-tw:淨球數"
+    },
+    {
+      "original": "Group stage",
+      "conv": "zh-cn:小组赛;zh-hk:分組賽"
+    },
+    {
+      "original": "Penalty kick",
+      "conv": "zh-hans:十二码;zh-cn:点球;zh-tw:十二碼;zh-hk:十二碼"
+    },
+    {
+      "original": "Penalty kick",
+      "conv": "點球=>zh-hans:十二码;點球=>zh-cn:点球;點球=>zh-tw:十二碼;點球=>zh-hk:十二碼"
+    },
+    {
+      "original": "Penalty kick",
+      "conv": "12碼=>zh-hans:十二码;12碼=>zh-cn:点球;12碼=>zh-tw:十二碼;12碼=>zh-hk:十二碼"
+    },
+    {
+      "original": "Penalty shoot-out",
+      "conv": "zh-cn:点球大战;zh-tw:PK大戰;zh-hk:互射十二碼"
+    },
+    {
+      "original": "Play for the team",
+      "conv": "zh-cn:上场;zh-tw:上場;zh-hk:上陣"
+    },
+    {
+      "original": "Play-off Round",
+      "conv": "zh-cn:附加赛轮;zh-tw:附加賽輪;zh-hk:附加賽圈"
+    },
+    {
+      "original": "Promotion",
+      "conv": "zh-cn:升级;zh-tw:升級;zh-hk:升班"
+    },
+    {
+      "original": "Qualification",
+      "conv": "zh-cn:预选赛;zh-hk:外圍賽"
+    },
+    {
+      "original": "Qualification",
+      "conv": "zh-cn:常规赛;zh-tw:例行賽;zh-hk:常規賽"
+    },
+    {
+      "original": "Away goals rule",
+      "conv": "zh:作客进球优惠制;zh-cn:客场进球制度;zh-hk:作客入球優惠;zh-mo:作客入球優惠"
+    },
+    {
+      "original": "Quarter-Finals",
+      "conv": "zh-cn:四分之一决赛;zh-tw:半準決賽;zh-hk:半準決賽"
+    },
+    {
+      "original": "Quarter-Finals",
+      "conv": "1/4决赛=>zh-hans:四分之一决赛;1/4决赛=>zh-cn:四分之一决赛;1/4决赛=>zh-tw:半準決賽;1/4决赛=>zh-hk:半準決賽"
+    },
+    {
+      "original": "Red card",
+      "conv": "zh-cn:红牌;zh-sg:红卡;zh-hant:紅牌;zh-hans:红牌"
+    },
+    {
+      "original": "Relegation",
+      "conv": "zh-cn:降级;zh-tw:降級;zh-hk:降班"
+    },
+    {
+      "original": "Rounds",
+      "conv": "圈數=>zh-cn:轮次;圈數=>zh-tw:輪次;圈數=>zh-hk:圈數;"
+    },
+    {
+      "original": "Round 1",
+      "conv": "zh-cn:初赛轮;zh-tw:初賽輪;zh-hk:初賽圈"
+    },
+    {
+      "original": "Round 1",
+      "conv": "zh-cn:第一轮;zh-tw:第一輪;zh-hk:第一圈"
+    },
+    {
+      "original": "Round 2",
+      "conv": "zh-cn:第二轮;zh-tw:第二輪;zh-hk:第二圈"
+    },
+    {
+      "original": "Round 1",
+      "conv": "zh-cn:首轮;zh-tw:首輪;zh-hk:首圈"
+    },
+    {
+      "original": "Round 2",
+      "conv": "zh-cn:次轮;zh-tw:次輪;zh-hk:次圈"
+    },
+    {
+      "original": "Round 3",
+      "conv": "zh-cn:第三轮;zh-tw:第三輪;zh-hk:第三圈"
+    },
+    {
+      "original": "Round 4",
+      "conv": "zh-cn:第四轮;zh-tw:第四輪;zh-hk:第四圈"
+    },
+    {
+      "original": "Round 5",
+      "conv": "zh-cn:第五轮;zh-tw:第五輪;zh-hk:第五圈"
+    },
+    {
+      "original": "Round 6",
+      "conv": "zh-cn:第六轮;zh-tw:第六輪;zh-hk:第六圈"
+    },
+    {
+      "original": "Round 7",
+      "conv": "zh-cn:第七轮;zh-tw:第七輪;zh-hk:第七圈"
+    },
+    {
+      "original": "Round 8",
+      "conv": "zh-cn:第八轮;zh-tw:第八輪;zh-hk:第八圈"
+    },
+    {
+      "original": "Round 9",
+      "conv": "zh-cn:第九轮;zh-tw:第九輪;zh-hk:第九圈"
+    },
+    {
+      "original": "Further round",
+      "conv": "zh-cn:下一轮;zh-tw:下一輪;zh-hk:下一圈"
+    },
+    {
+      "original": "Round of 16",
+      "conv": "zh-cn:八分之一决赛;zh-tw:十六強賽;zh-hk:十六強"
+    },
+    {
+      "original": "Score",
+      "conv": "zh-cn:比分; zh-tw:比數; zh-hk:比數"
+    },
+    {
+      "original": "Season",
+      "conv": "zh-cn:赛季;zh-tw:球季;zh-hk:球季"
+    },
+    {
+      "original": "Second Division",
+      "conv": "zh-cn:乙级联赛;zh-hk:乙組聯賽;zh-tw:乙級聯賽"
+    },
+    {
+      "original": "Second Division",
+      "conv": "zh-cn:足球乙级联赛;zh-hk:乙組足球聯賽;zh-tw:乙級足球聯賽"
+    },
+    {
+      "original": "Semi-Finals",
+      "conv": "zh-cn:半决赛;zh-tw:準決賽;zh-hk:準決賽"
+    },
+    {
+      "original": "Set piece",
+      "conv": "zh-cn:定位球;zh-hk:死球;zh-mo:定點球;"
+    },
+    {
+      "original": "Sudden death",
+      "conv": "zh-cn:突然死亡;zh-tw:驟死賽;zh-hk:突然死亡"
+    },
+    {
+      "original": "Two-legged tie",
+      "conv": "主客场两场制=>zh-cn:主客场两回合制;主客场两场制=>zh-tw:主客場淘汰賽"
+    },
+    {
+      "original": "Third Division",
+      "conv": "zh-cn:丙级联赛;zh-hk:丙組聯賽;zh-tw:丙級聯賽"
+    },
+    {
+      "original": "Third Division",
+      "conv": "zh-cn:足球丙级联赛;zh-hk:丙組足球聯賽;zh-tw:丙級足球聯賽"
+    },
+    {
+      "original": "Third place",
+      "conv": "zh-cn:三、四名决赛;zh-hk:季軍戰"
+    },
+    {
+      "original": "Third place playoff",
+      "conv": "zh-cn:三、四名决赛;zh-hk:季軍戰"
+    },
+    {
+      "original": "To represent the team to play",
+      "conv": "zh-cn:比赛;zh-tw:比賽;zh-hk:比賽"
+    },
+    {
+      "original": "Top scorer",
+      "conv": "zh-cn:最佳射手;zh-tw:神射手;zh-hk:神射手"
+    },
+    {
+      "original": "Total",
+      "conv": "zh-cn:总共;zh-tw:總共;zh-hk:合共"
+    },
+    {
+      "original": "Professional Footballer",
+      "conv": "zh-hant:足球運動員;zh-cn:足球运动员;zh-tw:職業足球員;zh-hk:職業足球員"
+    },
+    {
+      "original": "Professional Footballer",
+      "conv": "職業足球運動員=>zh-hk:職業足球員;職業足球運動員=>zh-tw:職業足球員"
+    },
+    {
+      "original": "Professional Footballer",
+      "conv": "职业足球运动员=>zh-hk:職業足球員;职业足球运动员=>zh-tw:職業足球員"
+    },
+    {
+      "original": "Professional Footballer",
+      "conv": "職業職業足球員=>zh-hk:職業足球員;職業職業足球員=>zh-cn:职业足球运动员;職業職業足球員=>zh-tw:職業足球員"
+    },
+    {
+      "original": "Professional Footballer",
+      "conv": "足球員=>zh-cn:足球运动员"
+    },
+    {
+      "original": "Yellow card",
+      "conv": "zh-cn:黄牌;zh-sg:黄卡;zh-hant:黃牌;zh-hans:黄牌"
+    },
+    {
+      "original": "Stadium",
+      "conv": "zh-cn:体育场; zh-tw:體育場; zh-hk:運動場;"
+    },
+    {
+      "original": "Manager",
+      "conv": "zh-cn:主教练;zh-tw:總教練;zh-hk:領隊"
+    },
+    {
+      "original": "Goalkeeper",
+      "conv": "zh-hk:龍門;zh-cn:守门员;zh-tw:守門員;"
+    },
+    {
+      "original": "Central defender",
+      "conv": "zh-cn:中后卫;zh-tw:中後衛;zh-hk:中堅"
+    },
+    {
+      "original": "Right back",
+      "conv": "zh-cn:右后卫;zh-tw:右後衛;zh-hk:右閘"
+    },
+    {
+      "original": "Left back",
+      "conv": "zh-cn:左后卫;zh-tw:左後衛;zh-hk:左閘"
+    },
+    {
+      "original": "Defensive midfielder",
+      "conv": "zh-cn:后腰;zh-tw:後腰;zh-hk:防守中場;"
+    },
+    {
+      "original": "Attacking midfielder",
+      "conv": "zh-cn:前腰;zh-tw:前腰;zh-hk:進攻中場;"
+    },
+    {
+      "original": "Central midfielder",
+      "conv": "zh-cn:中前卫;zh-tw:中前衛;zh-hk:正中場;"
+    },
+    {
+      "original": "Deep-lying playmaker",
+      "conv": "zh-cn:拖后组织核心;zh-tw:拖後組織核心;zh-hk:墮後組織核心;"
+    },
+    {
+      "original": "Playmaker",
+      "conv": "zh-cn:组织核心;zh-tw:組織核心;zh-hk:組織核心;"
+    },
+    {
+      "original": "Wing",
+      "conv": "zh-cn:边锋;zh-tw:邊鋒;zh-hk:翼鋒"
+    },
+    {
+      "original": "Substitute",
+      "conv": "zh-cn:替补;zh-tw:替補;zh-hk:入替"
+    },
+    {
+      "original": "Referee",
+      "conv": "zh-cn:裁判;zh-tw:裁判;zh-hk:球證"
+    },
+    {
+      "original": "Fourth official",
+      "conv": "zh-cn:第四官员;zh-tw:第四裁判;zh-hk:第四球證"
+    },
+    {
+      "original": "Assistants",
+      "conv": "zh-cn:助理裁判;zh-hk:旁證;zh-tw:助理裁判;"
+    },
+    {
+      "original": "Assistant referees",
+      "conv": "zh-cn:助理裁判;zh-hk:旁證;zh-tw:助理裁判;"
+    },
+    {
+      "original": "VAR",
+      "conv": "zh-tw:影像輔助裁判; zh-hans:视频助理裁判; zh-hk:視像助理裁判;"
+    },
+    {
+      "original": "UEFA Champions League",
+      "conv": "zh:欧洲冠军联赛; zh-cn:欧洲冠军联赛; zh-tw:歐洲冠軍聯賽; zh-hk:歐洲聯賽冠軍盃; zh-mo:歐洲冠軍聯賽; zh-hant:歐洲聯賽冠軍盃;"
+    },
+    {
+      "original": "UEFA Champions League",
+      "conv": "歐洲聯賽冠軍杯=>zh-hk:歐洲聯賽冠軍盃;"
+    },
+    {
+      "original": "UEFA Champions League",
+      "conv": "zh:欧冠联赛; zh-cn:欧冠联赛; zh-tw:歐冠聯賽; zh-hk:歐聯; zh-mo:歐冠聯賽;"
+    },
+    {
+      "original": "UEFA Champions League",
+      "conv": "zh:欧冠联; zh-cn:欧冠联; zh-tw:歐冠聯; zh-hk:歐聯; zh-mo:歐冠聯;"
+    },
+    {
+      "original": "UEFA Champions League",
+      "conv": "zh:欧冠; zh-cn:欧冠; zh-tw:歐冠; zh-hk:歐聯; zh-mo:歐冠;"
+    },
+    {
+      "original": "European Champion Clubs' Cup",
+      "conv": "zh:歐冠杯; zh-cn:欧冠杯; zh-tw:歐冠盃; zh-hk:歐冠盃; zh-mo:歐冠盃;"
+    },
+    {
+      "original": "European Champion Clubs' Cup",
+      "conv": "zh-cn:欧洲冠军俱乐部杯; zh-tw:歐洲冠軍俱樂部盃; zh-hk:歐洲冠軍球會盃; zh-mo:歐洲冠軍球會盃;"
+    },
+    {
+      "original": "European Champion Cup",
+      "conv": "zh-cn:欧洲冠军杯; zh-tw:歐洲冠軍盃; zh-hk:歐洲冠軍球會盃; zh-mo:歐洲冠軍球會盃;"
+    },
+    {
+      "original": "UEFA Europa League",
+      "conv": "zh:欧足联欧洲联赛; zh-cn:欧足联欧洲联赛; zh-tw:歐足總歐洲聯賽; zh-hk:歐洲足協歐霸盃; zh-mo:歐足協歐洲聯賽; zh-sg:欧足总欧洲联赛; zh-hant:歐霸盃足球聯賽;"
+    },
+    {
+      "original": "UEFA Europa League",
+      "conv": "zh:欧罗巴联赛; zh-cn:欧罗巴联赛; zh-tw:歐羅巴聯賽; zh-hk:歐霸盃; zh-mo:歐洲聯賽;"
+    },
+    {
+      "original": "UEFA Europa League",
+      "conv": "zh:欧联杯; zh-cn:欧联杯; zh-tw:歐聯盃; zh-hk:歐霸盃; zh-mo:歐洲聯賽; zh-hant:歐聯盃;"
+    },
+    {
+      "original": "UEFA Europa League",
+      "conv": "zh:欧洲联赛; zh-cn:欧洲联赛; zh-tw:歐洲聯賽; zh-hk:歐霸盃; zh-mo:歐洲聯賽;"
+    },
+    {
+      "original": "UEFA Europa League",
+      "conv": "zh:欧罗巴; zh-cn:欧罗巴; zh-tw:歐羅巴; zh-hk:歐霸; zh-mo:歐聯;"
+    },
+    {
+      "original": "UEFA Europa League",
+      "conv": "zh:欧联; zh-cn:欧联; zh-tw:歐聯; zh-hk:歐霸; zh-mo:歐聯;"
+    },
+    {
+      "original": "UCL/UEL",
+      "conv": "zh-tw:歐聯; zh-hk:歐聯; zh-mo:歐聯;"
+    },
+    {
+      "original": "UEFA Cup",
+      "conv": "zh:欧洲联盟杯; zh-cn:欧洲联盟杯; zh-tw:歐洲足總盃; zh-hk:歐洲足協盃; zh-sg:欧洲足总杯;"
+    },
+    {
+      "original": "UEFA European Football Championship",
+      "conv": "zh:欧洲足球锦标赛; zh-cn:欧洲足球锦标赛; zh-tw:歐洲足球錦標賽; zh-hk:歐洲國家盃;"
+    },
+    {
+      "original": "UEFA European Football Championship",
+      "conv": "zh:欧锦赛; zh-cn:欧锦赛; zh-hant:歐錦賽; zh-tw:歐國盃; zh-hk:歐國盃; zh-mo:歐國盃;"
+    },
+    {
+      "original": "UEFA Super Cup",
+      "conv": "zh:欧洲超级杯; zh-cn:欧洲超级杯; zh-tw:歐洲超級盃; zh-hk:歐洲超級盃; zh-mo:歐洲超級盃; zh-hant:歐洲超霸盃;"
+    },
+    {
+      "original": "FIFA Confederations Cup",
+      "conv": "zh-cn:联合会杯;zh-tw:聯合會盃;zh-hk:洲際國家盃;zh-mo:洲際國家盃;"
+    },
+    {
+      "original": "FIFA Club World Cup",
+      "conv": "zh-hans:国际足联世界俱乐部杯;zh-cn:国际足联俱乐部世界杯;zh-tw:國際足總俱樂部世界盃;zh-hk:國際足協世界冠軍球會盃;"
+    },
+    {
+      "original": "FIFA Club World Cup",
+      "conv": "zh-hans:世界俱乐部杯;zh-cn:俱乐部世界杯;zh-tw:俱樂部世界盃;zh-hk:世界冠軍球會盃;"
+    },
+    {
+      "original": "FIFA Club World Cup",
+      "conv": "zh-cn:世俱杯;zh-tw:世俱盃;zh-hk:世冠盃;"
+    },
+    {
+      "original": "Champions League",
+      "conv": "zh-cn:洲冠军联赛; zh-hk:洲聯賽冠軍盃; zh-mo:洲冠軍聯賽; zh-tw:洲冠軍聯賽;"
+    },
+    {
+      "original": "AFC Champions League",
+      "conv": "zh-hant:亞足聯冠軍聯賽; zh-cn:亚足联冠军联赛; zh-hk:亞洲聯賽冠軍盃; zh-mo:亞洲冠軍聯賽;"
+    },
+    {
+      "original": "Asian Club Championship",
+      "conv": "zh-cn:亚洲俱乐部锦标赛; zh-hk:亞洲球會錦標賽; zh-mo:亞洲冠軍球會盃;"
+    },
+    {
+      "original": "Asian Cup Winners Cup",
+      "conv": "zh-cn:亚洲优胜者杯; zh-hk:亞洲盃賽冠軍盃; zh-mo:亞洲盃賽冠軍盃;"
+    },
+    {
+      "original": "AFC Cup",
+      "conv": "zh-cn:亚足联杯;zh-hk:亞洲足協盃; zh-tw:亞洲足總盃;"
+    },
+    {
+      "original": "AFC President Cup",
+      "conv": "zh-cn:亚足联主席杯;zh-hk:亞洲足協會長盃;zh-tw:亞足聯主席盃;"
+    },
+    {
+      "original": "Copa Libertadores",
+      "conv": "zh-cn:南美解放者杯;zh-hk:南美自由盃;zh-tw:南美自由盃"
+    },
+    {
+      "original": "Jules Rimet Cup",
+      "conv": "zh-cn:雷米特杯; zh-tw:雷米金盃; zh-hk:雷米金盃;"
+    },
+    {
+      "original": "Cup",
+      "conv": "zh:杯; zh-cn:杯; zh-tw:盃; zh-hk:盃; zh-mo:盃;"
+    },
+    {
+      "original": "FA Cup",
+      "conv": "zh:足协杯; zh-cn:足协杯; zh-tw:足協盃; zh-hk:足總盃; zh-mo:足總盃;"
+    },
+    {
+      "original": "The FA Cup",
+      "conv": "zh:英格兰足总杯; zh-cn:英格兰足总杯; zh-tw:英格蘭足總盃; zh-hk:英格蘭足總盃; zh-mo:英格蘭足總盃;"
+    },
+    {
+      "original": "Serie A",
+      "conv": "zh-cn:意甲; zh-tw:義甲; zh-hk:意甲"
+    },
+    {
+      "original": "Serie B",
+      "conv": "zh-cn:意乙; zh-tw:義乙; zh-hk:意乙"
+    },
+    {
+      "original": "J-League",
+      "conv": "zh-cn:J联赛; zh-tw:日職; zh-hk:日職"
+    },
+    {
+      "original": "J-League",
+      "conv": "zh-cn:J联赛; zh-tw:日職聯; zh-hk:日職聯"
+    },
+    {
+      "original": "K-League",
+      "conv": "zh-cn:K联赛; zh-tw:K聯賽; zh-hk:韓職"
+    },
+    {
+      "original": "A-League",
+      "conv": "zh-cn:澳超; zh-tw:澳甲; zh-hk:澳職"
+    },
+    {
+      "original": "Dynamo",
+      "conv": "zh-cn:迪纳摩; zh-tw:發電機; zh-hk:戴拿模"
+    },
+    {
+      "original": "FIFA",
+      "conv": "zh-cn:国际足球联合会;zh-tw:國際足球總會;zh-hk:國際足球協會;zh-sg:国际足球总会;"
+    },
+    {
+      "original": "FIFA",
+      "conv": "zh:國際足聯;zh-cn:国际足联;zh-tw:國際足總;zh-hk:國際足協;zh-sg:国际足总;"
+    },
+    {
+      "original": "AFC",
+      "conv": "zh-cn:亚洲足球联合会;zh-tw:亞洲足球協會;zh-hk:亞洲足球協會"
+    },
+    {
+      "original": "AFC",
+      "conv": "zh-cn:亚洲足联; zh-tw:亞洲足協; zh-hk:亞洲足協"
+    },
+    {
+      "original": "AFC",
+      "conv": "zh-cn:亚足联; zh-tw:亞足協; zh-hk:亞足協"
+    },
+    {
+      "original": "Australia",
+      "conv": "zh-cn:澳大利亚; zh-tw:澳洲; zh-hk:澳洲"
+    },
+    {
+      "original": "UEFA",
+      "conv": "zh-cn:欧洲足球联合会;zh-tw:歐洲足球總會;zh-hk:歐洲足球協會;zh-sg:欧洲足球总会;"
+    },
+    {
+      "original": "UEFA",
+      "conv": "zh:歐洲足聯;zh-cn:欧洲足联;zh-tw:歐洲足總;zh-hk:歐洲足協;zh-sg:欧洲足总;"
+    },
+    {
+      "original": "UEFA",
+      "conv": "zh-cn:欧足联;zh-tw:歐足總;zh-hk:歐足協;zh-sg:欧足总;"
+    },
+    {
+      "original": "Football Federation",
+      "conv": "足球联合会=>zh:足球联合会;足球联合会=>zh-cn:足球联合会;足球联合会=>zh-hk:足球協會"
+    },
+    {
+      "original": "Football Federation",
+      "conv": "足联=>zh:足联;足联=>zh-cn:足联;足联=>zh-hk:足協;足联=>zh-tw:足協"
+    },
+    {
+      "original": "Football Association",
+      "conv": "zh-cn:足球协会;zh-tw:足球協會;zh-hk:足球總會;zh-sg:足球协会;zh-mo:足球總會;"
+    },
+    {
+      "original": "FA",
+      "conv": "zh-cn:足协;zh-hk:足總;zh-sg:足总;zh-mo:足總;"
+    },
+    {
+      "original": "The Football Association",
+      "conv": "zh-cn:英格兰足球总会;zh-tw:英格蘭足球總會;zh-hk:英格蘭足球總會;zh-sg:英格兰足球總會;zh-mo:英格蘭足球總會;"
+    },
+    {
+      "original": "the FA",
+      "conv": "zh-cn:英足总;zh-tw:英足總;zh-hk:英足總;zh-sg:英足总;zh-mo:英足總;"
+    },
+    {
+      "original": "Chinese Football Association",
+      "conv": "zh-cn:中国足球协会;zh-tw:中國足球協會;zh-hk:中國足球協會;zh-sg:中国足球协会;zh-mo:中國足球協會;"
+    },
+    {
+      "original": "Chinese Taipei Football Association",
+      "conv": "zh-cn:中华民国足球协会;zh-tw:中華民國足球協會;zh-hk:中華民國足球協會;"
+    },
+    {
+      "original": "CFA",
+      "conv": "zh-cn:中国足协;zh-tw:中國足協;zh-hk:中國足協;zh-sg:中国足协;zh-mo:中國足協;"
+    },
+    {
+      "original": "Hong Kong Football Association",
+      "conv": "zh-cn:香港足球总会;zh-tw:香港足球總會;zh-hk:香港足球總會;zh-sg:香港足球总会;zh-mo:香港足球總會;"
+    },
+    {
+      "original": "HKFA",
+      "conv": "zh-cn:香港足总;zh-tw:香港足總;zh-hk:香港足總;zh-sg:香港足总;zh-mo:香港足總;"
+    },
+    {
+      "original": "Macau Football Association",
+      "conv": "zh-cn:澳门足球总会;zh-tw:澳门足球總會;zh-hk:澳门足球總會;zh-sg:澳门足球总会;zh-mo:澳门足球總會;"
+    },
+    {
+      "original": "MFA",
+      "conv": "zh-cn:澳门足总;zh-tw:澳门足總;zh-hk:澳门足總;zh-sg:澳门足总;zh-mo:澳门足總;"
+    },
+    {
+      "original": "Football Club",
+      "conv": "zh-cn:足球俱乐部;zh-tw:足球俱樂部;zh-hk:足球會"
+    },
+    {
+      "original": "Football Club",
+      "conv": "zh-cn:俱乐部;zh-tw:俱樂部;zh-hk:球會;zh-sg:球会"
+    },
+    {
+      "original": "Sports Club",
+      "conv": "zh-cn:竞技俱乐部;zh-tw:競技俱樂部; zh-hk:體育會"
+    },
+    {
+      "original": "Sports Club",
+      "conv": "zh-hans:体育俱乐部;zh-tw:體育俱樂部;zh-hk:體育會"
+    },
+    {
+      "original": "Premier Football",
+      "conv": "zh-hans:足球超级;zh-cn:足球超级;zh-tw:足球超級;zh-hk:超級足球"
+    },
+    {
+      "original": "Championship Football League",
+      "conv": "zh-hans:足球冠军联赛;zh-cn:足球冠军联赛;zh-tw:足球冠軍聯賽;zh-hk:冠軍足球聯賽"
+    },
+    {
+      "original": "First Div Football",
+      "conv": "zh-hans:足球甲级;zh-cn:足球甲级;zh-tw:足球甲級;zh-hk:甲組足球; zh-hant:足球甲組"
+    },
+    {
+      "original": "Sec Div Football",
+      "conv": "zh-hans:足球乙级;zh-cn:足球乙级;zh-tw:足球乙級;zh-hk:乙組足球; zh-hant:足球乙組"
+    },
+    {
+      "original": "Third Div Football",
+      "conv": "zh-hans:足球丙级;zh-cn:足球丙级;zh-tw:足球丙級;zh-hk:丙組足球; zh-hant:足球丙組"
+    },
+    {
+      "original": "Fourth Div Football",
+      "conv": "zh-hans:足球丁级;zh-cn:足球丁级;zh-tw:足球丁級;zh-hk:丁組足球; zh-hant:足球丁組"
+    },
+    {
+      "original": "Hong Kong Football Club",
+      "conv": "zh-cn:香港足球会; zh-tw:香港足球會; zh-hk:香港足球會"
+    },
+    {
+      "original": "Adidas",
+      "conv": "zh-cn:阿迪达斯; zh-tw:愛迪達; zh-hk:Adidas"
+    },
+    {
+      "original": "Nike",
+      "conv": "zh-cn:耐克; zh-tw:耐吉; zh-hk:Nike"
+    },
+    {
+      "original": "FIFA World Cup",
+      "conv": "世足賽=>zh-cn:世界杯;zh-tw:世界盃;"
+    },
+    {
+      "original": "FIFA World Cup",
+      "conv": "世界盃足球賽=>zh-cn:国际足联世界杯;zh-tw:國際足總世界盃;"
+    },
+    {
+      "original": "Donate",
+      "conv": "撥捐=>zh-tw:捐給"
+    },
+    {
+      "original": "Boycott",
+      "conv": "杯葛=>zh-tw:杯葛; 杯葛=>zh-hk:杯葛; 杯葛=>zh-mo:杯葛; 杯葛=>zh-cn:抵制"
+    },
+    {
+      "original": "Water cup",
+      "conv": "水杯=>zh-tw:水杯; 水杯=>zh-hk:水杯; 水杯=>zh-mo:水杯"
+    },
+    {
+      "original": "Cup of water",
+      "conv": "杯水=>zh-tw:杯水; 杯水=>zh-hk:杯水; 杯水=>zh-mo:杯水"
+    },
+    {
+      "original": "Cup of wine",
+      "conv": "杯酒=>zh-tw:杯酒; 杯酒=>zh-hk:杯酒; 杯酒=>zh-mo:杯酒"
+    },
+    {
+      "original": "Wine cup",
+      "conv": "酒杯=>zh-tw:酒杯; 酒杯=>zh-hk:酒杯; 酒杯=>zh-mo:酒杯"
+    },
+    {
+      "original": "Coffee cup",
+      "conv": "咖啡杯=>zh-tw:咖啡杯; 咖啡杯=>zh-hk:咖啡杯; 咖啡杯=>zh-mo:咖啡杯"
+    },
+    {
+      "original": "Glass cup",
+      "conv": "玻璃杯=>zh-tw:玻璃杯; 玻璃杯=>zh-hk:玻璃杯; 玻璃杯=>zh-mo:玻璃杯"
+    },
+    {
+      "original": "Diving",
+      "conv": "zh-hans:假摔;zh-hk:插水;zh-tw:假摔;"
+    },
+    {
+      "original": "Laws",
+      "conv": "球例=>zh-cn:规则; 球例=>zh-tw:規則"
+    }
+  ]
+}

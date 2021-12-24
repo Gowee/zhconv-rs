@@ -1,0 +1,43 @@
+{
+  "name": "Michael Jackson",
+  "description": "Michael Jackson",
+  "path": "Template:CGroup/Michael Jackson",
+  "rules": [
+    {
+      "original": "Butterflies",
+      "conv": "zh-cn:意乱情迷; zh-tw:心花怒放; zh-hk:心花怒放;"
+    },
+    {
+      "original": "Don't walk away",
+      "conv": "zh-cn:不要离去; zh-tw:一走了之; zh-hk:一走了之;"
+    },
+    {
+      "original": "Heartbreaker",
+      "conv": "zh-cn:令人心碎的女孩; zh-tw:愛情殺手; zh-hk:愛情殺手;"
+    },
+    {
+      "original": "Invincible",
+      "conv": "zh-cn:天下无敌; zh-tw:萬夫莫敵; zh-hk:萬夫莫敵;"
+    },
+    {
+      "original": "Speechless",
+      "conv": "zh-cn:无言; zh-tw:啞口無言; zh-hk:啞口無言;"
+    },
+    {
+      "original": "Unbreakable",
+      "conv": "zh-cn:无敌; zh-tw:無敵之尊; zh-hk:無敵至尊;"
+    },
+    {
+      "original": "Whatever happens",
+      "conv": "zh-cn:不论发生什么; zh-tw:患難見真情; zh-hk:患難見真情;"
+    },
+    {
+      "original": "You are my life",
+      "conv": "zh-hans:你是我的生命; zh-hk:你是我的一生; zh-tw:你是我的一生;"
+    },
+    {
+      "original": "You rock my world",
+      "conv": "zh-hans:你摇滚我的世界; zh-hk:天旋地轉; zh-tw:天旋地轉;"
+    }
+  ]
+}

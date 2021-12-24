@@ -1,0 +1,87 @@
+{
+  "name": "闇",
+  "description": "-{zh-hans:暗黑;zh-tw:闇;}-",
+  "path": "Template:CGroup/闇",
+  "rules": [
+    {
+      "original": "Dark",
+      "conv": "zh-hans:暗黑;zh-tw:闇; "
+    },
+    {
+      "original": "Michael",
+      "conv": "zh-hans:米切尔; zh-tw:麥可; "
+    },
+    {
+      "original": "Doppler",
+      "conv": "zh-hans:多普勒; zh-tw:多普勒; "
+    },
+    {
+      "original": "Andreas Pietschmann",
+      "conv": "zh-hans:安德烈亚斯·皮特斯柯曼; zh-tw:安德列爾·畢耶須曼; "
+    },
+    {
+      "original": "Sebastian Rudolph",
+      "conv": "zh-hans:塞巴斯蒂安·鲁道夫; zh-tw:塞巴斯蒂安·儒道夫; "
+    },
+    {
+      "original": "Sebastian Rudolph",
+      "conv": "zh-hans:马娅·舍内; zh-tw:瑪嘉·雄恩; "
+    },
+    {
+      "original": "Anne Ratte-Polle",
+      "conv": "zh-hans:安妮·拉特-波列; zh-tw:安·拉特波耶; "
+    },
+    {
+      "original": "Oliver Masucci",
+      "conv": "zh-hans:奥利弗·马萨奇; zh-tw:奧立佛·麥蘇希; "
+    },
+    {
+      "original": "Jördis Triebel",
+      "conv": "zh-hans:乔迪丝·翠贝尔; zh-tw:茱蒂·翠貝兒; "
+    },
+    {
+      "original": "Stephan Kampwirth",
+      "conv": "zh-hans:斯蒂芬·坎普沃斯; zh-tw:史蒂芬·卡姆沃斯; "
+    },
+    {
+      "original": "Karoline Eichhorn",
+      "conv": "zh-hans:卡罗莉内·艾希霍恩; zh-tw:卡洛琳·艾奇霍恩; "
+    },
+    {
+      "original": "Michael Mendl",
+      "conv": "zh-hans:米高·文度; zh-tw:麥克·曼杜; "
+    },
+    {
+      "original": "Mark Waschke",
+      "conv": "zh-hans:马克·瓦斯科; zh-tw:馬克·瓦斯奇科; "
+    },
+    {
+      "original": "Jantje Friese",
+      "conv": "zh-hans:扬特耶·弗里泽;zh-tw:香緹耶·芙里斯; "
+    },
+    {
+      "original": "Max Wiedemann",
+      "conv": "zh-hans:马克斯·魏德曼;zh-tw:馬克斯·威德曼; "
+    },
+    {
+      "original": "Justyna Müsch",
+      "conv": "zh-hans:贾斯蒂娜·米施;zh-tw:尤斯提娜·米施; "
+    },
+    {
+      "original": "Nikolaus Summerer",
+      "conv": "zh-hans:尼古拉斯·山梅勒;zh-tw:尼古勞斯·山梅勒; "
+    },
+    {
+      "original": "reactor",
+      "conv": "zh-cn:反应堆; zh-tw:反應爐; zh-hk:反應堆; "
+    },
+    {
+      "original": "guard",
+      "conv": "zh-hans:保安; zh-tw:保全; "
+    },
+    {
+      "original": "hotel",
+      "conv": "zh-cn:酒店; zh-tw:飯店; zh-hk:酒店; "
+    }
+  ]
+}

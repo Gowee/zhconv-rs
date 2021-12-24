@@ -1,0 +1,367 @@
+{
+  "name": "BUDDYCOMPLEX",
+  "description": "[[機甲巴打]]",
+  "path": "Template:CGroup/BUDDYCOMPLEX",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-tw:BUDDY COMPLEX; zh-hk:機甲巴打; zh-cn:BUDDY COMPLEX; zh:機甲巴打;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:回到那片天空的未來; zh-hk:在回到那藍天的未來裏; zh-cn:回到那片天空的未来; zh:在回到那藍天的未來裏;"
+    },
+    {
+      "original": "Weinberg",
+      "conv": "zh-tw:韋恩伯格; zh-hk:温伯格; zh-cn:韦恩伯格; zh:溫伯格;"
+    },
+    {
+      "original": "Lene",
+      "conv": "zh-tw:麗妮; zh-hk:蓮娜; zh-cn:丽妮; zh:蓮娜;"
+    },
+    {
+      "original": "Kleinbeck",
+      "conv": "zh-tw:克萊因貝克; zh-hk:祈因碧; zh-cn:克莱因贝克; zh:祈因碧;"
+    },
+    {
+      "original": "Fromm",
+      "conv": "zh-tw:弗洛姆; zh-hk:科隆; zh-cn:弗洛姆; zh:科隆;"
+    },
+    {
+      "original": "Vantarhei",
+      "conv": "zh-tw:梵塔雷; zh-hk:范他希; zh-cn:梵塔雷; zh:范他希;"
+    },
+    {
+      "original": "Conrad",
+      "conv": "zh-tw:康拉德; zh-hk:岡立; zh-cn:康拉德; zh:岡立;"
+    },
+    {
+      "original": "Jarl",
+      "conv": "zh-tw:阿爾; zh-hk:也魯; zh-cn:耶鲁; zh:也魯;"
+    },
+    {
+      "original": "Elvira",
+      "conv": "zh-tw:艾維拉; zh-hk:艾菲娜; zh-cn:艾维拉; zh:艾菲娜;"
+    },
+    {
+      "original": "Hill",
+      "conv": "zh-tw:希爾; zh-hk:曉; zh-cn:希爾; zh:曉;"
+    },
+    {
+      "original": "Anessa",
+      "conv": "zh-tw:亞涅紗; zh-hk:雅妮莎; zh-cn:亞涅紗; zh:雅妮莎;"
+    },
+    {
+      "original": "Rossetti",
+      "conv": "zh-tw:羅塞蒂; zh-hk:羅薛提; zh-cn:羅塞蒂; zh:羅施蒂;"
+    },
+    {
+      "original": "Tusais",
+      "conv": "zh-tw:奇賽; zh-hk:杜世; zh-cn:楚赛; zh:杜世;"
+    },
+    {
+      "original": "Framboise",
+      "conv": "zh-tw:弗蘭波瓦; zh-hk:方鮑茨; zh-cn:弗兰波瓦; zh:方鮑茨;"
+    },
+    {
+      "original": "Garcian",
+      "conv": "zh-tw:格魯斯安; zh-hk:加臣; zh-cn:格鲁斯安; zh:加臣;"
+    },
+    {
+      "original": "Soeharto",
+      "conv": "zh-tw:蘇哈托; zh-hk:蘇哈圖; zh-cn:苏哈托; zh:蘇哈圖;"
+    },
+    {
+      "original": "Don Naher",
+      "conv": "zh-tw:唐·拿哈; zh-hk:當·拿; zh-cn:唐·拿哈; zh:當·拿;"
+    },
+    {
+      "original": "Fiona",
+      "conv": "zh-tw:菲歐娜; zh-hk:費安娜; zh-cn:菲奥娜; zh:費安娜;"
+    },
+    {
+      "original": "Alessandro",
+      "conv": "zh-tw:阿雷桑德羅; zh-hk:亞歷山度; zh-cn:阿雷桑德罗; zh:亞歷山度;"
+    },
+    {
+      "original": "Fermi",
+      "conv": "zh-tw:費爾米; zh-hk:費米; zh-cn:费米; zh:費米;"
+    },
+    {
+      "original": "Green",
+      "conv": "zh-tw:格林; zh-hk:格連; zh-cn:格连; zh:格連;"
+    },
+    {
+      "original": "Richardson",
+      "conv": "zh-tw:理查德森; zh-hk:理察臣; zh-cn:理查德森; zh:理察臣;"
+    },
+    {
+      "original": "Marcus",
+      "conv": "zh-tw:馬格斯; zh-hk:馬卡斯; zh-cn:马卡斯; zh:馬卡斯;"
+    },
+    {
+      "original": "Alfried",
+      "conv": "zh-tw:阿爾弗里德; zh-hk:亞佛列; zh-cn:艾尔弗里德; zh:亞佛列;"
+    },
+    {
+      "original": "Gallant",
+      "conv": "zh-tw:加蘭特; zh-hk:加蘭; zh-cn:加兰特; zh:加蘭;"
+    },
+    {
+      "original": "Bizon",
+      "conv": "zh-tw:野牛; zh-hk:比桑; zh-cn:比森; zh:比桑;"
+    },
+    {
+      "original": "Gerafil",
+      "conv": "zh-tw:傑拉菲爾; zh-hk:謝拉斐; zh-cn:杰拉菲尔; zh:謝拉斐;"
+    },
+    {
+      "original": "Ryazan",
+      "conv": "zh-tw:里亞贊; zh-hk:梁贊; zh-cn:里亚赞; zh:梁贊;"
+    },
+    {
+      "original": "Tarjim",
+      "conv": "zh-tw:塔基姆; zh-hk:他占; zh-cn:塔吉姆; zh:他占;"
+    },
+    {
+      "original": "Vasily",
+      "conv": "zh-tw:瓦西里; zh-hk:華司里; zh-cn:瓦西里; zh:華司里;"
+    },
+    {
+      "original": "Lasha",
+      "conv": "zh-tw:拉夏; zh-hk:拿沙; zh-cn:拉夏; zh:拿沙;"
+    },
+    {
+      "original": "Hakkarainen",
+      "conv": "zh-tw:哈克萊寧; zh-hk:赫卡賴寧; zh-cn:哈克莱寧; zh:赫卡賴寧;"
+    },
+    {
+      "original": "Margaret",
+      "conv": "zh-tw:瑪格麗塔; zh-hk:瑪嘉烈; zh-cn:玛格丽塔; zh:瑪嘉烈;"
+    },
+    {
+      "original": "O'Keefe",
+      "conv": "zh-tw:奧基弗; zh-hk:奧基符; zh-cn:奥基弗; zh:奧基符;"
+    },
+    {
+      "original": "Wilhelm",
+      "conv": "zh-tw:比盧海魯姆; zh-hk:威咸; zh-cn:比卢海鲁姆; zh:威咸;"
+    },
+    {
+      "original": "Hahn",
+      "conv": "zh-tw:哈恩; zh-hk:亨; zh-cn:哈恩; zh:亨;"
+    },
+    {
+      "original": "Viktor",
+      "conv": "zh-tw:比克多魯; zh-hk:域陀; zh-cn:维克多鲁; zh:域陀;"
+    },
+    {
+      "original": "Sirojanko",
+      "conv": "zh-tw:希洛楊克; zh-hk:斯羅因哥; zh-cn:斯罗恩柯; zh:斯羅因哥;"
+    },
+    {
+      "original": "Nestor",
+      "conv": "zh-tw:涅斯托爾; zh-hk:納司陀; zh-cn:涅斯托尔; zh:納司陀;"
+    },
+    {
+      "original": "Viktorovich",
+      "conv": "zh-tw:維克多洛維奇; zh-hk:域陀羅域; zh-cn:维克多洛维奇; zh:域陀羅域;"
+    },
+    {
+      "original": "Dorzhiev",
+      "conv": "zh-tw:多爾傑夫; zh-hk:杜志耶夫; zh-cn:多尔杰夫; zh:杜志耶夫;"
+    },
+    {
+      "original": "Konev",
+      "conv": "zh-tw:柯內弗; zh-hk:岡尼夫; zh-cn:柯內弗; zh:岡尼夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:階級; zh-hk:軍階; zh-cn:军衔; zh:軍階;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:伍長; zh-hk:下士; zh-cn:伍长; zh:下士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:曹長; zh-hk:軍士長; zh-cn:曹长; zh:軍士長;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:中佐; zh-hk:中校; zh-cn:中佐; zh:中校;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大佐; zh-hk:上校; zh-cn:大佐; zh:上校;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:少佐; zh-hk:少校; zh-cn:少佐; zh:少校;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大尉; zh-hk:上尉; zh-cn:大尉; zh:上尉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大將; zh-hk:上將; zh-cn:大将; zh:上將;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:司令官代行; zh-hk:代理司令; zh-cn:司令官代行; zh:代理司令;"
+    },
+    {
+      "original": "特務武官",
+      "conv": "zh-tw:特務仕官; zh-hk:特派武官; zh-cn:特务武官; zh:特派武官;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:上級大將; zh-hk:一級上將; zh-cn:上级大将; zh:一級上將;"
+    },
+    {
+      "original": "Great Zogilia",
+      "conv": "zh:大佐基利亞; zh-tw:大佐基利亞; zh-hk:大佐基利亞; zh-cn:大佐基利亚"
+    },
+    {
+      "original": "自由条約連合",
+      "conv": "zh-tw:自由條約聯合; zh-hk:自由條約聯盟; zh-cn:自由条约联合; zh:自由條約聯盟;"
+    },
+    {
+      "original": "連合",
+      "conv": "zh-tw:聯合軍; zh-hk:聯盟軍; zh-cn:联合军; zh:聯盟軍;"
+    },
+    {
+      "original": "連合",
+      "conv": "zh-tw:聯合; zh-hk:聯盟; zh-cn:联合; zh:聯盟;"
+    },
+    {
+      "original": "Valiancer",
+      "conv": "zh-tw:Valiancer; zh-hk:勇機兵; zh-cn:Valiancer; zh:勇機兵;"
+    },
+    {
+      "original": "LUXON",
+      "conv": "zh-tw:LUXON; zh-hk:光子式; zh-cn:LUXON; zh:光子式;"
+    },
+    {
+      "original": "BRADYON",
+      "conv": "zh-tw:BRADYON; zh-hk:慢子式; zh-cn:BRADYON; zh:慢子式;"
+    },
+    {
+      "original": "Nectoribium",
+      "conv": "zh-tw:NECTORIBIUM; zh-hk:䥶; zh-cn:尼克特里比姆; zh:䥶;"
+    },
+    {
+      "original": "Nector",
+      "conv": "zh-tw:NECTOR; zh-hk:䥶能; zh-cn:尼克特; zh:䥶能;"
+    },
+    {
+      "original": "Rifle",
+      "conv": "zh-tw:步槍; zh-hk:來福鎗; zh-cn:步枪; zh:來福鎗;"
+    },
+    {
+      "original": "Curtain",
+      "conv": "zh-tw:屏障; zh-hk:防護幕; zh-cn:屏障; zh:防護幕;"
+    },
+    {
+      "original": "SKYKNIGHT",
+      "conv": "zh-tw:SKYKNIGHT; zh-hk:空騎式; zh-cn:SKYKNIGHT; zh:空騎式;"
+    },
+    {
+      "original": "FIREBRAND",
+      "conv": "zh-tw:FIREBRAND; zh-hk:引火式; zh-cn:FIREBRAND; zh:引火式;"
+    },
+    {
+      "original": "BERYL",
+      "conv": "zh-tw:BERYL; zh-hk:翠石式; zh-cn:BERYL; zh:翠石式;"
+    },
+    {
+      "original": "BERYL ASSAULT",
+      "conv": "zh-tw:BERYL ASSAULT; zh-hk:翠石式突擊型; zh-cn:BERYL ASSAULT; zh:翠石式突擊型;"
+    },
+    {
+      "original": "BERYL COMMANDER",
+      "conv": "zh-tw:BERYL COMMANDER; zh-hk:翠石式指揮型; zh-cn:BERYL COMMANDER; zh:翠石式指揮型;"
+    },
+    {
+      "original": "BERYL EXPLORER",
+      "conv": "zh-tw:BERYL EXPLORER; zh-hk:翠石式偵察型; zh-cn:BERYL EXPLORER; zh:翠石式偵察型;"
+    },
+    {
+      "original": "Cygnus",
+      "conv": "zh-tw:Cygnus; zh-hk:天鵝號; zh-cn:Cygnus; zh:天鵝號;"
+    },
+    {
+      "original": "強襲航空艦",
+      "conv": "zh-tw:強襲航空艦; zh-hk:突擊航空艦; zh-cn:强袭航空舰; zh:突擊航空艦;"
+    },
+    {
+      "original": "瑞峯",
+      "conv": "zh-tw:瑞鳳; zh-hk:瑞峯; zh-cn:瑞凤; zh:瑞峯;"
+    },
+    {
+      "original": "Crane",
+      "conv": "zh-tw:Crane; zh-hk:飛鶴號; zh-cn:Crane; zh:飛鶴號;"
+    },
+    {
+      "original": "FORTUNA",
+      "conv": "zh-tw:FORTUNA; zh-hk:福運式; zh-cn:FORTUNA; zh:福運式;"
+    },
+    {
+      "original": "KUGEL",
+      "conv": "zh-tw:KUGEL; zh-hk:重彈式; zh-cn:KUGEL; zh:重彈式;"
+    },
+    {
+      "original": "Karura",
+      "conv": "zh-tw:Karura; zh-hk:金鵬式; zh-cn:Karura; zh:金鵬式;"
+    },
+    {
+      "original": "CORTANA級",
+      "conv": "zh-tw:CORTANA級; zh-hk:慈悲劍級; zh-cn:CORTANA級; zh:慈悲劍級;"
+    },
+    {
+      "original": "FLAMBERGE級",
+      "conv": "zh-tw:FLAMBERGE級; zh-hk:焰形劍級; zh-cn:FLAMBERGE級; zh:焰形劍級;"
+    },
+    {
+      "original": "TRDIENT",
+      "conv": "zh-tw:TRDIENT; zh-hk:三叉戟號; zh-cn:TRDIENT; zh:三叉戟號;"
+    },
+    {
+      "original": "VAJAR",
+      "conv": "zh-tw:VAJAR; zh-hk:金剛杵號; zh-cn:VAJAR; zh:金剛杵號;"
+    },
+    {
+      "original": "GAEBLOG",
+      "conv": "zh-tw:GAEBLOG; zh-hk:絕命槍號; zh-cn:GAEBLOG; zh:絕命槍號;"
+    },
+    {
+      "original": "Garapushka",
+      "conv": "zh-tw:GARAGUN; zh-hk:格立普施卡; zh-cn:Garapushka; zh:格立普施卡;"
+    },
+    {
+      "original": "Gorgon",
+      "conv": "zh-tw:Gorgon; zh-hk:蛇髮女妖; zh-cn:Gorgon; zh:蛇髮女妖;"
+    },
+    {
+      "original": "Lake Louise",
+      "conv": "zh-tw:萊克路易斯; zh-hk:路易斯湖; zh-cn:莱克路易斯; zh:路易斯湖;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:賜予佐基利亞的敵人死亡; zh-hk:將佐基利亞的敵人殲滅; zh-cn:赐予佐基利亞的敵人死亡; zh:將佐基利亞的敵人殲滅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:光榮 佐基利亞; zh-hk:佐基利亞萬歲; zh-cn:佐基利亞万岁; zh:佐基利亞萬歲;"
+    },
+    {
+      "original": "Coupling",
+      "conv": "zh-tw:聯結; zh-hk:連結; zh-cn:连结; zh:連結;"
+    },
+    {
+      "original": "",
+      "conv": "zh:; zh-tw:; zh-hk:; zh-cn:"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "name": "ligue",
+  "description": "法甲",
+  "path": "Template:CGroup/ligue",
+  "rules": [
+    {
+      "original": "Benzema",
+      "conv": "zh-cn:本泽马;zh-hk:賓施馬;zh-mo:賓森馬;zh-tw:本澤馬;"
+    },
+    {
+      "original": "Cavani",
+      "conv": "zh-cn:卡瓦尼; zh-hk:卡雲尼; zh-tw:卡瓦尼"
+    },
+    {
+      "original": "Desailly",
+      "conv": "zh-cn:德塞利;zh-hk:迪西里;zh-tw:德塞利;"
+    },
+    {
+      "original": "Deschamps",
+      "conv": "zh-cn:德尚;zh-hk:迪甘斯;zh-tw:德尚;"
+    },
+    {
+      "original": "Falcao",
+      "conv": "zh-cn:法尔考;zh-hk:法卡奧;zh-tw:法爾考;"
+    },
+    {
+      "original": "Giroud",
+      "conv": "zh-cn:吉鲁;zh-hk:基奧特;zh-tw:吉魯;"
+    },
+    {
+      "original": "Mbappé",
+      "conv": "zh-cn:姆巴佩;zh-hk:麥巴比;zh-tw:姆巴佩;"
+    },
+    {
+      "original": "Nasri",
+      "conv": "zh-cn:纳斯里;zh-hk:拿斯利;zh-tw:拿斯利;"
+    },
+    {
+      "original": "Platini",
+      "conv": "zh-cn:普拉蒂尼;zh-hk:柏天尼;zh-tw:普拉蒂尼;"
+    },
+    {
+      "original": "Ribéry",
+      "conv": "zh-cn:里贝里;zh-hk:列貝利;zh-tw:里貝里;"
+    },
+    {
+      "original": "Valbuena",
+      "conv": "zh-cn:瓦尔布埃纳;zh-hk:華貝拿;zh-tw:瓦爾布埃納;"
+    },
+    {
+      "original": "Vieira",
+      "conv": "zh-cn:维埃拉;zh-hk:韋拉;zh-tw:維埃拉;"
+    },
+    {
+      "original": "Zidane",
+      "conv": "zh-cn:齐达内;zh-hk:施丹;zh-tw:席丹;"
+    },
+    {
+      "original": "Amiens",
+      "conv": "zh-cn:亚眠;zh-hk:艾米恩斯;zh-tw:亞眠;"
+    },
+    {
+      "original": "Angers",
+      "conv": "zh-cn:昂热;zh-hk:昂熱;zh-tw:昂熱"
+    },
+    {
+      "original": "Arles",
+      "conv": "zh-cn:阿尔勒;zh-hk:阿勒斯;zh-tw:亞爾"
+    },
+    {
+      "original": "Ajaccio",
+      "conv": "zh-cn:阿雅克肖;zh-hk:阿些斯奧;zh-tw:阿雅克肖;"
+    },
+    {
+      "original": "Bastia",
+      "conv": "zh-cn:巴斯蒂亚;zh-hk:巴斯蒂亞;zh-tw:巴斯提亞;"
+    },
+    {
+      "original": "Brest",
+      "conv": "zh-cn:布雷斯特;zh-hk:比斯特;zh-tw:布雷斯特;"
+    },
+    {
+      "original": "Caen",
+      "conv": "zh-cn:卡昂;zh-tw:康城;zh-hk:卡昂"
+    },
+    {
+      "original": "Chateauroux",
+      "conv": "zh-cn:沙托鲁;zh-hk:查多魯;zh-tw:夏托魯;zh-mo:沙特魯"
+    },
+    {
+      "original": "Clermont",
+      "conv": "zh-cn:克莱蒙;zh-hk:克萊蒙特;zh-tw:克勒蒙"
+    },
+    {
+      "original": "Creteil",
+      "conv": "zh-cn:克雷泰伊;zh-hk:格迪爾;zh-tw:凱代爾;zh-mo:基迪爾"
+    },
+    {
+      "original": "Dijon",
+      "conv": "zh-cn:第戎;zh-hk:迪安;zh-tw:第戎"
+    },
+    {
+      "original": "Guingamp",
+      "conv": "zh-cn:甘冈;zh-hk:甘岡;zh-tw:干貢;zh-mo:吉英坎"
+    },
+    {
+      "original": "Istres",
+      "conv": "zh-cn:伊斯特尔;zh-hk:伊斯特尼斯;zh-tw:伊斯特;zh-mo:伊斯特"
+    },
+    {
+      "original": "Le Havre",
+      "conv": "zh-hans:勒阿弗尔;zh-hk:勒哈弗爾;zh-tw:勒阿弗爾;"
+    },
+    {
+      "original": "Lille",
+      "conv": "zh-cn:里尔;zh-hk:里爾;zh-tw:里耳;zh-mo:利爾"
+    },
+    {
+      "original": "Lorient",
+      "conv": "zh-cn:洛里昂;zh-hk:羅連安特;zh-tw:洛里昂;"
+    },
+    {
+      "original": "Nice",
+      "conv": "zh-cn:尼斯;zh-hk:尼斯;zh-tw:尼斯;zh-mo:奈斯"
+    },
+    {
+      "original": "Niort",
+      "conv": "zh-cn:尼奥尔;zh-hk:尼奧特;zh-tw:尼歐爾"
+    },
+    {
+      "original": "Chateauroux",
+      "conv": "zh-cn:奥尔良;zh-hk:奧連斯;zh-tw:奧爾良;zh-mo:奧爾良"
+    },
+    {
+      "original": "Paris Saint-Germain",
+      "conv": "zh-cn:圣日耳曼;zh-hk:聖日耳門;zh-tw:聖日耳曼;zh-mo:聖日耳門;zh-hant:聖日門"
+    },
+    {
+      "original": "Saint-Étienne Loire",
+      "conv": "zh-cn:圣艾蒂安;zh-hk:聖伊天;zh-tw:聖德田;"
+    },
+    {
+      "original": "Sochaux",
+      "conv": "zh-cn:索肖;zh-hk:索察;zh-tw:索肖;"
+    },
+    {
+      "original": "Toulouse",
+      "conv": "zh-cn:图卢兹;zh-hk:圖盧茲;zh-tw:土魯斯;zh-mo:圖魯茲"
+    },
+    {
+      "original": "Valenciennes",
+      "conv": "zh-hans:瓦朗谢讷;zh-hk:華倫西恩斯;zh-tw:瓦朗謝訥;"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "佛教",
+  "description": "佛教",
+  "path": "Module:CGroup/佛教",
+  "rules": [
+    {
+      "original": "Kuśi-nagara",
+      "conv": "zh-cn:拘尸那揭罗; zh-tw:拘尸那揭羅;"
+    },
+    {
+      "original": "Kuśi-nagara",
+      "conv": "zh-cn:拘尸那罗;zh-hk:拘尸那羅;zh-tw:拘尸那羅"
+    },
+    {
+      "original": "Kalaśikhin",
+      "conv": "zh-hans:迦罗尸弃;zh-hant:迦羅尸棄"
+    },
+    {
+      "original": "Kalaśikhin",
+      "conv": "zh-hans:歌罗尸弃;zh-hant:歌羅尸棄"
+    },
+    {
+      "original": "Pañcaśikhin",
+      "conv": "zh-hans:般遮尸弃;zh-hant:般遮尸棄"
+    },
+    {
+      "original": "Ratnaśikhin",
+      "conv": "zh-hans:窂罗尸弃;zh-hant:窂羅尸棄"
+    },
+    {
+      "original": "Ratnaśikhin",
+      "conv": "zh-hans:罽那尸弃;zh-hant:罽那尸棄"
+    },
+    {
+      "original": "Ratnaśikhin",
+      "conv": "zh-hans:剌那尸弃;zh-hant:剌那尸棄"
+    },
+    {
+      "original": "Śikhin",
+      "conv": "zh-hans:尸弃;zh-hant:尸棄"
+    },
+    {
+      "original": "Śikhin",
+      "conv": "zh-hans:尸弃那;zh-hant:尸棄那"
+    },
+    {
+      "original": "Vipassin",
+      "conv": "zh-hans:毘婆尸;zh-hant:毘婆尸"
+    },
+    {
+      "original": "Vipassin",
+      "conv": "zh-hans:毗婆尸;zh-hant:毗婆尸"
+    },
+    {
+      "original": "Vipassin",
+      "conv": "zh-hans:毘钵尸;zh-hant:毘鉢尸"
+    },
+    {
+      "original": "Vipassin",
+      "conv": "zh-hans:微钵尸;zh-hant:微鉢尸"
+    },
+    {
+      "original": "Vipassin",
+      "conv": "zh-hans:鞞婆尸;zh-hant:鞞婆尸"
+    }
+  ]
+}

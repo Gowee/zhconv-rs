@@ -1,0 +1,335 @@
+{
+  "name": "Unit",
+  "description": "單位",
+  "path": "Module:CGroup/Unit",
+  "rules": [
+    {
+      "original": "原文",
+      "conv": "轉換規則"
+    },
+    {
+      "original": "[[公尺|m]]",
+      "conv": "公尺=>zh-cn:米;公尺=>zh-hk:米;公尺=>zh-sg:米;公尺=>zh-mo:米;"
+    },
+    {
+      "original": "[[兆米|Mm]]",
+      "conv": "zh-cn:兆米;zh-tw:百萬公尺;zh-hk:兆米"
+    },
+    {
+      "original": "[[千米|km]]",
+      "conv": "zh-cn:千米;zh-tw:公里;zh-hk:公里;zh-sg:公里"
+    },
+    {
+      "original": "[[粨|hm]]",
+      "conv": "zh-cn:百米;zh-tw:公引;zh-hk:公引;"
+    },
+    {
+      "original": "[[公丈|dam]]",
+      "conv": "zh-cn:十米;zh-tw:公丈;zh-hk:公丈;"
+    },
+    {
+      "original": "[[公寸|dm]]",
+      "conv": "zh-cn:分米;zh-tw:公寸;zh-hk:分米;"
+    },
+    {
+      "original": "[[公分|cm]]",
+      "conv": "zh-cn:厘米;zh-tw:公分;zh-hk:厘米;"
+    },
+    {
+      "original": "[[公釐|mm]]",
+      "conv": "zh-cn:毫米;zh-tw:公釐;zh-hk:毫米;"
+    },
+    {
+      "original": "[[微米|µm]]",
+      "conv": "zh-cn:微米;zh-tw:微米"
+    },
+    {
+      "original": "[[奈米|nm]]",
+      "conv": "zh-cn:纳米; zh-tw:奈米; zh-hk:納米;"
+    },
+    {
+      "original": "[[皮米|pm]]",
+      "conv": "zh-cn:皮米;zh-tw:皮米"
+    },
+    {
+      "original": "[[飛米|fm]]",
+      "conv": "zh-cn:飞米;zh-tw:飛米"
+    },
+    {
+      "original": "[[阿米|am]]",
+      "conv": "zh-cn:阿米;zh-tw:阿米"
+    },
+    {
+      "original": "[[密耳|mil]]",
+      "conv": "zh-hk:密耳; zh-tw:英絲; zh-cn:密尔;"
+    },
+    {
+      "original": "[[英寸|in]]",
+      "conv": "zh-cn:英寸; zh-tw:英吋; zh-hk:吋; zh-sg:吋;"
+    },
+    {
+      "original": "[[英尺|ft]]",
+      "conv": "zh-cn:英尺; zh-tw:英呎; zh-hk:呎; zh-sg:呎;"
+    },
+    {
+      "original": "[[英尋|fathom]]",
+      "conv": "zh:英尋; zh-cn:英寻; zh-tw:英噚; zh-hk:噚; zh-sg:噚;"
+    },
+    {
+      "original": "[[英里|mi]]",
+      "conv": "zh-cn:英里; zh-tw:英哩; zh-hk:哩; zh-sg:哩;"
+    },
+    {
+      "original": "[[英里|mi]]",
+      "conv": "咪=>zh-cn:英里; 咪=>zh-tw:英哩; 咪=>zh-my:哩; 咪=>zh-sg:哩;"
+    },
+    {
+      "original": "[[平方米|m<sup>2</sup>]]",
+      "conv": "zh-cn:平方米;zh-tw:平方公尺;zh-hk:平方米"
+    },
+    {
+      "original": "[[平方英尺|sq. ft]]",
+      "conv": "zh-cn:平方英尺; zh-tw:平方英呎; zh-hk:平方呎; zh-sg:平方呎; 方呎=>zh-cn:平方英尺; 方呎=>zh-hk:平方呎; 方呎=>zh-mo:平方呎; 方呎=>zh-tw:平方英呎;"
+    },
+    {
+      "original": "[[立方米|m<sup>3</sup>]]",
+      "conv": "zh-cn:立方米;zh-tw:立方公尺;zh-hk:立方米"
+    },
+    {
+      "original": "[[立方英尺|cu. ft]]",
+      "conv": "zh-cn:立方英尺; zh-tw:立方英呎; zh-hk:立方呎; zh-sg:立方呎;"
+    },
+    {
+      "original": "[[公斤|kg]]",
+      "conv": "zh-cn:千克; zh-tw:公斤;"
+    },
+    {
+      "original": "[[克|g]]",
+      "conv": "公克=>zh-cn:克;"
+    },
+    {
+      "original": "[[盎司|oz]]",
+      "conv": "zh-hans:盎司;zh-hk:安士;zh-tw:盎司;"
+    },
+    {
+      "original": "[[格令|gr]]",
+      "conv": "格令=>zh-tw:格林;"
+    },
+    {
+      "original": "[[米每秒|m/s]]",
+      "conv": "zh-hans:米每秒; zh-hk:米每秒; zh-sg:米每秒; zh-mo:米每秒; zh-tw:公尺每秒;"
+    },
+    {
+      "original": "[[米每秒|m/s]]",
+      "conv": "zh-hans:米/秒; zh-hk:米/秒; zh-sg:米/秒; zh-mo:米/秒; zh-tw:公尺/秒;"
+    },
+    {
+      "original": "[[米每秒|m/s]]",
+      "conv": "zh-hans:米 / 秒; zh-hk:米 / 秒; zh-sg:米 / 秒; zh-mo:米 / 秒; zh-tw:公尺 / 秒;"
+    },
+    {
+      "original": "[[米每秒|m/s]]",
+      "conv": "zh-hans:米／秒; zh-hk:米／秒; zh-sg:米／秒; zh-mo:米／秒; zh-tw:公尺／秒;"
+    },
+    {
+      "original": "m/min",
+      "conv": "zh-hans:米/分钟; zh-hk:米/分鐘; zh-sg:米/分钟; zh-mo:米/分鐘; zh-tw:公尺/分鐘;"
+    },
+    {
+      "original": "m/min",
+      "conv": "zh-hans:米 / 分钟; zh-hk:米 / 分鐘; zh-sg:米 / 分钟; zh-mo:分鐘 / 秒; zh-tw:公尺 / 分鐘;"
+    },
+    {
+      "original": "m/min",
+      "conv": "zh-hans:米／分钟; zh-hk:米／分鐘; zh-sg:米／分钟; zh-mo:米／分鐘; zh-tw:公尺／分鐘;"
+    },
+    {
+      "original": "[[摄氏温标|°C]]",
+      "conv": "zh-hans:摄氏温标;zh-hk:攝氏溫度;zh-tw:攝氏溫標;"
+    },
+    {
+      "original": "[[开尔文|K]]",
+      "conv": "zh-hans:开尔文;zh-hk:開爾文;zh-tw:克耳文;"
+    },
+    {
+      "original": "[[开尔文|K]]",
+      "conv": "zh-hans:开氏;zh-hk:開氏;zh-tw:克氏;"
+    },
+    {
+      "original": "[[坎德拉|cd]]",
+      "conv": "zh-hans:坎德拉;zh-hk:坎德拉;zh-tw:燭光;"
+    },
+    {
+      "original": "[[弧度|rad]]",
+      "conv": "zh-hans:弧度;zh-hk:弧度;zh-tw:弳;"
+    },
+    {
+      "original": "[[球面度|sr]]",
+      "conv": "zh-hans:球面度;zh-hk:球面度;zh-tw:立弳;"
+    },
+    {
+      "original": "[[摩尔 (单位)|mol]]",
+      "conv": "zh-cn:摩尔; zh-hk:摩爾; zh-tw:莫耳;"
+    },
+    {
+      "original": "[[贝克勒尔|Bq]]",
+      "conv": "zh-cn:贝克勒尔;zh-hk:貝可勒爾;zh-tw:貝克勒;"
+    },
+    {
+      "original": "[[西弗|Sv]]",
+      "conv": "zh-cn:希沃特;zh-tw:西弗;zh-hk:希沃特;"
+    },
+    {
+      "original": "[[戈瑞|Gy]]",
+      "conv": "zh-cn:戈瑞;zh-hk:戈瑞;zh-tw:戈雷;"
+    },
+    {
+      "original": "[[特斯拉|T]]",
+      "conv": "zh-cn:特斯拉;zh-hk:特斯拉;zh-tw:特士拉;"
+    },
+    {
+      "original": "[[Bureau international des poids et mesures]]",
+      "conv": "zh-cn:国际计量局;zh-hk:國際計量局;zh-tw:國際度量衡局;"
+    },
+    {
+      "original": "[[Conférence générale des poids et mesures]]",
+      "conv": "zh-cn:国际计量大会;zh-hk:國際計量大會;zh-tw:國際度量衡大會;"
+    },
+    {
+      "original": "[[Comité international des poids et mesures]]",
+      "conv": "zh-cn:国际计量委员会;zh-hk:國際計量委員會;zh-tw:國際度量衡委員會;"
+    },
+    {
+      "original": "[[哔哩哔哩]]",
+      "conv": "zh-hans:哔哩哔哩;zh-hant:嗶哩嗶哩;"
+    },
+    {
+      "original": "[[摩尔多瓦]]",
+      "conv": "zh-cn:摩尔多瓦; zh-hk:摩爾多瓦; zh-tw:摩爾多瓦;"
+    },
+    {
+      "original": "[[摩尔达维亚]]",
+      "conv": "zh-cn:摩尔达维亚; zh-hk:摩爾達維亞; zh-tw:摩爾達維亞;"
+    },
+    {
+      "original": "[[摩爾莊園]]",
+      "conv": "zh-cn:摩尔庄园; zh-hk:摩爾莊園; zh-tw:摩爾莊園;"
+    },
+    {
+      "original": "[[摩尔人]]",
+      "conv": "zh-cn:摩尔人; zh-hk:摩爾人; zh-tw:摩爾人;"
+    },
+    {
+      "original": "[[摩尔斯电码]]",
+      "conv": "zh-cn:摩尔斯; zh-tw:摩斯;"
+    },
+    {
+      "original": "[[摩爾曼斯克]]",
+      "conv": "zh:摩爾曼斯克; zh-hans:摩尔曼斯克; zh-tw:莫曼斯克;"
+    },
+    {
+      "original": "[[阿摩尔滨海省]]",
+      "conv": "zh-cn:阿摩尔滨海; zh-hk:阿摩爾濱海; zh-tw:阿摩爾濱海;"
+    },
+    {
+      "original": "[[纳米比亚]]",
+      "conv": "zh-hans:纳米比亚;zh-hant:納米比亞;"
+    },
+    {
+      "original": "[[西西弗斯]]",
+      "conv": "zh-cn:西西弗斯; zh-tw:薛西弗斯;zh-hk:薛西弗斯;"
+    },
+    {
+      "original": "西弗拉芒",
+      "conv": "zh-cn:西弗拉芒; zh-tw:西佛拉蒙;zh-hk:西弗拉芒;"
+    },
+    {
+      "original": "[[四公里站]]",
+      "conv": "zh-hans:四公里站;zh-hant:四公里站;"
+    },
+    {
+      "original": null,
+      "conv": "公尺=>zh-cn:米;公尺=>zh-hk:米;公尺=>zh-mo:米;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:0米; zh-hk:0米; zh-sg:0米; zh-mo:0米; zh-tw:0公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:1米; zh-hk:1米; zh-sg:1米; zh-mo:1米; zh-tw:1公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:2米; zh-hk:2米; zh-sg:2米; zh-mo:2米; zh-tw:2公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:3米; zh-hk:3米; zh-sg:3米; zh-mo:3米; zh-tw:3公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:4米; zh-hk:4米; zh-sg:4米; zh-mo:4米; zh-tw:4公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:5米; zh-hk:5米; zh-sg:5米; zh-mo:5米; zh-tw:5公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:6米; zh-hk:6米; zh-sg:6米; zh-mo:6米; zh-tw:6公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:7米; zh-hk:7米; zh-sg:7米; zh-mo:7米; zh-tw:7公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:8米; zh-hk:8米; zh-sg:8米; zh-mo:8米; zh-tw:8公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:9米; zh-hk:9米; zh-sg:9米; zh-mo:9米; zh-tw:9公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:0</sup>米; zh-hk:0</sup>米; zh-sg:0</sup>米; zh-mo:0</sup>米; zh-tw:0</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:1</sup>米; zh-hk:1</sup>米; zh-sg:1</sup>米; zh-mo:1</sup>米; zh-tw:1</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:2</sup>米; zh-hk:2</sup>米; zh-sg:2</sup>米; zh-mo:2</sup>米; zh-tw:2</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:3</sup>米; zh-hk:3</sup>米; zh-sg:3</sup>米; zh-mo:3</sup>米; zh-tw:3</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:4</sup>米; zh-hk:4</sup>米; zh-sg:4</sup>米; zh-mo:4</sup>米; zh-tw:4</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:5</sup>米; zh-hk:5</sup>米; zh-sg:5</sup>米; zh-mo:5</sup>米; zh-tw:5</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:6</sup>米; zh-hk:6</sup>米; zh-sg:6</sup>米; zh-mo:6</sup>米; zh-tw:6</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:7</sup>米; zh-hk:7</sup>米; zh-sg:7</sup>米; zh-mo:7</sup>米; zh-tw:7</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:8</sup>米; zh-hk:8</sup>米; zh-sg:8</sup>米; zh-mo:8</sup>米; zh-tw:8</sup>公尺;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:9</sup>米; zh-hk:9</sup>米; zh-sg:9</sup>米; zh-mo:9</sup>米; zh-tw:9</sup>公尺;"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "DCComics",
+  "description": "DC漫画作品、角色、出版物及相关影视游戏改编作品名称",
+  "path": "Template:CGroup/DCComics",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-cn:神奇女侠; zh-tw:神力女超人"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:正义联盟：毁灭; zh-tw:正義聯盟：末日審判"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:正义联盟：闪点悖论; zh-tw:正義聯盟：閃電俠之逆轉"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:正义联盟：战争; zh-tw:正義聯盟：開戰"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:正义联盟：两个地球的危机; zh-tw:正義聯盟：兩面夾擊"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乐高大电影; zh-tw:樂高玩電影"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:正义联盟：亚特兰蒂斯的宝座; zh-tw:正義聯盟：亞特蘭提斯的王位"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:正义联盟：神魔之战; zh-tw:正義聯盟：神與魔"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:蝙蝠侠大战超人：正义黎明; zh-tw:蝙蝠俠對超人：正義曙光"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:神奇女侠 (2017年电影); zh-tw:神力女超人 (2017年電影)"
+    }
+  ]
+}

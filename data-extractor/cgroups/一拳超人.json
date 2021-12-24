@@ -1,0 +1,499 @@
+{
+  "name": "一拳超人",
+  "description": "[[一拳超人]]",
+  "path": "Module:CGroup/一拳超人",
+  "rules": [
+    {
+      "original": "ジェノス",
+      "conv": "zh-tw:傑諾斯; zh-cn:杰诺斯; zh-hk:積羅斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:庫森; zh-cn:库赛诺; zh-hk:古哲朗;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:禿頭披風俠; zh-cn:秃头披风侠; zh-hk:光頭披肩俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:魔鬼生化人; zh-cn:魔鬼改造人; zh-hk:魔鬼生化人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:興趣使然的英雄; zh-cn:兴趣使然的英雄; zh-hk:我是為興趣而做英雄的人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:爆滅; zh-cn:爆破;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:龍卷; zh-cn:龙卷; zh-hk:龍捲風;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:戰慄的龍卷; zh-cn:战栗的龙卷; zh-hk:戰慄龍捲風;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:邦格; zh-cn:邦古; zh-hk:班古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:崩普; zh-cn:崩普; zh-hk:邦普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:銀牙; zh-cn:银牙; zh-hk:銀色獠牙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:輕浮克; zh-cn:查岚子; zh-hk:鵪鶉仔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:波佛依; zh-cn:波佛伊; zh-hk:博輝;"
+    },
+    {
+      "original": "KING",
+      "conv": "King=>zh-hk:霸王;King=>zh-mo:霸王;"
+    },
+    {
+      "original": "KING",
+      "conv": "king=>zh-hk:霸王;king=>zh-mo:霸王;"
+    },
+    {
+      "original": "KING",
+      "conv": "zh-cn:KING; zh-tw:KING; zh-hk:霸王; zh-mo:霸王;"
+    },
+    {
+      "original": "KING",
+      "conv": "zh-cn:霸王花; zh-tw:霸王花; zh-hk:霸王花; zh-mo:霸王花;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:殭屍男; zh-tw:殭屍俠; zh-cn:殭尸男; zh-hk:喪屍俠; zh-mo:喪屍俠; "
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:守門犬俠; zh-cn:守门犬侠; zh-hk:警犬俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:閃光的弗萊士; zh-cn:闪光的弗拉休; zh-hk:閃光法殊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:弗萊士; zh-cn:弗拉休; zh-hk:法殊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:水嫩嫩囚犯; zh-cn:性感囚犯; zh-hk:肉彈囚犯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:帥氣蒙面俠甜美假面; zh-cn:假面帅哥甜心假面; zh-hk:型男蒙面俠甜美面具;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:甜美假面; zh-cn:甜心假面; zh-hk:甜美面具;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:居合鐵; zh-cn:居合铁; zh-hk:居合鐵甲劍士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:人妖鐮鼬; zh-cn:人妖镰鼬; zh-hk:乸型鐮鼬刀客;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:武士鑽; zh-cn:武士钻; zh-hk:武士道電鑽俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:重戰車兜檔布; zh-cn:重战车兜档布; zh-hk:重型坦克兜檔布;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:青焰; zh-cn:青焰; zh-hk:蒼焰;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心素食派; zh-cn:背心素食派; zh-hk:背心素食者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:莿槍俠; zh-cn:毒刺; zh-hk:突擊先鋒;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:魔術俠; zh-cn:魔术侠; zh-hk:魔術奇俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雷光源氏; zh-cn:雷光源氏; zh-hk:雷光源治;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:極限閃電; zh-cn:终极闪电; zh-hk:閃電麥斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:馬克思; zh-cn:马克思; zh-hk:麥斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:黃金球; zh-cn:黄金球; zh-hk:黃金波子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大哲人; zh-cn:大哲人; zh-hk:大哲人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:彈簧鬍; zh-cn:发条胡须; zh-hk:彈簧鬚;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:桃泰瑞; zh-cn:桃泰瑞; zh-hk:桃泰利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:重量金剛; zh-cn:重型金刚; zh-hk:勁量金剛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:斯內克; zh-tw:史涅克; zh-cn:斯内克; zh-hk:薛力古; zh-mo:薛力古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:死亡機槍; zh-cn:死亡机枪; zh-hk:死亡機關槍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鎖鏈蛤蟆; zh-cn:锁链蛤蟆; zh-hk:鎖刀迦馬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:地獄的吹雪; zh-cn:地狱的吹雪; zh-hk:地獄吹雪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:闇黑之刃; zh-cn:暗黑刀锋; zh-hk:暗黑劍神;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:嗶哥; zh-cn:哔哥; zh-hk:比哥;"
+    },
+    {
+      "original": "",
+      "conv": "大啡菇=>zh-tw:蘑菇; 大啡菇=>zh-cn:马修鲁鲁; 大啡菇=>zh-hk:大啡菇; 大啡菇=>zh-mo:大啡菇;"
+    },
+    {
+      "original": "",
+      "conv": "马修鲁鲁=>zh-tw:蘑菇; 马修鲁鲁=>zh-cn:马修鲁鲁; 马修鲁鲁=>zh-hk:大啡菇; 马修鲁鲁=>zh-mo:大啡菇;"
+    },
+    {
+      "original": "",
+      "conv": "菠蘿俠=>zh-tw:鳳梨; 菠蘿俠=>zh-cn:菠萝人; 菠蘿俠=>zh-hk:菠蘿俠; 菠蘿俠=>zh-mo:菠蘿俠;"
+    },
+    {
+      "original": "",
+      "conv": "菠萝人=>zh-tw:鳳梨; 菠萝人=>zh-cn:菠萝人; 菠萝人=>zh-hk:菠蘿俠; 菠萝人=>zh-mo:菠蘿俠;"
+    },
+    {
+      "original": "",
+      "conv": "四眼仔=>zh-tw:眼鏡; 四眼仔=>zh-cn:眼镜; 四眼仔=>zh-my:眼镜; 四眼仔=>zh-sg:眼镜; 四眼仔=>zh-hk:四眼仔; 四眼仔=>zh-mo:四眼仔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:無照騎士; zh-cn:无证骑士; zh-hk:無牌騎士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心之虎; zh-cn:背心老虎坦克; zh-hk:背心老虎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:喪服吊帶褲; zh-cn:丧服吊带裤; zh-hk:喪服吊帶俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:紅巾; zh-cn:紅围巾斗士; zh-hk:紅頸巾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:裝甲股長; zh-cn:武装职员长; zh-hk:武裝係長;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:馬骨; zh-cn:乌马洪; zh-hk:馬頭邦;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:研畢; zh-cn:研毕; zh-hk:碩士畢業;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:嗡嗡俠; zh-cn:嗡嗡侠; zh-hk:快拳俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:紅鼻子; zh-cn:红鼻子; zh-hk:紅鼻哥;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:油頭俠; zh-cn:油头侠; zh-hk:賭神頭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:嗡嗡俠; zh-cn:嗡嗡侠; zh-hk:快拳俠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:龐克頭; zh-cn:庞克头; zh-hk:莫西幹;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心少女; zh-cn:背心少女; zh-hk:背心俏女郎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心Rock-A-Billy; zh-cn:背心Rock-A-Billy; zh-hk:背心洛卡比里;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心叢林; zh-cn:背心丛林; zh-hk:背心熱帶雨林;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心Q麵; zh-cn:背心Q面; zh-hk:背心嚼勁夠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心帽客; zh-cn:背心帽客; zh-hk:背心闊邊帽;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心假面; zh-cn:背心假面; zh-hk:背心蒙面人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:背心泳將; zh-cn:背心泳将; zh-hk:背心水中游;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:顎古尼; zh-cn:阿格尼; zh-hk:阿各連;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:西齊; zh-cn:西齐; zh-hk:斯切;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:席芭芭瓦; zh-cn:皱巴巴; zh-hk:絲芭芭娃;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:馬可伊; zh-cn:马可伊; zh-hk:麥凱恩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:贅密特; zh-cn:赘密特; zh-hk:占美托;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:暴花戶; zh-cn:暴花户; zh-hk:壕發戶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:豪任幸; zh-cn:豪任幸; zh-hk:壕任勝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:疫苗人; zh-cn:疫苗人; zh-hk:疫苗小子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蟹爪蘭帝; zh-cn:蟹人; zh-hk:蟹蘭迪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:臭老臉; zh-cn:福克高; zh-hk:老人精;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:光頭猩; zh-cn:光頭猩; zh-hk:圓頭猩猩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:吉納斯; zh-cn:吉纳斯; zh-hk:捷尼斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蚊少女; zh-cn:蚊女; zh-hk:蚊女;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:水銀螳螂; zh-cn:水银螳螂; zh-hk:螳螂怪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:戲耍蛞蝓; zh-cn:戏耍蛞蝓; zh-hk:鼻涕蟲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:裝甲猩猩; zh-cn:装甲猩猩; zh-hk:武裝大猩猩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蛙男; zh-cn:蛙男; zh-hk:青蛙男;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿修羅獨角仙; zh-cn:阿修罗盔甲; zh-hk:阿修羅獨角仙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:梅爾薩加德; zh-cn:梅尔萨加德; zh-hk:梅扎魯格多;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:葛羅里巴斯; zh-cn:葛罗里巴斯; zh-hk:古羅巴斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:格流剛許普; zh-cn:格流刚许普; zh-hk:基路間修普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:開膛王; zh-cn:开膛王; zh-hk:切割王;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蜈蚣長老; zh-cn:蜈蚣长老; zh-hk:百足長老;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蜈蚣前輩; zh-cn:蜈蚣前辈; zh-hk:百足師兄;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大王花教父; zh-cn:大王花教父; zh-hk:毒氣霸王花;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蜈蚣後輩; zh-cn:蜈蚣后辈; zh-hk:百足師弟;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:百目章魚; zh-cn:百目章鱼; zh-hk:百百目八爪魚;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:莫山; zh-cn:莫山; zh-hk:爆殘;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:奔帕茨; zh-cn:奔帕茨; zh-hk:留辮子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:伏登; zh-cn:伏登; zh-hk:伏特天;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:哈姆吉; zh-cn:哈姆吉; zh-hk:松鼠仔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:羅吉; zh-cn:罗直; zh-hk:羅直;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:喬擇; zh-cn:乔择; zh-hk:粗臣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:疾風溫德; zh-cn:疾风温德; zh-hk:疾風溫特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:業火弗雷姆; zh-cn:业火弗雷姆; zh-hk:業火弗雷;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:無限昆布; zh-cn:无限昆布; zh-hk:海帶無極限;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:長舌爾; zh-cn:长舌尔; zh-hk:長舌怪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:原始人蘇彭; zh-cn:原始人苏彭; zh-hk:原始人光脫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:豬豬撲MAN; zh-cn:小猪银行; zh-hk:豬仔錢罌;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:扇風鬼; zh-cn:扇风鬼; zh-hk:扇風怪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:奇襲梅; zh-cn:奇袭梅; zh-hk:突襲梅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:灰熊貓; zh-cn:灰熊猫; zh-hk:格莉德巨喵;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:槌頭; zh-cn:钉锤头; zh-hk:鎚仔頭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴內羅; zh-cn:巴内罗; zh-hk:巴尼祿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:牛牛; zh-cn:牛牛; zh-hk:公牛寶路;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:索尼克; zh-cn:索尼克; zh-hk:索尼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雜魚斯; zh-cn:杂鱼斯; zh-hk:嘍囉素;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:格林; zh-cn:格林; zh-hk:加特林;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:數擊當流術; zh-cn:数击当流术; zh-hk:打中幾下拳;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:肥肥; zh-cn:肥肥; zh-hk:大肥佬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴茲茲; zh-cn:巴兹兹; zh-hk:啪滋滋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:錢尼爾; zh-cn:泽尼尔; zh-hk:遮尼奴;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巨大隕石; zh-cn:巨大陨石; zh-hk:巨型隕石;"
+    }
+  ]
+}

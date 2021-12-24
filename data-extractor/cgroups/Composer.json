@@ -1,0 +1,203 @@
+{
+  "name": "Composer",
+  "description": "作曲家",
+  "path": "Template:CGroup/Composer",
+  "rules": [
+    {
+      "original": "Albinoni",
+      "conv": "zh-cn:阿爾比諾尼;zh-tw:阿爾比諾尼;zh-hk:阿賓朗尼;"
+    },
+    {
+      "original": "Amadeus",
+      "conv": "zh-cn:阿马德乌斯;zh-tw:阿瑪迪斯;zh-hk:阿瑪迪斯;"
+    },
+    {
+      "original": "Bach",
+      "conv": "zh-cn:巴赫;zh-tw:巴哈;zh-hk:巴哈;"
+    },
+    {
+      "original": "Brahms",
+      "conv": "zh-cn:勃拉姆斯;zh-tw:布拉姆斯;zh-hk:布拉姆斯;"
+    },
+    {
+      "original": "Berlioz",
+      "conv": "zh-cn:柏辽兹;zh-tw:白遼士;zh-hk:白遼士;"
+    },
+    {
+      "original": "Britten",
+      "conv": "zh-cn:布里顿;zh-tw:布列頓;zh-hk:布烈頓;"
+    },
+    {
+      "original": "Chopin",
+      "conv": "zh-cn:肖邦;zh-tw:蕭邦;"
+    },
+    {
+      "original": "Copland",
+      "conv": "zh-cn:科普兰;zh-tw:柯普蘭;zh-hk:柯普蘭;"
+    },
+    {
+      "original": "Corelli",
+      "conv": "zh-cn:科雷利;zh-tw:柯賴里;zh-hk:柯里尼"
+    },
+    {
+      "original": "Darius",
+      "conv": "zh-cn:达律斯;zh-tw:大流士;zh-hk:戴流士;"
+    },
+    {
+      "original": "Debussy",
+      "conv": "zh-cn:德彪西;zh-tw:德布西;zh-hk:德布西;"
+    },
+    {
+      "original": "Delius",
+      "conv": "zh-cn:戴留斯;zh-tw:戴流士;zh-hk:戴流士;"
+    },
+    {
+      "original": "Dvořák",
+      "conv": "zh-cn:德沃夏克;zh-tw:德弗札克;zh-hk:德伏札克;"
+    },
+    {
+      "original": "Emanuel",
+      "conv": "zh-cn:埃马努埃尔;zh-tw:艾曼紐;"
+    },
+    {
+      "original": "Fauré",
+      "conv": "zh-cn:福莱;zh-tw:佛瑞;zh-hk:佛瑞;"
+    },
+    {
+      "original": "Frideric",
+      "conv": "zh-cn:弗里德里克;zh-tw:腓特烈;zh-hk:費德烈;"
+    },
+    {
+      "original": "Gershwin",
+      "conv": "zh-cn:格什温;zh-tw:蓋希文;zh-hk:歌舒詠;"
+    },
+    {
+      "original": "Grainger",
+      "conv": "zh-cn:格兰杰;zh-tw:葛人杰;zh-hk:格蘭傑;"
+    },
+    {
+      "original": "Goldberg",
+      "conv": "zh-cn:哥德堡;zh-tw:郭德堡;zh-hk:哥德堡"
+    },
+    {
+      "original": "Handel",
+      "conv": "zh-cn:亨德尔;zh-tw:韓德爾;zh-hk:韓德爾;"
+    },
+    {
+      "original": "Ives",
+      "conv": "zh-cn:艾夫斯;zh-tw:艾伍士;zh-hk:艾菲斯;"
+    },
+    {
+      "original": "Janáček",
+      "conv": "zh-cn:雅纳切克;zh-tw:揚纳杰克;zh-hk:揚納傑克;"
+    },
+    {
+      "original": "Kodály",
+      "conv": "zh-cn:柯达伊;zh-tw:高大宜;zh-hk:高大宜;"
+    },
+    {
+      "original": "Корсаков",
+      "conv": "zh-cn:科萨科夫;zh-tw:高沙可夫;zh-hk:高沙可夫;"
+    },
+    {
+      "original": "Lully",
+      "conv": "zh-cn:吕利;zh-tw:盧利;;zh-hk:雷利;"
+    },
+    {
+      "original": "Messiaen",
+      "conv": "zh-cn:梅西安;zh-tw:梅湘;zh-hk:梅湘;"
+    },
+    {
+      "original": "Mozart",
+      "conv": "zh-cn:莫扎特;zh-tw:莫札特;"
+    },
+    {
+      "original": "Milhaud",
+      "conv": "zh-cn:米约;zh-tw:米堯;zh-hk:米堯;"
+    },
+    {
+      "original": "Pachelbel",
+      "conv": "zh-cn:帕赫贝尔;zh-tw:帕海貝爾;zh-hk:巴海貝爾;"
+    },
+    {
+      "original": "Percy",
+      "conv": "zh-cn:珀西;zh-tw:帕西;zh-hk:帕西;"
+    },
+    {
+      "original": "Римский",
+      "conv": "zh-cn:里姆斯基;zh-tw:林姆斯基;zh-hk:林姆斯基;"
+    },
+    {
+      "original": "Pergolesi",
+      "conv": "zh-cn:佩尔戈莱西;zh-tw:裴高雷西;zh-hk:彼高利斯;"
+    },
+    {
+      "original": "Прокофьев",
+      "conv": "zh-cn:普罗科菲耶夫; zh-tw:浦羅高菲夫; zh-hk:浦羅哥菲夫;"
+    },
+    {
+      "original": "Reincken",
+      "conv": "zh-cn:赖因肯;zh-tw:萊茵肯;"
+    },
+    {
+      "original": "Schönberg",
+      "conv": "zh-cn:勋伯格;zh-tw:荀白克;zh-hk:荀白克;"
+    },
+    {
+      "original": "Шостакович",
+      "conv": "zh-cn:肖斯塔科维奇;zh-tw:蕭士塔高維奇;zh-hk:蕭斯達高維契;"
+    },
+    {
+      "original": "Sibelius",
+      "conv": "zh-cn:西贝柳斯;zh-tw:西貝流士;zh-hk:西貝流士;"
+    },
+    {
+      "original": "Smetana",
+      "conv": "zh-cn:斯美塔那;zh-tw:史麥塔納;zh-hk:史麥塔納;"
+    },
+    {
+      "original": "Strauss",
+      "conv": "zh-cn:施特劳斯;zh-tw:史特勞斯;zh-hk:史特勞斯;"
+    },
+    {
+      "original": "Scarlatti",
+      "conv": "zh-cn:斯卡拉蒂;zh-tw:史卡拉第;zh-hk:史卡拉第;"
+    },
+    {
+      "original": "Telemann",
+      "conv": "zh-cn:泰勒曼;zh-tw:泰雷曼;zh-hk:泰利文"
+    },
+    {
+      "original": "Torelli",
+      "conv": "zh-cn:托雷利;zh-tw:托雷里;"
+    },
+    {
+      "original": "Vaughan",
+      "conv": "zh-cn:沃恩;zh-tw:佛漢;zh-hk:佛漢;"
+    },
+    {
+      "original": "Vivaldi",
+      "conv": "zh-cn:维瓦尔第;zh-tw:韋瓦第;zh-hk:韋華第;"
+    },
+    {
+      "original": "Wagner",
+      "conv": "zh-cn:瓦格纳;zh-tw:華格納;zh-hk:華格納;"
+    },
+    {
+      "original": "Walton",
+      "conv": "zh-cn:沃尔顿;zh-tw:華爾頓;zh-hk:華爾頓;"
+    },
+    {
+      "original": "Webern",
+      "conv": "zh-cn:韦伯恩;zh-tw:魏本;zh-hk:魏本;"
+    },
+    {
+      "original": "Williams",
+      "conv": "zh-cn:威廉斯;zh-tw:威廉士;zh-hk:威廉斯;"
+    },
+    {
+      "original": "Wolfgang",
+      "conv": "zh-cn:沃尔夫冈;zh-tw:沃夫岡;"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "伊斯蘭",
+  "description": "伊斯蘭主題",
+  "path": "Module:CGroup/伊斯蘭",
+  "rules": [
+    {
+      "original": "Abbasid",
+      "conv": "zh-hans:阿拔斯; zh-hant:阿拔斯; zh-tw:阿拔斯"
+    },
+    {
+      "original": "Abbasid Caliphate",
+      "conv": "zh-hans:阿拔斯王朝; zh-hant:阿拔斯帝國; 阿巴斯王朝=>zh-tw:阿拔斯王朝"
+    },
+    {
+      "original": "Ayyubid",
+      "conv": "zh-hans:阿尤布; zh-hant:阿尤布; zh-tw:埃宥比"
+    },
+    {
+      "original": "Caliphate of Córdoba",
+      "conv": "zh-hans:后倭马亚王朝; zh-hant:後倭瑪亞王朝; zh-tw:後伍麥亞王朝; zh-hk:後烏瑪耶王朝; zh-mo:後烏瑪耶王朝"
+    },
+    {
+      "original": "al-Fātimiyyūn",
+      "conv": "zh-hans:法蒂玛; zh-hant:法蒂米; zh-tw:法提瑪"
+    },
+    {
+      "original": "Sulṭanat Misr al-Mamālīk",
+      "conv": "zh-hans:马穆鲁克王朝; zh-hant:馬木留克王朝; zh-tw:馬木路克王朝"
+    },
+    {
+      "original": "Mamluk",
+      "conv": "马木留克=>zh-hans:马穆鲁克; 马木留克=>zh-hant:馬木留克; 马木留克=>zh-tw:馬木路克"
+    },
+    {
+      "original": "Mamluk",
+      "conv": "zh-hans:马穆鲁克; zh-hant:馬木留克; zh-tw:馬木路克"
+    },
+    {
+      "original": "Muawiyah",
+      "conv": "zh-hans:穆阿维叶; zh-hant:穆阿維亞"
+    },
+    {
+      "original": "Osmanlı İmparatorluğu",
+      "conv": "zh-cn:奥斯曼帝国; zh-tw:鄂圖曼帝國; zh-hk:奧斯曼帝國; zh-hant:奧斯曼帝國"
+    },
+    {
+      "original": "Osmanlı Türkleri",
+      "conv": "zh-cn:奥斯曼土耳其; zh-tw:鄂圖曼土耳其; zh-hk:奧斯曼土耳其"
+    },
+    {
+      "original": "Osmanlı Türkleri",
+      "conv": "zh-cn:奥斯曼人; zh-tw:鄂圖曼人; zh-hk:奧斯曼人"
+    },
+    {
+      "original": "Saljūqiyān-e Rūm",
+      "conv": "zh-cn:罗姆苏丹国; zh-tw:魯姆蘇丹國; zh-hk:魯姆蘇丹國"
+    },
+    {
+      "original": "Umayyads",
+      "conv": "伍麦叶=>zh-hans:倭马亚; 伍麦叶=>zh-hant:伍麥亞; 伍麦叶=>zh-tw:倭瑪亞"
+    },
+    {
+      "original": "Umayyads",
+      "conv": "zh-hans:倭马亚; zh-hant:伍麥亞; zh-tw:倭瑪亞"
+    },
+    {
+      "original": "Umayyad Caliphate",
+      "conv": "zh-hans:倭马亚王朝; zh-hant:伍麥亞王朝; zh-tw:倭瑪亞王朝"
+    },
+    {
+      "original": "Yazīd",
+      "conv": "zh-hans:耶齐德; zh-hant:耶齊德; zh-tw:雅季德"
+    },
+    {
+      "original": "Yazīd ibn Mu‘awiya ibn Abī Sufyān",
+      "conv": "zh-hans:耶齐德一世; zh-hant:耶齊德一世; zh-tw:雅季德一世"
+    }
+  ]
+}

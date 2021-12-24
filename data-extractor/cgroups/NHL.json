@@ -1,0 +1,43 @@
+{
+  "name": "NHL",
+  "description": "國家冰球聯盟",
+  "path": "Template:CGroup/NHL",
+  "rules": [
+    {
+      "original": "Anaheim Ducks",
+      "conv": "zh-hant:安那翰鴨;zh-hk:安納海姆鴨;"
+    },
+    {
+      "original": "Edmonton Oilers",
+      "conv": "zh-hant:艾德蒙頓油人;zh-hk:愛民頓油人;"
+    },
+    {
+      "original": "Clarence S. Campbell Bowl",
+      "conv": "zh-hant:克萊倫斯·坎貝爾盃;zh-hk:卡雲斯·甘保杯;"
+    },
+    {
+      "original": "Campbell Bowl",
+      "conv": "zh-hant:坎貝爾盃;zh-hk:甘保杯;"
+    },
+    {
+      "original": "Clarence",
+      "conv": "zh-hant:克萊倫斯;zh-hk:卡雲斯;"
+    },
+    {
+      "original": "Campbell Conference",
+      "conv": "zh-hant:坎貝爾聯會;zh-hk:甘保聯盟;"
+    },
+    {
+      "original": "Campbell",
+      "conv": "zh-hant:坎貝爾;zh-hk:甘保;"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "zh-hant:西部聯會;zh-hk:西部聯盟;"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "zh-hant:東部聯會;zh-hk:東部聯盟;"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Photography",
+  "description": "摄影",
+  "path": "Module:CGroup/Photography",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:图像;zh-hans:图象;zh-hant:影像;zh-cn:图像;zh-tw:圖像;zh-hk:影像;zh-sg:图象;zh-mo:影像;"
+    },
+    {
+      "original": null,
+      "conv": "zh:像素;zh-hans:像素;zh-hant:像素;zh-cn:像素;zh-tw:畫素;zh-hk:像素;zh-sg:畫素;zh-mo:像素;"
+    },
+    {
+      "original": null,
+      "conv": "zh:数码;zh-hans:数码;zh-hant:數位;zh-cn:数码;zh-tw:數位;zh-hk:數碼;zh-sg:数码;zh-mo:數碼;"
+    },
+    {
+      "original": null,
+      "conv": "zh:质量;zh-hans:质量;zh-hant:品質;zh-cn:质量;zh-tw:品質;zh-hk:質素;zh-sg:质量;zh-mo:質素;"
+    },
+    {
+      "original": null,
+      "conv": "zh:单反相机;zh-hans:单反相机;zh-hant:單鏡反光相機;zh-cn:单反相机;zh-tw:單眼相機;zh-hk:單鏡反光機;zh-sg:单反相机;zh-mo:單鏡反光機;"
+    },
+    {
+      "original": null,
+      "conv": "zh:数码照相机;zh-hans:数码照相机;zh-hant:數碼照相機;zh-cn:数码照相机;zh-tw:數位照相機;zh-hk:數碼照相機;zh-sg:数码照相机;zh-mo:數碼照相機;"
+    },
+    {
+      "original": null,
+      "conv": "zh:数码相机;zh-hans:数码相机;zh-hant:數碼相機;zh-cn:数码相机;zh-tw:數位相機;zh-hk:數碼相機;zh-sg:数码相机;zh-mo:數碼相機;"
+    },
+    {
+      "original": null,
+      "conv": "zh:数码单镜反光相机;zh-hans:数码单镜反光相机;zh-hant:數碼單鏡反光相機;zh-cn:数码单镜反光相机;zh-tw:數位單眼相機;zh-hk:數碼單鏡反光機;zh-sg:数码单镜反光相机;zh-mo:數碼單鏡反光機;"
+    },
+    {
+      "original": null,
+      "conv": "zh:胶卷;zh-hans:胶卷;zh-hant:底片;zh-cn:胶卷;zh-tw:底片;zh-hk:菲林;zh-sg:底片;zh-mo:菲林;"
+    },
+    {
+      "original": null,
+      "conv": "zh:取景器;zh-hans:取景器;zh-hant:取景器;zh-cn:取景器;zh-tw:觀景窗;zh-hk:取景器;zh-sg:取景器;zh-mo:取景器;"
+    },
+    {
+      "original": null,
+      "conv": "zh:数码相机背;zh-hans:数码相机背;zh-hant:數位機背;zh-cn:数码相机背;zh-tw:數位機背;zh-hk:數碼機背;zh-sg:数码相机背;zh-mo:數碼機背;"
+    },
+    {
+      "original": null,
+      "conv": "zh:尼康;zh-hans:尼康;zh-hant:尼康;zh-cn:尼康;zh-tw:尼康;zh-hk:藝康;zh-sg:尼康;zh-mo:藝康;"
+    },
+    {
+      "original": null,
+      "conv": "zh:索尼;zh-hans:索尼;zh-hant:索尼;zh-cn:索尼;zh-tw:索尼;zh-hk:新力;zh-sg:索尼;zh-mo:新力;"
+    },
+    {
+      "original": null,
+      "conv": "zh:宾得;zh-hans:宾得;zh-hant:賓得;zh-cn:宾得;zh-tw:賓得士;zh-hk:賓得;zh-sg:宾得;zh-mo:賓得;"
+    },
+    {
+      "original": null,
+      "conv": "zh:卡西欧;zh-hans:卡西欧;zh-hant:卡西歐;zh-cn:卡西欧;zh-tw:卡西歐;zh-hk:金石牌;zh-sg:卡西欧;zh-mo:金石牌;"
+    }
+  ]
+}

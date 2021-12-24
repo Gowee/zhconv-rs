@@ -1,0 +1,23 @@
+{
+  "name": "US Senators",
+  "description": "美國聯邦參議員",
+  "path": "Template:CGroup/US Senators",
+  "rules": [
+    {
+      "original": "Kerry",
+      "conv": "zh-hans:克里;zh-hk:克里;zh-tw:凱瑞;"
+    },
+    {
+      "original": "Kerry",
+      "conv": "凱利=>zh-cn:克里;凱利=>zh-tw:凱瑞;凱利=>zh-hk:克里"
+    },
+    {
+      "original": "Kerry",
+      "conv": "凱里=>zh-cn:克里;凱里=>zh-tw:凱瑞;凱里=>zh-hk:克里"
+    },
+    {
+      "original": "John Sidney McCain III",
+      "conv": "zh-hans:麦凯恩;zh-hk:麥凱恩;zh-tw:麥肯;"
+    }
+  ]
+}

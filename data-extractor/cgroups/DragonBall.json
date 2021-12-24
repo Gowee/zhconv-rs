@@ -1,0 +1,531 @@
+{
+  "name": "DragonBall",
+  "description": "七龙珠",
+  "path": "Template:CGroup/DragonBall",
+  "rules": [
+    {
+      "original": "ブルマ",
+      "conv": "zh-hant:布馬;zh-cn:布尔玛;zh-hk:莊子;zh-tw:布瑪;zh-mo:莊子"
+    },
+    {
+      "original": "クリリン",
+      "conv": "zh-cn:小林;zh-hk:無限;zh-tw:克林"
+    },
+    {
+      "original": "ヤムチャ",
+      "conv": "zh-hant:亞姆;zh-cn:乐平;zh-hk:阿樂;zh-tw:飲茶;zh-mo:阿樂"
+    },
+    {
+      "original": "プーアル",
+      "conv": "zh-hant:烏兒;zh-cn:普亚鲁;zh-hk:佩兒;zh-tw:普亞路"
+    },
+    {
+      "original": "チチ",
+      "conv": "zh-cn:琪琪;zh-hk:芝芝;zh-tw:琪琪"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|兎人参化"
+    },
+    {
+      "original": "ピラフ",
+      "conv": "zh-cn:皮拉夫;zh-hk:畢拉夫;zh-tw:比拉夫"
+    },
+    {
+      "original": "マイ",
+      "conv": "zh-cn:小舞;zh-hk:梅思;zh-tw:小舞"
+    },
+    {
+      "original": "ランチ",
+      "conv": "zh-cn:兰琪;zh-hk:蘭芝;zh-tw:蘭琪"
+    },
+    {
+      "original": "バクテリアン",
+      "conv": "zh-cn:野蛮人;zh-hk:細菌人;zh-tw:細菌"
+    },
+    {
+      "original": "ナム",
+      "conv": "zh-hans:南无;zh-cn:那木;zh-hk:南無;zh-tw:那姆"
+    },
+    {
+      "original": "ギラン",
+      "conv": "zh-hans:基朗;zh-cn:基南;zh-hk:基蘭;zh-tw:基藍"
+    },
+    {
+      "original": "スノ",
+      "conv": "zh-hans:苏诺;zh-cn:丝诺;zh-hk:白雪;zh-tw:蘇諾帕"
+    },
+    {
+      "original": "パンチー",
+      "conv": "zh-hk:柏芝;zh-tw:潘琪"
+    },
+    {
+      "original": "レッド総帥",
+      "conv": "zh-hans:瑞特总帅;zh-cn:黑元帅;zh-hk:紅統帥;zh-tw:雷德統帥"
+    },
+    {
+      "original": "ブラック補佐",
+      "conv": "zh-hans:布莱克副官;zh-cn:青副官;zh-hk:黑參謀;zh-tw:布拉克副官"
+    },
+    {
+      "original": "ホワイト将軍",
+      "conv": "zh-cn:白将军;zh-hk:白將軍;zh-tw:懷特將軍"
+    },
+    {
+      "original": "ブルー将軍",
+      "conv": "zh-cn:蓝将军;zh-hk:藍將軍;zh-tw:布魯將軍"
+    },
+    {
+      "original": "シルバー大佐",
+      "conv": "zh-hans:西鲁巴上校;zh-cn:银上校;zh-hk:銀上校;zh-tw:西爾巴上校"
+    },
+    {
+      "original": "メタリック軍曹",
+      "conv": "zh-cn:阿诺中尉;zh-hk:阿諾中士;zh-tw:麥利克中士"
+    },
+    {
+      "original": "ウパ",
+      "conv": "zh-hans:乌帕;zh-cn:乌巴;zh-hk:路比;zh-tw:烏巴"
+    },
+    {
+      "original": "カリン",
+      "conv": "zh-cn:加林;zh-hk:花梨;zh-tw:凱里"
+    },
+    {
+      "original": "占いババ",
+      "conv": "zh-hant:卜卦婆婆;zh-cn:水晶婆婆;zh-hk:占星婆婆;zh-tw:占卜婆婆;zh-mo:占星婆婆"
+    },
+    {
+      "original": "ドラキュラマン",
+      "conv": "zh-cn:蝙蝠人;zh-hk:德古拉人;zh-tw:吸血鬼人"
+    },
+    {
+      "original": "ヤジロベー",
+      "conv": "zh-cn:弥次郎兵卫;zh-hk:彌次郎;zh-tw:亞奇洛貝"
+    },
+    {
+      "original": "ピッコロ大魔王",
+      "conv": "zh-cn:短笛大魔王;zh-hk:笛子大魔王;zh-tw:比克大魔王"
+    },
+    {
+      "original": "ピッコロ",
+      "conv": "zh-cn:短笛;zh-hk:笛子魔童;zh-tw:比克"
+    },
+    {
+      "original": "アンニン",
+      "conv": "zh-hk:太上老君;zh-tw:安寧"
+    },
+    {
+      "original": "カカロット",
+      "conv": "zh-cn:卡卡罗特;zh-hk:格古洛;zh-tw:卡卡洛特"
+    },
+    {
+      "original": "ラディッツ",
+      "conv": "zh-cn:拉帝兹;zh-hk:拿迪斯;zh-tw:拉帝茲"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|閻魔大王"
+    },
+    {
+      "original": "バブルス",
+      "conv": "zh-cn:巴布鲁斯;zh-hk:阿布;zh-tw:巴布"
+    },
+    {
+      "original": "栽培マン",
+      "conv": "zh-hant:蔬菜人;zh-cn:栽培人;zh-hk:培植人;zh-tw:栽培人"
+    },
+    {
+      "original": "ナッパ",
+      "conv": "zh-cn:那巴;zh-hk:立巴;zh-tw:那霸"
+    },
+    {
+      "original": "ベジータ",
+      "conv": "zh-hant:貝吉塔;zh-cn:贝吉塔;zh-hk:比達;zh-tw:達爾"
+    },
+    {
+      "original": "ベジータ王",
+      "conv": "zh-hant:貝吉塔王;zh-cn:贝吉塔王;zh-hk:比達王;zh-tw:貝吉達王"
+    },
+    {
+      "original": "デンデ",
+      "conv": "zh-hant:丹丹;zh-cn:丹迪;zh-hk:天迪;zh-tw:天天;zh-mo:天迪"
+    },
+    {
+      "original": "ネイル",
+      "conv": "zh-cn:内鲁;zh-hk:尼路;zh-tw:尼爾"
+    },
+    {
+      "original": "ポルンガ",
+      "conv": "zh-hant:波路亞;zh-cn:波仑伽;zh-hk:布魯吉;zh-tw:波倫加"
+    },
+    {
+      "original": "コルド大王",
+      "conv": "zh-cn:库尔德王;zh-hk:科爾多大王;zh-tw:克魯德大王"
+    },
+    {
+      "original": "フリーザ",
+      "conv": "zh-hant:弗力札;zh-cn:弗利萨;zh-hk:菲利;zh-tw:弗利沙;zh-mo:菲利"
+    },
+    {
+      "original": "キュイ",
+      "conv": "zh-cn:邱夷;zh-hk:喬依;zh-tw:吉多拉"
+    },
+    {
+      "original": "ザーボン",
+      "conv": "zh-cn:萨博;zh-hk:薩波;zh-tw:尚波"
+    },
+    {
+      "original": "ドドリア",
+      "conv": "zh-cn:多多利亚;zh-hk:杜利安;zh-tw:多多利"
+    },
+    {
+      "original": "ギニュー",
+      "conv": "zh-cn:杰纽;zh-hk:傑紐;zh-tw:基紐;"
+    },
+    {
+      "original": "リクーム",
+      "conv": "zh-cn:利库姆;zh-hk:力高;zh-tw:利克姆"
+    },
+    {
+      "original": "バータ",
+      "conv": "zh-cn:巴特;zh-hk:畢特;zh-tw:巴特"
+    },
+    {
+      "original": "ジース",
+      "conv": "zh-cn:吉斯;zh-hk:捷斯;zh-tw:契士"
+    },
+    {
+      "original": "グルド",
+      "conv": "zh-cn:古尔多;zh-hk:古杜;zh-tw:古魯"
+    },
+    {
+      "original": "バーダック",
+      "conv": "zh-cn:巴达克;zh-hk:巴達古;zh-tw:巴達克"
+    },
+    {
+      "original": "トランクス",
+      "conv": "zh-cn:特兰克斯;zh-hk:杜拉格斯;zh-tw:特南克斯"
+    },
+    {
+      "original": "ゲロ",
+      "conv": "zh-hant:可羅;zh-cn:格罗;zh-hk:基洛;zh-tw:蓋洛"
+    },
+    {
+      "original": "セル",
+      "conv": "zh-hant:西魯;zh-cn:沙鲁;zh-hk:斯路;zh-tw:賽魯"
+    },
+    {
+      "original": "セルジュニア",
+      "conv": "zh-cn:小沙鲁;zh-hk:小斯路;zh-tw:賽魯少年"
+    },
+    {
+      "original": "ビーデル",
+      "conv": "zh-hant:維黛兒;zh-cn:比迪丽;zh-hk:比迪麗;zh-tw:碧兒;zh-mo:比迪麗"
+    },
+    {
+      "original": "マーロン",
+      "conv": "zh-hant:瑪朗;zh-cn:玛萝;zh-hk:馬倫;zh-tw:馬倫"
+    },
+    {
+      "original": "シン",
+      "conv": "zh-cn:阿辛;zh-hk:阿信;zh-tw:辛恩"
+    },
+    {
+      "original": "キビト",
+      "conv": "zh-cn:杰比特;zh-hk:奇比特;zh-tw:吉比特"
+    },
+    {
+      "original": "スポポビッチ",
+      "conv": "zh-cn:斯波比奇;zh-hk:史布比治;zh-tw:史波迪"
+    },
+    {
+      "original": "ヤムー",
+      "conv": "zh-cn:亚木;zh-hk:也門;zh-tw:亞摩"
+    },
+    {
+      "original": "ビビディ",
+      "conv": "zh-cn:比菲迪;zh-hk:比比迪;zh-tw:比比提"
+    },
+    {
+      "original": "バビディ",
+      "conv": "zh-cn:巴菲迪;zh-hk:巴比迪;zh-tw:巴比提"
+    },
+    {
+      "original": "ダーブラ",
+      "conv": "zh-cn:达普拉;zh-hk:丹布拿;zh-tw:達普拉"
+    },
+    {
+      "original": "プイプイ",
+      "conv": "zh-cn:普依;zh-hk:普依;zh-tw:菲菲"
+    },
+    {
+      "original": "ヤコン",
+      "conv": "zh-cn:也戈;zh-hk:也戈;zh-tw:亞根"
+    },
+    {
+      "original": "ブウ",
+      "conv": "zh-cn:布欧;zh-hk:布歐;zh-tw:普烏"
+    },
+    {
+      "original": "ゴテンクス",
+      "conv": "zh-cn:悟天克斯;zh-hk:悟天格斯;zh-tw:悟天克斯"
+    },
+    {
+      "original": "ベジット",
+      "conv": "zh-hant:貝吉特;zh-cn:贝吉特;zh-hk:比古洛;zh-tw:達洛特"
+    },
+    {
+      "original": "ブラ",
+      "conv": "zh-hant:普拉;zh-cn:布娜;zh-hk:布拉;zh-tw:布拉"
+    },
+    {
+      "original": "パン",
+      "conv": "zh-hant:小潘;zh-cn:小芳;zh-hk:阿包;zh-tw:小芳;zh-mo:阿包"
+    },
+    {
+      "original": "ウーブ",
+      "conv": "zh-cn:欧布;zh-hk:歐布;zh-tw:烏普"
+    },
+    {
+      "original": "ギル",
+      "conv": "zh-cn:吉鲁;zh-hk:基路;zh-tw:吉魯"
+    },
+    {
+      "original": "ベビー",
+      "conv": "zh-cn:贝比;zh-hk:Baby;zh-tw:貝比"
+    },
+    {
+      "original": "リルド",
+      "conv": "zh-cn:利尔德;zh-hk:列頓;zh-tw:利爾德"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|超17号"
+    },
+    {
+      "original": "ビルス",
+      "conv": "zh-cn:比鲁斯;zh-hk:比路斯;zh-tw:比魯斯"
+    },
+    {
+      "original": "シャンパ",
+      "conv": "zh-cn:象帕;zh-hk:尚帕;zh-tw:象帕"
+    },
+    {
+      "original": "ヴァドス",
+      "conv": "zh-cn:芭朵斯;zh-hk:華多絲;zh-tw:芭朵絲"
+    },
+    {
+      "original": "キャベ",
+      "conv": "zh-cn:加贝;zh-hk:嘉比;zh-tw:卡貝"
+    },
+    {
+      "original": "フロスト",
+      "conv": "zh-cn:弗罗斯特;zh-hk:菲洛;zh-tw:弗洛斯特"
+    },
+    {
+      "original": "カリフラ",
+      "conv": "zh-hant:卡莉芙拉;zh-cn:卡莉芙拉;zh-hk:卡莉花;zh-tw:凱莉芙拉"
+    },
+    {
+      "original": "ケール",
+      "conv": "zh-hant:凱爾;zh-cn:开尔;zh-hk:甘兒;zh-tw:愷兒"
+    },
+    {
+      "original": "ケフラ",
+      "conv": "zh-hant:可芙拉;zh-cn:开芙拉;zh-hk:甘莉花;zh-tw:凱芙拉"
+    },
+    {
+      "original": "ゴワス",
+      "conv": "zh-hant:戈瓦斯;zh-cn:格瓦斯;zh-hk:葛華;zh-tw:格瓦斯"
+    },
+    {
+      "original": "ゴクウブラック",
+      "conv": "zh-cn:黑悟空;zh-hk:悟空Black;zh-tw:黑悟空"
+    },
+    {
+      "original": "トッポ",
+      "conv": "zh-cn:托破;zh-hk:托波;zh-tw:托波"
+    },
+    {
+      "original": "ジレン",
+      "conv": "zh-cn:吉连;zh-hk:慈嶺;zh-tw:吉連"
+    },
+    {
+      "original": "メルス",
+      "conv": "zh-cn:梅尔斯;zh-hk:梅素;zh-tw:梅爾斯"
+    },
+    {
+      "original": "グルメス大王",
+      "conv": "zh-hk:美食王;zh-tw:格魯米斯王"
+    },
+    {
+      "original": "ガーリック",
+      "conv": "zh-hans:卡利克;zh-cn:卡里克;zh-hk:加利;zh-tw:葛力克"
+    },
+    {
+      "original": "ウィロー",
+      "conv": "zh-cn:威洛;zh-hk:維洛;zh-tw:威洛"
+    },
+    {
+      "original": "ターレス",
+      "conv": "zh-cn:达列斯;zh-hk:達利斯;zh-tw:達列斯"
+    },
+    {
+      "original": "スラッグ",
+      "conv": "zh-cn:史拉格;zh-hk:史拉古;zh-tw:史拉格"
+    },
+    {
+      "original": "クウラ",
+      "conv": "zh-cn:古拉;zh-hk:古拉;zh-tw:克維拉"
+    },
+    {
+      "original": "サウザー",
+      "conv": "zh-cn:沙维扎;zh-hk:沙查;zh-tw:沙維札"
+    },
+    {
+      "original": "ネイズ",
+      "conv": "zh-cn:内兹;zh-hk:力士;zh-tw:內茲"
+    },
+    {
+      "original": "ドーレ",
+      "conv": "zh-cn:德雷;zh-hk:唐尼;zh-tw:德雷"
+    },
+    {
+      "original": "ブロリー",
+      "conv": "zh-cn:布罗利;zh-hk:布洛尼;zh-tw:布羅利"
+    },
+    {
+      "original": "パラガス",
+      "conv": "zh-cn:帕拉伽斯;zh-hk:巴拉卡斯;zh-tw:巴拉卡斯"
+    },
+    {
+      "original": "ボージャック",
+      "conv": "zh-cn:波杰克;zh-hk:波積高;zh-tw:波傑克"
+    },
+    {
+      "original": "ゴジータ",
+      "conv": "zh-hant:悟基塔;zh-cn:悟吉塔;zh-hk:格比達;zh-tw:悟達爾"
+    },
+    {
+      "original": "パイクーハン",
+      "conv": "zh-cn:拜高安;zh-hk:拜高安;zh-tw:排骨飯"
+    },
+    {
+      "original": "ヒルデガーン",
+      "conv": "zh-hant:希爾迪鋼;zh-hk:希迪根;zh-tw:希爾德卡恩"
+    },
+    {
+      "original": "ドラゴンボール",
+      "conv": "zh-hans:七龙珠;zh-cn:龙珠;zh-hk:龍珠;zh-tw:七龍珠"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|ドラゴンボールZ 復活の「F」"
+    },
+    {
+      "original": "Dragonball Evolution",
+      "conv": "zh-hant:七龍珠 (電影);zh-cn:七龙珠 (电影);zh-hk:龍珠 全新進化;zh-tw:七龍珠 全新進化"
+    },
+    {
+      "original": "スーパードラゴンボールヒーローズ",
+      "conv": "zh-hans:超七龙珠英雄;zh-hant:超級七龍珠英雄;zh-cn:超级龙珠英雄;zh-hk:超級龍珠英雄;zh-tw:超七龍珠英雄"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|筋斗雲"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|天下一武道会"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|レッドリボン軍"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|聖地カリン"
+    },
+    {
+      "original": "サイヤ",
+      "conv": "zh-cn:赛亚;zh-hk:撒亞;zh-tw:賽亞"
+    },
+    {
+      "original": "ナメック",
+      "conv": "zh-cn:那美克;zh-hk:娜美;zh-tw:納美克"
+    },
+    {
+      "original": "ギニュー特戦隊",
+      "conv": "zh-hant:勇士特戰隊;zh-cn:基纽特种部队;zh-hk:皇牌精英軍團;zh-tw:基紐特戰隊"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|人造人間"
+    },
+    {
+      "original": "ポタラ",
+      "conv": "zh-cn:坡塔拉耳环;zh-hk:合體耳環;zh-tw:波特拉"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|身勝手の極意"
+    },
+    {
+      "original": "かめはめ波",
+      "conv": "zh-cn:龟派气功;zh-hk:龜波氣功;zh-tw:龜派氣功"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|狼牙風風拳"
+    },
+    {
+      "original": "どどん波",
+      "conv": "zh-hant:一指功;zh-cn:神指功;zh-hk:洞洞波;zh-tw:洞洞波"
+    },
+    {
+      "original": "ギャリック砲",
+      "conv": "zh-cn:冲天炮;zh-hk:沖天炮;zh-tw:吉力克砲"
+    },
+    {
+      "original": "ファイナルフラッシュ",
+      "conv": "zh-cn:极限光流;zh-hk:極限光流;zh-tw:最後衝擊"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|元気玉"
+    },
+    {
+      "original": "Dr.スランプ",
+      "conv": "zh-cn:阿拉蕾;zh-hk:IQ博士;zh-tw:怪博士與機器娃娃"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|則巻千兵衛"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|則巻アラレ"
+    },
+    {
+      "original": "{{lang",
+      "conv": "ja|銀河パトロール ジャコ"
+    },
+    {
+      "original": "ジャコ",
+      "conv": "zh-cn:加克;zh-hk:積哥;zh-tw:JACO"
+    },
+    {
+      "original": "タイツ",
+      "conv": "zh-hant:達伊絲;zh-cn:塔伊丝;zh-hk:達爾絲;zh-tw:沓姿"
+    },
+    {
+      "original": "ギネ",
+      "conv": "zh-hant:姬內;zh-cn:姬内;zh-hk:傑禰;zh-tw:姬聶"
+    },
+    {
+      "original": "チルド",
+      "conv": "zh-cn:齐尔德;zh-hk:智特;zh-tw:齊魯德"
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "name": "马来人名地名",
+  "description": "马来人名地名",
+  "path": "Module:CGroup/马来人名地名",
+  "rules": [
+    {
+      "original": "Abu Bakar",
+      "conv": "zh-cn:阿布·巴卡尔; zh-tw:阿布巴卡; zh-hk:阿布巴卡爾;zh-sg:阿布峇卡;"
+    },
+    {
+      "original": "Abdul",
+      "conv": "zh-cn:阿卜杜勒;zh-tw:阿布都; zh-hk:阿卜杜勒;zh-sg:阿都;"
+    },
+    {
+      "original": "Abdul Aziz",
+      "conv": "zh-cn:阿卜杜勒·阿齐兹;  zh-tw:阿布都·阿濟茲; zh-hk:阿卜杜勒·阿齊茲; zh-sg:阿都阿兹;"
+    },
+    {
+      "original": "Abdul Rahim",
+      "conv": "zh-tw:阿都拉欣;zh-cn:阿卜杜勒·拉希姆;zh-tw:阿都·拉欣;zh-hk:阿都拉欣;zh-sg:阿都拉欣;zh-mo:阿都拉欣;"
+    },
+    {
+      "original": "Abdul Rahman",
+      "conv": "zh-cn:阿卜杜勒·拉赫曼; zh-tw:阿布都拉曼;zh-hk:阿都拉曼; zh-sg:阿都拉曼;"
+    },
+    {
+      "original": "Abdul Razak",
+      "conv": "zh-tw:阿都拉薩;zh-cn:阿卜杜勒·拉扎克;zh-tw:阿都·拉薩;zh-hk:阿都拉薩;zh-sg:阿都拉萨;zh-mo:阿都拉薩;"
+    },
+    {
+      "original": "Abdulaziz",
+      "conv": "zh-cn:阿卜杜勒-阿齐兹;  zh-tw:阿布都-阿濟茲; zh-hk:阿卜杜勒-阿齊茲; zh-sg:阿都阿兹;"
+    },
+    {
+      "original": "Abdullah",
+      "conv": "zh-cn:阿卜杜拉;zh-tw:阿布都拉;zh-hk:阿卜杜拉;zh-sg:阿都拉;"
+    },
+    {
+      "original": "Abdullah Badawi",
+      "conv": "zh-cn:阿卜杜拉·巴达维; zh-tw:阿布都拉·巴達威; zh-hk:阿都拉·巴達威;zh-sg:阿都拉·巴达威;"
+    },
+    {
+      "original": "Ahmad",
+      "conv": "zh-cn:艾哈迈德; zh-tw:阿邁德; zh-sg:阿末; zh-hk:阿末"
+    },
+    {
+      "original": "Alam",
+      "conv": "zh-cn:阿拉姆; zh-tw:阿蘭;zh-hk:阿蘭; zh-sg:阿兰;"
+    },
+    {
+      "original": "Alwi",
+      "conv": "zh-cn:阿尔维; zh-tw:阿威;zh-hk:阿爾維; zh-sg:阿威;"
+    },
+    {
+      "original": "Anwar",
+      "conv": "zh-cn:安瓦尔; zh-tw:安華; zh-sg:安华;"
+    },
+    {
+      "original": "Ayub",
+      "conv": "zh-cn:阿尤布; zh-tw:阿尤布; zh-sg:阿育;"
+    },
+    {
+      "original": "Aziz",
+      "conv": "zh-cn:阿齐兹; zh-tw:阿濟茲; zh-hk:阿齊茲; zh-sg:阿兹;"
+    },
+    {
+      "original": "Azizah",
+      "conv": "zh-cn:阿齐扎; zh-tw:阿芝莎; zh-hk:阿茲莎; zh-sg:阿兹莎;"
+    },
+    {
+      "original": "Azlan",
+      "conv": "zh-cn:阿兹兰; zh-tw:阿茲蘭;"
+    },
+    {
+      "original": "Azmin",
+      "conv": "zh-cn:阿兹敏; zh-tw:阿茲敏; zh-sg:阿兹敏; zh-hk:阿茲敏;"
+    },
+    {
+      "original": "Badawi",
+      "conv": "zh-cn:巴达维; zh-tw:巴達威; zh-hk:巴達威;zh-sg:巴达威;"
+    },
+    {
+      "original": "Bakar",
+      "conv": "zh-cn:巴卡尔; zh-tw:巴卡; zh-hk:巴卡爾;zh-sg:峇卡;"
+    },
+    {
+      "original": "Bali",
+      "conv": "zh-cn:巴厘; zh-tw:峇里; zh-hk:峇里; zh-sg:峇厘;"
+    },
+    {
+      "original": "bin",
+      "conv": "·本·=>zh-sg:·; ·賓·=>zh-sg:·;·本·=>zh-my:·; ·賓·=>zh-my:·;"
+    },
+    {
+      "original": "binti",
+      "conv": "·本蒂·=>zh-sg:·;·賓蒂·=>zh-sg:·;·本蒂·=>zh-my:·;·賓蒂·=>zh-my:·;"
+    },
+    {
+      "original": "Bolkiah",
+      "conv": "zh-cn:博尔基亚; zh-tw:包奇亞; zh-hk:柏嘉;zh-sg:波基亚;"
+    },
+    {
+      "original": "Brunei",
+      "conv": "zh-cn:文莱; zh-tw:汶萊; zh-sg:汶莱;"
+    },
+    {
+      "original": "Brunei Darussalam",
+      "conv": "zh-cn:文莱达鲁萨兰国; zh-tw:汶萊和平之國; zh-hk:汶萊達魯薩蘭國; zh-sg:汶莱达鲁萨兰国;"
+    },
+    {
+      "original": "Dayak",
+      "conv": "zh-cn:达雅克; zh-tw:達雅; zh-sg:达雅;"
+    },
+    {
+      "original": "Denpasar",
+      "conv": "zh-cn:丹帕沙; zh-tw:登巴薩; zh-sg:登巴萨;"
+    },
+    {
+      "original": "Ghafar",
+      "conv": "zh-cn:加法尔;zh-tw:嘉化;zh-sg:嘉化;"
+    },
+    {
+      "original": "Abdul Ghafar bin Baba",
+      "conv": "zh-cn:加法尔·巴巴;zh-tw:嘉化峇峇;zh-sg:嘉化峇峇;"
+    },
+    {
+      "original": "Abdul Ghafar bin Baba",
+      "conv": "zh-cn:加法尔·巴巴;zh-tw:嘉化·峇峇;zh-sg:嘉化·峇峇;"
+    },
+    {
+      "original": "Haji",
+      "conv": "zh-cn:哈吉; zh-tw:哈吉;zh-sg:哈芝;"
+    },
+    {
+      "original": "Halim",
+      "conv": "zh-cn:哈利姆; zh-tw:哈林;zh-sg:哈林;"
+    },
+    {
+      "original": "Hamid",
+      "conv": "zh-cn:哈米德; zh-tw:哈密德;zh-sg:哈密;"
+    },
+    {
+      "original": "Hassan",
+      "conv": "zh-cn:哈桑; zh-tw:哈山;zh-sg:哈山;"
+    },
+    {
+      "original": "Hassanal",
+      "conv": "zh-cn:哈桑纳尔;zh-tw:哈山納;zh-sg:哈山纳;"
+    },
+    {
+      "original": "Hinduism",
+      "conv": "zh-cn:印度教; zh-tw:印度教; zh-sg:兴都教;"
+    },
+    {
+      "original": "Hishammuddin",
+      "conv": "zh-cn:希沙慕丁; zh-sg:希山慕丁; zh-hk:希山慕丁; zh-tw:希山慕丁; zh-mo:希山慕丁;"
+    },
+    {
+      "original": "Hussein",
+      "conv": "zh-cn:侯赛因; zh-tw:胡笙; zh-hk:侯賽因; zh-sg:胡先;zh:胡申;"
+    },
+    {
+      "original": "Hussein Onn",
+      "conv": "zh-cn:侯赛因·奥恩; zh-tw:胡先翁;zh-sg:胡先翁;zh:胡申翁;"
+    },
+    {
+      "original": "ibn",
+      "conv": "·伊本·=>zh-sg:·;·伊本·=>zh-my:·;"
+    },
+    {
+      "original": "ibni",
+      "conv": "·伊卜尼·=>zh-sg:·;·伊卜尼·=>zh-my:·;"
+    },
+    {
+      "original": "Ibrahim",
+      "conv": "zh-cn:易卜拉欣; zh-tw:伊布拉欣; zh-hk:易卜拉欣; zh-sg:依布拉欣;"
+    },
+    {
+      "original": "Ismail",
+      "conv": "zh-cn:伊斯迈尔;zh-hk:伊斯邁;zh-tw:伊斯邁;zh-tw:伊斯邁;zh-sg:依斯迈;"
+    },
+    {
+      "original": "Jaffar",
+      "conv": "zh-cn:加法尔;zh-tw:惹化;zh-hk:賈法;zh-sg:查化;zh-cn:查法"
+    },
+    {
+      "original": "Jaffar",
+      "conv": "zh-cn:札法尔;zh-tw:惹化;zh-hk:賈法;zh-sg:查化;zh-cn:查法"
+    },
+    {
+      "original": "Jaffar",
+      "conv": "zh-cn:加法尔;zh-tw:惹化;zh-hk:賈法;zh-sg:嘉法;zh-cn:查法"
+    },
+    {
+      "original": "Jaffar",
+      "conv": "zh-cn:札法尔;zh-tw:惹化;zh-hk:賈法;zh-sg:嘉法;zh-cn:查法"
+    },
+    {
+      "original": "Jakarta",
+      "conv": "zh-cn:雅加达;zh-hk:雅加達;zh-sg:雅加达;zh-tw:雅加達;"
+    },
+    {
+      "original": "Langkawi",
+      "conv": "兰卡威=>zh-cn:浮罗交怡;兰卡威=>zh-hk:浮羅交怡;兰卡威=>zh-mo:浮羅交怡;兰卡威=>zh-my:浮罗交怡;兰卡威=>zh-sg:浮罗交怡;兰卡威=>zh-tw:浮羅交怡;"
+    },
+    {
+      "original": "Langkawi",
+      "conv": "蘭卡威=>zh-cn:浮罗交怡;蘭卡威=>zh-hk:浮羅交怡;蘭卡威=>zh-mo:浮羅交怡;蘭卡威=>zh-my:浮罗交怡;蘭卡威=>zh-sg:浮罗交怡;蘭卡威=>zh-tw:浮羅交怡;"
+    },
+    {
+      "original": "Mahathir",
+      "conv": "zh-cn:马哈蒂尔; zh-tw:馬哈地; zh-hk:馬哈迪;zh-sg:马哈迪;"
+    },
+    {
+      "original": "Mahmud",
+      "conv": "zh-cn:马哈茂德; zh-tw:馬哈茂德;zh-sg:马末;zh-cn:马目;zh-tw:馬目;zh-hk:馬目"
+    },
+    {
+      "original": "Abdul Malik",
+      "conv": "zh-cn:阿卜杜勒·马利克; zh-tw:阿都馬力;zh-hk:阿卜杜勒·馬利克;zh-sg:阿都马力;"
+    },
+    {
+      "original": "Megawati",
+      "conv": "zh-cn:梅加瓦蒂; zh-tw:梅嘉娃蒂; zh-hk:梅加瓦蒂;zh-sg:美加华蒂;"
+    },
+    {
+      "original": "Melaka",
+      "conv": "zh-cn:马六甲;zh-hk:馬六甲;zh-sg:马六甲;zh-tw:麻六甲;"
+    },
+    {
+      "original": "Melanau",
+      "conv": "zh-tw:馬蘭諾; zh-cn:马兰诺; zh-hk:馬蘭諾"
+    },
+    {
+      "original": "Mijan",
+      "conv": "zh-cn:米詹; zh-hk:米詹; zh-tw:米占;zh-sg:米占;"
+    },
+    {
+      "original": "Mijan Zainal Abidin",
+      "conv": "zh-cn:米詹·扎因·阿比丁; zh-hk:米詹·扎因·阿比丁; zh-tw:米占·再納·阿比丁;zh-sg:米占再纳阿比丁;zh-cn:米占再纳阿比丁;zh-tw:米占再納阿比丁"
+    },
+    {
+      "original": "Mindanao",
+      "conv": "zh-tw:民答那峨; zh-cn:棉兰老; zh-hk:棉蘭老"
+    },
+    {
+      "original": "Miri",
+      "conv": "米里=>zh-cn:美里;米里=>zh-hk:美里;米里=>zh-mo:美里;米里=>zh-my:美里;米里=>zh-sg:美里;米里=>zh-tw:美里;"
+    },
+    {
+      "original": "Mohammed",
+      "conv": "zh-cn:穆罕默德; zh-tw:穆罕默德;zh-sg:莫哈末;"
+    },
+    {
+      "original": "Muhyiddin Yassin",
+      "conv": "zh-cn:穆希丁;zh-tw:慕尤丁;zh-sg:慕尤丁;"
+    },
+    {
+      "original": "Mustaffa",
+      "conv": "zh-cn:穆斯塔法;zh-hk:穆斯塔法;zh-tw:穆斯塔法;zh-sg:慕斯达法;zh-mo:穆斯塔法;zh-tw:慕斯達法;"
+    },
+    {
+      "original": "Nahyan",
+      "conv": "zh-cn:纳哈扬;zh-hk:納哈揚;zh-tw:納哈揚;zh-sg:纳言;"
+    },
+    {
+      "original": "Najib",
+      "conv": "zh-cn:纳吉布;zh-hk:納吉;zh-tw:納吉;zh-sg:纳吉;"
+    },
+    {
+      "original": "Noh",
+      "conv": "zh-cn:努·;zh-tw:努·;zh-hk:努·;zh-sg:诺·"
+    },
+    {
+      "original": "Omar",
+      "conv": "zh-cn:奥马尔; zh-tw:奧瑪; zh-sg:奥马;"
+    },
+    {
+      "original": "Omaru",
+      "conv": "zh-cn:奥马鲁; zh-tw:奧瑪魯;"
+    },
+    {
+      "original": "Onn Jaffar",
+      "conv": "zh-cn:奥恩·加法尔; zh-tw:翁惹化; zh-sg:翁惹化;"
+    },
+    {
+      "original": "Perdana Menteri",
+      "conv": "zh:马来西亚总理;zh-cn:马来西亚总理;zh-tw:馬來西亞首相;zh-hk:馬來西亞首相;zh-sg:马来西亚首相;"
+    },
+    {
+      "original": "Perdana Menteri",
+      "conv": "zh:馬來西亞總理;zh-cn:马来西亚总理;zh-tw:馬來西亞首相;zh-hk:馬來西亞首相;zh-sg:马来西亚首相;"
+    },
+    {
+      "original": "Rahman",
+      "conv": "zh-cn:拉赫曼; zh-tw:拉曼;zh-hk:拉曼;zh-sg:拉曼;"
+    },
+    {
+      "original": "Rashid",
+      "conv": "zh-cn:拉希德; zh-tw:拉昔;zh-sg:拉昔;"
+    },
+    {
+      "original": "Razak",
+      "conv": "zh-cn:拉扎克; zh-tw:拉薩克;zh-hk:拉扎克;zh-sg:拉萨;"
+    },
+    {
+      "original": "Ringgit",
+      "conv": "zh-cn:林吉特; zh-tw:令吉;zh-sg:令吉;"
+    },
+    {
+      "original": "Sabri",
+      "conv": "zh-cn:沙必里;zh-tw:沙比里;zh-sg:沙比里;"
+    },
+    {
+      "original": "Saifu",
+      "conv": "zh-cn:赛义夫;zh-tw:賽義夫;zh-sg:赛夫;"
+    },
+    {
+      "original": "Salahuddin",
+      "conv": "zh-cn:萨拉赫丁; zh-tw:沙拉胡丁; zh-sg:沙拉胡丁;"
+    },
+    {
+      "original": "Said",
+      "conv": "zh-cn:赛义德;zh-tw:薩伊德;zh-sg:赛益;"
+    },
+    {
+      "original": "Samad",
+      "conv": "zh-cn:沙马德;zh-tw:薩馬德;zh-sg:沙末;"
+    },
+    {
+      "original": "Samad Said",
+      "conv": "zh-cn:沙马德·赛义德;zh-tw:薩瑪德·薩伊德;zh-sg:沙末赛益;"
+    },
+    {
+      "original": "Seri Begawan",
+      "conv": "zh-cn:斯里巴加湾; zh-tw:斯里巴卡旺; zh-hk:斯里巴加灣;"
+    },
+    {
+      "original": "Sheikh Muszaphar",
+      "conv": "zh-cn:谢赫·穆扎法尔;zh-tw:錫慕查化;zh-sg:赛慕查化;"
+    },
+    {
+      "original": "Sirajuddin",
+      "conv": "zh-cn:西拉杰丁; zh-tw:西拉如丁; zh-hk:西拉杰丁;zh-sg:西拉祖丁;"
+    },
+    {
+      "original": "Soeharto",
+      "conv": "zh-cn:苏哈托; zh-tw:蘇哈托; zh-sg:苏哈多;"
+    },
+    {
+      "original": "Sukarno",
+      "conv": "zh-cn:苏加诺; zh-tw:蘇卡諾; zh-sg:苏卡诺;"
+    },
+    {
+      "original": "Syed",
+      "conv": "zh-cn:赛义德·; zh-tw:賽·; zh-hk:賽義德·;zh-sg:赛·;"
+    },
+    {
+      "original": "Tamil",
+      "conv": "zh-cn:泰米尔; zh-hk:泰米爾; zh-tw:坦米爾; zh-sg:淡米尔;"
+    },
+    {
+      "original": "Taib bin Mahmud",
+      "conv": "zh-cn:泰益·马哈茂德; zh-tw:泰益瑪目; zh-sg:泰益玛目;"
+    },
+    {
+      "original": "Taufik",
+      "conv": "zh-cn:陶菲克; zh-tw:陶菲克; zh-sg:道菲;"
+    },
+    {
+      "original": "Tontowi",
+      "conv": "zh-cn:通托维; zh-sg:汤多威; zh-hk:湯多威;"
+    },
+    {
+      "original": "Tuanku",
+      "conv": "zh-cn:端古·;zh-tw:端姑·;zh-hk:端姑;zh-sg:端姑;"
+    },
+    {
+      "original": "Tuanku Syed Sirajuddin",
+      "conv": "zh-cn:端古·赛义德·西拉杰丁; zh-tw:端姑賽西拉如丁; zh-hk:端姑賽義德·西拉杰丁;zh-sg:端姑赛西拉祖丁;"
+    },
+    {
+      "original": "Tunku",
+      "conv": "zh-sg:东姑; zh-cn:东古; zh-tw:東姑; zh-hk:東姑;"
+    },
+    {
+      "original": "Tunku Abdul Rahman",
+      "conv": "zh-sg:东姑阿都拉曼; zh-cn:东古·阿卜杜勒·拉赫曼; zh-tw:東姑·阿布都拉曼; zh-hk:東姑阿都拉曼;"
+    },
+    {
+      "original": "Wahab",
+      "conv": "zh-cn:瓦哈比;zh-sg:华合;zh-tw:瓦哈;"
+    },
+    {
+      "original": "Wan Azizah",
+      "conv": "zh-cn:万·阿齐扎; zh-tw:旺阿芝莎; zh-hk:旺阿茲莎; zh-sg:旺阿兹莎;"
+    },
+    {
+      "original": "Yaakob",
+      "conv": "zh-cn:雅各布; zh-tw:雅柯布;zh-sg:耶谷;"
+    },
+    {
+      "original": "Yahya",
+      "conv": "zh-cn:叶海亚; zh-hk:葉海亞; zh-tw:亞雅;zh-sg:雅耶;"
+    },
+    {
+      "original": "Yahya",
+      "conv": "zh-cn:叶海亚; zh-hk:葉海亞; zh-tw:亞雅;zh-sg:耶哈也;"
+    },
+    {
+      "original": "Yahya",
+      "conv": "zh-cn:叶海亚; zh-hk:葉海亞; zh-tw:亞雅;zh-sg:耶也;"
+    },
+    {
+      "original": "Yahya",
+      "conv": "zh-cn:叶海亚; zh-hk:葉海亞; zh-tw:亞雅;zh-sg:雅也;"
+    },
+    {
+      "original": "Yassin",
+      "conv": "zh-cn:亚辛; zh-sg:雅欣; zh-hk:雅欣; zh-tw:雅欣;"
+    },
+    {
+      "original": "Zainudin",
+      "conv": "zh-cn:扎因丁;zh-sg:再努丁;zh-tw:再努丁;"
+    }
+  ]
+}

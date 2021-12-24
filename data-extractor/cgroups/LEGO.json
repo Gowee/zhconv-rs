@@ -1,0 +1,59 @@
+{
+  "name": "LEGO ",
+  "description": "乐高",
+  "path": "Template:CGroup/LEGO",
+  "rules": [
+    {
+      "original": "Galaxy Squad",
+      "conv": "zh-hant:銀河爭奪戰; zh-hans:银河别动队"
+    },
+    {
+      "original": "Indiana Jones",
+      "conv": "zh-tw:印地安納瓊斯; zh-hk:奪寶奇兵; zh-cn:夺宝奇兵"
+    },
+    {
+      "original": "Legends of Chima",
+      "conv": "zh-hant:神獸傳奇; zh-hans:气功传奇"
+    },
+    {
+      "original": "Mickey Mouse",
+      "conv": "zh-hant:米奇老鼠; zh-hans:米老鼠"
+    },
+    {
+      "original": "Minifigure",
+      "conv": "zh-hant:人物系列; zh-hans:小人仔系列"
+    },
+    {
+      "original": "Modular Buildings",
+      "conv": "zh-hant:模組屋; zh-hans:街景"
+    },
+    {
+      "original": "Ninjago",
+      "conv": "zh-hant:旋風忍者; zh-hans:幻影忍者"
+    },
+    {
+      "original": "plastic",
+      "conv": "zh-hant:塑膠; zh-hans:塑料"
+    },
+    {
+      "original": "Spider-Man",
+      "conv": "zh-hant:蜘蛛人; zh-hans:蜘蛛侠"
+    },
+    {
+      "original": "Star Wars",
+      "conv": "zh-hant:星際大戰; zh-hans:星球大战"
+    },
+    {
+      "original": "Technic",
+      "conv": "zh-hant:科技系列; zh-hans:机械组系列"
+    },
+    {
+      "original": "The Lego Movie",
+      "conv": "zh-tw:樂高玩電影; zh-hk:LEGO英雄傳; zh-cn:乐高大电影"
+    },
+    {
+      "original": "Toy Story",
+      "conv": "zh-hant:反斗奇兵; zh-hans:玩具总动员"
+    }
+  ]
+}

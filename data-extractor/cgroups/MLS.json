@@ -1,0 +1,111 @@
+{
+  "name": "MLS",
+  "description": "美國足球大聯盟",
+  "path": "Template:CGroup/MLS",
+  "rules": [
+    {
+      "original": "Atlanta",
+      "conv": "zh-cn:亚特兰大;zh-hk:阿特蘭大;zh-tw:亞特蘭大"
+    },
+    {
+      "original": "Austin",
+      "conv": "zh-cn:奥斯汀; zh-tw:奧斯汀; zh-hk:柯士甸;"
+    },
+    {
+      "original": "Houston",
+      "conv": "zh-cn:休斯敦;zh-tw:休士頓;zh-hk:侯斯頓"
+    },
+    {
+      "original": "Kansas",
+      "conv": "zh-cn:堪萨斯;zh-tw:堪薩斯;zh-hk:肯薩斯"
+    },
+    {
+      "original": "Nashville",
+      "conv": "zh-tw:納許維爾;zh-cn:纳什维尔;zh-hk:納士維;zh-hant:納什維爾;"
+    },
+    {
+      "original": "Sacramento",
+      "conv": "zh-cn:萨克拉门托;zh-tw:沙加緬度;zh-hk:薩克拉門托;"
+    },
+    {
+      "original": "San Jose",
+      "conv": "zh-hans:圣荷西;zh-cn:圣何塞;zh-tw:聖荷西;zh-hk:聖荷西;"
+    },
+    {
+      "original": "Austin FC",
+      "conv": "zh-cn:奥斯汀FC; zh-tw:奧斯汀FC; zh-hk:奧斯汀FC;"
+    },
+    {
+      "original": "Austin FC",
+      "conv": "zh-cn:FC奥斯汀; zh-tw:FC奧斯汀; zh-hk:FC奧斯汀;"
+    },
+    {
+      "original": "Austin Football Club",
+      "conv": "zh-cn:奥斯汀足球俱乐部; zh-tw:奧斯汀足球俱樂部; zh-hk:奧斯汀足球會;"
+    },
+    {
+      "original": "Boston Breakers",
+      "conv": "zh-hans:波士顿开拓者; zh-hk:波士頓浪花;"
+    },
+    {
+      "original": "Chivas USA",
+      "conv": "zh-hans:美国芝华士; zh-hk:美國芝華士; zh-tw:美國起瓦士;"
+    },
+    {
+      "original": "D.C. United",
+      "conv": "zh-hans:华盛顿特区联;zh-hk:華盛頓聯隊;zh-tw:華盛頓特區聯;"
+    },
+    {
+      "original": "Dynamo",
+      "conv": "zh-hans:迪纳摩; zh-tw:迪納摩; zh-hk:戴拿模;"
+    },
+    {
+      "original": "New England Revolution",
+      "conv": "zh-hans:新英格兰革命; zh-hk:新英倫革命; zh-tw:新英格蘭革命;"
+    },
+    {
+      "original": "Portland Timbers",
+      "conv": "zh-hant:波特蘭伐木者; zh-hk:波特蘭伐木者; zh-hans:波特兰伐木工;"
+    },
+    {
+      "original": "Sporting Kansas City",
+      "conv": "zh-hans:堪萨斯城体育会;zh-hk:肯薩斯體育會;zh-tw:堪薩斯城體育會;"
+    },
+    {
+      "original": "BC Place",
+      "conv": "zh-hans:不列颠哥伦比亚;zh-hk:卑詩;zh-tw:英屬哥倫比亞;"
+    },
+    {
+      "original": "Mercedes-Benz Stadium",
+      "conv": "zh-cn:梅赛德斯-奔驰; zh-tw:梅賽德斯-賓士; zh-hk:梅斯特斯-平治; zh-sg:马赛地-宾士; zh-my:马赛地-奔驰;"
+    },
+    {
+      "original": "Raymond James Stadium",
+      "conv": "zh-hans:雷蒙詹姆斯;zh-hk:雷蒙占士;zh-tw:雷蒙詹姆斯;"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "东部联盟=>zh-hk:東岸;"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "西部联盟=>zh-hk:西岸;"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "東區聯盟=>zh-hk:東岸;"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "西區聯盟=>zh-hk:西岸;"
+    },
+    {
+      "original": "Eastern Conference",
+      "conv": "zh-cn:东部;zh-tw:東區;zh-hk:東岸;"
+    },
+    {
+      "original": "Western Conference",
+      "conv": "zh-cn:西部;zh-tw:西區;zh-hk:西岸;"
+    }
+  ]
+}

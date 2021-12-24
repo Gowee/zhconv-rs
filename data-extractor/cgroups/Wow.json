@@ -1,0 +1,1023 @@
+{
+  "name": "Wow",
+  "description": "魔兽世界",
+  "path": "Module:CGroup/Wow",
+  "rules": [
+    {
+      "original": "Nightelf",
+      "conv": "zh-cn:暗夜精灵;zh-tw:夜精靈;"
+    },
+    {
+      "original": "Undead",
+      "conv": "zh-cn:亡灵;zh-tw:不死族;"
+    },
+    {
+      "original": "Troll",
+      "conv": "zh-cn:巨魔;zh-tw:食人妖;"
+    },
+    {
+      "original": "Gnome",
+      "conv": "zh-cn:侏儒;zh-tw:地精;"
+    },
+    {
+      "original": "Goblin",
+      "conv": "zh-cn:地精;zh-tw:哥布林;"
+    },
+    {
+      "original": "Eredar",
+      "conv": "zh-cn:艾瑞达;zh-tw:埃雷達爾;"
+    },
+    {
+      "original": "Naaru",
+      "conv": "zh-cn:纳鲁;zh-tw:那魯;"
+    },
+    {
+      "original": "Proto-dragon",
+      "conv": "zh-cn:始祖龙;zh-tw:元龍;"
+    },
+    {
+      "original": "Naga",
+      "conv": "zh-cn:娜迦;zh-tw:納迦;"
+    },
+    {
+      "original": "Mur'gul",
+      "conv": "zh-cn:穆格尔;zh-tw:莫勾;"
+    },
+    {
+      "original": "Vrykul",
+      "conv": "zh-cn:维库人;zh-tw:維酷人;"
+    },
+    {
+      "original": "Demon Hunter",
+      "conv": "zh-cn:恶魔猎手;zh-tw:惡魔獵人;"
+    },
+    {
+      "original": "Scourge",
+      "conv": "zh-cn:天灾;zh-tw:天譴;"
+    },
+    {
+      "original": "Bilgewater Cartel",
+      "conv": "zh-cn:锈水财阀;zh-tw:污水企業聯合;"
+    },
+    {
+      "original": "Mag'har",
+      "conv": "zh-cn:玛格汉;zh-tw:瑪格哈;"
+    },
+    {
+      "original": "Ogri'la",
+      "conv": "zh-cn:奥格瑞拉;zh-tw:歐格利拉;"
+    },
+    {
+      "original": "Sha'tar",
+      "conv": "zh-cn:沙塔尔;zh-tw:薩塔;"
+    },
+    {
+      "original": "Scryer",
+      "conv": "zh-cn:占星者;zh-tw:占卜者;"
+    },
+    {
+      "original": "Aldor",
+      "conv": "zh-cn:奥尔多;zh-tw:奧多爾;"
+    },
+    {
+      "original": "the Shattered Sun",
+      "conv": "zh-cn:破碎残阳;zh-tw:破碎之日;"
+    },
+    {
+      "original": "Alliance Vanguard",
+      "conv": "zh-cn:联盟先遣军;zh-tw:聯盟先鋒;"
+    },
+    {
+      "original": "The Frostborn",
+      "conv": "zh-cn:霜脉矮人;zh-tw:霜誕矮人;"
+    },
+    {
+      "original": "Valiance Expedition",
+      "conv": "zh-cn:无畏远征军;zh-tw:驍勇遠征軍;"
+    },
+    {
+      "original": "The Silver Covenant",
+      "conv": "zh-cn:银色盟约;zh-tw:白銀誓盟;"
+    },
+    {
+      "original": "Horde Expedition",
+      "conv": "zh-cn:部落先遣军;zh-tw:部落遠征軍;"
+    },
+    {
+      "original": "Warsong Offensive",
+      "conv": "zh-cn:战歌远征军;zh-tw:戰歌進攻部隊;"
+    },
+    {
+      "original": "The Taunka",
+      "conv": "zh-cn:牦牛人;zh-tw:坦卡族;"
+    },
+    {
+      "original": "Argent Crusader",
+      "conv": "zh-cn:银色十字军;zh-tw:銀白十字軍;"
+    },
+    {
+      "original": "Kirin Tor",
+      "conv": "zh-cn:肯瑞托;zh-tw:祈倫托;"
+    },
+    {
+      "original": "Ramkahen",
+      "conv": "zh-cn:拉穆卡恒;zh-tw:蘭姆卡韓;"
+    },
+    {
+      "original": "Earthen Ring",
+      "conv": "zh-cn:大地之环;zh-tw:陶土議會;"
+    },
+    {
+      "original": "Wyrmrest Accord",
+      "conv": "zh-cn:龙眠联军;zh-tw:龍眠協調者;"
+    },
+    {
+      "original": "Knights of the Ebon Blade",
+      "conv": "zh-cn:黑锋骑士团;zh-tw:黯刃騎士團;"
+    },
+    {
+      "original": "The Kalu'ak",
+      "conv": "zh-cn:卡鲁亚克;zh-tw:卡魯耶克;"
+    },
+    {
+      "original": "Kirin-Tor Offensive",
+      "conv": "zh-cn:肯瑞托远征军;zh-tw:祈倫托先遣軍;"
+    },
+    {
+      "original": "The Earthen Ring",
+      "conv": "zh-cn:大地之环;zh-tw:陶土議會;"
+    },
+    {
+      "original": "Shado-Pan",
+      "conv": "zh-cn:影踪派;zh-tw:影潘;"
+    },
+    {
+      "original": "Shado-Pan Assault",
+      "conv": "zh-cn:影踪突袭营;zh-tw:影潘之襲;"
+    },
+    {
+      "original": "Shang Xi's Academy",
+      "conv": "zh-cn:尚喜武院;zh-tw:尚羲學院;"
+    },
+    {
+      "original": "Hozen",
+      "conv": "zh-cn:猢狲;zh-tw:猴人;"
+    },
+    {
+      "original": "Mantid",
+      "conv": "zh-cn:螳螂妖;zh-tw:螳螂人;"
+    },
+    {
+      "original": "Saurok",
+      "conv": "zh-cn:蜥蜴人;zh-tw:薩烏洛克;"
+    },
+    {
+      "original": "Yaungol",
+      "conv": "zh-cn:野牛人;zh-tw:揚古;"
+    },
+    {
+      "original": "Grummle",
+      "conv": "zh-cn:土地精;zh-tw:咕嚕摩;"
+    },
+    {
+      "original": "Mushan Beast",
+      "conv": "zh-cn:穆山兽;zh-tw:牡山獸;"
+    },
+    {
+      "original": "Quilen",
+      "conv": "zh-cn:魁麟;zh-tw:麒麟獸;"
+    },
+    {
+      "original": "A'dal",
+      "conv": "zh-cn:阿达尔;zh-tw:阿達歐;"
+    },
+    {
+      "original": "Aethas",
+      "conv": "zh-cn:艾萨斯;zh-tw:埃薩;"
+    },
+    {
+      "original": "Alexandros",
+      "conv": "zh-cn:亚历山德罗斯;zh-tw:亞歷山卓斯;"
+    },
+    {
+      "original": "Alextrasza",
+      "conv": "zh-cn:阿莱克斯塔萨;zh-tw:雅立史卓莎;"
+    },
+    {
+      "original": "Algalon",
+      "conv": "zh-cn:奥尔加隆;zh-tw:艾爾加隆;"
+    },
+    {
+      "original": "Alleria",
+      "conv": "zh-cn:奥蕾莉亚;zh-tw:艾蘭里亞;"
+    },
+    {
+      "original": "Anachronos",
+      "conv": "zh-cn:阿纳克洛斯;zh-tw:安納克羅斯;"
+    },
+    {
+      "original": "Anasterian",
+      "conv": "zh-cn:安纳斯特里亚;zh-tw:安納斯提安;"
+    },
+    {
+      "original": "Anduin",
+      "conv": "zh-cn:安度因;zh-tw:安杜因;"
+    },
+    {
+      "original": "Arthas",
+      "conv": "zh-cn:阿尔萨斯;zh-tw:阿薩斯;"
+    },
+    {
+      "original": "Balnazzar",
+      "conv": "zh-cn:巴纳扎尔;zh-tw:巴納札爾;"
+    },
+    {
+      "original": "Broll Bearmantle",
+      "conv": "zh-cn:布罗尔·熊皮;zh-tw:布洛·熊皮;"
+    },
+    {
+      "original": "Budd",
+      "conv": "zh-cn:巴德;zh-tw:霸德;"
+    },
+    {
+      "original": "Caelestrasz",
+      "conv": "zh-cn:凯雷斯特拉兹;zh-tw:凱雷斯塔茲;"
+    },
+    {
+      "original": "Cho'gall",
+      "conv": "zh-cn:古加尔;zh-tw:丘加利;"
+    },
+    {
+      "original": "Darion",
+      "conv": "zh-cn:达里安;zh-tw:达瑞安;"
+    },
+    {
+      "original": "Dar'Khan",
+      "conv": "zh-cn:达尔坎;zh-tw:達克汗;"
+    },
+    {
+      "original": "Doomhammer",
+      "conv": "zh-cn:毁灭之锤;zh-tw:末日鎚;"
+    },
+    {
+      "original": "Drathir",
+      "conv": "zh-cn:德拉希尔;zh-tw:崔希爾;"
+    },
+    {
+      "original": "Durotan",
+      "conv": "zh-cn:杜隆坦;zh-tw:杜洛坦;"
+    },
+    {
+      "original": "Elune",
+      "conv": "zh-cn:艾露恩;zh-tw:伊露恩;"
+    },
+    {
+      "original": "Galakrond",
+      "conv": "zh-cn:迦拉克隆;zh-tw:葛拉克朗;"
+    },
+    {
+      "original": "Garrosh",
+      "conv": "zh-cn:加尔鲁什;zh-tw:卡爾洛斯;"
+    },
+    {
+      "original": "Greymane",
+      "conv": "zh-cn:格雷迈恩;zh-tw:葛雷邁恩;"
+    },
+    {
+      "original": "Grom",
+      "conv": "zh-cn:格罗姆;zh-tw:葛羅;"
+    },
+    {
+      "original": "Grommash",
+      "conv": "zh-cn:格罗玛什;zh-tw:葛羅瑪許;"
+    },
+    {
+      "original": "Gruul",
+      "conv": "zh-cn:格鲁尔;zh-tw:戈魯爾;"
+    },
+    {
+      "original": "Halduron",
+      "conv": "zh-cn:哈杜伦;zh-tw:赫杜倫;"
+    },
+    {
+      "original": "Halduron Brightwing",
+      "conv": "zh-cn:哈杜伦·明翼;zh-tw:赫杜倫·亮翼;"
+    },
+    {
+      "original": "Halion",
+      "conv": "zh-cn:海里昂;zh-tw:海萊恩;"
+    },
+    {
+      "original": "Hamuul",
+      "conv": "zh-cn:哈缪尔;zh-tw:哈謬爾;"
+    },
+    {
+      "original": "Hellscream",
+      "conv": "zh-cn:地狱咆哮;zh-tw:地獄吼;"
+    },
+    {
+      "original": "Jaina",
+      "conv": "zh-cn:吉安娜;zh-tw:珍娜;"
+    },
+    {
+      "original": "Jarod",
+      "conv": "zh-cn:迦洛德;zh-tw:亞羅德;"
+    },
+    {
+      "original": "Jorad Mace",
+      "conv": "zh-cn:乔拉德·迈斯;zh-tw:喬洛德·麥斯;"
+    },
+    {
+      "original": "Kazzak",
+      "conv": "zh-cn:卡扎克;zh-tw:卡札克;"
+    },
+    {
+      "original": "Koltira",
+      "conv": "zh-cn:库尔迪拉;zh-tw:寇爾提拉;"
+    },
+    {
+      "original": "Korialstrasz",
+      "conv": "zh-cn:克莱奥斯特拉兹;zh-tw:考雷斯塔茲;"
+    },
+    {
+      "original": "Krasus",
+      "conv": "zh-cn:克拉苏斯;zh-tw:卡薩斯;"
+    },
+    {
+      "original": "Lor'themar",
+      "conv": "zh-cn:洛瑟玛;zh-tw:洛索瑪;"
+    },
+    {
+      "original": "Lo'Gosh",
+      "conv": "zh-cn:拉格什;zh-tw:洛戈許;"
+    },
+    {
+      "original": "Maiev",
+      "conv": "zh-cn:玛维;zh-tw:瑪翼夫;"
+    },
+    {
+      "original": "Malfurion",
+      "conv": "zh-cn:玛法里奥;zh-tw:瑪法里恩;"
+    },
+    {
+      "original": "Meryl Winterstorm",
+      "conv": "zh-cn:梅里·冬风;zh-tw:梅里爾·冬風暴;"
+    },
+    {
+      "original": "Muln Earthfury",
+      "conv": "zh-cn:穆恩·大地之怒;zh-tw:穆恩·地怒;"
+    },
+    {
+      "original": "Murmur",
+      "conv": "zh-cn:摩摩尔;zh-tw:莫爾墨;"
+    },
+    {
+      "original": "M'uru",
+      "conv": "zh-cn:穆鲁;zh-tw:莫魯;"
+    },
+    {
+      "original": "Nobundo",
+      "conv": "zh-cn:努波顿;zh-tw:諾柏多;"
+    },
+    {
+      "original": "Ner'zhul",
+      "conv": "zh-cn:耐奥祖;zh-tw:耐祖奧;"
+    },
+    {
+      "original": "Orgrim",
+      "conv": "zh-cn:奥格瑞姆;zh-tw:奧格林;"
+    },
+    {
+      "original": "Proudmoore",
+      "conv": "zh-cn:普罗德摩尔;zh-tw:普勞德摩爾;"
+    },
+    {
+      "original": "Putress",
+      "conv": "zh-cn:普特雷斯;zh-tw:普崔司;"
+    },
+    {
+      "original": "Rehgar Earthfury",
+      "conv": "zh-cn:雷加·大地之怒;zh-tw:雷加·地怒;"
+    },
+    {
+      "original": "Rokhan",
+      "conv": "zh-cn:洛坎;zh-tw:洛克漢;"
+    },
+    {
+      "original": "Sindragosa",
+      "conv": "zh-cn:辛达苟萨;zh-tw:辛德拉苟莎;"
+    },
+    {
+      "original": "Sinestra",
+      "conv": "zh-cn:希奈丝特拉;zh-tw:賽絲特拉;"
+    },
+    {
+      "original": "Teron Gorefiend",
+      "conv": "zh-cn:塔隆·血魔;zh-tw:泰朗·血魔;"
+    },
+    {
+      "original": "Thassarian",
+      "conv": "zh-cn:萨萨里安;zh-tw:薩沙理安;"
+    },
+    {
+      "original": "Thrall",
+      "conv": "zh-cn:萨尔;zh-tw:索爾;"
+    },
+    {
+      "original": "Trag",
+      "conv": "zh-cn:特拉格;zh-tw:塔拉格;"
+    },
+    {
+      "original": "Tyrande",
+      "conv": "zh-cn:泰兰德;zh-tw:泰蘭妲;"
+    },
+    {
+      "original": "Tyrigosa",
+      "conv": "zh-cn:泰蕾苟萨;zh-tw:泰洛苟莎;"
+    },
+    {
+      "original": "Uther",
+      "conv": "zh-cn:乌瑟尔;zh-tw:烏瑟;"
+    },
+    {
+      "original": "Velen",
+      "conv": "zh-cn:维伦;zh-tw:費倫;"
+    },
+    {
+      "original": "Velen the Divine",
+      "conv": "zh-cn:先知维伦;zh-tw:預言者費倫;"
+    },
+    {
+      "original": "Vereesa",
+      "conv": "zh-cn:温蕾萨;zh-tw:凡蕾莎;"
+    },
+    {
+      "original": "Xavius",
+      "conv": "zh-cn:哈维斯;zh-tw:薩維斯;"
+    },
+    {
+      "original": "Ymiron",
+      "conv": "zh-cn:伊米隆;zh-tw:依米倫;"
+    },
+    {
+      "original": "Yogg-Saron",
+      "conv": "zh-cn:尤格-萨隆;zh-tw:尤格薩倫;"
+    },
+    {
+      "original": "Yorg Stormheart",
+      "conv": "zh-cn:约尔格·雷心;zh-tw:約格·風暴之心;"
+    },
+    {
+      "original": "Tirisfal",
+      "conv": "zh-cn:提瑞斯法;zh-tw:提里斯法;"
+    },
+    {
+      "original": "Dun Morogh",
+      "conv": "zh-cn:丹莫罗;zh-tw:丹莫洛;"
+    },
+    {
+      "original": "Ghostlands",
+      "conv": "zh-cn:幽魂之地;zh-tw:鬼魂之地;"
+    },
+    {
+      "original": "Isle of Quel'Danas",
+      "conv": "zh-cn:奎尔丹纳斯岛;zh-tw:奎爾達納斯之島;"
+    },
+    {
+      "original": "Plaguelands: The Scarlet Enclave",
+      "conv": "zh-cn:东瘟疫之地：血色领地;zh-tw:東瘟疫之地: 血色領區;"
+    },
+    {
+      "original": "The Scarlet Enclave",
+      "conv": "zh-cn:血色领地;zh-tw:血色領區;"
+    },
+    {
+      "original": "Archerus:TheEbonHold",
+      "conv": "zh-cn:阿彻鲁斯：黑锋要塞;zh-tw:亞榭洛：黯黑堡;"
+    },
+    {
+      "original": "Lordaeron",
+      "conv": "zh-cn:洛丹伦;zh-tw:羅德隆;"
+    },
+    {
+      "original": "Vashj'ir",
+      "conv": "zh-cn:瓦斯琪尔;zh-tw:瓦許伊爾;"
+    },
+    {
+      "original": "Gilneas",
+      "conv": "zh-cn:吉尔尼斯;zh-tw:吉爾尼斯;"
+    },
+    {
+      "original": "Kalimdor",
+      "conv": "zh-cn:卡利姆多;zh-tw:卡林多;"
+    },
+    {
+      "original": "Orgrimmar",
+      "conv": "zh-cn:奥格瑞玛;zh-tw:奧格瑪;"
+    },
+    {
+      "original": "Durotar",
+      "conv": "zh-cn:杜隆塔尔;zh-tw:杜洛塔;"
+    },
+    {
+      "original": "Ashenvale",
+      "conv": "zh-cn:灰谷;zh-tw:梣谷;"
+    },
+    {
+      "original": "The Exodar",
+      "conv": "zh-cn:埃索达;zh-tw:艾克索達;"
+    },
+    {
+      "original": "Azuremyst Isle",
+      "conv": "zh-cn:秘蓝岛;zh-tw:藍謎島;"
+    },
+    {
+      "original": "Mount Hyjal",
+      "conv": "zh-cn:海加尔山;zh-tw:海加爾山;"
+    },
+    {
+      "original": "Shattrath City",
+      "conv": "zh-cn:沙塔斯城;zh-tw:撒塔斯城;"
+    },
+    {
+      "original": "Zangarmarsh",
+      "conv": "zh-cn:赞加沼泽;zh-tw:贊格沼澤;"
+    },
+    {
+      "original": "Terokkar Forest",
+      "conv": "zh-cn:泰罗卡森林;zh-tw:泰洛卡森林;"
+    },
+    {
+      "original": "Nagrand",
+      "conv": "zh-cn:纳格兰;zh-tw:納葛蘭;"
+    },
+    {
+      "original": "Blade's Edge Mountains",
+      "conv": "zh-cn:刀锋山;zh-tw:劍刃山脈;"
+    },
+    {
+      "original": "Auchindoun",
+      "conv": "zh-cn:奥金顿;zh-tw:奧齊頓;"
+    },
+    {
+      "original": "Northrend",
+      "conv": "zh-cn:诺森德;zh-tw:北裂境;"
+    },
+    {
+      "original": "Howling Fjord",
+      "conv": "zh-cn:嚎风峡湾;zh-tw:凜風峽灣;"
+    },
+    {
+      "original": "The Borean Tundra",
+      "conv": "zh-cn:北风苔原;zh-tw:北風凍原;"
+    },
+    {
+      "original": "Grizzly Hills",
+      "conv": "zh-cn:灰熊丘陵;zh-tw:灰白之丘;"
+    },
+    {
+      "original": "Zul'Drak",
+      "conv": "zh-cn:祖达克;zh-tw:祖爾德拉克;"
+    },
+    {
+      "original": "Crystalsong Forest",
+      "conv": "zh-cn:晶歌森林;zh-tw:水晶之歌森林"
+    },
+    {
+      "original": "Sholazar Basin",
+      "conv": "zh-cn:索拉查盆地;zh-tw:休拉薩盆地;"
+    },
+    {
+      "original": "Storm Peaks",
+      "conv": "zh-cn:风暴峭壁;zh-tw:風暴群山;"
+    },
+    {
+      "original": "Icecrown Glacier",
+      "conv": "zh-cn:冰冠冰川;zh-tw:寒冰皇冠"
+    },
+    {
+      "original": "Wintergrasp",
+      "conv": "zh-cn:冬拥湖;zh-tw:冬握湖;"
+    },
+    {
+      "original": "Hrothgar's Landing",
+      "conv": "zh-cn:洛斯加尔登陆点;zh-tw:赫魯斯加臺地;"
+    },
+    {
+      "original": "The Jade Forest",
+      "conv": "zh-cn:翡翠林;zh-tw:翠玉林;"
+    },
+    {
+      "original": "Valley of the Four Winds",
+      "conv": "zh-cn:四风谷;zh-tw:四風峽;"
+    },
+    {
+      "original": "Kun-Lai Summit",
+      "conv": "zh-cn:昆莱山;zh-tw:崑萊峰;"
+    },
+    {
+      "original": "Townlong Steppes",
+      "conv": "zh-cn:螳螂高原;zh-tw:螳螂荒原;"
+    },
+    {
+      "original": "Krasarang Wilds",
+      "conv": "zh-cn:卡桑琅丛林;zh-tw:喀撒朗蠻荒;"
+    },
+    {
+      "original": "Dread Wastes",
+      "conv": "zh-cn:恐惧废土;zh-tw:悚然荒野;"
+    },
+    {
+      "original": "Vale of Eternal Blossoms",
+      "conv": "zh-cn:锦绣谷;zh-tw:恆春谷;"
+    },
+    {
+      "original": "Isle of the Thunder King",
+      "conv": "zh-cn:雷神岛;zh-tw:雷王島;"
+    },
+    {
+      "original": "Kezan",
+      "conv": "zh-cn:科赞;zh-tw:凱贊;"
+    },
+    {
+      "original": "Deepholm",
+      "conv": "zh-cn:深岩之洲;zh-tw:地深之源;"
+    },
+    {
+      "original": "Strand of the Ancients",
+      "conv": "zh-cn:远古海滩;zh-tw:遠祖灘頭;"
+    },
+    {
+      "original": "Blade's Edge Arena",
+      "conv": "zh-cn:刀锋山竞技场;zh-tw:劍刃競技場;"
+    },
+    {
+      "original": "The Ring of Valor",
+      "conv": "zh-cn:勇气竞技场;zh-tw:勇武之環;"
+    },
+    {
+      "original": "Dead Mines",
+      "conv": "zh-cn:死亡矿井;zh-tw:死亡礦坑;"
+    },
+    {
+      "original": "Gnomeregan",
+      "conv": "zh-cn:诺莫瑞根;zh-tw:諾姆瑞根;"
+    },
+    {
+      "original": "Hellfire Ramparts",
+      "conv": "zh-cn:地狱火城墙;zh-tw:地獄火壁壘;"
+    },
+    {
+      "original": "Auchindoun",
+      "conv": "zh-cn:奥金顿;zh-tw:奧齊頓;"
+    },
+    {
+      "original": "Coilfang Reservoir",
+      "conv": "zh-cn:盘牙水库;zh-tw:盤牙蓄湖;"
+    },
+    {
+      "original": "The Blood Furnace",
+      "conv": "zh-cn:鲜血熔炉;zh-tw:血熔爐;"
+    },
+    {
+      "original": "The Slave Pens",
+      "conv": "zh-cn:奴隶围栏;zh-tw:奴隸監獄;"
+    },
+    {
+      "original": "The Underbog",
+      "conv": "zh-cn:幽暗沼泽;zh-tw:深幽泥沼;"
+    },
+    {
+      "original": "The Steamvault",
+      "conv": "zh-cn:蒸汽地窟;zh-tw:蒸汽洞窟;"
+    },
+    {
+      "original": "Auchenai Crypts",
+      "conv": "zh-cn:奥金尼地穴;zh-tw:奧奇奈地穴;"
+    },
+    {
+      "original": "Sethekk Halls",
+      "conv": "zh-cn:塞泰克大厅;zh-tw:塞司克大廳;"
+    },
+    {
+      "original": "The Mechanar",
+      "conv": "zh-cn:能源舰;zh-tw:麥克納爾;"
+    },
+    {
+      "original": "The Botanica",
+      "conv": "zh-cn:生态船;zh-tw:波塔尼卡;"
+    },
+    {
+      "original": "The Arcatraz",
+      "conv": "zh-cn:禁魔监狱;zh-tw:亞克崔茲;"
+    },
+    {
+      "original": "Magisters' Terrace",
+      "conv": "zh-cn:魔导师平台;zh-tw:博學者殿堂;"
+    },
+    {
+      "original": "Old Hillsbrad Foothills",
+      "conv": "zh-cn:旧希尔斯布莱德丘陵;zh-tw:希爾斯布萊德丘陵舊址;"
+    },
+    {
+      "original": "The Culling of Stratholme",
+      "conv": "zh-cn:净化斯坦索姆;zh-tw:斯坦索姆的抉擇;"
+    },
+    {
+      "original": "Utgarde Keep",
+      "conv": "zh-cn:乌特加德城堡;zh-tw:俄特加德要塞;"
+    },
+    {
+      "original": "Utgarde Pinnacle",
+      "conv": "zh-cn:乌特加德之巅;zh-tw:俄特加德之巔;"
+    },
+    {
+      "original": "The Nexus",
+      "conv": "zh-cn:魔枢;zh-tw:奧核之心;"
+    },
+    {
+      "original": "The Oculus",
+      "conv": "zh-cn:魔环;zh-tw:奧核之眼;"
+    },
+    {
+      "original": "Azjol-Nerub",
+      "conv": "zh-cn:艾卓-尼鲁布;zh-tw:阿茲歐-奈幽;"
+    },
+    {
+      "original": "Ahn'kahet: The Old Kingdom",
+      "conv": "zh-cn:安卡赫特：古代王国;zh-tw:安卡罕特：古王國;"
+    },
+    {
+      "original": "Drak'Tharon Keep",
+      "conv": "zh-cn:达克萨隆要塞;zh-tw:德拉克薩隆要塞;"
+    },
+    {
+      "original": "Gundrak",
+      "conv": "zh-cn:古达克;zh-tw:剛德拉克;"
+    },
+    {
+      "original": "The Violet Hold",
+      "conv": "zh-cn:紫罗兰监狱;zh-tw:紫羅蘭堡;"
+    },
+    {
+      "original": "Halls of Stone",
+      "conv": "zh-cn:岩石大厅;zh-tw:石之大廳;"
+    },
+    {
+      "original": "Halls of Lightning",
+      "conv": "zh-cn:闪电大厅;zh-tw:雷光大廳;"
+    },
+    {
+      "original": "Trial of the Champion",
+      "conv": "zh-cn:冠军的试炼;zh-tw:勇士試煉;"
+    },
+    {
+      "original": "Forge of Souls",
+      "conv": "zh-cn:灵魂洪炉;zh-tw:眾魂熔爐;"
+    },
+    {
+      "original": "Pit of Saron",
+      "conv": "zh-cn:萨隆矿坑;zh-tw:薩倫之淵;"
+    },
+    {
+      "original": "Halls of Reflection",
+      "conv": "zh-cn:映像大厅;zh-tw:倒影大廳;"
+    },
+    {
+      "original": "Lost City of Tol'vir",
+      "conv": "zh-cn:托维尔失落之城;zh-tw:托維爾的失落之城;"
+    },
+    {
+      "original": "Blackrock Caverns",
+      "conv": "zh-cn:黑石岩窟;zh-tw:黑石洞穴;"
+    },
+    {
+      "original": "The Throne of the Tides",
+      "conv": "zh-cn:潮汐王座;zh-tw:海潮王座;"
+    },
+    {
+      "original": "The Vortex Pinnacle",
+      "conv": "zh-cn:旋云之巅;zh-tw:漩渦尖塔;"
+    },
+    {
+      "original": "The Stonecore",
+      "conv": "zh-cn:巨石之核;zh-tw:石岩之心;"
+    },
+    {
+      "original": "End Time",
+      "conv": "zh-cn:时光之末;zh-tw:終焉之刻;"
+    },
+    {
+      "original": "Hour of Twilight",
+      "conv": "zh-cn:暮光审判;zh-tw:暮光之時;"
+    },
+    {
+      "original": "Temple of the Jade Serpent",
+      "conv": "zh-cn:青龙寺;zh-tw:玉蛟寺;"
+    },
+    {
+      "original": "Stormstout Brewery",
+      "conv": "zh-cn:风暴烈酒酿造厂;zh-tw:風暴烈酒酒坊;"
+    },
+    {
+      "original": "Shado-Pan Monastery",
+      "conv": "zh-cn:影踪禅院;zh-tw:影潘僧院;"
+    },
+    {
+      "original": "Gate of the Setting Sun",
+      "conv": "zh-cn:残阳关;zh-tw:落陽關;"
+    },
+    {
+      "original": "Mogu'Shan Palace",
+      "conv": "zh-cn:魔古山宫殿;zh-tw:魔古山宮;"
+    },
+    {
+      "original": "Siege of Niuzao Temple",
+      "conv": "zh-cn:围攻砮皂寺;zh-tw:圍攻怒兆寺;"
+    },
+    {
+      "original": "Gruul's Lair",
+      "conv": "zh-cn:格鲁尔的巢穴;zh-tw:戈魯爾之巢;"
+    },
+    {
+      "original": "Serpentshrine Cavern",
+      "conv": "zh-cn:毒蛇神殿;zh-tw:毒蛇神殿洞穴;"
+    },
+    {
+      "original": "Black Temple",
+      "conv": "zh-cn:黑暗神殿;zh-tw:黑暗神廟"
+    },
+    {
+      "original": "The Obsidian Sanctum",
+      "conv": "zh-cn:黑曜石圣殿;zh-tw:黑曜聖所;"
+    },
+    {
+      "original": "Vault of Archavon",
+      "conv": "zh-cn:阿尔卡冯的宝库;zh-tw:亞夏梵穹殿;"
+    },
+    {
+      "original": "Ulduar",
+      "conv": "zh-cn:奥杜尔;zh-tw:奧杜亞"
+    },
+    {
+      "original": "Icecrown Citadel",
+      "conv": "zh-cn:冰冠堡垒;zh-tw:冰冠城塞"
+    },
+    {
+      "original": "Ruby Sanctum",
+      "conv": "zh-cn:红玉圣殿;zh-tw:晶紅聖所"
+    },
+    {
+      "original": "Baradin Hold",
+      "conv": "zh-cn:巴拉丁监狱;zh-tw:巴拉丁堡"
+    },
+    {
+      "original": "Blackwing Descent",
+      "conv": "zh-cn:黑翼血环;zh-tw:黑翼陷窟"
+    },
+    {
+      "original": "Throne of the Four Winds",
+      "conv": "zh-cn:风神王座;zh-tw:四風王座"
+    },
+    {
+      "original": "The Firelands",
+      "conv": "zh-cn:火焰之地;zh-tw:火源之界"
+    },
+    {
+      "original": "Terrace of Endless Spring",
+      "conv": "zh-cn:永春台;zh-tw:豐泉台"
+    },
+    {
+      "original": "Siege of Orgrimmar",
+      "conv": "zh-cn:决战奥格瑞玛;zh-tw:圍攻奧格瑪"
+    },
+    {
+      "original": "Throne of the Thunder",
+      "conv": "zh-cn:雷电王座;zh-tw:雷霆王座"
+    },
+    {
+      "original": "Unga Ingoo",
+      "conv": "zh-cn:盎迦猴岛;zh-tw:仰加印古"
+    },
+    {
+      "original": "Stone Keeper's Shard",
+      "conv": "zh-cn:岩石守卫者的碎片;zh-tw:石之守衛者裂片"
+    },
+    {
+      "original": "Glyphs",
+      "conv": "zh-cn:雕文;zh-tw:雕紋"
+    },
+    {
+      "original": "Plate",
+      "conv": "zh-cn:板甲;zh-tw:鎧甲;"
+    },
+    {
+      "original": "Saronite",
+      "conv": "zh-cn:萨隆邪铁;zh-tw:薩鋼;"
+    },
+    {
+      "original": "Kaja'mite",
+      "conv": "zh-cn:卡亚矿石;zh-tw:卡迦邁礦石;"
+    },
+    {
+      "original": "Mote of Harmony",
+      "conv": "zh-cn:祥和微粒;zh-tw:和諧微粒;"
+    },
+    {
+      "original": "Arcane",
+      "conv": "zh-cn:奥术;zh-tw:秘法;"
+    },
+    {
+      "original": "Shamans",
+      "conv": "zh-cn:萨满祭司;zh-tw:薩滿;"
+    },
+    {
+      "original": "Rogue",
+      "conv": "zh-cn:潜行者;zh-tw:盜賊;"
+    },
+    {
+      "original": "Frostmourne",
+      "conv": "zh-cn:霜之哀伤;zh-tw:霜之哀傷;"
+    },
+    {
+      "original": "Nexus War",
+      "conv": "zh-cn:魔枢战争;zh-tw:奧核之戰;"
+    },
+    {
+      "original": "Scenario",
+      "conv": "场景战役=>zh-tw:事件;"
+    },
+    {
+      "original": "Sanctuary Regions",
+      "conv": "zh-cn:安全区域;zh-tw:聖域;"
+    },
+    {
+      "original": "The Black Temple",
+      "conv": "zh-cn:黑暗神殿;zh-tw:黑暗神廟;"
+    },
+    {
+      "original": "The Gods of Zul’Aman",
+      "conv": "zh-cn:邪神禁地祖阿曼;zh-tw:諸神之地祖阿曼;"
+    },
+    {
+      "original": "Fury of the Sunwell",
+      "conv": "zh-cn:决战太阳之井;zh-tw:復仇怒火‧太陽之井;"
+    },
+    {
+      "original": "Call of the Crusade",
+      "conv": "zh-cn:北伐的召唤;zh-tw:十字軍的呼喚;"
+    },
+    {
+      "original": "Fall of the Lich King",
+      "conv": "zh-cn:巫妖王的陨落;zh-tw:王者的殞落;"
+    },
+    {
+      "original": "Cataclysm",
+      "conv": "zh-cn:大地的裂变;zh-tw:浩劫與重生;"
+    },
+    {
+      "original": "Rage of the Firelands",
+      "conv": "zh-cn:火焰的愤怒;zh-tw:火源的怒焰;"
+    },
+    {
+      "original": "Hour of Twilight",
+      "conv": "zh-cn:暮光审判;zh-tw:暮光之戰;"
+    },
+    {
+      "original": "Mists of Pandaria Pre-Patch",
+      "conv": "zh-cn:塞拉摩的沦陷;zh-tw:迷霧前夕;"
+    },
+    {
+      "original": "Mists of Pandaria",
+      "conv": "zh-cn:熊猫人之谜;zh-tw:潘達利亞之謎;"
+    },
+    {
+      "original": "Landfall",
+      "conv": "zh-cn:夺岛奇兵;zh-tw:火線登陸;"
+    },
+    {
+      "original": "The Thunder King",
+      "conv": "zh-cn:雷神再临;zh-tw:雷王再臨;"
+    },
+    {
+      "original": "Escalation",
+      "conv": "zh-cn:绝地反击;zh-tw:一觸即發;"
+    },
+    {
+      "original": "Siege of Orgrimmar",
+      "conv": "zh-cn:决战奥格瑞玛;zh-tw:圍攻奧格瑪"
+    },
+    {
+      "original": "Warlords of Draenor",
+      "conv": "zh-cn:德拉诺之王;zh-tw:德拉諾之霸"
+    },
+    {
+      "original": "Legion",
+      "conv": "zh-cn:军团再临;zh-tw:軍臨天下"
+    },
+    {
+      "original": "Battle for Azeroth",
+      "conv": "zh-cn:争霸艾泽拉斯;zh-tw:決戰艾澤拉斯"
+    }
+  ]
+}

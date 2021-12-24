@@ -1,0 +1,183 @@
+{
+  "name": "LR",
+  "description": "魔戒",
+  "path": "Template:CGroup/LR",
+  "rules": [
+    {
+      "original": "The Lord of the Rings",
+      "conv": "zh-hans:魔戒; zh-hant:魔戒"
+    },
+    {
+      "original": "The Lord of the Rings: The Fellowship of the Ring",
+      "conv": "zh-hans:指环王：护戒使者; zh-hant:魔戒首部曲：魔戒現身"
+    },
+    {
+      "original": "The Lord of the Rings: The Two Towers",
+      "conv": "zh-hans:指环王：双塔奇兵; zh-hant:魔戒二部曲：雙城奇謀"
+    },
+    {
+      "original": "The Lord of the Rings: The Return of the King",
+      "conv": "zh-hans:指环王：王者归来; zh-hant:魔戒三部曲：王者再臨"
+    },
+    {
+      "original": "The Fellowship of the Ring",
+      "conv": "zh-hans:护戒使者; zh-hant:魔戒現身"
+    },
+    {
+      "original": "The Two Towers",
+      "conv": "zh-hans:双塔奇兵; zh-hant:雙城奇謀"
+    },
+    {
+      "original": "The Return of the King",
+      "conv": "zh-hans:王者归来; zh-hant:王者再臨"
+    },
+    {
+      "original": "Sean Astin|zh-cn:肖恩·阿斯廷;zh-hk:辛艾斯丁;zh-tw:西恩·奧斯汀",
+      "conv": "zh-cn:肖恩·阿斯丁;zh-hk:辛·艾斯丁;zh-tw:西恩·艾斯汀"
+    },
+    {
+      "original": "Sean Bean|zh-cn:肖恩·比恩;zh-hk:辛般;zh-tw:西恩賓",
+      "conv": "zh-cn:肖恩·宾;zh-hk:辛·般;zh-tw:西恩·賓"
+    },
+    {
+      "original": "Cate Blanchett",
+      "conv": "zh-cn:凯特·布兰切特;zh-hk:姬蒂·白蘭芝;zh-tw:凱特·布蘭琪"
+    },
+    {
+      "original": "Orlando Bloom|zh-cn:奥兰多·布鲁姆",
+      "conv": "zh-cn:奥兰多·布鲁姆;zh-hk:奧蘭度·布林;zh-tw:奧蘭多·布魯"
+    },
+    {
+      "original": "Billy Boyd",
+      "conv": "zh-cn:比利·博伊德;zh-hk:比利·包依德;zh-tw:比利·包依德"
+    },
+    {
+      "original": "Ian Holm|zh-cn:伊恩·霍姆;zh-hk:伊恩·何姆",
+      "conv": "zh-cn:伊恩·霍尔姆;zh-hk:伊恩·荷姆;zh-tw:伊恩·霍姆"
+    },
+    {
+      "original": "Peter Jackson|zh-tw:彼得·傑克遜",
+      "conv": "zh-cn:彼得·杰克逊;zh-hk:彼得·積遜;zh-tw:彼得·傑克森;zh-hant:彼得·傑克遜"
+    },
+    {
+      "original": "Christopher Lee|zh-hk:基斯杜化李",
+      "conv": "zh-cn:克里斯托弗·李;zh-hk:基斯杜化·李;zh-tw:克里斯多福·李"
+    },
+    {
+      "original": "Ian McKellen|zh-cn:伊恩·麦克莱恩;zh-hk:伊恩·麥簡倫",
+      "conv": "zh-cn:伊恩·麦凯伦;zh-hk:伊恩·麥基倫;zh-tw:伊恩·麥克連"
+    },
+    {
+      "original": "Dominic Monaghan",
+      "conv": "zh-hans:多米尼克·莫纳汉;zh-hant:多米尼克·莫納漢"
+    },
+    {
+      "original": "Viggo Mortensen|zh-cn:维戈·莫特森;zh-tw:維果·莫特森",
+      "conv": "zh-cn:维戈·莫特森;zh-hk:維高·摩天臣;zh-tw:維果·莫天森"
+    },
+    {
+      "original": "John Rhys-Davies|zh-cn:约翰·里斯戴维斯;zh-hk:約翰·里斯戴維斯;zh-tw:約翰·萊斯戴維斯",
+      "conv": "zh-cn:约翰·里斯-戴维斯;zh-hk:約翰·里斯-戴維斯;zh-tw:約翰·萊斯-戴維斯"
+    },
+    {
+      "original": "Andy Serkis",
+      "conv": "zh-cn:安迪·塞基斯;zh-hk:安迪·薛堅斯;zh-tw:安迪·瑟克斯"
+    },
+    {
+      "original": "Liv Tyler",
+      "conv": "zh-cn:丽芙·泰勒;zh-hk:莉芙·泰萊;zh-tw:麗芙·泰勒"
+    },
+    {
+      "original": "Hugo Weaving",
+      "conv": "zh-cn:雨果·维文;zh-hk:曉高·韋榮;zh-tw:雨果·威明"
+    },
+    {
+      "original": "Elijah Wood",
+      "conv": "zh-cn:伊利亚·伍德;zh-hk:伊力查·活;zh-tw:伊利亞·伍德"
+    },
+    {
+      "original": "Aragorn",
+      "conv": "zh-hans:阿拉贡;zh-hant:亞拉岡"
+    },
+    {
+      "original": "Arwen",
+      "conv": "zh-hans:阿尔温; zh-hant:亞玟"
+    },
+    {
+      "original": "Boromir",
+      "conv": "zh-hans:博罗米尔; zh-hant:波羅莫"
+    },
+    {
+      "original": "Elrond",
+      "conv": "zh-hans:埃尔隆德; zh-hant:愛隆"
+    },
+    {
+      "original": "Éowyn",
+      "conv": "zh-hans:伊欧温; zh-hant:伊歐玟"
+    },
+    {
+      "original": "Gamgee, Samwise \"Sam\"|zh-hans:山姆怀斯;zh-hant:山姆衛斯",
+      "conv": "zh-hans:山姆怀斯·甘姆齐;zh-hant:山姆衛斯·詹吉"
+    },
+    {
+      "original": "Gimli",
+      "conv": "zh-hans:吉姆利; zh-hant:金靂"
+    },
+    {
+      "original": "Gollum",
+      "conv": "zh-hans:古鲁姆; zh-hant:咕嚕"
+    },
+    {
+      "original": "Faramir",
+      "conv": "zh-hans:法拉米尔; zh-hant:法拉墨"
+    },
+    {
+      "original": "Hobbit",
+      "conv": "zh-hans:霍比特人;zh-hant:哈比人;zh-sg:哈比人"
+    },
+    {
+      "original": "Legolas",
+      "conv": "zh-hans:莱戈拉斯; zh-hant:勒苟拉斯"
+    },
+    {
+      "original": "Saruman",
+      "conv": "zh-hans:萨鲁曼; zh-hant:薩魯曼"
+    },
+    {
+      "original": "Sméagol",
+      "conv": "zh-hans:斯米戈尔;zh-hant:史麥戈"
+    },
+    {
+      "original": "Théoden",
+      "conv": "zh-hans:塞奥顿; zh-hant:希優頓"
+    },
+    {
+      "original": "Théodred",
+      "conv": "zh-hans:塞奥德雷德; zh-hant:希優德"
+    },
+    {
+      "original": "Took, Peregrin \"Pippin\"",
+      "conv": "zh-hans:皮平; zh-hant:皮聘"
+    },
+    {
+      "original": "Lothlórien",
+      "conv": "zh-hans:罗斯洛立安; zh-hant:羅斯洛立安"
+    },
+    {
+      "original": "Mordor",
+      "conv": "zh-hans:莫多; zh-hant:魔多"
+    },
+    {
+      "original": "Rivendell",
+      "conv": "zh-hans:瑞文戴尔; zh-hant:瑞文戴爾"
+    },
+    {
+      "original": "Rohan",
+      "conv": "zh-hans:罗翰; zh-hant:洛汗"
+    },
+    {
+      "original": "Isengard",
+      "conv": "zh-hans:伊森加德;zh-hant:艾辛格"
+    }
+  ]
+}

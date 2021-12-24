@@ -1,0 +1,187 @@
+{
+  "name": "Aquatics",
+  "description": "游泳",
+  "path": "Template:CGroup/Aquatics",
+  "rules": [
+    {
+      "original": "Fédération Internationale de Natation",
+      "conv": "zh-cn:国际游泳联合会; zh-tw:國際游泳聯合會; zh-hk:國際游泳總會; zh-tw:國際游泳總會;"
+    },
+    {
+      "original": "FINA",
+      "conv": "zh-cn:国际泳联; zh-tw:國際泳總; zh-hk:國際泳聯; zh-tw:國際泳總;"
+    },
+    {
+      "original": "Australia",
+      "conv": "zh-hant:澳大利亞;zh-cn:澳大利亚;zh-tw:澳洲;zh-hk:澳洲;zh-mo:澳洲;"
+    },
+    {
+      "original": "FINA Youth World Swimming Championships",
+      "conv": "zh-cn:世界青年游泳锦标赛; zh-tw:世界青年游泳錦標賽; zh-hk:世界青年游泳錦標賽; zh-tw:世界青少年游泳錦標賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:杯; zh-hant:盃;"
+    },
+    {
+      "original": "Backstroke",
+      "conv": "zh-cn:仰泳;zh-hant:仰式;zh-tw:仰式;zh-hk:背泳;zh-mo:背泳;"
+    },
+    {
+      "original": "Butterfly",
+      "conv": "zh-cn:蝶泳;zh-hant:蝶式;zh-tw:蝶式;zh-hk:蝶泳;"
+    },
+    {
+      "original": "Breaststroke",
+      "conv": "zh-cn:蛙泳;zh-hant:蛙式;zh-tw:蛙式;zh-hk:蛙泳;"
+    },
+    {
+      "original": "Medley",
+      "conv": "zh-cn:混合泳;zh-hant:混合式;zh-tw:混合式;zh-hk:混合泳;"
+    },
+    {
+      "original": "Meter",
+      "conv": "公尺=>zh-cn:米;公尺=>zh-hk:米;"
+    },
+    {
+      "original": "Meter",
+      "conv": "zh-cn:0米;zh-tw:0公尺;zh-hk:0米;"
+    },
+    {
+      "original": "Grant Hackett",
+      "conv": "zh-cn:格兰特·哈克特;zh-hant:格蘭特·哈克特;zh-tw:格蘭特·哈克特;zh-hk:格蘭·夏基特;zh-mo:格蘭·夏基特;"
+    },
+    {
+      "original": "Pieter van den Hoogenband",
+      "conv": "zh-cn:彼得·范登·霍根班德;zh-hant:彼得·范登·霍根班德;zh-tw:彼得·范登·霍根班德;zh-hk:彼得·雲迪·賀根班特;zh-mo:彼得·雲迪·賀根班特;"
+    },
+    {
+      "original": "Hoogenband",
+      "conv": "zh-cn:霍根班德;zh-hant:霍根班德;zh-tw:霍根班德;zh-hk:賀根班特;zh-mo:賀根班特;"
+    },
+    {
+      "original": "Ryan Lochte",
+      "conv": "zh-cn:瑞安·洛赫特;zh-hant:瑞安·洛赫特;zh-tw:瑞安·洛赫特;zh-hk:賴恩·羅切特;zh-mo:賴恩·羅切特;"
+    },
+    {
+      "original": "Aaron Peirsol",
+      "conv": "zh-cn:阿龙·佩尔索尔;zh-hant:阿龍·佩爾索爾;zh-tw:阿龍·佩爾索爾;zh-hk:艾朗·比亞素;zh-mo:艾朗·比亞素;"
+    },
+    {
+      "original": "Peirsol",
+      "conv": "zh-cn:佩尔索尔;zh-hant:佩爾索爾;zh-tw:佩爾索爾;zh-hk:比亞素;zh-mo:比亞素;"
+    },
+    {
+      "original": "Michael Phelps",
+      "conv": "zh-cn:迈克尔·菲尔普斯; zh-tw:邁克爾·菲爾普斯; zh-tw:麥可·菲爾普斯; zh-hk:米高·菲比斯"
+    },
+    {
+      "original": "Phelps",
+      "conv": "zh-cn:菲尔普斯;zh-hant:菲爾普斯;zh-tw:菲爾普斯;zh-hk:菲比斯;zh-mo:菲比斯;"
+    },
+    {
+      "original": "Mark Spitz",
+      "conv": "zh-cn:马克·施皮茨;zh-hant:馬克·施皮茨;zh-tw:馬克·施皮茨;zh-hk:馬克·史畢茲;zh-mo:馬克·史畢茲;"
+    },
+    {
+      "original": "Spitz",
+      "conv": "zh-cn:施皮茨;zh-hant:施皮茨;zh-tw:施皮茨;zh-hk:史畢茲;zh-mo:史畢茲;"
+    },
+    {
+      "original": "Thorpe",
+      "conv": "zh-cn:索普;zh-hant:索普;zh-tw:索普;zh-hk:科比;zh-mo:科比;"
+    },
+    {
+      "original": "Ian Thorpe",
+      "conv": "zh-cn:伊恩·索普;zh-hant:伊恩·索普;zh-tw:伊恩·索普;zh-hk:伊恩·科比;zh-mo:伊恩·科比;"
+    },
+    {
+      "original": "Springboard",
+      "conv": "zh-cn:跳板; zh-tw:彈板; zh-hk:彈板"
+    },
+    {
+      "original": "Platform",
+      "conv": "zh-cn:跳台; zh-tw:高臺; zh-hk:高台"
+    },
+    {
+      "original": "10 metres Platform",
+      "conv": "zh-cn:10米台; zh-tw:10公尺高臺; zh-hk:10公尺高台"
+    },
+    {
+      "original": "3 metres Springboard",
+      "conv": "zh-cn:3米板; zh-tw:3公尺彈板; zh-hk:3公尺彈板"
+    },
+    {
+      "original": "1 metre Springboard",
+      "conv": "zh-cn:1米板; zh-tw:1公尺彈板; zh-hk:1公尺彈板"
+    },
+    {
+      "original": "along with",
+      "conv": "zh-cn:联同; zh-tw:聯同; zh-hk:夥拍"
+    },
+    {
+      "original": "Gregory Efthimios Louganis",
+      "conv": "zh-cn:格雷戈里·埃夫西米奥斯·洛加尼斯; zh-tw:格雷戈里·埃夫西米奧斯·洛加尼斯; zh-tw:格雷戈里·埃夫西米奧斯·洛加尼斯; zh-hk:格雷高利·艾夫泰米奧斯·盧根尼斯"
+    },
+    {
+      "original": "Louganis",
+      "conv": "zh-cn:洛加尼斯; zh-tw:洛加尼斯; zh-tw:洛加尼斯; zh-hk:盧根尼斯"
+    },
+    {
+      "original": "Synchronized swimming",
+      "conv": "zh-hant:花樣游泳; zh-cn:花样游泳; zh-tw:水上芭蕾; zh-hk:韻律泳"
+    },
+    {
+      "original": "于乐乐",
+      "conv": "zh-cn:于乐乐; zh-tw:于樂樂; zh-tw:于樂樂; zh-hk:于樂樂"
+    },
+    {
+      "original": "Water Polo Club",
+      "conv": "zh-cn:水球俱乐部;zh-tw:水球俱樂部;zh-hk:水球會"
+    },
+    {
+      "original": "Play for the team",
+      "conv": "zh-cn:上场;zh-tw:上場;zh-hk:上陣"
+    },
+    {
+      "original": "First start",
+      "conv": "zh-cn:首发;zh-tw:先發;zh-hk:正選"
+    },
+    {
+      "original": "Substitute",
+      "conv": "zh-cn:替补;zh-tw:替補;zh-hk:入替"
+    },
+    {
+      "original": "Top scorer",
+      "conv": "zh-cn:最佳射手;zh-tw:神射手;zh-hk:神射手"
+    },
+    {
+      "original": "Derby",
+      "conv": "zh-cn:德比;zh-tw:德比;zh-hk:打吡"
+    },
+    {
+      "original": "Draw",
+      "conv": "zh-cn:战平; zh-tw:戰平; zh-hk:賽和"
+    },
+    {
+      "original": "Score",
+      "conv": "zh-cn:进球; zh-tw:進球; zh-hk:入球"
+    },
+    {
+      "original": "partner",
+      "conv": "zh-cn:搭档; zh-tw:搭檔; zh-hk:拍檔"
+    },
+    {
+      "original": "Round of 16",
+      "conv": "zh-cn:八分之一决赛;zh-tw:十六強;zh-hk:十六強"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "zh-hk:半準決賽;zh-cn:四分之一决赛;"
+    },
+    {
+      "original": "semifinal",
+      "conv": "zh-hk:準決賽;zh-cn:半决赛;"
+    }
+  ]
+}

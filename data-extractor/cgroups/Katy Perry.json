@@ -1,0 +1,43 @@
+{
+  "name": "Katy Perry",
+  "description": "凯蒂·佩里",
+  "path": "Template:CGroup/Katy Perry",
+  "rules": [
+    {
+      "original": "Katy Perry",
+      "conv": "zh-cn:凯蒂·佩里;zh-hk:凱蒂·派瑞;zh-tw:凱蒂·佩芮"
+    },
+    {
+      "original": "Perry",
+      "conv": "zh-cn:佩里;zh-hk:派瑞;zh-tw:佩芮"
+    },
+    {
+      "original": "Prism",
+      "conv": "zh-cn:棱镜;zh-hk:超炫光;zh-tw:超炫光;"
+    },
+    {
+      "original": "Roar",
+      "conv": "zh-cn:怒吼;zh-hk:聽我吼;zh-tw:聽我吼;"
+    },
+    {
+      "original": "Walking On Air",
+      "conv": "zh-cn:云中漫步;zh-hk:在空中漫步;zh-tw:在空中漫步;"
+    },
+    {
+      "original": "Unconditionally",
+      "conv": "zh-cn:无条件;zh-hk:無條件愛你;zh-tw:無條件愛你;"
+    },
+    {
+      "original": "By The Grace Of God",
+      "conv": "zh-cn:承蒙天恩;zh-hk:感謝上帝慈悲;zh-tw:感謝上帝慈悲;"
+    },
+    {
+      "original": "If We Ever Meet Again",
+      "conv": "zh-cn:若得再相会;zh-hk:如果我們再相遇;zh-tw:如果我們再相遇;"
+    },
+    {
+      "original": "Shock Value II",
+      "conv": "zh-cn:超级精选II;zh-hk:超級驚選2;zh-tw:超級驚選2;"
+    }
+  ]
+}

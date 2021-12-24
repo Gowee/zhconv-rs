@@ -1,0 +1,255 @@
+{
+  "name": "Shipname",
+  "description": "舰船名称",
+  "path": "Module:CGroup/Shipname",
+  "rules": [
+    {
+      "original": "[[亚拉巴马|Alabama]]",
+      "conv": "zh-cn:亚拉巴马; zh-tw:阿拉巴馬; zh-hk:阿拉巴馬;"
+    },
+    {
+      "original": "[[亞爾薩斯|Alsace]]",
+      "conv": "zh-hans:阿爾薩斯; zh-cn:阿尔萨斯; zh-tw:亞爾薩斯; zh-hk:亞爾薩斯;"
+    },
+    {
+      "original": "[[安提頓|Antietam]]",
+      "conv": "zh-cn:安提坦; zh-tw:安提頓; zh-hk:安提頓;"
+    },
+    {
+      "original": "[[贝阿恩|Béarn]]",
+      "conv": "zh-cn:贝阿恩; zh-hant:貝亞恩;"
+    },
+    {
+      "original": "[[貝勒森林|Belleau Wood]]",
+      "conv": "zh-cn:贝劳森林; zh-tw:貝勒森林; zh-hk:貝勞森林;"
+    },
+    {
+      "original": "[[邦克山|Bunker hill]]",
+      "conv": "zh-cn:邦克山; zh-tw:碉堡山; zh-hk:碉堡山;"
+    },
+    {
+      "original": "[[班寧頓|Bennington]]",
+      "conv": "zh-cn:本宁顿; zh-tw:班寧頓; zh-hk:班寧頓;"
+    },
+    {
+      "original": "[[布殊|Bush]]",
+      "conv": "zh-cn:布什; zh-tw:布希; zh-hk:布殊;"
+    },
+    {
+      "original": "[[却克里王朝|HTMS Chakri Naruebet]]",
+      "conv": "zh-cn:却克里·纳鲁贝; zh-tw:查克里·納呂貝特; zh-hk:查克里·納呂貝特;"
+    },
+    {
+      "original": "[[乔治·克列孟梭|Clemenceau]]",
+      "conv": "zh-cn:克列孟梭; zh-tw:克里蒙梭; zh-hk:克里蒙梭;"
+    },
+    {
+      "original": "[[康涅狄格|Connecticut]]",
+      "conv": "zh-cn:康涅狄格; zh-tw:康乃狄克; zh-hk:康涅狄格;"
+    },
+    {
+      "original": "[[孤拔|Courbet]]",
+      "conv": "zh-cn:库尔贝; zh-tw:科爾貝; zh-hk:科爾貝;"
+    },
+    {
+      "original": "[[特拉华|Delaware]]",
+      "conv": "zh-cn:特拉华; zh-tw:德拉瓦; zh-hk:特拉華;"
+    },
+    {
+      "original": "[[敦克爾克|Dunkerque]]",
+      "conv": "zh-cn:敦刻尔克; zh-tw:敦克爾克; zh-hk:鄧扣克;"
+    },
+    {
+      "original": "[[艾森豪威尔|Eisenhower]]",
+      "conv": "zh-cn:艾森豪威尔; zh-tw:艾森豪; zh-hk:艾森豪威爾;"
+    },
+    {
+      "original": "[[艾塞克斯|Essex]]",
+      "conv": "zh-cn:埃塞克斯; zh-tw:艾塞克斯; zh-hk:艾塞克斯;"
+    },
+    {
+      "original": "[[喬治亞號 (避免與格魯吉亞轉換衝突)|USS Georgia]]",
+      "conv": "zh-cn:佐治亚号; zh-tw:喬治亞號; zh-hk:喬治亞號;"
+    },
+    {
+      "original": "[[侯斯頓|Houston]]",
+      "conv": "zh-cn:休斯敦; zh-tw:休士頓; zh-hk:侯斯頓;"
+    },
+    {
+      "original": "[[伊利诺伊|Illinois]]",
+      "conv": "zh-cn:伊利诺伊; zh-tw:伊利諾; zh-hk:伊利諾;"
+    },
+    {
+      "original": "[[艾奥瓦|Iowa]]",
+      "conv": "zh-cn:衣阿华; zh-tw:愛荷華; zh-hk:艾奧瓦;"
+    },
+    {
+      "original": "[[基德|Kidd]]",
+      "conv": "zh-cn:基德; zh-tw:紀德;"
+    },
+    {
+      "original": "[[奇爾沙治|Kearsarge]]",
+      "conv": "zh-cn:奇沙治; zh-tw:奇爾沙治; zh-hk:奇爾沙治;"
+    },
+    {
+      "original": "[[肯尼迪|Kennedy]]",
+      "conv": "zh-cn:肯尼迪; zh-tw:甘迺迪; zh-hk:甘迺迪;"
+    },
+    {
+      "original": "[[拉法葉|La Fayette]]",
+      "conv": "zh-cn:拉菲特; zh-tw:拉法葉; zh-hk:拉法葉;"
+    },
+    {
+      "original": "[[列星頓|Lexington]]",
+      "conv": "zh-cn:列克星敦; zh-tw:列星頓; zh-hk:列星頓;"
+    },
+    {
+      "original": "[[雷伊泰|Leyte]]",
+      "conv": "zh-cn:莱特; zh-tw:雷伊泰; zh-hk:雷伊泰;"
+    },
+    {
+      "original": "[[里耳|Lille]]",
+      "conv": "zh-cn:里尔; zh-tw:里耳; zh-hk:里爾;"
+    },
+    {
+      "original": "[[路易斯安那|Louisiana]]",
+      "conv": "zh-cn:路易斯安那; zh-tw:路易西安納; zh-hk:路易斯安那;"
+    },
+    {
+      "original": "[[馬利蘭|Maryland]]",
+      "conv": "zh-cn:马里兰; zh-tw:馬利蘭; zh-hk:馬利蘭;"
+    },
+    {
+      "original": "[[马萨诸塞|Massachusetts]]",
+      "conv": "zh-cn:马萨诸塞; zh-tw:麻薩諸塞; zh-hk:麻薩諸塞;"
+    },
+    {
+      "original": "[[新罕布什尔|New Hampshire]]",
+      "conv": "zh-cn:新罕布什尔; zh-tw:新罕布夏; zh-hk:新罕布什爾;"
+    },
+    {
+      "original": "[[新泽西|New Jersey]]",
+      "conv": "zh-cn:新泽西; zh-tw:紐澤西; zh-hk:新澤西;"
+    },
+    {
+      "original": "[[諾曼第|Normandie]]",
+      "conv": "zh-cn:诺曼底; zh-tw:諾曼第; zh-hk:諾曼第;"
+    },
+    {
+      "original": "[[北卡羅萊納|North Carolina]]",
+      "conv": "zh-cn:北卡罗来纳; zh-tw:北卡羅來納; zh-hk:北卡羅萊納;"
+    },
+    {
+      "original": "[[俄克拉何马|Oklahoma]]",
+      "conv": "zh-cn:俄克拉何马; zh-tw:奧克拉荷馬; zh-hk:奧克拉荷馬;"
+    },
+    {
+      "original": "[[俄勒岡|Oregon]]",
+      "conv": "zh-cn:俄勒冈; zh-tw:奧勒岡; zh-hk:俄勒岡;"
+    },
+    {
+      "original": "[[威尔士亲王|Prince of Wales]]",
+      "conv": "zh-cn:威尔士亲王; zh-tw:威爾斯親王; zh-hk:威爾斯親王;"
+    },
+    {
+      "original": "[[欧根亲王|Prinz Eugen]]",
+      "conv": "zh-cn:欧根亲王; zh-tw:尤金親王; zh-hk:尤金親王;"
+    },
+    {
+      "original": "[[波将金|Григо́рий Потёмкин]]",
+      "conv": "zh-cn:波将金; zh-tw:波坦金; zh-hk:普譚金;"
+    },
+    {
+      "original": "[[遊騎兵|Ranger]]",
+      "conv": "zh-cn:突击者; zh-tw:遊騎兵; zh-hk:遊騎兵;"
+    },
+    {
+      "original": "[[伦道夫|Randolph]]",
+      "conv": "zh-cn:伦道夫; zh-tw:蘭道夫; zh-hk:蘭道夫;"
+    },
+    {
+      "original": "[[理查德|Richard]]",
+      "conv": "zh-cn:理查德;zh-tw:理察;zh-hk:李察;zh-sg:理查特;"
+    },
+    {
+      "original": "[[理查德|Richard]]",
+      "conv": "理查=>zh-cn:理查德;理查=>zh-tw:理察;理查=>zh-hk:李察;理查=>zh-mo:李察;理查=>zh-my:理查特;理查=>zh-sg:理查特;"
+    },
+    {
+      "original": "[[黎塞留|Richelieu]]",
+      "conv": "zh-hans:黎塞留;zh-hant:黎希留;"
+    },
+    {
+      "original": "[[黎塞留|Richelieu]]",
+      "conv": "黎胥留=>zh-cn:黎塞留;黎胥留=>zh-my:黎塞留;黎胥留=>zh-sg:黎塞留;黎胥留=>zh-hk:黎希留;黎胥留=>zh-mo:黎希留;黎胥留=>zh-tw:黎希留;"
+    },
+    {
+      "original": "[[黎塞留|Richelieu]]",
+      "conv": "黎須留=>zh-cn:黎塞留;黎須留=>zh-my:黎塞留;黎須留=>zh-sg:黎塞留;黎須留=>zh-hk:黎希留;黎須留=>zh-mo:黎希留;黎須留=>zh-tw:黎希留;"
+    },
+    {
+      "original": "[[黎塞留|Richelieu]]",
+      "conv": "黎须留=>zh-cn:黎塞留;黎须留=>zh-my:黎塞留;黎须留=>zh-sg:黎塞留;黎须留=>zh-hk:黎希留;黎须留=>zh-mo:黎希留;黎须留=>zh-tw:黎希留;"
+    },
+    {
+      "original": "[[列根|Reagan]]",
+      "conv": "zh-cn:里根; zh-tw:雷根; zh-hk:列根;"
+    },
+    {
+      "original": "Ronald Reagan",
+      "conv": "zh-cn:罗纳德·里根号;zh-tw:隆納·雷根號;zh-hk:朗奴·列根號;zh-mo:朗奴·列根號;zh-sg:罗纳德·里根号"
+    },
+    {
+      "original": "[[聖地牙哥|San Diego]]",
+      "conv": "zh-cn:圣迭戈; zh-tw:聖地牙哥; zh-hk:聖地牙哥;"
+    },
+    {
+      "original": "Surcouf",
+      "conv": "zh-cn:叙尔库夫; zh-tw:速科夫; zh-hk:速科夫;"
+    },
+    {
+      "original": "[[南卡羅萊納|South Carolina]]",
+      "conv": "zh-cn:南卡罗来纳; zh-tw:南卡羅來納; zh-hk:南卡羅萊納;"
+    },
+    {
+      "original": "[[史坦尼斯|Stennis]]",
+      "conv": "zh-cn:斯坦尼斯; zh-tw:史坦尼斯; zh-hk:史坦尼斯;"
+    },
+    {
+      "original": "[[史特拉斯堡|Strasbourg]]",
+      "conv": "zh-cn:斯特拉斯堡; zh-tw:史特拉斯堡; zh-hk:史特拉斯堡;"
+    },
+    {
+      "original": "[[皮埃爾·安德烈·德·蘇弗朗|Suffren]]",
+      "conv": "zh-cn:絮弗伦; zh-tw:蘇弗朗; zh-hk:敘佛倫;"
+    },
+    {
+      "original": "[[提尔皮茨|Tirpitz]]",
+      "conv": "zh-cn:提尔皮茨; zh-tw:鐵必制; zh-hk:鐵必制;"
+    },
+    {
+      "original": "[[泰坦尼克|Titanic]]",
+      "conv": "zh-cn:泰坦尼克; zh-tw:鐵達尼; zh-hk:鐵達尼; zh-sg:铁达尼;"
+    },
+    {
+      "original": "[[福治谷|Valley Forge]]",
+      "conv": "zh-cn:福吉谷; zh-tw:福治谷; zh-hk:福治谷;"
+    },
+    {
+      "original": "[[維珍尼亞|Virginia]]",
+      "conv": "zh-cn:弗吉尼亚; zh-tw:維吉尼亞; zh-hk:維珍尼亞;"
+    },
+    {
+      "original": "[[西弗吉尼亚|West Virginia]]",
+      "conv": "zh-cn:西弗吉尼亚; zh-tw:西維吉尼亞; zh-hk:西維珍尼亞;"
+    },
+    {
+      "original": "[[威斯康辛|Wisconsin]]",
+      "conv": "zh-cn:威斯康辛; zh-tw:威斯康辛; zh-hk:威斯康星;"
+    },
+    {
+      "original": "[[约克城|York Town]]",
+      "conv": "zh-cn:约克城; zh-tw:約克鎮; zh-hk:約克鎮;"
+    }
+  ]
+}

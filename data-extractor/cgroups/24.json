@@ -1,0 +1,647 @@
+{
+  "name": "24",
+  "description": "24",
+  "path": "Module:CGroup/24",
+  "rules": [
+    {
+      "original": "Bauers",
+      "conv": "zh-cn:鲍尔家;zh-tw:鮑爾家;zh-hk:包家"
+    },
+    {
+      "original": "Bauer, Jack",
+      "conv": "zh-cn:杰克·鲍尔;zh-tw:傑克·鮑爾;zh-hk:包智傑"
+    },
+    {
+      "original": "Bauer, Teri",
+      "conv": "zh-cn:泰瑞·鲍尔;zh-tw:泰瑞·鮑爾;zh-hk:包泰麗"
+    },
+    {
+      "original": "Bauer, Kim",
+      "conv": "zh-cn:琴·鲍尔;zh-tw:琴·鮑爾;zh-hk:包嘉薇"
+    },
+    {
+      "original": "Bauer, Philip",
+      "conv": "zh-cn:菲利普·鲍尔;zh-tw:菲利普·鮑爾;zh-hk:包輝力"
+    },
+    {
+      "original": "Bauer, Graem",
+      "conv": "zh-cn:格雷·鲍尔;zh-tw:格雷·鮑爾;zh-hk:包君年"
+    },
+    {
+      "original": "Bauer, Marilyn",
+      "conv": "zh-cn:玛丽莲·鲍尔;zh-tw:瑪麗蓮·鮑爾;zh-hk:包慕莲"
+    },
+    {
+      "original": "Bauer, Joshua",
+      "conv": "zh-cn:约瑟华·鲍尔;zh-tw:約瑟華·鮑爾;zh-hk:包佐思"
+    },
+    {
+      "original": "Jack",
+      "conv": "zh-cn:杰克;zh-tw:傑克;zh-hk:智傑"
+    },
+    {
+      "original": "Teri",
+      "conv": "zh-cn:泰瑞;zh-tw:泰瑞;zh-hk:泰麗"
+    },
+    {
+      "original": "Kim",
+      "conv": "zh-cn:琴;zh-tw:琴;zh-hk:嘉薇"
+    },
+    {
+      "original": "Philip",
+      "conv": "zh-cn:菲利普;zh-tw:菲利普;zh-hk:輝力"
+    },
+    {
+      "original": "Graem",
+      "conv": "zh-cn:格雷;zh-tw:格雷;zh-hk:君年"
+    },
+    {
+      "original": "Marilyn",
+      "conv": "zh-cn:玛丽莲;zh-tw:瑪麗蓮;zh-hk:慕莲"
+    },
+    {
+      "original": "Joshua",
+      "conv": "zh-cn:约瑟华;zh-tw:約瑟華;zh-hk:佐思"
+    },
+    {
+      "original": "FBI",
+      "conv": "zh-cn:联邦调查局;zh-tw:聯邦調查局;zh-hk:聯邦調查局"
+    },
+    {
+      "original": "Walker, Renee",
+      "conv": "zh-cn:蕾妮·沃克;zh-tw:蕾妮·沃克;zh-hk:汪韻妮"
+    },
+    {
+      "original": "Renee",
+      "conv": "zh-cn:蕾妮;zh-tw:蕾妮;zh-hk:韻妮"
+    },
+    {
+      "original": "Myers, Nina",
+      "conv": "zh-cn:妮娜·迈尔斯;zh-tw:妮娜·梅爾;zh-hk:梅莉娜"
+    },
+    {
+      "original": "Almeida, Tony",
+      "conv": "zh-cn:托尼·阿尔梅达;zh-tw:東尼·艾米達;zh-hk:艾東尼"
+    },
+    {
+      "original": "George, Mason",
+      "conv": "zh-cn:乔治·梅森;zh-tw:喬治·梅森;zh-hk:馬喬治"
+    },
+    {
+      "original": "Walsh, Richard",
+      "conv": "zh-cn:理查德·华尔斯;zh-tw:理查德·華爾斯;zh-hk:華里察"
+    },
+    {
+      "original": "Farrell, Jamey",
+      "conv": "zh-cn:洁米·法洛;zh-tw:潔米·法洛;zh-hk:范嘉美"
+    },
+    {
+      "original": "Pressman, Milo",
+      "conv": "zh-cn:米罗·普莱斯曼;zh-tw:米羅·普萊斯曼;zh-hk:彭麥羅"
+    },
+    {
+      "original": "Chapelle, Ryan",
+      "conv": "zh-cn:瑞恩·查佩尔;zh-tw:瑞恩·查佩爾;zh-hk:卓瑞安"
+    },
+    {
+      "original": "Dessler, Michelle",
+      "conv": "zh-cn:米歇尔·戴斯勒;zh-tw:蜜雪兒·戴斯勒;zh-hk:丁妙思"
+    },
+    {
+      "original": "Ortega, Gael",
+      "conv": "zh-cn:盖尔·奥特加;zh-tw:蓋爾·奧特加;zh-hk:柯紀爾"
+    },
+    {
+      "original": "O'Brian, Chloe",
+      "conv": "zh-cn:克洛依·奥布莱恩;zh-tw:克洛依·歐布萊恩;zh-hk:岳高蓮"
+    },
+    {
+      "original": "Edmunds, Chase",
+      "conv": "zh-cn:蔡斯·爱德蒙斯;zh-tw:蔡斯·愛德蒙斯;zh-hk:顏卓兆"
+    },
+    {
+      "original": "Driscoll, Erin",
+      "conv": "zh-cn:艾琳·德里斯科尔;zh-tw:艾琳·德里斯科爾;zh-hk:蔡意漣"
+    },
+    {
+      "original": "Manning, Curtis",
+      "conv": "zh-cn:柯蒂斯·曼宁;zh-tw:柯提斯·曼寧;zh-hk:文國定"
+    },
+    {
+      "original": "Stiles, Edgar",
+      "conv": "zh-cn:艾格·斯蒂尔斯;zh-tw:艾格·史戴兒;zh-hk:施艾克"
+    },
+    {
+      "original": "Buchanan, Bill",
+      "conv": "zh-cn:比尔·布坎南;zh-tw:比爾·布坎南;zh-hk:布秉耀"
+    },
+    {
+      "original": "Woolf, Spencer",
+      "conv": "zh-cn:斯宾塞·胡夫;zh-tw:斯賓塞·胡夫;zh-hk:胡邵朋"
+    },
+    {
+      "original": "McGill, Lynn",
+      "conv": "zh-cn:林恩·麦吉尔;zh-tw:林恩·麥吉爾;zh-hk:麥年彌"
+    },
+    {
+      "original": "Hayes, Karen",
+      "conv": "zh-cn:凯伦·海耶斯;zh-tw:凱倫·海耶斯;zh-hk:郗嘉倫"
+    },
+    {
+      "original": "Papazian, Miles",
+      "conv": "zh-cn:迈尔斯·帕帕兹安;zh-tw:麥爾斯·帕帕齊安;zh-hk:彭孟斯"
+    },
+    {
+      "original": "O'Brian, Morris",
+      "conv": "zh-cn:莫里斯·欧布萊恩;zh-tw:莫里斯·歐布萊恩;zh-hk:岳務凌"
+    },
+    {
+      "original": "Yassir, Nadia",
+      "conv": "zh-cn:娜蒂雅·亚西尔;zh-tw:娜蒂雅·亞西爾;zh-hk:尤立亭"
+    },
+    {
+      "original": "Dolye, Mike",
+      "conv": "zh-cn:迈克·道尔;zh-tw:邁克·道爾;zh-hk:陶銘"
+    },
+    {
+      "original": "Almeida",
+      "conv": "zh-cn:托尼·阿尔梅达;zh-tw:艾米達;zh-hk:艾東尼"
+    },
+    {
+      "original": "Mason",
+      "conv": "zh-cn:乔治·梅森;zh-tw:梅森;zh-hk:馬喬治"
+    },
+    {
+      "original": "Walsh",
+      "conv": "zh-cn:理查德·华尔斯;zh-tw:華爾斯;zh-hk:華里察"
+    },
+    {
+      "original": "Chapelle",
+      "conv": "zh-cn:瑞恩·查佩尔;zh-tw:查佩爾;zh-hk:卓瑞安"
+    },
+    {
+      "original": "Dessler",
+      "conv": "zh-cn:米歇尔·戴斯勒;zh-tw:戴斯勒;zh-hk:丁妙思"
+    },
+    {
+      "original": "Driscoll",
+      "conv": "zh-cn:艾琳·德里斯科尔;zh-tw:德里斯科爾;zh-hk:蔡意漣"
+    },
+    {
+      "original": "Manning",
+      "conv": "zh-cn:柯蒂斯·曼宁;zh-tw:曼寧;zh-hk:文國定"
+    },
+    {
+      "original": "Edgar",
+      "conv": "zh-cn:艾格·斯蒂尔斯;zh-tw:史戴兒;zh-hk:施艾克"
+    },
+    {
+      "original": "Buchanan",
+      "conv": "zh-cn:比尔·布坎南;zh-tw:布坎南;zh-hk:布秉耀"
+    },
+    {
+      "original": "McGill",
+      "conv": "zh-cn:林恩·麦吉尔;zh-tw:麥吉爾;zh-hk:麥年彌"
+    },
+    {
+      "original": "Hayes",
+      "conv": "zh-cn:凯伦·海耶斯;zh-tw:海耶斯;zh-hk:郗嘉倫"
+    },
+    {
+      "original": "Yassir",
+      "conv": "zh-cn:娜蒂雅·亚西尔;zh-tw:亞西爾;zh-hk:尤立亭"
+    },
+    {
+      "original": "Dolye",
+      "conv": "zh-cn:迈克·道尔;zh-tw:道爾;zh-hk:陶銘"
+    },
+    {
+      "original": "Nina",
+      "conv": "zh-cn:妮娜;zh-tw:妮娜;zh-hk:莉娜"
+    },
+    {
+      "original": "Tony",
+      "conv": "zh-cn:托尼;zh-tw:東尼;zh-hk:東尼"
+    },
+    {
+      "original": "Richard",
+      "conv": "zh-cn:理查德;zh-tw:理查德斯;zh-hk:里察"
+    },
+    {
+      "original": "Jamey",
+      "conv": "zh-cn:洁米;zh-tw:潔米;zh-hk:嘉美"
+    },
+    {
+      "original": "Milo",
+      "conv": "zh-cn:米罗;zh-tw:米羅;zh-hk:麥羅"
+    },
+    {
+      "original": "Ryan",
+      "conv": "zh-cn:瑞恩;zh-tw:瑞恩;zh-hk:瑞安"
+    },
+    {
+      "original": "Michelle",
+      "conv": "zh-cn:米歇尔;zh-tw:蜜雪兒;zh-hk:妙思"
+    },
+    {
+      "original": "Ortega",
+      "conv": "zh-cn:盖尔;zh-tw:蓋爾;zh-hk:紀爾"
+    },
+    {
+      "original": "Chloe",
+      "conv": "zh-cn:克洛依;zh-tw:克洛依;zh-hk:高蓮"
+    },
+    {
+      "original": "Chase",
+      "conv": "zh-cn:蔡斯;zh-tw:蔡斯;zh-hk:卓兆"
+    },
+    {
+      "original": "Erin",
+      "conv": "zh-cn:艾琳;zh-tw:艾琳;zh-hk:意漣"
+    },
+    {
+      "original": "Curtis",
+      "conv": "zh-cn:曼宁;zh-tw:曼寧;zh-hk:國定"
+    },
+    {
+      "original": "Edgar",
+      "conv": "zh-cn:艾格;zh-tw:艾格;zh-hk:艾克"
+    },
+    {
+      "original": "Bill",
+      "conv": "zh-cn:比尔;zh-tw:比爾;zh-hk:秉耀"
+    },
+    {
+      "original": "Karen",
+      "conv": "zh-cn:凯伦;zh-tw:凱倫;zh-hk:嘉倫"
+    },
+    {
+      "original": "Morris",
+      "conv": "zh-cn:莫里斯;zh-tw:莫里斯;zh-hk:務凌"
+    },
+    {
+      "original": "Nadia",
+      "conv": "zh-cn:娜蒂雅;zh-tw:娜蒂雅;zh-hk:立亭"
+    },
+    {
+      "original": "Palmer, David",
+      "conv": "zh-cn:大卫·帕默;zh-tw:大衛·帕默;zh-hk:柏大衛"
+    },
+    {
+      "original": "Palmer, Sherry",
+      "conv": "zh-cn:雪莉·帕默;zh-tw:雪莉·帕默;zh-hk:柏雪蓮"
+    },
+    {
+      "original": "Palmer, Wayne",
+      "conv": "zh-cn:伟恩·帕默;zh-tw:偉恩·帕默;zh-hk:柏偉賢"
+    },
+    {
+      "original": "Palmer, Keith",
+      "conv": "zh-cn:凯斯·帕默;zh-tw:凱斯·帕默;zh-hk:柏堅"
+    },
+    {
+      "original": "Palmer, Sandra",
+      "conv": "zh-cn:桑德拉·帕默;zh-tw:桑德拉·帕默;zh-hk:柏桑德"
+    },
+    {
+      "original": "Novick, Mike",
+      "conv": "zh-cn:麦克·诺维克;zh-tw:麥克·諾維克;zh-hk:盧邁克"
+    },
+    {
+      "original": "Pierce, Aaron",
+      "conv": "zh-cn:艾伦·皮尔斯;zh-tw:艾倫·皮爾斯;zh-hk:皮亞朗"
+    },
+    {
+      "original": "Stanton, Roger",
+      "conv": "zh-cn:罗杰·斯丹顿;zh-tw:羅傑·斯丹頓;zh-hk:施羅澤"
+    },
+    {
+      "original": "Prescott, Jim",
+      "conv": "zh-cn:吉姆·普雷斯科特;zh-tw:金·裴斯考特;zh-hk:彭占"
+    },
+    {
+      "original": "Keeler, John",
+      "conv": "zh-cn:约翰·基勒;zh-tw:約翰·基勒;zh-hk:祈約翰"
+    },
+    {
+      "original": "Heller, James",
+      "conv": "zh-cn:詹姆斯·海勒;zh-tw:詹姆仕·海勒;zh-hk:賀正時"
+    },
+    {
+      "original": "Raines, Audrey",
+      "conv": "zh-cn:奥黛丽·瑞恩斯;zh-tw:奧黛麗·瑞恩斯;zh-hk:榮安慈"
+    },
+    {
+      "original": "Logan, Charles",
+      "conv": "zh-cn:查尔斯·洛根;zh-tw:察爾斯·洛根;zh-hk:勞卓思"
+    },
+    {
+      "original": "Logan, Martha",
+      "conv": "zh-cn:玛莎·洛根;zh-tw:瑪莎·洛根;zh-hk:勞瑪花"
+    },
+    {
+      "original": "Cummings, Walt",
+      "conv": "zh-cn:沃特·康敏思;zh-tw:沃特·康敏思;zh-hk:甘和德"
+    },
+    {
+      "original": "Gardner, Hal",
+      "conv": "zh-cn:浩尔·加德纳;zh-tw:霍爾·加德纳;zh-hk:簡浩然"
+    },
+    {
+      "original": "Martin, Evelyn",
+      "conv": "zh-cn:伊芙琳·马丁;zh-tw:艾佛琳·馬丁;zh-hk:馬依蓮"
+    },
+    {
+      "original": "Lennox, Tom",
+      "conv": "zh-cn:托马斯·蓝诺斯;zh-tw:湯瑪斯·藍諾斯;zh-hk:龍杜文"
+    },
+    {
+      "original": "Pollock, Reed",
+      "conv": "zh-cn:里德·波洛克;zh-tw:里德·波洛克;zh-hk:樸利達"
+    },
+    {
+      "original": "Daniels, Noah",
+      "conv": "zh-cn:诺亚·丹尼斯;zh-tw:諾亞·丹尼斯;zh-hk:鄧樂翱"
+    },
+    {
+      "original": "Miller, Lisa",
+      "conv": "zh-cn:丽莎·米勒;zh-tw:麗莎·米勒;zh-hk:苗麗莎"
+    },
+    {
+      "original": "Suvarov, Yuri",
+      "conv": "zh-cn:尤里·苏瓦洛夫;zh-tw:尤里·蘇瓦洛夫;zh-hk:崇尤力"
+    },
+    {
+      "original": "Henry Taylor",
+      "conv": "zh-cn:亨利·泰勒;zh-tw:亨利·泰勒;zh-hk:戴亨利"
+    },
+    {
+      "original": "Allison Taylor",
+      "conv": "zh-cn:艾莉森·泰勒;zh-tw:艾莉森·泰勒;zh-hk:戴雅麗"
+    },
+    {
+      "original": "Palmer",
+      "conv": "zh-cn:帕默;zh-tw:帕默;zh-hk:柏大衛"
+    },
+    {
+      "original": "Palmer, President",
+      "conv": "zh-cn:帕默总统;zh-tw:帕默總統;zh-hk:柏總統"
+    },
+    {
+      "original": "Novick",
+      "conv": "zh-cn:诺维克;zh-tw:諾維克;zh-hk:盧邁克"
+    },
+    {
+      "original": "Pierce",
+      "conv": "zh-cn:艾伦·皮尔斯;zh-tw:皮爾斯;zh-hk:皮亞朗"
+    },
+    {
+      "original": "Prescott",
+      "conv": "zh-cn:普雷斯科特;zh-tw:裴斯考特;zh-hk:彭占"
+    },
+    {
+      "original": "Keeler",
+      "conv": "zh-cn:基勒;zh-tw:基勒;zh-hk:祈約翰"
+    },
+    {
+      "original": "Heller",
+      "conv": "zh-cn:海勒;zh-tw:海勒;zh-hk:賀正時"
+    },
+    {
+      "original": "Logan",
+      "conv": "zh-cn:洛根;zh-tw:洛根;zh-hk:勞氏"
+    },
+    {
+      "original": "Logan",
+      "conv": "zh-cn:洛根总统;zh-tw:洛根總統;zh-hk:勞卓思總統"
+    },
+    {
+      "original": "Cummings",
+      "conv": "zh-cn:康敏思;zh-tw:康敏思;zh-hk:甘和德"
+    },
+    {
+      "original": "Gardner",
+      "conv": "zh-cn:加德纳;zh-tw:加德纳;zh-hk:簡浩然"
+    },
+    {
+      "original": "Lennox",
+      "conv": "zh-cn:蓝诺斯;zh-tw:藍諾斯;zh-hk:龍杜文"
+    },
+    {
+      "original": "Daniels",
+      "conv": "zh-cn:丹尼斯;zh-tw:丹尼斯;zh-hk:鄧樂翱"
+    },
+    {
+      "original": "Miller",
+      "conv": "zh-cn:米勒;zh-tw:米勒;zh-hk:苗麗莎"
+    },
+    {
+      "original": "Suvarov",
+      "conv": "zh-cn:苏瓦洛夫;zh-tw:蘇瓦洛夫;zh-hk:崇尤力"
+    },
+    {
+      "original": "Sherry",
+      "conv": "zh-cn:雪莉;zh-tw:雪莉;zh-hk:雪蓮"
+    },
+    {
+      "original": "Wayne",
+      "conv": "zh-cn:伟恩;zh-tw:偉恩;zh-hk:柏偉賢"
+    },
+    {
+      "original": "Keith",
+      "conv": "zh-cn:凯斯;zh-tw:凱斯;zh-hk:柏堅"
+    },
+    {
+      "original": "Sandra",
+      "conv": "zh-cn:桑德拉;zh-tw:桑德拉;zh-hk:桑德"
+    },
+    {
+      "original": "Aaron",
+      "conv": "zh-cn:艾伦;zh-tw:艾倫;zh-hk:亞朗"
+    },
+    {
+      "original": "Audrey",
+      "conv": "zh-cn:奥黛丽;zh-tw:奧黛麗;zh-hk:安慈"
+    },
+    {
+      "original": "Charles",
+      "conv": "zh-cn:查尔斯;zh-tw:察爾斯;zh-hk:卓思"
+    },
+    {
+      "original": "Martha",
+      "conv": "zh-cn:玛莎;zh-tw:瑪莎;zh-hk:瑪花"
+    },
+    {
+      "original": "Lennox",
+      "conv": "zh-cn:托马斯;zh-tw:湯瑪斯;zh-hk:杜文"
+    },
+    {
+      "original": "Carroll, Kevin",
+      "conv": "zh-cn:凯文·卡洛;zh-tw:凱文·卡洛;zh-hk:何加文"
+    },
+    {
+      "original": "Gaines, Ira",
+      "conv": "zh-cn:艾拉·盖恩;zh-tw:艾拉·蓋恩;zh-hk:蓋艾拉"
+    },
+    {
+      "original": "Drazen, Victor",
+      "conv": "zh-cn:维克多·特雷森;zh-tw:維多·特雷森;zh-hk:羅維達"
+    },
+    {
+      "original": "Warner, Marie",
+      "conv": "zh-cn:玛莉·华纳;zh-tw:瑪莉·華納;zh-hk:尹馬莉"
+    },
+    {
+      "original": "Ali, Syed",
+      "conv": "zh-cn:赛义德·阿里;zh-tw:賽伊德·阿里;zh-hk:埃薩爾"
+    },
+    {
+      "original": "Kingsley, Peter",
+      "conv": "zh-cn:彼得·金士利;zh-tw:彼得·金斯利;zh-hk:金彼得"
+    },
+    {
+      "original": "Salazer, Ramon",
+      "conv": "zh-cn:雷蒙·沙拉萨;zh-tw:雷蒙·沙拉薩;zh-hk:沙利蒙"
+    },
+    {
+      "original": "Salazer, Hector",
+      "conv": "zh-cn:赫克特·沙拉萨;zh-tw:赫克特·沙拉薩;zh-hk:沙賀德"
+    },
+    {
+      "original": "Amador, Michael",
+      "conv": "zh-cn:迈克尔·阿玛多;zh-tw:麥可·阿瑪多;zh-hk:倪米高"
+    },
+    {
+      "original": "Saunders, Stephen",
+      "conv": "zh-cn:斯蒂芬·桑切斯;zh-tw:史蒂芬·桑切斯;zh-hk:桑士庭"
+    },
+    {
+      "original": "Araz, Navi",
+      "conv": "zh-cn:纳威·阿拉兹;zh-tw:納威·阿拉茲;zh-hk:顏納雄"
+    },
+    {
+      "original": "Marwan, Habib",
+      "conv": "zh-cn:哈比·马旺;zh-tw:哈比·馬旺;zh-hk:馬克平"
+    },
+    {
+      "original": "Bierko, Vladimir",
+      "conv": "zh-cn:弗拉基米尔·比尔科;zh-tw:弗拉基米爾·比爾科;zh-hk:貝華狄"
+    },
+    {
+      "original": "Henderson, Christopher",
+      "conv": "zh-cn:克里斯多夫·韩德森;zh-tw:克里斯多夫·韓德森;zh-hk:韓基斯"
+    },
+    {
+      "original": "Fayed, Abu",
+      "conv": "zh-cn:阿布·法耶德;zh-tw:阿布·法耶德;zh-hk:樊安浦"
+    },
+    {
+      "original": "Gredenko, Dmitri",
+      "conv": "zh-cn:德米特里·格列登科;zh-tw:德米特里·格列登科;zh-hk:简迪文"
+    },
+    {
+      "original": "Cheng Zhi",
+      "conv": "zh-cn:程志;zh-tw:程志;zh-hk:鄭志"
+    },
+    {
+      "original": "Gaines",
+      "conv": "zh-cn:盖恩;zh-tw:蓋恩;zh-hk:蓋艾拉"
+    },
+    {
+      "original": "Ali",
+      "conv": "zh-cn:阿里;zh-tw:阿里;zh-hk:埃薩爾"
+    },
+    {
+      "original": "Kingsley",
+      "conv": "zh-cn:金士利;zh-tw:金斯利;zh-hk:金彼得"
+    },
+    {
+      "original": "Salazer",
+      "conv": "zh-cn:沙拉萨;zh-tw:沙拉薩;zh-hk:沙氏"
+    },
+    {
+      "original": "Amador",
+      "conv": "zh-cn:阿玛多;zh-tw:阿瑪多;zh-hk:倪米高"
+    },
+    {
+      "original": "Saunders",
+      "conv": "zh-cn:桑切斯;zh-tw:桑切斯;zh-hk:桑士庭"
+    },
+    {
+      "original": "Marwan",
+      "conv": "zh-cn:马旺;zh-tw:馬旺;zh-hk:馬克平"
+    },
+    {
+      "original": "Bierko",
+      "conv": "zh-cn:比尔科;zh-tw:比爾科;zh-hk:貝華狄"
+    },
+    {
+      "original": "Henderson",
+      "conv": "zh-cn:韩德森;zh-tw:韓德森;zh-hk:韓基斯"
+    },
+    {
+      "original": "Fayed",
+      "conv": "zh-cn:法耶德;zh-tw:法耶德;zh-hk:樊安浦"
+    },
+    {
+      "original": "Dmitri",
+      "conv": "zh-cn:格列登科;zh-tw:格列登科;zh-hk:樊安浦"
+    },
+    {
+      "original": "Ramon",
+      "conv": "zh-cn:雷蒙;zh-tw:雷蒙;zh-hk:利蒙"
+    },
+    {
+      "original": "Hector",
+      "conv": "zh-cn:赫克特;zh-tw:赫克特;zh-hk:賀德"
+    },
+    {
+      "original": "Warner, Kate",
+      "conv": "zh-cn:凯特·华纳;zh-tw:凱特·華納;zh-hk:尹姬兒"
+    },
+    {
+      "original": "Raines, Paul",
+      "conv": "zh-cn:保罗·瑞恩斯;zh-tw:保羅·瑞恩斯;zh-hk:榮保羅"
+    },
+    {
+      "original": "Nathanson, James",
+      "conv": "zh-cn:詹姆斯·奈森;zh-tw:詹姆仕·奈森;zh-hk:藍志文"
+    },
+    {
+      "original": "Al-Assad, Hamri",
+      "conv": "zh-cn:哈姆瑞·阿萨德;zh-tw:哈米·阿薩德;zh-hk:艾恒力"
+    },
+    {
+      "original": "Nathanson",
+      "conv": "zh-cn:奈森;zh-tw:奈森;zh-hk:藍志文"
+    },
+    {
+      "original": "Al-Assad",
+      "conv": "zh-cn:阿萨德;zh-tw:阿薩德;zh-hk:艾恒力"
+    },
+    {
+      "original": "Kate",
+      "conv": "zh-cn:凯特;zh-tw:凱特;zh-hk:姬兒"
+    },
+    {
+      "original": "Sutherland, Kiefer",
+      "conv": "zh-cn:基弗·萨瑟兰;zh-tw:基佛·蘇德蘭;zh-hk:基夫·修打蘭"
+    },
+    {
+      "original": "Sutherland",
+      "conv": "zh-cn:萨瑟兰;zh-tw:蘇德蘭;zh-hk:修打蘭"
+    },
+    {
+      "original": "Counter Terrorist Unit",
+      "conv": "zh-cn:反恐局;zh-tw:反恐局;zh-hk:反恐單位"
+    },
+    {
+      "original": "Fox Network",
+      "conv": "zh-cn:福克斯电视网; zh-tw:福斯電視網; zh-hk:霍士電視;"
+    },
+    {
+      "original": "Fox Broadcasting Company",
+      "conv": "zh-cn:福克斯广播公司; zh-tw:福斯廣播公司; zh-hk:霍士廣播公司;"
+    }
+  ]
+}

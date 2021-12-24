@@ -1,0 +1,551 @@
+{
+  "name": "意甲",
+  "description": "意甲",
+  "path": "Template:CGroup/意甲",
+  "rules": [
+    {
+      "original": "Atalanta",
+      "conv": "zh:亞特蘭大; zh-cn:亚特兰大; zh-tw:亞特蘭大; zh-hk:阿特蘭大;"
+    },
+    {
+      "original": "Avellino",
+      "conv": "zh:阿韦利诺; zh-cn:阿韦利诺; zh-tw:阿韋利諾; zh-hk:艾維連奴;"
+    },
+    {
+      "original": "Benevento",
+      "conv": "zh-cn:贝内文托;zh-hk:賓尼雲圖;zh-tw:貝內文托;"
+    },
+    {
+      "original": "Bologna",
+      "conv": "zh:博洛尼亚; zh-cn:博洛尼亚; zh-tw:波隆那; zh-hk:博洛尼亞;"
+    },
+    {
+      "original": "Calcio Catania",
+      "conv": "zh:卡塔尼亚; zh-cn:卡塔尼亚; zh-tw:卡塔尼亞; zh-hk:卡坦尼亞;"
+    },
+    {
+      "original": "A.C. ChievoVerona",
+      "conv": "zh:切沃; zh-cn:切沃; zh-hk:基爾禾; zh-tw:切沃; zh-mo:切禾"
+    },
+    {
+      "original": "Carpi",
+      "conv": "zh:卡爾皮; zh-cn:卡尔皮; zh-hk:卡比; zh-mo:卡爾比; zh-tw:卡皮;"
+    },
+    {
+      "original": "Como",
+      "conv": "zh:科莫; zh-cn:科莫; zh-hk:科木; zh-tw:科莫"
+    },
+    {
+      "original": "Empoli F.C.",
+      "conv": "zh:恩波利; zh-cn:恩波利; zh-tw:恩波里; zh-hk:安玻里; zh-mo:恩波里"
+    },
+    {
+      "original": "Empoli F.C.",
+      "conv": "恩坡利=>zh-cn:恩波利;恩坡利=>zh-tw:恩波里;恩坡利=>zh-hk:安玻里;恩坡利=>zh-mo:恩波里;"
+    },
+    {
+      "original": "Empoli F.C.",
+      "conv": "恩波里=>zh-cn:恩波利;恩波里=>zh-tw:恩波里;恩波里=>zh-hk:安玻里;恩波里=>zh-mo:恩波里;"
+    },
+    {
+      "original": "Empoli F.C.",
+      "conv": "安坡里=>zh-cn:恩波利;安坡里=>zh-tw:恩波里;安坡里=>zh-hk:安玻里;安坡里=>zh-mo:恩波里;"
+    },
+    {
+      "original": "ACF Fiorentina",
+      "conv": "zh:佛罗伦萨; zh-cn:佛罗伦萨; zh-tw:費倫提那; zh-hk:費倫天拿;"
+    },
+    {
+      "original": "Frosinone Calcio SRL",
+      "conv": "zh-cn:弗罗西诺内;zh-hk:費辛隆尼;zh-tw:弗羅西諾內;"
+    },
+    {
+      "original": "Genoa C.F.C.",
+      "conv": "zh:热那亚; zh-cn:热那亚; zh-tw:熱那亞; zh-hk:熱拿亞;"
+    },
+    {
+      "original": "Juventus FC",
+      "conv": "zh:尤文图斯; zh-cn:尤文图斯; zh-tw:尤文圖斯; zh-hk:祖雲達斯;"
+    },
+    {
+      "original": "SS Lazio",
+      "conv": "zh:拉齐奥;zh-cn:拉齐奥;zh-tw:拉齊奧;zh-hk:拉素;zh-hant:拉齊奧;"
+    },
+    {
+      "original": "AS Livorno Calcio",
+      "conv": "zh:利沃诺; zh-cn:利沃诺; zh-tw:利沃諾; zh-hk:利禾奴;"
+    },
+    {
+      "original": "Messina",
+      "conv": "zh:梅西纳;zh-cn:梅西纳; zh-tw:麥西納; zh-hk:墨西拿; zh-mo:麥斯納"
+    },
+    {
+      "original": "S.S.C. Napoli",
+      "conv": "zh:那不勒斯;zh-cn:那不勒斯; zh-tw:拿坡里; zh-hk:拿玻里; zh-sg:那波利;"
+    },
+    {
+      "original": "Novara Calcio",
+      "conv": "zh-cn:诺瓦拉;zh-hk:路華拿;zh-tw:諾瓦拉;"
+    },
+    {
+      "original": "US Città di Palermo",
+      "conv": "zh:巴勒莫; zh-cn:巴勒莫; zh-tw:巴勒莫; zh-hk:巴勒莫;"
+    },
+    {
+      "original": "Parma FC",
+      "conv": "zh:帕尔马; zh-cn:帕尔马; zh-tw:帕爾馬; zh-hk:帕爾馬;"
+    },
+    {
+      "original": "Reggina Calcio",
+      "conv": "zh:雷吉纳; zh-cn:雷吉纳; zh-tw:雷吉納; zh-hk:里賈納;"
+    },
+    {
+      "original": "Salernitana",
+      "conv": "zh-cn:萨勒尼塔纳;zh-tw:沙勒尼塔納;zh-hk:沙蘭力坦拿;"
+    },
+    {
+      "original": "UC Sampdoria",
+      "conv": "zh:桑普多利亚; zh-cn:桑普多利亚; zh-tw:桑普多利亞; zh-hk:森多利亞; zh-sg:桑多利亚;"
+    },
+    {
+      "original": "Sassuolo",
+      "conv": "zh-cn:萨索洛; zh-tw:薩索羅; zh-hk:薩斯索羅; zh-mo:莎索羅"
+    },
+    {
+      "original": "Sassuolo",
+      "conv": "萨索罗=>zh-cn:萨索洛;萨索罗=>zh-tw:薩索羅;萨索罗=>zh-hk:薩斯索羅;萨索罗=>zh-mo:莎索羅;"
+    },
+    {
+      "original": "Siena",
+      "conv": "zh:锡耶纳; zh-cn:锡耶纳; zh-tw:錫耶納; zh-hk:錫耶納;"
+    },
+    {
+      "original": "S.P.A.L.",
+      "conv": "zh-cn:斯帕尔;zh-hk:史帕爾;zh-tw:斯帕爾;"
+    },
+    {
+      "original": "Spezia",
+      "conv": "zh-hans:斯佩齐亚;zh-hk:史柏斯亞;zh-tw:斯佩齊亞;"
+    },
+    {
+      "original": "Ternana",
+      "conv": "zh:特尔纳纳; zh-cn:特尔纳纳; zh-tw:特爾納納; zh-hk:特拉納;"
+    },
+    {
+      "original": "Torino FC",
+      "conv": "拖連奴=>zh-cn:都灵;拖連奴=>zh-tw:杜里諾;拖連奴=>zh-hk:拖連奴;拖連奴=>zh-mo:拖連奴;"
+    },
+    {
+      "original": "Torino FC",
+      "conv": "杜里諾=>zh-cn:都灵;杜里諾=>zh-tw:杜里諾;杜里諾=>zh-hk:拖連奴;杜里諾=>zh-mo:拖連奴;"
+    },
+    {
+      "original": "Triestina",
+      "conv": "zh:特里斯蒂纳; zh-cn:特里斯蒂纳; zh-tw:特里斯蒂納; zh-hk:泰利斯天拿;"
+    },
+    {
+      "original": "Udinese Calcio",
+      "conv": "zh:乌迪内斯; zh-cn:乌迪内斯; zh-tw:烏迪內斯; zh-hk:烏甸尼斯;"
+    },
+    {
+      "original": "Adriano",
+      "conv": "zh:阿德里亚诺; zh-hans:阿德里亚诺; zh-hk:阿祖安奴; zh-tw:阿德里亞諾;"
+    },
+    {
+      "original": "Allegri",
+      "conv": "zh:阿莱格里; zh-cn:阿莱格里; zh-tw:阿萊格里; zh-hk:艾歷尼;"
+    },
+    {
+      "original": "Allegri",
+      "conv": "zh-hans:阿莱格里; zh-tw:阿萊格里; zh-hk:艾歷格利;zh-cn:阿莱格里"
+    },
+    {
+      "original": "Ambrosini",
+      "conv": "zh:安布罗西尼; zh-cn:安布罗西尼; zh-tw:安布羅西尼; zh-hk:岩布仙尼;"
+    },
+    {
+      "original": "Ancelotti",
+      "conv": "zh-hans:安切洛蒂; zh-tw:安切洛蒂; zh-hk:安察洛堤;"
+    },
+    {
+      "original": "Astori",
+      "conv": "zh-hans:阿斯托里; zh-hk:艾斯托利;"
+    },
+    {
+      "original": "Roberto Baggio",
+      "conv": "zh:罗伯特·巴乔; zh-cn:罗伯特·巴乔; zh-tw:羅貝托·巴吉歐; zh-hk:羅拔圖·巴治奧;"
+    },
+    {
+      "original": "Baggio",
+      "conv": "zh:巴乔; zh-cn:巴乔; zh-tw:巴吉歐; zh-hk:巴治奧;"
+    },
+    {
+      "original": "Balotelli",
+      "conv": "zh:巴洛特利;zh-hans:巴洛特利;zh-hk:巴洛迪利;zh-tw:巴洛特利;"
+    },
+    {
+      "original": "Beckham",
+      "conv": "zh:贝克汉姆; zh-cn:贝克汉姆; zh-tw:貝克漢; zh-hk:碧咸;"
+    },
+    {
+      "original": "Bonucci",
+      "conv": "zh:博努奇;zh-hans:博努奇; zh-hk:邦路斯; zh-tw:博努奇;"
+    },
+    {
+      "original": "Buffon",
+      "conv": "zh:布馮; zh-cn:布冯; zh-tw:布馮; zh-hk:保方;"
+    },
+    {
+      "original": "Camoranesi",
+      "conv": "zh:卡莫拉内西; zh-cn:卡莫拉內西; zh-tw:卡莫拉內西; zh-hk:甘莫蘭尼斯;"
+    },
+    {
+      "original": "Cannavaro",
+      "conv": "zh:卡纳瓦罗; zh-cn:卡纳瓦罗; zh-tw:卡納瓦羅; zh-hk:簡拿華路;"
+    },
+    {
+      "original": "Capello",
+      "conv": "zh:卡佩罗; zh-cn:卡佩罗; zh-tw:卡佩羅; zh-hk:卡比路;"
+    },
+    {
+      "original": "Cassano",
+      "conv": "zh:卡萨诺; zh-cn:卡萨诺; zh-tw:卡薩諾; zh-hk:卡斯辛奴;"
+    },
+    {
+      "original": "Chiellini",
+      "conv": "zh:基耶利尼;zh-hans:基耶利尼;zh-hk:基亞連尼;zh-tw:基耶利尼;"
+    },
+    {
+      "original": "Conte",
+      "conv": "zh:孔蒂; zh-hans:孔蒂; zh-hk:干地;zh-tw:孔蒂;"
+    },
+    {
+      "original": "De Rossi",
+      "conv": "zh:德罗西;zh-hans:德罗西;zh-hk:迪羅斯;zh-tw:德羅西;"
+    },
+    {
+      "original": "De Sciglio",
+      "conv": "zh-hans:德西利奥;zh-hk:迪斯基利奧;zh-tw:德西利奧;"
+    },
+    {
+      "original": "Delneri",
+      "conv": "zh-hans:德尔内里;zh-hk:迪拿利;zh-tw:德爾內里;"
+    },
+    {
+      "original": "Del Piero",
+      "conv": "zh:德尔·皮耶罗; zh-cn:德尔·皮耶罗; zh-tw:德爾·皮耶羅; zh-hk:迪比亞路;"
+    },
+    {
+      "original": "Del Piero",
+      "conv": "zh:皮耶罗; zh-cn:皮耶罗; zh-tw:皮耶羅; zh-hk:迪比亞路;"
+    },
+    {
+      "original": "Del Piero",
+      "conv": "迪比亞路=>zh-cn:皮耶罗;迪比亞路=>zh-tw:皮耶羅;迪比亞路=>zh-hk:迪比亞路;迪比亞路=>zh-mo:迪比亞路;"
+    },
+    {
+      "original": "Di Natale",
+      "conv": "zh:迪纳塔莱;zh-cn:迪纳塔莱; zh-tw:迪納塔萊; zh-hk:迪拿達利;"
+    },
+    {
+      "original": "Donadoni",
+      "conv": "zh:多纳多尼; zh-cn:多纳多尼; zh-tw:多納多尼; zh-hk:鄧納東尼;"
+    },
+    {
+      "original": "Dybala",
+      "conv": "zh-hans:迪巴拉;zh-hk:戴巴拿;zh-tw:迪巴拉;"
+    },
+    {
+      "original": "Edin Džeko",
+      "conv": "zh-hans:埃丁·哲科;zh-hk:艾甸·迪斯高;zh-tw:埃丁·哲科;"
+    },
+    {
+      "original": "Ferrara",
+      "conv": "zh:费拉拉; zh-cn:费拉拉; zh-tw:費拉拉; zh-hk:費拉拿;"
+    },
+    {
+      "original": "Gattuso",
+      "conv": "zh-hans:加图索;zh-hk:加度素;zh-tw:加圖索;"
+    },
+    {
+      "original": "Gennaro",
+      "conv": "zh-hans:詹纳罗;zh-hk:贊拿路;zh-tw:詹納羅;"
+    },
+    {
+      "original": "Gilardino",
+      "conv": "zh:吉拉迪诺;zh-hans:吉拉迪诺;zh-hk:基拿甸奴;zh-tw:吉拉迪諾;"
+    },
+    {
+      "original": "Giovinco",
+      "conv": "zh:吉奥文科;zh-cn:乔文科;zh-hans:吉奥文科;zh-hk:基奧雲高;zh-tw:吉奧文科;"
+    },
+    {
+      "original": "Grosso",
+      "conv": "zh:格罗索;zh-cn:格罗索; zh-tw:格羅索; zh-hk:格羅素;"
+    },
+    {
+      "original": "Gullit",
+      "conv": "zh:古利特;zh-hans:古利特;zh-hk:古烈治;zh-tw:古利特;"
+    },
+    {
+      "original": "Ibrahimović",
+      "conv": "zh:伊布拉希莫维奇;zh-hans:伊布拉希莫维奇;zh-hk:伊巴謙莫域;zh-tw:伊布拉希莫維奇;"
+    },
+    {
+      "original": "Zlatan Ibrahimović",
+      "conv": "zh:兹拉坦·伊布拉希莫维奇;zh-hans:兹拉坦·伊布拉希莫维奇;zh-hk:薩拉坦·伊巴謙莫域;zh-tw:茲拉坦·伊布拉希莫維奇;"
+    },
+    {
+      "original": "Mauro Icardi",
+      "conv": "zh-hans:毛罗·伊卡尔迪;zh-hk:莫路·伊卡迪;zh-tw:毛羅·伊卡爾迪;"
+    },
+    {
+      "original": "Icardi",
+      "conv": "zh-hans:伊卡尔迪;zh-hk:伊卡迪;zh-tw:伊卡爾迪;"
+    },
+    {
+      "original": "Immobile",
+      "conv": "zh-hans:因莫比莱;zh-hk:恩莫比尼;zh-hant:因莫比萊;"
+    },
+    {
+      "original": "Inzaghi",
+      "conv": "zh:因扎吉; zh-cn:因扎吉; zh-tw:英薩吉; zh-hk:恩沙基;"
+    },
+    {
+      "original": "Inzaghi",
+      "conv": "zh:菲利普·因扎吉; zh-cn:菲利普·因扎吉; zh-tw:菲利普·英薩吉; zh-hk:菲利波·恩沙基;"
+    },
+    {
+      "original": "Ivan",
+      "conv": "zh-hans:伊万;zh-hk:艾雲;zh-tw:伊萬;"
+    },
+    {
+      "original": "Jovetić",
+      "conv": "zh:约维蒂奇;zh-hans:约维蒂奇;zh-hk:祖維迪;zh-tw:約維蒂奇;"
+    },
+    {
+      "original": "Lippi",
+      "conv": "zh:里皮; zh-cn:里皮; zh-tw:里皮; zh-hk:納比;"
+    },
+    {
+      "original": "Luciano",
+      "conv": "zh-hans:卢西亚诺;zh-hk:盧斯安奴;zh-tw:盧西亞諾;"
+    },
+    {
+      "original": "Lúcio",
+      "conv": "zh:卢西奥;zh-hans:卢西奥;zh-hk:盧斯奧;zh-tw:盧西奧;"
+    },
+    {
+      "original": "Marchisio",
+      "conv": "zh:马尔基西奥;zh-cn:马尔基西奥; zh-tw:馬爾基西奧; zh-hk:馬治斯奧;"
+    },
+    {
+      "original": "Materazzi",
+      "conv": "zh:马特拉齐; zh-cn:马特拉齐; zh-tw:馬特拉齊; zh-hk:馬特拉斯;"
+    },
+    {
+      "original": "Maldini",
+      "conv": "zh:马尔蒂尼; zh-cn:马尔蒂尼; zh-tw:馬蒂尼; zh-hk:馬甸尼;"
+    },
+    {
+      "original": "Mancini",
+      "conv": "zh:曼奇尼;zh-hans:曼奇尼;zh-hk:文仙尼;zh-tw:曼奇尼;"
+    },
+    {
+      "original": "Matthäus",
+      "conv": "zh:马特乌斯;zh-hans:马特乌斯;zh-hk:馬圖斯;zh-tw:馬特烏斯;"
+    },
+    {
+      "original": "Mazzarri",
+      "conv": "zh-hans:马扎里;zh-hk:馬沙利;zh-tw:馬扎里;"
+    },
+    {
+      "original": "Dries Mertens",
+      "conv": "zh-hans:德里斯·梅尔滕斯;zh-hk:達賴斯·梅頓斯;zh-tw:德賴斯·梅滕斯;"
+    },
+    {
+      "original": "Mihajlović",
+      "conv": "zh:米哈伊洛维奇;zh-cn:米哈伊洛维奇; zh-tw:米哈伊洛維奇; zh-hk:米赫洛域;"
+    },
+    {
+      "original": "Montella",
+      "conv": "zh:蒙特拉; zh-cn:蒙特拉; zh-tw:蒙特拉; zh-hk:蒙迪拿;"
+    },
+    {
+      "original": "Montolivo",
+      "conv": "zh:蒙托里沃;zh-cn:蒙托里沃; zh-tw:蒙托里沃; zh-hk:蒙度利禾;"
+    },
+    {
+      "original": "Nedvěd",
+      "conv": "zh:内德维德; zh-cn:内德维德; zh-tw:內德維德; zh-hk:尼維特;"
+    },
+    {
+      "original": "Nesta",
+      "conv": "zh:内斯塔; zh-cn:内斯塔; zh-tw:內斯塔; zh-hk:尼斯達;"
+    },
+    {
+      "original": "Oddo",
+      "conv": "zh-hans:奥多;zh-hk:奧度;zh-tw:奧多;"
+    },
+    {
+      "original": "Pato",
+      "conv": "zh:帕托; zh-cn:帕托; zh-tw:帕托; zh-hk:柏圖;"
+    },
+    {
+      "original": "Perišić",
+      "conv": "zh-hans:佩里希奇;zh-hk:比列錫;zh-tw:佩里希奇;"
+    },
+    {
+      "original": "Pioli",
+      "conv": "zh:皮奥利; zh-cn:皮奥利; zh-tw:皮奧利; zh-hk:派奧利;zh-mo:彼奧尼;"
+    },
+    {
+      "original": "Pirlo",
+      "conv": "zh:皮尔洛; zh-cn:皮尔洛; zh-tw:皮爾洛; zh-hk:派路;"
+    },
+    {
+      "original": "Platini",
+      "conv": "zh:普拉蒂尼;zh-cn:普拉蒂尼; zh-tw:普拉蒂尼; zh-hk:柏天尼;"
+    },
+    {
+      "original": "Pogba",
+      "conv": "zh:博格巴;zh-cn:博格巴; zh-hk:普巴;"
+    },
+    {
+      "original": "Prandelli",
+      "conv": "zh:普兰德利;zh-cn:普兰德利; zh-tw:普蘭德利; zh-hk:柏蘭迪利;"
+    },
+    {
+      "original": "Ranieri",
+      "conv": "zh:拉涅利;zh-hans:拉涅利;zh-hk:雲尼亞里;zh-tw:拉涅利;"
+    },
+    {
+      "original": "Rijkaard",
+      "conv": "zh:里杰卡尔德;zh-hans:里杰卡尔德;zh-hk:列卡特;zh-tw:里杰卡爾德;"
+    },
+    {
+      "original": "Robinho",
+      "conv": "zh:罗比尼奥;zh-hans:罗比尼奥;zh-hk:羅賓奴;zh-tw:羅比尼奧;"
+    },
+    {
+      "original": "Ronaldo",
+      "conv": "zh:罗纳尔多; zh-cn:罗纳尔多; zh-tw:羅納度; zh-hk:朗拿度;"
+    },
+    {
+      "original": "Ronaldinho",
+      "conv": "zh:罗纳尔迪尼奥; zh-cn:罗纳尔迪尼奥; zh-tw:羅納汀荷; zh-hk:朗拿甸奴;"
+    },
+    {
+      "original": "Cristiano Ronaldo",
+      "conv": "zh:克里斯蒂亚诺·罗纳尔多; zh-cn:克里斯蒂亚诺·罗纳尔多; zh-tw:克里斯蒂亞諾·羅納度; zh-hk:基斯坦奴·朗拿度;"
+    },
+    {
+      "original": "Rui Costa",
+      "conv": "zh:魯伊·科斯塔; zh-cn:鲁伊·科斯塔; zh-tw:魯伊·科斯塔; zh-hk:雷·哥斯達;"
+    },
+    {
+      "original": "Rui Costa",
+      "conv": "雷哥斯達=>zh-cn:鲁伊·科斯塔;雷哥斯達=>zh-tw:魯伊·科斯塔;雷哥斯達=>zh-hk:雷·哥斯達;雷哥斯達=>zh-mo:雷·哥斯達;"
+    },
+    {
+      "original": "Maurizio Sarri",
+      "conv": "zh-hans:毛里齐奥·萨里;zh-hk:莫里斯奧·沙利;zh-tw:毛里齊奧·薩里;"
+    },
+    {
+      "original": "Sarri",
+      "conv": "zh-hans:萨里;zh-hk:沙利;zh-tw:薩里;"
+    },
+    {
+      "original": "Shevchenko",
+      "conv": "zh:舍甫琴科; zh-cn:舍甫琴科; zh-tw:舍甫琴科; zh-hk:舒夫真高;"
+    },
+    {
+      "original": "Sneijder",
+      "conv": "zh:斯内德;zh-cn:斯内德; zh-tw:史奈德; zh-hk:史奈達; zh-tw:斯奈德;"
+    },
+    {
+      "original": "Spalletti",
+      "conv": "zh-hans:斯帕莱蒂;zh-hk:史巴列堤;zh-tw:斯帕萊蒂;"
+    },
+    {
+      "original": "Stanković",
+      "conv": "zh:斯坦科维奇;zh-hans:斯坦科维奇;zh-hk:史坦高域;zh-tw:斯坦科維奇;"
+    },
+    {
+      "original": "Stramaccioni",
+      "conv": "zh:斯特拉马乔尼;zh-hans:斯特拉马乔尼;zh-hk:史達馬干尼;zh-tw:斯特拉馬喬尼;"
+    },
+    {
+      "original": "Thiago Motta",
+      "conv": "zh:蒂亚戈·莫塔;zh-cn:蒂亚戈·莫塔; zh-tw:蒂亞戈·莫塔; zh-hk:泰亞高·莫達;"
+    },
+    {
+      "original": "Toni",
+      "conv": "zh:托尼; zh-cn:托尼; zh-tw:托尼; zh-hk:東尼;"
+    },
+    {
+      "original": "Totti",
+      "conv": "zh:托蒂; zh-cn:托蒂; zh-tw:托蒂; zh-hk:托迪;"
+    },
+    {
+      "original": "Trapattoni",
+      "conv": "zh:特拉帕托尼; zh-cn:特拉帕托尼; zh-tw:特拉帕托尼; zh-hk:查柏東尼;"
+    },
+    {
+      "original": "Trézéguet",
+      "conv": "zh:特雷泽盖; zh-cn:特雷泽盖; zh-tw:特雷澤蓋; zh-hk:查斯古特;"
+    },
+    {
+      "original": "van Basten",
+      "conv": "zh:范巴斯滕;zh-hans:范巴斯滕;zh-hk:雲巴士頓;zh-tw:范巴斯滕;"
+    },
+    {
+      "original": "Vidal",
+      "conv": "zh:比达尔;zh-cn:比达尔; zh-tw:維達爾; zh-hk:維度;"
+    },
+    {
+      "original": "Vieri",
+      "conv": "zh:維埃里; zh-cn:维埃里; zh-tw:維耶里; zh-hk:韋利;"
+    },
+    {
+      "original": "Christian Vieri",
+      "conv": "zh:克里斯蒂安·維埃里;zh-cn:克里斯蒂安·维埃里; zh-tw:克里斯蒂安·維耶里; zh-hk:基斯頓·韋利;"
+    },
+    {
+      "original": "Walter",
+      "conv": "zh-hans:沃尔特; zh-hk:禾達; zh-tw:沃爾特;"
+    },
+    {
+      "original": "George Weah",
+      "conv": "zh:乔治·维阿; zh-cn:乔治·维阿; zh-tw:喬治·維阿; zh-hk:佐治·韋亞;"
+    },
+    {
+      "original": "Weah",
+      "conv": "zh:维阿; zh-cn:维阿; zh-tw:維阿; zh-hk:韋亞;"
+    },
+    {
+      "original": "Zanetti",
+      "conv": "zh:萨内蒂; zh-cn:萨内蒂; zh-tw:薩內蒂; zh-hk:辛尼迪;"
+    },
+    {
+      "original": "Zenga",
+      "conv": "zh-hans:曾加; zh-hk:辛格;"
+    },
+    {
+      "original": "Zidane",
+      "conv": "zh:齐达内; zh-cn:齐达内; zh-tw:席丹; zh-hk:施丹;"
+    },
+    {
+      "original": "Berlusconi",
+      "conv": "zh:贝卢斯科尼;zh-hans:贝卢斯科尼;zh-hk:貝盧斯科尼;zh-tw:貝魯斯柯尼;"
+    },
+    {
+      "original": "Moratti",
+      "conv": "zh:莫拉蒂;zh-hans:莫拉蒂;zh-hk:莫拉提;zh-tw:莫雷蒂;"
+    },
+    {
+      "original": "San Siro",
+      "conv": "zh:圣西罗球场;zh-hans:圣西罗球场;zh-hk:聖西路球場;zh-tw:聖西羅球場;"
+    }
+  ]
+}

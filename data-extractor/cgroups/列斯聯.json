@@ -1,0 +1,759 @@
+{
+  "name": "列斯聯",
+  "description": "[[列斯聯足球會|-{zh-hans:利兹联; zh-hk:列斯聯; zh-tw:里茲聯;}-]]",
+  "path": "Module:CGroup/列斯聯",
+  "rules": [
+    {
+      "original": "Leeds United Football Club",
+      "conv": "zh-hans:利兹联足球俱乐部; zh-tw:里茲聯足球俱樂部; zh-hk:列斯聯足球會;"
+    },
+    {
+      "original": "Leeds United",
+      "conv": "zh-hans:利兹联; zh-hk:列斯聯; zh-tw:里茲聯;"
+    },
+    {
+      "original": "Ken Bates",
+      "conv": "zh-hans:肯·贝茨;zh-hk:肯·碧斯;zh-tw:肯·貝茨;"
+    },
+    {
+      "original": "Leeds",
+      "conv": "zh-hans:利兹;zh-hk:列斯;zh-tw:利茲;"
+    },
+    {
+      "original": "Ian Miller",
+      "conv": "zh-hans:伊恩·米勒;zh-hk:伊恩·米拿;zh-tw:伊恩·米勒;"
+    },
+    {
+      "original": "Steve Staunton",
+      "conv": "zh-hans:斯迪文·斯汤顿;zh-hk:史提夫·史當頓;zh-tw:史蒂夫·史當頓;"
+    },
+    {
+      "original": "The Damned Utd",
+      "conv": "zh-hans:该死的联队;zh-hk:玩轉列斯聯;zh-tw:該死的聯隊;"
+    },
+    {
+      "original": "Leam Richardson",
+      "conv": "zh-hans:莱姆·理查森;zh-hk:尼廉·李察臣;zh-tw:萊姆·理查森;"
+    },
+    {
+      "original": "Chris Sulley",
+      "conv": "zh-hans:克里斯·薩利;zh-hk:基斯·薩利;zh-tw:克里斯·薩利;"
+    },
+    {
+      "original": "Elland Road",
+      "conv": "zh-hans:埃兰路球场;zh-hk:艾蘭路球場;zh-tw:埃蘭路球場;"
+    },
+    {
+      "original": "Elland Road",
+      "conv": "zh-hans:埃兰路;zh-hk:艾蘭路;zh-tw:埃蘭路;"
+    },
+    {
+      "original": "Don Revie",
+      "conv": "zh-hans:唐·里维;zh-hk:唐·李維;zh-tw:唐·里維;"
+    },
+    {
+      "original": "Neil Redfearn",
+      "conv": "zh-hans:尼尔·雷德费恩;zh-hk:尼爾·列費恩;zh-tw:尼爾·雷德費恩;"
+    },
+    {
+      "original": "Jock Stein",
+      "conv": "zh-hans:乔克·斯泰恩;zh-hk:澤克·史甸;zh-tw:喬克·斯泰恩;"
+    },
+    {
+      "original": "Allan Clarke",
+      "conv": "zh-hans:阿兰·克拉克;zh-hk:阿倫·奇勒;zh-tw:阿蘭·克拉克;"
+    },
+    {
+      "original": "Billy Bremner",
+      "conv": "zh-hans:比利·布雷姆纳;zh-hk:比利·布藍拿;zh-tw:比利·布雷姆納;"
+    },
+    {
+      "original": "Howard Wilkinson",
+      "conv": "zh-hans:霍华德·威尔金森;zh-hk:侯活·韋健遜;zh-tw:霍華德·威爾金森;"
+    },
+    {
+      "original": "George Graham",
+      "conv": "zh-hans:乔治·格拉汉姆;zh-hk:佐治·格拉咸;zh-tw:喬治·格拉咸姆;"
+    },
+    {
+      "original": "Dennis Wise",
+      "conv": "zh-hans:丹尼斯·怀斯;zh-hk:丹尼斯·韋斯;zh-tw:丹尼斯·懷斯;"
+    },
+    {
+      "original": "Gary McAllister",
+      "conv": "zh-hans:加里·麦卡利斯特;zh-hk:加利·麥亞里士打;zh-tw:加里·麥卡利斯特;"
+    },
+    {
+      "original": "Simon Grayson",
+      "conv": "zh-hans:西蒙·格雷森;zh-hk:西蒙·加利臣;zh-tw:西蒙·格雷森;"
+    },
+    {
+      "original": "Jimmy Armfield",
+      "conv": "zh-hans:吉米·阿姆菲尔德;zh-hk:占美·岩菲路;zh-hant:吉米·阿姆菲爾德;zh-tw:吉米·阿穆斐德;"
+    },
+    {
+      "original": "Terry Venables",
+      "conv": "zh-hans:特里·维纳布尔斯;zh-hk:泰利·雲拿保斯;zh-tw:特里·維納布爾斯;"
+    },
+    {
+      "original": "Peter Reid",
+      "conv": "zh-hans:彼得·里德;zh-hk:彼得·列特;zh-tw:彼得·里德;"
+    },
+    {
+      "original": "Brian Clough",
+      "conv": "zh-hans:布莱恩·克拉夫;zh-hk:白賴仁·哥洛夫;zh-tw:布萊恩·克拉夫;"
+    },
+    {
+      "original": "Grayson",
+      "conv": "zh-hans:格雷森;zh-hk:加利臣;zh-tw:格雷森;"
+    },
+    {
+      "original": "Bessone",
+      "conv": "zh-hans:贝索内;zh-hk:比施桑尼;zh-tw:見索内;"
+    },
+    {
+      "original": "Connolly",
+      "conv": "zh-hans:康诺利;zh-hk:干洛尼;zh-tw:康諾利;"
+    },
+    {
+      "original": "Paynter",
+      "conv": "zh-hans:帕伊特;zh-hk:彼恩達;zh-tw:帕伊特;"
+    },
+    {
+      "original": "Howson",
+      "conv": "zh-hans:豪森;zh-hk:侯臣;zh-tw:豪森;"
+    },
+    {
+      "original": "Kisnorbo",
+      "conv": "zh-hans:基斯诺伯;zh-hk:基斯諾保;zh-tw:基斯諾伯;"
+    },
+    {
+      "original": "Becchio",
+      "conv": "zh-hans:贝基奥;zh-hk:比治奧;zh-tw:貝基奧;"
+    },
+    {
+      "original": "Snodgrass",
+      "conv": "zh-hans:斯诺德格拉斯;zh-hk:辛迪加斯;zh-tw:斯諾德格拉斯;"
+    },
+    {
+      "original": "Tomi Ameobi",
+      "conv": "zh-hans:托米·阿梅奥比;zh-hk:湯美·艾美奧比;zh-tw:托米·阿梅奧比;"
+    },
+    {
+      "original": "Casper Ankergren",
+      "conv": "zh-hans:卡斯佩·安克格伦;zh-hk:卡斯柏·安卡格連;zh-tw:卡斯佩·安克格倫;"
+    },
+    {
+      "original": "Ben Alnwick",
+      "conv": "zh-hans:本·阿恩维克;zh-hk:賓·艾恩域;zh-tw:本·阿恩維克;"
+    },
+    {
+      "original": "Robert Bayly",
+      "conv": "zh-hans:罗伯特·贝利;zh-hk:羅拔·比利;zh-tw:羅伯特·貝利;"
+    },
+    {
+      "original": "Ian Baird",
+      "conv": "zh-hans:伊恩·拜尔德;zh-hk:伊恩·拜特;zh-tw:伊恩·拜爾德;"
+    },
+    {
+      "original": "Nick Barmby",
+      "conv": "zh-hans:尼克·巴姆比;zh-hk:尼克·班比;zh-tw:尼克·巴姆比;"
+    },
+    {
+      "original": "Lee Bowyer",
+      "conv": "zh-hans:李·鲍耶;zh-hk:李·保耶;zh-tw:李·鮑耶;"
+    },
+    {
+      "original": "Michael Bridges",
+      "conv": "zh-hans:迈克尔·布里奇斯;zh-hk:米高·布歷捷斯;zh-tw:麥可·布里奇斯;"
+    },
+    {
+      "original": "Nicky Byrne",
+      "conv": "zh-hans:尼基·伯恩;zh-hk:尼基·柏恩;zh-tw:尼基·伯恩;"
+    },
+    {
+      "original": "Raúl Bravo",
+      "conv": "zh-hans:劳尔·布拉沃;zh-hk:魯爾·巴禾;zh-tw:勞爾·布拉沃;"
+    },
+    {
+      "original": "David Batty",
+      "conv": "zh-hans:大卫·巴蒂;zh-hk:大衛·柏堤;zh-tw:大衛·巴蒂;"
+    },
+    {
+      "original": "Robbie Blake",
+      "conv": "zh-hans:罗比·布莱克;zh-hk:羅比·比歷克;zh-tw:羅比·布萊克;"
+    },
+    {
+      "original": "Leigh  Bromby",
+      "conv": "zh-hans:萊吉·布隆比;zh-hk:李·邦比;zh-tw:萊吉·布隆比;"
+    },
+    {
+      "original": "Jermaine Beckford",
+      "conv": "zh-hans:杰梅因·贝克福德;zh-hk:謝美伊·碧福特;zh-tw:杰梅恩·貝克福德;"
+    },
+    {
+      "original": "Luciano Becchio",
+      "conv": "zh-hans:卢西亚诺·贝基奥;zh-hk:路西安奴·比治奧;zh-tw:盧西亞諾·貝基奧;"
+    },
+    {
+      "original": "Federico Bessone",
+      "conv": "zh-hans:费德里克·贝索内;zh-hk:費德里科·比施桑尼;zh-tw:費德里克·貝索內;"
+    },
+    {
+      "original": "Alex Bruce",
+      "conv": "zh-hans:阿莱克斯·布鲁斯;zh-hk:阿歷士·布魯士;zh-tw:阿萊克斯·布魯斯;"
+    },
+    {
+      "original": "Jason Brown",
+      "conv": "zh-hans:杰森·布朗;zh-hk:積遜·布朗;zh-tw:傑森·布朗;"
+    },
+    {
+      "original": "Barry Bannan",
+      "conv": "zh-hans:巴里·班南;zh-hk:巴利·班倫;zh-tw:巴里·班南;"
+    },
+    {
+      "original": "Michael Brown",
+      "conv": "zh-hans:迈克尔·布朗;zh-hk:米高·布朗;zh-tw:麥可·布朗;"
+    },
+    {
+      "original": "Filipe da Costa",
+      "conv": "zh-hans:菲利普·达科斯塔;zh-hk:菲力浦·達哥斯塔;zh-tw:菲利普·達科斯塔;"
+    },
+    {
+      "original": "John Charles",
+      "conv": "zh-hans:约翰·查尔斯;zh-hk:約翰·查理士;zh-tw:約翰·查爾斯;"
+    },
+    {
+      "original": "Scott Carson",
+      "conv": "zh-hans:斯科特·卡森;zh-hk:史葛·卡臣;zh-tw:斯科特·卡森;"
+    },
+    {
+      "original": "Lee Chapman",
+      "conv": "zh-hans:李·查普曼;zh-hk:李·卓文;zh-tw:李·查普曼;"
+    },
+    {
+      "original": "Jack Charlton",
+      "conv": "zh-hans:杰克·查尔顿;zh-hk:積·查爾頓;zh-tw:傑克·查爾頓;"
+    },
+    {
+      "original": "Leon Constantine",
+      "conv": "zh-hans:萊昂·干斯坦汀;zh-hk:里昂·康斯坦丁;zh-tw:萊昂·干斯坦汀;"
+    },
+    {
+      "original": "Bobby Collins",
+      "conv": "zh-hans:博比·科林斯;zh-hk:波比·哥連斯;zh-tw:博比·柯林斯;"
+    },
+    {
+      "original": "Eric Cantona",
+      "conv": "zh-hans:埃里克·坎通纳;zh-hk:艾力·簡東拿;zh-tw:埃里克·坎通納;"
+    },
+    {
+      "original": "Tony Capaldi",
+      "conv": "zh-hans:托尼·卡帕尔迪;zh-hk:東尼·卡柏迪;zh-tw:托尼·卡帕爾迪;"
+    },
+    {
+      "original": "Sébastien Carole",
+      "conv": "zh-hans:塞巴斯蒂安·卡罗勒;zh-hk:施巴斯坦·卡羅利;zh-tw:塞巴斯蒂安·卡羅勒;"
+    },
+    {
+      "original": "Steven Caldwell",
+      "conv": "zh-hans:斯蒂芬·卡德维尔;zh-hk:史提芬·卡達維;zh-tw:斯蒂芬·卡德維爾;"
+    },
+    {
+      "original": "Clarke Carlisle",
+      "conv": "zh-hans:克拉克·卡莱尔;zh-hk:奇勒·卡素爾;zh-tw:克拉克·卡萊爾;"
+    },
+    {
+      "original": "Jason Crowe",
+      "conv": "zh-hans:杰森·克洛;zh-hk:謝臣·高維;zh-tw:傑森·克洛;"
+    },
+    {
+      "original": "Neill Collins",
+      "conv": "zh-hans:尼尔.科林斯;zh-hk:尼爾·哥連斯;zh-tw:尼爾·柯林斯;"
+    },
+    {
+      "original": "Paul Connolly",
+      "conv": "zh-hans:保罗·康诺利;zh-hk:保羅·干洛尼;zh-tw:保羅·康諾利;"
+    },
+    {
+      "original": "Adam Clayton",
+      "conv": "zh-hans:亚当·克莱顿;zh-hk:亞當·卡里頓;zh-tw:亞當·克萊頓;"
+    },
+    {
+      "original": "Stephen Crainey",
+      "conv": "zh-hans:斯蒂芬·卡雷尼;zh-hk:史提芬·格尼;zh-tw:斯蒂芬·卡雷尼;"
+    },
+    {
+      "original": "Brian Deane",
+      "conv": "zh-hans:布莱恩·邓恩;zh-hk:白賴仁·甸尼;zh-tw:布萊恩·鄧恩;"
+    },
+    {
+      "original": "Fabian Delph",
+      "conv": "zh-hans:法比安·德尔菲;zh-hk:法比安·迪夫;zh-tw:法比安·德爾夫;"
+    },
+    {
+      "original": "Michael Duberry",
+      "conv": "zh-hans:迈克尔·杜伯里;zh-hk:米高·杜貝利;zh-tw:麥可·杜伯里;"
+    },
+    {
+      "original": "Shaun Derry",
+      "conv": "zh-hans:肖恩·德里;zh-hk:沙恩·戴利;zh-tw:肖恩·德里;"
+    },
+    {
+      "original": "Olivier Dacourt",
+      "conv": "zh-hans:奥利维尔·达科特;zh-hk:奧利維爾·達葛治;zh-tw:奧利維爾·達科特;"
+    },
+    {
+      "original": "Mark De Vries",
+      "conv": "zh-hans:马克·德维里斯;zh-hk:馬克·迪華里斯;zh-tw:馬克·德維里斯;"
+    },
+    {
+      "original": "Jonathan Douglas",
+      "conv": "zh-hans:乔纳森·道格拉斯;zh-hk:莊拿芬·杜格拉斯;zh-tw:約拿芬·道格拉斯;"
+    },
+    {
+      "original": "Tony Dorigo",
+      "conv": "zh-hans:托尼·多里戈;zh-hk:東尼·杜利高;zh-tw:托尼·多里戈;"
+    },
+    {
+      "original": "Michael Doyle",
+      "conv": "zh-hans:迈克尔·多伊尔;zh-hk:米高·杜爾尼;zh-tw:麥可·多伊爾;"
+    },
+    {
+      "original": "Paul Dickov",
+      "conv": "zh-hans:保罗·迪科夫;zh-hk:保羅·迪哥夫;zh-tw:保羅·迪科夫;"
+    },
+    {
+      "original": "Hogan Ephraim",
+      "conv": "zh-hans:霍甘·埃夫拉姆;zh-hk:霍甘·艾柏拉恩;zh-tw:霍甘·埃夫拉姆;"
+    },
+    {
+      "original": "Anthony Elding",
+      "conv": "zh-hans:安东尼·艾尔丁;zh-hk:安東尼·艾丁;zh-tw:安東尼·艾爾丁;"
+    },
+    {
+      "original": "Tom Elliott",
+      "conv": "zh-hans:汤姆·埃利奥特;zh-hk:湯姆·艾利洛;zh-tw:湯姆·埃利奧特;"
+    },
+    {
+      "original": "Rio Ferdinand",
+      "conv": "zh-hans:里奥·费迪南德;zh-hk:里奧·費迪南;zh-tw:里奧·費迪南德;"
+    },
+    {
+      "original": "Tore André Flo",
+      "conv": "zh-hans:托雷·安德烈·弗洛;zh-hk:托雷·安德列·費奧;zh-tw:托雷·安德烈·費洛;"
+    },
+    {
+      "original": "Robbie Fowler",
+      "conv": "zh-hans:罗比·福勒;zh-hk:羅比·科拿;zh-tw:羅比·福勒;"
+    },
+    {
+      "original": "Frank Fielding",
+      "conv": "zh-hans:弗兰克·菲尔丁;zh-hk:法蘭·費丁;zh-tw:法蘭克·菲爾丁;"
+    },
+    {
+      "original": "Caleb Folan",
+      "conv": "zh-hans:卡雷伯·富兰;zh-hk:卡雷布·科蘭;zh-tw:卡雷伯·富蘭;"
+    },
+    {
+      "original": "Amdy Faye",
+      "conv": "zh-hans:阿姆迪·法耶;zh-hk:安迪·菲爾;zh-tw:阿姆迪·法耶;"
+    },
+    {
+      "original": "Mikael Forssell",
+      "conv": "zh-hans:米卡埃尔·福塞尔;zh-hk:米基爾·科素;zh-tw:米凱爾·福塞爾;"
+    },
+    {
+      "original": "John Giles",
+      "conv": "zh-hans:约翰·伊莱斯;zh-hk:尊尼·基路士;zh-tw:約翰·伊萊斯;"
+    },
+    {
+      "original": "Michael Gray",
+      "conv": "zh-hans:迈克尔·格雷;zh-hk:米高·格雷;zh-tw:麥可·格雷;"
+    },
+    {
+      "original": "Max  Gradel",
+      "conv": "zh-hans:麦斯·格拉德尔;zh-hk:麥斯·格拉度;zh-tw:麥斯·格拉德爾;"
+    },
+    {
+      "original": "Mike Grella",
+      "conv": "zh-hans:迈克·格雷拉;zh-hk:米克·格拿;zh-tw:麥可·格雷拉;"
+    },
+    {
+      "original": "Joel Griffiths",
+      "conv": "zh-hans:乔尔·格里菲斯;zh-hk:祖爾·格菲斯;zh-tw:喬爾·格里菲斯;"
+    },
+    {
+      "original": "David González",
+      "conv": "zh-hans:大卫·冈萨雷斯;zh-hk:大衛·干沙利斯;zh-tw:大衛·岡薩雷斯;"
+    },
+    {
+      "original": "Daniel Graham",
+      "conv": "zh-hans:丹尼·格雷厄姆;zh-hk:丹尼·格拉咸;zh-tw:丹尼·格雷厄姆;"
+    },
+    {
+      "original": "Ian Harte",
+      "conv": "zh-hans:伊安·哈特;zh-hk:伊恩·夏迪;zh-tw:伊安·哈特;"
+    },
+    {
+      "original": "Jimmy Floyd Hasselbaink",
+      "conv": "zh-hans:吉米·弗洛伊德·哈塞尔巴因克;zh-hk:占美·弗洛伊德·哈索賓基;zh-tw:吉米·弗洛伊德·哈塞爾巴恩克;"
+    },
+    {
+      "original": "Matt Heath",
+      "conv": "zh-hans:马修·希斯;zh-hk:馬菲·希夫;zh-tw:馬修·希斯;"
+    },
+    {
+      "original": "Martin Hiden",
+      "conv": "zh-hans:马丁·海德;zh-hk:馬田·希登;zh-tw:馬丁·海德;"
+    },
+    {
+      "original": "Geoff Horsfield",
+      "conv": "zh-hans:乔夫·霍斯菲尔德;zh-hk:謝菲·賀斯菲特;zh-tw:喬夫·霍斯菲爾德;"
+    },
+    {
+      "original": "Darren Huckerby",
+      "conv": "zh-hans:达伦·哈克比;zh-hk:戴倫·亨格比;zh-tw:達倫·哈克比;"
+    },
+    {
+      "original": "Rob Hulse",
+      "conv": "zh-hans:罗布·哈尔斯;zh-hk:洛·侯斯;zh-tw:羅布·哈爾斯;"
+    },
+    {
+      "original": "Shane  Higgs",
+      "conv": "zh-hans:谢恩·希格斯;zh-hk:沙恩·希捷士;zh-tw:謝恩·希格斯;"
+    },
+    {
+      "original": "Andrew  Hughes",
+      "conv": "zh-hans:安德鲁·休斯;zh-hk:安德魯·曉士;zh-tw:安德魯·休斯;"
+    },
+    {
+      "original": "Jonathan  Howson",
+      "conv": "zh-hans:乔纳森·豪森;zh-hk:莊拿芬·侯臣;zh-tw:約拿芬·豪森;"
+    },
+    {
+      "original": "Denis Irwin",
+      "conv": "zh-hans:丹尼斯·埃尔文;zh-hk:丹尼士·艾雲;zh-tw:丹尼斯·埃爾文;"
+    },
+    {
+      "original": "Mick Jones",
+      "conv": "zh-hans:米克·琼斯;zh-hk:米克·鍾斯;zh-tw:米克·瓊斯;"
+    },
+    {
+      "original": "Joe Jordan",
+      "conv": "zh-hans:乔·乔丹;zh-hk:祖·佐敦;zh-tw:喬·喬丹;"
+    },
+    {
+      "original": "Roque Júnior",
+      "conv": "zh-hans:罗克·儒尼奥尔;zh-hk:洛基·祖利亞;zh-tw:羅克·儒尼奧爾;"
+    },
+    {
+      "original": "Adam Johnson",
+      "conv": "zh-hans:亚当·约翰逊;zh-hk:阿當·莊臣;zh-tw:亞當·約翰遜;"
+    },
+    {
+      "original": "Bradley  Johnson",
+      "conv": "zh-hans:布莱德利·约翰森;zh-hk:巴特利·莊臣;zh-tw:布萊德利·強森;"
+    },
+    {
+      "original": "Robbie Keane",
+      "conv": "zh-hans:罗比·基恩;zh-hk:羅比·堅尼;zh-tw:羅比·基恩;"
+    },
+    {
+      "original": "Gary Kelly",
+      "conv": "zh-hans:加里·凯利;zh-hk:加利·基利;zh-tw:加里·凱利;"
+    },
+    {
+      "original": "Darren Kenton",
+      "conv": "zh-hans:达伦·肯顿;zh-hk:戴倫·簡頓;zh-tw:達倫·肯頓;"
+    },
+    {
+      "original": "Harry Kewell",
+      "conv": "zh-hans:哈里·科威尔;zh-hk:哈利·基維爾;zh-tw:哈里·科威爾;"
+    },
+    {
+      "original": "Matthew Kilgallon",
+      "conv": "zh-hans:马修·基尔加伦;zh-hk:馬菲·基加隆;zh-tw:馬修·基爾加倫;"
+    },
+    {
+      "original": "Marlon King",
+      "conv": "zh-hans:马隆·金;zh-hk:馬龍·京治;zh-tw:馬龍·金恩;"
+    },
+    {
+      "original": "Радостин Кишишев",
+      "conv": "zh-hans:拉多斯丁·基什舍夫;zh-hk:華度斯汀·堅斯舒夫;zh-tw:拉多斯丁·基什舍夫;"
+    },
+    {
+      "original": "Andy Keogh",
+      "conv": "zh-hans:安迪·科格;zh-hk:安迪·基奧治;zh-tw:安迪·科格;"
+    },
+    {
+      "original": "Patrick  Kisnorbo",
+      "conv": "zh-hans:帕特里克·基斯诺伯;zh-hk:派崔克·基斯諾保;zh-tw:帕特里克·基斯諾伯;"
+    },
+    {
+      "original": "Trésor Kandol",
+      "conv": "zh-hans:特里索·坎贝尔;zh-hk:特里索·簡度;zh-tw:特里索·坎貝爾;"
+    },
+    {
+      "original": "Neil Kilkenny",
+      "conv": "zh-hans:尼尔·基尔肯尼;zh-hk:尼爾·基爾堅尼;zh-tw:尼爾·基爾肯尼;"
+    },
+    {
+      "original": "Eddie Lewis",
+      "conv": "zh-hans:埃迪·刘易斯;zh-hk:艾迪·路易斯;zh-tw:埃迪·劉易斯;"
+    },
+    {
+      "original": "Peter Lorimer",
+      "conv": "zh-hans:彼得·洛里默;zh-hk:彼得·羅利馬;zh-tw:彼得·洛里默;"
+    },
+    {
+      "original": "Teddy Lučić",
+      "conv": "zh-hans:泰迪·卢奇克;zh-hk:泰迪·盧錫;zh-tw:泰迪·盧奇克;"
+    },
+    {
+      "original": "Aaron Lennon",
+      "conv": "zh-hans:阿伦·列农;zh-hk:艾朗·連儂;zh-tw:阿倫·藍儂;"
+    },
+    {
+      "original": "Shane Lowry",
+      "conv": "zh-hans:谢恩·劳里;zh-hk:沙恩·路尼;zh-tw:謝恩·勞里;"
+    },
+    {
+      "original": "Eric Lichaj",
+      "conv": "zh-hans:艾瑞克·利查伊;zh-hk:艾力·列查積;zh-tw:艾瑞克·利查伊;"
+    },
+    {
+      "original": "Jake Livermore",
+      "conv": "zh-hans:詹克·利弗摩尔;zh-hk:詹克·利費摩亞;zh-tw:詹克·利費摩亞;"
+    },
+    {
+      "original": "Andrew Lonergan",
+      "conv": "zh-hans:安德鲁·洛内甘;zh-hk:安德魯·朗拿根;zh-tw:安德魯·洛內甘;"
+    },
+    {
+      "original": "Nigel Martyn",
+      "conv": "zh-hans:奈杰尔·马丁;zh-hk:尼祖·馬田;zh-tw:奈傑爾·馬丁;"
+    },
+    {
+      "original": "Dominic Matteo",
+      "conv": "zh-hans:多米尼克·玛特欧;zh-hk:多明尼·馬迪奧;zh-tw:多米尼克·瑪特歐;"
+    },
+    {
+      "original": "Liam Miller",
+      "conv": "zh-hans:利亚姆·米勒;zh-hk:利姆·米拿;zh-tw:利亞姆·米勒;"
+    },
+    {
+      "original": "Danny Mills",
+      "conv": "zh-hans:丹尼·米尔斯;zh-hk:丹尼·米斯;zh-tw:丹尼·米爾斯;"
+    },
+    {
+      "original": "James Milner",
+      "conv": "zh-hans:詹姆斯·米尔纳;zh-hk:占士·米拿;zh-tw:詹姆斯·米爾納;"
+    },
+    {
+      "original": "David Martin",
+      "conv": "zh-hans:大卫·马丁;zh-hk:大衛·馬田;zh-tw:大衛·馬丁;"
+    },
+    {
+      "original": "Alan Martin",
+      "conv": "zh-hk:阿倫·馬田;zh-hans:阿兰·马丁;zh-tw:阿蘭·馬丁;"
+    },
+    {
+      "original": "Ľubomír Michalík",
+      "conv": "zh-hans:卢博米尔·米查利克;zh-hk:路波米亞·米查歷克;zh-tw:盧博米爾·米查利克;"
+    },
+    {
+      "original": "Rui Marques",
+      "conv": "zh-hans:鲁伊·马尔克斯;zh-hk:雷·馬古斯;zh-tw:魯伊·馬爾克斯;"
+    },
+    {
+      "original": "Gary McSheffrey",
+      "conv": "zh-hans:加里·麦克谢弗里;zh-hk:加利·麥舒菲爾;zh-tw:加里·麥克謝弗里;"
+    },
+    {
+      "original": "George McCartney",
+      "conv": "zh-hans:乔治·麦卡特尼;zh-hk:佐治·麥卡尼;zh-tw:喬治·麥卡特尼;"
+    },
+    {
+      "original": "John McClelland",
+      "conv": "zh-hans:约翰·麦克莱兰;zh-hk:約翰·麥克利蘭;zh-tw:約翰·麥克萊蘭;"
+    },
+    {
+      "original": "Alex McCarthy",
+      "conv": "zh-hans:阿列克斯·麦卡锡;zh-hk:阿歷斯·麥卡尼;zh-tw:阿列克斯·麥卡錫;"
+    },
+    {
+      "original": "Richard  Naylor",
+      "conv": "zh-hans:理查·德勒;zh-hk:李察·尼萊;zh-tw:理查德·德勒;"
+    },
+    {
+      "original": "Ramón Núñez",
+      "conv": "zh-hans:拉蒙·努涅斯;zh-hk:雷蒙·紐尼斯;zh-tw:拉蒙·努涅斯;"
+    },
+    {
+      "original": "Stephen O'Halloran",
+      "conv": "zh-hans:斯蒂芬·奥哈洛兰;zh-hk:史提芬·奧哈洛蘭;zh-tw:斯蒂芬·奧哈洛蘭;"
+    },
+    {
+      "original": "John Oster",
+      "conv": "zh-hans:约翰·奥斯特;zh-hk:約翰·奧士達;zh-tw:約翰·奧斯特;"
+    },
+    {
+      "original": "Salomon Olembé",
+      "conv": "zh-hans:萨洛蒙·奥莱姆贝;zh-hk:沙洛文·奧林比;zh-tw:薩洛蒙·奧萊姆貝;"
+    },
+    {
+      "original": "Andy O'Brien",
+      "conv": "zh-hans:安迪·奥布赖恩;zh-hk:安迪·奧拜恩;zh-tw:安迪·歐布萊恩;"
+    },
+    {
+      "original": "Darren O'Dea",
+      "conv": "zh-hans:达伦·奥戴;zh-hk:戴倫·奧迪亞;zh-tw:達倫·奧戴;"
+    },
+    {
+      "original": "Jermaine Pennant",
+      "conv": "zh-hans:杰梅恩·彭南特;zh-hk:謝美伊·賓納;zh-tw:傑梅恩·彭南特;"
+    },
+    {
+      "original": "Danny Pugh",
+      "conv": "zh-hans:丹尼尔·皮尤;zh-hk:丹尼·佩治;zh-tw:丹尼爾·皮尤;"
+    },
+    {
+      "original": "David Prutton",
+      "conv": "zh-hans:大卫·普鲁顿;zh-hk:大衛·普頓;zh-tw:大衛·普魯頓;"
+    },
+    {
+      "original": "Ben Parker",
+      "conv": "zh-hans:本·帕克;zh-hk:賓·柏加;zh-tw:本·帕克;"
+    },
+    {
+      "original": "Billy Paynter",
+      "conv": "zh-hans:比利·帕伊特;zh-hk:比利·彼恩達;zh-tw:比利·帕伊特;"
+    },
+    {
+      "original": "Lee Peltier",
+      "conv": "zh-hans:李·佩尔蒂埃;zh-hk:李爾·比迪亞;zh-tw:李·佩爾蒂埃;"
+    },
+    {
+      "original": "Frazer Richardson",
+      "conv": "zh-hans:弗雷泽·理查德森;zh-hk:費沙·李察臣;zh-tw:費雷澤·理查德森;"
+    },
+    {
+      "original": "Ian Rush",
+      "conv": "zh-hans:伊恩·拉什;zh-hk:伊恩·魯殊;zh-tw:伊恩·拉什;"
+    },
+    {
+      "original": "Danny Rose",
+      "conv": "zh-hans:丹尼·罗斯;zh-hk:丹尼·路斯;zh-tw:丹尼·羅斯;"
+    },
+    {
+      "original": "Lucas Radebe",
+      "conv": "zh-hans:卢卡斯·拉德贝;zh-hk:盧卡斯·拉迪比;zh-tw:盧卡斯·拉德貝;"
+    },
+    {
+      "original": "Micah Richards",
+      "conv": "zh-hans:迈卡·理查德兹;zh-hk:米卡·李察士;zh-tw:邁卡·理查德茲;"
+    },
+    {
+      "original": "Paul Rachubka",
+      "conv": "zh-hans:保罗·拉楚布卡;zh-hk:保羅·華卓卡;zh-tw:保羅·拉楚布卡;"
+    },
+    {
+      "original": "Peter Sweeney",
+      "conv": "zh-hans:彼得·斯威尼;zh-hk:彼得·史維利;zh-tw:彼得·斯威尼;"
+    },
+    {
+      "original": "David Seaman",
+      "conv": "zh-hans:大卫·西曼;zh-hk:大衛·施文;zh-tw:大衛·西曼;"
+    },
+    {
+      "original": "Lee Sharpe",
+      "conv": "zh-hans:李·夏普;zh-hk:李·沙柏;zh-tw:李·夏普;"
+    },
+    {
+      "original": "Alan Smith",
+      "conv": "zh-hans:阿兰·史密斯;zh-hk:阿倫·史密夫;zh-tw:阿蘭·史密斯;"
+    },
+    {
+      "original": "Gary Speed",
+      "conv": "zh-hans:加里·斯皮德;zh-hk:加利·史必;zh-tw:加里·斯皮德;"
+    },
+    {
+      "original": "Gordon Strachan",
+      "conv": "zh-hans:戈登·斯特拉坎;zh-hk:哥頓·史特根;zh-tw:戈登·斯特拉坎;"
+    },
+    {
+      "original": "Enoch Showunmi",
+      "conv": "zh-hans:恩诺克·休昂米;zh-hk:以諾·舒胡美;zh-tw:恩諾克·休昂米;"
+    },
+    {
+      "original": "Alan  Sheehan",
+      "conv": "zh-hans:艾伦·希恩;zh-hk:阿倫·施漢;zh-tw:艾倫·希恩;"
+    },
+    {
+      "original": "Robert Snodgrass",
+      "conv": "zh-hans:罗伯特·斯诺德格拉斯;zh-hk:羅拔·辛迪加斯;zh-tw:羅伯特·斯諾德格拉斯;"
+    },
+    {
+      "original": "Davide Somma",
+      "conv": "zh-hans:戴维迪·桑马;zh-hk:大衛·桑馬;zh-tw:戴維德·桑馬;"
+    },
+    {
+      "original": "Kasper Schmeichel",
+      "conv": "zh-hans:卡斯帕·舒梅切尔;zh-hk:卡斯柏·舒米高;zh-tw:卡斯帕·舒梅切爾;"
+    },
+    {
+      "original": "Lloyd Sam",
+      "conv": "zh-hans:劳埃德·萨姆;zh-hk:萊特·森;zh-tw:勞埃德·薩姆;"
+    },
+    {
+      "original": "Alan Thompson",
+      "conv": "zh-hans:阿兰·汤普森;zh-hk:阿倫·湯臣;zh-tw:阿倫·湯普森;"
+    },
+    {
+      "original": "Maik Taylor",
+      "conv": "zh-hans:迈克·泰勒;zh-hk:米克·泰萊;zh-tw:邁克·泰勒;"
+    },
+    {
+      "original": "Sam Vokes",
+      "conv": "zh-hans:萨姆·沃科斯;zh-hk:森·禾基斯;zh-tw:薩姆·沃科斯;"
+    },
+    {
+      "original": "Mika Väyrynen",
+      "conv": "zh-hans:米卡·韦于吕宁‎;zh-hk:米卡·華利倫;zh-tw:米卡·韋于呂寧;"
+    },
+    {
+      "original": "Ian Westlake",
+      "conv": "zh-hans:伊安·韦斯特拉克;zh-hk:伊恩·韋斯歷基;zh-tw:伊安·韋斯特拉克;"
+    },
+    {
+      "original": "Curtis Weston",
+      "conv": "zh-hans:却蒂斯·韦斯顿;zh-hk:居迪斯·韋斯頓;zh-tw:卻蒂斯·韋斯頓;"
+    },
+    {
+      "original": "Jonathan Woodgate",
+      "conv": "zh-hans:乔纳森·伍德盖特;zh-hk:莊拿芬·活基治;zh-tw:約拿芬·伍德蓋特;"
+    },
+    {
+      "original": "Jermaine Wright",
+      "conv": "zh-hans:杰梅尼·赖特;zh-hk:謝美利·胡禮;zh-tw:傑梅尼·賴特;"
+    },
+    {
+      "original": "Jonathan Webb",
+      "conv": "zh-hans:乔纳森·韦布;zh-hk:莊拿芬·韋比;zh-tw:約拿芬·韋伯;"
+    },
+    {
+      "original": "Aidan White",
+      "conv": "zh-hans:埃丹·怀特;zh-hk:艾丹·韋治;zh-tw:埃丹·懷特;"
+    },
+    {
+      "original": "Sanchez Watt",
+      "conv": "zh-hans:桑切斯·瓦特;zh-hk:山齊士·華特;zh-tw:桑切斯·瓦特;"
+    },
+    {
+      "original": "Tony Yeboah",
+      "conv": "zh-hans:托尼·耶博阿;zh-hk:東尼·耶保亞;zh-tw:托尼·耶博阿;"
+    }
+  ]
+}

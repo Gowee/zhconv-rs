@@ -1,0 +1,599 @@
+{
+  "name": "Windows",
+  "description": "Microsoft Windows 作業系統",
+  "path": "Module:CGroup/Windows",
+  "rules": [
+    {
+      "original": "Operation System",
+      "conv": "zh-cn:操作系统;zh-tw:作業系統"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:幻灯片;zh-tw:投影片"
+    },
+    {
+      "original": "Uninstall",
+      "conv": "卸载=>zh-tw:移除;"
+    },
+    {
+      "original": "Data Execution Prevention",
+      "conv": "zh-cn:数据执行保护;zh-tw:資料執行防止"
+    },
+    {
+      "original": "Device",
+      "conv": "zh-cn:设备;zh-tw:裝置"
+    },
+    {
+      "original": "Documents",
+      "conv": "文档=>zh-tw:文件"
+    },
+    {
+      "original": "Help",
+      "conv": "zh-cn:帮助;zh-tw:說明"
+    },
+    {
+      "original": "Thumbnails",
+      "conv": "zh-cn:缩略图;zh-tw:預覽縮圖"
+    },
+    {
+      "original": "Log Off",
+      "conv": "zh-cn:注销;zh-tw:登出"
+    },
+    {
+      "original": "Preference",
+      "conv": "属性=>zh-tw:內容; 属性=>zh-hk:內容; 属性=>zh-mo:內容;"
+    },
+    {
+      "original": "Search",
+      "conv": "zh-cn:搜索;zh-tw:搜尋"
+    },
+    {
+      "original": "Refresh",
+      "conv": "zh-cn:刷新;zh-tw:重新整理"
+    },
+    {
+      "original": "Performance",
+      "conv": "zh-cn:性能;zh-tw:效能"
+    },
+    {
+      "original": "Font",
+      "conv": "zh-cn:字体;zh-tw:字型"
+    },
+    {
+      "original": "View",
+      "conv": "zh-cn:查看;zh-tw:檢視"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:自定义;zh-tw:自訂"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:兼容;zh-tw:相容"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:字符;zh-tw:字元"
+    },
+    {
+      "original": "Favorites",
+      "conv": "zh-cn:收藏夹;zh-tw:我的最愛"
+    },
+    {
+      "original": "Byte",
+      "conv": "zh-cn:字节;zh-tw:位元組"
+    },
+    {
+      "original": "Icon",
+      "conv": "zh-cn:图标;zh-tw:圖示"
+    },
+    {
+      "original": "check button",
+      "conv": "zh-cn:复选按钮; zh-tw:核取按鈕;"
+    },
+    {
+      "original": "checkbox",
+      "conv": "zh-cn:复选框; zh-tw:核取方塊;"
+    },
+    {
+      "original": "dialog box",
+      "conv": "zh-cn:对话框; zh-tw:對話方塊;"
+    },
+    {
+      "original": "bitmap",
+      "conv": "zh-cn:位图; zh-tw:點陣圖;"
+    },
+    {
+      "original": "cursor",
+      "conv": "zh-cn:指针; zh-tw:指標;"
+    },
+    {
+      "original": "template",
+      "conv": "zh-cn:模板; zh-tw:範本;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:脚本; zh-tw:指令碼"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:代码; zh-tw:程式碼"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:滚动条; zh-tw:卷軸"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:滚动; zh-tw:捲動"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:源文件;zh-tw:原始檔"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:源代码;zh-tw:原始碼"
+    },
+    {
+      "original": "Creat",
+      "conv": "zh-cn:创建;zh-tw:建立"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:远程;zh-tw:遠端"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:本地;zh-tw:本機"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:部分;zh-tw:部份;zh-hk:部份;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数据执行保护;zh-tw:系統記憶體保護;"
+    },
+    {
+      "original": "Product Key",
+      "conv": "zh-cn:密钥;zh-tw:金鑰"
+    },
+    {
+      "original": "Product Key",
+      "conv": "zh-cn:产品密钥;zh-tw:產品金鑰"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数字版权;zh-tw:數位著作權; zh-hk:數碼版權;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:识别;zh-tw:辨識"
+    },
+    {
+      "original": "dock",
+      "conv": "zh-cn:贴靠;zh-tw:貼齊"
+    },
+    {
+      "original": "user",
+      "conv": "zh-cn:用户; zh-tw:使用者; zh-hk:使用者;"
+    },
+    {
+      "original": "user name",
+      "conv": "zh-cn:用户名; zh-tw:使用者名稱; zh-hk:使用者名稱;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:屏幕;zh-tw:螢幕"
+    },
+    {
+      "original": "Monitor",
+      "conv": "zh-cn:显示器;zh-tw:監視器"
+    },
+    {
+      "original": "Speaker",
+      "conv": "zh-cn:扬声器;zh-tw:喇叭"
+    },
+    {
+      "original": "VGA",
+      "conv": "zh-cn:显示卡;zh-tw:視訊卡"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:高速缓存;zh-tw:快取記憶體"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:物理内存;zh-tw:實體記憶體"
+    },
+    {
+      "original": "Scaner",
+      "conv": "zh-cn:扫描仪;zh-tw:掃描器"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:投影仪;zh-tw:投影機"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:设备环境;zh-tw:裝置環境"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:设备上下文;zh-tw:裝置內容"
+    },
+    {
+      "original": "Taskbar",
+      "conv": "zh-cn:任务栏;zh-tw:工作列"
+    },
+    {
+      "original": "Task view",
+      "conv": "zh-cn:任务视图;zh-tw:工作檢視"
+    },
+    {
+      "original": "Window",
+      "conv": "zh-cn:窗口;zh-tw:視窗"
+    },
+    {
+      "original": "Jump List",
+      "conv": "zh-cn:跳转列表; zh-tw:跳躍清單"
+    },
+    {
+      "original": "Start Menu",
+      "conv": "zh-cn:开始菜单;zh-tw:開始功能表"
+    },
+    {
+      "original": "Theme",
+      "conv": "佈景主題=>zh-cn:主题; 佈景主題=>zh-sg:主题;"
+    },
+    {
+      "original": "DreamScene",
+      "conv": "zh-cn:梦幻桌面;zh-tw:DreamScene"
+    },
+    {
+      "original": "Explorer",
+      "conv": "资源管理器=>zh-tw:檔案總管;"
+    },
+    {
+      "original": "File Explorer",
+      "conv": "文件资源管理器=>zh-tw:檔案總管;"
+    },
+    {
+      "original": "Explorer",
+      "conv": "檔案總管=>zh-cn:资源管理器; 檔案總管=>zh-sg:资源管理器;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:公文包;zh-tw:公事包"
+    },
+    {
+      "original": "Saved Search",
+      "conv": "zh-cn:已保存的搜索;zh-tw:儲存的搜尋"
+    },
+    {
+      "original": "Library",
+      "conv": "zh-cn:库;zh-tw:媒體櫃"
+    },
+    {
+      "original": "Recycle Bin",
+      "conv": "zh-cn:回收站;zh-tw:資源回收筒"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:命令栏;zh-tw:命令列"
+    },
+    {
+      "original": "Menu",
+      "conv": "zh-cn:菜单;zh-tw:清單"
+    },
+    {
+      "original": "Control",
+      "conv": "主控台=>zh-cn:控制台; 主控台=>zh-sg:控制台;"
+    },
+    {
+      "original": "Control Panel",
+      "conv": "控制面板=>zh-tw:控制台"
+    },
+    {
+      "original": "Windows Control Panel",
+      "conv": "zh-cn:Windows控制面板;zh-tw:Windows控制台;zh-hk:Windows控制台"
+    },
+    {
+      "original": "Windows Control Panel",
+      "conv": "zh-cn:Windows 控制面板;zh-tw:Windows 控制台;zh-hk:Windows 控制台"
+    },
+    {
+      "original": "Personalize",
+      "conv": "zh-cn:个性化;zh-tw:個人化"
+    },
+    {
+      "original": "Security Center",
+      "conv": "zh-cn:安全中心;zh-tw:資訊安全中心"
+    },
+    {
+      "original": "Action Center",
+      "conv": "zh-cn:操作中心;zh-tw:重要訊息中心;zh-hk:重要訊息中心"
+    },
+    {
+      "original": "Device Stage",
+      "conv": "zh-cn:Device Stage; zh-tw:裝置舞台"
+    },
+    {
+      "original": "Parental Controls",
+      "conv": "zh-cn:家长控制;zh-tw:家長監護"
+    },
+    {
+      "original": "Easy Access",
+      "conv": "zh-cn:轻松访问;zh-tw:輕鬆存取"
+    },
+    {
+      "original": "Troubleshooting",
+      "conv": "zh-cn:疑难解答;zh-tw:疑難排解"
+    },
+    {
+      "original": "Device Manager",
+      "conv": "zh-cn:设备管理器;zh-tw:裝置管理員"
+    },
+    {
+      "original": "User Account Control",
+      "conv": "zh-cn:用户帐户控制;zh-tw:使用者帳戶控制"
+    },
+    {
+      "original": "Regional and Language Options",
+      "conv": "zh-cn:区域和语言选项;zh-tw:地區及語言選項"
+    },
+    {
+      "original": "Process",
+      "conv": "zh-cn:进程;zh-tw:處理程序"
+    },
+    {
+      "original": "Threads",
+      "conv": "zh-cn:线程;zh-tw:執行緒"
+    },
+    {
+      "original": "Home Group",
+      "conv": "zh-cn:家庭组;zh-tw:家用群組"
+    },
+    {
+      "original": "Registry",
+      "conv": "zh-cn:注册表;zh-hant:登錄檔"
+    },
+    {
+      "original": "Registry Tool",
+      "conv": "zh-cn:注册表编辑器;zh-tw:登錄編輯程式"
+    },
+    {
+      "original": "File System",
+      "conv": "zh-cn:文件系统;zh-tw:檔案系統"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:对象连接与嵌入;zh-tw:物件連結與嵌入"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:字符映射表;zh-tw:字元對應表"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:任务管理器;zh-tw:工作管理員"
+    },
+    {
+      "original": "kernel transaction manager",
+      "conv": "zh-cn:内核事务管理器;zh-tw:核心交易管理員"
+    },
+    {
+      "original": "Task Scheduler",
+      "conv": "zh-cn:计划任务;zh-tw:工作排程器"
+    },
+    {
+      "original": "File Replication Service",
+      "conv": "zh-cn:文件复制服务;zh-tw:檔案複寫服務"
+    },
+    {
+      "original": "security account manager",
+      "conv": "zh-cn:安全帐户管理器;zh-tw:安全性帳戶管理員"
+    },
+    {
+      "original": "group policy",
+      "conv": "zh-cn:组策略;zh-tw:群組原則"
+    },
+    {
+      "original": "Accessories",
+      "conv": "附屬應用程式=>zh-cn:附件; 附屬應用程式=>zh-sg:附件;"
+    },
+    {
+      "original": "Snipping Tool",
+      "conv": "zh-cn:截图工具;zh-tw:剪取工具"
+    },
+    {
+      "original": "Calculator",
+      "conv": "zh-cn:计算器; zh-tw:小算盤"
+    },
+    {
+      "original": "Disk Cleanup",
+      "conv": "zh-cn:磁盘清理; zh-tw:磁碟清理"
+    },
+    {
+      "original": "Disk Defragmenter",
+      "conv": "zh-cn:磁盘碎片整理程序; zh-tw:磁碟重組工具"
+    },
+    {
+      "original": "DVD Maker",
+      "conv": "zh-cn:DVD Maker; zh-tw:DVD 製作程式"
+    },
+    {
+      "original": "Photo Gallery",
+      "conv": "zh-cn:照片库;zh-tw:相片圖庫"
+    },
+    {
+      "original": "Calendar",
+      "conv": "zh-cn:日历;zh-tw:行事曆"
+    },
+    {
+      "original": "WordPad",
+      "conv": "zh-cn:写字板;zh-tw:WordPad"
+    },
+    {
+      "original": "Paint",
+      "conv": "zh-cn:画图;zh-tw:小畫家"
+    },
+    {
+      "original": "Windows Write",
+      "conv": "zh-cn:书写器;zh-tw:小作家"
+    },
+    {
+      "original": "Windows Sidebar",
+      "conv": "zh-cn:边栏;zh-tw:資訊看板"
+    },
+    {
+      "original": "Narrator",
+      "conv": "zh-cn:讲述人;zh-tw:朗讀程式"
+    },
+    {
+      "original": "Windows Photo Viewer",
+      "conv": "zh-cn:Windows照片查看器;zh-tw:Windows相片檢視器;zh-hk:Windows相片檢視器"
+    },
+    {
+      "original": "Windows Speech Recognition",
+      "conv": "zh-cn:语音识别;zh-tw:語音辨識"
+    },
+    {
+      "original": "On-Screen Keyboard",
+      "conv": "zh-cn:屏幕键盘;zh-tw:螢幕小鍵盤"
+    },
+    {
+      "original": "Windows Journey",
+      "conv": "zh-cn:Windows 日记本;zh-tw:Windows 筆記本"
+    },
+    {
+      "original": "Sticky Notes",
+      "conv": "zh-cn:便笺;zh-tw:自黏便箋"
+    },
+    {
+      "original": "Command Prompt",
+      "conv": "zh-cn:命令提示符;zh-tw:命令提示字元"
+    },
+    {
+      "original": "Mobility Center",
+      "conv": "zh-cn:移动中心;zh-tw:行動中心"
+    },
+    {
+      "original": "System Configuration Utility",
+      "conv": "zh-cn:系统配置实用程序;zh-tw:系統設定公用程式"
+    },
+    {
+      "original": "Ease of Access",
+      "conv": "zh-cn:易用性;zh-tw:輕鬆存取"
+    },
+    {
+      "original": "System Configuration",
+      "conv": "zh-cn:系统配置;zh-tw:系統設定"
+    },
+    {
+      "original": "Volume Shadow Copy",
+      "conv": "zh-cn:卷影复制;zh-tw:磁碟區陰影複製;zh-hk:大量陰影複製"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:活动目录; zh-tw:Active Directory"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:空当接龙; zh-tw:新接龍"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:红心大战; zh-tw:傷心小棧"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:墨球; zh-tw:筆跡球"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:扫雷; zh-tw:踩地雷"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:纸牌;zh-tw:接龍"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:蜘蛛纸牌;zh-tw:連環新接龍"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Internet 黑桃王;zh-tw:網際網路西式拱豬"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Internet 跳棋;zh-tw:網際網路西洋棋"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Internet 双陆棋;zh-tw:網際網路西洋骰子棋"
+    },
+    {
+      "original": "Starter Edition",
+      "conv": "zh-cn:入门版; zh-tw:簡易版; zh-hk:入門版"
+    },
+    {
+      "original": "Home Edition",
+      "conv": "zh-cn:家庭版; zh-tw:家用版;"
+    },
+    {
+      "original": "Home Basic",
+      "conv": "zh-cn:家庭普通版; zh-tw:家用入門版;"
+    },
+    {
+      "original": "Home Premium",
+      "conv": "zh-cn:家庭高级版; zh-tw:家用進階版;"
+    },
+    {
+      "original": "Ultimate",
+      "conv": "zh-cn:旗舰版; zh-tw:旗艦版; zh-hk:終極版;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Windows 接口; zh-tw:Windows 介面"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:锁定; zh-tw:釘選"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:任务栏; zh-tw:工作列"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:跳转列表; zh-tw:跳躍功能清單"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工具栏; zh-tw:工具列"
+    },
+    {
+      "original": "Extended Support",
+      "conv": "zh:延伸支持;zh-cn:扩展支持; zh-hant:延伸支援;"
+    },
+    {
+      "original": "apply",
+      "conv": "zh-hans:应用; zh-hant:套用;"
+    },
+    {
+      "original": "tile",
+      "conv": "zh-hans:磁贴; zh-hant:磚;"
+    },
+    {
+      "original": "System Resource Manager",
+      "conv": "zh-cn:系统资源管理器;zh-tw:系統資源管理員"
+    },
+    {
+      "original": "File managers",
+      "conv": "zh-cn:文件管理器;zh-tw:檔案管理員"
+    }
+  ]
+}

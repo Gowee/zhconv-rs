@@ -1,0 +1,335 @@
+{
+  "name": "Mazinger",
+  "description": "-{zh-hans:魔神;zh-hk:鐵甲萬能俠;zh-tw:無敵鐵金剛;}-系列",
+  "path": "Template:CGroup/Mazinger",
+  "rules": [
+    {
+      "original": "マジンガーZ",
+      "conv": "zh-hans:魔神Z;zh-tw:無敵鐵金剛;zh-hk:鐵甲萬能俠;"
+    },
+    {
+      "original": "グレートマジンガー",
+      "conv": "zh-hans:大魔神;zh-tw:金剛大魔神;zh-hk:鐵甲萬能俠2號;"
+    },
+    {
+      "original": "UFOロボ グレンダイザー",
+      "conv": "zh-hans:UFO机器人 古连泰沙;zh-tw:金剛戰神;zh-hk:巨靈神;"
+    },
+    {
+      "original": "マジンカイザー",
+      "conv": "zh:魔神凱撒;zh-hans:魔神凯撒;zh-tw:無敵鐵金剛凱撒;zh-hk:帝皇萬能俠;"
+    },
+    {
+      "original": "真マジンガー 衝撃！Z編",
+      "conv": "zh:真魔神 衝擊！Z篇;zh-hans:真魔神 冲击！Z篇;zh-tw:真無敵鐵金剛 衝擊！Z篇;zh-hk:真鐵甲萬能俠 衝擊！Z編;"
+    },
+    {
+      "original": "真マジンガーZERO",
+      "conv": "zh:真無敵鐵金剛ZERO;zh-hans:真魔神ZERO;zh-tw:真無敵鐵金剛ZERO;zh-hk:真鐵甲萬能俠ZERO;"
+    },
+    {
+      "original": "マジンガーZ / INFINITY",
+      "conv": "zh-hans:魔神Z / INFINITY;zh-tw:無敵鐵金剛 / INFINITY;zh-hk:鐵甲萬能俠：決戰魔神;"
+    },
+    {
+      "original": "ボス",
+      "conv": "zh-hans:波士;zh-tw:阿強;zh-hk:波士;"
+    },
+    {
+      "original": "さやか",
+      "conv": "zh-hans:沙也加;zh-tw:莎也佳;zh-hk:沙也加;"
+    },
+    {
+      "original": "ヌケ",
+      "conv": "zh-hans:努科;zh-tw:小杜;zh-hk:阿拔;"
+    },
+    {
+      "original": "ムチャ",
+      "conv": "zh-hans:穆查;zh-hant:小莫;zh-hk:無茶"
+    },
+    {
+      "original": "せわし",
+      "conv": "zh-hans:塞瓦西;zh-tw:急急;zh-hk:瘦博士;"
+    },
+    {
+      "original": "のっそり",
+      "conv": "zh-hans:诺索利;zh-tw:鈍鈍;zh-hk:矮博士;"
+    },
+    {
+      "original": "もりもり",
+      "conv": "zh-hans:莫里莫利;zh-tw:勁勁;zh-hk:肥博士;"
+    },
+    {
+      "original": "Dr.ヘル",
+      "conv": "zh-cn:地狱博士;zh-tw:赫爾博士;zh-hk:地獄博士;"
+    },
+    {
+      "original": "ローレライ",
+      "conv": "zh-cn:罗蕾莱;zh-tw:羅蕾萊;zh-hk:羅莉拉;"
+    },
+    {
+      "original": "ハインリッヒ",
+      "conv": "zh-cn:海因里希;zh-tw:海因里希;zh-hk:凱恩里希;"
+    },
+    {
+      "original": "ブロッケン伯爵",
+      "conv": "zh-hans:伯罗肯伯爵;zh-tw:伯羅肯伯爵;zh-hk:布羅肯伯爵;"
+    },
+    {
+      "original": "ブロッケン",
+      "conv": "zh-hans:伯罗肯;zh-tw:伯羅肯;zh-hk:布羅肯;"
+    },
+    {
+      "original": "ピグマン子爵",
+      "conv": "zh-cn:彼古曼子爵;zh-tw:彼古曼子爵;zh-hk:匹古曼子爵;"
+    },
+    {
+      "original": "ピグマン",
+      "conv": "zh-cn:彼古曼;zh-tw:彼古曼;zh-hk:匹古曼;"
+    },
+    {
+      "original": "ゴーゴン",
+      "conv": "zh-hans:哥隆;zh-tw:哥隆;zh-hk:戈耳工;"
+    },
+    {
+      "original": "恐星大王ベガ",
+      "conv": "zh-cn:恐星大王贝嘉;zh-tw:恐星大王費加魯;zh-hk:恐星大王比加;"
+    },
+    {
+      "original": "鉄仮面",
+      "conv": "zh-hans:铁假面;zh-tw:鐵面人;zh-hk:鐵面具;"
+    },
+    {
+      "original": "バードス",
+      "conv": "zh-hans:巴多斯;zh-tw:巴特斯;zh-hk:巴多斯;"
+    },
+    {
+      "original": "ミケーネ",
+      "conv": "zh-hans:迈锡尼;zh-tw:邁錫尼;zh-hk:米加尼;"
+    },
+    {
+      "original": "フリード星",
+      "conv": "zh-hans:フリード星;zh-tw:金剛星;zh-hk:杜蕾特星;"
+    },
+    {
+      "original": "ダイザーチーム",
+      "conv": "zh-hans:ダイザーチーム;zh-tw:飛天神機隊;zh-hk:ダイザーチーム;"
+    },
+    {
+      "original": "ベガ",
+      "conv": "zh-cn:贝嘉;zh-tw:費加魯;zh-hk:比加;"
+    },
+    {
+      "original": "ベガ星連合軍",
+      "conv": "zh-hans:贝嘉星连合军;zh-tw:費加星聯軍;zh-hk:比加星聯軍;"
+    },
+    {
+      "original": "スカルムーン",
+      "conv": "zh-hans:Skull Moon;zh-tw:斯卡蒙月球;zh-hk:Skull Moon;"
+    },
+    {
+      "original": "スカルムーン",
+      "conv": "zh-hans:Skull Moon;zh-tw:斯卡蒙;zh-hk:Skull Moon;"
+    },
+    {
+      "original": "ホバーパイルダー",
+      "conv": "zh-hans:Hover Pilder;zh-tw:迴旋指揮艇;zh-hk:朋友號;"
+    },
+    {
+      "original": "ジェットパイルダー",
+      "conv": "zh-hans:Jet Pilder;zh-tw:噴射指揮艇;zh-hk:新朋友號;"
+    },
+    {
+      "original": "ボスボロット",
+      "conv": "zh-hans:波士机器人;zh-tw:阿強一號;zh-hk:大鐵牛;"
+    },
+    {
+      "original": "アフロダイA",
+      "conv": "zh-hans:爱神A;zh-tw:木蘭號;zh-hk:愛美神;"
+    },
+    {
+      "original": "ダイアナンA",
+      "conv": "zh-hans:戴安娜A;zh-tw:木蘭二號;zh-hk:戴安娜A;"
+    },
+    {
+      "original": "ビューナスA",
+      "conv": "zh-hans:維納斯A;zh-hant:新木蘭號;zh-hk:維納斯A;"
+    },
+    {
+      "original": "グレンダイザー",
+      "conv": "zh-hans:古连泰沙;zh-tw:克雷飛天神;zh-hk:巨靈神;"
+    },
+    {
+      "original": "ダブルスペイザー",
+      "conv": "zh-hans:Double Spazer;zh-tw:飛天翼號;zh-hk:雙合體機;"
+    },
+    {
+      "original": "マリンスペイザー",
+      "conv": "zh-hans:Marine Spazer;zh-tw:海天翼號;zh-hk:水中合體機;"
+    },
+    {
+      "original": "ドリルスペイザー",
+      "conv": "zh-hans:Drill Spazer;zh-tw:地龍號;zh-hk:鑽型合體機;"
+    },
+    {
+      "original": "エネルガーZ",
+      "conv": "zh-cn:ENERGER Z;zh-tw:能量鐵金剛Z;zh-hk:萬能鐵俠Z;"
+    },
+    {
+      "original": "マジンガーZERO",
+      "conv": "zh-hans:魔神ZERO;zh-tw:無敵鐵金剛ZERO;zh-hk:鐵甲萬能俠ZERO;"
+    },
+    {
+      "original": "マジンエンペラーG",
+      "conv": "zh-hans:魔神皇帝G;zh-tw:鐵金剛皇帝G; zh-hk:皇帝萬能俠G;"
+    },
+    {
+      "original": "ガミア",
+      "conv": "zh-hans:贾蜜儿;zh-tw:賈蜜兒;zh-hk:嘉美亞;"
+    },
+    {
+      "original": "サルード",
+      "conv": "zh-cn:萨尔德;zh-tw:撒路德;zh-hk:沙魯多;"
+    },
+    {
+      "original": "マジンパワー",
+      "conv": "zh-hans:魔神力量;zh-tw:金剛神力;zh-hk:萬能力量;"
+    },
+    {
+      "original": "マジンガー軍団",
+      "conv": "zh:魔神軍團;zh-hans:魔神军团;zh-tw:無敵鐵金剛軍團;zh-hk:鐵甲萬能俠軍團;"
+    },
+    {
+      "original": "光子力ビーム",
+      "conv": "zh-hans:光子力射线;zh-tw:光子力熱線;zh-hk:光子力射線;"
+    },
+    {
+      "original": "ロケットパンチ",
+      "conv": "zh-hans:火箭飞拳;zh-tw:金剛飛拳;zh-hk:鐵甲飛拳;"
+    },
+    {
+      "original": "アイアンカッター",
+      "conv": "zh-hans:切割飞拳;zh-tw:金剛飛刀;zh-hk:前臂飛刃;"
+    },
+    {
+      "original": "ミサイルパンチ",
+      "conv": "zh-hans:导弹飞拳;zh-tw:金剛飛彈;zh-hk:鐵甲飛彈;"
+    },
+    {
+      "original": "冷凍ビーム",
+      "conv": "zh-hans:冷凍光线;zh-tw:冷凍光線;zh-hk:冰凍光線;"
+    },
+    {
+      "original": "大車輪ロケットパンチ",
+      "conv": "zh-hans:大車輪火箭飞拳;zh-tw:車輪旋轉金剛飛拳;zh-hk:大車輪鐵甲飛拳;"
+    },
+    {
+      "original": "サザンクロスナイフ",
+      "conv": "zh-hans:Southern Cross Knife;zh-tw:金剛飛鏢;zh-hk:萬能飛鏢;"
+    },
+    {
+      "original": "ブレストファイヤー",
+      "conv": "zh-hans:胸部火焰;zh-tw:金剛火焰;zh-hk:高熱火焰;"
+    },
+    {
+      "original": "ビッグバンパンチ",
+      "conv": "zh:大霹靂飛拳;zh-tw:大霹靂飛拳;zh-hk:大爆炸飛拳;"
+    },
+    {
+      "original": "ジェットスクランダー、Jet Scrander",
+      "conv": "zh-hans:喷气飞翼;zh-tw:金剛飛翼;zh-hk:噴射飛翼;"
+    },
+    {
+      "original": "ゴッドスクランダー",
+      "conv": "zh-cn:神之飞翼;zh-tw:金剛神翼;zh-hk:神之飛翼;"
+    },
+    {
+      "original": "アトミックパンチ",
+      "conv": "Atomic Punch=>zh-cn:Atomic Punch;Atomic Punch=>zh-tw:金剛飛拳;Atomic Punch=>zh-hk:鐵甲飛拳;"
+    },
+    {
+      "original": "ドリルプレッシャーパンチ",
+      "conv": "zh-hans:旋钻飞拳;zh-tw:螺旋金剛飛拳;zh-hk:旋轉飛拳;"
+    },
+    {
+      "original": "グレートブースター",
+      "conv": "zh-hans:Great Booster;zh-tw:金剛飛艇;zh-hk:Great Booster;"
+    },
+    {
+      "original": "マジンガーブレード",
+      "conv": "zh-hans:Mazinger Blade;zh-tw:金剛寶劍;zh-hk:萬能寶劍;"
+    },
+    {
+      "original": "グレートタイフーン",
+      "conv": "zh-hans:Great Typhoon;zh-tw:金剛旋風;zh-hk:萬能旋風;"
+    },
+    {
+      "original": "グレートブーメラン",
+      "conv": "zh-hans:Great Boomerang;zh-tw:金剛回力刀;zh-hk:萬能回力刀;"
+    },
+    {
+      "original": "ネーブルミサイル",
+      "conv": "zh-hans:Navel Missile;zh-tw:金剛飛彈;zh-hk:萬能飛彈;"
+    },
+    {
+      "original": "サンダーブレーク",
+      "conv": "zh-hans:Thunder Break;zh-tw:金剛閃電;zh-hk:雷電轟擊;"
+    },
+    {
+      "original": "バックスピンキック",
+      "conv": "zh-hans:Backspin Kick;zh-tw:金剛迴旋踢;zh-hk:Backspin Kick;"
+    },
+    {
+      "original": "ニーインパルスキック",
+      "conv": "zh-hans:Knee Impulse Kick;zh-tw:金剛錐;zh-hk:Knee Impulse Kick;"
+    },
+    {
+      "original": "スクランブルダッシュ",
+      "conv": "zh-hans:Scramble Dash;zh-tw:金剛飛翼;zh-hk:噴射飛翼;"
+    },
+    {
+      "original": "ハンドビーム",
+      "conv": "zh-hans:Hand Beam;zh-tw:金指光束;zh-hk:巨靈掌光線;"
+    },
+    {
+      "original": "ダブルハーケン",
+      "conv": "zh-hans:Double Haken;zh-tw:戰神雙釘;zh-hk:月牙鏟;"
+    },
+    {
+      "original": "スクリュークラッシャーパンチ",
+      "conv": "zh-hans:鋼爪飞拳;zh-tw:螺旋粉碎飛拳;zh-hk:鋼爪飛拳;"
+    },
+    {
+      "original": "カイザーパイルダー",
+      "conv": "zh-hans:凯撒指挥艇;zh-tw:凱撒指揮艇;zh-hk:帝皇號;"
+    },
+    {
+      "original": "カイザーブレード",
+      "conv": "zh-hans:凯撒宝剑;zh-tw:凱撒寶劍;zh-hk:帝皇寶劍;"
+    },
+    {
+      "original": "カイザーノヴァ",
+      "conv": "zh-hans:凯撒新星;zh-tw:凱撒新星;zh-hk:帝皇新星;"
+    },
+    {
+      "original": "カイザースクランダー",
+      "conv": "zh-hans:凯撒飞翼;zh-tw:凱撒飛翼;zh-hk:帝皇飛翼;"
+    },
+    {
+      "original": "グレートスマッシャーパンチ",
+      "conv": "zh-tw:大魔神粉碎飛拳;zh-hk:萬能粉碎飛拳;"
+    },
+    {
+      "original": "グレートブラスター",
+      "conv": "zh-tw:大魔神烈焰;zh-hk:皇帝烈焰;"
+    },
+    {
+      "original": "光子力ミサイル",
+      "conv": "zh-hans:光子力飛彈;zh-tw:木蘭飛彈;zh-hk:愛美神飛彈;"
+    },
+    {
+      "original": "ビューナススクランダー",
+      "conv": "zh-hans:Venus Scrander;zh-tw:木蘭飛翼;zh-hk:Venus Scrander"
+    }
+  ]
+}

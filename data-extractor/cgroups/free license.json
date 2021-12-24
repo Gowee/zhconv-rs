@@ -1,0 +1,95 @@
+{
+  "name": "free license",
+  "description": "自由授權條款和共享授權條款的字詞轉換",
+  "path": "Template:CGroup/free license",
+  "rules": [
+    {
+      "original": "license",
+      "conv": "zh:授權條款;zh-cn:许可协议;zh-tw:授權條款;zh-hk:特許條款;"
+    },
+    {
+      "original": "license",
+      "conv": "许可证=>zh-tw:授權條款;许可证=>zh-hk:特許條款;许可证=>zh-mo:特許條款;"
+    },
+    {
+      "original": "license",
+      "conv": "許可證=>zh-tw:授權條款;許可證=>zh-hk:特許條款;許可證=>zh-mo:特許條款;"
+    },
+    {
+      "original": "public license",
+      "conv": "zh:公眾授權條款;zh-cn:公共许可协议;zh-tw:公眾授權條款;zh-hk:公眾特許條款;"
+    },
+    {
+      "original": "public license",
+      "conv": "公共授權條款=>zh-cn:公共许可协议;公共授權條款=>zh-tw:公眾授權條款;公共授權條款=>zh-hk:公眾特許條款;公共授權條款=>zh-mo:公眾特許條款;"
+    },
+    {
+      "original": "public license",
+      "conv": "公共许可证=>zh-tw:公眾授權條款;公共许可证=>zh-hk:公眾特許條款;公共许可证=>zh-mo:公眾特許條款;"
+    },
+    {
+      "original": "public license",
+      "conv": "公共許可證=>zh-tw:公眾授權條款;公共許可證=>zh-hk:公眾特許條款;公共許可證=>zh-mo:公眾特許條款;"
+    },
+    {
+      "original": "GNU Free Documentation License",
+      "conv": "zh-cn:自由文件许可协议;zh-tw:自由文件授權條款;zh-hk:自由文件特許條款;zh-sg:自由文档许可协议"
+    },
+    {
+      "original": "GNU Lesser General Public License",
+      "conv": "zh-hans:GNU宽通用公共许可证; zh-hant:GNU較寬鬆公共許可證;"
+    },
+    {
+      "original": "GNU Free Documentation License",
+      "conv": "zh:GNU 自由文件授權條款;zh-cn:GNU自由文件许可协议;zh-tw:GNU 自由文件授權條款;zh-hk:GNU 自由文件特許條款;"
+    },
+    {
+      "original": "GNU Free Documentation License",
+      "conv": "自由文档许可证=>zh-tw:自由文件授權條款;自由文档许可证=>zh-hk:自由文件特許條款;自由文档许可证=>zh-mo:自由文件特許條款;"
+    },
+    {
+      "original": "Creative Commons",
+      "conv": "zh:創作共用;zh-cn:知识共享;zh-tw:創用CC;zh-hk:共享創意;"
+    },
+    {
+      "original": "Creative Commons Public License",
+      "conv": "zh:創用CC公眾授權條款;zh-cn:知识共享公共许可协议;zh-tw:創用CC公眾授權條款;zh-hk:共享創意公眾特許條款;"
+    },
+    {
+      "original": "Creative Commons Public License",
+      "conv": "創用 CC 公眾授權條款=>zh-cn:知识共享公共许可协议;創用 CC 公眾授權條款=>zh-tw:創用 CC 公眾授權條款;創用 CC 公眾授權條款=>zh-hk:共享創意公眾特許條款;創用 CC 公眾授權條款=>zh-mo:共享創意公眾特許條款;"
+    },
+    {
+      "original": "Creative Commons Public License",
+      "conv": "創用CC 公眾授權條款=>zh-cn:知识共享公共许可协议;創用CC 公眾授權條款=>zh-tw:創用CC 公眾授權條款;創用CC 公眾授權條款=>zh-hk:共享創意公眾特許條款;創用CC 公眾授權條款=>zh-mo:共享創意公眾特許條款;"
+    },
+    {
+      "original": "Creative Commons Public License",
+      "conv": "創作共用授權條款=>zh-cn:知识共享公共许可协议;創用共用授權條款=>zh-tw:創用CC 公眾授權條款;創用共用授權條款=>zh-hk:共享創意公眾特許條款;創用共用授權條款=>zh-mo:共享創意公眾特許條款;"
+    },
+    {
+      "original": "Free software licenses",
+      "conv": "zh:自由軟體授權;zh-cn:自由软件许可协议;zh-tw:自由軟體授權;zh-hk:自由軟體授權;"
+    },
+    {
+      "original": "Attribution",
+      "conv": "zh-cn:署名; zh-hk:署名; zh-tw:姓名標示; zh-sg:署名;"
+    },
+    {
+      "original": "ShareAlike",
+      "conv": "zh-cn:相同方式共享; zh-hk:相同方式共享; zh-tw:相同方式分享; zh-sg:相同方式共享;"
+    },
+    {
+      "original": "NoDerivs",
+      "conv": "zh-cn:禁止演绎; zh-hk:禁止衍生; zh-tw:禁止改作; zh-cn:禁止演绎;"
+    },
+    {
+      "original": "Localization",
+      "conv": "zh-cn:本地化; zh-tw:在地化; zh-hk:本地化; zh-sg:本地化;"
+    },
+    {
+      "original": "Release",
+      "conv": "zh-cn:发布; zh-tw:釋出;"
+    }
+  ]
+}

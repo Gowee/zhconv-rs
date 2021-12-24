@@ -1,0 +1,35 @@
+{
+  "name": "Die Weiße Rose",
+  "description": "白玫瑰",
+  "path": "Template:CGroup/Die Weiße Rose",
+  "rules": [
+    {
+      "original": "Sophie",
+      "conv": "zh-cn:索菲; zh-tw:蘇菲;"
+    },
+    {
+      "original": "Scholl",
+      "conv": "zh-cn:朔尔; zh-tw:索爾; zh-hk:蕭爾;"
+    },
+    {
+      "original": "Kurt",
+      "conv": "zh-cn:库尔特; zh-tw:庫特;"
+    },
+    {
+      "original": "Huber",
+      "conv": "zh-cn:胡贝尔; zh-tw:胡伯;"
+    },
+    {
+      "original": "Schmorell",
+      "conv": "zh-cn:施莫雷尔; zh-tw:許墨瑞;"
+    },
+    {
+      "original": "Christoph",
+      "conv": "zh-cn:克里斯托夫; zh-tw:克里斯多福;"
+    },
+    {
+      "original": "Probst",
+      "conv": "zh-cn:普罗布斯特; zh-tw:波普斯特;"
+    }
+  ]
+}

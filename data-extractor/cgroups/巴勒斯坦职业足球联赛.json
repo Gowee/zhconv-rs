@@ -1,0 +1,27 @@
+{
+  "name": "巴勒斯坦职业足球联赛",
+  "description": "巴勒斯坦職業足球聯賽",
+  "path": "Template:CGroup/巴勒斯坦职业足球联赛",
+  "rules": [
+    {
+      "original": "Taraji Wadi Al-Nes",
+      "conv": "zh:内斯谷回归; zh-hans:内斯谷回归; zh-cn:内斯谷回归; zh-hk:塔拉治華迪艾尼斯; "
+    },
+    {
+      "original": "Hilal Al-Quds",
+      "conv": "zh:新月圣城; zh-hans:新月圣城; zh-cn:新月圣城; zh-hk:希拉爾基斯; "
+    },
+    {
+      "original": "Shabab Al-Khalil",
+      "conv": "zh:哈利勒沙巴布; zh-hans:哈利勒青年; zh-cn:哈利勒青年; zh-hk:薩巴艾基哈爾; "
+    },
+    {
+      "original": "West Bank Premier League",
+      "conv": "zh:西岸足球超级联赛; zh-hans:西岸足球超级联赛; zh-cn:西岸足球超级联赛; zh-hant:西岸超級足球聯賽; zh-hk:西岸超級足球聯賽; "
+    },
+    {
+      "original": "Palestine Cup",
+      "conv": "zh:巴勒斯坦杯; zh-hans:巴勒斯坦杯; zh-cn:巴勒斯坦杯; zh-hk:巴勒斯坦盃; "
+    }
+  ]
+}

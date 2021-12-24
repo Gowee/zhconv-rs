@@ -1,0 +1,627 @@
+{
+  "name": "星光樂園",
+  "description": "[[星光樂園]]及[[偶像時間星光樂園]]",
+  "path": "Module:CGroup/星光樂園",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:美妙天堂; zh-tw:星光樂園; zh-hk:星光樂園;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:星光歌嗓; zh-tw:星光美聲; zh-hk:星光美聲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:亲卫队; zh-tw:親衛隊; zh-hk:後援會; zh-mo:後援會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:四季公主; zh-tw:四季歌姬; zh-hk:四季公主; zh-mo:四季公主;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:梦幻游行; zh-tw:夢幻遊行; zh-hk:夢幻巡遊; zh-mo:夢幻巡遊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:大奖钟; zh-hant:大獎鐘; zh-tw:魔法鐘; zh-hk:起始魔法鐘; zh-mo:起始魔法鐘;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:眼镜哥集会; zh-tw:眼鏡哥集會; zh-hk:四眼哥哥高峰會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:神之偶像; zh-cn:神级偶像; zh-sg:神级偶像; zh-my: 神级偶像; zh-hant:神級偶像; zh-tw:女神偶像; zh-hk:女神偶像; zh-mo:女神偶像;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:酷炫; zh-tw:酷炫; zh-hk:型格;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:歌姬玩偶; zh-tw:歌姬娃娃; zh-hk:歌姬娃娃;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:经纪人; zh-tw:經紀人; zh-hk:經理人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:荧光变身; zh-tw:螢光幻彩變身; zh-hk:螢光幻彩變身; zh-mo:螢光幻彩變身;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:精灵变身; zh-hant:羽翼脱變; zh-tw:輕快飛舞變身; zh-hk:精靈幻舞變身; zh-mo:精靈幻舞變身;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:荧光羽翼; zh-hant:螢光羽翼; zh-tw:螢光幻彩飄逸; zh-hk:螢光幻彩精靈; zh-mo:螢光幻彩精靈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:黄金羽翼; zh-hant:黃金羽翼; zh-tw:金色幻彩精靈; zh-hk:金色幻彩精靈; zh-mo:金色幻彩精靈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:白金羽翼; zh-tw:白金幻彩精靈; zh-hk:白金幻彩精靈; zh-mo:白金幻彩精靈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:终极羽翼; zh-tw:究極幻彩精靈; zh-hk:終極幻彩精靈; zh-mo:終極幻彩精靈;"
+    },
+    {
+      "original": "",
+      "conv": "zh:星光劵; zh-hans:美妙券; zh-cn:美妙卡; zh-my:美妙卡; zh-sg:美妙卡; zh-hant:星光門票; zh-tw:星光票卡; zh-hk:星光票卡; zh-mo:星光票卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:朋友券; zh-cn:朋友卡; zh-my:朋友卡; zh-sg:朋友卡; zh-hant:朋友門票; zh-tw:同樂卡; zh-hk:同樂卡; zh-mo:同樂卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:美妙手机; zh-tw:星光手機; zh-hk:星光手機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美妙卡包; zh-cn:美妙券包; zh-tw:星光票卡包; zh-hk:星光票卡隨身包; zh-mo:星光票卡隨身包;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:梦幻门票; zh-hant:夢幻門票; zh-tw:夢幻票卡; zh-hk:夢幻票卡; zh-mo:夢幻票卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:荧光魅力符; zh-hant:螢光特點; zh-tw:螢光幻飾; zh-hk:螢光幻飾; zh-mo:螢光幻飾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:Rosette化妆镜; zh-tw:星光徽章粉盒; zh-hk:花飾粉盒; zh-mo:花飾粉盒;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:原宿鎮; zh-cn:天堂宿; zh-my:天堂宿; zh-sg:天堂宿; zh-hant:樂園宿; zh-tw:星元宿; zh-hk:星元宿; zh-mo:星元宿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:帕布莉卡; zh-cn:帕布利卡; zh-my:帕布立卡; zh-sg:帕布立卡; zh-hant:帕普莉卡; zh-tw:帕普莉加; zh-hk:帕普莉加; zh-mo:帕普莉加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:梦幻剧场; zh-hant:夢幻劇場; zh-tw:夢幻劇院; zh-hk:夢幻劇院; zh-mo:夢幻劇院;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴黎美妙天堂; zh-hant:巴黎星光樂園; zh-tw:星巴黎; zh-hk:星巴黎; zh-mo:星巴黎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:纽约美妙天堂; zh-hant:紐約星光樂園; zh-tw:星紐約; zh-hk:星紐約; zh-mo:星紐約;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:美国美妙天堂; zh-hant:美國星光樂園; zh-tw:星美國; zh-hk:星美國; zh-mo:星美國;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:非洲美妙天堂; zh-hant:非洲星光樂園; zh-tw:星非洲; zh-hk:星非洲; zh-mo:星非洲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:大草原; zh-tw:星草原; zh-hk:星草原;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:套装; zh-hant:套裝; zh-tw:造型; zh-hk:造型; zh-mo:造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂大奖赛; zh-tw:樂園大賞; zh-hk:樂園大賞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:天堂造型; zh-cn:天堂套装; zh-sg:天堂套装; zh-my:天堂套装; zh-hant:天堂套裝; zh-tw:樂園造型; zh-hk:樂園造型; zh-mo:樂園造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂舞靴大奖赛; zh-hant:樂園之鞋大獎賽; zh-tw:樂園之鞋大賞; zh-hk:樂園之鞋大賞; zh-mo:樂園之鞋大賞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂冠冕大奖赛; zh-hant:樂園后冠大獎賽; zh-tw:樂園之冠大賞; zh-hk:樂園之冠大賞; zh-mo:樂園之冠大賞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂连身裙大奖赛; zh-hant:樂園連身裙大獎賽; zh-tw:樂園洋裝大賞; zh-hk:樂園洋裝大賞; zh-mo:樂園洋裝大賞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂连身裙; zh-hant:樂園連身裙; zh-tw:樂園洋裝; zh-hk:樂園洋裝; zh-mo:樂園洋裝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂舞靴; zh-hant:樂園長靴; zh-tw:樂園之鞋; zh-hk:樂園之鞋; zh-mo:樂園之鞋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天堂冠冕; zh-hant:樂園后冠; zh-tw:樂園之冠; zh-hk:樂園之冠; zh-mo:樂園之冠;"
+    },
+    {
+      "original": "",
+      "conv": "zh:春之大獎賽; zh-cn:春之大奖赛; zh-hant:春之夢幻大賽; zh-tw:春季夢幻大賽; zh-hk:春季夢幻偶像大賽; zh-mo:春季夢幻偶像大賽;"
+    },
+    {
+      "original": "",
+      "conv": "zh:夏之大獎賽; zh-cn:夏之大奖赛; zh-hant:夏之夢幻大賽; zh-tw:夏季夢幻大賽; zh-hk:夏季夢幻偶像大賽; zh-mo:夏季夢幻偶像大賽;"
+    },
+    {
+      "original": "",
+      "conv": "zh:秋之大獎賽; zh-cn:秋之大奖赛; zh-hant:秋之夢幻大賽; zh-tw:秋季夢幻大賽; zh-hk:秋季夢幻偶像大賽; zh-mo:秋季夢幻偶像大賽;"
+    },
+    {
+      "original": "",
+      "conv": "zh:冬之大獎賽; zh-cn:冬之大奖赛; zh-hant:冬之夢幻大賽; zh-tw:冬季夢幻大賽; zh-hk:冬季夢幻偶像大賽; zh-mo:冬季夢幻偶像大賽;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:荧光套装; zh-tw:螢光幻彩造型; zh-hk:螢光幻彩造型; zh-mo:螢光幻彩造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh:神級大賽; zh-hans:神之大赛; zh-cn:神级大賽; zh-sg:神级大賽; zh-my: 神级大賽; zh-hant:神之大賽; zh-tw:女神大賽; zh-hk:女神大賽; zh-mo:女神大賽;"
+    },
+    {
+      "original": "",
+      "conv": "zh:神級造型; zh-cn:神之装束; zh-hant:神之裝束; zh-tw:女神造型; zh-hk:女神造型; zh-mo:女神造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh:神之禮帽; zh-cn:神之礼帽; zh-hant:女神禮帽; zh-hk:女神禮帽; zh-mo:女神禮帽;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:神之舞裙; zh-hant:女神禮裙; zh-hk:女神禮裙; zh-mo:女神禮裙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:神之舞鞋; zh-hant:女神禮鞋; zh-hk:女神禮鞋; zh-mo:女神禮鞋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:神之上衣; zh-hant:女神禮服; zh-hk:女神禮服; zh-mo:女神禮服;"
+    },
+    {
+      "original": "",
+      "conv": "zh:神之禮服; zh-cn:神之礼服; zh-hant:女神晚禮服; zh-hk:女神晚禮服; zh-mo:女神晚禮服;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:神之高跟鞋; zh-hant:女神高跟鞋; zh-hk:女神高踭鞋; zh-mo:女神高踭鞋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:啦啦; zh-tw:菈菈; zh-hk:菈菈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米蕾; zh-tw:美莉; zh-hk:美莉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:索菲; zh-tw:蘇菲; zh-hk:蘇菲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:李奥纳; zh-cn:莉安娜; zh-tw:雷歐那; zh-hk:雷歐娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:茱香; zh-tw:阿洛瑪; zh-hk:阿洛瑪;"
+    },
+    {
+      "original": "",
+      "conv": "吉兒=>zh-cn:Angel; 吉兒=>zh-sg:Angel; 吉兒=>zh-my:Angel; 吉兒=>zh-hk:Angel; 吉兒=>zh-mo:Angel;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡露露; zh-tw:卡露璐; zh-hk:嘉露璐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡露; zh-tw:卡露; zh-hk:嘉露;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:Garumageddon; zh-hant:gaarumageddon; zh-tw:Gaarmageddon; zh-hk:Gaarmageddon; zh-mo:Gaarmageddon;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:法露露; zh-tw:法露璐; zh-hk:法露璐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:芙羽梨; zh-tw:芙羽璃; zh-hk:芙羽璃;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小卷卷; zh-cn:小转转; zh-tw:小捲捲; zh-hk:捲捲妹;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小魔法; zh-cn:魔法使; zh-tw:小魔法; zh-hk:小法法;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三色旗; zh-cn:Tricolore; zh-my:Tricolore; zh-sg:Tricolore; zh-tw:Tricolore; zh-hk:Tricolore;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:佩帕; zh-hant:佩帕; zh-hk:碧帕; zh-mo:碧帕;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:朱侬; zh-cn:珠音; zh-sg:珠音; zh-my:珠音; zh-tw:真音; zh-hk:真音;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:皮侬; zh-cn:皮音; zh-sg:皮音; zh-my:皮音; zh-tw:美音; zh-hk:美音;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:卡侬; zh-cn:花音; zh-sg:花音; zh-my:花音; zh-tw:佳音; zh-hk:佳音;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:花音俏皮; zh-tw:佳音俏皮; zh-hk:佳佳壞壞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:皮皮; zh-tw:pipi; zh-hk:pipi;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:婭纪美; zh-tw:味美; zh-hk:味美;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:芬奇; zh-tw:文西; zh-hk:文西;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:珠露露; zh-tw:茱露璐; zh-hk:茱露璐;"
+    },
+    {
+      "original": "",
+      "conv": "zh:茱麗; zh-hans:茱莉; zh-cn:朱莉; zh-tw:茱莉; zh-hk:茱莉; zh-mo:茱莉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:佳尼斯; zh-cn:珍妮丝; zh-my:珍妮丝; zh-sg:珍妮丝; zh-hant:珍妮絲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:Beyoncé; zh-tw:星昂絲; zh-hk:星昂絲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:酷瑪; zh-hk:高瑪;"
+    },
+    {
+      "original": "",
+      "conv": "酷瑪=>zh-cn:小熊; 高瑪=>zh-cn:小熊; 酷瑪=>zh-my:小熊; 高瑪=>zh-my:小熊; 酷瑪=>zh-sg:小熊; 高瑪=>zh-sg:小熊;"
+    },
+    {
+      "original": "",
+      "conv": "優妮蔻=>zh-cn:独角兽; 優妮蔻=>zh-my:独角兽; 優妮蔻=>zh-sg:独角兽; "
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:的啾; zh-tw:的啾; zh-hk:dechu;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:小兔; zh-tw:舞沙奇; zh-hk:舞沙奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:猫姐; zh-tw:喵可; zh-hk:妮歌;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:小鸟; zh-hant:小多莉; zh-tw:小多利; zh-hk:多莉子; zh-mo:多莉子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:兔茶; zh-tw:舞沙恰; zh-hk:舞沙查;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:舞恰; zh-tw:舞恰; zh-hk:舞查;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:仓鼠前辈; zh-tw:哈姆前輩; zh-hk:哈姆前輩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:眼镜姐; zh-tw:眼鏡姐; zh-hk:四眼姐姐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:眼镜哥; zh-hant:眼鏡兄; zh-tw:眼鏡哥; zh-hk:四眼哥哥; zh-mo:四眼哥哥;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:酱子; zh-tw:醬子; zh-hk:相子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:格洛丽亚; zh-cn:葛萝丽亚; zh-sg:葛萝丽亚; zh-my:葛萝丽亚; zh-tw:葛蘿麗亞; zh-hk:葛蘿麗亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:爸爸的意大利面; zh-tw:爸爸的義大利麵; zh-hk:爸B的意粉小店;"
+    },
+    {
+      "original": "",
+      "conv": "爸B的薄餅小店=>zh-cn:爸爸的意大利面; 爸B的薄餅小店=>zh-tw:爸爸的義大利麵; 爸B的薄餅小店=>zh-hk:爸B的意粉小店; 爸B的薄餅小店=>zh-mo:爸B的意粉小店; 爸B的薄餅小店=>zh-my:爸爸的意大利面; 爸B的薄餅小店=>zh-sg:爸爸的意大利面;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:普萝利亚; zh-cn:普萝丽亚; zh-my:普萝丽亚; zh-sg:普萝丽亚; zh-hant:普蘿麗亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:Genius; zh-tw:吉尼亞斯; zh-hk:Genius;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:原和香; zh-tw:原悠; zh-hk:原悠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:花娜; zh-tw:花娜娜; zh-hk:花娜娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:露露; zh-tw:露璐; zh-hk:露璐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡吉拉; zh-tw:卡吉拉; zh-hk:嘉斯拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:小莉娜; zh-tw:小莉娜; zh-hk:吸塵機仔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:闪亮研究生; zh-hant:閃亮研究生; zh-tw:亮晶晶研究生; zh-hk:亮晶晶研究生; zh-mo:亮晶晶研究生;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:帕当娜; zh-hant:帕當娜; zh-tw:星當娜; zh-hk:星當娜; zh-mo:星當娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:系統設定; zh-hk:系統規定; zh-mo:系統規定;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:幸濑奈露; zh-tw:幸瀨鳴; zh-hk:幸瀨奈瑠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:男子天堂; zh-hant:男子樂園; zh-tw:男星光; zh-hk:男星樂園; zh-mo:男星樂園;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:时光精灵; zh-cn:时之精灵; zh-my:时之精灵; zh-sg:时之精灵; zh-hant:時之精靈; zh-tw:時間精靈; zh-hk:時間精靈; zh-mo:時間精靈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超级偶像时光; zh-cn:超级偶像时间; zh-my:超级偶像时间; zh-sg:超级偶像时间; zh-tw:超級偶像時間;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:帕帕拉镇; zh-cn:天天堂宿; zh-my:天天堂宿; zh-sg:天天堂宿; zh-hant:啪啪拉宿; zh-tw:啪星元宿; zh-hk:星星元宿; zh-mo:星星元宿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:阿波卡多学园; zh-cn:牛油果学园; zh-my:牛油果学园; zh-sg:牛油果学园; zh-hant:牛油果學園; zh-tw:阿波加特學園; zh-hk:阿波卡特學園; zh-mo:阿波卡特學園;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:富饶维纳斯; zh-cn:Rich Venus; zh-my:Rich Venus; zh-sg:Rich Venus; zh-tw:Rich Venus;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:面乐园; zh-tw:麵樂園; zh-hk:麵類樂園;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:仙台; zh-tw:星台; zh-hk:星仙台;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:高松; zh-tw:星高松; zh-hk:星高松;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:时光发饰; zh-cn:时之头饰; zh-my:时之头饰; zh-sg:时之头饰; zh-hant:時之頭飾; zh-hk:時間頭飾; zh-mo:時間頭飾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:时光舞裙; zh-cn:时之裙子; zh-my:时之裙子; zh-sg:时之裙子; zh-hant:時之裙子; zh-hk:時間裙; zh-mo:時間裙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:时光舞鞋; zh-cn:时之鞋子; zh-my:时之鞋子; zh-sg:时之鞋子; zh-hant:時之鞋子; zh-hk:時間高跟鞋; zh-mo:時間高跟鞋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:时光上衣; zh-cn:时之上衣; zh-my:时之上衣; zh-sg:时之上衣; zh-hant:時之上衣; zh-hk:時間上衣; zh-mo:時間上衣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:晨之套装; zh-hant:晨之造型; zh-hk:早晨造型; zh-mo:早晨造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:午之套装; zh-hant:晝之造型; zh-tw:午之造型; zh-hk:白天造型; zh-mo:白天造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夜之套装; zh-hant:夜之造型; zh-hk:夜晚造型; zh-mo:晚上造型;"
+    },
+    {
+      "original": "",
+      "conv": "zh:仁乃; zh-cn:妮诺; zh-tw:妮諾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:幸多满; zh-cn:幸多满琉; zh-tw:幸多滿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:米奇尔; zh-cn:米切露; zh-tw:米琪露; zh-hk:美芝露"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:切露; zh-tw:琪露; zh-hk:芝露;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:我超棒; zh-tw:我超棒; zh-hk:做到㗎;"
+    },
+    {
+      "original": "",
+      "conv": "我做唔到=>zh-tw:不行;我做唔到=>zh-cn:不行;我做唔到=>zh-sg:不行;我做唔到=>zh-my:不行;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:萩花; zh-cn:秀香; zh-my:秀香; zh-sg:秀香; zh-tw:秀香;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:永恒黄金; zh-cn:EVER GOLD; zh-my:EVER GOLD; zh-sg:EVER GOLD; zh-tw:EVER GOLD;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:·阿·兰姆; zh-cn:·阿·拉姆; zh-sg:·阿·拉姆; zh-my:·阿·拉姆; zh-tw:‧阿‧拉沐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:·斯·丽普; zh-cn:·斯·莉普; zh-my:·斯·莉普; zh-sg:·斯·莉普; zh-tw:‧斯‧莉普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:法啦啦; zh-cn:法拉拉; zh-my:法拉拉; zh-sg:法拉拉; zh-tw:法拉拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:卡啦啦; zh-cn:卡拉拉; zh-my:卡拉拉; zh-sg:卡拉拉; zh-tw:卡拉拉; zh-hk:嘉拉拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夢川唯;  zh-tw:夢川唯; zh-hk:夢川結衣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:小唯; zh-hk:結衣;  zh-tw:小唯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:普尼兽; zh-cn:小独角兽; zh-sg:小独角兽; zh-my:小独角兽; zh-tw:普妮蔻; zh-hk:普妮空;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:丘佩; zh-cn:啾皮; zh-tw:丘佩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:皮茨基; zh-cn:噼噼羊; zh-tw:紫紫洋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:波汪; zh-cn:波万; zh-tw:波汪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:帕库; zh-cn:小貘; zh-my:小貘; zh-sg:小貘; zh-tw:帕庫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:芭芭利亚; zh-cn:巴伐利亚; zh-my:巴伐利亚; zh-sg:巴伐利亚; zh-hant:巴伐利亞; zh-tw:芭芭莉亞; zh-hk:芭芭莉亞; zh-mo:芭芭莉亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:巴巴利欧; zh-cn:巴伐利欧; zh-my:巴伐利欧; zh-sg:巴伐利欧; zh-hant:巴伐利歐; zh-tw:芭芭里奧; zh-hk:芭芭里奧; zh-mo:芭芭里奧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美美子; zh-cn:耳子; zh-my:耳子; zh-sg:耳子; zh-tw:耳子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:塔奇; zh-cn:小炊; zh-tw:塔奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:小岬; zh-tw:小岬; zh-hk:未咲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:眼镜小弟; zh-cn:眼镜男孩; zh-my:眼镜男孩; zh-sg:眼镜男孩; zh-tw:眼鏡男孩; zh-hk:四眼弟弟;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:男子樂園粉絲俱樂部; zh-cn:男子天堂粉丝俱乐部; zh-tw:男普利安俱樂部; zh-hk:男星樂園星迷會; zh-mo:男星樂園星迷會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:烏冬川; zh-tw:烏龍川; zh-hk:烏冬川;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:烏冬面; zh-tw:烏龍麵; zh-hk:烏冬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:踊川; zh-tw:踴川; zh-hk:踊川;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:则夫; zh-tw:則夫; zh-hk:紀夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:照代; zh-tw:照之; zh-hk:照代;"
+    },
+    {
+      "original": "",
+      "conv": "雪男=>zh-hk:雪人;雪男=>zh-mo:雪人;"
+    }
+  ]
+}

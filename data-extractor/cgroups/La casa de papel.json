@@ -1,0 +1,291 @@
+{
+  "name": "La casa de papel",
+  "description": "La casa de papel",
+  "path": "Template:CGroup/La casa de papel",
+  "rules": [
+    {
+      "original": "La casa de papel",
+      "conv": "zh-cn:纸钞屋;zh-sg:纸房子;zh-tw:紙房子; "
+    },
+    {
+      "original": "La casa de papel: El fenómeno",
+      "conv": "zh-cn:纸钞屋：全球热潮;zh-sg:纸房子：全球热潮;zh-tw:紙房子現象; "
+    },
+    {
+      "original": "Silene",
+      "conv": "zh-hans:塞列娜; zh-tw:塞蓮娜; "
+    },
+    {
+      "original": "Oliveira",
+      "conv": "zh-hans:奥利维拉; zh-tw:奧莉維拉; "
+    },
+    {
+      "original": "Sergio",
+      "conv": "zh-hans:塞尔吉奥; zh-tw:賽吉歐; "
+    },
+    {
+      "original": "Marquina",
+      "conv": "zh-hans:马尔奎纳; zh-tw:馬奇納; "
+    },
+    {
+      "original": "Raquel",
+      "conv": "zh-hans:拉克尔; zh-tw:蕾凱兒; "
+    },
+    {
+      "original": "Murillo",
+      "conv": "zh-hans:穆里略; zh-tw:莫里歐; "
+    },
+    {
+      "original": "Andrés de Fonollosa",
+      "conv": "zh-hans:安德烈斯·德弗诺约萨; zh-tw:安卓·佛諾由沙; "
+    },
+    {
+      "original": "Andrés",
+      "conv": "zh-hans:安德烈斯; zh-tw:安卓; "
+    },
+    {
+      "original": "Ágata",
+      "conv": "zh-hans:阿加塔; zh-tw:艾嘉塔; "
+    },
+    {
+      "original": "Aníbal",
+      "conv": "zh-hans:阿尼波尔; zh-tw:阿尼巴爾; "
+    },
+    {
+      "original": "Ricardo",
+      "conv": "zh-hans:里卡尔多; zh-tw:里卡多; "
+    },
+    {
+      "original": "Daniel Ricardo Ramos",
+      "conv": "zh-hans:丹尼尔·拉莫斯; zh-tw:丹尼爾·拉莫; "
+    },
+    {
+      "original": "Gaztambide",
+      "conv": "zh-hans:加斯坦比德; zh-tw:格茲塔比德; "
+    },
+    {
+      "original": "Arturo",
+      "conv": "zh-hans:阿图罗; zh-tw:阿杜洛; "
+    },
+    {
+      "original": "Mirko",
+      "conv": "zh-hans:米尔科; zh-tw:米科; "
+    },
+    {
+      "original": "Dragic",
+      "conv": "zh-hans:德拉希奇; zh-tw:德拉吉; "
+    },
+    {
+      "original": "Julia",
+      "conv": "zh-hans:胡莉亚; zh-tw:胡麗雅; "
+    },
+    {
+      "original": "Juanito",
+      "conv": "zh-hans:小胡安; zh-tw:璜尼托; "
+    },
+    {
+      "original": "Tamayo",
+      "conv": "zh-hans:塔马约; zh-tw:塔馬尤; "
+    },
+    {
+      "original": "Berrote",
+      "conv": "zh-hans:贝罗特; zh-tw:伯洛德; "
+    },
+    {
+      "original": "Sierra",
+      "conv": "zh-hans:西艾拉; zh-tw:席耶拉; "
+    },
+    {
+      "original": "Agustín",
+      "conv": "zh-hans:奥古斯丁; zh-tw:奧古斯汀; "
+    },
+    {
+      "original": "Agustín Ramos",
+      "conv": "zh-hans:奥古斯丁·拉莫斯; zh-tw:奧古斯汀·拉莫; "
+    },
+    {
+      "original": "Mariví",
+      "conv": "zh-hans:马里毕; zh-tw:瑪瑞比; "
+    },
+    {
+      "original": "Radko",
+      "conv": "zh-hans:拉德克; zh-tw:拉可; "
+    },
+    {
+      "original": "Ángel",
+      "conv": "zh-hans:安赫尔; zh-tw:安吉爾; "
+    },
+    {
+      "original": "Prieto",
+      "conv": "zh-hans:普列托; zh-tw:普拉托; "
+    },
+    {
+      "original": "Colmenar",
+      "conv": "zh-hans:科尔梅纳尔; zh-tw:科美納; "
+    },
+    {
+      "original": "Pablo",
+      "conv": "zh-hans:巴勃罗; zh-tw:巴布羅; "
+    },
+    {
+      "original": "Cascales",
+      "conv": "zh-hans:卡斯卡勒斯; zh-tw:卡斯加利斯; "
+    },
+    {
+      "original": "Alberto",
+      "conv": "zh-hans:阿尔伯托; zh-tw:阿爾貝托; "
+    },
+    {
+      "original": "Vicuña",
+      "conv": "zh-hans:维库尼亚; zh-tw:維庫安; "
+    },
+    {
+      "original": "Paula",
+      "conv": "zh-hans:保拉; zh-tw:寶拉; "
+    },
+    {
+      "original": "César",
+      "conv": "zh-hans:塞萨尔; zh-tw:西薩; "
+    },
+    {
+      "original": "Benito",
+      "conv": "zh-hans:贝尼托; zh-tw:班尼多; "
+    },
+    {
+      "original": "Antoñanzas",
+      "conv": "zh-hans:安托尼安萨斯; zh-tw:安東尼安薩斯; "
+    },
+    {
+      "original": "Mario Urbaneja",
+      "conv": "zh-hans:马力欧·乌瓦内哈; zh-tw:馬里歐·伍巴尼赫; "
+    },
+    {
+      "original": "Paquita",
+      "conv": "zh-hans:帕基塔; zh-tw:帕姬塔; "
+    },
+    {
+      "original": "Miguel Fernández Talanilla",
+      "conv": "zh-hans:米格尔·费南德兹·塔拉尼拉; zh-tw:米格·費南德茲·塔拉尼拉; "
+    },
+    {
+      "original": "Benjamín",
+      "conv": "zh-hans:本哈明; zh-tw:班赫明; "
+    },
+    {
+      "original": "Matías",
+      "conv": "zh-hans:马蒂亚斯; zh-tw:馬提亞斯; "
+    },
+    {
+      "original": "Úrsula Corberó",
+      "conv": "zh-hans:乌苏拉·科尔贝罗; zh-tw:烏蘇拉·可貝蘿; "
+    },
+    {
+      "original": "Álvaro Morte",
+      "conv": "zh-hans:阿尔瓦罗·莫特; zh-tw:艾瓦羅·莫特; "
+    },
+    {
+      "original": "Itziar Ituño",
+      "conv": "zh-hans:伊西娅尔·伊图诺; zh-tw:伊特斯爾·伊圖諾; "
+    },
+    {
+      "original": "Pedro Alonso",
+      "conv": "zh-hans:佩德罗·阿隆索; zh-tw:佩德羅·阿隆索; "
+    },
+    {
+      "original": "Alba Flores",
+      "conv": "zh-hans:阿尔芭·弗罗雷斯; zh-tw:艾芭·弗洛雷斯; "
+    },
+    {
+      "original": "Miguel Herrán",
+      "conv": "zh-hans:米盖尔·赫尔南; zh-tw:米蓋爾·赫爾南; "
+    },
+    {
+      "original": "Jaime Lorente",
+      "conv": "zh-hans:海梅·洛伦特; zh-tw:傑米·洛倫特; "
+    },
+    {
+      "original": "Esther Acebo",
+      "conv": "zh-hans:埃丝特尔·阿塞沃; zh-tw:艾絲特·阿賽沃; "
+    },
+    {
+      "original": "Enrique Arce",
+      "conv": "zh-hans:恩里克·阿尔切; zh-tw:恩里克·阿爾塞; "
+    },
+    {
+      "original": "Darko Peric",
+      "conv": "zh-hans:达科·佩里克; zh-tw:達科·皮爾斯; "
+    },
+    {
+      "original": "Hovik Keuchkerian",
+      "conv": "zh-hans:霍威克·库区科利安; zh-tw:霍威克·庫奇科萊恩; "
+    },
+    {
+      "original": "Belén Cuesta",
+      "conv": "zh-hans:贝伦·奎斯塔; zh-tw:貝蓮·奎斯塔; "
+    },
+    {
+      "original": "Fernando Cayo",
+      "conv": "zh-hans:费尔南多·卡约; zh-tw:費南多·卡約; "
+    },
+    {
+      "original": "Rodrigo de la Serna",
+      "conv": "zh-hans:罗德里格·德·拉·塞纳; zh-tw:羅德里戈·戴拉塞納; "
+    },
+    {
+      "original": "Najwa Nimri",
+      "conv": "zh-hans:纳瓦·尼姆利; zh-tw:納瓦·尼姆利; "
+    },
+    {
+      "original": "Paco Tous",
+      "conv": "zh-hans:帕科·图斯; zh-tw:帕可·圖斯; "
+    },
+    {
+      "original": "María Pedraza",
+      "conv": "zh-hans:玛丽亚·佩德拉萨; zh-tw:瑪麗亞·佩卓薩; "
+    },
+    {
+      "original": "Kiti Mánver",
+      "conv": "zh-hans:姬蒂·曼弗; zh-tw:琪蒂·曼維爾; "
+    },
+    {
+      "original": "Nairobi",
+      "conv": "zh-hans:内罗毕; zh-tw:奈洛比; "
+    },
+    {
+      "original": "Palermo",
+      "conv": "zh-hans:巴勒莫; zh-tw:帕勒莫; "
+    },
+    {
+      "original": "Álex Pina",
+      "conv": "zh-hans:亚历克斯·皮纳; zh-tw:艾力克斯·平納; "
+    },
+    {
+      "original": "forensic",
+      "conv": "zh-hans:鉴证; zh-tw:鑑識; zh-hk:法證; "
+    },
+    {
+      "original": "governor",
+      "conv": "zh-hans:行长; zh-tw:總裁; "
+    },
+    {
+      "original": "streaming media",
+      "conv": "zh-hans:流媒体; zh-tw:串流媒體; "
+    },
+    {
+      "original": "Part 1",
+      "conv": "zh-hans:第1部分; zh-tw:第1部; "
+    },
+    {
+      "original": "Part 2",
+      "conv": "zh-hans:第2部分; zh-tw:第2部; "
+    },
+    {
+      "original": "Part 3",
+      "conv": "zh-hans:第3部分; zh-tw:第3部; "
+    },
+    {
+      "original": "Part 4",
+      "conv": "zh-hans:第4部分; zh-tw:第4部; "
+    }
+  ]
+}

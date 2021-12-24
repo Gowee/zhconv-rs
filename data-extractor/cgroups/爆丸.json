@@ -1,0 +1,343 @@
+{
+  "name": "爆丸",
+  "description": "爆丸",
+  "path": "Template:CGroup/爆丸",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:爆丸2大爆破;zh-hk:爆丸2;zh-tw:爆丸2大爆破;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:爆丸3狩猎保卫者;zh-hk:爆丸3;zh-tw:爆丸3狩獵保衛者;"
+    },
+    {
+      "original": "",
+      "conv": "zh:爆丸機械波濤;zh-cn:爆丸机械波涛;zh-hk:爆丸4;zh-tw:爆丸4機械波濤;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:小骏; zh-hk:阿駿; zh-tw:小駿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:傑克;zh-hk:積克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威勒利;zh-hk:法拉利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:法畢爾;zh-hk:法比雅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:席恩;zh-hk:申恩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雷恩;zh-hk:里因;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:克羅拉;zh-hk:古萊拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴力歐帝斯;zh-hk:帕李奧迪斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:史古提亞;zh-hk:史高迪亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:布朗;zh-hk:帕拉煥;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:席德;zh-hk:薛圖;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿凱爾;zh-hk:亞卡爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:塞妮特;zh-hk:贊妮多;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:席羅涅;zh-hk:史郎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:麗娜;zh-hk:列娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:愛希斯;zh-hk:艾瑟斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:懷茲曼;zh-hk:魏斯門;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:艾爾萊特;zh-hk:岳爾拉多;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:暴風獵鷹;zh-hk:機靈獵鷹;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:神聖鬥士;zh-hk:亞爾瑙特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:黑暗公爵;zh-hk:邪狼戰士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:綠風巨人;zh-hk:納克斯綠巨人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巨集蜘蛛;zh-hk:MAC蜘蛛戰士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:黃土樹妖;zh-hk:岩土巨人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:法爾布羅斯;zh-hk:萬暴龍獸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:紫光魔龍;zh-hk:達力金剛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:幻影紫光魔龍;zh-hk:幽靈達力金剛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鎧甲武士;zh-hk:鎧巨人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:魔幻天狗;zh-hk:霸氣鳥人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:殘暴魔王;zh-hk:牛魔戰士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威猛極狼;zh-hk:胡狼獸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:深海魔獸;zh-hk:戰霸蝗;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:礦石巨龍;zh-hk:雷使鬥士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:多頭海蛇;zh-hk:科斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:激速神鷹;zh-hk:神鷹戰士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巨霸魔龍;zh-hk:鑽甲龍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:神威巨人;zh-hk:剛鬥武士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:歌德巨怪;zh-hk:哥德巨怪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雙足飛龍;zh-hk:韋龐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:飛力;zh-hk:費利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:翔光戰將;zh-hk:艾爾超能者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:終極雷射砲;zh-hk:噴射核心;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:究極毀滅砲;zh-hk:爆炎重炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:波浪戰甲;zh-hk:極限炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:音速飛翼;zh-hk:翼神炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:聖光鎖鏈;zh-hk:雷激戰環;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:審判巨鎚;zh-hk:岩石巨炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:黑暗光速砲;zh-hk:米加巨炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:音速加農砲;zh-hk:聲動巨炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:十字光盾劍;zh-hk:十字箭炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:影子飛鏢;zh-hk:影子護盾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鎖鏈鐵球;zh-hk:巨岩重炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:變形宇宙盾;zh-hk:超神盾槍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:藍爪巨砲;zh-hk:雷綻重炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:暴雷雙翼;zh-hk:邪氣核心;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:戰鬥巨鉗;zh-hk:鎧能甲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:魔幻飛翼;zh-hk:戰鬥渦輪機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:魔王鐮刀;zh-hk:蠻斧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威猛光波砲;zh-hk:狼肩重炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:深海巨爪;zh-hk:瘋核炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:礦石多頭龍;zh-hk:龍頭分身;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:波浪鋼爪;zh-hk:重裝盾炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:聖光翔翼;zh-hk:星形盾炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:超神巨龍;zh-hk:剛神巨龍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:薩拉姆骨神;zh-hk:薩拉武骨神;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:世界末日神模式;zh-hk:世界末日模式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:金卡力歐神;zh-hk:金卡力歐合神;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:藍波魔神;zh-hk:空襲藍色使者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:綠風金剛;zh-hk:佐克綠神兵;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:夢幻革命之地;zh-hk:奇異尼波利崇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威星;zh-hk:偉士達;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鋼達星;zh-hk:根達魯迪亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:羅德星;zh-hk:魯天洛迪亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:技能空间;zh-hk:爆丸Inter-Space;zh-tw:爆丸超時空;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:葛德伊芙;zh-hk:密碼夏娃;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:神聖之物奧普;zh-hk:聖潔爆靈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:暗黑爆丸;zh-hk:鋼鐵巨人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:暗黑爆丸毀滅神;zh-hk:鋼鐵巨人毀滅者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:奈諾裝甲;zh-hk:附屬武器;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:爆丸戰車;zh-hk:戰鬥機動車;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:諾雷特;zh-hk:九重魔;"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "name": "MCD",
+  "description": "麥當勞",
+  "path": "Module:CGroup/MCD",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:开心乐园餐;zh-hans:开心乐园餐;zh-hant:快樂兒童餐;zh-hk:開心樂園餐;zh-tw:快樂兒童餐;zh-mo:開心樂園餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh:巨无霸指数;zh-hans:巨无霸指数;zh-hant:麥香堡指數;zh-hk:巨無霸指數;zh-tw:麥香堡指數;zh-mo:巨無霸指數;"
+    },
+    {
+      "original": null,
+      "conv": "zh:巨无霸;zh-hans:巨无霸;zh-hant:大麥克;zh-cn:巨无霸;zh-hk:巨無霸;zh-tw:大麥克;zh-mo:巨無霸;"
+    },
+    {
+      "original": null,
+      "conv": "zh:麦香鱼;zh-hans:麦香鱼;zh-hant:麥香魚;zh-cn:麦香鱼;zh-hk:魚柳包;zh-tw:麥香魚;zh-mo:魚柳包;"
+    },
+    {
+      "original": null,
+      "conv": "zh:芝士汉堡;zh-hans:芝士汉堡;zh-hant:吉事漢堡;zh-cn:吉士汉堡;zh-hk:芝士漢堡;zh-tw:吉士漢堡;zh-mo:芝士漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:双层芝士汉堡;zh-hans:双层芝士汉堡;zh-hk:雙層芝士漢堡;zh-tw:雙層吉事漢堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:麦乐鸡;zh-hans:麦乐鸡;zh-hant:麥克雞塊;zh-hk:麥樂雞;zh-tw:麥香雞塊;zh-mo:麥樂雞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:麦辣鸡翅;zh-hans:麦辣鸡翅;zh-hant:麥脆雞;zh-hk:脆香雞翼;zh-tw:麥脆雞;zh-mo:脆香雞翼;"
+    },
+    {
+      "original": null,
+      "conv": "zh:麦辣鸡腿汉堡;zh-hans:麦辣鸡腿汉堡;zh-hant:勁辣雞腿堡;zh-hk:脆辣雞腿包;zh-tw:勁辣雞腿堡;zh-mo:脆辣雞腿包;"
+    },
+    {
+      "original": null,
+      "conv": "zh:米汉堡;zh-hans:米汉堡;zh-hant:米漢堡;zh-hk:飯tastic;zh-tw:一品燒飯香;zh-mo:飯tastic;"
+    },
+    {
+      "original": null,
+      "conv": "zh:板烧鸡腿堡; zh-hans:板烧鸡腿堡; zh-tw:板烤雞腿堡; zh-hk:板燒雞腿包;"
+    },
+    {
+      "original": null,
+      "conv": "zh:豬肉滿福堡;zh-hans:猪柳汉堡;zh-hk:豬柳漢堡;zh-tw:豬肉滿福堡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:豬肉滿福堡加蛋;zh-hans:猪柳蛋汉堡;zh-hk:豬柳蛋漢堡;zh-tw:豬肉滿福堡加蛋;"
+    },
+    {
+      "original": null,
+      "conv": "zh:培根滿福堡加蛋;zh-hans:烟肉蛋松饼;zh-hk:煙肉蛋漢堡;zh-tw:培根滿福堡加蛋;"
+    },
+    {
+      "original": null,
+      "conv": "zh:蘋果派;zh-hans:苹果派;zh-hk:蘋果批;zh-tw:蘋果派;"
+    },
+    {
+      "original": null,
+      "conv": "zh:红豆派;zh-hans:紅豆派;zh-hk:紅豆批;zh-tw:紅豆派;"
+    },
+    {
+      "original": null,
+      "conv": "zh:芋頭派;zh-hans:香芋派;zh-hk:香芋批;zh-tw:芋頭派;"
+    },
+    {
+      "original": null,
+      "conv": "zh:汽水;zh-hans:汽水;zh-hk:汽水;zh-tw:碳酸飲料;"
+    },
+    {
+      "original": null,
+      "conv": "zh:橙汁;zh-hans:橙汁;zh-hk:橙汁;zh-tw:柳橙汁;"
+    },
+    {
+      "original": null,
+      "conv": "美式热咖啡=>zh-cn:咖啡;美式热咖啡=>zh-my:咖啡;美式热咖啡=>zh-sg:咖啡;美式热咖啡=>zh-hk:咖啡;美式热咖啡=>zh-mo:咖啡;"
+    },
+    {
+      "original": null,
+      "conv": "美式熱咖啡=>zh-cn:咖啡;美式熱咖啡=>zh-my:咖啡;美式熱咖啡=>zh-sg:咖啡;美式熱咖啡=>zh-hk:咖啡;美式熱咖啡=>zh-mo:咖啡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:浓香咖啡;zh-hk:濃香咖啡;zh-tw:義式咖啡;"
+    },
+    {
+      "original": null,
+      "conv": "義式咖啡（卡布奇諾）=>zh-cn:浓香咖啡;義式咖啡（卡布奇諾）=>zh-my:浓香咖啡;義式咖啡（卡布奇諾）=>zh-sg:浓香咖啡;義式咖啡（卡布奇諾）=>zh-hk:濃香咖啡;義式咖啡（卡布奇諾）=>zh-mo:濃香咖啡;"
+    },
+    {
+      "original": null,
+      "conv": "卡布奇諾=>zh-cn:浓香咖啡;卡布奇諾=>zh-my:浓香咖啡;卡布奇諾=>zh-sg:浓香咖啡;卡布奇諾=>zh-hk:濃香咖啡;卡布奇諾=>zh-mo:濃香咖啡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:熱紅茶;zh-hk:奶茶;zh-hans:奶茶;zh-tw:热红茶;"
+    },
+    {
+      "original": null,
+      "conv": "zh:圣代;zh-hans:圣代;zh-hk:新地;zh-tw:聖代;"
+    },
+    {
+      "original": null,
+      "conv": "zh:冰旋风;zh-hans:冰旋风;zh-hk:麥旋風;zh-tw:冰旋風;"
+    },
+    {
+      "original": null,
+      "conv": "zh:早晨全餐;zh-hans:早晨全餐;zh-hk:精選早餐套餐;zh-tw:早晨全餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh:鬆餅; zh-hans:热香饼; zh-tw:鬆餅; zh-hk:熱香餅;"
+    },
+    {
+      "original": null,
+      "conv": "zh:饮料;zh-hans:饮料;zh-hk:飲品;zh-tw:飲料;"
+    },
+    {
+      "original": null,
+      "conv": "zh:超值全餐; zh-hans:超值套餐; zh-tw:超值全餐; zh-hk:超值套餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超码的我; zh-tw:麥胖報告; zh-hk:不瘦降之謎;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:快餐; zh-tw:速食; zh-hk:快餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:意式; zh-hk:意式; zh-tw:義式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:小飞飞; zh-hk:小飛飛; zh-tw:大鳥姐姐;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:滑溜溜; zh-hk:滑嘟嘟; zh-tw:奶昔大哥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沙拉; zh-hk:沙律; zh-tw:沙拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:经典大早餐; zh-hk:精選早晨套餐; zh-tw:經典大早餐;"
+    },
+    {
+      "original": null,
+      "conv": "zh:鷄; zh-hans:鸡; zh-hant:雞;"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "IMF\n",
+  "description": "碟中谍",
+  "path": "Template:CGroup/IMF",
+  "rules": [
+    {
+      "original": "Mission: Impossible",
+      "conv": "zh-hans:碟中谍; zh-hk:職業特工隊; zh-tw:不可能的任務; zh-sg:不可能的任务;"
+    },
+    {
+      "original": "Mission: Impossible – Ghost Protocol",
+      "conv": "zh-cn:碟中谍4; zh-tw:不可能的任務：鬼影行動; zh-hk:職業特工隊：鬼影約章; zh-sg:不可能的任务：鬼影行动;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鬼影約章; zh-tw:鬼影行動; zh-hk:鬼影約章; zh-sg:鬼影行动;"
+    },
+    {
+      "original": "Mission Impossible – Rogue Nation",
+      "conv": "zh-cn:碟中谍5：神秘国度; zh-tw:不可能的任務：失控國度; zh-hk:職業特工隊：叛逆帝國; zh-sg:不可能的任务：失控国度;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:神秘国度; zh-tw:失控國度; zh-hk:叛逆帝國; zh-sg:失控国度;"
+    },
+    {
+      "original": "Mission Impossible – Rogue Nation",
+      "conv": "zh-cn:碟中谍6：全面瓦解; zh-hk:職業特工隊：叛逆之謎; zh-tw:不可能的任務：全面瓦解; zh-sg:不可能的任务：全面瓦解;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:全面瓦解; zh-tw:全面瓦解; zh-hk:叛逆之謎;"
+    },
+    {
+      "original": "Tom Cruise",
+      "conv": "zh-hans:汤姆·克鲁斯;zh-hk:湯·告魯斯;zh-tw:湯姆·克魯斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伊森; zh-tw:伊森; zh-hk:伊頓"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亨特; zh-tw:韓特; zh-sg:杭特"
+    }
+  ]
+}

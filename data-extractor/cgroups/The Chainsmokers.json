@@ -1,0 +1,23 @@
+{
+  "name": "The Chainsmokers",
+  "description": "The Chainsmokers",
+  "path": "Template:CGroup/The Chainsmokers",
+  "rules": [
+    {
+      "original": "The Chainsmokers",
+      "conv": "zh-cn:烟鬼组合; zh-tw:老菸槍雙人組"
+    },
+    {
+      "original": "Collage",
+      "conv": "zh-cn:拼贴; zh-tw:神曲拼貼"
+    },
+    {
+      "original": "All We Know",
+      "conv": "zh-cn:心知肚明;zh-tw:唯一信念"
+    },
+    {
+      "original": "Closer",
+      "conv": "zh-cn:靠近;zh-tw:靠近我"
+    }
+  ]
+}

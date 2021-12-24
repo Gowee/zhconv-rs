@@ -1,0 +1,55 @@
+{
+  "name": "Legend of the Guardians",
+  "description": "-{zh-hans:猫头鹰王国：守卫者传奇;zh-hant:貓頭鷹守護神;zh-cn:猫头鹰王国：守卫者传奇;zh-hk:守護神傳奇;zh-tw:貓頭鷹守護神;}-",
+  "path": "Template:CGroup/Legend of the Guardians",
+  "rules": [
+    {
+      "original": "Legend of the Guardians",
+      "conv": "zh-cn:猫头鹰王国：守卫者传奇;zh-hk:守護神傳奇;zh-tw:貓頭鷹守護神;"
+    },
+    {
+      "original": "Ga'Hoole",
+      "conv": "zh-cn:珈瑚;zh-tw:蓋胡;"
+    },
+    {
+      "original": "Great Ga'Hoole Tree",
+      "conv": "zh-cn:珈瑚巨树;zh-tw:蓋胡神木"
+    },
+    {
+      "original": "St. Aggies",
+      "conv": "zh-cn:圣灵鸮;zh-tw:聖鬼鴞"
+    },
+    {
+      "original": "St. Aegolius Academy of Orphaned Owls",
+      "conv": "zh-cn:圣灵鸮猫头鹰孤儿院;zh-tw:聖鬼鴞學院"
+    },
+    {
+      "original": "Soren",
+      "conv": "zh-cn:赛林;zh-tw:索倫"
+    },
+    {
+      "original": "Kludd",
+      "conv": "zh-cn:昆郎;zh-tw:昆郎"
+    },
+    {
+      "original": "Gylfie",
+      "conv": "zh-cn:吉菲;zh-tw:吉菲"
+    },
+    {
+      "original": "Eglantine",
+      "conv": "zh-cn:伊兰;zh-tw:小薇"
+    },
+    {
+      "original": "Nyra",
+      "conv": "zh-cn:妮拉;zh-tw:奈拉"
+    },
+    {
+      "original": "Grimble",
+      "conv": "zh-cn:格林布尔;zh-tw:孤伶包"
+    },
+    {
+      "original": "",
+      "conv": "zh:中文;zh-cn:简体;zh-hant:繁體;zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:香港;"
+    }
+  ]
+}

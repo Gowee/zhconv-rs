@@ -1,0 +1,71 @@
+{
+  "name": "Selena Gomez",
+  "description": "赛琳娜·戈麦斯",
+  "path": "Template:CGroup/Selena Gomez",
+  "rules": [
+    {
+      "original": "Selena Gomez",
+      "conv": "zh-hans:赛琳娜·戈麦斯; zh-tw:席琳娜·戈梅茲; zh-hk:莎蓮娜·高美絲"
+    },
+    {
+      "original": "Selena Gomez & the Scene",
+      "conv": "zh-hans:赛琳娜·戈麦斯与现场乐队; zh-tw:魔法少女席琳娜"
+    },
+    {
+      "original": "Save The Day",
+      "conv": "zh-cn:让时间停留; zh-tw:讓時光停留"
+    },
+    {
+      "original": "Write Your Name",
+      "conv": "zh-cn:写下你的名字; zh-tw:寫下你的名"
+    },
+    {
+      "original": "For You",
+      "conv": "zh-cn:为你; zh-tw:只有為你"
+    },
+    {
+      "original": "Revival",
+      "conv": "zh-cn:复苏; zh-tw:甦醒"
+    },
+    {
+      "original": "Kill Em with Kindness",
+      "conv": "zh-cn:爱的绝杀; zh-tw:愛的戰場"
+    },
+    {
+      "original": "Hands to Myself",
+      "conv": "zh-cn:爱不释手; zh-tw:撫摸"
+    },
+    {
+      "original": "Same Old Love",
+      "conv": "zh-cn:旧情; zh-tw:揮別舊愛"
+    },
+    {
+      "original": "Me & the Rhythm",
+      "conv": "zh-cn:我和节奏; zh-tw:我與音樂國度"
+    },
+    {
+      "original": "Survivors",
+      "conv": "zh-cn:幸存者; zh-tw:存活"
+    },
+    {
+      "original": "Body Heat",
+      "conv": "zh-cn:身体热度; zh-tw:身體燃燒"
+    },
+    {
+      "original": "Rise",
+      "conv": "zh-cn:上升; zh-tw:再起"
+    },
+    {
+      "original": "Me & My Girls",
+      "conv": "zh-cn:我和姐妹们; zh-tw:女孩們與我"
+    },
+    {
+      "original": "Outta My Hands (LOCO)",
+      "conv": "zh-cn:无法掌控（疯子）; zh-tw:抓不住的你"
+    },
+    {
+      "original": "Cologne",
+      "conv": "zh-cn:古龙香水; zh-tw:香水"
+    }
+  ]
+}

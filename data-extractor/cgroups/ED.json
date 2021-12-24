@@ -1,0 +1,227 @@
+{
+  "name": "ED",
+  "description": "-{zh:英雄傳說; zh-hans:英雄传说; zh-hant:英雄傳說;}-",
+  "path": "Template:CGroup/ED",
+  "rules": [
+    {
+      "original": "英雄伝説",
+      "conv": "zh-hans:英雄传说; zh-hant:英雄傳說"
+    },
+    {
+      "original": "Joshua",
+      "conv": "zh-hans:约修亚; zh-hant:約書亞;"
+    },
+    {
+      "original": "Scherazard",
+      "conv": "zh-hans:雪拉扎德; zh-hant:雪拉紮德;"
+    },
+    {
+      "original": "Olivert",
+      "conv": "zh-hans:奥利维特; zh-hant:奧利巴特;"
+    },
+    {
+      "original": "Drothy",
+      "conv": "zh-hans:朵洛希; zh-hant:桃樂絲;"
+    },
+    {
+      "original": "Klose",
+      "conv": "zh-hans:科洛丝; zh-hant:克蘿賽;"
+    },
+    {
+      "original": "Rinz",
+      "conv": "zh-hans:琳希; zh-hant:琳茲;"
+    },
+    {
+      "original": "Klaudia",
+      "conv": "zh-hans:科洛蒂娅; zh-hant:克蘿蒂雅;"
+    },
+    {
+      "original": "ジーク",
+      "conv": "zh-hans:基库; zh-hant:吉克;"
+    },
+    {
+      "original": "Tita",
+      "conv": "zh-hans:提妲; zh-hant:緹妲;"
+    },
+    {
+      "original": "Zin Vathek",
+      "conv": "zh-hans:金·瓦赛克; zh-hant:陣·瓦賽克;"
+    },
+    {
+      "original": "Richard",
+      "conv": "zh-hans:理查德; zh-hant:理查;"
+    },
+    {
+      "original": "Renne",
+      "conv": "zh-hans:玲; zh-hant:蕾恩;"
+    },
+    {
+      "original": "Lucciola",
+      "conv": "zh-hans:露茜奥拉; zh-hant:露西歐拉;"
+    },
+    {
+      "original": "Walter",
+      "conv": "zh-hans:瓦鲁特; zh-hant:瓦爾特;"
+    },
+    {
+      "original": "Campanella",
+      "conv": "zh-hans:肯帕雷拉; zh-hant:坎佩尼拉;"
+    },
+    {
+      "original": "Karin",
+      "conv": "zh-hans:卡琳; zh-hant:卡玲;"
+    },
+    {
+      "original": "Graham",
+      "conv": "zh-hans:格拉汉姆; zh-hant:格拉漢;"
+    },
+    {
+      "original": "Argent",
+      "conv": "zh-hans:亚尔珍特; zh-hant:亞潔朵;"
+    },
+    {
+      "original": "Lechter",
+      "conv": "zh-hans:雷克特; zh-hant:雷克多;"
+    },
+    {
+      "original": "Leo",
+      "conv": "zh-hans:莱奥; zh-hant:雷歐;"
+    },
+    {
+      "original": "Lorenz",
+      "conv": "zh-hans:罗伦兹; zh-hant:洛連茲;"
+    },
+    {
+      "original": "Lucy",
+      "conv": "zh-hans:露西; zh-hant:露希;"
+    },
+    {
+      "original": "Cecil",
+      "conv": "zh-hans:塞茜尔; zh-hant:塞茜兒;"
+    },
+    {
+      "original": "Zeit",
+      "conv": "zh-hans:蔡特; zh-hant:賽特;"
+    },
+    {
+      "original": "Noël",
+      "conv": "zh-hans:诺艾尔; zh-hant:諾艾兒;"
+    },
+    {
+      "original": "Łazy",
+      "conv": "zh-hans:瓦吉; zh-hant:瓦奇;"
+    },
+    {
+      "original": "Hemisphere",
+      "conv": "zh-hans:赫米斯菲亚; zh-hant:赫密士菲亞;"
+    },
+    {
+      "original": "Marconi",
+      "conv": "zh-hans:马尔克尼; zh-hant:瑪律克尼;"
+    },
+    {
+      "original": "Hartmann",
+      "conv": "zh-hans:哈魯特曼; zh-hant:哈爾特曼;"
+    },
+    {
+      "original": "Grace Lynn",
+      "conv": "zh-hans:格蕾丝·琳; zh-hant:格蕾絲·林;"
+    },
+    {
+      "original": "ヴェンツェル",
+      "conv": "zh-hans:温蔡尔; zh-hant:溫澤爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:帕尔; zh-hant:珀爾"
+    },
+    {
+      "original": "Ilya",
+      "conv": "zh-hans:伊莉娅; zh-hant:伊莉雅;"
+    },
+    {
+      "original": "Michel",
+      "conv": "zh-hans:米歇尔; zh-hant:蜜雪兒;"
+    },
+    {
+      "original": "エオリア",
+      "conv": "zh-hans:艾欧莉娅; zh-hant:艾歐莉雅;"
+    },
+    {
+      "original": "Mariabell",
+      "conv": "zh-hans:玛丽亚贝尔; zh-hant:瑪利亞貝爾;"
+    },
+    {
+      "original": "Hayworth",
+      "conv": "zh-hans:海瓦斯; zh-hant:海瓦茲;"
+    },
+    {
+      "original": "Alex",
+      "conv": "zh-hans:亚历克斯; zh-hant:亞雷克斯;"
+    },
+    {
+      "original": "Arianrhod",
+      "conv": "zh-hans:阿瑞安赫德; zh-hant:雅里安洛德;"
+    },
+    {
+      "original": "Chloe",
+      "conv": "zh-hans:克洛伊; zh-hant:庫洛艾;"
+    },
+    {
+      "original": "Jillian",
+      "conv": "zh-hans:吉莉安; zh-hant:潔莉安;"
+    },
+    {
+      "original": "Sky",
+      "conv": "zh-hans:斯凯; zh-hant:斯凱依;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塞姆利亚大陆; zh-hant:塞姆利亞大陸"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰尼斯王立学院; zh-hant:傑尼絲王立學院"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:玛西亚孤儿院; zh-hant:瑪西亞孤兒院"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:埃雷波尼亚帝国; zh-hant:埃雷波尼亞帝國"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡尔瓦德共和国; zh-hant:卡爾瓦德共和國"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:游击士; zh-hant:遊擊士"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:特别任务支援科; zh-hant:特務支援課"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:搜查一科; zh-hant:搜查一課"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:科长; zh-hant:課長"
+    },
+    {
+      "original": "塩の杭",
+      "conv": "zh-hans:盐之桩; zh-hant:鹽之杭;"
+    },
+    {
+      "original": "レクルスの方石",
+      "conv": "zh-hans:雷克鲁斯方石; zh-hant:雷克爾斯的方石;"
+    },
+    {
+      "original": "Äon System",
+      "conv": "zh-hans:永世系统; zh-hant:永恆系統;"
+    }
+  ]
+}

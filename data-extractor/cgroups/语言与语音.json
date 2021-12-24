@@ -1,0 +1,15 @@
+{
+  "name": "语言与语音",
+  "description": "语言与语音",
+  "path": "Template:CGroup/语言与语音",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:元音;zh-hk:元音;zh-tw:元音"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:辅音;zh-hant:輔音;zh-hk:輔音;zh-tw:輔音"
+    }
+  ]
+}

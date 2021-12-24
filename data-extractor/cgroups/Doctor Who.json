@@ -1,0 +1,103 @@
+{
+  "name": "Doctor Who",
+  "description": "-{zh-tw:超時空奇俠;zh-hk:異世奇人;zh-cn:神秘博士;}-",
+  "path": "Template:CGroup/Doctor Who",
+  "rules": [
+    {
+      "original": "Doctor Who",
+      "conv": "zh-tw:超時空奇俠;zh-hk:異世奇人;zh-cn:神秘博士;"
+    },
+    {
+      "original": "Torchwood",
+      "conv": "zh-cn:火炬木小组;zh-hk:超疑特工;zh-tw:火炬木;"
+    },
+    {
+      "original": "Torchwood",
+      "conv": "火炬木小组=>zh-hk:超疑特工;火炬木小组=>zh-tw:火炬木;"
+    },
+    {
+      "original": "The Sarah Jane Adventures",
+      "conv": "zh-tw:珍媽的星際冒險;zh-hk:珍姐科幻大冒險;zh-cn:莎拉·简大冒险;"
+    },
+    {
+      "original": "S01E03 The Unquiet Dead",
+      "conv": "zh-cn:死不安宁; zh-hk:借屍還魂; zh-tw:死不安寧;"
+    },
+    {
+      "original": "S01E04 Aliens of London",
+      "conv": "zh-cn:伦敦的外星人; zh-hk:撞毀大笨鐘; zh-tw:倫敦的外星人;"
+    },
+    {
+      "original": "S01E06 Dalek",
+      "conv": "zh-cn:戴立克; zh-hk:仇人碰面; zh-tw:宿敵;"
+    },
+    {
+      "original": "S01E07 The Long Game",
+      "conv": "zh-cn:无尽的游戏; zh-hk:第五帝國; zh-tw:人類帝國;"
+    },
+    {
+      "original": "S01E08 Father's Day",
+      "conv": "zh-cn:父亲节; zh-hk:時光倒流; zh-tw:父親節;"
+    },
+    {
+      "original": "S01E09 The Empty Child",
+      "conv": "zh-cn:战地孤雏; zh-hk:戰火孤雛; zh-tw:戰地孤雛;"
+    },
+    {
+      "original": "S01E10 The Doctor Dances",
+      "conv": "zh-cn:博士之舞; zh-hk:母子重聚; zh-tw:博士之舞;"
+    },
+    {
+      "original": "S01E11 Boom Town",
+      "conv": "zh-cn:炸弹城; zh-hk:重生機會; zh-tw:核爆城市"
+    },
+    {
+      "original": "S01E12 Bad Wolf",
+      "conv": "zh-cn:恶狼; zh-hk:玩串真人Show; zh-tw:大野狼;"
+    },
+    {
+      "original": "S01E13 The Parting of the Ways",
+      "conv": "zh-cn:抉择; zh-hk:背水一戰; zh-tw:分道揚鑣;"
+    },
+    {
+      "original": "S01E10 Out Of Time",
+      "conv": "zh-hans:时代错位; zh-hant:隔世情緣;"
+    },
+    {
+      "original": "S01E11 Combat",
+      "conv": "zh-hans:特殊决斗; zh-hant:搏擊會;"
+    },
+    {
+      "original": "S01E12 Captain Jack Harkness",
+      "conv": "zh-hans:杰克上校; zh-hant:英雄的一生;"
+    },
+    {
+      "original": "Jack (Harkness)",
+      "conv": "zh-cn:杰克; zh-tw:傑克; zh-hk:夏積;"
+    },
+    {
+      "original": "Martha Jones",
+      "conv": "zh-cn:玛莎·琼斯; zh-tw:瑪莎·瓊斯; zh-hk:鍾瑪花;"
+    },
+    {
+      "original": "Rose (Tyler)",
+      "conv": "zh-cn:罗斯; zh-tw:蘿絲; zh-hk:羅莎;"
+    },
+    {
+      "original": "Christopher Eccleston",
+      "conv": "zh-hans:克里斯托弗·埃克斯顿;zh-hk:基斯杜化·艾克斯頓;zh-tw:克里斯多福·艾克斯頓;zh-mo:基斯杜化·艾克斯頓;"
+    },
+    {
+      "original": "Matt Smith",
+      "conv": "zh-hans:马特·史密斯;zh-hk:麥·斯密;zh-tw:馬特·史密斯;"
+    },
+    {
+      "original": "Time Lord",
+      "conv": "zh-cn:时间领主; zh-tw:時間管理者; zh-hk:時間領主;"
+    },
+    {
+      "original": "Time Lord",
+      "conv": "zh-cn:法师; zh-tw:大師; zh-hk:法師;"
+    }
+  ]
+}

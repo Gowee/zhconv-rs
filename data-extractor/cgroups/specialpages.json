@@ -1,0 +1,95 @@
+{
+  "name": "specialpages",
+  "description": "特殊頁面群",
+  "path": "Module:CGroup/specialpages",
+  "rules": [
+    {
+      "original": "Maintenance reports",
+      "conv": "zh-hans:维护报告;zh-hant:維護報表"
+    },
+    {
+      "original": "UnconnectedPages",
+      "conv": "zh:未连接至项的页面;zh-hans:未连接至项的页面;zh-hant:頁面未連結至任何項目"
+    },
+    {
+      "original": "UnconnectedPages",
+      "conv": "未链接页面=>zh:未连接至项的页面;未链接页面=>zh-hans:未连接至项的页面;未链接页面=>zh-hant:頁面未連結至任何項目"
+    },
+    {
+      "original": "Lists of pages",
+      "conv": "zh-hans:页面列表;zh-hant:頁面清單"
+    },
+    {
+      "original": "PrefixIndex",
+      "conv": "所有带前缀的页面=>zh:前缀索引;所有带前缀的页面=>zh-hans:前缀索引;所有带前缀的页面=>zh-hant:前缀索引"
+    },
+    {
+      "original": "PrefixIndex",
+      "conv": "按詞頭查詢頁面=>zh:前缀索引;按詞頭查詢頁面=>zh-hans:前缀索引;按詞頭查詢頁面=>zh-hant:前缀索引"
+    },
+    {
+      "original": "GlobalRenameRequest",
+      "conv": "zh:全域用户账户重命名申请;zh-hans:全域用户账户重命名申请;zh-hant:全域使用者帳號重新命名請求"
+    },
+    {
+      "original": "GlobalRenameRequest",
+      "conv": "全域重命名申请=>zh:全域用户账户重命名申请;全域重命名申请=>zh-hans:全域用户账户重命名申请;全域重命名申请=>zh-hant:全域使用者帳號重新命名請求"
+    },
+    {
+      "original": "CreateAccount",
+      "conv": "zh:创建账户;zh-hans:创建账户;zh-hant:建立帳號"
+    },
+    {
+      "original": "UserLogin",
+      "conv": "zh:登录;zh-hans:登录;zh-hant:登入"
+    },
+    {
+      "original": "MergeAccount",
+      "conv": "zh:统一登录状态;zh-hans:统一登录状态;zh-hant:帳號整合狀態"
+    },
+    {
+      "original": "MergeAccount",
+      "conv": "合并账户=>zh:统一登录状态;合并账户=>zh-hans:统一登录状态;合并账户=>zh-hant:帳號整合狀態"
+    },
+    {
+      "original": "Emai",
+      "conv": "zh:电子邮箱;zh-hans:电子邮箱;zh-hant:電子郵件"
+    },
+    {
+      "original": "Preferences",
+      "conv": "zh:参数设置;zh-hans:参数设置;zh-hant:偏好設定"
+    },
+    {
+      "original": "Preferences",
+      "conv": "參數設置=>zh-hans:参数设置;參數設置=>zh-hant:偏好設定"
+    },
+    {
+      "original": "RecentChanges",
+      "conv": "zh-hans:最近更改;zh-hant:近期變更"
+    },
+    {
+      "original": "file",
+      "conv": "zh-hans:文件; zh-hant:檔案;"
+    },
+    {
+      "original": "file",
+      "conv": "档案=>zh-hans:文件;"
+    },
+    {
+      "original": "link",
+      "conv": "zh-hans:链接;zh-hant:連結"
+    },
+    {
+      "original": "link",
+      "conv": "鏈接=>zh-hans:链接;鏈接=>zh-hant:連結"
+    },
+    {
+      "original": "redirect",
+      "conv": "zh-hans:重定向;zh-hant:重新導向;"
+    },
+    {
+      "original": "user",
+      "conv": "zh-hans:用户;zh-hant:用戶;zh-tw:使用者;"
+    }
+  ]
+}

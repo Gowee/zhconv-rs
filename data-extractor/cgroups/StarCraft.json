@@ -1,0 +1,319 @@
+{
+  "name": "StarCraft",
+  "description": "星際爭霸",
+  "path": "Template:CGroup/StarCraft",
+  "rules": [
+    {
+      "original": "StarCraft",
+      "conv": "zh-cn:星际争霸;zh-hk:星海爭霸;zh-tw:星海爭霸;"
+    },
+    {
+      "original": "Brood War",
+      "conv": "zh-cn:母巢之战; zh-hk:怒火燎原; zh-tw:怒火燎原;"
+    },
+    {
+      "original": "Heart of the Swarm",
+      "conv": "zh-cn:虫群之心; zh-tw:蟲族之心;"
+    },
+    {
+      "original": "StarCraft: Ghost",
+      "conv": "zh-cn:星际争霸：幽灵; zh-tw:星海爭霸：暗影獵殺;"
+    },
+    {
+      "original": "StarCraft: Remastered",
+      "conv": "zh-cn:星际争霸：重制版; zh-tw:星海爭霸：高畫質重製版;"
+    },
+    {
+      "original": "Nova Covert Ops",
+      "conv": "zh-cn:诺娃隐秘行动; zh-tw:諾娃特務密令;"
+    },
+    {
+      "original": "Koprulu",
+      "conv": "zh-cn:科普卢星区;zh-tw:克普魯星區;"
+    },
+    {
+      "original": "Dominion",
+      "conv": "zh-cn:帝国;zh-tw:自治聯盟;"
+    },
+    {
+      "original": "Kel-Morian",
+      "conv": "zh-cn:凯莫瑞安;zh-tw:凱爾莫瑞亞;"
+    },
+    {
+      "original": "Combine",
+      "conv": "zh-cn:联合体;zh-tw:集團;"
+    },
+    {
+      "original": "Umojan",
+      "conv": "zh-cn:尤摩扬;zh-tw:尤摩捷;"
+    },
+    {
+      "original": "Protectorate",
+      "conv": "zh-cn:护国军;zh-tw:護衛隊;"
+    },
+    {
+      "original": "Raiders",
+      "conv": "zh-cn:游骑兵;zh-tw:突擊隊;"
+    },
+    {
+      "original": "The Guild Wars",
+      "conv": "zh-cn:凯联战争;zh-tw:政權戰爭;"
+    },
+    {
+      "original": "Terran",
+      "conv": "zh-cn:人类; zh-tw:人類;"
+    },
+    {
+      "original": "Zerg",
+      "conv": "zh-cn:异虫; zh-tw:蟲族;"
+    },
+    {
+      "original": "Protoss",
+      "conv": "zh-cn:星灵; zh-tw:神族;"
+    },
+    {
+      "original": "Xel'Naga",
+      "conv": "zh-cn:萨尔纳加; zh-tw:薩爾納加;"
+    },
+    {
+      "original": "Drone",
+      "conv": "zh-cn:工蜂; zh-tw:工蟲;"
+    },
+    {
+      "original": "Lurker",
+      "conv": "zh-cn:潜伏者; zh-tw:遁地獸;"
+    },
+    {
+      "original": "Mutalisk",
+      "conv": "zh-cn:异龙; zh-tw:飛螳;"
+    },
+    {
+      "original": "Devourer",
+      "conv": "zh-cn:吞噬者; zh-tw:吞噬獸;"
+    },
+    {
+      "original": "Overlord",
+      "conv": "zh-cn:宿主; zh-tw:王蟲;"
+    },
+    {
+      "original": "Queen",
+      "conv": "zh-cn:虫后; zh-tw:后蟲;"
+    },
+    {
+      "original": "Defiler",
+      "conv": "zh-cn:蝎虫; zh-tw:破壞蠍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:混合体; zh-tw:混源體;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:精华; zh-tw:原質;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:虛空輝光艦; zh-tw:虛空艦;"
+    },
+    {
+      "original": "Hyperion",
+      "conv": "zh-cn:休伯利安号; zh-tw:海伯利昂號;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亚历山大号; zh-tw:亞歷克桑德號;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:末日巨兽; zh-tw:雷神獸;"
+    },
+    {
+      "original": "Lair",
+      "conv": "zh-cn:兽穴; zh-tw:蟲穴;"
+    },
+    {
+      "original": "Hive",
+      "conv": "zh-cn:蜂巢; zh-tw:蟲巢;"
+    },
+    {
+      "original": "Sunken Colony",
+      "conv": "zh-cn:舌刺地堡; zh-tw:地刺殖穴;"
+    },
+    {
+      "original": "Spore Colony",
+      "conv": "zh-cn:防空塔; zh-tw:孢子殖穴;"
+    },
+    {
+      "original": "Spawning Pool",
+      "conv": "zh-cn:血池; zh-tw:孵化池;"
+    },
+    {
+      "original": "Evolution Chamber",
+      "conv": "zh-cn:进化腔; zh-tw:進化室;"
+    },
+    {
+      "original": "Greater Spire",
+      "conv": "zh-cn:大龙塔; zh-tw:巨型螺旋塔;"
+    },
+    {
+      "original": "Spire",
+      "conv": "zh-cn:飞龙塔; zh-tw:螺旋塔;"
+    },
+    {
+      "original": "Kerrigan",
+      "conv": "zh-cn:凯瑞甘; zh-tw:凱莉根;"
+    },
+    {
+      "original": "Queen of Blades",
+      "conv": "zh-cn:刀锋女王; zh-tw:刀鋒女皇;"
+    },
+    {
+      "original": "Arcturus",
+      "conv": "zh-cn:阿克图尔斯; zh-tw:阿克圖洛斯;"
+    },
+    {
+      "original": "Valerian",
+      "conv": "zh-cn:瓦伦里安; zh-tw:維勒安;"
+    },
+    {
+      "original": "Izsha",
+      "conv": "zh-cn:伊兹莎; zh-tw:伊茲夏;"
+    },
+    {
+      "original": "Zagara",
+      "conv": "zh-cn:扎加拉; zh-tw:札迦拉;"
+    },
+    {
+      "original": "Matt",
+      "conv": "zh-cn:马特; zh-tw:麥特;"
+    },
+    {
+      "original": "Horace",
+      "conv": "zh-cn:霍瑞斯; zh-tw:賀萊士;"
+    },
+    {
+      "original": "Warfield",
+      "conv": "zh-cn:沃菲尔德; zh-tw:沃菲爾;"
+    },
+    {
+      "original": "Tychus",
+      "conv": "zh-cn:泰凯斯; zh-tw:泰科斯;"
+    },
+    {
+      "original": "Rory",
+      "conv": "zh-cn:罗瑞; zh-tw:羅利;"
+    },
+    {
+      "original": "Swann",
+      "conv": "zh-cn:斯旺; zh-tw:史汪;"
+    },
+    {
+      "original": "Tychus",
+      "conv": "zh-cn:泰凯斯; zh-tw:泰科斯;"
+    },
+    {
+      "original": "Ariel",
+      "conv": "zh-cn:艾蕊尔; zh-tw:艾瑞兒;"
+    },
+    {
+      "original": "Hanson",
+      "conv": "zh-cn:汉森; zh-tw:韓森;"
+    },
+    {
+      "original": "Alexei",
+      "conv": "zh-cn:阿列克谢; zh-tw:艾力克希;"
+    },
+    {
+      "original": "Stukov",
+      "conv": "zh-cn:斯托科夫; zh-tw:斯杜科夫;"
+    },
+    {
+      "original": "Zurvan",
+      "conv": "zh-cn:祖尔宛; zh-tw:祖爾文;"
+    },
+    {
+      "original": "Artanis",
+      "conv": "zh-cn:阿塔尼斯; zh-tw:亞坦尼斯;"
+    },
+    {
+      "original": "Selendis",
+      "conv": "zh-cn:瑟兰迪斯; zh-tw:席倫蒂絲;"
+    },
+    {
+      "original": "Vorazun",
+      "conv": "zh-cn:沃拉尊; zh-tw:芙菈森;"
+    },
+    {
+      "original": "Kaldalis",
+      "conv": "zh-cn:塔达力斯; zh-tw:卡達力斯;"
+    },
+    {
+      "original": "Alarak",
+      "conv": "zh-cn:阿拉纳克; zh-tw:亞拉瑞克;"
+    },
+    {
+      "original": "Tal'Darim",
+      "conv": "zh-cn:塔达林; zh-tw:塔達力姆;"
+    },
+    {
+      "original": "Karax",
+      "conv": "zh-cn:凯拉克斯; zh-tw:凱拉克;"
+    },
+    {
+      "original": "Amon",
+      "conv": "zh-cn:埃蒙; zh-tw:亞蒙;"
+    },
+    {
+      "original": "Narud",
+      "conv": "zh-cn:纳鲁德; zh-tw:那魯;"
+    },
+    {
+      "original": "Gabriel",
+      "conv": "zh-cn:加布里埃尔; zh-tw:蓋布瑞;"
+    },
+    {
+      "original": "Tosh",
+      "conv": "zh-cn:托什; zh-tw:托許;"
+    },
+    {
+      "original": "Egon",
+      "conv": "zh-cn:艾格; zh-tw:伊崗;"
+    },
+    {
+      "original": "Stetmann",
+      "conv": "zh-cn:斯台特曼; zh-tw:斯特曼;"
+    },
+    {
+      "original": "Milo",
+      "conv": "zh-cn:米罗; zh-tw:麥洛;"
+    },
+    {
+      "original": "Kachinsky",
+      "conv": "zh-cn:卡琴斯基; zh-tw:卡臣斯基;"
+    },
+    {
+      "original": "Graven",
+      "conv": "zh-cn:格莱文; zh-tw:葛拉文;"
+    },
+    {
+      "original": "Braxis",
+      "conv": "zh-cn:布莱克西斯; zh-tw:布萊西斯;"
+    },
+    {
+      "original": "Kaldir",
+      "conv": "zh-cn:卡亚迪尔; zh-tw:卡迪爾;"
+    },
+    {
+      "original": "Mar Sara",
+      "conv": "zh-cn:玛·萨拉; zh-tw:瑪而‧薩拉;"
+    },
+    {
+      "original": "New Folsom",
+      "conv": "zh-cn:新福尔松; zh-tw:紐佛森;"
+    },
+    {
+      "original": "Shiloh",
+      "conv": "zh-cn:塞罗; zh-tw:希羅;"
+    }
+  ]
+}

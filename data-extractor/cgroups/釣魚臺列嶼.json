@@ -1,0 +1,31 @@
+{
+  "name": "釣魚臺列嶼",
+  "description": "Diaoyu_Islands",
+  "path": "Template:CGroup/釣魚臺列嶼",
+  "rules": [
+    {
+      "original": "diaoyu_island",
+      "conv": "zh-cn:钓鱼岛; zh-tw:釣魚臺; zh-hk:釣魚台; zh-sg:钓鱼岛;"
+    },
+    {
+      "original": "diaoyu_islands",
+      "conv": "zh-cn:钓鱼岛及其附属岛屿; zh-tw:釣魚臺列嶼; zh-hk:釣魚台及其附屬島嶼; zh-sg:钓鱼岛及其附属岛屿; zh-hant:釣魚台列嶼; zh-mo:釣魚台及其附屬島嶼;"
+    },
+    {
+      "original": "diaoyu_bei",
+      "conv": "zh-cn:北屿; zh-tw:沖北岩; zh-hk:北嶼;"
+    },
+    {
+      "original": "diaoyu_nan",
+      "conv": "zh-cn:南屿; zh-tw:沖南岩; zh-hk:南嶼;"
+    },
+    {
+      "original": "diaoyu_fei",
+      "conv": "zh-cn:飞屿; zh-tw:飛瀨; zh-hk:飛嶼;"
+    },
+    {
+      "original": "Continental_shelf",
+      "conv": "zh-cn:大陆架; zh-hk:大陸架; zh-tw:大陸棚; zh-my:大陆棚;"
+    }
+  ]
+}

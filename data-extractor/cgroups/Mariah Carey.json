@@ -1,0 +1,35 @@
+{
+  "name": "Mariah Carey",
+  "description": "Mariah Carey",
+  "path": "Template:CGroup/Mariah Carey",
+  "rules": [
+    {
+      "original": "All I Want for Christmas Is You",
+      "conv": "zh-cn:要的就是你;zh-tw:你是我最想要的聖誕禮物"
+    },
+    {
+      "original": "E=MC²",
+      "conv": "zh-cn:爱的相对论;zh-tw:蝴蝶效應"
+    },
+    {
+      "original": "The Emancipation of Mimi",
+      "conv": "zh-cn:我心无羁;zh-tw:天后再臨-解放咪咪"
+    },
+    {
+      "original": "Me. I Am Mariah... The Elusive Chanteuse",
+      "conv": "zh-cn:真我·心声;zh-tw:聽我...歌情萬種"
+    },
+    {
+      "original": "Merry Christmas",
+      "conv": "zh-cn:圣诞快乐;zh-tw:祝福"
+    },
+    {
+      "original": "Merry Christmas II You",
+      "conv": "zh-cn:祝福之歌;zh-tw:祝你聖誕快樂"
+    },
+    {
+      "original": "#1 to Infinity",
+      "conv": "zh-cn:星光无限;zh-tw:真愛永恆"
+    }
+  ]
+}

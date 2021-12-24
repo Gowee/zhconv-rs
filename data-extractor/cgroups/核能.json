@@ -1,0 +1,95 @@
+{
+  "name": "核能",
+  "description": "核能",
+  "path": "Template:CGroup/核能",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-cn:堆芯; zh-hk:爐心; zh-tw:爐心;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:希沃特; zh-hk:希沃特; zh-tw:西弗;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:戈瑞; zh-hk:戈瑞; zh-tw:戈雷; zh-mo:格雷; "
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:钚; zh-hk:鈈; zh-tw:鈽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:兆瓦; zh-hk:兆瓦; zh-tw:百萬瓦;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:切尔诺贝利; zh-hk:切爾諾貝爾; zh-tw:車諾比;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:核动力; zh-tw:核子動力; zh-hk:核動力;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:裂变;zh-tw:分裂;zh-hk:裂變;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:聚变;zh-tw:融合;zh-hk:聚變;"
+    },
+    {
+      "original": null,
+      "conv": "zh:核電所; zh-cn:核电站;zh-hant:核電站;zh-hk:核電廠;zh-tw:核電廠;zh-mo:核電站;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:核能发电站;zh-hant:核能發電站;zh-hk:核能發電廠;zh-tw:核能發電廠;zh-mo:核能發電站;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乏核燃料; zh-hk:乏核燃料; zh-tw:用過核燃料;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乏燃料; zh-hk:乏燃料; zh-tw:用過燃料;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:压力容器; zh-hk:壓力槽; zh-tw:壓力槽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:压力控制池; zh-hk:壓力抑制槽; zh-tw:壓力抑制槽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:丰度; zh-tw:豐度;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:反應爐;zh-cn:反应堆;zh-hk:反應堆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:核反应堆;zh-tw:核子反應爐;zh-hk:核反應堆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:三哩岛核泄漏事故; zh-tw:三哩島事件;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:辐射; zh-tw:放射線;zh-hk:輻射"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:世界核协会; zh-tw:世界核能協會;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:国际原子能机构; zh-tw:國際原子能總署; zh-hk:國際原子能總署;"
+    }
+  ]
+}

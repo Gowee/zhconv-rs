@@ -1,0 +1,31 @@
+{
+  "name": "Pinnacle Islands",
+  "description": "-{zh-cn:钓鱼岛;zh-tw:釣魚臺;zh-hk:釣魚台;}-",
+  "path": "Module:CGroup/Pinnacle Islands",
+  "rules": [
+    {
+      "original": "Tiaoyutai/Diaoyutai/Diaoyu Dao",
+      "conv": "zh-cn:钓鱼岛;zh-tw:釣魚臺;zh-hk:釣魚台;"
+    },
+    {
+      "original": "Pinnacle Islands",
+      "conv": "zh-cn:钓鱼岛及其附属岛屿;zh-tw:釣魚臺列嶼;zh-hk:釣魚台及其附屬島嶼;"
+    },
+    {
+      "original": "Pinnacle Islands",
+      "conv": "zh:釣魚台列嶼;zh-cn:钓鱼岛及其附属岛屿;zh-tw:釣魚臺列嶼;zh-hk:釣魚台及其附屬島嶼;"
+    },
+    {
+      "original": "Chongbeiyan/Bei Yu",
+      "conv": "zh-cn:北屿;zh-tw:沖北岩;zh-hk:北嶼;"
+    },
+    {
+      "original": "Chongnanyan/Nan Yu",
+      "conv": "zh-cn:南屿;zh-tw:沖南岩;zh-hk:南嶼;"
+    },
+    {
+      "original": "Tobise/Feilai/Fei Yu",
+      "conv": "zh-cn:飞屿;zh-tw:飛瀨;zh-hk:飛嶼;"
+    }
+  ]
+}

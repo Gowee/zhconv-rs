@@ -1,0 +1,19 @@
+{
+  "name": "Signpost",
+  "description": "-{zh-hant:維基短訊; zh-hans:维基短讯}-",
+  "path": "Template:CGroup/Signpost",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:简讯;zh-hant:簡訊"
+    },
+    {
+      "original": null,
+      "conv": "試版"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:发布;zh-hant:出版"
+    }
+  ]
+}

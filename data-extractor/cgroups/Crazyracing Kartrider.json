@@ -1,0 +1,739 @@
+{
+  "name": "Crazyracing Kartrider",
+  "description": "跑跑卡丁车",
+  "path": "Template:CGroup/Crazyracing Kartrider",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-cn:组队竞速赛;zh-tw:團體競速賽"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:组队道具赛;zh-tw:團體道具賽"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:组队夺旗赛;zh-tw:團體奪旗賽"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:组队赛;zh-tw:團體賽"
+    },
+    {
+      "original": "Battle Mode",
+      "conv": "zh-cn:挑战赛模式;zh-tw:激鬥模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:故事模式;zh-tw:劇場模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Story Mode;zh-tw:Theater Mode;"
+    },
+    {
+      "original": "Dead Racing Mode",
+      "conv": "zh-cn:冠军赛模式;zh-tw:冠軍模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:极速方程模式;zh-tw:方程式模式"
+    },
+    {
+      "original": "Battle Mode",
+      "conv": "zh-cn:勇者赛模式;zh-tw:死鬥模式;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:RP赛模式;zh-tw:命運箱模式"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:Lucky Mode;zh-hk:Lucky Mode;zh-cn:Random Point Mode"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Fever系统;zh-tw:暴走系統（Fever）"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:BOSS战模式;zh-tw:魔王模式"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:车手学校;zh-tw:騎士學園"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工厂车间;zh-tw:加工廠"
+    },
+    {
+      "original": "Dao",
+      "conv": "zh-cn:皮蛋;zh-tw:藍寶;"
+    },
+    {
+      "original": "Bazzi",
+      "conv": "zh-cn:宝宝;zh-tw:睏寶;"
+    },
+    {
+      "original": "Uni",
+      "conv": "zh-cn:小乖;zh-tw:囡囡;"
+    },
+    {
+      "original": "Dizni",
+      "conv": "zh-cn:黑妞;zh-tw:痞子妹;"
+    },
+    {
+      "original": "Mos",
+      "conv": "zh-cn:小强;zh-tw:工頭;"
+    },
+    {
+      "original": "Marid",
+      "conv": "zh-cn:蓝蓝;zh-tw:小蜜桃;"
+    },
+    {
+      "original": "Ethi",
+      "conv": "zh-cn:葱头;zh-tw:栗子;"
+    },
+    {
+      "original": "Kephi",
+      "conv": "zh-cn:胖墩;zh-tw:ㄚ肥;"
+    },
+    {
+      "original": "Dr.Revaski",
+      "conv": "zh-cn:Q博士;zh-tw:假面博士;"
+    },
+    {
+      "original": "Brodi",
+      "conv": "zh-cn:神秘工头;zh-tw:布羅帝;"
+    },
+    {
+      "original": "Mobi",
+      "conv": "zh-cn:吉米;zh-tw:摩比;"
+    },
+    {
+      "original": "Tutu",
+      "conv": "zh-cn:嘟嘟;zh-tw:多多;"
+    },
+    {
+      "original": "Naiad",
+      "conv": "zh-cn:美美;zh-tw:維妮公主;"
+    },
+    {
+      "original": "Tiera",
+      "conv": "zh-cn:茜茜;zh-tw:蒂雅;"
+    },
+    {
+      "original": "DevKim",
+      "conv": "zh-cn:蓝魔;zh-tw:惡魔金金;"
+    },
+    {
+      "original": "CSO Guerrilla",
+      "conv": "zh-cn:狂蟒战士;zh-tw:CSO恐怖份子;"
+    },
+    {
+      "original": "CSO SAS",
+      "conv": "zh-cn:特勤战士;zh-tw:CSO反恐小組;"
+    },
+    {
+      "original": "Sonogong",
+      "conv": "zh-cn:小悟空;zh-tw:孫悟空;"
+    },
+    {
+      "original": "Santa",
+      "conv": "zh-cn:圣诞老人;zh-tw:聖誕老公公;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:海盗领袖;zh-tw:正義海盜船長"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乌云;zh-tw:煙霧"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:星云;zh-tw:星彩烏雲"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宇宙母舰;zh-tw:航空母艦"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:水柱炸弹;zh-tw:綑綁水炸彈"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:导弹;zh-tw:飛彈"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:警铃;zh-tw:警笛"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黄金导弹;zh-tw:黃金飛彈"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:天使;zh-tw:天使的祝福"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:防尘眼镜;zh-tw:護目鏡"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:电磁波头带;zh-tw:電磁波頭飾"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:回放摄像机;zh-tw:重播攝影機"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:回放观赏券;zh-tw:回放券"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:喇叭;zh-tw:大聲公"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:名字喷漆;zh-tw:奇異筆"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超级房主卡;zh-tw:超級室長券"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:皮蛋震天雷;zh-tw:藍寶必殺技"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:宝宝千斤坠;zh-tw:睏寶必殺技"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:小强晕晕锤;zh-tw:工頭必殺技"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黑妞天使;zh-tw:痞子妹必殺技"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:葱头万磁王;zh-tw:栗子必殺技"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:捆身炸弹;zh-tw:海盜炸彈"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:审判之拳;zh-tw:黃金神的鐵拳"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:飞碟光线;zh-tw:高科技強力磁鐵"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黑暗墓碑;zh-tw:死亡墓碑"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:车辆改装系统;zh-tw:工廠系統"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Modified;zh-tw:Factory"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:改装魔方;zh-tw:能源方塊"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:粒子激活器;zh-tw:強化膠囊"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:改装魔方結晶;zh-tw:能源方塊結晶"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:重置扳手;zh-tw:改造扳手"
+    },
+    {
+      "original": "Pirate Theme",
+      "conv": "zh-tw:海盜紀元;zh-cn:海盗来袭;"
+    },
+    {
+      "original": "Fairyland Pietian",
+      "conv": "zh-tw:童話旅程;zh-cn:童话之旅;"
+    },
+    {
+      "original": "Moonhill Theme",
+      "conv": "zh-tw:月不落城;zh-cn:月光侠影;"
+    },
+    {
+      "original": "Golden Adventure",
+      "conv": "zh-tw:黃金文明;zh-cn:黄金冒险;"
+    },
+    {
+      "original": "Castle",
+      "conv": "zh-tw:驚奇城堡;zh-cn:城堡探秘;"
+    },
+    {
+      "original": "Nymph",
+      "conv": "zh-cn:蝴蝶仙境;zh-tw:奇幻精靈;"
+    },
+    {
+      "original": "Cemetery",
+      "conv": "zh-tw:墓園;zh-cn:墓地;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:革新·进化;zh-tw:革命·進化;"
+    },
+    {
+      "original": "WKC",
+      "conv": "zh-cn:卡丁车世界锦标赛;zh-tw:卡丁車世界盃冠軍賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:未来工厂;zh-tw:布羅帝（布羅帝的加工廠）;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:更新未来工厂主题地图;zh-tw:更新布羅帝的（布羅帝的加工廠）主題地圖;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:冰峰跳台;zh-tw:冰山恐懼之峰;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:冰山雪球险道;zh-tw:冰山企鵝戰士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:冰山破碎雪原;zh-tw:冰河破碎的冰山;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:城镇破碎钟楼;zh-tw:殘破的城鎮中心;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:城镇极限竞技场;zh-tw:城鎮水上翹翹板;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:森林发夹;zh-tw:森林髮夾彎;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:墓地幽暗峡谷;zh-tw:墓園魔王的邀請;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:墓地恐怖小径;zh-tw:墓園恐怖之路;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空基地;zh-tw:太空驛站;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空极限跳跃;zh-tw:太空彈跳;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空高速轨道;zh-tw:太空立橋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空危险捷径;zh-tw:太空險道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空宇宙船舱;zh-tw:太空宇宙船賽道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空回旋走廊;zh-tw:太空懸空分岔跑道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:太空军用机场;zh-tw:太空戰鬥飛行場;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:矿山岩浆洞穴;zh-tw:礦山岩漿洞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:矿山盘旋电车轨道;zh-tw:礦山奪魂鐵道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沙漠古老水渠;zh-tw:沙漠渠道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工厂神秘之门;zh-tw:工廠探險開始;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工厂机械战场;zh-tw:工廠任性的布羅帝;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工厂危险装载所;zh-tw:工工廠危險儲蓄室;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工厂陷阱车间;zh-tw:工廠傻瓜陷阱;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:工厂探险之路;zh-tw:工廠砰砰砰大冒險;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:海盗藏宝营地;zh-tw:海盜危機大逃亡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:海盗暴风山寨;zh-tw:海盜風暴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:海盗绝壁海湾;zh-tw:海盜懸崖上的決鬥;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:月光之城-小镇铁路;zh-tw:月光鐵路;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:月光之城-狂飙隧道;zh-tw:月光隧道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:月光之城-直角夜道;zh-tw:月光未完成大樓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:月光之城-浮空要塞;zh-tw:月光水城;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黄金文明 愤怒黄金神;zh-tw:黃金文明之大怒神;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黄金文明 古老神殿;zh-tw:黃金文明之勇闖黃金城;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黄金文明 恐怖斜坡;zh-tw:黃金文明之危機四伏;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黄金文明 阿兹特克;zh-tw:黃金文明之阿茲特克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:黄金文明 黄金坐标;zh-tw:黃金文明之黃金座標;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:精灵之都;zh-tw:精靈月光庭園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:海底神殿;zh-tw:精靈海底城的秘密;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:木桶捷径;zh-tw:精靈神木的捷徑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:大城堡泡沫厨房;zh-tw:城堡冒煙廚房;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:大城堡路易的玩具屋;zh-tw:城堡玩具的天堂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:青蛙之家;zh-tw:童話青蛙澡堂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:旋转木马;zh-tw:童話木馬樂園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沉睡的森林巨人;zh-tw:童話沉睡巨人之森;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:机械之遗忘孤城;zh-tw:機械戰爭的失落都市;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:机械之烽火战场;zh-tw:機械戰爭的前線戰場;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:WKC申城环道;zh-tw:WKC上海F1賽道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:WKC狮城狂飙;zh-tw:WKC新加坡F1賽道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:WKC沙场拉力;zh-tw:WKC越野拉力賽道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:WKC灵岩环道;zh-tw:WKC韓國F1賽道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:未来工厂能量生产线;zh-tw:布羅帝能源生產基地;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:未来工厂能量之源泉;zh-tw:布羅帝巨大能量來源;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:未来工厂神秘研究所;zh-tw:布羅帝秘密的實驗室;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:棉花糖;zh-tw:舒適"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:棉花糖Z7黃金版;zh-tw:黃金舒適Z7"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:棉花糖Z7圣诞版;zh-tw:舒適Z7-XE"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:尖峰;zh-cn:尖锋"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:等離子;zh-cn:等离子"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:原型車;zh-cn:概念车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:闇精靈;zh-cn:幻翼"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:衝鋒鴨;zh-cn:丫丫"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:軍用吉普車;zh-cn:狂野战车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:特勤機動車;zh-cn:特勤战车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:颶風;zh-cn:闪电侠"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:觔斗雲;zh-cn:筋斗云"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:緞帶肥肥;zh-cn:福猪迎祥车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:哈雷;zh-cn:终结者"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:終結者;zh-cn:夜鹰"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:夜鷹;zh-cn:正义"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:黃金肥肥;zh-cn:金猪鸿运车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:重裝工程車;zh-cn:工程车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:馴鹿雪橇;zh-cn:红鼻驯鹿车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:愛之羽;zh-cn:甜蜜情侶"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:甜蜜情人SR;zh-cn:甜蜜情侣车SR"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:真愛PRO;zh-cn:甜蜜情侣车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:X-V2 Z7;zh-cn:黑焰Z7"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:聖騎士;zh-cn:黑騎士"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:巴爾札特;zh-cn:疾影"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:迅雷;zh-cn:天浪"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:銀天使;zh-cn:夜精灵"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:風暴;zh-cn:威龙"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:歐兜賣;zh-cn:小绵羊"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:L.M.名牌速可達;zh-cn:奢豪"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:夜爵Z7;zh-cn:影刺Z7-BE"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:雷艦;zh-cn:陆战舰"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:貴族鴨;zh-cn:贵族丫丫"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:小黑爵;zh-cn:喵咪"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:雷獸;zh-cn:幻影"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:幻獸Z7;zh-cn:幻影Z7情侶版"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:蓋亞;zh-cn:青蜂"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:魔法旋風;zh-cn:梦幻"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:逆轉;zh-cn:胶鞋车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:勞迪P640 SR;zh-cn:猎豹敞篷跑车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:勞迪Z7;zh-cn:魅影敞篷跑车"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:海盜王Z7-S;zh-cn:紫翎海盜船Z7"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:玉兔Z7;zh-cn:飞行兔Z7"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:暴走南瓜車;zh-cn:超级南瓜车"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔怪Z7圣诞版;zh-tw:魔怪Z7-XE"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:暴刃;zh-cn:风翼"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:泡泡堂; zh-tw:爆爆王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:跑跑飞空艇;zh-tw:跑跑飛天車"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:泡泡战士;zh-tw:泡泡大亂鬥"
+    },
+    {
+      "original": "LUCCI",
+      "conv": "zh-tw:LUCCI;zh-cn:金币"
+    },
+    {
+      "original": "CASH",
+      "conv": "zh-tw:樂豆點;zh-cn:游戏币"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:独联体;zh-tw:獨立國協"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:格鲁吉亚;zh-tw:喬治亞"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:其他游戏;zh-tw:特殊遊戲"
+    }
+  ]
+}

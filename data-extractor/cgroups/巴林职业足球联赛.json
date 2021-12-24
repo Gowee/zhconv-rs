@@ -1,0 +1,87 @@
+{
+  "name": "巴林职业足球联赛",
+  "description": "巴林職業足球聯賽",
+  "path": "Template:CGroup/巴林职业足球联赛",
+  "rules": [
+    {
+      "original": "Riffa SC",
+      "conv": "zh:里法体育俱乐部; zh-hans:里法体育俱乐部; zh-cn:里法竞技俱乐部; zh-hk:阿爾列法體育會; "
+    },
+    {
+      "original": "Riffa",
+      "conv": "zh:里法体育; zh-hans:里法体育; zh-cn:里法竞技; zh-hk:阿爾列法; "
+    },
+    {
+      "original": "Al-Hidd",
+      "conv": "zh:希德; zh-hans:希德; zh-cn:希德; zh-hk:艾希迪; "
+    },
+    {
+      "original": "East Riffa",
+      "conv": "zh:东里法; zh-hans:东里法; zh-cn:东里法; zh-hk:东列法; "
+    },
+    {
+      "original": "Bahrain SC",
+      "conv": "zh:巴林体育俱乐部; zh-hans:巴林体育俱乐部; zh-cn:巴林竞技俱乐部; zh-hk:阿爾巴林體育會; "
+    },
+    {
+      "original": "Bahrain SC",
+      "conv": "zh:巴林体育; zh-hans:巴林体育; zh-cn:巴林竞技; zh-hk:阿爾巴林; "
+    },
+    {
+      "original": "Al-Muharraq SC",
+      "conv": "zh:穆哈拉格体育俱乐部; zh-hans:穆哈拉格体育俱乐部; zh-cn:穆哈拉格竞技俱乐部; zh-hk:阿爾慕哈瑞克體育會; "
+    },
+    {
+      "original": "Al-Muharraq SC",
+      "conv": "zh:穆哈拉格; zh-hans:穆哈拉格; zh-cn:穆哈拉格; zh-hk:慕哈瑞克; "
+    },
+    {
+      "original": "Malkiya Club",
+      "conv": "zh:马尔基亚体育俱乐部; zh-hans:马尔基亚体育俱乐部; zh-cn:马尔基亚竞技俱乐部; zh-hk:瑪基亞體育會; "
+    },
+    {
+      "original": "Al-Malkiya Club",
+      "conv": "zh:马尔基亚; zh-hans:马尔基亚; zh-cn:马尔基亚; zh-hk:瑪基亞; "
+    },
+    {
+      "original": "Busaiteen Club",
+      "conv": "zh:布赛廷俱乐部; zh-hans:布赛廷俱乐部; zh-cn:布赛廷俱乐部; zh-hk:布賽廷俱樂部; "
+    },
+    {
+      "original": "Busaiteen",
+      "conv": "zh:布赛廷; zh-hans:布赛廷; zh-cn:布赛廷; zh-hk:布賽廷; "
+    },
+    {
+      "original": "Al Hala SC",
+      "conv": "zh:哈拉体育俱乐部; zh-hans:哈拉体育俱乐部; zh-cn:哈拉竞技俱乐部; zh-hk:阿爾哈拉體育會; "
+    },
+    {
+      "original": "Al Hala",
+      "conv": "zh:哈拉体育; zh-hans:哈拉体育; zh-cn:哈拉竞技; zh-hk:哈拉體育會; "
+    },
+    {
+      "original": "Al-Shabab Club (Manama)",
+      "conv": "zh:麦纳麦青年俱乐部; zh-hans:麦纳麦青年俱乐部; zh-cn:麦纳麦青年俱乐部; zh-hk:沙巴柏麥納麥足球會; "
+    },
+    {
+      "original": "Al-Shabab Club (Manama)",
+      "conv": "zh:麦纳麦青年; zh-hans:麦纳麦青年; zh-cn:麦纳麦青年; zh-hk:沙巴柏麥納麥; "
+    },
+    {
+      "original": "Manama Club",
+      "conv": "zh:麦纳麦俱乐部; zh-hans:麦纳麦俱乐部; zh-cn:麦纳麦俱乐部; zh-hk:麥納麥足球會; "
+    },
+    {
+      "original": "Manama Club",
+      "conv": "zh:麦纳麦; zh-hans:麦纳麦; zh-cn:麦纳麦; zh-hk:麥納麥; "
+    },
+    {
+      "original": "Bahraini Premier League",
+      "conv": "zh:巴林足球超级联赛; zh-hans:巴林足球超级联赛; zh-cn:巴林足球超级联赛; zh-hant:巴林超級足球聯賽; zh-hk:巴林超級足球聯賽; "
+    },
+    {
+      "original": "Bahraini King's Cup",
+      "conv": "zh:巴林国王杯; zh-hans:巴林国王杯; zh-cn:巴林国王杯; zh-hk:巴林國王盃; "
+    }
+  ]
+}

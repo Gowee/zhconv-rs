@@ -1,0 +1,423 @@
+{
+  "name": "Taylor Swift",
+  "description": "Taylor Swift",
+  "path": "Template:CGroup/Taylor Swift",
+  "rules": [
+    {
+      "original": "Taylor Swift",
+      "conv": "zh-cn:泰勒·斯威夫特; zh-hk:泰勒·斯威夫特; zh-my:泰莱·史薇芙特; zh-tw:泰勒絲"
+    },
+    {
+      "original": "Swift",
+      "conv": "zh-cn:斯威夫特; zh-hk:斯威夫特; zh-sg:斯威夫特; zh-my:史薇芙特; zh-tw:泰勒絲"
+    },
+    {
+      "original": "Afterglow",
+      "conv": "zh-cn:余晖; zh-tw:餘韻"
+    },
+    {
+      "original": "Back to December",
+      "conv": "zh-cn:回到十二月; zh-tw:重回十二月"
+    },
+    {
+      "original": "Bad Blood",
+      "conv": "zh-cn:敌对;zh-tw:壞到底"
+    },
+    {
+      "original": "Beautiful Ghosts",
+      "conv": "zh-cn:美丽灵魂;zh-tw:美麗的幽魂"
+    },
+    {
+      "original": "The Best Day",
+      "conv": "zh-cn:美好日子;zh-tw:完美的一天"
+    },
+    {
+      "original": "Better Than Revenge",
+      "conv": "zh-cn:不如报复;zh-tw:復仇女王"
+    },
+    {
+      "original": "Blank Space",
+      "conv": "zh-cn:空格; zh-tw:空白"
+    },
+    {
+      "original": "Call It What You Want",
+      "conv": "zh-cn:随你怎么说;zh-tw:話都你在說"
+    },
+    {
+      "original": "Champagne Problems",
+      "conv": "zh-cn:香槟烦恼;zh-tw:兩難"
+    },
+    {
+      "original": "Clean",
+      "conv": "zh-cn:释怀;zh-tw:淨空"
+    },
+    {
+      "original": "Cold As You",
+      "conv": "zh-cn:你给的冷漠;zh-tw:冷漠如你"
+    },
+    {
+      "original": "Coney Island",
+      "conv": "zh-cn:科尼岛;zh-tw:康尼島"
+    },
+    {
+      "original": "Cornelia Street",
+      "conv": "zh-cn:柯尼利亚大街;zh-tw:科妮莉亞街"
+    },
+    {
+      "original": "Cowboy Like Me",
+      "conv": "zh-cn:我这样的牛仔;zh-tw:高手過招"
+    },
+    {
+      "original": "Cruel Summer",
+      "conv": "zh-cn:残酷夏季;zh-tw:慘痛夏日"
+    },
+    {
+      "original": "Dancing With Our Hands Tied",
+      "conv": "zh-cn:束手共舞;zh-tw:綁手綁腳"
+    },
+    {
+      "original": "Daylight",
+      "conv": "zh-cn:日光;zh-tw:曙光"
+    },
+    {
+      "original": "Dear John",
+      "conv": "zh-cn:分手信;zh-tw:親愛的約翰"
+    },
+    {
+      "original": "Death By A Thousand Cuts",
+      "conv": "zh-cn:致命千伤;zh-tw:凌虐到死"
+    },
+    {
+      "original": "Delicate",
+      "conv": "zh-cn:易碎;zh-tw:脆弱"
+    },
+    {
+      "original": "Don't Blame Me",
+      "conv": "zh-cn:别怪我;zh-tw:錯不在我"
+    },
+    {
+      "original": "Dress",
+      "conv": "zh-cn:长裙;zh-tw:戰袍"
+    },
+    {
+      "original": "Enchanted",
+      "conv": "zh-cn:着迷;zh-tw:愛情魔力"
+    },
+    {
+      "original": "End Game",
+      "conv": "zh-cn:游戏终结;zh-tw:最後關卡"
+    },
+    {
+      "original": "Evermore",
+      "conv": "zh-cn:永恒故事;zh-tw:恆久傳說"
+    },
+    {
+      "original": "Exile",
+      "conv": "zh-cn:流放;zh-tw:放逐"
+    },
+    {
+      "original": "Fearless",
+      "conv": "zh-cn:放手去爱;zh-tw:無懼的愛;"
+    },
+    {
+      "original": "Folklore",
+      "conv": "zh-cn:民间故事;zh-tw:美麗傳說;"
+    },
+    {
+      "original": "Folklore: The Long Pond Studio Sessions",
+      "conv": "zh-cn:民间故事：长塘录音室现场; zh-hk:Folklore：長塘錄音室現場; zh-tw:美麗傳說：长塘录音室现场; zh-sg:Folklore：专辑创作背后的故事"
+    },
+    {
+      "original": "Getaway Car",
+      "conv": "zh-cn:逃离之车;zh-tw:亡命飛車"
+    },
+    {
+      "original": "Gold Rush",
+      "conv": "zh-cn:淘金潮;zh-tw:淘金熱"
+    },
+    {
+      "original": "Gorgeous",
+      "conv": "zh-cn:完美情人;zh-tw:真命天子"
+    },
+    {
+      "original": "Happiness",
+      "conv": "zh-cn:快乐; zh-tw:幸福"
+    },
+    {
+      "original": "Haunted",
+      "conv": "zh-cn:迷惑; zh-tw:心神不寧"
+    },
+    {
+      "original": "Hey Stephen",
+      "conv": "zh-cn:嗨 斯蒂芬;zh-tw:給史蒂芬"
+    },
+    {
+      "original": "How You Get The Girl",
+      "conv": "zh-cn:俘获芳心; zh-tw:追愛秘笈 "
+    },
+    {
+      "original": "I Almost Do",
+      "conv": "zh-cn:按耐不住; zh-tw:差點按捺不住 "
+    },
+    {
+      "original": "I Did Something Bad",
+      "conv": "zh-cn:我的错;zh-tw:使壞"
+    },
+    {
+      "original": "I Forgot That You Existed",
+      "conv": "zh-cn:我忘了你的存在; zh-tw:忘記你的存在"
+    },
+    {
+      "original": "I Know Places",
+      "conv": "zh-cn:藏身之地; zh-tw:秘密基地"
+    },
+    {
+      "original": "Illicit Affairs",
+      "conv": "zh-cn:情事; zh-tw:禁忌戀曲"
+    },
+    {
+      "original": "I'm Only Me When I'm With You",
+      "conv": "zh-cn:只有和你在一起才是我自己; zh-tw:在你身邊時 我只是我"
+    },
+    {
+      "original": "Innocent",
+      "conv": "zh-cn:无辜者; zh-tw:純真年代"
+    },
+    {
+      "original": "Invisible",
+      "conv": "zh-cn:隐形的爱; zh-tw:隱形"
+    },
+    {
+      "original": "Invisible String",
+      "conv": "zh-cn:隐形线; zh-tw:隱形的線"
+    },
+    {
+      "original": "I Think He Knows",
+      "conv": "zh-cn:我想他明白; zh-tw:我想他懂我"
+    },
+    {
+      "original": "It's Time To Go",
+      "conv": "zh-cn:是时候商开; zh-tw:重新出發"
+    },
+    {
+      "original": "It's Nice to Have A Friend",
+      "conv": "zh-cn:有朋友真好; zh-tw:有個好友真好"
+    },
+    {
+      "original": "I Wish You Would",
+      "conv": "zh-cn:但愿你会; zh-tw:只要你願意 "
+    },
+    {
+      "original": "Jump Then Fall",
+      "conv": "zh-cn:坠入爱河;zh-tw:墜入情網"
+    },
+    {
+      "original": "King of My Heart",
+      "conv": "zh-cn:心的主人;zh-tw:心的主宰"
+    },
+    {
+      "original": "The Lakes",
+      "conv": "zh-cn:湖; zh-tw:湖泊"
+    },
+    {
+      "original": "The Last Great American Dynasty",
+      "conv": "zh-cn:最后的美利坚盛世; zh-tw:末代大美國王朝"
+    },
+    {
+      "original": "Last Kiss",
+      "conv": "zh-cn:最后的吻; zh-tw:最後一吻"
+    },
+    {
+      "original": "Long Live",
+      "conv": "zh-cn:不朽; zh-tw:直到永遠"
+    },
+    {
+      "original": "Look What You Made Me Do",
+      "conv": "zh-cn:瞧你们让我做了什么;zh-tw:看是你逼我的"
+    },
+    {
+      "original": "Love Story",
+      "conv": "zh-cn:爱情故事; zh-tw:愛的故事"
+    },
+    {
+      "original": "Lover",
+      "conv": "zh-cn:恋人; zh-tw:情人"
+    },
+    {
+      "original": "The Lucky One",
+      "conv": "zh-cn:幸运儿; zh-tw:幸運的人"
+    },
+    {
+      "original": "Marjorie",
+      "conv": "zh-cn:玛乔丽;zh-tw:瑪裘瑞"
+    },
+    {
+      "original": "The Man",
+      "conv": "zh-cn:那个人;zh-tw:男人"
+    },
+    {
+      "original": "Mary's Song (Oh My My My)",
+      "conv": "zh-cn:玛丽之歌（哦，天啊）;zh-tw:瑪麗之歌（我的老天）"
+    },
+    {
+      "original": "Mean",
+      "conv": "zh-cn:卑鄙;zh-tw:太刻薄"
+    },
+    {
+      "original": "Mirrorball",
+      "conv": "zh-cn:镜面球;zh-tw:鏡球"
+    },
+    {
+      "original": "Miss Americana & the Heartbreak Prince",
+      "conv": "zh-cn:甜心小姐和心碎王子;zh-tw:美國小姐與心碎王子"
+    },
+    {
+      "original": "My Tears Ricochet",
+      "conv": "zh-cn:泪水飞弹;zh-tw:我的眼淚再度流出"
+    },
+    {
+      "original": "Never Grow Up",
+      "conv": "zh-cn:不要长大; zh-tw:長不大"
+    },
+    {
+      "original": "New Romantics",
+      "conv": "zh-cn:新浪漫主义; zh-tw:新浪漫"
+    },
+    {
+      "original": "New Year's Day",
+      "conv": "zh-cn:新年日;zh-tw:新年願望"
+    },
+    {
+      "original": "No Body, No Crime",
+      "conv": "zh-cn:无迹可寻;zh-tw:無證無罪"
+    },
+    {
+      "original": "Out Of The Woods",
+      "conv": "zh-cn:脱离困境; zh-tw:不再迷惘"
+    },
+    {
+      "original": "Paper Rings",
+      "conv": "zh-cn:纸戒指;zh-tw:手作紙戒"
+    },
+    {
+      "original": "Peace",
+      "conv": "zh-cn:平静;zh-tw:平靜生活"
+    },
+    {
+      "original": "Perfectly Good Heart",
+      "conv": "zh-cn:善良的心; zh-tw:完美心腸;"
+    },
+    {
+      "original": "Pink",
+      "conv": "zh-cn:粉红佳人; zh-tw:紅粉佳人;"
+    },
+    {
+      "original": "...Ready for it",
+      "conv": "zh-cn:准备好了吗？; zh-tw:準備好了嗎 "
+    },
+    {
+      "original": "Red",
+      "conv": "zh-cn:红;zh-tw:紅色"
+    },
+    {
+      "original": "Reputation",
+      "conv": "zh-cn:名誉;zh-tw:舉世盛名"
+    },
+    {
+      "original": "Right Where You Left Me",
+      "conv": "zh-cn:就在你离开我的地方;zh-tw:在你離開我的地方"
+    },
+    {
+      "original": "Should've Said No",
+      "conv": "zh-cn:本应拒绝;zh-tw:早該拒絕"
+    },
+    {
+      "original": "So It Goes...",
+      "conv": "zh-cn:就这样吧;zh-tw:自然而然"
+    },
+    {
+      "original": "Soon You’ll Get Better",
+      "conv": "zh-cn:很快会好的;zh-tw:你很快就會好好的"
+    },
+    {
+      "original": "Stay Beautiful",
+      "conv": "zh-cn:保持美丽;zh-tw:永遠俊美"
+    },
+    {
+      "original": "Superstar",
+      "conv": "zh-cn:超级巨星;zh-tw:大明星"
+    },
+    {
+      "original": "Taylor's Version",
+      "conv": "zh-cn:重制版; zh-tw:泰勒絲全新版; zh-hk:重製版"
+    },
+    {
+      "original": "Tell Me Why",
+      "conv": "zh-cn:告诉我真相; zh-tw:告訴我 為什麼"
+    },
+    {
+      "original": "This Is Me Trying",
+      "conv": "zh-cn:我努力了; zh-tw:我努力嘗試"
+    },
+    {
+      "original": "This Is Why We Can't Have Nice Things",
+      "conv": "zh-cn:为何我们无法相处;zh-tw:你不配"
+    },
+    {
+      "original": "Tied Together With A Smile",
+      "conv": "zh-cn:面带微笑; zh-tw:用一個微笑做自己"
+    },
+    {
+      "original": "'Tis the Damn Season",
+      "conv": "zh-cn:这糟糕的季节; zh-tw:該死的季節"
+    },
+    {
+      "original": "Tim McGraw",
+      "conv": "zh-cn:蒂姆·麦格劳; zh-tw:提姆·麥格羅"
+    },
+    {
+      "original": "Tolerate It",
+      "conv": "zh-cn:容忍; zh-tw:百般容忍"
+    },
+    {
+      "original": "Untouchable",
+      "conv": "zh-cn:触摸不透; zh-tw:遙不可及 "
+    },
+    {
+      "original": "Voice Memo",
+      "conv": "zh-cn:语音备忘录; zh-tw:創作語音備忘錄;"
+    },
+    {
+      "original": "We Are Never Ever Getting Back Together",
+      "conv": "zh-cn:我们再也回不去了; zh-tw:絕對絕對分定了 "
+    },
+    {
+      "original": "Welcome to New York",
+      "conv": "zh-cn:欢迎来纽约; zh-tw:歡迎光臨紐約"
+    },
+    {
+      "original": "White Horse",
+      "conv": "zh-cn:白马; zh-tw:白馬王子 "
+    },
+    {
+      "original": "Wildest Dreams",
+      "conv": "zh-cn:狂野的梦; zh-tw:狂野之夢 "
+    },
+    {
+      "original": "Wonderland",
+      "conv": "zh-cn:仙境; zh-tw:樂園"
+    },
+    {
+      "original": "You Belong With Me",
+      "conv": "zh-hans:与我同在;zh-tw:天生一對;"
+    },
+    {
+      "original": "You Need to Calm Down",
+      "conv": "zh-hans:你需要冷静;zh-tw:你需要冷靜一下"
+    },
+    {
+      "original": "You're Not Sorry",
+      "conv": "zh-hans:你无所谓;zh-tw:道歉於事無補;"
+    }
+  ]
+}

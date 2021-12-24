@@ -1,0 +1,387 @@
+{
+  "name": "StarWars",
+  "description": "-{zh-hans:星球大战;zh-hant:星球大戰;zh-tw:星際大戰;zh-sg:星际大战}-",
+  "path": "Module:CGroup/StarWars",
+  "rules": [
+    {
+      "original": "Star Wars",
+      "conv": "zh-cn:星球大战; zh-hk:星球大戰; zh-tw:星際大戰; zh-sg:星际大战"
+    },
+    {
+      "original": "Star Wars Episode I: The Phantom Menace",
+      "conv": "zh-cn:星球大战I：魅影危机; zh-hk:星球大戰前傳：魅影危機; zh-tw:星際大戰首部曲：威脅潛伏"
+    },
+    {
+      "original": "Star Wars Episode II: Attack of the Clones",
+      "conv": "zh-cn:星球大战II：克隆人的进攻; zh-hk:星球大戰前傳：複製人侵略; zh-tw:星際大戰二部曲：複製人全面進攻"
+    },
+    {
+      "original": "Star Wars Episode III: Revenge of the Sith",
+      "conv": "zh-cn:星球大战III：西斯的复仇; zh-hk:星球大戰前傳：黑帝君臨; zh-tw:星際大戰三部曲：西斯大帝的復仇"
+    },
+    {
+      "original": "Star Wars Episode IV: A New Hope",
+      "conv": "zh-cn:星球大战IV：曙光乍现; zh-hk:星球大戰：新的希望; zh-tw:星際大戰四部曲：曙光乍現"
+    },
+    {
+      "original": "Star Wars Episode V: The Empire Strikes Back",
+      "conv": "zh-cn:星球大战V：帝国反击战; zh-hk:星球大戰：帝國反擊戰; zh-tw:星際大戰五部曲：帝國大反擊"
+    },
+    {
+      "original": "Star Wars Episode VI: Return of the Jedi",
+      "conv": "zh-cn:星球大战VI：绝地归来; zh-hk:星球大戰：武士復仇; zh-tw:星際大戰六部曲：絕地大反攻"
+    },
+    {
+      "original": "Star Wars: The Force Awakens",
+      "conv": "zh-cn:星球大战7：原力觉醒;zh-hk:星球大戰七部曲：原力覺醒; zh-tw:星際大戰七部曲：原力覺醒; zh-sg:星际大战7部曲：原力觉醒;"
+    },
+    {
+      "original": "Star Wars: The Last Jedi",
+      "conv": "zh-cn:星球大战8：最后的绝地武士;zh-hk:星球大戰八部曲：最後絕地武士; zh-tw:星際大戰八部曲：最後的絕地武士; zh-sg:星际大战8部曲：最后绝地;"
+    },
+    {
+      "original": "Star Wars: The Rise of Skywalker",
+      "conv": "zh-cn:星球大战9：天行者的崛起;zh-hk:星球大戰九部曲：天行者崛起; zh-tw:星際大戰九部曲：天行者的崛起; zh-sg:星际大战9部曲：天行者的崛起;"
+    },
+    {
+      "original": "Rogue One: A Star Wars Story",
+      "conv": "zh-cn:星球大战外传：侠盗一号; zh-tw:星際大戰外傳：俠盜一號; zh-hk:俠盜一號：星球大戰外傳; zh-sg:星际大战外传：侠盗一号;"
+    },
+    {
+      "original": "The Phantom Menace",
+      "conv": "zh-cn:魅影危机; zh-hk:魅影危機; zh-tw:威脅潛伏"
+    },
+    {
+      "original": "Attack of the Clones",
+      "conv": "zh-cn:克隆人的进攻; zh-hk:複製人侵略; zh-tw:複製人全面進攻"
+    },
+    {
+      "original": "Revenge of the Sith",
+      "conv": "zh-cn:西斯的复仇; zh-hk:黑帝君臨; zh-tw:西斯大帝的復仇"
+    },
+    {
+      "original": "A New Hope",
+      "conv": "zh-cn:新的希望; zh-hk:新的希望; zh-tw:曙光乍現"
+    },
+    {
+      "original": "The Empire Strikes Back",
+      "conv": "zh-cn:帝国反击战; zh-hk:帝國反擊戰; zh-tw:帝國大反擊"
+    },
+    {
+      "original": "Return of the Jedi",
+      "conv": "zh-cn:绝地归来; zh-hk:武士復仇; zh-tw:絕地大反攻"
+    },
+    {
+      "original": "The Force Awakens",
+      "conv": "zh-cn:原力觉醒; zh-hk:原力覺醒; zh-tw:原力覺醒"
+    },
+    {
+      "original": "The Last Jedi",
+      "conv": "zh-cn:最后的绝地武士; zh-hk:最後的絕地武士; zh-tw:最後的絕地武士"
+    },
+    {
+      "original": "The Rise of Skywalker",
+      "conv": "zh-cn:天行者崛起; zh-hk:天行者崛起; zh-tw:天行者的崛起"
+    },
+    {
+      "original": "Anakin",
+      "conv": "zh-hans:阿纳金; zh-hk:安納金; zh-tw:安納金"
+    },
+    {
+      "original": "Padmé Amidala",
+      "conv": "zh-cn:帕德梅·艾米达拉;zh-hk:帕德美·艾米達拉;zh-tw:佩咪·艾米達拉"
+    },
+    {
+      "original": "Obi-Wan Kenobi",
+      "conv": "zh-cn:欧比旺·克诺比;zh-hk:歐比王·肯諾比;zh-tw:歐比王·肯諾比"
+    },
+    {
+      "original": "Qui-Gon Jinn",
+      "conv": "zh-cn:奎刚·金;zh-hk:魁剛·金;zh-tw:魁剛·金"
+    },
+    {
+      "original": "Mace Windu",
+      "conv": "zh-cn:梅斯·温杜;zh-hk:魅使·雲度;zh-tw:魅使·雲度"
+    },
+    {
+      "original": "Darth Maul",
+      "conv": "zh-cn:达斯·摩尔;zh-hk:達斯·魔;zh-tw:達斯·魔"
+    },
+    {
+      "original": "Darth Vader",
+      "conv": "zh-cn:达斯·维德;zh-tw:達斯·維達;zh-hk:黑武士;"
+    },
+    {
+      "original": "Palpatine",
+      "conv": "zh-hans:帕尔帕庭;zh-hant:白卜庭;zh-cn:帕尔帕庭;zh-tw:白卜庭;zh-hk:白卜庭;zh-mo:白卜庭"
+    },
+    {
+      "original": "Darth Sidious",
+      "conv": "zh-cn:达斯·西迪厄斯;zh-hk:達斯·西帝;zh-tw:達斯·西帝"
+    },
+    {
+      "original": "Ki-Adi-Mundi",
+      "conv": "zh-cn:基·阿迪·芒迪;zh-hk:奇·亞地·蒙地;zh-tw:奇·亞地·蒙地"
+    },
+    {
+      "original": "Ahsoka Tano",
+      "conv": "zh-hans:阿索卡·塔诺;zh-hant:亞蘇卡·譚諾"
+    },
+    {
+      "original": "Luke Skywalker",
+      "conv": "zh-cn:卢克·天行者;zh-hk:盧克·天行者;zh-tw:路克·天行者"
+    },
+    {
+      "original": "Leia Organa",
+      "conv": "zh-hans:莱娅·奥加纳;zh-hant:莉亞·歐嘉納;zh-tw:莉亞·歐嘉納;zh-hk:莉亞·歐嘉納;zh-mo:莉亞·歐嘉納;"
+    },
+    {
+      "original": "Han Solo",
+      "conv": "zh-cn:汉·索罗;zh-hk:韓·素羅;zh-tw:韓·蘇洛"
+    },
+    {
+      "original": "Meetra Surik",
+      "conv": "zh-hans:米特拉·苏里克;zh-hant:咪拉·蘇瑞克"
+    },
+    {
+      "original": "Chewbacca",
+      "conv": "zh-cn:丘巴卡;zh-hk:朱兒;zh-tw:丘巴卡"
+    },
+    {
+      "original": "Millennium Falcon",
+      "conv": "zh-hans:千年隼;zh-tw:千年鷹;zh-hk:千歲鷹;"
+    },
+    {
+      "original": "Darth Vader",
+      "conv": "zh-hans:达斯·维达;zh-hant:達斯·維達;zh-tw:黑武士;zh-hk:黑武士;zh-mo:黑武士;"
+    },
+    {
+      "original": "Rey",
+      "conv": "zh-cn:蕾伊;zh-tw:芮"
+    },
+    {
+      "original": "Poe Dameron",
+      "conv": "zh-cn:波·达默龙;zh-tw:波·戴姆倫"
+    },
+    {
+      "original": "Kylo Ren",
+      "conv": "zh-cn:凯洛·伦;zh-tw:凱羅·忍;zh-hk:凱羅·忍"
+    },
+    {
+      "original": "Ben Solo",
+      "conv": "zh-hans:本·索罗;zh-hant:本·蘇羅;zh-tw:班·蘇羅"
+    },
+    {
+      "original": "General Hux",
+      "conv": "zh-hans:哈克斯将军;zh-tw:赫斯將軍"
+    },
+    {
+      "original": "Snoke",
+      "conv": "zh-hans:斯诺克;zh-hant:斯諾克;zh-tw:史諾克"
+    },
+    {
+      "original": "Captain Phasma",
+      "conv": "zh-hans:法斯马队长;zh-hant:法斯馬隊長;zh-tw:法斯瑪隊長"
+    },
+    {
+      "original": "Ezra Bridger",
+      "conv": "zh-hans:埃兹拉·布里杰;zh-hant:艾斯納·布里格;zh-tw:艾斯納·布里格"
+    },
+    {
+      "original": "Kana Jarrus",
+      "conv": "zh-hans:凯南·贾勒斯;zh-hant:肯南·賈奴斯;zh-tw:肯南·賈奴斯"
+    },
+    {
+      "original": "Hera Syndulla",
+      "conv": "zh-hans:赫拉·辛杜拉;zh-hant:希娜·仙杜拉;zh-tw:希娜·仙杜拉"
+    },
+    {
+      "original": "Sabine Wren",
+      "conv": "zh-hans:萨宾·雷恩;zh-hant:薩繽;zh-tw:薩繽"
+    },
+    {
+      "original": "Garazeb Orrelios",
+      "conv": "zh-hans:泽布·奥雷利奥斯;zh-hant:利霸·歐利提歐斯;zh-tw:利霸·歐利提歐斯"
+    },
+    {
+      "original": "Padmé",
+      "conv": "zh-cn:帕德梅;zh-hk:帕德美;zh-tw:佩咪"
+    },
+    {
+      "original": "Obi-Wan",
+      "conv": "zh-cn:欧比旺;zh-hk:歐比王;zh-tw:歐比王"
+    },
+    {
+      "original": "Qui-Gon",
+      "conv": "zh-cn:奎刚;zh-hk:魁剛;zh-tw:魁剛"
+    },
+    {
+      "original": "Mace",
+      "conv": "zh-cn:梅斯;zh-hk:魅使;zh-tw:魅使"
+    },
+    {
+      "original": "Windu",
+      "conv": "zh-cn:温杜;zh-hk:雲度;zh-tw:雲度"
+    },
+    {
+      "original": "Sidious",
+      "conv": "zh-cn:西迪厄斯;zh-hk:西帝;zh-tw:西帝"
+    },
+    {
+      "original": "Ahsoka",
+      "conv": "zh-hans:阿索卡;zh-hant:亞蘇卡"
+    },
+    {
+      "original": "Tano",
+      "conv": "zh-hans:塔诺;zh-hant:譚諾"
+    },
+    {
+      "original": "Luke",
+      "conv": "zh-cn:卢克;zh-hk:盧克;zh-tw:路克"
+    },
+    {
+      "original": "Leia",
+      "conv": "zh-hans:莱娅;zh-hant:莉亞;zh-tw:莉亞;zh-hk:莉亞;zh-mo:莉亞;"
+    },
+    {
+      "original": "Han",
+      "conv": "zh-cn:韩;zh-hk:韓;zh-tw:韓"
+    },
+    {
+      "original": "Solo",
+      "conv": "zh-cn:索罗;zh-hk:素羅;zh-tw:蘇洛"
+    },
+    {
+      "original": "Kylo",
+      "conv": "zh-cn:凯洛;zh-tw:凱羅"
+    },
+    {
+      "original": "Surik",
+      "conv": "zh-hans:苏里克;zh-hant:蘇瑞克"
+    },
+    {
+      "original": "Vader",
+      "conv": "zh-cn:维德; zh-tw:維達; zh-hk:黑武士"
+    },
+    {
+      "original": "Tatooine",
+      "conv": "zh-hans:塔图因; zh-hant:塔圖因"
+    },
+    {
+      "original": "Coruscant",
+      "conv": "zh-cn:科洛桑;zh-hk:克魯斯根;zh-tw:科羅森"
+    },
+    {
+      "original": "Naboo",
+      "conv": "zh-cn:纳布;zh-hk:那卜;zh-tw:那卜"
+    },
+    {
+      "original": "Endor",
+      "conv": "zh-cn:恩多;zh-hk:安鐸;zh-tw:恩多"
+    },
+    {
+      "original": "Lasat",
+      "conv": "zh-cn:拉桑;zh-hk:拉薩;zh-tw:拉薩"
+    },
+    {
+      "original": "Yuuzhan`tar",
+      "conv": "zh-cn:遇战塔;zh-hk:欲戰達;zh-tw:欲戰達"
+    },
+    {
+      "original": "Geonosis",
+      "conv": "zh-cn:吉奥诺西斯;zh-hk:基歐諾西斯;zh-tw:基歐諾西斯"
+    },
+    {
+      "original": "Nal Hutta",
+      "conv": "zh-cn:纳尔赫塔;zh-hk:諾哈塔;zh-tw:諾哈塔"
+    },
+    {
+      "original": "Nar Shaddaa",
+      "conv": "zh-cn:纳沙达;zh-hk:那沙達;zh-tw:那沙達"
+    },
+    {
+      "original": "Ewok",
+      "conv": "zh-cn:伊沃克;zh-hk:依娃;zh-tw:依娃"
+    },
+    {
+      "original": "Yuuzhan Vong",
+      "conv": "zh-hans:遇战疯;zh-hant:欲戰風;zh-tw:欲戰風"
+    },
+    {
+      "original": "Wookie",
+      "conv": "zh-hans:伍基;zh-hant:武技;zh-tw:武技"
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "",
+      "conv": ""
+    },
+    {
+      "original": "Star Wars Rebels",
+      "conv": "zh-cn:星球大战：义军崛起;zh-hk:星球大戰：反抗軍起義;zh-tw:星際大戰：反抗軍起義;"
+    },
+    {
+      "original": "Star Wars: Visions",
+      "conv": "zh-hans:星球大战：幻境; zh-tw:星際大戰：視界; zh-hk:星球大戰：幻境;"
+    },
+    {
+      "original": "The Bad Batchrule",
+      "conv": "zh-cn:异等小队; zh-tw:瑕疵小隊; zh-hk:特種兵團;"
+    },
+    {
+      "original": "Rebel",
+      "conv": "zh-cn:义军;zh-tw:反抗軍;"
+    },
+    {
+      "original": "First Order",
+      "conv": "zh-hans:第一秩序;zh-hant:第一軍團;"
+    },
+    {
+      "original": "Walker",
+      "conv": "zh-hans:步行机;zh-hant:步行機;zh-tw:走獸;"
+    },
+    {
+      "original": "Star Destroyer",
+      "conv": "zh-hans:歼星舰;zh-hant:殲星艦;zh-tw:滅星者;"
+    }
+  ]
+}

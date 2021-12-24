@@ -1,0 +1,99 @@
+{
+  "name": "Futurama",
+  "description": "-{zh-hans:飞出个未来;zh-hk:乃出個未來;zh-tw:飛出個未來;}-",
+  "path": "Template:CGroup/Futurama",
+  "rules": [
+    {
+      "original": "Philip J. Fry",
+      "conv": "zh-cn:菲利浦·弗莱; zh-tw:菲利浦·弗萊; zh-hk:阿乃;"
+    },
+    {
+      "original": "Leela",
+      "conv": "zh-cn:莉拉; zh-tw:莉拉; zh-hk:莉娜; "
+    },
+    {
+      "original": "Bender",
+      "conv": "zh-cn:班德; zh-tw:班德; zh-hk:傻機;"
+    },
+    {
+      "original": "Hubert Farnsworth",
+      "conv": "zh-cn:休伯特·法兹沃斯; zh-tw:休伯特·法茲沃斯;zh-hk:乃到應一應;"
+    },
+    {
+      "original": "Professor Hubert Farnsworth",
+      "conv": "zh-cn:休伯特·法兹沃斯教授; zh-tw:休伯特·法茲沃斯教授;zh-hk:乃到應一應博士;"
+    },
+    {
+      "original": "Zoidberg",
+      "conv": "zh-cn:佐艾伯格; zh-tw:佐艾伯格; zh-hk:紅魷;"
+    },
+    {
+      "original": "Al Gore",
+      "conv": "zh-hans:阿尔·戈尔;zh-hk:阿爾·戈爾;zh-tw:艾爾·高爾;"
+    },
+    {
+      "original": "Richard Nixon",
+      "conv": "zh-cn:理查德·尼克松; zh-tw:理查·尼克森; zh-hk:李察·尼克遜;"
+    },
+    {
+      "original": "Futurama",
+      "conv": "zh-cn:飞出个未來;zh-tw:飛出個未來;zh-hk:乃出個未來"
+    },
+    {
+      "original": "-rama",
+      "conv": "zh-cn:飞出;zh-tw:飛出;zh-hk:乃出"
+    },
+    {
+      "original": "The Simpsons",
+      "conv": "zh-cn:辛普森一家;zh-tw:辛普森家庭;zh-hk:阿森一族"
+    },
+    {
+      "original": "The Matrix",
+      "conv": "zh-hans:黑客帝国;zh-hk:廿二世紀殺人網絡;zh-tw:駭客任務;"
+    },
+    {
+      "original": "Oprah Gail Winfrey",
+      "conv": "zh-hans:奥普拉·温弗里;zh-hk:奧花·雲費;zh-tw:歐普拉·溫芙蕾;"
+    },
+    {
+      "original": "Rebel Without a Cause",
+      "conv": "zh-cn:无因的反叛; zh-tw:養子不教誰之過; zh-hk:阿飛正傳;"
+    },
+    {
+      "original": "West African Vodun",
+      "conv": "zh-hans:伏都教;zh-hk:伏都教;zh-tw:巫毒教;"
+    },
+    {
+      "original": "Star Trek",
+      "conv": "zh:星艦奇航記;zh-cn:星际旅行;zh-tw:星艦迷航記;zh-hk:星空奇遇記;"
+    },
+    {
+      "original": "Star Trek: The Next Generation",
+      "conv": "zh-hans:星际旅行：下一代;zh-hk:新星空奇遇記;zh-tw:銀河飛龍;"
+    },
+    {
+      "original": "James Dean",
+      "conv": "zh-cn:詹姆斯·迪恩; zh-tw:詹姆斯·狄恩; zh-hk:占士·甸;"
+    },
+    {
+      "original": "T-Shirt",
+      "conv": "zh-hans:T恤;zh-hk:T裇;zh-tw:T恤;"
+    },
+    {
+      "original": "Pizza",
+      "conv": "zh-hans:比萨;zh-hk:披薩;zh-tw:披薩;"
+    },
+    {
+      "original": "New Jersey",
+      "conv": "zh-cn:新泽西; zh-tw:紐澤西; zh-hk:新澤西;"
+    },
+    {
+      "original": "Olivier Messiaen",
+      "conv": "zh-cn:奥利维埃·梅西安; zh-hk:奧利華·梅湘; zh-tw:奧立佛·梅湘;"
+    },
+    {
+      "original": "original=Doctor Who",
+      "conv": "zh-cn:神秘博士;zh-tw:超時空博士;zh-hk:異世奇人;"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "KLeague",
+  "description": "韓國職業足球聯賽",
+  "path": "Template:CGroup/KLeague",
+  "rules": [
+    {
+      "original": "{{lang|ko|한국/韓國",
+      "conv": "zh:韩国; zh-hant:韓國; zh-hans:韩国; zh-cn:韩国; zh-tw:南韓; zh-hk:南韓; zh-mo:南韓; "
+    },
+    {
+      "original": "{{lang|ko|FC 서울",
+      "conv": "zh:FC首尔; zh-hans:FC首尔; zh-cn:首尔FC; zh-hk:FC首爾; zh-tw:FC首爾; "
+    },
+    {
+      "original": "{{lang|ko|광주 FC/光州FC",
+      "conv": "zh:FC光州; zh-hans:FC光州; zh-cn:光州FC; zh-hk:FC光州; zh-tw:FC光州; "
+    },
+    {
+      "original": "{{lang|ko|대구 FC/大邱FC",
+      "conv": "zh:FC大邱; zh-hans:FC大邱; zh-cn:大邱FC; zh-hk:FC大邱; zh-tw:FC大邱; "
+    },
+    {
+      "original": "{{lang|ko|부천 SK/富川SK",
+      "conv": "zh:FC富川; zh-hans:SK富川; zh-cn:富川鲜京; zh-hk:富川SK; zh-tw:FC富川; "
+    },
+    {
+      "original": "{{lang|ko|성남 FC",
+      "conv": "zh:FC城南; zh-hans:城南FC; zh-cn:城南FC; zh-hk:FC城南; zh-tw:城南FC; "
+    },
+    {
+      "original": "{{lang|ko|제주 유나이티드 FC/濟州유나이티드 FC",
+      "conv": "zh:济州联; zh-hans:济州联; zh-cn:济州联; zh-hk:濟州聯; zh-tw:濟州聯; "
+    },
+    {
+      "original": "{{lang|ko|인천 유나이티드 FC/仁川유나이티드 FC",
+      "conv": "zh:仁川联; zh-hans:仁川联; zh-cn:仁川联; zh-hk:仁川聯; zh-tw:仁川聯; "
+    },
+    {
+      "original": "{{lang|ko|서울 이랜드 FC",
+      "conv": "zh:首尔E-Land; zh-hans:首尔E-Land; zh-hant:首爾衣戀; zh-cn:首尔衣恋; zh-hk:首爾E-Land; zh-tw:首爾E-Land; "
+    },
+    {
+      "original": "K리그",
+      "conv": "zh:韩国职业足球联赛; zh-hans:韩国K联赛; zh-hant:南韓K聯賽; zh-cn:韩国职业足球联赛; zh-hk:南韓K聯賽; zh-tw:南韓K聯賽; "
+    },
+    {
+      "original": "K리그",
+      "conv": "zh:韩国职业足球联赛; zh-hans:K联赛; zh-hant:K聯賽; zh-cn:韩国职业足球联赛; zh-hk:K聯賽; zh-tw:K聯賽; "
+    },
+    {
+      "original": "K리그 클래식",
+      "conv": "zh:韩国职业足球联赛经典级; zh-hans:经典K联赛; zh-hant:經典K聯賽; zh-cn:韩国职业足球经典联赛; zh-hk:經典K聯賽; zh-tw:經典K聯賽; "
+    },
+    {
+      "original": "K리그 챌린지",
+      "conv": "zh:韩国职业足球联赛挑战级; zh-hans:挑战K联赛; zh-hant:挑戰K聯賽; zh-cn:韩国职业足球挑战联赛; zh-hk:挑戰K聯賽; zh-tw:挑戰K聯賽; "
+    },
+    {
+      "original": "K리그 시즌",
+      "conv": "zh:韩国职业足球联赛常规赛; zh-hans:K联赛常规赛; zh-hant:K聯賽常規賽; zh-cn:韩国职业足球联赛常规赛; zh-hk:K聯賽常規賽; zh-tw:K聯賽例行賽; "
+    },
+    {
+      "original": "K리그 플레이오프",
+      "conv": "zh:韩国职业足球联赛季后赛; zh-hans:K联赛季后赛; zh-hant:K聯賽季後賽; zh-cn:韩国职业足球联赛季后赛; zh-hk:K聯賽季後賽; zh-tw:K聯賽季後賽; "
+    },
+    {
+      "original": "K리그 챔피언십",
+      "conv": "zh:韩国职业足球联赛季后锦标赛; zh-hans:K联赛季后锦标赛; zh-hant:K聯賽季後錦標賽; zh-cn:韩国职业足球联赛季后锦标赛; zh-hk:K聯賽季後錦標賽; zh-tw:K聯賽季後錦標賽; "
+    },
+    {
+      "original": "K리그 클래식 시즌",
+      "conv": "zh:韩国职业足球联赛经典级常规赛; zh-hans:经典K联赛常规赛; zh-hant:經典K聯賽常規賽; zh-cn:韩国职业足球经典联赛常规赛; zh-hk:經典K聯賽常規賽; zh-tw:經典K聯賽例行賽; "
+    },
+    {
+      "original": "K리그 클래식 플레이오프",
+      "conv": "zh:韩国职业足球联赛经典级季后赛; zh-hans:经典K联赛季后赛; zh-hant:經典K聯賽季後賽; zh-cn:韩国职业足球挑战联赛季后赛; zh-hk:挑戰K聯賽季後賽; zh-tw:挑戰K聯賽季後賽; "
+    },
+    {
+      "original": "K리그 승강 플레이오프",
+      "conv": "zh:韩国职业足球联赛升降级附加赛; zh-hans:K联赛升降级附加赛; zh-hant:K聯賽升降級附加賽; zh-cn:韩国职业足球联赛升降级附加赛; zh-hk:K聯賽升降班附加賽; zh-tw:K聯賽升降級附加賽; "
+    },
+    {
+      "original": "K리그 올스타전",
+      "conv": "zh:韩国职业足球联赛全明星赛; zh-hans:K联赛全明星赛; zh-hant:K聯賽全明星賽; zh-cn:韩国职业足球联赛全明星赛; zh-hk:K聯賽全明星賽; zh-tw:K聯賽全明星賽; "
+    },
+    {
+      "original": "한국내셔널리그",
+      "conv": "zh:韩国国家联赛; zh-hans:韩国国家联赛; zh-hant:韓國國家聯賽; zh-cn:韩国全国联赛; zh-hk:南韓國家聯賽; zh-tw:南韓國家聯賽; "
+    },
+    {
+      "original": "한국내셔널축구선수권대회",
+      "conv": "zh:韩国国家联赛锦标赛; zh-hans:韩国国家联赛锦标赛; zh-cn:韩国全国联赛锦标赛; zh-hk:南韓國家聯賽錦標賽; zh-tw:南韓國家聯賽錦標賽; "
+    },
+    {
+      "original": "K3리그",
+      "conv": "zh:韩国挑战者联赛; zh-hans:韩国挑战者联赛; zh-hant:韓國挑戰者聯賽; zh-cn:韩国挑战者联赛; zh-hk:南韓挑戰者聯賽; zh-tw:南韓挑戰者聯賽; "
+    },
+    {
+      "original": "챌린저스컵",
+      "conv": "zh:韩国挑战者杯; zh-hans:韩国挑战者杯; zh-hant:韓國挑戰者盃; zh-cn:韩国挑战者杯; zh-hk:南韓挑戰者盃; zh-tw:南韓挑戰者盃; "
+    },
+    {
+      "original": "한국FA컵",
+      "conv": "zh:韩国足协杯; zh-hans:韩国足协杯; zh-hant:韓國足總盃; zh-cn:韩国足协杯; zh-hk:南韓足總盃; zh-tw:南韓足總盃; "
+    },
+    {
+      "original": "K리그 컵",
+      "conv": "zh:韩国联赛杯; zh-hans:韩国联赛杯; zh-hant:韓國聯賽盃; zh-cn:韩国联赛杯; zh-hk:南韓聯賽盃; zh-tw:南韓聯賽盃; "
+    },
+    {
+      "original": "한국슈퍼컵",
+      "conv": "zh:韩国超级杯; zh-hans:韩国超级杯; zh-hant:韓國超级盃; zh-cn:韩国超级杯; zh-hk:南韓超级盃; zh-tw:南韓超级盃; "
+    },
+    {
+      "original": "월드컵경기장",
+      "conv": "zh:世界杯竞技场; zh-hant:世界盃競技場; zh-cn:世界杯体育场; zh-hk:世界盃競技場; "
+    }
+  ]
+}

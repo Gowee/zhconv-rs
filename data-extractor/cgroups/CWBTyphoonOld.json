@@ -1,0 +1,375 @@
+{
+  "name": "CWBTyphoonOld",
+  "description": "台灣中央氣象局舊颱風命名（2000年－2013年7月18日使用）",
+  "path": "Template:CGroup/CWBTyphoonOld",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:达维;zh-tw:丹瑞;zh-hk:達維"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鸿雁;zh-tw:奇洛基;zh-hk:鴻雁"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:艾云尼;zh-tw:艾維尼;zh-hk:艾雲尼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:格美;zh-tw:凱米;zh-hk:格美"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:派比安;zh-tw:巴比侖;zh-hk:派比安"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:山神;zh-tw:山廷;zh-hk:山神"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:摩羯;zh-tw:雅吉;zh-hk:摩羯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:贝碧嘉;zh-tw:貝碧佳;zh-hk:貝碧嘉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:温比亚;zh-tw:倫比亞;zh-hk:溫比亞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:西马仑;zh-tw:西馬隆;zh-hk:西馬侖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:飞燕;zh-tw:奇比;zh-hk:飛燕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:康妮;zh-tw:康瑞;zh-hk:康妮"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:天兔;zh-tw:烏莎吉;zh-hk:天兔"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蝴蝶;zh-tw:梧提;zh-hk:蝴蝶"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:百合;zh-tw:納莉;zh-hk:百合"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗莎;zh-tw:柯羅莎;zh-hk:羅莎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杨柳;zh-tw:普都;zh-hk:楊柳"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:剑鱼;zh-tw:卡杰奇;zh-hk:劍魚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:法茜;zh-tw:法西;zh-hk:法茜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:米娜;zh-tw:米塔;zh-hk:米娜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海贝思;zh-tw:哈吉貝;zh-hk:海貝思"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:浣熊;zh-tw:諾古力;zh-hk:浣熊"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:威马逊;zh-tw:雷馬遜;zh-hk:威馬遜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:夏浪;zh-tw:哈隆;zh-hk:夏浪"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:娜基莉;zh-tw:娜克莉;zh-hk:娜基莉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海鸥;zh-tw:卡玫基;zh-hk:海鷗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:北冕;zh-tw:卡莫里;zh-hk:北冕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巴蓬;zh-tw:巴逢;zh-hk:巴蓬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:黄蜂;zh-tw:王峰;zh-hk:黃蜂"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鹦鹉;zh-tw:如麗;zh-hk:鸚鵡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:森拉克;zh-tw:辛樂克;zh-hk:森垃克"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:黑格比;zh-tw:哈格比;zh-hk:黑格比"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蔷薇;zh-tw:薔蜜;zh-hk:薔薇"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美莎克;zh-tw:梅莎;zh-hk:美莎克"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:红霞;zh-tw:諾爾;zh-hk:紅霞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:白海豚;zh-tw:多爾芬;zh-hk:白海豚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鲸鱼;zh-tw:柯吉拉;zh-hk:鯨魚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:灿鸿;zh-tw:昌鴻;zh-hk:燦鴻"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:浪卡;zh-tw:南卡;zh-hk:浪卡"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苏迪罗;zh-tw:蘇迪勒;zh-hk:蘇迪羅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:天鹅;zh-tw:柯尼;zh-hk:天鵝"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:艾涛;zh-tw:艾陶;zh-hk:艾濤"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:环高;zh-tw:梵高;zh-hk:環高"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩虹;zh-tw:莫吉給;zh-hk:彩虹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巨爵;zh-tw:柯普;zh-hk:巨爵"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:烟花;zh-tw:烟花;zh-hk:煙花"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:茉莉;zh-tw:米勒;zh-hk:茉莉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:银河;zh-tw:米瑞內;zh-hk:銀河"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:灿都;zh-tw:璨樹;zh-hk:燦都"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蒲公英;zh-tw:敏督利;zh-hk:蒲公英"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:狮子山;zh-tw:萊羅克;zh-hk:獅子山"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:圆规;zh-tw:康伯斯;zh-hk:圓規"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:南川;zh-tw:南修;zh-hk:南川"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鲇鱼;zh-tw:梅姬;zh-hk:鮎魚"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:暹芭;zh-tw:佳芭;zh-hk:暹芭"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:莎莉嘉;zh-tw:莎莉佳;zh-hk:莎莉嘉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蝎虎;zh-tw:陶卡基;zh-hk:蝎虎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:洛坦;zh-tw:納坦;zh-hk:洛坦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苗柏;zh-tw:莫柏;zh-hk:苗柏"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奥鹿;zh-tw:諾盧;zh-hk:奧鹿"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:玫瑰;zh-tw:庫拉;zh-hk:玫瑰"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:纳沙;zh-tw:尼莎;zh-hk:納沙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:尼格;zh-tw:奈格;zh-hk:尼格"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:榕树;zh-tw:榕樹;zh-hk:榕樹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古超;zh-tw:谷超;zh-hk:古超"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:宝霞;zh-tw:寶發;zh-hk:寶霞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:清松;zh-tw:蘇納姆;zh-hk:清松"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:榴莲;zh-tw:榴槤;zh-hk:榴槤; zh-sg:榴梿"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鹿莎;zh-tw:露莎;zh-hk:鹿莎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凤仙;zh-tw:彭梭娜;zh-hk:鳳仙"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:欣欣;zh-tw:妍妍;zh-hk:欣欣"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊布都;zh-tw:尹布都;zh-hk:伊布都"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鸣蝉;zh-tw:梅米;zh-hk:鳴蟬"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苏特;zh-tw:舒達;zh-hk:蘇特"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凯萨娜;zh-tw:凱莎娜;zh-hk:凱薩娜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:云娜;zh-tw:蘭寧;zh-hk:雲娜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凡亚比;zh-tw:凡那比;zh-hk:凡亞比"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:天鹰;zh-tw:瓦西;zh-hk:天鷹"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:麦莎;zh-tw:馬莎;zh-hk:麥莎"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩蝶;zh-tw:娜比;zh-hk:彩蝶"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:杰拉华;zh-tw:杰拉華;zh-hk:杰拉華"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:海高斯;zh-tw:海高斯;zh-hk:海高斯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桃芝;zh-tw:桃芝;zh-hk:桃芝"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韦帕;zh-tw:韋帕;zh-hk:韋帕"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:艾莎尼;zh-tw:艾莎尼;zh-hk:艾莎尼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊欧凯;zh-tw:伊歐佳;zh-hk:伊歐凱"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:胡高;zh-tw:修寇;zh-hk:胡高"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡特里娜;zh-tw:卡崔娜;zh-hk:卡特里娜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:纳尔吉斯;zh-tw:納吉斯;zh-hk:納基斯"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佩娃;zh-hk:佩娃;zh-tw:皮瓦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:乌娜拉;zh-hk:烏娜拉;zh-tw:尤娜拉"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:吉纳维芙;zh-hk:吉納維芙;zh-tw:金娜薇"
+    }
+  ]
+}

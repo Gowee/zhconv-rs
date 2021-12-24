@@ -1,0 +1,91 @@
+{
+  "name": "GossipGirl",
+  "description": "-{zh-hans:绯闻女孩; zh-tw:花邊教主; zh-hk:花邊教主;}-",
+  "path": "Template:CGroup/GossipGirl",
+  "rules": [
+    {
+      "original": "Gossip Girl",
+      "conv": "zh-cn:绯闻女孩; zh-tw:花邊教主; zh-hk:花邊教主;"
+    },
+    {
+      "original": "Abrams, Vanessa",
+      "conv": "zh-cn:瓦妮莎·艾布拉姆斯; zh-hk:凡妮莎;"
+    },
+    {
+      "original": "Archibald, Nate",
+      "conv": "zh-cn:纳特·阿奇博尔德; zh-tw:內特·亞齊柏德; zh-hk:歐尼特;"
+    },
+    {
+      "original": "Bass, Chuck",
+      "conv": "zh-cn:查克·巴斯; zh-tw:柴克·貝斯; zh-hk:白齊克;"
+    },
+    {
+      "original": "Humphrey, Dan",
+      "conv": "zh-cn:丹·汉弗莱; zh-tw:丹·漢弗瑞; zh-hk:韓定禮;"
+    },
+    {
+      "original": "Humphrey, Jenny",
+      "conv": "zh-cn:珍妮·汉弗莱; zh-tw:珍妮·漢弗瑞; zh-hk:韓珍妮;"
+    },
+    {
+      "original": "Humphrey, Rufus",
+      "conv": "zh-cn:鲁弗斯·汉弗莱; zh-tw:魯佛斯·漢弗瑞; zh-hk:韓魯弗;"
+    },
+    {
+      "original": "van der Woodsen, Serena",
+      "conv": "zh-cn:塞雷娜·范德伍德森; zh-tw:瑟蕾娜·凡德伍德森; zh-hk:韋倩蓮;"
+    },
+    {
+      "original": "Lily van der Woodsen",
+      "conv": "zh-cn:莉莉·范德伍德森; zh-hk:韋莉莉; zh-tw:莉莉·凡德伍德森;"
+    },
+    {
+      "original": "Waldorf, Blair",
+      "conv": "zh-cn:布莱尔·沃尔多夫; zh-tw:布蕾爾·沃德夫; zh-hk:胡貝雅;"
+    },
+    {
+      "original": "Badgley, Penn",
+      "conv": "zh-cn:佩恩·巴杰利; zh-tw:潘恩·巴傑立; zh-hk:潘·巴支利;"
+    },
+    {
+      "original": "Bell, Kristen",
+      "conv": "zh-cn:克里斯滕·贝尔; zh-tw:基絲汀·貝爾;"
+    },
+    {
+      "original": "Crawford, Chace",
+      "conv": "zh-cn:蔡斯·克劳福德; zh-tw:柴斯·克勞福; zh-hk:查斯·歌羅馥;"
+    },
+    {
+      "original": "Jessica Szohr",
+      "conv": "zh-cn:杰西卡·斯佐尔; zh-tw:潔西卡·柔兒; zh-hk:謝茜嘉·蘇佐;"
+    },
+    {
+      "original": "Lively, Blake",
+      "conv": "zh-cn:布雷克·莱弗利; zh-tw:布蕾克·萊弗莉; zh-hk:布娜克·利夫尼;"
+    },
+    {
+      "original": "Meester, Leighton",
+      "conv": "zh-cn:莱顿·梅斯特; zh-tw:蕾頓·米絲特; zh-hk:麗頓·麥斯達;"
+    },
+    {
+      "original": "Momsen, Taylor",
+      "conv": "zh-cn:泰勒·莫姆森; zh-tw:泰莉·曼森; zh-hk:泰萊·麥遜;"
+    },
+    {
+      "original": "Rutherford, Kelly",
+      "conv": "zh-cn:凯莉·拉瑟福德; zh-tw:凱莉·拉塞福; zh-hk:凱莉·魯瑟福;"
+    },
+    {
+      "original": "Settle, Matthew",
+      "conv": "zh-cn:马修·塞特尔; zh-tw:馬修·塞特爾;"
+    },
+    {
+      "original": "Trachtenberg, Michelle",
+      "conv": "zh-cn:米歇尔·特拉亨伯格; zh-hk:蜜雪兒·柴藤伯;"
+    },
+    {
+      "original": "Westwick, Ed",
+      "conv": "zh-cn:埃德·韦斯特威克; zh-tw:艾德·韋斯維克; zh-hk:艾德·域斯韋克;"
+    }
+  ]
+}

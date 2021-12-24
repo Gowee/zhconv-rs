@@ -1,0 +1,235 @@
+{
+  "name": "Half-Life",
+  "description": "-{zh-hans:半衰期;zh-hant:戰慄時空;zh-tw:戰慄時空;zh-sg:半条命}-",
+  "path": "Module:CGroup/Half-Life",
+  "rules": [
+    {
+      "original": "Half-Life",
+      "conv": "zh-cn:半衰期; zh-tw:戰慄時空;zh-hk:戰慄時空;"
+    },
+    {
+      "original": "Opposing Force",
+      "conv": "zh-cn:针锋相对; zh-tw:正面交鋒;zh-hk:正面交鋒;"
+    },
+    {
+      "original": "Blue Shift",
+      "conv": "zh-cn:蓝色行动; zh-tw:關鍵時刻; zh-hk:關鍵時刻;"
+    },
+    {
+      "original": "Source",
+      "conv": "zh-cn:起源; zh-tw:次世代;"
+    },
+    {
+      "original": "Half-Life 2: Episode One",
+      "conv": "zh-cn:半衰期2：第一章; zh-tw:戰慄時空2首部曲：浩劫重生;"
+    },
+    {
+      "original": "Episode One",
+      "conv": "zh-cn:第一章; zh-tw:浩劫重生;"
+    },
+    {
+      "original": "Episode Two",
+      "conv": "zh-cn:第二章; zh-tw:二部曲;"
+    },
+    {
+      "original": "Episode Three",
+      "conv": "zh-cn:第三章; zh-tw:三部曲;"
+    },
+    {
+      "original": "Deathmatch",
+      "conv": "zh-cn:死亡竞赛; zh-tw:死鬥模式;"
+    },
+    {
+      "original": "Half-Life: Alyx",
+      "conv": "zh-cn:半衰期：爱莉克斯; zh-tw:戰慄時空：艾莉克絲;"
+    },
+    {
+      "original": "Counter-Strike",
+      "conv": "zh-cn:反恐精英; zh-tw:絕對武力;zh-hk:絕對武力;"
+    },
+    {
+      "original": "Condition Zero",
+      "conv": "zh-cn:零点行动; zh-tw:一觸即發;"
+    },
+    {
+      "original": "Day of Defeat",
+      "conv": "zh-cn:胜利之日; zh-tw:決勝之日;"
+    },
+    {
+      "original": "Day of Defeat: Source",
+      "conv": "zh-cn:胜利之日：起源; zh-tw:決勝之日：次世代;"
+    },
+    {
+      "original": "Team Fortress",
+      "conv": "zh-cn:军团要塞; zh-tw:絕地要塞; zh-hk:絕地要塞;"
+    },
+    {
+      "original": "Left 4 Dead",
+      "conv": "zh-cn:求生之路; zh-tw:惡靈勢力; zh-hk:惡靈勢力;"
+    },
+    {
+      "original": "The Orange Box",
+      "conv": "zh-cn:橙盒; zh-tw:橘盒; zh-hk:橙盒;"
+    },
+    {
+      "original": "Gordan",
+      "conv": "zh-cn:戈登; zh-tw:高登; zh-hk:高登;"
+    },
+    {
+      "original": "Alyx",
+      "conv": "zh-cn:爱丽克斯; zh-tw:艾莉絲; zh-hk:艾莉絲;"
+    },
+    {
+      "original": "Issac",
+      "conv": "zh-cn:艾萨克; zh-tw:伊薩克; zh-hk:伊薩克;"
+    },
+    {
+      "original": "Calhoun",
+      "conv": "zh-cn:卡尔霍恩;zh-tw:卡漢;zh-hk:卡漢;"
+    },
+    {
+      "original": "Adrian",
+      "conv": "zh-cn:阿德里安;zh-tw:亞德里安;"
+    },
+    {
+      "original": "Shephard",
+      "conv": "zh-cn:谢泼德;zh-tw:雪伯特;"
+    },
+    {
+      "original": "Wallace",
+      "conv": "zh-cn:华莱士; zh-tw:瓦勒斯; zh-hk:瓦勒斯;"
+    },
+    {
+      "original": "Dog",
+      "conv": "zh-cn:阿狗; zh-tw:狗狗; zh-hk:狗狗;"
+    },
+    {
+      "original": "Judith",
+      "conv": "zh-cn:朱蒂斯; zh-tw:茱蒂絲; zh-hk:朱迪絲;"
+    },
+    {
+      "original": "Odessa",
+      "conv": "zh-cn:奥德萨; zh-tw:歐德沙; zh-hk:歐德沙;"
+    },
+    {
+      "original": "Father Grigori",
+      "conv": "zh-cn:葛利高力神父; zh-tw:古格利神父; zh-hk:古格利神父;"
+    },
+    {
+      "original": "Vortigaunt",
+      "conv": "zh-cn:弗地冈人; zh-tw:佛締岡; zh-hk:佛地岡;"
+    },
+    {
+      "original": "Stalker ",
+      "conv": "zh-cn:潜行者; zh-tw:跟蹤者;"
+    },
+    {
+      "original": " Civil Protection",
+      "conv": "zh-cn:国民护卫队; zh-tw: 保安局;"
+    },
+    {
+      "original": " Combine Soldier",
+      "conv": "zh-cn:联合军士兵; zh-tw:合成人士兵;"
+    },
+    {
+      "original": " Combine Scanner",
+      "conv": "zh-cn:联合军侦察机; zh-tw:合成人偵測器;"
+    },
+    {
+      "original": "Manhack",
+      "conv": "zh-cn:飞锯; zh-tw:飛鋸;"
+    },
+    {
+      "original": "Combine APC ",
+      "conv": "zh-cn:联合军装甲车; zh-tw:合成人生化運兵車;"
+    },
+    {
+      "original": "Helicopter",
+      "conv": "zh-cn:联合军直升机; zh-tw:合成人武裝直升機;"
+    },
+    {
+      "original": " Combine Gunship ",
+      "conv": "zh-cn:联合军炮艇; zh-tw:合成生化炮船;"
+    },
+    {
+      "original": "Strider ",
+      "conv": "zh-cn:三脚机甲; zh-tw:長腳蜘蛛;"
+    },
+    {
+      "original": " Antlion ",
+      "conv": "zh-cn:蚁狮; zh-tw:獅蟻;"
+    },
+    {
+      "original": " Antlion Guard",
+      "conv": "zh-cn:蚁狮守卫; zh-tw: 獅蟻衛兵;"
+    },
+    {
+      "original": "Headcrab",
+      "conv": "zh-cn:猎头蟹; zh-tw:食腦蟲;"
+    },
+    {
+      "original": "Combine",
+      "conv": "zh-cn:联合军; zh-tw:合成人;"
+    },
+    {
+      "original": "Zombine",
+      "conv": "zh-cn:僵尸; zh-tw:殭屍人;"
+    },
+    {
+      "original": "Civil Protection",
+      "conv": "zh-cn:国民警卫队; zh-tw:市民保安隊"
+    },
+    {
+      "original": "Crowbar",
+      "conv": "zh-cn:撬棍; zh-tw:鐵撬;"
+    },
+    {
+      "original": "Stunstick",
+      "conv": "zh-cn:电棍; zh-tw:電擊棒;"
+    },
+    {
+      "original": " Pulse-Rifle",
+      "conv": "zh-cn:脉冲来复枪; zh-tw: 脈衝槍;"
+    },
+    {
+      "original": "Crossbow",
+      "conv": "zh-cn:弩; zh-tw: 十字弓;"
+    },
+    {
+      "original": " Rocket Propelled Grenade",
+      "conv": "zh-cn:火箭推进榴弹; zh-tw: 火箭發射器;"
+    },
+    {
+      "original": "Pheropod",
+      "conv": "zh-cn:信息素; zh-tw:費洛帕;zh-hk:蟲餌;"
+    },
+    {
+      "original": "Magnusson",
+      "conv": "zh-cn:马格努森; zh-tw:馬諾森;"
+    },
+    {
+      "original": "Magnusson Device",
+      "conv": "zh-cn:马格努森装置; zh-tw:馬諾森系統;"
+    },
+    {
+      "original": "Black Mesa Research Facility",
+      "conv": "zh-cn:黑山研究所;zh-tw:黑色高地實驗室; zh-hk:黑色高地實驗室;"
+    },
+    {
+      "original": "Black Mesa",
+      "conv": "zh-cn:黑山;zh-tw:黑色高地;zh-hk:黑色高地;"
+    },
+    {
+      "original": "Black Mesa East",
+      "conv": "zh-cn:黑山研究所东站; zh-tw:黑色高地東站;"
+    },
+    {
+      "original": "Ravenholm",
+      "conv": "zh-cn:莱温霍姆;zh-tw:渡鴨市;zh-hk:渡鴉市;"
+    },
+    {
+      "original": "Nova Proskept",
+      "conv": "zh-cn:诺瓦矿场; zh-tw:諾瓦廣場;"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "音樂劇",
+  "description": "音樂劇",
+  "path": "Module:CGroup/音樂劇",
+  "rules": [
+    {
+      "original": "example",
+      "conv": "zh:範例;zh-hans:範例;zh-hant:範例;zh-cn:範例;zh-tw:範例;zh-hk:範例;zh-sg:範例;zh-mo:範例;"
+    },
+    {
+      "original": "The Phantom of the Opera",
+      "conv": "zh-hans:歌剧魅影;zh-hk:歌聲魅影;zh-tw:歌劇魅影;"
+    },
+    {
+      "original": "Les Misérables",
+      "conv": "zh-hans:悲惨世界;zh-hant:悲慘世界;"
+    },
+    {
+      "original": "The Sound of Music",
+      "conv": "zh-hans:音乐之声;zh-hk:仙樂飄飄處處聞;zh-tw:真善美;"
+    },
+    {
+      "original": "West Side Story",
+      "conv": "zh-hans:西城故事;zh-hant:西城故事;zh-cn:西区故事;zh-tw:西城故事;zh-hk:夢斷城西;zh-mo:夢斷城西;"
+    },
+    {
+      "original": "Notre-Dame de Paris",
+      "conv": "zh-hans:巴黎圣母院 (音乐剧);zh-hant:巴黎聖母院（音樂劇）;zh-tw:鐘樓怪人（音樂劇）;"
+    },
+    {
+      "original": "Jean Valjean",
+      "conv": "zh-hans:冉阿让;zh-hk:鏘·巴路鏘;zh-tw:尚萬強;"
+    },
+    {
+      "original": "Enjolras",
+      "conv": "zh-hans:安灼拉;zh-hk:安東尼拉斯;zh-tw:恩佐拉;"
+    },
+    {
+      "original": "Raoul",
+      "conv": "zh-hant:勞爾;zh-tw:韓晤;"
+    },
+    {
+      "original": "Gaston Leroux",
+      "conv": "zh-hans:加斯东·勒鲁; zh-hant:卡斯頓·勒胡;"
+    },
+    {
+      "original": "Andrew Lloyd Webber",
+      "conv": "zh-cn:安德鲁·劳埃德·韦伯; zh-tw:安德魯·洛伊·韋伯; zh-hk:安德魯·萊特·韋伯;"
+    },
+    {
+      "original": "Lloyd Webber",
+      "conv": "zh-cn:劳埃德·韦伯; zh-tw:洛伊·韋伯; zh-hk:萊特·韋伯;"
+    },
+    {
+      "original": "Tony Award",
+      "conv": "zh-hans:托尼奖;zh-hant:東尼獎;zh-cn:托尼奖;zh-tw:東尼獎;"
+    }
+  ]
+}

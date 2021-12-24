@@ -1,0 +1,183 @@
+{
+  "name": "Table Tennis",
+  "description": "乒乓球",
+  "path": "Template:CGroup/Table Tennis",
+  "rules": [
+    {
+      "original": "Table Tennis",
+      "conv": "zh:乒乓球; zh-cn:乒乓球; zh-hk:乒乓球; zh-tw:桌球;"
+    },
+    {
+      "original": "International Table Tennis Federation",
+      "conv": "zh-cn:国际乒乓球联合会; zh-tw:國際桌球總會; zh-hk:國際乒乓球聯合會;zh:國際乒乓球總會 "
+    },
+    {
+      "original": "ITTF",
+      "conv": "zh-cn:国际乒联; zh-tw:國際桌總; zh-hk:國際乒聯; zh:國際桌總;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亚洲乒乓球联合会; zh:亞洲乒乓球聯盟; zh-hk:亞洲乒乓球聯盟; zh-tw:亞洲桌球聯盟; "
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:国家体育总局乒乓球羽毛球运动管理中心; zh-hant:國家體育總局乒乓球羽毛球運動管理中心; "
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:中国乒乓球协会; zh-hant:中國乒乓球協會; "
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:香港乒乓总会; zh-hant:香港乒乓總會; "
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:中华民国桌球协会; zh-hant:中華民國桌球協會; "
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:日本桌球协会; zh-hant:日本桌球協會; "
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:大韩桌球协会; zh-hant:大韓桌球協會; "
+    },
+    {
+      "original": null,
+      "conv": "zh:亞洲乒乓球錦標賽; zh-cn:亚洲乒乓球锦标赛; zh-hk:亞洲乒乓球錦標賽; zh-tw:亞洲桌球錦標賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh:歐洲乒乓球錦標賽; zh-cn:欧洲乒乓球锦标赛; zh-hk:歐洲乒乓球錦標賽; zh-tw:歐洲桌球錦標賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh:世界乒乓球錦標賽; zh-cn:世界乒乓球锦标赛; zh-hk:世界乒乓球錦標賽; zh-tw:世界桌球錦標賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh:世界盃乒乓球賽; zh-cn:世界杯乒乓球赛; zh-hk:世界盃乒乓球賽; zh-tw:世界盃桌球賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh:國際乒聯職業巡迴賽總決賽; zh-cn:国际乒联职业巡回赛总决赛; zh-hk:國際乒聯職業巡迴賽總決賽; zh-tw:國際桌總職業巡迴賽總決賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh:世乒賽; zh-cn:世乒赛; zh-hk:世乒賽; zh-tw:世桌賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh:亞乒賽; zh-cn:亚乒赛; zh-hk:亞乒賽; zh-tw:亞桌賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:日本桌球联赛; zh-hant:日本桌球聯賽; "
+    },
+    {
+      "original": "Australia",
+      "conv": "zh-cn:澳大利亚; zh-hk:澳洲"
+    },
+    {
+      "original": "Doha",
+      "conv": "zh-cn:多哈; zh:杜哈; zh-hk:多哈"
+    },
+    {
+      "original": "Qatar",
+      "conv": "zh-cn:卡塔尔; zh-hk:卡塔爾; zh-tw:卡達"
+    },
+    {
+      "original": "Sydney",
+      "conv": "zh-cn:悉尼; zh-hk:悉尼; zh-tw:雪梨"
+    },
+    {
+      "original": "Goteburg",
+      "conv": "zh-cn:哥德堡; zh-hk:哥登堡; zh-tw:哥特堡"
+    },
+    {
+      "original": "Dortmund",
+      "conv": "zh-cn:多特蒙德; zh-hk:多蒙特; zh-tw:多特蒙德"
+    },
+    {
+      "original": "Eindhoven",
+      "conv": "zh-cn:埃因霍温; zh-hk:燕豪芬; zh-tw:埃因霍溫"
+    },
+    {
+      "original": "Jan-Ove Waldner",
+      "conv": "zh-cn:瓦尔德内尔;zh-hk:瓦爾德內爾;zh-tw:華德納"
+    },
+    {
+      "original": "Dimitrij Ovtcharov",
+      "conv": "zh-cn:迪米特里·奥恰洛夫;zh-hk:迪米特里·奧查洛夫;zh-tw:迪米特里·奧恰洛夫"
+    },
+    {
+      "original": "Leung",
+      "conv": "zh-cn:梁柱恩;zh-hk:梁柱恩;zh-tw:梁柱恩"
+    },
+    {
+      "original": "Ovtcharov",
+      "conv": "zh-cn:奥恰洛夫;zh-hk:奧查洛夫;zh-tw:奧恰洛夫"
+    },
+    {
+      "original": "Yu",
+      "conv": "zh-cn:于梦雨;zh-hk:于夢雨;zh-tw:于夢雨"
+    },
+    {
+      "original": "Group Stage",
+      "conv": "zh-hk:分組賽;zh-cn:小组赛;zh-tw:小組賽;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "zh-hk:半準決賽;zh-cn:四分之一决赛;zh-tw:半準決賽;"
+    },
+    {
+      "original": "semifinal",
+      "conv": "zh-hk:準決賽;zh-cn:半决赛;zh-tw:準決賽;"
+    },
+    {
+      "original": "first round",
+      "conv": "zh-cn:第一轮;zh-hk:第一圈;zh-tw:第一輪"
+    },
+    {
+      "original": "second round",
+      "conv": "zh-cn:第二轮;zh-hk:第二圈;zh-tw:第二輪"
+    },
+    {
+      "original": "third round",
+      "conv": "zh-cn:第三轮;zh-hk:第三圈;zh-tw:第三輪"
+    },
+    {
+      "original": "4th round",
+      "conv": "zh-cn:第四轮;zh-hk:第四圈;zh-tw:第四輪"
+    },
+    {
+      "original": "5th round",
+      "conv": "zh-cn:第五轮;zh-hk:第五圈;zh-tw:第五輪"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:搭档;zh-hk:拍檔;zh-tw:搭檔"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:联同;zh-hk:夥拍;zh-tw:聯同"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:合作;zh-hk:合拍;zh-tw:合作"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乒坛;zh-hk:乒壇;zh-tw:桌壇"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:裁判;zh-hk:球證;zh-tw:裁判"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:反胶;zh-hk:反貼;zh-tw:反膠"
+    }
+  ]
+}

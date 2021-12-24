@@ -1,0 +1,75 @@
+{
+  "name": "葡超",
+  "description": "-{zh-hk:葡萄牙超級足球聯賽;zh-tw:葡萄牙足球超級聯賽;zh-cn:葡萄牙足球超级联赛;}-",
+  "path": "Template:CGroup/葡超",
+  "rules": [
+    {
+      "original": "Primeira Liga",
+      "conv": "zh-hans:葡萄牙足球超级联赛;zh-hk:葡萄牙超級足球聯賽;zh-tw:葡萄牙足球超級聯賽;"
+    },
+    {
+      "original": "Belenense",
+      "conv": "zh-hans:贝伦人; zh-hk:比蘭倫斯; zh-tw:貝倫人;"
+    },
+    {
+      "original": "Benfica (Sport Lisboa e Benfica)",
+      "conv": "zh-hans:本菲卡;zh-hk:賓菲加;zh-tw:本菲卡;"
+    },
+    {
+      "original": "Boavista",
+      "conv": "zh-hans:博阿维什塔;zh-hk:博維斯塔;zh-tw:博阿維斯塔;"
+    },
+    {
+      "original": "Estoril (Grupo Desportivo Estoril Praia)",
+      "conv": "zh:埃斯托里爾; zh-hans:埃什托里尔; zh-hk:艾斯杜尼; zh-mo:伊斯托里爾;"
+    },
+    {
+      "original": "Farense",
+      "conv": "zh-hans:法鲁人;zh-hk:法倫斯;"
+    },
+    {
+      "original": "Ferreira",
+      "conv": "zh-hans:费雷拉; zh-hk:費利拿; zh-tw:費雷拉;"
+    },
+    {
+      "original": "Gil Vicente",
+      "conv": "zh-hans:吉尔维森特; zh-tw:吉爾維森特; zh-hk:基維辛迪;"
+    },
+    {
+      "original": "Guimaraes",
+      "conv": "zh-hans:吉马良斯; zh-hant:吉馬良斯; zh-hk:甘馬雷斯;"
+    },
+    {
+      "original": "Moreirense",
+      "conv": "zh-hans:莫雷伦斯; zh-hk:摩里倫斯; zh-tw:莫雷倫斯;"
+    },
+    {
+      "original": "Olhanense (Sporting Clube Olhanense)",
+      "conv": "zh-hans:奥良人;zh-hk:奧漢倫斯;"
+    },
+    {
+      "original": "Penafiel",
+      "conv": "zh-hans:佩纳菲尔; zh-hk:彭拿費爾; zh-tw:佩納菲爾;"
+    },
+    {
+      "original": "Portimonense",
+      "conv": "zh-hans:波蒂莫嫩塞;zh-hk:樸迪莫倫斯;zh-tw:波蒂莫嫩塞;"
+    },
+    {
+      "original": "Porto (Futebol Clube do Porto)",
+      "conv": "zh-cn:波尔图;zh-hk:波圖;zh-mo:波爾圖;zh-tw:波爾圖;"
+    },
+    {
+      "original": "Sporting CP",
+      "conv": "zh-hans:葡萄牙体育;zh-hk:士砵亭;zh-tw:體育CP;"
+    },
+    {
+      "original": "Setúbal (Vitória de Setúbal, Vitória Futebol Clube)",
+      "conv": "zh-hans:塞图巴尔; zh-hk:塞圖巴爾;"
+    },
+    {
+      "original": "Tondela",
+      "conv": "zh-cn:通德拉; zh-tw:通德拉; zh-hk:唐迪拉"
+    }
+  ]
+}

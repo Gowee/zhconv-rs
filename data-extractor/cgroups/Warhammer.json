@@ -1,0 +1,39 @@
+{
+  "name": "Warhammer",
+  "description": "战锤40000",
+  "path": "Template:CGroup/Warhammer",
+  "rules": [
+    {
+      "original": "Chaos Rising",
+      "conv": "zh-cn:混沌崛起; zh-tw:渾沌再起;"
+    },
+    {
+      "original": "Dark Crusade",
+      "conv": "zh-cn:黑暗十字军; zh-tw:暗黑聖戰;"
+    },
+    {
+      "original": "Dawn of War",
+      "conv": "zh-cn:战争黎明; zh-tw:破曉之戰;"
+    },
+    {
+      "original": "Fire Warrior",
+      "conv": "zh-cn:火焰战士; zh-tw:烈焰戰鎚;"
+    },
+    {
+      "original": "Warhammer 40,000: Fire Warrior",
+      "conv": "zh-cn:战锤40000：火焰战士; zh-tw:烈焰戰鎚;"
+    },
+    {
+      "original": "Retribution",
+      "conv": "zh-cn:报应; zh-tw:天譴;"
+    },
+    {
+      "original": "Winter Assult",
+      "conv": "zh-cn:冬季攻势; zh-tw:冬襲;"
+    },
+    {
+      "original": "Warhammer 40,000:Space Marine",
+      "conv": "zh-cn:战锤40000：星际战士; zh-tw:戰鎚：殺無雙; zh-hk:戰鎚40000：星際戰士;"
+    }
+  ]
+}

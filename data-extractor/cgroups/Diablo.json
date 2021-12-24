@@ -1,0 +1,175 @@
+{
+  "name": "Diablo",
+  "description": "[[暗黑破坏神系列]]",
+  "path": "Template:CGroup/Diablo",
+  "rules": [
+    {
+      "original": "Reaper of Souls",
+      "conv": "zh-cn:死神之镰;zh-tw:奪魂之鐮;zh-hk:奪魂之鐮;zh-sg:夺魂之镰;zh-mo:奪魂之鐮;"
+    },
+    {
+      "original": "Diablo: Immortal",
+      "conv": "zh-cn:暗黑破坏神：不朽;zh-tw:暗黑破壞神 永生不朽;zh-hk:暗黑破壞神 永生不朽;zh-sg:暗黑破坏神：不朽;zh-mo:暗黑破壞神 永生不朽;"
+    },
+    {
+      "original": "Legacy of Blood",
+      "conv": "zh-cn:血之遗产;zh-tw:血魔甲;zh-hk:血魔甲;zh-sg:血魔甲;zh-mo:血魔甲;"
+    },
+    {
+      "original": "The Black Road",
+      "conv": "zh-cn:黑暗之路;zh-tw:黑魔道;zh-hk:黑魔道;zh-sg:黑魔道;zh-mo:黑魔道;"
+    },
+    {
+      "original": "Moon of the Spider",
+      "conv": "zh-cn:蜘蛛之月;zh-tw:蛛魔月;zh-hk:蛛魔月;zh-sg:蛛魔月;zh-mo:蛛魔月;"
+    },
+    {
+      "original": "Sanctuary",
+      "conv": "zh-cn:庇护之地;zh-tw:聖休亞瑞;zh-hk:聖休亞瑞;zh-sg:圣休亚瑞;zh-mo:聖休亞瑞;"
+    },
+    {
+      "original": "High Heavens",
+      "conv": "zh-cn:高阶天堂;zh-tw:至高天;zh-hk:至高天;zh-sg:至高天;zh-mo:至高天;"
+    },
+    {
+      "original": "Burning Hells",
+      "conv": "zh-cn:烈焰地狱;zh-tw:燃燒地獄;zh-hk:燃燒地獄;zh-sg:燃烧地狱;zh-mo:燃燒地獄;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:鲁·高因;zh-tw:魯高因;zh-hk:魯高因;zh-sg:鲁高因;zh-mo:魯高因;"
+    },
+    {
+      "original": "Westmarch",
+      "conv": "zh-cn:威斯特玛;zh-tw:衛斯馬屈;zh-hk:衛斯馬屈;zh-sg:卫斯马屈;zh-mo:衛斯馬屈;"
+    },
+    {
+      "original": "Pandemonium Fortress",
+      "conv": "zh-cn:混沌要塞;zh-tw:群魔堡壘;zh-hk:群魔堡壘;zh-sg:群魔堡垒;zh-mo:群魔堡壘;"
+    },
+    {
+      "original": "Kanduras",
+      "conv": "zh-cn:堪杜拉斯;zh-tw:坎德拉斯;zh-hk:坎德拉斯;zh-sg:坎德拉斯;zh-mo:坎德拉斯;"
+    },
+    {
+      "original": "Scosglen",
+      "conv": "zh-cn:索格伦;zh-tw:斯科斯格倫;zh-hk:斯科斯格倫;zh-sg:斯科斯格伦;zh-mo:斯科斯格倫;"
+    },
+    {
+      "original": "Fractured Peaks",
+      "conv": "zh-cn:裂峰山;zh-tw:碎峰嶺;zh-hk:碎峰嶺;zh-sg:碎峰岭;zh-mo:碎峰嶺;"
+    },
+    {
+      "original": "Dry Steppes",
+      "conv": "zh-cn:干燥平原;zh-tw:大乾原;zh-hk:大乾原;zh-sg:大干原;zh-mo:大乾原;"
+    },
+    {
+      "original": "Hawezar",
+      "conv": "zh-cn:哈维泽;zh-tw:哈維薩;zh-hk:哈維薩;zh-sg:哈维萨;zh-mo:哈維薩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凯基斯坦;zh-tw:卡基斯坦;zh-hk:卡基斯坦;zh-sg:卡基斯坦;zh-mo:卡基斯坦;"
+    },
+    {
+      "original": "Nephalem",
+      "conv": "zh-cn:奈非天;zh-tw:涅法雷姆;zh-hk:涅法雷姆;zh-sg:涅法雷姆;zh-mo:涅法雷姆;"
+    },
+    {
+      "original": "Diablo",
+      "conv": "zh-cn:迪亚波罗;zh-tw:迪亞布羅;zh-hk:迪亞布羅;zh-sg:迪亚布罗;zh-mo:迪亞布羅;"
+    },
+    {
+      "original": "Andarial",
+      "conv": "zh-cn:安达莉尔;zh-tw:安達利爾;zh-hk:安達利爾;zh-sg:安达利尔;zh-mo:安達利爾;"
+    },
+    {
+      "original": "Duriel",
+      "conv": "zh-cn:督瑞尔;zh-tw:都瑞爾;zh-hk:都瑞爾;zh-sg:都瑞尔;zh-mo:都瑞爾;"
+    },
+    {
+      "original": "Azmodan",
+      "conv": "zh-cn:阿兹莫丹;zh-tw:阿茲莫丹;zh-hk:阿茲莫丹;zh-sg:阿兹莫丹;zh-mo:阿茲莫丹;"
+    },
+    {
+      "original": "Izual",
+      "conv": "zh-cn:衣卒尔;zh-tw:伊卒爾;zh-hk:伊卒爾;zh-sg:伊卒尔;zh-mo:伊卒爾;"
+    },
+    {
+      "original": "Deckard Cain",
+      "conv": "zh-cn:迪卡德·凯恩;zh-tw:迪卡·凱恩;zh-hk:迪卡·凱恩;zh-sg:迪卡·凯恩;zh-mo:迪卡·凱恩;"
+    },
+    {
+      "original": "Inarius",
+      "conv": "zh-cn:伊纳瑞斯;zh-tw:因納瑞斯;zh-hk:因納瑞斯;zh-sg:因纳瑞斯;zh-mo:因納瑞斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马萨伊尔;zh-tw:瑪瑟爾;zh-hk:瑪瑟爾;zh-sg:玛瑟尔;zh-mo:瑪瑟爾;"
+    },
+    {
+      "original": "Leah",
+      "conv": "zh-cn:莉娅;zh-tw:莉亞;zh-hk:莉亞;zh-sg:莉亚;zh-mo:莉亞;"
+    },
+    {
+      "original": "Bartuc",
+      "conv": "zh-cn:巴图克;zh-tw:霸圖克;zh-hk:霸圖克;zh-sg:霸图克;zh-mo:霸圖克;"
+    },
+    {
+      "original": "Horazon",
+      "conv": "zh-cn:霍拉松;zh-tw:赫拉森;zh-hk:赫拉森;zh-sg:赫拉森;zh-mo:赫拉森;"
+    },
+    {
+      "original": "Socerer",
+      "conv": "zh-cn:巫师;zh-tw:魔法使;zh-hk:魔法使;zh-sg:魔法使;zh-mo:魔法使;"
+    },
+    {
+      "original": "Wizard",
+      "conv": "zh-cn:魔法师;zh-tw:秘術師;zh-hk:秘術師;zh-sg:秘术师;zh-mo:秘術師;"
+    },
+    {
+      "original": "Demon Hunter",
+      "conv": "zh-cn:猎魔人;zh-tw:狩魔獵人;zh-hk:狩魔獵人;zh-sg:狩魔猎人;zh-mo:狩魔獵人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:秘士;zh-tw:靈喻師;zh-hk:靈喻師;zh-sg:灵喻师;zh-mo:靈喻師;"
+    },
+    {
+      "original": "The Prime Evil",
+      "conv": "zh-cn:大魔神;zh-tw:萬惡之源;zh-hk:萬惡之源;zh-sg:萬惡之源;zh-mo:萬惡之源;"
+    },
+    {
+      "original": "Prime Evils",
+      "conv": "zh-cn:魔神;zh-tw:罪惡之源;zh-hk:罪惡之源;zh-sg:罪惡之源;zh-mo:罪惡之源;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:天使议会;zh-tw:安傑瑞斯議會;zh-hk:安傑瑞斯議會;zh-sg:安杰瑞斯议会;zh-mo:安傑瑞斯議會;"
+    },
+    {
+      "original": "Vizjerei",
+      "conv": "zh-cn:维兹杰雷;zh-tw:費斯傑利;zh-hk:費斯傑利;zh-sg:费斯杰利;zh-mo:費斯傑利;"
+    },
+    {
+      "original": "Zann Esu",
+      "conv": "zh-cn:赞艾苏;zh-tw:藍艾蘇;zh-hk:藍艾蘇;zh-sg:蓝艾苏;zh-mo:藍艾蘇;"
+    },
+    {
+      "original": "Zakaram",
+      "conv": "zh-cn:萨卡兰姆;zh-tw:撒卡蘭姆;zh-hk:撒卡蘭姆;zh-sg:撒卡兰姆;zh-mo:撒卡蘭姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:盲眼姐妹会;zh-tw:目盲之眼修道會;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:从层叠交错的威斯特玛大街小巷到混沌要塞的古老墙垣;zh-tw:從衛斯馬屈的蜿蜒巷弄到混沌界要塞的古老牆垣;zh-hk:從衛斯馬屈的蜿蜒巷弄到混沌界要塞的古老牆垣;zh-sg:从卫斯马屈的蜿蜒巷弄到混沌界要塞的古老墙垣;zh-mo:從衛斯馬屈的蜿蜒巷弄到混沌界要塞的古老牆垣;"
+    },
+    {
+      "original": "",
+      "conv": "zh:JT;zh-hans:JT;zh-hant:FT;zh-cn:JT;zh-tw:FT;zh-hk:FT;zh-sg:FT;zh-mo:FT;"
+    }
+  ]
+}

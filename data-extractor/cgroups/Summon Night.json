@@ -1,0 +1,23 @@
+{
+  "name": "Summon Night",
+  "description": "召喚夜響曲系列",
+  "path": "Module:CGroup/Summon Night",
+  "rules": [
+    {
+      "original": "サモンナイト",
+      "conv": "zh-cn:召喚之夜;zh-tw:召喚夜響曲;"
+    },
+    {
+      "original": "夜明けの翼",
+      "conv": "zh-cn:黎明之翼;zh-tw:破曉之翼;"
+    },
+    {
+      "original": "ツインエイジ",
+      "conv": "zh-cn:孪生时代;zh-tw:雙紀元;"
+    },
+    {
+      "original": "Tears Crown",
+      "conv": "zh-cn:泪之皇冠;zh-tw:淚光寶冠;"
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "name": "MapleStory",
+  "description": "MapleStory",
+  "path": "Template:CGroup/MapleStory",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:MapleStory;zh-cn:冒险岛;zh-tw:新楓之谷;zh-sg:枫险之旅"
+    },
+    {
+      "original": null,
+      "conv": "zh:MapleStory;zh-cn:冒险岛;zh-tw:楓之谷;zh-sg:枫险之旅"
+    },
+    {
+      "original": null,
+      "conv": "zh:維多利亞島;zh-cn:金银岛;zh-tw:維多利亞島;zh-sg:维多利亚"
+    },
+    {
+      "original": null,
+      "conv": "zh:維多利亞港;zh-cn:明珠港;zh-tw:維多利亞港;zh-sg:利斯海港"
+    },
+    {
+      "original": null,
+      "conv": "zh:弓箭手村;zh-cn:射手村;zh-tw:弓箭手村;zh-sg:射手村"
+    },
+    {
+      "original": null,
+      "conv": "zh:六個分歧路;zh-cn:六岔路口;zh-tw:六個分歧路;"
+    },
+    {
+      "original": null,
+      "conv": "zh:勇士之村;zh-cn:勇士部落;zh-tw:勇士之村;zh-sg:勇士部落"
+    },
+    {
+      "original": null,
+      "conv": "zh:墮落城市;zh-cn:废弃都市;zh-tw:墮落城市;zh-sg:墮落都市"
+    },
+    {
+      "original": null,
+      "conv": "zh:魔法森林;zh-cn:魔法密林;zh-tw:魔法森林;zh-sg:魔法密林"
+    },
+    {
+      "original": null,
+      "conv": "zh:楓之島;zh-cn:彩虹岛;zh-tw:楓之島;zh-sg:枫之岛"
+    },
+    {
+      "original": null,
+      "conv": "zh:菇菇村;zh-cn:蘑菇村;zh-tw:菇菇村"
+    },
+    {
+      "original": null,
+      "conv": "zh:奇幻村;zh-cn:林中之城;zh-tw:奇幻村"
+    },
+    {
+      "original": null,
+      "conv": "zh:楓葉村;zh-cn:彩虹村;zh-tw:楓葉村"
+    },
+    {
+      "original": null,
+      "conv": "zh:楓之港;zh-cn:南港;zh-tw:楓之港"
+    },
+    {
+      "original": null,
+      "conv": "zh:艾納斯大陸;zh-cn:神秘岛;zh-tw:艾納斯大陸;zh-sg:奥赛利亚"
+    },
+    {
+      "original": null,
+      "conv": "zh:冰原雪域;zh-cn:冰封雪域;zh-tw:冰原雪域;zh-sg:冰峰雪域"
+    },
+    {
+      "original": null,
+      "conv": "zh:水世界;zh-cn:水下世界;zh-tw:水世界;zh-sg:海底世界"
+    },
+    {
+      "original": null,
+      "conv": "zh:水之都;zh-cn:水下世界;zh-tw:水之都;zh-sg:水下城鎮"
+    },
+    {
+      "original": null,
+      "conv": "zh:路德斯湖;zh-cn:时间停止之湖;zh-tw:路德斯湖;zh-sg:路德斯湖"
+    },
+    {
+      "original": null,
+      "conv": "zh:武陵桃園;zh-cn:武陵桃园;zh-tw:武陵桃園;zh-sg:武陵桃园"
+    },
+    {
+      "original": null,
+      "conv": "zh:桃花仙境;zh-cn:武陵;zh-tw:桃花仙境;zh-sg:武陵古镇"
+    },
+    {
+      "original": null,
+      "conv": "zh:靈藥幻境;zh-cn:百草堂;zh-tw:靈藥幻境;zh-sg:药泉仙境"
+    },
+    {
+      "original": null,
+      "conv": "zh:納希沙漠;zh-cn:尼哈沙漠;zh-tw:納希沙漠;zh-sg:纳溪尔沙漠"
+    },
+    {
+      "original": null,
+      "conv": "zh:納希綠洲城;zh-cn:阿里安特;zh-tw:納希綠洲城"
+    },
+    {
+      "original": null,
+      "conv": "zh:瑪迦提亞城;zh-cn:玛加提亚;zh-tw:瑪迦提亞城;zh-sg:马嘉提亚"
+    },
+    {
+      "original": null,
+      "conv": "zh:楓幣;zh-cn:冒险币;zh-tw:楓幣"
+    },
+    {
+      "original": null,
+      "conv": "zh:名聲;zh-cn:人气;zh-tw:名聲"
+    },
+    {
+      "original": null,
+      "conv": "zh:工會;zh-cn:家族;zh-tw:工會"
+    },
+    {
+      "original": null,
+      "conv": "zh:跟隨者;zh-cn:同学;zh-tw:跟隨者"
+    },
+    {
+      "original": null,
+      "conv": "zh:領路人;zh-cn:老师;zh-tw:領路人"
+    },
+    {
+      "original": null,
+      "conv": "zh:伺服器;zh-cn:服务器;zh-tw:伺服器"
+    },
+    {
+      "original": null,
+      "conv": "zh:初心者;zh-cn:新手;zh-tw:初心者"
+    },
+    {
+      "original": null,
+      "conv": "zh:劍士;zh-cn:战士;zh-tw:劍士"
+    },
+    {
+      "original": null,
+      "conv": "zh:法師;zh-cn:魔法师;zh-tw:法師"
+    },
+    {
+      "original": null,
+      "conv": "zh:盜賊;zh-cn:飞侠;zh-tw:盜賊"
+    },
+    {
+      "original": null,
+      "conv": "zh:殘暴炎魔;zh-cn:扎昆;zh-tw:殘暴炎魔"
+    },
+    {
+      "original": null,
+      "conv": "zh:海怒斯;zh-cn:皮亚奴斯;zh-tw:海怒斯"
+    },
+    {
+      "original": null,
+      "conv": "zh:闇黑龍王;zh-cn:暗黑龙王;zh-tw:闇黑龍王"
+    },
+    {
+      "original": null,
+      "conv": "zh:皇家騎士團;zh-cn:冒险骑士团;zh-tw:皇家騎士團;zh-sg:圣灵骑士团"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:初心者;zh-tw:貴族"
+    },
+    {
+      "original": null,
+      "conv": "zh:聖魂劍士;zh-cn:魂骑士;zh-tw:聖魂劍士"
+    },
+    {
+      "original": null,
+      "conv": "zh:烈焰巫師;zh-cn:炎术师;zh-tw:烈焰巫師"
+    },
+    {
+      "original": null,
+      "conv": "zh:破風使者;zh-cn:风灵使者;zh-tw:破風使者"
+    },
+    {
+      "original": null,
+      "conv": "zh:暗夜行者;zh-cn:夜行者;zh-tw:暗夜行者"
+    },
+    {
+      "original": null,
+      "conv": "zh:閃雷悍將;zh-cn:奇袭者;zh-tw:閃雷悍將"
+    },
+    {
+      "original": null,
+      "conv": "zh:地球防衛總部;zh-cn:地球防御总部;zh-tw:地球防衛總部;zh-sg:地球防御本部"
+    },
+    {
+      "original": null,
+      "conv": "zh:鬼屋宅邸;zh-cn:普兰登盖斯特宅邸;zh-tw:鬼屋宅邸"
+    },
+    {
+      "original": null,
+      "conv": "zh:時間神殿;zh-cn:時間神殿;zh-tw:時間神殿;zh-sg:光阴神殿"
+    },
+    {
+      "original": null,
+      "conv": "zh:童話村;zh-cn:童话村;zh-tw:童話村;zh-sg:高丽童话村"
+    },
+    {
+      "original": null,
+      "conv": "zh:黃金海岸;zh-cn:黃金海岸;zh-tw:黃金海岸;zh-sg:浮螺海滩"
+    },
+    {
+      "original": null,
+      "conv": "zh:愛奧斯塔;zh-cn:玩具塔;zh-tw:愛奧斯塔"
+    },
+    {
+      "original": null,
+      "conv": "zh:赫爾奧斯塔;zh-cn:赫丽奥斯塔;zh-tw:赫爾奧斯塔;zh-sg:烈阳塔"
+    },
+    {
+      "original": null,
+      "conv": "zh:米納爾森林;zh-cn:米纳尔森林;zh-tw:米納爾森林;zh-sg:密纳尔森林"
+    },
+    {
+      "original": null,
+      "conv": "zh:神木村;zh-cn:神木村;zh-tw:神木村;zh-sg:灵龙村"
+    },
+    {
+      "original": null,
+      "conv": "zh:皮卡啾;zh-cn:品克缤;zh-tw:皮卡啾;zh-sg:粉红魔宝"
+    },
+    {
+      "original": null,
+      "conv": "zh:亞泰爾營地;zh-cn:阿尔泰营地;zh-tw:亞泰爾營地"
+    },
+    {
+      "original": null,
+      "conv": "zh:耶雷弗;zh-cn:圣地;zh-tw:耶雷弗;zh-sg:圣鹅岛"
+    },
+    {
+      "original": null,
+      "conv": "zh:迷霧森林;zh-cn:沉睡森林;zh-tw:迷霧森林;zh-sg:沉睡森林"
+    },
+    {
+      "original": null,
+      "conv": "zh:鯨魚號;zh-cn:诺特勒斯号;zh-tw:鯨魚號;zh-sg:鲸鱼号"
+    },
+    {
+      "original": null,
+      "conv": "zh:鯨魚號港口;zh-cn:海王港;zh-tw:鯨魚號港口;zh-sg:海王港"
+    },
+    {
+      "original": null,
+      "conv": "zh:艾靈森林;zh-cn:艾琳森林;zh-tw:艾靈森林;zh-sg:伊琳神林"
+    },
+    {
+      "original": null,
+      "conv": "zh:狂戰士;zh-cn:剑客;zh-tw:狂戰士;zh-sg:斗士"
+    },
+    {
+      "original": null,
+      "conv": "zh:槍騎兵;zh-cn:枪战士;zh-tw:槍騎兵;zh-sg:枪骑士"
+    },
+    {
+      "original": null,
+      "conv": "zh:見習騎士;zh-cn:准骑士;zh-tw:見習騎士"
+    },
+    {
+      "original": null,
+      "conv": "zh:巫師．火毒;zh-cn:法师．火毒;zh-tw:巫師．火毒"
+    },
+    {
+      "original": null,
+      "conv": "zh:魔導士．火毒;zh-cn:巫师．火毒;zh-tw:魔導士．火毒"
+    },
+    {
+      "original": null,
+      "conv": "zh:大魔導士．火毒;zh-cn:魔导士．火毒;zh-tw:大魔導士．火毒"
+    },
+    {
+      "original": null,
+      "conv": "zh:巫師．冰雷;zh-cn:法师．冰雷;zh-tw:巫師．冰雷"
+    },
+    {
+      "original": null,
+      "conv": "zh:魔導士．冰雷;zh-cn:巫师．冰雷;zh-tw:魔導士．冰雷"
+    },
+    {
+      "original": null,
+      "conv": "zh:大魔導士．冰雷;zh-cn:魔导士．冰雷;zh-tw:大魔導士．冰雷"
+    },
+    {
+      "original": null,
+      "conv": "zh:僧侶;zh-cn:牧师;zh-tw:僧侶;zh-sg:教士"
+    },
+    {
+      "original": null,
+      "conv": "zh:遊俠;zh-cn:射手;zh-tw:遊俠;zh-sg:游侠"
+    },
+    {
+      "original": null,
+      "conv": "zh:弩弓手;zh-cn:弩弓手;zh-tw:弩弓手;zh-sg:弯弓手"
+    },
+    {
+      "original": null,
+      "conv": "zh:狙擊手;zh-cn:游侠;zh-tw:狙擊手;zh-sg:狙击手"
+    },
+    {
+      "original": null,
+      "conv": "zh:神射手;zh-cn:神箭手;zh-tw:神射手;zh-sg:神箭手"
+    },
+    {
+      "original": null,
+      "conv": "zh:暗殺者;zh-cn:无影人;zh-tw:暗殺者;zh-sg:隐士"
+    },
+    {
+      "original": null,
+      "conv": "zh:夜使者;zh-cn:隐士;zh-tw:夜使者;zh-sg:暗黑侠"
+    },
+    {
+      "original": null,
+      "conv": "zh:俠盜;zh-cn:侠客;zh-tw:俠盜;zh-sg:大盗"
+    },
+    {
+      "original": null,
+      "conv": "zh:神偷;zh-cn:独行客;zh-tw:神偷;zh-sg:侠盗"
+    },
+    {
+      "original": null,
+      "conv": "zh:暗影神偷;zh-cn:侠盗;zh-tw:暗影神偷;zh-sg:无影神偷"
+    },
+    {
+      "original": null,
+      "conv": "zh:狂狼勇士;zh-cn:战神;zh-tw:狂狼勇士;zh-sg:野人"
+    },
+    {
+      "original": null,
+      "conv": "zh:公會;zh-cn:家族;zh-tw:公會;zh-sg:Association"
+    },
+    {
+      "original": null,
+      "conv": "zh:公會會長;zh-cn:族长;zh-tw:公會會長"
+    },
+    {
+      "original": null,
+      "conv": "zh:邱比特公園;zh-cn:射手公园;zh-tw:邱比特公園"
+    },
+    {
+      "original": null,
+      "conv": "zh:英文村;zh-cn:英语村;zh-tw:英文村"
+    },
+    {
+      "original": null,
+      "conv": "zh:時間神殿;zh-cn:时间神殿;zh-tw:時間神殿"
+    },
+    {
+      "original": null,
+      "conv": "zh:影武者;zh-cn:暗影双刀;zh-tw:影武者"
+    },
+    {
+      "original": null,
+      "conv": "zh:龍魔導士;zh-cn:龙神;zh-tw:龍魔導士"
+    },
+    {
+      "original": null,
+      "conv": "zh:煉獄巫師;zh-cn:唤灵斗师;zh-tw:煉獄巫師"
+    },
+    {
+      "original": null,
+      "conv": "zh:狂豹獵人;zh-cn:豹弩游侠;zh-tw:狂豹獵人"
+    },
+    {
+      "original": null,
+      "conv": "zh:機甲戰神;zh-cn:暗夜机械师;zh-tw:機甲戰神"
+    },
+    {
+      "original": null,
+      "conv": "zh:末日反抗軍;zh-cn:末日反抗军;zh-tw:末日反抗軍"
+    },
+    {
+      "original": null,
+      "conv": "zh:反抗軍;zh-cn:反抗者;zh-tw:反抗軍"
+    },
+    {
+      "original": null,
+      "conv": "zh:砲彈射手;zh-cn:炮手;zh-tw:砲彈射手"
+    },
+    {
+      "original": null,
+      "conv": "zh:重炮指揮官;zh-cn:神炮王;zh-tw:重炮指揮官"
+    },
+    {
+      "original": null,
+      "conv": "zh:瑞恩;zh-cn:里恩;zh-tw:瑞恩"
+    },
+    {
+      "original": null,
+      "conv": "zh:西格諾斯;zh-cn:希纳斯;zh-tw:西格諾斯"
+    },
+    {
+      "original": null,
+      "conv": "zh:埃德爾斯坦島;zh-cn:埃德尔斯坦;zh-tw:埃德爾斯坦島"
+    },
+    {
+      "original": null,
+      "conv": "zh:大巨变;zh-cn:大巨变;zh-tw:引爆震撼"
+    },
+    {
+      "original": null,
+      "conv": "zh:家族;zh-cn:学院;zh-tw:家族"
+    },
+    {
+      "original": null,
+      "conv": "zh:达勒摩尔;zh-cn:达勒摩尔;zh-tw:达尔默"
+    },
+    {
+      "original": null,
+      "conv": "zh:歐尼斯龙;zh-cn:玛瑙龙;zh-tw:歐尼斯龙"
+    },
+    {
+      "original": null,
+      "conv": "zh:精靈遊俠;zh-cn:双弩精灵;zh-tw:精靈遊俠"
+    },
+    {
+      "original": null,
+      "conv": "zh:幻影俠盜;zh-cn:怪盗幻影;zh-tw:幻影俠盜"
+    },
+    {
+      "original": null,
+      "conv": "zh:黑色翅膀;zh-cn:黑色之翼;zh-tw:黑色翅膀"
+    },
+    {
+      "original": null,
+      "conv": "zh:爆拳槍神;zh-cn:爆破手;zh-tw:爆拳槍神"
+    },
+    {
+      "original": null,
+      "conv": "zh:傑諾;zh-cn:尖兵;zh-tw:傑諾"
+    },
+    {
+      "original": null,
+      "conv": "zh:蒼龍俠客;zh-cn:龙的传人;zh-tw:蒼龍俠客"
+    },
+    {
+      "original": null,
+      "conv": "zh:登貝伊;zh-cn:达恩维尔;zh-tw:登貝伊"
+    },
+    {
+      "original": null,
+      "conv": "zh:幻獸師;zh-cn:林之灵;zh-tw:幻獸師"
+    },
+    {
+      "original": null,
+      "conv": "zh:朋友世界;zh-cn:好友世界;zh-tw:朋友世界"
+    },
+    {
+      "original": null,
+      "conv": "zh:赫力席母;zh-cn:赫里希安;zh-tw:赫力席母"
+    },
+    {
+      "original": null,
+      "conv": "zh:貝勒帝;zh-cn:贝尔达;zh-tw:貝勒帝"
+    },
+    {
+      "original": null,
+      "conv": "zh:妙妙;zh-cn:米乌米乌;zh-tw:妙妙"
+    },
+    {
+      "original": null,
+      "conv": "zh:翼人族;zh-cn:翼人族;zh-tw:雷普族"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿尼瑪;zh-cn:亚尼玛;zh-tw:阿尼瑪"
+    },
+    {
+      "original": null,
+      "conv": "zh:超新星;zh-cn:诺巴;zh-tw:超新星"
+    },
+    {
+      "original": null,
+      "conv": "zh:野蠻之星;zh-cn:荒蛮终点站;zh-tw:野蠻之星"
+    },
+    {
+      "original": null,
+      "conv": "zh:木雷普;zh-cn:低等翼人;zh-tw:木雷普"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿修羅姆;zh-cn:水晶庇护所;zh-tw:阿修羅姆"
+    },
+    {
+      "original": null,
+      "conv": "zh:梅格耐斯;zh-cn:麦格纳斯;zh-tw:梅格耐斯"
+    },
+    {
+      "original": null,
+      "conv": "zh:亥雷普;zh-cn:高阶翼人;zh-tw:亥雷普"
+    },
+    {
+      "original": null,
+      "conv": "zh:奧術之河;zh-cn:神秘河;zh-tw:奧術之河"
+    },
+    {
+      "original": null,
+      "conv": "zh:艾爾達斯;zh-cn:艾尔达;zh-tw:艾爾達斯"
+    },
+    {
+      "original": null,
+      "conv": "zh:消逝的旅途;zh-cn:消亡旅途;zh-tw:消逝的旅途"
+    },
+    {
+      "original": null,
+      "conv": "zh:啾啾艾爾蘭;zh-cn:啾啾岛;zh-tw:啾啾艾爾蘭"
+    },
+    {
+      "original": null,
+      "conv": "zh:夢之都拉契爾恩;zh-cn:梦之都拉克兰;zh-tw:夢之都拉契爾恩"
+    },
+    {
+      "original": null,
+      "conv": "zh:阿爾卡娜;zh-cn:阿尔卡那;zh-tw:阿爾卡娜"
+    },
+    {
+      "original": null,
+      "conv": "zh:魔菈斯;zh-cn:莫拉斯;zh-tw:魔菈斯"
+    },
+    {
+      "original": null,
+      "conv": "zh:艾斯佩拉;zh-cn:埃斯佩拉;zh-tw:艾斯佩拉"
+    },
+    {
+      "original": null,
+      "conv": "zh:秘法符文;zh-cn:神秘徽章;zh-tw:秘法符文"
+    },
+    {
+      "original": null,
+      "conv": "zh:泰涅布利斯;zh-cn:泰涅布里斯;zh-tw:泰涅布利斯"
+    },
+    {
+      "original": null,
+      "conv": "zh:月之橋;zh-cn:月桥;zh-tw:月之橋"
+    },
+    {
+      "original": null,
+      "conv": "zh:利曼;zh-cn:黎曼;zh-tw:利曼"
+    }
+  ]
+}

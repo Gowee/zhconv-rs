@@ -1,0 +1,91 @@
+{
+  "name": "Telcom",
+  "description": "电信",
+  "path": "Module:CGroup/Telcom",
+  "rules": [
+    {
+      "original": "telecommunication",
+      "conv": "zh-hans:电信; zh-hk:電訊; zh-tw:電信;"
+    },
+    {
+      "original": "Communication",
+      "conv": "zh-cn:通信;zh-tw:通訊;"
+    },
+    {
+      "original": "digital",
+      "conv": "zh-hans:数字;zh-hk:數碼;zh-tw:數位;"
+    },
+    {
+      "original": "analog",
+      "conv": "zh-hans:模拟; zh-hant:類比;"
+    },
+    {
+      "original": "network",
+      "conv": "zh-cn:网络; zh-tw:網路; zh-hk:網絡;"
+    },
+    {
+      "original": "Integrated Services Digital Network",
+      "conv": "zh-hans:综合业务数字网;zh-hk:綜合服務數碼網絡;zh-tw:整合服務數位網路;"
+    },
+    {
+      "original": "calling party",
+      "conv": "zh-cn:呼叫方; zh-tw:發話方; "
+    },
+    {
+      "original": "called party",
+      "conv": "zh-cn:被叫方; zh-tw:受話方; "
+    },
+    {
+      "original": "gateway",
+      "conv": "zh-cn:网关; zh-tw:閘道; "
+    },
+    {
+      "original": "quality",
+      "conv": "zh-hans:质量; zh-hant:品質; "
+    },
+    {
+      "original": "missing",
+      "conv": "zh-hans:丢失; zh-hant:遺失; "
+    },
+    {
+      "original": "message",
+      "conv": "zh-hans:报文; zh-hant:封包; "
+    },
+    {
+      "original": "message",
+      "conv": "zh-hans:消息; zh-hant:訊息; "
+    },
+    {
+      "original": "Private Branch Exchange",
+      "conv": "zh-hans:专用小交换机; zh-hant:專用交換機; "
+    },
+    {
+      "original": "Public Switched Telephone Network",
+      "conv": "zh-cn:公共交换电话网; zh-tw:公用交換電話網路; "
+    },
+    {
+      "original": "protocol",
+      "conv": "zh-hans:协议; zh-hant:協定;"
+    },
+    {
+      "original": "Protocol stack",
+      "conv": "zh-hans:协议栈; zh-hant:協定疊;"
+    },
+    {
+      "original": "Protocol Suite",
+      "conv": "zh-hans:协议族; zh-hant:協定套組;"
+    },
+    {
+      "original": "Real-time Transport Protocol",
+      "conv": "zh-cn:实时传输协议; zh-tw:即時傳輸協定; zh-hk:實時傳輸協定;"
+    },
+    {
+      "original": "Session Initiation Protocol",
+      "conv": "zh-cn:会话发起协议; zh-tw:對話啟動協定;"
+    },
+    {
+      "original": "Internet Protocol",
+      "conv": "zh-cn:网际协议; zh-hk:網際網絡協定;zh-tw:網際網路協定;"
+    }
+  ]
+}

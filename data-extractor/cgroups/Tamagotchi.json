@@ -1,0 +1,191 @@
+{
+  "name": "Tamagotchi",
+  "description": "Tamagotchi",
+  "path": "Template:CGroup/Tamagotchi",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh:麻每吉;zh-tw:麻每吉;zh-hk:豆豆;"
+    },
+    {
+      "original": "",
+      "conv": "zh:可吉先生;zh-tw:可吉先生;zh-hk:Gotchi俠;zh-hans:可吉先生;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:快乐快乐吉;zh-tw:快樂快樂吉;zh-hk:Happy;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美眉吉; zh-tw:美眉吉; zh-hk:美美;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:咕叽叭吉; zh-tw:咕嘰叭吉; zh-hk:大嘴;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:甜心吉; zh-tw:甜心吉; zh-hk:小甜心;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:Lovelin; zh-tw:小甜心; zh-hk:Lovely;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美乐蒂吉; zh-tw:音樂吉; zh:旋律吉; zh-hk:Melody;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:甜心机; zh-tw:電鈴; zh-hk:電鈴; zh-tw:甜心機; zh:電鈴;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黑黑麻每吉; zh-tw:黑黑麻每吉; zh-hk:黑豆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:麻纪子; zh-tw:麻紀子; zh-hk:卷子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:紫罗兰吉; zh-tw:花花吉; zh-hk:花花;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:忍者吉; zh-tw:忍者吉; zh-hk:忍忍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美眉麻每吉; zh-tw:美眉麻每吉; zh-hk:小豆釘;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:吱吱吉; zh-tw:吱吱吉; zh-hk:吱吱;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美丽吉; zh-tw:茉莉莉吉; zh:美麗吉; zh-hk:毛莉莉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:八卦吉; zh-hk:情報通; zh:八卦吉;zh-hans:八卦吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:公主Spacy; zh-tw:公主太空吉; zh:太空公主吉; zh-hk:Spacey公主;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:Spacy; zh-tw:太空吉; zh-hk:Spacey;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:爱困吉; zh-tw:愛睏吉; zh-hk:唔夠瞓;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:红太空吉; zh-tw:紅太空吉; zh-hk:紅S;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:绿太空吉; zh:綠太空吉; zh-tw:嗶波太空吉; zh-hk:綠S;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:章鱼香肠吉; zh-tw:章魚香腸吉; zh-hk:八爪魚腸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鋼琴吉; zh:鋼琴吉; zh-hk:小鋼琴; zh-cn:钢琴吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:可芙略吉; zh:可芙雷吉; zh-cn:可芙雷吉; zh-hk:歌芙莉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:伊摩吉; zh-tw:伊摩吉; zh-hk:芋子; zh-mo:小美;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:夢想實現吉; zh-hk:小夢現; zh-cn:抓住梦想吉; zh:夢想實現吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:小未來; zh-hk:小未來; zh:未來吉; zh-cn:未来吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:琦璐璐; zh-hk:琦璐璐; zh:琦璐璐吉; zh-cn:奇露露吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:聰明吉; zh-hk:聰明仔; zh:聰明吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh:姊姊美麗吉; zh-tw:姊姊茉莉莉吉; zh-hk:毛莉莉姐姐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:小電燈; zh-hant:徠多; zh:電燈吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:小疑問; zh-hant:疑問仔; zh:疑問吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:小舞; zh-hant:綿綿; zh:芙娃吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh:尋夢吉; zh-hk:小尋夢;"
+    },
+    {
+      "original": "",
+      "conv": "zh:光輝吉; zh-hk:小光輝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:塔麻可吉学校;zh-tw:塔麻可吉學校;zh-hk:塔瑪學校;"
+    },
+    {
+      "original": "TAMAX-TV",
+      "conv": "zh-tw:TAMAX-TV; zh:塔麻電視臺; zh-hk:塔瑪電視台;"
+    },
+    {
+      "original": "Melody Land",
+      "conv": "zh:旋律樂園; zh-hk:Melody Land; zh-tw:音樂樂園; zh-cn:Melody Land;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:塔瑪造型店; zh:塔麻潮流店; zh-tw:塔麻潮流店;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:塔麻好友; zh-tw:塔麻好友; zh-hk:塔馬朋友;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:高年级; zh-tw:高年級; zh-hk:高學年;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:低年级; zh-tw:低年級; zh-hk:低學年;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:塔瑪造型; zh-tw:塔麻潮流; zh:塔麻潮流;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:塔麻可吉！;zh-tw:塔麻可吉！;zh-hk:他媽哥池;zh-mo:寵物反斗星;zh-cn:拓麻歌子！;"
+    },
+    {
+      "original": "Tamagotchi",
+      "conv": "zh-hans:塔麻可吉;zh-tw:塔麻可吉;zh-hk:他媽哥池;zh-cn:拓麻歌子;"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "name": "PrisonBreak",
+  "description": "Prison Break",
+  "path": "Template:CGroup/PrisonBreak",
+  "rules": [
+    {
+      "original": "Prison Break",
+      "conv": "zh-cn:《越狱》; zh-tw:《越獄風雲》; zh-hk:《逃》;<!-- 請勿移除雙書名號，否則會造成多餘的錯誤轉換 -->"
+    },
+    {
+      "original": "Michael",
+      "conv": "zh-cn:迈克尔; zh-tw:麥可; zh-hk:米高;"
+    },
+    {
+      "original": "Michael",
+      "conv": "邁克爾=>zh-cn:迈克尔;邁克爾=>zh-hk:米高;邁克爾=>zh-mo:米高;"
+    },
+    {
+      "original": "Michael Scofield",
+      "conv": "zh-cn:迈克尔·斯科菲尔德; zh-tw:麥可·史考菲; zh-hk:施米高;"
+    },
+    {
+      "original": "Lincoln",
+      "conv": "zh-tw:林肯; zh-hk:利恒; zh-cn:林肯;"
+    },
+    {
+      "original": "Lincoln Burrows",
+      "conv": "zh-tw:林肯·伯勞斯; zh-hk:布利恒; zh-cn:林肯·巴罗斯;"
+    },
+    {
+      "original": "Sucre",
+      "conv": "zh-tw:蘇克雷; zh-hk:法南; zh-cn:苏克雷;"
+    },
+    {
+      "original": "Fernando Sucre",
+      "conv": "zh-tw:弗南多·蘇克雷; zh-hk:蘇法南; zh-cn:费尔南多·苏克雷;"
+    },
+    {
+      "original": "Brad Bellick",
+      "conv": "zh-tw:布拉德·貝里克; zh-hk:貝柏德; zh-cn:布拉德·贝里克;"
+    },
+    {
+      "original": "Theodore \"T-Bag\" Bagwell",
+      "conv": "zh-tw:瑟多·巴格韋爾; zh-hk:包查; zh-cn:瑟多·巴格韦尔;"
+    },
+    {
+      "original": "Sara Tancredi",
+      "conv": "zh-tw:薩拉; zh-hk:莎拉; zh-cn:莎拉;"
+    },
+    {
+      "original": "Sara Tancredi",
+      "conv": "zh-tw:薩拉·唐克里迪; zh-hk:譚莎拉; zh-cn:莎拉·唐克里迪;"
+    },
+    {
+      "original": "Lincoln \"L.J.\" Burrows Jr.",
+      "conv": "zh-cn:小林肯·巴罗斯; zh-tw:小林肯·伯勞斯; zh-hk:布少恒;"
+    },
+    {
+      "original": "Henry Pope",
+      "conv": "zh-cn:亨利·波普; zh-tw:亨利·波普; zh-hk:龐亨利;"
+    },
+    {
+      "original": "Charles \"Haywire\" Patoshik",
+      "conv": "zh-cn:海威尔;zh-tw:海威爾; zh-hk:彭查里;"
+    },
+    {
+      "original": "Wentworth",
+      "conv": "zh-hans:温特沃思;zh-hk:溫特禾夫;zh-tw:溫特沃思;"
+    },
+    {
+      "original": "Miller",
+      "conv": "zh-hans:米勒;zh-hk:米拿;zh-tw:米勒;"
+    },
+    {
+      "original": "Amaury",
+      "conv": "zh-cn:阿毛里; zh-tw:阿莫瑞;"
+    },
+    {
+      "original": "Nolasco",
+      "conv": "zh-cn:诺拉斯科; zh-tw:諾拉斯克;"
+    },
+    {
+      "original": "Dominic",
+      "conv": "多米尼克"
+    },
+    {
+      "original": "Allen (episode)",
+      "conv": "zh-cn:阿伦; zh-tw:艾倫;"
+    },
+    {
+      "original": "John Abruzzi",
+      "conv": "zh-cn:约翰·阿布鲁齐;zh-tw:約翰·阿布拉茲; zh-hk:艾約翰;"
+    },
+    {
+      "original": "Veronica",
+      "conv": "zh-cn:维罗妮卡; zh-tw:維羅妮卡; zh-hk:慧嘉;"
+    },
+    {
+      "original": "Veronica Donovan",
+      "conv": "zh-cn:维罗妮卡·多诺万; zh-tw:維羅妮卡·多諾萬; zh-hk:唐慧嘉;"
+    },
+    {
+      "original": "Nick Savrinn",
+      "conv": "zh-cn:尼克·萨韦恩; zh-tw:尼克·薩夫林; zh-hk:沙歷克;"
+    },
+    {
+      "original": "Paul Kellerman",
+      "conv": "zh-cn:保罗·凯勒曼; zh-tw:保羅·凱勒曼; zh-hk:賈保羅;"
+    },
+    {
+      "original": "Benjamin Miles \"C-Note\" Franklin",
+      "conv": "zh-cn:本杰明·弗兰克林; zh-tw:本傑明·弗蘭克林; zh-hk:范哲文;"
+    },
+    {
+      "original": "David \"Tweener\" Apolskis",
+      "conv": "zh-cn:戴维; zh-tw:戴維; zh-hk:顏大偉;"
+    },
+    {
+      "original": "Terrence Steadman",
+      "conv": "zh-cn:特伦斯·斯泰德曼; zh-tw:史戴德曼; zh-hk:冼泰倫;"
+    },
+    {
+      "original": "Alexander Mahone",
+      "conv": "zh-cn:亚历山大·马洪; zh-tw:亞歷山大·麥宏; zh-hk:萬艾力;"
+    },
+    {
+      "original": "Sona (Federal Prison)",
+      "conv": "zh-cn:SONA; zh-tw:索拿; zh-hk:桑拿;"
+    },
+    {
+      "original": "Don Self",
+      "conv": "zh-cn:当·赛尔夫; zh-tw:Don Self; zh-hk:邵東;"
+    },
+    {
+      "original": "Scylla",
+      "conv": "zh-cn:锡拉; zh-tw:Scylla; zh-hk:斯庫拉;"
+    },
+    {
+      "original": "Gretchen",
+      "conv": "zh-cn:格雷琴; zh-tw:Gretchen; zh-hk:嘉晴;"
+    },
+    {
+      "original": "Krantz",
+      "conv": "zh-cn:克兰兹; zh-tw:Krantz; zh-hk:克將軍;"
+    },
+    {
+      "original": "Krantz",
+      "conv": "zh-cn:克兰兹将军; zh-tw:Krantz將軍; zh-hk:克將軍;"
+    },
+    {
+      "original": "Jonathan",
+      "conv": "zh-cn:乔纳森; zh-tw:Jonathan; zh-hk:仲南;"
+    },
+    {
+      "original": "Stuart",
+      "conv": "zh-cn:斯图尔特; zh-tw:Stuart; zh-hk:斯特;"
+    },
+    {
+      "original": "Christina",
+      "conv": "zh-cn:克莉丝汀娜; zh-tw:Christina; zh-hk:紀拉;"
+    },
+    {
+      "original": "Christina Scofield",
+      "conv": "zh-cn:克莉丝汀娜·斯科菲尔德; zh-tw:Christina Scofield; zh-hk:施紀拉;"
+    },
+    {
+      "original": "Griffin Oren",
+      "conv": "zh-cn:Griffin Oren; zh-tw:Griffin Oren; zh-hk:歐;"
+    },
+    {
+      "original": "Vincent Sandinsky",
+      "conv": "zh-cn:Vincent Sandinsky; zh-tw:Vincent Sandinsky; zh-hk:沙偉遜;"
+    },
+    {
+      "original": "Lisa",
+      "conv": "zh-cn:丽莎; zh-tw:Lisa; zh-hk:麗莎;"
+    },
+    {
+      "original": "Eagles & Angels",
+      "conv": "zh-cn:Eagles & Angels; zh-tw:Eagles & Angels; zh-hk:鷹與天使;"
+    },
+    {
+      "original": "Cole",
+      "conv": "zh-cn:科尔; zh-tw:Cole; zh-hk:高爾;"
+    },
+    {
+      "original": "Cole Pfeiffer",
+      "conv": "zh-cn:科尔·普法; zh-tw:Cole Pfeiffer; zh-hk:費高爾;"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Signals and Systems",
+  "description": "-{zh-cn:信号; zh-tw:訊號;}-与系统",
+  "path": "Module:CGroup/Signals and Systems",
+  "rules": [
+    {
+      "original": "transform",
+      "conv": "zh-hans:变换; zh-hant:轉換;"
+    },
+    {
+      "original": "inverse transform",
+      "conv": "zh-hans:逆变换; zh-hant:反轉換;"
+    },
+    {
+      "original": "Convolution",
+      "conv": "zh-cn:卷积;zh-tw:摺積;"
+    },
+    {
+      "original": "Fourier",
+      "conv": "zh:傅里叶;zh-hans:傅里叶;zh-hk:傅利葉;zh-tw:傅立葉;"
+    },
+    {
+      "original": "Moving average",
+      "conv": "zh-cn:移动平均; zh-tw:滑動平均;"
+    },
+    {
+      "original": "Circular convolution",
+      "conv": "zh:圓周摺積;zh-hans:循环卷积;zh-hant:圓周摺積;"
+    },
+    {
+      "original": "Analog",
+      "conv": "zh-tw:類比; zh-cn:模拟; zh-hk:模擬;"
+    },
+    {
+      "original": "Digital",
+      "conv": "zh-tw:數位; zh-cn:数字; zh-hk:數碼;"
+    },
+    {
+      "original": "information",
+      "conv": "zh-cn:信息; zh-tw:資訊;"
+    },
+    {
+      "original": "Pulse",
+      "conv": "zh-cn:脉冲; zh-tw:脈波;"
+    },
+    {
+      "original": "Sampling",
+      "conv": "zh-hans:采样; zh-hant:取樣;"
+    },
+    {
+      "original": "Signal",
+      "conv": "zh:信號;zh-tw:訊號;zh-cn:信号;"
+    },
+    {
+      "original": "Impulse response",
+      "conv": "zh-hans:冲激响应;zh-hant:脈衝響應;"
+    },
+    {
+      "original": "Impulse invariance",
+      "conv": "zh-hans:冲激不变法;zh-hant:脈衝不變法;"
+    },
+    {
+      "original": "Settling time",
+      "conv": "zh-cn:稳定时间; zh-tw:穩定時間;"
+    },
+    {
+      "original": "Settling time",
+      "conv": "zh-cn:调节时间; zh-tw:整定時間;"
+    },
+    {
+      "original": "Time-invariant",
+      "conv": "zh-cn:时不变;zh-tw:非時變;"
+    },
+    {
+      "original": "Feedback",
+      "conv": "回授=>zh-cn:反馈;zh-tw:回受;"
+    },
+    {
+      "original": "Open loop",
+      "conv": "zh-hans:开环;zh-hant:開迴路;"
+    },
+    {
+      "original": "Close loop",
+      "conv": "zh-hans:闭环;zh-hant:閉迴路;"
+    },
+    {
+      "original": "Overshoot",
+      "conv": "zh-cn:过冲;zh-tw:過衝;"
+    }
+  ]
+}

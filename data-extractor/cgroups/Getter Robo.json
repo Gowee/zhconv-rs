@@ -1,0 +1,95 @@
+{
+  "name": "Getter Robo",
+  "description": "-{zh-hans:盖塔机器人;zh-hk:三一萬能俠;zh-tw:蓋特機器人;}-系列",
+  "path": "Template:CGroup/Getter Robo",
+  "rules": [
+    {
+      "original": "早乙女ミチル",
+      "conv": "zh-hk:早乙女美智流;zh-tw:早乙女滿;"
+    },
+    {
+      "original": "ゴール",
+      "conv": "zh-hans:哥尔;zh-hk:哥魯;zh-tw:哥爾;"
+    },
+    {
+      "original": "メシア・タイール",
+      "conv": "zh-hans:弥赛亚·塔伊尔;zh-hk:梅西亞·泰伊魯;zh-tw:彌賽亞·塔伊爾;"
+    },
+    {
+      "original": "タイール",
+      "conv": "zh-hans:塔伊尔;zh-hk:泰伊魯;zh-tw:塔伊爾;"
+    },
+    {
+      "original": "シュワルツコフ",
+      "conv": "zh-hans:修瓦尔兹科夫;zh-hk:斯華路哥夫;zh-tw:修瓦爾茲科夫;"
+    },
+    {
+      "original": "シュワルツ",
+      "conv": "zh-hans:修瓦尔兹;zh-hk:斯華路;zh-tw:修瓦爾茲;"
+    },
+    {
+      "original": "ゲッターロボ",
+      "conv": "zh-hans:盖塔机器人;zh-hk:三一萬能俠;zh-tw:蓋特機器人;"
+    },
+    {
+      "original": "ゲッター",
+      "conv": "zh-hans:盖塔;zh-hk:三一;zh-tw:蓋特;"
+    },
+    {
+      "original": "ゲッター1",
+      "conv": "zh-hans:盖塔1;zh-hk:三一1號;zh-tw:蓋特1;"
+    },
+    {
+      "original": "ゲッター2",
+      "conv": "zh-hans:盖塔2;zh-hk:三一2號;zh-tw:蓋特2;"
+    },
+    {
+      "original": "ゲッター3",
+      "conv": "zh-hans:盖塔3;zh-hk:三一3號;zh-tw:蓋特3;"
+    },
+    {
+      "original": "ステルバー",
+      "conv": "zh-hk:史迪龍巴;zh-tw:史提魯帕;"
+    },
+    {
+      "original": "ステルボンバー",
+      "conv": "zh-hk:史迪龍轟炸機;zh-tw:史提魯轟炸機;"
+    },
+    {
+      "original": "バロソフ",
+      "conv": "zh-hk:巴洛索夫;zh-tw:帕洛烏;"
+    },
+    {
+      "original": "ゲッター線",
+      "conv": "zh-hans:盖塔線;zh-hk:三一射線;zh-tw:蓋特線;"
+    },
+    {
+      "original": "ゲッタービーム",
+      "conv": "zh-hans:盖塔光束;zh-hk:三一死光;zh-tw:蓋特光束;"
+    },
+    {
+      "original": "ビーム",
+      "conv": "zh-hans:光束;zh-hk:死光;zh-tw:光束;"
+    },
+    {
+      "original": "ストナーサンシャイン",
+      "conv": "zh-hans:盖塔烈日弹;zh-hk:烈光太陽彈;zh-tw:蓋特烈日彈;"
+    },
+    {
+      "original": "ゲッター炉",
+      "conv": "zh-hans:盖塔炉;zh-hk:三一爐心;zh-tw:蓋特爐;"
+    },
+    {
+      "original": "プラズマ炉",
+      "conv": "zh-hans:等离子炉;zh-hk:等離子爐心;zh-tw:電漿爐;"
+    },
+    {
+      "original": "プラズマ",
+      "conv": "zh-cn:等离子; zh-tw:電漿; zh-hk:等離子;"
+    },
+    {
+      "original": "メタルビースト",
+      "conv": "zh-cn:金属兽; zh-tw:金屬獸; zh-hk:鋼鐵獸;"
+    }
+  ]
+}
