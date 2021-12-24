@@ -32,7 +32,7 @@ export default function InputEditor({
       />
       <Box className={classes.statusLineWrapper}>
         <Typography variant="caption" color="textSecondary">
-          Lines/行: {useMemo(() => countLines(input), [input])}
+          Lines/橫行: {useMemo(() => countLines(input), [input])}
           <Box
             component="span"
             sx={{ marginLeft: "0.3em", marginRight: "0.3em" }}

@@ -11,6 +11,8 @@ import InputEditor from "./components/InputEditor";
 import OutputEditor from "./components/OutputEditor";
 import OptionsControl from "./components/OptionsControl";
 
+import PACKAGE from "../package.json";
+
 (async () => {
   // preload wasm
   await import("../../pkg/zhconv.js");
@@ -58,66 +60,28 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   const controlRef = useRef(null as any);
-  const [input, setInput] = useState("");
-  const [output, setOutput] = useState(undefined as any);
-  const [ipKind, setIpKind] = useState("both");
-  const [bogonFilter, setBogonFilter] = useState(
-    undefined as "reserved" | undefined
+  const [input, setInput] = useState(
+    () => localStorage.getItem(`${PACKAGE.name}-text`) || ""
   );
-  const toggleIpv4 = () => {
-    setIpKind((prev) => {
-      if (prev === "both" || prev === "ipv4") {
-        return "ipv6";
-      } /* ipv6 */ else {
-        return "both";
-      }
-    });
-  };
-  const toggleIpv6 = () => {
-    setIpKind((prev) => {
-      if (prev === "both" || prev === "ipv6") {
-        return "ipv4";
-      } /* ipv4 */ else {
-        return "both";
-      }
-    });
-  };
-  const toggleReservedFilter = () => {
-    setBogonFilter((prev) => {
-      if (bogonFilter === "reserved") {
-        return undefined;
-      } else {
-        return "reserved";
-      }
-    });
-  };
-  const handleConvert = async (target = "zh", mediawiki = false) => {
-    const { zhconv, zhconv_mw } = await import("../../pkg/zhconv.js");
-    let convert;
-    if (mediawiki) {
-      convert = zhconv_mw;
-    } else {
-      convert = zhconv;
+  const [output, setOutput] = useState(undefined as any);
+  const handleConvert = async (
+    target = "zh",
+    mediawiki = false,
+    cgroup = ""
+  ) => {
+    if (input.trim() === "") {
+      return;
     }
-    setOutput(await convert(input, target));
+    const { zhconv } = await import("../../pkg/zhconv.js");
+    setOutput(await zhconv(input, target, mediawiki, cgroup));
     controlRef?.current &&
       controlRef.current.scrollIntoView({ behavior: "smooth" });
   };
-  // const handleConvert = async (reverse = false) => {
-  //   const { aggregate } = await import("../../pkg/cidr_aggregator.js");
-  //   setOutput(
-  //     Object.assign(
-  //       { reverse },
-  //       await aggregate(input, reverse, bogonFilter === "reserved")
-  //     )
-  //   );
-  //   controlRef?.current &&
-  //     controlRef.current.scrollIntoView({ behavior: "smooth" });
-  // };
-  // useEffect(() => {
-  //   output && handleConvert(output.reverse);
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [bogonFilter]);
+  useEffect(() => {
+    if (input) {
+      localStorage.setItem(`${PACKAGE.name}-code`, input);
+    }
+  }, [input]);
 
   return (
     <Container component="main" className={classes.main} maxWidth="md">
@@ -139,15 +103,7 @@ function App() {
           className={classes.sectionWrapper}
         >
           <Box p={1}>
-            <OptionsControl
-              // ipKind={ipKind}
-              // toggleIpv4={toggleIpv4}
-              // toggleIpv6={toggleIpv6}
-              // bogonFilter={bogonFilter}
-              // toggleReservedFilter={toggleReservedFilter}
-              handleConvert={handleConvert}
-              ref={controlRef}
-            />
+            <OptionsControl handleConvert={handleConvert} ref={controlRef} />
           </Box>
         </Paper>
         <Paper

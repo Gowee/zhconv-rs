@@ -9,11 +9,13 @@ import Paper from "@material-ui/core/Paper";
 import Popper from "@material-ui/core/Popper";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
+import Box from "@material-ui/core/Box";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const variants = {
-  zh: "zh / 原文",
-  "zh-hant": "zh-Hant 繁體",
-  "zh-hans": "zh-Hans 简体",
+  zh: "zh 原文",
+  "zh-Hant": "zh-Hant 繁體",
+  "zh-Hans": "zh-Hans 简体",
   "zh-TW": "zh-TW 臺灣正體",
   "zh-HK": "zh-HK 香港繁體",
   "zh-MO": "zh-MO 澳門繁體",
@@ -30,7 +32,14 @@ export default function ConvertButton({
 }) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef<HTMLDivElement>(null);
-  const [selectedVariant, setSelectedVariant] = React.useState("zh" as Variant);
+  const [selectedVariant, setSelectedVariant] = React.useState(() => {
+    const hash = window.location.hash.slice(1) as Variant;
+    if (variants[hash]) {
+      return hash;
+    } else {
+      return "zh";
+    }
+  });
 
   const handleClick = () => {
     handleConvert(selectedVariant);
@@ -44,7 +53,12 @@ export default function ConvertButton({
     setOpen(false);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => handleConvert(selectedVariant), [selectedVariant]);
+  useEffect(
+    () => window.history.replaceState({}, "", `#${selectedVariant}`),
+    [selectedVariant]
+  );
 
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
@@ -70,18 +84,28 @@ export default function ConvertButton({
           ref={anchorRef}
           aria-label="split button"
         >
-          <Button onClick={handleClick}>To {variants[selectedVariant]}</Button>
-          <Button
-            color="primary"
-            size="small"
-            aria-controls={open ? "convert-button-menu" : undefined}
-            aria-expanded={open ? "true" : undefined}
-            aria-label="convert to selected variant"
-            aria-haspopup="menu"
-            onClick={handleToggle}
-          >
-            <ArrowDropDownIcon />
-          </Button>
+          <Tooltip title="Click to convert / 點擊以轉換">
+            <Button onClick={handleClick}>
+              <small>To/至</small>
+              &nbsp;
+              <Box sx={{ whiteSpace: "nowrap" }}>
+                {variants[selectedVariant]}
+              </Box>
+            </Button>
+          </Tooltip>
+          <Tooltip title="Click and select target variants / 點擊並選擇目標變體">
+            <Button
+              color="primary"
+              size="small"
+              aria-controls={open ? "convert-button-menu" : undefined}
+              aria-expanded={open ? "true" : undefined}
+              aria-label="convert to selected variant"
+              aria-haspopup="menu"
+              onClick={handleToggle}
+            >
+              <ArrowDropDownIcon />
+            </Button>
+          </Tooltip>
         </ButtonGroup>
         <Popper
           open={open}

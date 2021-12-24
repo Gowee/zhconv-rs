@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
@@ -15,6 +16,30 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Footer() {
   const classes = useStyles();
+  const [buildInfo, setBuildInfo] = useState(
+    {} as {
+      buildDate?: Date;
+      commit?: string;
+      mediawikiCommit?: string;
+      cgroupDate?: Date;
+    }
+  );
+  useEffect(() => {
+    async function loadBuildInfo() {
+      const { get_build_timestamp, get_commit, get_mediawiki_commit } =
+        await import("../../../pkg/zhconv.js");
+      const { timestamp: cgroupTimestamp } = await import(
+        "../../public/cgroups.json"
+      );
+      setBuildInfo({
+        buildDate: new Date(get_build_timestamp()),
+        commit: get_commit(),
+        mediawikiCommit: get_mediawiki_commit(),
+        cgroupDate: new Date(cgroupTimestamp * 1000),
+      });
+    }
+    loadBuildInfo();
+  }, []);
 
   return (
     <footer className={classes.root}>
@@ -29,6 +54,37 @@ export default function Footer() {
         </Grid>
         <Grid item>
           <Typography variant="body2" color="textSecondary">
+            {"Build: "}
+            <Link
+              color="inherit"
+              href={`https://github.com/Gowee/zhconv-rs/commit/${buildInfo.commit}`}
+              underline="always"
+              title={buildInfo?.buildDate?.toLocaleString() ?? undefined}
+            >
+              <code>{buildInfo.commit?.substring(0, 8) ?? "10A0D149."}</code>
+            </Link>
+            {" | "}
+            {"MediaWiki: "}
+            <Link
+              color="inherit"
+              href={`https://github.com/wikimedia/mediawiki/blob/${buildInfo.mediawikiCommit}/includes/languages/data/ZhConversion.php#L14`}
+              underline="always"
+            >
+              <code>
+                {buildInfo.mediawikiCommit?.substring(0, 8) ?? "????????"}
+              </code>
+            </Link>
+            {" | "}
+            {"CGroups: "}
+            <Link
+              color="inherit"
+              href={`https://zh.wikipedia.org/wiki/Template:CGroup/list`}
+              underline="always"
+            >
+              {buildInfo.cgroupDate?.toLocaleString()}
+            </Link>
+          </Typography>
+          {/* <Typography variant="body2" color="textSecondary">
             {"Based on conversion tables from "}
             <Link
               color="inherit"
@@ -46,7 +102,7 @@ export default function Footer() {
               {"Chinese Wikipedia"}
             </Link>
             {"."}
-          </Typography>
+          </Typography> */}
         </Grid>
       </Grid>
     </footer>

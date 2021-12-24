@@ -12,6 +12,7 @@ use itertools::Itertools;
 use regex::Regex;
 use reqwest::blocking as reqwest;
 use sha2::{Digest, Sha256};
+use vergen::{vergen, Config as VergenConfig};
 
 const COMMIT: &str = "2682461394ee5c631b48f1cec8c0328634152558";
 const SHA256: [u8; 32] = hex!("0f0979dc3041c68884a31d3bbd181d30d3b95ad77cfa110404c59e794bf7df4b");
@@ -90,6 +91,8 @@ fn main() {
     //     &dest_path,
     //     &zhconv
     // ).unwrap();
+    vergen(VergenConfig::default()).expect("vergen");
+    println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
     // println!("cargo:rerun-if-changed=zhConversion.php");
 }
