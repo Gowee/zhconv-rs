@@ -92,8 +92,7 @@ impl VariantMap<String> {
     }
 
     /// Get the pairs of conversion for a target variant
-    // TODO: better naming?
-    pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
+    pub fn get_conv_pairs(&self, target: Variant) -> Vec<(&str, &str)> {
         use Variant::*;
         // TODO: Iterator
         // MEDIAWIKI: the code of the reference implementation is too obscure, try to replicate the
@@ -135,7 +134,7 @@ impl VariantMap<String> {
 
 impl VariantMap<Vec<(String, String)>> {
     /// Get the pairs of conversion for a target variant
-    pub fn get_convs_by_target(&self, target: Variant) -> &[(String, String)] {
+    pub fn get_conv_pairs(&self, target: Variant) -> &[(String, String)] {
         // MEDIAWIKI:
         // unlike inline bid conversion rules, global unid conversion rule has no fallback
         self.0.get(&target).map(|p| p.as_slice()).unwrap_or(&[])
@@ -170,6 +169,7 @@ impl FromStr for VariantMap<String> {
         };
         let mut i = 0;
         let mut ampersand = None;
+        // TODO: more robust parser?
         for (j, &c) in s.as_bytes().iter().enumerate() {
             match c {
                 b'&' => {
@@ -193,18 +193,6 @@ impl FromStr for VariantMap<String> {
         if i != s.as_bytes().len() {
             parse_single(&s[i..])?;
         }
-
-        // let p: Lazy<Regex> = Lazy::new(|| Regex::new(r"([\w]+):()").unwrap());
-        // TODO: more robust parser?
-        // let hep: Lazy<Regex> = Lazy::new(|| Regex::new(r"(&[#a-zA-Z0-9]+);").unwrap());  // html entities
-        // let mut es = hep.find_iter(s).map(|m| m.end() - 1).peekable(); // the semicolon indices of entites
-
-        // let mut i = s.find(';')
-
-        // for m in  {
-        //     m.end() - 1;
-        // }
-        // s.split(";")
         Ok(VariantMap(map))
     }
 }

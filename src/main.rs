@@ -27,7 +27,7 @@ struct Opt {
 
     /// File(s) consisting of additional conversion rules seperated by LF
     #[structopt(long = "rules_file", parse(from_os_str))]
-    rules_files: Vec<PathBuf>,
+    rule_files: Vec<PathBuf>,
 
     /// Processes inline MediaWiki conversion rules in the input
     #[structopt(long)]
@@ -53,7 +53,7 @@ struct Opt {
 fn main() -> Result<()> {
     let Opt {
         rules,
-        rules_files,
+        rule_files,
         mediawiki,
         dfa,
         variant,
@@ -64,11 +64,11 @@ fn main() -> Result<()> {
         .target(variant)
         .table(get_builtin_table(variant));
 
-    if !rules.is_empty() || !rules_files.is_empty() {
+    if !rules.is_empty() || !rule_files.is_empty() {
         for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
             builder = builder.add_conv(rule.parse().map_err(|_e| Error::msg("Invalid rule"))?);
         }
-        for path in rules_files.into_iter() {
+        for path in rule_files.into_iter() {
             builder = builder.conv_lines(&fs::read_to_string(path)?);
         }
     }

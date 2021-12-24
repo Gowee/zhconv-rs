@@ -60,7 +60,7 @@ impl ConvRule {
                     .and_then(|c| c.get_text_by_target(target))
                     .unwrap_or("")
             ),
-            Some(Output::VariantName(variant)) => write!(dest, "{}", variant.get_name()), // TODO: correct format?
+            Some(Output::VariantName(variant)) => write!(dest, "{}", variant.get_name()),
             Some(Output::Description) => {
                 if let Some(conv) = self.conv.as_ref() {
                     write!(dest, "{}", conv)
@@ -196,12 +196,12 @@ impl Conv {
     }
 
     #[inline]
-    pub fn get_convs_by_target(&self, target: Variant) -> Vec<(&str, &str)> {
+    pub fn get_conv_pairs(&self, target: Variant) -> Vec<(&str, &str)> {
         // TODO: iterator
-        let mut pairs = self.bid.get_convs_by_target(target);
+        let mut pairs = self.bid.get_conv_pairs(target);
         pairs.extend(
             self.unid
-                .get_convs_by_target(target)
+                .get_conv_pairs(target)
                 .iter()
                 .filter(|(f, _t)| !f.is_empty()) // filter out emtpy froms that troubles AC
                 .map(|(f, t)| (f.as_ref(), t.as_ref())),
@@ -225,11 +225,10 @@ impl FromStr for Conv {
     type Err = ();
 
     fn from_str(s: &str) -> Result<Conv, Self::Err> {
+        let s = s.trim();
         if s.is_empty() {
             // TODO: return?
         }
-
-        let s = s.trim();
         let mut bid = HashMap::new();
         let mut unid = HashMap::new();
         // TODO: implement a clean iterator instead

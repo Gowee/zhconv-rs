@@ -242,7 +242,7 @@ impl<'t> ZhConverterBuilder<'t> {
     /// These rules take the higher precedence over those specified via `table`.
     fn conv_actions<'i>(mut self, conv_actions: impl IntoIterator<Item = &'i ConvAction>) -> Self {
         for conv_action in conv_actions {
-            let pairs = conv_action.as_conv().get_convs_by_target(self.target);
+            let pairs = conv_action.as_conv().get_conv_pairs(self.target);
             if conv_action.adds() {
                 self.adds
                     .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
@@ -256,7 +256,7 @@ impl<'t> ZhConverterBuilder<'t> {
 
     /// Add a conv.
     pub fn add_conv(mut self, conv: Conv) -> Self {
-        let pairs = conv.get_convs_by_target(self.target);
+        let pairs = conv.get_conv_pairs(self.target);
         self.adds
             .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
         self
@@ -264,7 +264,7 @@ impl<'t> ZhConverterBuilder<'t> {
 
     /// Mark a conv as removed.
     pub fn remove_conv(mut self, conv: Conv) -> Self {
-        let pairs = conv.get_convs_by_target(self.target);
+        let pairs = conv.get_conv_pairs(self.target);
         self.removes
             .extend(pairs.iter().map(|&(f, t)| (f.to_owned(), t.to_owned())));
         self
@@ -304,7 +304,7 @@ impl<'t> ZhConverterBuilder<'t> {
             if let Ok(conv) = Conv::from_str(line.trim()) {
                 dbg!(&conv);
                 self.adds
-                    .extend(conv.get_convs_by_target(self.target).iter().map(|&(f, t)| {
+                    .extend(conv.get_conv_pairs(self.target).iter().map(|&(f, t)| {
                         if f.is_empty() {
                             panic!("Conv pair should have non-empty from.")
                         }

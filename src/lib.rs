@@ -14,7 +14,7 @@
 //! on a specific topic.
 //!
 //! # Usage
-//! This crate TODO: will be [on crates.io](https://crates.io/crates/regex).
+//! This crate is [on crates.io](https://crates.io/crates/zhconv).
 //! ```toml
 //! [dependencies]
 //! zhconv = "0.1"
