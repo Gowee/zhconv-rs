@@ -80,25 +80,34 @@ impl ZhConverter {
     ///
     /// The internal implementation are intendedly replicating the behavior of
     /// [LanguageConverter.php](https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855)
-    /// in MediaWiki, with some non-vital diffrences.
-    /// Compared to the plain `convert`, this is known to have a little performance overhead due
-    /// to the inevitable nature of the algorithm chosen by MediaWiki.
+    /// in MediaWiki. But it is not fully compliant with MediaWiki and providing NO PROTECTION over
+    /// XSS attack.
+    ///
+    /// Compared to the plain `convert`, this is known to be much slower due to the inevitable
+    /// nature of the implementation decision made by MediaWiki.
     pub fn convert_allowing_inline_rules(&self, text: &str) -> String {
         // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
-        let p1 = Lazy::new(|| Regex::new(r#"-\{"#).unwrap()); // TODO: exclude html
+        //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L532
+        // TODO: this may degrade to O(n^2)
+        let p1 = Lazy::new(|| {
+            // start of rule | noHtml | noStyle | no code | no pre
+            Regex::new(r#"-\{|<script.*?>.*?</script>|<style.*?>.*?</style>|<code>.*?</code>|<pre.*?>.*?</pre>"#).unwrap()
+        });
+        // TODO: we need to understand what the hell it is so that to adapt it to compatible syntax
+        // 		$noHtml = '<(?:[^>=]*+(?>[^>=]*+=\s*+(?:"[^"]*"|\'[^\']*\'|[^\'">\s]*+))*+[^>=]*+>|.*+)(*SKIP)(*FAIL)';
         let p2 = Lazy::new(|| Regex::new(r#"-\{|\}-"#).unwrap());
         let mut pos = 0;
         let mut converted = String::with_capacity(text.len());
         let mut pieces = vec![];
         while let Some(m1) = p1.find_at(text, pos) {
-            // convert anything before the (possible) toplevel -{
+            // convert anything before (possible) the toplevel -{
             self.converted(&text[pos..m1.start()], &mut converted);
             if m1.as_str() != "-{" {
-                // not start tag, just something to exclude
-                converted.push_str(&text[m1.start()..m1.end()]); // TODO: adapt to nohtml
+                // not start of rule, just <foobar></foobar> to exclude
+                converted.push_str(&text[m1.start()..m1.end()]); // kept as-is
                 pos = m1.end();
-                continue;
+                continue; // i.e. <SKIP><FAIL>
             }
             // found toplevel -{
             pos = m1.start() + 2;
