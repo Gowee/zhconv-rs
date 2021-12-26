@@ -12,9 +12,7 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
-use zhconv::{
-    get_builtin_table, pagerules::PageRules, zhconv, zhconv_mw, Variant, ZhConverterBuilder,
-};
+use zhconv::{get_builtin_table, pagerules::PageRules, Variant, ZhConverterBuilder};
 
 const DFA_FILESIZE: usize = 2 * 1024 * 1024;
 
