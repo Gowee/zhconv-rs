@@ -60,8 +60,8 @@ fn main() {
 }
 
 fn fetch_zhconv() -> String {
-    let out_dir = env::var_os("OUT_DIR").unwrap();
-    let dest_path = Path::new(&out_dir).join("zhConversion.php");
+    let out_dir = env::var_os("CARGO_MANIFEST_DIR").unwrap();
+    let dest_path = Path::new(&out_dir).join("data/zhConversion.php");
 
     if let Some(content) = fs::read(&dest_path)
         .ok()
