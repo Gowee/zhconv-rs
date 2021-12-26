@@ -1,7 +1,7 @@
 [package]
 name = "zhconv"
 version = "0.1.0-alpha"
-edition = "2018"
+edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-3.0"
 repository = "https://github.com/Gowee/zhconv-rs"
@@ -18,14 +18,6 @@ itertools = "0.10"
 strum = { version = "0.23", features = ["derive"] }
 once_cell = "1.8"
 aho-corasick = "0.7"
-
-# for binary only
-structopt = "0.3"
-anyhow = "1.0"
-log = "0.4"
-env_logger = "0.9"
-tempfile = "3.2"
-
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 wasm-bindgen = "0.2"
