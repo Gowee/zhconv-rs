@@ -1,11 +1,10 @@
-
-name: Build
+name: CI
 
 on:
   push:
     branches:
-      - '*'
-      - '!pages' # https://github.community/t/github-actions-on-push-not-master/16026/2
+      - "*"
+      - "!pages" # https://github.community/t/github-actions-on-push-not-master/16026/2
   pull_request:
 
 env:
@@ -15,36 +14,54 @@ jobs:
   build-main:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: |
-        cargo --version
-        cargo build --verbose
-    - name: Test
-      run: cargo test --verbose
-    - name: Clippy
-      run: cargo clippy --verbose
-    - name: Check Format
-      run: cargo fmt -- --check
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          cargo --version
+          cargo build --verbose
+      - name: Test
+        run: cargo test --verbose
+      - name: Clippy
+        run: cargo clippy --all-targets --all-features -- -D warnings
+      - name: Check Format
+        run: cargo fmt -- --check
 
+  build-cli:
+    needs: build-main
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli/
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          cargo --version
+          cargo build --verbose
+      - name: Test
+        run: cargo test --verbose
+      - name: Clippy
+        run: cargo clippy --all-targets --all-features -- -D warnings
+      - name: Check Format
+        run: cargo fmt -- --check
 
   build-web:
     needs: build-main
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '16'
-    - name: Init web
-      working-directory: web/
-      run: |
-        node --version
-        yarn --version
-        yarn install
-    - name: Build
-      working-directory: web/
-      run: yarn build
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16"
+      - name: Init web
+        working-directory: web/
+        run: |
+          node --version
+          yarn --version
+          yarn install
+      - name: Build
+        working-directory: web/
+        run: yarn build
     # - name: Test
     #   working-directory: web/
     #   run: yarn test # no effective test so far
@@ -52,4 +69,3 @@ jobs:
 # adapted from: https://github.com/Gowee/cidr-aggregator/blob/9c02241ab64e5cf62e33375e55e09502385bdc61/.github/workflows/main.yml#L1
 # which is in turn adapted from:
 # https://github.com/Gowee/json2pyi/blob/4e13b4767f97d79e90ecf19a0cb21b1e799d7d48/.github/workflows/main.yml
-
