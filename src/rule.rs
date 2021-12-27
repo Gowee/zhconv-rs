@@ -1,7 +1,7 @@
 //! Structs and functions for processing conversion rule, as is defined in [ConverterRule.php](https://doc.wikimedia.org/mediawiki-core/master/php/ConverterRule_8php.html).
 //!
-//! **Note**: This module is exposed for convenience. It might have breaking changes at any time in
-//!           violation of semver.
+//! **Note**: This module is not stable yet and just exposed for convenience. It might have
+//! breaking changes at any time in violation of semver.
 
 use std::collections::HashMap;
 use std::convert::AsRef;
@@ -203,7 +203,7 @@ impl Conv {
             self.unid
                 .get_conv_pairs(target)
                 .iter()
-                .filter(|(f, _t)| !f.is_empty()) // filter out emtpy froms that troubles AC
+                // .filter(|(f, _t)| !f.is_empty()) // filter out emtpy froms that troubles AC
                 .map(|(f, t)| (f.as_ref(), t.as_ref())),
         );
         pairs
@@ -248,6 +248,9 @@ impl FromStr for Conv {
             let to = &to[1..]; // strip ":"
             let variant = variant.trim().parse::<Variant>().map_err(|_| ())?;
             if let Some(from) = left {
+                if from.is_empty() {
+                    return Err(()); // e.g. {EMPTY}=>zh:foobar
+                }
                 unid.entry(variant)
                     .or_insert_with(Vec::new)
                     .push((from.to_owned(), to.to_owned()));
