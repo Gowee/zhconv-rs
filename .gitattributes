@@ -1,0 +1,4 @@
+# Ref: https://stackoverflow.com/questions/19052834/is-it-possible-to-exclude-files-from-git-language-statistics
+data/zhConversion.php linguist-vendored
+data/cgroups/*.json linguist-vendored
+benches/*.txt linguist-vendored
