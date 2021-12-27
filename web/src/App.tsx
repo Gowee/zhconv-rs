@@ -61,7 +61,7 @@ function App() {
   const classes = useStyles();
   const controlRef = useRef(null as any);
   const [input, setInput] = useState(
-    () => (localStorage.getItem(`${PACKAGE.name}-text`) || "")
+    () => localStorage.getItem(`${PACKAGE.name}-text`) || ""
   );
   const [output, setOutput] = useState(undefined as any);
   const handleConvert = async (

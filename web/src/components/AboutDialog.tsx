@@ -92,8 +92,9 @@ export default function AboutDialog({
           <Typography gutterBottom>
             All the conversion rules including built-in conversion tables and
             CGroups comes from Chinese Wikipedia and MediaWiki, whose
-            communities build and maintain those rules. The app is pretty good.
-            But it is still predictable to have some wrong conversions.
+            communities build and maintain those rules. The accuracy of
+            conversions is pretty good. But it is still predictable to have some
+            wrong conversions.
           </Typography>
           <Typography gutterBottom>
             包括
@@ -120,8 +121,8 @@ export default function AboutDialog({
           </Typography>
         </DialogContent>
         <DialogActions>
-          <Button autoFocus onClick={handleClose} color="primary">
-            Ok
+          <Button autoFocus onClick={handleClose} color="secondary">
+            Ok / 好
           </Button>
         </DialogActions>
       </Dialog>

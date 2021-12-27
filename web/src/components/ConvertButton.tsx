@@ -93,7 +93,7 @@ export default function ConvertButton({
               </Box>
             </Button>
           </Tooltip>
-          <Tooltip title="Click and select target variants / 點擊並選擇目標變體">
+          <Tooltip title="Click and select a target variant / 點擊並選擇目標變體">
             <Button
               color="primary"
               size="small"

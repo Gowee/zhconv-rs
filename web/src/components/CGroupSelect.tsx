@@ -124,15 +124,15 @@ function CGroupDialog({
         <Grid container direction="row" justifyContent="space-between">
           <Grid item>
             <Button onClick={handleClear} color="primary">
-              Clear
+              Clear / 清空
             </Button>
             <Button onClick={handleInvert} color="primary">
-              Invert
+              Invert / 反選
             </Button>
           </Grid>
           <Grid item>
             <Button onClick={handleClose} color="secondary">
-              Ok
+              Ok / 好
             </Button>
           </Grid>
         </Grid>
