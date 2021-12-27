@@ -69,7 +69,7 @@ The project takes the following projects/pages as references:
 - https://github.com/gumblex/zhconv : Python implementation of `zhConver{ter,sion}.php`.
 - https://github.com/BYVoid/OpenCC/ : Widely adopted Chinese converter.
 - https://zh.wikipedia.org/wiki/Wikipedia:字詞轉換處理
-- https://zh.wikipedia.org/wiki/Help:Help:高级字词转换语法
+- https://zh.wikipedia.org/wiki/Help:高级字词转换语法
 - https://github.com/wikimedia/mediawiki/blob/master/includes/language/LanguageConverter.php
 <!--- https://www.hankcs.com/nlp/simplified-traditional-chinese-conversion.html-->
 
