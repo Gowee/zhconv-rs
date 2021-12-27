@@ -53,14 +53,14 @@ fn main() {
         }
     }
 
-    if cfg!(target_arch = "wasm32") {
+    if let Err(_) = std::env::var("DOCS_RS") {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
-        // So only run it in wasm.
+        // So it is safe to disable it.
         vergen(VergenConfig::default()).expect("vergen");
-    }
+    } 
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
-    // println!("cargo:rerun-if-changed=zhConversion.php");
+    println!("cargo:rerun-if-changed=zhConversion.php");
 }
 
 fn fetch_zhconv() -> String {
