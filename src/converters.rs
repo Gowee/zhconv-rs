@@ -1,7 +1,7 @@
 //! Converters lazily built from built-in [`tables`](crate::tables).
 //!
-//! These converters are lazily built on demand and cached for later use. They have [`dfa`](ZhConverterBuilder::dfa)
-//! activated for better conversion performance.
+//! These converters are lazily built on demand with [`dfa`](crate::ZhConverterBuilder::dfa)
+//! activated for better conversion performance, and cached for later use.
 
 use lazy_static::lazy_static; // TODO: once_cell
 

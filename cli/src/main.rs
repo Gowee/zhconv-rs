@@ -17,7 +17,7 @@ use zhconv::{get_builtin_table, pagerules::PageRules, Variant, ZhConverterBuilde
 const DFA_FILESIZE: usize = 2 * 1024 * 1024;
 
 #[derive(StructOpt, Debug)]
-#[structopt(name = "zhconv", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
+#[structopt(name = "zhconv", about = "Convert among Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
 struct Opt {
     /// Additional conversion rules
     #[structopt(long = "rule")]
@@ -37,11 +37,11 @@ struct Opt {
     #[structopt(long)]
     dfa: Option<bool>,
 
-    /// Target variant to convert to
+    /// Target variant to convert to (zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY)
     #[structopt(name = "VARIANT")]
     variant: Variant,
 
-    /// File(s) to convert in-place (omit to use stdin/out)  
+    /// File(s) to convert in-place (omit for stdin/out)  
     #[structopt(name = "FILE", parse(from_os_str))]
     files: Vec<PathBuf>,
 }
@@ -62,13 +62,11 @@ fn main() -> Result<()> {
         .target(variant)
         .table(get_builtin_table(variant));
 
-    if !rules.is_empty() || !rule_files.is_empty() {
-        for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
-            builder = builder.add_conv(rule.parse().map_err(|_e| Error::msg("Invalid rule"))?);
-        }
-        for path in rule_files.into_iter() {
-            builder = builder.conv_lines(&fs::read_to_string(path)?);
-        }
+    for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
+        builder = builder.add_conv(rule.parse().map_err(|_e| Error::msg("Invalid rule"))?);
+    }
+    for path in rule_files.into_iter() {
+        builder = builder.conv_lines(&fs::read_to_string(path)?);
     }
 
     if files.is_empty() {

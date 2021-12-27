@@ -1,11 +1,18 @@
+[![docs.rs](https://docs.rs/zhconv/badge.svg)](https://docs.rs/zhconv)
 [![Crates.io](https://img.shields.io/crates/v/zhconv.svg)](https://crates.io/crates/zhconv)
 [![CI status](https://github.com/Gowee/zhconv-rs/actions/workflows/main.yml/badge.svg)](https://github.com/Gowee/zhconv-rs/actions)
 # zhconv-rs 中文简繁及地區詞轉換
-zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`). 
-
-It is built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from Mediawiki, which is the one also used on Chinese Wikipedia.
+zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from Mediawiki, which is the one also used on Chinese Wikipedia.
 
 **Web App: https://zhconv.pages.dev/** (powered by WASM)
+
+**Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases)(TODO).
+
+**Crate**:
+```rust
+[dependencies]
+zhconv = "0.1"
+```
 
 ## Supported variants
 
@@ -50,11 +57,22 @@ zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 ``` 
 
 ## Differences between other tools
-* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies the PHP built-in function [`strtr`](https://github.dev/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974), which is inefficient. zhconv-rs ports some of the implementation of MediaWiki to supports the same conversion rule syntax with much more efficiency.
-* OpenCC: OpenCC is a widely used cli tool and lib. It has self-maintained conversion tables that are different from MediaWiki. Thanks to the efficient Aho-Corasick algorithm, zhconv-rs is much faster.
+* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity with single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
+* OpenCC: OpenCC has self-maintained conversion tables that are different from MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs uses the Aho-Corasick algorithm, which would be much faster in general.
 
-All of these implementation shares the same leftmost-longest matching strategy. So conversion results should be the same given the same conversion tables in general.
+All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables.
+
+## Credits
+All data that powers the converter, including conversion tables and CGroups, comes from the MediaWiki project.
+
+The project takes the following projects/pages as references:
+- https://github.com/gumblex/zhconv : Python implementation of `zhConver{ter,sion}.php`.
+- https://github.com/BYVoid/OpenCC/ : Widely adopted Chinese converter.
+- https://zh.wikipedia.org/wiki/Wikipedia:字詞轉換處理
+- https://zh.wikipedia.org/wiki/Help:Help:高级字词转换语法
+- https://github.com/wikimedia/mediawiki/blob/master/includes/language/LanguageConverter.php
+<!--- https://www.hankcs.com/nlp/simplified-traditional-chinese-conversion.html-->
 
 ## TODO
 - [x] Support [Module:CGroup](https://zh.wikipedia.org/wiki/Module:CGroup)
-- [ ] Propogate error properly with Anyhow
+- [ ] Propogate error properly with Anyhow and thiserror

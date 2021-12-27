@@ -1,6 +1,6 @@
 [package]
 name = "zhconv-cli"
-version = "0.1.0-alpha"
+version = "0.1.0-beta"
 edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-3.0"
@@ -8,12 +8,16 @@ repository = "https://github.com/Gowee/zhconv-rs"
 description = "Convert Traditional/Simplified Chinese and regional words of Taiwan/Hong Kong/mainland China/Singapore based on Wikipedia conversion tables \n轉換中文簡體、繁體及兩岸、新馬地區詞，基於中文維基轉換表"
 categories = ["text-processing", "localization", "value-formatting"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "zhconv"
+path = "src/main.rs"
 
 [dependencies]
-zhconv = { version = "0.1", path = "../" }
+zhconv = { version = "0.1.0-beta.2", path = "../" }
 structopt = "0.3"
 anyhow = "1.0"
 log = "0.4"
 env_logger = "0.9"
 tempfile = "3.2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

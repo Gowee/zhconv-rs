@@ -9,12 +9,14 @@ use std::default::Default;
 use std::fmt::{self, Display};
 use std::str::FromStr;
 
-use strum::{Display, EnumString, IntoStaticStr};
+use strum::{Display, EnumString, EnumVariantNames, IntoStaticStr};
 
 use crate::utils::get_with_fallback;
 
 /// Chinese variants (a.k.a 中文變體), parsed from language tags, as listed in [Help:高级字词转换语法#组合转换标签](https://zh.wikipedia.org/wiki/Help:高级字词转换语法#组合转换标签).
-#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, Display, EnumString, IntoStaticStr)]
+#[derive(
+    Clone, Copy, Debug, PartialEq, Eq, Hash, Display, EnumString, EnumVariantNames, IntoStaticStr,
+)]
 #[strum(serialize_all = "kebab_case", ascii_case_insensitive)]
 pub enum Variant {
     Zh,

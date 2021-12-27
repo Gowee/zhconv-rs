@@ -1673,7 +1673,7 @@ dependencies = [
 
 [[package]]
 name = "zhconv"
-version = "0.1.0-alpha"
+version = "0.1.0-beta"
 dependencies = [
  "aho-corasick",
  "console_error_panic_hook",

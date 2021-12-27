@@ -5,7 +5,7 @@ For more information, check [zhconv-rs](https://github.com/Gowee/zhconv-rs).
 
 ```
 USAGE:
-    zhconv-cli [FLAGS] [OPTIONS] <VARIANT> [--] [FILE]...
+    zhconv [FLAGS] [OPTIONS] <VARIANT> [--] [FILE]...
 
 FLAGS:
         --mediawiki    Processes inline MediaWiki conversion rules in the input
@@ -20,6 +20,6 @@ OPTIONS:
                                          Omit to let the program to determine by input size
 
 ARGS:
-    <VARIANT>    Target variant to convert to
-    <FILE>...    File(s) to convert in-place (omit to use stdin/out)
+    <VARIANT>    Target variant to convert to (zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY)
+    <FILE>...    File(s) to convert in-place (omit for stdin/out)
 ```
