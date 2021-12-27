@@ -53,9 +53,9 @@ fn main() {
         }
     }
 
-    if let Err(_) = std::env::var("DOCS_RS") {
+    if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
-        // So it is safe to disable it.
+        // So it is ok to disable it in docs.rs.
         vergen(VergenConfig::default()).expect("vergen");
     } 
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
