@@ -53,7 +53,11 @@ fn main() {
         }
     }
 
-    vergen(VergenConfig::default()).expect("vergen");
+    if cfg!(target_arch = "wasm32") {
+        // vergen panics in docs.rs. It is only used by wasm.rs for now.
+        // So only run it in wasm.
+        vergen(VergenConfig::default()).expect("vergen");
+    }
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
     // println!("cargo:rerun-if-changed=zhConversion.php");
