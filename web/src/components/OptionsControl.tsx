@@ -11,6 +11,8 @@ import Box from "@material-ui/core/Box";
 import CGroupSelect from "./CGroupSelect";
 import ConvertButton from "./ConvertButton";
 
+import PACKAGE from "../../package.json";
+
 // const LightTooltip = withStyles((theme: Theme) => ({
 //   tooltip: {
 //     backgroundColor: theme.palette.common.white,
@@ -33,7 +35,11 @@ function OptionsControl(
   ref: ForwardedRef<any>
 ) {
   const [cgroups, setCGroups] = useState({} as { [name: string]: string });
-  const [activatedCGroups, setActivatedCGroups] = useState([] as string[]);
+  const [activatedCGroups, setActivatedCGroups] = useState(() => {
+    return JSON.parse(
+      localStorage.getItem(`${PACKAGE.name}-activated-cgroups`) || "[]"
+    ) as string[];
+  });
   const [parsingInline, setParsingInline] = useState(false);
   useEffect(() => {
     async function loadCGroups() {
@@ -42,7 +48,10 @@ function OptionsControl(
     }
     loadCGroups();
   }, []);
-  useEffect(() => console.log("bem", activatedCGroups), [activatedCGroups]);
+  useEffect(() => {
+    const s = JSON.stringify(activatedCGroups);
+    localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
+  }, [activatedCGroups]);
   return (
     <Grid container direction="row" justifyContent="space-around">
       <Grid item>

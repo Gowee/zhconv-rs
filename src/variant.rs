@@ -1,7 +1,7 @@
 //! Structs for handling variants and mapping of variants.
 //!
-//! **Note**: This module is exposed for convenience. It might have breaking changes at any time in
-//!           violation of semver.
+//! **Note**: This module is not stable yet and just exposed for convenience. It might have
+//! breaking changes at any time in violation of semver.
 
 use std::collections::HashMap;
 use std::convert::From;
@@ -123,7 +123,9 @@ impl VariantMap<String> {
                     for (_variant, from) in self.0.iter() {
                         // when variant == target, from == to, which indicates preventing the word
                         // from converting
-                        pairs.push((from.as_ref(), to));
+                        if !from.is_empty() {
+                            pairs.push((from.as_ref(), to));
+                        }
                     }
                     pairs
                 } else {
