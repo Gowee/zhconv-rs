@@ -40,7 +40,11 @@ function OptionsControl(
       localStorage.getItem(`${PACKAGE.name}-activated-cgroups`) || "[]"
     ) as string[];
   });
-  const [parsingInline, setParsingInline] = useState(false);
+  const [parsingInline, setParsingInline] = useState(() => {
+    return JSON.parse(
+      localStorage.getItem(`${PACKAGE.name}-parsing-inline`) || "false"
+    ) as boolean;
+  });
   useEffect(() => {
     async function loadCGroups() {
       const { data } = await import("../../public/cgroups.json");
@@ -52,6 +56,10 @@ function OptionsControl(
     const s = JSON.stringify(activatedCGroups);
     localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
   }, [activatedCGroups]);
+  useEffect(() => {
+    const s = JSON.stringify(parsingInline);
+    localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
+  }, [parsingInline]);
   return (
     <Grid container direction="row" justifyContent="space-around">
       <Grid item>
