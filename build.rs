@@ -57,7 +57,7 @@ fn main() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
         // So it is ok to disable it in docs.rs.
         vergen(VergenConfig::default()).expect("vergen");
-    } 
+    }
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
     println!("cargo:rerun-if-changed=zhConversion.php");
