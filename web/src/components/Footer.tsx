@@ -81,7 +81,7 @@ export default function Footer() {
               href={`https://zh.wikipedia.org/wiki/Template:CGroup/list`}
               underline="always"
             >
-              {buildInfo.cgroupDate?.toLocaleString()}
+              {buildInfo.cgroupDate?.toLocaleString() ?? "Date unknown"}
             </Link>
           </Typography>
           {/* <Typography variant="body2" color="textSecondary">
