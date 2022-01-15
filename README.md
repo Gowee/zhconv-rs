@@ -58,7 +58,7 @@ zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 
 ## Differences between other tools
 * `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity with single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
-* OpenCC: OpenCC has self-maintained conversion tables that are different from MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs uses the Aho-Corasick algorithm, which would be much faster in general.
+* OpenCC: OpenCC has self-maintained conversion tables that are different from MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs uses the [Aho-Corasick](https://docs.rs/aho-corasick/) algorithm, which would be much faster in general.
 
 All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables.
 
@@ -76,3 +76,5 @@ The project takes the following projects/pages as references:
 ## TODO
 - [x] Support [Module:CGroup](https://zh.wikipedia.org/wiki/Module:CGroup)
 - [ ] Propogate error properly with Anyhow and thiserror
+- [ ] Python lib
+- [ ] Impressive exmaples in README
