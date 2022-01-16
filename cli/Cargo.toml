@@ -20,4 +20,7 @@ log = "0.4"
 env_logger = "0.9"
 tempfile = "3.2"
 
+[features]
+pdf = [ "zhconv/pdf" ]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

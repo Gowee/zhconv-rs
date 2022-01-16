@@ -2,6 +2,8 @@ use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
 use std::collections::HashMap;
 use std::iter::IntoIterator;
 use std::str::FromStr;
+#[cfg(feature = "pdf")]
+use std::io;
 
 use once_cell::unsync::Lazy;
 use regex::Regex;
@@ -175,6 +177,14 @@ impl ZhConverter {
     //         }
     //     }
     // }
+
+    #[cfg(feature="pdf")]
+    #[inline(always)]
+    pub fn convert_pdf(&self, input: impl io::Read, ouput: impl io::Write) -> crate::pdf::Result<()> {
+        use crate::pdf::convert_pdf_with;
+        dbg!("!!!!!!!!!!!!!!!!!1");
+        convert_pdf_with(input, ouput, &self)
+    }
 }
 
 /// A builder that helps build a `ZhConverter`.

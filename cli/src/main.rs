@@ -58,6 +58,17 @@ fn main() -> Result<()> {
         files,
     } = Opt::from_args();
 
+    let converter = zhconv::get_builtin_converter(variant);
+    for path in files.iter() {
+
+        // let path = files.first().unwrap();
+        let file = std::fs::File::open(path)?;
+        let mut tempfile = tempfile_for(&path)?;
+        converter.convert_pdf(file, &mut tempfile)?;
+        // fs::rename(tempfile.path(), path)?;
+    }
+    return Ok(());
+
     let mut builder = ZhConverterBuilder::new()
         .target(variant)
         .table(get_builtin_table(variant));
@@ -136,6 +147,13 @@ fn main() -> Result<()> {
         } else {
             let converter = builder.build();
             for (idx, (path, res)) in files.into_iter().enumerate() {
+                // match path.extension().and_them(|ext| ext.to_str()) {
+                //     Some("pdf") => {
+
+                //     }
+                //     None => {
+                //     }
+                // }
                 let text = res?;
                 info!(
                     "Converting {} ... ({}/{})",
@@ -157,5 +175,6 @@ fn main() -> Result<()> {
 fn tempfile_for(path: &Path) -> io::Result<NamedTempFile> {
     TempFileBuilder::new()
         .prefix(path.file_stem().unwrap_or(OsStr::new(".zhconvtmp")))
+        .suffix(path.extension().unwrap_or(OsStr::new("")))
         .tempfile_in(path.parent().unwrap_or(&"./".parse::<PathBuf>().unwrap()))
 }

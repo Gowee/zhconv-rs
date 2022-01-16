@@ -99,6 +99,12 @@ fn criterion_benchmark(c: &mut Criterion) {
             )
         })
     });
+    // c.bench_function("zh2HK Pooh wiki.pdf", |b| {
+    //     b.iter_with_large_drop(|| {
+    //         zhconv::converters::ZH_TO_TW_CONVERTER.convert_pdf()
+    //         )
+    //     })
+    // });
 }
 
 criterion_group!(benches, criterion_benchmark);

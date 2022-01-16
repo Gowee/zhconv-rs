@@ -55,6 +55,9 @@ pub mod pagerules;
 pub mod rule;
 pub mod variant;
 
+#[cfg(feature = "pdf")]
+pub mod pdf;
+
 use self::utils::for_wasm;
 
 for_wasm! {

@@ -18,6 +18,11 @@ itertools = "0.10"
 strum = { version = "0.23", features = ["derive"] }
 once_cell = "1.8"
 aho-corasick = "0.7"
+# use nom: https://github.com/J-F-Liu/lopdf/issues/157
+lopdf = { version = "0.27", features = ["nom_parser"], optional = true }
+
+[features]
+pdf = ["lopdf"]
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 wasm-bindgen = "0.2"
