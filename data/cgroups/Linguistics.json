@@ -5,15 +5,15 @@
   "rules": [
     {
       "original": "Vowel",
-      "conv": "zh-hans:元音;zh-hant:元音;zh-cn:元音;zh-tw:元音;"
+      "conv": "zh-hans:元音;zh-hant:元音;zh-cn:元音;zh-tw:元音"
     },
     {
       "original": "Consonant",
-      "conv": "zh-cn:辅音;zh-tw:輔音;"
+      "conv": "zh-cn:辅音;zh-tw:輔音"
     },
     {
       "original": "Morpheme",
-      "conv": "zh-cn:语素;zh-tw:詞素;"
+      "conv": "zh-cn:语素;zh-tw:詞素"
     }
   ]
 }

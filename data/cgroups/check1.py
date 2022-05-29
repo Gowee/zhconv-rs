@@ -26,7 +26,7 @@ def check_conv(conv):
     #     packed += f"-{{H|{rule['conv']}}}-"
     if "=>" in conv:
         ff = None
-        for single in filter(None, map(lambda s: s.strip(), conv.split(";"))):
+        for single in filter(None, map(lambda s: s.strip(), conv.split(""))):
             if "=>" not in single:
                 print("E1", conv, f"no => in {single}")
                 break

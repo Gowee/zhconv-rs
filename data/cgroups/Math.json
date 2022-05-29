@@ -5,95 +5,95 @@
   "rules": [
     {
       "original": "constant",
-      "conv": "zh-hans:常数;zh-hant:常數;"
+      "conv": "zh-hans:常数;zh-hant:常數"
     },
     {
       "original": "directional derivative",
-      "conv": "zh-hans:方向导数;zh-hant:方向導數;"
+      "conv": "zh-hans:方向导数;zh-hant:方向導數"
     },
     {
       "original": "equations",
-      "conv": "zh-hans:方程组;zh-hant:方程組;"
+      "conv": "zh-hans:方程组;zh-hant:方程組"
     },
     {
       "original": "expression",
-      "conv": "zh-hans:表达式;zh-hant:表達式;"
+      "conv": "zh-hans:表达式;zh-hant:表達式"
     },
     {
       "original": "function",
-      "conv": "zh-hans:函数;zh-hant:函數;"
+      "conv": "zh-hans:函数;zh-hant:函數"
     },
     {
       "original": "identity element",
-      "conv": "zh-hans:单位元素;zh-hant:單位元素;"
+      "conv": "zh-hans:单位元素;zh-hant:單位元素"
     },
     {
       "original": "non-zero element",
-      "conv": "zh-hans:非零元素;zh-hant:非零元素;"
+      "conv": "zh-hans:非零元素;zh-hant:非零元素"
     },
     {
       "original": "permutation group",
-      "conv": "zh-hans:置换群;zh-hant:置換群;"
+      "conv": "zh-hans:置换群;zh-hant:置換群"
     },
     {
       "original": "target set",
-      "conv": "zh-hans:目标集合;zh-hant:目標集合;"
+      "conv": "zh-hans:目标集合;zh-hant:目標集合"
     },
     {
       "original": "vector",
-      "conv": "zh-hans:向量;zh-hant:向量;"
+      "conv": "zh-hans:向量;zh-hant:向量"
     },
     {
       "original": null,
-      "conv": "zh-hans:积分形式;zh-hant:積分形式;"
+      "conv": "zh-hans:积分形式;zh-hant:積分形式"
     },
     {
       "original": null,
-      "conv": "zh-hans:微分形式;zh-hant:微分形式;"
+      "conv": "zh-hans:微分形式;zh-hant:微分形式"
     },
     {
       "original": null,
-      "conv": "zh-hans:幺元素;zh-hant:么元素;"
+      "conv": "zh-hans:幺元素;zh-hant:么元素"
     },
     {
       "original": null,
-      "conv": "zh-hans:不仅当;zh-hant:不僅當;"
+      "conv": "zh-hans:不仅当;zh-hant:不僅當"
     },
     {
       "original": "Bézout",
-      "conv": "zh-cn:裴蜀;zh-tw:貝祖;"
+      "conv": "zh-cn:裴蜀;zh-tw:貝祖"
     },
     {
       "original": "Borel",
-      "conv": "zh-cn:博雷尔;zh-tw:鮑萊耳;"
+      "conv": "zh-cn:博雷尔;zh-tw:鮑萊耳"
     },
     {
       "original": "Christoffel",
-      "conv": "zh-cn:克里斯托费尔;zh-tw:克里斯多福;"
+      "conv": "zh-cn:克里斯托费尔;zh-tw:克里斯多福"
     },
     {
       "original": "Clifford",
-      "conv": "zh-cn:克利福德;zh-tw:克里福;"
+      "conv": "zh-cn:克利福德;zh-tw:克里福"
     },
     {
       "original": "Copeland",
-      "conv": "zh-cn:科普兰;zh-tw:克柏蘭;"
+      "conv": "zh-cn:科普兰;zh-tw:克柏蘭"
     },
     {
       "original": "Descartes",
-      "conv": "zh-cn:笛卡尔;zh-tw:笛卡兒;zh-hk:笛卡爾;"
+      "conv": "zh-cn:笛卡尔;zh-tw:笛卡兒;zh-hk:笛卡爾"
     },
     {
       "original": "de Moivre",
-      "conv": "zh-cn:棣莫弗;zh-tw:棣美弗;zh-hk:狄默夫;"
+      "conv": "zh-cn:棣莫弗;zh-tw:棣美弗;zh-hk:狄默夫"
     },
     {
       "original": "Eratosthenes",
-      "conv": "zh-cn:埃拉托斯特尼;zh-tw:埃拉托斯特尼;zh-hk:愛拉托散尼;"
+      "conv": "zh-cn:埃拉托斯特尼;zh-tw:埃拉托斯特尼;zh-hk:愛拉托散尼"
     },
     {
       "original": "Erdős",
-      "conv": "zh-cn:埃尔德什;zh-tw:艾狄胥;"
+      "conv": "zh-cn:埃尔德什;zh-tw:艾狄胥"
     },
     {
       "original": "Erdős Pál",
@@ -101,1115 +101,1115 @@
     },
     {
       "original": "Fibonacci",
-      "conv": "zh-cn:斐波纳契;zh-tw:費波納契;zh-hk:斐波納契;"
+      "conv": "zh-cn:斐波纳契;zh-tw:費波納契;zh-hk:斐波納契"
     },
     {
       "original": "Fourier",
-      "conv": "zh-cn:傅里叶;zh-tw:傅立葉;"
+      "conv": "zh-cn:傅里叶;zh-tw:傅立葉"
     },
     {
       "original": "[[:en:Milton Friedman|Milton Friedman]]",
-      "conv": "zh-cn:弗里德曼;zh-sg:弗里德曼;zh-tw:傅利曼;zh-hk:佛利民;"
+      "conv": "zh-cn:弗里德曼;zh-sg:弗里德曼;zh-tw:傅利曼;zh-hk:佛利民"
     },
     {
       "original": "Pareto",
-      "conv": "zh-cn: 帕雷托;zh-tw:柏拉圖;帕累托 =>zh-tw:柏拉圖;"
+      "conv": "zh-cn: 帕雷托;zh-tw:柏拉圖;帕累托 =>zh-tw:柏拉圖"
     },
     {
       "original": "Slutsky",
-      "conv": "zh-cn: 斯卢茨基;zh-tw:史拉斯基;斯勒茨基 =>zh-tw:史拉斯基;斯盧茨基=>zh-tw:史拉斯基;"
+      "conv": "zh-cn: 斯卢茨基;zh-tw:史拉斯基;斯勒茨基 =>zh-tw:史拉斯基;斯盧茨基=>zh-tw:史拉斯基"
     },
     {
       "original": "Bonferroni",
-      "conv": "zh-cn: 邦费罗尼;zh-tw:邦佛洛尼;邦費羅尼=>zh-tw:邦佛洛尼;"
+      "conv": "zh-cn: 邦费罗尼;zh-tw:邦佛洛尼;邦費羅尼=>zh-tw:邦佛洛尼"
     },
     {
       "original": "Pearson",
-      "conv": "zh-cn:皮尔逊;zh-tw:皮爾森;皮爾遜=>zh-tw:皮爾森;"
+      "conv": "zh-cn:皮尔逊;zh-tw:皮爾森;皮爾遜=>zh-tw:皮爾森"
     },
     {
       "original": "Kolmogorov",
-      "conv": "zh-cn: 柯尔莫果洛夫;zh-tw: 科摩哥洛夫;柯爾莫果洛夫 =>zh-tw: 科摩哥洛夫;"
+      "conv": "zh-cn: 柯尔莫果洛夫;zh-tw: 科摩哥洛夫;柯爾莫果洛夫 =>zh-tw: 科摩哥洛夫"
     },
     {
       "original": "Kolmogorov",
-      "conv": "zh-cn: 柯尔莫哥洛夫;zh-tw: 科摩哥洛夫;柯爾莫哥洛夫 =>zh-tw: 科摩哥洛夫;"
+      "conv": "zh-cn: 柯尔莫哥洛夫;zh-tw: 科摩哥洛夫;柯爾莫哥洛夫 =>zh-tw: 科摩哥洛夫"
     },
     {
       "original": "[[:en:Ronald Fisher| Ronald Fisher]]",
-      "conv": "zh-cn: 费希尔;zh-tw:費雪;費希爾 =>zh-tw:費雪;"
+      "conv": "zh-cn: 费希尔;zh-tw:費雪;費希爾 =>zh-tw:費雪"
     },
     {
       "original": "Frobenius",
-      "conv": "zh-cn:弗罗贝尼乌斯;zh-tw:弗比尼斯;"
+      "conv": "zh-cn:弗罗贝尼乌斯;zh-tw:弗比尼斯"
     },
     {
       "original": "Hausdorff",
-      "conv": "zh-cn:豪斯多夫;zh-tw:郝斯多夫;"
+      "conv": "zh-cn:豪斯多夫;zh-tw:郝斯多夫"
     },
     {
       "original": "L\\' Hôpital",
-      "conv": "zh-cn:洛必达;zh-tw:羅必達;zh-hk:洛必達;"
+      "conv": "zh-cn:洛必达;zh-tw:羅必達;zh-hk:洛必達"
     },
     {
       "original": "Legendre",
-      "conv": "zh-cn:勒让德;zh-tw:勒壤得;"
+      "conv": "zh-cn:勒让德;zh-tw:勒壤得"
     },
     {
       "original": "Levi-Civita",
-      "conv": "zh-cn:列维-奇维塔;zh-tw:勒維奇維塔;"
+      "conv": "zh-cn:列维-奇维塔;zh-tw:勒維奇維塔"
     },
     {
       "original": "Liouville",
-      "conv": "zh-cn:刘维尔;zh-tw:萊歐維爾;"
+      "conv": "zh-cn:刘维尔;zh-tw:萊歐維爾"
     },
     {
       "original": "Markov",
-      "conv": "zh-cn:马尔可夫;zh-tw:馬可夫;"
+      "conv": "zh-cn:马尔可夫;zh-tw:馬可夫"
     },
     {
       "original": "Markov",
-      "conv": "zh-cn: 马尔可夫;zh-tw:馬可夫;馬爾可夫=>zh-tw:馬可夫;"
+      "conv": "zh-cn: 马尔可夫;zh-tw:馬可夫;馬爾可夫=>zh-tw:馬可夫"
     },
     {
       "original": "Monte Carlo",
-      "conv": "zh-cn:蒙特卡洛;zh-tw:蒙地卡羅;"
+      "conv": "zh-cn:蒙特卡洛;zh-tw:蒙地卡羅"
     },
     {
       "original": "Chebyshev",
-      "conv": "zh-cn:切比雪夫;zh-tw:柴比雪夫;"
+      "conv": "zh-cn:切比雪夫;zh-tw:柴比雪夫"
     },
     {
       "original": "Schwartz",
-      "conv": "zh-cn:施瓦兹;zh-tw:施瓦次;"
+      "conv": "zh-cn:施瓦兹;zh-tw:施瓦次"
     },
     {
       "original": "Sturm",
-      "conv": "zh-cn:施图姆;zh-tw:史特姆;"
+      "conv": "zh-cn:施图姆;zh-tw:史特姆"
     },
     {
       "original": "algebraic dependence",
-      "conv": "zh-cn:代数相关;zh-tw:代數相依;"
+      "conv": "zh-cn:代数相关;zh-tw:代數相依"
     },
     {
       "original": "algebraic independence",
-      "conv": "zh-cn:代数无关;zh-tw:代數獨立;"
+      "conv": "zh-cn:代数无关;zh-tw:代數獨立"
     },
     {
       "original": "algebraically closed field",
-      "conv": "zh-cn:代数闭域;zh-tw:代數閉體;"
+      "conv": "zh-cn:代数闭域;zh-tw:代數閉體"
     },
     {
       "original": "algebraically closed field",
-      "conv": "代數閉域=>zh-tw:代數閉體;代數閉域=>zh-hk:代數閉體;代數閉域=>zh-mo:代數閉體;"
+      "conv": "代數閉域=>zh-tw:代數閉體;代數閉域=>zh-hk:代數閉體;代數閉域=>zh-mo:代數閉體"
     },
     {
       "original": "algebraically closed field",
-      "conv": "zh-cn:代数封闭域;zh-tw:代數封閉體;"
+      "conv": "zh-cn:代数封闭域;zh-tw:代數封閉體"
     },
     {
       "original": "algebraically closed field",
-      "conv": "代數封閉域=>zh-tw:代數封閉體;代數封閉域=>zh-hk:代數封閉體;代數封閉域=>zh-mo:代數封閉體;"
+      "conv": "代數封閉域=>zh-tw:代數封閉體;代數封閉域=>zh-hk:代數封閉體;代數封閉域=>zh-mo:代數封閉體"
     },
     {
       "original": "automorphic form",
-      "conv": "zh-cn:自守形式;zh-tw:自守式;"
+      "conv": "zh-cn:自守形式;zh-tw:自守式"
     },
     {
       "original": "base field",
-      "conv": "zh-cn:基域;zh-tw:基體;"
+      "conv": "zh-cn:基域;zh-tw:基體"
     },
     {
       "original": "Law of large numbers",
-      "conv": "zh-cn:大数定律;zh-tw:大數法則;zh-hk:大數法則;"
+      "conv": "zh-cn:大数定律;zh-tw:大數法則;zh-hk:大數法則"
     },
     {
       "original": "bayes\\' theorem",
-      "conv": "zh-cn:贝叶斯法则;zh-tw:貝氏定理;貝葉斯法則=>zh-tw:貝氏定理;"
+      "conv": "zh-cn:贝叶斯法则;zh-tw:貝氏定理;貝葉斯法則=>zh-tw:貝氏定理"
     },
     {
       "original": "bayes\\' theorem",
-      "conv": "zh-cn:贝叶斯定理;zh-tw:貝氏定理;貝葉斯定理=>zh-tw:貝氏定理;"
+      "conv": "zh-cn:贝叶斯定理;zh-tw:貝氏定理;貝葉斯定理=>zh-tw:貝氏定理"
     },
     {
       "original": "bayes\\' theorem",
-      "conv": "zh-cn:贝叶斯理论;zh-tw:貝氏定理;貝葉斯理論=>zh-tw:貝氏定理;"
+      "conv": "zh-cn:贝叶斯理论;zh-tw:貝氏定理;貝葉斯理論=>zh-tw:貝氏定理"
     },
     {
       "original": "bayesian probability",
-      "conv": "zh-cn:贝叶斯概率;zh-tw:貝氏機率;貝葉斯概率=>zh-tw:貝氏機率;"
+      "conv": "zh-cn:贝叶斯概率;zh-tw:貝氏機率;貝葉斯概率=>zh-tw:貝氏機率"
     },
     {
       "original": "bayesian statistics",
-      "conv": "zh-cn:贝叶斯统计;zh-tw:貝氏統計;貝葉斯統計=>zh-tw:貝氏統計;"
+      "conv": "zh-cn:贝叶斯统计;zh-tw:貝氏統計;貝葉斯統計=>zh-tw:貝氏統計"
     },
     {
       "original": "bayes\\' inference",
-      "conv": "zh-cn:贝叶斯推断;zh-tw:貝氏推論;"
+      "conv": "zh-cn:贝叶斯推断;zh-tw:貝氏推論"
     },
     {
       "original": "bayes\\' inference",
-      "conv": " 貝葉斯推論=>zh-tw:貝氏推論;zh-tw:貝氏推論;貝葉斯推斷=>zh-tw:貝氏推論;"
+      "conv": " 貝葉斯推論=>zh-tw:貝氏推論;zh-tw:貝氏推論;貝葉斯推斷=>zh-tw:貝氏推論"
     },
     {
       "original": "bayesian estimator ",
-      "conv": "zh-cn:贝叶斯估计;zh-tw:貝氏估計;貝葉斯估計=>zh-tw:貝氏估計;"
+      "conv": "zh-cn:贝叶斯估计;zh-tw:貝氏估計;貝葉斯估計=>zh-tw:貝氏估計"
     },
     {
       "original": "posterior probability",
-      "conv": "zh-cn: 后验概率;zh-tw:事後機率;zh-hant:後驗概率;後驗概率=>zh-tw:事後機率;"
+      "conv": "zh-cn: 后验概率;zh-tw:事後機率;zh-hant:後驗概率;後驗概率=>zh-tw:事後機率"
     },
     {
       "original": "prior probability",
-      "conv": "zh-cn: 先验概率;zh-tw:事前機率;zh-hant: 先驗概率;先驗概率=>zh-tw:事前機率;"
+      "conv": "zh-cn: 先验概率;zh-tw:事前機率;zh-hant: 先驗概率;先驗概率=>zh-tw:事前機率"
     },
     {
       "original": "posterior distribution",
-      "conv": "zh-cn: 后验分布;zh-tw:事後分布;zh-hant:後驗分布;後驗分布=>zh-tw:事後分布;"
+      "conv": "zh-cn: 后验分布;zh-tw:事後分布;zh-hant:後驗分布;後驗分布=>zh-tw:事後分布"
     },
     {
       "original": "prior distribution",
-      "conv": "zh-cn: 先验分布;zh-tw:事前分布;zh-hant: 先驗分布;先驗分布=>zh-tw:事前分布;"
+      "conv": "zh-cn: 先验分布;zh-tw:事前分布;zh-hant: 先驗分布;先驗分布=>zh-tw:事前分布"
     },
     {
       "original": "Bézier curve",
-      "conv": "zh-cn:贝塞尔曲线;zh-tw:貝茲曲線;"
+      "conv": "zh-cn:贝塞尔曲线;zh-tw:貝茲曲線"
     },
     {
       "original": "bijection",
-      "conv": "zh-cn:双射;zh-tw:對射;"
+      "conv": "zh-cn:双射;zh-tw:對射"
     },
     {
       "original": "bijection",
-      "conv": "雙射=>zh-tw:對射;雙射=>zh-hk:對射;雙射=>zh-mo:對射;"
+      "conv": "雙射=>zh-tw:對射;雙射=>zh-hk:對射;雙射=>zh-mo:對射"
     },
     {
       "original": "boolean",
-      "conv": "zh-cn:布尔;zh-tw:布林;"
+      "conv": "zh-cn:布尔;zh-tw:布林"
     },
     {
       "original": "boolean algebra",
-      "conv": "zh-cn:布尔逻辑;zh-tw:布林運算;"
+      "conv": "zh-cn:布尔逻辑;zh-tw:布林運算"
     },
     {
       "original": "central limit theorem",
-      "conv": "zh-cn:中心极限定理;zh-hk:中心極限定理;zh-tw:中央極限定理;"
+      "conv": "zh-cn:中心极限定理;zh-hk:中心極限定理;zh-tw:中央極限定理"
     },
     {
       "original": "chain",
-      "conv": "链式=>zh-tw:連鎖;链式=>zh-hk:連鎖;链式=>zh-mo:連鎖;"
+      "conv": "链式=>zh-tw:連鎖;链式=>zh-hk:連鎖;链式=>zh-mo:連鎖"
     },
     {
       "original": "chain",
-      "conv": "鏈式=>zh-tw:連鎖;鏈式=>zh-hk:連鎖;鏈式=>zh-mo:連鎖;"
+      "conv": "鏈式=>zh-tw:連鎖;鏈式=>zh-hk:連鎖;鏈式=>zh-mo:連鎖"
     },
     {
       "original": "chain",
-      "conv": "链锁=>zh-tw:連鎖;链锁=>zh-hk:連鎖;链锁=>zh-mo:連鎖;"
+      "conv": "链锁=>zh-tw:連鎖;链锁=>zh-hk:連鎖;链锁=>zh-mo:連鎖"
     },
     {
       "original": "chain",
-      "conv": "鏈鎖=>zh-tw:連鎖;鏈鎖=>zh-hk:連鎖;鏈鎖=>zh-mo:連鎖;"
+      "conv": "鏈鎖=>zh-tw:連鎖;鏈鎖=>zh-hk:連鎖;鏈鎖=>zh-mo:連鎖"
     },
     {
       "original": "chain rule",
-      "conv": "zh-cn:链式法則;zh-tw:連鎖律;"
+      "conv": "zh-cn:链式法則;zh-tw:連鎖律"
     },
     {
       "original": "chain rule",
-      "conv": "连锁法则=>zh-cn:链式法則;连锁法则=>zh-sg:链式法則;连锁法则=>zh-my:链式法則;"
+      "conv": "连锁法则=>zh-cn:链式法則;连锁法则=>zh-sg:链式法則;连锁法则=>zh-my:链式法則"
     },
     {
       "original": "class field",
-      "conv": "zh-cn:类域;zh-tw:類體;"
+      "conv": "zh-cn:类域;zh-tw:類體"
     },
     {
       "original": "class field",
-      "conv": "類域=>zh-tw:類體;類域=>zh-hk:類體;類域=>zh-mo:類體;"
+      "conv": "類域=>zh-tw:類體;類域=>zh-hk:類體;類域=>zh-mo:類體"
     },
     {
       "original": "classical group",
-      "conv": "zh-cn:典型群;zh-tw:古典群;"
+      "conv": "zh-cn:典型群;zh-tw:古典群"
     },
     {
       "original": "closed graph theorem",
-      "conv": "zh-cn:闭图像定理;zh-tw:閉圖定理;"
+      "conv": "zh-cn:闭图像定理;zh-tw:閉圖定理"
     },
     {
       "original": "coalgebra",
-      "conv": "zh-hans:余代数;zh-hant:餘代數;"
+      "conv": "zh-hans:余代数;zh-hant:餘代數"
     },
     {
       "original": "cochain",
-      "conv": "zh-cn:上链;zh-tw:餘鍵;"
+      "conv": "zh-cn:上链;zh-tw:餘鍵"
     },
     {
       "original": "codomain",
-      "conv": "zh-cn:到达域;zh-tw:對應域;"
+      "conv": "zh-cn:到达域;zh-tw:對應域"
     },
     {
       "original": "codomain",
-      "conv": "对应域=>zh-cn:到达域;对应域=>zh-sg:到达域;对应域=>zh-my:到达域;"
+      "conv": "对应域=>zh-cn:到达域;对应域=>zh-sg:到达域;对应域=>zh-my:到达域"
     },
     {
       "original": "codomain",
-      "conv": "到達域=>zh-tw:對應域;到達域=>zh-hk:對應域;到達域=>zh-mo:對應域;"
+      "conv": "到達域=>zh-tw:對應域;到達域=>zh-hk:對應域;到達域=>zh-mo:對應域"
     },
     {
       "original": "codomain",
-      "conv": "陪域=>zh-tw:對應域;陪域=>zh-hk:對應域;陪域=>zh-mo:對應域;"
+      "conv": "陪域=>zh-tw:對應域;陪域=>zh-hk:對應域;陪域=>zh-mo:對應域"
     },
     {
       "original": "codomain",
-      "conv": "上域=>zh-tw:對應域;上域=>zh-hk:對應域;上域=>zh-mo:對應域;"
+      "conv": "上域=>zh-tw:對應域;上域=>zh-hk:對應域;上域=>zh-mo:對應域"
     },
     {
       "original": "cofactor",
-      "conv": "zh-hans:余因子;zh-hant:餘因子;"
+      "conv": "zh-hans:余因子;zh-hant:餘因子"
     },
     {
       "original": "cofactor",
-      "conv": "zh-hans:余因式;zh-hant:餘因式;"
+      "conv": "zh-hans:余因式;zh-hant:餘因式"
     },
     {
       "original": "cohomology",
-      "conv": "zh-cn:上同调;zh-tw:餘調;"
+      "conv": "zh-cn:上同调;zh-tw:餘調"
     },
     {
       "original": "cohomotopy",
-      "conv": "zh-cn:上同伦;zh-tw:餘倫;"
+      "conv": "zh-cn:上同伦;zh-tw:餘倫"
     },
     {
       "original": "coimage",
-      "conv": "zh-hans:余像;zh-hant:餘像;"
+      "conv": "zh-hans:余像;zh-hant:餘像"
     },
     {
       "original": "cokernel",
-      "conv": "zh-hans:余核;zh-hant:餘核;"
+      "conv": "zh-hans:余核;zh-hant:餘核"
     },
     {
       "original": "colatitude",
-      "conv": "zh-hans:余纬度;zh-hant:餘緯度;"
+      "conv": "zh-hans:余纬度;zh-hant:餘緯度"
     },
     {
       "original": "colimit",
-      "conv": "zh-hans:余极限;zh-hant:餘極限;"
+      "conv": "zh-hans:余极限;zh-hant:餘極限"
     },
     {
       "original": "comodule",
-      "conv": "zh-hans:余模;zh-hant:餘模;"
+      "conv": "zh-hans:余模;zh-hant:餘模"
     },
     {
       "original": "complementary",
-      "conv": "zh-hans:互余;zh-hant:互餘;"
+      "conv": "zh-hans:互余;zh-hant:互餘"
     },
     {
       "original": "complex",
-      "conv": "zh-hans:复形;zh-hant:複形;"
+      "conv": "zh-hans:复形;zh-hant:複形"
     },
     {
       "original": "complex algebra",
-      "conv": "zh-hans:复代数;zh-hant:複代數;"
+      "conv": "zh-hans:复代数;zh-hant:複代數"
     },
     {
       "original": "complex analytic",
-      "conv": "zh-hans:复解析;zh-hant:複解析;"
+      "conv": "zh-hans:复解析;zh-hant:複解析"
     },
     {
       "original": "complex cobordism",
-      "conv": "zh-hans:复配边;zh-hant:複配邊;"
+      "conv": "zh-hans:复配边;zh-hant:複配邊"
     },
     {
       "original": "complex coefficient",
-      "conv": "zh-hans:复系数;zh-hant:複系數;"
+      "conv": "zh-hans:复系数;zh-hant:複系數"
     },
     {
       "original": "complex conjugate",
-      "conv": "zh-hans:复共轭;zh-hant:複共軛;"
+      "conv": "zh-hans:复共轭;zh-hant:複共軛"
     },
     {
       "original": "complex differentiable",
-      "conv": "zh-hans:复可微;zh-hant:複可微;"
+      "conv": "zh-hans:复可微;zh-hant:複可微"
     },
     {
       "original": "complex exponential",
-      "conv": "zh-hans:复指数;zh-hant:複指數;"
+      "conv": "zh-hans:复指数;zh-hant:複指數"
     },
     {
       "original": "complex geometry",
-      "conv": "zh-hans:复几何;zh-hant:複幾何;"
+      "conv": "zh-hans:复几何;zh-hant:複幾何"
     },
     {
       "original": "complex line bundle",
-      "conv": "zh-hans:复线丛;zh-hant:複線叢;"
+      "conv": "zh-hans:复线丛;zh-hant:複線叢"
     },
     {
       "original": "complex matrix",
-      "conv": "zh-hans:复矩阵;zh-hant:複矩陣;"
+      "conv": "zh-hans:复矩阵;zh-hant:複矩陣"
     },
     {
       "original": "complex number field",
-      "conv": "zh-hans:复域;zh-hant:複域;"
+      "conv": "zh-hans:复域;zh-hant:複域"
     },
     {
       "original": "complex plane",
-      "conv": "zh-cn:复平面;zh-tw:複數平面;"
+      "conv": "zh-cn:复平面;zh-tw:複數平面"
     },
     {
       "original": "complex projective",
-      "conv": "zh-hans:复射影;zh-hant:複射影;"
+      "conv": "zh-hans:复射影;zh-hant:複射影"
     },
     {
       "original": "complex root",
-      "conv": "zh-hans:复根;zh-hant:複根;"
+      "conv": "zh-hans:复根;zh-hant:複根"
     },
     {
       "original": "complex space",
-      "conv": "zh-hans:复空间;zh-hant:複空間;"
+      "conv": "zh-hans:复空间;zh-hant:複空間"
     },
     {
       "original": "complex structure",
-      "conv": "zh-hans:复结构;zh-hant:複結構;"
+      "conv": "zh-hans:复结构;zh-hant:複結構"
     },
     {
       "original": "complex valued",
-      "conv": "zh-hans:复值;zh-hant:複值;"
+      "conv": "zh-hans:复值;zh-hant:複值"
     },
     {
       "original": "variable",
-      "conv": "zh-cn:变量;zh-tw:變數;變量=>zh-tw:變數;"
+      "conv": "zh-cn:变量;zh-tw:變數;變量=>zh-tw:變數"
     },
     {
       "original": "complex variable",
-      "conv": "zh-cn:复变量;zh-tw:複變數;"
+      "conv": "zh-cn:复变量;zh-tw:複變數"
     },
     {
       "original": "complex variable",
-      "conv": "复变数=>zh-tw:複變數;复变数=>zh-hk:複變數;复变数=>zh-mo:複變數;"
+      "conv": "复变数=>zh-tw:複變數;复变数=>zh-hk:複變數;复变数=>zh-mo:複變數"
     },
     {
       "original": "complex vector",
-      "conv": "zh-hans:复向量;zh-hant:複向量;"
+      "conv": "zh-hans:复向量;zh-hant:複向量"
     },
     {
       "original": "confidence interval",
-      "conv": "zh-cn:置信区间;zh-tw:信賴區間;zh-hk:置信區間;"
+      "conv": "zh-cn:置信区间;zh-tw:信賴區間;zh-hk:置信區間"
     },
     {
       "original": "confidence level",
-      "conv": "zh-cn:置信水平;zh-tw:信心水準;zh-hk:置信水平;"
+      "conv": "zh-cn:置信水平;zh-tw:信心水準;zh-hk:置信水平"
     },
     {
       "original": "Fisher information",
-      "conv": "zh-cn: 费希尔信息;zh-tw:費雪訊息;費希爾信息=>zh-tw:費雪訊息;"
+      "conv": "zh-cn: 费希尔信息;zh-tw:費雪訊息;費希爾信息=>zh-tw:費雪訊息"
     },
     {
       "original": "conormal bundle",
-      "conv": "zh-hans:余法丛;zh-hant:餘法叢;"
+      "conv": "zh-hans:余法丛;zh-hant:餘法叢"
     },
     {
       "original": "consecutive exterior angles",
-      "conv": "zh-cn:同旁外角;zh-tw:同側外角;"
+      "conv": "zh-cn:同旁外角;zh-tw:同側外角"
     },
     {
       "original": "consecutive interior angles",
-      "conv": "zh-cn:同旁内角;zh-tw:同側內角;"
+      "conv": "zh-cn:同旁内角;zh-tw:同側內角"
     },
     {
       "original": "constant",
-      "conv": "常量=>zh-tw:常數;常量=>zh-hk:常數;常量=>zh-mo:常數;"
+      "conv": "常量=>zh-tw:常數;常量=>zh-hk:常數;常量=>zh-mo:常數"
     },
     {
       "original": "convolution",
-      "conv": "zh-cn:卷积;zh-tw:摺積;"
+      "conv": "zh-cn:卷积;zh-tw:摺積"
     },
     {
       "original": "coordinate",
-      "conv": "座標=>zh-cn:坐标;座標=>zh-sg:坐标;座標=>zh-my:坐标;"
+      "conv": "座標=>zh-cn:坐标;座標=>zh-sg:坐标;座標=>zh-my:坐标"
     },
     {
       "original": "coprime",
-      "conv": "zh-cn:互素;zh-tw:互質;"
+      "conv": "zh-cn:互素;zh-tw:互質"
     },
     {
       "original": "cosimplical",
-      "conv": "zh-hans:余单纯;zh-hant:餘單純;"
+      "conv": "zh-hans:余单纯;zh-hant:餘單純"
     },
     {
       "original": "cyclotomic field",
-      "conv": "zh-cn:分圆域;zh-tw:分圓體;"
+      "conv": "zh-cn:分圆域;zh-tw:分圓體"
     },
     {
       "original": "cyclotomic field",
-      "conv": "分圓域=>zh-tw:分圓體;分圓域=>zh-hk:分圓體;分圓域=>zh-mo:分圓體;"
+      "conv": "分圓域=>zh-tw:分圓體;分圓域=>zh-hk:分圓體;分圓域=>zh-mo:分圓體"
     },
     {
       "original": "dependent variable",
-      "conv": "zh-cn:因变量;zh-tw:應變數;"
+      "conv": "zh-cn:因变量;zh-tw:應變數"
     },
     {
       "original": "derived algebra",
-      "conv": "zh-cn:导出代数;zh-tw:導來代數;"
+      "conv": "zh-cn:导出代数;zh-tw:導來代數"
     },
     {
       "original": "derived functor",
-      "conv": "zh-cn:导出函子;zh-tw:導來函子;"
+      "conv": "zh-cn:导出函子;zh-tw:導來函子"
     },
     {
       "original": "derived set",
-      "conv": "zh-cn:导集;zh-tw:導來集;"
+      "conv": "zh-cn:导集;zh-tw:導來集"
     },
     {
       "original": "disjoint union",
-      "conv": "zh-cn:不交并;zh-tw:互斥聯集;zh-hk:互斥併集;"
+      "conv": "zh-cn:不交并;zh-tw:互斥聯集;zh-hk:互斥併集"
     },
     {
       "original": "divided... and left over",
-      "conv": "zh-hans:除余;zh-hant:除餘;"
+      "conv": "zh-hans:除余;zh-hant:除餘"
     },
     {
       "original": "divisor",
-      "conv": "zh-cn:约数;zh-tw:因數;"
+      "conv": "zh-cn:约数;zh-tw:因數"
     },
     {
       "original": "dynamical system",
-      "conv": "zh-cn:动力系统;zh-tw:動態系統;"
+      "conv": "zh-cn:动力系统;zh-tw:動態系統"
     },
     {
       "original": "eigenfunction",
-      "conv": "zh-cn:本征函数;zh-tw:固有函數;"
+      "conv": "zh-cn:本征函数;zh-tw:固有函數"
     },
     {
       "original": "elimination",
-      "conv": "消元=>zh-tw:消去;消元=>zh-hk:消去;消元=>zh-mo:消去;"
+      "conv": "消元=>zh-tw:消去;消元=>zh-hk:消去;消元=>zh-mo:消去"
     },
     {
       "original": "elimination method",
-      "conv": "zh-cn:消元法;zh-tw:消去法;"
+      "conv": "zh-cn:消元法;zh-tw:消去法"
     },
     {
       "original": "equation",
-      "conv": "zh-cn:方程;zh-tw:方程式;"
+      "conv": "zh-cn:方程;zh-tw:方程式"
     },
     {
       "original": "coefficient",
-      "conv": "zh-cn:系数;zh-tw:係數;zh-hk:系數;"
+      "conv": "zh-cn:系数;zh-tw:係數;zh-hk:系數"
     },
     {
       "original": "product-moment",
-      "conv": "zh-cn: 积矩;zh-tw: 積動差;積矩=>zh-tw:積動差;"
+      "conv": "zh-cn: 积矩;zh-tw: 積動差;積矩=>zh-tw:積動差"
     },
     {
       "original": "exclusive or",
-      "conv": "zh-cn:异或;zh-tw:互斥或;zh-hk:異或;"
+      "conv": "zh-cn:异或;zh-tw:互斥或;zh-hk:異或"
     },
     {
       "original": "extension field",
-      "conv": "zh-cn:扩张域;zh-tw:擴張體;"
+      "conv": "zh-cn:扩张域;zh-tw:擴張體"
     },
     {
       "original": "extension field",
-      "conv": "擴張域=>zh-tw:擴張體;擴張域=>zh-hk:擴張體;擴張域=>zh-mo:擴張體;"
+      "conv": "擴張域=>zh-tw:擴張體;擴張域=>zh-hk:擴張體;擴張域=>zh-mo:擴張體"
     },
     {
       "original": "extension field",
-      "conv": "扩域=>zh-tw:擴張體;扩域=>zh-hk:擴張體;扩域=>zh-mo:擴張體;"
+      "conv": "扩域=>zh-tw:擴張體;扩域=>zh-hk:擴張體;扩域=>zh-mo:擴張體"
     },
     {
       "original": "family of sets",
-      "conv": "集合族=>zh-tw:集族;集合族=>zh-hk:集族;集合族=>zh-mo:集族;"
+      "conv": "集合族=>zh-tw:集族;集合族=>zh-hk:集族;集合族=>zh-mo:集族"
     },
     {
       "original": "fibonacci sequence",
-      "conv": "zh-cn:斐波那契数列;zh-tw:費氏數列;zh-hk:斐波那契數列;"
+      "conv": "zh-cn:斐波那契数列;zh-tw:費氏數列;zh-hk:斐波那契數列"
     },
     {
       "original": "field extension",
-      "conv": "zh-cn:域扩张;zh-tw:體擴張;"
+      "conv": "zh-cn:域扩张;zh-tw:體擴張"
     },
     {
       "original": "field extension",
-      "conv": "域擴張=>zh-tw:體擴張;域擴張=>zh-hk:體擴張;域擴張=>zh-mo:體擴張;"
+      "conv": "域擴張=>zh-tw:體擴張;域擴張=>zh-hk:體擴張;域擴張=>zh-mo:體擴張"
     },
     {
       "original": "field theory",
-      "conv": "zh-cn:域论;zh-tw:體論;"
+      "conv": "zh-cn:域论;zh-tw:體論"
     },
     {
       "original": "field theory",
-      "conv": "域論=>zh-tw:體論;域論=>zh-hk:體論;域論=>zh-mo:體論;"
+      "conv": "域論=>zh-tw:體論;域論=>zh-hk:體論;域論=>zh-mo:體論"
     },
     {
       "original": "find remainder",
-      "conv": "zh-hans:求余;zh-hant:求餘;"
+      "conv": "zh-hans:求余;zh-hant:求餘"
     },
     {
       "original": "finite field",
-      "conv": "zh-cn:有限域;zh-tw:有限體;"
+      "conv": "zh-cn:有限域;zh-tw:有限體"
     },
     {
       "original": "fractal",
-      "conv": "zh-cn:分形;zh-tw:碎形;"
+      "conv": "zh-cn:分形;zh-tw:碎形"
     },
     {
       "original": "Galois field",
-      "conv": "zh-cn:伽罗瓦域;zh-tw:伽羅瓦體;"
+      "conv": "zh-cn:伽罗瓦域;zh-tw:伽羅瓦體"
     },
     {
       "original": "global field",
-      "conv": "zh-cn:整体域;zh-tw:大域體;"
+      "conv": "zh-cn:整体域;zh-tw:大域體"
     },
     {
       "original": "global field",
-      "conv": "整體域=>zh-tw:大域體;整體域=>zh-hk:大域體;整體域=>zh-mo:大域體;"
+      "conv": "整體域=>zh-tw:大域體;整體域=>zh-hk:大域體;整體域=>zh-mo:大域體"
     },
     {
       "original": "hidden markov model",
-      "conv": "zh-cn:隐马尔可夫模型;zh-tw:隱藏式馬可夫模型;"
+      "conv": "zh-cn:隐马尔可夫模型;zh-tw:隱藏式馬可夫模型"
     },
     {
       "original": "identity element",
-      "conv": "zh-cn:单位元;zh-tw:單位元素;zh-hk:單位元;zh-mo:單位元素;"
+      "conv": "zh-cn:单位元;zh-tw:單位元素;zh-hk:單位元;zh-mo:單位元素"
     },
     {
       "original": "identity element",
-      "conv": "幺元=>zh-tw:單位元素;幺元=>zh-hk:單位元;幺元=>zh-mo:單位元素;"
+      "conv": "幺元=>zh-tw:單位元素;幺元=>zh-hk:單位元;幺元=>zh-mo:單位元素"
     },
     {
       "original": "identity element",
-      "conv": "么元=>zh-tw:單位元素;么元=>zh-hk:單位元;么元=>zh-mo:單位元素;"
+      "conv": "么元=>zh-tw:單位元素;么元=>zh-hk:單位元;么元=>zh-mo:單位元素"
     },
     {
       "original": "if and only if",
-      "conv": "zh-cn:当且仅当;zh-tw:若且唯若;zh-hk:當且僅當;"
+      "conv": "zh-cn:当且仅当;zh-tw:若且唯若;zh-hk:當且僅當"
     },
     {
       "original": "imaginary axis",
-      "conv": "zh-cn:虚轴;zh-tw:虛數軸;zh-hk:虛軸;"
+      "conv": "zh-cn:虚轴;zh-tw:虛數軸;zh-hk:虛軸"
     },
     {
       "original": "inflection point",
-      "conv": "zh-cn:拐点;zh-tw:反曲點;"
+      "conv": "zh-cn:拐点;zh-tw:反曲點"
     },
     {
       "original": "inflection point",
-      "conv": "反曲点=>zh-cn:拐点;反曲点=>zh-sg:拐点;反曲点=>zh-my:拐点;"
+      "conv": "反曲点=>zh-cn:拐点;反曲点=>zh-sg:拐点;反曲点=>zh-my:拐点"
     },
     {
       "original": "inflection point",
-      "conv": "拐點=>zh-tw:反曲點;拐點=>zh-hk:反曲點;拐點=>zh-mo:反曲點;"
+      "conv": "拐點=>zh-tw:反曲點;拐點=>zh-hk:反曲點;拐點=>zh-mo:反曲點"
     },
     {
       "original": "inverse element",
-      "conv": "zh-cn:逆元;zh-tw:反元素;"
+      "conv": "zh-cn:逆元;zh-tw:反元素"
     },
     {
       "original": "inverse element",
-      "conv": "逆元素=>zh-tw:反元素;逆元素=>zh-hk:反元素;逆元素=>zh-mo:反元素;"
+      "conv": "逆元素=>zh-tw:反元素;逆元素=>zh-hk:反元素;逆元素=>zh-mo:反元素"
     },
     {
       "original": "invertible element",
-      "conv": "zh-cn:可逆元;zh-tw:可逆元素;"
+      "conv": "zh-cn:可逆元;zh-tw:可逆元素"
     },
     {
       "original": "irreducible",
-      "conv": "既约=>zh-tw:最簡;既约=>zh-hk:最簡;既约=>zh-mo:最簡;"
+      "conv": "既约=>zh-tw:最簡;既约=>zh-hk:最簡;既约=>zh-mo:最簡"
     },
     {
       "original": "irreducible element",
-      "conv": "既约元=>zh-tw:不可約元素;既约元=>zh-hk:不可約元素;既约元=>zh-mo:不可約元素;"
+      "conv": "既约元=>zh-tw:不可約元素;既约元=>zh-hk:不可約元素;既约元=>zh-mo:不可約元素"
     },
     {
       "original": "irreducible element",
-      "conv": "既约元素=>zh-tw:不可約元素;既约元素=>zh-hk:不可約元素;既约元素=>zh-mo:不可約元素;"
+      "conv": "既约元素=>zh-tw:不可約元素;既约元素=>zh-hk:不可約元素;既约元素=>zh-mo:不可約元素"
     },
     {
       "original": "least squares",
-      "conv": "zh-cn:最小二乘;zh-tw:最小平方;"
+      "conv": "zh-cn:最小二乘;zh-tw:最小平方"
     },
     {
       "original": "linear dependence",
-      "conv": "zh-cn:线性相关;zh-tw:線性相依;zh-hk:線性相關;"
+      "conv": "zh-cn:线性相关;zh-tw:線性相依;zh-hk:線性相關"
     },
     {
       "original": "linear independence",
-      "conv": "zh-cn:线性无关;zh-tw:線性獨立;zh-hk:線性無關;"
+      "conv": "zh-cn:线性无关;zh-tw:線性獨立;zh-hk:線性無關"
     },
     {
       "original": "local field",
-      "conv": "zh-cn:局部域;zh-tw:局部體;"
+      "conv": "zh-cn:局部域;zh-tw:局部體"
     },
     {
       "original": "mean value theorem",
-      "conv": "zh-cn:中值定理;zh-tw:均值定理;zh-hk:中值定理;"
+      "conv": "zh-cn:中值定理;zh-tw:均值定理;zh-hk:中值定理"
     },
     {
       "original": "monoidal",
-      "conv": "zh-hans:幺半;zh-hant:么半;"
+      "conv": "zh-hans:幺半;zh-hant:么半"
     },
     {
       "original": "multiplication table",
-      "conv": "zh-cn:乘法表;zh-tw:乘法表;zh-hk:乘數表;"
+      "conv": "zh-cn:乘法表;zh-tw:乘法表;zh-hk:乘數表"
     },
     {
       "original": "distribution",
-      "conv": "zh-cn:分布;zh-tw:分布;zh-hk:分佈;"
+      "conv": "zh-cn:分布;zh-tw:分布;zh-hk:分佈"
     },
     {
       "original": "normal",
-      "conv": "zh-cn:正态;zh-tw:常態;zh-hk:正態;"
+      "conv": "zh-cn:正态;zh-tw:常態;zh-hk:正態"
     },
     {
       "original": "normal",
-      "conv": "常态=>zh-cn:正态;常态=>zh-sg:正态;常态=>zh-my:正态;常态=>zh-hk:正態;常态=>zh-mo:正態;"
+      "conv": "常态=>zh-cn:正态;常态=>zh-sg:正态;常态=>zh-my:正态;常态=>zh-hk:正態;常态=>zh-mo:正態"
     },
     {
       "original": "two-tailed test",
-      "conv": "zh-cn: 双边检验;zh-tw:雙尾檢定;"
+      "conv": "zh-cn: 双边检验;zh-tw:雙尾檢定"
     },
     {
       "original": "one-tailed test",
-      "conv": "zh-cn: 单边检验;zh-tw:單尾檢定;"
+      "conv": "zh-cn: 单边检验;zh-tw:單尾檢定"
     },
     {
       "original": "test",
-      "conv": "zh-cn: 检验;zh-tw:檢定;檢驗=>zh-tw:檢定;"
+      "conv": "zh-cn: 检验;zh-tw:檢定;檢驗=>zh-tw:檢定"
     },
     {
       "original": "significant level",
-      "conv": "zh-cn: 显著性水平;zh-tw:顯著水準;zh-hk:顯著性水平;显著性差异水平=>zh-tw:顯著水準;"
+      "conv": "zh-cn: 显著性水平;zh-tw:顯著水準;zh-hk:顯著性水平;显著性差异水平=>zh-tw:顯著水準"
     },
     {
       "original": "normed",
-      "conv": "zh-cn:赋范;zh-tw:賦範;"
+      "conv": "zh-cn:赋范;zh-tw:賦範"
     },
     {
       "original": "number field",
-      "conv": "zh-cn:数域;zh-tw:數體;"
+      "conv": "zh-cn:数域;zh-tw:數體"
     },
     {
       "original": "number field",
-      "conv": "數域=>zh-tw:數體;數域=>zh-hk:數體;數域=>zh-mo:數體;"
+      "conv": "數域=>zh-tw:數體;數域=>zh-hk:數體;數域=>zh-mo:數體"
     },
     {
       "original": "object",
-      "conv": "zh-cn:对象;zh-tw:物件;"
+      "conv": "zh-cn:对象;zh-tw:物件"
     },
     {
       "original": "only if",
-      "conv": "zh-cn:仅当;zh-tw:唯若;zh-hk:僅當;"
+      "conv": "zh-cn:仅当;zh-tw:唯若;zh-hk:僅當"
     },
     {
       "original": "operation research",
-      "conv": "zh-cn:运筹学;zh-tw:作業研究;"
+      "conv": "zh-cn:运筹学;zh-tw:作業研究"
     },
     {
       "original": "operation research",
-      "conv": "zh-cn:運籌學;zh-tw:作業研究;"
+      "conv": "zh-cn:運籌學;zh-tw:作業研究"
     },
     {
       "original": "optimization",
-      "conv": "zh-cn:最优化;zh-tw:最佳化;"
+      "conv": "zh-cn:最优化;zh-tw:最佳化"
     },
     {
       "original": "optimization",
-      "conv": "zh-cn:最优化;zh-tw:最佳化;zh-hk:最佳化;zh-mo:最佳化;"
+      "conv": "zh-cn:最优化;zh-tw:最佳化;zh-hk:最佳化;zh-mo:最佳化"
     },
     {
       "original": "optimization",
-      "conv": "zh-cn:优化;zh-tw:最佳化;"
+      "conv": "zh-cn:优化;zh-tw:最佳化"
     },
     {
       "original": "optimization",
-      "conv": "zh-cn:优化;zh-tw:最佳化;"
+      "conv": "zh-cn:优化;zh-tw:最佳化"
     },
     {
       "original": "ordered field",
-      "conv": "zh-cn:有序域;zh-tw:有序體;"
+      "conv": "zh-cn:有序域;zh-tw:有序體"
     },
     {
       "original": "orthogonal complement",
-      "conv": "zh-cn:正交补;zh-tw:正交補餘;"
+      "conv": "zh-cn:正交补;zh-tw:正交補餘"
     },
     {
       "original": "path connected",
-      "conv": "zh-cn:道路连通;zh-tw:路徑連通;"
+      "conv": "zh-cn:道路连通;zh-tw:路徑連通"
     },
     {
       "original": "periodic",
-      "conv": "zh-cn:周期;zh-tw:週期;"
+      "conv": "zh-cn:周期;zh-tw:週期"
     },
     {
       "original": "permutation",
-      "conv": "排列=>zh-hk:置換;排列=>zh-mo:置換;"
+      "conv": "排列=>zh-hk:置換;排列=>zh-mo:置換"
     },
     {
       "original": "permutation",
-      "conv": "置換=>zh-cn:排列;置換=>zh-sg:排列;置換=>zh-my:排列;"
+      "conv": "置換=>zh-cn:排列;置換=>zh-sg:排列;置換=>zh-my:排列"
     },
     {
       "original": "pivot element",
-      "conv": "zh-tw:軸元;zh-cn:主元;"
+      "conv": "zh-tw:軸元;zh-cn:主元"
     },
     {
       "original": "polynomial growth",
-      "conv": "zh-cn:多项式增长;zh-tw:多項式成長;"
+      "conv": "zh-cn:多项式增长;zh-tw:多項式成長"
     },
     {
       "original": "population",
-      "conv": "zh-cn:总体;zh-tw:母體;"
+      "conv": "zh-cn:总体;zh-tw:母體"
     },
     {
       "original": "population",
-      "conv": "母体=>zh-cn:总体;母体=>zh-sg:总体;母体=>zh-my:总体;"
+      "conv": "母体=>zh-cn:总体;母体=>zh-sg:总体;母体=>zh-my:总体"
     },
     {
       "original": "population",
-      "conv": "總體=>zh-tw:母體;總體=>zh-hk:母體;總體=>zh-mo:母體;"
+      "conv": "總體=>zh-tw:母體;總體=>zh-hk:母體;總體=>zh-mo:母體"
     },
     {
       "original": "[[:en:Macroeconomics|Macroeconomics]]",
-      "conv": "zh-cn:宏观经济;zh-sg:宏观经济;zh-tw:總體經濟;zh-hk:宏觀經濟;"
+      "conv": "zh-cn:宏观经济;zh-sg:宏观经济;zh-tw:總體經濟;zh-hk:宏觀經濟"
     },
     {
       "original": "primality test",
-      "conv": "zh-cn:素性测试;zh-tw:質數測試;"
+      "conv": "zh-cn:素性测试;zh-tw:質數測試"
     },
     {
       "original": "prime element",
-      "conv": "zh-cn:素元;zh-tw:質元素;"
+      "conv": "zh-cn:素元;zh-tw:質元素"
     },
     {
       "original": "prime element",
-      "conv": "素元素=>zh-tw:質元素;素元素=>zh-hk:質元素;素元素=>zh-mo:質元素;"
+      "conv": "素元素=>zh-tw:質元素;素元素=>zh-hk:質元素;素元素=>zh-mo:質元素"
     },
     {
       "original": "prime factor",
-      "conv": "zh-cn:素因数;zh-tw:質因數;"
+      "conv": "zh-cn:素因数;zh-tw:質因數"
     },
     {
       "original": "prime factor",
-      "conv": "质因数=>zh-cn:素因数;质因数=>zh-sg:素因数;质因数=>zh-my:素因数;"
+      "conv": "质因数=>zh-cn:素因数;质因数=>zh-sg:素因数;质因数=>zh-my:素因数"
     },
     {
       "original": "prime factor",
-      "conv": "素因數=>zh-tw:質因數;素因數=>zh-hk:質因數;素因數=>zh-mo:質因數;"
+      "conv": "素因數=>zh-tw:質因數;素因數=>zh-hk:質因數;素因數=>zh-mo:質因數"
     },
     {
       "original": "prime factor",
-      "conv": "zh-cn:素因子;zh-tw:質因子;"
+      "conv": "zh-cn:素因子;zh-tw:質因子"
     },
     {
       "original": "prime factor",
-      "conv": "质因子=>zh-cn:素因子;质因子=>zh-sg:素因子;质因子=>zh-my:素因子;"
+      "conv": "质因子=>zh-cn:素因子;质因子=>zh-sg:素因子;质因子=>zh-my:素因子"
     },
     {
       "original": "prime ideal",
-      "conv": "zh-cn:素理想;zh-tw:質理想;"
+      "conv": "zh-cn:素理想;zh-tw:質理想"
     },
     {
       "original": "prime number",
-      "conv": "zh-cn:素数;zh-tw:質數;"
+      "conv": "zh-cn:素数;zh-tw:質數"
     },
     {
       "original": "prime number",
-      "conv": "质数=>zh-cn:素数;质数=>zh-sg:素数;质数=>zh-my:素数;"
+      "conv": "质数=>zh-cn:素数;质数=>zh-sg:素数;质数=>zh-my:素数"
     },
     {
       "original": "prime number",
-      "conv": "素數=>zh-tw:質數;素數=>zh-hk:質數;素數=>zh-mo:質數;"
+      "conv": "素數=>zh-tw:質數;素數=>zh-hk:質數;素數=>zh-mo:質數"
     },
     {
       "original": "prime ring",
-      "conv": "zh-cn:素环;zh-tw:質環;"
+      "conv": "zh-cn:素环;zh-tw:質環"
     },
     {
       "original": "primeness",
-      "conv": "zh-cn:素性;zh-tw:質性;"
+      "conv": "zh-cn:素性;zh-tw:質性"
     },
     {
       "original": "principal square root",
-      "conv": "zh-cn:算术平方根;zh-tw:主平方根;"
+      "conv": "zh-cn:算术平方根;zh-tw:主平方根"
     },
     {
       "original": "principal square root",
-      "conv": "算術平方根=>zh-tw:主平方根;算術平方根=>zh-hk:主平方根;算術平方根=>zh-mo:主平方根;"
+      "conv": "算術平方根=>zh-tw:主平方根;算術平方根=>zh-hk:主平方根;算術平方根=>zh-mo:主平方根"
     },
     {
       "original": "probability",
-      "conv": "zh-cn:概率;zh-tw:機率;zh-hk:概率;"
+      "conv": "zh-cn:概率;zh-tw:機率;zh-hk:概率"
     },
     {
       "original": "transform",
-      "conv": "zh-cn:变换;zh-tw:轉換;"
+      "conv": "zh-cn:变换;zh-tw:轉換"
     },
     {
       "original": "Pythagorean theorem",
-      "conv": "zh-cn:勾股定理;zh-sg:毕氏定理;zh-tw:畢氏定理;"
+      "conv": "zh-cn:勾股定理;zh-sg:毕氏定理;zh-tw:畢氏定理"
     },
     {
       "original": "Pythagorean triple",
-      "conv": "zh-cn:勾股数;zh-sg:毕氏数;zh-tw:畢氏三元數;"
+      "conv": "zh-cn:勾股数;zh-sg:毕氏数;zh-tw:畢氏三元數"
     },
     {
       "original": "Pythagorean triple",
-      "conv": "勾股數=>zh-sg:毕氏数;勾股數=>zh-my:毕氏数;勾股數=>zh-tw:畢氏三元數;勾股數=>zh-hk:畢氏三元數;勾股數=>zh-mo:畢氏三元數;"
+      "conv": "勾股數=>zh-sg:毕氏数;勾股數=>zh-my:毕氏数;勾股數=>zh-tw:畢氏三元數;勾股數=>zh-hk:畢氏三元數;勾股數=>zh-mo:畢氏三元數"
     },
     {
       "original": "Pythagorean triple",
-      "conv": "畢氏數=>zh-cn:勾股数;畢氏數=>zh-tw:畢氏三元數;畢氏數=>zh-hk:畢氏三元數;畢氏數=>zh-mo:畢氏三元數;"
+      "conv": "畢氏數=>zh-cn:勾股数;畢氏數=>zh-tw:畢氏三元數;畢氏數=>zh-hk:畢氏三元數;畢氏數=>zh-mo:畢氏三元數"
     },
     {
       "original": "quadratic field",
-      "conv": "zh-cn:二次域;zh-tw:二次體;"
+      "conv": "zh-cn:二次域;zh-tw:二次體"
     },
     {
       "original": "quasiperiodic",
-      "conv": "zh-cn:准周期;zh-tw:準週期;"
+      "conv": "zh-cn:准周期;zh-tw:準週期"
     },
     {
       "original": "real axis",
-      "conv": "zh-cn:实轴;zh-tw:實數軸;zh-hk:實軸;"
+      "conv": "zh-cn:实轴;zh-tw:實數軸;zh-hk:實軸"
     },
     {
       "original": "real closed field",
-      "conv": "zh-cn:实闭域;zh-tw:實閉體;"
+      "conv": "zh-cn:实闭域;zh-tw:實閉體"
     },
     {
       "original": "real closed field",
-      "conv": "實閉域=>zh-tw:實閉體;實閉域=>zh-hk:實閉體;實閉域=>zh-mo:實閉體;"
+      "conv": "實閉域=>zh-tw:實閉體;實閉域=>zh-hk:實閉體;實閉域=>zh-mo:實閉體"
     },
     {
       "original": "real closed field",
-      "conv": "zh-cn:实封闭域;zh-tw:實封閉體;"
+      "conv": "zh-cn:实封闭域;zh-tw:實封閉體"
     },
     {
       "original": "real closed field",
-      "conv": "實封閉域=>zh-tw:實封閉體;實封閉域=>zh-hk:實封閉體;實封閉域=>zh-mo:實封閉體;"
+      "conv": "實封閉域=>zh-tw:實封閉體;實封閉域=>zh-hk:實封閉體;實封閉域=>zh-mo:實封閉體"
     },
     {
       "original": "marginal",
-      "conv": "边缘=>zh-tw:邊際;邊緣=>zh-tw:邊際;"
+      "conv": "边缘=>zh-tw:邊際;邊緣=>zh-tw:邊際"
     },
     {
       "original": "recurrence",
-      "conv": "zh-cn:递归;zh-tw:遞迴;zh-hk:遞歸;"
+      "conv": "zh-cn:递归;zh-tw:遞迴;zh-hk:遞歸"
     },
     {
       "original": "recurrence relation",
-      "conv": "zh-cn:递推关系;zh-tw:遞迴關係;zh-hk:遞歸關係;"
+      "conv": "zh-cn:递推关系;zh-tw:遞迴關係;zh-hk:遞歸關係"
     },
     {
       "original": "regression",
-      "conv": "zh-cn:回归;zh-tw:迴歸;回歸=>zh-tw:迴歸;"
+      "conv": "zh-cn:回归;zh-tw:迴歸;回歸=>zh-tw:迴歸"
     },
     {
       "original": "Autocorrelation",
-      "conv": "zh-cn:自相关;zh-tw:自我相關;自相關=>zh-tw:自我相關;"
+      "conv": "zh-cn:自相关;zh-tw:自我相關;自相關=>zh-tw:自我相關"
     },
     {
       "original": "hypothesis testing",
-      "conv": "zh-cn:假设检验;zh-hk:假設檢定;zh-tw:假說檢定;"
+      "conv": "zh-cn:假设检验;zh-hk:假設檢定;zh-tw:假說檢定"
     },
     {
       "original": "aternative hypothesis",
-      "conv": "zh-cn:备择假设;zh-hk:對立假設;zh-tw:對立假說;"
+      "conv": "zh-cn:备择假设;zh-hk:對立假設;zh-tw:對立假說"
     },
     {
       "original": "null hypothesis",
-      "conv": "zh-cn:零假设;zh-hk:虛無假設;zh-tw:虛無假說;零假設=>zh-tw:虛無假說;"
+      "conv": "zh-cn:零假设;zh-hk:虛無假設;zh-tw:虛無假說;零假設=>zh-tw:虛無假說"
     },
     {
       "original": "statistical power",
-      "conv": "zh-cn:统计功效;zh-hk:統計功效;zh-tw:檢定力;"
+      "conv": "zh-cn:统计功效;zh-hk:統計功效;zh-tw:檢定力"
     },
     {
       "original": "type I error",
-      "conv": "zh-cn: 第一类错误;zh-tw:型一錯誤;第一類錯誤=>zh-tw:型一錯誤;"
+      "conv": "zh-cn: 第一类错误;zh-tw:型一錯誤;第一類錯誤=>zh-tw:型一錯誤"
     },
     {
       "original": "type I error",
-      "conv": "zh-cn: 第一型错误;zh-tw:型一錯誤;第一型錯誤=>zh-tw:型一錯誤;"
+      "conv": "zh-cn: 第一型错误;zh-tw:型一錯誤;第一型錯誤=>zh-tw:型一錯誤"
     },
     {
       "original": "type II error",
-      "conv": "zh-cn: 第二类错误;zh-tw:型二錯誤;第二類錯誤=>zh-tw:型二錯誤;"
+      "conv": "zh-cn: 第二类错误;zh-tw:型二錯誤;第二類錯誤=>zh-tw:型二錯誤"
     },
     {
       "original": "type II error",
-      "conv": "zh-cn: 第二型错误;zh-tw:型二錯誤;第二型錯誤=>zh-tw:型二錯誤;"
+      "conv": "zh-cn: 第二型错误;zh-tw:型二錯誤;第二型錯誤=>zh-tw:型二錯誤"
     },
     {
       "original": "goodness of fit",
-      "conv": "zh-cn: 拟合优度;zh-tw:適合度;適配度=>zh-tw:適合度;"
+      "conv": "zh-cn: 拟合优度;zh-tw:適合度;適配度=>zh-tw:適合度"
     },
     {
       "original": "information",
-      "conv": "zh-cn: 信息;zh-tw:訊息;"
+      "conv": "zh-cn: 信息;zh-tw:訊息"
     },
     {
       "original": "scalar",
-      "conv": "zh-cn:标量;zh-tw:純量;"
+      "conv": "zh-cn:标量;zh-tw:純量"
     },
     {
       "original": "scalar curvature",
-      "conv": "zh-cn:数量曲率;zh-tw:純量曲率;"
+      "conv": "zh-cn:数量曲率;zh-tw:純量曲率"
     },
     {
       "original": "sigma notation",
-      "conv": "求和号=>zh-tw:求和符號;求和号=>zh-hk:求和符號;求和号=>zh-mo:求和符號;"
+      "conv": "求和号=>zh-tw:求和符號;求和号=>zh-hk:求和符號;求和号=>zh-mo:求和符號"
     },
     {
       "original": "simple group",
-      "conv": "zh-cn:单群;zh-tw:單純群;"
+      "conv": "zh-cn:单群;zh-tw:單純群"
     },
     {
       "original": "simple lie group",
-      "conv": "zh-cn:单李群;zh-tw:單純李氏群;"
+      "conv": "zh-cn:单李群;zh-tw:單純李氏群"
     },
     {
       "original": "simplex",
-      "conv": "zh-cn:单纯形;zh-tw:單體;"
+      "conv": "zh-cn:单纯形;zh-tw:單體"
     },
     {
       "original": "simplicial complex",
-      "conv": "zh-cn:单纯复形;zh-tw:單體複形;"
+      "conv": "zh-cn:单纯复形;zh-tw:單體複形"
     },
     {
       "original": "singularity",
-      "conv": "zh-cn:奇点;zh-tw:奇異點;"
+      "conv": "zh-cn:奇点;zh-tw:奇異點"
     },
     {
       "original": "singularity",
-      "conv": "奇點=>zh-tw:奇異點;奇點=>zh-hk:奇異點;奇點=>zh-mo:奇異點;"
+      "conv": "奇點=>zh-tw:奇異點;奇點=>zh-hk:奇異點;奇點=>zh-mo:奇異點"
     },
     {
       "original": "splitting field",
-      "conv": "zh-cn:分裂域;zh-tw:分裂體;"
+      "conv": "zh-cn:分裂域;zh-tw:分裂體"
     },
     {
       "original": "statistical noise",
-      "conv": "zh-cn:统计噪声;zh-tw:統計雜訊;"
+      "conv": "zh-cn:统计噪声;zh-tw:統計雜訊"
     },
     {
       "original": "subfield",
-      "conv": "zh-cn:子域;zh-tw:子體;"
+      "conv": "zh-cn:子域;zh-tw:子體"
     },
     {
       "original": "tangent bundle",
-      "conv": "zh-cn:切丛;zh-tw:切線束;"
+      "conv": "zh-cn:切丛;zh-tw:切線束"
     },
     {
       "original": "target set",
-      "conv": "zh-cn:目标集;zh-tw:目標集合;"
+      "conv": "zh-cn:目标集;zh-tw:目標集合"
     },
     {
       "original": "descriptive statistics",
-      "conv": "zh-cn:描述统计;zh-tw: 敘述統計;描述統計=>zh-tw:敘述統計;"
+      "conv": "zh-cn:描述统计;zh-tw: 敘述統計;描述統計=>zh-tw:敘述統計"
     },
     {
       "original": "statistical inference",
-      "conv": "zh-cn: 统计推断;zh-tw:統計推論;統計推斷=>zh-tw:統計推論;"
+      "conv": "zh-cn: 统计推断;zh-tw:統計推論;統計推斷=>zh-tw:統計推論"
     },
     {
       "original": "torsion",
-      "conv": "zh-cn:挠率;zh-tw:扭率;"
+      "conv": "zh-cn:挠率;zh-tw:扭率"
     },
     {
       "original": "transitive",
-      "conv": "zh-cn:传递;zh-tw:遞移;"
+      "conv": "zh-cn:传递;zh-tw:遞移"
     },
     {
       "original": "transitive",
-      "conv": "傳遞=>zh-tw:遞移;傳遞=>zh-hk:遞移;傳遞=>zh-mo:遞移;"
+      "conv": "傳遞=>zh-tw:遞移;傳遞=>zh-hk:遞移;傳遞=>zh-mo:遞移"
     },
     {
       "original": "trichotomy",
-      "conv": "zh-cn:三分律;zh-tw:三一律;"
+      "conv": "zh-cn:三分律;zh-tw:三一律"
     },
     {
       "original": "trichotomy",
-      "conv": "三分法=>zh-tw:三一律;三分法=>zh-hk:三一律;三分法=>zh-mo:三一律;"
+      "conv": "三分法=>zh-tw:三一律;三分法=>zh-hk:三一律;三分法=>zh-mo:三一律"
     },
     {
       "original": "uniform boundedness principle",
-      "conv": "zh-cn:一致有界性原理;zh-tw:均勻有界原理;"
+      "conv": "zh-cn:一致有界性原理;zh-tw:均勻有界原理"
     },
     {
       "original": "uniform continuity",
-      "conv": "zh-cn:一致连续;zh-tw:均勻連續;"
+      "conv": "zh-cn:一致连续;zh-tw:均勻連續"
     },
     {
       "original": "uniform convergence",
-      "conv": "zh-cn:一致收敛;zh-tw:均勻收斂;"
+      "conv": "zh-cn:一致收敛;zh-tw:均勻收斂"
     },
     {
       "original": "uniform neighborhood",
-      "conv": "zh-cn:一致邻域;zh-tw:均勻鄰域;"
+      "conv": "zh-cn:一致邻域;zh-tw:均勻鄰域"
     },
     {
       "original": "uniform norm",
-      "conv": "zh-cn:一致范数;zh-tw:均勻範數;"
+      "conv": "zh-cn:一致范数;zh-tw:均勻範數"
     },
     {
       "original": "uniform space",
-      "conv": "zh-cn:一致空间;zh-tw:均勻空間;"
+      "conv": "zh-cn:一致空间;zh-tw:均勻空間"
     },
     {
       "original": "union",
-      "conv": "zh-cn:并集;zh-tw:聯集;zh-hk:併集;"
+      "conv": "zh-cn:并集;zh-tw:聯集;zh-hk:併集"
     },
     {
       "original": "unitary group",
-      "conv": "zh-cn:酉群;zh-tw:么正群;"
+      "conv": "zh-cn:酉群;zh-tw:么正群"
     },
     {
       "original": "unitary matrix",
-      "conv": "zh-cn:酉矩阵;zh-tw:么正矩陣;"
+      "conv": "zh-cn:酉矩阵;zh-tw:么正矩陣"
     },
     {
       "original": "unitary space",
-      "conv": "zh-cn:酉空間;zh-tw:么正空間;"
+      "conv": "zh-cn:酉空間;zh-tw:么正空間"
     },
     {
       "original": "bias",
-      "conv": "zh-cn:偏差;zh-tw:偏誤;"
+      "conv": "zh-cn:偏差;zh-tw:偏誤"
     },
     {
       "original": "unbiased",
-      "conv": "zh-cn:无偏;zh-tw:不偏;無偏=> zh-tw:不偏;"
+      "conv": "zh-cn:无偏;zh-tw:不偏;無偏=> zh-tw:不偏"
     },
     {
       "original": "bias",
-      "conv": "有偏=> zh-tw:偏誤;"
+      "conv": "有偏=> zh-tw:偏誤"
     },
     {
       "original": "likelihood",
-      "conv": "zh-cn:似然;zh-tw:概似;"
+      "conv": "zh-cn:似然;zh-tw:概似"
     },
     {
       "original": "variance",
-      "conv": "zh-cn:方差;zh-tw:變異數;zh-hk:方差;"
+      "conv": "zh-cn:方差;zh-tw:變異數;zh-hk:方差"
     },
     {
       "original": "covariance",
-      "conv": "zh-cn:协方差;zh-tw:共變異數;zh-hk:協方差;"
+      "conv": "zh-cn:协方差;zh-tw:共變異數;zh-hk:協方差"
     },
     {
       "original": "cross-covariance",
-      "conv": "zh-cn:互协方差;zh-tw:交叉共變數;zh-hk:互協方差;"
+      "conv": "zh-cn:互协方差;zh-tw:交叉共變數;zh-hk:互協方差"
     },
     {
       "original": "heteroscedasticity",
-      "conv": "zh-cn:异方差;zh-tw:異質變異數;"
+      "conv": "zh-cn:异方差;zh-tw:異質變異數"
     },
     {
       "original": "versed cosine",
-      "conv": "zh-hans:余矢;zh-hant:餘矢;"
+      "conv": "zh-hans:余矢;zh-hant:餘矢"
     },
     {
       "original": "zero element",
-      "conv": "zh-cn:零元;zh-tw:零元素;"
+      "conv": "zh-cn:零元;zh-tw:零元素"
     }
   ]
 }

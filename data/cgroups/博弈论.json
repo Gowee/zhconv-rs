@@ -5,71 +5,71 @@
   "rules": [
     {
       "original": "game theory",
-      "conv": "zh-cn:博弈论;zh-tw:賽局理論;zh-hk:博弈論;"
+      "conv": "zh-cn:博弈论;zh-tw:賽局理論;zh-hk:博弈論"
     },
     {
       "original": "game",
-      "conv": "zh-cn:博弈;zh-tw:賽局;zh-hk:博弈;"
+      "conv": "zh-cn:博弈;zh-tw:賽局;zh-hk:博弈"
     },
     {
       "original": "complete information",
-      "conv": "zh-cn:完全信息;zh-tw:完全訊息;"
+      "conv": "zh-cn:完全信息;zh-tw:完全訊息"
     },
     {
       "original": "game tree",
-      "conv": "zh-tw:競賽樹;zh-cn:博弈树;;"
+      "conv": "zh-tw:競賽樹;zh-cn:博弈树;"
     },
     {
       "original": "information",
-      "conv": "zh-cn:信息;zh-tw:資訊;"
+      "conv": "zh-cn:信息;zh-tw:資訊"
     },
     {
       "original": "information set",
-      "conv": "zh-cn:信息集;zh-tw:資訊集合;"
+      "conv": "zh-cn:信息集;zh-tw:資訊集合"
     },
     {
       "original": "sequential game",
-      "conv": "zh-cn:序贯博弈;zh-tw:序列賽局;zh-hk:序列博弈;"
+      "conv": "zh-cn:序贯博弈;zh-tw:序列賽局;zh-hk:序列博弈"
     },
     {
       "original": "signaling game",
-      "conv": "zh-cn:信号博弈;zh-tw:傳訊賽局;zh-hk:信號博弈;"
+      "conv": "zh-cn:信号博弈;zh-tw:傳訊賽局;zh-hk:信號博弈"
     },
     {
       "original": "Bayesian game",
-      "conv": "zh-cn:贝叶斯博弈;zh-tw:貝氏賽局;zh-hk:貝葉斯博弈;"
+      "conv": "zh-cn:贝叶斯博弈;zh-tw:貝氏賽局;zh-hk:貝葉斯博弈"
     },
     {
       "original": "Bayesian-Nash",
-      "conv": "zh-cn:贝叶斯-纳什;zh-tw:貝氏納許;zh-hk:貝葉斯-納殊;"
+      "conv": "zh-cn:贝叶斯-纳什;zh-tw:貝氏納許;zh-hk:貝葉斯-納殊"
     },
     {
       "original": "Nash",
-      "conv": "zh-cn:纳什;zh-hant:納什;zh-tw:納許;zh-hk:納殊;"
+      "conv": "zh-cn:纳什;zh-hant:納什;zh-tw:納許;zh-hk:納殊"
     },
     {
       "original": "Nash",
-      "conv": "奈許=>zh-cn:纳什;奈許=>zh-hk:納殊;"
+      "conv": "奈許=>zh-cn:纳什;奈許=>zh-hk:納殊"
     },
     {
       "original": "Nash",
-      "conv": "拿殊=>zh-cn:纳什;拿殊=>zh-tw:納許;"
+      "conv": "拿殊=>zh-cn:纳什;拿殊=>zh-tw:納許"
     },
     {
       "original": "Pareto",
-      "conv": "zh-cn:帕雷托;zh-hk:柏拉圖;zh-tw:柏拉圖;"
+      "conv": "zh-cn:帕雷托;zh-hk:柏拉圖;zh-tw:柏拉圖"
     },
     {
       "original": "Pareto optimality",
-      "conv": "zh-cn:帕雷托最优;zh-hant:帕雷托最優;zh-hk:柏拉圖最適;zh-tw:柏拉圖效率;"
+      "conv": "zh-cn:帕雷托最优;zh-hant:帕雷托最優;zh-hk:柏拉圖最適;zh-tw:柏拉圖效率"
     },
     {
       "original": "Pareto optimality",
-      "conv": "zh-cn:帕累托最优;zh-hant:帕累托最優;zh-hk:柏拉圖最適;zh-tw:柏拉圖效率;"
+      "conv": "zh-cn:帕累托最优;zh-hant:帕累托最優;zh-hk:柏拉圖最適;zh-tw:柏拉圖效率"
     },
     {
       "original": "Pareto",
-      "conv": "zh-cn:帕累托;zh-hk:柏拉圖;zh-tw:柏拉圖;"
+      "conv": "zh-cn:帕累托;zh-hk:柏拉圖;zh-tw:柏拉圖"
     }
   ]
 }
