@@ -31,7 +31,7 @@ def check_conv(conv):
                 print("E1", conv, f"no => in {single}")
                 break
             f, t = single.split("=>")
-            f = f.strip(); t = t.strip()
+            f = f.strip();t = t.strip()
             if ff is None:
                 ff = f
             elif f != ff:

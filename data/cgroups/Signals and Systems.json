@@ -1,15 +1,15 @@
 {
   "name": "Signals and Systems",
-  "description": "-{zh-cn:信号; zh-tw:訊號;}-与系统",
+  "description": "-{zh-cn:信号;zh-tw:訊號;}-与系统",
   "path": "Module:CGroup/Signals and Systems",
   "rules": [
     {
       "original": "transform",
-      "conv": "zh-hans:变换; zh-hant:轉換;"
+      "conv": "zh-hans:变换;zh-hant:轉換;"
     },
     {
       "original": "inverse transform",
-      "conv": "zh-hans:逆变换; zh-hant:反轉換;"
+      "conv": "zh-hans:逆变换;zh-hant:反轉換;"
     },
     {
       "original": "Convolution",
@@ -21,7 +21,7 @@
     },
     {
       "original": "Moving average",
-      "conv": "zh-cn:移动平均; zh-tw:滑動平均;"
+      "conv": "zh-cn:移动平均;zh-tw:滑動平均;"
     },
     {
       "original": "Circular convolution",
@@ -29,23 +29,23 @@
     },
     {
       "original": "Analog",
-      "conv": "zh-tw:類比; zh-cn:模拟; zh-hk:模擬;"
+      "conv": "zh-tw:類比;zh-cn:模拟;zh-hk:模擬;"
     },
     {
       "original": "Digital",
-      "conv": "zh-tw:數位; zh-cn:数字; zh-hk:數碼;"
+      "conv": "zh-tw:數位;zh-cn:数字;zh-hk:數碼;"
     },
     {
       "original": "information",
-      "conv": "zh-cn:信息; zh-tw:資訊;"
+      "conv": "zh-cn:信息;zh-tw:資訊;"
     },
     {
       "original": "Pulse",
-      "conv": "zh-cn:脉冲; zh-tw:脈波;"
+      "conv": "zh-cn:脉冲;zh-tw:脈波;"
     },
     {
       "original": "Sampling",
-      "conv": "zh-hans:采样; zh-hant:取樣;"
+      "conv": "zh-hans:采样;zh-hant:取樣;"
     },
     {
       "original": "Signal",
@@ -61,11 +61,11 @@
     },
     {
       "original": "Settling time",
-      "conv": "zh-cn:稳定时间; zh-tw:穩定時間;"
+      "conv": "zh-cn:稳定时间;zh-tw:穩定時間;"
     },
     {
       "original": "Settling time",
-      "conv": "zh-cn:调节时间; zh-tw:整定時間;"
+      "conv": "zh-cn:调节时间;zh-tw:整定時間;"
     },
     {
       "original": "Time-invariant",

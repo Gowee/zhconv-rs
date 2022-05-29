@@ -1,75 +1,75 @@
 {
   "name": "RainbowSixSiege",
-  "description": "-{zh-cn:彩虹六号：围攻; zh-tw:虹彩六號：圍攻行動; }-",
+  "description": "-{zh-cn:彩虹六号：围攻;zh-tw:虹彩六號：圍攻行動;}-",
   "path": "Module:CGroup/RainbowSixSiege",
   "rules": [
     {
       "original": "Rainbow Six",
-      "conv": "zh-cn:彩虹六号; zh-tw:虹彩六號;"
+      "conv": "zh-cn:彩虹六号;zh-tw:虹彩六號;"
     },
     {
       "original": "Rainbow Six: Siege",
-      "conv": "zh-cn:彩虹六号：围攻; zh-tw:虹彩六號：圍攻行動;"
+      "conv": "zh-cn:彩虹六号：围攻;zh-tw:虹彩六號：圍攻行動;"
     },
     {
       "original": "Operation Skull Rain",
-      "conv": "zh-cn:骷髅雨行动; zh-tw:骷顱雨行動;"
+      "conv": "zh-cn:骷髅雨行动;zh-tw:骷顱雨行動;"
     },
     {
       "original": "Operation Health",
-      "conv": "zh-cn:健康行动; zh-tw:健檢行動;"
+      "conv": "zh-cn:健康行动;zh-tw:健檢行動;"
     },
     {
       "original": "Operation White Noise",
-      "conv": "zh-cn:白噪声行动; zh-tw:白雜訊行動;"
+      "conv": "zh-cn:白噪声行动;zh-tw:白雜訊行動;"
     },
     {
       "original": "Operation Chimera",
-      "conv": "zh-cn:奇美拉行动; zh-tw:嵌合體行動;"
+      "conv": "zh-cn:奇美拉行动;zh-tw:嵌合體行動;"
     },
     {
       "original": "Operation Ember Rise",
-      "conv": "zh-cn:余烬重燃行动; zh-tw:復燃行動;"
+      "conv": "zh-cn:余烬重燃行动;zh-tw:復燃行動;"
     },
     {
       "original": "Black Eye",
-      "conv": "zh-cn:黑眼; zh-tw:闇眼;"
+      "conv": "zh-cn:黑眼;zh-tw:闇眼;"
     },
     {
       "original": "Black Mirror",
-      "conv": "zh-cn:黑镜; zh-tw:闇鏡;"
+      "conv": "zh-cn:黑镜;zh-tw:闇鏡;"
     },
     {
       "original": "Casual",
-      "conv": "zh-cn:非正式战; zh-tw:休閒;"
+      "conv": "zh-cn:非正式战;zh-tw:休閒;"
     },
     {
       "original": "Local",
-      "conv": "zh-cn:本地网络; zh-tw:區域網路;"
+      "conv": "zh-cn:本地网络;zh-tw:區域網路;"
     },
     {
       "original": "Online",
-      "conv": "zh-cn:在线; zh-tw:線上;"
+      "conv": "zh-cn:在线;zh-tw:線上;"
     },
     {
       "original": "Outbreak",
-      "conv": "zh-cn:爆发模式; zh-tw:災變模式;"
+      "conv": "zh-cn:爆发模式;zh-tw:災變模式;"
     },
     {
       "original": "Custom Game",
-      "conv": "zh-cn:自订模式; zh-tw:自訂模式;"
+      "conv": "zh-cn:自订模式;zh-tw:自訂模式;"
     },
     {
       "original": "Matchmaking",
-      "conv": "zh-cn:匹配竞赛; zh-tw:配對競賽;"
+      "conv": "zh-cn:匹配竞赛;zh-tw:配對競賽;"
     },
     {
       "original": "customize",
-      "conv": "zh-cn:自定义; zh-tw:客製化;"
+      "conv": "zh-cn:自定义;zh-tw:客製化;"
     },
     {
       "original": "boom-man",
-      "conv": "zh-cn:自爆兵; zh-tw:自殺炸彈客;"
+      "conv": "zh-cn:自爆兵;zh-tw:自殺炸彈客;"
     }
   ]
 }

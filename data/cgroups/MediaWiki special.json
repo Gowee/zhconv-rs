@@ -5,75 +5,75 @@
   "rules": [
     {
       "original": "account",
-      "conv": "zh-cn:账户; zh-tw:帳號;"
+      "conv": "zh-cn:账户;zh-tw:帳號;"
     },
     {
       "original": "account creator",
-      "conv": "zh-cn:大量账户创建者; zh-tw:大量帳號建立者; zh-hk:大量賬號創建者;"
+      "conv": "zh-cn:大量账户创建者;zh-tw:大量帳號建立者;zh-hk:大量賬號創建者;"
     },
     {
       "original": "block",
-      "conv": "zh-cn:封禁; zh-tw:封鎖; zh-hk:封鎖;"
+      "conv": "zh-cn:封禁;zh-tw:封鎖;zh-hk:封鎖;"
     },
     {
       "original": "change",
-      "conv": "zh-cn:更改; zh-tw:變更;"
+      "conv": "zh-cn:更改;zh-tw:變更;"
     },
     {
       "original": "copyright information",
-      "conv": "版权信息=>zh-cn:著作权信息; 版权信息=>zh-sg:著作权信息; 版权信息=>zh-my:著作权信息; 版权信息=>zh-tw:著作權資訊; 版权信息=>zh-mo:著作權資訊;"
+      "conv": "版权信息=>zh-cn:著作权信息;版权信息=>zh-sg:著作权信息;版权信息=>zh-my:著作权信息;版权信息=>zh-tw:著作權資訊;版权信息=>zh-mo:著作權資訊;"
     },
     {
       "original": "create",
-      "conv": "zh-cn:创建; zh-tw:建立;"
+      "conv": "zh-cn:创建;zh-tw:建立;"
     },
     {
       "original": "create",
-      "conv": "創建=>zh-tw:建立; 創建=>zh-hk:建立; 創建=>zh-mo:建立;"
+      "conv": "創建=>zh-tw:建立;創建=>zh-hk:建立;創建=>zh-mo:建立;"
     },
     {
       "original": "file",
-      "conv": "zh-cn:文件; zh-tw:檔案;"
+      "conv": "zh-cn:文件;zh-tw:檔案;"
     },
     {
       "original": "file",
-      "conv": "档案=>zh-cn:文件; 档案=>zh-sg:文件; 档案=>zh-my:文件;"
+      "conv": "档案=>zh-cn:文件;档案=>zh-sg:文件;档案=>zh-my:文件;"
     },
     {
       "original": "file name",
-      "conv": "zh-cn:文件名; zh-tw:檔案名稱;"
+      "conv": "zh-cn:文件名;zh-tw:檔案名稱;"
     },
     {
       "original": "Help:",
-      "conv": "zh-cn:帮助:; zh-tw:使用說明:; zh-hk:幫助:;"
+      "conv": "zh-cn:帮助:;zh-tw:使用說明:;zh-hk:幫助:;"
     },
     {
       "original": "Help talk:",
-      "conv": "zh-cn:帮助讨论:; zh-tw:使用說明討論:; zh-hk:幫助討論:;"
+      "conv": "zh-cn:帮助讨论:;zh-tw:使用說明討論:;zh-hk:幫助討論:;"
     },
     {
       "original": "interface administrators",
-      "conv": "zh-cn:界面管理员; zh-tw:介面管理員;"
+      "conv": "zh-cn:界面管理员;zh-tw:介面管理員;"
     },
     {
       "original": "import",
-      "conv": "zh-hans:导入; zh-hant:匯入;"
+      "conv": "zh-hans:导入;zh-hant:匯入;"
     },
     {
       "original": "import",
-      "conv": "汇入=>zh-cn:导入; 汇入=>zh-sg:导入; 汇入=>zh-my:导入;"
+      "conv": "汇入=>zh-cn:导入;汇入=>zh-sg:导入;汇入=>zh-my:导入;"
     },
     {
       "original": "import",
-      "conv": "導入=>zh-tw:匯入; 導入=>zh-hk:匯入; 導入=>zh-mo:匯入;"
+      "conv": "導入=>zh-tw:匯入;導入=>zh-hk:匯入;導入=>zh-mo:匯入;"
     },
     {
       "original": "IP block exemption",
-      "conv": "zh-cn:IP封禁豁免; zh-tw:IP封鎖例外;"
+      "conv": "zh-cn:IP封禁豁免;zh-tw:IP封鎖例外;"
     },
     {
       "original": "IP block exemption",
-      "conv": "IP封禁例外=>zh-cn:IP封禁豁免; IP封禁例外=>zh-sg:IP封禁豁免; IP封禁例外=>zh-my:IP封禁豁免;"
+      "conv": "IP封禁例外=>zh-cn:IP封禁豁免;IP封禁例外=>zh-sg:IP封禁豁免;IP封禁例外=>zh-my:IP封禁豁免;"
     },
     {
       "original": "log details",
@@ -81,91 +81,91 @@
     },
     {
       "original": "module",
-      "conv": "zh-cn:模块; zh-tw:模組;"
+      "conv": "zh-cn:模块;zh-tw:模組;"
     },
     {
       "original": "module",
-      "conv": "模组 => zh-cn:模块; 模组=>zh-sg:模块; 模组=>zh-my:模块;"
+      "conv": "模组 => zh-cn:模块;模组=>zh-sg:模块;模组=>zh-my:模块;"
     },
     {
       "original": "namespace",
-      "conv": "zh-cn:命名空间; zh-tw:命名空間;"
+      "conv": "zh-cn:命名空间;zh-tw:命名空間;"
     },
     {
       "original": "project",
-      "conv": "zh-hans:项目; zh-hant:專案; zh-tw:計畫; "
+      "conv": "zh-hans:项目;zh-hant:專案;zh-tw:計畫;"
     },
     {
       "original": "project",
-      "conv": "項目=>zh-tw:計畫; 項目=>zh-hk:專案; 項目=>zh-mo:專案;"
+      "conv": "項目=>zh-tw:計畫;項目=>zh-hk:專案;項目=>zh-mo:專案;"
     },
     {
       "original": "transclude",
-      "conv": "zh-hans:嵌入; zh-hant:引用;"
+      "conv": "zh-hans:嵌入;zh-hant:引用;"
     },
     {
       "original": "project",
-      "conv": "专案=>zh-cn:项目; 专案=>zh-sg:项目; 专案=>zh-my:项目;专案=>zh-tw:計畫;"
+      "conv": "专案=>zh-cn:项目;专案=>zh-sg:项目;专案=>zh-my:项目;专案=>zh-tw:計畫;"
     },
     {
       "original": "project",
-      "conv": "計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目;計劃=>zh-tw:計畫; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;"
+      "conv": "計劃=>zh-cn:项目;計劃=>zh-sg:项目;計劃=>zh-my:项目;計劃=>zh-tw:計畫;計劃=>zh-hk:專案;計劃=>zh-mo:專案;"
     },
     {
       "original": "project page",
-      "conv": "zh-hans:项目页面; zh-hant:專案頁面; zh-tw:計畫頁面;"
+      "conv": "zh-hans:项目页面;zh-hant:專案頁面;zh-tw:計畫頁面;"
     },
     {
       "original": "project page",
-      "conv": "項目頁面=>zh-tw:計畫頁面; 項目頁面=>zh-hk:專案頁面; 項目=>zh-mo:專案頁面;"
+      "conv": "項目頁面=>zh-tw:計畫頁面;項目頁面=>zh-hk:專案頁面;項目=>zh-mo:專案頁面;"
     },
     {
       "original": "template documentation",
-      "conv": "zh-hans:模板文档; zh-hant:模板文件; "
+      "conv": "zh-hans:模板文档;zh-hant:模板文件;"
     },
     {
       "original": "redirect",
-      "conv": "zh-cn:重定向; zh-tw:重新導向;"
+      "conv": "zh-cn:重定向;zh-tw:重新導向;"
     },
     {
       "original": "redirect page",
-      "conv": "zh-cn:重定向页; zh-tw:重新導向頁面;"
+      "conv": "zh-cn:重定向页;zh-tw:重新導向頁面;"
     },
     {
       "original": "redirect page",
-      "conv": "重定向页面 => zh-tw:重新導向頁面; 重定向页面 => zh-hk:重新導向頁面; 重定向页面 => zh-mo:重新導向頁面;"
+      "conv": "重定向页面 => zh-tw:重新導向頁面;重定向页面 => zh-hk:重新導向頁面;重定向页面 => zh-mo:重新導向頁面;"
     },
     {
       "original": "sample",
-      "conv": "zh-hans:示例; zh-hant:範例;"
+      "conv": "zh-hans:示例;zh-hant:範例;"
     },
     {
       "original": "skin",
-      "conv": "皮肤=>zh-tw:外觀; 皮肤=>zh-hk:佈景主題; 皮肤=>zh-mo:佈景主題;"
+      "conv": "皮肤=>zh-tw:外觀;皮肤=>zh-hk:佈景主題;皮肤=>zh-mo:佈景主題;"
     },
     {
       "original": "undo",
-      "conv": "zh-hans:撤销; zh-hant:復原;"
+      "conv": "zh-hans:撤销;zh-hant:復原;"
     },
     {
       "original": "undo",
-      "conv": "复原 => zh-cn:撤销; 撤消 => zh-my:撤销; 撤消 => zh-sg:撤销;"
+      "conv": "复原 => zh-cn:撤销;撤消 => zh-my:撤销;撤消 => zh-sg:撤销;"
     },
     {
       "original": "undo",
-      "conv": "撤消 => zh-tw:復原; 撤消 => zh-hk:復原; 撤消 => zh-mo:復原;"
+      "conv": "撤消 => zh-tw:復原;撤消 => zh-hk:復原;撤消 => zh-mo:復原;"
     },
     {
       "original": "user",
-      "conv": "zh-hans:用户; zh-hant:用戶; zh-tw:使用者;"
+      "conv": "zh-hans:用户;zh-hant:用戶;zh-tw:使用者;"
     },
     {
       "original": "user group",
-      "conv": "zh-cn:用户组; zh-tw:使用者群組; zh-hk:用戶組;"
+      "conv": "zh-cn:用户组;zh-tw:使用者群組;zh-hk:用戶組;"
     },
     {
       "original": "user page",
-      "conv": "zh-cn:用户页; zh-tw:使用者頁面; zh-hk:用戶頁;"
+      "conv": "zh-cn:用户页;zh-tw:使用者頁面;zh-hk:用戶頁;"
     },
     {
       "original": "user page",
@@ -185,31 +185,31 @@
     },
     {
       "original": "userbox",
-      "conv": "zh-cn:用户框; zh-tw:使用者方塊; zh-hk:用戶框;"
+      "conv": "zh-cn:用户框;zh-tw:使用者方塊;zh-hk:用戶框;"
     },
     {
       "original": "username",
-      "conv": "zh-hans:用户名; zh-hant:用戶名; zh-tw:使用者名稱;"
+      "conv": "zh-hans:用户名;zh-hant:用戶名;zh-tw:使用者名稱;"
     },
     {
       "original": "username",
-      "conv": "用户名称=>zh-cn:用户名; 用户名称=>zh-my:用户名; 用户名称=>zh-sg:用户名; 用户名称=>zh-tw:使用者名稱;"
+      "conv": "用户名称=>zh-cn:用户名;用户名称=>zh-my:用户名;用户名称=>zh-sg:用户名;用户名称=>zh-tw:使用者名稱;"
     },
     {
       "original": "username",
-      "conv": "用戶名稱=>zh-cn:用户名; 用戶名稱=>zh-my:用户名; 用戶名稱=>zh-sg:用户名; 用戶名稱=>zh-tw:使用者名稱;"
+      "conv": "用戶名稱=>zh-cn:用户名;用戶名稱=>zh-my:用户名;用戶名稱=>zh-sg:用户名;用戶名稱=>zh-tw:使用者名稱;"
     },
     {
       "original": "user namespace",
-      "conv": "用户名字空間=>zh-hk:用戶命名空間; 用户名字空間=>zh-mo:用戶命名空間; 用户名字空間=>zh-tw:使用者命名空間;"
+      "conv": "用户名字空間=>zh-hk:用戶命名空間;用户名字空間=>zh-mo:用戶命名空間;用户名字空間=>zh-tw:使用者命名空間;"
     },
     {
       "original": "user namespace",
-      "conv": "用戶名字空间=>zh-hk:用戶命名空間; 用戶名字空间=>zh-mo:用戶命名空間; 用戶名字空间=>zh-tw:使用者命名空間;"
+      "conv": "用戶名字空间=>zh-hk:用戶命名空間;用戶名字空间=>zh-mo:用戶命名空間;用戶名字空间=>zh-tw:使用者命名空間;"
     },
     {
       "original": "user namespace",
-      "conv": "用戶名字空間=>zh-hk:用戶命名空間; 用戶名字空間=>zh-mo:用戶命名空間; 用戶名字空間=>zh-tw:使用者命名空間;"
+      "conv": "用戶名字空間=>zh-hk:用戶命名空間;用戶名字空間=>zh-mo:用戶命名空間;用戶名字空間=>zh-tw:使用者命名空間;"
     },
     {
       "original": "user right",
@@ -221,47 +221,47 @@
     },
     {
       "original": "computer",
-      "conv": "计算机=>zh-sg:电脑; 计算机=>zh-my:电脑; 计算机=>zh-tw:電腦; 计算机=>zh-hk:電腦; 计算机=>zh-mo:電腦;"
+      "conv": "计算机=>zh-sg:电脑;计算机=>zh-my:电脑;计算机=>zh-tw:電腦;计算机=>zh-hk:電腦;计算机=>zh-mo:電腦;"
     },
     {
       "original": "computer",
-      "conv": "計算機=>zh-sg:电脑; 計算機=>zh-my:电脑;"
+      "conv": "計算機=>zh-sg:电脑;計算機=>zh-my:电脑;"
     },
     {
       "original": "computer",
-      "conv": "电子计算机=>zh-sg:电脑; 电子计算机=>zh-my:电脑; 电子计算机=>zh-tw:電腦; 电子计算机=>zh-hk:電腦; 电子计算机=>zh-mo:電腦;"
+      "conv": "电子计算机=>zh-sg:电脑;电子计算机=>zh-my:电脑;电子计算机=>zh-tw:電腦;电子计算机=>zh-hk:電腦;电子计算机=>zh-mo:電腦;"
     },
     {
       "original": "link",
-      "conv": "zh-cn:链接; zh-tw:連結;"
+      "conv": "zh-cn:链接;zh-tw:連結;"
     },
     {
       "original": "link",
-      "conv": "连结=>zh-cn:链接; 连结=>zh-sg:链接; 连结=>zh-my:链接;"
+      "conv": "连结=>zh-cn:链接;连结=>zh-sg:链接;连结=>zh-my:链接;"
     },
     {
       "original": "link (here)",
-      "conv": "zh-cn:链入; zh-tw:連入;"
+      "conv": "zh-cn:链入;zh-tw:連入;"
     },
     {
       "original": "syntax highlighting",
-      "conv": "zh-cn:语法高亮; zh-tw:語法突顯;"
+      "conv": "zh-cn:语法高亮;zh-tw:語法突顯;"
     },
     {
       "original": "syntax highlighting",
-      "conv": "語法凸顯=>zh-cn:语法高亮; 語法凸顯=>zh-sg:语法高亮; 語法凸顯=>zh-my:语法高亮;"
+      "conv": "語法凸顯=>zh-cn:语法高亮;語法凸顯=>zh-sg:语法高亮;語法凸顯=>zh-my:语法高亮;"
     },
     {
       "original": "syntax highlighting",
-      "conv": "语法高亮度=>zh-tw:語法突顯; 语法高亮度=>zh-hk:語法突顯; 语法高亮度=>zh-mo:語法突顯;"
+      "conv": "语法高亮度=>zh-tw:語法突顯;语法高亮度=>zh-hk:語法突顯;语法高亮度=>zh-mo:語法突顯;"
     },
     {
       "original": "syntax highlighting",
-      "conv": "語法高亮度=>zh-tw:語法突顯; 語法高亮度=>zh-hk:語法突顯; 語法高亮度=>zh-mo:語法突顯;"
+      "conv": "語法高亮度=>zh-tw:語法突顯;語法高亮度=>zh-hk:語法突顯;語法高亮度=>zh-mo:語法突顯;"
     },
     {
       "original": "visual",
-      "conv": "zh-cn:可视化; zh-tw:視覺化;"
+      "conv": "zh-cn:可视化;zh-tw:視覺化;"
     },
     {
       "original": "record",
@@ -269,15 +269,15 @@
     },
     {
       "original": "Attribution",
-      "conv": "zh-cn:署名; zh-hk:署名; zh-tw:姓名標示; zh-sg:署名;"
+      "conv": "zh-cn:署名;zh-hk:署名;zh-tw:姓名標示;zh-sg:署名;"
     },
     {
       "original": "copyright",
-      "conv": "zh-hans:著作权; zh-hant:著作權; zh-hk:版權;"
+      "conv": "zh-hans:著作权;zh-hant:著作權;zh-hk:版權;"
     },
     {
       "original": "copyright",
-      "conv": "版权=>zh-cn:著作权; 版权=>zh-sg:著作权; 版权=>zh-my:著作权; 版权=>zh-tw:著作權; 版权=>zh-mo:著作權;"
+      "conv": "版权=>zh-cn:著作权;版权=>zh-sg:著作权;版权=>zh-my:著作权;版权=>zh-tw:著作權;版权=>zh-mo:著作權;"
     },
     {
       "original": "copyright information",
@@ -285,7 +285,7 @@
     },
     {
       "original": "copyright information",
-      "conv": "版权信息=>zh-cn:著作权信息; 版权信息=>zh-sg:著作权信息; 版权信息=>zh-my:著作权信息; 版权信息=>zh-tw:著作權資訊; 版权信息=>zh-mo:著作權資訊;"
+      "conv": "版权信息=>zh-cn:著作权信息;版权信息=>zh-sg:著作权信息;版权信息=>zh-my:著作权信息;版权信息=>zh-tw:著作權資訊;版权信息=>zh-mo:著作權資訊;"
     },
     {
       "original": "Creative Commons",
@@ -313,15 +313,15 @@
     },
     {
       "original": "information",
-      "conv": "zh-cn:信息; zh-tw:資訊"
+      "conv": "zh-cn:信息;zh-tw:資訊"
     },
     {
       "original": "license terms",
-      "conv": "zh-cn:许可; zh-tw:授權; zh-hk:特許;"
+      "conv": "zh-cn:许可;zh-tw:授權;zh-hk:特許;"
     },
     {
       "original": "license",
-      "conv": "zh-cn:许可条款; zh-tw:授權條款; zh-hk:特許條款;"
+      "conv": "zh-cn:许可条款;zh-tw:授權條款;zh-hk:特許條款;"
     },
     {
       "original": "license",
@@ -337,23 +337,23 @@
     },
     {
       "original": "license agreement",
-      "conv": "zh-cn:许可协议; zh-tw:授權合約; zh-hk:特許協議;"
+      "conv": "zh-cn:许可协议;zh-tw:授權合約;zh-hk:特許協議;"
     },
     {
       "original": "Localization",
-      "conv": "zh-cn:本地化; zh-tw:在地化; zh-hk:本地化; zh-sg:本地化;"
+      "conv": "zh-cn:本地化;zh-tw:在地化;zh-hk:本地化;zh-sg:本地化;"
     },
     {
       "original": "NoDerivs",
-      "conv": "zh-cn:禁止演绎; zh-hk:禁止衍生; zh-tw:禁止改作; zh-cn:禁止演绎;"
+      "conv": "zh-cn:禁止演绎;zh-hk:禁止衍生;zh-tw:禁止改作;zh-cn:禁止演绎;"
     },
     {
       "original": "Release",
-      "conv": "zh-cn:发布; zh-tw:釋出;"
+      "conv": "zh-cn:发布;zh-tw:釋出;"
     },
     {
       "original": "ShareAlike",
-      "conv": "zh-cn:相同方式共享; zh-hk:相同方式共享; zh-tw:相同方式分享; zh-sg:相同方式共享;"
+      "conv": "zh-cn:相同方式共享;zh-hk:相同方式共享;zh-tw:相同方式分享;zh-sg:相同方式共享;"
     },
     {
       "original": "Maintenance reports",
@@ -381,7 +381,7 @@
     },
     {
       "original": "Search",
-      "conv": "zh-cn:搜索; zh-tw:搜尋;"
+      "conv": "zh-cn:搜索;zh-tw:搜尋;"
     },
     {
       "original": "GlobalRenameRequest",
@@ -445,7 +445,7 @@
     },
     {
       "original": "log entry",
-      "conv": "zh-cn:日志项目; zh-tw:日誌項目;"
+      "conv": "zh-cn:日志项目;zh-tw:日誌項目;"
     },
     {
       "original": "username",

@@ -1,15 +1,15 @@
 {
   "name": "列斯聯",
-  "description": "[[列斯聯足球會|-{zh-hans:利兹联; zh-hk:列斯聯; zh-tw:里茲聯;}-]]",
+  "description": "[[列斯聯足球會|-{zh-hans:利兹联;zh-hk:列斯聯;zh-tw:里茲聯;}-]]",
   "path": "Module:CGroup/列斯聯",
   "rules": [
     {
       "original": "Leeds United Football Club",
-      "conv": "zh-hans:利兹联足球俱乐部; zh-tw:里茲聯足球俱樂部; zh-hk:列斯聯足球會;"
+      "conv": "zh-hans:利兹联足球俱乐部;zh-tw:里茲聯足球俱樂部;zh-hk:列斯聯足球會;"
     },
     {
       "original": "Leeds United",
-      "conv": "zh-hans:利兹联; zh-hk:列斯聯; zh-tw:里茲聯;"
+      "conv": "zh-hans:利兹联;zh-hk:列斯聯;zh-tw:里茲聯;"
     },
     {
       "original": "Ken Bates",
