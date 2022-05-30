@@ -5,423 +5,423 @@
   "rules": [
     {
       "original": "Analog",
-      "conv": "zh-tw:類比; zh-cn:模拟; zh-hk:模擬;"
+      "conv": "zh-tw:類比;zh-cn:模拟;zh-hk:模擬"
     },
     {
       "original": "Audio",
-      "conv": "zh-cn:音频;zh-tw:音訊;"
+      "conv": "zh-cn:音频;zh-tw:音訊"
     },
     {
       "original": "Channel",
-      "conv": "zh-cn:信道; zh-tw:頻道; zh-hk:頻道; zh-sg:波道"
+      "conv": "zh-cn:信道;zh-tw:頻道;zh-hk:頻道;zh-sg:波道"
     },
     {
       "original": "Communication",
-      "conv": "zh-cn:通信;zh-tw:通訊;"
+      "conv": "zh-cn:通信;zh-tw:通訊"
     },
     {
       "original": "Digital",
-      "conv": "zh-tw:數位;zh-cn:数字;zh-hk:數碼;"
+      "conv": "zh-tw:數位;zh-cn:数字;zh-hk:數碼"
     },
     {
       "original": "information",
-      "conv": "zh-cn:信息; zh-tw:資訊;"
+      "conv": "zh-cn:信息;zh-tw:資訊"
     },
     {
       "original": "integrated circuit",
-      "conv": "zh-cn:集成电路;zh-tw:積體電路;zh-hk:集成電路;"
+      "conv": "zh-cn:集成电路;zh-tw:積體電路;zh-hk:集成電路"
     },
     {
       "original": "logic gate",
-      "conv": "zh-cn:逻辑门; zh-hk:邏輯門; zh-tw:邏輯閘;"
+      "conv": "zh-cn:逻辑门;zh-hk:邏輯門;zh-tw:邏輯閘"
     },
     {
       "original": "Medium",
-      "conv": "媒质=>zh-hant:媒介; 介质=>zh-hant:媒介;"
+      "conv": "媒质=>zh-hant:媒介;介质=>zh-hant:媒介"
     },
     {
       "original": "Noise",
-      "conv": "zh-tw:雜訊; zh-hk:雜訊; zh-cn:噪声;"
+      "conv": "zh-tw:雜訊;zh-hk:雜訊;zh-cn:噪声"
     },
     {
       "original": "Noise",
-      "conv": "杂讯=>zh-cn:噪声; 杂讯=>zh-sg:噪声;"
+      "conv": "杂讯=>zh-cn:噪声;杂讯=>zh-sg:噪声"
     },
     {
       "original": "Noise",
-      "conv": "噪聲=>zh-tw:雜訊; 噪聲=>zh-hk:雜訊; 噪聲=>zh-mo:雜訊;"
+      "conv": "噪聲=>zh-tw:雜訊;噪聲=>zh-hk:雜訊;噪聲=>zh-mo:雜訊"
     },
     {
       "original": "P-N junction",
-      "conv": "zh-cn:P-N结;zh-hk:P-N結;zh-tw:P-N接面;"
+      "conv": "zh-cn:P-N结;zh-hk:P-N結;zh-tw:P-N接面"
     },
     {
       "original": "P-n junction",
-      "conv": "zh-cn:P-n结;zh-hk:P-n結;zh-tw:P-n接面;"
+      "conv": "zh-cn:P-n结;zh-hk:P-n結;zh-tw:P-n接面"
     },
     {
       "original": "p-n junction",
-      "conv": "zh-cn:p-n结;zh-hk:p-n結;zh-tw:p-n接面;"
+      "conv": "zh-cn:p-n结;zh-hk:p-n結;zh-tw:p-n接面"
     },
     {
       "original": "PN junction",
-      "conv": "zh-cn:PN结;zh-hk:PN結;zh-tw:PN接面;"
+      "conv": "zh-cn:PN结;zh-hk:PN結;zh-tw:PN接面"
     },
     {
       "original": "Pn junction",
-      "conv": "zh-cn:Pn结;zh-hk:Pn結;zh-tw:Pn接面;"
+      "conv": "zh-cn:Pn结;zh-hk:Pn結;zh-tw:Pn接面"
     },
     {
       "original": "pn junction",
-      "conv": "zh-cn:pn结;zh-hk:pn結;zh-tw:pn接面;"
+      "conv": "zh-cn:pn结;zh-hk:pn結;zh-tw:pn接面"
     },
     {
       "original": "Pulse",
-      "conv": "zh-cn:脉冲; zh-hk:脈衝; zh-tw:脈波;"
+      "conv": "zh-cn:脉冲;zh-hk:脈衝;zh-tw:脈波"
     },
     {
       "original": "Serial",
-      "conv": "zh-cn:串行; zh-tw:序列;"
+      "conv": "zh-cn:串行;zh-tw:序列"
     },
     {
       "original": "signal",
-      "conv": "zh-cn:信号; zh-tw:訊號;"
+      "conv": "zh-cn:信号;zh-tw:訊號"
     },
     {
       "original": "signal",
-      "conv": "信號=>zh-tw:訊號; 信號=>zh-hk:訊號; 信號=>zh-mo:訊號;"
+      "conv": "信號=>zh-tw:訊號;信號=>zh-hk:訊號;信號=>zh-mo:訊號"
     },
     {
       "original": "signal",
-      "conv": "讯号=>zh-tw:訊號; 讯号=>zh-cn:信号; 讯号=>zh-sg:信号;"
+      "conv": "讯号=>zh-tw:訊號;讯号=>zh-cn:信号;讯号=>zh-sg:信号"
     },
     {
       "original": "Signal-to-noise ratio, SNR",
-      "conv": "zh-tw:訊雜比;zh-cn:信噪比;zh-hk:訊噪比;"
+      "conv": "zh-tw:訊雜比;zh-cn:信噪比;zh-hk:訊噪比"
     },
     {
       "original": "Signaling System Number 7",
-      "conv": "zh-cn:七号信令系统; zh-tw:第七號發信系統; zh-hk:七號信令系統;"
+      "conv": "zh-cn:七号信令系统;zh-tw:第七號發信系統;zh-hk:七號信令系統"
     },
     {
       "original": "Video",
-      "conv": "zh-cn:视频;zh-tw:視訊;zh-hk:視像;"
+      "conv": "zh-cn:视频;zh-tw:視訊;zh-hk:視像"
     },
     {
       "original": "Mobile communication",
-      "conv": "zh-cn:移动通信;zh-hk:流動通訊;zh-tw:行動通訊;"
+      "conv": "zh-cn:移动通信;zh-hk:流動通訊;zh-tw:行動通訊"
     },
     {
       "original": "modulation",
-      "conv": "zh-cn:调制;zh-hk:調制;zh-tw:調變;"
+      "conv": "zh-cn:调制;zh-hk:調制;zh-tw:調變"
     },
     {
       "original": "vestigial sideband",
-      "conv": "zh-cn:残余边带;zh-tw:殘邊帶;"
+      "conv": "zh-cn:残余边带;zh-tw:殘邊帶"
     },
     {
       "original": "amplitude",
-      "conv": "zh-cn:幅度;zh-tw:振幅;"
+      "conv": "zh-cn:幅度;zh-tw:振幅"
     },
     {
       "original": "PSK",
-      "conv": "zh-tw:相位移鍵;zh-cn:移相键控;"
+      "conv": "zh-tw:相位移鍵;zh-cn:移相键控"
     },
     {
       "original": "Mobile communication",
-      "conv": "zh-tw:行動通訊;zh-cn:移动通信;zh-hk:流動通訊;"
+      "conv": "zh-tw:行動通訊;zh-cn:移动通信;zh-hk:流動通訊"
     },
     {
       "original": "Time division",
-      "conv": "zh-hk:時分;zh-cn:时分;zh-tw:分時;"
+      "conv": "zh-hk:時分;zh-cn:时分;zh-tw:分時"
     },
     {
       "original": "Frequency division",
-      "conv": "zh-hk:頻分;zh-cn:频分;zh-tw:分頻;"
+      "conv": "zh-hk:頻分;zh-cn:频分;zh-tw:分頻"
     },
     {
       "original": "Code division",
-      "conv": "zh-hk:碼分;zh-cn:码分;zh-tw:分碼;"
+      "conv": "zh-hk:碼分;zh-cn:码分;zh-tw:分碼"
     },
     {
       "original": "TDMA",
-      "conv": "zh-hk:時分多址;zh-cn:时分多址;zh-tw:分時多重進接;"
+      "conv": "zh-hk:時分多址;zh-cn:时分多址;zh-tw:分時多重進接"
     },
     {
       "original": "FDMA",
-      "conv": "zh-hk:頻分多址;zh-cn:频分多址;zh-tw:分頻多重進接;"
+      "conv": "zh-hk:頻分多址;zh-cn:频分多址;zh-tw:分頻多重進接"
     },
     {
       "original": "CDMA",
-      "conv": "zh-hk:碼分多址;zh-cn:码分多址;zh-tw:分碼多重進接;"
+      "conv": "zh-hk:碼分多址;zh-cn:码分多址;zh-tw:分碼多重進接"
     },
     {
       "original": "SDMA",
-      "conv": "zh-hk:空分多址;zh-cn:空分多址;zh-tw:分空間多重進接;"
+      "conv": "zh-hk:空分多址;zh-cn:空分多址;zh-tw:分空間多重進接"
     },
     {
       "original": "TDM",
-      "conv": "zh-hk:時分複用;zh-cn:时分复用;zh-tw:分時多工;"
+      "conv": "zh-hk:時分複用;zh-cn:时分复用;zh-tw:分時多工"
     },
     {
       "original": "FDM",
-      "conv": "zh-hk:頻分複用;zh-cn:频分复用;zh-tw:分頻多工;"
+      "conv": "zh-hk:頻分複用;zh-cn:频分复用;zh-tw:分頻多工"
     },
     {
       "original": "SDM",
-      "conv": "zh-hk:空分複用;zh-cn:空分复用;zh-tw:空間多工;"
+      "conv": "zh-hk:空分複用;zh-cn:空分复用;zh-tw:空間多工"
     },
     {
       "original": "WDM",
-      "conv": "zh-hk:波分複用;zh-cn:波分复用;zh-tw:波長分波多工;"
+      "conv": "zh-hk:波分複用;zh-cn:波分复用;zh-tw:波長分波多工"
     },
     {
       "original": "iDEN",
-      "conv": "zh-tw:整合數位強化網路;zh-cn:集成数字增强网络;"
+      "conv": "zh-tw:整合數位強化網路;zh-cn:集成数字增强网络"
     },
     {
       "original": "GPRS",
-      "conv": "zh-tw:通用封包無線服務;zh-cn:通用分组无线服务;"
+      "conv": "zh-tw:通用封包無線服務;zh-cn:通用分组无线服务"
     },
     {
       "original": "spread-spectrum",
-      "conv": "zh-cn:扩频;zh-tw:展頻;"
+      "conv": "zh-cn:扩频;zh-tw:展頻"
     },
     {
       "original": "spread-spectrum",
-      "conv": "zh-cn:扩谱;zh-tw:展譜;"
+      "conv": "zh-cn:扩谱;zh-tw:展譜"
     },
     {
       "original": "Signal-to-noise ratio",
-      "conv": "zh-cn:信噪比;zh-tw:訊號雜訊比;"
+      "conv": "zh-cn:信噪比;zh-tw:訊號雜訊比"
     },
     {
       "original": "Baud rate",
-      "conv": "zh-cn:波特率;zh-hans:波特率;zh-hk:鮑率;zh-tw:鮑率;zh-hant:鮑率;"
+      "conv": "zh-cn:波特率;zh-hans:波特率;zh-hk:鮑率;zh-tw:鮑率;zh-hant:鮑率"
     },
     {
       "original": "Baud",
-      "conv": "zh-cn:波特;zh-hans:波特;zh-hk:鮑;zh-tw:鮑;zh-hant:鮑;"
+      "conv": "zh-cn:波特;zh-hans:波特;zh-hk:鮑;zh-tw:鮑;zh-hant:鮑"
     },
     {
       "original": "Network",
-      "conv": "zh-tw:網路; zh-cn:网络; zh-hk:網絡;"
+      "conv": "zh-tw:網路;zh-cn:网络;zh-hk:網絡"
     },
     {
       "original": "Packet",
-      "conv": "zh-tw:封包;zh-cn:分组;"
+      "conv": "zh-tw:封包;zh-cn:分组"
     },
     {
       "original": "Cellular data",
-      "conv": "zh-tw:蜂巢式資料; zh-cn:蜂窝数据; zh-hk:蜂巢式數據;"
+      "conv": "zh-tw:蜂巢式資料;zh-cn:蜂窝数据;zh-hk:蜂巢式數據"
     },
     {
       "original": "Cellular network",
-      "conv": "zh-tw:蜂巢式網路; zh-cn:蜂窝网络; zh-hk:蜂巢式網絡;"
+      "conv": "zh-tw:蜂巢式網路;zh-cn:蜂窝网络;zh-hk:蜂巢式網絡"
     },
     {
       "original": "Bit",
-      "conv": "zh-tw:位元;zh-cn:比特;"
+      "conv": "zh-tw:位元;zh-cn:比特"
     },
     {
       "original": "Slot",
-      "conv": "zh-tw:時槽;zh-cn:时隙;"
+      "conv": "zh-tw:時槽;zh-cn:时隙"
     },
     {
       "original": "bit",
-      "conv": "zh-tw:位元; zh-sg:位元; zh-cn:比特;"
+      "conv": "zh-tw:位元;zh-sg:位元;zh-cn:比特"
     },
     {
       "original": "bitrate",
-      "conv": "码率=>zh-tw:位元速率; 码率=>zh-hk:位元速率; 码率=>zh-mo:位元速率;"
+      "conv": "码率=>zh-tw:位元速率;码率=>zh-hk:位元速率;码率=>zh-mo:位元速率"
     },
     {
       "original": "bitrate",
-      "conv": "碼率=>zh-tw:位元速率; 碼率=>zh-hk:位元速率; 碼率=>zh-mo:位元速率;"
+      "conv": "碼率=>zh-tw:位元速率;碼率=>zh-hk:位元速率;碼率=>zh-mo:位元速率"
     },
     {
       "original": "bitrate",
-      "conv": "荷码率=>zh-tw:位元速率; 荷码率=>zh-hk:位元速率; 荷码率=>zh-mo:位元速率;"
+      "conv": "荷码率=>zh-tw:位元速率;荷码率=>zh-hk:位元速率;荷码率=>zh-mo:位元速率"
     },
     {
       "original": "bitrate",
-      "conv": "荷碼率=>zh-tw:位元速率; 荷碼率=>zh-hk:位元速率; 荷碼率=>zh-mo:位元速率;"
+      "conv": "荷碼率=>zh-tw:位元速率;荷碼率=>zh-hk:位元速率;荷碼率=>zh-mo:位元速率"
     },
     {
       "original": "bit error",
-      "conv": "zh-cn:比特差错;zh-tw:位元錯誤;"
+      "conv": "zh-cn:比特差错;zh-tw:位元錯誤"
     },
     {
       "original": "block code",
-      "conv": "zh-cn:分组码;zh-tw:區塊碼;"
+      "conv": "zh-cn:分组码;zh-tw:區塊碼"
     },
     {
       "original": "error correcting code",
-      "conv": "zh-cn:纠错码;zh-tw:錯誤更正碼;zh-hk:除錯碼;"
+      "conv": "zh-cn:纠错码;zh-tw:錯誤更正碼;zh-hk:除錯碼"
     },
     {
       "original": "error detecting code",
-      "conv": "zh-cn:检错码;zh-tw:偵錯碼;"
+      "conv": "zh-cn:检错码;zh-tw:偵錯碼"
     },
     {
       "original": "error detecting code",
-      "conv": "zh-cn:差错检测码;zh-tw:誤差檢測碼;"
+      "conv": "zh-cn:差错检测码;zh-tw:誤差檢測碼"
     },
     {
       "original": "forward error correction",
-      "conv": "zh-cn:前向纠错; zh-tw:前向錯誤更正;"
+      "conv": "zh-cn:前向纠错;zh-tw:前向錯誤更正"
     },
     {
       "original": "perfect code",
-      "conv": "zh-cn:完备码; zh-tw:完整码;"
+      "conv": "zh-cn:完备码;zh-tw:完整码"
     },
     {
       "original": "Information theory",
-      "conv": "zh-tw:資訊理論;zh-cn:信息论;"
+      "conv": "zh-tw:資訊理論;zh-cn:信息论"
     },
     {
       "original": "Information theory",
-      "conv": "消息理論=>zh-cn:信息论; 消息理論=>zh-sg:信息论;"
+      "conv": "消息理論=>zh-cn:信息论;消息理論=>zh-sg:信息论"
     },
     {
       "original": "Sampling Theorem",
-      "conv": "zh-tw:取樣定理;zh-cn:采样定理;"
+      "conv": "zh-tw:取樣定理;zh-cn:采样定理"
     },
     {
       "original": "Shannon",
-      "conv": "zh-cn:香农; zh-tw:夏農; zh-hk:山農;"
+      "conv": "zh-cn:香农;zh-tw:夏農;zh-hk:山農"
     },
     {
       "original": "Analog Broadcasting",
-      "conv": "zh-cn:模拟广播; zh-tw:類比廣播; zh-hk:模擬廣播;"
+      "conv": "zh-cn:模拟广播;zh-tw:類比廣播;zh-hk:模擬廣播"
     },
     {
       "original": "Analog Television",
-      "conv": "zh-cn:模拟电视; zh-tw:類比電視; zh-hk:模擬電視; zh-mo:模擬電視;"
+      "conv": "zh-cn:模拟电视;zh-tw:類比電視;zh-hk:模擬電視;zh-mo:模擬電視"
     },
     {
       "original": "Definition",
-      "conv": "zh-cn:清晰度; zh-tw:解析度; zh-hk:清晰度;"
+      "conv": "zh-cn:清晰度;zh-tw:解析度;zh-hk:清晰度"
     },
     {
       "original": "Digital Broadcasting",
-      "conv": "zh-cn:数字广播;zh-hk:數碼廣播;zh-tw:數位廣播;"
+      "conv": "zh-cn:数字广播;zh-hk:數碼廣播;zh-tw:數位廣播"
     },
     {
       "original": "Digital Television",
-      "conv": "zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-mo:數碼電視;zh-sg:数码电视;"
+      "conv": "zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-mo:數碼電視;zh-sg:数码电视"
     },
     {
       "original": "Digital Terrestrial Television",
-      "conv": "zh-tw:數位無線電視; zh-hk:地面數碼電視; zh-cn:地面数字电视;"
+      "conv": "zh-tw:數位無線電視;zh-hk:地面數碼電視;zh-cn:地面数字电视"
     },
     {
       "original": "DVB-H",
-      "conv": "zh-cn:手持地面无线;zh-tw:手持式數位視訊廣播;zh-hk:手持式數碼視像廣播;"
+      "conv": "zh-cn:手持地面无线;zh-tw:手持式數位視訊廣播;zh-hk:手持式數碼視像廣播"
     },
     {
       "original": "External",
-      "conv": "zh-cn:外置;zh-hk:外置;zh-tw:外接;"
+      "conv": "zh-cn:外置;zh-hk:外置;zh-tw:外接"
     },
     {
       "original": "Set-top box",
-      "conv": "zh-hans:机顶盒;zh-hant:數碼電視解碼器;zh-hk:機頂盒;zh-tw:機上盒;zh-cn:机顶盒;zh-mo:機頂盒;"
+      "conv": "zh-hans:机顶盒;zh-hant:數碼電視解碼器;zh-hk:機頂盒;zh-tw:機上盒;zh-cn:机顶盒;zh-mo:機頂盒"
     },
     {
       "original": "Set-top box",
-      "conv": "數位電視機上盒=>zh-hans:机顶盒; 數位電視機上盒=>zh-hant:機頂盒; 數位電視機上盒=>zh-tw:數位電視機上盒;"
+      "conv": "數位電視機上盒=>zh-hans:机顶盒;數位電視機上盒=>zh-hant:機頂盒;數位電視機上盒=>zh-tw:數位電視機上盒"
     },
     {
       "original": "Television channel",
-      "conv": "zh-hans:电视频道;zh-hant:電視頻道;"
+      "conv": "zh-hans:电视频道;zh-hant:電視頻道"
     },
     {
       "original": "terrestrial television",
-      "conv": "zh-tw:無線電視; zh-hk:地面電視; zh-cn:地面电视;"
+      "conv": "zh-tw:無線電視;zh-hk:地面電視;zh-cn:地面电视"
     },
     {
       "original": "USB Digital TV tuner",
-      "conv": "zh-cn:USB数字电视棒;zh-hk:高清USB手指;zh-tw:USB數位電視棒;"
+      "conv": "zh-cn:USB数字电视棒;zh-hk:高清USB手指;zh-tw:USB數位電視棒"
     },
     {
       "original": "USB TV Tuner",
-      "conv": "zh-cn:USB电视棒;zh-hk:USB電視手指;zh-tw:USB電視棒;"
+      "conv": "zh-cn:USB电视棒;zh-hk:USB電視手指;zh-tw:USB電視棒"
     },
     {
       "original": "Standard definition",
-      "conv": "zh-cn:标清;zh-hk:標清;zh-tw:標準畫質;"
+      "conv": "zh-cn:标清;zh-hk:標清;zh-tw:標準畫質"
     },
     {
       "original": "High definition",
-      "conv": "zh-cn:高清;zh-hk:高清;zh-tw:高畫質;"
+      "conv": "zh-cn:高清;zh-hk:高清;zh-tw:高畫質"
     },
     {
       "original": "Full High definition/Full HD",
-      "conv": "zh-tw:1080P; zh-hk:全高清; zh-cn:高清;"
+      "conv": "zh-tw:1080P;zh-hk:全高清;zh-cn:高清"
     },
     {
       "original": "Ultra High definition",
-      "conv": "zh-tw:超高畫質; zh-hk:超高清; zh-cn:超高清; "
+      "conv": "zh-tw:超高畫質;zh-hk:超高清;zh-cn:超高清"
     },
     {
       "original": "Call forwarding",
-      "conv": "zh-cn:呼叫转移; zh-tw:來電轉駁;"
+      "conv": "zh-cn:呼叫转移;zh-tw:來電轉駁"
     },
     {
       "original": "Information Technology",
-      "conv": "zh-cn:信息技术; zh-tw:資訊科技;"
+      "conv": "zh-cn:信息技术;zh-tw:資訊科技"
     },
     {
       "original": "Landline",
-      "conv": "zh-cn:固定电话; zh-tw:固網電信; zh-hk:固網電話;"
+      "conv": "zh-cn:固定电话;zh-tw:固網電信;zh-hk:固網電話"
     },
     {
       "original": "Mobileline",
-      "conv": "zh-cn:移动电话; zh-tw:移動電話; zh-hk:流動電話;"
+      "conv": "zh-cn:移动电话;zh-tw:移動電話;zh-hk:流動電話"
     },
     {
       "original": "China Telecom",
-      "conv": "zh-hans:中国电信; zh-hant:中國電信; zh-tw:中國電信; zh-hk:中國電信; zh-cn:中国电信;"
+      "conv": "zh-hans:中国电信;zh-hant:中國電信;zh-tw:中國電信;zh-hk:中國電信;zh-cn:中国电信"
     },
     {
       "original": "China Mobile",
-      "conv": "zh-hans:中国移动; zh-hant:中國移動; zh-tw:中國移動; zh-hk:中國移動; zh-cn:中国移动;"
+      "conv": "zh-hans:中国移动;zh-hant:中國移動;zh-tw:中國移動;zh-hk:中國移動;zh-cn:中国移动"
     },
     {
       "original": "Service plan",
-      "conv": "zh-tw:服務專案; zh-hk:服務計劃; zh-cn:服务套餐; zh-sg:服务配套;"
+      "conv": "zh-tw:服務專案;zh-hk:服務計劃;zh-cn:服务套餐;zh-sg:服务配套"
     },
     {
       "original": "Frame",
-      "conv": "zh-cn:帧; zh-tw:影格;"
+      "conv": "zh-cn:帧;zh-tw:影格"
     },
     {
       "original": "Communication",
-      "conv": "zh-tw:通訊學; zh-cn:通信学;"
+      "conv": "zh-tw:通訊學;zh-cn:通信学"
     },
     {
       "original": "Distortion",
-      "conv": "zh-hans:失真; zh-hant:失真;"
+      "conv": "zh-hans:失真;zh-hant:失真"
     },
     {
       "original": "low-fidelity (Lo-Fi)",
-      "conv": "zh-cn:低保真; zh-tw:低傳真; zh-hk:低傳真;"
+      "conv": "zh-cn:低保真;zh-tw:低傳真;zh-hk:低傳真"
     },
     {
       "original": "high fidelity (Hi-Fi)",
-      "conv": "zh-cn:高保真; zh-tw:高傳真; zh-hk:高傳真;"
+      "conv": "zh-cn:高保真;zh-tw:高傳真;zh-hk:高傳真"
     },
     {
       "original": "Smartone",
-      "conv": "zh-hant:數碼通; zh-hans:数码通;"
+      "conv": "zh-hant:數碼通;zh-hans:数码通"
     },
     {
       "original": null,
-      "conv": "zh-hant:資訊台; zh-hans:资讯台;"
+      "conv": "zh-hant:資訊台;zh-hans:资讯台"
     },
     {
       "original": null,
-      "conv": "zh-hant:資訊頻道; zh-hans:资讯频道;"
+      "conv": "zh-hant:資訊頻道;zh-hans:资讯频道"
     }
   ]
 }

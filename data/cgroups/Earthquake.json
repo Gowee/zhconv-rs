@@ -5,483 +5,483 @@
   "rules": [
     {
       "original": null,
-      "conv": "zh-cn:地震震级; zh-tw:地震規模; zh-hk:地震震級;"
+      "conv": "zh-cn:地震震级;zh-tw:地震規模;zh-hk:地震震級"
     },
     {
       "original": null,
-      "conv": "震级=>zh-tw:規模; 震級=>zh-tw:規模;"
+      "conv": "震级=>zh-tw:規模;震級=>zh-tw:規模"
     },
     {
       "original": "Richter",
-      "conv": "zh-cn:里克特; zh-tw:芮克特; zh-hk:黎克特;"
+      "conv": "zh-cn:里克特;zh-tw:芮克特;zh-hk:黎克特"
     },
     {
       "original": null,
-      "conv": "zh-cn:里氏震级; zh-tw:芮氏規模; zh-hk:黎克特制震級;"
+      "conv": "zh-cn:里氏震级;zh-tw:芮氏規模;zh-hk:黎克特制震級"
     },
     {
       "original": null,
-      "conv": "zh-cn:里氏地震震级; zh-tw:芮氏地震規模; zh-hk:黎克特制地震震級;"
+      "conv": "zh-cn:里氏地震震级;zh-tw:芮氏地震規模;zh-hk:黎克特制地震震級"
     },
     {
       "original": null,
-      "conv": "zh-cn:里氏; zh-tw:芮氏; zh-hk:黎克特制;"
+      "conv": "zh-cn:里氏;zh-tw:芮氏;zh-hk:黎克特制"
     },
     {
       "original": null,
-      "conv": "zh-cn:体波震级; zh-tw:體波規模; zh-hk:體波震級;"
+      "conv": "zh-cn:体波震级;zh-tw:體波規模;zh-hk:體波震級"
     },
     {
       "original": null,
-      "conv": "zh-cn:矩震级; zh-tw:地震矩規模; zh-hk:矩震級;"
+      "conv": "zh-cn:矩震级;zh-tw:地震矩規模;zh-hk:矩震級"
     },
     {
       "original": "surface wave",
-      "conv": "zh-cn:面波; zh-tw:表面波; zh-hk:面波;"
+      "conv": "zh-cn:面波;zh-tw:表面波;zh-hk:面波"
     },
     {
       "original": null,
-      "conv": "zh-cn:面波震级; zh-tw:表面波規模; zh-hk:面波震級;"
+      "conv": "zh-cn:面波震级;zh-tw:表面波規模;zh-hk:面波震級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度; zh-tw:震度; zh-hk:烈度; zh-mo:烈度;"
+      "conv": "zh-cn:烈度;zh-tw:震度;zh-hk:烈度;zh-mo:烈度"
     },
     {
       "original": null,
-      "conv": "zh-cn:欧洲地震烈度表; zh-tw:歐洲宏觀震度分級; zh-hk:歐洲地震烈度表;"
+      "conv": "zh-cn:欧洲地震烈度表;zh-tw:歐洲宏觀震度分級;zh-hk:歐洲地震烈度表"
     },
     {
       "original": null,
-      "conv": "zh-cn:环境地震烈度表; zh-tw:環境震度分級; zh-hk:環境地震烈度表;"
+      "conv": "zh-cn:环境地震烈度表;zh-tw:環境震度分級;zh-hk:環境地震烈度表"
     },
     {
       "original": "Mercalli",
-      "conv": "zh-cn:麦加利; zh-tw:麥卡利; zh-hk:麥加利;"
+      "conv": "zh-cn:麦加利;zh-tw:麥卡利;zh-hk:麥加利"
     },
     {
       "original": null,
-      "conv": "zh-cn:麦加利地震烈度表; zh-tw:麥卡利震度分級; zh-hk:麥加利地震烈度表;"
+      "conv": "zh-cn:麦加利地震烈度表;zh-tw:麥卡利震度分級;zh-hk:麥加利地震烈度表"
     },
     {
       "original": "Sponheuer",
-      "conv": "zh-hans:施蓬霍伊尔; zh-hant:史邦豪雅;"
+      "conv": "zh-hans:施蓬霍伊尔;zh-hant:史邦豪雅"
     },
     {
       "original": "Karnik",
-      "conv": "zh-hans:卡尔尼克; zh-hant:卡尼克;"
+      "conv": "zh-hans:卡尔尼克;zh-hant:卡尼克"
     },
     {
       "original": null,
-      "conv": "zh-cn:梅德韦杰夫·施蓬霍伊尔·卡尔尼克地震烈度表; zh-tw:梅德韋傑夫·史邦豪雅·卡尼克震度分級; zh-hk:梅德韋傑夫·史邦豪雅·卡尼克地震烈度表;"
+      "conv": "zh-cn:梅德韦杰夫·施蓬霍伊尔·卡尔尼克地震烈度表;zh-tw:梅德韋傑夫·史邦豪雅·卡尼克震度分級;zh-hk:梅德韋傑夫·史邦豪雅·卡尼克地震烈度表"
     },
     {
       "original": null,
-      "conv": "zh-cn:菲律宾火山地震研究所地震烈度表; zh-tw:菲律賓火山地震研究所震度分級; zh-hk:菲律賓火山地震研究所地震烈度表;"
+      "conv": "zh-cn:菲律宾火山地震研究所地震烈度表;zh-tw:菲律賓火山地震研究所震度分級;zh-hk:菲律賓火山地震研究所地震烈度表"
     },
     {
       "original": "Cancani",
-      "conv": "zh-hans:坎卡尼; zh-hant:坎加尼;"
+      "conv": "zh-hans:坎卡尼;zh-hant:坎加尼"
     },
     {
       "original": "Sieberg",
-      "conv": "zh-hans:西伯格; zh-hant:希耶伯格;"
+      "conv": "zh-hans:西伯格;zh-hant:希耶伯格"
     },
     {
       "original": "Forel",
-      "conv": "zh-cn:福雷尔; zh-tw:福瑞; zh-hk:佛瑞爾;"
+      "conv": "zh-cn:福雷尔;zh-tw:福瑞;zh-hk:佛瑞爾"
     },
     {
       "original": null,
-      "conv": "zh-cn:罗西–福雷尔地震烈度表; zh-tw:羅西-福瑞震度分級; zh-hk:羅西-佛瑞爾地震烈度表;"
+      "conv": "zh-cn:罗西–福雷尔地震烈度表;zh-tw:羅西-福瑞震度分級;zh-hk:羅西-佛瑞爾地震烈度表"
     },
     {
       "original": null,
-      "conv": "zh-cn:震中; zh-tw:震央; zh-hk:震央;"
+      "conv": "zh-cn:震中;zh-tw:震央;zh-hk:震央"
     },
     {
       "original": "Rayleigh wave",
-      "conv": "zh-cn:瑞利波; zh-tw:雷利波; zh-hk:瑞利波;"
+      "conv": "zh-cn:瑞利波;zh-tw:雷利波;zh-hk:瑞利波"
     },
     {
       "original": "Love wave",
-      "conv": "zh-cn:勒夫波; zh-tw:洛夫波; zh-hk:洛夫波;"
+      "conv": "zh-cn:勒夫波;zh-tw:洛夫波;zh-hk:洛夫波"
     },
     {
       "original": "Stoneley wave",
-      "conv": "zh-cn:斯通利波; zh-tw:史東尼波; zh-hk:斯通利波;"
+      "conv": "zh-cn:斯通利波;zh-tw:史東尼波;zh-hk:斯通利波"
     },
     {
       "original": null,
-      "conv": "zh-cn:走滑断层; zh-tw:平移斷層; zh-hk:走滑斷層;"
+      "conv": "zh-cn:走滑断层;zh-tw:平移斷層;zh-hk:走滑斷層"
     },
     {
       "original": "transform fault",
-      "conv": "zh-cn:转换断层; zh-tw:轉形斷層; zh-hk:轉換斷層;"
+      "conv": "zh-cn:转换断层;zh-tw:轉形斷層;zh-hk:轉換斷層"
     },
     {
       "original": null,
-      "conv": "zh-cn:逆冲; zh-tw:逆衝; zh-hk:逆衝;"
+      "conv": "zh-cn:逆冲;zh-tw:逆衝;zh-hk:逆衝"
     },
     {
       "original": null,
-      "conv": "zh-cn:地幔; zh-tw:地函; zh-hk:地幔;"
+      "conv": "zh-cn:地幔;zh-tw:地函;zh-hk:地幔"
     },
     {
       "original": null,
-      "conv": "zh-cn:洋中脊; zh-tw:中洋脊; zh-hk:洋中脊;"
+      "conv": "zh-cn:洋中脊;zh-tw:中洋脊;zh-hk:洋中脊"
     },
     {
       "original": null,
-      "conv": "zh-cn:千米; zh-tw:公里; zh-hk:公里; zh-sg:公里;"
+      "conv": "zh-cn:千米;zh-tw:公里;zh-hk:公里;zh-sg:公里"
     },
     {
       "original": null,
-      "conv": "探勘=>zh-cn:勘探;"
+      "conv": "探勘=>zh-cn:勘探"
     },
     {
       "original": null,
-      "conv": "zh-cn:电磁勘探; zh-tw:磁力探勘; zh-hk:電磁勘探;"
+      "conv": "zh-cn:电磁勘探;zh-tw:磁力探勘;zh-hk:電磁勘探"
     },
     {
       "original": "South Sandwich (Plate)",
-      "conv": "zh-hans:南桑威奇; zh-hant:南三明治;"
+      "conv": "zh-hans:南桑威奇;zh-hant:南三明治"
     },
     {
       "original": "tsunami amplitude",
-      "conv": "zh-cn:波幅; zh-hk:波幅; zh-tw:波高; zh-sg:波高;"
+      "conv": "zh-cn:波幅;zh-hk:波幅;zh-tw:波高;zh-sg:波高"
     },
     {
       "original": "tsunami leading wave",
-      "conv": "zh-hans:海啸第一波; zh-cn:海啸首波; zh-tw:海嘯第一波;"
+      "conv": "zh-hans:海啸第一波;zh-cn:海啸首波;zh-tw:海嘯第一波"
     },
     {
       "original": "tsunami leading wave",
-      "conv": "zh-hans:第一波; zh-cn:首波; zh-tw:第一波;"
+      "conv": "zh-hans:第一波;zh-cn:首波;zh-tw:第一波"
     },
     {
       "original": "tsunami runup",
-      "conv": "zh-cn:爬高; zh-tw:溯上高;"
+      "conv": "zh-cn:爬高;zh-tw:溯上高"
     },
     {
       "original": "tsunami overflow depth",
-      "conv": "zh-cn:海啸淹没深度; zh-tw:海嘯溢流深度;"
+      "conv": "zh-cn:海啸淹没深度;zh-tw:海嘯溢流深度"
     },
     {
       "original": "teletsunami",
-      "conv": "zh-cn:远距离海啸; zh-tw:遠海海嘯;"
+      "conv": "zh-cn:远距离海啸;zh-tw:遠海海嘯"
     },
     {
       "original": null,
-      "conv": "zh-cn:里氏震级; zh-tw:芮氏規模; zh-hk:黎克特制;"
+      "conv": "zh-cn:里氏震级;zh-tw:芮氏規模;zh-hk:黎克特制"
     },
     {
       "original": null,
-      "conv": "里氏規模=>zh-hk:黎克特制; 里氏规模=>zh-hk:黎克特制;"
+      "conv": "里氏規模=>zh-hk:黎克特制;里氏规模=>zh-hk:黎克特制"
     },
     {
       "original": null,
-      "conv": "里氏規模=>zh-cn:里氏震级; 里氏规模=>zh-cn:里氏震级;"
+      "conv": "里氏規模=>zh-cn:里氏震级;里氏规模=>zh-cn:里氏震级"
     },
     {
       "original": null,
-      "conv": "里氏地震規模=>zh-hk:黎克特制地震震級; 里氏地震规模=>zh-hk:黎克特制地震震級;"
+      "conv": "里氏地震規模=>zh-hk:黎克特制地震震級;里氏地震规模=>zh-hk:黎克特制地震震級"
     },
     {
       "original": null,
-      "conv": "里氏地震規模=>zh-cn:里氏地震震级; 里氏地震规模=>zh-cn:里氏地震震级;"
+      "conv": "里氏地震規模=>zh-cn:里氏地震震级;里氏地震规模=>zh-cn:里氏地震震级"
     },
     {
       "original": null,
-      "conv": "表面波震级=>zh-tw:表面波規模; 表面波震級=>zh-tw:表面波規模;"
+      "conv": "表面波震级=>zh-tw:表面波規模;表面波震級=>zh-tw:表面波規模"
     },
     {
       "original": null,
-      "conv": "zh-hans:地震中; zh-hant:地震中;"
+      "conv": "zh-hans:地震中;zh-hant:地震中"
     },
     {
       "original": null,
-      "conv": "zh-hans:前震中; zh-hant:前震中;"
+      "conv": "zh-hans:前震中;zh-hant:前震中"
     },
     {
       "original": null,
-      "conv": "zh-hans:主震中; zh-hant:主震中;"
+      "conv": "zh-hans:主震中;zh-hant:主震中"
     },
     {
       "original": null,
-      "conv": "zh-hans:主余型; zh-hant:主餘型;"
+      "conv": "zh-hans:主余型;zh-hant:主餘型"
     },
     {
       "original": null,
-      "conv": "zh-hans:余震中; zh-hant:餘震中;"
+      "conv": "zh-hans:余震中;zh-hant:餘震中"
     },
     {
       "original": null,
-      "conv": "zh-hans:强震中; zh-hant:強震中;"
+      "conv": "zh-hans:强震中;zh-hant:強震中"
     },
     {
       "original": null,
-      "conv": "zh-hans:国震中心; zh-hant:國震中心;"
+      "conv": "zh-hans:国震中心;zh-hant:國震中心"
     },
     {
       "original": null,
-      "conv": "zh-cn:位于震中; zh-tw:位於震央; zh-hk:位於震央;"
+      "conv": "zh-cn:位于震中;zh-tw:位於震央;zh-hk:位於震央"
     },
     {
       "original": null,
-      "conv": "zh-hans:地震度量; zh-hant:地震度量;"
+      "conv": "zh-hans:地震度量;zh-hant:地震度量"
     },
     {
       "original": null,
-      "conv": "zh-hans:抗震度; zh-hant:抗震度;"
+      "conv": "zh-hans:抗震度;zh-hant:抗震度"
     },
     {
       "original": null,
-      "conv": "zh-hans:耐震度; zh-hant:耐震度;"
+      "conv": "zh-hans:耐震度;zh-hant:耐震度"
     },
     {
       "original": null,
-      "conv": "zh-hans:中国地震烈度表; zh-hant:中國地震烈度表;"
+      "conv": "zh-hans:中国地震烈度表;zh-hant:中國地震烈度表"
     },
     {
       "original": null,
-      "conv": "zh-hans:国家地震烈度速报与预警工程; zh-hant:國家地震烈度速報與預警工程;"
+      "conv": "zh-hans:国家地震烈度速报与预警工程;zh-hant:國家地震烈度速報與預警工程"
     },
     {
       "original": null,
-      "conv": "zh-hans:交通部中央气象局地震震度分级表; zh-hant:交通部中央氣象局地震震度分級表;"
+      "conv": "zh-hans:交通部中央气象局地震震度分级表;zh-hant:交通部中央氣象局地震震度分級表"
     },
     {
       "original": null,
-      "conv": "0级=>zh-tw:0; 0級=>zh-tw:0;"
+      "conv": "0级=>zh-tw:0;0級=>zh-tw:0"
     },
     {
       "original": null,
-      "conv": "1级=>zh-tw:1; 1級=>zh-tw:1;"
+      "conv": "1级=>zh-tw:1;1級=>zh-tw:1"
     },
     {
       "original": null,
-      "conv": "2级=>zh-tw:2; 2級=>zh-tw:2;"
+      "conv": "2级=>zh-tw:2;2級=>zh-tw:2"
     },
     {
       "original": null,
-      "conv": "3级=>zh-tw:3; 3級=>zh-tw:3;"
+      "conv": "3级=>zh-tw:3;3級=>zh-tw:3"
     },
     {
       "original": null,
-      "conv": "4级=>zh-tw:4; 4級=>zh-tw:4;"
+      "conv": "4级=>zh-tw:4;4級=>zh-tw:4"
     },
     {
       "original": null,
-      "conv": "5级=>zh-tw:5; 5級=>zh-tw:5;"
+      "conv": "5级=>zh-tw:5;5級=>zh-tw:5"
     },
     {
       "original": null,
-      "conv": "6级=>zh-tw:6; 6級=>zh-tw:6;"
+      "conv": "6级=>zh-tw:6;6級=>zh-tw:6"
     },
     {
       "original": null,
-      "conv": "7级=>zh-tw:7; 7級=>zh-tw:7;"
+      "conv": "7级=>zh-tw:7;7級=>zh-tw:7"
     },
     {
       "original": null,
-      "conv": "8级=>zh-tw:8; 8級=>zh-tw:8;"
+      "conv": "8级=>zh-tw:8;8級=>zh-tw:8"
     },
     {
       "original": null,
-      "conv": "9级=>zh-tw:9; 9級=>zh-tw:9;"
+      "conv": "9级=>zh-tw:9;9級=>zh-tw:9"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度0级; zh-tw:震度0級; zh-hk:烈度0級;"
+      "conv": "zh-cn:烈度0级;zh-tw:震度0級;zh-hk:烈度0級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度1级; zh-tw:震度1級; zh-hk:烈度1級;"
+      "conv": "zh-cn:烈度1级;zh-tw:震度1級;zh-hk:烈度1級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度2级; zh-tw:震度2級; zh-hk:烈度2級;"
+      "conv": "zh-cn:烈度2级;zh-tw:震度2級;zh-hk:烈度2級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度3级; zh-tw:震度3級; zh-hk:烈度3級;"
+      "conv": "zh-cn:烈度3级;zh-tw:震度3級;zh-hk:烈度3級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度4级; zh-tw:震度4級; zh-hk:烈度4級;"
+      "conv": "zh-cn:烈度4级;zh-tw:震度4級;zh-hk:烈度4級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度5级; zh-tw:震度5級; zh-hk:烈度5級;"
+      "conv": "zh-cn:烈度5级;zh-tw:震度5級;zh-hk:烈度5級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度6级; zh-tw:震度6級; zh-hk:烈度6級;"
+      "conv": "zh-cn:烈度6级;zh-tw:震度6級;zh-hk:烈度6級"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度7级; zh-tw:震度7級; zh-hk:烈度7級;"
+      "conv": "zh-cn:烈度7级;zh-tw:震度7級;zh-hk:烈度7級"
     },
     {
       "original": null,
-      "conv": "里氏0级=>zh-tw:芮氏規模0;"
+      "conv": "里氏0级=>zh-tw:芮氏規模0"
     },
     {
       "original": null,
-      "conv": "里氏1级=>zh-tw:芮氏規模1;"
+      "conv": "里氏1级=>zh-tw:芮氏規模1"
     },
     {
       "original": null,
-      "conv": "里氏2级=>zh-tw:芮氏規模2;"
+      "conv": "里氏2级=>zh-tw:芮氏規模2"
     },
     {
       "original": null,
-      "conv": "里氏3级=>zh-tw:芮氏規模3;"
+      "conv": "里氏3级=>zh-tw:芮氏規模3"
     },
     {
       "original": null,
-      "conv": "里氏4级=>zh-tw:芮氏規模4;"
+      "conv": "里氏4级=>zh-tw:芮氏規模4"
     },
     {
       "original": null,
-      "conv": "里氏5级=>zh-tw:芮氏規模5;"
+      "conv": "里氏5级=>zh-tw:芮氏規模5"
     },
     {
       "original": null,
-      "conv": "里氏6级=>zh-tw:芮氏規模6;"
+      "conv": "里氏6级=>zh-tw:芮氏規模6"
     },
     {
       "original": null,
-      "conv": "里氏7级=>zh-tw:芮氏規模7;"
+      "conv": "里氏7级=>zh-tw:芮氏規模7"
     },
     {
       "original": null,
-      "conv": "里氏8级=>zh-tw:芮氏規模8;"
+      "conv": "里氏8级=>zh-tw:芮氏規模8"
     },
     {
       "original": null,
-      "conv": "里氏9级=>zh-tw:芮氏規模9;"
+      "conv": "里氏9级=>zh-tw:芮氏規模9"
     },
     {
       "original": null,
-      "conv": "規模0=>zh-cn:震级0;"
+      "conv": "規模0=>zh-cn:震级0"
     },
     {
       "original": null,
-      "conv": "規模1=>zh-cn:震级1;"
+      "conv": "規模1=>zh-cn:震级1"
     },
     {
       "original": null,
-      "conv": "規模2=>zh-cn:震级2;"
+      "conv": "規模2=>zh-cn:震级2"
     },
     {
       "original": null,
-      "conv": "規模3=>zh-cn:震级3;"
+      "conv": "規模3=>zh-cn:震级3"
     },
     {
       "original": null,
-      "conv": "規模4=>zh-cn:震级4;"
+      "conv": "規模4=>zh-cn:震级4"
     },
     {
       "original": null,
-      "conv": "規模5=>zh-cn:震级5;"
+      "conv": "規模5=>zh-cn:震级5"
     },
     {
       "original": null,
-      "conv": "規模6=>zh-cn:震级6;"
+      "conv": "規模6=>zh-cn:震级6"
     },
     {
       "original": null,
-      "conv": "規模7=>zh-cn:震级7;"
+      "conv": "規模7=>zh-cn:震级7"
     },
     {
       "original": null,
-      "conv": "規模8=>zh-cn:震级8;"
+      "conv": "規模8=>zh-cn:震级8"
     },
     {
       "original": null,
-      "conv": "規模9=>zh-cn:震级9;"
+      "conv": "規模9=>zh-cn:震级9"
     },
     {
       "original": null,
-      "conv": "規模0=>zh-hk:震級0;"
+      "conv": "規模0=>zh-hk:震級0"
     },
     {
       "original": null,
-      "conv": "規模1=>zh-hk:震級1;"
+      "conv": "規模1=>zh-hk:震級1"
     },
     {
       "original": null,
-      "conv": "規模2=>zh-hk:震級2;"
+      "conv": "規模2=>zh-hk:震級2"
     },
     {
       "original": null,
-      "conv": "規模3=>zh-hk:震級3;"
+      "conv": "規模3=>zh-hk:震級3"
     },
     {
       "original": null,
-      "conv": "規模4=>zh-hk:震級4;"
+      "conv": "規模4=>zh-hk:震級4"
     },
     {
       "original": null,
-      "conv": "規模5=>zh-hk:震級5;"
+      "conv": "規模5=>zh-hk:震級5"
     },
     {
       "original": null,
-      "conv": "規模6=>zh-hk:震級6;"
+      "conv": "規模6=>zh-hk:震級6"
     },
     {
       "original": null,
-      "conv": "規模7=>zh-hk:震級7;"
+      "conv": "規模7=>zh-hk:震級7"
     },
     {
       "original": null,
-      "conv": "規模8=>zh-hk:震級8;"
+      "conv": "規模8=>zh-hk:震級8"
     },
     {
       "original": null,
-      "conv": "規模9=>zh-hk:震級9;"
+      "conv": "規模9=>zh-hk:震級9"
     },
     {
       "original": null,
-      "conv": "規模0=>zh-mo:震級0;"
+      "conv": "規模0=>zh-mo:震級0"
     },
     {
       "original": null,
-      "conv": "規模1=>zh-mo:震級1;"
+      "conv": "規模1=>zh-mo:震級1"
     },
     {
       "original": null,
-      "conv": "規模2=>zh-mo:震級2;"
+      "conv": "規模2=>zh-mo:震級2"
     },
     {
       "original": null,
-      "conv": "規模3=>zh-mo:震級3;"
+      "conv": "規模3=>zh-mo:震級3"
     },
     {
       "original": null,
-      "conv": "規模4=>zh-mo:震級4;"
+      "conv": "規模4=>zh-mo:震級4"
     },
     {
       "original": null,
-      "conv": "規模5=>zh-mo:震級5;"
+      "conv": "規模5=>zh-mo:震級5"
     },
     {
       "original": null,
-      "conv": "規模6=>zh-mo:震級6;"
+      "conv": "規模6=>zh-mo:震級6"
     },
     {
       "original": null,
-      "conv": "規模7=>zh-mo:震級7;"
+      "conv": "規模7=>zh-mo:震級7"
     },
     {
       "original": null,
-      "conv": "規模8=>zh-mo:震級8;"
+      "conv": "規模8=>zh-mo:震級8"
     },
     {
       "original": null,
-      "conv": "規模9=>zh-mo:震級9;"
+      "conv": "規模9=>zh-mo:震級9"
     }
   ]
 }

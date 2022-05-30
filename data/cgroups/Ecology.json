@@ -5,11 +5,11 @@
   "rules": [
     {
       "original": "association",
-      "conv": "群系=>zh-cn:群丛;"
+      "conv": "群系=>zh-cn:群丛"
     },
     {
       "original": "biota",
-      "conv": "zh-cn:生物区系;zh-tw:生物相;"
+      "conv": "zh-cn:生物区系;zh-tw:生物相"
     },
     {
       "original": "climax",
@@ -17,7 +17,7 @@
     },
     {
       "original": "community",
-      "conv": "群集=>zh-cn:群落;zh-hk:群落;"
+      "conv": "群集=>zh-cn:群落;zh-hk:群落"
     },
     {
       "original": "ecosystem",
@@ -25,11 +25,11 @@
     },
     {
       "original": "niche",
-      "conv": "zh-cn:生态位;zh-tw:生態席位;"
+      "conv": "zh-cn:生态位;zh-tw:生態席位"
     },
     {
       "original": "population",
-      "conv": "zh-cn:种群;zh-hk:種群;zh-tw:族群;"
+      "conv": "zh-cn:种群;zh-hk:種群;zh-tw:族群"
     },
     {
       "original": "succession",
@@ -37,1351 +37,1351 @@
     },
     {
       "original": "autotrophic",
-      "conv": "zh-cn:自养;zh-tw:自營;"
+      "conv": "zh-cn:自养;zh-tw:自營"
     },
     {
       "original": "autotrophic succession",
-      "conv": "zh-cn:自养演替;zh-tw:自營性消長;"
+      "conv": "zh-cn:自养演替;zh-tw:自營性消長"
     },
     {
       "original": "accidental species, incidental species, casual species",
-      "conv": "zh-cn:偶见种;zh-tw:偶生種;"
+      "conv": "zh-cn:偶见种;zh-tw:偶生種"
     },
     {
       "original": "density-dependent factor",
-      "conv": "zh-cn:密度制约因子;zh-tw:密度依變因子;"
+      "conv": "zh-cn:密度制约因子;zh-tw:密度依變因子"
     },
     {
       "original": "density-independent factor",
-      "conv": "zh-cn:非密度制约因子;zh-tw:密度無關因子;"
+      "conv": "zh-cn:非密度制约因子;zh-tw:密度無關因子"
     },
     {
       "original": "differential species",
-      "conv": "zh-cn:区别种;zh-tw:分化種;"
+      "conv": "zh-cn:区别种;zh-tw:分化種"
     },
     {
       "original": "founder effect",
-      "conv": "zh-cn:奠基者效应;zh-tw:先進者效應;"
+      "conv": "zh-cn:奠基者效应;zh-tw:先進者效應"
     },
     {
       "original": "heterotrophic",
-      "conv": "zh-cn:异养;zh-tw:異營;"
+      "conv": "zh-cn:异养;zh-tw:異營"
     },
     {
       "original": "heterotrophic succession",
-      "conv": "zh-cn:异养演替;zh-tw:異營性消長;"
+      "conv": "zh-cn:异养演替;zh-tw:異營性消長"
     },
     {
       "original": "intrinsic rate of increase",
-      "conv": "zh-cn:内禀增长率;zh-tw:內在增殖率;"
+      "conv": "zh-cn:内禀增长率;zh-tw:內在增殖率"
     },
     {
       "original": "niche breadth",
-      "conv": "zh-cn:生态位宽度;zh-tw:生態席位廣度;"
+      "conv": "zh-cn:生态位宽度;zh-tw:生態席位廣度"
     },
     {
       "original": "physiognomic classification of community",
-      "conv": "zh-cn:群落外貌分类;zh-tw:群集形相分類;"
+      "conv": "zh-cn:群落外貌分类;zh-tw:群集形相分類"
     },
     {
       "original": "pioneer community",
-      "conv": "zh-cn:先锋群落;zh-tw:先驅群落;"
+      "conv": "zh-cn:先锋群落;zh-tw:先驅群落"
     },
     {
       "original": "quantitative phytosociological character",
-      "conv": "zh-cn:植物群落数量特征;zh-tw:量化植物群落性狀;"
+      "conv": "zh-cn:植物群落数量特征;zh-tw:量化植物群落性狀"
     },
     {
       "original": "theory of natural selection",
-      "conv": "zh-cn:自然选择说;zh-tw:天擇說;"
+      "conv": "zh-cn:自然选择说;zh-tw:天擇說"
     },
     {
       "original": "Allen's rule",
-      "conv": "zh-cn:艾伦律;zh-tw:雅倫氏法則;"
+      "conv": "zh-cn:艾伦律;zh-tw:雅倫氏法則"
     },
     {
       "original": "Gloger's rule",
-      "conv": "zh-cn:格洛格尔律;zh-tw:格婁傑定則;"
+      "conv": "zh-cn:格洛格尔律;zh-tw:格婁傑定則"
     },
     {
       "original": "Jordan's rule",
-      "conv": "zh-cn:乔丹律;zh-tw:約旦氏法則;"
+      "conv": "zh-cn:乔丹律;zh-tw:約旦氏法則"
     },
     {
       "original": "Poisson distribution",
-      "conv": "zh-cn:泊松分布;zh-tw:卜瓦松分布;"
+      "conv": "zh-cn:泊松分布;zh-tw:卜瓦松分布"
     },
     {
       "original": "Shannon's index of diversity",
-      "conv": "zh-cn:香农多样性指数;zh-tw:夏儂歧異度指數;"
+      "conv": "zh-cn:香农多样性指数;zh-tw:夏儂歧異度指數"
     },
     {
       "original": "Simposon's index",
-      "conv": "zh-cn:辛普森指数;zh-tw:辛浦森指數;"
+      "conv": "zh-cn:辛普森指数;zh-tw:辛浦森指數"
     },
     {
       "original": "abundance",
-      "conv": "豐量=>zh-cn:丰度;"
+      "conv": "豐量=>zh-cn:丰度"
     },
     {
       "original": "abundance",
-      "conv": "多度=>zh-tw:豐度;"
+      "conv": "多度=>zh-tw:豐度"
     },
     {
       "original": "age class",
-      "conv": "年龄组=>zh-tw:齡級;"
+      "conv": "年龄组=>zh-tw:齡級"
     },
     {
       "original": "allochthonous species",
-      "conv": "外来种=>zh-tw:異源種;"
+      "conv": "外来种=>zh-tw:異源種"
     },
     {
       "original": "disturbance",
-      "conv": "干扰=>zh-tw:擾動;"
+      "conv": "干扰=>zh-tw:擾動"
     },
     {
       "original": "disturbance",
-      "conv": "失調=>zh-cn:扰动;"
+      "conv": "失調=>zh-cn:扰动"
     },
     {
       "original": "ecological balance sheet",
-      "conv": "生態均衡表=>zh-cn:生态平衡表;"
+      "conv": "生態均衡表=>zh-cn:生态平衡表"
     },
     {
       "original": "ecological equivalence",
-      "conv": "生态等价=>zh-tw:生態等位;"
+      "conv": "生态等价=>zh-tw:生態等位"
     },
     {
       "original": "ecological equivalence",
-      "conv": "生態等值=>zh-cn:生态等位;"
+      "conv": "生態等值=>zh-cn:生态等位"
     },
     {
       "original": "ecological threshold",
-      "conv": "生態限界=>zh-cn:生态阈值;"
+      "conv": "生態限界=>zh-cn:生态阈值"
     },
     {
       "original": "edaphogenic succession",
-      "conv": "土壤演替連續性=>zh-cn:土壤发生演替;"
+      "conv": "土壤演替連續性=>zh-cn:土壤发生演替"
     },
     {
       "original": "edaphogenic succession",
-      "conv": "土壤消長連續性=>zh-cn:土壤发生演替;"
+      "conv": "土壤消長連續性=>zh-cn:土壤发生演替"
     },
     {
       "original": "energy dissipation",
-      "conv": "能量消耗=>zh-cn:能量耗散;"
+      "conv": "能量消耗=>zh-cn:能量耗散"
     },
     {
       "original": "exploitation competition",
-      "conv": "剝削競爭=>zh-cn:利用性竞争;"
+      "conv": "剝削競爭=>zh-cn:利用性竞争"
     },
     {
       "original": "feedback",
-      "conv": "回饋=>zh-cn:反馈;"
+      "conv": "回饋=>zh-cn:反馈"
     },
     {
       "original": "feeding behavio(u)r",
-      "conv": "取食行為=>zh-cn:捕食行为;"
+      "conv": "取食行為=>zh-cn:捕食行为"
     },
     {
       "original": "1/f noise",
-      "conv": "zh-cn:1/f噪声;zh-tw:低頻雜訊;"
+      "conv": "zh-cn:1/f噪声;zh-tw:低頻雜訊"
     },
     {
       "original": "abandoned field",
-      "conv": "zh-cn:废弃农田;zh-tw:廢耕地;"
+      "conv": "zh-cn:废弃农田;zh-tw:廢耕地"
     },
     {
       "original": "abortion",
-      "conv": "敗育=>zh-cn:流产;"
+      "conv": "敗育=>zh-cn:流产"
     },
     {
       "original": "abortion",
-      "conv": "敗植=>zh-cn:流产;"
+      "conv": "敗植=>zh-cn:流产"
     },
     {
       "original": "abortion",
-      "conv": "流動=>zh-cn:流产;"
+      "conv": "流動=>zh-cn:流产"
     },
     {
       "original": "absorption band",
-      "conv": "zh-cn:吸收光带;zh-tw:吸收譜帶;"
+      "conv": "zh-cn:吸收光带;zh-tw:吸收譜帶"
     },
     {
       "original": "abundance/frequency ratio =A/F ratio",
-      "conv": "zh-cn:多度频度比;zh-tw:豐度-頻度比;"
+      "conv": "zh-cn:多度频度比;zh-tw:豐度-頻度比"
     },
     {
       "original": "abyssal",
-      "conv": "zh-cn:深海性;zh-tw:深海的;"
+      "conv": "zh-cn:深海性;zh-tw:深海的"
     },
     {
       "original": "abyssal fauna",
-      "conv": "zh-cn:深渊动物区系;zh-tw:深海動物相;"
+      "conv": "zh-cn:深渊动物区系;zh-tw:深海動物相"
     },
     {
       "original": "abyssal hill",
-      "conv": "zh-cn:深渊山丘;zh-tw:深海山丘;"
+      "conv": "zh-cn:深渊山丘;zh-tw:深海山丘"
     },
     {
       "original": "abyssal plain",
-      "conv": "zh-cn:深渊平原;zh-tw:深海平原;"
+      "conv": "zh-cn:深渊平原;zh-tw:深海平原"
     },
     {
       "original": "acarina pheromone",
-      "conv": "zh-cn:蜱螨信息素;zh-tw:蜱蟎費洛蒙;"
+      "conv": "zh-cn:蜱螨信息素;zh-tw:蜱蟎費洛蒙"
     },
     {
       "original": "acceptable daily intake",
-      "conv": "zh-cn:容许日摄入量;zh-tw:容許日攝取量;"
+      "conv": "zh-cn:容许日摄入量;zh-tw:容許日攝取量"
     },
     {
       "original": "accommodation",
-      "conv": "习服=>zh-tw:順應;"
+      "conv": "习服=>zh-tw:順應"
     },
     {
       "original": "achromogenic",
-      "conv": "zh-cn:不染色;zh-tw:不產色素;"
+      "conv": "zh-cn:不染色;zh-tw:不產色素"
     },
     {
       "original": "acid deposition",
-      "conv": "zh-cn:酸性沉降物;zh-tw:酸性沈降;"
+      "conv": "zh-cn:酸性沉降物;zh-tw:酸性沈降"
     },
     {
-      "original": "acid plant; oxylophytes",
-      "conv": "zh-cn:喜酸植物;zh-tw:適酸植物;"
+      "original": "acid plant;oxylophytes",
+      "conv": "zh-cn:喜酸植物;zh-tw:適酸植物"
     },
     {
       "original": "acidophilous indicator plant",
-      "conv": "zh-cn:酸性生境指示植物;zh-tw:酸性地指標植物;"
+      "conv": "zh-cn:酸性生境指示植物;zh-tw:酸性地指標植物"
     },
     {
       "original": "acidophilous vegetation",
-      "conv": "zh-cn:喜酸植被;zh-tw:嗜酸性植被;"
+      "conv": "zh-cn:喜酸植被;zh-tw:嗜酸性植被"
     },
     {
       "original": "acquired immunity",
-      "conv": "zh-cn:获得性免疫;zh-tw:後天性免疫;"
+      "conv": "zh-cn:获得性免疫;zh-tw:後天性免疫"
     },
     {
       "original": "acquired resistance",
-      "conv": "zh-cn:获得抗性;zh-tw:後天抗性;"
+      "conv": "zh-cn:获得抗性;zh-tw:後天抗性"
     },
     {
       "original": "actinometer",
-      "conv": "zh-cn:光能测定计;zh-tw:感光計;"
+      "conv": "zh-cn:光能测定计;zh-tw:感光計"
     },
     {
-      "original": "action threshold; control threshold",
-      "conv": "zh-cn:防治阈值;zh-tw:防治閥值;"
+      "original": "action threshold;control threshold",
+      "conv": "zh-cn:防治阈值;zh-tw:防治閥值"
     },
     {
       "original": "active acidity",
-      "conv": "有效酸度=>zh-tw:活性酸度;"
+      "conv": "有效酸度=>zh-tw:活性酸度"
     },
     {
       "original": "actual density",
-      "conv": "现存密度=>zh-tw:實測密度;"
+      "conv": "现存密度=>zh-tw:實測密度"
     },
     {
       "original": "actual vegetation",
-      "conv": "zh-cn:现实植被;zh-tw:現存植被;"
+      "conv": "zh-cn:现实植被;zh-tw:現存植被"
     },
     {
-      "original": "acute dose; acute dosage",
-      "conv": "zh-cn:急性致毒剂量;zh-tw:急性劑量;"
+      "original": "acute dose;acute dosage",
+      "conv": "zh-cn:急性致毒剂量;zh-tw:急性劑量"
     },
     {
       "original": "adaptability",
-      "conv": "zh-cn:适应性;zh-tw:適應力;"
+      "conv": "zh-cn:适应性;zh-tw:適應力"
     },
     {
       "original": "adaptive ecosystem management",
-      "conv": "zh-cn:可适应的生态系统管理;zh-tw:適應性生態系管理;"
+      "conv": "zh-cn:可适应的生态系统管理;zh-tw:適應性生態系管理"
     },
     {
       "original": "adaptive enzyme",
-      "conv": "zh-cn:适应酵;zh-tw:適應酵素;"
+      "conv": "zh-cn:适应酵;zh-tw:適應酵素"
     },
     {
       "original": "adaptive selection",
-      "conv": "zh-cn:适应性选择;zh-tw:適應選擇;"
+      "conv": "zh-cn:适应性选择;zh-tw:適應選擇"
     },
     {
       "original": "adhesive egg",
-      "conv": "zh-cn:黏性卵;zh-tw:黏著卵;"
+      "conv": "zh-cn:黏性卵;zh-tw:黏著卵"
     },
     {
       "original": "adsere",
-      "conv": "附加消長系列=>zh-cn:附加演替系列;"
+      "conv": "附加消長系列=>zh-cn:附加演替系列"
     },
     {
       "original": "advertising color",
-      "conv": "zh-cn:警戒色;zh-tw:宣告色;"
+      "conv": "zh-cn:警戒色;zh-tw:宣告色"
     },
     {
       "original": "aeolian landform",
-      "conv": "zh-cn:风成地形;zh-tw:風蝕地形;"
+      "conv": "zh-cn:风成地形;zh-tw:風蝕地形"
     },
     {
       "original": "aerial photography",
-      "conv": "zh-cn:航片;zh-tw:航空攝影術;"
+      "conv": "zh-cn:航片;zh-tw:航空攝影術"
     },
     {
       "original": "aerobic bacteria",
-      "conv": "好氧菌=>zh-cn:需氧性细菌;"
+      "conv": "好氧菌=>zh-cn:需氧性细菌"
     },
     {
       "original": "aerobic bacteria",
-      "conv": "需氧菌=>zh-cn:需氧性细菌;"
+      "conv": "需氧菌=>zh-cn:需氧性细菌"
     },
     {
       "original": "aerophytobiont",
-      "conv": "zh-cn:需气土壤生物;zh-tw:好氧性植物;"
+      "conv": "zh-cn:需气土壤生物;zh-tw:好氧性植物"
     },
     {
       "original": "aeroplanktophyte",
-      "conv": "zh-cn:大气浮游植物;zh-tw:空中浮游植物;"
+      "conv": "zh-cn:大气浮游植物;zh-tw:空中浮游植物"
     },
     {
       "original": "aerosol",
-      "conv": "氣膠=>zh-cn:气溶胶;"
+      "conv": "氣膠=>zh-cn:气溶胶"
     },
     {
       "original": "aestatifruticeta",
-      "conv": "zh-cn:夏绿灌木群落;zh-tw:夏綠灌叢;"
+      "conv": "zh-cn:夏绿灌木群落;zh-tw:夏綠灌叢"
     },
     {
       "original": "agamospecies",
-      "conv": "無配種=>zh-cn:无性种;"
+      "conv": "無配種=>zh-cn:无性种"
     },
     {
       "original": "age and area hypothesis",
-      "conv": "zh-cn:年龄面积假说;zh-tw:年代面積假說;"
+      "conv": "zh-cn:年龄面积假说;zh-tw:年代面積假說"
     },
     {
       "original": "age structure",
-      "conv": "齡級結構=>zh-cn:年龄结构;"
+      "conv": "齡級結構=>zh-cn:年龄结构"
     },
     {
       "original": "age-specific",
-      "conv": "zh-cn:特定年龄;zh-tw:年齡別;"
+      "conv": "zh-cn:特定年龄;zh-tw:年齡別"
     },
     {
       "original": "aggregation",
-      "conv": "聚合=>zh-cn:聚集;"
+      "conv": "聚合=>zh-cn:聚集"
     },
     {
       "original": "aggregation",
-      "conv": "族聚=>zh-cn:聚集;"
+      "conv": "族聚=>zh-cn:聚集"
     },
     {
       "original": "aggregation",
-      "conv": "群聚=>zh-cn:聚集;"
+      "conv": "群聚=>zh-cn:聚集"
     },
     {
       "original": "aggregation index",
-      "conv": "聚群指数=>zh-tw:聚集指數;"
+      "conv": "聚群指数=>zh-tw:聚集指數"
     },
     {
       "original": "aggregation pheromone",
-      "conv": "zh-cn:聚集信息素;zh-tw:聚集費洛蒙;"
+      "conv": "zh-cn:聚集信息素;zh-tw:聚集費洛蒙"
     },
     {
       "original": "aggregative response",
-      "conv": "zh-cn:聚群反应;zh-tw:聚集反應;"
+      "conv": "zh-cn:聚群反应;zh-tw:聚集反應"
     },
     {
       "original": "aggressive behavio[u]r",
-      "conv": "侵犯行为=>zh-tw:攻擊行為;"
+      "conv": "侵犯行为=>zh-tw:攻擊行為"
     },
     {
       "original": "agonistic behavio[u]r",
-      "conv": "zh-cn:对抗行为;zh-tw:敵對行為;"
+      "conv": "zh-cn:对抗行为;zh-tw:敵對行為"
     },
     {
       "original": "agrostology",
-      "conv": "草本学=>zh-tw:禾草學;"
+      "conv": "草本学=>zh-tw:禾草學"
     },
     {
       "original": "air dry weight",
-      "conv": "zh-cn:风干重;zh-tw:氣乾重;"
+      "conv": "zh-cn:风干重;zh-tw:氣乾重"
     },
     {
       "original": "air plankton",
-      "conv": "zh-cn:大气浮游生物;zh-tw:空中浮游生物;"
+      "conv": "zh-cn:大气浮游生物;zh-tw:空中浮游生物"
     },
     {
       "original": "albino",
-      "conv": "zh-cn:白化变种;zh-tw:白化種;"
+      "conv": "zh-cn:白化变种;zh-tw:白化種"
     },
     {
-      "original": "algal bloom; algae bloom",
-      "conv": "藻類繁生=>zh-cn:藻华;"
+      "original": "algal bloom;algae bloom",
+      "conv": "藻類繁生=>zh-cn:藻华"
     },
     {
-      "original": "algal bloom; algae bloom",
-      "conv": "藻类极盛繁殖=>zh-tw:藻華;"
+      "original": "algal bloom;algae bloom",
+      "conv": "藻类极盛繁殖=>zh-tw:藻華"
     },
     {
       "original": "algal bloom",
-      "conv": "zh-cn:水华;zh-tw:藻華;"
+      "conv": "zh-cn:水华;zh-tw:藻華"
     },
     {
       "original": "algivore",
-      "conv": "zh-cn:食藻动物;zh-tw:藻食性動物;"
+      "conv": "zh-cn:食藻动物;zh-tw:藻食性動物"
     },
     {
       "original": "alien invasive species",
-      "conv": "zh-cn:外来侵入种;zh-tw:外來入侵種;"
+      "conv": "zh-cn:外来侵入种;zh-tw:外來入侵種"
     },
     {
       "original": "alkaliotropism",
-      "conv": "zh-cn:向碱性;zh-tw:趨鹼性;"
+      "conv": "zh-cn:向碱性;zh-tw:趨鹼性"
     },
     {
       "original": "alkaliplant",
-      "conv": "zh-cn:碱性植物;zh-tw:耐鹼植物;"
+      "conv": "zh-cn:碱性植物;zh-tw:耐鹼植物"
     },
     {
       "original": "Allee's law",
-      "conv": "zh-cn:阿利律;zh-tw:阿利定律;"
+      "conv": "zh-cn:阿利律;zh-tw:阿利定律"
     },
     {
       "original": "allele",
-      "conv": "對偶基因=>zh-cn:等位基因;"
+      "conv": "對偶基因=>zh-cn:等位基因"
     },
     {
       "original": "allelochemical[s]",
-      "conv": "zh-cn:外源浮游生物;zh-tw:種間化學交感物質;"
+      "conv": "zh-cn:外源浮游生物;zh-tw:種間化學交感物質"
     },
     {
       "original": "allelomimetic behavio[u]r",
-      "conv": "zh-cn:多体拟态行为;zh-tw:個體間模仿行為;"
+      "conv": "zh-cn:多体拟态行为;zh-tw:個體間模仿行為"
     },
     {
       "original": "alliance",
-      "conv": "zh-cn:群属;zh-tw:群團;"
+      "conv": "zh-cn:群属;zh-tw:群團"
     },
     {
       "original": "allogenous flora",
-      "conv": "zh-cn:异源植物区系;zh-tw:殘存植物相;"
+      "conv": "zh-cn:异源植物区系;zh-tw:殘存植物相"
     },
     {
       "original": "alloparents",
-      "conv": "zh-cn:异双亲;zh-tw:非親扶養;"
+      "conv": "zh-cn:异双亲;zh-tw:非親扶養"
     },
     {
       "original": "allopatry",
-      "conv": "zh-cn:异域分布;zh-tw:異域性;"
+      "conv": "zh-cn:异域分布;zh-tw:異域性"
     },
     {
       "original": "allozyme",
-      "conv": "zh-cn:等位酶;zh-tw:異位酶;"
+      "conv": "zh-cn:等位酶;zh-tw:異位酶"
     },
     {
       "original": "alluvium",
-      "conv": "淤积层=>zh-tw:沖積層;"
+      "conv": "淤积层=>zh-tw:沖積層"
     },
     {
       "original": "alternate host",
-      "conv": "专主寄主=>zh-tw:交替寄主;"
+      "conv": "专主寄主=>zh-tw:交替寄主"
     },
     {
       "original": "alternative host",
-      "conv": "zh-cn:轮换寄主;zh-tw:替代寄主;"
+      "conv": "zh-cn:轮换寄主;zh-tw:替代寄主"
     },
     {
       "original": "altherbosa",
-      "conv": "zh-cn:高草群落;zh-tw:高莖草本植被;"
+      "conv": "zh-cn:高草群落;zh-tw:高莖草本植被"
     },
     {
       "original": "altimeter",
-      "conv": "測高儀=>zh-cn:高度计;"
+      "conv": "測高儀=>zh-cn:高度计"
     },
     {
       "original": "altimeter",
-      "conv": "海拔計=>zh-cn:高度计;"
+      "conv": "海拔計=>zh-cn:高度计"
     },
     {
       "original": "altitudinal vicariad",
-      "conv": "海拔高度替代种=>zh-tw:垂直分布替代種;"
+      "conv": "海拔高度替代种=>zh-tw:垂直分布替代種"
     },
     {
-      "original": "altitudinal zone; altitudinal belt",
-      "conv": "垂直分布带=>zh-tw:垂直帶;"
+      "original": "altitudinal zone;altitudinal belt",
+      "conv": "垂直分布带=>zh-tw:垂直帶"
     },
     {
       "original": "amphitoky",
-      "conv": "zh-cn:产两性单性生殖;zh-tw:產雙性孤雌生殖;"
+      "conv": "zh-cn:产两性单性生殖;zh-tw:產雙性孤雌生殖"
     },
     {
       "original": "amplified fragment length polymorphism",
-      "conv": "zh-cn:扩增片段长度多态性;zh-tw:擴增片段長度多型性;"
+      "conv": "zh-cn:扩增片段长度多态性;zh-tw:擴增片段長度多型性"
     },
     {
       "original": "anabolism",
-      "conv": "同化代謝=>zh-cn:合成代谢;"
+      "conv": "同化代謝=>zh-cn:合成代谢"
     },
     {
       "original": "anagenesis",
-      "conv": "zh-cn:进化;zh-tw:前進演化;"
+      "conv": "zh-cn:进化;zh-tw:前進演化"
     },
     {
       "original": "analogy",
-      "conv": "zh-cn:同功器官;zh-tw:同功性;"
+      "conv": "zh-cn:同功器官;zh-tw:同功性"
     },
     {
       "original": "analysis of covariance",
-      "conv": "zh-cn:协方差分析;zh-tw:變積分析;"
+      "conv": "zh-cn:协方差分析;zh-tw:變積分析"
     },
     {
       "original": "analysis of variance",
-      "conv": "zh-cn:方差分析;zh-tw:變方分析;"
+      "conv": "zh-cn:方差分析;zh-tw:變方分析"
     },
     {
       "original": "andosol",
-      "conv": "zh-cn:钙铁榴石;zh-tw:暗色火山灰土;"
+      "conv": "zh-cn:钙铁榴石;zh-tw:暗色火山灰土"
     },
     {
       "original": "anemometer",
-      "conv": "风力计=>zh-tw:風速計;"
+      "conv": "风力计=>zh-tw:風速計"
     },
     {
       "original": "angeosere",
-      "conv": "新生代植物消長系列=>zh-cn:新生代植物演替系列;"
+      "conv": "新生代植物消長系列=>zh-cn:新生代植物演替系列"
     },
     {
       "original": "annual heat budget",
-      "conv": "年热能收支=>zh-cn:年熱收支;"
+      "conv": "年热能收支=>zh-cn:年熱收支"
     },
     {
       "original": "annuation",
-      "conv": "周年变化=>zh-cn:年周期變動;"
+      "conv": "周年变化=>zh-cn:年周期變動"
     },
     {
       "original": "anthropophyte",
-      "conv": "zh-cn:无意人为引入植物;zh-tw:人為引進植物;"
+      "conv": "zh-cn:无意人为引入植物;zh-tw:人為引進植物"
     },
     {
       "original": "anti-feedant",
-      "conv": "zh-cn:拒食剂;zh-tw:抗食物質;"
+      "conv": "zh-cn:拒食剂;zh-tw:抗食物質"
     },
     {
       "original": "aperiodicity",
-      "conv": "zh-cn:不定期;zh-tw:非週期性;"
+      "conv": "zh-cn:不定期;zh-tw:非週期性"
     },
     {
       "original": "apneumone",
-      "conv": "zh-cn:偏利素;zh-tw:腐物激素;"
+      "conv": "zh-cn:偏利素;zh-tw:腐物激素"
     },
     {
       "original": "apomorphy",
-      "conv": "离征=>zh-tw:衍徵;"
+      "conv": "离征=>zh-tw:衍徵"
     },
     {
       "original": "apparent competition",
-      "conv": "似然竞争=>zh-tw:表觀競爭;"
+      "conv": "似然竞争=>zh-tw:表觀競爭"
     },
     {
       "original": "apparent competition",
-      "conv": "外顯競爭=>zh-cn:表观竞争;"
+      "conv": "外顯競爭=>zh-cn:表观竞争"
     },
     {
       "original": "apparent photosynthesis",
-      "conv": "净光合=>zh-tw:表觀光合作用;"
+      "conv": "净光合=>zh-tw:表觀光合作用"
     },
     {
       "original": "aquifuge",
-      "conv": "非透水層=>zh-cn:不透水层;"
+      "conv": "非透水層=>zh-cn:不透水层"
     },
     {
       "original": "aquiherbosa",
-      "conv": "池藻草本群落=>zh-tw:水生草本群落;"
+      "conv": "池藻草本群落=>zh-tw:水生草本群落"
     },
     {
       "original": "Arcto-tertiary flora",
-      "conv": "zh-cn:北极第三纪植物区系;zh-tw:北極地第三紀植物相;"
+      "conv": "zh-cn:北极第三纪植物区系;zh-tw:北極地第三紀植物相"
     },
     {
       "original": "Arctogaea",
-      "conv": "zh-cn:北界;zh-tw:北陸界;"
+      "conv": "zh-cn:北界;zh-tw:北陸界"
     },
     {
       "original": "arid soil",
-      "conv": "zh-cn:干旱土;zh-tw:旱境土;"
+      "conv": "zh-cn:干旱土;zh-tw:旱境土"
     },
     {
       "original": "arrestant sex pheromone",
-      "conv": "zh-cn:滞留性信息素;zh-tw:阻礙性費洛蒙;"
+      "conv": "zh-cn:滞留性信息素;zh-tw:阻礙性費洛蒙"
     },
     {
       "original": "aspergillosis",
-      "conv": "zh-cn:曲霉病;zh-tw:麴黴病;"
+      "conv": "zh-cn:曲霉病;zh-tw:麴黴病"
     },
     {
       "original": "assimilation/respiration ratio",
-      "conv": "zh-cn:同化呼吸比;zh-tw:同化呼吸量比;"
+      "conv": "zh-cn:同化呼吸比;zh-tw:同化呼吸量比"
     },
     {
       "original": "associule",
-      "conv": "zh-cn:演替系列微群落;zh-tw:不穩定微生物群系;"
+      "conv": "zh-cn:演替系列微群落;zh-tw:不穩定微生物群系"
     },
     {
       "original": "assortative mating",
-      "conv": "選擇性交配=>zh-cn:选型交配;"
+      "conv": "選擇性交配=>zh-cn:选型交配"
     },
     {
       "original": "assortative mating",
-      "conv": "同類交配=>zh-cn:选型交配;"
+      "conv": "同類交配=>zh-cn:选型交配"
     },
     {
       "original": "assor[ta]tive breeding",
-      "conv": "zh-cn:选型育种;zh-tw:同類育種;"
+      "conv": "zh-cn:选型育种;zh-tw:同類育種"
     },
     {
       "original": "atmometer",
-      "conv": "汽化表=>zh-tw:蒸發計;"
+      "conv": "汽化表=>zh-tw:蒸發計"
     },
     {
       "original": "attractant",
-      "conv": "zh-cn:引诱剂;zh-tw:誘引物質;"
+      "conv": "zh-cn:引诱剂;zh-tw:誘引物質"
     },
     {
       "original": "attractor",
-      "conv": "zh-cn:吸引子;zh-tw:吸子;"
+      "conv": "zh-cn:吸引子;zh-tw:吸子"
     },
     {
       "original": "Australasia",
-      "conv": "zh-cn:澳大拉西亚;zh-tw:澳洲大陸區;"
+      "conv": "zh-cn:澳大拉西亚;zh-tw:澳洲大陸區"
     },
     {
       "original": "autochory",
-      "conv": "zh-cn:自动散播;zh-tw:自動散布;"
+      "conv": "zh-cn:自动散播;zh-tw:自動散布"
     },
     {
       "original": "autoecism",
-      "conv": "zh-cn:单主寄生;zh-tw:同主寄生;"
+      "conv": "zh-cn:单主寄生;zh-tw:同主寄生"
     },
     {
       "original": "autopelagic plankton",
-      "conv": "zh-cn:上层浮游生物;zh-tw:表層性浮游生物;"
+      "conv": "zh-cn:上层浮游生物;zh-tw:表層性浮游生物"
     },
     {
       "original": "auxiliary energy",
-      "conv": "zh-cn:辅助能;zh-tw:補助熱量;"
+      "conv": "zh-cn:辅助能;zh-tw:補助熱量"
     },
     {
       "original": "avifauna",
-      "conv": "zh-cn:鸟类区系;zh-tw:鳥類相;"
+      "conv": "zh-cn:鸟类区系;zh-tw:鳥類相"
     },
     {
       "original": "back shore",
-      "conv": "後灘=>zh-cn:后滨;"
+      "conv": "後灘=>zh-cn:后滨"
     },
     {
       "original": "balanced hypothesis",
-      "conv": "zh-cn:平衡假说;zh-tw:均衡假說;"
+      "conv": "zh-cn:平衡假说;zh-tw:均衡假說"
     },
     {
       "original": "balanced polymorphism",
-      "conv": "均衡多型性=>zh-cn:平衡多态现象;"
+      "conv": "均衡多型性=>zh-cn:平衡多态现象"
     },
     {
       "original": "Balanus zone",
-      "conv": "zh-cn:藤壶区;zh-tw:巨藤壺區;"
+      "conv": "zh-cn:藤壶区;zh-tw:巨藤壺區"
     },
     {
       "original": "barrier beach",
-      "conv": "zh-cn:沿岸沙滩;zh-tw:屏障沙灘;"
+      "conv": "zh-cn:沿岸沙滩;zh-tw:屏障沙灘"
     },
     {
       "original": "base exchange capacity",
-      "conv": "zh-cn:阳离子交换能力;zh-tw:鹽基置換量;"
+      "conv": "zh-cn:阳离子交换能力;zh-tw:鹽基置換量"
     },
     {
       "original": "Batesian mimicry",
-      "conv": "贝茨拟态=>zh-tw:貝氏擬態;"
+      "conv": "贝茨拟态=>zh-tw:貝氏擬態"
     },
     {
       "original": "Batesian mimicry",
-      "conv": "警戒拟态=>zh-tw:貝氏擬態;"
+      "conv": "警戒拟态=>zh-tw:貝氏擬態"
     },
     {
       "original": "bathyscaph",
-      "conv": "zh-cn:深海潜水器;zh-tw:深海潛水艇;"
+      "conv": "zh-cn:深海潜水器;zh-tw:深海潛水艇"
     },
     {
       "original": "beaver",
-      "conv": "zh-cn:海狸;zh-tw:河狸;"
+      "conv": "zh-cn:海狸;zh-tw:河狸"
     },
     {
       "original": "Beer-Lambert's rule",
-      "conv": "zh-cn:比尔律;zh-tw:貝爾－蘭伯特法則;"
+      "conv": "zh-cn:比尔律;zh-tw:貝爾－蘭伯特法則"
     },
     {
       "original": "behavio[u]ral dimorphism",
-      "conv": "zh-cn:行为二态现象;zh-tw:行為雙型性;"
+      "conv": "zh-cn:行为二态现象;zh-tw:行為雙型性"
     },
     {
       "original": "behavio[u]ral polymorphism",
-      "conv": "zh-cn:行为多态现象;zh-tw:行為多型性;"
+      "conv": "zh-cn:行为多态现象;zh-tw:行為多型性"
     },
     {
       "original": "benthivores",
-      "conv": "zh-cn:食底栖生物动物;zh-tw:底食者;"
+      "conv": "zh-cn:食底栖生物动物;zh-tw:底食者"
     },
     {
-      "original": "benthophyte; phytobenthos",
-      "conv": "zh-cn:水底植物;zh-tw:底棲植物;"
+      "original": "benthophyte;phytobenthos",
+      "conv": "zh-cn:水底植物;zh-tw:底棲植物"
     },
     {
       "original": "benthos",
-      "conv": "水底生物=>zh-tw:底棲生物;"
+      "conv": "水底生物=>zh-tw:底棲生物"
     },
     {
       "original": "benthos feeder",
-      "conv": "zh-cn:食底栖生物者;zh-tw:攝食底棲生物者;"
+      "conv": "zh-cn:食底栖生物者;zh-tw:攝食底棲生物者"
     },
     {
       "original": "Bergman`s rule",
-      "conv": "伯格曼律=>zh-tw:貝格曼律;"
+      "conv": "伯格曼律=>zh-tw:貝格曼律"
     },
     {
       "original": "Bering land bridge",
-      "conv": "zh-cn:白令桥;zh-tw:白令陸橋;"
+      "conv": "zh-cn:白令桥;zh-tw:白令陸橋"
     },
     {
       "original": "bet hedging",
-      "conv": "zh-cn:两面下注;zh-tw:分散風險;"
+      "conv": "zh-cn:两面下注;zh-tw:分散風險"
     },
     {
       "original": "bimodal distribution",
-      "conv": "二态分布=>zh-tw:雙峰分布;"
+      "conv": "二态分布=>zh-tw:雙峰分布"
     },
     {
       "original": "bioaccumulation",
-      "conv": "zh-cn:生物积累;zh-tw:生物累積;"
+      "conv": "zh-cn:生物积累;zh-tw:生物累積"
     },
     {
       "original": "bioavailability",
-      "conv": "生物可利用性=>zh-tw:生物有效性;"
+      "conv": "生物可利用性=>zh-tw:生物有效性"
     },
     {
       "original": "biodegradability",
-      "conv": "zh-cn:生物可降解性;zh-tw:生物降解力;"
+      "conv": "zh-cn:生物可降解性;zh-tw:生物降解力"
     },
     {
       "original": "biodeterioration",
-      "conv": "zh-cn:生物退化;zh-tw:生物衰退;"
+      "conv": "zh-cn:生物退化;zh-tw:生物衰退"
     },
     {
       "original": "bioenergetics",
-      "conv": "生物能学=>zh-tw:生物能量學;"
+      "conv": "生物能学=>zh-tw:生物能量學"
     },
     {
       "original": "biofacies",
-      "conv": "zh-cn:生物相;zh-tw:化石相;"
+      "conv": "zh-cn:生物相;zh-tw:化石相"
     },
     {
       "original": "biogeochemical cycle",
-      "conv": "zh-cn:生物地理化学循环;zh-tw:生地化循環;"
+      "conv": "zh-cn:生物地理化学循环;zh-tw:生地化循環"
     },
     {
       "original": "biogeochemistry",
-      "conv": "zh-cn:生物地球化学;zh-tw:生物地理化學;"
+      "conv": "zh-cn:生物地球化学;zh-tw:生物地理化學"
     },
     {
-      "original": "bioindicator; indicator organism",
-      "conv": "zh-cn:指示生物;zh-tw:生物指標;"
+      "original": "bioindicator;indicator organism",
+      "conv": "zh-cn:指示生物;zh-tw:生物指標"
     },
     {
       "original": "biological accumulation",
-      "conv": "zh-cn:生物积累作用;zh-tw:生物性累積;"
+      "conv": "zh-cn:生物积累作用;zh-tw:生物性累積"
     },
     {
       "original": "biological assay",
-      "conv": "zh-cn:生物测定;zh-tw:生物檢定;"
+      "conv": "zh-cn:生物测定;zh-tw:生物檢定"
     },
     {
       "original": "biological conditioning",
-      "conv": "zh-cn:生物的环境调节;zh-tw:生物制約;"
+      "conv": "zh-cn:生物的环境调节;zh-tw:生物制約"
     },
     {
       "original": "biological contact oxidation reactor",
-      "conv": "zh-cn:生物接触氧化反应器;zh-tw:生物接觸氧化槽;"
+      "conv": "zh-cn:生物接触氧化反应器;zh-tw:生物接觸氧化槽"
     },
     {
       "original": "biological half-life",
-      "conv": "生物半寿期=>zh-tw:生物半衰期;"
+      "conv": "生物半寿期=>zh-tw:生物半衰期"
     },
     {
       "original": "biological rhythm",
-      "conv": "zh-cn:生物节律;zh-tw:生物律動;"
+      "conv": "zh-cn:生物节律;zh-tw:生物律動"
     },
     {
-      "original": "biomass fuel; bio-fuel",
-      "conv": "zh-cn:生物质燃料;zh-tw:生質能;"
+      "original": "biomass fuel;bio-fuel",
+      "conv": "zh-cn:生物质燃料;zh-tw:生質能"
     },
     {
       "original": "bioremediation",
-      "conv": "生物除污=>zh-tw:生物修復;"
+      "conv": "生物除污=>zh-tw:生物修復"
     },
     {
       "original": "bioscrubber",
-      "conv": "生物洗滌塔=>zh-cn:生物涤气器;"
+      "conv": "生物洗滌塔=>zh-cn:生物涤气器"
     },
     {
       "original": "biosparging process",
-      "conv": "生物氣體注入法=>zh-cn:生物注气法;"
+      "conv": "生物氣體注入法=>zh-cn:生物注气法"
     },
     {
       "original": "biostratigraphy",
-      "conv": "zh-cn:生物地层学;zh-tw:生物化石層序學;"
+      "conv": "zh-cn:生物地层学;zh-tw:生物化石層序學"
     },
     {
       "original": "biostratonomy",
-      "conv": "zh-cn:生物层积学;zh-tw:生物化石分布學;"
+      "conv": "zh-cn:生物层积学;zh-tw:生物化石分布學"
     },
     {
       "original": "biotic pressure",
-      "conv": "生物扩张力=>zh-tw:生物壓力;"
+      "conv": "生物扩张力=>zh-tw:生物壓力"
     },
     {
       "original": "biozone",
-      "conv": "生物地層=>zh-cn:生物带;"
+      "conv": "生物地層=>zh-cn:生物带"
     },
     {
       "original": "bipolar distribution",
-      "conv": "zh-cn:双峰分布;zh-tw:雙極分布;"
+      "conv": "zh-cn:双峰分布;zh-tw:雙極分布"
     },
     {
       "original": "bird-banding",
-      "conv": "zh-cn:环志;zh-tw:鳥類標誌法;"
+      "conv": "zh-cn:环志;zh-tw:鳥類標誌法"
     },
     {
       "original": "birth/death ratio",
-      "conv": "zh-cn:生死比率;zh-tw:出生/死亡比率;"
+      "conv": "zh-cn:生死比率;zh-tw:出生/死亡比率"
     },
     {
       "original": "bisect method",
-      "conv": "zh-cn:剖面法;zh-tw:斷面法;"
+      "conv": "zh-cn:剖面法;zh-tw:斷面法"
     },
     {
       "original": "bisexual group",
-      "conv": "zh-cn:两性群;zh-tw:雙性群;"
+      "conv": "zh-cn:两性群;zh-tw:雙性群"
     },
     {
       "original": "black carbon",
-      "conv": "zh-cn:炭黑;zh-tw:黑碳;"
+      "conv": "zh-cn:炭黑;zh-tw:黑碳"
     },
     {
       "original": "blank value",
-      "conv": "空白試驗值=>zh-cn:对照值;"
+      "conv": "空白試驗值=>zh-cn:对照值"
     },
     {
       "original": "bolochory",
-      "conv": "zh-cn:推力传播;zh-tw:裂開散布;"
+      "conv": "zh-cn:推力传播;zh-tw:裂開散布"
     },
     {
       "original": "bombykol",
-      "conv": "zh-cn:蚕蛾性诱醇;zh-tw:雌蠶蛾性費洛蒙;"
+      "conv": "zh-cn:蚕蛾性诱醇;zh-tw:雌蠶蛾性費洛蒙"
     },
     {
       "original": "boring organism",
-      "conv": "钻蚀生物=>zh-tw:鑽孔生物;"
+      "conv": "钻蚀生物=>zh-tw:鑽孔生物"
     },
     {
       "original": "bottom-up control",
-      "conv": "zh-cn:上行控制;zh-tw:由下而上的控制;"
+      "conv": "zh-cn:上行控制;zh-tw:由下而上的控制"
     },
     {
       "original": "bound water",
-      "conv": "zh-cn:束缚水;zh-tw:結合水;"
+      "conv": "zh-cn:束缚水;zh-tw:結合水"
     },
     {
       "original": "brachiation",
-      "conv": "zh-cn:吊行运动;zh-tw:擺盪行為;"
+      "conv": "zh-cn:吊行运动;zh-tw:擺盪行為"
     },
     {
       "original": "breeding success [rate]",
-      "conv": "繁殖成效=>zh-tw:繁殖成功率;"
+      "conv": "繁殖成效=>zh-tw:繁殖成功率"
     },
     {
       "original": "breeding system",
-      "conv": "zh-cn:繁育系统;zh-tw:繁殖系統;"
+      "conv": "zh-cn:繁育系统;zh-tw:繁殖系統"
     },
     {
       "original": "brine water",
-      "conv": "zh-cn:卤水;zh-tw:富鹽水;"
+      "conv": "zh-cn:卤水;zh-tw:富鹽水"
     },
     {
       "original": "broad-sclerophyll plant",
-      "conv": "zh-cn:宽硬叶植物;zh-tw:闊葉硬葉植物;"
+      "conv": "zh-cn:宽硬叶植物;zh-tw:闊葉硬葉植物"
     },
     {
       "original": "brood parasitism",
-      "conv": "托卵寄生=>zh-cn:巢寄生;"
+      "conv": "托卵寄生=>zh-cn:巢寄生"
     },
     {
       "original": "brown soil",
-      "conv": "zh-cn:棕壤;zh-tw:棕土;"
+      "conv": "zh-cn:棕壤;zh-tw:棕土"
     },
     {
       "original": "bryocoenology",
-      "conv": "zh-cn:苔藓群落学;zh-tw:蘚苔群落學;"
+      "conv": "zh-cn:苔藓群落学;zh-tw:蘚苔群落學"
     },
     {
       "original": "bulk specific gravity",
-      "conv": "zh-cn:容重;zh-tw:容積比重;"
+      "conv": "zh-cn:容重;zh-tw:容積比重"
     },
     {
       "original": "calcifuge plant",
-      "conv": "嫌石灰植物=>zh-cn:嫌钙植物;"
+      "conv": "嫌石灰植物=>zh-cn:嫌钙植物"
     },
     {
       "original": "Calvin cycle",
-      "conv": "zh-cn:开放群落;zh-tw:卡爾文循環;"
+      "conv": "zh-cn:开放群落;zh-tw:卡爾文循環"
     },
     {
       "original": "campo cerrado",
-      "conv": "zh-cn:巴西疏林草原;zh-tw:巴西稀樹草原;"
+      "conv": "zh-cn:巴西疏林草原;zh-tw:巴西稀樹草原"
     },
     {
       "original": "campo sujo",
-      "conv": "zh-cn:巴西稀树草原;zh-tw:坎波草原;"
+      "conv": "zh-cn:巴西稀树草原;zh-tw:坎波草原"
     },
     {
       "original": "canopy cover",
-      "conv": "zh-cn:林冠盖度;zh-tw:冠層覆蓋度;"
+      "conv": "zh-cn:林冠盖度;zh-tw:冠層覆蓋度"
     },
     {
       "original": "capoeira",
-      "conv": "zh-cn:巴西热带雨林次生林;zh-tw:卡波埃拉林;"
+      "conv": "zh-cn:巴西热带雨林次生林;zh-tw:卡波埃拉林"
     },
     {
       "original": "captive breeding",
-      "conv": "zh-cn:人工养殖;zh-tw:圈養繁殖;"
+      "conv": "zh-cn:人工养殖;zh-tw:圈養繁殖"
     },
     {
       "original": "carbon dioxide enrichment",
-      "conv": "zh-cn:二氧化碳加浓;zh-tw:二氧化碳富化;"
+      "conv": "zh-cn:二氧化碳加浓;zh-tw:二氧化碳富化"
     },
     {
       "original": "carbon sequestration",
-      "conv": "zh-cn:碳固存;zh-tw:碳封存;"
+      "conv": "zh-cn:碳固存;zh-tw:碳封存"
     },
     {
       "original": "cascade model",
-      "conv": "zh-cn:级联模型;zh-tw:瀑布模式;"
+      "conv": "zh-cn:级联模型;zh-tw:瀑布模式"
     },
     {
       "original": "caste differentiation",
-      "conv": "zh-cn:等级分化;zh-tw:階級分化;"
+      "conv": "zh-cn:等级分化;zh-tw:階級分化"
     },
     {
       "original": "catch curve",
-      "conv": "zh-cn:捕捞曲线;zh-tw:漁獲曲線;"
+      "conv": "zh-cn:捕捞曲线;zh-tw:漁獲曲線"
     },
     {
       "original": "Catch Per Unit Effort",
-      "conv": "單位努力漁獲量=>zh-cn:单位努力捕获量;"
+      "conv": "單位努力漁獲量=>zh-cn:单位努力捕获量"
     },
     {
       "original": "Catch Per Unit Effort",
-      "conv": "单位捕捞努力量渔获量=>zh-tw:單位努力捕獲量;"
+      "conv": "单位捕捞努力量渔获量=>zh-tw:單位努力捕獲量"
     },
     {
       "original": "cation exchange capacity",
-      "conv": "zh-cn:阳离子交换量;zh-tw:陽離子置換量;"
+      "conv": "zh-cn:阳离子交换量;zh-tw:陽離子置換量"
     },
     {
       "original": "cauliflory",
-      "conv": "幹生花現象=>zh-cn:茎花现象;"
+      "conv": "幹生花現象=>zh-cn:茎花现象"
     },
     {
       "original": "caustobiolith",
-      "conv": "可燃性有机岩=>zh-tw:可燃性生物岩;"
+      "conv": "可燃性有机岩=>zh-tw:可燃性生物岩"
     },
     {
       "original": "cavernicolous animal",
-      "conv": "zh-cn:穴居动物;zh-tw:穴棲動物;"
+      "conv": "zh-cn:穴居动物;zh-tw:穴棲動物"
     },
     {
       "original": "cavitation",
-      "conv": "zh-cn:气穴现象;zh-tw:穴蝕現象;"
+      "conv": "zh-cn:气穴现象;zh-tw:穴蝕現象"
     },
     {
       "original": "characteristic animal",
-      "conv": "zh-cn:特征动物;zh-tw:示徵動物;"
+      "conv": "zh-cn:特征动物;zh-tw:示徵動物"
     },
     {
       "original": "chart quadrat",
-      "conv": "zh-cn:图解样方;zh-tw:圖示樣方;"
+      "conv": "zh-cn:图解样方;zh-tw:圖示樣方"
     },
     {
       "original": "chasmophyte",
-      "conv": "zh-cn:石隙植物;zh-tw:岩隙植物;"
+      "conv": "zh-cn:石隙植物;zh-tw:岩隙植物"
     },
     {
       "original": "check dam",
-      "conv": "zh-cn:谷坊;zh-tw:攔砂壩;"
+      "conv": "zh-cn:谷坊;zh-tw:攔砂壩"
     },
     {
       "original": "chlorofluorocarbon",
-      "conv": "zh-cn:氯氟烃;zh-tw:氟氯碳化物;"
+      "conv": "zh-cn:氯氟烃;zh-tw:氟氯碳化物"
     },
     {
       "original": "chlorosity",
-      "conv": "氯容=>zh-cn:体积氯度;"
+      "conv": "氯容=>zh-cn:体积氯度"
     },
     {
       "original": "chromatic adaptation",
-      "conv": "zh-cn:色素适应;zh-tw:色彩適應;"
+      "conv": "zh-cn:色素适应;zh-tw:色彩適應"
     },
     {
       "original": "circadian rhythm",
-      "conv": "zh-cn:日周性律動;zh-tw:昼夜节律;"
+      "conv": "zh-cn:日周性律動;zh-tw:昼夜节律"
     },
     {
       "original": "circle of vegetation",
-      "conv": "zh-cn:植被域;zh-tw:植被圈;"
+      "conv": "zh-cn:植被域;zh-tw:植被圈"
     },
     {
       "original": "circuity",
-      "conv": "zh-cn:连通性;zh-tw:環通度;"
+      "conv": "zh-cn:连通性;zh-tw:環通度"
     },
     {
       "original": "circulation of closed system",
-      "conv": "zh-cn:密闭系统循环;zh-tw:閉鎖系循環;"
+      "conv": "zh-cn:密闭系统循环;zh-tw:閉鎖系循環"
     },
     {
       "original": "circulation of open system",
-      "conv": "zh-cn:开放系统循环;zh-tw:開放系循環;"
+      "conv": "zh-cn:开放系统循环;zh-tw:開放系循環"
     },
     {
       "original": "cladogenesis",
-      "conv": "zh-cn:分支进化;zh-tw:支系發生;"
+      "conv": "zh-cn:分支进化;zh-tw:支系發生"
     },
     {
       "original": "cladogenic adaptation",
-      "conv": "支系內適應=>zh-cn:趋异适应;"
+      "conv": "支系內適應=>zh-cn:趋异适应"
     },
     {
       "original": "climate diagram",
-      "conv": "zh-cn:生态气候图解;zh-tw:氣候特性圖;"
+      "conv": "zh-cn:生态气候图解;zh-tw:氣候特性圖"
     },
     {
       "original": "climatic change",
-      "conv": "zh-cn:气候变化;zh-tw:氣候變遷;"
+      "conv": "zh-cn:气候变化;zh-tw:氣候變遷"
     },
     {
       "original": "climatic climax",
-      "conv": "zh-cn:气候顶极群落;zh-tw:氣候極盛相;"
+      "conv": "zh-cn:气候顶极群落;zh-tw:氣候極盛相"
     },
     {
       "original": "climatic cycle",
-      "conv": "气候循环=>zh-tw:氣候周期;"
+      "conv": "气候循环=>zh-tw:氣候周期"
     },
     {
       "original": "climatic race",
-      "conv": "zh-cn:气候宗;zh-tw:氣候性品種;"
+      "conv": "zh-cn:气候宗;zh-tw:氣候性品種"
     },
     {
       "original": "climax adaptation number",
-      "conv": "zh-cn:顶级适应数;zh-tw:極盛相適應序數;"
+      "conv": "zh-cn:顶级适应数;zh-tw:極盛相適應序數"
     },
     {
       "original": "climax community",
-      "conv": "zh-cn:顶极群落;zh-tw:極相群集;"
+      "conv": "zh-cn:顶极群落;zh-tw:極相群集"
     },
     {
       "original": "climax species",
-      "conv": "zh-cn:顶级种;zh-tw:極相種;"
+      "conv": "zh-cn:顶级种;zh-tw:極相種"
     },
     {
       "original": "clinodeme",
-      "conv": "zh-cn:渐变混交群;zh-tw:漸變亞族群;"
+      "conv": "zh-cn:渐变混交群;zh-tw:漸變亞族群"
     },
     {
       "original": "clonal population",
-      "conv": "zh-cn:无性系种群;zh-tw:無性繁殖族群;"
+      "conv": "zh-cn:无性系种群;zh-tw:無性繁殖族群"
     },
     {
       "original": "clone plant",
-      "conv": "zh-cn:克隆植物;zh-tw:殖株植物;"
+      "conv": "zh-cn:克隆植物;zh-tw:殖株植物"
     },
     {
       "original": "cluster sampling",
-      "conv": "zh-cn:整群抽样;zh-tw:集體取樣;"
+      "conv": "zh-cn:整群抽样;zh-tw:集體取樣"
     },
     {
       "original": "coarse-grained landscape",
-      "conv": "zh-cn:粗粒景观;zh-tw:粗粒地景;"
+      "conv": "zh-cn:粗粒景观;zh-tw:粗粒地景"
     },
     {
       "original": "coastal community",
-      "conv": "zh-cn:海岸群落;zh-tw:沿岸群集;"
+      "conv": "zh-cn:海岸群落;zh-tw:沿岸群集"
     },
     {
       "original": "coastal desert",
-      "conv": "zh-cn:沿海沙漠;zh-tw:沿岸沙漠;"
+      "conv": "zh-cn:沿海沙漠;zh-tw:沿岸沙漠"
     },
     {
       "original": "coastal fishery",
-      "conv": "zh-cn:沿海渔业;zh-tw:沿岸漁業;"
+      "conv": "zh-cn:沿海渔业;zh-tw:沿岸漁業"
     },
     {
       "original": "coastal swamp",
-      "conv": "zh-cn:沿海沼泽地;zh-tw:沿岸林澤;"
+      "conv": "zh-cn:沿海沼泽地;zh-tw:沿岸林澤"
     },
     {
       "original": "coefficient of difference",
-      "conv": "zh-cn:相异系数;zh-tw:差異係數;"
+      "conv": "zh-cn:相异系数;zh-tw:差異係數"
     },
     {
       "original": "coefficient of differentiation",
-      "conv": "变异系数=>zh-tw:分化係數;"
+      "conv": "变异系数=>zh-tw:分化係數"
     },
     {
       "original": "coefficient of homogeneity",
-      "conv": "zh-cn:同构型系数;zh-tw:均質係數;"
+      "conv": "zh-cn:同构型系数;zh-tw:均質係數"
     },
     {
       "original": "coefficient of maturity",
-      "conv": "zh-cn:性腺成熟系数;zh-tw:成熟度係數;"
+      "conv": "zh-cn:性腺成熟系数;zh-tw:成熟度係數"
     },
     {
       "original": "coenobiology",
-      "conv": "群落生物学=>zh-tw:生物社會學;"
+      "conv": "群落生物学=>zh-tw:生物社會學"
     },
     {
       "original": "coenospecies",
-      "conv": "聚合种=>zh-tw:近群種;"
+      "conv": "聚合种=>zh-tw:近群種"
     },
     {
       "original": "coevolution",
-      "conv": "共同演化=>zh-cn:协同进化;"
+      "conv": "共同演化=>zh-cn:协同进化"
     },
     {
       "original": "cohort",
-      "conv": "同生群=>zh-tw:同齡群;"
+      "conv": "同生群=>zh-tw:同齡群"
     },
     {
       "original": "cohort analysis",
-      "conv": "zh-cn:同龄群分析;zh-tw:年級群分析;"
+      "conv": "zh-cn:同龄群分析;zh-tw:年級群分析"
     },
     {
       "original": "cold desert",
-      "conv": "冷荒漠=>zh-tw:寒漠;"
+      "conv": "冷荒漠=>zh-tw:寒漠"
     },
     {
       "original": "cold injury",
-      "conv": "zh-cn:冷害;zh-tw:寒害;"
+      "conv": "zh-cn:冷害;zh-tw:寒害"
     },
     {
       "original": "colonial insect",
-      "conv": "zh-cn:群居性昆虫;zh-tw:聚落昆蟲;"
+      "conv": "zh-cn:群居性昆虫;zh-tw:聚落昆蟲"
     },
     {
       "original": "colonization curve",
-      "conv": "zh-cn:定殖曲线;zh-tw:拓殖曲線;"
+      "conv": "zh-cn:定殖曲线;zh-tw:拓殖曲線"
     },
     {
       "original": "colonization rate",
-      "conv": "zh-cn:定居速率;zh-tw:拓殖速率;"
+      "conv": "zh-cn:定居速率;zh-tw:拓殖速率"
     },
     {
       "original": "colony odor",
-      "conv": "zh-cn:蚁群气味;zh-tw:聚落氣味;"
+      "conv": "zh-cn:蚁群气味;zh-tw:聚落氣味"
     },
     {
       "original": "commensalism",
-      "conv": "zh-cn:偏利共生;zh-tw:片利共生;"
+      "conv": "zh-cn:偏利共生;zh-tw:片利共生"
     },
     {
       "original": "common feeding ground",
-      "conv": "zh-cn:共享摄食场所;zh-tw:共同攝食地;"
+      "conv": "zh-cn:共享摄食场所;zh-tw:共同攝食地"
     },
     {
       "original": "community integration",
-      "conv": "zh-cn:群落综合性;zh-tw:群集整合性;"
+      "conv": "zh-cn:群落综合性;zh-tw:群集整合性"
     },
     {
       "original": "community mosaic",
-      "conv": "zh-cn:群落镶嵌;zh-tw:嵌鑲型群集;"
+      "conv": "zh-cn:群落镶嵌;zh-tw:嵌鑲型群集"
     },
     {
       "original": "community potamium",
-      "conv": "zh-cn:河流群落;zh-tw:溪流群集;"
+      "conv": "zh-cn:河流群落;zh-tw:溪流群集"
     },
     {
       "original": "community surface",
-      "conv": "zh-cn:群落表面;zh-tw:群集面;"
+      "conv": "zh-cn:群落表面;zh-tw:群集面"
     },
     {
       "original": "community type",
-      "conv": "zh-cn:群落类型;zh-tw:群集型;"
+      "conv": "zh-cn:群落类型;zh-tw:群集型"
     },
     {
       "original": "comparative ordination technique",
-      "conv": "zh-cn:比较序列法;zh-tw:群集型;"
+      "conv": "zh-cn:比较序列法;zh-tw:群集型"
     },
     {
       "original": "comparium",
-      "conv": "杂交界限群=>zh-tw:能配群;"
+      "conv": "杂交界限群=>zh-tw:能配群"
     },
     {
       "original": "compartment model",
-      "conv": "單位模型=>zh-cn:分室模型;"
+      "conv": "單位模型=>zh-cn:分室模型"
     },
     {
       "original": "compartmental system approach",
-      "conv": "單位系統方法=>zh-cn:分室系统方法;"
+      "conv": "單位系統方法=>zh-cn:分室系统方法"
     },
     {
       "original": "compensation depth",
-      "conv": "zh-cn:补偿深度;zh-tw:補償強度;"
+      "conv": "zh-cn:补偿深度;zh-tw:補償強度"
     },
     {
       "original": "compensation level",
-      "conv": "zh-cn:补偿层;zh-tw:補償水準;"
+      "conv": "zh-cn:补偿层;zh-tw:補償水準"
     },
     {
       "original": "compensation point",
-      "conv": "平準點=>zh-cn:补偿点;"
+      "conv": "平準點=>zh-cn:补偿点"
     },
     {
       "original": "competitive advantage",
-      "conv": "zh-cn:竞争优势;zh-tw:有利競爭;"
+      "conv": "zh-cn:竞争优势;zh-tw:有利競爭"
     },
     {
       "original": "competitive association",
-      "conv": "zh-cn:竞争群丛;zh-tw:競爭性結合;"
+      "conv": "zh-cn:竞争群丛;zh-tw:競爭性結合"
     },
     {
       "original": "competitive displacement",
-      "conv": "zh-cn:竞争替代;zh-tw:競爭置換;"
+      "conv": "zh-cn:竞争替代;zh-tw:競爭置換"
     },
     {
       "original": "components of ecosystem",
-      "conv": "zh-cn:生态系统组分;zh-tw:生態系組成因子;"
+      "conv": "zh-cn:生态系统组分;zh-tw:生態系組成因子"
     },
     {
       "original": "concealing colo(u)r",
-      "conv": "zh-cn:隐藏色;zh-tw:隱匿色;"
+      "conv": "zh-cn:隐藏色;zh-tw:隱匿色"
     },
     {
       "original": "concentration factor",
-      "conv": "富集系数=>zh-tw:濃縮係數;"
+      "conv": "富集系数=>zh-tw:濃縮係數"
     },
     {
       "original": "conifruticeta",
-      "conv": "zh-cn:针叶灌木林;zh-tw:針葉灌叢;"
+      "conv": "zh-cn:针叶灌木林;zh-tw:針葉灌叢"
     },
     {
       "original": "conilignosa",
-      "conv": "zh-cn:针叶木本群落;zh-tw:針葉林;"
+      "conv": "zh-cn:针叶木本群落;zh-tw:針葉林"
     },
     {
       "original": "connate water",
-      "conv": "zh-cn:原有水;zh-tw:原生水;"
+      "conv": "zh-cn:原有水;zh-tw:原生水"
     },
     {
       "original": "conservation ecology",
-      "conv": "zh-cn:保护生态学;zh-tw:保育生態學;"
+      "conv": "zh-cn:保护生态学;zh-tw:保育生態學"
     },
     {
       "original": "conservation of nature",
-      "conv": "zh-cn:自然保护;zh-tw:自然保育;"
+      "conv": "zh-cn:自然保护;zh-tw:自然保育"
     },
     {
       "original": "consociation",
-      "conv": "zh-cn:单优种群落;zh-tw:單叢;"
+      "conv": "zh-cn:单优种群落;zh-tw:單叢"
     },
     {
       "original": "consociule",
-      "conv": "zh-cn:小单优种群丛;zh-tw:演替系列單優微生物;"
+      "conv": "zh-cn:小单优种群丛;zh-tw:演替系列單優微生物"
     },
     {
       "original": "consort relationship",
-      "conv": "zh-cn:共生关系;zh-tw:伴侶關係;"
+      "conv": "zh-cn:共生关系;zh-tw:伴侶關係"
     },
     {
       "original": "constitutive defense",
-      "conv": "zh-cn:结构防御;zh-tw:固有防禦;"
+      "conv": "zh-cn:结构防御;zh-tw:固有防禦"
     },
     {
       "original": "consummatory act",
-      "conv": "zh-cn:完了行为;zh-tw:終結行動;"
+      "conv": "zh-cn:完了行为;zh-tw:終結行動"
     },
     {
       "original": "consummatory behavior",
-      "conv": "zh-cn:完成行为;zh-tw:終結行為;"
+      "conv": "zh-cn:完成行为;zh-tw:終結行為"
     },
     {
       "original": "contest-type competition",
-      "conv": "zh-cn:对抗竞争;zh-tw:競賽競爭;"
+      "conv": "zh-cn:对抗竞争;zh-tw:競賽競爭"
     },
     {
       "original": "continental island",
-      "conv": "zh-cn:大陆岛;zh-tw:大陸性島嶼;"
+      "conv": "zh-cn:大陆岛;zh-tw:大陸性島嶼"
     },
     {
       "original": "continental shelf",
-      "conv": "zh-cn:大陆架;zh-tw:大陸棚;"
+      "conv": "zh-cn:大陆架;zh-tw:大陸棚"
     },
     {
       "original": "contingency table",
-      "conv": "zh-cn:列联表;zh-tw:關連表;"
+      "conv": "zh-cn:列联表;zh-tw:關連表"
     },
     {
       "original": "continuous quadrat",
-      "conv": "zh-cn:连续观察样方;zh-tw:連續樣區;"
+      "conv": "zh-cn:连续观察样方;zh-tw:連續樣區"
     },
     {
       "original": "continuous random variable",
-      "conv": "zh-cn:连续随机变量;zh-tw:連續性隨機變數;"
+      "conv": "zh-cn:连续随机变量;zh-tw:連續性隨機變數"
     },
     {
       "original": "continuum index",
-      "conv": "zh-cn:连续体指数;zh-tw:群集連續指數;"
+      "conv": "zh-cn:连续体指数;zh-tw:群集連續指數"
     },
     {
       "original": "contour strip cropping",
-      "conv": "zh-cn:等高带状种植;zh-tw:等高條作;"
+      "conv": "zh-cn:等高带状种植;zh-tw:等高條作"
     },
     {
       "original": "Convention on the Conservation of Migratory Species of Wild Animals",
-      "conv": "zh-cn:保护野生动物迁徙物种公约;zh-tw:保護野生動物物種公約;"
+      "conv": "zh-cn:保护野生动物迁徙物种公约;zh-tw:保護野生動物物種公約"
     },
     {
       "original": "Bonn Convention",
-      "conv": "zh-cn:波恩公约;zh-tw:波昂公约;"
+      "conv": "zh-cn:波恩公约;zh-tw:波昂公约"
     },
     {
       "original": "Convention on Wetlands of International Importance Especially as Waterfowl Habitat",
-      "conv": "zh-cn:关于特别是水禽栖息地的国际重要湿地公约;zh-tw:國際重要水鳥棲地保護公約;"
+      "conv": "zh-cn:关于特别是水禽栖息地的国际重要湿地公约;zh-tw:國際重要水鳥棲地保護公約"
     },
     {
       "original": "conventional competition",
-      "conv": "zh-cn:通常竞争;zh-tw:慣例性競爭;"
+      "conv": "zh-cn:通常竞争;zh-tw:慣例性競爭"
     },
     {
       "original": "cooperative hunting",
-      "conv": "zh-cn:合作狩猎;zh-tw:協同狩獵;"
+      "conv": "zh-cn:合作狩猎;zh-tw:協同狩獵"
     },
     {
       "original": "Eutrophication",
-      "conv": "zh-cn:富营养化;zh-tw:優養化;"
+      "conv": "zh-cn:富营养化;zh-tw:優養化"
     },
     {
       "original": "sustainable",
-      "conv": "zh-cn:可持续;zh-hk:可持續;zh-tw:永續;"
+      "conv": "zh-cn:可持续;zh-hk:可持續;zh-tw:永續"
     },
     {
       "original": "global warming",
-      "conv": "zh-cn:全球变暖;zh-hk:全球變暖;zh-tw:全球暖化;"
+      "conv": "zh-cn:全球变暖;zh-hk:全球變暖;zh-tw:全球暖化"
     }
   ]
 }

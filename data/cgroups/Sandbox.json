@@ -5,2747 +5,2747 @@
   "rules": [
     {
       "original": "arcade",
-      "conv": "zh-tw:大型電玩; zh-hk:街機; zh-cn:街机;"
+      "conv": "zh-tw:大型電玩;zh-hk:街機;zh-cn:街机"
     },
     {
       "original": "arcade",
-      "conv": "大型機台=>zh-cn:街机; 大型機台=>zh-sg:街机; 大型機台=>zh-my:街机;"
+      "conv": "大型機台=>zh-cn:街机;大型機台=>zh-sg:街机;大型機台=>zh-my:街机"
     },
     {
       "original": "arcade",
-      "conv": "大型機臺=>zh-cn:街机; 大型機臺=>zh-sg:街机; 大型機台=>zh-my:街机;"
+      "conv": "大型機臺=>zh-cn:街机;大型機臺=>zh-sg:街机;大型機台=>zh-my:街机"
     },
     {
       "original": "arcade",
-      "conv": "機台=>zh-cn:街机; 機台=>zh-sg:街机; 機台=>zh-my:街机;"
+      "conv": "機台=>zh-cn:街机;機台=>zh-sg:街机;機台=>zh-my:街机"
     },
     {
       "original": "arcade",
-      "conv": "機臺=>zh-cn:街机; 機臺=>zh-sg:街机; 機台=>zh-my:街机;"
+      "conv": "機臺=>zh-cn:街机;機臺=>zh-sg:街机;機台=>zh-my:街机"
     },
     {
       "original": "calculator",
-      "conv": "计算器=>zh-tw:計算機; 计算器=>zh-hk:計數機; 计算器=>zh-hk:計數機;"
+      "conv": "计算器=>zh-tw:計算機;计算器=>zh-hk:計數機;计算器=>zh-hk:計數機"
     },
     {
       "original": "card reader",
-      "conv": "zh-cn:读卡器; zh-tw:讀卡機; zh-hk:讀卡器;"
+      "conv": "zh-cn:读卡器;zh-tw:讀卡機;zh-hk:讀卡器"
     },
     {
       "original": "cartridge",
-      "conv": "zh-cn:卡带; zh-tw:卡匣;"
+      "conv": "zh-cn:卡带;zh-tw:卡匣"
     },
     {
       "original": "clock",
-      "conv": "zh-cn:主频; zh-tw:時脈;"
+      "conv": "zh-cn:主频;zh-tw:時脈"
     },
     {
       "original": "computer",
-      "conv": "计算机=>zh-tw:電腦; 计算机=>zh-hk:電腦; 计算机=>zh-mo:電腦;"
+      "conv": "计算机=>zh-tw:電腦;计算机=>zh-hk:電腦;计算机=>zh-mo:電腦"
     },
     {
       "original": "config",
-      "conv": "zh-cn:配置; zh-tw:配備;"
+      "conv": "zh-cn:配置;zh-tw:配備"
     },
     {
       "original": "desktop computer",
-      "conv": "zh-cn:台式电脑; zh-tw:桌上型電腦; zh-hk:桌上電腦;"
+      "conv": "zh-cn:台式电脑;zh-tw:桌上型電腦;zh-hk:桌上電腦"
     },
     {
       "original": "desktop computer",
-      "conv": "台式机=>zh-tw:桌上型電腦; 台式机=>zh-hk:桌上電腦; 台式机=>zh-mo:桌上電腦;"
+      "conv": "台式机=>zh-tw:桌上型電腦;台式机=>zh-hk:桌上電腦;台式机=>zh-mo:桌上電腦"
     },
     {
       "original": "firmware",
-      "conv": "zh-cn:固件; zh-tw:韌體;"
+      "conv": "zh-cn:固件;zh-tw:韌體"
     },
     {
       "original": "flash cartridge",
-      "conv": "zh-hans:烧录卡; zh-hant:燒錄卡;"
+      "conv": "zh-hans:烧录卡;zh-hant:燒錄卡"
     },
     {
       "original": "flash memory",
-      "conv": "zh-cn:闪存盘; zh-tw:隨身碟;"
+      "conv": "zh-cn:闪存盘;zh-tw:隨身碟"
     },
     {
       "original": "gamepad",
-      "conv": "zh-cn:手柄; zh-tw:手把; zh-hk:手掣;"
+      "conv": "zh-cn:手柄;zh-tw:手把;zh-hk:手掣"
     },
     {
       "original": "laptop",
-      "conv": "zh-cn:笔记本电脑; zh-hk:手提電腦; zh-tw:筆記型電腦;"
+      "conv": "zh-cn:笔记本电脑;zh-hk:手提電腦;zh-tw:筆記型電腦"
     },
     {
       "original": "memory",
-      "conv": "zh-cn:内存; zh-tw:記憶體;"
+      "conv": "zh-cn:内存;zh-tw:記憶體"
     },
     {
       "original": "motherboard",
-      "conv": "zh-cn:主板; zh-tw:主機板;"
+      "conv": "zh-cn:主板;zh-tw:主機板"
     },
     {
       "original": "optical disc",
-      "conv": "zh-cn:光盘; zh-tw:光碟;"
+      "conv": "zh-cn:光盘;zh-tw:光碟"
     },
     {
       "original": "performance",
-      "conv": "效能=>zh-cn:性能; 效能=>zh-sg:性能; 效能=>zh-my:性能;"
+      "conv": "效能=>zh-cn:性能;效能=>zh-sg:性能;效能=>zh-my:性能"
     },
     {
       "original": "port",
-      "conv": "zh-cn:端口; zh-tw:埠;"
+      "conv": "zh-cn:端口;zh-tw:埠"
     },
     {
       "original": "portable",
-      "conv": "zh-cn:便携; zh-tw:可攜;"
+      "conv": "zh-cn:便携;zh-tw:可攜"
     },
     {
       "original": "sensor",
-      "conv": "zh-cn:传感器; zh-tw:感測器;"
+      "conv": "zh-cn:传感器;zh-tw:感測器"
     },
     {
       "original": "support",
-      "conv": "zh-cn:支持; zh-tw:支援;"
+      "conv": "zh-cn:支持;zh-tw:支援"
     },
     {
       "original": "supporter",
-      "conv": "zh-cn:支持者; zh-tw:支持者;"
+      "conv": "zh-cn:支持者;zh-tw:支持者"
     },
     {
       "original": "signal",
-      "conv": "zh-cn:信号; zh-tw:訊號;"
+      "conv": "zh-cn:信号;zh-tw:訊號"
     },
     {
       "original": "video card",
-      "conv": "zh-cn:显卡; zh-tw:顯示卡;"
+      "conv": "zh-cn:显卡;zh-tw:顯示卡"
     },
     {
       "original": "video game console",
-      "conv": "遊樂器=>zh-cn:游戏机; 遊樂器=>zh-hk:遊戲機; 遊樂器=>zh-sg:游戏机; 遊樂器=>zh-mo:遊戲機; 遊樂器=>zh-my:游戏机;"
+      "conv": "遊樂器=>zh-cn:游戏机;遊樂器=>zh-hk:遊戲機;遊樂器=>zh-sg:游戏机;遊樂器=>zh-mo:遊戲機;遊樂器=>zh-my:游戏机"
     },
     {
       "original": "video memory",
-      "conv": "zh-cn:显存; zh-tw:視訊記憶體; zh-hk:影像記憶體;"
+      "conv": "zh-cn:显存;zh-tw:視訊記憶體;zh-hk:影像記憶體"
     },
     {
       "original": "build-in",
-      "conv": "zh-cn:内置; zh-tw:內建;"
+      "conv": "zh-cn:内置;zh-tw:內建"
     },
     {
       "original": "cache",
-      "conv": "zh-cn:缓存; zh-tw:快取; zh-hk:快取;"
+      "conv": "zh-cn:缓存;zh-tw:快取;zh-hk:快取"
     },
     {
       "original": "client",
-      "conv": "zh-cn:客户端; zh-tw:用戶端;"
+      "conv": "zh-cn:客户端;zh-tw:用戶端"
     },
     {
       "original": "compatible",
-      "conv": "zh-cn:兼容; zh-tw:相容;"
+      "conv": "zh-cn:兼容;zh-tw:相容"
     },
     {
       "original": "configuation file",
-      "conv": "zh-cn:配置文件; zh-tw:設定檔;"
+      "conv": "zh-cn:配置文件;zh-tw:設定檔"
     },
     {
       "original": "cursor",
-      "conv": "zh-cn:光标; zh-tw:游標;"
+      "conv": "zh-cn:光标;zh-tw:游標"
     },
     {
       "original": "custom",
-      "conv": "zh-cn:自定义; zh-tw:自訂;"
+      "conv": "zh-cn:自定义;zh-tw:自訂"
     },
     {
       "original": "data",
-      "conv": "数据=>zh-tw:資料; 数据=>zh-hk:資料; 数据=>zh-mo:資料;"
+      "conv": "数据=>zh-tw:資料;数据=>zh-hk:資料;数据=>zh-mo:資料"
     },
     {
       "original": "default",
-      "conv": "zh-cn:默认; zh-tw:預設;"
+      "conv": "zh-cn:默认;zh-tw:預設"
     },
     {
       "original": "down",
-      "conv": "zh-cn:死机; zh-tw:當機; zh-hk:死機;"
+      "conv": "zh-cn:死机;zh-tw:當機;zh-hk:死機"
     },
     {
       "original": "export",
-      "conv": "zh-cn:导出; zh-tw:匯出;"
+      "conv": "zh-cn:导出;zh-tw:匯出"
     },
     {
       "original": "extention",
-      "conv": "zh-cn:扩展名; zh-tw:副檔名;"
+      "conv": "zh-cn:扩展名;zh-tw:副檔名"
     },
     {
       "original": "file",
-      "conv": "zh-cn:文件; zh-tw:檔案;"
+      "conv": "zh-cn:文件;zh-tw:檔案"
     },
     {
       "original": "font",
-      "conv": "zh-cn:字体; zh-tw:字型;"
+      "conv": "zh-cn:字体;zh-tw:字型"
     },
     {
       "original": "icon",
-      "conv": "zh-cn:图标; zh-tw:圖示;"
+      "conv": "zh-cn:图标;zh-tw:圖示"
     },
     {
       "original": "image",
-      "conv": "zh-cn:镜像; zh-tw:映像;"
+      "conv": "zh-cn:镜像;zh-tw:映像"
     },
     {
       "original": "import",
-      "conv": "zh-cn:导入; zh-tw:匯入;"
+      "conv": "zh-cn:导入;zh-tw:匯入"
     },
     {
       "original": "interface",
-      "conv": "zh-cn:界面; zh-tw:介面;"
+      "conv": "zh-cn:界面;zh-tw:介面"
     },
     {
       "original": "key",
-      "conv": "zh-cn:密钥; zh-tw:金鑰;"
+      "conv": "zh-cn:密钥;zh-tw:金鑰"
     },
     {
       "original": "menu",
-      "conv": "zh-cn:菜单; zh-tw:選單;"
+      "conv": "zh-cn:菜单;zh-tw:選單"
     },
     {
       "original": "message",
-      "conv": "訊息=>zh-cn:消息;"
+      "conv": "訊息=>zh-cn:消息"
     },
     {
       "original": "patch",
-      "conv": "zh-cn:补丁; zh-tw:更新檔;"
+      "conv": "zh-cn:补丁;zh-tw:更新檔"
     },
     {
       "original": "patch",
-      "conv": "修正檔=>zh-cn:补丁; 修正檔=>zh-sg:补丁; 修正檔=>zh-my:补丁;"
+      "conv": "修正檔=>zh-cn:补丁;修正檔=>zh-sg:补丁;修正檔=>zh-my:补丁"
     },
     {
       "original": "toolbar",
-      "conv": "zh-cn:工具栏; zh-tw:工具列;"
+      "conv": "zh-cn:工具栏;zh-tw:工具列"
     },
     {
       "original": "view",
-      "conv": "zh-cn:查看; zh-tw:檢視;"
+      "conv": "zh-cn:查看;zh-tw:檢視"
     },
     {
       "original": "read-only",
-      "conv": "zh-cn:只读; zh-tw:唯讀;"
+      "conv": "zh-cn:只读;zh-tw:唯讀"
     },
     {
       "original": "readme",
-      "conv": "zh-cn:自述文件; zh-tw:讀我檔案;"
+      "conv": "zh-cn:自述文件;zh-tw:讀我檔案"
     },
     {
       "original": "run",
-      "conv": "运行=>zh-tw:執行; 运行=>zh-hk:執行; 运行=>zh-mo:執行;"
+      "conv": "运行=>zh-tw:執行;运行=>zh-hk:執行;运行=>zh-mo:執行"
     },
     {
       "original": "big data",
-      "conv": "巨量資料=>zh-cn:大数据; 巨量資料=>zh-sg:大数据; 巨量資料=>zh-my:大数据; 巨量資料=>zh-hk:大數據; 巨量資料=>zh-mo:大數據;"
+      "conv": "巨量資料=>zh-cn:大数据;巨量資料=>zh-sg:大数据;巨量資料=>zh-my:大数据;巨量資料=>zh-hk:大數據;巨量資料=>zh-mo:大數據"
     },
     {
       "original": "blog",
-      "conv": "zh-cn:博客; zh-tw:部落格; zh-hk:網誌; zh-sg:部落格;"
+      "conv": "zh-cn:博客;zh-tw:部落格;zh-hk:網誌;zh-sg:部落格"
     },
     {
       "original": "cloud",
-      "conv": "雲端=>zh-cn:云; 雲端=>zh-sg:云; 雲端=>zh-my:云;"
+      "conv": "雲端=>zh-cn:云;雲端=>zh-sg:云;雲端=>zh-my:云"
     },
     {
       "original": "cloud computing",
-      "conv": "zh-cn:云计算; zh-tw:雲端運算;"
+      "conv": "zh-cn:云计算;zh-tw:雲端運算"
     },
     {
       "original": "cloud function",
-      "conv": "zh-cn:云功能; zh-tw:雲端功能;"
+      "conv": "zh-cn:云功能;zh-tw:雲端功能"
     },
     {
       "original": "cloud platform",
-      "conv": "zh-cn:云平台; zh-tw:雲端平台;"
+      "conv": "zh-cn:云平台;zh-tw:雲端平台"
     },
     {
       "original": "cloud savefile",
-      "conv": "zh-cn:云存档; zh-tw:雲端存檔;"
+      "conv": "zh-cn:云存档;zh-tw:雲端存檔"
     },
     {
       "original": "cloud service",
-      "conv": "zh-cn:云服务; zh-tw:雲端服務;"
+      "conv": "zh-cn:云服务;zh-tw:雲端服務"
     },
     {
       "original": "cloud storage",
-      "conv": "zh-cn:云存储; zh-tw:雲端儲存;"
+      "conv": "zh-cn:云存储;zh-tw:雲端儲存"
     },
     {
       "original": "cloud version",
-      "conv": "zh-cn:云版; zh-tw:雲端版;"
+      "conv": "zh-cn:云版;zh-tw:雲端版"
     },
     {
       "original": "communications",
-      "conv": "zh-cn:通信; zh-tw:通訊;"
+      "conv": "zh-cn:通信;zh-tw:通訊"
     },
     {
       "original": "connect",
-      "conv": "zh-cn:联机; zh-tw:連線;"
+      "conv": "zh-cn:联机;zh-tw:連線"
     },
     {
       "original": "crowdfunding",
-      "conv": "群眾募資=>zh-cn:众筹; 群眾募資=>zh-sg:众筹; 群眾募資=>zh-my:众筹;"
+      "conv": "群眾募資=>zh-cn:众筹;群眾募資=>zh-sg:众筹;群眾募資=>zh-my:众筹"
     },
     {
       "original": "home page",
-      "conv": "主页=>zh-tw:首頁;"
+      "conv": "主页=>zh-tw:首頁"
     },
     {
       "original": "infomation",
-      "conv": "zh-cn:信息; zh-tw:資訊; zh-sg:资讯;"
+      "conv": "zh-cn:信息;zh-tw:資訊;zh-sg:资讯"
     },
     {
       "original": "Internet",
-      "conv": "zh-cn:互联网; zh-tw:網際網路; zh-hk:互聯網;"
+      "conv": "zh-cn:互联网;zh-tw:網際網路;zh-hk:互聯網"
     },
     {
       "original": "Internet",
-      "conv": "英特网=>zh-tw:網際網路; 英特网=>zh-hk:互聯網; 英特网=>zh-mo:互聯網;"
+      "conv": "英特网=>zh-tw:網際網路;英特网=>zh-hk:互聯網;英特网=>zh-mo:互聯網"
     },
     {
       "original": "Internet",
-      "conv": "因特网=>zh-tw:網際網路; 因特网=>zh-hk:互聯網; 因特网=>zh-mo:互聯網;"
+      "conv": "因特网=>zh-tw:網際網路;因特网=>zh-hk:互聯網;因特网=>zh-mo:互聯網"
     },
     {
       "original": "Internet",
-      "conv": "互联网=>zh-tw:網際網路; 互联网=>zh-hk:互聯網; 互联网=>zh-mo:互聯網;"
+      "conv": "互联网=>zh-tw:網際網路;互联网=>zh-hk:互聯網;互联网=>zh-mo:互聯網"
     },
     {
       "original": "Internet",
-      "conv": "国际互联网=>zh-tw:網際網路; 国际互联网=>zh-hk:互聯網; 国际互联网=>zh-mo:互聯網;"
+      "conv": "国际互联网=>zh-tw:網際網路;国际互联网=>zh-hk:互聯網;国际互联网=>zh-mo:互聯網"
     },
     {
       "original": "link",
-      "conv": "zh-cn:链接; zh-tw:連結;"
+      "conv": "zh-cn:链接;zh-tw:連結"
     },
     {
       "original": "local area network",
-      "conv": "zh-cn:局域网; zh-tw:區域網路; zh-hk:區域網絡;"
+      "conv": "zh-cn:局域网;zh-tw:區域網路;zh-hk:區域網絡"
     },
     {
       "original": "log in",
-      "conv": "zh-cn:登录; zh-tw:登入;"
+      "conv": "zh-cn:登录;zh-tw:登入"
     },
     {
       "original": "multiplayer online game",
-      "conv": "zh-cn:多人在线游戏; zh-tw:多人線上遊戲;"
+      "conv": "zh-cn:多人在线游戏;zh-tw:多人線上遊戲"
     },
     {
       "original": "network",
-      "conv": "zh-cn:网络; zh-hk:網絡; zh-tw:網路;"
+      "conv": "zh-cn:网络;zh-hk:網絡;zh-tw:網路"
     },
     {
       "original": "online game",
-      "conv": "線上遊戲=>zh-cn:网络游戏; 線上遊戲=>zh-sg:网络游戏; 線上遊戲=>zh-my:网络游戏;"
+      "conv": "線上遊戲=>zh-cn:网络游戏;線上遊戲=>zh-sg:网络游戏;線上遊戲=>zh-my:网络游戏"
     },
     {
       "original": "online",
-      "conv": "zh-cn:在线; zh-tw:線上;"
+      "conv": "zh-cn:在线;zh-tw:線上"
     },
     {
       "original": "operate",
-      "conv": "zh-cn:运营; zh-tw:營運;"
+      "conv": "zh-cn:运营;zh-tw:營運"
     },
     {
       "original": "post",
-      "conv": "zh-cn:帖子; zh-tw:貼文;"
+      "conv": "zh-cn:帖子;zh-tw:貼文"
     },
     {
       "original": "search",
-      "conv": "zh-cn:搜索; zh-tw:搜尋;"
+      "conv": "zh-cn:搜索;zh-tw:搜尋"
     },
     {
       "original": "streamer ",
-      "conv": "zh-cn:游戏主播; zh-tw:遊戲實況主;"
+      "conv": "zh-cn:游戏主播;zh-tw:遊戲實況主"
     },
     {
       "original": "algorithm",
-      "conv": "zh-cn:算法; zh-tw:演算法;"
+      "conv": "zh-cn:算法;zh-tw:演算法"
     },
     {
       "original": "assembly language",
-      "conv": "zh-cn:汇编语言; zh-tw:組合語言; zh-hk:匯編語言;"
+      "conv": "zh-cn:汇编语言;zh-tw:組合語言;zh-hk:匯編語言"
     },
     {
       "original": "code",
-      "conv": "zh-cn:代码; zh-tw:程式碼;"
+      "conv": "zh-cn:代码;zh-tw:程式碼"
     },
     {
       "original": "debug",
-      "conv": "zh-cn:调试; zh-tw:除錯;"
+      "conv": "zh-cn:调试;zh-tw:除錯"
     },
     {
       "original": "program",
-      "conv": "zh-cn:程序; zh-tw:程式;"
+      "conv": "zh-cn:程序;zh-tw:程式"
     },
     {
       "original": "programmable",
-      "conv": "zh-cn:可编程; zh-tw:可程式化;"
+      "conv": "zh-cn:可编程;zh-tw:可程式化"
     },
     {
       "original": "programming",
-      "conv": "编程=>zh-tw:程式設計; 编程=>zh-hk:程式設計; 编程=>zh-mo:程式設計;"
+      "conv": "编程=>zh-tw:程式設計;编程=>zh-hk:程式設計;编程=>zh-mo:程式設計"
     },
     {
       "original": "programming language",
-      "conv": "zh-cn:编程语言; zh-tw:程式語言;"
+      "conv": "zh-cn:编程语言;zh-tw:程式語言"
     },
     {
       "original": "scripting language",
-      "conv": "zh-cn:脚本语言; zh-tw:手稿語言;"
+      "conv": "zh-cn:脚本语言;zh-tw:手稿語言"
     },
     {
       "original": "source code",
-      "conv": "zh-cn:源代码; zh-sg:原始码; zh-tw:原始碼;"
+      "conv": "zh-cn:源代码;zh-sg:原始码;zh-tw:原始碼"
     },
     {
       "original": "source code",
-      "conv": "源码=>zh-sg:原始码; 源码=>zh-my:原始码; 源码=>zh-tw:原始碼; 源码=>zh-hk:原始碼; 源码=>zh-mo:原始碼;"
+      "conv": "源码=>zh-sg:原始码;源码=>zh-my:原始码;源码=>zh-tw:原始碼;源码=>zh-hk:原始碼;源码=>zh-mo:原始碼"
     },
     {
       "original": "2D computer graphics",
-      "conv": "zh-cn:二维计算机图形; zh-tw:2D電腦圖形;"
+      "conv": "zh-cn:二维计算机图形;zh-tw:2D電腦圖形"
     },
     {
       "original": "3D computer graphics",
-      "conv": "zh-cn:三维计算机图形; zh-tw:3D電腦圖形;"
+      "conv": "zh-cn:三维计算机图形;zh-tw:3D電腦圖形"
     },
     {
       "original": "frame",
-      "conv": "zh-cn:帧; zh-tw:影格; zh-hk:幀;"
+      "conv": "zh-cn:帧;zh-tw:影格;zh-hk:幀"
     },
     {
       "original": "frame",
-      "conv": "片格=>zh-cn:帧; 片格=>zh-sg:帧; 片格=>zh-my:帧; 片格=>zh-hk:幀; 片格=>zh-mo:幀;"
+      "conv": "片格=>zh-cn:帧;片格=>zh-sg:帧;片格=>zh-my:帧;片格=>zh-hk:幀;片格=>zh-mo:幀"
     },
     {
       "original": "frame",
-      "conv": "讯框=>zh-cn:帧; 讯框=>zh-sg:帧; 讯框=>zh-my:帧; 讯框=>zh-hk:幀; 讯框=>zh-mo:幀;"
+      "conv": "讯框=>zh-cn:帧;讯框=>zh-sg:帧;讯框=>zh-my:帧;讯框=>zh-hk:幀;讯框=>zh-mo:幀"
     },
     {
       "original": "frame",
-      "conv": "訊框=>zh-cn:帧; 訊框=>zh-sg:帧; 訊框=>zh-my:帧; 訊框=>zh-hk:幀; 訊框=>zh-mo:幀;"
+      "conv": "訊框=>zh-cn:帧;訊框=>zh-sg:帧;訊框=>zh-my:帧;訊框=>zh-hk:幀;訊框=>zh-mo:幀"
     },
     {
       "original": "frame rate",
-      "conv": "zh-cn:帧率; zh-tw:影格率; zh-hk:幀率;"
+      "conv": "zh-cn:帧率;zh-tw:影格率;zh-hk:幀率"
     },
     {
       "original": "frame rate",
-      "conv": "影格速率=>zh-cn:帧率; 影格速率=>zh-sg:帧率; 影格速率=>zh-my:帧率; 影格速率=>zh-hk:幀率; 影格速率=>zh-mo:幀率;"
+      "conv": "影格速率=>zh-cn:帧率;影格速率=>zh-sg:帧率;影格速率=>zh-my:帧率;影格速率=>zh-hk:幀率;影格速率=>zh-mo:幀率"
     },
     {
       "original": "palette",
-      "conv": "zh-cn:调色板; zh-tw:調色盤;"
+      "conv": "zh-cn:调色板;zh-tw:調色盤"
     },
     {
       "original": "raster graphics",
-      "conv": "zh-cn:位图; zh-hk:位圖; zh-tw:點陣圖;"
+      "conv": "zh-cn:位图;zh-hk:位圖;zh-tw:點陣圖"
     },
     {
       "original": "render",
-      "conv": "zh-cn:渲染; zh-tw:彩現;"
+      "conv": "zh-cn:渲染;zh-tw:彩現"
     },
     {
       "original": "real-time rendering",
-      "conv": "zh-cn:实时渲染; zh-tw:即時彩現;"
+      "conv": "zh-cn:实时渲染;zh-tw:即時彩現"
     },
     {
       "original": "vector graphics",
-      "conv": "zh-cn:矢量图; zh-tw:向量圖;"
+      "conv": "zh-cn:矢量图;zh-tw:向量圖"
     },
     {
       "original": "blank screen",
-      "conv": "zh-cn:黑屏; zh-tw:黑畫面;"
+      "conv": "zh-cn:黑屏;zh-tw:黑畫面"
     },
     {
       "original": "bottom screen",
-      "conv": "下屏=>zh-tw:下螢幕; 下屏=>zh-hk:下熒幕; 下屏=>zh-mo:下熒幕;"
+      "conv": "下屏=>zh-tw:下螢幕;下屏=>zh-hk:下熒幕;下屏=>zh-mo:下熒幕"
     },
     {
       "original": "bottom screen",
-      "conv": "zh-cn:下屏幕; zh-tw:下螢幕; zh-hk:下熒幕;"
+      "conv": "zh-cn:下屏幕;zh-tw:下螢幕;zh-hk:下熒幕"
     },
     {
       "original": "dual screen",
-      "conv": "双屏=>zh-tw:雙螢幕; 双屏=>zh-hk:雙熒幕; 双屏=>zh-mo:雙熒幕;"
+      "conv": "双屏=>zh-tw:雙螢幕;双屏=>zh-hk:雙熒幕;双屏=>zh-mo:雙熒幕"
     },
     {
       "original": "dual screen",
-      "conv": "zh-cn:双屏幕; zh-tw:雙螢幕; zh-hk:雙熒幕;"
+      "conv": "zh-cn:双屏幕;zh-tw:雙螢幕;zh-hk:雙熒幕"
     },
     {
       "original": "full screen",
-      "conv": "zh-cn:全屏; zh-tw:全螢幕; zh-hk:全屏幕;"
+      "conv": "zh-cn:全屏;zh-tw:全螢幕;zh-hk:全屏幕"
     },
     {
       "original": "high definition",
-      "conv": "zh-cn:高清; zh-tw:高畫質; zh-hk:高清;"
+      "conv": "zh-cn:高清;zh-tw:高畫質;zh-hk:高清"
     },
     {
       "original": "high definition",
-      "conv": "高清晰=>zh-tw:高畫質;"
+      "conv": "高清晰=>zh-tw:高畫質"
     },
     {
       "original": "high definition",
-      "conv": "高清晰度=>zh-tw:高解析度;"
+      "conv": "高清晰度=>zh-tw:高解析度"
     },
     {
       "original": "multi-screen",
-      "conv": "多屏=>zh-tw:多螢幕; 多屏=>zh-hk:多熒幕; 多屏=>zh-mo:多熒幕;"
+      "conv": "多屏=>zh-tw:多螢幕;多屏=>zh-hk:多熒幕;多屏=>zh-mo:多熒幕"
     },
     {
       "original": "multi-screen",
-      "conv": "zh-cn:多屏幕; zh-tw:多螢幕; zh-hk:多熒幕;"
+      "conv": "zh-cn:多屏幕;zh-tw:多螢幕;zh-hk:多熒幕"
     },
     {
       "original": "screen",
-      "conv": "zh-cn:屏幕; zh-hk:熒幕; zh-tw:螢幕;"
+      "conv": "zh-cn:屏幕;zh-hk:熒幕;zh-tw:螢幕"
     },
     {
       "original": "screen capture",
-      "conv": "zh-cn:截图; zh-tw:擷圖; zh-hk:截圖;"
+      "conv": "zh-cn:截图;zh-tw:擷圖;zh-hk:截圖"
     },
     {
       "original": "screenshot",
-      "conv": "zh-cn:截屏; zh-tw:螢幕擷取; zh-hk:熒幕截取;"
+      "conv": "zh-cn:截屏;zh-tw:螢幕擷取;zh-hk:熒幕截取"
     },
     {
       "original": "split screen",
-      "conv": "zh-cn:分屏; zh-tw:分割畫面;"
+      "conv": "zh-cn:分屏;zh-tw:分割畫面"
     },
     {
       "original": "top screen",
-      "conv": "上屏=>zh-tw:上螢幕; 上屏=>zh-hk:上熒幕; 上屏=>zh-mo:上熒幕;"
+      "conv": "上屏=>zh-tw:上螢幕;上屏=>zh-hk:上熒幕;上屏=>zh-mo:上熒幕"
     },
     {
       "original": "top screen",
-      "conv": "zh-cn:上屏幕; zh-tw:上螢幕; zh-hk:上熒幕;"
+      "conv": "zh-cn:上屏幕;zh-tw:上螢幕;zh-hk:上熒幕"
     },
     {
       "original": "touchscreen",
-      "conv": "zh-cn:触摸屏; zh-hk:輕觸式熒幕; zh-tw:觸控螢幕;"
+      "conv": "zh-cn:触摸屏;zh-hk:輕觸式熒幕;zh-tw:觸控螢幕"
     },
     {
       "original": "touchscreen",
-      "conv": "觸控式螢幕=>zh-cn:触摸屏; 觸控式螢幕=>zh-sg:触摸屏; 觸控式螢幕=>zh-my:触摸屏;"
+      "conv": "觸控式螢幕=>zh-cn:触摸屏;觸控式螢幕=>zh-sg:触摸屏;觸控式螢幕=>zh-my:触摸屏"
     },
     {
       "original": "touchscreen",
-      "conv": "触控屏=>zh-hk:輕觸式熒幕; 触控屏=>zh-mo:輕觸式熒幕; 触控屏=>zh-tw:觸控螢幕;"
+      "conv": "触控屏=>zh-hk:輕觸式熒幕;触控屏=>zh-mo:輕觸式熒幕;触控屏=>zh-tw:觸控螢幕"
     },
     {
       "original": "widescreen",
-      "conv": "zh-cn:宽屏; zh-tw:寬螢幕; zh-tw:寬熒幕;"
+      "conv": "zh-cn:宽屏;zh-tw:寬螢幕;zh-tw:寬熒幕"
     },
     {
       "original": "8-bit",
-      "conv": "8位元=>zh-cn:8位; 8位元=>zh-sg:8位; 8位元=>zh-my:8位;"
+      "conv": "8位元=>zh-cn:8位;8位元=>zh-sg:8位;8位元=>zh-my:8位"
     },
     {
       "original": "8-bit computer",
-      "conv": "zh-cn:8位电脑; zh-tw:8位元電腦;"
+      "conv": "zh-cn:8位电脑;zh-tw:8位元電腦"
     },
     {
       "original": "8-bit computer",
-      "conv": "8位计算机=>zh-tw:8位元電腦; 8位计算机=>zh-hk:8位元電腦; 8位计算机=>zh-mo:8位元電腦;"
+      "conv": "8位计算机=>zh-tw:8位元電腦;8位计算机=>zh-hk:8位元電腦;8位计算机=>zh-mo:8位元電腦"
     },
     {
       "original": "8-bit console",
-      "conv": "zh-cn:8位机; zh-tw:8位元機;"
+      "conv": "zh-cn:8位机;zh-tw:8位元機"
     },
     {
       "original": "8-bit console",
-      "conv": "zh-cn:8位主机; zh-tw:8位元主機;"
+      "conv": "zh-cn:8位主机;zh-tw:8位元主機"
     },
     {
       "original": "8-bit family",
-      "conv": "zh-cn:8位家族; zh-tw:8位元家族;"
+      "conv": "zh-cn:8位家族;zh-tw:8位元家族"
     },
     {
       "original": "8-bit game",
-      "conv": "zh-cn:8位游戏; zh-tw:8位元遊戲;"
+      "conv": "zh-cn:8位游戏;zh-tw:8位元遊戲"
     },
     {
       "original": "8-bit home",
-      "conv": "zh-cn:8位家用; zh-tw:8位元家用;"
+      "conv": "zh-cn:8位家用;zh-tw:8位元家用"
     },
     {
       "original": "8-bit generation",
-      "conv": "zh-cn:8位世代; zh-tw:8位元世代;"
+      "conv": "zh-cn:8位世代;zh-tw:8位元世代"
     },
     {
       "original": "8-bit system",
-      "conv": "zh-cn:8位系统; zh-tw:8位元系統;"
+      "conv": "zh-cn:8位系统;zh-tw:8位元系統"
     },
     {
       "original": "8-bit version",
-      "conv": "zh-cn:8位版; zh-tw:8位元版;"
+      "conv": "zh-cn:8位版;zh-tw:8位元版"
     },
     {
       "original": "16-bit",
-      "conv": "zh-cn:16位; zh-tw:16位元;"
+      "conv": "zh-cn:16位;zh-tw:16位元"
     },
     {
       "original": "32-bit",
-      "conv": "zh-cn:32位; zh-tw:32位元;"
+      "conv": "zh-cn:32位;zh-tw:32位元"
     },
     {
       "original": "64-bit",
-      "conv": "zh-cn:64位; zh-tw:64位元;"
+      "conv": "zh-cn:64位;zh-tw:64位元"
     },
     {
       "original": "Number 8",
-      "conv": "zh-hans:第8位; zh-hant:第8位;"
+      "conv": "zh-hans:第8位;zh-hant:第8位"
     },
     {
       "original": "Number 16",
-      "conv": "zh-hans:第16位; zh-hant:第16位;"
+      "conv": "zh-hans:第16位;zh-hant:第16位"
     },
     {
       "original": "Number 32",
-      "conv": "zh-hans:第32位; zh-hant:第32位;"
+      "conv": "zh-hans:第32位;zh-hant:第32位"
     },
     {
       "original": "Number 64",
-      "conv": "zh-hans:第64位; zh-hant:第64位;"
+      "conv": "zh-hans:第64位;zh-hant:第64位"
     },
     {
       "original": "digital assets",
-      "conv": "zh-cn:数字资产; zh-my:数码资产; zh-tw:數位資產; zh-hk:數碼資產;"
+      "conv": "zh-cn:数字资产;zh-my:数码资产;zh-tw:數位資產;zh-hk:數碼資產"
     },
     {
       "original": "digital distribution",
-      "conv": "zh-cn:数字分发; zh-my:数码分发; zh-tw:數位分發; zh-hk:數碼分發;"
+      "conv": "zh-cn:数字分发;zh-my:数码分发;zh-tw:數位分發;zh-hk:數碼分發"
     },
     {
       "original": "digital download",
-      "conv": "zh-cn:数字下载; zh-my:数码下载; zh-tw:數位下載; zh-hk:數碼下載;"
+      "conv": "zh-cn:数字下载;zh-my:数码下载;zh-tw:數位下載;zh-hk:數碼下載"
     },
     {
       "original": "digital entertainment",
-      "conv": "zh-cn:数字娱乐; zh-my:数码娱乐; zh-tw:數位娛樂; zh-hk:數碼娛樂;"
+      "conv": "zh-cn:数字娱乐;zh-my:数码娱乐;zh-tw:數位娛樂;zh-hk:數碼娛樂"
     },
     {
       "original": "digital media",
-      "conv": "zh-cn:数字媒体; zh-my:数码媒体; zh-tw:數位媒體; zh-hk:數碼媒體;"
+      "conv": "zh-cn:数字媒体;zh-my:数码媒体;zh-tw:數位媒體;zh-hk:數碼媒體"
     },
     {
       "original": "digital publishing",
-      "conv": "zh-cn:数字出版; zh-my:数码出版; zh-tw:數位出版; zh-hk:數碼出版;"
+      "conv": "zh-cn:数字出版;zh-my:数码出版;zh-tw:數位出版;zh-hk:數碼出版"
     },
     {
       "original": "digital releases",
-      "conv": "zh-cn:数字发行; zh-my:数码发行; zh-tw:數位發行; zh-hk:數碼發行;"
+      "conv": "zh-cn:数字发行;zh-my:数码发行;zh-tw:數位發行;zh-hk:數碼發行"
     },
     {
       "original": "digital selling",
-      "conv": "zh-cn:数字销售; zh-my:数码销售; zh-tw:數位銷售; zh-hk:數碼銷售;"
+      "conv": "zh-cn:数字销售;zh-my:数码销售;zh-tw:數位銷售;zh-hk:數碼銷售"
     },
     {
       "original": "digital version",
-      "conv": "zh-cn:数字版; zh-my:数码版; zh-tw:數位版; zh-hk:數碼版;"
+      "conv": "zh-cn:数字版;zh-my:数码版;zh-tw:數位版;zh-hk:數碼版"
     },
     {
       "original": "digitalization",
-      "conv": "zh-cn:数字化; zh-my:数码化; zh-tw:數位化; zh-hk:數碼化;"
+      "conv": "zh-cn:数字化;zh-my:数码化;zh-tw:數位化;zh-hk:數碼化"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:摇杆; zh-hant:搖桿;"
+      "conv": "zh-hans:摇杆;zh-hant:搖桿"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:操纵杆; zh-hant:操縱桿;"
+      "conv": "zh-hans:操纵杆;zh-hant:操縱桿"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:操作杆; zh-hant:操作桿;"
+      "conv": "zh-hans:操作杆;zh-hant:操作桿"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:控制杆; zh-hant:控制桿;"
+      "conv": "zh-hans:控制杆;zh-hant:控制桿"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:遥控杆; zh-hant:遙控桿;"
+      "conv": "zh-hans:遥控杆;zh-hant:遙控桿"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:游戏杆; zh-hant:遊戲桿;"
+      "conv": "zh-hans:游戏杆;zh-hant:遊戲桿"
     },
     {
       "original": "stick",
-      "conv": "zh-hans:滑杆; zh-hant:滑桿;"
+      "conv": "zh-hans:滑杆;zh-hant:滑桿"
     },
     {
       "original": "analog pad",
-      "conv": "zh-hans:类比垫; zh-hant:類比墊"
+      "conv": "zh-hans:类比垫;zh-hant:類比墊"
     },
     {
       "original": "analog pad",
-      "conv": "zh-hans:类比滑垫; zh-hant:類比滑墊"
+      "conv": "zh-hans:类比滑垫;zh-hant:類比滑墊"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比杆; zh-hant:類比桿;"
+      "conv": "zh-hans:类比杆;zh-hant:類比桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比摇杆; zh-hant:類比搖桿;"
+      "conv": "zh-hans:类比摇杆;zh-hant:類比搖桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比操纵杆; zh-hant:類比操縱桿;"
+      "conv": "zh-hans:类比操纵杆;zh-hant:類比操縱桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比操作杆; zh-hant:類比操作桿;"
+      "conv": "zh-hans:类比操作杆;zh-hant:類比操作桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比控制杆; zh-hant:類比控制桿;"
+      "conv": "zh-hans:类比控制杆;zh-hant:類比控制桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比遥控杆; zh-hant:類比遙控桿;"
+      "conv": "zh-hans:类比遥控杆;zh-hant:類比遙控桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比游戏杆; zh-hant:類比遊戲桿;"
+      "conv": "zh-hans:类比游戏杆;zh-hant:類比遊戲桿"
     },
     {
       "original": "analog stick",
-      "conv": "zh-hans:类比滑杆; zh-hant:類比滑桿;"
+      "conv": "zh-hans:类比滑杆;zh-hant:類比滑桿"
     },
     {
       "original": "simulation game",
-      "conv": "zh-hans:模拟游戏; zh-hant:模擬遊戲;"
+      "conv": "zh-hans:模拟游戏;zh-hant:模擬遊戲"
     },
     {
       "original": "mobile app",
-      "conv": "zh-cn:移动应用; zh-tw:行動應用; zh-hk:流動應用;"
+      "conv": "zh-cn:移动应用;zh-tw:行動應用;zh-hk:流動應用"
     },
     {
       "original": "mobile department",
-      "conv": "zh-cn:移动部门; zh-tw:行動部門; zh-hk:流動部門;"
+      "conv": "zh-cn:移动部门;zh-tw:行動部門;zh-hk:流動部門"
     },
     {
       "original": "mobile game",
-      "conv": "zh-cn:移动游戏; zh-tw:行動遊戲; zh-hk:流動遊戲;"
+      "conv": "zh-cn:移动游戏;zh-tw:行動遊戲;zh-hk:流動遊戲"
     },
     {
       "original": "mobile platform",
-      "conv": "zh-cn:移动平台; zh-tw:行動平台; zh-hk:流動平台;"
+      "conv": "zh-cn:移动平台;zh-tw:行動平台;zh-hk:流動平台"
     },
     {
       "original": "mobile product",
-      "conv": "zh-cn:移动产品; zh-tw:行動產品; zh-hk:流動產品;"
+      "conv": "zh-cn:移动产品;zh-tw:行動產品;zh-hk:流動產品"
     },
     {
       "original": "mobile social",
-      "conv": "zh-cn:移动社交; zh-tw:行動社交; zh-hk:流動社交;"
+      "conv": "zh-cn:移动社交;zh-tw:行動社交;zh-hk:流動社交"
     },
     {
       "original": "mobile software",
-      "conv": "zh-cn:移动软件; zh-tw:行動軟體; zh-hk:流動軟件;"
+      "conv": "zh-cn:移动软件;zh-tw:行動軟體;zh-hk:流動軟件"
     },
     {
       "original": "mobile terminal",
-      "conv": "zh-cn:移动端; zh-tw:行動端; zh-hk:流動端;"
+      "conv": "zh-cn:移动端;zh-tw:行動端;zh-hk:流動端"
     },
     {
       "original": "mobile terminal",
-      "conv": "zh-cn:移动终端; zh-tw:行動終端; zh-hk:流動終端;"
+      "conv": "zh-cn:移动终端;zh-tw:行動終端;zh-hk:流動終端"
     },
     {
       "original": "mobile version",
-      "conv": "zh-cn:移动版; zh-tw:行動版; zh-hk:流動版;"
+      "conv": "zh-cn:移动版;zh-tw:行動版;zh-hk:流動版"
     },
     {
       "original": "audio",
-      "conv": "zh-cn:音频; zh-tw:音訊; zh-hk:音頻;"
+      "conv": "zh-cn:音频;zh-tw:音訊;zh-hk:音頻"
     },
     {
       "original": "video",
-      "conv": "zh-tw:影片; zh-hk:視像; zh-cn:视频; zh-mo:視頻; zh-sg:视频;"
+      "conv": "zh-tw:影片;zh-hk:視像;zh-cn:视频;zh-mo:視頻;zh-sg:视频"
     },
     {
       "original": "audio-video",
-      "conv": "zh-cn:音视频; zh-tw:音視訊; zh-hk:音視頻;"
+      "conv": "zh-cn:音视频;zh-tw:音視訊;zh-hk:音視頻"
     },
     {
       "original": "video game",
-      "conv": "zh-cn:视频游戏; zh-tw:視訊遊戲; zh-hk:視頻遊戲;"
+      "conv": "zh-cn:视频游戏;zh-tw:視訊遊戲;zh-hk:視頻遊戲"
     },
     {
       "original": "video input",
-      "conv": "zh-cn:视频输入; zh-tw:視訊輸入; zh-hk:視頻輸入;"
+      "conv": "zh-cn:视频输入;zh-tw:視訊輸入;zh-hk:視頻輸入"
     },
     {
       "original": "video output",
-      "conv": "zh-cn:视频输出; zh-tw:視訊輸出; zh-hk:視頻輸出;"
+      "conv": "zh-cn:视频输出;zh-tw:視訊輸出;zh-hk:視頻輸出"
     },
     {
       "original": "film streaming",
-      "conv": "zh-cn:影片流; zh-tw:影片串流;"
+      "conv": "zh-cn:影片流;zh-tw:影片串流"
     },
     {
       "original": "movie",
-      "conv": "zh-hans:电影; zh-hant:電影;"
+      "conv": "zh-hans:电影;zh-hant:電影"
     },
     {
       "original": "television",
-      "conv": "zh-hans:电视; zh-hant:電視;"
+      "conv": "zh-hans:电视;zh-hant:電視"
     },
     {
       "original": "boot disk",
-      "conv": "zh-cn:启动盘; zh-tw:啟動磁碟;"
+      "conv": "zh-cn:启动盘;zh-tw:啟動磁碟"
     },
     {
       "original": "data disc",
-      "conv": "zh-hans:磁碟; zh-hant:磁碟;"
+      "conv": "zh-hans:磁碟;zh-hant:磁碟"
     },
     {
       "original": "Disk System",
-      "conv": "zh-hans:磁碟机; zh-hant:磁碟機;"
+      "conv": "zh-hans:磁碟机;zh-hant:磁碟機"
     },
     {
       "original": "Family Computer Disk System",
-      "conv": "zh-hans:FC磁碟机; zh-hant:FC磁碟機;"
+      "conv": "zh-hans:FC磁碟机;zh-hant:FC磁碟機"
     },
     {
       "original": "floppy disk",
-      "conv": "zh-cn:软盘; zh-tw:磁片; 软盘=>zh-hk:磁碟; 软盘=>zh-mo:磁碟; 磁片=>zh-hk:磁碟; 磁片=>zh-mo:磁碟;"
+      "conv": "zh-cn:软盘;zh-tw:磁片;软盘=>zh-hk:磁碟;软盘=>zh-mo:磁碟;磁片=>zh-hk:磁碟;磁片=>zh-mo:磁碟"
     },
     {
       "original": "floppy disk",
-      "conv": "軟碟=>zh-cn:软盘; 軟碟=>zh-sg:软盘; 軟碟=>zh-my:软盘; 軟碟=>zh-hk:磁碟; 軟碟=>zh-mo:磁碟;"
+      "conv": "軟碟=>zh-cn:软盘;軟碟=>zh-sg:软盘;軟碟=>zh-my:软盘;軟碟=>zh-hk:磁碟;軟碟=>zh-mo:磁碟"
     },
     {
       "original": "floppy disk",
-      "conv": "軟碟片=>zh-cn:软盘; 軟碟片=>zh-sg:软盘; 軟碟片=>zh-my:软盘; 軟碟片=>zh-hk:磁碟; 軟碟片=>zh-mo:磁碟;"
+      "conv": "軟碟片=>zh-cn:软盘;軟碟片=>zh-sg:软盘;軟碟片=>zh-my:软盘;軟碟片=>zh-hk:磁碟;軟碟片=>zh-mo:磁碟"
     },
     {
       "original": "floopy disk drive",
-      "conv": "软盘驱动器=>zh-tw:軟碟機; 软盘驱动器=>zh-hk:磁碟機; 软盘驱动器=>zh-mo:磁碟機;"
+      "conv": "软盘驱动器=>zh-tw:軟碟機;软盘驱动器=>zh-hk:磁碟機;软盘驱动器=>zh-mo:磁碟機"
     },
     {
       "original": "floopy disk drive",
-      "conv": "软驱=>zh-hk:磁碟機; 软驱=>zh-mo:磁碟機;"
+      "conv": "软驱=>zh-hk:磁碟機;软驱=>zh-mo:磁碟機"
     },
     {
       "original": "final 32",
-      "conv": "zh-hk:32強賽; zh-cn:十六分之一决赛; zh-tw:32強賽;"
+      "conv": "zh-hk:32強賽;zh-cn:十六分之一决赛;zh-tw:32強賽"
     },
     {
       "original": "final 16",
-      "conv": "zh-hk:16強賽; zh-cn:八分之一决赛; zh-tw:16強賽;"
+      "conv": "zh-hk:16強賽;zh-cn:八分之一决赛;zh-tw:16強賽"
     },
     {
       "original": "quarterfinal",
-      "conv": "zh-hk:八強賽; zh-cn:四分之一决赛; zh-tw:半準決賽;"
+      "conv": "zh-hk:八強賽;zh-cn:四分之一决赛;zh-tw:半準決賽"
     },
     {
       "original": "semifinal",
-      "conv": "zh-hk:準決賽; zh-cn:半决赛; zh-tw:準決賽;"
+      "conv": "zh-hk:準決賽;zh-cn:半决赛;zh-tw:準決賽"
     },
     {
       "original": "first round",
-      "conv": "zh-cn:第一轮; zh-hk:第一圈; zh-tw:第一輪;"
+      "conv": "zh-cn:第一轮;zh-hk:第一圈;zh-tw:第一輪"
     },
     {
       "original": "second round",
-      "conv": "zh-cn:第二轮; zh-hk:第二圈; zh-tw:第二輪;"
+      "conv": "zh-cn:第二轮;zh-hk:第二圈;zh-tw:第二輪"
     },
     {
       "original": "third round",
-      "conv": "zh-cn:第三轮; zh-hk:第三圈; zh-tw:第三輪;"
+      "conv": "zh-cn:第三轮;zh-hk:第三圈;zh-tw:第三輪"
     },
     {
       "original": "4th round",
-      "conv": "zh-cn:第四轮; zh-hk:第四圈; zh-tw:第四輪;"
+      "conv": "zh-cn:第四轮;zh-hk:第四圈;zh-tw:第四輪"
     },
     {
       "original": "5th round",
-      "conv": "zh-cn:第五轮; zh-hk:第五圈; zh-tw:第五輪;"
+      "conv": "zh-cn:第五轮;zh-hk:第五圈;zh-tw:第五輪"
     },
     {
       "original": "6th round",
-      "conv": "zh-cn:第六轮; zh-hk:第六圈; zh-tw:第六輪;"
+      "conv": "zh-cn:第六轮;zh-hk:第六圈;zh-tw:第六輪"
     },
     {
       "original": "7th round",
-      "conv": "zh-cn:第七轮; zh-hk:第七圈; zh-tw:第七輪;"
+      "conv": "zh-cn:第七轮;zh-hk:第七圈;zh-tw:第七輪"
     },
     {
       "original": "8th round",
-      "conv": "zh-cn:第八轮; zh-hk:第八圈; zh-tw:第八輪;"
+      "conv": "zh-cn:第八轮;zh-hk:第八圈;zh-tw:第八輪"
     },
     {
       "original": "9th round",
-      "conv": "zh-cn:第九轮; zh-hk:第九圈; zh-tw:第九輪;"
+      "conv": "zh-cn:第九轮;zh-hk:第九圈;zh-tw:第九輪"
     },
     {
       "original": "10th round",
-      "conv": "zh-cn:第十轮; zh-hk:第十圈; zh-tw:第十輪;"
+      "conv": "zh-cn:第十轮;zh-hk:第十圈;zh-tw:第十輪"
     },
     {
       "original": "alternate reality game",
-      "conv": "zh-cn:侵入式虚拟现实游戏; zh-tw:另類實境遊戲; zh-hk:另類實境遊戲;"
+      "conv": "zh-cn:侵入式虚拟现实游戏;zh-tw:另類實境遊戲;zh-hk:另類實境遊戲"
     },
     {
       "original": "augmented reality",
-      "conv": "zh-cn:增强现实; zh-tw:擴增實境; zh-hk:擴張實境;"
+      "conv": "zh-cn:增强现实;zh-tw:擴增實境;zh-hk:擴張實境"
     },
     {
       "original": "first-person",
-      "conv": "第一身=>zh-cn:第一人称; 第一身=>zh-sg:第一人称; 第一身=>zh-my:第一人称;"
+      "conv": "第一身=>zh-cn:第一人称;第一身=>zh-sg:第一人称;第一身=>zh-my:第一人称"
     },
     {
       "original": "head-up display",
-      "conv": "zh-cn:平视显示器; zh-tw:抬頭顯示器;"
+      "conv": "zh-cn:平视显示器;zh-tw:抬頭顯示器"
     },
     {
       "original": "kakin",
-      "conv": "氪金=>zh-tw:課金; 氪金=>zh-hk:課金; 氪金=>zh-mo:課金;"
+      "conv": "氪金=>zh-tw:課金;氪金=>zh-hk:課金;氪金=>zh-mo:課金"
     },
     {
       "original": "naked eye",
-      "conv": "zh-cn:裸眼; zh-hk:裸眼; zh-tw:裸視;"
+      "conv": "zh-cn:裸眼;zh-hk:裸眼;zh-tw:裸視"
     },
     {
       "original": "practice",
-      "conv": "zh-cn:练级; zh-tw:練功;"
+      "conv": "zh-cn:练级;zh-tw:練功"
     },
     {
       "original": "project",
-      "conv": "zh-cn:项目; zh-tw:專案;"
+      "conv": "zh-cn:项目;zh-tw:專案"
     },
     {
       "original": "project",
-      "conv": "計畫=>zh-cn:项目; 計畫=>zh-sg:项目; 計畫=>zh-my:计划; 計畫=>zh-hk:計劃; 計畫=>zh-mo:計劃;"
+      "conv": "計畫=>zh-cn:项目;計畫=>zh-sg:项目;計畫=>zh-my:计划;計畫=>zh-hk:計劃;計畫=>zh-mo:計劃"
     },
     {
       "original": "quality",
-      "conv": "質素=>zh-cn:质量; 質素=>zh-tw:品質; 質素=>zh-sg:质量;"
+      "conv": "質素=>zh-cn:质量;質素=>zh-tw:品質;質素=>zh-sg:质量"
     },
     {
       "original": "third-person",
-      "conv": "第三身=>zh-cn:第三人称; 第三身=>zh-sg:第三人称; 第三身=>zh-my:第三人称;"
+      "conv": "第三身=>zh-cn:第三人称;第三身=>zh-sg:第三人称;第三身=>zh-my:第三人称"
     },
     {
       "original": "top up",
-      "conv": "zh-cn:充值; zh-tw:儲值;"
+      "conv": "zh-cn:充值;zh-tw:儲值"
     },
     {
       "original": "Tomb Raider",
-      "conv": "zh-cn:古墓丽影; zh-tw:古墓奇兵; zh-hk:盜墓者羅拉; zh-sg:古墓奇兵;"
+      "conv": "zh-cn:古墓丽影;zh-tw:古墓奇兵;zh-hk:盜墓者羅拉;zh-sg:古墓奇兵"
     },
     {
       "original": "Tomb Raider: Anniversary",
-      "conv": "zh-cn:古墓丽影：十周年纪念版; zh-tw:古墓奇兵：重返禁地; zh-hk:盜墓者羅拉：重返禁地;"
+      "conv": "zh-cn:古墓丽影：十周年纪念版;zh-tw:古墓奇兵：重返禁地;zh-hk:盜墓者羅拉：重返禁地"
     },
     {
       "original": "Tomb Raider: Chronicles",
-      "conv": "zh-cn:古墓丽影：历代记; zh-tw:古墓奇兵：回憶錄; zh-hk:盜墓者羅拉：回憶錄;"
+      "conv": "zh-cn:古墓丽影：历代记;zh-tw:古墓奇兵：回憶錄;zh-hk:盜墓者羅拉：回憶錄"
     },
     {
       "original": "Tomb Raider: Legend",
-      "conv": "zh-cn:古墓丽影：传奇; zh-tw:古墓奇兵：不死傳奇; zh-hk:盜墓者羅拉：不死傳奇;"
+      "conv": "zh-cn:古墓丽影：传奇;zh-tw:古墓奇兵：不死傳奇;zh-hk:盜墓者羅拉：不死傳奇"
     },
     {
       "original": "Tomb Raider: The Angel of Darkness",
-      "conv": "zh-cn:古墓丽影：黑暗天使; zh-tw:古墓奇兵：暗黑天使; zh-hk:盜墓者羅拉：黑暗天使;"
+      "conv": "zh-cn:古墓丽影：黑暗天使;zh-tw:古墓奇兵：暗黑天使;zh-hk:盜墓者羅拉：黑暗天使"
     },
     {
       "original": "Tomb Raider: Underworld",
-      "conv": "zh-cn:古墓丽影：地下世界; zh-tw:古墓奇兵：地城奪寶; zh-hk:盜墓者羅拉：地城奪寶;"
+      "conv": "zh-cn:古墓丽影：地下世界;zh-tw:古墓奇兵：地城奪寶;zh-hk:盜墓者羅拉：地城奪寶"
     },
     {
       "original": "Empires",
-      "conv": "帝王傳=>zh-cn:帝国; 帝王傳=>zh-sg:帝国;"
+      "conv": "帝王傳=>zh-cn:帝国;帝王傳=>zh-sg:帝国"
     },
     {
       "original": "Multi Raid",
-      "conv": "zh-cn:联合突袭; zh-tw:連袂出擊;"
+      "conv": "zh-cn:联合突袭;zh-tw:連袂出擊"
     },
     {
       "original": "Warriors Orochi",
-      "conv": "zh-cn:无双大蛇系列; zh-tw:無雙OROCHI系列;"
+      "conv": "zh-cn:无双大蛇系列;zh-tw:無雙OROCHI系列"
     },
     {
       "original": "Warriors Orochi",
-      "conv": "zh-cn:无双大蛇; zh-tw:無雙OROCHI;"
+      "conv": "zh-cn:无双大蛇;zh-tw:無雙OROCHI"
     },
     {
       "original": "Warriors Orochi",
-      "conv": "無雙OROCHI 蛇魔 => zh-cn:无双大蛇;"
+      "conv": "無雙OROCHI 蛇魔 => zh-cn:无双大蛇"
     },
     {
       "original": "Warriors Orochi 2",
-      "conv": "zh-cn:魔王再临; zh-tw:蛇魔再臨;"
+      "conv": "zh-cn:魔王再临;zh-tw:蛇魔再臨"
     },
     {
       "original": "Musou Orochi Z",
-      "conv": "zh-cn:无双大蛇Z; zh-tw:無雙OROCHI Z;"
+      "conv": "zh-cn:无双大蛇Z;zh-tw:無雙OROCHI Z"
     },
     {
       "original": "Warriors Orochi 3",
-      "conv": "zh-cn:无双大蛇2; zh-tw:無雙OROCHI 蛇魔2;"
+      "conv": "zh-cn:无双大蛇2;zh-tw:無雙OROCHI 蛇魔2"
     },
     {
       "original": "Warriors Orochi 4",
-      "conv": "zh-cn:无双大蛇3; zh-tw:無雙OROCHI 蛇魔3;"
+      "conv": "zh-cn:无双大蛇3;zh-tw:無雙OROCHI 蛇魔3"
     },
     {
       "original": "Musou Stars",
-      "conv": "zh-cn:无双全明星; zh-tw:無雙☆群星大會串;"
+      "conv": "zh-cn:无双全明星;zh-tw:無雙☆群星大會串"
     },
     {
       "original": "Biohazard",
-      "conv": "zh-cn:生化危机; zh-tw:惡靈古堡; zh-hk:生化危機;"
+      "conv": "zh-cn:生化危机;zh-tw:惡靈古堡;zh-hk:生化危機"
     },
     {
       "original": "Biohazard: Revelations",
-      "conv": "zh-cn:生化危机 启示录; zh-tw:惡靈古堡 啟示; zh-hk:生化危機 啟示;"
+      "conv": "zh-cn:生化危机 启示录;zh-tw:惡靈古堡 啟示;zh-hk:生化危機 啟示"
     },
     {
       "original": "The Darkside Chronicles",
-      "conv": "zh-cn:暗黑编年史; zh-tw:黑暗面編年史;"
+      "conv": "zh-cn:暗黑编年史;zh-tw:黑暗面編年史"
     },
     {
       "original": "Gun Survivor",
-      "conv": "枪下游魂=>zh-tw:生存遊戲;"
+      "conv": "枪下游魂=>zh-tw:生存遊戲"
     },
     {
       "original": "Gun Survivor",
-      "conv": "槍下遊魂=>zh-tw:生存遊戲;"
+      "conv": "槍下遊魂=>zh-tw:生存遊戲"
     },
     {
       "original": "Metal Gear Solid",
-      "conv": "zh-cn:合金装备; zh-tw:潛龍諜影; zh-hk:合金裝備;"
+      "conv": "zh-cn:合金装备;zh-tw:潛龍諜影;zh-hk:合金裝備"
     },
     {
       "original": "The Twin Snakes",
-      "conv": "zh-cn:孪蛇; zh-tw:雙雄爭鋒; zh-hk:孿蛇;"
+      "conv": "zh-cn:孪蛇;zh-tw:雙雄爭鋒;zh-hk:孿蛇"
     },
     {
       "original": "Peace Walker",
-      "conv": "zh-cn:和平行者; zh-tw:和平先驅;"
+      "conv": "zh-cn:和平行者;zh-tw:和平先驅"
     },
     {
       "original": "Rising:Revengeance",
-      "conv": "zh-cn:崛起 复仇; zh-tw:崛起 再復仇;"
+      "conv": "zh-cn:崛起 复仇;zh-tw:崛起 再復仇"
     },
     {
       "original": "Prince of Persia: Rival Swords",
-      "conv": "zh-tw:爭霸之劍; zh-cn:宿敌之剑;"
+      "conv": "zh-tw:爭霸之劍;zh-cn:宿敌之剑"
     },
     {
       "original": "Prince of Persia: The Two Thrones",
-      "conv": "zh-tw:雙刃王座; zh-cn:王者无双;"
+      "conv": "zh-tw:雙刃王座;zh-cn:王者无双"
     },
     {
       "original": "Prince of Persia: Warrior Within",
-      "conv": "zh-tw:侍魂無雙; zh-cn:武者之心;"
+      "conv": "zh-tw:侍魂無雙;zh-cn:武者之心"
     },
     {
       "original": "Uncharted",
-      "conv": "zh-cn:神秘海域; zh-tw:秘境探險;"
+      "conv": "zh-cn:神秘海域;zh-tw:秘境探險"
     },
     {
       "original": "Drake's Fortune",
-      "conv": "zh-cn:德雷克船长的宝藏; zh-tw:黃金城秘寶;"
+      "conv": "zh-cn:德雷克船长的宝藏;zh-tw:黃金城秘寶"
     },
     {
       "original": "Among Thieves",
-      "conv": "zh-cn:纵横四海; zh-tw:盜亦有道;"
+      "conv": "zh-cn:纵横四海;zh-tw:盜亦有道"
     },
     {
       "original": "Drake's Deception",
-      "conv": "zh-cn:德雷克的诡计; zh-tw:德瑞克的騙局;"
+      "conv": "zh-cn:德雷克的诡计;zh-tw:德瑞克的騙局"
     },
     {
       "original": "Kane & Lynch: Dead Men",
-      "conv": "zh-cn:凯恩与林奇：死人; zh-tw:喋血雙雄;"
+      "conv": "zh-cn:凯恩与林奇：死人;zh-tw:喋血雙雄"
     },
     {
       "original": "Kane & Lynch 2: Dog Days",
-      "conv": "zh-cn:凯恩与林奇2：伏天; zh-tw:喋血雙雄2：伏天;"
+      "conv": "zh-cn:凯恩与林奇2：伏天;zh-tw:喋血雙雄2：伏天"
     },
     {
       "original": "Hitman",
-      "conv": "zh-cn:杀手系列; zh-tw:刺客任務系列"
+      "conv": "zh-cn:杀手系列;zh-tw:刺客任務系列"
     },
     {
       "original": "Hitman",
-      "conv": "zh-cn:杀手：; zh-tw:刺客任務：;"
+      "conv": "zh-cn:杀手：;zh-tw:刺客任務："
     },
     {
       "original": "Hitman 2: Silent Assassin",
-      "conv": "zh-cn:杀手2：沉默刺客; zh-tw:刺客任務2：無聲殺手;"
+      "conv": "zh-cn:杀手2：沉默刺客;zh-tw:刺客任務2：無聲殺手"
     },
     {
       "original": "Hitman: Codename 47",
-      "conv": "杀手：代号47=>zh-tw:刺客任務;"
+      "conv": "杀手：代号47=>zh-tw:刺客任務"
     },
     {
       "original": "Hitman：Blood Money",
-      "conv": "zh-cn:杀手：血钱; zh-tw:刺客任務：黑錢交易;"
+      "conv": "zh-cn:杀手：血钱;zh-tw:刺客任務：黑錢交易"
     },
     {
       "original": "Hitman：Contracts",
-      "conv": "zh-cn:杀手：契约; zh-tw:刺客任務：密約浮影;"
+      "conv": "zh-cn:杀手：契约;zh-tw:刺客任務：密約浮影"
     },
     {
       "original": "Assassins Creed",
-      "conv": "zh-cn:刺客信条; zh-tw:刺客教條; zh-hant:刺客信條; zh-hk:刺客教條;"
+      "conv": "zh-cn:刺客信条;zh-tw:刺客教條;zh-hant:刺客信條;zh-hk:刺客教條"
     },
     {
       "original": "Assassin's Creed III: Liberation",
-      "conv": "zh-cn:刺客信条III：解放;zh-hk:刺客信條III：自由使命;zh-tw:刺客教條III：自由使命;"
+      "conv": "zh-cn:刺客信条III：解放;zh-hk:刺客信條III：自由使命;zh-tw:刺客教條III：自由使命"
     },
     {
       "original": "Assassin's Creed Identity",
-      "conv": "zh-cn:刺客信条：本色; zh-tw:刺客教條：英雄; zh-hant:刺客教條：英雄;"
+      "conv": "zh-cn:刺客信条：本色;zh-tw:刺客教條：英雄;zh-hant:刺客教條：英雄"
     },
     {
       "original": "Assassin's Creed Valhalla",
-      "conv": "zh-cn:刺客信条：英灵殿; zh-tw:刺客教條：維京紀元;"
+      "conv": "zh-cn:刺客信条：英灵殿;zh-tw:刺客教條：維京紀元"
     },
     {
       "original": "Arkham",
-      "conv": "zh-cn:阿卡姆; zh-tw:阿卡漢;"
+      "conv": "zh-cn:阿卡姆;zh-tw:阿卡漢"
     },
     {
       "original": "Banjo-Kazooie",
-      "conv": "zh-cn:班卓熊; zh-tw:阿邦阿卡;"
+      "conv": "zh-cn:班卓熊;zh-tw:阿邦阿卡"
     },
     {
       "original": "Bayonetta",
-      "conv": "zh-cn:猎天使魔女; zh-tw:魔兵驚天錄;"
+      "conv": "zh-cn:猎天使魔女;zh-tw:魔兵驚天錄"
     },
     {
       "original": "Bionic Commando",
-      "conv": "zh-cn:生化尖兵; zh-tw:生化突擊隊;"
+      "conv": "zh-cn:生化尖兵;zh-tw:生化突擊隊"
     },
     {
       "original": "Bloodstained: Ritual of the Night",
-      "conv": "zh-cn:血污：夜之仪式; zh-tw:血咒之城：暗夜儀式;"
+      "conv": "zh-cn:血污：夜之仪式;zh-tw:血咒之城：暗夜儀式"
     },
     {
       "original": "Chaos Theory",
-      "conv": "zh-cn:混沌法则; zh-tw:混沌理論;"
+      "conv": "zh-cn:混沌法则;zh-tw:混沌理論"
     },
     {
       "original": "Crash Bandicoot",
-      "conv": "zh-cn:古惑狼; zh-tw:袋狼大進擊;"
+      "conv": "zh-cn:古惑狼;zh-tw:袋狼大進擊"
     },
     {
       "original": "Darksiders",
-      "conv": "zh-cn:暗黑血统; zh-tw:末世騎士;"
+      "conv": "zh-cn:暗黑血统;zh-tw:末世騎士"
     },
     {
       "original": "Dead Rising",
-      "conv": "zh-cn:丧尸围城; zh-tw:死亡復甦;"
+      "conv": "zh-cn:丧尸围城;zh-tw:死亡復甦"
     },
     {
       "original": "Devil May Cry",
-      "conv": "zh-cn:鬼泣; zh-tw:惡魔獵人;"
+      "conv": "zh-cn:鬼泣;zh-tw:惡魔獵人"
     },
     {
       "original": "Dragon's Crown",
-      "conv": "zh-cn:龙之皇冠; zh-tw:魔龍寶冠;"
+      "conv": "zh-cn:龙之皇冠;zh-tw:魔龍寶冠"
     },
     {
       "original": "Dying Light",
-      "conv": "zh-cn:消逝的光芒; zh-tw:垂死之光;"
+      "conv": "zh-cn:消逝的光芒;zh-tw:垂死之光"
     },
     {
       "original": "Eternal Darkness: Sanity s Requiem",
-      "conv": "zh-cn:无尽黑暗; zh-tw:永恆之闇;"
+      "conv": "zh-cn:无尽黑暗;zh-tw:永恆之闇"
     },
     {
       "original": "Fortnite",
-      "conv": "zh-cn:堡垒之夜; zh-tw:要塞英雄;"
+      "conv": "zh-cn:堡垒之夜;zh-tw:要塞英雄"
     },
     {
       "original": "Heavenly Sword",
-      "conv": "zh-cn:天剑; zh-tw:玄天神劍;"
+      "conv": "zh-cn:天剑;zh-tw:玄天神劍"
     },
     {
       "original": "Horizon Zero Dawn",
-      "conv": "zh-cn:地平线：零之曙光; zh-tw:地平線：期待黎明;"
+      "conv": "zh-cn:地平线：零之曙光;zh-tw:地平線：期待黎明"
     },
     {
       "original": "Max Payne",
-      "conv": "zh-cn:马克思·佩恩; zh-tw:江湖本色; zh-hk:英雄本色;"
+      "conv": "zh-cn:马克思·佩恩;zh-tw:江湖本色;zh-hk:英雄本色"
     },
     {
       "original": "Mafia",
-      "conv": "zh-cn:黑手党; zh-hk:四海兄弟; zh-tw:四海兄弟;"
+      "conv": "zh-cn:黑手党;zh-hk:四海兄弟;zh-tw:四海兄弟"
     },
     {
       "original": "Mirror's Edge",
-      "conv": "zh-cn:镜之边缘; zh-tw:靚影特務;"
+      "conv": "zh-cn:镜之边缘;zh-tw:靚影特務"
     },
     {
       "original": "Mirror's Edge Catalyst",
-      "conv": "zh-cn:镜之边缘 催化剂; zh-tw:靚影特務：關鍵催化;"
+      "conv": "zh-cn:镜之边缘 催化剂;zh-tw:靚影特務：關鍵催化"
     },
     {
       "original": "Monster Hunter",
-      "conv": "zh-cn:怪物猎人; zh-tw:魔物獵人;"
+      "conv": "zh-cn:怪物猎人;zh-tw:魔物獵人"
     },
     {
       "original": "New Play Control!",
-      "conv": "zh-cn:用Wii玩; zh-tw:以Wii遊玩;"
+      "conv": "zh-cn:用Wii玩;zh-tw:以Wii遊玩"
     },
     {
       "original": "Ninja Gaiden",
-      "conv": "忍者外傳=>zh-cn:忍者龙剑传; 忍者外傳=>zh-sg:忍者龙剑传;"
+      "conv": "忍者外傳=>zh-cn:忍者龙剑传;忍者外傳=>zh-sg:忍者龙剑传"
     },
     {
       "original": "OneeChanbara",
-      "conv": "zh-cn:御姐玫瑰; zh-tw:性感女劍士;"
+      "conv": "zh-cn:御姐玫瑰;zh-tw:性感女劍士"
     },
     {
       "original": "Pandora",
-      "conv": "zh-cn:潘多拉; zh-tw:潘朵拉;"
+      "conv": "zh-cn:潘多拉;zh-tw:潘朵拉"
     },
     {
       "original": "Princess Crown",
-      "conv": "zh-cn:公主皇冠; zh-tw:公主之冕;"
+      "conv": "zh-cn:公主皇冠;zh-tw:公主之冕"
     },
     {
       "original": "Prototype",
-      "conv": "zh-cn:虐杀原形; zh-tw:原型兵器;"
+      "conv": "zh-cn:虐杀原形;zh-tw:原型兵器"
     },
     {
       "original": "Quantum Break",
-      "conv": "zh-cn:量子破碎; zh-tw:量子裂痕;"
+      "conv": "zh-cn:量子破碎;zh-tw:量子裂痕"
     },
     {
       "original": "Ratchet & Clank",
-      "conv": "zh-cn:瑞奇与叮当; zh-tw:拉捷特與克拉克;"
+      "conv": "zh-cn:瑞奇与叮当;zh-tw:拉捷特與克拉克"
     },
     {
       "original": "Rayman",
-      "conv": "zh-cn:雷曼; zh-tw:雷射超人;"
+      "conv": "zh-cn:雷曼;zh-tw:雷射超人"
     },
     {
       "original": "Red Dead Redemption series",
-      "conv": "zh-cn:荒野大镖客系列; zh-tw:碧血狂殺系列;"
+      "conv": "zh-cn:荒野大镖客系列;zh-tw:碧血狂殺系列"
     },
     {
       "original": "Red Dead Redemption",
-      "conv": "zh-cn:荒野大镖客：救赎; zh-tw:碧血狂殺;"
+      "conv": "zh-cn:荒野大镖客：救赎;zh-tw:碧血狂殺"
     },
     {
       "original": "Red Faction",
-      "conv": "zh-cn:红色派系; zh-tw:赤色戰線;"
+      "conv": "zh-cn:红色派系;zh-tw:赤色戰線"
     },
     {
       "original": "Ryu ga Gotoku",
-      "conv": "zh-cn:如龙; zh-tw:人中之龍;"
+      "conv": "zh-cn:如龙;zh-tw:人中之龍"
     },
     {
       "original": "Saints Row",
-      "conv": "zh-cn:黑道圣徒; zh-tw:黑街聖徒;"
+      "conv": "zh-cn:黑道圣徒;zh-tw:黑街聖徒"
     },
     {
       "original": "Silent Hill",
-      "conv": "zh-cn:寂静岭; zh-tw:沉默之丘; zh-hk:鬼魅山房;"
+      "conv": "zh-cn:寂静岭;zh-tw:沉默之丘;zh-hk:鬼魅山房"
     },
     {
       "original": "Sleeping Dogs",
-      "conv": "zh-cn:热血无赖; zh-tw:睡犬; zh-hk:香港秘密警察;"
+      "conv": "zh-cn:热血无赖;zh-tw:睡犬;zh-hk:香港秘密警察"
     },
     {
       "original": "Soul Sacrifice",
-      "conv": "zh-cn:灵魂献祭; zh-tw:闇魂獻祭;"
+      "conv": "zh-cn:灵魂献祭;zh-tw:闇魂獻祭"
     },
     {
       "original": "Spider-Man",
-      "conv": "zh-cn:蜘蛛侠; zh-tw:蜘蛛人; zh-hk:蜘蛛俠;"
+      "conv": "zh-cn:蜘蛛侠;zh-tw:蜘蛛人;zh-hk:蜘蛛俠"
     },
     {
       "original": "Splinter Cell",
-      "conv": "zh-cn:细胞分裂; zh-tw:縱橫諜海;"
+      "conv": "zh-cn:细胞分裂;zh-tw:縱橫諜海"
     },
     {
       "original": "The Evil Within",
-      "conv": "zh-cn:恶灵附身; zh-tw:邪靈入侵;"
+      "conv": "zh-cn:恶灵附身;zh-tw:邪靈入侵"
     },
     {
       "original": "Vice City",
-      "conv": "zh-cn:罪恶都市; zh-tw:罪惡城市;"
+      "conv": "zh-cn:罪恶都市;zh-tw:罪惡城市"
     },
     {
       "original": "Viewtiful Joe",
-      "conv": "zh-cn:红侠乔伊; zh-tw:完美超人Joe;"
+      "conv": "zh-cn:红侠乔伊;zh-tw:完美超人Joe"
     },
     {
       "original": "X-BLADES",
-      "conv": "zh-cn:鬼刃; zh-tw:X級美少女;"
+      "conv": "zh-cn:鬼刃;zh-tw:X級美少女"
     },
     {
       "original": "Beyond: Two Souls",
-      "conv": "zh-cn:超凡双生; zh-tw:超能殺機：兩個靈魂;"
+      "conv": "zh-cn:超凡双生;zh-tw:超能殺機：兩個靈魂"
     },
     {
       "original": "Danganronpa",
-      "conv": "zh-cn:弹丸论破; zh-tw:槍彈辯駁;"
+      "conv": "zh-cn:弹丸论破;zh-tw:槍彈辯駁"
     },
     {
       "original": "Dream C Club",
-      "conv": "zh-cn:梦幻俱乐部; zh-tw:美夢俱樂部;"
+      "conv": "zh-cn:梦幻俱乐部;zh-tw:美夢俱樂部"
     },
     {
       "original": "Heavy Rain",
-      "conv": "暴雨殺機=>zh-cn:暴雨; 暴雨殺機=>zh-sg:暴雨;"
+      "conv": "暴雨殺機=>zh-cn:暴雨;暴雨殺機=>zh-sg:暴雨"
     },
     {
       "original": "Tokimeki Memorial",
-      "conv": "zh-cn:心跳回忆; zh-tw:純愛手札; zh-hk:心跳回憶;"
+      "conv": "zh-cn:心跳回忆;zh-tw:純愛手札;zh-hk:心跳回憶"
     },
     {
       "original": "Valiant Hearts: The Great War",
-      "conv": "zh-cn:勇敢的心：世界大战; zh-tw:英勇之心：偉大戰爭;"
+      "conv": "zh-cn:勇敢的心：世界大战;zh-tw:英勇之心：偉大戰爭"
     },
     {
       "original": "When They Cry 3",
-      "conv": "zh-cn:海猫鸣泣之时; zh-tw:海貓悲鳴時; zh-hk:海貓鳴泣之時;"
+      "conv": "zh-cn:海猫鸣泣之时;zh-tw:海貓悲鳴時;zh-hk:海貓鳴泣之時"
     },
     {
       "original": "When They Cry",
-      "conv": "zh-cn:寒蝉鸣泣之时; zh-tw:暮蟬悲鳴時; zh-hk:寒蟬鳴泣之時;"
+      "conv": "zh-cn:寒蝉鸣泣之时;zh-tw:暮蟬悲鳴時;zh-hk:寒蟬鳴泣之時"
     },
     {
       "original": "Life Is Strange",
-      "conv": "zh-cn:奇异人生; zh-tw:奇妙人生;"
+      "conv": "zh-cn:奇异人生;zh-tw:奇妙人生"
     },
     {
       "original": "Life Is Strange: Before the Storm",
-      "conv": "zh-cn:奇异人生：暴风前夕; zh-tw:奇妙人生：風暴之前;"
+      "conv": "zh-cn:奇异人生：暴风前夕;zh-tw:奇妙人生：風暴之前"
     },
     {
       "original": "Zero Escape: Virtue's Last Reward",
-      "conv": "zh-cn:极限脱出ADV 善人死亡; zh-hant:極限逃脫ADV 好人不長命;"
+      "conv": "zh-cn:极限脱出ADV 善人死亡;zh-hant:極限逃脫ADV 好人不長命"
     },
     {
       "original": "Dead or Alive",
-      "conv": "zh-cn:死或生; zh-tw:生死格鬥;"
+      "conv": "zh-cn:死或生;zh-tw:生死格鬥"
     },
     {
       "original": "Final Fight",
-      "conv": "zh-cn:快打旋风; zh-tw:街頭快打;"
+      "conv": "zh-cn:快打旋风;zh-tw:街頭快打"
     },
     {
       "original": "Guilty Gear",
-      "conv": "zh-cn:罪恶装备; zh-tw:聖騎士之戰; zh-hk:罪惡裝備;"
+      "conv": "zh-cn:罪恶装备;zh-tw:聖騎士之戰;zh-hk:罪惡裝備"
     },
     {
       "original": "Injustice: Gods Among Us",
-      "conv": "zh-cn:不义联盟：人间之神; zh-tw:超級英雄：武力對決;"
+      "conv": "zh-cn:不义联盟：人间之神;zh-tw:超級英雄：武力對決"
     },
     {
       "original": "Killer Instinct",
-      "conv": "zh-hans:杀手本能; zh-hant:殺手本能;"
+      "conv": "zh-hans:杀手本能;zh-hant:殺手本能"
     },
     {
       "original": "King of Fighters",
-      "conv": "zh-cn:拳皇; zh-hk:拳皇; zh-tw:格鬥天王;"
+      "conv": "zh-cn:拳皇;zh-hk:拳皇;zh-tw:格鬥天王"
     },
     {
       "original": "Power Stone",
-      "conv": "zh-cn:能量宝石; zh-tw:力石戰士;"
+      "conv": "zh-cn:能量宝石;zh-tw:力石戰士"
     },
     {
       "original": "Soulcalibur",
-      "conv": "zh-cn:灵魂能力; zh-tw:劍魂; zh-hk:靈魂能力;"
+      "conv": "zh-cn:灵魂能力;zh-tw:劍魂;zh-hk:靈魂能力"
     },
     {
       "original": "Street Fighter",
-      "conv": "zh-cn:街头霸王; zh-tw:快打旋風; zh-hk:街頭霸王;"
+      "conv": "zh-cn:街头霸王;zh-tw:快打旋風;zh-hk:街頭霸王"
     },
     {
       "original": "Virtua Fighter",
-      "conv": "zh-cn:VR战士; zh-tw:VR快打;"
+      "conv": "zh-cn:VR战士;zh-tw:VR快打"
     },
     {
       "original": "Virtua Fighter",
-      "conv": "VR战士=>zh-hk:Virtua Fighter;"
+      "conv": "VR战士=>zh-hk:Virtua Fighter"
     },
     {
       "original": "Virtua Fighter",
-      "conv": "VR快打=>zh-hk:Virtua Fighter;"
+      "conv": "VR快打=>zh-hk:Virtua Fighter"
     },
     {
       "original": "Dreamy Theater",
-      "conv": "zh-cn:梦幻剧场; zh-tw:夢幻劇院; zh-hk:夢幻劇場; zh-mo:夢幻劇場;"
+      "conv": "zh-cn:梦幻剧场;zh-tw:夢幻劇院;zh-hk:夢幻劇場;zh-mo:夢幻劇場"
     },
     {
       "original": "Project DIVA",
-      "conv": "zh-cn:歌姬计划; zh-tw:名伶計畫; zh-hk:歌姬計劃; zh-mo:歌姬計劃;"
+      "conv": "zh-cn:歌姬计划;zh-tw:名伶計畫;zh-hk:歌姬計劃;zh-mo:歌姬計劃"
     },
     {
       "original": "Angry Birds",
-      "conv": "zh-cn:愤怒的小鸟; zh-tw:憤怒鳥;"
+      "conv": "zh-cn:愤怒的小鸟;zh-tw:憤怒鳥"
     },
     {
       "original": "Bomberman",
-      "conv": "zh-cn:炸弹人; zh-tw:轟炸超人; zh-hk:炸彈人;"
+      "conv": "zh-cn:炸弹人;zh-tw:轟炸超人;zh-hk:炸彈人"
     },
     {
       "original": "Cooking Mama",
-      "conv": "zh-cn:料理妈妈; zh-tw:妙廚老媽;"
+      "conv": "zh-cn:料理妈妈;zh-tw:妙廚老媽"
     },
     {
       "original": "Crazy Arcade",
-      "conv": "zh-cn:泡泡堂; zh-tw:爆爆王;"
+      "conv": "zh-cn:泡泡堂;zh-tw:爆爆王"
     },
     {
       "original": "Fortune Street",
-      "conv": "zh-cn:富豪街; zh-tw:人生街道;"
+      "conv": "zh-cn:富豪街;zh-tw:人生街道"
     },
     {
       "original": "Lips",
-      "conv": "zh-cn:高歌红唇; zh-tw:音樂派對;"
+      "conv": "zh-cn:高歌红唇;zh-tw:音樂派對"
     },
     {
       "original": "Made in Ore",
-      "conv": "zh-cn:俺自己制造; zh-tw:本大爺工坊;"
+      "conv": "zh-cn:俺自己制造;zh-tw:本大爺工坊"
     },
     {
       "original": "Made in Wario",
-      "conv": "zh-cn:瓦里奥制造; zh-tw:壞利歐工坊;"
+      "conv": "zh-cn:瓦里奥制造;zh-tw:壞利歐工坊"
     },
     {
       "original": "Pac-Man",
-      "conv": "吃豆人=>zh-hk:食鬼; 吃豆人=>zh-tw:小精靈;"
+      "conv": "吃豆人=>zh-hk:食鬼;吃豆人=>zh-tw:小精靈"
     },
     {
       "original": "Patapon",
-      "conv": "zh-cn:啪嗒砰; zh-tw:戰鼓啪打碰; zh-hk:啪嗒砰;"
+      "conv": "zh-cn:啪嗒砰;zh-tw:戰鼓啪打碰;zh-hk:啪嗒砰"
     },
     {
       "original": "Puyopuyo",
-      "conv": "zh-cn:噗呦噗呦; zh-tw:魔法氣泡;"
+      "conv": "zh-cn:噗呦噗呦;zh-tw:魔法氣泡"
     },
     {
       "original": "Puzzle & Dragons",
-      "conv": "zh-cn:智龙迷城; zh-tw:龍族拼圖;"
+      "conv": "zh-cn:智龙迷城;zh-tw:龍族拼圖"
     },
     {
       "original": "Taiko no Tatsujin",
-      "conv": "zh-cn:太鼓达人; zh-tw:太鼓之達人;"
+      "conv": "zh-cn:太鼓达人;zh-tw:太鼓之達人"
     },
     {
       "original": "Carbon",
-      "conv": "zh-cn:生死卡本谷; zh-tw:玩命山道;"
+      "conv": "zh-cn:生死卡本谷;zh-tw:玩命山道"
     },
     {
       "original": "High Stakes",
-      "conv": "zh-cn:孤注一掷; zh-tw:致命追擊;"
+      "conv": "zh-cn:孤注一掷;zh-tw:致命追擊"
     },
     {
       "original": "Hot Pursuit (2010)",
-      "conv": "zh-cn:热力追踪; zh-tw:超熱力追緝;"
+      "conv": "zh-cn:热力追踪;zh-tw:超熱力追緝"
     },
     {
       "original": "Hot Pursuit",
-      "conv": "zh-cn:闪电追踪; zh-tw:熱力追緝;"
+      "conv": "zh-cn:闪电追踪;zh-tw:熱力追緝"
     },
     {
       "original": "Most Wanted (2012)",
-      "conv": "zh-cn:最高通缉; zh-tw:新全民公敵;"
+      "conv": "zh-cn:最高通缉;zh-tw:新全民公敵"
     },
     {
       "original": "Most Wanted",
-      "conv": "zh-cn:无间追踪; zh-tw:全民公敵;"
+      "conv": "zh-cn:无间追踪;zh-tw:全民公敵"
     },
     {
       "original": "Nitro",
-      "conv": "絕影狂飆=>zh-cn:氮气;"
+      "conv": "絕影狂飆=>zh-cn:氮气"
     },
     {
       "original": "No Limits",
-      "conv": "零極限=>zh-cn:无限;"
+      "conv": "零極限=>zh-cn:无限"
     },
     {
       "original": "Porsche",
-      "conv": "zh-cn:保时捷之旅; zh-tw:保時捷的榮耀;"
+      "conv": "zh-cn:保时捷之旅;zh-tw:保時捷的榮耀"
     },
     {
       "original": "Pro Street",
-      "conv": "zh-cn:街头狂飙; zh-tw:職業街頭;"
+      "conv": "zh-cn:街头狂飙;zh-tw:職業街頭"
     },
     {
       "original": "Rivals",
-      "conv": "生存競速=>zh-cn:宿敌;"
+      "conv": "生存競速=>zh-cn:宿敌"
     },
     {
       "original": "Shift 2: Unleashed",
-      "conv": "zh-cn:变速2：释放; zh-tw:進化世代2：全面解放;"
+      "conv": "zh-cn:变速2：释放;zh-tw:進化世代2：全面解放"
     },
     {
       "original": "Shift",
-      "conv": "進化世代=>zh-cn:变速;"
+      "conv": "進化世代=>zh-cn:变速"
     },
     {
       "original": "The Run",
-      "conv": "zh-cn:亡命狂飙; zh-tw:亡命天涯;"
+      "conv": "zh-cn:亡命狂飙;zh-tw:亡命天涯"
     },
     {
       "original": "Undercover",
-      "conv": "zh-cn:无间风云; zh-tw:臥底風雲;"
+      "conv": "zh-cn:无间风云;zh-tw:臥底風雲"
     },
     {
       "original": "Underground",
-      "conv": "zh-cn:地下车会; zh-tw:飆風再起;"
+      "conv": "zh-cn:地下车会;zh-tw:飆風再起"
     },
     {
       "original": "Burnout Revenge",
-      "conv": "zh-cn:火爆狂飙 复仇; zh-tw:橫衝直撞 復仇之道;"
+      "conv": "zh-cn:火爆狂飙 复仇;zh-tw:橫衝直撞 復仇之道"
     },
     {
       "original": "Burnout",
-      "conv": "zh-cn:火爆狂飙; zh-tw:橫衝直撞;"
+      "conv": "zh-cn:火爆狂飙;zh-tw:橫衝直撞"
     },
     {
       "original": "Colin McRae Rally",
-      "conv": "zh-cn:科林·麦克雷拉力赛; zh-tw:越野菁英賽;"
+      "conv": "zh-cn:科林·麦克雷拉力赛;zh-tw:越野菁英賽"
     },
     {
       "original": "Crazy Taxi",
-      "conv": "zh-cn:疯狂出租车; zh-tw:瘋狂計程車;"
+      "conv": "zh-cn:疯狂出租车;zh-tw:瘋狂計程車"
     },
     {
       "original": "DiRT",
-      "conv": "zh-cn:尘埃; zh-tw:大地長征;"
+      "conv": "zh-cn:尘埃;zh-tw:大地長征"
     },
     {
       "original": "Excite Truck",
-      "conv": "zh-cn:激情卡车; zh-tw:狂飆卡車;"
+      "conv": "zh-cn:激情卡车;zh-tw:狂飆卡車"
     },
     {
       "original": "Gran Turismo",
-      "conv": "zh-cn:GT赛车; zh-tw:跑車浪漫旅; zh-hk:GT賽車;"
+      "conv": "zh-cn:GT赛车;zh-tw:跑車浪漫旅;zh-hk:GT賽車"
     },
     {
       "original": "GRID",
-      "conv": "zh-cn:超级房车赛 起点; zh-tw:極速房車賽 街頭賽車;"
+      "conv": "zh-cn:超级房车赛 起点;zh-tw:極速房車賽 街頭賽車"
     },
     {
       "original": "Midnight Club",
-      "conv": "zh-cn:湾岸午夜俱乐部; zh-tw:灣岸;"
+      "conv": "zh-cn:湾岸午夜俱乐部;zh-tw:灣岸"
     },
     {
       "original": "Motor Storm",
-      "conv": "zh-cn:机车风暴; zh-tw:摩托風暴;"
+      "conv": "zh-cn:机车风暴;zh-tw:摩托風暴"
     },
     {
       "original": "NASCAR",
-      "conv": "zh-cn:纳斯卡赛车; zh-tw:雲斯頓賽車;"
+      "conv": "zh-cn:纳斯卡赛车;zh-tw:雲斯頓賽車"
     },
     {
       "original": "Project Gotham Racing",
-      "conv": "zh-cn:哥谭赛车计划; zh-tw:世界街頭賽車;"
+      "conv": "zh-cn:哥谭赛车计划;zh-tw:世界街頭賽車"
     },
     {
       "original": "Real Racing",
-      "conv": "zh-cn:真实赛车; zh-tw:狂飆賽車;"
+      "conv": "zh-cn:真实赛车;zh-tw:狂飆賽車"
     },
     {
       "original": "Ridge Racers",
-      "conv": "zh-cn:山脊赛车; zh-tw:實感賽車;"
+      "conv": "zh-cn:山脊赛车;zh-tw:實感賽車"
     },
     {
       "original": "Special Force 2",
-      "conv": "zh-cn:风暴战区; zh-tw:特種部隊2 Online;"
+      "conv": "zh-cn:风暴战区;zh-tw:特種部隊2 Online"
     },
     {
       "original": "Test Drive Unlimited",
-      "conv": "zh-cn:无限试驾; zh-tw:車魂：無限賽;"
+      "conv": "zh-cn:无限试驾;zh-tw:車魂：無限賽"
     },
     {
       "original": "Test Drive",
-      "conv": "zh-cn:试驾; zh-tw:車魂;"
+      "conv": "zh-cn:试驾;zh-tw:車魂"
     },
     {
       "original": "Wipeout",
-      "conv": "zh-cn:反重力赛车; zh-tw:磁浮飛車;"
+      "conv": "zh-cn:反重力赛车;zh-tw:磁浮飛車"
     },
     {
       "original": "Deca Sports",
-      "conv": "zh-cn:十项全能; zh-tw:運動大集錦;"
+      "conv": "zh-cn:十项全能;zh-tw:運動大集錦"
     },
     {
       "original": "Everybody's Golf",
-      "conv": "zh-cn:大众高尔夫; zh-tw:全民高爾夫;"
+      "conv": "zh-cn:大众高尔夫;zh-tw:全民高爾夫"
     },
     {
       "original": "FIFA",
-      "conv": "zh-cn:FIFA; zh-tw:國際足盟大賽; zh-hk:FIFA;"
+      "conv": "zh-cn:FIFA;zh-tw:國際足盟大賽;zh-hk:FIFA"
     },
     {
       "original": "G1 Jockey",
-      "conv": "zh-cn:G1骑师; zh-tw:騎師之道;"
+      "conv": "zh-cn:G1骑师;zh-tw:騎師之道"
     },
     {
       "original": "Madden NFL",
-      "conv": "zh-cn:麦登橄榄球; zh-tw:勁爆美式足球;"
+      "conv": "zh-cn:麦登橄榄球;zh-tw:勁爆美式足球"
     },
     {
       "original": "NBA LIVE",
-      "conv": "zh-cn:NBA Live ; zh-tw:勁爆美國職籃; zh-hk:NBA Live ;"
+      "conv": "zh-cn:NBA Live ;zh-tw:勁爆美國職籃;zh-hk:NBA Live "
     },
     {
       "original": "Pro Evolution Soccer",
-      "conv": "zh-cn:实况足球; zh-hk:實況足球; zh-sg:实况足球; zh-tw:世界足球競賽;"
+      "conv": "zh-cn:实况足球;zh-hk:實況足球;zh-sg:实况足球;zh-tw:世界足球競賽"
     },
     {
       "original": "Skate",
-      "conv": "極限滑板=>zh-cn:滑板; "
+      "conv": "極限滑板=>zh-cn:滑板"
     },
     {
       "original": "Snowboard Kids",
-      "conv": "zh-cn:滑雪少年; zh-tw:滑雪板小子;"
+      "conv": "zh-cn:滑雪少年;zh-tw:滑雪板小子"
     },
     {
       "original": "SSX",
-      "conv": "zh-cn:极限滑雪; zh-tw:疾風滑雪板;"
+      "conv": "zh-cn:极限滑雪;zh-tw:疾風滑雪板"
     },
     {
       "original": "Tony Hawk",
-      "conv": "zh-cn:托尼霍克滑板; zh-tw:湯尼霍克;"
+      "conv": "zh-cn:托尼霍克滑板;zh-tw:湯尼霍克"
     },
     {
       "original": "Top Spin",
-      "conv": "zh-cn:上旋高手; zh-tw:職業網球大聯盟;"
+      "conv": "zh-cn:上旋高手;zh-tw:職業網球大聯盟"
     },
     {
       "original": "Virtua Tennis",
-      "conv": "zh-cn:VR网球; zh-tw:威力網球;"
+      "conv": "zh-cn:VR网球;zh-tw:威力網球"
     },
     {
       "original": "Hordes of the Underdark",
-      "conv": "zh-tw:黯影謎咒; zh-cn:幽城魔影;"
+      "conv": "zh-tw:黯影謎咒;zh-cn:幽城魔影"
     },
     {
       "original": "Neverwinter Nights: Kingmaker",
-      "conv": "zh-tw:絕冬城之夜：國王密令; zh-cn:无冬之夜：拥王者;"
+      "conv": "zh-tw:絕冬城之夜：國王密令;zh-cn:无冬之夜：拥王者"
     },
     {
       "original": "Neverwinter Nights",
-      "conv": "zh-tw:絕冬城之夜; zh-cn:无冬之夜;"
+      "conv": "zh-tw:絕冬城之夜;zh-cn:无冬之夜"
     },
     {
       "original": "Neverwinter",
-      "conv": "zh-tw:絕冬; zh-cn:无冬;"
+      "conv": "zh-tw:絕冬;zh-cn:无冬"
     },
     {
       "original": "Shadows of Undrentide",
-      "conv": "zh-tw:黯影之心; zh-cn:古城阴影;"
+      "conv": "zh-tw:黯影之心;zh-cn:古城阴影"
     },
     {
       "original": "Storm of Zehir",
-      "conv": "zh-tw:邪神降臨; zh-cn:泽希尔的风暴;"
+      "conv": "zh-tw:邪神降臨;zh-cn:泽希尔的风暴"
     },
     {
       "original": "Zelda",
-      "conv": "zh-cn:塞尔达; zh-tw:薩爾達;"
+      "conv": "zh-cn:塞尔达;zh-tw:薩爾達"
     },
     {
       "original": "A Link to the Past",
-      "conv": "zh-cn:众神的三角力量; zh-tw:眾神的三角神力;"
+      "conv": "zh-cn:众神的三角力量;zh-tw:眾神的三角神力"
     },
     {
       "original": "Majora",
-      "conv": "zh-cn:姆吉拉; zh-tw:穆修拉; zh-hk:姆吉拉;"
+      "conv": "zh-cn:姆吉拉;zh-tw:穆修拉;zh-hk:姆吉拉"
     },
     {
       "original": "Oracle of Seasons and Oracle of Ages",
-      "conv": "zh-cn:不可思议的果实; zh-tw:神祕果實;"
+      "conv": "zh-cn:不可思议的果实;zh-tw:神祕果實"
     },
     {
       "original": "Phantom Hourglass",
-      "conv": "zh-cn:幻影沙漏; zh-tw:夢幻沙漏;"
+      "conv": "zh-cn:幻影沙漏;zh-tw:夢幻沙漏"
     },
     {
       "original": "Spirit Tracks",
-      "conv": "zh-cn:大地的汽笛; zh-tw:大地汽笛;"
+      "conv": "zh-cn:大地的汽笛;zh-tw:大地汽笛"
     },
     {
       "original": "The Minish Cap",
-      "conv": "zh-cn:缩小帽; zh-tw:不可思議的帽子;"
+      "conv": "zh-cn:缩小帽;zh-tw:不可思議的帽子"
     },
     {
       "original": "The Wind Waker",
-      "conv": "zh-cn:风之杖; zh-tw:風之律動;"
+      "conv": "zh-cn:风之杖;zh-tw:風之律動"
     },
     {
       "original": "Twilight Princess",
-      "conv": "zh-cn:黄昏公主; zh-tw:曙光公主; zh-hk:黃昏公主;"
+      "conv": "zh-cn:黄昏公主;zh-tw:曙光公主;zh-hk:黃昏公主"
     },
     {
       "original": "Xeno",
-      "conv": "zh-cn:异度系列; zh-tw:異域系列;"
+      "conv": "zh-cn:异度系列;zh-tw:異域系列"
     },
     {
       "original": "Xenoblade",
-      "conv": "异度之刃=>zh-cn:异度神剑; 异度之刃=>zh-hk:異度神劍; 异度之刃=>zh-tw:異度神劍;"
+      "conv": "异度之刃=>zh-cn:异度神剑;异度之刃=>zh-hk:異度神劍;异度之刃=>zh-tw:異度神劍"
     },
     {
       "original": "Xenoblade",
-      "conv": "異域神劍=>zh-cn:异度神剑; 異域神劍=>zh-hk:異度神劍; 異域神劍=>zh-tw:異度神劍;"
+      "conv": "異域神劍=>zh-cn:异度神剑;異域神劍=>zh-hk:異度神劍;異域神劍=>zh-tw:異度神劍"
     },
     {
       "original": "Xenoblade",
-      "conv": "異度神劍=>zh-cn:异度神剑;"
+      "conv": "異度神劍=>zh-cn:异度神剑"
     },
     {
       "original": "Xenogears",
-      "conv": "zh-cn:异度装甲; zh-tw:異域神兵;"
+      "conv": "zh-cn:异度装甲;zh-tw:異域神兵"
     },
     {
       "original": "Xenosaga",
-      "conv": "zh-cn:异度传说; zh-tw:異域傳說;"
+      "conv": "zh-cn:异度传说;zh-tw:異域傳說"
     },
     {
       "original": "Hyperdimension Neptunia",
-      "conv": "zh-cn:次元游戏 海王星; zh-tw:次元戰記 戰機少女;"
+      "conv": "zh-cn:次元游戏 海王星;zh-tw:次元戰記 戰機少女"
     },
     {
       "original": "Hyperdimension Neptunia VII",
-      "conv": "zh-cn:新次元游戏 海王星VII; zh-tw:新次元遊戲 戰機少女VII;"
+      "conv": "zh-cn:新次元游戏 海王星VII;zh-tw:新次元遊戲 戰機少女VII"
     },
     {
       "original": "Hyperdimension Neptunia Re;Birth 1",
-      "conv": "zh-cn:超次次元游戏 海王星 重生1; zh-tw:超次次元遊戲 戰機少女 重生1;"
+      "conv": "zh-cn:超次次元游戏 海王星 重生1;zh-tw:超次次元遊戲 戰機少女 重生1"
     },
     {
       "original": "Hyperdimension Neptunia Re;Birth 2: Sisters Generation",
-      "conv": "zh-cn:超次次元游戏 海王星 重生2 妹妹世代; zh-tw:超次次元遊戲 戰機少女 重生2 妹妹世代;"
+      "conv": "zh-cn:超次次元游戏 海王星 重生2 妹妹世代;zh-tw:超次次元遊戲 戰機少女 重生2 妹妹世代"
     },
     {
       "original": "Hyperdimension Neptunia Re;Birth 3: V Generation",
-      "conv": "zh-cn:神次次元游戏 海王星 重生3 世纪; zh-tw:神次次元遊戲 戰機少女 重生3 世紀;"
+      "conv": "zh-cn:神次次元游戏 海王星 重生3 世纪;zh-tw:神次次元遊戲 戰機少女 重生3 世紀"
     },
     {
       "original": "Superdimension Neptune vs Sega Hard Girls",
-      "conv": "zh-cn:超次元大战 海王星VS世嘉主机少女 梦幻合体Special; zh-tw:超次元大戰 戰機少女VS世嘉・主機娘 夢幻合體特別版;"
+      "conv": "zh-cn:超次元大战 海王星VS世嘉主机少女 梦幻合体Special;zh-tw:超次元大戰 戰機少女VS世嘉・主機娘 夢幻合體特別版"
     },
     {
       "original": "Hyperdevotion Noire: Goddess Black Heart",
-      "conv": "zh-cn:超女神信仰 诺瓦露 激神黑心; zh-tw:超女神信仰 諾瓦 激神黑心;"
+      "conv": "zh-cn:超女神信仰 诺瓦露 激神黑心;zh-tw:超女神信仰 諾瓦 激神黑心"
     },
     {
       "original": "Four Goddesses Online: Cyber Dimension Neptune",
-      "conv": "zh-cn:四女神Online 网络次元海王星; zh-tw:四女神Online 幻次元遊戲戰機少女;"
+      "conv": "zh-cn:四女神Online 网络次元海王星;zh-tw:四女神Online 幻次元遊戲戰機少女"
     },
     {
       "original": "NepNep☆Connect: Chaos Chanpuru",
-      "conv": "zh-cn:涅普涅普连接 混沌大乱斗; zh-tw:戰機少女☆連結混亂交錯;"
+      "conv": "zh-cn:涅普涅普连接 混沌大乱斗;zh-tw:戰機少女☆連結混亂交錯"
     },
     {
       "original": "Fallout",
-      "conv": "異塵餘生=>zh-cn:辐射; 異塵餘生=>zh-sg:辐射;"
+      "conv": "異塵餘生=>zh-cn:辐射;異塵餘生=>zh-sg:辐射"
     },
     {
       "original": "Fallout:",
-      "conv": "zh-cn:辐射：; zh-tw:異塵餘生：; zh-sg:辐射：; zh-hk:異塵餘生：;"
+      "conv": "zh-cn:辐射：;zh-tw:異塵餘生：;zh-sg:辐射：;zh-hk:異塵餘生："
     },
     {
       "original": "Fallout 2",
-      "conv": "zh-cn:辐射2; zh-tw:異塵餘生2; zh-sg:辐射2; zh-hk:異塵餘生2;"
+      "conv": "zh-cn:辐射2;zh-tw:異塵餘生2;zh-sg:辐射2;zh-hk:異塵餘生2"
     },
     {
       "original": "Fallout 3",
-      "conv": "zh-cn:辐射3; zh-tw:異塵餘生3; zh-sg:辐射3; zh-hk:異塵餘生3;"
+      "conv": "zh-cn:辐射3;zh-tw:異塵餘生3;zh-sg:辐射3;zh-hk:異塵餘生3"
     },
     {
       "original": "Fallout 4",
-      "conv": "zh-cn:辐射4; zh-tw:異塵餘生4; zh-sg:辐射4; zh-hk:異塵餘生4;"
+      "conv": "zh-cn:辐射4;zh-tw:異塵餘生4;zh-sg:辐射4;zh-hk:異塵餘生4"
     },
     {
       "original": "Fallout 76",
-      "conv": "zh-cn:辐射76; zh-tw:異塵餘生76; zh-sg:辐射76; zh-hk:異塵餘生76;"
+      "conv": "zh-cn:辐射76;zh-tw:異塵餘生76;zh-sg:辐射76;zh-hk:異塵餘生76"
     },
     {
       "original": "Drakengard",
-      "conv": "zh-cn:龙背上的骑兵; zh-tw:誓血龍騎士;"
+      "conv": "zh-cn:龙背上的骑兵;zh-tw:誓血龍騎士"
     },
     {
       "original": "Nier: Automata",
-      "conv": "zh-hans:尼尔：自动人形;zh-hant:尼爾：自動人形;"
+      "conv": "zh-hans:尼尔：自动人形;zh-hant:尼爾：自動人形"
     },
     {
       "original": "Nier: Automata",
-      "conv": "尼尔：机械纪元=>zh-tw:尼爾：自動人形;尼尔：机械纪元=>zh-hk:尼爾：自動人形;尼尔：机械纪元=>zh-mo:尼爾：自動人形;"
+      "conv": "尼尔：机械纪元=>zh-tw:尼爾：自動人形;尼尔：机械纪元=>zh-hk:尼爾：自動人形;尼尔：机械纪元=>zh-mo:尼爾：自動人形"
     },
     {
       "original": "Baldur's Gate",
-      "conv": "zh-cn:博德之门; zh-tw:柏德之門;"
+      "conv": "zh-cn:博德之门;zh-tw:柏德之門"
     },
     {
       "original": "Baldur's Gate: Dark Alliance",
-      "conv": "zh-cn:博德之门：黑暗联盟; zh-tw:柏德之門：暗黑同盟;"
+      "conv": "zh-cn:博德之门：黑暗联盟;zh-tw:柏德之門：暗黑同盟"
     },
     {
       "original": "Throne of Bhaal",
-      "conv": "zh-cn:巴尔王座; zh-tw:邪神霸權;"
+      "conv": "zh-cn:巴尔王座;zh-tw:邪神霸權"
     },
     {
       "original": "Shadows of Amn",
-      "conv": "zh-cn:安姆的阴影; zh-tw:安姆疑雲;"
+      "conv": "zh-cn:安姆的阴影;zh-tw:安姆疑雲"
     },
     {
       "original": "Arcania: Gothic 4",
-      "conv": "zh-cn:哥特王朝4：阿卡尼亚; zh-tw:救世英豪4：中古傳奇;"
+      "conv": "zh-cn:哥特王朝4：阿卡尼亚;zh-tw:救世英豪4：中古傳奇"
     },
     {
       "original": "Aion",
-      "conv": "zh-cn:永恒之塔; zh-tw:永恆紀元;"
+      "conv": "zh-cn:永恒之塔;zh-tw:永恆紀元"
     },
     {
       "original": "Blood Omen: Legacy of Kain",
-      "conv": "zh-cn:血兆：凯恩的遗产; zh-tw:血魔傳奇;"
+      "conv": "zh-cn:血兆：凯恩的遗产;zh-tw:血魔傳奇"
     },
     {
       "original": "Chain of Memories",
-      "conv": "zh-hans:记忆之链; zh-hant:記憶之鍊;"
+      "conv": "zh-hans:记忆之链;zh-hant:記憶之鍊"
     },
     {
       "original": "Child of Light",
-      "conv": "zh-cn:光之子; zh-tw:光明之子;"
+      "conv": "zh-cn:光之子;zh-tw:光明之子"
     },
     {
       "original": "Chrono Trigger",
-      "conv": "zh-cn:时空之轮; zh-tw:超時空之鑰;"
+      "conv": "zh-cn:时空之轮;zh-tw:超時空之鑰"
     },
     {
       "original": "Dark Souls",
-      "conv": "zh-cn:黑暗之魂; zh-tw:黑暗靈魂;"
+      "conv": "zh-cn:黑暗之魂;zh-tw:黑暗靈魂"
     },
     {
       "original": "Demon's Souls",
-      "conv": "zh-cn:恶魔之魂; zh-tw:惡魔靈魂;"
+      "conv": "zh-cn:恶魔之魂;zh-tw:惡魔靈魂"
     },
     {
       "original": "Digital Devil Monotagari",
-      "conv": "zh-cn:数字恶魔物语; zh-hk:電子惡魔物語; zh-tw:數位惡魔物語;"
+      "conv": "zh-cn:数字恶魔物语;zh-hk:電子惡魔物語;zh-tw:數位惡魔物語"
     },
     {
       "original": "Divinity",
-      "conv": "zh-cn:神界; zh-tw:神諭;"
+      "conv": "zh-cn:神界;zh-tw:神諭"
     },
     {
       "original": "Dragon Age",
-      "conv": "zh-cn:龙腾世纪; zh-tw:闇龍紀元;"
+      "conv": "zh-cn:龙腾世纪;zh-tw:闇龍紀元"
     },
     {
       "original": "Dragon Quest Monsters",
-      "conv": "zh-cn:勇者斗恶龙怪兽篇; zh-hk:勇者鬥惡龍怪獸篇; zh-tw:勇者鬥惡龍 怪獸仙境;"
+      "conv": "zh-cn:勇者斗恶龙怪兽篇;zh-hk:勇者鬥惡龍怪獸篇;zh-tw:勇者鬥惡龍 怪獸仙境"
     },
     {
       "original": "Dragon Quest",
-      "conv": "zh-hans:勇者斗恶龙; zh-hant:勇者鬥惡龍;"
+      "conv": "zh-hans:勇者斗恶龙;zh-hant:勇者鬥惡龍"
     },
     {
       "original": "Dungeon Siege",
-      "conv": "zh-cn:地牢围攻; zh-tw:末日危城;"
+      "conv": "zh-cn:地牢围攻;zh-tw:末日危城"
     },
     {
       "original": "Fantasy Earth Zero:",
-      "conv": "zh-cn:幻想大陆：; zh-tw:幻想戰記：;"
+      "conv": "zh-cn:幻想大陆：;zh-tw:幻想戰記："
     },
     {
       "original": "Final Fantasy",
-      "conv": "zh-cn:最终幻想; zh-tw:最終幻想; zh-hk:最終幻想;"
+      "conv": "zh-cn:最终幻想;zh-tw:最終幻想;zh-hk:最終幻想"
     },
     {
       "original": "Final Fantasy",
-      "conv": "zh-cn:最终幻想系列; zh-tw:Final Fantasy系列; zh-hk:最終幻想系列;"
+      "conv": "zh-cn:最终幻想系列;zh-tw:Final Fantasy系列;zh-hk:最終幻想系列"
     },
     {
       "original": "Fire Emblem",
-      "conv": "zh-cn:火焰之纹章; zh-tw:聖火降魔錄; zh-hk:火焰之紋章;"
+      "conv": "zh-cn:火焰之纹章;zh-tw:聖火降魔錄;zh-hk:火焰之紋章"
     },
     {
       "original": "Gothic",
-      "conv": "zh-cn:哥特王朝; zh-tw:救世英豪;"
+      "conv": "zh-cn:哥特王朝;zh-tw:救世英豪"
     },
     {
       "original": "Grand Knights History",
-      "conv": "zh-cn:大骑士物语; zh-tw:聖騎戰史;"
+      "conv": "zh-cn:大骑士物语;zh-tw:聖騎戰史"
     },
     {
       "original": "Heart of Winter",
-      "conv": "zh-cn:冬之心; zh-tw:寒冬之心;"
+      "conv": "zh-cn:冬之心;zh-tw:寒冬之心"
     },
     {
       "original": "Heartstone",
-      "conv": "zh-cn:炉石传说; zh-tw:爐石戰記;"
+      "conv": "zh-cn:炉石传说;zh-tw:爐石戰記"
     },
     {
       "original": "Icewind Dale",
-      "conv": "zh-cn:冰风谷; zh-tw:冰風之谷;"
+      "conv": "zh-cn:冰风谷;zh-tw:冰風之谷"
     },
     {
       "original": "Kingdoms of Amalur: Reckoning",
-      "conv": "zh-cn:阿玛拉王国：惩罚; zh-tw:大地王國：罪與罰;"
+      "conv": "zh-cn:阿玛拉王国：惩罚;zh-tw:大地王國：罪與罰"
     },
     {
       "original": "Klonoa",
-      "conv": "zh-cn:风之克罗诺亚; zh-tw:風之少年;"
+      "conv": "zh-cn:风之克罗诺亚;zh-tw:風之少年"
     },
     {
       "original": "Legends of aranna",
-      "conv": "zh-cn:阿拉那传说; zh-tw:亞蘭納傳奇;"
+      "conv": "zh-cn:阿拉那传说;zh-tw:亞蘭納傳奇"
     },
     {
       "original": "Lightning Returns",
-      "conv": "zh-cn:雷霆归来; zh-tw:雷光歸來;"
+      "conv": "zh-cn:雷霆归来;zh-tw:雷光歸來"
     },
     {
       "original": "Magic The Gathering",
-      "conv": "zh-cn:万智牌; zh-tw:魔法風雲會;"
+      "conv": "zh-cn:万智牌;zh-tw:魔法風雲會"
     },
     {
       "original": "MapleStory",
-      "conv": "楓之谷=>zh-cn:冒险岛;"
+      "conv": "楓之谷=>zh-cn:冒险岛"
     },
     {
       "original": "MapleStory",
-      "conv": "新楓之谷=>zh-cn:冒险岛;"
+      "conv": "新楓之谷=>zh-cn:冒险岛"
     },
     {
       "original": "Morrowind",
-      "conv": "zh-cn:：晨风; zh-tw:：魔捲晨風;"
+      "conv": "zh-cn:：晨风;zh-tw:：魔捲晨風"
     },
     {
       "original": "Oblivion",
-      "conv": "zh-cn:：湮没; zh-tw:：遺忘之都;"
+      "conv": "zh-cn:：湮没;zh-tw:：遺忘之都"
     },
     {
       "original": "SaGa Frontier",
-      "conv": "zh-cn:沙加开拓者; zh-tw:復活邪神：邪神領域;"
+      "conv": "zh-cn:沙加开拓者;zh-tw:復活邪神：邪神領域"
     },
     {
       "original": "Shing Force",
-      "conv": "zh-cn:光明力量; zh-tw:光明與黑暗;"
+      "conv": "zh-cn:光明力量;zh-tw:光明與黑暗"
     },
     {
       "original": "Skyrim",
-      "conv": "zh-cn:：天际; zh-tw:：無界天際;"
+      "conv": "zh-cn:：天际;zh-tw:：無界天際"
     },
     {
       "original": "Star Ocean",
-      "conv": "zh-cn:星之海洋; zh-tw:星海遊俠;"
+      "conv": "zh-cn:星之海洋;zh-tw:星海遊俠"
     },
     {
       "original": "Summon Night",
-      "conv": "zh-cn:召唤之夜; zh-tw:召喚夜響曲;"
+      "conv": "zh-cn:召唤之夜;zh-tw:召喚夜響曲"
     },
     {
       "original": "The Elder Scrolls",
-      "conv": "zh-hans:上古卷轴; zh-hant:上古卷軸;"
+      "conv": "zh-hans:上古卷轴;zh-hant:上古卷軸"
     },
     {
       "original": "The Last Story",
-      "conv": "zh-cn:最后的故事; zh-tw:夢幻終章;"
+      "conv": "zh-cn:最后的故事;zh-tw:夢幻終章"
     },
     {
       "original": "The Witcher 2: Assassins of Kings",
-      "conv": "zh-cn:巫师2：国王刺客;zh-tw:巫師 2：王國刺客;"
+      "conv": "zh-cn:巫师2：国王刺客;zh-tw:巫師 2：王國刺客"
     },
     {
       "original": "Cyberpunk 2077",
-      "conv": "zh-cn:赛博朋克2077;zh-tw:電馭叛客2077;"
+      "conv": "zh-cn:赛博朋克2077;zh-tw:電馭叛客2077"
     },
     {
       "original": "Wasteland",
-      "conv": "zh-cn:废土;zh-tw:荒野遊俠;"
+      "conv": "zh-cn:废土;zh-tw:荒野遊俠"
     },
     {
       "original": "Roller Coaster",
-      "conv": "zh-cn:过山车大亨; zh-tw:模擬樂園;"
+      "conv": "zh-cn:过山车大亨;zh-tw:模擬樂園"
     },
     {
       "original": "Tamagotchi",
-      "conv": "zh-cn:拓麻歌子;zh-tw:塔麻可吉;zh-hk:他媽哥池;"
+      "conv": "zh-cn:拓麻歌子;zh-tw:塔麻可吉;zh-hk:他媽哥池"
     },
     {
       "original": "The Sims",
-      "conv": "zh-cn:模拟人生; zh-tw:模擬市民;"
+      "conv": "zh-cn:模拟人生;zh-tw:模擬市民"
     },
     {
       "original": "Theme Hospital",
-      "conv": "zh-cn:主题医院; zh-tw:杏林也瘋狂;"
+      "conv": "zh-cn:主题医院;zh-tw:杏林也瘋狂"
     },
     {
       "original": "Tomodachi Collection",
-      "conv": "zh-cn:朋友聚会; zh-tw:朋友收藏集;"
+      "conv": "zh-cn:朋友聚会;zh-tw:朋友收藏集"
     },
     {
       "original": "Tropico",
-      "conv": "zh-cn:海岛大亨; zh-tw:總統萬歲;"
+      "conv": "zh-cn:海岛大亨;zh-tw:總統萬歲"
     },
     {
       "original": "Plague Inc: Evolved",
-      "conv": "zh-cn:瘟疫公司：物竞天择; zh-tw:瘟疫公司：進化;"
+      "conv": "zh-cn:瘟疫公司：物竞天择;zh-tw:瘟疫公司：進化"
     },
     {
       "original": "Age of Empires",
-      "conv": "zh-cn:帝国时代; zh-tw:世紀帝國;"
+      "conv": "zh-cn:帝国时代;zh-tw:世紀帝國"
     },
     {
       "original": "Age of Mythology",
-      "conv": "zh-cn:神话时代; zh-tw:神話世紀;"
+      "conv": "zh-cn:神话时代;zh-tw:神話世紀"
     },
     {
       "original": "The Age of Kings",
-      "conv": "zh-cn:国王时代; zh-tw:帝王世紀;"
+      "conv": "zh-cn:国王时代;zh-tw:帝王世紀"
     },
     {
       "original": "The Conquerors Expans",
-      "conv": "zh-cn:征服者; zh-tw:征服者入侵;"
+      "conv": "zh-cn:征服者;zh-tw:征服者入侵"
     },
     {
       "original": "The Rise of Rome",
-      "conv": "zh-cn:罗马复兴; zh-tw:羅馬霸主;"
+      "conv": "zh-cn:罗马复兴;zh-tw:羅馬霸主"
     },
     {
       "original": "The Warchiefs",
-      "conv": "zh-cn:：酋长; zh-tw:：群酋爭霸;"
+      "conv": "zh-cn:：酋长;zh-tw:：群酋爭霸"
     },
     {
       "original": "Rise of the Rajas",
-      "conv": "zh-cn:蛮王崛起; zh-tw:拉者崛起;"
+      "conv": "zh-cn:蛮王崛起;zh-tw:拉者崛起"
     },
     {
       "original": "The Forgotten",
-      "conv": "zh-cn:失落帝国; zh-tw:失落的帝國;"
+      "conv": "zh-cn:失落帝国;zh-tw:失落的帝國"
     },
     {
       "original": "Command & Conquer",
-      "conv": "zh-cn:命令与征服; zh-tw:終極動員令;"
+      "conv": "zh-cn:命令与征服;zh-tw:終極動員令"
     },
     {
       "original": "Counterstrike",
-      "conv": "zh-cn:：反击; zh-tw:：危機任務;"
+      "conv": "zh-cn:：反击;zh-tw:：危機任務"
     },
     {
       "original": "Kane's Wrath",
-      "conv": "zh-cn:凯恩之怒; zh-tw:肯恩之怒;"
+      "conv": "zh-cn:凯恩之怒;zh-tw:肯恩之怒"
     },
     {
       "original": "The Aftermath",
-      "conv": "zh-cn:：余波; zh-tw:：突發事件;"
+      "conv": "zh-cn:：余波;zh-tw:：突發事件"
     },
     {
       "original": "The Covert Operations",
-      "conv": "zh-cn:隐秘行动; zh-tw:重回殺戮戰場;"
+      "conv": "zh-cn:隐秘行动;zh-tw:重回殺戮戰場"
     },
     {
       "original": "Tiberian Twilight",
-      "conv": "zh-cn:泰伯利亚的黄昏; zh-tw:泰伯倫暮光;"
+      "conv": "zh-cn:泰伯利亚的黄昏;zh-tw:泰伯倫暮光"
     },
     {
       "original": "Tiberium Wars",
-      "conv": "zh-cn:泰伯利亚之战; zh-tw:泰伯倫戰爭;"
+      "conv": "zh-cn:泰伯利亚之战;zh-tw:泰伯倫戰爭"
     },
     {
       "original": "Company of Heroes",
-      "conv": "zh-cn:英雄连; zh-tw:英雄連隊;"
+      "conv": "zh-cn:英雄连;zh-tw:英雄連隊"
     },
     {
       "original": "Opposing Fronts",
-      "conv": "zh-cn:抵抗前线; zh-tw:火線對決;"
+      "conv": "zh-cn:抵抗前线;zh-tw:火線對決"
     },
     {
       "original": "Tales of Valor",
-      "conv": "zh-cn:勇气传说; zh-tw:勇士勳章;"
+      "conv": "zh-cn:勇气传说;zh-tw:勇士勳章"
     },
     {
       "original": "Brood War",
-      "conv": "zh-cn:母巢之战; zh-tw:怒火燎原;"
+      "conv": "zh-cn:母巢之战;zh-tw:怒火燎原"
     },
     {
       "original": "StarCraft",
-      "conv": "zh-cn:星际争霸; zh-tw:星海爭霸;"
+      "conv": "zh-cn:星际争霸;zh-tw:星海爭霸"
     },
     {
       "original": "StarCraft: Ghost",
-      "conv": "zh-cn:星际争霸：幽灵; zh-tw:星海爭霸：暗影獵殺;"
+      "conv": "zh-cn:星际争霸：幽灵;zh-tw:星海爭霸：暗影獵殺"
     },
     {
       "original": "Reign of Chaos",
-      "conv": "zh-cn:混乱之治; zh-tw:混沌之治;"
+      "conv": "zh-cn:混乱之治;zh-tw:混沌之治"
     },
     {
       "original": "The Frozen Throne",
-      "conv": "zh-cn:冰封王座; zh-tw:寒冰霸權;"
+      "conv": "zh-cn:冰封王座;zh-tw:寒冰霸權"
     },
     {
       "original": "Tide of Darkness",
-      "conv": "zh-cn:黑潮; zh-tw:黑暗浪潮;"
+      "conv": "zh-cn:黑潮;zh-tw:黑暗浪潮"
     },
     {
       "original": "Civilization",
-      "conv": "文明帝國=>zh-cn:文明; 文明帝國=>zh-sg:文明;"
+      "conv": "文明帝國=>zh-cn:文明;文明帝國=>zh-sg:文明"
     },
     {
       "original": "Civilization I",
-      "conv": "zh-cn:文明I; zh-tw:文明帝國I;"
+      "conv": "zh-cn:文明I;zh-tw:文明帝國I"
     },
     {
       "original": "Civilization V",
-      "conv": "zh-cn:文明V; zh-tw:文明帝國V;"
+      "conv": "zh-cn:文明V;zh-tw:文明帝國V"
     },
     {
       "original": "Act of War",
-      "conv": "zh-cn:战争行为; zh-tw:火線交鋒;"
+      "conv": "zh-cn:战争行为;zh-tw:火線交鋒"
     },
     {
       "original": "Cities: Skylines",
-      "conv": "zh-cn:城市：天际线; zh-tw:大都會：天際; zh-hk:都市：天際線;"
+      "conv": "zh-cn:城市：天际线;zh-tw:大都會：天際;zh-hk:都市：天際線"
     },
     {
       "original": "Dawn of War",
-      "conv": "zh-cn:战争黎明; zh-tw:破曉之戰;"
+      "conv": "zh-cn:战争黎明;zh-tw:破曉之戰"
     },
     {
       "original": "Demigod",
-      "conv": "zh-cn:半神; zh-tw:神人;"
+      "conv": "zh-cn:半神;zh-tw:神人"
     },
     {
       "original": "Dune",
-      "conv": "zh-cn:沙丘; zh-tw:沙丘魔堡;"
+      "conv": "zh-cn:沙丘;zh-tw:沙丘魔堡"
     },
     {
       "original": "Empire Earth",
-      "conv": "zh-cn:地球帝国; zh-tw:世紀爭霸;"
+      "conv": "zh-cn:地球帝国;zh-tw:世紀爭霸"
     },
     {
       "original": "Endwar",
-      "conv": "zh-cn:末日之战; zh-tw:世界戰局;"
+      "conv": "zh-cn:末日之战;zh-tw:世界戰局"
     },
     {
       "original": "Europa Universalis",
-      "conv": "zh-cn:欧陆风云; zh-tw:征服四海; zh-hk:歐陸風雲;"
+      "conv": "zh-cn:欧陆风云;zh-tw:征服四海;zh-hk:歐陸風雲"
     },
     {
       "original": "Heroes of the Storm",
-      "conv": "zh-cn:风暴英雄; zh-tw:暴雪英霸;"
+      "conv": "zh-cn:风暴英雄;zh-tw:暴雪英霸"
     },
     {
       "original": "High Treason",
-      "conv": "zh-cn:严重叛国; zh-tw:美國淪亡錄;"
+      "conv": "zh-cn:严重叛国;zh-tw:美國淪亡錄"
     },
     {
       "original": "Homeworld",
-      "conv": "萬艦齊發=>zh-cn:家园; 萬艦齊發=>zh-sg:家园;"
+      "conv": "萬艦齊發=>zh-cn:家园;萬艦齊發=>zh-sg:家园"
     },
     {
       "original": "King's Bounty",
-      "conv": "zh-cn:国王的恩赐; zh-tw:英雄大帝;"
+      "conv": "zh-cn:国王的恩赐;zh-tw:英雄大帝"
     },
     {
       "original": "Rise of Nations",
-      "conv": "zh-cn:国家的崛起; zh-tw:王國的興起;"
+      "conv": "zh-cn:国家的崛起;zh-tw:王國的興起"
     },
     {
       "original": "The Lord of the Rings",
-      "conv": "zh-cn:指环王; zh-tw:魔戒;"
+      "conv": "zh-cn:指环王;zh-tw:魔戒"
     },
     {
       "original": "Total War",
-      "conv": "zh-cn:全面战争; zh-tw:全軍破敵;"
+      "conv": "zh-cn:全面战争;zh-tw:全軍破敵"
     },
     {
       "original": "Warhammer",
-      "conv": "zh-hans:战锤; zh-hant:戰鎚;"
+      "conv": "zh-hans:战锤;zh-hant:戰鎚"
     },
     {
       "original": "What Did I Do to Deserve This, My Lord?",
-      "conv": "zh-cn:勇者别嚣张; zh-tw:勇者有點太囂張;"
+      "conv": "zh-cn:勇者别嚣张;zh-tw:勇者有點太囂張"
     },
     {
       "original": "Call of Duty",
-      "conv": "zh-cn:使命召唤; zh-tw:決勝時刻; zh-hk:使命召喚;"
+      "conv": "zh-cn:使命召唤;zh-tw:決勝時刻;zh-hk:使命召喚"
     },
     {
       "original": "Advanced Warfare",
-      "conv": "zh-cn:使命召唤：高级战争; zh-tw:決勝時刻：先進戰爭;"
+      "conv": "zh-cn:使命召唤：高级战争;zh-tw:決勝時刻：先進戰爭"
     },
     {
       "original": "Big Red One",
-      "conv": "zh-cn:红一纵队; zh-tw:鐵血軍營;"
+      "conv": "zh-cn:红一纵队;zh-tw:鐵血軍營"
     },
     {
       "original": "Finest Hour",
-      "conv": "zh-cn:决战时刻; zh-tw:尖峰時刻;"
+      "conv": "zh-cn:决战时刻;zh-tw:尖峰時刻"
     },
     {
       "original": "Ghosts",
-      "conv": "zh-cn:使命召唤：幽灵; zh-tw:決勝時刻：魅影;"
+      "conv": "zh-cn:使命召唤：幽灵;zh-tw:決勝時刻：魅影"
     },
     {
       "original": "Infinite Warfare",
-      "conv": "zh-cn:使命召唤：无限战争; zh-tw:決勝時刻：無盡戰爭;"
+      "conv": "zh-cn:使命召唤：无限战争;zh-tw:決勝時刻：無盡戰爭"
     },
     {
       "original": "United Offensive",
-      "conv": "zh-cn:联合进攻; zh-tw:聯合行動;"
+      "conv": "zh-cn:联合进攻;zh-tw:聯合行動"
     },
     {
       "original": "Warzone",
-      "conv": "zh-cn:战争地带;zh-tw:現代戰域;"
+      "conv": "zh-cn:战争地带;zh-tw:現代戰域"
     },
     {
       "original": "Crysis",
-      "conv": "zh-cn:孤岛危机; zh-tw:末日之戰; zh-hk:末日之戰;"
+      "conv": "zh-cn:孤岛危机;zh-tw:末日之戰;zh-hk:末日之戰"
     },
     {
       "original": "Crysis Warhead",
-      "conv": "zh-cn:孤岛危机：弹头; zh-tw:末日之戰：獵殺悍將; zh-hk:末日之戰：獵殺悍將;"
+      "conv": "zh-cn:孤岛危机：弹头;zh-tw:末日之戰：獵殺悍將;zh-hk:末日之戰：獵殺悍將"
     },
     {
       "original": "Crysis Wars",
-      "conv": "zh-cn:孤岛危机：战争; zh-tw:末日戰爭;"
+      "conv": "zh-cn:孤岛危机：战争;zh-tw:末日戰爭"
     },
     {
       "original": "Counter-Strike",
-      "conv": "zh-cn:反恐精英; zh-tw:絕對武力;"
+      "conv": "zh-cn:反恐精英;zh-tw:絕對武力"
     },
     {
       "original": "Counter-Strike: Condition Zero",
-      "conv": "zh-cn:反恐精英：零点行动; zh-tw:絕對武力：一觸即發;"
+      "conv": "zh-cn:反恐精英：零点行动;zh-tw:絕對武力：一觸即發"
     },
     {
       "original": "Counter-Strike: Source",
-      "conv": "zh-cn:反恐精英：起源; zh-tw:絕對武力：次世代;"
+      "conv": "zh-cn:反恐精英：起源;zh-tw:絕對武力：次世代"
     },
     {
       "original": "Day of Defeat",
-      "conv": "zh-cn:胜利之日; zh-tw:決勝之日;"
+      "conv": "zh-cn:胜利之日;zh-tw:決勝之日"
     },
     {
       "original": "Day of Defeat: Source",
-      "conv": "zh-cn:胜利之日：起源; zh-tw:決勝之日：次世代;"
+      "conv": "zh-cn:胜利之日：起源;zh-tw:決勝之日：次世代"
     },
     {
       "original": "Half-Life",
-      "conv": "zh-cn:半衰期; zh-tw:戰慄時空;"
+      "conv": "zh-cn:半衰期;zh-tw:戰慄時空"
     },
     {
       "original": "Half-Life",
-      "conv": "zh-cn:半衰期：起源; zh-tw:戰慄時空：次世代;"
+      "conv": "zh-cn:半衰期：起源;zh-tw:戰慄時空：次世代"
     },
     {
       "original": "Team Fortress",
-      "conv": "zh-cn:军团要塞; zh-tw:絕地要塞;"
+      "conv": "zh-cn:军团要塞;zh-tw:絕地要塞"
     },
     {
       "original": "ClearSky",
-      "conv": "zh-cn:：晴空; zh-tw:：晴空染血;"
+      "conv": "zh-cn:：晴空;zh-tw:：晴空染血"
     },
     {
       "original": "S.T.A.L.K.E.R.",
-      "conv": "zh-cn:：潜行者; zh-tw:：浩劫殺陣;"
+      "conv": "zh-cn:：潜行者;zh-tw:：浩劫殺陣"
     },
     {
       "original": "Shadow of Chernobyl",
-      "conv": "zh-cn:切尔诺贝利的阴影; zh-tw:車諾比之影;"
+      "conv": "zh-cn:切尔诺贝利的阴影;zh-tw:車諾比之影"
     },
     {
       "original": "Black Hawk Down",
-      "conv": "zh-cn:黑鹰坠落; zh-tw:黑鷹計劃;"
+      "conv": "zh-cn:黑鹰坠落;zh-tw:黑鷹計劃"
     },
     {
       "original": "Delta Force",
-      "conv": "zh-cn:三角洲特种部队; zh-tw:三角洲部隊;"
+      "conv": "zh-cn:三角洲特种部队;zh-tw:三角洲部隊"
     },
     {
       "original": "Delta Force: Xtreme",
-      "conv": "zh-cn:三角洲特种部队：终极目标; zh-tw:究極三角洲部隊;"
+      "conv": "zh-cn:三角洲特种部队：终极目标;zh-tw:究極三角洲部隊"
     },
     {
       "original": "Team Sabre",
-      "conv": "zh-cn:战队之刃; zh-tw:軍刀小隊;"
+      "conv": "zh-cn:战队之刃;zh-tw:軍刀小隊"
     },
     {
       "original": "Urban Warfare",
-      "conv": "zh-cn:近战突击队; zh-tw:都市戰爭;"
+      "conv": "zh-cn:近战突击队;zh-tw:都市戰爭"
     },
     {
       "original": "Joint Operations",
-      "conv": "联合行动=>zh-tw:戰火; 联合行动=>zh-hk:戰火; 联合行动=>zh-mo:戰火;"
+      "conv": "联合行动=>zh-tw:戰火;联合行动=>zh-hk:戰火;联合行动=>zh-mo:戰火"
     },
     {
       "original": "Joint Operations: Typhoon Rising",
-      "conv": "联合行动：台风骤起=>zh-tw:戰火; 联合行动：台风骤起=>zh-hk:戰火; 联合行动：台风骤起=>zh-mo:戰火;"
+      "conv": "联合行动：台风骤起=>zh-tw:戰火;联合行动：台风骤起=>zh-hk:戰火;联合行动：台风骤起=>zh-mo:戰火"
     },
     {
       "original": "Bad Company",
-      "conv": "zh-cn:：叛逆连队; zh-tw:：惡名昭彰;"
+      "conv": "zh-cn:：叛逆连队;zh-tw:：惡名昭彰"
     },
     {
       "original": "Battlefield",
-      "conv": "zh-cn:战地; zh-tw:戰地風雲;"
+      "conv": "zh-cn:战地;zh-tw:戰地風雲"
     },
     {
       "original": "Battlefield: Hardline",
-      "conv": "zh-cn:战地：硬仗; zh-tw:戰地風雲：強硬路線;"
+      "conv": "zh-cn:战地：硬仗;zh-tw:戰地風雲：強硬路線"
     },
     {
       "original": "Allied Assault",
-      "conv": "zh-cn:荣誉勋章：联合袭击; zh-tw:榮譽勳章：反攻諾曼第; zh-hk:榮譽勳章：反攻諾曼第;"
+      "conv": "zh-cn:荣誉勋章：联合袭击;zh-tw:榮譽勳章：反攻諾曼第;zh-hk:榮譽勳章：反攻諾曼第"
     },
     {
       "original": "Frontline",
-      "conv": "zh-cn:荣誉勋章：前线; zh-tw:榮譽勳章：反攻前線;"
+      "conv": "zh-cn:荣誉勋章：前线;zh-tw:榮譽勳章：反攻前線"
     },
     {
       "original": "Heros",
-      "conv": "zh-cn:荣誉勋章：英雄; zh-tw:榮譽勳章：鐵膽英豪;"
+      "conv": "zh-cn:荣誉勋章：英雄;zh-tw:榮譽勳章：鐵膽英豪"
     },
     {
       "original": "Pacific Assault",
-      "conv": "zh-cn:荣誉勋章：太平洋突袭; zh-tw:榮譽勳章：太平洋戰役; zh-hk:榮譽勳章：太平洋戰役;"
+      "conv": "zh-cn:荣誉勋章：太平洋突袭;zh-tw:榮譽勳章：太平洋戰役;zh-hk:榮譽勳章：太平洋戰役"
     },
     {
       "original": "Rising Sun",
-      "conv": "zh-cn:荣誉勋章：日出; zh-tw:榮譽勳章：突襲珍珠港; zh-hk:榮譽勳章：突襲珍珠港;"
+      "conv": "zh-cn:荣誉勋章：日出;zh-tw:榮譽勳章：突襲珍珠港;zh-hk:榮譽勳章：突襲珍珠港"
     },
     {
       "original": "Spearhead",
-      "conv": "zh-cn:荣誉勋章：先头部队; zh-tw:榮譽勳章：諾曼第大空降; zh-hk:榮譽勳章：諾曼第大空降;"
+      "conv": "zh-cn:荣誉勋章：先头部队;zh-tw:榮譽勳章：諾曼第大空降;zh-hk:榮譽勳章：諾曼第大空降"
     },
     {
       "original": "Vanguard",
-      "conv": "zh-cn:荣誉勋章：先锋; zh-tw:榮譽勳章：先鋒部隊; zh-hk:榮譽勳章：先鋒部隊;"
+      "conv": "zh-cn:荣誉勋章：先锋;zh-tw:榮譽勳章：先鋒部隊;zh-hk:榮譽勳章：先鋒部隊"
     },
     {
       "original": "Warfighter",
-      "conv": "zh-cn:荣誉勋章：战士; zh-tw:榮譽勳章：鐵血悍將; zh-hk:榮譽勳章：鐵血悍將;"
+      "conv": "zh-cn:荣誉勋章：战士;zh-tw:榮譽勳章：鐵血悍將;zh-hk:榮譽勳章：鐵血悍將"
     },
     {
       "original": "Brothers in arms",
-      "conv": "zh-cn:战火兄弟连; zh-tw:榮耀戰場;"
+      "conv": "zh-cn:战火兄弟连;zh-tw:榮耀戰場"
     },
     {
       "original": "Hell's Highway",
-      "conv": "zh-cn:地狱公路; zh-tw:地獄棧道;"
+      "conv": "zh-cn:地狱公路;zh-tw:地獄棧道"
     },
     {
       "original": "Road to Hill 30",
-      "conv": "zh-cn:进军30高地; zh-tw:前進30高地;"
+      "conv": "zh-cn:进军30高地;zh-tw:前進30高地"
     },
     {
       "original": "Ace Combat",
-      "conv": "zh-cn:皇牌空战; zh-tw:空戰奇兵; zh-hk:皇牌空戰; zh-mo:皇牌空戰;"
+      "conv": "zh-cn:皇牌空战;zh-tw:空戰奇兵;zh-hk:皇牌空戰;zh-mo:皇牌空戰"
     },
     {
       "original": "Ace Combat 5: The Unsung War",
-      "conv": "zh-cn:皇牌空战5 未被歌颂的战争; zh-tw:空戰奇兵5 不被歌頌的戰爭; zh-hk:皇牌空戰5 未被歌頌的戰爭;"
+      "conv": "zh-cn:皇牌空战5 未被歌颂的战争;zh-tw:空戰奇兵5 不被歌頌的戰爭;zh-hk:皇牌空戰5 未被歌頌的戰爭"
     },
     {
       "original": "Ace Combat 6: Fires of Liberation",
-      "conv": "zh-cn:皇牌空战6 解放的战火; zh-tw:空戰奇兵6 邁向解放的戰火際; zh-hk:皇牌空戰6 解放的戰火;"
+      "conv": "zh-cn:皇牌空战6 解放的战火;zh-tw:空戰奇兵6 邁向解放的戰火際;zh-hk:皇牌空戰6 解放的戰火"
     },
     {
       "original": "Ace Combat 7: Skies Unknown",
-      "conv": "zh-cn:皇牌空战7 未知天空; zh-tw:空戰奇兵7 未知天際; zh-hk:皇牌空戰7 未知天際;"
+      "conv": "zh-cn:皇牌空战7 未知天空;zh-tw:空戰奇兵7 未知天際;zh-hk:皇牌空戰7 未知天際"
     },
     {
       "original": "Ace Combat: Joint Assault",
-      "conv": "zh-cn:皇牌空战 联合攻击; zh-tw:空戰奇兵X2 聯合突擊;"
+      "conv": "zh-cn:皇牌空战 联合攻击;zh-tw:空戰奇兵X2 聯合突擊"
     },
     {
       "original": "Ace Combat: Assault Horizon Legacy",
-      "conv": "zh-cn:皇牌空战：突击地平线遗产; 空戰奇兵：突擊地平線遺產;"
+      "conv": "zh-cn:皇牌空战：突击地平线遗产;空戰奇兵：突擊地平線遺產"
     },
     {
       "original": "Ace Combat 3D: Cross Rumble",
-      "conv": "zh-cn:皇牌空战 3D 战火纷飞; zh-tw:空戰奇兵 3D 交叉熱鬥;"
+      "conv": "zh-cn:皇牌空战 3D 战火纷飞;zh-tw:空戰奇兵 3D 交叉熱鬥"
     },
     {
       "original": "Far Cry",
-      "conv": "zh-cn:孤岛惊魂; zh-tw:極地戰嚎;"
+      "conv": "zh-cn:孤岛惊魂;zh-tw:極地戰嚎"
     },
     {
       "original": "Far Cry: New Dawn",
-      "conv": "zh-cn:孤岛惊魂：新曙光; zh-tw:極地戰嚎：破曉;"
+      "conv": "zh-cn:孤岛惊魂：新曙光;zh-tw:極地戰嚎：破曉"
     },
     {
       "original": "Metro 2033",
-      "conv": "zh-cn:地铁2033; zh-tw:戰慄深隧;"
+      "conv": "zh-cn:地铁2033;zh-tw:戰慄深隧"
     },
     {
       "original": "Metro: Last Light",
-      "conv": "zh-cn:地铁：最后的曙光; zh-tw:戰慄深隧：最後曙光;"
+      "conv": "zh-cn:地铁：最后的曙光;zh-tw:戰慄深隧：最後曙光"
     },
     {
       "original": "Metro Exodus",
-      "conv": "zh-cn:地铁：离乡; zh-tw:戰慄深隧：流亡; zh-hk:戰慄深隧：流亡;"
+      "conv": "zh-cn:地铁：离乡;zh-tw:戰慄深隧：流亡;zh-hk:戰慄深隧：流亡"
     },
     {
       "original": "Halo",
-      "conv": "zh-cn:光环; zh-tw:最後一戰;"
+      "conv": "zh-cn:光环;zh-tw:最後一戰"
     },
     {
       "original": "Halo Wars",
-      "conv": "zh-cn:光环战争; zh-tw:最後一戰：星環戰役;"
+      "conv": "zh-cn:光环战争;zh-tw:最後一戰：星環戰役"
     },
     {
       "original": "Halo: Spartan Assault",
-      "conv": "zh-cn:光环：斯巴达突袭; zh-tw:最後一戰：超級特攻隊;"
+      "conv": "zh-cn:光环：斯巴达突袭;zh-tw:最後一戰：超級特攻隊"
     },
     {
       "original": "Reach",
-      "conv": "zh-cn:致远星; zh-tw:瑞曲之戰;"
+      "conv": "zh-cn:致远星;zh-tw:瑞曲之戰"
     },
     {
       "original": "Advanced Warfighter",
-      "conv": "zh-cn:尖峰战士; zh-tw:先進戰士; zh-hk:尖峰戰士;"
+      "conv": "zh-cn:尖峰战士;zh-tw:先進戰士;zh-hk:尖峰戰士"
     },
     {
       "original": "Armored Core",
-      "conv": "zh-cn:装甲核心; zh-tw:機戰傭兵; zh-hk:裝甲核心;"
+      "conv": "zh-cn:装甲核心;zh-tw:機戰傭兵;zh-hk:裝甲核心"
     },
     {
       "original": "Army of Two",
-      "conv": "zh-cn:战地双雄; zh-tw:無間特攻;"
+      "conv": "zh-cn:战地双雄;zh-tw:無間特攻"
     },
     {
       "original": "Army of Two: The Devil Cartel",
-      "conv": "zh-cn:：战地双雄：恶魔联盟; zh-tw:無間特攻：非法涉入;"
+      "conv": "zh-cn:：战地双雄：恶魔联盟;zh-tw:無間特攻：非法涉入"
     },
     {
       "original": "BioShock Infinite",
-      "conv": "zh-cn:生化奇兵：无限; zh-tw:生化奇兵：無限之城;"
+      "conv": "zh-cn:生化奇兵：无限;zh-tw:生化奇兵：無限之城"
     },
     {
       "original": "Borderlands",
-      "conv": "zh-cn:无主之地; zh-tw:邊緣禁地;"
+      "conv": "zh-cn:无主之地;zh-tw:邊緣禁地"
     },
     {
       "original": "Bulletstorm",
-      "conv": "zh-cn:子弹风暴; zh-tw:狂彈風暴;"
+      "conv": "zh-cn:子弹风暴;zh-tw:狂彈風暴"
     },
     {
       "original": "Clock Tower",
-      "conv": "zh-cn:钟楼惊魂; zh-hk:鐘樓驚魂; zh-tw:時鐘塔;"
+      "conv": "zh-cn:钟楼惊魂;zh-hk:鐘樓驚魂;zh-tw:時鐘塔"
     },
     {
       "original": "Crackdown",
-      "conv": "zh-cn:除暴特警; zh-tw:除暴戰警;"
+      "conv": "zh-cn:除暴特警;zh-tw:除暴戰警"
     },
     {
       "original": "Dead Space",
-      "conv": "zh-cn:死亡空间; zh-tw:絕命異次元;"
+      "conv": "zh-cn:死亡空间;zh-tw:絕命異次元"
     },
     {
       "original": "Deus Ex: Mankind Divided",
-      "conv": "zh-cn:杀出重围：人类分裂; zh-tw:駭客入侵：人類岐裂;"
+      "conv": "zh-cn:杀出重围：人类分裂;zh-tw:駭客入侵：人類岐裂"
     },
     {
       "original": "Dragon's Dogma",
-      "conv": "zh-cn:龙之信条; zh-tw:龍族教義;"
+      "conv": "zh-cn:龙之信条;zh-tw:龍族教義"
     },
     {
       "original": "Enemy Territory：Quake Wars",
-      "conv": "zh-cn:深入敌后：雷神战争; zh-tw:雷神之戰;"
+      "conv": "zh-cn:深入敌后：雷神战争;zh-tw:雷神之戰"
     },
     {
       "original": "F.E.A.R.",
-      "conv": "zh-cn:极度恐慌; zh-tw:戰慄突擊;"
+      "conv": "zh-cn:极度恐慌;zh-tw:戰慄突擊"
     },
     {
       "original": "Face Raiders",
-      "conv": "zh-cn:脸空中射击; zh-tw:飛行大臉兵射擊;"
+      "conv": "zh-cn:脸空中射击;zh-tw:飛行大臉兵射擊"
     },
     {
       "original": "Frontlines:Fuel of War",
-      "conv": "zh-cn:前线：战争燃料; zh-tw:決戰火線：能源危機;"
+      "conv": "zh-cn:前线：战争燃料;zh-tw:決戰火線：能源危機"
     },
     {
       "original": "Ghost Recon",
-      "conv": "zh-cn:幽灵行动; zh-tw:火線獵殺; zh-hk:幽靈行動;"
+      "conv": "zh-cn:幽灵行动;zh-tw:火線獵殺;zh-hk:幽靈行動"
     },
     {
       "original": "H.A.W.X.",
-      "conv": "zh-cn:鹰击长空; zh-tw:鷹戰X;"
+      "conv": "zh-cn:鹰击长空;zh-tw:鷹戰X"
     },
     {
       "original": "Colors",
-      "conv": "zh-cn:缤纷世界; zh-tw:繽紛色彩;"
+      "conv": "zh-cn:缤纷世界;zh-tw:繽紛色彩"
     },
     {
       "original": "Homefront: The Revolution",
-      "conv": "zh-cn:国土防线：革命;zh-tw:烽火家園：革命再起;zh-hk:家園戰線：革命;"
+      "conv": "zh-cn:国土防线：革命;zh-tw:烽火家園：革命再起;zh-hk:家園戰線：革命"
     },
     {
       "original": "I.G.I.-2: Covert Strike",
-      "conv": "zh-cn:秘密潜入2：隐秘行动; zh-tw:核武浩劫2;"
+      "conv": "zh-cn:秘密潜入2：隐秘行动;zh-tw:核武浩劫2"
     },
     {
       "original": "Left 4 Dead",
-      "conv": "zh-cn:求生之路; zh-tw:惡靈勢力; zh-hk:惡靈勢力;"
+      "conv": "zh-cn:求生之路;zh-tw:惡靈勢力;zh-hk:惡靈勢力"
     },
     {
       "original": "Mercenaries 2: World in Flames",
-      "conv": "zh-cn:雇佣兵2：炼狱; zh-tw:傭兵紀元2：熾熱戰區;"
+      "conv": "zh-cn:雇佣兵2：炼狱;zh-tw:傭兵紀元2：熾熱戰區"
     },
     {
       "original": "Mercenaries",
-      "conv": "傭兵紀元=>zh-cn:雇佣兵; 傭兵紀元=>zh-sg:雇佣兵;"
+      "conv": "傭兵紀元=>zh-cn:雇佣兵;傭兵紀元=>zh-sg:雇佣兵"
     },
     {
       "original": "Metal Slug",
-      "conv": "zh-cn:合金弹头; zh-hk:鋼鐵蟲師; zh-tw:越南大戰;"
+      "conv": "zh-cn:合金弹头;zh-hk:鋼鐵蟲師;zh-tw:越南大戰"
     },
     {
       "original": "Mighty No. 9",
-      "conv": "zh-cn:无敌9号; zh-tw:麥提9號;"
+      "conv": "zh-cn:无敌9号;zh-tw:麥提9號"
     },
     {
       "original": "Nanostray",
-      "conv": "zh-cn:纳米漂移; zh-tw:彈爵;"
+      "conv": "zh-cn:纳米漂移;zh-tw:彈爵"
     },
     {
       "original": "Operation Flashpoint",
-      "conv": "zh-cn:闪点行动; zh-tw:閃擊點行動;"
+      "conv": "zh-cn:闪点行动;zh-tw:閃擊點行動"
     },
     {
       "original": "Overwatch",
-      "conv": "zh-cn:守望先锋; zh-tw:鬥陣特攻;"
+      "conv": "zh-cn:守望先锋;zh-tw:鬥陣特攻"
     },
     {
       "original": "Pac-Man",
-      "conv": "zh-cn:吃豆人; zh-tw:小精靈; zh-hk:食鬼;"
+      "conv": "zh-cn:吃豆人;zh-tw:小精靈;zh-hk:食鬼"
     },
     {
       "original": "Project I.G.I.",
-      "conv": "zh-cn:秘密潜入; zh-tw:核武浩劫;"
+      "conv": "zh-cn:秘密潜入;zh-tw:核武浩劫"
     },
     {
       "original": "Prey",
-      "conv": "zh-cn:掠食; zh-tw:獵魂;"
+      "conv": "zh-cn:掠食;zh-tw:獵魂"
     },
     {
       "original": "Quake",
-      "conv": "zh-cn:雷神之锤; zh-tw:雷神之鎚;"
+      "conv": "zh-cn:雷神之锤;zh-tw:雷神之鎚"
     },
     {
       "original": "Rainbow Six",
-      "conv": "zh-cn:彩虹六号; zh-tw:虹彩六號;"
+      "conv": "zh-cn:彩虹六号;zh-tw:虹彩六號"
     },
     {
       "original": "Saints Row",
-      "conv": "zh-cn:黑道圣徒; zh-tw:黑街聖徒;"
+      "conv": "zh-cn:黑道圣徒;zh-tw:黑街聖徒"
     },
     {
       "original": "Serious Sam",
-      "conv": "zh-cn:英雄萨姆; zh-tw:重裝武力;"
+      "conv": "zh-cn:英雄萨姆;zh-tw:重裝武力"
     },
     {
       "original": "Sniper Elite",
-      "conv": "zh-cn:狙击精英; zh-tw:狙擊之神;"
+      "conv": "zh-cn:狙击精英;zh-tw:狙擊之神"
     },
     {
       "original": "Sniper: Ghost Warrior",
-      "conv": "zh-cn:狙击手：幽灵战士; zh-tw:狙擊之王：幽靈戰士;"
+      "conv": "zh-cn:狙击手：幽灵战士;zh-tw:狙擊之王：幽靈戰士"
     },
     {
       "original": "Star Wars",
-      "conv": "zh-cn:星球大战; zh-tw:星際大戰;"
+      "conv": "zh-cn:星球大战;zh-tw:星際大戰"
     },
     {
       "original": "Star Wars Battlefront",
-      "conv": "zh-cn:星球大战 前线; zh-tw:星際大戰 戰場前線;"
+      "conv": "zh-cn:星球大战 前线;zh-tw:星際大戰 戰場前線"
     },
     {
       "original": "State of Decay",
-      "conv": "zh-cn:腐烂国度; zh-tw:腐朽之都;"
+      "conv": "zh-cn:腐烂国度;zh-tw:腐朽之都"
     },
     {
       "original": "Sunset Overdrive",
-      "conv": "zh-cn:日落过载; zh-tw:落日飆神;"
+      "conv": "zh-cn:日落过载;zh-tw:落日飆神"
     },
     {
       "original": "SWAT",
-      "conv": "zh-cn:霹雳小组; zh-tw:迅雷先鋒;"
+      "conv": "zh-cn:霹雳小组;zh-tw:迅雷先鋒"
     },
     {
       "original": "TalesWeaver",
-      "conv": "zh-tw:天翼之鍊; zh-cn:天翼之链;"
+      "conv": "zh-tw:天翼之鍊;zh-cn:天翼之链"
     },
     {
       "original": "TimeShift",
-      "conv": "zh-cn:时空飞梭; zh-tw:時空悍將;"
+      "conv": "zh-cn:时空飞梭;zh-tw:時空悍將"
     },
     {
       "original": "Titanfall",
-      "conv": "zh-cn:泰坦天降; zh-tw:神兵泰坦;"
+      "conv": "zh-cn:泰坦天降;zh-tw:神兵泰坦"
     },
     {
       "original": "Unreal Tournament",
-      "conv": "zh-cn:虚幻竞技场; zh-tw:魔域幻境之浴血戰場;"
+      "conv": "zh-cn:虚幻竞技场;zh-tw:魔域幻境之浴血戰場"
     },
     {
       "original": "Unreal",
-      "conv": "魔域幻境=>zh-cn:虚幻; 魔域幻境=>zh-sg:虚幻;"
+      "conv": "魔域幻境=>zh-cn:虚幻;魔域幻境=>zh-sg:虚幻"
     },
     {
       "original": "Valorant",
-      "conv": "zh-cn:无畏契约; zh-hk:VALORANT;  zh-tw:特戰英豪;"
+      "conv": "zh-cn:无畏契约;zh-hk:VALORANT;zh-tw:特戰英豪"
     },
     {
       "original": "크레이지슈팅 버블파이터",
-      "conv": "zh-cn:泡泡战士; zh-hk:泡泡大亂鬥; zh-tw:泡泡大亂鬥;"
+      "conv": "zh-cn:泡泡战士;zh-hk:泡泡大亂鬥;zh-tw:泡泡大亂鬥"
     },
     {
       "original": "メイド イン ワリオ",
-      "conv": "zh-cn:瓦力欧制造; zh-hk:瓦利歐工坊; zh-tw:瓦利歐工坊;"
+      "conv": "zh-cn:瓦力欧制造;zh-hk:瓦利歐工坊;zh-tw:瓦利歐工坊"
     },
     {
       "original": "ネコぱら",
-      "conv": "zh-cn:巧克力与香子兰; zh-tw:Nekopara;"
+      "conv": "zh-cn:巧克力与香子兰;zh-tw:Nekopara"
     },
     {
       "original": "幼なじみは大統領",
-      "conv": "zh-cn:幼驯染是大总统; zh-tw:我的青梅竹馬是大總統;"
+      "conv": "zh-cn:幼驯染是大总统;zh-tw:我的青梅竹馬是大總統"
     },
     {
       "original": "Bayonetta",
-      "conv": "zh-cn:贝优妮塔; zh-tw:蓓優妮塔;"
+      "conv": "zh-cn:贝优妮塔;zh-tw:蓓優妮塔"
     },
     {
       "original": "Chopin",
-      "conv": "zh-cn:肖邦; zh-tw:蕭邦;"
+      "conv": "zh-cn:肖邦;zh-tw:蕭邦"
     },
     {
       "original": "Cortana",
-      "conv": "zh-cn:科塔娜; zh-tw:可塔娜;"
+      "conv": "zh-cn:科塔娜;zh-tw:可塔娜"
     },
     {
       "original": "Croft",
-      "conv": "zh-cn:克罗夫特; zh-tw:卡芙特;"
+      "conv": "zh-cn:克罗夫特;zh-tw:卡芙特"
     },
     {
       "original": "Goblin",
-      "conv": "zh-cn:哥布林; zh-tw:哥布林;"
+      "conv": "zh-cn:哥布林;zh-tw:哥布林"
     },
     {
       "original": "Lara",
-      "conv": "zh-cn:劳拉; zh-tw:蘿拉; zh-hk:羅拉; "
+      "conv": "zh-cn:劳拉;zh-tw:蘿拉;zh-hk:羅拉"
     },
     {
       "original": "Mario",
-      "conv": "zh-cn:马力欧; zh-tw:瑪利歐;"
+      "conv": "zh-cn:马力欧;zh-tw:瑪利歐"
     },
     {
       "original": "Mario",
-      "conv": "马里奥=>zh-cn:马力欧; 马里奥=>zh-tw:瑪利歐; 马里奥=>zh-hk:瑪利歐;"
+      "conv": "马里奥=>zh-cn:马力欧;马里奥=>zh-tw:瑪利歐;马里奥=>zh-hk:瑪利歐"
     },
     {
       "original": "Sam Fisher",
-      "conv": "zh-cn:山姆·费舍尔; zh-tw:山姆·費雪;"
+      "conv": "zh-cn:山姆·费舍尔;zh-tw:山姆·費雪"
     },
     {
       "original": "Snake",
-      "conv": "zh-cn:斯内克; zh-tw:史內克;"
+      "conv": "zh-cn:斯内克;zh-tw:史內克"
     },
     {
       "original": "Sonic the Hedgehog",
-      "conv": "zh-cn:刺猬索尼克; zh-tw:音速小子; zh-hk:超音鼠;"
+      "conv": "zh-cn:刺猬索尼克;zh-tw:音速小子;zh-hk:超音鼠"
     },
     {
       "original": "Sonic the Hedgehog",
-      "conv": "zh-cn:索尼克; zh-tw:音速小子; zh-hk:超音鼠;"
+      "conv": "zh-cn:索尼克;zh-tw:音速小子;zh-hk:超音鼠"
     },
     {
       "original": "Wario",
-      "conv": "zh-cn:瓦力欧; zh-tw:瓦利歐;"
+      "conv": "zh-cn:瓦力欧;zh-tw:瓦利歐"
     },
     {
       "original": "Wario",
-      "conv": "瓦里奥=>zh-cn:瓦力欧; 瓦里奥=>zh-tw:瓦利歐; 瓦里奥=>zh-hk:瓦利歐;"
+      "conv": "瓦里奥=>zh-cn:瓦力欧;瓦里奥=>zh-tw:瓦利歐;瓦里奥=>zh-hk:瓦利歐"
     },
     {
       "original": "Bahamut",
-      "conv": "zh-hans:巴哈姆特电玩资讯站; zh-hant:巴哈姆特電玩資訊站;"
+      "conv": "zh-hans:巴哈姆特电玩资讯站;zh-hant:巴哈姆特電玩資訊站"
     },
     {
       "original": "Battle.net",
-      "conv": "zh-cn:战网; zh-tw:Battle.net; zh-hk:Battle.net;"
+      "conv": "zh-cn:战网;zh-tw:Battle.net;zh-hk:Battle.net"
     },
     {
       "original": "Electronic Arts",
-      "conv": "zh-cn:美国艺电; zh-tw:美商藝電; zh-hk:藝電;"
+      "conv": "zh-cn:美国艺电;zh-tw:美商藝電;zh-hk:藝電"
     },
     {
       "original": "Electronic Arts",
-      "conv": "zh-cn:艺电; zh-tw:美商藝電; zh-hk:藝電;"
+      "conv": "zh-cn:艺电;zh-tw:美商藝電;zh-hk:藝電"
     },
     {
       "original": "Grasshopper Manufacture",
-      "conv": "zh-cn:草蜢工作室; zh-tw:Grasshopper Manufacture; zh-hk:Grasshopper Manufacture;"
+      "conv": "zh-cn:草蜢工作室;zh-tw:Grasshopper Manufacture;zh-hk:Grasshopper Manufacture"
     },
     {
       "original": "Magnavox",
-      "conv": "zh-cn:米罗华; zh-tw:美格福斯;"
+      "conv": "zh-cn:米罗华;zh-tw:美格福斯"
     },
     {
       "original": "Object Software",
-      "conv": "zh-hans:目标软件; zh-hant:目標軟件;"
+      "conv": "zh-hans:目标软件;zh-hant:目標軟件"
     },
     {
       "original": "SEGA",
-      "conv": "zh-cn:世嘉; zh-tw:SEGA; zh-hk:世嘉;"
+      "conv": "zh-cn:世嘉;zh-tw:SEGA;zh-hk:世嘉"
     },
     {
       "original": "Sega D",
-      "conv": "zh-cn:世嘉D; zh-tw:SEGA D; zh-hk:世嘉D;"
+      "conv": "zh-cn:世嘉D;zh-tw:SEGA D;zh-hk:世嘉D"
     },
     {
       "original": "Sega G",
-      "conv": "zh-cn:世嘉G; zh-tw:SEGA G; zh-hk:世嘉G;"
+      "conv": "zh-cn:世嘉G;zh-tw:SEGA G;zh-hk:世嘉G"
     },
     {
       "original": "Sega M",
-      "conv": "zh-cn:世嘉M; zh-tw:SEGA M; zh-hk:世嘉M;"
+      "conv": "zh-cn:世嘉M;zh-tw:SEGA M;zh-hk:世嘉M"
     },
     {
       "original": "Sega S",
-      "conv": "zh-cn:世嘉S; zh-tw:SEGA S; zh-hk:世嘉S;"
+      "conv": "zh-cn:世嘉S;zh-tw:SEGA S;zh-hk:世嘉S"
     },
     {
       "original": "Softstar",
-      "conv": "zh-hans:大宇资讯; zh-hant:大宇資訊;"
+      "conv": "zh-hans:大宇资讯;zh-hant:大宇資訊"
     },
     {
       "original": "T-Time",
-      "conv": "zh-hans:光谱资讯; zh-hant:光譜資訊;"
+      "conv": "zh-hans:光谱资讯;zh-hant:光譜資訊"
     },
     {
       "original": "Valve",
-      "conv": "zh-cn:维尔福; zh-tw:維爾福; zh-hk:維爾福; zh-sg:威乐;"
+      "conv": "zh-cn:维尔福;zh-tw:維爾福;zh-hk:維爾福;zh-sg:威乐"
     },
     {
       "original": "Vivendi",
-      "conv": "zh-cn:维旺迪; zh-tw:威望迪;"
+      "conv": "zh-cn:维旺迪;zh-tw:威望迪"
     }
   ]
 }

@@ -5,507 +5,507 @@
   "rules": [
     {
       "original": "The Lancet",
-      "conv": "zh-hans:柳叶刀; zh-tw:刺胳針; zh-hk:刺針;"
+      "conv": "zh-hans:柳叶刀;zh-tw:刺胳針;zh-hk:刺針"
     },
     {
       "original": "germinal center",
-      "conv": "zh-hans:生发中心; zh-hant:生髮中心;"
+      "conv": "zh-hans:生发中心;zh-hant:生髮中心"
     },
     {
       "original": "occupational therapy",
-      "conv": "zh-hans:康复治疗; zh-tw:職能治療; zh-hk:職業治療;"
+      "conv": "zh-hans:康复治疗;zh-tw:職能治療;zh-hk:職業治療"
     },
     {
       "original": "Caesarean section",
-      "conv": "zh-hans:剖宫; zh-tw:剖腹;"
+      "conv": "zh-hans:剖宫;zh-tw:剖腹"
     },
     {
       "original": "Adhesion",
-      "conv": "zh-hans:粘连; zh-tw:沾黏;"
+      "conv": "zh-hans:粘连;zh-tw:沾黏"
     },
     {
       "original": "physiatry",
-      "conv": "zh-hans:康复医学; zh-hant:復健醫學; "
+      "conv": "zh-hans:康复医学;zh-hant:復健醫學"
     },
     {
       "original": "optometrist",
-      "conv": "zh-hans:验光师; zh-tw:驗光師; zh-hk:視光師;"
+      "conv": "zh-hans:验光师;zh-tw:驗光師;zh-hk:視光師"
     },
     {
       "original": "extracorporeal membrane oxygenation",
-      "conv": "zh-hans:体外膜氧合; zh-tw:葉克膜; zh-hk:人工肺;"
+      "conv": "zh-hans:体外膜氧合;zh-tw:葉克膜;zh-hk:人工肺"
     },
     {
       "original": "Intensive care medicine",
-      "conv": "zh-hans:重症医学; zh-tw:重症醫學; zh-hk:深切治療"
+      "conv": "zh-hans:重症医学;zh-tw:重症醫學;zh-hk:深切治療"
     },
     {
       "original": "ICU",
-      "conv": "zh-hans:重症监护室; zh-hk:深切治療部; zh-tw:加護病房"
+      "conv": "zh-hans:重症监护室;zh-hk:深切治療部;zh-tw:加護病房"
     },
     {
       "original": "case",
-      "conv": "zh-hans:病例; zh-hant:個案;"
+      "conv": "zh-hans:病例;zh-hant:個案"
     },
     {
       "original": "confirmed case",
-      "conv": "zh-hans:确诊病例; zh-hant:確診個案;"
+      "conv": "zh-hans:确诊病例;zh-hant:確診個案"
     },
     {
       "original": "suspected case",
-      "conv": "zh-hans:疑似病例; zh-hant:疑似個案; 懷疑個案=>zh-hans:疑似病例;"
+      "conv": "zh-hans:疑似病例;zh-hant:疑似個案;懷疑個案=>zh-hans:疑似病例"
     },
     {
       "original": "imported case",
-      "conv": "zh-hans:输入病例; zh-hant:輸入個案;"
+      "conv": "zh-hans:输入病例;zh-hant:輸入個案"
     },
     {
       "original": "outpoted case",
-      "conv": "zh-hans:输出病例; zh-hant:輸出個案;"
+      "conv": "zh-hans:输出病例;zh-hant:輸出個案"
     },
     {
       "original": "cumulative number of cases",
-      "conv": "zh-hans:累计病例; zh-hant:累計個案;"
+      "conv": "zh-hans:累计病例;zh-hant:累計個案"
     },
     {
       "original": "epidemic situation",
-      "conv": "疫潮=>zh-cn:疫情; 疫潮=>zh-sg:疫潮;"
+      "conv": "疫潮=>zh-cn:疫情;疫潮=>zh-sg:疫潮"
     },
     {
       "original": "Aggregative",
-      "conv": "群聚性=>zh-cn:聚集性;"
+      "conv": "群聚性=>zh-cn:聚集性"
     },
     {
       "original": "Clustering Onset",
-      "conv": "群聚感染=>zh-cn:聚集性感染;"
+      "conv": "群聚感染=>zh-cn:聚集性感染"
     },
     {
       "original": "Koch\\'s postulates",
-      "conv": "zh-hans:科赫法则; zh-hant:柯霍氏法則;"
+      "conv": "zh-hans:科赫法则;zh-hant:柯霍氏法則"
     },
     {
       "original": "medical observation",
-      "conv": "zh-hans:医学观察; zh-hk:醫學觀察; zh-tw:醫療觀察;"
+      "conv": "zh-hans:医学观察;zh-hk:醫學觀察;zh-tw:醫療觀察"
     },
     {
       "original": "cruciate ligament",
-      "conv": "zh-cn:交叉韧带; zh-tw:十字韌帶;"
+      "conv": "zh-cn:交叉韧带;zh-tw:十字韌帶"
     },
     {
       "original": "metatarsophalangeal",
-      "conv": "zh-cn:跖趾; zh-tw:蹠趾;"
+      "conv": "zh-cn:跖趾;zh-tw:蹠趾"
     },
     {
       "original": "tarsometatarsal",
-      "conv": "zh-cn:跗跖; zh-tw:跗蹠;"
+      "conv": "zh-cn:跗跖;zh-tw:跗蹠"
     },
     {
       "original": "metatarsal bone",
-      "conv": "zh-cn:跖骨; zh-tw:蹠骨;"
+      "conv": "zh-cn:跖骨;zh-tw:蹠骨"
     },
     {
       "original": "acetaminophen",
-      "conv": "zh-hans:对乙酰氨基酚; zh-hant:乙醯胺酚;"
+      "conv": "zh-hans:对乙酰氨基酚;zh-hant:乙醯胺酚"
     },
     {
       "original": "amoxicillin",
-      "conv": "zh-hans:阿莫西林; zh-hant:安默西林; 羟氨苄青霉素=>zh-hant:安默西林;"
+      "conv": "zh-hans:阿莫西林;zh-hant:安默西林;羟氨苄青霉素=>zh-hant:安默西林"
     },
     {
       "original": "ampicillin",
-      "conv": "zh-hans:氨苄青霉素; zh-hant:安比西林; 氨苄西林=>zh-hant:安比西林;"
+      "conv": "zh-hans:氨苄青霉素;zh-hant:安比西林;氨苄西林=>zh-hant:安比西林"
     },
     {
       "original": "ceftiofur",
-      "conv": "zh-hans:头孢噻呋; zh-hant:畜福;"
+      "conv": "zh-hans:头孢噻呋;zh-hant:畜福"
     },
     {
       "original": "chlortetracycline",
-      "conv": "zh-hans:金霉素; zh-hant:氯四環黴素;"
+      "conv": "zh-hans:金霉素;zh-hant:氯四環黴素"
     },
     {
       "original": "cloxacillin",
-      "conv": "zh-hans:邻氯青霉素; zh-hant:氯噁唑西林;"
+      "conv": "zh-hans:邻氯青霉素;zh-hant:氯噁唑西林"
     },
     {
       "original": "colistin",
-      "conv": "zh-hans:黏菌素; zh-hant:可利斯汀"
+      "conv": "zh-hans:黏菌素;zh-hant:可利斯汀"
     },
     {
       "original": "dicloxacillin",
-      "conv": "zh-hans:双氯西林; zh-hant:雙氯噁唑西林;"
+      "conv": "zh-hans:双氯西林;zh-hant:雙氯噁唑西林"
     },
     {
       "original": "dimetridazole",
-      "conv": "zh-hans:二甲硝咪唑; zh-hant:待美嘧唑;"
+      "conv": "zh-hans:二甲硝咪唑;zh-hant:待美嘧唑"
     },
     {
       "original": "doramectin",
-      "conv": "zh-hans:多拉菌素; zh-hant:多滅蟲;"
+      "conv": "zh-hans:多拉菌素;zh-hant:多滅蟲"
     },
     {
       "original": "doxycycline",
-      "conv": "zh-hans:强力霉素; zh-tw:去氧羥四環黴素; zh-hk:脫氧羥四環黴素;"
+      "conv": "zh-hans:强力霉素;zh-tw:去氧羥四環黴素;zh-hk:脫氧羥四環黴素"
     },
     {
       "original": "doxycycline",
-      "conv": "zh-hans:多西环素; zh-tw:去氧羥四環黴素; zh-hk:脫氧羥四環黴素;"
+      "conv": "zh-hans:多西环素;zh-tw:去氧羥四環黴素;zh-hk:脫氧羥四環黴素"
     },
     {
       "original": "doxycycline",
-      "conv": "zh-hans:脱氧土霉素; zh-tw:去氧羥四環黴素; zh-hk:脫氧羥四環黴素;"
+      "conv": "zh-hans:脱氧土霉素;zh-tw:去氧羥四環黴素;zh-hk:脫氧羥四環黴素"
     },
     {
       "original": "enrofloxacin",
-      "conv": "zh-hans:恩诺沙星; zh-hant:恩氟奎林羧酸;"
+      "conv": "zh-hans:恩诺沙星;zh-hant:恩氟奎林羧酸"
     },
     {
       "original": "florfenicol",
-      "conv": "zh-hans:氟苯尼考; zh-hant:氟甲磺氯黴素;"
+      "conv": "zh-hans:氟苯尼考;zh-hant:氟甲磺氯黴素"
     },
     {
       "original": "florfenicol",
-      "conv": "zh-hans:氟甲砜霉素; zh-hant:氟甲磺氯黴素;"
+      "conv": "zh-hans:氟甲砜霉素;zh-hant:氟甲磺氯黴素"
     },
     {
       "original": "flubendazole",
-      "conv": "zh-hans:氟苯达唑; zh-hant:氟苯並嘧唑氨基甲酸;"
+      "conv": "zh-hans:氟苯达唑;zh-hant:氟苯並嘧唑氨基甲酸"
     },
     {
       "original": "flumequine",
-      "conv": "zh-hans:氟甲喹; zh-hant:氟滅菌;"
+      "conv": "zh-hans:氟甲喹;zh-hant:氟滅菌"
     },
     {
       "original": "furaltadone",
-      "conv": "zh-hans:呋喃它酮; zh-hant:富來他頓; 呋吗唑酮=>zh-hant:富來他頓;"
+      "conv": "zh-hans:呋喃它酮;zh-hant:富來他頓;呋吗唑酮=>zh-hant:富來他頓"
     },
     {
       "original": "furazolidone",
-      "conv": "zh-hans:呋喃唑酮; zh-hant:富來頓; 痢特灵=>zh-hant:富來頓;"
+      "conv": "zh-hans:呋喃唑酮;zh-hant:富來頓;痢特灵=>zh-hant:富來頓"
     },
     {
       "original": "kanamycin",
-      "conv": "zh-hans:卡那霉素; zh-hant:康黴素;"
+      "conv": "zh-hans:卡那霉素;zh-hant:康黴素"
     },
     {
       "original": "ivermectin",
-      "conv": "zh-hans:伊维菌素; zh-hant:愛滅蟲;"
+      "conv": "zh-hans:伊维菌素;zh-hant:愛滅蟲"
     },
     {
       "original": "macrolide",
-      "conv": "zh-hans:大环内酯; zh-tw:巨環內酯; zh-hk:大環內酯;"
+      "conv": "zh-hans:大环内酯;zh-tw:巨環內酯;zh-hk:大環內酯"
     },
     {
       "original": "piperazine",
-      "conv": "zh-hans:哌嗪; zh-hant:匹配拉淨;"
+      "conv": "zh-hans:哌嗪;zh-hant:匹配拉淨"
     },
     {
       "original": "tetramisole",
-      "conv": "zh-hans:四咪唑; zh-hant:左右四美素;"
+      "conv": "zh-hans:四咪唑;zh-hant:左右四美素"
     },
     {
       "original": "tiamulin",
-      "conv": "zh-hans:泰妙菌素; zh-hant:泰妙素;"
+      "conv": "zh-hans:泰妙菌素;zh-hant:泰妙素"
     },
     {
       "original": "tilmicosin",
-      "conv": "zh-hans:替米考星; zh-hant:氨基泰黴素;"
+      "conv": "zh-hans:替米考星;zh-hant:氨基泰黴素"
     },
     {
       "original": "tylosin",
-      "conv": "zh-hans:泰乐菌素; zh-hant:泰黴素;"
+      "conv": "zh-hans:泰乐菌素;zh-hant:泰黴素"
     },
     {
       "original": "hydroxychloroquine",
-      "conv": "zh-hans:羟氯喹;zh-tw:羥氯奎寧;zh-hk:羥氯喹;"
+      "conv": "zh-hans:羟氯喹;zh-tw:羥氯奎寧;zh-hk:羥氯喹"
     },
     {
       "original": "chloroquine",
-      "conv": "zh-hans:氯喹;zh-tw:氯化奎寧;"
+      "conv": "zh-hans:氯喹;zh-tw:氯化奎寧"
     },
     {
       "original": "Aspirin",
-      "conv": "zh-hans:阿司匹林; zh-hk:阿士匹靈; zh-tw:阿斯匹靈;"
+      "conv": "zh-hans:阿司匹林;zh-hk:阿士匹靈;zh-tw:阿斯匹靈"
     },
     {
       "original": "acetylsalicylic acid",
-      "conv": "zh-hans:乙酰水杨酸; zh-hant:乙醯柳酸;"
+      "conv": "zh-hans:乙酰水杨酸;zh-hant:乙醯柳酸"
     },
     {
       "original": "Opioid",
-      "conv": "zh-hans:阿片; zh-hant:鴉片;"
+      "conv": "zh-hans:阿片;zh-hant:鴉片"
     },
     {
       "original": "Panadol",
-      "conv": "zh-cn:必理通; zh-tw:普拿疼; zh-hk:必理痛; zh-sg:班纳杜;"
+      "conv": "zh-cn:必理通;zh-tw:普拿疼;zh-hk:必理痛;zh-sg:班纳杜"
     },
     {
       "original": "NSAID",
-      "conv": "zh-cn:非甾体抗炎药; zh-tw:非類固醇抗發炎藥;"
+      "conv": "zh-cn:非甾体抗炎药;zh-tw:非類固醇抗發炎藥"
     },
     {
       "original": "Ritalin",
-      "conv": "zh-hant:利他能; zh-hans:利他林;"
+      "conv": "zh-hant:利他能;zh-hans:利他林"
     },
     {
       "original": "triple vaccine",
-      "conv": "zh-hans:结合疫苗; zh-hant:混合疫苗;"
+      "conv": "zh-hans:结合疫苗;zh-hant:混合疫苗"
     },
     {
       "original": "Diphtheria Tetanus Pertussis vaccine (DTP)",
-      "conv": "zh-hans:百白破; zh-hant:白喉破傷風百日咳;"
+      "conv": "zh-hans:百白破;zh-hant:白喉破傷風百日咳"
     },
     {
       "original": "Diphtheria Tetanus Pertussis vaccine (DTP)",
-      "conv": "zh-hans:百白破三联; zh-hant:白喉破傷風百日咳混合;"
+      "conv": "zh-hans:百白破三联;zh-hant:白喉破傷風百日咳混合"
     },
     {
       "original": "Inactivated",
-      "conv": "zh-hans:灭活; zh-tw:不活化; zh-hk:滅活; 去活化=>zh-hans:灭活; 去活化=>zh-tw:不活化; 去活化=>zh-hk:滅活;"
+      "conv": "zh-hans:灭活;zh-tw:不活化;zh-hk:滅活;去活化=>zh-hans:灭活;去活化=>zh-tw:不活化;去活化=>zh-hk:滅活"
     },
     {
       "original": "Live attenuated",
-      "conv": "zh-hans:减毒活; zh-tw:活性減毒; zh-hk:減活;"
+      "conv": "zh-hans:减毒活;zh-tw:活性減毒;zh-hk:減活"
     },
     {
       "original": "Live attenuated vaccines",
-      "conv": "zh-hans:减毒活疫苗; zh-tw:減毒性疫苗; zh-hk:減活疫苗;"
+      "conv": "zh-hans:减毒活疫苗;zh-tw:減毒性疫苗;zh-hk:減活疫苗"
     },
     {
       "original": "Live attenuated virus",
-      "conv": "zh-cn:减毒活病毒; zh-tw:減毒性病毒; zh-hk:減活病毒;"
+      "conv": "zh-cn:减毒活病毒;zh-tw:減毒性病毒;zh-hk:減活病毒"
     },
     {
       "original": "Booster",
-      "conv": "zh-hans:加强针; zh-hant:加強劑;"
+      "conv": "zh-hans:加强针;zh-hant:加強劑"
     },
     {
       "original": "Diphtheria and tetanus toxoid with whole cell pertussis vaccine (DTwP)",
-      "conv": "zh-hans:全细胞百白破疫苗; zh-hant:白喉破傷風全細胞性百日咳混合疫苗;"
+      "conv": "zh-hans:全细胞百白破疫苗;zh-hant:白喉破傷風全細胞性百日咳混合疫苗"
     },
     {
       "original": "Diphtheria and tetanus toxoid with acellular pertussis(DTaP)",
-      "conv": "zh-hans:无细胞百白破疫苗; zh-hant:白喉破傷風非細胞性百日咳混合疫苗;"
+      "conv": "zh-hans:无细胞百白破疫苗;zh-hant:白喉破傷風非細胞性百日咳混合疫苗"
     },
     {
       "original": "Tetanus and diphtheria toxoid childrens dose (DT)",
-      "conv": "zh-hans:白破疫苗; zh-hant:白喉破傷風混合疫苗;"
+      "conv": "zh-hans:白破疫苗;zh-hant:白喉破傷風混合疫苗"
     },
     {
       "original": "rubella vaccine",
-      "conv": "zh-hans:风疹疫苗; zh-hant:德國麻疹疫苗;"
+      "conv": "zh-hans:风疹疫苗;zh-hant:德國麻疹疫苗"
     },
     {
       "original": "Measles and rubella vaccine (MR)",
-      "conv": "zh-hans:麻风疫苗; zh-hant:麻疹德國麻疹疫苗;"
+      "conv": "zh-hans:麻风疫苗;zh-hant:麻疹德國麻疹疫苗"
     },
     {
       "original": "Measles and mumps vaccine (MM)",
-      "conv": "zh-hans:麻腮; zh-hant:麻疹腮腺炎;"
+      "conv": "zh-hans:麻腮;zh-hant:麻疹腮腺炎"
     },
     {
       "original": "Measles mumps and rubella vaccine (MMR)",
-      "conv": "zh-hans:麻腮风; zh-hant:麻疹腮腺炎德國麻疹;"
+      "conv": "zh-hans:麻腮风;zh-hant:麻疹腮腺炎德國麻疹"
     },
     {
       "original": "Measles mumps and rubella vaccine (MMR)",
-      "conv": "zh-hans:麻腮风三联; zh-hant:麻疹腮腺炎德國麻疹混合;"
+      "conv": "zh-hans:麻腮风三联;zh-hant:麻疹腮腺炎德國麻疹混合"
     },
     {
       "original": "generic drug",
-      "conv": "zh-hant:學名藥; zh-hans:通用名药物"
+      "conv": "zh-hant:學名藥;zh-hans:通用名药物"
     },
     {
       "original": "anticonvulsive",
-      "conv": "zh-tw:抗痙攣; zh-hk:抗驚厥; zh-hans:抗惊厥;"
+      "conv": "zh-tw:抗痙攣;zh-hk:抗驚厥;zh-hans:抗惊厥"
     },
     {
       "original": "echocardiography",
-      "conv": "zh-hans:超声心动图; zh-tw:心臟超音波; zh-hk:心臟超聲波;"
+      "conv": "zh-hans:超声心动图;zh-tw:心臟超音波;zh-hk:心臟超聲波"
     },
     {
       "original": "computed tomography",
-      "conv": "zh-tw:電腦斷層掃描; zh-hk:電腦斷層掃描; zh-hans:计算机断层成像;"
+      "conv": "zh-tw:電腦斷層掃描;zh-hk:電腦斷層掃描;zh-hans:计算机断层成像"
     },
     {
       "original": "computed tomography",
-      "conv": "计算机断层掃描=>zh-tw:電腦斷層掃描;计算机断层掃描=>zh-hk:電腦斷層掃描;"
+      "conv": "计算机断层掃描=>zh-tw:電腦斷層掃描;计算机断层掃描=>zh-hk:電腦斷層掃描"
     },
     {
       "original": "lead",
-      "conv": "zh-cn:导联; zh-tw:導程;"
+      "conv": "zh-cn:导联;zh-tw:導程"
     },
     {
       "original": "Zika virus",
-      "conv": "zh-cn:寨卡病毒; zh-hk:寨卡病毒; zh-mo:茲卡病毒; zh-tw:茲卡病毒; zh-sg:茲卡病毒;"
+      "conv": "zh-cn:寨卡病毒;zh-hk:寨卡病毒;zh-mo:茲卡病毒;zh-tw:茲卡病毒;zh-sg:茲卡病毒"
     },
     {
       "original": "SARS-CoV-2",
-      "conv": "zh-cn:严重急性呼吸系统综合征冠状病毒2;zh-hk:嚴重急性呼吸綜合症冠狀病毒2型;zh-mo:嚴重急性呼吸綜合症冠狀病毒2型;zh-tw:嚴重急性呼吸道症候群冠狀病毒2型;zh-my:严重急性呼吸综合征冠状病毒2;zh-sg:严重急性呼吸综合征冠状病毒2;"
+      "conv": "zh-cn:严重急性呼吸系统综合征冠状病毒2;zh-hk:嚴重急性呼吸綜合症冠狀病毒2型;zh-mo:嚴重急性呼吸綜合症冠狀病毒2型;zh-tw:嚴重急性呼吸道症候群冠狀病毒2型;zh-my:严重急性呼吸综合征冠状病毒2;zh-sg:严重急性呼吸综合征冠状病毒2"
     },
     {
       "original": "symptom",
-      "conv": "zh-hans:症状; zh-tw:症狀; zh-hk:徵狀;"
+      "conv": "zh-hans:症状;zh-tw:症狀;zh-hk:徵狀"
     },
     {
       "original": "inflammation",
-      "conv": "炎症=>zh-tw:發炎;"
+      "conv": "炎症=>zh-tw:發炎"
     },
     {
       "original": "fever",
-      "conv": "zh-hans:发热; zh-hant:發燒"
+      "conv": "zh-hans:发热;zh-hant:發燒"
     },
     {
       "original": "anti-inflammatory",
-      "conv": "zh-tw:抗發炎; zh-hk:抗炎; zh-hans:抗炎;"
+      "conv": "zh-tw:抗發炎;zh-hk:抗炎;zh-hans:抗炎"
     },
     {
       "original": "infarction",
-      "conv": "zh-hant:梗塞; zh-hans:梗死;"
+      "conv": "zh-hant:梗塞;zh-hans:梗死"
     },
     {
       "original": "Alzheimer&#x0027;s disease",
-      "conv": "zh-hant:阿茲海默症; zh-hans:阿尔茨海默病;"
+      "conv": "zh-hant:阿茲海默症;zh-hans:阿尔茨海默病"
     },
     {
       "original": "Graves%27 disease",
-      "conv": "zh-hant:葛瑞夫茲氏病; zh-hans:格里夫氏症;"
+      "conv": "zh-hant:葛瑞夫茲氏病;zh-hans:格里夫氏症"
     },
     {
       "original": "atrial septal defect",
-      "conv": "zh-hans:房间隔缺损; zh-tw:心房中隔缺損; zh-hk:心房間隔缺損;"
+      "conv": "zh-hans:房间隔缺损;zh-tw:心房中隔缺損;zh-hk:心房間隔缺損"
     },
     {
       "original": "bovine spongiform encephalopathy",
-      "conv": "zh-hans:牛海绵状脑病; zh-hant:牛腦海綿狀病變"
+      "conv": "zh-hans:牛海绵状脑病;zh-hant:牛腦海綿狀病變"
     },
     {
       "original": "Hepatitis A",
-      "conv": "zh-tw:A型肝炎; zh-hk:甲型肝炎; zh-cn:甲型肝炎;"
+      "conv": "zh-tw:A型肝炎;zh-hk:甲型肝炎;zh-cn:甲型肝炎"
     },
     {
       "original": "Hepatitis B",
-      "conv": "zh-tw:B型肝炎; zh-hk:乙型肝炎; zh-cn:乙型肝炎;"
+      "conv": "zh-tw:B型肝炎;zh-hk:乙型肝炎;zh-cn:乙型肝炎"
     },
     {
       "original": "Hepatitis C",
-      "conv": "zh-tw:C型肝炎; zh-hk:丙型肝炎; zh-cn:丙型肝炎;"
+      "conv": "zh-tw:C型肝炎;zh-hk:丙型肝炎;zh-cn:丙型肝炎"
     },
     {
       "original": "Hepatitis D",
-      "conv": "zh-tw:D型肝炎; zh-hk:丁型肝炎; zh-cn:丁型肝炎;"
+      "conv": "zh-tw:D型肝炎;zh-hk:丁型肝炎;zh-cn:丁型肝炎"
     },
     {
       "original": "Hepatitis E",
-      "conv": "zh-tw:E型肝炎; zh-hk:戊型肝炎; zh-cn:戊型肝炎;"
+      "conv": "zh-tw:E型肝炎;zh-hk:戊型肝炎;zh-cn:戊型肝炎"
     },
     {
       "original": "Hepatitis F",
-      "conv": "zh-tw:F型肝炎; zh-hk:己型肝炎; zh-cn:己型肝炎;"
+      "conv": "zh-tw:F型肝炎;zh-hk:己型肝炎;zh-cn:己型肝炎"
     },
     {
       "original": "Hepatitis G",
-      "conv": "zh-tw:G型肝炎; zh-hk:庚型肝炎; zh-cn:庚型肝炎;"
+      "conv": "zh-tw:G型肝炎;zh-hk:庚型肝炎;zh-cn:庚型肝炎"
     },
     {
       "original": "Influenza type A",
-      "conv": "zh-tw:A型流感; zh-hk:甲型流感; zh-cn:甲型流感;"
+      "conv": "zh-tw:A型流感;zh-hk:甲型流感;zh-cn:甲型流感"
     },
     {
       "original": "Influenza type B",
-      "conv": "zh-tw:B型流感; zh-hk:乙型流感; zh-cn:乙型流感;"
+      "conv": "zh-tw:B型流感;zh-hk:乙型流感;zh-cn:乙型流感"
     },
     {
       "original": "Influenza type C",
-      "conv": "zh-tw:C型流感; zh-hk:丙型流感; zh-cn:丙型流感;"
+      "conv": "zh-tw:C型流感;zh-hk:丙型流感;zh-cn:丙型流感"
     },
     {
       "original": "Influenza type D",
-      "conv": "zh-tw:D型流感; zh-hk:丁型流感; zh-cn:丁型流感;"
+      "conv": "zh-tw:D型流感;zh-hk:丁型流感;zh-cn:丁型流感"
     },
     {
       "original": "Menigoccoccal A",
-      "conv": "流脑=>zh-tw:流行性腦脊髓膜炎;"
+      "conv": "流脑=>zh-tw:流行性腦脊髓膜炎"
     },
     {
       "original": "Menigoccoccal A",
-      "conv": "zh-tw:流行性腦脊髓膜炎（A型）; zh-cn:A群流脑;"
+      "conv": "zh-tw:流行性腦脊髓膜炎（A型）;zh-cn:A群流脑"
     },
     {
       "original": "Menigoccoccal A",
-      "conv": "zh-tw:流行性腦脊髓膜炎（C型）; zh-cn:C群流脑;"
+      "conv": "zh-tw:流行性腦脊髓膜炎（C型）;zh-cn:C群流脑"
     },
     {
       "original": "mad cow disease",
-      "conv": "zh-cn:疯牛病; zh-hk:瘋牛症; zh-tw:狂牛症"
+      "conv": "zh-cn:疯牛病;zh-hk:瘋牛症;zh-tw:狂牛症"
     },
     {
       "original": "neurotic disorder",
-      "conv": "zh-hant:精神官能症; zh-hans:神经症;"
+      "conv": "zh-hant:精神官能症;zh-hans:神经症"
     },
     {
       "original": "Parkinson&#x0027;s disease",
-      "conv": "zh-tw:帕金森氏症; zh-hk:柏金遜症; zh-cn:帕金森病;"
+      "conv": "zh-tw:帕金森氏症;zh-hk:柏金遜症;zh-cn:帕金森病"
     },
     {
       "original": "septal defect",
-      "conv": "zh-cn:中隔缺损; zh-tw:中隔缺損; zh-hk:間隔缺損; 中膈缺損=>zh-cn:中隔缺损; 中膈缺損=>zh-hk:間隔缺損;"
+      "conv": "zh-cn:中隔缺损;zh-tw:中隔缺損;zh-hk:間隔缺損;中膈缺損=>zh-cn:中隔缺损;中膈缺損=>zh-hk:間隔缺損"
     },
     {
       "original": "Syndrome",
-      "conv": "zh-tw:症候群; zh-hk:綜合症; zh-cn:综合征; zh-sg:综合症;"
+      "conv": "zh-tw:症候群;zh-hk:綜合症;zh-cn:综合征;zh-sg:综合症"
     },
     {
       "original": "ventricular septal defect",
-      "conv": "zh-hans:室间隔缺损; zh-tw:心室中隔缺損; zh-hk:室房間隔缺損;"
+      "conv": "zh-hans:室间隔缺损;zh-tw:心室中隔缺損;zh-hk:室房間隔缺損"
     },
     {
       "original": "2009 H1N1 influenza outbreak",
-      "conv": "zh-cn:2009年H1N1流感大流行; zh-hk:2009年人類豬型流感疫情; zh-tw:2009年H1N1新型流感疫情;"
+      "conv": "zh-cn:2009年H1N1流感大流行;zh-hk:2009年人類豬型流感疫情;zh-tw:2009年H1N1新型流感疫情"
     },
     {
       "original": "H1N1 influenza",
-      "conv": "zh-cn:甲型H1N1流感; zh-hk:人類豬型流感; zh-tw:H1N1新型流感"
+      "conv": "zh-cn:甲型H1N1流感;zh-hk:人類豬型流感;zh-tw:H1N1新型流感"
     },
     {
       "original": "SARS",
-      "conv": "zh-cn:严重急性呼吸道综合征; zh-hk:嚴重急性呼吸系統綜合症; zh-tw:嚴重急性呼吸道症候群;"
+      "conv": "zh-cn:严重急性呼吸道综合征;zh-hk:嚴重急性呼吸系統綜合症;zh-tw:嚴重急性呼吸道症候群"
     },
     {
       "original": "SARS",
-      "conv": "zh-cn:非典; zh-hk:沙士; zh-tw:薩斯; zh-sg:沙斯;"
+      "conv": "zh-cn:非典;zh-hk:沙士;zh-tw:薩斯;zh-sg:沙斯"
     },
     {
       "original": "Atypical pneumonia",
-      "conv": "zh-cn:非典型肺炎; zh-hk:非典型肺炎; zh-tw:非典型肺炎; zh-sg:非典型肺炎;"
+      "conv": "zh-cn:非典型肺炎;zh-hk:非典型肺炎;zh-tw:非典型肺炎;zh-sg:非典型肺炎"
     },
     {
       "original": "COVID-19",
-      "conv": "zh-cn:2019冠状病毒病;zh-hk:2019冠狀病毒病;zh-mo:2019冠狀病毒病;zh-tw:嚴重特殊傳染性肺炎;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病;"
+      "conv": "zh-cn:2019冠状病毒病;zh-hk:2019冠狀病毒病;zh-mo:2019冠狀病毒病;zh-tw:嚴重特殊傳染性肺炎;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病"
     },
     {
       "original": "ketoacidosis",
-      "conv": "zh-cn:酮症酸中毒; zh-hk:酮症酸中毒; zh-tw:酮酸血症;"
+      "conv": "zh-cn:酮症酸中毒;zh-hk:酮症酸中毒;zh-tw:酮酸血症"
     },
     {
       "original": "schizophrenia",
-      "conv": "zh:思覺失調症; zh-cn:精神分裂症; zh-hk:精神分裂症; zh-tw:思覺失調症"
+      "conv": "zh:思覺失調症;zh-cn:精神分裂症;zh-hk:精神分裂症;zh-tw:思覺失調症"
     },
     {
       "original": "Denge fever",
-      "conv": "zh-tw:登革熱; zh-hk:登革熱; zh-cn:登革热; zh-sg:骨痛热症;"
+      "conv": "zh-tw:登革熱;zh-hk:登革熱;zh-cn:登革热;zh-sg:骨痛热症"
     },
     {
       "original": "Dementia",
-      "conv": "zh-tw:失智症; zh-hk:認知障礙症; zh-cn:痴呆症; zh-mo:腦退化症;"
+      "conv": "zh-tw:失智症;zh-hk:認知障礙症;zh-cn:痴呆症;zh-mo:腦退化症"
     },
     {
       "original": "Type 1 diabetes mellitus",
-      "conv": "zh-cn:1型糖尿病; zh-tw:第1型糖尿病; zh-hk:一型糖尿病;"
+      "conv": "zh-cn:1型糖尿病;zh-tw:第1型糖尿病;zh-hk:一型糖尿病"
     },
     {
       "original": "Type 2 diabetes mellitus",
-      "conv": "zh-cn:2型糖尿病; zh-tw:第2型糖尿病; zh-hk:二型糖尿病;"
+      "conv": "zh-cn:2型糖尿病;zh-tw:第2型糖尿病;zh-hk:二型糖尿病"
     },
     {
       "original": "Heart arrhythmia",
@@ -525,103 +525,103 @@
     },
     {
       "original": "Ankylosing spondylitis",
-      "conv": "zh-cn:强直性脊柱炎; zh-tw:僵直性脊椎炎;"
+      "conv": "zh-cn:强直性脊柱炎;zh-tw:僵直性脊椎炎"
     },
     {
       "original": "herpes",
-      "conv": "zh-hans:疱疹; zh-hant:疱疹; 疱疹=>zh-hant:疱疹;"
+      "conv": "zh-hans:疱疹;zh-hant:疱疹;疱疹=>zh-hant:疱疹"
     },
     {
       "original": "poliomyelitis",
-      "conv": "zh-hans:脊髓灰质炎; zh-hant:脊髓灰質炎; zh-hk:小兒麻痺症; zh-tw:小兒麻痺症;"
+      "conv": "zh-hans:脊髓灰质炎;zh-hant:脊髓灰質炎;zh-hk:小兒麻痺症;zh-tw:小兒麻痺症"
     },
     {
       "original": "Lassa fever",
-      "conv": "zh-hans:拉沙热; zh-hant:拉沙熱; zh-tw:拉薩熱;"
+      "conv": "zh-hans:拉沙热;zh-hant:拉沙熱;zh-tw:拉薩熱"
     },
     {
       "original": "nurse",
-      "conv": "zh-cn:护士; zh-tw:護理師; zh-hk:護士;"
+      "conv": "zh-cn:护士;zh-tw:護理師;zh-hk:護士"
     },
     {
       "original": "pharmacist",
-      "conv": "zh-cn:药师; zh-tw:藥師; zh-hk:藥劑師;"
+      "conv": "zh-cn:药师;zh-tw:藥師;zh-hk:藥劑師"
     },
     {
       "original": "radiographer",
-      "conv": "zh-cn:放射技师; zh-tw:醫事放射師; zh-hk:放射技師;"
+      "conv": "zh-cn:放射技师;zh-tw:醫事放射師;zh-hk:放射技師"
     },
     {
       "original": "钟南山",
-      "conv": "zh-cn:钟南山; zh-tw:鍾南山; zh-hk:鍾南山;"
+      "conv": "zh-cn:钟南山;zh-tw:鍾南山;zh-hk:鍾南山"
     },
     {
       "original": "Legionella pneumophila",
-      "conv": "zh-hans:嗜肺军团菌; zh-hk:退伍軍人菌; zh-tw:退伍軍人桿菌;"
+      "conv": "zh-hans:嗜肺军团菌;zh-hk:退伍軍人菌;zh-tw:退伍軍人桿菌"
     },
     {
       "original": "Transgender hormone therapy",
-      "conv": "zh-hans:跨性别激素疗法; zh-hant:跨性別荷爾蒙治療;"
+      "conv": "zh-hans:跨性别激素疗法;zh-hant:跨性別荷爾蒙治療"
     },
     {
       "original": null,
-      "conv": "zh-hans:厚朴; zh-hant:厚朴;"
+      "conv": "zh-hans:厚朴;zh-hant:厚朴"
     },
     {
       "original": null,
-      "conv": "zh-hans:白术; zh-hant:白朮"
+      "conv": "zh-hans:白术;zh-hant:白朮"
     },
     {
       "original": null,
-      "conv": "zh-hans:苍术; zh-hant:蒼朮"
+      "conv": "zh-hans:苍术;zh-hant:蒼朮"
     },
     {
       "original": null,
-      "conv": "zh-hans:干姜; zh-hant:乾薑;"
+      "conv": "zh-hans:干姜;zh-hant:乾薑"
     },
     {
       "original": null,
-      "conv": "zh-hans:神曲; zh-hant:神麴;"
+      "conv": "zh-hans:神曲;zh-hant:神麴"
     },
     {
       "original": null,
-      "conv": "zh-hans:谷芽; zh-hant:穀芽;"
+      "conv": "zh-hans:谷芽;zh-hant:穀芽"
     },
     {
       "original": null,
-      "conv": "zh-hans:炮制; zh-hant:炮製;"
+      "conv": "zh-hans:炮制;zh-hant:炮製"
     },
     {
       "original": null,
-      "conv": "zh-hans:修制; zh-hant:修製;"
+      "conv": "zh-hans:修制;zh-hant:修製"
     },
     {
       "original": null,
-      "conv": "zh-hans:共制; zh-hant:共製;"
+      "conv": "zh-hans:共制;zh-hant:共製"
     },
     {
       "original": null,
-      "conv": "zh-hans:水制; zh-hant:水製;"
+      "conv": "zh-hans:水制;zh-hant:水製"
     },
     {
       "original": null,
-      "conv": "zh-hans:火制; zh-hant:火製;"
+      "conv": "zh-hans:火制;zh-hant:火製"
     },
     {
       "original": null,
-      "conv": "zh-hans:醋制; zh-hant:醋製;"
+      "conv": "zh-hans:醋制;zh-hant:醋製"
     },
     {
       "original": null,
-      "conv": "zh-hans:制霜; zh-hant:製霜;"
+      "conv": "zh-hans:制霜;zh-hant:製霜"
     },
     {
       "original": null,
-      "conv": "zh-hans:制绒; zh-hant:製絨;"
+      "conv": "zh-hans:制绒;zh-hant:製絨"
     },
     {
       "original": "Johnson & Johnson",
-      "conv": "zh-cn:强生;zh-hk:強生;zh-mo:強生;zh-tw:嬌生;zh-sg:强生;zh-my:强生;"
+      "conv": "zh-cn:强生;zh-hk:強生;zh-mo:強生;zh-tw:嬌生;zh-sg:强生;zh-my:强生"
     }
   ]
 }

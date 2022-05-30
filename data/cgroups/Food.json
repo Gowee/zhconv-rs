@@ -5,799 +5,799 @@
   "rules": [
     {
       "original": "外語原文",
-      "conv": "zh-cn:大陆; zh-tw:臺灣; zh-hk:香港; zh-sg:新馬; zh-mo:澳門;"
+      "conv": "zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:澳門"
     },
     {
       "original": "外語原文",
-      "conv": "原文 => zh-cn:大陆; 原文 => zh-tw:臺灣; 原文 => zh-hk:香港; 原文 => zh-sg:新馬; zh-mo:澳門;"
+      "conv": "原文 => zh-cn:大陆;原文 => zh-tw:臺灣;原文 => zh-hk:香港;原文 => zh-sg:新馬;zh-mo:澳門"
     },
     {
       "original": null,
-      "conv": "zh-hans:奶黃包; zh-hant:奶黃包;"
+      "conv": "zh-hans:奶黃包;zh-hant:奶黃包"
     },
     {
       "original": null,
-      "conv": "zh-hans:两相好; zh-hant:兩相好; zh-tw:雙胞胎;"
+      "conv": "zh-hans:两相好;zh-hant:兩相好;zh-tw:雙胞胎"
     },
     {
       "original": "メロンパン",
-      "conv": "zh-tw:哈密瓜麵包; zh-hk:蜜瓜包; zh-cn:蜜瓜包;"
+      "conv": "zh-tw:哈密瓜麵包;zh-hk:蜜瓜包;zh-cn:蜜瓜包"
     },
     {
       "original": "apple pie",
-      "conv": "zh-hans:苹果派; zh-hk:蘋果批; zh-tw:蘋果派;"
+      "conv": "zh-hans:苹果派;zh-hk:蘋果批;zh-tw:蘋果派"
     },
     {
       "original": "bread",
-      "conv": "zh-cn:面包; zh-hk:麪包; zh-tw:麵包;"
+      "conv": "zh-cn:面包;zh-hk:麪包;zh-tw:麵包"
     },
     {
       "original": "club sandwich",
-      "conv": "zh-hans:俱乐部三明治; zh-hk:公司三文治; zh-tw:總匯三明治;"
+      "conv": "zh-hans:俱乐部三明治;zh-hk:公司三文治;zh-tw:總匯三明治"
     },
     {
       "original": "cookies",
-      "conv": "zh-cn:饼干; zh-hk:曲奇; zh-tw:餅乾;"
+      "conv": "zh-cn:饼干;zh-hk:曲奇;zh-tw:餅乾"
     },
     {
       "original": "cookies",
-      "conv": "zh-cn:饼干; zh-hk:曲奇餅; zh-tw:餅乾;"
+      "conv": "zh-cn:饼干;zh-hk:曲奇餅;zh-tw:餅乾"
     },
     {
       "original": "crème brûlée",
-      "conv": "zh-hans:法式炖蛋; zh-hant:法式燉蛋; zh-tw:焦糖烤布蕾; zh-hk:焦糖布甸;"
+      "conv": "zh-hans:法式炖蛋;zh-hant:法式燉蛋;zh-tw:焦糖烤布蕾;zh-hk:焦糖布甸"
     },
     {
       "original": "crème brûlée",
-      "conv": "烤布蕾 => zh-cn:法式炖蛋; 烤布蕾 => zh-hk:焦糖布甸;"
+      "conv": "烤布蕾 => zh-cn:法式炖蛋;烤布蕾 => zh-hk:焦糖布甸"
     },
     {
       "original": "cupcake",
-      "conv": "zh-cn:杯子蛋糕; zh-tw:杯子蛋糕; zh-hk:紙杯蛋糕; zh-sg:纸杯蛋糕;"
+      "conv": "zh-cn:杯子蛋糕;zh-tw:杯子蛋糕;zh-hk:紙杯蛋糕;zh-sg:纸杯蛋糕"
     },
     {
       "original": "donut",
-      "conv": "zh-cn:甜甜圈; zh-tw:甜甜圈; zh-hk:冬甩;"
+      "conv": "zh-cn:甜甜圈;zh-tw:甜甜圈;zh-hk:冬甩"
     },
     {
       "original": "egg tart",
-      "conv": "zh-hant:蛋塔; zh-hans:蛋挞; zh-hk:蛋撻;"
+      "conv": "zh-hant:蛋塔;zh-hans:蛋挞;zh-hk:蛋撻"
     },
     {
       "original": "gingerbread",
-      "conv": "zh-hans:姜面包; zh-hant:薑餅;"
+      "conv": "zh-hans:姜面包;zh-hant:薑餅"
     },
     {
       "original": "korokke",
-      "conv": "zh-cn:可乐饼; zh-tw:可樂餅; zh-hk:吉樂餅;"
+      "conv": "zh-cn:可乐饼;zh-tw:可樂餅;zh-hk:吉樂餅"
     },
     {
       "original": "meringue",
-      "conv": "zh-tw:蛋白霜; zh-cn:蛋白脆饼;"
+      "conv": "zh-tw:蛋白霜;zh-cn:蛋白脆饼"
     },
     {
       "original": "omelette",
-      "conv": "zh-hans:西式蛋饼; zh-hant:西式蛋餅; zh-tw:歐姆蛋; zh-hk:奄列; zh-sg:杏力蛋;"
+      "conv": "zh-hans:西式蛋饼;zh-hant:西式蛋餅;zh-tw:歐姆蛋;zh-hk:奄列;zh-sg:杏力蛋"
     },
     {
       "original": "pancake",
-      "conv": "熱香餅 => zh-hans:薄烤饼; 熱香餅 => zh-tw:薄烤餅;"
+      "conv": "熱香餅 => zh-hans:薄烤饼;熱香餅 => zh-tw:薄烤餅"
     },
     {
       "original": "pancake",
-      "conv": "薄烤饼 => zh-hk:熱香餅; 薄烤饼 => zh-tw:薄烤餅;"
+      "conv": "薄烤饼 => zh-hk:熱香餅;薄烤饼 => zh-tw:薄烤餅"
     },
     {
       "original": "pineapple bun",
-      "conv": "zh-tw:菠蘿麵包; zh-hk:菠蘿包; zh-cn:菠萝面包;"
+      "conv": "zh-tw:菠蘿麵包;zh-hk:菠蘿包;zh-cn:菠萝面包"
     },
     {
       "original": "pineapple cake",
-      "conv": "zh-hans:凤梨酥; zh-hant:鳳梨酥;"
+      "conv": "zh-hans:凤梨酥;zh-hant:鳳梨酥"
     },
     {
       "original": null,
-      "conv": "zh-hans:黄梨饼; zh-hant:黄梨餅;"
+      "conv": "zh-hans:黄梨饼;zh-hant:黄梨餅"
     },
     {
       "original": null,
-      "conv": "zh-hans:黄梨酥; zh-hant:黄梨酥;"
+      "conv": "zh-hans:黄梨酥;zh-hant:黄梨酥"
     },
     {
       "original": null,
-      "conv": "zh-hans:黃梨饼; zh-hant:黃梨餅;"
+      "conv": "zh-hans:黃梨饼;zh-hant:黃梨餅"
     },
     {
       "original": null,
-      "conv": "zh-hans:黃梨酥; zh-hant:黃梨酥;"
+      "conv": "zh-hans:黃梨酥;zh-hant:黃梨酥"
     },
     {
       "original": "pizza",
-      "conv": "zh-hans:比萨饼; zh-hant:披薩;"
+      "conv": "zh-hans:比萨饼;zh-hant:披薩"
     },
     {
       "original": "pizza",
-      "conv": "披薩 => zh-hk:薄餅;"
+      "conv": "披薩 => zh-hk:薄餅"
     },
     {
       "original": "pizza",
-      "conv": "比萨饼 => zh-hk:薄餅;"
+      "conv": "比萨饼 => zh-hk:薄餅"
     },
     {
       "original": "pizza",
-      "conv": "意大利薄餅 => zh-tw:披薩; 意大利薄餅 => zh-cn:披萨;"
+      "conv": "意大利薄餅 => zh-tw:披薩;意大利薄餅 => zh-cn:披萨"
     },
     {
       "original": "pudding",
-      "conv": "zh-cn:布丁; zh-tw:布丁; zh-hk:布甸;"
+      "conv": "zh-cn:布丁;zh-tw:布丁;zh-hk:布甸"
     },
     {
       "original": "rye bread",
-      "conv": "黑麥包 => zh-cn:黑麦面包; 黑麥包 => zh-tw:黑麥麵包;"
+      "conv": "黑麥包 => zh-cn:黑麦面包;黑麥包 => zh-tw:黑麥麵包"
     },
     {
       "original": "sandwich",
-      "conv": "zh-hans:三明治; zh-hk:三文治; zh-tw:三明治;"
+      "conv": "zh-hans:三明治;zh-hk:三文治;zh-tw:三明治"
     },
     {
       "original": "toast",
-      "conv": "zh-hans:吐司; zh-tw:吐司; zh-hk:多士;"
+      "conv": "zh-hans:吐司;zh-tw:吐司;zh-hk:多士"
     },
     {
       "original": "waffle",
-      "conv": "zh-hk:窩夫; zh-hk:鬆餅; zh-hans:华夫饼;"
+      "conv": "zh-hk:窩夫;zh-hk:鬆餅;zh-hans:华夫饼"
     },
     {
       "original": "whole wheat bread",
-      "conv": "麥包 => zh-cn:全麦面包; 麥包 => zh-tw:全麥麵包;"
+      "conv": "麥包 => zh-cn:全麦面包;麥包 => zh-tw:全麥麵包"
     },
     {
       "original": "appenzeller",
-      "conv": "zh-hans:阿彭策尔; zh-hk:阿彭策爾; zh-tw:亞本塞;"
+      "conv": "zh-hans:阿彭策尔;zh-hk:阿彭策爾;zh-tw:亞本塞"
     },
     {
       "original": "cheddar",
-      "conv": "zh-hans:切达; zh-hk:車打; zh-tw:切達;"
+      "conv": "zh-hans:切达;zh-hk:車打;zh-tw:切達"
     },
     {
       "original": "cheese",
-      "conv": "zh-hans:干酪; zh-hant:乾酪; zh-cn:奶酪; zh-hk:芝士; zh-tw:起司; zh-sg:起士; zh-my:乳酪;"
+      "conv": "zh-hans:干酪;zh-hant:乾酪;zh-cn:奶酪;zh-hk:芝士;zh-tw:起司;zh-sg:起士;zh-my:乳酪"
     },
     {
       "original": "cream cheese",
-      "conv": "zh-cn:奶油芝士; zh-tw:奶油乳酪; zh-hk:忌廉芝士;"
+      "conv": "zh-cn:奶油芝士;zh-tw:奶油乳酪;zh-hk:忌廉芝士"
     },
     {
       "original": "emmental(er)",
-      "conv": "zh-cn:埃曼塔; zh-tw:埃文達;"
+      "conv": "zh-cn:埃曼塔;zh-tw:埃文達"
     },
     {
       "original": "mozzarella",
-      "conv": "zh-cn:马苏里拉; zh-hk:莫薩里拉; zh-tw:莫札瑞拉; zh-sg:莫札瑞拉;"
+      "conv": "zh-cn:马苏里拉;zh-hk:莫薩里拉;zh-tw:莫札瑞拉;zh-sg:莫札瑞拉"
     },
     {
       "original": "cream",
-      "conv": "鮮奶油 => zh-hans:奶油; 鮮奶油 => zh-hk:忌廉;"
+      "conv": "鮮奶油 => zh-hans:奶油;鮮奶油 => zh-hk:忌廉"
     },
     {
       "original": "cream",
-      "conv": "忌廉 => zh-hans:奶油; 忌廉 => zh-tw:鮮奶油;"
+      "conv": "忌廉 => zh-hans:奶油;忌廉 => zh-tw:鮮奶油"
     },
     {
       "original": "butter",
-      "conv": "黃油 => zh-tw:奶油; 黃油 => zh-hk:牛油;"
+      "conv": "黃油 => zh-tw:奶油;黃油 => zh-hk:牛油"
     },
     {
       "original": "butter",
-      "conv": "黄油 => zh-tw:奶油; 黄油 => zh-hk:牛油;"
+      "conv": "黄油 => zh-tw:奶油;黄油 => zh-hk:牛油"
     },
     {
       "original": "butter",
-      "conv": "牛油 => zh-tw:奶油; 牛油 => zh-hans:黄油;"
+      "conv": "牛油 => zh-tw:奶油;牛油 => zh-hans:黄油"
     },
     {
       "original": "sour cream",
-      "conv": "zh-hans:酸奶油; zh-hant:酸奶油;"
+      "conv": "zh-hans:酸奶油;zh-hant:酸奶油"
     },
     {
       "original": "yogurt",
-      "conv": "酸奶 => zh-hk:乳酪; 酸奶 => zh-tw:優格; 酸奶 => zh-my:优格;"
+      "conv": "酸奶 => zh-hk:乳酪;酸奶 => zh-tw:優格;酸奶 => zh-my:优格"
     },
     {
       "original": "yogurt",
-      "conv": "優格 => zh-hk:乳酪; 優格 => zh-cn:酸奶; 優格 => zh-sg:酸奶;"
+      "conv": "優格 => zh-hk:乳酪;優格 => zh-cn:酸奶;優格 => zh-sg:酸奶"
     },
     {
       "original": "chocolate",
-      "conv": "zh-hans:巧克力; zh-tw:巧克力; zh-hk:朱古力;"
+      "conv": "zh-hans:巧克力;zh-tw:巧克力;zh-hk:朱古力"
     },
     {
       "original": "chocolate chip",
-      "conv": "zh-cn:巧克力片; zh-hk:朱古力碎; zh-tw:巧克力片;"
+      "conv": "zh-cn:巧克力片;zh-hk:朱古力碎;zh-tw:巧克力片"
     },
     {
       "original": "frost cream",
-      "conv": "zh-cn:软冰淇淋; zh-hk:軟雪糕; zh-tw:霜淇淋;"
+      "conv": "zh-cn:软冰淇淋;zh-hk:軟雪糕;zh-tw:霜淇淋"
     },
     {
       "original": "ice cream",
-      "conv": "zh:冰激凌; zh-cn:冰淇淋; zh-hk:雪糕; zh-sg:冰淇淋; zh-tw:冰淇淋;"
+      "conv": "zh:冰激凌;zh-cn:冰淇淋;zh-hk:雪糕;zh-sg:冰淇淋;zh-tw:冰淇淋"
     },
     {
       "original": "sundae",
-      "conv": "zh-hans:圣代; zh-hk:新地; zh-tw:聖代;"
+      "conv": "zh-hans:圣代;zh-hk:新地;zh-tw:聖代"
     },
     {
       "original": null,
-      "conv": "zh-hans:新地区; zh-hant:新地區;"
+      "conv": "zh-hans:新地区;zh-hant:新地區"
     },
     {
       "original": "ヤクルト",
-      "conv": "zh-hans:养乐多; zh-hant:養樂多; zh-tw:養樂多; zh-hk:益力多; zh-sg:益多; zh-mo:益力多;"
+      "conv": "zh-hans:养乐多;zh-hant:養樂多;zh-tw:養樂多;zh-hk:益力多;zh-sg:益多;zh-mo:益力多"
     },
     {
       "original": "3 in 1 coffee",
-      "conv": "zh-cn:一加二咖啡; zh-hk:三合一咖啡; zh-tw:三合一咖啡; zh-mo:三合一咖啡;"
+      "conv": "zh-cn:一加二咖啡;zh-hk:三合一咖啡;zh-tw:三合一咖啡;zh-mo:三合一咖啡"
     },
     {
       "original": "caffè latte",
-      "conv": "zh-cn:拿铁咖啡; zh-tw:拿鐵咖啡; zh-hk:鮮奶咖啡;"
+      "conv": "zh-cn:拿铁咖啡;zh-tw:拿鐵咖啡;zh-hk:鮮奶咖啡"
     },
     {
       "original": "cappuccino",
-      "conv": "zh-hans:卡布奇诺; zh-hk:意式泡沫咖啡; zh-tw:卡布奇諾;"
+      "conv": "zh-hans:卡布奇诺;zh-hk:意式泡沫咖啡;zh-tw:卡布奇諾"
     },
     {
       "original": "cappuccino",
-      "conv": "zh-hans:卡布奇诺咖啡; zh-hk:意式泡沫咖啡; zh-tw:卡布奇諾咖啡;"
+      "conv": "zh-hans:卡布奇诺咖啡;zh-hk:意式泡沫咖啡;zh-tw:卡布奇諾咖啡"
     },
     {
       "original": "coffee powder",
-      "conv": "zh-cn:咖啡末; zh-tw:咖啡粉;"
+      "conv": "zh-cn:咖啡末;zh-tw:咖啡粉"
     },
     {
       "original": "concentrated coffee",
-      "conv": "zh-hans:浓缩咖啡; zh-hk:特濃咖啡; zh-tw:濃縮咖啡;"
+      "conv": "zh-hans:浓缩咖啡;zh-hk:特濃咖啡;zh-tw:濃縮咖啡"
     },
     {
       "original": "instant( coffee)",
-      "conv": "zh-hans:速溶; zh-hant:即溶;"
+      "conv": "zh-hans:速溶;zh-hant:即溶"
     },
     {
       "original": "latte macchiato",
-      "conv": "zh-cn:拿铁玛琪雅朵; zh-tw:拿鐵瑪琪雅朵; zh-hk:鮮奶瑪琪雅朵;"
+      "conv": "zh-cn:拿铁玛琪雅朵;zh-tw:拿鐵瑪琪雅朵;zh-hk:鮮奶瑪琪雅朵"
     },
     {
       "original": "mocha",
-      "conv": "zh-hans:摩卡咖啡; zh-hk:莫加咖啡; zh-tw:摩卡咖啡;"
+      "conv": "zh-hans:摩卡咖啡;zh-hk:莫加咖啡;zh-tw:摩卡咖啡"
     },
     {
       "original": "gin",
-      "conv": "zh-cn:金酒; zh-tw:琴酒; zh-hk:氈酒;"
+      "conv": "zh-cn:金酒;zh-tw:琴酒;zh-hk:氈酒"
     },
     {
       "original": "Gin and Tonic",
-      "conv": "zh-cn:琴汤尼; zh-tw:琴通寧; zh-hk:氈湯力;"
+      "conv": "zh-cn:琴汤尼;zh-tw:琴通寧;zh-hk:氈湯力"
     },
     {
       "original": "liqueur",
-      "conv": "zh-hans:力娇酒; zh-hant:力嬌酒; zh-cn:利口酒; zh-tw:利口酒; zh-hk:力嬌酒; zh-mo:力嬌酒;"
+      "conv": "zh-hans:力娇酒;zh-hant:力嬌酒;zh-cn:利口酒;zh-tw:利口酒;zh-hk:力嬌酒;zh-mo:力嬌酒"
     },
     {
       "original": "rum",
-      "conv": "zh-hans:兰姆酒; zh-hant:蘭姆酒; zh-cn:朗姆酒; zh-hk:冧酒; zh-tw:蘭姆酒;"
+      "conv": "zh-hans:兰姆酒;zh-hant:蘭姆酒;zh-cn:朗姆酒;zh-hk:冧酒;zh-tw:蘭姆酒"
     },
     {
       "original": "sparkling wine",
-      "conv": "zh-cn:气酒; zh-tw:氣泡酒;"
+      "conv": "zh-cn:气酒;zh-tw:氣泡酒"
     },
     {
       "original": "sparkling wine",
-      "conv": "zh-cn:汽酒; zh-tw:氣泡酒;"
+      "conv": "zh-cn:汽酒;zh-tw:氣泡酒"
     },
     {
       "original": "orange juice",
-      "conv": "zh-hans:橙汁; zh-hk:橙汁; zh-tw:柳橙汁;"
+      "conv": "zh-hans:橙汁;zh-hk:橙汁;zh-tw:柳橙汁"
     },
     {
       "original": "tonic water",
-      "conv": "zh-tw:通寧; zh-hk:湯力; zh-cn:奎宁"
+      "conv": "zh-tw:通寧;zh-hk:湯力;zh-cn:奎宁"
     },
     {
       "original": "Domino's Pizza",
-      "conv": "zh-hans:达美乐; zh-hant:達美樂;"
+      "conv": "zh-hans:达美乐;zh-hant:達美樂"
     },
     {
       "original": "Domino's Pizza",
-      "conv": "zh-hans:达美乐比萨饼; zh-hk:達美樂薄餅; zh-tw:達美樂披薩;"
+      "conv": "zh-hans:达美乐比萨饼;zh-hk:達美樂薄餅;zh-tw:達美樂披薩"
     },
     {
       "original": "Swensen's",
-      "conv": "zh-hant:双聖; zh-hans:双胜;"
+      "conv": "zh-hant:双聖;zh-hans:双胜"
     },
     {
       "original": "Wendy's",
-      "conv": "zh-hans:云狄斯; zh-tw:溫蒂漢堡; zh-hk:得意妹;"
+      "conv": "zh-hans:云狄斯;zh-tw:溫蒂漢堡;zh-hk:得意妹"
     },
     {
       "original": "(quick-)frozen",
-      "conv": "zh-hans:速冻; zh-tw:速凍; zh-hk:急凍;"
+      "conv": "zh-hans:速冻;zh-tw:速凍;zh-hk:急凍"
     },
     {
       "original": "Big Mac",
-      "conv": "zh-hans:巨无霸; zh-hk:巨無霸; zh-tw:大麥克;"
+      "conv": "zh-hans:巨无霸;zh-hk:巨無霸;zh-tw:大麥克"
     },
     {
       "original": "Big Mac",
-      "conv": "zh-hans:巨无霸; zh-hk:巨無霸; zh-tw:大麥克漢堡;"
+      "conv": "zh-hans:巨无霸;zh-hk:巨無霸;zh-tw:大麥克漢堡"
     },
     {
       "original": "Dairy Queen",
-      "conv": "zh-hant:Dairy Queen; zh-hans:冰雪皇后;"
+      "conv": "zh-hant:Dairy Queen;zh-hans:冰雪皇后"
     },
     {
       "original": "David Thomas",
-      "conv": "zh-hans:戴夫·汤玛斯; zh-tw:戴夫·湯瑪斯; zh-hk:戴夫·湯馬士;"
+      "conv": "zh-hans:戴夫·汤玛斯;zh-tw:戴夫·湯瑪斯;zh-hk:戴夫·湯馬士"
     },
     {
       "original": "fast food",
-      "conv": "zh-tw:速食; zh-hk:快餐; zh-hans:快餐;"
+      "conv": "zh-tw:速食;zh-hk:快餐;zh-hans:快餐"
     },
     {
       "original": "french fries",
-      "conv": "zh-cn:薯条; zh-tw:薯條; zh-hk:薯條;"
+      "conv": "zh-cn:薯条;zh-tw:薯條;zh-hk:薯條"
     },
     {
       "original": "Jollibee",
-      "conv": "zh:祖樂比; zh-cn:快乐蜂; zh-tw:快樂蜂; zh-mo:快樂蜂; zh-hk:快樂蜂;"
+      "conv": "zh:祖樂比;zh-cn:快乐蜂;zh-tw:快樂蜂;zh-mo:快樂蜂;zh-hk:快樂蜂"
     },
     {
       "original": "Mister Donut",
-      "conv": "zh-tw:Mister Donut; zh-cn:美仕唐纳滋;"
+      "conv": "zh-tw:Mister Donut;zh-cn:美仕唐纳滋"
     },
     {
       "original": "Mrs. Fields Cookies",
-      "conv": "zh-cn:费尔斯太太饼干店; zh-hk:Mrs. Fields 曲奇餅店; zh-tw:費爾斯太太餅乾店;"
+      "conv": "zh-cn:费尔斯太太饼干店;zh-hk:Mrs. Fields 曲奇餅店;zh-tw:費爾斯太太餅乾店"
     },
     {
       "original": "Napoli",
-      "conv": "zh-hans:那不勒斯; zh-tw:拿坡里; zh-hk:拿坡里; zh-my:拿波利;"
+      "conv": "zh-hans:那不勒斯;zh-tw:拿坡里;zh-hk:拿坡里;zh-my:拿波利"
     },
     {
       "original": "Subway",
-      "conv": "zh-hans:赛百味; zh-hant:Subway;"
+      "conv": "zh-hans:赛百味;zh-hant:Subway"
     },
     {
       "original": "Whopper",
-      "conv": "zh-hans:皇堡; zh-hant:華堡;"
+      "conv": "zh-hans:皇堡;zh-hant:華堡"
     },
     {
       "original": "avocado",
-      "conv": "zh-hans:鳄梨; zh-hant:鱷梨; zh-tw:酪梨; zh-hk:牛油果;"
+      "conv": "zh-hans:鳄梨;zh-hant:鱷梨;zh-tw:酪梨;zh-hk:牛油果"
     },
     {
       "original": "cherry",
-      "conv": "zh-cn:樱桃; zh-hk:車厘子; zh-tw:櫻桃;"
+      "conv": "zh-cn:樱桃;zh-hk:車厘子;zh-tw:櫻桃"
     },
     {
       "original": "grapefruit",
-      "conv": "zh-cn:葡萄柚; zh-hk:西柚; zh-tw:葡萄柚; zh-sg:葡萄柚;"
+      "conv": "zh-cn:葡萄柚;zh-hk:西柚;zh-tw:葡萄柚;zh-sg:葡萄柚"
     },
     {
       "original": "jackfruit",
-      "conv": "zh:波羅蜜; zh-tw:菠蘿蜜; zh-hk:大樹菠蘿; zh-cn:波罗蜜; zh-mo:大樹菠蘿;"
+      "conv": "zh:波羅蜜;zh-tw:菠蘿蜜;zh-hk:大樹菠蘿;zh-cn:波罗蜜;zh-mo:大樹菠蘿"
     },
     {
       "original": "lime",
-      "conv": "zh-tw:萊姆; zh-hk:青檸; zh-cn:青柠;"
+      "conv": "zh-tw:萊姆;zh-hk:青檸;zh-cn:青柠"
     },
     {
       "original": "pineapple",
-      "conv": "zh-cn:菠萝; zh-tw:鳳梨; zh-hk:菠蘿; zh-sg:黄梨;"
+      "conv": "zh-cn:菠萝;zh-tw:鳳梨;zh-hk:菠蘿;zh-sg:黄梨"
     },
     {
       "original": "pineapple",
-      "conv": "zh-cn:菠萝; zh-tw:鳳梨; zh-hk:菠蘿; zh-sg:黃梨;"
+      "conv": "zh-cn:菠萝;zh-tw:鳳梨;zh-hk:菠蘿;zh-sg:黃梨"
     },
     {
       "original": "strawberry",
-      "conv": "zh-cn:草莓; zh-hk:士多啤梨; zh-tw:草莓;"
+      "conv": "zh-cn:草莓;zh-hk:士多啤梨;zh-tw:草莓"
     },
     {
       "original": null,
-      "conv": "伊面 => zh-tw:意麵;"
+      "conv": "伊面 => zh-tw:意麵"
     },
     {
       "original": null,
-      "conv": "伊麵 => zh-tw:意麵;"
+      "conv": "伊麵 => zh-tw:意麵"
     },
     {
       "original": null,
-      "conv": "zh-cn:老鼠粉; zh-tw:米篩目; zh-hk:銀針粉; zh-sg:米筛目;"
+      "conv": "zh-cn:老鼠粉;zh-tw:米篩目;zh-hk:銀針粉;zh-sg:米筛目"
     },
     {
       "original": "fusilli",
-      "conv": "zh-cn:螺旋粉; zh-tw:螺旋麵; zh-hk:螺旋粉;"
+      "conv": "zh-cn:螺旋粉;zh-tw:螺旋麵;zh-hk:螺旋粉"
     },
     {
       "original": "instant noodle",
-      "conv": "zh-hans:方便面; zh-hk:即食麵; zh-sg:快熟面; zh-tw:泡麵;"
+      "conv": "zh-hans:方便面;zh-hk:即食麵;zh-sg:快熟面;zh-tw:泡麵"
     },
     {
       "original": "italian",
-      "conv": "zh-hans:意式; zh-hk:意式; zh-tw:義式;"
+      "conv": "zh-hans:意式;zh-hk:意式;zh-tw:義式"
     },
     {
       "original": "pasta",
-      "conv": "zh-cn:意大利面食; zh-hk:意大利麵食; zh-tw:義大利麵;"
+      "conv": "zh-cn:意大利面食;zh-hk:意大利麵食;zh-tw:義大利麵"
     },
     {
       "original": "pasta",
-      "conv": "zh-cn:意式面食; zh-hk:意式麵食; zh-tw:義大利麵;"
+      "conv": "zh-cn:意式面食;zh-hk:意式麵食;zh-tw:義大利麵"
     },
     {
       "original": "penne",
-      "conv": "直通粉 => zh-tw:筆管麵;"
+      "conv": "直通粉 => zh-tw:筆管麵"
     },
     {
       "original": "spaghetti",
-      "conv": "zh-cn:意大利面; zh-tw:義大利直麵; zh-hk:意大利粉;"
+      "conv": "zh-cn:意大利面;zh-tw:義大利直麵;zh-hk:意大利粉"
     },
     {
       "original": "spaghetti",
-      "conv": "zh-cn:意粉; zh-tw:義大利直麵; zh-hk:意粉;"
+      "conv": "zh-cn:意粉;zh-tw:義大利直麵;zh-hk:意粉"
     },
     {
       "original": "spaghetti",
-      "conv": "意大利长面 => zh-tw:義大利直麵;"
+      "conv": "意大利长面 => zh-tw:義大利直麵"
     },
     {
       "original": "饂飩",
-      "conv": "zh-hans:乌冬面; zh-hk:烏冬麵; zh-tw:烏龍麵;"
+      "conv": "zh-hans:乌冬面;zh-hk:烏冬麵;zh-tw:烏龍麵"
     },
     {
       "original": "饂飩",
-      "conv": "烏冬=>zh-tw:烏龍;乌冬=>zh-tw:烏龍;"
+      "conv": "烏冬=>zh-tw:烏龍;乌冬=>zh-tw:烏龍"
     },
     {
       "original": "beef rice",
-      "conv": "zh-hans:牛肉饭; zh-tw:牛丼; zh-hk:牛肉飯;"
+      "conv": "zh-hans:牛肉饭;zh-tw:牛丼;zh-hk:牛肉飯"
     },
     {
       "original": "chicken cutlet",
-      "conv": "zh-hans:鸡排; zh-hk:雞扒; zh-tw:雞排;"
+      "conv": "zh-hans:鸡排;zh-hk:雞扒;zh-tw:雞排"
     },
     {
       "original": "mad cow disease",
-      "conv": "zh-hans:疯牛病; zh-tw:狂牛症; zh-hk:瘋牛症;"
+      "conv": "zh-hans:疯牛病;zh-tw:狂牛症;zh-hk:瘋牛症"
     },
     {
       "original": "pork steak",
-      "conv": "zh-hans:猪排; zh-tw:豬排; zh-hk:豬扒;"
+      "conv": "zh-hans:猪排;zh-tw:豬排;zh-hk:豬扒"
     },
     {
       "original": "restructured meat products",
-      "conv": "組裝肉 => zh-tw:組合肉;"
+      "conv": "組裝肉 => zh-tw:組合肉"
     },
     {
       "original": "豚カツ",
-      "conv": "zh-hans:日式猪排; zh-tw:日式豬排; zh-hk:吉列豬扒;"
+      "conv": "zh-hans:日式猪排;zh-tw:日式豬排;zh-hk:吉列豬扒"
     },
     {
       "original": "豚カツ",
-      "conv": "吉列豬排 => zh-hans:日式猪排; 吉列豬排 => zh-tw:日式豬排;"
+      "conv": "吉列豬排 => zh-hans:日式猪排;吉列豬排 => zh-tw:日式豬排"
     },
     {
       "original": "filet mignon",
-      "conv": "zh-cn:菲力; zh-tw:菲力; zh-hk:免翁;"
+      "conv": "zh-cn:菲力;zh-tw:菲力;zh-hk:免翁"
     },
     {
       "original": "filet mignon",
-      "conv": "zh-cn:菲力牛排; zh-tw:菲力牛排; zh-hk:免翁牛柳;"
+      "conv": "zh-cn:菲力牛排;zh-tw:菲力牛排;zh-hk:免翁牛柳"
     },
     {
       "original": "hamburg steak",
-      "conv": "zh-tw:漢堡排;zh-hk:漢堡扒;zh-cn:汉堡排;"
+      "conv": "zh-tw:漢堡排;zh-hk:漢堡扒;zh-cn:汉堡排"
     },
     {
       "original": "salisbury steak",
-      "conv": "zh-tw:索爾斯伯利牛排;zh-hk:梳士巴利漢堡扒;zh-cn:索尔兹伯里牛肉饼;"
+      "conv": "zh-tw:索爾斯伯利牛排;zh-hk:梳士巴利漢堡扒;zh-cn:索尔兹伯里牛肉饼"
     },
     {
       "original": "short ribs",
-      "conv": "zh-cn:牛小排; zh-tw:牛小排; zh-hk:牛仔骨;"
+      "conv": "zh-cn:牛小排;zh-tw:牛小排;zh-hk:牛仔骨"
     },
     {
       "original": "sirloin steak",
-      "conv": "zh-cn:西冷; zh-tw:沙朗; zh-hk:西冷;"
+      "conv": "zh-cn:西冷;zh-tw:沙朗;zh-hk:西冷"
     },
     {
       "original": "steak",
-      "conv": "zh-cn:牛排; zh-tw:牛排; zh-hk:牛扒;"
+      "conv": "zh-cn:牛排;zh-tw:牛排;zh-hk:牛扒"
     },
     {
       "original": "T-bone",
-      "conv": "T骨 => zh-tw:丁骨;"
+      "conv": "T骨 => zh-tw:丁骨"
     },
     {
       "original": "kuai（dish）",
-      "conv": "zh-cn:生鱼片; zh-tw:生魚片; zh-hk:魚生;"
+      "conv": "zh-cn:生鱼片;zh-tw:生魚片;zh-hk:魚生"
     },
     {
       "original": "salmon",
-      "conv": "zh-cn:三文鱼; zh-tw:鮭魚; zh-hk:三文魚;"
+      "conv": "zh-cn:三文鱼;zh-tw:鮭魚;zh-hk:三文魚"
     },
     {
       "original": "tuna",
-      "conv": "zh-cn:金枪鱼; zh-tw:鮪魚; zh-hk:吞拿魚; zh-hant:金槍魚; zh:鮪魚;"
+      "conv": "zh-cn:金枪鱼;zh-tw:鮪魚;zh-hk:吞拿魚;zh-hant:金槍魚;zh:鮪魚"
     },
     {
       "original": null,
-      "conv": "zh-cn:高汤; zh-hk:上湯; zh-tw:高湯;"
+      "conv": "zh-cn:高汤;zh-hk:上湯;zh-tw:高湯"
     },
     {
       "original": "味噌汁",
-      "conv": "麵豉湯 => zh-tw:味噌湯;"
+      "conv": "麵豉湯 => zh-tw:味噌湯"
     },
     {
       "original": null,
-      "conv": "zh-cn:盖浇饭; zh-hans:蓋澆飯; zh-hant:盖浇饭; zh-tw:蓋澆飯; zh-hk:碟頭飯; zh-mo:碟頭飯;"
+      "conv": "zh-cn:盖浇饭;zh-hans:蓋澆飯;zh-hant:盖浇饭;zh-tw:蓋澆飯;zh-hk:碟頭飯;zh-mo:碟頭飯"
     },
     {
       "original": null,
-      "conv": "zh-hans:蒸水蛋; zh-hk:蒸水蛋; zh-tw:蒸蛋;"
+      "conv": "zh-hans:蒸水蛋;zh-hk:蒸水蛋;zh-tw:蒸蛋"
     },
     {
       "original": "cook(ing)",
-      "conv": "zh-cn:烹制; zh-tw:烹製;"
+      "conv": "zh-cn:烹制;zh-tw:烹製"
     },
     {
       "original": null,
-      "conv": "zh-hans:菠萝油; zh-hant:菠蘿油;"
+      "conv": "zh-hans:菠萝油;zh-hant:菠蘿油"
     },
     {
       "original": null,
-      "conv": "zh-cn:酱油; zh-tw:醬油; zh-hk:豉油;"
+      "conv": "zh-cn:酱油;zh-tw:醬油;zh-hk:豉油"
     },
     {
       "original": "corn starch",
-      "conv": "zh-cn:玉米淀粉; zh-tw:玉米澱粉; zh-hk:粟粉;"
+      "conv": "zh-cn:玉米淀粉;zh-tw:玉米澱粉;zh-hk:粟粉"
     },
     {
       "original": "curry",
-      "conv": "zh-cn:咖喱; zh-hk:咖喱; zh-tw:咖哩; zh-mo:咖喱;"
+      "conv": "zh-cn:咖喱;zh-hk:咖喱;zh-tw:咖哩;zh-mo:咖喱"
     },
     {
       "original": "custard",
-      "conv": "zh-cn:卡仕达; zh-hk:奶黃; zh-tw:卡士達; zh-sg:卡士达;"
+      "conv": "zh-cn:卡仕达;zh-hk:奶黃;zh-tw:卡士達;zh-sg:卡士达"
     },
     {
       "original": "custard",
-      "conv": "吉士 => zh-cn:卡仕达; 吉士 => zh-tw:卡士達;"
+      "conv": "吉士 => zh-cn:卡仕达;吉士 => zh-tw:卡士達"
     },
     {
       "original": "mayonnaise",
-      "conv": "zh:蛋黃醬; zh-hans:蛋黄酱; zh-hant:美乃滋; zh-hk:蛋黃醬;"
+      "conv": "zh:蛋黃醬;zh-hans:蛋黄酱;zh-hant:美乃滋;zh-hk:蛋黃醬"
     },
     {
       "original": "salad oils",
-      "conv": "zh-cn:色拉油; zh-tw:沙拉油;"
+      "conv": "zh-cn:色拉油;zh-tw:沙拉油"
     },
     {
       "original": "salad",
-      "conv": "zh:色拉; zh-hans:沙拉; zh-hk:沙律; zh-tw:沙拉;"
+      "conv": "zh:色拉;zh-hans:沙拉;zh-hk:沙律;zh-tw:沙拉"
     },
     {
       "original": "salsa",
-      "conv": "zh-hans:萨尔萨; zh-hant:莎莎; zh-tw:莎莎;"
+      "conv": "zh-hans:萨尔萨;zh-hant:莎莎;zh-tw:莎莎"
     },
     {
       "original": "sauce béchamel",
-      "conv": "zh-hans:白汁; zh-hk:白汁; zh-tw:白醬;"
+      "conv": "zh-hans:白汁;zh-hk:白汁;zh-tw:白醬"
     },
     {
       "original": "tomato juice",
-      "conv": "zh-hans:番茄汁; zh-hant:番茄汁;"
+      "conv": "zh-hans:番茄汁;zh-hant:番茄汁"
     },
     {
       "original": "tomato ketchup",
-      "conv": "zh-cn:番茄酱; zh-tw:番茄醬; zh-hk:茄汁;"
+      "conv": "zh-cn:番茄酱;zh-tw:番茄醬;zh-hk:茄汁"
     },
     {
       "original": "tomato paste",
-      "conv": "zh-cn:番茄糊; zh-tw:番茄糊; zh-hk:番茄膏;"
+      "conv": "zh-cn:番茄糊;zh-tw:番茄糊;zh-hk:番茄膏"
     },
     {
       "original": "tomato paste",
-      "conv": "茄膏 => zh-cn:番茄糊; 茄膏 => zh-tw:番茄糊;"
+      "conv": "茄膏 => zh-cn:番茄糊;茄膏 => zh-tw:番茄糊"
     },
     {
       "original": "bell pepper",
-      "conv": "zh-cn:菜椒; zh-tw:甜椒; zh-hk:燈籠椒;"
+      "conv": "zh-cn:菜椒;zh-tw:甜椒;zh-hk:燈籠椒"
     },
     {
       "original": "broccoli",
-      "conv": "zh-cn:西兰花; zh-tw:青花菜; zh-hk:西蘭花;"
+      "conv": "zh-cn:西兰花;zh-tw:青花菜;zh-hk:西蘭花"
     },
     {
       "original": "cabbage",
-      "conv": "zh-tw:高麗菜; zh-hk:椰菜; zh-cn:卷心菜;"
+      "conv": "zh-tw:高麗菜;zh-hk:椰菜;zh-cn:卷心菜"
     },
     {
       "original": "cabbage",
-      "conv": "捲心菜 => zh-tw:高麗菜; 捲心菜 => zh-hk:椰菜;"
+      "conv": "捲心菜 => zh-tw:高麗菜;捲心菜 => zh-hk:椰菜"
     },
     {
       "original": "cauliflower",
-      "conv": "zh-tw:花椰菜; zh-hk:椰菜花; zh-cn:花椰菜;"
+      "conv": "zh-tw:花椰菜;zh-hk:椰菜花;zh-cn:花椰菜"
     },
     {
       "original": "lima bean",
-      "conv": "zh-tw:皇帝豆; zh-hk:棉豆; zh-cn:棉豆;"
+      "conv": "zh-tw:皇帝豆;zh-hk:棉豆;zh-cn:棉豆"
     },
     {
       "original": "potato",
-      "conv": "zh-cn:土豆; zh-tw:馬鈴薯; zh-hk:薯仔;"
+      "conv": "zh-cn:土豆;zh-tw:馬鈴薯;zh-hk:薯仔"
     },
     {
       "original": "potato",
-      "conv": "山药蛋 => zh-tw:馬鈴薯; 山药蛋 => zh-hk:薯仔;"
+      "conv": "山药蛋 => zh-tw:馬鈴薯;山药蛋 => zh-hk:薯仔"
     },
     {
       "original": "potato",
-      "conv": "洋山芋 => zh-tw:馬鈴薯; 洋山芋 => zh-hk:薯仔;"
+      "conv": "洋山芋 => zh-tw:馬鈴薯;洋山芋 => zh-hk:薯仔"
     },
     {
       "original": "potato",
-      "conv": "洋番芋 => zh-tw:馬鈴薯; 洋番芋 => zh-hk:薯仔;"
+      "conv": "洋番芋 => zh-tw:馬鈴薯;洋番芋 => zh-hk:薯仔"
     },
     {
       "original": "potato",
-      "conv": "洋芋 => zh-tw:馬鈴薯; 洋芋 => zh-hk:薯仔;"
+      "conv": "洋芋 => zh-tw:馬鈴薯;洋芋 => zh-hk:薯仔"
     },
     {
       "original": "potato",
-      "conv": "番仔薯 => zh-tw:馬鈴薯; 番仔薯 => zh-hk:薯仔;"
+      "conv": "番仔薯 => zh-tw:馬鈴薯;番仔薯 => zh-hk:薯仔"
     },
     {
       "original": "tudou",
-      "conv": "zh-cn:土豆网; zh-tw:土豆網; zh-hk:土豆網;"
+      "conv": "zh-cn:土豆网;zh-tw:土豆網;zh-hk:土豆網"
     },
     {
       "original": "tomato",
-      "conv": "西红柿 => zh-tw:番茄; 西红柿 => zh-hk:番茄;"
+      "conv": "西红柿 => zh-tw:番茄;西红柿 => zh-hk:番茄"
     },
     {
       "original": "tomato",
-      "conv": "西紅柿 => zh-tw:番茄; 西紅柿 => zh-hk:番茄;"
+      "conv": "西紅柿 => zh-tw:番茄;西紅柿 => zh-hk:番茄"
     },
     {
       "original": "zucchini",
-      "conv": "zh-cn:西葫芦; zh-tw:櫛瓜; zh-hk:翠玉瓜;"
+      "conv": "zh-cn:西葫芦;zh-tw:櫛瓜;zh-hk:翠玉瓜"
     },
     {
       "original": "frozen carrot, corn, and pea mix",
-      "conv": "zh-cn:美国杂菜; zh-tw:三色豆; zh-hk:雜菜豆"
+      "conv": "zh-cn:美国杂菜;zh-tw:三色豆;zh-hk:雜菜豆"
     },
     {
       "original": "acorn",
-      "conv": "zh-cn:槲果; zh-tw:橡實;"
+      "conv": "zh-cn:槲果;zh-tw:橡實"
     },
     {
       "original": "acorn",
-      "conv": "橡子 => zh-tw:橡實;"
+      "conv": "橡子 => zh-tw:橡實"
     },
     {
       "original": "corn",
-      "conv": "zh-hans:玉米; zh-hk:粟米; zh-tw:玉米;"
+      "conv": "zh-hans:玉米;zh-hk:粟米;zh-tw:玉米"
     },
     {
       "original": "hazelnut",
-      "conv": "zh-tw:榛果; zh-hk:榛子; zh-cn:榛子;"
+      "conv": "zh-tw:榛果;zh-hk:榛子;zh-cn:榛子"
     },
     {
       "original": "peanut",
-      "conv": "zh-cn:花生; zh-tw:花生; zh-sg:花生;"
+      "conv": "zh-cn:花生;zh-tw:花生;zh-sg:花生"
     },
     {
       "original": null,
-      "conv": "zh-hans:萝卜干; zh-hant:蘿蔔乾;"
+      "conv": "zh-hans:萝卜干;zh-hant:蘿蔔乾"
     },
     {
       "original": "chewing gum",
-      "conv": "zh-hans:口香糖; zh-hk:香口膠; zh-tw:口香糖;"
+      "conv": "zh-hans:口香糖;zh-hk:香口膠;zh-tw:口香糖"
     },
     {
       "original": "chewing gum ball",
-      "conv": "zh-cn:口香糖球; zh-tw:口香糖球; zh-hk:香口珠;"
+      "conv": "zh-cn:口香糖球;zh-tw:口香糖球;zh-hk:香口珠"
     },
     {
       "original": "corn dog",
-      "conv": "zh-cn:玉米狗; zh-tw:炸熱狗; zh-hk:美式熱狗;"
+      "conv": "zh-cn:玉米狗;zh-tw:炸熱狗;zh-hk:美式熱狗"
     },
     {
       "original": "gelatin dessert",
-      "conv": "zh-cn:果冻; zh-tw:果凍; zh-hk:啫喱;"
+      "conv": "zh-cn:果冻;zh-tw:果凍;zh-hk:啫喱"
     },
     {
       "original": "ice pop",
-      "conv": "zh-cn:冰棒; zh-hk:雪條; zh-tw:冰棒;"
+      "conv": "zh-cn:冰棒;zh-hk:雪條;zh-tw:冰棒"
     },
     {
       "original": "ice pop",
-      "conv": "冰棍 => zh-tw:冰棒; 冰棍 => zh-hk:雪條;"
+      "conv": "冰棍 => zh-tw:冰棒;冰棍 => zh-hk:雪條"
     },
     {
       "original": "raisin",
-      "conv": "zh-hans:葡萄干; zh-hant:葡萄乾;"
+      "conv": "zh-hans:葡萄干;zh-hant:葡萄乾"
     },
     {
       "original": "beverage can",
-      "conv": "zh-cn:易拉罐; zh-tw:易開罐;"
+      "conv": "zh-cn:易拉罐;zh-tw:易開罐"
     },
     {
       "original": "buffet",
-      "conv": "吃到飽 => zh-hk:自助餐; 吃到飽 => zh-cn:自助餐;"
+      "conv": "吃到飽 => zh-hk:自助餐;吃到飽 => zh-cn:自助餐"
     },
     {
       "original": "can opener",
-      "conv": "zh-cn:开罐器; zh-tw:開罐器; zh-hk:罐頭刀;"
+      "conv": "zh-cn:开罐器;zh-tw:開罐器;zh-hk:罐頭刀"
     },
     {
       "original": "coffee shop",
-      "conv": "zh-cn:咖啡店; zh-hk:咖啡室; zh-tw:咖啡店;"
+      "conv": "zh-cn:咖啡店;zh-hk:咖啡室;zh-tw:咖啡店"
     },
     {
       "original": "convenience store",
-      "conv": "zh-cn:便利店; zh-hk:便利店; zh-tw:便利商店;"
+      "conv": "zh-cn:便利店;zh-hk:便利店;zh-tw:便利商店"
     },
     {
       "original": "disposable",
-      "conv": "zh-cn:一次性; zh-tw:免洗;"
+      "conv": "zh-cn:一次性;zh-tw:免洗"
     },
     {
       "original": "food additive",
-      "conv": "zh-cn:食品添加剂; zh-tw:食品添加物;"
+      "conv": "zh-cn:食品添加剂;zh-tw:食品添加物"
     },
     {
       "original": "gelatin",
-      "conv": "zh-cn:明胶; zh-tw:明膠; zh-hk:魚膠;"
+      "conv": "zh-cn:明胶;zh-tw:明膠;zh-hk:魚膠"
     },
     {
       "original": "hawker",
-      "conv": "攤檔 => zh-tw:攤販;"
+      "conv": "攤檔 => zh-tw:攤販"
     },
     {
       "original": "ice",
-      "conv": "冰粒 => zh-tw:冰塊; 冰粒 => zh-hans:冰块;"
+      "conv": "冰粒 => zh-tw:冰塊;冰粒 => zh-hans:冰块"
     },
     {
       "original": "maillard reaction",
-      "conv": "美拉德反应 => zh-tw:梅納反應;"
+      "conv": "美拉德反应 => zh-tw:梅納反應"
     },
     {
       "original": "maillard reaction",
-      "conv": "美拉德反應 => zh-tw:梅納反應;"
+      "conv": "美拉德反應 => zh-tw:梅納反應"
     },
     {
       "original": "refrigerator",
-      "conv": "zh-cn:冰箱; zh-hk:雪櫃; zh-tw:冰箱;"
+      "conv": "zh-cn:冰箱;zh-hk:雪櫃;zh-tw:冰箱"
     },
     {
       "original": "restaurant",
-      "conv": "食肆 => zh-tw:餐館;"
+      "conv": "食肆 => zh-tw:餐館"
     },
     {
       "original": "snack",
-      "conv": "zh-cn:小吃; zh-hk:小食; zh-mo:小食; zh-tw:小吃;"
+      "conv": "zh-cn:小吃;zh-hk:小食;zh-mo:小食;zh-tw:小吃"
     },
     {
       "original": "styrofoam",
-      "conv": "zh-hans:发泡胶; zh-hk:發泡膠; zh-tw:保麗龍;"
+      "conv": "zh-hans:发泡胶;zh-hk:發泡膠;zh-tw:保麗龍"
     },
     {
       "original": "vanilla",
-      "conv": "zh-cn:香草; zh-hk:雲呢拿; zh-tw:香草;"
+      "conv": "zh-cn:香草;zh-hk:雲呢拿;zh-tw:香草"
     },
     {
       "original": "veganism",
