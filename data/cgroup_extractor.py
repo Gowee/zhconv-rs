@@ -18,6 +18,7 @@ REGEX_MODULE_DESCRIPTION = re.compile(r"""description\s*=\s*(['"])(?P<desc>.*?)(
 REGEX_TEMPLATE_HEADER = re.compile(
     r"""{{\s*CGroupH\s*\|\s*name\s*=\s*(?P<name>[^|]+)\s*\|\s*desc\s*=\s*(?P<desc>.*?)\s*}}"""
 )
+REGEX_LANG = re.compile(r"\{\{lang\|[a-zA-z]{2}\|([^}]+)}}")
 # For Module:CGroup
 REGEX_RULE1 = re.compile(
     r"""original\s*=\s*(["'])(?P<original>.*?)\1\s*,\s*rule\s*=\s*(['"])(?P<conv>.+?)\3"""
@@ -44,6 +45,7 @@ REGEX_RULE7 = re.compile(
 REGEX_RULE8 = re.compile(
     r"""{{\s*CItemLan\/R\s*\|\s*([12]=)?\s*(?P<original>[^|]+)\|\s*([12]=)?\s*(?P<conv>.*?)\s*(\|\s*)?}}"""
 )
+# e.g. ※此字在您的系统上可能无法显示，因而变成空白、方块或问号。
 REGEX_SPECIAL_CHAR_NOTICE = re.compile(r"""<span[^>]*>([^>]+)<\/span>""")
 
 # REGEX_CGROUP_LIST = re.compile(
@@ -109,6 +111,56 @@ def cgroup_templates(site):
         yield title
 
 
+# def parse_lua_table(s):
+#     def r(**kwargs):
+#         return kwargs
+
+#     s = s.strip()
+#     if s.startswith("{") and s.endswith("}"):
+#         s = s[1:-1]
+#         try:
+#             return eval(f"r({s})", {"__builtins__": {}, "r": r})
+#         except (SyntaxError, NameError):
+#             pass
+#     return None
+
+
+def parse_module_line(s):
+    def parse_lua_args(s):
+        def r(*args, **kwargs):
+            return (args, kwargs)  # *args, kwargs
+
+        try:
+            return eval(f"r({s})", {"__builtins__": {}, "r": r, "nil": None})
+        except (SyntaxError, NameError):
+            return None
+
+    s = s.strip().rstrip(",")
+    if not s.startswith("--"):  # Lua comments
+        if s.startswith("{") and s.endswith("}"):
+            s = s[1:-1]
+            if args := parse_lua_args(s):
+                args = args[1]  # kwargs
+                if "original" in args or "rule" in args: # O.W. it might not be a rule
+                    return (args.get("original", ""), args.get("rule", ""))
+        elif s.startswith("Item(") and s.endswith(")"):
+            s = s[5:-1]
+            if (args := parse_lua_args(s)) and len(args[0]) >= 2:
+                return args[0]  # positional args
+    return None
+
+
+def parse_template_line(s):
+    return (
+        m := (
+            REGEX_RULE5.search(s)
+            or REGEX_RULE6.search(s)
+            or REGEX_RULE7.search(s)
+            or REGEX_RULE8.search(s)
+        )
+    ) and (m.group("original"), m.group("conv"))
+
+
 def fetch_cgroups(site):
     # ok_cnt = 0
     emptys = []
@@ -125,7 +177,7 @@ def fetch_cgroups(site):
             #     continue
             # # seen.add(name)
             page = site.pages[title]
-            text = page.text()
+            text = REGEX_LANG.sub(r"\1", page.text())
             if (
                 title.startswith("Module:")
                 and (mname := REGEX_MODULE_NAME.search(text))
@@ -146,23 +198,9 @@ def fetch_cgroups(site):
             seen.add(name)
             rules = []
             if title.startswith("Module:"):
-                match_rule = lambda line: (
-                    None
-                    if line.lstrip().startswith("--")  # Lua comments
-                    else (
-                        REGEX_RULE1.search(line)
-                        or REGEX_RULE2.search(line)
-                        or REGEX_RULE3.search(line)
-                        or REGEX_RULE4.search(line)
-                    )
-                )
+                match_rule = parse_module_line
             else:  # Template:
-                match_rule = (
-                    lambda line: REGEX_RULE5.search(line)
-                    or REGEX_RULE6.search(line)
-                    or REGEX_RULE7.search(line)
-                    or REGEX_RULE8.search(line)
-                )
+                match_rule = parse_template_line
 
             for mrule in filter(
                 None,
@@ -173,14 +211,12 @@ def fetch_cgroups(site):
             ):
                 conv = REGEX_SPECIAL_CHAR_NOTICE.sub(
                     r"\1",
-                    mrule.group("conv").replace("{{=}}", "="),
+                    mrule[1].replace("{{=}}", "="),  # e.g. `=>` in {{CItem}}
                 )
                 rules.append(
                     {
-                        "original": mrule.group("original"),
-                        "conv": mrule.group("conv").replace(
-                            "{{=}}", "="
-                        ),  # e.g. `=>` in {{CItem}}
+                        "original": mrule[0],
+                        "conv": conv,
                     }
                 )
 

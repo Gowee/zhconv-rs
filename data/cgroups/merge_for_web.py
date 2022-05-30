@@ -46,6 +46,7 @@ def main():
             cgroups[name] = rules
     with open(OUTPUT_PATH, "w") as f:
         f.write(json.dumps({'timestamp': now(), 'data': cgroups}, ensure_ascii=False, indent=2))
+    # Remember to apply `zhconv --mediawiki Zh` to the final json for rules in titles/descriptions.
 
 
 if __name__ == "__main__":
