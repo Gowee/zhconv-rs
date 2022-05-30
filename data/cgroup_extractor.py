@@ -26,7 +26,7 @@ REGEX_RULE2 = re.compile(
     r"""rule\s*=\s*(["'])(?P<conv>.*?)\1\s*,\s*original\s*=\s*(['"])(?P<original>.+?)\3"""
 )
 REGEX_RULE3 = re.compile(
-    r"""(?P<original>)rule\s*=\s*(["'])(?P<conv>.*?)"""  # no original, e.g. [[Module:CGroup/OnePiece]]
+    r"""(?P<original>)rule\s*=\s*(["'])(?P<conv>.*?)\2"""  # no original, e.g. [[Module:CGroup/OnePiece]]
 )
 REGEX_RULE4 = re.compile(
     r"""Item\(\s*((['"])(?P<original>.*?)\2|nil)\s*,\s*(['"])(?P<conv>.+?)\4\s*\)"""
