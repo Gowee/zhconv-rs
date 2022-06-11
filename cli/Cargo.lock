@@ -1490,7 +1490,7 @@ dependencies = [
 
 [[package]]
 name = "zhconv"
-version = "0.1.0-beta.2"
+version = "0.1.0-beta.3"
 dependencies = [
  "aho-corasick",
  "console_error_panic_hook",
@@ -1509,7 +1509,7 @@ dependencies = [
 
 [[package]]
 name = "zhconv-cli"
-version = "0.1.0-beta"
+version = "0.1.0-beta.3"
 dependencies = [
  "anyhow",
  "env_logger",

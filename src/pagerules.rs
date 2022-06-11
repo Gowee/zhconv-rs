@@ -45,7 +45,7 @@ impl FromStr for PageRules {
         // or should be propogate the error?
         for rule in extract_rules(s).filter_map(|r| r.ok()) {
             if rule.set_title {
-                if let Some(map) = rule.conv.as_ref().map(|conv| conv.bid.clone()) {
+                if let Some(map) = rule.conv.as_ref().and_then(|conv| conv.get_bid()).cloned() {
                     // actually, our parser ensure this is !is_empty
                     // just be more tolerant here
                     if !map.is_empty() {

@@ -29,7 +29,6 @@ pub struct ConvRule {
 pub enum Output {
     Normal,
     VariantName(Variant),
-    Verbatim(String),
     Description,
 }
 
@@ -51,14 +50,13 @@ impl ConvRule {
     pub fn write_output(&self, mut dest: impl fmt::Write, target: Variant) -> fmt::Result {
         match &self.output {
             None => Ok(()),
-            Some(Output::Verbatim(inner)) => write!(dest, "{}", inner),
             Some(Output::Normal) => write!(
                 dest,
                 "{}",
                 self.conv
                     .as_ref()
                     .and_then(|c| c.get_text_by_target(target))
-                    .unwrap_or("")
+                    .unwrap_or("") // mediawiki would show: 在手动语言转换规则中检测到错误
             ),
             Some(Output::VariantName(variant)) => write!(dest, "{}", variant.get_name()),
             Some(Output::Description) => {
@@ -78,6 +76,16 @@ impl ConvRule {
             None
         }
     }
+
+    /// Same as `from_str`, except that any unrecognized rule is treated as [`Conv::Asis`]
+    pub fn from_str_infallible(s: &str) -> ConvRule {
+        s.parse().unwrap_or_else(|_| ConvRule {
+            action: None,
+            output: Some(Output::Normal),
+            conv: Some(Conv::Asis(s.to_owned())),
+            set_title: true,
+        })
+    }
 }
 
 impl FromStr for ConvRule {
@@ -91,31 +99,12 @@ impl FromStr for ConvRule {
                 (first, &last[1..])
             },
         );
-        if flags.is_empty() {
-            return Ok(if let Ok(conv) = Conv::from_str(body) {
-                // inline rule
-                ConvRule {
-                    action: None,
-                    output: Some(Output::Normal),
-                    conv: Some(conv),
-                    set_title: false,
-                }
-            } else {
-                // or verbatim
-                ConvRule {
-                    action: None,
-                    output: Some(Output::Verbatim(body.to_owned())),
-                    conv: None,
-                    set_title: false,
-                }
-            });
-        }
         let mut set_title = false;
         let mut action = None;
         let mut output = Some(Output::Normal);
         // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L158
         //  and https://github.com/wikimedia/mediawiki/blob/ec6fd491074a6ace5ccc7bc05b01c30512a5723d/includes/language/ConverterRule.php#L408
-        // (not fully compliant, especially for multi-flags cases)
+        //  (not fully compliant, especially for multi-flags cases)
         for flag in flags.chars() {
             match flag {
                 // FIX: 'A'
@@ -125,8 +114,8 @@ impl FromStr for ConvRule {
                 'R' => {
                     return Ok(ConvRule {
                         action: None,
-                        output: Some(Output::Verbatim(body.to_owned())),
-                        conv: None,
+                        output: Some(Output::Normal),
+                        conv: Some(Conv::Asis(body.to_owned())),
                         set_title: false,
                     });
                 }
@@ -162,7 +151,13 @@ impl FromStr for ConvRule {
         } else {
             Some(Conv::from_str(body).map_err(|_| RuleError::InvalidConv)?)
         };
-        if set_title && (conv.is_none() || conv.as_ref().unwrap().bid.is_empty()) {
+        if set_title
+            && conv
+                .as_ref()
+                .and_then(|c| c.get_bid())
+                .map(|b| !b.is_empty())
+                != Some(true)
+        {
             return Err(RuleError::InvalidConvForTitle);
         }
         Ok(Self {
@@ -176,48 +171,97 @@ impl FromStr for ConvRule {
 
 /// The inner of a [`ConvRule`] without flags and actions
 ///
-/// Note: A single `Conv` can contain multiple uni-directional and/or bi-diretional mappings in
-/// any order.
-/// For example,
+/// A single `Conv` may consist of multiple uni-directional and/or bi-diretional mappings in any
+/// order. e.g.,
 /// uni-directional mapping: `巨集=>zh-cn:宏;`,
 /// bi-directional mapping: `zh-hans:计算机; zh-hant:電腦;`,
-/// both: `zh-hk:橘;zh-tw:芭樂;蘋果=>zh-cn:梨;`
+/// mixed: `zh-hk:橘;zh-tw:芭樂;蘋果=>zh-cn:梨;`.
+///
+/// Or it can be an as-is text which prevents such text being converted by other rules. Typically,
+/// it helps avoid over-conversion applied to surnames. Be noted that it might not be effective in
+/// rare cases due to the leftmost-longest matching strategy.
 #[derive(Debug, Clone)]
-pub struct Conv {
+pub enum Conv {
+    Asis(String),
+    Map(ConvMap),
+}
+
+#[derive(Debug, Clone)]
+pub struct ConvMap {
     pub bid: VariantMap<String>,
     pub unid: VariantMap<Vec<(String, String)>>,
 }
 
 impl Conv {
     #[inline]
-    /// The the text to display for the target variant
+    /// The text to display for the target variant
     pub fn get_text_by_target(&self, target: Variant) -> Option<&str> {
-        self.bid.get_text_with_fallback(target)
+        use Conv::*;
+        match self {
+            Asis(s) => Some(s),
+            Map(m) => m.bid.get_text_with_fallback(target),
+        }
     }
 
     #[inline]
     pub fn get_conv_pairs(&self, target: Variant) -> Vec<(&str, &str)> {
+        use Conv::*;
         // TODO: iterator
-        let mut pairs = self.bid.get_conv_pairs(target);
-        pairs.extend(
-            self.unid
-                .get_conv_pairs(target)
-                .iter()
-                // .filter(|(f, _t)| !f.is_empty()) // filter out emtpy froms that troubles AC
-                .map(|(f, t)| (f.as_ref(), t.as_ref())),
-        );
-        pairs
+        match self {
+            Asis(s) => vec![(s, s)],
+            Map(m) => {
+                let mut pairs = m.bid.get_conv_pairs(target);
+                pairs.extend(
+                    m.unid
+                        .get_conv_pairs(target)
+                        .iter()
+                        // .filter(|(f, _t)| !f.is_empty()) // filter out emtpy froms that troubles AC
+                        .map(|(f, t)| (f.as_ref(), t.as_ref())),
+                );
+                pairs
+            }
+        }
+    }
+
+    pub fn as_asis(&self) -> Option<&str> {
+        use Conv::*;
+        match self {
+            Asis(s) => Some(s.as_ref()),
+            _ => None,
+        }
+    }
+
+    pub fn as_map(&self) -> Option<&ConvMap> {
+        use Conv::*;
+        match self {
+            Map(m) => Some(m),
+            _ => None,
+        }
+    }
+
+    /// Get the inner bi-directional map, if any.
+    ///
+    /// Typically intended to be used by [`PageRules`](crate::pagerules:PageRules) to extract the
+    /// map for a page title (e.g. `-{T|zh:黑;zh-cn:白}-`).
+    pub fn get_bid(&self) -> Option<&VariantMap<String>> {
+        self.as_map().map(|m| &m.bid)
+    }
+
+    /// Same as `from_str`, except that any unrecognized conv is treated as [`Conv::Asis`]
+    pub fn from_str_infallible(s: &str) -> Conv {
+        s.parse().unwrap_or_else(|_| Conv::Asis(s.to_owned()))
     }
 }
 
 impl Display for Conv {
     fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
-        write!(fmt, "{}", self.bid)?;
-        if !self.bid.is_empty() && !self.unid.is_empty() {
-            write!(fmt, "；")?;
+        use Conv::*;
+        match self {
+            Asis(s) => write!(fmt, "{}", s),
+            Map(m) => {
+                write!(fmt, "{}{}", m.bid, m.unid)
+            }
         }
-        write!(fmt, "{}", self.unid)?;
-        Ok(())
     }
 }
 
@@ -260,7 +304,7 @@ impl FromStr for Conv {
             Ok(())
         };
         let mut i = 0;
-        let mut ampersand = None;
+        let mut ampersand = None; // handle entity escape
         for (j, &c) in s.as_bytes().iter().enumerate() {
             match c {
                 b'&' => {
@@ -280,15 +324,26 @@ impl FromStr for Conv {
                 }
             }
         }
-        if i != s.as_bytes().len() {
-            parse_single(&s[i..])?;
+        if i != s.as_bytes().len() && parse_single(&s[i..]).is_err() {
+            if bid.is_empty() && unid.is_empty() {
+                return Ok(Conv::Asis(s.to_owned()));
+            } else {
+                return Err(());
+                // Or we just discard this part?
+            }
         }
-        Ok(Conv {
+        Ok(Conv::Map(ConvMap {
             bid: bid.into(),
             unid: unid.into(),
-        })
+        }))
     }
 }
+
+// impl From<&str> for Conv {
+//     fn from(s: &str) -> Conv {
+//         s.parse().unwrap_or_else(|_| Conv::Asis(s.to_owned()))
+//     }
+// }
 
 /// A `([Action], [Conv])` pair with some helper methods
 #[derive(Debug, Clone)]

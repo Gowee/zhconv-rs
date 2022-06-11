@@ -1,4 +1,3 @@
-use std::array;
 use std::ffi::OsStr;
 use std::fs;
 use std::io::{self, Read, Write};
@@ -92,7 +91,7 @@ fn main() -> Result<()> {
         let dfa = dfa.unwrap_or(total > 1 || first_text.len() >= DFA_FILESIZE);
         builder = builder.dfa(dfa);
 
-        let files = array::IntoIter::new([(first_path, Ok(first_text))])
+        let files = [(first_path, Ok(first_text))]
             .into_iter()
             .chain(it.map(|path| {
                 let res = fs::read_to_string(&path);

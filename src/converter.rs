@@ -43,7 +43,7 @@ impl ZhConverter {
     pub fn from_pairs(pairs: &[(impl AsRef<str>, impl AsRef<str>)]) -> ZhConverter {
         let mut builder = ZhConverterBuilder::new();
         for (from, to) in pairs {
-            builder = builder.add_conv_pair(from.to_owned(), to.to_owned());
+            builder = builder.add_conv_pair(from, to);
         }
         builder.build()
     }
@@ -133,14 +133,15 @@ impl ZhConverter {
                     } else {
                         &mut converted
                     };
-                    if let Ok(rule) = ConvRule::from_str(&piece) {
-                        // only take it output; mutations to global rules are ignored
-                        rule.write_output(upper, self.variant).unwrap();
-                    } else {
-                        // rule is invalid
-                        // TODO: what should we do actually? for now, we just do nothing to it
-                        upper.push_str(&piece);
-                    }
+                    // only take it output; mutations to global rules are ignored
+                    ConvRule::from_str_infallible(&piece).write_output(upper, self.variant).unwrap();
+                    // if let Ok(rule) = dbg!(ConvRule::from_str(&piece)) {
+                    //     rule.write_output(upper, self.variant).unwrap();
+                    // } else {
+                    //     // rule is invalid
+                    //     // TODO: what should we do actually? for now, we just do nothing to it
+                    //     upper.push_str(&piece);
+                    // }
                     pos = m2.end();
                     if pieces.is_empty() {
                         // return to toplevel
@@ -353,8 +354,7 @@ impl<'t> ZhConverterBuilder<'t> {
         mapping.extend(
             tables
                 .iter()
-                .map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
-                .flatten()
+                .flat_map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
                 .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
                 .filter(|&(from, _to)| !removes.contains_key(from))
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
