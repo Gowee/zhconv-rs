@@ -6,11 +6,11 @@
 use std::collections::HashMap;
 use std::convert::AsRef;
 use std::fmt::{self, Display};
+use std::iter::Map;
 use std::str::FromStr;
 
 use once_cell::sync::Lazy;
 use regex::{Match, Matches, Regex};
-use std::iter::Map;
 
 use crate::variant::{Variant, VariantMap};
 
@@ -338,12 +338,6 @@ impl FromStr for Conv {
         }))
     }
 }
-
-// impl From<&str> for Conv {
-//     fn from(s: &str) -> Conv {
-//         s.parse().unwrap_or_else(|_| Conv::Asis(s.to_owned()))
-//     }
-// }
 
 /// A `([Action], [Conv])` pair with some helper methods
 #[derive(Debug, Clone)]

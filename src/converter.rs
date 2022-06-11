@@ -1,8 +1,8 @@
-use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
 use std::collections::HashMap;
 use std::iter::IntoIterator;
 use std::str::FromStr;
 
+use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
 use once_cell::unsync::Lazy;
 use regex::Regex;
 
@@ -134,7 +134,9 @@ impl ZhConverter {
                         &mut converted
                     };
                     // only take it output; mutations to global rules are ignored
-                    ConvRule::from_str_infallible(&piece).write_output(upper, self.variant).unwrap();
+                    ConvRule::from_str_infallible(&piece)
+                        .write_output(upper, self.variant)
+                        .unwrap();
                     // if let Ok(rule) = dbg!(ConvRule::from_str(&piece)) {
                     //     rule.write_output(upper, self.variant).unwrap();
                     // } else {
@@ -354,7 +356,9 @@ impl<'t> ZhConverterBuilder<'t> {
         mapping.extend(
             tables
                 .iter()
-                .flat_map(|(froms, tos)| itertools::zip(froms.trim().split('|'), tos.trim().split('|')))
+                .flat_map(|(froms, tos)| {
+                    itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
+                })
                 .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
                 .filter(|&(from, _to)| !removes.contains_key(from))
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
