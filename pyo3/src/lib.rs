@@ -20,9 +20,20 @@ fn zhconv(text: &str, target: &str, mediawiki: Option<bool>) -> String {
     }
 }
 
+/// zhconv with GIL released when converting. It allows in-parallel conversion when used together
+/// with multithreading. But be noted that it may incur non-trivial overhead due to extra FFI
+/// calls for small workloads.
+#[pyfunction]
+fn zhconv_nogil(py: Python<'_>, text: &str, target: &str, mediawiki: Option<bool>) -> String {
+    py.allow_threads(move || {
+        zhconv(text, target, mediawiki)
+    })
+}
+
 /// A Python module implemented in Rust.
 #[pymodule]
-fn pyo3(_py: Python, m: &PyModule) -> PyResult<()> {
-    m.add_function(wrap_pyfunction!(zhconv, m)?)?;
+fn zhconv_rs(_py: Python, m: &PyModule) -> PyResult<()> {
+    m.add_function(wrap_pyfunction!(crate::zhconv, m)?)?;
+    m.add_function(wrap_pyfunction!(zhconv_nogil, m)?)?;
     Ok(())
 }
