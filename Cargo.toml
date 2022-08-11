@@ -15,7 +15,7 @@ crate-type = ["cdylib", "rlib"]
 regex = "1.5"   
 lazy_static = "1.4"
 itertools = "0.10"
-strum = { version = "0.23", features = ["derive"] }
+strum = { version = "0.24", features = ["derive"] }
 once_cell = "1.8"
 aho-corasick = "0.7"
 
