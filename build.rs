@@ -14,8 +14,8 @@ use reqwest::blocking as reqwest;
 use sha2::{Digest, Sha256};
 use vergen::{vergen, Config as VergenConfig};
 
-const COMMIT: &str = "2682461394ee5c631b48f1cec8c0328634152558";
-const SHA256: [u8; 32] = hex!("0f0979dc3041c68884a31d3bbd181d30d3b95ad77cfa110404c59e794bf7df4b");
+const COMMIT: &str = "56417313aa08801ef4b737b40bb7e436c2160d0a";
+const SHA256: [u8; 32] = hex!("2c61d46f4412f883d324defcc7447acb69929ad3502d2edde3a1ac0261d03a99");
 const URL: &str = formatcp!("https://raw.githubusercontent.com/wikimedia/mediawiki/{}/includes/languages/data/ZhConversion.php", COMMIT);
 
 fn main() {
