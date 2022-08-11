@@ -77,7 +77,7 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 ///
 /// # Note
 /// Different from the implementation of MediaWiki, this crate use a automaton which makes it
-/// impossible to mutate global rules during converting. So the function always searches the text
+/// infeasible to mutate global rules during converting. So the function always searches the text
 /// for global rules such as `-{H|FOO BAR}-` in the first pass. If such rules exists, it build a
 /// new converter from the scratch with built-in conversion tables, which **takes extra time**.
 /// Otherwise, it just picks a built-in converter. Then it converts the text with the chosen
