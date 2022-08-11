@@ -86,7 +86,7 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 /// For fine-grained control and custom conversion rules, these is [`ZhConverter`].
 pub fn zhconv_mw(text: &str, target: Variant) -> String {
     use crate::pagerules::PageRules;
-    let page_rules = PageRules::from_str(text).expect("Page rules parsing in infallible for now");
+    let page_rules = PageRules::from_str(text).expect("Page rules parsing is infallible for now");
     if page_rules.as_conv_actions().is_empty() {
         // if there is no global rules specified inline, just pick the built-in converter
         return get_builtin_converter(target).convert_allowing_inline_rules(text);

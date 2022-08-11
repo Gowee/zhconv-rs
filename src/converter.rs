@@ -239,7 +239,7 @@ impl<'t> ZhConverterBuilder<'t> {
     #[inline(always)]
     pub fn rules_from_page(self, text: &str) -> Self {
         self.page_rules(
-            &PageRules::from_str(text).expect("Page rules parsing in infallible for now"),
+            &PageRules::from_str(text).expect("Page rules parsing is infallible for now"),
         )
     }
 
