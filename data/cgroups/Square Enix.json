@@ -5,571 +5,611 @@
   "rules": [
     {
       "original": "Chrono series",
-      "conv": "zh-cn:时空系列;zh-tw:超時空之鑰系列"
+      "conv": "zh-cn:时空系列; zh-tw:超時空之鑰系列;"
     },
     {
       "original": "Chrono Cross",
-      "conv": "zh-cn:穿越时空;zh-tw:超時空之鑰 次元之旅"
+      "conv": "zh-cn:穿越时空; zh-tw:超時空之鑰 次元之旅;"
     },
     {
       "original": "Chrono Trigger",
-      "conv": "zh-cn:时空之轮;zh-tw:超時空之鑰"
+      "conv": "zh-cn:时空之轮; zh-tw:超時空之鑰;"
     },
     {
       "original": "Dragon Quest",
-      "conv": "zh-hans:勇者斗恶龙;zh-hant:勇者鬥惡龍"
+      "conv": "zh-hans:勇者斗恶龙; zh-hant:勇者鬥惡龍;"
     },
     {
       "original": "Roto",
-      "conv": "zh-cn:洛特;zh-tw:羅德"
+      "conv": "zh-cn:洛特; zh-tw:羅德;"
     },
     {
       "original": "Soshite Densetsu e...",
-      "conv": "zh-cn:传说的开始;zh-tw:接著邁向傳說"
+      "conv": "zh-cn:传说的开始; zh-tw:接著邁向傳說;"
     },
     {
       "original": "Terry",
-      "conv": "zh-cn:特瑞;zh-tw:泰瑞"
+      "conv": "zh-cn:特瑞; zh-tw:泰瑞;"
     },
     {
       "original": "Torneko",
-      "conv": "zh-cn:特鲁尼克;zh-tw:特魯內克"
+      "conv": "zh-cn:特鲁尼克; zh-tw:特魯內克;"
     },
     {
       "original": "Caravan Heart",
-      "conv": "zh-cn:旅团之心;zh-tw:秘境探險隊"
+      "conv": "zh-cn:旅团之心; zh-tw:秘境探險隊;"
     },
     {
       "original": "Dragon Quest Monsters",
-      "conv": "zh-cn:勇者斗恶龙怪兽篇;zh-hk:勇者鬥惡龍怪獸篇;zh-tw:勇者鬥惡龍 怪獸仙境"
+      "conv": "zh-cn:勇者斗恶龙怪兽篇; zh-hk:勇者鬥惡龍怪獸篇; zh-tw:勇者鬥惡龍 怪獸仙境;"
     },
     {
       "original": "Iru",
-      "conv": "zh-cn:鲁卡;zh-tw:路卡"
+      "conv": "zh-cn:鲁卡; zh-tw:路卡;"
     },
     {
       "original": "Maruta",
-      "conv": "zh-cn:玛鲁塔;zh-tw:馬魯達"
+      "conv": "zh-cn:玛鲁塔; zh-tw:馬魯達;"
     },
     {
       "original": "Ruka no Tabiritsu",
-      "conv": "zh-cn:鲁卡的旅程;zh-tw:路卡的啟程"
+      "conv": "zh-cn:鲁卡的旅程; zh-tw:路卡的啟程;"
     },
     {
       "original": "Ruka",
-      "conv": "zh-cn:伊尔;zh-tw:依爾"
+      "conv": "zh-cn:伊尔; zh-tw:依爾;"
     },
     {
       "original": "Terry no Wonderland",
-      "conv": "zh-cn:特瑞仙境;zh-tw:泰瑞的仙境"
+      "conv": "zh-cn:特瑞仙境; zh-tw:泰瑞的仙境;"
     },
     {
       "original": "Shougeki no Shippodan",
-      "conv": "zh-cn:冲击尾巴团;zh-tw:衝擊的尾巴團"
+      "conv": "zh-cn:冲击尾巴团; zh-tw:衝擊的尾巴團;"
     },
     {
       "original": "Slime Morimori Dragon Quest",
-      "conv": "zh-cn:勇者斗恶龙 元气史莱姆;zh-tw:元氣史萊姆"
-    },
-    {
-      "original": "Slime Morimori Dragon Quest",
-      "conv": "勇者鬥惡龍 元氣史萊姆=>zh-cn:勇者斗恶龙 元气史莱姆"
+      "conv": "zh-cn:勇者斗恶龙 元气史莱姆; zh-tw:元氣史萊姆;"
     },
     {
       "original": "Builders",
-      "conv": "zh-cn:建造者;zh-tw:創世小玩家;zh-sg:建造者"
+      "conv": "zh-cn:建造者; zh-tw:創世小玩家; zh-sg:建造者;"
     },
     {
       "original": "Builders: Revive Alefgard",
-      "conv": "zh-cn:建造者 来复兴阿雷夫加德;zh-tw:創世小玩家 阿雷夫加爾德復興記"
+      "conv": "zh-cn:建造者 来复兴阿雷夫加德; zh-tw:創世小玩家 阿雷夫加爾德復興記;"
     },
     {
       "original": "Dai no Daibouken",
-      "conv": "zh-cn:达尔大冒险;zh-hk:達爾大冒險;zh-tw:達伊的大冒險"
+      "conv": "zh-cn:达尔大冒险; zh-hk:達爾大冒險; zh-tw:達伊的大冒險;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想; zh-hk:最終幻想; zh-tw:Final Fantasy;"
+    },
+    {
+      "original": "",
+      "conv": "zh:太空戰士; zh-cn:最终幻想; zh-hk:最終幻想; zh-tw:Final Fantasy;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想1; zh-hk:最終幻想1; zh-tw:Final Fantasy 1;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想2; zh-hk:最終幻想2; zh-tw:Final Fantasy 2;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想3; zh-hk:最終幻想3; zh-tw:Final Fantasy 3;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想4; zh-hk:最終幻想4; zh-tw:Final Fantasy 4;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想5; zh-hk:最終幻想5; zh-tw:Final Fantasy 5;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想6; zh-hk:最終幻想6; zh-tw:Final Fantasy 6;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想7; zh-hk:最終幻想7; zh-tw:Final Fantasy 7;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想8; zh-hk:最終幻想8; zh-tw:Final Fantasy 8;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想9; zh-hk:最終幻想9; zh-tw:Final Fantasy 9;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想I; zh-hk:最終幻想I; zh-tw:Final Fantasy I;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想V; zh-hk:最終幻想V; zh-tw:Final Fantasy V;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:最终幻想X; zh-hk:最終幻想X; zh-tw:Final Fantasy X;"
     },
     {
       "original": "Chaos",
-      "conv": "zh-cn:卡奥斯;zh-tw:卡歐斯"
+      "conv": "zh-cn:卡奥斯; zh-tw:卡歐斯;"
     },
     {
       "original": "Garland",
-      "conv": "zh-cn:加兰特;zh-tw:加蘭德"
+      "conv": "zh-cn:加兰特; zh-tw:加蘭德;"
     },
     {
       "original": "Frioniel",
-      "conv": "zh-cn:菲利奥尼尔;zh-hk:費安尼爾;zh-tw:弗利歐尼爾"
+      "conv": "zh-cn:菲利奥尼尔; zh-hk:費安尼爾; zh-tw:弗利歐尼爾;"
     },
     {
       "original": "Leonhart",
-      "conv": "zh-cn:莱恩哈特;zh-tw:雷恩哈特"
+      "conv": "zh-cn:莱恩哈特; zh-tw:雷恩哈特;"
     },
     {
       "original": "Arc",
-      "conv": "zh-cn:阿克;zh-tw:亞爾柯"
+      "conv": "zh-cn:阿克; zh-tw:亞爾柯;"
     },
     {
       "original": "Ingus",
-      "conv": "zh-cn:因格斯;zh-tw:英格茲"
+      "conv": "zh-cn:因格斯; zh-tw:英格茲;"
     },
     {
       "original": "Luneth",
-      "conv": "zh-cn:鲁内斯;zh-tw:路涅斯"
+      "conv": "zh-cn:鲁内斯; zh-tw:路涅斯;"
     },
     {
       "original": "Refia",
-      "conv": "zh-cn:雷菲娅;zh-tw:蕾菲雅"
+      "conv": "zh-cn:雷菲娅; zh-tw:蕾菲雅;"
     },
     {
       "original": "Ur",
-      "conv": "zh-hk:烏魯村;zh-tw:烏爾村"
+      "conv": "zh-hk:烏魯村; zh-tw:烏爾村;"
     },
     {
       "original": "Warriors of Light",
-      "conv": "zh-cn:光之勇士;zh-tw:光之戰士"
+      "conv": "zh-cn:光之勇士; zh-tw:光之戰士;"
     },
     {
       "original": "Xande",
-      "conv": "zh-cn:撒旦;zh-tw:贊德"
+      "conv": "zh-cn:撒旦; zh-tw:贊德;"
     },
     {
       "original": "Cecil Harve",
-      "conv": "zh-cn:塞西尔·哈维;zh-tw:賽希爾·哈威"
+      "conv": "zh-cn:塞西尔·哈维; zh-tw:賽希爾·哈威;"
     },
     {
       "original": "Cecil",
-      "conv": "zh-cn:塞西尔;zh-tw:賽希爾"
+      "conv": "zh-cn:塞西尔; zh-tw:賽希爾;"
     },
     {
       "original": "Complete Collection",
-      "conv": "zh-cn:完美收藏版;zh-tw:完全收藏輯"
+      "conv": "zh-cn:完美收藏版; zh-tw:完全收藏輯;"
     },
     {
       "original": "Gilbert",
-      "conv": "zh-cn:吉尔伯特;zh-tw:基爾巴特"
+      "conv": "zh-cn:吉尔伯特; zh-tw:基爾巴特;"
     },
     {
       "original": "Golbeza",
-      "conv": "zh-cn:高贝兹;zh-hk:戈魯貝札;zh-tw:戈爾貝札"
+      "conv": "zh-cn:高贝兹; zh-hk:戈魯貝札; zh-tw:戈爾貝札;"
     },
     {
       "original": "Red Wings",
-      "conv": "zh-cn:红翼;zh-hk:赤翼;zh-tw:赤翼"
+      "conv": "zh-cn:红翼; zh-hk:赤翼; zh-tw:赤翼;"
     },
     {
       "original": "Exdeath",
-      "conv": "zh-cn:艾克斯迪斯;zh-hk:艾斯迪斯;zh-tw:艾克斯德斯"
+      "conv": "zh-cn:艾克斯迪斯; zh-hk:艾斯迪斯; zh-tw:艾克斯德斯;"
     },
     {
       "original": "Gilgamesh",
-      "conv": "zh-cn:基加美修;zh-hk:吉爾伽美什;zh-tw:基加美修"
+      "conv": "zh-cn:基加美修; zh-hk:吉爾伽美什; zh-tw:基加美修;"
     },
     {
       "original": "Advent Children",
-      "conv": "zh-cn:降临之子;zh-hk:天子再臨;zh-tw:降臨神子"
+      "conv": "zh-cn:降临之子; zh-hk:天子再臨; zh-tw:降臨神子;"
     },
     {
       "original": "Aerith",
-      "conv": "zh-cn:爱丽丝;zh-tw:艾莉絲"
+      "conv": "zh-cn:爱丽丝; zh-tw:艾莉絲;"
     },
     {
       "original": "Cloud",
-      "conv": "zh-cn:克劳德;zh-hk:古蘭特;zh-tw:克勞德"
+      "conv": "zh-cn:克劳德; zh-hk:古蘭特; zh-tw:克勞德;"
+    },
+    {
+      "original": "Gainsborough",
+      "conv": "zh:蓋恩斯巴勒; zh-cn:盖恩斯巴勒; zh-tw:蓋恩茲博羅;"
     },
     {
       "original": "Jenova",
-      "conv": "zh-cn:杰诺娃;zh-tw:傑諾瓦"
+      "conv": "zh-cn:杰诺娃; zh-tw:傑諾瓦;"
     },
     {
       "original": "Jessie",
-      "conv": "zh-cn:杰西;zh-tw:潔西"
+      "conv": "zh-cn:杰西; zh-tw:潔西;"
     },
     {
       "original": "Sephiroth",
-      "conv": "zh-cn:萨菲罗斯;zh-hk:錫菲羅斯;zh-tw:賽菲羅斯"
+      "conv": "zh-cn:萨菲罗斯; zh-hk:錫菲羅斯; zh-tw:賽菲羅斯;"
     },
     {
       "original": "Laguna",
-      "conv": "zh-cn:拉格纳;zh-hk:拉古拿;zh-tw:拉格納"
+      "conv": "zh-cn:拉格纳; zh-hk:拉古拿; zh-tw:拉格納;"
     },
     {
       "original": "Squall",
-      "conv": "zh-cn:斯考尔;zh-hk:史戈魯;zh-tw:史克爾"
+      "conv": "zh-cn:斯考尔; zh-hk:史戈魯; zh-tw:史克爾;"
     },
     {
       "original": "Ultimecia",
-      "conv": "zh-cn:阿尔迪米西娅;zh-hk:雅爾緹米西亞;zh-tw:阿爾緹米西亞"
+      "conv": "zh-cn:阿尔迪米西娅; zh-hk:雅爾緹米西亞; zh-tw:阿爾緹米西亞;"
     },
     {
       "original": "Trepe",
-      "conv": "zh-cn:翠普;zh-tw:多莉普"
+      "conv": "zh-cn:翠普; zh-tw:多莉普;"
     },
     {
       "original": "Zell",
-      "conv": "zh-cn:塞尔;zh-tw:塞魯"
+      "conv": "zh-cn:塞尔; zh-tw:塞魯;"
     },
     {
       "original": "Kuja",
-      "conv": "zh-cn:库加;zh-hk:古贊;zh-tw:庫加"
+      "conv": "zh-cn:库加; zh-hk:古贊; zh-tw:庫加;"
     },
     {
       "original": "Zidane",
-      "conv": "zh-cn:吉坦;zh-hk:施丹;zh-tw:吉坦"
+      "conv": "zh-cn:吉坦; zh-hk:施丹; zh-tw:吉坦;"
     },
     {
       "original": "Bevelle",
-      "conv": "zh-cn:贝贝鲁;zh-tw:貝薇爾"
+      "conv": "zh-cn:贝贝鲁; zh-tw:貝薇爾;"
     },
     {
       "original": "Bikanel",
-      "conv": "zh-cn:比卡内鲁;zh-tw:比卡涅"
+      "conv": "zh-cn:比卡内鲁; zh-tw:比卡涅;"
     },
     {
       "original": "Calm",
-      "conv": "zh-cn:那基;zh-tw:安寧"
+      "conv": "zh-cn:那基; zh-tw:安寧;"
     },
     {
       "original": "Clasko",
-      "conv": "zh-cn:克拉斯科;zh-tw:克拉斯寇"
+      "conv": "zh-cn:克拉斯科; zh-tw:克拉斯寇;"
     },
     {
       "original": "Dona",
-      "conv": "zh-cn:多娜;zh-tw:朵娜"
+      "conv": "zh-cn:多娜; zh-tw:朵娜;"
     },
     {
       "original": "Gagazet",
-      "conv": "zh-cn:嘉嘉泽图;zh-tw:嘎嘎扎特"
+      "conv": "zh-cn:嘉嘉泽图; zh-tw:嘎嘎扎特;"
     },
     {
       "original": "Guado",
-      "conv": "zh-cn:古阿多;zh-tw:瓜德"
+      "conv": "zh-cn:古阿多; zh-tw:瓜德;"
     },
     {
       "original": "Mi’ihen",
-      "conv": "zh-cn:米海恩;zh-tw:密亨"
+      "conv": "zh-cn:米海恩; zh-tw:密亨;"
     },
     {
       "original": "Overdrive",
-      "conv": "zh-cn:过载;zh-tw:增驅"
+      "conv": "zh-cn:过载; zh-tw:增驅;"
     },
     {
       "original": "Shelinda",
-      "conv": "zh-cn:谢琳达;zh-tw:薛琳達"
+      "conv": "zh-cn:谢琳达; zh-tw:薛琳達;"
     },
     {
       "original": "Yuna",
-      "conv": "zh-cn:尤娜;zh-tw:優娜"
+      "conv": "zh-cn:尤娜; zh-tw:優娜;"
     },
     {
       "original": "Alyssa",
-      "conv": "zh-cn:艾丽莎;zh-tw:亞莉莎"
+      "conv": "zh-cn:艾丽莎; zh-tw:亞莉莎;"
     },
     {
       "original": "Lightning",
-      "conv": "zh-cn:雷霆;zh-tw:雷光"
+      "conv": "zh-cn:雷霆; zh-tw:雷光;"
     },
     {
       "original": "Oerba",
-      "conv": "zh-cn:奥尔芭;zh-tw:約爾芭"
+      "conv": "zh-cn:奥尔芭; zh-tw:約爾芭;"
     },
     {
       "original": "Serah",
-      "conv": "zh-cn: 塞拉;zh-tw:莎拉"
+      "conv": "zh-cn: 塞拉; zh-tw:莎拉;"
     },
     {
       "original": "Snow",
-      "conv": "zh-cn:斯诺;zh-tw:冰雪"
+      "conv": "zh-cn:斯诺; zh-tw:冰雪;"
     },
     {
       "original": "Vanille",
-      "conv": "zh-cn:香草;zh-tw:班尼拉"
+      "conv": "zh-cn:香草; zh-tw:班尼拉;"
     },
     {
       "original": "Villiers",
-      "conv": "zh-cn:维利亚斯;zh-tw:維里耶"
+      "conv": "zh-cn:维利亚斯; zh-tw:維里耶;"
     },
     {
       "original": "Yun Fang",
-      "conv": "zh-cn:云·芳;zh-tw:瑜·牙"
+      "conv": "zh-cn:云·芳; zh-tw:瑜·牙;"
     },
     {
       "original": "Zaidelle",
-      "conv": "zh-cn:赛德;zh-tw:柴代爾"
+      "conv": "zh-cn:赛德; zh-tw:柴代爾;"
     },
     {
       "original": "A Realm Reborn",
-      "conv": "zh-cn:重生之境;zh-tw:新生艾奧傑亞"
+      "conv": "zh-cn:重生之境; zh-tw:新生艾奧傑亞;"
     },
     {
       "original": "Eorzean",
-      "conv": "zh-cn:艾欧泽亚;zh-tw:艾奧傑亞"
+      "conv": "zh-cn:艾欧泽亚; zh-tw:艾奧傑亞;"
     },
     {
       "original": "Souten No Ishgard",
-      "conv": "zh-cn:苍穹之禁城;zh-tw:蒼天的伊修加爾德"
+      "conv": "zh-cn:苍穹之禁城; zh-tw:蒼天的伊修加爾德;"
     },
     {
       "original": "Guren No Liberator",
-      "conv": "zh-cn:红莲之狂潮;zh-tw:紅蓮的解放者"
+      "conv": "zh-cn:红莲之狂潮; zh-tw:紅蓮的解放者;"
     },
     {
       "original": "Sikkoku No Viranzu",
-      "conv": "zh-cn:暗影之逆焰;zh-tw:漆黑的反叛者"
+      "conv": "zh-cn:暗影之逆焰; zh-tw:漆黑的反叛者;"
     },
     {
       "original": "Final Fantasy XV",
-      "conv": "zh-cn:最终幻想15;zh-hk:最終幻想XV;zh-tw:Final Fantasy XV"
+      "conv": "zh-cn:最终幻想15; zh-hk:最終幻想XV; zh-tw:Final Fantasy XV;"
     },
     {
       "original": "Lucis",
-      "conv": "zh-hant:路西斯;zh-hk:路希斯;zh-tw:路希斯;zh-cn:路希斯;zh-mo:路希斯"
+      "conv": "zh-hant:路西斯;zh-hk:路希斯;zh-tw:路希斯;zh-cn:路希斯;zh-mo:路希斯;"
     },
     {
       "original": "Caelum",
-      "conv": "zh-hant:伽拉姆;zh-hk:切拉姆;zh-tw:切拉姆;zh-cn:切拉姆;zh-mo:切拉姆"
+      "conv": "zh-hant:伽拉姆;zh-hk:切拉姆;zh-tw:切拉姆;zh-cn:切拉姆;zh-mo:切拉姆;"
     },
     {
       "original": "Scientia",
-      "conv": "zh-hant:斯昆提亞;zh-hk:斯昆提亞;zh-tw:斯昆提亞;zh-cn:斯堪提亚"
+      "conv": "zh-hant:斯昆提亞;zh-hk:斯昆提亞;zh-tw:斯昆提亞;zh-cn:斯堪提亚;"
     },
     {
       "original": "Prompto",
-      "conv": "zh-hant:普羅恩普特;zh-hk:普羅恩普特;zh-tw:普羅恩普特;zh-hans:普隆普特"
+      "conv": "zh-hant:普羅恩普特;zh-hk:普羅恩普特;zh-tw:普羅恩普特;zh-hans:普隆普特;"
     },
     {
       "original": "Argentum",
-      "conv": "zh-hant:阿根塔姆;zh-hk:阿根塔姆;zh-tw:阿根塔姆;zh-hans:亚金塔姆"
+      "conv": "zh-hant:阿根塔姆;zh-hk:阿根塔姆;zh-tw:阿根塔姆;zh-hans:亚金塔姆;"
     },
     {
       "original": "Gladiolus",
-      "conv": "zh-hant:格拉迪歐藍斯;zh-hk:格拉迪歐藍斯;zh-tw:格拉迪歐藍斯;zh-hans:古拉迪欧拉斯"
+      "conv": "zh-hant:格拉迪歐藍斯;zh-hk:格拉迪歐藍斯;zh-tw:格拉迪歐藍斯;zh-hans:古拉迪欧拉斯;"
     },
     {
       "original": "Amicitia",
-      "conv": "zh-hant:艾米提亞;zh-hk:艾米提亞;zh-tw:艾米提亞;zh-hans:阿米希提亚"
+      "conv": "zh-hant:艾米提亞;zh-hk:艾米提亞;zh-tw:艾米提亞;zh-hans:阿米希提亚;"
     },
     {
       "original": "Aldercapt",
-      "conv": "zh-hant:艾爾凱普特;zh-hk:艾爾凱普特;zh-tw:艾爾凱普特;zh-cn:奥德凯普特"
+      "conv": "zh-hant:艾爾凱普特; zh-hk:艾爾凱普特; zh-tw:艾爾凱普特; zh-cn:奥德凯普特;"
     },
     {
       "original": "Final Fantasy XVI",
-      "conv": "zh-cn:最终幻想16;zh-hk:最終幻想XVI;zh-tw:Final Fantasy XVI"
+      "conv": "zh-cn:最终幻想16; zh-hk:最終幻想XVI; zh-tw:Final Fantasy XVI;"
     },
     {
       "original": "Spirits Within, The",
-      "conv": "zh-cn:灵魂深处;zh-hk:滅絕光年;zh-tw:夢境實錄"
+      "conv": "zh-cn:灵魂深处; zh-hk:滅絕光年; zh-tw:夢境實錄;"
     },
     {
       "original": "Aki",
-      "conv": "zh-cn:阿琪;zh-hk:亞紀"
+      "conv": "zh-cn:阿琪; zh-hk:亞紀;"
     },
     {
       "original": "Gray",
-      "conv": "zh-cn:格雷;zh-hk:格萊"
+      "conv": "zh-cn:格雷; zh-hk:格萊;"
     },
     {
       "original": "Chocobo Racing",
-      "conv": "zh-cn:陆行鸟赛车;zh-tw:陸行鳥大賽車"
+      "conv": "zh-cn:陆行鸟赛车; zh-tw:陸行鳥大賽車;"
     },
     {
       "original": "Chocobo Racing",
-      "conv": "陆行鸟赛车 ～通往幻界之路～=> zh-tw:陸行鳥大賽車"
+      "conv": "陆行鸟赛车 ～通往幻界之路～=> zh-tw:陸行鳥大賽車;"
     },
     {
       "original": "Tonberry",
-      "conv": "zh-cn:冬贝利;zh-tw:提燈怪"
+      "conv": "zh-cn:冬贝利; zh-tw:提燈怪;"
     },
     {
       "original": "Final Fantasy: Unlimited",
-      "conv": "zh-cn:最终幻想：无限;zh-hk:太空戰士：疾風境界;zh-tw:終極幻想世界"
+      "conv": "zh-cn:最终幻想：无限; zh-hk:太空戰士：疾風境界; zh-tw:終極幻想世界;"
     },
     {
       "original": "Stranger of Paradise",
-      "conv": "zh-cn:天堂的陌生人;zh-tw:樂園的異鄉人"
+      "conv": "zh-cn:天堂的陌生人; zh-tw:樂園的異鄉人;"
     },
     {
       "original": "SaGa series",
-      "conv": "zh-cn:沙加系列;zh-tw:復活邪神系列"
-    },
-    {
-      "original": "SaGa series",
-      "conv": "zh-cn:《沙加》系列;zh-tw:《復活邪神》系列"
+      "conv": "zh-cn:《沙加》系列; zh-tw:《復活邪神》系列;"
     },
     {
       "original": "Emperors SaGa",
-      "conv": "zh-cn:Emperors SaGa;zh-tw:復活邪神：帝王傳說"
-    },
-    {
-      "original": "Hihou",
-      "conv": "zh-hans:秘宝;zh-hant:祕寶"
+      "conv": "zh-cn:Emperors SaGa; zh-tw:復活邪神：帝王傳說;"
     },
     {
       "original": "Imperial SaGa Eclipse",
-      "conv": "zh-cn:帝国沙加 Eclipse;zh-tw:帝國SaGa 日蝕"
+      "conv": "zh-cn:帝国沙加 Eclipse; zh-tw:帝國SaGa 日蝕;"
     },
     {
       "original": "Jikuu no Hasya Sa·Ga 3",
-      "conv": "zh-cn:时空之霸者 沙加3 ;zh-tw:時空之霸者 Sa·Ga3"
+      "conv": "zh-cn:时空之霸者 沙加3 ; zh-tw:時空之霸者 Sa·Ga3;"
     },
     {
       "original": "Makai Toushi Sa·Ga",
-      "conv": "zh-cn:魔界塔士 沙加;zh-tw:魔界塔士 Sa·Ga"
+      "conv": "zh-cn:魔界塔士 沙加; zh-tw:魔界塔士 Sa·Ga;"
     },
     {
       "original": "Romancing Sa·Ga",
-      "conv": "zh-cn:浪漫沙加;zh-tw:復活邪神"
+      "conv": "zh-cn:浪漫沙加; zh-tw:復活邪神;"
     },
     {
       "original": "SaGa",
-      "conv": "zh-cn:沙加;zh-tw:SaGa"
+      "conv": "zh-cn:沙加; zh-tw:SaGa;"
     },
     {
       "original": "Sa·Ga Collection",
-      "conv": "zh-cn:沙加合集;zh-tw:Sa·Ga精選輯"
+      "conv": "zh-cn:沙加合集; zh-tw:Sa·Ga精選輯;"
     },
     {
       "original": "Sa·Ga 2 Hihou Densetsu",
-      "conv": "zh-cn:沙加2 秘宝传说;zh-tw:Sa·Ga2 祕寶傳說"
-    },
-    {
-      "original": "SaGa 2 Hihou Densetsu",
-      "conv": "zh-cn:沙加2秘宝传说;zh-tw:SaGa2祕寶傳說"
+      "conv": "zh-cn:沙加2 秘宝传说; zh-tw:Sa·Ga2 祕寶傳說;"
     },
     {
       "original": "SaGa Frontier",
-      "conv": "zh-cn:沙加开拓者;zh-tw:復活邪神：邪神領域"
+      "conv": "zh-cn:沙加开拓者; zh-tw:SaGa 未拓領域;"
     },
     {
       "original": "SaGa Scarlet Grace",
-      "conv": "zh-cn:沙加 绯色恩宠;zh-tw:SaGa 緋紅恩典"
+      "conv": "zh-cn:沙加 绯色恩宠; zh-tw:SaGa 緋紅恩典;"
     },
     {
       "original": "Scarlet Grace",
-      "conv": "zh-cn:绯色恩宠;zh-tw:緋紅恩典"
+      "conv": "zh-cn:绯色恩宠; zh-tw:緋紅恩典;"
     },
     {
       "original": "Unlimited: Saga",
-      "conv": "zh-cn:无尽沙加;zh-tw:復活邪神：無限傳說"
+      "conv": "zh-cn:无尽沙加; zh-tw:復活邪神：無限傳說;"
     },
     {
       "original": "Unlimited: Saga",
-      "conv": "无限：沙加=>zh-tw:復活邪神：無限傳說;无限：沙加=>zh-hk:復活邪神：無限傳說;无限：沙加=>zh-mo:復活邪神：無限傳說"
+      "conv": "无限：沙加=>zh-tw:復活邪神：無限傳說; 无限：沙加=>zh-hk:復活邪神：無限傳說; 无限：沙加=>zh-mo:復活邪神：無限傳說;"
     },
     {
       "original": "Unlimited: Saga",
-      "conv": "无限沙加=>zh-tw:復活邪神：無限傳說;无限沙加=>zh-hk:復活邪神：無限傳說;无限沙加=>zh-mo:復活邪神：無限傳說"
+      "conv": "无限沙加=>zh-tw:復活邪神：無限傳說; 无限沙加=>zh-hk:復活邪神：無限傳說; 无限沙加=>zh-mo:復活邪神：無限傳說;"
     },
     {
       "original": "Star Ocean",
-      "conv": "zh-cn:星之海洋;zh-tw:星海遊俠"
+      "conv": "zh-cn:星之海洋; zh-tw:星海遊俠;"
     },
     {
       "original": "First Departure",
-      "conv": "zh-cn:初次启程;zh-tw:初次啟航"
+      "conv": "zh-cn:初次启程; zh-tw:初次啟航;"
     },
     {
       "original": "Replicant",
-      "conv": "zh-cn:复制体;zh-tw:人工生命"
+      "conv": "zh-cn:复制体; zh-tw:人工生命;"
     },
     {
       "original": "Gestalt",
-      "conv": "zh-cn:格式塔;zh-tw:型態"
+      "conv": "zh-cn:格式塔; zh-tw:型態;"
     },
     {
       "original": "Grimoire Weiss",
-      "conv": "zh-cn:白之书;zh-tw:白書"
+      "conv": "zh-cn:白之书; zh-tw:白書;"
     },
     {
       "original": "Grimoire Noir",
-      "conv": "zh-cn:黑之书;zh-tw:黑書"
+      "conv": "zh-cn:黑之书; zh-tw:黑書;"
     },
     {
       "original": "Grimoire Rubrum",
-      "conv": "zh-cn:深红之书;zh-tw:深紅書"
+      "conv": "zh-cn:深红之书; zh-tw:深紅書;"
     },
     {
       "original": "Kainé",
-      "conv": "zh-cn:凯妮;zh-tw:凱寧"
+      "conv": "zh-cn:凯妮; zh-tw:凱寧;"
     },
     {
       "original": "Devola",
-      "conv": "zh-cn:迪瓦拉;zh-tw:迪瓦菈"
+      "conv": "zh-cn:迪瓦拉; zh-tw:迪瓦菈;"
     },
     {
       "original": "Popola",
-      "conv": "zh-cn:波波拉;zh-tw:波波菈"
+      "conv": "zh-cn:波波拉; zh-tw:波波菈;"
     },
     {
       "original": "Bahamut Lagoon",
-      "conv": "zh-cn:圣龙传说;zh-tw:神龍奇兵"
+      "conv": "zh-cn:圣龙传说; zh-tw:神龍奇兵;"
     },
     {
       "original": "Blue Wing Blitz",
-      "conv": "zh-cn:蓝天之翼;zh-tw:藍翼雷霆"
+      "conv": "zh-cn:蓝天之翼; zh-tw:藍翼雷霆;"
     },
     {
       "original": "Dewprism",
-      "conv": "zh-cn:晶莹之露;zh-tw:秘寶傳說"
+      "conv": "zh-cn:晶莹之露; zh-tw:秘寶傳說;"
     },
     {
       "original": "Front Mission",
-      "conv": "zh-cn:前线任务;zh-tw:雷霆任務"
+      "conv": "zh-cn:前线任务; zh-tw:雷霆任務;"
     },
     {
       "original": "Live A Live",
-      "conv": "zh-cn:时空勇士;zh-tw:狂飆騎士"
+      "conv": "zh-cn:时空勇士; zh-tw:狂飆騎士;"
     },
     {
       "original": "Treasure Hunter G",
-      "conv": "zh-cn:追宝猎人;zh-tw:追寶威龍"
+      "conv": "zh-cn:追宝猎人; zh-tw:追寶威龍;"
     },
     {
       "original": "Vagrant Story",
-      "conv": "zh-cn:放浪冒险谭;zh-hk:放浪冒險譚;zh-tw:流浪者之歌"
+      "conv": "zh-cn:放浪冒险谭; zh-hk:放浪冒險譚; zh-tw:流浪者之歌;"
     },
     {
       "original": "Xenogears",
-      "conv": "zh-cn:异度装甲;zh-tw:異域神兵"
+      "conv": "zh-cn:异度装甲; zh-tw:異域神兵;"
     },
     {
       "original": "Itadaki Street",
-      "conv": "zh-cn:富豪街;zh-tw:人生街道"
+      "conv": "zh-cn:富豪街; zh-tw:人生街道;"
     },
     {
       "original": "Valkyrie Profile",
-      "conv": "zh-cn:北欧女神;zh-hk:女神側身像;zh-tw:女神戰記"
+      "conv": "zh-cn:北欧女神; zh-hk:女神側身像; zh-tw:女神戰記;"
     },
     {
       "original": "Chain of Memories",
-      "conv": "zh-hans:记忆之链;zh-hant:記憶之鍊"
+      "conv": "zh-hans:记忆之链; zh-hant:記憶之鍊;"
     },
     {
       "original": "Concerto Gate",
-      "conv": "zh-cn:魔力宝贝II;zh-tw:魔力寶貝2"
+      "conv": "zh-cn:魔力宝贝II; zh-tw:魔力寶貝2;"
     },
     {
       "original": "Deus Ex",
-      "conv": "zh-cn:杀出重围;zh-tw:駭客入侵"
+      "conv": "zh-cn:杀出重围; zh-tw:駭客入侵;"
     },
     {
       "original": "Last Remnant, The",
-      "conv": "zh-cn:最后的神迹;zh-tw:最後的遺跡"
+      "conv": "zh-cn:最后的神迹; zh-tw:最後的遺跡;"
     },
     {
       "original": "Mario Hoops 3-on-3",
-      "conv": "zh-cn:马力欧篮球 3对3;zh-tw:瑪利歐籃球 3對3鬥牛賽"
+      "conv": "zh-cn:马力欧篮球 3对3; zh-tw:瑪利歐籃球 3對3鬥牛賽;"
     },
     {
       "original": "Mario Sports Mix",
-      "conv": "zh-cn:马力欧大运动会;zh-tw:瑪利歐綜合運動"
+      "conv": "zh-cn:马力欧大运动会; zh-tw:瑪利歐綜合運動;"
     },
     {
       "original": "World Ends with You, The",
-      "conv": "zh-cn:美妙世界;zh-tw:這個美妙的世界"
-    },
-    {
-      "original": "Square Electronic Arts",
-      "conv": "zh-hans:史克威尔艺电;zh-hant:史克威爾藝電"
+      "conv": "zh-cn:美妙世界; zh-tw:這個美妙的世界;"
     }
   ]
 }

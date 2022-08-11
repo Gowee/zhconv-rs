@@ -5,67 +5,71 @@
   "rules": [
     {
       "original": "ボルフォッグ",
-      "conv": "zh-hans:布鲁科;zh-hk:保羅霍特;zh-tw:博爾霍克"
+      "conv": "zh-hans:布鲁科;zh-hk:保羅霍特;zh-tw:博爾霍克;"
     },
     {
       "original": "ビッグボルフォッグ",
-      "conv": "zh-hans:大布鲁科;zh-hk:超級保羅霍特;zh-tw:大博爾霍克"
+      "conv": "zh-hans:大布鲁科;zh-hk:超級保羅霍特;zh-tw:大博爾霍克;"
     },
     {
       "original": "ヘル・アンド・ヘブン",
-      "conv": "zh-hans:地獄與天堂;zh-hk:風起雲動拳;zh-tw:地獄與天堂"
+      "conv": "zh-hans:地獄與天堂;zh-hk:風起雲動拳;zh-tw:地獄與天堂;"
     },
     {
       "original": "ルネ・カーディフ・獅子王",
-      "conv": "zh-hk:露娜·加迪夫·獅子王;zh-tw:露尼·卡迪芙·獅子王"
+      "conv": "zh-hk:露娜·加迪夫·獅子王;zh-tw:露尼·卡迪芙·獅子王;"
     },
     {
       "original": "ルネ",
-      "conv": "zh-hk:露娜;zh-tw:露尼"
+      "conv": "zh-hk:露娜;zh-tw:露尼;"
     },
     {
       "original": "ギャレオン，Galeon",
-      "conv": "zh-hans:伽利欧;zh-hk:加里昂;zh-tw:克雷恩"
+      "conv": "zh-hans:伽利欧;zh-hk:加里昂;zh-tw:克雷恩;"
     },
     {
       "original": "ガイガー，GaiGar",
-      "conv": "zh-hans:GaiGar;zh-hk:GaiGar;zh-tw:我王凱牙"
+      "conv": "zh-hans:GaiGar;zh-hk:GaiGar;zh-tw:凱牙;"
     },
     {
       "original": "ガオガイガー，GaoGaiGar",
-      "conv": "zh-hans:GaoGaiGar;zh-hk:GaoGaiGar;zh-tw:我王凱牙"
+      "conv": "zh-hans:GaoGaiGar;zh-hk:GaoGaiGar;zh-tw:我王凱牙;"
     },
     {
       "original": "スターガオガイガー，Star GaoGaiGar",
-      "conv": "zh-hans:Star GaoGaiGar;zh-hk:Star GaoGaiGar;zh-tw:星際我王凱牙"
+      "conv": "zh-hans:Star GaoGaiGar;zh-hk:Star GaoGaiGar;zh-tw:星際我王凱牙;"
     },
     {
       "original": "ガオファイガー，GaoFighGar",
-      "conv": "zh-hans:GaoFighGar;zh-hk:GaoFighGar;zh-tw:我王戰牙"
+      "conv": "zh-hans:GaoFighGar;zh-hk:GaoFighGar;zh-tw:我王戰牙;"
     },
     {
       "original": "キングジェイダー",
-      "conv": "zh-hk:王者J;zh-tw:王者傑達"
+      "conv": "zh-hk:王者J;zh-tw:王者傑達;"
     },
     {
       "original": "プリマーダ，Primarda",
-      "conv": "zh-hk:碧莉瑪他;zh-tw:普莉瑪達"
+      "conv": "zh-hk:碧莉瑪他;zh-tw:普莉瑪達;"
     },
     {
       "original": "Dividing Driver",
-      "conv": "zh-hk:Dividing Driver;zh-tw:分割起子"
+      "conv": "zh-hk:Dividing Driver;zh-tw:分割起子;"
     },
     {
       "original": "Final Fusion",
-      "conv": "zh-hk:Final Fusion;zh-tw:終極融合"
+      "conv": "zh-hk:Final Fusion;zh-tw:終極融合;"
     },
     {
       "original": "ソルダート",
-      "conv": "zh-hk:Zonder;zh-tw:異械"
+      "conv": "zh-hk:Zonder;zh-tw:異械;"
     },
     {
       "original": "ブロウクンマグナム",
-      "conv": "zh-hk:飛轉噴射拳;zh-tw:飛拳破壞爆裂"
+      "conv": "zh-hk:飛轉噴射拳;zh-tw:飛拳破壞爆裂;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:火鳥聖箭;zh-tw:J-Qarth;"
     }
   ]
 }

@@ -5,747 +5,739 @@
   "rules": [
     {
       "original": "Influence Points",
-      "conv": "zh-cn:游戏金币;zh-tw:權力點;zh-sg:权利点"
+      "conv": "zh-cn:游戏金币; zh-tw:權力點; zh-sg:权利点;"
     },
     {
       "original": "Riot Points",
-      "conv": "zh-cn:点券;zh-tw:聯盟幣;zh-sg:联盟币"
+      "conv": "zh-cn:点券; zh-tw:聯盟幣; zh-sg:联盟币;"
     },
     {
       "original": "",
-      "conv": "zh-cn:匹配;zh-tw:配對"
+      "conv": "zh-cn:匹配; zh-tw:配對;"
     },
     {
       "original": "",
-      "conv": "zh-cn:符印;zh-tw:紋章"
+      "conv": "zh-cn:符印; zh-tw:紋章;"
     },
     {
       "original": "",
-      "conv": "zh-cn:精华;zh-tw:精髓"
+      "conv": "zh-cn:精华; zh-tw:精髓;"
     },
     {
       "original": "Fighter",
-      "conv": "鬥士=>zh-cn:战士;斗士=>zh-cn:战士"
+      "conv": "鬥士=>zh-cn:战士; 斗士=>zh-cn:战士;"
     },
     {
       "original": "",
-      "conv": "zh-tw:審判系統;zh-cn:裁决之镰"
+      "conv": "zh-tw:審判系統;zh-cn:裁决之镰;"
     },
     {
       "original": "",
-      "conv": "zh-cn:战区系统;zh-tw:聯盟系統"
+      "conv": "zh-cn:战区系统;zh-tw:聯盟系統;"
     },
     {
       "original": "",
-      "conv": "zh-cn:段位;zh-tw:階級"
+      "conv": "zh-cn:段位;zh-tw:階級;"
     },
     {
       "original": "Bronze",
-      "conv": "英勇黄铜=>zh-tw:銅牌;英勇黄铜=>zh-hk:銅牌;英勇黄铜=>zh-mo:銅牌;英勇黄铜=>zh-sg:铜牌"
+      "conv": "英勇黄铜=>zh-tw:銅牌; 英勇黄铜=>zh-hk:銅牌; 英勇黄铜=>zh-mo:銅牌; 英勇黄铜=>zh-sg:铜牌;"
     },
     {
       "original": "Silver",
-      "conv": "不屈白银=>zh-tw:銀牌;不屈白银=>zh-hk:銀牌;不屈白银=>zh-mo:銀牌;不屈白银=>zh-sg:银牌"
+      "conv": "不屈白银=>zh-tw:銀牌; 不屈白银=>zh-hk:銀牌; 不屈白银=>zh-mo:銀牌; 不屈白银=>zh-sg:银牌;"
     },
     {
       "original": "Gold",
-      "conv": "荣耀黄金=>zh-tw:金牌;荣耀黄金=>zh-hk:金牌;荣耀黄金=>zh-mo:金牌;荣耀黄金=>zh-sg:金牌"
+      "conv": "荣耀黄金=>zh-tw:金牌; 荣耀黄金=>zh-hk:金牌; 荣耀黄金=>zh-mo:金牌; 荣耀黄金=>zh-sg:金牌;"
     },
     {
       "original": "Platinum",
-      "conv": "华贵铂金=>zh-tw:白金;华贵铂金=>zh-hk:白金;华贵铂金=>zh-mo:白金;华贵铂金=>zh-sg:白金"
+      "conv": "华贵铂金=>zh-tw:白金; 华贵铂金=>zh-hk:白金; 华贵铂金=>zh-mo:白金; 华贵铂金=>zh-sg:白金;"
     },
     {
       "original": "Diamond",
-      "conv": "璀璨钻石=>zh-tw:鑽石;璀璨钻石=>zh-hk:鑽石;璀璨钻石=>zh-mo:鑽石;璀璨钻石=>zh-sg:钻石"
+      "conv": "璀璨钻石=>zh-tw:鑽石; 璀璨钻石=>zh-hk:鑽石; 璀璨钻石=>zh-mo:鑽石; 璀璨钻石=>zh-sg:钻石;"
     },
     {
       "original": "Master",
-      "conv": "超凡大师=>zh-tw:大師;超凡大师=>zh-hk:大師;超凡大师=>zh-mo:大師;超凡大师=>zh-sg:大师"
+      "conv": "超凡大师=>zh-tw:大師; 超凡大师=>zh-hk:大師; 超凡大师=>zh-mo:大師; 超凡大师=>zh-sg:大师;"
     },
     {
       "original": "",
-      "conv": "zh-cn:最强王者;zh-tw:菁英;zh-sg:菁英"
+      "conv": "zh-cn:最强王者;zh-tw:菁英;zh-sg:菁英;"
     },
     {
       "original": "",
-      "conv": "zh-cn:召唤师峡谷;zh-tw:召喚峽谷;zh-sg:召唤峡谷"
+      "conv": "zh-cn:召唤师峡谷; zh-tw:召喚峽谷; zh-sg:召唤峡谷"
     },
     {
       "original": "Proving Grounds",
-      "conv": "zh-cn:试炼之地;zh-tw:試驗場"
+      "conv": "zh-cn:试炼之地; zh-tw:試驗場;"
     },
     {
       "original": "",
-      "conv": "zh-cn:嚎哭深渊;zh-tw:咆嘯深淵;zh-sg:咆哮深渊"
+      "conv": "zh-cn:嚎哭深渊; zh-tw:咆嘯深淵; zh-sg:咆哮深渊"
     },
     {
-      "original": "Butcher\\'s Bridge",
-      "conv": "zh-cn:屠夫之桥;zh-tw:屠戮大橋;zh-sg:屠戮大桥;zh-my:屠戮大桥"
+      "original": "Butcher's Bridge",
+      "conv": "zh-cn:屠夫之桥; zh-tw:屠戮大橋; zh-sg:屠戮大桥; zh-my:屠戮大桥;"
     },
     {
       "original": "",
-      "conv": "zh-cn:瓦洛兰城市公园;zh-tw:瓦羅然城市公園"
+      "conv": "zh-cn:瓦洛兰城市公园; zh-tw:瓦羅然城市公園;"
     },
     {
       "original": "Crash Site",
-      "conv": "zh-cn:失事站点;zh-tw:失事點;zh-sg:失事点;zh-my:失事点"
+      "conv": "zh-cn:失事站点; zh-tw:失事點; zh-sg:失事点; zh-my:失事点;"
     },
     {
       "original": "",
-      "conv": "zh-cn:排位赛;zh-tw:積分對戰"
+      "conv": "zh-cn:排位赛; zh-tw:積分對戰;"
     },
     {
       "original": "",
-      "conv": "zh-cn:预选位模式;zh-tw:競技模式"
+      "conv": "zh-cn:预选位模式; zh-tw:競技模式;"
     },
     {
       "original": "",
-      "conv": "zh-cn:灵活组排;zh-tw:彈性積分;zh-sg:弹性积分"
+      "conv": "zh-cn:灵活组排; zh-tw:彈性積分; zh-sg:弹性积分;"
     },
     {
       "original": "",
-      "conv": "zh-cn:自定义游戏;zh-tw:自訂對戰"
+      "conv": "zh-cn:自定义游戏; zh-tw:自訂對戰;"
     },
     {
       "original": "",
-      "conv": "zh-cn:新手教程;zh-tw:教學模式;zh-sg:教学模式"
+      "conv": "zh-cn:新手教程; zh-tw:教學模式; zh-sg:教学模式;"
     },
     {
       "original": "",
-      "conv": "zh-cn:极地大乱斗;zh-tw:ARAM"
+      "conv": "zh-cn:极地大乱斗; zh-tw:ARAM;"
     },
     {
       "original": "Dominion",
-      "conv": "zh-cn:统治战场;zh-tw:據點攻略戰"
+      "conv": "zh-cn:统治战场; zh-tw:據點攻略戰;"
     },
     {
       "original": "Teamfight Tactics",
-      "conv": "zh-cn:云顶之弈;zh-tw:聯盟戰棋;zh-sg:联盟战棋;zh-my:联盟战棋"
+      "conv": "zh-cn:云顶之弈; zh-tw:聯盟戰棋; zh-sg:联盟战棋; zh-my:联盟战棋;"
     },
     {
       "original": "",
-      "conv": "zh-cn:大对决;zh-tw:決勝慶典"
+      "conv": "zh-cn:大对决; zh-tw:決勝慶典;"
     },
     {
       "original": "One For All",
-      "conv": "zh-cn:克隆大作战;zh-tw:無限死鬥;zh-sg:无限死斗;zh-my:无限死斗"
+      "conv": "zh-cn:克隆大作战; zh-tw:無限死鬥; zh-sg:无限死斗; zh-my:无限死斗;"
     },
     {
       "original": "Ultra Rapid Fire",
-      "conv": "zh-cn:无限火力;zh-tw:阿福快打;zh-sg:阿福快打;zh-my:阿福快打"
+      "conv": "zh-cn:无限火力; zh-tw:阿福快打; zh-sg:阿福快打; zh-my:阿福快打;"
     },
     {
       "original": "ARURF",
-      "conv": "zh-cn:无限乱斗;zh-tw:隨機阿福快打;zh-sg:随机阿福快打;zh-my:随机阿福快打"
+      "conv": "zh-cn:无限乱斗; zh-tw:隨機阿福快打; zh-sg:随机阿福快打; zh-my:随机阿福快打;"
     },
     {
       "original": "Snow Battle ARURF",
-      "conv": "zh-cn:冰雪无限火力;zh-tw:阿福快打：雪球大戰;zh-sg:阿福快打：雪球大战"
+      "conv": "zh-cn:冰雪无限火力; zh-tw:阿福快打：雪球大戰; zh-sg:阿福快打：雪球大战;"
     },
     {
       "original": "",
-      "conv": "zh-cn:飞升模式;zh-tw:霸權爭奪"
+      "conv": "zh-cn:飞升模式; zh-tw:霸權爭奪;"
     },
     {
       "original": "Legend of the Poro King",
-      "conv": "zh-cn:魄罗大乱斗;zh-tw:普羅王傳說;zh-sg:普罗王传说;zh-my:普罗王传说"
+      "conv": "zh-cn:魄罗大乱斗; zh-tw:普羅王傳說; zh-sg:普罗王传说; zh-my:普罗王传说;"
     },
     {
       "original": "Black Market Brawlers",
-      "conv": "zh-cn:佣兵大作战;zh-tw:黑街打手"
+      "conv": "zh-cn:佣兵大作战; zh-tw:黑街打手;"
     },
     {
       "original": "Nemesis Draft",
-      "conv": "zh-cn:互选征召;zh-tw:逆轉對決"
+      "conv": "zh-cn:互选征召; zh-tw:逆轉對決;"
     },
     {
       "original": "Definitely Not Dominion",
-      "conv": "zh-cn:这货不是统治战场;zh-tw:我不是水晶之痕"
+      "conv": "zh-cn:这货不是统治战场; zh-tw:我不是水晶之痕;"
     },
     {
       "original": "",
-      "conv": "zh-cn:枢纽攻防战;zh-tw:聯邦圍城"
+      "conv": "zh-cn:枢纽攻防战; zh-tw:聯邦圍城;"
     },
     {
       "original": "Invasion",
-      "conv": "zh-cn:怪兽入侵;zh-tw:幽怪入侵;zh-sg:幽怪入侵"
+      "conv": "zh-cn:怪兽入侵; zh-tw:幽怪入侵; zh-sg:幽怪入侵;"
     },
     {
       "original": "Nexus Blitz",
-      "conv": "zh-cn:极限闪击;zh-tw:閃電急擊;zh-sg:闪电急击;zh-my:闪电急击"
+      "conv": "zh-cn:极限闪击; zh-tw:閃電急擊; zh-sg:闪电急击; zh-my:闪电急击;"
     },
     {
       "original": "Ultimate Spellbook",
-      "conv": "zh-cn:终极魔典;zh-tw:終極法書;zh-sg:终极法书;zh-my:终极法书"
+      "conv": "zh-cn:终极魔典; zh-tw:終極法書; zh-sg:终极法书; zh-my:终极法书;"
     },
     {
       "original": "Nexus",
-      "conv": "zh-cn:水晶枢纽;zh-tw:主堡"
+      "conv": "zh-cn:水晶枢纽; zh-tw:主堡;"
     },
     {
       "original": "Inhibitor",
-      "conv": "zh-cn:召唤水晶;zh-tw:水晶兵營"
+      "conv": "zh-cn:召唤水晶; zh-tw:水晶兵營;"
     },
     {
       "original": "",
-      "conv": "zh-cn:泉水;zh-tw:溫泉"
+      "conv": "zh-cn:泉水; zh-tw:溫泉;"
     },
     {
       "original": "Baron Nashor",
-      "conv": "zh-cn:纳什男爵;zh-tw:巴龍;zh-sg:巴龙·纳什"
+      "conv": "zh-cn:纳什男爵; zh-tw:巴龍; zh-sg:巴龙·纳什;"
     },
     {
       "original": "The Rift Herald",
-      "conv": "zh-cn:峡谷先锋;zh-tw:預示者;zh-sg:峡谷预示者"
+      "conv": "zh-cn:峡谷先锋; zh-tw:預示者; zh-sg:峡谷预示者;"
     },
     {
       "original": "Runeterra",
-      "conv": "zh-cn:符文之地;zh-tw:符文大地;zh-sg:符文大地;zh-my:符文大地"
+      "conv": "zh-cn:符文之地; zh-tw:符文大地; zh-sg:符文大地; zh-my:符文大地;"
     },
     {
       "original": "Valoran",
-      "conv": "zh-cn:瓦洛兰;zh-tw:瓦羅然"
+      "conv": "zh-cn:瓦洛兰; zh-tw:瓦羅然;"
     },
     {
       "original": "Ionia",
-      "conv": "zh-cn:艾欧尼亚;zh-tw:愛歐尼亞"
+      "conv": "zh-cn:艾欧尼亚; zh-tw:愛歐尼亞; zh-sg:爱欧尼亚; zh-my:爱欧尼亚;"
     },
     {
       "original": "Shurima",
-      "conv": "zh-cn:恕瑞玛;zh-tw:蘇瑞瑪"
+      "conv": "zh-cn:恕瑞玛; zh-tw:蘇瑞瑪; zh-sg:苏瑞玛; zh-my:苏瑞玛;"
     },
     {
       "original": "Mount Targon",
-      "conv": "zh-cn:巨神峰;zh-tw:巨石峰"
+      "conv": "zh-cn:巨神峰; zh-tw:巨石峰; zh-sg:巨石峰; zh-my:巨石峰;"
     },
     {
       "original": "Demacia",
-      "conv": "zh-cn:德玛西亚;zh-tw:蒂瑪西亞"
+      "conv": "zh-cn:德玛西亚; zh-tw:蒂瑪西亞; zh-sg:蒂玛西亚; zh-my:蒂玛西亚;"
     },
     {
       "original": "Piltover",
-      "conv": "zh-cn:皮尔特沃夫;zh-tw:皮爾托福;zh-sg:皮尔托福;zh-my:皮尔托福"
+      "conv": "zh-cn:皮尔特沃夫; zh-tw:皮爾托福; zh-sg:皮尔托福; zh-my:皮尔托福;"
     },
     {
       "original": "Shadow Isles",
-      "conv": "zh-cn:暗影岛;zh-tw:闇影島"
+      "conv": "zh-cn:暗影岛; zh-tw:闇影島;"
     },
     {
       "original": "Zaun",
-      "conv": "zh-cn:祖安;zh-tw:佐恩"
+      "conv": "zh-cn:祖安; zh-tw:佐恩; zh-sg:佐恩; zh-my:佐恩;"
     },
     {
       "original": "Icathia",
-      "conv": "zh-cn:艾卡西亚;zh-tw:伊卡西亞"
+      "conv": "zh-cn:艾卡西亚; zh-tw:伊卡西亞;"
     },
     {
       "original": "Void",
-      "conv": "虚空之地=>zh-tw:虛空;虚空之地=>zh-hk:虛空;虚空之地=>zh-mo:虛空"
+      "conv": "虚空之地=>zh-tw:虛空; 虚空之地=>zh-hk:虛空; 虚空之地=>zh-mo:虛空;"
     },
     {
       "original": "Ixtal",
-      "conv": "zh-cn:以绪塔尔;zh-tw:伊克斯塔爾"
+      "conv": "zh-cn:以绪塔尔; zh-tw:伊克斯塔爾;"
     },
     {
       "original": "The Deceiver",
-      "conv": "zh-cn:诡术妖姬;zh-tw:詐欺師;zh-sg:诈欺师"
+      "conv": "zh-cn:诡术妖姬; zh-tw:詐欺師; zh-sg:诈欺师;"
     },
     {
       "original": "Maven of the Strings",
-      "conv": "zh-cn:琴瑟仙女;zh-tw:琴仙;zh-sg:琴仙"
+      "conv": "zh-cn:琴瑟仙女; zh-tw:琴仙; zh-sg:琴仙;"
     },
     {
       "original": "The Shield of Valoran",
-      "conv": "zh-cn:瓦洛兰之盾;zh-tw:瓦羅然之盾;zh-sg:瓦罗然之盾"
+      "conv": "zh-cn:瓦洛兰之盾; zh-tw:瓦羅然之盾; zh-sg:瓦罗然之盾;"
     },
     {
       "original": "",
-      "conv": "zh-cn:虚空掠夺者;zh-tw:虛空掠食者;zh-sg:虚空掠食者"
+      "conv": "zh-cn:虚空掠夺者; zh-tw:虛空掠食者; zh-sg:虚空掠食者;"
     },
     {
       "original": "The Lady of Luminosity",
-      "conv": "zh-cn:光辉女郎;zh-tw:光之少女;zh-sg:光之少女"
+      "conv": "zh-cn:光辉女郎; zh-tw:光之少女; zh-sg:光之少女;"
     },
     {
       "original": "",
-      "conv": "zh-cn:盲僧;zh-tw:盲眼武僧;zh-sg:盲眼武僧"
+      "conv": "zh-cn:盲僧; zh-tw:盲眼武僧; zh-sg:盲眼武僧"
     },
     {
       "original": "",
-      "conv": "zh-cn:圣枪游侠;zh-tw:驅魔聖槍"
+      "conv": "zh-cn:圣枪游侠; zh-tw:驅魔聖槍;"
     },
     {
       "original": "",
-      "conv": "zh-cn:风暴之怒;zh-tw:風暴女神;zh-sg:风暴女神"
+      "conv": "zh-cn:风暴之怒; zh-tw:風暴女神; zh-sg:风暴女神;"
     },
     {
       "original": "",
-      "conv": "zh-cn:麦林炮手;zh-tw:約德爾炮手"
+      "conv": "zh-cn:麦林炮手; zh-tw:約德爾炮手; "
     },
     {
       "original": "",
-      "conv": "zh-cn:魂锁典狱长;zh-tw:鍊魂獄長;zh-sg:炼魂狱长"
+      "conv": "zh-cn:魂锁典狱长; zh-tw:鍊魂獄長; zh-sg:炼魂狱长;"
     },
     {
       "original": "",
-      "conv": "zh-cn:扭曲树精;zh-tw:扭曲樹人"
+      "conv": "zh-cn:扭曲树精; zh-tw:扭曲樹人; "
     },
     {
       "original": "",
-      "conv": "zh-cn:狂野女猎手;zh-tw:狂野獵手"
+      "conv": "zh-cn:狂野女猎手; zh-tw:狂野獵手; "
     },
     {
       "original": "",
-      "conv": "zh-cn:影流之主;zh-tw:影忍至尊"
+      "conv": "zh-cn:影流之主; zh-tw:影忍至尊; "
     },
     {
       "original": "",
-      "conv": "zh-cn:傲之追猎者;zh-tw:傲慢伏擊者;zh-sg:傲慢伏击者"
+      "conv": "zh-cn:傲之追猎者; zh-tw:傲慢伏擊者; zh-sg:傲慢伏击者;"
     },
     {
       "original": "",
-      "conv": "zh-cn:机械公敌;zh-tw:武裝機兵"
+      "conv": "zh-cn:机械公敌; zh-tw:武裝機兵; "
     },
     {
       "original": "The Colossus",
-      "conv": "zh-cn:正义巨像;zh-tw:禦國巨像;zh-sg:御国巨像"
+      "conv": "zh-cn:正义巨像; zh-tw:禦國巨像; zh-sg:御国巨像;"
     },
     {
       "original": "Fury of the North",
-      "conv": "zh-cn:北地之怒;zh-tw:北境之怒;zh-sg:北境之怒"
+      "conv": "zh-cn:北地之怒; zh-tw:北境之怒; zh-sg:北境之怒;"
     },
     {
       "original": "The Dreadnought",
-      "conv": "zh-cn:无畏战车;zh-tw:重裝無畏;zh-sg:重装无畏"
+      "conv": "zh-cn:无畏战车; zh-tw:重裝無畏; zh-sg:重装无畏;"
     },
     {
-      "original": "Agony\\'s Embrace",
-      "conv": "zh-cn:痛苦之拥;zh-tw:臨終擁抱;zh-sg:临终拥抱"
+      "original": "Agony's Embrace",
+      "conv": "zh-cn:痛苦之拥; zh-tw:臨終擁抱; zh-sg:临终拥抱;"
     },
     {
       "original": "The Noxian Grand General",
-      "conv": "zh-cn:诺克萨斯统领;zh-tw:諾克薩斯總帥;zh-sg:诺克萨斯总帅"
+      "conv": "zh-cn:诺克萨斯统领; zh-tw:諾克薩斯總帥; zh-sg:诺克萨斯总帅;"
+    },
+    {
+      "original": "The Blade Dancer",
+      "conv": "zh-cn:刀锋舞者; zh-tw:舞劍靈使; zh-sg:舞剑灵使; zh-my:舞剑灵使;"
     },
     {
       "original": "The Steel Shadow",
-      "conv": "zh-cn:青钢影;zh-tw:鋼鐵殘影"
+      "conv": "zh-cn:青钢影; zh-tw:鋼鐵殘影;"
     },
     {
       "original": "The Charmer",
-      "conv": "zh-cn:幻翎;zh-tw:惑羽;zh-sg:惑羽"
+      "conv": "zh-cn:幻翎; zh-tw:惑羽; zh-sg:惑羽;"
     },
     {
       "original": "The Shadow Reaper",
-      "conv": "zh-cn:影流之镰;zh-tw:闇魂收割者;zh-sg:暗魂收割者"
+      "conv": "zh-cn:影流之镰; zh-tw:闇魂收割者; zh-sg:暗魂收割者;"
     },
     {
       "original": "The Fire Below the Mountain",
-      "conv": "zh-cn:山隐之焰;zh-tw:爐心山神;zh-sg:炉心山神"
+      "conv": "zh-cn:山隐之焰; zh-tw:爐心山神; zh-sg:炉心山神;"
     },
     {
       "original": "Aatrox",
-      "conv": "zh-cn:亚托克斯;zh-tw:厄薩斯;zh-sg:厄萨斯"
+      "conv": "zh-cn:亚托克斯; zh-tw:厄薩斯; zh-sg:厄萨斯;"
     },
     {
       "original": "Ahri",
-      "conv": "zh-cn:阿狸;zh-tw:阿璃;zh-sg:阿璃"
+      "conv": "zh-cn:阿狸; zh-tw:阿璃; zh-sg:阿璃;"
     },
     {
       "original": "Akali",
-      "conv": "zh-cn:阿卡丽;zh-tw:阿卡莉;zh-sg:阿卡莉"
+      "conv": "zh-cn:阿卡丽; zh-tw:阿卡莉; zh-sg:阿卡莉;"
     },
     {
       "original": "Alistar",
-      "conv": "zh-cn:阿利斯塔;zh-tw:亞歷斯塔"
+      "conv": "zh-cn:阿利斯塔; zh-tw:亞歷斯塔;"
     },
     {
       "original": "Amumu",
-      "conv": "zh-cn:阿木木;zh-tw:阿姆姆;zh-sg:阿姆姆"
+      "conv": "zh-cn:阿木木; zh-tw:阿姆姆; zh-sg:阿姆姆;"
     },
     {
       "original": "Anivia",
-      "conv": "zh-cn:艾尼维亚;zh-tw:艾妮維亞;zh-sg:艾妮维亚"
+      "conv": "zh-cn:艾尼维亚; zh-tw:艾妮維亞; zh-sg:艾妮维亚;"
     },
     {
       "original": "Aurelion Sol",
-      "conv": "zh-cn:奥瑞利安·索尔;zh-tw:翱銳龍獸"
+      "conv": "zh-cn:奥瑞利安·索尔; zh-tw:翱銳龍獸;"
     },
     {
       "original": "Azir",
-      "conv": "zh-cn:阿兹尔;zh-tw:阿祈爾"
+      "conv": "zh-cn:阿兹尔; zh-tw:阿祈爾;"
     },
     {
       "original": "Braum",
-      "conv": "zh-cn:布隆;zh-tw:布朗姆;zh-sg:布朗姆"
+      "conv": "zh-cn:布隆; zh-tw:布朗姆; zh-sg:布朗姆;"
     },
     {
       "original": "Camille",
-      "conv": "zh-cn:卡蜜尔;zh-tw:卡蜜兒;zh-sg:卡蜜儿"
+      "conv": "zh-cn:卡蜜尔; zh-tw:卡蜜兒; zh-sg:卡蜜儿;"
     },
     {
       "original": "Darius",
-      "conv": "zh-cn:德莱厄斯;zh-tw:達瑞斯;zh-sg:达瑞斯"
+      "conv": "zh-cn:德莱厄斯; zh-tw:達瑞斯; zh-sg:达瑞斯;"
     },
     {
       "original": "Dr. Mundo",
-      "conv": "zh-cn:蒙多;zh-tw:蒙多醫生;zh-sg:蒙多医生"
+      "conv": "zh-cn:蒙多; zh-tw:蒙多醫生; zh-sg:蒙多医生;"
     },
     {
       "original": "Draven",
-      "conv": "zh-cn:德莱文;zh-tw:達瑞文;zh-sg:达瑞文"
+      "conv": "zh-cn:德莱文; zh-tw:達瑞文; zh-sg:达瑞文;"
     },
     {
       "original": "Evelynn",
-      "conv": "zh-cn:伊芙琳;zh-tw:伊芙琳;zh-sg:伊夫林"
+      "conv": "zh-cn:伊芙琳; zh-tw:伊芙琳; zh-sg:伊夫林;"
     },
     {
       "original": "Fiora",
-      "conv": "zh-cn:菲奥娜;zh-tw:菲歐拉"
+      "conv": "zh-cn:菲奥娜; zh-tw:菲歐拉;"
     },
     {
       "original": "Fizz",
-      "conv": "zh-cn:菲兹;zh-tw:飛斯;zh-sg:飞斯"
+      "conv": "zh-cn:菲兹; zh-tw:飛斯; zh-sg:飞斯;"
     },
     {
       "original": "Galio",
-      "conv": "zh-cn:加里奥;zh-tw:加里歐;zh-sg:加里欧"
+      "conv": "zh-cn:加里奥; zh-tw:加里歐; zh-sg:加里欧;"
     },
     {
       "original": "Gangplank",
-      "conv": "zh-cn:普朗克;zh-tw:剛普朗克"
+      "conv": "zh-cn:普朗克; zh-tw:剛普朗克;"
     },
     {
       "original": "Gnar",
-      "conv": "zh-cn:纳尔;zh-tw:吶兒;zh-sg:呐儿"
+      "conv": "zh-cn:纳尔; zh-tw:吶兒; zh-sg:呐儿;"
     },
     {
       "original": "Gragas",
-      "conv": "zh-cn:古拉加斯;zh-tw:古拉格斯;zh-sg:古拉格斯"
-    },
-    {
-      "original": "Gwen",
-      "conv": "格温=>zh-tw:關;格温=>zh-hk:關;格温=>zh-mo:關;格温=>zh-sg:关;格温=>zh-my:关"
+      "conv": "zh-cn:古拉加斯; zh-tw:古拉格斯; zh-sg:古拉格斯;"
     },
     {
       "original": "Hecarim",
-      "conv": "zh-cn:赫卡里姆;zh-tw:赫克林;zh-sg:赫克林"
+      "conv": "zh-cn:赫卡里姆; zh-tw:赫克林; zh-sg:赫克林;"
     },
     {
       "original": "Heimerdinger",
-      "conv": "zh-cn:黑默丁格;zh-tw:漢默丁格;zh-sg:汉默丁格"
+      "conv": "zh-cn:黑默丁格; zh-tw:漢默丁格; zh-sg:汉默丁格;"
     },
     {
       "original": "Illaoi",
-      "conv": "zh-cn:俄洛伊;zh-tw:伊羅旖;zh-sg:伊罗旖"
+      "conv": "zh-cn:俄洛伊; zh-tw:伊羅旖; zh-sg:伊罗旖;"
     },
     {
       "original": "Irelia",
-      "conv": "zh-cn:艾瑞莉娅;zh-tw:伊瑞莉雅;zh-sg:伊瑞莉雅"
+      "conv": "zh-cn:艾瑞莉娅; zh-tw:伊瑞莉雅; zh-sg:伊瑞莉雅;"
     },
     {
       "original": "Janna",
-      "conv": "zh-cn:迦纳;zh-tw:珍娜;zh-sg:珍娜"
+      "conv": "zh-cn:迦纳; zh-tw:珍娜; zh-sg:珍娜;"
     },
     {
       "original": "Jayce",
-      "conv": "zh-cn:杰斯;zh-tw:傑西;zh-sg:杰西"
+      "conv": "zh-cn:杰斯; zh-tw:傑西; zh-sg:杰西;"
     },
     {
       "original": "Jinx",
-      "conv": "zh-cn:金克丝;zh-tw:吉茵珂絲"
+      "conv": "zh-cn:金克丝; zh-tw:吉茵珂絲;"
     },
     {
-      "original": "Kai\\'Sa",
-      "conv": "zh-cn:卡莎;zh-tw:凱莎;zh-sg:凯莎"
+      "original": "Kai'Sa",
+      "conv": "zh-cn:卡莎; zh-tw:凱莎; zh-sg:凯莎;"
     },
     {
       "original": "Kalista",
-      "conv": "zh-cn:卡莉丝塔;zh-tw:克黎思妲;zh-sg:克黎思妲"
+      "conv": "zh-cn:卡莉丝塔; zh-tw:克黎思妲; zh-sg:克黎思妲;"
     },
     {
       "original": "Karma",
-      "conv": "zh-cn:卡尔玛;zh-tw:卡瑪;zh-sg:卡玛"
+      "conv": "zh-cn:卡尔玛; zh-tw:卡瑪; zh-sg:卡玛;"
     },
     {
       "original": "Karthus",
-      "conv": "zh-cn:卡尔萨斯;zh-tw:卡爾瑟斯;zh-sg:卡尔瑟斯"
+      "conv": "zh-cn:卡尔萨斯; zh-tw:卡爾瑟斯; zh-sg:卡尔瑟斯;"
     },
     {
       "original": "Katarina",
-      "conv": "zh-cn:卡特琳娜;zh-tw:卡特蓮娜"
+      "conv": "zh-cn:卡特琳娜; zh-tw:卡特蓮娜;"
     },
     {
       "original": "Kayn",
-      "conv": "zh-cn:凯隐;zh-tw:概影;zh-sg:概影"
+      "conv": "zh-cn:凯隐; zh-tw:概影; zh-sg:概影;"
     },
     {
       "original": "Kennen",
-      "conv": "zh-cn:凯南;zh-tw:凱能;zh-sg:凯能"
+      "conv": "zh-cn:凯南; zh-tw:凱能; zh-sg:凯能;"
     },
     {
-      "original": "Kha\\'Zix",
-      "conv": "zh-cn:卡兹克;zh-tw:卡力斯;zh-sg:卡力斯;zh-my:卡力斯"
+      "original": "Kha'Zix",
+      "conv": "zh-cn:卡兹克; zh-tw:卡力斯; zh-sg:卡力斯; zh-my:卡力斯;"
     },
     {
       "original": "Kindred",
-      "conv": "zh-cn:千珏;zh-tw:鏡爪"
+      "conv": "zh-cn:千珏; zh-tw:鏡爪;"
     },
     {
       "original": "",
-      "conv": "zh-cn:羊灵;zh-tw:神羊"
+      "conv": "zh-cn:羊灵; zh-tw:神羊;"
     },
     {
       "original": "",
-      "conv": "zh-cn:狼灵;zh-tw:魔狼"
+      "conv": "zh-cn:狼灵; zh-tw:魔狼;"
     },
     {
       "original": "Kogmaw",
-      "conv": "zh-cn:克格莫;zh-tw:寇格魔"
+      "conv": "zh-cn:克格莫; zh-tw:寇格魔;"
     },
     {
       "original": "Leblanc",
-      "conv": "zh-cn:乐芙兰;zh-tw:勒布朗;zh-sg:勒布朗"
+      "conv": "zh-cn:乐芙兰; zh-tw:勒布朗; zh-sg:勒布朗;"
     },
     {
       "original": "Leesin",
-      "conv": "zh-cn:李青;zh-tw:李星;zh-sg:李星"
+      "conv": "zh-cn:李青; zh-tw:李星; zh-sg:李星;"
     },
     {
       "original": "Leona",
-      "conv": "zh-cn:蕾欧娜;zh-tw:雷歐娜"
+      "conv": "zh-cn:蕾欧娜; zh-tw:雷歐娜;"
     },
     {
       "original": "Lissandra",
-      "conv": "zh-cn:丽桑卓;zh-tw:麗珊卓"
+      "conv": "zh-cn:丽桑卓; zh-tw:麗珊卓;"
     },
     {
       "original": "Lucian",
-      "conv": "zh-cn:卢锡安;zh-tw:路西恩;zh-sg:路西恩"
+      "conv": "zh-cn:卢锡安; zh-tw:路西恩; zh-sg:路西恩;"
     },
     {
       "original": "Lulu",
-      "conv": "zh-cn:璐璐;zh-tw:露璐;zh-sg:露璐"
+      "conv": "zh-cn:璐璐; zh-tw:露璐; zh-sg:露璐;"
     },
     {
       "original": "Malzaher",
-      "conv": "zh-cn:玛尔扎哈;zh-tw:馬爾札哈;zh-sg:马尔札哈;zh-my:马尔札哈"
-    },
-    {
-      "original": "Master Yi",
-      "conv": "易大師=>zh-cn:易;易大师=>zh-cn:易"
+      "conv": "zh-cn:玛尔扎哈; zh-tw:馬爾札哈; zh-sg:马尔札哈; zh-my:马尔札哈;"
     },
     {
       "original": "Miss Fortune",
-      "conv": "zh-cn:厄运小姐;zh-tw:好運姐"
+      "conv": "zh-cn:厄运小姐; zh-tw:好運姐;"
     },
     {
       "original": "Mordekaiser",
-      "conv": "zh-cn:莫德凯撒;zh-tw:魔鬥凱薩;zh-sg:魔斗凯萨"
+      "conv": "zh-cn:莫德凯撒; zh-tw:魔鬥凱薩; zh-sg:魔斗凯萨;"
     },
     {
       "original": "Morgana",
-      "conv": "zh-cn:莫甘娜;zh-tw:魔甘娜;zh-sg:魔甘娜"
+      "conv": "zh-cn:莫甘娜; zh-tw:魔甘娜; zh-sg:魔甘娜;"
     },
     {
       "original": "Nami",
-      "conv": "zh-cn:娜美;zh-tw:娜米"
+      "conv": "zh-cn:娜美; zh-tw:娜米;"
     },
     {
       "original": "Nautilus",
-      "conv": "zh-cn:诺提勒斯;zh-tw:納帝魯斯"
+      "conv": "zh-cn:诺提勒斯; zh-tw:納帝魯斯;"
+    },
+    {
+      "original": "Neeko",
+      "conv": "zh-cn:妮蔻; zh-tw:妮可; zh-sg:妮可; zh-my:妮可;"
     },
     {
       "original": "Nocturne",
-      "conv": "zh-cn:魔腾;zh-tw:夜曲;zh-sg:夜曲"
+      "conv": "zh-cn:魔腾; zh-tw:夜曲; zh-sg:夜曲;"
     },
     {
       "original": "Olaf",
-      "conv": "zh-cn:奥拉夫;zh-tw:歐拉夫;zh-sg:欧拉夫"
+      "conv": "zh-cn:奥拉夫; zh-tw:歐拉夫; zh-sg:欧拉夫;"
     },
     {
       "original": "Ornn",
-      "conv": "zh-cn:奥恩;zh-tw:鄂爾;zh-sg:鄂尔"
+      "conv": "zh-cn:奥恩; zh-tw:鄂爾; zh-sg:鄂尔;"
     },
     {
       "original": "Quinn",
-      "conv": "zh-cn:奎因;zh-tw:葵恩"
-    },
-    {
-      "original": "Rakan",
-      "conv": "銳空=>zh-cn:洛;锐空=>zh-cn:洛"
+      "conv": "zh-cn:奎因; zh-tw:葵恩;"
     },
     {
       "original": "Rammus",
-      "conv": "zh-cn:拉莫斯;zh-tw:拉姆斯"
+      "conv": "zh-cn:拉莫斯; zh-tw:拉姆斯;"
     },
     {
       "original": "Reksai",
-      "conv": "zh-cn:雷克塞;zh-tw:雷珂煞"
+      "conv": "zh-cn:雷克塞; zh-tw:雷珂煞;"
+    },
+    {
+      "original": "Renata Glasc",
+      "conv": "zh-cn:烈娜塔·戈拉斯克; zh-tw:睿娜妲·格萊斯克; zh-sg:睿娜妲·格莱斯克; zh-my:睿娜妲·格莱斯克;"
     },
     {
       "original": "Rengar",
-      "conv": "zh-cn:雷恩加尔;zh-tw:雷葛爾;zh-sg:雷葛尔"
+      "conv": "zh-cn:雷恩加尔; zh-tw:雷葛爾; zh-sg:雷葛尔;"
     },
     {
       "original": "Riven",
-      "conv": "zh-cn:锐雯;zh-tw:雷玟"
+      "conv": "zh-cn:锐雯; zh-tw:雷玟;"
     },
     {
       "original": "Rumble",
-      "conv": "zh-cn:兰博;zh-tw:藍寶"
+      "conv": "zh-cn:兰博; zh-tw:藍寶;"
     },
     {
       "original": "Ryze",
-      "conv": "zh-cn:瑞兹;zh-tw:雷茲;zh-sg:雷兹"
+      "conv": "zh-cn:瑞兹; zh-tw:雷茲; zh-sg:雷兹;"
     },
     {
       "original": "Sejuani",
-      "conv": "zh-cn:瑟庄妮;zh-tw:史瓦妮"
+      "conv": "zh-cn:瑟庄妮; zh-tw:史瓦妮;"
     },
     {
       "original": "Seraphine",
-      "conv": "zh-cn:萨勒芬妮;zh-tw:瑟菈紛;zh-sg:瑟菈纷;zh-my:瑟菈纷"
+      "conv": "zh-cn:萨勒芬妮; zh-tw:瑟菈紛; zh-sg:瑟菈纷; zh-my:瑟菈纷;"
     },
     {
       "original": "Singed",
-      "conv": "zh-cn:辛吉德;zh-tw:辛吉德;zh-sg:辛基德"
+      "conv": "zh-cn:辛吉德; zh-tw:辛吉德; zh-sg:辛基德;"
     },
     {
       "original": "Skarner",
-      "conv": "zh-cn:斯卡纳;zh-tw:史加納;zh-sg:史加纳"
+      "conv": "zh-cn:斯卡纳; zh-tw:史加納; zh-sg:史加纳;"
     },
     {
       "original": "Sona",
-      "conv": "zh-cn:娑娜;zh-tw:索娜"
+      "conv": "zh-cn:娑娜; zh-tw:索娜;"
     },
     {
       "original": "Swain",
-      "conv": "zh-cn:斯维因;zh-tw:斯溫;zh-sg:斯温"
+      "conv": "zh-cn:斯维因; zh-tw:斯溫; zh-sg:斯温;"
     },
     {
       "original": "Syndra",
-      "conv": "zh-cn:辛德拉;zh-tw:星朵拉;zh-sg:星多拉"
+      "conv": "zh-cn:辛德拉; zh-tw:星朵拉; zh-sg:星多拉;"
     },
     {
       "original": "Tahm Kench",
-      "conv": "zh-cn:塔姆·肯奇;zh-tw:貪啃奇;zh-sg:贪啃奇"
+      "conv": "zh-cn:塔姆·肯奇; zh-tw:貪啃奇; zh-sg:贪啃奇;"
     },
     {
       "original": "Taliyah",
-      "conv": "zh-cn:塔莉娅;zh-tw:塔莉雅;zh-sg:塔莉雅"
+      "conv": "zh-cn:塔莉娅; zh-tw:塔莉雅; zh-sg:塔莉雅"
     },
     {
       "original": "Talon",
-      "conv": "zh-cn:泰隆;zh-tw:塔隆"
+      "conv": "zh-cn:泰隆; zh-tw:塔隆;"
     },
     {
       "original": "Teemo",
-      "conv": "zh-cn:提莫;zh-tw:提摩;zh-sg:提摩"
+      "conv": "zh-cn:提莫; zh-tw:提摩; zh-sg:提摩;"
     },
     {
       "original": "Thresh",
-      "conv": "zh-cn:锤石;zh-tw:瑟雷西;zh-sg:瑟雷西"
+      "conv": "zh-cn:锤石; zh-tw:瑟雷西; zh-sg:瑟雷西;"
     },
     {
       "original": "Twisted Fate",
-      "conv": "zh-cn:崔斯特;zh-tw:逆命"
+      "conv": "zh-cn:崔斯特; zh-tw:逆命;"
     },
     {
       "original": "Urgot",
-      "conv": "zh-cn:厄加特;zh-tw:烏爾加特;zh-sg:乌尔加特"
+      "conv": "zh-cn:厄加特; zh-tw:烏爾加特; zh-sg:乌尔加特;"
     },
     {
       "original": "Varus",
-      "conv": "zh-cn:韦鲁斯;zh-tw:法洛士;zh-sg:法洛士"
-    },
-    {
-      "original": "Vayne",
-      "conv": "薇恩=>zh-tw:汎;薇恩=>zh-hk:汎;薇恩=>zh-mo:汎;薇恩=>zh-sg:泛;汎=>zh-sg:泛"
+      "conv": "zh-cn:韦鲁斯; zh-tw:法洛士; zh-sg:法洛士;"
     },
     {
       "original": "VelKoz",
-      "conv": "zh-cn:维克兹;zh-tw:威寇茲"
-    },
-    {
-      "original": "Vi",
-      "conv": "菲艾=>zh-cn:蔚;菲艾=>zh-cn:蔚"
+      "conv": "zh-cn:维克兹; zh-tw:威寇茲;"
     },
     {
       "original": "Warwick",
-      "conv": "zh-cn:沃里克;zh-tw:沃維克;zh-sg:沃维克"
+      "conv": "zh-cn:沃里克; zh-tw:沃維克; zh-sg:沃维克;"
     },
     {
       "original": "Wukong",
-      "conv": "zh-cn:孙悟空;zh-tw:悟空"
-    },
-    {
-      "original": "Xayah",
-      "conv": "剎雅=>zh-cn:霞;刹雅=>zh-cn:霞"
+      "conv": "zh-cn:孙悟空; zh-tw:悟空;"
     },
     {
       "original": "Xerath",
-      "conv": "zh-cn:泽拉斯;zh-tw:齊勒斯;zh-sg:齐勒斯"
+      "conv": "zh-cn:泽拉斯; zh-tw:齊勒斯; zh-sg:齐勒斯;"
     },
     {
       "original": "Yasuo",
-      "conv": "zh-cn:亚索;zh-tw:犽宿"
+      "conv": "zh-cn:亚索; zh-tw:犽宿;"
     },
     {
       "original": "Yorick",
-      "conv": "zh-cn:约里克;zh-tw:約瑞科;zh-sg:约瑞科"
+      "conv": "zh-cn:约里克; zh-tw:約瑞科; zh-sg:约瑞科;"
     },
     {
       "original": "Zac",
-      "conv": "zh-cn:扎克;zh-tw:札克;zh-sg:札克"
+      "conv": "zh-cn:扎克; zh-tw:札克; zh-sg:札克;"
     },
     {
       "original": "Ziggs",
-      "conv": "zh-cn:吉格斯;zh-tw:希格斯;zh-sg:希格斯"
+      "conv": "zh-cn:吉格斯; zh-tw:希格斯; zh-sg:希格斯;"
     },
     {
       "original": "Zilean",
-      "conv": "zh-cn:基兰;zh-tw:極靈"
+      "conv": "zh-cn:基兰; zh-tw:極靈;"
     },
     {
       "original": "Zoe",
-      "conv": "zh-cn:佐伊;zh-tw:柔依;zh-sg:柔依"
+      "conv": "zh-cn:佐伊; zh-tw:柔依; zh-sg:柔依;"
     },
     {
       "original": "Zyra",
-      "conv": "zh-cn:婕拉;zh-tw:枷蘿;zh-sg:枷萝"
+      "conv": "zh-cn:婕拉; zh-tw:枷蘿; zh-sg:枷萝;"
     },
     {
-      "original": "Blitzcrank\\'s Poro Roundup",
-      "conv": "zh-cn:英雄联盟：魄罗快跑;zh-tw:英雄聯盟 普羅快跑"
+      "original": "Blitzcrank's Poro Roundup",
+      "conv": "zh-cn:英雄联盟：魄罗快跑; zh-tw:英雄聯盟 普羅快跑;"
     },
     {
       "original": "Mechs vs. Minions",
-      "conv": "zh-cn:约德尔战斗学院;zh-tw:約德爾戰鬥營：機甲士兵大對決"
+      "conv": "zh-cn:约德尔战斗学院; zh-tw:約德爾戰鬥營：機甲士兵大對決;"
+    },
+    {
+      "original": "Tellstones: King's Gambit",
+      "conv": "zh-cn:建言棋：王之断言; zh-tw:泰爾石：果敢王策;"
     },
     {
       "original": "League of Legends: Wild Rift",
-      "conv": "zh-cn:英雄联盟手游;zh-tw:英雄聯盟：激鬥峽谷"
+      "conv": "zh-cn:英雄联盟手游; zh-tw:英雄聯盟：激鬥峽谷;"
     },
     {
       "original": "Arcane",
-      "conv": "zh-cn:英雄联盟：双城之战;zh-tw:奧術;zh-hk:奧術"
+      "conv": "zh-cn:英雄联盟：双城之战; zh-tw:奧術; zh-hk:奧術;"
     },
     {
       "original": "The Curse of the Sad Mummy",
-      "conv": "zh-cn:阿木木的诅咒;zh-tw:悲傷木乃伊的孤獨詛咒"
+      "conv": "zh-cn:阿木木的诅咒; zh-tw:悲傷木乃伊的孤獨詛咒;"
     },
     {
       "original": "Legends Never Die",
-      "conv": "zh-cn:传奇永不熄;zh-tw:傳奇永不消逝"
+      "conv": "zh-cn:传奇永不熄; zh-tw:傳奇永不消逝;"
     },
     {
       "original": "World Championship Series",
-      "conv": "zh-cn:全球总决赛;zh-tw:世界大賽"
+      "conv": "zh-cn:全球总决赛; zh-tw:世界大賽;"
     },
     {
       "original": "Demacia Cup",
-      "conv": "zh-hans:德玛西亚杯;zh-hant:德瑪西亞盃"
+      "conv": "zh-hans:德玛西亚杯; zh-hant:德瑪西亞盃;"
     }
   ]
 }

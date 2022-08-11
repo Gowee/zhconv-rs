@@ -1,0 +1,11 @@
+{
+  "name": "MigTest",
+  "description": "Migration Test",
+  "path": "Module:CGroup/MigTest",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:test;zh-tw:TEST"
+    }
+  ]
+}

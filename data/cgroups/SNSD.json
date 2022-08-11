@@ -5,79 +5,99 @@
   "rules": [
     {
       "original": "태연",
-      "conv": "zh-cn:太妍;zh-tw:太妍;zh-hk:太妍;zh-mo:太妍;zh-sg:太妍"
+      "conv": "zh-cn:太妍;zh-tw:太妍;zh-hk:太妍;zh-mo:太妍;zh-sg:太妍;"
+    },
+    {
+      "original": "제시카",
+      "conv": "zh-cn:Jessica;zh-tw:潔西卡;zh-hk:Jessica;zh-mo:Jessica;zh-sg:Jessica;"
+    },
+    {
+      "original": "써니",
+      "conv": "zh-cn:Sunny;zh-tw:珊妮;zh-hk:Sunny;zh-mo:Sunny;zh-sg:Sunny;"
+    },
+    {
+      "original": "티파니",
+      "conv": "zh-cn:Tiffany;zh-tw:蒂芬妮;zh-hk:Tiffany;zh-mo:Tiffany;zh-sg:Tiffany;"
     },
     {
       "original": "유리",
-      "conv": "zh-cn:俞利;zh-tw:俞利;zh-hk:俞利;zh-mo:俞利;zh-sg:俞利"
+      "conv": "zh-cn:俞利;zh-tw:俞利;zh-hk:俞利;zh-mo:俞利;zh-sg:俞利;"
     },
     {
       "original": "윤아",
-      "conv": "zh-cn:润娥;zh-tw:潤娥;zh-hk:潤娥;zh-mo:潤娥;zh-sg:润娥"
+      "conv": "zh-cn:润娥;zh-tw:潤娥;zh-hk:潤娥;zh-mo:潤娥;zh-sg:润娥;"
     },
     {
       "original": "서현",
-      "conv": "zh-cn:徐玄;zh-tw:徐玄;zh-hk:徐玄;zh-mo:徐玄;zh-sg:徐玄"
+      "conv": "zh-cn:徐玄;zh-tw:徐玄;zh-hk:徐玄;zh-mo:徐玄;zh-sg:徐玄;"
     },
     {
       "original": "TaeTiSeo",
-      "conv": "zh-cn:太蒂徐;zh-tw:太蒂徐;zh-hk:太蒂徐;zh-mo:太蒂徐;zh-sg:太蒂徐"
+      "conv": "zh-cn:太蒂徐;zh-tw:太蒂徐;zh-hk:太蒂徐;zh-mo:太蒂徐;zh-sg:太蒂徐;"
     },
     {
       "original": "Kimcheed Radish Cubes",
-      "conv": "zh-cn:萝卜泡菜;zh-tw:只有愛;zh-hk:蘿蔔泡菜;zh-mo:蘿蔔泡菜;zh-sg:萝卜泡菜"
+      "conv": "zh-cn:萝卜泡菜;zh-tw:只有愛;zh-hk:蘿蔔泡菜;zh-mo:蘿蔔泡菜;zh-sg:萝卜泡菜;"
     },
     {
       "original": "Cinderella Man",
-      "conv": "zh-cn:男版灰姑娘;zh-tw:男版灰姑娘;zh-hk:A貨貴公子;zh-mo:男版灰姑娘;zh-sg:男版灰姑娘"
+      "conv": "zh-cn:男版灰姑娘;zh-tw:男版灰姑娘;zh-hk:A貨貴公子;zh-mo:男版灰姑娘;zh-sg:男版灰姑娘;"
+    },
+    {
+      "original": "Oh! My Lady",
+      "conv": "zh-cn:Oh! My Lady;zh-tw:Oh! My Lady 愛你喲;zh-hk:愛上師奶經理人;zh-mo:Oh! My Lady 愛你喲;zh-sg:哦！我的爱人;"
     },
     {
       "original": "To the Beautiful You",
-      "conv": "zh-cn:致美丽的你;zh-tw:致美麗的你;zh-hk:花樣少年少女;zh-mo:致美麗的你;zh-sg:致美丽的你"
+      "conv": "zh-cn:致美丽的你;zh-tw:致美麗的你;zh-hk:花樣少年少女;zh-mo:致美麗的你;zh-sg:致美丽的你;"
     },
     {
       "original": "Wild Romance",
-      "conv": "zh-cn:暴力罗曼史;zh-hant:暴力羅曼史;zh-tw:我的野蠻情人;zh-hk:暴力浪漫史;zh-mo:暴力浪漫史;zh-sg:爱上王世子"
+      "conv": "zh-cn:暴力罗曼史;zh-hant:暴力羅曼史;zh-tw:我的野蠻情人;zh-hk:暴力浪漫史;zh-mo:暴力浪漫史;zh-sg:爱上王世子;"
     },
     {
       "original": "Fashion King",
-      "conv": "zh-cn:时尚王;zh-hant:時尚王;zh-tw:時尚女王;zh-hk:時裝王;zh-mo:時裝王;zh-sg:时尚王"
+      "conv": "zh-cn:时尚王;zh-hant:時尚王;zh-tw:時尚女王;zh-hk:時裝王;zh-mo:時裝王;zh-sg:时尚王;"
+    },
+    {
+      "original": "The King 2 Hearts",
+      "conv": "zh-cn:The King 2 Hearts;zh-tw:愛上王世子;zh-hk:當王子遇上女軍官;zh-mo:當王子遇上女軍官;zh-sg:The King 2 Hearts;"
     },
     {
       "original": "Prime Minister and I",
-      "conv": "zh-cn:总理与我;zh-tw:預約愛情;zh-hk:總理與我;zh-mo:總理與我;zh-sg:总理与我"
+      "conv": "zh-cn:总理与我;zh-tw:預約愛情;zh-hk:總理與我;zh-mo:總理與我;zh-sg:总理与我;"
     },
     {
       "original": "꽃미남 연쇄 테러 사건",
-      "conv": "zh-cn:花美男连锁恐怖事件;zh-tw:花美男事件簿;zh-hk:花美男連鎖恐怖事件;zh-mo:花美男連鎖恐怖事件;zh-sg:花美男连锁恐怖事件"
+      "conv": "zh-cn:花美男连锁恐怖事件;zh-tw:花美男事件簿;zh-hk:花美男連鎖恐怖事件;zh-mo:花美男連鎖恐怖事件;zh-sg:花美男连锁恐怖事件;"
     },
     {
       "original": "Despicable Me",
-      "conv": "zh-cn:卑鄙的我;zh-tw:神偷奶爸;zh-hk:壞蛋獎門人;zh-mo:卑鄙的我;zh-sg:卑鄙的我"
+      "conv": "zh-cn:卑鄙的我;zh-tw:神偷奶爸;zh-hk:壞蛋獎門人;zh-mo:卑鄙的我;zh-sg:卑鄙的我;"
     },
     {
       "original": "Rio",
-      "conv": "zh-cn:里约大冒险;zh-tw:里约大冒险;zh-hk:奇鸚嘉年華;zh-mo:奇鸚嘉年華;zh-sg:里约大冒险"
+      "conv": "zh-cn:里约大冒险;zh-tw:里约大冒险;zh-hk:奇鸚嘉年華;zh-mo:奇鸚嘉年華;zh-sg:里约大冒险;"
     },
     {
       "original": "Michael Jackson",
-      "conv": "zh-cn:迈克尔·杰克逊;zh-tw:麥可·傑克森;zh-hk:米高積遜;zh-mo:麥可·傑克森;zh-sg:迈克尔·杰克逊"
+      "conv": "zh-cn:迈克尔·杰克逊;zh-tw:麥可·傑克森;zh-hk:米高積遜;zh-mo:麥可·傑克森;zh-sg:迈克尔·杰克逊;"
     },
     {
       "original": "Adele Laurie Blue Adkins",
-      "conv": "zh-cn:阿黛尔;zh-tw:愛黛兒;zh-hk:愛黛兒;zh-mo:愛黛兒;zh-sg:阿黛尔"
+      "conv": "zh-cn:阿黛尔;zh-tw:愛黛兒;zh-hk:愛黛兒;zh-mo:愛黛兒;zh-sg:阿黛尔;"
     },
     {
       "original": "인천광역시",
-      "conv": "zh-cn:仁川广域市;zh-tw:仁川廣域市;zh-hk:仁川市;zh-mo:仁川廣域市;zh-sg:仁川广域市"
+      "conv": "zh-cn:仁川广域市;zh-tw:仁川廣域市;zh-hk:仁川市;zh-mo:仁川廣域市;zh-sg:仁川广域市;"
     },
     {
       "original": "Yamaha Stadium",
-      "conv": "zh-cn:雅马哈体育场;zh-tw:山葉體育場;zh-hk:山葉體育場;zh-mo:山葉體育場;zh-sg:雅马哈体育场"
+      "conv": "zh-cn:雅马哈体育场;zh-tw:山葉體育場;zh-hk:山葉體育場;zh-mo:山葉體育場;zh-sg:雅马哈体育场;"
     },
     {
       "original": "Olympic Fencing Arena",
-      "conv": "zh-cn:奥林匹克击剑竞技场;zh-tw:奧林匹克擊劍競技場;zh-hk:奧林匹克劍擊競技場;zh-mo:奧林匹克擊劍競技場;zh-sg:奥林匹克击剑竞技场"
+      "conv": "zh-cn:奥林匹克击剑竞技场;zh-tw:奧林匹克擊劍競技場;zh-hk:奧林匹克劍擊競技場;zh-mo:奧林匹克擊劍競技場;zh-sg:奥林匹克击剑竞技场;"
     }
   ]
 }

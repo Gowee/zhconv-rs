@@ -5,127 +5,127 @@
   "rules": [
     {
       "original": "アムロ",
-      "conv": "zh-cn:阿姆罗;zh-tw:阿姆羅;zh-hk:阿寶"
+      "conv": "zh-cn:阿姆罗; zh-tw:阿姆羅; zh-hk:阿寶;"
     },
     {
       "original": "アムロ・レイ",
-      "conv": "zh-cn:阿姆罗·雷;zh-tw:阿姆羅·雷;zh-hk:阿寶·尼爾"
-    },
-    {
-      "original": "・レイ",
-      "conv": "zh-cn:·雷;zh-tw:·雷;zh-hk:·尼爾"
+      "conv": "zh-cn:阿姆罗·雷; zh-tw:阿姆羅·雷; zh-hk:阿寶·尼爾;"
     },
     {
       "original": "テム",
-      "conv": "zh-cn:提姆;zh-tw:提姆;zh-hk:緹姆"
+      "conv": "zh-cn:提姆; zh-tw:提姆; zh-hk:緹姆;"
+    },
+    {
+      "original": "テム・レイ",
+      "conv": "zh-cn:提姆·雷; zh-tw:提姆·雷; zh-hk:緹姆·尼爾;"
     },
     {
       "original": "セイラ・マス",
-      "conv": "zh-cn:塞拉·玛斯;zh-tw:雪拉·瑪絲;zh-hk:馬茜·瑪斯"
+      "conv": "zh-cn:塞拉·玛斯; zh-tw:雪拉·瑪絲; zh-hk:馬茜·瑪斯;"
     },
     {
       "original": "セイラ",
-      "conv": "zh-cn:塞拉;zh-tw:雪拉;zh-hk:馬茜"
+      "conv": "zh-cn:塞拉; zh-tw:雪拉; zh-hk:馬茜;"
     },
     {
       "original": "ダイクン",
-      "conv": "zh-cn:戴肯;zh-tw:戴昆;zh-hk:戴昆"
+      "conv": "zh-cn:戴肯; zh-tw:戴昆; zh-hk:戴昆;"
     },
     {
       "original": "フラウ・ボゥ",
-      "conv": "zh-cn:芙劳·波;zh-tw:芙勞·波;zh-hk:花拉·寶"
+      "conv": "zh-cn:芙劳·波; zh-tw:芙勞·波; zh-hk:花拉·寶;"
     },
     {
       "original": "フラウ",
-      "conv": "zh-cn:芙劳;zh-tw:芙勞;zh-hk:花拉"
+      "conv": "zh-cn:芙劳; zh-tw:芙勞; zh-hk:花拉;"
     },
     {
       "original": "カイ・シデン",
-      "conv": "zh-cn:凯·西汀;zh-tw:凱·西登;zh-hk:凱·西汀"
+      "conv": "zh-cn:凯·西汀; zh-tw:凱·西登; zh-hk:凱·西汀;"
     },
     {
       "original": "シデン",
-      "conv": "zh-cn:西汀;zh-tw:西登;zh-hk:西汀"
+      "conv": "zh-cn:西汀; zh-tw:西登; zh-hk:西汀;"
     },
     {
       "original": "ブライト",
-      "conv": "zh-cn:布莱德;zh-tw:布萊特;zh-hk:布拉度"
-    },
-    {
-      "original": "ブライト",
-      "conv": "zh-cn:布萊德;zh-tw:布萊特;zh-hk:布拉度"
+      "conv": "zh:布萊德;zh-cn:布莱德; zh-tw:布萊特; zh-hk:布拉度;"
     },
     {
       "original": "ミライ・ヤシマ",
-      "conv": "zh-cn:八岛美莱;zh-tw:米萊·八洲;zh-hk:矢島·美莉"
+      "conv": "zh-cn:八岛美莱; zh-tw:米萊·八洲; zh-hk:矢島美莉;"
     },
     {
       "original": "ミライ",
-      "conv": "zh-cn:米莱;zh-tw:米萊;zh-hk:美莉"
+      "conv": "zh-cn:米莱; zh-tw:米萊; zh-hk:美莉;"
+    },
+    {
+      "original": "ヤシマ",
+      "conv": "zh-cn:八岛; zh-tw:八洲; zh-hk:矢島;"
     },
     {
       "original": "スレッガー・ロウ",
-      "conv": "zh-cn:斯雷卡·劳;zh-tw:史雷格·羅;zh-hk:史立加·羅奧"
+      "conv": "zh-cn:史雷格·罗; zh-tw:史雷格·羅; zh-hk:史立加·羅奧;"
     },
     {
       "original": "スレッガー",
-      "conv": "zh-cn:斯雷卡;zh-tw:史雷格;zh-hk:史立加"
+      "conv": "zh-cn:史雷格; zh-tw:史雷格; zh-hk:史立加;"
     },
     {
       "original": "リュウ・ホセイ",
-      "conv": "zh-cn:龙·荷西;zh-tw:保政良;zh-hk:龍·荷西"
+      "conv": "zh-cn:龙·荷西; zh-tw:保政良; zh-hk:龍·荷西;"
     },
     {
       "original": "リュウ・ホセイ",
-      "conv": "zh-cn:龙·荷西;zh-tw:良·保政;zh-hk:龍·荷西"
+      "conv": "zh-cn:龙·荷西; zh-tw:良·保政; zh-hk:龍·荷西;"
     },
     {
       "original": "マチルダ",
-      "conv": "zh-cn:玛姬尔达;zh-tw:瑪姬路達;zh-hk:瑪蒂達"
+      "conv": "zh-cn:玛姬尔达; zh-tw:瑪姬路達; zh-hk:瑪蒂達;"
     },
     {
       "original": "マチルダ・アジャン",
-      "conv": "zh-cn:玛姬尔达·亚赞;zh-tw:瑪姬路達·亞姜;zh-hk:瑪蒂達·亞贊"
+      "conv": "zh-cn:玛姬尔达·亚赞; zh-tw:瑪姬路達·亞姜;zh-hk:瑪蒂達·亞贊;"
     },
     {
       "original": "アズナブル",
-      "conv": "zh-cn:阿兹纳布尔;zh-tw:阿茲納布爾;zh-hk:亞斯洛布"
+      "conv": "zh-cn:阿兹纳布尔; zh-tw:阿茲納布爾; zh-hk:亞斯洛布;"
     },
     {
       "original": "アズナブル",
-      "conv": "zh-cn:阿兹那布尔;zh-tw:阿茲那布爾;zh-hk:亞斯洛布"
+      "conv": "zh-cn:阿兹那布尔; zh-tw:阿茲那布爾; zh-hk:亞斯洛布;"
     },
     {
       "original": "アズナブル",
-      "conv": "zh-cn:阿兹那布尔;zh-tw:亞茲納布爾;zh-hk:亞斯洛布"
+      "conv": "zh-cn:阿兹那布尔; zh-tw:亞茲納布爾; zh-hk:亞斯洛布;"
     },
     {
       "original": "シャア",
-      "conv": "zh-cn:夏亚;zh-tw:夏亞;zh-hk:馬沙"
+      "conv": "zh-cn:夏亚; zh-tw:夏亞; zh-hk:馬沙;"
     },
     {
       "original": "キャスバル・レム・ダイクン",
-      "conv": "zh-cn:卡斯巴尔·雷姆·戴肯;zh-tw:卡斯巴爾·雷姆·戴昆;zh-hk:卡斯巴爾·雷姆·戴昆"
+      "conv": "zh-cn:卡斯巴尔·雷姆·戴肯; zh-tw:卡斯巴爾·雷姆·戴昆; zh-hk:卡斯巴爾·雷姆·戴昆;"
     },
     {
       "original": "赤い彗星",
-      "conv": "zh-cn:红色彗星;zh-tw:紅色彗星;zh-hk:紅彗星"
+      "conv": "zh-cn:红色彗星; zh-tw:紅色彗星; zh-hk:紅彗星;"
     },
     {
       "original": "ジオン",
-      "conv": "zh-cn:吉恩;zh-tw:吉翁;zh-hk:自護"
+      "conv": "zh-cn:吉恩; zh-tw:吉翁; zh-hk:自護;"
     },
     {
       "original": "ザビ",
-      "conv": "zh-cn:扎比;zh-tw:薩比;zh-hk:薩比"
+      "conv": "zh-cn:扎比; zh-tw:薩比; zh-hk:薩比;"
     },
     {
       "original": "デギン・ソド",
-      "conv": "zh-cn:德金·索多;zh-tw:迪金·索德;zh-hk:湯金·索多"
+      "conv": "zh-cn:德金·索多; zh-tw:迪金·索德; zh-hk:湯金·索多;"
     },
     {
       "original": "ソド",
-      "conv": "zh-cn:索多;zh-tw:索德;zh-hk:索多"
+      "conv": "zh-cn:索多; zh-tw:索德; zh-hk:索多;"
     },
     {
       "original": "デギン",
@@ -149,1795 +149,2083 @@
     },
     {
       "original": "マ・クベ",
-      "conv": "zh-cn:马·克白;zh-tw:馬·克貝;zh-hk:馬·古比"
+      "conv": "zh-cn:马·克贝; zh-tw:馬·克貝; zh-hk:馬·古比;"
     },
     {
       "original": "ララァ",
-      "conv": "zh-cn:拉拉;zh-tw:拉拉;zh-hk:娜娜"
+      "conv": "zh-cn:拉拉; zh-tw:拉拉; zh-hk:娜娜;"
     },
     {
       "original": "ララァ・スン",
-      "conv": "zh-cn:拉拉·辛;zh-tw:拉拉·遜;zh-hk:娜娜·絲"
+      "conv": "zh-cn:拉拉·辛; zh-tw:拉拉·遜; zh-hk:娜娜·絲;"
     },
     {
       "original": "ランバ",
-      "conv": "zh-cn:兰巴;zh-tw:蘭巴;zh-hk:賴巴"
+      "conv": "zh-cn:兰巴; zh-tw:蘭巴; zh-hk:賴巴;"
     },
     {
       "original": "ラル",
-      "conv": "zh-cn:拉尔;zh-tw:拉爾;zh-hk:拉路"
+      "conv": "zh-cn:拉尔; zh-tw:拉爾; zh-hk:拉路;"
     },
     {
       "original": "クラウレ",
-      "conv": "zh-cn:克劳蕾;zh-tw:克勞蕾;zh-hk:克拉歐妮"
+      "conv": "zh-cn:克劳蕾; zh-tw:克勞蕾; zh-hk:克拉歐妮;"
     },
     {
       "original": "タチ",
-      "conv": "zh-cn:塔契;zh-tw:塔契;zh-hk:塔茲"
+      "conv": "zh-cn:塔契; zh-tw:塔契; zh-hk:塔茲;"
     },
     {
       "original": "オルテガ",
-      "conv": "zh-cn:奥尔迪加;zh-tw:奧爾迪加;zh-hk:奧迪加"
+      "conv": "zh-cn:奥尔迪加; zh-tw:奧爾迪加; zh-hk:奧迪加;"
     },
     {
       "original": "ゼナ・ラオ",
-      "conv": "zh-cn:瑟娜·劳;zh-tw:瑟娜·拉歐;zh-hk:瑟娜·拉奧"
+      "conv": "zh-cn:瑟娜·劳; zh-tw:瑟娜·拉歐; zh-hk:瑟娜·拉奧;"
     },
     {
       "original": "テアボロ",
-      "conv": "zh-cn:提亚波罗;zh-tw:提亞波羅;zh-hk:提亞布路"
+      "conv": "zh-cn:提亚波罗; zh-tw:提亞波羅; zh-hk:提亞布路;"
+    },
+    {
+      "original": "ククルス・ドアン",
+      "conv": "zh:库克罗斯·德安; zh-cn:库库鲁斯·多安; zh-tw:庫克羅斯·德安; zh-hk:庫克羅斯·德安;"
     },
     {
       "original": "シロー・アマダ",
-      "conv": "zh-cn:天田士郎;zh-hans:天田士郎;zh-tw:天田士郎;zh-hk:斯羅·阿瑪達"
+      "conv": "zh-cn:天田士郎; zh-hans:天田士郎;zh-tw:天田士郎;zh-hk:斯羅·阿瑪達;"
     },
     {
       "original": "シロー",
-      "conv": "zh-cn:士郎;zh-hans:士郎;zh-tw:士郎;zh-hk:斯羅"
+      "conv": "zh-cn:士郎; zh-hans:士郎;zh-tw:士郎;zh-hk:斯羅;"
     },
     {
       "original": "テリー・サンダース",
-      "conv": "zh-cn:泰利·山德斯;zh-tw:泰瑞·山達斯;zh-hk:泰利·山達斯"
+      "conv": "zh-cn:泰利·山德斯; zh-tw:泰瑞·山達斯;zh-hk:泰利·山達斯;"
     },
     {
       "original": "サンダース",
-      "conv": "zh-cn:山德斯;zh-tw:山達斯;zh-hk:山達斯"
+      "conv": "zh-cn:山德斯; zh-tw:山達斯;zh-hk:山達斯;"
     },
     {
       "original": "エレドア",
-      "conv": "zh-cn:艾里多亚;zh-tw:艾歷多亞;zh-hk:艾歷多亞"
+      "conv": "zh-cn:艾里多亚; zh-tw:艾歷多亞;zh-hk:艾歷多亞;"
     },
     {
       "original": "マシス",
-      "conv": "zh-cn:马西斯;zh-tw:馬契斯"
+      "conv": "zh-cn:马西斯; zh-tw:馬契斯;"
     },
     {
       "original": "ミケル",
-      "conv": "zh-cn:米凯尔;zh-tw:米克爾;zh-hk:米奇"
+      "conv": "zh-cn:米凯尔; zh-tw:米克爾;zh-hk:米奇;"
     },
     {
       "original": "ノリス",
-      "conv": "zh-cn:诺里斯;zh-tw:諾利斯;zh-hk:勞倫斯"
+      "conv": "zh-cn:诺里斯; zh-tw:諾利斯;zh-hk:勞倫斯;"
     },
     {
       "original": "パッカード",
-      "conv": "zh-cn:帕卡多;zh-tw:帕卡多"
+      "conv": "zh-cn:帕卡多; zh-tw:帕卡多;"
     },
     {
       "original": "ギニアス",
-      "conv": "zh-cn:基里亚斯;zh-tw:基尼亞斯;zh-hk:基利亞斯"
+      "conv": "zh-cn:基里亚斯; zh-tw:基尼亞斯;zh-hk:基利亞斯;"
     },
     {
       "original": "サハリン",
-      "conv": "zh-cn:萨哈林;zh-tw:薩哈林;zh-hk:沙哈連"
+      "conv": "zh-cn:萨哈林; zh-tw:薩哈林;zh-hk:沙哈連;"
     },
     {
       "original": "アイナ",
-      "conv": "zh-cn:爱娜;zh-tw:艾娜;zh-hk:愛娜"
+      "conv": "zh-cn:爱娜; zh-tw:艾娜;zh-hk:愛娜;"
     },
     {
       "original": "ロジータ",
-      "conv": "zh-cn:洛基塔;zh-tw:洛吉塔;zh-hk:洛芝達"
+      "conv": "zh-cn:洛基塔; zh-tw:洛吉塔;zh-hk:洛芝達;"
     },
     {
       "original": "イオ",
-      "conv": "zh-cn:伊欧;zh-tw:伊歐;zh-hk:以奧"
+      "conv": "zh-cn:伊欧; zh-tw:伊歐; zh-hk:以奧;"
     },
     {
       "original": "イオ・フレミング",
-      "conv": "zh-cn:伊欧·弗莱明;zh-tw:伊歐·弗萊明;zh-hk:以奧·富林明古"
+      "conv": "zh-cn:伊欧·弗莱明; zh-tw:伊歐·弗萊明; zh-hk:以奧·富林明古;"
+    },
+    {
+      "original": "ダリル",
+      "conv": "zh-cn:达里尔; zh-tw:戴瑞; zh-hk:達里爾;"
+    },
+    {
+      "original": "ダリル・ローレンツ",
+      "conv": "zh-cn:达里尔·洛伦兹; zh-tw:戴瑞·羅倫茲; zh-hk:達里爾·洛倫茲;"
     },
     {
       "original": "クローディア",
-      "conv": "zh-cn:克劳迪娅;zh-tw:克勞迪婭;zh-hk:古蘿迪亞"
+      "conv": "zh-cn:克劳迪娅; zh-tw:克勞迪亞; zh-hk:古蘿迪亞;"
     },
     {
       "original": "クローディア・ペール",
-      "conv": "zh-cn:克劳迪娅·佩尔;zh-tw:克勞迪婭·佩爾;zh-hk:古蘿迪亞·貝爾"
+      "conv": "zh-cn:克劳迪娅·佩尔; zh-tw:克勞迪亞·佩爾; zh-hk:古蘿迪亞·貝爾;"
     },
     {
       "original": "コーネリアス",
-      "conv": "zh-cn:科尼利厄斯;zh-tw:科尼利厄斯;zh-hk:哥尼力斯"
+      "conv": "zh-cn:科尼利厄斯; zh-tw:科內留斯; zh-hk:哥尼力斯;"
     },
     {
       "original": "モニカ・ハンフリー",
-      "conv": "zh-cn:莫妮卡·汉弗莱;zh-tw:莫妮卡·漢弗萊;zh-hk:莫妮卡·漢夫尼"
+      "conv": "zh-cn:莫妮卡·汉弗莱; zh-tw:莫妮卡·漢弗萊; zh-hk:莫妮卡·漢夫尼;"
+    },
+    {
+      "original": "ショーン・ミタデラ",
+      "conv": "zh-hans:尚恩·三田寺;zh-cn:尚恩·三田寺;zh-tw:尚恩·三田寺;zh-hk:辛·三田寺"
+    },
+    {
+      "original": "フィッシャー",
+      "conv": "zh-cn:費舍尔;zh-tw:費雪;zh-hk:費沙"
     },
     {
       "original": "ビンセント",
-      "conv": "zh-cn:樊尚;zh-tw:樊尚;zh-hk:雲遜"
+      "conv": "zh-cn:文森特; zh-tw:文森; zh-hk:雲遜;"
     },
     {
       "original": "ビンセント・パイク",
-      "conv": "zh-cn:樊尚·皮克;zh-tw:樊尚·皮克;zh-hk:雲遜·派克"
+      "conv": "zh-cn:文森特·皮克; zh-tw:文森·派克; zh-hk:雲遜·派克;"
     },
     {
       "original": "ビアンカ",
-      "conv": "zh-cn:碧昂卡;zh-tw:碧昂卡;zh-hk:比安卡"
+      "conv": "zh-cn:毕安卡; zh-tw:碧安卡; zh-hk:比安卡;"
     },
     {
-      "original": "ビアンカ・カーライル",
-      "conv": "zh-cn:碧昂卡·卡莱尔;zh-tw:碧昂卡·卡萊爾;zh-hk:比安卡·卡拉盧"
+      "original": "ビアンカ・カーライ",
+      "conv": "zh-cn:毕安卡·卡莱尔; zh-tw:碧安卡·凱雷; zh-hk:比安卡·卡拉盧;"
     },
     {
       "original": "フーバー",
-      "conv": "zh-cn:胡伯;zh-tw:胡伯;zh-hk:浩華"
+      "conv": "zh-cn:胡佛; zh-tw:胡佛; zh-hk:浩華;"
     },
     {
       "original": "カーラ・ミッチャム",
-      "conv": "zh-cn:卡拉·米彻姆;zh-tw:卡拉·米彻姆;zh-hk:卡拉·米查姆"
+      "conv": "zh-cn:卡拉·米彻姆; zh-tw:卡拉·米彻姆; zh-hk:卡拉·米查姆;"
     },
     {
       "original": "セクストン",
-      "conv": "zh-cn:塞克斯顿;zh-tw:塞克斯頓;zh-hk:撒克斯頓"
+      "conv": "zh-cn:塞克斯顿; zh-tw:塞克斯頓; zh-hk:撒克斯頓;"
+    },
+    {
+      "original": "バークレー",
+      "conv": "zh-cn:巴克雷; zh-tw:巴克萊; zh-hk:巴古利;"
+    },
+    {
+      "original": "ビリー・ヒッカム",
+      "conv": "zh-cn:比利·希康姆; zh-tw:比利·希卡姆; zh-hk:比利·希格姆;"
+    },
+    {
+      "original": "レヴァン・フウ",
+      "conv": "zh-cn:雷凡·胡; zh-tw:雷文·胡; zh-hk:雷凡·富奧;"
+    },
+    {
+      "original": "セバスチャン",
+      "conv": "zh-cn:塞巴斯蒂安; zh-tw:賽巴斯汀; zh-hk:賽巴斯頓;"
     },
     {
       "original": "アルフレッド・イズルハ",
-      "conv": "zh-cn:阿尔弗雷德·伊兹鲁哈;zh-tw:阿爾弗烈德·伊茲魯哈;zh-hk:阿魯烈特·伊魯勞哈"
+      "conv": "zh-cn:阿尔弗雷德·伊兹鲁哈; zh-tw:阿爾弗烈德·伊茲魯哈; zh-hk:阿魯烈特·伊魯勞哈;"
     },
     {
       "original": "アルフレッド",
-      "conv": "zh-cn:阿尔弗雷德;zh-tw:阿爾弗烈德;zh-hk:阿魯烈特"
+      "conv": "zh-cn:阿尔弗雷德; zh-tw:阿爾弗烈德; zh-hk:阿魯烈特;"
     },
     {
       "original": "クリスチーナ・マッケンジー",
-      "conv": "zh-cn:克莉丝汀娜·玛肯吉;zh-tw:克莉絲汀娜·麥肯錫;zh-hk:姬絲汀娜·麥奇茲"
+      "conv": "zh-cn:克莉丝汀娜·玛肯吉; zh-tw:克莉絲汀娜·麥肯錫; zh-hk:姬絲汀娜·麥奇茲;"
     },
     {
       "original": "クリスチーナ",
-      "conv": "zh-cn:克莉丝汀娜;zh-tw:克莉絲汀娜;zh-hk:姬絲汀娜"
+      "conv": "zh-cn:克莉丝汀娜; zh-tw:克莉絲汀娜; zh-hk:姬絲汀娜;"
     },
     {
       "original": "クリス",
-      "conv": "zh-cn:克莉丝;zh-tw:克莉絲;zh-hk:姬絲"
+      "conv": "zh-cn:克莉丝; zh-tw:克莉絲; zh-hk:姬絲;"
     },
     {
       "original": "バーナード・ワイズマン",
-      "conv": "zh-cn:巴纳德·魏茨曼;zh-tw:伯納德·懷茲曼;zh-hk:巴拿特·華捷文"
+      "conv": "zh-cn:巴纳德·魏茨曼; zh-tw:伯納德·懷茲曼; zh-hk:巴拿特·華捷文; "
     },
     {
       "original": "バーナード",
-      "conv": "zh-cn:巴纳德;zh-tw:伯納德;zh-hk:巴拿特"
+      "conv": "zh-cn:巴纳德; zh-tw:伯納德; zh-hk:巴拿特;"
     },
     {
       "original": "バーニィ",
-      "conv": "zh-cn:巴尼;zh-tw:巴尼;zh-hk:賓尼"
+      "conv": "zh-cn:巴尼; zh-tw:巴尼; zh-hk:賓尼;"
     },
     {
       "original": "ハーディ・シュタイナー",
-      "conv": "zh-cn:哈迪·修泰纳;zh-tw:哈迪·修泰拿;zh-hk:哈迪·舒達拿"
+      "conv": "zh-cn:哈迪·修泰纳; zh-tw:哈迪·修泰拿; zh-hk:哈迪·舒達拿;"
     },
     {
       "original": "シュタイナー",
-      "conv": "zh-cn:修泰纳;zh-tw:修泰拿;zh-hk:舒達拿"
+      "conv": "zh-cn:修泰纳; zh-tw:修泰拿; zh-hk:舒達拿;"
     },
     {
       "original": "ガブリエル・ガルシア",
-      "conv": "zh-cn:加布里埃尔·加尔西亚;zh-tw:卡普利耶·加西亞"
+      "conv": "zh-cn:加布里埃尔·加尔西亚; zh-tw:卡普利耶·加西亞;"
     },
     {
       "original": "ガブリエル",
-      "conv": "zh-cn:加布里埃尔;zh-tw:卡普利耶"
+      "conv": "zh-cn:加布里埃尔; zh-tw:卡普利耶;"
     },
     {
       "original": "ミハイル・カミンスキー",
-      "conv": "zh-cn:米哈伊尔·卡明斯基;zh-tw:米海爾·卡明斯基"
+      "conv": "zh-cn:米哈伊尔·卡明斯基; zh-tw:米海爾·卡明斯基;"
     },
     {
       "original": "ミーシャ",
-      "conv": "zh-cn:密夏;zh-tw:米夏;zh-hk:米沙"
+      "conv": "zh-cn:密夏; zh-tw:米夏; zh-hk:米沙;"
     },
     {
       "original": "サウス",
-      "conv": "zh-cn:萨乌斯;zh-tw:紹斯;zh-hk:撒斯"
+      "conv": "zh-cn:萨乌斯; zh-tw:紹斯; zh-hk:撒斯"
     },
     {
       "original": "バニング",
-      "conv": "zh-cn:巴宁;zh-tw:巴寧格;zh-hk:巴寧"
+      "conv": "zh-cn:巴宁; zh-tw:巴寧格; zh-hk:巴寧"
     },
     {
       "original": "コウ・ウラキ",
-      "conv": "zh-cn:浦木宏;zh-tw:浦木宏;zh-hk:哥奧·胡勒奇"
+      "conv": "zh-cn:浦木宏; zh-tw:浦木宏; zh-hk:哥奧·胡勒奇"
     },
     {
       "original": "コウ",
-      "conv": "zh-cn:浦木;zh-tw:浦木;zh-hk:哥奧"
+      "conv": "zh-cn:浦木; zh-tw:浦木; zh-hk:哥奧"
     },
     {
       "original": "チャック",
-      "conv": "zh-cn:查克;zh-tw:恰克;zh-hk:查古"
+      "conv": "zh-cn:查克; zh-tw:恰克; zh-hk:查古"
     },
     {
       "original": "キ－ス",
-      "conv": "zh-cn:奇斯;zh-tw:基斯;zh-hk:基斯"
+      "conv": "zh-cn:奇斯; zh-tw:基斯; zh-hk:基斯"
     },
     {
       "original": "ベルナルド",
-      "conv": "zh-cn:伯纳德;zh-tw:貝那德;zh-hk:比爾勒"
+      "conv": "zh-cn:伯纳德; zh-tw:貝那德; zh-hk:比爾勒"
     },
     {
       "original": "モンシャ",
-      "conv": "zh-cn:蒙夏;zh-tw:蒙夏;zh-hk:蒙沙"
+      "conv": "zh-cn:蒙夏; zh-tw:蒙夏; zh-hk:蒙沙"
     },
     {
       "original": "バスク",
-      "conv": "zh-cn:巴斯克;zh-tw:巴斯克;zh-hk:法斯古"
+      "conv": "zh-cn:巴斯克; zh-tw:巴斯克; zh-hk:法斯古;"
     },
     {
       "original": "ジャミトフ・ハイマン",
-      "conv": "zh-cn:加米托夫·海曼;zh-tw:賈米托夫·海曼;zh-hk:佐米托夫·哈文"
+      "conv": "zh-cn:加米托夫·海曼; zh-tw:賈米托夫·海曼; zh-hk:佐米托夫·哈文;"
     },
     {
       "original": "ジャミトフ",
-      "conv": "zh-cn:加米托夫;zh-tw:賈米托夫;zh-hk:佐米托夫"
+      "conv": "zh-cn:加米托夫; zh-tw:賈米托夫; zh-hk:佐米托夫;"
     },
     {
       "original": "ハイマン",
-      "conv": "zh-cn:海曼;zh-tw:海曼;zh-hk:哈文"
+      "conv": "zh-cn:海曼; zh-tw:海曼; zh-hk:哈文;"
     },
     {
       "original": "コーウェン",
-      "conv": "zh-cn:高文;zh-tw:高淵;zh-hk:高雲"
+      "conv": "zh-cn:高文; zh-tw:高淵; zh-hk:高雲"
     },
     {
       "original": "シナプス",
-      "conv": "zh-cn:希纳普斯;zh-tw:席納普斯;zh-hk:史納普斯"
+      "conv": "zh-cn:希纳普斯; zh-tw:席納普斯; zh-hk:史納普斯"
     },
     {
       "original": "エギーユ",
-      "conv": "zh-cn:艾基尔;zh-tw:艾裘;zh-hk:艾基爾"
+      "conv": "zh-cn:艾基尔; zh-tw:艾裘; zh-hk:艾基爾"
     },
     {
       "original": "デラーズ",
-      "conv": "zh-cn:迪拉兹;zh-tw:迪拉茲;zh-hk:達拉斯"
+      "conv": "zh-cn:迪拉兹; zh-tw:迪拉茲; zh-hk:達拉斯"
     },
     {
       "original": "アナベル",
-      "conv": "zh-cn:阿纳贝尔;zh-tw:阿納貝爾;zh-hk:亞納比路"
+      "conv": "zh-cn:阿纳贝尔; zh-tw:阿納貝爾; zh-hk:亞納比路"
     },
     {
       "original": "ガトー",
-      "conv": "zh-cn:卡多;zh-tw:卡多;zh-hk:賈圖"
+      "conv": "zh-cn:卡多; zh-tw:卡多; zh-hk:賈圖"
     },
     {
       "original": "ガラハウ",
-      "conv": "zh-cn:卡拉豪;zh-tw:卡拉豪;zh-hk:加拉豪"
+      "conv": "zh-cn:卡拉豪; zh-tw:卡拉豪; zh-hk:加拉豪"
     },
     {
       "original": "シーマ",
-      "conv": "zh-cn:西玛;zh-tw:西瑪;zh-hk:絲瑪"
+      "conv": "zh-cn:西玛; zh-tw:西瑪; zh-hk:絲瑪"
     },
     {
       "original": "ノイエン",
-      "conv": "zh-cn:诺渊;zh-tw:諾恩;zh-hk:諾恩"
+      "conv": "zh-cn:诺渊; zh-tw:諾恩; zh-hk:諾恩"
     },
     {
       "original": "パープルトン",
-      "conv": "zh-cn:帕布顿;zh-tw:帕普頓;zh-hk:帕普頓"
+      "conv": "zh-cn:帕布顿; zh-tw:帕普頓; zh-hk:帕普頓"
     },
     {
       "original": "チャップ",
-      "conv": "zh-cn:查布;zh-tw:查普;zh-hk:札普"
+      "conv": "zh-cn:查布; zh-tw:查普; zh-hk:札普"
     },
     {
       "original": "アデル",
-      "conv": "zh-cn:阿迪爾;zh-tw:亞德爾;zh-hk:艾迪爾"
+      "conv": "zh-cn:阿迪爾; zh-tw:亞德爾; zh-hk:艾迪爾"
     },
     {
       "original": "アルファ",
-      "conv": "zh-hant:阿爾法;zh-hk:艾華"
+      "conv": "zh-hant:阿爾法; zh-hk:艾華"
     },
     {
       "original": "ベイト",
-      "conv": "zh-hant:貝特;zh-hk:比爾"
+      "conv": "zh-hant:貝特; zh-hk:比爾"
     },
     {
       "original": "カリウス",
-      "conv": "zh-hans:卡利乌斯;zh-hk:卡里士"
+      "conv": "zh-hans:卡利乌斯; zh-hk:卡里士"
     },
     {
       "original": "オットー",
-      "conv": "zh-hans:奥托;zh-hk:奧圖"
+      "conv": "zh-hans:奥托; zh-hk:奧圖"
     },
     {
       "original": "カミーユ・ビダン",
-      "conv": "zh-cn:卡缪·比丹;zh-tw:卡密兒·維丹;zh-hk:嘉美尤·維達"
+      "conv": "zh-cn:卡缪·比丹; zh-tw:卡密兒·維丹; zh-hk:嘉美尤·維達;"
     },
     {
       "original": "カミーユ",
-      "conv": "zh-cn:卡缪;zh-tw:卡密兒;zh-hk:嘉美尤"
+      "conv": "zh-cn:卡缪; zh-tw:卡密兒; zh-hk:嘉美尤;"
     },
     {
       "original": "・ビダン",
-      "conv": "zh-cn:比丹;zh-tw:維丹;zh-hk:維達"
+      "conv": "zh-cn:比丹; zh-tw:維丹; zh-hk:維達;"
     },
     {
       "original": "クワトロ",
-      "conv": "zh-cn:柯瓦特罗;zh-tw:克瓦特羅;zh-hk:古華多羅"
+      "conv": "zh-cn:柯瓦特罗; zh-tw:克瓦特羅; zh-hk:古華多羅;"
     },
     {
       "original": "バジ－ナ",
-      "conv": "zh-cn:巴吉纳;zh-tw:巴吉納;zh-hk:巴茲拿"
+      "conv": "zh-cn:巴吉纳; zh-tw:巴吉納; zh-hk:巴茲拿;"
     },
     {
       "original": "エマ・シ－ン",
-      "conv": "zh-cn:艾玛·辛;zh-tw:艾瑪·辛;zh-hk:愛瑪·辛"
+      "conv": "zh-cn:艾玛·辛; zh-tw:艾瑪·辛; zh-hk:愛瑪·辛;"
     },
     {
       "original": "エマ",
-      "conv": "zh-cn:艾玛;zh-tw:艾瑪;zh-hk:愛瑪"
+      "conv": "zh-cn:艾玛; zh-tw:艾瑪; zh-hk:愛瑪;"
     },
     {
       "original": "イルマ",
-      "conv": "zh-cn:伊尔玛;zh-tw:伊爾瑪;zh-hk:依露瑪"
+      "conv": "zh-cn:伊尔玛; zh-tw:伊爾瑪; zh-hk:依露瑪;"
     },
     {
       "original": "ベルトーチカ",
-      "conv": "zh-cn:贝托蒂嘉;zh-tw:貝托蒂嘉;zh-hk:貝積加"
+      "conv": "zh-cn:贝托蒂嘉; zh-tw:貝托蒂嘉; zh-hk:貝積加;"
     },
     {
       "original": "ベルトーチカ",
-      "conv": "zh-cn:贝尔迪琦嘉;zh-tw:貝托蒂嘉;zh-hk:貝積加"
+      "conv": "zh-cn:贝尔迪琦嘉; zh-tw:貝托蒂嘉; zh-hk:貝積加;"
     },
     {
       "original": "レコア・ロンド",
-      "conv": "zh-cn:蕾柯亚·朗特;zh-tw:蕾柯亞·隆德;zh-hk:莉哥亞·羅特"
+      "conv": "zh-cn:蕾柯亚·朗特; zh-tw:蕾柯亞·隆德; zh-hk:莉哥亞·羅特;"
     },
     {
       "original": "レコア",
-      "conv": "zh-cn:蕾柯亚;zh-tw:蕾柯亞;zh-hk:莉哥亞"
+      "conv": "zh-cn:蕾柯亚; zh-tw:蕾柯亞; zh-hk:莉哥亞;"
     },
     {
       "original": "フォウ・ムラサメ",
-      "conv": "zh-cn:凤·村雨;zh-tw:鳳·村雨;zh-hk:科·姆拉沙美"
+      "conv": "zh-cn:凤·村雨; zh-tw:鳳·村雨; zh-hk:科·姆拉沙美;"
     },
     {
       "original": "フォウ・ムラサメ",
-      "conv": "zh-cn:村雨;zh-tw:村雨;zh-hk:姆拉沙美"
+      "conv": "zh-cn:村雨; zh-tw:村雨; zh-hk:姆拉沙美;"
     },
     {
       "original": "ヘンケン",
-      "conv": "zh-cn:汉肯;zh-tw:漢肯;zh-hk:肯格"
+      "conv": "zh-cn:汉肯; zh-tw:漢肯; zh-hk:肯格;"
     },
     {
       "original": "ベッケナー",
-      "conv": "zh-cn:贝克纳;zh-tw:貝克納;zh-hk:貝肯拿"
+      "conv": "zh-cn:贝克纳; zh-tw:貝克納; zh-hk:貝肯拿;"
     },
     {
       "original": "ブレックス・フォーラー",
-      "conv": "zh-cn:布雷克斯·弗拉;zh-tw:布雷克斯·弗拉;zh-hk:卑格斯·科拿"
+      "conv": "zh-cn:布雷克斯·弗拉; zh-tw:布雷克斯·弗拉; zh-hk:卑格斯·科拿;"
     },
     {
       "original": "ブレックス",
-      "conv": "zh-cn:布雷克斯;zh-tw:布雷克斯;zh-hk:卑格斯"
+      "conv": "zh-cn:布雷克斯; zh-tw:布雷克斯; zh-hk:卑格斯;"
     },
     {
       "original": "ジェリド・メサ",
-      "conv": "zh-cn:捷利德·梅萨;zh-tw:傑利特·梅薩;zh-hk:尊尼特·密沙"
+      "conv": "zh-cn:捷利德·梅萨; zh-tw:傑利特·梅薩; zh-hk:尊尼特·密沙;"
     },
     {
       "original": "ジェリド",
-      "conv": "zh-cn:捷利德;zh-tw:傑利特;zh-hk:尊尼特"
+      "conv": "zh-cn:捷利德; zh-tw:傑利特; zh-hk:尊尼特;"
     },
     {
       "original": "ヤザン・ゲーブル",
-      "conv": "zh-cn:亚赞·盖布尔;zh-tw:亞桑·蓋布爾;zh-hk:日札·基保"
+      "conv": "zh-cn:亚赞·盖布尔; zh-tw:亞桑·蓋布爾; zh-hk:日札·基保;"
     },
     {
       "original": "ヤザン",
-      "conv": "zh-cn:亚赞;zh-tw:亞桑;zh-hk:日札"
+      "conv": "zh-cn:亚赞; zh-tw:亞桑; zh-hk:日札;"
     },
     {
       "original": "ロザミア・バダム",
-      "conv": "zh-cn:罗莎美·巴达姆;zh-tw:羅莎米亞·巴達姆;zh-hk:露莎美亞·巴登"
+      "conv": "zh-cn:罗莎美·巴达姆; zh-tw:羅莎米亞·巴達姆; zh-hk:露莎美亞·巴登;"
     },
     {
       "original": "ロザミア",
-      "conv": "zh-cn:罗莎美;zh-tw:羅莎米亞;zh-hk:露莎美亞"
+      "conv": "zh-cn:罗莎美; zh-tw:羅莎米亞; zh-hk:露莎美亞;"
     },
     {
       "original": "サラ・ザビアロフ",
-      "conv": "zh-cn:萨拉·萨比罗夫;zh-tw:莎拉·薩比亞羅夫;zh-hk:莎拉·薩比洛夫"
+      "conv": "zh-cn:萨拉·萨比罗夫; zh-tw:莎拉·薩比亞羅夫; zh-hk:莎拉·薩比洛夫;"
     },
     {
       "original": "サラ",
-      "conv": "zh-cn:萨拉;zh-tw:莎拉;zh-hk:莎拉"
+      "conv": "zh-cn:萨拉; zh-tw:莎拉; zh-hk:莎拉;"
     },
     {
       "original": "パプテマス・シロッコ",
-      "conv": "zh-cn:帕普提马斯·西罗克;zh-tw:帕普迪馬斯·希羅克;zh-hk:巴比迪斯·斯洛哥"
+      "conv": "zh-cn:帕普提马斯·西罗克; zh-tw:帕普迪馬斯·希羅克; zh-hk:巴比迪斯·斯洛哥;"
     },
     {
       "original": "シロッコ",
-      "conv": "zh-cn:西罗克;zh-tw:希羅克;zh-hk:斯洛哥"
+      "conv": "zh-cn:西罗克; zh-tw:希羅克; zh-hk:斯洛哥;"
     },
     {
       "original": "ハマーン・カーン",
-      "conv": "zh-cn:哈曼·卡恩;zh-tw:哈曼·坎恩;zh-hk:哈曼·嘉"
+      "conv": "zh-cn:哈曼·卡恩; zh-tw:哈曼·坎恩; zh-hk:哈曼·嘉;"
     },
     {
       "original": "・カーン",
-      "conv": "zh-cn:·卡恩;zh-tw:·坎恩;zh-hk:·嘉"
+      "conv": "zh-cn:·卡恩; zh-tw:·坎恩; zh-hk:·嘉;"
     },
     {
       "original": "ミネバ・ラオ",
-      "conv": "zh-cn:密涅瓦·劳;zh-tw:米妮瓦·拉歐;zh-hk:米露芭·拉奧"
+      "conv": "zh-cn:密涅瓦·劳; zh-tw:米妮瓦·拉歐; zh-hk:米露芭·拉奧;"
     },
     {
       "original": "ミネバ",
-      "conv": "zh-cn:密涅瓦;zh-tw:米妮瓦;zh-hk:米露芭"
+      "conv": "zh-cn:密涅瓦; zh-tw:米妮瓦; zh-hk:米露芭;"
     },
     {
       "original": "フランクリン・ビダン",
-      "conv": "zh-cn:富兰克林·比丹;zh-tw:佛蘭克林·維丹;zh-hk:富蘭克林·維達"
+      "conv": "zh-cn:富兰克林·比丹; zh-tw:佛蘭克林·維丹; zh-hk:富蘭克林·維達;"
     },
     {
       "original": "ヒルダ・ビダン",
-      "conv": "zh-cn:希尔达·比丹;zh-tw:希爾達·維丹;zh-hk:希爾達·維達"
+      "conv": "zh-cn:希尔达·比丹; zh-tw:希爾達·維丹; zh-hk:希爾達·維達;"
     },
     {
-      "original": "カツ・ハウィン",
-      "conv": "zh-cn:小林·卡兹;zh-tw:小林·卡兹;zh-hk:小林·傑"
+      "original": "カツ・コバヤシ",
+      "conv": "zh-hans:小林·卡兹; zh-cn:小林·胜; zh-tw:小林·卡兹; zh-hk:小林·傑;"
     },
     {
-      "original": "カツ・ハウィン",
-      "conv": "zh-cn:小林卡兹;zh-tw:小林卡兹;zh-hk:小林傑"
+      "original": "カツ・コバヤシ",
+      "conv": "zh-hans:小林卡兹; zh-cn:小林胜; zh-tw:小林卡兹; zh-hk:小林傑;"
     },
     {
-      "original": "カツ・ハウィン",
-      "conv": "zh-cn:卡兹·小林;zh-tw:卡兹·小林;zh-hk:傑·小林"
+      "original": "カツ・コバヤシ",
+      "conv": "zh-hans:卡兹·小林; zh-cn:胜·小林; zh-tw:卡兹·小林; zh-hk:傑·小林;"
     },
     {
       "original": "カツ",
-      "conv": "卡茲=>zh-cn:卡兹;卡茲=>zh-tw:卡茲;卡茲=>zh-hk:傑"
+      "conv": "卡茲=>zh-cn:胜;卡茲=>zh-tw:卡茲;卡茲=>zh-hk:傑;"
+    },
+    {
+      "original": "カツ",
+      "conv": "卡兹=>zh-cn:胜;卡兹=>zh-tw:卡茲;卡兹=>zh-hk:傑;"
     },
     {
       "original": "カクリコン・カクーラー",
-      "conv": "zh-hans:坎克利康·卡克拉;zh-hk:格靈哥·格古拿;zh-tw:卡克利肯·卡克拉"
+      "conv": "zh-hans:坎克利康·卡克拉;zh-hk:格靈哥·格古拿;zh-tw:卡克利肯·卡克拉;"
     },
     {
       "original": "カクリコン",
-      "conv": "zh-hans:坎克利康;zh-hk:格靈哥;zh-tw:卡克利肯"
+      "conv": "zh-hans:坎克利康;zh-hk:格靈哥;zh-tw:卡克利肯;"
     },
     {
       "original": "ハサン",
-      "conv": "zh-hk:夏臣;zh-tw:哈桑"
+      "conv": "zh-hk:夏臣;zh-tw:哈桑;"
     },
     {
       "original": "ジュドー・アシーダ",
-      "conv": "zh-cn:捷多·亚西塔;zh-tw:傑特·亞希達;zh-hk:捷度·艾斯圖"
+      "conv": "zh-cn:捷多·亚西塔; zh-tw:傑特·亞希達; zh-hk:捷度·艾斯圖;"
     },
     {
       "original": "ジュドー",
-      "conv": "zh-cn:捷多;zh-tw:傑特;zh-hk:捷度"
+      "conv": "zh-cn:捷多; zh-tw:傑特; zh-hk:捷度;"
     },
     {
       "original": "ルー・ルカ",
-      "conv": "zh-cn:露·鲁卡;zh-tw:露·魯卡;zh-hk:露·露卡"
+      "conv": "zh-cn:露·鲁卡; zh-tw:露·魯卡; zh-hk:露·露卡;"
     },
     {
       "original": "ルカ",
-      "conv": "zh-cn:鲁卡;zh-tw:魯卡;zh-hk:露卡"
+      "conv": "zh-cn:鲁卡; zh-tw:魯卡; zh-hk:露卡;"
     },
     {
       "original": "リィナ・アーシタ",
-      "conv": "zh-cn:丽娜·亚西塔;zh-tw:莉娜·亞希達;zh-hk:麗娜·艾斯圖"
+      "conv": "zh-cn:丽娜·亚西塔; zh-tw:莉娜·亞希達; zh-hk:麗娜·艾斯圖;"
     },
     {
       "original": "リィナ",
-      "conv": "zh-cn:丽娜;zh-tw:莉娜;zh-hk:麗娜"
+      "conv": "zh-cn:丽娜; zh-tw:莉娜; zh-hk:麗娜;"
     },
     {
       "original": "エル・ビアンノ",
-      "conv": "zh-cn:艾露·维安诺;zh-tw:艾露·維安諾;zh-hk:阿露·維安盧"
+      "conv": "zh-cn:艾露·维安诺; zh-tw:艾露·維安諾; zh-hk:阿露·維安盧;"
     },
     {
       "original": "エル",
-      "conv": "zh-cn:艾露;zh-tw:艾露;zh-hk:阿露"
+      "conv": "zh-cn:艾露; zh-tw:艾露; zh-hk:阿露;"
     },
     {
       "original": "モンド・アガケ",
-      "conv": "zh-cn:蒙多·阿伽克;zh-tw:蒙多·雅加凱;zh-hk:莫頓·阿加奇"
+      "conv": "zh-cn:蒙多·阿伽克; zh-tw:蒙多·雅加凱; zh-hk:莫頓·阿加奇;"
     },
     {
       "original": "モンド",
-      "conv": "zh-cn:蒙多;zh-tw:蒙多;zh-hk:莫頓"
+      "conv": "zh-cn:蒙多; zh-tw:蒙多; zh-hk:莫頓;"
     },
     {
       "original": "イーノ",
-      "conv": "zh-cn:伊诺;zh-tw:伊諾;zh-hk:伊萊"
+      "conv": "zh-cn:伊诺; zh-tw:伊諾; zh-hk:伊萊;"
     },
     {
       "original": "アッバーブ",
-      "conv": "zh-cn:阿帕夫;zh-tw:阿帕布;zh-hk:亞柏布"
+      "conv": "zh-cn:阿帕夫; zh-tw:阿帕布; zh-hk:亞柏布;"
     },
     {
       "original": "ビーチャ・オーレグ",
-      "conv": "zh-cn:比查·奥雷格;zh-tw:比査·歐雷格;zh-hk:比查·歐雷格"
+      "conv": "zh-cn:比查·奥雷格; zh-tw:比査·歐雷格; zh-hk:比查·歐雷格;"
     },
     {
       "original": "エルピー・プル",
-      "conv": "zh-cn:艾露比·璞露;zh-tw:愛羅比·普露;zh-hk:艾露比·波蕾"
+      "conv": "zh-cn:艾露比·璞露; zh-tw:愛羅比·普露; zh-hk:艾露比·波蕾;"
     },
     {
       "original": "プル",
-      "conv": "zh-cn:璞露;zh-tw:普露;zh-hk:波蕾"
+      "conv": "zh-cn:璞露; zh-tw:普露; zh-hk:波蕾;"
     },
     {
       "original": "プルツー",
-      "conv": "zh-cn:璞露兹;zh-tw:普露茲;zh-hk:波蕾二世"
+      "conv": "zh-cn:璞露兹; zh-tw:普露茲; zh-hk:波蕾二世;"
     },
     {
       "original": "マシュマー・セロ",
-      "conv": "zh-cn:玛修曼·塞罗;zh-tw:馬修瑪·賽洛;zh-hk:馬士文·世羅"
+      "conv": "zh-cn:玛修曼·塞罗; zh-tw:馬修瑪·賽洛; zh-hk:馬士文·世羅;"
     },
     {
       "original": "マシュマー",
-      "conv": "zh-cn:玛修曼;zh-tw:馬修瑪;zh-hk:馬士文"
+      "conv": "zh-cn:玛修曼; zh-tw:馬修瑪; zh-hk:馬士文;"
     },
     {
       "original": "キャラ・スーン",
-      "conv": "zh-cn:姬拉·森;zh-tw:凱拉·遜;zh-hk:姬娜·遜"
+      "conv": "zh-cn:姬拉·森; zh-tw:凱拉·遜; zh-hk:姬娜·遜;"
     },
     {
       "original": "キャラ",
-      "conv": "zh-cn:姬拉;zh-tw:凱拉;zh-hk:姬娜"
+      "conv": "zh-cn:姬拉; zh-tw:凱拉; zh-hk:姬娜;"
     },
     {
       "original": "グレミー・トト",
-      "conv": "zh-cn:格雷米·托托;zh-tw:葛雷米·托托;zh-hk:古利明·托舵"
+      "conv": "zh-cn:格雷米·托托; zh-tw:葛雷米·托托; zh-hk:古利明·托舵;"
     },
     {
       "original": "グレミー",
-      "conv": "zh-cn:格雷米;zh-tw:葛雷米;zh-hk:古利明"
+      "conv": "zh-cn:格雷米; zh-tw:葛雷米; zh-hk:古利明;"
     },
     {
       "original": "エマリー・オンス",
-      "conv": "zh-cn:艾玛丽·欧斯;zh-tw:安瑪莉·歐斯;zh-hk:艾美莉·安斯"
+      "conv": "zh-cn:艾玛丽·欧斯; zh-tw:安瑪莉·歐斯;zh-hk:艾美莉·安斯;"
     },
     {
       "original": "エマリー",
-      "conv": "zh-cn:艾玛丽;zh-tw:安瑪莉;zh-hk:艾美莉"
+      "conv": "zh-cn:艾玛丽; zh-tw:安瑪莉;zh-hk:艾美莉;"
     },
     {
       "original": "ギュネイ・ガス",
-      "conv": "zh-cn:邱尼·盖斯;zh-tw:裘尼·卡斯;zh-hk:基尼·戒司"
+      "conv": "zh-cn:邱尼·盖斯; zh-tw:裘尼·卡斯; zh-hk:基尼·戒司"
     },
     {
       "original": "ギュネイ・ガス",
-      "conv": "zh-cn:邱尼·盖斯;zh-tw:裘尼·韓斯;zh-hk:基尼·戒司"
+      "conv": "zh-cn:邱尼·盖斯; zh-tw:裘尼·韓斯; zh-hk:基尼·戒司"
     },
     {
       "original": "ギュネイ",
-      "conv": "zh-cn:邱尼;zh-tw:裘尼;zh-hk:基尼"
+      "conv": "zh-cn:邱尼; zh-tw:裘尼; zh-hk:基尼"
     },
     {
       "original": "クェス・パラヤ",
-      "conv": "zh-cn:珂丝·帕拉楊;zh-tw:葵絲·帕拉雅;zh-hk:姬絲·帕拉雅"
+      "conv": "zh-cn:葵丝·帕拉雅; zh-tw:葵絲·帕拉亞; zh-hk:姬絲·帕拉雅"
     },
     {
       "original": "クェス",
-      "conv": "zh-cn:珂丝;zh-tw:葵絲;zh-hk:姬絲"
+      "conv": "zh-cn:葵丝; zh-tw:葵絲; zh-hk:姬絲"
     },
     {
       "original": "ハサウェイ",
-      "conv": "zh-cn:哈萨维;zh-tw:哈薩維;zh-hk:凱薩衛"
+      "conv": "zh-cn:哈萨维; zh-tw:哈薩維; zh-hk:凱薩衛"
     },
     {
       "original": "ハサウェイ",
-      "conv": "zh-cn:哈萨维;zh-tw:哈薩威;zh-hk:凱薩衛"
+      "conv": "zh-cn:哈萨维; zh-tw:哈薩威; zh-hk:凱薩衛"
     },
     {
       "original": "チェーン・アギ",
-      "conv": "zh-cn:珍·亚吉;zh-tw:珍·吉;zh-hk:倩·雅奇"
+      "conv": "zh-cn:珍·亚吉; zh-tw:珍·吉; zh-hk:倩·雅奇"
     },
     {
       "original": "フラスト",
-      "conv": "zh-cn:弗拉斯特;zh-tw:布拉特;zh-hk:布拉特"
+      "conv": "zh-cn:弗拉斯特; zh-tw:布拉特; zh-hk:布拉特"
     },
     {
       "original": "ボーリンネア",
-      "conv": "zh-cn:巴林尼亚;zh-tw:巴林尼亞;zh-hk:波林尼亞"
+      "conv": "zh-cn:巴林尼亚; zh-tw:巴林尼亞; zh-hk:波林尼亞"
     },
     {
       "original": "ナイジェル",
-      "conv": "zh-cn:奈吉;zh-tw:奈傑爾;zh-hk:奈傑爾"
+      "conv": "zh-cn:奈吉; zh-tw:奈傑爾; zh-hk:奈傑爾"
     },
     {
       "original": "コンロイ",
-      "conv": "zh-cn:康洛伊;zh-tw:康洛依;zh-hk:康洛伊"
+      "conv": "zh-cn:康洛伊; zh-tw:康洛依; zh-hk:康洛伊"
     },
     {
       "original": "ハーゲンセン",
-      "conv": "zh-cn:哈根森;zh-tw:哈金森;zh-hk:哈金森"
+      "conv": "zh-cn:哈根森; zh-tw:哈金森; zh-hk:哈金森"
     },
     {
       "original": "マハディ",
-      "conv": "zh-cn:马哈地;zh-tw:馬赫迪;zh-hk:馬哈地"
+      "conv": "zh-cn:马哈地; zh-tw:馬赫迪; zh-hk:馬哈地"
     },
     {
       "original": "メーメット",
-      "conv": "zh-tw:穆罕默德;zh-hk:邁密特"
+      "conv": "zh-tw:穆罕默德; zh-hk:邁密特"
     },
     {
       "original": "アルレット",
-      "conv": "zh-tw:艾蕾特;zh-hk:雅露尼特"
+      "conv": "zh-tw:艾蕾特; zh-hk:雅露尼特"
     },
     {
       "original": "アルマージュ",
-      "conv": "zh-tw:亞馬喬;zh-hk:艾路馬舒"
+      "conv": "zh-tw:亞馬喬; zh-hk:艾路馬舒"
     },
     {
       "original": "ハイレッグ",
-      "conv": "zh-tw:海雷格;zh-hk:夏力古"
+      "conv": "zh-tw:海雷格; zh-hk:夏力古"
     },
     {
       "original": "ヨナ, JONA",
-      "conv": "zh-cn:乔纳;zh-tw:約拿;zh-hk:約拿"
+      "conv": "zh-cn:乔纳; zh-tw:約拿; zh-hk:約拿"
     },
     {
       "original": "バシュタ, BASTA",
-      "conv": "zh-hans:巴斯塔;zh-cn:巴修塔;zh-tw:巴斯特;zh-hk:巴素達"
+      "conv": "zh-hans:巴斯塔; zh-cn:巴修塔; zh-tw:巴斯特; zh-hk:巴素達"
     },
     {
       "original": "ミシェル, MICHELE",
-      "conv": "zh-cn:米谢儿;zh-tw:蜜雪兒;zh-hk:米雪兒"
+      "conv": "zh-cn:米谢儿; zh-tw:蜜雪兒; zh-hk:米雪兒"
     },
     {
       "original": "ミシェル・ルオ, MICHELE LUIO",
-      "conv": "zh-cn:米谢儿·卢欧;zh-tw:蜜雪兒·羅;zh-hk:米雪兒·羅"
+      "conv": "zh-cn:米谢儿·卢欧; zh-tw:蜜雪兒·羅; zh-hk:米雪兒·羅"
     },
     {
       "original": "リタ, RITA",
-      "conv": "zh-cn:莉塔;zh-tw:莉塔;zh-hk:莉達"
+      "conv": "zh-cn:莉塔; zh-tw:莉塔; zh-hk:莉達"
     },
     {
       "original": "ベルナル, Bernal",
-      "conv": "zh-cn:贝尔纳尔;zh-tw:貝爾納;zh-hk:貝爾納爾"
+      "conv": "zh-cn:贝尔纳尔; zh-tw:貝爾納; zh-hk:貝爾納爾"
     },
     {
       "original": "ルオ・ウーミン, Luio Woomin",
-      "conv": "zh-hans:卢欧·无明;zh-tw:羅武明;zh-hk:羅宇明"
+      "conv": "zh-hans:卢欧·无明; zh-tw:羅武明; zh-hk:羅宇明"
     },
     {
       "original": "イアゴ",
-      "conv": "zh-hans:伊阿古;zh-tw:伊亞格;zh-hk:伊亞歌"
+      "conv": "zh-hans:伊阿古; zh-tw:伊亞格; zh-hk:伊亞歌"
     },
     {
       "original": "ハーカナ",
-      "conv": "zh-hans:哈卡纳;zh-hk:夏加納"
+      "conv": "zh-hans:哈卡纳; zh-hk:夏加納"
     },
     {
       "original": "タマン",
-      "conv": "zh-hans:塔曼;zh-tw:塔曼;zh-hk:達文"
+      "conv": "zh-hans:塔曼; zh-tw:塔曼; zh-hk:達文"
     },
     {
       "original": "フランソン",
-      "conv": "zh-hans:弗兰森;zh-hk:法蘭臣"
+      "conv": "zh-hans:弗兰森; zh-hk:法蘭臣"
     },
     {
       "original": "ブリック",
-      "conv": "zh-hans:布里克;zh-hk:布力克"
+      "conv": "zh-hans:布里克; zh-hk:布力克"
     },
     {
       "original": "テクラート",
-      "conv": "zh-hans:迪克拉特;zh-hk:迪古拉度"
+      "conv": "zh-hans:迪克拉特; zh-hk:迪古拉度"
     },
     {
       "original": "ゾルタン",
-      "conv": "zh-cn:佐尔坦;zh-tw:佐爾坦;zh-hk:佐爾頓"
+      "conv": "zh-cn:佐尔坦; zh-tw:佐爾坦; zh-hk:佐爾頓"
     },
     {
       "original": "アッカネン",
-      "conv": "zh-cn:亚卡年;zh-tw:艾肯涅;zh-hk:阿卡寧"
+      "conv": "zh-cn:亚卡年; zh-tw:艾肯涅; zh-hk:阿卡寧"
     },
     {
       "original": "アバーエフ",
-      "conv": "zh-tw:艾巴耶夫;zh-hk:阿巴耶夫"
+      "conv": "zh-tw:艾巴耶夫; zh-hk:阿巴耶夫"
     },
     {
       "original": "ステファニー",
-      "conv": "zh-cn:斯蒂芬妮;zh-tw:史蒂芬妮;zh-hk:史提芬妮"
+      "conv": "zh-cn:斯蒂芬妮; zh-tw:史蒂芬妮; zh-hk:史提芬妮"
     },
     {
       "original": "エリク",
-      "conv": "zh-cn:埃里克;zh-tw:艾莉可;zh-hk:艾利克"
+      "conv": "zh-cn:埃里克; zh-tw:艾莉可; zh-hk:艾利克"
     },
     {
       "original": "ユーゴ",
-      "conv": "zh-cn:雨果;zh-tw:雨果;zh-hk:曉高"
+      "conv": "zh-cn:雨果; zh-tw:雨果; zh-hk:曉高"
     },
     {
       "original": "マフティー",
-      "conv": "zh-cn:马法狄;zh-tw:馬法狄;zh-hk:馬法狄"
+      "conv": "zh-cn:马法狄;zh-tw:馬法狄; zh-hk:馬法狄;"
     },
     {
       "original": "マフティー",
-      "conv": "zh-cn:马法提;zh-tw:馬法提;zh-hk:馬法狄"
+      "conv": "zh-cn:马法提;zh-tw:馬法提; zh-hk:馬法狄;"
     },
     {
       "original": "マフティー",
-      "conv": "zh-cn:马夫蒂;zh-tw:馬法提;zh-hk:馬法狄"
+      "conv": "zh-cn:马夫蒂;zh-tw:馬法提; zh-hk:馬法狄;"
     },
     {
       "original": "ケネス",
-      "conv": "zh-cn:凯奈斯;zh-tw:肯尼斯;zh-hk:堅尼斯"
+      "conv": "zh-cn:凯奈斯;zh-tw:肯尼斯; zh-hk:堅尼斯;"
     },
     {
       "original": "スレッグ",
-      "conv": "zh-cn:斯雷格;zh-tw:斯萊格;zh-hk:斯萊格"
+      "conv": "zh-cn:斯雷格;zh-tw:史萊格; zh-hk:斯萊格;"
     },
     {
       "original": "エメラルダ",
-      "conv": "zh-cn:艾梅拉尔妲;zh-tw:艾梅拉爾妲;zh-hk:艾美拉路達"
+      "conv": "zh-cn:艾梅拉尔妲;zh-tw:艾梅拉爾妲; zh-hk:艾美拉路達;"
     },
     {
       "original": "フェンサー",
-      "conv": "zh-cn:芬萨;zh-tw:芬瑟;zh-hk:芬薩"
-    },
-    {
-      "original": "ケイン",
-      "conv": "zh-cn:凯恩;zh-tw:凱恩;zh-hk:奇恩"
-    },
-    {
-      "original": "シベット",
-      "conv": "zh-cn:西贝特;zh-tw:西貝特;zh-hk:斯域特"
-    },
-    {
-      "original": "カウッサリア",
-      "conv": "zh-cn:卡乌萨里亚;zh-tw:卡烏薩里亞;zh-hk:卡奧莎尼亞"
-    },
-    {
-      "original": "ゲース",
-      "conv": "zh-cn:盖斯;zh-tw:蓋斯;zh-hk:紀斯"
-    },
-    {
-      "original": "クワック",
-      "conv": "zh-cn:库瓦克;zh-tw:庫瓦克;zh-hk:顧華克"
-    },
-    {
-      "original": "サルヴァー",
-      "conv": "zh-cn:萨尔瓦;zh-tw:薩爾瓦;zh-hk:薩爾法"
-    },
-    {
-      "original": "カーディアス",
-      "conv": "zh-cn:卡迪亚斯;zh-tw:卡迪亞斯;zh-hk:卡迪亞斯"
-    },
-    {
-      "original": "ヒューゲスト",
-      "conv": "zh-cn:修盖斯特;zh-hk:曉格特;zh-tw:休格特"
-    },
-    {
-      "original": "ミヘッシャ",
-      "conv": "zh-cn:米黑夏;zh-hk:米赫莎;zh-tw:米赫莎"
-    },
-    {
-      "original": "ハンドリー・ヨクサン",
-      "conv": "zh-cn:洪德利·翼赞;zh-hk:亨德利·翼贊;zh-tw:亨德利·約克森"
-    },
-    {
-      "original": "ガウマン",
-      "conv": "zh-cn:加乌曼;zh-hk:高曼;zh-tw:高曼"
-    },
-    {
-      "original": "ビルギット・ピリオ",
-      "conv": "zh-cn:比路基德·皮里奥;zh-tw:比利基·皮利歐;zh-hk:比路基特·彼利歐"
-    },
-    {
-      "original": "ビルギット",
-      "conv": "zh-cn:比路基德;zh-tw:比利基;zh-hk:比路基特"
-    },
-    {
-      "original": "ベラ・ロナ",
-      "conv": "zh-cn:贝拉·罗纳;zh-tw:貝拉·羅納;zh-hk:比拉·羅拿"
-    },
-    {
-      "original": "ベラ",
-      "conv": "zh-cn:贝拉;zh-tw:貝拉;zh-hk:比拉"
-    },
-    {
-      "original": "ベラ・ロナ",
-      "conv": "zh-cn:罗纳;zh-tw:羅納;zh-hk:羅拿"
-    },
-    {
-      "original": "セシリー",
-      "conv": "zh-cn:塞茜莉;zh-tw:賽西莉;zh-hk:茜茜莉"
-    },
-    {
-      "original": "フェアチャイルド",
-      "conv": "zh-cn:菲亚乔特;zh-tw:菲亞查德;zh-hk:費查特"
-    },
-    {
-      "original": "ザビーネ",
-      "conv": "zh-cn:萨比尼;zh-tw:薩比尼;zh-hk:查比尼"
-    },
-    {
-      "original": "ザビーネ",
-      "conv": "zh-hans:夏尔;zh-tw:夏爾;zh-hk:沙路"
-    },
-    {
-      "original": "ザビーネ",
-      "conv": "zh-cn:莉絲;zh-tw:莉絲;zh-hk:麗絲"
-    },
-    {
-      "original": "マイッツァー",
-      "conv": "zh-hans:麦兹亚;zh-hk:米捷亞;zh-tw:麥茲亞"
-    },
-    {
-      "original": "鉄仮面",
-      "conv": "zh-hans:鐵假面;zh-hk:鐵面具;zh-tw:鐵假面"
-    },
-    {
-      "original": "カロッゾ",
-      "conv": "zh-hans:卡羅索;zh-hk:卡羅佐;zh-tw:卡羅索"
-    },
-    {
-      "original": "トビア",
-      "conv": "zh-hans:托比亚;zh-hk:杜比安;zh-tw:托比亞"
-    },
-    {
-      "original": "アロナクス",
-      "conv": "zh-hans:亞羅納克斯;zh-hk:亞諾拿斯;zh-tw:亞羅納克斯"
-    },
-    {
-      "original": "テテニス",
-      "conv": "zh-hans:迪妮丝;zh-hk:狄妮絲;zh-tw:提提妮絲"
-    },
-    {
-      "original": "ドゥガチ",
-      "conv": "zh-hans:德卡兹;zh-hk:度加茲;zh-tw:德卡契"
-    },
-    {
-      "original": "キンケドゥ",
-      "conv": "zh-hans:金凯度;zh-hk:金格度;zh-tw:金凱杜"
-    },
-    {
-      "original": "ハリソン",
-      "conv": "zh-hans:哈里森;zh-hk:夏力遜;zh-tw:哈里遜"
-    },
-    {
-      "original": "ギリ",
-      "conv": "zh-hans:基利;zh-hk:基利;zh-tw:吉理"
-    },
-    {
-      "original": "バーンズ",
-      "conv": "zh-hans:班斯;zh-hk:班斯;zh-tw:巴恩斯"
-    },
-    {
-      "original": "ガーンズバック",
-      "conv": "zh-hans:冈兹巴克;zh-hk:格殊巴;zh-tw:岡茲巴克"
-    },
-    {
-      "original": "ローズマリー",
-      "conv": "zh-hans:露丝玛丽;zh-hk:露絲瑪莉;zh-tw:蘿絲瑪莉"
-    },
-    {
-      "original": "ベルナデット",
-      "conv": "zh-hans:碧拉狄;zh-hk:碧拉狄;zh-tw:貝娜提"
-    },
-    {
-      "original": "ブリエット",
-      "conv": "zh-hans:布利葉;zh-hk:布利葉;zh-tw:布里耶"
-    },
-    {
-      "original": "シェリンドン",
-      "conv": "zh-hans:莎蓮頓;zh-hk:莎蓮頓;zh-tw:雪琳頓"
-    },
-    {
-      "original": "クラックス",
-      "conv": "zh-hans:古洛斯;zh-hk:古洛斯;zh-tw:格拉克斯"
-    },
-    {
-      "original": "エヴィン",
-      "conv": "zh-cn:艾宾;zh-tw:艾溫;zh-hk:艾賓"
-    },
-    {
-      "original": "シャクティ",
-      "conv": "zh-cn:莎蒂;zh-tw:夏克蒂;zh-hk:莎蒂"
-    },
-    {
-      "original": "カリン",
-      "conv": "zh-cn:卡伦;zh-tw:卡林"
-    },
-    {
-      "original": "カテジナ・ルース",
-      "conv": "zh-cn:卡蒂珍娜·鲁斯;zh-tw:卡提吉娜·路斯;zh-hk:卡迪珍娜·路殊"
-    },
-    {
-      "original": "カテジナ",
-      "conv": "zh-cn:卡蒂珍娜;zh-tw:卡提吉娜;zh-hk:卡迪珍娜"
-    },
-    {
-      "original": "クロノクル",
-      "conv": "zh-cn:克罗诺克尔;zh-tw:庫羅諾克;zh-hk:古羅洛古路"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:哈蒙;zh-tw:哈蒙;zh-hk:愛文"
-    },
-    {
-      "original": "ティターンズ",
-      "conv": "zh-cn:提坦斯;zh-tw:迪坦斯;zh-hk:泰坦斯"
-    },
-    {
-      "original": "エゥーゴ",
-      "conv": "zh-cn:奥古;zh-tw:幽谷;zh-hk:奧干"
-    },
-    {
-      "original": "オデッサ",
-      "conv": "zh-cn:敖德萨;zh-tw:敖得薩;zh-hk:奧迪沙"
-    },
-    {
-      "original": "ジャブロー",
-      "conv": "zh-cn:加布罗;zh-tw:賈布羅;zh-hk:查布羅"
-    },
-    {
-      "original": "アクシズ",
-      "conv": "zh-cn:阿克西斯;zh-tw:阿克西斯;zh-hk:阿古捷斯"
-    },
-    {
-      "original": "アクシズ",
-      "conv": "阿古捷斯=>zh-cn:阿克西斯;阿古捷斯=>zh-tw:阿克西斯;阿古捷斯=>zh-hk:阿古捷斯"
-    },
-    {
-      "original": "ロンド・ベル",
-      "conv": "zh-cn:朗德·贝尔;zh-tw:隆德·貝爾;zh-hk:隆巴納"
-    },
-    {
-      "original": "デラーズ・フリート",
-      "conv": "zh-cn:迪拉兹舰队;zh-tw:迪拉茲艦隊;zh-hk:達拉斯艦隊"
-    },
-    {
-      "original": "ア・バオア・クー",
-      "conv": "zh-cn:阿·巴瓦·空;zh-tw:阿·保瓦·庫;zh-hk:阿·巴瓦·空"
-    },
-    {
-      "original": "アナハイム・エレクトロニクス",
-      "conv": "zh-cn:阿纳海姆电子产业联合体;zh-tw:亞納海姆電子產業聯合體;zh-hk:阿納海姆電子公司"
-    },
-    {
-      "original": "アナハイム",
-      "conv": "zh-cn:阿纳海姆;zh-tw:亞納海姆;zh-hk:阿納海姆"
-    },
-    {
-      "original": "グリプス",
-      "conv": "zh-cn:格利普斯;zh-tw:格里普斯;zh-hk:格利普斯"
-    },
-    {
-      "original": "グリプス",
-      "conv": "zh-cn:格利普斯;zh-tw:格里布斯;zh-hk:格利普斯"
-    },
-    {
-      "original": "グリプス",
-      "conv": "zh-cn:格利普斯;zh-tw:格利布斯;zh-hk:格利普斯"
-    },
-    {
-      "original": "ダカール",
-      "conv": "zh-cn:达喀尔;zh-tw:達卡;zh-hk:達喀爾"
-    },
-    {
-      "original": "フラナガン機關",
-      "conv": "zh-cn:弗拉纳冈机构;zh-tw:弗拉納岡機關;zh-hk:富林岡機構"
-    },
-    {
-      "original": "フラナガン機關",
-      "conv": "zh-cn:弗拉纳刚机构;zh-tw:佛拉那甘機關;zh-hk:富林岡機構"
-    },
-    {
-      "original": "フラナガン",
-      "conv": "zh-cn:弗拉纳冈;zh-tw:弗拉納岡;zh-hk:富林岡"
-    },
-    {
-      "original": "フラナガン",
-      "conv": "zh-cn:弗拉纳刚;zh-tw:佛拉那甘;zh-hk:富林岡"
-    },
-    {
-      "original": "ニューディサイズ",
-      "conv": "zh:新迪賽斯;zh-cn:新迪塞斯;zh-tw:新迪西斯;zh-hk:新迪西斯"
-    },
-    {
-      "original": "フォン・ブラウン",
-      "conv": "zh-cn:冯·布劳恩;zh-tw:馮·布朗;zh-hk:馮·布朗"
-    },
-    {
-      "original": "クロスボーン・バンガード",
-      "conv": "zh-cn:死亡先锋;zh-tw:骷髏尖兵;zh-hk:死亡先鋒"
-    },
-    {
-      "original": "ザンスカール",
-      "conv": "zh-cn:赞斯卡尔;zh-tw:贊斯卡爾;zh-hk:渣斯卡路"
-    },
-    {
-      "original": "スウィート・ウォーター",
-      "conv": "zh-cn:甘泉;zh-tw:甘泉;zh-hk:斯威特沃特"
-    },
-    {
-      "original": "ペズン, Pezun",
-      "conv": "zh-cn:培曾;zh-tw:培曾;zh-hk:彼茲"
-    },
-    {
-      "original": "ムーア同胞団, Moore Brotherhood",
-      "conv": "zh-cn:摩尔同胞团;zh-tw:姆亞同胞團;zh-hk:慕亞兄弟"
-    },
-    {
-      "original": "ムーア, Moore",
-      "conv": "zh-cn:摩尔;zh-tw:姆亞;zh-hk:慕亞"
-    },
-    {
-      "original": "リビング・デッド師団, Living Dead Division",
-      "conv": "zh-cn:活死人师团;zh-tw:活死人師團;zh-hk:活死人軍團"
-    },
-    {
-      "original": "シェザール, SCHEZAR",
-      "conv": "zh-hans:薛札尔;zh-tw:薛札爾;zh-hk:錫查爾"
-    },
-    {
-      "original": "ルオ商会",
-      "conv": "zh-hans:卢欧商会;zh-tw:羅商會;zh-hk:羅商會"
-    },
-    {
-      "original": "マスティマ",
-      "conv": "zh-tw:馭魔天使隊;zh-hk:莫斯提馬"
-    },
-    {
-      "original": "バーナム",
-      "conv": "zh-tw:巴南;zh-hk:巴納武"
-    },
-    {
-      "original": "マフティー",
-      "conv": "zh-cn:马法狄;zh-tw:馬法狄;zh-hk:馬法狄"
-    },
-    {
-      "original": "マフティー",
-      "conv": "zh-cn:马法提;zh-tw:馬法提;zh-hk:馬法狄"
-    },
-    {
-      "original": "マフティー",
-      "conv": "zh-cn:马夫蒂;zh-tw:馬法提;zh-hk:馬法狄"
-    },
-    {
-      "original": "ビノエ",
-      "conv": "zh-cn:比诺埃;zh-tw:比諾;zh-hk:拜諾"
-    },
-    {
-      "original": "ガンダム",
-      "conv": "zh:GUNDAM;zh-hans:高达;zh-cn:高达;zh-hk:高達;zh-tw:鋼彈"
-    },
-    {
-      "original": "ホワイトベース、WHITE BASE",
-      "conv": "zh-cn:白色木马;zh-tw:白色基地;zh-hk:太空母艦"
-    },
-    {
-      "original": "ザク、ZAKU",
-      "conv": "zh-cn:扎古;zh-tw:薩克;zh-hk:渣古"
-    },
-    {
-      "original": "ガンキャノン、GUNCANNON",
-      "conv": "zh-cn:钢加农;zh-tw:鋼加農;zh-hk:鐳射大砲"
-    },
-    {
-      "original": "ガンタンク、GUNTANK",
-      "conv": "zh-cn:钢坦克;zh-tw:鋼坦克;zh-hk:太空坦克"
-    },
-    {
-      "original": "コア・ファイター、CORE FIGHTER",
-      "conv": "zh-cn:核心战机;zh-tw:核戰機;zh-hk:核心戰機"
-    },
-    {
-      "original": "ガウ、GAW",
-      "conv": "zh-cn:加乌;zh-tw:卡烏;zh-hk:野牛"
-    },
-    {
-      "original": "グフ、GOUF",
-      "conv": "zh-cn:老虎;zh-tw:古夫;zh-hk:老虎"
-    },
-    {
-      "original": "エルメス、ELMETH",
-      "conv": "zh-cn:艾尔美斯;zh-tw:艾爾美斯;zh-hk:愛美號"
-    },
-    {
-      "original": "ボール、BALL",
-      "conv": "zh-cn:铁球;zh-tw:鋼球;zh-hk:鐵球"
-    },
-    {
-      "original": "ドム、DOM",
-      "conv": "zh-cn:大魔;zh-tw:德姆;zh-hk:大魔"
-    },
-    {
-      "original": "リック・ドム、RICK DOM",
-      "conv": "zh-cn:力克·大魔;zh-tw:力克·德姆;zh-hk:力奇·大魔"
-    },
-    {
-      "original": "リック・ドム、RICK-DOM",
-      "conv": "zh-cn:力克大魔;zh-tw:力克德姆;zh-hk:力奇大魔"
-    },
-    {
-      "original": "リック・ドム、RICK DOM",
-      "conv": "zh-cn:力克·大魔;zh-tw:里克·德姆;zh-hk:力奇·大魔"
-    },
-    {
-      "original": "リック・ドム、RICK-DOM",
-      "conv": "zh-cn:力克大魔;zh-tw:里克德姆;zh-hk:力奇大魔"
-    },
-    {
-      "original": "ゲルググ、Gelgoog",
-      "conv": "zh-cn:勇士;zh-tw:蓋古克;zh-hk:格魯古古"
-    },
-    {
-      "original": "ゲルググ、Gelgoog",
-      "conv": "zh-cn:勇士;zh-tw:傑爾古格;zh-hk:格魯古古"
-    },
-    {
-      "original": "ギャン、Gyan",
-      "conv": "zh-cn:强人;zh-tw:甘恩;zh-hk:強人"
-    },
-    {
-      "original": "アッガイ、ACGUY",
-      "conv": "zh-cn:龟霸;zh-tw:亞凱;zh-hk:龜霸"
-    },
-    {
-      "original": "ズゴック、Z'GOK",
-      "conv": "zh-cn:魔蟹;zh-tw:茲卡克;zh-hk:魔蟹"
-    },
-    {
-      "original": "ズゴック、Z'GOK",
-      "conv": "zh-cn:魔蟹;zh-tw:茲寇克;zh-hk:魔蟹"
-    },
-    {
-      "original": "ゴッグ、GOGG",
-      "conv": "zh-cn:战蟹;zh-tw:葛克;zh-hk:戰蟹"
-    },
-    {
-      "original": "ブラウ・ブロ、BRAW BRO",
-      "conv": "zh-cn:布劳·布罗;zh-tw:布勞·普羅;zh-hk:波羅號"
-    },
-    {
-      "original": "ビグ・ザム、BYG-ZAM",
-      "conv": "zh-cn:大扎姆;zh-tw:畢克·薩姆;zh-hk:魔霸"
-    },
-    {
-      "original": "ザクレロ、ZAKRELLO",
-      "conv": "zh-cn:渣古雷洛;zh-tw:薩克雷洛;zh-hk:渣古尼羅"
-    },
-    {
-      "original": "パーフェクトガンダム、PERFECT -{GUNDAM}-",
-      "conv": "zh-cn:完美高达;zh-tw:全備型鋼彈;zh-hk:完美高達"
-    },
-    {
-      "original": "ジオング、Zeong",
-      "conv": "zh-cn:吉恩号;zh-tw:吉翁號;zh-hk:自護號"
-    },
-    {
-      "original": "ジオング、Zeong",
-      "conv": "吉翁克=>zh-cn:吉恩号;吉翁克=>zh-hk:自護號"
-    },
-    {
-      "original": "グワジン、Gwazine",
-      "conv": "zh-cn:格瓦金;zh-tw:格瓦金;zh-hk:古華遜"
-    },
-    {
-      "original": "ムサイ、Musai",
-      "conv": "zh-cn:姆塞;zh-tw:姆塞;zh-hk:姆賽"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:实验型高达;zh-tw:實驗型鋼彈;zh-hk:實驗型高達"
-    },
-    {
-      "original": "ブルーディスティニー、Blue Destiny",
-      "conv": "zh-cn:苍蓝宿命;zh-tw:藍色命運;zh-hk:藍色命運"
-    },
-    {
-      "original": "グフカスタム、Gouf Custom",
-      "conv": "zh-cn:老虎特装型;zh-tw:古夫强化特装型;zh-hk:老虎改"
-    },
-    {
-      "original": "フルアーマー・ガンダム，FULL ARMOR Gundam",
-      "conv": "zh:全武裝GUNDAM;zh-tw:全裝甲型鋼彈;zh-hk:全武裝高達"
-    },
-    {
-      "original": "フルアーマー・ガンダム，FULL ARMOR Gundam",
-      "conv": "zh:全裝甲型GUNDAM;zh-tw:全裝甲型鋼彈;zh-hk:全武裝高達"
-    },
-    {
-      "original": "アトラスガンダム，Atlas Gundam",
-      "conv": "zh:擎天神GUNDAM;zh-tw:擎天神鋼彈;zh-hk:阿特拉斯高達"
-    },
-    {
-      "original": "アトラスガンダム，Atlas Gundam",
-      "conv": "zh:阿特拉斯GUNDAM;zh-tw:擎天神鋼彈;zh-hk:阿特拉斯高達"
-    },
-    {
-      "original": "アレックス、Alex",
-      "conv": "zh-cn:阿历克斯;zh-tw:亞列克斯;zh-hk:亞歷斯"
-    },
-    {
-      "original": "ケンプファー、Kampfer",
-      "conv": "zh-cn:京宝梵;zh-tw:肯普法;zh-hk:京寶梵"
-    },
-    {
-      "original": "ハイゴッグ、HY-GOGG",
-      "conv": "zh-cn:高战蟹;zh-tw:高性能葛克;zh-hk:高戰蟹"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:扎古ⅡF2型;zh-tw:薩克ⅡF2型;zh-hk:渣古ⅡF2型"
-    },
-    {
-      "original": "ドラッツェ、Dra-C",
-      "conv": "zh-cn:特拉杰;zh-tw:特拉傑;zh-hk:多拉傑"
-    },
-    {
-      "original": "ザメル、Xamel",
-      "conv": "zh-cn:扎梅尔;zh-tw:札梅爾;zh-hk:薩米路"
-    },
-    {
-      "original": "アルビオン、Arubion",
-      "conv": "zh-cn:阿尔比昂;zh-tw:亞爾比翁;zh-hk:阿爾比昂"
-    },
-    {
-      "original": "ノイエ・ジール、NEUE ZIEL",
-      "conv": "zh-cn:露维·捷露;zh-tw:諾耶·吉爾;zh-hk:露維·捷露"
-    },
-    {
-      "original": "ザンジバル、Zanzibar",
-      "conv": "zh-cn:桑给巴尔;zh-tw:桑吉巴爾;zh-hk:嶄新號"
-    },
-    {
-      "original": "ザンジバル級、Zanzibar-class",
-      "conv": "zh-cn:桑给巴尔级;zh-tw:桑吉巴爾級;zh-hk:嶄新級"
-    },
-    {
-      "original": "ガーベラ・テトラ、Gerbera Tetra",
-      "conv": "zh-cn:加贝拉·迪特;zh-tw:卡貝拉·迪特拉;zh-hk:加貝拉·迪特"
-    },
-    {
-      "original": "ガーベラ、Gerbera",
-      "conv": "zh-cn:加贝拉;zh-tw:卡貝拉;zh-hk:加貝拉"
-    },
-    {
-      "original": "テトラ、Tetra",
-      "conv": "zh-cn:迪特;zh-tw:迪特拉;zh-hk:迪特"
-    },
-    {
-      "original": "Zガンダム",
-      "conv": "zh:Z GUNDAM;zh-hans:Z高达;zh-cn:Z高达;zh-hk:Z高達;zh-tw:Z鋼彈"
-    },
-    {
-      "original": "Ζガンダム",
-      "conv": "zh:Ζ GUNDAM;zh-hans:Ζ高达;zh-cn:Ζ高达;zh-hk:Ζ高達;zh-tw:Ζ鋼彈"
-    },
-    {
-      "original": "ガンダムMK-II",
-      "conv": "zh:GUNDAM MK-II;zh-hans:高达MK-II;zh-cn:高达MK-II;zh-hk:高達MK-II;zh-tw:鋼彈MK-II"
-    },
-    {
-      "original": "ハイザック、HI-ZACK",
-      "conv": "zh-cn:高扎古;zh-tw:高性能薩克（強薩克）;zh-hk:高渣古"
-    },
-    {
-      "original": "ジム・キャノン、GM CANNON",
-      "conv": "zh-cn:吉姆加农;zh-tw:吉姆加農砲型;zh-hk:吉姆大砲"
-    },
-    {
-      "original": "ジム・キャノン、GM CANNON",
-      "conv": "zh-cn:吉姆加农;zh-tw:吉姆加農;zh-hk:吉姆大砲"
-    },
-    {
-      "original": "ザク・キャノン、ZAKU CANNON",
-      "conv": "zh-cn:渣古加农;zh-tw:薩克加農;zh-hk:渣古大砲"
-    },
-    {
-      "original": "ネモ、NEMO",
-      "conv": "zh-cn:尼莫;zh-tw:尼摩;zh-hk:雷姆"
-    },
-    {
-      "original": "アッシマー、ASSHIMAR",
-      "conv": "zh-cn:阿斯曼;zh-tw:阿西瑪;zh-hk:亞斯曼"
-    },
-    {
-      "original": "アッシマー、ASSHIMAR",
-      "conv": "zh-cn:阿斯曼;zh-tw:亞席瑪;zh-hk:亞斯曼"
-    },
-    {
-      "original": "アッシマー、ASSHIMAR",
-      "conv": "zh-cn:阿斯曼;zh-tw:阿席瑪;zh-hk:亞斯曼"
-    },
-    {
-      "original": "メッサーラ、Messala",
-      "conv": "zh-cn:梅萨拉;zh-tw:梅薩拉;zh-hk:密沙羅"
-    },
-    {
-      "original": "パラス・アテネ、Palace Athene",
-      "conv": "zh-cn:帕拉斯·雅典娜;zh-tw:雅典娜宮殿（帕拉斯·雅典娜）;zh-hk:柏拉斯·亞迪尼"
-    },
-    {
-      "original": "ボリノーク・サマーン、Bolinoak Sammahn",
-      "conv": "zh-cn:波利诺克·沙曼;zh-tw:Bolinoak Sammahn;zh-hk:波連洛·沙曼"
-    },
-    {
-      "original": "ジ・O、THE O",
-      "conv": "zh-cn:铁奥;zh-tw:吉歐;zh-hk:鐵奧"
-    },
-    {
-      "original": "マラサイ、MARASAI",
-      "conv": "zh-cn:玛拉赛;zh-tw:馬拉賽;zh-hk:姆歷沙"
-    },
-    {
-      "original": "バーザム、BARZAM",
-      "conv": "zh-cn:巴扎姆;zh-tw:巴薩姆;zh-hk:巴煞"
-    },
-    {
-      "original": "メタス、Methuss",
-      "conv": "zh-cn:梅塔斯;zh-tw:梅塔斯;zh-hk:密達斯"
-    },
-    {
-      "original": "ガブスレイ、GABTHLEY",
-      "conv": "zh-cn:加布斯雷;zh-tw:蓋普斯雷;zh-hk:葛士尼"
-    },
-    {
-      "original": "ハンブラビ、HAMBRABI",
-      "conv": "zh-cn:汉木拉比;zh-tw:漢柏拉比;zh-hk:赫巴比"
-    },
-    {
-      "original": "バイアラン、BYARLANT",
-      "conv": "zh-cn:拜亚兰;zh-tw:拜亞藍;zh-hk:拜亞蘭"
-    },
-    {
-      "original": "サイコガンダム、PSYCO--{GUNDAM}-",
-      "conv": "zh-cn:精神感应高达;zh-tw:精神感應式鋼彈（賽可鋼彈）;zh-hk:重高達"
-    },
-    {
-      "original": "サイコガンダム、PSYCO--{GUNDAM}-",
-      "conv": "zh-cn:精神感应高达;zh-tw:賽可鋼彈;zh-hk:重高達"
-    },
-    {
-      "original": "リック・ディアス、RICK DIAS",
-      "conv": "zh-cn:力克·迪亚斯;zh-tw:力克·迪亞斯;zh-hk:力奇·戴亞斯"
-    },
-    {
-      "original": "リック・ディアス、RICK DIAS",
-      "conv": "zh-cn:力克迪亚斯;zh-tw:力克迪亞斯;zh-hk:力奇戴亞斯"
-    },
-    {
-      "original": "リック・ディアス、RICK DIAS",
-      "conv": "zh-cn:力克·迪亚斯;zh-tw:里克·迪亞斯;zh-hk:力奇·戴亞斯"
-    },
-    {
-      "original": "リック・ディアス、RICK DIAS",
-      "conv": "zh-cn:力克迪亚斯;zh-tw:里克迪亞斯;zh-hk:力奇戴亞斯"
-    },
-    {
-      "original": "ディアス、DIAS",
-      "conv": "zh-cn:迪亚斯;zh-tw:迪亞斯;zh-hk:戴亞斯"
-    },
-    {
-      "original": "アーガマ、Argama",
-      "conv": "zh-cn:阿伽玛;zh-tw:阿含號;zh-hk:亞加瑪"
-    },
-    {
-      "original": "アーガマ、Argama",
-      "conv": "zh-cn:阿伽玛;zh-tw:阿卡瑪;zh-hk:亞加瑪"
-    },
-    {
-      "original": "アーガマ、Argama",
-      "conv": "zh-cn:阿伽玛;zh-tw:阿卡馬;zh-hk:亞加瑪"
-    },
-    {
-      "original": "ガザ、Gaza",
-      "conv": "zh-cn:加萨;zh-tw:卡薩;zh-hk:加煞"
-    },
-    {
-      "original": "キュベレイ、Qubeley",
-      "conv": "zh-cn:卡碧尼;zh-tw:丘貝雷;zh-hk:卡碧尼"
-    },
-    {
-      "original": "キュベレイ、Galbaldy",
-      "conv": "zh-cn:加尔巴迪;zh-tw:卡爾巴迪;zh-hk:哥邦迪"
-    },
-    {
-      "original": "ディジェ、Dijeh",
-      "conv": "zh-cn:迪杰;zh-tw:迪傑;zh-hk:迪謝"
-    },
-    {
-      "original": "サラミス、Salamis",
-      "conv": "zh-cn:萨拉米斯;zh-tw:薩拉米斯;zh-hk:薩拉米斯"
-    },
-    {
-      "original": "モンブラン、Mont Blanc",
-      "conv": "zh-cn:勃朗峰;zh-hk:莫布朗"
-    },
-    {
-      "original": "ドゴス･ギア、DOGOSSE GIAR",
-      "conv": "zh-cn:多哥斯基亞;zh-tw:德克斯·基亞;zh-hk:多哥斯基亞"
-    },
-    {
-      "original": "ゼク、Xeku",
-      "conv": "zh-cn:赛克;zh-tw:賽克;zh-hk:沙古"
-    },
-    {
-      "original": "ZZガンダム",
-      "conv": "zh:ZZ GUNDAM;zh-hans:ZZ高达;zh-cn:ZZ高达;zh-hk:ZZ高達;zh-tw:ZZ鋼彈"
-    },
-    {
-      "original": "ΖΖガンダム",
-      "conv": "zh:ΖΖ GUNDAM;zh-hans:ΖΖ高达;zh-cn:ΖΖ高达;zh-hk:ΖΖ高達;zh-tw:ΖΖ鋼彈"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:扎古Ⅲ;zh-tw:薩克Ⅲ;zh-hk:渣古Ⅲ"
-    },
-    {
-      "original": "ガルス、GALLUSS",
-      "conv": "zh-cn:卡尔斯;zh-tw:卡爾斯;zh-hk:扎斯"
-    },
-    {
-      "original": "ゲーマルク、GEYMALK",
-      "conv": "zh-cn:盖·马克;zh-tw:蓋·馬克;zh-hk:京麥古"
-    },
-    {
-      "original": "ゲーマルク、GEYMALK",
-      "conv": "zh-cn:盖马克;zh-tw:蓋馬克;zh-hk:京麥古"
-    },
-    {
-      "original": "ハンマ・ハンマ、HAMMA HAMMA",
-      "conv": "zh-cn:哈玛·哈玛;zh-tw:漢馬·漢馬;zh-hk:哈馬·哈馬"
-    },
-    {
-      "original": "R・ジャジャ、R-JARJA",
-      "conv": "zh-cn:R·贾贾;zh-tw:R·加加;zh-hk:R·查查"
-    },
-    {
-      "original": "ガ・ゾウム、GA-ZOWMN",
-      "conv": "zh-cn:加佐姆;zh-tw:加索姆;zh-hk:加索姆"
-    },
-    {
-      "original": "ドライセン、DREISSEN",
-      "conv": "zh-cn:德莱森;zh-tw:德萊森;zh-hk:達拉森"
-    },
-    {
-      "original": "ドーベン・ウルフ、Döven Wolf",
-      "conv": "zh-cn:飙狼;zh-hans:飙狼;zh-tw:杜班·烏爾夫;zh-hk:達希魯夫"
-    },
-    {
-      "original": "ドーベン・ウルフ、Döven Wolf",
-      "conv": "zh-hans:飆狼;zh-tw:杜班·烏爾夫;zh-hk:達希魯夫"
-    },
-    {
-      "original": "バウ、BAWOO",
-      "conv": "zh-cn:龙飞;zh-tw:巴烏;zh-hk:龍飛"
-    },
-    {
-      "original": "ズサ、ZSSA",
-      "conv": "zh-cn:兹萨;zh-tw:茲沙;zh-hk:瑞莎"
-    },
-    {
-      "original": "νガンダム",
-      "conv": "zh:ν GUNDAM;zh-hans:ν高达;zh-cn:ν高达;zh-hk:ν高達;zh-tw:ν鋼彈"
-    },
-    {
-      "original": "ジェガン、JEGAN",
-      "conv": "zh-cn:杰刚;zh-tw:傑鋼;zh-hk:積根"
-    },
-    {
-      "original": "ジェガン、JEGAN",
-      "conv": "zh-cn:杰刚;zh-tw:傑剛;zh-hk:積根"
-    },
-    {
-      "original": "サザビー、Sazabi",
-      "conv": "zh-cn:沙扎比;zh-tw:沙薩比;zh-hk:沙煞比"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:α;zh-tw:α;zh-hk:α"
-    },
-    {
-      "original": "アジール、Azieru",
-      "conv": "zh-cn:阿索隆;zh-tw:阿基爾;zh-hk:亞索龍"
-    },
-    {
-      "original": "ギラ・ドーガ、GEARA-DOGA",
-      "conv": "zh-cn:基拉·德卡;zh-tw:吉拉·德卡;zh-hk:居拉·德卡"
-    },
-    {
-      "original": "ギラ・ドーガ、GEARA-DOGA",
-      "conv": "zh-cn:基拉德卡;zh-tw:吉拉德卡;zh-hk:居拉德卡"
-    },
-    {
-      "original": "ヤクト・ドーガ、Jagd Doga",
-      "conv": "zh-cn:乍得·多加;zh-tw:亞克托·德卡;zh-hk:乍德·德卡"
-    },
-    {
-      "original": "ヤクト・ドーガ、Jagd Doga",
-      "conv": "zh-cn:乍得多加;zh-tw:亞克托德卡;zh-hk:乍德德卡"
-    },
-    {
-      "original": "ラー・カイラム、Ra Cailum",
-      "conv": "zh-cn:拉·凯拉姆;zh-tw:拉·凱拉姆;zh-hk:拉·格林"
-    },
-    {
-      "original": "ドワッジ、Dwadge",
-      "conv": "zh-cn:德瓦基;zh-tw:德瓦基;zh-hk:多華茲"
-    },
-    {
-      "original": "ドワッジ、Dowadge",
-      "conv": "zh-cn:多瓦吉;zh-tw:多瓦吉;zh-hk:多華茲"
-    },
-    {
-      "original": "フルアーマーユニコーン 、FULL ARMOR UNICORN",
-      "conv": "zh-tw:全裝甲型獨角獸;zh-hk:全武裝獨角獸"
-    },
-    {
-      "original": "デストロイモード 、DESTROY MODE",
-      "conv": "zh-cn:毁灭模式;zh-tw:毀滅模式;zh-hk:破壞模式"
-    },
-    {
-      "original": "バンシィ・ノルン 、BANSHEE NORN",
-      "conv": "zh-cn:报丧女妖·命运女神;zh-tw:報喪女妖命運女神型;zh-hk:報喪女妖命運女神"
-    },
-    {
-      "original": "ギラ・ズール、GEARA-ZULU",
-      "conv": "zh-hans:基拉·祖魯;zh-cn:基拉·祖鲁;zh-tw:吉拉·祖魯;zh-hk:居拉·祖魯"
-    },
-    {
-      "original": "ギラ・ズール、GEARA-ZULU",
-      "conv": "zh-hans:基拉祖魯;zh-cn:基拉祖鲁;zh-tw:吉拉祖魯;zh-hk:居拉祖魯"
-    },
-    {
-      "original": "ネェル，Nahel",
-      "conv": "zh-cn:拟·;zh-tw:擬·;zh-hk:新·"
-    },
-    {
-      "original": "ネェル，Nahel",
-      "conv": "zh-cn:拟·;zh-tw:擬・;zh-hk:新·"
-    },
-    {
-      "original": "ネェル・アーガマ，Nahel Argama",
-      "conv": "zh-cn:拟·阿伽玛;zh-tw:擬·阿含號;zh-hk:新·亞加瑪"
-    },
-    {
-      "original": "ネェル・アーガマ，Nahel Argama",
-      "conv": "zh-cn:拟·阿伽玛;zh-tw:擬·阿卡瑪;zh-hk:新·亞加瑪"
-    },
-    {
-      "original": "ネェル・アーガマ，Nahel Argama",
-      "conv": "zh-cn:拟阿伽玛;zh-tw:擬阿卡瑪;zh-hk:新亞加瑪"
-    },
-    {
-      "original": "ネェル・アーガマ，Nahel Argama",
-      "conv": "zh-cn:拟阿伽玛;zh-tw:擬阿卡馬;zh-hk:新亞加瑪"
-    },
-    {
-      "original": "ネェル・アーガマ，Nahel Argama",
-      "conv": "zh-cn:拟·阿伽玛;zh-tw:擬·阿卡馬;zh-hk:新·亞加瑪"
-    },
-    {
-      "original": "デルタプラス，DELTA PLUS，Δ+，𝛿+",
-      "conv": "zh-tw:德爾塔普拉斯;zh-hk:DELTA PLUS"
-    },
-    {
-      "original": "デルタ，DELTA，Δ，𝛿",
-      "conv": "zh-cn:德尔塔;zh-tw:德爾塔;zh-hk:DELTA"
-    },
-    {
-      "original": "G-ファースト，G-First",
-      "conv": "zh-cn:G-FIRST;zh-tw:G-優先;zh-hk:G-FIRST"
-    },
-    {
-      "original": "シナンジュ，Sinanju",
-      "conv": "zh-cn:新安洲;zh-tw:新安州;zh-hk:新安州"
-    },
-    {
-      "original": "ナラティブガンダム、Narrative Gundam",
-      "conv": "zh-cn:NT高达;zh-tw:故事鋼彈;zh-hk:敘述高達"
-    },
-    {
-      "original": "ナラティブガンダム、Narrative Gundam",
-      "conv": "zh-cn:NT高达;zh-tw:NT鋼彈;zh-hk:敘述高達"
-    },
-    {
-      "original": "スタイン、Stein",
-      "conv": "zh-cn:原石;zh-tw:原石;zh-hk:斯坦因"
-    },
-    {
-      "original": "Ξガンダム",
-      "conv": "zh:Ξ GUNDAM;zh-hans:Ξ高达;zh-cn:Ξ高达;zh-hk:Ξ高達;zh-tw:Ξ鋼彈"
-    },
-    {
-      "original": "ペーネロペー",
-      "conv": "zh-cn:佩涅罗佩;zh-hk:潘尼洛普;zh-tw:潘娜洛普"
-    },
-    {
-      "original": "ガンダムF90",
-      "conv": "zh:GUNDAM F90;zh-cn:高达F90;zh-tw:鋼彈F90;zh-hk:高達F90"
-    },
-    {
-      "original": "ガンダムF91",
-      "conv": "zh:GUNDAM F91;zh-cn:高达F91;zh-tw:鋼彈F91;zh-hk:高達F91"
-    },
-    {
-      "original": "Vガンダム、V Gundam",
-      "conv": "zh:V GUNDAM;zh-cn:V高达;zh-tw:V鋼彈;zh-hk:V高達"
-    },
-    {
-      "original": "V2ガンダム、V2 Gundam",
-      "conv": "zh:V2 GUNDAM;zh-cn:V2高达;zh-tw:V2鋼彈;zh-hk:V2高達"
-    },
-    {
-      "original": "ゴッゾーラ、Godzorla",
-      "conv": "zh-cn:戈佐拉;zh-tw:戈佐拉;zh-hk:哥索拉"
-    },
-    {
-      "original": "リグ・シャッコー、Rig Shokew",
-      "conv": "zh-cn:里格·夏柯;zh-tw:里格·夏柯;zh-hk:利古·察高"
-    },
-    {
-      "original": "リグ・シャッコー、Rig Shokew",
-      "conv": "zh-cn:里格夏柯;zh-tw:里格夏柯;zh-hk:利古察高"
-    },
-    {
-      "original": "シャッコー、Shokew",
-      "conv": "zh-cn:夏柯;zh-tw:夏柯;zh-hk:察高"
-    },
-    {
-      "original": "リック・ディジェ、Rick Dijeh",
-      "conv": "zh-cn:力克·迪杰;zh-tw:力克·迪傑;zh-hk:力奇·迪謝"
-    },
-    {
-      "original": "リック・ディジェ、Rick Dijeh",
-      "conv": "zh-cn:力克迪杰;zh-tw:力克迪傑;zh-hk:力奇迪謝"
-    },
-    {
-      "original": "ガンダム0083",
-      "conv": "zh:GUNDAM 0083;zh-hans:高达0083;zh-cn:高达0083;zh-hk:高達0083;zh-tw:鋼彈0083"
-    },
-    {
-      "original": "ガンダムZZ",
-      "conv": "zh:GUNDAM ZZ;zh-hans:高达ZZ;zh-cn:高达ZZ;zh-hk:高達ZZ;zh-tw:鋼彈ZZ"
-    },
-    {
-      "original": "ガンダムΖΖ",
-      "conv": "zh:GUNDAM ΖΖ;zh-hans:高达ΖΖ;zh-cn:高达ΖΖ;zh-hk:高達ΖΖ;zh-tw:鋼彈ΖΖ"
-    },
-    {
-      "original": "逆襲のシャア、Char's Counter Attack",
-      "conv": "zh-cn:逆袭的夏亚;zh-tw:逆襲的夏亞;zh-hk:馬沙之反擊"
-    },
-    {
-      "original": "コロニーの落ちた地で…、Rise From the Ashes",
-      "conv": "zh-cn:殖民地坠落之地;zh-tw:殖民地墜落之地;zh-hk:殖民星墜落之地"
-    },
-    {
-      "original": "閃光のハサウェイ、Hathaway's Flash",
-      "conv": "zh-cn:闪光之哈萨维;zh-tw:閃光之哈薩維;zh-hk:閃光之凱薩衛"
-    },
-    {
-      "original": "閃光のハサウェイ、Hathaway's Flash",
-      "conv": "zh-cn:闪光之哈萨维;zh-tw:閃光的哈薩威;zh-hk:閃光之凱薩衛"
-    },
-    {
-      "original": "閃光のハサウェイ、Hathaway's Flash",
-      "conv": "zh-cn:闪光的哈撒韦;zh-tw:閃光的哈薩威;zh-hk:閃光之凱薩衛"
-    },
-    {
-      "original": "閃光のハサウェイ、Hathaway's Flash",
-      "conv": "zh-cn:闪光的哈萨威;zh-tw:閃光的哈薩威;zh-hk:閃光之凱薩衛"
-    },
-    {
-      "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
-      "conv": "zh-cn:贝托蒂嘉的子嗣;zh-tw:貝托蒂嘉的子嗣;zh-hk:貝積加的孩子"
-    },
-    {
-      "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
-      "conv": "zh-cn:贝尔迪琦嘉的子嗣;zh-tw:貝托蒂嘉的子嗣;zh-hk:貝積加的孩子"
-    },
-    {
-      "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
-      "conv": "zh-cn:贝托蒂加的子嗣;zh-tw:貝托蒂嘉的子嗣;zh-hk:貝積加的孩子"
-    },
-    {
-      "original": "サンダーボルト、Thunderbolt",
-      "conv": "zh-cn:雷霆宙域战线;zh-tw:雷霆宙域戰線;zh-hk:雷霆戰線"
-    },
-    {
-      "original": "ムーンガンダム、MOONガンダム",
-      "conv": "zh:MOON GUNDAM;zh-hans:MOON高达;zh-cn:MOON高达;zh-hk:MOON高達;zh-tw:MOON鋼彈"
-    },
-    {
-      "original": "ガンダムUC",
-      "conv": "zh:GUNDAM UC;zh-cn:高达UC;zh-tw:鋼彈UC;zh-hk:高達UC"
-    },
-    {
-      "original": "ガンダムNT",
-      "conv": "zh:GUNDAM NT;zh-cn:高达NT;zh-tw:鋼彈NT;zh-hk:高達NT"
-    },
-    {
-      "original": "ニュータイプ",
-      "conv": "zh-cn:New Type;zh-tw:新人類;zh-hk:新類型人"
-    },
-    {
-      "original": "ニュータイプ",
-      "conv": "zh-cn:NewType;zh-tw:新人類;zh-hk:新類型人"
-    },
-    {
-      "original": "フィンファンネル、Fin Funnel",
-      "conv": "zh-cn:飞翅浮游炮;zh-tw:鰭形感應炮;zh-hk:浮游飛翔砲"
-    },
-    {
-      "original": "ファンネル、Funnel",
-      "conv": "zh-cn:浮游炮;zh-tw:感應砲;zh-hk:浮游砲"
-    },
-    {
-      "original": "ファンネル、Funnel",
-      "conv": "zh-cn:浮游炮;zh-tw:感應炮;zh-hk:浮游砲"
+      "conv": "zh-cn:芬萨;zh-tw:芬瑟; zh-hk:芬薩;"
     },
     {
       "original": "",
-      "conv": "zh-cn:炮;zh-tw:砲;zh-hk:砲"
+      "conv": "zh-cn:雷恩;zh-hk:雷恩;zh-tw:連恩;"
+    },
+    {
+      "original": "ケイン",
+      "conv": "zh-cn:凯恩;zh-tw:凱恩; zh-hk:奇恩;"
+    },
+    {
+      "original": "シベット",
+      "conv": "zh-cn:西贝特;zh-tw:西貝特; zh-hk:斯域特;"
+    },
+    {
+      "original": "カウッサリア",
+      "conv": "zh-cn:卡乌萨里亚;zh-tw:卡烏薩里亞; zh-hk:卡奧莎尼亞;"
+    },
+    {
+      "original": "ゲース",
+      "conv": "zh-cn:盖斯;zh-tw:蓋斯; zh-hk:紀斯;"
+    },
+    {
+      "original": "クワック",
+      "conv": "zh-cn:库瓦克;zh-tw:庫瓦克; zh-hk:顧華克;"
+    },
+    {
+      "original": "サルヴァー",
+      "conv": "zh-cn:萨尔瓦;zh-tw:薩爾瓦; zh-hk:薩爾法;"
+    },
+    {
+      "original": "カーディアス",
+      "conv": "zh-cn:卡迪亚斯;zh-tw:卡迪亞斯; zh-hk:卡迪亞斯;"
+    },
+    {
+      "original": "ヒューゲスト",
+      "conv": "zh-cn:修盖斯特;zh-hk:曉格特;zh-tw:休格特;"
+    },
+    {
+      "original": "ミヘッシャ",
+      "conv": "zh-cn:米黑夏;zh-hk:米赫莎;zh-tw:米赫莎;"
+    },
+    {
+      "original": "ハンドリー・ヨクサン",
+      "conv": "zh-cn:洪德利·翼赞;zh-hk:亨德利·翼贊;zh-tw:亨德利·約克森;"
+    },
+    {
+      "original": "ガウマン",
+      "conv": "zh-cn:加乌曼;zh-hk:高曼;zh-tw:高曼;"
+    },
+    {
+      "original": "ビルギット・ピリオ",
+      "conv": "zh-cn:比路基德·皮里奥; zh-tw:比利基·皮利歐;zh-hk:比路基特·彼利歐"
+    },
+    {
+      "original": "ビルギット",
+      "conv": "zh-cn:比路基德; zh-tw:比利基; zh-hk:比路基特"
+    },
+    {
+      "original": "ベラ・ロナ",
+      "conv": "zh-cn:贝拉·罗纳; zh-tw:貝拉·羅納; zh-hk:比拉·羅拿"
+    },
+    {
+      "original": "ベラ",
+      "conv": "zh-cn:贝拉; zh-tw:貝拉; zh-hk:比拉"
+    },
+    {
+      "original": "ベラ・ロナ",
+      "conv": "zh-cn:罗纳; zh-tw:羅納; zh-hk:羅拿"
+    },
+    {
+      "original": "セシリー",
+      "conv": "zh-cn:塞茜莉; zh-tw:賽西莉; zh-hk:茜茜莉;"
+    },
+    {
+      "original": "フェアチャイルド",
+      "conv": "zh-cn:菲亚乔特; zh-tw:菲亞查德; zh-hk:費查特;"
+    },
+    {
+      "original": "ザビーネ",
+      "conv": "zh-cn:萨比尼; zh-tw:薩比尼; zh-hk:查比尼;"
+    },
+    {
+      "original": "ザビーネ",
+      "conv": "zh-hans:夏尔;zh-tw:夏爾; zh-hk:沙路;"
+    },
+    {
+      "original": "ザビーネ",
+      "conv": "zh-cn:莉絲; zh-tw:莉絲; zh-hk:麗絲;"
+    },
+    {
+      "original": "マイッツァー",
+      "conv": "zh-hans:麦兹亚;zh-hk:米捷亞;zh-tw:麥茲亞;"
+    },
+    {
+      "original": "鉄仮面",
+      "conv": "zh-hans:鐵假面;zh-hk:鐵面具;zh-tw:鐵假面;"
+    },
+    {
+      "original": "カロッゾ",
+      "conv": "zh-hans:卡羅索;zh-hk:卡羅佐;zh-tw:卡羅索;"
+    },
+    {
+      "original": "トビア",
+      "conv": "zh-hans:托比亚;zh-hk:杜比安;zh-tw:托比亞;"
+    },
+    {
+      "original": "アロナクス",
+      "conv": "zh-hans:亞羅納克斯;zh-hk:亞諾拿斯;zh-tw:亞羅納克斯;"
+    },
+    {
+      "original": "テテニス",
+      "conv": "zh-hans:迪妮丝;zh-hk:狄妮絲;zh-tw:提提妮絲;"
+    },
+    {
+      "original": "ドゥガチ",
+      "conv": "zh-hans:德卡兹;zh-hk:度加茲;zh-tw:德卡契;"
+    },
+    {
+      "original": "キンケドゥ",
+      "conv": "zh-hans:金凯度;zh-hk:金格度;zh-tw:金凱杜;"
+    },
+    {
+      "original": "ハリソン",
+      "conv": "zh-hans:哈里森;zh-hk:夏力遜;zh-tw:哈里遜;"
+    },
+    {
+      "original": "ギリ",
+      "conv": "zh-hans:基利;zh-hk:基利;zh-tw:吉理;"
+    },
+    {
+      "original": "バーンズ",
+      "conv": "zh-hans:班斯;zh-hk:班斯;zh-tw:巴恩斯;"
+    },
+    {
+      "original": "ガーンズバック",
+      "conv": "zh-hans:冈兹巴克;zh-hk:格殊巴;zh-tw:岡茲巴克;"
+    },
+    {
+      "original": "ローズマリー",
+      "conv": "zh-hans:露丝玛丽;zh-hk:露絲瑪莉;zh-tw:蘿絲瑪莉;"
+    },
+    {
+      "original": "ベルナデット",
+      "conv": "zh-hans:碧拉狄;zh-hk:碧拉狄;zh-tw:貝娜提;"
+    },
+    {
+      "original": "ブリエット",
+      "conv": "zh-hans:布利葉;zh-hk:布利葉;zh-tw:布里耶;"
+    },
+    {
+      "original": "シェリンドン",
+      "conv": "zh-hans:莎蓮頓;zh-hk:莎蓮頓;zh-tw:雪琳頓;"
+    },
+    {
+      "original": "クラックス",
+      "conv": "zh-hans:古洛斯;zh-hk:古洛斯;zh-tw:格拉克斯;"
+    },
+    {
+      "original": "エヴィン",
+      "conv": "zh-cn:艾宾; zh-tw:艾溫; zh-hk:艾賓"
+    },
+    {
+      "original": "シャクティ",
+      "conv": "zh-cn:莎蒂; zh-tw:夏克蒂; zh-hk:莎蒂"
+    },
+    {
+      "original": "カリン",
+      "conv": "zh-cn:卡伦; zh-tw:卡林; zh-hk:卡林"
+    },
+    {
+      "original": "オデロ",
+      "conv": "zh-cn:; zh-tw:奧德羅; zh-hk:奧迪羅"
+    },
+    {
+      "original": "ヘンリーク",
+      "conv": "zh-cn:; zh-tw:亨利克; zh-hk:漢寧古"
+    },
+    {
+      "original": "ウォレン",
+      "conv": "zh-cn:; zh-tw:華倫; zh-hk:禾倫"
+    },
+    {
+      "original": "トマーシュ",
+      "conv": "zh-cn:; zh-tw:湯瑪斯; zh-hk:湯馬遜"
+    },
+    {
+      "original": "マサリク",
+      "conv": "zh-cn:; zh-tw:馬沙利克; zh-hk:瑪沙利古"
+    },
+    {
+      "original": "カレル",
+      "conv": "zh-cn:; zh-tw:卡萊爾; zh-hk:卡里路"
+    },
+    {
+      "original": "マルチナ",
+      "conv": "zh-cn:; zh-tw:馬爾奇納; zh-hk:瑪露芝娜"
+    },
+    {
+      "original": "マーベット",
+      "conv": "zh-cn:; zh-tw:瑪貝特; zh-hk:瑪比得"
+    },
+    {
+      "original": "ジュンコ",
+      "conv": "zh-cn:; zh-tw:純子; zh-hk:芝歌"
+    },
+    {
+      "original": "ジュンコ・ジェンコ",
+      "conv": "zh-cn:; zh-tw:純子·錢; zh-hk:芝歌·積戈"
+    },
+    {
+      "original": "コニー",
+      "conv": "zh-cn:; zh-tw:可妮; zh-hk:歌莉"
+    },
+    {
+      "original": "フランシス",
+      "conv": "zh-cn:; zh-tw:法蘭西斯; zh-hk:富蘭絲"
+    },
+    {
+      "original": "ヘレン",
+      "conv": "zh-cn:; zh-tw:海倫; zh-hk:凱倫"
+    },
+    {
+      "original": "ジャクソン",
+      "conv": "zh-cn:; zh-tw:傑克森; zh-hk:札古索"
+    },
+    {
+      "original": "ケイト",
+      "conv": "zh-cn:; zh-tw:凱特; zh-hk:姬特"
+    },
+    {
+      "original": "ブッシュ",
+      "conv": "zh-cn:; zh-tw:布希; zh-hk:寶茜"
+    },
+    {
+      "original": "マヘリア",
+      "conv": "zh-cn:; zh-tw:瑪荷莉雅; zh-hk:瑪希莉亞"
+    },
+    {
+      "original": "メリル",
+      "conv": "zh-cn:; zh-tw:梅利爾; zh-hk:美利路"
+    },
+    {
+      "original": "ユカ",
+      "conv": "zh-cn:; zh-tw:優佳; zh-hk:柔嘉"
+    },
+    {
+      "original": "マイラス",
+      "conv": "zh-cn:; zh-tw:麥拉斯; zh-hk:米拉絲"
+    },
+    {
+      "original": "ロベルト",
+      "conv": "zh-cn:; zh-tw:羅伯特; zh-hk:羅布特"
+    },
+    {
+      "original": "オーティス",
+      "conv": "zh-cn:; zh-tw:歐帝斯; zh-hk:奧泰殊"
+    },
+    {
+      "original": "アーキンズ",
+      "conv": "zh-cn:; zh-tw:亞金斯; zh-hk:亞京"
+    },
+    {
+      "original": "ロメロ",
+      "conv": "zh-cn:; zh-tw:羅米路; zh-hk:羅美路"
+    },
+    {
+      "original": "マラバル",
+      "conv": "zh-cn:; zh-tw:馬拉巴爾; zh-hk:瑪拉巴路"
+    },
+    {
+      "original": "アルモドバル",
+      "conv": "zh-cn:; zh-tw:阿莫多瓦; zh-hk:艾慕杜華"
+    },
+    {
+      "original": "ハンゲルグ",
+      "conv": "zh-cn:; zh-tw:漢凱格; zh-hk:漢格基爾格"
+    },
+    {
+      "original": "ムバラク",
+      "conv": "zh-cn:; zh-tw:穆巴拉克; zh-hk:武巴拿古"
+    },
+    {
+      "original": "スターン",
+      "conv": "zh-cn:; zh-tw:斯坦; zh-hk:史坦"
+    },
+    {
+      "original": "カテジナ・ルース",
+      "conv": "zh-cn:卡蒂珍娜·鲁斯; zh-tw:卡提吉娜·路斯; zh-hk:卡迪珍娜·路殊"
+    },
+    {
+      "original": "カテジナ",
+      "conv": "zh-cn:卡蒂珍娜; zh-tw:卡提吉娜; zh-hk:卡迪珍娜"
+    },
+    {
+      "original": "クロノクル",
+      "conv": "zh-cn:克罗诺克尔; zh-tw:庫羅諾克; zh-hk:古羅洛古路"
+    },
+    {
+      "original": "アシャー",
+      "conv": "zh-cn:; zh-tw:亞設; zh-hk:亞薩"
+    },
+    {
+      "original": "アルベオ・ピピニーデン",
+      "conv": "zh-cn:; zh-tw:亞伯·皮朋尼提; zh-hk:亞路比奧·比皮尼丁"
+    },
+    {
+      "original": "ピピニーデン",
+      "conv": "zh-cn:; zh-tw:皮朋尼提; zh-hk:比皮尼丁"
+    },
+    {
+      "original": "ルペ",
+      "conv": "zh-cn:; zh-tw:魯佩; zh-hk:路比"
+    },
+    {
+      "original": "シノ",
+      "conv": "zh-cn:; zh-tw:席諾; zh-hk:斯諾"
+    },
+    {
+      "original": "ドゥカー",
+      "conv": "zh-cn:; zh-tw:杜克爾; zh-hk:托卡"
+    },
+    {
+      "original": "イク",
+      "conv": "zh-cn:; zh-tw:艾克; zh-hk:伊庫"
+    },
+    {
+      "original": "ティターンズ",
+      "conv": "zh-cn:提坦斯; zh-tw:迪坦斯; zh-hk:泰坦斯;"
+    },
+    {
+      "original": "エゥーゴ",
+      "conv": "zh-cn:奥古;zh-tw:幽谷; zh-hk:奧干;"
+    },
+    {
+      "original": "オデッサ",
+      "conv": "zh-cn:敖德萨; zh-tw:敖得薩; zh-hk:奧迪沙;"
+    },
+    {
+      "original": "ジャブロー",
+      "conv": "zh-cn:加布罗; zh-tw:賈布羅; zh-hk:查布羅;"
+    },
+    {
+      "original": "アクシズ",
+      "conv": "zh-cn:阿克西斯; zh-tw:阿克西斯; zh-hk:阿古捷斯;"
+    },
+    {
+      "original": "アクシズ",
+      "conv": "阿古捷斯=>zh-cn:阿克西斯;阿古捷斯=>zh-tw:阿克西斯;阿古捷斯=>zh-hk:阿古捷斯;"
+    },
+    {
+      "original": "ロンド・ベル",
+      "conv": "zh-cn:朗德·贝尔; zh-tw:隆德·貝爾; zh-hk:隆巴納;"
+    },
+    {
+      "original": "デラーズ・フリート",
+      "conv": "zh-cn:迪拉兹舰队; zh-tw:迪拉茲艦隊; zh-hk:達拉斯艦隊;"
+    },
+    {
+      "original": "ア・バオア・クー",
+      "conv": "zh-cn:阿·巴瓦·空; zh-tw:阿·保瓦·庫; zh-hk:阿·巴瓦·空;"
+    },
+    {
+      "original": "アナハイム・エレクトロニクス",
+      "conv": "zh-cn:阿纳海姆电子产业联合体; zh-tw:亞納海姆電子產業聯合體; zh-hk:阿納海姆電子公司"
+    },
+    {
+      "original": "アナハイム",
+      "conv": "zh-cn:阿纳海姆; zh-tw:亞納海姆; zh-hk:阿納海姆;"
+    },
+    {
+      "original": "グリプス",
+      "conv": "zh-cn:格利普斯; zh-tw:格里普斯; zh-hk:格利普斯;"
+    },
+    {
+      "original": "グリプス",
+      "conv": "zh-cn:格利普斯; zh-tw:格里布斯; zh-hk:格利普斯;"
+    },
+    {
+      "original": "グリプス",
+      "conv": "zh-cn:格利普斯; zh-tw:格利布斯; zh-hk:格利普斯;"
+    },
+    {
+      "original": "ダカール",
+      "conv": "zh-cn:达喀尔; zh-tw:達卡; zh-hk:達喀爾;"
+    },
+    {
+      "original": "フラナガン機關",
+      "conv": "zh-cn:弗拉纳冈机构; zh-tw:弗拉納岡機關; zh-hk:富林岡機構;"
+    },
+    {
+      "original": "フラナガン機關",
+      "conv": "zh-cn:弗拉纳刚机构; zh-tw:佛拉那甘機關; zh-hk:富林岡機構;"
+    },
+    {
+      "original": "フラナガン",
+      "conv": "zh-cn:弗拉纳冈; zh-tw:弗拉納岡; zh-hk:富林岡;"
+    },
+    {
+      "original": "フラナガン",
+      "conv": "zh-cn:弗拉纳刚; zh-tw:佛拉那甘; zh-hk:富林岡;"
+    },
+    {
+      "original": "ニューディサイズ",
+      "conv": "zh:新迪賽斯; zh-cn:新迪塞斯; zh-tw:新迪西斯; zh-hk:新迪西斯;"
+    },
+    {
+      "original": "フォン・ブラウン",
+      "conv": "zh-cn:冯·布劳恩; zh-tw:馮·布朗; zh-hk:馮·布朗;"
+    },
+    {
+      "original": "クロスボーン・バンガード",
+      "conv": "zh-cn:死亡先锋; zh-tw:骷髏尖兵; zh-hk:死亡先鋒;"
+    },
+    {
+      "original": "ザンスカール",
+      "conv": "zh-cn:赞斯卡尔; zh-tw:贊斯卡爾; zh-hk:渣斯卡路;"
+    },
+    {
+      "original": "ベスパ、BESPA",
+      "conv": "zh-cn:;zh-tw:貝斯帕; zh-hk:卑斯帕;"
+    },
+    {
+      "original": "スウィート・ウォーター",
+      "conv": "zh-cn:甘泉; zh-tw:甘泉; zh-hk:斯威特沃特;"
+    },
+    {
+      "original": "ペズン, Pezun",
+      "conv": "zh-cn:培曾; zh-tw:培曾; zh-hk:彼茲;"
+    },
+    {
+      "original": "ムーア同胞団、Moore Brotherhood",
+      "conv": "zh-cn:摩尔同胞团; zh-tw:姆亞同胞團; zh-hk:慕亞兄弟;"
+    },
+    {
+      "original": "ムーア, Moore",
+      "conv": "zh-cn:摩尔; zh-tw:姆亞; zh-hk:慕亞;"
+    },
+    {
+      "original": "リビング・デッド師団、Living Dead Division",
+      "conv": "zh-cn:活死人师团; zh-tw:活死人師團; zh-hk:活死人軍團;"
+    },
+    {
+      "original": "シェザール, SCHEZAR",
+      "conv": "zh-hans:薛札尔; zh-tw:薛札爾; zh-hk:錫查爾;"
+    },
+    {
+      "original": "ルオ商会",
+      "conv": "zh-hans:卢欧商会; zh-tw:羅商會; zh-hk:羅商會;"
+    },
+    {
+      "original": "マスティマ",
+      "conv": "zh-tw:馭魔天使隊; zh-hk:莫斯提馬;"
+    },
+    {
+      "original": "バーナム",
+      "conv": "zh-tw:巴南; zh-hk:巴納武;"
+    },
+    {
+      "original": "マフティー",
+      "conv": "zh-cn:马法狄;zh-tw:馬法狄; zh-hk:馬法狄;"
+    },
+    {
+      "original": "マフティー",
+      "conv": "zh-cn:马法提;zh-tw:馬法提; zh-hk:馬法狄;"
+    },
+    {
+      "original": "マフティー",
+      "conv": "zh-cn:马夫蒂;zh-tw:馬法提; zh-hk:馬法狄;"
+    },
+    {
+      "original": "ビノエ",
+      "conv": "zh-cn:比诺埃;zh-tw:比諾; zh-hk:拜諾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:;zh-tw:卡沙雷利亞; zh-hk:加沙里尼亞;"
+    },
+    {
+      "original": "シュラク隊",
+      "conv": "zh-cn:;zh-tw:伯勞隊; zh-hk:修羅隊;"
+    },
+    {
+      "original": "ガンダム",
+      "conv": "zh:GUNDAM;zh-hans:高达;zh-cn:高达;zh-hk:高達;zh-tw:鋼彈;"
+    },
+    {
+      "original": "ホワイトベース、WHITE BASE",
+      "conv": "zh-cn:白色木马; zh-tw:白色基地; zh-hk:太空母艦;"
+    },
+    {
+      "original": "ザク、ZAKU",
+      "conv": "zh-cn:扎古; zh-tw:薩克; zh-hk:渣古;"
+    },
+    {
+      "original": "ガンキャノン、GUNCANNON",
+      "conv": "zh-cn:钢加农; zh-tw:鋼加農; zh-hk:鐳射大砲;"
+    },
+    {
+      "original": "ガンタンク、GUNTANK",
+      "conv": "zh-cn:钢坦克; zh-tw:鋼坦克; zh-hk:太空坦克;"
+    },
+    {
+      "original": "コア・ファイター、CORE FIGHTER",
+      "conv": "zh-cn:核心战机; zh-tw:核戰機; zh-hk:核心戰機;"
+    },
+    {
+      "original": "ガウ、GAW",
+      "conv": "zh-cn:加乌; zh-tw:卡烏; zh-hk:野牛;"
+    },
+    {
+      "original": "グフ、GOUF",
+      "conv": "zh-cn:老虎; zh-tw:古夫; zh-hk:老虎;"
+    },
+    {
+      "original": "エルメス、ELMETH",
+      "conv": "zh-cn:艾尔美斯; zh-tw:艾爾美斯; zh-hk:愛美號;"
+    },
+    {
+      "original": "ボール、BALL",
+      "conv": "zh-cn:铁球; zh-tw:鋼球; zh-hk:鐵球;"
+    },
+    {
+      "original": "ドム、DOM",
+      "conv": "zh-cn:大魔; zh-tw:德姆; zh-hk:大魔;"
+    },
+    {
+      "original": "リック・ドム、RICK DOM",
+      "conv": "zh-cn:力克·大魔; zh-tw:力克·德姆; zh-hk:力奇·大魔;"
+    },
+    {
+      "original": "リック・ドム、RICK-DOM",
+      "conv": "zh-cn:力克大魔; zh-tw:力克德姆; zh-hk:力奇大魔;"
+    },
+    {
+      "original": "リック・ドム、RICK DOM",
+      "conv": "zh-cn:力克·大魔; zh-tw:里克·德姆; zh-hk:力奇·大魔;"
+    },
+    {
+      "original": "リック・ドム、RICK-DOM",
+      "conv": "zh-cn:力克大魔; zh-tw:里克德姆; zh-hk:力奇大魔;"
+    },
+    {
+      "original": "ゲルググ、Gelgoog",
+      "conv": "zh-cn:勇士; zh-tw:蓋古克; zh-hk:格魯古古;"
+    },
+    {
+      "original": "ゲルググ、Gelgoog",
+      "conv": "zh-cn:勇士; zh-tw:傑爾古格; zh-hk:格魯古古;"
+    },
+    {
+      "original": "ギャン、Gyan",
+      "conv": "zh-cn:强人; zh-tw:甘恩; zh-hk:強人;"
+    },
+    {
+      "original": "アッガイ、ACGUY",
+      "conv": "zh-cn:龟霸; zh-tw:亞凱;zh-hk:龜霸;"
+    },
+    {
+      "original": "ズゴック、Z'GOK",
+      "conv": "zh-cn:魔蟹; zh-tw:茲卡克; zh-hk:魔蟹;"
+    },
+    {
+      "original": "ズゴック、Z'GOK",
+      "conv": "zh-cn:魔蟹; zh-tw:茲寇克; zh-hk:魔蟹;"
+    },
+    {
+      "original": "ゴッグ、GOGG",
+      "conv": "zh-cn:战蟹; zh-tw:葛克; zh-hk:戰蟹;"
+    },
+    {
+      "original": "ブラウ・ブロ、BRAW BRO",
+      "conv": "zh-cn:布劳·布罗; zh-tw:布勞·普羅; zh-hk:波羅號;"
+    },
+    {
+      "original": "ビグ・ザム、BYG-ZAM",
+      "conv": "zh-cn:大扎姆; zh-tw:畢克·薩姆; zh-hk:魔霸;"
+    },
+    {
+      "original": "ザクレロ、ZAKRELLO",
+      "conv": "zh-cn:渣古雷洛; zh-tw:薩克雷洛; zh-hk:渣古尼羅;"
+    },
+    {
+      "original": "パーフェクトガンダム、PERFECT -{GUNDAM}-",
+      "conv": "zh-cn:完美高达; zh-tw:全備型鋼彈; zh-hk:完美高達;"
+    },
+    {
+      "original": "ジオング、Zeong",
+      "conv": "zh-cn:吉恩号; zh-tw:吉翁號; zh-hk:自護號;"
+    },
+    {
+      "original": "ジオング、Zeong",
+      "conv": "吉翁克=>zh-cn:吉恩号;吉翁克=>zh-hk:自護號;"
+    },
+    {
+      "original": "グワジン、Gwazine",
+      "conv": "zh-cn:格瓦金; zh-tw:格瓦金; zh-hk:古華遜;"
+    },
+    {
+      "original": "ムサイ、Musai",
+      "conv": "zh-cn:姆塞; zh-tw:姆塞; zh-hk:姆賽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:实验型高达; zh-tw:實驗型鋼彈; zh-hk:實驗型高達;"
+    },
+    {
+      "original": "ブルーディスティニー、Blue Destiny",
+      "conv": "zh-cn:苍蓝宿命; zh-tw:藍色命運; zh-hk:藍色命運;"
+    },
+    {
+      "original": "グフカスタム、Gouf Custom",
+      "conv": "zh-cn:老虎特装型; zh-tw:古夫强化特装型; zh-hk:老虎改;"
+    },
+    {
+      "original": "フルアーマー・ガンダム，FULL ARMOR Gundam",
+      "conv": "zh:全武裝GUNDAM; zh-cn:全装甲型高达; zh-tw:全裝甲型鋼彈; zh-hk:全武裝高達;"
+    },
+    {
+      "original": "フルアーマー・ガンダム，FULL ARMOR Gundam",
+      "conv": "zh:全裝甲型GUNDAM; zh-cn:全装甲型高达; zh-tw:全裝甲型鋼彈; zh-hk:全武裝高達;"
+    },
+    {
+      "original": "アトラスガンダム，Atlas Gundam",
+      "conv": "zh:擎天神GUNDAM; zh-cn:阿特拉斯高达; zh-tw:擎天神鋼彈;zh-hk:阿特拉斯高達;"
+    },
+    {
+      "original": "アトラスガンダム，Atlas Gundam",
+      "conv": "zh:阿特拉斯GUNDAM; zh-cn:阿特拉斯高达; zh-tw:擎天神鋼彈;zh-hk:阿特拉斯高達;"
+    },
+    {
+      "original": "リユース・P（サイコ）・デバイス",
+      "conv": "zh-cn:再生·P（感应）·设备; zh-tw:再利用·P（感應）·裝置; zh-hk:再利用·P（感應）·裝置;"
+    },
+    {
+      "original": "リユース・P・デバイス",
+      "conv": "zh-cn:再生·P·设备; zh-tw:再利用·P·裝置; zh-hk:再利用·P·裝置;"
+    },
+    {
+      "original": "サイコ・ザク",
+      "conv": "zh-cn:精神力扎古; zh-tw:腦波傳導型薩克; zh-hk:精神感應渣古;"
+    },
+    {
+      "original": "アレックス、Alex",
+      "conv": "zh-cn:阿历克斯; zh-tw:亞列克斯; zh-hk:亞歷斯;"
+    },
+    {
+      "original": "ケンプファー、Kampfer",
+      "conv": "zh-cn:京宝梵; zh-tw:肯普法; zh-hk:京寶梵;"
+    },
+    {
+      "original": "ハイゴッグ、HY-GOGG",
+      "conv": "zh-cn:高战蟹; zh-tw:高性能葛克; zh-hk:高戰蟹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:扎古ⅡF2型; zh-tw:薩克ⅡF2型; zh-hk:渣古ⅡF2型;"
+    },
+    {
+      "original": "ドラッツェ、Dra-C",
+      "conv": "zh-cn:特拉杰; zh-tw:特拉傑; zh-hk:多拉傑;"
+    },
+    {
+      "original": "ザメル、Xamel",
+      "conv": "zh-cn:扎梅尔; zh-tw:札梅爾; zh-hk:薩米路;"
+    },
+    {
+      "original": "アルビオン、Arubion",
+      "conv": "zh-cn:阿尔比昂; zh-tw:亞爾比翁; zh-hk:阿爾比昂;"
+    },
+    {
+      "original": "ノイエ・ジール、NEUE ZIEL",
+      "conv": "zh-cn:露维·捷露; zh-tw:諾耶·吉爾; zh-hk:露維·捷露;"
+    },
+    {
+      "original": "ザンジバル、Zanzibar",
+      "conv": "zh-cn:桑给巴尔; zh-tw:桑吉巴爾; zh-hk:嶄新號;"
+    },
+    {
+      "original": "ザンジバル級、Zanzibar-class",
+      "conv": "zh-cn:桑给巴尔级; zh-tw:桑吉巴爾級; zh-hk:嶄新級;"
+    },
+    {
+      "original": "ガーベラ・テトラ、Gerbera Tetra",
+      "conv": "zh-cn:加贝拉·迪特; zh-tw:卡貝拉·迪特拉; zh-hk:加貝拉·迪特;"
+    },
+    {
+      "original": "ガーベラ、Gerbera",
+      "conv": "zh-cn:加贝拉; zh-tw:卡貝拉; zh-hk:加貝拉;"
+    },
+    {
+      "original": "テトラ、Tetra",
+      "conv": "zh-cn:迪特; zh-tw:迪特拉; zh-hk:迪特;"
+    },
+    {
+      "original": "Zガンダム",
+      "conv": "zh:Z GUNDAM;zh-hans:Z高达;zh-cn:Z高达;zh-hk:Z高達;zh-tw:Z鋼彈;"
+    },
+    {
+      "original": "Ζガンダム",
+      "conv": "zh:Ζ GUNDAM;zh-hans:Ζ高达;zh-cn:Ζ高达;zh-hk:Ζ高達;zh-tw:Ζ鋼彈;"
+    },
+    {
+      "original": "ガンダムMK",
+      "conv": "zh:GUNDAM MK;zh-hans:高达MK;zh-cn:高达MK;zh-hk:高達MK;zh-tw:鋼彈MK;"
+    },
+    {
+      "original": "ガンダムMk",
+      "conv": "zh:GUNDAM Mk;zh-hans:高达Mk;zh-cn:高达Mk;zh-hk:高達Mk;zh-tw:鋼彈Mk;"
+    },
+    {
+      "original": "ハイザック、HI-ZACK",
+      "conv": "zh-cn:高扎古; zh-tw:高性能薩克（強薩克）; zh-hk:高渣古;"
+    },
+    {
+      "original": "ジム・キャノン、GM CANNON",
+      "conv": "zh-cn:吉姆加农; zh-tw:吉姆加農砲型; zh-hk:吉姆大砲;"
+    },
+    {
+      "original": "ジム・キャノン、GM CANNON",
+      "conv": "zh-cn:吉姆加农; zh-tw:吉姆加農; zh-hk:吉姆大砲;"
+    },
+    {
+      "original": "ザク・キャノン、ZAKU CANNON",
+      "conv": "zh-cn:渣古加农; zh-tw:薩克加農; zh-hk:渣古大砲;"
+    },
+    {
+      "original": "ネモ、NEMO",
+      "conv": "zh-cn:尼莫; zh-tw:尼摩; zh-hk:雷姆;"
+    },
+    {
+      "original": "アッシマー、ASSHIMAR",
+      "conv": "zh-cn:阿斯曼; zh-tw:阿西瑪; zh-hk:亞斯曼;"
+    },
+    {
+      "original": "アッシマー、ASSHIMAR",
+      "conv": "zh-cn:阿斯曼; zh-tw:亞席瑪; zh-hk:亞斯曼;"
+    },
+    {
+      "original": "アッシマー、ASSHIMAR",
+      "conv": "zh-cn:阿斯曼; zh-tw:阿席瑪; zh-hk:亞斯曼;"
+    },
+    {
+      "original": "メッサーラ、Messala",
+      "conv": "zh-cn:梅萨拉; zh-tw:梅薩拉; zh-hk:密沙羅;"
+    },
+    {
+      "original": "パラス・アテネ、Palace Athene",
+      "conv": "zh-cn:帕拉斯·雅典娜; zh-tw:雅典娜宮殿（帕拉斯·雅典娜）; zh-hk:柏拉斯·亞迪尼;"
+    },
+    {
+      "original": "ボリノーク・サマーン、Bolinoak Sammahn",
+      "conv": "zh-cn:波利诺克·沙曼; zh-tw:波連洛·沙曼; zh-hk:波連洛·沙曼;"
+    },
+    {
+      "original": "ジ・O、THE O",
+      "conv": "zh-cn:铁奥; zh-tw:吉歐; zh-hk:鐵奧;"
+    },
+    {
+      "original": "マラサイ、MARASAI",
+      "conv": "zh-cn:玛拉赛; zh-tw:馬拉賽; zh-hk:姆歷沙;"
+    },
+    {
+      "original": "バーザム、BARZAM",
+      "conv": "zh-cn:巴扎姆; zh-tw:巴薩姆; zh-hk:巴煞;"
+    },
+    {
+      "original": "メタス、Methuss",
+      "conv": "zh-cn:梅塔斯; zh-tw:梅塔斯; zh-hk:密達斯;"
+    },
+    {
+      "original": "ガブスレイ、GABTHLEY",
+      "conv": "zh-cn:加布斯雷; zh-tw:蓋普斯雷; zh-hk:葛士尼;"
+    },
+    {
+      "original": "ハンブラビ、HAMBRABI",
+      "conv": "zh-cn:汉木拉比; zh-tw:漢柏拉比; zh-hk:赫巴比;"
+    },
+    {
+      "original": "バイアラン、BYARLANT",
+      "conv": "zh-cn:拜亚兰; zh-tw:拜亞藍; zh-hk:拜亞蘭;"
+    },
+    {
+      "original": "サイコガンダム、PSYCO--{GUNDAM}-",
+      "conv": "zh-cn:精神感应高达; zh-tw:精神感應式鋼彈（賽可鋼彈）; zh-hk:重高達;"
+    },
+    {
+      "original": "リック・ディアス、RICK DIAS",
+      "conv": "zh-cn:力克·迪亚斯; zh-tw:力克·迪亞斯; zh-hk:力奇·戴亞斯;"
+    },
+    {
+      "original": "リック・ディアス、RICK DIAS",
+      "conv": "zh-cn:力克迪亚斯; zh-tw:力克迪亞斯; zh-hk:力奇戴亞斯;"
+    },
+    {
+      "original": "リック・ディアス、RICK DIAS",
+      "conv": "zh-cn:力克·迪亚斯; zh-tw:里克·迪亞斯; zh-hk:力奇·戴亞斯;"
+    },
+    {
+      "original": "リック・ディアス、RICK DIAS",
+      "conv": "zh-cn:力克迪亚斯; zh-tw:里克迪亞斯; zh-hk:力奇戴亞斯;"
+    },
+    {
+      "original": "ディアス、DIAS",
+      "conv": "zh-cn:迪亚斯; zh-tw:迪亞斯; zh-hk:戴亞斯;"
+    },
+    {
+      "original": "アーガマ、Argama",
+      "conv": "zh-cn:阿伽玛; zh-tw:阿含號; zh-hk:亞加瑪;"
+    },
+    {
+      "original": "アーガマ、Argama",
+      "conv": "zh-cn:阿伽玛; zh-tw:阿卡瑪; zh-hk:亞加瑪;"
+    },
+    {
+      "original": "アーガマ、Argama",
+      "conv": "zh-cn:阿伽玛; zh-tw:阿卡馬; zh-hk:亞加瑪;"
+    },
+    {
+      "original": "ガザ、Gaza",
+      "conv": "zh-cn:加萨; zh-tw:卡薩; zh-hk:加煞;"
+    },
+    {
+      "original": "キュベレイ、Qubeley",
+      "conv": "zh-cn:卡碧尼; zh-tw:丘貝雷; zh-hk:卡碧尼;"
+    },
+    {
+      "original": "キュベレイ、Galbaldy",
+      "conv": "zh-cn:加尔巴迪; zh-tw:卡爾巴迪; zh-hk:哥邦迪;"
+    },
+    {
+      "original": "ディジェ、Dijeh",
+      "conv": "zh-cn:迪杰; zh-tw:迪傑; zh-hk:迪謝;"
+    },
+    {
+      "original": "サラミス、Salamis",
+      "conv": "zh-cn:萨拉米斯; zh-tw:薩拉米斯; zh-hk:薩拉米斯;"
+    },
+    {
+      "original": "モンブラン、Mont Blanc",
+      "conv": "zh-cn:勃朗峰; zh-hk:莫布朗;"
+    },
+    {
+      "original": "ドゴス･ギア、DOGOSSE GIAR",
+      "conv": "zh-cn:多哥斯基亞; zh-tw:德克斯·基亞; zh-hk:多哥斯基亞;"
+    },
+    {
+      "original": "ゼク、Xeku",
+      "conv": "zh-cn:赛克; zh-tw:賽克; zh-hk:沙古;"
+    },
+    {
+      "original": "ZZガンダム",
+      "conv": "zh:ZZ GUNDAM;zh-hans:ZZ高达;zh-cn:ZZ高达;zh-hk:ZZ高達;zh-tw:ZZ鋼彈;"
+    },
+    {
+      "original": "ΖΖガンダム",
+      "conv": "zh:ΖΖ GUNDAM;zh-hans:ΖΖ高达;zh-cn:ΖΖ高达;zh-hk:ΖΖ高達;zh-tw:ΖΖ鋼彈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:扎古Ⅲ; zh-tw:薩克Ⅲ; zh-hk:渣古Ⅲ;"
+    },
+    {
+      "original": "ガルス、GALLUSS",
+      "conv": "zh-cn:卡尔斯; zh-tw:卡爾斯; zh-hk:扎斯;"
+    },
+    {
+      "original": "ゲーマルク、GEYMALK",
+      "conv": "zh-cn:盖·马克; zh-tw:蓋·馬克; zh-hk:京麥古;"
+    },
+    {
+      "original": "ゲーマルク、GEYMALK",
+      "conv": "zh-cn:盖马克; zh-tw:蓋馬克; zh-hk:京麥古;"
+    },
+    {
+      "original": "ハンマ・ハンマ、HAMMA HAMMA",
+      "conv": "zh-cn:哈玛·哈玛; zh-tw:漢馬·漢馬; zh-hk:哈馬·哈馬;"
+    },
+    {
+      "original": "R・ジャジャ、R-JARJA",
+      "conv": "zh-cn:R·贾贾; zh-tw:R·加加; zh-hk:R·查查;"
+    },
+    {
+      "original": "ガ・ゾウム、GA-ZOWMN",
+      "conv": "zh-cn:加佐姆; zh-tw:加索姆; zh-hk:加索姆;"
+    },
+    {
+      "original": "ドライセン、DREISSEN",
+      "conv": "zh-cn:德莱森; zh-tw:德萊森; zh-hk:達拉森;"
+    },
+    {
+      "original": "ドーベン・ウルフ、Döven Wolf",
+      "conv": "zh-cn:飙狼; zh-hans:飙狼; zh-tw:杜班·烏爾夫; zh-hk:達希魯夫;"
+    },
+    {
+      "original": "ドーベン・ウルフ、Döven Wolf",
+      "conv": "zh-hans:飆狼; zh-tw:杜班·烏爾夫; zh-hk:達希魯夫;"
+    },
+    {
+      "original": "バウ、BAWOO",
+      "conv": "zh-cn:龙飞; zh-tw:巴烏; zh-hk:龍飛;"
+    },
+    {
+      "original": "ズサ、ZSSA",
+      "conv": "zh-cn:兹萨; zh-tw:茲沙; zh-hk:瑞莎;"
+    },
+    {
+      "original": "RS・ジャジャ、RS-JARJA",
+      "conv": "zh-cn:RS·贾贾; zh-tw:RS·加加; zh-hk:RS·查查;"
+    },
+    {
+      "original": "νガンダム",
+      "conv": "zh:ν GUNDAM;zh-hans:ν高达;zh-cn:ν高达;zh-hk:ν高達;zh-tw:ν鋼彈;"
+    },
+    {
+      "original": "ジェガン、JEGAN",
+      "conv": "zh-cn:杰刚; zh-tw:傑鋼; zh-hk:積根;"
+    },
+    {
+      "original": "ジェガン、JEGAN",
+      "conv": "zh-cn:杰刚; zh-tw:傑剛; zh-hk:積根;"
+    },
+    {
+      "original": "サザビー、Sazabi",
+      "conv": "zh-cn:沙扎比; zh-tw:沙薩比; zh-hk:沙煞比;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:α; zh-tw:α; zh-hk:α;"
+    },
+    {
+      "original": "アジール、Azieru",
+      "conv": "zh-cn:阿索隆; zh-tw:阿基爾; zh-hk:亞索龍;"
+    },
+    {
+      "original": "ギラ・ドーガ、GEARA-DOGA",
+      "conv": "zh-cn:基拉·德卡; zh-tw:吉拉·德卡; zh-hk:居拉·德卡;"
+    },
+    {
+      "original": "ギラ・ドーガ、GEARA-DOGA",
+      "conv": "zh-cn:基拉德卡; zh-tw:吉拉德卡; zh-hk:居拉德卡;"
+    },
+    {
+      "original": "ヤクト・ドーガ、Jagd Doga",
+      "conv": "zh-cn:乍得·多加; zh-tw:亞克托·德卡; zh-hk:乍德·德卡;"
+    },
+    {
+      "original": "ヤクト・ドーガ、Jagd Doga",
+      "conv": "zh-cn:乍得多加; zh-tw:亞克托德卡; zh-hk:乍德德卡;"
+    },
+    {
+      "original": "ラー・カイラム、Ra Cailum",
+      "conv": "zh-cn:拉·凯拉姆; zh-tw:拉·凱拉姆; zh-hk:拉·格林"
+    },
+    {
+      "original": "ドワッジ、Dwadge",
+      "conv": "zh-cn:德瓦基; zh-tw:德瓦基; zh-hk:多華茲"
+    },
+    {
+      "original": "ドワッジ、Dowadge",
+      "conv": "zh-cn:多瓦吉; zh-tw:多瓦吉; zh-hk:多華茲"
+    },
+    {
+      "original": "フルアーマーユニコーン 、FULL ARMOR UNICORN",
+      "conv": "zh-tw:全裝甲型獨角獸; zh-hk:全武裝獨角獸;"
+    },
+    {
+      "original": "デストロイモード 、DESTROY MODE",
+      "conv": "zh-cn:毁灭模式; zh-tw:毀滅模式; zh-hk:破壞模式;"
+    },
+    {
+      "original": "バンシィ・ノルン 、BANSHEE NORN",
+      "conv": "zh-cn:报丧女妖·命运女神; zh-tw:報喪女妖命運女神型; zh-hk:報喪女妖命運女神;"
+    },
+    {
+      "original": "ギラ・ズール、GEARA-ZULU",
+      "conv": "zh-hans:基拉·祖魯; zh-cn:基拉·祖鲁; zh-tw:吉拉·祖魯; zh-hk:居拉·祖魯;"
+    },
+    {
+      "original": "ギラ・ズール、GEARA-ZULU",
+      "conv": "zh-hans:基拉祖魯; zh-cn:基拉祖鲁; zh-tw:吉拉祖魯; zh-hk:居拉祖魯;"
+    },
+    {
+      "original": "ネェル，Nahel",
+      "conv": "zh-cn:拟·; zh-tw:擬·; zh-hk:新·"
+    },
+    {
+      "original": "ネェル，Nahel",
+      "conv": "zh-cn:拟·; zh-tw:擬・; zh-hk:新·"
+    },
+    {
+      "original": "ネェル・アーガマ，Nahel Argama",
+      "conv": "zh-cn:拟·阿伽玛; zh-tw:擬·阿含號; zh-hk:新·亞加瑪;"
+    },
+    {
+      "original": "ネェル・アーガマ，Nahel Argama",
+      "conv": "zh-cn:拟·阿伽玛; zh-tw:擬·阿卡瑪; zh-hk:新·亞加瑪"
+    },
+    {
+      "original": "ネェル・アーガマ，Nahel Argama",
+      "conv": "zh-cn:拟阿伽玛; zh-tw:擬阿卡瑪; zh-hk:新亞加瑪"
+    },
+    {
+      "original": "ネェル・アーガマ，Nahel Argama",
+      "conv": "zh-cn:拟阿伽玛; zh-tw:擬阿卡馬; zh-hk:新亞加瑪"
+    },
+    {
+      "original": "ネェル・アーガマ，Nahel Argama",
+      "conv": "zh-cn:拟·阿伽玛; zh-tw:擬·阿卡馬; zh-hk:新·亞加瑪"
+    },
+    {
+      "original": "デルタプラス，DELTA PLUS，Δ+，𝛿+",
+      "conv": "zh-tw:德爾塔普拉斯; zh-hk:DELTA PLUS;"
+    },
+    {
+      "original": "デルタ，DELTA，Δ，𝛿",
+      "conv": "zh-cn:德尔塔; zh-tw:德爾塔; zh-hk:DELTA;"
+    },
+    {
+      "original": "G-ファースト，G-First",
+      "conv": "zh-cn:G-FIRST; zh-tw:G-優先; zh-hk:G-FIRST;"
+    },
+    {
+      "original": "シナンジュ，Sinanju",
+      "conv": "zh-cn:新安洲; zh-tw:新安州; zh-hk:新安州;"
+    },
+    {
+      "original": "ナラティブガンダム、Narrative Gundam",
+      "conv": "zh-cn:NT高达; zh-tw:故事鋼彈; zh-hk:敘述高達;"
+    },
+    {
+      "original": "ナラティブガンダム、Narrative Gundam",
+      "conv": "zh-cn:NT高达; zh-tw:NT鋼彈; zh-hk:敘述高達;"
+    },
+    {
+      "original": "スタイン、Stein",
+      "conv": "zh-cn:原石; zh-tw:原石; zh-hk:斯坦因;"
+    },
+    {
+      "original": "Ξガンダム",
+      "conv": "zh:Ξ GUNDAM;zh-hans:Ξ高达;zh-cn:Ξ高达;zh-hk:Ξ高達;zh-tw:Ξ鋼彈;"
+    },
+    {
+      "original": "ペーネロペー",
+      "conv": "zh-cn:佩涅罗佩;zh-hk:潘尼洛普;zh-tw:潘娜洛普;"
+    },
+    {
+      "original": "ガンダムF90",
+      "conv": "zh:GUNDAM F90; zh-cn:高达F90; zh-tw:鋼彈F90; zh-hk:高達F90;"
+    },
+    {
+      "original": "ガンダムF91",
+      "conv": "zh:GUNDAM F91; zh-cn:高达F91; zh-tw:鋼彈F91; zh-hk:高達F91;"
+    },
+    {
+      "original": "Vガンダム、V Gundam",
+      "conv": "zh:V GUNDAM; zh-cn:V高达; zh-tw:V鋼彈; zh-hk:V高達;"
+    },
+    {
+      "original": "Vガンダムヘキサ、V Gundam Hexa",
+      "conv": "zh:V GUNDAM HEXA; zh-cn:V高达HEXA; zh-tw:V鋼彈HEXA; zh-hk:V高達HEXA;"
+    },
+    {
+      "original": "Vガンダムヘキサ、V Gundam Hexa",
+      "conv": "zh:V GUNDAM Hexa; zh-cn:V高达Hexa; zh-tw:V鋼彈Hexa; zh-hk:V高達Hexa;"
+    },
+    {
+      "original": "Vダッシュガンダム、V-Dash Gundam",
+      "conv": "zh:V Dash GUNDAM; zh-cn:V Dash高达; zh-tw:V Dash鋼彈; zh-hk:V Dash高達;"
+    },
+    {
+      "original": "Vダッシュガンダム、V-Dash Gundam",
+      "conv": "zh:V-Dash GUNDAM; zh-cn:V-Dash高达; zh-tw:V Dash鋼彈; zh-hk:V-Dash高達;"
+    },
+    {
+      "original": "Vダッシュガンダム、V-Dash Gundam",
+      "conv": "zh:V DASH GUNDAM; zh-cn:V DASH高达; zh-tw:V DASH鋼彈; zh-hk:V DASH高達;"
+    },
+    {
+      "original": "Vダッシュガンダム、V-Dash Gundam",
+      "conv": "zh:V-DASH GUNDAM; zh-cn:V-DASH高达; zh-tw:V DASH鋼彈; zh-hk:V-DASH高達;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V Dash GUNDAM HEXA; zh-cn:V Dash高达HEXA; zh-tw:V Dash鋼彈HEXA; zh-hk:V Dash高達HEXA;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V-Dash GUNDAM HEXA; zh-cn:V-Dash高达HEXA; zh-tw:V Dash鋼彈HEXA; zh-hk:V-Dash高達HEXA;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V DASH GUNDAM HEXA; zh-cn:V DASH高达HEXA; zh-tw:V DASH鋼彈HEXA; zh-hk:V DASH高達HEXA;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V-DASH GUNDAM HEXA; zh-cn:V-DASH高达HEXA; zh-tw:V DASH鋼彈HEXA; zh-hk:V-DASH高達HEXA;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V Dash GUNDAM Hexa; zh-cn:V Dash高达Hexa; zh-tw:V Dash鋼彈Hexa; zh-hk:V Dash高達Hexa;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V-Dash GUNDAM Hexa; zh-cn:V-Dash高达Hexa; zh-tw:V Dash鋼彈Hexa; zh-hk:V-Dash高達Hexa;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V DASH GUNDAM Hexa; zh-cn:V DASH高达Hexa; zh-tw:V DASH鋼彈Hexa; zh-hk:V DASH高達Hexa;"
+    },
+    {
+      "original": "Vダッシュガンダムヘキサ、V-Dash Gundam Hexa",
+      "conv": "zh:V-DASH GUNDAM Hexa; zh-cn:V-DASH高达Hexa; zh-tw:V DASH鋼彈Hexa; zh-hk:V-DASH高達Hexa;"
+    },
+    {
+      "original": "V2ガンダム、V2 Gundam",
+      "conv": "zh:V2 GUNDAM; zh-cn:V2高达; zh-tw:V2鋼彈; zh-hk:V2高達;"
+    },
+    {
+      "original": "ゴッゾーラ、Godzorla",
+      "conv": "zh-cn:戈佐拉; zh-tw:戈佐拉; zh-hk:哥索拉"
+    },
+    {
+      "original": "リグ・シャッコー、Rig Shokew",
+      "conv": "zh-cn:里格·夏柯; zh-tw:里格·夏柯; zh-hk:利古·察高"
+    },
+    {
+      "original": "リグ・シャッコー、Rig Shokew",
+      "conv": "zh-cn:里格夏柯; zh-tw:里格夏柯; zh-hk:利古察高"
+    },
+    {
+      "original": "シャッコー、Shokew",
+      "conv": "zh-cn:夏柯; zh-tw:夏柯; zh-hk:察高"
+    },
+    {
+      "original": "コンティオ、Contio",
+      "conv": "zh-cn:; zh-tw:孔提歐; zh-hk:康提奧"
+    },
+    {
+      "original": "リグ・コンティオ、Rig Contio",
+      "conv": "zh-cn:; zh-tw:里格·孔提歐; zh-hk:利古·康提奧"
+    },
+    {
+      "original": "ゲドラフ、Gedlav",
+      "conv": "zh-cn:; zh-tw:蓋德夫; zh-hk:基托拉夫"
+    },
+    {
+      "original": "ドッゴーラ、Doggorla",
+      "conv": "zh-cn:; zh-tw:德葛拉; zh-hk:迪哥拉"
+    },
+    {
+      "original": "リック・ディジェ、Rick Dijeh",
+      "conv": "zh-cn:力克·迪杰; zh-tw:力克·迪傑; zh-hk:力奇·迪謝;"
+    },
+    {
+      "original": "リック・ディジェ、Rick Dijeh",
+      "conv": "zh-cn:力克迪杰; zh-tw:力克迪傑; zh-hk:力奇迪謝;"
+    },
+    {
+      "original": "ガンダム0083",
+      "conv": "zh:GUNDAM 0083;zh-hans:高达0083;zh-cn:高达0083;zh-hk:高達0083;zh-tw:鋼彈0083;"
+    },
+    {
+      "original": null,
+      "conv": "zh:剛彈勇士;zh-cn:刚弹勇士; zh-tw:剛彈勇士; zh-hk:剛彈勇士;"
+    },
+    {
+      "original": "ガンダムZZ",
+      "conv": "zh:GUNDAM ZZ;zh-hans:高达ZZ;zh-cn:高达ZZ;zh-hk:高達ZZ;zh-tw:鋼彈ZZ;"
+    },
+    {
+      "original": "ガンダムΖΖ",
+      "conv": "zh:GUNDAM ΖΖ;zh-hans:高达ΖΖ;zh-cn:高达ΖΖ;zh-hk:高達ΖΖ;zh-tw:鋼彈ΖΖ;"
+    },
+    {
+      "original": "逆襲のシャア、Char's Counter Attack",
+      "conv": "zh-cn:逆袭的夏亚; zh-tw:逆襲的夏亞; zh-hk:馬沙之反擊;"
+    },
+    {
+      "original": "コロニーの落ちた地で…、Rise From the Ashes",
+      "conv": "zh-cn:殖民地坠落之地; zh-tw:殖民地墜落之地; zh-hk:殖民星墜落之地;"
+    },
+    {
+      "original": "閃光のハサウェイ、Hathaway's Flash",
+      "conv": "zh-cn:闪光之哈萨维; zh-tw:閃光之哈薩維; zh-hk:閃光之凱薩衛"
+    },
+    {
+      "original": "閃光のハサウェイ、Hathaway's Flash",
+      "conv": "zh-cn:闪光之哈萨维; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
+    },
+    {
+      "original": "閃光のハサウェイ、Hathaway's Flash",
+      "conv": "zh-cn:闪光的哈撒韦; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
+    },
+    {
+      "original": "閃光のハサウェイ、Hathaway's Flash",
+      "conv": "zh-cn:闪光的哈萨威; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
+    },
+    {
+      "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
+      "conv": "zh-cn:贝托蒂嘉的子嗣; zh-tw:貝托蒂嘉的子嗣; zh-hk:貝積加的孩子"
+    },
+    {
+      "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
+      "conv": "zh-cn:贝尔迪琦嘉的子嗣; zh-tw:貝托蒂嘉的子嗣; zh-hk:貝積加的孩子"
+    },
+    {
+      "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
+      "conv": "zh-cn:贝托蒂加的子嗣; zh-tw:貝托蒂嘉的子嗣; zh-hk:貝積加的孩子"
+    },
+    {
+      "original": "サンダーボルト、Thunderbolt",
+      "conv": "zh-cn:雷霆宙域战线; zh-tw:雷霆宙域戰線; zh-hk:雷霆戰線;"
+    },
+    {
+      "original": "ムーンガンダム、MOONガンダム",
+      "conv": "zh:MOON GUNDAM;zh-hans:MOON高达;zh-cn:MOON高达;zh-hk:MOON高達;zh-tw:MOON鋼彈;"
+    },
+    {
+      "original": "ガンダムUC",
+      "conv": "zh:GUNDAM UC; zh-cn:高达UC; zh-tw:鋼彈UC; zh-hk:高達UC;"
+    },
+    {
+      "original": "ガンダムNT",
+      "conv": "zh:GUNDAM NT; zh-cn:高达NT; zh-tw:鋼彈NT; zh-hk:高達NT;"
+    },
+    {
+      "original": "ククルス・ドアンの島",
+      "conv": "zh:库克罗斯·德安之岛; zh-cn:库库鲁斯·多安的小岛; zh-tw:庫克羅斯·德安之島; zh-hk:庫克羅斯·德安之島;"
+    },
+    {
+      "original": "ニュータイプ",
+      "conv": "zh-cn:New Type; zh-tw:新人類; zh-hk:新類型人;"
+    },
+    {
+      "original": "ニュータイプ",
+      "conv": "zh-cn:NewType; zh-tw:新人類; zh-hk:新類型人;"
+    },
+    {
+      "original": "フィンファンネル、Fin Funnel",
+      "conv": "zh-cn:飞翅浮游炮; zh-tw:翼狀感應炮; zh-hk:翼狀浮游飛翔砲;"
+    },
+    {
+      "original": "ファンネル、Funnel",
+      "conv": "zh-cn:浮游炮; zh-tw:感應砲; zh-hk:浮游砲;"
+    },
+    {
+      "original": "ファンネル、Funnel",
+      "conv": "zh-cn:浮游炮; zh-tw:感應炮; zh-hk:浮游砲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:炮; zh-tw:砲; zh-hk:砲;"
     },
     {
       "original": "ビーム、Beam",
-      "conv": "zh-cn:光束;zh-tw:光束;zh-hk:鐳射"
+      "conv": "zh-cn:光束; zh-tw:光束; zh-hk:鐳射;"
     },
     {
       "original": "ビームサーベル、Beam Saber",
-      "conv": "zh-cn:光束军刀;zh-tw:光束軍刀;zh-hk:鐳射劍"
+      "conv": "zh-cn:光束军刀; zh-tw:光束軍刀; zh-hk:鐳射劍;"
     },
     {
       "original": "メガビーム、Mega Beam",
-      "conv": "zh-cn:MEGA光束;zh-tw:MEGA光束;zh-hk:米加鐳射"
+      "conv": "zh-cn:MEGA光束; zh-tw:MEGA光束; zh-hk:米加鐳射;"
     },
     {
       "original": "メガ粒子、Mega Particle",
-      "conv": "zh-cn:MEGA粒子;zh-tw:MEGA粒子;zh-hk:米加粒子"
+      "conv": "zh-cn:MEGA粒子; zh-tw:MEGA粒子; zh-hk:米加粒子;"
     },
     {
       "original": "メガキャノン、Mega Cannon",
-      "conv": "zh-cn:MEGA加农炮;zh-tw:MEGA加農砲;zh-hk:米加砲"
-    },
-    {
-      "original": "メガキャノン、Mega Cannon",
-      "conv": "zh-cn:MEGA加农砲;zh-tw:MEGA加農砲;zh-hk:米加砲"
+      "conv": "zh-cn:MEGA加农炮; zh-tw:MEGA加農砲; zh-hk:米加砲;"
     },
     {
       "original": "ビームキャノン、Beam Cannon",
-      "conv": "zh-cn:光束炮;zh-tw:光束加農;zh-hk:鐳射砲"
-    },
-    {
-      "original": "ビームキャノン、Beam Cannon",
-      "conv": "zh-cn:光束加农砲;zh-tw:光束加農砲;zh-hk:鐳射砲"
+      "conv": "zh-cn:光束加農; zh-tw:光束加農; zh-hk:鐳射加農;"
     },
     {
       "original": "ヒート・ホーク、Heat Hawk",
-      "conv": "zh-cn:电热斧;zh-tw:電熱斧;zh-hk:熱能斧"
+      "conv": "zh-cn:电热斧; zh-tw:電熱斧; zh-hk:熱能斧;"
     },
     {
       "original": "ザンバスター、Zanbuster",
-      "conv": "zh-tw:斬刀破壞槍;zh-hk:斬擊砲"
+      "conv": "zh-tw:斬刀破壞槍; zh-hk:斬擊砲;"
     },
     {
       "original": "ビーム・ザンバー、Beam Zamber",
-      "conv": "zh-tw:光束斬刀;zh-hk:鐳射斬擊劍"
+      "conv": "zh-tw:光束斬刀; zh-hk:鐳射斬擊劍;"
+    },
+    {
+      "original": "ガトリングガン、Gatling Gun",
+      "conv": "zh-cn:格林机枪; zh-tw:加特林機槍; zh-hk:格林機槍;"
     }
   ]
 }

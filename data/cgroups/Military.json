@@ -5,243 +5,319 @@
   "rules": [
     {
       "original": "[[宙斯盾|Aegis combat system]]",
-      "conv": "zh-cn:宙斯盾;zh-tw:神盾;zh-hk:神盾"
+      "conv": "zh-cn:宙斯盾;zh-tw:神盾;zh-hk:神盾;"
     },
     {
       "original": "[[基地组织|Al-Qaeda]]",
-      "conv": "zh:基地组织;zh-cn:基地组织;zh-tw:蓋達組織;zh-hk:阿爾蓋達組織;zh-sg:卡伊达组织;蓋達=>zh-cn:基地组织;阿爾蓋達=>zh-cn:基地组织;卡伊达=>zh-cn:基地组织"
+      "conv": "zh:基地组织;zh-cn:基地组织; zh-tw:蓋達組織; zh-hk:阿爾蓋達組織; zh-sg:卡伊达组织;蓋達=>zh-cn:基地组织;阿爾蓋達=>zh-cn:基地组织;卡伊达=>zh-cn:基地组织;"
     },
     {
       "original": "[[兩棲突擊艦|amphibious assault ship]]",
-      "conv": "zh-cn:两栖攻击舰;zh-tw:兩棲突擊艦;zh-hk:兩棲突擊艦"
+      "conv": "zh-cn:两栖攻击舰;zh-tw:兩棲突擊艦;zh-hk:兩棲突擊艦;"
     },
     {
       "original": "[[航母|aircraft carrier]]",
-      "conv": "zh-cn:航母;zh-tw:航艦;zh-hk:航母"
+      "conv": "zh-cn:航母; zh-tw:航艦; zh-hk:航母"
+    },
+    {
+      "original": "[[反弹道导弹|Anti-ballistic missile]]",
+      "conv": "zh-cn:反导导弹;zh-tw:反彈道飛彈;zh-hk:反彈道導彈;"
     },
     {
       "original": "[[集团军|army]]",
-      "conv": "zh-cn:集团军;zh-tw:軍團;zh-hk:軍團"
+      "conv": "zh-cn:集团军; zh-tw:軍團; zh-hk:軍團"
     },
     {
       "original": "[[集团军群|army group]]",
-      "conv": "zh-cn:集团军群;zh-tw:集團軍;zh-hk:集團軍"
+      "conv": "zh-cn:集团军群; zh-tw:集團軍; zh-hk:集團軍"
     },
     {
       "original": "[[戰艦|Battleship]]",
-      "conv": "zh-cn:战列舰;zh-tw:戰艦;zh-hk:戰艦"
+      "conv": "zh-cn:战列舰;zh-tw:戰艦;zh-hk:戰艦;"
     },
     {
       "original": "[[战列巡洋舰|Battlecruiser]]",
-      "conv": "zh-cn:战列巡洋舰;zh-tw:戰鬥巡洋艦;zh-hk:戰鬥巡洋艦"
+      "conv": "zh-cn:战列巡洋舰;zh-tw:戰鬥巡洋艦;zh-hk:戰鬥巡洋艦;"
     },
     {
       "original": "[[白朗寧|Browning]]",
-      "conv": "zh-cn:勃朗宁;zh-tw:白朗寧;zh-hk:白朗寧"
+      "conv": "zh-cn:勃朗宁;zh-tw:白朗寧;zh-hk:白朗寧;"
     },
     {
       "original": "[[布勞希奇|Walther von Brauchitsch]]",
-      "conv": "zh-cn:布劳希奇;zh-tw:布勞齊區;zh-hk:布勞希奇"
+      "conv": "zh-cn:布劳希奇;zh-tw:布勞齊區;zh-hk:布勞希奇;"
     },
     {
       "original": "[[布里茲涅夫|Leonid Brezhnev]]",
-      "conv": "zh-cn:勃列日涅夫;zh-tw:布里茲涅夫;zh-hk:布里茲涅夫"
+      "conv": "zh-cn:勃列日涅夫;zh-tw:布里茲涅夫;zh-hk:布里茲涅夫;"
     },
     {
       "original": "Bullpup",
-      "conv": "zh-cn:无托结构;zh-tw:犢牛式;zh-hk:犢牛式;zh-sg:无托结构"
+      "conv": "zh-cn:无托结构; zh-tw:犢牛式;zh-hk:犢牛式;zh-sg:无托结构;"
     },
     {
       "original": "[[奧馬爾·布拉德利|Bradley]]",
-      "conv": "zh-cn:布拉德利;zh-tw:布雷德利"
+      "conv": "zh-cn:布拉德利; zh-tw:布雷德利;"
     },
     {
       "original": "[[近迫武器系統|Close-in weapon system]]",
-      "conv": "zh-cn:近程防御武器系统;zh-tw:近迫武器系統;zh-hk:近迫武器系統"
+      "conv": "zh-cn:近程防御武器系统;zh-tw:近迫武器系統;zh-hk:近迫武器系統;"
     },
     {
       "original": "[[巡航导弹|Cruise missile]]",
-      "conv": "zh-cn:巡航导弹;zh-tw:巡弋飛彈;zh-hk:巡航導彈"
+      "conv": "zh-cn:巡航导弹;zh-tw:巡弋飛彈;zh-hk:巡航導彈;"
+    },
+    {
+      "original": "[[柴油燃氣渦輪系統|Combined diesel and gas]]",
+      "conv": "zh-cn:柴燃聯合動力方式;zh-tw:柴油燃氣渦輪系統;"
+    },
+    {
+      "original": "[[適型|Conformal fuel]]",
+      "conv": "zh-cn:保型;zh-tw:適型;"
     },
     {
       "original": "[[达索|Dassault]]",
-      "conv": "zh-cn:达索;zh-tw:達梭;zh-hk:達索"
+      "conv": "zh-cn:达索;zh-tw:達梭;zh-hk:達索;"
     },
     {
       "original": "[[飆風戰機|Dassault Rafale]]",
-      "conv": "zh-cn:阵风战斗机;zh-tw:疾風式戰鬥機;zh-hk:陣風式戰鬥機"
+      "conv": "zh-cn:阵风战斗机;zh-tw:疾風式戰鬥機;zh-hk:陣風式戰鬥機;"
     },
     {
       "original": "[[武裝親衛隊|Die Waffen Schutzstaffel]]",
-      "conv": "zh-cn:武装党卫队;zh-sg:武装党卫队;zh-tw:武裝親衛隊;zh-hk:武裝黨衛隊"
+      "conv": "zh-cn:武装党卫队; zh-sg:武装党卫队; zh-tw:武裝親衛隊; zh-hk:武裝黨衛隊;"
+    },
+    {
+      "original": "[[邓尼茨|Dönitz]]",
+      "conv": "zh-cn:邓尼茨; zh-tw:鄧尼茲; zh-hk:鄧尼茨"
+    },
+    {
+      "original": "[[灑撤系統|Dispenser System]]",
+      "conv": "zh-cn:灑佈器; zh-tw:灑撤系統;"
+    },
+    {
+      "original": "[[灑撤|Dispenser]]",
+      "conv": "zh-cn:灑佈; zh-tw:灑撤;"
     },
     {
       "original": "[[相位陣列|ESA]]",
-      "conv": "zh-cn:相控阵;zh-tw:相位陣列;zh-hk:相位陣列"
+      "conv": "zh-cn:相控阵;zh-tw:相位陣列;zh-hk:相位陣列;"
     },
     {
       "original": "[[马岛战争|Falklands War]]",
-      "conv": "zh-cn:马岛战争;zh-tw:福克蘭群島戰爭;zh-hk:福克蘭戰爭;zh-sg:福克兰战争"
+      "conv": "zh-cn:马岛战争; zh-tw:福克蘭群島戰爭; zh-hk:福克蘭戰爭; zh-sg:福克兰战争;"
     },
     {
       "original": "[[射後不理|Fire-and-Forget]]",
-      "conv": "zh-hans:发射后不管;zh-hant:射後不理"
+      "conv": "zh-hans:发射后不管;zh-hant:射後不理;"
+    },
+    {
+      "original": "[[FIM-92 Stinger|FIM-92刺針便攜式防空飛彈]]",
+      "conv": "zh-cn:FIM-92毒刺便携式防空导弹; zh-tw:FIM-92刺針便攜式防空飛彈;"
+    },
+    {
+      "original": "[[槍機助進器|Forward assist]]",
+      "conv": "zh-hans:复进助推器;zh-hant:槍機助進器;"
     },
     {
       "original": "[[Glantz]]",
-      "conv": "zh-cn:格兰茨;zh-tw:葛蘭茨;zh-hk:葛蘭茨"
+      "conv": "zh-cn:格兰茨; zh-tw:葛蘭茲; zh-hk:葛蘭茨"
     },
     {
       "original": "[[Guidance]]",
-      "conv": "zh-cn:制导;zh-tw:導引;zh-hk:制導"
+      "conv": "zh-cn:制导; zh-tw:導引; zh-hk:制導"
     },
     {
       "original": "[[海湾战争|Gulf War]]",
-      "conv": "zh-hant:海灣戰爭;zh-cn:海湾战争;zh-tw:波斯灣戰爭;zh-hk:波斯灣戰爭"
+      "conv": "zh-hant:海灣戰爭; zh-cn:海湾战争; zh-tw:波斯灣戰爭; zh-hk:波斯灣戰爭;"
+    },
+    {
+      "original": "[[General Electric]]",
+      "conv": "zh-cn:通用电气; zh-tw:奇異;"
+    },
+    {
+      "original": "[[海因茨·古德里安|Guderian]]",
+      "conv": "zh-cn:古德里安; zh-tw:古德林;"
     },
     {
       "original": "[[海爾賽|Halsey]]",
-      "conv": "zh-cn:哈尔西;zh-tw:海爾賽;zh-hk:海爾賽"
+      "conv": "zh-cn:哈尔西; zh-tw:海爾賽; zh-hk:海爾賽"
     },
     {
       "original": "[[集团军群|herrsgruppe]]",
-      "conv": "zh-cn:集团军群;zh-tw:集團軍;zh-hk:集團軍"
+      "conv": "zh-cn:集团军群; zh-tw:集團軍; zh-hk:集團軍"
     },
     {
       "original": "[[希特勒|Hitler]]",
-      "conv": "zh-cn:希特勒;zh-tw:希特勒;zh-hk:希特拉"
+      "conv": "zh-cn:希特勒; zh-tw:希特勒; zh-hk:希特拉"
     },
     {
       "original": "[[全息摄影|Holographic]]",
-      "conv": "zh-cn:全息;zh-tw:全像;zh-hk:全像"
+      "conv": "zh-cn:全息; zh-tw:全像; zh-hk:全像"
+    },
+    {
+      "original": "[[反戰車高爆彈|High-explosive anti-tank warheads]]",
+      "conv": "zh-cn:破甲弹; zh-tw:反戰車高爆彈;"
     },
     {
       "original": "[[信息战|Information warfare]]",
-      "conv": "zh-cn:信息战;zh-tw:資訊戰;zh-hk:資訊戰"
+      "conv": "zh-cn:信息战; zh-tw:資訊戰; zh-hk:資訊戰"
     },
     {
       "original": "Infantry Division",
-      "conv": "zh-cn: 步兵师;zh-tw:步兵師;zh-hk:步兵師"
+      "conv": "zh-cn: 步兵师;zh-tw:步兵師;zh-hk:步兵師;"
     },
     {
       "original": "Infantry Brigade",
-      "conv": "zh-cn: 步兵旅;zh-tw:步兵旅;zh-hk:步兵旅"
+      "conv": "zh-cn: 步兵旅;zh-tw:步兵旅;zh-hk:步兵旅;"
     },
     {
       "original": "Infantry Corps",
-      "conv": "zh-cn: 步兵军;zh-tw:步兵軍;zh-hk:步兵軍"
+      "conv": "zh-cn: 步兵军;zh-tw:步兵軍;zh-hk:步兵軍;"
     },
     {
       "original": "Infantry fighting vehicle",
-      "conv": "zh-cn:步兵战车;zh-tw:裝步戰車;步兵战车=>zh-hk:步兵戰車;裝步戰車=>zh-hk:步兵戰車"
+      "conv": "zh-cn:步兵战车;zh-tw:裝步戰車;步兵战车=>zh-hk:步兵戰車;裝步戰車=>zh-hk:步兵戰車;"
     },
     {
       "original": "Infantry tank",
-      "conv": "zh-cn:步兵坦克;zh-hk:步兵坦克;步兵坦克=>zh-tw:步兵戰車"
+      "conv": "zh-cn:步兵坦克;zh-hk:步兵坦克;步兵坦克=>zh-tw:步兵戰車;"
+    },
+    {
+      "original": "Ilyushin",
+      "conv": "zh-cn:伊尔;zh-tw:伊留申;zh-hk:伊留申;"
+    },
+    {
+      "original": "Ilyushin",
+      "conv": "zh-cn: 伊爾;zh-tw:伊留申;zh-hk:伊留申;"
     },
     {
       "original": "[[喷气|Jet]]",
-      "conv": "zh-cn:喷气;zh-tw:噴射;zh-hk:噴射"
+      "conv": "zh-cn:喷气; zh-tw:噴射; zh-hk:噴射;"
     },
     {
       "original": "[[噴射發動機|Jet engine]]",
-      "conv": "zh-cn:喷气发动机;zh-tw:噴射發動機;zh-hk:噴射引擎"
+      "conv": "zh-cn:喷气发动机; zh-tw:噴射發動機; zh-hk:噴射引擎;"
     },
     {
       "original": "[[朝鲜战争|Korean War]]",
-      "conv": "zh-cn:朝鲜战争;zh-tw:韓戰;zh-hk:韓戰;zh-mo:韓戰;zh-sg:韩战;zh-my:韩战"
+      "conv": "zh-cn:朝鲜战争;zh-tw:韓戰;zh-hk:韓戰;zh-mo:韓戰;zh-sg:韩战;zh-my:韩战;"
     },
     {
       "original": "[[君特·馮·克魯格|Günther von Kluge]]",
-      "conv": "zh-cn:克鲁格;zh-tw:克魯格;zh-hk:克魯格;zh-mo:克魯格;zh-sg:克鲁格;zh-my:克鲁格"
+      "conv": "zh-cn:克鲁格;zh-tw:克魯格;zh-hk:克魯格;zh-mo:克魯格;zh-sg:克鲁格;zh-my:克鲁格;"
     },
     {
       "original": "[[尼基塔·謝爾蓋耶維奇·赫魯曉夫|Khrushchev]]",
-      "conv": "zh-cn:赫鲁晓夫;zh-tw:赫魯雪夫;zh-hk:赫魯曉夫"
+      "conv": "zh-cn:赫鲁晓夫; zh-tw:赫魯雪夫; zh-hk:赫魯曉夫;"
     },
     {
       "original": "[[激光|Laser]]",
-      "conv": "zh-cn:激光;zh-tw:鐳射;zh-hk:激光"
+      "conv": "zh-cn:激光; zh-tw:鐳射; zh-hk:激光"
     },
     {
       "original": "Magic",
-      "conv": "zh-cn:魔术空对空导弹;zh-tw:魔法飛彈;zh-hk:魔術空對空導彈"
+      "conv": "zh-cn:魔术空对空导弹; zh-tw:魔法飛彈;zh-hk:魔術空對空導彈;"
     },
     {
       "original": "[[Mirage]]",
-      "conv": "zh-cn:幻影;zh-tw:幻象;zh-hk:幻影"
+      "conv": "zh-cn:幻影;zh-tw:幻象;zh-hk:幻影;"
     },
     {
       "original": "[[导弹|Missile]]",
-      "conv": "zh-cn:导弹;zh-tw:飛彈;zh-hk:導彈"
+      "conv": "zh-cn:导弹;zh-tw:飛彈;zh-hk:導彈;"
     },
     {
       "original": "[[密茲契|Mitscher]]",
-      "conv": "zh-cn:米契尔;zh-tw:密茲契;zh-hk:米契爾"
+      "conv": "zh-cn:米契尔;zh-tw:密茲契;zh-hk:米契爾;"
     },
     {
       "original": "[[维尔纳·默尔德尔斯|Werner Mölders]]",
-      "conv": "zh-cn:维尔纳·默尔德尔斯;zh-tw:維爾納·莫德士;zh-hk:維爾納·莫德士"
+      "conv": "zh-cn:维尔纳·默尔德尔斯;zh-tw:維爾納·莫德士;zh-hk:維爾納·莫德士;"
     },
     {
       "original": "[[埃里希·冯·曼施坦因|Erich von Manstein]]",
-      "conv": "zh-cn:埃里希·冯·曼施坦因;zh-tw:埃里希·馮·曼斯坦;zh-hk:埃里希·馮·曼斯坦"
+      "conv": "zh-cn:埃里希·冯·曼施坦因;zh-tw:埃里希·馮·曼斯坦;zh-hk:埃里希·馮·曼斯坦;"
     },
     {
       "original": "[[核动力|nuclear power]]",
-      "conv": "zh-cn:核动力;zh-tw:核子動力;zh-hk:核動力"
+      "conv": "zh-cn:核动力; zh-tw:核子動力; zh-hk:核動力"
     },
     {
       "original": "[[核武器|nuclear weapon]]",
-      "conv": "zh-cn:核武器;zh-tw:核子武器;zh-hk:核武器"
+      "conv": "zh-cn:核武器; zh-tw:核子武器; zh-hk:核武器"
     },
     {
       "original": "[[尼米茲|Nimitz]]",
-      "conv": "zh-cn:尼米兹;zh-tw:尼米茲;zh-hk:尼米茲"
+      "conv": "zh-cn:尼米兹;zh-tw:尼米茲;zh-hk:尼米茲;"
     },
     {
       "original": "[[Panzer Group]]",
-      "conv": "zh-cn:装甲集群;zh-tw:裝甲集團;zh-hk:裝甲集團"
+      "conv": "zh-cn:装甲集群; zh-tw:裝甲集團; zh-hk:裝甲集團;"
     },
     {
       "original": "[[Phalanx CIWS]]",
-      "conv": "zh-cn:密集阵近程;zh-tw:方陣近迫;zh-hk:方陣近迫"
+      "conv": "zh-cn:密集阵近程; zh-tw:方陣近迫; zh-hk:方陣近迫"
     },
     {
       "original": "[[Phalanx CIWS]]",
-      "conv": "zh-cn:密集阵近防系统;zh-tw:方陣快砲;zh-hk:方陣快砲"
+      "conv": "zh-cn:密集阵近防系统; zh-tw:方陣快砲; zh-hk:方陣快砲"
     },
     {
       "original": "[[Pod]]",
-      "conv": "zh-cn:吊舱;zh-tw:莢艙;zh-hk:吊艙"
+      "conv": "zh-cn:吊舱; zh-tw:莢艙; zh-hk:吊艙"
+    },
+    {
+      "original": "[[波斯灣|Persian Gulf]]",
+      "conv": "zh-cn:海湾; zh-tw:波斯灣;"
+    },
+    {
+      "original": "[[Pump-jet]]",
+      "conv": "zh-cn:噴水推進器; zh-tw:噴射泵"
+    },
+    {
+      "original": "[[Pump-jet]]",
+      "conv": "zh-cn:喷水推进器; zh-tw:噴射泵"
     },
     {
       "original": "Rafale",
-      "conv": "zh-cn:阵风;zh-tw:疾風;zh-hk:陣風"
+      "conv": "zh-cn:阵风; zh-tw:疾風;zh-hk:陣風;"
     },
     {
       "original": "RAM",
-      "conv": "zh-cn:拉姆导弹;zh-tw:滾體飛彈;zh-hk:滾體飛彈"
+      "conv": "zh-cn:拉姆导弹;zh-tw:滾體飛彈;zh-hk:滾體飛彈;"
+    },
+    {
+      "original": "Russian Aerospace Forces",
+      "conv": "zh-cn:俄罗斯空天军; zh-sg:俄罗斯空天军; zh-hk:俄羅斯航空太空軍; zh-mo:俄羅斯航空太空軍; zh-tw:俄羅斯航空太空軍;;"
     },
     {
       "original": "[[潜艇|Submarine]]",
-      "conv": "zh-cn:潜艇;zh-tw:潛艦;zh-hk:潛艇"
+      "conv": "zh-cn:潜艇;zh-tw:潛艦;zh-hk:潛艇;"
     },
     {
       "original": "[[自行火炮|Self-propelled artillery]]",
-      "conv": "zh-cn:自行火炮;zh-tw:自走砲;zh-hk:自走炮"
+      "conv": "zh-cn:自行火炮;zh-tw:自走砲;zh-hk:自走炮;"
     },
     {
       "original": "[[隐身|Stealth technology]]",
-      "conv": "zh-cn:隐身;zh-tw:匿蹤;zh-hk:隱形"
+      "conv": "zh-cn:隐身;zh-tw:匿蹤;zh-hk:隱形;"
     },
     {
       "original": "[[親衛隊|Schutzstaffel]]",
-      "conv": "zh-cn:党卫队;zh-tw:親衛隊;zh-hk:親衛隊;zh-mo:黨衛隊"
+      "conv": "zh-cn:党卫队;zh-tw:親衛隊;zh-hk:親衛隊;zh-mo:黨衛隊;"
     },
     {
       "original": "[[照準器|Sight (device)]]",
-      "conv": "zh-cn:瞄准具;zh-tw:照準器;zh-hk:照準器;zh-mo:照準器"
+      "conv": "zh-cn:瞄准具;zh-tw:照準器;zh-hk:照準器;zh-mo:照準器;"
+    },
+    {
+      "original": "[[Shaped charge]]",
+      "conv": "zh-cn:锥形装药;zh-tw:成形裝藥;"
+    },
+    {
+      "original": "[[面對空飛彈|Surface-to-Air Missile]]",
+      "conv": "zh-cn:地对空导弹;zh-hk:面對空導彈;zh-tw:地對空飛彈;"
     },
     {
       "original": "[[坦克|Tank]]",
@@ -252,900 +328,940 @@
       "conv": "zh-cn:坦克歼击车;zh-sg:自行反坦克炮;zh-tw:驅逐戰車;zh-hk:驅逐戰車"
     },
     {
+      "original": "[[紅外線熱影像|Thermographic camera]]",
+      "conv": "zh-cn:红外线热成像仪;zh-tw:紅外線熱影像;"
+    },
+    {
+      "original": "[[紅外線熱影像|Thermographic camera]]",
+      "conv": "zh-cn:热成像仪;zh-tw:紅外線熱影像;"
+    },
+    {
+      "original": "[[熱影像|Thermographic]]",
+      "conv": "zh-cn:热成像;zh-tw:熱影像;"
+    },
+    {
+      "original": "[[紅外線熱影像|Thermographic camera]]",
+      "conv": "zh-cn:熱成像夜視儀;zh-tw:紅外線熱影像;"
+    },
+    {
+      "original": "[[熱影像|Thermographic]]",
+      "conv": "zh-cn:熱成像;zh-tw:熱影像;"
+    },
+    {
       "original": "[[導波|Waveguide]]",
       "conv": "zh-cn:波导;zh-sg:波导;zh-tw:導波;zh-hk:導波"
     },
     {
       "original": "[[德意志國防軍|Wehrmacht]]",
-      "conv": "zh-cn:德国国防军;zh-sg:德国国防军;zh-tw:德意志國防軍;zh-hk:德意志國防軍"
+      "conv": "zh-cn:德国国防军; zh-sg:德国国防军; zh-tw:德意志國防軍; zh-hk:德意志國防軍;"
     },
     {
       "original": "[[武裝親衛隊|Waffen-SS]]",
-      "conv": "zh-cn:武装党卫队;zh-sg:武装党卫队;zh-tw:武裝親衛隊;zh-hk:武裝親衛隊"
+      "conv": "zh-cn:武装党卫队; zh-sg:武装党卫队; zh-tw:武裝親衛隊; zh-hk:武裝親衛隊;"
     },
     {
       "original": "",
-      "conv": "zh-hans:自由浮置式;zh-hant:自由浮動式"
+      "conv": "zh-cn:主战坦克; zh-sg:主战坦克; zh-tw:主力戰車; zh-hk:主戰坦克"
     },
     {
       "original": "",
-      "conv": "zh-hans:枪机;zh-tw:槍機;zh-cn:枪机;zh-hk:槍機"
+      "conv": "zh-cn:轻型坦克; zh-sg:轻型坦克; zh-tw:輕戰車; zh-hk:輕型坦克"
     },
     {
       "original": "",
-      "conv": "zh-hans:枪栓;zh-tw:槍機;zh-cn:枪栓;zh-hk:槍栓"
+      "conv": "zh-cn:中型坦克; zh-sg:中型坦克; zh-tw:中戰車; zh-hk:中型坦克"
     },
     {
       "original": "",
-      "conv": "zh:槍機;zh-hans:枪机;zh-tw:槍機;zh-cn:枪机;zh-hk:槍機"
+      "conv": "zh-cn:重型坦克; zh-sg:重型坦克; zh-tw:重戰車; zh-hk:重型坦克"
     },
     {
       "original": "",
-      "conv": "zh:槍栓;zh-hans:枪栓;zh-tw:槍機;zh-cn:枪栓;zh-hk:槍栓"
+      "conv": "zh-hans:法国荣誉军团; zh-hant:法國榮譽軍團"
     },
     {
       "original": "",
-      "conv": "zh:枪栓;zh-hans:枪栓;zh-tw:槍機;zh-cn:枪栓;zh-hk:槍栓"
+      "conv": "zh-hans:自由浮置式;zh-hant:自由浮動式;"
     },
     {
       "original": "",
-      "conv": "zh:枪机;zh-hans:枪机;zh-tw:槍機;zh-cn:枪机;zh-hk:槍機"
+      "conv": "zh-hans:枪机;zh-tw:槍機;zh-cn:枪机;zh-hk:槍機;"
     },
     {
       "original": "",
-      "conv": "zh-hans:拉机柄;zh-tw:槍機拉柄;zh-cn:拉机柄;zh-hk:上膛桿"
+      "conv": "zh-hans:枪栓;zh-tw:槍機;zh-cn:枪栓;zh-hk:槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:拉機柄;zh-tw:槍機拉柄;zh-cn:拉机柄;zh-hk:上膛桿"
+      "conv": "zh:槍機;zh-hans:枪机;zh-tw:槍機;zh-cn:枪机;zh-hk:槍機;"
     },
     {
       "original": "",
-      "conv": "zh-hans:套筒;zh-tw:滑套;zh-cn:套筒;zh-hk:滑架;zh-mo:滑架"
+      "conv": "zh:槍栓;zh-hans:枪栓;zh-tw:槍機;zh-cn:枪栓;zh-hk:槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:空仓挂机杆;zh-tw:滑套卡榫;zh-hk:滑架卡榫;zh-mo:滑架卡榫"
+      "conv": "zh:枪栓;zh-hans:枪栓;zh-tw:槍機;zh-cn:枪栓;zh-hk:槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:抽弹器;zh-tw:退殼鉤;zh-cn:抽弹器;zh-hk:退殼勾;zh-mo:退殼勾"
+      "conv": "zh:枪机;zh-hans:枪机;zh-tw:槍機;zh-cn:枪机;zh-hk:槍機;"
     },
     {
       "original": "",
-      "conv": "zh-hans:抛壳;zh-hant:退殼"
+      "conv": "zh-hans:拉机柄;zh-tw:槍機拉柄;zh-cn:拉机柄;zh-hk:上膛桿;"
     },
     {
       "original": "",
-      "conv": "zh:抽殼鈎;zh-hans:抽壳钩;zh-hant:退殼鉤"
+      "conv": "zh:拉機柄;zh-tw:槍機拉柄;zh-cn:拉机柄;zh-hk:上膛桿;"
     },
     {
       "original": "",
-      "conv": "zh:退殼勾;zh-hans:抽壳钩;zh-hant:退殼鉤"
+      "conv": "zh-hans:套筒;zh-tw:滑套;zh-cn:套筒;zh-hk:滑架;zh-mo:滑架;"
     },
     {
       "original": "",
-      "conv": "zh:保險絲;zh-hant:引信;zh-hans:引信"
+      "conv": "zh-hans:空仓挂机杆;zh-tw:滑套卡榫;zh-hk:滑架卡榫;zh-mo:滑架卡榫;"
     },
     {
       "original": "",
-      "conv": "zh:保险丝;zh-hant:引信;zh-hans:引信"
+      "conv": "zh-hans:抽弹器;zh-tw:退殼鉤;zh-cn:抽弹器;zh-hk:退殼勾;zh-mo:退殼勾;"
     },
     {
       "original": "",
-      "conv": "zh-tw:成形裝藥;zh-hans:锥形装药;zh-hk:錐形裝藥"
+      "conv": "zh-hans:抛壳;zh-hant:退殼;"
     },
     {
       "original": "",
-      "conv": "zh-hant:彈頭;zh-hans:战斗部"
+      "conv": "zh:抽殼鈎;zh-hans:抽壳钩;zh-hant:退殼鉤;"
     },
     {
       "original": "",
-      "conv": "zh-hans:燧石枪;zh-hant:燧發槍;zh-cn:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍"
+      "conv": "zh:退殼勾;zh-hans:抽壳钩;zh-hant:退殼鉤;"
     },
     {
       "original": "",
-      "conv": "zh-hans:燧发枪;zh-hant:燧發槍;zh-cn:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍"
+      "conv": "zh:保險絲;zh-hant:引信;zh-hans:引信;"
     },
     {
       "original": "",
-      "conv": "zh:燧石槍;zh-hant:燧發槍;zh-hans:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍"
+      "conv": "zh:保险丝;zh-hant:引信;zh-hans:引信;"
     },
     {
       "original": "",
-      "conv": "zh:燧發槍;zh-hant:燧發槍;zh-hans:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍"
+      "conv": "zh-tw:成形裝藥;zh-hans:锥形装药;zh-hk:錐形裝藥;"
     },
     {
       "original": "",
-      "conv": "zh:氣體;zh-hant:氣體;zh-hans:气体;zh-hk:氣體;zh-cn:气体;zh-tw:氣體;zh-mo:氣體"
+      "conv": "zh-hant:彈頭;zh-hans:战斗部;"
     },
     {
       "original": "",
-      "conv": "zh:瓦斯;zh-hant:氣體;zh-hans:气体;zh-hk:氣體;zh-cn:气体;zh-tw:氣體;zh-mo:氣體"
+      "conv": "zh-hans:燧石枪;zh-hant:燧發槍;zh-cn:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:直接导气;zh-hant:直接導氣;zh-cn:直接导气;zh-tw:直接導氣;zh-hk:直接導氣;zh-mo:直接導氣"
+      "conv": "zh-hans:燧发枪;zh-hant:燧發槍;zh-cn:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍;"
     },
     {
       "original": "",
-      "conv": "zh:氣體傳動式;zh-hans:气体传动式;zh-hant:氣體傳動式;zh-cn:气体传动式;zh-tw:氣體傳動式;zh-hk:氣體傳動式;zh-mo:氣體傳動式"
+      "conv": "zh:燧石槍;zh-hant:燧發槍;zh-hans:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍;"
     },
     {
       "original": "",
-      "conv": "zh:氣動式;zh-hans:气动式;zh-hant:氣動式;zh-cn:气动式;zh-tw:氣動式;zh-hk:導氣式;zh-mo:導氣式"
+      "conv": "zh:燧發槍;zh-hant:燧發槍;zh-hans:燧石枪;zh-tw:燧發槍;zh-hk:燧發槍;zh-mo:燧發槍;"
     },
     {
       "original": "",
-      "conv": "zh:手動式步槍;zh-hans:栓动式步枪;zh-hant:手動式步槍;zh-cn:栓动式步枪;zh-tw:手動式步槍;zh-hk:栓動式步槍"
+      "conv": "zh:氣體;zh-hant:氣體;zh-hans:气体;zh-hk:氣體;zh-cn:气体;zh-tw:氣體;zh-mo:氣體;"
     },
     {
       "original": "",
-      "conv": "zh:手動步槍;zh-hans:栓式步枪;zh-hant:手動步槍;zh-cn:栓式步枪;zh-tw:手動步槍;zh-hk:栓動步槍"
+      "conv": "zh:瓦斯;zh-hant:氣體;zh-hans:气体;zh-hk:氣體;zh-cn:气体;zh-tw:氣體;zh-mo:氣體;"
     },
     {
       "original": "",
-      "conv": "zh:栓動步槍;zh-hans:栓动步枪;zh-hant:手動步槍;zh-cn:栓动步枪;zh-tw:手動步槍;zh-hk:栓動步槍"
+      "conv": "zh-hans:直接导气;zh-hant:直接導氣;zh-cn:直接导气;zh-tw:直接導氣;zh-hk:直接導氣;zh-mo:直接導氣;"
     },
     {
       "original": "",
-      "conv": "zh:栓动式枪机;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓動式槍機"
+      "conv": "zh:氣體傳動式;zh-hans:气体传动式;zh-hant:氣體傳動式;zh-cn:气体传动式;zh-tw:氣體傳動式;zh-hk:氣體傳動式;zh-mo:氣體傳動式;"
     },
     {
       "original": "",
-      "conv": "zh:栓式步槍;zh-hans:栓式步枪;zh-hant:手動步槍;zh-cn:栓式步枪;zh-tw:手動步槍;zh-hk:栓式步槍"
+      "conv": "zh:氣動式;zh-hans:气动式;zh-hant:氣動式;zh-cn:气动式;zh-tw:氣動式;zh-hk:導氣式;zh-mo:導氣式;"
     },
     {
       "original": "",
-      "conv": "zh:栓式步枪;zh-hans:栓式步枪;zh-hant:手動步槍;zh-cn:栓式步枪;zh-tw:手動步槍;zh-hk:栓式步槍"
+      "conv": "zh:手動式步槍;zh-hans:栓动式步枪;zh-hant:手動式步槍;zh-cn:栓动式步枪;zh-tw:手動式步槍;zh-hk:栓動式步槍;"
     },
     {
       "original": "",
-      "conv": "zh:栓動式步槍;zh-hans:栓动式步枪;zh-hant:手動式步槍;zh-cn:栓动式步枪;zh-tw:手動步槍;zh-hk:栓動式步槍"
+      "conv": "zh:手動步槍;zh-hans:栓式步枪;zh-hant:手動步槍;zh-cn:栓式步枪;zh-tw:手動步槍;zh-hk:栓動步槍;"
     },
     {
       "original": "",
-      "conv": "zh:栓动式步枪;zh-hans:栓动式步枪;zh-hant:手動式步槍;zh-cn:栓动式步枪;zh-tw:手動式步槍;zh-hk:栓動式步槍"
+      "conv": "zh:栓動步槍;zh-hans:栓动步枪;zh-hant:手動步槍;zh-cn:栓动步枪;zh-tw:手動步槍;zh-hk:栓動步槍;"
     },
     {
       "original": "",
-      "conv": "zh:手動式槍機;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓動式槍機"
+      "conv": "zh:栓动式枪机;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓動式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:栓动式枪机;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓動式槍機"
+      "conv": "zh:栓式步槍;zh-hans:栓式步枪;zh-hant:手動步槍;zh-cn:栓式步枪;zh-tw:手動步槍;zh-hk:栓式步槍;"
     },
     {
       "original": "",
-      "conv": "zh:手動槍機;zh-hans:栓式枪机;zh-hant:手動槍機;zh-cn:栓式枪机;zh-tw:手動槍機;zh-hk:栓式槍機"
+      "conv": "zh:栓式步枪;zh-hans:栓式步枪;zh-hant:手動步槍;zh-cn:栓式步枪;zh-tw:手動步槍;zh-hk:栓式步槍;"
     },
     {
       "original": "",
-      "conv": "zh:手动枪机;zh-hans:栓式枪机;zh-hant:手動槍機;zh-cn:栓式枪机;zh-tw:手動槍機;zh-hk:栓式槍機"
+      "conv": "zh:栓動式步槍;zh-hans:栓动式步枪;zh-hant:手動式步槍;zh-cn:栓动式步枪;zh-tw:手動步槍;zh-hk:栓動式步槍;"
     },
     {
       "original": "",
-      "conv": "zh:栓式枪栓;zh-hans:栓式枪栓;zh-hant:手動槍機;zh-cn:栓式枪栓;zh-tw:手動槍機;zh-hk:栓式槍機"
+      "conv": "zh:栓动式步枪;zh-hans:栓动式步枪;zh-hant:手動式步槍;zh-cn:栓动式步枪;zh-tw:手動式步槍;zh-hk:栓動式步槍;"
     },
     {
       "original": "",
-      "conv": "zh:栓动式枪栓;zh-hans:栓动式枪栓;zh-hant:手動式槍機;zh-cn:栓动式枪栓;zh-tw:手動式槍機;zh-hk:栓动式槍機"
+      "conv": "zh:手動式槍機;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓動式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:栓动式;zh-hans:栓动式;zh-hant:手動式;zh-cn:栓动式;zh-tw:手動式;zh-hk:栓动式"
+      "conv": "zh:栓动式枪机;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓動式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:栓動式;zh-hans:栓动式;zh-hant:手動式;zh-cn:栓动式;zh-tw:手動式;zh-hk:栓動式"
+      "conv": "zh:手動槍機;zh-hans:栓式枪机;zh-hant:手動槍機;zh-cn:栓式枪机;zh-tw:手動槍機;zh-hk:栓式槍機;"
     },
     {
       "original": "",
-      "conv": "zh-hans:杠杆式;zh-tw:槓動式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式"
+      "conv": "zh:手动枪机;zh-hans:栓式枪机;zh-hant:手動槍機;zh-cn:栓式枪机;zh-tw:手動槍機;zh-hk:栓式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:槓桿式;zh-hans:杠杆式;zh-tw:槓桿式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式"
+      "conv": "zh:栓式枪栓;zh-hans:栓式枪栓;zh-hant:手動槍機;zh-cn:栓式枪栓;zh-tw:手動槍機;zh-hk:栓式槍機;"
     },
     {
       "original": "",
-      "conv": "zh-hans:泵动;zh-tw:泵動;zh-cn:泵动;zh-hk:壓動"
+      "conv": "zh:栓动式枪栓;zh-hans:栓动式枪栓;zh-hant:手動式槍機;zh-cn:栓动式枪栓;zh-tw:手動式槍機;zh-hk:栓动式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:泵動;zh-hans:泵动;zh-tw:泵動;zh-cn:泵动;zh-hk:壓動"
+      "conv": "zh:栓动式;zh-hans:栓动式;zh-hant:手動式;zh-cn:栓动式;zh-tw:手動式;zh-hk:栓动式;"
     },
     {
       "original": "",
-      "conv": "zh-hans:枪机偏转式;zh-hant:偏移式槍機;zh-cn:枪机偏转式;zh-tw:偏移式槍機;zh-hk:偏移式槍栓;zh-mo:偏移式槍栓"
+      "conv": "zh:栓動式;zh-hans:栓动式;zh-hant:手動式;zh-cn:栓动式;zh-tw:手動式;zh-hk:栓動式;"
     },
     {
       "original": "",
-      "conv": "zh:轉拴式槍栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh-hans:杠杆式;zh-tw:槓動式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式;"
     },
     {
       "original": "",
-      "conv": "zh:转拴式枪栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh:槓桿式;zh-hans:杠杆式;zh-tw:槓桿式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式;"
     },
     {
       "original": "",
-      "conv": "zh:转拴式枪机;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh-hans:泵动;zh-tw:泵動;zh-cn:泵动;zh-hk:壓動;"
     },
     {
       "original": "",
-      "conv": "zh:滾轉式槍栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh:泵動;zh-hans:泵动;zh-tw:泵動;zh-cn:泵动;zh-hk:壓動;"
     },
     {
       "original": "",
-      "conv": "zh:滚转式枪栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh-hans:枪机偏转式;zh-hant:偏移式槍機;zh-cn:枪机偏转式;zh-tw:偏移式槍機;zh-hk:偏移式槍栓;zh-mo:偏移式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:滚转式枪机;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh:轉拴式槍栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:转拴式枪机;zh-hant:旋轉式槍機;zh-cn:转拴式枪机;zh-tw:旋轉式槍機;zh-hk:轉拴式槍機;zh-mo:轉拴式槍機"
+      "conv": "zh:转拴式枪栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓"
+      "conv": "zh:转拴式枪机;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓"
+      "conv": "zh:滾轉式槍栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:開放式槍機;zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓"
+      "conv": "zh:滚转式枪栓;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:開膛待擊;zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓"
+      "conv": "zh:滚转式枪机;zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:閉鎖式槍機;zh-hans:闭膛待击;zh-tw:閉鎖式槍機;zh-cn:闭膛待击;zh-hk:閉鎖式槍栓;zh-mo:閉鎖式槍栓"
+      "conv": "zh-hans:转拴式枪机;zh-hant:旋轉式槍機;zh-cn:转拴式枪机;zh-tw:旋轉式槍機;zh-hk:轉拴式槍機;zh-mo:轉拴式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:闭膛待击;zh-hans:闭膛待击;zh-tw:閉鎖式槍機;zh-cn:闭膛待击;zh-hk:閉鎖式槍栓;zh-mo:閉鎖式槍栓"
+      "conv": "zh-hans:转拴式枪栓;zh-hant:旋轉式槍機;zh-cn:转拴式枪栓;zh-tw:旋轉式槍機;zh-hk:轉拴式槍栓;zh-mo:轉拴式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:闭膛待击;zh-tw:閉鎖式槍機;zh-cn:闭膛待击;zh-hk:閉鎖式槍栓;zh-mo:閉鎖式槍栓"
+      "conv": "zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用"
+      "conv": "zh:開放式槍機;zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:反沖作用;zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用"
+      "conv": "zh:開膛待擊;zh-hans:开膛待击; zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:反衝作用;zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用"
+      "conv": "zh:閉鎖式槍機;zh-hans:闭膛待击;zh-tw:閉鎖式槍機;zh-cn:闭膛待击;zh-hk:閉鎖式槍栓;zh-mo:閉鎖式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:自由槍機;zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用"
+      "conv": "zh:闭膛待击; zh-hans:闭膛待击; zh-tw:閉鎖式槍機;zh-cn:闭膛待击;zh-hk:閉鎖式槍栓;zh-mo:閉鎖式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:空仓挂机;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定"
+      "conv": "zh-hans:闭膛待击;zh-tw:閉鎖式槍機;zh-cn:闭膛待击;zh-hk:閉鎖式槍栓;zh-mo:閉鎖式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:空倉掛機;zh-hans:空仓挂机;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定"
+      "conv": "zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用;"
     },
     {
       "original": "",
-      "conv": "zh:空枪挂机;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定"
+      "conv": "zh:反沖作用;zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用;"
     },
     {
       "original": "",
-      "conv": "zh:空槍掛機;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定"
+      "conv": "zh:反衝作用;zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用;"
     },
     {
       "original": "",
-      "conv": "zh-hans:马格南;zh-hant:馬格南;zh-cn:马格南;zh-tw:麥格農;zh-hk:麥林;zh-mo:麥林"
+      "conv": "zh:自由槍機;zh-hans:自由枪机;zh-tw:反衝作用;zh-cn:自由枪机;zh-hk:反衝作用;"
     },
     {
       "original": "",
-      "conv": "zh-hans:德林加手枪;zh-tw:迪林格手槍;zh-hk:掌心雷;zh-mo:掌心雷"
+      "conv": "zh:空仓挂机;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定;"
     },
     {
       "original": "",
-      "conv": "zh:德林加手槍;zh-hans:德林加手枪;zh-tw:迪林格手槍;zh-hk:掌心雷;zh-mo:掌心雷"
+      "conv": "zh:空倉掛機;zh-hans:空仓挂机;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定;"
     },
     {
       "original": "",
-      "conv": "zh-hans:转轮手枪;zh-tw:轉輪手槍;zh-cn:转轮手枪;zh-hk:左輪手槍;zh-mo:左輪手槍"
+      "conv": "zh:空枪挂机;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定;"
     },
     {
       "original": "",
-      "conv": "zh-hans:左轮手枪;zh-tw:左輪手槍;zh-cn:左轮手枪;zh-hk:左輪手槍;zh-mo:左輪手槍"
+      "conv": "zh:空槍掛機;zh-tw:無彈後定;zh-cn:空仓挂机;zh-hk:無彈後定;zh-mo:無彈後定;"
     },
     {
       "original": "",
-      "conv": "zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍"
+      "conv": "zh-hans:马格南;zh-hant:馬格南;zh-cn:马格南;zh-tw:麥格農;zh-hk:麥林;zh-mo:麥林;"
     },
     {
       "original": "",
-      "conv": "zh:霰彈槍;zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍"
+      "conv": "zh-hans:德林加手枪;zh-tw:迪林格手槍;zh-hk:掌心雷;zh-mo:掌心雷;"
     },
     {
       "original": "",
-      "conv": "zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈"
+      "conv": "zh:德林加手槍;zh-hans:德林加手枪;zh-tw:迪林格手槍;zh-hk:掌心雷;zh-mo:掌心雷;"
     },
     {
       "original": "",
-      "conv": "zh:霰彈;zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈"
+      "conv": "zh-hans:转轮手枪;zh-tw:轉輪手槍;zh-cn:转轮手枪;zh-hk:左輪手槍;zh-mo:左輪手槍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:冲锋枪;zh-tw:衝鋒槍;zh-cn:冲锋枪;zh-hk:衝鋒槍;zh-mo:衝鋒槍"
+      "conv": "zh-hans:左轮手枪;zh-tw:左輪手槍;zh-cn:左轮手枪;zh-hk:左輪手槍;zh-mo:左輪手槍;"
     },
     {
       "original": "",
-      "conv": "zh:冲锋枪;zh-hans:冲锋枪;zh-tw:衝鋒槍;zh-cn:冲锋枪;zh-hk:衝鋒槍;zh-mo:衝鋒槍"
+      "conv": "zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:特等射手;zh-tw:精確射手;zh-cn:特等射手;zh-hk:精確射手;zh-mo:精確射手"
+      "conv": "zh:霰彈槍;zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:无托结构;zh-hant:犢牛式;zh-hk:牛犢式;zh-mo:牛犢式"
+      "conv": "zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈;"
     },
     {
       "original": "",
-      "conv": "zh-hans:弹匣;zh-tw:彈匣;zh-cn:弹匣;zh-hk:彈匣"
+      "conv": "zh:霰彈;zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈;"
     },
     {
       "original": "",
-      "conv": "zh-hans:弹仓;zh-tw:彈倉;zh-cn:弹仓;zh-hk:彈倉"
+      "conv": "zh-hans:冲锋枪;zh-tw:衝鋒槍;zh-cn:冲锋枪;zh-hk:衝鋒槍;zh-mo:衝鋒槍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:玻璃钢;zh-hant:玻璃鋼;zh-hk:玻璃纖維;zh-tw:玻璃纖維"
+      "conv": "zh:冲锋枪;zh-hans:冲锋枪;zh-tw:衝鋒槍;zh-cn:冲锋枪;zh-hk:衝鋒槍;zh-mo:衝鋒槍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:护环;zh-hant:護弓"
+      "conv": "zh-hans:特等射手;zh-tw:精確射手;zh-cn:特等射手;zh-hk:精確射手;zh-mo:精確射手;"
     },
     {
       "original": "",
-      "conv": "zh-hans:快慢机;zh-hant:射擊選擇桿;zh-cn:快慢机;zh-tw:射擊選擇桿;zh-hk:選射掣;zh-mo:選射掣"
+      "conv": "zh-hans:无托结构;zh-hant:犢牛式;zh-hk:牛犢式;zh-mo:牛犢式;"
     },
     {
       "original": "",
-      "conv": "zh:快慢機;zh-hans:快慢机;zh-hant:射擊選擇桿;zh-cn:快慢机;zh-tw:射擊選擇桿;zh-hk:選射掣;zh-mo:選射掣"
+      "conv": "zh-hans:弹匣;zh-tw:彈匣;zh-cn:弹匣;zh-hk:彈匣;"
     },
     {
       "original": "",
-      "conv": "zh-hans:击发调变;zh-hant:切換射擊模式;;zh-cn:击发调变;zh-tw:切換射擊模式;;zh-hk:選射"
+      "conv": "zh-hans:弹仓;zh-tw:彈倉;zh-cn:弹仓;zh-hk:彈倉;"
     },
     {
       "original": "",
-      "conv": "zh:擊發調變;zh-hans:击发调变;zh-hant:切換射擊模式;zh-cn:击发调变;zh-tw:切換射擊模式;zh-hk:選射"
+      "conv": "zh-hans:玻璃钢;zh-hant:玻璃鋼;zh-hk:玻璃纖維;zh-tw:玻璃纖維;"
     },
     {
       "original": "",
-      "conv": "zh-hans:三发点放;zh-hant:三發點放;zh-cn:三发点放;zh-tw:三發點放;zh-hk:三連發;zh-mo:三連發"
+      "conv": "zh-hans:护环;zh-hant:護弓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:两发点放;zh-hant:兩發點放;zh-cn:两发点放;zh-tw:兩發點放;zh-hk:兩連發;zh-mo:兩連發"
+      "conv": "zh-hans:快慢机;zh-hant:射擊選擇桿;zh-cn:快慢机;zh-tw:射擊選擇桿;zh-hk:選射掣;zh-mo:選射掣;"
     },
     {
       "original": "",
-      "conv": "zh-hans:四发点放;zh-hant:四發點放;zh-cn:四发点放;zh-tw:四發點放;zh-hk:四連發;zh-mo:四連發"
+      "conv": "zh:快慢機;zh-hans:快慢机;zh-hant:射擊選擇桿;zh-cn:快慢机;zh-tw:射擊選擇桿;zh-hk:選射掣;zh-mo:選射掣;"
     },
     {
       "original": "",
-      "conv": "zh-hans:复进簧;zh-hant:覆進簧;zh-cn:复进簧;zh-tw:覆進簧;zh-hk:回膛彈簧;zh-mo:回膛彈簧"
+      "conv": "zh-hans:击发调变;zh-hant:切換射擊模式;;zh-cn:击发调变;zh-tw:切換射擊模式;;zh-hk:選射;"
     },
     {
       "original": "",
-      "conv": "zh-hans:消焰器;zh-hant:消焰器;zh-cn:消焰器;zh-tw:消焰器;zh-hk:消光器;zh-mo:消光器"
+      "conv": "zh:擊發調變;zh-hans:击发调变;zh-hant:切換射擊模式;zh-cn:击发调变;zh-tw:切換射擊模式;zh-hk:選射;"
     },
     {
       "original": "",
-      "conv": "zh-hans:手枪式握把;zh-hant:手槍式握把;zh-cn:手枪式握把;zh-tw:手槍式握把;zh-hk:手槍握把;zh-mo:手槍握把"
+      "conv": "zh-hans:三发点放;zh-hant:三發點放;zh-cn:三发点放;zh-tw:三發點放;zh-hk:三連發;zh-mo:三連發;"
     },
     {
       "original": "",
-      "conv": "zh-hans:枪背带;zh-hk:槍帶;zh-tw:槍背帶"
+      "conv": "zh-hans:两发点放;zh-hant:兩發點放;zh-cn:两发点放;zh-tw:兩發點放;zh-hk:兩連發;zh-mo:兩連發;"
     },
     {
       "original": "",
-      "conv": "zh:直角前握把;zh-hans:三角形前握把;zh-hant:直角前握把"
+      "conv": "zh-hans:四发点放;zh-hant:四發點放;zh-cn:四发点放;zh-tw:四發點放;zh-hk:四連發;zh-mo:四連發;"
     },
     {
       "original": "",
-      "conv": "zh:三角形前握把;zh-hans:三角形前握把;zh-hant:直角前握把"
+      "conv": "zh-hans:复进簧;zh-hant:覆進簧;zh-cn:复进簧;zh-tw:覆進簧;zh-hk:回膛彈簧;zh-mo:回膛彈簧;"
     },
     {
       "original": "",
-      "conv": "zh-hans:抑制器;zh-hant:消音器;zh-hk:滅聲器;zh-tw:消音器"
+      "conv": "zh-hans:消焰器;zh-hant:消焰器;zh-cn:消焰器;zh-tw:消焰器;zh-hk:消光器;zh-mo:消光器;"
     },
     {
       "original": "",
-      "conv": "zh:微声;zh-hans:微声;zh-hant:消聲;zh-cn:微声;zh-tw:消音;zh-hk:滅聲;zh-mo:滅聲"
+      "conv": "zh-hans:手枪式握把;zh-hant:手槍式握把;zh-cn:手枪式握把;zh-tw:手槍式握把;zh-hk:手槍握把;zh-mo:手槍握把;"
     },
     {
       "original": "",
-      "conv": "zh:微聲;zh-hans:微声;zh-hant:消聲;zh-cn:微声;zh-tw:消音;zh-hk:滅聲;zh-mo:滅聲"
+      "conv": "zh-hans:枪背带;zh-hk:槍帶;zh-tw:槍背帶;"
     },
     {
       "original": "",
-      "conv": "zh-hans:停止作用;zh-tw:制止力;zh-cn:停止作用;zh-hk:制止力;zh-mo:制止力"
+      "conv": "zh:直角前握把;zh-hans:三角形前握把;zh-hant:直角前握把;"
     },
     {
       "original": "",
-      "conv": "zh:收束器;zh-hans:喉缩;zh-hant:收束器"
+      "conv": "zh:三角形前握把;zh-hans:三角形前握把;zh-hant:直角前握把;"
     },
     {
       "original": "",
-      "conv": "zh-hans:弹夹条;zh-hant:彈夾條;zh-cn:桥夹;zh-tw:橋夾;zh-hk:橋夾;zh-mo:橋夾"
+      "conv": "zh-hans:抑制器;zh-hant:消音器;zh-hk:滅聲器;zh-tw:消音器;"
     },
     {
       "original": "",
-      "conv": "zh:擊針;zh-hans:击针;zh-hant:擊針;zh-cn:击针;zh-tw:擊針;zh-hk:撞針;zh-mo:撞針"
+      "conv": "zh:微声;zh-hans:微声;zh-hant:消聲;zh-cn:微声;zh-tw:消音;zh-hk:滅聲;zh-mo:滅聲;"
     },
     {
       "original": "",
-      "conv": "zh:击针;zh-hans:击针;zh-hant:擊針;zh-cn:击针;zh-tw:擊針;zh-hk:撞針;zh-mo:撞針"
+      "conv": "zh:微聲;zh-hans:微声;zh-hant:消聲;zh-cn:微声;zh-tw:消音;zh-hk:滅聲;zh-mo:滅聲;"
     },
     {
       "original": "",
-      "conv": "zh:擊針平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh-hans:停止作用;zh-tw:制止力;zh-cn:停止作用;zh-hk:制止力;zh-mo:制止力;"
     },
     {
       "original": "",
-      "conv": "zh:击针平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵平移式;zh-hk:擊鐵擊發"
+      "conv": "zh:收束器;zh-hans:喉缩;zh-hant:收束器;"
     },
     {
       "original": "",
-      "conv": "zh:擊針擊發;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh-hans:弹夹条;zh-hant:彈夾條;zh-cn:桥夹;zh-tw:橋夾;zh-hk:橋夾;zh-mo:橋夾;"
     },
     {
       "original": "",
-      "conv": "zh:擊針擊發;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh:擊針;zh-hans:击针;zh-hant:擊針;zh-cn:击针;zh-tw:擊針;zh-hk:撞針;zh-mo:撞針;"
     },
     {
       "original": "",
-      "conv": "zh:击针击发;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh:击针;zh-hans:击针;zh-hant:擊針;zh-cn:击针;zh-tw:擊針;zh-hk:撞針;zh-mo:撞針;"
     },
     {
       "original": "",
-      "conv": "zh:擊鐵平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh:擊針平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:击铁平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh:击针平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵平移式;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:擊針發射;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh:擊針擊發;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:撞針擊發;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發"
+      "conv": "zh:擊針擊發;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:護環;zh-hans:护环;zh-hant:護弓"
+      "conv": "zh:击针击发;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:板機;zh-hans:扳机;zh-hant:扳機"
+      "conv": "zh:擊鐵平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:板机;zh-hans:扳机;zh-hant:扳機"
+      "conv": "zh:击铁平移式;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh-hans:火控;zh-hant:射控"
+      "conv": "zh:擊針發射;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh-hans:数码迷彩;zh-hant:數位迷彩;zh-cn:数码迷彩;zh-hk:數碼迷彩;zh-mo:數碼迷彩;zh-tw:數位迷彩"
+      "conv": "zh:撞針擊發;zh-hans:平移击铁;zh-hant:擊鐵擊發;zh-cn:平移击铁;zh-tw:擊鐵擊發;zh-hk:擊鐵擊發;"
     },
     {
       "original": "",
-      "conv": "zh:數位迷彩;zh-hans:数码迷彩;zh-hant:數位迷彩;zh-cn:数码迷彩;zh-hk:數碼迷彩;zh-mo:數碼迷彩;zh-tw:數位迷彩"
+      "conv": "zh:護環;zh-hans:护环;zh-hant:護弓;"
     },
     {
       "original": "",
-      "conv": "zh-hans:防弹背心;zh-hant:防彈衣;zh-hk:避彈衣;zh-mo:避彈衣;zh-tw:防彈衣"
+      "conv": "zh:板機; zh-hans:扳机; zh-hant:扳機;"
     },
     {
       "original": "",
-      "conv": "zh:防弹衣;zh-hans:防弹背心;zh-hant:防彈衣;zh-hk:避彈衣;zh-mo:避彈衣;zh-tw:防彈衣"
+      "conv": "zh:板机; zh-hans:扳机; zh-hant:扳機;"
     },
     {
       "original": "",
-      "conv": "zh:防彈背心;zh-hans:防弹背心;zh-hant:防彈衣;zh-hk:避彈衣;zh-mo:避彈衣;zh-tw:防彈衣"
+      "conv": "zh-hans:火控; zh-hant:射控;"
     },
     {
       "original": "",
-      "conv": "zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍"
+      "conv": "zh-hans:数码迷彩;zh-hant:數位迷彩;zh-cn:数码迷彩;zh-hk:數碼迷彩;zh-mo:數碼迷彩;zh-tw:數位迷彩;"
     },
     {
       "original": "",
-      "conv": "zh:凱夫拉;zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍"
+      "conv": "zh:數位迷彩;zh-hans:数码迷彩;zh-hant:數位迷彩;zh-cn:数码迷彩;zh-hk:數碼迷彩;zh-mo:數碼迷彩;zh-tw:數位迷彩;"
     },
     {
       "original": "",
-      "conv": "zh:功夫龍;zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍"
+      "conv": "zh-hans:防弹背心;zh-hant:防彈衣;zh-hk:避彈衣;zh-mo:避彈衣;zh-tw:防彈衣;"
     },
     {
       "original": "",
-      "conv": "zh:克維拉;zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍"
+      "conv": "zh:防弹衣;zh-hans:防弹背心;zh-hant:防彈衣;zh-hk:避彈衣;zh-mo:避彈衣;zh-tw:防彈衣;"
     },
     {
       "original": "",
-      "conv": "zh:夜視儀;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀"
+      "conv": "zh:防彈背心;zh-hans:防弹背心;zh-hant:防彈衣;zh-hk:避彈衣;zh-mo:避彈衣;zh-tw:防彈衣;"
     },
     {
       "original": "",
-      "conv": "zh:夜视仪;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀"
+      "conv": "zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍;"
     },
     {
       "original": "",
-      "conv": "zh:夜視鏡;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀"
+      "conv": "zh:凱夫拉;zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍;"
     },
     {
       "original": "",
-      "conv": "zh:夜视镜;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀"
+      "conv": "zh:功夫龍;zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍;"
     },
     {
       "original": "",
-      "conv": "zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓"
+      "conv": "zh:克維拉;zh-hans:凯芙拉;zh-hant:功夫龍;zh-hk:凱夫拉;zh-mo:凱夫拉;zh-tw:功夫龍;"
     },
     {
       "original": "",
-      "conv": "zh:迷你砲;zh-cn:米尼岗;zh-hans:迷你炮;zh-hk:迷你砲;zh-tw:迷你砲"
+      "conv": "zh:夜視儀;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀;"
     },
     {
       "original": "",
-      "conv": "zh:塑料;zh-hans:塑料;zh-hant:塑膠"
+      "conv": "zh:夜视仪;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀;"
     },
     {
       "original": "",
-      "conv": "zh:模块化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化"
+      "conv": "zh:夜視鏡;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀;"
     },
     {
       "original": "",
-      "conv": "zh:模組化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化"
+      "conv": "zh:夜视镜;zh-hans:夜视仪;zh-hant:夜視儀;zh-hk:夜視鏡;zh-mo:夜視鏡;zh-tw:夜視儀;"
     },
     {
       "original": "",
-      "conv": "zh:模塊化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化"
+      "conv": "zh-hans:开膛待击;zh-tw:開放式槍機;zh-cn:开膛待击;zh-hk:開放式槍栓;zh-mo:開放式槍栓;"
     },
     {
       "original": "",
-      "conv": "zh:模组化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化"
+      "conv": "zh:迷你砲;zh-cn:米尼岗;zh-hans:迷你炮;zh-hk:迷你砲;zh-tw:迷你砲;"
     },
     {
       "original": "",
-      "conv": "zh-tw:人員攜行式;zh-hk:便攜式;zh-hans:便携式"
+      "conv": "zh:塑料;zh-hans:塑料;zh-hant:塑膠;"
     },
     {
       "original": "",
-      "conv": "zh:公厘;zh-hans:毫米;zh-hant:公釐;zh-tw:公釐;zh-hk:毫米;zh-mo:毫米"
+      "conv": "zh:模块化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化;"
     },
     {
       "original": "",
-      "conv": "zh:7.65毫米魯格彈;zh-hans:7.65毫米帕拉贝鲁姆弹;zh-tw:7.65公釐帕拉貝倫彈;zh-hk:7.65毫米帕拉貝倫彈"
+      "conv": "zh:模組化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化;"
     },
     {
       "original": "",
-      "conv": "zh:7.65毫米魯格口徑;zh-hans:7.65毫米帕拉贝鲁姆口径;zh-tw:7.65公釐帕拉貝倫口徑;zh-hk:7.65毫米帕拉貝倫口徑"
+      "conv": "zh:模塊化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化;"
     },
     {
       "original": "",
-      "conv": "zh:7.65毫米鲁格彈;zh-hans:7.65毫米帕拉贝鲁姆弹;zh-tw:7.65公釐帕拉貝倫彈;zh-hk:7.65毫米帕拉貝倫彈"
+      "conv": "zh:模组化;zh-tw:模組化;zh-hans:模块化;zh-hk:模組化;zh-mo:模組化;"
     },
     {
       "original": "",
-      "conv": "zh:7.65毫米鲁格口径;zh-hans:7.65毫米帕拉贝鲁姆口径;zh-tw:7.65公釐帕拉貝倫口徑;zh-hk:7.65毫米帕拉貝倫口徑"
+      "conv": "zh-tw:人員攜行式;zh-hk:便攜式;zh-hans:便携式;"
     },
     {
       "original": "",
-      "conv": "zh:9毫米魯格彈;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈"
+      "conv": "zh:公厘;zh-hans:毫米;zh-hant:公釐;zh-tw:公釐;zh-hk:毫米;zh-mo:毫米;"
     },
     {
       "original": "",
-      "conv": "zh:9公釐魯格彈;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈"
+      "conv": "zh:7.65毫米魯格彈;zh-hans:7.65毫米帕拉贝鲁姆弹;zh-tw:7.65公釐帕拉貝倫彈;zh-hk:7.65毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh:9毫米魯格;zh-hans:9毫米帕拉贝鲁姆;zh-tw:9公釐帕拉貝倫;zh-hk:9毫米帕拉貝倫"
+      "conv": "zh:7.65毫米魯格口徑;zh-hans:7.65毫米帕拉贝鲁姆口径;zh-tw:7.65公釐帕拉貝倫口徑;zh-hk:7.65毫米帕拉貝倫口徑;"
     },
     {
       "original": "",
-      "conv": "zh:9公釐魯格;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈"
+      "conv": "zh:7.65毫米鲁格彈;zh-hans:7.65毫米帕拉贝鲁姆弹;zh-tw:7.65公釐帕拉貝倫彈;zh-hk:7.65毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh:9毫米魯格口徑;zh-hans:9毫米帕拉贝鲁姆口径;zh-tw:9公釐帕拉貝倫口徑;zh-hk:9毫米帕拉貝倫口徑"
+      "conv": "zh:7.65毫米鲁格口径;zh-hans:7.65毫米帕拉贝鲁姆口径;zh-tw:7.65公釐帕拉貝倫口徑;zh-hk:7.65毫米帕拉貝倫口徑;"
     },
     {
       "original": "",
-      "conv": "zh:9公釐魯格彈;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈"
+      "conv": "zh:9毫米魯格彈;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh:9毫米鲁格弹;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈"
+      "conv": "zh:9公釐魯格彈;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh:9毫米鲁格口径;zh-hans:9毫米帕拉贝鲁姆口径;zh-tw:9公釐帕拉貝倫口徑;zh-hk:9毫米帕拉貝倫口徑"
+      "conv": "zh:9毫米魯格;zh-hans:9毫米帕拉贝鲁姆;zh-tw:9公釐帕拉貝倫;zh-hk:9毫米帕拉貝倫;"
     },
     {
       "original": "",
-      "conv": "zh:9毫米鲁格;zh-hans:9毫米帕拉贝鲁姆;zh-tw:9公釐帕拉貝倫;zh-hk:9毫米帕拉貝倫"
+      "conv": "zh:9公釐魯格;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh-hans:贝雷塔;zh-hant:貝瑞塔"
+      "conv": "zh:9毫米魯格口徑;zh-hans:9毫米帕拉贝鲁姆口径;zh-tw:9公釐帕拉貝倫口徑;zh-hk:9毫米帕拉貝倫口徑;"
     },
     {
       "original": "",
-      "conv": "zh-hans:恩菲尔德;zh-hant:恩飛;zh-cn:恩菲尔德;zh-tw:恩飛;zh-hk:恩飛;zh-mo:恩飛"
+      "conv": "zh:9公釐魯格彈;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh:恩菲爾德;zh-hans:恩菲尔德;zh-hant:恩飛;zh-cn:恩菲尔德;zh-tw:恩飛;zh-hk:恩飛;zh-mo:恩飛"
+      "conv": "zh:9毫米鲁格弹;zh-hans:9毫米帕拉贝鲁姆弹;zh-tw:9公釐帕拉貝倫彈;zh-hk:9毫米帕拉貝倫彈;"
     },
     {
       "original": "",
-      "conv": "zh-hans:斯普林菲尔德;zh-hant:春田;zh-cn:斯普林菲尔德;zh-tw:春田;zh-hk:春田;zh-mo:春田"
+      "conv": "zh:9毫米鲁格口径;zh-hans:9毫米帕拉贝鲁姆口径;zh-tw:9公釐帕拉貝倫口徑;zh-hk:9毫米帕拉貝倫口徑;"
     },
     {
       "original": "",
-      "conv": "zh-cn:柯尔特;zh-tw:柯特;zh-hk:曲特;zh-mo:曲特;zh-hans:柯尔特;zh-hant:柯特"
+      "conv": "zh:9毫米鲁格;zh-hans:9毫米帕拉贝鲁姆;zh-tw:9公釐帕拉貝倫;zh-hk:9毫米帕拉貝倫;"
     },
     {
       "original": "",
-      "conv": "zh:柯爾特;zh-cn:柯尔特;zh-tw:柯特;zh-hk:曲特;zh-mo:曲特;zh-hans:柯尔特;zh-hant:柯特"
+      "conv": "zh-hans:贝雷塔;zh-hant:貝瑞塔;"
     },
     {
       "original": "",
-      "conv": "zh:柯特;zh-cn:柯尔特;zh-tw:柯特;zh-hk:曲特;zh-mo:曲特;zh-hans:柯尔特;zh-hant:柯特"
+      "conv": "zh-hans:恩菲尔德;zh-hant:恩飛;zh-cn:恩菲尔德;zh-tw:恩飛;zh-hk:恩飛;zh-mo:恩飛;"
     },
     {
       "original": "",
-      "conv": "zh-hans:史密夫韦森;zh-hant:史密斯威森;zh-cn:史密夫韦森;zh-tw:史密斯威森;zh-hk:史密夫威信"
+      "conv": "zh:恩菲爾德; zh-hans:恩菲尔德;zh-hant:恩飛;zh-cn:恩菲尔德;zh-tw:恩飛;zh-hk:恩飛;zh-mo:恩飛;"
     },
     {
       "original": "",
-      "conv": "zh:蘭卡斯特;zh-cn:兰开斯特;zh-hk:蘭卡斯特;zh-tw:蘭開斯特"
+      "conv": "zh-hans:斯普林菲尔德;zh-hant:春田;zh-cn:斯普林菲尔德;zh-tw:春田;zh-hk:春田;zh-mo:春田;"
     },
     {
       "original": "",
-      "conv": "zh-hans:韦伯利;zh-hant:威百利;zh-cn:韦伯利;zh-tw:威百利;zh-hk:威百利"
+      "conv": "zh-cn:柯尔特;zh-tw:柯特;zh-hk:曲特;zh-mo:曲特;zh-hans:柯尔特;zh-hant:柯特;"
     },
     {
       "original": "",
-      "conv": "zh:韋伯利;zh-hans:韦伯利;zh-hant:威百利;zh-cn:韦伯利;zh-tw:威百利;zh-hk:威百利"
+      "conv": "zh:柯爾特; zh-cn:柯尔特;zh-tw:柯特;zh-hk:曲特;zh-mo:曲特;zh-hans:柯尔特;zh-hant:柯特;"
     },
     {
       "original": "",
-      "conv": "zh:納甘;zh-hans:纳甘;zh-hant:納干"
+      "conv": "zh:柯特; zh-cn:柯尔特;zh-tw:柯特;zh-hk:曲特;zh-mo:曲特;zh-hans:柯尔特;zh-hant:柯特;"
     },
     {
       "original": "",
-      "conv": "zh:纳甘;zh-hans:纳甘;zh-hant:納干"
+      "conv": "zh-hans:史密夫韦森;zh-hant:史密斯威森;zh-cn:史密夫韦森;zh-tw:史密斯威森;zh-hk:史密夫威信;"
     },
     {
       "original": "",
-      "conv": "zh:納干;zh-hans:纳甘;zh-hant:納干"
+      "conv": "zh:蘭卡斯特;zh-cn:兰开斯特;zh-hk:蘭卡斯特;zh-tw:蘭開斯特;"
     },
     {
       "original": "",
-      "conv": "zh:斯泰爾;zh-hans:施泰尔;zh-hant:斯泰爾;zh-cn:施泰尔;zh-tw:斯泰爾;zh-hk:斯泰爾"
+      "conv": "zh-hans:韦伯利;zh-hant:威百利;zh-cn:韦伯利;zh-tw:威百利;zh-hk:威百利;"
     },
     {
       "original": "",
-      "conv": "zh:施泰尔;zh-hans:施泰尔;zh-hant:斯泰爾;zh-cn:施泰尔;zh-tw:斯泰爾;zh-hk:斯泰爾"
+      "conv": "zh:韋伯利; zh-hans:韦伯利;zh-hant:威百利;zh-cn:韦伯利;zh-tw:威百利;zh-hk:威百利;"
     },
     {
       "original": "",
-      "conv": "zh:斯太尔;zh-hans:施泰尔;zh-hant:斯泰爾;zh-cn:施泰尔;zh-tw:斯泰爾;zh-hk:斯泰爾"
+      "conv": "zh:納甘;zh-hans:纳甘;zh-hant:納干;"
     },
     {
       "original": "",
-      "conv": "zh:雷明頓;zh-hans:雷明顿;zh-hant:雷明頓;zh-cn:雷明顿;zh-tw:雷明頓;zh-hk:雷鳴燈;zh-mo:雷鳴燈"
+      "conv": "zh:纳甘;zh-hans:纳甘;zh-hant:納干;"
     },
     {
       "original": "",
-      "conv": "zh:雷明登;zh-hans:雷明顿;zh-hant:雷明頓;zh-cn:雷明顿;zh-tw:雷明頓;zh-hk:雷鳴燈;zh-mo:雷鳴燈"
+      "conv": "zh:納干;zh-hans:纳甘;zh-hant:納干;"
     },
     {
       "original": "",
-      "conv": "zh-hans:加特林;zh-hant:格林;zh-cn:加特林;zh-tw:格林;zh-hk:格林;zh-mo:格林"
+      "conv": "zh:斯泰爾;zh-hans:施泰尔;zh-hant:斯泰爾;zh-cn:施泰尔;zh-tw:斯泰爾;zh-hk:斯泰爾;"
     },
     {
       "original": "",
-      "conv": "zh-hans:勃朗宁;zh-hant:白朗寧;zh-cn:勃朗宁;zh-tw:白朗寧;zh-hk:布朗寧;zh-mo:布朗寧"
+      "conv": "zh:施泰尔;zh-hans:施泰尔;zh-hant:斯泰爾;zh-cn:施泰尔;zh-tw:斯泰爾;zh-hk:斯泰爾;"
     },
     {
       "original": "",
-      "conv": "zh-cn:刘易斯;zh-tw:路易士;zh-hk:路易士;zh-mo:路易士;zh-hans:刘易斯;zh-hant:路易士"
+      "conv": "zh:斯太尔;zh-hans:施泰尔;zh-hant:斯泰爾;zh-cn:施泰尔;zh-tw:斯泰爾;zh-hk:斯泰爾;"
     },
     {
       "original": "",
-      "conv": "zh-hans:捷格加廖夫;zh-hant:狄格帖諾夫;zh-cn:捷格加廖夫;zh-tw:狄格帖諾夫;zh-hk:捷格加廖夫;zh-mo:捷格加廖夫"
+      "conv": "zh:雷明頓;zh-hans:雷明顿;zh-hant:雷明頓;zh-cn:雷明顿;zh-tw:雷明頓;zh-hk:雷鳴燈;zh-mo:雷鳴燈;"
     },
     {
       "original": "",
-      "conv": "zh:捷格佳廖夫;zh-hans:捷格加廖夫;zh-hant:狄格帖諾夫;zh-cn:捷格加廖夫;zh-tw:狄格帖諾夫;zh-hk:捷格加廖夫;zh-mo:捷格加廖夫"
+      "conv": "zh:雷明登;zh-hans:雷明顿;zh-hant:雷明頓;zh-cn:雷明顿;zh-tw:雷明頓;zh-hk:雷鳴燈;zh-mo:雷鳴燈;"
     },
     {
       "original": "",
-      "conv": "zh:卡拉什尼科夫;zh-hans:卡拉什尼科夫;zh-hant:卡拉希尼柯夫;zh-cn:卡拉什尼科夫;zh-tw:卡拉希尼柯夫;zh-hk:卡拉什尼柯夫;zh-mo:卡拉什尼柯夫"
+      "conv": "zh-hans:加特林;zh-hant:格林;zh-cn:加特林;zh-tw:格林;zh-hk:格林;zh-mo:格林;"
     },
     {
       "original": "",
-      "conv": "zh:卡拉什尼柯夫;zh-hans:卡拉什尼科夫;zh-hant:卡拉希尼柯夫;zh-cn:卡拉什尼科夫;zh-tw:卡拉希尼柯夫;zh-hk:卡拉什尼柯夫;zh-mo:卡拉什尼柯夫"
+      "conv": "zh-hans:勃朗宁;zh-hant:白朗寧;zh-cn:勃朗宁;zh-tw:白朗寧;zh-hk:布朗寧;zh-mo:布朗寧;"
     },
     {
       "original": "",
-      "conv": "zh:馬卡洛夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫"
+      "conv": "zh-cn:刘易斯;zh-tw:路易士;zh-hk:路易士;zh-mo:路易士;zh-hans:刘易斯;zh-hant:路易士;"
     },
     {
       "original": "",
-      "conv": "zh:马卡洛夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫"
+      "conv": "zh-hans:捷格加廖夫;zh-hant:狄格帖諾夫; zh-cn:捷格加廖夫; zh-tw:狄格帖諾夫;zh-hk:捷格加廖夫;zh-mo:捷格加廖夫;"
     },
     {
       "original": "",
-      "conv": "zh:馬卡羅夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫"
+      "conv": "zh:捷格佳廖夫;zh-hans:捷格加廖夫; zh-hant:狄格帖諾夫; zh-cn:捷格加廖夫; zh-tw:狄格帖諾夫;zh-hk:捷格加廖夫;zh-mo:捷格加廖夫;"
     },
     {
       "original": "",
-      "conv": "zh:马卡罗夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫"
+      "conv": "zh:卡拉什尼科夫;zh-hans:卡拉什尼科夫;zh-hant:卡拉希尼柯夫;zh-cn:卡拉什尼科夫;zh-tw:卡拉希尼柯夫;zh-hk:卡拉什尼柯夫;zh-mo:卡拉什尼柯夫;"
     },
     {
       "original": "",
-      "conv": "zh:KBP儀器設計局;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局"
+      "conv": "zh:卡拉什尼柯夫;zh-hans:卡拉什尼科夫;zh-hant:卡拉希尼柯夫;zh-cn:卡拉什尼科夫;zh-tw:卡拉希尼柯夫;zh-hk:卡拉什尼柯夫;zh-mo:卡拉什尼柯夫;"
     },
     {
       "original": "",
-      "conv": "zh:KBP仪器设计局;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局"
+      "conv": "zh:馬卡洛夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫;"
     },
     {
       "original": "",
-      "conv": "zh:KBP儀器設計廠;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局"
+      "conv": "zh:马卡洛夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫;"
     },
     {
       "original": "",
-      "conv": "zh:KBP仪器设计厂;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局"
+      "conv": "zh:馬卡羅夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫;"
     },
     {
       "original": "",
-      "conv": "zh:KBP工具設計廠;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局"
+      "conv": "zh:马卡罗夫;zh-hans:马卡洛夫;zh-hant:馬卡羅夫;zh-cn:马卡洛夫;zh-tw:馬卡羅夫;zh-hk:馬卡羅夫;zh-mo:馬卡羅夫;"
     },
     {
       "original": "",
-      "conv": "zh:KBP工具设计厂;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局"
+      "conv": "zh:KBP儀器設計局;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局;"
     },
     {
       "original": "",
-      "conv": "zh-hans:约翰逊;zh-hant:約翰遜;zh-cn:约翰逊;zh-tw:約翰遜;zh-hk:強生;zh-mo:強生"
+      "conv": "zh:KBP仪器设计局;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局;"
     },
     {
       "original": "",
-      "conv": "zh-hans:瓦尔特;zh-hant:華瑟"
+      "conv": "zh:KBP儀器設計廠;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局;"
     },
     {
       "original": "",
-      "conv": "zh:瓦爾特;zh-hans:瓦尔特;zh-hant:華瑟"
+      "conv": "zh:KBP仪器设计厂;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局;"
     },
     {
       "original": "",
-      "conv": "zh-hans:萨博博福斯动力;zh-hant:紳寶波佛斯動力"
+      "conv": "zh:KBP工具設計廠;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局;"
     },
     {
       "original": "",
-      "conv": "zh:儒格;zh-hans:鲁格;zh-hant:儒格;zh-cn:鲁格;zh-tw:儒格;zh-hk:儒格;zh-mo:儒格"
+      "conv": "zh:KBP工具设计厂;zh-hans:俄联邦仪器设计局;zh-hant:俄聯邦儀器設計局;"
     },
     {
       "original": "",
-      "conv": "zh:金牛座;zh-hans:陶鲁斯;zh-tw:金牛座;zh-hk:金牛座"
+      "conv": "zh-hans:约翰逊;zh-hant:約翰遜;zh-cn:约翰逊;zh-tw:約翰遜;zh-hk:強生;zh-mo:強生;"
     },
     {
       "original": "",
-      "conv": "zh:瓦爾梅特;zh-hans:瓦尔梅特;zh-hant:瓦梅特"
+      "conv": "zh-hans:瓦尔特;zh-hant:華瑟;"
     },
     {
       "original": "",
-      "conv": "zh:瓦梅特;zh-hans:瓦尔梅特;zh-hant:瓦梅特"
+      "conv": "zh:瓦爾特;zh-hans:瓦尔特;zh-hant:華瑟;"
     },
     {
       "original": "",
-      "conv": "zh:薩柯;zh-hant:薩科;zh-hans:萨科;zh-hk:薩科;zh-cn:萨科;zh-tw:薩柯;zh-mo:薩科"
+      "conv": "zh-hans:萨博博福斯动力;zh-hant:紳寶波佛斯動力;"
     },
     {
       "original": "",
-      "conv": "zh:沙科;zh-hant:薩科;zh-hans:萨科;zh-hk:薩科;zh-cn:萨科;zh-tw:薩柯;zh-mo:薩科"
+      "conv": "zh:儒格;zh-hans:鲁格;zh-hant:儒格;zh-cn:鲁格;zh-tw:儒格;zh-hk:儒格;zh-mo:儒格;"
     },
     {
       "original": "",
-      "conv": "zh:伯奈利;zh-hans:贝内利;zh-hant:伯奈利;zh-cn:贝内利;zh-tw:伯奈利;zh-hk:伯奈利;zh-mo:伯奈利"
+      "conv": "zh:金牛座;zh-hans:陶鲁斯;zh-tw:金牛座;zh-hk:金牛座;"
     },
     {
       "original": "",
-      "conv": "zh-hans:格洛克;zh-hant:克拉克;zh-cn:格洛克;zh-tw:克拉克;zh-hk:格洛克"
+      "conv": "zh:瓦爾梅特;zh-hans:瓦尔梅特;zh-hant:瓦梅特;"
     },
     {
       "original": "",
-      "conv": "zh:馬格普;zh-hans:马盖普;zh-hant:馬格普;zh-cn:马盖普;zh-tw:馬格普;zh-hk:馬格普"
+      "conv": "zh:瓦梅特;zh-hans:瓦尔梅特;zh-hant:瓦梅特;"
     },
     {
       "original": "",
-      "conv": "zh:马格普;zh-hans:马盖普;zh-hant:馬格普;zh-cn:马盖普;zh-tw:馬格普;zh-hk:馬格普"
+      "conv": "zh:薩柯;zh-hant:薩科;zh-hans:萨科;zh-hk:薩科;zh-cn:萨科;zh-tw:薩柯;zh-mo:薩科;"
     },
     {
       "original": "",
-      "conv": "zh:克里耶;zh-hans:克莱;zh-hant:克萊;zh-cn:克莱;zh-tw:克萊;zh-hk:克萊;zh-mo:克萊"
+      "conv": "zh:沙科;zh-hant:薩科;zh-hans:萨科;zh-hk:薩科;zh-cn:萨科;zh-tw:薩柯;zh-mo:薩科;"
     },
     {
       "original": "",
-      "conv": "zh:特種空勤團;zh-hans:特种空勤团;zh-hant:空降特勤隊;zh-cn:特种空勤团;zh-tw:空降特勤隊;zh-hk:特別空勤團;zh-mo:特別空勤團"
+      "conv": "zh:伯奈利;zh-hans:贝内利;zh-hant:伯奈利;zh-cn:贝内利;zh-tw:伯奈利;zh-hk:伯奈利;zh-mo:伯奈利;"
     },
     {
       "original": "",
-      "conv": "zh:海豹部隊;zh-hans:海豹突击队;zh-hant:三棲特戰隊"
+      "conv": "zh-hans:格洛克;zh-hant:克拉克;zh-cn:格洛克;zh-tw:克拉克;zh-hk:格洛克;"
     },
     {
       "original": "",
-      "conv": "zh:海豹突击队;zh-hans:海豹突击队;zh-hant:三棲特戰隊"
+      "conv": "zh:馬格普;zh-hans:马盖普;zh-hant:馬格普;zh-cn:马盖普;zh-tw:馬格普;zh-hk:馬格普;"
     },
     {
       "original": "",
-      "conv": "zh:海豹突擊隊;zh-hans:海豹突击队;zh-hant:三棲特戰隊"
+      "conv": "zh:马格普;zh-hans:马盖普;zh-hant:馬格普;zh-cn:马盖普;zh-tw:馬格普;zh-hk:馬格普;"
     },
     {
       "original": "",
-      "conv": "zh:三棲特戰隊;zh-hans:海豹突击队;zh-hant:三棲特戰隊"
+      "conv": "zh:克里耶;zh-hans:克莱;zh-hant:克萊;zh-cn:克莱;zh-tw:克萊;zh-hk:克萊;zh-mo:克萊;"
     },
     {
       "original": "",
-      "conv": "zh-hans:阿尔法特种部队;zh-hk:阿爾法特種部隊;zh-mo:阿爾法特種部隊;zh-tw:阿爾法小組"
+      "conv": "zh:特種空勤團;zh-hans:特种空勤团;zh-hant:空降特勤隊;zh-cn:特种空勤团;zh-tw:空降特勤隊;zh-hk:特別空勤團;zh-mo:特別空勤團;"
     },
     {
       "original": "",
-      "conv": "zh-hans:信号旗特种部队;zh-hk:信號旗特種部隊;zh-mo:信號旗特種部隊;zh-tw:信號旗小組"
+      "conv": "zh:海豹部隊;zh-hans:海豹突击队;zh-hant:三棲特戰隊;"
     },
     {
       "original": "",
-      "conv": "zh:團匪;zh-hans:团伙;zh-hant:團伙"
+      "conv": "zh:海豹突击队;zh-hans:海豹突击队;zh-hant:三棲特戰隊;"
     },
     {
       "original": "",
-      "conv": "zh:朝鮮戰爭;zh-hans:朝鲜战争;zh-hant:韓戰"
+      "conv": "zh:海豹突擊隊;zh-hans:海豹突击队;zh-hant:三棲特戰隊;"
     },
     {
       "original": "",
-      "conv": "zh:朝鲜战争;zh-hans:朝鲜战争;zh-hant:韓戰"
+      "conv": "zh:三棲特戰隊;zh-hans:海豹突击队;zh-hant:三棲特戰隊;"
     },
     {
       "original": "",
-      "conv": "zh:韓戰;zh-hans:朝鲜战争;zh-hant:韓戰"
+      "conv": "zh-hans:阿尔法特种部队; zh-hk:阿爾法特種部隊; zh-mo:阿爾法特種部隊; zh-tw:阿爾法小組;"
     },
     {
       "original": "",
-      "conv": "zh:韩战;zh-hans:朝鲜战争;zh-hant:韓戰"
+      "conv": "zh-hans:信号旗特种部队; zh-hk:信號旗特種部隊; zh-mo:信號旗特種部隊; zh-tw:信號旗小組;"
     },
     {
       "original": "",
-      "conv": "zh:挻;zh-hans:挺;zh-hant:挺"
+      "conv": "zh:團匪;zh-hans:团伙;zh-hant:團伙;"
+    },
+    {
+      "original": "",
+      "conv": "zh:朝鮮戰爭;zh-hans:朝鲜战争;zh-hant:韓戰;"
+    },
+    {
+      "original": "",
+      "conv": "zh:朝鲜战争;zh-hans:朝鲜战争;zh-hant:韓戰;"
+    },
+    {
+      "original": "",
+      "conv": "zh:韓戰;zh-hans:朝鲜战争;zh-hant:韓戰;"
+    },
+    {
+      "original": "",
+      "conv": "zh:韩战;zh-hans:朝鲜战争;zh-hant:韓戰;"
+    },
+    {
+      "original": "",
+      "conv": "zh:挻;zh-hans:挺;zh-hant:挺;"
     }
   ]
 }

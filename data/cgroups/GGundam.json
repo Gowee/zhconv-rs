@@ -1,187 +1,187 @@
 {
   "name": "GGundam",
-  "description": "機動武鬥傳G GUNDAM",
+  "description": "機動武鬥傳GGUNDAM",
   "path": "Template:CGroup/GGundam",
   "rules": [
     {
       "original": "ドモン",
-      "conv": "zh-hans:多蒙;zh-hk:杜門;zh-tw:多門"
+      "conv": "zh-hans:多蒙;zh-hk:杜門;zh-tw:多門;"
     },
     {
       "original": "カッシュ",
-      "conv": "zh-hans:卡修;zh-hk:卡遜;zh-tw:火州"
+      "conv": "zh-hans:卡修;zh-hk:卡遜;zh-tw:火州;"
     },
     {
       "original": "レイン",
-      "conv": "zh-hans:玲;zh-hk:莉英;zh-tw:蕾茵"
+      "conv": "zh-hans:玲;zh-hk:莉英;zh-tw:蕾茵;"
     },
     {
       "original": "ミカムラ",
-      "conv": "zh-hans:深村;zh-hk:米加姆拉;zh-tw:三加村"
+      "conv": "zh-hans:深村;zh-hk:米加姆拉;zh-tw:三加村;"
     },
     {
       "original": "レイン・ミカムラ",
-      "conv": "zh-hans:深村玲;zh-hk:莉英·米加姆拉;zh-tw:蕾茵·三加村"
+      "conv": "zh-hans:深村玲;zh-hk:莉英·米加姆拉;zh-tw:蕾茵·三加村;"
     },
     {
       "original": "ジョルジュ",
-      "conv": "zh-hans:祖尔殊;zh-hk:佐治;zh-tw:喬治"
+      "conv": "zh-hans:祖尔殊;zh-hk:佐治;zh-tw:喬治;"
     },
     {
       "original": "ド・サンド",
-      "conv": "zh-hans:德·山度;zh-hk:戴·辛度;zh-tw:迪·山德"
+      "conv": "zh-hans:德·山度;zh-hk:戴·辛度;zh-tw:迪·山德;"
     },
     {
       "original": "サイ・サイシー",
-      "conv": "zh-hans:蔡赛西;zh-hk:蔡采施;zh-tw:賽采之"
+      "conv": "zh-hans:蔡赛西;zh-hk:蔡采施;zh-tw:賽采之;"
     },
     {
       "original": "チボディ",
-      "conv": "zh-hans:奇波迪;zh-hk:卓波迪;zh-tw:奇波迪"
+      "conv": "zh-hans:奇波迪;zh-hk:卓波迪;zh-tw:奇波迪;"
     },
     {
       "original": "クロケット",
-      "conv": "zh-hans:克洛凯特;zh-hk:古洛特;zh-tw:克洛凱特"
+      "conv": "zh-hans:克洛凯特;zh-hk:古洛特;zh-tw:克洛凱特;"
     },
     {
       "original": "アルゴ",
-      "conv": "zh-cn:阿尔戈;zh-hk:阿魯高;zh-tw:阿爾戈"
+      "conv": "zh-cn:阿尔戈;zh-hk:阿魯高;zh-tw:阿爾戈;"
     },
     {
       "original": "ガルスキー",
-      "conv": "zh-cn:加尔斯基;zh-hk:加魯斯基;zh-tw:高爾斯基"
+      "conv": "zh-cn:加尔斯基;zh-hk:加魯斯基;zh-tw:高爾斯基;"
     },
     {
       "original": "シュバルツ",
-      "conv": "zh-hans:舒瓦兹;zh-hk:史巴路;zh-tw:舒瓦茲"
+      "conv": "zh-hans:舒瓦兹;zh-hk:史巴路;zh-tw:舒瓦茲;"
     },
     {
       "original": "ブルーダー",
-      "conv": "zh-hans:布鲁达;zh-hk:保路特;zh-tw:布魯德"
+      "conv": "zh-hans:布鲁达;zh-hk:保路特;zh-tw:布魯德;"
     },
     {
       "original": "アレンビー",
-      "conv": "zh-hans:阿莉比;zh-hk:阿莉比;zh-tw:阿蓮比"
+      "conv": "zh-hans:阿莉比;zh-hk:阿莉比;zh-tw:阿蓮比;"
     },
     {
       "original": "ビアズリー",
-      "conv": "zh-hans:比亚兹利;zh-hk:比亞茲利;zh-tw:碧兒絲莉"
+      "conv": "zh-hans:比亚兹利;zh-hk:比亞茲利;zh-tw:碧兒絲莉;"
     },
     {
       "original": "キョウジ",
-      "conv": "zh-hans:京二;zh-hk:京治;zh-tw:恭志"
+      "conv": "zh-hans:京二;zh-hk:京治;zh-tw:恭志;"
     },
     {
       "original": "ウルベ",
-      "conv": "zh-cn:乌尔巴;zh-hk:潤戶;zh-tw:宇留部"
+      "conv": "zh-cn:乌尔巴;zh-hk:潤戶;zh-tw:宇留部;"
     },
     {
       "original": "チャップマン",
-      "conv": "zh-tw:查普曼;zh-hk:卓文"
+      "conv": "zh-tw:查普曼; zh-hk:卓文;"
     },
     {
       "original": "ミケロ",
-      "conv": "zh-tw:米凱洛;zh-hk:米基洛"
+      "conv": "zh-tw:米凱洛; zh-hk:米基洛;"
     },
     {
       "original": "ガンダム",
-      "conv": "zh:GUNDAM;zh-hans:高达;zh-hk:高達;zh-tw:鋼彈"
+      "conv": "zh:GUNDAM;zh-hans:高达;zh-hk:高達;zh-tw:鋼彈;"
     },
     {
       "original": "ゴッドガンダム",
-      "conv": "zh:神GUNDAM;zh-hans:神高达;zh-hk:神高達;zh-tw:神威鋼彈"
+      "conv": "zh:神GUNDAM;zh-hans:神高达;zh-hk:神高達;zh-tw:神威鋼彈;"
     },
     {
       "original": "ゴッドガンダム",
-      "conv": "zh:神威GUNDAM;zh-hans:神高达;zh-hk:神高達;zh-tw:神威鋼彈"
+      "conv": "zh:神威GUNDAM;zh-hans:神高达;zh-hk:神高達;zh-tw:神威鋼彈;"
     },
     {
       "original": "デビルガンダム（アルティメットガンダム）",
-      "conv": "zh:惡魔GUNDAM;zh-hans:魔鬼高达;zh-hk:魔鬼高達;zh-tw:惡魔鋼彈"
+      "conv": "zh:惡魔GUNDAM;zh-hans:魔鬼高达;zh-hk:魔鬼高達;zh-tw:惡魔鋼彈;"
     },
     {
       "original": "デビルガンダム（アルティメットガンダム）",
-      "conv": "zh:魔鬼GUNDAM;zh-hans:魔鬼高达;zh-hk:魔鬼高達;zh-tw:惡魔鋼彈"
+      "conv": "zh:魔鬼GUNDAM;zh-hans:魔鬼高达;zh-hk:魔鬼高達;zh-tw:惡魔鋼彈;"
     },
     {
       "original": "ガンダムマックスター",
-      "conv": "zh-cn:麦克之星高达;zh-hk:美國之星高達;zh-tw:麥克鋼彈"
+      "conv": "zh-cn:麦克之星高达;zh-hk:美國之星高達;zh-tw:麥克鋼彈;"
     },
     {
       "original": "ボルトガンダム",
-      "conv": "zh-cn:重型高达;zh-hk:金剛石高達;zh-tw:重型鋼彈"
+      "conv": "zh-cn:重型高达;zh-hk:金剛石高達;zh-tw:重型鋼彈;"
     },
     {
       "original": "ガンダムローズ",
-      "conv": "zh-cn:玫瑰高达;zh-hk:玫瑰高達;zh-tw:薔薇鋼彈"
+      "conv": "zh-cn:玫瑰高达;zh-hk:玫瑰高達;zh-tw:薔薇鋼彈;"
     },
     {
       "original": "ガンダムシュピーゲル",
-      "conv": "zh-cn:镜高达;zh-hk:鏡高達;zh-tw:明鏡鋼彈"
+      "conv": "zh-cn:镜高达;zh-hk:鏡高達;zh-tw:明鏡鋼彈;"
     },
     {
       "original": "ドラゴンガンダム",
-      "conv": "zh-cn:飞龙高达;zh-hk:飛龍高達;zh-tw:天龍鋼彈"
+      "conv": "zh-cn:飞龙高达;zh-hk:飛龍高達;zh-tw:天龍鋼彈;"
     },
     {
       "original": "マスターガンダム",
-      "conv": "zh-cn:尊者高达;zh-hk:盟主高達;zh-tw:宗師鋼彈"
+      "conv": "zh-cn:尊者高达;zh-hk:盟主高達;zh-tw:宗師鋼彈;"
     },
     {
       "original": "ライジングガンダム",
-      "conv": "zh:旭日GUNDAM;zh-cn:旭日高达;zh-hk:希望高達;zh-tw:旭日鋼彈"
+      "conv": "zh:旭日GUNDAM;zh-cn:旭日高达;zh-hk:希望高達;zh-tw:旭日鋼彈;"
     },
     {
       "original": "ライジングガンダム",
-      "conv": "zh:希望GUNDAM;zh-cn:旭日高达;zh-hk:希望高達;zh-tw:旭日鋼彈"
+      "conv": "zh:希望GUNDAM;zh-cn:旭日高达;zh-hk:希望高達;zh-tw:旭日鋼彈;"
     },
     {
       "original": "ノーベルガンダム",
-      "conv": "zh-cn:诺贝尔高达;zh-hk:美少女高達;zh-tw:諾貝爾鋼彈"
+      "conv": "zh-cn:诺贝尔高达;zh-hk:美少女高達;zh-tw:諾貝爾鋼彈;"
     },
     {
       "original": "ネロスガンダム",
-      "conv": "zh-hk:尼祿高達;zh-tw:尼羅鋼彈"
+      "conv": "zh-hk:尼祿高達;zh-tw:尼羅鋼彈;"
     },
     {
       "original": "Gガンダム",
-      "conv": "zh:G GUNDAM;zh-hans:G高达;zh-hk:G高達;zh-tw:G鋼彈"
+      "conv": "zh:G GUNDAM;zh-hans:G高达;zh-hk:G高達;zh-tw:G鋼彈;"
     },
     {
       "original": "爆熱ゴッドフィンガー",
-      "conv": "zh-hans:爆热神掌;zh-hk:爆熱神掌;zh-tw:爆熱神威掌"
+      "conv": "zh-hans:爆热神掌;zh-hk:爆熱神掌;zh-tw:爆熱神威掌;"
     },
     {
       "original": "ゴッドフィンガー",
-      "conv": "神威掌=>zh-cn:神掌;神威掌=>zh-hk:神掌"
+      "conv": "神威掌=>zh-cn:神掌;神威掌=>zh-hk:神掌;"
     },
     {
       "original": "ローゼスビット",
-      "conv": "zh-cn:玫瑰浮游圆锥炮;zh-tw:蔷薇感應炮;zh-hk:玫瑰浮游圓錐砲"
+      "conv": "zh-cn:玫瑰浮游圆锥炮; zh-tw:蔷薇感應炮; zh-hk:玫瑰浮游圓錐砲;"
     },
     {
       "original": "ビット",
-      "conv": "zh-cn:浮游圆锥炮;zh-tw:精神感應砲;zh-hk:浮游圓錐砲"
+      "conv": "zh-cn:浮游圆锥炮; zh-tw:精神感應砲; zh-hk:浮游圓錐砲;"
     },
     {
       "original": "ビット",
-      "conv": "zh-cn:浮游圆锥炮;zh-tw:感應砲;zh-hk:浮游圓錐砲"
+      "conv": "zh-cn:浮游圆锥炮; zh-tw:感應砲; zh-hk:浮游圓錐砲;"
     },
     {
       "original": "ビーム",
-      "conv": "zh-hans:光束;zh-hk:鐳射;zh-tw:光束"
+      "conv": "zh-hans:光束;zh-hk:鐳射;zh-tw:光束;"
     },
     {
       "original": "ビーム・サーベル",
-      "conv": "zh-hans:光束军刀;zh-hk:鐳射劍;zh-tw:光束軍刀"
+      "conv": "zh-hans:光束军刀;zh-hk:鐳射劍;zh-tw:光束軍刀;"
     },
     {
       "original": "ヒート",
-      "conv": "zh-hans:电热;zh-hk:熱能;zh-tw:電熱"
+      "conv": "zh-hans:电热;zh-hk:熱能;zh-tw:電熱;"
     },
     {
       "original": "ライフル",
-      "conv": "zh-hans:來福槍;zh-cn:来福枪;zh-hk:步槍;zh-tw:步槍"
+      "conv": "zh-hans:來福槍; zh-cn:来福枪; zh-hk:步槍;zh-tw:步槍;"
     },
     {
       "original": null,

@@ -9,7 +9,7 @@
     },
     {
       "original": "Sarek",
-      "conv": "zh:沙瑞克;zh-cn:萨瑞克;zh-tw:沙瑞克"
+      "conv": "zh:沙瑞克;zh-cn:萨瑞克;zh-tw:沙瑞克;"
     },
     {
       "original": "chief medical officer",
@@ -17,31 +17,67 @@
     },
     {
       "original": "microphone",
-      "conv": "zh-cn:麦克风;zh-tw:麥克風;zh-hk:咪高峰"
+      "conv": "zh-cn:麦克风;zh-tw:麥克風; zh-hk:咪高峰;"
     },
     {
       "original": "Rick and Morty",
-      "conv": "zh-cn:瑞克和莫蒂;zh-tw:瑞克和莫蒂;zh-hk:瑞克和莫蒂"
+      "conv": "zh-cn:瑞克和莫蒂; zh-tw:瑞克和莫蒂; zh-hk:瑞克和莫蒂;"
+    },
+    {
+      "original": "",
+      "conv": "zh:星际旅行电影;zh-cn:星际旅行电影;zh-tw:星艦迷航記電影;zh-hk:星空奇遇記電影"
+    },
+    {
+      "original": "",
+      "conv": "zh:星际旅行模板;zh-cn:星际旅行模板;zh-tw:星艦迷航記模板;zh-hk:星空奇遇記模板"
+    },
+    {
+      "original": "",
+      "conv": "zh:星艦奇航記;zh-cn:星际旅行;zh-tw:星艦迷航記;zh-hk:星空奇遇記"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:星旅系列; zh-tw:星艦系列; zh-hk:星空系列"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:星旅小说; zh-tw:星艦小說; zh-hk:星空小說"
+    },
+    {
+      "original": "",
+      "conv": "zh:星际旅行：原初系列;zh-cn:星际旅行：初代;zh-tw:星際爭霸戰; zh-hk:星空奇遇記;"
+    },
+    {
+      "original": "",
+      "conv": "初代=>zh-tw:星際爭霸戰; 初代=>zh-hk:星空奇遇記;"
     },
     {
       "original": "TAS",
-      "conv": "zh:动画系列;zh-cn:动画系列;zh-tw:動畫版"
+      "conv": "zh:动画系列;zh-cn:动画系列;zh-tw:動畫版;"
     },
     {
       "original": "TNG",
-      "conv": "zh-cn:下一代;zh-tw:銀河飛龍;zh-hk:新星空奇遇記"
+      "conv": "zh-cn:下一代; zh-tw:銀河飛龍; zh-hk:新星空奇遇記;"
     },
     {
       "original": "TNG",
-      "conv": "zh-cn:星际旅行：下一代;zh-tw:銀河飛龍;zh-hk:新星空奇遇記"
+      "conv": "zh-cn:星际旅行：下一代;zh-tw:銀河飛龍; zh-hk:新星空奇遇記;"
+    },
+    {
+      "original": "",
+      "conv": "深太空九號=>zh-cn:深空九号;"
     },
     {
       "original": "DS9",
-      "conv": "zh:深空九号;zh-cn:深空九号;zh-hant:銀河前哨"
+      "conv": "zh:深空九号;zh-cn:深空九号; zh-hant:銀河前哨;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:星际旅行：深空九号;zh-tw:銀河前哨;"
     },
     {
       "original": "VOY",
-      "conv": "zh-cn:星际旅行：航海家号;zh-tw:星際爭霸戰：重返地球;zh-hk:星空奇遇記：重返地球"
+      "conv": "zh-cn:星际旅行：航海家号;zh-tw:星際爭霸戰：重返地球;zh-hk:星空奇遇記：重返地球;"
     },
     {
       "original": "VOY",
@@ -49,103 +85,123 @@
     },
     {
       "original": "ENT",
-      "conv": "zh-cn:星际旅行：进取号;zh-tw:企業號"
+      "conv": "zh-cn:星际旅行：进取号; zh-tw:企業號;"
     },
     {
       "original": "ENT",
-      "conv": "zh:星艦前傳;zh-cn:进取号;zh-tw:企業號"
+      "conv": "zh:星艦前傳;zh-cn:进取号; zh-tw:企業號"
     },
     {
       "original": "DISCO",
-      "conv": "zh-cn:星际迷航：发现号;zh-tw:星際爭霸戰：發現號;zh-hk:星空奇遇記：發現號;zh-sg:星际迷航：探索号"
+      "conv": "zh-cn:星际迷航：发现号; zh-tw:星際爭霸戰：發現號; zh-hk:星空奇遇記：發現號; zh-sg:星际迷航：探索号;"
     },
     {
       "original": "DISCO",
-      "conv": "zh-cn:发现号;zh-tw:發現號;zh-hk:發現號;zh-sg:探索号"
+      "conv": "zh-cn:发现号; zh-tw:發現號; zh-hk:發現號; zh-sg:探索号;"
     },
     {
       "original": "LD",
-      "conv": "zh-cn:星际迷航：下层甲板;zh-hk:星空奇遇記：底層甲板;zh-tw:星際爭霸戰：底層甲板"
+      "conv": "zh-cn:星际迷航：下层甲板; zh-hk:星空奇遇記：底層甲板; zh-tw:星際爭霸戰：底層甲板;"
     },
     {
       "original": "LD",
-      "conv": "zh-cn:下层甲板;zh-hk:底層甲板;zh-tw:底層甲板"
+      "conv": "zh-cn:下层甲板; zh-hk:底層甲板; zh-tw:底層甲板;"
     },
     {
       "original": "The Motion Picture",
-      "conv": "星际旅行：无限太空=>zh-tw:星艦迷航記;星际旅行：无限太空=>zh-hk:星空奇遇記;星际旅行：无限太空=>zh-mo:星空奇遇記"
+      "conv": "星际旅行：无限太空=>zh-tw:星艦迷航記;星际旅行：无限太空=>zh-hk:星空奇遇記;星际旅行：无限太空=>zh-mo:星空奇遇記;"
+    },
+    {
+      "original": "",
+      "conv": "无限太空=>zh-tw:星艦迷航記;无限太空=>zh-hk:星空奇遇記;无限太空=>zh-mo:星空奇遇記;"
     },
     {
       "original": "The Wrath of Khan",
-      "conv": "zh-cn:可汗怒吼;zh-tw:星戰大怒吼;zh-hk:大汗的憤怒"
+      "conv": "zh-cn:可汗怒吼; zh-tw:星戰大怒吼; zh-hk:大汗的憤怒;"
     },
     {
       "original": "The Search for Spock",
-      "conv": "zh-cn:石破天惊;zh-tw:石破天驚;zh-hk:魔宮龍虎鬥"
+      "conv": "zh-cn:石破天惊; zh-tw:石破天驚; zh-hk:魔宮龍虎鬥;"
     },
     {
       "original": "The Voyage Home",
-      "conv": "zh-cn:抢救未来;zh-tw:搶救未來;zh-hk:回到地球"
+      "conv": "zh-cn:抢救未来; zh-tw:搶救未來; zh-hk:回到地球;"
     },
     {
       "original": "The Final Frontier",
-      "conv": "zh-hans:终极先锋;zh-tw:終極先鋒;zh-hk:最後戰線"
+      "conv": "zh-hans:终极先锋; zh-tw:終極先鋒; zh-hk:最後戰線;"
     },
     {
       "original": "The Undiscovered Country",
-      "conv": "zh-cn:未来之城;zh-tw:邁入未來;zh-hk:邁向未來"
+      "conv": "zh-cn:未来之城; zh-tw:邁入未來; zh-hk:邁向未來;"
     },
     {
       "original": "Generations",
-      "conv": "zh-cn:日换星移;zh-tw:日換星移;zh-hk:星空奇兵"
+      "conv": "zh-cn:日换星移; zh-tw:日換星移; zh-hk:星空奇兵;"
     },
     {
       "original": "First Contact",
-      "conv": "zh-cn:第一次接触;zh-tw:戰鬥巡航;zh-hk:星空第一擊"
+      "conv": "zh-cn:第一次接触; zh-tw:戰鬥巡航; zh-hk:星空第一擊;"
     },
     {
       "original": "Insurrection",
-      "conv": "zh-cn:起义;zh-tw:星際叛變;zh-hk:星空反攻"
+      "conv": "zh-cn:起义; zh-tw:星際叛變; zh-hk:星空反攻;"
     },
     {
       "original": "Nemesis",
-      "conv": "zh-cn:复仇女神;zh-tw:星戰啟示錄;zh-hk:星戰啟示錄"
+      "conv": "zh-cn:复仇女神; zh-tw:星戰啟示錄; zh-hk:星戰啟示錄;"
     },
     {
       "original": "Star Trek (film) 10",
-      "conv": "zh-cn:星际旅行X：复仇女神;zh-tw:星艦迷航記X：星戰啟示錄;zh-hk:星空奇遇記X：星戰啟示錄"
+      "conv": "zh-cn:星际旅行X：复仇女神; zh-tw:星艦迷航記X：星戰啟示錄; zh-hk:星空奇遇記X：星戰啟示錄;"
     },
     {
       "original": "Star Trek (film)",
-      "conv": "zh-cn:星际迷航 (电影);zh-tw:星際爭霸戰 (電影);zh-hk:星空奇遇記 (電影);zh-sg:星际争霸战 (电影)"
+      "conv": "zh-cn:星际迷航 (电影); zh-tw:星際爭霸戰 (電影); zh-hk:星空奇遇記 (電影); zh-sg:星际争霸战 (电影);"
     },
     {
       "original": "Star Trek (film)",
-      "conv": "星际迷航=>zh-tw:星際爭霸戰;星际迷航=>zh-hk:星空奇遇記;星际迷航=>zh-mo:星空奇遇記;星际迷航=>zh-sg:星际争霸战"
+      "conv": "星际迷航=>zh-tw:星際爭霸戰;星际迷航=>zh-hk:星空奇遇記;星际迷航=>zh-mo:星空奇遇記;星际迷航=>zh-sg:星际争霸战;"
     },
     {
       "original": "Star Trek into Darkness",
-      "conv": "zh-cn:星际迷航：暗黑无界;zh-tw:闇黑無界：星際爭霸戰;zh-hk:星空奇遇記：黑域時空;zh-sg:暗黑无界：星际争霸战"
+      "conv": "zh-cn:星际迷航：暗黑无界; zh-tw:闇黑無界：星際爭霸戰; zh-hk:星空奇遇記：黑域時空; zh-sg:暗黑无界：星际争霸战;"
     },
     {
       "original": "Star Trek into Darkness",
-      "conv": "zh-cn:暗黑无界;zh-tw:闇黑無界;zh-hk:黑域時空"
+      "conv": "zh-cn:暗黑无界; zh-tw:闇黑無界; zh-hk:黑域時空;"
     },
     {
       "original": "Star Trek Beyond",
-      "conv": "zh-cn:星际迷航3：超越星辰;zh-tw:星際爭霸戰：浩瀚無垠;zh-hk:星空奇遇記：超域時空;zh-sg:星际争霸战：浩瀚无垠"
+      "conv": "zh-cn:星际迷航3：超越星辰; zh-tw:星際爭霸戰：浩瀚無垠; zh-hk:星空奇遇記：超域時空; zh-sg:星际争霸战：浩瀚无垠;"
     },
     {
       "original": "Star Trek Beyond",
-      "conv": "zh-cn:超越星辰;zh-tw:浩瀚無垠;zh-hk:超域時空;zh-sg:浩瀚无垠"
+      "conv": "zh-cn:超越星辰; zh-tw:浩瀚無垠; zh-hk:超域時空; zh-sg:浩瀚无垠;"
+    },
+    {
+      "original": "",
+      "conv": "zh:尤金·罗登贝瑞;zh-cn:尤金·罗登伯里;zh-tw:尤金·羅登貝瑞;zh-hk:尤金·羅丹貝利"
+    },
+    {
+      "original": "",
+      "conv": "zh:金·罗登贝瑞;zh-cn:吉恩·罗登伯里;zh-tw:金·羅登貝瑞;zh-hk:金·羅丹貝利"
+    },
+    {
+      "original": "",
+      "conv": "zh:罗登贝瑞;zh-cn:罗登伯里;zh-tw:羅登貝瑞;zh-hk:羅丹貝利"
+    },
+    {
+      "original": "",
+      "conv": "zh:巴雷特;zh-cn:巴雷特;zh-tw:巴瑞特"
     },
     {
       "original": "Kirk",
-      "conv": "zh-cn:柯克;zh-tw:寇克;zh-hk:卻克"
+      "conv": "zh-cn:柯克; zh-tw:寇克; zh-hk:卻克;"
     },
     {
       "original": "Shatner",
-      "conv": "zh-cn:夏特纳;zh-tw:薛特納"
+      "conv": "zh-cn:夏特纳; zh-tw:薛特納"
     },
     {
       "original": "Leonard",
@@ -157,51 +213,71 @@
     },
     {
       "original": "James",
-      "conv": "zh-cn:詹姆斯;zh-tw:詹姆士;zh-hk:占士"
+      "conv": "zh-cn:詹姆斯; zh-tw:詹姆士; zh-hk:占士;"
     },
     {
       "original": "Tiberius",
-      "conv": "zh-cn:泰比里厄斯;zh-tw:提庇留"
+      "conv": "zh-cn:泰比里厄斯; zh-tw:提庇留"
     },
     {
       "original": "Spock",
-      "conv": "zh:斯波克;zh-cn:史波克;zh-tw:史巴克;zh-hk:冼樸"
+      "conv": "zh:斯波克; zh-cn:史波克; zh-tw:史巴克; zh-hk:冼樸;"
     },
     {
       "original": "DeForest",
-      "conv": "zh-cn:德福雷斯特;zh-tw:德佛瑞斯特"
+      "conv": "zh-cn:德福雷斯特; zh-tw:德佛瑞斯特;"
     },
     {
       "original": "McCoy",
-      "conv": "zh-cn:麦科伊;zh-tw:麥考伊;zh-hk:麥哥"
+      "conv": "zh-cn:麦科伊; zh-tw:麥考伊; zh-hk:麥哥;"
     },
     {
       "original": "Doohan",
-      "conv": "zh-cn:杜汉;zh-tw:督漢"
+      "conv": "zh-cn:杜汉; zh-tw:督漢;"
     },
     {
       "original": "Scott",
-      "conv": "zh-cn:斯科特;zh-tw:史考特;zh-hk:史葛"
+      "conv": "zh-cn:斯科特; zh-tw:史考特; zh-hk:史葛;"
     },
     {
       "original": "Scotty",
-      "conv": "zh-cn:斯科提;zh-tw:史考提;zh-hk:史葛提"
+      "conv": "zh-cn:斯科提; zh-tw:史考提; zh-hk:史葛提;"
     },
     {
       "original": "Sulu",
-      "conv": "zh-cn:苏鲁;zh-tw:蘇魯;zh-hk:蘇奴"
+      "conv": "zh-cn:苏鲁; zh-tw:蘇魯; zh-hk:蘇奴;"
     },
     {
       "original": "Chekov",
-      "conv": "zh-cn:切科夫;zh-tw:契可夫;zh-hk:柴可夫"
+      "conv": "zh-cn:切科夫; zh-tw:契可夫; zh-hk:柴可夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh:尼切尔;zh-cn:尼切尔;zh-tw:妮雪兒"
+    },
+    {
+      "original": "",
+      "conv": "zh:尼科尔斯;zh-cn:尼科尔斯; zh-tw:尼柯斯;"
     },
     {
       "original": "Uhura",
-      "conv": "zh-cn:乌乎拉;zh-tw:烏瑚拉;zh-hk:胡玉娜"
+      "conv": "zh-cn:乌乎拉; zh-tw:烏瑚拉; zh-hk:胡玉娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh:克里斯蒂娜;zh-cn:克里斯蒂娜;zh-tw:克莉絲汀"
     },
     {
       "original": "Chapel",
       "conv": "zh:查普尔;zh-cn:查普尔;zh-tw:查培爾"
+    },
+    {
+      "original": "",
+      "conv": "zh:司库克;zh-cn:司库克;zh-tw:薛烏克"
+    },
+    {
+      "original": "",
+      "conv": "zh:怀斯;zh-tw:外斯;zh-cn:怀斯"
     },
     {
       "original": "Nicholas",
@@ -224,6 +300,18 @@
       "conv": "zh:戈德史密斯;zh-cn:戈德史密斯;zh-tw:高史密斯"
     },
     {
+      "original": "",
+      "conv": "zh:索沃兹;zh-cn:索沃兹;zh-tw:索伍德"
+    },
+    {
+      "original": "",
+      "conv": "zh:雷谢尔;zh-cn:雷谢尔;zh-tw:雷策爾;zh-hk:雷徹;"
+    },
+    {
+      "original": "",
+      "conv": "zh:努尼恩;zh-cn:努尼恩;zh-tw:努寧"
+    },
+    {
       "original": "Glenn",
       "conv": "zh:格伦;zh-cn:格伦;zh-tw:葛蘭"
     },
@@ -241,19 +329,459 @@
     },
     {
       "original": "(Jeffrey Jacob) Abrams",
-      "conv": "zh-cn:艾布拉姆斯;zh-tw:亞柏拉罕;zh-hk:艾布斯"
+      "conv": "zh-cn:艾布拉姆斯; zh-tw:亞柏拉罕; zh-hk:艾布斯;"
     },
     {
       "original": "(Carol) Marcus",
-      "conv": "zh-cn:马库斯;zh-tw:馬可斯"
+      "conv": "zh-cn:马库斯; zh-tw:馬可斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh:艾瑞克斯;zh-cn:艾瑞克斯;zh-tw:艾力克斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:戴维;zh-cn:戴维;zh-tw:大衛"
+    },
+    {
+      "original": "",
+      "conv": "zh:伯曼;zh-cn:伯曼;zh-tw:博曼"
+    },
+    {
+      "original": "",
+      "conv": "zh:皮卡尔舰长;zh-cn:皮卡尔舰长;zh-tw:畢凱艦長;zh-hk:皮艦長"
+    },
+    {
+      "original": "",
+      "conv": "zh:让吕克·皮卡尔舰长;zh-cn:让吕克·皮卡尔舰长;zh-tw:尚路克·畢凱艦長;zh-hk:皮尚魯艦長"
+    },
+    {
+      "original": "",
+      "conv": "zh:让-吕克·皮卡尔舰长;zh-cn:让-吕克·皮卡尔舰长;zh-tw:尚-路克·畢凱艦長;zh-hk:皮尚魯艦長"
+    },
+    {
+      "original": "",
+      "conv": "zh:让吕克·皮卡尔;zh-cn:让吕克·皮卡尔;zh-tw:尚路克·畢凱;zh-hk:皮尚魯"
+    },
+    {
+      "original": "",
+      "conv": "zh:让-吕克·皮卡尔;zh-cn:让-吕克·皮卡尔;zh-tw:尚-路克·畢凱;zh-hk:皮尚魯"
+    },
+    {
+      "original": "",
+      "conv": "zh:让吕克;zh-cn:让吕克;zh-tw:尚路克;zh-hk:尚魯"
+    },
+    {
+      "original": "",
+      "conv": "zh:让-吕克;zh-cn:让-吕克;zh-tw:尚-路克;zh-hk:尚魯"
+    },
+    {
+      "original": "",
+      "conv": "zh:皮卡尔;zh-cn:皮卡尔;zh-tw:畢凱;zh-hk:皮尚魯"
+    },
+    {
+      "original": "",
+      "conv": "zh:帕特里克;zh-cn:帕特里克;zh-tw:派崔克;zh-hk:柏克"
+    },
+    {
+      "original": "",
+      "conv": "zh:斯图尔特;zh-cn:斯图尔特;zh-tw:史都華;zh-hk:史釗域"
+    },
+    {
+      "original": "",
+      "conv": "zh:多恩;zh-cn:多恩;zh-tw:朵恩"
+    },
+    {
+      "original": "",
+      "conv": "zh:沃尔夫;zh-cn:沃尔夫;zh-tw:武夫"
+    },
+    {
+      "original": "",
+      "conv": "zh:弗兰克斯;zh-cn:弗兰克斯;zh-tw:弗瑞克斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:威廉·萊克;zh-cn:威廉·赖克;zh-tw:威廉·瑞克;zh-hk:韋威廉;"
+    },
+    {
+      "original": "",
+      "conv": "zh:瑞克·伯曼;zh-cn:赖克·伯曼;zh-tw:瑞克·博曼;"
+    },
+    {
+      "original": "",
+      "conv": "zh:萊克;zh-cn:赖克;zh-tw:瑞克;zh-hk:韋;"
+    },
+    {
+      "original": "",
+      "conv": "zh:布伦特;zh-cn:布伦特;zh-tw:布蘭特"
+    },
+    {
+      "original": "",
+      "conv": "zh:斯派尔;zh-cn:斯派尔;zh-tw:史賓納"
+    },
+    {
+      "original": "",
+      "conv": "zh:Data;zh-tw:百科;zh-cn:Data;zh-hk:數據"
+    },
+    {
+      "original": "",
+      "conv": "zh:维基百科;zh-cn:维基百科;zh-tw:維基百科"
+    },
+    {
+      "original": "",
+      "conv": "zh:百科全书;zh-cn:百科全书;zh-tw:百科全書"
+    },
+    {
+      "original": "",
+      "conv": "zh:大英百科;zh-cn:大英百科;zh-tw:大英百科"
+    },
+    {
+      "original": "",
+      "conv": "zh:贝尔德;zh-tw:拜德;zh-cn:贝尔德"
+    },
+    {
+      "original": "",
+      "conv": "zh:吉南;zh-cn:吉南;zh-tw:解難"
+    },
+    {
+      "original": "",
+      "conv": "zh:乌比;zh-tw:琥碧;zh-cn:乌比"
+    },
+    {
+      "original": "",
+      "conv": "zh:戈德堡;zh-tw:戈柏;zh-cn:戈德堡"
+    },
+    {
+      "original": "",
+      "conv": "zh:玛丽娜;zh-tw:瑪莉娜;zh-cn:玛丽娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:塞迪斯;zh-tw:佘提斯;zh-cn:塞迪斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:迪安娜·特洛伊;zh-tw:荻安娜·特洛伊;zh-cn:迪安娜·特洛伊;zh-hk:蔡典娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:迪安娜;zh-tw:荻安娜;zh-cn:迪安娜;zh-hk:典娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:特洛伊;zh-cn:特洛伊;zh-tw:星異;zh-hk:蔡典娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:乔迪·拉弗吉;zh-tw:喬迪·拉弗吉;zh-cn:乔迪·拉弗吉;zh-hk:林佐迪"
+    },
+    {
+      "original": "",
+      "conv": "zh:拉弗吉;zh-tw:鷹眼;zh-cn:拉弗吉;zh-hk:林佐迪"
+    },
+    {
+      "original": "",
+      "conv": "zh:泽弗拉姆;zh-cn:泽弗拉姆;zh-tw:季弗蘭"
+    },
+    {
+      "original": "",
+      "conv": "zh:科克伦;zh-cn:科克伦;zh-tw:寇克瑞恩"
+    },
+    {
+      "original": "",
+      "conv": "zh:盖茨;zh-cn:盖茨;zh-tw:蓋茲"
+    },
+    {
+      "original": "",
+      "conv": "zh:麦克法登;zh-cn:麦克法登;zh-tw:馬克發登"
+    },
+    {
+      "original": "",
+      "conv": "zh:贝弗莉;zh-cn:贝弗莉;zh-tw:貝芙莉;zh-hk:貝莉"
+    },
+    {
+      "original": "",
+      "conv": "zh:克洛夏;zh-cn:克洛夏;zh-tw:克羅夏;zh-hk:庫修;zh-hk:赫貝莉"
+    },
+    {
+      "original": "",
+      "conv": "zh:卫斯理;zh-tw:衛斯里;zh-cn:卫斯理"
+    },
+    {
+      "original": "",
+      "conv": "zh:普拉斯基;zh-tw:藍思琪;zh-cn:普拉斯基"
+    },
+    {
+      "original": "",
+      "conv": "zh:海斯;zh-cn:海斯;zh-tw:海耶斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:斯隆;zh-cn:斯隆;zh-tw:斯洛恩"
+    },
+    {
+      "original": "",
+      "conv": "zh:肖恩;zh-cn:肖恩;zh-tw:西恩"
+    },
+    {
+      "original": "",
+      "conv": "zh:霍顿;zh-cn:霍顿;zh-tw:侯頓"
+    },
+    {
+      "original": "",
+      "conv": "zh:雷金纳德;zh-cn:雷金纳德;zh-tw:雷金納"
+    },
+    {
+      "original": "",
+      "conv": "zh:巴克利;zh-cn:巴克利;zh-tw:巴克萊"
+    },
+    {
+      "original": "",
+      "conv": "zh:雷切尔;zh-cn:雷切尔;zh-hk:瑞吉兒"
+    },
+    {
+      "original": "",
+      "conv": "zh:加勒特;zh-cn:加勒特;zh-hk:格烈特"
+    },
+    {
+      "original": "",
+      "conv": "zh:高伦;zh-cn:高伦;zh-hk:蓋倫"
+    },
+    {
+      "original": "",
+      "conv": "zh:雷切尔;zh-cn:雷切尔;zh-tw:瑞吉兒"
+    },
+    {
+      "original": "",
+      "conv": "zh:加勒特;zh-cn:加勒特;zh-tw:格烈特"
+    },
+    {
+      "original": "",
+      "conv": "zh:利文斯顿;zh-cn:利文斯顿;zh-tw:李文斯頓"
+    },
+    {
+      "original": "",
+      "conv": "迈克尔=>zh-tw:麥克"
+    },
+    {
+      "original": "",
+      "conv": "zh:本杰明;zh-cn:本杰明;zh-tw:班傑明"
+    },
+    {
+      "original": "",
+      "conv": "zh:西斯科;zh-cn:西斯科;zh-tw:席斯可"
+    },
+    {
+      "original": "",
+      "conv": "zh:埃弗里;zh-cn:埃弗里;zh-tw:艾佛里"
+    },
+    {
+      "original": "",
+      "conv": "zh:奇拉;zh-cn:奇拉;zh-tw:琪拉"
+    },
+    {
+      "original": "",
+      "conv": "zh:尼瑞斯;zh-cn:尼瑞斯;zh-tw:奈瑞斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:婕琪娅;zh-cn:婕琪娅;zh-tw:婕琪"
+    },
+    {
+      "original": "",
+      "conv": "zh:奥布赖恩;zh-cn:奥布赖恩;zh-tw:歐布萊恩"
+    },
+    {
+      "original": "",
+      "conv": "zh:勒内;zh-cn:勒内;zh-tw:雷內"
+    },
+    {
+      "original": "",
+      "conv": "zh:法瑞克;zh-cn:法瑞克;zh-tw:法瑞克"
+    },
+    {
+      "original": "",
+      "conv": "zh:缪拉;zh-cn:缪拉;zh-tw:穆哈"
+    },
+    {
+      "original": "",
+      "conv": "zh:奥贝若努瓦斯;zh-cn:奥贝若努瓦斯;zh-tw:奧柏戎諾瓦"
+    },
+    {
+      "original": "",
+      "conv": "zh:赫茨勒;zh-cn:赫茨勒;zh-tw:賀玆勒"
+    },
+    {
+      "original": "",
+      "conv": "zh:纳娜;zh-cn:纳娜;zh-tw:娜娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:特里;zh-cn:特里;zh-tw:泰瑞"
+    },
+    {
+      "original": "",
+      "conv": "zh:法雷尔;zh-cn:法雷尔;zh-tw:法瑞爾"
+    },
+    {
+      "original": "",
+      "conv": "zh:科尔姆;zh-cn:科尔姆;zh-tw:柯姆"
+    },
+    {
+      "original": "",
+      "conv": "zh:米尼;zh-cn:米尼;zh-tw:明尼"
+    },
+    {
+      "original": "",
+      "conv": "zh:夏默曼;zh-cn:夏默曼;zh-tw:辛默曼"
+    },
+    {
+      "original": "",
+      "conv": "zh:奇罗克;zh-cn:奇罗克;zh-tw:希洛克"
+    },
+    {
+      "original": "",
+      "conv": "zh:妮科尔;zh-cn:妮科尔;zh-tw:妮可"
+    },
+    {
+      "original": "",
+      "conv": "zh:德伯尔;zh-cn:德伯尔;zh-tw:德波爾"
+    },
+    {
+      "original": "",
+      "conv": "zh:库姆斯;zh-cn:库姆斯;zh-tw:寇姆"
+    },
+    {
+      "original": "",
+      "conv": "zh:马克斯;zh-cn:马克斯;zh-tw:麥克斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:格罗登切克;zh-cn:格罗登切克;zh-tw:郭登區"
+    },
+    {
+      "original": "",
+      "conv": "zh:凯瑟琳;zh-cn:凯瑟琳;zh-tw:凱薩琳"
+    },
+    {
+      "original": "",
+      "conv": "zh:珍妮薇;zh-cn:珍妮薇;zh-tw:珍葳"
+    },
+    {
+      "original": "",
+      "conv": "zh:尼利克斯;zh-cn:尼利克斯;zh-tw:尼利斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:皮卡尔多;zh-cn:皮卡尔多;zh-tw:皮卡多"
+    },
+    {
+      "original": "",
+      "conv": "zh:皮勒;zh-cn:皮勒;zh-tw:派勒"
+    },
+    {
+      "original": "",
+      "conv": "zh:哈里;zh-cn:哈里;zh-tw:哈利"
+    },
+    {
+      "original": "",
+      "conv": "zh:派里斯;zh-cn:派里斯;zh-tw:派瑞斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:恩贝格;zh-cn:恩贝格;zh-tw:安柏"
+    },
+    {
+      "original": "",
+      "conv": "zh:约瑟夫·凯里;zh-cn:约瑟夫·凯里;zh-tw:約瑟夫·卡瑞"
+    },
+    {
+      "original": "",
+      "conv": "zh:罗克珊;zh-cn:罗克珊;zh-tw:若克斯娜"
+    },
+    {
+      "original": "",
+      "conv": "zh:菲利普斯;zh-cn:菲利普斯;zh-tw:菲力普斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:西斯卡;zh-cn:西斯卡;zh-tw:塞絲卡"
+    },
+    {
+      "original": "",
+      "conv": "zh:吉纳维芙;zh-cn:吉纳维芙;zh-tw:詹妮薇芙"
+    },
+    {
+      "original": "",
+      "conv": "zh:比约尔德;zh-cn:比约尔德;zh-tw:布卓"
+    },
+    {
+      "original": "",
+      "conv": "zh:乔纳森;zh-cn:乔纳森;zh-tw:強納森"
+    },
+    {
+      "original": "",
+      "conv": "zh:阿彻;zh-cn:阿彻;zh-tw:亞契"
+    },
+    {
+      "original": "",
+      "conv": "zh:法洛克斯;zh-cn:法洛克斯;zh-tw:法克斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:布兰农;zh-cn:布兰农;zh-tw:布藍儂"
+    },
+    {
+      "original": "",
+      "conv": "zh:斯特拉辛斯基;zh-tw:史崔克辛斯基;zh-cn:斯特拉辛斯基"
+    },
+    {
+      "original": "",
+      "conv": "zh:科图;zh-tw:柯多;zh-cn:科图"
+    },
+    {
+      "original": "",
+      "conv": "zh:阿里克;zh-tw:亞力克;zh-cn:阿里克"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:麥珂;zh-hans:麦可儿"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:伯翰;zh-hans:伯纳姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:加百列;zh-sg:加布里尔;zh-cn:盖布瑞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:洛卡;zh-sg:加布里尔·劳卡;zh-cn:洛卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh:勇往号航空母舰;zh-cn:勇往号航空母舰;zh-tw:企業號航空母艦"
+    },
+    {
+      "original": "",
+      "conv": "zh:勇往号航母;zh-cn:勇往号航母;zh-tw:企業號航母"
+    },
+    {
+      "original": "",
+      "conv": "zh:航空母舰勇往号;zh-cn:航空母舰勇往号;zh-tw:航空母艦企業號"
+    },
+    {
+      "original": "",
+      "conv": "zh:航母勇往号;zh-cn:航母勇往号;zh-tw:航母企業號"
     },
     {
       "original": "Enterprise",
-      "conv": "zh:勇往号;zh-cn:勇往号;zh-tw:企業號"
+      "conv": "zh:勇往号;zh-cn:勇往号;zh-tw:企業號;"
     },
     {
       "original": "Enterprise",
-      "conv": "zh-cn:进取号;zh-tw:企業號;zh-hk:企業號"
+      "conv": "zh-cn:进取号; zh-tw:企業號; zh-hk:企業號;"
     },
     {
       "original": "Deep Space 5",
@@ -269,67 +797,199 @@
     },
     {
       "original": "Kelvin",
-      "conv": "zh-cn:开尔文号;zh-tw:凱文號;zh-hk:奇雲號"
+      "conv": "zh-cn:开尔文号; zh-tw:凱文號; zh-hk:奇雲號;"
     },
     {
       "original": "Reliant",
-      "conv": "zh-cn:信望号;zh-tw:信心號"
+      "conv": "zh-cn:信望号; zh-tw:信心號;"
+    },
+    {
+      "original": "",
+      "conv": "zh:德诺布拉;zh-cn:德诺布拉;zh-tw:狄諾布"
+    },
+    {
+      "original": "",
+      "conv": "zh:马奇游击队;zh-tw:馬奇反抗軍;zh-cn:马奇游击队"
+    },
+    {
+      "original": "",
+      "conv": "貴族Q=>zh-cn:Q;"
+    },
+    {
+      "original": "",
+      "conv": "zh:希罗吉恩;zh-cn:希罗吉恩;zh-tw:希羅金"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:博格; zh-tw:博格; zh-hk:波格;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克林贡; zh-tw:克林貢; zh-hk:克林崗;"
+    },
+    {
+      "original": "",
+      "conv": "zh:全息;zh-cn:全息;zh-tw:全像"
+    },
+    {
+      "original": "",
+      "conv": "zh:全息程序;zh-cn:全息程序;zh-tw:全像程式"
+    },
+    {
+      "original": "",
+      "conv": "zh:等离子体;zh-cn:等离子体;zh-tw:電漿"
+    },
+    {
+      "original": "",
+      "conv": "zh:核聚变;zh-cn:核聚变;zh-tw:核融合"
+    },
+    {
+      "original": "",
+      "conv": "zh:核导弹;zh-cn:核导弹;zh-tw:核子飛彈"
+    },
+    {
+      "original": "",
+      "conv": "zh:防护罩;zh-cn:防护罩;zh-tw:護盾"
+    },
+    {
+      "original": "",
+      "conv": "zh:Ｊ氏管;zh-cn:Ｊ氏管;zh-tw:傑弗瑞氏管"
+    },
+    {
+      "original": "",
+      "conv": "zh:宇航服;zh-cn:宇航服;zh-tw:太空衣"
+    },
+    {
+      "original": "",
+      "conv": "zh:相位炮;zh-cn:相位炮;zh-tw:光炮"
+    },
+    {
+      "original": "",
+      "conv": "zh:博兹曼;zh-cn:博兹曼;zh-tw:波茲曼"
+    },
+    {
+      "original": "",
+      "conv": "zh:优生战争;zh-cn:优生战争;zh-tw:優生學戰爭"
+    },
+    {
+      "original": "",
+      "conv": "zh:艾萨克;zh-tw:以撒;zh-cn:艾萨克"
+    },
+    {
+      "original": "",
+      "conv": "zh:阿西莫夫;zh-tw:艾西莫夫;zh-cn:阿西莫夫;"
+    },
+    {
+      "original": "",
+      "conv": "影集=>zh-hk:劇集;影集=>zh-cn:剧集;"
+    },
+    {
+      "original": "",
+      "conv": "電視影集=>zh-hk:電視劇集;電視影集=>zh-cn:电视剧集;"
+    },
+    {
+      "original": "",
+      "conv": "動畫影集=>zh-hk:動畫劇集;動畫影集=>zh-cn:动画剧集;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:星际迷航电视剧集; zh-tw:星艦爭霸戰電視系列; zh-hk:星空奇遇記電視系列;zh-hans:星际旅行电视剧集"
+    },
+    {
+      "original": "",
+      "conv": "zh:医生;zh-cn:医生;zh-tw:醫官"
+    },
+    {
+      "original": "",
+      "conv": "zh:安塔里;zh-cn:安塔里;zh-tw:雅達利"
+    },
+    {
+      "original": "",
+      "conv": "zh:柏辽兹;zh-cn:柏辽兹;zh-tw:白遼士"
+    },
+    {
+      "original": "",
+      "conv": "zh:赖兰;zh-cn:赖兰;zh-tw:里蘭"
+    },
+    {
+      "original": "",
+      "conv": "zh:军衔;zh-cn:军衔;zh-tw:軍階"
+    },
+    {
+      "original": "",
+      "conv": "zh:弗兰克;zh-cn:弗兰克;zh-tw:法蘭克;zh-hk:法蘭"
+    },
+    {
+      "original": "",
+      "conv": "zh:西纳特拉;zh-cn:西纳特拉;zh-tw:辛納屈;zh-hk:仙納杜拉"
+    },
+    {
+      "original": "",
+      "conv": "zh:弗朗西斯;zh-cn:弗朗西斯;zh-tw:法蘭西斯"
+    },
+    {
+      "original": "",
+      "conv": "zh:阿尔伯特;zh-cn:阿尔伯特;zh-tw:艾伯特;zh-hk:艾伯特"
+    },
+    {
+      "original": "",
+      "conv": "zh:尼克松;zh-cn:尼克松;zh-tw:尼克森"
     },
     {
       "original": "Kelvin Timeline",
-      "conv": "zh-cn:开尔文时间线;zh-tw:凱文時間線;zh-hk:奇雲時間線"
+      "conv": "zh-cn:开尔文时间线; zh-tw:凱文時間線; zh-hk:奇雲時間線;"
     },
     {
       "original": "Bana, Eric",
-      "conv": "zh-cn:埃里克;zh-tw:艾瑞克;zh-hk:艾力"
+      "conv": "zh-cn:埃里克; zh-tw:艾瑞克; zh-hk:艾力;"
     },
     {
       "original": "Bana, Eric",
-      "conv": "zh-cn:巴纳;zh-tw:巴納;zh-hk:班納"
+      "conv": "zh-cn:巴纳; zh-tw:巴納; zh-hk:班納;"
     },
     {
       "original": "Lindelof, Damon",
-      "conv": "zh-cn:林德洛夫;zh-tw:林道夫"
+      "conv": "zh-cn:林德洛夫; zh-tw:林道夫;"
     },
     {
       "original": "Pine, Chris",
-      "conv": "zh-cn:克里斯·派恩;zh-tw:克里斯·潘恩;zh-hk:基斯·派恩"
+      "conv": "zh-cn:克里斯·派恩; zh-tw:克里斯·潘恩; zh-hk:基斯·派恩;"
     },
     {
       "original": "Pine, Chris",
-      "conv": "zh-cn:派恩;zh-tw:潘恩;zh-hk:派恩"
+      "conv": "zh-cn:派恩; zh-tw:潘恩; zh-hk:派恩;"
     },
     {
       "original": "Quinto, Zachary",
-      "conv": "zh-cn:扎克瑞·昆图;zh-tw:柴克瑞·恩杜;zh-hk:沙查·昆圖"
+      "conv": "zh-cn:扎克瑞·昆图; zh-tw:柴克瑞·恩杜; zh-hk:沙查·昆圖;"
     },
     {
       "original": "Quinto, <u>Zachary</u>",
-      "conv": "zh-cn:扎克瑞;zh-tw:柴克瑞;zh-hk:沙查"
+      "conv": "zh-cn:扎克瑞; zh-tw:柴克瑞; zh-hk:沙查;"
     },
     {
       "original": "Quinto, Zachary",
-      "conv": "zh-cn:昆图;zh-tw:恩杜;zh-hk:昆圖"
+      "conv": "zh-cn:昆图; zh-tw:恩杜; zh-hk:昆圖;"
     },
     {
       "original": "Saldana, <u>Zoe</u>",
-      "conv": "zh-cn:佐伊;zh-tw:柔伊;zh-hk:素兒"
+      "conv": "zh-cn:佐伊; zh-tw:柔伊; zh-hk:素兒;"
     },
     {
       "original": "<u>Saldana</u>, Zoe",
-      "conv": "zh-cn:索尔达娜;zh-tw:莎達娜;zh-hk:蘇丹娜"
+      "conv": "zh-cn:索尔达娜; zh-tw:莎達娜; zh-hk:蘇丹娜;"
     },
     {
       "original": "<u>Saldana</u>, Zoe",
-      "conv": "沙達納=>zh-cn:索尔达娜;沙達納=>zh-hk:蘇丹娜"
+      "conv": "沙達納=>zh-cn:索尔达娜; 沙達納=>zh-hk:蘇丹娜;"
     },
     {
       "original": "Urban, Karl",
-      "conv": "zh-cn:卡尔·厄本;zh-tw:卡爾·厄本;zh-hk:卡爾·艾本"
+      "conv": "zh-cn:卡尔·厄本; zh-tw:卡爾·厄本; zh-hk:卡爾·艾本;"
     },
     {
       "original": "Urban, Karl",
-      "conv": "zh-cn:厄本;zh-tw:厄本;zh-hk:艾本"
+      "conv": "zh-cn:厄本; zh-tw:厄本; zh-hk:艾本;"
     }
   ]
 }

@@ -5,35 +5,39 @@
   "rules": [
     {
       "original": "ウルトラマン",
-      "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼"
+      "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼"
+      "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "奥特曼=>zh-hk:超人"
+      "conv": "奥特曼=>zh-hk:超人;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "奥特曼=>zh-mo:超人"
+      "conv": "奥特曼=>zh-mo:超人;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "超人力霸王=>zh-hk:超人"
+      "conv": "超人力霸王=>zh-hk:超人;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "超人力霸王=>zh-mo:超人"
+      "conv": "超人力霸王=>zh-mo:超人;"
     },
     {
       "original": "ウルトラシリーズ",
-      "conv": "zh-hans:奥特系列;zh-hk:超人系列;zh-tw:超人力霸王系列"
+      "conv": "zh-hans:奥特系列;zh-hk:超人系列;zh-tw:超人力霸王系列;"
     },
     {
       "original": "光の国",
-      "conv": "zh-hans:奥特之星;zh-hk:光之國;zh-tw:光之國"
+      "conv": "zh-hans:光之国;zh-hk:光之國;zh-tw:光之國;"
+    },
+    {
+      "original": "ウルトラの星",
+      "conv": "zh-hans:奥特之星;zh-hant:超人之星;"
     },
     {
       "original": "Plasma Spark Tower",
@@ -49,23 +53,27 @@
     },
     {
       "original": "ウルトラQ",
-      "conv": "zh-hans:奥特Q;zh-hk:地球保衛戰;zh-tw:超異象之謎"
+      "conv": "zh-hans:奥特Q;zh-hk:地球保衛戰;zh-tw:超異象之謎;"
     },
     {
       "original": "帰ってきたウルトラマン",
-      "conv": "zh-cn:归来的奥特曼;zh-tw:歸來的超人力霸王;zh-hk:超人歷險記"
+      "conv": "zh-cn:归来的奥特曼; zh-tw:歸來的超人; zh-hk:超人歷險記;"
+    },
+    {
+      "original": "帰ってきたウルトラマン",
+      "conv": "zh-hk:歸來的超人;zh-cn:归来的奥特曼;zh-tw:歸來的超人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:梦比优斯·奥特曼外传 希卡利传奇;zh-tw:超人力霸王梅比斯外傳 希卡利傳奇;zh-hk:超人梅比斯外傳 光明傳奇"
+      "conv": "zh-hans:梦比优斯·奥特曼外传 希卡利传奇; zh-tw:超人力霸王梅比斯外傳 希卡利傳奇; zh-hk:超人梅比斯外傳 光明傳奇;"
     },
     {
       "original": null,
-      "conv": "zh-hans:哈奴曼与七个奥特曼;zh-tw:猴王大戰七超人;zh-hk:猴王大戰七超人"
+      "conv": "zh-hans:哈奴曼与七个奥特曼; zh-tw:猴王大戰七超人; zh-hk:猴王大戰七超人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:猴王大战11奥特曼;zh-tw:猴王大戰11超人;zh-hk:猴王大戰11超人"
+      "conv": "zh-hans:猴王大战11奥特曼; zh-tw:猴王大戰11超人; zh-hk:猴王大戰11超人;"
     },
     {
       "original": null,
@@ -73,267 +81,267 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:高斯奥特曼：日月第一击;zh-tw:超人力霸王高斯 第一次接觸"
+      "conv": "zh-cn:高斯奥特曼：日月第一击;zh-tw:超人力霸王高斯 第一次接觸;"
     },
     {
       "original": null,
-      "conv": "zh-cn:欧布奧特曼：原生之初;zh-hk:超人Orb THE ORIGIN SAGA"
+      "conv": "zh-cn:欧布奧特曼：原生之初;zh-hk:超人Orb THE ORIGIN SAGA;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人Zero THE CHRONICLE;zh-cn:赛罗奥特曼：英雄传"
+      "conv": "zh-hk:超人Zero THE CHRONICLE;zh-cn:赛罗奥特曼：英雄传;"
     },
     {
       "original": null,
-      "conv": "zh-tw:超人力霸王歐布 THE CHRONICLE;zh-cn:欧布奥特曼：英雄传"
+      "conv": "zh-tw:超人力霸王歐布 THE CHRONICLE;zh-cn:欧布奥特曼：英雄传;"
     },
     {
       "original": null,
-      "conv": "zh-tw:超人力霸王 新世代 CHRONICLE;zh-cn:奥特英雄：新生代英雄传"
+      "conv": "zh-tw:超人力霸王 新世代 CHRONICLE;zh-cn:奥特英雄：新生代英雄传;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人CHRONICLE ZERO&GEED ;zh-cn:奥特英雄传：赛罗与捷德"
+      "conv": "zh-hk:超人CHRONICLE ZERO&GEED ;zh-cn:奥特英雄传：赛罗与捷德;"
     },
     {
       "original": null,
-      "conv": "zh-tw:超級銀河格鬥;zh-cn:奥特银河格斗"
+      "conv": "zh-tw:超級銀河格鬥;zh-cn:奥特银河格斗;"
     },
     {
       "original": null,
-      "conv": "zh-tw:超人力霸王 年代記Z 英雄旅程;zh-cn:奥特英雄传泽塔 英雄之路"
+      "conv": "zh-tw:超人力霸王 年代記Z 英雄旅程;zh-cn:奥特英雄传泽塔 英雄之路;"
     },
     {
       "original": "ULTRAMAN",
-      "conv": "zh-hans:奈克斯特·奥特曼;zh-tw:超人力霸王THE NEXT;zh-hk:超人強勢出擊"
+      "conv": "zh-hans:奈克斯特·奥特曼;zh-tw:超人力霸王THE NEXT;zh-hk:超人強勢出擊;"
     },
     {
       "original": "劇場版 ウルトラマンX きたぞ! われらのウルトラマン",
-      "conv": "zh-hk:超人X大電影 我們的超人來了;zh-tw:劇場版超人力霸王X來了！我們的超人力霸王;zh-hans:剧场版艾克斯奥特曼：来了！我们的奥特曼"
+      "conv": "zh-hk:超人X大電影 我們的超人來了;zh-tw:劇場版超人力霸王X來了！我們的超人力霸王;zh-hans:剧场版艾克斯奥特曼：来了！我们的奥特曼;"
     },
     {
       "original": "ウルトラマンメビウス&ウルトラ兄弟",
-      "conv": "zh-cn:梦比优斯奥特曼&奥特兄弟;zh-tw:超人力霸王梅比斯&超人兄弟世紀之戰;zh-hk:超人梅比斯&超人兄弟世紀之戰"
+      "conv": "zh-cn:梦比优斯奥特曼&奥特兄弟; zh-tw:超人力霸王梅比斯&超人兄弟世紀之戰; zh-hk:超人梅比斯&超人兄弟世紀之戰;"
     },
     {
       "original": null,
-      "conv": "zh-hans:宇宙英雄之超银河传说 THE MOVIE;zh-hk:超人大怪獸格鬥: 超銀河傳說;zh-tw:超人力霸王：怪獸大戰爭超銀河傳說"
+      "conv": "zh-hans:宇宙英雄之超银河传说 THE MOVIE; zh-hk:超人大怪獸格鬥: 超銀河傳說; zh-tw:超人力霸王：怪獸大戰爭超銀河傳說;"
     },
     {
       "original": null,
-      "conv": "zh-hans:大决戰!超人力霸王8兄弟;zh-tw:大決戰!超人力霸王8兄弟;zh-hk:大決戰!超人8兄弟"
+      "conv": "zh-hans:大决戰!超人力霸王8兄弟; zh-tw:大決戰!超人力霸王8兄弟; zh-hk:大決戰!超人8兄弟;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "zh-hans:初代奥特曼;zh-tw:初代超人力霸王;zh-hk:超人吉田"
+      "conv": "zh-hans:初代奥特曼; zh-tw:初代超人力霸王; zh-hk:超人吉田"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人佐菲;zh-tw:超人力霸王佐菲;zh-hans:佐菲·奥特曼;zh-mo:超人佐菲"
+      "conv": "zh-hk:超人佐菲;zh-tw:超人力霸王佐菲;zh-hans:佐菲·奥特曼;zh-mo:超人佐菲;"
     },
     {
       "original": "ウルトラセブン",
-      "conv": "zh-hk:七星俠;zh-tw:超人七號;zh-hans:赛文·奥特曼;zh-mo:七星俠"
+      "conv": "zh-hk:七星俠;zh-tw:超人七號;zh-hans:赛文·奥特曼;zh-mo:七星俠;"
     },
     {
       "original": null,
-      "conv": "zh-hant:超人力霸王七號;zh-hans:赛文·奥特曼;zh-hk:超人七星侠"
+      "conv": "zh-hant:超人力霸王七號; zh-hans:赛文·奥特曼;zh-hk:超人七星侠"
     },
     {
       "original": null,
-      "conv": "zh-hk:七星俠X;zh-tw:超人七號X;zh-hans:赛文X·奥特曼;zh-mo:七星俠X"
+      "conv": "zh-hk:七星俠X;zh-tw:超人七號X;zh-hans:赛文X·奥特曼;zh-mo:七星俠X;"
     },
     {
       "original": null,
-      "conv": "zh-hant:太空历奇;zh-cn:奥特船长"
+      "conv": "zh-hant:太空历奇;zh-cn:奥特船长;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人阿鄉;zh-tw:超人力霸王傑克;zh-hans:杰克·奥特曼;zh-mo:超人阿鄉"
+      "conv": "zh-hk:超人阿鄉;zh-tw:超人力霸王傑克;zh-hans:杰克·奥特曼;zh-mo:超人阿鄉;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人積克;zh-tw:超人力霸王傑克;zh-hans:杰克·奥特曼;zh-mo:超人積克"
+      "conv": "zh-hk:超人積克;zh-tw:超人力霸王傑克;zh-hans:杰克·奥特曼;zh-mo:超人積克;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人Ace;zh-tw:超人力霸王衛司;zh-hans:艾斯·奥特曼;zh-mo:超人Ace"
+      "conv": "zh-hk:超人Ace;zh-tw:超人力霸王衛司;zh-hans:艾斯·奥特曼;zh-mo:超人Ace;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人之父;zh-tw:超人力霸王之父;zh-hans:奥特之父;zh-mo:超人之父"
+      "conv": "zh-hk:超人之父;zh-tw:超人力霸王之父;zh-hans:奥特之父;zh-mo:超人之父;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人太郎;zh-tw:超人力霸王太郎;zh-hans:泰罗·奥特曼;zh-mo:超人太郎"
+      "conv": "zh-hk:超人太郎;zh-tw:超人力霸王太郎;zh-hans:泰罗·奥特曼;zh-mo:超人太郎;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人之母;zh-tw:超人力霸王之母;zh-hans:奥特之母;zh-mo:超人之母"
+      "conv": "zh-hk:超人之母;zh-tw:超人力霸王之母;zh-hans:奥特之母;zh-mo:超人之母;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人尼奧;zh-tw:超人力霸王雷歐;zh-hans:雷欧·奥特曼;zh-mo:超人尼奧"
+      "conv": "zh-hk:超人尼奧;zh-tw:超人力霸王雷歐;zh-hans:雷欧·奥特曼;zh-mo:超人尼奧;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人王;zh-tw:超人力霸王尊王;zh-hans:奥特之王;zh-mo:超人王"
+      "conv": "zh-hk:超人王;zh-tw:超人力霸王尊王;zh-hans:奥特之王;zh-mo:超人王;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人喬尼斯;zh-tw:超人力霸王喬尼斯;zh-hans:乔尼亚斯·奥特曼;zh-mo:超人喬尼斯"
+      "conv": "zh-hk:超人喬尼斯;zh-tw:超人力霸王喬尼斯;zh-hans:乔尼亚斯·奥特曼;zh-mo:超人喬尼斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:史考特·奥特曼;zh-hk:超人史考特;zh-tw:超人力霸王史考特"
+      "conv": "zh-hans:史考特·奥特曼;zh-hk:超人史考特;zh-tw:超人力霸王史考特;"
     },
     {
       "original": null,
-      "conv": "zh-hans:察克·奥特曼;zh-hk:超人察克;zh-tw:超人力霸王察克"
+      "conv": "zh-hans:察克·奥特曼;zh-hk:超人察克;zh-tw:超人力霸王察克;"
     },
     {
       "original": null,
-      "conv": "zh-hans:贝斯·奥特曼;zh-hk:女超人貝斯;zh-tw:女超人力霸王貝絲"
+      "conv": "zh-hans:贝斯·奥特曼;zh-hk:女超人貝斯;zh-tw:女超人力霸王貝絲;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人G;zh-tw:超人力霸王葛雷;zh-hans:葛雷·奥特曼;zh-mo:超人G"
+      "conv": "zh-hk:超人G;zh-tw:超人力霸王葛雷;zh-hans:葛雷·奥特曼;zh-mo:超人G;"
     },
     {
       "original": null,
-      "conv": "zh-hans:帕瓦特·奥特曼;zh-hk:超人Powered;zh-tw:超人力霸王帕瓦德"
+      "conv": "zh-hans:帕瓦特·奥特曼;zh-hk:超人Powered;zh-tw:超人力霸王帕瓦德;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人80;zh-tw:超人力霸王80;zh-hans:爱迪·奥特曼;zh-mo:超人80"
+      "conv": "zh-hk:超人80;zh-tw:超人力霸王80;zh-hans:爱迪·奥特曼;zh-mo:超人80;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人尼奧斯;zh-hans:奈欧斯·奥特曼;zh-tw:超人力霸王涅歐斯"
+      "conv": "zh-hk:超人尼奧斯;zh-hans:奈欧斯·奥特曼;zh-tw:超人力霸王涅歐斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:七星俠21;zh-tw:超人七號21;zh-hans:赛文21·奥特曼;zh-mo:七星俠21"
+      "conv": "zh-hk:七星俠21;zh-tw:超人七號21;zh-hans:赛文21·奥特曼;zh-mo:七星俠21;"
     },
     {
       "original": null,
-      "conv": "zh-hans:博伊·奥特曼;zh-hk:超人男孩;zh-tw:超人力霸王男孩"
+      "conv": "zh-hans:博伊·奥特曼;zh-hk:超人男孩;zh-tw:超人力霸王男孩;"
     },
     {
       "original": null,
-      "conv": "zh-hans:皮克特·奥特曼;zh-hk:超人皮克特;zh-tw:超人力霸王皮克特"
+      "conv": "zh-hans:皮克特·奥特曼;zh-hk:超人皮克特;zh-tw:超人力霸王皮克特;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人謝亞斯;zh-hans:哉阿斯·奥特曼;zh-tw:超人力霸王傑斯"
+      "conv": "zh-hk:超人謝亞斯;zh-hans:哉阿斯·奥特曼;zh-tw:超人力霸王傑斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:牙刷超人;zh-hans:哉阿斯·奥特曼;zh-tw:超人力霸王傑斯"
+      "conv": "zh-hk:牙刷超人;zh-hans:哉阿斯·奥特曼;zh-tw:超人力霸王傑斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人迪加;zh-tw:超人力霸王迪卡;zh-hans:迪迦·奥特曼;zh-mo:超人迪加"
+      "conv": "zh-hk:超人迪加;zh-tw:超人力霸王迪卡;zh-hans:迪迦·奥特曼;zh-mo:超人迪加;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人帝拿;zh-tw:超人力霸王帝納;zh-hans:戴拿·奥特曼;zh-mo:超人帝拿"
+      "conv": "zh-hk:超人帝拿;zh-tw:超人力霸王帝納;zh-hans:戴拿·奥特曼;zh-mo:超人帝拿;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人佳亞;zh-tw:超人力霸王蓋亞;zh-hans:盖亚·奥特曼;zh-mo:超人佳亞"
+      "conv": "zh-hk:超人佳亞;zh-tw:超人力霸王蓋亞;zh-hans:盖亚·奥特曼;zh-mo:超人佳亞;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人亞古魯;zh-hans:阿古茹·奥特曼;zh-tw:超人力霸王亞格"
+      "conv": "zh-hk:超人亞古魯;zh-hans:阿古茹·奥特曼;zh-tw:超人力霸王亞格;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人高斯;zh-tw:超人力霸王高斯;zh-hans:高斯·奥特曼;zh-mo:超人高斯"
+      "conv": "zh-hk:超人高斯;zh-tw:超人力霸王高斯;zh-hans:高斯·奥特曼;zh-mo:超人高斯;"
     },
     {
       "original": null,
-      "conv": "zh-hant:超人力霸王納克斯;zh-hk:超人力斯;zh-tw:超人力霸王納克斯;zh-hans:奈克瑟斯·奥特曼;zh-mo:超人力斯"
+      "conv": "zh-hant:超人力霸王納克斯;zh-hk:超人力斯;zh-tw:超人力霸王納克斯;zh-hans:奈克瑟斯·奥特曼;zh-mo:超人力斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人The Next;zh-hans:奈克斯特·奥特曼;zh-tw:超人力霸王The Next"
+      "conv": "zh-hk:超人The Next;zh-hans:奈克斯特·奥特曼;zh-tw:超人力霸王The Next;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人麥斯;zh-tw:超人力霸王馬克斯;zh-hans:麦克斯·奥特曼;zh-mo:超人麥斯"
+      "conv": "zh-hk:超人麥斯;zh-tw:超人力霸王馬克斯;zh-hans:麦克斯·奥特曼;zh-mo:超人麥斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:杰诺·奥特曼;zh-hk:超人杰諾;zh-tw:超人力霸王杰諾"
+      "conv": "zh-hans:杰诺·奥特曼;zh-hk:超人杰諾;zh-tw:超人力霸王杰諾;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人梅比斯;zh-tw:超人力霸王梅比斯;zh-hans:梦比优斯·奥特曼;zh-mo:超人梅比斯"
+      "conv": "zh-hk:超人梅比斯;zh-tw:超人力霸王梅比斯;zh-hans:梦比优斯·奥特曼;zh-mo:超人梅比斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:希卡利·奥特曼;zh-hk:超人光明;zh-tw:超人力霸王希卡利"
+      "conv": "zh-hans:希卡利·奥特曼;zh-hk:超人光明;zh-tw:超人力霸王希卡利;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人Zero;zh-hans:赛罗·奥特曼;zh-tw:超人力霸王傑洛"
+      "conv": "zh-hk:超人Zero;zh-hans:赛罗·奥特曼;zh-tw:超人力霸王傑洛;"
     },
     {
       "original": null,
-      "conv": "zh-hans:杰斯提斯·奥特曼;zh-hk:超人傑斯;zh-tw:超人力霸王正義"
+      "conv": "zh-hans:杰斯提斯·奥特曼;zh-hk:超人傑斯;zh-tw:超人力霸王正義;"
     },
     {
       "original": null,
-      "conv": "zh-hans:雷杰多·奥特曼;zh-hk:超人雷震;zh-tw:超人力霸王雷傑"
+      "conv": "zh-hans:雷杰多·奥特曼;zh-hk:超人雷震;zh-tw:超人力霸王雷傑;"
     },
     {
       "original": null,
-      "conv": "zh-hans:诺亚·奥特曼;zh-hk:超人諾亞;zh-tw:超人力霸王諾亞"
+      "conv": "zh-hans:诺亚·奥特曼;zh-hk:超人諾亞;zh-tw:超人力霸王諾亞;"
     },
     {
       "original": null,
-      "conv": "zh-hans:纳伊斯·奥特曼;zh-hk:超人那爾斯;zh-tw:超人力霸王耐斯"
+      "conv": "zh-hans:纳伊斯·奥特曼;zh-hk:超人那爾斯;zh-tw:超人力霸王耐斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:赛迦·奥特曼;zh-tw:超人力霸王傳奇;zh-hk:超人傳奇"
+      "conv": "zh-hans:赛迦·奥特曼; zh-tw:超人力霸王傳奇; zh-hk:超人傳奇;"
     },
     {
       "original": null,
-      "conv": "zh-hans:银河·奥特曼;zh-tw:超人力霸王銀河;zh-hk:超人銀河"
+      "conv": "zh-hans:银河·奥特曼; zh-tw:超人力霸王銀河; zh-hk:超人銀河;"
     },
     {
       "original": null,
-      "conv": "zh-hans:维克特利·奥特曼;zh-tw:超人力霸王勝利;zh-hk:超人勝利"
+      "conv": "zh-hans:维克特利·奥特曼; zh-tw:超人力霸王勝利; zh-hk:超人勝利;"
     },
     {
       "original": null,
-      "conv": "zh-hans:银河維克特利·奥特曼;zh-tw:超人力霸王銀河勝利;zh-hk:超人銀河勝利"
+      "conv": "zh-hans:银河維克特利·奥特曼; zh-tw:超人力霸王銀河勝利; zh-hk:超人銀河勝利;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人X;zh-tw:超人力霸王X;zh-hans:艾克斯·奥特曼"
+      "conv": "zh-hk:超人X;zh-tw:超人力霸王X;zh-hans:艾克斯·奥特曼;"
     },
     {
       "original": null,
-      "conv": "zh-hans:欧布·奥特曼;zh-tw:超人力霸王Orb;zh-hk:超人Orb"
+      "conv": "zh-hans:欧布·奥特曼; zh-tw:超人力霸王Orb; zh-hk:超人Orb;"
     },
     {
       "original": null,
-      "conv": "zh-hans:捷德·奥特曼;zh-tw:超人力霸王Geed;zh-hk:超人Geed"
+      "conv": "zh-hans:捷德·奥特曼; zh-tw:超人力霸王Geed; zh-hk:超人Geed;"
     },
     {
       "original": null,
-      "conv": "zh:超人力霸王羅布;zh-cn:罗布奥特曼;zh-hk:超人R/B;zh-tw:超人力霸王羅布"
+      "conv": "zh:超人力霸王羅布; zh-cn:罗布奥特曼;zh-hk:超人R/B;zh-tw:超人力霸王羅布;"
     },
     {
       "original": null,
-      "conv": "zh:超人力霸王大河;zh-cn:泰迦奥特曼;zh-hk:超人泰迦;zh-tw:超人力霸王大河"
+      "conv": "zh:超人力霸王大河; zh-cn:泰迦奥特曼;zh-hk:超人泰迦;zh-tw:超人力霸王大河;"
     },
     {
       "original": null,
-      "conv": "zh:超人力霸王Z;zh-cn:泽塔奥特曼;zh-hk:超人Z;zh-tw:超人力霸王Z"
+      "conv": "zh:超人力霸王Z;zh-cn:泽塔奥特曼;zh-hk:超人Z;zh-tw:超人力霸王Z;"
     },
     {
       "original": null,
@@ -349,35 +357,35 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:初代;zh-tw:初代;zh-hk:吉田"
+      "conv": "zh-hans:初代; zh-tw:初代; zh-hk:吉田"
     },
     {
       "original": null,
-      "conv": "zh-hk:七星俠;zh-tw:七號;zh-hans:赛文;zh-mo:七星俠"
+      "conv": "zh-hk:七星俠;zh-tw:七號;zh-hans:赛文;zh-mo:七星俠;"
     },
     {
       "original": null,
-      "conv": "zh-hk:七星俠X;zh-tw:七號X;zh-hans:赛文X;zh-mo:七星俠X"
+      "conv": "zh-hk:七星俠X;zh-tw:七號X;zh-hans:赛文X;zh-mo:七星俠X;"
     },
     {
       "original": null,
-      "conv": "zh-hk:阿鄉;zh-tw:傑克;zh-hans:杰克;zh-mo:阿鄉"
+      "conv": "zh-hk:阿鄉;zh-tw:傑克;zh-hans:杰克;zh-mo:阿鄉;"
     },
     {
       "original": null,
-      "conv": "zh-hk:積克;zh-tw:傑克;zh-hans:杰克;zh-mo:積克"
+      "conv": "zh-hk:積克;zh-tw:傑克;zh-hans:杰克;zh-mo:積克;"
     },
     {
       "original": null,
-      "conv": "zh-hk:Ace;zh-tw:衛司;zh-hans:艾斯;zh-mo:Ace"
+      "conv": "zh-hk:Ace;zh-tw:衛司;zh-hans:艾斯;zh-mo:Ace;"
     },
     {
       "original": null,
-      "conv": "zh-hk:太郎;zh-tw:太郎;zh-hans:泰罗;zh-mo:太郎"
+      "conv": "zh-hk:太郎;zh-tw:太郎;zh-hans:泰罗;zh-mo:太郎;"
     },
     {
       "original": null,
-      "conv": "zh-hk:尼奧;zh-tw:雷歐;zh-hans:雷欧;zh-mo:尼奧"
+      "conv": "zh-hk:尼奧;zh-tw:雷歐;zh-hans:雷欧;zh-mo:尼奧;"
     },
     {
       "original": null,
@@ -385,131 +393,135 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人王;zh-tw:尊王;zh-hans:奥特之王;zh-mo:超人王"
+      "conv": "zh-hk:超人王;zh-tw:尊王;zh-hans:奥特之王;zh-mo:超人王;"
     },
     {
       "original": null,
-      "conv": "zh-hk:喬尼斯;zh-tw:喬尼斯;zh-hans:乔尼亚斯;zh-mo:喬尼斯"
+      "conv": "zh-hk:80; zh-tw:80; zh-hans:爱迪;"
     },
     {
       "original": null,
-      "conv": "zh-hans:艾雷克;zh-hk:艾雷克;zh-tw:艾利克"
+      "conv": "zh-hk:喬尼斯;zh-tw:喬尼斯;zh-hans:乔尼亚斯;zh-mo:喬尼斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:埃米亚;zh-hk:埃米亞;zh-tw:亞米"
+      "conv": "zh-hans:艾雷克;zh-hk:艾雷克;zh-tw:艾利克;"
     },
     {
       "original": null,
-      "conv": "zh-hans:贝斯;zh-hk:貝斯;zh-tw:貝絲"
+      "conv": "zh-hans:埃米亚;zh-hk:埃米亞;zh-tw:亞米;"
     },
     {
       "original": null,
-      "conv": "zh-hk:力王;zh-tw:力王;zh-hans:帕瓦特;zh-mo:力王"
+      "conv": "zh-hans:贝斯;zh-hk:貝斯;zh-tw:貝絲;"
     },
     {
       "original": null,
-      "conv": "zh-hk:尤利亞;zh-hans:尤莉安;zh-tw:尤莉安"
+      "conv": "zh-hk:力王;zh-tw:力王;zh-hans:帕瓦特;zh-mo:力王;"
     },
     {
       "original": null,
-      "conv": "zh-hk:尼奧斯;zh-hans:奈欧斯;zh-tw:涅歐斯"
+      "conv": "zh-hk:尤利亞;zh-hans:尤莉安;zh-tw:尤莉安;"
     },
     {
       "original": null,
-      "conv": "zh-hk:七星俠21;zh-tw:七號21;zh-hans:赛文21;zh-mo:七星俠21"
+      "conv": "zh-hk:尼奧斯;zh-hans:奈欧斯;zh-tw:涅歐斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:博伊;zh-hk:男孩;zh-tw:男孩"
+      "conv": "zh-hk:七星俠21;zh-tw:七號21;zh-hans:赛文21;zh-mo:七星俠21;"
     },
     {
       "original": null,
-      "conv": "zh-hk:謝亞斯;zh-hans:哉阿斯;zh-tw:傑斯"
+      "conv": "zh-hans:博伊;zh-hk:男孩;zh-tw:男孩;"
     },
     {
       "original": null,
-      "conv": "zh-hk:牙刷超人;zh-hans:哉阿斯;zh-tw:傑斯"
+      "conv": "zh-hk:謝亞斯;zh-hans:哉阿斯;zh-tw:傑斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:迪加;zh-tw:迪卡;zh-hans:迪迦;zh-mo:迪加"
+      "conv": "zh-hk:牙刷超人;zh-hans:哉阿斯;zh-tw:傑斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:帝拿;zh-tw:帝納;zh-hans:戴拿;zh-mo:帝拿"
+      "conv": "zh-hk:迪加;zh-tw:迪卡;zh-hans:迪迦;zh-mo:迪加;"
     },
     {
       "original": null,
-      "conv": "zh-hk:佳亞;zh-tw:蓋亞;zh-hans:盖亚;zh-mo:佳亞"
+      "conv": "zh-hk:帝拿;zh-tw:帝納;zh-hans:戴拿;zh-mo:帝拿;"
     },
     {
       "original": null,
-      "conv": "zh-hk:亞古魯;zh-hans:阿古茹;zh-tw:亞格"
+      "conv": "zh-hk:佳亞;zh-tw:蓋亞;zh-hans:盖亚;zh-mo:佳亞;"
     },
     {
       "original": null,
-      "conv": "zh-hk:高斯;zh-tw:高斯;zh-hans:高斯;zh-mo:高斯"
+      "conv": "zh-hk:亞古魯;zh-hans:阿古茹;zh-tw:亞格;"
     },
     {
       "original": null,
-      "conv": "zh-hk:力斯;zh-tw:納克斯;zh-hans:奈克瑟斯"
+      "conv": "zh-hk:高斯;zh-tw:高斯;zh-hans:高斯;zh-mo:高斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:Next;zh-hans:奈克斯特;zh-tw:Next"
+      "conv": "zh-hk:力斯;zh-tw:納克斯; zh-hans:奈克瑟斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:麥斯;zh-tw:馬克斯;zh-hans:麦克斯;zh-mo:麥斯"
+      "conv": "zh-hk:Next;zh-hans:奈克斯特;zh-tw:Next;"
     },
     {
       "original": null,
-      "conv": "zh-hk:梅比斯;zh-tw:梅比斯;zh-hans:梦比优斯;zh-mo:梅比斯"
+      "conv": "zh-hk:麥斯;zh-tw:馬克斯;zh-hans:麦克斯;zh-mo:麥斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:希卡利;zh-hk:光明;zh-tw:希卡利"
+      "conv": "zh-hk:梅比斯;zh-tw:梅比斯;zh-hans:梦比优斯;zh-mo:梅比斯;"
     },
     {
       "original": null,
-      "conv": "zh-hk:Zero;zh-hans:赛罗;zh-tw:傑洛"
+      "conv": "zh-hans:希卡利;zh-hk:光明;zh-tw:希卡利;"
     },
     {
       "original": null,
-      "conv": "zh-hans:杰斯提斯;zh-hk:傑斯;zh-tw:正義"
+      "conv": "zh-hk:Zero;zh-hans:赛罗;zh-tw:傑洛;"
     },
     {
       "original": null,
-      "conv": "zh-hans:雷杰多;zh-hk:雷震;zh-tw:雷傑"
+      "conv": "zh-hans:杰斯提斯;zh-hk:傑斯;zh-tw:正義;"
     },
     {
       "original": null,
-      "conv": "zh-hans:纳伊斯;zh-hk:那爾斯;zh-tw:耐斯"
+      "conv": "zh-hans:雷杰多;zh-hk:雷震;zh-tw:雷傑;"
     },
     {
       "original": null,
-      "conv": "zh-hans:赛迦;zh-tw:傳奇;zh-hk:傳奇"
+      "conv": "zh-hans:纳伊斯;zh-hk:那爾斯;zh-tw:耐斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:维克特利;zh-tw:勝利;zh-hk:勝利"
+      "conv": "zh-hans:赛迦; zh-tw:傳奇; zh-hk:傳奇;"
     },
     {
       "original": null,
-      "conv": "zh-hans:银河維克特利;zh-tw:銀河勝利;zh-hk:銀河勝利"
+      "conv": "zh-hans:维克特利; zh-tw:勝利; zh-hk:勝利;"
     },
     {
       "original": null,
-      "conv": "zh-hk:Zero;zh-hans:赛罗;zh-tw:傑洛"
+      "conv": "zh-hans:银河維克特利; zh-tw:銀河勝利; zh-hk:銀河勝利;"
     },
     {
       "original": null,
-      "conv": "zh-cn:奥特兄弟;zh-tw:超人兄弟;zh-hk:超人兄弟"
+      "conv": "zh-hk:Zero;zh-hans:赛罗;zh-tw:傑洛;"
     },
     {
       "original": null,
-      "conv": "zh-hant:札古拉;zh-cn:伽古拉"
+      "conv": "zh-cn:奥特兄弟; zh-tw:超人兄弟; zh-hk:超人兄弟;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:札古拉;zh-cn:伽古拉;"
     },
     {
       "original": null,
@@ -525,7 +537,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:Geed;zh-hans:捷德"
+      "conv": "zh-hant:Geed;zh-hans:捷德;"
     },
     {
       "original": null,
@@ -533,7 +545,7 @@
     },
     {
       "original": null,
-      "conv": "zh:大河;zh-cn:泰迦;zh-hk:泰迦;zh-tw:大河"
+      "conv": "zh:大河; zh-cn:泰迦;zh-hk:泰迦;zh-tw:大河;"
     },
     {
       "original": null,
@@ -544,100 +556,104 @@
       "conv": "zh-tw:雷克洛斯;zh-cn:雷古洛思"
     },
     {
+      "original": null,
+      "conv": "zh-cn:特利迦;zh-hk:Trigger;zh-tw:特利卡"
+    },
+    {
       "original": "にせウルトラマン",
-      "conv": "zh-hans:冒牌奥特曼;zh-tw:偽冒超人力霸王;zh-hk:假超人"
+      "conv": "zh-hans:冒牌奥特曼; zh-tw:偽冒超人力霸王; zh-hk:假超人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌赛文;zh-hk:假七號;zh-tw:偽冒七號"
+      "conv": "zh-hans:冒牌赛文;zh-hk:假七號;zh-tw:偽冒七號;"
     },
     {
       "original": null,
-      "conv": "zh-hans:艾斯机器人;zh-hk:機械超人Ace;zh-tw:衛司機器人"
+      "conv": "zh-hans:艾斯机器人;zh-hk:機械超人Ace;zh-tw:衛司機器人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌阿斯特拉;zh-hk:假阿士多拉;zh-tw:偽冒阿斯多拉"
+      "conv": "zh-hans:冒牌阿斯特拉;zh-hk:假阿士多拉;zh-tw:偽冒阿斯多拉;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌乔尼斯;zh-hk:假喬尼斯;zh-tw:偽冒喬尼斯"
+      "conv": "zh-hans:冒牌乔尼斯;zh-hk:假喬尼斯;zh-tw:偽冒喬尼斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:妄想赛文;zh-hk:妄想七星俠;zh-tw:妄想七號）"
+      "conv": "zh-hans:妄想赛文;zh-hk:妄想七星俠;zh-tw:妄想七號）;"
     },
     {
       "original": null,
-      "conv": "zh-hans:影子·奥特曼;zh-hk:影子超人;zh-tw:超人力霸王影子"
+      "conv": "zh-hans:影子·奥特曼;zh-hk:影子超人;zh-tw:超人力霸王影子;"
     },
     {
       "original": null,
-      "conv": "zh-hans:邪恶迪迦;zh-hk:邪惡迪加;zh-tw:邪惡迪卡"
+      "conv": "zh-hans:邪恶迪迦;zh-hk:邪惡迪加;zh-tw:邪惡迪卡;"
     },
     {
       "original": null,
-      "conv": "zh-hans:卡蜜拉;zh-hk:卡美拉;zh-tw:卡蜜拉"
+      "conv": "zh-hans:卡蜜拉;zh-hk:卡美拉;zh-tw:卡蜜拉;"
     },
     {
       "original": null,
-      "conv": "zh-hans:希特拉;zh-hk:希特拉;zh-tw:希特拉"
+      "conv": "zh-hans:希特拉;zh-hk:希特拉;zh-tw:希特拉;"
     },
     {
       "original": null,
-      "conv": "zh-hans:达拉姆;zh-hk:達林;zh-tw:達拉姆"
+      "conv": "zh-hans:达拉姆;zh-hk:達林;zh-tw:達拉姆;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌戴拿;zh-hk:假帝拿;zh-tw:偽冒帝納"
+      "conv": "zh-hans:冒牌戴拿;zh-hk:假帝拿;zh-tw:偽冒帝納;"
     },
     {
       "original": null,
-      "conv": "zh-hans:人造戴拿;zh-hk:人造帝拿;zh-tw:提拉諾伊德"
+      "conv": "zh-hans:人造戴拿;zh-hk:人造帝拿;zh-tw:提拉諾伊德;"
     },
     {
       "original": null,
-      "conv": "zh-hans:变形戴拿;zh-hk:變形帝拿;zh-tw:塞爾加諾伊德"
+      "conv": "zh-hans:变形戴拿;zh-hk:變形帝拿;zh-tw:塞爾加諾伊德;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌盖亚;zh-hk:假佳亞;zh-tw:偽冒蓋亞"
+      "conv": "zh-hans:冒牌盖亚;zh-hk:假佳亞;zh-tw:偽冒蓋亞;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌阿古茹;zh-hk:假亞古魯;zh-tw:偽冒亞格"
+      "conv": "zh-hans:冒牌阿古茹;zh-hk:假亞古魯;zh-tw:偽冒亞格;"
     },
     {
       "original": null,
-      "conv": "zh-hans:幻影阿古茹;zh-hk:幻影亞古魯;zh-tw:幻影亞格"
+      "conv": "zh-hans:幻影阿古茹;zh-hk:幻影亞古魯;zh-tw:幻影亞格;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌高斯;zh-hk:假高斯;zh-tw:偽冒高斯"
+      "conv": "zh-hans:冒牌高斯;zh-hk:假高斯;zh-tw:偽冒高斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:卡欧斯·奥特曼;zh-hk:卡奧斯超人;zh-tw:混沌超人"
+      "conv": "zh-hans:卡欧斯·奥特曼;zh-hk:卡奧斯超人;zh-tw:混沌超人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌爱迪;zh-hk:假超人80;zh-tw:偽冒超人80"
+      "conv": "zh-hans:冒牌爱迪;zh-hk:假超人80;zh-tw:偽冒超人80;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌梦比优斯;zh-hk:假梅比斯;zh-tw:偽冒梅比斯"
+      "conv": "zh-hans:冒牌梦比优斯;zh-hk:假梅比斯;zh-tw:偽冒梅比斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:冒牌猎手骑士剑;zh-hk:假蓝武士;zh-tw:偽冒茲爾基"
+      "conv": "zh-hans:冒牌猎手骑士剑;zh-hk:假蓝武士;zh-tw:偽冒茲爾基;"
     },
     {
       "original": null,
-      "conv": "zh-hans:贝利亚·奥特曼;zh-hk:超人貝利爾;zh-tw:超人力霸王貝利爾"
+      "conv": "zh-hans:贝利亚·奥特曼;zh-hk:超人貝利爾;zh-tw:超人力霸王貝利爾;"
     },
     {
       "original": null,
-      "conv": "zh-hans:贝利亚;zh-hk:貝利爾;zh-tw:貝利爾"
+      "conv": "zh-hans:贝利亚;zh-hk:貝利爾;zh-tw:貝利爾;"
     },
     {
       "original": null,
@@ -645,19 +661,19 @@
     },
     {
       "original": "ゼットン星人",
-      "conv": "zh-hans:杰顿;zh-hant:絕頓;zh-tw:積頓"
+      "conv": "zh-hans:杰顿; zh-hant:絕頓; zh-tw:積頓"
     },
     {
       "original": "メトロン星人",
-      "conv": "zh-hans:梅特隆星人;zh-hant:美特隆星人"
+      "conv": "zh-hans:梅特隆星人; zh-hant:美特隆星人"
     },
     {
       "original": "ガッツ星人",
-      "conv": "zh-hans:嘎次星人;zh-hant:加茲星人"
+      "conv": "zh-hans:嘎次星人; zh-hant:加茲星人"
     },
     {
       "original": "ジャグラス・ジャグラー",
-      "conv": "zh-hans:伽古拉斯·伽古拉;zh-hant:札古拉斯·札古拉"
+      "conv": "zh-hans:伽古拉斯·伽古拉; zh-hant:札古拉斯·札古拉"
     },
     {
       "original": null,
@@ -665,19 +681,19 @@
     },
     {
       "original": "ゴモラ",
-      "conv": "zh-hans:哥莫拉;zh-hant:哥摩拉"
+      "conv": "zh-hans:哥莫拉; zh-hant:哥摩拉"
     },
     {
       "original": "キングパンドン",
-      "conv": "zh-hans:庞敦;zh-hant:邦頓"
+      "conv": "zh-hans:庞敦; zh-hant:邦頓"
     },
     {
       "original": "ゲスラ",
-      "conv": "zh-hans:格斯拉;zh-hant:給斯拉"
+      "conv": "zh-hans:格斯拉; zh-hant:給斯拉"
     },
     {
       "original": "グドン",
-      "conv": "zh-hans:古敦;zh-hant:古頓"
+      "conv": "zh-hans:古敦; zh-hant:古頓"
     },
     {
       "original": null,

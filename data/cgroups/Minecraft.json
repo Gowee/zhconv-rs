@@ -5,139 +5,235 @@
   "rules": [
     {
       "original": "Minecraft",
-      "conv": "zh-cn:我的世界;zh-tw:當個創世神;zh-sg:我的世界;zh-mo:當個創世神"
+      "conv": "我的世界 => zh-hk:Minecraft; 我的世界 => zh-tw:Minecraft; 我的世界 => zh-mo:Minecraft;"
     },
     {
       "original": "Minecraft",
-      "conv": "我的世界 => zh-hk:Minecraft"
-    },
-    {
-      "original": "Minecraft",
-      "conv": "當個創世神 => zh-hk:Minecraft"
-    },
-    {
-      "original": "Netherrack",
-      "conv": "zh:下界岩;zh-cn:下界岩;zh-tw:地獄石"
-    },
-    {
-      "original": "Nether Quartz Ore",
-      "conv": "zh:下界石英矿石;zh-cn:下界石英矿石;zh-tw:地獄石英礦"
+      "conv": "當個創世神 => zh-hk:Minecraft; 當個創世神 => zh-tw:Minecraft; 當個創世神 => zh-cn:我的世界; 當個創世神 => zh-sg:我的世界; 當個創世神 => zh-my:我的世界"
     },
     {
       "original": "Grass Block",
-      "conv": "zh:草方块;zh-cn:草方块;zh-tw:草地"
+      "conv": "zh:草方块;zh-cn:草方块;zh-tw:草地;"
     },
     {
       "original": "Cobblestone",
-      "conv": "zh:圆石;zh-cn:圆石;zh-tw:鵝卵石;zh-hk:石春"
+      "conv": "zh:圆石;zh-cn:圆石;zh-tw:鵝卵石;zh-hk:碎石;"
+    },
+    {
+      "original": "Netherrack",
+      "conv": "zh:下界岩;zh-cn:下界岩;zh-tw:地獄石;"
+    },
+    {
+      "original": "Nether Quartz Ore",
+      "conv": "zh:下界石英矿石;zh-cn:下界石英矿石;zh-tw:地獄石英礦;"
     },
     {
       "original": "Glowstone",
-      "conv": "zh:荧石;zh-cn:荧石;zh-tw:螢光石;zh-hk:熒光石"
+      "conv": "zh:荧石;zh-cn:荧石;zh-tw:螢光石;zh-hk:熒光石;"
     },
     {
       "original": "Packed Ice",
-      "conv": "zh:浮冰;zh-cn:浮冰;zh-tw:冰磚"
+      "conv": "zh:浮冰;zh-cn:浮冰;zh-tw:冰磚;"
     },
     {
       "original": "Silk Touch",
-      "conv": "zh:精准采集;zh-cn:精准采集;zh-tw:絲綢之觸"
+      "conv": "zh:精准采集;zh-cn:精准采集;zh-tw:絲綢之觸;"
     },
     {
       "original": "Plank",
-      "conv": "zh:木板;zh-cn:木板;zh-tw:木材;zh-hk:木板"
+      "conv": "zh:木板;zh-cn:木板;zh-tw:木材;zh-hk:木板;"
     },
     {
       "original": "Beacon",
-      "conv": "zh:信标;zh-cn:信标;zh-tw:烽火台"
+      "conv": "zh:信标;zh-cn:信标;zh-tw:烽火台;"
     },
     {
       "original": "Slab",
-      "conv": "zh:台阶;zh-cn:台阶;zh-tw:半磚"
+      "conv": "zh:台阶;zh-cn:台阶;zh-tw:半磚;"
+    },
+    {
+      "original": "Glass Pane",
+      "conv": "zh:玻璃板;zh-cn:玻璃板;zh-tw:玻璃片;"
     },
     {
       "original": "Stairs",
-      "conv": "zh:楼梯;zh-cn:楼梯;zh-tw:階梯;zh-hk:樓梯"
+      "conv": "zh:楼梯;zh-cn:楼梯;zh-tw:階梯;zh-hk:樓梯;"
     },
     {
-      "original": "Sheep",
-      "conv": "zh:羊;zh-cn:羊;zh-tw:綿羊"
+      "original": "Note Block",
+      "conv": "zh:音符盒;zh-cn:音符盒;zh-tw:音階盒;zh-hk:音符盒;"
+    },
+    {
+      "original": "Shulker Box",
+      "conv": "zh:潜影盒;zh-cn:潜影盒;zh-tw:界伏盒;"
+    },
+    {
+      "original": "Terracotta",
+      "conv": "zh:陶瓦;zh-cn:陶瓦;zh-tw:陶土;zh-hk:陶瓦;"
+    },
+    {
+      "original": "Glazed Terracotta",
+      "conv": "zh:带釉陶瓦;zh-cn:带釉陶瓦;zh-tw:釉陶;zh-hk:釉陶;"
+    },
+    {
+      "original": "Sculk",
+      "conv": "zh:幽匿;zh-cn:幽匿;zh-tw:伏聆;zh-hk:沉靈;"
+    },
+    {
+      "original": "Mangrove Wood",
+      "conv": "zh:红树木;zh-cn:红树木;zh-tw:紅樹林木;zh-hk:紅樹林木;"
     },
     {
       "original": "Donkey",
-      "conv": "zh:驴;zh-cn:驴;zh-tw:驢子"
+      "conv": "zh:驴;zh-cn:驴;zh-tw:驢子;zh-hk:驢;"
     },
     {
       "original": "Mule",
-      "conv": "zh:骡;zh-cn:骡;zh-tw:騾子"
-    },
-    {
-      "original": "Shulker",
-      "conv": "zh:潜影贝;zh-cn:潜影贝;zh-tw:界伏蚌"
+      "conv": "zh:骡;zh-cn:骡;zh-tw:騾子;zh-hk:騾;"
     },
     {
       "original": "Ocelot",
-      "conv": "zh:豹猫;zh-cn:豹猫;zh-tw:山貓"
+      "conv": "zh:豹猫;zh-cn:豹猫;zh-tw:山貓;zh-hk:豹貓;"
     },
     {
-      "original": "Enderman",
-      "conv": "zh:末影人;zh-cn:末影人;zh-tw:終界使者"
+      "original": "Snow Golem",
+      "conv": "zh:雪傀儡;zh-cn:雪傀儡;zh-tw:雪人;"
     },
     {
-      "original": "Ender Dragon",
-      "conv": "zh:末影龙;zh-cn:末影龙;zh-tw:終界龍"
-    },
-    {
-      "original": "The End",
-      "conv": "zh:末地;zh-cn:末地;zh-tw:終界"
-    },
-    {
-      "original": "Endermite",
-      "conv": "zh:末影螨;zh-cn:末影螨;zh-tw:終界蟎"
+      "original": "Iron Golem",
+      "conv": "zh:铁傀儡;zh-cn:铁傀儡;zh-tw:鐵魔像;zh-hk:鐵人;"
     },
     {
       "original": "Creeper",
-      "conv": "zh:苦力怕;zh-cn:苦力怕;zh-hk:Creeper;zh-tw:苦力怕;zh-sg:苦力帕"
+      "conv": "zh:苦力怕; zh-cn:苦力怕; zh-tw:苦力怕; zh-sg:苦力帕;"
+    },
+    {
+      "original": "Phantom",
+      "conv": "zh:幻翼;zh-cn:幻翼;zh-tw:夜魅;"
+    },
+    {
+      "original": "Blaze",
+      "conv": "zh:烈焰人;zh-cn:烈焰人;zh-tw:烈焰使者;zh-hk:烈焰使者;"
+    },
+    {
+      "original": "Wither",
+      "conv": "zh:凋灵;zh-cn:凋灵;zh-tw:凋零怪;zh-hk:凋零怪;"
+    },
+    {
+      "original": "Wither Skeleton",
+      "conv": "zh:凋灵骷髅;zh-cn:凋灵骷髅;zh-tw:凋零骷髏;zh-hk:凋零骷髏骨;"
+    },
+    {
+      "original": "Enderman",
+      "conv": "zh:末影人;zh-cn:末影人;zh-tw:終界使者;"
+    },
+    {
+      "original": "Ender Dragon",
+      "conv": "zh:末影龙;zh-cn:末影龙;zh-tw:終界龍;"
+    },
+    {
+      "original": "Endermite",
+      "conv": "zh:末影螨;zh-cn:末影螨;zh-tw:終界蟎;"
+    },
+    {
+      "original": "Shulker",
+      "conv": "zh:潜影贝;zh-cn:潜影贝;zh-tw:界伏蚌;"
+    },
+    {
+      "original": "Piglin",
+      "conv": "zh:猪灵;zh-cn:猪灵;zh-tw:豬布林;zh-hk:豬人;"
+    },
+    {
+      "original": "Hoglin",
+      "conv": "zh:疣猪兽;zh-cn:疣猪兽;zh-tw:豬布獸;zh-hk:野豬獸;"
+    },
+    {
+      "original": "Warden",
+      "conv": "zh:监守者;zh-cn:监守者;zh-tw:伏守者;zh-hk:沉靈守衞;"
     },
     {
       "original": "Shovel",
-      "conv": "zh:锹;zh-cn:锹;zh-tw:鏟"
-    },
-    {
-      "original": "Biome",
-      "conv": "zh:生物群系;zh-cn:生物群系;zh-tw:生態域;zh-hk:生物羣落"
+      "conv": "zh:锹;zh-cn:锹;zh-tw:鏟;"
     },
     {
       "original": "Nether Star",
-      "conv": "zh:下界之星;zh-cn:下界之星;zh-tw:地獄之星"
+      "conv": "zh:下界之星;zh-cn:下界之星;zh-tw:地獄之星;"
+    },
+    {
+      "original": "Ender Pearl",
+      "conv": "zh:末影珍珠;zh-cn:末影珍珠;zh-tw:終界珍珠;"
+    },
+    {
+      "original": "Eye of Ender",
+      "conv": "zh:末影之眼;zh-cn:末影之眼;zh-tw:終界之眼;"
     },
     {
       "original": "Chorus",
-      "conv": "zh:紫颂;zh-cn:紫颂;zh-tw:歌萊"
+      "conv": "zh:紫颂;zh-cn:紫颂;zh-tw:歌萊;"
+    },
+    {
+      "original": "Compass",
+      "conv": "zh:指南针;zh-cn:指南针;zh-tw:羅盤;zh-hk:指南針;"
     },
     {
       "original": "Netherite",
-      "conv": "zh:下界合金;zh-cn:下界合金;zh-tw:獄髓;zh-hk:地獄合金"
+      "conv": "zh:下界合金;zh-cn:下界合金;zh-tw:獄髓;zh-hk:地獄合金;"
     },
     {
       "original": "Mods",
-      "conv": "zh-hans:模组;zh-hant:模組"
+      "conv": "zh-hans:模组; zh-hant:模組;"
     },
     {
       "original": "Plugins",
-      "conv": "zh-hans:插件;zh-hant:插件"
+      "conv": "zh-hans:插件; zh-hant:插件;"
+    },
+    {
+      "original": "Spectator Mode",
+      "conv": "zh:旁观模式;zh-cn:旁观模式;zh-tw:旁觀者模式;zh-hk:旁觀模式;"
     },
     {
       "original": "The Nether",
-      "conv": "zh-cn:下界;zh-tw:地獄"
+      "conv": "zh-cn:下界; zh-tw:地獄;"
+    },
+    {
+      "original": "The End",
+      "conv": "zh:末地;zh-cn:末地;zh-tw:終界;"
+    },
+    {
+      "original": "The End",
+      "conv": "zh:末路之地;zh-cn:末路之地;zh-tw:終末之界;"
+    },
+    {
+      "original": "Deep Dark",
+      "conv": "zh:深渊;zh-cn:深暗之域;zh-tw:深淵;zh-hk:深淵"
+    },
+    {
+      "original": "Biome",
+      "conv": "zh:生物群系;zh-cn:生物群系;zh-tw:生態域;zh-hk:生物羣落;"
     },
     {
       "original": "Mineshaft",
-      "conv": "zh-hans:废弃矿井;zh-hant:廢棄礦坑"
+      "conv": "zh-hans:废弃矿井;zh-hant:廢棄礦坑;"
     },
     {
       "original": "Woodland Mansions",
-      "conv": "zh-cn:林地府邸;zh-tw:綠林府邸;zh-hk:林間別墅"
+      "conv": "zh-cn:林地府邸;zh-tw:綠林府邸;zh-hk:林間別墅;"
+    },
+    {
+      "original": "Minecraft: Story Mode",
+      "conv": "zh-tw:Minecraft：故事模式; zh-cn:我的世界：故事模式; zh-hk:Minecraft：故事模式;"
+    },
+    {
+      "original": "Minecraft Dungeons",
+      "conv": "zh-tw:Minecraft：地下城; zh-cn:我的世界：地下城; zh-hk:Minecraft：地下城;"
+    },
+    {
+      "original": "Minecraft Dungeons",
+      "conv": "zh-hans: Minecraft – Volume Alpha; zh-hant: Minecraft – Volume Alpha"
+    },
+    {
+      "original": "Minecraft Dungeons",
+      "conv": "zh-hans: Minecraft – Volume Beta; zh-hant: Minecraft – Volume Beta"
     }
   ]
 }

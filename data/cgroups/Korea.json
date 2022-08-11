@@ -5,503 +5,503 @@
   "rules": [
     {
       "original": null,
-      "conv": "zh-hans:朝鲜民主主义人民共和国;zh-hant:朝鮮民主主義人民共和國"
+      "conv": "zh-hans:朝鲜民主主义人民共和国;zh-hant:朝鮮民主主義人民共和國;"
     },
     {
       "original": null,
-      "conv": "zh-hans:大韩民国;zh-hant:大韓民國"
+      "conv": "zh-hans:大韩民国;zh-hant:大韓民國;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:北韩;zh-my:北韩"
+      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:北韩;zh-my:北韩;"
     },
     {
       "original": null,
-      "conv": "朝鮮=>zh-hk:北韓;朝鮮=>zh-tw:北韓;朝鮮=>zh-mo:北韓;朝鮮=>zh-my:北韩;朝鮮=>zh-sg:北韩"
+      "conv": "zh:朝鮮;zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:北韩;zh-my:北韩;"
     },
     {
       "original": null,
-      "conv": "南韩=>zh-cn:韩国;南韓=>zh-cn:韩国"
+      "conv": "南韩=>zh-cn:韩国;南韓=>zh-cn:韩国;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝韩;zh-tw:南北韓;zh-hk:南北韓;zh-mo:南北韓;zh-sg:南北韩;zh-my:南北韩"
+      "conv": "zh-cn:朝韩;zh-tw:南北韓;zh-hk:南北韓;zh-mo:南北韓;zh-sg:南北韩;zh-my:南北韩;"
     },
     {
       "original": null,
-      "conv": "朝韓=>zh-tw:南北韓;朝韓=>zh-hk:南北韓;朝韓=>zh-mo:南北韓"
+      "conv": "朝韓=>zh-tw:南北韓;朝韓=>zh-hk:南北韓;朝韓=>zh-mo:南北韓;"
     },
     {
       "original": null,
-      "conv": "韩朝=>zh-tw:南北韓;韩朝=>zh-hk:南北韓;韩朝=>zh-mo:南北韓;韩朝=>zh-my:南北韩;韩朝=>zh-sg:南北韩"
+      "conv": "韩朝=>zh-tw:南北韓;韩朝=>zh-hk:南北韓;韩朝=>zh-mo:南北韓;韩朝=>zh-my:南北韩;韩朝=>zh-sg:南北韩;"
     },
     {
       "original": null,
-      "conv": "韓朝=>zh-tw:南北韓;韓朝=>zh-hk:南北韓;韓朝=>zh-mo:南北韓;韓朝=>zh-my:南北韩;韓朝=>zh-sg:南北韩"
+      "conv": "韓朝=>zh-tw:南北韓;韓朝=>zh-hk:南北韓;韓朝=>zh-mo:南北韓;韓朝=>zh-my:南北韩;韓朝=>zh-sg:南北韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜与韩国;zh-tw:北韓與南韓;zh-hk:北韓與南韓;zh-mo:北韓與南韓;zh-sg:北韩与南韩;zh-my:北韩与南韩"
+      "conv": "zh-cn:朝鲜与韩国;zh-tw:北韓與南韓;zh-hk:北韓與南韓;zh-mo:北韓與南韓;zh-sg:北韩与南韩;zh-my:北韩与南韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国与朝鲜;zh-tw:南韓與北韓;zh-hk:南韓與北韓;zh-mo:南韓與北韓;zh-sg:南韩与北韩;zh-my:南韩与北韩"
+      "conv": "zh-cn:韩国与朝鲜;zh-tw:南韓與北韓;zh-hk:南韓與北韓;zh-mo:南韓與北韓;zh-sg:南韩与北韩;zh-my:南韩与北韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜和韩国;zh-tw:北韓和南韓;zh-hk:北韓和南韓;zh-mo:北韓和南韓;zh-sg:北韩和南韩;zh-my:北韩和南韩"
+      "conv": "zh-cn:朝鲜和韩国;zh-tw:北韓和南韓;zh-hk:北韓和南韓;zh-mo:北韓和南韓;zh-sg:北韩和南韩;zh-my:北韩和南韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国和朝鲜;zh-tw:南韓和北韓;zh-hk:南韓和北韓;zh-mo:南韓和北韓;zh-sg:南韩和北韩;zh-my:南韩和北韩"
+      "conv": "zh-cn:韩国和朝鲜;zh-tw:南韓和北韓;zh-hk:南韓和北韓;zh-mo:南韓和北韓;zh-sg:南韩和北韩;zh-my:南韩和北韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜同韩国;zh-tw:北韓同南韓;zh-hk:北韓同南韓;zh-mo:北韓同南韓;zh-sg:北韩同南韩;zh-my:北韩同南韩"
+      "conv": "zh-cn:朝鲜同韩国;zh-tw:北韓同南韓;zh-hk:北韓同南韓;zh-mo:北韓同南韓;zh-sg:北韩同南韩;zh-my:北韩同南韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国同朝鲜;zh-tw:南韓同北韓;zh-hk:南韓同北韓;zh-mo:南韓同北韓;zh-sg:南韩同北韩;zh-my:南韩同北韩"
+      "conv": "zh-cn:韩国同朝鲜;zh-tw:南韓同北韓;zh-hk:南韓同北韓;zh-mo:南韓同北韓;zh-sg:南韩同北韩;zh-my:南韩同北韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜及韩国;zh-tw:北韓及南韓;zh-hk:北韓及南韓;zh-mo:北韓及南韓;zh-sg:北韩及南韩;zh-my:北韩及南韩"
+      "conv": "zh-cn:朝鲜及韩国;zh-tw:北韓及南韓;zh-hk:北韓及南韓;zh-mo:北韓及南韓;zh-sg:北韩及南韩;zh-my:北韩及南韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国及朝鲜;zh-tw:南韓及北韓;zh-hk:南韓及北韓;zh-mo:南韓及北韓;zh-sg:南韩及北韩;zh-my:南韩及北韩"
+      "conv": "zh-cn:韩国及朝鲜;zh-tw:南韓及北韓;zh-hk:南韓及北韓;zh-mo:南韓及北韓;zh-sg:南韩及北韩;zh-my:南韩及北韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜以及韩国;zh-tw:北韓以及南韓;zh-hk:北韓以及南韓;zh-mo:北韓以及南韓;zh-sg:北韩以及南韩;zh-my:北韩以及南韩"
+      "conv": "zh-cn:朝鲜以及韩国;zh-tw:北韓以及南韓;zh-hk:北韓以及南韓;zh-mo:北韓以及南韓;zh-sg:北韩以及南韩;zh-my:北韩以及南韩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国以及朝鲜;zh-tw:南韓以及北韓;zh-hk:南韓以及北韓;zh-mo:南韓以及北韓;zh-sg:南韩以及北韩;zh-my:南韩以及北韩"
+      "conv": "zh-cn:韩国以及朝鲜;zh-tw:南韓以及北韓;zh-hk:南韓以及北韓;zh-mo:南韓以及北韓;zh-sg:南韩以及北韩;zh-my:南韩以及北韩;"
     },
     {
       "original": null,
-      "conv": "兩韓=>zh-cn:朝韩;两韩=>zh-cn:朝韩"
+      "conv": "兩韓=>zh-cn:朝韩;两韩=>zh-cn:朝韩;"
     },
     {
       "original": null,
-      "conv": "南北朝鲜=>zh-cn:朝韩;南北朝鲜=>zh-tw:南北韓;南北朝鲜=>zh-hk:南北韓;南北朝鲜=>zh-mo:南北韓;南北朝鲜=>zh-sg:南北韩;南北朝鲜=>zh-my:南北韩"
+      "conv": "南北朝鲜=>zh-cn:朝韩;南北朝鲜=>zh-tw:南北韓;南北朝鲜=>zh-hk:南北韓;南北朝鲜=>zh-mo:南北韓;南北朝鲜=>zh-sg:南北韩;南北朝鲜=>zh-my:南北韩;"
     },
     {
       "original": null,
-      "conv": "南北朝鮮=>zh-cn:朝韩;南北朝鮮=>zh-tw:南北韓;南北朝鮮=>zh-hk:南北韓;南北朝鮮=>zh-mo:南北韓;南北朝鮮=>zh-sg:南北韩;南北朝鮮=>zh-my:南北韩"
+      "conv": "南北朝鮮=>zh-cn:朝韩;南北朝鮮=>zh-tw:南北韓;南北朝鮮=>zh-hk:南北韓;南北朝鮮=>zh-mo:南北韓;南北朝鮮=>zh-sg:南北韩;南北朝鮮=>zh-my:南北韩;"
     },
     {
       "original": null,
-      "conv": "zh-hans:北朝鲜;zh-hant:北朝鮮"
+      "conv": "zh-hans:北朝鲜;zh-hant:北朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:南朝鲜;zh-hant:南朝鮮"
+      "conv": "zh-hans:南朝鲜;zh-hant:南朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝方;zh-my:北韩方面;zh-sg:北韩方面;zh-hant:北韓方面"
+      "conv": "zh-hans:朝方;zh-my:北韩方面;zh-sg:北韩方面;zh-hant:北韓方面;"
     },
     {
       "original": null,
-      "conv": "北韩方=>zh-cn:朝方;北韓方=>zh-cn:朝方"
+      "conv": "北韩方=>zh-cn:朝方;北韓方=>zh-cn:朝方;"
     },
     {
       "original": null,
-      "conv": "南韩方面=>zh-cn:韩方;南韓方面=>zh-cn:韩方"
+      "conv": "南韩方面=>zh-cn:韩方;南韓方面=>zh-cn:韩方;"
     },
     {
       "original": null,
-      "conv": "南韩方=>zh-cn:韩方;南韓方=>zh-cn:韩方"
+      "conv": "南韩方=>zh-cn:韩方;南韓方=>zh-cn:韩方;"
     },
     {
       "original": null,
-      "conv": "zh-hans:古朝鲜;zh-hant:古朝鮮"
+      "conv": "zh-hans:古朝鲜;zh-hant:古朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:檀君朝鲜;zh-hant:檀君朝鮮"
+      "conv": "zh-hans:檀君朝鲜;zh-hant:檀君朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:箕子朝鲜;zh-hant:箕子朝鮮"
+      "conv": "zh-hans:箕子朝鲜;zh-hant:箕子朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:箕氏朝鲜;zh-hant:箕氏朝鮮"
+      "conv": "zh-hans:箕氏朝鲜;zh-hant:箕氏朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:卫满朝鲜;zh-hant:衛滿朝鮮;衞滿朝鮮=>zh-tw:衞滿朝鮮;衞滿朝鮮=>zh-hk:衞滿朝鮮;衞滿朝鮮=>zh-mo:衞滿朝鮮;衞滿朝鮮=>zh-sg:卫满朝鲜;衞滿朝鮮=>zh-my:卫满朝鲜"
+      "conv": "zh-hans:卫满朝鲜;zh-hant:衛滿朝鮮;衞滿朝鮮=>zh-tw:衞滿朝鮮;衞滿朝鮮=>zh-hk:衞滿朝鮮;衞滿朝鮮=>zh-mo:衞滿朝鮮;衞滿朝鮮=>zh-sg:卫满朝鲜;衞滿朝鮮=>zh-my:卫满朝鲜;"
     },
     {
       "original": null,
-      "conv": "zh-hans:卫氏朝鲜;zh-hant:衛氏朝鮮;衞氏朝鮮=>zh-tw:衞氏朝鮮;衞氏朝鮮=>zh-hk:衞氏朝鮮;衞氏朝鮮=>zh-mo:衞氏朝鮮;衞氏朝鮮=>zh-sg:卫氏朝鲜;衞氏朝鮮=>zh-my:卫氏朝鲜"
+      "conv": "zh-hans:卫氏朝鲜;zh-hant:衛氏朝鮮;衞氏朝鮮=>zh-tw:衞氏朝鮮;衞氏朝鮮=>zh-hk:衞氏朝鮮;衞氏朝鮮=>zh-mo:衞氏朝鮮;衞氏朝鮮=>zh-sg:卫氏朝鲜;衞氏朝鮮=>zh-my:卫氏朝鲜;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜三国;zh-hant:朝鮮三國"
+      "conv": "zh-hans:朝鲜三国;zh-hant:朝鮮三國;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜国;zh-hant:朝鮮國"
+      "conv": "zh-hans:朝鲜国;zh-hant:朝鮮國;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜王朝;zh-hant:朝鮮王朝"
+      "conv": "zh-hans:朝鲜王朝;zh-hant:朝鮮王朝;"
     },
     {
       "original": null,
-      "conv": "zh-hans:李氏朝鲜;zh-hant:李氏朝鮮"
+      "conv": "zh-hans:李氏朝鲜;zh-hant:李氏朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜时代;zh-hant:朝鮮時代"
+      "conv": "zh-hans:朝鲜时代;zh-hant:朝鮮時代;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜时期;zh-hant:朝鮮時期"
+      "conv": "zh-hans:朝鲜时期;zh-hant:朝鮮時期;"
     },
     {
       "original": null,
-      "conv": "zh-hans:日治朝鲜;zh-hant:日治朝鮮"
+      "conv": "zh-hans:日治朝鲜;zh-hant:日治朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜日治;zh-hant:朝鮮日治"
+      "conv": "zh-hans:朝鲜日治;zh-hant:朝鮮日治;"
     },
     {
       "original": null,
-      "conv": "zh-hans:日据朝鲜;zh-hant:日據朝鮮"
+      "conv": "zh-hans:日据朝鲜;zh-hant:日據朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜日据;zh-hant:朝鮮日據"
+      "conv": "zh-hans:朝鲜日据;zh-hant:朝鮮日據;"
     },
     {
       "original": null,
-      "conv": "日占朝鲜=>zh-tw:日占朝鮮;日占朝鲜=>zh-hk:日佔朝鮮;日占朝鲜=>zh-mo:日佔朝鮮;日占朝鲜=>zh-sg:日占朝鲜;日占朝鲜=>zh-my:日占朝鲜"
+      "conv": "日占朝鲜=>zh-tw:日占朝鮮;日占朝鲜=>zh-hk:日佔朝鮮;日占朝鲜=>zh-mo:日佔朝鮮;日占朝鲜=>zh-sg:日占朝鲜;日占朝鲜=>zh-my:日占朝鲜;"
     },
     {
       "original": null,
-      "conv": "日占朝鮮=>zh-tw:日占朝鮮;日占朝鮮=>zh-hk:日佔朝鮮;日占朝鮮=>zh-mo:日佔朝鮮;日占朝鮮=>zh-sg:日占朝鲜;日占朝鮮=>zh-my:日占朝鲜"
+      "conv": "日占朝鮮=>zh-tw:日占朝鮮;日占朝鮮=>zh-hk:日佔朝鮮;日占朝鮮=>zh-mo:日佔朝鮮;日占朝鮮=>zh-sg:日占朝鲜;日占朝鮮=>zh-my:日占朝鲜;"
     },
     {
       "original": null,
-      "conv": "日佔朝鮮=>zh-tw:日佔朝鮮;日佔朝鮮=>zh-hk:日佔朝鮮;日佔朝鮮=>zh-mo:日佔朝鮮;日佔朝鮮=>zh-sg:日佔朝鲜;日佔朝鮮=>zh-my:日占朝鲜"
+      "conv": "日佔朝鮮=>zh-tw:日佔朝鮮;日佔朝鮮=>zh-hk:日佔朝鮮;日佔朝鮮=>zh-mo:日佔朝鮮;日佔朝鮮=>zh-sg:日佔朝鲜;日佔朝鮮=>zh-my:日占朝鲜;"
     },
     {
       "original": null,
-      "conv": "朝鲜日占=>zh-tw:朝鮮日占;朝鲜日占=>zh-hk:朝鮮日佔;朝鲜日占=>zh-mo:朝鮮日佔;朝鲜日占=>zh-sg:朝鲜日占;朝鲜日占=>zh-my:朝鲜日占"
+      "conv": "朝鲜日占=>zh-tw:朝鮮日占;朝鲜日占=>zh-hk:朝鮮日佔;朝鲜日占=>zh-mo:朝鮮日佔;朝鲜日占=>zh-sg:朝鲜日占;朝鲜日占=>zh-my:朝鲜日占;"
     },
     {
       "original": null,
-      "conv": "朝鮮日占=>zh-tw:朝鮮日占;朝鮮日占=>zh-hk:朝鮮日佔;朝鮮日占=>zh-mo:朝鮮日佔;朝鮮日占=>zh-sg:朝鲜日占;朝鮮日占=>zh-my:朝鲜日占"
+      "conv": "朝鮮日占=>zh-tw:朝鮮日占;朝鮮日占=>zh-hk:朝鮮日佔;朝鮮日占=>zh-mo:朝鮮日佔;朝鮮日占=>zh-sg:朝鲜日占;朝鮮日占=>zh-my:朝鲜日占;"
     },
     {
       "original": null,
-      "conv": "朝鮮日佔=>zh-tw:朝鮮日佔;朝鮮日佔=>zh-hk:朝鮮日佔;朝鮮日佔=>zh-mo:朝鮮日佔;朝鮮日佔=>zh-sg:朝鲜日占;朝鮮日佔=>zh-my:朝鲜日占"
+      "conv": "朝鮮日佔=>zh-tw:朝鮮日佔;朝鮮日佔=>zh-hk:朝鮮日佔;朝鮮日佔=>zh-mo:朝鮮日佔;朝鮮日佔=>zh-sg:朝鲜日占;朝鮮日佔=>zh-my:朝鲜日占;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国统监;zh-hant:韓國統監"
+      "conv": "zh-hans:韩国统监;zh-hant:韓國統監;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜总督;zh-hant:朝鮮總督"
+      "conv": "zh-hans:朝鲜总督;zh-hant:朝鮮總督;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜人民共和国;zh-hant:朝鮮人民共和國"
+      "conv": "zh-hans:朝鲜人民共和国;zh-hant:朝鮮人民共和國;"
     },
     {
       "original": null,
-      "conv": "zh-hans:驻朝鲜美国陆军司令部军政厅;zh-hant:駐朝鮮美國陸軍司令部軍政廳"
+      "conv": "zh-hans:驻朝鲜美国陆军司令部军政厅;zh-hant:駐朝鮮美國陸軍司令部軍政廳;"
     },
     {
       "original": null,
-      "conv": "zh-hans:驻朝鲜美国军政厅;zh-hant:駐朝鮮美國軍政廳"
+      "conv": "zh-hans:驻朝鲜美国军政厅;zh-hant:駐朝鮮美國軍政廳;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜太祖;zh-hant:朝鮮太祖"
+      "conv": "zh-hans:朝鲜太祖;zh-hant:朝鮮太祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜定宗;zh-hant:朝鮮定宗"
+      "conv": "zh-hans:朝鲜定宗;zh-hant:朝鮮定宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜太宗;zh-hant:朝鮮太宗"
+      "conv": "zh-hans:朝鲜太宗;zh-hant:朝鮮太宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜世宗;zh-hant:朝鮮世宗"
+      "conv": "zh-hans:朝鲜世宗;zh-hant:朝鮮世宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜文宗;zh-hant:朝鮮文宗"
+      "conv": "zh-hans:朝鲜文宗;zh-hant:朝鮮文宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜端宗;zh-hant:朝鮮端宗"
+      "conv": "zh-hans:朝鲜端宗;zh-hant:朝鮮端宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜世祖;zh-hant:朝鮮世祖"
+      "conv": "zh-hans:朝鲜世祖;zh-hant:朝鮮世祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜睿宗;zh-hant:朝鮮睿宗"
+      "conv": "zh-hans:朝鲜睿宗;zh-hant:朝鮮睿宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜成宗;zh-hant:朝鮮成宗"
+      "conv": "zh-hans:朝鲜成宗;zh-hant:朝鮮成宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜中宗;zh-hant:朝鮮中宗"
+      "conv": "zh-hans:朝鲜中宗;zh-hant:朝鮮中宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜仁宗;zh-hant:朝鮮仁宗"
+      "conv": "zh-hans:朝鲜仁宗;zh-hant:朝鮮仁宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜明宗;zh-hant:朝鮮明宗"
+      "conv": "zh-hans:朝鲜明宗;zh-hant:朝鮮明宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜宣祖;zh-hant:朝鮮宣祖"
+      "conv": "zh-hans:朝鲜宣祖;zh-hant:朝鮮宣祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜仁祖;zh-hant:朝鮮仁祖"
+      "conv": "zh-hans:朝鲜仁祖;zh-hant:朝鮮仁祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜孝宗;zh-hant:朝鮮孝宗"
+      "conv": "zh-hans:朝鲜孝宗;zh-hant:朝鮮孝宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜显宗;zh-hant:朝鮮顯宗"
+      "conv": "zh-hans:朝鲜显宗;zh-hant:朝鮮顯宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜肃宗;zh-hant:朝鮮肅宗"
+      "conv": "zh-hans:朝鲜肃宗;zh-hant:朝鮮肅宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜景宗;zh-hant:朝鮮景宗"
+      "conv": "zh-hans:朝鲜景宗;zh-hant:朝鮮景宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜英祖;zh-hant:朝鮮英祖"
+      "conv": "zh-hans:朝鲜英祖;zh-hant:朝鮮英祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜正祖;zh-hant:朝鮮正祖"
+      "conv": "zh-hans:朝鲜正祖;zh-hant:朝鮮正祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜纯祖;zh-hant:朝鮮純祖"
+      "conv": "zh-hans:朝鲜纯祖;zh-hant:朝鮮純祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜宪宗;zh-hant:朝鮮憲宗"
+      "conv": "zh-hans:朝鲜宪宗;zh-hant:朝鮮憲宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜哲宗;zh-hant:朝鮮哲宗"
+      "conv": "zh-hans:朝鲜哲宗;zh-hant:朝鮮哲宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜高宗;zh-hant:朝鮮高宗"
+      "conv": "zh-hans:朝鲜高宗;zh-hant:朝鮮高宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜纯宗;zh-hant:朝鮮純宗"
+      "conv": "zh-hans:朝鲜纯宗;zh-hant:朝鮮純宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜德宗;zh-hant:朝鮮德宗"
+      "conv": "zh-hans:朝鲜德宗;zh-hant:朝鮮德宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜元宗;zh-hant:朝鮮元宗"
+      "conv": "zh-hans:朝鲜元宗;zh-hant:朝鮮元宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜真宗;zh-hant:朝鮮真宗"
+      "conv": "zh-hans:朝鲜真宗;zh-hant:朝鮮真宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜庄宗;zh-hant:朝鮮莊宗"
+      "conv": "zh-hans:朝鲜庄宗;zh-hant:朝鮮莊宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜庄祖;zh-hant:朝鮮莊祖"
+      "conv": "zh-hans:朝鲜庄祖;zh-hant:朝鮮莊祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜翼宗;zh-hant:朝鮮翼宗"
+      "conv": "zh-hans:朝鲜翼宗;zh-hant:朝鮮翼宗;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜文祖;zh-hant:朝鮮文祖"
+      "conv": "zh-hans:朝鲜文祖;zh-hant:朝鮮文祖;"
     },
     {
       "original": null,
-      "conv": "zh-hans:万历朝鲜之役;zh-hant:萬曆朝鮮之役"
+      "conv": "zh-hans:万历朝鲜之役;zh-hant:萬曆朝鮮之役;"
     },
     {
       "original": null,
-      "conv": "zh-hans:万历朝鲜战争;zh-hant:萬曆朝鮮戰爭"
+      "conv": "zh-hans:万历朝鲜战争;zh-hant:萬曆朝鮮戰爭;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜独立运动;zh-hk:韓國獨立運動;zh-mo:韓國獨立運動;zh-my:韩国独立运动;zh-sg:韩国独立运动;zh-tw:韓國獨立運動"
+      "conv": "zh-cn:朝鲜独立运动;zh-hk:韓國獨立運動;zh-mo:韓國獨立運動;zh-my:韩国独立运动;zh-sg:韩国独立运动;zh-tw:韓國獨立運動;"
     },
     {
       "original": null,
-      "conv": "朝鮮獨立運動=>zh-tw:韓國獨立運動;朝鮮獨立運動=>zh-hk:韓國獨立運動;朝鮮獨立運動=>zh-mo:韓國獨立運動;朝鮮獨立運動=>zh-my:韩国独立运动;朝鮮獨立運動=>zh-sg:韩国独立运动"
+      "conv": "朝鮮獨立運動=>zh-tw:韓國獨立運動;朝鮮獨立運動=>zh-hk:韓國獨立運動;朝鮮獨立運動=>zh-mo:韓國獨立運動;朝鮮獨立運動=>zh-my:韩国独立运动;朝鮮獨立運動=>zh-sg:韩国独立运动;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国复国运动;zh-hk:韓國復國運動"
+      "conv": "zh-hans:韩国复国运动;zh-hant:韓國復國運動;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜战争;zh-tw:韓戰;zh-hk:韓戰;zh-mo:韓戰;zh-sg:韩战;zh-my:韩战"
+      "conv": "zh-cn:朝鲜战争;zh-tw:韓戰;zh-hk:韓戰;zh-mo:韓戰;zh-sg:韩战;zh-my:韩战;"
     },
     {
       "original": null,
-      "conv": "朝鮮戰爭=>zh-tw:韓戰;朝鮮戰爭=>zh-hk:韓戰;朝鮮戰爭=>zh-mo:韓戰;朝鮮戰爭=>zh-sg:韩战;朝鮮戰爭=>zh-my:韩战"
+      "conv": "朝鮮戰爭=>zh-tw:韓戰;朝鮮戰爭=>zh-hk:韓戰;朝鮮戰爭=>zh-mo:韓戰;朝鮮戰爭=>zh-sg:韩战;朝鮮戰爭=>zh-my:韩战;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国战争;zh-hant:韓國戰爭"
+      "conv": "zh-hans:韩国战争;zh-hant:韓國戰爭;"
     },
     {
       "original": null,
-      "conv": "兩韓統一=>zh-cn:朝鲜半岛统一;两韩统一=>zh-cn:朝鲜半岛统一;南北韓統一=>zh-cn:朝鲜半岛统一;南北韩统一=>zh-cn:朝鲜半岛统一"
+      "conv": "兩韓統一=>zh-cn:朝鲜半岛统一;两韩统一=>zh-cn:朝鲜半岛统一;南北韓統一=>zh-cn:朝鲜半岛统一;南北韩统一=>zh-cn:朝鲜半岛统一;"
     },
     {
       "original": null,
-      "conv": "zh-tw:南北韓高峰會;zh-hk:南北韓首腦會談;zh-mo:南北韓首腦會談;zh-cn:朝韩首脑会晤;zh-my:南北韩首脑会晤;zh-sg:南北韩首脑会晤"
+      "conv": "zh-tw:南北韓高峰會;zh-hk:南北韓首腦會談;zh-mo:南北韓首腦會談;zh-cn:朝韩首脑会晤;zh-my:南北韩首脑会晤;zh-sg:南北韩首脑会晤;"
     },
     {
       "original": null,
-      "conv": "韩朝首脑会晤=>zh-tw:南北韓高峰會;韩朝首脑会晤=>zh-hk:南北韓首腦會談;韩朝首脑会晤=>zh-mo:南北韓首腦會談;韩朝首脑会晤=>zh-my:南北韩首脑会晤;韩朝首脑会晤=>zh-sg:南北韩首脑会晤"
+      "conv": "韩朝首脑会晤=>zh-tw:南北韓高峰會;韩朝首脑会晤=>zh-hk:南北韓首腦會談;韩朝首脑会晤=>zh-mo:南北韓首腦會談;韩朝首脑会晤=>zh-my:南北韩首脑会晤;韩朝首脑会晤=>zh-sg:南北韩首脑会晤;"
     },
     {
       "original": null,
-      "conv": "zh-cn:对朝政策;zh-tw:對北政策;zh-hk:對北政策;zh-mo:對北政策;zh-sg:对北政策;zh-my:对北政策"
+      "conv": "zh-cn:对朝政策;zh-tw:對北政策;zh-hk:對北政策;zh-mo:對北政策;zh-sg:对北政策;zh-my:对北政策;"
     },
     {
       "original": null,
-      "conv": "對朝政策=>zh-hk:對北政策;對朝政策=>zh-mo:對北政策;對朝政策=>zh-tw:對北政策;對朝政策=>zh-sg:对北政策;對朝政策=>zh-my:对北政策"
+      "conv": "對朝政策=>zh-hk:對北政策;對朝政策=>zh-mo:對北政策;對朝政策=>zh-tw:對北政策;對朝政策=>zh-sg:对北政策;對朝政策=>zh-my:对北政策;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜停战协定;zh-hant:朝鮮停戰協定"
+      "conv": "zh-hans:朝鲜停战协定;zh-hant:朝鮮停戰協定;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜共产党;zh-hant:朝鮮共產黨"
+      "conv": "zh-hans:朝鲜共产党;zh-hant:朝鮮共產黨;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜新民党;zh-hant:朝鮮新民黨"
+      "conv": "zh-hans:朝鲜新民党;zh-hant:朝鮮新民黨;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国光复军;zh-hant:韓國光復軍"
+      "conv": "zh-hans:韩国光复军;zh-hant:韓國光復軍;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜义勇队;zh-hant:朝鮮義勇隊"
+      "conv": "zh-hans:朝鲜义勇队;zh-hant:朝鮮義勇隊;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜劳动党;zh-hant:朝鮮勞動黨"
+      "conv": "zh-hans:朝鲜劳动党;zh-hant:朝鮮勞動黨;"
     },
     {
       "original": null,
-      "conv": "北韓勞動黨=>zh-cn:朝鲜劳动党;北韓勞動黨=>zh-tw:朝鮮勞動黨;北韩劳动党=>zh-cn:朝鲜劳动党;北韩劳动党=>zh-tw:朝鮮勞動黨;北韓勞動黨=>zh-sg:朝鲜劳动党;北韓勞動黨=>zh-hk:朝鮮勞動黨;北韩劳动党=>zh-sg:朝鲜劳动党;北韩劳动党=>zh-hk:朝鮮勞動黨;北韓勞動黨=>zh-my:朝鲜劳动党;北韓勞動黨=>zh-mo:朝鮮勞動黨;北韩劳动党=>zh-my:朝鲜劳动党;北韩劳动党=>zh-mo:朝鮮勞動黨"
+      "conv": "北韓勞動黨=>zh-cn:朝鲜劳动党;北韓勞動黨=>zh-tw:朝鮮勞動黨;北韩劳动党=>zh-cn:朝鲜劳动党;北韩劳动党=>zh-tw:朝鮮勞動黨;北韓勞動黨=>zh-sg:朝鲜劳动党;北韓勞動黨=>zh-hk:朝鮮勞動黨;北韩劳动党=>zh-sg:朝鲜劳动党;北韩劳动党=>zh-hk:朝鮮勞動黨;北韓勞動黨=>zh-my:朝鲜劳动党;北韓勞動黨=>zh-mo:朝鮮勞動黨;北韩劳动党=>zh-my:朝鲜劳动党;北韩劳动党=>zh-mo:朝鮮勞動黨;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜人民军;zh-hant:朝鮮人民軍"
+      "conv": "zh-hans:朝鲜人民军;zh-hant:朝鮮人民軍;"
     },
     {
       "original": null,
-      "conv": "北韓人民軍=>zh-cn:朝鲜人民军;北韓人民軍=>zh-tw:朝鮮人民軍;北韩人民军=>zh-cn:朝鲜人民军;北韩人民军=>zh-tw:朝鮮人民軍;北韓人民軍=>zh-sg:朝鲜人民军;北韓人民軍=>zh-hk:朝鮮人民軍;北韩人民军=>zh-sg:朝鲜人民军;北韩人民军=>zh-hk:朝鮮人民軍;北韓人民軍=>zh-my:朝鲜人民军;北韓人民軍=>zh-mo:朝鮮人民軍;北韩人民军=>zh-my:朝鲜人民军;北韩人民军=>zh-mo:朝鮮人民軍"
+      "conv": "北韓人民軍=>zh-cn:朝鲜人民军;北韓人民軍=>zh-tw:朝鮮人民軍;北韩人民军=>zh-cn:朝鲜人民军;北韩人民军=>zh-tw:朝鮮人民軍;北韓人民軍=>zh-sg:朝鲜人民军;北韓人民軍=>zh-hk:朝鮮人民軍;北韩人民军=>zh-sg:朝鲜人民军;北韩人民军=>zh-hk:朝鮮人民軍;北韓人民軍=>zh-my:朝鲜人民军;北韓人民軍=>zh-mo:朝鮮人民軍;北韩人民军=>zh-my:朝鲜人民军;北韩人民军=>zh-mo:朝鮮人民軍;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜银行;zh-hant:朝鮮銀行"
+      "conv": "zh-hans:朝鲜银行;zh-hant:朝鮮銀行;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国银行;zh-hant:韓國銀行"
+      "conv": "zh-hans:韩国银行;zh-hant:韓國銀行;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国铁道设施公团;zh-hant:韓國鐵道設施公團"
+      "conv": "zh-hans:韩国铁道设施公团;zh-hant:韓國鐵道設施公團;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮文學藝術總同盟;zh-hans:朝鲜文学艺术总同盟"
+      "conv": "zh-hant:朝鮮文學藝術總同盟;zh-hans:朝鲜文学艺术总同盟;"
     },
     {
       "original": null,
-      "conv": "zh-hans:旅日朝鲜人总联合会;zh-hant:旅日朝鮮人總聯合會"
+      "conv": "zh-hans:旅日朝鲜人总联合会;zh-hant:旅日朝鮮人總聯合會;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日朝鲜人总联合会;zh-hant:在日朝鮮人總聯合會"
+      "conv": "zh-hans:在日朝鲜人总联合会;zh-hant:在日朝鮮人總聯合會;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日本朝鲜人总联合会;zh-hant:在日本朝鮮人總聯合會"
+      "conv": "zh-hans:在日本朝鲜人总联合会;zh-hant:在日本朝鮮人總聯合會;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜总联;zh-hant:朝鮮總聯"
+      "conv": "zh-hans:朝鲜总联;zh-hant:朝鮮總聯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜电脑研究中心;zh-hant:朝鮮電腦研究中心"
+      "conv": "zh-hans:朝鲜电脑研究中心;zh-hant:朝鮮電腦研究中心;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜邮票博物馆;zh-hant:朝鮮郵票博物館"
+      "conv": "zh-hans:朝鲜邮票博物馆;zh-hant:朝鮮郵票博物館;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由韩国党;zh-hant:自由韓國黨"
+      "conv": "zh-hans:自由韩国党;zh-hant:自由韓國黨;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国石油公社;zh-hant:韓國石油公社"
+      "conv": "zh-hans:韩国石油公社;zh-hant:韓國石油公社;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国电力公社;zh-hant:韓國電力公社"
+      "conv": "zh-hans:韩国电力公社;zh-hant:韓國電力公社;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国水电与核电公司;zh-hant:韓國水電與核電公司"
+      "conv": "zh-hans:韩国水电与核电公司;zh-hant:韓國水電與核電公司;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国开发研究院;zh-hant:韓國開發研究院"
+      "conv": "zh-hans:韩国开发研究院;zh-hant:韓國開發研究院;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国科学技术院;zh-hant:韓國科學技術院"
+      "conv": "zh-hans:韩国科学技术院;zh-hant:韓國科學技術院;"
     },
     {
       "original": null,
@@ -509,303 +509,327 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜革命博物馆;zh-hant:朝鮮革命博物館"
+      "conv": "zh-hans:朝鲜革命博物馆;zh-hant:朝鮮革命博物館;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国航空宇宙产业;zh-hant:韓國航空宇宙產業"
+      "conv": "zh-hans:韩国航空宇宙产业;zh-hant:韓國航空宇宙產業;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜日报;zh-hant:朝鮮日報"
+      "conv": "zh-hans:朝鲜日报;zh-hant:朝鮮日報;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜中央;zh-hant:朝鮮中央"
+      "conv": "zh-hans:朝鲜中央;zh-hant:朝鮮中央;"
     },
     {
       "original": null,
-      "conv": "zh-hans:朝鲜中央通讯社;zh-hant:朝鮮中央通訊社"
+      "conv": "zh-hans:朝鲜中央通讯社;zh-hant:朝鮮中央通訊社;"
     },
     {
       "original": null,
-      "conv": "北韓中央通訊社=>zh-cn:朝鲜中央通讯社;北韓中央通訊社=>zh-tw:朝鮮中央通訊社;北韩中央通讯社=>zh-cn:朝鲜中央通讯社;北韩中央通讯社=>zh-tw:朝鮮中央通訊社;北韓中央通訊社=>zh-sg:朝鲜中央通讯社;北韓中央通訊社=>zh-hk:朝鮮中央通訊社;北韩中央通讯社=>zh-sg:朝鲜中央通讯社;北韩中央通讯社=>zh-hk:朝鮮中央通訊社;北韓中央通訊社=>zh-my:朝鲜中央通讯社;北韓中央通訊社=>zh-mo:朝鮮中央通訊社;北韩中央通讯社=>zh-my:朝鲜中央通讯社;北韩中央通讯社=>zh-mo:朝鮮中央通訊社"
+      "conv": "北韓中央通訊社=>zh-cn:朝鲜中央通讯社;北韓中央通訊社=>zh-tw:朝鮮中央通訊社;北韩中央通讯社=>zh-cn:朝鲜中央通讯社;北韩中央通讯社=>zh-tw:朝鮮中央通訊社;北韓中央通訊社=>zh-sg:朝鲜中央通讯社;北韓中央通訊社=>zh-hk:朝鮮中央通訊社;北韩中央通讯社=>zh-sg:朝鲜中央通讯社;北韩中央通讯社=>zh-hk:朝鮮中央通訊社;北韓中央通訊社=>zh-my:朝鲜中央通讯社;北韓中央通訊社=>zh-mo:朝鮮中央通訊社;北韩中央通讯社=>zh-my:朝鲜中央通讯社;北韩中央通讯社=>zh-mo:朝鮮中央通訊社;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮中央電視臺;zh-hans:朝鲜中央电视台;朝鮮中央電視台=>zh-cn:朝鲜中央电视台;朝鮮中央電視台=>zh-sg:朝鲜中央电视台;朝鮮中央電視台=>zh-my:朝鲜中央电视台"
+      "conv": "zh-hant:朝鮮中央電視臺;zh-hans:朝鲜中央电视台;朝鮮中央電視台=>zh-cn:朝鲜中央电视台;朝鮮中央電視台=>zh-sg:朝鲜中央电视台;朝鮮中央電視台=>zh-my:朝鲜中央电视台;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮中央廣播;zh-hans:朝鲜中央广播"
+      "conv": "zh-hant:朝鮮中央廣播;zh-hans:朝鲜中央广播;"
     },
     {
       "original": null,
-      "conv": "zh-hans:今日朝鲜;zh-hant:今日朝鮮"
+      "conv": "zh-hans:今日朝鲜;zh-hant:今日朝鮮;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國時報;zh-hans:韩国时报"
+      "conv": "zh-hant:韓國時報;zh-hans:韩国时报;"
     },
     {
       "original": null,
-      "conv": "zh-hant:自由韓國郵報;zh-hans:自由韩国邮报"
+      "conv": "zh-hant:自由韓國郵報;zh-hans:自由韩国邮报;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國日報;zh-hans:韩国日报"
+      "conv": "zh-hant:韓國日報;zh-hans:韩国日报;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國經濟新聞;zh-hans:韩国经济新闻"
+      "conv": "zh-hant:韓國經濟新聞;zh-hans:韩国经济新闻;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國聯合通訊社;zh-hans:韩国联合通讯社"
+      "conv": "zh-hant:韓國聯合通訊社;zh-hans:韩国联合通讯社;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國聯合新聞通訊社;zh-hans:韩国联合新闻通讯社"
+      "conv": "zh-hant:韓國聯合新聞通訊社;zh-hans:韩国联合新闻通讯社;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國放送公社;zh-hans:韩国放送公社"
+      "conv": "zh-hant:韓國放送公社;zh-hans:韩国放送公社;"
     },
     {
       "original": null,
-      "conv": "zh-hant:民主朝鮮;zh-hans:民主朝鲜"
+      "conv": "zh-hant:民主朝鮮;zh-hans:民主朝鲜;"
     },
     {
       "original": null,
-      "conv": "zh-hant:北韓-朝鮮經貿文化情報;zh-hans:北韩-朝鲜经贸文化情报"
+      "conv": "zh-hant:北韓-朝鮮經貿文化情報;zh-hans:北韩-朝鲜经贸文化情报;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮經貿文化情報DPRK;zh-hans:朝鲜经贸文化情报DPRK"
+      "conv": "zh-hant:朝鮮經貿文化情報DPRK;zh-hans:朝鲜经贸文化情报DPRK;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮通信;zh-hans:朝鲜通信"
+      "conv": "zh-hant:朝鮮通信;zh-hans:朝鲜通信;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮通訊;zh-hans:朝鲜通讯"
+      "conv": "zh-hant:朝鮮通訊;zh-hans:朝鲜通讯;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮記者聯盟;zh-hans:朝鲜记者联盟"
+      "conv": "zh-hant:朝鮮記者聯盟;zh-hans:朝鲜记者联盟;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮新報;zh-hans:朝鲜新报"
+      "conv": "zh-hant:朝鮮新報;zh-hans:朝鲜新报;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮之聲;zh-hans:朝鲜之声"
+      "conv": "zh-hant:朝鮮之聲;zh-hans:朝鲜之声;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮放送協會;zh-hans:朝鲜放送协会"
+      "conv": "zh-hant:朝鮮放送協會;zh-hans:朝鲜放送协会;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國國際廣播;zh-hans:韩国国际广播"
+      "conv": "zh-hant:韓國國際廣播;zh-hans:韩国国际广播;"
     },
     {
       "original": null,
-      "conv": "zh-hant:自由朝鮮;zh-hans:自由朝鲜"
+      "conv": "zh-hant:自由朝鮮;zh-hans:自由朝鲜;"
     },
     {
       "original": null,
-      "conv": "zh-hant:自由北韓;zh-hans:自由北韩"
+      "conv": "zh-hant:自由北韓;zh-hans:自由北韩;"
     },
     {
       "original": null,
-      "conv": "zh-hant:北韓改革放送;zh-hans:北韩改革放送"
+      "conv": "zh-hant:北韓改革放送;zh-hans:北韩改革放送;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮改革放送;zh-hans:朝鲜改革放送"
+      "conv": "zh-hant:朝鮮改革放送;zh-hans:朝鲜改革放送;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮族;zh-hans:朝鲜族"
+      "conv": "zh-hant:朝鮮族;zh-hans:朝鲜族;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮民族;zh-hans:朝鲜民族"
+      "conv": "zh-hant:朝鮮民族;zh-hans:朝鲜民族;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓民族;zh-hans:韩民族"
+      "conv": "zh-hant:韓民族;zh-hans:韩民族;"
     },
     {
       "original": null,
-      "conv": "zh-hant:在日朝鮮人;zh-hans:在日朝鲜人"
+      "conv": "zh-hant:在日朝鮮人;zh-hans:在日朝鲜人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日朝鲜人和韩国人;zh-hant:在日朝鮮人和韓國人"
+      "conv": "zh-hans:在日朝鲜人和韩国人;zh-hant:在日朝鮮人和韓國人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日朝鲜韩国人;zh-hant:在日朝鮮韓國人"
+      "conv": "zh-hans:在日朝鲜韩国人;zh-hant:在日朝鮮韓國人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日朝鲜、韩国人;zh-hant:在日朝鮮、韓國人"
+      "conv": "zh-hans:在日朝鲜、韩国人;zh-hant:在日朝鮮、韓國人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日韩国人和朝鲜人;zh-hant:在日韓國人和朝鮮人"
+      "conv": "zh-hans:在日韩国人和朝鲜人;zh-hant:在日韓國人和朝鮮人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日韩国朝鲜人;zh-hant:在日韓國朝鮮人"
+      "conv": "zh-hans:在日韩国朝鲜人;zh-hant:在日韓國朝鮮人;"
     },
     {
       "original": null,
-      "conv": "zh-hans:在日韩国、朝鲜人;zh-hant:在日韓國、朝鮮人"
+      "conv": "zh-hans:在日韩国、朝鲜人;zh-hant:在日韓國、朝鮮人;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮籍日本兵;zh-hans:朝鲜籍日本兵"
+      "conv": "zh-hant:朝鮮籍日本兵;zh-hans:朝鲜籍日本兵;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮半島;zh-hans:朝鲜半岛"
+      "conv": "zh-hant:朝鮮半島;zh-hans:朝鲜半岛;"
     },
     {
       "original": null,
-      "conv": "朝鮮半岛=>zh-cn:朝鲜半岛;朝鮮半岛=>zh-my:朝鲜半岛;朝鮮半岛=>zh-sg:朝鲜半岛;朝鮮半岛=>zh-tw:朝鮮半島;朝鮮半岛=>zh-hk:朝鮮半島;朝鮮半岛=>zh-mo:朝鮮半島"
+      "conv": "朝鮮半岛=>zh-cn:朝鲜半岛;朝鮮半岛=>zh-my:朝鲜半岛;朝鮮半岛=>zh-sg:朝鲜半岛;朝鮮半岛=>zh-tw:朝鮮半島;朝鮮半岛=>zh-hk:朝鮮半島;朝鮮半岛=>zh-mo:朝鮮半島;"
     },
     {
       "original": null,
-      "conv": "朝鲜半島=>zh-cn:朝鲜半岛;朝鲜半島=>zh-my:朝鲜半岛;朝鲜半島=>zh-sg:朝鲜半岛;朝鲜半島=>zh-tw:朝鮮半島;朝鲜半島=>zh-hk:朝鮮半島;朝鲜半島=>zh-mo:朝鮮半島"
+      "conv": "朝鲜半島=>zh-cn:朝鲜半岛;朝鲜半島=>zh-my:朝鲜半岛;朝鲜半島=>zh-sg:朝鲜半岛;朝鲜半島=>zh-tw:朝鮮半島;朝鲜半島=>zh-hk:朝鮮半島;朝鲜半島=>zh-mo:朝鮮半島;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮八道;zh-hans:朝鲜八道"
+      "conv": "zh-hant:朝鮮八道;zh-hans:朝鲜八道;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮海峽;zh-hans:朝鲜海峡"
+      "conv": "zh-hant:朝鮮海峽;zh-hans:朝鲜海峡;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮灣;zh-hans:朝鲜湾"
+      "conv": "zh-hant:朝鮮灣;zh-hans:朝鲜湾;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮西海;zh-hans:朝鲜西海"
+      "conv": "zh-hant:朝鮮西海;zh-hans:朝鲜西海;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮東海;zh-hans:朝鲜东海"
+      "conv": "zh-hant:韓國西海;zh-hans:韩国西海;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮字;zh-hans:朝鲜字"
+      "conv": "zh-hant:朝鮮東海;zh-hans:朝鲜东海;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮漢字;zh-hans:朝鲜汉字"
+      "conv": "zh-hant:韓國東海;zh-hans:韩国东海;"
     },
     {
       "original": null,
-      "conv": "韓文漢字=>zh-cn:朝鲜汉字;韩文汉字=>zh-cn:朝鲜汉字"
+      "conv": "zh-hant:朝鮮南海;zh-hans:朝鲜南海;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓語;zh-hans:韩语"
+      "conv": "zh-hant:韓國南海;zh-hans:韩国南海;"
     },
     {
       "original": null,
-      "conv": "zh-hant:韓國語;zh-hans:韩国语"
+      "conv": "zh-hant:韓國海;zh-hans:韩国海;"
     },
     {
       "original": null,
-      "conv": "朝鮮語=>zh-tw:韓語;朝鮮語=>zh-hk:韓語;朝鮮語=>zh-mo:韓語;朝鮮語=>zh-sg:韩语;朝鮮語=>zh-my:韩语"
+      "conv": "zh-hant:朝鮮字;zh-hans:朝鲜字;"
     },
     {
       "original": null,
-      "conv": "朝鲜语=>zh-tw:韓語;朝鲜语=>zh-hk:韓語;朝鲜语=>zh-mo:韓語;朝鲜语=>zh-sg:韩语;朝鲜语=>zh-my:韩语"
+      "conv": "zh-hant:朝鮮漢字;zh-hans:朝鲜汉字;"
     },
     {
       "original": null,
-      "conv": "zh-hans:中国朝鲜语;zh-hant:中國朝鮮語"
+      "conv": "韓文漢字=>zh-cn:朝鲜汉字;韩文汉字=>zh-cn:朝鲜汉字;"
     },
     {
       "original": null,
-      "conv": "朝鮮文=>zh-tw:韓文;朝鮮文=>zh-hk:韓文;朝鮮文=>zh-mo:韓文;朝鮮文=>zh-sg:韩文;朝鮮文=>zh-my:韩文"
+      "conv": "zh-hant:韓語;zh-hans:韩语;"
     },
     {
       "original": null,
-      "conv": "朝鲜文=>zh-tw:韓文;朝鲜文=>zh-hk:韓文;朝鲜文=>zh-mo:韓文;朝鲜文=>zh-sg:韩文;朝鲜文=>zh-my:韩文"
+      "conv": "zh-hant:韓國語;zh-hans:韩国语;"
     },
     {
       "original": null,
-      "conv": "zh-hans:中国朝鲜文;zh-hant:中國朝鮮文"
+      "conv": "朝鮮語=>zh-tw:韓語;朝鮮語=>zh-hk:韓語;朝鮮語=>zh-mo:韓語;朝鮮語=>zh-sg:韩语;朝鮮語=>zh-my:韩语;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮圓;zh-hans:朝鲜圆"
+      "conv": "朝鲜语=>zh-tw:韓語;朝鲜语=>zh-hk:韓語;朝鲜语=>zh-mo:韓語;朝鲜语=>zh-sg:韩语;朝鲜语=>zh-my:韩语;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮通信使;zh-hans:朝鲜通信使"
+      "conv": "zh-hans:中国朝鲜语;zh-hant:中國朝鮮語;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国天主教主教会议;zh-hant:韓國天主教主教會議"
+      "conv": "朝鮮文=>zh-tw:韓文;朝鮮文=>zh-hk:韓文;朝鮮文=>zh-mo:韓文;朝鮮文=>zh-sg:韩文;朝鮮文=>zh-my:韩文;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国贸易协会;zh-hant:韓國貿易協會"
+      "conv": "朝鲜文=>zh-tw:韓文;朝鲜文=>zh-hk:韓文;朝鲜文=>zh-mo:韓文;朝鲜文=>zh-sg:韩文;朝鲜文=>zh-my:韩文;"
     },
     {
       "original": null,
-      "conv": "南韩贸易协会=>zh-cn:韩国贸易协会;南韩贸易协会=>zh-my:韩国贸易协会;南韩贸易协会=>zh-sg:韩国贸易协会;南韩贸易协会=>zh-tw:韓國貿易協會;南韩贸易协会=>zh-hk:韓國貿易協會;南韩贸易协会=>zh-mo:韓國貿易協會"
+      "conv": "zh-hans:中国朝鲜文;zh-hant:中國朝鮮文;"
     },
     {
       "original": null,
-      "conv": "南韓貿易協會=>zh-cn:韩国贸易协会;南韓貿易協會=>zh-my:韩国贸易协会;南韓貿易協會=>zh-sg:韩国贸易协会;南韓貿易協會=>zh-tw:韓國貿易協會;南韓貿易協會=>zh-hk:韓國貿易協會;南韓貿易協會=>zh-mo:韓國貿易協會"
+      "conv": "zh-hant:朝鮮圓;zh-hans:朝鲜圆;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮名;zh-hans:朝鲜名"
+      "conv": "zh-hant:朝鮮通信使;zh-hans:朝鲜通信使;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮王陵;zh-hans:朝鲜王陵"
+      "conv": "zh-hans:韩国天主教主教会议;zh-hant:韓國天主教主教會議;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮實學;zh-hans:朝鲜实学"
+      "conv": "zh-hans:韩国贸易协会;zh-hant:韓國貿易協會;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮巫教;zh-hans:朝鲜巫教"
+      "conv": "南韩贸易协会=>zh-cn:韩国贸易协会;南韩贸易协会=>zh-my:韩国贸易协会;南韩贸易协会=>zh-sg:韩国贸易协会;南韩贸易协会=>zh-tw:韓國貿易協會;南韩贸易协会=>zh-hk:韓國貿易協會;南韩贸易协会=>zh-mo:韓國貿易協會;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮泡菜;zh-hans:朝鲜泡菜"
+      "conv": "南韓貿易協會=>zh-cn:韩国贸易协会;南韓貿易協會=>zh-my:韩国贸易协会;南韓貿易協會=>zh-sg:韩国贸易协会;南韓貿易協會=>zh-tw:韓國貿易協會;南韓貿易協會=>zh-hk:韓國貿易協會;南韓貿易協會=>zh-mo:韓國貿易協會;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮學校;zh-hans:朝鲜学校"
+      "conv": "zh-hant:朝鮮名;zh-hans:朝鲜名;"
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮語言文字日;zh-hans:朝鲜语言文字日"
+      "conv": "zh-hant:朝鮮王陵;zh-hans:朝鲜王陵;"
     },
     {
       "original": null,
-      "conv": "zh:太極旗飄揚;zh-hans:太极旗飘扬;zh-hant:太極旗－生死兄弟;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-mo:太極旗飄揚：生死有情"
+      "conv": "zh-hant:朝鮮實學;zh-hans:朝鲜实学;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩国瑜;zh-hant:韓國瑜"
+      "conv": "zh-hant:朝鮮巫教;zh-hans:朝鲜巫教;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:朝鮮泡菜;zh-hans:朝鲜泡菜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:朝鮮學;zh-hans:朝鲜学;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:韓國學;zh-hans:韩国学;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:朝鮮語言文字日;zh-hans:朝鲜语言文字日;"
+    },
+    {
+      "original": null,
+      "conv": "zh:太極旗飄揚;zh-hans:太极旗飘扬;zh-hant:太極旗－生死兄弟;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-mo:太極旗飄揚：生死有情;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韩国瑜;zh-hant:韓國瑜;"
     }
   ]
 }

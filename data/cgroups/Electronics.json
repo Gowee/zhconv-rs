@@ -5,623 +5,615 @@
   "rules": [
     {
       "original": "Acceptor",
-      "conv": "zh-tw:受體;zh-cn:受主"
+      "conv": "zh-tw:受體; zh-cn:受主"
     },
     {
       "original": "Active",
-      "conv": "zh-cn:有源;zh-tw:主動"
+      "conv": "zh-cn:有源; zh-tw:主動;"
     },
     {
       "original": "Active region",
-      "conv": "zh-cn:放大区;zh-tw:主動區"
+      "conv": "zh-cn:放大区; zh-tw:主動區;"
     },
     {
       "original": "ADC",
-      "conv": "zh-cn:模拟数字转换器;zh-hk:模擬數碼轉換器;zh-tw:類比數位轉換器"
+      "conv": "zh-cn:模拟数字转换器; zh-hk:模擬數碼轉換器; zh-tw:類比數位轉換器"
     },
     {
       "original": "Analog",
-      "conv": "zh-tw:類比;zh-cn:模拟;zh-hk:模擬"
+      "conv": "zh-tw:類比; zh-cn:模拟; zh-hk:模擬;"
     },
     {
       "original": "AND gate",
-      "conv": "zh-cn:与门;zh-hk:與門;zh-tw:及閘"
+      "conv": "zh-cn:与门; zh-hk:與門; zh-tw:及閘;"
     },
     {
       "original": "ASIC",
-      "conv": "zh-cn:专用集成电路;zh-tw:特殊應用積體電路"
+      "conv": "zh-cn:专用集成电路; zh-tw:特殊應用積體電路;"
     },
     {
       "original": "Avalanche breakdown",
-      "conv": "zh-tw:突崩潰;zh-cn:雪崩击穿"
+      "conv": "zh-tw:突崩潰; zh-cn:雪崩击穿;"
     },
     {
       "original": "Ballast",
-      "conv": "zh-cn:镇流器;zh-hk:鎮流器;zh-tw:安定器"
+      "conv": "zh-cn:镇流器; zh-hk:鎮流器; zh-tw:安定器;"
     },
     {
       "original": "Ballast",
-      "conv": "zh-cn:启辉器;zh-hk:士撻膽;zh-tw:啟動器"
+      "conv": "zh-cn:启辉器; zh-hk:士撻膽; zh-tw:啟動器;"
     },
     {
       "original": "Biasing",
-      "conv": "zh-cn:偏置;zh-tw:偏壓"
+      "conv": "zh-cn:偏置; zh-tw:偏壓;"
     },
     {
       "original": "Bit",
-      "conv": "zh-tw:位元;zh-cn:比特"
+      "conv": "zh-tw:位元; zh-cn:比特;"
     },
     {
       "original": "Boolean",
-      "conv": "zh-tw:布林;zh-cn:布尔;zh-hk:布林"
+      "conv": "zh-tw:布林; zh-cn:布尔; zh-hk:布林;"
     },
     {
       "original": "Breakdown voltage",
-      "conv": "zh-tw:崩潰電壓;zh-cn:击穿电压;zh-hk:擊穿電壓"
+      "conv": "zh-tw:崩潰電壓; zh-cn:击穿电压; zh-hk:擊穿電壓;"
     },
     {
       "original": "Carrier",
-      "conv": "zh-cn:载流子;zh-tw:載子"
+      "conv": "zh-cn:载流子; zh-tw:載子;"
     },
     {
       "original": "cache",
-      "conv": "zh-cn:缓存;zh-tw:快取;zh-hk:緩衝記憶體"
+      "conv": "zh-cn:缓存; zh-tw:快取; zh-hk:緩衝記憶體;"
     },
     {
       "original": "cache",
-      "conv": "高速缓存=>zh-tw:快取;高速缓存=>zh-hk:緩衝記憶體;高速缓存=>zh-mo:緩衝記憶體"
+      "conv": "高速缓存=>zh-tw:快取; 高速缓存=>zh-hk:緩衝記憶體; 高速缓存=>zh-mo:緩衝記憶體;"
     },
     {
       "original": "cache",
-      "conv": "緩存=>zh-tw:快取;緩存=>zh-hk:緩衝記憶體;緩存=>zh-mo:快取"
+      "conv": "緩存=>zh-tw:快取; 緩存=>zh-hk:緩衝記憶體; 緩存=>zh-mo:快取;"
     },
     {
       "original": "cache",
-      "conv": "高速緩存=>zh-tw:快取;高速緩存=>zh-hk:緩衝記憶體;高速緩存=>zh-mo:緩衝記憶體"
+      "conv": "高速緩存=>zh-tw:快取; 高速緩存=>zh-hk:緩衝記憶體; 高速緩存=>zh-mo:緩衝記憶體;"
     },
     {
       "original": "CFL (vulgar)",
-      "conv": "zh-cn:节能灯;zh-hk:慳電膽;zh-tw:省電燈泡"
+      "conv": "zh-cn:节能灯; zh-hk:慳電膽; zh-tw:省電燈泡;"
     },
     {
       "original": "Channel",
-      "conv": "zh-cn:沟道;zh-tw:通道"
+      "conv": "zh-cn:沟道; zh-tw:通道;"
     },
     {
       "original": "Clock gating",
-      "conv": "zh-cn:时钟门控;zh-tw:時脈閘控"
+      "conv": "zh-cn:时钟门控; zh-tw:時脈閘控;"
     },
     {
       "original": "Clock signal",
-      "conv": "zh-cn:时间脉冲信号;zh-tw:定時器訊號"
+      "conv": "zh-cn:时间脉冲信号; zh-tw:定時器訊號;"
     },
     {
       "original": "Collector",
-      "conv": "zh-cn:集电极;zh-tw:集極"
+      "conv": "zh-cn:集电极; zh-tw:集極;"
     },
     {
       "original": "Collector junction",
-      "conv": "集極接面=>zh-tw:集極接面;集極接面=>zh-cn:集电结"
+      "conv": "集極接面=>zh-tw:集極接面;集極接面=>zh-cn:集电结;"
     },
     {
       "original": "Collector junction",
-      "conv": "集电极结=>zh-cn:集电极结;集电极结=>zh-tw:集極接面"
-    },
-    {
-      "original": "Collector junction",
-      "conv": "集电结=>zh-cn:集电结;集电结=>zh-tw:集極接面"
+      "conv": "集电极结=>zh-cn:集电极结;集电极结=>zh-tw:集極接面;"
     },
     {
       "original": "Common-mode rejection ratio",
-      "conv": "zh-cn:共模抑制比;zh-tw:共模拒斥比"
+      "conv": "zh-cn:共模抑制比; zh-tw:共模拒斥比;"
     },
     {
       "original": "Compact fluorescent lamp",
-      "conv": "zh-cn:节能灯;zh-tw:省電燈泡"
+      "conv": "zh-cn:节能灯; zh-tw:省電燈泡;"
     },
     {
       "original": "Coordinate",
-      "conv": "zh-cn:坐标;zh-tw:座標"
+      "conv": "zh-cn:坐标; zh-tw:座標;"
     },
     {
       "original": "DAC",
-      "conv": "zh-cn:数字模拟转换器;zh-hk:數碼模擬轉換器;zh-tw:數位類比轉換器"
+      "conv": "zh-cn:数字模拟转换器; zh-hk:數碼模擬轉換器; zh-tw:數位類比轉換器"
     },
     {
       "original": "Depletion region",
-      "conv": "zh-cn:耗尽层;zh-tw:空乏層"
+      "conv": "zh-cn:耗尽层; zh-tw:空乏層"
     },
     {
       "original": "Device",
-      "conv": "zh-cn:器件;zh-tw:元件"
+      "conv": "zh-cn:器件; zh-tw:元件"
     },
     {
       "original": "Digital",
-      "conv": "zh-tw:數位;zh-cn:数字;zh-hk:數碼"
+      "conv": "zh-tw:數位; zh-cn:数字; zh-hk:數碼;"
     },
     {
       "original": "Depletion",
-      "conv": "zh-tw:空乏;zh-cn:耗尽;zh-hk:空乏"
+      "conv": "zh-tw:空乏; zh-cn:耗尽; zh-hk:空乏;"
     },
     {
       "original": "Diode",
-      "conv": "zh-tw:二極體;zh-cn:二极管"
+      "conv": "zh-tw:二極體; zh-cn:二极管"
     },
     {
       "original": "Discrete component",
-      "conv": "zh-cn:分立器件;zh-tw:離散元件"
+      "conv": "zh-cn:分立器件; zh-tw:離散元件;"
     },
     {
       "original": "Disk",
-      "conv": "zh-cn:磁盘;zh-tw:磁碟"
+      "conv": "zh-cn:磁盘; zh-tw:磁碟;"
     },
     {
       "original": "Donor",
-      "conv": "zh-tw:施體;zh-cn:施主"
+      "conv": "zh-tw:施體; zh-cn:施主"
     },
     {
       "original": "Drain",
-      "conv": "zh-tw:汲極;zh-cn:漏极"
+      "conv": "zh-tw:汲極; zh-cn:漏极"
     },
     {
       "original": "DSP",
-      "conv": "zh-tw:數位訊號處理器;zh-hk:數碼訊號處理器;zh-cn:数字信号处理器"
+      "conv": "zh-tw:數位訊號處理器; zh-hk:數碼訊號處理器; zh-cn:数字信号处理器;"
     },
     {
       "original": "Early effect",
-      "conv": "zh-tw:爾利效應;zh-cn:厄利效应"
+      "conv": "zh-tw:爾利效應; zh-cn:厄利效应;"
     },
     {
       "original": "Electrical ballast",
-      "conv": "zh-tw:安定器;zh-cn:镇流器"
+      "conv": "zh-tw:安定器; zh-cn:镇流器;"
     },
     {
       "original": "Electrical engineering",
-      "conv": "zh-tw:電機工程;zh-cn:电气工程"
+      "conv": "zh-tw:電機工程; zh-cn:电气工程;"
     },
     {
       "original": "Electron hole",
-      "conv": "zh-cn:空穴;zh-tw:電洞"
+      "conv": "zh-cn:空穴; zh-tw:電洞;"
     },
     {
       "original": "Electron mobility",
-      "conv": "zh-cn:电子迁移率;zh-tw:電子移動率"
+      "conv": "zh-cn:电子迁移率; zh-tw:電子移動率;"
     },
     {
       "original": "Emitter",
-      "conv": "zh-cn:发射极;zh-tw:射極"
+      "conv": "zh-cn:发射极; zh-tw:射極;"
     },
     {
       "original": "Emitter follower",
-      "conv": "zh-tw:射極隨耦器;zh-cn:射极跟随器"
+      "conv": "zh-tw:射極隨耦器; zh-cn:射极跟随器;"
     },
     {
       "original": "Emitter junction",
-      "conv": "射極接面=>zh-tw:射極接面;射極接面=>zh-cn:发射结"
+      "conv": "射極接面=>zh-tw:射極接面;射極接面=>zh-cn:发射结;"
     },
     {
       "original": "Emitter junction",
-      "conv": "发射极结=>zh-cn:发射极结;发射极结=>zh-tw:射極接面"
-    },
-    {
-      "original": "Emitter junction",
-      "conv": "发射结=>zh-cn:发射结;发射结=>zh-tw:射極接面"
+      "conv": "发射极结=>zh-cn:发射极结;发射极结=>zh-tw:射極接面;"
     },
     {
       "original": "Epitaxy",
-      "conv": "zh-tw:磊晶;zh-cn:外延"
+      "conv": "zh-tw:磊晶; zh-cn:外延;"
     },
     {
       "original": "Etching",
-      "conv": "zh-cn:刻蚀;zh-tw:蝕刻"
+      "conv": "zh-cn:刻蚀; zh-tw:蝕刻;"
     },
     {
       "original": "Excitation table",
-      "conv": "zh-cn:激励表;zh-tw:激發表"
+      "conv": "zh-cn:激励表; zh-tw:激發表;"
     },
     {
       "original": "Fairchild Semiconductor",
-      "conv": "zh-cn:飞兆半导体公司;zh-tw:快捷半導體公司;zh-hk:快捷半導體公司"
+      "conv": "zh-cn:飞兆半导体公司; zh-tw:快捷半導體公司; zh-hk:快捷半導體公司;"
     },
     {
       "original": "Feedback",
-      "conv": "zh-cn:反馈;zh-hk:反饋;zh-tw:回饋"
+      "conv": "zh-cn:反馈; zh-hk:反饋; zh-tw:回饋;"
     },
     {
       "original": "Firmware",
-      "conv": "zh-cn:固件;zh-tw:韌體"
+      "conv": "zh-cn:固件; zh-tw:韌體;"
     },
     {
       "original": "Fourteen-segment display",
-      "conv": "zh-cn:十四段数码管;zh-hk:十四劃管;zh-tw:十四段顯示器"
+      "conv": "zh-cn:十四段数码管; zh-hk:十四劃管; zh-tw:十四段顯示器;"
     },
     {
       "original": "Forward",
-      "conv": "zh-cn:正向;zh-tw:順向"
+      "conv": "zh-cn:正向; zh-tw:順向;"
     },
     {
       "original": "Flip-flop",
-      "conv": "zh-cn:触发器;zh-tw:正反器"
+      "conv": "zh-cn:触发器; zh-tw:正反器;"
     },
     {
       "original": "Gate",
-      "conv": "zh-tw:閘極;zh-cn:栅极"
+      "conv": "zh-tw:閘極; zh-cn:栅极"
     },
     {
       "original": "Gate circuit",
-      "conv": "zh-tw:閘電路;zh-cn:门电路;zh-hk:門電路"
+      "conv": "zh-tw:閘電路; zh-cn:门电路; zh-hk:門電路;"
     },
     {
       "original": "generator",
-      "conv": "zh-tw:產生器;zh-cn:发生器;zh-hk:發生器"
+      "conv": "zh-tw:產生器; zh-cn:发生器; zh-hk:發生器;"
     },
     {
       "original": "GlobalFoundries",
-      "conv": "zh-tw:格羅方德;zh-cn:格芯"
+      "conv": "zh-tw:格羅方德; zh-cn:格芯;"
     },
     {
       "original": "Hard baking??",
-      "conv": "zh-cn:硬烘干;zh-tw:硬烤"
+      "conv": "zh-cn:硬烘干; zh-tw:硬烤;"
     },
     {
       "original": "Heterojunction",
-      "conv": "zh-cn:异质结;zh-tw:異質接面"
+      "conv": "zh-cn:异质结; zh-tw:異質接面;"
     },
     {
       "original": "High-intensity discharge",
-      "conv": "zh-cn:金卤灯;zh-tw:高強度氣體放電燈"
+      "conv": "zh-cn:金卤灯; zh-tw:高強度氣體放電燈;"
     },
     {
       "original": "IGBT",
-      "conv": "zh-tw:絕緣閘雙極電晶體;zh-cn:绝缘栅双极晶体管"
+      "conv": "zh-tw:絕緣閘雙極電晶體; zh-cn:绝缘栅双极晶体管;"
     },
     {
       "original": "incandescent lamp",
-      "conv": "zh-cn:白炽灯;zh-tw:白熾燈;zh-hk:鎢絲膽;熱熾燈=>zh-cn:白炽灯;熱熾燈=>zh-hk:鎢絲膽;钨丝灯=>zh-hk:鎢絲膽;鎢絲燈=>zh-hk:鎢絲膽"
+      "conv": "zh-cn:白炽灯; zh-tw:白熾燈; zh-hk:鎢絲膽; 熱熾燈=>zh-cn:白炽灯; 熱熾燈=>zh-hk:鎢絲膽; 钨丝灯=>zh-hk:鎢絲膽; 鎢絲燈=>zh-hk:鎢絲膽;"
     },
     {
       "original": "Integrated circuit",
-      "conv": "zh-tw:積體電路;zh-cn:集成电路;zh-hk:集成電路"
+      "conv": "zh-tw:積體電路; zh-cn:集成电路; zh-hk:集成電路;"
     },
     {
       "original": "Interface",
-      "conv": "zh-tw:介面;zh-cn:接口"
+      "conv": "zh-tw:介面; zh-cn:接口;"
     },
     {
       "original": "IP core",
-      "conv": "zh-tw:矽智財;zh-cn:IP核"
+      "conv": "zh-tw:矽智財; zh-cn:IP核;"
     },
     {
       "original": "JFET",
-      "conv": "zh-tw:接面場效電晶體;zh-cn:结型场效应管"
+      "conv": "zh-tw:接面場效電晶體; zh-cn:结型场效应管;"
     },
     {
       "original": "Junctional",
-      "conv": "zh-cn:结型;zh-tw:接面型"
+      "conv": "zh-cn:结型; zh-tw:接面型;"
     },
     {
       "original": "Laser",
-      "conv": "zh-cn:激光;zh-hk:激光;zh-tw:雷射"
+      "conv": "zh-cn:激光; zh-hk:激光; zh-tw:雷射;"
     },
     {
       "original": "Latch",
-      "conv": "zh-cn:锁存器;zh-hk:鎖存器;zh-tw:閂鎖"
+      "conv": "zh-cn:锁存器; zh-hk:鎖存器; zh-tw:閂鎖;"
     },
     {
       "original": "logic device",
-      "conv": "zh-cn:逻辑器件;zh-tw:邏輯裝置"
+      "conv": "zh-cn:逻辑器件; zh-tw:邏輯裝置;"
     },
     {
       "original": "Logic gate",
-      "conv": "zh-tw:邏輯閘;zh-cn:逻辑门;zh-hk:邏輯門"
+      "conv": "zh-tw:邏輯閘; zh-cn:逻辑门; zh-hk:邏輯門;"
     },
     {
       "original": "LSI",
-      "conv": "zh-cn:大规模集成电路;zh-tw:大型積體電路"
+      "conv": "zh-cn:大规模集成电路; zh-tw:大型積體電路;"
     },
     {
       "original": "Mask",
-      "conv": "zh-cn:掩模;zh-tw:光罩"
+      "conv": "zh-cn:掩模; zh-tw:光罩;"
     },
     {
       "original": "Microcontroller",
-      "conv": "单片机=>zh-tw:微控制器"
+      "conv": "单片机=>zh-tw:微控制器;"
     },
     {
       "original": "Mixed-singal",
-      "conv": "zh-tw:混訊;zh-cn:混合信号"
+      "conv": "zh-tw:混訊; zh-cn:混合信号;"
     },
     {
       "original": "Mixed-singal integrated circuits",
-      "conv": "zh-tw:混合訊號積體電路;zh-cn:混合信号集成电路"
+      "conv": "zh-tw:混合訊號積體電路; zh-cn:混合信号集成电路;"
     },
     {
       "original": "Modulation",
-      "conv": "zh-tw:調變;zh-cn:调制"
+      "conv": "zh-tw:調變; zh-cn:调制;"
     },
     {
       "original": "MOSFET",
-      "conv": "zh-cn:金属氧化物半导体场效应管;zh-tw:金屬氧化物半導體場效電晶體"
+      "conv": "zh-cn:金属氧化物半导体场效应管; zh-tw:金屬氧化物半導體場效電晶體;"
     },
     {
       "original": "Multivibrator",
-      "conv": "zh-cn:多谐振荡器;zh-tw:複振器"
+      "conv": "zh-cn:多谐振荡器; zh-tw:複振器;"
     },
     {
       "original": "Multiplexer",
-      "conv": "zh-cn:数据选择器;zh-tw:數據多工器"
+      "conv": "zh-cn:数据选择器; zh-tw:數據多工器;"
     },
     {
       "original": "NAND gate",
-      "conv": "zh-cn:与非门;zh-hk:與非門;zh-tw:反及閘"
+      "conv": "zh-cn:与非门; zh-hk:與非門; zh-tw:反及閘;"
     },
     {
       "original": "NAND logic",
-      "conv": "zh-cn:与非逻辑;zh-hk:與非邏輯;zh-tw:反及邏輯"
+      "conv": "zh-cn:与非逻辑; zh-hk:與非邏輯; zh-tw:反及邏輯;"
     },
     {
       "original": "NOR gate",
-      "conv": "zh-cn:或非门;zh-hk:或非門;zh-tw:反或閘"
+      "conv": "zh-cn:或非门; zh-hk:或非門; zh-tw:反或閘;"
     },
     {
       "original": "NOR logic",
-      "conv": "zh-cn:或非逻辑;zh-hk:或非邏輯;zh-tw:反或邏輯"
+      "conv": "zh-cn:或非逻辑; zh-hk:或非邏輯; zh-tw:反或邏輯;"
     },
     {
       "original": "NOT gate gate",
-      "conv": "zh-cn:非门;zh-hk:非門;zh-tw:反閘"
+      "conv": "zh-cn:非门; zh-hk:非門; zh-tw:反閘;"
     },
     {
       "original": "Noise",
-      "conv": "zh-tw:雜訊;zh-cn:噪声"
+      "conv": "zh-tw:雜訊; zh-cn:噪声;"
     },
     {
       "original": "Nine-segment display",
-      "conv": "zh-cn:九段数码管;zh-hk:九劃管;zh-tw:九段顯示器"
+      "conv": "zh-cn:九段数码管; zh-hk:九劃管; zh-tw:九段顯示器;"
     },
     {
       "original": "OR gate",
-      "conv": "zh-cn:或门;zh-hk:或門;zh-tw:或閘"
+      "conv": "zh-cn:或门; zh-hk:或門; zh-tw:或閘;"
     },
     {
       "original": "Passive filter",
-      "conv": "zh-tw:被動式濾波器;zh-cn:无源滤波器"
+      "conv": "zh-tw:被動式濾波器; zh-cn:无源滤波器;"
     },
     {
       "original": "Photodiode",
-      "conv": "zh-tw:光電二極體;zh-cn:光电二极管"
+      "conv": "zh-tw:光電二極體; zh-cn:光电二极管;"
     },
     {
       "original": "Photolithography",
-      "conv": "zh-cn:光刻;zh-tw:微影"
+      "conv": "zh-cn:光刻; zh-tw:微影;"
     },
     {
       "original": "Photoresist",
-      "conv": "zh-cn:光刻胶;zh-tw:光阻劑"
+      "conv": "zh-cn:光刻胶; zh-tw:光阻劑;"
     },
     {
       "original": "Photovoltaics",
-      "conv": "zh-tw:太陽能光電;zh-cn:太阳能光伏"
+      "conv": "zh-tw:太陽能光電; zh-cn:太阳能光伏;"
     },
     {
       "original": "Photovoltaics",
-      "conv": "zh-tw:太陽能光電;zh-cn:光伏"
+      "conv": "zh-tw:太陽能光電; zh-cn:光伏;"
     },
     {
       "original": "Photomask",
-      "conv": "zh-cn:光掩模;zh-tw:光罩"
+      "conv": "zh-cn:光掩模; zh-tw:光罩;"
     },
     {
       "original": "Pinch off",
-      "conv": "zh-cn:夹断;zh-tw:夹止"
+      "conv": "zh-cn:夹断; zh-tw:夹止;"
     },
     {
       "original": "PN junction",
-      "conv": "zh-cn:PN结;zh-tw:PN接面"
+      "conv": "zh-cn:PN结; zh-tw:PN接面;"
     },
     {
       "original": "PN junction",
-      "conv": "zh-cn:P-N结;zh-tw:P-N接面"
+      "conv": "zh-cn:P-N结; zh-tw:P-N接面;"
     },
     {
       "original": "Power factor",
-      "conv": "zh-cn:功率因数;zh-hk:功率因數;zh-tw:功率因素"
+      "conv": "zh-cn:功率因数; zh-hk:功率因數; zh-tw:功率因素;"
     },
     {
       "original": "Power inverter",
-      "conv": "zh-cn:逆变器;zh-tw:變流器"
+      "conv": "zh-cn:逆变器; zh-tw:變流器;"
     },
     {
       "original": "Power inverter",
-      "conv": "zh-cn:逆變器;zh-tw:變流器"
+      "conv": "zh-cn:逆變器; zh-tw:變流器;"
     },
     {
       "original": "Power inverter",
-      "conv": "zh-cn:脉冲逆变器;zh-tw:變流器"
+      "conv": "zh-cn:脉冲逆变器; zh-tw:變流器;"
     },
     {
       "original": "Power line frequency",
-      "conv": "zh-cn:工频;zh-tw:電源頻率"
+      "conv": "zh-cn:工频; zh-tw:電源頻率;"
     },
     {
       "original": "Program",
-      "conv": "zh-cn:程序;zh-tw:程式"
+      "conv": "zh-cn:程序; zh-tw:程式;"
     },
     {
       "original": "programmable",
-      "conv": "zh-cn:可编程;zh-tw:可程式化"
+      "conv": "zh-cn:可编程; zh-tw:可程式化;"
     },
     {
       "original": "Programmable Array Logic",
-      "conv": "zh-cn:可编程阵列逻辑;zh-tw:可程式化陣列邏輯"
+      "conv": "zh-cn:可编程阵列逻辑; zh-tw:可程式化陣列邏輯;"
     },
     {
       "original": "Programmable Gate Array",
-      "conv": "zh-cn:可编程逻辑门阵列;zh-tw:可程式化邏輯閘陣列"
+      "conv": "zh-cn:可编程逻辑门阵列; zh-tw:可程式化邏輯閘陣列;"
     },
     {
       "original": "Programmable Logic Array",
-      "conv": "zh-cn:可编程逻辑阵列;zh-tw:可程式化邏輯陣列"
+      "conv": "zh-cn:可编程逻辑阵列; zh-tw:可程式化邏輯陣列;"
     },
     {
       "original": "Process",
-      "conv": "zh-cn:工艺;zh-tw:製程"
+      "conv": "zh-cn:工艺; zh-tw:製程;"
     },
     {
       "original": "Protective relay",
-      "conv": "zh-cn:保护继电器;zh-tw:保護電驛"
+      "conv": "zh-cn:保护继电器; zh-tw:保護電驛;"
     },
     {
       "original": "Race harzard",
-      "conv": "zh-cn:竞争冒险;zh-tw:競爭危害"
+      "conv": "zh-cn:竞争冒险; zh-tw:競爭危害;"
     },
     {
       "original": "RAM",
-      "conv": "zh-cn:只读存储器;zh-tw:唯讀記憶體"
+      "conv": "zh-cn:只读存储器; zh-tw:唯讀記憶體;"
     },
     {
       "original": "Reverse",
-      "conv": "zh-cn:反向;zh-tw:逆向"
+      "conv": "zh-cn:反向; zh-tw:逆向;"
     },
     {
       "original": "Reconfigurable computing",
-      "conv": "zh-cn:可重构计算;zh-tw:可重組計算"
+      "conv": "zh-cn:可重构计算; zh-tw:可重組計算;"
     },
     {
       "original": "Ripple",
-      "conv": "zh-cn:纹波;zh-tw:漣波"
+      "conv": "zh-cn:纹波; zh-tw:漣波;"
     },
     {
       "original": "Sampling",
-      "conv": "zh-cn:采样;zh-tw:抽樣;zh-tw:取樣"
+      "conv": "zh-cn:采样; zh-tw:抽樣; zh-tw:取樣;"
     },
     {
       "original": "Scalar",
-      "conv": "zh-cn:标量;zh-tw:純量"
+      "conv": "zh-cn:标量; zh-tw:純量;"
     },
     {
       "original": "Schmitt trigger",
-      "conv": "zh-cn:施密特触发器;zh-tw:施密特觸發器"
+      "conv": "zh-cn:施密特触发器; zh-tw:施密特觸發器;"
     },
     {
       "original": "Schottky",
-      "conv": "zh-tw:蕭特基;zh-cn:肖特基"
+      "conv": "zh-tw:蕭特基; zh-cn:肖特基;"
     },
     {
       "original": "Sensor",
-      "conv": "zh-hans:传感器;zh-hant:感測器"
+      "conv": "zh-hans:传感器; zh-hant:感測器;"
     },
     {
       "original": "Sequential logic",
-      "conv": "zh-hans:时序逻辑;zh-hant:序向邏輯"
+      "conv": "zh-hans:时序逻辑; zh-hant:序向邏輯;"
     },
     {
       "original": "Seven-segment display",
-      "conv": "zh-cn:七段数码管;zh-hk:七劃管;zh-tw:七段顯示器"
+      "conv": "zh-cn:七段数码管; zh-hk:七劃管; zh-tw:七段顯示器;"
     },
     {
       "original": "shield",
-      "conv": "zh-cn:屏蔽;zh-tw:遮蔽"
+      "conv": "zh-cn:屏蔽; zh-tw:遮蔽;"
     },
     {
       "original": "Silicon controlled rectifier",
-      "conv": "zh-cn:可控硅;zh-tw:矽控整流器"
+      "conv": "zh-cn:可控硅; zh-tw:矽控整流器;"
     },
     {
       "original": "signal",
-      "conv": "zh-cn:信号;zh-tw:訊號;zh-hk:訊號;信號=>zh-mo:訊號"
+      "conv": "zh-cn:信号; zh-tw:訊號;zh-hk:訊號; 信號=>zh-mo:訊號;"
     },
     {
       "original": "Silicon",
-      "conv": "zh-tw:矽;zh-cn:硅"
+      "conv": "zh-tw:矽; zh-cn:硅;"
     },
     {
       "original": "Sine signal",
-      "conv": "zh-cn:正弦信号;zh-tw:正弦訊號"
+      "conv": "zh-cn:正弦信号; zh-tw:正弦訊號;"
     },
     {
       "original": "Sixteen-segment display",
-      "conv": "zh-cn:十六段数码管;zh-hk:十六劃管;zh-tw:十六段顯示器"
+      "conv": "zh-cn:十六段数码管; zh-hk:十六劃管; zh-tw:十六段顯示器;"
     },
     {
       "original": "Soft baking??",
-      "conv": "zh-cn:软烘干;zh-tw:軟烤"
+      "conv": "zh-cn:软烘干; zh-tw:軟烤;"
     },
     {
       "original": "Starting",
-      "conv": "zh-cn:启辉器;zh-tw:啟動器"
+      "conv": "zh-cn:启辉器; zh-tw:啟動器;"
     },
     {
       "original": "Substrate",
-      "conv": "zh-cn:衬底;zh-tw:基板"
+      "conv": "zh-cn:衬底; zh-tw:基板;"
     },
     {
       "original": "Subthreshold",
-      "conv": "zh-cn:亚阈值;zh-tw:次臨界"
+      "conv": "zh-cn:亚阈值; zh-tw:次臨界"
     },
     {
       "original": "Superposition theorem",
-      "conv": "zh-cn:叠加定理;zh-tw:重疊定理"
+      "conv": "zh-cn:叠加定理; zh-tw:重疊定理;"
     },
     {
       "original": "System on a chip, SoC",
-      "conv": "zh-cn:单片系统;zh-tw:單晶片系統"
+      "conv": "zh-cn:单片系统; zh-tw:單晶片系統;"
     },
     {
       "original": "System in package, SiP",
-      "conv": "zh-cn:封装内系统;zh-tw:封裝體系"
+      "conv": "zh-cn:封装内系统; zh-tw:封裝體系;"
     },
     {
       "original": "TSM(C)",
-      "conv": "zh-hans:台湾积体电路制造;zh-hant:台灣積體電路製造"
+      "conv": "zh-hans:台湾积体电路制造; zh-hant:台灣積體電路製造;"
     },
     {
       "original": "Transmission gate",
-      "conv": "zh-cn:传输门;zh-hk:傳輸門;zh-tw:傳輸閘"
+      "conv": "zh-cn:传输门; zh-hk:傳輸門; zh-tw:傳輸閘;"
     },
     {
       "original": "Transistor",
-      "conv": "zh-cn:晶体管;zh-tw:電晶體"
+      "conv": "zh-cn:晶体管; zh-tw:電晶體;"
     },
     {
       "original": "Thrystor",
-      "conv": "zh-cn:晶闸管;zh-tw:閘流體"
+      "conv": "zh-cn:晶闸管; zh-tw:閘流體;"
     },
     {
       "original": "Utility frequency",
-      "conv": "zh-cn:工频;zh-tw:電源頻率"
+      "conv": "zh-cn:工频; zh-tw:電源頻率;"
     },
     {
       "original": "VLSI",
-      "conv": "zh-cn:超大规模集成电路;zh-tw:超大型積體電路"
+      "conv": "zh-cn:超大规模集成电路; zh-tw:超大型積體電路;"
     },
     {
       "original": "Universal motor",
-      "conv": "zh-cn:单相串励电动机;zh-tw:交流整流子電動機"
+      "conv": "zh-cn:单相串励电动机; zh-tw:交流整流子電動機;"
     },
     {
       "original": "XNOR gate",
-      "conv": "zh-cn:同或门;zh-hk:同或門;zh-tw:反互斥或閘"
+      "conv": "zh-cn:同或门; zh-hk:同或門; zh-tw:反互斥或閘;"
     },
     {
       "original": "XNOR logic",
-      "conv": "zh-cn:同或逻辑;zh-hk:同或邏輯;zh-tw:反互斥或邏輯"
+      "conv": "zh-cn:同或逻辑; zh-hk:同或邏輯; zh-tw:反互斥或邏輯;"
     },
     {
       "original": "XOR",
-      "conv": "zh-cn:异或;zh-hk:異或;zh-tw:互斥或"
+      "conv": "zh-cn:异或; zh-hk:異或; zh-tw:互斥或;"
     },
     {
       "original": "XOR gate",
-      "conv": "zh-cn:异或门;zh-hk:異或門;zh-tw:互斥或閘"
+      "conv": "zh-cn:异或门; zh-hk:異或門; zh-tw:互斥或閘;"
     },
     {
       "original": "XOR logic",
-      "conv": "zh-cn:异或逻辑;zh-hk:異或邏輯;zh-tw:互斥或邏輯"
+      "conv": "zh-cn:异或逻辑; zh-hk:異或邏輯; zh-tw:互斥或邏輯;"
     },
     {
       "original": "Zener diode",
-      "conv": "zh-cn:齐纳二极管;zh-hk:齊納二極體;zh-tw:稽納二極體"
+      "conv": "zh-cn:齐纳二极管;  zh-hk:齊納二極體;  zh-tw:稽納二極體;"
     }
   ]
 }

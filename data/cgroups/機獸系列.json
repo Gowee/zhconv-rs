@@ -1,235 +1,231 @@
 {
   "name": "機獸系列",
-  "description": "機獸系列",
+  "description": "-{zh-cn:索斯机兽系列;zh-tw:機獸系列;zh-hk:索斯機械獸系列;}-",
   "path": "Module:CGroup/機獸系列",
   "rules": [
     {
-      "original": "ゾイド",
-      "conv": "zh-cn:索斯机兽系列;zh-tw:機獸系列;zh-hk:索斯機械獸系列"
-    },
-    {
       "original": "ゾイド -ZOIDS-",
-      "conv": "zh-cn:机兽新世纪ZOIDS;zh-tw:機獸新世紀ZOIDS;zh-hk:索斯機械獸"
+      "conv": "zh-cn:机兽新世纪ZOIDS;zh-tw:機獸新世紀ZOIDS;zh-hk:索斯機械獸;"
     },
     {
       "original": "ゾイド新世紀スラッシュゼロ",
-      "conv": "zh-cn:机兽新世纪ZERO;zh-tw:機獸新世紀ZERO;zh-hk:索斯機械獸III"
+      "conv": "zh-cn:机兽新世纪ZERO;zh-tw:機獸新世紀ZERO;zh-hk:索斯機械獸III;"
     },
     {
       "original": "ゾイドフューザーズ",
-      "conv": "zh-cn:机兽超世纪;zh-tw:機獸超世紀;zh-hk:索斯機械獸IV"
+      "conv": "zh-cn:机兽超世纪;zh-tw:機獸超世紀;zh-hk:索斯機械獸IV;"
     },
     {
       "original": "ゾイドジェネシス",
-      "conv": "zh-cn:机兽创世纪;zh-tw:機獸創世紀;zh-hk:索斯機械獸V"
+      "conv": "zh-cn:机兽创世纪;zh-tw:機獸創世紀;zh-hk:索斯機械獸V;"
     },
     {
       "original": "ゾイドワイルド",
-      "conv": "zh-cn:索斯机兽：荒野纪;zh-tw:機獸戰記 狂野爆發;zh-hk:索斯機械獸WILD"
+      "conv": "zh:索斯機械獸WILD; zh-cn:索斯机兽：荒野纪;zh-tw:機獸戰記 狂野爆發;zh-hk:索斯機械獸 激戰本能;"
     },
     {
-      "original": "ゾイドワイルド",
-      "conv": "zh-cn:索斯机兽：荒野纪 ZERO;zh-tw:機獸戰記ZERO;zh-hk:索斯機械獸WILD ZERO"
+      "original": "ゾイドワイルドZERO",
+      "conv": "zh:索斯機械獸WILD ZERO; zh-cn:索斯机兽：荒野纪 ZERO;zh-tw:機獸戰記ZERO;zh-hk:索斯機械獸 激戰本能 ZERO;"
     },
     {
       "original": "ゾイド",
-      "conv": "zh-cn:洛伊德;zh-tw:洛伊德;zh-hk:索斯獸"
+      "conv": "zh-cn:洛伊德;zh-tw:洛伊德;zh-hk:索斯獸;"
     },
     {
       "original": "古代ゾイド人",
-      "conv": "zh-cn:古代洛伊德人;zh-tw:古代洛伊德人;zh-hk:古代索斯人"
+      "conv": "zh-cn:古代洛伊德人; zh-tw:古代洛伊德人; zh-hk:古代索斯人;"
     },
     {
       "original": "ゾイドイヴ",
-      "conv": "zh-cn:洛伊德伊普;zh-tw:洛伊德伊普;zh-hk:索斯獸醫"
+      "conv": "zh-cn:洛伊德伊普; zh-tw:洛伊德伊普; zh-hk:索斯獸醫;"
     },
     {
       "original": "ガーディアンフォース",
-      "conv": "zh-cn:守护者力量;zh-tw:守護者武力;zh-hk:守護者力量"
+      "conv": "zh-cn:守护者力量; zh-tw:守護者武力; zh-hk:守護者力量;"
     },
     {
       "original": "オーガノイド",
-      "conv": "zh-cn:欧卡诺伊多;zh-tw:歐卡諾伊多;zh-hk:奧卡度"
+      "conv": "zh-cn:欧卡诺伊多; zh-tw:歐卡諾伊多; zh-hk:奧卡度;"
     },
     {
       "original": "バン",
-      "conv": "zh-cn:小邦;zh-tw:小邦;zh-hk:彬仔"
+      "conv": "zh-cn:小邦; zh-tw:小邦; zh-hk:彬仔;"
     },
     {
       "original": "バン・",
-      "conv": "zh-cn:邦·;zh-tw:邦·;zh-hk:彬·"
+      "conv": "zh-cn:邦·; zh-tw:邦·; zh-hk:彬·;"
     },
     {
       "original": "エレシーヌ",
-      "conv": "zh-cn:爱蕾席;zh-tw:愛蕾席;zh-hk:艾莉絲"
+      "conv": "zh-cn:爱蕾席; zh-tw:愛蕾席; zh-hk:艾莉絲;"
     },
     {
       "original": "リネ",
-      "conv": "zh-cn:利芮;zh-tw:利芮;zh-hk:蘿莉"
+      "conv": "zh-cn:利芮; zh-tw:利芮; zh-hk:蘿莉;"
     },
     {
       "original": "アーバイン",
-      "conv": "zh-cn:阿帕因;zh-tw:阿帕因;zh-hk:阿巴恩"
+      "conv": "zh-cn:阿帕因; zh-tw:阿帕因; zh-hk:阿巴恩;"
     },
     {
       "original": "ムンベイ",
-      "conv": "zh-cn:慕蓓;zh-tw:慕蓓;zh-hk:毛美"
+      "conv": "zh-cn:慕蓓; zh-tw:慕蓓; zh-hk:毛美;"
     },
     {
       "original": "ロブ",
-      "conv": "zh-cn:罗柏;zh-tw:羅柏;zh-hk:羅布"
+      "conv": "zh-cn:罗柏; zh-tw:羅柏; zh-hk:羅布;"
     },
     {
       "original": "ハーマン",
-      "conv": "zh-cn:哈曼;zh-tw:哈曼;zh-hk:下文"
+      "conv": "zh-cn:哈曼; zh-tw:哈曼; zh-hk:下文;"
     },
     {
       "original": "ルイーズ",
-      "conv": "zh-cn:路易丝;zh-tw:路易絲;zh-hk:露爾絲"
+      "conv": "zh-cn:路易丝; zh-tw:路易絲; zh-hk:露爾絲;"
     },
     {
       "original": "クルーガー",
-      "conv": "zh-cn:库鲁卡;zh-tw:庫爾卡;zh-hk:古洛加"
+      "conv": "zh-cn:库鲁卡; zh-tw:庫爾卡; zh-hk:古洛加;"
     },
     {
       "original": "オコーネル",
-      "conv": "zh-cn:欧科尼尔;zh-tw:歐可尼爾;zh-hk:阿哥尼"
+      "conv": "zh-cn:欧科尼尔; zh-tw:歐可尼爾; zh-hk:阿哥尼;"
     },
     {
       "original": "レイヴン",
-      "conv": "zh-cn:雷温;zh-tw:雷溫;zh-hk:尼本"
+      "conv": "zh-cn:雷温; zh-tw:雷溫; zh-hk:尼本;"
     },
     {
       "original": "シュバルツ",
-      "conv": "zh-cn:修巴鲁兹;zh-tw:修巴魯茲;zh-hk:史畢諾"
+      "conv": "zh-cn:修巴鲁兹; zh-tw:修巴魯茲; zh-hk:史畢諾;"
     },
     {
       "original": "ルドルフ",
-      "conv": "zh-cn:鲁道夫;zh-tw:魯道夫;zh-hk:尼路尼夫"
+      "conv": "zh-cn:鲁道夫; zh-tw:魯道夫; zh-hk:尼路尼夫;"
     },
     {
       "original": "ツェッペリン",
-      "conv": "zh-cn:契佩林;zh-tw:契佩林;zh-hk:朱比烈"
+      "conv": "zh-cn:契佩林; zh-tw:契佩林; zh-hk:朱比烈;"
     },
     {
       "original": "ホマレフ",
-      "conv": "zh-cn:霍马雷夫;zh-tw:荷馬雷夫;zh-hk:荷文"
+      "conv": "zh-cn:霍马雷夫; zh-tw:荷馬雷夫; zh-hk:荷文;"
     },
     {
       "original": "プロイツェン",
-      "conv": "zh-cn:普罗因兹;zh-tw:普羅因茲;zh-hk:白洛伊"
+      "conv": "zh-cn:普罗因兹; zh-tw:普羅因茲; zh-hk:白洛伊;"
     },
     {
       "original": "マルクス",
-      "conv": "zh-cn:马鲁克斯;zh-tw:馬魯克斯;zh-hk:麥魯古"
+      "conv": "zh-cn:马鲁克斯; zh-tw:馬魯克斯; zh-hk:麥魯古;"
     },
     {
       "original": "ラルフ",
-      "conv": "zh-cn:拉尔夫;zh-tw:拉爾夫;zh-hk:納魯"
+      "conv": "zh-cn:拉尔夫; zh-tw:拉爾夫; zh-hk:納魯;"
     },
     {
       "original": "ロッソ",
-      "conv": "zh-cn:罗素;zh-tw:羅素;zh-hk:羅蘇"
+      "conv": "zh-cn:罗素; zh-tw:羅素; zh-hk:羅蘇;"
     },
     {
       "original": "ヴィオーラ",
-      "conv": "zh-cn:薇欧拉;zh-tw:薇歐拉;zh-hk:胡奧娜"
+      "conv": "zh-cn:薇欧拉; zh-tw:薇歐拉; zh-hk:胡奧娜;"
     },
     {
       "original": "ローザ",
-      "conv": "zh-cn:罗莎;zh-tw:羅莎;zh-hk:莉莎"
+      "conv": "zh-cn:罗莎; zh-tw:羅莎; zh-hk:莉莎;"
     },
     {
       "original": "トーマ",
-      "conv": "zh-cn:托马;zh-tw:多馬;zh-hk:湯馬士"
+      "conv": "zh-cn:托马; zh-tw:多馬; zh-hk:湯馬士;"
     },
     {
       "original": "ビーク",
-      "conv": "zh-cn:比克;zh-tw:比克;zh-hk:比古"
+      "conv": "zh-cn:比克; zh-tw:比克; zh-hk:比古;"
     },
     {
       "original": "メリーアン",
-      "conv": "zh-cn:玛丽安;zh-tw:瑪麗安;zh-hk:美莉安"
+      "conv": "zh-cn:玛丽安; zh-tw:瑪麗安; zh-hk:美莉安;"
     },
     {
       "original": "ヒルツ",
-      "conv": "zh-cn:希尔兹;zh-tw:希爾茲;zh-hk:希路"
+      "conv": "zh-cn:希尔兹; zh-tw:希爾茲; zh-hk:希路;"
     },
     {
       "original": "リーゼ",
-      "conv": "zh-cn:丽杰;zh-tw:力傑;zh-hk:尼節"
+      "conv": "zh-cn:丽杰; zh-tw:力傑; zh-hk:尼節;"
     },
     {
       "original": "ルージ",
-      "conv": "zh-hans:路吉;zh-tw:路吉;zh-hk:魯治"
+      "conv": "zh-hans:路吉; zh-tw:路吉; zh-hk:魯治;"
     },
     {
       "original": "ファミロン",
-      "conv": "zh-hans:化米伦;zh-tw:華米倫;zh-hk:化米倫"
+      "conv": "zh-hans:化米伦; zh-tw:華米倫; zh-hk:化米倫;"
     },
     {
       "original": "ラ・カン",
-      "conv": "zh-hans:勒·金;zh-tw:拉·坎;zh-hk:勒·金"
+      "conv": "zh-hans:勒·金; zh-tw:拉·坎; zh-hk:勒·金;"
     },
     {
       "original": "レ・ミィ",
-      "conv": "zh-hans:蕾·美;zh-tw:蕾咪;zh-hk:蕾·美"
+      "conv": "zh-hans:蕾·美; zh-tw:蕾咪; zh-hk:蕾·美;"
     },
     {
       "original": "コトナ",
-      "conv": "zh-hans:歌特娜;zh-tw:可度娜;zh-hk:歌特娜"
+      "conv": "zh-hans:歌特娜; zh-tw:可度娜; zh-hk:歌特娜;"
     },
     {
       "original": "セイジュウロウ",
-      "conv": "zh-hans:清十郎;zh-tw:聖治羅;zh-hk:清十郎"
+      "conv": "zh-hans:清十郎; zh-tw:聖治羅; zh-hk:清十郎;"
     },
     {
       "original": "ジーク",
-      "conv": "zh-cn:奇克;zh-tw:奇克;zh-hk:捷古"
+      "conv": "zh-cn:奇克; zh-tw:奇克; zh-hk:捷古;"
     },
     {
       "original": "シャドー",
-      "conv": "zh-cn:影子;zh-tw:影子;zh-hk:撒多"
+      "conv": "zh-cn:影子; zh-tw:影子; zh-hk:撒多;"
     },
     {
       "original": "スペキュラー",
-      "conv": "zh-cn:史贝奇拉;zh-tw:史貝奇拉;zh-hk:史碧拿"
+      "conv": "zh-cn:史贝奇拉; zh-tw:史貝奇拉; zh-hk:史碧拿;"
     },
     {
       "original": "アンビエント",
-      "conv": "zh-cn:安比恩特;zh-tw:安比恩特;zh-hk:安比拉"
+      "conv": "zh-cn:安比恩特; zh-tw:安比恩特; zh-hk:安比拉;"
     },
     {
       "original": "ディバイソン",
-      "conv": "zh-cn:突击野牛;zh-tw:攻擊野牛;zh-hk:重砲野牛"
+      "conv": "zh-cn:突击野牛; zh-tw:攻擊野牛; zh-hk:重砲野牛;"
     },
     {
       "original": "ハンマーヘッド",
-      "conv": "zh-cn:锤头鲨;zh-tw:鎚頭鯊;zh-hk:武裝飛鯊"
+      "conv": "zh-cn:锤头鲨; zh-tw:鎚頭鯊; zh-hk:武裝飛鯊;"
     },
     {
       "original": "ウルトラザウルス",
-      "conv": "zh-cn:水战巨龙;zh-tw:水戰巨龍;zh-hk:巨型雷龍"
+      "conv": "zh-cn:水战巨龙; zh-tw:水戰巨龍; zh-hk:巨型雷龍;"
     },
     {
       "original": "レドラー",
-      "conv": "zh-cn:高速飞龙;zh-tw:高速飛龍;zh-hk:飛行紅龍"
+      "conv": "zh-cn:高速飞龙; zh-tw:高速飛龍; zh-hk:飛行紅龍;"
     },
     {
       "original": "デスザウラー",
-      "conv": "zh-cn:破坏暴龙;zh-tw:破壞暴龍;zh-hk:破壞直立龍"
+      "conv": "zh-cn:破坏暴龙; zh-tw:破壞暴龍; zh-hk:破壞直立龍;"
     },
     {
       "original": "ジェノザウラー",
-      "conv": "zh-cn:咆哮虐杀龙;zh-tw:屠殺魔龍;zh-hk:咆哮虐殺龍"
+      "conv": "zh-cn:咆哮虐杀龙; zh-tw:屠殺魔龍; zh-hk:咆哮虐殺龍;"
     },
     {
       "original": "ジェノブレイカー",
-      "conv": "zh-cn:强装虐杀龙;zh-tw:裂刃魔龍;zh-hk:強裝虐殺龍"
+      "conv": "zh-cn:强装虐杀龙; zh-tw:裂刃魔龍; zh-hk:強裝虐殺龍;"
     },
     {
       "original": "ライトニングサイクス",
-      "conv": "zh-cn:闪电豹;zh-tw:閃電豹;zh-hk:疾速獵豹"
+      "conv": "zh-cn:闪电豹; zh-tw:閃電豹; zh-hk:疾速獵豹;"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "DragonBall",
-  "description": "七龙珠",
+  "description": "-{zh-hans:七龙珠;zh-cn:龙珠;zh-hk:龍珠;zh-tw:七龍珠}-",
   "path": "Template:CGroup/DragonBall",
   "rules": [
     {
@@ -24,8 +24,8 @@
       "conv": "zh-cn:琪琪;zh-hk:芝芝;zh-tw:琪琪"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|兎人参化"
+      "original": "兎人参化",
+      "conv": "zh-cn:兔老大;zh-hk:兔魔王;zh-tw:兔子"
     },
     {
       "original": "ピラフ",
@@ -124,8 +124,8 @@
       "conv": "zh-cn:拉帝兹;zh-hk:拿迪斯;zh-tw:拉帝茲"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|閻魔大王"
+      "original": "閻魔大王",
+      "conv": "zh-cn:阎魔王;zh-hk:閻王;zh-tw:閻羅王"
     },
     {
       "original": "バブルス",
@@ -181,7 +181,7 @@
     },
     {
       "original": "ギニュー",
-      "conv": "zh-cn:杰纽;zh-hk:傑紐;zh-tw:基紐"
+      "conv": "zh-cn:杰纽;zh-hk:傑紐;zh-tw:基紐;"
     },
     {
       "original": "リクーム",
@@ -300,8 +300,8 @@
       "conv": "zh-cn:利尔德;zh-hk:列頓;zh-tw:利爾德"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|超17号"
+      "original": "超17号",
+      "conv": "zh-cn:超级17号;zh-hk:超17號;zh-tw:超級17號"
     },
     {
       "original": "ビルス",
@@ -420,8 +420,8 @@
       "conv": "zh-hans:七龙珠;zh-cn:龙珠;zh-hk:龍珠;zh-tw:七龍珠"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|ドラゴンボールZ 復活の「F」"
+      "original": "ドラゴンボールZ 復活の「F」",
+      "conv": "zh-cn:龙珠Z 复活的弗利萨;zh-hk:龍珠Z 復活的「F」;zh-tw:七龍珠Z 復活的「F」"
     },
     {
       "original": "Dragonball Evolution",
@@ -432,20 +432,20 @@
       "conv": "zh-hans:超七龙珠英雄;zh-hant:超級七龍珠英雄;zh-cn:超级龙珠英雄;zh-hk:超級龍珠英雄;zh-tw:超七龍珠英雄"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|筋斗雲"
+      "original": "筋斗雲",
+      "conv": "zh-cn:筋斗云;zh-hk:筋斗雲;zh-tw:跟斗雲"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|天下一武道会"
+      "original": "天下一武道会",
+      "conv": "zh-hant:天下第一武道大會;zh-cn:天下第一武道会;zh-hk:天下第一武術大會;zh-tw:天下第一武道會"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|レッドリボン軍"
+      "original": "レッドリボン軍",
+      "conv": "zh-hant:紅緞帶軍;zh-hans:黑绸军;zh-cn:红缎带军团;zh-hk:紅帶軍;zh-tw:紅領巾軍"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|聖地カリン"
+      "original": "聖地カリン",
+      "conv": "zh-cn:圣地加林;zh-hk:花梨聖地;zh-tw:凱里聖地"
     },
     {
       "original": "サイヤ",
@@ -460,24 +460,24 @@
       "conv": "zh-hant:勇士特戰隊;zh-cn:基纽特种部队;zh-hk:皇牌精英軍團;zh-tw:基紐特戰隊"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|人造人間"
+      "original": "人造人間",
+      "conv": "zh-hant:生化人;zh-cn:人造人;zh-hk:人造人;zh-tw:人造人"
     },
     {
       "original": "ポタラ",
       "conv": "zh-cn:坡塔拉耳环;zh-hk:合體耳環;zh-tw:波特拉"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|身勝手の極意"
+      "original": "身勝手の極意",
+      "conv": "zh-cn:自在极意功;zh-hk:自在極意;zh-tw:無我極境"
     },
     {
       "original": "かめはめ波",
       "conv": "zh-cn:龟派气功;zh-hk:龜波氣功;zh-tw:龜派氣功"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|狼牙風風拳"
+      "original": "狼牙風風拳",
+      "conv": "zh-cn:狼牙风风拳;zh-hk:狼牙旋風拳;zh-tw:狼牙風風拳"
     },
     {
       "original": "どどん波",
@@ -492,24 +492,24 @@
       "conv": "zh-cn:极限光流;zh-hk:極限光流;zh-tw:最後衝擊"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|元気玉"
+      "original": "元気玉",
+      "conv": "zh-cn:元气弹;zh-hk:元氣彈;zh-tw:生命球"
     },
     {
       "original": "Dr.スランプ",
       "conv": "zh-cn:阿拉蕾;zh-hk:IQ博士;zh-tw:怪博士與機器娃娃"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|則巻千兵衛"
+      "original": "則巻千兵衛",
+      "conv": "zh-cn:则卷千兵卫;zh-hk:則卷千平;zh-tw:則卷千兵衛"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|則巻アラレ"
+      "original": "則巻アラレ",
+      "conv": "zh-hant:丁小雨;zh-cn:则卷阿拉蕾;zh-hk:則卷小雲;zh-tw:則卷阿拉蕾"
     },
     {
-      "original": "{{lang",
-      "conv": "ja|銀河パトロール ジャコ"
+      "original": "銀河パトロール ジャコ",
+      "conv": "zh-cn:银河巡警加克;zh-hk:龍珠前傳 銀河巡警到地球;zh-tw:銀河巡警JACO"
     },
     {
       "original": "ジャコ",

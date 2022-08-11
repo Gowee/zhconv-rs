@@ -1,0 +1,59 @@
+{
+  "name": "SPY×FAMILY",
+  "description": "SPY×FAMILY",
+  "path": "Module:CGroup/SPY×FAMILY",
+  "rules": [
+    {
+      "original": "スパイファミリー，SPY×FAMILY",
+      "conv": "zh-cn:间谍过家家;zh-hk:SPY×FAMILY間諜家家酒;zh-tw:SPY×FAMILY間諜家家酒;"
+    },
+    {
+      "original": "ドノバン・デズモンド，Donovan Desmond",
+      "conv": "zh-cn:多诺万·德斯蒙;zh-tw:唐納文·戴斯蒙德;"
+    },
+    {
+      "original": "デズモンド，Desmond",
+      "conv": "zh-cn:德斯蒙;zh-tw:戴斯蒙德;"
+    },
+    {
+      "original": "ロイド，Loid",
+      "conv": "zh-cn:劳埃德;zh-tw:洛伊德;"
+    },
+    {
+      "original": "アーニャ，Anya",
+      "conv": "zh-cn:阿尼亚;zh-tw:安妮亞;"
+    },
+    {
+      "original": "ヨル，Yor",
+      "conv": "zh-cn:约尔;zh-tw:約兒;"
+    },
+    {
+      "original": "ベッキー，Becky",
+      "conv": "zh-cn:贝姬;zh-tw:貝琪;"
+    },
+    {
+      "original": "フォージャー，Forger",
+      "conv": "zh-cn:福杰;zh-tw:佛傑;"
+    },
+    {
+      "original": "フランキー，Franky",
+      "conv": "zh-cn:弗兰基;zh-tw:弗朗基;"
+    },
+    {
+      "original": "フィオナ・フロスト，Fiona Frost",
+      "conv": "zh-cn:菲奥娜·弗罗斯特;zh-tw:費歐娜·佛洛斯特;"
+    },
+    {
+      "original": "ユーリ・ブライア，Yuri Briar",
+      "conv": "zh-cn:尤里;zh-tw:尤利;"
+    },
+    {
+      "original": "いばら姫ひめ，Thorn Princess",
+      "conv": "zh-cn:荆棘公主;zh-tw:睡美人;"
+    },
+    {
+      "original": "ボンド，Bond",
+      "conv": "zh-cn:邦德;zh-tw:龐德;"
+    }
+  ]
+}

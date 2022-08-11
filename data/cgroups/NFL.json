@@ -5,23 +5,23 @@
   "rules": [
     {
       "original": "American Football",
-      "conv": "zh-hans:美式橄榄球;zh-hant:美式足球;zh-cn:美式橄榄球;zh-tw:美式足球;zh-hk:美式足球;zh-mo:美式足球"
+      "conv": "zh-hans:美式橄榄球;zh-hant:美式足球;zh-cn:美式橄榄球;zh-tw:美式足球;zh-hk:美式足球;zh-mo:美式足球;"
     },
     {
       "original": "National Football League",
-      "conv": "zh-hans:全国橄榄球联盟;zh-hant:國家美式足球聯盟;zh-cn:全国橄榄球联盟"
+      "conv": "zh-hans:全国橄榄球联盟;zh-hant:國家美式足球聯盟;zh-cn:全国橄榄球联盟;"
     },
     {
       "original": "National Football League",
-      "conv": "國家美式橄欖球聯盟=>zh-cn:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-tw:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-hk:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-mo:國家美式足球聯盟"
+      "conv": "國家美式橄欖球聯盟=>zh-cn:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-tw:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-hk:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-mo:國家美式足球聯盟;"
     },
     {
       "original": "National Football Conference",
-      "conv": "zh-hans:全国橄榄球联合会;zh-hant:國家美式足球聯會;zh-cn:全国橄榄球联合会"
+      "conv": "zh-hans:全国橄榄球联合会;zh-hant:國家美式足球聯會;zh-cn:全国橄榄球联合会;"
     },
     {
       "original": "American Football Conference",
-      "conv": "zh-hans:美国橄榄球联合会;zh-hant:美國美式足球聯會;zh-cn:美国橄榄球联合会"
+      "conv": "zh-hans:美国橄榄球联合会;zh-hant:美國美式足球聯會;zh-cn:美国橄榄球联合会;"
     },
     {
       "original": "Super Bowl",
@@ -33,91 +33,99 @@
     },
     {
       "original": "Cleveland Browns",
-      "conv": "zh-hans:克利夫兰布朗;zh-cn:克利夫兰布朗;zh-tw:克里夫蘭布朗;zh-hk:克里夫蘭布朗;zh-mo:克里夫蘭布朗"
+      "conv": "zh-hans:克利夫兰布朗;zh-cn:克利夫兰布朗;zh-tw:克里夫蘭布朗;zh-hk:克里夫蘭布朗;zh-mo:克里夫蘭布朗;"
     },
     {
       "original": "Green Bay Packers",
-      "conv": "zh-hans:格林贝包装工;zh-cn:格林贝包装工;zh-tw:綠灣包裝工;zh-hk:綠灣包裝者;zh-mo:綠灣包裝者"
+      "conv": "zh-hans:格林贝包装工;zh-cn:格林贝包装工;zh-tw:綠灣包裝工;zh-hk:綠灣包裝者;zh-mo:綠灣包裝者;"
     },
     {
       "original": "Packers",
-      "conv": "zh-hans:包装工;zh-cn:包装工;zh-tw:包裝工;zh-hk:包裝者;zh-mo:包裝者"
+      "conv": "zh-hans:包装工;zh-cn:包装工;zh-tw:包裝工;zh-hk:包裝者;zh-mo:包裝者;"
     },
     {
       "original": "Houston Texans",
-      "conv": "zh-hans:休斯敦得州人;zh-cn:休斯敦得州人;zh-tw:休士頓德州人;zh-hk:候斯頓德州人;zh-mo:候斯頓德州人"
+      "conv": "zh-hans:休斯敦得州人;zh-cn:休斯敦得州人;zh-tw:休士頓德州人;zh-hk:候斯頓德州人;zh-mo:候斯頓德州人;"
     },
     {
       "original": "Houston Texans",
-      "conv": "zh-hans:休斯敦得克萨斯人;zh-cn:休斯敦得克萨斯人;zh-tw:休士頓德克薩斯人;zh-hk:候斯頓德薩斯人;zh-mo:候斯頓德薩斯人"
+      "conv": "zh-hans:休斯敦得克萨斯人;zh-cn:休斯敦得克萨斯人;zh-tw:休士頓德克薩斯人;zh-hk:候斯頓德薩斯人;zh-mo:候斯頓德薩斯人;"
     },
     {
       "original": "Texans",
-      "conv": "zh-hans:得克萨斯人;zh-cn:得克萨斯人;zh-tw:德克薩斯人;zh-hk:德薩斯人;zh-mo:德薩斯人"
+      "conv": "zh-hans:得克萨斯人;zh-cn:得克萨斯人;zh-tw:德克薩斯人;zh-hk:德薩斯人;zh-mo:德薩斯人;"
     },
     {
       "original": "Jacksonville Jaguars",
-      "conv": "zh-hans:杰克逊维尔美洲虎;zh-cn:杰克逊维尔美洲虎;zh-tw:傑克遜維爾美洲虎;zh-hk:積遜威爾美洲虎;zh-mo:積遜威爾美洲虎"
+      "conv": "zh-hans:杰克逊维尔美洲虎;zh-cn:杰克逊维尔美洲虎;zh-tw:傑克遜維爾美洲虎;zh-hk:積遜威爾美洲虎;zh-mo:積遜威爾美洲虎;"
     },
     {
       "original": "Jacksonville Jaguars",
-      "conv": "傑克遜威爾美洲虎=>zh-cn:杰克逊维尔美洲虎;傑克遜威爾美洲虎=>zh-tw:傑克遜維爾美洲虎;傑克遜威爾美洲虎=>zh-hk:積遜威爾美洲虎;傑克遜威爾美洲虎=>zh-mo:積遜威爾美洲虎"
+      "conv": "傑克遜威爾美洲虎=>zh-cn:杰克逊维尔美洲虎;傑克遜威爾美洲虎=>zh-tw:傑克遜維爾美洲虎;傑克遜威爾美洲虎=>zh-hk:積遜威爾美洲虎;傑克遜威爾美洲虎=>zh-mo:積遜威爾美洲虎;"
     },
     {
       "original": "Jacksonville Jaguars",
-      "conv": "杰克逊威尔美洲虎=>zh-cn:杰克逊维尔美洲虎;杰克逊威尔美洲虎=>zh-tw:傑克遜維爾美洲虎;杰克逊威尔美洲虎=>zh-hk:積遜威爾美洲虎;杰克逊威尔美洲虎=>zh-mo:積遜威爾美洲虎"
+      "conv": "杰克逊威尔美洲虎=>zh-cn:杰克逊维尔美洲虎;杰克逊威尔美洲虎=>zh-tw:傑克遜維爾美洲虎;杰克逊威尔美洲虎=>zh-hk:積遜威爾美洲虎;杰克逊威尔美洲虎=>zh-mo:積遜威爾美洲虎;"
     },
     {
       "original": "Los Angeles Chargers",
-      "conv": "zh-hant:洛杉磯電光;zh-hans:洛杉矶闪电;zh-hk:洛杉磯電光;zh-tw:洛杉磯電光"
+      "conv": "zh-hant:洛杉磯電光;zh-hans:洛杉矶闪电;zh-hk:洛杉磯電光;zh-tw:洛杉磯電光;"
     },
     {
       "original": "New England Patriots",
-      "conv": "zh-hans:新英格兰爱国者;zh-cn:新英格兰爱国者;zh-tw:新英格蘭愛國者;zh-hk:新英倫愛國者;zh-mo:新英倫愛國者"
+      "conv": "zh-hans:新英格兰爱国者;zh-cn:新英格兰爱国者;zh-tw:新英格蘭愛國者;zh-hk:新英倫愛國者;zh-mo:新英倫愛國者;"
     },
     {
       "original": "New Orleans Saints",
-      "conv": "zh-hans:新奥尔良圣徒;zh-cn:新奥尔良圣徒;zh-tw:紐奧良聖徒;zh-hk:新奧爾良聖徒;zh-mo:新奧爾良聖徒"
+      "conv": "zh-hans:新奥尔良圣徒;zh-cn:新奥尔良圣徒;zh-tw:紐奧良聖徒;zh-hk:新奧爾良聖徒;zh-mo:新奧爾良聖徒;"
     },
     {
       "original": "New York Jets",
-      "conv": "zh-hans:纽约喷气机;zh-cn:纽约喷气机;zh-tw:紐約噴射機;zh-hk:紐約噴射機;zh-mo:紐約噴射機"
+      "conv": "zh-hans:纽约喷气机;zh-cn:纽约喷气机;zh-tw:紐約噴射機;zh-hk:紐約噴射機;zh-mo:紐約噴射機;"
     },
     {
       "original": "Pittsburgh Steelers",
-      "conv": "zh-hans:匹兹堡钢人;zh-cn:匹兹堡钢人;zh-tw:匹茲堡鋼人;zh-hk:匹茲堡鋼鐵者;zh-mo:匹茲堡鋼鐵者"
+      "conv": "zh-hans:匹兹堡钢人;zh-cn:匹兹堡钢人;zh-tw:匹茲堡鋼人;zh-hk:匹茲堡鋼鐵者;zh-mo:匹茲堡鋼鐵者;"
     },
     {
       "original": "Steelers",
-      "conv": "zh-hans:钢人;zh-cn:钢人;zh-tw:鋼人;zh-hk:鋼鐵者;zh-mo:鋼鐵者"
+      "conv": "zh-hans:钢人;zh-cn:钢人;zh-tw:鋼人;zh-hk:鋼鐵者;zh-mo:鋼鐵者;"
     },
     {
       "original": "Steelers",
-      "conv": "钢人=>zh-cn:钢人;钢人=>zh-tw:鋼人;钢人=>zh-hk:鋼鐵者;钢人=>zh-mo:鋼鐵者"
+      "conv": "钢人=>zh-cn:钢人;钢人=>zh-tw:鋼人;钢人=>zh-hk:鋼鐵者;钢人=>zh-mo:鋼鐵者;"
     },
     {
       "original": "San Diego Chargers",
-      "conv": "zh-hans:圣迭戈闪电;zh-hant:聖地牙哥閃電;zh-cn:圣迭戈闪电;zh-tw:聖地牙哥閃電;zh-hk:聖地牙哥閃電;zh-mo:聖地牙哥閃電"
+      "conv": "zh-hans:圣迭戈闪电;zh-hant:聖地牙哥閃電;zh-cn:圣迭戈闪电;zh-tw:聖地牙哥閃電;zh-hk:聖地牙哥閃電;zh-mo:聖地牙哥閃電;"
     },
     {
       "original": "Chargers",
-      "conv": "电光=>zh-cn:闪电;电光=>zh-tw:閃電;电光=>zh-hk:閃電;电光=>zh-mo:閃電"
+      "conv": "电光=>zh-cn:闪电;电光=>zh-tw:閃電;电光=>zh-hk:閃電;电光=>zh-mo:閃電;"
     },
     {
       "original": "Tennessee Titans",
-      "conv": "zh-hans:田纳西泰坦;zh-cn:田纳西泰坦;zh-tw:田納西巨神;zh-hk:田納西泰坦;zh-mo:田納西泰坦"
+      "conv": "zh-hans:田纳西泰坦;zh-cn:田纳西泰坦;zh-tw:田納西巨神;zh-hk:田納西泰坦;zh-mo:田納西泰坦;"
+    },
+    {
+      "original": "Washington Commanders",
+      "conv": "zh-hans:华盛顿指挥官;zh-cn:华盛顿指挥官;zh-tw:華盛頓司令;zh-hk:華盛頓司令;zh-mo:華盛頓司令;"
+    },
+    {
+      "original": "Commanders",
+      "conv": "zh-hans:指挥官;zh-cn:指挥官;zh-tw:司令;zh-hk:司令;zh-mo:司令;"
     },
     {
       "original": "Washington Redskins",
-      "conv": "zh-hans:华盛顿红皮;zh-cn:华盛顿红皮;zh-tw:華盛頓紅人;zh-hk:華盛頓紅人;zh-mo:華盛頓紅人"
+      "conv": "zh-hans:华盛顿红皮;zh-cn:华盛顿红皮;zh-tw:華盛頓紅人;zh-hk:華盛頓紅人;zh-mo:華盛頓紅人;"
     },
     {
       "original": "Redskins",
-      "conv": "zh-hans:红皮;zh-cn:红皮;zh-tw:紅人;zh-hk:紅人;zh-mo:紅人"
+      "conv": "zh-hans:红皮;zh-cn:红皮;zh-tw:紅人;zh-hk:紅人;zh-mo:紅人;"
     },
     {
       "original": "",
-      "conv": "zh-hans:杰克逊维尔球场;zh-cn:杰克逊维尔球场;zh-tw:傑克遜威爾市體育場;zh-hk:積遜威爾球場;zh-mo:積遜威爾球場"
+      "conv": "zh-hans:杰克逊维尔球场;zh-cn:杰克逊维尔球场;zh-tw:傑克遜威爾市體育場;zh-hk:積遜威爾球場;zh-mo:積遜威爾球場;"
     }
   ]
 }

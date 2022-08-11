@@ -1,0 +1,1415 @@
+{
+  "name": "OnePiece",
+  "description": "OnePiece",
+  "path": "Module:CGroup/OnePiece",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-hant:草帽一伙;zh-hans:草帽一伙;zh-tw:草帽一伙;zh-hk:草帽小子一伙;zh-mo:草帽小子一伙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:蒙奇;zh-hans:蒙奇;zh-tw:蒙其;zh-hk:莫奇;zh-mo:莫奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:路飛;zh-hans:路飞;zh-tw:魯夫;zh-hk:路飛;zh-mo:路飛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:羅羅諾亞;zh-hans:罗罗诺亚;zh-cn:罗罗亚;zh-tw:羅羅亞;zh-hk:羅洛亞;zh-mo:羅洛亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:索隆;zh-hans:索隆;zh-cn:佐罗;zh-tw:索隆;zh-hk:卓洛;zh-mo:卓洛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:娜美;zh-hans:娜美;zh-cn:奈美;zh-tw:娜美;zh-hk:奈美;zh-mo:奈美;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:烏索普;zh-hans:乌索普;zh-cn:撒谎布;zh-tw:騙人布;zh-hk:烏索普;zh-mo:烏索普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:山治;zh-hans:山治;zh-cn:山智;zh-tw:香吉士;zh-hk:山治;zh-mo:山治;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:東尼東尼;zh-hans:多尼多尼;zh-tw:多尼多尼;zh-hk:東尼東尼;zh-mo:東尼東尼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:喬巴;zh-hans:乔巴;zh-tw:喬巴;zh-hk:索柏;zh-mo:索柏;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:妮可;zh-hans:妮可;zh-cn:妮古;zh-tw:妮可;zh-hk:妮歌;zh-mo:妮歌;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:羅賓;zh-hans:罗宾;zh-tw:羅賓;zh-hk:魯賓;zh-mo:魯賓;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:芬奇;zh-hans:弗兰奇;zh-cn:弗兰奇;zh-tw:佛朗基;zh-hk:芬奇;zh-mo:芬奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:前進梅利號;zh-hk:前進號;zh-mo:前進號;zh-cn:前进梅利号;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:千陽號;zh-hans:千阳号;zh-cn:千里阳光号;zh-tw:千陽號;zh-hk:烈陽號;zh-mo:烈陽號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:瑪利喬亞;zh-tw:馬力喬亞;zh-hk:瑪利佐亞;zh-mo:瑪利佐亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:艾尼艾斯大廳;zh-tw:艾尼愛斯大廳;zh-hk:艾尼艾斯羅比;zh-mo:艾尼艾斯羅比;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:青雉;zh-hans:青雉;zh-tw:青雉;zh-hk:藍雉;zh-mo:藍雉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:庫贊;zh-cn:库赞;zh-tw:庫山;zh-hk:古贊;zh-mo:古贊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:薩卡斯基;zh-cn:萨卡斯基;zh-tw:盃;zh-hk:沙加蘇奇;zh-mo:沙加蘇奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:波爾薩利諾;zh-cn:波尔萨利诺;zh-tw:波爾薩利諾;zh-hk:波沙利諾;zh-mo:波沙利諾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:一笑;zh-cn:一笑;zh-tw:一笑;zh-hk:一勝;zh-mo:一勝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:卡普;zh-cn:戈普;zh-tw:卡普;zh-hk:加普;zh-mo:加普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:斯托洛貝里; zh-hk:史多羅貝里;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:斯摩格;zh-cn:烟鬼;zh-tw:斯摩格; zh-hk:史莫卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:貝里古德; zh-hk:比利古特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:T-bone;zh-tw:T彭恩;zh-hk:T-Bone;zh-mo:T-Bone;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:塔希米;zh-tw:達絲琪; zh-hk:田鷸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:日奈;zh-tw:希娜; zh-hk:希娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:鼹鼠;zh-tw:飛鼠; zh-hk:莫門加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:克比;zh-cn:可比;zh-tw:克比;zh-hk:高比;zh-mo:高比;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希路麦波; zh-tw:貝魯梅伯; zh-hk:希路麥普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:馬西卡克; zh-hk:馬斯卡克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赫波迪; zh-tw:芬布迪; zh-hk:霍布迪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:强高; zh-tw:傑克斯; zh-hk:贊高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:罗西南德;zh-tw:羅希南特; zh-hk:羅西南特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马林梵多; zh-tw:馬林福特; zh-hk:瑪林科特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:NEO海軍;zh-cn:NEO海軍;zh-tw:新海軍;zh-hk:NEO海軍;zh-mo:NEO海軍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:捷風;zh-tw:捷風;zh-hk:捷風;zh-mo:捷風;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:上將;zh-hk:大將;zh-cn:大将;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:爱德华; zh-tw:艾德華; zh-hk:愛德華;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:纽哥特; zh-tw:紐蓋特; zh-hk:紐歌特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杰克斯; zh-tw:傑克; zh-hk:撒古斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夏洛特·玲玲; zh-tw:夏洛特·莉莉; zh-hk:沙羅特·林林;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:盖德; zh-tw:海道; zh-hk:怪童;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杰拉基尔; zh-tw:喬拉可爾; zh-hk:朱洛基爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米霍克; zh-tw:密佛格; zh-hk:米霍克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:多弗拉门戈;zh-tw:多佛朗明哥; zh-hk:杜夫拉明高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴索罗谬;zh-tw:巴索羅繆; zh-hk:巴索羅米;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴索罗谬·大熊;zh-tw:巴索羅繆·大熊; zh-hk:巴索羅米·熊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:波尔; zh-tw:波雅; zh-hk:寶亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:汉库珂; zh-tw:漢考克; zh-hk:漢哥古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:甚平;zh-tw:吉貝爾;zh-hk:甚平;zh-mo:甚平;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马歇尔;zh-tw:馬歇爾;zh-hk:馬沙路;zh-mo:馬沙路;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:提奇;zh-tw:汀奇;zh-hk:狄切;zh-mo:狄切;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:布琳;zh-tw:普琳; zh-hk:布琳;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:傑爾馬;zh-tw:杰爾馬; zh-hk:傑爾馬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:文斯莫克;zh-tw:賓什莫克; zh-hk:文斯莫克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:蕾玖;zh-tw:麗珠; zh-hk:蕾玖;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:托雷波尔;zh-tw:托雷波爾; zh-hk:特雷波爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:匹卡;zh-tw:皮卡; zh-hk:皮卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:迪亚曼蒂;zh-tw:帝雅曼鐵; zh-hk:迪亞曼特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克拉松;zh-tw:柯拉遜; zh-hk:可拉索;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:糖糖;zh-tw:砂糖; zh-hk:修加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:乔菈;zh-tw:喬菈; zh-hk:喬拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:古拉迪乌斯;zh-tw:古拉迪斯; zh-hk:古拉迪斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拉奥G;zh-tw:拉歐G; zh-hk:拉奧G;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:戴林格;zh-tw:德林傑; zh-hk:戴林傑;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:賽諾爾·平克;zh-tw:粉紅先生; zh-hk:塞紐爾·賓克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:馬哈拜斯;zh-tw:馬赫拜茲; zh-hk:马哈拜斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:德莱斯罗兹;zh-tw:多雷斯羅薩; zh-hk:德雷斯羅薩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:居鲁士;zh-tw:居魯士; zh-hk:庫洛斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:维奥拉;zh-tw:碧歐菈; zh-hk:維奧娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:紫罗兰;zh-tw:維爾莉特; zh-hk:拜奧莉蒂;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:莉貝卡;zh-tw:蕾貝卡; zh-hk:麗貝卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:里克·多尔铎;zh-tw:利克·德爾多3世; zh-hk:利古·德爾德3世;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴尔托罗梅奥;zh-tw:巴特洛馬; zh-hk:巴爾托羅密歐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凯文迪修;zh-tw:卡文迪許; zh-hk:卡貝迪修;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:青椒;zh-tw:青椒; zh-hk:千奇奧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:蔡义;zh-tw:雜菜; zh-hk:薩伊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:布武;zh-tw:阿葡; zh-hk:布武;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:海尔丁;zh-tw:哈爾汀; zh-hk:哈爾提;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:班克禁区;zh-tw:龐克哈薩特; zh-hk:龐克危地;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凯撒·库朗;zh-tw:凱薩·克勞恩; zh-hk:凱撒·卡勞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:莫奈;zh-tw:莫內; zh-hk:莫奈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:维尔高;zh-tw:威爾可; zh-hk:貝爾高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:格列佛; zh-hk:卡里布;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:柯列佛; zh-hk:哥里布;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:挪亞;zh-tw:諾亞;zh-hk:挪亞;zh-mo:挪亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:鲛星; zh-tw:鯊星; zh-hk:費加波斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:龙星; zh-tw:皇星; zh-hk:流波斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:曼星; zh-tw:翻車星; zh-hk:馬波斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:范德; zh-tw:班塔; zh-hk:范德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大入道海神; zh-hk:大僧人海津見;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:飛行海賊團; zh-hk:FLYING海盜團;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:霍迪;zh-tw:荷帝; zh-hk:賀迪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:琼斯;zh-tw:瓊斯; zh-hk:鍾斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伊卡鲁斯 姆嘻;zh-tw:伊卡洛斯·穆希; zh-hk:伊卡洛斯·莫希;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:梅迦罗; zh-tw:梅卡洛; zh-hk:梅加羅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:裘巴利HILLS; zh-hk:喬帕里山;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夏莉夫人; zh-tw:雪莉夫人; zh-hk:莎莉夫人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:费雪·泰格; zh-tw:費雪·泰格; zh-hk:費沙·泰加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:泰格; zh-tw:泰格; zh-hk:泰加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克尔拉; zh-tw:可亞拉; zh-hk:歌雅拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:福爾夏特島; zh-hk:費夏特島;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:加里·达丹;zh-tw:卡莉·達坦; zh-hk:卡莉·達妲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:达丹;zh-tw:達坦; zh-hk:達妲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:布魯賈姆; zh-hk:布魯札姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:范·贝克曼;zh-tw:班·貝克曼; zh-hk:賓·碧克曼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拉奇·路;zh-tw:拉奇·魯; zh-hk:Lucky·魯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:艾索普;zh-cn:耶稣布;zh-tw:耶穌布;zh-hk:艾索普;zh-mo:艾索普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巨石新達; zh-hk:洛克之星;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:旺·奥加;zh-tw:范·歐葛; zh-hk:雲·奧加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:吉扎斯·巴杰斯;zh-tw:吉札士·伯吉斯; zh-hk:芝沙斯·巴沙斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:Dr.Q;zh-tw:毒Q; zh-hk:多古Q;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希流;zh-tw:矢龍; zh-tw:矢龍; zh-hk:支流;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:圣胡安·恶狼;zh-tw:薩方·烏爾夫; zh-hk:桑方·烏爾夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿瓦罗·匹萨罗;zh-tw:亞帕羅·比薩羅; zh-hk:亞華隆·畢沙羅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴斯克·喬特;zh-tw:巴斯可·簫特; zh-hk:巴士古·索特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡特莲娜·蝶美;zh-tw:卡達莉納·戴彭; zh-hk:卡特蓮娜·戴文;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:馬尔高;zh-tw:馬可; zh-hk:馬爾高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:波特夹斯;zh-tw:波特卡斯; zh-hk:波德卡斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:露秀;zh-tw:露珠; zh-hk:露婕;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:黑桃海賊團; zh-hk:葵扇海盜團;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:乔兹;zh-tw:裘斯; zh-hk:祖茲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:沙奇;zh-tw:薩吉; zh-hk:沙奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:比斯塔;zh-tw:比斯塔; zh-hk:比斯達;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克利耶尔;zh-tw:克利耶爾; zh-hk:吉列爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:霍懷迪貝;zh-tw:白雪之珮; zh-hk:荷娃伊迪貝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:库斯亚德;zh-tw:史庫亞德; zh-hk:斯古亞德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:白鯨號; zh-hk:摩比·迪克號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:龙;zh-tw:多拉格; zh-hk:杜拉剛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伊娃;zh-tw:伊娃; zh-hk:伊萬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伊娃柯夫;zh-tw:伊娃柯夫; zh-hk:伊萬科夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:安普里奥;zh-tw:艾波利歐; zh-hk:安波利奧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:闪电;zh-tw:雷電; zh-hk:稻妻;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:因佩尔; zh-tw:推進城; zh-hk:英佩爾鎮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:麦哲伦; zh-tw:麥哲倫; zh-hk:瑪塞蘭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:汉尼拔; zh-tw:般若拔; zh-hk:漢喵巴爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:多米诺; zh-tw:托米諾; zh-hk:多美諾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:候斯; zh-tw:薩魯戴斯; zh-hk:猴子迪斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:萨迪小姐; zh-tw:小莎蒂; zh-hk:小珊迪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鬼拉袖; zh-hk:袖引小鬼;"
+    },
+    {
+      "original": "",
+      "conv": "zh:亞馬遜百合; zh-tw:亞馬遜百合; zh-hk:亞馬遜·莉莉;"
+    },
+    {
+      "original": "",
+      "conv": "zh:女兒島; zh-tw:女人島; zh-hk:女人島;"
+    },
+    {
+      "original": "",
+      "conv": "zh:戈耳工三姐妹; zh-tw:蛇髮魔女三姐妹; zh-hk:蛇髮女魔三姐妹;"
+    },
+    {
+      "original": "",
+      "conv": "zh:瑪莉哥德; zh-cn:金盏花; zh-tw:瑪莉哥德; zh-hk:瑪麗戈爾德;"
+    },
+    {
+      "original": "",
+      "conv": "zh:桑塔索妮雅; zh-cn:宫灯花; zh-tw:桑塔索妮雅; zh-hk:桑達索尼婭;"
+    },
+    {
+      "original": "",
+      "conv": "zh:雛菊; zh-cn:雏菊; zh-tw:雛菊; zh-hk:瑪格麗特;"
+    },
+    {
+      "original": "",
+      "conv": "zh:香豌豆; zh-cn:香豌豆; zh-tw:香豌豆; zh-hk:瑞特比;"
+    },
+    {
+      "original": "",
+      "conv": "zh:雅菲蘭朵拉; zh-cn:斑马花; zh-tw:雅菲蘭朵拉; zh-hk:亞菲蘭特拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh:貝拉多納; zh-tw:貝拉多納; zh-hk:貝拉冬娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh:紐婆婆; zh-cn:啥婆婆; zh-tw:紐婆婆; zh-hk:涼婆婆;"
+    },
+    {
+      "original": "",
+      "conv": "zh:嘉蘭百合; zh-cn:火焰花; zh-tw:嘉蘭百合; zh-hk:格羅莉奧莎;"
+    },
+    {
+      "original": "",
+      "conv": "zh:芭秋菈; zh-tw:芭秋菈; zh-hk:巴奇拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh:香波地諸島; zh-cn:香波地诸岛; zh-tw:夏波帝諸島; zh-hk:沙碰地群島;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希尔巴兹; zh-tw:席爾巴斯; zh-hk:斯爾巴治;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:夏克雅克; zh-hk:莎古亞古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:芍奇; zh-tw:夏姬; zh-hk:莎奇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:迪斯可; zh-hk:的士高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:羅茲瓦德; zh-hk:洛茲瓦德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:夏露莉雅; zh-hk:莎魯麗亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:查爾羅斯; zh-hk:察魯羅斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:尤斯塔斯·基德; zh-tw:尤斯塔斯·基德; zh-hk:尤斯達斯·奇杜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基德; zh-tw:基德; zh-hk:奇杜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴基尔·霍金斯; zh-tw:巴吉魯·霍金斯; zh-hk:巴治爾·荷金斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:霍金斯; zh-tw:霍金斯; zh-hk:荷金斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:「赤旗」; zh-hk:「紅旗」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:德雷克; zh-tw:多雷古; zh-hk:德雷克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:特拉法尔加; zh-tw:托拉法爾加; zh-hk:特拉法爾嘉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瓦鉄尔; zh-tw:瓦特爾; zh-hk:沃特爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:江巴尔; zh-tw:強帕爾; zh-hk:莊巴爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:贝宝; zh-tw:培波; zh-hk:北寶;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:逆戟鲸; zh-tw:夏奇; zh-hk:殺人鯨;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:「海鳴」; zh-hk:「海嘯」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:打碟人·阿保; zh-tw:刮盤人·亞普; zh-hk:斯克拉奇門·亞普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基拉; zh-tw:奇拉; zh-hk:奇拿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:「大胃王」; zh-hk:「大食者」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杰丽·邦妮; zh-tw:珠寶·波妮; zh-hk:茱葉莉·邦妮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:邦妮; zh-tw:波妮; zh-hk:邦妮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:「匪帮」; zh-tw:「流氓」; zh-hk:「強盜」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡彭·班吉; zh-tw:卡波涅·培基; zh-hk:卡波尼·比治;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:火戰車; zh-hk:火坦克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:乌鲁基; zh-tw:烏魯基; zh-hk:烏爾治;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:维莎利亚; zh-tw:維薩利亞; zh-hk:威莎利亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴尔基摩亚; zh-tw:巴爾的摩; zh-hk:巴治摩亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡玛巴卡; zh-tw:卡馬帕卡; zh-hk:人妖笨蛋王國;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:海克力斯; zh-tw:海格拉斯; zh-hk:海格拉斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:纳玛库拉岛; zh-tw:破銅爛鐵島; zh-hk:鈍島;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:哈拉海塔尼亚; zh-tw:哈拉黑塔涼; zh-hk:肚子好餓呀;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:特奇拉沃尔夫; zh-tw:龍舌蘭之狼; zh-hk:龍舌蘭狼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克拉伊咖那岛; zh-tw:克拉伊卡納島; zh-hk:真暗啊島;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:西茲凯阿尔王国; zh-tw:西凱阿爾王國; zh-hk:濕氣重重王國;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:凯咪; zh-tw:海咪; zh-hk:甘美;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:帕帕格; zh-tw:帕帕克; zh-hk:拍拍古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:「犯人牌」; zh-hk:「Criminal」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:恐怖三桅帆船; zh-hk:恐怖大宅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:殭屍; zh-hk:喪屍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:豪格巴克;zh-tw:赫古巴庫; zh-hk:荷古巴克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:辛德丽;zh-tw:辛朵莉; zh-hk:辛多莉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿布萨拉姆;zh-tw:阿布薩羅姆; zh-hk:亞布沙洛姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:佩罗娜; zh-tw:培羅娜; zh-hk:蓓羅娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:「風」治五郎; zh-hk:風之治五郎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:柯玛西; zh-tw:庫馬希; zh-hk:克馬西;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奥兹; zh-tw:歐斯; zh-hk:奧茲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:翻滾海賊團; zh-hk:旋轉海盜團;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:约克; zh-tw:尤奇; zh-hk:洋基;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:歐哈拉; zh-hk: 奧哈拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奥尔比亚; zh-tw:歐爾比雅; zh-hk: 奧比亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:三叶草博士; zh-tw:克洛巴博士; zh-hk: 古羅巴博士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:哈古瓦尔; zh-tw:哈古瓦爾; zh-hk:哈格瓦魯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:萨乌罗; zh-tw:薩烏羅; zh-hk:沙羅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:斯潘達因; zh-hk: 斯帕達因;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:非常召集; zh-hk: Buster Call;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:罗布; zh-tw:羅布; zh-hk: 羅拔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:鲁兹; zh-tw:路基; zh-hk: 魯茲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:哈德利; zh-hk:哈多里;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:佳妮法; zh-tw:卡莉法; zh-hk: 嘉妮花;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:斯潘达姆; zh-tw:斯帕達姆; zh-hk: 斯帕達姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杰布拉; zh-tw:賈布拉; zh-hk: 札古拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:脸谱; zh-tw:隈取; zh-hk: 古瑪杜利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:瓦傑; zh-hk: 雲謝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:傑力; zh-hk: 謝利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:水之七島; zh-hk:Water Seven;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:卡雷拉; zh-hk:GALLEY-LA;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:卡雷拉公司; zh-hk:GALLEY-LA Company;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿斯巴古; zh-tw:艾斯巴古; zh-hk:艾斯巴格;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴利; zh-tw:包利; zh-hk:巴利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:皮布里·鲁鲁; zh-tw:畢普利·露露; zh-hk:皮布里·魯魯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:泰鲁斯通; zh-tw:戴魯斯通; zh-hk:泰斯頓;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奇姆妮; zh-tw:蒂姆妮; zh-hk:琪姆妮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:昆平; zh-tw:公貝; zh-hk:昆平;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:西夫特車站; zh-hk:施富托車站;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基威; zh-tw:基威; zh-hk:琪瑋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:摩兹; zh-tw:摩茲; zh-hk:莫芝;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:湯姆造船公司; zh-hk:湯姆工作室;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡提·佛兰姆; zh-tw:卡迪·佛拉姆; zh-hk:加提·弗拉姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:奧羅·傑克森號; zh-hk:奧羅·傑克遜號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:冒煙湯姆; zh-hk:PUFFING TOM;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:古代兵器「冥王」; zh-hk:古代兵器「Pluto」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:「佛朗基戰鬥號」; zh-hk:「激戰芬奇號」;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:弗克西; zh-hk:霍斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:波琪; zh-hk:波爾雪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:香狄亞; zh-hk:山迪亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:碧卡; zh-hk:比爾加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:艾克斯托爾; zh-hk:艾古斯幣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:黃金之鄉; zh-hk:黃金都市;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:香朵拉; zh-hk:山多拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾尼路; zh-tw:艾涅爾; zh-hk:艾尼路;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:天空騎士; zh-hk:空中騎士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:甘·福尔; zh-tw:甘·福爾; zh-hk:剛·科爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:皮埃尔; zh-tw:皮耶爾; zh-hk:皮雅爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马坚力; zh-tw:麥金利; zh-hk:馬堅里;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:柯尼丝; zh-tw:柯妮絲; zh-hk:歌妮絲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:派葛亞; zh-hk:帕加雅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡尔加拉; zh-tw:卡爾葛拉; zh-hk:卡爾加拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瓦夷帕; zh-tw:瓦夷帕; zh-hk:韋帕;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威霸; zh-hk:Waver;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:蒙布朗; zh-tw:蒙布朗; zh-hk:文布蘭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:库力凯特; zh-tw:庫力凱; zh-hk:古利吉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:诺兰度; zh-tw:諾蘭德; zh-hk:羅蘭度;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:大騙子諾蘭德; zh-hk:大話王羅蘭度;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:磁鼓島; zh-hk:圓鼓屋頂島;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:磁鼓王國; zh-hk:圓鼓屋頂王國;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:西尔尔克; zh-tw:西爾爾克; zh-hk:希魯魯克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:古蕾娃; zh-tw:古蕾娃; zh-hk:庫蕾哈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿密烏菇; zh-hk:埃美烏磨菇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:多爾頓; zh-hk:德魯通;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:藍波球; zh-hk:Rumble Ball;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿拉巴斯坦; zh-hk:雪花石膏;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奈菲特; zh-tw:納菲魯塔莉; zh-hk:奈菲魯塔利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:薇薇; zh-tw:薇薇; zh-hk:比比;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:可布拉; zh-tw:寇布拉; zh-hk:哥布拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:納菲魯塔莉·蒂蒂; zh-hk:奈菲魯塔利·迪迪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:伊格拉姆; zh-tw:尹卡蘭姆; zh-hk:依加拉姆;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:贝鲁; zh-tw:貝爾; zh-hk:比爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:恰卡; zh-tw:加卡; zh-hk:卓加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:鳥爪; zh-hk:茨米基利;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:豹達; zh-hk:飄太;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿洛; zh-hk:亞羅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蒂菈歌坦; zh-hk:迪拉哥塔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:超級快跑鴨; zh-hk:超卡魯鴨;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:飛毛腿; zh-hk:卡魯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:砂砂團; zh-hk:沙沙團;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:空扎; zh-tw:寇沙; zh-hk:哥薩;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:聖汀島; zh-hk:珊堤島;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:威士忌山; zh-hk:韋士基山;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:阿爾巴那; zh-hk:艾爾巴拿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:愛爾馬魯; zh-hk:艾爾瑪爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:拿哈那; zh-hk:拉羅哈拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:喀特雷亞; zh-hk:卡特利亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雨地; zh-hk:尼依比斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雨宴; zh-hk:尼依迪拿;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:塔馬利斯克; zh-hk:達馬里斯古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴洛克華克; zh-hk:巴洛克公作社;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:理想鄉; zh-hk:理想國;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:鳄鱼; zh-tw:克洛克達爾; zh-hk:鱷魚;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:达兹·波涅斯; zh-tw:達茲·波涅士; zh-hk:達斯·保尼斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:盆·岁末; zh-tw:馮·克雷; zh-hk:彭·格列;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:本萨姆; zh-tw:班薩姆; zh-hk:邊沁;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:加尔迪诺; zh-tw:賈爾迪諾; zh-hk:吉爾迪諾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:波拉; zh-tw:波菈; zh-hk:波拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 星期日; zh-hk:Miss All Sunday;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 雙手指; zh-hk:Miss Double Finger;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 黃金週; zh-hk:Miss Golden Week;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 聖誕節; zh-hk:Miss Merry Christmas;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 情人節; zh-hk:Miss Valentine;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 父親節; zh-hk:Miss Father's day;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 星期一; zh-hk:Miss Monday;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 星期三; zh-hk:Miss Wednesday;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 星期四; zh-hk:Miss Thursday;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 星期五; zh-hk:Miss Friday;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:Miss 星期六; zh-hk:Miss Saturday;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:拉布; zh-tw:拉布; zh-hk:拿賓;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克洛卡斯; zh-tw:可樂可斯; zh-hk:克洛卡斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh:偉大航道; zh-tw:偉大的航路; zh-hk:偉大航道;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:罗格镇; zh-tw:羅格鎮; zh-hk:洛古鎮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:一本松; zh-tw:賣一刀; zh-hk:一本真;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿龙; zh-tw:惡龍; zh-hk:阿朗;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:可可亞西村; zh-hk:椰子樹村;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:贝鲁梅尔; zh-tw:貝爾梅爾; zh-hk:貝瑪爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:野路子; zh-tw:虹子; zh-hk:路斯高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:健藏; zh-tw:源造; zh-hk:健助;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:巴拉蒂; zh-hk:美食樂園;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卓夫; zh-tw:哲普; zh-hk:卓夫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:西羅布村; zh-hk:果汁村;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:嘉雅; zh-tw:可雅; zh-hk:嘉雅;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:卡蒙; zh-hk:艾門;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴奇; zh-tw:巴其; zh-hk:巴基;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:亚比达; zh-tw:亞爾麗塔; zh-hk:亞比達;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:秀秀; zh-tw:咻咻; zh-hk:趣趣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:謝爾茲鎮; zh-hk:Shells Town;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:克伊娜; zh-hk:古伊娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:耕四郎; zh-hk:高四郎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:蒙卡; zh-hk:摩根;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:貝魯梅柏; zh-hk:希路麥普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:莉佳; zh-hk:里嘉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:莉莉佳; zh-hk:里里嘉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:佛夏村; zh-hk:風車村;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:瑪姬; zh-hk:瑪琪諾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:烏普·史拉布; zh-hk:烏普·斯拉普;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:西格; zh-hk:希格馬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:雞嬸; zh-hk:CHICKEN大嬸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:闪光人; zh-tw:光人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:高路; zh-tw:哥爾; zh-hk:葛魯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:罗杰; zh-tw:羅傑; zh-hk:羅渣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:電話蟲; zh-hk:電傳蟲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:東海; zh-tw:東方藍; zh-hk:東海;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:西海; zh-tw:西方藍; zh-hk:西海;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:北海; zh-tw:北方藍; zh-hk:北海;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:偉大航道; zh-tw:偉大的航路; zh-hk:偉大航道;"
+    },
+    {
+      "original": "",
+      "conv": "航海王=>zh-cn:航海王; 航海王=>zh-tw:航海王; 航海王=>zh-hk:海賊王;"
+    }
+  ]
+}

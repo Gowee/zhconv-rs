@@ -5,19 +5,23 @@
   "rules": [
     {
       "original": "building density",
-      "conv": "zh-cn:建筑密度;zh-hk:建築密度;zh-tw:建蔽率"
+      "conv": "zh-cn:建筑密度; zh-hk:建築密度; zh-tw:建蔽率;"
+    },
+    {
+      "original": "carrying capacity",
+      "conv": "容受力=>zh-cn:承载力; 容受力=>zh-hk:承載力;"
     },
     {
       "original": "CBD",
-      "conv": "zh-cn:中央商务区;zh-tw:中心商業區;zh-hk:核心商業區;zh-my:中央商务区;zh-sg:中央商业区"
+      "conv": "zh-cn:中央商务区; zh-tw:中心商業區; zh-hk:核心商業區; zh-my:中央商务区; zh-sg:中央商业区;"
     },
     {
       "original": "gentrification",
-      "conv": "zh-cn:士绅化;zh-tw:仕紳化;zh-hk:士紳化"
+      "conv": "zh-cn:士绅化; zh-tw:仕紳化; zh-hk:士紳化;"
     },
     {
       "original": "geographic information",
-      "conv": "zh-cn:地理信息;zh-tw:地理資訊"
+      "conv": "zh-cn:地理信息; zh-tw:地理資訊;"
     },
     {
       "original": "megalopolis",
@@ -37,27 +41,31 @@
     },
     {
       "original": "metropolitan area",
-      "conv": "zh-hans:都市区;zh-hant:都市區"
+      "conv": "zh-hans:都市区; zh-hant:都市區;"
     },
     {
       "original": "plot ratio",
-      "conv": "zh-cn:容积率;zh-hk:地積比率;zh-tw:容積率"
+      "conv": "zh-cn:容积率; zh-hk:地積比率; zh-tw:容積率;"
     },
     {
       "original": "primate city",
-      "conv": "zh-cn:首位城市;zh-hk:首位城市;zh-tw:首要型都市"
+      "conv": "zh-cn:首位城市; zh-hk:首位城市; zh-tw:首要型都市;"
     },
     {
       "original": "real estate developer",
-      "conv": "zh-cn:开发商;zh-hk:發展商;zh-tw:開發商;zh-sg:发展商"
+      "conv": "zh-cn:开发商; zh-hk:發展商; zh-tw:開發商; zh-sg:发展商;"
+    },
+    {
+      "original": "remote sensing",
+      "conv": "zh-cn:遥感; zh-hk:遙感; zh-tw:遙測;"
     },
     {
       "original": "site planning",
-      "conv": "zh-cn:场地规划;zh-hk:地盤規劃;zh-tw:敷地計畫;zh-my:场地规划;zh-sg:地盘规划"
+      "conv": "zh-cn:场地规划; zh-hk:地盤規劃; zh-tw:敷地計畫; zh-my:场地规划; zh-sg:地盘规划;"
     },
     {
       "original": "The Death and Life of Great American Cities",
-      "conv": "zh-cn:美国大城市的死与生;zh-tw:偉大城市的誕生與衰亡"
+      "conv": "zh-cn:美国大城市的死与生; zh-tw:偉大城市的誕生與衰亡;"
     },
     {
       "original": "The Image of the City",
@@ -69,59 +77,63 @@
     },
     {
       "original": "urban",
-      "conv": "zh-cn:城市;zh-tw:都市;zh-hk:城市"
+      "conv": "zh-cn:城市; zh-tw:都市; zh-hk:城市;"
     },
     {
       "original": "urban growth boundary",
-      "conv": "zh-cn:城市增长边界;zh-tw:都市成長邊界;zh-hk:城市增長邊界"
+      "conv": "zh-cn:城市增长边界; zh-tw:都市成長邊界; zh-hk:城市增長邊界;"
     },
     {
       "original": "urban planning",
-      "conv": "zh-cn:城市规划;zh-tw:都市計畫;zh-hk:城市規劃"
+      "conv": "zh-cn:城市规划; zh-tw:都市計畫; zh-hk:城市規劃; 都市計劃=>zh-cn:城市规划; 都市計劃=>zh-hk:城市規劃"
     },
     {
       "original": "urban planner",
-      "conv": "zh-cn:城市规划师;zh-tw:都市計畫技師;zh-hk:城市規劃師"
-    },
-    {
-      "original": "urban planning",
-      "conv": "都市計劃=>zh-cn:城市规划;都市計劃=>zh-hk:城市規劃"
+      "conv": "zh-cn:城市规划师; zh-tw:都市計畫技師; zh-hk:城市規劃師;"
     },
     {
       "original": "urban renewal",
-      "conv": "zh-cn:城市更新;zh-tw:都市更新;zh-hk:市區更新"
+      "conv": "zh-cn:城市更新; zh-tw:都市更新; zh-hk:市區更新;"
     },
     {
       "original": "城市规划区",
-      "conv": "zh-hans:城市规划区;zh-hant:城市規劃區"
+      "conv": "zh-hans:城市规划区; zh-hant:城市規劃區;"
     },
     {
       "original": "城市规划法",
-      "conv": "zh-hans:城市规划法;zh-hant:城市規劃法"
+      "conv": "zh-hans:城市规划法; zh-hant:城市規劃法;"
     },
     {
       "original": "都市計畫法",
-      "conv": "zh-hans:都市计画法;zh-hant:都市計畫法"
+      "conv": "zh-hans:都市计画法; zh-hant:都市計畫法;"
     },
     {
       "original": "都市計畫令",
-      "conv": "zh-hans:都市计画令;zh-hant:都市計畫令"
+      "conv": "zh-hans:都市计画令; zh-hant:都市計畫令;"
     },
     {
       "original": "Bauhaus",
-      "conv": "zh-cn:包豪斯;zh-tw:包浩斯;zh-hk:包浩斯"
+      "conv": "zh-cn:包豪斯; zh-tw:包浩斯; zh-hk:包浩斯;"
     },
     {
       "original": "compact city",
-      "conv": "zh-cn:紧凑城市;zh-tw:緊密都市;zh-hk:緊湊城市"
+      "conv": "zh-cn:紧凑城市; zh-tw:緊密都市; zh-hk:緊湊城市;"
     },
     {
       "original": "Garden City",
-      "conv": "zh-hans:田园城市;zh-hant:田園城市"
+      "conv": "zh-hans:田园城市; zh-hant:田園城市;"
+    },
+    {
+      "original": "mixed-use development",
+      "conv": "zh-cn:混合用途开发; zh-tw:混合用途發展;"
     },
     {
       "original": "resilient city",
-      "conv": "zh-hans:韧性城市;zh-hant:韌性城市"
+      "conv": "zh-hans:韧性城市; zh-hant:韌性城市;"
+    },
+    {
+      "original": "single-use development",
+      "conv": "zh-cn:单一功能开发; zh-tw:單一用途發展;"
     },
     {
       "original": "smart city",
@@ -129,67 +141,71 @@
     },
     {
       "original": "Smart Growth",
-      "conv": "zh-cn:精明增长;zh-tw:明智開發"
+      "conv": "zh-cn:精明增长; zh-tw:明智開發;"
     },
     {
       "original": "sponge city",
-      "conv": "zh-hans:海绵城市;zh-hant:海綿城市"
+      "conv": "zh-hans:海绵城市; zh-hant:海綿城市;"
     },
     {
       "original": "sustainable development",
-      "conv": "zh-cn:可持续发展;zh-hk:可持續發展;zh-tw:永續發展"
+      "conv": "zh-cn:可持续发展; zh-hk:可持續發展; zh-tw:永續發展;"
     },
     {
       "original": "Ville Radieuse",
-      "conv": "zh:光辉城市;zh-hans:光辉城市;zh-hant:光輝城市"
+      "conv": "zh:光辉城市; zh-hans:光辉城市; zh-hant:光輝城市;"
     },
     {
       "original": "大上海都市計劃",
-      "conv": "zh:大上海都市计划;zh-hans:大上海都市计划;zh-hant:大上海都市計劃"
+      "conv": "zh:大上海都市计划; zh-hans:大上海都市计划; zh-hant:大上海都市計劃;"
     },
     {
       "original": "municipal engineering",
-      "conv": "zh-cn:市政工程;zh-hk:市政工程;zh-tw:都市工程"
+      "conv": "zh-cn:市政工程; zh-hk:市政工程; zh-tw:都市工程;"
     },
     {
       "original": "manhole",
-      "conv": "zh-cn:窨井;zh-hk:沙井;zh-tw:人孔"
+      "conv": "zh-cn:窨井; zh-hk:沙井; zh-tw:人孔;"
     },
     {
       "original": "utility tunnel",
-      "conv": "zh-cn:综合管廊;zh-tw:共同管道"
+      "conv": "zh-cn:综合管廊; zh-tw:共同管道;"
     },
     {
       "original": "construction management",
-      "conv": "zh-cn:建筑工程管理;zh-hk:建築工程管理;zh-tw:營建管理"
+      "conv": "zh-cn:建筑工程管理; zh-hk:建築工程管理; zh-tw:營建管理;"
     },
     {
       "original": "cable-stayed bridge",
-      "conv": "zh-cn:斜拉桥;zh-hk:斜拉橋;zh-tw:斜張橋"
+      "conv": "zh-cn:斜拉桥; zh-hk:斜拉橋; zh-tw:斜張橋;"
     },
     {
       "original": "scaffold",
-      "conv": "zh-cn:脚手架;zh-hk:棚架;zh-tw:鷹架"
+      "conv": "zh-cn:脚手架; zh-hk:棚架; zh-tw:鷹架;"
     },
     {
       "original": "bus",
-      "conv": "zh-tw:公車;zh-cn:公交车;zh-hk:巴士;zh-sg:巴士;zh-mo:巴士;zh-my:巴士"
+      "conv": "zh-tw:公車; zh-cn:公交车; zh-hk:巴士; zh-sg:巴士; zh-mo:巴士; zh-my:巴士;"
     },
     {
       "original": "bike",
-      "conv": "zh-cn:自行车;zh-tw:腳踏車;zh-hk:單車;zh-sg:脚车;zh-my:脚车（自行车）"
+      "conv": "zh-cn:自行车; zh-tw:腳踏車; zh-hk:單車; zh-sg:脚车; zh-my:脚车（自行车）;"
+    },
+    {
+      "original": "transit-oriented",
+      "conv": "zh-cn:公共交通导向; zh-hk:公共運輸導向; zh-tw:大眾運輸導向;"
     },
     {
       "original": "Corbusier",
-      "conv": "zh-tw:柯比意;zh-cn:柯布西耶;zh-hk:科比意"
+      "conv": "zh-tw:柯比意; zh-cn:柯布西耶; zh-hk:科比意;"
     },
     {
       "original": "Kevin Lynch",
-      "conv": "zh-cn:凯文·林奇;zh-tw:凱文·林區"
+      "conv": "zh-cn:凯文·林奇; zh-tw:凱文·林區;"
     },
     {
       "original": "Jane Jacobs",
-      "conv": "zh-cn:简·雅各布斯;zh-tw:珍·雅各"
+      "conv": "zh-cn:简·雅各布斯; zh-tw:珍·雅各;"
     },
     {
       "original": "Jane Jacobs",

@@ -33,19 +33,19 @@
     },
     {
       "original": "Knicks",
-      "conv": "尼克斯=>zh-hk:紐約人;尼克斯=>zh-mo:紐約人"
+      "conv": "尼克斯=>zh-hk:紐約人;尼克斯=>zh-mo:紐約人;"
     },
     {
       "original": "New York Knicks",
-      "conv": "纽约尼克斯=>zh-cn:纽约尼克斯;纽约尼克斯=>zh-tw:紐約尼克;纽约尼克斯=>zh-hk:紐約人;纽约尼克斯=>zh-mo:紐約人"
+      "conv": "纽约尼克斯=>zh-cn:纽约尼克斯;纽约尼克斯=>zh-tw:紐約尼克;纽约尼克斯=>zh-hk:紐約人;纽约尼克斯=>zh-mo:紐約人;"
     },
     {
       "original": "New York Knicks",
-      "conv": "紐約尼克斯=>zh-cn:纽约尼克斯;紐約尼克斯=>zh-tw:紐約尼克;紐約尼克=>zh-hk:紐約人;紐約尼克斯=>zh-mo:紐約人"
+      "conv": "紐約尼克斯=>zh-cn:纽约尼克斯;紐約尼克斯=>zh-tw:紐約尼克;紐約尼克=>zh-hk:紐約人;紐約尼克斯=>zh-mo:紐約人;"
     },
     {
       "original": "New York Knicks",
-      "conv": "紐約尼克=>zh-cn:纽约尼克斯;紐約尼克=>zh-tw:紐約尼克;紐約尼克=>zh-hk:紐約人;紐約尼克=>zh-mo:紐約人"
+      "conv": "紐約尼克=>zh-cn:纽约尼克斯;紐約尼克=>zh-tw:紐約尼克;紐約尼克=>zh-hk:紐約人;紐約尼克=>zh-mo:紐約人;"
     },
     {
       "original": "Nuggets",
@@ -61,7 +61,7 @@
     },
     {
       "original": "Raptors",
-      "conv": "zh-hans:猛龙;zh-hant:暴龍;zh-tw:暴龍;zh-hk:速龍;zh-mo:速龍"
+      "conv": "zh-hans:猛龙;zh-hant:暴龍;zh-tw:暴龍;zh-hk:速龍;zh-mo:速龍;"
     },
     {
       "original": "Minnesota Timberwolves",
@@ -73,15 +73,19 @@
     },
     {
       "original": "Trail Blazers",
-      "conv": "zh-cn:开拓者;zh-hant:拓荒者"
+      "conv": "zh-cn:开拓者;zh-hant:拓荒者;"
     },
     {
       "original": "Wizards",
-      "conv": "zh-cn:奇才;zh-hant:巫師;zh-tw:巫師;zh-hk:巫師;zh-mo:巫師"
+      "conv": "zh-cn:奇才;zh-hant:巫師;zh-tw:巫師;zh-hk:巫師;zh-mo:巫師;"
     },
     {
       "original": "Syracuse Nationals",
-      "conv": "zh-cn:锡拉丘兹民族;zh-hant:雪城國民;zh-tw:雪城國民"
+      "conv": "zh-cn:锡拉丘兹民族;zh-hant:雪城國民;zh-tw:雪城國民;"
+    },
+    {
+      "original": "NBA G League Ignite",
+      "conv": "zh-cn:NBA发展联盟点燃队;zh-tw:NBA G聯盟引爆者;"
     },
     {
       "original": "Atlanta",
@@ -97,7 +101,7 @@
     },
     {
       "original": "Cleveland",
-      "conv": "克里夫兰=>zh-cn:克利夫兰;克里夫兰=>zh-my:克利夫兰;克里夫兰=>zh-sg:克利夫兰;克里夫兰=>zh-tw:克里夫蘭;克里夫兰=>zh-hk:克里夫蘭;克里夫兰=>zh-mo:克里夫蘭"
+      "conv": "克里夫兰=>zh-cn:克利夫兰;克里夫兰=>zh-my:克利夫兰;克里夫兰=>zh-sg:克利夫兰;克里夫兰=>zh-tw:克里夫蘭;克里夫兰=>zh-hk:克里夫蘭;克里夫兰=>zh-mo:克里夫蘭;"
     },
     {
       "original": "Houston",
@@ -121,11 +125,11 @@
     },
     {
       "original": "Memphis",
-      "conv": "曼斐斯=>zh-cn:孟菲斯;曼斐斯=>zh-tw:曼非斯;曼斐斯=>zh-hk:孟菲斯;曼斐斯=>zh-mo:孟菲斯"
+      "conv": "曼斐斯=>zh-cn:孟菲斯;曼斐斯=>zh-tw:曼非斯;曼斐斯=>zh-hk:孟菲斯;曼斐斯=>zh-mo:孟菲斯;"
     },
     {
       "original": "Miami",
-      "conv": "zh-cn:迈阿密;zh-tw:邁阿密;zh-hk:邁亞密"
+      "conv": "zh-cn:迈阿密; zh-tw:邁阿密; zh-hk:邁亞密;"
     },
     {
       "original": "Milwaukee",
@@ -141,7 +145,7 @@
     },
     {
       "original": "Oklahoma City",
-      "conv": "zh-cn:俄克拉何马城;zh-hant:奧克拉荷馬市;zh-tw:奧克拉荷馬市;zh-hk:奧克拉荷馬城;zh-mo:奧克拉荷馬城"
+      "conv": "zh-cn:俄克拉何马城;zh-hant:奧克拉荷馬市;zh-tw:奧克拉荷馬市;zh-hk:奧克拉荷馬城;zh-mo:奧克拉荷馬城;"
     },
     {
       "original": "Phoenix",
@@ -181,7 +185,7 @@
     },
     {
       "original": "Georgia",
-      "conv": "zh-cn:佐治亚州;zh-tw:喬治亞州;zh-hk:喬治亞州"
+      "conv": "zh-cn:佐治亚州; zh-tw:喬治亞州;zh-hk:喬治亞州"
     },
     {
       "original": "Idaho",
@@ -233,7 +237,7 @@
     },
     {
       "original": "Oklahoma",
-      "conv": "zh-cn:俄克拉何马;zh-hant:奧克拉荷馬;zh-tw:奧克拉荷馬;zh-hk:奧克拉荷馬;zh-mo:奧克拉荷馬"
+      "conv": "zh-cn:俄克拉何马;zh-hant:奧克拉荷馬;zh-tw:奧克拉荷馬;zh-hk:奧克拉荷馬;zh-mo:奧克拉荷馬;"
     },
     {
       "original": "Oregon",
@@ -245,11 +249,11 @@
     },
     {
       "original": "Texas",
-      "conv": "得克薩斯=>zh-cn:德克萨斯;得克薩斯=>zh-tw:德克薩斯;得克薩斯=>zh-hk:德薩斯"
+      "conv": "得克薩斯=>zh-cn:德克萨斯;得克薩斯=>zh-tw:德克薩斯;得克薩斯=>zh-hk:德薩斯;"
     },
     {
       "original": "Texas",
-      "conv": "得克萨斯=>zh-cn:德克萨斯;得克萨斯=>zh-tw:德克薩斯;得克萨斯=>zh-hk:德薩斯"
+      "conv": "得克萨斯=>zh-cn:德克萨斯;得克萨斯=>zh-tw:德克薩斯;得克萨斯=>zh-hk:德薩斯;"
     },
     {
       "original": "Virginia",
@@ -265,23 +269,23 @@
     },
     {
       "original": "Atlanta Hawks",
-      "conv": "亚特兰大鹰=>zh-hant:亞特蘭大老鷹;亚特兰大鹰=>zh-tw:亞特蘭大老鷹;亚特兰大鹰=>zh-hk:阿特蘭大鷹;亞特蘭大鷹=>zh-hk:阿特蘭大鷹;亚特兰大鹰=>zh-mo:阿特蘭大鷹"
+      "conv": "亚特兰大鹰=>zh-hant:亞特蘭大老鷹;亚特兰大鹰=>zh-tw:亞特蘭大老鷹;亚特兰大鹰=>zh-hk:阿特蘭大鷹;亞特蘭大鷹=>zh-hk:阿特蘭大鷹; 亚特兰大鹰=>zh-mo:阿特蘭大鷹;"
     },
     {
       "original": "Celtics",
-      "conv": "凱爾特人=>zh-hant:塞爾提克;凱爾特人=>zh-cn:凯尔特人;凱爾特人=>zh-tw:塞爾提克;凱爾特人=>zh-hk:塞爾特人;凱爾特人=>zh-mo:塞爾特人"
+      "conv": "凱爾特人=>zh-hant:塞爾提克;凱爾特人=>zh-cn:凯尔特人;凱爾特人=>zh-tw:塞爾提克;凱爾特人=>zh-hk:塞爾特人;凱爾特人=>zh-mo:塞爾特人;"
     },
     {
       "original": "Miami Heat",
-      "conv": "迈阿密热队=>zh-hant:邁阿密熱火;迈阿密热队=>zh-tw:邁阿密熱火;迈阿密热队=>zh-hk:邁阿密熱火;迈阿密热队=>zh-mo:邁阿密熱火"
+      "conv": "迈阿密热队=>zh-hant:邁阿密熱火;迈阿密热队=>zh-tw:邁阿密熱火;迈阿密热队=>zh-hk:邁阿密熱火;迈阿密热队=>zh-mo:邁阿密熱火;"
     },
     {
       "original": "New Jersey Nets",
-      "conv": "新泽西网=>zh-hant:紐澤西籃網;新泽西网=>zh-tw:紐澤西籃網;新泽西网=>zh-hk:新澤西籃網;新泽西网=>zh-mo:新澤西籃網"
+      "conv": "新泽西网=>zh-hant:紐澤西籃網;新泽西网=>zh-tw:紐澤西籃網;新泽西网=>zh-hk:新澤西籃網;新泽西网=>zh-mo:新澤西籃網;"
     },
     {
       "original": "New Jersey Nets",
-      "conv": "新澤西網隊=>zh-hant:紐澤西籃網;新澤西網隊=>zh-tw:紐澤西籃網;新澤西網隊=>zh-hk:新澤西籃網;新澤西網隊=>zh-mo:新澤西籃網"
+      "conv": "新澤西網隊=>zh-hant:紐澤西籃網;新澤西網隊=>zh-tw:紐澤西籃網;新澤西網隊=>zh-hk:新澤西籃網;新澤西網隊=>zh-mo:新澤西籃網;"
     },
     {
       "original": "Milwaukee Bucks",
@@ -349,7 +353,7 @@
     },
     {
       "original": "Alex",
-      "conv": "zh-cn:阿莱克斯;zh-tw:亞歷克斯;zh-hk:亞歷克斯"
+      "conv": "zh:亚历克斯;zh-cn:阿莱克斯;zh-tw:亞歷克斯;zh-hk:亞歷斯"
     },
     {
       "original": "Allen",
@@ -385,7 +389,7 @@
     },
     {
       "original": "Antoine",
-      "conv": "zh-cn:安托万;zh-tw:安東;zh-hk:安塔萬"
+      "conv": "zh-cn:安托万;zh-tw:安東;zh-hk:安托尼"
     },
     {
       "original": "Archibald",
@@ -425,7 +429,7 @@
     },
     {
       "original": "Atkins",
-      "conv": "亞特金斯=>zh-cn:阿特金斯;亞特金斯=>zh-tw:艾特金斯;亞特金斯=>zh-hk:艾堅斯;亞特金斯=>zh-mo:艾堅斯"
+      "conv": "亞特金斯=>zh-cn:阿特金斯;亞特金斯=>zh-tw:艾特金斯;亞特金斯=>zh-hk:艾堅斯;亞特金斯=>zh-mo:艾堅斯;"
     },
     {
       "original": "Auerbach",
@@ -472,6 +476,10 @@
       "conv": "zh-cn:贝勒;zh-tw:貝勒;zh-hk:庇拿"
     },
     {
+      "original": "Bazemore",
+      "conv": "zh-cn:贝兹莫尔;zh-tw:貝茲莫爾;zh-hk:比斯摩亞"
+    },
+    {
       "original": "Beasley",
       "conv": "zh-cn:比斯利;zh-tw:畢斯利;zh-hk:比士利"
     },
@@ -480,12 +488,20 @@
       "conv": "zh-cn:贝里内利;zh-tw:貝里納利;zh-hk:比連尼利"
     },
     {
+      "original": "Ben Simmons",
+      "conv": "zh-cn:本·西蒙斯;zh-tw:本·西蒙斯;zh-hk:賓·施蒙斯"
+    },
+    {
+      "original": "Ben Wallace",
+      "conv": "zh-cn:本·华莱士;zh-tw:本·華勒斯;zh-hk:賓·華萊士"
+    },
+    {
       "original": "Bender",
       "conv": "zh-cn:本德尔;zh-tw:班德;zh-hk:賓特"
     },
     {
       "original": "Bennett",
-      "conv": "zh-cn:本内特;zh-tw:貝内特;zh-hk:班尼特"
+      "conv": "zh-cn:本内特;zh-tw:班尼特;zh-hk:班尼特"
     },
     {
       "original": "Beverley",
@@ -625,7 +641,7 @@
     },
     {
       "original": "Carmelo",
-      "conv": "zh:卡梅隆;zh-cn:卡梅洛;zh-tw:卡梅羅;zh-hk:卡美路;zh-mo:卡美路"
+      "conv": "zh:卡梅隆; zh-cn:卡梅洛;zh-tw:卡梅羅;zh-hk:卡美路;zh-mo:卡美路"
     },
     {
       "original": "Caron",
@@ -634,6 +650,10 @@
     {
       "original": "Carter",
       "conv": "zh-cn:卡特;zh-tw:卡特;zh-hk:卡達"
+    },
+    {
+      "original": "Caruso",
+      "conv": "zh-cn:卡鲁索;zh-tw:卡魯索;zh-hk:卡路素"
     },
     {
       "original": "Cassell",
@@ -657,7 +677,7 @@
     },
     {
       "original": "Chris",
-      "conv": "zh-cn:克里斯;zh-tw:克里斯;zh-hk:基斯;zh-mo:基斯"
+      "conv": "zh-cn:克里斯;zh-tw:克里斯;zh-hk:基斯;zh-mo:基斯;"
     },
     {
       "original": "Chucky",
@@ -673,7 +693,7 @@
     },
     {
       "original": "Collins",
-      "conv": "zh-hans:科林斯;zh-hk:哥連斯;zh-tw:科林斯"
+      "conv": "zh:柯林斯;zh-hans:科林斯;zh-hk:哥連斯;zh-tw:科林斯;"
     },
     {
       "original": "Collinsworth",
@@ -685,7 +705,7 @@
     },
     {
       "original": "Conley",
-      "conv": "zh-cn:康利;zh-tw:康利;zh-hk:干尼"
+      "conv": "zh-cn:康利;zh-tw:康利; zh-hk:干尼"
     },
     {
       "original": "Connaughton",
@@ -693,7 +713,7 @@
     },
     {
       "original": "Cook",
-      "conv": "zh-cn:库克;zh-tw:庫克;zh-hk:曲"
+      "conv": "zh-cn:库克;zh-tw:庫克;zh-hk:曲克"
     },
     {
       "original": "Corey",
@@ -705,7 +725,7 @@
     },
     {
       "original": "Covington",
-      "conv": "zh:科溫頓;zh-cn:科溫顿;zh-tw:柯文頓;zh-hk:高榮頓"
+      "conv": "zh:科溫頓; zh-cn:科溫顿;zh-tw:柯文頓;zh-hk:高榮頓"
     },
     {
       "original": "Cousy",
@@ -741,7 +761,7 @@
     },
     {
       "original": "Curry",
-      "conv": "科里=>zh-cn:库里;科里=>zh-tw:柯瑞;科里=>zh-hk:居里"
+      "conv": "科里=>zh-cn:库里;科里=>zh-tw:柯瑞;科里=>zh-hk:居里;"
     },
     {
       "original": "Dalembert",
@@ -845,7 +865,7 @@
     },
     {
       "original": "Draymond",
-      "conv": "zh-cn:德雷蒙德;zh-hk:祖蒙特;zh-tw:卓雷蒙"
+      "conv": "zh-cn:德雷蒙德; zh-hk:祖蒙特; zh-tw:卓雷蒙"
     },
     {
       "original": "Drexler",
@@ -881,11 +901,11 @@
     },
     {
       "original": "Dwyane",
-      "conv": "德怀恩=>zh-cn:德维恩;德怀恩=>zh-tw:德韋恩;德怀恩=>zh-hk:迪韋恩;德怀恩=>zh-mo:迪韋恩"
+      "conv": "德怀恩=>zh-cn:德维恩;德怀恩=>zh-tw:德韋恩;德怀恩=>zh-hk:迪韋恩;德怀恩=>zh-mo:迪韋恩;"
     },
     {
       "original": "Dwyane",
-      "conv": "德韦恩=>zh-cn:德韦恩;德韦恩=>zh-tw:德韋恩;德韦恩=>zh-hk:迪韋恩;德韦恩=>zh-mo:迪韋恩"
+      "conv": "德韦恩=>zh-cn:德韦恩;德韦恩=>zh-tw:德韋恩;德韦恩=>zh-hk:迪韋恩;德韦恩=>zh-mo:迪韋恩;"
     },
     {
       "original": "Dwyane Wade",
@@ -901,7 +921,7 @@
     },
     {
       "original": "Edwards",
-      "conv": "zh-cn:爱德华兹;zh-tw:愛德華茲;zh-hk:艾德華"
+      "conv": "zh-cn:爱德华兹;zh-tw:愛德華茲;zh-hk:艾華斯"
     },
     {
       "original": "Elgin",
@@ -1009,19 +1029,27 @@
     },
     {
       "original": "Franck, Frank",
-      "conv": "zh-cn:弗兰克;zh-tw:法蘭克;zh-hk:法蘭"
+      "conv": "zh-cn:弗兰克;zh-tw:法蘭克;zh-hk:法蘭;"
+    },
+    {
+      "original": "Fred",
+      "conv": "zh-cn:弗瑞德;zh-tw:弗瑞德;zh-hk:費特;"
     },
     {
       "original": "Fultz",
-      "conv": "zh-cn:富尔茨;zh-tw:富爾茲;zh-hk:富斯"
+      "conv": "zh-cn:富尔茨;zh-tw:富爾茲;zh-hk:富斯;"
     },
     {
       "original": "Gallinari",
       "conv": "zh-cn:加利纳里;zh-tw:蓋里納利;zh-hk:加連拿利"
     },
     {
+      "original": "Galloway",
+      "conv": "zh:加洛韋;zh-cn:加洛韦;zh-tw:蓋洛威;zh-hk:"
+    },
+    {
       "original": "Gentry",
-      "conv": "zh-hans:金特里;zh-hk:金泰瑞;zh-tw:簡崔"
+      "conv": "zh-hans:金特里; zh-hk:金泰瑞; zh-tw:簡崔;"
     },
     {
       "original": "Garnett",
@@ -1029,7 +1057,7 @@
     },
     {
       "original": "Garnett",
-      "conv": "加內特=>zh-cn:加内特;加內特=>zh-tw:賈奈特;加內特=>zh-hk:加納特;加內特=>zh-mo:加納特"
+      "conv": "加內特=>zh-cn:加内特;加內特=>zh-tw:賈奈特;加內特=>zh-hk:加納特;加內特=>zh-mo:加納特;"
     },
     {
       "original": "Garrett",
@@ -1093,7 +1121,7 @@
     },
     {
       "original": "Green",
-      "conv": "zh-cn:格林;zh-tw:格林;zh-hk:格連"
+      "conv": "zh-hans:格林; zh-hk:格連; zh-tw:格林;"
     },
     {
       "original": "Griffin",
@@ -1136,10 +1164,6 @@
       "conv": "zh-cn:哈斯勒姆;zh-tw:哈斯倫;zh-hk:夏士林"
     },
     {
-      "original": "Hasheem",
-      "conv": "zh-cn:哈希姆;zh-tw:哈辛;zh-hk:哈希姆"
-    },
-    {
       "original": "Havlicek",
       "conv": "zh-cn:哈夫利切克;zh-tw:哈維契克;zh-hk:夏夫利沙"
     },
@@ -1157,11 +1181,11 @@
     },
     {
       "original": "Hernangómez",
-      "conv": "zh-hant:埃爾南戈麥斯;zh-hk:靴蘭高美斯;zh-cn:赫南戈麦斯;zh-tw:埃爾南高梅茲"
+      "conv": "zh-hant:埃爾南戈麥斯;zh-hk:靴蘭高美斯;zh-cn:赫南戈麦斯;zh-tw:埃爾南高梅茲;"
     },
     {
       "original": "Herro",
-      "conv": "zh-hk:希路;zh-cn:希罗;zh-tw:赫洛"
+      "conv": "zh-hk:希路;zh-cn:希罗;zh-tw:赫洛;"
     },
     {
       "original": "Hidayet",
@@ -1184,16 +1208,20 @@
       "conv": "zh-cn:胡德;zh-tw:胡德;zh-hk:賀特"
     },
     {
+      "original": "Horford",
+      "conv": "zh-cn:霍福德;zh-tw:霍福德;zh-hk:賀福特"
+    },
+    {
       "original": "Hornacek",
-      "conv": "zh-cn:霍纳塞克;zh-tw:霍納塞克;zh-hk:漢拿錫"
+      "conv": "zh-cn:霍纳塞克;zh-tw:何納塞克;zh-hk:漢拿錫"
     },
     {
       "original": "Horry",
       "conv": "zh-cn:霍里;zh-tw:歐瑞;zh-hk:荷利"
     },
     {
-      "original": "Horford",
-      "conv": "zh-cn:霍福德;zh-tw:霍福德;zh-hk:賀福特"
+      "original": "Horton-Tucker",
+      "conv": "zh-cn:霍顿-塔克;zh-tw:霍頓-塔克;zh-hk:賀頓-德加"
     },
     {
       "original": "Howard",
@@ -1201,7 +1229,7 @@
     },
     {
       "original": "Howard",
-      "conv": "霍華=>zh-cn:霍华德;霍華=>zh-tw:霍華德;霍華=>zh-hk:侯活;霍華=>zh-mo:侯活"
+      "conv": "霍華=>zh-cn:霍华德;霍華=>zh-tw:霍華德;霍華=>zh-hk:侯活;霍華=>zh-mo:侯活;"
     },
     {
       "original": "Iguodala",
@@ -1237,7 +1265,7 @@
     },
     {
       "original": "Jabari",
-      "conv": "賈巴里=>zh-hk:查巴利"
+      "conv": "賈巴里=>zh-hk:查巴利;"
     },
     {
       "original": "Jabbar",
@@ -1261,7 +1289,7 @@
     },
     {
       "original": "Jamison",
-      "conv": "杰米森=>zh-cn:贾米森;杰米森=>zh-tw:傑米森;杰米森=>zh-hk:占美臣;杰米森=>zh-mo:占美臣"
+      "conv": "杰米森=>zh-cn:贾米森;杰米森=>zh-tw:傑米森;杰米森=>zh-hk:占美臣;杰米森=>zh-mo:占美臣;"
     },
     {
       "original": "JaMychal",
@@ -1269,11 +1297,11 @@
     },
     {
       "original": "Jason",
-      "conv": "zh-hans:杰森;zh-cn:贾森;zh-tw:傑森;zh-hk:積臣"
+      "conv": "zh-hans:杰森; zh-cn:贾森;zh-tw:傑森;zh-hk:積臣"
     },
     {
       "original": "Jason",
-      "conv": "贾森=>zh-cn:贾森;贾森=>zh-tw:傑森;贾森=>zh-hk:積臣;贾森=>zh-mo:積臣"
+      "conv": "贾森=>zh-cn:贾森;贾森=>zh-tw:傑森;贾森=>zh-hk:積臣;贾森=>zh-mo:積臣;"
     },
     {
       "original": "Javaris",
@@ -1297,7 +1325,7 @@
     },
     {
       "original": "Jeffrey",
-      "conv": "傑弗瑞=>zh-cn:杰弗里;傑弗瑞=>zh-tw:傑佛瑞;傑弗瑞=>zh-hk:謝菲;傑弗瑞=>zh-mo:謝菲"
+      "conv": "傑弗瑞=>zh-cn:杰弗里;傑弗瑞=>zh-tw:傑佛瑞;傑弗瑞=>zh-hk:謝菲;傑弗瑞=>zh-mo:謝菲;"
     },
     {
       "original": "Jefferson",
@@ -1305,7 +1333,7 @@
     },
     {
       "original": "Jefferson",
-      "conv": "杰弗逊=>zh-tw:傑佛森;杰弗逊=>zh-cn:杰弗森;杰弗逊=>zh-hk:謝法臣;杰弗逊=>zh-mo:謝法臣"
+      "conv": "杰弗逊=>zh-tw:傑佛森;杰弗逊=>zh-cn:杰弗森;杰弗逊=>zh-hk:謝法臣;杰弗逊=>zh-mo:謝法臣;"
     },
     {
       "original": "Jerebko",
@@ -1357,7 +1385,7 @@
     },
     {
       "original": "Jordan",
-      "conv": "喬登=>zh-cn:乔丹;喬登=>zh-tw:喬丹;喬登=>zh-hk:佐敦;喬登=>zh-mo:佐敦"
+      "conv": "喬登=>zh-cn:乔丹;喬登=>zh-tw:喬丹;喬登=>zh-hk:佐敦;喬登=>zh-mo:佐敦;"
     },
     {
       "original": "José",
@@ -1393,7 +1421,7 @@
     },
     {
       "original": "Kanter",
-      "conv": "zh-cn:坎特;zh-tw:坎特;zh-hk:根達"
+      "conv": "zh-cn:坎特;zh-tw:坎特;zh-hk:簡達"
     },
     {
       "original": "Kawhi",
@@ -1409,7 +1437,7 @@
     },
     {
       "original": "Kennard",
-      "conv": "zh-cn:肯纳德;zh-tw:肯納德;zh-hk:"
+      "conv": "zh-cn:肯纳德;zh-tw:肯納德;zh-hk:堅拿特"
     },
     {
       "original": "Kennedy",
@@ -1430,6 +1458,10 @@
     {
       "original": "Kevin",
       "conv": "zh-cn:凯文;zh-tw:凱文;zh-hk:奇雲"
+    },
+    {
+      "original": "Kevon Looney",
+      "conv": "zh-cn:凯文·卢尼;zh-tw:凱文·盧尼;zh-hk:卡方·隆尼"
     },
     {
       "original": "Kidd",
@@ -1462,6 +1494,10 @@
     {
       "original": "Kukoc",
       "conv": "zh-cn:库科奇;zh-tw:庫柯奇;zh-hk:古高"
+    },
+    {
+      "original": "Kuminga",
+      "conv": "zh-tw:庫明加;zh-hk:古明加;zh-hans:库明加;"
     },
     {
       "original": "Kuzma",
@@ -1501,7 +1537,7 @@
     },
     {
       "original": "LaMarcus",
-      "conv": "zh-cn:拉玛库斯;zh-tw:拉馬庫斯;zh-hk:拉馬吉斯"
+      "conv": "zh-cn:拉玛库斯;zh-tw:拉馬庫斯;zh-hk:拉馬古斯"
     },
     {
       "original": "Latrell",
@@ -1517,7 +1553,7 @@
     },
     {
       "original": "Leonard",
-      "conv": "zh:倫納德;zh-cn:伦纳德;zh-hk:李安納;zh-mo:李奧拿德;zh-tw:雷納德;zh-sg:伦纳德"
+      "conv": "zh:倫納德;zh-cn:伦纳德;zh-hk:李安納;zh-mo:李奧拿德;zh-tw:雷納德;zh-sg:伦纳德;"
     },
     {
       "original": "Leonardo",
@@ -1562,6 +1598,10 @@
     {
       "original": "Lue",
       "conv": "zh-cn:·鲁;zh-tw:·魯;zh-hk:·路爾"
+    },
+    {
+      "original": "Looney",
+      "conv": "zh-cn:卢尼;zh-tw:盧尼;zh-hk:隆尼"
     },
     {
       "original": "Lopez",
@@ -1612,6 +1652,10 @@
       "conv": "zh-cn:梅森;zh-tw:梅森;zh-hk:馬臣"
     },
     {
+      "original": "Maxey",
+      "conv": "zh-cn:马克西;zh-tw:馬克西;zh-hk:麥斯"
+    },
+    {
       "original": "Maxwell",
       "conv": "zh-cn:马克斯韦尔;zh-tw:麥斯威爾;zh-hk:麥斯韋"
     },
@@ -1637,7 +1681,7 @@
     },
     {
       "original": "McLemore",
-      "conv": "zh-hans:麦克莱默;zh-hk:麥利摩爾;zh-tw:麥克藍莫"
+      "conv": "zh-hans:麦克莱默; zh-hk:麥利摩爾; zh-tw:麥克藍莫"
     },
     {
       "original": "Meeks",
@@ -1645,7 +1689,7 @@
     },
     {
       "original": "Michael",
-      "conv": "zh-cn:迈克尔;zh-tw:麥可;zh-hk:米高"
+      "conv": "zh:邁克爾;zh-cn:迈克尔;zh-tw:麥可;zh-hk:米高"
     },
     {
       "original": "Middleton",
@@ -1737,7 +1781,7 @@
     },
     {
       "original": "Nelson",
-      "conv": "zh-cn:尼尔森;zh-tw:尼爾森;zh-hk:尼爾遜·"
+      "conv": "zh-cn:尼尔森;zh-tw:尼爾森;zh-hk:尼爾遜"
     },
     {
       "original": "Nick",
@@ -1757,7 +1801,7 @@
     },
     {
       "original": "Nowitzki",
-      "conv": "諾維茨基=>zh-cn:诺维茨基;諾維茨基=>zh-tw:諾威斯基;諾維茨基=>zh-hk:魯域斯基;諾維茨基=>zh-mo:魯域斯基"
+      "conv": "諾維茨基=>zh-cn:诺维茨基;諾維茨基=>zh-tw:諾威斯基;諾維茨基=>zh-hk:魯域斯基;諾維茨基=>zh-mo:魯域斯基;"
     },
     {
       "original": "Ntilikina",
@@ -1806,6 +1850,10 @@
     {
       "original": "O'Quinn",
       "conv": "zh-cn:奥奎因;zh-tw:歐奎恩;zh-hk:奧昆恩"
+    },
+    {
+      "original": "Otto",
+      "conv": "zh-cn:奥托;zh-tw:奧托;zh-hk:奧圖"
     },
     {
       "original": "Pachulia",
@@ -1865,7 +1913,11 @@
     },
     {
       "original": "Popovich",
-      "conv": "zh-cn:波波维奇;zh-tw:波波維奇;zh-hk:普波域治"
+      "conv": "zh-cn:波波维奇; zh-tw:波波維奇; zh-hk:普波域治"
+    },
+    {
+      "original": "Porter",
+      "conv": "zh-cn:·波特;zh-tw:·波特;zh-hk:·波達"
     },
     {
       "original": "Portis",
@@ -1873,7 +1925,7 @@
     },
     {
       "original": "Porzingis",
-      "conv": "zh:波爾津吉斯;zh-cn:波尔津吉斯;zh-tw:波爾辛吉斯;zh-hk:普辛基斯"
+      "conv": "zh:波爾津吉斯; zh-cn:波尔津吉斯;zh-tw:波爾辛吉斯;zh-hk:普辛基斯"
     },
     {
       "original": "Posey",
@@ -1882,6 +1934,10 @@
     {
       "original": "Powell",
       "conv": "zh-cn:鲍威尔;zh-tw:鮑威爾;zh-hk:保維"
+    },
+    {
+      "original": "Pritchard",
+      "conv": "zh-cn:普里查德;zh-tw:普里查德;zh-hk:比查特"
     },
     {
       "original": "Quentin",
@@ -1937,7 +1993,7 @@
     },
     {
       "original": "Reggie",
-      "conv": "zh-cn:雷吉;zh-tw:雷吉;zh-hk:列治"
+      "conv": "zh-cn:雷吉;zh-tw:瑞吉;zh-hk:列治"
     },
     {
       "original": "Richard",
@@ -1953,7 +2009,7 @@
     },
     {
       "original": "Ricardo",
-      "conv": "zh-cn:里卡多;zh-tw:瑞卡多;zh-hk:列卡度"
+      "conv": "zh-cn:里卡多;zh-tw:瑞卡多; zh-hk:列卡度"
     },
     {
       "original": "Rick",
@@ -2017,11 +2073,11 @@
     },
     {
       "original": "Sam",
-      "conv": "萨姆=>zh-cn:萨姆;萨姆=>zh-tw:山姆;萨姆=>zh-hk:森;萨姆=>zh-mo:森"
+      "conv": "萨姆=>zh-cn:萨姆;萨姆=>zh-tw:山姆;萨姆=>zh-hk:森;萨姆=>zh-mo:森;"
     },
     {
       "original": "Sam",
-      "conv": "山姆=>zh-cn:萨姆;山姆=>zh-tw:山姆;山姆=>zh-hk:森;山姆=>zh-mo:森"
+      "conv": "山姆=>zh-cn:萨姆;山姆=>zh-tw:山姆;山姆=>zh-hk:森;山姆=>zh-mo:森;"
     },
     {
       "original": "Sampson, Simpson",
@@ -2032,12 +2088,12 @@
       "conv": "zh-cn:萨缪尔;zh-tw:山繆;zh-hk:森姆"
     },
     {
-      "original": "Saric",
-      "conv": "zh-cn:萨里奇;zh-tw:薩利奇;zh-hk:沙歷"
+      "original": "Šarić",
+      "conv": "zh-cn:萨里奇;zh-tw:沙里奇;zh-hk:沙歷"
     },
     {
       "original": "Schrempf",
-      "conv": "zh-cn:施伦普夫;zh-tw:史倫夫"
+      "conv": "zh-cn:施伦普夫; zh-tw:史倫夫"
     },
     {
       "original": "Scot, Scott",
@@ -2052,6 +2108,10 @@
       "conv": "zh-cn:塞弗罗萨;zh-tw:塞福洛沙;zh-hk:史科路沙"
     },
     {
+      "original": "Serge",
+      "conv": "zh-cn:塞尔吉;zh-tw:賽爾吉;zh-hk:沙治"
+    },
+    {
       "original": "Seth",
       "conv": "zh-cn:塞思;zh-tw:薩夫;zh-hk:施夫"
     },
@@ -2061,15 +2121,15 @@
     },
     {
       "original": "Shaquille",
-      "conv": "沙奎尔=>zh-cn:沙奎尔;沙奎尔=>zh-tw:俠客;沙奎尔=>zh-hk:沙基;沙奎尔=>zh-mo:沙基"
+      "conv": "沙奎尔=>zh-cn:沙奎尔;沙奎尔=>zh-tw:俠客;沙奎尔=>zh-hk:沙基;沙奎尔=>zh-mo:沙基;"
     },
     {
       "original": "Shaquille",
-      "conv": "沙奎爾=>zh-cn:沙奎尔;沙奎爾=>zh-tw:俠客;沙奎爾=>zh-hk:沙基;沙奎爾=>zh-mo:沙基"
+      "conv": "沙奎爾=>zh-cn:沙奎尔;沙奎爾=>zh-tw:俠客;沙奎爾=>zh-hk:沙基;沙奎爾=>zh-mo:沙基;"
     },
     {
       "original": "Shaquille",
-      "conv": "俠客·歐尼爾=>zh-cn:沙奎尔·奥尼尔;俠客·歐尼爾=>zh-tw:俠客·歐尼爾;俠客·歐尼爾=>zh-hk:沙基·奧尼爾;俠客·歐尼爾=>zh-mo:沙基·奧尼爾"
+      "conv": "俠客·歐尼爾=>zh-cn:沙奎尔·奥尼尔;俠客·歐尼爾=>zh-tw:俠客·歐尼爾;俠客·歐尼爾=>zh-hk:沙基·奧尼爾;俠客·歐尼爾=>zh-mo:沙基·奧尼爾;"
     },
     {
       "original": "Sharman",
@@ -2104,6 +2164,10 @@
       "conv": "zh-cn:斯隆;zh-tw:史隆;zh-hk:史隆"
     },
     {
+      "original": "Smart",
+      "conv": "zh-cn:斯玛特;zh-tw:史馬特;zh-hk:史馬特"
+    },
+    {
       "original": "Smith",
       "conv": "zh-cn:史密斯;zh-tw:史密斯;zh-hk:史密夫"
     },
@@ -2121,7 +2185,7 @@
     },
     {
       "original": "Sprewell",
-      "conv": "斯普雷维尔=>zh-cn:斯普雷威尔;斯普雷维尔=>zh-tw:史普利威爾;斯普雷维尔=>zh-hk:史比威爾;斯普雷维尔=>zh-mo:史比威爾"
+      "conv": "斯普雷维尔=>zh-cn:斯普雷威尔;斯普雷维尔=>zh-tw:史普利威爾;斯普雷维尔=>zh-hk:史比威爾;斯普雷维尔=>zh-mo:史比威爾;"
     },
     {
       "original": "Stackhouse",
@@ -2137,7 +2201,7 @@
     },
     {
       "original": "Stephen, Stephon, Steven",
-      "conv": "zh-hans:史蒂文;zh-cn:斯蒂芬;zh-tw:史蒂芬;zh-hk:史提芬"
+      "conv": "zh-hans:史蒂文; zh-cn:斯蒂芬;zh-tw:史蒂芬;zh-hk:史提芬"
     },
     {
       "original": "Stern",
@@ -2149,7 +2213,7 @@
     },
     {
       "original": "Steve",
-      "conv": "斯蒂夫=>zh-cn:史蒂夫;斯蒂夫=>zh-tw:史蒂夫;斯蒂夫=>zh-hk:史提夫;斯蒂夫=>zh-mo:史提夫"
+      "conv": "斯蒂夫=>zh-cn:史蒂夫;斯蒂夫=>zh-tw:史蒂夫;斯蒂夫=>zh-hk:史提夫;斯蒂夫=>zh-mo:史提夫;"
     },
     {
       "original": "Stockton",
@@ -2168,6 +2232,10 @@
       "conv": "zh-cn:斯泽比亚克;zh-tw:瑟比亞克;zh-hk:舒碧克"
     },
     {
+      "original": "Tatum",
+      "conv": "zh-hans:塔图姆; zh-hk:帝譚; zh-tw:塔圖姆;"
+    },
+    {
       "original": "Teague",
       "conv": "zh-cn:蒂格;zh-tw:提格;zh-hk:迪治"
     },
@@ -2181,11 +2249,19 @@
     },
     {
       "original": "Thabeet",
-      "conv": "zh-cn:塔比特;zh-tw:塔壁;zh-hk:泰比特"
+      "conv": "zh-cn:塔比特;zh-tw:塔比特;zh-hk:泰比特"
     },
     {
       "original": "Thabo",
       "conv": "zh-cn:萨博;zh-tw:塔博;zh-hk:塔博"
+    },
+    {
+      "original": "Thaddeus",
+      "conv": "zh-cn:赛迪斯;zh-tw:撒迪厄斯;zh-hk:法迪斯"
+    },
+    {
+      "original": "Thaddeus Young",
+      "conv": "zh-cn:赛迪斯·杨;zh-tw:撒迪厄斯·楊;zh-hk:法迪斯·楊格"
     },
     {
       "original": "Thibodeau",
@@ -2193,7 +2269,7 @@
     },
     {
       "original": "Thomas",
-      "conv": "zh-cn:托马斯;zh-tw:湯瑪斯;zh-hk:湯馬士"
+      "conv": "zh:托馬斯;zh-cn:托马斯;zh-tw:湯瑪斯;zh-hk:湯馬士"
     },
     {
       "original": "Thompson",
@@ -2217,7 +2293,11 @@
     },
     {
       "original": "Trae, Trey",
-      "conv": "zh-cn:特雷;zh-tw:崔;zh-hk:卓"
+      "conv": "zh-cn:特雷·;zh-tw:崔·;zh-hk:崔·"
+    },
+    {
+      "original": "Trae Young",
+      "conv": "zh-cn:特雷·杨;zh-tw:崔·楊;zh-hk:崔·楊格"
     },
     {
       "original": "Trevon",
@@ -2240,6 +2320,10 @@
       "conv": "zh-cn:特纳;zh-tw:透納;zh-hk:端拿"
     },
     {
+      "original": "Tyrese",
+      "conv": "zh-cn:泰雷塞;zh-tw:泰瑞澤;zh-hk:泰利斯"
+    },
+    {
       "original": "Tyrone, Tyronn",
       "conv": "zh-cn:泰伦;zh-tw:泰隆;zh-hk:泰隆"
     },
@@ -2253,11 +2337,15 @@
     },
     {
       "original": "Valančiūnas",
-      "conv": "zh-cn:瓦兰丘纳斯;zh-tw:瓦蘭丘納斯;zh-hk:華連斯休拿斯"
+      "conv": "zh-cn:瓦兰丘纳斯;zh-tw:瓦蘭丘納斯;zh-hk:華倫斯拿斯"
     },
     {
       "original": "Van Exel",
       "conv": "zh-cn:范埃克赛尔;zh-tw:范艾克索;zh-hk:雲艾素"
+    },
+    {
+      "original": "Van Exel",
+      "conv": "zh-cn:·范埃克赛尔;zh-tw:·范艾克索;zh-hk:·雲艾素"
     },
     {
       "original": "Van Gundy",
@@ -2272,6 +2360,10 @@
       "conv": "zh-cn:范霍恩;zh-tw:范洪;zh-hk:雲漢"
     },
     {
+      "original": "Van Horn",
+      "conv": "zh-cn:·范霍恩;zh-tw:·范洪;zh-hk:·雲漢"
+    },
+    {
       "original": "Varejão",
       "conv": "zh-cn:瓦莱乔;zh-tw:瓦雷讓;zh-hk:華利祖"
     },
@@ -2280,12 +2372,20 @@
       "conv": "zh-cn:范弗利特;zh-tw:范弗利特;zh-hk:雲維利特"
     },
     {
+      "original": "VanVleet",
+      "conv": "zh-cn:·范弗利特;zh-tw:·范弗利特;zh-hk:·雲維利特"
+    },
+    {
       "original": "Vincent",
       "conv": "zh-cn:文森特;zh-tw:文森特;zh-hk:雲遜"
     },
     {
       "original": "Vogel",
       "conv": "zh-cn:沃格尔;zh-tw:沃格爾;zh-hk:雲高"
+    },
+    {
+      "original": "Vucevic",
+      "conv": "zh-cn:武切维奇;zh-hk:胡斯域;zh-tw:武切維奇"
     },
     {
       "original": "Vujacic",
@@ -2309,7 +2409,7 @@
     },
     {
       "original": "Walton",
-      "conv": "zh-hans:沃顿;zh-hk:禾頓;zh-tw:華頓"
+      "conv": "zh-hans:沃顿;zh-hk:禾頓;zh-tw:華頓;"
     },
     {
       "original": "Wes",
@@ -2325,7 +2425,7 @@
     },
     {
       "original": "Westbrook",
-      "conv": "zh-hans:威斯布鲁克;zh-hk:韋斯布祿;zh-tw:衛斯特布魯克"
+      "conv": "zh-hans:威斯布鲁克;zh-hk:韋斯布祿;zh-tw:衛斯特布魯克;"
     },
     {
       "original": "Whiteside",
@@ -2341,11 +2441,11 @@
     },
     {
       "original": "Will",
-      "conv": "威尔=>zh-cn:威尔;威尔=>zh-tw:威爾;威尔=>zh-hk:韋;威尔=>zh-mo:韋"
+      "conv": "威尔=>zh-cn:威尔;威尔=>zh-tw:威爾;威尔=>zh-hk:韋;威尔=>zh-mo:韋;"
     },
     {
       "original": "Will",
-      "conv": "威爾=>zh-cn:威尔;威爾=>zh-tw:威爾;威爾=>zh-hk:韋;威爾=>zh-mo:韋"
+      "conv": "威爾=>zh-cn:威尔;威爾=>zh-tw:威爾;威爾=>zh-hk:韋;威爾=>zh-mo:韋;"
     },
     {
       "original": "Willis",
@@ -2366,6 +2466,10 @@
     {
       "original": "Wilson",
       "conv": "zh-cn:威尔逊;zh-tw:威爾森;zh-hk:韋遜"
+    },
+    {
+      "original": "Wiseman",
+      "conv": "zh-hans:怀斯曼;zh-hk:韋斯文;zh-tw:懷斯曼;"
     },
     {
       "original": "Worthy",
@@ -2517,7 +2621,7 @@
     },
     {
       "original": "Block",
-      "conv": "蓋帽=>zh-cn:盖帽;蓋帽=>zh-tw:阻攻;蓋帽=>zh-hk:封阻;蓋帽=>zh-mo:阻攻"
+      "conv": "蓋帽=>zh-cn:盖帽;蓋帽=>zh-tw:阻攻;蓋帽=>zh-hk:封阻;蓋帽=>zh-mo:阻攻;"
     },
     {
       "original": "Official",
@@ -2569,11 +2673,11 @@
     },
     {
       "original": "Regular season",
-      "conv": "zh:例行赛;zh-cn:常规赛;zh-tw:例行賽;zh-hk:常規賽"
+      "conv": "zh:例行赛; zh-cn:常规赛;zh-tw:例行賽;zh-hk:常規賽"
     },
     {
       "original": "Regular season",
-      "conv": "例行赛=>zh-tw:例行賽;例行赛=>zh-hk:常規賽"
+      "conv": "例行赛=>zh-tw:例行賽;例行赛=>zh-hk:常規賽;"
     },
     {
       "original": "Overtime, OT",
@@ -2633,47 +2737,55 @@
     },
     {
       "original": "Ring",
-      "conv": "指環=>zh-tw:戒指;指環=>zh-hk:指環;指環=>zh-mo:指環"
+      "conv": "指環=>zh-tw:戒指;指環=>zh-hk:指環;指環=>zh-mo:指環;"
     },
     {
       "original": "Salary",
       "conv": "zh-cn:工资;zh-tw:薪資;zh-hk:薪金"
     },
     {
+      "original": "",
+      "conv": "zh-cn:信息;zh-tw:訊息;"
+    },
+    {
       "original": "Current Roster",
-      "conv": "zh-cn:现时球员名单;zh-tw:現役球員名單;zh-hk:現役球員名單"
+      "conv": "zh-cn:现时球员名单;zh-tw:現役球員名單;zh-hk:現役球員名單;"
     },
     {
       "original": "Linsanity",
-      "conv": "zh-cn:林来疯;zh-tw:林來瘋;zh-hk:林瘋"
+      "conv": "zh-cn:林来疯;zh-tw:林來瘋;zh-hk:林瘋;"
     },
     {
       "original": "",
-      "conv": "zh-cn:NBA50大巨星;zh-tw:NBA50大球星;zh-hk:NBA50大球星"
+      "conv": "zh-cn:NBA50大巨星;zh-tw:NBA50大球星;zh-hk:NBA50大球星;"
     },
     {
       "original": "",
-      "conv": "zh-cn:NBA史上50大巨星;zh-tw:NBA史上50大球星;zh-hk:NBA史上50大球星"
+      "conv": "zh-cn:NBA史上50大巨星;zh-tw:NBA史上50大球星;zh-hk:NBA史上50大球星;"
     },
     {
       "original": "",
-      "conv": "zh-cn:;zh-tw:戰績;zh-hk:賽績"
+      "conv": "zh-cn:;zh-tw:戰績;zh-hk:賽績;"
     },
     {
       "original": "England",
-      "conv": "zh-cn:英格兰;zh-tw:英格蘭;zh-hk:英格蘭"
+      "conv": "zh-cn:英格兰;zh-tw:英格蘭;zh-hk:英格蘭;"
+    },
+    {
+      "original": "California",
+      "conv": "zh-cn:加利福尼亚;zh-tw:加利福尼亞;zh-hk:加利福尼亞;"
     },
     {
       "original": "Slav(s)",
-      "conv": "zh-hans:斯拉夫;zh-hant:斯拉夫"
+      "conv": "zh-hans:斯拉夫;zh-hant:斯拉夫;"
     },
     {
       "original": "Yugoslavia",
-      "conv": "zh-hans:南斯拉夫;zh-hant:南斯拉夫"
+      "conv": "zh-hans:南斯拉夫;zh-hant:南斯拉夫;"
     },
     {
-      "original": "",
-      "conv": ""
+      "original": "Cleanthony",
+      "conv": "zh-hans:克里安东尼;zh-hant:克里安東尼;"
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "name": "GundamTWFM",
+  "description": "機動戰士GUNDAM 水星的魔女",
+  "path": "Template:CGroup/GundamTWFM",
+  "rules": [
+    {
+      "original": "スレッタ、Suletta",
+      "conv": "zh-cn:斯莱塔; zh-hk:蘇萊塔; zh-tw:蘇萊塔;"
+    },
+    {
+      "original": "ミオリネ、Miorine",
+      "conv": "zh-cn:米奥莉奈; zh-hk:米奧莉奈; zh-tw:米奧琳涅;"
+    },
+    {
+      "original": "レンブラン、Rembran",
+      "conv": "zh-cn:伦布兰; zh-hk:連布蘭; zh-tw:連布蘭;"
+    },
+    {
+      "original": "グエル、Guel",
+      "conv": "zh-cn:盖尔; zh-hk:古爾; zh-tw:古爾;"
+    },
+    {
+      "original": "ジェターク、Jeturk",
+      "conv": "zh-cn:杰特克; zh-hk:傑特克; zh-tw:杰特克;"
+    },
+    {
+      "original": "エリクト、Ericht",
+      "conv": "zh-cn:艾瑞克特; zh-hk:艾莉克特; zh-tw:艾莉克特;"
+    },
+    {
+      "original": "エルノラ、Elnora",
+      "conv": "zh-cn:埃尔诺拉; zh-hk:艾爾諾娜; zh-tw:埃爾諾拉;"
+    },
+    {
+      "original": "ナディム、Nadim",
+      "conv": "zh-cn:奈迪姆; zh-hk:拿迪姆; zh-tw:奈迪姆;"
+    },
+    {
+      "original": "カルド、Cardo",
+      "conv": "zh-cn:卡尔多; zh-hk:卡蕾度; zh-tw:卡爾朵;"
+    },
+    {
+      "original": "ナボ、Nabo",
+      "conv": "zh-cn:纳博; zh-hk:拿保; zh-tw:納博;"
+    },
+    {
+      "original": "ナイラ、Nyla",
+      "conv": "zh-cn:奈拉; zh-hk:奈娜; zh-tw:奈拉;"
+    },
+    {
+      "original": "ウェンディ、Wendy",
+      "conv": "zh-cn:温蒂; zh-hk:溫迪; zh-tw:溫蒂;"
+    },
+    {
+      "original": "デリング、Delling",
+      "conv": "zh-cn:德林; zh-hk:德林; zh-tw:戴林格;"
+    },
+    {
+      "original": "ケナンジ、Kenanji",
+      "conv": "zh-cn:凯南吉; zh-hk:凱納治; zh-tw:凱南吉;"
+    },
+    {
+      "original": "ラジャン、Rajan",
+      "conv": "zh-cn:拉詹; zh-hk:拉贊; zh-tw:拉詹;"
+    },
+    {
+      "original": null,
+      "conv": "zh:GUNDAM; zh-hans:高达; zh-hk:高達; zh-tw:鋼彈;"
+    },
+    {
+      "original": "ディランザ、Dilanza",
+      "conv": "zh-cn:迪兰扎; zh-hk:迪蘭扎; zh-tw:迪蘭薩;"
+    },
+    {
+      "original": "ハイングラ、Heingra",
+      "conv": "zh-cn:魔女审判者; zh-hk:哈爾古拿; zh-tw:魔女審判者;"
+    },
+    {
+      "original": "量産試作モデル、Pre-production Model",
+      "conv": "zh-cn:量产试作型; zh-hk:量產試作品; zh-tw:量產試作機;"
+    },
+    {
+      "original": "グラスレー、Grassley",
+      "conv": "zh-cn:格拉斯利; zh-hk:葛雷斯利; zh-tw:葛雷斯利;"
+    },
+    {
+      "original": "ヴァナディース、Vanadis",
+      "conv": "zh-cn:瓦纳迪斯; zh-hk:凡納迪斯; zh-tw:瓦納迪斯;"
+    },
+    {
+      "original": "ドミニコス、Dominicus",
+      "conv": "zh-cn:多米尼克斯; zh-hk:多明尼克斯; zh-tw:多米尼克斯;"
+    },
+    {
+      "original": "GUNDフォーマット、GUND FORMAT",
+      "conv": "zh-hans:GUND型; zh-hk:GUND FORMAT; zh-tw:GUND型;"
+    },
+    {
+      "original": "GUND-ARM",
+      "conv": "zh-hans:GUND手臂; zh-hk:GUND-ARM; zh-tw:GUND手臂;"
+    },
+    {
+      "original": "ガンビット、GUND-BITs",
+      "conv": "zh-hans:GUND单元; zh-hk:GUND-BITS; zh-tw:GUND子機;"
+    }
+  ]
+}

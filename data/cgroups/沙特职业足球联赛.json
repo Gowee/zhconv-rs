@@ -4,168 +4,172 @@
   "path": "Module:CGroup/沙特职业足球联赛",
   "rules": [
     {
+      "original": "Saudi Arabia",
+      "conv": "zh-cn:沙特; zh-hk:沙地; zh-tw:沙烏地"
+    },
+    {
+      "original": "Saudi Arabia (full)",
+      "conv": "zh-cn:沙特阿拉伯; zh-hk:沙地阿拉伯; zh-tw:沙烏地阿拉伯"
+    },
+    {
       "original": "Al Nassr FC",
-      "conv": "zh:纳赛尔足球俱乐部;zh-hans:利雅得纳赛尔足球俱乐部;zh-cn:利雅得胜利足球俱乐部;zh-hk:艾納斯足球會 (利雅德);zh-mo:納撒利雅德足球會"
+      "conv": "zh:纳赛尔足球俱乐部;zh-hans:利雅得纳赛尔足球俱乐部;zh-cn:利雅得胜利足球俱乐部;zh-hk:艾納斯足球會;zh-mo:納撒利雅德足球會;"
     },
     {
       "original": "Al-Nassr",
-      "conv": "zh:纳赛尔;zh-hans:利雅得纳赛尔;zh-cn:利雅得胜利;zh-hk:艾納斯;zh-mo:納撒利雅德"
+      "conv": "zh:纳赛尔;zh-hans:利雅得纳赛尔;zh-cn:利雅得胜利;zh-hk:艾納斯;zh-mo:納撒利雅德;"
     },
     {
       "original": "Al-Nassr",
-      "conv": "zh:阿尔纳斯尔=>zh-hans:利雅得纳赛尔;阿尔纳斯尔=>zh-hk:艾納斯"
+      "conv": "阿尔纳斯尔=>zh-hans:利雅得纳赛尔;阿尔纳斯尔=>zh-hk:艾納斯;"
     },
     {
       "original": "Al Shabab FC",
-      "conv": "zh:沙巴布足球俱乐部;zh-hans:利雅得沙巴布足球俱乐部;zh-cn:利雅得青年人足球俱乐部;zh-tw:沙巴柏足球會;zh-hk:艾沙比足球會 (利雅德);zh-mo:沙巴柏利雅德足球會"
+      "conv": "zh:沙巴布足球俱乐部;zh-hans:利雅得沙巴布足球俱乐部;zh-cn:利雅得青年人足球俱乐部;zh-tw:沙巴柏足球會;zh-hk:艾沙比足球會 (利雅德);zh-mo:沙巴柏利雅德足球會;"
     },
     {
       "original": "Al-Shabab",
-      "conv": "zh:沙巴布;zh-cn:利雅得青年人;zh-tw:沙巴柏;zh-hk:艾沙比"
+      "conv": "zh:沙巴布;zh-cn:利雅得青年人;zh-tw:沙巴柏;zh-hk:艾沙比;"
     },
     {
       "original": "Al-Hilal FC",
-      "conv": "zh:希拉尔足球俱乐部;zh-hans:利雅得希拉尔足球俱乐部;zh-cn:利雅得新月足球俱乐部;zh-hk:希拉爾足球會 (利雅德)"
+      "conv": "zh:希拉尔足球俱乐部;zh-hans:利雅得希拉尔足球俱乐部;zh-cn:利雅得新月足球俱乐部;zh-hk:希拉爾足球會 (利雅德);"
     },
     {
       "original": "Al-Hilal",
-      "conv": "zh:希拉尔;zh-hans:利雅得希拉尔;zh-cn:利雅得新月;zh-hk:希拉爾"
+      "conv": "zh:希拉尔;zh-hans:利雅得希拉尔;zh-cn:利雅得新月;zh-hk:希拉爾;"
     },
     {
       "original": "Al-Ahli SC",
-      "conv": "zh:阿赫利体育俱乐部;zh-hans:吉达阿赫利体育俱乐部;zh-cn:吉达国民竞技俱乐部;zh-hk:吉達艾阿里體育會;zh-mo:阿爾艾利吉达體育會"
+      "conv": "zh:阿赫利体育俱乐部;zh-hans:吉达阿赫利体育俱乐部;zh-cn:吉达国民竞技俱乐部;zh-hk:吉達艾阿里體育會;zh-mo:阿爾艾利吉达體育會;"
     },
     {
       "original": "Al-Ahli",
-      "conv": "zh:阿赫利;zh-hans:吉达阿赫利;zh-cn:吉达国民;zh-hk:吉達艾阿里;zh-mo:阿爾艾利吉达"
+      "conv": "zh:阿赫利;zh-hans:吉达阿赫利;zh-cn:吉达国民;zh-hk:吉達艾阿里;zh-mo:阿爾艾利吉达;"
     },
     {
       "original": "Al-Ittihad FC",
-      "conv": "zh:伊蒂哈德足球俱乐部;zh-hans:吉达伊蒂哈德足球俱乐部;zh-cn:吉达团结足球俱乐部;zh-hk:伊蒂哈德足球會;zh-mo:伊蒂哈德吉达足球會"
+      "conv": "zh:伊蒂哈德足球俱乐部;zh-hans:吉达伊蒂哈德足球俱乐部;zh-cn:吉达团结足球俱乐部;zh-hk:伊蒂哈德足球會;zh-mo:伊蒂哈德吉达足球會;"
     },
     {
       "original": "Al-Ittihad",
-      "conv": "zh:伊蒂哈德;zh-hans:吉达伊蒂哈德;zh-cn:吉达团结;zh-hk:伊蒂哈德;zh-mo:伊蒂哈德吉达"
+      "conv": "zh:伊蒂哈德;zh-hans:吉达伊蒂哈德;zh-cn:吉达团结;zh-hk:伊蒂哈德;zh-mo:伊蒂哈德吉达;"
     },
     {
       "original": "Al-Fateh SC",
-      "conv": "zh:菲斯体育俱乐部;zh-hans:法泰赫体育俱乐部;zh-cn:哈萨征服竞技俱乐部;zh-hk:艾法特足球會;zh-mo:阿爾菲斯足球會"
+      "conv": "zh:菲斯体育俱乐部;zh-hans:法泰赫体育俱乐部;zh-cn:哈萨征服竞技俱乐部;zh-hk:艾法特足球會;zh-mo:阿爾菲斯足球會;"
     },
     {
       "original": "Al-Fateh",
-      "conv": "zh:菲斯;zh-hans:法泰赫;zh-cn:哈萨征服;zh-hk:艾法特;zh-mo:阿爾菲斯"
+      "conv": "zh:菲斯;zh-hans:法泰赫;zh-cn:哈萨征服;zh-hk:艾法特;zh-mo:阿爾菲斯;"
     },
     {
       "original": "Al-Ettifaq FC",
-      "conv": "zh:伊蒂法克足球俱乐部;zh-hans:达曼伊蒂法克足球俱乐部;zh-cn:达曼协作足球俱乐部;zh-hk:伊蒂法克足球會"
+      "conv": "zh:伊蒂法克足球俱乐部;zh-hans:达曼伊蒂法克足球俱乐部;zh-cn:达曼协作足球俱乐部;zh-hk:伊蒂法克足球會;"
     },
     {
       "original": "Al-Ettifaq",
-      "conv": "zh:伊蒂法克;zh-hans:达曼伊蒂法克;zh-cn:达曼协作;zh-hk:伊蒂法克"
+      "conv": "zh:伊蒂法克;zh-hans:达曼伊蒂法克;zh-cn:达曼协作;zh-hk:伊蒂法克;"
     },
     {
       "original": "Al-Nahda",
-      "conv": "zh:纳赫达足球俱乐部;zh-hans:库巴尔纳赫达足球俱乐部;zh-cn:库巴尔顽强足球俱乐部;zh-hk:艾拿打足球會"
+      "conv": "zh:纳赫达足球俱乐部;zh-hans:库巴尔纳赫达足球俱乐部;zh-cn:库巴尔顽强足球俱乐部;zh-hk:艾拿打足球會;"
     },
     {
       "original": "Al-Nahda",
-      "conv": "zh:纳赫达;zh-hans:库巴尔纳赫达;zh-cn:库巴尔顽强;zh-hk:艾拿打"
+      "conv": "zh:纳赫达;zh-hans:库巴尔纳赫达;zh-cn:库巴尔顽强;zh-hk:艾拿打;"
     },
     {
       "original": "Al-Taawon FC",
-      "conv": "zh:塔旺足球俱乐部;zh-hans:布赖代塔旺足球俱乐部;zh-cn:布赖代合作足球俱乐部;zh-hk:艾塔亞文足球會;zh-mo:塔亞文布莱達足球會"
-    },
-    {
-      "original": "Al-Taawon",
-      "conv": "zh:塔旺;zh-hans:布赖代塔旺;zh-cn:布赖代合作;zh-hk:塔亞文;zh-mo:塔亞文布莱達"
+      "conv": "zh:塔旺足球俱乐部;zh-hans:布赖代塔旺足球俱乐部;zh-cn:布赖代合作足球俱乐部;zh-hk:艾塔亞文足球會;zh-mo:塔亞文布莱達足球會;"
     },
     {
       "original": "Al-Raed",
-      "conv": "zh:拉德足球俱乐部;zh-hans:布赖代拉德足球俱乐部;zh-cn:布赖代先锋足球俱乐部;zh-hk:阿爾拉伊德足球會"
+      "conv": "zh:拉德足球俱乐部;zh-hans:布赖代拉德足球俱乐部;zh-cn:布赖代先锋足球俱乐部;zh-hk:阿爾拉伊德足球會;"
     },
     {
       "original": "Al-Raed",
-      "conv": "zh:雷德;zh-hans:布赖代雷德;zh-cn:布赖代先锋;zh-hk:阿爾拉伊德"
+      "conv": "zh:雷德;zh-hans:布赖代雷德;zh-cn:布赖代先锋;zh-hk:阿爾拉伊德;"
     },
     {
       "original": "Al-Faisaly FC",
-      "conv": "zh:费萨里足球俱乐部;zh-hans:哈曼费萨里足球俱乐部;zh-cn:哈马费萨里足球俱乐部;zh-hk:費薩里哈曼足球會;zh-mo:費薩里哈曼足球會"
+      "conv": "zh:费萨里足球俱乐部;zh-hans:哈曼费萨里足球俱乐部;zh-cn:哈马费萨里足球俱乐部;zh-hk:費薩里哈曼足球會;zh-mo:費薩里哈曼足球會;"
     },
     {
       "original": "Al-Faisaly",
-      "conv": "zh:费萨里;zh-hans:哈曼费萨里;zh-cn:哈马费萨里;zh-hk:費薩里哈曼;zh-mo:費薩里哈曼"
+      "conv": "zh:费萨里;zh-hans:哈曼费萨里;zh-cn:哈马费萨里;zh-hk:費薩里哈曼;zh-mo:費薩里哈曼;"
     },
     {
       "original": "Al-Orobah FC",
-      "conv": "zh:奥鲁巴足球俱乐部;zh-hans:焦夫阿拉伯人足球俱乐部;zh-cn:焦夫阿拉伯人足球俱乐部;zh-hk:艾奧魯巴足球會 "
+      "conv": "zh:奥鲁巴足球俱乐部;zh-hans:焦夫阿拉伯人足球俱乐部;zh-cn:焦夫阿拉伯人足球俱乐部;zh-hk:艾奧魯巴足球會 ;"
     },
     {
       "original": "Al-Orobah",
-      "conv": "zh:奥鲁巴;zh-hans:焦夫阿拉伯人;zh-cn:焦夫阿拉伯人;zh-hk:奧魯巴"
+      "conv": "zh:奥鲁巴;zh-hans:焦夫阿拉伯人;zh-cn:焦夫阿拉伯人;zh-hk:奧魯巴;"
     },
     {
       "original": "Al-Khaleej Club",
-      "conv": "zh:卡赫利足球俱乐部;zh-hans:赛赫特海湾足球俱乐部;zh-cn:赛赫特海湾足球俱乐部;zh-hk:艾卡利積足球會"
+      "conv": "zh:卡赫利足球俱乐部;zh-hans:赛赫特海湾足球俱乐部;zh-cn:赛赫特海湾足球俱乐部;zh-hk:艾卡利積足球會;"
     },
     {
       "original": "Al-Khaleej",
-      "conv": "zh:卡赫利;zh-hans:赛赫特海湾;zh-cn:赛赫特海湾;zh-hk:艾卡利積"
+      "conv": "zh:卡赫利;zh-hans:赛赫特海湾;zh-cn:赛赫特海湾;zh-hk:艾卡利積;"
     },
     {
       "original": "Al-Shoalah",
-      "conv": "zh:索拉赫足球俱乐部;zh-hans:海尔季火炬足球俱乐部;zh-cn:海尔季火炬足球俱乐部;zh-hk:艾斯高拉足球會"
+      "conv": "zh:索拉赫足球俱乐部;zh-hans:海尔季火炬足球俱乐部;zh-cn:海尔季火炬足球俱乐部;zh-hk:艾斯高拉足球會;"
     },
     {
       "original": "Al-Shoalah",
-      "conv": "zh:索拉赫;zh-hans:海尔季火炬;zh-cn:海尔季火炬;zh-hk:斯高拉"
+      "conv": "zh:索拉赫;zh-hans:海尔季火炬;zh-cn:海尔季火炬;zh-hk:斯高拉;"
     },
     {
       "original": "Al-Wehda",
-      "conv": "zh:瓦赫达足球俱乐部;zh-hans:麦加联合足球俱乐部;zh-cn:麦加联合足球俱乐部;zh-hk:艾維達足球會"
+      "conv": "zh:瓦赫达足球俱乐部;zh-hans:麦加联合足球俱乐部;zh-cn:麦加联合足球俱乐部;zh-hk:艾維達足球會;"
     },
     {
       "original": "Al-Wehda",
-      "conv": "zh:瓦赫达;zh-hans:麦加联合;zh-cn:麦加联合;zh-hk:艾維達"
+      "conv": "zh:瓦赫达;zh-hans:麦加联合;zh-cn:麦加联合;zh-hk:艾維達;"
     },
     {
       "original": "Al-Faisaly FC",
-      "conv": "zh:费萨利足球俱乐部;zh-hans:哈曼祈祷足球俱乐部;zh-cn:哈曼祈祷足球俱乐部;zh-hk:費薩里足球會"
+      "conv": "zh:费萨利足球俱乐部;zh-hans:哈曼祈祷足球俱乐部;zh-cn:哈曼祈祷足球俱乐部;zh-hk:費薩里足球會;"
     },
     {
       "original": "Al-Faisaly FC",
-      "conv": "zh:费萨利;zh-hans:哈曼祈祷;zh-cn:哈曼祈祷;zh-hk:費薩里"
+      "conv": "zh:费萨利;zh-hans:哈曼祈祷;zh-cn:哈曼祈祷;zh-hk:費薩里;"
     },
     {
       "original": "Al-Qadisiyah FC",
-      "conv": "zh:卡迪西亚足球俱乐部;zh-hans:卡迪西亚足球俱乐部;zh-cn:卡迪西亚足球俱乐部;zh-hk:艾卡迪沙足球會"
+      "conv": "zh:卡迪西亚足球俱乐部;zh-hans:卡迪西亚足球俱乐部;zh-cn:卡迪西亚足球俱乐部;zh-hk:艾卡迪沙足球會;"
     },
     {
       "original": "Al-Qadisiyah FC",
-      "conv": "zh:卡迪西亚;zh-hans:哈曼祈祷;zh-cn:拜尔卡迪西亚;zh-hk:艾卡迪沙"
+      "conv": "zh:卡迪西亚;zh-hans:哈曼祈祷;zh-cn:拜尔卡迪西亚;zh-hk:艾卡迪沙;"
     },
     {
       "original": "Saudi Professional League",
-      "conv": "zh:沙特阿拉伯职业足球联赛;zh-hans:沙特职业足球联赛;zh-hant:沙地職業足球聯賽"
+      "conv": "zh:沙特阿拉伯职业足球联赛;zh-hans:沙特职业足球联赛;zh-hant:沙地職業足球聯賽;"
     },
     {
       "original": "Saudi First Division",
-      "conv": "zh:沙特阿拉伯足球甲级联赛;zh-hans:沙特足球甲级联赛;zh-hant:沙地甲组足球聯賽"
+      "conv": "zh:沙特阿拉伯足球甲级联赛;zh-hans:沙特足球甲级联赛;zh-hant:沙地甲组足球聯賽;"
     },
     {
       "original": "Saudi Second Division",
-      "conv": "zh:沙特阿拉伯足球乙级联赛;zh-hans:沙特足球乙级联赛;zh-hant:沙地乙组足球聯賽"
+      "conv": "zh:沙特阿拉伯足球乙级联赛;zh-hans:沙特足球乙级联赛;zh-hant:沙地乙组足球聯賽;"
     },
     {
       "original": "Saudi Third Division",
-      "conv": "zh:沙特阿拉伯足球丙级联赛;zh-hans:沙特足球丙级联赛;zh-hant:沙地丙组足球聯賽"
+      "conv": "zh:沙特阿拉伯足球丙级联赛;zh-hans:沙特足球丙级联赛;zh-hant:沙地丙组足球聯賽;"
     },
     {
       "original": "King Cup of Champions",
-      "conv": "zh:沙特阿拉伯冠军国王杯;zh-hans:沙特国王杯;zh-hant:沙地國王盃;zh-cn:沙特冠军国王杯"
+      "conv": "zh:沙特阿拉伯冠军国王杯;zh-hans:沙特国王杯;zh-hant:沙地國王盃;zh-cn:沙特冠军国王杯;"
     },
     {
       "original": "Saudi Crown Prince Cup",
-      "conv": "zh:沙特阿拉伯王储杯;zh-hans:沙特王子杯;zh-hant:沙地王子盃;zh-cn:沙特王储杯"
+      "conv": "zh:沙特阿拉伯王储杯;zh-hans:沙特王子杯;zh-hant:沙地王子盃;zh-cn:沙特王储杯;"
     }
   ]
 }

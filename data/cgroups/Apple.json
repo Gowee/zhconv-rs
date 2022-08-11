@@ -5,15 +5,15 @@
   "rules": [
     {
       "original": "AirPlay",
-      "conv": "zh:隔空播放;zh-cn:隔空播放;zh-hant:AirPlay"
+      "conv": "zh:隔空播放;zh-cn:隔空播放;zh-hant:AirPlay;"
     },
     {
       "original": "Handoff",
-      "conv": "zh:接力;zh-hans:接力;zh-hant:Handoff;zh-cn:接力"
+      "conv": "zh:接力;zh-hans:接力;zh-hant:Handoff;zh-cn:接力;"
     },
     {
       "original": "VoiceOver",
-      "conv": "zh:旁白;zh-hans:旁白;zh-hant:旁白;zh-cn:旁白"
+      "conv": "zh:旁白;zh-hans:旁白;zh-hant:旁白;zh-cn:旁白;"
     },
     {
       "original": "Live Photo",
@@ -25,123 +25,127 @@
     },
     {
       "original": "QuickTake video",
-      "conv": "zh-cn:视频快录;zh-tw:影片快錄;zh-hk:閃錄影片"
+      "conv": "zh-cn:视频快录;zh-tw:影片快錄;zh-hk:閃錄影片;"
     },
     {
       "original": "Cinematic video stabilization",
-      "conv": "zh-cn:影院级视频防抖;zh-tw:電影級視訊穩定;zh-hk:電影級影片防震"
+      "conv": "zh-cn:影院级视频防抖;zh-tw:電影級視訊穩定;zh-hk:電影級影片防震;"
     },
     {
       "original": "Live Text",
-      "conv": "zh-cn:实况文本;zh-tw:原況文字;zh-hk:原況文字"
+      "conv": "zh-cn:实况文本;zh-tw:原況文字;zh-hk:原況文字;"
     },
     {
       "original": "Animoji",
-      "conv": "zh-cn:动话表情;zh-tw:Animoji;zh-hk:Animoji"
+      "conv": "zh-cn:动话表情;zh-tw:Animoji;zh-hk:Animoji;"
     },
     {
       "original": "Memoji",
-      "conv": "zh-cn:拟我表情;zh-tw:Memoji;zh-hk:Memoji"
+      "conv": "zh-cn:拟我表情;zh-tw:Memoji;zh-hk:Memoji;"
     },
     {
       "original": "Express Cards",
-      "conv": "zh-cn:快捷交通卡;zh-tw:快速卡;zh-hk:特快卡"
+      "conv": "zh-cn:快捷交通卡;zh-tw:快速卡;zh-hk:特快卡;"
     },
     {
       "original": "Student ID",
-      "conv": "zh-cn:学生卡;zh-tw:Student ID;zh-hk:學生證"
+      "conv": "zh-cn:学生卡;zh-tw:Student ID;zh-hk:學生證;"
     },
     {
       "original": "Turn-by-Turn",
-      "conv": "zh-cn:逐向导航;zh-tw:轉向導航路線;zh-hk:逐步導航"
+      "conv": "zh-cn:逐向导航;zh-tw:轉向導航路線;zh-hk:逐步導航;"
     },
     {
       "original": "Flyover",
-      "conv": "zh-cn:俯瞰;zh-tw:飛行俯瞰;zh-hk:航覽"
+      "conv": "zh-cn:俯瞰;zh-tw:飛行俯瞰;zh-hk:航覽;"
     },
     {
       "original": "QuickPath",
-      "conv": "zh-cn:速滑;zh-tw:快滑;zh-hk:快滑"
+      "conv": "zh-cn:速滑;zh-tw:快滑;zh-hk:快滑;"
     },
     {
       "original": "Spotlight",
-      "conv": "zh-cn:聚焦;zh-tw:Spotlight;zh-hk:Spotlight"
+      "conv": "zh-cn:聚焦;zh-tw:Spotlight;zh-hk:Spotlight;"
     },
     {
       "original": "Apple Lossless",
-      "conv": "zh-cn:Apple 保真压缩;zh-tw:Apple 保真壓縮;zh-hk:Apple 無損壓縮"
+      "conv": "zh-cn:Apple 保真压缩;zh-tw:Apple 保真壓縮;zh-hk:Apple 無損壓縮;"
     },
     {
       "original": "Portrait Lighting",
-      "conv": "zh-cn:人像光效;zh-mo:人像燈光;zh-tw:人像光線;zh-hk:人像燈光"
+      "conv": "zh-cn:人像光效;zh-mo:人像燈光;zh-tw:人像光線;zh-hk:人像燈光;"
     },
     {
       "original": "Natural",
-      "conv": "zh-cn:自然光;zh-mo:自然光;zh-tw:自然光;zh-hk:自然光"
+      "conv": "zh-cn:自然光;zh-mo:自然光;zh-tw:自然光;zh-hk:自然光;"
     },
     {
       "original": "Studio",
-      "conv": "zh-cn:摄影室灯光;zh-mo:影樓燈光;zh-tw:攝影棚燈光;zh-hk:影樓燈光"
+      "conv": "zh-cn:摄影室灯光;zh-mo:影樓燈光;zh-tw:攝影棚燈光;zh-hk:影樓燈光;"
     },
     {
       "original": "Contour",
-      "conv": "zh-cn:轮廓光;zh-mo:輪廓光;zh-tw:輪廓光;zh-hk:輪廓光"
+      "conv": "zh-cn:轮廓光;zh-mo:輪廓光;zh-tw:輪廓光;zh-hk:輪廓光;"
     },
     {
       "original": "Stage",
-      "conv": "zh-cn:舞台光;zh-mo:舞台燈光;zh-tw:舞台燈光;zh-hk:舞台燈光"
+      "conv": "zh-cn:舞台光;zh-mo:舞台燈光;zh-tw:舞台燈光;zh-hk:舞台燈光;"
     },
     {
       "original": "Stage Mono",
-      "conv": "zh-cn:单色舞台光;zh-mo:黑白舞台燈光;zh-tw:舞台燈光黑白;zh-hk:黑白舞台燈光"
+      "conv": "zh-cn:单色舞台光;zh-mo:黑白舞台燈光;zh-tw:舞台燈光黑白;zh-hk:黑白舞台燈光;"
     },
     {
       "original": "High-Key Mono",
-      "conv": "zh-cn:高调单色光;zh-mo:高色調黑白燈光;zh-tw:高色調燈光黑白;zh-hk:高色調黑白燈光"
+      "conv": "zh-cn:高调单色光;zh-mo:高色調黑白燈光;zh-tw:高色調燈光黑白;zh-hk:高色調黑白燈光;"
     },
     {
       "original": "Deep Fusion",
-      "conv": "zh-cn:深度融合;zh-mo:深度融合;zh-tw:深度融合;zh-hk:深度融合"
+      "conv": "zh-cn:深度融合;zh-mo:深度融合;zh-tw:深度融合;zh-hk:深度融合;"
     },
     {
       "original": "CarPlay",
-      "conv": "zh-cn:CarPlay车载;zh-tw:CarPlay"
+      "conv": "zh-cn:CarPlay车载;zh-tw:CarPlay;"
     },
     {
       "original": "App Library",
-      "conv": "zh-cn:App资源库;zh-tw:App資料庫"
+      "conv": "zh-cn:App资源库;zh-tw:App資料庫;"
     },
     {
       "original": "widget",
-      "conv": "zh-cn:小组件;zh-tw:小工具"
+      "conv": "zh-cn:小组件;zh-tw:小工具;"
     },
     {
       "original": "Split View",
-      "conv": "zh-cn:分屏浏览;zh-tw:分割顯示"
+      "conv": "zh-cn:分屏浏览;zh-tw:分割顯示;"
+    },
+    {
+      "original": "Lock Screen",
+      "conv": "zh-cn:锁定屏幕;zh-tw:鎖定畫面;zh-hk:鎖定畫面"
     },
     {
       "original": "Calendar",
-      "conv": "zh-cn:日历;zh-tw:行事曆;zh-hk:日曆"
+      "conv": "zh-cn:日历;zh-tw:行事曆;zh-hk:日曆;"
     },
     {
       "original": "Dictionary",
-      "conv": "zh-cn:词典;zh-hant:辭典"
+      "conv": "zh-cn:词典;zh-hant:辭典;"
     },
     {
       "original": "FaceTime",
-      "conv": "zh-cn:FaceTime通话;zh-tw:FaceTime"
+      "conv": "zh-cn:FaceTime通话;zh-tw:FaceTime;"
     },
     {
       "original": "File",
-      "conv": "zh-cn:文件;zh-tw:檔案"
+      "conv": "zh-cn:文件;zh-tw:檔案;"
     },
     {
       "original": "Home",
-      "conv": "zh-cn:家庭;zh-tw:家庭;zh-hk:家居"
+      "conv": "zh-cn:家庭;zh-tw:家庭;zh-hk:家居;"
     },
     {
       "original": "message",
-      "conv": "zh-cn:信息;zh-tw:訊息"
+      "conv": "zh-cn:信息;zh-tw:訊息;"
     },
     {
       "original": "Photos",
@@ -149,15 +153,15 @@
     },
     {
       "original": "Podcast",
-      "conv": "zh-cn:播客;zh-tw:Podcast"
+      "conv": "zh-cn:播客;zh-tw:Podcast;"
     },
     {
       "original": "Safari",
-      "conv": "zh-cn:Safari浏览器;zh-tw:Safari"
+      "conv": "zh-cn:Safari浏览器;zh-tw:Safari;"
     },
     {
       "original": "Shortcuts",
-      "conv": "zh-cn:快捷指令;zh-tw:捷徑"
+      "conv": "zh-cn:快捷指令;zh-tw:捷徑;"
     },
     {
       "original": "Wallet",
@@ -165,23 +169,23 @@
     },
     {
       "original": "Directory Utility",
-      "conv": "zh-cn:目录实用工具;zh-hant:目錄工具程式"
+      "conv": "zh-cn:目录实用工具;zh-hant:目錄工具程式;"
     },
     {
       "original": "System Information",
-      "conv": "zh-cn:系统信息;zh-tw:系統資訊;zh-hk:系統資料"
+      "conv": "zh-cn:系统信息;zh-tw:系統資訊;zh-hk:系統資料;"
     },
     {
       "original": "Migration Assistant",
-      "conv": "zh-cn:迁移助理;zh-hant:系統移轉輔助程式"
+      "conv": "zh-cn:迁移助理;zh-hant:系統移轉輔助程式;"
     },
     {
       "original": "Network Utility",
-      "conv": "zh-cn:网络实用工具;zh-tw:網路工具程式;zh-hk:網絡工具程式"
+      "conv": "zh-cn:网络实用工具;zh-tw:網路工具程式;zh-hk:網絡工具程式;"
     },
     {
       "original": "Image Capture",
-      "conv": "zh-cn:图像捕捉;zh-tw:影像擷取;zh-hk:影像截取"
+      "conv": "zh-cn:图像捕捉;zh-tw:影像擷取;zh-hk:影像截取;"
     },
     {
       "original": "Digital Color Meter",
@@ -193,63 +197,63 @@
     },
     {
       "original": "Screen Sharing",
-      "conv": "zh-cn:屏幕共享;zh-hant:螢幕共享"
+      "conv": "zh-cn:屏幕共享;zh-hant:螢幕共享;"
     },
     {
       "original": "System Preferences",
-      "conv": "zh-cn:系统偏好设置;zh-hant:系統偏好設定"
+      "conv": "zh-cn:系统偏好设置;zh-hant:系統偏好設定;"
     },
     {
       "original": "Universal Access",
-      "conv": "zh-cn:辅助功能;zh-hant:輔助使用"
+      "conv": "zh-cn:辅助功能;zh-hant:輔助使用;"
     },
     {
       "original": "TextEdit",
-      "conv": "zh-cn:文本编辑;zh-hant:文字編輯"
+      "conv": "zh-cn:文本编辑;zh-hant:文字編輯;"
     },
     {
       "original": "Time Machine",
-      "conv": "zh-cn:时间机器;zh-hant:時光機"
+      "conv": "zh-cn:时间机器;zh-hant:時光機;"
     },
     {
       "original": "Stickies",
-      "conv": "zh-cn:便笺;zh-hant:便條紙"
+      "conv": "zh-cn:便笺;zh-hant:便條紙;"
     },
     {
       "original": "Clips",
-      "conv": "zh-cn:可立拍;zh-tw:可立拍;zh-hk:奇趣拍"
+      "conv": "zh-cn:可立拍;zh-tw:可立拍;zh-hk:奇趣拍;"
     },
     {
       "original": "GarageBand",
-      "conv": "zh:库乐队;zh-hans:库乐队;zh-hant:GarageBand;zh-cn:库乐队"
+      "conv": "zh:库乐队;zh-hans:库乐队;zh-hant:GarageBand;zh-cn:库乐队;"
     },
     {
       "original": "Lightning connector",
-      "conv": "zh:闪电接头;zh-hans:闪电接头;zh-hant:Lightning;zh-cn:闪电接口;zh-tw:Lightning;zh-sg:Lightning"
+      "conv": "zh:闪电接头;zh-hans:闪电接头;zh-hant:Lightning;zh-cn:闪电接口;zh-tw:Lightning;zh-sg:Lightning;"
     },
     {
       "original": "Lightning",
-      "conv": "zh:闪电;zh-hans:闪电;zh-hant:Lightning;zh-cn:闪电;zh-tw:Lightning;zh-sg:Lightning"
+      "conv": "zh:闪电;zh-hans:闪电;zh-hant:Lightning;zh-cn:闪电;zh-tw:Lightning;zh-sg:Lightning;"
     },
     {
       "original": "Jet Black",
-      "conv": "zh-cn:亮黑色;zh-tw:曜石黑色"
+      "conv": "zh-cn:亮黑色;zh-tw:曜石黑色;"
     },
     {
       "original": "Midnight Green",
-      "conv": "zh-cn:暗夜绿;zh-tw:夜幕綠;zh-hk:午夜綠"
+      "conv": "zh-cn:暗夜绿;zh-tw:夜幕綠;zh-hk:午夜綠;"
     },
     {
       "original": "Space Gray",
-      "conv": "zh-cn:深空灰;zh-tw:太空灰;zh-hk:太空灰"
+      "conv": "zh-cn:深空灰;zh-tw:太空灰;zh-hk:太空灰;"
     },
     {
       "original": "TrueDepth",
-      "conv": "zh-cn:原深感;zh-tw:原深感測;zh-hk:原深感測"
+      "conv": "zh-cn:原深感;zh-tw:原深感測;zh-hk:原深感測;"
     },
     {
       "original": "TrueDepth camera",
-      "conv": "zh-cn:原深感摄像头;zh-tw:原深感測相機;zh-hk:原深感測鏡頭"
+      "conv": "zh-cn:原深感摄像头;zh-tw:原深感測相機;zh-hk:原深感測鏡頭;"
     },
     {
       "original": "Bionic",
@@ -257,111 +261,111 @@
     },
     {
       "original": "3D Touch",
-      "conv": "zh:三维触控;zh-hant:3D觸控;zh-cn:三维触控"
+      "conv": "zh:三维触控;zh-hant:3D觸控;zh-cn:三维触控;"
     },
     {
       "original": "Face ID",
-      "conv": "zh:面容 ID;zh-hant:Face ID;zh-cn:面容ID"
+      "conv": "zh:面容 ID;zh-hant:Face ID;zh-cn:面容ID;"
     },
     {
       "original": "Touch ID",
-      "conv": "zh:触控 ID;zh-hant:Touch ID;zh-cn:触控ID"
+      "conv": "zh:触控 ID;zh-hant:Touch ID;zh-cn:触控ID;"
     },
     {
       "original": "Magic Mouse",
-      "conv": "zh-cn:妙控鼠标;zh-tw:巧控滑鼠;zh-hk:精妙滑鼠"
+      "conv": "zh-cn:妙控鼠标;zh-tw:巧控滑鼠;zh-hk:精妙滑鼠;"
     },
     {
       "original": "Magic Keyboard",
-      "conv": "zh-cn:妙控键盘;zh-tw:巧控键盘;zh-hk:精妙键盘"
+      "conv": "zh-cn:妙控键盘;zh-tw:巧控键盘;zh-hk:精妙键盘;"
     },
     {
       "original": "Magic Board",
-      "conv": "zh-cn:妙控板;zh-tw:巧控板;zh-hk:精妙板"
+      "conv": "zh-cn:妙控板;zh-tw:巧控板;zh-hk:精妙板;"
     },
     {
       "original": "Super Retina XDR",
-      "conv": "zh-cn:超视网膜 XDR ;zh-tw:超 Retina XDR ;zh-hk:超級 Retina XDR "
+      "conv": "zh-cn:超视网膜 XDR ;zh-tw:超 Retina XDR ;zh-hk:超級 Retina XDR ;"
     },
     {
       "original": "Liquid Retina HD",
-      "conv": "zh-cn:Liquid 视网膜高清;zh-tw:Liquid Retina HD ;zh-hk:Liquid Retina HD "
+      "conv": "zh-cn:Liquid 视网膜高清;zh-tw:Liquid Retina HD ;zh-hk:Liquid Retina HD ;"
     },
     {
       "original": "Retina HD",
-      "conv": "zh-cn:视网膜高清;zh-tw:Retina HD ;zh-hk:Retina HD"
+      "conv": "zh-cn:视网膜高清;zh-tw:Retina HD ;zh-hk:Retina HD;"
     },
     {
       "original": "Splash, Water, and Dust Resistant",
-      "conv": "zh-cn:防溅、抗水、防尘;zh-tw:防潑、抗水與防塵;zh-hk:防濺、耐水及防塵"
+      "conv": "zh-cn:防溅、抗水、防尘;zh-tw:防潑、抗水與防塵;zh-hk:防濺、耐水及防塵;"
     },
     {
       "original": "True Tone",
-      "conv": "zh-cn:原彩显示;zh-tw:原彩顯示;zh-hk:原色調顯示"
+      "conv": "zh-cn:原彩显示;zh-tw:原彩顯示;zh-hk:原色調顯示;"
     },
     {
       "original": "Haptic Touch",
-      "conv": "zh-cn:触感触控;zh-tw:觸覺回饋觸控;zh-hk:觸感觸控"
+      "conv": "zh-cn:触感触控;zh-tw:觸覺回饋觸控;zh-hk:觸感觸控;"
     },
     {
       "original": "Telephoto",
-      "conv": "zh-cn:长焦;zh-tw:望遠;zh-hk:長焦距"
+      "conv": "zh-cn:长焦;zh-tw:望遠;zh-hk:長焦距;"
     },
     {
       "original": "optical image stabilization",
-      "conv": "zh-cn:光学图像防抖;zh-tw:光學影像穩定;zh-hk:光學影像防震"
+      "conv": "zh-cn:光学图像防抖;zh-tw:光學影像穩定;zh-hk:光學影像防震;"
     },
     {
       "original": "Gigabit-class LTE",
-      "conv": "zh-cn:千兆级 LTE;zh-tw:Gigabit 等級 LTE;zh-hk:Gigabit-class LTE"
+      "conv": "zh-cn:千兆级 LTE;zh-tw:Gigabit 等級 LTE;zh-hk:Gigabit-class LTE;"
     },
     {
       "original": "Cellular",
-      "conv": "zh-cn:蜂窝网络;zh-tw:行動網路;zh-hk:流動網絡"
+      "conv": "zh-cn:蜂窝网络;zh-tw:行動網路;zh-hk:流動網絡;"
     },
     {
       "original": "Always-On Retina display",
-      "conv": "zh-cn:全天候视网膜显示屏;zh-tw:隨顯 Retina 顯示器;zh-hk:常亮 Retina 顯示器"
+      "conv": "zh-cn:全天候视网膜显示屏;zh-tw:隨顯 Retina 顯示器;zh-hk:常亮 Retina 顯示器;"
     },
     {
       "original": "Digital Crown",
-      "conv": "zh-cn:数码表冠;zh-tw:數位錶冠;zh-hk:數碼錶冠"
+      "conv": "zh-cn:数码表冠;zh-tw:數位錶冠;zh-hk:數碼錶冠;"
     },
     {
       "original": "Force Touch",
-      "conv": "zh-cn:力度触控;zh-tw:力度觸控;zh-hk:力度觸控"
+      "conv": "zh-cn:力度触控;zh-tw:力度觸控;zh-hk:力度觸控;"
     },
     {
       "original": "LiDAR Scanner",
-      "conv": "zh-cn:激光雷达扫描仪;zh-tw:光學雷達掃描儀;zh-hk:LiDAR 感測器"
+      "conv": "zh-cn:激光雷达扫描仪;zh-tw:光學雷達掃描儀;zh-hk:LiDAR 感測器;"
     },
     {
       "original": "Smart Keyboard Folio",
-      "conv": "zh-cn:键盘式智能双面夹;zh-tw:鍵盤式聰穎雙面夾;zh-hk:智慧型摺套連鍵盤"
+      "conv": "zh-cn:键盘式智能双面夹;zh-tw:鍵盤式聰穎雙面夾;zh-hk:智慧型摺套連鍵盤;"
     },
     {
       "original": "Smart Keyboard",
-      "conv": "zh-cn:智能键盘;zh-tw:聰穎鍵盤;zh-hk:智慧型鍵盤"
+      "conv": "zh-cn:智能键盘;zh-tw:聰穎鍵盤;zh-hk:智慧型鍵盤;"
     },
     {
       "original": "Apple T2 Security Chip",
-      "conv": "zh-cn:Apple T2 安全芯片;zh-tw:Apple T2 安全晶片;zh-hk:Apple T2 保安晶片"
+      "conv": "zh-cn:Apple T2 安全芯片;zh-tw:Apple T2 安全晶片;zh-hk:Apple T2 保安晶片;"
     },
     {
       "original": "Thunderbolt",
-      "conv": "zh-cn:雷雳;zh-tw:Thunderbolt;zh-hk:Thunderbolt"
+      "conv": "zh-cn:雷雳;zh-tw:Thunderbolt;zh-hk:Thunderbolt;"
     },
     {
       "original": "Home button",
-      "conv": "zh-cn:主屏幕按钮;zh-tw:主畫面按鈕;zh-hk:主畫面按鈕"
+      "conv": "zh-cn:主屏幕按钮;zh-tw:主畫面按鈕;zh-hk:主畫面按鈕;"
     },
     {
       "original": "Ceramic Shield front",
-      "conv": "zh-cn:超瓷晶面板;zh-tw:超瓷晶盾面板;zh-hk:陶瓷晶體護面"
+      "conv": "zh-cn:超瓷晶面板;zh-tw:超瓷晶盾面板;zh-hk:陶瓷晶體護面;"
     },
     {
       "original": "Pacific Blue",
-      "conv": "zh-cn:海蓝色;zh-tw:太平洋藍色;zh-hk:太平洋藍色"
+      "conv": "zh-cn:海蓝色;zh-tw:太平洋藍色;zh-hk:太平洋藍色;"
     }
   ]
 }

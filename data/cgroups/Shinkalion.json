@@ -1,0 +1,703 @@
+{
+  "name": "Shinkalion",
+  "description": "-{zh-hans:新干线变形机器人;zh-hk:新幹線戰士;zh-tw:新幹線變形機器人;}-系列",
+  "path": "Template:CGroup/Shinkalion",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-hant:大門山貫;zh-hk:大門山貫;zh-tw:大門山徹;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:月山忍;zh-hk:月山忍;zh-tw:月山仁;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:龍司;zh-hk:龍司;zh-tw:隆司;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:辰巳;zh-hk:辰巳;zh-tw:辰己;"
+    },
+    {
+      "original": "シャショット",
+      "conv": "zh-hans:车長宝;zh-hk:車長寶;zh-tw:貝克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大也;zh-hk:大也;zh-tw:大野;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三条;zh-hk:三條;zh-tw:三条;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:宗谷;zh-hk:宗谷;zh-tw:宗也;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:曉;zh-hk:曉月;zh-tw:曉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:昴;zh-hk:昴;zh-tw:昂;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黑色车長宝;zh-hk:黑色車長寶;zh-tw:暗黑貝克;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:梓;zh-hk:梓;zh-tw:杏紗;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:Super Spice;zh-tw:超級香料;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:板谷;zh-hk:板谷;zh-tw:板古;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:智能寶;zh-hk:智能寶;zh-tw:斯馬特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:日之出;zh-hk:日之出;zh-tw:日出;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:御崎;zh-hk:三崎;zh-tw:御崎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:梅德爾;zh-hk:美達露;zh-tw:梅德爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:基多拉尔萨斯;zh-hk:基度拉爾撒斯;zh-tw:基多拉爾薩斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:瓦尔哈兰;zh-hant:瓦爾哈蘭;zh-hk:瓦爾哈拉;zh-tw:瓦爾哈蘭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大都会瓦尔哈兰;zh-hant:大都會瓦爾哈蘭;zh-hk:大都會瓦爾哈拉;zh-tw:瓦爾哈蘭大都市;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:古力亞捷斯;zh-hk:古力亞捷斯;zh-tw:克雷亞特魯斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:地下试验场;zh-hk:地下試驗場;zh-tw:地下實驗場;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:進階模式;zh-hk:進階模式;zh-tw:進昇模式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:燕號;zh-hk:燕號;zh-tw:燕子號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:进化利恩三位一体;zh-hk:新幹線戰士三重合體;zh-tw:新幹線變形機器人托尼提號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:黃醫生號;zh-hk:黃醫生號;zh-tw:黃博士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:翼号钢铁飞翼;zh-tw:鐵翼號;zh-hk:翼號鋼鐵飛翼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:暗黑新干线;zh-hk:黑色新幹線;zh-tw:暗黑新幹線;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黑色进化利恩;zh-hk:黑色新幹線戰士;zh-tw:暗黑號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:狂战士;zh-hk:狂戰士;zh-tw:狂霸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黑色进化利恩 紅;zh-hk:黑色新幹線戰士紅;zh-tw:暗黑朱紅號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黑色进化利恩 奥加;zh-tw:暗黑魔王號;zh-hk:黑色新幹線戰士奧加;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:飛昇;zh-hk:飛昇;zh-tw:天昇;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:量產型黑色辛卡利昂;zh-tw:暗黑號編號機;zh-hk:量產型黑色新幹線戰士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:阿尔法X;zh-hk:ALFA-X;zh-tw:阿爾法X;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:E259N'EX号;zh-hk:E259N'EX號;zh-tw:E259N'EX"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:暗黑进化利恩;zh-hk:闇黑新幹線戰士;zh-tw:新幹線變形機器人Z 暗黑號;"
+    },
+    {
+      "original": "",
+      "conv": "闇馬=>zh-tw:機械黑馬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:形態;zh-hk:形態;zh-tw:型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:半人馬;zh-hk:半人馬;zh-tw:獸騎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:惡魔模式;zh-hk:惡魔形態;zh-tw:惡魔模式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:Z 黃醫生號;zh-hk:Z 黃醫生號;zh-tw:Z 黃博士號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:Z保線模式;zh-hk:Z保線模式;zh-tw:Z特修模式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:E5黃醫生號;zh-hk:E5黃醫生號;zh-tw:E5黃博士號;"
+    },
+    {
+      "original": "巨大怪物体",
+      "conv": "zh-hans:巨型怪物体;zh-hant:巨大怪物體;zh-hk:巨型怪物體;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:第一號敵人;zh-tw:最初之敵;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:铁路怪;zh-hk:鐵路怪;zh-tw:軌道裝載者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:疯狂菲利斯;zh-hk:瘋狂菲利斯;zh-tw:瘋狂摩天輪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:冰树怪;zh-hk:冰樹怪;zh-tw:冰霜巨木;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:钢铁蒸汽怪;zh-hk:鋼鐵蒸汽怪;zh-tw:鋼鐵蒸氣機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:星流怪;zh-hk:星流怪;zh-tw:星辰氣流;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:狂怒烈炎怪;zh-hk:狂怒烈炎怪;zh-tw:狂怒火焰;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:强蟹怪;zh-hk:強蟹怪;zh-tw:雄偉巨蟹;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:荒山野猪怪;zh-hk:荒山野豬怪;zh-tw:瘋狂野豬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:进化清洁怪;zh-hk:進化清潔怪;zh-tw:先進掃除者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:迷幻天后;zh-hk:迷幻天后;zh-tw:星辰歌姬;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:钢缆蜘蛛怪;zh-hk:鋼纜蜘蛛怪;zh-tw:纜繩蜘蛛;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超级喷射飞行怪;zh-hk:超級噴射飛行怪;zh-tw:高空裝甲推進者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:吞食地幔怪;zh-hans:吞食地幔怪;zh-tw:地函吞噬者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:信長水軍怪;zh-hk:信長水軍怪;zh-tw:魔王水軍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:邪惡手機怪;zh-hk:邪惡手機怪;zh-tw:調皮手機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:侵略工厂怪;zh-hk:侵略工廠怪;zh-tw:侵略裝甲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:魔王信长;zh-hk:魔王信長;zh-tw:魔王織田信長;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:焦头盔;zh-hk:焦頭盔;zh-tw:燒壞的頭盔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:王者使徒怪;zh-hk:王者使徒怪;zh-tw:使徒之王;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:幽灵坦克;zh-hk:幽靈坦克;zh-tw:幽靈裝甲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大桥巨人;zh-hk:大橋巨人;zh-tw:巨橋戰士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:陸地火蜥蜴;zh-hk:陸地火蜥蜴;zh-tw:陸生蜥蜴怪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:恐怖食人花;zh-hk:恐怖食人花;zh-tw:恐懼花怪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:翼龍怪;zh-hk:翼龍怪;zh-tw:結晶之翼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:兇殘鯊魚怪;zh-hk:兇殘鯊魚怪;zh-tw:好戰鯊魚;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:大王三葉蟲;zh-hk:大王三葉蟲;zh-tw:巨大三葉蟲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:極限巨龍獸;zh-hk:極限巨龍獸;zh-tw:超級猛龍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:千齒龍獸;zh-hk:千齒龍獸;zh-tw:巨大尖牙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:索拉;zh-hk:索拉;zh-tw:左拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:瓦尔德鲁;zh-hant:瓦爾多;zh-hk:巴爾德;zh-tw:瓦爾多;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:冰雪哥斯拉;zh-hant:雪之哥斯拉;zh-hk:雪之哥斯拉;zh-tw:雪中哥吉拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:果然是蛇髮女妖;zh-tw:果然是蛇后;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:絕對是雲外鏡;zh-hk:肯定是雲外鏡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:吐霧妖;zh-tw:或許是吹霧妖;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:狄亞波爾;zh-tw:迪亞波魯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:大歩危爺爺;zh-hk:大歩危爺爺;zh-tw:大歩危兒啼爺;"
+    },
+    {
+      "original": "新幹線変形ロボ シンカリオン",
+      "conv": "zh-cn:新干线变形机器人 进化利恩;zh-hk:新幹線戰士;zh-tw:新幹線變形機器人;"
+    },
+    {
+      "original": "シンカリオンZ",
+      "conv": "zh-cn:进化利恩之极;zh-hk:新幹線戰士Z;zh-tw:新幹線變形機器人Z;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:支部;zh-hant:支部;zh-hk:分部;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:司令;zh-hk:司令;zh-tw:司令官;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:通讯员;zh-hk:通訊員;zh-tw:通信員;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:指导長;zh-hk:指導長;zh-tw:指揮官;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:进化卡;zh-hk:進化通;zh-tw:進化卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:捕捉领域;zh-hk:捕獲力場;zh-tw:捕捉領域;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:光线路轨;zh-hk:光線路軌;zh-tw:發光鐵路;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:超進化電動貨車;zh-hk:超進化電動貨車;zh-tw:超進化電動貨物;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:交叉;zh-tw:交錯;zh-hk:交叉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:交叉合体;zh-tw:交錯合體;zh-hk:交叉合體;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三重合体;zh-hk:三重合體;zh-tw:托尼提合體;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超越交叉;zh-hant:超越交叉;zh-hk:超乘;zh-tw:極限交錯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:思想連鎖;zh-hk:思想連鎖;zh-tw:連結鎖定;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:金色头等车厢;zh-hk:金色頭等車廂;zh-tw:頂級座艙;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:射水模式;zh-tw:水爆模式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:噴火模式;zh-tw:火焰模式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:夕張加熱系統;zh-hk:夕張加熱系統;zh-tw:夕張熱能系統;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:特工;zh-hk:特工;zh-tw:特務;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:纳米机器;zh-tw:奈米機器;zh-hk:納米機械人;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:路斯維特;zh-hk:路斯維特;zh-tw:生命之光;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:光之粒子;zh-hant:光之粒子;zh-tw:光之粒子;zh-hk:發光粒子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:Z列车;zh-hant:Z列車;zh-hk:Z火車;zh-tw:在來線超武裝列車;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:Z装备;zh-hant:Z裝備;zh-hk:Z裝備;zh-tw:Z傳動裝置;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超进化手机Z装备;zh-hant:超進化手機Z裝備;zh-hk:超進化手機Z裝備;zh-tw:超進化變形Z傳動裝置;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:极合体;zh-hant:Z合體;zh-hk:Z合體;zh-tw:Z合體;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:閉塞解除;zh-hk:解除封鎖;zh-tw:閉塞解除;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:進化手機;zh-hk:進化手機;zh-tw:變形進化卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:雙重虎鯨系統;zh-hk:雙重鯨魚系統;zh-tw:雙重虎鯨系統;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:超進化電導電纜;zh-hk:超進化電導電纜;zh-tw:超進化超導電纜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:黑石;zh-hk:黑石;zh-tw:暗黑石;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:大深度地下檢測裝置;zh-hk:大深度地下檢測裝置;zh-tw:大範圍深度地下檢測裝置;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:托列蘭提亞;zh-hk:托列蘭提亞;zh-tw:托勒蘭提亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:猶格斯比亞;zh-hk:猶格斯比亞;zh-tw:由古斯琵亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:集电弓飞翼DX;zh-hk:集電弓飛翼DX;zh-tw:高級集電弓之翼;"
+    },
+    {
+      "original": "カイサツソード",
+      "conv": "zh-hans:闸口斩击剣;zh-hk:閘口斬擊劍;zh-tw:閘口斬擊劍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:金色能量炮;zh-hk:金色能量炮;zh-tw:光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:平交道大炮;zh-hk:平交道大炮;zh-tw:平交道射擊加農炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:欄杆手裡劍;zh-hk:欄杆手裡劍;zh-tw:平交道手裏劍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:寒風之術;zh-hk:寒風之術;zh-tw:秋風之術;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:飛天雙重刺;zh-hk:飛天雙重刺;zh-tw:旋風雙破刃;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:枕木雙截棍;zh-hk:枕木雙截棍;zh-tw:枕木雙節棍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:飛龍噴射拳;zh-hk:飛龍噴射拳;zh-tw:翔龍鐵拳;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:防護盾;zh-hk:防護盾;zh-tw:盾牌;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:箭;zh-hk:箭;zh-tw:飛箭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:信號機矛槍;zh-hk:信號機矛槍;zh-tw:信號三叉戟;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:飛彈;zh-hk:飛彈;zh-tw:導彈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:鎚;zh-hk:鎚;zh-tw:鐵鎚;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三一斧枪;zh-hk:三一斧槍;zh-tw:托尼提斧槍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:鐳射;zh-hk:鐳射;zh-tw:雷射;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:鐳射激光槍;zh-hk:鐳射激光槍;zh-tw:雷射放射炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:鐳射激光劍;zh-hk:鐳射激光劍;zh-tw:雷射劍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:電磁軌道炮;zh-hk:電磁軌道炮;zh-tw:電磁炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:有軌電車劍;zh-hk:有軌電車劍;zh-tw:驅動電刃"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:暗黑飞弹群;zh-hk:暗黑飛彈群;zh-tw:暗黑導彈匣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:龙骑兵路轨攻击;zh-hk:龍騎兵路軌攻擊;zh-tw:黑龍鐵路猛擊"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:改正雷击炮;zh-hk:改正雷擊炮;zh-tw:暗黑雷破;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:超越交叉真紅磨床劍;zh-tw:極限交錯朱紅切割;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:暗黑可变轨距剣;zh-hk:黑暗軌距可變劍;zh-tw:暗黑可變軌距劍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:空力抵抗导弹;zh-hk:空氣阻力導彈;zh-tw:空力抵抗導彈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:死亡能量炮;zh-hk:死亡能量炮;zh-tw:暗黑衝擊炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:地獄能量炮;zh-hk:地獄（黑色）能量炮;zh-tw:深淵衝擊炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超級金色能量炮;zh-hk:超級金色能量炮;zh-tw:超光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:究極金色能量炮;zh-tw:究極光速能量炮;zh-hk:超級金色能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:双重金色能量炮;zh-hk:雙重金色能量炮;zh-tw:二重光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超越金色能量炮;zh-hk:超越金色能量炮;zh-tw:極限光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:饭山超越能量炮;zh-hk:飯山超越能量炮;zh-tw:飯山光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三河安城超越能量炮;zh-hk:三河安城超越能量炮;zh-tw:三河安城光速能量炮"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:X字金色能量炮;zh-hk:X字金色能量炮;zh-tw:X光速能量炮"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三一能量炮;zh-hk:三一能量炮;zh-tw:三重螺旋能量炮"
+    },
+    {
+      "original": "",
+      "conv": "車站聖劍=>zh-tw:站聖劍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:Z金色能量炮;zh-hk:Z能量炮;zh-tw:Z光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "月台閘門盾=>zh-tw:閘門盾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:变频炮;zh-hk:變壓變頻破壞炮;zh-tw:變壓變頻破壞炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:斧头;zh-hk:斧頭;zh-tw:斧"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:梓之斧头;zh-hk:梓號斧頭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:梓之鏈鋸;zh-hk:梓號鏈鋸;zh-tw:梓之電鋸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:梓之高电压斧头;zh-hk:梓號高電壓斧頭;zh-tw:梓之高電壓斧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:Z燕子飛翼;zh-hk:Z燕子飛翼;zh-tw:Z飛燕雙翼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:音速集電弓弩;zh-hk:音速集電弓弩;zh-tw:音速集電弓飛箭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:路轨钉爪;zh-hant:路軌釘爪;zh-hk:路軌釘爪;zh-tw:軌道釘鉤爪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:飛驒衝擊波;zh-hk:飛驒號衝擊波;zh-tw:飛驒衝擊波;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:飛驒混能;zh-hk:飛驒混能;zh-tw:飛驒混合動力;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:蘋果飛彈;zh-hk:蘋果導彈;zh-tw:蘋果飛彈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:絲帶魔法棒;zh-hk:絲帶魔法棒;zh-tw:緞帶魔杖;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:路轨钉霰弹枪;zh-hant:路軌釘霰彈槍;zh-hk:路軌釘霰彈槍;zh-tw:軌道釘散彈槍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:變壓變頻花火特製舞台;zh-hk:變壓變頻花火特製舞台;zh-tw:變壓變頻破壞炮花火特別版;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:闇黑衝擊炮;zh-hk:闇黑衝擊炮;zh-tw:暗黑衝擊砲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:惡魔加農炮;zh-hk:惡魔加農炮;zh-tw:惡魔加農砲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hant:惡魔能量炮;zh-hk:惡魔光速能量炮;zh-tw:惡魔光速能量砲;"
+    }
+  ]
+}
