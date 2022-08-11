@@ -56,11 +56,18 @@ zh2TW data3185k         time:   [60.217 ms 61.348 ms 62.556 ms]
 zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 ``` 
 
+<!--
 ## Differences between other tools
 * `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity with single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
 * OpenCC: OpenCC has self-maintained conversion tables that are different from MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs uses the [Aho-Corasick](https://docs.rs/aho-corasick/) algorithm, which would be much faster in general.
 
 All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables.
+-->
+
+## Limits
+The converter is implemented upon a aho-corasick automaton with the leftmost-longest matching strategy. That is, leftest matched words or phrases always take a higher priority. For example, if both `干 -> 幹` and `天干物燥 -> 天乾物燥` are specified in a ruleset, `天乾物燥` would be picked since `天干物燥` would be matched earlier at the initial position compared to `干` at a latter position. The strategy works well most of the time. But it might also result in some unexpected cases, rarely.
+
+Besides, since an automaton is infeasible to update after being built, the converter will have to (re)build it from scratch for every ruleset. All automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. But, typically, such overhead would be significant if there are global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`) in a short text (even less effective than a naïve implementation).
 
 ## Credits
 All data that powers the converter, including conversion tables and CGroups, comes from the MediaWiki project.
