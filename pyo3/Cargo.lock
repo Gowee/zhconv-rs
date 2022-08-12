@@ -1567,7 +1567,7 @@ dependencies = [
 
 [[package]]
 name = "zhconv"
-version = "0.1.0-beta.3"
+version = "0.1.0-rc"
 dependencies = [
  "aho-corasick",
  "console_error_panic_hook",
@@ -1586,7 +1586,7 @@ dependencies = [
 
 [[package]]
 name = "zhconv-pyo3"
-version = "0.1.0"
+version = "0.1.0-rc"
 dependencies = [
  "pyo3",
  "pyo3-file",

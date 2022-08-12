@@ -40,9 +40,9 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 ```
 </details>
 
-**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM)
+**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
 
-**JS in browser**: `https://cdn.jsdelivr.net/npm/zhconv-web@latest/zhconv.js` (WASM)
+**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (WASM)
 
 <details>
  <summary>HTML snippet</summary>
@@ -143,4 +143,4 @@ The project takes the following projects/pages as references:
 - [x] Support [Module:CGroup](https://zh.wikipedia.org/wiki/Module:CGroup)
 - [ ] Propogate error properly with Anyhow and thiserror
 - [x] Python lib
-- [ ] More exmaples in README
+- [x] More exmaples in README
