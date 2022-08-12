@@ -41,7 +41,7 @@ criterion = "0.3"
 
 [build-dependencies]
 const_format = "0.2"
-reqwest = { version = "0.11", features = ["default-tls", "blocking"]}
+reqwest = { version = "0.11", features = ["rustls-tls", "blocking"]}
 sha2 = "0.10"
 hex-literal = "0.3"
 regex = "1.5"
