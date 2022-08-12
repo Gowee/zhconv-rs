@@ -8,6 +8,8 @@ jobs:
   linux:
     runs-on: ubuntu-latest
     steps:
+    - run: |
+        cd pyo3
     - uses: actions/checkout@v3
     - uses: messense/maturin-action@v1
       with:
