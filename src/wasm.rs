@@ -33,25 +33,33 @@ pub fn get_mediawiki_commit() -> String {
     env!("MEDIAWIKI_COMMIT_HASH").into()
 }
 
+/// Convert a text to a target Chinese variant.
+/// 
+/// Supported target variants: zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY.
+/// If `mediawiki` is `True`, inline conversion rules such as `-{foo...bar}-` are parsed.
+/// `rules` should be line-seperated in mediawiki syntax without -{ or }- tags, such as
+/// `zh-hans:鹿; zh-hant:馬`.
 #[wasm_bindgen]
-pub fn zhconv(text: &str, target: &str, mediawiki: bool, cgroup: &str) -> String {
+pub fn zhconv(text: &str, target: &str, mediawiki: Option<bool>, rules: Option<String>) -> String {
     console_error_panic_hook::set_once();
 
+    let mediawiki = mediawiki.unwrap_or(false);
+    let rules = rules.unwrap_or(String::from(""));
     let target = Variant::from_str(target).expect("Unsupported target variant");
-    match (mediawiki, !cgroup.is_empty()) {
+    match (mediawiki, !rules.is_empty()) {
         (false, false) => crate::zhconv(text, target),
         (true, false) => crate::zhconv_mw(text, target),
         (false, true) => ZhConverterBuilder::new()
             .target(target)
             .table(get_builtin_table(target))
-            .conv_lines(cgroup)
+            .conv_lines(&rules)
             .dfa(false)
             .build()
             .convert(text),
         (true, true) => ZhConverterBuilder::new()
             .target(target)
             .table(get_builtin_table(target))
-            .conv_lines(cgroup)
+            .conv_lines(&rules)
             .rules_from_page(text)
             .dfa(false)
             .build()
