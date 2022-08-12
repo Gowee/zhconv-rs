@@ -25,6 +25,9 @@ jobs:
         run: cargo clippy --all-targets --all-features -- -D warnings
       - name: Check Format
         run: cargo fmt -- --check
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
 
   build-cli:
     needs: build-main
@@ -65,6 +68,15 @@ jobs:
     # - name: Test
     #   working-directory: web/
     #   run: yarn test # no effective test so far
+
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
 
 # adapted from: https://github.com/Gowee/cidr-aggregator/blob/9c02241ab64e5cf62e33375e55e09502385bdc61/.github/workflows/main.yml#L1
 # which is in turn adapted from:
