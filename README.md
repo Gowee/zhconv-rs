@@ -1,6 +1,7 @@
+[![CI status](https://github.com/Gowee/zhconv-rs/actions/workflows/main.yml/badge.svg)](https://github.com/Gowee/zhconv-rs/actions)
 [![docs.rs](https://docs.rs/zhconv/badge.svg)](https://docs.rs/zhconv)
 [![Crates.io](https://img.shields.io/crates/v/zhconv.svg)](https://crates.io/crates/zhconv)
-[![CI status](https://github.com/Gowee/zhconv-rs/actions/workflows/main.yml/badge.svg)](https://github.com/Gowee/zhconv-rs/actions)
+[![PyPI version](https://img.shields.io/pypi/v/zhconv-rs)](https://pypi.org/project/zhconv-rs/)
 # zhconv-rs 中文简繁及地區詞轉換
 zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from Mediawiki, which is the one also used on Chinese Wikipedia.
 
@@ -14,7 +15,16 @@ zhconv-rs converts Chinese text among several scripts or regional variants (e.g.
 zhconv = "0.1"
 ```
 
+**Python Package via PyO3**:
+```sh
+pip install zhconv-rs
+# >>> from zhconv_rs import zhconv
+```
+
 ## Supported variants
+
+<details>
+ <summary>zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY</summary>
 
 | Target                                 | Tag       | Script  | Description                                   |
 | -------------------------------------- | --------- | ------- | --------------------------------------------- |
@@ -27,7 +37,8 @@ zhconv = "0.1"
 | Chinese (Singapore) / 新加坡简体       | `zh-SG`   | SC / 简 | Same as `zh-CN` for now.                      |
 | Chinese (Malaysia) / 大马简体          | `zh-MY`   | SC / 简 | Same as `zh-CN` for now.                      |
 
-*Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same conversion table with `zh-HK` unless additonal rules / CGroups are applied; `zh-MY` and `zh-SG` shares the same conversion table with`zh-CN` unless additional rules / CGroups are applied. 
+*Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same conversion table with `zh-HK` unless additonal rules / CGroups are applied; `zh-MY` and `zh-SG` shares the same conversion table with `zh-CN` unless additional rules / CGroups are applied. 
+</details>
 
 <!--
 ## Comparisions with other tools
@@ -64,10 +75,10 @@ zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables.
 -->
 
-## Limits
+## Limitations
 The converter is implemented upon a aho-corasick automaton with the leftmost-longest matching strategy. That is, leftest matched words or phrases always take a higher priority. For example, if both `干 -> 幹` and `天干物燥 -> 天乾物燥` are specified in a ruleset, `天乾物燥` would be picked since `天干物燥` would be matched earlier at the initial position compared to `干` at a latter position. The strategy works well most of the time. But it might also result in some unexpected cases, rarely.
 
-Besides, since an automaton is infeasible to update after being built, the converter will have to (re)build it from scratch for every ruleset. All automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. But, typically, such overhead would be significant if there are global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`) in a short text (even less effective than a naïve implementation).
+Besides, since an automaton is infeasible to update after being built, the converter will have to (re)build it from scratch for every ruleset. All automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. But, typically, such overhead would be significant if there are global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`) in a short text (even less efficient than a naïve implementation).
 
 ## Credits
 All data that powers the converter, including conversion tables and CGroups, comes from the MediaWiki project.
@@ -83,5 +94,5 @@ The project takes the following projects/pages as references:
 ## TODO
 - [x] Support [Module:CGroup](https://zh.wikipedia.org/wiki/Module:CGroup)
 - [ ] Propogate error properly with Anyhow and thiserror
-- [ ] Python lib
-- [ ] Impressive exmaples in README
+- [x] Python lib
+- [ ] More exmaples in README
