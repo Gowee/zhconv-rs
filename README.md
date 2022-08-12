@@ -4,31 +4,48 @@
 [![PyPI version](https://img.shields.io/pypi/v/zhconv-rs)](https://pypi.org/project/zhconv-rs/)
 [![NPM version](https://badge.fury.io/js/zhconv.svg)](https://www.npmjs.com/package/zhconv)
 # zhconv-rs 中文简繁及地區詞轉換
-zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from Mediawiki, which is the one also used on Chinese Wikipedia.
+zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from MediaWiki, which is the one also used on Chinese Wikipedia.
 
-**Web App: https://zhconv.pages.dev/** (powered by WASM)
+🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
 
-**Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases)(TODO).
+⚙️ **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases)(TODO).
 
-**Rust Crate**:
-```toml
-[dependencies]
-zhconv = "0.1" # see doc comments and cli/ for examples
-```
+🦀 **Rust Crate**: `cargo add zhconv` (see doc comments and [cli/](https://github.com/Gowee/zhconv-rs/tree/main/cli) for examples)
 
-**Python Package via PyO3**:
-```sh
+🐍 **Python Package via PyO3**: `pip install zhconv-rs` (WASM with wheels)
+<!--```sh
 pip install zhconv-rs
 # >>> from zhconv_rs import zhconv
 # >>> assert zhconv("霧失樓臺，月迷津渡", "zh-hans") == "雾失楼台，月迷津渡"
-```
-
-**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv`
-
-**JS in browser**: `https://cdn.jsdelivr.net/npm/zhconv-web@latest/zhconv.js`
+```-->
 
 <details>
- <summary>HTML snippet code</summary>
+ <summary>Python snippet</summary>
+
+```python
+# Convert with builtin rulesets:
+from zhconv_rs import zhconv
+assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
+assert zhconv("霧失樓臺，月迷津渡", "zh-hans") == "雾失楼台，月迷津渡"
+assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn") == "《三个火枪手》是亚历山大·仲马的作品。"
+assert zhconv("-{H|zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;}-《雾都孤儿》是查尔斯·狄更斯的作品。", "zh-tw") == "《孤雛淚》是查爾斯·狄更斯的作品。"
+
+# Convert with custom rules:
+from zhconv_rs import make_converter
+assert make_converter(None, [("天", "地"), ("水", "火")])("甘肅天水") == "甘肅地火"
+
+import io
+convert = make_converter("zh-hans", io.StringIO("䖏 处\n罨畫 掩画")) # or path to rule file
+assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去湖州近 几处楼台掩画间"
+```
+</details>
+
+**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM)
+
+**JS in browser**: `https://cdn.jsdelivr.net/npm/zhconv-web@latest/zhconv.js` (WASM)
+
+<details>
+ <summary>HTML snippet</summary>
 
 ```html
 <script type="module">
