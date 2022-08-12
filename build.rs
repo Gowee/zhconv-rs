@@ -60,7 +60,7 @@ fn main() {
     }
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
-    println!("cargo:rerun-if-changed=zhConversion.php");
+    println!("cargo:rerun-if-changed=data/zhConversion.php");
 }
 
 fn fetch_zhconv() -> String {
