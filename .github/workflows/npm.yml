@@ -1,0 +1,64 @@
+name: NPM
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - name: Install wasm-pack
+        run: |
+          curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh 
+      - name: Build pkg
+        run: |
+          wasm-pack build --release -d pkg-bundler &&  wasm-pack build --release -d pkg-web -t web
+      - name: Upload pkg
+        uses: actions/upload-artifact@v3
+        with:
+          name: pkgs
+          path: |
+            pkg-bundler
+            pkg-web
+
+  release:
+    name: Release
+    environment: npm
+    runs-on: ubuntu-latest
+    # if: "startsWith(github.ref, 'refs/tags/')" # TODO
+    needs: [ build ]
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - uses: actions/download-artifact@v2
+        with:
+          name: pkgs
+      - name: Set NPM token
+        env:
+          NPM_API_TOKEN: ${{ secrets.NPM_API_TOKEN }}
+        run: |
+          npm config set //registry.npmjs.org/:_authToken="${NPM_API_TOKEN}"
+      - name: Publish zhconv to NPM
+        run: |
+          cd pkg-bundler
+          jq '. |= . + {"keywords": ["wasm", "chinese", "simplified chinese", "traditional chinese", "language", "webpack", "l10n"]}' package.json | \
+            jq '.description = "🦀 Convert Trad/Simp Chinese and regional words among each other based on rules of MediaWiki 轉換中文简繁體及地區詞，基於MediaWiki之轉換表 (powered by Rust / WASM 驅動)"' \
+            > new-package.json
+          mv new-package.json package.json
+          npm publish --dry-run # TODO
+      - name: Publish zhconv to NPM
+        run: |
+          cd pkg-web
+          jq '. |= . + {"keywords": ["wasm", "chinese", "simplified chinese", "traditional chinese", "language", "browser", "l10n"]}' package.json | \
+            jq '.description = "The alternative version of zhconv that can be imported as an ES module in a browser straightfoward"' | \
+            jq '.name = "zhconv-web"' \
+            > new-package.json
+            mv new-package.json package.json
+          echo -e "# Check [zhconv](https://www.npmjs.com/package/zhconv) for more info\n\nThe package shares the same codebase with zhconv. But it can be imported as an ES module in a browser straightfoward without bundlers like Webpack." > README.md
+          npm publish --dry-run # TODO
