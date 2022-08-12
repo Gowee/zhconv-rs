@@ -1,4 +1,4 @@
-from typing import Optional, Union, Literal
+from typing import Optional, Union, Literal, Sequence, Tuple, TextIO, Callable
 
 ZhVariant = Union[
     Literal["zh"],
@@ -21,4 +21,7 @@ ZhVariant = Union[
 ]
 
 def zhconv(text: str, target: ZhVariant, mediawiki: Optional[bool]) -> str:
+    pass
+
+def make_converter(base: Optional[ZhVariant], rules: Union[Sequence[Tuple[str, str]], str, TextIO]) -> Callable[[str, Optional[bool]], str]:
     pass
