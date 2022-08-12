@@ -30,7 +30,7 @@ jobs:
     name: Release
     environment: npm
     runs-on: ubuntu-latest
-    # if: "startsWith(github.ref, 'refs/tags/')" # TODO
+    if: "startsWith(github.ref, 'refs/tags/')"
     needs: [ build ]
     steps:
       - uses: actions/setup-node@v3
@@ -44,15 +44,15 @@ jobs:
           NPM_API_TOKEN: ${{ secrets.NPM_API_TOKEN }}
         run: |
           npm config set //registry.npmjs.org/:_authToken="${NPM_API_TOKEN}"
-      - name: Publish zhconv to NPM
+      - name: Publish zhconv
         run: |
           cd pkg-bundler
           jq '. |= . + {"keywords": ["wasm", "chinese", "simplified chinese", "traditional chinese", "language", "webpack", "l10n"]}' package.json | \
             jq '.description = "🦀 Convert Trad/Simp Chinese and regional words among each other based on rules of MediaWiki 轉換中文简繁體及地區詞，基於MediaWiki之轉換表 (powered by Rust / WASM 驅動)"' \
             > new-package.json
           mv new-package.json package.json
-          npm publish --dry-run # TODO
-      - name: Publish zhconv to NPM
+          npm publish
+      - name: Publish zhconv-web
         run: |
           cd pkg-web
           jq '. |= . + {"keywords": ["wasm", "chinese", "simplified chinese", "traditional chinese", "language", "browser", "l10n"]}' package.json | \
@@ -61,4 +61,4 @@ jobs:
             > new-package.json
             mv new-package.json package.json
           echo -e "# Check [zhconv](https://www.npmjs.com/package/zhconv) for more info\n\nThe package shares the same codebase with zhconv. But it can be imported as an ES module in a browser straightfoward without bundlers like Webpack." > README.md
-          npm publish --dry-run # TODO
+          npm publish
