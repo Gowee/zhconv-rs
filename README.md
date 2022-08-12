@@ -2,6 +2,7 @@
 [![docs.rs](https://docs.rs/zhconv/badge.svg)](https://docs.rs/zhconv)
 [![Crates.io](https://img.shields.io/crates/v/zhconv.svg)](https://crates.io/crates/zhconv)
 [![PyPI version](https://img.shields.io/pypi/v/zhconv-rs)](https://pypi.org/project/zhconv-rs/)
+[![NPM version](https://badge.fury.io/js/zhconv.svg)](https://www.npmjs.com/package/zhconv)
 # zhconv-rs 中文简繁及地區詞轉換
 zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from Mediawiki, which is the one also used on Chinese Wikipedia.
 
@@ -9,17 +10,47 @@ zhconv-rs converts Chinese text among several scripts or regional variants (e.g.
 
 **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases)(TODO).
 
-**Crate**:
-```rust
+**Rust Crate**:
+```toml
 [dependencies]
-zhconv = "0.1"
+zhconv = "0.1" # see doc comments and cli/ for examples
 ```
 
 **Python Package via PyO3**:
 ```sh
 pip install zhconv-rs
 # >>> from zhconv_rs import zhconv
+# >>> assert zhconv("霧失樓臺，月迷津渡", "zh-hans") == "雾失楼台，月迷津渡"
 ```
+
+**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv`
+
+**JS in browser**: `https://cdn.jsdelivr.net/npm/zhconv-web@latest/zhconv.js`
+
+<details>
+ <summary>HTML snippet code</summary>
+
+```html
+<script type="module">
+    // Use ES module import syntax to import functionality from the module
+    // that we have compiled.
+    //
+    // Note that the `default` import is an initialization function which
+    // will "boot" the module and make it ready to use. Currently browsers
+    // don't support natively imported WebAssembly as an ES module, but
+    // eventually the manual initialization won't be required!
+    import init, { zhconv } from 'https://cdn.jsdelivr.net/npm/zhconv-web@latest/zhconv.js'; // specify a version tag if in prod
+
+    async function run() {
+        await init();
+
+        alert(zhconv(prompt("Text to convert to zh-hans:"), "zh-hans"));
+    }
+
+    run();
+</script>
+```
+</details>
 
 ## Supported variants
 

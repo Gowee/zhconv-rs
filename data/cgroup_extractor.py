@@ -20,18 +20,18 @@ REGEX_TEMPLATE_HEADER = re.compile(
 )
 REGEX_LANG = re.compile(r"\{\{lang\|[a-zA-z]{2}\|([^}]+)}}")
 # For Module:CGroup
-REGEX_RULE1 = re.compile(
-    r"""original\s*=\s*(["'])(?P<original>.*?)\1\s*,\s*rule\s*=\s*(['"])(?P<conv>.+?)\3"""
-)
-REGEX_RULE2 = re.compile(
-    r"""rule\s*=\s*(["'])(?P<conv>.*?)\1\s*,\s*original\s*=\s*(['"])(?P<original>.+?)\3"""
-)
-REGEX_RULE3 = re.compile(
-    r"""(?P<original>)rule\s*=\s*(["'])(?P<conv>.*?)\2"""  # no original, e.g. [[Module:CGroup/OnePiece]]
-)
-REGEX_RULE4 = re.compile(
-    r"""Item\(\s*((['"])(?P<original>.*?)\2|nil)\s*,\s*(['"])(?P<conv>.+?)\4\s*\)"""
-)
+# REGEX_RULE1 = re.compile(
+#     r"""original\s*=\s*(["'])(?P<original>.*?)\1\s*,\s*rule\s*=\s*(['"])(?P<conv>.+?)\3"""
+# )
+# REGEX_RULE2 = re.compile(
+#     r"""rule\s*=\s*(["'])(?P<conv>.*?)\1\s*,\s*original\s*=\s*(['"])(?P<original>.+?)\3"""
+# )
+# REGEX_RULE3 = re.compile(
+#     r"""(?P<original>)rule\s*=\s*(["'])(?P<conv>.*?)\2"""  # no original, e.g. [[Module:CGroup/OnePiece]]
+# )
+# REGEX_RULE4 = re.compile(
+#     r"""Item\(\s*((['"])(?P<original>.*?)\2|nil)\s*,\s*(['"])(?P<conv>.+?)\4\s*\)"""
+# )
 # For [[Category:公共轉換組模板]]; e.g. [[Template:CGroup/People]], [[Template:CGroup/文學]]
 REGEX_RULE5 = re.compile(
     r"""{{\s*(CI(tem(Hidden)?)?|CNoteA)\s*\|(\s*desc\s*=\s*[^|]*\s*\|)?\s*original\s*=\s*(?P<original>[^|]*?)\s*(\|\s*desc\s*=\s*[^|]*\s*)?\|\s*(1=)?\s*(?P<conv>[^}]+)(\|\s*desc\s*=\s*[^|]*\s*)?(\|\s*)?}}"""
