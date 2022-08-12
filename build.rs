@@ -12,7 +12,6 @@ use itertools::Itertools;
 use regex::Regex;
 use reqwest::blocking as reqwest;
 use sha2::{Digest, Sha256};
-#[cfg(target_arch = "wasm32")]
 use vergen::{vergen, Config as VergenConfig};
 
 const COMMIT: &str = "56417313aa08801ef4b737b40bb7e436c2160d0a";
@@ -57,8 +56,15 @@ fn main() {
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
         // So it is ok to disable it in docs.rs.
-        #[cfg(target_arch = "wasm32")]
-        vergen(VergenConfig::default()).expect("vergen");
+
+        // Note: conditional compilation tricks won't be effective since it is cross compiling here.
+        // Ref:
+        //   https://kazlauskas.me/entries/writing-proper-buildrs-scripts
+        //   https://github.com/rust-lang/cargo/issues/4302
+        // #[cfg(target_arch = "wasm32")] #[cfg(all(target_arch = "wasm32", target_os = "unknown"))]
+        if std::env::var("CARGO_CFG_TARGET_ARCH") == Ok("wasm32".to_owned()) {
+            vergen(VergenConfig::default()).expect("vergen");
+        }
     }
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
