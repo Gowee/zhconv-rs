@@ -24,8 +24,9 @@ use ::zhconv::{
 #[pyfunction]
 fn zhconv(py: Python<'_>, text: &str, target: &str, mediawiki: Option<bool>) -> PyResult<String> {
     py.allow_threads(move || {
-        let target = Variant::from_str(target)
-            .map_err(|_e| PyTypeError::new_err("Unsupported target variant"))?;
+        let target = Variant::from_str(target).map_err(|_e| {
+            PyTypeError::new_err(format!("Unsupported target variant: {}", target))
+        })?;
         let mediawiki = mediawiki.unwrap_or(false);
         Ok(if mediawiki {
             zhconv_mw(text, target)
@@ -35,28 +36,17 @@ fn zhconv(py: Python<'_>, text: &str, target: &str, mediawiki: Option<bool>) -> 
     })
 }
 
-/// converter(text[, mediawiki]) -> result
+/// converter(text) -> result
 ///
 /// Convert a text with the previously built converter. It is a callable object that works like a
 /// plain function, returned by `make_converter`.
-///
-/// If `mediawiki` is `True`, inline conversion rules such as `-{foo...bar}-` are activated. But be
-/// noted that, unlike `zhconv`, it discards silently global conversion rules such as
-/// `-{H|bar...foo}-`. Check the project's README for more info.
 #[pyclass]
 struct ZhConverter(Converter);
 
 #[pymethods]
 impl ZhConverter {
-    fn __call__(&self, py: Python<'_>, text: &str, mediawiki: Option<bool>) -> String {
-        let mediawiki = mediawiki.unwrap_or(false);
-        py.allow_threads(move || {
-            if mediawiki {
-                self.0.convert_allowing_inline_rules(text)
-            } else {
-                self.0.convert(text)
-            }
-        })
+    fn __call__(&self, py: Python<'_>, text: &str) -> String {
+        py.allow_threads(move || self.0.convert(text))
     }
 }
 
@@ -65,26 +55,27 @@ impl ZhConverter {
 /// Make a converter with custom conversion rules, optionally based on a built-in ruleset
 /// specified by the `base` target variant. Rules can be an array of `(from, to)` pairs, a file
 /// path or a file-like object.
+///
 /// With DFA activated by default, the converter takes more time to build while converts more
 /// efficiently. All built-in converters used be `zhconv` have this feature enabled for better
 /// conversion performance.
 ///
 /// The returned converter is a callable function of the type `ZhConverter`:
 ///
-/// converter(text[, mediawiki]) -> result
-///
-/// Be noted that, unlike the `zhconv` function, the returned converter does not support global
-/// conversion rules such as `-{H|zh-hans:foo; zh-hant:bar}-` in texts.
+/// converter(text) -> result
 #[pyfunction]
 fn make_converter(
     py: Python<'_>,
-    base: &str,
+    base: Option<&str>,
     rules: PyObject,
     dfa: Option<bool>,
 ) -> PyResult<ZhConverter> {
+    let base = base
+        .and_then(|base| base.try_into().ok())
+        .unwrap_or(Variant::Zh);
     let mut builder = ZhConverterBuilder::new()
         .dfa(dfa.unwrap_or(true))
-        .table(get_builtin_table(base.try_into().unwrap_or(Variant::Zh)));
+        .table(get_builtin_table(base));
     if let Ok(pairs) = rules.extract::<Vec<(String, String)>>(py) {
         for (from, to) in pairs.into_iter() {
             builder = builder.add_conv_pair(from, to);
@@ -94,7 +85,7 @@ fn make_converter(
 
         if let Ok(string_ref) = rules.cast_as::<PyString>(py) {
             // path
-            let path = string_ref.to_str()?; //.map_err(|_e| TypeError::new_err("Invalid Unicode encoding in file path"))?; // TODO
+            let path = string_ref.to_str()?;
             File::open(path)?.read_to_string(&mut text)?;
         } else {
             // file-like
@@ -124,10 +115,24 @@ fn make_converter(
 
 /// zhconv as in MediaWiki, oxidized with much more efficiency.
 ///
-/// Simple usage:
+/// Convert with builtin rulesets:
 /// ```python
 /// from zhconv_rs import zhconv
-/// assert zhconv("zh-tw", "天干物燥 小心火烛") == assert zhconv("zh-tw", "天乾物燥 小心火燭")
+/// assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
+/// assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn") == "《三个火枪手》是亚历山大·仲马的作品。"
+/// assert zhconv("-{H|zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;}-《雾都孤儿》是查尔斯·狄更斯的作品。", "zh-tw") == "《孤雛淚》是查爾斯·狄更斯的作品。"
+/// ```
+///
+/// Convert with custom rules:
+/// ```python
+/// from zhconv_rs import make_converter
+/// assert make_converter(None, [("天", "地"), ("水", "火")])("甘肅天水") == "甘肅地火"
+///
+/// import io
+/// convert = make_converter("zh-hans", io.StringIO("䖏 处\n罨畫 掩画"))
+/// assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去湖州近 几处楼台掩画间"
+///
+/// "譬如鳥跡，空中現者，無有是處。"
 /// ```
 #[pymodule]
 fn zhconv_rs(_py: Python, m: &PyModule) -> PyResult<()> {
