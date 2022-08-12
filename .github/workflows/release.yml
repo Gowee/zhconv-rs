@@ -20,8 +20,6 @@ jobs:
             archive: zip
     steps:
       - uses: actions/checkout@master
-      - name: Create release
-        uses: softprops/action-gh-release@v1
       - name: Compile and release
         uses: rust-build/rust-build.action@latest
         env:
