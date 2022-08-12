@@ -23,5 +23,5 @@ ZhVariant = Union[
 def zhconv(text: str, target: ZhVariant, mediawiki: Optional[bool]) -> str:
     pass
 
-def make_converter(base: Optional[ZhVariant], rules: Union[Sequence[Tuple[str, str]], str, TextIO]) -> Callable[[str, Optional[bool]], str]:
+def make_converter(base: Optional[ZhVariant], rules: Union[Sequence[Tuple[str, str]], str, TextIO]) -> Callable[[str], str]:
     pass
