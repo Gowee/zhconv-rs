@@ -67,8 +67,12 @@ jobs:
             # tar czf "$staging.tar.gz" "$staging"
             f="bin/zhconv-${{ matrix.target }}"
             mv target/${{ matrix.target }}/release/zhconv "$f"
-            t=$(objdump -f "$f" | grep -oP "(?<=format )\s*[\w-]+" | tr -d '\n' || "")
-            strip $f --target $t || echo "strip unavailable for the target"
+            if [ "${{ matrix.os }}" = "macos-latest" ]; then
+              strip "$f" || echo "strip failed"
+            else
+              t=$(objdump -f "$f" | grep -oP "(?<=format )\s*[\w-]+" | tr -d '\n' || "")
+              strip -v "$f" --target "$t" || echo "strip unavailable for the target"
+            fi
           fi
         working-directory: ./cli
       - name: Upload artifact
