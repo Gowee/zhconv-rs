@@ -28,7 +28,7 @@ jobs:
             # archive: tar.gz tar.xz
           - target: aarch64-unknown-linux-musl
             os: ubuntu-latest
-            cross: true
+            cross: false # some error with the default cross version?
           - target: x86_64-apple-darwin
             os: macos-latest
             cross: false
@@ -46,9 +46,8 @@ jobs:
           command: build
           args: --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
           use-cross: ${{ matrix.cross }}
-      # - name: Setup tmate session
-      #   uses: mxschmitt/action-tmate@v3
       - name: Prepare asset
+        shell: bash # on win, the default is ps
         run: |
           mkdir bin
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
