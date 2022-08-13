@@ -41,11 +41,14 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - run: cargo install cross --git https://github.com/cross-rs/cross.git
-      - run: cargo build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
-        if: ${{ matrix.cross }} == false
-      - run: cross build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
-        if: ${{ matrix.cross }} == true
+      - name: Build with cargo
+        run: cargo build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+        if: matrix.cross == false
+      - name: Build with cross
+        run: |
+          cargo install cross --git https://github.com/cross-rs/cross.git
+          cross build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+        if: matrix.cross == true
       # some error with the default cross version
       # - uses: actions-rs/cargo@v1
       #   with:
