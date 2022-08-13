@@ -46,17 +46,17 @@ jobs:
           command: build
           args: --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
           use-cross: ${{ matrix.cross }}
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
+      # - name: Setup tmate session
+      #   uses: mxschmitt/action-tmate@v3
       - name: Prepare asset
         run: |
           mkdir bin
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
             # 7z a "$staging.zip" "$staging"
-            mv target/release/zhconv.exe "bin/zhconv-${{ matrix.target }}.exe"
+            mv target/${{ matrix.target }}/release/zhconv.exe "bin/zhconv-${{ matrix.target }}.exe"
           else
             # tar czf "$staging.tar.gz" "$staging"
-            mv target/release/zhconv "bin/zhconv-${{ matrix.target }}"
+            mv target/${{ matrix.target }}/release/zhconv "bin/zhconv-${{ matrix.target }}"
             strip "bin/zhconv-${{ matrix.target }}" || echo "strip unavailable for the target"
           fi
         working-directory: ./cli
