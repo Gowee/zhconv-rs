@@ -1,11 +1,11 @@
 [package]
 name = "zhconv-pyo3"
-version = "0.1.0-rc"
+version = "0.1.0-rc5"
 edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-3.0"
 repository = "https://github.com/Gowee/zhconv-rs"
-description = "zhconv as in MediaWiki, oxidized with much more efficiency"
+description = "zhconv as in MediaWiki, oxidized with more efficiency 🦀"
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

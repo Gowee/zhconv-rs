@@ -9,4 +9,4 @@
 - `cgroups/merge_for_web.py` combines `cgroups/*.json` into a monolithic `cgroups.json` to be placed in `:/web/public/cgroups.json`, which is included in the web app. The libs and the cli are not referencing CGroups for now. 
 
 ## Licenses
-Dataset are neither maintained nor licensed by zhconv-rs. Instead, they are licensed in upstream projects. Check their source for licenses.
+Dataset are neither maintained nor licensed by zhconv-rs. Instead, they are licensed in upstream projects. Check their sources for licenses.

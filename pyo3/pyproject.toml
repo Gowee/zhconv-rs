@@ -9,5 +9,12 @@ classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Chinese (Traditional)",
+    "Natural Language :: Chinese (Simplified)",
 ]
 
+[project.urls]
+# Homepage = "https://github.com/Gowee/zhconv-rs"
+Source = "https://github.com/Gowee/zhconv-rs/tree/main/pyo3"
+# Tracker = "https://github.com/Gowee/zhconv-rs/issues"
