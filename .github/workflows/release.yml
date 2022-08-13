@@ -46,18 +46,18 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --release
+          args: --manifest-path cli/Cargo.toml --release
           use-cross: ${{ matrix.cross }}
       - name: Prepare asset
         run: |
           mkdir bin
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
             # 7z a "$staging.zip" "$staging"
-            mv target/release/zhconv.exe "bin/zhconv${{ matrix.target }}.exe"
+            mv target/release/zhconv.exe "bin/zhconv-${{ matrix.target }}.exe"
           else
             # tar czf "$staging.tar.gz" "$staging"
-            mv target/release/zhconv "bin/zhconv${{ matrix.target }}"
-            strip "bin/zhconv${{ matrix.target }}" || echo "strip unavailable for the target"
+            mv target/release/zhconv "bin/zhconv-${{ matrix.target }}"
+            strip "bin/zhconv-${{ matrix.target }}" || echo "strip unavailable for the target"
           fi
       - name: Upload artifact
         uses: actions/upload-artifact@v3
