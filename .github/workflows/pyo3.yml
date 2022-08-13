@@ -43,7 +43,7 @@ jobs:
     - uses: messense/maturin-action@v1
       with:
         command: build
-        args: --release -o dist --universal2 --find-interpreter -m pyo3/Cargo.toml
+        args: --release -o pyo3/dist --universal2 --find-interpreter -m pyo3/Cargo.toml
     - name: Upload wheels
       uses: actions/upload-artifact@v2
       with:
