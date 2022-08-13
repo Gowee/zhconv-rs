@@ -8,16 +8,11 @@ zhconv-rs converts Chinese text among several scripts or regional variants (e.g.
 
 🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
 
-⚙️ **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases)(TODO).
+⚙️ **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases).
 
 🦀 **Rust Crate**: `cargo add zhconv` (see doc comments and [cli/](https://github.com/Gowee/zhconv-rs/tree/main/cli) for examples)
 
 🐍 **Python Package via PyO3**: `pip install zhconv-rs` (WASM with wheels)
-<!--```sh
-pip install zhconv-rs
-# >>> from zhconv_rs import zhconv
-# >>> assert zhconv("霧失樓臺，月迷津渡", "zh-hans") == "雾失楼台，月迷津渡"
-```-->
 
 <details>
  <summary>Python snippet</summary>
@@ -27,8 +22,8 @@ pip install zhconv-rs
 from zhconv_rs import zhconv
 assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
 assert zhconv("霧失樓臺，月迷津渡", "zh-hans") == "雾失楼台，月迷津渡"
-assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn") == "《三个火枪手》是亚历山大·仲马的作品。"
-assert zhconv("-{H|zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;}-《雾都孤儿》是查尔斯·狄更斯的作品。", "zh-tw") == "《孤雛淚》是查爾斯·狄更斯的作品。"
+assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn", mediawiki=True) == "《三个火枪手》是亚历山大·仲马的作品。"
+assert zhconv("-{H|zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;}-《雾都孤儿》是查尔斯·狄更斯的作品。", "zh-tw", True) == "《孤雛淚》是查爾斯·狄更斯的作品。"
 
 # Convert with custom rules:
 from zhconv_rs import make_converter

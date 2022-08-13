@@ -73,7 +73,10 @@ pub fn zhconv(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert(text)
 }
 
-/// Helper function for general conversion, activating conversion rules in MediaWiki syntax.
+/// Helper function for general conversion, activating inline conversion rules in MediaWiki syntax.
+///
+/// For general cases, [`zhconv`](#method.zhconv) should work well. Both of them share the same
+/// built-in conversions tables.
 ///
 /// # Note
 /// Different from the implementation of MediaWiki, this crate use a automaton which makes it

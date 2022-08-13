@@ -182,7 +182,7 @@ impl ZhConverter {
 
 /// A builder that helps build a `ZhConverter`.
 ///
-/// # Usage
+/// # Example
 /// Build a Zh2CN converter with some additional rules.
 /// ```
 /// use zhconv::{zhconv, ZhConverterBuilder, Variant, tables::ZH_HANS_CN_TABLE};
@@ -266,7 +266,10 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Add a conv.
+    /// Add a [`Conv`].
+    ///
+    /// For general cases, check [`add_conv_pair`](#method.add_conv_pair) which takes a plain
+    /// `from -> to` pair.
     pub fn add_conv(mut self, conv: Conv) -> Self {
         let pairs = conv.get_conv_pairs(self.target);
         self.adds
@@ -282,7 +285,7 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Add a single conversion pair.
+    /// Add a single `from -> to` conversion pair.
     ///
     /// It takes the precedence over those specified via `table`. It shares the same precedence level with those specified via `cgroup`.
     pub fn add_conv_pair(mut self, from: impl AsRef<str>, to: impl AsRef<str>) -> Self {
