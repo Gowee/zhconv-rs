@@ -62,10 +62,13 @@ jobs:
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
             # 7z a "$staging.zip" "$staging"
             mv target/${{ matrix.target }}/release/zhconv.exe "bin/zhconv-${{ matrix.target }}.exe"
+            strip "bin/zhconv-${{ matrix.target }}.exe" || echo "boom"
           else
             # tar czf "$staging.tar.gz" "$staging"
-            mv target/${{ matrix.target }}/release/zhconv "bin/zhconv-${{ matrix.target }}"
-            strip "bin/zhconv-${{ matrix.target }}" || echo "strip unavailable for the target"
+            f="bin/zhconv-${{ matrix.target }}"
+            mv target/${{ matrix.target }}/release/zhconv "$f"
+            t=$(objdump -f "$f" | grep -oP "(?<=format )\s*[\w-]+" | tr -d '\n' || "")
+            strip $f --target $t || echo "strip unavailable for the target"
           fi
         working-directory: ./cli
       - name: Upload artifact
