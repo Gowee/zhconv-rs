@@ -49,7 +49,7 @@ jobs:
           fi
       - name: Strip binary
         if: matrix.target != 'x86_64-pc-windows-gnu'
-        run: strip " ${{ env.ASSET }}"
+        run: strip "${{ env.ASSET }}"
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
