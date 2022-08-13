@@ -19,13 +19,19 @@ jobs:
         include:
           - target: x86_64-pc-windows-gnu
             os: windows-2019
-            archive: zip
+            cross: false
+            # archive: zip
           - target: x86_64-unknown-linux-musl
             os: ubuntu-latest
-            archive: tar.gz tar.xz
+            cross: false
+            # archive: tar.gz tar.xz
+          - target: aarch64-unknown-linux-musl
+            os: ubuntu-latest
+            cross: true
           - target: x86_64-apple-darwin
             os: macos-latest
-            archive: zip
+            cross: false
+            # archive: zip
     defaults:
       run:
         working-directory: ./cli
@@ -37,24 +43,27 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - run: cargo build --release
+      - uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --release
+          use-cross: ${{ matrix.cross }}
       - name: Prepare asset
         run: |
+          mkdir bin
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
             # 7z a "$staging.zip" "$staging"
-            echo "ASSET=target/release/zhconv.exe" >> $GITHUB_ENV
+            mv target/release/zhconv.exe -o "bin/zhconv${{ matrix.target }}.exe"
           else
             # tar czf "$staging.tar.gz" "$staging"
-            echo "ASSET=target/release/zhconv" >> $GITHUB_ENV
+            mv target/release/zhconv "bin/zhconv${{ matrix.target }}"
+            strip "bin/zhconv${{ matrix.target }}" || echo "strip unavailable for the target"
           fi
-      - name: Strip binary
-        if: matrix.target != 'x86_64-pc-windows-gnu'
-        run: strip "${{ env.ASSET }}"
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: binaries
-          path: cli/${{ env.ASSET }}
+          path: cli/bin/
 
   release:
     runs-on: ubuntu-latest
