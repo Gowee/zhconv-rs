@@ -41,7 +41,7 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - uses: actions-rs/cargo@v1
+      - uses: boozook/cargo@v1
         with:
           command: build
           args: --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
