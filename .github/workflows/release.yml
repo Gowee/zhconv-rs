@@ -28,7 +28,7 @@ jobs:
             # archive: tar.gz tar.xz
           - target: aarch64-unknown-linux-musl
             os: ubuntu-latest
-            cross: false # some error with the default cross version?
+            cross: true
           - target: x86_64-apple-darwin
             os: macos-latest
             cross: false
@@ -41,11 +41,17 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - uses: boozook/cargo@v1
-        with:
-          command: build
-          args: --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
-          use-cross: ${{ matrix.cross }}
+      - run: cargo install cross --git https://github.com/cross-rs/cross.git
+      - run: cargo build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+        if: ${{ matrix.cross }} == false
+      - run: cross build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+        if: ${{ matrix.cross }} == true
+      # some error with the default cross version
+      # - uses: actions-rs/cargo@v1
+      #   with:
+      #     command: build
+      #     args: --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+      #     use-cross: ${{ matrix.cross }}
       - name: Prepare asset
         shell: bash # on win, the default is ps
         run: |
