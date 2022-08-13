@@ -62,8 +62,9 @@ fn main() {
         //   https://kazlauskas.me/entries/writing-proper-buildrs-scripts
         //   https://github.com/rust-lang/cargo/issues/4302
         // #[cfg(target_arch = "wasm32")] #[cfg(all(target_arch = "wasm32", target_os = "unknown"))]
-        if std::env::var("CARGO_CFG_TARGET_ARCH") == Ok("wasm32".to_owned()) {
-            vergen(VergenConfig::default()).expect("vergen");
+        if env::var("CARGO_CFG_TARGET_ARCH") == Ok("wasm32".to_owned()) {
+            vergen(VergenConfig::default())
+                .unwrap_or_else(|e| println!("cargo:warning=vergen failed: {:?}", e));
         }
     }
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", COMMIT);

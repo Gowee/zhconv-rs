@@ -21,12 +21,12 @@ use crate::{get_builtin_table, Variant, ZhConverterBuilder};
 // }
 
 #[wasm_bindgen]
-pub fn get_build_timestamp() -> String {
-    env!("VERGEN_BUILD_TIMESTAMP").into()
+pub fn get_build_timestamp() -> Option<String> {
+    option_env!("VERGEN_BUILD_TIMESTAMP").map(|s| s.into())
 }
 #[wasm_bindgen]
-pub fn get_commit() -> String {
-    env!("VERGEN_GIT_SHA").into()
+pub fn get_commit() -> Option<String> {
+    option_env!("VERGEN_GIT_SHA").map(|s| s.into())
 }
 #[wasm_bindgen]
 pub fn get_mediawiki_commit() -> String {
@@ -34,7 +34,7 @@ pub fn get_mediawiki_commit() -> String {
 }
 
 /// Convert a text to a target Chinese variant.
-/// 
+///
 /// Supported target variants: zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY.
 /// If `mediawiki` is `True`, inline conversion rules such as `-{foo...bar}-` are parsed.
 /// `rules` should be line-seperated in mediawiki syntax without -{ or }- tags, such as

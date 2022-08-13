@@ -32,8 +32,8 @@ export default function Footer() {
         "../../public/cgroups.json"
       );
       setBuildInfo({
-        buildDate: new Date(get_build_timestamp()),
-        commit: get_commit(),
+        buildDate: new Date(get_build_timestamp() ?? 0),
+        commit: get_commit() ?? "NotInGit",
         mediawikiCommit: get_mediawiki_commit(),
         cgroupDate: new Date(cgroupTimestamp * 1000),
       });
