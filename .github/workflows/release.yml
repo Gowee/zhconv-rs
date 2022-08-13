@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - test
     tags:
       - v*
   # release:
@@ -32,9 +33,6 @@ jobs:
             os: macos-latest
             cross: false
             # archive: zip
-    defaults:
-      run:
-        working-directory: ./cli
     steps:
       - uses: actions/checkout@v3
       - uses: actions-rs/toolchain@v1
@@ -48,6 +46,8 @@ jobs:
           command: build
           args: --manifest-path cli/Cargo.toml --release
           use-cross: ${{ matrix.cross }}
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
       - name: Prepare asset
         run: |
           mkdir bin
@@ -59,6 +59,7 @@ jobs:
             mv target/release/zhconv "bin/zhconv-${{ matrix.target }}"
             strip "bin/zhconv-${{ matrix.target }}" || echo "strip unavailable for the target"
           fi
+        working-directory: ./cli
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
