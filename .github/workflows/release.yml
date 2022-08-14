@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - test
     tags:
       - v*
   # release:
@@ -12,7 +13,7 @@ on:
 jobs:
   compile:
     name: release ${{ matrix.target }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
@@ -32,9 +33,6 @@ jobs:
             os: macos-latest
             cross: false
             # archive: zip
-    defaults:
-      run:
-        working-directory: ./cli
     steps:
       - uses: actions/checkout@v3
       - uses: actions-rs/toolchain@v1
@@ -43,22 +41,35 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - uses: actions-rs/cargo@v1
-        with:
-          command: build
-          args: --manifest-path cli/Cargo.toml --release
-          use-cross: ${{ matrix.cross }}
+      - name: Build with cargo
+        run: cargo build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+        if: matrix.cross == false
+      - name: Build with cross
+        run: |
+          cargo install cross --git https://github.com/cross-rs/cross.git
+          cross build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+        if: matrix.cross == true
+      # some error with the default cross version
+      # - uses: actions-rs/cargo@v1
+      #   with:
+      #     command: build
+      #     args: --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
+      #     use-cross: ${{ matrix.cross }}
       - name: Prepare asset
+        shell: bash # on win, the default is ps
         run: |
           mkdir bin
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
             # 7z a "$staging.zip" "$staging"
-            mv target/release/zhconv.exe "bin/zhconv-${{ matrix.target }}.exe"
+            f="bin/zhconv-${{ matrix.target }}.exe"
+            mv target/${{ matrix.target }}/release/zhconv.exe "$f"
           else
             # tar czf "$staging.tar.gz" "$staging"
-            mv target/release/zhconv "bin/zhconv-${{ matrix.target }}"
-            strip "bin/zhconv-${{ matrix.target }}" || echo "strip unavailable for the target"
+            f="bin/zhconv-${{ matrix.target }}"
+            mv target/${{ matrix.target }}/release/zhconv "$f"
           fi
+          strip -v "$f" || echo "strip failed"
+        working-directory: ./cli
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
