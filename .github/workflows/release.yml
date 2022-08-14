@@ -68,7 +68,7 @@ jobs:
             f="bin/zhconv-${{ matrix.target }}"
             mv target/${{ matrix.target }}/release/zhconv "$f"
           fi
-          strip $f || "strip failed"
+          strip -v "$f" || "strip failed"
         working-directory: ./cli
       - name: Upload artifact
         uses: actions/upload-artifact@v3
