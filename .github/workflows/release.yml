@@ -61,19 +61,14 @@ jobs:
           mkdir bin
           if [ "${{ matrix.os }}" = "windows-2019" ]; then
             # 7z a "$staging.zip" "$staging"
-            mv target/${{ matrix.target }}/release/zhconv.exe "bin/zhconv-${{ matrix.target }}.exe"
-            strip "bin/zhconv-${{ matrix.target }}.exe" || echo "boom"
+            f="bin/zhconv-${{ matrix.target }}.exe"
+            mv target/${{ matrix.target }}/release/zhconv.exe "$f"
           else
             # tar czf "$staging.tar.gz" "$staging"
             f="bin/zhconv-${{ matrix.target }}"
             mv target/${{ matrix.target }}/release/zhconv "$f"
-            if [ "${{ matrix.os }}" = "macos-latest" ]; then
-              strip "$f" || echo "strip failed"
-            else
-              t=$(objdump -f "$f" | grep -oP "(?<=format )\s*[\w-]+" | tr -d '\n' || "")
-              strip -v "$f" --target "$t" || echo "strip unavailable for the target"
-            fi
           fi
+          strip $f || "strip failed"
         working-directory: ./cli
       - name: Upload artifact
         uses: actions/upload-artifact@v3
