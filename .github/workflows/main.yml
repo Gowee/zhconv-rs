@@ -42,23 +42,24 @@ jobs:
       - name: Check Format
         run: cargo fmt -- --check
 
-  build-web:
-    needs: build-main
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "16"
-      - name: Init web
-        working-directory: web/
-        run: |
-          node --version
-          yarn --version
-          yarn install
-      - name: Build
-        working-directory: web/
-        run: yarn build
+  # now Pages.dev do this for us
+  # build-web:
+  #   needs: build-main
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-node@v1
+  #       with:
+  #         node-version: "16"
+  #     - name: Init web
+  #       working-directory: web/
+  #       run: |
+  #         node --version
+  #         yarn --version
+  #         yarn install
+  #     - name: Build
+  #       working-directory: web/
+  #       run: yarn build
     # - name: Test
     #   working-directory: web/
     #   run: yarn test # no effective test so far
