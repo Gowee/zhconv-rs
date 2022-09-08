@@ -4,7 +4,9 @@
 [![PyPI version](https://img.shields.io/pypi/v/zhconv-rs)](https://pypi.org/project/zhconv-rs/)
 [![NPM version](https://badge.fury.io/js/zhconv.svg)](https://www.npmjs.com/package/zhconv)
 # zhconv-rs 中文简繁及地區詞轉換
-zhconv-rs converts Chinese text among several scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from MediaWiki, which is the one also used on Chinese Wikipedia.
+zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from MediaWiki and Chinese Wikipedia.
+
+Powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automaton, the implementation guarantees linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
 
 🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
 
@@ -110,13 +112,11 @@ zh2TW data3185k         time:   [60.217 ms 61.348 ms 62.556 ms]
 zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 ``` 
 
-<!--
-## Differences between other tools
-* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity with single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
-* OpenCC: OpenCC has self-maintained conversion tables that are different from MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs uses the [Aho-Corasick](https://docs.rs/aho-corasick/) algorithm, which would be much faster in general.
+## Differences with other converters
+* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
+* OpenCC: OpenCC maintained conversion rules independent of MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs would be much faster in general, thanks to the [Aho-Corasick](https://docs.rs/aho-corasick/) algorithm. However, OpenCC supports text segmentation after manually configuring, which is not supported by zhconv-rs for now.
 
-All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables.
--->
+All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables, if no pre-segmentation is applied.
 
 ## Limitations
 The converter is implemented upon a aho-corasick automaton with the leftmost-longest matching strategy. That is, leftest matched words or phrases always take a higher priority. For example, if both `干 -> 幹` and `天干物燥 -> 天乾物燥` are specified in a ruleset, `天乾物燥` would be picked since `天干物燥` would be matched earlier at the initial position compared to `干` at a latter position. The strategy works well most of the time. But it might also result in some unexpected cases, rarely.

@@ -317,7 +317,6 @@ impl<'t> ZhConverterBuilder<'t> {
     pub fn conv_lines(mut self, lines: &str) -> Self {
         for line in lines.lines().map(str::trim).filter(|s| !s.is_empty()) {
             if let Ok(conv) = Conv::from_str(line.trim()) {
-                dbg!(&conv);
                 self.adds
                     .extend(conv.get_conv_pairs(self.target).iter().map(|&(f, t)| {
                         if f.is_empty() {

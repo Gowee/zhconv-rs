@@ -58,6 +58,9 @@ fn criterion_benchmark(c: &mut Criterion) {
     //     })
     // });
 
+    c.bench_function("zh2CN 天乾物燥", |b| {
+        b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert("天乾物燥"))
+    });
     c.bench_function("zh2TW data54k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA54K))
     });

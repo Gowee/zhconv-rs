@@ -73,7 +73,6 @@ impl VariantMap<String> {
     pub fn get_text_with_fallback(&self, target: Variant) -> Option<&str> {
         // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L65
         use Variant::*;
-        // dbg!(target, &self);
         match_fallback!(
             self.0,
             target,
