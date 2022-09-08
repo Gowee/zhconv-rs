@@ -39,7 +39,7 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 
 **JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
 
-**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (WASM)
+**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest/ (WASM)
 
 <details>
  <summary>HTML snippet</summary>
