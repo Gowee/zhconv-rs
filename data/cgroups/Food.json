@@ -221,7 +221,15 @@
     },
     {
       "original": "sour cream",
-      "conv": "zh-hans:酸奶油; zh-hant:酸奶油;"
+      "conv": "zh-hans:酸奶油; zh-hant:酸奶油; zh-hk:酸忌廉;"
+    },
+    {
+      "original": "Whipped cream",
+      "conv": "zh-hans:掼奶油; zh-hk:鮮忌廉; zh-tw:生奶油;"
+    },
+    {
+      "original": "Whipped cream",
+      "conv": "zh-hans:淡奶油; zh-hk:淡忌廉; zh-tw:淡奶油;"
     },
     {
       "original": "yogurt",
@@ -560,6 +568,38 @@
       "conv": "麵豉湯 => zh-tw:味噌湯;"
     },
     {
+      "original": "Cream soup",
+      "conv": "zh-hans:奶油汤; zh-tw:奶油湯; zh-hk:忌廉湯;"
+    },
+    {
+      "original": "Cream of asparagus soup",
+      "conv": "zh-hans:奶油芦笋汤; zh-hk:忌廉蘆筍湯; zh-tw:奶油蘆筍湯;"
+    },
+    {
+      "original": "Cream of mushroom soup",
+      "conv": "zh-hans:奶油蘑菇汤; zh-hk:忌廉蘑菇湯; zh-tw:奶油蘑菇湯;"
+    },
+    {
+      "original": "Cream of corn soup",
+      "conv": "zh-hans:奶油玉米汤; zh-hk:忌廉粟米湯; zh-tw:奶油玉米湯;"
+    },
+    {
+      "original": "Chowder",
+      "conv": "zh-hans:巧达;zh-hk:周打;zh-hant:巧達"
+    },
+    {
+      "original": "Clam chowder",
+      "conv": "zh-hans:蛤肉巧达汤; zh-hk:周打蜆湯; zh-tw:蛤蜊巧達湯;"
+    },
+    {
+      "original": "Corn chowder",
+      "conv": "zh-hans:玉米巧达浓汤; zh-hk:周打粟米湯; zh-tw:玉米巧達濃湯;"
+    },
+    {
+      "original": "Fish chowder",
+      "conv": "zh-hans:鲜鱼巧达浓汤; zh-hk:周打魚湯; zh-tw:鮮魚巧達濃湯;"
+    },
+    {
       "original": null,
       "conv": "zh-cn:盖浇饭; zh-hans:蓋澆飯; zh-hant:盖浇饭; zh-tw:蓋澆飯; zh-hk:碟頭飯; zh-mo:碟頭飯;"
     },
@@ -724,6 +764,10 @@
       "conv": "zh-hans:萝卜干; zh-hant:蘿蔔乾;"
     },
     {
+      "original": "Calbee",
+      "conv": "zh-cn:卡乐比;zh-hans:卡乐比;zh-tw:卡樂比;zh-hk:卡樂B;zh-sg:卡乐B;zh-hant:卡樂B;zh-mo:卡乐B;"
+    },
+    {
       "original": "chewing gum",
       "conv": "zh-hans:口香糖; zh-hk:香口膠; zh-tw:口香糖;"
     },
@@ -746,6 +790,10 @@
     {
       "original": "ice pop",
       "conv": "冰棍 => zh-tw:冰棒; 冰棍 => zh-hk:雪條;"
+    },
+    {
+      "original": "potato chip",
+      "conv": "zh-hans:马铃薯片;zh-hant:馬鈴薯片;zh-tw:洋芋片;zh-hk:薯片;zh-cn:马铃薯片;zh-mo:薯片;"
     },
     {
       "original": "raisin",

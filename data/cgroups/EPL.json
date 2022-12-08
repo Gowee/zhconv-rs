@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "Arsenal",
-      "conv": "zh-hans:阿森纳; zh-hk:阿仙奴;zh-tw:兵工廠;"
+      "conv": "zh-hans:阿森纳; zh-hk:阿仙奴;zh-tw:兵工廠;zh-hant:阿森納"
     },
     {
       "original": "Aston Villa",
@@ -264,6 +264,10 @@
       "conv": "zh-cn:巴洛特利; zh-tw:巴洛特利; zh-hk:巴洛迪利;"
     },
     {
+      "original": "Benjamin",
+      "conv": "zh:本傑明; zh-cn:本杰明; zh-tw:班傑明; zh-hk:賓捷文;"
+    },
+    {
       "original": "Berbatov",
       "conv": "zh-cn:贝尔巴托夫; zh-tw:貝爾巴托夫; zh-hk:貝碧托夫;"
     },
@@ -281,7 +285,7 @@
     },
     {
       "original": "Bobby Charlton",
-      "conv": "zh-cn:博比·查尔顿; zh-hk:卜比·查爾頓;"
+      "conv": "zh-cn:博比·查尔顿; zh-hk:卜比·查爾頓; zh-tw:巴比·查爾頓;"
     },
     {
       "original": "Bobby Moore",

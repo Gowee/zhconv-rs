@@ -301,7 +301,7 @@
     },
     {
       "original": "Coast guard",
-      "conv": "zh-hans:海岸警卫队; zh-hant:海岸防衛隊;"
+      "conv": "zh-cn:海岸警卫队; zh-hk:海岸防衛隊; zh-mo:海岸警衛隊; zh-tw:海岸巡防隊;"
     },
     {
       "original": "Federal Reserve Board of Governors",
@@ -444,7 +444,7 @@
       "conv": "zh-tw:小商業局; zh-cn:小企业局"
     },
     {
-      "original": "",
+      "original": "White House Chief of Staff",
       "conv": "幕僚長 => zh-cn:办公厅主任; 幕僚长 => zh-cn:办公厅主任;"
     },
     {
@@ -452,7 +452,7 @@
       "conv": "助理幕僚長 => zh-cn:办公厅副主任; 助理幕僚长 => zh-cn:办公厅副主任;"
     },
     {
-      "original": "",
+      "original": "Chief of Staff to the Vice President",
       "conv": "副總統幕僚長 => zh-cn:副总统办公室主任; 副总统幕僚长 => zh-cn:副总统办公室主任"
     },
     {
@@ -468,11 +468,11 @@
       "conv": "次長 => zh-cn:副部长"
     },
     {
-      "original": "",
+      "original": "National Security Advisor",
       "conv": "国家安全顾问 => zh-cn:国家安全事务助理; 國家安全顧問 => zh-cn:国家安全事务助理"
     },
     {
-      "original": "",
+      "original": "National Security Advisor",
       "conv": "国家安全顾问 => zh-cn:国家安全事务助理; 國家安全顧問 => zh-cn:国家安全事务助理"
     },
     {
@@ -482,6 +482,14 @@
     {
       "original": "",
       "conv": "检察总长 => zh-cn:总检察长; 檢察總長 => zh-cn:总检察长"
+    },
+    {
+      "original": "CEO",
+      "conv": "zh-cn:首席执行官;zh-hk:行政總裁;zh-tw:執行長;zh-mo:行政總裁;zh-sg:行政总裁;zh-my:行政总裁;"
+    },
+    {
+      "original": "CFO",
+      "conv": "zh-hans:财务长;zh-hant:財務長;zh-cn:首席财务官;zh-hk:財務總監;zh-tw:財務長;zh-mo:財務總監;"
     },
     {
       "original": "",

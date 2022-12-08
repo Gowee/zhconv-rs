@@ -228,6 +228,18 @@
       "conv": "輪渡=>zh-hk:渡輪;轮渡=>zh-hk:渡輪;輪渡=>zh-mo:渡輪;轮渡=>zh-mo:渡輪;"
     },
     {
+      "original": "tractor",
+      "conv": "zh-hk:拖頭;zh-tw:曳引車;zh-cn:牵引车;"
+    },
+    {
+      "original": "trailer",
+      "conv": "zh-hk:拖車;zh-tw:拖車;zh-cn:挂车;"
+    },
+    {
+      "original": "semi-trailer truck",
+      "conv": "zh-hk:掛接車;zh-tw:聯結車;zh-cn:挂式卡车;"
+    },
+    {
       "original": "Acura",
       "conv": "zh-cn:讴歌; zh-tw:Acura; zh-hk:極品;"
     },
@@ -705,15 +717,15 @@
     },
     {
       "original": "roundabout",
-      "conv": "zh-cn:环岛;zh-hk:迴旋處;zh-tw:圓環;zh-mo:迴旋處;zh-my:回旋处;zh-sg:回旋处;"
+      "conv": "zh-cn:环岛;zh-hk:迴旋處;zh-tw:圓環;zh-mo:迴旋處;zh-my:交通圈;zh-sg:回旋处;"
     },
     {
       "original": "roundabout",
-      "conv": "环形交叉=>zh-tw:圓環;环形交叉=>zh-hk:迴旋處;环形交叉=>zh-mo:迴旋處;环形交叉=>zh-my:回旋处;环形交叉=>zh-sg:回旋处;"
+      "conv": "环形交叉=>zh-tw:圓環;环形交叉=>zh-hk:迴旋處;环形交叉=>zh-mo:迴旋處;环形交叉=>zh-my:交通圈;环形交叉=>zh-sg:回旋处;"
     },
     {
       "original": "roundabout",
-      "conv": "圓形地=>zh-cn:环岛;圓形地=>zh-tw:圓環;圓形地=>zh-hk:迴旋處;圓形地=>zh-my:回旋处;圓形地=>zh-sg:回旋处;"
+      "conv": "圓形地=>zh-cn:环岛;圓形地=>zh-tw:圓環;圓形地=>zh-hk:迴旋處;圓形地=>zh-my:交通圈;圓形地=>zh-sg:回旋处;"
     },
     {
       "original": "traffic light",
@@ -768,12 +780,8 @@
       "conv": "人行=>zh-hk:行人; 人行=>zh-mo:行人;"
     },
     {
-      "original": "",
+      "original": "Line",
       "conv": "zh-cn:线;zh-tw:線;"
-    },
-    {
-      "original": "",
-      "conv": "綫=>zh-tw:線;綫=>zh-hk:線;綫=>zh-mo:線;"
     },
     {
       "original": "International Association of Public Transport",
@@ -865,7 +873,7 @@
     },
     {
       "original": "platform",
-      "conv": "zh-cn:站台; zh-tw:月台; zh-hk:月台; zh-mo:月台; zh-sg:月台; zh-my:月台;"
+      "conv": "zh-hans:站台; zh-hant:月台;"
     },
     {
       "original": "line",

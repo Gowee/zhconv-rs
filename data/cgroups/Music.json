@@ -216,6 +216,10 @@
       "conv": "zh-hans:莱比锡布商大厦管弦乐团; zh-hk:萊比錫布業大廳管弦樂團; zh-tw:萊比錫布商大廈管弦樂團; "
     },
     {
+      "original": "Gjeilo",
+      "conv": "zh-cn:耶罗; zh-hk:雅羅; zh-tw:耶羅; "
+    },
+    {
       "original": "Глинка (Glinka)",
       "conv": "zh-hans:格林卡; zh-hant:葛令卡; "
     },
@@ -298,6 +302,10 @@
     {
       "original": "Kendrick Lamar",
       "conv": "zh-cn:肯德里克·拉马尔; zh-tw:肯卓克·拉瑪; "
+    },
+    {
+      "original": "Lady A",
+      "conv": "zh-cn:战前女神; zh-tw:懷舊女郎; "
     },
     {
       "original": "Lalo",
@@ -700,8 +708,8 @@
       "conv": "zh-cn:数字音乐; zh-hk:數碼音樂; zh-tw:數位音樂; "
     },
     {
-      "original": "Digital Music",
-      "conv": "zh-cn:数字音乐; zh-hk:數碼音樂; zh-tw:數位音樂; "
+      "original": "Digital Distribution",
+      "conv": "zh-cn:数字发行; zh-hk:數碼發行; zh-tw:數位發行; "
     },
     {
       "original": "Digital Single",
@@ -718,6 +726,10 @@
     {
       "original": "Digital Music Download",
       "conv": "zh-cn:数字音乐下载; zh-hk:數碼音樂下載; zh-tw:數位音樂下載; "
+    },
+    {
+      "original": "Digital Chart",
+      "conv": "zh-cn:数字榜; zh-hk:數碼榜; zh-tw:數位榜; "
     },
     {
       "original": "Music Video",
@@ -828,16 +840,8 @@
       "conv": "zh-hant:威風凜凜; zh-hans:威风堂堂;"
     },
     {
-      "original": null,
+      "original": "Recording Industry Association",
       "conv": "zh-hant:唱片業協會; zh-hans:唱片业协会;"
-    },
-    {
-      "original": "Republic Records",
-      "conv": "zh-cn:Republic唱片; zh-hk:Republic唱片; zh-tw:聯眾唱片;"
-    },
-    {
-      "original": "Republic Records",
-      "conv": "聯眾=>zh-cn:Republic; 聯眾=>zh-hk:Republic;"
     },
     {
       "original": "Sampling",

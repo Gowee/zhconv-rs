@@ -56,6 +56,10 @@
       "conv": "zh-hans:监视者们;zh-hant:監視者們;zh-cn:监视者们;zh-tw:監諜任務;zh-hk:天眼跟蹤;zh-mo:天眼跟蹤;"
     },
     {
+      "original": "강릉",
+      "conv": "zh-hans:江陵;zh-hant:江陵;zh-cn:江陵;zh-tw:喋血江陵;zh-hk:決戰江陵;zh-mo:決戰江陵;"
+    },
+    {
       "original": "건축학개론(建築學概論)",
       "conv": "zh-hans:建筑学概论;zh-hant:建築學概論;zh-cn:建筑学概论;zh-tw:初戀築夢101;zh-hk:初戀築跡101;zh-mo:初戀築跡101;"
     },
@@ -82,6 +86,14 @@
     {
       "original": "공동경비구역(共同警備區域) JSA",
       "conv": "zh-hans:共同警备区域JSA;zh-hant:JSA共同警戒區;zh-cn:共同警戒区域JSA;zh-tw:共同警戒區;zh-hk:JSA安全地帶;zh-mo:JSA安全地帶;"
+    },
+    {
+      "original": "공조",
+      "conv": "zh-hans:共助;zh-hant:共助;zh-cn:共助;zh-tw:機密同盟;zh-hk:秘密任務;zh-mo:秘密任務;"
+    },
+    {
+      "original": "공조2: 인터내셔날",
+      "conv": "zh-hans:共助2：International;zh-hant:共助2：International;zh-cn:共助2：International;zh-tw:機密同盟2;zh-hk:秘密任務2：International;zh-mo:秘密任務2：International;"
     },
     {
       "original": "과속스캔들",
@@ -112,6 +124,10 @@
       "conv": "zh-cn:寄生虫;zh-my:寄生虫;zh-sg:寄生虫;zh-tw:寄生上流;zh-hk:上流寄生族;zh-mo:上流寄生族;"
     },
     {
+      "original": "기적",
+      "conv": "zh-hans:奇迹;zh-hant:奇蹟;zh-cn:奇迹;zh-tw:奇蹟：給總統的一封信;zh-hk:奇蹟;zh-mo:奇蹟;"
+    },
+    {
       "original": "김관장 대 김관장 대 김관장(-{金館長對金館長對金館長}-)",
       "conv": "zh-hans:金馆长对金馆长对金馆长;zh-hant:金館長對金館長對金館長;zh-cn:金馆长对金馆长对金馆长;zh-tw:PK金武門;zh-hk:金館長對金館長對金館長;zh-mo:金館長對金館長對金館長;"
     },
@@ -126,6 +142,10 @@
     {
       "original": "김종욱 찾기(金鐘旭찾기)",
       "conv": "zh-hans:寻找金钟旭;zh-hant:尋找完美先生;zh-cn:寻找金钟旭;zh-tw:尋找完美先生;zh-hk:尋找金鐘旭;zh-mo:尋找金鐘旭;"
+    },
+    {
+      "original": "경관의 피",
+      "conv": "zh-hans:警官之血;zh-hant:警官之血;zh-cn:警官之血;zh-tw:無間對決;zh-hk:無間對決;zh-mo:無間對決;"
     },
     {
       "original": "꽃미남 연쇄 테러사건(꽃美男連鎖테러事件)",
@@ -194,6 +214,10 @@
     {
       "original": "늑대의 유혹(誘惑)",
       "conv": "zh-hans:狼的诱惑;zh-hant:愛上蛋白質女孩;zh-cn:狼的诱惑;zh-tw:愛上蛋白質女孩;zh-hk:愛上蛋白質女孩;zh-mo:愛上蛋白質女孩;"
+    },
+    {
+      "original": "늑대사냥",
+      "conv": "zh-hans:狼狩猎;zh-hant:狼狩獵;zh-cn:狼狩猎;zh-tw:行動代號：狼狩獵;zh-hk:狼狩獵;zh-mo:狼狩獵;"
     },
     {
       "original": "님은 먼 곳에",
@@ -284,6 +308,10 @@
       "conv": "zh-hans:蒙太奇;zh-hant:蒙太奇;zh-cn:蒙太奇;zh-tw:模犯母親;zh-hk:重罪犯;zh-mo:重罪犯;"
     },
     {
+      "original": "모가디슈",
+      "conv": "zh-hans:摩加迪沙;zh-hant:摩加迪沙;zh-cn:摩加迪沙;zh-tw:逃出摩加迪休;zh-hk:絕路狂逃;zh-mo:絕路狂逃;"
+    },
+    {
       "original": "뫼비우스",
       "conv": "zh-hans:莫比乌斯;zh-hant:莫比烏斯;zh-cn:莫比乌斯;zh-tw:莫比烏斯;zh-hk:切夫之痛;zh-mo:切夫之痛;"
     },
@@ -344,10 +372,6 @@
       "conv": "zh-hans:蝙蝠;zh-hant:蝙蝠;zh-cn:蝙蝠;zh-tw:饑渴誘罪;zh-hk:蝙蝠：血色情慾;zh-mo:蝙蝠：血色情慾;"
     },
     {
-      "original": "박쥐",
-      "conv": "蝙蝠：血色情慾=>zh-hk:蝙蝠：血色情慾;蝙蝠：血色情慾=>zh-mo:蝙蝠：血色情慾;"
-    },
-    {
       "original": "반창꼬",
       "conv": "zh-hans:创可贴;zh-hant:創可貼;zh-cn:创可贴;zh-tw:愛情OK繃;zh-hk:創可貼;zh-mo:創可貼;"
     },
@@ -364,15 +388,19 @@
       "conv": "zh-hk:屍殺半島;zh-cn:釜山行2：半岛; zh-tw:屍速列車：感染半島; zh-sg:尸杀列车2：半岛;"
     },
     {
-      "original": "방자전(方子傳)",
-      "conv": "方子传=>zh-tw:情慾對決;方子傳=>zh-tw:方子傳"
+      "original": "발신제한",
+      "conv": "zh-hans:限制来电;zh-hant:限制來電;zh-cn:限制来电;zh-tw:極速引爆;zh-hk:限制來電;zh-mo:限制來電;"
+    },
+    {
+      "original": "방법: 재차의",
+      "conv": "zh-hans:谤法：在此矣;zh-hant:謗法：在此矣;zh-cn:谤法：在此矣;zh-tw:咒術屍戰;zh-hk:咒術屍戰;zh-mo:咒術屍戰;"
     },
     {
       "original": "배우는 배우다(俳優는 俳優다)",
       "conv": "zh-hans:演员就是演员;zh-hant:演員就是演員;zh-cn:演员就是演员;zh-tw:殘酷舞台;zh-hk:演員就是演員;zh-mo:演員就是演員;"
     },
     {
-      "original": "방자전(辯護人)",
+      "original": "변호인(辯護人)",
       "conv": "zh-hans:辩护人;zh-hant:辯護人;zh-cn:辩护人;zh-tw:正義辯護人;zh-hk:逆權大狀;zh-mo:逆權大狀;"
     },
     {
@@ -398,6 +426,26 @@
     {
       "original": "백두산",
       "conv": "zh-cn:白头山; zh-tw:白頭山：半島浩劫; zh-hk:白頭山：火山浩劫; zh-mo:白頭山：火山浩劫;"
+    },
+    {
+      "original": "블루버스데이",
+      "conv": "zh-hans:致郁生日;zh-hant:至鬱生日;zh-cn:致郁生日;zh-tw:藍色生日;zh-hk:至鬱生日;zh-mo:至鬱生日;"
+    },
+    {
+      "original": "비상선언",
+      "conv": "zh-hans:非常宣言;zh-hant:非常宣言;zh-cn:非常宣言;zh-tw:紧急迫降;zh-hk:紧急迫降;zh-mo:紧急迫降;"
+    },
+    {
+      "original": "브로커",
+      "conv": "嬰兒轉運站=>zh-cn:掮客; 嬰兒轉運站=>zh-tw:嬰兒轉運站; 嬰兒轉運站=>zh-hk:孩子轉運站; 嬰兒轉運站=>zh-mo:孩子轉運站;"
+    },
+    {
+      "original": "브로커",
+      "conv": "孩子轉運站=>zh-cn:掮客; 孩子轉運站=>zh-tw:嬰兒轉運站; 孩子轉運站=>zh-hk:孩子轉運站; 孩子轉運站=>zh-mo:孩子轉運站;"
+    },
+    {
+      "original": "범죄도시2",
+      "conv": "zh-hans:犯罪都市2;zh-hant:犯罪都市2;zh-cn:犯罪都市2;zh-tw:犯罪都市2;zh-hk:犯罪都市：極拳執法;zh-mo:犯罪都市：極拳執法;"
     },
     {
       "original": "사랑따윈 필요(必要)없어",
@@ -448,6 +496,10 @@
       "conv": "zh-hans:收取人不明;zh-hant:收取人不明;zh-cn:收取人不明;zh-tw:收取人不明;zh-hk:打回頭的情書;zh-mo:打回頭的情書;"
     },
     {
+      "original": "수색자",
+      "conv": "zh-hans:搜索者;zh-hant:搜索者;zh-cn:搜索者;zh-tw:絕命警戒區;zh-hk:搜索者;zh-mo:搜索者;"
+    },
+    {
       "original": "쉬리",
       "conv": "生死諜變=>zh-hans:鱼;魚=>zh-hans:鱼;鱼=>zh-hant:魚;生死諜變=>zh-hant:魚;生死諜變=>zh-cn:鱼;生死諜變=>zh-tw:魚;鱼=>zh-hk:生死諜變;鱼=>zh-mo:生死諜變;"
     },
@@ -456,7 +508,7 @@
       "conv": "zh-hans:葡萄酒的故事;zh-hant:葡萄酒的故事;zh-cn:葡萄酒的故事;zh-tw:葡萄酒的故事;zh-hk:抒情酒吧;zh-mo:抒情酒吧;"
     },
     {
-      "original": "님은 먼 곳에",
+      "original": "스파이",
       "conv": "zh-hans:间谍 (2013年电影);zh-hant:間諜 (2013年電影);zh-cn:间谍;zh-tw:間諜;zh-hk:特務戇金;zh-mo:特務戇金;"
     },
     {
@@ -486,6 +538,10 @@
     {
       "original": "심야(深夜)의 FM",
       "conv": "zh-hans:深夜FM;zh-hant:深夜FM;zh-cn:深夜FM;zh-tw:深夜FM;zh-hk:殺錄直播;zh-mo:殺錄直播;"
+    },
+    {
+      "original": "싱크홀",
+      "conv": "zh-hans:地陷;zh-hant:地陷;zh-cn:地陷;zh-tw:天坑;zh-hk:危樓深淵;zh-mo:危樓深淵;"
     },
     {
       "original": "싸이보그지만 괜찮아",
@@ -572,8 +628,12 @@
       "conv": "zh-hans:四月的雪;zh-hant:四月的雪;zh-cn:外出;zh-tw:外出;zh-hk:外出;zh-mo:外出;"
     },
     {
-      "original": "우리 집",
-      "conv": "zh-hans:我的家;zh-hant:悄悄愛上你;zh-cn:我的家;zh-tw:悄悄愛上你;zh-hk:我的家;zh-mo:我的家;"
+      "original": "외출(外出)",
+      "conv": "zh-hans:四月的雪;zh-hant:四月的雪;zh-cn:外出;zh-tw:外出;zh-hk:外出;zh-mo:外出;"
+    },
+    {
+      "original": "외계+인 1부",
+      "conv": "zh-hans:外星+人;zh-hant:外星+人;zh-cn:外星+人;zh-tw:外星+人;zh-hk:祖宗膠戰外星人;zh-mo:祖宗膠戰外星人;"
     },
     {
       "original": "용의자",
@@ -592,6 +652,14 @@
       "conv": "zh-hans:李载洙之难;zh-hant:李載洙之難;zh-cn:李载洙之难;zh-tw:李載洙之難;zh-hk:傲氣蓋天;zh-mo:傲氣蓋天;"
     },
     {
+      "original": "이상한 나라의 수학자",
+      "conv": "zh-hans:奇怪国家的数学家;zh-hant:奇怪國家的數學家;zh-cn:奇怪国家的数学家;zh-tw:奇怪的數學家;zh-hk:奇怪的數學家;zh-mo:奇怪的數學家;"
+    },
+    {
+      "original": "인생은 아름다워",
+      "conv": "zh-hans:人生多美丽;zh-hant:人生多美麗;zh-cn:人生多美丽;zh-tw:人生真美麗;zh-hk:給自己的情歌;zh-mo:給自己的情歌;"
+    },
+    {
       "original": "인형사(人形師)",
       "conv": "zh-hans:人形师;zh-hant:靈異人形館;zh-cn:人形师;zh-tw:靈異人形館;zh-hk:人形咒;zh-sg:冤魂鬼娃;zh-mo:人形咒;"
     },
@@ -600,8 +668,24 @@
       "conv": "zh-hans:胡狼来了;zh-hant:胡狼來了;zh-cn:胡狼来了;zh-tw:女狼出任務;zh-hk:胡狼來了;zh-mo:胡狼來了;"
     },
     {
+      "original": "자백",
+      "conv": "zh-hans:自白;zh-hant:自白;zh-cn:自白;zh-tw:局中局;zh-hk:自白;zh-mo:自白;"
+    },
+    {
       "original": "작업의 정석(作業의定席)",
       "conv": "zh-hans:恋爱高手;zh-hant:戀愛高手;zh-cn:恋爱高手;zh-tw:搭訕的法則;zh-hk:決戰偷心男;zh-mo:決戰偷心男;"
+    },
+    {
+      "original": "장르만 로맨스",
+      "conv": "zh:只有體裁的羅曼史; zh-tw:作家我就爛; zh-cn:只有形式的罗曼史;"
+    },
+    {
+      "original": "장르만 로맨스",
+      "conv": "只有体裁的罗曼史=>zh-tw:作家我就爛; 只有体裁的罗曼史=>zh-cn:只有形式的罗曼史;"
+    },
+    {
+      "original": "장르만 로맨스",
+      "conv": "只有形式的羅曼史=>zh-tw:作家我就爛; 只有形式的羅曼史=>zh-cn:只有形式的罗曼史;"
     },
     {
       "original": "장수상회",
@@ -630,6 +714,14 @@
     {
       "original": "정사(情事)",
       "conv": "zh-hans:汉城晚娘;zh-hant:情事;zh-cn:汉城晚娘;zh-tw:情事;zh-hk:婚外初夜;zh-mo:婚外初夜;"
+    },
+    {
+      "original": "정직한 후보2",
+      "conv": "zh-hans:正直的候选人2;zh-hant:正直的候選人2;zh-cn:正直的候选人2;zh-tw:政客誠實中2;zh-hk:誠實選舉媽2;zh-mo:誠實選舉媽2;"
+    },
+    {
+      "original": "정직한 후보",
+      "conv": "zh-hans:正直的候选人;zh-hant:正直的候選人;zh-cn:正直的候选人;zh-tw:政客誠實中;zh-hk:誠實選舉媽;zh-mo:誠實選舉媽;"
     },
     {
       "original": "조선명탐정(朝鮮名探偵): 각시투구꽃의 비밀(秘密)",
@@ -748,6 +840,10 @@
       "conv": "zh-cn:地铁危机;zh-tw:地鐵終結站;zh-hk:生死列車;"
     },
     {
+      "original": "특송",
+      "conv": "zh-hans:特送;zh-hant:特送;zh-cn:特送;zh-tw:極速快遞;zh-hk:極速快遞;zh-mo:極速快遞;"
+    },
+    {
       "original": "파수꾼",
       "conv": "zh-hans:守望者;zh-hant:守望者;zh-cn:守望者;zh-tw:那一夜，青春褪色守望者;zh-hk:青春夜行;zh-mo:青春夜行;"
     },
@@ -780,12 +876,12 @@
       "conv": "zh-hans:白色战争;zh-hant:白色戰爭;zh-cn:白色军徽;zh-tw:蒼白戰爭;zh-hk:雷霆戰爭;zh-mo:雷霆戰爭;"
     },
     {
-      "original": "화이(華頤): 괴물(怪物)을 삼킨 아이",
-      "conv": "zh-hans:华颐：吞噬怪物的孩子;zh-hant:華頤：吞噬怪物的孩子;zh-cn:华颐：吞噬怪物的孩子;zh-tw:華頤：吞噬怪物的孩子;zh-hk:魔童殺手;zh-mo:魔童殺手;"
+      "original": "한산: 용의 출현",
+      "conv": "zh-hans:闲山：龙的出现;zh-hant:閒山：龍的出現;zh-cn:闲山：龙的出现;zh-tw:韩山岛海战;zh-hk:閒山：龍的出現;zh-mo:閒山：龍的出現;"
     },
     {
-      "original": "해운대(海雲臺)",
-      "conv": "zh-hans:海云台;zh-hant:海雲臺;zh-cn:海云台;zh-tw:大浩劫;zh-hk:海雲臺;zh-mo:海雲臺;"
+      "original": "화이(華頤): 괴물(怪物)을 삼킨 아이",
+      "conv": "zh-hans:华颐：吞噬怪物的孩子;zh-hant:華頤：吞噬怪物的孩子;zh-cn:华颐：吞噬怪物的孩子;zh-tw:華頤：吞噬怪物的孩子;zh-hk:魔童殺手;zh-mo:魔童殺手;"
     },
     {
       "original": "해적(海-{賊}-): 바다로 간 산적(山-{賊}-)",

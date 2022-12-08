@@ -1,0 +1,59 @@
+{
+  "name": "CA Places",
+  "description": "加拿大地名",
+  "path": "Module:CGroup/CA Places",
+  "rules": [
+    {
+      "original": "Alberta",
+      "conv": "zh-cn:阿尔伯塔; zh-tw:亞伯達; zh-hk:亞伯達; zh-mo:亞伯達; zh-hant:艾伯塔;"
+    },
+    {
+      "original": "Calgary",
+      "conv": "zh-hans:卡尔加里; zh-hant:卡加利; zh-hk:卡加利; zh-tw:卡加利; zh-mo:卡加利;"
+    },
+    {
+      "original": "Edmonton",
+      "conv": "zh:埃德蒙顿; zh-cn:埃德蒙顿; zh-hk:愛民頓; zh-tw:愛德蒙頓;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "zh-hans:马尼托巴; zh-cn:曼尼托巴; zh-sg:曼尼多巴; zh-my:曼尼多巴; zh-hant:曼尼托巴; zh-hk:緬尼吐巴; zh-mo:緬尼吐巴; zh-tw:曼尼托巴"
+    },
+    {
+      "original": "McMurray",
+      "conv": "zh-hans:麦克默里; zh-hant:麥克默里; zh-hk:麥梅利; zh-tw:麥克墨雷;"
+    },
+    {
+      "original": "Moose Jaw",
+      "conv": "zh-cn:穆斯乔; zh-tw:穆斯喬; zh-hk:穆斯佐;"
+    },
+    {
+      "original": "New Brunswick",
+      "conv": "zh-hans:新不伦瑞克;zh-hk:紐賓士域;zh-tw:新布藍茲維;zh-sg:新布兰斯威; zh-my:新布兰斯威;"
+    },
+    {
+      "original": "Nunavut",
+      "conv": "zh-tw:努納福特; zh-hk:努拿烏特; zh-mo:努拿烏特; zh-hans:努纳武特; zh-hant:努納武特;"
+    },
+    {
+      "original": "Regina",
+      "conv": "zh-cn:里贾纳; zh-hk:利載拿; zh-tw:雷吉納;"
+    },
+    {
+      "original": "Saskatchewan",
+      "conv": "zh:薩克其萬; zh-cn:萨斯喀彻温; zh-tw:薩斯喀徹溫; zh-hk:沙斯卡寸旺; zh-sg:萨斯卡渣文;"
+    },
+    {
+      "original": "Saskatoon",
+      "conv": "zh-hans:萨斯卡通; zh-hk:沙斯加通; zh-tw:薩克屯;"
+    },
+    {
+      "original": "Wascana",
+      "conv": "zh-cn:瓦斯卡纳; zh-tw:瓦斯卡納; zh-hk:華斯卡拿;"
+    },
+    {
+      "original": "Winnipeg",
+      "conv": "zh-hans:温尼伯; zh-hant:溫尼伯; zh-hk:溫尼辟; zh-mo:溫尼辟; zh-tw:溫尼伯;"
+    }
+  ]
+}

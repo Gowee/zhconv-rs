@@ -29,7 +29,7 @@
     },
     {
       "original": "ウルトラシリーズ",
-      "conv": "zh-hans:奥特系列;zh-hk:超人系列;zh-tw:超人力霸王系列;"
+      "conv": "zh-hk:超人系列;zh-tw:超人力霸王系列;zh-hans:奥特系列;zh-mo:超人系列;zh-sg:咸蛋超人系列;zh-my:咸蛋超人系列"
     },
     {
       "original": "光の国",
@@ -62,6 +62,10 @@
     {
       "original": "帰ってきたウルトラマン",
       "conv": "zh-hk:歸來的超人;zh-cn:归来的奥特曼;zh-tw:歸來的超人;"
+    },
+    {
+      "original": null,
+      "conv": "zh:The Ultraman;zh:The☆Ultraman;zh-tw:宇宙超人"
     },
     {
       "original": null,
@@ -189,7 +193,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人喬尼斯;zh-tw:超人力霸王喬尼斯;zh-hans:乔尼亚斯·奥特曼;zh-mo:超人喬尼斯;"
+      "conv": "zh-hk:超人喬尼斯;zh-tw:超人力霸王喬伊尼亞斯;zh-hans:乔尼亚斯·奥特曼;zh-mo:超人喬尼斯;"
     },
     {
       "original": null,
@@ -397,7 +401,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:80; zh-tw:80; zh-hans:爱迪;"
+      "conv": "zh-hant:《80》; zh-hans:爱迪;"
     },
     {
       "original": null,
@@ -696,16 +700,20 @@
       "conv": "zh-hans:古敦; zh-hant:古頓"
     },
     {
-      "original": null,
+      "original": "レッドキング",
       "conv": "zh-hant:紅王;zh-cn:雷德王"
     },
     {
-      "original": null,
+      "original": "ブルトン",
       "conv": "zh-hant:布魯通;zh-cn:布鲁顿"
     },
     {
-      "original": null,
+      "original": "キングジョー",
       "conv": "zh-hant:金古喬;zh-cn:金古桥"
+    },
+    {
+      "original": "ベムラー",
+      "conv": "zh-hant:貝姆拉;zh-cn:百慕拉"
     }
   ]
 }

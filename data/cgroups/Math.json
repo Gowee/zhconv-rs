@@ -24,6 +24,10 @@
       "conv": "zh-cn:克利福德; zh-tw:克里福;"
     },
     {
+      "original": "Cramer",
+      "conv": "zh-cn:克莱姆; zh-tw:克拉瑪"
+    },
+    {
       "original": "Copeland",
       "conv": "zh-cn:科普兰; zh-tw:克柏蘭;"
     },
@@ -488,6 +492,10 @@
       "conv": "zh-hans:余单纯; zh-hant:餘單純;"
     },
     {
+      "original": "Cramer's rule",
+      "conv": "zh-cn:克莱姆法则; zh-tw:克拉瑪公式"
+    },
+    {
       "original": "cyclotomic field",
       "conv": "zh-cn:分圆域; zh-tw:分圓體;"
     },
@@ -764,6 +772,18 @@
       "conv": "zh-cn:正交补; zh-tw:正交補餘;"
     },
     {
+      "original": "parameter",
+      "conv": "母數=>zh-cn:参数; 母數=>zh-hk:參數;"
+    },
+    {
+      "original": "nonparametric",
+      "conv": "zh-cn:非参数; zh-tw:無母數; zh-hk:非參數;"
+    },
+    {
+      "original": "panel data",
+      "conv": "zh-tw:縱橫資料 ;zh-hans:面板数据 ;"
+    },
+    {
       "original": "path connected",
       "conv": "zh-cn:道路连通; zh-tw:路徑連通;"
     },
@@ -961,19 +981,19 @@
     },
     {
       "original": "non-terminating, recurring decimal",
-      "conv": "zh-hans:无限循环小数;zh-hant:無限循環小數;zh-hk:無盡循環小数;"
+      "conv": "zh-hans:无限循环小数;zh-hant:無限循環小數;zh-hk:無盡循環小數;"
     },
     {
       "original": "non-terminating, non-recurring decimal",
-      "conv": "zh-hans:无限不循环小数;zh-hant:無限不循環小數;zh-hk:無盡不循環小数;"
+      "conv": "zh-hans:无限不循环小数;zh-hant:無限不循環小數;zh-hk:無盡不循環小數;"
     },
     {
       "original": "terminating, non-recurring decimal",
-      "conv": "zh-hans:有限不循环小数;zh-hant:有限不循環小數;zh-hk:有盡不循環小数;"
+      "conv": "zh-hans:有限不循环小数;zh-hant:有限不循環小數;zh-hk:有盡不循環小數;"
     },
     {
       "original": "terminating, recurring decimal",
-      "conv": "zh-hans:有限循环小数;zh-hant:有限循環小數;zh-hk:有盡循環小数;"
+      "conv": "zh-hans:有限循环小数;zh-hant:有限循環小數;zh-hk:有盡循環小數;"
     },
     {
       "original": "type I error",

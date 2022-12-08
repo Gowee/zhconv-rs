@@ -208,6 +208,10 @@
       "conv": "zh-cn:羊毛甾醇; zh-tw:羊毛脂固醇;"
     },
     {
+      "original": "lentinan",
+      "conv": "zh-cn:香菇多糖; zh-tw:蘑菇多糖;"
+    },
+    {
       "original": "leucine",
       "conv": "zh-cn:亮氨酸; zh-hk:白氨酸; zh-tw:白胺酸;"
     },
@@ -310,10 +314,6 @@
     {
       "original": "staphylokinase",
       "conv": "zh-hans:金葡菌激酶; zh-tw:葡萄球菌激酶;"
-    },
-    {
-      "original": "steroid",
-      "conv": "zh-hans:甾体; zh-hant:類固醇; zh-sg:类固醇"
     },
     {
       "original": "spike protein",
@@ -446,6 +446,14 @@
     {
       "original": "triose",
       "conv": "zh-cn:丙糖; zh-hk:丙糖; zh-tw:丙醣"
+    },
+    {
+      "original": "activator",
+      "conv": "zh-hans:激活剂;zh-hant:活化劑;"
+    },
+    {
+      "original": "agonist",
+      "conv": "zh-hans:激动剂;zh-hant:促效劑;"
     },
     {
       "original": "adaptor protein",
@@ -988,6 +996,10 @@
       "conv": "zh-cn:伴胞; zh-hk:伴胞; zh-tw:伴細胞;"
     },
     {
+      "original": "diatom",
+      "conv": "zh-hans:硅藻; zh-tw:矽藻;"
+    },
+    {
       "original": "Angiopteris",
       "conv": "zh-cn:莲座蕨; zh-hk:蓮座蕨; zh-tw:觀音座蓮;"
     },
@@ -1138,6 +1150,18 @@
     {
       "original": "Najas graminea",
       "conv": "zh-cn:草茨藻; zh-tw:拂尾藻; zh-hk:草茨藻"
+    },
+    {
+      "original": "Alnus",
+      "conv": "zh-hans:桤木属; zh-hant:赤楊屬"
+    },
+    {
+      "original": "Alnus formosana",
+      "conv": "zh-hans:台湾桤木; zh-hant:臺灣赤楊"
+    },
+    {
+      "original": "Alnus nepalensis",
+      "conv": "zh-hans:尼泊尔桤木; zh-hant:尼泊爾赤楊"
     },
     {
       "original": "Mucuna",
@@ -1412,8 +1436,24 @@
       "conv": "zh-tw:擬紫蘇草; zh-cn:拟紫苏草;"
     },
     {
+      "original": "Centaurium",
+      "conv": "zh-tw:百金屬; zh-cn:百金花属;"
+    },
+    {
+      "original": "Exacum",
+      "conv": "zh-tw:紫芳草屬; zh-cn:藻百年属;"
+    },
+    {
+      "original": "Swertia",
+      "conv": "zh-tw:當藥屬; zh-cn:獐牙菜属;"
+    },
+    {
       "original": "Oncorhynchus",
       "conv": "zh-cn:麻哈鱼属; zh-tw:鉤吻鮭屬; zh-hk:麻哈魚屬;"
+    },
+    {
+      "original": "Siganidae",
+      "conv": "zh-cn:蓝子鱼; zh-tw:臭肚魚; zh-hant:藍子魚;"
     },
     {
       "original": "Amphibia",
@@ -1440,36 +1480,20 @@
       "conv": "zh-cn:爬行类; zh-tw:爬蟲類; zh-hk:爬行類;"
     },
     {
+      "original": "Colubridae",
+      "conv": "zh-cn:游蛇科; zh-tw:黃頷蛇科; zh-hk:遊蛇科;"
+    },
+    {
+      "original": "Natricidae",
+      "conv": "zh-cn:水游蛇科; zh-tw:水游蛇科; zh-hk:水游蛇科;"
+    },
+    {
+      "original": "Pseudoxenodon stejnegeri",
+      "conv": "zh-cn:花尾斜鳞蛇; zh-tw:史丹吉氏斜鱗蛇;"
+    },
+    {
       "original": "Pareas komaii",
       "conv": "zh-cn:阿里山钝头蛇; zh-tw:駒井氏鈍頭蛇;"
-    },
-    {
-      "original": "Pellorneidae",
-      "conv": "zh-hans:幽鹛科; zh-tw:雀眉科; zh-hant:幽鶥科"
-    },
-    {
-      "original": "Corvus dauuricus",
-      "conv": "zh-cn:达乌里寒鸦; zh-tw:東方寒鴉;zh-hk:達烏里寒鴉"
-    },
-    {
-      "original": "Corvus frugilegus",
-      "conv": "zh-cn:秃鼻乌鸦; zh-tw:禿鼻鴉;zh-hk:禿鼻烏鴉"
-    },
-    {
-      "original": "Corvus macrorhynchos",
-      "conv": "zh-cn:大嘴乌鸦; zh-tw:巨嘴鴉;zh-hk:大嘴烏鴉"
-    },
-    {
-      "original": "Corvus pectoralis",
-      "conv": "zh-cn:白颈鸦; zh-tw:玉頸鴉"
-    },
-    {
-      "original": "Hypsipetes amaurotis",
-      "conv": "zh-cn:栗耳短脚鹎; zh-tw:棕耳鵯;"
-    },
-    {
-      "original": "Hypsipetes leucocephalus",
-      "conv": "zh-cn:黑短脚鹎; zh-tw:紅嘴黑鵯;"
     },
     {
       "original": "Polyneoptera",
@@ -1964,6 +1988,10 @@
       "conv": "zh-cn:贻贝科; zh-tw:殼菜蛤科"
     },
     {
+      "original": "[[Solecurtidae]]",
+      "conv": "zh-cn:截蛏科; zh-tw:毛蟶科"
+    },
+    {
       "original": "[[中国海大锉蛤|<i>A. marissinica</i>]]",
       "conv": "zh-cn:中国海大锉蛤; zh-tw:大黃狐蛤;"
     },
@@ -1986,6 +2014,10 @@
     {
       "original": "[[偏胀蚶|<i>A. ventricosa</i>]]",
       "conv": "zh-cn:偏胀蚶; zh-tw:鞋魁蛤;"
+    },
+    {
+      "original": "[[剑蛏属|<i>Ensis</i>]]",
+      "conv": "zh-cn:剑蛏属; zh-tw:刀蟶屬;"
     },
     {
       "original": "mosaic virus",
