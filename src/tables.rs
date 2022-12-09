@@ -78,8 +78,8 @@ pub fn merge_tables(conv1: (&str, &str), conv2: (&str, &str)) -> (String, String
     let mut tos = String::with_capacity(conv1.1.len() + conv2.1.len());
     // merge_by detains the first occurrence
     let mut it = itertools::Itertools::merge_by(
-        itertools::zip(conv1.0.trim().split('|'), conv1.1.trim().split('|')),
-        itertools::zip(conv2.0.trim().split('|'), conv2.1.trim().split('|')),
+        std::iter::zip(conv1.0.trim().split('|'), conv1.1.trim().split('|')),
+        std::iter::zip(conv2.0.trim().split('|'), conv2.1.trim().split('|')),
         |pair1, pair2| pair1.0.len() >= pair2.0.len(),
     )
     .peekable();

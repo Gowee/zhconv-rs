@@ -359,7 +359,7 @@ impl<'t> ZhConverterBuilder<'t> {
             tables
                 .iter()
                 .flat_map(|(froms, tos)| {
-                    itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
+                    std::iter::zip(froms.trim().split('|'), tos.trim().split('|'))
                 })
                 .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
                 .filter(|&(from, _to)| !removes.contains_key(from))
