@@ -12,6 +12,8 @@ import MenuList from "@material-ui/core/MenuList";
 import Box from "@material-ui/core/Box";
 import Tooltip from "@material-ui/core/Tooltip";
 
+import PACKAGE from "../../package.json";
+
 const variants = {
   zh: "zh 原文",
   "zh-Hant": "zh-Hant 繁體",
@@ -37,7 +39,7 @@ export default function ConvertButton({
     if (variants[hash]) {
       return hash;
     } else {
-      return "zh";
+      return localStorage.getItem(`${PACKAGE.name}-selected-variant`) ?? "zh";
     }
   });
 
@@ -55,10 +57,10 @@ export default function ConvertButton({
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => handleConvert(selectedVariant), [selectedVariant]);
-  useEffect(
-    () => window.history.replaceState({}, "", `#${selectedVariant}`),
-    [selectedVariant]
-  );
+  useEffect(() => {
+    localStorage.setItem(`${PACKAGE.name}-selected-variant`, selectedVariant);
+    window.history.replaceState({}, "", `#${selectedVariant}`);
+  }, [selectedVariant]);
 
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
