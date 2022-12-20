@@ -40,25 +40,27 @@ pub const ZH_SG_TABLE: (&str, &str) = ZH_CN_TABLE;
 pub const ZH_MY_TABLE: (&str, &str) = ZH_SG_TABLE;
 
 // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L157
+// More specific rules should take precedence when merging (e.g. zh-TW > zh-Hant).
+// Since the converter build process relies on HashMap::extend, latter rules overwrite the early ones.
 lazy_static! {
     /// For `ZH_TO_TW_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_TW_TABLE`
     pub static ref ZH_HANT_TW_TABLE: (&'static str, &'static str) =
-        merge_tables_leaked(ZH_TW_TABLE, ZH_HANT_TABLE);
+        merge_tables_leaked(ZH_HANT_TABLE, ZH_TW_TABLE);
     /// For `ZH_TO_HK_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_HK_TABLE`
     pub static ref ZH_HANT_HK_TABLE: (&'static str, &'static str) =
-        merge_tables_leaked(ZH_HK_TABLE, ZH_HANT_TABLE);
+        merge_tables_leaked(ZH_HANT_TABLE, ZH_HK_TABLE);
     /// For `ZH_TO_MO_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_MO_TABLE`
     pub static ref ZH_HANT_MO_TABLE: (&'static str, &'static str) =
-        merge_tables_leaked(ZH_MO_TABLE, ZH_HANT_TABLE);
+        merge_tables_leaked(ZH_HANT_TABLE, ZH_MO_TABLE);
     /// For `ZH_TO_CN_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_CN_TABLE`
     pub static ref ZH_HANS_CN_TABLE: (&'static str, &'static str) =
-        merge_tables_leaked(ZH_CN_TABLE, ZH_HANS_TABLE);
+        merge_tables_leaked(ZH_HANS_TABLE, ZH_CN_TABLE);
     /// For `ZH_TO_SG_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_SG_TABLE`
     pub static ref ZH_HANS_SG_TABLE: (&'static str, &'static str) =
-        merge_tables_leaked(ZH_SG_TABLE, ZH_HANS_TABLE);
+        merge_tables_leaked(ZH_HANS_TABLE, ZH_SG_TABLE);
     /// For `ZH_TO_MY_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_MY_TABLE`
     pub static ref ZH_HANS_MY_TABLE: (&'static str, &'static str) =
-        merge_tables_leaked(ZH_MY_TABLE, ZH_HANS_TABLE);
+        merge_tables_leaked(ZH_HANS_TABLE, ZH_MY_TABLE);
 }
 
 // TODO: How to make these lazy consts more idiomatic?
