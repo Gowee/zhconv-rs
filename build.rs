@@ -8,19 +8,21 @@ use std::path::Path;
 
 use hex_literal::hex;
 use itertools::Itertools;
-use lazy_static::lazy_static;
 use regex::Regex;
-// use reqwest::blocking as reqwest;
-use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
 use sha2::{Digest, Sha256};
 use vergen::{vergen, Config as VergenConfig};
+
+#[cfg(feature = "opencc")]
+use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
 const MEDIAWIKI_COMMIT: &str = "56417313aa08801ef4b737b40bb7e436c2160d0a";
 const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("2c61d46f4412f883d324defcc7447acb69929ad3502d2edde3a1ac0261d03a99");
 
+#[cfg(feature = "opencc")]
 const OPENCC_COMMIT: &str = "982c74f45d0ca314e71aecf77362fc10b0a8ea90";
+#[cfg(feature = "opencc")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     (
         "HKVariants.txt",
@@ -67,22 +69,24 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
         hex!("bef60ceb4e57b6b062351406cb5d4644875574231d64787e03711317b7e773f3"),
     ),
 ];
-#[cfg(feature = "opencc")]
-lazy_static! {
-    static ref OPENCC_SHA256_MAP: HashMap<String, [u8; 32]> = OPENCC_SHA256
-        .into_iter()
-        .map(|(n, s)| (n.to_owned(), s))
-        .collect();
-}
 
 fn main() {
-    let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
-
     let out_dir = env::var_os("OUT_DIR").unwrap();
 
+    let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
     let zhconvs = parse_mediawiki(&zhconv);
     for (name, pairs) in zhconvs.iter() {
         let mut pairs = pairs.clone();
+        // Load and append OpenCC rulesets to the Mediawiki ones
+        // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
+
+        // Note: OpenCC conversion procededures take multi-pass for chaining rulesets.
+        // For efficiency and re-using the existing implementation, we chain the rulesets
+        // straightforward by chaining conversion pairs at different level in advance.
+        // It may result in conversion results different to the stock OpenCC implementation
+        // considering that some conversion pairs span over the border of several natural phrases
+        // while not covering them in whole.
+        #[cfg(feature = "opencc")]
         match name.as_ref() {
             "zh2Hans" => {
                 // hk2s & tw2s & t2s
@@ -143,22 +147,12 @@ fn main() {
 
         let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
         let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
-        let mut ffrom = File::create(&dest_path_from).unwrap();
-        let mut fto = File::create(&dest_path_to).unwrap();
+        let mut ffrom = File::create(dest_path_from).unwrap();
+        let mut fto = File::create(dest_path_to).unwrap();
 
         // longer phrases come first; lexicographically smaller phrases come first
         pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
-        // let olen = pairs.len();
         pairs.dedup_by(|a, b| a.0 == b.0);
-        // assert_eq!(olen, pairs.len(), "deduping pairs of {}", name);
-        // let mut s = HashMap::new();
-        // let mut i = 0;
-        // for (from, to) in pairs.iter() {
-        //     if  let Some((ii, tto)) = s.insert(from.clone(), (i, to)) {
-        //         dbg!(from, to, tto, i,ii);
-        //     }
-        //     i += 1;
-        // }
 
         assert_eq!(
             pairs.len(),
@@ -194,39 +188,16 @@ fn main() {
         }
     }
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", MEDIAWIKI_COMMIT);
+    #[cfg(feature = "opencc")]
     println!("cargo:rustc-env=OPENCC_COMMIT_HASH={}", OPENCC_COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
     println!("cargo:rerun-if-changed=data/ZhConversion.php");
+    #[cfg(feature = "opencc")]
+    for (opencc, _) in OPENCC_SHA256.iter() {
+        println!("cargo:rerun-if-changed=data/{}", opencc);
+    }
     println!("cargo:rerun-if-changed=Cargo.toml");
 }
-
-// fn fetch_mediawiki() -> String {
-//     let out_dir = env::var_os("CARGO_MANIFEST_DIR").unwrap();
-//     let dest_path = Path::new(&out_dir).join("data/ZhConversion.php");
-
-//     if let Some(content) = fs::read(&dest_path)
-//         .ok()
-//         .and_then(|s| String::from_utf8(s).ok())
-//         .and_then(|s| {
-//             if sha256(&s) == MEDIAWIKI_SHA256 {
-//                 Some(s)
-//             } else {
-//                 None
-//             }
-//         })
-//     {
-//         content
-//     } else {
-//         let content = reqwest::get(MEDIAWIKI_URL).unwrap().text().unwrap();
-//         assert_eq!(
-//             sha256(&content),
-//             MEDIAWIKI_SHA256,
-//             "Validating the checksum of zhconv"
-//         );
-//         fs::write(&dest_path, &content).unwrap();
-//         content
-//     }
-// }
 
 fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
     let patb = Regex::new(r"public static \$(\w+) = \[([^]]+)\]?;").unwrap();
@@ -247,98 +218,126 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
     res
 }
 
-macro_rules! load_opencc_to {
-    ( @read_to $out_conv: expr, $out_revconv: expr, $name: ident) => {
-        let s = read_and_validate_file(concat!("data/", stringify!($name), ".txt"), OPENCC_SHA256_MAP.get(stringify!($name.txt)).expect(stringify!($name.txt not found)));
-        parse_opencc_to($out_conv, $out_revconv, &s);
-    };
-    ( @parse_to $out_conv: expr, $out_revconv: expr, $name: ident, $($remainings: tt)* ) => {
-        load_opencc_to!(@read_to $out_conv, $out_revconv, $name);
-        load_opencc_to!(@parse_to $out_conv, $out_revconv, $($remainings)*);
-    };
-    ( @parse_to $out_conv: expr, $out_revconv: expr, $name: ident ) => {
-        load_opencc_to!(@read_to $out_conv, $out_revconv, $name);
-    };
-    ( @parse_to $out_conv: expr, $out_revconv: expr, ! $name: ident, $($remainings: tt)* ) => {
-        load_opencc_to!(@read_to $out_revconv, $out_conv, $name);
-        load_opencc_to!(@parse_to $out_conv, $out_revconv, $($remainings)*);
-    };
-    ( @parse_to $out_conv: expr, $out_revconv: expr, ! $name: ident ) => {
-        load_opencc_to!(@read_to $out_revconv, $out_conv, $name);
-    };
-    // ( @parse_to $out_conv: expr, $out_revconv: expr, $($t: tt)*) => {
-    //     $(
-    //         if !stringify!($t).is_empty() && stringify!($t) != "," {
-    //         panic!("bang{}", stringify!($t));
-    //         }
-    //     )*
-    // };
-    ( @load_stage $out: expr, $prev_stage: ident, [ $($rule: tt)+ ] ) => {
-        let (mut prev_convs, mut prev_revconvs): (HashMap<String, String>, HashMap<String, String>) = $prev_stage.unwrap_or_else(|| (HashMap::new(), HashMap::new()));
-        let mut convs: HashMap<String, String> = HashMap::new();
-        let mut revconvs: HashMap<String, String> = HashMap::new();
-        load_opencc_to!(@parse_to &mut convs, &mut revconvs, $($rule)*);
-        let conver: SimpleConverter = convs.clone().into();
-        let prev_revconver: SimpleConverter = prev_revconvs.clone().into();
-        for (_f, t) in prev_convs.iter_mut() {
-            // if _f == "網路上的芳鄰" {
-            //     dbg!(convs.len());
-            //     dbg!(convs.get("網路"), convs.get("網"));
-            //     panic!("{} {}", t, conver.convert(t));
-            // } // FIX
-            *t = conver.convert(t);
-        }
-        for (f, t) in convs.iter() {
-            prev_convs.insert(f.clone(), t.clone());
-            let ff = prev_revconver.convert(f);
-            if &ff != f && &ff != t /* ? */ {
-                prev_convs.insert(ff.to_owned(), t.to_owned());
+#[cfg(feature = "opencc")]
+mod opencc {
+    use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
+    use lazy_static::lazy_static;
+    use std::collections::HashMap;
+
+    use super::OPENCC_SHA256;
+
+    lazy_static! {
+        pub static ref OPENCC_SHA256_MAP: HashMap<String, [u8; 32]> = OPENCC_SHA256
+            .into_iter()
+            .map(|(n, s)| (n.to_owned(), s))
+            .collect();
+    }
+
+    macro_rules! load_opencc_to {
+        ( @read_to $out_conv: expr, $out_revconv: expr, $name: ident) => {
+            let s = read_and_validate_file(concat!("data/", stringify!($name), ".txt"), crate::opencc::OPENCC_SHA256_MAP.get(stringify!($name.txt)).expect(stringify!($name.txt not found)));
+            crate::opencc::parse_opencc_to($out_conv, $out_revconv, &s);
+        };
+        ( @parse_to $out_conv: expr, $out_revconv: expr, $name: ident, $($remainings: tt)* ) => {
+            load_opencc_to!(@read_to $out_conv, $out_revconv, $name);
+            load_opencc_to!(@parse_to $out_conv, $out_revconv, $($remainings)*);
+        };
+        ( @parse_to $out_conv: expr, $out_revconv: expr, $name: ident ) => {
+            load_opencc_to!(@read_to $out_conv, $out_revconv, $name);
+        };
+        ( @parse_to $out_conv: expr, $out_revconv: expr, ! $name: ident, $($remainings: tt)* ) => {
+            load_opencc_to!(@read_to $out_revconv, $out_conv, $name);
+            load_opencc_to!(@parse_to $out_conv, $out_revconv, $($remainings)*);
+        };
+        ( @parse_to $out_conv: expr, $out_revconv: expr, ! $name: ident ) => {
+            load_opencc_to!(@read_to $out_revconv, $out_conv, $name);
+        };
+        ( @load_stage $out: expr, $prev_stage: ident, [ $($rule: tt)+ ] ) => {
+            let (mut prev_convs, prev_revconvs): (HashMap<String, String>, HashMap<String, String>) = $prev_stage.unwrap_or_else(|| (HashMap::new(), HashMap::new()));
+            let mut convs: HashMap<String, String> = HashMap::new();
+            let mut revconvs: HashMap<String, String> = HashMap::new();
+            load_opencc_to!(@parse_to &mut convs, &mut revconvs, $($rule)*);
+            let conver: crate::opencc::SimpleConverter = convs.clone().into();
+            let prev_revconver: crate::opencc::SimpleConverter = prev_revconvs.clone().into();
+            for (_f, t) in prev_convs.iter_mut() {
+                *t = conver.convert(t);
+            }
+            for (f, t) in convs.iter() {
+                prev_convs.insert(f.clone(), t.clone());
+                let ff = prev_revconver.convert(f);
+                if &ff != f && &ff != t /* ? */ {
+                    prev_convs.insert(ff.to_owned(), t.to_owned());
+                }
+            }
+            for (_f, t) in revconvs.iter_mut() {
+                *t = prev_revconver.convert(t);
+            }
+            revconvs.extend(prev_revconvs.iter().map(|(f, t)| (conver.convert(f), t.to_owned())));
+            revconvs.extend(prev_revconvs.iter().map(|(f, t)| (f.to_owned(), t.to_owned())));
+            $prev_stage = Some((prev_convs, revconvs));
+        };
+        ( $out: expr, $($stage: tt),+ ) => {
+            let mut prev_stage = None;
+            $(load_opencc_to!(@load_stage $out, prev_stage, $stage);)*
+            let (convs, _) = prev_stage.unwrap();
+            $out.extend(convs.into_iter());
+        };
+    }
+    pub(crate) use load_opencc_to;
+
+    pub fn parse_opencc_to(
+        out_conv: &mut HashMap<String, String>,
+        out_revconv: &mut HashMap<String, String>,
+        s: &str,
+    ) {
+        for line in s.lines().map(|l| l.trim()).filter(|l| !l.is_empty()) {
+            let mut it = line.split_whitespace();
+            if let (Some(f), Some(t)) = (it.next(), it.next()) {
+                out_conv.insert(f.to_owned(), t.to_owned());
+                out_revconv.insert(t.to_owned(), f.to_owned());
+                for tt in it {
+                    out_revconv.insert(tt.to_owned(), f.to_owned());
+                }
             }
         }
-        // prev_convs.extend(convs.iter());
-        for (_f, t) in revconvs.iter_mut() {
-            *t = prev_revconver.convert(t);
+    }
+
+    /// Simplified `ZhConverter` implementation for pre-processing rulesets from OpenCC
+    pub struct SimpleConverter {
+        automaton: AhoCorasick,
+        mapping: HashMap<String, String>,
+    }
+
+    impl From<HashMap<String, String>> for SimpleConverter {
+        fn from(mapping: HashMap<String, String>) -> Self {
+            let automaton = AhoCorasickBuilder::new()
+                .match_kind(MatchKind::LeftmostLongest)
+                .dfa(false)
+                .build(mapping.keys());
+            Self { automaton, mapping }
         }
-        revconvs.extend(prev_revconvs.iter().map(|(f, t)| (conver.convert(f), t.to_owned())));
-        revconvs.extend(prev_revconvs.iter().map(|(f, t)| (f.to_owned(), t.to_owned())));
-        $prev_stage = Some((prev_convs, revconvs));
-    };
-    ( $out: expr, $($stage: tt),+ ) => {
-        let mut prev_stage = None;
-        $(load_opencc_to!(@load_stage $out, prev_stage, $stage);)*
-        let (convs, _) = prev_stage.unwrap();
-        $out.extend(convs.into_iter());
-    };
-    // ( $out: expr, $($name: ident)+ ) => {
-    //     $(load_opencc_to!(@parse $out, $name, None);)*
-    // };
-    // ( $out: expr, $($name: ident)+, $preconv: expr ) => {
-    //     let preconv = SimpleConverter::build($preconv.iter().map(|(a, b)| (b.as_str(), a.as_str())));
-    //     $(load_opencc_to!(@parse $out, $name, Some(&preconv));)*
-    // };
+    }
 
-}
-use load_opencc_to;
+    impl SimpleConverter {
+        #[allow(dead_code)]
+        pub fn build<'s>(pairs: impl Iterator<Item = (&'s str, &'s str)>) -> Self {
+            let mapping = HashMap::from_iter(pairs.map(|(a, b)| (a.to_owned(), b.to_owned())));
+            mapping.into()
+        }
 
-fn parse_opencc_to(
-    out_conv: &mut HashMap<String, String>,
-    out_revconv: &mut HashMap<String, String>,
-    s: &str, /* , preconv: Option<&SimpleConverter> */
-) {
-    for line in s.lines().map(|l| l.trim()).filter(|l| !l.is_empty()) {
-        let mut it = line.split_whitespace();
-        if let (Some(f), Some(t)) = (it.next(), it.next()) {
-            out_conv.insert(f.to_owned(), t.to_owned());
-            out_revconv.insert(t.to_owned(), f.to_owned());
-            while let Some(tt) = it.next() {
-                out_revconv.insert(tt.to_owned(), f.to_owned());
+        pub fn convert(&self, text: &str) -> String {
+            let mut output = String::new();
+            let mut last = 0;
+            // leftmost-longest matching
+            for (s, e) in self.automaton.find_iter(text).map(|m| (m.start(), m.end())) {
+                if s > last {
+                    output.push_str(&text[last..s]);
+                }
+                output.push_str(self.mapping.get(&text[s..e]).unwrap());
+                last = e;
             }
-            // if let Some(preconv) = preconv {,
-            //     let ff = preconv.convert(f);
-            //     if ff != f && ff != t {
-            //         out.push((ff.to_owned(), t.to_owned()));
-            //     }
-            // }
+            output.push_str(&text[last..]);
+            output
         }
     }
 }
@@ -355,45 +354,7 @@ fn read_and_validate_file(path: &str, sha256sum: &[u8; 32]) -> String {
         sha256sum,
         "Validating the checksum of zhconv"
     );
-
     content
-}
-
-struct SimpleConverter {
-    automaton: AhoCorasick,
-    mapping: HashMap<String, String>,
-}
-
-impl From<HashMap<String, String>> for SimpleConverter {
-    fn from(mapping: HashMap<String, String>) -> Self {
-        let automaton = AhoCorasickBuilder::new()
-            .match_kind(MatchKind::LeftmostLongest)
-            .dfa(false)
-            .build(mapping.keys());
-        Self { automaton, mapping }
-    }
-}
-
-impl SimpleConverter {
-    fn build<'s>(pairs: impl Iterator<Item = (&'s str, &'s str)>) -> Self {
-        let mapping = HashMap::from_iter(pairs.map(|(a, b)| (a.to_owned(), b.to_owned())));
-        mapping.into()
-    }
-
-    fn convert(&self, text: &str) -> String {
-        let mut output = String::new();
-        let mut last = 0;
-        // leftmost-longest matching
-        for (s, e) in self.automaton.find_iter(text).map(|m| (m.start(), m.end())) {
-            if s > last {
-                output.push_str(&text[last..s]);
-            }
-            output.push_str(self.mapping.get(&text[s..e]).unwrap());
-            last = e;
-        }
-        output.push_str(&text[last..]);
-        output
-    }
 }
 
 fn sha256(text: &str) -> [u8; 32] {
