@@ -34,12 +34,15 @@ export default function ConvertButton({
 }) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef<HTMLDivElement>(null);
-  const [selectedVariant, setSelectedVariant] = React.useState(() => {
+  const [selectedVariant, setSelectedVariant] = React.useState<Variant>(() => {
     const hash = window.location.hash.slice(1) as Variant;
     if (variants[hash]) {
       return hash;
     } else {
-      return localStorage.getItem(`${PACKAGE.name}-selected-variant`) ?? "zh";
+      return (
+        (localStorage.getItem(`${PACKAGE.name}-selected-variant`) as Variant) ??
+        "zh"
+      );
     }
   });
 
