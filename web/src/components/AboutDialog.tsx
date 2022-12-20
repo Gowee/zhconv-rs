@@ -91,22 +91,26 @@ export default function AboutDialog({
         <DialogContent dividers>
           <Typography gutterBottom>
             All the conversion rules including built-in conversion tables and
-            CGroups comes from Chinese Wikipedia and MediaWiki, whose
-            communities build and maintain those rules. The accuracy of
+            CGroups comes from Chinese Wikipedia (MediaWiki) and OpenCC, whose
+            communities build and maintain those rulesets. The accuracy of
             conversions is pretty good. But it is still predictable to have some
             wrong conversions.
           </Typography>
           <Typography gutterBottom>
-            包括
+            包括內建轉換表（
             <Link href="https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14">
               內建轉換表
             </Link>
+            、
+            <Link href="https://github.com/BYVoid/OpenCC/tree/master/data/dictionary">
+              2
+            </Link>
+            ）
             和
             <Link href="https://zh.wikipedia.org/wiki/Wikipedia:%E5%AD%97%E8%A9%9E%E8%BD%89%E6%8F%9B%E8%99%95%E7%90%86/%E5%85%AC%E5%85%B1%E8%BD%89%E6%8F%9B%E7%B5%84">
               公共轉換組
             </Link>
-            在內的所有字詞轉換規則均來自中文維基百科和
-            MediaWiki，並由社群維護。此轉換工具準確性尚可，但仍可預期地會包含錯誤轉換。
+            在內的所有字詞轉換規則均來自中文維基百科（MediaWiki）和OpenCC，並由社群維護。此轉換工具準確性尚可，但仍可預期地會包含錯誤轉換。
           </Typography>
           <Typography gutterBottom>
             {"See also / 另见 "}

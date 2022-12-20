@@ -48,7 +48,7 @@ jobs:
         run: |
           cd pkg-bundler
           jq '. |= . + {"keywords": ["wasm", "chinese", "simplified chinese", "traditional chinese", "language", "webpack", "l10n"]}' package.json | \
-            jq '.description = "🦀 Convert Trad/Simp Chinese and regional words among each other based on rules of MediaWiki 轉換中文简繁體及地區詞，基於MediaWiki之轉換表 (powered by Rust / WASM 驅動)"' \
+            jq '.description = "🦀 Convert Trad/Simp Chinese and regional phrases among each other based on rules of MediaWiki and OpenCC 轉換中文简繁體及地區詞，基於MediaWiki和OpenCC之轉換表 (powered by Rust/WASM 驅動)"' \
             > new-package.json
           mv new-package.json package.json
           npm publish

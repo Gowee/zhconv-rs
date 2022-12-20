@@ -5,14 +5,14 @@ edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-description = "Traditional/Simplified and regional Chinese variants converter based on MediaWiki conversion rules and powered by AC automata  轉換中文簡體、繁體及兩岸、新馬地區詞，基於MediaWiki之字詞轉換表"
+description = "Traditional/Simplified and regional Chinese variants converter based on MediaWiki & OpenCC rulesets and powered by AC automata  轉換简体、繁體及兩岸、新馬中文地區詞，基於MediaWiki和OpenCC之字詞轉換表"
 categories = ["text-processing", "localization", "value-formatting", "wasm"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [features]
-# default = [ "opencc" ]
+default = [ "opencc" ]
 opencc = [ "aho-corasick", "lazy_static" ] # Activate OpenCC rules
 
 [dependencies]

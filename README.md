@@ -4,7 +4,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/zhconv-rs)](https://pypi.org/project/zhconv-rs/)
 [![NPM version](https://badge.fury.io/js/zhconv.svg)](https://www.npmjs.com/package/zhconv)
 # zhconv-rs 中文简繁及地區詞轉換
-zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14) conversion tables from MediaWiki and Chinese Wikipedia.
+zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of rulesets from MediaWiki/Wikipedia and OpenCC.
 
 Powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automaton, the implementation guarantees linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
 
@@ -82,7 +82,7 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 | Chinese (Singapore) / 新加坡简体       | `zh-SG`   | SC / 简 | Same as `zh-CN` for now.                      |
 | Chinese (Malaysia) / 大马简体          | `zh-MY`   | SC / 简 | Same as `zh-CN` for now.                      |
 
-*Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same conversion table with `zh-HK` unless additonal rules / CGroups are applied; `zh-MY` and `zh-SG` shares the same conversion table with `zh-CN` unless additional rules / CGroups are applied. 
+*Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same conversion table with `zh-HK` unless additional rules are manually configured; `zh-MY` and `zh-SG` shares the same conversion table with `zh-CN` unless additional rules are manually configured. 
 </details>
 
 <!--
@@ -113,18 +113,16 @@ zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 ``` 
 
 ## Differences with other converters
-* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs are just based on conversion tables listed in `ZhConversion.php`. MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
-* OpenCC: OpenCC maintained conversion rules independent of MediaWiki. The [converter implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. zhconv-rs would be much faster in general, thanks to the [Aho-Corasick](https://docs.rs/aho-corasick/) algorithm. However, OpenCC supports text segmentation after manually configuring, which is not supported by zhconv-rs for now.
-
-All of these implementation shares the same leftmost-longest matching strategy. So conversion results should generally be the same given the same conversion tables, if no pre-segmentation is applied.
+* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs just takes conversion tables listed in [`ZhConversion.php`](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14). MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
+* OpenCC: The [conversion rulesets](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary) of OpenCC is independent of MediaWiki. The core [conversion implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. However, OpenCC supports pre-segmentation and maintains multiple rulesets which are applied successively. By contrast, the Aho-Corasick-powered zhconv-rs merges rulesets from MediaWiki and OpenCC in compile time and converts text in single-pass linear time, resulting in much more efficiency. Though, conversion results may differ in some cases.
 
 ## Limitations
-The converter is implemented upon a aho-corasick automaton with the leftmost-longest matching strategy. That is, leftest matched words or phrases always take a higher priority. For example, if both `干 -> 幹` and `天干物燥 -> 天乾物燥` are specified in a ruleset, `天乾物燥` would be picked since `天干物燥` would be matched earlier at the initial position compared to `干` at a latter position. The strategy works well most of the time. But it might also result in some unexpected cases, rarely.
+The converter is built upon an aho-corasick automaton with the leftmost-longest matching strategy. That is, leftest-matched words or phrases always take a higher priority. For example, if both `干 -> 幹` and `天干物燥 -> 天乾物燥` are specified in a ruleset, `天乾物燥` would be picked since `天干物燥` would be matched earlier at the initial position compared to `干` at a latter position. The strategy works well most of the time. But it might also result in some unexpected cases, rarely.
 
-Besides, since an automaton is infeasible to update after being built, the converter will have to (re)build it from scratch for every ruleset. All automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. But, typically, such overhead would be significant if there are global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`) in a short text (even less efficient than a naïve implementation).
+Besides, since an automaton is infeasible to update after being built, the converter must (re)build it from scratch for every ruleset. All automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. But, typically, such overhead would be significant if there are global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`) in a short text (even less efficient than a naïve implementation).
 
 ## Credits
-All data that powers the converter, including conversion tables and CGroups, comes from the MediaWiki project.
+All rulesets that power the converter come from the [MediaWiki](https://github.com/wikimedia/mediawiki) project and [OpenCC](https://github.com/BYVoid/OpenCC).
 
 The project takes the following projects/pages as references:
 - https://github.com/gumblex/zhconv : Python implementation of `zhConver{ter,sion}.php`.
@@ -139,3 +137,4 @@ The project takes the following projects/pages as references:
 - [ ] Propogate error properly with Anyhow and thiserror
 - [x] Python lib
 - [x] More exmaples in README
+- [x] Add rulesets from OpenCC
