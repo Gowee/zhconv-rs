@@ -105,8 +105,7 @@ export default function AboutDialog({
             <Link href="https://github.com/BYVoid/OpenCC/tree/master/data/dictionary">
               2
             </Link>
-            ）
-            和
+            ） 和
             <Link href="https://zh.wikipedia.org/wiki/Wikipedia:%E5%AD%97%E8%A9%9E%E8%BD%89%E6%8F%9B%E8%99%95%E7%90%86/%E5%85%AC%E5%85%B1%E8%BD%89%E6%8F%9B%E7%B5%84">
               公共轉換組
             </Link>
