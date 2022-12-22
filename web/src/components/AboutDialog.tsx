@@ -99,7 +99,7 @@ export default function AboutDialog({
           <Typography gutterBottom>
             包括內建轉換表（
             <Link href="https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14">
-              內建轉換表
+              1
             </Link>
             、
             <Link href="https://github.com/BYVoid/OpenCC/tree/master/data/dictionary">
