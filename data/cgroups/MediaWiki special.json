@@ -429,7 +429,31 @@
     },
     {
       "original": "RecentChanges",
-      "conv": "zh-hans:最近更改;zh-hant:近期變更"
+      "conv": "zh-hans:最近更改;zh-hant:近期變更;"
+    },
+    {
+      "original": "RecentChanges",
+      "conv": "近期变更=>zh-cn:最近更改;近期变更=>zh-my:最近更改;近期变更=>zh-sg:最近更改;"
+    },
+    {
+      "original": "WhatLinksHere",
+      "conv": "zh-hans:链入页面;zh-hant:連結至此的頁面;"
+    },
+    {
+      "original": "WhatLinksHere",
+      "conv": "链接至此的页面=>zh-cn:链入页面;链接至此的页面=>zh-my:链入页面;链接至此的页面=>zh-sg:链入页面;"
+    },
+    {
+      "original": "WhatLinksHere",
+      "conv": "连结至此的页面=>zh-cn:链入页面;连结至此的页面=>zh-my:链入页面;连结至此的页面=>zh-sg:链入页面;"
+    },
+    {
+      "original": "WhatLinksHere",
+      "conv": "鏈入頁面=>zh-tw:連結至此的頁面;鏈入頁面=>zh-hk:連結至此的頁面;鏈入頁面=>zh-mo:連結至此的頁面;"
+    },
+    {
+      "original": "WhatLinksHere",
+      "conv": "連入頁面=>zh-tw:連結至此的頁面;連入頁面=>zh-hk:連結至此的頁面;連入頁面=>zh-mo:連結至此的頁面;"
     }
   ]
 }

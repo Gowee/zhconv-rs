@@ -1,6 +1,6 @@
 {
   "name": "MA",
-  "description": "[[麻雀 (遊戲)|麻雀]]",
+  "description": "[[麻将|麻雀]]",
   "path": "Template:CGroup/MA",
   "rules": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "original": null,
-      "conv": "将=>zh-hk:眼"
+      "conv": "zh:對子;zh-cn:将;zh-tw:將;zh-hk:眼;zh-mo:眼;zh-sg:对子;"
     },
     {
       "original": null,
@@ -113,7 +113,7 @@
     },
     {
       "original": null,
-      "conv": "zh:流局;zh-cn:荒牌;zh-tw:流局;zh-hk:流局;zh-mo:和局;zh-sg:流局;"
+      "conv": "荒牌=>zh:流局;荒牌=>zh-cn:流局;荒牌=>zh-tw:流局;荒牌=>zh-hk:流局;荒牌=>zh-mo:流局;荒牌=>zh-sg:和局;"
     },
     {
       "original": null,
@@ -201,99 +201,99 @@
     },
     {
       "original": null,
-      "conv": "zh:起糊;zh-cn:起胡;zh-tw:起胡;zh-hk:起糊;zh-mo:起糊;zh-sg:起和;"
+      "conv": "zh:起糊;zh-cn:起和;zh-tw:起胡;zh-hk:起糊;zh-mo:起糊;zh-sg:起和;"
     },
     {
       "original": null,
-      "conv": "zh:糊牌;zh-cn:胡牌;zh-tw:胡牌;zh-hk:食糊;zh-mo:食糊;zh-sg:胡牌;"
+      "conv": "zh:糊牌;zh-cn:和牌;zh-tw:胡牌;zh-hk:食糊;zh-mo:食糊;zh-sg:胡牌;"
     },
     {
       "original": null,
-      "conv": "zh:攔糊;zh-cn:抢胡;zh-tw:攔胡;zh-hk:截糊;zh-mo:截糊;zh-sg:拦胡;"
+      "conv": "zh:攔糊;zh-cn:抢和;zh-tw:攔胡;zh-hk:截糊;zh-mo:截糊;zh-sg:拦胡;"
     },
     {
       "original": null,
-      "conv": "zh:放槍;zh-cn:放炮;zh-tw:放銃;zh-hk:出銃;zh-mo:出冲;zh-sg:放铳;"
+      "conv": "zh:放槍;zh-cn:放炮;zh-tw:放銃;zh-hk:出衝;zh-mo:出冲;zh-sg:放铳;"
     },
     {
       "original": null,
-      "conv": "放枪=>zh:放槍;放枪=>zh-cn:放炮;放枪=>zh-tw:放銃;放枪=>zh-hk:出銃;放枪=>zh-mo:出冲;放枪=>zh-sg:放铳;"
+      "conv": "放枪=>zh:放槍;放枪=>zh-cn:放炮;放枪=>zh-tw:放銃;放枪=>zh-hk:出衝;放枪=>zh-mo:出冲;放枪=>zh-sg:放铳;"
     },
     {
       "original": null,
-      "conv": "出銃=>zh:放槍;出銃=>zh-cn:放炮;出銃=>zh-tw:放銃;出銃=>zh-hk:出銃;出銃=>zh-mo:出冲;出銃=>zh-sg:放铳;"
+      "conv": "出銃=>zh:放槍;出銃=>zh-cn:放炮;出銃=>zh-tw:放銃;出銃=>zh-hk:出衝;出銃=>zh-mo:出冲;出銃=>zh-sg:放铳;"
     },
     {
       "original": null,
-      "conv": "出铳=>zh:放槍;出铳=>zh-cn:放炮;出铳=>zh-tw:放銃;出铳=>zh-hk:出銃;出铳=>zh-mo:出冲;出铳=>zh-sg:放铳;"
+      "conv": "出铳=>zh:放槍;出铳=>zh-cn:放炮;出铳=>zh-tw:放銃;出铳=>zh-hk:出衝;出铳=>zh-mo:出冲;出铳=>zh-sg:放铳;"
     },
     {
       "original": null,
-      "conv": "zh:糊了;zh-cn:胡了;zh-tw:胡了;zh-hk:食了糊;zh-mo:食了糊;zh-sg:胡了;"
+      "conv": "zh:糊了;zh-cn:和了;zh-tw:胡了;zh-hk:食了糊;zh-mo:食了糊;zh-sg:胡了;"
     },
     {
       "original": null,
-      "conv": "zh:銃糊;zh-cn:点胡;zh-tw:銃胡;zh-hk:銃糊;zh-mo:銃糊;zh-sg:铳胡;"
+      "conv": "zh:銃糊;zh-cn:点和;zh-tw:銃胡;zh-hk:衝糊;zh-mo:衝糊;zh-sg:铳胡;"
     },
     {
       "original": null,
-      "conv": "zh:攏糊;zh-cn:荣胡;zh-tw:榮胡;zh-hk:榮糊;zh-mo:榮糊;zh-sg:拢胡;"
+      "conv": "zh:攏糊;zh-cn:荣和;zh-tw:榮胡;zh-hk:榮糊;zh-mo:榮糊;zh-sg:拢胡;"
     },
     {
       "original": null,
-      "conv": "榮和=>zh:攏糊;榮胡=>zh-cn:荣胡;榮和=>zh-tw:榮胡;榮和=>zh-hk:榮糊;榮和=>zh-mo:榮糊;榮和=>zh-sg:拢胡;"
+      "conv": "榮和=>zh:攏糊;榮和=>zh-cn:荣和;榮和=>zh-tw:榮胡;榮和=>zh-hk:榮糊;榮和=>zh-mo:榮糊;榮和=>zh-sg:拢胡;"
     },
     {
       "original": null,
-      "conv": "zh:自摸糊;zh-cn:自摸胡;zh-tw:自摸胡;zh-hk:自摸糊;zh-mo:自摸糊;zh-sg:自摸胡;"
+      "conv": "zh:自摸糊;zh-cn:自摸和;zh-tw:自摸胡;zh-hk:自摸糊;zh-mo:自摸糊;zh-sg:自摸胡;"
     },
     {
       "original": null,
-      "conv": "zh:天糊;zh-cn:天胡;zh-tw:天胡;zh-hk:天糊;zh-mo:天糊;zh-sg:天胡;"
+      "conv": "zh:天糊;zh-cn:天和;zh-tw:天胡;zh-hk:天糊;zh-mo:天糊;zh-sg:天和;"
     },
     {
       "original": null,
-      "conv": "zh:地糊;zh-cn:地胡;zh-tw:地胡;zh-hk:地糊;zh-mo:地糊;zh-sg:地胡;"
+      "conv": "zh:地糊;zh-cn:地和;zh-tw:地胡;zh-hk:地糊;zh-mo:地糊;zh-sg:地和;"
     },
     {
       "original": null,
-      "conv": "zh:人糊;zh-cn:人胡;zh-tw:人胡;zh-hk:人糊;zh-mo:人糊;zh-sg:人胡;"
+      "conv": "zh:人糊;zh-cn:人和;zh-tw:人胡;zh-hk:人糊;zh-mo:人糊;zh-sg:人和;"
     },
     {
       "original": null,
-      "conv": "zh:平糊;zh-cn:平胡;zh-tw:平胡;zh-hk:平糊;zh-mo:平糊;zh-sg:平胡;"
+      "conv": "zh:平糊;zh-cn:平和;zh-tw:平胡;zh-hk:平糊;zh-mo:平糊;zh-sg:平和;"
     },
     {
       "original": null,
-      "conv": "zh:屁糊;zh-cn:屁胡;zh-tw:屁胡;zh-hk:雞糊;zh-mo:雞糊;zh-sg:屁胡;"
+      "conv": "zh:屁糊;zh-cn:小和;zh-tw:屁胡;zh-hk:雞糊;zh-mo:雞糊;zh-sg:屁和;"
     },
     {
       "original": null,
-      "conv": "zh:詐糊;zh-cn:诈胡;zh-tw:詐胡;zh-hk:詐糊;zh-mo:詐糊;zh-sg:诈胡;"
+      "conv": "zh:詐糊;zh-cn:诈和;zh-tw:詐胡;zh-hk:詐糊;zh-mo:詐糊;zh-sg:诈和;"
     },
     {
       "original": null,
-      "conv": "詐和=>zh:詐糊;詐和=>zh-cn:诈胡;詐和=>zh-tw:詐胡;詐和=>zh-hk:詐糊;詐和=>zh-mo:詐糊;詐和=>zh-sg:诈胡;"
+      "conv": "詐和=>zh:詐糊;詐和=>zh-cn:诈和;詐和=>zh-tw:詐胡;詐和=>zh-hk:詐糊;詐和=>zh-mo:詐糊;詐和=>zh-sg:诈和;"
     },
     {
       "original": null,
-      "conv": "zh:錯糊;zh-cn:错胡;zh-tw:錯胡;zh-hk:錯糊;zh-mo:錯糊;zh-sg:错胡;"
+      "conv": "zh:錯糊;zh-cn:错和;zh-tw:錯胡;zh-hk:錯糊;zh-mo:錯糊;zh-sg:错和;"
     },
     {
       "original": null,
-      "conv": "錯和=>zh:錯糊;錯和=>zh-cn:错胡;錯和=>zh-tw:錯胡;錯和=>zh-hk:錯糊;錯和=>zh-mo:錯糊;錯和=>zh-sg:错和;"
+      "conv": "錯和=>zh:錯糊;錯和=>zh-cn:错和;錯和=>zh-tw:錯胡;錯和=>zh-hk:錯糊;錯和=>zh-mo:錯糊;錯和=>zh-sg:错和;"
     },
     {
       "original": null,
-      "conv": "zh:花糊;zh-cn:花胡;zh-tw:花胡;zh-hk:花糊;zh-mo:花糊;zh-sg:花胡;"
+      "conv": "zh:花糊;zh-cn:花和;zh-tw:花胡;zh-hk:花糊;zh-mo:花糊;zh-sg:花和;"
     },
     {
       "original": null,
-      "conv": "zh:棄糊;zh-cn:弃胡;zh-tw:棄胡;zh-hk:棄糊;zh-mo:棄糊;zh-sg:弃胡;"
+      "conv": "zh:棄糊;zh-cn:弃和;zh-tw:棄胡;zh-hk:棄糊;zh-mo:棄糊;zh-sg:弃和;"
     },
     {
       "original": null,
-      "conv": "棄和=>zh:棄糊;棄和=>zh-cn:弃胡;棄和=>zh-tw:棄胡;棄和=>zh-hk:棄糊;棄和=>zh-mo:棄糊;棄和=>zh-sg:弃胡;"
+      "conv": "棄和=>zh:棄糊;棄和=>zh-cn:弃和;棄和=>zh-tw:棄胡;棄和=>zh-hk:棄糊;棄和=>zh-mo:棄糊;棄和=>zh-sg:弃和;"
     },
     {
       "original": null,
@@ -314,10 +314,6 @@
     {
       "original": null,
       "conv": "zh:單釣;zh-cn:单钓;zh-tw:單騎;zh-hk:單吊;zh-mo:單吊;zh-sg:单骑;"
-    },
-    {
-      "original": null,
-      "conv": "zh:四暗刻単騎;zh-hant:四暗刻單騎;zh-hans:四暗刻单骑;"
     },
     {
       "original": null,

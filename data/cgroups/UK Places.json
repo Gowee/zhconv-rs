@@ -16,6 +16,10 @@
       "conv": "zh-hans:阿克顿;zh-tw:阿克頓;zh-hk:厄頓;"
     },
     {
+      "original": "Albert",
+      "conv": "zh-hans:阿尔伯特;zh-tw:艾伯特;zh-hk:亞厘畢;"
+    },
+    {
       "original": "Alnwick",
       "conv": "zh-cn:阿因维克;zh-hk:安域;zh-tw:阿因維克;"
     },
@@ -45,7 +49,7 @@
     },
     {
       "original": "Balmoral",
-      "conv": "zh-cn:巴尔莫勒尔;zh-hant:巴爾莫勒爾;zh-tw:巴摩拉;zh-hk:巴摩盧;"
+      "conv": "zh-cn:巴尔莫勒尔;zh-hant:巴爾莫勒爾;zh-tw:巴摩拉;zh-hk:巴摩盧;zh-mo:巴摩盧;"
     },
     {
       "original": "Basildon",
@@ -169,27 +173,23 @@
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "zh-cn:卡纳温;zh-my:卡纳温;zh-sg:卡纳温;zh-hk:加拿分;zh-mo:加拿分;zh-tw:卡納芬;"
+      "conv": "zh-cn:卡那封;zh-my:卡纳温;zh-sg:卡纳温;zh-hk:加拿分;zh-mo:加拿分;zh-tw:卡納封;"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡納溫=>zh-hk:加拿分;卡納溫=>zh-mo:加拿分;卡納溫=>zh-tw:卡納芬;"
+      "conv": "卡納溫=>zh-cn:卡纳温;卡納溫=>zh-hk:加拿分;卡納溫=>zh-mo:加拿分;卡納溫=>zh-tw:卡納芬;"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡那封=>zh-cn:卡纳温;卡那封=>zh-my:卡纳温;卡那封=>zh-sg:卡纳温;卡那封=>zh-hk:加拿分;卡那封=>zh-mo:加拿分;卡那封=>zh-tw:卡納芬;"
+      "conv": "加拿芬=>zh-cn:卡那封;加拿芬=>zh-my:卡纳温;加拿芬=>zh-sg:卡纳温;加拿芬=>zh-hk:加拿分;加拿芬=>zh-mo:加拿分;加拿芬=>zh-tw:卡納芬;"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "加拿芬=>zh-cn:卡纳温;加拿芬=>zh-my:卡纳温;加拿芬=>zh-sg:卡纳温;加拿芬=>zh-hk:加拿分;加拿芬=>zh-mo:加拿分;加拿芬=>zh-tw:卡納芬;"
+      "conv": "卡納豐=>zh-cn:卡那封;卡納豐=>zh-my:卡纳温;卡納豐=>zh-sg:卡纳温;卡納豐=>zh-hk:加拿分;卡納豐=>zh-mo:加拿分;卡納豐=>zh-tw:卡納芬;"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡納豐=>zh-cn:卡纳温;卡納豐=>zh-my:卡纳温;卡納豐=>zh-sg:卡纳温;卡納豐=>zh-hk:加拿分;卡納豐=>zh-mo:加拿分;卡納豐=>zh-tw:卡納芬;"
-    },
-    {
-      "original": "Caernarfon/Carnarvon",
-      "conv": "卡纳丰=>zh-cn:卡纳温;卡纳丰=>zh-my:卡纳温;卡纳丰=>zh-sg:卡纳温;卡纳丰=>zh-hk:加拿分;卡纳丰=>zh-mo:加拿分;卡纳丰=>zh-tw:卡納芬;"
+      "conv": "卡纳丰=>zh-cn:卡那封;卡纳丰=>zh-my:卡纳温;卡纳丰=>zh-sg:卡纳温;卡纳丰=>zh-hk:加拿分;卡纳丰=>zh-mo:加拿分;卡纳丰=>zh-tw:卡納芬;"
     },
     {
       "original": "Camberwell",
@@ -212,6 +212,10 @@
       "conv": "zh-cn:卡迪夫;zh-hk:加的夫;zh-tw:卡地夫;"
     },
     {
+      "original": "Chatham",
+      "conv": "zh:查塔姆; zh-hans:查塔姆; zh-hk:漆咸; zh-tw:查塔姆;"
+    },
+    {
       "original": "Cheltenham",
       "conv": "zh-cn:切尔滕纳姆;zh-hk:車特咸;zh-tw:卓特咸;zh-hant:切爾滕納姆;"
     },
@@ -226,6 +230,10 @@
     {
       "original": "Chester",
       "conv": "zh-cn:切斯特;zh-hk:車士打;zh-tw:切斯特;"
+    },
+    {
+      "original": "Chester-le-Street",
+      "conv": "zh-cn:切斯特勒斯特里特;zh-hk:切斯特勒街;zh-tw:赤斯特街;"
     },
     {
       "original": "Chesterfield",
@@ -248,6 +256,10 @@
       "conv": "zh-cn:克拉珀姆;zh-hk:嘉立咸;zh-tw:克萊姆;"
     },
     {
+      "original": "Clyde",
+      "conv": "zh-hans:克莱德;zh-hk:佳德;zh-tw:克萊德;"
+    },
+    {
       "original": "Coventry",
       "conv": "zh-cn:考文垂;zh-hk:高雲地利;zh-tw:科芬特里;"
     },
@@ -261,7 +273,15 @@
     },
     {
       "original": "Cornwall",
-      "conv": "zh-hant:康沃爾;zh-cn:康沃尔;zh-hk:康和;zh-tw:康瓦爾;"
+      "conv": "zh-hans:康沃尔; zh-hant:康沃爾; zh-hk:康和; zh-mo:康和; zh-tw:康瓦爾;"
+    },
+    {
+      "original": "Cornwall",
+      "conv": "康瓦尔=>zh-hans:康沃尔; 康瓦尔=>zh-hant:康沃爾; 康瓦尔=>zh-hk:康和; 康瓦尔=>zh-mo:康和; 康瓦尔=>zh-tw:康瓦爾;"
+    },
+    {
+      "original": "Cornwall",
+      "conv": "康瓦爾=>zh-hans:康沃尔; 康瓦爾=>zh-hant:康沃爾; 康瓦爾=>zh-hk:康和; 康瓦爾=>zh-mo:康和; 康瓦爾=>zh-tw:康瓦爾;"
     },
     {
       "original": "Croydon",
@@ -341,7 +361,7 @@
     },
     {
       "original": "Enfield",
-      "conv": "zh-hans:恩菲尔德;zh-tw:恩菲特;zh-hk:恩菲路;zh-hant:恩菲爾德;"
+      "conv": "zh-hans:恩菲尔德;zh-tw:恩菲特;zh-hk:恩菲;zh-hant:恩菲爾德;"
     },
     {
       "original": "Essex",
@@ -392,6 +412,10 @@
       "conv": "zh:蓋特威克;zh-cn:盖特威克;zh-tw:蓋威克;zh-hk:格域;"
     },
     {
+      "original": "Gillingham",
+      "conv": "zh-hans:吉林汉姆;zh-hk:驕寧咸;zh-tw:吉林漢姆;"
+    },
+    {
       "original": "Gloucester",
       "conv": "zh-cn:格洛斯特;zh-hk:告羅士打;zh-tw:格洛斯特;"
     },
@@ -414,6 +438,10 @@
     {
       "original": "Gwynedd",
       "conv": "zh-cn:格温内斯;zh-tw:格溫內斯;zh-hk:圭內斯;"
+    },
+    {
+      "original": "Hailsham",
+      "conv": "zh-cn:黑尔舍姆;zh-tw:海爾斯罕;zh-hk:海爾斯罕;"
     },
     {
       "original": "Hamilton",
@@ -478,10 +506,6 @@
     {
       "original": "Heywood",
       "conv": "zh-cn:海伍德;zh-tw:赫塢;zh-hk:希活;"
-    },
-    {
-      "original": "Holyrood",
-      "conv": "zh-cn:霍利鲁德;zh-tw:荷里路德;zh-hk:荷里路德;"
     },
     {
       "original": "Hove",
@@ -637,7 +661,11 @@
     },
     {
       "original": "Mansfield",
-      "conv": "zh-cn:曼斯菲尔德;zh-hk:曼斯菲特;zh-tw:曼斯菲爾德;"
+      "conv": "zh-cn:曼斯菲尔德;zh-hk:曼斯菲特;zh-tw:曼斯菲爾;zh-hant:曼斯菲爾德;"
+    },
+    {
+      "original": "Medway",
+      "conv": "zh:梅德韋; zh-hans:梅德韦; zh-tw:麥德威;"
     },
     {
       "original": "Midlands",
@@ -820,6 +848,10 @@
       "conv": "zh-cn:桑德灵厄姆;zh-hant:桑德靈厄姆;zh-tw:桑德令罕;zh-hk:山靜咸;"
     },
     {
+      "original": "Scilly",
+      "conv": "zh-hans:锡利; zh-hant:錫利; zh-tw:夕利;"
+    },
+    {
       "original": "Selkirk",
       "conv": "zh-cn:塞尔扣克;zh-hk:西谷;zh-tw:塞爾寇克;"
     },
@@ -884,6 +916,10 @@
       "conv": "zh-cn:斯塔福德;zh-hk:施他佛;zh-tw:史丹佛;"
     },
     {
+      "original": "Streatham",
+      "conv": "zh-hans:斯特里汉姆;zh-hant:斯特里漢姆;zh-cn:斯特雷特姆;zh-hk:史卓咸;zh-tw:斯特里薩姆;"
+    },
+    {
       "original": "Stevenage",
       "conv": "zh-cn:斯蒂夫尼奇;zh-tw:史蒂文納吉;zh-hk:史提芬納治;"
     },
@@ -936,12 +972,20 @@
       "conv": "史篤=>zh-cn:斯托克; 史篤=>zh-my:斯托克; 史篤=>zh-sg:斯托克; 史篤=>zh-tw:斯托克;"
     },
     {
+      "original": "Straford",
+      "conv": "zh-hant:史特拉福;zh-hans:斯特拉特福;"
+    },
+    {
       "original": "Suffolk",
       "conv": "zh-cn:萨福克;zh-hk:沙福;zh-tw:沙福;zh-hant:薩福克;"
     },
     {
       "original": "Sunderland",
       "conv": "zh-cn:桑德兰;zh-hk:新特蘭;zh-tw:巽德蘭;zh-hant:桑德蘭;"
+    },
+    {
+      "original": "Sutherland",
+      "conv": "zh-cn:萨瑟兰;zh-hk:修打蘭;zh-tw:薩瑟蘭;zh-hant:薩瑟蘭;"
     },
     {
       "original": "Surrey",
@@ -1009,7 +1053,7 @@
     },
     {
       "original": "Wakefield",
-      "conv": "zh-hk:域菲路;zh-tw:威克菲;zh-cn:韦克菲尔德;"
+      "conv": "zh-hk:域菲;zh-tw:威克菲;zh-cn:韦克菲尔德;"
     },
     {
       "original": "Wales",
@@ -1066,6 +1110,10 @@
     {
       "original": "Wembley",
       "conv": "zh-cn:温布利;zh-hk:溫布萊;zh-tw:溫布利;"
+    },
+    {
+      "original": "Wessex",
+      "conv": "zh-hans:威塞克斯;zh-hk:韋息士;zh-mo:韋息士;zh-tw:威塞克斯;"
     },
     {
       "original": "West Ham",
@@ -1152,7 +1200,7 @@
       "conv": "zh-cn:阿克罗蒂里和泽凯利亚;zh-sg:亚克罗提利和德凯利亚;zh-tw:亞克羅提利與德凱利亞;zh-hk:阿克魯帝利及德基利亞;"
     },
     {
-      "original": "Akrotiri",
+      "original": "Anguilla",
       "conv": "zh-cn:安圭拉;zh-tw:安吉拉;zh-hk:安圭拉;"
     },
     {

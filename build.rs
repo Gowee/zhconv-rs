@@ -16,12 +16,12 @@ use vergen::{vergen, Config as VergenConfig};
 use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
-const MEDIAWIKI_COMMIT: &str = "56417313aa08801ef4b737b40bb7e436c2160d0a";
+const MEDIAWIKI_COMMIT: &str = "bcaab3d057c8e550793100448f725761e1a8e017";
 const MEDIAWIKI_SHA256: [u8; 32] =
-    hex!("2c61d46f4412f883d324defcc7447acb69929ad3502d2edde3a1ac0261d03a99");
+    hex!("37c17b6361ab774b0b7dab801aa7ff919f8efa6e2ad3f66ccb051e9c1a848f6e");
 
 #[cfg(feature = "opencc")]
-const OPENCC_COMMIT: &str = "982c74f45d0ca314e71aecf77362fc10b0a8ea90";
+const OPENCC_COMMIT: &str = "5750d92a92ac1f2d64c880c1f6f1a5e382d7d199";
 #[cfg(feature = "opencc")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     (

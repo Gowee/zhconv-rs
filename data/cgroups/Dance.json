@@ -1,0 +1,43 @@
+{
+  "name": "Dance",
+  "description": "舞蹈",
+  "path": "Module:CGroup/Dance",
+  "rules": [
+    {
+      "original": "Flamenco",
+      "conv": "zh-hans:弗拉门戈;zh-tw:佛朗明哥;zh-hk:法蘭明歌;"
+    },
+    {
+      "original": "Flamenco Dance",
+      "conv": "zh-cn:弗拉明戈舞;zh-tw:佛朗明哥舞;zh-hk:法蘭明歌舞;"
+    },
+    {
+      "original": "Morden Dance",
+      "conv": "zh-cn:现代舞;zh-tw:摩登舞;zh-hk:摩登舞;"
+    },
+    {
+      "original": "Disco",
+      "conv": "zh-hans:迪斯科;zh-hant:迪斯可;zh-cn:迪斯科;zh-tw:迪斯可;zh-hk:的士高;zh-mo:的士高;"
+    },
+    {
+      "original": "Hustle",
+      "conv": "zh-cn:哈娑舞;zh-tw:哈梭舞;"
+    },
+    {
+      "original": "Capoeira",
+      "conv": "zh-cn:卡波耶拉;zh-hk:卡普耶拉;"
+    },
+    {
+      "original": "Samba",
+      "conv": "zh-cn:桑巴;zh-tw:森巴;zh-hk:森巴;"
+    },
+    {
+      "original": "Jive",
+      "conv": "zh-cn:牛仔舞;zh-tw:捷舞;zh-hk:牛仔舞;"
+    },
+    {
+      "original": "Modern Jive",
+      "conv": "zh-cn:现代牛仔舞;zh-tw:摩登捷舞;zh-hk:摩登牛仔舞;"
+    }
+  ]
+}

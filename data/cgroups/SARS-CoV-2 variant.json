@@ -1,0 +1,67 @@
+{
+  "name": "SARS-CoV-2 variant",
+  "description": "SARS-CoV-2变异株",
+  "path": "Module:CGroup/SARS-CoV-2 variant",
+  "rules": [
+    {
+      "original": "Alpha",
+      "conv": "zh-cn:阿尔法; zh-hk:Alpha; zh-tw: Alpha; zh-sg: Alpha;"
+    },
+    {
+      "original": "Beta",
+      "conv": "zh-cn:贝塔; zh-hk: Beta; zh-tw:Beta; zh-sg:Beta;"
+    },
+    {
+      "original": "Gamma",
+      "conv": "zh-cn:伽马; zh-hk:Gamma; zh-tw:Gamma; zh-sg:Gamma;"
+    },
+    {
+      "original": "Delta",
+      "conv": "zh-cn:德尔塔; zh-hk:Delta; zh-tw:Delta; zh-sg:Delta;"
+    },
+    {
+      "original": "Eta",
+      "conv": "zh-cn:埃塔; zh-hk:Eta; zh-tw:Eta; zh-sg:Eta;"
+    },
+    {
+      "original": "Iota",
+      "conv": "zh-cn:约塔; zh-hk:Iota; zh-tw:Iota; zh-sg:Iota;"
+    },
+    {
+      "original": "Kappa",
+      "conv": "zh-cn:卡帕; zh-hk:Kappa; zh-tw:Kappa; zh-sg:Kappa;"
+    },
+    {
+      "original": "Lambda",
+      "conv": "zh-cn:拉姆达; zh-hk:Lambda; zh-tw:Lambda; zh-sg:Lambda;"
+    },
+    {
+      "original": "Theta",
+      "conv": "zh-cn:西塔; zh-hk:Theta; zh-tw:Theta; zh-sg:Theta;"
+    },
+    {
+      "original": "Zeta",
+      "conv": "zh-cn:泽塔; zh-hk:Zeta; zh-tw:Zeta; zh-sg:Zeta;"
+    },
+    {
+      "original": "Epsilon",
+      "conv": "zh-cn:艾普西隆; zh-hk:Epsilon; zh-tw:Epsilon; zh-sg:Epsilon;"
+    },
+    {
+      "original": "Mu",
+      "conv": "zh-cn:缪; zh-hk:Mu; zh-tw:Mu; zh-sg:Mu;"
+    },
+    {
+      "original": "Omicron",
+      "conv": "zh-cn:奥密克戎; zh-hk:Omicron; zh-tw:Omicron; zh-sg:奥密克戎;"
+    },
+    {
+      "original": "Deltacron",
+      "conv": "zh-cn:德尔塔克戎; zh-hk:Deltacron; zh-tw:Deltacron; zh-sg:德尔塔克戎;"
+    },
+    {
+      "original": "spike protein",
+      "conv": "zh-cn:刺突蛋白; zh-hk:棘蛋白; zh-tw:棘蛋白; zh-sg:棘蛋白"
+    }
+  ]
+}

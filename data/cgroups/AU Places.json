@@ -5,7 +5,11 @@
   "rules": [
     {
       "original": "Adelaide",
-      "conv": "zh-cn:阿德莱德; zh-tw:阿得雷德; zh-hk:阿德萊德;"
+      "conv": "zh:阿德雷德; zh-cn:阿德莱德; zh-tw:阿得雷德; zh-hk:阿德萊德;"
+    },
+    {
+      "original": "Alice Springs",
+      "conv": "zh-hant:愛麗斯泉; zh-cn:艾丽斯斯普林斯; zh-tw:愛麗斯泉;"
     },
     {
       "original": "Armidale",
@@ -26,6 +30,10 @@
     {
       "original": "Bendigo",
       "conv": "zh-cn:本迪戈; zh-hk:班迪哥; zh-tw:本迪戈;"
+    },
+    {
+      "original": "Bridgewater",
+      "conv": "zh-hans:布里奇沃特; zh-hant:必列者窩打; zh-tw:必列者窩打; zh-hk:必列者窩打;"
     },
     {
       "original": "Brisbane",
@@ -82,6 +90,10 @@
     {
       "original": "Fullarton",
       "conv": "zh-hans:富勒顿; zh-hant:富來頓; zh-tw:富來頓; zh-hk:富來頓;"
+    },
+    {
+      "original": "Georges River",
+      "conv": "zh-cn:乔治斯河; zh-tw:喬治斯河; zh-hk:佐治河;"
     },
     {
       "original": "Gilberton",
@@ -160,6 +172,10 @@
       "conv": "zh:莫道克; zh-hans:莫道克; zh-hk:梅鐸; zh-tw:梅鐸;"
     },
     {
+      "original": "Murray",
+      "conv": "zh:墨累; zh-hans:墨累; zh-hant:美利; zh-tw:美利; zh-hk:美利;"
+    },
+    {
       "original": "Newcastle",
       "conv": "zh-cn:纽卡斯尔; zh-hk:紐卡素; zh-tw:纽卡索;"
     },
@@ -222,6 +238,42 @@
     {
       "original": "St Peters",
       "conv": "zh-hans:圣彼得斯; zh-hant:聖彼得; zh-tw:聖彼得; zh-hk:聖彼得;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "zh-cn:斯特灵; zh-hk:士他令; zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特靈=>zh-hk:士他令;斯特靈=>zh-mo:士他令;斯特靈=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "士打令=>zh-cn:斯特灵;士打令=>zh-my:斯特灵;士打令=>zh-sg:斯特灵;士打令=>zh-tw:史特靈;士打令=>zh-hk:士他令;士打令=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特灵=>zh-cn:斯特灵;史特灵=>zh-my:斯特灵;史特灵=>zh-sg:斯特灵;史特灵=>zh-hk:士他令;史特灵=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯德零=>zh-cn:斯特灵;斯德零=>zh-my:斯特灵;斯德零=>zh-sg:斯特灵;斯德零=>zh-hk:士他令;斯德零=>zh-mo:士他令;斯德零=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特陵=>zh-cn:斯特灵;斯特陵=>zh-my:斯特灵;斯特陵=>zh-sg:斯特灵;斯特陵=>zh-hk:士他令;斯特陵=>zh-mo:士他令;斯特陵=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特凌=>zh-cn:斯特灵;斯特凌=>zh-my:斯特灵;斯特凌=>zh-sg:斯特灵;斯特凌=>zh-hk:士他令;斯特凌=>zh-mo:士他令;斯特凌=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特林=>zh-cn:斯特灵;斯特林=>zh-my:斯特灵;斯特林=>zh-sg:斯特灵;斯特林=>zh-hk:士他令;斯特林=>zh-mo:士他令;斯特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特林=>zh-cn:斯特灵;史特林=>zh-my:斯特灵;史特林=>zh-sg:斯特灵;史特林=>zh-hk:士他令;史特林=>zh-mo:士他令;史特林=>zh-tw:史特靈;"
     },
     {
       "original": "Sydney",

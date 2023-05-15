@@ -120,10 +120,6 @@
       "conv": "zh-cn:离解; zh-tw:解離; zh-hk:離解;"
     },
     {
-      "original": "dioxin",
-      "conv": "zh-cn:二𫫇英; zh-tw:戴奧辛; zh-hk:二噁英"
-    },
-    {
       "original": "dynamite",
       "conv": "zh-cn:硝酸甘油炸药; zh-tw:矽藻土炸藥;"
     },
@@ -144,24 +140,12 @@
       "conv": "zh-cn:能级; zh-tw:能階; zh-hk:能階;"
     },
     {
-      "original": "ferric acid",
-      "conv": "zh-cn:高铁酸; zh-tw:鐵酸; zh-hk:高鐵酸;"
-    },
-    {
       "original": "foamed plastic ",
       "conv": "zh-cn:泡沫塑料; zh-tw:泡沫塑膠;"
     },
     {
       "original": "functional group",
       "conv": "zh-cn:官能团; zh-tw:官能基; zh-hk:官能基;"
-    },
-    {
-      "original": "glutamic acid/glutamate",
-      "conv": "zh-cn:谷氨酸; zh-tw:麩胺酸; zh-hk:穀氨酸;"
-    },
-    {
-      "original": "glutamine",
-      "conv": "zh-cn:谷氨酰胺; zh-tw:麩醯胺酸; zh-hk:穀氨酰胺;"
     },
     {
       "original": "haloalkane",
@@ -190,14 +174,6 @@
     {
       "original": "Halon",
       "conv": "zh-cn:哈龙; zh-tw:海龍;"
-    },
-    {
-      "original": "heptacene",
-      "conv": "zh-cn:并七苯;zh-tw:駢七苯;zh-hk:並七苯"
-    },
-    {
-      "original": "hexacene",
-      "conv": "zh-cn:并六苯;zh-tw:駢六苯;zh-hk:並六苯"
     },
     {
       "original": "Hund's Rule",
@@ -268,6 +244,18 @@
       "conv": "zh-cn:核素; zh-tw:核種;"
     },
     {
+      "original": "noble gas",
+      "conv": "zh-cn:稀有气体; zh-tw:惰性氣體;zh-hk:貴氣體;zh-sg:惰性气体;"
+    },
+    {
+      "original": "noble gas",
+      "conv": "惰性气体=>zh-cn:稀有气体; 惰性气体=>zh-hk:貴氣體;"
+    },
+    {
+      "original": "noble gas",
+      "conv": "稀有氣體=>zh-tw:惰性氣體; 稀有氣體=>zh-hk:貴氣體;稀有氣體=>zh-sg:惰性气体;"
+    },
+    {
       "original": "optical isomer",
       "conv": "zh-cn:光学异构体; zh-tw:光學異構物; zh-hk:旋光異構體;"
     },
@@ -280,56 +268,8 @@
       "conv": "zh-cn:𫫇; zh-tw:㗁; zh-hk:噁;"
     },
     {
-      "original": "pentacene",
-      "conv": "zh-cn:并五苯;zh-tw:駢五苯;zh-hk:並五苯"
-    },
-    {
-      "original": "perbromic acid",
-      "conv": "zh-cn:高溴酸; zh-tw:過溴酸; zh-hk:高溴酸;"
-    },
-    {
-      "original": "perchloric acid",
-      "conv": "zh-cn:高氯酸; zh-tw:過氯酸; zh-hk:高氯酸;"
-    },
-    {
       "original": "periodic",
-      "conv": "zh-cn:周期; zh-tw:周期; zh-hk:週期;"
-    },
-    {
-      "original": "periodic acid",
-      "conv": "zh-cn:高碘酸; zh-tw:過碘酸; zh-hk:高碘酸;"
-    },
-    {
-      "original": "permanganic acid",
-      "conv": "zh-cn:高锰酸; zh-tw:過錳酸; zh-hk:高錳酸;"
-    },
-    {
-      "original": "perrhenic acid",
-      "conv": "zh-cn:高铼酸; zh-tw:過錸酸; zh-hk:高錸酸;"
-    },
-    {
-      "original": "pertechnetic acid",
-      "conv": "zh-cn:高锝酸; zh-tw:過鎝酸; zh-hk:高鍀酸;"
-    },
-    {
-      "original": "perxenic acid",
-      "conv": "zh-cn:高氙酸; zh-tw:過氙酸; zh-hk:高氙酸;"
-    },
-    {
-      "original": "phenazine",
-      "conv": "zh-cn:吩嗪; zh-tw:啡𠯤; zh-hk:吩嗪;"
-    },
-    {
-      "original": "phenothiazine",
-      "conv": "zh-cn:吩噻嗪; zh-tw:啡噻𠯤; zh-hk:吩噻嗪;"
-    },
-    {
-      "original": "phthalazine",
-      "conv": "zh-cn:酞嗪; zh-tw:呔𠯤; zh-hk:酞嗪;"
-    },
-    {
-      "original": "piperazine",
-      "conv": "zh-cn:哌嗪; zh-tw:哌𠯤; zh-hk:哌嗪;"
+      "conv": "zh-hans:周期; zh-hant:週期;"
     },
     {
       "original": "plastic",
@@ -360,14 +300,6 @@
       "conv": "zh-cn:伯碳; zh-tw:一級碳; zh-hk:一級碳"
     },
     {
-      "original": "pyrazine",
-      "conv": "zh-cn:吡嗪; zh-tw:吡𠯤; zh-hk:吡嗪;"
-    },
-    {
-      "original": "pyridazine",
-      "conv": "zh-cn:哒嗪; zh-tw:嗒𠯤; zh-hk:噠嗪;"
-    },
-    {
       "original": "quaternary ammonium",
       "conv": "zh-cn:季铵; zh-tw:四級銨; zh-hk:四級銨"
     },
@@ -396,10 +328,6 @@
       "conv": "zh-cn:顺序规则; zh-tw:序列法則;"
     },
     {
-      "original": "sitosterol",
-      "conv": "zh-cn:谷甾醇; zh-tw:穀固醇;"
-    },
-    {
       "original": "shield",
       "conv": "zh-cn:屏蔽; zh-tw:遮蔽;"
     },
@@ -416,10 +344,6 @@
       "conv": "zh-cn:互变异构体; zh-tw:互變異構物; zh-hk:互變異構體;"
     },
     {
-      "original": "tetracene",
-      "conv": "zh-cn:并四苯;zh-tw:駢四苯;zh-hk:並四苯"
-    },
-    {
       "original": "tert-butyl",
       "conv": "zh-cn:叔丁基; zh-tw:三級丁基"
     },
@@ -434,10 +358,6 @@
     {
       "original": "tertiary carbon",
       "conv": "zh-cn:叔碳; zh-tw:三級碳; zh-hk:三級碳"
-    },
-    {
-      "original": "thiazine",
-      "conv": "zh-cn:噻嗪; zh-tw:噻𠯤; zh-hk:噻嗪;"
     },
     {
       "original": "van der Waals' bond",
@@ -476,6 +396,102 @@
       "conv": "鎓內鹽=>zh-cn:𬭩内盐; 鎓內鹽=>zh-sg:𬭩内盐; 鎓內鹽=>zh-my:𬭩内盐; 鎓內鹽=>zh-tw:偶極體; 鎓內鹽=>zh-hk:偶極體; 鎓內鹽=>zh-mo:偶極體;"
     },
     {
+      "original": "dioxin",
+      "conv": "zh-cn:二𫫇英; zh-tw:戴奧辛; zh-hk:二噁英"
+    },
+    {
+      "original": "ferric acid",
+      "conv": "zh-cn:高铁酸; zh-tw:鐵酸; zh-hk:高鐵酸;"
+    },
+    {
+      "original": "glutamic acid/glutamate",
+      "conv": "zh-cn:谷氨酸; zh-tw:麩胺酸; zh-hk:穀氨酸;"
+    },
+    {
+      "original": "glutamine",
+      "conv": "zh-cn:谷氨酰胺; zh-tw:麩醯胺酸; zh-hk:穀氨酰胺;"
+    },
+    {
+      "original": "heptacene",
+      "conv": "zh-cn:并七苯;zh-tw:駢七苯;zh-hk:並七苯"
+    },
+    {
+      "original": "hexacene",
+      "conv": "zh-cn:并六苯;zh-tw:駢六苯;zh-hk:並六苯"
+    },
+    {
+      "original": "maltol",
+      "conv": "zh-cn:麦芽酚;zh-tw:麥芽醇;zh-hk:麥芽酚"
+    },
+    {
+      "original": "pentacene",
+      "conv": "zh-cn:并五苯;zh-tw:駢五苯;zh-hk:並五苯"
+    },
+    {
+      "original": "perbromic acid",
+      "conv": "zh-cn:高溴酸; zh-tw:過溴酸; zh-hk:高溴酸;"
+    },
+    {
+      "original": "perchloric acid",
+      "conv": "zh-cn:高氯酸; zh-tw:過氯酸; zh-hk:高氯酸;"
+    },
+    {
+      "original": "periodic acid",
+      "conv": "zh-cn:高碘酸; zh-tw:過碘酸; zh-hk:高碘酸;"
+    },
+    {
+      "original": "permanganic acid",
+      "conv": "zh-cn:高锰酸; zh-tw:過錳酸; zh-hk:高錳酸;"
+    },
+    {
+      "original": "perrhenic acid",
+      "conv": "zh-cn:高铼酸; zh-tw:過錸酸; zh-hk:高錸酸;"
+    },
+    {
+      "original": "pertechnetic acid",
+      "conv": "zh-cn:高锝酸; zh-tw:過鎝酸; zh-hk:高鍀酸;"
+    },
+    {
+      "original": "perxenic acid",
+      "conv": "zh-cn:高氙酸; zh-tw:過氙酸; zh-hk:高氙酸;"
+    },
+    {
+      "original": "phenazine",
+      "conv": "zh-cn:吩嗪; zh-tw:啡𠯤; zh-hk:吩嗪;"
+    },
+    {
+      "original": "phenothiazine",
+      "conv": "zh-cn:吩噻嗪; zh-tw:啡噻𠯤; zh-hk:吩噻嗪;"
+    },
+    {
+      "original": "phthalazine",
+      "conv": "zh-cn:酞嗪; zh-tw:呔𠯤; zh-hk:酞嗪;"
+    },
+    {
+      "original": "piperazine",
+      "conv": "zh-cn:哌嗪; zh-tw:哌𠯤; zh-hk:哌嗪;"
+    },
+    {
+      "original": "pyrazine",
+      "conv": "zh-cn:吡嗪; zh-tw:吡𠯤; zh-hk:吡嗪;"
+    },
+    {
+      "original": "pyridazine",
+      "conv": "zh-cn:哒嗪; zh-tw:嗒𠯤; zh-hk:噠嗪;"
+    },
+    {
+      "original": "sitosterol",
+      "conv": "zh-cn:谷甾醇; zh-tw:穀固醇;"
+    },
+    {
+      "original": "tetracene",
+      "conv": "zh-cn:并四苯;zh-tw:駢四苯;zh-hk:並四苯"
+    },
+    {
+      "original": "thiazine",
+      "conv": "zh-cn:噻嗪; zh-tw:噻𠯤; zh-hk:噻嗪;"
+    },
+    {
       "original": "Arrhenius",
       "conv": "zh-cn:阿伦尼乌斯; zh-tw:阿瑞尼士;"
     },
@@ -502,6 +518,14 @@
     {
       "original": "Graham",
       "conv": "格銳目=>zh-tw:格雷姆; 格銳目=>zh-hk:格雷姆; 格銳目=>zh-mo:格雷姆;"
+    },
+    {
+      "original": "Griess",
+      "conv": "zh-cn:格里斯; zh-tw:革利士; zh-hk:格里斯;"
+    },
+    {
+      "original": "Hückel",
+      "conv": "zh-cn:休克尔; zh-tw:休克耳; zh-hk:休克爾;"
     },
     {
       "original": "Гесс(Hess)",
@@ -532,7 +556,11 @@
       "conv": "zh-cn:范托夫; zh-tw:凡特荷夫; zh-hk:范特霍夫;"
     },
     {
-      "original": "За́йцев(Zaitsev)",
+      "original": "Wittig",
+      "conv": "zh-cn:维蒂希;zh-tw:威悌;"
+    },
+    {
+      "original": "Zaitsev",
       "conv": "zh-cn:查依采夫; zh-tw:柴瑟夫;"
     },
     {

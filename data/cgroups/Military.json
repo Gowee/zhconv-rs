@@ -321,31 +321,23 @@
     },
     {
       "original": "[[坦克|Tank]]",
-      "conv": "zh-cn:坦克;zh-tw:戰車;zh-hk:坦克"
+      "conv": "zh-hans:坦克;zh-tw:戰車;zh-hk:坦克"
     },
     {
       "original": "[[驅逐戰車|Tank destroyer]]",
       "conv": "zh-cn:坦克歼击车;zh-sg:自行反坦克炮;zh-tw:驅逐戰車;zh-hk:驅逐戰車"
     },
     {
-      "original": "[[紅外線熱影像|Thermographic camera]]",
-      "conv": "zh-cn:红外线热成像仪;zh-tw:紅外線熱影像;"
+      "original": "[[热成像仪|Thermographic camera]]",
+      "conv": "zh-cn:热成像仪;zh-tw:熱影像儀;"
     },
     {
-      "original": "[[紅外線熱影像|Thermographic camera]]",
-      "conv": "zh-cn:热成像仪;zh-tw:紅外線熱影像;"
-    },
-    {
-      "original": "[[熱影像|Thermographic]]",
+      "original": "[[熱影像|Thermography]]",
       "conv": "zh-cn:热成像;zh-tw:熱影像;"
     },
     {
-      "original": "[[紅外線熱影像|Thermographic camera]]",
-      "conv": "zh-cn:熱成像夜視儀;zh-tw:紅外線熱影像;"
-    },
-    {
-      "original": "[[熱影像|Thermographic]]",
-      "conv": "zh-cn:熱成像;zh-tw:熱影像;"
+      "original": "[[U型潜艇|U-boat]]",
+      "conv": "zh-hans:U型潜艇;zh-hant:U艇;"
     },
     {
       "original": "[[導波|Waveguide]]",
@@ -358,6 +350,10 @@
     {
       "original": "[[武裝親衛隊|Waffen-SS]]",
       "conv": "zh-cn:武装党卫队; zh-sg:武装党卫队; zh-tw:武裝親衛隊; zh-hk:武裝親衛隊;"
+    },
+    {
+      "original": "[[生存遊戲_(射擊運動)|Waragme]]",
+      "conv": "zh-cn:真人CS; zh-tw:生存遊戲_; zh-hk:野戰遊戲;"
     },
     {
       "original": "",
@@ -378,6 +374,10 @@
     {
       "original": "",
       "conv": "zh-hans:法国荣誉军团; zh-hant:法國榮譽軍團"
+    },
+    {
+      "original": "Sevastopol",
+      "conv": "zh-cn:塞瓦斯托波尔; zh-hk:塞瓦斯托波爾; zh-tw:塞凡堡"
     },
     {
       "original": "",
@@ -682,22 +682,6 @@
     {
       "original": "",
       "conv": "zh-hans:左轮手枪;zh-tw:左輪手槍;zh-cn:左轮手枪;zh-hk:左輪手槍;zh-mo:左輪手槍;"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
-    },
-    {
-      "original": "",
-      "conv": "zh:霰彈槍;zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈;"
-    },
-    {
-      "original": "",
-      "conv": "zh:霰彈;zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈;"
     },
     {
       "original": "",

@@ -93,7 +93,7 @@
     },
     {
       "original": "Dwight David Eisenhower",
-      "conv": "zh-cn:德怀特·大卫·艾森豪威尔;zh-tw:德懷特·大衛·艾森豪;zh-hk:懷特·大衛·艾森豪"
+      "conv": "zh-cn:德怀特·戴维·艾森豪威尔;zh-tw:德懷特·大衛·艾森豪;zh-hk:懷特·大衛·艾森豪"
     },
     {
       "original": "Dwight David Eisenhower",
@@ -180,52 +180,384 @@
       "conv": "zh-hans:埃夫丽尔;zh-sg:艾薇儿;zh-tw:艾薇兒;"
     },
     {
+      "original": "Michael Bennet",
+      "conv": "zh-hans:迈克尔·贝内特;zh-tw:邁克爾·班納特;zh-hk:麥克·班尼;"
+    },
+    {
+      "original": "Bennet",
+      "conv": "zh-hans:贝内特;zh-tw:班納特;zh-hk:班尼;"
+    },
+    {
+      "original": "Blumenthal",
+      "conv": "zh-hans:布卢门撒尔;zh-tw:布魯蒙索;zh-hk:布魯門薩爾;"
+    },
+    {
+      "original": "John Boehner",
+      "conv": "zh-hans:博纳;zh-tw:貝納;zh-hk:博納;"
+    },
+    {
+      "original": "Boozman",
+      "conv": "zh-hans:布兹曼;zh-hant:布瑟曼;"
+    },
+    {
+      "original": "Boozman",
+      "conv": "博兹曼=>zh-cn:布兹曼;博兹曼=>zh-my:布兹曼;博兹曼=>zh-sg:布兹曼;博兹曼=>zh-tw:布瑟曼;博兹曼=>zh-hk:布瑟曼;博兹曼=>zh-mo:布瑟曼;"
+    },
+    {
+      "original": "Boozman",
+      "conv": "博茲曼=>zh-cn:布兹曼;博茲曼=>zh-my:布兹曼;博茲曼=>zh-sg:布兹曼;博茲曼=>zh-tw:布瑟曼;博茲曼=>zh-hk:布瑟曼;博茲曼=>zh-mo:布瑟曼;"
+    },
+    {
+      "original": "Ted Budd",
+      "conv": "zh-hans:特德·巴德;zh-hant:泰德·巴德;"
+    },
+    {
+      "original": "Cantwell",
+      "conv": "zh-hans:坎特韦尔;zh-hant:坎特威爾;"
+    },
+    {
+      "original": "Ben Cardin",
+      "conv": "zh-hans:本·卡丁;zh-hant:班·卡定;"
+    },
+    {
+      "original": "Cardin",
+      "conv": "zh-hans:卡丁;zh-hant:卡定;"
+    },
+    {
+      "original": "Carper",
+      "conv": "zh-hans:卡珀;zh-hant:卡波;"
+    },
+    {
+      "original": "Liz Cheney",
+      "conv": "zh-hans:莉兹·切尼;zh-tw:麗茲·錢尼;zh-hk:利茲·切尼;"
+    },
+    {
+      "original": "Collins",
+      "conv": "zh-hans:柯林斯;zh-hant:柯琳絲;"
+    },
+    {
+      "original": "Coons",
+      "conv": "zh-hans:孔斯;zh-tw:昆斯;zh-hk:康斯;"
+    },
+    {
+      "original": "Cornyn",
+      "conv": "zh-hans:科宁;zh-hant:康寧;"
+    },
+    {
+      "original": "Cory",
+      "conv": "zh-hans:科里;zh-hant:柯瑞;"
+    },
+    {
+      "original": "Tom Cotton",
+      "conv": "zh-hans:科顿;zh-tw:柯頓;zh-hk:卡頓;"
+    },
+    {
+      "original": "Crapo",
+      "conv": "zh-hans:克拉波;zh-hant:柯瑞柏;"
+    },
+    {
+      "original": "Ted Cruz",
+      "conv": "zh-hans:特德·克鲁兹;zh-hant:泰德·克魯茲;"
+    },
+    {
+      "original": "Ted Cruz",
+      "conv": "泰德·克鲁兹=>zh-cn:特德·克鲁兹;泰德·克鲁兹=>zh-my:特德·克鲁兹;泰德·克鲁兹=>zh-sg:特德·克鲁兹;"
+    },
+    {
       "original": "Douglas Emhoff",
       "conv": "zh:任德龙; zh-cn:道格·埃姆霍夫; zh-my:任德龙; zh-sg:任德龙; zh-tw:任德龍;"
     },
     {
-      "original": "John Sidney McCain III",
-      "conv": "zh-hans:麦凯恩;zh-hk:麥凱恩;zh-tw:麥肯;"
+      "original": "Tammy Duckworth",
+      "conv": "zh-hans:塔米·达克沃思;zh-hant:譚美·達克沃斯;"
     },
     {
-      "original": "Kerry",
-      "conv": "凱利=>zh-cn:克里;凱利=>zh-tw:凱瑞;凱利=>zh-hk:克里"
+      "original": "Tammy",
+      "conv": "zh-hans:塔米;zh-hant:譚美;"
     },
     {
-      "original": "Kerry",
-      "conv": "凱里=>zh-cn:克里;凱里=>zh-tw:凱瑞;凱里=>zh-hk:克里"
+      "original": "Tammy",
+      "conv": "谭美=>zh-cn:塔米;谭美=>zh-my:塔米;谭美=>zh-sg:塔米;"
+    },
+    {
+      "original": "Duckworth",
+      "conv": "zh-hans:达克沃思;zh-hant:達克沃斯;"
+    },
+    {
+      "original": "Duckworth",
+      "conv": "达克沃斯=>zh-cn:达克沃思;达克沃斯=>zh-my:达克沃思;达克沃斯=>zh-sg:达克沃思;"
+    },
+    {
+      "original": "Joni Ernst",
+      "conv": "zh-hans:乔妮·厄恩斯特;zh-hant:喬尼·恩斯特;"
+    },
+    {
+      "original": "Dianne Feinstein",
+      "conv": "zh-hans:黛安娜;zh-hant:黛安;"
+    },
+    {
+      "original": "Dianne Feinstein",
+      "conv": "zh-hans:范斯坦;zh-hant:范士丹;"
+    },
+    {
+      "original": "Dianne Feinstein",
+      "conv": "费恩斯坦=>zh-cn:范斯坦;费恩斯坦=>zh-my:范斯坦;费恩斯坦=>zh-sg:范斯坦;费恩斯坦=>zh-tw:范士丹;费恩斯坦=>zh-hk:范士丹;费恩斯坦=>zh-mo:范士丹;"
+    },
+    {
+      "original": "Deb Fischer",
+      "conv": "zh-hans:德布·菲舍尔;zh-hant:黛比·菲希爾;"
+    },
+    {
+      "original": "Fischer",
+      "conv": "zh-hans:菲舍尔;zh-hant:菲希爾;"
+    },
+    {
+      "original": "Grassley",
+      "conv": "zh-hans:格拉斯利;zh-hant:葛雷斯利;"
     },
     {
       "original": "Kamala Harris",
-      "conv": "zh:贺锦丽; zh-cn:卡玛拉·哈里斯; zh-my:贺锦丽; zh-sg:贺锦丽; zh-tw:賀錦麗;"
+      "conv": "zh-cn:卡玛拉·哈里斯;zh-sg:贺锦丽;zh-hant:賀錦麗;"
+    },
+    {
+      "original": "Josh Hawley",
+      "conv": "zh-hans:乔希·霍利;zh-tw:喬什·霍利;zh-hk:祖殊·霍利;"
+    },
+    {
+      "original": "Josh Hawley",
+      "conv": "约什·霍利=>zh-cn:乔希·霍利;约什·霍利=>zh-my:乔希·霍利;约什·霍利=>zh-sg:乔希·霍利;约什·霍利=>zh-tw:喬什·霍利;约什·霍利=>zh-hk:祖殊·霍利;约什·霍利=>zh-mo:祖殊·霍利;"
+    },
+    {
+      "original": "Josh Hawley",
+      "conv": "約什·霍利=>zh-cn:乔希·霍利;約什·霍利=>zh-my:乔希·霍利;約什·霍利=>zh-sg:乔希·霍利;約什·霍利=>zh-tw:喬什·霍利;約什·霍利=>zh-hk:祖殊·霍利;約什·霍利=>zh-mo:祖殊·霍利;"
+    },
+    {
+      "original": "Steny Hoyer",
+      "conv": "zh-hans:斯特尼;zh-tw:斯坦利;zh-hk:斯特尼;"
+    },
+    {
+      "original": "Cindy Hyde-Smith",
+      "conv": "zh-hans:辛迪·海德-史密斯;zh-hant:欣蒂·海德-史密斯;"
+    },
+    {
+      "original": "Cindy Hyde-Smith",
+      "conv": "辛蒂·海德-史密斯=>zh-cn:辛迪·海德-史密斯;辛蒂·海德-史密斯=>zh-my:辛迪·海德-史密斯;辛蒂·海德-史密斯=>zh-sg:辛迪·海德-史密斯;辛蒂·海德-史密斯=>zh-tw:欣蒂·海德-史密斯;辛蒂·海德-史密斯=>zh-hk:欣蒂·海德-史密斯;辛蒂·海德-史密斯=>zh-mo:欣蒂·海德-史密斯;"
+    },
+    {
+      "original": "Hakeem Jeffries",
+      "conv": "zh-hans:杰弗里斯;zh-tw:傑福瑞斯;zh-hk:傑弗里斯;"
+    },
+    {
+      "original": "Hakeem Jeffries",
+      "conv": "杰佛瑞斯=>zh-cn:杰弗里斯;杰佛瑞斯=>zh-my:杰弗里斯;杰佛瑞斯=>zh-sg:杰弗里斯;杰佛瑞斯=>zh-tw:傑福瑞斯;杰佛瑞斯=>zh-hk:傑弗里斯;杰佛瑞斯=>zh-mo:傑弗里斯;"
+    },
+    {
+      "original": "Hakeem Jeffries",
+      "conv": "傑佛瑞斯=>zh-cn:杰弗里斯;傑佛瑞斯=>zh-my:杰弗里斯;傑佛瑞斯=>zh-sg:杰弗里斯;傑佛瑞斯=>zh-tw:傑福瑞斯;傑佛瑞斯=>zh-hk:傑弗里斯;傑佛瑞斯=>zh-mo:傑弗里斯;"
+    },
+    {
+      "original": "Kerry",
+      "conv": "凱里=>zh-cn:克里;凱里=>zh-tw:凱瑞;凱里=>zh-hk:克里;"
+    },
+    {
+      "original": "Kinzinger",
+      "conv": "zh-hans:金津格;zh-hant:金辛格;"
+    },
+    {
+      "original": "Amy Klobuchar",
+      "conv": "zh-hans:埃米·克洛布彻;zh-hant:艾米·克羅布徹;"
+    },
+    {
+      "original": "Amy Klobuchar",
+      "conv": "艾米·克罗布彻=>zh-cn:埃米·克洛布彻;艾米·克罗布彻=>zh-my:埃米·克洛布彻;艾米·克罗布彻=>zh-sg:埃米·克洛布彻;"
+    },
+    {
+      "original": "Klobuchar",
+      "conv": "zh-hans:克洛布彻;zh-hant:克羅布徹;"
+    },
+    {
+      "original": "Lisa",
+      "conv": "zh-hans:莉萨;zh-tw:麗莎;zh-hk:莉薩;"
+    },
+    {
+      "original": "Luján",
+      "conv": "zh-hans:卢汉;zh-tw:魯詹;zh-hk:盧揚;"
+    },
+    {
+      "original": "Maggie",
+      "conv": "zh-hans:玛吉;zh-hant:瑪姬;"
+    },
+    {
+      "original": "Ed Markey",
+      "conv": "zh-hans:埃德·马基;zh-hant:艾德·馬基;"
+    },
+    {
+      "original": "Ed Markey",
+      "conv": "艾德·马基=>zh-cn:埃德·马基;艾德·马基=>zh-my:埃德·马基;艾德·马基=>zh-sg:埃德·马基;"
+    },
+    {
+      "original": "Markwayne",
+      "conv": "zh-hans:马克韦恩;zh-hant:馬奎恩;"
+    },
+    {
+      "original": "Marshall",
+      "conv": "zh-hans:马歇尔;zh-hant:馬紹爾;"
+    },
+    {
+      "original": "Martha",
+      "conv": "zh-hans:玛莎;zh-hant:瑪爾塔;"
+    },
+    {
+      "original": "Martha",
+      "conv": "玛尔塔=>zh-cn:玛莎;玛尔塔=>zh-my:玛莎;玛尔塔=>zh-sg:玛莎;"
     },
     {
       "original": "John Sidney McCain III",
-      "conv": "zh-hans:麦凯恩;zh-hk:麥凱恩;zh-tw:麥肯;"
+      "conv": "zh-hans:麦凯恩;zh-tw:麥肯;zh-hk:麥凱恩;"
+    },
+    {
+      "original": "Moore",
+      "conv": "zh-hans:穆尔;zh-hant:摩爾;"
     },
     {
       "original": "Mitch McConnell",
-      "conv": "zh-hans:麦康奈尔;zh-hk:麥康奈爾;zh-tw:麥康諾;"
+      "conv": "zh-hans:麦康奈尔;zh-tw:麥康諾;zh-hk:麥康奈爾;"
     },
     {
       "original": "Mitch McConnell",
-      "conv": "zh-hans:米奇;zh-hk:米奇;zh-tw:密契;"
+      "conv": "zh-hans:米奇;zh-tw:密契;zh-hk:米奇;"
     },
     {
-      "original": "Mike Pompeo",
-      "conv": "zh-cn:迈克;zh-mo:邁克;zh-hk:米高;zh-tw:麥克;"
+      "original": "McSally",
+      "conv": "zh-hans:麦克萨利;zh-hant:麥薩利;"
     },
     {
-      "original": "Mike Pompeo",
-      "conv": "zh-cn:蓬佩奥;zh-hk:蓬佩奧;zh-tw:龐培歐;"
+      "original": "McSally",
+      "conv": "麦萨利=>zh-cn:麦克萨利;麦萨利=>zh-my:麦克萨利;麦萨利=>zh-sg:麦克萨利;"
+    },
+    {
+      "original": "Menendez",
+      "conv": "zh-hans:梅嫩德斯;zh-tw:梅南德茲;zh-hk:曼南德茲;"
+    },
+    {
+      "original": "Mullin",
+      "conv": "zh-hans:马林;zh-hant:穆林;"
+    },
+    {
+      "original": "Murkowski",
+      "conv": "穆考斯基=>zh-cn:穆尔科斯基;穆考斯基=>zh-my:穆尔科斯基;穆考斯基=>zh-sg:穆尔科斯基;穆考斯基=>zh-tw:穆爾科斯基;穆考斯基=>zh-hk:穆爾科斯基;穆考斯基=>zh-mo:穆爾科斯基;"
+    },
+    {
+      "original": "Patty Murray",
+      "conv": "zh-hans:帕蒂;zh-hant:派蒂;"
+    },
+    {
+      "original": "Patty Murray",
+      "conv": "zh-hans:默里;zh-hant:莫瑞;"
     },
     {
       "original": "Nancy Pelosi",
-      "conv": "zh-hans:南希;zh-hk:蘭茜;zh-tw:南西"
+      "conv": "zh-hans:南希;zh-hk:蘭茜;zh-tw:南西;"
     },
     {
       "original": "Nancy Pelosi",
-      "conv": "zh-hans:佩洛西;zh-hk:佩洛西;zh-tw:裴洛西"
+      "conv": "zh-hans:佩洛西;zh-hk:佩洛西;zh-tw:裴洛西;"
+    },
+    {
+      "original": "Mike Pompeo",
+      "conv": "zh-hans:迈克;zh-tw:麥克;zh-hk:米高;zh-mo:邁克;"
+    },
+    {
+      "original": "Mike Pompeo",
+      "conv": "zh-hans:蓬佩奥;zh-tw:龐培歐;zh-hk:蓬佩奧;"
+    },
+    {
+      "original": "Ricketts",
+      "conv": "zh-cn:里基茨;zh-tw:芮基茲;zh-hk:里克茨;"
+    },
+    {
+      "original": "Jacky Rosen",
+      "conv": "zh-hans:杰姬·罗森;zh-hant:傑基·羅森;"
+    },
+    {
+      "original": "Marco Rubio",
+      "conv": "zh-hans:马尔科;zh-tw:馬可;zh-hk:馬高;"
+    },
+    {
+      "original": "Marco Rubio",
+      "conv": "zh-hans:卢比奥;zh-tw:魯比歐;zh-hk:盧比奧;"
+    },
+    {
+      "original": "Marco Rubio",
+      "conv": "魯比奧=>zh-cn:卢比奥;魯比奧=>zh-my:卢比奥;魯比奧=>zh-sg:卢比奥;魯比奧=>zh-tw:魯比歐;魯比奧=>zh-hk:盧比奧;魯比奧=>zh-mo:盧比奧;"
+    },
+    {
+      "original": "Paul Ryan",
+      "conv": "zh-hans:瑞安;zh-tw:萊恩;zh-hk:瑞安;"
+    },
+    {
+      "original": "Brian Schatz",
+      "conv": "zh-hans:布赖恩·沙茨;zh-hant:布萊恩·夏茲;"
+    },
+    {
+      "original": "Brian Schatz",
+      "conv": "zh-hans:沙茨;zh-hant:夏茲;"
+    },
+    {
+      "original": "Shelley",
+      "conv": "zh-hans:谢莉;zh-hant:雪萊;"
+    },
+    {
+      "original": "Kyrsten Sinema",
+      "conv": "克里斯滕·希尼玛=>zh-cn:柯尔丝滕·西内马;克里斯滕·希尼玛=>zh-my:柯尔丝滕·西内马;克里斯滕·希尼玛=>zh-sg:柯尔丝滕·西内马;克里斯滕·希尼玛=>zh-tw:柯爾絲滕·席納瑪;克里斯滕·希尼玛=>zh-hk:柯爾絲滕·席納瑪;克里斯滕·希尼玛=>zh-mo:柯爾絲滕·席納瑪;"
+    },
+    {
+      "original": "Sinema",
+      "conv": "zh-hans:西内马;zh-hant:席納瑪;"
+    },
+    {
+      "original": "Sinema",
+      "conv": "希尼玛=>zh-cn:西内马;希尼玛=>zh-my:西内马;希尼玛=>zh-sg:西内马;希尼玛=>zh-tw:席納瑪;希尼玛=>zh-hk:席納瑪;希尼玛=>zh-mo:席納瑪;"
+    },
+    {
+      "original": "Stabenow",
+      "conv": "zh-hans:施塔贝诺;zh-hant:史戴比拿;"
+    },
+    {
+      "original": "Dan Sullivan",
+      "conv": "zh-hans:沙利文;zh-tw:蘇利文;zh-hk:沙利文;"
+    },
+    {
+      "original": "Tester",
+      "conv": "zh-hans:特斯特;zh-hant:泰斯塔;"
+    },
+    {
+      "original": "Tillis",
+      "conv": "zh-hans:蒂利斯;zh-hant:提力斯;"
+    },
+    {
+      "original": "Van Hollen",
+      "conv": "zh-hans:范霍伦;zh-hant:范荷倫;"
+    },
+    {
+      "original": "Vance",
+      "conv": "zh-hans:万斯;zh-hant:范斯;"
+    },
+    {
+      "original": "Vance",
+      "conv": "凡斯=>zh-cn:万斯;凡斯=>zh-my:万斯;凡斯=>zh-sg:万斯;凡斯=>zh-tw:范斯;凡斯=>zh-hk:范斯;凡斯=>zh-mo:范斯;"
+    },
+    {
+      "original": "Ron Wyden",
+      "conv": "zh-hans:罗恩·怀登;zh-tw:榮恩·魏登;zh-hk:朗·懷登;"
+    },
+    {
+      "original": "Ron Wyden",
+      "conv": "榮·懷登=>zh-cn:罗恩·怀登;榮·懷登=>zh-my:罗恩·怀登;榮·懷登=>zh-sg:罗恩·怀登;榮·懷登=>zh-tw:榮恩·魏登;榮·懷登=>zh-hk:朗·懷登;榮·懷登=>zh-mo:朗·懷登;"
+    },
+    {
+      "original": "Ron DeSantis",
+      "conv": "zh-hans:罗恩·德桑蒂斯;zh-tw:隆恩·迪尚特;zh-hk:朗·迪桑提斯;"
     },
     {
       "original": "",
@@ -480,8 +812,12 @@
       "conv": "zh-tw:總務署;  zh-hk:總務署; zh-cn:总务管理局; zh-sg:总务署;"
     },
     {
-      "original": "",
+      "original": "Attorney General",
       "conv": "检察总长 => zh-cn:总检察长; 檢察總長 => zh-cn:总检察长"
+    },
+    {
+      "original": "Solicitor General",
+      "conv": "zh-cn:副总检察长;zh-tw:訟務次長;"
     },
     {
       "original": "CEO",

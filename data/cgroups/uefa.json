@@ -53,11 +53,11 @@
     },
     {
       "original": "UEFA Europa League",
-      "conv": "zh:欧罗巴联赛; zh-cn:欧罗巴联赛; zh-tw:歐羅巴聯賽; zh-hk:歐霸盃; zh-mo:歐洲聯賽;"
+      "conv": "zh:欧罗巴联赛; zh-cn:欧罗巴联赛; zh-tw:歐霸聯賽; zh-hk:歐霸盃; zh-mo:歐洲聯賽;"
     },
     {
       "original": "UEFA Europa League",
-      "conv": "zh:欧联杯; zh-cn:欧联杯; zh-tw:歐聯盃; zh-hk:歐霸盃; zh-mo:歐洲聯賽; zh-hant:歐聯盃;"
+      "conv": "zh:欧联杯; zh-cn:欧联杯; zh-tw:歐霸盃; zh-hk:歐霸盃; zh-mo:歐洲聯賽; zh-hant:歐聯盃;"
     },
     {
       "original": "UEFA Europa League",
@@ -65,7 +65,7 @@
     },
     {
       "original": "UEFA Europa League",
-      "conv": "zh:欧罗巴; zh-cn:欧罗巴; zh-tw:歐羅巴; zh-hk:歐霸; zh-mo:歐聯;"
+      "conv": "zh:欧罗巴; zh-cn:欧罗巴; zh-tw:歐霸; zh-hk:歐霸; zh-mo:歐聯;"
     },
     {
       "original": "UEFA Europa League",
@@ -104,6 +104,10 @@
       "conv": "zh:欧洲足球锦标赛; zh-cn:欧洲足球锦标赛; zh-tw:歐洲國家盃; zh-hk:歐洲國家盃; zh-mo:歐洲國家盃;"
     },
     {
+      "original": "UEFA European Football Championship",
+      "conv": "zh:欧锦赛; zh-cn:欧锦赛; zh-tw:歐國盃; zh-hk:歐國盃; zh-mo:歐國盃;"
+    },
+    {
       "original": "UEFA European Under-21 Football Championship",
       "conv": "zh:歐洲U-21足球錦標賽;zh-cn:欧洲U-21足球锦标赛;zh-tw:U21歐洲國家盃;zh-hk:U21歐洲國家盃;"
     },
@@ -120,8 +124,12 @@
       "conv": "zh:歐洲U-16足球錦標賽;zh-cn:欧洲U-16足球锦标赛;zh-tw:U16歐洲國家盃;zh-hk:U16歐洲國家盃;"
     },
     {
-      "original": "UEFA European Football Championship",
-      "conv": "zh:欧锦赛; zh-cn:欧锦赛; zh-hant:歐錦賽; zh-tw:歐國盃; zh-hk:歐國盃; zh-mo:歐國盃;"
+      "original": "UEFA Europa Conference League",
+      "conv": "zh:欧洲协会联赛; zh-cn:欧洲协会联赛; zh-tw:歐會足球聯賽; zh-hant:歐洲協會聯賽;"
+    },
+    {
+      "original": "UEFA Europa Conference League",
+      "conv": "zh:欧协联; zh-cn:欧协联; zh-tw:歐會盃; zh-hk:歐協聯; zh-mo:歐協聯;"
     },
     {
       "original": "Cup",
@@ -221,7 +229,7 @@
     },
     {
       "original": "Tottenham Hotspur",
-      "conv": "zh:托特纳姆热刺; zh-cn:托特纳姆热刺; zh-hk:托定咸熱刺; zh-tw:熱刺;"
+      "conv": "zh:托特纳姆热刺; zh-cn:托特纳姆热刺; zh-hk:托定咸熱刺; zh-tw:托特納姆熱刺;"
     },
     {
       "original": "Tottenham Hotspur",
@@ -277,11 +285,15 @@
     },
     {
       "original": "Valencia CF",
-      "conv": "zh:巴伦西亚; zh-cn:巴伦西亚; zh-tw:瓦倫西亞; zh-hk:華倫西亞; zh-sg:瓦伦西亚"
+      "conv": "zh-hans:瓦伦西亚;zh-tw:瓦倫西亞;zh-hk:華倫西亞;"
     },
     {
       "original": "Villarreal CF",
       "conv": "zh-hans:比利亚雷亚尔;zh-hk:維拉利爾;zh-mo:維拉利爾;zh-hant:比利亞雷阿爾;"
+    },
+    {
+      "original": "Real Sociedad",
+      "conv": "zh-hans:皇家社会;zh-hk:皇家蘇斯達;zh-tw:皇家社會;"
     },
     {
       "original": "ACF Fiorentina",
@@ -301,7 +313,7 @@
     },
     {
       "original": "S.S.C. Napoli",
-      "conv": "zh:那不勒斯; zh-cn:那不勒斯; zh-tw:拿坡里; zh-hk:拿玻里; zh-sg:那波利;"
+      "conv": "zh-cn:那不勒斯; zh-tw:拿坡里; zh-hk:拿玻里; zh-sg:那波利; zh-my:拿波利;"
     },
     {
       "original": "Torino FC",
@@ -433,7 +445,7 @@
     },
     {
       "original": "Benfica",
-      "conv": "zh:本菲卡; zh-cn:本菲卡; zh-hk:賓菲加; zh-tw:班菲卡;"
+      "conv": "zh:本菲卡; zh-cn:本菲卡; zh-hk:賓菲加; zh-tw:本菲卡;"
     },
     {
       "original": "Sporting CP",
@@ -544,6 +556,62 @@
       "conv": "zh:额尔齐斯; zh-cn:额尔齐斯; zh-hk:艾迪殊;"
     },
     {
+      "original": "Legia Warszawa",
+      "conv": "zh-cn:华沙莱吉亚; zh-hk:歷基亞; zh-tw:華沙萊吉亞;"
+    },
+    {
+      "original": "Lech Poznań",
+      "conv": "zh-cn:波兹南莱克; zh-hk:列治普斯納; zh-tw:波茲南萊克;"
+    },
+    {
+      "original": "MKS Pogoń Szczecin",
+      "conv": "zh-cn:什切青波贡; zh-hk:沙斯辛; zh-tw:什切青波貢;"
+    },
+    {
+      "original": "Lechia Gdańsk",
+      "conv": "zh-cn:格但斯克莱吉亚; zh-hk:列治亞; zh-tw:格但斯克萊吉亞;"
+    },
+    {
+      "original": "Wisła Płock",
+      "conv": "zh-cn:维斯瓦普沃茨克; zh-hk:維斯拉普羅斯克; zh-tw:維斯瓦普沃茨克;"
+    },
+    {
+      "original": "Górnik Zabrze",
+      "conv": "zh-cn:扎布热矿工; zh-hk:薩比利斯; zh-tw:扎布熱礦工;"
+    },
+    {
+      "original": "Jagiellonia",
+      "conv": "zh-cn:雅盖隆; zh-hk:積基朗尼亞; zh-tw:喬治羅尼亞;"
+    },
+    {
+      "original": "Białystok",
+      "conv": "zh-cn:比亚韦斯托克; zh-hk:比亞維斯托克; zh-tw:比亞韋斯托克;"
+    },
+    {
+      "original": "KGHM Zagłębie Lubin",
+      "conv": "zh-cn:卢宾; zh-hk:路賓; zh-tw:盧賓;"
+    },
+    {
+      "original": "Stal Mielec",
+      "conv": "zh-cn:梅莱茨钢铁; zh-hk:史塔米列克; zh-tw:梅萊茨鋼鐵;"
+    },
+    {
+      "original": "Raków Częstochowa",
+      "conv": "zh-cn:琴斯托霍瓦; zh-hk:捷斯托佐華; zh-tw:琴斯托霍瓦;"
+    },
+    {
+      "original": "Warta Poznań",
+      "conv": "zh-cn:波兹南瓦尔塔; zh-hk:華達普斯納; zh-tw:波茲南瓦爾塔;"
+    },
+    {
+      "original": "Miedź Legnica",
+      "conv": "zh-cn:莱格尼察; zh-hk:馬斯特; zh-tw:萊格尼察;"
+    },
+    {
+      "original": "Ruch Chorzów",
+      "conv": "zh-cn:罗切霍茹夫; zh-hk:魯治卓索; zh-tw:羅切霍茹夫;"
+    },
+    {
       "original": "APOEL F.C.",
       "conv": "zh:希腊人竞技;zh-hans:希腊人竞技;zh-hk:尼科西亞; zh-mo:阿普爾;zh-tw:希臘人競技;"
     },
@@ -560,80 +628,136 @@
       "conv": "zh-hans:哈伊杜克;zh-hk:夏德;zh-tw:哈伊杜克;"
     },
     {
-      "original": "FK Partizan",
-      "conv": "zh-hans:游击队;zh-hk:柏迪遜;zh-tw:游擊隊;"
-    },
-    {
       "original": "FC Shakhtar Donetsk",
       "conv": "zh-hans:顿涅茨克矿工;zh-tw:頓內次克礦工;zh-hk:薩克達;"
-    },
-    {
-      "original": "Legia Warszawa",
-      "conv": "zh-hans:华沙莱吉亚;zh-hk:歷基亞;zh-tw:華沙萊吉亞;"
     },
     {
       "original": "NK Dinamo Zagreb",
       "conv": "zh:萨格勒布迪纳摩; zh-cn:萨格勒布迪纳摩; zh-tw:札格瑞布迪納摩; zh-hk:薩格勒布戴拿模;"
     },
     {
-      "original": "Slovan Liberec",
-      "conv": "zh:利贝雷茨; zh-cn:利贝雷茨; zh-tw:利貝雷茨; zh-hk:利巴域;"
-    },
-    {
-      "original": "Viktoria Plzeň",
-      "conv": "zh:比尔森胜利; zh-cn:比尔森胜利; zh-tw:比爾森勝利; zh-hk:柏辛域陀尼亞;"
-    },
-    {
-      "original": "Lech Poznań",
-      "conv": "zh-hans:波兹南莱克;zh-hk:列治普斯納;zh-tw:波茲南萊克;"
-    },
-    {
-      "original": "Žilina",
-      "conv": "zh-hans:日利纳; zh-hk:斯利納; zh-tw:日利納;"
-    },
-    {
       "original": "Aalborg Boldspilklub",
-      "conv": "zh:奥尔堡; zh-cn:奥尔堡; zh-hk:阿爾堡;"
+      "conv": "zh-cn:奥尔堡; zh-hk:阿爾堡; zh-tw:奧爾堡;"
     },
     {
       "original": "AGF Aarhus",
-      "conv": "zh-hans:奥胡斯; zh-hk:阿曉斯;"
+      "conv": "zh-hans:奥胡斯; zh-hk:阿曉斯; zh-tw:奧胡斯;"
     },
     {
       "original": "Brøndby IF",
-      "conv": "zh:布隆德比; zh-cn:布隆德比; zh-tw:布隆德比; zh-hk:邦比;"
+      "conv": "zh-cn:布隆德比; zh-tw:布隆德比; zh-hk:邦比;"
     },
     {
       "original": "Esbjerg fB",
-      "conv": "zh:埃斯比约; zh-cn:埃斯比约; zh-hk:艾斯堡;"
+      "conv": "zh-cn:埃斯比约; zh-hk:艾斯堡; zh-tw:艾斯比約;"
     },
     {
       "original": "FC Midtjylland",
-      "conv": "zh:中日德兰; zh-cn:中日德兰; zh-hk:米迪蘭特;"
+      "conv": "zh-cn:中日德兰; zh-hk:米迪蘭特; zh-tw:中日德蘭;"
     },
     {
       "original": "FC Nordsjælland",
-      "conv": "zh:北西蘭; zh-cn:北西兰; zh-hk:洛斯查蘭特;"
+      "conv": "zh-cn:北西兰; zh-hk:洛斯查蘭特; zh-tw:北西蘭;"
     },
     {
       "original": "Randers FC",
-      "conv": "zh-hans:兰讷斯; zh-hk:蘭達斯; zh-tw: 蘭達斯;"
+      "conv": "zh-hans:兰讷斯; zh-hk:蘭達斯; zh-tw: 蘭德斯;"
     },
     {
       "original": "Silkeborg IF",
-      "conv": "zh:锡尔克堡; zh-cn:锡尔克堡; zh-hk:施克堡;"
+      "conv": "zh-cn:锡尔克堡; zh-hk:施克堡; zh-tw:錫爾克堡;"
     },
     {
       "original": "AC Horsens",
-      "conv": "zh:霍尔森斯; zh-cn:霍尔森斯; zh-hk:賀森斯;"
+      "conv": "zh-cn:霍尔森斯; zh-hk:賀森斯; zh-tw:霍爾森斯;"
     },
     {
       "original": "Odense Boldklub",
-      "conv": "zh:欧登塞; zh-cn:欧登塞; zh-hk:奧丹斯;"
+      "conv": "zh-cn:欧登塞; zh-hk:奧丹斯; zh-tw:歐登塞;"
     },
     {
       "original": "Lyngby BK",
-      "conv": "zh-hans:林比; zh-hk:寧比;"
+      "conv": "zh-hans:林比; zh-hk:寧比; zh-tw:林比;"
+    },
+    {
+      "original": "Viborg FF",
+      "conv": "zh-cn:维堡; zh-hk:域堡; zh-tw:維堡;"
+    },
+    {
+      "original": "Vejle Boldklub",
+      "conv": "zh-cn:瓦埃勒; zh-hk:維積利; zh-tw:瓦埃勒;"
+    },
+    {
+      "original": "Malmö FF",
+      "conv": "zh-cn:马尔默; zh-hk:馬模; zh-tw:馬爾摩;"
+    },
+    {
+      "original": "Djurgårdens IF Fotboll",
+      "conv": "zh-cn:尤尔格丹; zh-hk:佐加頓斯; zh-tw:尤爾格丹;"
+    },
+    {
+      "original": "IF Elfsborg",
+      "conv": "zh-cn:埃尔夫斯堡; zh-hk:艾夫斯堡; zh-tw:埃爾夫斯堡;"
+    },
+    {
+      "original": "IFK Göteborg",
+      "conv": "zh-cn:哥德堡; zh-hk:哥登堡; zh-tw:哥特堡;"
+    },
+    {
+      "original": "Mjällby AIF",
+      "conv": "zh-cn:米亚尔比; zh-hk:米贊比; zh-tw:米亞爾比;"
+    },
+    {
+      "original": "Degerfors IF",
+      "conv": "zh-cn:代格福什; zh-hk:迪加科斯; zh-tw:代格福什;"
+    },
+    {
+      "original": "Halmstads BK",
+      "conv": "zh-cn:哈尔姆斯塔德; zh-hk:咸史達斯; zh-tw:哈爾姆斯塔德; zh-mo:咸史泰斯;"
+    },
+    {
+      "original": "Åtvidabergs FF",
+      "conv": "zh-cn:奥特维达贝里; zh-hk:阿維達貝治; zh-tw:奧特維達貝里;"
+    },
+    {
+      "original": "Helsingborgs IF",
+      "conv": "zh-cn:赫尔辛堡; zh-hk:希爾星堡; zh-tw:赫爾辛堡;"
+    },
+    {
+      "original": "IFK Norrköping",
+      "conv": "zh-cn:北雪平; zh-hk:諾高平; zh-tw:北雪平;"
+    },
+    {
+      "original": "Varbergs BoIS",
+      "conv": "zh-cn:瓦尔贝里; zh-hk:華堡; zh-tw:瓦爾貝里;"
+    },
+    {
+      "original": "Landskrona BoIS",
+      "conv": "zh-cn:兰斯克鲁纳; zh-hk:蘭斯干拿; zh-tw:蘭斯克鲁纳;"
+    },
+    {
+      "original": "IFK Värnamo",
+      "conv": "zh-cn:韦纳穆; zh-hk:華納莫; zh-tw:韋納穆;"
+    },
+    {
+      "original": "AFC Eskilstuna",
+      "conv": "zh-cn:埃斯基尔斯蒂纳; zh-hk:艾斯基斯杜拿; zh-tw:埃斯基爾斯蒂納;"
+    },
+    {
+      "original": "Athletic Football Club Eskilstuna",
+      "conv": "zh-cn:埃斯基尔斯蒂纳竞技足球俱乐部; zh-hk:艾斯基斯杜拿足球會; zh-tw:埃斯基爾斯蒂納競技足球俱樂部;"
+    },
+    {
+      "original": "GIF Sundsvall",
+      "conv": "zh-cn:松兹瓦尔; zh-hk:辛斯華爾; zh-tw:松茲瓦爾;"
+    },
+    {
+      "original": "Jönköpings Södra IF",
+      "conv": "zh-cn:南延雪平; zh-hk:索特拿; zh-tw:南延雪平;"
+    },
+    {
+      "original": "Jönköpings Södra IF",
+      "conv": "zh-cn:南延雪平; zh-hk:莊高平索特拿; zh-tw:南延雪平;"
     },
     {
       "original": "Brann",
@@ -668,24 +792,332 @@
       "conv": "zh-cn:博德闪耀; zh-hk:波杜基林特; zh-hant:博德閃耀;"
     },
     {
-      "original": "Göteborg",
-      "conv": "zh-hans:哥德堡;zh-hk:哥登堡;zh-tw:哥特堡;"
-    },
-    {
       "original": "FC Haka",
       "conv": "zh:哈卡; zh-cn:哈卡; zh-hk:夏卡; zh-tw:哈卡;"
-    },
-    {
-      "original": "Halmstads Bollklubb",
-      "conv": "zh-hans:哈姆斯塔德;zh-hk:咸史達斯;zh-tw:哈爾姆斯塔德;"
     },
     {
       "original": "Hafnarfjordur FH",
       "conv": "zh-cn:哈夫纳夫约杜尔;zh-hk:夏拿佐杜亞;zh-tw:哈夫納夫約杜爾;"
     },
     {
-      "original": "Malmö FF",
-      "conv": "zh:馬模; zh-cn:马尔默; zh-hk:馬模; zh-tw:馬模;"
+      "original": "Ferencvárosi TC",
+      "conv": "zh-cn:费伦茨瓦罗斯; zh-tw:費倫茨瓦羅斯; zh-hk:費倫斯華路士;"
+    },
+    {
+      "original": "Kisvárda FC",
+      "conv": "zh-cn:瓦尔达; zh-tw:瓦爾達; zh-hk:基斯華達;"
+    },
+    {
+      "original": "Puskás Akadémia FC",
+      "conv": "zh-cn:普斯卡什学院; zh-tw:普斯卡斯學院; zh-hk:普斯卡斯學院;"
+    },
+    {
+      "original": "Fehérvár FC",
+      "conv": "zh-cn:白堡; zh-tw:白堡; zh-hk:費夏華;"
+    },
+    {
+      "original": "Újpest FC",
+      "conv": "zh-cn:新佩斯; zh-tw:烏伊佩斯特; zh-hk:烏比斯迪;"
+    },
+    {
+      "original": "Paksi SE",
+      "conv": "zh-cn:保克什; zh-tw:帕克斯; zh-hk:帕基斯;"
+    },
+    {
+      "original": "Debreceni VSC",
+      "conv": "zh-cn:德布雷岑; zh-tw:德布雷辛尼VSC; zh-hk:迪比辛;"
+    },
+    {
+      "original": "Budapest Honvéd FC",
+      "conv": "zh-cn:布达佩斯捍卫者; zh-tw:布達佩斯捍衛者; zh-hk:漢維特;"
+    },
+    {
+      "original": "Vasas SC",
+      "conv": "zh-cn:沃绍什; zh-tw:沃紹什; zh-hk:華沙斯;"
+    },
+    {
+      "original": "Kecskeméti TE",
+      "conv": "zh-cn:凯奇凯梅特; zh-tw:凱奇凱梅特; zh-hk:科斯克米提;"
+    },
+    {
+      "original": "Mezőkövesdi SE",
+      "conv": "zh-cn:迈泽克韦什德; zh-tw:邁澤克韋什德; zh-hk:梅索科菲德;"
+    },
+    {
+      "original": "Viktoria Plzeň",
+      "conv": "zh-cn:比尔森胜利; zh-tw:比爾森勝利; zh-hk:柏辛域陀尼亞;"
+    },
+    {
+      "original": "Slovan Liberec",
+      "conv": "zh-cn:利贝雷茨; zh-tw:利貝雷茨; zh-hk:利巴域;"
+    },
+    {
+      "original": "FK Baumit Jablonec",
+      "conv": "zh-hans:亚布洛内茨;zh-hk:積布尼克;zh-tw:亞布洛內茨;"
+    },
+    {
+      "original": "FC Baník Ostrava",
+      "conv": "zh-hans:俄斯特拉发;zh-hk:奧斯泰華;zh-tw:奧斯特拉瓦;"
+    },
+    {
+      "original": "1. FC Slovácko",
+      "conv": "zh-hans:斯洛瓦茨科;zh-hk:斯洛華高;zh-tw:斯洛瓦茨科;"
+    },
+    {
+      "original": "FC Hradec Králové",
+      "conv": "zh-cn:赫拉德茨; zh-tw:赫拉德茨; zh-hk:賀拉戴克;"
+    },
+    {
+      "original": "FK Mladá Boleslav",
+      "conv": "zh-cn:博莱斯拉夫; zh-tw:博萊斯拉夫; zh-hk:波利斯拉夫; zh-mo:博萊斯拉夫;"
+    },
+    {
+      "original": "SK Dynamo České Budějovice",
+      "conv": "zh-cn:布杰约维采; zh-tw:布傑約維采; zh-hk:保迪祖域斯;"
+    },
+    {
+      "original": "Bohemians 1905",
+      "conv": "zh-cn:波希米扬斯; zh-tw:波希米揚斯; zh-hk:波希美恩斯;"
+    },
+    {
+      "original": "FK Teplice",
+      "conv": "zh-cn:特普利采; zh-tw:特普利策; zh-hk:塔比歷斯;"
+    },
+    {
+      "original": "FC Zbrojovka Brno",
+      "conv": "zh-cn:布尔诺; zh-tw:布爾諾; zh-hk:般奴;"
+    },
+    {
+      "original": "ŠK Slovan Bratislava",
+      "conv": "zh-cn:布拉迪斯拉发斯拉夫人; zh-hk:巴迪斯拉華施洛雲; zh-tw:布拉迪斯拉發施洛萬;"
+    },
+    {
+      "original": "ŠK Slovan Bratislava",
+      "conv": "zh-cn:斯拉夫人; zh-hk:施洛雲; zh-tw:施洛萬;"
+    },
+    {
+      "original": "MFK Ružomberok",
+      "conv": "zh-cn:鲁容贝罗克; zh-hk:路梳比洛; zh-tw:魯容貝羅克;"
+    },
+    {
+      "original": "FC Spartak Trnava",
+      "conv": "zh-cn:特尔纳瓦斯巴达克; zh-hk:泰拿華斯巴達; zh-tw:特爾納瓦斯巴達克;"
+    },
+    {
+      "original": "DAC 1904 Dunajská Streda",
+      "conv": "zh-cn:多瑙斯特雷达; zh-hk:斯特里達; zh-tw:多瑙斯特雷達;"
+    },
+    {
+      "original": "MŠK Žilina",
+      "conv": "zh-cn:日利纳; zh-hk:斯利納; zh-tw:日利納;"
+    },
+    {
+      "original": "FK AS Trenčín",
+      "conv": "zh-cn:特伦钦; zh-hk:特倫辛; zh-tw:特倫欽;"
+    },
+    {
+      "original": "FC ViOn Zlaté Moravce",
+      "conv": "zh-cn:兹拉特莫拉夫采; zh-hk:維安; zh-tw:茲拉特莫拉夫采;"
+    },
+    {
+      "original": "FK AS Trenčín",
+      "conv": "zh-cn:波德布雷佐瓦; zh-hk:普巴索華; zh-tw:波德布雷佐瓦;"
+    },
+    {
+      "original": "FC VSS Košice",
+      "conv": "zh-cn:科希策; zh-hk:高斯錫; zh-tw:科希策;"
+    },
+    {
+      "original": "FK Inter Bratislava",
+      "conv": "zh-cn:国际布拉迪斯拉发; zh-hk:國際巴迪斯拉華; zh-tw:國際布拉迪斯拉發;"
+    },
+    {
+      "original": "NK Olimpija Ljubljana",
+      "conv": "zh-cn:奥林匹亚; zh-hk:奧林比亞; zh-tw:奧林匹亞;"
+    },
+    {
+      "original": "FC Koper",
+      "conv": "zh-cn:科佩尔; zh-hk:高柏; zh-tw:科佩爾;"
+    },
+    {
+      "original": "ND Gorica",
+      "conv": "zh-cn:戈里察; zh-hk:哥利卡; zh-tw:哥里察;"
+    },
+    {
+      "original": "NK Celje",
+      "conv": "zh-cn:采列; zh-hk:施捷; zh-tw:采列;"
+    },
+    {
+      "original": "NŠ Mura",
+      "conv": "zh-cn:穆拉; zh-hk:梅拿; zh-tw:穆拉;"
+    },
+    {
+      "original": "NK Domžale",
+      "conv": "zh-cn:多姆扎莱; zh-hk:當姆薩尼; zh-tw:多姆扎萊;"
+    },
+    {
+      "original": "NK Bravo",
+      "conv": "zh-cn:布拉沃; zh-hk:巴禾; zh-tw:布拉沃;"
+    },
+    {
+      "original": "NK Radomlje",
+      "conv": "zh-cn:拉多姆耶; zh-hk:拉多姆利; zh-tw:拉多姆耶;"
+    },
+    {
+      "original": "NK Tabor Sežana",
+      "conv": "zh-cn:塔博塞扎纳; zh-hk:達保亞; zh-tw:塔博塞扎納;"
+    },
+    {
+      "original": "Red Star Belgrade",
+      "conv": "zh-cn:贝尔格莱德红星; zh-tw:貝爾格勒紅星; zh-hk:貝爾格萊德紅星;"
+    },
+    {
+      "original": "FK Partizan",
+      "conv": "zh-cn:游击队; zh-tw:游擊隊; zh-hk:柏迪遜;"
+    },
+    {
+      "original": "FK Cukaricki",
+      "conv": "zh-cn:楚卡瑞奇基; zh-tw:楚卡瑞奇基; zh-hk:古卡歷基;"
+    },
+    {
+      "original": "FK Radnicki Nis",
+      "conv": "zh-cn:尼什工人; zh-tw:尼什勞工; zh-hk:雷尼基利斯;"
+    },
+    {
+      "original": "FK Vozdovac",
+      "conv": "zh-cn:沃日多瓦茨; zh-tw:沃日多瓦茨; zh-hk:禾斯杜華斯;"
+    },
+    {
+      "original": "FK TSC Bačka Topola",
+      "conv": "zh-cn:托波拉; zh-tw:托波拉; zh-hk:巴卡托普拿;"
+    },
+    {
+      "original": "FK Vojvodina",
+      "conv": "zh-cn:伏伊伏丁那; zh-tw:佛伊弗迪納; zh-hk:禾獲甸拿;"
+    },
+    {
+      "original": "FK Napredak Kruševac",
+      "conv": "zh-cn:克鲁舍瓦茨进步; zh-tw:克魯舍瓦茨進步; zh-hk:拿比達克;"
+    },
+    {
+      "original": "FK Radnik Surdulica",
+      "conv": "zh-cn:苏杜利察; zh-tw:蘇爾杜利察; zh-hk:蘇杜利卡;"
+    },
+    {
+      "original": "FK Kolubara",
+      "conv": "zh-cn:科卢巴拉; zh-tw:科盧巴拉; zh-hk:科路巴拉;"
+    },
+    {
+      "original": "FK Spartak Subotica",
+      "conv": "zh-cn:苏博蒂察; zh-tw:蘇博蒂察; zh-hk:蘇博迪卡;"
+    },
+    {
+      "original": "FK Novi Pazar",
+      "conv": "zh-cn:新帕扎尔; zh-tw:新帕扎爾; zh-hk:諾維柏沙;"
+    },
+    {
+      "original": "FK Javor Ivanjica",
+      "conv": "zh-cn:伊万尼察枫树; zh-tw:伊萬尼察楓樹; zh-hk:查華爾;"
+    },
+    {
+      "original": "FK Jagodina",
+      "conv": "zh-cn:雅戈丁那; zh-tw:雅戈丁那; zh-hk:查高甸拿;"
+    },
+    {
+      "original": "HŠK Zrinjski Mostar",
+      "conv": "zh-cn:兹林斯基; zh-tw:茲林斯基; zh-hk:辛連斯基;"
+    },
+    {
+      "original": "FK Tuzla City",
+      "conv": "zh-cn:图兹拉城; zh-tw:土茲拉城; zh-hk:杜斯拿城;"
+    },
+    {
+      "original": "FK Borac Banja Luka",
+      "conv": "zh-cn:巴尼亚卢卡战士; zh-tw:巴尼亞盧卡戰士; zh-hk:班查魯卡玻拉斯;"
+    },
+    {
+      "original": "FK Sarajevo",
+      "conv": "zh-cn:萨拉热窝; zh-tw:塞拉耶佛; zh-hk:薩拉熱窩;"
+    },
+    {
+      "original": "FK Velež Mostar",
+      "conv": "zh-cn:维列兹; zh-tw:維列茲; zh-hk:華拉斯;"
+    },
+    {
+      "original": "FK Željezničar Sarajevo",
+      "conv": "zh-cn:泽列兹尼察; zh-tw:澤列茲尼察; zh-hk:薛謝斯歷卡;"
+    },
+    {
+      "original": "NK Široki Brijeg",
+      "conv": "zh-cn:希罗基布里耶格; zh-tw:希羅基布里耶格; zh-hk:施洛奇伯拉治;"
+    },
+    {
+      "original": "HŠK Posušje",
+      "conv": "zh-cn:波苏什耶; zh-tw:波蘇什耶; zh-hk:波素斯捷;"
+    },
+    {
+      "original": "FK Leotar",
+      "conv": "zh-cn:莱奥塔尔; zh-tw:萊奧塔爾; zh-hk:萊奧塔;"
+    },
+    {
+      "original": "FK Sloboda Tuzla",
+      "conv": "zh-cn:斯洛博达图兹拉; zh-tw:斯洛博達土茲拉; zh-hk:斯洛波達杜斯拿;"
+    },
+    {
+      "original": "FK Sloboda Tuzla",
+      "conv": "zh-cn:斯洛博达; zh-tw:斯洛博達; zh-hk:斯洛波達;"
+    },
+    {
+      "original": "FK Igman Konjic",
+      "conv": "zh-cn:伊格曼; zh-tw:伊格曼; zh-hk:列文科尼茨;"
+    },
+    {
+      "original": "FK Sloga Doboj",
+      "conv": "zh-cn:斯洛加多波; zh-tw:斯洛加多波; zh-hk:史路加多博伊;"
+    },
+    {
+      "original": "CS Universitatea Craiova",
+      "conv": "zh-cn:克拉约瓦大学; zh-tw:克拉約瓦大學; zh-hk:卡拉奧華大學;"
+    },
+    {
+      "original": "FC Voluntari",
+      "conv": "zh-cn:沃伦塔里; zh-tw:沃倫塔里; zh-hk:禾倫達利;"
+    },
+    {
+      "original": "FC Farul Constanța",
+      "conv": "zh-cn:康斯坦察灯塔; zh-tw:康斯坦察燈塔; zh-hk:化奴康斯坦察;"
+    },
+    {
+      "original": "FC Farul Constanța",
+      "conv": "zh-cn:灯塔; zh-tw:燈塔; zh-hk:化奴;"
+    },
+    {
+      "original": "Sepsi OSK Sfântu Gheorghe",
+      "conv": "zh-cn:圣格奥尔基; zh-tw:聖格奧爾基; zh-hk:施普斯;"
+    },
+    {
+      "original": "FC Hermannstadt",
+      "conv": "zh-cn:赫尔曼施泰特; zh-tw:赫爾曼施泰特; zh-hk:靴曼斯達特;"
+    },
+    {
+      "original": "CS Mioveni",
+      "conv": "zh-cn:米奥维尼; zh-tw:苗韋尼; zh-hk:米奧雲尼;"
+    },
+    {
+      "original": "FC Argeș Pitești",
+      "conv": "zh-cn:阿尔杰什; zh-tw:阿爾傑什; zh-hk:阿查斯;"
+    },
+    {
+      "original": "AFC Chindia Târgoviște",
+      "conv": "zh-cn:特尔戈维什泰; zh-tw:特爾戈維什泰; zh-hk:泰哥維斯特;"
+    },
+    {
+      "original": "AFC Chindia Târgoviște",
+      "conv": "zh-cn:特尔戈维什泰钦迪亚; zh-tw:特爾戈維什泰欽迪亞; zh-hk:舒連迪亞泰哥維斯特;"
+    },
+    {
+      "original": "FC Petrolul Ploiești",
+      "conv": "zh-cn:佩特罗鲁; zh-tw:佩特羅魯; zh-hk:比杜路爾;"
     },
     {
       "original": "FC Basel",
@@ -704,12 +1136,28 @@
       "conv": "zh-cn:沃尔夫斯贝格; zh-tw:沃尔夫斯貝格; zh-hk:禾夫斯貝加;"
     },
     {
-      "original": "Ferencvárosi Torna Club",
-      "conv": "zh-cn:费伦茨瓦罗斯; zh-tw:費倫茨瓦羅斯; zh-hk:費倫斯華路士;"
-    },
-    {
       "original": "ŠK Slovan Bratislava",
       "conv": "zh-hans:施洛万;zh-hk:施洛雲;zh-tw:施洛萬;"
+    },
+    {
+      "original": "Apollon Limassol FC",
+      "conv": "zh-cn:利马索尔太阳神; zh-hk:阿波羅利馬素; zh-tw:利馬索太陽神;"
+    },
+    {
+      "original": "AEK Larnaca FC",
+      "conv": "zh-cn:拉纳卡; zh-hk:拉亞拿卡; zh-tw:拉納卡;"
+    },
+    {
+      "original": "Anorthosis Famagusta FC",
+      "conv": "zh-cn:阿诺索西斯; zh-hk:安羅科薩斯; zh-tw:阿諾索西斯;"
+    },
+    {
+      "original": "AC Omonia",
+      "conv": "zh-cn:奥莫尼亚; zh-hk:奧摩尼亞; zh-tw:奧莫尼亞;"
+    },
+    {
+      "original": "Apollon Limassol FC",
+      "conv": "zh-cn:AEL利马索尔; zh-hk:AEL利馬素; zh-tw:AEL利馬索;"
     }
   ]
 }

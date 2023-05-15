@@ -240,6 +240,10 @@
       "conv": "zh-cn:布尔逻辑; zh-tw:布林運算;"
     },
     {
+      "original": "causal inference",
+      "conv": "zh-cn:因果推断; zh-tw:因果推論; 因果推斷=>zh-tw:因果推論;"
+    },
+    {
       "original": "central limit theorem",
       "conv": "zh-cn:中心极限定理; zh-hk:中心極限定理; zh-tw:中央極限定理;"
     },
@@ -790,10 +794,6 @@
     {
       "original": "periodic",
       "conv": "zh-cn:周期; zh-tw:週期;"
-    },
-    {
-      "original": "permutation",
-      "conv": "zh-cn:排列; zh-hk:排列; zh-tw:置換;"
     },
     {
       "original": "pivot element",

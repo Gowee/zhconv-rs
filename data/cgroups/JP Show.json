@@ -37,7 +37,7 @@
     },
     {
       "original": "-{速水 もこみち}-",
-      "conv": "zh-hans:速水直道;zh-hant:速水茂虎道;zh-cn:速水直道;zh-tw:速水茂虎道;zh-hk:速水直道;zh-mo:速水直道;"
+      "conv": "zh-hans:速水直道;zh-cn:速水直道;zh-tw:速水茂虎道;zh-hk:速水直道;zh-mo:速水直道;"
     },
     {
       "original": "-{松嶋 菜々子}-",
@@ -146,6 +146,10 @@
     {
       "original": "-{5→9〜私に恋したお坊さん〜}-",
       "conv": "zh-hans:朝5晚9;zh-hant:朝5晚9;zh-cn:朝5晚9;zh-tw:朝5晚9;zh-hk:戀愛時間 5→9;zh-sg:朝五晚九;zh-mo:戀愛時間 5→9;"
+    },
+    {
+      "original": "PLAN 75",
+      "conv": "zh-tw:七五計劃; zh-hk:75終生計劃; zh-cn:岁月自珍;"
     },
     {
       "original": "87%",
@@ -944,6 +948,14 @@
       "conv": "zh-hans:珠穆朗玛：诸神的山岭;zh-hant:埃弗勒斯：眾神的山嶺;zh-cn:珠穆朗玛：诸神的山岭;zh-tw:聖母峰：眾神的山嶺;zh-hk:埃弗勒斯：眾神的山嶺;zh-mo:埃弗勒斯：眾神的山嶺;"
     },
     {
+      "original": "エゴイスト",
+      "conv": "zh-tw:愛是自私; zh-hk:愛很自私;"
+    },
+    {
+      "original": "エゴイスト",
+      "conv": "愛是自私=>zh-cn:利己主义; 愛很自私=>zh-cn:利己主义;"
+    },
+    {
       "original": "エジソンの母",
       "conv": "zh-hans:爱迪生之母;zh-hant:愛迪生之母;zh-cn:爱迪生之母;zh-tw:愛迪生之母;zh-hk:我家有個愛迪生;zh-mo:我家有個愛迪生;"
     },
@@ -1098,6 +1110,10 @@
     {
       "original": "表参道高校合唱部!",
       "conv": "zh-hans:表参道高校合唱部！;zh-hant:表參道高校合唱部！;zh-cn:表参道高校合唱部！;zh-tw:表參道高校合唱部！;zh-hk:高校合唱團;zh-mo:高校合唱團;"
+    },
+    {
+      "original": "書けないッ!?〜脚本家 吉丸圭佑の筋書きのない生活〜",
+      "conv": "zh-cn:写不出来~编剧吉丸圭佑的没有条理的生活～;zh-tw:寫不出來！？～編劇_吉丸圭佑的無情節生活～;"
     },
     {
       "original": "顔だけ先生",
@@ -1988,6 +2004,10 @@
       "conv": "zh-hans:Warriors of the Rainbow;zh-hant:Seediq Bale;zh-cn:Warriors of the Rainbow;zh-tw:Seediq Bale;zh-hk:Seediq Bale;zh-mo:Seediq Bale;"
     },
     {
+      "original": "セシルのもくろみ",
+      "conv": "zh-tw:時尚熟女生死鬥; zh-hk:瑟西爾的企圖; zh-cn:塞西尔的企图;"
+    },
+    {
       "original": "セレブと貧乏太郎",
       "conv": "zh-hans:富家女与穷太郎;zh-hant:富家女與窮太郎;zh-cn:富家女与穷太郎;zh-tw:富家女與窮酸郎;zh-hk:窮人x愛麗絲;zh-mo:窮人x愛麗絲;"
     },
@@ -2128,6 +2148,10 @@
       "conv": "zh-hans:请和这个没用的我谈恋爱;zh-hant:請和這個沒用的我談戀愛;zh-cn:请和这个没用的我谈恋爱;zh-tw:拜託請愛我;zh-hk:拜託請愛我;zh-mo:拜託請愛我;"
     },
     {
+      "original": "騙し絵の牙",
+      "conv": "zh:錯視畫的利牙; zh-tw:總編的復仇; zh-cn:错视画的利牙;"
+    },
+    {
       "original": "小さな巨人",
       "conv": "zh-hans:小巨人;zh-hant:小巨人;zh-cn:小巨人;zh-tw:使命和正義;zh-hk:正義巨人;zh-mo:正義巨人;"
     },
@@ -2154,6 +2178,10 @@
     {
       "original": "ちびまる子ちゃん",
       "conv": "zh-hans:樱桃小丸子;zh-hant:櫻桃小丸子真人版;zh-cn:樱桃小丸子;zh-tw:櫻桃小丸子真人版;zh-hk:福星高照小丸子;zh-mo:福星高照小丸子;"
+    },
+    {
+      "original": "ちむどんどん",
+      "conv": "zh:心胸咚咚; zh-tw:灶動的心;"
     },
     {
       "original": "ช็อคโกแลต",
@@ -3565,7 +3593,7 @@
     },
     {
       "original": "Cannes Film Festival",
-      "conv": "zh-cn:戛纳电影节; zh-tw:康城影展; zh-hk:康城影展;"
+      "conv": "zh-cn:戛纳电影节; zh-tw:坎城影展; zh-hk:康城影展;"
     },
     {
       "original": "Venice Film Festival",

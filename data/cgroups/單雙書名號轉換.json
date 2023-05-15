@@ -5,11 +5,11 @@
   "rules": [
     {
       "original": "〈",
-      "conv": "〈=>zh-cn:《;〈=>zh-my:《;〈=>zh-sg:《;"
+      "conv": "〈=>zh-cn:《; 〈=>zh-my:《; 〈=>zh-sg:《; 〈=>zh-hk:《; 〈=>zh-mo:《;"
     },
     {
       "original": "〉",
-      "conv": "〉=>zh-cn:》;〉=>zh-my:》;〉=>zh-sg:》;"
+      "conv": "〉=>zh-cn:》; 〉=>zh-my:》; 〉=>zh-sg:》; 〉=>zh-hk:》; 〉=>zh-mo:》;"
     }
   ]
 }

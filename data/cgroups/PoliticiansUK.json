@@ -196,6 +196,10 @@
       "conv": "zh-cn:詹姆斯·布鲁克肖尔; zh-tw:詹姆士·布羅肯希爾; zh-hk:博敬誠; zh-hant:詹姆斯·布魯克肖爾;"
     },
     {
+      "original": "Brown, Keith",
+      "conv": "zh-hans:基思·布朗;zh-hk:祁布朗;zh-tw:凱斯·布朗;"
+    },
+    {
       "original": "Brooke, Peter",
       "conv": "zh-cn:彼得·布鲁克; zh-tw:彼得·布魯克; zh-hk:博培達;"
     },
@@ -413,7 +417,7 @@
     },
     {
       "original": "Donelan, Michelle",
-      "conv": "zh-cn:米歇尔·唐兰; zh-tw:米歇爾·唐蘭; zh-hk:唐萃蘭;"
+      "conv": "zh-cn:米歇尔·唐兰; zh-tw:蜜雪兒·唐蘭; zh-hk:唐萃蘭;"
     },
     {
       "original": "Dorrell, Stephen",
@@ -1076,6 +1080,10 @@
       "conv": "zh-cn:约翰·普雷斯科特; zh-tw:約翰·普雷斯科特; zh-hk:彭仕國;"
     },
     {
+      "original": "Profumo",
+      "conv": "zh-cn:普罗富莫;zh-tw:普羅富莫;zh-hk:普羅富莫"
+    },
+    {
       "original": "Portillo, Michael",
       "conv": "zh-cn:迈克尔·波蒂略; zh-tw:麥可·波蒂略; zh-hk:博文高;"
     },
@@ -1104,8 +1112,16 @@
       "conv": "zh-cn:多米尼克·拉布; zh-tw:多米尼克·拉布; zh-hk:藍韜文;"
     },
     {
+      "original": "Raab, Dominic,Rennie",
+      "conv": "zh-cn:多米尼克·伦尼·拉布;zh-hk:藍韜文;zh-tw:多米尼克·蘭尼·拉布;"
+    },
+    {
       "original": "Richard, Ivor",
       "conv": "zh-cn:伊佛尔·理查德; zh-tw:伊佛爾·理查德; zh-hk:李卓達;"
+    },
+    {
+      "original": "Robertson, Angus",
+      "conv": "zh-cn:安格斯·罗伯逊; zh-tw:安格斯·羅伯森; zh-hk:羅博淳;"
     },
     {
       "original": "Robertson, George",
@@ -1205,7 +1221,7 @@
     },
     {
       "original": "Soames, Nicholas",
-      "conv": "zh-cn:尼古拉斯·索姆斯; zh-tw:尼古拉斯·索梅斯; zh-hk:宋立勤;"
+      "conv": "zh-cn:尼古拉斯·索姆斯; zh-tw:尼可拉斯·蘇姆斯; zh-hk:宋立勤;"
     },
     {
       "original": "Soubry, Anna",
@@ -1289,7 +1305,7 @@
     },
     {
       "original": "Sturgeon, Nicola",
-      "conv": "zh-cn:尼古拉·斯特金; zh-hant:妮古拉·斯特金; zh-tw:尼古拉·史特金; zh-hk:施雅晴;"
+      "conv": "zh-cn:妮古拉·斯特金; zh-hant:妮古拉·斯特金; zh-tw:尼可拉·史特金; zh-hk:施雅晴;"
     },
     {
       "original": "Sunak, Rishi",
@@ -1432,6 +1448,18 @@
       "conv": "zh-cn:乔治·杨格; zh-tw:喬治·楊格; zh-hk:楊佐義;"
     },
     {
+      "original": "Yousaf, Humza",
+      "conv": "zh-cn:哈姆扎·优素福;zh-hk:胡姆扎·尤薩夫;zh-tw:洪姆扎·尤沙夫;"
+    },
+    {
+      "original": "Yousaf, Humza",
+      "conv": "zh-cn:优素福;zh-hk:尤薩夫;zh-tw:尤沙夫;"
+    },
+    {
+      "original": "Yousaf, Humza",
+      "conv": "zh-cn:哈姆扎;zh-hk:胡姆扎;zh-tw:洪姆扎;"
+    },
+    {
       "original": "Zahawi, Nadhim",
       "conv": "zh-cn:纳齐姆·扎哈维; zh-tw:納齊姆·扎哈維; zh-hk:查學禮;"
     },
@@ -1492,16 +1520,12 @@
       "conv": "zh:伊麗莎白; zh-cn:伊丽莎白; zh-tw:伊莉莎白; zh-hk:伊利沙伯;"
     },
     {
-      "original": "Elizabeth",
-      "conv": "zh:伊麗莎白; zh-cn:伊丽莎白; zh-tw:伊莉莎白; zh-hk:伊利沙伯;"
-    },
-    {
       "original": "Empress of India",
       "conv": "zh-cn:印度女皇;zh-tw:印度女皇;zh-hk:印度女皇;"
     },
     {
       "original": "George",
-      "conv": "zh-cn:乔治; zh-tw:喬治; zh-hk:佐治;"
+      "conv": " zh-sg:乔治; zh-tw:喬治; zh-cn:乔治; zh-hk:佐治;"
     },
     {
       "original": "Hilda",
@@ -1538,6 +1562,10 @@
     {
       "original": "Queen, The",
       "conv": "英国女王=>zh-hk:英女皇; 英国女王=>zh-tw:英國女王; 英国女王=>zh-cn:英国女王;"
+    },
+    {
+      "original": "Queen-Empress",
+      "conv": "zh-hk:女皇兼女皇帝; zh-tw:女王兼女皇; zh-hans:女王兼女皇;"
     },
     {
       "original": "Macmillan",
@@ -1605,7 +1633,7 @@
     },
     {
       "original": "Regina Imperatrix",
-      "conv": "zh-hans:女王－女皇;zh-tw:女王－女皇;zh-hk:女皇－女皇;"
+      "conv": "zh-hans:女王－女皇;zh-tw:女王－女皇;zh-hk:女皇－女皇帝;"
     },
     {
       "original": "Regina Imperatrix",
@@ -1648,6 +1676,10 @@
       "conv": "zh-cn:王徽;zh-tw:王徽;zh-hk:皇徽;"
     },
     {
+      "original": null,
+      "conv": "zh-cn:国王会同; zh-tw:國王會同; zh-hk:英皇會同;"
+    },
+    {
       "original": "His Majesty The King",
       "conv": "zh-cn:国王陛下;zh-tw:國王陛下;zh-hk:英皇陛下"
     },
@@ -1677,7 +1709,7 @@
     },
     {
       "original": "Commonwealth",
-      "conv": "zh-cn:英联邦; zh-tw:大英國協; zh-hk:英聯邦; zh-sg:共和联邦;"
+      "conv": "zh-cn:英联邦; zh-tw:大英國協; zh-hk:英聯邦; zh-mo:英聯邦; zh-sg:共和联邦;"
     },
     {
       "original": null,
@@ -1756,6 +1788,18 @@
       "conv": "zh-cn:卫生和社会工作; zh-tw:衛生及社會關懷; zh-hk:衛生及社會關懷;"
     },
     {
+      "original": null,
+      "conv": "zh-cn:商务与贸易; zh-hk:商業及貿易;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:能源安全与净零; zh-hk:能源安全及淨零;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:科学、创新与技术;  zh-hk:科學、創新及技術;"
+    },
+    {
       "original": "First Lord of the Treasury",
       "conv": "zh-cn:首席财政; zh-tw:第一財政; zh-hk:首席財政; zh-sg:第一财政;"
     },
@@ -1821,6 +1865,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:商业、创新与技能; zh-tw:商業創新及技能; zh-hk:商務創新及技能; zh-hant:商務、創新及技能;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:检察; zh-tw:檢察; zh-hk:檢控; zh-sg:检控;"
     },
     {
@@ -1841,11 +1889,11 @@
     },
     {
       "original": "Solicitor General",
-      "conv": "zh-cn:副总检察长; zh-tw:副檢察長; zh-hk:法律政策專員;"
+      "conv": "zh-cn:副检察长; zh-tw:副檢察長; zh-hk:法律政策專員;"
     },
     {
       "original": "Solicitor General for England and Wales",
-      "conv": "zh-cn:英格兰和威尔士副总检察长; zh-tw:英格蘭及威爾斯副檢察長; zh-hk:英格蘭及威爾斯法律政策專員;"
+      "conv": "zh-cn:英格兰和威尔士副检察长; zh-tw:英格蘭及威爾斯副檢察長; zh-hk:英格蘭及威爾斯法律政策專員;"
     },
     {
       "original": "Advocate General",
@@ -1909,7 +1957,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:王室法律顾问;zh-tw:御用大律師;zh-hk:御用大律師;zh-sg:女皇律师;"
+      "conv": "zh-cn:王室法律顾问;zh-tw:御用大律師;zh-hk:御用大律師;zh-sg:英皇律师;"
     },
     {
       "original": null,
@@ -1918,10 +1966,6 @@
     {
       "original": "Justice of the Peace",
       "conv": "zh-cn:太平绅士;zh-my:太平局绅;zh-sg:太平绅士;zh-hant:太平紳士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:商业、创新与技能; zh-tw:商業創新及技能; zh-hk:商務創新及技能; zh-hant:商務、創新及技能;"
     }
   ]
 }

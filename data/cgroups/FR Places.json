@@ -240,6 +240,10 @@
       "conv": "維希=>zh-my:维琪;維希=>zh-sg:维琪;維希=>zh-hk:維琪;維希=>zh-mo:維琪;維希=>zh-tw:維琪;"
     },
     {
+      "original": "Antilles",
+      "conv": "zh-cn:安的列斯; zh-hk:安地列斯; zh-tw:安地列斯"
+    },
+    {
       "original": "Futuna",
       "conv": "zh-hans:富图纳;zh-hk:富圖納;zh-tw:富圖那;"
     },
@@ -302,6 +306,10 @@
     {
       "original": "Goten",
       "conv": "zh-hans:哥特人; zh-hant:哥德人;"
+    },
+    {
+      "original": "creole",
+      "conv": "zh-sg:克里奥尔语;zh-cn:克里奥尔语; zh-tw:克里奧爾語;zh-hk:歸融語;"
     },
     {
       "original": "Ardenne",
@@ -4184,6 +4192,10 @@
       "conv": "zh-hans:卡尼于埃勒;zh-hant:卡尼于埃勒"
     },
     {
+      "original": "Casimirius",
+      "conv": "zh-hans:卡西米里于斯;zh-hant:卡西米里于斯"
+    },
+    {
       "original": "Diusse",
       "conv": "zh-hans:迪于斯;zh-hant:迪于斯"
     },
@@ -4212,8 +4224,16 @@
       "conv": "zh-hans:于克利耶;zh-hant:于克利耶"
     },
     {
+      "original": "Hudiviller",
+      "conv": "zh-hans:于迪维莱;zh-hant:于迪維萊"
+    },
+    {
       "original": "Huêtre",
       "conv": "zh-hans:于埃特尔;zh-hant:于埃特爾"
+    },
+    {
+      "original": "Hugues（人名）",
+      "conv": "zh-hans:于格·;zh-hant:于格·"
     },
     {
       "original": "Huillard",
@@ -4222,6 +4242,10 @@
     {
       "original": "-sur-Huisne",
       "conv": "zh-hans:于讷河畔;zh-hant:于訥河畔"
+    },
+    {
+      "original": "Huillé-Lézigné",
+      "conv": "zh-hans:于耶-莱济涅;zh-hant:于耶-萊濟涅"
     },
     {
       "original": "Humerœuille",
@@ -4288,6 +4312,10 @@
       "conv": "zh-hans:洛于埃克;zh-hant:洛于埃克"
     },
     {
+      "original": "Marius",
+      "conv": "zh-hans:马里于斯;zh-hant:馬里于斯"
+    },
+    {
       "original": "Monchy-Humières",
       "conv": "zh-hans:蒙希于米耶尔;zh-hant:蒙希于米耶爾"
     },
@@ -4304,6 +4332,10 @@
       "conv": "zh-hans:里尼-于塞;zh-hant:里尼-于塞"
     },
     {
+      "original": "Sahune",
+      "conv": "zh-hans:萨于讷;zh-hant:薩于訥"
+    },
+    {
       "original": "Saint(e)-Uxxx/Huxxx",
       "conv": "zh-hans:圣于;zh-hant:聖于"
     },
@@ -4312,8 +4344,8 @@
       "conv": "zh-hans:塔巴耶-于斯坎;zh-hant:塔巴耶-于斯坎"
     },
     {
-      "original": "Tahure",
-      "conv": "zh-hans:塔于尔;zh-hant:塔于爾"
+      "original": "Tadousse-Ussau",
+      "conv": "zh-hans:塔杜斯-于索;zh-hant:塔杜斯-于索"
     },
     {
       "original": "Uxxx/Huxxx-sur-XXX",
@@ -4354,6 +4386,10 @@
     {
       "original": "Ugny-l’Équipée",
       "conv": "zh-hans:于尼莱基佩;zh-hant:于尼萊基佩"
+    },
+    {
+      "original": "Uhart-Cize",
+      "conv": "zh-hans:于阿尔特锡兹;zh-hant:于阿爾特錫茲"
     },
     {
       "original": "Ully-Saint-Georges",
@@ -4448,6 +4484,10 @@
       "conv": "zh-cn:阿尔勒夫;zh-hk:阿爾勒夫;zh-tw:阿爾勒夫"
     },
     {
+      "original": "Bélon",
+      "conv": "zh-cn:贝隆河;zh-hk:貝隆河;zh-tw:貝隆河"
+    },
+    {
       "original": "Béronne",
       "conv": "zh-cn:贝罗讷河;zh-hk:貝羅訥河;zh-tw:貝羅訥河"
     },
@@ -4474,6 +4514,10 @@
     {
       "original": "Cannes-Écluse",
       "conv": "zh-cn:戛纳埃克吕斯;zh-hk:康埃克呂斯;zh-tw:坎埃克呂斯"
+    },
+    {
+      "original": "Cabris",
+      "conv": "zh-cn:卡布里斯;zh-hk:卡布里斯;zh-tw:卡布里斯"
     },
     {
       "original": "Céronne",
@@ -4546,6 +4590,10 @@
     {
       "original": "Hans（人名）",
       "conv": "zh-cn:汉斯·;zh-hk:漢斯·;zh-tw:漢斯·"
+    },
+    {
+      "original": "Hans-（人名）",
+      "conv": "zh-cn:汉斯-;zh-hk:漢斯-;zh-tw:漢斯-"
     },
     {
       "original": "Illon",
@@ -4674,6 +4722,18 @@
     {
       "original": "",
       "conv": "zh-hans:位于;zh-hant:位於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:属于;zh-hant:屬於"
+    },
+    {
+      "original": "Ministère de l Europe et des Affaires étrangères",
+      "conv": "zh-tw:欧洲暨外交事務部; zh-hk:欧洲及外交事務部; zh-cn:欧洲和外交事务部"
+    },
+    {
+      "original": "Ministère des Solidarités et de la Santé",
+      "conv": "zh-tw:社會事務及卫生部; zh-cn:社会事务与卫生部"
     }
   ]
 }

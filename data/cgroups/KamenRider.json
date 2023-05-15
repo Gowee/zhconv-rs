@@ -113,15 +113,19 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:空我;zh-tw:空我;zh-cn:空我;zh-hk:古迦"
+      "conv": "zh-hans:空我;Kuuga;zh-tw:空我;zh-cn:空我;zh-hk:古迦"
     },
     {
       "original": null,
-      "conv": "zh-hans:假面骑士AgitΩ;zh-tw:假面騎士顎門;zh-cn:假面骑士亚极陀;zh-hk:幪面超人亞極陀;zh-sg:假面骑士AgitΩ;"
+      "conv": "zh:假面騎士AgitΩ;zh-hans:假面骑士AgitΩ;zh-tw:假面騎士顎門;zh-cn:假面骑士亚极陀;zh-hk:幪面超人亞極陀;zh-sg:假面骑士AgitΩ;"
     },
     {
       "original": null,
-      "conv": "zh-hans:顎門;zh-tw:Agito;zh-cn:亚极陀;zh-hk:亞極陀;zh-sg:亚极陀"
+      "conv": "zh:AgitΩ;zh-tw:顎門;zh-cn:亚极陀;zh-hk:亞極陀;zh-sg:亚极陀"
+    },
+    {
+      "original": null,
+      "conv": "zh:鄂鬥;zh-tw:顎門;zh-cn:亚极陀;zh-hk:亞極陀;zh-sg:亚极陀"
     },
     {
       "original": null,
@@ -217,10 +221,6 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:影子;zh-tw:幻影;zh-cn:影子;zh-hk:影子;"
-    },
-    {
-      "original": null,
       "conv": "zh-hans:假面骑士电王;zh-tw:假面騎士電王;zh-cn:假面骑士电王;zh-hk:幪面超人電王;zh-sg:假面骑士电王;"
     },
     {
@@ -297,7 +297,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:假面骑士Kiva;zh-tw:假面骑士Kiva;zh-cn:假面骑士月骑;zh-hk:幪面超人月騎;zh-sg:假面骑士Kiva;"
+      "conv": "zh-hans:假面骑士KIVA;zh-tw:假面騎士KIVA;zh-cn:假面骑士月骑;zh-hk:幪面超人月騎;zh-sg:假面骑士Kiva;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:IXA;zh-tw:IXA;zh-cn:战骑;zh-hk:烈騎;zh-sg:IXA;"
     },
     {
       "original": null,
@@ -321,7 +325,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:至上蓝天会;zh-tw:美好的青空會;zh-cn:至上蓝天会;zh-hk:耀眼藍天會;zh-mo:耀眼蓝天会;"
+      "conv": "zh:至上藍天會;zh-tw:美好的青空會;zh-cn:至上蓝天会;zh-hk:耀眼藍天會;zh-mo:耀眼蓝天会;"
     },
     {
       "original": null,
@@ -393,7 +397,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:假面骑士OOO;zh-tw:假面騎士OOO;zh-cn:假面骑士欧茲;zh-hk:幪面超人OOO;zh-sg:假面骑士OOO;"
+      "conv": "zh-hans:假面骑士OOO;zh-tw:假面騎士OOO;zh-cn:假面骑士欧兹;zh-hk:幪面超人OOO;zh-sg:假面骑士OOO;"
     },
     {
       "original": null,
@@ -409,7 +413,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:假面骑士Fourze;zh-tw:假面騎士Fourze;zh-cn:假面骑士卅骑;zh-hk:幪面超人Fourze;zh-sg:假面骑士Fourze"
+      "conv": "zh-hans:假面骑士Fourze;zh-tw:假面騎士Fourze;zh-cn:假面骑士卌骑;zh-hk:幪面超人Fourze;zh-sg:假面骑士Fourze"
     },
     {
       "original": null,
@@ -425,7 +429,19 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:Zodiarts;zh-tw:宙體闇使;zh-cn:星徒;zh-hk:Zodiarts;"
+      "conv": "zh-hans:Zodiarts;zh-tw:宙體闇使;zh-cn:星徒;zh-hk:Zodiarts;zh-sg:Zodiarts"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:摩羯座;zh-tw:摩羯座;zh-cn:摩羯座;zh-hk:山羊座;zh-sg:摩羯座;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:麒麟座;zh-tw:麒麟座;zh-cn:麒麟座;zh-hk:獨角獸座;zh-sg:麒麟座;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蝘蜓座;zh-tw:蝘蜓座;zh-cn:蝘蜓座;zh-hk:變色龍座;zh-sg:蝘蜓座;"
     },
     {
       "original": null,
@@ -569,7 +585,43 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:假面骑士Drive; zh-tw:假面騎士Drive; zh-cn:假面骑士驰骑; zh-hk:幪面超人Drive; zh-sg:蒙面超人Drive;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Mach; zh-tw:假面騎士Mach; zh-cn:假面骑士马赫; zh-hk:幪面超人Mach; zh-sg:蒙面超人Mach;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Chaser; zh-tw:假面騎士Chaser; zh-cn:假面骑士追猎者; zh-hk:幪面超人Chaser; zh-sg:蒙面超人Chaser;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:恶路程式;zh-tw:惡路程式;zh-cn:机械变异体;zh-hk:機械異變人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克里姆‧施丹伯特;zh-tw:克里姆‧施丹柏特;zh-cn:库里姆‧斯坦贝尔特;zh-hk:古利姆‧斯坦伯特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Ghost;zh-tw:假面騎士Ghost;zh-cn:假面骑士灵骑;zh-hk:幪面超人Ghost;zh-sg:蒙面超人Ghost;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Specter;zh-tw:假面騎士Specter;zh-cn:假面骑士魂骑;zh-hk:幪面超人Specter;zh-sg:蒙面超人Specter;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面骑士Necrom;zh-tw:假面騎士Necrom;zh-cn:假面骑士冥骑;zh-hk:幪面超人Necrom;zh-sg:蒙面超人Necrom;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:假面騎士Build;zh-tw:假面騎士Build;zh-cn:假面骑士创骑;zh-hk:幪面超人Build;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:假面騎士Cross-Z;zh-tw:假面騎士Cross-Z;zh-cn:假面骑士克罗兹;zh-hk:幪面超人Cross-Z;"
     },
     {
       "original": null,
@@ -581,7 +633,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:假面騎士Mad Rogue;zh-tw:假面騎士Mad Rogue;zh-cn:假面騎士狂霸;zh-hk:幪面超人Mad Rogue;"
+      "conv": "zh-hans:假面騎士Mad Rogue;zh-tw:假面騎士Mad Rogue;zh-cn:假面騎士狂霸;zh-hk:幪面超人狂暴洛古;"
     },
     {
       "original": null,
@@ -637,6 +689,26 @@
     },
     {
       "original": null,
+      "conv": "zh:月津; zh-tw:月津; zh-cn:蓋茨; zh-hk:基治;"
+    },
+    {
+      "original": null,
+      "conv": "zh:沃茲; zh-tw:沃茲; zh-cn:沃茲; zh-hk:和治;"
+    },
+    {
+      "original": null,
+      "conv": "zh:斯瓦魯茲; zh-tw:斯瓦魯茲; zh-cn:斯瓦魯茲; zh-hk:舒華路茲;"
+    },
+    {
+      "original": null,
+      "conv": "zh:烏爾; zh-tw:烏爾; zh-cn:乌尔; zh-hk:烏路;"
+    },
+    {
+      "original": null,
+      "conv": "zh:歐拉; zh-tw:歐拉; zh-cn:奥拉; zh-hk:珂娜;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:假面骑士Zero-One; zh-tw:假面騎士ZERO-ONE; zh-cn:假面骑士零一; zh-hk:幪面超人Zero-One; zh-sg:蒙面超人ZERO-ONE;"
     },
     {
@@ -666,6 +738,106 @@
     {
       "original": null,
       "conv": "zh-hans:亚兹; zh-tw:亞絲; zh-cn:亚兹; zh-hk:艾絲; zh-sg:艾丝;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士聖刃; zh-tw:假面騎士聖刃; zh-cn:假面骑士圣刃; zh-hk:幪面超人聖刃; zh-sg:蒙面超人圣刃;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Blades; zh-tw:假面騎士Blades; zh-cn:假面骑士剑锋; zh-hk:幪面超人鋒刃;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Buster; zh-tw:假面騎士Buster; zh-cn:假面骑士大剑; zh-hk:幪面超人激刃;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Espada; zh-tw:假面騎士Espada; zh-cn:假面骑士刀剑; zh-hk:幪面超人雷刃;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Calibur; zh-tw:假面騎士Calibur; zh-cn:假面骑士王剑; zh-hk:幪面超人魔刃;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Slash; zh-tw:假面騎士Slash; zh-cn:假面骑士剑閃; zh-hk:幪面超人音斬;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Sabela; zh-tw:假面騎士Sabela; zh-cn:假面骑士佩剑; zh-hk:幪面超人莎貝拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Durendal; zh-tw:假面騎士Durendal; zh-cn:假面骑士恆剑; zh-hk:幪面超人迪蘭杜;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Falchion; zh-tw:假面騎士Falchion; zh-cn:假面骑士狂刀; zh-hk:幪面超人火鳳;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Solomon; zh-tw:假面騎士Solomon; zh-cn:假面骑士所罗门; zh-hk:幪面超人所羅門;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士Storious; zh-tw:假面騎士斯特琉斯; zh-cn:假面骑士斯特利乌斯; zh-hk:幪面超人斯多烏斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:梅基多; zh-tw:梅基多; zh-cn:米吉多; zh-hk:梅傑德;"
+    },
+    {
+      "original": null,
+      "conv": "zh:奇跡世界; zh-tw:奇蹟世界; zh-cn:奇幻世界; zh-hk:奇跡世界;"
+    },
+    {
+      "original": null,
+      "conv": "zh:奇跡駕馭書; zh-tw:奇蹟駕馭書; zh-cn:奇幻驾馭书; zh-hk:奇跡駕馭書;"
+    },
+    {
+      "original": null,
+      "conv": "zh:極北基地; zh-tw:北方基地; zh-cn:北区基地;"
+    },
+    {
+      "original": null,
+      "conv": "zh:極南基地; zh-tw:南方基地; zh-cn:南区基地;"
+    },
+    {
+      "original": null,
+      "conv": "zh:幻想手機; zh-tw:加特林手機;"
+    },
+    {
+      "original": null,
+      "conv": "zh:流蘇; zh-tw:達賽爾; zh-cn:流苏; zh-hk: 達西爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:斯特琉斯; zh-tw:斯特琉斯; zh-cn:斯特利烏斯; zh-hk:斯多烏斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:茲歐斯; zh-tw:茲歐斯; zh-cn:茲欧斯; zh-hk:茲奧斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh:伊扎克; zh-tw:伊扎克; zh-cn:以扎; zh-hk:伊薩古;"
+    },
+    {
+      "original": null,
+      "conv": "zh:維克多; zh-tw:維克多; zh-cn:维克托; zh-hk:域陀;"
+    },
+    {
+      "original": null,
+      "conv": "zh:迪札斯特; zh-tw:迪札斯特; zh-cn:天灾; zh-hk:迪札斯特;"
+    },
+    {
+      "original": null,
+      "conv": "zh:劇場短篇 假面騎士聖刃 不死鳥之劍士與破滅之書; zh-tw:劇場短篇 假面騎士聖刃 不死鳥的劍士與破滅之書; zh-cn:剧场短篇 假面骑士圣刃 不死鸟之剑士与破灭之书; zh-hk:劇場短篇 幪面超人聖刃 不死鳥之劍士與破滅之書;剧场版 蒙面超人圣刃 不死鸟之剑士与破灭之书;"
+    },
+    {
+      "original": null,
+      "conv": "zh:假面騎士聖刃 + 機界戰隊全開者 超級英雄戰記; zh-tw:假面騎士聖刃 + 機界戰隊全開者 超級英雄戰記; zh-cn:假面骑士圣刃 + 机界战队全開者 超级英雄战记; zh-hk:幪面超人聖刃 + 機界戰隊全開者 SUPERHERO戰記;"
     }
   ]
 }

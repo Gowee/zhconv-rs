@@ -49,7 +49,7 @@
     },
     {
       "original": "Trudeau, Justin",
-      "conv": "zh-cn:贾斯廷·特鲁多; zh-hk:賈斯汀·杜魯多; zh-tw:賈斯汀·杜魯道;"
+      "conv": "zh-hans:贾斯汀·特鲁多;zh-hant:賈斯汀·特魯多;zh-cn:贾斯廷·特鲁多;zh-sg:贾斯廷·特鲁多;zh-my:贾斯廷·特鲁多;zh-tw:賈斯汀·杜魯道;zh-hk:賈斯汀·杜魯多;zh-mo:賈斯汀·杜魯多;"
     },
     {
       "original": "Trudeau",
@@ -137,7 +137,7 @@
     },
     {
       "original": "Pompidou, Georges Jean Raymond",
-      "conv": "=zh-hans:乔治·让·雷蒙·蓬皮杜;zh-hk:佐治·莊·韋文·龐比度;zh-tw:喬治·尚·雷蒙·龐畢度;"
+      "conv": "zh-hans:乔治·让·雷蒙·蓬皮杜; zh-hk:佐治·莊·韋文·龐比度; zh-tw:喬治·尚·雷蒙·龐畢度;"
     },
     {
       "original": "Pompidou, Georges",
@@ -184,6 +184,10 @@
       "conv": "zh-hans:朔尔茨; zh-hk:朔爾茨; zh-tw:蕭茲;"
     },
     {
+      "original": "Adenauer",
+      "conv": "zh-hans:阿登纳; zh-hk:阿丹拿; zh-tw:艾德諾;"
+    },
+    {
       "original": "Moïse",
       "conv": "zh-cn:莫伊兹;zh-tw:摩依士;"
     },
@@ -212,6 +216,18 @@
       "conv": "zh-cn:杰辛达·阿德恩; zh-hk:潔辛達·阿德恩; zh-tw:潔辛達·阿爾登;"
     },
     {
+      "original": "Hipkins, Christopher John",
+      "conv": "zh-hans:克里斯·希普金斯; zh-hant:克里斯·希金斯; zh-hk:葉建事;"
+    },
+    {
+      "original": "Hipkins, Christopher John",
+      "conv": "zh-hans:克里斯托弗·约翰·希普金斯; zh-hant:克里斯多福·約翰·希金斯; zh-hk:葉建事;"
+    },
+    {
+      "original": "Hipkins, Christopher John",
+      "conv": "希普金斯=>zh-tw:希金斯; 希普金斯=>zh-hk:葉建事; 希普金斯=>zh-mo:葉建事;"
+    },
+    {
       "original": "Stoltenberg",
       "conv": "zh-cn:斯托尔滕贝格; zh-hk:斯托爾滕貝格; zh-tw:史托騰伯格;"
     },
@@ -237,7 +253,7 @@
     },
     {
       "original": "Ceaușescu",
-      "conv": "zh-hans:齐奥塞斯库; zh-hant:西奧塞古; zh-hk:壽西斯古; zh-tw:希奧塞古;"
+      "conv": "zh-hans:齐奥塞斯库; zh-hant:西奧塞古; zh-hk:壽西斯古; zh-tw:西奧塞古;"
     },
     {
       "original": "Ramaphosa",

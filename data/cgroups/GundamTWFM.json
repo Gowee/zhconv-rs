@@ -40,14 +40,6 @@
       "conv": "zh-cn:潘兰杞; zh-hk:潘倫茲; zh-tw:潘蘭杞;"
     },
     {
-      "original": "エリクト、Ericht",
-      "conv": "zh-cn:艾莉克特; zh-hk:艾利克特; zh-tw:艾莉克特;"
-    },
-    {
-      "original": "エリ、Eri",
-      "conv": "zh-cn:艾莉; zh-hk:艾利; zh-tw:艾莉;"
-    },
-    {
       "original": "エルノラ、Elnora",
       "conv": "zh-cn:埃尔诺拉; zh-hk:艾爾諾娜; zh-tw:埃爾諾拉;"
     },
@@ -184,7 +176,55 @@
       "conv": "zh-cn:嘉梓; zh-hk:爵斯; zh-tw:賈茲;"
     },
     {
-      "original": null,
+      "original": "パーチェ、Parche",
+      "conv": "zh-cn:帕切; zh-hk:帕齊; zh-tw:帕切;"
+    },
+    {
+      "original": "ナジ、Naji",
+      "conv": "zh-cn:纳吉; zh-hk:拿捷; zh-tw:納吉;"
+    },
+    {
+      "original": "ヒジャ、Hija",
+      "conv": "zh-cn:海加; zh-hk:希加; zh-tw:海加;"
+    },
+    {
+      "original": "ナジ・ゲオル・ヒジャ、Naji Geor Hija",
+      "conv": "zh-cn:纳吉·盖尔·海加; zh-hk:拿捷·基魯·希加; zh-tw:納吉·蓋爾·海加;"
+    },
+    {
+      "original": "プロネ、Pulone",
+      "conv": "zh-cn:普罗涅; zh-hk:普羅尼; zh-tw:普羅涅;"
+    },
+    {
+      "original": "ノレア、Norea",
+      "conv": "zh-cn:诺蕾雅; zh-hk:諾雷亞; zh-tw:諾蕾雅;"
+    },
+    {
+      "original": "デュノク、Du Noc",
+      "conv": "zh-cn:杜诺克; zh-hk:迪諾古; zh-tw:杜諾克;"
+    },
+    {
+      "original": "オルコット、Olcott",
+      "conv": "zh-cn:奥尔科特; zh-hk:奧爾柯特; zh-tw:奧爾柯特;"
+    },
+    {
+      "original": "Kruger",
+      "conv": "zh-cn:库路艾尔; zh-hk:庫路艾爾; zh-tw:庫路赫爾;"
+    },
+    {
+      "original": "Notrette（ミオリネ母親）",
+      "conv": "zh-cn:诺特蕾特; zh-hk:諾度蕾特; zh-tw:諾特蕾特;"
+    },
+    {
+      "original": "Sedo",
+      "conv": "zh-cn:赛多; zh-hk:撒多; zh-tw:賽多;"
+    },
+    {
+      "original": "Gristan",
+      "conv": "zh-cn:葛利斯坦; zh-hk:古利斯坦; zh-tw:葛利斯坦;"
+    },
+    {
+      "original": "ガンダム、Gundam",
       "conv": "zh:GUNDAM; zh-hans:高达; zh-hk:高達; zh-tw:鋼彈;"
     },
     {
@@ -208,6 +248,10 @@
       "conv": "zh-cn:学院警卫机; zh-hk:學園衛戍兵; zh-tw:迪米警衛機;"
     },
     {
+      "original": "デミ、Demi",
+      "conv": "迪米=>zh-cn:学院;迪米=>zh-tw:迪米;迪米=>zh-hk:學園;"
+    },
+    {
       "original": "ザウォート、Zowort",
       "conv": "zh-cn:传令骑兵; zh-hk:突騎兵; zh-tw:佐渥特;"
     },
@@ -220,12 +264,28 @@
       "conv": "zh-cn:海因德里; zh-hk:海因德利; zh-tw:海因德里;"
     },
     {
+      "original": "ハインドリー・シュトルム、Heindree Sturm",
+      "conv": "zh-cn:风暴海因德里; zh-hk:海因托利斯特姆; zh-tw:風暴型海因德里;"
+    },
+    {
       "original": "ダリルバルデ、Darilblade",
       "conv": "zh-cn:达利尔巴尔迪; zh-hk:達里路巴路迪; zh-tw:達里巴爾迪;"
     },
     {
       "original": "カペル・クゥ、Kapell-Kuu",
       "conv": "zh-cn:刀骑兵; zh-hk:刀騎兵; zh-tw:卡佩爾庫;"
+    },
+    {
+      "original": "改修型（ガンダム・エアリアル）、Rebuild (Gundam Aerial)",
+      "conv": "zh-hans:改修型; zh-hk:改修型; zh-tw:修改型;"
+    },
+    {
+      "original": "ガンヴォルヴァ、Gundvölva",
+      "conv": "zh-hans:高沃尔瓦; zh-hk:鋼沃爾凡; zh-tw:鋼沃爾瓦;"
+    },
+    {
+      "original": "Prodoros",
+      "conv": "zh-hans:普罗多洛斯; zh-hk:普羅度洛斯; zh-tw:普羅多洛斯;"
     },
     {
       "original": "グラスレー、Grassley",
@@ -244,8 +304,12 @@
       "conv": "zh-cn:圣堂; zh-hk:大聖堂; zh-tw:聖堂;"
     },
     {
-      "original": "",
+      "original": "MS開発評議会、Mobile Suit Development Council",
       "conv": "zh-cn:MS开发评议会; zh-hk:機動戰士開發評議會; zh-tw:MS開發評議會;"
+    },
+    {
+      "original": "フォルドの夜明け、Dawn of Fold",
+      "conv": "zh-hans:弗特的黎明; zh-hk:弗德之黎明; zh-tw:弗德之黎明;"
     },
     {
       "original": "GUNDフォーマット、GUND FORMAT",
@@ -257,6 +321,10 @@
     },
     {
       "original": "ガンビット、GUND-BIT",
+      "conv": "zh-hans:GUND-BITS; zh-hk:GUND-BITS; zh-tw:GUND子機;"
+    },
+    {
+      "original": "ガンビット、GUND-BIT",
       "conv": "zh-hans:GUND BIT; zh-hk:GUND BIT; zh-tw:GUND子機;"
     },
     {
@@ -264,12 +332,20 @@
       "conv": "zh-hans:GUND-BIT; zh-hk:GUND-BIT; zh-tw:GUND子機;"
     },
     {
-      "original": "ガンビット、GUND-BIT",
-      "conv": "zh-hans:GUND-BITS; zh-hk:GUND-BITS; zh-tw:GUND子機;"
+      "original": "ビット、BIT",
+      "conv": "子機=>zh-cn:BIT;子機=>zh-tw:子機;子機=>zh-hk:BIT;"
+    },
+    {
+      "original": "ビット、BIT",
+      "conv": "子机=>zh-cn:BIT;子机=>zh-tw:子機;子机=>zh-hk:BIT;"
     },
     {
       "original": "Permart score",
       "conv": "zh-hans:帕梅特刻痕; zh-hk:帕梅特流入值; zh-tw:帕梅特刻痕;"
+    },
+    {
+      "original": "強化人士、Enhanced Person",
+      "conv": "zh:強化人; zh-hans:强化人; zh-hk:強化人士; zh-tw:強化人士;"
     },
     {
       "original": "",
@@ -294,6 +370,22 @@
     {
       "original": "彼らの採択",
       "conv": "zh-hk:他們的選擇;zh-tw:他們採納的選擇;zh-cn:他们做出的选择"
+    },
+    {
+      "original": "あと一歩、キミに踏み出せたなら",
+      "conv": "zh-hk:若我能向你再踏出一步;zh-tw:若能再往妳的方向踏出一步;zh-cn:若能向你再迈出一步"
+    },
+    {
+      "original": "巡る思い",
+      "conv": "zh-hk:反覆的思念;zh-tw:旋繞於心的想法;zh-cn:缭绕的思绪"
+    },
+    {
+      "original": "逃げ出すよりも進むことを",
+      "conv": "zh-hk:寧願前進也不逃跑;zh-tw:比起逃跑，選擇前進;zh-cn:若你选择了前进而非逃跑"
+    },
+    {
+      "original": "大切なもの",
+      "conv": "zh-hk:珍重的事物;zh-tw:重要的事物;zh-cn:重要的事物"
     }
   ]
 }

@@ -12,24 +12,8 @@
       "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼;"
     },
     {
-      "original": "ウルトラマン",
-      "conv": "奥特曼=>zh-hk:超人;"
-    },
-    {
-      "original": "ウルトラマン",
-      "conv": "奥特曼=>zh-mo:超人;"
-    },
-    {
-      "original": "ウルトラマン",
-      "conv": "超人力霸王=>zh-hk:超人;"
-    },
-    {
-      "original": "ウルトラマン",
-      "conv": "超人力霸王=>zh-mo:超人;"
-    },
-    {
       "original": "ウルトラシリーズ",
-      "conv": "zh-hk:超人系列;zh-tw:超人力霸王系列;zh-hans:奥特系列;zh-mo:超人系列;zh-sg:咸蛋超人系列;zh-my:咸蛋超人系列"
+      "conv": "zh-hk:超人系列;zh-tw:超人力霸王系列;zh-hans:奥特曼系列;zh-mo:超人系列;zh-sg:咸蛋超人系列;zh-my:咸蛋超人系列"
     },
     {
       "original": "光の国",
@@ -61,7 +45,7 @@
     },
     {
       "original": "帰ってきたウルトラマン",
-      "conv": "zh-hk:歸來的超人;zh-cn:归来的奥特曼;zh-tw:歸來的超人;"
+      "conv": "zh-hk:歸來的超人;zh-cn:归来的奥特曼;zh-tw:歸來的超人力霸王;"
     },
     {
       "original": null,
@@ -69,7 +53,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:梦比优斯·奥特曼外传 希卡利传奇; zh-tw:超人力霸王梅比斯外傳 希卡利傳奇; zh-hk:超人梅比斯外傳 光明傳奇;"
+      "conv": "zh:; zh-tw:超人力霸王梅比斯外傳 希卡利傳奇;zh-hans:梦比优斯·奥特曼外传 希卡利传奇; zh-tw:超人力霸王梅比斯外傳：希卡利傳奇; zh-hk:超人梅比斯外傳光明傳奇;"
     },
     {
       "original": null,
@@ -85,7 +69,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:高斯奥特曼：日月第一击;zh-tw:超人力霸王高斯 第一次接觸;"
+      "conv": "zh-cn:高斯奥特曼：日月第一击;zh-tw:超人力霸王高斯：第一次接觸;"
+    },
+    {
+      "original": null,
+      "conv": "zh:超人力霸王高斯 THE FINAL BATTLE; zh-hk:高斯迪斯終極之戰;zh-hans:高斯奥特曼VS杰斯提斯奥特曼 最终决战; zh-tw:超人力霸王高斯VS超人力霸王正義：最後戰役;"
     },
     {
       "original": null,
@@ -141,7 +129,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人佐菲;zh-tw:超人力霸王佐菲;zh-hans:佐菲·奥特曼;zh-mo:超人佐菲;"
+      "conv": "zh-hk:佐菲;zh-tw:佐菲;zh-hans:佐菲;zh-mo:佐菲;"
     },
     {
       "original": "ウルトラセブン",
@@ -149,7 +137,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:超人力霸王七號; zh-hans:赛文·奥特曼;zh-hk:超人七星侠"
+      "conv": "zh-hant:超人七號; zh-hans:赛文·奥特曼;zh-hk:超人七星侠"
     },
     {
       "original": null,
@@ -221,7 +209,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人尼奧斯;zh-hans:奈欧斯·奥特曼;zh-tw:超人力霸王涅歐斯;"
+      "conv": "zh-hk:超人尼奧斯;zh-hans:奈欧斯·奥特曼;zh-tw:超人力霸王雷歐斯;"
     },
     {
       "original": null,
@@ -245,15 +233,15 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人迪加;zh-tw:超人力霸王迪卡;zh-hans:迪迦·奥特曼;zh-mo:超人迪加;"
+      "conv": "zh:超人力霸王迪卡;zh-hk:超人迪加;zh-tw:超人力霸王迪卡;zh-hans:迪迦·奥特曼;zh-mo:超人迪加;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人帝拿;zh-tw:超人力霸王帝納;zh-hans:戴拿·奥特曼;zh-mo:超人帝拿;"
+      "conv": "zh:超人力霸王帝納;zh-hk:超人帝拿;zh-tw:超人力霸王帝納;zh-hans:戴拿·奥特曼;zh-mo:超人帝拿;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人佳亞;zh-tw:超人力霸王蓋亞;zh-hans:盖亚·奥特曼;zh-mo:超人佳亞;"
+      "conv": "zh:超人力霸王蓋亞;zh-hk:超人佳亞;zh-tw:超人力霸王蓋亞;zh-hans:盖亚·奥特曼;zh-mo:超人佳亞;"
     },
     {
       "original": null,
@@ -261,7 +249,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人高斯;zh-tw:超人力霸王高斯;zh-hans:高斯·奥特曼;zh-mo:超人高斯;"
+      "conv": "zh:超人力霸王高斯;zh-hk:超人高斯;zh-tw:超人力霸王高斯;zh-hans:高斯·奥特曼;zh-mo:超人高斯;"
     },
     {
       "original": null,
@@ -273,15 +261,15 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人麥斯;zh-tw:超人力霸王馬克斯;zh-hans:麦克斯·奥特曼;zh-mo:超人麥斯;"
+      "conv": "zh:超人力霸王馬克斯;zh-hk:超人麥斯;zh-tw:超人力霸王馬克斯;zh-hans:麦克斯·奥特曼;zh-mo:超人麥斯;"
     },
     {
       "original": null,
-      "conv": "zh-hans:杰诺·奥特曼;zh-hk:超人杰諾;zh-tw:超人力霸王杰諾;"
+      "conv": "zh-hans:杰诺·奥特曼;zh-hk:超人杰諾;zh-tw:超人力霸王傑諾;"
     },
     {
       "original": null,
-      "conv": "zh-hk:超人梅比斯;zh-tw:超人力霸王梅比斯;zh-hans:梦比优斯·奥特曼;zh-mo:超人梅比斯;"
+      "conv": "zh:超人力霸王梅比斯;zh-hk:超人梅比斯;zh-tw:超人力霸王梅比斯;zh-hans:梦比优斯·奥特曼;zh-mo:超人梅比斯;"
     },
     {
       "original": null,
@@ -345,7 +333,7 @@
     },
     {
       "original": null,
-      "conv": "zh:超人力霸王Z;zh-cn:泽塔奥特曼;zh-hk:超人Z;zh-tw:超人力霸王Z;"
+      "conv": "zh:超人力霸王Z;zh-cn:泽塔奥特曼;zh-hk:超人Z;zh-tw:超人力霸王傑特;"
     },
     {
       "original": null,
@@ -357,7 +345,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:奥特黑暗杀手;zh-tw:力霸黑暗殺手"
+      "conv": "zh-cn:奥特黑暗杀手;zh-tw:超級黑暗殺手"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:布莱泽奥特曼; zh-cn:布莱泽奥特曼;zh-tw:超人力霸王布雷薩; zh-hk:超人Blazar;"
     },
     {
       "original": null,
@@ -477,7 +469,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:麥斯;zh-tw:馬克斯;zh-hans:麦克斯;zh-mo:麥斯;"
+      "conv": "zh-hk:麥斯;zh-tw:MAX;zh-hans:麦克斯;zh-mo:麥斯;"
     },
     {
       "original": null,

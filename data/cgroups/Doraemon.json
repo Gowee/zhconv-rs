@@ -5,26 +5,30 @@
   "rules": [
     {
       "original": "ドラえもん",
-      "conv": "zh-hans:哆啦A梦;zh-hk:多啦A夢;zh-tw:哆啦A夢;"
+      "conv": "zh-hans:哆啦A梦;zh-hant:多啦A夢;zh-hk:多啦A夢;zh-tw:哆啦A夢;"
     },
     {
       "original": "ドラ",
-      "conv": "zh-hans:哆啦;zh-hk:多啦;zh-tw:哆啦;"
+      "conv": "zh-hans:哆啦;zh-hant:多啦;zh-hk:多啦;zh-tw:哆啦;"
     },
     {
       "original": "セワシ",
-      "conv": "zh-hans:世修;zh-hant:舍華斯;zh-hk:小雄;zh-tw:世修;"
+      "conv": "zh-hans:世修;zh-hant:小雄;zh-hk:小雄;zh-tw:世修;"
     },
     {
       "original": "野比のび助",
-      "conv": "zh-hans:野比大助;zh-hk:野比大助;zh-tw:野比伸助;"
+      "conv": "zh-hans:野比大助;zh-hant:野比大助;zh-hk:野比大助;zh-tw:野比伸助;"
     },
     {
       "original": "のび助",
-      "conv": "zh-hans:大助;zh-hk:大助;zh-tw:伸助;"
+      "conv": "zh-hans:大助;zh-hant:大助;zh-hk:大助;zh-tw:伸助;"
     },
     {
-      "original": "どこでもドア",
+      "original": "ジャイ子",
+      "conv": "zh-hans:胖妹;zh-hant:胖妹;zh-hk:胖妹;zh-tw:小珠;"
+    },
+    {
+      "original": "ひみつ道具",
       "conv": "zh-hans:道具;zh-hk:法寶;zh-tw:道具;"
     },
     {
@@ -149,7 +153,19 @@
     },
     {
       "original": "{{lang-ja|ザ☆ドラえもんズ",
-      "conv": "zh:哆啦A夢七小子;zh-hk:多啦A夢族;zh-tw:哆啦A夢歷險記;"
+      "conv": "哆啦A夢七小子=>zh-tw:哆啦A夢族;多啦A夢七小子=>zh-tw:哆啦A夢族;哆啦A梦七小子=>zh-tw:哆啦A夢族;"
+    },
+    {
+      "original": "{{lang-ja|ザ☆ドラえもんズ",
+      "conv": "哆啦A夢七小子=>zh-hk:多啦A夢族;多啦A夢七小子=>zh-hk:多啦A夢族;哆啦A梦七小子=>zh-hk:多啦A夢族;"
+    },
+    {
+      "original": "{{lang-ja|ザ☆ドラえもんズ",
+      "conv": "哆啦A夢族=>zh-cn:哆啦A梦七小子;多啦A夢族=>zh-cn:哆啦A梦七小子;哆啦A梦族=>zh-cn:哆啦A梦七小子;"
+    },
+    {
+      "original": "{{lang-ja|ザ☆ドラえもんズ",
+      "conv": "哆啦A夢歷險記=>zh-hk:多啦A夢族;哆啦A梦历险记=>zh-hk:多啦A夢族;"
     },
     {
       "original": "米谷良知",

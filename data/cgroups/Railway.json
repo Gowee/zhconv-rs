@@ -16,10 +16,6 @@
       "conv": "zh-hans:空气制动;zh-hk:空氣制動;zh-tw:氣軔;"
     },
     {
-      "original": "aktive",
-      "conv": "zh-cn:激活; zh-tw:重啟;"
-    },
-    {
       "original": "Allgemeinen Eisenbahngesetz",
       "conv": "zh-cn:一般铁路法; zh-tw:鐵路基本法;"
     },
@@ -36,20 +32,8 @@
       "conv": "zh-cn:追尾; zh-tw:追撞;"
     },
     {
-      "original": "Aufzug",
-      "conv": "zh-cn:乘降; zh-tw:升降;"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:乘降人数; zh-tw:乘降人數;"
-    },
-    {
       "original": "Auf-Ab-Steuerung",
       "conv": "zh-cn:上下推杆控制器; zh-tw:逆轉機;"
-    },
-    {
-      "original": "Station",
-      "conv": "zh-cn:乘降场;zh-tw:乘降場;"
     },
     {
       "original": "Ausbesserungswerk",
@@ -360,10 +344,6 @@
       "conv": "zh-hans:涡流制动;zh-hant:渦電流剎車;"
     },
     {
-      "original": "Einfahrt",
-      "conv": "zh-hans:入站;zh-hant:進站;"
-    },
-    {
       "original": "Einphasen-Reihenschlussmotor",
       "conv": "zh-hans:单相串励电动机;zh-hant:萬向馬達;"
     },
@@ -394,14 +374,6 @@
     {
       "original": "endgültige Zulassung",
       "conv": "zh-hans:最终审批;zh-hant:最終營運安全許可審查;"
-    },
-    {
-      "original": "Endstation",
-      "conv": "zh-hans:尽头站;zh-hant:終點站;"
-    },
-    {
-      "original": "enquiry",
-      "conv": "zh-hans:问询;zh-hant:詢問;"
     },
     {
       "original": "equalizer",
@@ -793,7 +765,7 @@
     },
     {
       "original": "platform gates",
-      "conv": "zh-cn:低站台门;zh-tw:半高式月台門;zh-hk:月台閘門;zh-mo:月台閘門;zh-sg:月台屏门;zh-my:低站台门;"
+      "conv": "zh-cn:低站台门;zh-tw:半高式月台門;zh-hk:月台閘門; 月台閘門=>zh-mo:月台幕門;zh-sg:月台屏门;zh-my:低站台门;"
     },
     {
       "original": "platform gates",
@@ -1072,10 +1044,6 @@
       "conv": "zh-cn:资费;zh-tw:票價費率;"
     },
     {
-      "original": "task",
-      "conv": "zh-cn:交路;zh-tw:列車乘務;"
-    },
-    {
       "original": "technische Spezifikationen für die Interoperabilität",
       "conv": "zh-cn:互操作性技术规范;zh-tw:技術規格的操作相容性標準;"
     },
@@ -1146,10 +1114,6 @@
     {
       "original": "tram",
       "conv": "有軌電車=>zh-tw:路面電車;"
-    },
-    {
-      "original": "transfer",
-      "conv": "zh-hans:换乘;zh-hant:轉乘;"
     },
     {
       "original": "travel",
@@ -1302,10 +1266,6 @@
     {
       "original": "-{筑}-豊",
       "conv": "zh-hant:筑豐;zh-hans:筑丰;"
-    },
-    {
-      "original": "筑豊電気鉄道",
-      "conv": "zh-hant:筑豐電氣鐵道; zh-hans:筑丰电气铁道;"
     },
     {
       "original": "",

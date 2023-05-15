@@ -157,7 +157,7 @@
     },
     {
       "original": "Oklahoma",
-      "conv": "俄克拉荷馬=>zh-cn:俄克拉荷马; 俄克拉荷马=>zh-hk:奧克拉荷馬; 俄克拉荷馬=>zh-tw:奧克拉荷馬; 俄克拉荷马=>zh-mo:奧克拉荷馬;"
+      "conv": "俄克拉荷馬=>zh-cn:俄克拉荷马; 俄克拉荷馬=>zh-hk:奧克拉荷馬; 俄克拉荷馬=>zh-tw:奧克拉荷馬; 俄克拉荷馬=>zh-mo:奧克拉荷馬;"
     },
     {
       "original": "Oregon",
@@ -581,7 +581,7 @@
     },
     {
       "original": "Manteca",
-      "conv": "zh-hans:曼特卡; zh-hant:曼提加; "
+      "conv": "zh-hans:曼特卡; zh-hant:曼提加;"
     },
     {
       "original": "Martinez",
@@ -594,6 +594,10 @@
     {
       "original": "Merced",
       "conv": "zh-hans:默塞德; zh-hant:美熹德;"
+    },
+    {
+      "original": "Millbrae",
+      "conv": "zh-hans:密尔布瑞; zh-hant:米爾布雷;"
     },
     {
       "original": "Monterey",
@@ -676,10 +680,6 @@
       "conv": "zh-hans:圣迭戈; zh-hant:聖地牙哥; zh-hk:聖地亞哥; zh-mo:聖地亞哥;"
     },
     {
-      "original": "San Diego",
-      "conv": "zh-hans:圣地亚哥; zh-hant:聖地牙哥; zh-hk:聖地亞哥; zh-mo:聖地亞哥;"
-    },
-    {
       "original": "San Jose",
       "conv": "zh-cn:圣何塞; zh-hk:聖何西; zh-tw:聖荷西"
     },
@@ -692,24 +692,12 @@
       "conv": "zh-hans:圣巴勃罗; zh-hant:聖帕布羅;"
     },
     {
-      "original": "Santa Barbara",
-      "conv": "zh-hans:圣巴巴拉; zh-hant:聖塔芭芭拉;"
-    },
-    {
-      "original": "Santa Clara",
-      "conv": "zh-hans:圣克拉拉; zh-hant:聖塔克拉拉;"
-    },
-    {
-      "original": "Santa Cruz",
-      "conv": "zh-hans:圣克鲁兹; zh-hant:聖塔克魯茲;"
-    },
-    {
       "original": "Santa Fe",
-      "conv": "zh-hans:圣菲; zh-hant:聖塔菲;"
+      "conv": "zh-hans:圣菲; zh-hant:聖非;"
     },
     {
       "original": "Santa Rosa",
-      "conv": "zh-hans:圣罗莎; zh-hant:聖塔羅莎;"
+      "conv": "zh-hans:圣罗莎; zh-hant:聖羅沙;"
     },
     {
       "original": "Scotts Valley",
@@ -866,6 +854,10 @@
     {
       "original": "champaignat",
       "conv": "zh-hans:香槟语;zh-hant:香檳語;"
+    },
+    {
+      "original": "MIT",
+      "conv": "zh-hans:麻省理工;zh-hant:麻省理工;"
     }
   ]
 }

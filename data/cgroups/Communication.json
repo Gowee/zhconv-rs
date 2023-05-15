@@ -116,6 +116,14 @@
       "conv": "zh-cn:调制;zh-hk:調制;zh-tw:調變;"
     },
     {
+      "original": "DM",
+      "conv": "zh-cn:增量调制;zh-tw:差量調變"
+    },
+    {
+      "original": "DPCM",
+      "conv": "zh-cn:差分脉冲编码调制;zh-tw:脈波差量編碼調變"
+    },
+    {
       "original": "vestigial sideband",
       "conv": "zh-cn:残余边带;zh-tw:殘邊帶;"
     },

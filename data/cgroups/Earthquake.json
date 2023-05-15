@@ -5,7 +5,15 @@
   "rules": [
     {
       "original": null,
-      "conv": "zh-cn:地震震级; zh-tw:地震規模; zh-hk:地震震級;"
+      "conv": "zh:地震规模; zh-cn:地震震级; zh-tw:地震規模; zh-hk:地震震級;"
+    },
+    {
+      "original": null,
+      "conv": "zh:规模为; zh-cn:震级为; zh-tw:規模為; zh-hk:震級為;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:震级度量; zh-tw:規模度量; zh-hk:震級度量;"
     },
     {
       "original": "Richter",
@@ -18,6 +26,10 @@
     {
       "original": null,
       "conv": "zh-cn:里氏地震震级; zh-tw:芮氏地震規模; zh-hk:黎克特制地震震級;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:近震震级; zh-tw:近震規模; zh-hk:近震震級;"
     },
     {
       "original": null,
@@ -41,7 +53,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:日本气象厅震级; zh-tw:日本氣象廳地震規模; zh-hk:日本氣象廳震級;"
+      "conv": "zh:日本气象厅地震规模; zh-cn:日本气象厅震级; zh-tw:日本氣象廳地震規模; zh-hk:日本氣象廳震級;"
     },
     {
       "original": null,
