@@ -3,7 +3,7 @@ name: "Release"
 on:
   push:
     branches:
-      # - main
+      - main
       - test
     tags:
       - v*
@@ -22,17 +22,17 @@ jobs:
             os: windows-2019
             cross: false
             # archive: zip
-          - target: x86_64-unknown-linux-musl
-            os: ubuntu-latest
-            cross: false
-            # archive: tar.gz tar.xz
-          - target: aarch64-unknown-linux-musl
-            os: ubuntu-latest
-            cross: true
-          - target: x86_64-apple-darwin
-            os: macos-latest
-            cross: false
-            # archive: zip
+            #- target: x86_64-unknown-linux-musl
+            #  os: ubuntu-latest
+            #  cross: false
+            #  # archive: tar.gz tar.xz
+            #- target: aarch64-unknown-linux-musl
+            #  os: ubuntu-latest
+            #  cross: true
+            #- target: x86_64-apple-darwin
+            #  os: macos-latest
+            #  cross: false
+            #  # archive: zip
     steps:
       - uses: actions/checkout@v3
       - uses: actions-rs/toolchain@v1
@@ -41,6 +41,8 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
       - name: Build with cargo
         run: cargo build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
         if: matrix.cross == false
