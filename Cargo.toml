@@ -12,8 +12,10 @@ categories = ["text-processing", "localization", "value-formatting", "wasm"]
 crate-type = ["cdylib", "rlib"]
 
 [features]
+# OpenCC rulesets are activated by default.
+# Disabling the feature would boost performance further at the cost of less accuracy.
 default = [ "opencc" ]
-opencc = [ "aho-corasick", "lazy_static" ] # Activate OpenCC rules
+opencc = [ "aho-corasick", "lazy_static" ]
 
 [dependencies]
 regex = "1.5"   
