@@ -328,6 +328,10 @@
       "conv": "计算机断层掃描=>zh-tw:電腦斷層掃描;计算机断层掃描=>zh-hk:電腦斷層掃描;"
     },
     {
+      "original": "Magnetic resonance imaging",
+      "conv": "zh-cn:磁共振成像; zh-tw:磁共振造影;  zh-hk:磁力共振掃描;"
+    },
+    {
       "original": "lead",
       "conv": "zh-cn:导联; zh-tw:導程;"
     },
@@ -369,11 +373,15 @@
     },
     {
       "original": "Alzheimer disease",
-      "conv": "zh-hant:阿茲海默症; zh-hans:阿尔茨海默病;"
+      "conv": "zh-hant:阿茲海默症; zh-hans:阿尔茨海默病; zh-my:阿茲海默症; zh-sg:阿茲海默症;"
     },
     {
-      "original": "Graves disease",
-      "conv": "zh-hant:葛瑞夫茲氏病; zh-hans:格里夫氏症;"
+      "original": "Angelman Syndrome",
+      "conv": "zh-hans:安格曼综合征; zh-tw:安格曼症候群; zh-hk:天使綜合症;"
+    },
+    {
+      "original": "Asthma",
+      "conv": "zh-hans:哮喘; zh-tw:氣喘; zh-hk:哮喘;"
     },
     {
       "original": "atrial septal defect",
@@ -382,6 +390,14 @@
     {
       "original": "bovine spongiform encephalopathy",
       "conv": "zh-hans:牛海绵状脑病; zh-hant:牛腦海綿狀病變"
+    },
+    {
+      "original": "Gastroesophageal reflux disease",
+      "conv": "zh-hans:胃食管反流病; zh-tw:胃食道逆流; zh-hk:胃食管反流病;"
+    },
+    {
+      "original": "Graves disease",
+      "conv": "zh-hant:葛瑞夫茲氏病; zh-hans:格里夫氏症;"
     },
     {
       "original": "Hepatitis A",
@@ -426,6 +442,10 @@
     {
       "original": "Influenza type D",
       "conv": "zh-tw:D型流感; zh-hk:丁型流感; zh-cn:丁型流感;"
+    },
+    {
+      "original": "Legionellosis",
+      "conv": "zh-hans:军团病; zh-hk:退伍軍人病; zh-tw:退伍軍人病;"
     },
     {
       "original": "Menigoccoccal A",
@@ -478,10 +498,6 @@
     {
       "original": "SARS",
       "conv": "zh-cn:非典; zh-hk:沙士; zh-sg:沙斯; 沙士=>zh-tw:SARS; 非典=>zh-tw:SARS; 沙斯=>zh-tw:SARS;"
-    },
-    {
-      "original": "Atypical pneumonia",
-      "conv": "zh-cn:非典型肺炎; zh-hk:非典型肺炎; zh-tw:非典型肺炎; zh-sg:非典型肺炎;"
     },
     {
       "original": "COVID-19",
@@ -568,10 +584,6 @@
       "conv": "zh-cn:钟南山; zh-tw:鍾南山; zh-hk:鍾南山;"
     },
     {
-      "original": "Legionella pneumophila",
-      "conv": "zh-hans:嗜肺军团菌; zh-hk:退伍軍人菌; zh-tw:退伍軍人桿菌;"
-    },
-    {
       "original": "Systematic desensitization",
       "conv": "zh-hans:系统脱敏; zh-tw:系統減敏感;"
     },
@@ -638,6 +650,10 @@
     {
       "original": "Johnson & Johnson",
       "conv": "zh-cn:强生;zh-hk:強生;zh-mo:強生;zh-tw:嬌生;zh-sg:强生;zh-my:强生;"
+    },
+    {
+      "original": "histamine",
+      "conv": "zh-hans:组胺;zh-hant:組織胺"
     }
   ]
 }

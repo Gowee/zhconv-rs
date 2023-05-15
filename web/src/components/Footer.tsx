@@ -21,20 +21,26 @@ export default function Footer() {
       buildDate?: Date;
       commit?: string;
       mediawikiCommit?: string;
+      openccCommit?: string;
       cgroupDate?: Date;
     }
   );
   useEffect(() => {
     async function loadBuildInfo() {
-      const { get_build_timestamp, get_commit, get_mediawiki_commit } =
-        await import("../../../pkg/zhconv.js");
+      const {
+        get_build_timestamp,
+        get_commit,
+        get_mediawiki_commit,
+        get_opencc_commit,
+      } = await import("../../../pkg/zhconv.js");
       const { timestamp: cgroupTimestamp } = await import(
         "../../public/cgroups.json"
       );
       setBuildInfo({
         buildDate: new Date(get_build_timestamp() ?? 0),
-        commit: get_commit() ?? "NotInGit",
+        commit: get_commit(),
         mediawikiCommit: get_mediawiki_commit(),
+        openccCommit: get_opencc_commit(),
         cgroupDate: new Date(cgroupTimestamp * 1000),
       });
     }
@@ -57,7 +63,9 @@ export default function Footer() {
             {"Build: "}
             <Link
               color="inherit"
-              href={`https://github.com/Gowee/zhconv-rs/commit/${buildInfo.commit}`}
+              href={`https://github.com/Gowee/zhconv-rs/commit/${
+                buildInfo.commit ?? ""
+              }`}
               underline="always"
               title={buildInfo?.buildDate?.toLocaleString() ?? undefined}
             >
@@ -67,11 +75,27 @@ export default function Footer() {
             {"MediaWiki: "}
             <Link
               color="inherit"
-              href={`https://github.com/wikimedia/mediawiki/blob/${buildInfo.mediawikiCommit}/includes/languages/data/ZhConversion.php#L14`}
+              href={`https://github.com/wikimedia/mediawiki/blob/${
+                buildInfo.mediawikiCommit ?? "master"
+              }/includes/languages/data/ZhConversion.php#L14`}
               underline="always"
             >
               <code>
                 {buildInfo.mediawikiCommit?.substring(0, 8) ?? "????????"}
+              </code>
+            </Link>
+            {" | "}
+            {"OpenCC: "}
+            <Link
+              color="inherit"
+              href={`https://github.com/BYVoid/OpenCC/blob/${
+                buildInfo.openccCommit ?? "master"
+              }/data/dictionary`}
+              underline="always"
+            >
+              <code>
+                {buildInfo.openccCommit?.substring(0, 8) ??
+                  (buildInfo.mediawikiCommit ? "__N.A.__" : "????????")}
               </code>
             </Link>
             {" | "}

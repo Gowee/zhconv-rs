@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::iter::IntoIterator;
 use std::str::FromStr;
 
-use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
+use aho_corasick::{AhoCorasick, AhoCorasickBuilder, AhoCorasickKind, MatchKind};
 use once_cell::unsync::Lazy;
 use regex::Regex;
 
@@ -317,7 +317,6 @@ impl<'t> ZhConverterBuilder<'t> {
     pub fn conv_lines(mut self, lines: &str) -> Self {
         for line in lines.lines().map(str::trim).filter(|s| !s.is_empty()) {
             if let Ok(conv) = Conv::from_str(line.trim()) {
-                dbg!(&conv);
                 self.adds
                     .extend(conv.get_conv_pairs(self.target).iter().map(|&(f, t)| {
                         if f.is_empty() {
@@ -334,7 +333,8 @@ impl<'t> ZhConverterBuilder<'t> {
     ///
     /// With DFA enabled, it takes rougly 5x time to build the converter while the conversion
     /// speed is < 2x faster. All built-in converters have this feature enabled for better
-    /// conversion performance.
+    /// conversion performance. In other cases with this flag unset, the implementation would
+    /// determine by itself whether to enable it per the number of patterns.
     pub fn dfa(mut self, enabled: bool) -> Self {
         self.dfa = enabled;
         self
@@ -360,7 +360,7 @@ impl<'t> ZhConverterBuilder<'t> {
             tables
                 .iter()
                 .flat_map(|(froms, tos)| {
-                    itertools::zip(froms.trim().split('|'), tos.trim().split('|'))
+                    std::iter::zip(froms.trim().split('|'), tos.trim().split('|'))
                 })
                 .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
                 .filter(|&(from, _to)| !removes.contains_key(from))
@@ -374,8 +374,13 @@ impl<'t> ZhConverterBuilder<'t> {
         let sequence = mapping.keys();
         let automaton = AhoCorasickBuilder::new()
             .match_kind(MatchKind::LeftmostLongest)
-            .dfa(*dfa)
-            .build(sequence);
+            .kind(if *dfa {
+                Some(AhoCorasickKind::DFA)
+            } else {
+                None
+            })
+            .build(sequence)
+            .unwrap();
         ZhConverter {
             variant: *target,
             mapping,

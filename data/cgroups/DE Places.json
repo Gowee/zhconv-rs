@@ -33,27 +33,23 @@
     },
     {
       "original": "Holstein",
-      "conv": "zh-hans:荷尔斯泰因;zh-hk:荷爾斯泰因;zh-tw:霍爾斯坦"
+      "conv": "zh-hans:荷尔斯泰因;zh-hk:荷爾斯泰因;zh-tw:霍爾斯坦;"
     },
     {
-      "original": "Mecklenburg-Vorpommern",
-      "conv": "zh-hans:梅克伦堡-前波莫瑞; zh-hant:梅克倫堡-前波莫瑞; zh-cn:梅克伦堡-前波美拉尼亚; zh-hk:梅克倫堡-西波美恩; zh-tw:梅克倫堡-西波美拉尼亞;"
-    },
-    {
-      "original": "Mecklenburg-Vorpommern（另一种连词符）",
-      "conv": "zh-hans:梅克伦堡－前波莫瑞; zh-hant:梅克倫堡－前波莫瑞; zh-cn:梅克伦堡－前波美拉尼亚; zh-hk:梅克倫堡－西波美恩; zh-tw:梅克倫堡－西波美拉尼亞;"
+      "original": "Neumarkt",
+      "conv": "zh-hans:诺伊马克特;zh-hant:諾伊馬克特;zh-hk:紐馬赫;zh-mo:紐馬赫;zh-tw:諾伊馬克特;zh-cn:诺伊马克特;"
     },
     {
       "original": "Pfalz",
-      "conv": "zh-hans:普法尔茨;zh-hant:普法茲;zh-hk:普法茨;"
+      "conv": "zh-hans:普法尔茨;zh-hant:普法茲;zh-hk:普法茨;zh-tw:法爾茲;"
     },
     {
       "original": "Rheinland-Pfalz",
-      "conv": "zh-hans:莱茵兰-普法尔茨;zh-hant:萊茵蘭-普法茲;zh-hk:萊茵蘭-普法茨;"
+      "conv": "zh-hans:莱茵兰-普法尔茨;zh-hant:萊茵-普法茲;zh-hk:萊茵蘭-普法茨;zh-tw:萊茵-法爾茲;"
     },
     {
       "original": "Rheinland-Pfalz（另一种连词符）",
-      "conv": "zh-hans:莱茵兰－普法尔茨;zh-hant:萊茵蘭－普法茲;zh-hk:萊茵蘭－普法茨;"
+      "conv": "zh-hans:莱茵兰－普法尔茨;zh-hant:萊茵蘭－普法茲;zh-hk:萊茵蘭－普法茨;zh-tw:萊茵-法爾茲;"
     },
     {
       "original": "Schlesien/Silesia",
@@ -61,19 +57,19 @@
     },
     {
       "original": "Schleswig",
-      "conv": "zh-hans:石勒苏益格;zh-hk:石勒蘇益格;zh-tw:什勒斯維希"
+      "conv": "zh-hans:石勒苏益格;zh-hk:石勒蘇益格;zh-tw:什勒斯維希;"
     },
     {
       "original": "Schwaben",
-      "conv": "zh-cn:施瓦本;zh-hk:士瓦本;zh-tw:士瓦本"
+      "conv": "zh-cn:施瓦本;zh-hk:士瓦本;zh-tw:士瓦本;"
     },
     {
       "original": "Vorpommern",
-      "conv": "zh-hans:前波美拉尼亚;zh-hk:西波瑪恩;zh-tw:西波美拉尼亞"
+      "conv": "zh-hans:前波美拉尼亚; zh-hant:西波美拉尼亞;"
     },
     {
       "original": "Westfalen",
-      "conv": "zh-hans:威斯特法伦;zh-hant:威斯特法倫;zh-hk:西法倫;zh-tw:西發利亞;"
+      "conv": "zh-hans:威斯特法伦;zh-hant:威斯特法倫;zh-hk:西法倫;zh-tw:西伐利亞;"
     },
     {
       "original": "Aachen",
@@ -102,6 +98,10 @@
     {
       "original": "Binz",
       "conv": "zh-cn:宾茨;zh-tw:賓茲;"
+    },
+    {
+      "original": "Blindheim",
+      "conv": "zh-cn:布林德海姆;zh-tw:布林德海姆;zh-hk:白蘭軒;"
     },
     {
       "original": "Bonn",
@@ -140,6 +140,10 @@
       "conv": "zh-hans:开姆尼茨;zh-hk:真尼沙;zh-tw:肯尼茲;"
     },
     {
+      "original": "Charlottenburg",
+      "conv": "zh-cn:夏洛滕堡;zh-tw:夏洛騰堡;"
+    },
+    {
       "original": "Dachau",
       "conv": "zh-cn:达豪;zh-tw:達浩;"
     },
@@ -165,15 +169,7 @@
     },
     {
       "original": "Eisenach",
-      "conv": "zh-cn:艾森纳赫;zh-hant:艾森納赫"
-    },
-    {
-      "original": "Eisenach",
-      "conv": "zh-cn:爱森纳赫;zh-hant:艾森納赫"
-    },
-    {
-      "original": "Eisenach",
-      "conv": "zh-cn:埃森纳赫;zh-hant:艾森納赫"
+      "conv": "zh-cn:爱森纳赫;zh-hant:艾森納赫;艾森纳赫=>zh-hant:艾森納赫;埃森纳赫=>zh-hant:艾森納赫;"
     },
     {
       "original": "Erding",
@@ -256,10 +252,6 @@
       "conv": "zh-hans:科布伦茨;zh-hant:科布倫茲;"
     },
     {
-      "original": "Koblenz",
-      "conv": "zh-hans:科布倫茨;zh-hant:科布倫茲;"
-    },
-    {
       "original": "Konstanz",
       "conv": "zh-cn:康斯坦茨;zh-tw:康士坦茲;"
     },
@@ -312,12 +304,32 @@
       "conv": "zh-hans:毛尔布龙;zh-hant:毛布朗;"
     },
     {
-      "original": "Maulbronn",
-      "conv": "zh-hans:毛爾布龍;zh-hant:毛布朗;"
+      "original": "Minden",
+      "conv": "zh-cn:明登;zh-tw:明登;zh-hk:棉登;"
     },
     {
       "original": "Nassau",
-      "conv": "zh-cn:拿骚; zh-tw:拿索; zh-hk:拿騷"
+      "conv": "zh-cn:拿骚;zh-tw:拿索;zh-hk:蘭秀;"
+    },
+    {
+      "original": "Nassau",
+      "conv": "拿騷=>zh-tw:拿索;拿騷=>zh-hk:蘭秀;拿騷=>zh-mo:蘭秀;"
+    },
+    {
+      "original": "Nassau",
+      "conv": "拿紹=>zh-cn:拿骚;拿紹=>zh-my:拿骚;拿紹=>zh-sg:拿骚;拿紹=>zh-tw:拿索;拿紹=>zh-hk:蘭秀;拿紹=>zh-mo:蘭秀;"
+    },
+    {
+      "original": "Nassau",
+      "conv": "拿绍=>zh-cn:拿骚;拿绍=>zh-my:拿骚;拿绍=>zh-sg:拿骚;拿绍=>zh-tw:拿索;拿绍=>zh-hk:蘭秀;拿绍=>zh-mo:蘭秀;"
+    },
+    {
+      "original": "Nassau",
+      "conv": "納蘇=>zh-cn:拿骚;納蘇=>zh-my:拿骚;納蘇=>zh-sg:拿骚;納蘇=>zh-tw:拿索;納蘇=>zh-hk:蘭秀;納蘇=>zh-mo:蘭秀;"
+    },
+    {
+      "original": "Nassau",
+      "conv": "纳苏=>zh-cn:拿骚;纳苏=>zh-my:拿骚;纳苏=>zh-sg:拿骚;纳苏=>zh-tw:拿索;纳苏=>zh-hk:蘭秀;纳苏=>zh-mo:蘭秀;"
     },
     {
       "original": "Nürburg",
@@ -430,14 +442,6 @@
     {
       "original": "Ulm",
       "conv": "zh-hans:乌尔姆;zh-hk:烏爾姆;zh-tw:烏姆;"
-    },
-    {
-      "original": "Völklingen",
-      "conv": "zh-hans:弗尔克林根;zh-hant:弗克林根;"
-    },
-    {
-      "original": "Völklingen",
-      "conv": "zh-hans:弗爾克林根;zh-hant:弗克林根;"
     },
     {
       "original": "Weilburg",
@@ -685,11 +689,11 @@
     },
     {
       "original": "Mecklenburg-Vorpommern",
-      "conv": "zh-hans:梅克伦堡-前波莫瑞州; zh-hant:梅克倫堡-前波莫瑞州; zh-cn:梅克伦堡-前波美拉尼亚州; zh-hk:梅克倫堡-西波美恩州; zh-tw:梅克倫堡-西波美拉尼亞邦;"
+      "conv": "zh-hans:梅克伦堡-前波美拉尼亚州; zh-hk:梅克倫堡-西波美拉尼亞州; zh-tw:梅克倫堡-西波美拉尼亞邦;"
     },
     {
       "original": "Mecklenburg-Vorpommern（另一种连词符）",
-      "conv": "zh-hans:梅克伦堡－前波莫瑞州; zh-hant:梅克倫堡－前波莫瑞州; zh-cn:梅克伦堡－前波美拉尼亚州; zh-hk:梅克倫堡－西波美恩州; zh-tw:梅克倫堡－西波美拉尼亞邦;"
+      "conv": "zh-hans:梅克伦堡－前波美拉尼亚州; zh-hk:梅克倫堡－西波美拉尼亞州; zh-tw:梅克倫堡－西波美拉尼亞邦;"
     },
     {
       "original": "Niedersachsen",
@@ -697,19 +701,19 @@
     },
     {
       "original": "Nordrhein-Westfalen",
-      "conv": "zh-hans:北莱茵-威斯特法伦州; zh-hant:北萊茵-威斯特法倫州; zh-hk:北萊茵-西法倫州; zh-tw:北萊茵-西發利亞邦;"
+      "conv": "zh-hans:北莱茵-威斯特法伦州; zh-hant:北萊茵-威斯特法倫州; zh-hk:北萊茵-西法倫州; zh-tw:北萊茵-西伐利亞邦;"
     },
     {
       "original": "Nordrhein-Westfalen（另一种连词符）",
-      "conv": "zh-hans:北莱茵－威斯特法伦州; zh-hant:北萊茵－威斯特法倫州; zh-hk:北萊茵－西法倫州; zh-tw:北萊茵－西發利亞邦;"
+      "conv": "zh-hans:北莱茵－威斯特法伦州; zh-hant:北萊茵－威斯特法倫州; zh-hk:北萊茵－西法倫州; zh-tw:北萊茵－西伐利亞邦;"
     },
     {
       "original": "Rheinland-Pfalz",
-      "conv": "zh-cn:莱茵兰-普法尔茨州;zh-hk:萊茵蘭-普法茲州;zh-tw:萊茵蘭-普法茲邦;"
+      "conv": "zh-cn:莱茵兰-普法尔茨州;zh-hk:萊茵蘭-普法茲州;zh-tw:萊茵-法爾茲邦;"
     },
     {
       "original": "Rheinland-Pfalz（另一种连词符）",
-      "conv": "zh-cn:莱茵兰－普法尔茨州;zh-hk:萊茵蘭－普法茲州;zh-tw:萊茵蘭－普法茲邦;"
+      "conv": "zh-cn:莱茵兰－普法尔茨州;zh-hk:萊茵蘭－普法茲州;zh-tw:萊茵－法爾茲邦;"
     },
     {
       "original": "Rheinland-Pfalz（简称）",
@@ -4161,6 +4165,10 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:人民州; zh-hk:人民州; zh-tw:人民邦"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:州旗; zh-hk:州旗; zh-tw:邦旗"
     },
     {
@@ -4178,6 +4186,46 @@
     {
       "original": null,
       "conv": "zh-hans:州级; zh-hk:州級; zh-tw:邦級"
+    },
+    {
+      "original": "Bundesministerium für Wirtschaft und Klimaschutz",
+      "conv": "zh:经济事务和气候行动部; zh-cn:经济和气候保护部;zh-hant:經濟事務和氣候行動部;"
+    },
+    {
+      "original": "Bundesministerium des Innern und für Heimat",
+      "conv": "zh:内政和家园部; zh-cn:内政和国土部;zh-hant:內政和家園部;"
+    },
+    {
+      "original": "Bundesministerium für Arbeit und Soziales",
+      "conv": "zh-cn:劳工和社会保障部;zh-hant:勞動及社會事務部;zh-tw:勞工及社會事務部"
+    },
+    {
+      "original": "Bundesministerium für Familie, Senioren, Frauen und Jugend",
+      "conv": "zh-cn:家庭、老年、妇女和青年部;zh-hant:家庭事務、老年、婦女及青年部;"
+    },
+    {
+      "original": "Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz",
+      "conv": "zh-cn:环境、自然保护、核安全和消费者保护部;zh-hant:環境、自然保育、核安全及消費者保護部;"
+    },
+    {
+      "original": "Bundesministerium für Ernährung und Landwirtschaft",
+      "conv": "zh-cn:食品和农业部;zh-hant:食品及農業部;"
+    },
+    {
+      "original": "Bundesministerium für Digitales und Verkehr",
+      "conv": "zh-cn:数字化和交通部;zh-hant:數碼及交通部;zh-tw:數位及交通部;"
+    },
+    {
+      "original": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "conv": "zh-cn:经济合作与发展部;zh-hant:經濟合作及發展部;"
+    },
+    {
+      "original": "Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen",
+      "conv": "zh-cn:住房、城市发展和建设部;zh-hant:房屋、都市發展及建設部;"
+    },
+    {
+      "original": "Bundesministerium",
+      "conv": "部會=>zh-cn:部委;"
     }
   ]
 }

@@ -45,7 +45,7 @@
     },
     {
       "original": "가면",
-      "conv": "zh-hans:假面;zh-hant:假面;zh-cn:假面;zh-tw:假面愛人;zh-hk:假面;zh-mo:假面;"
+      "conv": "假面愛人=>zh-hans:假面;假面愛人=>zh-hant:假面;假面愛人=>zh-cn:假面;假面愛人=>zh-tw:假面愛人;假面愛人=>zh-hk:假面;假面愛人=>zh-mo:假面;"
     },
     {
       "original": "가문의 영광",
@@ -209,7 +209,15 @@
     },
     {
       "original": "구미호: 여우누이뎐",
-      "conv": "zh-hans:九尾狐：狐狸小妹传;zh-hant:九尾狐：狐狸小妹傳;zh-cn:九尾狐：狐狸姐姐传;zh-tw:九尾狐的復仇;zh-hk:九尾狐傳;zh-mo:九尾狐傳;"
+      "conv": "zh-hans:九尾狐：狐狸小妹传;zh-hant:九尾狐：狐狸小妹傳;zh-cn:九尾狐：狐狸姐姐传;zh-tw:九尾狐的復仇;"
+    },
+    {
+      "original": "구미호: 여우누이뎐",
+      "conv": "九尾狐：狐狸小妹传=>zh-hk:九尾狐傳; 九尾狐：狐狸小妹傳=>zh-hk:九尾狐傳; 九尾狐：狐狸姐姐传=>zh-hk:九尾狐傳; 九尾狐的復仇=>zh-hk:九尾狐傳;"
+    },
+    {
+      "original": "구미호: 여우누이뎐",
+      "conv": "九尾狐：狐狸小妹传=>zh-mo:九尾狐傳; 九尾狐：狐狸小妹傳=>zh-mo:九尾狐傳; 九尾狐：狐狸姐姐传=>zh-mo:九尾狐傳; 九尾狐的復仇=>zh-mo:九尾狐傳;"
     },
     {
       "original": "국가가 부른다",
@@ -268,16 +276,20 @@
       "conv": "zh-hans:绿蔷薇;zh-hant:綠薔薇;zh-cn:绿蔷薇;zh-tw:綠薔薇;zh-hk:再愛你一次;zh-mo:再愛你一次;"
     },
     {
-      "original": "그 여자",
-      "conv": "那女人=>zh-tw:幸福女人花"
-    },
-    {
       "original": "그 여자가 무서워",
       "conv": "那女人好可怕=>zh-tw:殘酷的愛"
     },
     {
       "original": "그저 바라보다가",
-      "conv": "zh-hans:那个傻瓜;zh-hant:那個傻瓜;zh-cn:偶然结婚;zh-tw:魔女的誘惑;zh-hk:摘星情緣;zh-sg:傻瓜;zh-mo:摘星情緣;"
+      "conv": "zh-hans:那个傻瓜;zh-hant:那個傻瓜;zh-cn:偶然结婚;zh-hk:摘星情緣;zh-mo:摘星情緣;"
+    },
+    {
+      "original": "그저 바라보다가",
+      "conv": "那个傻瓜=>zh-tw:傻瓜; 那個傻瓜=>zh-tw:傻瓜; 偶然结婚=>zh-tw:傻瓜; 摘星情緣=>zh-tw:傻瓜;"
+    },
+    {
+      "original": "그저 바라보다가",
+      "conv": "那个傻瓜=>zh-sg:傻瓜; 那個傻瓜=>zh-sg:傻瓜; 偶然结婚=>zh-sg:傻瓜; 摘星情緣=>zh-sg:傻瓜;"
     },
     {
       "original": "그 햇살이 나에게",
@@ -509,7 +521,7 @@
     },
     {
       "original": "닥터스",
-      "conv": "zh-hans:Doctors;zh-hant:Doctors;zh-cn:Doctors;zh-tw:Doctors醫生們;zh-hk:Doctors;zh-mo:Doctors;"
+      "conv": "Doctors醫生們=>zh-cn:Doctors; Doctors醫生們=>zh-tw:Doctors醫生們; Doctors醫生們=>zh-hk:Doctors; Doctors醫生們=>zh-mo:Doctors;"
     },
     {
       "original": "닥터 이방인",
@@ -652,6 +664,10 @@
       "conv": "打擊=>zh-tw:命運的搏擊"
     },
     {
+      "original": "또! 오해영",
+      "conv": "zh-tw:又是吳海英; zh-hk:又，吳海英; zh-sg:又见吴海英;"
+    },
+    {
       "original": "떼루아",
       "conv": "泰勒瓦=>zh-cn:情定泰勒瓦;泰勒瓦=>zh-tw:情定泰勒瓦;情定泰勒瓦=>zh-hk:泰勒瓦;情定泰勒瓦=> zh-mo:泰勒瓦;"
     },
@@ -785,7 +801,7 @@
     },
     {
       "original": "맨땅에 헤딩",
-      "conv": "zh-hans:向大地头球;zh-hant:向大地頭球;zh-cn:向大地头球;zh-tw:向大地頭球;zh-hk:東方神球;zh-mo:東方神球;"
+      "conv": "zh-hans:向大地头球;zh-hant:向大地頭球;zh-cn:向大地头球;zh-tw:足夢少年;zh-hk:東方神球;zh-mo:東方神球;"
     },
     {
       "original": "멈출 수 없어",
@@ -833,7 +849,7 @@
     },
     {
       "original": "문희",
-      "conv": "zh-hans:文熙;zh-hant:復仇的代價;zh-cn:文熙;zh-tw:復仇的代價;zh-hk:文熙;zh-mo:文熙;"
+      "conv": "復仇的代價=>zh-hans:文熙;復仇的代價=>zh-hant:復仇的代價;復仇的代價=>zh-cn:文熙;復仇的代價=>zh-tw:復仇的代價;復仇的代價=>zh-hk:文熙;復仇的代價=>zh-mo:文熙;"
     },
     {
       "original": "못된 사랑",
@@ -913,7 +929,7 @@
     },
     {
       "original": "반짝반짝 빛나는",
-      "conv": "zh-hans:一闪一闪亮晶晶;zh-hant:閃閃發亮;zh-cn:灿烂人生;zh-tw:燦爛人生;zh-hk:燦爛人生;zh-sg:灿烂人生;zh-mo:燦爛人生;"
+      "conv": "zh:一閃一閃亮晶晶;zh-hans:一闪一闪亮晶晶;zh-hant:閃閃發亮;zh-cn:灿烂人生;zh-tw:燦爛人生;zh-hk:燦爛人生;zh-sg:灿烂人生;zh-mo:燦爛人生;"
     },
     {
       "original": "",
@@ -998,6 +1014,10 @@
     {
       "original": "부모님전상서",
       "conv": "zh-hans:致父亲母亲;zh-hant:致父親母親;zh-cn:致父亲母亲;zh-tw:說不出的愛;zh-hk:致父親母親;zh-mo:致父親母親;"
+    },
+    {
+      "original": "부부의 세계",
+      "conv": "zh-tw:夫婦的世界; zh-hk:夫妻的世界; zh-sg:夫妻的世界;"
     },
     {
       "original": "부자의 탄생",
@@ -1285,7 +1305,7 @@
     },
     {
       "original": "시그널",
-      "conv": "zh-hans:Signal;zh-hant:Signal;zh-cn:Signal;zh-tw:Signal信號;zh-hk:解碼追兇;zh-mo:解碼追兇;"
+      "conv": "zh-tw:Signal信號;zh-hk:解碼追兇;zh-mo:解碼追兇;"
     },
     {
       "original": "시티홀",
@@ -1349,11 +1369,7 @@
     },
     {
       "original": "싸인",
-      "conv": "zh-hans:Sign;zh-hant:Sign;zh-cn:Sign;zh-tw:白色追緝令Sign;zh-hk:Sign法證狂人;zh-mo:法證追兇;"
-    },
-    {
-      "original": "싸인",
-      "conv": "Sign=>zh-tw:白色追緝令Sign;Sign=>zh-hk:Sign法證狂人;"
+      "conv": "zh-tw:白色追緝令Sign;zh-hk:Sign法證狂人;zh-mo:法證追兇;"
     },
     {
       "original": "",
@@ -1401,7 +1417,19 @@
     },
     {
       "original": "아이리스",
-      "conv": "zh-hans:IRIS;zh-hant:IRIS;zh-cn:生死迷谍IRIS;zh-tw:特務情人IRIS;zh-hk:IRIS;zh-sg:IRIS;zh-mo:IRIS;"
+      "conv": "zh-cn:生死迷谍IRIS;zh-tw:特務情人IRIS;"
+    },
+    {
+      "original": "아이리스",
+      "conv": "生死迷谍IRIS=>zh-hk:IRIS; 特務情人IRIS=>zh-hk:IRIS;"
+    },
+    {
+      "original": "아이리스",
+      "conv": "生死迷谍IRIS=>zh-sg:IRIS; 特務情人IRIS=>zh-sg:IRIS;"
+    },
+    {
+      "original": "아이리스",
+      "conv": "生死迷谍IRIS=>zh-mo:IRIS; 特務情人IRIS=>zh-mo:IRIS;"
     },
     {
       "original": "아이리스 II",
@@ -2040,6 +2068,10 @@
       "conv": "zh-hans:耶诞节会下雪嗎？;zh-hant:聖誕節會下雪嗎？;zh-cn:圣诞节会下雪吗;zh-tw:白色戀人;zh-hk:聖誕會下雪嗎？;zh-mo:聖誕會下雪嗎？;"
     },
     {
+      "original": "퀸메이커",
+      "conv": "zh-sg:女王制造者; zh-tw:造后者; zh-hk:造后者;"
+    },
+    {
       "original": "키드갱",
       "conv": "zh-hans:黑道奶爸;zh-hant:黑道奶爸;zh-cn:黑道奶爸;zh-tw:黑道奶爸;zh-hk:黑爸B;zh-mo:黑爸B;"
     },
@@ -2152,10 +2184,6 @@
       "conv": "布拉格恋人=>zh-hk:布拉格戀人;布拉格戀人=>zh-hk:布拉格戀人;布拉格恋人=>zh-mo:布拉格戀人;布拉格戀人=>zh-mo:布拉格戀人;"
     },
     {
-      "original": "프레지던트",
-      "conv": "zh-hans:总统;zh-hant:總統;zh-cn:总统;zh-tw:夢想之路;zh-hk:總統;zh-mo:總統;"
-    },
-    {
       "original": "프로듀사",
       "conv": "zh-tw:Producer 製作人的那些事;zh-hk:製作人們;zh-mo:製作人們;"
     },
@@ -2178,6 +2206,10 @@
     {
       "original": "하이드 지킬, 나",
       "conv": "zh-hans:海德、哲基尔与我;zh-hant:海德、哲基爾與我;zh-cn:海德、哲基尔与我;zh-tw:愛的兩人三角;zh-hk:海德、哲基爾與我;zh-sg:海德哲基尔与我;zh-mo:海德、哲基爾與我;"
+    },
+    {
+      "original": "하이에나",
+      "conv": "zh-tw:Hyena：富豪辯護人; zh-hk:Hyena：富豪辯護人; zh-sg:鬣狗式生存;"
     },
     {
       "original": "하이킥! 짧은 다리의 역습",
@@ -2302,6 +2334,26 @@
     {
       "original": "연기대상",
       "conv": "zh:演技大獎; zh-tw:演技大賞; zh-hk:演技大賞; zh-cn:演技大奖;"
+    },
+    {
+      "original": "대종상",
+      "conv": "zh:大鐘獎; zh-tw:大鐘賞; zh-hk:大鐘賞; zh-cn:大钟奖;"
+    },
+    {
+      "original": "백상예술대상",
+      "conv": "zh:百想藝術大獎; zh-tw:百想藝術大賞; zh-hk:百想藝術大賞; zh-cn:百想艺术大奖;"
+    },
+    {
+      "original": "KBS연기대상",
+      "conv": "zh:KBS演技大獎; zh-tw:KBS演技大賞; zh-hk:KBS演技大賞; zh-cn:KBS演技大奖;"
+    },
+    {
+      "original": "MBC연기대상",
+      "conv": "zh:MBC演技大獎; zh-tw:MBC演技大賞; zh-hk:MBC演技大賞; zh-cn:MBC演技大奖;"
+    },
+    {
+      "original": "SBS연기대상",
+      "conv": "zh:SBS演技大獎; zh-tw:SBS演技大賞; zh-hk:SBS演技大賞; zh-cn:SBS演技大奖;"
     },
     {
       "original": "",

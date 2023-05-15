@@ -373,7 +373,7 @@
     },
     {
       "original": "Pareto optimality",
-      "conv": "zh-cn:帕累托最优; zh-hant:帕累托最優; zh-hk:柏利圖最適; zh-tw:柏拉圖最適;"
+      "conv": "zh-cn:帕累托最优; zh-hant:帕累托最優; zh-hk:柏利圖最適; zh-tw:帕雷托最適;"
     },
     {
       "original": "Pareto optimality",
@@ -560,6 +560,10 @@
       "conv": "zh-cn:外汇掉期; zh-hk:外匯互換; zh-tw:外匯交換;"
     },
     {
+      "original": "position",
+      "conv": "zh-tw:部位;zh-hk:倉位;zh-cn:仓位;"
+    },
+    {
       "original": "cornering",
       "conv": "zh-cn:逼仓; zh-tw:逼倉; zh-hk:挾倉;"
     },
@@ -709,11 +713,7 @@
     },
     {
       "original": "Pareto",
-      "conv": "zh-cn:帕累托; zh-hk:柏利圖; zh-tw:柏拉圖;"
-    },
-    {
-      "original": "Pareto",
-      "conv": "帕雷托=>zh-hk:柏利圖; 帕雷托=> zh-tw:柏拉圖;"
+      "conv": "zh-cn:帕累托; zh-hk:柏利圖; zh-tw:帕雷托;"
     },
     {
       "original": "Giffen",

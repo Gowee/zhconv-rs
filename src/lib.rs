@@ -1,17 +1,19 @@
 //! This crate provides a ZhConverter that converts Chinese variants among each other. The
 //! implementation is based on the [Aho-Corasick](https://docs.rs/aho-corasick/latest) automaton
-//! with the leftmost-longest matching strategy and linear time complexity with respest to the
+//! with the leftmost-longest matching strategy and linear time complexity with respect to the
 //! length of input text and conversion rules. It ships with a bunch of conversion tables,
 //! extracted from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php)
 //! which is maintained and used by MediaWiki and Chinese Wikipedia.
 //!
-//! The converter is never meant to be 100% accurate. In Chinese Wikipedia, it is pretty common
-//! for editors to apply additional [CGroups](https://zh.wikipedia.org/wiki/Module:CGroup) and
+//! While built-in datasets work well for general case, the converter is never meant to be 100%
+//! accurate, especially for professional text. In Chinese Wikipedia, it is pretty common for
+//! editors to apply additional [CGroups](https://zh.wikipedia.org/wiki/Module:CGroup) and
 //! [manual conversion rules](https://zh.wikipedia.org/wiki/Help:%E9%AB%98%E7%BA%A7%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2%E8%AF%AD%E6%B3%95)
-//! on the page base. For completeness, the converter also optionally supports the conversion rule
-//! syntax used in MediaWiki in the form `-{FOO BAR}-` and loading external rules defined line by
-//! line, which are typically extracted and pre-processed from a [CGroup](https://zh.wikipedia.org/wiki/Category:%E5%85%AC%E5%85%B1%E8%BD%AC%E6%8D%A2%E7%BB%84%E6%A8%A1%E5%9D%97)
+//! on an article base. The converter optionally supports the conversion rule syntax used in
+//! MediaWiki in the form `-{FOO BAR}-` and loading external rules defined line by line, which are
+//! typically extracted and pre-processed from a [CGroup](https://zh.wikipedia.org/wiki/Category:%E5%85%AC%E5%85%B1%E8%BD%AC%E6%8D%A2%E7%BB%84%E6%A8%A1%E5%9D%97)
 //! on a specific topic.
+//! For simplicity, it is certainly also possible to add custom conversions by `(FROM, TO)` pairs.
 //!
 //! # Usage
 //! This crate is [on crates.io](https://crates.io/crates/zhconv).
@@ -40,7 +42,8 @@
 //! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // global rule
 //! ```
 //!
-//! To load or add additional conversion rules such as CGroup, see [`ZhConverterBuilder`].
+//! To load or add additional conversion rules such as CGroups or `(FROM, TO)` pairs,
+//! see [`ZhConverterBuilder`].
 //!
 
 use std::str::FromStr;

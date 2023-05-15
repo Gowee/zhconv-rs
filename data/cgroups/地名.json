@@ -217,11 +217,11 @@
     },
     {
       "original": "Barcelona",
-      "conv": "zh:巴塞隆拿;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞羅那;"
+      "conv": "zh:巴塞隆拿;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞隆拿;"
     },
     {
       "original": "Barcelona",
-      "conv": "zh:巴塞隆那;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞羅那;"
+      "conv": "zh:巴塞隆那;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞隆拿;"
     },
     {
       "original": "Basseterre",
@@ -309,15 +309,11 @@
     },
     {
       "original": "Bologna",
-      "conv": "zh-cn:博洛尼亚; zh-tw:波隆納; zh-hk:博洛尼亞"
+      "conv": "zh-cn:博洛尼亚; zh-tw:波隆納; zh-hk:波倫亞"
     },
     {
       "original": "Bolzano",
       "conv": "zh-hans:博尔扎诺; zh-hk:博爾扎諾; zh-tw:波爾察諾"
-    },
-    {
-      "original": "Bologna",
-      "conv": "zh-hans:博洛尼亚; zh-hk:博洛尼亞; zh-tw:波隆那"
     },
     {
       "original": "Bonaire",
@@ -448,8 +444,8 @@
       "conv": "zh-cn:凯科斯; zh-tw:凱可; zh-hk:凱科斯"
     },
     {
-      "original": "Calais",
-      "conv": "zh-cn:加来;zh-hk:加來;zh-tw:加萊;"
+      "original": "Calais, Pas de",
+      "conv": "zh-cn:加来海峽;zh-hk:加來海峽;zh-tw:加萊海峽;"
     },
     {
       "original": "Calgary",
@@ -481,27 +477,27 @@
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "zh-cn:卡纳温;zh-my:卡纳温;zh-sg:卡纳温;zh-hk:加拿分;zh-mo:加拿分;zh-tw:卡納芬"
+      "conv": "zh-cn:卡那封;zh-my:卡纳温;zh-sg:卡纳温;zh-hk:加拿分;zh-mo:加拿分;zh-tw:卡納芬"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡納溫=>zh-hk:加拿分;卡納溫=>zh-mo:加拿分;卡納溫=>zh-tw:卡納芬"
+      "conv": "卡納溫=>zh-cn:卡那封;卡納溫=>zh-hk:加拿分;卡納溫=>zh-mo:加拿分;卡納溫=>zh-tw:卡納芬"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡那封=>zh-cn:卡纳温;卡那封=>zh-my:卡纳温;卡那封=>zh-sg:卡纳温;卡那封=>zh-hk:加拿分;卡那封=>zh-mo:加拿分;卡那封=>zh-tw:卡納芬"
+      "conv": "卡那封=>zh-my:卡纳温;卡那封=>zh-sg:卡纳温;卡那封=>zh-hk:加拿分;卡那封=>zh-mo:加拿分;卡那封=>zh-tw:卡納芬"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "加拿芬=>zh-cn:卡纳温;加拿芬=>zh-my:卡纳温;加拿芬=>zh-sg:卡纳温;加拿芬=>zh-tw:卡納芬"
+      "conv": "加拿芬=>zh-cn:卡那封;加拿芬=>zh-my:卡纳温;加拿芬=>zh-sg:卡纳温;加拿芬=>zh-tw:卡納芬"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡納豐=>zh-cn:卡纳温;卡納豐=>zh-my:卡纳温;卡納豐=>zh-sg:卡纳温;卡納豐=>zh-hk:加拿分;卡納豐=>zh-mo:加拿分;卡納豐=>zh-tw:卡納芬"
+      "conv": "卡納豐=>zh-cn:卡那封;卡納豐=>zh-my:卡纳温;卡納豐=>zh-sg:卡纳温;卡納豐=>zh-hk:加拿分;卡納豐=>zh-mo:加拿分;卡納豐=>zh-tw:卡納芬"
     },
     {
       "original": "Caernarfon/Carnarvon",
-      "conv": "卡纳丰=>zh-cn:卡纳温;卡纳丰=>zh-my:卡纳温;卡纳丰=>zh-sg:卡纳温;卡纳丰=>zh-hk:加拿分;卡纳丰=>zh-mo:加拿分;卡纳丰=>zh-tw:卡納芬"
+      "conv": "卡纳丰=>zh-cn:卡那封温;卡纳丰=>zh-my:卡纳温;卡纳丰=>zh-sg:卡纳温;卡纳丰=>zh-hk:加拿分;卡纳丰=>zh-mo:加拿分;卡纳丰=>zh-tw:卡納芬"
     },
     {
       "original": "Carpaţii Meridionali",
@@ -681,7 +677,7 @@
     },
     {
       "original": "Delft",
-      "conv": "zh-hans:代尔夫特;zh-hk:代爾夫特;zh-tw:台夫特"
+      "conv": "zh-hans:代尔夫特;zh-hk:代爾夫特;zh-tw:臺夫特"
     },
     {
       "original": "Dibër",
@@ -706,6 +702,10 @@
     {
       "original": "Dominicana",
       "conv": "zh-cn:多米尼加; zh-tw:多明尼加; zh-hk:多米尼加"
+    },
+    {
+      "original": "Donets",
+      "conv": "zh-cn:顿涅茨; zh-tw:頓內次; zh-hk:頓涅茨"
     },
     {
       "original": "Donetsk",
@@ -746,10 +746,6 @@
     {
       "original": "Drakensberg",
       "conv": "zh-hans:德拉肯斯山脉; zh-hant:德拉肯斯山脈; zh-tw:龍山山脈"
-    },
-    {
-      "original": "Dubai",
-      "conv": "zh-cn:迪拜; zh-hk:杜拜; zh-sg:杜拜; zh-tw:杜拜"
     },
     {
       "original": "Durban",
@@ -952,6 +948,10 @@
       "conv": "zh-cn:上沃尔特; zh-hk:上沃爾特;zh-tw:上伏塔"
     },
     {
+      "original": "",
+      "conv": "zh-cn:哈瓦那; zh-hk:夏灣拿; zh-tw:哈瓦那"
+    },
+    {
       "original": "Hobart",
       "conv": "zh-hans:霍巴特; zh-tw:荷巴特; zh-hk:荷伯特"
     },
@@ -1006,10 +1006,6 @@
     {
       "original": "Italian Libya",
       "conv": "zh-cn:意属利比亚; zh-tw:義屬利比亞; zh-hk:意屬利比亞; zh-sg:意属利比亚"
-    },
-    {
-      "original": "Italy",
-      "conv": "zh-hans:意大利; zh-cn:意大利; zh-tw:義大利; zh-hk:意大利; zh-sg:意大利"
     },
     {
       "original": "Italiana",
@@ -1101,7 +1097,7 @@
     },
     {
       "original": "Kingstown",
-      "conv": "金石城=>zh-cn:金斯敦;金石城=>zh-my:金斯敦;金石城=>zh-sg:金斯敦;金石城=>zh-hk:京士頓;金石城=>zh-mo:京士頓;"
+      "conv": "zh-cn:金斯敦;zh-my:金斯敦;zh-tw:金石城;zh-sg:金斯敦;zh-hk:京士頓;zh-mo:京士頓"
     },
     {
       "original": "Kinshasa",
@@ -1189,7 +1185,7 @@
     },
     {
       "original": "Le Mans",
-      "conv": "zh-hans:勒芒; zh-hant:利曼; zh-hk:利曼"
+      "conv": "勒芒=>zh-tw:利曼; 勒芒=>zh-hk:利曼; 勒芒=>zh-mo:利曼"
     },
     {
       "original": "Lesbos",
@@ -1246,10 +1242,6 @@
     {
       "original": "Lombardia",
       "conv": "zh-cn:伦巴第; zh-tw:倫巴底"
-    },
-    {
-      "original": "Lome",
-      "conv": "zh-cn:洛美; zh-tw:洛梅"
     },
     {
       "original": "Luanda",
@@ -1640,6 +1632,10 @@
       "conv": "zh-cn:奥斯曼; zh-tw:鄂圖曼; zh-hk:鄂圖曼"
     },
     {
+      "original": "Ottoman",
+      "conv": "奧斯曼=>zh-cn:奥斯曼; 奧斯曼=>zh-tw:鄂圖曼; 奧斯曼=>zh-hk:鄂圖曼"
+    },
+    {
       "original": "Øyrane",
       "conv": "zh-cn:厄于拉讷; zh-hk:愛蘭立; zh-tw:厄于拉訥"
     },
@@ -1900,12 +1896,12 @@
       "conv": "zh-cn:萨斯喀彻温; zh-tw:薩克其萬; zh-hk:沙斯卡寸旺; zh-hant:薩斯喀徹溫"
     },
     {
-      "original": "Saudi Arabia",
-      "conv": "zh-cn:沙特; zh-hk:沙地; zh-tw:沙烏地"
+      "original": "Saudi",
+      "conv": "zh-cn:沙特; zh-hk:沙地; zh-tw:沙烏地; zh-my:沙地; zh-sg:沙特"
     },
     {
       "original": "Saudi Arabia (full)",
-      "conv": "zh-cn:沙特阿拉伯; zh-hk:沙地阿拉伯; zh-tw:沙烏地阿拉伯"
+      "conv": "zh-cn:沙特阿拉伯; zh-hk:沙地阿拉伯; zh-tw:沙烏地阿拉伯; zh-my:沙地阿拉伯; zh-sg:沙特阿拉伯"
     },
     {
       "original": "Schengen",
@@ -1942,10 +1938,6 @@
     {
       "original": "Sengiley",
       "conv": "zh-hans:先吉列伊;zh-hant:森吉列伊;"
-    },
-    {
-      "original": "Sevastopol",
-      "conv": "zh-hans:塞瓦斯托波尔;zh-hant:塞瓦斯托波爾;"
     },
     {
       "original": "Sevilla",
@@ -2280,6 +2272,10 @@
       "conv": "zh-cn:泰米尔; zh-hk:泰米爾; zh-tw:坦米爾; zh-sg:淡米尔"
     },
     {
+      "original": "Tanganyika",
+      "conv": "zh-cn:坦噶尼喀; zh-hk:坦噶尼喀; zh-tw:坦干伊加"
+    },
+    {
       "original": "Tanzania",
       "conv": "zh-cn:坦桑尼亚; zh-hk:坦桑尼亞; zh-tw:坦尚尼亞"
     },
@@ -2440,10 +2436,6 @@
       "conv": "zh-hans:巴利亚多利德; zh-hant:巴利阿多利德; zh-tw:瓦拉多利德; zh-hk:華亞度列"
     },
     {
-      "original": "Vaud",
-      "conv": "zh-cn:沃州; zh-tw:佛德州"
-    },
-    {
       "original": "Venda",
       "conv": "zh-hans:文达; zh-hant:文達; zh-tw:溫達"
     },
@@ -2529,11 +2521,11 @@
     },
     {
       "original": "Western Australia",
-      "conv": "zh-hans:西澳大利亚;zh-hant:西澳;"
+      "conv": "西澳大利亞=>zh-tw:西澳;西澳大利亞=>zh-hk:西澳;西澳大利亞=>zh-mo:西澳;"
     },
     {
       "original": "Western Australia",
-      "conv": "西澳大利亞=>zh-tw:西澳;西澳大利亞=>zh-hk:西澳;西澳大利亞=>zh-mo:西澳;"
+      "conv": "西澳大利亚=>zh-tw:西澳;西澳大利亚=>zh-hk:西澳;西澳大利亚=>zh-mo:西澳;"
     },
     {
       "original": "Westfalen",
@@ -2604,14 +2596,6 @@
       "conv": "zh-cn:埃里温; zh-tw:葉里溫; zh-hk:葉里溫"
     },
     {
-      "original": "Zaporizhia",
-      "conv": "zh-cn:扎波罗热; zh-tw:札波羅結; zh-hk:扎波羅熱"
-    },
-    {
-      "original": "Zaragoza",
-      "conv": "zh-hans:萨拉戈萨; zh-hant:薩拉戈薩; zh-tw:沙拉哥薩"
-    },
-    {
       "original": "Zagreb",
       "conv": "zh-cn:萨格勒布; zh-tw:札格瑞布; zh-hk:薩格勒布"
     },
@@ -2620,8 +2604,12 @@
       "conv": "zh-cn:赞比亚; zh-tw:尚比亞; zh-hk:贊比亞"
     },
     {
+      "original": "Zanzibar",
+      "conv": "zh-cn:桑给巴尔; zh-hk:桑給巴爾; zh-tw:尚吉巴;"
+    },
+    {
       "original": "Zaragoza",
-      "conv": "zh-cn:萨拉戈萨; zh-tw:沙拉哥薩"
+      "conv": "zh-hans:萨拉戈萨; zh-hant:薩拉戈薩; zh-tw:沙拉哥薩"
     },
     {
       "original": "Zihuatanejo",
@@ -2665,7 +2653,7 @@
     },
     {
       "original": "Bosnia",
-      "conv": "zh-cn:波斯尼亚; zh-hk:波斯尼亞; zh-tw:波士尼亞"
+      "conv": "zh-cn:波斯尼亚; zh-hk:波斯尼亞; zh-tw:波士尼亞; zh-sg:波士尼亚"
     },
     {
       "original": "Bosnia and Herzegovina",
@@ -2840,34 +2828,6 @@
       "conv": "zh-hans:干诺道;zh-hant:干諾道"
     },
     {
-      "original": "",
-      "conv": "zh-hans:自由城市; zh-hant:自由城市"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:自由城县; zh-tw:自由城縣; zh-hk:自由城縣"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:自由城镇; zh-tw:自由城鎮; zh-hk:自由城鎮"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:自由城区; zh-tw:自由城區; zh-hk:自由城區"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:宗教自由城; zh-tw:宗教自由城; zh-hk:宗教自由城"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:自由市镇; zh-tw:自由市鎮; zh-hk:自由市鎮"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:自由市场; zh-tw:自由市場; zh-hk:自由市場"
-    },
-    {
       "original": "Kazakhs",
       "conv": "zh-cn:哈萨克族; zh-tw:哈薩克族"
     },
@@ -2906,6 +2866,42 @@
     {
       "original": "Uzbek",
       "conv": "zh-cn:乌兹别克族; zh-tw:烏茲別克族"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:自由城市; zh-hant:自由城市"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:自由城县; zh-tw:自由城縣; zh-hk:自由城縣"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:自由城镇; zh-tw:自由城鎮; zh-hk:自由城鎮"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:自由城区; zh-tw:自由城區; zh-hk:自由城區"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:宗教自由城; zh-tw:宗教自由城; zh-hk:宗教自由城"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:自由市镇; zh-tw:自由市鎮; zh-hk:自由市鎮"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:自由市场; zh-tw:自由市場; zh-hk:自由市場"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:属于; zh-hant:屬於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:位于; zh-hant:位於"
     }
   ]
 }

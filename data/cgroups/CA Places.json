@@ -1,0 +1,503 @@
+{
+  "name": "CA Places",
+  "description": "加拿大地名",
+  "path": "Module:CGroup/CA Places",
+  "rules": [
+    {
+      "original": "Abbotsford",
+      "conv": "zh-hans:阿伯茨福德; zh-hk:亞博斯福; zh-sg:阿伯茨福德; zh-cn:阿伯茨福德; zh-tw:亞博斯福;"
+    },
+    {
+      "original": "Alberta",
+      "conv": "zh-cn:艾伯塔; zh-tw:亞伯達; zh-hk:亞伯達; zh-mo:亞伯達; zh-hant:艾伯塔;"
+    },
+    {
+      "original": "Armstrong",
+      "conv": "zh-cn:阿姆斯特朗; zh-hk:暗士黨; zh-tw:阿姆斯特朗;"
+    },
+    {
+      "original": "Bathurst",
+      "conv": "zh-hans:巴瑟斯特; zh-hk:巴佛士; zh-mo:巴佛士; zh-tw:巴瑟斯特;"
+    },
+    {
+      "original": "Brampton",
+      "conv": "zh-hans:布兰普顿; zh-hant:布蘭普頓; zh-hk:賓頓;"
+    },
+    {
+      "original": "British Columbia",
+      "conv": "zh-cn:不列颠哥伦比亚; zh-tw:英屬哥倫比亞; zh-hk:卑詩; zh-mo:卑詩; zh-sg:卑诗;"
+    },
+    {
+      "original": "British Columbia",
+      "conv": "不列顛哥倫比亞=>zh-cn:不列颠哥伦比亚; 不列顛哥倫比亞=>zh-tw:英屬哥倫比亞; 不列顛哥倫比亞=>zh-hk:卑詩; 不列顛哥倫比亞=>zh-mo:卑詩; 不列顛哥倫比亞=>zh-sg:卑诗;"
+    },
+    {
+      "original": "Burlington",
+      "conv": "zh-hans:伯灵顿; zh-hk:布靈頓; zh-mo:布靈頓; zh-tw:伯靈頓;"
+    },
+    {
+      "original": "Burnaby",
+      "conv": "zh-cn:本拿比; zh-tw:柏納比; zh-hk:本拿比;"
+    },
+    {
+      "original": "Calgary",
+      "conv": "zh-hans:卡尔加里; zh-hant:卡加利; zh-hk:卡加利; zh-tw:卡加利; zh-mo:卡加利;"
+    },
+    {
+      "original": "Campbell",
+      "conv": "zh-hans:坎贝尔; zh-hk:金寶; zh-mo:金寶; zh-tw:坎貝爾;"
+    },
+    {
+      "original": "Campbell River",
+      "conv": "zh-cn:坎贝尔里弗; zh-hk:金寶河; zh-mo:金寶河; zh-tw:坎貝爾河;"
+    },
+    {
+      "original": "Cascade",
+      "conv": "zh-cn:喀斯喀特; zh-hk:喀斯喀特; zh-mo:喀斯喀特; zh-tw:喀斯開;"
+    },
+    {
+      "original": "Castlegar",
+      "conv": "zh-cn:卡斯尔加; zh-hk:卡素加; zh-mo:卡素加; zh-tw:卡斯爾加;"
+    },
+    {
+      "original": "Catharines",
+      "conv": "zh-hans:凯瑟琳; zh-hk:嘉芙蓮; zh-mo:嘉芙蓮; zh-tw:凱瑟琳;"
+    },
+    {
+      "original": "Charlottetown",
+      "conv": "zh-hans:夏洛特顿; zh-hk:查洛頓; zh-mo:查洛頓; zh-tw:夏洛特敦;"
+    },
+    {
+      "original": "Cochrane",
+      "conv": "zh-hans:科克伦; zh-hk:閣倫; zh-mo:閣倫; zh-tw:科克倫;"
+    },
+    {
+      "original": "Colwood",
+      "conv": "zh-hans:科尔伍德; zh-hk:高活; zh-mo:高活; zh-tw:科爾伍德;"
+    },
+    {
+      "original": "Cornwall",
+      "conv": "zh-hans:康沃尔; zh-hant:康沃爾; zh-hk:康和; zh-mo:康和; zh-tw:康瓦耳;"
+    },
+    {
+      "original": "Cornwall",
+      "conv": "康瓦尔=>zh-hans:康沃尔; 康瓦尔=>zh-hant:康沃爾; 康瓦尔=>zh-hk:康和; 康瓦尔=>zh-mo:康和; 康瓦尔=>zh-tw:康瓦耳;"
+    },
+    {
+      "original": "Cornwall",
+      "conv": "康瓦爾=>zh-hans:康沃尔; 康瓦爾=>zh-hant:康沃爾; 康瓦爾=>zh-hk:康和; 康瓦爾=>zh-mo:康和; 康瓦爾=>zh-tw:康瓦耳;"
+    },
+    {
+      "original": "Chatham",
+      "conv": "zh-hans:查塔姆; zh-hk:漆咸; zh-mo:漆咸; zh-tw:查塔姆;"
+    },
+    {
+      "original": "Chilliwack",
+      "conv": "zh-cn:奇利瓦克; zh-tw:奇利瓦克; zh-hk:智利域; zh-mo:智利域; zh-sg:奇利瓦克;"
+    },
+    {
+      "original": "Dawson Creek",
+      "conv": "zh-hans:道森克里克; zh-hk:多臣隙; zh-mo:多臣隙; zh-tw:道森河;"
+    },
+    {
+      "original": "Dufferin",
+      "conv": "zh-hans:达弗林; zh-hk:德芙靈; zh-mo:德芙靈; zh-tw:達弗林;"
+    },
+    {
+      "original": "Duncan",
+      "conv": "zh-cn:邓肯; zh-hk:黨近; zh-mo:黨近; zh-tw:鄧肯;"
+    },
+    {
+      "original": "Dundas",
+      "conv": "zh-hans:邓达斯; zh-hk:登打士; zh-mo:登打士; zh-tw:鄧達斯;"
+    },
+    {
+      "original": "Edmonton",
+      "conv": "zh-hant:埃德蒙頓; zh-cn:埃德蒙顿; zh-hk:愛民頓; zh-mo:愛民頓; zh-tw:愛德蒙頓;"
+    },
+    {
+      "original": "Elgin",
+      "conv": "zh-hans:埃尔金; zh-hk:伊利近; zh-mo:伊利近; zh-tw:埃爾金;"
+    },
+    {
+      "original": "Ellesmere",
+      "conv": "zh-hans:埃尔斯米尔; zh-hk:艾斯美; zh-tw:艾厄士米爾;"
+    },
+    {
+      "original": "Essex",
+      "conv": "zh-hans:艾塞克斯; zh-hk:雅息士; zh-mo:雅息士; zh-tw:艾塞克斯;"
+    },
+    {
+      "original": "Fraser",
+      "conv": "zh-cn:弗雷泽; zh-hk:菲沙; zh-mo:菲沙; zh-tw:弗雷澤;"
+    },
+    {
+      "original": "Fredericton",
+      "conv": "zh-hans:弗雷德里克顿; zh-hk:腓特烈頓; zh-mo:腓特烈頓; zh-tw:腓特烈頓; zh-hant: 弗雷德里克頓;"
+    },
+    {
+      "original": "Frontenac",
+      "conv": "zh-hans:弗隆特纳克; zh-hk:芳堤娜; zh-mo:芳堤娜; zh-tw:芳堤娜;"
+    },
+    {
+      "original": "George",
+      "conv": "zh-cn:乔治; zh-hk:佐治; zh-mo:佐治; zh-tw:喬治;"
+    },
+    {
+      "original": "Glengarry",
+      "conv": "zh-hans:格伦加里; zh-hk:己連加利; zh-mo:己連加利; zh-tw:葛蘭蓋瑞;"
+    },
+    {
+      "original": "Goderich",
+      "conv": "zh-hans:戈德里奇; zh-hk:哥打列治; zh-mo:哥打列治; zh-tw:戈德里奇;"
+    },
+    {
+      "original": "Grenville",
+      "conv": "zh-hans:格伦维尔; zh-hk:己連圍; zh-mo:己連圍; zh-tw:格倫維爾;"
+    },
+    {
+      "original": "Grimsby",
+      "conv": "zh-hans:格里姆斯比; zh-hk:兼士比; zh-mo:兼士比; zh-tw:格里姆斯比;"
+    },
+    {
+      "original": "Halifax",
+      "conv": "zh-hans:哈利法克斯; zh-hk:哈利法斯; zh-tw:哈利法克斯;"
+    },
+    {
+      "original": "Halton",
+      "conv": "zh:哈尔顿; zh-hant:荷頓; zh-tw:哈爾頓;"
+    },
+    {
+      "original": "Hamilton",
+      "conv": "zh-hans:哈密尔顿; zh-hk:咸美頓; zh-tw:哈密爾頓;"
+    },
+    {
+      "original": "Hastings",
+      "conv": "zh-hans:黑斯廷斯; zh-hk:喜士定; zh-mo:喜士定; zh-tw:黑斯廷斯;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "zh-cn:哈德森; zh-hk:哈德遜; zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈德逊=>zh-cn:哈德森; 哈德逊=>zh-hk:哈德遜; 哈德逊=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈德孙=>zh-cn:哈德森; 哈德孙=>zh-hk:哈德遜; 哈德孙=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈德孫=>zh-cn:哈德森; 哈德孫=>zh-hk:哈德遜; 哈德孫=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈得逊=>zh-cn:哈德森; 哈得逊=>zh-hk:哈德遜; 哈得逊=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈得遜=>zh-cn:哈德森; 哈得遜=>zh-hk:哈德遜; 哈得遜=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈得孙=>zh-cn:哈德森; 哈得孙=>zh-hk:哈德遜; 哈得孙=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Hudson",
+      "conv": "哈得孫=>zh-cn:哈德森; 哈得孫=>zh-hk:哈德遜; 哈得孫=>zh-tw:哈德遜;"
+    },
+    {
+      "original": "Huron",
+      "conv": "zh-hans:休伦; zh-hk:曉倫; zh-mo:曉倫; zh-tw:休倫;"
+    },
+    {
+      "original": "Inuit",
+      "conv": "zh-tw:因努伊特; zh-cn:因纽特; zh-hk:因紐特;"
+    },
+    {
+      "original": "Iqaluit",
+      "conv": "zh-cn:伊卡卢伊特; zh-tw:伊魁特; zh-hk:伊魁特;"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆斯; zh-hant:詹姆斯; zh-tw:詹姆士; zh-hk:占士;"
+    },
+    {
+      "original": "Kamloops",
+      "conv": "zh-cn:坎卢普斯; zh-tw:甘露; zh-hk:錦祿; zh-mo:錦祿; zh-sg:坎卢普斯;"
+    },
+    {
+      "original": "Kelowna",
+      "conv": "zh-cn:基洛纳; zh-tw:基隆拿; zh-hk:基隆拿; zh-mo:基隆拿; zh-sg:基洛纳;"
+    },
+    {
+      "original": "Kenora",
+      "conv": "zh-hans:凯诺拉; zh-tw:肯諾拉;"
+    },
+    {
+      "original": "Kent",
+      "conv": "zh-hans:肯特; zh-hk:根德; zh-mo:根德; zh-tw:肯特;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "zh-hans:金斯顿; zh-hk:京士頓; zh-mo:京士頓; zh-tw:京士頓;"
+    },
+    {
+      "original": "Kitchener",
+      "conv": "zh-hans:基奇纳; zh-hk:基秦拿; zh-mo:基秦拿; zh-tw:基秦拿;"
+    },
+    {
+      "original": "Leeds",
+      "conv": "zh-hans:利兹; zh-hk:列斯; zh-mo:列斯; zh-tw:里茲;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "zh-hans:马尼托巴; zh-cn:曼尼托巴; zh-sg:曼尼多巴; zh-my:曼尼多巴; zh-hant:曼尼托巴; zh-hk:緬尼吐巴; zh-mo:緬尼吐巴; zh-tw:曼尼托巴;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "馬尼托巴=>zh-hans:马尼托巴; 馬尼托巴=>zh-cn:曼尼托巴; 馬尼托巴=>zh-sg:曼尼多巴; 馬尼托巴=>zh-my:曼尼多巴; 馬尼托巴=>zh-hant:曼尼托巴; 馬尼托巴=>zh-hk:緬尼吐巴; 馬尼托巴=>zh-mo:緬尼吐巴; 馬尼托巴=>zh-tw:曼尼托巴;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "马尼托巴=>zh-hans:马尼托巴; 马尼托巴=>zh-cn:曼尼托巴; 马尼托巴=>zh-sg:曼尼多巴; 马尼托巴=>zh-my:曼尼多巴; 马尼托巴=>zh-hant:曼尼托巴; 马尼托巴=>zh-hk:緬尼吐巴; 马尼托巴=>zh-mo:緬尼吐巴; 马尼托巴=>zh-tw:曼尼托巴;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "緬尼托巴=>zh-hans:马尼托巴; 緬尼托巴=>zh-cn:曼尼托巴; 緬尼托巴=>zh-sg:曼尼多巴; 緬尼托巴=>zh-my:曼尼多巴; 緬尼托巴=>zh-hant:曼尼托巴; 緬尼托巴=>zh-hk:緬尼吐巴; 緬尼托巴=>zh-mo:緬尼吐巴; 緬尼托巴=>zh-tw:曼尼托巴;"
+    },
+    {
+      "original": "Manitoba",
+      "conv": "缅尼托巴=>zh-hans:马尼托巴; 缅尼托巴=>zh-cn:曼尼托巴; 缅尼托巴=>zh-sg:曼尼多巴; 缅尼托巴=>zh-my:曼尼多巴; 缅尼托巴=>zh-hant:曼尼托巴; 缅尼托巴=>zh-hk:緬尼吐巴; 缅尼托巴=>zh-mo:緬尼吐巴; 缅尼托巴=>zh-tw:曼尼托巴;"
+    },
+    {
+      "original": "Manitoulin",
+      "conv": "zh-hans:马尼图林; zh-hk:緬尼圖連; zh-mo:緬尼圖連; zh-tw:馬尼圖林;"
+    },
+    {
+      "original": "McGill",
+      "conv": "zh:麥吉爾 ;zh-hans:麦吉尔; zh-hk:麥基爾; zh-mo:麥基爾; zh-tw:麥基爾;"
+    },
+    {
+      "original": "McMurray",
+      "conv": "zh-hans:麦克默里; zh-hant:麥克默里; zh-hk:麥梅利; zh-tw:麥克墨雷;"
+    },
+    {
+      "original": "Middlesex",
+      "conv": "zh-hans:米德尔塞克斯; zh-hant:米德爾塞克斯; zh-hk:美度息士; zh-mo:美度息士; zh-tw:密德瑟斯;"
+    },
+    {
+      "original": "Milton",
+      "conv": "zh-hans:米尔顿; zh-hk:苗頓; zh-tw:米爾頓;"
+    },
+    {
+      "original": "Montreal",
+      "conv": "zh-cn:蒙特利尔; zh-tw:蒙特婁; zh-hk:滿地可"
+    },
+    {
+      "original": "Montreal",
+      "conv": "蒙特利爾=>zh-tw:蒙特婁;蒙特利爾=>zh-hk:滿地可;蒙特利爾=>zh-mo:滿地可"
+    },
+    {
+      "original": "Moose Jaw",
+      "conv": "zh-cn:穆斯乔; zh-tw:穆斯喬; zh-hk:穆斯佐;"
+    },
+    {
+      "original": "Nanaimo",
+      "conv": "zh-cn:纳奈莫; zh-tw:納奈莫; zh-hk:乃磨; zh-mo:乃磨; zh-sg:纳奈莫;"
+    },
+    {
+      "original": "Napanee",
+      "conv": "zh-hans:纳帕尼; zh-hant:納潘尼;"
+    },
+    {
+      "original": "Nettilling",
+      "conv": "zh-hans:纳蒂灵; zh-hk:尼德寧; zh-tw:納蒂靈;"
+    },
+    {
+      "original": "New Brunswick",
+      "conv": "zh-hans:新不伦瑞克; zh-hk:紐賓士域; zh-tw:新布藍茲維; zh-sg:新布兰斯威; zh-my:新布兰斯威;"
+    },
+    {
+      "original": "New Westminster",
+      "conv": "zh-cn:新威斯敏斯特; zh-hk:新西敏; zh-tw:新西敏;"
+    },
+    {
+      "original": "Niagara",
+      "conv": "zh-hans:尼亚加拉; zh-hk:尼亞加拉; zh-mo:尼亞加拉; zh-tw:尼加拉;"
+    },
+    {
+      "original": "Nipissing",
+      "conv": "zh-hans:尼皮辛; zh-hk:尼披盛; zh-mo:尼披盛; zh-tw:尼皮辛;"
+    },
+    {
+      "original": "Nova Scotia",
+      "conv": "zh-cn:新斯科舍; zh-tw:新斯科細亞; zh-hk:諾華斯高沙; zh-sg:诺瓦斯科舍;"
+    },
+    {
+      "original": "Nunavut",
+      "conv": "zh-tw:努納福特; zh-hk:努拿烏特; zh-mo:努拿烏特; zh-hans:努纳武特; zh-hant:努納武特;"
+    },
+    {
+      "original": "Oakville",
+      "conv": "zh-hans:奥克维尔; zh-tw:奧克維爾; zh-hk:屋威老;"
+    },
+    {
+      "original": "Okanagan",
+      "conv": "zh-cn:奥肯拿根; zh-hk:奧卡拿根; zh-tw:奧肯拿根;"
+    },
+    {
+      "original": "Oshawa",
+      "conv": "zh-hans:奥沙瓦; zh-hk:奧沙華; zh-tw:奧沙華;"
+    },
+    {
+      "original": "Owen",
+      "conv": "zh-hans:欧文; zh-hk:奧雲; zh-mo:奧雲; zh-tw:歐文;"
+    },
+    {
+      "original": "Owen Sound",
+      "conv": "zh-hans:欧文桑德; zh-hant:歐文桑德; zh-hk:奧雲灣; zh-mo:奧雲灣; zh-tw:歐文灣;"
+    },
+    {
+      "original": "Perth",
+      "conv": "zh-hans:珀斯; zh-hk:巴富; zh-mo:巴富; zh-tw:珀斯;"
+    },
+    {
+      "original": "Peterborough",
+      "conv": "zh-hans:彼得伯勒; zh-hk:彼得堡; zh-mo:彼得堡; zh-tw:彼得堡;"
+    },
+    {
+      "original": "Prescott",
+      "conv": "zh-hans:普雷斯科特; zh-hk:皮利士葛; zh-mo:皮利士葛; zh-tw:普雷史考特;"
+    },
+    {
+      "original": "Queens University",
+      "conv": "zh-cn:女王大学;zh-tw:皇后大學;zh-hk:皇后大學;zh-mo:皇后大學;zh-hant:女王大學;"
+    },
+    {
+      "original": "Regina",
+      "conv": "zh-cn:里贾纳; zh-hk:利載拿; zh-tw:雷吉納;"
+    },
+    {
+      "original": "Richmond",
+      "conv": "zh-hans:里士满; zh-hk:列治文; zh-mo:列治文; zh-tw:里奇蒙;"
+    },
+    {
+      "original": "Russell",
+      "conv": "zh-hans:拉塞尔; zh-hk:羅素; zh-mo:羅素; zh-tw:羅素;"
+    },
+    {
+      "original": "Saanich",
+      "conv": "zh-hans:萨尼奇; zh-hk:沙尼治; zh-mo:沙尼治; zh-tw:薩尼奇;"
+    },
+    {
+      "original": "Saint Lawrence",
+      "conv": "zh-hk:聖老楞佐; zh-hant:聖勞倫斯; zh-hans:圣劳伦斯; zh-tw:聖羅倫斯"
+    },
+    {
+      "original": "Salmon Arm",
+      "conv": "zh-cn:萨蒙阿姆; zh-hk:沙問暗; zh-tw:薩蒙阿姆;"
+    },
+    {
+      "original": "Sarnia",
+      "conv": "zh-hans:萨尼亚; zh-hk:沙尼亞; zh-tw:薩尼亞;"
+    },
+    {
+      "original": "Saskatchewan",
+      "conv": "zh:薩克其萬; zh-cn:萨斯喀彻温; zh-tw:薩斯喀徹溫; zh-hk:沙斯卡寸旺; zh-sg:萨斯卡渣文;"
+    },
+    {
+      "original": "Saskatoon",
+      "conv": "zh:薩克屯; zh-hans:萨斯卡通; zh-hk:沙斯加通; zh-tw:薩斯喀屯;"
+    },
+    {
+      "original": "Simcoe",
+      "conv": "zh-hans:锡姆科; zh-hk:閃高; zh-mo:閃高; zh-tw:錫姆科;"
+    },
+    {
+      "original": "Simcoe",
+      "conv": "西姆科=>zh-hans:锡姆科; 西姆科=>zh-hk:閃高; 西姆科=>zh-mo:閃高; 西姆科=>zh-tw:錫姆科;"
+    },
+    {
+      "original": "Similkameen",
+      "conv": "zh-cn:西密卡米恩; zh-hk:西米卡綿; zh-tw:西密卡米恩;"
+    },
+    {
+      "original": "Southgate",
+      "conv": "zh-hans:索斯盖特; zh-hk:修夫基; zh-mo:修夫基; zh-tw:索斯蓋特;"
+    },
+    {
+      "original": "Stormont",
+      "conv": "zh-hans:斯托蒙特; zh-hk:士多蒙; zh-mo:士多蒙; zh-tw:史托蒙特;"
+    },
+    {
+      "original": "Straford",
+      "conv": "zh-hant:史特拉福;zh-hans:斯特拉特福;"
+    },
+    {
+      "original": "Sudbury",
+      "conv": "zh-hans:萨德伯里; zh-hk:瑟比利; zh-mo:瑟比利; zh-tw:薩德伯里;"
+    },
+    {
+      "original": "Superior",
+      "conv": "zh-hans:苏必利尔; zh-hant:蘇必略; zh-cn:苏必利尔; zh-tw:蘇必略;"
+    },
+    {
+      "original": "Sydenham",
+      "conv": "zh-hans:锡德纳姆; zh-hk:薛鄧咸; zh-mo:薛鄧咸; zh-tw:錫德納姆;"
+    },
+    {
+      "original": "Thomas",
+      "conv": "zh-hans:托马斯; zh-hk:湯瑪士; zh-mo:湯瑪士; zh-tw:湯瑪士;"
+    },
+    {
+      "original": "Thunder Bay",
+      "conv": "zh-hans:桑德贝; zh-hant:雷霆灣; zh-hk:雷灣; zh-mo:雷灣; zh-tw:雷灣;"
+    },
+    {
+      "original": "Tofino",
+      "conv": "zh-cn:托菲诺; zh-hk:吐芬奴; zh-mo:吐芬奴; zh-tw:托菲諾;"
+    },
+    {
+      "original": "Trail",
+      "conv": "zh-cn:特雷尔; zh-hk:始路; zh-tw:特雷爾;"
+    },
+    {
+      "original": "View Royal",
+      "conv": "zh-hans:维尤罗亚尔; zh-hk:維尤羅亞爾; zh-mo:維尤羅亞爾; zh-tw:維尤羅亞爾;"
+    },
+    {
+      "original": "Wascana",
+      "conv": "zh-cn:瓦斯卡纳; zh-tw:瓦斯卡納; zh-hk:華斯卡拿;"
+    },
+    {
+      "original": "Waterloo",
+      "conv": "zh-hans:滑铁卢; zh-hk:窩打老; zh-tw:滑鐵盧;"
+    },
+    {
+      "original": "Wentworth",
+      "conv": "zh-hans:温特沃斯; zh-hk:溫特窩夫; zh-mo:溫特窩夫; zh-tw:溫特沃斯;"
+    },
+    {
+      "original": "Westminster",
+      "conv": "zh-cn:威斯敏斯特; zh-hk:西敏; zh-tw:西敏;"
+    },
+    {
+      "original": "Whitehorse",
+      "conv": "zh-cn:怀特霍斯; zh-tw:白馬市; zh-hk:白馬市; zh-sg:白马市;"
+    },
+    {
+      "original": "Winnipeg",
+      "conv": "zh-hans:温尼伯; zh-hant:溫尼伯; zh-hk:溫尼辟; zh-mo:溫尼辟; zh-tw:溫尼伯;"
+    },
+    {
+      "original": "Woods",
+      "conv": "zh-hans:伍兹; zh-hk:活士; zh-mo:活士; zh-tw:伍兹;"
+    },
+    {
+      "original": "Yellowknife",
+      "conv": "zh-tw:黃刀鎮; zh-hk:黃刀鎮; zh-cn:耶洛奈夫; zh-sg:黄刀镇;"
+    }
+  ]
+}

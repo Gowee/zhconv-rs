@@ -4,20 +4,60 @@
   "path": "Module:CGroup/Geography",
   "rules": [
     {
-      "original": "Cartographic generalization",
+      "original": "central place",
+      "conv": "中心地=>zh-tw:中地"
+    },
+    {
+      "original": "continental shelf",
+      "conv": "zh-cn:大陆架; zh-hk:大陸架; zh-tw:大陸棚;"
+    },
+    {
+      "original": "global warming",
+      "conv": "zh-cn:全球变暖; zh-tw:全球暖化;"
+    },
+    {
+      "original": "geographic information",
+      "conv": "zh-cn:地理信息; zh-tw:地理資訊;"
+    },
+    {
+      "original": "information system",
+      "conv": "zh-cn:信息系统; zh-tw:資訊系統;"
+    },
+    {
+      "original": "MAUP",
+      "conv": "zh-cn:可塑性面积单元问题; zh-tw:可調整地區單元問題;"
+    },
+    {
+      "original": "remote sensing",
+      "conv": "zh-cn:遥感; zh-hk:遙感; zh-tw:遙測;"
+    },
+    {
+      "original": "variable",
+      "conv": "zh-cn:变量; zh-hk:變量; zh-tw:變數;"
+    },
+    {
+      "original": "cartographic generalization",
       "conv": "zh-cn:制图综合; zh-tw:地圖概括;"
     },
     {
-      "original": "GIS",
-      "conv": "zh-cn:地理信息系统; zh-tw:地理資訊系統;"
+      "original": "choropleth map",
+      "conv": "zh-cn:等值区域图; zh-tw:面量圖;"
+    },
+    {
+      "original": "coordinate",
+      "conv": "座標=>zh-cn:坐标"
+    },
+    {
+      "original": "dasymetric map",
+      "conv": "zh-cn:分区密度地图; zh-tw:分區比重圖;"
     },
     {
       "original": "Mercator",
       "conv": "zh-cn:墨卡托; zh-tw:麥卡托;"
     },
     {
-      "original": "Remote sensing",
-      "conv": "zh:遙感;zh-cn:遥感;zh-tw:遙測;"
+      "original": "visualization",
+      "conv": "zh-cn:可视化; zh-tw:視覺化;"
     }
   ]
 }

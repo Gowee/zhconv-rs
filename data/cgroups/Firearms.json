@@ -169,11 +169,11 @@
     },
     {
       "original": "",
-      "conv": "zh:栓式枪栓;zh-hans:栓式枪栓;zh-hant:手動槍機;zh-cn:栓式枪栓;zh-tw:手動槍機;zh-hk:栓式槍機;"
+      "conv": "zh:栓式枪栓;zh-hans:栓式枪机;zh-hant:手動槍機;zh-cn:栓式枪机;zh-tw:手動槍機;zh-hk:栓式槍機;"
     },
     {
       "original": "",
-      "conv": "zh:栓动式枪栓;zh-hans:栓动式枪栓;zh-hant:手動式槍機;zh-cn:栓动式枪栓;zh-tw:手動式槍機;zh-hk:栓动式槍機;"
+      "conv": "zh:栓动式枪栓;zh-hans:栓动式枪机;zh-hant:手動式槍機;zh-cn:栓动式枪机;zh-tw:手動式槍機;zh-hk:栓动式槍機;"
     },
     {
       "original": "",
@@ -185,15 +185,15 @@
     },
     {
       "original": "",
-      "conv": "zh:栓式;zh-hans:栓式;zh-hant:手動;zh-cn:栓式枪栓;zh-tw:手動;zh-hk:栓式;"
+      "conv": "zh:栓式;zh-hans:栓式;zh-hant:手動;zh-cn:栓式;zh-tw:手動;zh-hk:栓式;"
     },
     {
       "original": "",
-      "conv": "zh-hans:杠杆式;zh-tw:槓桿式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式;"
+      "conv": "zh-hans:杠杆式;zh-tw:槓動式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式;"
     },
     {
       "original": "",
-      "conv": "zh:槓桿式;zh-hans:杠杆式;zh-tw:槓桿式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式;"
+      "conv": "zh:槓桿式;zh-hans:杠杆式;zh-tw:槓動式;zh-cn:杠杆式;zh-hk:槓桿式;zh-mo:槓桿式;"
     },
     {
       "original": "",
@@ -317,11 +317,15 @@
     },
     {
       "original": "",
+      "conv": "zh-hans:冲锋枪;zh-tw:衝鋒槍;zh-cn:冲锋枪;zh-hk:衝鋒槍;zh-mo:衝鋒槍;"
+    },
+    {
+      "original": "",
       "conv": "zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
     },
     {
       "original": "",
-      "conv": "zh:霰彈槍;zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
+      "conv": "zh:散彈槍;zh-hans:霰弹枪;zh-tw:散彈槍;zh-cn:霰弹枪;zh-hk:散彈槍;zh-mo:散彈槍;"
     },
     {
       "original": "",
@@ -333,7 +337,11 @@
     },
     {
       "original": "",
-      "conv": "zh-hans:冲锋枪;zh-tw:衝鋒槍;zh-cn:冲锋枪;zh-hk:衝鋒槍;zh-mo:衝鋒槍;"
+      "conv": "zh:散彈;zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈;"
+    },
+    {
+      "original": "",
+      "conv": "zh:散弹;zh-hans:霰弹;zh-tw:散彈;zh-cn:霰弹;zh-hk:散彈;zh-mo:散彈;"
     },
     {
       "original": "",
@@ -381,11 +389,15 @@
     },
     {
       "original": "",
-      "conv": "zh-hans:击发调变;zh-hant:切換射擊模式;zh-cn:击发调变;zh-tw:切換射擊模式;zh-hk:選射;"
+      "conv": "zh-hans:击发调变;zh-hant:選射;zh-cn:击发调变;zh-tw:選射;zh-hk:選射;"
     },
     {
       "original": "",
-      "conv": "zh:擊發調變;zh-hans:击发调变;zh-hant:切換射擊模式;zh-cn:击发调变;zh-tw:切換射擊模式;zh-hk:選射;"
+      "conv": "zh:擊發調變;zh-hans:击发调变;zh-hant:選射;zh-cn:击发调变;zh-tw:選射;zh-hk:選射;"
+    },
+    {
+      "original": "",
+      "conv": "zh:選射;zh-hans:击发调变;zh-hant:選射;zh-cn:击发调变;zh-tw:選射;zh-hk:選射;"
     },
     {
       "original": "",
@@ -969,6 +981,34 @@
     },
     {
       "original": "",
+      "conv": "zh:尺寸;zh-hans:尺寸;zh-hant:尺寸;"
+    },
+    {
+      "original": "",
+      "conv": "zh:英寸;zh-hans:寸;zh-hant:英寸;"
+    },
+    {
+      "original": "",
+      "conv": "zh:英吋;zh-hans:寸;zh-hant:英寸;"
+    },
+    {
+      "original": "",
+      "conv": "zh:寸;zh-hans:寸;zh-hant:英寸;"
+    },
+    {
+      "original": "",
+      "conv": "zh:吋;zh-hans:寸;zh-hant:英寸;"
+    },
+    {
+      "original": "",
+      "conv": "zh:尺吋;zh-hans:尺吋;zh-hant:尺吋;"
+    },
+    {
+      "original": "",
+      "conv": "zh:手無寸鐵;zh-hans:手无寸铁;zh-hant:手無寸鐵;"
+    },
+    {
+      "original": "",
       "conv": "zh:用戶;zh-hans:用户;zh-hant:使用者;"
     },
     {
@@ -994,6 +1034,34 @@
     {
       "original": "",
       "conv": "zh:澳洲;zh-hans:澳大利亚;zh-hant:澳洲;"
+    },
+    {
+      "original": "",
+      "conv": "zh:奥斯曼;zh-hans:奥斯曼;zh-hant:鄂圖曼;"
+    },
+    {
+      "original": "",
+      "conv": "zh:鄂圖曼;zh-hans:奥斯曼;zh-hant:鄂圖曼;"
+    },
+    {
+      "original": "",
+      "conv": "zh:北韓;zh-hans:朝鲜;zh-hant:北韓;"
+    },
+    {
+      "original": "",
+      "conv": "zh:北朝鮮;zh-hans:朝鲜;zh-hant:北韓;"
+    },
+    {
+      "original": "",
+      "conv": "zh:北朝鲜;zh-hans:朝鲜;zh-hant:北韓;"
+    },
+    {
+      "original": "",
+      "conv": "zh:司令部;zh-hans:司令部;zh-hant:指揮部;"
+    },
+    {
+      "original": "",
+      "conv": "zh:指揮部;zh-hans:司令部;zh-hant:指揮部;"
     }
   ]
 }

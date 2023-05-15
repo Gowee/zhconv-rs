@@ -297,7 +297,7 @@
     },
     {
       "original": "big data",
-      "conv": "zh-cn:大数据; zh-tw:巨量資料; zh-hk:大數據;"
+      "conv": "zh-cn:大数据; zh-tw:大數據;"
     },
     {
       "original": "Bill Gates",
@@ -909,7 +909,7 @@
     },
     {
       "original": "clock rate",
-      "conv": "時鐘頻率=>zh-tw:時脈速率;"
+      "conv": "zh-cn:时钟频率; zh-tw:時脈頻率; zh-hk:時鐘頻率;"
     },
     {
       "original": "clock rate",
@@ -1196,6 +1196,10 @@
       "conv": "zh-cn:网络欺凌; zh-tw:網路霸凌; zh-hk:網上欺凌;"
     },
     {
+      "original": "Cyber-Physical System",
+      "conv": "zh-cn:信息物理系统; zh-tw:網宇實體系統;"
+    },
+    {
       "original": "daemon",
       "conv": "zh-cn:守护进程; zh-tw:守護行程;"
     },
@@ -1209,7 +1213,7 @@
     },
     {
       "original": "database",
-      "conv": "zh-cn:数据库; zh-tw:資料庫; zh-hk:數據庫;"
+      "conv": "zh-cn:数据库; zh-tw:資料庫; zh-hk:資料庫;"
     },
     {
       "original": "data center",
@@ -1537,7 +1541,7 @@
     },
     {
       "original": "digital video",
-      "conv": "视像=>zh-tw:視訊; 视像=>zh-hk:視像; 视像=>zh-cn:视频; 视像=>zh-my:视频; 视像=>zh-sg:视频;"
+      "conv": "视像=>zh-tw:視訊; 视像=>zh-hk:影片; 视像=>zh-cn:视频; 视像=>zh-my:视频; 视像=>zh-sg:视频;"
     },
     {
       "original": "digital video",
@@ -1545,11 +1549,11 @@
     },
     {
       "original": "digital video",
-      "conv": "視訊=>zh-hk:視像; 視訊=>zh-mo:視像; 視訊=>zh-cn:视频; 視訊=>zh-my:视频; 視訊=>zh-sg:视频;"
+      "conv": "視訊=>zh-hk:影片; 視訊=>zh-mo:視像; 視訊=>zh-cn:视频; 視訊=>zh-my:视频; 視訊=>zh-sg:视频;"
     },
     {
       "original": "digital video",
-      "conv": "视讯=>zh-mo:視像; 视讯=>zh-hk:視像; 视讯=>zh-cn:视频; 视讯=>zh-my:视频; 视讯=>zh-sg:视频;"
+      "conv": "视讯=>zh-mo:視像; 视讯=>zh-hk:影片; 视讯=>zh-cn:视频; 视讯=>zh-my:视频; 视讯=>zh-sg:视频;"
     },
     {
       "original": "digital video",
@@ -2544,14 +2548,6 @@
       "conv": "高级编程語言=>zh-tw:高階程式語言; 高级编程語言=>zh-hk:高階程式語言; 高级编程語言=>zh-mo:高階程式語言;"
     },
     {
-      "original": "high-level/high-end/highend",
-      "conv": "zh-cn:高端; zh-tw:高階;"
-    },
-    {
-      "original": "high-level/high-end/highend",
-      "conv": "高檔=>zh-cn:高端; 高檔=>zh-sg:高端; 高檔=>zh-my:高端; 高檔=>zh-hk:高階; 高檔=>zh-mo:高階;"
-    },
-    {
       "original": "highlight",
       "conv": "高亮=>zh-tw:突顯; 高亮=>zh-hk:突顯; 高亮=>zh-mo:突顯;"
     },
@@ -3084,6 +3080,10 @@
       "conv": "zh-cn:邮件列表; zh-tw:郵寄清單;"
     },
     {
+      "original": "mainstream media",
+      "conv": "zh-cn:主流媒体; zh-tw:主流媒體;"
+    },
+    {
       "original": "managed code",
       "conv": "zh-cn:托管代码; zh-tw:受控代碼;"
     },
@@ -3194,6 +3194,10 @@
     {
       "original": "memory card",
       "conv": "zh-cn:存储卡; zh-tw:記憶卡;"
+    },
+    {
+      "original": "memory chip",
+      "conv": "zh-cn:存储芯片; zh-tw:記憶晶片;"
     },
     {
       "original": "memory leak",
@@ -3548,6 +3552,10 @@
       "conv": "命名空间=>zh-cn:名字空间; 命名空间=>zh-sg:名字空间; 命名空间=>zh-my:名字空间;"
     },
     {
+      "original": "nanometer",
+      "conv": "zh-hans:纳米; zh-hant:納米; zh-tw:奈米"
+    },
+    {
       "original": "native",
       "conv": "固有=>zh-tw:原生; 固有=>zh-hk:原生; 固有=>zh-mo:原生;"
     },
@@ -3601,7 +3609,7 @@
     },
     {
       "original": "network database",
-      "conv": "zh-cn:网状数据库; zh-tw:網狀式資料庫; zh-hk:網絡數據庫;"
+      "conv": "zh-cn:网状数据库; zh-tw:網狀式資料庫; zh-hk:網絡資料庫;"
     },
     {
       "original": "Network Neighbourhood",
@@ -3912,6 +3920,10 @@
       "conv": "zh-cn:个人数码助理; zh-tw:個人數位助理; zh-hk:個人數碼助理;"
     },
     {
+      "original": "personal website",
+      "conv": "zh-cn:个人网站; zh-tw:個人網站; zh-hk:個人網站;"
+    },
+    {
       "original": "Petabyte",
       "conv": "zh-hans:拍字节; zh-hant:拍位元組;"
     },
@@ -3937,7 +3949,7 @@
     },
     {
       "original": "picture viewer",
-      "conv": "zh-cn:图像检视器; zh-tw:圖片檢視器;"
+      "conv": "zh-cn:图片查看器; zh-tw:圖片檢視器;"
     },
     {
       "original": "picture viewer",
@@ -4349,23 +4361,23 @@
     },
     {
       "original": "redirect",
-      "conv": "zh-cn:重定向; zh-tw:重新導向;"
+      "conv": "zh-hk:自動跳轉;zh-cn:重定向; zh-tw:重新導向"
     },
     {
       "original": "redirect page",
-      "conv": "zh-cn:重定向页; zh-tw:重新導向頁面;"
+      "conv": "zh-hk:自動跳轉頁;zh-cn:重定向页; zh-tw:重新導向頁面"
     },
     {
       "original": "redirect page",
-      "conv": "重定向頁=>zh-tw:重新導向頁面; 重定向頁=>zh-hk:重新導向頁面; 重定向頁=>zh-mo:重新導向頁面;"
+      "conv": "重定向頁=>zh-tw:重新導向頁面; 重定向頁=>zh-hk:自動跳轉頁;重定向頁=>zh-mo:自動跳轉頁;"
     },
     {
       "original": "redirect page",
-      "conv": "重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:重新導向頁面; 重定向页面=>zh-mo:重新導向頁面;"
+      "conv": "重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:自動跳轉頁;重定向页面=>zh-mo:自動跳轉頁;"
     },
     {
       "original": "redirect page",
-      "conv": "重定向頁面=>zh-tw:重新導向頁面; 重定向頁面=>zh-hk:重新導向頁面; 重定向頁面=>zh-mo:重新導向頁面;"
+      "conv": "重定向頁面=>zh-tw:重新導向頁面; 重定向頁面=>zh-hk:自動跳轉頁;重定向頁面=>zh-mo:自動跳轉頁;"
     },
     {
       "original": "reference",
@@ -4413,7 +4425,7 @@
     },
     {
       "original": "relational database",
-      "conv": "zh-cn:关系数据库; zh-tw:關聯式資料庫; zh-hk:關聯式數據庫;"
+      "conv": "zh-cn:关系数据库; zh-tw:關聯式資料庫;"
     },
     {
       "original": "release",
@@ -5316,6 +5328,10 @@
       "conv": "zh-cn:用户;zh-sg:用户;zh-my:用户;zh-hk:用戶;zh-mo:用戶;zh-tw:使用者;"
     },
     {
+      "original": "user-generated content/user-created content",
+      "conv": "zh-hans:用户生成内容; zh-hant:用戶生成內容; zh-tw:使用者供應內容;"
+    },
+    {
       "original": "user group",
       "conv": "使用者群=>zh-cn:用户组;使用者群=>zh-sg:用户组;使用者群=>zh-my:用户组;使用者群=>zh-hk:用戶組;使用者群=>zh-mo:用戶組;"
     },
@@ -5920,6 +5936,10 @@
       "conv": "zh-hans:谷翔信息技术; zh-hant:谷翔信息技術;"
     },
     {
+      "original": "MODA",
+      "conv": "zh-hant:數位部; zh-hans:数位部;"
+    },
+    {
       "original": null,
       "conv": "zh-hans:草榴社区; zh-hant:草榴社區;"
     },
@@ -6230,6 +6250,14 @@
     {
       "original": "block",
       "conv": "zh-hans:完全屏蔽; zh-hant:完全屏蔽;"
+    },
+    {
+      "original": "XXX language interface",
+      "conv": "zh-cn:文界面; zh-tw:文介面; zh-hk:文介面;"
+    },
+    {
+      "original": "China Computer Federation",
+      "conv": "zh-hans:中国计算机学会; zh-hant:中國計算機學會;"
     }
   ]
 }

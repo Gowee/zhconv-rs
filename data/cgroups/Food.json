@@ -28,12 +28,24 @@
       "conv": "zh-hans:苹果派; zh-hk:蘋果批; zh-tw:蘋果派;"
     },
     {
+      "original": "baguette",
+      "conv": "zh-cn:法式长棍面包; zh-tw:長棍麵包; zh-my:长棍面包;"
+    },
+    {
+      "original": "barquillo",
+      "conv": "zh-tw:蛋捲; zh-hk:雞蛋卷; zh-cn:鸡蛋卷;"
+    },
+    {
       "original": "bread",
       "conv": "zh-cn:面包; zh-hk:麵包; zh-tw:麵包;"
     },
     {
       "original": "club sandwich",
       "conv": "zh-hans:俱乐部三明治; zh-hk:公司三文治; zh-tw:總匯三明治;"
+    },
+    {
+      "original": "croissant",
+      "conv": "zh-cn:羊角面包; zh-hk:牛角包; zh-tw:可頌; zh-my:牛角面包; zh-sg:可颂面包; "
     },
     {
       "original": "pancake",
@@ -78,6 +90,10 @@
     {
       "original": "omelette",
       "conv": "zh-hans:西式蛋饼; zh-hant:西式蛋餅; zh-tw:歐姆蛋; zh-hk:奄列; zh-sg:杏力蛋;"
+    },
+    {
+      "original": "omelette",
+      "conv": "欧姆蛋=>zh-hans:西式蛋饼; 欧姆蛋=>zh-hant:西式蛋餅; 欧姆蛋=>zh-tw:歐姆蛋; 欧姆蛋=>zh-hk:奄列; 欧姆蛋=>zh-sg:杏力蛋;"
     },
     {
       "original": "pancake",
@@ -221,7 +237,19 @@
     },
     {
       "original": "sour cream",
-      "conv": "zh-hans:酸奶油; zh-hant:酸奶油;"
+      "conv": "zh-hans:酸奶油; zh-hant:酸奶油; zh-hk:酸忌廉;"
+    },
+    {
+      "original": "Whipped cream",
+      "conv": "zh-hans:掼奶油; zh-hk:鮮忌廉; zh-tw:生奶油;"
+    },
+    {
+      "original": "Whipped cream",
+      "conv": "新鮮奶油 => zh-hans:掼奶油; 新鮮奶油 => zh-hk:鮮忌廉;"
+    },
+    {
+      "original": "Whipped cream",
+      "conv": "zh-hans:淡奶油; zh-hk:淡忌廉; zh-tw:淡奶油;"
     },
     {
       "original": "yogurt",
@@ -245,7 +273,15 @@
     },
     {
       "original": "ice cream",
-      "conv": "zh:冰激凌; zh-cn:冰淇淋; zh-hk:雪糕; zh-sg:冰淇淋; zh-tw:冰淇淋;"
+      "conv": "zh-cn:冰淇淋; zh-hk:雪糕; zh-sg:冰淇淋; zh-tw:冰淇淋;"
+    },
+    {
+      "original": "Spaghettieis",
+      "conv": "zh-cn:意大利面冰淇淋; zh-tw:義大利麵冰淇淋; zh-hk:意大利粉雪糕;"
+    },
+    {
+      "original": "Spaghettieis",
+      "conv": "zh-cn:意粉冰淇淋; zh-tw:義大利麵冰淇淋; zh-hk:意粉雪糕;"
     },
     {
       "original": "sundae",
@@ -337,7 +373,7 @@
     },
     {
       "original": "Wendy's",
-      "conv": "zh:溫娣漢堡; zh-hans:温蒂汉堡; zh-tw:溫蒂漢堡; zh-hk:雲狄斯;"
+      "conv": "zh:溫娣漢堡; zh-hans:温蒂汉堡; zh-tw:溫娣漢堡; zh-hk:雲狄斯;"
     },
     {
       "original": "(quick-)frozen",
@@ -385,11 +421,15 @@
     },
     {
       "original": "Subway",
-      "conv": "zh-hans:赛百味; zh-hant:Subway;"
+      "conv": "zh-hans:赛百味; zh-hant:SUBWAY;"
     },
     {
       "original": "Whopper",
       "conv": "zh-hans:皇堡; zh-hant:華堡;"
+    },
+    {
+      "original": "Hardees",
+      "conv": "zh-hans:哈迪斯;zh-hant:哈迪斯;zh-tw:哈帝漢堡;"
     },
     {
       "original": "avocado",
@@ -488,12 +528,20 @@
       "conv": "zh-hans:鸡排; zh-hk:雞扒; zh-tw:雞排;"
     },
     {
+      "original": "Popcorn chicken",
+      "conv": "zh-hans:鸡米花; zh-hk:爆谷雞粒; zh-tw:雞米花;"
+    },
+    {
       "original": "mad cow disease",
       "conv": "zh-hans:疯牛病; zh-tw:狂牛症; zh-hk:瘋牛症;"
     },
     {
       "original": "pork steak",
       "conv": "zh-hans:猪排; zh-tw:豬排; zh-hk:豬扒;"
+    },
+    {
+      "original": "lamb steak",
+      "conv": "zh-hans:羊排; zh-tw:羊排; zh-hk:羊扒;"
     },
     {
       "original": "restructured meat products",
@@ -558,6 +606,38 @@
     {
       "original": "味噌汁",
       "conv": "麵豉湯 => zh-tw:味噌湯;"
+    },
+    {
+      "original": "Cream soup",
+      "conv": "zh-hans:奶油汤; zh-tw:奶油湯; zh-hk:忌廉湯;"
+    },
+    {
+      "original": "Cream of asparagus soup",
+      "conv": "zh-hans:奶油芦笋汤; zh-hk:忌廉蘆筍湯; zh-tw:奶油蘆筍湯;"
+    },
+    {
+      "original": "Cream of mushroom soup",
+      "conv": "zh-hans:奶油蘑菇汤; zh-hk:忌廉蘑菇湯; zh-tw:奶油蘑菇湯;"
+    },
+    {
+      "original": "Cream of corn soup",
+      "conv": "zh-hans:奶油玉米汤; zh-hk:忌廉粟米湯; zh-tw:奶油玉米湯;"
+    },
+    {
+      "original": "Chowder",
+      "conv": "zh-hans:巧达;zh-hk:周打;zh-hant:巧達"
+    },
+    {
+      "original": "Clam chowder",
+      "conv": "zh-hans:蛤肉巧达汤; zh-hk:周打蜆湯; zh-tw:蛤蜊巧達湯;"
+    },
+    {
+      "original": "Corn chowder",
+      "conv": "zh-hans:玉米巧达浓汤; zh-hk:周打粟米湯; zh-tw:玉米巧達濃湯;"
+    },
+    {
+      "original": "Fish chowder",
+      "conv": "zh-hans:鲜鱼巧达浓汤; zh-hk:周打魚湯; zh-tw:鮮魚巧達濃湯;"
     },
     {
       "original": null,
@@ -724,6 +804,10 @@
       "conv": "zh-hans:萝卜干; zh-hant:蘿蔔乾;"
     },
     {
+      "original": "Calbee",
+      "conv": "zh-cn:卡乐比;zh-hans:卡乐比;zh-tw:卡樂比;zh-hk:卡樂B;zh-sg:卡乐B;zh-hant:卡樂B;zh-mo:卡乐B;"
+    },
+    {
       "original": "chewing gum",
       "conv": "zh-hans:口香糖; zh-hk:香口膠; zh-tw:口香糖;"
     },
@@ -746,6 +830,14 @@
     {
       "original": "ice pop",
       "conv": "冰棍 => zh-tw:冰棒; 冰棍 => zh-hk:雪條;"
+    },
+    {
+      "original": "mashed potato",
+      "conv": "zh-cn:马铃薯泥;zh-hk:薯蓉; zh-tw:馬鈴薯泥;"
+    },
+    {
+      "original": "potato chip",
+      "conv": "zh-hans:马铃薯片;zh-hant:馬鈴薯片;zh-tw:洋芋片;zh-hk:薯片;zh-cn:马铃薯片;zh-mo:薯片;"
     },
     {
       "original": "raisin",

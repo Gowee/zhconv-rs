@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "Arsenal",
-      "conv": "zh-hans:阿森纳; zh-hk:阿仙奴;zh-tw:兵工廠;"
+      "conv": "zh-hans:阿森纳; zh-hk:阿仙奴;zh-tw:兵工廠;zh-hant:阿森納"
     },
     {
       "original": "Aston Villa",
@@ -37,7 +37,7 @@
     },
     {
       "original": "Bournemouth",
-      "conv": "zh-cn:伯恩茅斯; zh-tw:般尼茅夫; zh-hk:般尼茅夫;"
+      "conv": "zh-cn:伯恩茅斯; zh-tw:伯恩茅斯; zh-hk:般尼茅夫;"
     },
     {
       "original": "Brentford",
@@ -53,7 +53,7 @@
     },
     {
       "original": "Cardiff City",
-      "conv": "zh-cn:加迪夫城; zh-tw:卡迪夫城; zh-hk:卡迪夫城;"
+      "conv": "zh-cn:加迪夫城; zh-tw:卡地夫城; zh-hk:卡迪夫城;"
     },
     {
       "original": "Chelsea",
@@ -185,7 +185,15 @@
     },
     {
       "original": "Wolverhampton Wanderers",
-      "conv": "zh-cn:伍尔弗汉普顿流浪者; zh-tw:狼隊; zh-hk:狼隊;"
+      "conv": "zh-cn:狼队; zh-tw:狼隊; zh-hk:狼隊;"
+    },
+    {
+      "original": "Bramall Lane",
+      "conv": "zh-hans:布拉莫巷; zh-hk:巴拉摩徑;"
+    },
+    {
+      "original": "Bramall Lane",
+      "conv": "zh-hans:布拉莫巷体育场; zh-hk:巴拉摩徑球場;"
     },
     {
       "original": "Highbury",
@@ -264,6 +272,10 @@
       "conv": "zh-cn:巴洛特利; zh-tw:巴洛特利; zh-hk:巴洛迪利;"
     },
     {
+      "original": "Benjamin",
+      "conv": "zh:本傑明; zh-cn:本杰明; zh-tw:班傑明; zh-hk:賓捷文;"
+    },
+    {
       "original": "Berbatov",
       "conv": "zh-cn:贝尔巴托夫; zh-tw:貝爾巴托夫; zh-hk:貝碧托夫;"
     },
@@ -281,7 +293,7 @@
     },
     {
       "original": "Bobby Charlton",
-      "conv": "zh-cn:博比·查尔顿; zh-hk:卜比·查爾頓;"
+      "conv": "zh-cn:博比·查尔顿; zh-hk:卜比·查爾頓; zh-tw:巴比·查爾頓;"
     },
     {
       "original": "Bobby Moore",

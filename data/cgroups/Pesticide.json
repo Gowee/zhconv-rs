@@ -1,0 +1,243 @@
+{
+  "name": "Pesticide",
+  "description": "農藥",
+  "path": "Module:CGroup/Pesticide",
+  "rules": [
+    {
+      "original": "Acephate",
+      "conv": "zh-cn:高灭磷;zh-tw:歐殺松;zh-hk:高滅磷;"
+    },
+    {
+      "original": "Aldicarb",
+      "conv": "zh-cn:涕灭威;zh-tw:得滅克;zh-hk:涕滅威;"
+    },
+    {
+      "original": "Aminocarb",
+      "conv": "zh-cn:灭害威;zh-tw:安美加;zh-hk:滅害威;"
+    },
+    {
+      "original": "Azamethiphos",
+      "conv": "zh-cn:甲基吡啶磷;zh-tw:亞滅松;zh-hk:甲基吡啶磷;"
+    },
+    {
+      "original": "Bendiocarb",
+      "conv": "zh-cn:恶虫威;zh-tw:免敵克;zh-hk:惡蟲威;"
+    },
+    {
+      "original": "Butocarboxim",
+      "conv": "zh-cn:丁酮威;zh-tw:佈嘉信;zh-hk:丁酮威;"
+    },
+    {
+      "original": "Carbaryl",
+      "conv": "zh-cn:甲萘威;zh-tw:加保利;zh-hk:甲萘威;"
+    },
+    {
+      "original": "Carbofuran",
+      "conv": "zh-cn:克百威;zh-tw:加保扶;zh-hk:克百威;"
+    },
+    {
+      "original": "Chlorpyrifos",
+      "conv": "zh-cn:毒死蜱;zh-tw:陶斯松;zh-hk:毒死蜱;"
+    },
+    {
+      "original": "Chlorfenvinphos",
+      "conv": "zh-cn:毒虫畏;zh-tw:氯芬松;zh-hk:毒蟲畏;"
+    },
+    {
+      "original": "Chlorfenvinphos",
+      "conv": "zh-cn:蝇毒磷;zh-tw:香豆磷;zh-hk:蠅毒磷;"
+    },
+    {
+      "original": "Diazinon",
+      "conv": "zh-cn:二嗪磷;zh-tw:大利松;zh-hk:二嗪磷;"
+    },
+    {
+      "original": "Dichlorvos",
+      "conv": "zh-cn:敌敌畏;zh-tw:二氯松;zh-hk:敵敵畏;"
+    },
+    {
+      "original": "Dicrotophos",
+      "conv": "zh-cn:百治磷;zh-tw:雙特松;zh-hk:百治磷;"
+    },
+    {
+      "original": "Dimethoate",
+      "conv": "zh-cn:乐果;zh-tw:大滅松;zh-hk:樂果;"
+    },
+    {
+      "original": "Ethion",
+      "conv": "zh-cn:乙硫磷;zh-tw:愛殺松;zh-hk:乙硫磷;"
+    },
+    {
+      "original": "Fenamiphos",
+      "conv": "zh-cn:苯线磷;zh-tw:芬滅松;zh-hk:苯線磷;"
+    },
+    {
+      "original": "Fensulfothion",
+      "conv": "zh-cn:丰索磷;zh-tw:繁福松;zh-hk:豐索磷;"
+    },
+    {
+      "original": "Fenitrothion",
+      "conv": "zh-cn:杀螟硫磷;zh-tw:撲滅松;zh-hk:殺螟硫磷;"
+    },
+    {
+      "original": "Fenobucarb",
+      "conv": "zh-cn:仲丁威;zh-tw:丁基滅必蝨;zh-hk:仲丁威;"
+    },
+    {
+      "original": "Fenthion",
+      "conv": "zh-cn:倍硫磷;zh-tw:芬殺松;zh-hk:倍硫磷;"
+    },
+    {
+      "original": "Isoprocarb",
+      "conv": "zh-cn:异丙威;zh-tw:滅必蝨;zh-hk:異丙威;"
+    },
+    {
+      "original": "Malathion",
+      "conv": "zh-cn:马拉硫磷;zh-tw:馬拉松;zh-hk:馬拉硫磷;"
+    },
+    {
+      "original": "Methamidophos",
+      "conv": "zh-cn:甲胺磷;zh-tw:達馬松;zh-hk:甲胺磷;"
+    },
+    {
+      "original": "Methidathion",
+      "conv": "zh-cn:杀扑磷;zh-tw:滅大松;zh-hk:殺撲磷;"
+    },
+    {
+      "original": "Methomyl",
+      "conv": "zh-cn:灭多威;zh-tw:納乃得;zh-hk:滅多威;"
+    },
+    {
+      "original": "Metolcarb",
+      "conv": "zh-cn:速灭威;zh-tw:治滅蝨;zh-hk:速滅威;"
+    },
+    {
+      "original": "Mevinphos",
+      "conv": "zh-cn:速灭磷;zh-tw:美文松;zh-hk:速滅磷;"
+    },
+    {
+      "original": "Monocrotophos",
+      "conv": "zh-cn:久效磷;zh-tw:亞素靈;zh-hk:久效磷;"
+    },
+    {
+      "original": "Naled",
+      "conv": "zh-cn:二溴磷;zh-tw:乃力松;zh-hk:二溴磷;"
+    },
+    {
+      "original": "Oxamyl",
+      "conv": "zh-cn:杀线威;zh-tw:歐殺滅;zh-hk:殺線威;"
+    },
+    {
+      "original": "Parathion",
+      "conv": "zh-cn:对硫磷;zh-tw:巴拉松;zh-hk:對硫磷;"
+    },
+    {
+      "original": "Promecarb",
+      "conv": "zh-cn:猛杀威;zh-tw:普滅克;zh-hk:猛殺威;"
+    },
+    {
+      "original": "Propoxur",
+      "conv": "zh-cn:残杀威;zh-tw:安丹;zh-hk:殘殺威;"
+    },
+    {
+      "original": "Temephos",
+      "conv": "zh-cn:双硫磷;zh-tw:亞培松;zh-hk:雙硫磷;"
+    },
+    {
+      "original": "Terbufos",
+      "conv": "zh-cn:特丁硫磷;zh-tw:托福松;zh-hk:特丁硫磷;"
+    },
+    {
+      "original": "Tetrachlorvinphos",
+      "conv": "zh-cn:杀虫畏;zh-tw:樂本松;zh-hk:殺蟲畏;"
+    },
+    {
+      "original": "Trichlorfon",
+      "conv": "zh-cn:敌百虫;zh-tw:三氯松;zh-hk:敵百蟲;"
+    },
+    {
+      "original": "Benomyl",
+      "conv": "zh-cn:苯菌灵;zh-tw:免賴得;zh-hk:苯菌靈;"
+    },
+    {
+      "original": "Carbendazim",
+      "conv": "zh-cn:多菌灵;zh-tw:貝芬替;zh-hk:多菌靈;"
+    },
+    {
+      "original": "Chlorothalonil",
+      "conv": "zh-cn:百菌清;zh-tw:四氯異苯腈;zh-hk:百菌清;"
+    },
+    {
+      "original": "Thiram",
+      "conv": "zh-cn:福美双;zh-tw:得恩地;zh-hk:福美雙;"
+    },
+    {
+      "original": "Procymidone",
+      "conv": "zh-cn:腐霉利;zh-tw:撲滅寧;zh-hk:腐霉利;"
+    },
+    {
+      "original": "Vinclozolin",
+      "conv": "zh-cn:乙烯菌核利;zh-tw:免克寧;zh-hk:乙烯菌核利;"
+    },
+    {
+      "original": "Diquat",
+      "conv": "zh-cn:敌草快;zh-tw:二刈;zh-hk:敵草快;"
+    },
+    {
+      "original": "Ethphon",
+      "conv": "zh-cn:乙烯利;zh-tw:益收生長素;zh-hk:乙烯利;"
+    },
+    {
+      "original": "Glufosinate",
+      "conv": "zh-cn:草铵膦;zh-tw:固殺草;zh-hk:草銨膦;"
+    },
+    {
+      "original": "Glyphosate",
+      "conv": "zh-cn:草甘膦;zh-tw:嘉磷塞;zh-hk:草甘膦;"
+    },
+    {
+      "original": "Paraquat",
+      "conv": "zh-cn:百草枯;zh-tw:巴拉刈;zh-hk:百草枯;"
+    },
+    {
+      "original": "Brodifacoum",
+      "conv": "zh-cn:溴鼠灵;zh-tw:可滅鼠;zh-hk:溴鼠靈;"
+    },
+    {
+      "original": "Bromadiolone",
+      "conv": "zh-cn:溴敌隆;zh-tw:撲滅鼠;zh-hk:溴敵隆;"
+    },
+    {
+      "original": "Chlorophacinone",
+      "conv": "zh-cn:氯鼠酮;zh-tw:可伐鼠;zh-hk:氯鼠酮;"
+    },
+    {
+      "original": "Coumatetralyl",
+      "conv": "zh-cn:杀鼠迷;zh-tw:剋滅鼠;zh-hk:殺鼠迷;"
+    },
+    {
+      "original": "Difenacoum",
+      "conv": "zh-cn:鼠得克;zh-tw:雙滅鼠;zh-hk:鼠得克;"
+    },
+    {
+      "original": "Difethialone",
+      "conv": "zh-cn:噻鼠灵;zh-tw:立滅鼠;zh-hk:噻鼠灵;"
+    },
+    {
+      "original": "Diphenadione",
+      "conv": "zh-cn:敌鼠;zh-tw:得伐鼠;zh-hk:敵鼠;"
+    },
+    {
+      "original": "Flocoumafen",
+      "conv": "zh-cn:氟鼠灵;zh-tw:伏滅鼠;zh-hk:氟鼠靈;"
+    },
+    {
+      "original": "Fumarin",
+      "conv": "zh-cn:克鼠灵;zh-tw:克滅鼠;zh-hk:克鼠靈;"
+    },
+    {
+      "original": "Warfarin",
+      "conv": "zh-cn:灭鼠灵;zh-tw:殺鼠靈;zh-hk:滅鼠靈;"
+    }
+  ]
+}

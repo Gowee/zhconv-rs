@@ -18,7 +18,9 @@ use crate::utils::get_with_fallback;
     Clone, Copy, Debug, PartialEq, Eq, Hash, Display, EnumString, EnumVariantNames, IntoStaticStr,
 )]
 #[strum(serialize_all = "kebab_case", ascii_case_insensitive)]
+#[derive(Default)]
 pub enum Variant {
+    #[default]
     Zh,
     ZhHant,
     ZhHans,
@@ -50,12 +52,6 @@ impl Variant {
     }
 }
 
-impl Default for Variant {
-    fn default() -> Self {
-        Variant::Zh
-    }
-}
-
 /// Map variants to text, e.g. `zh-hans:计算机; zh-hant:電腦;`
 #[derive(Debug, Clone)]
 pub struct VariantMap<T>(pub HashMap<Variant, T>);
@@ -73,7 +69,6 @@ impl VariantMap<String> {
     pub fn get_text_with_fallback(&self, target: Variant) -> Option<&str> {
         // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L65
         use Variant::*;
-        // dbg!(target, &self);
         match_fallback!(
             self.0,
             target,

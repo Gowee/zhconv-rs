@@ -32,6 +32,18 @@
       "conv": "zh-cn:为奴十二年; zh-tw:自由之心; zh-hk:被奪走的12年;"
     },
     {
+      "original": "120 battements par minute",
+      "conv": "zh-hk:心動120; zh-mo:心動120; zh-cn:每分钟120击;"
+    },
+    {
+      "original": "120 battements par minute",
+      "conv": "心動120=>zh-tw:BPM; 每分钟120击=>zh-tw:BPM;"
+    },
+    {
+      "original": "120 battements par minute",
+      "conv": "120拍的節奏=>zh-hk:心動120; 120拍的節奏=>zh-mo:心動120; 120拍的節奏=>zh-cn:每分钟120击; 120拍的節奏=>zh-tw:BPM;"
+    },
+    {
       "original": "13 Hours: The Secret Soldiers of Benghazi",
       "conv": "zh-cn:13小时; zh-tw:13小時：班加西的秘密士兵; zh-hk:13小時：班加西無名英雄;"
     },
@@ -252,6 +264,10 @@
       "conv": "zh-cn:联邦调整局; zh-tw:命運規劃局; zh-hk:天網逆緣;"
     },
     {
+      "original": "Adrift",
+      "conv": "zh-cn:惊涛飓浪; zh-tw:我願意; zh-hk:漂流心海;"
+    },
+    {
       "original": "The Adventures of Priscilla, Queen of the Desert",
       "conv": "zh-tw:沙漠妖姬; zh-hk:風塵三絕; zh-cn:沙漠妖姬;"
     },
@@ -270,6 +286,14 @@
     {
       "original": "Afterimage",
       "conv": "zh-cn:残影余像; zh-tw:殘影;"
+    },
+    {
+      "original": "Aftersun",
+      "conv": "zh-cn:晒后假日; zh-tw:日麗; zh-hk:日麗;"
+    },
+    {
+      "original": "After Yang",
+      "conv": "zh:楊之後; zh-tw:人造眷戀; zh-cn:杨之后;"
     },
     {
       "original": "The Age of Adaline",
@@ -310,6 +334,14 @@
     {
       "original": "Albert Nobbs",
       "conv": "zh-cn:雌雄莫辨; zh-tw:變裝男侍; zh-hk:艾拔貴「性」;"
+    },
+    {
+      "original": "Alcarràs",
+      "conv": "zh-tw:桃子樹的最後豐收; zh-hk:陽光燦爛的果園;"
+    },
+    {
+      "original": "Alcarràs",
+      "conv": "桃子樹的最後豐收=>zh-cn:阿尔卡拉斯; 陽光燦爛的果園=>zh-cn:阿尔卡拉斯;"
     },
     {
       "original": "Alex Strangelove",
@@ -360,6 +392,14 @@
       "conv": "zh-tw:異形4：浴火重生; zh-hk:異形4：浴火重生; zh-cn:异形4：逆种;"
     },
     {
+      "original": "Aline",
+      "conv": "zh:席琳狄翁外傳：愛的力量; zh-tw:席琳·狄翁外傳：愛的力量; zh-hk:聲夢戀歌;"
+    },
+    {
+      "original": "Aline",
+      "conv": "席琳狄翁外傳：愛的力量=>zh-cn:爱琳; 席琳·狄翁外傳：愛的力量=>zh-cn:爱琳; 聲夢戀歌=>zh-cn:爱琳;"
+    },
+    {
       "original": "Alita: Battle Angel",
       "conv": "zh-tw:艾莉塔：戰鬥天使; zh-hk:銃夢：戰鬥天使; zh-cn:阿丽塔：战斗天使; zh-sg:艾莉塔：战斗天使;"
     },
@@ -378,6 +418,14 @@
     {
       "original": "All My Puny Sorrows",
       "conv": "zh-tw:親愛的小小憂愁; zh-cn:我所有微不足道的悲伤;"
+    },
+    {
+      "original": "All That Breathes",
+      "conv": "zh-tw:在牠們的凝視之間; zh-hk:救雀奇兵; zh-cn:生生相息;"
+    },
+    {
+      "original": "All the Beauty and the Bloodshed",
+      "conv": "zh-tw:所有的美麗與血淚; zh-hk:所有的美麗與血淚; zh-cn:美人们与流血事件;"
     },
     {
       "original": "All The Money In The World",
@@ -488,6 +536,10 @@
       "conv": "zh-cn:废柴特工; zh-tw:廢柴特務; zh-hk:特務傻的孖;"
     },
     {
+      "original": "American Underdog",
+      "conv": "zh-tw:美國失敗者; zh-hk:超級碗MVP的翻身傳奇; zh-hans:美国草根：库尔特·华纳的故事;"
+    },
+    {
       "original": "American Wedding",
       "conv": "zh-cn:美国派3：美国婚礼; zh-tw:美國派之婚禮; zh-hk:美國處男：處男有喜;"
     },
@@ -569,7 +621,7 @@
     },
     {
       "original": "Annihilation",
-      "conv": "滅。境=>zh-cn:湮灭; 滅。境=>zh-tw:滅絕; 滅。境=>zh-hk:滅。境; 滅。境=>zh-sg:湮灭;"
+      "conv": "滅。境=>zh-cn:湮灭; 滅。境=>zh-tw:滅絕; 滅。境=>zh-hk:滅。境; 滅。境=>zh-mo:滅。境; 滅。境=>zh-sg:湮灭; 滅。境=>zh-my:湮灭;"
     },
     {
       "original": "The Anniversary Party",
@@ -621,11 +673,15 @@
     },
     {
       "original": "Apocalypto",
-      "conv": "亞波卡獵逃=>zh-cn:启示; 亞波卡獵逃=>zh-tw:阿波卡獵逃; 亞波卡獵逃=>zh-hk:亞波卡獵逃;"
+      "conv": "亞波卡獵逃=>zh-cn:启示; 亞波卡獵逃=>zh-tw:阿波卡獵逃; 亞波卡獵逃=>zh-hk:亞波卡獵逃; 亞波卡獵逃=>zh-mo:亞波卡獵逃;"
     },
     {
       "original": "Apocalypto",
-      "conv": "阿波卡獵逃=>zh-cn:启示; 阿波卡獵逃=>zh-tw:阿波卡獵逃; 阿波卡獵逃=>zh-hk:亞波卡獵逃;"
+      "conv": "阿波卡獵逃=>zh-cn:启示; 阿波卡獵逃=>zh-tw:阿波卡獵逃; 阿波卡獵逃=>zh-hk:亞波卡獵逃; 阿波卡獵逃=>zh-mo:亞波卡獵逃;"
+    },
+    {
+      "original": "Apollo 10 1⁄2: A Space Age Childhood",
+      "conv": "zh-tw:阿波羅10號半：我要上太空; zh-hk:阿波羅10號半：男兒當升空; zh-cn:阿波罗10½号：太空时代的童年; zh-sg:阿波罗10号半：我要上太空;"
     },
     {
       "original": "Apollo 13",
@@ -634,6 +690,10 @@
     {
       "original": "April and the Extraordinary World",
       "conv": "zh-tw:愛波的異想世界; zh-hk:蒸汽女孩與不死貓; zh-cn:阿薇尔与虚构世界;"
+    },
+    {
+      "original": "Argentina, 1985",
+      "conv": "zh-tw:1985年阿根廷; zh-hk:1985年阿根廷; zh-cn:阿根廷，1985; zh-hans:阿根廷1985;"
     },
     {
       "original": "Argo",
@@ -645,23 +705,27 @@
     },
     {
       "original": "Armageddon",
-      "conv": "絕世天劫=>zh-cn:世界末日; 絕世天劫=>zh-hk:絕世天劫; 絕世天劫=>zh-tw:世界末日;"
+      "conv": "絕世天劫=>zh-cn:世界末日; 絕世天劫=>zh-hk:絕世天劫; 絕世天劫=>zh-mo:絕世天劫; 絕世天劫=>zh-tw:世界末日;"
     },
     {
       "original": "Army of the Dead",
       "conv": "zh-tw:活屍大軍; zh-hk:不死喪軍; zh-cn:亡者之师;"
     },
     {
-      "original": "Arrival",
-      "conv": "天煞異降=>zh-cn:降临; 天煞異降=>zh-hk:天煞異降; 天煞異降=>zh-tw:異星入境; 天煞異降=>zh-sg:异星入境;"
+      "original": "The Arrangement",
+      "conv": "zh:我就愛你; zh-hk:稱心如意巧安排; zh-cn:我就爱你;"
     },
     {
       "original": "Arrival",
-      "conv": "異星入境=>zh-cn:降临; 異星入境=>zh-hk:天煞異降; 異星入境=>zh-tw:異星入境; 異星入境=>zh-sg:异星入境;"
+      "conv": "天煞異降=>zh-cn:降临; 天煞異降=>zh-hk:天煞異降; 天煞異降=>zh-mo:天煞異降; 天煞異降=>zh-tw:異星入境; 天煞異降=>zh-sg:异星入境;"
     },
     {
       "original": "Arrival",
-      "conv": "异星入境=>zh-cn:降临; 异星入境=>zh-hk:天煞異降; 异星入境=>zh-tw:異星入境; 异星入境=>zh-sg:异星入境;"
+      "conv": "異星入境=>zh-cn:降临; 異星入境=>zh-hk:天煞異降; 異星入境=>zh-mo:天煞異降; 異星入境=>zh-tw:異星入境; 異星入境=>zh-sg:异星入境;"
+    },
+    {
+      "original": "Arrival",
+      "conv": "异星入境=>zh-cn:降临; 异星入境=>zh-hk:天煞異降; 异星入境=>zh-mo:天煞異降; 异星入境=>zh-tw:異星入境; 异星入境=>zh-sg:异星入境;"
     },
     {
       "original": "Arthur Christmas",
@@ -701,7 +765,7 @@
     },
     {
       "original": "A Star Is Born（称呼法2）",
-      "conv": "星海浮沉录=>zh-cn:一个明星的诞生;星海浮沈錄=>zh-hk:星夢情深;星海浮沈錄=>zh-tw:一個巨星的誕生;星海浮沉录=>zh-sg:星梦情深"
+      "conv": "星海浮沉录=>zh-cn:一个明星的诞生;星海浮沈錄=>zh-hk:星夢情深;星海浮沈錄=>zh-mo:星夢情深;星海浮沈錄=>zh-tw:一個巨星的誕生;星海浮沉录=>zh-sg:星梦情深"
     },
     {
       "original": "¡Átame!",
@@ -764,6 +828,10 @@
       "conv": "zh-cn:飞行者; zh-tw:神鬼玩家; zh-hk:娛樂大亨;"
     },
     {
+      "original": "Awake",
+      "conv": "zh-tw:無眠夢魘; zh-hk:無眠覺醒; zh-sg:无眠觉醒; zh-sg:无眠梦魇;"
+    },
+    {
       "original": "Awakenings",
       "conv": "zh-cn:睡人; zh-tw:睡人; zh-hk:無語問蒼天;"
     },
@@ -808,6 +876,10 @@
       "conv": "zh-tw:寶貝媽媽; zh-hk:BB媽媽保妳大; zh-cn:代孕妈妈;"
     },
     {
+      "original": "Babylon",
+      "conv": "巴比倫：星聲追夢荷里活=>zh-cn:巴比伦; 巴比倫：星聲追夢荷里活=>zh-tw:巴比倫; "
+    },
+    {
       "original": "Bad Boys",
       "conv": "zh-cn:绝地战警; zh-tw:絕地戰警; zh-hk:重案夢幻組;"
     },
@@ -837,7 +909,7 @@
     },
     {
       "original": "Bait",
-      "conv": "手到擒來=>zh-tw:手到擒來; 手到擒來=>zh-hk:餌字當頭; 手到擒來=>zh-cn:诱饵;"
+      "conv": "手到擒來=>zh-tw:手到擒來; 手到擒來=>zh-hk:餌字當頭; 手到擒來=>zh-mo:餌字當頭; 手到擒來=>zh-cn:诱饵;"
     },
     {
       "original": "The Ballad of Buster Scruggs",
@@ -854,6 +926,22 @@
     {
       "original": "Banlieue 13",
       "conv": "zh-cn:暴力街区;zh-hk:暴力特區;zh-tw:暴力特區"
+    },
+    {
+      "original": "The Banshees of Inisherin",
+      "conv": "zh-tw:伊尼舍林的女妖; zh-hk:伊尼舍林的女妖; zh-cn:伊尼舍林的报丧女妖;"
+    },
+    {
+      "original": "Barbarian",
+      "conv": "宿劫=>zh-tw:宿劫; 宿劫=>zh-hk:宿劫; 宿劫=>zh-cn:野蛮人;"
+    },
+    {
+      "original": "Bardo, falsa crónica de unas cuantas verdades",
+      "conv": "zh-tw:中有，部分真實的偽記事; zh-hk:中有，部分真實的偽記事; zh-sg:中有，部分真实的伪记事;"
+    },
+    {
+      "original": "Bardo, falsa crónica de unas cuantas verdades",
+      "conv": "中有，部分真實的偽記事=>zh-cn:诗人; 中有，部分真实的伪记事=>zh-cn:诗人;"
     },
     {
       "original": "Barefoot in the Park",
@@ -916,6 +1004,10 @@
       "conv": "zh-hk:蜜蜂電影; zh-cn:蜜蜂总动员; zh-tw:蜂電影;"
     },
     {
+      "original": "Before, Now & Then",
+      "conv": "zh-tw:娜娜：逝水年華; zh-hk:娜娜的逝水年華; zh-cn:过去，如今和之后;"
+    },
+    {
       "original": "Before I Go to Sleep",
       "conv": "zh-tw:別相信任何人; zh-hk:別相信任何人; zh-cn:在我入睡前; zh-sg:別相信任何人;"
     },
@@ -926,6 +1018,10 @@
     {
       "original": "Beasts of the Southern Wild",
       "conv": "zh-cn:南方的野兽; zh-tw:南方野獸樂園; zh-hk:南荒的童話;"
+    },
+    {
+      "original": "Beau Is Afraid",
+      "conv": "zh-tw:寶可噩夢; zh-cn:博很恐惧;"
     },
     {
       "original": "Beautiful Creatures (2013)",
@@ -1016,6 +1112,10 @@
       "conv": "zh-cn:贝奥武夫; zh-hk:魔戰王：貝奧武夫; zh-tw:貝武夫：北海的詛咒;"
     },
     {
+      "original": "Berdreymi",
+      "conv": "zh-tw:冰島少年三加一; zh-cn:美丽的生物;"
+    },
+    {
       "original": "Bernie",
       "conv": "胖尼殺很大=>zh-cn:伯尼; 胖尼殺很大=>zh-hk:禮儀師真假殺人事件; 胖尼殺很大=>zh-tw:胖尼殺很大;"
     },
@@ -1066,6 +1166,14 @@
     {
       "original": "Big Hero 6",
       "conv": "zh-tw:大英雄天團; zh-hk:大英雄聯盟; zh-cn:超能陆战队; zh-sg:大英雄天团;"
+    },
+    {
+      "original": "The Big Sick",
+      "conv": "zh-tw:愛情昏迷中; zh-hk:情人眼裡巴基斯;"
+    },
+    {
+      "original": "The Big Sick",
+      "conv": "愛情昏迷中=>zh-cn:大病; 情人眼裡巴基斯=>zh-cn:大病;"
     },
     {
       "original": "Billy Elliot",
@@ -1128,8 +1236,16 @@
       "conv": "黑勢力=>zh-cn:黑色弥撒; 極黑勢力=>zh-cn:黑色弥撒; 黑势力=>zh-cn:黑色弥撒;"
     },
     {
+      "original": "The Black Phone",
+      "conv": "zh-tw:闇黑電話; zh-hk:接駁靈聲; zh-cn:黑色电话;"
+    },
+    {
       "original": "Black Sea",
-      "conv": "zh-cn：黑海夺金; zh-hk:黑海潛航：追撃20億; zh-tw:黑海浩劫;"
+      "conv": "zh-cn:黑海夺金; zh-hk:黑海潛航：追擊20億; zh-tw:黑海浩劫;"
+    },
+    {
+      "original": "Black Sea",
+      "conv": "黑海潛航：追撃20億=>zh-cn:黑海夺金; 黑海潛航：追撃20億=>zh-hk:黑海潛航：追擊20億; 黑海潛航：追撃20億=>zh-tw:黑海浩劫;"
     },
     {
       "original": "Blade",
@@ -1161,7 +1277,11 @@
     },
     {
       "original": "The Blind Side",
-      "conv": "守護有心人=>zh-hk:守護有心人; 守護有心人=>zh-cn:弱点; 守護有心人=>zh-tw:攻其不備;"
+      "conv": "zh-hk:守護有心人; zh-tw:攻其不備;"
+    },
+    {
+      "original": "The Blind Side",
+      "conv": "守護有心人=>zh-cn:弱点; 攻其不備=>zh-cn:弱点;"
     },
     {
       "original": "The Bling Ring",
@@ -1200,12 +1320,20 @@
       "conv": "zh-hk:鬼馬兄弟; zh-tw:福祿雙霸天; zh-cn:蓝调兄弟;"
     },
     {
+      "original": "Die Blumen von gestern",
+      "conv": "zh-tw:昨日盛開的花朵; zh-hk:昨日盛開的花朵; zh-cn:昨日之花;"
+    },
+    {
       "original": "BMX Bandits",
       "conv": "zh-hk:BMX強盜; zh-cn:少年擒寇记; zh-tw:飛車小子劫搶匪;"
     },
     {
       "original": "The Boat That Rocked",
       "conv": "zh-tw:搖滾電台; zh-hk:出位樂人谷; zh-cn:海盗电台; zh-tw:海盜電台;"
+    },
+    {
+      "original": "Bodies Bodies Bodies",
+      "conv": "zh-tw:天黑請斃命; zh-hk:天黑請斃命; zh-cn:尸体游戏;"
     },
     {
       "original": "Body of Lies",
@@ -1228,6 +1356,14 @@
       "conv": "zh-hk:骨中罪; zh-tw:人骨拼圖; zh-cn:神秘拼图;"
     },
     {
+      "original": "Bones and All",
+      "conv": "zh-tw:骨肉的總和; zh-hk:骨肉的總和; zh-cn:骨及所有;"
+    },
+    {
+      "original": "Bones and All",
+      "conv": "骸骨及一切=>zh-tw:骨肉的總和; 骸骨及一切=>zh-hk:骨肉的總和; 骸骨及一切=>zh-mo:骨肉的總和; 骸骨及一切=>zh-cn:骨及所有;"
+    },
+    {
       "original": "The Bonfire of Vanities",
       "conv": "zh-hk:夜都迷情; zh-tw:走夜路的男人; zh-cn:虚荣的篝火;"
     },
@@ -1242,6 +1378,14 @@
     {
       "original": "Boogeyman 2",
       "conv": "zh-hans:恶灵空间2;zh-hk:夜半鬼開門2;zh-tw:惡靈空間2;"
+    },
+    {
+      "original": "Boogie",
+      "conv": "zh-tw:布吉闖籃關; zh-hk:寶記闖籃關;"
+    },
+    {
+      "original": "Boogie",
+      "conv": "布吉闖籃關=>zh-cn:布吉; 寶記闖籃關=>zh-cn:布吉;"
     },
     {
       "original": "Boogie Nights",
@@ -1281,7 +1425,11 @@
     },
     {
       "original": "The Bounty Hunter",
-      "conv": "zh-tw:賞金戀人：Ex檔案; zh-hk:前妻拘捕令; zh-cn:赏金猎手;"
+      "conv": "zh-tw:賞金戀人：Ex檔案; zh-hk:前妻拘捕令;"
+    },
+    {
+      "original": "The Bounty Hunter",
+      "conv": "賞金戀人：Ex檔案=>zh-cn:赏金猎手; 前妻拘捕令=>zh-cn:赏金猎手;"
     },
     {
       "original": "The Bourne Identity",
@@ -1313,7 +1461,7 @@
     },
     {
       "original": "Boyhood",
-      "conv": "我們都是這樣長大的=>zh-cn:少年时代; 我們都是這樣長大的=>zh-tw:年少時代; 我們都是這樣長大的=>zh-hk:我們都是這樣長大的;"
+      "conv": "我們都是這樣長大的=>zh-cn:少年时代; 我們都是這樣長大的=>zh-sg:少年时代; 我們都是這樣長大的=>zh-my:少年时代; 我們都是這樣長大的=>zh-tw:年少時代; 我們都是這樣長大的=>zh-hk:我們都是這樣長大的; 我們都是這樣長大的=>zh-mo:我們都是這樣長大的;"
     },
     {
       "original": "Boys Don't Cry",
@@ -1376,12 +1524,16 @@
       "conv": "zh-cn:布鲁斯特的百万横财; zh-tw:財神有難; zh-hk:橫財三千萬;"
     },
     {
-      "original": "Bridesmaids",
-      "conv": "伴娘我最大=>zh-cn:伴娘; 伴娘我最大=>zh-tw:伴娘我最大; 伴娘我最大=>zh-hk:最爆伴娘團;"
+      "original": "Brian and Charles",
+      "conv": "zh-tw:布萊恩與查爾斯; zh-hk:拜仁與查理斯; zh-cn:布赖恩和查尔斯;"
     },
     {
       "original": "Bridesmaids",
-      "conv": "最爆伴娘團=>zh-cn:伴娘; 最爆伴娘團=>zh-tw:伴娘我最大; 最爆伴娘團=>zh-hk:最爆伴娘團;"
+      "conv": "zh-tw:伴娘我最大; zh-hk:最爆伴娘團;"
+    },
+    {
+      "original": "Bridesmaids",
+      "conv": "伴娘我最大=>zh-cn:伴娘; 伴娘我最大=>zh-sg:伴娘; 伴娘我最大=>zh-my:伴娘; 最爆伴娘團=>zh-cn:伴娘; 最爆伴娘團=>zh-sg:伴娘; 最爆伴娘團=>zh-my:伴娘;"
     },
     {
       "original": "Bride and Prejudice",
@@ -1425,15 +1577,11 @@
     },
     {
       "original": "Brooklyn",
-      "conv": "愛在他鄉=>zh-cn:布鲁克林; 愛在他鄉=>zh-tw:愛在他鄉; 愛在他鄉=>zh-hk:布魯克林之戀; 愛在他鄉=>zh-sg:爱在他乡;"
+      "conv": "zh-tw:愛在他鄉; zh-hk:布魯克林之戀; zh-sg:爱在他乡;"
     },
     {
       "original": "Brooklyn",
-      "conv": "爱在他乡=>zh-cn:布鲁克林; 爱在他乡=>zh-tw:愛在他鄉; 爱在他乡=>zh-hk:布魯克林之戀; 爱在他乡=>zh-sg:爱在他乡;"
-    },
-    {
-      "original": "Brooklyn",
-      "conv": "布魯克林之戀=>zh-cn:布鲁克林; 布魯克林之戀=>zh-tw:愛在他鄉; 布魯克林之戀=>zh-hk:布魯克林之戀; 布魯克林之戀=>zh-sg:爱在他乡;"
+      "conv": "愛在他鄉=>zh-cn:布鲁克林; 布魯克林之戀=>zh-cn:布鲁克林; 爱在他乡=>zh-cn:布鲁克林;"
     },
     {
       "original": "Brother Bear",
@@ -1449,15 +1597,23 @@
     },
     {
       "original": "The Brothers Grimm",
-      "conv": "格林兄弟幻險記=>zh-cn:格林兄弟; 格林兄弟幻險記=>zh-hk:格林兄弟幻險記; 格林兄弟幻險記=>zh-tw:神鬼剋星; 格林兄弟幻險記=>zh-sg:格林兄弟;"
+      "conv": "格林兄弟幻險記=>zh-cn:格林兄弟; 格林兄弟幻險記=>zh-hk:格林兄弟幻險記; 格林兄弟幻險記=>zh-mo:格林兄弟幻險記; 格林兄弟幻險記=>zh-tw:神鬼剋星; 格林兄弟幻險記=>zh-sg:格林兄弟;"
     },
     {
       "original": "The Brothers Grimm",
-      "conv": "神鬼剋星=>zh-cn:格林兄弟; 神鬼剋星=>zh-hk:格林兄弟幻險記; 神鬼剋星=>zh-tw:神鬼剋星; 神鬼剋星=>zh-sg:格林兄弟;"
+      "conv": "神鬼剋星=>zh-cn:格林兄弟; 神鬼剋星=>zh-hk:格林兄弟幻險記; 神鬼剋星=>zh-mo:格林兄弟幻險記; 神鬼剋星=>zh-tw:神鬼剋星; 神鬼剋星=>zh-sg:格林兄弟;"
     },
     {
       "original": "Bruce Almighty",
       "conv": "zh-tw:王牌天神; zh-cn:冒牌天神; zh-hk:衰鬼上帝;"
+    },
+    {
+      "original": "Bruiser",
+      "conv": "zh-hk:好鬥者; zh-cn:好斗之人;"
+    },
+    {
+      "original": "Bruiser",
+      "conv": "好鬥者=>zh-tw:狠勁; 好斗之人=>zh-tw:狠勁;"
     },
     {
       "original": "The Bucket List",
@@ -1510,6 +1666,14 @@
     {
       "original": "Café Society",
       "conv": "zh-tw:咖啡·愛情; zh-hk:情迷聲色時光; zh-cn:咖啡公社"
+    },
+    {
+      "original": "An Cailín Ciúin",
+      "conv": "zh-tw:夏日悄悄話; zh-hk:恬靜之夏;"
+    },
+    {
+      "original": "An Cailín Ciúin",
+      "conv": "夏日悄悄話=>zh-cn:安静的女孩; 恬靜之夏=>zh-cn:安静的女孩;"
     },
     {
       "original": "The Caine Mutiny",
@@ -1581,11 +1745,11 @@
     },
     {
       "original": "The Captive",
-      "conv": "雪地迷蹤=>zh-tw:雪地迷蹤; 雪地迷蹤=>zh-hk:拐帶風暴; 雪地迷蹤=>zh-cn:人质;"
+      "conv": "zh-tw:雪地迷蹤; zh-hk:拐帶風暴;"
     },
     {
       "original": "The Captive",
-      "conv": "拐帶風暴=>zh-tw:雪地迷蹤; 拐帶風暴=>zh-hk:拐帶風暴; 拐帶風暴=>zh-cn:人质;"
+      "conv": "雪地迷蹤=>zh-cn:人质; 拐帶風暴=>zh-cn:人质;"
     },
     {
       "original": "Captive State",
@@ -1601,11 +1765,11 @@
     },
     {
       "original": "Carol",
-      "conv": "卡露的情人=>zh-cn:卡罗尔; 卡露的情人=>zh-hk:卡露的情人; 卡露的情人=>zh-tw:因為愛你"
+      "conv": "zh-hk:卡露的情人; zh-tw:因為愛你;"
     },
     {
       "original": "Carol",
-      "conv": "因為愛你=>zh-cn:卡罗尔; 因為愛你=>zh-hk:卡露的情人; 因為愛你=>zh-tw:因為愛你"
+      "conv": "卡露的情人=>zh-cn:卡罗尔; 因為愛你=>zh-cn:卡罗尔;"
     },
     {
       "original": "Cars",
@@ -1664,6 +1828,10 @@
       "conv": "zh-cn:猫女;zh-hk:貓女俠;zh-tw:貓女;"
     },
     {
+      "original": "Causeway",
+      "conv": "zh-tw:橋之彼端; zh-hk:攜步渡水橋; zh-cn:桥之彼端;"
+    },
+    {
       "original": "Cell",
       "conv": "zh-cn:致命电话;zh-tw:科技浩劫;zh-hk:喪屍手機;"
     },
@@ -1684,6 +1852,14 @@
       "conv": "人權鬥士：凱薩查維斯=>zh-tw:人權鬥士：凱薩·查維斯; 人權鬥士：凱薩查維斯=>zh-cn:凯撒.查韦斯;"
     },
     {
+      "original": "Cha Cha Real Smooth",
+      "conv": "zh-tw:人生恰恰恰; zh-hk:人生舞動吧！; zh-cn:恰恰丝滑;"
+    },
+    {
+      "original": "Chang Can Dunk",
+      "conv": "zh-tw:灌籃青春; zh-hk:灌籃青春; zh-cn:篮球少年张;"
+    },
+    {
       "original": "The Changeling",
       "conv": "zh-cn:换子疑云; zh-tw:陌生的孩子; zh-hk:換命謊言;"
     },
@@ -1693,7 +1869,7 @@
     },
     {
       "original": "Chaplin",
-      "conv": "卓別林與他的情人=>zh-cn:卓别林; 卓別林與他的情人=>zh-sg:卓别林; 卓別林與他的情人=>zh-hk:卓別靈傳; 卓別林與他的情人=>zh-tw:卓別林與他的情人;"
+      "conv": "卓別林與他的情人=>zh-cn:卓别林; 卓別林與他的情人=>zh-sg:卓别林; 卓別林與他的情人=>zh-hk:卓別靈傳; 卓別林與他的情人=>zh-mo:卓別靈傳; 卓別林與他的情人=>zh-tw:卓別林與他的情人;"
     },
     {
       "original": "Chaplin",
@@ -1804,8 +1980,16 @@
       "conv": "zh-cn:铁拳男人; zh-tw:最後一擊; zh-hk:擊動深情;"
     },
     {
+      "original": "Cinema Sabaya",
+      "conv": "zh-tw:她和她們的電影課; zh-cn:萨巴亚影院;"
+    },
+    {
       "original": "Citizen Kane",
       "conv": "zh-tw:大國民; zh-cn:公民凯恩;"
+    },
+    {
+      "original": "City Hall",
+      "conv": "zh-tw:打開波士頓市政廳; zh-hk:波士頓市政廳; zh-hans:波士顿市政厅;"
     },
     {
       "original": "City Heat",
@@ -1852,6 +2036,14 @@
       "conv": "zh-cn:发条橙; zh-tw:發條橘子; zh-hk:發條橙;"
     },
     {
+      "original": "Close",
+      "conv": "亲密 (2022年电影)=>zh-tw:親密; 亲密 (2022年电影)=>zh-hk:親陌; 亲密 (2022年电影)=>zh-mo:親陌; 亲密 (2022年电影)=>zh-cn:亲密;"
+    },
+    {
+      "original": "Close",
+      "conv": "zh-cn:《亲密》;zh-hk:《親陌》;zh-tw:《親密》;"
+    },
+    {
       "original": "Closer",
       "conv": "誘心人=>zh-tw:偷情; 誘心人=>zh-hk:誘心人; 誘心人=>zh-cn:偷心; 誘心人=>zh-mo:誘心人;"
     },
@@ -1872,6 +2064,10 @@
       "conv": "zh-hk:叻女掌門人; zh-tw:獨領風騷; zh-cn:独领风骚;"
     },
     {
+      "original": "C'mon C'mon",
+      "conv": "zh-hant:呼朋引伴; zh-hans:呼朋引伴; zh-tw:未來·未來;"
+    },
+    {
       "original": "Coach Carter",
       "conv": "zh-tw:卡特教頭; zh-hk:熱血教練; zh-cn:卡特教练;"
     },
@@ -1882,6 +2078,10 @@
     {
       "original": "The Cobbler",
       "conv": "zh-cn:鞋匠人生; zh-tw:命運鞋奏曲; zh-hk:千履奇緣;"
+    },
+    {
+      "original": "Cocaine Bear",
+      "conv": "zh-tw:熊蓋毒; zh-hk:大毒BEAR; zh-cn:熊嗨了;"
     },
     {
       "original": "Coco",
@@ -1905,11 +2105,11 @@
     },
     {
       "original": "Colectiv",
-      "conv": "一場大火之後=>zh-tw:一場大火之後; 一場大火之後=>zh-hk:醫官同謀; 一場大火之後=>zh-cn:集体;"
+      "conv": "zh-tw:一場大火之後; zh-hk:醫官同謀;"
     },
     {
       "original": "Colectiv",
-      "conv": "醫官同謀=>zh-tw:一場大火之後; 醫官同謀=>zh-hk:醫官同謀; 醫官同謀=>zh-cn:集体;"
+      "conv": "一場大火之後=>zh-cn:集体; 醫官同謀=>zh-cn:集体;"
     },
     {
       "original": "Collateral",
@@ -1928,6 +2128,14 @@
       "conv": "紫色姐妹花=>zh-tw:紫色姐妹花; 紫色姐妹花=>zh-cn:紫色; 紫色姐妹花=>zh-hk:紫色;"
     },
     {
+      "original": "Columbus",
+      "conv": "zh-hk:心靈築動; zh-mo:築動心靈; zh-tw:構築心方向; "
+    },
+    {
+      "original": "Columbus",
+      "conv": "心靈築動=>zh-cn:在哥伦布; 築動心靈=>zh-cn:在哥伦布; 構築心方向=>zh-cn:在哥伦布;"
+    },
+    {
       "original": "Coming Home",
       "conv": "愛如潮水=>zh-cn:返乡; 愛如潮水=>zh-tw:愛如潮水; 愛如潮水=>zh-hk:榮歸;"
     },
@@ -1938,6 +2146,14 @@
     {
       "original": "The Commuter",
       "conv": "zh-cn:通勤营救; zh-tw:疾速救援; zh-hk:追命列車; zh-sg:通勤救援;"
+    },
+    {
+      "original": "Competencia oficial",
+      "conv": "zh-tw:瘋狂競賽片; zh-hk:玩謝天王巨星;"
+    },
+    {
+      "original": "Competencia oficial",
+      "conv": "瘋狂競賽片=>zh-hans:主竞赛; 玩謝天王巨星=>zh-hans:主竞赛;"
     },
     {
       "original": "Con Air",
@@ -1985,11 +2201,11 @@
     },
     {
       "original": "The Conspirator",
-      "conv": "女同谋=>zh-tw:共犯; 女同谋=>zh-hk:驚殺大陰謀; 女同谋=>zh-cn:女同谋;"
+      "conv": "女同谋=>zh-tw:共犯; 女同谋=>zh-hk:驚殺大陰謀; 女同谋=>zh-mo:驚殺大陰謀; 女同谋=>zh-cn:女同谋;"
     },
     {
       "original": "The Conspirator",
-      "conv": "驚殺大陰謀=>zh-tw:共犯; 驚殺大陰謀=>zh-hk:驚殺大陰謀; 驚殺大陰謀=>zh-cn:女同谋;"
+      "conv": "驚殺大陰謀=>zh-tw:共犯; 驚殺大陰謀=>zh-hk:驚殺大陰謀; 驚殺大陰謀=>zh-mo:驚殺大陰謀; 驚殺大陰謀=>zh-cn:女同谋;"
     },
     {
       "original": "The Constant Gardener",
@@ -2009,23 +2225,27 @@
     },
     {
       "original": "Contagion",
-      "conv": "全境擴散=>zh-hk:世紀戰疫; 全境擴散=>zh-tw:全境擴散; 全境擴散=>zh-cn:传染病;"
+      "conv": "全境擴散=>zh-hk:世紀戰疫; 全境擴散=>zh-mo:世紀戰疫; 全境擴散=>zh-tw:全境擴散; 全境擴散=>zh-cn:传染病;"
     },
     {
       "original": "The Contender",
-      "conv": "挑撥性醜聞=>zh-cn:竞争者; 挑撥性醜聞=>zh-hk:挑撥性醜聞; 挑撥性醜聞=>zh-tw:暗潮洶湧;"
+      "conv": "zh-hk:挑撥性醜聞; zh-tw:暗潮洶湧;"
     },
     {
       "original": "The Contender",
-      "conv": "暗潮洶湧=>zh-cn:竞争者; 暗潮洶湧=>zh-hk:挑撥性醜聞; 暗潮洶湧=>zh-tw:暗潮洶湧;"
+      "conv": "挑撥性醜聞=>zh-cn:竞争者; 暗潮洶湧=>zh-cn:竞争者;"
     },
     {
       "original": "The Conversation",
-      "conv": "竊聽奇謀=>zh-tw:竊聽奇謀; 竊聽奇謀=>zh-hk:竊聽大陰謀; 竊聽奇謀=>zh-cn:对话; 竊聽奇謀=>zh-sg:对话;"
+      "conv": "zh-tw:竊聽奇謀; zh-hk:竊聽大陰謀;"
     },
     {
       "original": "The Conversation",
-      "conv": "竊聽大陰謀=>zh-tw:竊聽奇謀; 竊聽大陰謀=>zh-hk:竊聽大陰謀; 竊聽大陰謀=>zh-cn:对话; 竊聽大陰謀=>zh-sg:对话;"
+      "conv": "竊聽奇謀=>zh-cn:对话; 竊聽奇謀=>zh-sg:对话; 竊聽奇謀=>zh-my:对话;"
+    },
+    {
+      "original": "The Conversation",
+      "conv": "竊聽大陰謀=>zh-cn:对话; 竊聽大陰謀=>zh-sg:对话; 竊聽大陰謀=>zh-my:对话;"
     },
     {
       "original": "Coogan's Bluff",
@@ -2048,6 +2268,10 @@
       "conv": "zh-cn:再战边缘; zh-hk:再戰邊緣;zh-tw:魔鬼英豪"
     },
     {
+      "original": "Corsage",
+      "conv": "束不住的茜茜皇后=>zh-hk:束不住的茜茜皇后; 束不住的茜茜皇后=>zh-mo:束不住的茜茜皇后; 束不住的茜茜皇后=>zh-tw:束縛; 束不住的茜茜皇后=>zh-cn:束胸;"
+    },
+    {
       "original": "The Counselor",
       "conv": "zh-cn:黑金杀机; zh-hk:黑權大狀; zh-tw:玩命法則;"
     },
@@ -2065,7 +2289,7 @@
     },
     {
       "original": "Cowboys & Aliens",
-      "conv": "zh-tw:星際飆客; zh-hk:天煞西部反撃戰; zh-cn:牛仔和外星人;"
+      "conv": "zh-tw:星際飆客; zh-hk:天煞西部反擊戰; zh-cn:牛仔和外星人;"
     },
     {
       "original": "Crash",
@@ -2098,6 +2322,10 @@
     {
       "original": "Crime d'amour",
       "conv": "zh-hk:情殺局中局; zh-tw:罪愛誘惑; zh-cn:罪爱;"
+    },
+    {
+      "original": "Crimes of the Future",
+      "conv": "zh-tw:未來犯罪; zh-hk:後人類罪行; zh-cn:未来罪行;"
     },
     {
       "original": "El crimen del padre Amaro",
@@ -2148,6 +2376,10 @@
       "conv": "zh-cn:救命解药; zh-tw:救命解藥; zh-hk:藥到命除; zh-sg:药到命除;"
     },
     {
+      "original": "Curiosa",
+      "conv": "詩情攝慾=>zh-tw:詩情攝慾; 詩情攝慾=>zh-cn:珍品;"
+    },
+    {
       "original": "The Curious Case of Benjamin Button",
       "conv": "zh-cn:返老还童;zh-tw:班傑明的奇幻旅程;zh-hk:奇幻逆緣; zh-hans:本杰明·巴顿奇事;"
     },
@@ -2168,20 +2400,32 @@
       "conv": "zh-cn:老爸当家2; zh-tw:家有兩個爸x2; zh-hk:左兩爸右兩爸; zh-sg:家有两个爸2;"
     },
     {
+      "original": "Le Daim",
+      "conv": "zh-tw:鹿皮奇談; zh-hk:麂皮大導殺上癮;"
+    },
+    {
+      "original": "Le Daim",
+      "conv": "鹿皮奇談=>zh-cn:鹿皮; 麂皮大導殺上癮=>zh-cn:鹿皮;"
+    },
+    {
       "original": "Dallas Buyers Club",
       "conv": "zh-cn:达拉斯买家俱乐部; zh-tw:藥命俱樂部; zh-hk:續命梟雄;"
     },
     {
       "original": "Damage",
-      "conv": "愛情重傷=>zh-cn:毁灭; 愛情重傷=>zh-hk:愛情重傷; 愛情重傷=>zh-tw:烈火情人;"
+      "conv": "zh-hk:愛情重傷; zh-tw:烈火情人;"
     },
     {
       "original": "Damage",
-      "conv": "烈火情人=>zh-cn:毁灭; 烈火情人=>zh-hk:愛情重傷; 烈火情人=>zh-tw:烈火情人;"
+      "conv": "愛情重傷=>zh-cn:毁灭; 烈火情人=>zh-cn:毁灭;"
     },
     {
       "original": "The Damned United",
       "conv": "zh-cn:该死的联队; zh-tw:魔鬼聯隊; zh-hk:玩轉列斯聯;"
+    },
+    {
+      "original": "Damsels in Distress",
+      "conv": "zh-tw:愛情學分大作戰; zh-hk:叻女同學會; zh-cn:待解救的少女;"
     },
     {
       "original": "Dan in Real Life",
@@ -2217,11 +2461,15 @@
     },
     {
       "original": "Dark Waters",
-      "conv": "黑水 (电影)=>zh-cn:黑水; 黑水 (电影)=>zh-tw:黑水風暴; 黑水 (电影)=>zh-hk:追擊黑水真相;"
+      "conv": "黑水 (电影)=>zh-cn:黑水; 黑水 (电影)=>zh-tw:黑水風暴; 黑水 (电影)=>zh-hk:追擊黑水真相; 黑水 (电影)=>zh-mo:追擊黑水真相;"
     },
     {
       "original": "Dark Waters",
-      "conv": "zh-cn:黑水; zh-tw:黑水風暴; zh-hk:追擊黑水真相;"
+      "conv": "zh-tw:黑水風暴; zh-hk:追擊黑水真相;"
+    },
+    {
+      "original": "Dark Waters",
+      "conv": "黑水風暴=>zh-cn:黑水; 追擊黑水真相=>zh-cn:黑水;"
     },
     {
       "original": "The Dark Knight",
@@ -2249,11 +2497,11 @@
     },
     {
       "original": "Dark Water",
-      "conv": "鬼水怪谈=>zh-cn:鬼水怪谈;鬼水怪谈=>zh-tw:鬼水;鬼水怪谈=>zh-hk:雨夜閃靈;鬼水怪谈=>zh-mo:雨夜閃靈;"
+      "conv": "zh-cn:鬼水怪谈; zh-hk:雨夜閃靈;"
     },
     {
       "original": "Dark Water",
-      "conv": "雨夜閃靈=>zh-cn:鬼水怪谈;雨夜閃靈=>zh-tw:鬼水;雨夜閃靈=>zh-hk:雨夜閃靈;雨夜閃靈=>zh-mo:雨夜閃靈;"
+      "conv": "鬼水怪谈=>zh-tw:鬼水; 雨夜閃靈=>zh-tw:鬼水;"
     },
     {
       "original": "The Darkest Hour",
@@ -2298,6 +2546,10 @@
     {
       "original": "Days of Thunder",
       "conv": "zh-cn:雷霆壮志; zh-tw:霹靂男兒; zh-hk:雷霆壯志;"
+    },
+    {
+      "original": "DC League of Super-Pets",
+      "conv": "zh-tw:DC超級寵物軍團; zh-hk:DC超寵聯萌; zh-cn:DC萌宠特遣队;"
     },
     {
       "original": "De rouille et d'os (Rust and Bone)",
@@ -2432,12 +2684,20 @@
       "conv": "zh-cn:贼巢; zh-tw:極盜戰; zh-hk:賊鬥; zh-sg:极盗战;"
     },
     {
+      "original": "Den Store Stilhed",
+      "conv": "zh-hk:聖女的秘密; zh-cn:伟大的沉默;"
+    },
+    {
       "original": "The Departed",
       "conv": "zh-cn:无间行者; zh-tw:神鬼無間; zh-hk:無間道風雲;"
     },
     {
       "original": "Departures, おくりびと",
       "conv": "zh-cn:入殓师; zh-tw:送行者：禮儀師的樂章; zh-hk:禮儀師之奏鳴曲;"
+    },
+    {
+      "original": "Descendant",
+      "conv": "zh-tw:後裔：最後的奴隸船; zh-hk:後裔：最後的奴隸船; zh-cn:非洲城的后裔; zh-sg:后裔：最后的贩奴船;"
     },
     {
       "original": "The Descendants",
@@ -2588,6 +2848,10 @@
       "conv": "zh-cn:被解放的姜戈; zh-tw:決殺令; zh-hk:黑殺令; zh-hans:被解放的迪亚戈;"
     },
     {
+      "original": "Do Revenge",
+      "conv": "zh-tw:復仇好閨蜜; zh-hk:復仇雙妹嘜; zh-sg:复仇少女组;"
+    },
+    {
       "original": "Doctor Dolittle",
       "conv": "zh-cn:怪医杜立德; zh-tw:怪醫杜立德; zh-hk:D老篤日記;"
     },
@@ -2596,8 +2860,12 @@
       "conv": "zh-cn:睡梦医生; zh-tw:安眠醫生; zh-sg:安眠医生;"
     },
     {
+      "original": "Doctor Strange in the Multiverse of Madness",
+      "conv": "zh-tw:奇異博士2：失控多重宇宙; zh-hk:奇異博士2：失控多元宇宙; zh-cn:奇异博士2：疯狂多元宇宙;"
+    },
+    {
       "original": "Doctor Zhivago",
-      "conv": "zh-cn:日瓦戈医生; zh-tw:濟瓦格醫生; zh-hk:齊瓦哥醫生;"
+      "conv": "zh-cn:日瓦戈医生; zh-tw:齊瓦哥醫生; zh-hk:齊瓦哥醫生;"
     },
     {
       "original": "A Dog's Journey",
@@ -2628,6 +2896,10 @@
       "conv": "zh-cn:这个男人有点色; zh-tw:這個男人有點色; zh-hk:天生愛情狂;"
     },
     {
+      "original": "Don't Worry Darling",
+      "conv": "zh-tw:別擔心親愛的; zh-hk:別擔心親愛的; zh-cn:亲爱的别担心;"
+    },
+    {
       "original": "Don't Worry, He Won't Get Far on Foot",
       "conv": "zh-hk:酒過漫畫人生;zh-tw:笑畫人生;zh-cn:别担心，他不会走远的;"
     },
@@ -2637,11 +2909,11 @@
     },
     {
       "original": "The Double",
-      "conv": "盜貼人生=>zh-tw:盜貼人生; 盜貼人生=>zh-hk:盜面專師; 盜貼人生=>zh-cn:双重人格;"
+      "conv": "zh-tw:盜貼人生; zh-hk:盜面專師;"
     },
     {
       "original": "The Double",
-      "conv": "盜面專師=>zh-tw:盜貼人生; 盜面專師=>zh-hk:盜面專師; 盜面專師=>zh-cn:双重人格;"
+      "conv": "盜貼人生=>zh-cn:双重人格; 盜面專師=>zh-cn:双重人格;"
     },
     {
       "original": "Double Jeopardy",
@@ -2701,10 +2973,6 @@
     },
     {
       "original": "Dreamgirls",
-      "conv": "追梦姑娘=>zh-cn:追梦女郎; 追梦姑娘=>zh-tw:夢幻女郎; 追梦姑娘=>zh-hk:夢幻女郎;"
-    },
-    {
-      "original": "Dreamgirls",
       "conv": "梦姑娘=>zh-cn:追梦女郎; 梦姑娘=>zh-tw:夢幻女郎; 梦姑娘=>zh-hk:夢幻女郎"
     },
     {
@@ -2713,11 +2981,15 @@
     },
     {
       "original": "The Dressmaker",
-      "conv": "華麗轉身=>zh-cn:裁缝; 華麗轉身=>zh-hk:華麗轉身; 華麗轉身=>zh-tw:惡女訂製服;"
+      "conv": "zh-hk:華麗轉身; zh-tw:惡女訂製服;"
     },
     {
       "original": "The Dressmaker",
-      "conv": "惡女訂製服=>zh-cn:裁缝; 惡女訂製服=>zh-hk:華麗轉身; 惡女訂製服=>zh-tw:惡女訂製服;"
+      "conv": "華麗轉身=>zh-cn:裁缝; 惡女訂製服=>zh-cn:裁缝;"
+    },
+    {
+      "original": "Drii Winter",
+      "conv": "zh-tw:愛別四季; zh-hk:冬日蒼穹; zh-cn:三个冬天;"
     },
     {
       "original": "Drive",
@@ -2757,7 +3029,7 @@
     },
     {
       "original": "En duva satt på en gren och funderade på tillvaron",
-      "conv": "zh-cn:寒枝雀静; zh-tw=鴿子在樹枝上沉思; zh-hk=鴿子在樹上反思存在意義;"
+      "conv": "zh-cn:寒枝雀静; zh-tw:鴿子在樹枝上沉思; zh-hk:鴿子在樹上反思存在意義;"
     },
     {
       "original": "Dying Young",
@@ -2853,11 +3125,11 @@
     },
     {
       "original": "Elle",
-      "conv": "她的危險遊戲=>zh-cn:她; 她的危險遊戲=>zh-tw:她的危險遊戲; 她的危險遊戲=>zh-hk:烈女本色;"
+      "conv": "zh-tw:她的危險遊戲; zh-hk:烈女本色;"
     },
     {
       "original": "Elle",
-      "conv": "烈女本色=>zh-cn:她; 烈女本色=>zh-tw:她的危險遊戲; 烈女本色=>zh-hk:烈女本色;"
+      "conv": "她的危險遊戲=>zh-cn:她; 烈女本色=>zh-cn:她;"
     },
     {
       "original": "Elysium",
@@ -2876,6 +3148,10 @@
       "conv": "zh-cn:猫王与尼克松; zh-tw:當貓王碰上總統; zh-hk:總統與歌神; zh-sg:当猫王遇上总统;"
     },
     {
+      "original": "Emily the Criminal",
+      "conv": "zh:罪犯艾米麗; zh-tw:罪犯艾蜜莉; zh-hk:罪犯艾蜜莉; zh-cn:罪犯艾米丽;"
+    },
+    {
       "original": "Emma.",
       "conv": "zh-tw:艾瑪.;zh-hk:EMMA：上流貴族;"
     },
@@ -2888,12 +3164,20 @@
       "conv": "EMMA：上流貴族=>zh-cn:爱玛。;EMMA：上流貴族=>zh-my:爱玛。;EMMA：上流貴族=>zh-sg:爱玛。;"
     },
     {
+      "original": "Empire of Light",
+      "conv": "zh-tw:光影帝國; zh-hk:海邊電影院; zh-cn:光之帝国;"
+    },
+    {
       "original": "The Emoji Movie",
       "conv": "zh-cn:表情奇幻冒险; zh-tw:表情符號電影; zh-hk:Emoji大冒險; zh-sg:表情符号电影;"
     },
     {
       "original": "The Empire Strikes Back",
       "conv": "zh-cn:帝国反击战; zh-hk:帝國反擊戰; zh-tw:帝國大反擊;"
+    },
+    {
+      "original": "En liberté !",
+      "conv": "zh-tw:舊愛來找碴; zh-hk:談談情，補補鑊; zh-cn:自由了！;"
     },
     {
       "original": "En man som heter Ove",
@@ -2952,6 +3236,10 @@
       "conv": "zh-cn:偷天陷阱; zh-tw:將計就計; zh-hk:偷天陷阱;"
     },
     {
+      "original": "EO",
+      "conv": "zh-tw:如果驢知道; zh-hk:驢子伊艾奧; zh-cn:驴叫;"
+    },
+    {
       "original": "Epic",
       "conv": "zh-cn:森林战士; zh-hk:綠國奇兵;zh-tw:森林戰士"
     },
@@ -2973,11 +3261,11 @@
     },
     {
       "original": "Equestria Girls",
-      "conv": "小馬國女孩=>zh-cn:魔法公主; 小馬國女孩=>zh-tw:小馬國女孩; 小馬國女孩=>zh-hk:小馬國少女;"
+      "conv": "zh-tw:小馬國女孩; zh-hk:小馬國少女;"
     },
     {
       "original": "Equestria Girls",
-      "conv": "小馬國少女=>zh-cn:魔法公主; 小馬國少女=>zh-tw:小馬國女孩; 小馬國少女=>zh-hk:小馬國少女;"
+      "conv": "小馬國女孩=>zh-cn:魔法公主; 小馬國少女=>zh-cn:魔法公主;"
     },
     {
       "original": "Equilibrium",
@@ -3040,6 +3328,14 @@
       "conv": "zh-hk:小女子·大指公; zh-tw:藍調牛仔妹; zh-cn:蓝调牛仔妹;"
     },
     {
+      "original": "Everything Everywhere All at Once",
+      "conv": "zh-tw:媽的多重宇宙; zh-hk:奇異女俠玩救宇宙; zh-cn:瞬息全宇宙;"
+    },
+    {
+      "original": "Everything Everywhere All at Once",
+      "conv": "媽的多重宇宙=>zh-sg:天马行空; 奇異女俠玩救宇宙=>zh-sg:天马行空; 瞬息全宇宙=>zh-sg:天马行空;"
+    },
+    {
       "original": "The Evening Star",
       "conv": "zh-hk:動人季節; zh-tw:親密關係1997; zh-cn:亲密关系1997;"
     },
@@ -3053,7 +3349,7 @@
     },
     {
       "original": "Everybody's Talking About Jamie",
-      "conv": "zh-hant:蝴蝶少年：傑米; zh-hans:变装皇后杰米; zh-cn:人人都在谈论杰米;"
+      "conv": "zh-hant:蝴蝶少年：傑米; zh-hans:变装皇后杰米; zh-cn:人人都在谈论杰米; zh-hk:妖爆青春;"
     },
     {
       "original": "Everest",
@@ -3073,11 +3369,11 @@
     },
     {
       "original": "Evolution",
-      "conv": "地球再發育=>zh-tw:進化特區; 地球再發育=>zh-hk:地球再發育; 地球再發育=>zh-cn:进化;"
+      "conv": "zh-tw:進化特區; zh-hk:地球再發育;"
     },
     {
       "original": "Evolution",
-      "conv": "進化特區=>zh-tw:進化特區; 進化特區=>zh-hk:地球再發育; 進化特區=>zh-cn:进化;"
+      "conv": "地球再發育=>zh-cn:进化; 進化特區=>zh-cn:进化;"
     },
     {
       "original": "Eyjafjallajökull (The Volcano)",
@@ -3086,6 +3382,14 @@
     {
       "original": "Ex Machina",
       "conv": "zh-cn:机械姬; zh-tw:人造意識; zh-hk:智能叛侶;"
+    },
+    {
+      "original": "The Exam",
+      "conv": "zh-tw:指考風暴; zh-hk:出貓大風暴;"
+    },
+    {
+      "original": "The Exam",
+      "conv": "指考風暴=>zh-cn:入学考试; 出貓大風暴=>zh-cn:入学考试;"
     },
     {
       "original": "Exodus: Gods and Kings",
@@ -3133,11 +3437,11 @@
     },
     {
       "original": "Fallen",
-      "conv": "奪命感應=>zh-tw:暫時停止接觸; 奪命感應=>zh-hk:奪命感應; 奪命感應=>zh-cn:跌落;"
+      "conv": "zh-tw:暫時停止接觸; zh-hk:奪命感應;"
     },
     {
       "original": "Fallen",
-      "conv": "暫時停止接觸=>zh-tw:暫時停止接觸; 暫時停止接觸=>zh-hk:奪命感應; 暫時停止接觸=>zh-cn:跌落;"
+      "conv": "奪命感應=>zh-cn:跌落; 暫時停止接觸=>zh-cn:跌落;"
     },
     {
       "original": "Die Fälscher",
@@ -3241,11 +3545,27 @@
     },
     {
       "original": "Fatal Attraction",
-      "conv": "致命的诱惑=>zh-tw:致命的吸引力;致命的诱惑=>zh-hk:孽緣;致命的诱惑=>zh-mo:孽緣;"
+      "conv": "zh-tw:致命的吸引力; zh-cn:致命的诱惑;"
     },
     {
       "original": "Fatal Attraction",
-      "conv": "致命的吸引力=>zh-cn:致命的诱惑;致命的吸引力=>zh-hk:孽緣;致命的吸引力=>zh-mo:孽緣;"
+      "conv": "致命的诱惑=>zh-hk:孽緣; 致命的诱惑=>zh-mo:孽緣;"
+    },
+    {
+      "original": "Fatal Attraction",
+      "conv": "致命的吸引力=>zh-hk:孽緣; 致命的吸引力=>zh-mo:孽緣;"
+    },
+    {
+      "original": "The Father",
+      "conv": "父親 (2020年電影)=>zh-tw:父親; 父親 (2020年電影)=>zh-hk:爸爸可否不要老; 父親 (2020年電影)=>zh-mo:爸爸可否不要老; 父親 (2020年電影)=>zh-cn:困在时间里的父亲;"
+    },
+    {
+      "original": "The Father",
+      "conv": "zh-hk:爸爸可否不要老; zh-cn:困在时间里的父亲;"
+    },
+    {
+      "original": "The Father",
+      "conv": "爸爸可否不要老=>zh-tw:父親; 困在时间里的父亲=>zh-tw:父親;"
     },
     {
       "original": "Father's Day",
@@ -3280,12 +3600,20 @@
       "conv": "zh-tw:萌牛費迪南; zh-cn:公牛历险记; zh-hk:快D啦牛牛; zh-sg:萌牛费迪南;"
     },
     {
+      "original": "Ferris Buellers Day Off",
+      "conv": "zh-cn:咪走堂;zh-tw:蹺課天才;zh-hk:咪走堂;"
+    },
+    {
       "original": "Festen",
       "conv": "zh-tw:那一個晚上; zh-cn:家宴; zh-hk:家變;"
     },
     {
-      "original": "Ferris Buellers Day Off",
-      "conv": "zh-cn:咪走堂;zh-tw:蹺課天才;zh-hk:咪走堂;"
+      "original": "La Fête des mères",
+      "conv": "zh-tw:愛呀！我的媽; zh-hk:母親，母親;"
+    },
+    {
+      "original": "La Fête des mères",
+      "conv": "愛呀！我的媽=>zh-cn:母亲节; 母親，母親=>zh-cn:母亲节;"
     },
     {
       "original": "A Few Good Men",
@@ -3333,11 +3661,15 @@
     },
     {
       "original": "The Fighter",
-      "conv": "擊情手足=>zh-cn:斗士; 擊情手足=>zh-tw:燃燒鬥魂; 擊情手足=>zh-hk:擊情手足;"
+      "conv": "zh-tw:燃燒鬥魂; zh-hk:擊情手足;"
     },
     {
       "original": "The Fighter",
-      "conv": "燃燒鬥魂=>zh-cn:斗士; 燃燒鬥魂=>zh-tw:燃燒鬥魂; 燃燒鬥魂=>zh-hk:擊情手足;"
+      "conv": "擊情手足=>zh-cn:斗士; 燃燒鬥魂=>zh-cn:斗士;"
+    },
+    {
+      "original": "La fille inconnue",
+      "conv": "zh-tw:沒有名字的女孩; zh-hk:無名女孩; zh-cn:无名女孩;"
     },
     {
       "original": "Final Destination 2",
@@ -3392,6 +3724,10 @@
       "conv": "zh-tw:黑色豪門企業; zh-hk:糖衣陷阱; zh-cn:糖衣陷阱;"
     },
     {
+      "original": "First Cow",
+      "conv": "zh-tw:深夜裡的美味祕方; zh-mo:第一犢之味; zh-cn:第一头牛;"
+    },
+    {
       "original": "The First $20 Million Is Always the Hardest",
       "conv": "zh:金錢強強滾; zh-hk:I.T英雄傳; zh-cn:金钱强强滚;"
     },
@@ -3402,6 +3738,14 @@
     {
       "original": "The First Purge",
       "conv": "zh-tw:殺戮元年; zh-hk:國定殺戮日：屠亡前傳; zh-cn:人类清除计划4; zh-sg:杀戮元年;"
+    },
+    {
+      "original": "First Reformed",
+      "conv": "zh-tw:首次自新; zh-hk:因罪之名; zh-mo:因罪之名; zh-cn:第一归正会;"
+    },
+    {
+      "original": "First Reformed",
+      "conv": "牧師的最後誘惑=>zh-tw:首次自新; 牧師的最後誘惑=>zh-hk:因罪之名; 牧師的最後誘惑=>zh-mo:因罪之名; 牧師的最後誘惑=>zh-cn:第一归正会;"
     },
     {
       "original": "The Fisher King",
@@ -3449,11 +3793,15 @@
     },
     {
       "original": "Flugt",
-      "conv": "漂浪人生=>zh-tw:漂浪人生; 漂浪人生=>zh-hk:逃不出的記憶; 漂浪人生=>zh-cn:逃亡;"
+      "conv": "zh-tw:漂浪人生; zh-hk:無處安心; 漂浪人生=>zh-cn:逃亡;"
     },
     {
       "original": "Flugt",
-      "conv": "逃不出的記憶=>zh-tw:漂浪人生; 逃不出的記憶=>zh-hk:逃不出的記憶; 逃不出的記憶=>zh-cn:逃亡;"
+      "conv": "逃不出的記憶=>zh-tw:漂浪人生; 逃不出的記憶=>zh-hk:無處安心; 逃不出的記憶=>zh-mo:無處安心; 逃不出的記憶=>zh-cn:逃亡;"
+    },
+    {
+      "original": "Flugt",
+      "conv": "漂浪人生=>zh-cn:逃亡; 無處安心=>zh-cn:逃亡;"
     },
     {
       "original": "Flushed Away",
@@ -3472,6 +3820,14 @@
       "conv": "決勝焦點=>zh-cn:焦点; 千騙萬化=>zh-cn:焦点; 决胜焦点=>zh-cn:焦点;"
     },
     {
+      "original": "Forever Young",
+      "conv": "zh-tw:今生有約;zh-cn:天荒情未了;zh-hk:天荒情未了;"
+    },
+    {
+      "original": "Forever Young",
+      "conv": "永远年轻=>zh-tw:今生有約;永远年轻=>zh-cn:天荒情未了;永远年轻=>zh-hk:天荒情未了;"
+    },
+    {
       "original": "For Your Eyes Only",
       "conv": "zh-cn:只为你的双眼;zh-hk:鐵金剛勇破海龍幫;zh-tw:最高機密;"
     },
@@ -3486,6 +3842,10 @@
     {
       "original": "The Forever Purge",
       "conv": "zh-cn:人类清除计划5; zh-hk:國定殺戮日：無限狂屠; zh-tw:無限殺戮日;"
+    },
+    {
+      "original": "The Forgiven",
+      "conv": "情危摩洛哥=>zh-tw:寬恕; 情危摩洛哥=>zh-hk:情危摩洛哥; 情危摩洛哥=>zh-cn:宽恕;"
     },
     {
       "original": "The Founder",
@@ -3541,7 +3901,7 @@
     },
     {
       "original": "The French Dispatch",
-      "conv": "法蘭西快報=>zh-tw:法蘭西特派週報; 法蘭西快報=>zh-hk:法蘭西諸事週報; 法蘭西快報=>zh-cn:法兰西特派;"
+      "conv": "法蘭西快報=>zh-tw:法蘭西特派週報; 法蘭西快報=>zh-hk:法蘭西諸事週報; 法蘭西快報=>zh-mo:法蘭西諸事週報; 法蘭西快報=>zh-cn:法兰西特派;"
     },
     {
       "original": "French Exit",
@@ -3550,6 +3910,10 @@
     {
       "original": "Frequency",
       "conv": "zh-cn:黑洞频率; zh-tw:黑洞頻率; zh-hk:隔世救未來;"
+    },
+    {
+      "original": "Fresh",
+      "conv": "戀愛噬言=>zh-tw:戀愛噬言; 戀愛噬言=>zh-hk:戀愛噬言; 戀愛噬言=>zh-mo:戀愛噬言; 戀愛噬言=>zh-cn:新鲜;"
     },
     {
       "original": "Frida",
@@ -3586,6 +3950,14 @@
     {
       "original": "From Russia With Love",
       "conv": "zh-cn:来自俄罗斯的爱;zh-hk:鐵金剛勇破間諜網;zh-tw:第七號情報員續集"
+    },
+    {
+      "original": "From Zero to I Love You",
+      "conv": "zh-tw:0到1我愛你; zh-hk:難忍的浪漫; zh-cn:从零到我爱你;"
+    },
+    {
+      "original": "Front Cover",
+      "conv": "zh-tw:北京遇上紐約; zh-hk:紐約斷背衫; zh-cn:封面有男天;"
     },
     {
       "original": "Frost/Nixon",
@@ -3788,6 +4160,14 @@
       "conv": "zh-tw:給我一個家; zh-hk:給我庇護; zh-cn:给我庇护;"
     },
     {
+      "original": "Girl",
+      "conv": "芭蕾少女夢=>zh-cn:女孩; 芭蕾少女夢=>zh-hk:夢女芭蕾;"
+    },
+    {
+      "original": "Girl",
+      "conv": "zh-tw:《芭蕾少女夢》;zh-cn:《女孩》;zh-hk:《夢女芭蕾》;"
+    },
+    {
       "original": "Girl, Interrupted",
       "conv": "zh-cn:移魂女郎; zh-tw:女生向前走; zh-hk:我有冇問題;"
     },
@@ -3812,6 +4192,10 @@
       "conv": "zh-hk:異能仨; zh-tw:異裂; zh-cn:玻璃先生; zh-sg:异裂;"
     },
     {
+      "original": "Glass Onion: A Knives Out Mystery",
+      "conv": "zh-tw:鋒迴路轉：抽絲剝繭; zh-hk:神探白朗：抽絲剝繭; zh-cn:利刃出鞘2; zh-sg:利刃出鞘：抽丝剥茧;"
+    },
+    {
       "original": "Glengarry Glen Ross",
       "conv": "zh-tw:大亨遊戲; zh-cn:拜金一族;"
     },
@@ -3826,6 +4210,14 @@
     {
       "original": "Gnomeo and Juliet",
       "conv": "zh-cn:吉诺密欧与朱丽叶; zh-hk:傻密歐與茱麗葉; zh-tw:糯米歐與茱麗葉;"
+    },
+    {
+      "original": "Go for It!",
+      "conv": "zh-tw:舞力青春; zh-hk:舞出我天地;"
+    },
+    {
+      "original": "Go for It!",
+      "conv": "舞力青春=>zh-cn:追逐梦想; 舞出我天地=>zh-cn:追逐梦想;"
     },
     {
       "original": "Gods of Egypt",
@@ -3912,8 +4304,24 @@
       "conv": "zh-cn:好家伙、坏家伙、怪家伙; zh-hk:風塵三俠決戰地獄門; zh-tw:神偷．獵人．斷指客;"
     },
     {
+      "original": "Good Luck to You, Leo Grande",
+      "conv": "zh:祝你好運，里奧·格蘭德; zh-tw:高潮速成班; zh-cn:祝你好运，里奥·格兰德;"
+    },
+    {
+      "original": "A Good Man",
+      "conv": "他的模樣=>zh-tw:他的模樣; 他的模樣=>zh-cn:好男人;"
+    },
+    {
+      "original": "Good Mourning",
+      "conv": "zh-hk:星級分手日記; zh-tw:大明星被甩日記; zh-cn:早丧好;"
+    },
+    {
       "original": "Good Night, and Good Luck.",
       "conv": "zh-cn:晚安，好运; zh-tw:晚安，祝你好運; zh-hk:各位觀眾，晚安;"
+    },
+    {
+      "original": "The Good Nurse",
+      "conv": "zh-tw:死亡天使; zh-hk:死亡天使; zh-cn:良心护士; zh-sg:良心护士;"
     },
     {
       "original": "The Good Dinosaur",
@@ -3922,6 +4330,10 @@
     {
       "original": "Good Kill",
       "conv": "zh-cn:善意杀戮; zh-tw:巡弋狙擊手; zh-hk:空中狙擊手;"
+    },
+    {
+      "original": "Good Night Oppy",
+      "conv": "zh:晚安奥比; zh-tw:火星探測車機會號; zh-hk:火星探測車機會號; zh-cn:晚安机遇号; zh-hans:晚安机遇号;"
     },
     {
       "original": "The Good Shepherd",
@@ -3970,6 +4382,10 @@
     {
       "original": "The Grand Budapest Hotel",
       "conv": "zh-cn:布达佩斯大饭店; zh-tw:歡迎來到布達佩斯大飯店; zh-hk:布達佩斯大酒店; zh-sg:布达佩斯大酒店;"
+    },
+    {
+      "original": "Grandma",
+      "conv": "zh-tw:拉嬤上路; zh-hk:與外婆同行; zh-cn:与外婆同行;"
     },
     {
       "original": "La grande bellezza",
@@ -4045,11 +4461,15 @@
     },
     {
       "original": "Grown Ups",
-      "conv": "中坑同學會=>zh-cn:长大后; 中坑同學會=>zh-tw:亞當等大人; 中坑同學會=>zh-hk:中坑同學會; 中坑同學會=>zh-mo:中坑同學會; 中坑同學會=>zh-sg:长大后;"
+      "conv": "zh-tw:亞當等大人; zh-hk:中坑同學會; zh-mo:中坑同學會;"
     },
     {
       "original": "Grown Ups",
-      "conv": "亞當等大人=>zh-cn:长大后; 亞當等大人=>zh-tw:亞當等大人; 亞當等大人=>zh-hk:中坑同學會; 亞當等大人=>zh-mo:中坑同學會; 亞當等大人=>zh-sg:长大后;"
+      "conv": "中坑同學會=>zh-cn:长大后; 中坑同學會=>zh-sg:长大后;"
+    },
+    {
+      "original": "Grown Ups",
+      "conv": "亞當等大人=>zh-cn:长大后; 亞當等大人=>zh-sg:长大后;"
     },
     {
       "original": "Grudge Match",
@@ -4066,6 +4486,10 @@
     {
       "original": "Guess Who's Coming to Dinner",
       "conv": "zh-cn:猜猜谁来吃晚餐; zh-tw:誰來晚餐; zh-hk:誰來晚餐;"
+    },
+    {
+      "original": "Guillermo Del Toro's Pinocchio",
+      "conv": "zh-tw:吉勒摩·戴托羅之皮諾丘; zh-hk:吉拿域·戴拖路之皮諾丘; zh-cn:吉尔莫·德尔·托罗的匹诺曹; zh-sg:吉尔莫·德尔·托罗之匹诺曹;"
     },
     {
       "original": "The Gunman",
@@ -4104,6 +4528,34 @@
       "conv": "zh-cn:发胶星梦; zh-tw:髮膠明星夢; zh-hk:戀愛大爆髮;"
     },
     {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "哈利路亞：李歐納柯恩 一段旅程一首歌=>zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; 哈利路亞：李歐納柯恩 一段旅程一首歌=>zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; 哈利路亞：李歐納柯恩 一段旅程一首歌=>zh-mo:哈利路亞：李安納·哥亨一段旅程一首歌; 哈利路亞：李歐納柯恩 一段旅程一首歌=>zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "哈利路亞：李安納哥亨一段旅程一首歌=>zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; 哈利路亞：李安納哥亨一段旅程一首歌=>zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; 哈利路亞：李安納哥亨一段旅程一首歌=>zh-mo:哈利路亞：李安納·哥亨一段旅程一首歌; 哈利路亞：李安納哥亨一段旅程一首歌=>zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "李歐納柯恩的生命旅程=>zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; 李歐納柯恩的生命旅程=>zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納柯恩的生命旅程=>zh-mo:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納柯恩的生命旅程=>zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "李歐納·柯恩的生命旅程=>zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; 李歐納·柯恩的生命旅程=>zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納·柯恩的生命旅程=>zh-mo:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納·柯恩的生命旅程=>zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "李歐納柯恩：生命詩旅=>zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; 李歐納柯恩：生命詩旅=>zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納柯恩：生命詩旅=>zh-mo:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納柯恩：生命詩旅=>zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
+      "original": "Hallelujah: Leonard Cohen, A Journey, A Song",
+      "conv": "李歐納·柯恩：生命詩旅=>zh-tw:哈利路亞：李歐納·柯恩 一段旅程一首歌; 李歐納·柯恩：生命詩旅=>zh-hk:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納·柯恩：生命詩旅=>zh-mo:哈利路亞：李安納·哥亨一段旅程一首歌; 李歐納·柯恩：生命詩旅=>zh-cn:哈利路亚：莱昂纳德·科恩，一段旅程，一首歌;"
+    },
+    {
       "original": "Halloween Kills",
       "conv": "zh-cn:月光光心慌慌：杀戮; zh-hk:月光光殺清光; zh-tw:月光光新慌慌：萬聖殺;"
     },
@@ -4138,6 +4590,10 @@
     {
       "original": "Hansel and Gretel: Witch Hunters",
       "conv": "zh-cn:韩赛尔与格蕾特：女巫猎人;zh-tw:女巫獵人;zh-hk:格林雙俠：獵巫世紀;"
+    },
+    {
+      "original": "Happiest Season",
+      "conv": "zh-tw:求婚好意外; zh-hk:攣愛季節; zh-cn:最幸福的季节;"
     },
     {
       "original": "Happy Death Day",
@@ -4264,6 +4720,10 @@
       "conv": "雲端情人=>zh-cn:她; 觸不到的她=>zh-cn:她; zh-tw:雲端情人; zh-hk:觸不到的她;"
     },
     {
+      "original": "Her Smell",
+      "conv": "zh-tw:她的搖滾滋味; zh-cn:她的气味;"
+    },
+    {
       "original": "Hercules (2014)",
       "conv": "宙斯之子：赫拉克勒斯=>zh-tw:海克力士; 戰神：海格力斯=>zh-tw:海克力士; zh-hk:戰神：海格力斯; zh-cn:宙斯之子：赫拉克勒斯;"
     },
@@ -4274,6 +4734,10 @@
     {
       "original": "Hereditary",
       "conv": "zh-cn:遗传厄运; zh-hk:祖孽; zh-tw:宿怨; zh-sg:宿怨;"
+    },
+    {
+      "original": "A Hero",
+      "conv": "zh-cn:一个英雄; zh-tw:我不是英雄; zh-hk:伊朗式英雄;"
     },
     {
       "original": "Hidden Figures",
@@ -4348,6 +4812,10 @@
       "conv": "zh-cn:恋爱假期; zh-tw:戀愛沒有假期; zh-hk:緣份精華遊;"
     },
     {
+      "original": "Holy Spider",
+      "conv": "zh-tw:聖蛛; zh-hk:聖誅; zh-cn:圣蛛;"
+    },
+    {
       "original": "Home",
       "conv": "zh-cn:疯狂外星人;zh-hk:無敵安樂窩;zh-tw:好家在一起;zh-sg:无敌安乐窝;"
     },
@@ -4386,6 +4854,10 @@
     {
       "original": "The Horse Whisperer",
       "conv": "zh-cn:马语者; zh-tw:輕聲細語; zh-hk:情深說話未曾講;"
+    },
+    {
+      "original": "Horsemen",
+      "conv": "zh-tw:天啟4騎士;zh-hk:魔詭4騎士;zh-cn:天启四骑士;"
     },
     {
       "original": "Horton Hears a Who!",
@@ -4560,12 +5032,20 @@
       "conv": "zh-cn:偷心女盗; zh-tw:詐騙女神; zh-hk:圓美大盜; zh-sg:诈骗女神;"
     },
     {
+      "original": "Hustle",
+      "conv": "zh-tw:必勝球探; zh-hk:籃兒當搏盡; zh-cn:必胜球探; zh-sg:拼进NBA;"
+    },
+    {
       "original": "Hustlers",
       "conv": "zh-cn:舞女大盗; zh-tw:舞孃騙很大; zh-hk:豔舞大盜; zh-sg:诈骗舞娘;"
     },
     {
       "original": "Hustle & Flow",
       "conv": "zh-cn:川流熙攘; zh-tw:街頭嘻哈客; zh-hk:RAP夢情色;"
+    },
+    {
+      "original": "Hytti nro 6",
+      "conv": "zh-tw:邂逅在六號車廂; zh-hk:情留六號車廂; zh-cn:六号包厢;"
     },
     {
       "original": "Hævnen",
@@ -4616,6 +5096,18 @@
       "conv": "zh-cn:我，机器人; zh-tw:機械公敵; zh-hk:智能叛變;"
     },
     {
+      "original": "I Want You Back",
+      "conv": "回到我身邊=>zh-tw:回到我身邊; 回到我身邊=>zh-hk:回到我身邊; 回到我身邊=>zh-mo:回到我身邊; 回到我身邊=>zh-cn:回心转意; 回到我身邊=>zh-sg:回心转意; 回到我身邊=>zh-my:回心转意;"
+    },
+    {
+      "original": "I Wanna Dance with Somebody",
+      "conv": "zh-tw:與你共舞; zh-hk:雲妮·侯斯頓：與愛共舞; zh-cn:与爱共舞;"
+    },
+    {
+      "original": "I Wanna Dance with Somebody",
+      "conv": "雲妮侯斯頓：與愛共舞=>zh-tw:與你共舞; 雲妮侯斯頓：與愛共舞=>zh-hk:雲妮·侯斯頓：與愛共舞; 雲妮侯斯頓：與愛共舞=>zh-mo:雲妮·侯斯頓：與愛共舞; 雲妮侯斯頓：與愛共舞=>zh-cn:与爱共舞;"
+    },
+    {
       "original": "Ice Age",
       "conv": "zh-tw:冰原歷險記; zh-hk:冰河世紀; zh-cn:冰川时代; zh-sg:冰原历险记;"
     },
@@ -4630,6 +5122,10 @@
     {
       "original": "Ice Age: Collision Course",
       "conv": "zh-cn:冰川时代5：星际碰撞; zh-hk:冰河世紀：隕石撞地球; zh-tw:冰原歷險記：笑星撞地球; zh-sg:冰河世纪：陨石撞地球;"
+    },
+    {
+      "original": "Ice Merchants",
+      "conv": "冰之商人=>zh-tw:冰之商人; 冰之商人=>zh-cn:冰商;"
     },
     {
       "original": "Ich bin dein Mensch",
@@ -4658,6 +5154,10 @@
     {
       "original": "I, Tonya",
       "conv": "zh-tw:老娘叫譚雅; zh-hk:冰之驕女; zh-cn:我，花样女王; zh-sg:冰之骄女;"
+    },
+    {
+      "original": "Imaculat",
+      "conv": "zh-tw:純白之罪; zh-cn:无瑕之初;"
     },
     {
       "original": "The Imaginarium of Doctor Parnassus",
@@ -4777,11 +5277,11 @@
     },
     {
       "original": "The Informant!",
-      "conv": "爆料大師=>zh-cn:告密者; 爆料大師=>zh-tw:爆料大師; 爆料大師=>zh-hk:大鑊密探;"
+      "conv": "zh-tw:爆料大師; zh-hk:大鑊密探;"
     },
     {
       "original": "The Informant!",
-      "conv": "大鑊密探=>zh-cn:告密者; 大鑊密探=>zh-tw:爆料大師; 大鑊密探=>zh-hk:大鑊密探;"
+      "conv": "爆料大師=>zh-cn:告密者; 大鑊密探=>zh-cn:告密者;"
     },
     {
       "original": "Inglourious Basterds",
@@ -4796,12 +5296,16 @@
       "conv": "zh-cn:墨水心; zh-tw:墨水心; zh-hk:魔法天書;"
     },
     {
-      "original": "Inside Man",
-      "conv": "案內人=>zh-tw:臥底; 案內人=>zh-hk:案內人; 案內人=>zh-cn:局内人;"
+      "original": "Inside Llewyn Davis",
+      "conv": "zh-tw:醉鄉民謠; zh-hk:知音夢裡行; zh-mo:知音夢裡行; zh-hans:醉乡民谣;"
     },
     {
       "original": "Inside Man",
-      "conv": "局内人=>zh-tw:臥底; 局内人=>zh-hk:案內人; 局内人=>zh-cn:局内人;"
+      "conv": "zh-hk:案內人; zh-cn:局内人;"
+    },
+    {
+      "original": "Inside Man",
+      "conv": "案內人=>zh-tw:臥底; 局内人=>zh-tw:臥底;"
     },
     {
       "original": "Inside Out",
@@ -4813,11 +5317,11 @@
     },
     {
       "original": "Insidious",
-      "conv": "陰兒房=>zh-cn:潜伏; 陰兒房=>zh-tw:陰兒房; 陰兒房=>zh-hk:兒凶;"
+      "conv": "zh-tw:陰兒房; zh-hk:兒凶;"
     },
     {
       "original": "Insidious",
-      "conv": "兒凶=>zh-cn:潜伏; 兒凶=>zh-tw:陰兒房; 兒凶=>zh-hk:兒凶;"
+      "conv": "陰兒房=>zh-cn:潜伏; 兒凶=>zh-cn:潜伏;"
     },
     {
       "original": "Insidious: Chapter 2",
@@ -4825,7 +5329,7 @@
     },
     {
       "original": "Insidious: Chapter 2",
-      "conv": "阴儿房2=>zh-tw:陰兒房第2章：陰魂守舍;阴儿房2=>zh-hk:兒凶續集;阴儿房2=>zh-cn:潜伏2;"
+      "conv": "阴儿房2=>zh-tw:陰兒房第2章：陰魂守舍;阴儿房2=>zh-hk:兒凶續集;阴儿房2=>zh-mo:兒凶續集;阴儿房2=>zh-cn:潜伏2;"
     },
     {
       "original": "Insidious: Chapter 3",
@@ -4865,11 +5369,11 @@
     },
     {
       "original": "The Interview",
-      "conv": "名嘴出任務=>zh-cn:采访; 名嘴出任務=>zh-hk:刺殺金正恩; 名嘴出任務=>zh-tw:名嘴出任務;"
+      "conv": "zh-hk:刺殺金正恩; zh-tw:名嘴出任務;"
     },
     {
       "original": "The Interview",
-      "conv": "刺殺金正恩=>zh-cn:采访; 刺殺金正恩=>zh-hk:刺殺金正恩; 刺殺金正恩=>zh-tw:名嘴出任務;"
+      "conv": "名嘴出任務=>zh-cn:采访; 刺殺金正恩=>zh-cn:采访;"
     },
     {
       "original": "Into the Storm",
@@ -4968,6 +5472,10 @@
       "conv": "zh-cn:蠢蛋搞怪秀4：坏祖父; zh-tw:無厘取鬧：祖孫卡好; zh-hk:死蠢鬥一番之燥底耆兵;"
     },
     {
+      "original": "Jackass Forever",
+      "conv": "zh-tw:就4無厘取鬧; zh-cn:蠢蛋搞怪到永远;"
+    },
+    {
       "original": "The Jacket",
       "conv": "zh-cn:灵幻夹克; zh-tw:顫慄時空; zh-hk:生死時空;"
     },
@@ -5038,6 +5546,14 @@
     {
       "original": "Jiro Dreams of Sushi",
       "conv": "zh-cn:寿司之神; zh-tw:壽司之神; zh-hk:小野二郎：壽司夢;"
+    },
+    {
+      "original": "Jocky",
+      "conv": "zh-tw:重生騎師; zh-hk:再生騎師;"
+    },
+    {
+      "original": "Jocky",
+      "conv": "重生騎師=>zh-cn:骑师; 再生騎師=>zh-cn:骑师;"
     },
     {
       "original": "Joe Versus the Volcano",
@@ -5117,11 +5633,11 @@
     },
     {
       "original": "The Judge",
-      "conv": "辯父律師=>zh-tw:大法官; 辯父律師=>zh-hk:辯父律師; 辯父律師=>zh-cn:法官老爹:"
+      "conv": "zh-hk:辯父律師; zh-cn:法官老爹:"
     },
     {
       "original": "The Judge",
-      "conv": "法官老爹=>zh-tw:大法官; 法官老爹=>zh-hk:辯父律師; 法官老爹=>zh-cn:法官老爹:"
+      "conv": "辯父律師=>zh-tw:大法官; 法官老爹=>zh-tw:大法官;"
     },
     {
       "original": "Judgment at Nuremberg",
@@ -5152,6 +5668,10 @@
       "conv": "zh-cn:勇敢者游戏：决战丛林; zh-tw:野蠻遊戲：瘋狂叢林; zh-hk:逃出魔幻紀：叢林挑機; zh-sg:野蛮游戏：决战丛林;"
     },
     {
+      "original": "Jumbo",
+      "conv": "慾望摩天輪=>zh-tw:慾望摩天輪; 慾望摩天輪=>zh-cn:珍布;"
+    },
+    {
       "original": "The Jumper",
       "conv": "zh-cn:时空骇客; zh-tw:移動世界; zh-hk:越空行者;"
     },
@@ -5173,11 +5693,11 @@
     },
     {
       "original": "Juno",
-      "conv": "鴻孕當頭=>zh-cn:朱诺; 鴻孕當頭=>zh-sg:朱诺; 鴻孕當頭=>zh-hk:Juno少女孕記; 鴻孕當頭=>zh-mo:Juno少女孕記; 鴻孕當頭=>zh-tw:鴻孕當頭;"
+      "conv": "zh-hk:Juno少女孕記; zh-tw:鴻孕當頭;"
     },
     {
       "original": "Juno",
-      "conv": "Juno少女孕記=>zh-cn:朱诺; Juno少女孕記=>zh-sg:朱诺; Juno少女孕記=>zh-hk:Juno少女孕記; Juno少女孕記=>zh-mo:Juno少女孕記; Juno少女孕記=>zh-tw:鴻孕當頭;"
+      "conv": "鴻孕當頭=>zh-cn:朱诺; 鴻孕當頭=>zh-sg:朱诺; Juno少女孕記=>zh-cn:朱诺; Juno少女孕記=>zh-sg:朱诺;"
     },
     {
       "original": "Jupiter Ascending",
@@ -5216,12 +5736,28 @@
       "conv": "轟天潛艦K-19=>zh-tw:K-19; 轟天潛艦K-19=>zh-cn:K-19：寡妇制造者;"
     },
     {
+      "original": "Kajillionaire",
+      "conv": "zh-tw:卡吉麗昂; zh-hk:偷呃拐騙一家人;"
+    },
+    {
+      "original": "Kajillionaire",
+      "conv": "卡吉麗昂=>zh-cn:亿万富翁; 卡吉麗昂=>zh-sg:亿万富翁; 卡吉麗昂=>zh-my:亿万富翁;"
+    },
+    {
+      "original": "Kajillionaire",
+      "conv": "偷呃拐騙一家人=>zh-cn:亿万富翁; 偷呃拐騙一家人=>zh-sg:亿万富翁; 偷呃拐騙一家人=>zh-my:亿万富翁;"
+    },
+    {
       "original": "Kalifornia",
       "conv": "zh-tw:加州殺手; zh-hk:殺人旅行團; zh-cn:加州杀手;"
     },
     {
       "original": "Kalifornia",
       "conv": "同途攞命人=>zh-tw:加州殺手; 同途攞命人=>zh-cn:加州杀手;"
+    },
+    {
+      "original": "Kapag Wala Nang Mga Alon",
+      "conv": "zh-tw:浪潮退去之後; zh-hk:湧浪之後; zh-cn:当浪潮已逝;"
     },
     {
       "original": "The Karate Kid 1984",
@@ -5265,11 +5801,11 @@
     },
     {
       "original": "Killshot",
-      "conv": "生死一擊=>zh-tw:生死一擊; 生死一擊=>zh-hk:殺到埋身; 生死一擊=>zh-cn:射杀;"
+      "conv": "zh-tw:生死一擊; zh-hk:殺到埋身;"
     },
     {
       "original": "Killshot",
-      "conv": "殺到埋身=>zh-tw:生死一擊; 殺到埋身=>zh-hk:殺到埋身; 殺到埋身=>zh-cn:射杀;"
+      "conv": "生死一擊=>zh-cn:射杀; 殺到埋身=>zh-cn:射杀;"
     },
     {
       "original": "The Killing Fields",
@@ -5282,6 +5818,10 @@
     {
       "original": "Killing Them Softly",
       "conv": "zh-cn:温柔的杀戮; zh-tw:殺戮行動; zh-hk:奪命無聲;"
+    },
+    {
+      "original": "Kindergarten Cop",
+      "conv": "zh-tw:魔鬼孩子王; zh-hk:幼稚園特警; zh-cn:幼儿园警探;"
     },
     {
       "original": "King Arthur",
@@ -5325,11 +5865,11 @@
     },
     {
       "original": "Kinsey",
-      "conv": "引人入性=>zh-cn:金赛; 引人入性=>zh-tw:金賽性學教室; 引人入性=>zh-hk:引人入性;"
+      "conv": "zh-tw:金賽性學教室; zh-hk:引人入性;"
     },
     {
       "original": "Kinsey",
-      "conv": "金賽性學教室=>zh-cn:金赛; 金賽性學教室=>zh-tw:金賽性學教室; 金賽性學教室=>zh-hk:引人入性;"
+      "conv": "引人入性=>zh-cn:金赛; 金賽性學教室=>zh-cn:金赛;"
     },
     {
       "original": "Kissing Jessica Stein",
@@ -5346,6 +5886,14 @@
     {
       "original": "Kite Runner, The",
       "conv": "zh-cn:追风筝的人; zh-hk:追風箏的孩子; zh-tw:追風箏的孩子;"
+    },
+    {
+      "original": "Klondike",
+      "conv": "zh-tw:沒有煙硝的日子; zh-hk:頓巴斯戰火孕記;"
+    },
+    {
+      "original": "Klondike",
+      "conv": "沒有煙硝的日子=>zh-cn:克朗代克; 頓巴斯戰火孕記=>zh-cn:克朗代克;"
     },
     {
       "original": "Klute",
@@ -5370,6 +5918,10 @@
     {
       "original": "Kollektivet",
       "conv": "zh-cn:公社; zh-hk:堅離地公社; zh-tw:丹麥共居生活;"
+    },
+    {
+      "original": "Koyaanisqatsi",
+      "conv": "zh-cn:失衡生活; zh-tw:機械生活;"
     },
     {
       "original": "Kramer vs. Kramer",
@@ -5468,16 +6020,20 @@
       "conv": "末代皇帝溥儀=>zh-cn:末代皇帝;末代皇帝溥儀=>zh-my:末代皇帝;末代皇帝溥儀=>zh-sg:末代皇帝;末代皇帝溥儀=>zh-tw:末代皇帝;"
     },
     {
+      "original": "Last Film Show",
+      "conv": "zh-tw:天堂電影院; zh-cn:最后一场胶片电影放映;"
+    },
+    {
       "original": "The Last King of Scotland",
       "conv": "zh-cn:末代独裁; zh-tw:最後的蘇格蘭王; zh-hk:最後的蘇格蘭王;"
     },
     {
       "original": "Last Night",
-      "conv": "一夜誘情=>zh-tw:誘惑·夜; 一夜誘情=>zh-hk:一夜誘情; 一夜誘情=>zh-cn:昨夜;"
+      "conv": "zh-tw:誘惑·夜; zh-hk:一夜誘情;"
     },
     {
       "original": "Last Night",
-      "conv": "誘惑·夜=>zh-tw:誘惑·夜; 誘惑·夜=>zh-hk:一夜誘情; 誘惑·夜=>zh-cn:昨夜;"
+      "conv": "一夜誘情=>zh-cn:昨夜; 誘惑·夜=>zh-cn:昨夜;"
     },
     {
       "original": "Last Night in Soho",
@@ -5616,6 +6172,10 @@
       "conv": "zh-cn:这个杀手不太冷; zh-tw:終極追殺令; zh-hk:這個殺手不太冷"
     },
     {
+      "original": "Leonor Will Never Die",
+      "conv": "zh-tw:恁阿嬤cut好; zh-cn:蕾奥娜永不死;"
+    },
+    {
       "original": "Les Aventures extraordinaires d'Adèle Blanc-Sec",
       "conv": "zh-cn:阿黛拉的非凡冒险; zh-tw:神鬼驚奇：古生物復活; zh-hk:幻險巴黎：美女、魔龍、木乃伊"
     },
@@ -5660,8 +6220,12 @@
       "conv": "zh-cn:大洋之间的灯光; zh-tw:為妳說的謊; zh-hk:愛在海的邊緣;"
     },
     {
-      "original": "Lilo & Stitch",
-      "conv": "zh-cn:星际宝贝; zh-tw:星際寶貝; zh-hk:扮嘢小魔星;"
+      "original": "Licorice Pizza",
+      "conv": "zh-tw:甘草披薩; zh-hk:甘草薄餅; zh-hans:甘草比萨;"
+    },
+    {
+      "original": "Licorice Pizza",
+      "conv": "甘草比薩=>zh-tw:甘草披薩; 甘草比薩=>zh-hk:甘草薄餅; 甘草比薩=>zh-mo:甘草薄餅;"
     },
     {
       "original": "Life as We Know It",
@@ -5670,6 +6234,10 @@
     {
       "original": "Life of Pi",
       "conv": "zh-tw:少年PI的奇幻漂流; zh-hk:少年PI的奇幻漂流; zh-cn:少年派的奇幻漂流;"
+    },
+    {
+      "original": "Lilo & Stitch",
+      "conv": "zh-cn:星际宝贝; zh-tw:星際寶貝; zh-hk:扮嘢小魔星;"
     },
     {
       "original": "Limitless",
@@ -5704,6 +6272,14 @@
       "conv": "zh-cn:你死我活; zh-hk:鐵金剛勇破黑魔黨;zh-tw:生死關頭"
     },
     {
+      "original": "Living",
+      "conv": "zh-tw:倫敦生之慾; zh-hk:倫敦生之慾; zh-cn:生之欲;"
+    },
+    {
+      "original": "Living",
+      "conv": "生之欲 (2022年电影)=>zh-cn:生之欲 (2022年电影);生之欲 (2022年电影)=>zh-hk:倫敦生之慾;生之欲 (2022年电影)=>zh-mo:倫敦生之慾;生之欲 (2022年电影)=>zh-tw:倫敦生之慾;"
+    },
+    {
       "original": "The Living Daylights",
       "conv": "zh-cn:黎明杀机; zh-tw:黎明生機; zh-hk:鐵金剛大戰特務飛龍;"
     },
@@ -5730,6 +6306,38 @@
     {
       "original": "Looking for Eric",
       "conv": "zh-cn:寻找埃里克;zh-tw:尋找艾瑞克;zh-hk:尋找簡東拿;"
+    },
+    {
+      "original": "The Lost City",
+      "conv": "zh-tw:失落謎城; zh-hk:失驚無神闖謎城; zh-cn:迷失之城;"
+    },
+    {
+      "original": "The Lost King",
+      "conv": "zh:失蹤的國王; zh-hk:國王的伸冤; zh-cn:失踪的国王;"
+    },
+    {
+      "original": "Louis Armstrong's Black & Blues",
+      "conv": "zh-tw:路易斯·阿姆斯壯：黑與藍; zh-hk:爵士樂之父：路易斯·岩士唐; zh-cn:路易斯·阿姆斯特朗的黑人形象与蓝调音乐;"
+    },
+    {
+      "original": "Louis Armstrong's Black & Blues",
+      "conv": "路易斯阿姆斯壯：黑與藍=>zh-tw:路易斯·阿姆斯壯：黑與藍; 路易斯阿姆斯壯：黑與藍=>zh-hk:爵士樂之父：路易斯·岩士唐; 路易斯阿姆斯壯：黑與藍=>zh-mo:爵士樂之父：路易斯·岩士唐; 路易斯阿姆斯壯：黑與藍=>zh-cn:路易斯·阿姆斯特朗的黑人形象与蓝调音乐;"
+    },
+    {
+      "original": "Louis Armstrong's Black & Blues",
+      "conv": "爵士樂之父：路易斯岩士唐=>zh-tw:路易斯·阿姆斯壯：黑與藍; 爵士樂之父：路易斯岩士唐=>zh-hk:爵士樂之父：路易斯·岩士唐; 爵士樂之父：路易斯岩士唐=>zh-mo:爵士樂之父：路易斯·岩士唐; 爵士樂之父：路易斯岩士唐=>zh-cn:路易斯·阿姆斯特朗的黑人形象与蓝调音乐;"
+    },
+    {
+      "original": "Love Again",
+      "conv": "zh-tw:寄往天堂的情書; zh-hk:緣來可以愛多次; zh-cn:短信情缘;"
+    },
+    {
+      "original": "A Love Song",
+      "conv": "zh-hant:等一首情歌; zh-tw:真愛之歌; zh-hk:等一首情歌;"
+    },
+    {
+      "original": "A Love Song",
+      "conv": "等一首情歌=>zh-cn:小情歌; 真愛之歌=>zh-cn:小情歌;"
     },
     {
       "original": "Loving Pablo",
@@ -5864,6 +6472,18 @@
       "conv": "LUCY：超能煞姬=>zh-cn:超体; LUCY：超能煞姬=>zh-tw:露西; zh-hk:LUCY：超能煞姬;"
     },
     {
+      "original": "Lyle, Lyle, Crocodile",
+      "conv": "zh-tw:鱷魚歌王; zh-hk:紐約愛音鱷; zh-cn:鳄鱼莱莱;"
+    },
+    {
+      "original": "M3GAN",
+      "conv": "zh-hk:人工殺姬; zh-tw:窒友梅根;"
+    },
+    {
+      "original": "M3GAN",
+      "conv": "人工殺姬=>zh-cn:梅根; 窒友梅根=>zh-cn:梅根;"
+    },
+    {
       "original": "Machine Gun Preacher",
       "conv": "zh-tw:重裝教士; zh-hk:機槍教父; zh-cn:机关枪传教士;"
     },
@@ -5910,6 +6530,10 @@
     {
       "original": "Madame de...",
       "conv": "zh-cn:伯爵夫人的耳环; zh-hant:伯爵夫人的耳環; zh-tw:貴婦的耳環; zh-hk:某夫人;"
+    },
+    {
+      "original": "Madres paralelas",
+      "conv": "zh-tw:平行母親; zh-hk:誰和誰共母; zh-mo:誰和誰共母; zh-cn:平行母亲;"
     },
     {
       "original": "Merry Madagascar",
@@ -5964,6 +6588,10 @@
       "conv": "zh-cn:曼哈顿灰姑娘; zh-tw:女傭變鳳凰; zh-hk:五星級戀人;"
     },
     {
+      "original": "Mainstream",
+      "conv": "我的爆紅人生=>zh-tw:我的爆紅人生; 我的爆紅人生=>zh-hk:主流; 我的爆紅人生=>zh-mo:主流; 我的爆紅人生=>zh-cn:主流;"
+    },
+    {
       "original": "The Majestic",
       "conv": "zh-cn:忘我奇缘; zh-tw:忘了我是誰; zh-hk:忘我奇緣; zh-hans:忘了我是谁;"
     },
@@ -5997,11 +6625,11 @@
     },
     {
       "original": "Mama",
-      "conv": "屍人保姆=>zh-tw:母侵; 屍人保姆=>zh-hk:屍人保姆; 屍人保姆=>zh-cn:妈妈;"
+      "conv": "zh-tw:母侵; zh-hk:屍人保姆;"
     },
     {
       "original": "Mama",
-      "conv": "母侵=>zh-tw:母侵; 母侵=>zh-hk:屍人保姆; 母侵=>zh-cn:妈妈;"
+      "conv": "屍人保姆=>zh-cn:妈妈; 母侵=>zh-cn:妈妈;"
     },
     {
       "original": "Mamma Mia! Here We Go Again",
@@ -6010,6 +6638,10 @@
     {
       "original": "Manchester by the Sea",
       "conv": "zh-cn:海边的曼彻斯特; zh-hk:情繫海邊之城; zh-tw:海邊的曼徹斯特"
+    },
+    {
+      "original": "A Man Called Otto",
+      "conv": "zh-tw:超難搞先生; zh-hk:隱閉中年; zh-cn:生无可恋的奥托;"
     },
     {
       "original": "The Man from U.N.C.L.E.",
@@ -6046,6 +6678,14 @@
     {
       "original": "The Man with the Golden Gun",
       "conv": "zh-cn:金枪客; zh-tw:金鎗人; zh-hk:鐵金剛大戰金槍客;"
+    },
+    {
+      "original": "The man without a face",
+      "conv": "zh-cn:无脸的男人;zh-hk:沒臉的歲月;"
+    },
+    {
+      "original": "The man without a face",
+      "conv": "无脸的男人=>zh-tw:真愛;沒臉的歲月=>zh-tw:真愛;"
     },
     {
       "original": "The Manchurian Candidate 1962",
@@ -6090,6 +6730,10 @@
     {
       "original": "Mar adentro aka The Sea Inside",
       "conv": "zh-hk:情流心海; zh-tw:點燃生命之海; zh-cn:深海长眠;"
+    },
+    {
+      "original": "Marcel the Shell with Shoes On",
+      "conv": "zh-tw:迷你網紅實貝秀; zh-cn:穿着鞋子的贝壳马塞尔;"
     },
     {
       "original": "La Marche de l'empereur",
@@ -6208,6 +6852,10 @@
       "conv": "zh-cn:军犬麦克斯; zh-tw:海軍忠犬馬克斯; zh-hk:軍犬麥斯;"
     },
     {
+      "original": "Maybe I Do",
+      "conv": "zh-hk:非常亂婿娶佳人; zh-cn:或许我愿意;"
+    },
+    {
       "original": "Maze Runner: The Scorch Trials",
       "conv": "zh-cn:移动迷宫：烧痕审判; zh-tw:移動迷宮：焦土試煉; zh-sg:移动迷宫：焦土试炼; "
     },
@@ -6238,6 +6886,10 @@
     {
       "original": "Mechanic: Resurrection",
       "conv": "zh-cn:机械师2：复活; zh-tw:極速秒殺2; zh-hk:秒速殺機2;"
+    },
+    {
+      "original": "Mediterranean Fever",
+      "conv": "zh-tw:地中海發燒友; zh-hk:地中海鬱到病; zh-cn:地中海热;"
     },
     {
       "original": "Mediterraneo",
@@ -6284,6 +6936,14 @@
       "conv": "zh-cn:黑衣人：全球追缉; zh-tw:MIB星際戰警：跨國行動; zh-hk:黑超特警組：反轉世界; zh-sg:星际战警：反转世界;"
     },
     {
+      "original": "The Menu",
+      "conv": "zh-tw:五星饗魘; zh-hk:五腥級盛宴;"
+    },
+    {
+      "original": "The Menu",
+      "conv": "五星饗魘=>zh-cn:菜单; 五腥級盛宴=>zh-cn:菜单;"
+    },
+    {
       "original": "The Men Who Stare at Goats",
       "conv": "zh-cn:以眼杀人; zh-tw:超異能部隊; zh-hk:密探睥死羊;"
     },
@@ -6306,6 +6966,10 @@
     {
       "original": "The Mexican",
       "conv": "zh-cn:危险情人; zh-hk:愛情請槍; zh-tw:危險情人;"
+    },
+    {
+      "original": "Mi iubita, mon amour",
+      "conv": "戀上你愛上我=>zh-tw:戀上你愛上我; 戀上你愛上我=>zh-cn:我的爱人;"
     },
     {
       "original": "Miami Vice",
@@ -6401,11 +7065,11 @@
     },
     {
       "original": "Misbehaviour",
-      "conv": "愛美獎行動=>zh-tw:愛美獎行動; 愛美獎行動=>zh-hk:逆權選美; 愛美獎行動=>zh-cn:品行不端;"
+      "conv": "zh-tw:愛美獎行動; zh-hk:逆權選美;"
     },
     {
       "original": "Misbehaviour",
-      "conv": "逆權選美=>zh-tw:愛美獎行動; 逆權選美=>zh-hk:逆權選美; 逆權選美=>zh-cn:品行不端;"
+      "conv": "愛美獎行動=>zh-cn:品行不端; 逆權選美=>zh-cn:品行不端;"
     },
     {
       "original": "Misery",
@@ -6414,6 +7078,10 @@
     {
       "original": "La misma luna (Under the Same Moon)",
       "conv": "zh-cn:一样的月光; zh-tw:一樣的月光下; zh-hk:同一月光下;"
+    },
+    {
+      "original": "Miss Bala",
+      "conv": "雙面蝶=>zh-tw:雙面蝶; 雙面蝶=>zh-hk:選美小姐; 雙面蝶=>zh-cn:选美小姐;"
     },
     {
       "original": "Miss Congeniality",
@@ -6433,11 +7101,15 @@
     },
     {
       "original": "Miss Potter",
-      "conv": "波特小姐：比得兔的誕生=>zh-cn:波特小姐; 波特小姐：比得兔的誕生=>zh-hk:波特小姐：比得兔的故事; 波特小姐：比得兔的誕生=>zh-tw:波特小姐：比得兔的誕生;"
+      "conv": "zh-hk:波特小姐：比得兔的故事; zh-tw:波特小姐：比得兔的誕生;"
     },
     {
       "original": "Miss Potter",
-      "conv": "波特小姐：比得兔的故事=>zh-cn:波特小姐; 波特小姐：比得兔的故事=>zh-hk:波特小姐：比得兔的故事; 波特小姐：比得兔的故事=>zh-tw:波特小姐：比得兔的誕生;"
+      "conv": "波特小姐：比得兔的誕生=>zh-cn:波特小姐; 波特小姐：比得兔的故事=>zh-cn:波特小姐;"
+    },
+    {
+      "original": "Missing",
+      "conv": "zh-tw:人肉搜索2：失蹤搜救; zh-hk:人肉搜尋2; zh-cn:网络谜踪2;"
     },
     {
       "original": "The Mission",
@@ -6458,6 +7130,14 @@
     {
       "original": "Mission Impossible - Fallout",
       "conv": "zh-cn:碟中谍6：全面瓦解; zh-hk:職業特工隊：叛逆之謎; zh-tw:不可能的任務：全面瓦解; zh-sg:不可能的任务：全面瓦解;"
+    },
+    {
+      "original": "Mission: Impossible - Dead Reckoning Part One",
+      "conv": "zh-tw:不可能的任務：致命清算 第一章; zh-hk:職業特工隊：死亡清算上集; zh-cn:碟中谍7：致命清算（上）;"
+    },
+    {
+      "original": "Mission: Impossible - Dead Reckoning Part Two",
+      "conv": "zh-tw:不可能的任務：致命清算 第二章; zh-hk:職業特工隊：死亡清算下集; zh-cn:碟中谍8：致命清算（下）;"
     },
     {
       "original": "Mississippi Burning",
@@ -6488,16 +7168,20 @@
       "conv": "zh-cn:茉莉的牌局; zh-tw:決勝女王; zh-hk:莫莉遊戲; zh-sg:决胜女王;"
     },
     {
+      "original": "Un moment d'égarement",
+      "conv": "zh-tw:愛上熟男行不行; zh-cn:情迷假期;"
+    },
+    {
       "original": "Momento",
       "conv": "zh-cn:记忆碎片; zh-tw:記憶拼圖; zh-hk:凶心人;"
     },
     {
       "original": "Mommy",
-      "conv": "親愛媽咪=>zh-cn:妈咪; 親愛媽咪=>zh-tw:親愛媽咪; 親愛媽咪=>zh-hk:慈母多惡兒;"
+      "conv": "zh-tw:親愛媽咪; zh-hk:慈母多惡兒;"
     },
     {
       "original": "Mommy",
-      "conv": "慈母多惡兒=>zh-cn:妈咪; 慈母多惡兒=>zh-tw:親愛媽咪; 慈母多惡兒=>zh-hk:慈母多惡兒;"
+      "conv": "親愛媽咪=>zh-cn:妈咪; 慈母多惡兒=>zh-cn:妈咪;"
     },
     {
       "original": "Mona Lisa Smile",
@@ -6528,8 +7212,24 @@
       "conv": "zh-cn:大战外星人; zh-tw:怪獸大戰外星人; zh-hk:天煞撞正怪怪獸;"
     },
     {
+      "original": "Monty Python and the Holy Grail",
+      "conv": "zh-cn:巨蟒与圣杯; zh-tw:聖杯傳奇; zh-hk:踎低噴飯：勇奪聖杯; zh-sg:巨蟒与圣杯"
+    },
+    {
+      "original": "Monty Python's Life of Brian",
+      "conv": "zh-cn:万世魔星; zh-tw:萬世魔星; zh-hk:踎低噴飯：萬世魔星; zh-sg:万世魔星;"
+    },
+    {
+      "original": "Monty Python's Life of Brian",
+      "conv": "蒙提·派森之布莱恩的一生=>zh-cn:万世魔星; 蒙提·派森之布莱恩的一生=>zh-tw:萬世魔星; 蒙提·派森之布莱恩的一生=>zh-hk:踎低噴飯：萬世魔星; 蒙提·派森之布莱恩的一生=>zh-mo:踎低噴飯：萬世魔星; 蒙提·派森之布莱恩的一生=>zh-sg:万世魔星; 蒙提·派森之布莱恩的一生=>zh-my:万世魔星;"
+    },
+    {
       "original": "The Monuments Men",
       "conv": "zh-cn:盟军夺宝队; zh-tw:大尋寶家; zh-hk:古文明救兵;"
+    },
+    {
+      "original": "Moonage Daydream",
+      "conv": "zh-tw:月光白日夢; zh-hk:Moonage Daydream; zh-mo:Moonage Daydream; zh-cn:月球时代白日梦;"
     },
     {
       "original": "Moonlight",
@@ -6644,6 +7344,10 @@
       "conv": "zh-tw:窈窕奶爸; zh-hk:肥媽先生; zh-cn:窈窕奶爸;"
     },
     {
+      "original": "Mrs. Harris Goes to Paris",
+      "conv": "zh-tw:哈里斯夫人去巴黎; zh-hk:夏夫人的巴黎夢; zh-cn:哈里斯夫人去巴黎;"
+    },
+    {
       "original": "Mrs. Henderson Presents",
       "conv": "zh-cn:亨德森夫人的剧院; zh-tw:裸體舞台; zh-hk:歌舞廳最後一夜;"
     },
@@ -6669,11 +7373,11 @@
     },
     {
       "original": "The Mummy",
-      "conv": "神鬼傳奇=>zh-cn:木乃伊; 神鬼傳奇=>zh-tw:神鬼傳奇; 神鬼傳奇=>zh-hk:盜墓迷城;"
+      "conv": "zh-tw:神鬼傳奇; zh-hk:盜墓迷城;"
     },
     {
       "original": "The Mummy",
-      "conv": "盜墓迷城=>zh-cn:木乃伊; 盜墓迷城=>zh-tw:神鬼傳奇; 盜墓迷城=>zh-hk:盜墓迷城;"
+      "conv": "神鬼傳奇=>zh-cn:木乃伊; 盜墓迷城=>zh-cn:木乃伊;"
     },
     {
       "original": "The Mummy Returns",
@@ -6692,6 +7396,10 @@
       "conv": "zh-cn:布偶大电影; zh-tw:布偶歷險記; zh-hk:慈善星輝布公仔;"
     },
     {
+      "original": "Murina",
+      "conv": "湛藍青春海=>zh-tw:湛藍青春海; 湛藍青春海=>zh-cn:海鳝;"
+    },
+    {
       "original": "Music and lyrics",
       "conv": "zh-cn:共谱恋曲; zh-tw:K歌情人; zh-hk:冧歌有情人"
     },
@@ -6705,11 +7413,11 @@
     },
     {
       "original": "My Beautiful Laundrette",
-      "conv": "我的美丽洗衣店=>zh-hk:年少輕狂;我的美丽洗衣店=>zh-tw:豪華洗衣店;我的美丽洗衣店=>zh-mo:年少輕狂;"
+      "conv": "zh-tw:豪華洗衣店; zh-cn:我的美丽洗衣店;"
     },
     {
       "original": "My Beautiful Laundrette",
-      "conv": "豪華洗衣店=>zh-hk:年少輕狂;豪華洗衣店=>zh-cn:我的美丽洗衣店;豪華洗衣店=>zh-mo:年少輕狂;"
+      "conv": "我的美丽洗衣店=>zh-hk:年少輕狂; 豪華洗衣店=>zh-hk:年少輕狂; 我的美丽洗衣店=>zh-mo:年少輕狂; 豪華洗衣店=>zh-mo:年少輕狂;"
     },
     {
       "original": "My Best Friend's Wedding",
@@ -6780,6 +7488,10 @@
       "conv": "zh-cn:神秘之河; zh-tw:神秘河流; zh-hk:懸河殺機;"
     },
     {
+      "original": "Naissance des pieuvres",
+      "conv": "zh-tw:愛上壞女孩; zh-cn:水仙花开;"
+    },
+    {
       "original": "Naked Weapon",
       "conv": "zh-cn:赤裸特攻;zh-hk:赤裸特攻;zh-tw:赤裸武器"
     },
@@ -6810,6 +7522,14 @@
     {
       "original": "Natural Born Killers",
       "conv": "zh-cn:天生杀人狂; zh-hk:天生殺人狂; zh-tw:閃靈殺手;"
+    },
+    {
+      "original": "Navalny",
+      "conv": "zh-tw:納瓦尼事件簿; zh-hk:毒殺納瓦尼;"
+    },
+    {
+      "original": "Navalny",
+      "conv": "納瓦尼事件簿=>zh-cn:纳瓦尔尼; 毒殺納瓦尼=>zh-cn:纳瓦尔尼;"
     },
     {
       "original": "Ne te retourne pas",
@@ -6853,7 +7573,11 @@
     },
     {
       "original": "Never Rarely Sometimes Always",
-      "conv": "zh:從不，很少，有時，總是; zh-tw:偶一為之; zh-mo:從不／很少／有時／總是; zh-hk:從不／很少／有時／總是; zh-cn:从不，很少，有时，总是;"
+      "conv": "zh:從不，很少，有時，總是; zh-tw:偶一為之; zh-mo:少女懷孕友途; zh-hk:少女懷孕友途; zh-cn:从不，很少，有时，总是; zh-sg:从不，很少，有时，总是;"
+    },
+    {
+      "original": "Never Rarely Sometimes Always",
+      "conv": "從不／很少／有時／總是=>zh-tw:偶一為之; 從不／很少／有時／總是=>zh-mo:少女懷孕友途; 從不／很少／有時／總是=>zh-hk:少女懷孕友途; 從不／很少／有時／總是=>zh-cn:从不，很少，有时，总是; 從不／很少／有時／總是=>zh-sg:从不，很少，有时，总是;"
     },
     {
       "original": "The New Mutants",
@@ -6896,12 +7620,16 @@
       "conv": "zh-cn:博物馆奇妙夜3; zh-tw:博物館驚魂夜3; zh-hk:翻生侏羅館3：古墓的秘密; zh-sg:博物馆惊魂夜3;"
     },
     {
+      "original": "The Night of the 12th",
+      "conv": "zh-tw:追兇12夜; zh-cn:十二日的夜晚;"
+    },
+    {
       "original": "Nightcrawler",
       "conv": "zh-tw:獨家腥聞; zh-hk:頭條殺機; zh-cn:夜行者; zh-sg:独家腥闻;"
     },
     {
       "original": "Nightmare Alley",
-      "conv": "玉面情魔=>zh-tw:夜路; 玉面情魔=>zh-cn:玉面情魔; 玉面情魔=>zh-hk:毒心術;"
+      "conv": "玉面情魔=>zh-tw:夜路; 玉面情魔=>zh-cn:玉面情魔; 玉面情魔=>zh-hk:毒心術; 玉面情魔=>zh-mo:毒心術;"
     },
     {
       "original": "Nightmare on Elm Street",
@@ -6917,11 +7645,11 @@
     },
     {
       "original": "Nine",
-      "conv": "華麗后台=>zh-cn:九; 華麗后台=>zh-tw:華麗年代; 華麗后台=>zh-hk:華麗后台;"
+      "conv": "zh-tw:華麗年代; zh-hk:華麗后台;"
     },
     {
       "original": "Nine",
-      "conv": "華麗年代=>zh-cn:九; 華麗年代=>zh-tw:華麗年代; 華麗年代=>zh-hk:華麗后台;"
+      "conv": "華麗后台=>zh-cn:九; 華麗年代=>zh-cn:九;"
     },
     {
       "original": "Nine Days",
@@ -6941,23 +7669,31 @@
     },
     {
       "original": "Nixon",
-      "conv": "白宮風暴=>zh-cn:尼克松; 白宮風暴=>zh-tw:白宮風暴; 白宮風暴=>zh-hk:驚世謊言─尼克遜;"
+      "conv": "zh-tw:白宮風暴; zh-hk:驚世謊言─尼克遜;"
     },
     {
       "original": "Nixon",
-      "conv": "驚世謊言─尼克遜=>zh-cn:尼克松; 驚世謊言─尼克遜=>zh-tw:白宮風暴; 驚世謊言─尼克遜=>zh-hk:驚世謊言─尼克遜;"
+      "conv": "白宮風暴=>zh-cn:尼克松; 驚世謊言─尼克遜=>zh-cn:尼克松;"
+    },
+    {
+      "original": "No Bears",
+      "conv": "zh-tw:這裡沒有熊; zh-hk:伊朗無熊無懼; zh-cn:无熊之境;"
     },
     {
       "original": "No Courtry for Old Men",
       "conv": "zh-cn:老无所依; zh-hk:二百萬奪命奇案; zh-tw:險路勿近"
     },
     {
-      "original": "No Strings Attached",
-      "conv": "zh-tw:飯飯之交;zh-hk:枕邊冇情人;zh-cn:不求回报;"
+      "original": "No Hard Feelings",
+      "conv": "zh-tw:珍愛硬起來; zh-hk:調教你處男; zh-cn:不要见怪;"
     },
     {
       "original": "No Reservations",
       "conv": "zh-tw:料理絕配; zh-hk:美味不設防; zh-cn:美味情缘/美味关系;"
+    },
+    {
+      "original": "No Strings Attached",
+      "conv": "zh-tw:飯飯之交;zh-hk:枕邊冇情人;zh-cn:不求回报;"
     },
     {
       "original": "No Time to Die",
@@ -6966,6 +7702,14 @@
     {
       "original": "Noah",
       "conv": "zh-cn:诺亚方舟：创世之旅; zh-hk:挪亞：滅世啟示; zh-tw:挪亞方舟;"
+    },
+    {
+      "original": "Nocebo",
+      "conv": "zh-hk:反安慰劑; zh-cn:反安慰剂;"
+    },
+    {
+      "original": "Nocebo",
+      "conv": "反安慰劑=>zh-tw:巫母; 反安慰剂=>zh-tw:巫母;"
     },
     {
       "original": "Nocturnal Animals",
@@ -6997,11 +7741,11 @@
     },
     {
       "original": "Notting Hill",
-      "conv": "摘星奇緣=>zh-cn:诺丁山; 摘星奇緣=>zh-hk:摘星奇緣; 摘星奇緣=>zh-tw:新娘百分百;"
+      "conv": "zh-hk:摘星奇緣; zh-tw:新娘百分百;"
     },
     {
       "original": "Notting Hill",
-      "conv": "新娘百分百=>zh-cn:诺丁山; 新娘百分百=>zh-hk:摘星奇緣; 新娘百分百=>zh-tw:新娘百分百;"
+      "conv": "摘星奇緣=>zh-cn:诺丁山; 新娘百分百=>zh-cn:诺丁山;"
     },
     {
       "original": "Now You See Me",
@@ -7009,7 +7753,11 @@
     },
     {
       "original": "The Nun",
-      "conv": "鬼修女=>zh-cn:修女; 鬼修女=>zh-tw:鬼修女; 鬼修女=>zh-hk:詭修女; 鬼修女=>zh-mo:詭修女; 鬼修女=>zh-my:鬼修女; 鬼修女=>zh-sg:鬼修女;"
+      "conv": "zh-tw:鬼修女; zh-hk:詭修女; zh-mo:詭修女; zh-my:鬼修女; zh-sg:鬼修女;"
+    },
+    {
+      "original": "The Nun",
+      "conv": "鬼修女=>zh-cn:修女; 詭修女=>zh-cn:修女;"
     },
     {
       "original": "Nuovo Cinema Paradiso",
@@ -7129,19 +7877,19 @@
     },
     {
       "original": "The One",
-      "conv": "宇宙追缉令=>zh-tw:救世主; 宇宙追缉令=>zh-hk:最後一強; 宇宙追缉令=>zh-mo:最後一強;"
+      "conv": "zh-hk:最後一強; zh-cn:宇宙追缉令;"
     },
     {
       "original": "The One",
-      "conv": "最後一強=>zh-cn:宇宙追缉令; 最後一強=>zh-sg:宇宙追缉令; 最後一強=>zh-tw:救世主;"
+      "conv": "宇宙追缉令=>zh-tw:救世主; 最後一強=>zh-tw:救世主;"
     },
     {
       "original": "One Day",
-      "conv": "情約一天=>zh-cn:一天; 情約一天=>zh-tw:真愛挑日子; 情約一天=>zh-hk:情約一天;"
+      "conv": "zh-tw:真愛挑日子; zh-hk:情約一天;"
     },
     {
       "original": "One Day",
-      "conv": "真愛挑日子=>zh-cn:一天; 真愛挑日子=>zh-tw:真愛挑日子; 真愛挑日子=>zh-hk:情約一天;"
+      "conv": "情約一天=>zh-cn:一天; 真愛挑日子=>zh-cn:一天;"
     },
     {
       "original": "One Fine Day",
@@ -7172,8 +7920,12 @@
       "conv": "zh-tw:打獵季節; zh-hk:森林反恐隊; zh-cn:丛林大反攻;"
     },
     {
+      "original": "Operation Fortune: Ruse de Guerre",
+      "conv": "zh-hk:伙星行動：扭計特攻; zh-tw:玩命特攻：武演行動; zh-cn:金爆行动;"
+    },
+    {
       "original": "Ordinary People",
-      "conv": "zh-cn:凡夫俗子; zh-tw:凡夫俗子; zh-hk:普通人;"
+      "conv": "凡夫俗子=>zh-cn:凡夫俗子; 凡夫俗子=>zh-tw:凡夫俗子; 凡夫俗子=>zh-hk:普通人;"
     },
     {
       "original": "El orfanato (The Orphanage)",
@@ -7181,15 +7933,19 @@
     },
     {
       "original": "Original Sin",
-      "conv": "枕邊陷阱=>zh-cn:原罪; 枕邊陷阱=>zh-tw:枕邊陷阱; 枕邊陷阱=>zh-hk:激情叛侶;"
+      "conv": "zh-tw:枕邊陷阱; zh-hk:激情叛侶;"
     },
     {
       "original": "Original Sin",
-      "conv": "激情叛侶=>zh-cn:原罪; 激情叛侶=>zh-tw:枕邊陷阱; 激情叛侶=>zh-hk:激情叛侶;"
+      "conv": "枕邊陷阱=>zh-cn:原罪; 激情叛侶=>zh-cn:原罪;"
     },
     {
       "original": "The Other Boleyn Girl",
       "conv": "zh-cn:鸠占鹊巢; zh-tw:女人心機; zh-tw:美人心機; zh-hk:華麗孽緣;"
+    },
+    {
+      "original": "Other People",
+      "conv": "幸福告別=>zh-tw:幸福告別; 幸福告別=>zh-hk:幸福告別; 幸福告別=>zh-cn:其他人; 幸福告別=>zh-sg:其他人; 幸福告別=>zh-my:其他人;"
     },
     {
       "original": "The Other Woman (2014)",
@@ -7254,6 +8010,14 @@
     {
       "original": "Palm Springs",
       "conv": "棕榈泉 (电影)=>zh-cn:棕榈泉; 棕榈泉 (电影)=>zh-tw:棕櫚泉不思議; 棕榈泉 (电影)=>zh-hk:Palm Springs：戀愛假期無限LOOP;"
+    },
+    {
+      "original": "Palm Springs",
+      "conv": "zh-tw:棕櫚泉不思議; zh-hk:Palm Springs：戀愛假期無限LOOP;"
+    },
+    {
+      "original": "Palm Springs",
+      "conv": "棕櫚泉不思議=>zh-cn:棕榈泉; Palm Springs：戀愛假期無限LOOP=>zh-cn:棕榈泉;"
     },
     {
       "original": "Pa Negre",
@@ -7352,8 +8116,12 @@
       "conv": "zh-cn:太空旅客; zh-tw:星際過客; zh-hk:太空潛航者; zh-sg:星际过客;"
     },
     {
+      "original": "Der Passfälscher",
+      "conv": "zh-hk:大偽術師; zh-cn:护照伪造者;"
+    },
+    {
       "original": "Passing",
-      "conv": "zh-hant:白色通行證;zh-hans:白色通行证;zh-cn:冒名之肤;"
+      "conv": "zh-tw:白色通行證; zh-hk:白色通行證; zh-sg:白色通行证; zh-my:白色通行证; zh-cn:冒名之肤;"
     },
     {
       "original": "La Passion de Jeanne d'Arc",
@@ -7386,6 +8154,26 @@
     {
       "original": "The Peanuts Movie",
       "conv": "zh-cn:史努比：花生大电影; zh-tw:史努比 The Peanuts Movie; zh-hk:史諾比：花生漫畫大電影; zh-sg:史努比：花生漫画大电影;"
+    },
+    {
+      "original": "Pearl",
+      "conv": "zh-cn:珀尔 (2022年电影); zh-hk:蓓露 (2022年電影);"
+    },
+    {
+      "original": "Pearl",
+      "conv": "珀尔 (2022年电影)=>zh-tw:血色珍珠; 蓓露 (2022年電影)=>zh-tw:血色珍珠;"
+    },
+    {
+      "original": "Pearl",
+      "conv": "純真殺手=>zh-tw:血色珍珠; 純真殺手=>zh-hk:蓓露; 純真殺手=>zh-mo:蓓露; 純真殺手=>zh-cn:珀尔;"
+    },
+    {
+      "original": "Pearl",
+      "conv": "纯真杀手=>zh-tw:血色珍珠; 纯真杀手=>zh-hk:蓓露; 纯真杀手=>zh-mo:蓓露; 纯真杀手=>zh-cn:珀尔;"
+    },
+    {
+      "original": "Pearl",
+      "conv": "血色珍珠=>zh-tw:血色珍珠; 血色珍珠=>zh-hk:蓓露; 血色珍珠=>zh-mo:蓓露; 血色珍珠=>zh-cn:珀尔;"
     },
     {
       "original": "Peggy Sue Got Married",
@@ -7461,11 +8249,11 @@
     },
     {
       "original": "The Pianist",
-      "conv": "戰地琴人=>zh-cn:钢琴家; 戰地琴人=>zh-hk:鋼琴戰曲; 戰地琴人=>zh-mo:鋼琴戰曲;"
+      "conv": "zh-hk:鋼琴戰曲; zh-tw:戰地琴人;"
     },
     {
       "original": "The Pianist",
-      "conv": "鋼琴戰曲=>zh-cn:钢琴家; 鋼琴戰曲=>zh-tw:戰地琴人;"
+      "conv": "戰地琴人=>zh-cn:钢琴家; 鋼琴戰曲=>zh-cn:钢琴家;"
     },
     {
       "original": "The Piano",
@@ -7520,6 +8308,10 @@
       "conv": "zh-cn:加勒比海盗5：死无对证; zh-tw:加勒比海盜 神鬼奇航：死無對證; zh-hk:加勒比海盜：惡靈啟航; zh-sg:加勒比海盗：萨拉查的复仇;"
     },
     {
+      "original": "Les Pires",
+      "conv": "zh-cn:坏孩子们; zh-hk:野孩子戲中戲;"
+    },
+    {
       "original": "Pitch Black",
       "conv": "zh-cn:星际传奇; zh-tw:星際傳奇; zh-hk:黑煞天魔;"
     },
@@ -7552,8 +8344,16 @@
       "conv": "zh-cn:五克拉的爱情; zh-hk:生命因你閃耀; zh-tw:五克拉愛情;"
     },
     {
+      "original": "Playground",
+      "conv": "zh-tw:下課後的祕密; zh-hk:兒童欺戲樂園; zh-cn:童一个世界;"
+    },
+    {
       "original": "Le Plaisir",
       "conv": "zh-cn:欢愉; zh-tw:歡愉; zh-hk:歡樂飄香;"
+    },
+    {
+      "original": "Plaire, aimer et courir vite",
+      "conv": "zh-tw:喜歡你、愛上你、逃離你; zh-hk:喜歡你、愛上你，逃離你; zh-cn:喜欢，轻吻，快跑;"
     },
     {
       "original": "Un plan parfait",
@@ -7616,6 +8416,10 @@
       "conv": "zh-tw:嘻哈奇俠; zh-hk:蓋世傻俠;"
     },
     {
+      "original": "The Pope's Exorcist",
+      "conv": "zh-hk:教廷第一驅魔人; zh-cn:教皇的驱魔人; zh-tw:梵蒂岡驅魔士;"
+    },
+    {
       "original": "Portrait de la jeune fille en feu",
       "conv": "zh:燃燒的女子畫像; zh-cn:燃烧女子的肖像; zh-tw:燃燒女子的畫像; zh-hk:浴火的少女畫像;"
     },
@@ -7649,11 +8453,11 @@
     },
     {
       "original": "Precious",
-      "conv": "珍愛人生=>zh-cn:真爱;珍愛人生=>zh-hk:天生不是寶貝;珍愛人生=>zh-mo:天生不是寶貝;"
+      "conv": "zh-hk:天生不是寶貝; zh-tw:珍愛人生;"
     },
     {
       "original": "Precious",
-      "conv": "天生不是寶貝=>zh-cn:真爱; 天生不是寶貝=>zh-tw:珍愛人生;"
+      "conv": "珍愛人生=>zh-cn:真爱; 天生不是寶貝=>zh-cn:真爱;"
     },
     {
       "original": "Predator",
@@ -7672,12 +8476,16 @@
       "conv": "zh-cn:风月俏佳人; zh-tw:麻雀變鳳凰; zh-hk:風月俏佳人;"
     },
     {
-      "original": "Primal Fear",
-      "conv": "一級恐懼=>zh-cn:一级恐惧; 一級恐懼=>zh-tw:驚悚;"
+      "original": "Prey",
+      "conv": "zh-tw:終極戰士：獸獵者; zh-hk:鐵血戰士：狩獵追擊; zh-cn:铁血战士：猎物;"
     },
     {
       "original": "Primal Fear",
-      "conv": "一级恐惧=>zh-hk:一級恐懼;一级恐惧=>zh-tw:驚悚;一级恐惧=>zh-mo:一級恐懼;"
+      "conv": "zh-cn:一级恐惧; zh-hk:一級恐懼;"
+    },
+    {
+      "original": "Primal Fear",
+      "conv": "一級恐懼=>zh-tw:驚悚; 一级恐惧=>zh-tw:驚悚;"
     },
     {
       "original": "Primal Fear",
@@ -7745,15 +8553,15 @@
     },
     {
       "original": "Promising Young Woman",
-      "conv": "前程似錦的女孩=>zh-tw:花漾女子;前程似錦的女孩=>zh-hk:超犀女王;前程似錦的女孩=>zh-mo:超犀女王;"
+      "conv": "前程似錦的女孩=>zh-tw:花漾女子; 前程似錦的女孩=>zh-hk:超犀女王; 前程似錦的女孩=>zh-mo:超犀女王;"
     },
     {
       "original": "Proof",
-      "conv": "證明我愛你=>zh-cn:证据;證明我愛你=>zh-hk:情來·算盡愛;證明我愛你=>zh-mo:情來·算盡愛;"
+      "conv": "zh-hk:情來·算盡愛; zh-tw:證明我愛你;"
     },
     {
       "original": "Proof",
-      "conv": "情來．算盡愛=>zh-cn:证据; 情來．算盡愛=>zh-tw:證明我愛你;"
+      "conv": "證明我愛你=>zh-cn:证据; 情來·算盡愛=>zh-cn:证据;"
     },
     {
       "original": "Proof of Life",
@@ -7761,11 +8569,11 @@
     },
     {
       "original": "Un Prophete",
-      "conv": "大獄言家=>zh-hk:先知;大獄言家=>zh-cn:预言者;大獄言家=>zh-mo:先知;"
+      "conv": "zh-cn:预言者; zh-tw:大獄言家;"
     },
     {
       "original": "Un Prophete",
-      "conv": "预言者=>zh-hk:先知;预言者=>zh-tw:大獄言家;预言者=>zh-mo:先知;"
+      "conv": "大獄言家=>zh-hk:先知; 大獄言家=>zh-mo:先知; 预言者=>zh-hk:先知; 预言者=>zh-mo:先知;"
     },
     {
       "original": "The Proposal",
@@ -7817,7 +8625,11 @@
     },
     {
       "original": "Puss in Boots",
-      "conv": "zh-cn:穿靴子的猫; zh-hk:無敵貓劍俠;zh-tw:鞋貓劍客"
+      "conv": "zh-cn:穿靴子的猫; zh-hk:無敵貓劍俠; zh-tw:鞋貓劍客;"
+    },
+    {
+      "original": "Puss in Boots: The Last Wish",
+      "conv": "zh-cn:穿靴子的猫2; zh-hk:無敵貓劍俠：8+1條命; zh-tw:鞋貓劍客2;"
     },
     {
       "original": "Quantum of Solace",
@@ -7881,11 +8693,11 @@
     },
     {
       "original": "The Railway Man",
-      "conv": "铁路劳工=>zh-cn:铁路劳工; 铁路劳工=>zh-tw:心靈勇者; 铁路劳工=>zh-hk:戰俘;"
+      "conv": "zh-cn:铁路劳工; zh-tw:心靈勇者;"
     },
     {
       "original": "The Railway Man",
-      "conv": "心靈勇者=>zh-cn:铁路劳工; 心靈勇者=>zh-tw:心靈勇者; 心靈勇者=>zh-hk:戰俘;"
+      "conv": "铁路劳工=>zh-hk:戰俘; 心靈勇者=>zh-hk:戰俘; 铁路劳工=>zh-mo:戰俘; 心靈勇者=>zh-mo:戰俘;"
     },
     {
       "original": "Rain Man",
@@ -7952,6 +8764,10 @@
       "conv": "zh-tw:尋龍使者：拉雅; zh-hk:魔龍王國; zh-cn:寻龙传说;"
     },
     {
+      "original": "Raymond & Ray",
+      "conv": "zh-tw:雷蒙與雷; zh-hk:理文與阿利; zh-cn:雷蒙德和雷;"
+    },
+    {
       "original": "RBG",
       "conv": "鲁斯·巴德·金斯伯格 (电影)=>zh-hk:挑機法官RBG;鲁斯·巴德·金斯伯格 (电影)=>zh-cn:鲁斯·巴德·金斯伯格;鲁斯·巴德·金斯伯格 (电影)=>zh-tw:RBG：不恐龍大法官;"
     },
@@ -7981,7 +8797,7 @@
     },
     {
       "original": "Rebel Without a Cause",
-      "conv": "zh-cn:无因的反叛; zh-tw:養子不教誰之過; zh-hk:阿飛正傳;"
+      "conv": "无因的反叛=>zh-hk:阿飛正傳;无因的反叛=>zh-cn:无因的反叛;養子不教誰之過=>zh-hk:阿飛正傳;養子不教誰之過=>zh-cn:无因的反叛;"
     },
     {
       "original": "Recount",
@@ -8018,6 +8834,10 @@
     {
       "original": "Red Planet",
       "conv": "zh-cn:紅色星球; zh-hk:宇宙深慌; zh-tw:全面失控;"
+    },
+    {
+      "original": "Red Rocket",
+      "conv": "zh:紅色火箭; zh-tw:火紅大箭男; zh-hk:赤色大箭男; zh-cn:红色火箭;"
     },
     {
       "original": "Red Sparrow",
@@ -8058,6 +8878,14 @@
     {
       "original": "Renegades",
       "conv": "zh-cn:盗潜黄金城; zh-hk:海豹獵金隊; zh-tw:潛龍突擊隊; zh-sg:潜龙突击队;"
+    },
+    {
+      "original": "Renfield",
+      "conv": "zh-tw:吸血鬼特助：雷菲爾; zh-hk:吸血鬼奴才：雷菲爾;"
+    },
+    {
+      "original": "Renfield",
+      "conv": "吸血鬼特助：雷菲爾=>zh-cn:雷恩菲尔德; 吸血鬼奴才：雷菲爾=>zh-cn:雷恩菲尔德;"
     },
     {
       "original": "Requiem for a Dream",
@@ -8106,6 +8934,14 @@
     {
       "original": "Restoration",
       "conv": "zh-cn:浮华暂借问; zh-tw:亂世情緣; zh-hk:浮華暫借問;"
+    },
+    {
+      "original": "Le retour du héros",
+      "conv": "zh-tw:假掰英雄; zh-hk:英雄的歸來; zh-cn:英雄归来;"
+    },
+    {
+      "original": "Retour à Séoul",
+      "conv": "zh-tw:回到首爾; zh-hk:回首爾後; zh-cn:回到首尔;"
     },
     {
       "original": "The Revenant",
@@ -8181,11 +9017,11 @@
     },
     {
       "original": "Rita Moreno: Just a Girl Who Decided to Go for It",
-      "conv": "麗塔莫瑞諾：決定勇往直前的女孩=>zh-tw:麗塔·莫瑞諾：決定勇往直前的女孩; 麗塔莫瑞諾：決定勇往直前的女孩=>zh-hk:烈打·莫蘭奴：一個決定博一鋪的女孩; 麗塔莫瑞諾：決定勇往直前的女孩=>zh-cn:丽塔·莫雷诺：一个决定追逐梦想的女孩;"
+      "conv": "麗塔莫瑞諾：決定勇往直前的女孩=>zh-tw:麗塔·莫瑞諾：決定勇往直前的女孩; 麗塔莫瑞諾：決定勇往直前的女孩=>zh-hk:烈打·莫蘭奴：一個決定博一鋪的女孩; 麗塔莫瑞諾：決定勇往直前的女孩=>zh-mo:烈打·莫蘭奴：一個決定博一鋪的女孩; 麗塔莫瑞諾：決定勇往直前的女孩=>zh-cn:丽塔·莫雷诺：一个决定追逐梦想的女孩;"
     },
     {
       "original": "Rita Moreno: Just a Girl Who Decided to Go for It",
-      "conv": "烈打莫蘭奴：一個決定博一鋪的女孩=>zh-tw:麗塔·莫瑞諾：決定勇往直前的女孩; 烈打莫蘭奴：一個決定博一鋪的女孩=>zh-hk:烈打·莫蘭奴：一個決定博一鋪的女孩; 烈打莫蘭奴：一個決定博一鋪的女孩=>zh-cn:丽塔·莫雷诺：一个决定追逐梦想的女孩;"
+      "conv": "烈打莫蘭奴：一個決定博一鋪的女孩=>zh-tw:麗塔·莫瑞諾：決定勇往直前的女孩; 烈打莫蘭奴：一個決定博一鋪的女孩=>zh-hk:烈打·莫蘭奴：一個決定博一鋪的女孩; 烈打莫蘭奴：一個決定博一鋪的女孩=>zh-mo:烈打·莫蘭奴：一個決定博一鋪的女孩; 烈打莫蘭奴：一個決定博一鋪的女孩=>zh-cn:丽塔·莫雷诺：一个决定追逐梦想的女孩;"
     },
     {
       "original": "A River Runs Through It",
@@ -8205,7 +9041,7 @@
     },
     {
       "original": "Roadrunner: A Film About Anthony Bourdain",
-      "conv": "zh-hant:波登人生不設限; zh-tw:行遍天下：安東尼·波登電影; zh-hk:浪跡廚神：安東尼·波登; zh-cn:流浪者：一部关于安东尼·波登的电影;"
+      "conv": "zh-hant:波登人生不設限; zh-tw:行遍天下：安東尼·波登電影; zh-hk:浪跡廚神：安東尼·波登; zh-mo:走遍天下：波登人生不設限; zh-cn:流浪者：一部关于安东尼·波登的电影;"
     },
     {
       "original": "Robin Hood",
@@ -8280,6 +9116,10 @@
       "conv": "zh-cn:星球大战外传：侠盗一号; zh-tw:星際大戰外傳：俠盜一號; zh-hk:俠盜一號：星球大戰外傳; zh-sg:星际大战外传：侠盗一号;"
     },
     {
+      "original": "Roald Dahl's Matilda The Musical",
+      "conv": "zh-tw:瑪蒂達：音樂劇; zh-hk:瑪蒂達：音樂劇; zh-cn:玛蒂尔达：音乐剧; zh-sg:玛蒂尔达：音乐剧;"
+    },
+    {
       "original": "Ron's Gone Wrong",
       "conv": "zh-tw:天兵阿榮; zh-hk:失靈腦朋友; zh-cn:天赐灵机;"
     },
@@ -8289,11 +9129,11 @@
     },
     {
       "original": "Room",
-      "conv": "不存在的房間=>zh-hk:抖室; 不存在的房間=>zh-cn:房间;"
+      "conv": "zh-hk:抖室; zh-tw:不存在的房間;"
     },
     {
       "original": "Room",
-      "conv": "抖室=>zh-cn:房间; 抖室=>zh-tw:不存在的房間;"
+      "conv": "抖室=>zh-cn:房间; 不存在的房間=>zh-cn:房间;"
     },
     {
       "original": "A Room with a View",
@@ -8310,6 +9150,10 @@
     {
       "original": "Rough Night",
       "conv": "zh-cn:仓皇一夜; zh-hk:姊妹欲蒲團; zh-tw:女郎嗨到趴;"
+    },
+    {
+      "original": "RRR (Hindi)",
+      "conv": "zh:RRR; zh-tw:雙雄起義; zh-hk:革命雙雄; zh-sg:双雄起义;"
     },
     {
       "original": "La Rue Cases-Nègres",
@@ -8369,11 +9213,11 @@
     },
     {
       "original": "The Saint 1997",
-      "conv": "神鬼至尊=>zh-cn:圣徒; 神鬼至尊=>zh-tw:神鬼至尊; 神鬼至尊=>zh-hk:俠聖;"
+      "conv": "zh-tw:神鬼至尊; zh-hk:俠聖;"
     },
     {
       "original": "The Saint 1997",
-      "conv": "俠聖=>zh-cn:圣徒; 俠聖=>zh-tw:神鬼至尊; 俠聖=>zh-hk:俠聖;"
+      "conv": "神鬼至尊=>zh-cn:圣徒; 俠聖=>zh-cn:圣徒;"
     },
     {
       "original": "Saint Laurent",
@@ -8382,6 +9226,14 @@
     {
       "original": "Saint Maud",
       "conv": "zh-tw:暗黑聖女; zh-hk:暗黑聖女; zh-cn:圣人莫德;"
+    },
+    {
+      "original": "Saint Omer",
+      "conv": "zh-tw:聖奧梅爾殺嬰案; zh-hk:母罪假定;"
+    },
+    {
+      "original": "Saint Omer",
+      "conv": "聖奧梅爾殺嬰案=>zh-cn:圣奥梅尔; 母罪假定=>zh-cn:圣奥梅尔;"
     },
     {
       "original": "Salmon Fishing In The Yemen",
@@ -8508,6 +9360,14 @@
       "conv": "zh-cn:惊声尖叫4;zh-hk:奪命狂呼4;zh-tw:驚聲尖叫4;"
     },
     {
+      "original": "Scream 6",
+      "conv": "zh-cn:惊声尖叫6;zh-hk:奪命狂呼6;zh-tw:驚聲尖叫6;"
+    },
+    {
+      "original": "Scrooge: A Christmas Carol",
+      "conv": "zh-tw:小氣財神史顧己：聖誕頌歌; zh-hk:孤寒財主：魔幻聖誕頌; zh-cn:斯克鲁奇：圣诞颂歌; zh-sg:小气财神：圣诞颂歌;"
+    },
+    {
       "original": "Se7en",
       "conv": "zh-cn:七宗罪; zh-tw:火線追緝令; zh-hk:七宗罪;"
     },
@@ -8550,6 +9410,10 @@
     {
       "original": "See Prang",
       "conv": "zh-cn:死神的十字路口; zh-tw:鬼4虐; zh-hk:4條大路通陰間;"
+    },
+    {
+      "original": "See How They Run",
+      "conv": "zh-tw:看你往哪跑; zh-hk:一台殺戲; zh-cn:看他们如何逃之夭夭;"
     },
     {
       "original": "Self/less",
@@ -8704,6 +9568,10 @@
       "conv": "zh-hk:球愛可人兒; zh-cn:足球尤物; zh-tw:足球尤物;"
     },
     {
+      "original": "She Said",
+      "conv": "她有話要說=>zh-tw:她有話要說; 她有話要說=>zh-hk:她說; 她有話要說=>zh-cn:她说;"
+    },
+    {
       "original": "Shine",
       "conv": "閃亮的風采=>zh-cn:钢琴师; 閃亮的風采=>zh-tw:鋼琴師;"
     },
@@ -8737,11 +9605,19 @@
     },
     {
       "original": "Shortcuts",
-      "conv": "人生交叉點=>zh-cn:短片集; 人生交叉點=>zh-tw:銀色·性·男女;"
+      "conv": "zh-hk:人生交叉點; zh-tw:銀色·性·男女;"
     },
     {
       "original": "Shortcuts",
-      "conv": "銀色·性·男女=>zh-cn:短片集;銀色·性·男女=>zh-hk:人生交叉點;銀色·性·男女=>zh-mo:人生交叉點;"
+      "conv": "人生交叉點=>zh-cn:短片集; 銀色·性·男女=>zh-cn:短片集;"
+    },
+    {
+      "original": "Shotgun Wedding",
+      "conv": "zh-tw:劫婚大作戰; zh-hk:黐GUN婚禮;"
+    },
+    {
+      "original": "Shotgun Wedding",
+      "conv": "劫婚大作戰=>zh-cn:闪婚; 黐GUN婚禮=>zh-cn:闪婚;"
     },
     {
       "original": "Shrek",
@@ -8804,6 +9680,10 @@
       "conv": "zh-cn:寂静岭; zh-tw:沉默之丘; zh-hk:鬼魅山房"
     },
     {
+      "original": "The Silent Twins",
+      "conv": "zh:沉默的雙胞胎; zh-tw:靜默雙聲; zh-hk:沉默雙生兒; zh-cn:沉默的双胞胎;"
+    },
+    {
       "original": "Silkwood",
       "conv": "zh-tw:絲克伍事件; zh-cn:金丝楠木; zh-hk:施活的遭遇;"
     },
@@ -8864,6 +9744,10 @@
       "conv": "zh-cn:险恶2; zh-tw:凶兆2：雙瘋; zh-hk:邪靈2;"
     },
     {
+      "original": "Sir Alex Ferguson: Never Give In",
+      "conv": "zh-tw:亞歷克·斯佛格森爵士：永不屈服; zh-hk:阿歷士·費格遜爵士：永不言敗; zh-hans:弗格森爵士：永不屈服;"
+    },
+    {
       "original": "Sissi",
       "conv": "zh-cn:茜茜公主; zh-hk:茜茜公主; zh-tw:我愛西施;"
     },
@@ -8906,6 +9790,10 @@
     {
       "original": "Sleeping With the Enemy",
       "conv": "zh-tw:與敵人共枕; zh-cn:与敌共眠; zh-hk:與敵同眠;"
+    },
+    {
+      "original": "Sleeping with the Fishes",
+      "conv": "zh-tw:真心愛遲到; zh-cn:与鱼共眠;"
     },
     {
       "original": "Sleepless in Seattle",
@@ -8985,11 +9873,15 @@
     },
     {
       "original": "Someone Great",
-      "conv": "忘情今夜=>zh-tw:忘情今夜; 忘情今夜=>zh-hk:忘形換畫前; 忘情今夜=>zh-cn:大人物; 忘情今夜=>zh-sg:大人物;"
+      "conv": "zh-tw:忘情今夜; zh-hk:忘形換畫前;"
     },
     {
       "original": "Someone Great",
-      "conv": "忘形換畫前=>zh-tw:忘情今夜; 忘形換畫前=>zh-hk:忘形換畫前; 忘形換畫前=>zh-cn:大人物; 忘形換畫前=>zh-sg:大人物;"
+      "conv": "忘情今夜=>zh-cn:大人物; 忘情今夜=>zh-sg:大人物; 忘情今夜=>zh-my:大人物;"
+    },
+    {
+      "original": "Someone Great",
+      "conv": "忘形換畫前=>zh-cn:大人物; 忘形換畫前=>zh-sg:大人物; 忘形換畫前=>zh-my:大人物;"
     },
     {
       "original": "Someone to Watch Over Me",
@@ -9010,6 +9902,10 @@
     {
       "original": "Somewhere in Time",
       "conv": "时光倒流七十年=>zh-tw:似曾相識;"
+    },
+    {
+      "original": "The Son",
+      "conv": "zh-tw:愛·子; zh-hk:兒子可否不要走; zh-cn:困在心绪里的儿子;"
     },
     {
       "original": "Sonic the Hedgehog",
@@ -9041,11 +9937,11 @@
     },
     {
       "original": "The Souvenir",
-      "conv": "我們的相愛時光=>zh-tw:我們的相愛時光; 我們的相愛時光=>zh-hk:我們的相愛時光; 我們的相愛時光=>zh-cn:纪念品;"
+      "conv": "我們的相愛時光=>zh-tw:我們的相愛時光; 我們的相愛時光=>zh-hk:我們的相愛時光; 我們的相愛時光=>zh-mo:我們的相愛時光; 我們的相愛時光=>zh-cn:纪念品;"
     },
     {
       "original": "The Souvenir Part II",
-      "conv": "zh-tw:我們的相愛時光：續篇; zh-cn:纪念品：第二部分;"
+      "conv": "zh-tw:我們的相愛時光：續篇; zh-hk:我們的相愛時光2; zh-cn:纪念品：第二部分;"
     },
     {
       "original": "Space Cowboys",
@@ -9153,7 +10049,11 @@
     },
     {
       "original": "Spotlight",
-      "conv": "zh-cn:聚焦; zh-hk:焦點追擊; zh-tw:驚爆焦點;"
+      "conv": "zh-hk:焦點追擊; zh-tw:驚爆焦點;"
+    },
+    {
+      "original": "Spotlight",
+      "conv": "焦點追擊=>zh-cn:聚焦; 驚爆焦點=>zh-cn:聚焦;"
     },
     {
       "original": "Spy",
@@ -9202,6 +10102,10 @@
     {
       "original": "The Square",
       "conv": "zh-cn:自由广场; zh-tw:抓狂美術館; zh-hk:方寸見人心; zh-sg:抓狂美术馆;"
+    },
+    {
+      "original": "\"Sr.\"",
+      "conv": "zh-tw:老勞勃·道尼：自成一格; zh-hk:老羅拔·唐尼：自成一格; zh-cn:罗伯特·唐尼：自成一格; zh-sg:老罗伯特·唐尼：自成一格;"
     },
     {
       "original": "St. Vincent",
@@ -9277,11 +10181,11 @@
     },
     {
       "original": "Stepmom",
-      "conv": "後備媽咪=>zh-hk:後備媽咪; 後備媽咪=>zh-tw:親親小媽; 後備媽咪=>zh-cn:继母;"
+      "conv": "zh-hk:後備媽咪; zh-tw:親親小媽;"
     },
     {
       "original": "Stepmom",
-      "conv": "親親小媽=>zh-hk:後備媽咪; 親親小媽=>zh-tw:親親小媽; 親親小媽=>zh-cn:继母;"
+      "conv": "後備媽咪=>zh-cn:继母; 親親小媽=>zh-cn:继母;"
     },
     {
       "original": "Still Alice",
@@ -9289,11 +10193,11 @@
     },
     {
       "original": "The Sting",
-      "conv": "老千計狀元才=>zh-tw:刺激; 老千計狀元才=>zh-cn:骗中骗;"
+      "conv": "zh-hk:老千計狀元才; zh-cn:骗中骗;"
     },
     {
       "original": "The Sting",
-      "conv": "骗中骗=>zh-hk:老千計狀元才; 骗中骗=>zh-tw:刺激;"
+      "conv": "老千計狀元才=>zh-tw:刺激; 骗中骗=>zh-tw:刺激;"
     },
     {
       "original": "The Sting",
@@ -9301,11 +10205,15 @@
     },
     {
       "original": "Stoker",
-      "conv": "私房嚇=>zh-tw:慾謀; 私房嚇=>zh-hk:私房嚇; 私房嚇=>zh-cn:斯托克;"
+      "conv": "zh-tw:慾謀; zh-hk:私房嚇;"
     },
     {
       "original": "Stoker",
-      "conv": "慾謀=>zh-tw:慾謀; 慾謀=>zh-hk:私房嚇; 慾謀=>zh-cn:斯托克;"
+      "conv": "私房嚇=>zh-cn:斯托克; 慾謀=>zh-cn:斯托克;"
+    },
+    {
+      "original": "Stories We Tell",
+      "conv": "zh:莎拉波莉家庭詩篇; zh-tw:莎拉·波莉家庭詩篇; zh-cn:我们讲述的故事;"
     },
     {
       "original": "Stormbreaker",
@@ -9337,19 +10245,19 @@
     },
     {
       "original": "Stronger",
-      "conv": "你是我的勇氣=>zh-cn:坚强; 你是我的勇氣=>zh-tw:你是我的勇氣; 你是我的勇氣=>zh-hk:生命因妳更強; 你是我的勇氣=>zh-sg:你是我的勇气;"
+      "conv": "zh-tw:你是我的勇氣; zh-hk:生命因妳更強; zh-sg:你是我的勇气; zh-my:你是我的勇气;"
     },
     {
       "original": "Stronger",
-      "conv": "你是我的勇气=>zh-cn:坚强; 你是我的勇气=>zh-tw:你是我的勇氣; 你是我的勇气=>zh-hk:生命因妳更強; 你是我的勇气=>zh-sg:你是我的勇气;"
-    },
-    {
-      "original": "Stronger",
-      "conv": "生命因妳更強=>zh-cn:坚强; 生命因妳更強=>zh-tw:你是我的勇氣; 生命因妳更強=>zh-hk:生命因妳更強; 生命因妳更強=>zh-sg:你是我的勇气;"
+      "conv": "你是我的勇氣=>zh-cn:坚强; 你是我的勇气=>zh-cn:坚强; 生命因妳更強=>zh-cn:坚强;"
     },
     {
       "original": "The Straight Story",
       "conv": "zh-tw:史崔特先生的故事; zh-hk:路直路彎; zh-cn:史崔特先生的故事;"
+    },
+    {
+      "original": "A Streetcar Named Desire",
+      "conv": "zh-tw:慾望街車; zh-hk:慾海奇女子; zh-cn:欲望号街车;"
     },
     {
       "original": "Stuart Little",
@@ -9360,16 +10268,20 @@
       "conv": "zh-hk:孖住你; zh-tw:當我們黏在一起; zh-cn:当我们黏在一起; zh-cn:贴身兄弟;"
     },
     {
+      "original": "Studio 666",
+      "conv": "zh-tw:錄陰宅; zh-hk:猛鬼錄陰室; zh-hans:恶魔录音棚;"
+    },
+    {
       "original": "Steve Jobs",
       "conv": "zh-cn:史蒂夫·乔布斯; zh-hk:時代教主：喬布斯; zh-tw:史帝夫賈伯斯;"
     },
     {
       "original": "Submarine",
-      "conv": "初戀潛水艇=>zh-cn:潜水艇; 初戀潛水艇=>zh-tw:初戀潛水艇; 初戀潛水艇=>zh-hk:愛情潛水;"
+      "conv": "zh-tw:初戀潛水艇; zh-hk:愛情潛水;"
     },
     {
       "original": "Submarine",
-      "conv": "愛情潛水=>zh-cn:潜水艇; 愛情潛水=>zh-tw:初戀潛水艇; 愛情潛水=>zh-hk:愛情潛水;"
+      "conv": "初戀潛水艇=>zh-cn:潜水艇; 愛情潛水=>zh-cn:潜水艇;"
     },
     {
       "original": "Suburbicon",
@@ -9396,14 +10308,6 @@
       "conv": "zh-tw:日式牛仔一品鍋; zh-hk:日式牛仔一品鍋; zh-cn:寿喜烧西部片;"
     },
     {
-      "original": "The Sum of All Fears",
-      "conv": "zh-cn:恐惧杀机; zh-tw:恐懼的總和; zh-hk:驚天核網;"
-    },
-    {
-      "original": "The Sum of Us",
-      "conv": "zh-cn:我们四个;zh-hk:同志夾心人;zh-tw:他不怪，他是我兒子;"
-    },
-    {
       "original": "Suffragette",
       "conv": "妇女参政论者 (电影)=>zh-cn:妇女参政论者;"
     },
@@ -9416,12 +10320,24 @@
       "conv": "zh-tw:薩利機長：哈德遜奇蹟;zh-hk:薩利機長：迫降奇蹟;zh-cn:萨利机长;"
     },
     {
+      "original": "The Sum of All Fears",
+      "conv": "zh-cn:恐惧杀机; zh-tw:恐懼的總和; zh-hk:驚天核網;"
+    },
+    {
+      "original": "The Sum of Us",
+      "conv": "zh-cn:我们四个;zh-hk:同志夾心人;zh-tw:他不怪，他是我兒子;"
+    },
+    {
       "original": "Summer of '42",
       "conv": "zh-cn:1942年夏天;zh-hk:初渡玉門關;zh-tw:往事如煙;"
     },
     {
       "original": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
       "conv": "zh-tw:靈魂樂之夏; zh-cn:夏日之魂;"
+    },
+    {
+      "original": "The Sun Is Also a Star",
+      "conv": "zh-tw:太陽也是一顆星星; zh-hk:太陽也是一顆星星; zh-cn:太阳也是星星;"
     },
     {
       "original": "Sunny",
@@ -9453,11 +10369,11 @@
     },
     {
       "original": "Supernova",
-      "conv": "永遠的我們=>zh-tw:永遠的我們; 永遠的我們=>zh-hk:在星空盡頭等你; 永遠的我們=>zh-cn;超新星;"
+      "conv": "zh-tw:永遠的我們; zh-hk:在星空盡頭等你;"
     },
     {
       "original": "Supernova",
-      "conv": "在星空盡頭等你=>zh-tw:永遠的我們; 在星空盡頭等你=>zh-hk:在星空盡頭等你; =>zh-cn;超新星"
+      "conv": "永遠的我們=>zh-cn:超新星; 在星空盡頭等你=>zh-cn:超新星"
     },
     {
       "original": "Surf's Up",
@@ -9504,6 +10420,10 @@
       "conv": "zh-hk:索女十誡; zh-tw:甜姊不辣; zh-cn:甜姐不辣;"
     },
     {
+      "original": "The Swimmers",
+      "conv": "zh-tw:泳出新生; zh-hk:力爭上游姊妹花; zh-cn:泳舞姐妹; zh-sg:泳出新生;"
+    },
+    {
       "original": "Synecdoche, New York",
       "conv": "zh-cn:纽约提喻法; zh-hk:腦作大業; zh-tw:紐約浮世繪;"
     },
@@ -9542,6 +10462,10 @@
     {
       "original": "The Talented Mr. Ripley",
       "conv": "zh-tw:《天才雷普利》; zh-cn:《天才雷普利》; zh-hk:《心計》;"
+    },
+    {
+      "original": "Tár",
+      "conv": "TÁR塔爾=>zh-tw:TÁR塔爾; TÁR塔爾=>zh-hk:TÁR; TÁR塔爾=>zh-mo:TÁR; TÁR塔爾=>zh-cn:塔尔;"
     },
     {
       "original": "Taxi",
@@ -9704,8 +10628,16 @@
       "conv": "zh-cn:雷神3：诸神黄昏; zh-tw:雷神索爾3：諸神黃昏; zh-hk:雷神奇俠3：諸神黃昏; zh-sg:雷神索尔：诸神黄昏;"
     },
     {
+      "original": "Thor: Love and Thunder",
+      "conv": "zh-tw:雷神索爾：愛與雷霆; zh-hk:雷神奇俠4：愛與雷霆; zh-cn:雷神4：爱与雷霆;"
+    },
+    {
       "original": "A Thousand Clowns",
       "conv": "zh-hk:小丑人生; zh-cn:一千个小丑;"
+    },
+    {
+      "original": "Those Who Wish Me Dead",
+      "conv": "zh-tw:那些要我死的人; zh-hk:滅我者; zh-cn:那些希望我死的人;"
     },
     {
       "original": "Three Billboards Outside Ebbing, Missouri",
@@ -9728,8 +10660,16 @@
       "conv": "zh:猛虎島; zh-hans:猛虎岛; zh-hant:猛虎島; zh-hk:虎陣戰地; zh-mo:虎陣戰地; zh-tw:猛虎島;"
     },
     {
+      "original": "Till",
+      "conv": "提爾：純真之死=>zh-tw:提爾：純真之死; 提爾：純真之死=>zh-cn:蒂尔;"
+    },
+    {
       "original": "Timeline",
-      "conv": "zh-hk:迷失凶間; zh-tw:決戰時空線; zh-cn:时间线;"
+      "conv": "迷失凶間=>zh-cn:重返中世纪; 迷失凶間=>zh-tw:決戰時空線; 迷失凶間=>zh-hk:迷失凶間;"
+    },
+    {
+      "original": "Timeline",
+      "conv": "決戰時空線=>zh-cn:重返中世纪; 決戰時空線=>zh-tw:決戰時空線; 決戰時空線=>zh-hk:迷失凶間;"
     },
     {
       "original": "The Time Traveler's Wife",
@@ -9758,6 +10698,10 @@
     {
       "original": "To Kill a Mockingbird",
       "conv": "zh-hk:怪屋疑雲; zh-tw:梅岡城故事; zh-cn:杀死一只知更鸟;"
+    },
+    {
+      "original": "To Leslie",
+      "conv": "zh-tw:致蕾絲莉; zh-cn:致莱斯利;"
     },
     {
       "original": "To Rome with Love",
@@ -9812,6 +10756,14 @@
       "conv": "zh-cn:壮志凌云; zh-tw:捍衛戰士; zh-hk:壯志凌雲;"
     },
     {
+      "original": "Top Gun: Maverick",
+      "conv": "zh-cn:壮志凌云：独行侠; zh-tw:捍衛戰士：獨行俠; zh-hk:壯志凌雲：獨行俠; zh-sg:捍卫战士：独行侠"
+    },
+    {
+      "original": "Tori et Lokita",
+      "conv": "zh-tw:有你就是家; zh-hk:兩小無懼; zh-cn:托里和洛奇塔;"
+    },
+    {
       "original": "Total Eclipse",
       "conv": "zh-cn:全蚀; zh-tw:全蝕狂愛; zh-hk:心之全蝕;"
     },
@@ -9853,11 +10805,11 @@
     },
     {
       "original": "Trance",
-      "conv": "催眠潛兇=>zh-cn:恍惚; 催眠潛兇=>zh-tw:索命記憶;"
+      "conv": "zh-hk:催眠潛兇; zh-tw:索命記憶;"
     },
     {
       "original": "Trance",
-      "conv": "索命記憶=>zh-cn:恍惚; 索命記憶=>zh-hk:催眠潛兇;"
+      "conv": "催眠潛兇=>zh-cn:恍惚; 索命記憶=>zh-cn:恍惚;"
     },
     {
       "original": "Trainspotting",
@@ -9904,8 +10856,16 @@
       "conv": "zh-cn:生命之树; zh-tw:永生樹; zh-hk:生命樹;"
     },
     {
+      "original": "Tre piani",
+      "conv": "zh-tw:非甜蜜生活; zh-hk:三家有本難唸的經; zh-hans:三层楼上;"
+    },
+    {
       "original": "Tremors",
       "conv": "zh-cn:从地心窜出; zh-tw:從地心竄出; zh-hk:深淵異形;"
+    },
+    {
+      "original": "Triangle of Sadness",
+      "conv": "zh-tw:瘋狂富作用; zh-hk:上流落水狗; zh-cn:悲情三角;"
     },
     {
       "original": "The Trial of the Chicago 7",
@@ -9941,7 +10901,11 @@
     },
     {
       "original": "Troy",
-      "conv": "zh-tw:特洛伊：木馬屠城; zh-hk:木馬屠城; zh-cn:特洛伊;"
+      "conv": "zh-tw:特洛伊：木馬屠城; zh-hk:木馬屠城;"
+    },
+    {
+      "original": "Troy",
+      "conv": "特洛伊：木馬屠城=>zh-cn:特洛伊; 木馬屠城=>zh-cn:特洛伊;"
     },
     {
       "original": "True Grit",
@@ -9969,11 +10933,11 @@
     },
     {
       "original": "Tully",
-      "conv": "厭世媽咪日記=>zh-tw:厭世媽咪日記; 厭世媽咪日記=>zh-hk:論盡爆煲媽咪; 厭世媽咪日記=>zh-cn:塔利;"
+      "conv": "zh-tw:厭世媽咪日記; zh-hk:論盡爆煲媽咪;"
     },
     {
       "original": "Tully",
-      "conv": "論盡爆煲媽咪=>zh-tw:厭世媽咪日記; 論盡爆煲媽咪=>zh-hk:論盡爆煲媽咪; 論盡爆煲媽咪=>zh-cn:塔利;"
+      "conv": "厭世媽咪日記=>zh-cn:塔利; 論盡爆煲媽咪=>zh-cn:塔利;"
     },
     {
       "original": "Turbo",
@@ -10024,10 +10988,6 @@
       "conv": "zh-cn:暮光之城4：破晓（下）; zh-tw:暮光之城：破曉2; zh-hk:吸血新世紀4：破曉傳奇下集;"
     },
     {
-      "original": "The Rooftop",
-      "conv": "zh-cn:天台爱情; zh-tw:天台; zh-hk:天台;"
-    },
-    {
       "original": "Two for the Money",
       "conv": "zh-hk:賭網雙雄; zh-tw:金錢遊戲; zh-cn:利欲两心;"
     },
@@ -10038,6 +10998,10 @@
     {
       "original": "Two Weeks Notice",
       "conv": "zh-tw:貼身情人; zh-cn:兩周情人;"
+    },
+    {
+      "original": "Tytöt tytöt tytöt (Girl Picture)",
+      "conv": "zh-tw:當女孩戀愛時; zh-hk:當女孩戀愛時; zh-cn:女孩画像;"
     },
     {
       "original": "U-571",
@@ -10056,8 +11020,24 @@
       "conv": "醜娃娃大冒險=>zh-cn:丑娃娃; 丑娃娃大冒险=>zh-cn:丑娃娃; 樣衰衰奇兵=>zh-cn:丑娃娃;"
     },
     {
+      "original": "Umma",
+      "conv": "zh-tw:母礙; zh-hk:噩媽;"
+    },
+    {
+      "original": "Umma",
+      "conv": "母礙=>zh-cn:母亲; 母礙=>zh-sg:母亲; 母礙=>zh-my:母亲;"
+    },
+    {
+      "original": "Umma",
+      "conv": "噩媽=>zh-cn:母亲; 噩媽=>zh-sg:母亲; 噩媽=>zh-my:母亲;"
+    },
+    {
       "original": "The Unbearable Lightness of Being",
       "conv": "zh-hk:布拉格之戀; zh-tw:布拉格的春天; zh-cn:布拉格之恋;"
+    },
+    {
+      "original": "The Unbearable Weight of Massive Talent",
+      "conv": "zh-tw:超吉任務; zh-hk:喪盡癲才; zh-cn:天才不能承受之重;"
     },
     {
       "original": "Unbreakable",
@@ -10069,7 +11049,7 @@
     },
     {
       "original": "Uncut Gems",
-      "conv": "zh-cn:原钻; zh-tw:原鑚; zh-hk:未成大器;"
+      "conv": "zh-cn:原钻; zh-tw:原鑽; zh-hk:未成大器; zh-sg:原钻;"
     },
     {
       "original": "Underdog",
@@ -10101,7 +11081,11 @@
     },
     {
       "original": "Unforgettable",
-      "conv": "妳給我記住=>zh-tw:妳給我記住; 妳給我記住=>zh-hk:妒火線; 妳給我記住=>zh-cn: 难以忘怀;"
+      "conv": "zh-tw:妳給我記住; zh-hk:妒火線;"
+    },
+    {
+      "original": "Unforgettable",
+      "conv": "妳給我記住=>zh-cn:难以忘怀; 妒火線=>zh-cn:难以忘怀;"
     },
     {
       "original": "Unforgiven",
@@ -10122,10 +11106,6 @@
     {
       "original": "Unknown",
       "conv": "zh-cn:不明身份;zh-tw:狙擊陌生人;zh-hk:無名殺機"
-    },
-    {
-      "original": "Unlocked",
-      "conv": "zh-cn:惊天解密; zh-tw:全面封鎖; zh-hk:恐襲解碼; zh-sg:逃出生天;"
     },
     {
       "original": "An Unmarried Woman",
@@ -10164,12 +11144,20 @@
       "conv": "zh-cn:普通嫌疑犯;zh-tw:刺激驚爆點;zh-hk:非常嫌疑犯"
     },
     {
+      "original": "Utama",
+      "conv": "zh-tw:高原上的家屋; zh-hk:無雨問蒼天;"
+    },
+    {
+      "original": "Utama",
+      "conv": "高原上的家屋=>zh-cn:我们的家园; 無雨問蒼天=>zh-cn:我们的家园;"
+    },
+    {
       "original": "V for Vendetta",
       "conv": "zh-cn:V字仇杀队;zh-hk:V煞;zh-tw:V怪客;"
     },
     {
       "original": "Vacation",
-      "conv": "zh-cn:假期历险记;zh-hk:親子樂膠遊;zh-tw:全家玩到趴;zh-Sg:全家玩到趴;"
+      "conv": "zh-cn:假期历险记;zh-hk:親子樂膠遊;zh-tw:全家玩到趴;zh-sg:全家玩到趴;"
     },
     {
       "original": "Valentine's Day",
@@ -10217,7 +11205,7 @@
     },
     {
       "original": "Verdens verste menneske",
-      "conv": "zh-tw:世界上最爛的人; zh-cn:世界上最糟糕的人;"
+      "conv": "zh-tw:世界上最爛的人; zh-hk:世上最爛的人; zh-cn:世界上最糟糕的人;"
     },
     {
       "original": "Vertical Limit",
@@ -10281,11 +11269,11 @@
     },
     {
       "original": "Volver",
-      "conv": "玩美女人=>zh-cn:回归; 玩美女人=>zh-hk:浮花;"
+      "conv": "zh-tw:玩美女人; zh-hk:浮花;"
     },
     {
       "original": "Volver",
-      "conv": "浮花=>zh-cn:回归; 浮花=>zh-tw:玩美女人;"
+      "conv": "浮花=>zh-cn:回归; 玩美女人=>zh-cn:回归;"
     },
     {
       "original": "Wag the Dog",
@@ -10365,7 +11353,11 @@
     },
     {
       "original": "Watchmen",
-      "conv": "zh-hans:守望者;zh-hk:保衛奇俠;zh-tw:守護者;"
+      "conv": "保衛奇俠=>zh-hans:守望者; 保衛奇俠=>zh-hk:保衛奇俠; 保衛奇俠=>zh-tw:守護者;"
+    },
+    {
+      "original": "Watchmen",
+      "conv": "守望者=>zh-hans:守望者; 守望者=>zh-hk:保衛奇俠; 守望者=>zh-tw:守護者;"
     },
     {
       "original": "The Water Diviner",
@@ -10416,6 +11408,10 @@
       "conv": "zh-cn:婚礼歌手; zh-tw:婚禮歌手; zh-hk:愛情嚟料;"
     },
     {
+      "original": "Wendell & Wild",
+      "conv": "zh-tw:惡魔兄弟; zh-hk:惡魔兄弟; zh-cn:温德尔和怀尔德; zh-sg:恶魔兄弟;"
+    },
+    {
       "original": "Das weiße Band",
       "conv": "zh-cn:白丝带;zh-tw:白色緞帶;zh-hk:白色恐懼;"
     },
@@ -10428,12 +11424,24 @@
       "conv": "zh-cn:西区故事;zh-hk:夢斷城西;zh-tw:西城故事"
     },
     {
+      "original": "The Whale",
+      "conv": "我的鯨魚老爸=>zh-tw:我的鯨魚老爸; 我的鯨魚老爸=>zh-hk:鯨; 我的鯨魚老爸=>zh-mo:鯨; 我的鯨魚老爸=>zh-cn:鲸;"
+    },
+    {
+      "original": "What Do We See When We Look at the Sky?",
+      "conv": "zh-hk:偶然仰望天空，你有什麼想像？; zh-mo:當我們仰望天空時看見甚麼？; zh-cn:当我们仰望天空时看见什么？; zh-tw:喬治亞天空下;"
+    },
+    {
       "original": "What Happens in Vegas",
       "conv": "zh-hk:一夜賭城戀大咗; zh-tw:頭彩冤家; zh-cn:情迷拉斯维加斯;"
     },
     {
       "original": "What Women Want",
       "conv": "zh-hk:偷聽女人心; zh-tw:男人百分百; zh-cn:偷听女人心;"
+    },
+    {
+      "original": "What's Love Got to Do with It?",
+      "conv": "zh-hk:關我Love事？; zh-cn:与爱何关;"
     },
     {
       "original": "What's Your Number?",
@@ -10450,6 +11458,10 @@
     {
       "original": "When Harry Met Sally...",
       "conv": "zh-cn:当哈利碰上莎莉; zh-hk:90男歡女愛; zh-tw:當哈利碰上莎莉;"
+    },
+    {
+      "original": "Where the Crawdads Sing",
+      "conv": "zh-tw:沼澤謀殺案; zh-hk:荒野謎屍; zh-cn:沼泽深处的女孩;"
     },
     {
       "original": "Where the Wild Things Are",
@@ -10473,11 +11485,11 @@
     },
     {
       "original": "Whistleblower, The",
-      "conv": "追密者：失控正義=>zh-cn:告密者; 追密者：失控正義=>zh-tw:追密者：失控正義; 追密者：失控正義=>zh-hk:驚天告密;"
+      "conv": "zh-tw:追密者：失控正義; zh-hk:驚天告密;"
     },
     {
       "original": "Whistleblower, The",
-      "conv": "驚天告密=>zh-cn:告密者; 驚天告密=>zh-tw:追密者：失控正義; 驚天告密=>zh-hk:驚天告密;"
+      "conv": "追密者：失控正義=>zh-cn:告密者; 驚天告密=>zh-cn:告密者;"
     },
     {
       "original": "White House Down",
@@ -10489,7 +11501,11 @@
     },
     {
       "original": "White Noise",
-      "conv": "zh-hk:借聲還魂; zh-tw:鬼訊號; zh-cn:白噪音;"
+      "conv": "zh-hk:借聲還魂; zh-tw:鬼訊號;"
+    },
+    {
+      "original": "White Noise",
+      "conv": "借聲還魂=>zh-cn:白噪音; 鬼訊號=>zh-cn:白噪音;"
     },
     {
       "original": "White Squall",
@@ -10600,8 +11616,32 @@
       "conv": "zh-cn:金衣女人; zh-hk:穿黄金衣裳的女人; zh-tw:名畫的控訴;"
     },
     {
+      "original": "The Woman King",
+      "conv": "zh-hk:女戰不敗; zh-cn:达荷美女战士;"
+    },
+    {
+      "original": "The Woman King",
+      "conv": "女王 (2022年電影)=>zh-hk:女戰不敗; 女王 (2022年電影)=>zh-mo:女戰不敗; 女王 (2022年電影)=>zh-cn:达荷美女战士;"
+    },
+    {
+      "original": "The Woman King",
+      "conv": "女戰不敗=>zh-tw:女王; 达荷美女战士=>zh-tw:女王;"
+    },
+    {
       "original": "The Women",
-      "conv": "zh-tw:女人至上; zh-cn:女人们; zh-hk:女人大作戰;"
+      "conv": "zh-tw:女人至上; zh-hk:女人大作戰;"
+    },
+    {
+      "original": "The Women",
+      "conv": "女人至上=>zh-cn:女人们; 女人大作戰=>zh-cn:女人们;"
+    },
+    {
+      "original": "The Wonder",
+      "conv": "zh-tw:禁食疑案; zh-hk:禁食女孩; zh-sg:禁食疑案; zh-my:禁食疑案;"
+    },
+    {
+      "original": "The Wonder",
+      "conv": "禁食疑案=>zh-cn:神迹; 禁食女孩=>zh-cn:神迹;"
     },
     {
       "original": "Wonder Boys",
@@ -10638,6 +11678,10 @@
     {
       "original": "World War II",
       "conv": "zh-cn:第二次世界大战; zh-tw:第二次世界大戰; zh-hk:第二次世界大戰;"
+    },
+    {
+      "original": "World War III",
+      "conv": "片場風暴=>zh-tw:片場風暴; 片場風暴=>zh-hk:片場風暴; 片場風暴=>zh-mo:片場風暴; 片場風暴=>zh-cn:第三次世界大战;"
     },
     {
       "original": "World War Z",
@@ -10736,6 +11780,18 @@
       "conv": "zh-cn:电子情书; zh-tw:電子情書;zh-hk:網上情緣"
     },
     {
+      "original": "You Were Never Really Here",
+      "conv": "zh-hk:獨行煞星; zh-tw:失控救援; zh-cn:你从未在此;"
+    },
+    {
+      "original": "You Won't Be Alone",
+      "conv": "zh-tw:絕非孤行; zh-hk:巫不孤獨; zh-cn:你将不再孤单;"
+    },
+    {
+      "original": "You Won't Be Alone",
+      "conv": "女巫不孤單=>zh-tw:絕非孤行; 女巫不孤單=>zh-hk:巫不孤獨; 女巫不孤單=>zh-mo:巫不孤獨; 女巫不孤單=>zh-cn:你将不再孤单;"
+    },
+    {
       "original": "The Young Victoria",
       "conv": "zh:年輕的維多利亞; zh-cn:年轻的维多利亚; zh-tw:維多莉亞女王：風華絕代; zh-hk:宮廷眷戀－維多利亞與阿爾拔親王;"
     },
@@ -10746,10 +11802,6 @@
     {
       "original": "Yves Saint Laurent",
       "conv": "時尚大師聖羅蘭=>zh-cn:伊夫·圣洛朗; 時尚大師聖羅蘭=>zh-hk:聖羅蘭; zh-tw:時尚大師聖羅蘭;"
-    },
-    {
-      "original": "Z",
-      "conv": "zh-cn:焦点新闻; zh-tw:大風暴; zh-hk:大風暴;"
     },
     {
       "original": "Zathura",
@@ -10785,7 +11837,7 @@
     },
     {
       "original": "Zola",
-      "conv": "狂野48小時=>zh-hant:＃狂野48小時; 狂野48小時=>zh-cn:左拉;"
+      "conv": "狂野48小時=>zh-tw:＃狂野48小時; 狂野48小時=>zh-hk:＃狂野48小時; 狂野48小時=>zh-hk:＃狂野48小時; 狂野48小時=>zh-cn:左拉; 狂野48小時=>zh-sg:左拉; 狂野48小時=>zh-my:左拉;"
     },
     {
       "original": "Zombieland",
@@ -10928,8 +11980,8 @@
       "conv": "zh-tw:評論家選擇電影獎; zh-hk:影評人選擇大獎; zh-cn:评论家选择电影奖; "
     },
     {
-      "original": "Grammy Awards",
-      "conv": "zh-cn:格莱美;zh-hk:格林美;zh-tw:葛萊美;zh-sg:葛莱美"
+      "original": "Grammy",
+      "conv": "zh-cn:格莱美; zh-hk:格林美; zh-tw:葛萊美; zh-sg:格莱美"
     },
     {
       "original": "DreamWorks",

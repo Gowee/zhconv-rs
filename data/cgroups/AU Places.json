@@ -1,0 +1,351 @@
+{
+  "name": "AU Places",
+  "description": "澳大利亚地名",
+  "path": "Module:CGroup/AU Places",
+  "rules": [
+    {
+      "original": "Adelaide",
+      "conv": "zh:阿德雷德; zh-cn:阿德莱德; zh-tw:阿得雷德; zh-hk:阿德萊德;"
+    },
+    {
+      "original": "Alice Springs",
+      "conv": "zh-hant:愛麗斯泉; zh-cn:艾丽斯斯普林斯; zh-tw:愛麗斯泉;"
+    },
+    {
+      "original": "Armidale",
+      "conv": "zh-hans:阿米代尔; zh-hant:阿米代爾; zh-tw:阿密達;"
+    },
+    {
+      "original": "Ashford",
+      "conv": "zh-hans:阿什福德; zh-hant:亞士霍; zh-tw:亞士霍; zh-hk:亞士霍;"
+    },
+    {
+      "original": "Australia",
+      "conv": "zh:澳大利亞; zh-hans:澳大利亚; zh-hant:澳洲;"
+    },
+    {
+      "original": "Barker",
+      "conv": "zh-hans:巴克; zh-hant:白加; zh-tw:白加; zh-hk:白加;"
+    },
+    {
+      "original": "Bendigo",
+      "conv": "zh-cn:本迪戈; zh-hk:班迪哥; zh-tw:本迪戈;"
+    },
+    {
+      "original": "Bridgewater",
+      "conv": "zh-hans:布里奇沃特; zh-hant:必列者窩打; zh-tw:必列者窩打; zh-hk:必列者窩打;"
+    },
+    {
+      "original": "Brisbane",
+      "conv": "zh-cn:布里斯班; zh-tw:布里斯本; zh-hk:布里斯本;"
+    },
+    {
+      "original": "Burnside",
+      "conv": "zh-hans:伯恩赛德; zh-hant:濱世; zh-tw:濱世; zh-hk:濱世;"
+    },
+    {
+      "original": "Campbelltown",
+      "conv": "zh-hans:坎贝尔敦; zh-hant:金寶城; zh-tw:金寶城; zh-hk:金寶城;"
+    },
+    {
+      "original": "Canberra",
+      "conv": "zh:坎培拉; zh-hant:坎培拉; zh-hans:堪培拉; zh-cn:堪培拉; zh-tw:坎培拉; zh-hk:坎培拉; zh-mo:坎培拉;"
+    },
+    {
+      "original": "Cavan",
+      "conv": "zh-hans:卡文; zh-hant:嘉弘; zh-tw:嘉弘; zh-hk:嘉弘;"
+    },
+    {
+      "original": "Commonwealth of Australia",
+      "conv": "zh:澳大利亞聯邦; zh-hans:澳大利亚联邦; zh-cn:澳大利亚联邦; zh-hant:澳大利亞聯邦; zh-tw:澳洲聯邦; zh-hk:澳洲聯邦;"
+    },
+    {
+      "original": "Clarence",
+      "conv": "zh-hans:克拉伦斯; zh-hant:嘉蘭士; zh-tw:嘉蘭士; zh-hk:嘉蘭士;"
+    },
+    {
+      "original": "Clarence Park",
+      "conv": "zh-hans:克拉伦斯公园; zh-hant:嘉蘭士柏; zh-tw:嘉蘭士柏; zh-hk:嘉蘭士柏;"
+    },
+    {
+      "original": "Dry Creek",
+      "conv": " zh-hans:德赖河; zh-hant:乾河; zh-tw:乾河; zh-hk:乾河;"
+    },
+    {
+      "original": "Edwardstown",
+      "conv": "zh-hans:爱德华茲敦; zh-hant:愛德華城; zh-tw:愛德華城; zh-hk:愛德華城;"
+    },
+    {
+      "original": "Everard",
+      "conv": "zh-hans:埃弗拉德; zh-hant:愛華勒; zh-tw:愛華勒; zh-hk:愛華勒;"
+    },
+    {
+      "original": "Everard Park",
+      "conv": "zh-hans:埃弗拉德帕克; zh-hant:愛華勒柏; zh-tw:愛華勒柏; zh-hk:愛華勒柏;"
+    },
+    {
+      "original": "Fremantle",
+      "conv": "zh-hans:弗里曼特尔; zh-hant:費里曼圖;"
+    },
+    {
+      "original": "Fullarton",
+      "conv": "zh-hans:富勒顿; zh-hant:富來頓; zh-tw:富來頓; zh-hk:富來頓;"
+    },
+    {
+      "original": "Georges River",
+      "conv": "zh-cn:乔治斯河; zh-tw:喬治斯河; zh-hk:佐治河;"
+    },
+    {
+      "original": "Gilberton",
+      "conv": "zh-hans:吉尔伯顿; zh-hant:喬拔頓; zh-tw:喬拔頓; zh-hk:喬拔頓;"
+    },
+    {
+      "original": "Gladstone",
+      "conv": "zh-hans:格拉德斯通; zh-hant:格列士敦; zh-tw:格列士敦; zh-hk:格列士敦;"
+    },
+    {
+      "original": "Glen Osmond",
+      "conv": "zh-hans:格伦奥斯蒙德; zh-hant:己連柯士文; zh-tw:己連柯士文; zh-hk:己連柯士文;"
+    },
+    {
+      "original": "Glenelg",
+      "conv": "zh-hans:格莱内尔格; zh-hant:己連拿奴; zh-tw:己連拿奴; zh-hk:己連拿奴;"
+    },
+    {
+      "original": "Goodwood",
+      "conv": "zh-hans:古德伍德; zh-hant:高活; zh-tw:高活; zh-hk:高活;"
+    },
+    {
+      "original": "Gosford",
+      "conv": "zh:戈斯福; zh-cn:戈斯福德; zh-hk:高士福; zh-tw:高士福;"
+    },
+    {
+      "original": "Highgate",
+      "conv": "zh-hans:海格特; zh-hant:海機治; zh-tw:海機治; zh-hk:海機治;"
+    },
+    {
+      "original": "Hobart",
+      "conv": "zh-hans:霍巴特; zh-hant:荷巴特; zh-tw:荷巴特; zh-hk:荷伯特;"
+    },
+    {
+      "original": "Isa",
+      "conv": "zh-hans:艾萨; zh-hant:伊薩;"
+    },
+    {
+      "original": "King George Square",
+      "conv": "zh-cn:乔治王广场; zh-hk:英皇佐治廣場; zh-tw:喬治王廣場;"
+    },
+    {
+      "original": "Kingston",
+      "conv": "zh-cn:金斯敦; zh-hk:京士敦; zh-tw:京斯頓;"
+    },
+    {
+      "original": "Lismore",
+      "conv": "zh-hans:利斯莫尔; zh-hant:立斯摩爾;"
+    },
+    {
+      "original": "Macquarie",
+      "conv": "zh-cn:麦考瑞; zh-tw:麥覺理; zh-hk:麥覺理;"
+    },
+    {
+      "original": "Malvern",
+      "conv": "zh-hans:莫尔文; zh-hant:茂路凡; zh-tw:茂路凡; zh-hk:茂路凡;"
+    },
+    {
+      "original": "Modbury",
+      "conv": "zh-hans:莫德伯里; zh-hant:摩保利; zh-tw:摩保利; zh-hk:摩保利;"
+    },
+    {
+      "original": "Mount Barker",
+      "conv": "zh-hans:芒特巴克; zh-hant:白加山; zh-tw:白加山; zh-hk:白加山;"
+    },
+    {
+      "original": "Mount Gambier ",
+      "conv": "zh-hans:芒特甘比尔; zh-hant:甘比爾山; zh-tw:甘比爾山; zh-hk:甘比爾山;"
+    },
+    {
+      "original": "Mount Isa",
+      "conv": "zh-hans:芒特艾萨; zh-hant:伊薩山;"
+    },
+    {
+      "original": "Murdoch",
+      "conv": "zh:莫道克; zh-hans:莫道克; zh-hk:梅鐸; zh-tw:梅鐸;"
+    },
+    {
+      "original": "Murray",
+      "conv": "zh:墨累; zh-hans:墨累; zh-hant:美利; zh-tw:美利; zh-hk:美利;"
+    },
+    {
+      "original": "Newcastle",
+      "conv": "zh-cn:纽卡斯尔; zh-hk:紐卡素; zh-tw:纽卡索;"
+    },
+    {
+      "original": "New South Wales",
+      "conv": "zh-cn:新南威尔士; zh-hk:新南威爾士; zh-tw:新南威爾斯; zh-my:新南威尔斯; zh-sg:新南威尔斯;"
+    },
+    {
+      "original": "Norwood ",
+      "conv": "zh-hans:诺伍德; zh-hant:諾活; zh-tw:諾活; zh-hk:諾活;"
+    },
+    {
+      "original": "Payneham",
+      "conv": "zh-hans:佩纳姆; zh-hant:卑尼咸; zh-tw:卑尼咸; zh-hk:卑尼咸;"
+    },
+    {
+      "original": "Perth",
+      "conv": "zh:珀斯; zh-cn:珀斯; zh-tw:伯斯; zh-hk:巴富;"
+    },
+    {
+      "original": "Plympton",
+      "conv": "zh-hans:普林普顿; zh-hant:拔林敦; zh-tw:拔林敦; zh-hk:拔林敦;"
+    },
+    {
+      "original": "Plympton Park",
+      "conv": "zh-hans:普林普顿帕克; zh-hant:拔林敦柏; zh-tw:拔林敦柏; zh-hk:拔林敦柏;"
+    },
+    {
+      "original": "Prospect",
+      "conv": "zh-hans:普罗斯佩克特; zh-hant:蒲庶庇; zh-tw:蒲庶庇; zh-hk:蒲庶庇;"
+    },
+    {
+      "original": "Parkside",
+      "conv": "zh-hans:帕克赛德; zh-hant:柏世; zh-tw:柏世; zh-hk:柏世;"
+    },
+    {
+      "original": "Richmond",
+      "conv": "zh-hans:里士满; zh-hant:列治文; zh-tw:列治文; zh-hk:列治文;"
+    },
+    {
+      "original": "Salisbury",
+      "conv": "zh-hans:索尔茲伯里; zh-hant:梳士巴利; zh-tw:梳士巴利; zh-hk:梳士巴利;"
+    },
+    {
+      "original": "South Australia",
+      "conv": "zh:南澳大利亞州; zh-cn:南澳大利亚州; zh-tw:南澳州; zh-hk:南澳州; zh-sg:南澳大利亚州;"
+    },
+    {
+      "original": "South Australia",
+      "conv": "南澳大利亞州=>zh-tw:南澳州;南澳大利亞州=>zh-hk:南澳州;南澳大利亞州=>zh-mo:南澳州;"
+    },
+    {
+      "original": "South Australia",
+      "conv": "南澳大利亞=>zh-tw:南澳;南澳大利亞=>zh-hk:南澳;南澳大利亞=>zh-mo:南澳;"
+    },
+    {
+      "original": "South Australia",
+      "conv": "南澳大利亚=>zh-tw:南澳;南澳大利亚=>zh-hk:南澳;南澳大利亚=>zh-mo:南澳;"
+    },
+    {
+      "original": "St Peters",
+      "conv": "zh-hans:圣彼得斯; zh-hant:聖彼得; zh-tw:聖彼得; zh-hk:聖彼得;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "zh-cn:斯特灵; zh-hk:士他令; zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特靈=>zh-hk:士他令;斯特靈=>zh-mo:士他令;斯特靈=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "士打令=>zh-cn:斯特灵;士打令=>zh-my:斯特灵;士打令=>zh-sg:斯特灵;士打令=>zh-tw:史特靈;士打令=>zh-hk:士他令;士打令=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特灵=>zh-cn:斯特灵;史特灵=>zh-my:斯特灵;史特灵=>zh-sg:斯特灵;史特灵=>zh-hk:士他令;史特灵=>zh-mo:士他令;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯德零=>zh-cn:斯特灵;斯德零=>zh-my:斯特灵;斯德零=>zh-sg:斯特灵;斯德零=>zh-hk:士他令;斯德零=>zh-mo:士他令;斯德零=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特陵=>zh-cn:斯特灵;斯特陵=>zh-my:斯特灵;斯特陵=>zh-sg:斯特灵;斯特陵=>zh-hk:士他令;斯特陵=>zh-mo:士他令;斯特陵=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特凌=>zh-cn:斯特灵;斯特凌=>zh-my:斯特灵;斯特凌=>zh-sg:斯特灵;斯特凌=>zh-hk:士他令;斯特凌=>zh-mo:士他令;斯特凌=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "斯特林=>zh-cn:斯特灵;斯特林=>zh-my:斯特灵;斯特林=>zh-sg:斯特灵;斯特林=>zh-hk:士他令;斯特林=>zh-mo:士他令;斯特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stirling",
+      "conv": "史特林=>zh-cn:斯特灵;史特林=>zh-my:斯特灵;史特林=>zh-sg:斯特灵;史特林=>zh-hk:士他令;史特林=>zh-mo:士他令;史特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Sydney",
+      "conv": "zh-cn:悉尼; zh-hk:悉尼; zh-tw:雪梨;"
+    },
+    {
+      "original": "Tamworth",
+      "conv": "zh-hant:譚沃思; zh-hans:塔姆沃思; zh-tw:譚沃思; zh-hk:譚禾夫;"
+    },
+    {
+      "original": "Tasmania",
+      "conv": "zh:塔斯曼尼亞; zh-cn:塔斯马尼亚; zh-tw:塔斯馬尼亞; zh-hk:塔斯曼尼亞;"
+    },
+    {
+      "original": "Tea Tree Gully",
+      "conv": "zh-hans:蒂特里加利; zh-hant:茶樹涌; zh-tw:茶樹涌; zh-hk:茶樹涌;"
+    },
+    {
+      "original": "Toowoomba",
+      "conv": "zh-hans:图文巴; zh-hk:圖文巴; zh-tw:圖翁巴;"
+    },
+    {
+      "original": "Torrens",
+      "conv": "zh-tw:多倫士; zh-hk:多倫士; zh-cn:托伦斯;"
+    },
+    {
+      "original": "Torres",
+      "conv": "zh-cn:托雷斯; zh-tw:托列斯; zh-hk:托利斯;"
+    },
+    {
+      "original": "Thebarton",
+      "conv": "zh-hans:锡巴顿; zh-hant:非百敦; zh-tw:非百敦; zh-hk:非百敦;"
+    },
+    {
+      "original": "Unley Park",
+      "conv": "zh-hans:安利公园; zh-hant:安利柏; zh-tw:安利柏; zh-hk:安利柏;"
+    },
+    {
+      "original": "Wagga Wagga",
+      "conv": "zh-cn:瓦加瓦加; zh-tw:沃加沃加; zh-hk:華加華加;"
+    },
+    {
+      "original": "Walkerville",
+      "conv": "zh-hans:沃克维尔; zh-hant:獲加圍; zh-tw:獲加圍; zh-hk:獲加圍;"
+    },
+    {
+      "original": "Wayville",
+      "conv": "zh-hans:韦维尔; zh-hant:威埠; zh-tw:威埠; zh-hk:威埠;"
+    },
+    {
+      "original": "West Beach",
+      "conv": "zh-hans:韦斯特比奇; zh-hant:西灘; zh-tw:西灘; zh-hk:西灘;"
+    },
+    {
+      "original": "Western Australia",
+      "conv": "zh:西澳大利亞州; zh-cn:西澳大利亚州; zh-tw:西澳州; zh-hk:西澳州; zh-sg:西澳大利亚州;"
+    },
+    {
+      "original": "Western Australia",
+      "conv": "西澳大利亞州=>zh-tw:西澳州;西澳大利亞州=>zh-hk:西澳州;西澳大利亞州=>zh-mo:西澳州;"
+    },
+    {
+      "original": "Western Australia",
+      "conv": "西澳大利亞=>zh-tw:西澳;西澳大利亞=>zh-hk:西澳;西澳大利亞=>zh-mo:西澳;"
+    },
+    {
+      "original": "Western Australia",
+      "conv": "西澳大利亚=>zh-tw:西澳;西澳大利亚=>zh-hk:西澳;西澳大利亚=>zh-mo:西澳;"
+    },
+    {
+      "original": "Yarralumla",
+      "conv": "zh-hant:雅拉倫拉;zh-hans:亚拉伦拉;"
+    }
+  ]
+}

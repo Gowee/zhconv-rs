@@ -1,0 +1,147 @@
+{
+  "name": "UA toponyms",
+  "description": "烏克蘭地名",
+  "path": "Module:CGroup/UA toponyms",
+  "rules": [
+    {
+      "original": "Chernivtsi",
+      "conv": "zh-cn:切尔诺夫策; zh-hk:切爾諾夫策; zh-tw:車尼夫契;"
+    },
+    {
+      "original": "Dnipropetrovsk",
+      "conv": "zh-cn:第聂伯罗彼得罗夫斯克; zh-hk:第尼伯彼得羅夫斯克; zh-tw:第聶伯羅彼得羅夫斯克;"
+    },
+    {
+      "original": "Donetsk",
+      "conv": "zh-cn:顿涅茨克; zh-hk:頓涅茨克; zh-tw:頓內茨克;"
+    },
+    {
+      "original": "Donetsk",
+      "conv": "頓內次克=>zh-cn:顿涅茨克; 頓內次克=>zh-hk:頓涅茨克; 頓內次克=>zh-tw:頓內茨克;"
+    },
+    {
+      "original": "Donetsk",
+      "conv": "顿内次克=>zh-cn:顿涅茨克; 頓內次克=>zh-hk:頓涅茨克; 頓內次克=>zh-tw:頓內茨克;"
+    },
+    {
+      "original": "Ivano-Frankivsk",
+      "conv": "zh-cn:伊万诺-弗兰科夫斯克; zh-hk:伊萬諾-弗蘭科夫斯克; zh-tw:伊凡諾-法蘭科夫斯克;"
+    },
+    {
+      "original": "Ivano",
+      "conv": "zh-cn:伊万诺; zh-hk:伊萬諾; zh-tw:伊凡諾;"
+    },
+    {
+      "original": "Frankivsk",
+      "conv": "zh-cn:弗兰科夫斯克; zh-hk:弗蘭科夫斯克; zh-tw:法蘭科夫斯克;"
+    },
+    {
+      "original": "Kherson",
+      "conv": "赫松=>zh-cn:赫尔松; 赫松=>zh-hk:赫爾松; 赫松=>zh-tw:赫爾松;"
+    },
+    {
+      "original": "Kirovohrad",
+      "conv": "zh-cn:基洛沃格勒; zh-hk:基洛夫格勒; zh-tw:基洛夫格勒;"
+    },
+    {
+      "original": "Luhansk",
+      "conv": "盧干斯克=>zh-cn:卢甘斯克; 盧干斯克=>zh-hk:盧甘斯克; 盧干斯克=>zh-tw:盧甘斯克;"
+    },
+    {
+      "original": "Luhansk",
+      "conv": "卢干斯克=>zh-cn:卢甘斯克; 盧干斯克=>zh-hk:盧甘斯克; 盧干斯克=>zh-tw:盧甘斯克;"
+    },
+    {
+      "original": "Lviv",
+      "conv": "zh-cn:利沃夫; zh-hk:利沃夫; zh-tw:利維夫;"
+    },
+    {
+      "original": "Odesa",
+      "conv": "zh-cn:敖德萨; zh-hk:敖德薩; zh-tw:敖得薩;"
+    },
+    {
+      "original": "Sevastopol",
+      "conv": "zh-cn:塞瓦斯托波尔; zh-hk:塞瓦斯托波爾; zh-tw:塞凡堡;"
+    },
+    {
+      "original": "Ternopil",
+      "conv": "zh-cn:捷尔诺波尔; zh-hk:捷爾諾波爾; zh-tw:特諾皮爾;"
+    },
+    {
+      "original": "Volyn",
+      "conv": "zh-cn:沃伦; zh-hk:沃倫; zh-tw:伏林;"
+    },
+    {
+      "original": "Zaporizhzhia",
+      "conv": "zh-cn:扎波罗热; zh-hk:扎波羅熱; zh-tw:札波羅熱;"
+    },
+    {
+      "original": "Zaporizhzhia",
+      "conv": "札波羅結=>zh-cn:扎波罗热; 札波羅結=>zh-hk:扎波羅熱; 札波羅結=>zh-tw:札波羅熱;"
+    },
+    {
+      "original": "Zaporizhzhia",
+      "conv": "札波罗结=>zh-cn:扎波罗热; 札波羅結=>zh-hk:扎波羅熱; 札波羅結=>zh-tw:札波羅熱;"
+    },
+    {
+      "original": "Dnipro",
+      "conv": "zh-cn:第聂伯罗; zh-hk:第尼伯; zh-tw:第聶伯羅;"
+    },
+    {
+      "original": "Simferopol",
+      "conv": "zh-cn:辛菲罗波尔; zh-hk:辛菲羅波爾; zh-tw:辛費羅波爾;"
+    },
+    {
+      "original": "Simferopol",
+      "conv": "辛費羅波=>zh-cn:辛菲罗波尔; 辛費羅波=>zh-hk:辛菲羅波爾; 辛費羅波=>zh-tw:辛費羅波爾;"
+    },
+    {
+      "original": "Kryvyi Rih",
+      "conv": "zh-cn:克里沃罗格; zh-hk:克里沃羅格; zh-tw:克利福洛;"
+    },
+    {
+      "original": "Novomoskovsk",
+      "conv": "zh-cn:新莫斯科夫斯克; zh-hk:新莫斯科夫斯克; zh-tw:新莫斯科斯克;"
+    },
+    {
+      "original": "Bakhmut",
+      "conv": "zh-cn:巴赫穆特; zh-hk:巴赫穆特; zh-tw:巴赫姆特;"
+    },
+    {
+      "original": "Kalush",
+      "conv": "zh-cn:卡卢什; zh-hk:卡盧什; zh-tw:卡路什;"
+    },
+    {
+      "original": "Chuhuiv",
+      "conv": "zh-cn:丘胡伊夫; zh-hk:丘胡伊夫; zh-tw:楚胡伊夫;"
+    },
+    {
+      "original": "Brovary",
+      "conv": "zh-cn:布罗瓦里; zh-hk:布羅瓦里; zh-tw:布洛瓦利;"
+    },
+    {
+      "original": "Boryspil",
+      "conv": "zh-cn:鲍里斯皮尔; zh-hk:鮑里斯皮爾; zh-tw:波里斯皮爾;"
+    },
+    {
+      "original": "Bucha",
+      "conv": "zh-cn:布恰; zh-hk:布查; zh-tw:布查;"
+    },
+    {
+      "original": "Yavoriv",
+      "conv": "zh-cn:亚沃里夫; zh-hk:亞沃里夫; zh-tw:亞沃利夫;"
+    },
+    {
+      "original": "Myrhorod",
+      "conv": "zh-cn:米尔哥罗德; zh-hk:米爾哥羅德; zh-tw:米爾果羅德;"
+    },
+    {
+      "original": "Okhtyrka",
+      "conv": "zh-cn:奥赫蒂尔卡; zh-hk:奧赫蒂爾卡; zh-tw:阿克提卡;"
+    },
+    {
+      "original": "Kerch",
+      "conv": "zh-cn:刻赤; zh-hk:刻赤; zh-tw:克赤;"
+    }
+  ]
+}

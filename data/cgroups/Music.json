@@ -216,6 +216,10 @@
       "conv": "zh-hans:莱比锡布商大厦管弦乐团; zh-hk:萊比錫布業大廳管弦樂團; zh-tw:萊比錫布商大廈管弦樂團; "
     },
     {
+      "original": "Gjeilo",
+      "conv": "zh-cn:耶罗; zh-hk:雅羅; zh-tw:耶羅; "
+    },
+    {
       "original": "Глинка (Glinka)",
       "conv": "zh-hans:格林卡; zh-hant:葛令卡; "
     },
@@ -268,6 +272,26 @@
       "conv": "zh-hans:雅纳切克; zh-hk:楊納傑克; zh-tw:楊納傑克; "
     },
     {
+      "original": "Jansons",
+      "conv": "zh-hans:扬松斯;zh-tw:楊頌斯;zh-hk:贊臣士;"
+    },
+    {
+      "original": "Jansons",
+      "conv": "杨颂斯=>zh-cn:扬松斯;杨颂斯=>zh-my:扬松斯;杨颂斯=>zh-sg:扬松斯;杨颂斯=>zh-hk:贊臣士;杨颂斯=>zh-mo:揚松斯;"
+    },
+    {
+      "original": "Jansons",
+      "conv": "扬颂斯=>zh-cn:扬松斯;扬颂斯=>zh-my:扬松斯;扬颂斯=>zh-sg:扬松斯;扬颂斯=>zh-tw:楊頌斯;扬颂斯=>zh-hk:贊臣士;扬颂斯=>zh-mo:揚頌斯;"
+    },
+    {
+      "original": "Jansons",
+      "conv": "揚頌斯=>zh-cn:扬松斯;揚頌斯=>zh-my:扬松斯;揚頌斯=>zh-sg:扬松斯;揚頌斯=>zh-tw:楊頌斯;揚頌斯=>zh-hk:贊臣士;揚頌斯=>zh-mo:揚頌斯;"
+    },
+    {
+      "original": "Jansons",
+      "conv": "杨松斯=>zh-cn:扬松斯;杨松斯=>zh-my:扬松斯;杨松斯=>zh-sg:扬松斯;杨松斯=>zh-tw:楊頌斯;杨松斯=>zh-hk:贊臣士;杨松斯=>zh-mo:揚頌斯;"
+    },
+    {
       "original": "Johnny Cash",
       "conv": "zh-hans:约翰尼·卡什; zh-hk:尊尼·卡殊; zh-tw:強尼·凱許; "
     },
@@ -298,6 +322,10 @@
     {
       "original": "Kendrick Lamar",
       "conv": "zh-cn:肯德里克·拉马尔; zh-tw:肯卓克·拉瑪; "
+    },
+    {
+      "original": "Lady A",
+      "conv": "zh-cn:战前女神; zh-tw:懷舊女郎; "
     },
     {
       "original": "Lalo",
@@ -358,6 +386,10 @@
     {
       "original": "Percy Grainger",
       "conv": "zh-cn:珀西·格兰杰; zh-hk:帕西·格蘭傑; zh-tw:帕西·葛人傑"
+    },
+    {
+      "original": "Walter Piston",
+      "conv": "zh-cn:瓦尔特·辟斯顿; zh-hk:華爾特·皮斯頓; zh-tw:華爾特·皮斯頓; zh-mo:華爾特·皮斯頓; zh-hant:華爾特·皮斯頓"
     },
     {
       "original": "Плетнёв (Pletnev)",
@@ -425,7 +457,7 @@
     },
     {
       "original": "Segerstam",
-      "conv": "zh-cn:塞杰斯坦; zh-tw:賽格斯坦; zh-hk:薩格士譚; "
+      "conv": "zh-cn:塞格斯坦; zh-tw:賽格斯坦; zh-hk:薩格士譚; "
     },
     {
       "original": "Шостакович (Shostakovich)",
@@ -516,6 +548,14 @@
       "conv": "zh-cn:韦伯恩; zh-tw:魏本; zh-hk:魏本; "
     },
     {
+      "original": "Franz Welser-Möst",
+      "conv": "zh-hans:弗朗茨·威尔瑟-莫斯特;zh-hant:弗朗茲·威爾瑟-莫斯特;"
+    },
+    {
+      "original": "Franz Welser-Möst",
+      "conv": "弗朗兹·威尔瑟-莫斯特=>zh-cn:弗朗茨·威尔瑟-莫斯特;弗朗兹·威尔瑟-莫斯特=>zh-my:弗朗茨·威尔瑟-莫斯特;弗朗兹·威尔瑟-莫斯特=>zh-sg:弗朗茨·威尔瑟-莫斯特;"
+    },
+    {
       "original": "Wieniawski",
       "conv": "zh-cn:维尼亚夫斯基; zh-tw:維尼奧夫斯基; "
     },
@@ -601,7 +641,7 @@
     },
     {
       "original": "Rap",
-      "conv": "zh-cn:说唱;zh-tw:饒舌; zh-my:饶舌; zh-sg:饶舌; "
+      "conv": "zh-cn:说唱;zh-tw:饒舌; zh-my:饶舌; zh-sg:饶舌;zh-hk:饒舌; "
     },
     {
       "original": "Rhythm and blues",
@@ -676,10 +716,6 @@
       "conv": "zh-hans:尤克里里; zh-hk:夏威夷小結他; zh-tw:烏克麗麗 "
     },
     {
-      "original": "Band",
-      "conv": "zh-hans:乐团; zh-hant:樂團; zh-cn:乐队; zh-tw:樂團; zh-hk:樂隊; zh-mo:樂隊; "
-    },
-    {
       "original": "Chinese orchestra",
       "conv": "zh-cn:民乐团; zh-tw:國樂團; zh-hk:中樂團; zh-mo:中樂團; zh-sg:华乐团; zh-my:华乐团; "
     },
@@ -700,8 +736,8 @@
       "conv": "zh-cn:数字音乐; zh-hk:數碼音樂; zh-tw:數位音樂; "
     },
     {
-      "original": "Digital Music",
-      "conv": "zh-cn:数字音乐; zh-hk:數碼音樂; zh-tw:數位音樂; "
+      "original": "Digital Distribution",
+      "conv": "zh-cn:数字发行; zh-hk:數碼發行; zh-tw:數位發行; "
     },
     {
       "original": "Digital Single",
@@ -718,6 +754,10 @@
     {
       "original": "Digital Music Download",
       "conv": "zh-cn:数字音乐下载; zh-hk:數碼音樂下載; zh-tw:數位音樂下載; "
+    },
+    {
+      "original": "Digital Chart",
+      "conv": "zh-cn:数字榜; zh-hk:數碼榜; zh-tw:數位榜; "
     },
     {
       "original": "Music Video",
@@ -828,16 +868,8 @@
       "conv": "zh-hant:威風凜凜; zh-hans:威风堂堂;"
     },
     {
-      "original": null,
+      "original": "Recording Industry Association",
       "conv": "zh-hant:唱片業協會; zh-hans:唱片业协会;"
-    },
-    {
-      "original": "Republic Records",
-      "conv": "zh-cn:Republic唱片; zh-hk:Republic唱片; zh-tw:聯眾唱片;"
-    },
-    {
-      "original": "Republic Records",
-      "conv": "聯眾=>zh-cn:Republic; 聯眾=>zh-hk:Republic;"
     },
     {
       "original": "Sampling",

@@ -89,7 +89,11 @@
     },
     {
       "original": "astronaut",
-      "conv": "zh-tw:太空人; zh-cn:航天员; zh-hk:太空人; zh-sg:宇航员;"
+      "conv": "zh-tw:太空人; zh-cn:宇航员; zh-hk:太空人; zh-sg:宇航员;"
+    },
+    {
+      "original": "astronaut",
+      "conv": "航天员=>zh-hk:太空人;航天員=>zh-hk:太空人;航天员=>zh-tw:太空人;航天員=>zh-tw:太空人;航天员=>zh-sg:宇航员;航天員=>zh-sg:宇航员;航天员=>zh-my:宇航员;航天員=>zh-my:宇航员;"
     },
     {
       "original": "Atlas",
@@ -169,7 +173,7 @@
     },
     {
       "original": "[[Bipropellant]]",
-      "conv": "zh-cn:双组元; zh-tw:雙基; zh-hk:双基;"
+      "conv": "zh-cn:双组元; zh-tw:雙基; zh-hk:雙基;"
     },
     {
       "original": "[[卡納維爾角空軍基地|Cape Canaveral Air Force Station]]",
@@ -524,7 +528,7 @@
       "conv": "zh-hans:火箭发动机; zh-tw:火箭引擎;"
     },
     {
-      "original": "[[俄羅斯航太|Roskosmos]]",
+      "original": "[[俄罗斯航天国家集团|Roskosmos]]",
       "conv": "zh:俄羅斯航太; zh-hant:俄羅斯航太; zh-hans:俄罗斯航天集团;"
     },
     {

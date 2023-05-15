@@ -517,7 +517,7 @@
     },
     {
       "original": "Christian",
-      "conv": "zh-cn:克里斯蒂安; zh-tw:克里斯汀; zh-hk:基斯頓;"
+      "conv": "zh-cn:克里斯蒂安; zh-tw:克里斯蒂安; zh-hk:基斯頓;"
     },
     {
       "original": "Christine",
@@ -648,6 +648,10 @@
       "conv": "zh-cn:西甘; zh-tw:西甘; zh-hk:施根;"
     },
     {
+      "original": "Cawthon",
+      "conv": "zh-cn:考顿; zh-hk:戈晃; zh-tw:考森"
+    },
+    {
       "original": "da Silva",
       "conv": "zh-cn:达席尔瓦; zh-tw:達席爾瓦; zh-hk:達施華;"
     },
@@ -690,6 +694,10 @@
     {
       "original": "Depay",
       "conv": "zh-hans:迪佩;zh-tw:德佩 ;zh-hk:迪比;"
+    },
+    {
+      "original": "DeSantis",
+      "conv": "zh-hans:德桑蒂斯;zh-tw:迪尚特 ;zh-hk:迪桑提斯;"
     },
     {
       "original": "Dessailly",
@@ -785,7 +793,7 @@
     },
     {
       "original": "Eduardo",
-      "conv": "zh-hans:埃杜阿尔多;zh-tw:愛德華多;zh-hk:艾杜亞度;"
+      "conv": "zh-hans:爱德华多;zh-tw:愛德華多;zh-hk:艾杜亞度;"
     },
     {
       "original": "El",
@@ -1025,7 +1033,11 @@
     },
     {
       "original": "Frédéric; Frederic; Frederik",
-      "conv": "zh-cn:弗雷德里克;zh-tw:法雷迪;費德歷=>zh-hk:費德歷;"
+      "conv": "zh-cn:弗雷德里克;zh-hk:費德歷;zh-tw:弗雷德里克;=>zh-cn:弗雷德里克;"
+    },
+    {
+      "original": "Frederico",
+      "conv": "zh-cn:弗雷德里科;zh-hk:費德歷高"
     },
     {
       "original": "Freddie",
@@ -1265,7 +1277,11 @@
     },
     {
       "original": "Herzog",
-      "conv": "zh-cn:赫尔佐克;zh-tw:赫佐格;zh-hk:荷索;"
+      "conv": "zh-cn:赫尔佐格;zh-tw:赫佐格;zh-hk:荷索;"
+    },
+    {
+      "original": "Herzog",
+      "conv": "赫尔佐克=>zh-tw:赫佐格;赫尔佐克=>zh-hk:荷索;赫尔佐克=>zh-mo:荷索;"
     },
     {
       "original": "Heywood",
@@ -1454,6 +1470,10 @@
     {
       "original": "Jean-Paul Sartre",
       "conv": "zh-cn:让-保罗·萨特; zh-tw:尚-保羅·沙特; zh-hk:尚-保羅·薩特;"
+    },
+    {
+      "original": "Jean-Jacques Rousseau",
+      "conv": "zh-cn:让-雅克·卢梭;zh-hans:让-雅克·卢梭;zh-hant:讓-雅克·盧梭;zh-tw:尚-雅克·盧梭;zh-hk:莊-雅克·盧騷;zh-mo:讓-雅克·盧騷;"
     },
     {
       "original": "Jeff",
@@ -1804,6 +1824,10 @@
       "conv": "zh-cn:卢卡斯; zh-tw:盧卡斯; zh-hk:魯卡斯;"
     },
     {
+      "original": "Lyudmila",
+      "conv": "zh-cn:柳德米拉; zh-tw:柳德米拉; zh-hk:柳德米拉;"
+    },
+    {
       "original": "Лёша (Lyosha)",
       "conv": "zh-cn:廖沙; zh-tw:盧夏; zh-hk:廖沙;"
     },
@@ -1886,6 +1910,10 @@
     {
       "original": "Maradona",
       "conv": "zh-cn:马拉多纳;zh-hk:馬勒當拿;zh-tw:馬拉度納;"
+    },
+    {
+      "original": "Marcus",
+      "conv": "zh-cn:马库斯;zh-hk:馬庫斯;zh-tw:馬克斯;"
     },
     {
       "original": "Margaret",
@@ -2036,10 +2064,6 @@
       "conv": "zh-cn:米高扬; zh-tw:米高揚; zh-hk:米高揚;"
     },
     {
-      "original": "Mill",
-      "conv": "zh-cn:密尔;zh-hk:米爾;zh-tw:彌爾;"
-    },
-    {
       "original": "Miller",
       "conv": "zh-cn:米拉;zh-hk:米拿;zh-tw:米勒;"
     },
@@ -2109,7 +2133,11 @@
     },
     {
       "original": "Nancy",
-      "conv": "zh-cn:南茜;zh-hk:蘭茜;zh-tw:南希;"
+      "conv": "zh-cn:南希;zh-hk:蘭茜;zh-tw:南希;"
+    },
+    {
+      "original": "Nancy",
+      "conv": "南茜=>zh-hk:蘭茜;南茜=>zh-mo:蘭茜;"
     },
     {
       "original": "Nash",
@@ -2152,10 +2180,6 @@
       "conv": "zh-cn:奥利弗; zh-tw:奧立佛; zh-hk:奧利華; zh-sg:奥立弗;"
     },
     {
-      "original": "Olivier",
-      "conv": "zh-cn:奥利韦尔; zh-hk:奧利華; zh-tw:奧利弗;"
-    },
-    {
       "original": "Olsen",
       "conv": "zh-cn:奥尔森; zh-hk:奧臣; zh-tw:奧爾森;"
     },
@@ -2166,10 +2190,6 @@
     {
       "original": "Osama",
       "conv": "zh-tw:奧薩瑪; zh-hk:奧薩馬; zh-cn:奥萨马; zh-sg:奥萨马;"
-    },
-    {
-      "original": "Osmān",
-      "conv": "zh-cn:奥斯曼; zh-tw:鄂圖曼; zh-hk:奧斯曼;"
     },
     {
       "original": "Ostrom",
@@ -2229,7 +2249,7 @@
     },
     {
       "original": "Perón",
-      "conv": "zh-cn:庇隆; zh-tw:裴隆; zh-hk:貝隆;"
+      "conv": "zh-hans:庇隆; zh-hant:貝隆;"
     },
     {
       "original": "Pereira",
@@ -2314,10 +2334,6 @@
     {
       "original": "Ramaphosa",
       "conv": "zh-hans:拉马福萨; zh-hant:拉馬福薩; zh-tw:拉瑪佛沙"
-    },
-    {
-      "original": "Ramos",
-      "conv": "zh-cn:拉蒙斯; zh-tw:拉蒙斯; zh-hk:拉莫斯;"
     },
     {
       "original": "Randolph",
@@ -2450,6 +2466,10 @@
     {
       "original": "Ronaldo",
       "conv": "zh-cn:罗纳尔多; zh-tw:羅納度; zh-hk:朗拿度;"
+    },
+    {
+      "original": "Rousseau",
+      "conv": "zh-cn:卢梭;zh-hans:卢梭;zh-hant:盧梭;zh-tw:盧梭;zh-hk:盧騷;zh-mo:盧騷;"
     },
     {
       "original": "Rowan",
@@ -2933,15 +2953,7 @@
     },
     {
       "original": "Walter",
-      "conv": "zh-cn:华特;zh-tw:華特;zh-hk:華特;zh-sg:华特;"
-    },
-    {
-      "original": "Walter",
-      "conv": "zh:沃尔特;zh-cn:华特;zh-tw:華特;zh-hk:華特;zh-sg:华特;"
-    },
-    {
-      "original": "Walter",
-      "conv": "zh:沃爾特;zh-cn:华特;zh-tw:華特;zh-hk:華特;zh-sg:华特;"
+      "conv": "zh-cn:沃尔特;zh-tw:華特;zh-hk:華特;zh-sg:华特;"
     },
     {
       "original": "Walz",
@@ -2997,11 +3009,11 @@
     },
     {
       "original": "Williams",
-      "conv": "zh-cn:威廉姆斯;zh-hk:威廉士;zh-tw:威廉斯;"
+      "conv": "zh-cn:威廉斯;zh-hk:威廉士;zh-tw:威廉斯;"
     },
     {
       "original": "Williams",
-      "conv": "威廉姆斯 =>zh-cn: 威廉姆斯;威廉絲=>zh-hk:威廉絲;威廉絲=>zh-tw:威廉絲;"
+      "conv": "威廉姆斯 =>zh-cn: 威廉斯;威廉絲=>zh-hk:威廉絲;威廉絲=>zh-tw:威廉絲;"
     },
     {
       "original": "Wilmots",
@@ -3118,6 +3130,10 @@
     {
       "original": "Huston",
       "conv": "zh-cn:休斯顿;zh-tw:休斯頓;zh-hk:侯斯頓;"
+    },
+    {
+      "original": "Justin Trudeau",
+      "conv": "zh-hans:贾斯汀·特鲁多;zh-hant:賈斯汀·特魯多;zh-cn:贾斯廷·特鲁多;zh-sg:贾斯廷·特鲁多;zh-my:贾斯廷·特鲁多;zh-tw:賈斯汀·杜魯道;zh-hk:賈斯汀·杜魯多;zh-mo:賈斯汀·杜魯多;"
     },
     {
       "original": "東南亞歷史詞典",

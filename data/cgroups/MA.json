@@ -1,6 +1,6 @@
 {
   "name": "MA",
-  "description": "[[麻雀 (遊戲)|麻雀]]",
+  "description": "[[麻将|麻雀]]",
   "path": "Template:CGroup/MA",
   "rules": [
     {
@@ -113,7 +113,7 @@
     },
     {
       "original": null,
-      "conv": "zh:流局;zh-cn:荒牌;zh-tw:流局;zh-hk:流局;zh-mo:和局;zh-sg:流局;"
+      "conv": "荒牌=>zh:流局;荒牌=>zh-cn:流局;荒牌=>zh-tw:流局;荒牌=>zh-hk:流局;荒牌=>zh-mo:流局;荒牌=>zh-sg:和局;"
     },
     {
       "original": null,
@@ -398,6 +398,10 @@
     {
       "original": null,
       "conv": "zh:布魯克林;zh-cn:布鲁克林;zh-tw:布魯克林;zh-hk:布魯克林;zh-mo:布魯克林;zh-sg:布鲁克林;"
+    },
+    {
+      "original": null,
+      "conv": "zh:條目;zh-cn:条目;zh-tw:條目;zh-hk:條目;zh-mo:條目;zh-sg:条目;"
     },
     {
       "original": null,

@@ -34,15 +34,15 @@ lazy_static! {
 pub fn get_builtin_converter(target: Variant) -> &'static ZhConverter {
     use Variant::*;
     match target {
-        Zh => &*ZH_BLANK_CONVERTER,
-        ZhHant => &*ZH_TO_HANT_CONVERTER,
-        ZhHans => &*ZH_TO_HANS_CONVERTER,
-        ZhTW => &*ZH_TO_TW_CONVERTER,
-        ZhHK => &*ZH_TO_HK_CONVERTER,
-        ZhMO => &*ZH_TO_MO_CONVERTER,
-        ZhCN => &*ZH_TO_CN_CONVERTER,
-        ZhMY => &*ZH_TO_MY_CONVERTER,
-        ZhSG => &*ZH_TO_SG_CONVERTER,
+        Zh => &ZH_BLANK_CONVERTER,
+        ZhHant => &ZH_TO_HANT_CONVERTER,
+        ZhHans => &ZH_TO_HANS_CONVERTER,
+        ZhTW => &ZH_TO_TW_CONVERTER,
+        ZhHK => &ZH_TO_HK_CONVERTER,
+        ZhMO => &ZH_TO_MO_CONVERTER,
+        ZhCN => &ZH_TO_CN_CONVERTER,
+        ZhMY => &ZH_TO_MY_CONVERTER,
+        ZhSG => &ZH_TO_SG_CONVERTER,
     }
 }
 

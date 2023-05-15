@@ -4,10 +4,6 @@
   "path": "Module:CGroup/美国漫画",
   "rules": [
     {
-      "original": "Ace Chemicals",
-      "conv": "zh-cn:艾斯化工厂; zh-tw:艾斯化工廠; zh-hk:艾斯化工廠;"
-    },
-    {
       "original": "Anarky",
       "conv": "zh-cn:安纳奇; zh-tw:無政府小子; zh-hk:無政府小子;"
     },
@@ -16,24 +12,32 @@
       "conv": "zh-cn:阿玛迪斯; zh-tw:阿瑪迪斯; zh-hk:阿瑪迪斯;"
     },
     {
+      "original": "Arkham",
+      "conv": "zh-cn:阿卡姆; zh-tw:阿卡漢;"
+    },
+    {
       "original": "Amadeus Arkham",
       "conv": "zh-cn:阿玛迪斯·阿卡姆; zh-tw:阿瑪迪斯·阿卡漢; zh-hk:阿瑪迪斯·阿卡漢;"
     },
     {
       "original": "Alexander Joseph \"Lex\" Luthor",
-      "conv": "zh-cn:亚历山大·乔瑟夫·“莱克斯”·卢瑟; zh-tw:亞歷山大·喬瑟夫·「雷克斯」·路瑟; zh-hk:亞歷山大·喬瑟夫·「雷克斯」·路瑟;"
+      "conv": "zh-cn:亚历山大·乔瑟夫·“莱克斯”·卢瑟; zh-tw:亞歷山大·喬瑟夫·「雷克斯」·路瑟; zh-hk:亞歷山大·祖瑟夫·「力士」·路化;"
     },
     {
-      "original": "Arkham",
-      "conv": "zh-cn:阿卡姆; zh-tw:阿卡漢;"
+      "original": "Lex",
+      "conv": "zh-cn:莱克斯; zh-tw:雷克斯; zh-hk:力士;"
     },
     {
-      "original": "Arkham Asylum",
-      "conv": "zh-cn:阿卡姆疯人院; zh-tw:阿卡漢精神病院; zh-hk:亞肯精神病院;"
+      "original": "Luthor",
+      "conv": "zh-cn:卢瑟; zh-tw:路瑟; zh-hk:路化;"
     },
     {
-      "original": "Amanda Waller",
-      "conv": "zh-cn:阿曼达·沃勒; zh-tw:阿曼達·華勒; zh-hk:禾·艾敏;"
+      "original": "Amanda",
+      "conv": "zh-cn:阿曼达; zh-tw:阿曼達; zh-hk:艾敏達;"
+    },
+    {
+      "original": "Waller",
+      "conv": "zh-cn:沃勒; zh-tw:華勒; zh-hk:禾拿;"
     },
     {
       "original": "Aquaman",
@@ -52,6 +56,10 @@
       "conv": "zh-cn:巴里·艾伦; zh-tw:貝瑞·艾倫; zh-hk:巴利·艾倫;"
     },
     {
+      "original": "Barry",
+      "conv": "zh-cn:巴里; zh-tw:貝瑞; zh-hk:巴利;"
+    },
+    {
       "original": "Batgirl",
       "conv": "zh-cn:蝙蝠女孩; zh-tw:蝙蝠女孩; zh-hk:蝙蝠女;"
     },
@@ -60,32 +68,8 @@
       "conv": "zh-cn:蝙蝠侠; zh-tw:蝙蝠俠; zh-hk:蝙蝠俠;"
     },
     {
-      "original": "Batman: The Brave and the Bold",
-      "conv": "zh-cn:蝙蝠侠：英勇无畏; zh-tw:蝙蝠俠智勇悍將; zh-hk:蝙蝠俠智勇悍將;"
-    },
-    {
-      "original": "Batman: Assault on Arkham",
-      "conv": "zh-cn:蝙蝠侠：突袭阿卡姆; zh-tw:蝙蝠俠：血濺阿卡漢;"
-    },
-    {
-      "original": "Batman: Bad Blood",
-      "conv": "zh-cn:蝙蝠侠：血脉恩仇; zh-tw:蝙蝠俠：勢不兩立; zh-hk:蝙蝠俠：勢不兩立;"
-    },
-    {
-      "original": "Batman：The Dark Knight Returns",
-      "conv": "zh-cn:蝙蝠侠：黑暗骑士归来; zh-tw:蝙蝠俠：黑暗騎士歸來; zh-hk:蝙蝠俠：黑暗騎士歸來;"
-    },
-    {
       "original": "Batwoman",
       "conv": "zh-cn:蝙蝠女侠; zh-tw:蝙蝠女俠; zh-hk:蝙蝠女俠;"
-    },
-    {
-      "original": "Batmobile",
-      "conv": "zh-cn:蝙蝠摩托; zh-tw:蝙蝠機車; zh-hk:蝙蝠電單車;"
-    },
-    {
-      "original": "Birds of Prey",
-      "conv": "zh-tw:猛禽小隊; zh-hk:猛禽暴隊;"
     },
     {
       "original": "Black Manta",
@@ -116,8 +100,12 @@
       "conv": "zh-cn:卡西·珊德马克; zh-hant:凱西·桑茲瑪;"
     },
     {
-      "original": "Clark Kent",
-      "conv": "zh-cn:克拉克·肯特; zh-tw:克拉克·肯特; zh-hk:簡·基勒;"
+      "original": "Clark",
+      "conv": "zh-cn:克拉克; zh-tw:克拉克; zh-hk:基勒;"
+    },
+    {
+      "original": "Kent",
+      "conv": "zh-cn:肯特; zh-tw:肯特; zh-hk:簡特;"
     },
     {
       "original": "Crossbones",
@@ -144,10 +132,6 @@
       "conv": "zh-cn:戴安娜·普林斯; zh-tw:黛安娜·普林斯; zh-hk:黛安娜·普斯;"
     },
     {
-      "original": "Elizabeth Arkham Asylum for the Criminally Insane",
-      "conv": "zh-cn:伊丽莎白·阿卡姆精神病患犯罪疯人院; zh-tw:伊丽莎白·阿卡漢精神病患犯罪瘋人院;"
-    },
-    {
       "original": "El Diablo",
       "conv": "zh-cn:焰魔; zh-tw:燄魔; zh-hk:烈魔;"
     },
@@ -161,15 +145,7 @@
     },
     {
       "original": "Geoff Johns",
-      "conv": "zh-cn:杰夫·琼斯; zh-tw:傑夫·強斯; zh-hk:傑夫·強斯;"
-    },
-    {
-      "original": "Gotham",
-      "conv": "zh-cn:哥谭; zh-tw:高譚; zh-hk:葛咸;"
-    },
-    {
-      "original": "Gotham City",
-      "conv": "zh-cn:哥谭市; zh-tw:高譚市; zh-hk:葛咸城;"
+      "conv": "zh-cn:杰夫·琼斯; zh-tw:傑夫·強斯; zh-hk:謝夫·莊斯;"
     },
     {
       "original": "Gordon",
@@ -178,10 +154,6 @@
     {
       "original": "Green Lantern",
       "conv": "zh-cn:绿灯侠; zh-tw:綠光戰警; zh-hk:綠燈俠;"
-    },
-    {
-      "original": "Green Lantern Corps",
-      "conv": "zh-cn:绿灯军团; zh-tw:綠光軍團; zh-hk:綠燈軍團;"
     },
     {
       "original": "Harley Quinn",
@@ -212,26 +184,6 @@
       "conv": "zh-cn:琼·穆恩; zh-tw:瓊·穆恩; zh-hk:莫·鑽茵;"
     },
     {
-      "original": "Justice League",
-      "conv": "zh-cn:正义联盟; zh-tw:正義聯盟; zh-hk:正義聯盟;"
-    },
-    {
-      "original": "Justice League of America",
-      "conv": "zh-cn:美国正义联盟; zh-tw:美國正義聯盟; zh-hk:美國正義聯盟;"
-    },
-    {
-      "original": "Justice League: Crisis on Two Earths",
-      "conv": "zh-cn:正义联盟：两个地球的危机; zh-tw:正義聯盟：兩面夾擊; zh-hk:正義聯盟：兩面夾擊;"
-    },
-    {
-      "original": "Justice League: Doom",
-      "conv": "zh-cn:正义联盟：毁灭; zh-tw:正義聯盟：末日審判; zh-hk:正義聯盟：末日審判;"
-    },
-    {
-      "original": "Justice League: War",
-      "conv": "zh-cn:正义联盟：战争; zh-tw:正義聯盟：開戰; zh-hk:正義聯盟：開戰;"
-    },
-    {
       "original": "Katana",
       "conv": "zh-cn:武士刀; zh-tw:卡塔娜; zh-hk:刀靈;"
     },
@@ -244,24 +196,8 @@
       "conv": "zh-cn:杀手鳄; zh-tw:殺手鱷; zh-hk:鱷怪;"
     },
     {
-      "original": "Kryptonite",
-      "conv": "zh-hk:氪氣石; zh-tw:克利普頓石; zh-hans:氪石;"
-    },
-    {
-      "original": "Legion of Super-Heroes",
-      "conv": "zh-hant:少年超人隊; zh-hans:超级英雄军团;"
-    },
-    {
-      "original": "League of Assassins",
-      "conv": "zh-cn:刺客联盟; zh-tw:刺客聯盟; zh-hk:刺客聯盟;"
-    },
-    {
-      "original": "Lex Luthor",
-      "conv": "zh-cn:莱克斯·卢瑟; zh-tw:雷克斯·路瑟; zh-hk:雷克斯·路瑟;"
-    },
-    {
       "original": "Man of Steel",
-      "conv": "zh-cn:超人钢铁之躯; zh-tw:超人鋼鐵英雄; zh-hk:超人鋼鐵英雄;"
+      "conv": "zh-cn:超人：钢铁之躯; zh-tw:超人：鋼鐵英雄; zh-hk:超人：鋼鐵英雄;"
     },
     {
       "original": "Power Girl",
@@ -272,8 +208,12 @@
       "conv": "zh-cn:类魔; zh-tw:天啟魔; zh-hk:異魔;"
     },
     {
-      "original": "Rick Flag",
-      "conv": "zh-cn:瑞克·弗莱格; zh-tw:瑞克·弗萊格; zh-hk:費·力克;"
+      "original": "Rick",
+      "conv": "zh-cn:瑞克; zh-tw:瑞克; zh-hk:力克;"
+    },
+    {
+      "original": "Flag",
+      "conv": "zh-cn:弗莱格; zh-tw:佛萊格; zh-hk:費格;"
     },
     {
       "original": "Ra s al Ghul",
@@ -296,8 +236,8 @@
       "conv": "zh-cn:史蒂夫·特雷弗; zh-hant:史提夫·崔佛;"
     },
     {
-      "original": "Suicide Squad",
-      "conv": "zh-cn:自杀小队; zh-hk:自殺特攻隊; zh-tw:自殺小隊;"
+      "original": "Supergirl",
+      "conv": "zh-cn:女超人; zh-hk:女超人; zh-sg:超级少女; zh-tw:超少女;"
     },
     {
       "original": "Swamp Thing",
@@ -308,20 +248,8 @@
       "conv": "zh-hans:塔莉娅·阿勒古尔; zh-hant:塔莉亞·奧·古;"
     },
     {
-      "original": "Teen Titans",
-      "conv": "zh-cn:少年泰坦; zh-tw:少年悍將; zh-hk:少年悍將;"
-    },
-    {
       "original": "Thomas Wayne",
       "conv": "zh-cn:托马斯·韦恩; zh-tw:湯瑪士·韋恩; zh-hk:湯瑪斯·韋恩;"
-    },
-    {
-      "original": "The Dark Knight Returns",
-      "conv": "zh-cn:黑暗骑士归来; zh-tw:黑暗騎士歸來; zh-hk:黑暗騎士歸來;"
-    },
-    {
-      "original": "The Case of the Chemical Syndicate",
-      "conv": "zh-cn:化工集团案; zh-tw:化工集團案; zh-hk:化工集團案;"
     },
     {
       "original": "Wally West",
@@ -332,60 +260,132 @@
       "conv": "zh-cn:神奇女侠; zh-tw:神力女超人; zh-hk:神奇女俠;"
     },
     {
-      "original": "Marvel Animation",
-      "conv": "zh-cn:漫威动画; zh-tw:漫威動畫; zh-hk:漫威動畫;"
+      "original": "Ace Chemicals",
+      "conv": "zh-cn:艾斯化工厂; zh-tw:艾斯化工廠; zh-hk:艾斯化工廠;"
     },
     {
-      "original": "Marvel Characters",
-      "conv": "zh-cn:漫威人物; zh-tw:漫威人物; zh-hk:漫威人物;"
+      "original": "Arkham Asylum",
+      "conv": "zh-cn:阿卡姆疯人院; zh-tw:阿卡漢精神病院; zh-hk:阿卡漢精神病院;"
     },
     {
-      "original": "Marvel Comics",
-      "conv": "zh-cn:漫威漫画; zh-tw:漫威漫畫; zh-hk:漫威漫畫;"
+      "original": "Batmobile",
+      "conv": "zh-cn:蝙蝠摩托; zh-tw:蝙蝠機車; zh-hk:蝙蝠電單車;"
     },
     {
-      "original": "Marvel Entertainment",
-      "conv": "zh-cn:漫威娱乐; zh-tw:漫威娛樂; zh-hk:漫威娛樂;"
+      "original": "Birds of Prey",
+      "conv": "zh-tw:猛禽小隊; zh-hk:猛禽暴隊;"
     },
     {
-      "original": "Marvel Films",
-      "conv": "zh-cn:漫威影业; zh-tw:漫威影業; zh-hk:漫威影業;"
+      "original": "Elizabeth Arkham Asylum for the Criminally Insane",
+      "conv": "zh-cn:伊丽莎白·阿卡姆精神病患犯罪疯人院; zh-tw:伊丽莎白·阿卡漢精神病患犯罪瘋人院;"
     },
     {
-      "original": "Marvel Productions",
-      "conv": "zh-cn:漫威制作; zh-tw:漫威製作; zh-hk:漫威制作;"
+      "original": "Gotham",
+      "conv": "zh-cn:哥谭; zh-tw:高譚; zh-hk:葛咸;"
     },
     {
-      "original": "Marvel Publishing",
-      "conv": "zh-cn:漫威出版; zh-tw:漫威出版; zh-hk:漫威出版;"
+      "original": "Gotham City",
+      "conv": "zh-cn:哥谭市; zh-tw:高譚市; zh-hk:葛咸城;"
     },
     {
-      "original": "Marvel Studio",
-      "conv": "zh-cn:漫威影业; zh-tw:漫威工作室; zh-hk:漫威工作室;"
+      "original": "Green Lantern Corps",
+      "conv": "zh-cn:绿灯军团; zh-tw:綠光軍團; zh-hk:綠燈軍團;"
     },
     {
-      "original": "Marvel Toys",
-      "conv": "zh-cn:漫威玩具; zh-tw:漫威玩具; zh-hk:漫威玩具;"
+      "original": "Justice League",
+      "conv": "zh-cn:正义联盟; zh-tw:正義聯盟; zh-hk:正義聯盟;"
     },
     {
-      "original": "MVL Rights, LLC",
-      "conv": "zh-cn:漫威版权有限责任公司; zh-tw:漫威版權有限責任公司; zh-hk:漫威版權有限責任公司;"
+      "original": "Justice League of America",
+      "conv": "zh-cn:美国正义联盟; zh-tw:美國正義聯盟; zh-hk:美國正義聯盟;"
     },
     {
-      "original": "MVL Film Finance LLC",
-      "conv": "zh-cn:漫威电影融资有限公司; zh-tw:漫威電影融資有限公司; zh-hk:漫威電影融資有限公司;"
+      "original": "Kryptonite",
+      "conv": "zh-hk:氪氣石; zh-tw:克利普頓石; zh-hans:氪石;"
     },
     {
-      "original": "Ancient One",
-      "conv": "zh-cn:古一;zh-tw:上古尊者; zh-hk:至尊魔法師古一;"
+      "original": "Legion of Super-Heroes",
+      "conv": "zh-hant:少年超人隊; zh-hans:超级英雄军团;"
+    },
+    {
+      "original": "League of Assassins",
+      "conv": "zh-cn:刺客联盟; zh-tw:刺客聯盟; zh-hk:刺客聯盟;"
+    },
+    {
+      "original": "Suicide Squad",
+      "conv": "zh-cn:自杀小队; zh-hk:自殺特攻隊; zh-tw:自殺小隊;"
+    },
+    {
+      "original": "Teen Titans",
+      "conv": "zh-cn:少年泰坦; zh-tw:少年悍將; zh-hk:少年悍將;"
+    },
+    {
+      "original": "The Case of the Chemical Syndicate",
+      "conv": "zh-cn:化工集团案; zh-tw:化工集團案; zh-hk:化工集團案;"
+    },
+    {
+      "original": "Batman: The Brave and the Bold",
+      "conv": "zh-cn:蝙蝠侠：英勇无畏; zh-tw:蝙蝠俠智勇悍將; zh-hk:蝙蝠俠智勇悍將;"
+    },
+    {
+      "original": "Batman: Assault on Arkham",
+      "conv": "zh-cn:蝙蝠侠：突袭阿卡姆; zh-tw:蝙蝠俠：血濺阿卡漢;"
+    },
+    {
+      "original": "Batman: Bad Blood",
+      "conv": "zh-cn:蝙蝠侠：血脉恩仇; zh-tw:蝙蝠俠：勢不兩立; zh-hk:蝙蝠俠：勢不兩立;"
+    },
+    {
+      "original": "Batman：The Dark Knight Returns",
+      "conv": "zh-cn:蝙蝠侠：黑暗骑士归来; zh-tw:蝙蝠俠：黑暗騎士歸來; zh-hk:蝙蝠俠：黑暗騎士歸來;"
+    },
+    {
+      "original": "The Dark Knight Returns",
+      "conv": "zh-cn:黑暗骑士归来; zh-tw:黑暗騎士歸來; zh-hk:黑暗騎士歸來;"
+    },
+    {
+      "original": "Justice League: Crisis on Two Earths",
+      "conv": "zh-cn:正义联盟：两个地球的危机; zh-tw:正義聯盟：兩面夾擊; zh-hk:正義聯盟：兩面夾擊;"
+    },
+    {
+      "original": "Justice League: Doom",
+      "conv": "zh-cn:正义联盟：毁灭; zh-tw:正義聯盟：末日審判; zh-hk:正義聯盟：末日審判;"
+    },
+    {
+      "original": "Justice League: War",
+      "conv": "zh-cn:正义联盟：战争; zh-tw:正義聯盟：開戰; zh-hk:正義聯盟：開戰;"
+    },
+    {
+      "original": "Abomination",
+      "conv": "zh-hans:憎恶;zh-hant:惡煞;"
+    },
+    {
+      "original": "Attuma",
+      "conv": "zh-hans:阿图玛;zh-hk:阿圖瑪;zh-hant:阿杜瑪;"
+    },
+    {
+      "original": "Emil",
+      "conv": "zh-hans:埃米尔;zh-hk:伊苗;zh-hant:艾米爾;"
+    },
+    {
+      "original": "Blonsky",
+      "conv": "zh-hans:布隆斯基;zh-hk:邦士基;zh-hant:布朗斯基;"
+    },
+    {
+      "original": "Ajak",
+      "conv": "zh-hk:雅夕;zh-tw:艾賈克;"
+    },
+    {
+      "original": "Aneka",
+      "conv": "zh-cn:阿內卡; zh-tw:安妮卡; zh-hk:亞妮卡;"
     },
     {
       "original": "Ant-Man",
       "conv": "zh-cn:蚁人; zh-tw:蟻人; zh-hk:蟻俠;"
     },
     {
-      "original": "Asgard",
-      "conv": "zh-tw:阿斯嘉; zh-hk:聖域界; zh-cn:阿斯加德;"
+      "original": "Arishem",
+      "conv": "zh-hk:亞彌聖;zh-tw:阿里瑟姆;"
     },
     {
       "original": "Ayesha",
@@ -393,7 +393,7 @@
     },
     {
       "original": "Ayo",
-      "conv": "zh-tw:艾尤; zh-hk:亞柔;"
+      "conv": "zh-cn:阿由;zh-tw:艾尤; zh-hk:亞柔;"
     },
     {
       "original": "Baron Strucker",
@@ -401,15 +401,31 @@
     },
     {
       "original": "Baron Zemo",
-      "conv": "zh-cn:泽莫男爵;zh-tw:齊莫男爵;zh-hk:斯莫;"
+      "conv": "zh-cn:泽莫男爵;zh-tw:齊莫男爵;zh-hk:斯莫男爵;"
     },
     {
-      "original": "Beast",
-      "conv": "zh-cn:野兽; zh-tw:野獸; zh-hk:藍獸;"
+      "original": "Beast (X-men)",
+      "conv": "藍獸=>zh-cn:野兽;藍獸=>zh-tw:野獸;藍獸=>zh-hk:藍獸;"
+    },
+    {
+      "original": "Ben Grimm",
+      "conv": "zh-tw:班·格林姆;zh-cn:本·格瑞姆;zh-hk:賓·金廉"
     },
     {
       "original": "Blade",
       "conv": "zh-cn:刀锋战士; zh-tw:刀鋒戰士; zh-hk:幽靈刺客;"
+    },
+    {
+      "original": "Bruce Banner",
+      "conv": "zh-cn:布鲁斯·班纳; zh-tw:布魯斯·班納; zh-hk:布斯·班拿;"
+    },
+    {
+      "original": "(Bruce) Banner",
+      "conv": "zh-cn:班纳; zh-tw:班納; zh-hk:班拿;"
+    },
+    {
+      "original": "Brock Rumlow",
+      "conv": "zh-tw:布洛克·朗姆洛; zh-hk:布祿·林盧;"
     },
     {
       "original": "Bucky",
@@ -420,12 +436,24 @@
       "conv": "zh-cn:电索;zh-tw:機堡;"
     },
     {
+      "original": "Captain Marvel",
+      "conv": "zh-hk:Marvel隊長;zh-tw:驚奇隊長;zh-cn:惊奇队长;"
+    },
+    {
       "original": "Carnage",
       "conv": "zh-cn:屠杀;zh-tw:血蜘蛛;"
     },
     {
+      "original": "Carol (Danvers)",
+      "conv": "zh-tw:卡蘿; zh-hk:嘉露; zh-cn:卡罗尔;"
+    },
+    {
       "original": "Celestial",
-      "conv": "zh-cn:天神组;zh-tw:天神族;zh-hk:天神族;"
+      "conv": "zh-cn:天神组;zh-tw:天神族;zh-hk:星神族;"
+    },
+    {
+      "original": "Clint (Barton)",
+      "conv": "zh-cn:克林特; zh-tw:克林特; zh-hk:奇連;"
     },
     {
       "original": "Christine",
@@ -436,24 +464,56 @@
       "conv": "zh-cn:钢人;zh-tw:鋼人;zh-hk:巨鋼;"
     },
     {
+      "original": "Cosmo (the Spacedog)",
+      "conv": "zh-hans:科斯莫;zh-hk:科斯莫;zh-hant:寇斯莫;"
+    },
+    {
+      "original": "Craig Hollis",
+      "conv": "zh-cn:克雷格·霍利斯; zh-tw:克雷格·霍利斯; zh-hk:克雷·荷利斯;"
+    },
+    {
+      "original": "(Craig) Hollis",
+      "conv": "zh-cn:霍利斯; zh-tw:霍利斯; zh-hk:荷利斯;"
+    },
+    {
       "original": "Cyclops",
       "conv": "zh-cn:镭射眼;zh-tw:獨眼龍; zh-hk:鐳射眼;"
+    },
+    {
+      "original": "Danvers",
+      "conv": "zh-tw:丹佛斯; zh-hk:丹弗斯;"
     },
     {
       "original": "Deadpool",
       "conv": "zh-cn:死侍; zh-tw:死侍; zh-hk:死侍;"
     },
     {
+      "original": "Department of Damage Control",
+      "conv": "zh-cn:损害控制部; zh-tw:損害控制局; zh-hk:災害控制部;"
+    },
+    {
       "original": "Doctor Octopus",
-      "conv": "zh-cn:章鱼博士; zh-tw:八爪博士; zh-hk:八爪博士;"
+      "conv": "zh-cn:章鱼博士; zh-tw:八爪博士; zh-hk:八爪魚博士;"
+    },
+    {
+      "original": "Dora Milaje",
+      "conv": "zh-hans:朵拉侍卫隊; zh-cn:皇家卫隊; zh-tw:朵拉·米拉潔; zh-hk:女親衛團; zh-hant:朵拉親衛隊;"
     },
     {
       "original": "Drax",
       "conv": "zh-cn:德拉克斯; zh-tw:德克斯; zh-hk:達拉斯;"
     },
     {
+      "original": "Druig",
+      "conv": "zh-hk:爵格;zh-tw:諸克;"
+    },
+    {
       "original": "Ego",
       "conv": "zh-cn:伊戈; zh-tw:伊果; zh-hk:壹高;"
+    },
+    {
+      "original": "Emil Blonsky",
+      "conv": "zh-hans:埃米尔·布朗斯基;zh-tw:艾米爾·布朗斯基;zh-hk:伊苗·邦士基;"
     },
     {
       "original": "Electro",
@@ -464,6 +524,10 @@
       "conv": "zh-cn:艾丽卡; zh-tw:伊蕾莎; zh-hk:艾莉崔;"
     },
     {
+      "original": "Everett( K. Ross)",
+      "conv": "zh:艾弗雷特;zh-hans:埃弗雷特;zh-cn:埃弗里特;zh-tw:艾爾佛特;zh-hk:艾霍;zh-hant:艾佛瑞特;"
+    },
+    {
       "original": "Falcon",
       "conv": "zh-tw:獵鷹; zh-hk:飛隼; zh-cn:猎鹰;"
     },
@@ -472,8 +536,20 @@
       "conv": "zh:神奇四俠; zh-cn:神奇四侠; zh-tw:驚奇4超人; zh-hk:神奇4俠;"
     },
     {
+      "original": "Fantastic Four",
+      "conv": "zh:驚奇四超人; zh-cn:神奇四侠; zh-tw:驚奇4超人; zh-hk:神奇4俠;"
+    },
+    {
       "original": "Flerken",
       "conv": "zh-tw:佛萊肯; zh-hk:瘋奇獸; zh-cn:噬元兽;"
+    },
+    {
+      "original": "Fury",
+      "conv": "弗瑞=>zh-cn:弗瑞; 弗瑞=>zh-tw:福瑞; 弗瑞=>zh-hk:費;"
+    },
+    {
+      "original": "Fury",
+      "conv": "福瑞=>zh-cn:弗瑞; 福瑞=>zh-tw:福瑞; 福瑞=>zh-hk:費;"
     },
     {
       "original": "Kraglin",
@@ -496,6 +572,10 @@
       "conv": "zh-cn:恶灵骑士; zh-tw:惡靈戰警; zh-hk:幽靈車神;"
     },
     {
+      "original": "Gilgamesh",
+      "conv": "zh-hk:吉加美士;zh-tw:吉爾伽美什;"
+    },
+    {
       "original": "Goose",
       "conv": "zh-tw:呆頭鵝; zh-hk:小鵝; zh-cn:咕咕;"
     },
@@ -512,8 +592,16 @@
       "conv": "zh-tw:星際異攻隊; zh-hk:銀河守護隊;zh-cn:银河护卫队; zh-sg:银河守护者;"
     },
     {
+      "original": "Guardians (of the Galaxy)",
+      "conv": "zh-tw:異攻隊; zh-hk:守護隊;zh-cn:护卫队; zh-sg:守护者;"
+    },
+    {
       "original": "Gwen Stacy",
       "conv": "zh-hk:桂恩·史德西;zh-tw:關·史黛西;zh-cn:格温·斯黛西;"
+    },
+    {
+      "original": "(Gwen) Stacy",
+      "conv": "zh-tw:史黛西; zh-hk:史德西;"
     },
     {
       "original": "HYDRA",
@@ -525,11 +613,27 @@
     },
     {
       "original": "Hank",
-      "conv": "zh-cn:汉克;zh-tw:漢克;zh-hk:漢;"
+      "conv": "汉克=>zh-hk:漢;漢克=>zh-hk:漢;"
+    },
+    {
+      "original": "Hank Pym",
+      "conv": "zh-cn:汉克·皮姆;zh-tw:漢克·皮姆;zh-hk:漢·彭;"
+    },
+    {
+      "original": "Happy Hogan",
+      "conv": "zh-tw:快樂·霍根; zh-hk:開心·賀根; zh-cn:哈皮·霍根;"
     },
     {
       "original": "Hela",
       "conv": "zh-tw:海拉; zh-hk:海娜; zh-cn:海拉;"
+    },
+    {
+      "original": "He Who Remains",
+      "conv": "zh-cn:遗留之人;zh-hk:僅存的他;zh-tw:留存者;"
+    },
+    {
+      "original": "High Evolutionary",
+      "conv": "zh-tw:至高進化; zh-hk:至高進化者; zh-cn:至高进化;"
     },
     {
       "original": "Hulk",
@@ -544,6 +648,10 @@
       "conv": "zh-cn:冰人;zh-tw:冰人;zh-hk:點冰子;zh-mo:點冰子;"
     },
     {
+      "original": "Ikaris",
+      "conv": "zh-cn:伊卡瑞斯;zh-tw:伊卡利斯;zh-hk:伊卡里斯;"
+    },
+    {
       "original": "Invisible Woman",
       "conv": "zh-cn:隐形女侠; zh-tw:隱形女; zh-hk:隱形女俠"
     },
@@ -556,12 +664,28 @@
       "conv": "zh-cn:钢铁爱国者; zh-tw:鋼鐵愛國者; zh-hk:鐵甲愛國者;"
     },
     {
+      "original": "Jabari",
+      "conv": "zh-hant:賈巴里; zh-tw:賈巴利; zh-hk:扎巴里; zh-cn:贾巴里"
+    },
+    {
       "original": "Jarvis",
       "conv": "zh-tw:賈維斯;zh-hk:卓維; zh-cn:贾维斯"
     },
     {
+      "original": "Jean Grey",
+      "conv": "zh-tw:琴·葛雷;zh-hk:珍·桂爾"
+    },
+    {
       "original": "Jessica Jones",
       "conv": "zh-cn:杰西卡·琼斯; zh-tw:潔西卡·瓊斯;"
+    },
+    {
+      "original": "Jimmy Woo",
+      "conv": "zh-tw:吳吉米; zh-hk:胡占美; zh-cn:詹姆斯·E·吴;"
+    },
+    {
+      "original": "Johnny Blaze",
+      "conv": "zh-tw:強尼·布雷茲; zh-hk:尊尼·卑斯; zh-cn:强尼·布雷泽;"
     },
     {
       "original": "Juggernaut",
@@ -569,7 +693,19 @@
     },
     {
       "original": "Killmonger",
-      "conv": "zh-cn:杀人魔头; zh-tw:齊爾蒙格;zh-hk:人命買家;"
+      "conv": "zh-hans:“杀人魔头”克尔芒戈; zh-cn:杀人贩子; zh-tw:「殺人機器」齊爾蒙格; zh-hk:人命買家; zh-hant:齊爾蒙格;"
+    },
+    {
+      "original": "Erik Killmonger",
+      "conv": "zh-hans:「杀人魔头」艾瑞克·克尔芒戈; zh-cn:杀人贩子埃里克; zh-tw:「殺人機器」艾瑞克·齊爾蒙格; zh-hk:人命買家艾力; zh-hant:艾瑞克·齊爾蒙格;"
+    },
+    {
+      "original": "Erik \"Killmonger\" Stevens",
+      "conv": "zh-hans:“杀人魔头”艾瑞克·“克尔芒戈”·史蒂文斯; zh-cn:“杀人贩子”埃里克·斯蒂文斯; zh-tw:「殺人機器」艾瑞克·「齊爾蒙格」·史蒂芬斯; zh-hk:「人命買家」艾力·史提芬斯; zh-hant:艾瑞克·「齊爾蒙格」·史蒂文斯;"
+    },
+    {
+      "original": "Kingo",
+      "conv": "zh-hk:金戈;zh-tw:金勾;"
     },
     {
       "original": "Kingpin",
@@ -580,6 +716,10 @@
       "conv": "zh-tw:寇格; zh-hk:強岳;"
     },
     {
+      "original": "Logan",
+      "conv": "zh-cn:罗根; zh-tw:羅根; zh-hk:盧根;"
+    },
+    {
       "original": "Loki",
       "conv": "zh-cn:洛基; zh-tw:洛基; zh-hk:洛基;"
     },
@@ -588,24 +728,44 @@
       "conv": "zh-cn:万磁王;zh-tw:萬磁王;zh-hk:磁力王;zh-mo:磁力王;"
     },
     {
+      "original": "Makkari",
+      "conv": "zh-hk:馬卡妮;zh-tw:瑪卡瑞;"
+    },
+    {
       "original": "Mantis",
       "conv": "zh-cn:螳螂女;zh-tw:螳螂女;zh-hk:曼迪斯;"
     },
     {
       "original": "Mar-Vell",
-      "conv": "zh-tw:邁威爾;zh-hk:曼威;"
+      "conv": "zh-cn:瑪威尔;zh-tw:邁威爾;zh-hk:曼威;"
+    },
+    {
+      "original": "Mar-Vell",
+      "conv": "zh-cn:瑪-威尔;zh-tw:邁-威爾;zh-hk:曼-威;"
+    },
+    {
+      "original": "Maria Hill",
+      "conv": "zh-cn:玛丽亚·希尔; zh-hant:瑪麗亞·希爾; zh-tw:瑪莉亞·希爾; zh-hk:瑪惠·希依;"
     },
     {
       "original": "Mary Jane Watson",
       "conv": "zh-cn:玛丽·简·沃森;zh-hk:瑪麗·珍·韋臣;zh-tw:瑪莉·珍·華生;"
     },
     {
+      "original": "Maximoff",
+      "conv": "zh-tw:馬克希莫夫; zh-hk:馬莫夫; zh-cn:马克希莫夫;"
+    },
+    {
       "original": "M\\Baku",
-      "conv": "zh-cn:姆巴库;zh-tw:恩巴庫;zh-hk:疤古;"
+      "conv": "zh-cn:姆巴库;zh-tw:恩巴庫;zh-hk:疤古;zh-hant:姆巴庫;"
     },
     {
       "original": "Minn-Erva",
       "conv": "zh-tw:密涅瓦; zh-hk:米娜雅;"
+    },
+    {
+      "original": "Miss Minutes",
+      "conv": "zh-tw:分鐘小姐; zh-hk:小分女; zh-cn:时间小姐;"
     },
     {
       "original": "Mister Fantastic",
@@ -616,12 +776,16 @@
       "conv": "zh-cn:莫多;zh-tw:莫度; zh-hk:莫道;"
     },
     {
-      "original": "Mutant",
-      "conv": "zh-cn:变种人; zh-tw:變種人; zh-hk:異變人;"
+      "original": "Mr. Immortal",
+      "conv": "zh-cn:不朽先生; zh-hk:不死先生; zh-tw:不朽先生;"
+    },
+    {
+      "original": "Ms. Marvel",
+      "conv": "zh-cn:惊奇少女;zh-tw:驚奇少女;zh-hk:Ms. Marvel;"
     },
     {
       "original": "Mysterio",
-      "conv": "zh-tw:神秘法師; zh-hk:神秘客; zh-cn: 神秘客;"
+      "conv": "zh-tw:神秘法師; zh-hk:神秘客; zh-cn:神秘客;"
     },
     {
       "original": "Mystique",
@@ -629,11 +793,19 @@
     },
     {
       "original": "Nakia",
-      "conv": "zh-cn:娜吉雅;zh-tw:娜奇雅;zh-hk:娜姬雅;"
+      "conv": "zh-hans:娜基婭;zh-cn:娜吉雅;zh-tw:娜奇雅;zh-hk:娜姬雅;zh-hant:娜基亞;"
+    },
+    {
+      "original": "Namora",
+      "conv": "zh-hans:纳摩拉;zh-hk:納摩娜;zh-hant:納摩拉;"
     },
     {
       "original": "Nebula",
       "conv": "zh-cn:星云; zh-tw:涅布拉; zh-hk:獵布拉;"
+    },
+    {
+      "original": "Ned",
+      "conv": "zh-cn:内德;zh-tw:奈德;zh-hk:尼德;"
     },
     {
       "original": "Negasonic Teenage Warhead",
@@ -641,7 +813,7 @@
     },
     {
       "original": "Nick Fury",
-      "conv": "zh-cn:尼克·弗瑞; zh-tw:尼克·福瑞; zh-hk:費·尼克;"
+      "conv": "zh-cn:尼克·弗瑞; zh-tw:尼克·福瑞; zh-hk:費尼克;"
     },
     {
       "original": "Nightcrawler",
@@ -660,12 +832,28 @@
       "conv": "zh-cn:奥克耶;zh-tw:奧科耶;zh-hk:奧歌耶;"
     },
     {
+      "original": "Otto",
+      "conv": "zh-cn:奥托;zh-tw:奧托;zh-hk:岳圖;"
+    },
+    {
+      "original": "Peggy",
+      "conv": "zh-cn:佩吉;zh-tw:佩姬;zh-hk:佩姬;"
+    },
+    {
       "original": "Peter Quill",
       "conv": "zh-cn:彼得·奎尔;zh-tw:彼得·奎爾;zh-hk:彼得·奎爾;"
     },
     {
+      "original": "Phastos",
+      "conv": "zh-hk:法斯托斯;zh-tw:費斯托斯;"
+    },
+    {
       "original": "Phoenix",
       "conv": "zh-cn:火凤凰;zh-tw:火鳳凰;zh-hk:靈鳥;zh-mo:靈鳥;"
+    },
+    {
+      "original": "Porker",
+      "conv": "zh-tw:豬客; zh-hk:博加;"
     },
     {
       "original": "Professor X",
@@ -680,8 +868,16 @@
       "conv": "zh-cn:惩罚者; zh-tw:制裁者; zh-hk:制裁者;"
     },
     {
+      "original": "Pym",
+      "conv": "皮姆=>zh-cn:皮姆;皮姆=>zh-tw:皮姆;皮姆=>zh-hk:彭;"
+    },
+    {
       "original": "Pyro",
       "conv": "zh-cn:火人;zh-tw:火人;zh-hk:火狂;zh-mo:火狂;"
+    },
+    {
+      "original": "Ramonda",
+      "conv": "zh-hans:拉曼达;zh-cn:拉梦达;zh-tw:拉瑪達;zh-hk:蕾夢狄;zh-hans:拉蒙達;"
     },
     {
       "original": "Ravagers",
@@ -696,20 +892,44 @@
       "conv": "zh-cn:红巨人; zh-tw:紅浩克; zh-hk:紅變形俠醫;"
     },
     {
-      "original": "Rogue",
-      "conv": "zh-cn:小淘气; zh-tw:小淘氣; zh-hk:羅剎;"
+      "original": "Riri Williams",
+      "conv": "zh-hans:瑞瑞·威廉姆斯; zh-hant:莉莉·威廉斯;"
     },
     {
       "original": "Rogue",
       "conv": "zh-cn:小淘气;zh-tw:小淘氣;zh-hk:羅剎;zh-mo:羅剎;"
     },
     {
+      "original": "Sam Wilson",
+      "conv": "zh-tw:山姆·威爾森; zh-hk:琛·偉遜; zh-cn:山姆·威尔逊;"
+    },
+    {
       "original": "Scarlet Witch",
       "conv": "zh-cn:红女巫;zh-tw:緋紅女巫;zh-hk:紅女巫;"
     },
     {
+      "original": "Scott Lang",
+      "conv": "zh-cn:斯科特·朗; zh-hk:史葛·凌; zh-tw:史考特·朗恩;"
+    },
+    {
+      "original": "Cassie (Lang)",
+      "conv": "zh-cn:凯茜; zh-tw:凱西; zh-hk:琪詩;"
+    },
+    {
+      "original": "Cassie Lang",
+      "conv": "zh-cn:凯茜·朗; zh-tw:凱西·朗恩; zh-hk:琪詩·凌;"
+    },
+    {
+      "original": "(Scott) Lang",
+      "conv": "zh-cn:·朗; zh-hk:·凌; zh-tw:·朗恩;"
+    },
+    {
       "original": "Sentinels",
       "conv": "zh-cn:哨兵;zh-tw:哨兵;zh-hk:煞天怒;"
+    },
+    {
+      "original": "Sersi",
+      "conv": "zh-hk:莎善;zh-tw:瑟希;"
     },
     {
       "original": "She-Hulk",
@@ -721,7 +941,11 @@
     },
     {
       "original": "Shuri",
-      "conv": "zh-tw:舒莉; zh-hk:舒妮; zh-cn:苏睿;"
+      "conv": "zh-tw:舒莉; zh-hk:舒妮; zh-cn:苏睿;zh-hans:舒里;"
+    },
+    {
+      "original": "Sif",
+      "conv": "zh-cn:希芙; zh-tw:希芙; zh-hk:西芙;"
     },
     {
       "original": "Silver Surfer",
@@ -732,12 +956,8 @@
       "conv": "zh-tw:史克吉; zh-hk:煞格; zh-cn:斯科尔奇;"
     },
     {
-      "original": "Sokovia",
-      "conv": "zh-tw:蘇科維亞; zh-hk:索高維亞; zh-cn:索科维亚"
-    },
-    {
-      "original": "Sovereign",
-      "conv": "zh-cn:索维林族; zh-tw:至高族; zh-hk:守榮族;"
+      "original": "Smart Hulk",
+      "conv": "zh-hans:聪明浩克;zh-hk:變形俠醫;zh-tw:聰明浩克;"
     },
     {
       "original": "Spider-Ham",
@@ -748,16 +968,40 @@
       "conv": "zh-cn:蜘蛛侠; zh-tw:蜘蛛人; zh-hk:蜘蛛俠;zh-sg:蜘蛛人;"
     },
     {
+      "original": "Sprite",
+      "conv": "zh-hk:仙碧;zh-tw:絲派克;"
+    },
+    {
       "original": "Stakar Ogord",
       "conv": "zh-cn:斯塔卡·奥格德;zh-tw:史塔卡·奧戈德; zh-hk:史泰卡·奧戈"
     },
     {
-      "original": "Storm",
+      "original": "Steven Rogers",
+      "conv": "zh-tw:史蒂芬·羅傑斯; zh-hk:史提芬·羅傑斯;zh-cn:史蒂芬·罗杰斯"
+    },
+    {
+      "original": "Steven \"Steve\" Rogers",
+      "conv": "zh-tw:史蒂芬·史蒂芬·羅傑斯; zh-hk:史提芬·史提夫·羅傑斯;zh-cn:史蒂芬·史蒂夫·罗杰斯"
+    },
+    {
+      "original": "Storm (X-men)",
       "conv": "zh-cn:暴风女;zh-tw:暴風女;zh-hk:暴風女神;"
+    },
+    {
+      "original": "Strange",
+      "conv": "zh-cn:斯特兰奇;zh-hant:史傳奇;"
     },
     {
       "original": "Surtr",
       "conv": "zh-tw:蘇爾特爾; zh-hk:蘇爾特; zh-cn:苏尔特尔;"
+    },
+    {
+      "original": "Sylvie",
+      "conv": "zh-hans:希尔维;zh-hk:兆翡;zh-tw:希薇;"
+    },
+    {
+      "original": "Tālocān",
+      "conv": "zh-cn:塔洛坎;zh-tw:塔洛坎;zh-hk:塔牢金;"
     },
     {
       "original": "Talos",
@@ -780,32 +1024,52 @@
       "conv": "zh-tw:模仿大師; zh-hk:任務大師; zh-cn:任务大师;"
     },
     {
+      "original": "Taneleer Tivan",
+      "conv": "zh-tw:坦納里·帝凡; zh-hk:達鐵雲; zh-cn:塔纳利尔·提冯;"
+    },
+    {
+      "original": "Taneleer",
+      "conv": "zh-tw:坦納里; zh-hk:達鐵雲; zh-cn:塔纳利尔;"
+    },
+    {
+      "original": "Tivan",
+      "conv": "zh-tw:帝凡; zh-hk:鐵雲; zh-cn:提冯;"
+    },
+    {
       "original": "Thanos",
       "conv": "zh-cn:灭霸;zh-tw:薩諾斯;zh-hk:魁隆;"
     },
     {
-      "original": "The Incredible Hulk",
-      "conv": "zh-cn:无敌浩克; zh-tw:無敵浩克; zh-hk:新變形俠醫;"
-    },
-    {
-      "original": "The Wolverine",
-      "conv": "zh-cn:金刚狼2; zh-hk: 狼人：武士激戰; zh-tw:金鋼狼：武士之戰; zh-sg:金钢狼：终极武士;"
+      "original": "Thena",
+      "conv": "zh-hk:典娜;zh-tw:聖娜;"
     },
     {
       "original": "Thor",
       "conv": "zh-cn:索尔;zh-tw:索爾;zh-hk:托爾;"
     },
     {
-      "original": "Thunderbolts",
-      "conv": "zh-tw:雷霆悍將; zh-hk:雷霆特攻隊;zh-cn:雷霆特攻队;"
+      "original": "Thor",
+      "conv": "zh-cn:「雷神」;zh-tw:「雷神」;zh-hk:「雷神奇俠」;"
     },
     {
       "original": "Tombstone",
       "conv": "zh-tw:墓碑; zh-hk:墓石;"
     },
     {
+      "original": "Valentina Allegra de Fontaine",
+      "conv": "zh-hant:瓦倫提娜·艾蕾格拉·德芳亭;zh-tw:瓦倫緹娜·艾蕾格拉·德芳亭;zh-hk:華倫天娜·阿蘭桂·達芳婷;zh-cn:瓦伦蒂娜·愛兰格拉·德·芳汀;"
+    },
+    {
       "original": "Valkyrie",
-      "conv": "zh-tw:瓦爾基麗;zh-hk:瓦爾基里;zh-cn:瓦尔基里;"
+      "conv": "zh-tw:瓦爾基麗;zh-hk:瓦爾基里;zh-cn:瓦基里;"
+    },
+    {
+      "original": "van Dyne",
+      "conv": "zh-tw:汎·戴茵; zh-hk:芳婷; zh-cn:范·戴恩"
+    },
+    {
+      "original": "van Dyne",
+      "conv": "zh-tw:汎戴茵; zh-hk:芳婷; zh-cn:范戴恩"
     },
     {
       "original": "Venom",
@@ -818,10 +1082,6 @@
     {
       "original": "Vulture",
       "conv": "zh-cn:秃鹫; zh-tw:禿鷹; zh-hk:禿鷹;"
-    },
-    {
-      "original": "Wakanda",
-      "conv": "zh-cn:瓦坎达;zh-tw:瓦干達;zh-hk:瓦干達;"
     },
     {
       "original": "Wasp",
@@ -849,7 +1109,123 @@
     },
     {
       "original": "Wolverine",
-      "conv": "金刚狼=>zh-hk:狼人; 金刚狼=>zh-mo:狼人; 金鋼狼=>zh-hk:狼人; 金鋼狼=>zh-mo:狼人; 金钢狼=>zh-hk:狼人; 金钢狼=>zh-mo:狼人;"
+      "conv": "金刚狼=>zh-hk:狼人; 金刚狼=>zh-mo:狼人;"
+    },
+    {
+      "original": "Wolverine",
+      "conv": "金剛狼=>zh-hk:狼人; 金剛狼=>zh-mo:狼人;"
+    },
+    {
+      "original": "Wolverine",
+      "conv": "金鋼狼=>zh-hk:狼人; 金鋼狼=>zh-mo:狼人;"
+    },
+    {
+      "original": "Wolverine",
+      "conv": "金钢狼=>zh-hk:狼人; 金钢狼=>zh-mo:狼人;"
+    },
+    {
+      "original": "Xavier",
+      "conv": "zh-tw:賽維爾; zh-hk:撒菲亞; zh-cn:賽维尔;"
+    },
+    {
+      "original": "Zemo",
+      "conv": "zh-cn:泽莫;zh-tw:齊莫;zh-hk:斯莫;"
+    },
+    {
+      "original": "Accuser",
+      "conv": "zh-tw:控訴者; zh-hk:降罪判官; zh-cn:指控者;"
+    },
+    {
+      "original": "Aether",
+      "conv": "zh-tw:乙太; zh-hk:逆能; zh-cn:以太;"
+    },
+    {
+      "original": "Ancestral Plane",
+      "conv": "zh-hant:祖先之地; zh-tw:星界平面; zh-hk:祖靈平原; zh-cn:先人之境;"
+    },
+    {
+      "original": "Asgard",
+      "conv": "zh-tw:阿斯嘉; zh-hk:聖域界; zh-cn:阿萨神域;"
+    },
+    {
+      "original": "Asgard",
+      "conv": "zh-hant:阿斯嘉特; zh-hans:阿斯加德; zh-hk:聖域界;"
+    },
+    {
+      "original": "Chitauri",
+      "conv": "zh-tw:奇塔瑞; zh-hk:齊托維; zh-cn:齐塔瑞;"
+    },
+    {
+      "original": "Eye of Agamotto",
+      "conv": "zh-tw:阿迦莫多之眼; zh-hk:阿戈魔屠之眼; zh-cn:阿戈摩托之眼;"
+    },
+    {
+      "original": "Heart-shaped herb",
+      "conv": "zh-tw:心形藥草; zh-hk:心形草藥; zh-cn:心形草;"
+    },
+    {
+      "original": "Incursion",
+      "conv": "zh-tw:宇宙對撞; zh-hk:大侵入; zh-cn:宇宙侵蚀;"
+    },
+    {
+      "original": "Infinity Stones",
+      "conv": "zh-tw:無限寶石; zh-hk:無限聖石; zh-cn:无限宝石;"
+    },
+    {
+      "original": "Kamar-Taj",
+      "conv": "zh-cn:卡玛泰姬; zh-tw:卡瑪泰姬; zh-hk:吉馬塔;"
+    },
+    {
+      "original": "Kree",
+      "conv": "zh-cn:克里族; zh-tw:克里族; zh-hk:詭族;"
+    },
+    {
+      "original": "Kree",
+      "conv": "zh-cn:克里人; zh-tw:克里人; zh-hk:詭族;"
+    },
+    {
+      "original": "Knowhere",
+      "conv": "zh-tw:知無領域; zh-hk:腦域;"
+    },
+    {
+      "original": "Mjölnir",
+      "conv": "zh-tw:雷神之鎚; zh-hk:雷霆戰鎚; zh-cn:雷神之锤;"
+    },
+    {
+      "original": "Orb",
+      "conv": "zh-tw:宇宙靈球; zh-hk:源球; zh-cn:宇宙灵球;"
+    },
+    {
+      "original": "Pym Particle",
+      "conv": "zh-cn:皮姆粒子;zh-tw:皮姆粒子;zh-hk:彭氏粒子;"
+    },
+    {
+      "original": "Sakaar",
+      "conv": "zh-tw:薩卡; zh-hk:殺加;"
+    },
+    {
+      "original": "Skrull",
+      "conv": "zh-tw:史克魯爾人; zh-hk:斯克魯爾族; zh-cn:斯科鲁人;"
+    },
+    {
+      "original": "Sokovia",
+      "conv": "zh-tw:蘇科維亞; zh-hk:索高維亞; zh-cn:索科维亚"
+    },
+    {
+      "original": "Sovereign",
+      "conv": "zh-cn:索维林族; zh-tw:至高族; zh-hk:守榮族;"
+    },
+    {
+      "original": "Variant",
+      "conv": "zh-tw:變體; zh-hk:變異因子; zh-cn:时间犯"
+    },
+    {
+      "original": "Vibranium",
+      "conv": "zh-hans:振金;zh-hant:汎合金;"
+    },
+    {
+      "original": "Wakanda",
+      "conv": "zh-cn:瓦坎达;zh-tw:瓦干達;zh-hk:瓦干達;"
     },
     {
       "original": "X-Force",
@@ -858,6 +1234,66 @@
     {
       "original": "X-Men",
       "conv": "zh-cn:X战警; zh-tw:X戰警; zh-hk:變種特攻; zh-sg:变种特攻;"
+    },
+    {
+      "original": "xXx",
+      "conv": "zh-tw:限制級戰警; zh-hk:3X反恐暴族; zh-cn:极限特工;"
+    },
+    {
+      "original": "Ant-Man and the Wasp: Quantumania",
+      "conv": "zh-tw:蟻人與黃蜂女：量子狂熱;zh-hk:蟻俠與黃蜂女：量子狂熱;zh-cn:蚁人与黄蜂女：量子狂潮;"
+    },
+    {
+      "original": "The Guardians of the Galaxy Holiday Special",
+      "conv": "zh-tw:星際異攻隊 聖誕特別篇;zh-hk:銀河守護隊 假日特別版;zh-cn:银河护卫队 假日特辑;"
+    },
+    {
+      "original": "Black Panther: Wakanda Forever",
+      "conv": "zh-hant:黑豹2：瓦干達萬歲;zh-cn:黑豹2;"
+    },
+    {
+      "original": "She-Hulk: Attorney at Law",
+      "conv": "zh-tw:律師女浩克;zh-hk:變形女俠：律政英雌;zh-cn:律师女浩克;"
+    },
+    {
+      "original": "Thor: Love and Thunder",
+      "conv": "zh-tw:雷神索爾：愛與雷霆;zh-hk:雷神奇俠4：愛與雷霆;zh-cn:雷神4：爱与雷霆;"
+    },
+    {
+      "original": "Doctor Strange in the Multiverse of Madness",
+      "conv": "zh-tw:奇異博士2：失控多重宇宙;zh-hk:奇異博士2：失控多元宇宙;zh-cn:奇异博士2：疯狂多元宇宙;"
+    },
+    {
+      "original": "Spider-Man: Homecoming",
+      "conv": "zh-cn:蜘蛛侠：英雄归来; zh-hk:蜘蛛俠：強勢回歸; zh-tw:蜘蛛人：返校日; zh-sg:蜘蛛侠：英雄回归;"
+    },
+    {
+      "original": "Spider-Man: Far From Home",
+      "conv": "zh-cn:蜘蛛侠：英雄远征; zh-tw:蜘蛛人：離家日; zh-hk:蜘蛛俠：決戰千里; zh-sg:蜘蛛侠：决战千里;"
+    },
+    {
+      "original": "Spider-Man: No Way Home",
+      "conv": "zh-cn:蜘蛛侠：英雄无归; zh-hk:蜘蛛俠：不戰無歸; zh-tw:蜘蛛人：無家日;"
+    },
+    {
+      "original": "The Amazing Spider-Man",
+      "conv": "zh-tw:蜘蛛人：驚奇再起;zh-hk:蜘蛛俠：驚世現新;zh-cn:超凡蜘蛛侠;"
+    },
+    {
+      "original": "The Amazing Spider-Man2",
+      "conv": "zh-tw:蜘蛛人驚奇再起2：電光之戰;zh-hk:蜘蛛俠2：決戰電魔;zh-cn:超凡蜘蛛侠2;"
+    },
+    {
+      "original": "Spider-Man: Into the Spider-Verse",
+      "conv": "zh-tw:蜘蛛人：新宇宙; zh-hk:蜘蛛俠：跳入蜘蛛宇宙; zh-cn:蜘蛛侠：平行宇宙; zh-sg:蜘蛛侠：新宇宙;"
+    },
+    {
+      "original": "The Incredible Hulk",
+      "conv": "zh-cn:无敌浩克; zh-tw:無敵浩克; zh-hk:新變形俠醫;"
+    },
+    {
+      "original": "The Wolverine",
+      "conv": "zh-cn:金刚狼2; zh-hk: 狼人：武士激戰; zh-tw:金鋼狼：武士之戰; zh-sg:金钢狼：终极武士;"
     },
     {
       "original": "X-Men Origins: Wolverine",
@@ -888,88 +1324,16 @@
       "conv": "zh-cn:X战警2; zh-tw:X戰警2; zh-hk:變種特攻2; zh-sg:异类特攻;"
     },
     {
-      "original": "xXx",
-      "conv": "zh-tw:限制級戰警; zh-hk:3X反恐暴族; zh-cn:极限特工;"
-    },
-    {
-      "original": "Zemo",
-      "conv": "zh-cn:泽莫;zh-tw:齊莫;zh-hk:斯莫;"
-    },
-    {
-      "original": "Strange",
-      "conv": "zh-cn:斯特兰奇;zh-hant:史傳奇;"
-    },
-    {
-      "original": "Otto",
-      "conv": "zh-cn:奥托;zh-tw:奧托;zh-hk:岳圖;"
-    },
-    {
-      "original": "Ned",
-      "conv": "zh-cn:内德;zh-tw:奈德;zh-hk:尼德;"
-    },
-    {
-      "original": "Accuser",
-      "conv": "zh-tw:控訴者; zh-hk:降罪判官; zh-cn:指控者;"
-    },
-    {
-      "original": "Aether",
-      "conv": "zh-tw:乙太; zh-hk:逆能; zh-cn:以太;"
-    },
-    {
-      "original": "Asgard",
-      "conv": "zh-hant:阿斯嘉特; zh-hans:阿斯加德; zh-hk:聖域界;"
-    },
-    {
       "original": "Bloodshot",
       "conv": "zh-tw:血衛; zh-hk:喋血戰士; zh-cn:喋血战士;"
     },
     {
-      "original": "Chitauri",
-      "conv": "zh-tw:奇塔瑞; zh-hk:齊托維; zh-cn:齐塔瑞;"
-    },
-    {
-      "original": "Eye of Agamotto",
-      "conv": "zh-tw:阿迦莫多之眼; zh-hk:阿戈魔屠之眼; zh-cn:阿戈摩托之眼;"
-    },
-    {
-      "original": "Gotham",
-      "conv": "zh-cn:哥谭; zh-hk:葛咸; zh-tw:高譚;"
-    },
-    {
-      "original": "Infinity Stones",
-      "conv": "zh-tw:無限寶石; zh-hk:無限聖石; zh-cn:无限宝石;"
-    },
-    {
-      "original": "Kree",
-      "conv": "zh-cn:克里人; zh-tw:克里人; zh-hk:詭族;"
-    },
-    {
-      "original": "Mjölnir",
-      "conv": "zh-tw:雷神之鎚; zh-hk:雷霆戰鎚; zh-cn:雷神之锤;"
-    },
-    {
-      "original": "Orb",
-      "conv": "zh-tw:宇宙靈球; zh-hk:源球; zh-cn:宇宙灵球;"
-    },
-    {
-      "original": "Russia",
-      "conv": "zh-hans:俄罗斯; zh-hant:俄羅斯;"
-    },
-    {
-      "original": "Sakaar",
-      "conv": "zh-tw:薩卡星; zh-hk:殺加星;"
-    },
-    {
-      "original": "Skrull",
-      "conv": "zh-tw:史克魯爾人; zh-hk:斯克魯爾族; zh-cn:斯科鲁人;"
+      "original": "Snoopy",
+      "conv": "zh-tw:史努比; zh-hk:史諾比; zh-cn:史努比;"
     },
     {
       "original": "Spawn",
       "conv": "zh-tw:閃靈悍將; zh-hk:再生俠; zh-cn:再生侠;"
-    },
-    {
-      "original": "Snoopy",
-      "conv": "zh-tw:史努比; zh-hk:史諾比; zh-cn:史努比;"
     },
     {
       "original": "Jack Kirby",
@@ -992,40 +1356,20 @@
       "conv": "zh-tw:奧德利奇; zh-hk:艾哲; zh-cn:阿尔德里奇;"
     },
     {
-      "original": "Banner",
-      "conv": "zh-cn:班纳; zh-tw:班納; zh-hk:班拿;"
-    },
-    {
-      "original": "Ben Grimm",
-      "conv": "zh-tw:班·格林姆;zh-cn:本·格瑞姆;zh-hk:賓·金廉"
-    },
-    {
       "original": "Blaze",
       "conv": "zh-tw:布雷茲; zh-hk:卑斯; zh-cn:布雷泽;"
-    },
-    {
-      "original": "Brock Rumlow",
-      "conv": "zh-tw:布洛克·朗姆洛; zh-hk:布祿·林盧;"
     },
     {
       "original": "Bruce",
       "conv": "zh-cn:布鲁斯; zh-tw:布魯斯; zh-hk:布斯;"
     },
     {
-      "original": "Bruce Banner",
-      "conv": "zh-cn:布鲁斯·班纳; zh-tw:布魯斯·班納; zh-hk:布斯·班拿;"
+      "original": "Carter",
+      "conv": "zh-cn:卡特;zh-tw:卡特;zh-hk:卡達;"
     },
     {
-      "original": "Carol",
-      "conv": "zh-tw:卡蘿; zh-hk:嘉露; zh-cn:卡罗尔;"
-    },
-    {
-      "original": "Clint",
-      "conv": "zh-cn:克林特; zh-tw:克林特; zh-hk:奇連;"
-    },
-    {
-      "original": "Danvers",
-      "conv": "zh-tw:丹佛斯; zh-hk:丹弗斯;"
+      "original": "Chris",
+      "conv": "zh-cn:克里斯; zh-hk:基斯; zh-tw:克里斯;"
     },
     {
       "original": "Darcy",
@@ -1040,16 +1384,12 @@
       "conv": "zh-tw:艾瑞克;zh-cn:埃里克;zh-hk:艾力"
     },
     {
-      "original": "Everett K. Ross",
-      "conv": "zh-cn:艾弗雷特·K·罗斯;zh-tw:艾爾佛特·K·羅斯;zh-hk:艾霍·勞士"
+      "original": "George",
+      "conv": "zh-cn:乔治; zh-tw:喬治; zh-hk:佐治"
     },
     {
       "original": "Grey",
       "conv": "zh-tw:葛雷;zh-hk:桂爾"
-    },
-    {
-      "original": "Happy",
-      "conv": "zh-tw:快樂; zh-hk:開心; zh-cn:哈皮;"
     },
     {
       "original": "Harry",
@@ -1060,24 +1400,40 @@
       "conv": "zh-cn:希尔; zh-tw:希爾; zh-hk:希依;"
     },
     {
-      "original": "Hogan",
-      "conv": "zh-tw:霍根; zh-hk:賀根;"
+      "original": "Howard",
+      "conv": "zh-cn:霍华德; zh-tw:霍華; zh-hk:侯活;"
     },
     {
       "original": "Hope",
       "conv": "zh-tw:荷普; zh-hk:可兒; zh-cn:霍普"
     },
     {
+      "original": "Hugh",
+      "conv": "zh-cn:休·; zh-tw:休·; zh-hk:曉·;"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆斯; zh-tw:詹姆士; zh-hk:占士;"
+    },
+    {
       "original": "Janet",
       "conv": "zh-tw:珍妮特; zh-hk:珍納;"
     },
     {
-      "original": "Johnny Blaze",
-      "conv": "zh-tw:強尼·布雷茲; zh-hk:尊尼·卑斯; zh-cn:强尼·布雷泽;"
+      "original": "Jennifer",
+      "conv": "zh-cn:珍妮佛; zh-hk:珍妮花; zh-tw:珍妮佛;"
     },
     {
       "original": "Johnny",
       "conv": "zh-tw:強尼; zh-hk:尊尼; zh-cn:强尼;"
+    },
+    {
+      "original": "Joe",
+      "conv": "zh-hans:乔·;zh-hk:祖·;zh-tw:喬·;zh-hant:喬·;"
+    },
+    {
+      "original": "Jordon",
+      "conv": "zh-cn:乔丹;zh-hk:佐敦;zh-tw:喬丹;"
     },
     {
       "original": "Killian",
@@ -1096,20 +1452,16 @@
       "conv": "zh-tw:藍歇爾; zh-hk:凌舒; zh-cn:蓝歇尔;"
     },
     {
-      "original": "Logan",
-      "conv": "zh-cn:罗根; zh-tw:羅根; zh-hk:盧根;"
-    },
-    {
-      "original": "Maria Hill",
-      "conv": "zh-cn:玛丽亚·希尔; zh-hant:瑪麗亞·希爾; zh-tw:瑪莉亞·希爾; zh-hk:瑪惠·希依;"
+      "original": "Mark",
+      "conv": "zh-hans:马克; zh-hk:麥克; zh-tw:馬克;"
     },
     {
       "original": "Matt",
-      "conv": "zh-tw:麥特; zh-hk:馬特; zh-cn:马特;"
+      "conv": "zh-tw:麥特; zh-hk:麥; zh-cn:马特;"
     },
     {
-      "original": "Maximoff",
-      "conv": "zh-tw:馬克希莫夫; zh-hk:馬莫夫; zh-cn:马克希莫夫;"
+      "original": "Michael",
+      "conv": "zh-cn:迈克尔; zh-hk:米高; zh-tw:麥可;"
     },
     {
       "original": "Miguel",
@@ -1118,6 +1470,14 @@
     {
       "original": "Miles",
       "conv": "zh-tw:邁爾斯; zh-hk:麥爾斯; zh-cn:迈尔斯;"
+    },
+    {
+      "original": "Miller",
+      "conv": "·米勒=>zh-cn:·米拉;·米勒=>zh-hk:·米拿;"
+    },
+    {
+      "original": "Mobius",
+      "conv": "zh-tw:莫比烏斯; zh-hk:梅比斯; zh-cn:莫比乌斯;"
     },
     {
       "original": "Morales",
@@ -1152,12 +1512,12 @@
       "conv": "zh-tw:皮特洛; zh-hk:彼齊;"
     },
     {
-      "original": "Porker",
-      "conv": "zh-tw:豬客; zh-hk:博加;"
-    },
-    {
       "original": "Raven",
       "conv": "zh-tw:瑞雯; zh-hk:蕾薰;"
+    },
+    {
+      "original": "Robert",
+      "conv": "zh-cn:罗伯特;zh-hk:羅拔;zh-tw:勞勃;zh-hant:羅伯特;"
     },
     {
       "original": "Rogers",
@@ -1176,16 +1536,28 @@
       "conv": "zh-tw:朗姆洛; zh-hk:林盧;"
     },
     {
+      "original": "Ryan",
+      "conv": "zh-tw:萊恩;zh-hk:賴恩;zh-cn:瑞恩;zh-hans:瑞安;"
+    },
+    {
+      "original": "Sam",
+      "conv": "山姆=>zh-cn:山姆; 山姆=>zh-tw:山姆; 山姆=>zh-hk:琛;"
+    },
+    {
       "original": "Selvig",
       "conv": "zh-tw:賽維; zh-hk:沙維; zh-cn:塞尔维格"
+    },
+    {
+      "original": "Scott",
+      "conv": "zh-cn:斯科特; zh-hk:史葛; zh-tw:史考特;"
     },
     {
       "original": "Sharon",
       "conv": "zh-cn:莎伦; zh-tw:雪倫; zh-hk:莎朗;"
     },
     {
-      "original": "Stacy",
-      "conv": "zh-tw:史黛西; zh-hk:史德西;"
+      "original": "Sitwell",
+      "conv": "zh-cn:西德維爾; zh-tw:西德維爾; zh-hk:薛維;"
     },
     {
       "original": "Storm",
@@ -1200,14 +1572,6 @@
       "conv": "zh-tw:史塔克; zh-hk:史達;zh-cn:斯塔克;"
     },
     {
-      "original": "Steven Rogers",
-      "conv": "zh-tw:史蒂芬·羅傑斯; zh-hk:史提芬·羅傑斯;zh-cn:史蒂芬·罗杰斯"
-    },
-    {
-      "original": "Steven \"Steve\" Rogers",
-      "conv": "zh-tw:史蒂芬·史蒂芬·羅傑斯; zh-hk:史提芬·史提夫·羅傑斯;zh-cn:史蒂芬·史蒂夫·罗杰斯"
-    },
-    {
       "original": "Steven",
       "conv": "zh-tw:史蒂芬; zh-hk:史提芬;zh-cn:史蒂芬;"
     },
@@ -1216,16 +1580,8 @@
       "conv": "zh-tw:桑瑪斯; zh-hk:森馬; zh-cn:桑玛斯;"
     },
     {
-      "original": "Taneleer Tivan",
-      "conv": "zh-tw:坦納里·帝凡; zh-hk:達鐵雲; zh-cn:塔纳利尔·提冯;"
-    },
-    {
-      "original": "Taneleer",
-      "conv": "zh-tw:坦納里; zh-hk:達鐵雲; zh-cn:塔纳利尔;"
-    },
-    {
-      "original": "Tivan",
-      "conv": "zh-tw:帝凡; zh-hk:鐵雲; zh-cn:提冯;"
+      "original": "Tim",
+      "conv": "提姆=>zh-hk:添;提姆=>zh-cn:蒂姆;"
     },
     {
       "original": "Tony",
@@ -1236,12 +1592,12 @@
       "conv": "zh-tw:圖姆斯; zh-hk:圖莫斯; zh-cn:图姆斯;"
     },
     {
-      "original": "van Dyne",
-      "conv": "zh-tw:汎戴茵; zh-hk:芳婷; zh-cn:范·戴恩"
-    },
-    {
       "original": "Wade",
       "conv": "zh-tw:韋德; zh-hk:韋特; zh-cn:韦德;"
+    },
+    {
+      "original": "Walters",
+      "conv": "zh-cn:沃尔特斯; zh-hk:華特斯; zh-tw:華特斯;"
     },
     {
       "original": "Wanda",
@@ -1249,15 +1605,91 @@
     },
     {
       "original": "Wilson",
-      "conv": "zh-tw:威爾森; zh-hk:偉遜; zh-cn:威尔逊;"
-    },
-    {
-      "original": "Xavier",
-      "conv": "zh-tw:賽維爾; zh-hk:撒菲亞; zh-cn:賽维尔;"
+      "conv": "zh:威尔森; zh-tw:威爾森; zh-hk:偉遜; zh-cn:威尔逊;"
     },
     {
       "original": "Zola",
       "conv": "zh-tw:索拉; zh-hk:佐拉;"
+    },
+    {
+      "original": "Marvel Animation",
+      "conv": "zh-cn:漫威动画; zh-tw:漫威動畫; zh-hk:漫威動畫;"
+    },
+    {
+      "original": "Marvel Characters",
+      "conv": "zh-cn:漫威人物; zh-tw:漫威人物; zh-hk:漫威人物;"
+    },
+    {
+      "original": "Marvel Comics",
+      "conv": "zh-cn:漫威漫画; zh-tw:漫威漫畫; zh-hk:漫威漫畫;"
+    },
+    {
+      "original": "Marvel Entertainment",
+      "conv": "zh-cn:漫威娱乐; zh-tw:漫威娛樂; zh-hk:漫威娛樂;"
+    },
+    {
+      "original": "Marvel Films",
+      "conv": "zh-cn:漫威影业; zh-tw:漫威影業; zh-hk:漫威影業;"
+    },
+    {
+      "original": "(Kevin) Feige",
+      "conv": "zh-cn:费奇; zh-tw:費吉; zh-hk:費治;"
+    },
+    {
+      "original": "(Stephen) Broussard",
+      "conv": "zh-cn:布鲁萨德; zh-tw:布魯薩德; zh-hk:布薩;"
+    },
+    {
+      "original": "CEO",
+      "conv": "zh-hans:首席执行官; zh-hant:執行長; zh-cn:首席执行官; zh-hk:行政總裁; zh-tw:執行長; zh-mo:行政總裁;"
+    },
+    {
+      "original": "Marvel Productions",
+      "conv": "zh-cn:漫威制作; zh-tw:漫威製作; zh-hk:漫威制作;"
+    },
+    {
+      "original": "Marvel Publishing",
+      "conv": "zh-cn:漫威出版; zh-tw:漫威出版; zh-hk:漫威出版;"
+    },
+    {
+      "original": "Marvel Studio",
+      "conv": "zh-cn:漫威影业; zh-tw:漫威工作室; zh-hk:漫威工作室;"
+    },
+    {
+      "original": "Marvel Studios\\ Special Presentation: ",
+      "conv": "zh-hant:漫威影業特別節目：;zh-cn:漫威影业特别呈献：;"
+    },
+    {
+      "original": "Bautista",
+      "conv": "zh-tw:巴帝斯塔;zh-hk:巴蒂斯達;zh-cn:巴蒂斯塔;"
+    },
+    {
+      "original": "Klementieff",
+      "conv": "zh-tw:克萊門捷夫;zh-cn:克莱门捷夫;zh-hk:姬曼迪芙;"
+    },
+    {
+      "original": "Marvel Studios: Assembled",
+      "conv": "zh:漫威影業：集結;zh-tw:漫威影業：創作大本營;zh-hk:創作大本營;zh-hans:漫威影业：创作大本营;zh-cn:漫威影业：集结;"
+    },
+    {
+      "original": "Marvel Studios: Legends",
+      "conv": "zh:漫威影業：傳奇;zh-tw:漫威影業：傳奇角色;zh-hk:經典傳奇大檢閱;zh-hans:漫威影业传奇;"
+    },
+    {
+      "original": "Marvel Toys",
+      "conv": "zh-cn:漫威玩具; zh-tw:漫威玩具; zh-hk:漫威玩具;"
+    },
+    {
+      "original": "MVL Rights, LLC",
+      "conv": "zh-cn:漫威版权有限责任公司; zh-tw:漫威版權有限責任公司; zh-hk:漫威版權有限責任公司;"
+    },
+    {
+      "original": "MVL Film Finance LLC",
+      "conv": "zh-cn:漫威电影融资有限公司; zh-tw:漫威電影融資有限公司; zh-hk:漫威電影融資有限公司;"
+    },
+    {
+      "original": "Russia",
+      "conv": "zh-hans:俄罗斯; zh-hant:俄羅斯;"
     }
   ]
 }

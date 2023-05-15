@@ -1,0 +1,23 @@
+{
+  "name": "Artist",
+  "description": "艺术家",
+  "path": "Module:CGroup/Artist",
+  "rules": [
+    {
+      "original": "Monet, Claude",
+      "conv": "zh-hk:克勞德·莫奈; zh-mo:克勞德·莫奈; zh-cn:克劳德·莫奈; zh-tw:克洛德·莫內;"
+    },
+    {
+      "original": "Gainsborough",
+      "conv": "zh-cn:庚斯博羅; zh-tw:根茲巴羅;"
+    },
+    {
+      "original": "Rembrandt",
+      "conv": "zh-hans:伦勃朗;zh-hant:倫勃朗;zh-tw:林布蘭;zh-hk:林布蘭;zh-mo:林布蘭;"
+    },
+    {
+      "original": "Toulouse-Lautrec, Henri de",
+      "conv": "zh-hans:亨利·德·土鲁斯-劳特累克; zh-hant:亨利·德·土魯斯-羅特列克;"
+    }
+  ]
+}

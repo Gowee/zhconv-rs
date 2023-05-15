@@ -5,7 +5,11 @@
   "rules": [
     {
       "original": "Fédération Internationale de Natation",
-      "conv": "zh-cn:国际游泳联合会; zh-tw:國際游泳聯合會; zh-hk:國際游泳總會; zh-tw:國際游泳總會;"
+      "conv": "zh-cn:国际游泳联合会; zh-hant:國際游泳聯合會; zh-hk:國際游泳聯合會; zh-tw:國際游泳總會;"
+    },
+    {
+      "original": "World Aquatics",
+      "conv": "zh-hans:世界水上运动; zh-hant:世界水上運動總會;"
     },
     {
       "original": "FINA",

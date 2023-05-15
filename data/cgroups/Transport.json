@@ -228,6 +228,18 @@
       "conv": "輪渡=>zh-hk:渡輪;轮渡=>zh-hk:渡輪;輪渡=>zh-mo:渡輪;轮渡=>zh-mo:渡輪;"
     },
     {
+      "original": "tractor",
+      "conv": "zh-hk:拖頭;zh-tw:曳引車;zh-cn:牵引车;"
+    },
+    {
+      "original": "trailer",
+      "conv": "zh-hk:拖車;zh-tw:拖車;zh-cn:挂车;"
+    },
+    {
+      "original": "semi-trailer truck",
+      "conv": "zh-hk:掛接車;zh-tw:聯結車;zh-cn:挂式卡车;"
+    },
+    {
       "original": "Acura",
       "conv": "zh-cn:讴歌; zh-tw:Acura; zh-hk:極品;"
     },
@@ -416,6 +428,14 @@
       "conv": "zh-cn:安全气囊; zh-hk:安全氣袋; zh-tw:安全氣囊;"
     },
     {
+      "original": "Automatic Transmission",
+      "conv": "zh-cn:自动变速器; zh-tw:自排變速箱;"
+    },
+    {
+      "original": "Automatic Transmission",
+      "conv": "zh-cn:自动挡; zh-tw:自動排檔; zh-hk:自動波;"
+    },
+    {
       "original": "continuously variable",
       "conv": "zh-cn:无级; zh-tw:無段;"
     },
@@ -440,12 +460,12 @@
       "conv": "zh-cn:混动; zh-hk:混燃;"
     },
     {
-      "original": "van",
-      "conv": "廂型車=>zh-cn:面包车; 面包车=>zh-tw:廂型車;"
+      "original": "Manual Transmission",
+      "conv": "zh-cn:手动变速器; zh-tw:手排變速箱;"
     },
     {
-      "original": "van",
-      "conv": "面包车=>zh-hk:客貨車;"
+      "original": "Manual Transmission",
+      "conv": "zh-cn:手动挡; zh-tw:手動排檔; zh-hk:棍波;"
     },
     {
       "original": "rearview mirror",
@@ -462,6 +482,14 @@
     {
       "original": "transmission",
       "conv": "zh-cn:变速器; zh-hk:波箱; zh-tw:變速箱;"
+    },
+    {
+      "original": "van",
+      "conv": "廂型車=>zh-cn:面包车; 面包车=>zh-tw:廂型車;"
+    },
+    {
+      "original": "van",
+      "conv": "面包车=>zh-hk:客貨車;"
     },
     {
       "original": "wiper",
@@ -490,6 +518,26 @@
     {
       "original": "passenger terminal",
       "conv": "客运航廈=>zh-cn:客运航站楼; 客运航廈=>zh-tw:客運航廈; 客运航廈=>zh-hk:客運大樓; 客运航廈=>zh-sg:搭客大厦;客运航廈=>zh-my:客运航站楼"
+    },
+    {
+      "original": "terminal 1",
+      "conv": "zh-cn:一号航站楼;zh-tw:第一航廈;zh-hk:一號客運大樓;zh-mo:一號客運大樓;zh-sg:一号搭客大厦;zh-my:一号航站楼;"
+    },
+    {
+      "original": "terminal 2",
+      "conv": "zh-cn:二号航站楼;zh-tw:第二航廈;zh-hk:二號客運大樓;zh-mo:二號客運大樓;zh-sg:二号搭客大厦;zh-my:二号航站楼;"
+    },
+    {
+      "original": "terminal 3",
+      "conv": "zh-cn:三号航站楼;zh-tw:第三航廈;zh-hk:三號客運大樓;zh-mo:三號客運大樓;zh-sg:三号搭客大厦;zh-my:三号航站楼;"
+    },
+    {
+      "original": "terminal 4",
+      "conv": "zh-cn:四号航站楼;zh-tw:第四航廈;zh-hk:四號客運大樓;zh-mo:四號客運大樓;zh-sg:四号搭客大厦;zh-my:四号航站楼;"
+    },
+    {
+      "original": "terminal 5",
+      "conv": "zh-cn:五号航站楼;zh-tw:第五航廈;zh-hk:五號客運大樓;zh-mo:五號客運大樓;zh-sg:五号搭客大厦;zh-my:五号航站楼;"
     },
     {
       "original": "satellite terminal",
@@ -705,15 +753,15 @@
     },
     {
       "original": "roundabout",
-      "conv": "zh-cn:环岛;zh-hk:迴旋處;zh-tw:圓環;zh-mo:迴旋處;zh-my:回旋处;zh-sg:回旋处;"
+      "conv": "zh-cn:环岛;zh-hk:迴旋處;zh-tw:圓環;zh-mo:迴旋處;zh-my:交通圈;zh-sg:回旋处;"
     },
     {
       "original": "roundabout",
-      "conv": "环形交叉=>zh-tw:圓環;环形交叉=>zh-hk:迴旋處;环形交叉=>zh-mo:迴旋處;环形交叉=>zh-my:回旋处;环形交叉=>zh-sg:回旋处;"
+      "conv": "环形交叉=>zh-tw:圓環;环形交叉=>zh-hk:迴旋處;环形交叉=>zh-mo:迴旋處;环形交叉=>zh-my:交通圈;环形交叉=>zh-sg:回旋处;"
     },
     {
       "original": "roundabout",
-      "conv": "圓形地=>zh-cn:环岛;圓形地=>zh-tw:圓環;圓形地=>zh-hk:迴旋處;圓形地=>zh-my:回旋处;圓形地=>zh-sg:回旋处;"
+      "conv": "圓形地=>zh-cn:环岛;圓形地=>zh-tw:圓環;圓形地=>zh-hk:迴旋處;圓形地=>zh-my:交通圈;圓形地=>zh-sg:回旋处;"
     },
     {
       "original": "traffic light",
@@ -768,12 +816,8 @@
       "conv": "人行=>zh-hk:行人; 人行=>zh-mo:行人;"
     },
     {
-      "original": "",
+      "original": "Line",
       "conv": "zh-cn:线;zh-tw:線;"
-    },
-    {
-      "original": "",
-      "conv": "綫=>zh-tw:線;綫=>zh-hk:線;綫=>zh-mo:線;"
     },
     {
       "original": "International Association of Public Transport",
@@ -833,7 +877,7 @@
     },
     {
       "original": "operation",
-      "conv": "zh-hans:运营; zh-hant:營運;"
+      "conv": "zh-cn:运营; zh-hk:營運; zh-tw:營運"
     },
     {
       "original": "operation",
@@ -865,7 +909,7 @@
     },
     {
       "original": "platform",
-      "conv": "zh-cn:站台; zh-tw:月台; zh-hk:月台; zh-mo:月台; zh-sg:月台; zh-my:月台;"
+      "conv": "zh-hans:站台; zh-hant:月台;"
     },
     {
       "original": "line",

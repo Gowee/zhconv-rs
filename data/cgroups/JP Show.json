@@ -37,7 +37,7 @@
     },
     {
       "original": "-{速水 もこみち}-",
-      "conv": "zh-hans:速水直道;zh-hant:速水茂虎道;zh-cn:速水直道;zh-tw:速水茂虎道;zh-hk:速水直道;zh-mo:速水直道;"
+      "conv": "zh-hans:速水直道;zh-cn:速水直道;zh-tw:速水茂虎道;zh-hk:速水直道;zh-mo:速水直道;"
     },
     {
       "original": "-{松嶋 菜々子}-",
@@ -146,6 +146,10 @@
     {
       "original": "-{5→9〜私に恋したお坊さん〜}-",
       "conv": "zh-hans:朝5晚9;zh-hant:朝5晚9;zh-cn:朝5晚9;zh-tw:朝5晚9;zh-hk:戀愛時間 5→9;zh-sg:朝五晚九;zh-mo:戀愛時間 5→9;"
+    },
+    {
+      "original": "PLAN 75",
+      "conv": "zh-tw:七五計劃; zh-hk:75終生計劃; zh-cn:岁月自珍;"
     },
     {
       "original": "87%",
@@ -620,10 +624,6 @@
       "conv": "zh-hans:Woman;zh-hant:Woman;zh-cn:Woman;zh-tw:我的超人媽媽;zh-hk:Woman;zh-mo:Woman;"
     },
     {
-      "original": "家売るオンナの逆襲",
-      "conv": "zh-cn:卖房子的女人的逆袭;zh-tw:房仲女王的逆襲;"
-    },
-    {
       "original": "オー！マイ・ボス！恋は別冊で",
       "conv": "zh-cn:哦！我的老板！恋爱随书附赠;zh-tw:Oh! My Boss!戀愛在別冊;"
     },
@@ -769,7 +769,7 @@
     },
     {
       "original": "アルジャーノンに花束を",
-      "conv": "zh-hans:献给阿尔杰农的花;zh-hant:獻給阿爾吉儂的花束;zh-cn:献给阿尔杰农的花;zh-tw:獻花給倉鼠;zh-hk:獻給阿爾吉儂的花束;zh-mo:獻給阿爾吉儂的花束;"
+      "conv": "zh-hans:献给阿尔吉侬的花束;zh-hant:獻給阿爾吉儂的花束;zh-cn:献给阿尔吉侬的花束;zh-tw:獻花給倉鼠;zh-hk:獻給阿爾吉儂的花束;zh-mo:獻給阿爾吉儂的花束;"
     },
     {
       "original": "アンタッチャブル〜事件-{記}-者・-{鳴海遼}-子〜",
@@ -797,7 +797,7 @@
     },
     {
       "original": "家売るオンナ",
-      "conv": "zh-hans:卖房女子;zh-hant:賣房女子;zh-cn:卖房子的女人;zh-tw:房仲女王;zh-hk:你家是我的事;zh-mo:你家是我的事;"
+      "conv": "zh-hans:卖房女子;zh-hant:賣房女子;zh-cn:卖房女子;zh-tw:房仲女王;zh-hk:你家是我的事;zh-mo:你家是我的事;"
     },
     {
       "original": "家なき子",
@@ -809,11 +809,11 @@
     },
     {
       "original": "-{遺産相続弁護士 柿崎真一}-",
-      "conv": "zh-hans:遗产继承律师 柿崎真一;zh-hant:遺產繼承律師 柿崎真一;zh-cn:遗产继承律师 柿崎真一;zh-tw:遺產繼承律師 柿崎真一‬;zh-hk:遺產大狀;zh-mo:遺產大狀;"
+      "conv": "zh-hans:遗产继承律师 柿崎真一;zh-hant:遺產繼承律師 柿崎真一;zh-cn:遗产继承律师 柿崎真一;zh-tw:遺產繼承律師 柿崎真一;zh-hk:遺產大狀;zh-mo:遺產大狀;"
     },
     {
       "original": "-{医師たちの恋愛事情}-",
-      "conv": "zh-hans:医师们的恋爱情事;zh-hant:醫師們的戀愛情事;zh-cn:医师们的恋爱情事;zh-tw:醫師們的戀愛處方箋‬;zh-hk:醫生們的戀愛;zh-mo:醫生們的戀愛;"
+      "conv": "zh-hans:医师们的恋爱情事;zh-hant:醫師們的戀愛情事;zh-cn:医师们的恋爱情事;zh-tw:醫師們的戀愛處方箋;zh-hk:醫生們的戀愛;zh-mo:醫生們的戀愛;"
     },
     {
       "original": "イタズラなKiss",
@@ -946,6 +946,14 @@
     {
       "original": "エヴェレスト 神々の山-{嶺}-",
       "conv": "zh-hans:珠穆朗玛：诸神的山岭;zh-hant:埃弗勒斯：眾神的山嶺;zh-cn:珠穆朗玛：诸神的山岭;zh-tw:聖母峰：眾神的山嶺;zh-hk:埃弗勒斯：眾神的山嶺;zh-mo:埃弗勒斯：眾神的山嶺;"
+    },
+    {
+      "original": "エゴイスト",
+      "conv": "zh-tw:愛是自私; zh-hk:愛很自私;"
+    },
+    {
+      "original": "エゴイスト",
+      "conv": "愛是自私=>zh-cn:利己主义; 愛很自私=>zh-cn:利己主义;"
     },
     {
       "original": "エジソンの母",
@@ -1102,6 +1110,10 @@
     {
       "original": "表参道高校合唱部!",
       "conv": "zh-hans:表参道高校合唱部！;zh-hant:表參道高校合唱部！;zh-cn:表参道高校合唱部！;zh-tw:表參道高校合唱部！;zh-hk:高校合唱團;zh-mo:高校合唱團;"
+    },
+    {
+      "original": "書けないッ!?〜脚本家 吉丸圭佑の筋書きのない生活〜",
+      "conv": "zh-cn:写不出来~编剧吉丸圭佑的没有条理的生活～;zh-tw:寫不出來！？～編劇_吉丸圭佑的無情節生活～;"
     },
     {
       "original": "顔だけ先生",
@@ -1992,6 +2004,10 @@
       "conv": "zh-hans:Warriors of the Rainbow;zh-hant:Seediq Bale;zh-cn:Warriors of the Rainbow;zh-tw:Seediq Bale;zh-hk:Seediq Bale;zh-mo:Seediq Bale;"
     },
     {
+      "original": "セシルのもくろみ",
+      "conv": "zh-tw:時尚熟女生死鬥; zh-hk:瑟西爾的企圖; zh-cn:塞西尔的企图;"
+    },
+    {
       "original": "セレブと貧乏太郎",
       "conv": "zh-hans:富家女与穷太郎;zh-hant:富家女與窮太郎;zh-cn:富家女与穷太郎;zh-tw:富家女與窮酸郎;zh-hk:窮人x愛麗絲;zh-mo:窮人x愛麗絲;"
     },
@@ -2088,10 +2104,6 @@
       "conv": "zh-hans:直冲青天;zh-hant:直衝青天;zh-cn:冲上青天;zh-tw:直衝青天;zh-hk:直衝青天;zh-mo:直衝青天;"
     },
     {
-      "original": "でっけぇ風呂場で待ってます",
-      "conv": "zh-cn:在大浴场等你;zh-tw:在風呂場等著;"
-    },
-    {
       "original": "天国と地獄 ～サイコな2人～",
       "conv": "zh-cn:天国与地狱;zh-tw:天國與地獄～瘋狂的2人～;"
     },
@@ -2136,6 +2148,10 @@
       "conv": "zh-hans:请和这个没用的我谈恋爱;zh-hant:請和這個沒用的我談戀愛;zh-cn:请和这个没用的我谈恋爱;zh-tw:拜託請愛我;zh-hk:拜託請愛我;zh-mo:拜託請愛我;"
     },
     {
+      "original": "騙し絵の牙",
+      "conv": "zh:錯視畫的利牙; zh-tw:總編的復仇; zh-cn:错视画的利牙;"
+    },
+    {
       "original": "小さな巨人",
       "conv": "zh-hans:小巨人;zh-hant:小巨人;zh-cn:小巨人;zh-tw:使命和正義;zh-hk:正義巨人;zh-mo:正義巨人;"
     },
@@ -2162,6 +2178,10 @@
     {
       "original": "ちびまる子ちゃん",
       "conv": "zh-hans:樱桃小丸子;zh-hant:櫻桃小丸子真人版;zh-cn:樱桃小丸子;zh-tw:櫻桃小丸子真人版;zh-hk:福星高照小丸子;zh-mo:福星高照小丸子;"
+    },
+    {
+      "original": "ちむどんどん",
+      "conv": "zh:心胸咚咚; zh-tw:灶動的心;"
     },
     {
       "original": "ช็อคโกแลต",
@@ -2330,10 +2350,6 @@
     {
       "original": "日本沈没-希望のひと-",
       "conv": "zh-cn:日本沉没：希望之人;zh-tw:日本沉沒;"
-    },
-    {
-      "original": "좋은사람",
-      "conv": "好人=>zh-tw:烈愛無間道"
     },
     {
       "original": "長い散歩",
@@ -3369,7 +3385,7 @@
     },
     {
       "original": "-{霊能力者 小田霧響子の嘘}-",
-      "conv": "zh-hans:灵能力者 小田雾响子的谎言;zh-hant:靈能力者​​ 小田霧響子的謊言;zh-cn:灵能力者 小田雾响子的谎言;zh-tw:靈媒好神;zh-hk:讀心神棍;zh-mo:讀心神棍;"
+      "conv": "zh-hans:灵能力者 小田雾响子的谎言;zh-hant:靈能力者 小田霧響子的謊言;zh-cn:灵能力者 小田雾响子的谎言;zh-tw:靈媒好神;zh-hk:讀心神棍;zh-mo:讀心神棍;"
     },
     {
       "original": "-{恋愛戯曲}- 〜私と恋におちてください。〜",
@@ -3572,44 +3588,12 @@
       "conv": "周日=>zh-tw:週日;周日=>zh-hk:週日;周日=>zh-mo:週日;"
     },
     {
-      "original": "",
-      "conv": "日本放送協會=>zh-cn:日本广播协会;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:高畫質; zh-hk:高清; zh-cn:高清;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:數位; zh-hk:數字; zh-cn:数字;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:類比; zh-hk:類比; zh-cn:模拟;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:訊號; zh-hk:訊號; zh-cn:信号;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:網路; zh-hk:網絡; zh-cn:网络;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:行動數位; zh-hk:移動數字; zh-cn:移动数字;"
-    },
-    {
-      "original": "",
-      "conv": "zh-tw:無線類比; zh-hk:無線類比; zh-cn:地面模拟;"
-    },
-    {
       "original": "Cannes",
       "conv": "zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城"
     },
     {
       "original": "Cannes Film Festival",
-      "conv": "zh-cn:戛纳电影节; zh-tw:康城影展; zh-hk:康城影展;"
+      "conv": "zh-cn:戛纳电影节; zh-tw:坎城影展; zh-hk:康城影展;"
     },
     {
       "original": "Venice Film Festival",

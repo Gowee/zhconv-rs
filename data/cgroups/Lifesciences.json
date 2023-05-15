@@ -153,11 +153,11 @@
     },
     {
       "original": "glutamine",
-      "conv": "zh-cn:谷胺酰氨; zh-hk:穀氨醯胺; zh-tw:麩醯胺酸"
+      "conv": "zh-cn:谷氨酰胺; zh-hk:穀氨醯胺; zh-tw:麩醯胺酸"
     },
     {
       "original": "glutaminyl-",
-      "conv": "zh-cn:谷胺酰氨酰; zh-tw:麩胺醯胺醯"
+      "conv": "zh-cn:谷氨酰胺酰; zh-tw:麩胺醯胺醯"
     },
     {
       "original": "glutamyl-",
@@ -206,6 +206,10 @@
     {
       "original": "lanosterol",
       "conv": "zh-cn:羊毛甾醇; zh-tw:羊毛脂固醇;"
+    },
+    {
+      "original": "lentinan",
+      "conv": "zh-cn:香菇多糖; zh-tw:蘑菇多糖;"
     },
     {
       "original": "leucine",
@@ -312,12 +316,12 @@
       "conv": "zh-hans:金葡菌激酶; zh-tw:葡萄球菌激酶;"
     },
     {
-      "original": "steroid",
-      "conv": "zh-hans:甾体; zh-hant:類固醇; zh-sg:类固醇"
-    },
-    {
       "original": "spike protein",
       "conv": "zh-cn:刺突蛋白; zh-tw:棘蛋白;"
+    },
+    {
+      "original": "vitamin",
+      "conv": "zh-cn:维生素; zh-tw:維生素; zh-hk:維他命;"
     },
     {
       "original": "-ose",
@@ -446,6 +450,14 @@
     {
       "original": "triose",
       "conv": "zh-cn:丙糖; zh-hk:丙糖; zh-tw:丙醣"
+    },
+    {
+      "original": "activator",
+      "conv": "zh-hans:激活剂;zh-hant:活化劑;"
+    },
+    {
+      "original": "agonist",
+      "conv": "zh-hans:激动剂;zh-hant:促效劑;"
     },
     {
       "original": "adaptor protein",
@@ -674,6 +686,10 @@
     {
       "original": "reverse transcription",
       "conv": "zh-cn:逆转录; zh-tw:反轉錄; zh-hk:逆轉錄;"
+    },
+    {
+      "original": "sequencing",
+      "conv": "zh-cn:测序; zh-hk:測序; zh-tw:定序;"
     },
     {
       "original": "sex linkage",
@@ -988,6 +1004,10 @@
       "conv": "zh-cn:伴胞; zh-hk:伴胞; zh-tw:伴細胞;"
     },
     {
+      "original": "diatom",
+      "conv": "zh-hans:硅藻; zh-tw:矽藻;"
+    },
+    {
       "original": "Angiopteris",
       "conv": "zh-cn:莲座蕨; zh-hk:蓮座蕨; zh-tw:觀音座蓮;"
     },
@@ -1140,6 +1160,18 @@
       "conv": "zh-cn:草茨藻; zh-tw:拂尾藻; zh-hk:草茨藻"
     },
     {
+      "original": "Alnus",
+      "conv": "zh-hans:桤木属; zh-hant:赤楊屬"
+    },
+    {
+      "original": "Alnus formosana",
+      "conv": "zh-hans:台湾桤木; zh-hant:臺灣赤楊"
+    },
+    {
+      "original": "Alnus nepalensis",
+      "conv": "zh-hans:尼泊尔桤木; zh-hant:尼泊爾赤楊"
+    },
+    {
       "original": "Mucuna",
       "conv": "zh-cn:黎豆属; zh-hk:黧豆屬; zh-tw:血藤屬"
     },
@@ -1220,6 +1252,66 @@
       "conv": "zh-cn:白花黄兰; zh-tw:三伯肖頭蕊蘭"
     },
     {
+      "original": "Epipogium",
+      "conv": "zh-cn:虎舌兰属; zh-tw:上鬚蘭屬"
+    },
+    {
+      "original": "Epipogium aphyllum",
+      "conv": "zh-cn:裂唇虎舌兰; zh-tw:無葉上鬚蘭"
+    },
+    {
+      "original": "Epipogium japonicum",
+      "conv": "zh-cn:日本虎舌兰; zh-tw:日本上鬚蘭"
+    },
+    {
+      "original": "Epipogium roseum",
+      "conv": "zh-cn:虎舌兰; zh-tw:泛亞上鬚蘭"
+    },
+    {
+      "original": "Eulophia",
+      "conv": "zh-cn:美冠兰属; zh-tw:芋蘭屬"
+    },
+    {
+      "original": "Eulophia dentata",
+      "conv": "zh-cn:宝岛美冠兰; zh-tw:紫芋蘭"
+    },
+    {
+      "original": "Eulophia graminea",
+      "conv": "zh-cn:美冠兰; zh-tw:禾草芋蘭"
+    },
+    {
+      "original": "Eulophia pulchra",
+      "conv": "zh-cn:美花美冠兰; zh-tw:南洋芋蘭"
+    },
+    {
+      "original": "Eulophia zollingeri",
+      "conv": "zh-cn:无叶美冠兰; zh-tw:山芋蘭"
+    },
+    {
+      "original": "Nervilia",
+      "conv": "zh-cn:芋兰属; zh-tw:脈葉蘭屬"
+    },
+    {
+      "original": "Nervilia aragoana",
+      "conv": "zh-cn:广布芋兰; zh-tw:東亞脈葉蘭"
+    },
+    {
+      "original": "Nervilia cumberlegei",
+      "conv": "zh-cn:流苏芋兰; zh-tw:古氏脈葉蘭"
+    },
+    {
+      "original": "Nervilia crociformis",
+      "conv": "zh-cn:白脉芋兰; zh-tw:四重溪脈葉蘭"
+    },
+    {
+      "original": "Nervilia lanyuensis",
+      "conv": "zh-cn:兰屿芋兰; zh-tw:蘭嶼脈葉蘭"
+    },
+    {
+      "original": "Nervilia plicata",
+      "conv": "zh-cn:毛叶芋兰; zh-tw:紫花脈葉蘭"
+    },
+    {
       "original": "Phaius mishmensis",
       "conv": "zh-cn:紫花鹤顶兰; zh-tw:細莖鶴頂蘭"
     },
@@ -1276,36 +1368,88 @@
       "conv": "zh-cn:伞花茉栾藤; zh-tw:繖花菜欒藤;"
     },
     {
-      "original": "Alocasia",
-      "conv": "zh-hk:海芋屬; zh-tw:姑婆芋屬; zh-cn:海芋属;"
+      "original": "Epipremnum",
+      "conv": "zh-cn:麒麟叶属; zh-tw:拎樹藤屬;"
     },
     {
-      "original": "Zantedeschia aethiopica",
-      "conv": "zh-cn:马蹄莲; zh-tw:海芋;"
+      "original": "Homalomena",
+      "conv": "zh-cn:千年健属; zh-tw:扁葉芋屬;"
     },
     {
-      "original": "Alocasia macrorrhizos",
-      "conv": "zh-hk:海芋;   zh-tw:蘭嶼姑婆芋; zh-cn:海芋;"
+      "original": "Lemna",
+      "conv": "zh-cn:浮萍属; zh-tw:青萍屬;"
+    },
+    {
+      "original": "Lysichiton",
+      "conv": "zh-cn:沼芋属; zh-tw:水芭蕉屬;"
+    },
+    {
+      "original": "Pothoidium",
+      "conv": "zh-cn:假石柑属; zh-tw:假柚葉藤屬;"
+    },
+    {
+      "original": "Potheae",
+      "conv": "zh-cn:石柑族; zh-tw:柚葉藤族;"
+    },
+    {
+      "original": "Pothos",
+      "conv": "zh-cn:石柑属; zh-tw:柚葉藤屬;"
+    },
+    {
+      "original": "Remusatia",
+      "conv": "zh-cn:岩芋属; zh-tw:目賊芋屬;"
+    },
+    {
+      "original": "Rhaphidophora",
+      "conv": "zh-cn:崖角藤属; zh-tw:利牟芋屬;"
+    },
+    {
+      "original": "Spirodela",
+      "conv": "zh-cn:紫萍属; zh-tw:浮萍屬;"
+    },
+    {
+      "original": "Typhonium",
+      "conv": "zh-cn:犁头尖属; zh-tw:土半夏屬;"
     },
     {
       "original": "Alocasia cucullata",
       "conv": "zh-hk:尖尾芋; zh-tw:尖尾姑婆芋; zh-cn:尖尾芋;"
     },
     {
-      "original": "Alocasia",
-      "conv": "zh-hk:海芋屬; zh-tw:姑婆芋屬; zh-cn:海芋属;"
+      "original": "Alocasia macrorrhizos",
+      "conv": "zh-tw:蘭嶼姑婆芋; zh-cn:热亚海芋;"
+    },
+    {
+      "original": "Epipremnum aureum",
+      "conv": "zh-cn:绿萝; zh-tw:黃金葛;"
+    },
+    {
+      "original": "Epipremnum pinnatum",
+      "conv": "zh-cn:麒麟叶; zh-tw:拎樹藤;"
+    },
+    {
+      "original": "Homalomena kelungensis",
+      "conv": "zh-cn:台湾千年健; zh-tw:基隆扁葉芋;"
+    },
+    {
+      "original": "Pothoidium lobbianum",
+      "conv": "zh-cn:假石柑; zh-tw:假柚葉藤;"
+    },
+    {
+      "original": "Pothos chinensis",
+      "conv": "zh-cn:石柑子; zh-tw:柚葉藤;"
+    },
+    {
+      "original": "Rhaphidophora hongkongensis",
+      "conv": "zh-cn:狮子尾; zh-hant:獅子尾; zh-tw:香港針房藤;"
+    },
+    {
+      "original": "Typhonium blumei",
+      "conv": "zh-cn:犁头尖; zh-tw:土半夏;"
     },
     {
       "original": "Zantedeschia aethiopica",
       "conv": "zh-cn:马蹄莲; zh-hk:馬蹄蓮; zh-tw:海芋;"
-    },
-    {
-      "original": "Alocasia macrorrhizos",
-      "conv": "zh-hk:海芋;   zh-tw:蘭嶼姑婆芋; zh-cn:海芋;"
-    },
-    {
-      "original": "Alocasia cucullata",
-      "conv": "zh-hk:尖尾芋; zh-tw:尖尾姑婆芋; zh-cn:尖尾芋;"
     },
     {
       "original": "Astrophytum",
@@ -1412,8 +1556,44 @@
       "conv": "zh-tw:擬紫蘇草; zh-cn:拟紫苏草;"
     },
     {
+      "original": "Centaurium",
+      "conv": "zh-tw:百金屬; zh-cn:百金花属;"
+    },
+    {
+      "original": "Exacum",
+      "conv": "zh-tw:紫芳草屬; zh-cn:藻百年属;"
+    },
+    {
+      "original": "Swertia",
+      "conv": "zh-tw:當藥屬; zh-cn:獐牙菜属;"
+    },
+    {
+      "original": "Prinsepia",
+      "conv": "zh-tw:假皂莢屬; zh-cn:扁核木属;"
+    },
+    {
+      "original": "Prunus",
+      "conv": "zh-tw:梅屬; zh-cn:李属;"
+    },
+    {
+      "original": "Castanopsis",
+      "conv": "zh-tw:栲屬; zh-hans:锥栗属;"
+    },
+    {
       "original": "Oncorhynchus",
       "conv": "zh-cn:麻哈鱼属; zh-tw:鉤吻鮭屬; zh-hk:麻哈魚屬;"
+    },
+    {
+      "original": "Siganidae",
+      "conv": "zh-cn:蓝子鱼; zh-tw:臭肚魚; zh-hant:藍子魚;"
+    },
+    {
+      "original": "Torpedinidae",
+      "conv": "zh-cn:电鳐; zh-tw:電鱝; zh-hant:電鰩;"
+    },
+    {
+      "original": "Torpedo formosa",
+      "conv": "zh-cn:台湾电鳐; zh-tw:臺灣電鱝; zh-hant:臺灣電鰩;"
     },
     {
       "original": "Amphibia",
@@ -1432,6 +1612,30 @@
       "conv": "zh-cn:叉舌蟾科; zh-tw:叉舌蛙科;"
     },
     {
+      "original": "Kurixalus berylliniris",
+      "conv": "zh-tw:碧眼樹蛙;zh-cn:碧眼原指树蛙;zh-hk:碧眼原指樹蛙;"
+    },
+    {
+      "original": "Kurixalus eiffingeri",
+      "conv": "zh-tw:艾氏樹蛙;zh-cn:琉球原指树蛙;zh-hk:琉球原指樹蛙;"
+    },
+    {
+      "original": "Kurixalus idiootocus",
+      "conv": "zh-tw:面天樹蛙;zh-cn:面天原指树蛙;zh-hk:面天原指樹蛙;"
+    },
+    {
+      "original": "Kurixalus wangi",
+      "conv": "zh-tw:王氏樹蛙;zh-cn:王氏原指树蛙;zh-hk:王氏原指樹蛙;"
+    },
+    {
+      "original": "Polypedates braueri",
+      "conv": "zh-cn:布氏泛树蛙;zh-tw:布氏樹蛙;zh-hant:布氏泛樹蛙;"
+    },
+    {
+      "original": "Polypedates megacephalus",
+      "conv": "zh-cn:斑腿泛树蛙;zh-tw:斑腿樹蛙;zh-hant:斑腿泛樹蛙;"
+    },
+    {
       "original": "Reptilia",
       "conv": "zh-cn:爬行纲; zh-tw:爬蟲綱; zh-hk:爬行綱;"
     },
@@ -1440,36 +1644,20 @@
       "conv": "zh-cn:爬行类; zh-tw:爬蟲類; zh-hk:爬行類;"
     },
     {
+      "original": "Colubridae",
+      "conv": "zh-cn:游蛇科; zh-tw:黃頷蛇科; zh-hk:遊蛇科;"
+    },
+    {
+      "original": "Natricidae",
+      "conv": "zh-cn:水游蛇科; zh-tw:水游蛇科; zh-hk:水游蛇科;"
+    },
+    {
+      "original": "Pseudoxenodon stejnegeri",
+      "conv": "zh-cn:花尾斜鳞蛇; zh-tw:史丹吉氏斜鱗蛇;"
+    },
+    {
       "original": "Pareas komaii",
       "conv": "zh-cn:阿里山钝头蛇; zh-tw:駒井氏鈍頭蛇;"
-    },
-    {
-      "original": "Pellorneidae",
-      "conv": "zh-hans:幽鹛科; zh-tw:雀眉科; zh-hant:幽鶥科"
-    },
-    {
-      "original": "Corvus dauuricus",
-      "conv": "zh-cn:达乌里寒鸦; zh-tw:東方寒鴉;zh-hk:達烏里寒鴉"
-    },
-    {
-      "original": "Corvus frugilegus",
-      "conv": "zh-cn:秃鼻乌鸦; zh-tw:禿鼻鴉;zh-hk:禿鼻烏鴉"
-    },
-    {
-      "original": "Corvus macrorhynchos",
-      "conv": "zh-cn:大嘴乌鸦; zh-tw:巨嘴鴉;zh-hk:大嘴烏鴉"
-    },
-    {
-      "original": "Corvus pectoralis",
-      "conv": "zh-cn:白颈鸦; zh-tw:玉頸鴉"
-    },
-    {
-      "original": "Hypsipetes amaurotis",
-      "conv": "zh-cn:栗耳短脚鹎; zh-tw:棕耳鵯;"
-    },
-    {
-      "original": "Hypsipetes leucocephalus",
-      "conv": "zh-cn:黑短脚鹎; zh-tw:紅嘴黑鵯;"
     },
     {
       "original": "Polyneoptera",
@@ -1744,6 +1932,10 @@
       "conv": "zh-cn:幽甲科; zh-tw:瘤擬步行蟲科"
     },
     {
+      "original": "Lecithoceridae",
+      "conv": "zh-hans:祝蛾; zh-hant:折角蛾;"
+    },
+    {
       "original": "Tineidae",
       "conv": "zh-cn:谷蛾科; zh-hk:穀蛾科; zh-tw:蕈蛾科;"
     },
@@ -1964,6 +2156,10 @@
       "conv": "zh-cn:贻贝科; zh-tw:殼菜蛤科"
     },
     {
+      "original": "[[Solecurtidae]]",
+      "conv": "zh-cn:截蛏科; zh-tw:毛蟶科"
+    },
+    {
       "original": "[[中国海大锉蛤|<i>A. marissinica</i>]]",
       "conv": "zh-cn:中国海大锉蛤; zh-tw:大黃狐蛤;"
     },
@@ -1986,6 +2182,10 @@
     {
       "original": "[[偏胀蚶|<i>A. ventricosa</i>]]",
       "conv": "zh-cn:偏胀蚶; zh-tw:鞋魁蛤;"
+    },
+    {
+      "original": "[[剑蛏属|<i>Ensis</i>]]",
+      "conv": "zh-cn:剑蛏属; zh-tw:刀蟶屬;"
     },
     {
       "original": "mosaic virus",

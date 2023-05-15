@@ -113,7 +113,7 @@
     },
     {
       "original": "ジオン",
-      "conv": "zh-cn:吉恩; zh-tw:吉翁; zh-hk:自護;"
+      "conv": "zh:吉恩;zh-cn:吉翁; zh-tw:吉翁; zh-hk:自護;"
     },
     {
       "original": "ザビ",
@@ -840,20 +840,24 @@
       "conv": "zh-hans:巴斯塔; zh-cn:巴修塔; zh-tw:巴斯特; zh-hk:巴素達"
     },
     {
-      "original": "ミシェル, MICHELE",
-      "conv": "zh-cn:米谢儿; zh-tw:蜜雪兒; zh-hk:米雪兒"
-    },
-    {
-      "original": "ミシェル・ルオ, MICHELE LUIO",
-      "conv": "zh-cn:米谢儿·卢欧; zh-tw:蜜雪兒·羅; zh-hk:米雪兒·羅"
-    },
-    {
       "original": "リタ, RITA",
       "conv": "zh-cn:莉塔; zh-tw:莉塔; zh-hk:莉達"
     },
     {
       "original": "ベルナル, Bernal",
       "conv": "zh-cn:贝尔纳尔; zh-tw:貝爾納; zh-hk:貝爾納爾"
+    },
+    {
+      "original": "ミシェル, MICHELE",
+      "conv": "zh-cn:米谢儿; zh-tw:蜜雪兒; zh-hk:米雪兒"
+    },
+    {
+      "original": "ステファニー",
+      "conv": "zh-cn:斯蒂芬妮; zh-tw:史蒂芬妮; zh-hk:史提芬妮"
+    },
+    {
+      "original": "·ルオ, Luio",
+      "conv": "zh-hans:·卢欧; zh-tw:·羅; zh-hk:·羅"
     },
     {
       "original": "ルオ・ウーミン, Luio Woomin",
@@ -894,10 +898,6 @@
     {
       "original": "アバーエフ",
       "conv": "zh-tw:艾巴耶夫; zh-hk:阿巴耶夫"
-    },
-    {
-      "original": "ステファニー",
-      "conv": "zh-cn:斯蒂芬妮; zh-tw:史蒂芬妮; zh-hk:史提芬妮"
     },
     {
       "original": "エリク",
@@ -1488,6 +1488,10 @@
       "conv": "zh-cn:强人; zh-tw:甘恩; zh-hk:強人;"
     },
     {
+      "original": "ギャン、Gyan",
+      "conv": "zh-cn:强人; zh-tw:吉昂; zh-hk:強人;"
+    },
+    {
       "original": "アッガイ、ACGUY",
       "conv": "zh-cn:龟霸; zh-tw:亞凱;zh-hk:龜霸;"
     },
@@ -1916,6 +1920,10 @@
       "conv": "zh-hans:基拉祖魯; zh-cn:基拉祖鲁; zh-tw:吉拉祖魯; zh-hk:居拉祖魯;"
     },
     {
+      "original": "フェネクス、PHENEX",
+      "conv": "zh-hans:不死鳥; zh-cn:鳳凰; zh-tw:鳳凰; zh-hk:鳳凰;"
+    },
+    {
       "original": "ネェル，Nahel",
       "conv": "zh-cn:拟·; zh-tw:擬·; zh-hk:新·"
     },
@@ -1945,7 +1953,7 @@
     },
     {
       "original": "デルタプラス，DELTA PLUS，Δ+，𝛿+",
-      "conv": "zh-tw:德爾塔普拉斯; zh-hk:DELTA PLUS;"
+      "conv": "zh-cn:德尔塔普拉斯; zh-tw:德爾塔普拉斯; zh-hk:DELTA PLUS;"
     },
     {
       "original": "デルタ，DELTA，Δ，𝛿",
@@ -2173,6 +2181,10 @@
     },
     {
       "original": "フィンファンネル、Fin Funnel",
+      "conv": "zh-cn:飞翅浮游炮; zh-tw:翼狀感應炮; zh-hk:浮游飛翔砲;"
+    },
+    {
+      "original": "フィンファンネル、Fin Funnel",
       "conv": "zh-cn:飞翅浮游炮; zh-tw:翼狀感應炮; zh-hk:翼狀浮游飛翔砲;"
     },
     {
@@ -2205,7 +2217,15 @@
     },
     {
       "original": "メガキャノン、Mega Cannon",
+      "conv": "zh-cn:MEGA加农炮; zh-tw:MEGA加農砲; zh-hk:米加加農砲;"
+    },
+    {
+      "original": "メガキャノン、Mega Cannon",
       "conv": "zh-cn:MEGA加农炮; zh-tw:MEGA加農砲; zh-hk:米加砲;"
+    },
+    {
+      "original": "ビームキャノン、Beam Cannon",
+      "conv": "zh-cn:光束加農; zh-tw:光束加農; zh-hk:鐳射加農砲;"
     },
     {
       "original": "ビームキャノン、Beam Cannon",
