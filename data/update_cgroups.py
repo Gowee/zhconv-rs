@@ -238,7 +238,7 @@ def fetch_cgroups(site):
             fails.append(title)
             logger.exception(f"Error when processing {title}")
     logger.info(
-        f"{nth} group(s) successfully fetched with {len(emptys)} empty. {len(fails)} failed."
+        f"{nth} group(s) successfully fetched with {len(emptys)} empty, {len(fails)} failed."
     )
     if emptys:
         logger.info(f"empty: " + ", ".join(emptys))
