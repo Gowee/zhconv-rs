@@ -20,10 +20,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-app-rewired --openssl-legacy-provider start",
-    "build": "react-app-rewired --openssl-legacy-provider build",
-    "test": "react-app-rewired --openssl-legacy-provider test",
-    "eject": "react-app-rewired --openssl-legacy-provider eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "format": "yarn prettier -w src/ && yarn eslint --fix src/"
   },
   "eslintConfig": {
