@@ -41,8 +41,6 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
       - name: Build with cargo
         run: cargo build --manifest-path cli/Cargo.toml --release --target ${{ matrix.target }}
         if: matrix.cross == false
