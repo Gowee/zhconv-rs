@@ -6,7 +6,7 @@
 # zhconv-rs 中文简繁及地區詞轉換
 zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of rulesets from MediaWiki/Wikipedia and OpenCC.
 
-Powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automaton, the implementation guarantees linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
+The implementation is powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automaton, ensuring linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
 
 🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
 
@@ -16,10 +16,11 @@ Powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automa
 
 🐍 **Python Package via PyO3**: `pip install zhconv-rs` (WASM with wheels)
 
-<details>
+<details open>
  <summary>Python snippet</summary>
 
 ```python
+# > pip install zhconv_rs
 # Convert with builtin rulesets:
 from zhconv_rs import zhconv
 assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
@@ -39,7 +40,7 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 
 **JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
 
-**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest/ (WASM)
+**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (WASM)
 
 <details>
  <summary>HTML snippet</summary>
@@ -82,7 +83,7 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 | Chinese (Singapore) / 新加坡简体       | `zh-SG`   | SC / 简 | Same as `zh-CN` for now.                      |
 | Chinese (Malaysia) / 大马简体          | `zh-MY`   | SC / 简 | Same as `zh-CN` for now.                      |
 
-*Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same conversion table with `zh-HK` unless additional rules are manually configured; `zh-MY` and `zh-SG` shares the same conversion table with `zh-CN` unless additional rules are manually configured. 
+*Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same rulesets with `zh-HK` unless additional rules are manually configured; `zh-MY` and `zh-SG` shares the same rulesets with `zh-CN` unless additional rules are manually configured. 
 </details>
 
 <!--
@@ -112,14 +113,16 @@ zh2TW data3185k         time:   [60.217 ms 61.348 ms 62.556 ms]
 zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 ``` 
 
+The benchmark was performed on a previous version where only Mediawiki rulesets are available. In the latest version, with OpenCC rulesets activated by default, the performance may degrade ~2x.
+
 ## Differences with other converters
 * `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs just takes conversion tables listed in [`ZhConversion.php`](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14). MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
 * OpenCC: The [conversion rulesets](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary) of OpenCC is independent of MediaWiki. The core [conversion implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. However, OpenCC supports pre-segmentation and maintains multiple rulesets which are applied successively. By contrast, the Aho-Corasick-powered zhconv-rs merges rulesets from MediaWiki and OpenCC in compile time and converts text in single-pass linear time, resulting in much more efficiency. Though, conversion results may differ in some cases.
 
 ## Limitations
-The converter is built upon an aho-corasick automaton with the leftmost-longest matching strategy. That is, leftest-matched words or phrases always take a higher priority. For example, if both `干 -> 幹` and `天干物燥 -> 天乾物燥` are specified in a ruleset, `天乾物燥` would be picked since `天干物燥` would be matched earlier at the initial position compared to `干` at a latter position. The strategy works well most of the time. But it might also result in some unexpected cases, rarely.
+The converter utilizes an aho-corasick automaton with the leftmost-longest matching strategy. This strategy gives priority to the leftmost-matched words or phrases. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. The strategy is generally effective but may occasionally lead to unexpected results.
 
-Besides, since an automaton is infeasible to update after being built, the converter must (re)build it from scratch for every ruleset. All automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. But, typically, such overhead would be significant if there are global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`) in a short text (even less efficient than a naïve implementation).
+Futuremore, since an automaton is infeasible to update after being built, the converter must (re)build it from scratch for every ruleset. The automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. However, if a short input text contains global conversion rules (in MediaWiki syntax like -{H|zh-hans:鹿|zh-hant:马}-), this process incurs a significant overhead, potentially being less efficient than a naive implementation.
 
 ## Credits
 All rulesets that power the converter come from the [MediaWiki](https://github.com/wikimedia/mediawiki) project and [OpenCC](https://github.com/BYVoid/OpenCC).
