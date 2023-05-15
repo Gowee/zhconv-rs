@@ -18,7 +18,9 @@ use crate::utils::get_with_fallback;
     Clone, Copy, Debug, PartialEq, Eq, Hash, Display, EnumString, EnumVariantNames, IntoStaticStr,
 )]
 #[strum(serialize_all = "kebab_case", ascii_case_insensitive)]
+#[derive(Default)]
 pub enum Variant {
+    #[default]
     Zh,
     ZhHant,
     ZhHans,
@@ -47,12 +49,6 @@ impl Variant {
             ZhSG => "新加坡",
             ZhCN => "大陆", // a.k.a mainland China
         }
-    }
-}
-
-impl Default for Variant {
-    fn default() -> Self {
-        Variant::Zh
     }
 }
 
