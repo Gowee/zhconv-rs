@@ -3,7 +3,7 @@
 //! with the leftmost-longest matching strategy and linear time complexity with respect to the
 //! length of input text and conversion rules. It ships with a bunch of conversion tables,
 //! extracted from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php)
-//! which is maintained and used by MediaWiki and Chinese Wikipedia.
+//! (maintained by MediaWiki and Chinese Wikipedia) and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary).
 //!
 //! While built-in datasets work well for general case, the converter is never meant to be 100%
 //! accurate, especially for professional text. In Chinese Wikipedia, it is pretty common for

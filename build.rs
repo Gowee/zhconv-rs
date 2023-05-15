@@ -353,7 +353,8 @@ fn read_and_validate_file(path: &str, sha256sum: &[u8; 32]) -> String {
     assert_eq!(
         &sha256(&content),
         sha256sum,
-        "Validating the checksum of zhconv"
+        "Validating the checksum of {}",
+        path.display()
     );
     content
 }
