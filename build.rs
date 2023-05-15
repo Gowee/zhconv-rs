@@ -10,7 +10,7 @@ use hex_literal::hex;
 use itertools::Itertools;
 use regex::Regex;
 use sha2::{Digest, Sha256};
-use vergen::{vergen, Config as VergenConfig};
+use vergen::EmitBuilder;
 
 #[cfg(feature = "opencc")]
 use self::opencc::load_opencc_to;
@@ -183,7 +183,8 @@ fn main() {
         //   https://github.com/rust-lang/cargo/issues/4302
         // #[cfg(target_arch = "wasm32")] #[cfg(all(target_arch = "wasm32", target_os = "unknown"))]
         if env::var("CARGO_CFG_TARGET_ARCH") == Ok("wasm32".to_owned()) {
-            vergen(VergenConfig::default())
+            EmitBuilder::builder()
+                .emit()
                 .unwrap_or_else(|e| println!("cargo:warning=vergen failed: {:?}", e));
         }
     }
@@ -312,8 +313,8 @@ mod opencc {
         fn from(mapping: HashMap<String, String>) -> Self {
             let automaton = AhoCorasickBuilder::new()
                 .match_kind(MatchKind::LeftmostLongest)
-                .dfa(false)
-                .build(mapping.keys());
+                .build(mapping.keys())
+                .unwrap();
             Self { automaton, mapping }
         }
     }
