@@ -7,7 +7,6 @@ use std::io::Write;
 use std::path::Path;
 
 use hex_literal::hex;
-use itertools::Itertools;
 use regex::Regex;
 use sha2::{Digest, Sha256};
 use vergen::EmitBuilder;
@@ -71,12 +70,9 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
 ];
 
 fn main() {
-    let out_dir = env::var_os("OUT_DIR").unwrap();
-
     let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
-    let zhconvs = parse_mediawiki(&zhconv);
-    for (name, pairs) in zhconvs.iter() {
-        let mut pairs = pairs.clone();
+    let mut zhconvs = parse_mediawiki(&zhconv);
+    for (name, mut pairs) in zhconvs.iter_mut() {
         // Load and append OpenCC rulesets to the Mediawiki ones
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
 
@@ -145,16 +141,11 @@ fn main() {
             _ => (),
         }
 
-        let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
-        let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
-        let mut ffrom = File::create(dest_path_from).unwrap();
-        let mut fto = File::create(dest_path_to).unwrap();
-
         // longer phrases come first; lexicographically smaller phrases come first
         pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
         pairs.dedup_by(|a, b| a.0 == b.0);
 
-        assert_eq!(
+        debug_assert_eq!(
             pairs.len(),
             pairs
                 .iter()
@@ -164,14 +155,48 @@ fn main() {
             "deduping keys of {}",
             name
         );
-
-        for e in Itertools::intersperse(pairs.iter().map(|(from, _to)| from.as_str()), "|") {
-            write!(ffrom, "{}", e).unwrap();
-        }
-        for e in Itertools::intersperse(pairs.iter().map(|(_from, to)| to.as_str()), "|") {
-            write!(fto, "{}", e).unwrap();
-        }
     }
+
+    let hans_pairs = zhconvs.remove("zh2Hans").unwrap();
+    write_conv_file(
+        "zh2Hans",
+        hans_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
+    );
+    let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
+
+    let hant_pairs = zhconvs.remove("zh2Hant").unwrap();
+    write_conv_file(
+        "zh2Hant",
+        hant_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
+    );
+    let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
+
+    let mut cn_pairs = zhconvs.remove("zh2CN").unwrap();
+    dbg!(cn_pairs.len());
+    cn_pairs.retain(|(from, to)| hans_pairs.get(from.as_str()) != Some(to));
+    dbg!(cn_pairs.len());
+    write_conv_file(
+        "zh2CN",
+        cn_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
+    );
+
+    let mut tw_pairs = zhconvs.remove("zh2TW").unwrap();
+    dbg!(tw_pairs.len());
+    tw_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
+    dbg!(tw_pairs.len());
+    write_conv_file(
+        "zh2TW",
+        tw_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
+    );
+
+    let mut hk_pairs = zhconvs.remove("zh2HK").unwrap();
+    dbg!(hk_pairs.len());
+    hk_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
+    dbg!(hk_pairs.len());
+    write_conv_file(
+        "zh2HK",
+        hk_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
+    );
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
@@ -217,6 +242,24 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
         assert!(res.insert(name.to_owned(), pairs).is_none());
     }
     res
+}
+
+fn write_conv_file<'s>(name: &str, pairs: impl Iterator<Item = (&'s str, &'s str)>) {
+    let out_dir = env::var_os("OUT_DIR").unwrap();
+    let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
+    let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
+    let mut ffrom = File::create(dest_path_from).unwrap();
+    let mut fto = File::create(dest_path_to).unwrap();
+
+    let mut pairs = pairs.peekable();
+    while let Some((from, to)) = pairs.next() {
+        write!(ffrom, "{}", from).unwrap();
+        write!(fto, "{}", to).unwrap();
+        if pairs.peek().is_some() {
+            write!(ffrom, "|").unwrap();
+            write!(fto, "|").unwrap();
+        }
+    }
 }
 
 #[cfg(feature = "opencc")]
