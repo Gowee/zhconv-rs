@@ -21,14 +21,23 @@ use crate::utils::get_with_fallback;
 #[derive(Default)]
 pub enum Variant {
     #[default]
+    /// Chinese (dummy variant)
     Zh,
+    /// Script: Traditional Chinese
     ZhHant,
+    /// Script: Simplified Chinese
     ZhHans,
+    /// Short for `zh-Hant-TW`, Script: Traditional Chinese, Region: Taiwan
     ZhTW,
+    /// Short for`zh-Hant-HK`, Script: Traditional Chinese, Region: Hong Kong
     ZhHK,
+    /// Short for`zh-Hant-MO`, Script: Traditional Chinese, Region: Taiwan
     ZhMO,
+    /// Short for`zh-Hans-MY`, Script: Simplified Chinese, Region: Macau
     ZhMY,
+    /// Short for`zh-Hans-SG`, Script: Simplified Chinese, Region: Singapore
     ZhSG,
+    /// Short for`zh-Hans-CN`, Script: Simplified Chinese, Region: China (mainland)
     ZhCN,
     // Unknown(String)
 }

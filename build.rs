@@ -3,10 +3,13 @@ use std::collections::HashSet;
 use std::convert::TryInto;
 use std::env;
 use std::fs::{self, File};
+use std::io;
 use std::io::Write;
+use std::iter;
 use std::path::Path;
 
 use hex_literal::hex;
+use itertools::Itertools;
 use regex::Regex;
 use sha2::{Digest, Sha256};
 use vergen::EmitBuilder;
@@ -69,7 +72,7 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
 ];
 
-fn main() {
+fn main() -> io::Result<()> {
     let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
     let mut zhconvs = parse_mediawiki(&zhconv);
     for (name, mut pairs) in zhconvs.iter_mut() {
@@ -158,45 +161,24 @@ fn main() {
     }
 
     let hans_pairs = zhconvs.remove("zh2Hans").unwrap();
-    write_conv_file(
-        "zh2Hans",
-        hans_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
-    );
+    write_conv_file("zh2Hans", &hans_pairs)?;
     let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
 
     let hant_pairs = zhconvs.remove("zh2Hant").unwrap();
-    write_conv_file(
-        "zh2Hant",
-        hant_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
-    );
+    write_conv_file("zh2Hant", &hant_pairs)?;
     let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
 
     let mut cn_pairs = zhconvs.remove("zh2CN").unwrap();
-    dbg!(cn_pairs.len());
     cn_pairs.retain(|(from, to)| hans_pairs.get(from.as_str()) != Some(to));
-    dbg!(cn_pairs.len());
-    write_conv_file(
-        "zh2CN",
-        cn_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
-    );
+    write_conv_file("zh2CN", &cn_pairs)?;
 
     let mut tw_pairs = zhconvs.remove("zh2TW").unwrap();
-    dbg!(tw_pairs.len());
     tw_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
-    dbg!(tw_pairs.len());
-    write_conv_file(
-        "zh2TW",
-        tw_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
-    );
+    write_conv_file("zh2TW", &tw_pairs)?;
 
     let mut hk_pairs = zhconvs.remove("zh2HK").unwrap();
-    dbg!(hk_pairs.len());
     hk_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
-    dbg!(hk_pairs.len());
-    write_conv_file(
-        "zh2HK",
-        hk_pairs.iter().map(|(f, t)| (f.as_ref(), t.as_ref())),
-    );
+    write_conv_file("zh2HK", &hk_pairs)?;
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
@@ -223,6 +205,8 @@ fn main() {
         println!("cargo:rerun-if-changed=data/{}", opencc);
     }
     println!("cargo:rerun-if-changed=Cargo.toml");
+
+    Ok(())
 }
 
 fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
@@ -244,23 +228,99 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
     res
 }
 
-fn write_conv_file<'s>(name: &str, pairs: impl Iterator<Item = (&'s str, &'s str)>) {
+fn write_conv_file<'s>(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
     let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
     let mut ffrom = File::create(dest_path_from).unwrap();
     let mut fto = File::create(dest_path_to).unwrap();
 
-    let mut pairs = pairs.peekable();
+    let mut pairs = pairs.iter().peekable();
+    let mut last_from = "";
     while let Some((from, to)) = pairs.next() {
-        write!(ffrom, "{}", from).unwrap();
-        write!(fto, "{}", to).unwrap();
-        if pairs.peek().is_some() {
-            write!(ffrom, "|").unwrap();
-            write!(fto, "|").unwrap();
+        for c in reduce(from.chars(), last_from.chars()) {
+            write!(ffrom, "{}", c)?;
         }
+        for c in reduce(to.chars(), from.chars()) {
+            write!(fto, "{}", c)?;
+        }
+        if pairs.peek().is_some() {
+            write!(ffrom, "|")?;
+            write!(fto, "|")?;
+        }
+        last_from = from;
     }
+    Ok(())
 }
+
+fn reduce<'s>(
+    mut s: impl Iterator<Item = char> + 's + Clone,
+    mut base: impl Iterator<Item = char> + 's + Clone,
+) -> impl Iterator<Item = char> + 's + Clone {
+    let PLANE0_PUA_STARTING: char = '\x00';
+    let mut it = iter::from_fn(move || match (s.next(), base.next()) {
+        (Some(a), Some(b)) if a == b => Some(PLANE0_PUA_STARTING),
+        (Some(a), _) => Some(a),
+        (None, _) => None,
+    })
+    .peekable();
+
+    iter::from_fn(move || {
+        it.next().map(|curr| {
+            if curr == PLANE0_PUA_STARTING {
+                let mut count = 1;
+                while Some(&PLANE0_PUA_STARTING) == it.peek() {
+                    let _ = it.next();
+                    count += 1;
+                }
+                char::from_u32(PLANE0_PUA_STARTING as u32 + count).unwrap()
+            } else {
+                curr
+            }
+        })
+    })
+
+    // it.group_by(|&c| c).into_iter().map(|(k, group)| if k == PLANE0_PUA_STARTING {
+    //     char::from_u32(PLANE0_PUA_STARTING as u32 + group.collect::<Vec<_>>().len() as u32).unwrap()
+    // } else {
+    //     group.next().unwrap()
+    // }
+    // )
+}
+
+// fn write_reduced(mut out: impl Write, s: &str, base: &str) -> io::Result<()> {
+//     let PLANE0_PUA_STARTING: char = '\x00';
+//     let mut unwritten = 0;
+//     let mut s = s.chars();
+//     let mut base = base.chars();
+//     while let Some(b) = base.next() {
+//         if let Some(a) = s.next() {
+//             if a == b {
+//                 unwritten += 1;
+//             } else {
+//                 if unwritten > 0 {
+//                     write!(
+//                         out,
+//                         "{}",
+//                         char::from_u32(PLANE0_PUA_STARTING as u32 + unwritten).unwrap()
+//                     )?;
+//                     unwritten = 0;
+//                 }
+//                 write!(out, "{}", a)?;
+//             }
+//         } else {
+//             break;
+//         }
+//     }
+//     if unwritten > 0 {
+//         write!(
+//             out,
+//             "{}",
+//             char::from_u32(PLANE0_PUA_STARTING as u32 + unwritten).unwrap()
+//         )?;
+//     }
+//     write!(out, "{}", s.as_str())
+// }
 
 #[cfg(feature = "opencc")]
 mod opencc {

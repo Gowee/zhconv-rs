@@ -1,14 +1,16 @@
 use std::collections::HashMap;
-use std::iter::IntoIterator;
+use std::iter::{self, IntoIterator};
 use std::str::FromStr;
 
 use aho_corasick::{AhoCorasick, AhoCorasickBuilder, AhoCorasickKind, MatchKind};
 use once_cell::unsync::Lazy;
 use regex::Regex;
 
+use crate::tables::Table;
 use crate::{
     pagerules::PageRules,
     rule::{Conv, ConvAction, ConvRule},
+    tables::expand_table,
     variant::Variant,
 };
 
@@ -226,8 +228,14 @@ impl<'t> ZhConverterBuilder<'t> {
     }
 
     /// Add a conversion table, which is typically those in [`tables`](crate::tables).
-    pub fn table(mut self, table: (&'t str, &'t str)) -> Self {
+    pub fn table(mut self, table: Table<'t>) -> Self {
         self.tables.push(table);
+        self
+    }
+
+    /// Add a set of conversion tables, which are typically returned by [`get_builtin_converter`](crate::get_builtin_converter).
+    pub fn tables(mut self, tables: &[Table<'t>]) -> Self {
+        self.tables.extend(tables.iter());
         self
     }
 
@@ -359,12 +367,9 @@ impl<'t> ZhConverterBuilder<'t> {
         mapping.extend(
             tables
                 .iter()
-                .flat_map(|(froms, tos)| {
-                    std::iter::zip(froms.trim().split('|'), tos.trim().split('|'))
-                })
-                .filter(|&(from, to)| !(from.is_empty() && to.is_empty())) // empty str will trouble AC
-                .filter(|&(from, _to)| !removes.contains_key(from))
-                .map(|(from, to)| (from.to_owned(), to.to_owned())),
+                .flat_map(|&table| expand_table(table))
+                .filter(|(from, to)| !(from.is_empty() && to.is_empty())) // empty str would trouble AC
+                .filter(|(from, _to)| !removes.contains_key(from)),
         );
         mapping.extend(
             adds.iter()

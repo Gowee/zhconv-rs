@@ -11,7 +11,7 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
-use zhconv::{get_builtin_table, pagerules::PageRules, Variant, ZhConverterBuilder};
+use zhconv::{get_builtin_tables, pagerules::PageRules, Variant, ZhConverterBuilder};
 
 const DFA_FILESIZE: usize = 2 * 1024 * 1024;
 
@@ -59,7 +59,7 @@ fn main() -> Result<()> {
 
     let mut builder = ZhConverterBuilder::new()
         .target(variant)
-        .table(get_builtin_table(variant));
+        .tables(get_builtin_tables(variant));
 
     for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
         builder = builder.add_conv(rule.parse().map_err(|_e| Error::msg("Invalid rule"))?);
