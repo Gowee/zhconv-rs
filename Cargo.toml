@@ -14,7 +14,7 @@ crate-type = ["cdylib", "rlib"]
 [features]
 # OpenCC rulesets are activated by default.
 # Disabling the feature would boost performance further at the cost of less accuracy.
-# default = [ "opencc" ]
+default = [ "opencc" ]
 opencc = [ "aho-corasick", "lazy_static" ]
 
 [dependencies]
