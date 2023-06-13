@@ -65,7 +65,8 @@ for_wasm! {
 }
 
 pub use self::converter::{ZhConverter, ZhConverterBuilder};
-pub use self::converters::{get_builtin_converter, get_builtin_table};
+pub use self::converters::get_builtin_converter;
+pub use self::tables::get_builtin_tables;
 pub use self::variant::Variant;
 
 /// Helper function for general conversion.
@@ -98,10 +99,10 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
         return get_builtin_converter(target).convert_allowing_inline_rules(text);
     }
     // O.W. we have to build a new converter
-    let base = get_builtin_table(target);
+    let base = get_builtin_tables(target);
     ZhConverterBuilder::new()
         .target(target)
-        .table(base)
+        .tables(base)
         .page_rules(&page_rules)
         .build()
         .convert_allowing_inline_rules(text)
