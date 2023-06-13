@@ -380,7 +380,7 @@ impl<'t> ZhConverterBuilder<'t> {
         let automaton = AhoCorasickBuilder::new()
             .match_kind(MatchKind::LeftmostLongest)
             .kind(if *dfa {
-                Some(AhoCorasickKind::DFA)
+                Some(AhoCorasickKind::DFA) // TODO: ContiguousNFA turns out be much faster in generaal
             } else {
                 None
             })
