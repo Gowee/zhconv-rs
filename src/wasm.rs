@@ -3,7 +3,7 @@ use std::str::FromStr;
 use console_error_panic_hook;
 use wasm_bindgen::prelude::*;
 
-use crate::{get_builtin_table, Variant, ZhConverterBuilder};
+use crate::{get_builtin_tables, Variant, ZhConverterBuilder};
 
 // #[wasm_bindgen(typescript_custom_section)]
 // const COMMIT_HASH: &str = concat!("COMMIT_HASH", env!("VERGEN_GIT_SHA"));
@@ -55,17 +55,17 @@ pub fn zhconv(text: &str, target: &str, mediawiki: Option<bool>, rules: Option<S
         (true, false) => crate::zhconv_mw(text, target),
         (false, true) => ZhConverterBuilder::new()
             .target(target)
-            .table(get_builtin_table(target))
+            .tables(get_builtin_tables(target))
             .conv_lines(&rules)
-            .dfa(false)
+            // .dfa(false)
             .build()
             .convert(text),
         (true, true) => ZhConverterBuilder::new()
             .target(target)
-            .table(get_builtin_table(target))
+            .tables(get_builtin_tables(target))
             .conv_lines(&rules)
             .rules_from_page(text)
-            .dfa(false)
+            // .dfa(false)
             .build()
             .convert_allowing_inline_rules(text),
     }
