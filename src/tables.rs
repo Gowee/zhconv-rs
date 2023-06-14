@@ -203,25 +203,6 @@ pub fn build_converter(variant: Variant, table: Table<'_>) -> ZhConverter {
         .build()
 }
 
-#[doc(hidden)]
-pub fn deserialize_converter(
-    variant: Variant,
-    daac: &[u8],
-    target_phrases: impl IntoIterator<Item = &'static str>,
-) -> ZhConverter {
-    #[cfg(feature = "compress")]
-    let daac = zstd_decompress(daac);
-
-    ZhConverter::with_target_variant(
-        unsafe { CharwiseDoubleArrayAhoCorasick::deserialize_unchecked(&daac).0 },
-        target_phrases
-            .into_iter()
-            .flat_map(|s| s.split('|').map(|s| s.to_string()))
-            .collect(), // TODO: avoid to_string
-        variant,
-    )
-}
-
 /// Get the builtin conversion tables for a target Chinese variant.
 ///
 /// Accessing raw tables are only necessary when building a custom converter.
