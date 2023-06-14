@@ -284,7 +284,7 @@ fn write_daac_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> 
     let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
     let daac = CharwiseDoubleArrayAhoCorasickBuilder::new()
         .match_kind(MatchKind::LeftmostLongest)
-        .build::<_, _, usize>(pairs.iter().map(|(f, _)| f))
+        .build::<_, _, u32>(pairs.iter().map(|(f, _)| f))
         .expect(name)
         .serialize();
 
@@ -296,7 +296,7 @@ fn write_daac_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> 
 
     File::create(dest_path_daac)?.write_all(&daac)
 
-    // let automaton: CharwiseDoubleArrayAhoCorasick<usize> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build(opairs.iter().map(|(f, t)|f)).unwrap();
+    // let automaton: CharwiseDoubleArrayAhoCorasick<u32> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build(opairs.iter().map(|(f, t)|f)).unwrap();
     // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
     // let mut fdaac = File::create(dest_path_daac)?;
     // let daac = automaton.serialize();

@@ -21,7 +21,7 @@ const NESTED_RULE_MAX_DEPTH: usize = 10;
 /// A ZhConverter. See also [`ZhConverterBuilder`].
 pub struct ZhConverter {
     variant: Variant,
-    automaton: CharwiseDoubleArrayAhoCorasick<usize>,
+    automaton: CharwiseDoubleArrayAhoCorasick<u32>,
     target_phrases: Vec<String>,
 }
 
@@ -32,7 +32,7 @@ impl ZhConverter {
     /// [`ZhConverterBuilder`] would take care of these
     /// details.
     pub fn new(
-        automaton: CharwiseDoubleArrayAhoCorasick<usize>,
+        automaton: CharwiseDoubleArrayAhoCorasick<u32>,
         target_phrases: Vec<String>,
     ) -> ZhConverter {
         ZhConverter {
@@ -45,7 +45,7 @@ impl ZhConverter {
     /// Create a new converter from a automaton and a mapping, as well as specifying a target
     /// variant to be used by [`convert_allowing_inline_rules`](Self::convert_allowing_inline_rules).
     pub fn with_target_variant(
-        automaton: CharwiseDoubleArrayAhoCorasick<usize>,
+        automaton: CharwiseDoubleArrayAhoCorasick<u32>,
         target_phrases: Vec<String>,
         variant: Variant,
     ) -> ZhConverter {
@@ -90,7 +90,7 @@ impl ZhConverter {
                 output.push_str(&text[last..s]);
             }
             // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
-            output.push_str(&self.target_phrases[ti]);
+            output.push_str(&self.target_phrases[ti as usize]);
             last = e;
         }
         output.push_str(&text[last..]);
@@ -202,6 +202,14 @@ impl ZhConverter {
     //         }
     //     }
     // }
+
+    /// Count the sum of lengths of matched source words to be substituted in the given text.
+    pub fn count_matched(&self, text: &str) -> usize {
+        self.automaton
+            .leftmost_find_iter(text)
+            .map(|m| m.end() - m.start())
+            .sum()
+    }
 }
 
 /// A builder that helps build a `ZhConverter`.

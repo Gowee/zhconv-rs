@@ -46,6 +46,7 @@
 //! see [`ZhConverterBuilder`].
 //!
 
+use std::f32::consts::E;
 use std::str::FromStr;
 
 mod converter;
@@ -66,10 +67,11 @@ for_wasm! {
 
 pub use self::converter::{ZhConverter, ZhConverterBuilder};
 pub use self::converters::get_builtin_converter;
+use self::converters::*;
 pub use self::tables::get_builtin_tables;
 pub use self::variant::Variant;
 
-/// Helper function for general conversion.
+/// Helper function for general conversion using built-in converters.
 ///
 /// For fine-grained control and custom conversion rules, these is [`ZhConverter`].
 #[inline(always)]
@@ -106,4 +108,36 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
         .page_rules(&page_rules)
         .build()
         .convert_allowing_inline_rules(text)
+}
+
+/// Determine whether the give text looks like Traditional Chinese over Simplified Chinese.
+///
+/// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
+/// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
+/// confidence. `0.5` indicates undeterminable.
+pub fn is_hant(text: &str) -> f32 {
+    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text); // might excced 1
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text);
+    let ratio = if non_hant_score == 0 {
+        f32::MAX
+    } else {
+        non_hans_score as f32 / non_hant_score as f32
+    };
+    1f32 / (1f32 + E.powf(ratio))
+}
+
+/// Determine whether the give text looks like Simplified Chinese over Traditional Chinese.
+///
+/// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
+/// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
+/// confidence. `0.5` indicates undeterminable.
+pub fn is_hans(text: &str) -> f32 {
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text); // might excced 1
+    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text);
+    let ratio = if non_hans_score == 0 {
+        f32::MAX
+    } else {
+        non_hant_score as f32 / non_hans_score as f32
+    };
+    1f32 / (1f32 + E.powf(ratio))
 }
