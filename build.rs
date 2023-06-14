@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use std::collections::HashSet;
+
 use std::convert::TryInto;
 use std::env;
 use std::fs::{self, File};
@@ -8,8 +8,8 @@ use std::io::Write;
 use std::iter;
 use std::path::Path;
 
+use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
 use hex_literal::hex;
-use itertools::Itertools;
 use regex::Regex;
 use sha2::{Digest, Sha256};
 use vergen::EmitBuilder;
@@ -144,41 +144,66 @@ fn main() -> io::Result<()> {
             _ => (),
         }
 
-        // longer phrases come first; lexicographically smaller phrases come first
-        pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
-        pairs.dedup_by(|a, b| a.0 == b.0);
+        // // longer phrases come first; lexicographically smaller phrases come first
+        // pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
+        // pairs.dedup_by(|a, b| a.0 == b.0);
+        sort_and_dedup(pairs);
 
-        debug_assert_eq!(
-            pairs.len(),
-            pairs
-                .iter()
-                .map(|(from, _to_)| from)
-                .collect::<HashSet<_>>()
-                .len(),
-            "deduping keys of {}",
-            name
-        );
+        // debug_assert_eq!(
+        //     pairs.len(),
+        //     pairs
+        //         .iter()
+        //         .map(|(from, _to_)| from)
+        //         .collect::<HashSet<_>>()
+        //         .len(),
+        //     "deduping keys of {}",
+        //     name
+        // );
     }
 
     let hans_pairs = zhconvs.remove("zh2Hans").unwrap();
     write_conv_file("zh2Hans", &hans_pairs)?;
-    let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
+    // let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
+    write_daac_file("zh2Hans", &hans_pairs)?;
+    let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
 
     let hant_pairs = zhconvs.remove("zh2Hant").unwrap();
     write_conv_file("zh2Hant", &hant_pairs)?;
-    let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
+    // let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
+    write_daac_file("zh2Hant", &hant_pairs)?;
+    let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
 
     let mut cn_pairs = zhconvs.remove("zh2CN").unwrap();
-    cn_pairs.retain(|(from, to)| hans_pairs.get(from.as_str()) != Some(to));
+    cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
+    // write_conv_file("zh2CN", &cn_pairs)?;
+    // cn_pairs.extend();
     write_conv_file("zh2CN", &cn_pairs)?;
+    let mut hans_cn_pairs = hans_pairs.clone();
+    hans_cn_pairs.extend(cn_pairs);
+    sort_and_dedup(&mut hans_cn_pairs);
+    write_daac_file("zh2HansCN", &hans_cn_pairs)?;
+
+    // Here, zh2Hant | zh2TW => zh2HantTW, etc. In other places, zh2TW might imply zh2HantTW.
 
     let mut tw_pairs = zhconvs.remove("zh2TW").unwrap();
-    tw_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
+    tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
+    // write_conv_file("zh2TW", &tw_pairs)?;
+    // tw_pairs.extend(.into_iter());
     write_conv_file("zh2TW", &tw_pairs)?;
+    let mut hant_tw_pairs = hant_pairs.clone();
+    hant_tw_pairs.extend(tw_pairs);
+    sort_and_dedup(&mut hant_tw_pairs);
+    write_daac_file("zh2HantTW", &hant_tw_pairs)?;
 
     let mut hk_pairs = zhconvs.remove("zh2HK").unwrap();
-    hk_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
+    hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
+    // write_conv_file("zh2HK", &hk_pairs)?;
+    // hk_pairs.extend(zhconvs.remove("zh2HK").unwrap().into_iter());
     write_conv_file("zh2HK", &hk_pairs)?;
+    let mut hant_hk_pairs = hant_pairs.clone();
+    hant_hk_pairs.extend(hk_pairs);
+    sort_and_dedup(&mut hant_hk_pairs);
+    write_daac_file("zh2HantHK", &hant_hk_pairs)?;
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
@@ -228,29 +253,63 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
     res
 }
 
-fn write_conv_file<'s>(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
+fn write_conv_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
     let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
-    let mut ffrom = File::create(dest_path_from).unwrap();
-    let mut fto = File::create(dest_path_to).unwrap();
 
-    let mut pairs = pairs.iter().peekable();
+    let mut ffrom = File::create(dest_path_from)?;
+    let mut fto = File::create(dest_path_to)?;
+    let mut it = pairs.iter().peekable();
     let mut last_from = "";
-    while let Some((from, to)) = pairs.next() {
+    while let Some((from, to)) = it.next().map(|(f, t)| (f, t)) {
         for c in reduce(from.chars(), last_from.chars()) {
             write!(ffrom, "{}", c)?;
         }
         for c in reduce(to.chars(), from.chars()) {
             write!(fto, "{}", c)?;
         }
-        if pairs.peek().is_some() {
+        if it.peek().is_some() {
             write!(ffrom, "|")?;
             write!(fto, "|")?;
         }
         last_from = from;
     }
+
     Ok(())
+}
+
+fn write_daac_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
+    let out_dir = env::var_os("OUT_DIR").unwrap();
+    let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
+    let daac = CharwiseDoubleArrayAhoCorasickBuilder::new()
+        .match_kind(MatchKind::LeftmostLongest)
+        .build::<_, _, usize>(pairs.iter().map(|(f, _)| f))
+        .expect(name)
+        .serialize();
+
+    #[cfg(feature = "compress")]
+    let daac = zstd::bulk::Compressor::new(21)
+        .unwrap()
+        .compress(&daac)
+        .unwrap();
+
+    File::create(dest_path_daac)?.write_all(&daac)
+
+    // let automaton: CharwiseDoubleArrayAhoCorasick<usize> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build(opairs.iter().map(|(f, t)|f)).unwrap();
+    // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
+    // let mut fdaac = File::create(dest_path_daac)?;
+    // let daac = automaton.serialize();
+    // // let mut compressed_daac = vec![0; snap::raw::max_compress_len(daac.len())];
+    // // snap::raw::Encoder::new().compress(&daac, &mut compressed_daac).unwrap();
+    // // let compressed_daac = lz4_flex::compress_prepend_size(&daac);
+    // let compressed_daac =zstd::bulk::Compressor::new(3).unwrap().compress(&daac).unwrap();
+    //  fdaac.write(&compressed_daac)?;
+
+    // let automaton: CharwiseDoubleArrayAhoCorasick<String> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build_with_values(opairs.into_iter()).unwrap();
+    // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daccv", name));
+    // let mut fdaac = File::create(dest_path_daac)?;
+    // fdaac.write(&automaton.serialize())?;
 }
 
 fn reduce<'s>(
@@ -321,6 +380,11 @@ fn reduce<'s>(
 //     }
 //     write!(out, "{}", s.as_str())
 // }
+
+fn sort_and_dedup((pairs): &mut Vec<(String, String)>) {
+    pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
+    pairs.dedup_by(|a, b| a.0 == b.0);
+}
 
 #[cfg(feature = "opencc")]
 mod opencc {

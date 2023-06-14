@@ -74,7 +74,7 @@ fn main() -> Result<()> {
         if mediawiki {
             builder = builder.rules_from_page(&input);
         }
-        builder = builder.dfa(dfa.unwrap_or(input.len() >= DFA_FILESIZE));
+        // builder = builder.dfa(dfa.unwrap_or(input.len() >= DFA_FILESIZE));
         let converter = builder.build();
         if mediawiki {
             println!("{}", converter.convert_allowing_inline_rules(&input));
@@ -89,7 +89,7 @@ fn main() -> Result<()> {
         let first_text = fs::read_to_string(&first_path)?;
 
         let dfa = dfa.unwrap_or(total > 1 || first_text.len() >= DFA_FILESIZE);
-        builder = builder.dfa(dfa);
+        // builder = builder.dfa(dfa);
 
         let files = [(first_path, Ok(first_text))]
             .into_iter()

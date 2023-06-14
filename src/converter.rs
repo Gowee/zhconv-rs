@@ -1,8 +1,9 @@
 use std::collections::HashMap;
-use std::iter::{self, IntoIterator};
+use std::iter::IntoIterator;
 use std::str::FromStr;
 
-use aho_corasick::{AhoCorasick, AhoCorasickBuilder, AhoCorasickKind, MatchKind};
+// use aho_corasick::{AhoCorasick, AhoCorasickBuilder, AhoCorasickKind, MatchKind};
+use daachorse::{CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
 use once_cell::unsync::Lazy;
 use regex::Regex;
 
@@ -20,8 +21,8 @@ const NESTED_RULE_MAX_DEPTH: usize = 10;
 /// A ZhConverter. See also [`ZhConverterBuilder`].
 pub struct ZhConverter {
     variant: Variant,
-    automaton: AhoCorasick,
-    mapping: HashMap<String, String>,
+    automaton: CharwiseDoubleArrayAhoCorasick<usize>,
+    target_phrases: Vec<String>,
 }
 
 impl ZhConverter {
@@ -30,11 +31,28 @@ impl ZhConverter {
     /// It is provided for convenience and not expected to be called directly.
     /// [`ZhConverterBuilder`] would take care of these
     /// details.
-    pub fn new(automaton: AhoCorasick, mapping: HashMap<String, String>) -> ZhConverter {
+    pub fn new(
+        automaton: CharwiseDoubleArrayAhoCorasick<usize>,
+        target_phrases: Vec<String>,
+    ) -> ZhConverter {
         ZhConverter {
             variant: Variant::Zh,
             automaton,
-            mapping,
+            target_phrases,
+        }
+    }
+
+    /// Create a new converter from a automaton and a mapping, as well as specifying a target
+    /// variant to be used by [`convert_allowing_inline_rules`](Self::convert_allowing_inline_rules).
+    pub fn with_target_variant(
+        automaton: CharwiseDoubleArrayAhoCorasick<usize>,
+        target_phrases: Vec<String>,
+        variant: Variant,
+    ) -> ZhConverter {
+        ZhConverter {
+            variant,
+            automaton,
+            target_phrases,
         }
     }
 
@@ -63,12 +81,16 @@ impl ZhConverter {
         let mut last = 0;
         // let mut cnt = HashMap::<usize, usize>::new();
         // leftmost-longest matching
-        for (s, e) in self.automaton.find_iter(text).map(|m| (m.start(), m.end())) {
+        for (s, e, ti) in self
+            .automaton
+            .leftmost_find_iter(text)
+            .map(|m| (m.start(), m.end(), m.value()))
+        {
             if s > last {
                 output.push_str(&text[last..s]);
             }
             // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
-            output.push_str(self.mapping.get(&text[s..e]).unwrap());
+            output.push_str(&self.target_phrases[ti]);
             last = e;
         }
         output.push_str(&text[last..]);
@@ -209,7 +231,6 @@ pub struct ZhConverterBuilder<'t> {
     adds: HashMap<String, String>,
     /// Rules to be removed, from page rules or cgroups
     removes: HashMap<String, String>, // TODO: unnecessary owned type
-    dfa: bool,
 }
 
 impl<'t> ZhConverterBuilder<'t> {
@@ -337,16 +358,16 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Set whether to activate the feature DFA of Aho-Corasick.
-    ///
-    /// With DFA enabled, it takes rougly 5x time to build the converter while the conversion
-    /// speed is < 2x faster. All built-in converters have this feature enabled for better
-    /// conversion performance. In other cases with this flag unset, the implementation would
-    /// determine by itself whether to enable it per the number of patterns.
-    pub fn dfa(mut self, enabled: bool) -> Self {
-        self.dfa = enabled;
-        self
-    }
+    // /// Set whether to activate the feature DFA of Aho-Corasick.
+    // ///
+    // /// With DFA enabled, it takes rougly 5x time to build the converter while the conversion
+    // /// speed is < 2x faster. All built-in converters have this feature enabled for better
+    // /// conversion performance. In other cases with this flag unset, the implementation would
+    // /// determine by itself whether to enable it per the number of patterns.
+    // pub fn dfa(mut self, enabled: bool) -> Self {
+    //     self.dfa = enabled;
+    //     self
+    // }
 
     /// Do the build.
     ///
@@ -356,10 +377,12 @@ impl<'t> ZhConverterBuilder<'t> {
         let Self {
             target,
             tables,
-            dfa,
             adds,
             removes,
         } = self;
+        // let v = lz4_flex::compress_prepend_size(b"hello")
+        // dbg!(v.len());
+        // TODO: do we need a HashMap at all?
         let mut mapping = HashMap::with_capacity(
             (tables.iter().map(|(fs, _ts)| fs.len()).sum::<usize>() + adds.len())
                 .saturating_sub(removes.len()),
@@ -377,19 +400,14 @@ impl<'t> ZhConverterBuilder<'t> {
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         let sequence = mapping.keys();
-        let automaton = AhoCorasickBuilder::new()
+        let automaton = CharwiseDoubleArrayAhoCorasickBuilder::new()
             .match_kind(MatchKind::LeftmostLongest)
-            .kind(if *dfa {
-                Some(AhoCorasickKind::DFA) // TODO: ContiguousNFA turns out be much faster in generaal
-            } else {
-                None
-            })
             .build(sequence)
             .unwrap();
         ZhConverter {
             variant: *target,
-            mapping,
             automaton,
+            target_phrases: mapping.into_values().collect(),
         }
     }
 }

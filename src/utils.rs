@@ -15,3 +15,14 @@ macro_rules! for_wasm {
     )*}
 }
 pub(crate) use for_wasm;
+
+pub fn zstd_decompress(bytes: &[u8]) -> Vec<u8> {
+    use std::io::Read;
+
+    let mut buf = vec![];
+    ruzstd::StreamingDecoder::new(bytes)
+        .unwrap()
+        .read_to_end(&mut buf)
+        .unwrap();
+    buf
+}
