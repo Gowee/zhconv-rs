@@ -178,7 +178,7 @@ fn main() -> io::Result<()> {
     // write_conv_file("zh2CN", &cn_pairs)?;
     // cn_pairs.extend();
     write_conv_file("zh2CN", &cn_pairs)?;
-    let mut hans_cn_pairs = hans_pairs.clone();
+    let mut hans_cn_pairs = hans_pairs;
     hans_cn_pairs.extend(cn_pairs);
     sort_and_dedup(&mut hans_cn_pairs);
     write_daac_file("zh2HansCN", &hans_cn_pairs)?;
@@ -200,7 +200,7 @@ fn main() -> io::Result<()> {
     // write_conv_file("zh2HK", &hk_pairs)?;
     // hk_pairs.extend(zhconvs.remove("zh2HK").unwrap().into_iter());
     write_conv_file("zh2HK", &hk_pairs)?;
-    let mut hant_hk_pairs = hant_pairs.clone();
+    let mut hant_hk_pairs = hant_pairs;
     hant_hk_pairs.extend(hk_pairs);
     sort_and_dedup(&mut hant_hk_pairs);
     write_daac_file("zh2HantHK", &hant_hk_pairs)?;
@@ -381,7 +381,7 @@ fn reduce<'s>(
 //     write!(out, "{}", s.as_str())
 // }
 
-fn sort_and_dedup((pairs): &mut Vec<(String, String)>) {
+fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
     pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
     pairs.dedup_by(|a, b| a.0 == b.0);
 }

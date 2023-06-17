@@ -1,7 +1,8 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 
-use zhconv::{tables::*, Variant};
+use zhconv::{converters::deserialize_converter, tables::*, Variant};
 
+const WIKITEXT: &str = include_str!("wikitext.txt");
 const DATA54K: &str = include_str!("data54k.txt");
 const DATA689K: &str = include_str!("data689k.txt");
 const DATA3185K: &str = include_str!("data3185k.txt");
@@ -75,13 +76,28 @@ fn criterion_benchmark(c: &mut Criterion) {
                     deserialize_converter(
                         variant,
                         black_box(get_builtin_serialized_daac(variant)),
-                        black_box(get_builtin_tables(variant).iter().map(|t| t.1)),
+                        black_box(get_builtin_tables(variant).iter().cloned()),
                     )
                 })
             });
         }
     }
 
+    c.bench_function("zh2CN wikitext basic", |b| {
+        b.iter_with_large_drop(|| {
+            zhconv::converters::ZH_TO_CN_CONVERTER.convert_as_wikitext_basic(WIKITEXT)
+        })
+    });
+    c.bench_function("zh2TW wikitext basic", |b| {
+        b.iter_with_large_drop(|| {
+            zhconv::converters::ZH_TO_TW_CONVERTER.convert_as_wikitext_basic(WIKITEXT)
+        })
+    });
+    c.bench_function("zh2TW wikitext extended", |b| {
+        b.iter_with_large_drop(|| {
+            zhconv::converters::ZH_TO_TW_CONVERTER.convert_as_wikitext_extended(WIKITEXT)
+        })
+    });
     c.bench_function("zh2CN 天乾物燥", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert("天乾物燥"))
     });

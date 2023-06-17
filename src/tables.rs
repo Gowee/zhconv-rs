@@ -7,8 +7,6 @@
 // // ! both [`ZH_HANT_TABLE`] and [`ZH_TW_TABLE`] should specified together, in order, when building
 // // ! the converter.
 
-use daachorse::CharwiseDoubleArrayAhoCorasick;
-
 // use itertools;
 // use lazy_static::lazy_static;
 // use ruzstd::StreamingDecoder;
@@ -16,7 +14,7 @@ use daachorse::CharwiseDoubleArrayAhoCorasick;
 use std::iter;
 
 use crate::converter::{ZhConverter, ZhConverterBuilder};
-use crate::utils::zstd_decompress;
+
 use crate::Variant;
 
 pub type Table<'s> = (&'s str, &'s str);

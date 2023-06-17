@@ -17,12 +17,20 @@ use crate::variant::{Variant, VariantMap};
 /// A single rule used for language conversion, usually extracted from wikitext in the syntax `-{ }-`.
 ///
 /// Ref: [ConverterRule.php](https://doc.wikimedia.org/mediawiki-core/master/php/ConverterRule_8php.html)
+/// and [Help:高级字词转换语法](https://zh.wikipedia.org/wiki/Help:%E9%AB%98%E7%BA%A7%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2%E8%AF%AD%E6%B3%95)
+/// (not fully compliant)
 #[derive(Debug, Clone)]
 pub struct ConvRule {
     pub(crate) action: Option<Action>,
     pub(crate) output: Option<Output>,
     pub(crate) conv: Option<Conv>,
     pub(crate) set_title: bool,
+}
+
+#[derive(Debug, Clone)]
+pub struct ConvRuleWithVariant<'r> {
+    rule: &'r ConvRule,
+    variant: Variant,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -47,25 +55,10 @@ pub enum RuleError {
 }
 
 impl ConvRule {
-    pub fn write_output(&self, mut dest: impl fmt::Write, target: Variant) -> fmt::Result {
-        match &self.output {
-            None => Ok(()),
-            Some(Output::Normal) => write!(
-                dest,
-                "{}",
-                self.conv
-                    .as_ref()
-                    .and_then(|c| c.get_text_by_target(target))
-                    .unwrap_or("") // mediawiki would show: 在手动语言转换规则中检测到错误
-            ),
-            Some(Output::VariantName(variant)) => write!(dest, "{}", variant.get_name()),
-            Some(Output::Description) => {
-                if let Some(conv) = self.conv.as_ref() {
-                    write!(dest, "{}", conv)
-                } else {
-                    Ok(())
-                }
-            }
+    pub fn targeted(&self, target: Variant) -> ConvRuleWithVariant {
+        ConvRuleWithVariant {
+            rule: self,
+            variant: target,
         }
     }
 
@@ -166,6 +159,31 @@ impl FromStr for ConvRule {
             conv,
             set_title,
         })
+    }
+}
+
+impl<'r> Display for ConvRuleWithVariant<'r> {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        let rule = self.rule;
+        match &rule.output {
+            None => Ok(()),
+            Some(Output::Normal) => write!(
+                f,
+                "{}",
+                rule.conv
+                    .as_ref()
+                    .and_then(|c| c.get_text_by_target(self.variant))
+                    .unwrap_or("") // mediawiki would show: 在手动语言转换规则中检测到错误
+            ),
+            Some(Output::VariantName(variant)) => write!(f, "{}", variant.get_name()),
+            Some(Output::Description) => {
+                if let Some(conv) = rule.conv.as_ref() {
+                    write!(f, "{}", conv)
+                } else {
+                    Ok(())
+                }
+            }
+        }
     }
 }
 
@@ -349,7 +367,7 @@ impl ConvAction {
     }
 
     pub fn removes(&self) -> bool {
-        self.0 == Action::Add
+        self.0 == Action::Remove
     }
 
     pub fn as_conv(&self) -> &Conv {

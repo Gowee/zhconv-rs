@@ -19,25 +19,25 @@ lazy_static! {
     /// Zh2Hant converter (`zh-Hant`/繁體中文), lazily built from [`ZH_HANT_TABLE`](crate::ZH_HANT_TABLE).
     pub static ref ZH_TO_HANT_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHant, ZH_HANT_DAAC, [ZH_HANT_TABLE]);
     /// Zh2Hans converter (`zh-Hans`/简体中文), lazily built from [`ZH_HANS_TABLE`](crate::ZH_HANS_TABLE).
-    pub static ref ZH_TO_HANS_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHant, ZH_HANS_DAAC, [ZH_HANS_TABLE]);
+    pub static ref ZH_TO_HANS_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHans, ZH_HANS_DAAC, [ZH_HANS_TABLE]);
     /// Zh2TW converter (`zh-Hant-TW`/臺灣正體), lazily built from [`ZH_HANT_TABLE`](crate::ZH_HANT_TABLE)
     /// and [`ZH_TW_TABLE`](crate::ZH_TW_TABLE).
-    pub static ref ZH_TO_TW_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHant, ZH_HANT_TW_DAAC, [ZH_HANT_TABLE, ZH_TW_TABLE]);
+    pub static ref ZH_TO_TW_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhTW, ZH_HANT_TW_DAAC, [ZH_HANT_TABLE, ZH_TW_TABLE]);
     /// Zh2HK converter (`zh-Hant-HK`/香港繁體), lazily built from [`ZH_HANT_TABLE`](crate::ZH_HANT_TABLE)
     /// and [`ZH_HK_TABLE`](crate::ZH_HK_TABLE).
-    pub static ref ZH_TO_HK_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHant, ZH_HANT_HK_DAAC, [ZH_HANT_TABLE, ZH_HK_TABLE]);
+    pub static ref ZH_TO_HK_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHK, ZH_HANT_HK_DAAC, [ZH_HANT_TABLE, ZH_HK_TABLE]);
     /// Zh2MO converter (`zh-Hant-MO`/澳門繁體), lazily built from [`ZH_HANT_TABLE`](crate::ZH_HANT_TABLE)
     /// and [`ZH_MO_TABLE`](crate::ZH_MO_TABLE).
-    pub static ref ZH_TO_MO_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHant, ZH_HANT_MO_DAAC, [ZH_HANT_TABLE, ZH_MO_TABLE]);
+    pub static ref ZH_TO_MO_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhMO, ZH_HANT_MO_DAAC, [ZH_HANT_TABLE, ZH_MO_TABLE]);
     /// Zh2CN converter (`zh-Hans-CN`/大陆简体), lazily built from [`ZH_HANS_TABLE`](crate::ZH_HANS_TABLE)
     /// and [`ZH_CN_TABLE`](crate::ZH_CN_TABLE).
-    pub static ref ZH_TO_CN_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHans, ZH_HANS_CN_DAAC, [ZH_HANS_TABLE, ZH_CN_TABLE]);
+    pub static ref ZH_TO_CN_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhCN, ZH_HANS_CN_DAAC, [ZH_HANS_TABLE, ZH_CN_TABLE]);
     /// Zh2SG converter (`zh-Hans-SG`/新加坡简体), lazily built from [`ZH_HANS_TABLE`](crate::ZH_HANS_TABLE)
     /// and [`ZH_SG_TABLE`](crate::ZH_SG_TABLE).
-    pub static ref ZH_TO_SG_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHans, ZH_HANS_SG_DAAC, [ZH_HANS_TABLE, ZH_SG_TABLE]);
+    pub static ref ZH_TO_SG_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhSG, ZH_HANS_SG_DAAC, [ZH_HANS_TABLE, ZH_SG_TABLE]);
     /// Zh2MY converter (`zh-Hans-MY`/大马简体), lazily built from [`ZH_HANS_TABLE`](crate::ZH_HANS_TABLE)
     /// and [`ZH_MY_TABLE`](crate::ZH_MY_TABLE).
-    pub static ref ZH_TO_MY_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhHans, ZH_HANS_MY_DAAC, [ZH_HANS_TABLE, ZH_MY_TABLE]);
+    pub static ref ZH_TO_MY_CONVERTER: ZhConverter = deserialize_converter(Variant::ZhMY, ZH_HANS_MY_DAAC, [ZH_HANS_TABLE, ZH_MY_TABLE]);
 }
 
 /// Get the builtin converter for a target Chinese variant.

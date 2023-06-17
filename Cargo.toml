@@ -46,6 +46,7 @@ console_error_panic_hook = {version = "0.1"} #, default-features = true, optiona
 
 [dev-dependencies]
 criterion = "0.3"
+wasm-bindgen-test = "0.3"
 
 [build-dependencies]
 sha2 = "0.10"

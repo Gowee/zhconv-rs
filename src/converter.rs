@@ -1,17 +1,16 @@
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
+use std::fmt::Write;
 use std::iter::IntoIterator;
 use std::str::FromStr;
 
-// use aho_corasick::{AhoCorasick, AhoCorasickBuilder, AhoCorasickKind, MatchKind};
 use daachorse::{CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
-use once_cell::unsync::Lazy;
-use regex::Regex;
 
 use crate::tables::Table;
 use crate::{
     pagerules::PageRules,
     rule::{Conv, ConvAction, ConvRule},
     tables::expand_table,
+    utils::regex,
     variant::Variant,
 };
 
@@ -22,7 +21,7 @@ const NESTED_RULE_MAX_DEPTH: usize = 10;
 pub struct ZhConverter {
     variant: Variant,
     automaton: CharwiseDoubleArrayAhoCorasick<u32>,
-    target_phrases: Vec<String>,
+    target_words: Vec<String>,
 }
 
 impl ZhConverter {
@@ -33,12 +32,12 @@ impl ZhConverter {
     /// details.
     pub fn new(
         automaton: CharwiseDoubleArrayAhoCorasick<u32>,
-        target_phrases: Vec<String>,
+        target_words: Vec<String>,
     ) -> ZhConverter {
         ZhConverter {
             variant: Variant::Zh,
             automaton,
-            target_phrases,
+            target_words: target_words,
         }
     }
 
@@ -46,13 +45,13 @@ impl ZhConverter {
     /// variant to be used by [`convert_allowing_inline_rules`](Self::convert_allowing_inline_rules).
     pub fn with_target_variant(
         automaton: CharwiseDoubleArrayAhoCorasick<u32>,
-        target_phrases: Vec<String>,
+        target_words: Vec<String>,
         variant: Variant,
     ) -> ZhConverter {
         ZhConverter {
             variant,
             automaton,
-            target_phrases,
+            target_words: target_words,
         }
     }
 
@@ -69,14 +68,15 @@ impl ZhConverter {
     }
 
     /// Convert a text.
+    #[inline(always)]
     pub fn convert(&self, text: &str) -> String {
         let mut output = String::with_capacity(text.len());
-        self.converted(text, &mut output);
+        self.convert_to(text, &mut output);
         output
     }
 
     /// Same as `convert`, except that it takes a `&mut String` as dest instead of returning a `String`.
-    pub fn converted(&self, text: &str, output: &mut String) {
+    pub fn convert_to(&self, text: &str, output: &mut String) {
         // Ref: https://github.dev/rust-lang/regex/blob/5197f21287344d2994f9cf06758a3ea30f5a26c3/src/re_trait.rs#L192
         let mut last = 0;
         // let mut cnt = HashMap::<usize, usize>::new();
@@ -90,53 +90,222 @@ impl ZhConverter {
                 output.push_str(&text[last..s]);
             }
             // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
-            output.push_str(&self.target_phrases[ti as usize]);
+            output.push_str(&self.target_words[ti as usize]);
             last = e;
         }
         output.push_str(&text[last..]);
     }
 
-    /// Convert a text with inline conv rules applied.
+    /// Convert a text, a long with a secondary conversion table (typically temporary).
     ///
-    /// It only processes the display output of inline rules. Mutations to global rules specified
-    /// via inline rules are just ignored. To activate global rules, build a [`ZhConverterBuilder`]
-    /// with [`PageRules`](crate::pagerules::PageRules).
+    /// The worst-case time complexity of the implementation is `O(n*m)` where `n` and `m` are the
+    /// length of the text and the maximum lengths of sources words in the secondary table
+    /// (i.e. brute-force).
+    fn convert_to_with(
+        &self,
+        mut text: &str,
+        output: &mut String,
+        shadowing_automaton: &CharwiseDoubleArrayAhoCorasick<u32>,
+        shadowing_target_words: &[String],
+        shadowed_source_words: &HashSet<String>,
+    ) {
+        // let mut cnt = HashMap::<usize, usize>::new();
+        while !text.is_empty() {
+            // leftmost-longest matching
+            let (s, e, target_word) = match (
+                self.automaton.leftmost_find_iter(text).next(),
+                shadowing_automaton.leftmost_find_iter(text).next(),
+            ) {
+                (Some(a), Some(b)) if (a.start(), a.end()).cmp(&(b.start(), b.end())).is_le() => (
+                    b.start(),
+                    b.end(),
+                    shadowing_target_words[b.value() as usize].as_ref(),
+                ), // shadowed: pick a word in shadowing automaton
+                (None, Some(b)) => (
+                    b.start(),
+                    b.end(),
+                    shadowing_target_words[b.value() as usize].as_ref(),
+                ), // ditto
+                (Some(a), _) => {
+                    // not shadowed: pick a word in original automaton
+                    // check if the source word is disabled
+                    if shadowed_source_words
+                        .contains(self.target_words[a.value() as usize].as_str())
+                    {
+                        // degraded: skip one char and re-search
+                        let first_char_len = text.chars().next().unwrap().len_utf8();
+                        (0, first_char_len, &text[..first_char_len])
+                    } else {
+                        (
+                            a.start(),
+                            a.end(),
+                            self.target_words[a.value() as usize].as_str(),
+                        )
+                    }
+                }
+                (None, None) => {
+                    // end
+                    output.push_str(text);
+                    break;
+                }
+            };
+            if s > 0 {
+                output.push_str(&text[..s]);
+            }
+            // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
+            output.push_str(target_word);
+            text = &text[e..];
+        }
+    }
+
+    /// Convert the given text, parsing and applying adhoc Mediawiki conversion rules in it.
+    ///
+    /// Basic MediaWiki conversion rules like `-{FOOBAR}-` or `-{zh-hant:FOO;zh-hans:BAR}-` are
+    /// supported.
+    ///
+    /// Unlike [`convert_to_as_wikitext_extended`](Self::convert_to_as_wikitext_extended), rules
+    /// with additional flags like `{H|zh-hant:FOO;zh-hans:BAR}` that sets global rules are simply
+    /// ignored. And, it does not try to skip HTML code blocks like `<code></code>` and
+    /// `<script></script>`.
+    #[inline(always)]
+    pub fn convert_as_wikitext_basic(&self, text: &str) -> String {
+        let mut output = String::with_capacity(text.len());
+        self.convert_to_as_wikitext_basic(text, &mut output);
+        output
+    }
+
+    /// Convert the given text, parsing and applying adhoc and global MediaWiki conversion rules in
+    /// it.
+    ///
+    /// Unlike [`convert_to_as_wikitext_basic`](Self::convert_to_as_wikitext_basic), all flags
+    /// documented in [Help:高级字词转换语法](https://zh.wikipedia.org/wiki/Help:高级字词转换语法)
+    /// are supported. And it tries to skip HTML code blocks such as `<code></code>` and
+    /// `<script></script>`.
+    ///
+    /// # Limitations
     ///
     /// The internal implementation are intendedly replicating the behavior of
     /// [LanguageConverter.php](https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855)
     /// in MediaWiki. But it is not fully compliant with MediaWiki and providing NO PROTECTION over
-    /// XSS attack.
+    /// XSS attacks.
     ///
-    /// Compared to the plain `convert`, this is known to be much slower due to the inevitable
+    /// Compared to the plain `convert`, this is known to be MUCH SLOWER due to the inevitable
     /// nature of the implementation decision made by MediaWiki.
-    pub fn convert_allowing_inline_rules(&self, text: &str) -> String {
+    #[inline(always)]
+    pub fn convert_as_wikitext_extended(&self, text: &str) -> String {
+        let mut output = String::with_capacity(text.len());
+        self.convert_to_as_wikitext_extended(text, &mut output);
+        output
+    }
+
+    /// Same as [`convert_to_as_wikitext_basic`](Self::convert_to_as_wikitext_basic), except that
+    /// it takes a `&mut String` as dest
+    /// instead of returning a `String`.
+    #[inline(always)]
+    pub fn convert_to_as_wikitext_basic(&self, text: &str, output: &mut String) {
+        self.convert_to_as_wikitext(text, output, false, false)
+    }
+
+    /// Same as [`convert_to_as_wikitext_extended`](Self::convert_to_as_wikitext_extended), except
+    /// that it takes a `&mut String` as dest instead of returning a `String`.
+    #[inline(always)]
+    pub fn convert_to_as_wikitext_extended(&self, text: &str, output: &mut String) {
+        self.convert_to_as_wikitext(text, output, true, true)
+    }
+
+    /// The general implementation of MediaWiki syntax-aware conversion.
+    ///
+    /// Equivalent to [`convert_as_wikitext_basic`](Self::convert_as_wikitext_basic) if both
+    /// `skip_html_code_blocks` and `apply_global_rules` are  set to `false`.
+    ///
+    /// Equivalent to [`convert_as_wikitext_extended`], otherwise.
+    pub fn convert_to_as_wikitext(
+        &self,
+        text: &str,
+        output: &mut String,
+        skip_html_code_blocks: bool,
+        apply_global_rules: bool,
+    ) {
         // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L532
+
+        let mut convert_to: Box<dyn Fn(&str, &mut String)> =
+            Box::new(|text: &str, output: &mut String| self.convert_to(text, output));
+        if apply_global_rules {
+            // build a secondary automaton from global rules specified in wikitext
+            let mut shadowing_pairs = HashMap::new();
+            let mut shadowed_source_words = HashSet::new();
+            let global_rules_in_page = PageRules::from_str(text).expect("infaillible");
+            for ca in global_rules_in_page.as_conv_actions() {
+                match ca.adds() {
+                    true => shadowing_pairs.extend(
+                        ca.as_conv()
+                            .get_conv_pairs(self.variant)
+                            .into_iter()
+                            .filter(|(f, _t)| !f.is_empty())
+                            .map(|(f, t)| (f.to_owned(), t.to_owned())),
+                    ),
+                    false => shadowed_source_words.extend(
+                        ca.as_conv()
+                            .get_conv_pairs(self.variant)
+                            .into_iter()
+                            .map(|(f, _t)| f.to_owned()),
+                    ),
+                }
+            }
+            if !shadowing_pairs.is_empty() {
+                let mut shadowing_target_words = Vec::with_capacity(shadowing_pairs.len());
+                let shadowing_automaton = CharwiseDoubleArrayAhoCorasickBuilder::new()
+                    .match_kind(MatchKind::LeftmostLongest)
+                    .build::<_, _, u32>(shadowing_pairs.into_iter().map(|(f, t)| {
+                        shadowing_target_words.push(t);
+                        f
+                    }))
+                    .expect("Rules feed to temporay DAAC already filtered");
+                convert_to = Box::new(move |text: &str, output: &mut String| {
+                    self.convert_to_with(
+                        text,
+                        output,
+                        &shadowing_automaton,
+                        shadowing_target_words.as_slice(),
+                        &shadowed_source_words,
+                    )
+                })
+            }
+        };
+
         // TODO: this may degrade to O(n^2)
-        let p1 = Lazy::new(|| {
-            // start of rule | noHtml | noStyle | no code | no pre
-            Regex::new(r#"-\{|<script.*?>.*?</script>|<style.*?>.*?</style>|<code>.*?</code>|<pre.*?>.*?</pre>"#).unwrap()
-        });
+        // start of rule | noHtml | noStyle | no code | no pre
+        let sor_or_html = regex!(
+            r#"-\{|<script.*?>.*?</script>|<style.*?>.*?</style>|<code>.*?</code>|<pre.*?>.*?</pre>"#
+        );
+        // start of rule
+        let sor = regex!(r#"-\{"#);
+        let pat_outer = if skip_html_code_blocks {
+            sor_or_html
+        } else {
+            sor
+        };
         // TODO: we need to understand what the hell it is so that to adapt it to compatible syntax
         // 		$noHtml = '<(?:[^>=]*+(?>[^>=]*+=\s*+(?:"[^"]*"|\'[^\']*\'|[^\'">\s]*+))*+[^>=]*+>|.*+)(*SKIP)(*FAIL)';
-        let p2 = Lazy::new(|| Regex::new(r#"-\{|\}-"#).unwrap());
+        let pat_inner = regex!(r#"-\{|\}-"#);
+
         let mut pos = 0;
-        let mut converted = String::with_capacity(text.len());
         let mut pieces = vec![];
-        while let Some(m1) = p1.find_at(text, pos) {
+        while let Some(m1) = pat_outer.find_at(text, pos) {
             // convert anything before (possible) the toplevel -{
-            self.converted(&text[pos..m1.start()], &mut converted);
+            convert_to(&text[pos..m1.start()], output);
             if m1.as_str() != "-{" {
                 // not start of rule, just <foobar></foobar> to exclude
-                converted.push_str(&text[m1.start()..m1.end()]); // kept as-is
+                output.push_str(&text[m1.start()..m1.end()]); // kept as-is
                 pos = m1.end();
                 continue; // i.e. <SKIP><FAIL>
             }
             // found toplevel -{
             pos = m1.start() + 2;
             pieces.push(String::new());
-            while let Some(m2) = p2.find_at(text, pos) {
+            while let Some(m2) = pat_inner.find_at(text, pos) {
                 // let mut piece = String::from(&text[pos..m2.start()]);
                 if m2.as_str() == "-{" {
                     // if there are two many open start tag, ignore the new nested rule
@@ -152,15 +321,13 @@ impl ZhConverter {
                     // end tag
                     let mut piece = pieces.pop().unwrap();
                     piece.push_str(&text[pos..m2.start()]);
-                    let upper = if let Some(upper) = pieces.last_mut() {
-                        upper
-                    } else {
-                        &mut converted
-                    };
                     // only take it output; mutations to global rules are ignored
-                    ConvRule::from_str_infallible(&piece)
-                        .write_output(upper, self.variant)
-                        .unwrap();
+                    let r = ConvRule::from_str_infallible(&piece);
+                    if let Some(upper) = pieces.last_mut() {
+                        write!(upper, "{}", r.targeted(self.variant)).unwrap();
+                    } else {
+                        write!(output, "{}", r.targeted(self.variant)).unwrap();
+                    };
                     // if let Ok(rule) = dbg!(ConvRule::from_str(&piece)) {
                     //     rule.write_output(upper, self.variant).unwrap();
                     // } else {
@@ -176,17 +343,27 @@ impl ZhConverter {
                 }
             }
             while let Some(piece) = pieces.pop() {
-                converted.push_str("-{");
-                converted.push_str(&piece);
+                output.push_str("-{");
+                output.push_str(&piece);
             }
             // TODO: produce convert(&text[pos..])
         }
         if pos < text.len() {
             // no more conv rules, just convert and append
-            converted.push_str(&self.convert(&text[pos..]));
+            output.push_str(&self.convert(&text[pos..]));
         }
-        converted
     }
+
+    // #[inline(always)]
+    // pub fn convert_applying_mediawiki_rules(
+    //     &self,
+    //     text: &str,
+    //     applying_global_rules: bool,
+    // ) -> String {
+    //     let mut output = String::with_capacity(text.len());
+    //     self.convert_to_applying_mediawiki_rules(text, &mut output, applying_global_rules);
+    //     output
+    // }
 
     // TODO: inplace? we need to maintain a stack which could be at most O(n)
     //       and it requires access to underlying bytes for subtle mutations
@@ -415,7 +592,7 @@ impl<'t> ZhConverterBuilder<'t> {
         ZhConverter {
             variant: *target,
             automaton,
-            target_phrases: mapping.into_values().collect(),
+            target_words: mapping.into_values().collect(),
         }
     }
 }

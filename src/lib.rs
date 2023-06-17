@@ -5,7 +5,7 @@
 //! extracted from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php)
 //! (maintained by MediaWiki and Chinese Wikipedia) and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary).
 //!
-//! While built-in datasets work well for general case, the converter is never meant to be 100%
+//! While built-in rulesets work well for general case, the converter is never meant to be 100%
 //! accurate, especially for professional text. In Chinese Wikipedia, it is pretty common for
 //! editors to apply additional [CGroups](https://zh.wikipedia.org/wiki/Module:CGroup) and
 //! [manual conversion rules](https://zh.wikipedia.org/wiki/Help:%E9%AB%98%E7%BA%A7%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2%E8%AF%AD%E6%B3%95)
@@ -19,7 +19,7 @@
 //! This crate is [on crates.io](https://crates.io/crates/zhconv).
 //! ```toml
 //! [dependencies]
-//! zhconv = "0.1"
+//! zhconv = "?"
 //! ```
 //!
 //! # Example
@@ -47,7 +47,6 @@
 //!
 
 use std::f32::consts::E;
-use std::str::FromStr;
 
 mod converter;
 mod utils;
@@ -94,20 +93,7 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 ///
 /// For fine-grained control and custom conversion rules, these is [`ZhConverter`].
 pub fn zhconv_mw(text: &str, target: Variant) -> String {
-    use crate::pagerules::PageRules;
-    let page_rules = PageRules::from_str(text).expect("Page rules parsing is infallible for now");
-    if page_rules.as_conv_actions().is_empty() {
-        // if there is no global rules specified inline, just pick the built-in converter
-        return get_builtin_converter(target).convert_allowing_inline_rules(text);
-    }
-    // O.W. we have to build a new converter
-    let base = get_builtin_tables(target);
-    ZhConverterBuilder::new()
-        .target(target)
-        .tables(base)
-        .page_rules(&page_rules)
-        .build()
-        .convert_allowing_inline_rules(text)
+    get_builtin_converter(target).convert_as_wikitext_extended(text)
 }
 
 /// Determine whether the give text looks like Traditional Chinese over Simplified Chinese.

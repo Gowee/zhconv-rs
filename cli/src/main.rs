@@ -26,9 +26,9 @@ struct Opt {
     #[structopt(long = "rules_file", parse(from_os_str))]
     rule_files: Vec<PathBuf>,
 
-    /// Processes inline MediaWiki conversion rules in the input
+    /// Treat the input text as wikitext and process inline conversion rules in MediaWiki syntax
     #[structopt(long)]
-    mediawiki: bool,
+    wikitext: bool,
 
     /// Whether to build DFA for AC automaton{n}
     /// With DFA enabled by default, it is slower to warm up while faster to convert.{n}
@@ -51,7 +51,7 @@ fn main() -> Result<()> {
     let Opt {
         rules,
         rule_files,
-        mediawiki,
+        wikitext,
         dfa,
         variant,
         files,
@@ -71,13 +71,13 @@ fn main() -> Result<()> {
     if files.is_empty() {
         let mut input = String::new();
         io::stdin().lock().read_to_string(&mut input).unwrap();
-        if mediawiki {
+        if wikitext {
             builder = builder.rules_from_page(&input);
         }
         // builder = builder.dfa(dfa.unwrap_or(input.len() >= DFA_FILESIZE));
         let converter = builder.build();
-        if mediawiki {
-            println!("{}", converter.convert_allowing_inline_rules(&input));
+        if wikitext {
+            println!("{}", converter.convert_as_wikitext_extended(&input));
         } else {
             println!("{}", converter.convert(&input));
         }
@@ -88,7 +88,7 @@ fn main() -> Result<()> {
         let first_path = it.next().unwrap();
         let first_text = fs::read_to_string(&first_path)?;
 
-        let dfa = dfa.unwrap_or(total > 1 || first_text.len() >= DFA_FILESIZE);
+        let _dfa = dfa.unwrap_or(total > 1 || first_text.len() >= DFA_FILESIZE);
         // builder = builder.dfa(dfa);
 
         let files = [(first_path, Ok(first_text))]
@@ -98,7 +98,7 @@ fn main() -> Result<()> {
                 (path, res)
             }));
 
-        if mediawiki {
+        if wikitext {
             let mut converter = None;
             for (idx, (path, res)) in files.into_iter().enumerate() {
                 let text = res?;
@@ -112,13 +112,14 @@ fn main() -> Result<()> {
                     .parse::<PageRules>()
                     .map_err(|_e| Error::msg("Invalid rules in the text"))?;
                 let mut tempfile = tempfile_for(&path)?;
-                if page_rules.as_conv_actions().is_empty() {
+                if true {
+                    // page_rules.as_conv_actions().is_empty() {
                     // no inline global rules, try to re-use the existing converter
                     let converter = converter.get_or_insert_with(|| builder.build());
                     writeln!(
                         tempfile,
                         "{}",
-                        converter.convert_allowing_inline_rules(&text)
+                        converter.convert_as_wikitext_extended(&text)
                     )?;
                 } else {
                     // inline global rules exists, so build a new converter
@@ -126,7 +127,7 @@ fn main() -> Result<()> {
                     writeln!(
                         tempfile,
                         "{}",
-                        converter.convert_allowing_inline_rules(&text)
+                        converter.convert_as_wikitext_extended(&text)
                     )?;
                 }
 

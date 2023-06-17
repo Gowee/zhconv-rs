@@ -26,3 +26,11 @@ pub fn zstd_decompress(bytes: &[u8]) -> Vec<u8> {
         .unwrap();
     buf
 }
+
+macro_rules! regex {
+    ($re:literal $(,)?) => {{
+        static RE: once_cell::sync::OnceCell<regex::Regex> = once_cell::sync::OnceCell::new();
+        RE.get_or_init(|| regex::Regex::new($re).unwrap())
+    }};
+}
+pub(crate) use regex;
