@@ -103,58 +103,69 @@ impl ZhConverter {
     /// (i.e. brute-force).
     fn convert_to_with(
         &self,
-        mut text: &str,
+        text: &str,
         output: &mut String,
         shadowing_automaton: &CharwiseDoubleArrayAhoCorasick<u32>,
         shadowing_target_words: &[String],
         shadowed_source_words: &HashSet<String>,
     ) {
         // let mut cnt = HashMap::<usize, usize>::new();
-        while !text.is_empty() {
+        let mut last = 0;
+        let mut left_match: Option<(usize, usize, &str)> = None;
+        let mut right_match: Option<(usize, usize, &str)> = None;
+
+        while last < text.len() {
             // leftmost-longest matching
-            let (s, e, target_word) = match (
-                self.automaton.leftmost_find_iter(text).next(),
-                shadowing_automaton.leftmost_find_iter(text).next(),
-            ) {
-                (Some(a), Some(b)) if (a.start(), a.end()).cmp(&(b.start(), b.end())).is_le() => (
-                    b.start(),
-                    b.end(),
-                    shadowing_target_words[b.value() as usize].as_ref(),
-                ), // shadowed: pick a word in shadowing automaton
-                (None, Some(b)) => (
-                    b.start(),
-                    b.end(),
-                    shadowing_target_words[b.value() as usize].as_ref(),
-                ), // ditto
+            if left_match.is_none() || left_match.unwrap().0 < last {
+                let m = self.automaton.leftmost_find_iter(&text[last..]).next();
+                left_match = m.map(|m| {
+                    (
+                        last + m.start(),
+                        last + m.end(),
+                        self.target_words[m.value() as usize].as_str(),
+                    )
+                });
+            }
+            if right_match.is_none() || right_match.unwrap().0 < last {
+                let m = shadowing_automaton.leftmost_find_iter(&text[last..]).next();
+                right_match = m.map(|m| {
+                    (
+                        last + m.start(),
+                        last + m.end(),
+                        shadowing_target_words[m.value() as usize].as_str(),
+                    )
+                });
+            }
+
+            let (s, e, target_word) = match (left_match, right_match) {
+                (Some(a), Some(b)) if a.0 > b.0 || (a.0 == b.0 && a.1 < b.1) => b, // shadowed: pick a word in shadowing automaton
+                (None, Some(b)) => b,                                              // ditto
                 (Some(a), _) => {
                     // not shadowed: pick a word in original automaton
-                    // check if the source word is disabled
-                    if shadowed_source_words
-                        .contains(self.target_words[a.value() as usize].as_str())
-                    {
-                        // degraded: skip one char and re-search
+                    if shadowed_source_words.contains(a.2) {
+                        // source word is disabled: skip one char and re-search
                         let first_char_len = text.chars().next().unwrap().len_utf8();
-                        (0, first_char_len, &text[..first_char_len])
-                    } else {
                         (
-                            a.start(),
-                            a.end(),
-                            self.target_words[a.value() as usize].as_str(),
+                            last,
+                            a.0 + first_char_len,
+                            &text[last..a.0 + first_char_len],
                         )
+                    } else {
+                        a
                     }
                 }
                 (None, None) => {
                     // end
-                    output.push_str(text);
+                    output.push_str(&text[last..]);
                     break;
                 }
             };
-            if s > 0 {
-                output.push_str(&text[..s]);
+            if s > last {
+                output.push_str(&text[last..s]);
             }
             // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
             output.push_str(target_word);
-            text = &text[e..];
+            last = e;
         }
     }
 
@@ -253,6 +264,9 @@ impl ZhConverter {
                             .map(|(f, _t)| f.to_owned()),
                     ),
                 }
+            }
+            for shadowed in shadowed_source_words.iter() {
+                shadowing_pairs.remove(shadowed);
             }
             if !shadowing_pairs.is_empty() {
                 let mut shadowing_target_words = Vec::with_capacity(shadowing_pairs.len());

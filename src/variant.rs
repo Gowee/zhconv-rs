@@ -103,7 +103,7 @@ impl VariantMap<String> {
         // MEDIAWIKI: the code of the reference implementation is too obscure, try to replicate the
         //            the same behavior based on some tests
         match target {
-            // based on tests, the three are only used for regional scripts as fallbacks
+            // based on tests, the three are only used as fallbacks for regional scripts
             Zh | ZhHant | ZhHans => vec![],
             _ => {
                 // It won't fallback to Zh finally. So Zh is only used as from?
