@@ -61,14 +61,12 @@ fn main() -> Result<()> {
         secondary_builder = secondary_builder.conv_lines(fs::read_to_string(path)?.lines());
     }
 
-    let convert_to: Box<dyn Fn(&str, &mut String) -> ()> = if wikitext {
-        // if !rules.is_empty() || !rule_files.is_empty() {
-        //     unimplemented!("Convert wikitext with additional rules are not supported yet")
-        // }
+    #[allow(clippy::type_complexity)]
+    let convert_to: Box<dyn Fn(&str, &mut String)> = if wikitext {
         let converter = get_builtin_converter(variant);
         Box::new(move |text: &str, output: &mut String| {
             converter.convert_to_as_wikitext(
-                &text,
+                text,
                 output,
                 &mut Some(secondary_builder.clone()),
                 true,
@@ -79,11 +77,9 @@ fn main() -> Result<()> {
         let secondary_converter = secondary_builder.build();
 
         let converter = get_builtin_converter(variant);
-        Box::new(
-            (move |text: &str, output: &mut String| {
-                converter.convert_to_with_secondary_converter(&text, output, &secondary_converter)
-            }),
-        )
+        Box::new(move |text: &str, output: &mut String| {
+            converter.convert_to_with_secondary_converter(text, output, &secondary_converter)
+        })
     };
 
     let convert = |text: &str| {
