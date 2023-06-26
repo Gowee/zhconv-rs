@@ -353,48 +353,7 @@ fn pair_reduce<'s>(
             }
         })
     })
-
-    // it.group_by(|&c| c).into_iter().map(|(k, group)| if k == PLANE0_PUA_STARTING {
-    //     char::from_u32(PLANE0_PUA_STARTING as u32 + group.collect::<Vec<_>>().len() as u32).unwrap()
-    // } else {
-    //     group.next().unwrap()
-    // }
-    // )
 }
-
-// fn write_reduced(mut out: impl Write, s: &str, base: &str) -> io::Result<()> {
-//     let PLANE0_PUA_STARTING: char = '\x00';
-//     let mut unwritten = 0;
-//     let mut s = s.chars();
-//     let mut base = base.chars();
-//     while let Some(b) = base.next() {
-//         if let Some(a) = s.next() {
-//             if a == b {
-//                 unwritten += 1;
-//             } else {
-//                 if unwritten > 0 {
-//                     write!(
-//                         out,
-//                         "{}",
-//                         char::from_u32(PLANE0_PUA_STARTING as u32 + unwritten).unwrap()
-//                     )?;
-//                     unwritten = 0;
-//                 }
-//                 write!(out, "{}", a)?;
-//             }
-//         } else {
-//             break;
-//         }
-//     }
-//     if unwritten > 0 {
-//         write!(
-//             out,
-//             "{}",
-//             char::from_u32(PLANE0_PUA_STARTING as u32 + unwritten).unwrap()
-//         )?;
-//     }
-//     write!(out, "{}", s.as_str())
-// }
 
 fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
     pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
