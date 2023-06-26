@@ -11,6 +11,7 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
+use zhconv::get_builtin_tables;
 use zhconv::{get_builtin_converter, rule::Conv, Variant, ZhConverterBuilder};
 
 #[derive(StructOpt, Debug)]
@@ -29,6 +30,10 @@ struct Opt {
     #[structopt(long)]
     wikitext: bool,
 
+    /// Dump the built-in conversion table, along with additional rules specified if any 
+    #[structopt(long)]
+    dump_table: bool,
+
     /// Target variant to convert to (zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY)
     #[structopt(name = "VARIANT")]
     variant: Variant,
@@ -45,6 +50,7 @@ fn main() -> Result<()> {
         rules,
         rule_files,
         wikitext,
+        dump_table,
         variant,
         files,
     } = Opt::from_args();
@@ -59,6 +65,14 @@ fn main() -> Result<()> {
     }
     for path in rule_files.into_iter() {
         secondary_builder = secondary_builder.conv_lines(fs::read_to_string(path)?.lines());
+    }
+
+    if dump_table {
+        secondary_builder = secondary_builder.tables(get_builtin_tables(variant));
+        for (from, to) in secondary_builder.build_mapping() {
+            println!("{} {}", from, to);
+        }
+        return Ok(());
     }
 
     #[allow(clippy::type_complexity)]

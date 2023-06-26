@@ -534,6 +534,12 @@ impl<'t> ZhConverterBuilder<'t> {
         Default::default()
     }
 
+    /// Shorthand for `ZhConverterBuilder::new()::target(variant)`.
+    #[inline(always)]
+    pub fn targeted(variant: Variant) -> Self {
+        Self::new().target(variant)
+    }
+
     /// Set the target Chinese variant to convert to.
     ///
     /// The target variant is only useful to get proper conv pairs from
@@ -544,19 +550,13 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Shorthand for `ZhConverterBuilder::new()::target(variant)`.
-    #[inline(always)]
-    pub fn targeted(variant: Variant) -> Self {
-        Self::new().target(variant)
-    }
-
     /// Add a conversion table, which is typically those in [`tables`](crate::tables).
     pub fn table(mut self, table: Table<'t>) -> Self {
         self.tables.push(table);
         self
     }
 
-    /// Add a set of conversion tables, which are typically returned by [`get_builtin_converter`](crate::get_builtin_converter).
+    /// Add a set of conversion tables, which are typically returned by [`get_builtin_tables`](crate::get_builtin_tables).
     pub fn tables(mut self, tables: &[Table<'t>]) -> Self {
         self.tables.extend(tables.iter());
         self
@@ -696,27 +696,45 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    // /// Set whether to activate the feature DFA of Aho-Corasick.
-    // ///
-    // /// With DFA enabled, it takes rougly 5x time to build the converter while the conversion
-    // /// speed is < 2x faster. All built-in converters have this feature enabled for better
-    // /// conversion performance. In other cases with this flag unset, the implementation would
-    // /// determine by itself whether to enable it per the number of patterns.
-    // pub fn dfa(mut self, enabled: bool) -> Self {
-    //     self.dfa = enabled;
-    //     self
-    // }
-
     /// Do the build.
     ///
     /// It internally aggregate previously specified tables, rules and pairs, from where an
     /// automaton and a mapping are built, which are then feed into the new converter.
     pub fn build(&self) -> ZhConverter {
+        let mapping = self.build_mapping();
+        let mut target_words = vec![];
+        let automaton = if !mapping.is_empty() {
+            target_words.reserve_exact(mapping.len());
+            let sequence = mapping.into_iter();
+            Some(
+                CharwiseDoubleArrayAhoCorasickBuilder::new()
+                    .match_kind(MatchKind::LeftmostLongest)
+                    .build(sequence.map(|(f, t)| {
+                        target_words.push(t);
+                        f
+                    }))
+                    .expect("Rules feed to DAAC already filtered"),
+            )
+        } else {
+            None
+        };
+
+        ZhConverter {
+            variant: self.target,
+            automaton,
+            target_words,
+        }
+    }
+
+    /// Aggregate previously specified tables, rules and pairs to build a mapping.
+    ///
+    /// It is used by [`build`](Self::build) internally.
+    pub fn build_mapping(&self) -> HashMap<String, String> {
         let Self {
-            target,
             tables,
             adds,
             removes,
+            ..
         } = self;
         // TODO: do we need a HashMap at all?
         let mut mapping = HashMap::with_capacity(
@@ -735,26 +753,6 @@ impl<'t> ZhConverterBuilder<'t> {
                 .filter(|(from, _to)| !removes.contains_key(from.as_str()))
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
-        let mut target_words = vec![];
-        let automaton = if !mapping.is_empty() {
-            target_words.reserve_exact(mapping.len());
-            let sequence = mapping.into_iter();
-            Some(
-                CharwiseDoubleArrayAhoCorasickBuilder::new()
-                    .match_kind(MatchKind::LeftmostLongest)
-                    .build(sequence.map(|(f, t)| {
-                        target_words.push(t);
-                        f
-                    }))
-                    .expect("Rules feed to DAAC already filtered"),
-            )
-        } else {
-            None
-        };
-        ZhConverter {
-            variant: *target,
-            automaton,
-            target_words,
-        }
+        mapping
     }
 }
