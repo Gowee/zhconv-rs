@@ -11,20 +11,17 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
-use zhconv::{
-    get_builtin_converter, get_builtin_tables, pagerules::PageRules, Variant, ZhConverterBuilder,
-};
-
-const DFA_FILESIZE: usize = 2 * 1024 * 1024;
+use zhconv::{get_builtin_converter, rule::Conv, Variant, ZhConverterBuilder};
 
 #[derive(StructOpt, Debug)]
 #[structopt(name = "zhconv", about = "Convert among Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
 struct Opt {
-    /// Additional conversion rules
+    /// Additional conversion rules in MediaWiki syntax (excluding -{, }-)
     #[structopt(long = "rule")]
     rules: Vec<String>,
 
-    /// File(s) consisting of additional conversion rules seperated by LF
+    /// File(s) consisting of additional conversion rules in MediaWiki syntax (excluding -{, }-)
+    /// seperated by LF
     #[structopt(long = "rules_file", parse(from_os_str))]
     rule_files: Vec<PathBuf>,
 
@@ -52,23 +49,33 @@ fn main() -> Result<()> {
         files,
     } = Opt::from_args();
 
+    let mut secondary_builder = ZhConverterBuilder::new().target(variant);
+    for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
+        secondary_builder = secondary_builder.conv_pairs(
+            rule.parse::<Conv>()
+                .map_err(|_e| Error::msg("Invalid rule"))?
+                .get_conv_pairs(variant),
+        )
+    }
+    for path in rule_files.into_iter() {
+        secondary_builder = secondary_builder.conv_lines(fs::read_to_string(path)?.lines());
+    }
+
     let convert_to: Box<dyn Fn(&str, &mut String) -> ()> = if wikitext {
-        if !rules.is_empty() || !rule_files.is_empty() {
-            unimplemented!("Convert wikitext with additional rules are not supported yet")
-        }
+        // if !rules.is_empty() || !rule_files.is_empty() {
+        //     unimplemented!("Convert wikitext with additional rules are not supported yet")
+        // }
         let converter = get_builtin_converter(variant);
-        Box::new(|text: &str, output: &mut String| {
-            converter.convert_to_as_wikitext_extended(&text, output)
+        Box::new(move |text: &str, output: &mut String| {
+            converter.convert_to_as_wikitext(
+                &text,
+                output,
+                &mut Some(secondary_builder.clone()),
+                true,
+                true,
+            );
         })
     } else {
-        let mut secondary_builder = ZhConverterBuilder::new();
-        for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
-            secondary_builder = secondary_builder
-                .convs([&rule.parse().map_err(|_e| Error::msg("Invalid rule"))?]);
-        }
-        for path in rule_files.into_iter() {
-            secondary_builder = secondary_builder.conv_lines(&fs::read_to_string(path)?);
-        }
         let secondary_converter = secondary_builder.build();
 
         let converter = get_builtin_converter(variant);

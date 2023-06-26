@@ -109,13 +109,13 @@ impl ZhConverter {
         // leftmost-longest matching
         for (s, e, ti) in automaton
             .leftmost_find_iter(text)
-            .map(|m| dbg!((m.start(), m.end(), m.value())))
+            .map(|m| (m.start(), m.end(), m.value()))
         {
             if s > last {
                 output.push_str(&text[last..s]);
             }
             // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
-            output.push_str(dbg!(&self.target_words[ti as usize]));
+            output.push_str(&self.target_words[ti as usize]);
             last = e;
         }
         output.push_str(&text[last..]);
@@ -596,7 +596,7 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Add a [`Conv`].
+    /// Add [`Conv`]s.
     ///
     /// For general cases, check [`add_conv_pair`](#method.add_conv_pair) which takes a plain
     /// `from -> to` pair.
