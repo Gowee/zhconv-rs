@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+
 use std::collections::HashSet;
 use std::convert::TryInto;
 use std::env;
@@ -8,8 +9,8 @@ use std::io::Write;
 use std::iter;
 use std::path::Path;
 
+use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
 use hex_literal::hex;
-use itertools::Itertools;
 use regex::Regex;
 use sha2::{Digest, Sha256};
 use vergen::EmitBuilder;
@@ -18,7 +19,7 @@ use vergen::EmitBuilder;
 use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
-const MEDIAWIKI_COMMIT: &str = "bcaab3d057c8e550793100448f725761e1a8e017";
+const MEDIAWIKI_COMMIT: &str = "c40f34c8562e739d2c9baaec8543a968f29a4676";
 const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("37c17b6361ab774b0b7dab801aa7ff919f8efa6e2ad3f66ccb051e9c1a848f6e");
 
@@ -145,40 +146,63 @@ fn main() -> io::Result<()> {
         }
 
         // longer phrases come first; lexicographically smaller phrases come first
-        pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
-        pairs.dedup_by(|a, b| a.0 == b.0);
+        sort_and_dedup(pairs);
 
-        debug_assert_eq!(
-            pairs.len(),
-            pairs
-                .iter()
-                .map(|(from, _to_)| from)
-                .collect::<HashSet<_>>()
-                .len(),
-            "deduping keys of {}",
-            name
-        );
+        // debug_assert_eq!(
+        //     pairs.len(),
+        //     pairs
+        //         .iter()
+        //         .map(|(from, _to_)| from)
+        //         .collect::<HashSet<_>>()
+        //         .len(),
+        //     "deduping keys of {}",
+        //     name
+        // );
     }
 
     let hans_pairs = zhconvs.remove("zh2Hans").unwrap();
     write_conv_file("zh2Hans", &hans_pairs)?;
-    let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
+    // let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
+    write_daac_file("zh2Hans", &hans_pairs)?;
+    let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
 
     let hant_pairs = zhconvs.remove("zh2Hant").unwrap();
     write_conv_file("zh2Hant", &hant_pairs)?;
-    let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
+    // let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
+    write_daac_file("zh2Hant", &hant_pairs)?;
+    let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
 
     let mut cn_pairs = zhconvs.remove("zh2CN").unwrap();
-    cn_pairs.retain(|(from, to)| hans_pairs.get(from.as_str()) != Some(to));
+    cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
+    // write_conv_file("zh2CN", &cn_pairs)?;
+    // cn_pairs.extend();
     write_conv_file("zh2CN", &cn_pairs)?;
+    let mut hans_cn_pairs = hans_pairs;
+    hans_cn_pairs.extend(cn_pairs);
+    // sort_and_dedup(&mut hans_cn_pairs);
+    write_daac_file("zh2HansCN", &hans_cn_pairs)?;
+
+    // Here, zh2Hant | zh2TW => zh2HantTW, etc. In other places, zh2TW might imply zh2HantTW.
 
     let mut tw_pairs = zhconvs.remove("zh2TW").unwrap();
-    tw_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
+    tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
+    // write_conv_file("zh2TW", &tw_pairs)?;
+    // tw_pairs.extend(.into_iter());
     write_conv_file("zh2TW", &tw_pairs)?;
+    let mut hant_tw_pairs = hant_pairs.clone();
+    hant_tw_pairs.extend(tw_pairs);
+    // sort_and_dedup(&mut hant_tw_pairs);
+    write_daac_file("zh2HantTW", &hant_tw_pairs)?;
 
     let mut hk_pairs = zhconvs.remove("zh2HK").unwrap();
-    hk_pairs.retain(|(from, to)| hant_pairs.get(from.as_str()) != Some(to));
+    hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
+    // write_conv_file("zh2HK", &hk_pairs)?;
+    // hk_pairs.extend(zhconvs.remove("zh2HK").unwrap().into_iter());
     write_conv_file("zh2HK", &hk_pairs)?;
+    let mut hant_hk_pairs = hant_pairs;
+    hant_hk_pairs.extend(hk_pairs);
+    // sort_and_dedup(&mut hant_hk_pairs);
+    write_daac_file("zh2HantHK", &hant_hk_pairs)?;
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
@@ -228,38 +252,85 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
     res
 }
 
-fn write_conv_file<'s>(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
+fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
     let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
-    let mut ffrom = File::create(dest_path_from).unwrap();
-    let mut fto = File::create(dest_path_to).unwrap();
 
-    let mut pairs = pairs.iter().peekable();
+    let mut ffrom = File::create(dest_path_from)?;
+    let mut fto = File::create(dest_path_to)?;
+    let mut it = pairs.iter().peekable();
     let mut last_from = "";
-    while let Some((from, to)) = pairs.next() {
-        for c in reduce(from.chars(), last_from.chars()) {
+    while let Some((from, to)) = it.next().map(|(f, t)| (f, t)) {
+        for c in pair_reduce(from.chars(), last_from.chars()) {
             write!(ffrom, "{}", c)?;
         }
-        for c in reduce(to.chars(), from.chars()) {
+        for c in pair_reduce(to.chars(), from.chars()) {
             write!(fto, "{}", c)?;
         }
-        if pairs.peek().is_some() {
+        if it.peek().is_some() {
             write!(ffrom, "|")?;
             write!(fto, "|")?;
         }
         last_from = from;
     }
+
     Ok(())
 }
 
-fn reduce<'s>(
+fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
+    let mut seen = HashSet::new();
+    let out_dir = env::var_os("OUT_DIR").unwrap();
+    let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
+    let daac = CharwiseDoubleArrayAhoCorasickBuilder::new()
+        .match_kind(MatchKind::LeftmostLongest)
+        .build_with_values::<_, _, u32>(pairs.iter().enumerate().rev().filter_map(
+            |(i, (f, _t))| {
+                // Note the rev here, which ensures later rules take precedence over earlier ones.
+                if seen.contains(f) {
+                    None
+                } else {
+                    seen.insert(f);
+                    Some((f, i as u32))
+                }
+            },
+        ))
+        .expect(name)
+        .serialize();
+
+    #[cfg(feature = "compress")]
+    let daac = zstd::bulk::Compressor::new(21)
+        .unwrap()
+        .compress(&daac)
+        .unwrap();
+
+    File::create(dest_path_daac)?.write_all(&daac)
+
+    // let automaton: CharwiseDoubleArrayAhoCorasick<u32> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build(opairs.iter().map(|(f, t)|f)).unwrap();
+    // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
+    // let mut fdaac = File::create(dest_path_daac)?;
+    // let daac = automaton.serialize();
+    // // let mut compressed_daac = vec![0; snap::raw::max_compress_len(daac.len())];
+    // // snap::raw::Encoder::new().compress(&daac, &mut compressed_daac).unwrap();
+    // // let compressed_daac = lz4_flex::compress_prepend_size(&daac);
+    // let compressed_daac =zstd::bulk::Compressor::new(3).unwrap().compress(&daac).unwrap();
+    //  fdaac.write(&compressed_daac)?;
+
+    // let automaton: CharwiseDoubleArrayAhoCorasick<String> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build_with_values(opairs.into_iter()).unwrap();
+    // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daccv", name));
+    // let mut fdaac = File::create(dest_path_daac)?;
+    // fdaac.write(&automaton.serialize())?;
+}
+
+const SURROGATE_START: char = '\x00';
+const SURROGATE_END: char = '\x20';
+
+fn pair_reduce<'s>(
     mut s: impl Iterator<Item = char> + 's + Clone,
     mut base: impl Iterator<Item = char> + 's + Clone,
 ) -> impl Iterator<Item = char> + 's + Clone {
-    let PLANE0_PUA_STARTING: char = '\x00';
     let mut it = iter::from_fn(move || match (s.next(), base.next()) {
-        (Some(a), Some(b)) if a == b => Some(PLANE0_PUA_STARTING),
+        (Some(a), Some(b)) if a == b => Some(SURROGATE_START),
         (Some(a), _) => Some(a),
         (None, _) => None,
     })
@@ -267,60 +338,27 @@ fn reduce<'s>(
 
     iter::from_fn(move || {
         it.next().map(|curr| {
-            if curr == PLANE0_PUA_STARTING {
+            if curr == SURROGATE_START {
                 let mut count = 1;
-                while Some(&PLANE0_PUA_STARTING) == it.peek() {
+                while Some(&SURROGATE_START) == it.peek() {
+                    if (SURROGATE_START as u32) + (count + 1) >= (SURROGATE_END as u32) {
+                        break;
+                    }
                     let _ = it.next();
                     count += 1;
                 }
-                char::from_u32(PLANE0_PUA_STARTING as u32 + count).unwrap()
+                char::from_u32(SURROGATE_START as u32 + count).unwrap()
             } else {
                 curr
             }
         })
     })
-
-    // it.group_by(|&c| c).into_iter().map(|(k, group)| if k == PLANE0_PUA_STARTING {
-    //     char::from_u32(PLANE0_PUA_STARTING as u32 + group.collect::<Vec<_>>().len() as u32).unwrap()
-    // } else {
-    //     group.next().unwrap()
-    // }
-    // )
 }
 
-// fn write_reduced(mut out: impl Write, s: &str, base: &str) -> io::Result<()> {
-//     let PLANE0_PUA_STARTING: char = '\x00';
-//     let mut unwritten = 0;
-//     let mut s = s.chars();
-//     let mut base = base.chars();
-//     while let Some(b) = base.next() {
-//         if let Some(a) = s.next() {
-//             if a == b {
-//                 unwritten += 1;
-//             } else {
-//                 if unwritten > 0 {
-//                     write!(
-//                         out,
-//                         "{}",
-//                         char::from_u32(PLANE0_PUA_STARTING as u32 + unwritten).unwrap()
-//                     )?;
-//                     unwritten = 0;
-//                 }
-//                 write!(out, "{}", a)?;
-//             }
-//         } else {
-//             break;
-//         }
-//     }
-//     if unwritten > 0 {
-//         write!(
-//             out,
-//             "{}",
-//             char::from_u32(PLANE0_PUA_STARTING as u32 + unwritten).unwrap()
-//         )?;
-//     }
-//     write!(out, "{}", s.as_str())
-// }
+fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
+    pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
+    pairs.dedup_by(|a, b| a.0 == b.0);
+}
 
 #[cfg(feature = "opencc")]
 mod opencc {

@@ -97,14 +97,15 @@ impl VariantMap<String> {
     }
 
     /// Get the pairs of conversion for a target variant
-    pub fn get_conv_pairs(&self, target: Variant) -> Vec<(&str, &str)> {
+    pub fn get_conv_pairs(&self, target: Variant) -> impl Iterator<Item = (&str, &str)> {
         use Variant::*;
         // TODO: Iterator
         // MEDIAWIKI: the code of the reference implementation is too obscure, try to replicate the
         //            the same behavior based on some tests
+        let mut it = None;
         match target {
-            // based on tests, the three are only used for regional scripts as fallbacks
-            Zh | ZhHant | ZhHans => vec![],
+            // based on tests, the three are only used as fallbacks for regional scripts
+            Zh | ZhHant | ZhHans => (),
             _ => {
                 // It won't fallback to Zh finally. So Zh is only used as from?
                 let to = match_fallback!(
@@ -122,20 +123,19 @@ impl VariantMap<String> {
                 );
 
                 if let Some(to) = to {
-                    let mut pairs = vec![];
-                    for (_variant, from) in self.0.iter() {
-                        // when variant == target, from == to, which indicates preventing the word
-                        // from converting
-                        if !from.is_empty() {
-                            pairs.push((from.as_ref(), to));
+                    // for variant == target, from == to, it prevents the word from converting
+                    it = Some(self.0.iter().filter_map(move |(_variant, from)| {
+                        if from.is_empty() {
+                            None
+                        } else {
+                            Some((from.as_ref(), to))
                         }
-                    }
-                    pairs
-                } else {
-                    vec![]
+                    }));
                 }
             }
         }
+
+        it.into_iter().flatten()
     }
 }
 

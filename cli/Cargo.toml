@@ -1,11 +1,11 @@
 [package]
 name = "zhconv-cli"
-version = "0.2.0-beta"
+version = "0.3.0-beta"
 edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-description = "Convert Traditional/Simplified Chinese and regional words of Taiwan/Hong Kong/mainland China/Singapore based on Wikipedia and OpenCC rulesets \n轉換中文簡體、繁體及兩岸、新馬地區詞，基於維基百科和OpenCC規則集"
+description = "Convert Traditional/Simplified Chinese and regional words of Taiwan/Hong Kong/mainland China/Singapore based on Wikipedia and OpenCC rulesets\n轉換中文簡體、繁體及兩岸、新馬地區詞，基於維基百科和OpenCC規則集"
 categories = ["text-processing", "localization", "value-formatting"]
 
 [[bin]]
@@ -13,7 +13,7 @@ name = "zhconv"
 path = "src/main.rs"
 
 [dependencies]
-zhconv = { version = "0.2.0-beta", path = "../" }
+zhconv = { version = "0.3.0-beta", path = "../" }
 structopt = "0.3"
 anyhow = "1.0"
 log = "0.4"

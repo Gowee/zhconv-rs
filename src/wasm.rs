@@ -1,9 +1,11 @@
 use std::str::FromStr;
 
+use itertools::Itertools;
+
 use console_error_panic_hook;
 use wasm_bindgen::prelude::*;
 
-use crate::{get_builtin_table, Variant, ZhConverterBuilder};
+use crate::{get_builtin_converter, Variant, ZhConverterBuilder};
 
 // #[wasm_bindgen(typescript_custom_section)]
 // const COMMIT_HASH: &str = concat!("COMMIT_HASH", env!("VERGEN_GIT_SHA"));
@@ -40,33 +42,39 @@ pub fn get_opencc_commit() -> String {
 /// Convert a text to a target Chinese variant.
 ///
 /// Supported target variants: zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY.
-/// If `mediawiki` is `True`, inline conversion rules such as `-{foo...bar}-` are parsed.
-/// `rules` should be line-seperated in mediawiki syntax without -{ or }- tags, such as
+/// If `wikitext` is `True`, inline conversion rules such as `-{foo...bar}-` are parsed.
+/// `rules` should be line-seperated in MediaWiki syntax without -{ or }- tags, like
 /// `zh-hans:鹿; zh-hant:馬`.
 #[wasm_bindgen]
-pub fn zhconv(text: &str, target: &str, mediawiki: Option<bool>, rules: Option<String>) -> String {
+pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<String>) -> String {
     console_error_panic_hook::set_once();
 
-    let mediawiki = mediawiki.unwrap_or(false);
-    let rules = rules.unwrap_or(String::from(""));
+    let wikitext = wikitext.unwrap_or(false);
     let target = Variant::from_str(target).expect("Unsupported target variant");
-    match (mediawiki, !rules.is_empty()) {
-        (false, false) => crate::zhconv(text, target),
-        (true, false) => crate::zhconv_mw(text, target),
-        (false, true) => ZhConverterBuilder::new()
-            .target(target)
-            .table(get_builtin_table(target))
-            .conv_lines(&rules)
-            .dfa(false)
-            .build()
-            .convert(text),
-        (true, true) => ZhConverterBuilder::new()
-            .target(target)
-            .table(get_builtin_table(target))
-            .conv_lines(&rules)
-            .rules_from_page(text)
-            .dfa(false)
-            .build()
-            .convert_allowing_inline_rules(text),
+    let converter = get_builtin_converter(target);
+    let mut builder = rules
+        .map(|rs| ZhConverterBuilder::new().conv_lines(rs.lines()));
+    if wikitext {
+        converter.convert_as_wikitext(text, &mut builder, true, true)
+    } else {
+        match builder {
+            Some(builder) => converter.convert_with_secondary_converter(text, &builder.build()),
+            None => converter.convert(text),
+        }
     }
+}
+
+#[wasm_bindgen]
+pub fn infer_variant(text: &str) -> String {
+    console_error_panic_hook::set_once();
+
+    crate::infer_variant(text).to_string()
+}
+
+
+#[wasm_bindgen]
+pub fn infer_variant_confidence(text: &str) -> String {
+    console_error_panic_hook::set_once();
+
+    crate::infer_variant_confidence(text).into_iter().map(|(v, c)| format!("{};q={:.3}", v, c)).join(", ")
 }

@@ -1,0 +1,116 @@
+build zh-Hant-HK        time:   [5.6500 ms 5.6942 ms 5.7497 ms]                             
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+
+build zh-Hant-MO        time:   [6.2874 ms 6.5755 ms 6.8917 ms]                             
+Found 19 outliers among 100 measurements (19.00%)
+  5 (5.00%) high mild
+  14 (14.00%) high severe
+
+build zh-Hans-CN        time:   [529.51 µs 537.77 µs 545.35 µs]                             
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+
+build zh-Hans-SG        time:   [543.66 µs 548.72 µs 554.65 µs]                             
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) low mild
+  1 (1.00%) high mild
+  3 (3.00%) high severe
+
+build zh-Hans-MY        time:   [613.11 µs 637.55 µs 661.21 µs]                             
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+
+Benchmarking load zh2Hant: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 38.4s, or reduce sample count to 10.
+load zh2Hant            time:   [343.79 ms 349.43 ms 355.54 ms]                         
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
+load zh2Hans            time:   [7.5079 ms 7.6521 ms 7.8594 ms]                         
+Found 10 outliers among 100 measurements (10.00%)
+  8 (8.00%) high mild
+  2 (2.00%) high severe
+
+Benchmarking load zh2TW: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 42.3s, or reduce sample count to 10.
+load zh2TW              time:   [397.06 ms 400.55 ms 404.21 ms]                       
+Found 7 outliers among 100 measurements (7.00%)
+  7 (7.00%) high mild
+
+Benchmarking load zh2HK: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 51.1s, or reduce sample count to 10.
+load zh2HK              time:   [509.56 ms 515.61 ms 521.87 ms]                       
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+Benchmarking load zh2MO: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 58.2s, or reduce sample count to 10.
+load zh2MO              time:   [466.36 ms 472.44 ms 479.31 ms]                       
+Found 11 outliers among 100 measurements (11.00%)
+  5 (5.00%) high mild
+  6 (6.00%) high severe
+
+load zh2CN              time:   [22.298 ms 22.617 ms 23.060 ms]                       
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+load zh2SG              time:   [22.858 ms 23.269 ms 23.796 ms]                       
+Found 7 outliers among 100 measurements (7.00%)
+  4 (4.00%) high mild
+  3 (3.00%) high severe
+
+load zh2MY              time:   [22.051 ms 22.226 ms 22.416 ms]                       
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+zh2CN 天乾物燥      time:   [96.490 ns 97.446 ns 98.662 ns]                                   
+Found 9 outliers among 100 measurements (9.00%)
+  5 (5.00%) high mild
+  4 (4.00%) high severe
+
+Benchmarking zh2TW data54k: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.3s, enable flat sampling, or reduce sample count to 60.
+zh2TW data54k           time:   [910.01 µs 935.22 µs 967.41 µs]                           
+Found 8 outliers among 100 measurements (8.00%)
+  4 (4.00%) high mild
+  4 (4.00%) high severe
+
+zh2CN data54k           time:   [492.12 µs 497.52 µs 503.20 µs]                          
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+zh2Hant data689k        time:   [7.8768 ms 8.0761 ms 8.2951 ms]                             
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+
+zh2TW data689k          time:   [7.3862 ms 7.5669 ms 7.7676 ms]                           
+Found 8 outliers among 100 measurements (8.00%)
+  1 (1.00%) high mild
+  7 (7.00%) high severe
+
+Benchmarking zh2Hant data3185k: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 8.9s, or reduce sample count to 50.
+zh2Hant data3185k       time:   [92.361 ms 94.453 ms 96.996 ms]                              
+Found 9 outliers among 100 measurements (9.00%)
+  4 (4.00%) high mild
+  5 (5.00%) high severe
+
+Benchmarking zh2TW data3185k: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 11.1s, or reduce sample count to 40.
+zh2TW data3185k         time:   [99.316 ms 101.38 ms 103.82 ms]                            
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
+Benchmarking zh2TW data55m: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 181.2s, or reduce sample count to 10.
+zh2TW data55m           time:   [1.7630 s 1.7842 s 1.8075 s]                             
+Found 6 outliers among 100 measurements (6.00%)
+  5 (5.00%) high mild
+  1 (1.00%) high severe
