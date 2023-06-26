@@ -34,3 +34,20 @@ macro_rules! regex {
     }};
 }
 pub(crate) use regex;
+
+// https://stackoverflow.com/a/51345372/5488616
+macro_rules! unwrap_or_return {
+    ( $e:expr ) => {
+        match $e {
+            Some(x) => x,
+            None => return,
+        }
+    };
+    ( $e:expr, $r:expr ) => {
+        match $e {
+            Some(x) => x,
+            None => return $r,
+        }
+    };
+}
+pub(crate) use unwrap_or_return;

@@ -6,7 +6,7 @@
 use std::collections::HashMap;
 use std::convert::AsRef;
 use std::fmt::{self, Display};
-use std::iter::Map;
+use std::iter::{self, Map};
 use std::str::FromStr;
 
 use once_cell::sync::Lazy;
@@ -221,24 +221,29 @@ impl Conv {
         }
     }
 
-    #[inline]
-    pub fn get_conv_pairs(&self, target: Variant) -> Vec<(&str, &str)> {
-        use Conv::*;
-        // TODO: iterator
-        match self {
-            Asis(s) => vec![(s, s)],
-            Map(m) => {
-                let mut pairs = m.bid.get_conv_pairs(target);
-                pairs.extend(
+    pub fn get_conv_pairs(&self, target: Variant) -> impl Iterator<Item = (&str, &str)> {
+        let mut mit = self
+            .as_map()
+            .map(|m| {
+                m.bid.get_conv_pairs(target).chain(
                     m.unid
                         .get_conv_pairs(target)
                         .iter()
-                        // .filter(|(f, _t)| !f.is_empty()) // filter out emtpy froms that troubles AC
                         .map(|(f, t)| (f.as_ref(), t.as_ref())),
-                );
-                pairs
+                )
+            })
+            .into_iter()
+            .flatten()
+            .filter(|(f, _t)| !f.is_empty()); // filter out emtpy froms that troubles AC
+        let mut maybe_asis = self.as_asis().map(|s| Some((s, s)));
+
+        iter::from_fn(move || {
+            if let Some(asis_yielding) = maybe_asis.as_mut() {
+                asis_yielding.take()
+            } else {
+                mit.next()
             }
-        }
+        })
     }
 
     pub fn as_asis(&self) -> Option<&str> {
@@ -362,11 +367,11 @@ impl FromStr for Conv {
 pub struct ConvAction(Action, Conv);
 
 impl ConvAction {
-    pub fn adds(&self) -> bool {
+    pub fn is_add(&self) -> bool {
         self.0 == Action::Add
     }
 
-    pub fn removes(&self) -> bool {
+    pub fn is_remove(&self) -> bool {
         self.0 == Action::Remove
     }
 

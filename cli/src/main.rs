@@ -11,7 +11,9 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
-use zhconv::{get_builtin_tables, pagerules::PageRules, Variant, ZhConverterBuilder};
+use zhconv::{
+    get_builtin_converter, get_builtin_tables, pagerules::PageRules, Variant, ZhConverterBuilder,
+};
 
 const DFA_FILESIZE: usize = 2 * 1024 * 1024;
 
@@ -30,12 +32,6 @@ struct Opt {
     #[structopt(long)]
     wikitext: bool,
 
-    /// Whether to build DFA for AC automaton{n}
-    /// With DFA enabled by default, it is slower to warm up while faster to convert.{n}
-    /// Omit to let the program to determine by input size.
-    #[structopt(long)]
-    dfa: Option<bool>,
-
     /// Target variant to convert to (zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY)
     #[structopt(name = "VARIANT")]
     variant: Variant,
@@ -52,104 +48,63 @@ fn main() -> Result<()> {
         rules,
         rule_files,
         wikitext,
-        dfa,
         variant,
         files,
     } = Opt::from_args();
 
-    let mut builder = ZhConverterBuilder::new()
-        .target(variant)
-        .tables(get_builtin_tables(variant));
+    let convert_to: Box<dyn Fn(&str, &mut String) -> ()> = if wikitext {
+        if !rules.is_empty() || !rule_files.is_empty() {
+            unimplemented!("Convert wikitext with additional rules are not supported yet")
+        }
+        let converter = get_builtin_converter(variant);
+        Box::new(|text: &str, output: &mut String| {
+            converter.convert_to_as_wikitext_extended(&text, output)
+        })
+    } else {
+        let mut secondary_builder = ZhConverterBuilder::new();
+        for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
+            secondary_builder = secondary_builder
+                .convs([&rule.parse().map_err(|_e| Error::msg("Invalid rule"))?]);
+        }
+        for path in rule_files.into_iter() {
+            secondary_builder = secondary_builder.conv_lines(&fs::read_to_string(path)?);
+        }
+        let secondary_converter = secondary_builder.build();
 
-    for rule in rules.into_iter().filter(|s| !s.trim().is_empty()) {
-        builder = builder.add_conv(rule.parse().map_err(|_e| Error::msg("Invalid rule"))?);
-    }
-    for path in rule_files.into_iter() {
-        builder = builder.conv_lines(&fs::read_to_string(path)?);
-    }
+        let converter = get_builtin_converter(variant);
+        Box::new(
+            (move |text: &str, output: &mut String| {
+                converter.convert_to_with_secondary_converter(&text, output, &secondary_converter)
+            }),
+        )
+    };
+
+    let convert = |text: &str| {
+        let mut output = String::with_capacity(text.len());
+        convert_to(text, &mut output);
+        output
+    };
 
     if files.is_empty() {
         let mut input = String::new();
         io::stdin().lock().read_to_string(&mut input).unwrap();
-        if wikitext {
-            builder = builder.rules_from_page(&input);
-        }
-        // builder = builder.dfa(dfa.unwrap_or(input.len() >= DFA_FILESIZE));
-        let converter = builder.build();
-        if wikitext {
-            println!("{}", converter.convert_as_wikitext_extended(&input));
-        } else {
-            println!("{}", converter.convert(&input));
-        }
+        println!("{}", convert(&input));
     } else {
         let total = files.len();
-        let mut it = files.into_iter();
-
-        let first_path = it.next().unwrap();
-        let first_text = fs::read_to_string(&first_path)?;
-
-        let _dfa = dfa.unwrap_or(total > 1 || first_text.len() >= DFA_FILESIZE);
-        // builder = builder.dfa(dfa);
-
-        let files = [(first_path, Ok(first_text))]
-            .into_iter()
-            .chain(it.map(|path| {
-                let res = fs::read_to_string(&path);
-                (path, res)
-            }));
-
-        if wikitext {
-            let mut converter = None;
-            for (idx, (path, res)) in files.into_iter().enumerate() {
-                let text = res?;
-                info!(
-                    "Converting {} ... ({}/{})",
-                    path.to_string_lossy(),
-                    idx + 1,
-                    total
-                );
-                let page_rules = text
-                    .parse::<PageRules>()
-                    .map_err(|_e| Error::msg("Invalid rules in the text"))?;
-                let mut tempfile = tempfile_for(&path)?;
-                if true {
-                    // page_rules.as_conv_actions().is_empty() {
-                    // no inline global rules, try to re-use the existing converter
-                    let converter = converter.get_or_insert_with(|| builder.build());
-                    writeln!(
-                        tempfile,
-                        "{}",
-                        converter.convert_as_wikitext_extended(&text)
-                    )?;
-                } else {
-                    // inline global rules exists, so build a new converter
-                    let converter = builder.clone().page_rules(&page_rules).build();
-                    writeln!(
-                        tempfile,
-                        "{}",
-                        converter.convert_as_wikitext_extended(&text)
-                    )?;
-                }
-
-                fs::rename(tempfile.path(), path)?;
-            }
-        } else {
-            let converter = builder.build();
-            for (idx, (path, res)) in files.into_iter().enumerate() {
-                let text = res?;
-                info!(
-                    "Converting {} ... ({}/{})",
-                    path.to_string_lossy(),
-                    idx + 1,
-                    total
-                );
-                let mut tempfile = tempfile_for(&path)?;
-                writeln!(tempfile, "{}", converter.convert(&text))?;
-                fs::rename(tempfile.path(), path)?;
-            }
+        for (idx, path) in files.into_iter().enumerate() {
+            let text = fs::read_to_string(&path)?;
+            info!(
+                "Converting {} ... ({}/{})",
+                path.to_string_lossy(),
+                idx + 1,
+                total
+            );
+            let mut tempfile = tempfile_for(&path)?;
+            writeln!(tempfile, "{}", convert(&text))?;
+            fs::rename(tempfile.path(), path)?;
         }
     }
-    //天干物燥，小心火烛。你想干什么不干他的事。天干地支，简称干支，是传统纪年方法。公交车和出租车都是公共交通工具。老挝（-{D|zh-cn:老挝; zh-hk: 寮國}-）是一个位于东南亚的国家。
+    // test: 天干物燥，小心火烛。你想干什么不干他的事。天干地支，简称干支，是传统纪年方法。公交车和出租车都是公共交通工具。老挝（-{D|zh-cn:老挝; zh-hk: 寮國}-）是一个位于东南亚的国家。
     Ok(())
 }
 

@@ -96,34 +96,66 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert_as_wikitext_extended(text)
 }
 
-/// Determine whether the give text looks like Traditional Chinese over Simplified Chinese.
-///
-/// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
-/// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
-/// confidence. `0.5` indicates undeterminable.
-pub fn is_hant(text: &str) -> f32 {
-    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text); // might excced 1
-    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text);
-    let ratio = if non_hant_score == 0 {
-        f32::MAX
-    } else {
-        non_hans_score as f32 / non_hant_score as f32
-    };
-    1f32 / (1f32 + E.powf(ratio))
-}
+// /// Determine whether the given text looks like Traditional Chinese over Simplified Chinese.
+// ///
+// /// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
+// /// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
+// /// confidence. `0.5` indicates undeterminable.
+// pub fn is_hant(text: &str) -> f32 {
+//     let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text);
+//     let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text);
+//     let mut ratio = if non_hant_score == 0 {
+//         f32::MAX
+//     } else {
+//         non_hans_score as f32 / non_hant_score as f32
+//     } - 1.0;
+//     if ratio < 0.0 {
+//         ratio =  - ( 1.0 / (ratio + 1.0) - 1.0);
+//     }
+//     1f32 / (1f32 + E.powf(-ratio))
+// }
 
-/// Determine whether the give text looks like Simplified Chinese over Traditional Chinese.
+/// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
 ///
 /// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
 /// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
-/// confidence. `0.5` indicates undeterminable.
-pub fn is_hans(text: &str) -> f32 {
-    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text); // might excced 1
+/// confidence. `0.5` indicates undeterminable (half-half).
+pub fn is_hans_probability(text: &str) -> f32 {
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text);
     let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text);
-    let ratio = if non_hans_score == 0 {
+    let mut ratio = if non_hans_score == 0 {
         f32::MAX
     } else {
         non_hant_score as f32 / non_hans_score as f32
-    };
-    1f32 / (1f32 + E.powf(ratio))
+    } - 1.0;
+    if ratio < 0.0 {
+        ratio = -(1.0 / (ratio + 1.0) - 1.0);
+    }
+    1f32 / (1f32 + E.powf(-ratio))
+}
+
+/// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
+///
+/// Equivalent to `is_hans_probability(text) > 0.5`.
+pub fn is_hans(text: &str) -> bool {
+    is_hans_probability(text) > 0.5
+}
+
+/// Determines the Chinese variant of the input text.
+///
+/// # Returns
+/// Possible return values are only `Variant::CN`, `Variant::TW` and `Variant::HK`.
+pub fn infer_variant(text: &str) -> Variant {
+    let non_cn_score = ZH_TO_CN_CONVERTER.count_matched(text);
+    let non_tw_score = ZH_TO_TW_CONVERTER.count_matched(text);
+    let non_hk_score = ZH_TO_HK_CONVERTER.count_matched(text);
+
+    // authored by ChatGPT
+    if non_cn_score <= non_tw_score && non_cn_score <= non_hk_score {
+        Variant::ZhCN
+    } else if non_tw_score <= non_cn_score && non_tw_score <= non_hk_score {
+        Variant::ZhTW
+    } else {
+        Variant::ZhHK
+    }
 }

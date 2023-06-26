@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 
+use std::collections::HashSet;
 use std::convert::TryInto;
 use std::env;
 use std::fs::{self, File};
@@ -144,9 +145,7 @@ fn main() -> io::Result<()> {
             _ => (),
         }
 
-        // // longer phrases come first; lexicographically smaller phrases come first
-        // pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
-        // pairs.dedup_by(|a, b| a.0 == b.0);
+        // longer phrases come first; lexicographically smaller phrases come first
         sort_and_dedup(pairs);
 
         // debug_assert_eq!(
@@ -180,7 +179,7 @@ fn main() -> io::Result<()> {
     write_conv_file("zh2CN", &cn_pairs)?;
     let mut hans_cn_pairs = hans_pairs;
     hans_cn_pairs.extend(cn_pairs);
-    sort_and_dedup(&mut hans_cn_pairs);
+    // sort_and_dedup(&mut hans_cn_pairs);
     write_daac_file("zh2HansCN", &hans_cn_pairs)?;
 
     // Here, zh2Hant | zh2TW => zh2HantTW, etc. In other places, zh2TW might imply zh2HantTW.
@@ -192,7 +191,7 @@ fn main() -> io::Result<()> {
     write_conv_file("zh2TW", &tw_pairs)?;
     let mut hant_tw_pairs = hant_pairs.clone();
     hant_tw_pairs.extend(tw_pairs);
-    sort_and_dedup(&mut hant_tw_pairs);
+    // sort_and_dedup(&mut hant_tw_pairs);
     write_daac_file("zh2HantTW", &hant_tw_pairs)?;
 
     let mut hk_pairs = zhconvs.remove("zh2HK").unwrap();
@@ -202,7 +201,7 @@ fn main() -> io::Result<()> {
     write_conv_file("zh2HK", &hk_pairs)?;
     let mut hant_hk_pairs = hant_pairs;
     hant_hk_pairs.extend(hk_pairs);
-    sort_and_dedup(&mut hant_hk_pairs);
+    // sort_and_dedup(&mut hant_hk_pairs);
     write_daac_file("zh2HantHK", &hant_hk_pairs)?;
 
     if std::env::var("DOCS_RS").is_err() {
@@ -253,7 +252,7 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
     res
 }
 
-fn write_conv_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
+fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
     let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
@@ -279,12 +278,23 @@ fn write_conv_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> 
     Ok(())
 }
 
-fn write_daac_file(name: &str, pairs: &Vec<(String, String)>) -> io::Result<()> {
+fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
+    let mut seen = HashSet::new();
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
     let daac = CharwiseDoubleArrayAhoCorasickBuilder::new()
         .match_kind(MatchKind::LeftmostLongest)
-        .build::<_, _, u32>(pairs.iter().map(|(f, _)| f))
+        .build_with_values::<_, _, u32>(pairs.iter().enumerate().rev().filter_map(
+            |(i, (f, _t))| {
+                // Note the rev here, which ensures later rules take precedence over earlier ones.
+                if seen.contains(f) {
+                    None
+                } else {
+                    seen.insert(f);
+                    Some((f, i as u32))
+                }
+            },
+        ))
         .expect(name)
         .serialize();
 
