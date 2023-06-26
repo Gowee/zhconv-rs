@@ -490,7 +490,7 @@ impl ZhConverter {
     //     }
     // }
 
-    /// Count the sum of lengths of matched source words to be substituted in the given text.
+    /// Count the sum of lengths of matched source words to be substituted in the given text, in bytes.
     pub fn count_matched(&self, text: &str) -> usize {
         let automaton = unwrap_or_return!(self.automaton.as_ref(), 0);
 

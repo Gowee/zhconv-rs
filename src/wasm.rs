@@ -1,5 +1,7 @@
 use std::str::FromStr;
 
+use itertools::Itertools;
+
 use console_error_panic_hook;
 use wasm_bindgen::prelude::*;
 
@@ -67,4 +69,12 @@ pub fn infer_variant(text: &str) -> String {
     console_error_panic_hook::set_once();
 
     crate::infer_variant(text).to_string()
+}
+
+
+#[wasm_bindgen]
+pub fn infer_variant_confidence(text: &str) -> String {
+    console_error_panic_hook::set_once();
+
+    crate::infer_variant_confidence(text).into_iter().map(|(v, c)| format!("{};q={:.3}", v, c)).join(", ")
 }

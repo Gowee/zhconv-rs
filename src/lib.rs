@@ -46,8 +46,6 @@
 //! see [`ZhConverterBuilder`].
 //!
 
-use std::f32::consts::E;
-
 mod converter;
 mod utils;
 
@@ -117,21 +115,22 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
 
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
 ///
-/// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
-/// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
-/// confidence. `0.5` indicates undeterminable (half-half).
+/// The return value is a real number in the range `[0, 1]` (inclusive) that indicates
+/// confidence level. A value close to 1 indicate high confidence. A value close to 0
+/// indicates low confidence. `0.5` indicates undeterminable (half-half).
 pub fn is_hans_probability(text: &str) -> f32 {
-    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text);
-    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text);
-    let mut ratio = if non_hans_score == 0 {
-        f32::MAX
-    } else {
-        non_hant_score as f32 / non_hans_score as f32
-    } - 1.0;
-    if ratio < 0.0 {
-        ratio = -(1.0 / (ratio + 1.0) - 1.0);
-    }
-    1f32 / (1f32 + E.powf(-ratio))
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text) as f32;
+    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text) as f32;
+    // let mut ratio = if non_hans_score == 0 {
+    //     f32::MAX
+    // } else {
+    //     non_hant_score as f32 / non_hans_score as f32
+    // } - 1.0;
+    // if ratio < 0.0 {
+    //     ratio = -(1.0 / (ratio + 1.0) - 1.0);
+    // }
+    // 1f32 / (1f32 + E.powf(-ratio))
+    non_hant_score / (non_hans_score + non_hant_score)
 }
 
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
@@ -158,4 +157,57 @@ pub fn infer_variant(text: &str) -> Variant {
     } else {
         Variant::ZhHK
     }
+}
+
+/// Determines the Chinese variant of the input text with confidence.
+///
+/// # Returns
+/// A array of `(variant, confidence_level)`. `confidence_level` is with in `0` to `1` (inclusive).
+// /// Note that, unlike [`is_hans_confidence`](is_hans_confidence), a `confidence_level` greater
+// /// than `0.5` might not imply high enough likelihood.
+pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
+    // let total = text.len() as f32;
+    let non_cn_score = ZH_TO_CN_CONVERTER.count_matched(text) as f32;
+    let non_tw_score = ZH_TO_TW_CONVERTER.count_matched(text) as f32;
+    let non_hk_score = ZH_TO_HK_CONVERTER.count_matched(text) as f32;
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text) as f32;
+    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text) as f32;
+
+    let total_score = non_cn_score + non_tw_score + non_hk_score - non_hant_score;
+    // let region_total = non_cn_score + non_tw_score + non_hk_score - non_hant_score;
+    // let script_total = non_hant_score + non_hans_score;
+    let mut confidence_map = [
+        (
+            Variant::ZhCN,
+            1f32 - non_cn_score.min(total_score) / total_score,
+        ),
+        (
+            Variant::ZhTW,
+            1f32 - non_tw_score.min(total_score) / total_score,
+        ),
+        (
+            Variant::ZhHK,
+            1f32 - non_hk_score.min(total_score) / total_score,
+        ),
+        (
+            Variant::ZhHans,
+            1f32 - non_hans_score.min(total_score) / total_score,
+        ),
+        (
+            Variant::ZhHant,
+            1f32 - non_hant_score.min(total_score) / total_score,
+        ),
+    ];
+    // let mut confidence_map = [(Variant::ZhCN, 1f32 - non_cn_score / region_total),(Variant::ZhTW, 1f32 - non_tw_score / region_total),(Variant::ZhHK, 1f32 - non_hk_score / region_total),(Variant::ZhHans,1f32 - non_hans_score / script_total),(Variant::ZhHant, 1f32 - non_hant_score / script_total)];
+    // let mut confidence_map = [(Variant::ZhCN, non_cn_score),(Variant::ZhTW, non_tw_score),(Variant::ZhHK, non_hk_score),(Variant::ZhHans,non_hans_score),(Variant::ZhHant, non_hant_score), (Variant::Zh, total)];
+
+    // let mut confidence_map = [
+    //     (Variant::ZhCN, 1f32 - non_cn_score / total),
+    //     (Variant::ZhTW, 1f32 - non_tw_score / total),
+    //     (Variant::ZhHK, 1f32 - non_hk_score / total),
+    //     (Variant::ZhHans, 1f32 - non_hans_score / total),
+    //     (Variant::ZhHant, 1f32 - non_hant_score / total),
+    // ];
+    confidence_map.sort_by(|a, b| b.1.total_cmp(&a.1));
+    confidence_map
 }
