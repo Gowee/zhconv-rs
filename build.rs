@@ -215,6 +215,8 @@ fn main() -> io::Result<()> {
         // #[cfg(target_arch = "wasm32")] #[cfg(all(target_arch = "wasm32", target_os = "unknown"))]
         if env::var("CARGO_CFG_TARGET_ARCH") == Ok("wasm32".to_owned()) {
             EmitBuilder::builder()
+                .all_build()
+                .all_git()
                 .emit()
                 .unwrap_or_else(|e| println!("cargo:warning=vergen failed: {:?}", e));
         }
