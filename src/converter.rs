@@ -357,6 +357,7 @@ impl ZhConverter {
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L532
 
+        #[allow(clippy::type_complexity)]
         let mut convert_to: Box<dyn Fn(&str, &mut String)> =
             Box::new(|text: &str, output: &mut String| self.convert_to(text, output));
         if secondary_converter_builder.is_some() || apply_global_rules {
@@ -600,7 +601,7 @@ impl<'t> ZhConverterBuilder<'t> {
     ///
     /// For general cases, check [`add_conv_pair`](#method.add_conv_pair) which takes a plain
     /// `from -> to` pair.
-    pub fn convs<'c>(mut self, convs: impl IntoIterator<Item = impl AsRef<Conv>>) -> Self {
+    pub fn convs(mut self, convs: impl IntoIterator<Item = impl AsRef<Conv>>) -> Self {
         for conv in convs.into_iter() {
             self.adds.extend(
                 conv.as_ref()
@@ -612,7 +613,7 @@ impl<'t> ZhConverterBuilder<'t> {
     }
 
     /// Mark a conv as removed.
-    pub fn unconvs<'c>(mut self, convs: impl IntoIterator<Item = impl AsRef<Conv>>) -> Self {
+    pub fn unconvs(mut self, convs: impl IntoIterator<Item = impl AsRef<Conv>>) -> Self {
         for conv in convs.into_iter() {
             self.removes.extend(
                 conv.as_ref()

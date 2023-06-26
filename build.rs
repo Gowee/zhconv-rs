@@ -262,10 +262,10 @@ fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     let mut it = pairs.iter().peekable();
     let mut last_from = "";
     while let Some((from, to)) = it.next().map(|(f, t)| (f, t)) {
-        for c in reduce(from.chars(), last_from.chars()) {
+        for c in pair_reduce(from.chars(), last_from.chars()) {
             write!(ffrom, "{}", c)?;
         }
-        for c in reduce(to.chars(), from.chars()) {
+        for c in pair_reduce(to.chars(), from.chars()) {
             write!(fto, "{}", c)?;
         }
         if it.peek().is_some() {
@@ -322,13 +322,15 @@ fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     // fdaac.write(&automaton.serialize())?;
 }
 
-fn reduce<'s>(
+const SURROGATE_START: char = '\x00';
+const SURROGATE_END: char = '\x20';
+
+fn pair_reduce<'s>(
     mut s: impl Iterator<Item = char> + 's + Clone,
     mut base: impl Iterator<Item = char> + 's + Clone,
 ) -> impl Iterator<Item = char> + 's + Clone {
-    let PLANE0_PUA_STARTING: char = '\x00';
     let mut it = iter::from_fn(move || match (s.next(), base.next()) {
-        (Some(a), Some(b)) if a == b => Some(PLANE0_PUA_STARTING),
+        (Some(a), Some(b)) if a == b => Some(SURROGATE_START),
         (Some(a), _) => Some(a),
         (None, _) => None,
     })
@@ -336,13 +338,16 @@ fn reduce<'s>(
 
     iter::from_fn(move || {
         it.next().map(|curr| {
-            if curr == PLANE0_PUA_STARTING {
+            if curr == SURROGATE_START {
                 let mut count = 1;
-                while Some(&PLANE0_PUA_STARTING) == it.peek() {
+                while Some(&SURROGATE_START) == it.peek() {
+                    if (SURROGATE_START as u32) + (count + 1) >= (SURROGATE_END as u32) {
+                        break;
+                    }
                     let _ = it.next();
                     count += 1;
                 }
-                char::from_u32(PLANE0_PUA_STARTING as u32 + count).unwrap()
+                char::from_u32(SURROGATE_START as u32 + count).unwrap()
             } else {
                 curr
             }

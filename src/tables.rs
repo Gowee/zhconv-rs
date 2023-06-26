@@ -158,8 +158,8 @@ pub fn expand_table((froms, tos): Table<'_>) -> impl Iterator<Item = (String, St
     std::iter::zip(froms.trim().split('|'), tos.trim().split('|')).scan(
         String::from(""),
         move |last_from, (from, to)| {
-            let from: String = expand_pair(from.chars(), last_from.chars()).collect();
-            let to: String = expand_pair(to.chars(), from.chars()).collect();
+            let from: String = pair_expand(from.chars(), last_from.chars()).collect();
+            let to: String = pair_expand(to.chars(), from.chars()).collect();
             last_from.clear();
             last_from.push_str(&from);
             Some((from, to))
@@ -167,20 +167,20 @@ pub fn expand_table((froms, tos): Table<'_>) -> impl Iterator<Item = (String, St
     )
 }
 
+const SURROGATE_START: u32 = 0x00;
+const SURROGATE_END: u32 = 0x20;
+
 #[doc(hidden)]
-pub fn expand_pair<'s>(
+pub fn pair_expand<'s>(
     mut s: impl Iterator<Item = char> + 's,
     mut base: impl Iterator<Item = char> + 's,
 ) -> impl Iterator<Item = char> + 's {
-    let SYMBOL_START: char = '\x00';
-    let SYMBOL_END: u32 = 32;
-
     let mut expanding = 0;
     iter::from_fn(move || {
         let b = base.next();
         if expanding == 0 {
             match s.next() {
-                Some(a) if (a as u32) < SYMBOL_END => expanding = a as u32 - SYMBOL_START as u32,
+                Some(a) if (a as u32) < SURROGATE_END => expanding = a as u32 - SURROGATE_START,
                 Some(a) => return Some(a),
                 None => return None,
             }
