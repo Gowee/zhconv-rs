@@ -52,8 +52,7 @@ pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<St
     let wikitext = wikitext.unwrap_or(false);
     let target = Variant::from_str(target).expect("Unsupported target variant");
     let converter = get_builtin_converter(target);
-    let mut builder = rules
-        .map(|rs| ZhConverterBuilder::new().conv_lines(rs.lines()));
+    let mut builder = rules.map(|rs| ZhConverterBuilder::new().conv_lines(rs.lines()));
     if wikitext {
         converter.convert_as_wikitext(text, &mut builder, true, true)
     } else {
@@ -65,16 +64,32 @@ pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<St
 }
 
 #[wasm_bindgen]
+pub fn is_hans(text: &str) -> bool {
+    console_error_panic_hook::set_once();
+
+    crate::is_hans(text)
+}
+
+#[wasm_bindgen]
+pub fn is_hans_confidence(text: &str) -> f32 {
+    console_error_panic_hook::set_once();
+
+    crate::is_hans_confidence(text)
+}
+
+#[wasm_bindgen]
 pub fn infer_variant(text: &str) -> String {
     console_error_panic_hook::set_once();
 
     crate::infer_variant(text).to_string()
 }
 
-
 #[wasm_bindgen]
 pub fn infer_variant_confidence(text: &str) -> String {
     console_error_panic_hook::set_once();
 
-    crate::infer_variant_confidence(text).into_iter().map(|(v, c)| format!("{};q={:.3}", v, c)).join(", ")
+    crate::infer_variant_confidence(text)
+        .into_iter()
+        .map(|(v, c)| format!("{};q={:.3}", v, c))
+        .join(", ")
 }

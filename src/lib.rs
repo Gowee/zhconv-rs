@@ -94,24 +94,12 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert_as_wikitext_extended(text)
 }
 
-// /// Determine whether the given text looks like Traditional Chinese over Simplified Chinese.
-// ///
-// /// The return value is a real number in the range `[0, 1)` (left inclusive) that indicates
-// /// confidence. A value close to 1 indicate high confidence. A value close to 0 indicates low
-// /// confidence. `0.5` indicates undeterminable.
-// pub fn is_hant(text: &str) -> f32 {
-//     let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text);
-//     let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text);
-//     let mut ratio = if non_hant_score == 0 {
-//         f32::MAX
-//     } else {
-//         non_hans_score as f32 / non_hant_score as f32
-//     } - 1.0;
-//     if ratio < 0.0 {
-//         ratio =  - ( 1.0 / (ratio + 1.0) - 1.0);
-//     }
-//     1f32 / (1f32 + E.powf(-ratio))
-// }
+/// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
+///
+/// Equivalent to `is_hans_probability(text) > 0.5`.
+pub fn is_hans(text: &str) -> bool {
+    is_hans_probability(text) > 0.5
+}
 
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
 ///
@@ -133,17 +121,10 @@ pub fn is_hans_probability(text: &str) -> f32 {
     non_hant_score / (non_hans_score + non_hant_score)
 }
 
-/// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
-///
-/// Equivalent to `is_hans_probability(text) > 0.5`.
-pub fn is_hans(text: &str) -> bool {
-    is_hans_probability(text) > 0.5
-}
-
-/// Determines the Chinese variant of the input text.
+/// Determine the Chinese variant of the input text.
 ///
 /// # Returns
-/// Possible return values are only `Variant::CN`, `Variant::TW` and `Variant::HK`.
+/// Possible return values are only `ZhCN`, `ZhTW` and `ZhHK`.
 pub fn infer_variant(text: &str) -> Variant {
     let non_cn_score = ZH_TO_CN_CONVERTER.count_matched(text);
     let non_tw_score = ZH_TO_TW_CONVERTER.count_matched(text);
@@ -159,10 +140,11 @@ pub fn infer_variant(text: &str) -> Variant {
     }
 }
 
-/// Determines the Chinese variant of the input text with confidence.
+/// Determine the Chinese variant of the input text with confidence.
 ///
 /// # Returns
-/// A array of `(variant, confidence_level)`. `confidence_level` is with in `0` to `1` (inclusive).
+/// A array of `(variant, confidence_level)`, where `confidence_level` is in the range `[0, 1]
+/// (inclusive).
 // /// Note that, unlike [`is_hans_confidence`](is_hans_confidence), a `confidence_level` greater
 // /// than `0.5` might not imply high enough likelihood.
 pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
