@@ -19,7 +19,7 @@ use vergen::EmitBuilder;
 use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
-const MEDIAWIKI_COMMIT: &str = "bcaab3d057c8e550793100448f725761e1a8e017";
+const MEDIAWIKI_COMMIT: &str = "c40f34c8562e739d2c9baaec8543a968f29a4676";
 const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("37c17b6361ab774b0b7dab801aa7ff919f8efa6e2ad3f66ccb051e9c1a848f6e");
 
