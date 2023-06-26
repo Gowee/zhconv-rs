@@ -1,5 +1,6 @@
 from typing import Optional, Union, Literal, Sequence, Tuple, TextIO, Callable
 
+# TODO: case-insensitive literal
 ZhVariant = Union[
     Literal["zh"],  # dummy for nothing
     Literal["zh-Hant"],
@@ -20,7 +21,7 @@ ZhVariant = Union[
     Literal["zh-my"],
 ]
 
-def zhconv(text: str, target: ZhVariant, mediawiki: bool = False) -> str:
+def zhconv(text: str, target: ZhVariant, wikitext: bool = False) -> str:
     pass
 
 def make_converter(

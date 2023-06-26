@@ -9,26 +9,26 @@ use pyo3::types::PyString;
 use pyo3_file::PyFileLikeObject;
 
 use ::zhconv::{
-    get_builtin_table, zhconv as zhconv_plain, zhconv_mw, Variant, ZhConverter as Converter,
+    get_builtin_tables, zhconv as zhconv_plain, zhconv_mw, Variant, ZhConverter as Converter,
     ZhConverterBuilder,
 };
 
-/// zhconv(text, target[, mediawiki]) -> result
+/// zhconv(text, target[, wikitext]) -> result
 ///
 /// Convert a text to a target Chinese variant. Converters are constructed from built-in rulesets
-/// on demand and cached automatically. If `mediawiki` is `True`, inline conversion rules such as
+/// on demand and cached automatically. If `wikitext` is `True`, inline conversion rules such as
 /// `-{foo...bar}-` are activated, while converters must be rebuilt for every invocation if there
 /// are global rules. Check the project's README for more info.
 ///
 /// Supported target variants: zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY.
 #[pyfunction]
-fn zhconv(py: Python<'_>, text: &str, target: &str, mediawiki: Option<bool>) -> PyResult<String> {
+fn zhconv(py: Python<'_>, text: &str, target: &str, wikitext: Option<bool>) -> PyResult<String> {
     py.allow_threads(move || {
         let target = Variant::from_str(target).map_err(|_e| {
             PyTypeError::new_err(format!("Unsupported target variant: {}", target))
         })?;
-        let mediawiki = mediawiki.unwrap_or(false);
-        Ok(if mediawiki {
+        let wikitext = wikitext.unwrap_or(false);
+        Ok(if wikitext {
             zhconv_mw(text, target)
         } else {
             zhconv_plain(text, target)
@@ -50,15 +50,11 @@ impl ZhConverter {
     }
 }
 
-/// make_converter(base, rules, dfa = True) -> converter
+/// make_converter(base, rules) -> converter
 ///
 /// Make a converter with custom conversion rules, optionally based on a built-in ruleset
 /// specified by the `base` target variant. Rules can be an array of `(from, to)` pairs, a file
-/// path or a file-like object.
-///
-/// With DFA activated by default, the converter takes more time to build while converts more
-/// efficiently. All built-in converters used be `zhconv` have this feature enabled for better
-/// conversion performance.
+/// path or a file-like object that consists of space-seperated pairs line by line.
 ///
 /// The returned converter is a callable function of the type `ZhConverter`:
 ///
@@ -68,18 +64,15 @@ fn make_converter(
     py: Python<'_>,
     base: Option<&str>,
     rules: PyObject,
-    dfa: Option<bool>,
 ) -> PyResult<ZhConverter> {
     let base = base
         .and_then(|base| base.try_into().ok())
         .unwrap_or(Variant::Zh);
     let mut builder = ZhConverterBuilder::new()
-        .dfa(dfa.unwrap_or(true))
-        .table(get_builtin_table(base));
+        .target(base)
+        .tables(get_builtin_tables(base));
     if let Ok(pairs) = rules.extract::<Vec<(String, String)>>(py) {
-        for (from, to) in pairs.into_iter() {
-            builder = builder.add_conv_pair(from, to);
-        }
+        builder = builder.conv_pairs(pairs.into_iter());
     } else {
         let mut text = String::new();
 
@@ -99,7 +92,7 @@ fn make_converter(
             }
             if let Some((from, to)) = line.split_once(char::is_whitespace) {
                 let to = to.trim_start_matches(char::is_whitespace);
-                builder = builder.add_conv_pair(from, to);
+                builder = builder.conv_pairs([(from, to)]);
             } else {
                 return Err(PyTypeError::new_err(format!(
                     "Invalid conversion rule at line {}: {}",
@@ -119,7 +112,7 @@ fn make_converter(
 /// ```python
 /// from zhconv_rs import zhconv
 /// assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
-/// assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn", mediawiki=True) == "《三个火枪手》是亚历山大·仲马的作品。"
+/// assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn", wikitext=True) == "《三个火枪手》是亚历山大·仲马的作品。"
 /// assert zhconv("-{H|zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;}-《雾都孤儿》是查尔斯·狄更斯的作品。", "zh-tw", True) == "《孤雛淚》是查爾斯·狄更斯的作品。"
 /// ```
 ///
