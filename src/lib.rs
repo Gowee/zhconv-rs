@@ -171,6 +171,14 @@ pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
     // let script_total = non_hant_score + non_hans_score;
     let mut confidence_map = [
         (
+            Variant::ZhHans,
+            1f32 - non_hans_score.min(total_score) / total_score,
+        ),
+        (
+            Variant::ZhHant,
+            1f32 - non_hant_score.min(total_score) / total_score,
+        ),
+        (
             Variant::ZhCN,
             1f32 - non_cn_score.min(total_score) / total_score,
         ),
@@ -181,14 +189,6 @@ pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
         (
             Variant::ZhHK,
             1f32 - non_hk_score.min(total_score) / total_score,
-        ),
-        (
-            Variant::ZhHans,
-            1f32 - non_hans_score.min(total_score) / total_score,
-        ),
-        (
-            Variant::ZhHant,
-            1f32 - non_hant_score.min(total_score) / total_score,
         ),
     ];
     // let mut confidence_map = [(Variant::ZhCN, 1f32 - non_cn_score / region_total),(Variant::ZhTW, 1f32 - non_tw_score / region_total),(Variant::ZhHK, 1f32 - non_hk_score / region_total),(Variant::ZhHans,1f32 - non_hans_score / script_total),(Variant::ZhHant, 1f32 - non_hant_score / script_total)];
