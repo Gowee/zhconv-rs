@@ -203,8 +203,8 @@ pub fn build_converter(variant: Variant, table: Table<'_>) -> ZhConverter {
 
 /// Get the builtin conversion tables for a target Chinese variant.
 ///
-/// Accessing raw tables are only necessary when building a custom converter.
-/// Otherwise, there is [`get_builtin_converter`].
+/// Accessing raw tables are only useful when building a custom converter.
+/// Otherwise, there is [`get_builtin_converter`](crate::get_builtin_converter).
 #[inline(always)]
 pub fn get_builtin_tables(target: Variant) -> &'static [Table<'static>] {
     use Variant::*;

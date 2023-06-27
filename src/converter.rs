@@ -316,7 +316,8 @@ impl ZhConverter {
     /// `addtional_conv_lines` is set empty and both `skip_html_code_blocks` and
     /// `apply_global_rules` are set to `false`.
     ///
-    /// Equivalent to [`convert_as_wikitext_extended`], otherwise.
+    /// Equivalent to [`convert_as_wikitext_extended`](Self::convert_as_wikitext_extended),
+    /// otherwise.
     ///
     /// `addtional_conv_lines` looks like:
     /// ```text

@@ -264,7 +264,7 @@ impl Conv {
 
     /// Get the inner bi-directional map, if any.
     ///
-    /// Typically intended to be used by [`PageRules`](crate::pagerules:PageRules) to extract the
+    /// Typically intended to be used by [`PageRules`](crate::pagerules::PageRules) to extract the
     /// map for a page title (e.g. `-{T|zh:黑;zh-cn:白}-`).
     pub fn get_bid(&self) -> Option<&VariantMap<String>> {
         self.as_map().map(|m| &m.bid)

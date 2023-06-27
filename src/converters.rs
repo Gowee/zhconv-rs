@@ -1,7 +1,7 @@
 //! Converters lazily built from built-in [`tables`](crate::tables).
 //!
-//! These converters are lazily built on demand with [`dfa`](crate::ZhConverterBuilder::dfa)
-//! activated for better conversion performance, and cached for later use.
+//! These converters are lazily loaded from serialized automata built at build-time, and cached for
+//! later use.
 
 use daachorse::CharwiseDoubleArrayAhoCorasick;
 use lazy_static::lazy_static; // TODO: once_cell
