@@ -396,7 +396,7 @@ impl ZhConverter {
             }
         };
 
-        // TODO: this may degrade to O(n^2)
+        // TODO: is this O(n) instead of O(n^2)?
         // start of rule | noHtml | noStyle | no code | no pre
         let sor_or_html = regex!(
             r#"-\{|<script.*?>.*?</script>|<style.*?>.*?</style>|<code>.*?</code>|<pre.*?>.*?</pre>"#
@@ -562,9 +562,10 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    //  [CGroup](https://zh.wikipedia.org/wiki/Module:CGroup) (a.k.a 公共轉換組)
+    // /// [CGroup](https://zh.wikipedia.org/wiki/Module:CGroup) (a.k.a 公共轉換組)
+    // pub fn cgroup()
 
-    /// Add a set of rules extracted from a page.
+    /// Add a set of rules extracted from a page in wikitext.
     ///
     /// This is a helper wrapper around `page_rules`.
     #[inline(always)]

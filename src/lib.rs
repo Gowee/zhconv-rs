@@ -6,8 +6,8 @@
 //! (maintained by MediaWiki and Chinese Wikipedia) and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary).
 //!
 //! While built-in rulesets work well for general case, the converter is never meant to be 100%
-//! accurate, especially for professional text. In Chinese Wikipedia, it is pretty common for
-//! editors to apply additional [CGroups](https://zh.wikipedia.org/wiki/Module:CGroup) and
+//! accurate, especially for professional text. On Chinese Wikipedia, it is pretty common for
+//! editors to apply additional [conversion groups](https://zh.wikipedia.org/wiki/Module:CGroup) and
 //! [manual conversion rules](https://zh.wikipedia.org/wiki/Help:%E9%AB%98%E7%BA%A7%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2%E8%AF%AD%E6%B3%95)
 //! on an article base. The converter optionally supports the conversion rule syntax used in
 //! MediaWiki in the form `-{FOO BAR}-` and loading external rules defined line by line, which are
@@ -76,20 +76,30 @@ pub fn zhconv(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert(text)
 }
 
-/// Helper function for general conversion, activating inline conversion rules in MediaWiki syntax.
+/// Helper function for general conversion, activating conversion rules in MediaWiki syntax.
 ///
 /// For general cases, [`zhconv`](#method.zhconv) should work well. Both of them share the same
 /// built-in conversions tables.
 ///
 /// # Note
-/// Different from the implementation of MediaWiki, this crate use a automaton which makes it
-/// infeasible to mutate global rules during converting. So the function always searches the text
-/// for global rules such as `-{H|FOO BAR}-` in the first pass. If such rules exists, it build a
-/// new converter from the scratch with built-in conversion tables, which **takes extra time**.
-/// Otherwise, it just picks a built-in converter. Then it converts the text with the chosen
-/// converter during when non-global rules are parsed and applied.
+/// The implementation scans the input text at first to extract possible global rules like
+/// `-{H|FOO BAR}-`.
+/// If there are no global rules, the overall time complexity is `O(n + n)`.
+/// Otherwise, the overall time complexity may degrade to `O(n + n * m)` in the worst case, where
+/// `n` is input text length and `m` is the maximum lengths of source words in conversion rulesets.
 ///
-/// For fine-grained control and custom conversion rules, these is [`ZhConverter`].
+/// In case global rules support are not expected, it is better to use
+/// `get_builtin_converter(target).convert_as_wikitext_basic(text)` instead, which runs in O(n)
+/// in general.
+///   
+// /// Different from the implementation of MediaWiki, this crate use a automaton which makes it
+// /// infeasible to mutate global rules during converting. So the function always searches the text
+// /// for global rules such as `-{H|FOO BAR}-` in the first pass. If such rules exists, it build a
+// /// new converter from the scratch with built-in conversion tables, which **takes extra time**.
+// /// Otherwise, it just picks a built-in converter. Then it converts the text with the chosen
+// /// converter during when non-global rules are parsed and applied.
+///
+/// For fine-grained control and custom conversion rules, check [`ZhConverter`].
 pub fn zhconv_mw(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert_as_wikitext_extended(text)
 }
@@ -106,6 +116,7 @@ pub fn is_hans(text: &str) -> bool {
 /// The return value is a real number in the range `[0, 1]` (inclusive) that indicates
 /// confidence level. A value close to 1 indicate high confidence. A value close to 0
 /// indicates low confidence. `0.5` indicates undeterminable (half-half).
+/// If there is no enough input, `NaN` is returned.
 pub fn is_hans_probability(text: &str) -> f32 {
     let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text) as f32;
     let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text) as f32;
@@ -143,8 +154,8 @@ pub fn infer_variant(text: &str) -> Variant {
 /// Determine the Chinese variant of the input text with confidence.
 ///
 /// # Returns
-/// A array of `(variant, confidence_level)`, where `confidence_level` is in the range `[0, 1]
-/// (inclusive).
+/// An array of `(variant, confidence_level)`, where `confidence_level` is in the range `[0, 1]`
+/// (inclusive). It can be `NaN` if there is no enough input, .
 // /// Note that, unlike [`is_hans_confidence`](is_hans_confidence), a `confidence_level` greater
 // /// than `0.5` might not imply high enough likelihood.
 pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
