@@ -30,7 +30,7 @@ struct Opt {
     #[structopt(long)]
     wikitext: bool,
 
-    /// Dump the built-in conversion table, along with additional rules specified if any 
+    /// Dump the built-in conversion table, along with additional rules specified if any
     #[structopt(long)]
     dump_table: bool,
 
