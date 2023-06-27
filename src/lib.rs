@@ -106,9 +106,9 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
 
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
 ///
-/// Equivalent to `is_hans_probability(text) > 0.5`.
+/// Equivalent to `is_hans_confidence(text) > 0.5`.
 pub fn is_hans(text: &str) -> bool {
-    is_hans_probability(text) > 0.5
+    is_hans_confidence(text) > 0.5
 }
 
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
@@ -117,7 +117,7 @@ pub fn is_hans(text: &str) -> bool {
 /// confidence level. A value close to 1 indicate high confidence. A value close to 0
 /// indicates low confidence. `0.5` indicates undeterminable (half-half).
 /// If there is no enough input, `NaN` is returned.
-pub fn is_hans_probability(text: &str) -> f32 {
+pub fn is_hans_confidence(text: &str) -> f32 {
     let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text) as f32;
     let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text) as f32;
     // let mut ratio = if non_hans_score == 0 {
