@@ -38,7 +38,7 @@ struct Opt {
     #[structopt(name = "VARIANT")]
     variant: Variant,
 
-    /// File(s) to convert in-place (omit for stdin/out)  
+    /// File(s) to convert in-place (omit for stdio)  
     #[structopt(name = "FILE", parse(from_os_str))]
     files: Vec<PathBuf>,
 }
