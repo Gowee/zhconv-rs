@@ -16,6 +16,7 @@ macro_rules! for_wasm {
 }
 pub(crate) use for_wasm;
 
+#[cfg(feature = "compress")]
 pub fn zstd_decompress(bytes: &[u8]) -> Vec<u8> {
     use std::io::Read;
 
