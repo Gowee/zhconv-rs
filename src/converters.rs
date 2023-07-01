@@ -6,9 +6,9 @@
 use daachorse::CharwiseDoubleArrayAhoCorasick;
 use lazy_static::lazy_static; // TODO: once_cell
 
-use crate::{tables::*, Variant, ZhConverter, ZhConverterBuilder};
 #[cfg(feature = "compress")]
 use crate::utils::zstd_decompress;
+use crate::{tables::*, Variant, ZhConverter, ZhConverterBuilder};
 
 // FIX: Doc
 

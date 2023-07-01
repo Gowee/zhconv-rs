@@ -491,13 +491,32 @@ impl ZhConverter {
     //     }
     // }
 
-    /// Count the sum of lengths of matched source words to be substituted in the given text, in bytes.
-    pub fn count_matched(&self, text: &str) -> usize {
-        let automaton = unwrap_or_return!(self.automaton.as_ref(), 0);
+    /// Search the text
+    #[doc(hidden)]
+    pub fn search<'s, 'i: 's>(
+        &'i self,
+        text: &'s str,
+    ) -> impl Iterator<Item = (usize, usize, &'i str)> + 's {
+        self.automaton
+            .as_ref()
+            .map(|automaton| {
+                automaton.leftmost_find_iter(text).map(|m| {
+                    (
+                        m.start(),
+                        m.end(),
+                        self.target_words[m.value() as usize].as_ref(),
+                    )
+                })
+            })
+            .into_iter()
+            .flatten()
+    }
 
-        automaton
-            .leftmost_find_iter(text)
-            .map(|m| m.end() - m.start())
+    /// Count the sum of lengths of source words to be replaced by the converter, in chars
+    #[doc(hidden)]
+    pub fn count_replaced(&self, text: &str) -> usize {
+        self.search(text)
+            .map(|(s, e, _to)| text[s..e].chars().count())
             .sum()
     }
 }

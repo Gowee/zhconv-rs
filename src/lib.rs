@@ -118,8 +118,8 @@ pub fn is_hans(text: &str) -> bool {
 /// indicates low confidence. `0.5` indicates undeterminable (half-half).
 /// If there is no enough input, `NaN` is returned.
 pub fn is_hans_confidence(text: &str) -> f32 {
-    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text) as f32;
-    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text) as f32;
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_replaced(text) as f32;
+    let non_hans_score = ZH_TO_HANS_CONVERTER.count_replaced(text) as f32;
     // let mut ratio = if non_hans_score == 0 {
     //     f32::MAX
     // } else {
@@ -134,63 +134,80 @@ pub fn is_hans_confidence(text: &str) -> f32 {
 
 /// Determine the Chinese variant of the input text.
 ///
-/// # Returns
-/// Possible return values are only `ZhCN`, `ZhTW` and `ZhHK`.
+/// # Limitations
+/// Since the built-in conversion tables does not have actual rules specific to `zh-SG` / `zh-MO` /
+/// `zh-MY`, they would never be returned.
+///
+/// The accuracy has not been assessed. Avoid relying on this for serious purposes.
 pub fn infer_variant(text: &str) -> Variant {
-    let non_cn_score = ZH_TO_CN_CONVERTER.count_matched(text);
-    let non_tw_score = ZH_TO_TW_CONVERTER.count_matched(text);
-    let non_hk_score = ZH_TO_HK_CONVERTER.count_matched(text);
+    // let non_cn_score = ZH_TO_CN_CONVERTER.count_replaced(text);
+    // let non_tw_score = ZH_TO_TW_CONVERTER.count_replaced(text);
+    // let non_hk_score = ZH_TO_HK_CONVERTER.count_replaced(text);
 
-    // authored by ChatGPT
-    if non_cn_score <= non_tw_score && non_cn_score <= non_hk_score {
-        Variant::ZhCN
-    } else if non_tw_score <= non_cn_score && non_tw_score <= non_hk_score {
-        Variant::ZhTW
-    } else {
-        Variant::ZhHK
-    }
+    // // authored by ChatGPT
+    // if non_cn_score <= non_tw_score && non_cn_score <= non_hk_score {
+    //     Variant::ZhCN
+    // } else if non_tw_score <= non_cn_score && non_tw_score <= non_hk_score {
+    //     Variant::ZhTW
+    // } else {
+    //     Variant::ZhHK
+    // }
+    infer_variant_confidence(text)[0].0
 }
 
 /// Determine the Chinese variant of the input text with confidence.
 ///
 /// # Returns
-/// An array of `(variant, confidence_level)`, where `confidence_level` is in the range `[0, 1]`
-/// (inclusive). It can be `NaN` if there is no enough input, .
+/// An array of `(variant, confidence_level)`, in descendent order of `confidence_level`, where
+/// `confidence_level` is in the range `[0, 1]` (inclusive). `NaN` is returned if there is no
+/// enough input.
+///
+/// # Limitations
+/// The returned `confidence_level` of script variants (`ZhHant` and `ZhHans`) are always greater
+/// than region variants (`ZhTW`, `ZhCN` and `ZhHK`) with the current implementation.
+///
+/// The accuracy has not been assessed. Avoid relying on this for serious purposes.
 // /// Note that, unlike [`is_hans_confidence`](is_hans_confidence), a `confidence_level` greater
 // /// than `0.5` might not imply high enough likelihood.
 pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
     // let total = text.len() as f32;
-    let non_cn_score = ZH_TO_CN_CONVERTER.count_matched(text) as f32;
-    let non_tw_score = ZH_TO_TW_CONVERTER.count_matched(text) as f32;
-    let non_hk_score = ZH_TO_HK_CONVERTER.count_matched(text) as f32;
-    let non_hant_score = ZH_TO_HANT_CONVERTER.count_matched(text) as f32;
-    let non_hans_score = ZH_TO_HANS_CONVERTER.count_matched(text) as f32;
+    let non_cn_score = ZH_TO_CN_CONVERTER.count_replaced(text) as f32;
+    let non_tw_score = ZH_TO_TW_CONVERTER.count_replaced(text) as f32;
+    let non_hk_score = ZH_TO_HK_CONVERTER.count_replaced(text) as f32;
+    let non_hant_score = ZH_TO_HANT_CONVERTER.count_replaced(text) as f32;
+    let non_hans_score = ZH_TO_HANS_CONVERTER.count_replaced(text) as f32;
 
     let total_score = non_cn_score + non_tw_score + non_hk_score - non_hant_score;
     // let region_total = non_cn_score + non_tw_score + non_hk_score - non_hant_score;
     // let script_total = non_hant_score + non_hans_score;
-    let mut confidence_map = [
-        (
-            Variant::ZhHans,
-            1f32 - non_hans_score.min(total_score) / total_score,
-        ),
-        (
-            Variant::ZhHant,
-            1f32 - non_hant_score.min(total_score) / total_score,
-        ),
-        (
-            Variant::ZhCN,
-            1f32 - non_cn_score.min(total_score) / total_score,
-        ),
-        (
-            Variant::ZhTW,
-            1f32 - non_tw_score.min(total_score) / total_score,
-        ),
-        (
-            Variant::ZhHK,
-            1f32 - non_hk_score.min(total_score) / total_score,
-        ),
-    ];
+    let hans = (
+        Variant::ZhHans,
+        1f32 - non_hans_score.min(total_score) / total_score,
+    );
+    let hant = (
+        Variant::ZhHant,
+        1f32 - non_hant_score.min(total_score) / total_score,
+    );
+    let tw = (
+        Variant::ZhTW,
+        1f32 - non_tw_score.min(total_score) / total_score,
+    );
+    let cn = (
+        Variant::ZhCN,
+        1f32 - non_cn_score.min(total_score) / total_score,
+    );
+    let hk = (
+        Variant::ZhHK,
+        1f32 - non_hk_score.min(total_score) / total_score,
+    );
+    // if hk and tw cannot be distinguished, we prefer hant
+    // we always prefer hans over cn, since we cannot really distinguish cn from hans with the
+    // current implementation
+    let mut confidence_map = if tw.1 == hk.1 {
+        [hans, hant, tw, cn, hk]
+    } else {
+        [tw, hk, hant, hans, cn]
+    };
     // let mut confidence_map = [(Variant::ZhCN, 1f32 - non_cn_score / region_total),(Variant::ZhTW, 1f32 - non_tw_score / region_total),(Variant::ZhHK, 1f32 - non_hk_score / region_total),(Variant::ZhHans,1f32 - non_hans_score / script_total),(Variant::ZhHant, 1f32 - non_hant_score / script_total)];
     // let mut confidence_map = [(Variant::ZhCN, non_cn_score),(Variant::ZhTW, non_tw_score),(Variant::ZhHK, non_hk_score),(Variant::ZhHans,non_hans_score),(Variant::ZhHant, non_hant_score), (Variant::Zh, total)];
 
