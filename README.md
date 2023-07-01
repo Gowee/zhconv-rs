@@ -12,7 +12,7 @@ The implementation is powered by the [Aho-Corasick](https://github.com/BurntSush
 
 ⚙️ **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases).
 
-🦀 **Rust Crate**: `cargo add zhconv` (see doc comments and [cli/](https://github.com/Gowee/zhconv-rs/tree/main/cli) for examples)
+🦀 **Rust Crate**: `cargo add zhconv` (check [docs](https://docs.rs/zhconv/latest/zhconv/) for examples)
 
 🐍 **Python Package via PyO3**: `pip install zhconv-rs` (WASM with wheels)
 
@@ -120,9 +120,11 @@ The benchmark was performed on a previous version that had only Mediawiki rulese
 * OpenCC: The [conversion rulesets](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary) of OpenCC is independent of MediaWiki. The core [conversion implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. However, OpenCC supports pre-segmentation and maintains multiple rulesets which are applied successively. By contrast, the Aho-Corasick-powered zhconv-rs merges rulesets from MediaWiki and OpenCC in compile time and converts text in single-pass linear time, resulting in much more efficiency. Though, conversion results may differ in some cases.
 
 ## Limitations
-The converter utilizes an aho-corasick automaton with the leftmost-longest matching strategy. This strategy gives priority to the leftmost-matched words or phrases. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. The strategy is generally effective but may occasionally lead to unexpected results.
+The converter is based on an aho-corasick automaton with the leftmost-longest matching strategy. This strategy gives priority to the leftmost-matched words or phrases. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. The strategy yields good results in general, but may occasionally lead to wrong conversions.
 
-Futuremore, since an automaton is infeasible to update after being built, the converter must (re)build it from scratch for every ruleset. The automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. However, if a short input text contains global conversion rules (in MediaWiki syntax like -{H|zh-hans:鹿|zh-hant:马}-), this process incurs a significant overhead, potentially being less efficient than a naive implementation.
+The implementation support most of the MediaWiki conversion rules. But it is not fully compliant with the original implementation.
+
+Besides, for wikitext, if input text contains global conversion rules (in MediaWiki syntax like -{H|zh-hans:鹿|zh-hant:马}-), the time complexity of the implementation may degrade to `O(n*m)` where `n` and `m` are the length of the text and the maximum lengths of sources words in conversion rulesets in the worst case (equivalent to brute-force).
 
 ## Credits
 All rulesets that power the converter come from the [MediaWiki](https://github.com/wikimedia/mediawiki) project and [OpenCC](https://github.com/BYVoid/OpenCC).
