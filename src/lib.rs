@@ -1,5 +1,5 @@
 //! This crate provides a ZhConverter that converts Chinese variants among each other. The
-//! implementation is based on the [Aho-Corasick](https://docs.rs/aho-corasick/latest) automaton
+//! implementation is based on the [Aho-Corasick](https://docs.rs/daachorse) algorithm
 //! with the leftmost-longest matching strategy and linear time complexity with respect to the
 //! length of input text and conversion rules. It ships with a bunch of conversion tables,
 //! extracted from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php)
@@ -27,7 +27,7 @@
 //! Basic conversion:
 //! ```
 //! use zhconv::{zhconv, Variant};
-//! assert_eq!(zhconv("天干物燥 小心火烛", Variant::ZhHant), "天乾物燥 小心火燭");
+//! assert_eq!(zhconv("天干物燥 小心火烛", "zh-Hant".parse().unwrap()), "天乾物燥 小心火燭");
 //! assert_eq!(zhconv("鼠曲草", Variant::ZhHant), "鼠麴草");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhHant), "阿拉伯聯合酋長國");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
@@ -45,6 +45,14 @@
 //! To load or add additional conversion rules such as CGroups or `(FROM, TO)` pairs,
 //! see [`ZhConverterBuilder`].
 //!
+//! Other useful function:
+//! ```
+//! use zhconv::{is_hans, is_hans_confidence, infer_variant, infer_variant_confidence};
+//! assert!(!is_hans("秋冬濁而春夏清，晞於朝而生於夕"));
+//! assert!(is_hans_confidence("滴瀝明花苑，葳蕤泫竹叢") < 0.5);
+//! println!("{}", infer_variant("錦字緘愁過薊水，寒衣將淚到遼城"));
+//! println!("{:?}", infer_variant_confidence("zhconv-rs 中文简繁及地區詞轉換"));
+//! ```
 
 mod converter;
 mod utils;
@@ -89,8 +97,8 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 /// `n` is input text length and `m` is the maximum lengths of source words in conversion rulesets.
 ///
 /// In case global rules support are not expected, it is better to use
-/// `get_builtin_converter(target).convert_as_wikitext_basic(text)` instead, which runs in O(n)
-/// in general.
+/// `get_builtin_converter(target).convert_as_wikitext_basic(text)` instead, which incurs no extra
+/// overhead.
 ///   
 // /// Different from the implementation of MediaWiki, this crate use a automaton which makes it
 // /// infeasible to mutate global rules during converting. So the function always searches the text

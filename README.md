@@ -6,7 +6,7 @@
 # zhconv-rs 中文简繁及地區詞轉換
 zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of rulesets from MediaWiki/Wikipedia and OpenCC.
 
-The implementation is powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automaton, ensuring linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
+The implementation is powered by an [Aho-Corasick](https://github.com/daac-tools/daachorse) automaton, ensuring linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
 
 🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
 
@@ -120,7 +120,7 @@ The benchmark was performed on a previous version that had only Mediawiki rulese
 * OpenCC: The [conversion rulesets](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary) of OpenCC is independent of MediaWiki. The core [conversion implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. However, OpenCC supports pre-segmentation and maintains multiple rulesets which are applied successively. By contrast, the Aho-Corasick-powered zhconv-rs merges rulesets from MediaWiki and OpenCC in compile time and converts text in single-pass linear time, resulting in much more efficiency. Though, conversion results may differ in some cases.
 
 ## Limitations
-The converter is based on an aho-corasick automaton with the leftmost-longest matching strategy. This strategy gives priority to the leftmost-matched words or phrases. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. The strategy yields good results in general, but may occasionally lead to wrong conversions.
+The converter takes leftmost-longest matching strategy. It gives priority to the leftmost-matched words or phrases. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. The strategy yields good results in general, but may occasionally lead to wrong conversions.
 
 The implementation support most of the MediaWiki conversion rules. But it is not fully compliant with the original implementation.
 
