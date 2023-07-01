@@ -28,3 +28,15 @@ def make_converter(
     base: Optional[ZhVariant], rules: Union[Sequence[Tuple[str, str]], str, TextIO]
 ) -> Callable[[str], str]:
     pass
+
+def is_hans(text: str) -> bool:
+    pass
+
+def is_hans_confidence(text: str) -> float:
+    pass
+
+def infer_variant(text: str) -> ZhVariant:
+    pass
+
+def infer_variant_confidence(text: str) -> Sequence[Tuple[ZhVariant, float]]:
+    pass
