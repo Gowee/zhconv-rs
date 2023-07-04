@@ -229,3 +229,48 @@ pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
     confidence_map.sort_by(|a, b| b.1.total_cmp(&a.1));
     confidence_map
 }
+
+/// A helper trait that truncates a str around a specified index in constant time (`O(1)`),
+/// intended to be used with `is_hans` and etc.
+pub trait TruncatedAround {
+    /// Truncate a str around the given index in constant time (`O(1)`).
+    ///
+    /// This method is intended to be used together with other functions like `is_hans` and
+    /// `infer_variant`, especially when dealing with large input texts that need to be processed
+    /// efficiently while tolerating less accuracy.
+    /// Note that this trait does not guarantee whether the truncation index is rounded up or down.
+    ///
+    /// # Examples
+    ///
+    /// ```
+    /// use zhconv::{TruncatedAround, is_hans};
+    /// use std::fs;
+    ///
+    /// let s = "鵲飛空繞樹月輪殊未圓";
+    /// assert_eq!(s.len(), 30);
+    /// assert_eq!(s.truncated_around(15), "鵲飛空繞樹");
+    /// assert_eq!(s.truncated_around(100), s);
+    ///
+    /// let ls = fs::read_to_string("benches/data3185k.txt").unwrap(); // long string
+    /// let tls = ls.truncated_around(100 * 1024 + 123); // truncated to ~ 100KiB
+    /// assert_eq!(is_hans(&ls), is_hans(&tls));
+    /// ```
+    fn truncated_around(&self, index: usize) -> &Self;
+}
+
+impl TruncatedAround for str {
+    fn truncated_around(&self, index: usize) -> &Self {
+        // Ref: std::str::ceil_char_boundary
+        if index > self.len() {
+            self
+        } else {
+            let upper_bound = Ord::min(index + 4, self.len());
+            for end in index..upper_bound {
+                if self.is_char_boundary(end) {
+                    return &self[..end];
+                }
+            }
+            unreachable!()
+        }
+    }
+}

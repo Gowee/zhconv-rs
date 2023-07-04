@@ -142,6 +142,18 @@ fn criterion_benchmark(c: &mut Criterion) {
             )
         })
     });
+    c.bench_function("is_hans data55k", |b| {
+        b.iter_with_large_drop(|| zhconv::is_hans(DATA54K))
+    });
+    c.bench_function("infer_variant data55k", |b| {
+        b.iter_with_large_drop(|| zhconv::infer_variant(DATA54K))
+    });
+    c.bench_function("is_hans data3185k", |b| {
+        b.iter_with_large_drop(|| zhconv::is_hans(DATA3185K))
+    });
+    c.bench_function("infer_variant data3185k", |b| {
+        b.iter_with_large_drop(|| zhconv::infer_variant(DATA3185K))
+    });
 }
 
 criterion_group!(benches, criterion_benchmark);
