@@ -76,6 +76,7 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
 fn main() -> io::Result<()> {
     let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
     let mut zhconvs = parse_mediawiki(&zhconv);
+    #[allow(unused_variables, unused_mut)]
     for (name, mut pairs) in zhconvs.iter_mut() {
         // Load and append OpenCC rulesets to the Mediawiki ones
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
@@ -364,7 +365,11 @@ fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
 
 #[cfg(feature = "opencc")]
 mod opencc {
-    use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
+
+    use daachorse::{
+        CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind,
+    };
+    // use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
     use lazy_static::lazy_static;
     use std::collections::HashMap;
 
@@ -448,17 +453,30 @@ mod opencc {
 
     /// Simplified `ZhConverter` implementation for pre-processing rulesets from OpenCC
     pub struct SimpleConverter {
-        automaton: AhoCorasick,
-        mapping: HashMap<String, String>,
+        automaton: Option<CharwiseDoubleArrayAhoCorasick<usize>>,
+        target_words: Vec<String>,
     }
 
     impl From<HashMap<String, String>> for SimpleConverter {
         fn from(mapping: HashMap<String, String>) -> Self {
-            let automaton = AhoCorasickBuilder::new()
-                .match_kind(MatchKind::LeftmostLongest)
-                .build(mapping.keys())
-                .unwrap();
-            Self { automaton, mapping }
+            let mut target_words = Vec::with_capacity(mapping.len());
+            let automaton = if mapping.is_empty() {
+                None
+            } else {
+                Some(
+                    CharwiseDoubleArrayAhoCorasickBuilder::new()
+                        .match_kind(MatchKind::LeftmostLongest)
+                        .build(mapping.into_iter().map(|(f, t)| {
+                            target_words.push(t);
+                            f
+                        }))
+                        .expect("Conversion table is valid"),
+                )
+            };
+            Self {
+                automaton,
+                target_words,
+            }
         }
     }
 
@@ -470,18 +488,26 @@ mod opencc {
         }
 
         pub fn convert(&self, text: &str) -> String {
-            let mut output = String::new();
-            let mut last = 0;
-            // leftmost-longest matching
-            for (s, e) in self.automaton.find_iter(text).map(|m| (m.start(), m.end())) {
-                if s > last {
-                    output.push_str(&text[last..s]);
+            match &self.automaton {
+                Some(automaton) => {
+                    let mut output = String::new();
+                    let mut last = 0;
+                    // leftmost-longest matching
+                    for (s, e, ti) in automaton
+                        .leftmost_find_iter(text)
+                        .map(|m| (m.start(), m.end(), m.value()))
+                    {
+                        if s > last {
+                            output.push_str(&text[last..s]);
+                        }
+                        output.push_str(&self.target_words[ti]);
+                        last = e;
+                    }
+                    output.push_str(&text[last..]);
+                    output
                 }
-                output.push_str(self.mapping.get(&text[s..e]).unwrap());
-                last = e;
+                None => String::from(text),
             }
-            output.push_str(&text[last..]);
-            output
         }
     }
 }
