@@ -69,7 +69,10 @@ fn main() -> Result<()> {
 
     if dump_table {
         secondary_builder = secondary_builder.tables(get_builtin_tables(variant));
-        for (from, to) in secondary_builder.build_mapping() {
+        let mut pairs: Vec<(String, String)> =
+            secondary_builder.build_mapping().into_iter().collect();
+        pairs.sort_by(|a, b| a.0.len().cmp(&b.0.len()).then(a.0.cmp(&b.0)));
+        for (from, to) in pairs {
             println!("{} {}", from, to);
         }
         return Ok(());
