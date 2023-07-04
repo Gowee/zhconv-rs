@@ -433,7 +433,6 @@ mod opencc {
         };
     }
     pub(crate) use load_opencc_to;
-
     pub fn parse_opencc_to(
         out_conv: &mut HashMap<String, String>,
         out_revconv: &mut HashMap<String, String>,
@@ -443,9 +442,14 @@ mod opencc {
             let mut it = line.split_whitespace();
             if let (Some(f), Some(t)) = (it.next(), it.next()) {
                 out_conv.insert(f.to_owned(), t.to_owned());
-                out_revconv.insert(t.to_owned(), f.to_owned());
+                // TODO: one-to-many mapping?
+                if !out_revconv.contains_key(t) {
+                    out_revconv.insert(t.to_owned(), f.to_owned());
+                }
                 for tt in it {
-                    out_revconv.insert(tt.to_owned(), f.to_owned());
+                    if !out_revconv.contains_key(t) {
+                        out_revconv.insert(tt.to_owned(), f.to_owned());
+                    }
                 }
             }
         }
