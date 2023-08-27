@@ -115,7 +115,7 @@ zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 
 <del>The benchmark was performed on a previous version that had only Mediawiki rulesets. In the newer version, with OpenCC rulesets activated by default, the performance may degrade ~2x.</del> Since v0.3, the Aho-Corasick algorithm implementation has been switched to [daachorse](https://github.com/daac-tools/daachorse) with automaton prebuilt during compile time. The performance is no worse than the previous version, even though OpenCC rulesets are newly introduced.
 
-Be noted that, OpenCC rulesets accounts for at least several MiBs in build output. If that looks too big, just disable the default features (e.g. `zhconv = { version = "...", features = [] }`).
+Be noted that, OpenCC rulesets accounts for at least several MiBs in build output. If that looks too big, just overwrite the default features (e.g. `zhconv = { version = "...", features = [ "compress" ] }`).
 
 ## Differences with other converters
 * `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs just takes conversion tables listed in [`ZhConversion.php`](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14). MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
