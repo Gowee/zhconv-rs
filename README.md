@@ -94,7 +94,7 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 -->
 
 ## Performance
-`cargo bench` on `Intel(R) Xeon(R) CPU @ 2.80GHz` (GitPod), without parsing inline conversion rules:
+`cargo bench` on `Intel(R) Xeon(R) CPU @ 2.80GHz` (GitPod) by v0.2, without parsing inline conversion rules:
 ```
 load zh2Hant            time:   [45.442 ms 45.946 ms 46.459 ms]
 load zh2Hans            time:   [8.1378 ms 8.3787 ms 8.6414 ms]
@@ -113,7 +113,9 @@ zh2TW data3185k         time:   [60.217 ms 61.348 ms 62.556 ms]
 zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
 ``` 
 
-The benchmark was performed on a previous version that had only Mediawiki rulesets. In the newer version, with OpenCC rulesets activated by default, the performance may degrade ~2x.
+<del>The benchmark was performed on a previous version that had only Mediawiki rulesets. In the newer version, with OpenCC rulesets activated by default, the performance may degrade ~2x.</del> Since v0.3, the Aho-Corasick algorithm implementation has been switched to [daachorse](https://github.com/daac-tools/daachorse) with automaton prebuilt during compile time. The performance is no worse than the previous version, even though OpenCC rulesets are newly introduced.
+
+Be noted that, OpenCC rulesets accounts for at least several MiBs in build output. If that looks too big, just disable the default features (e.g. `zhconv = { version = "...", features = [] }`).
 
 ## Differences with other converters
 * `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs just takes conversion tables listed in [`ZhConversion.php`](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14). MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
@@ -124,7 +126,7 @@ The converter takes leftmost-longest matching strategy. It gives priority to the
 
 The implementation support most of the MediaWiki conversion rules. But it is not fully compliant with the original implementation.
 
-Besides, for wikitext, if input text contains global conversion rules (in MediaWiki syntax like -{H|zh-hans:鹿|zh-hant:马}-), the time complexity of the implementation may degrade to `O(n*m)` where `n` and `m` are the length of the text and the maximum lengths of sources words in conversion rulesets in the worst case (equivalent to brute-force).
+Besides, for wikitext, if input text contains global conversion rules (in MediaWiki syntax like `-{H|zh-hans:鹿|zh-hant:马}-`), the time complexity of the implementation may degrade to `O(n*m)` where `n` and `m` are the length of the text and the maximum lengths of sources words in conversion rulesets in the worst case (equivalent to brute-force).
 
 ## Credits
 All rulesets that power the converter come from the [MediaWiki](https://github.com/wikimedia/mediawiki) project and [OpenCC](https://github.com/BYVoid/OpenCC).
