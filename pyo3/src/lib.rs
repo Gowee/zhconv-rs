@@ -187,7 +187,7 @@ fn infer_variant_confidence(text: &str) -> Vec<(String, f32)> {
 /// from zhconv_rs import is_hans, is_hans_confidence
 /// text = "譬如鳥跡，空中現者，無有是處。"
 /// assert not is_hans(text)
-/// assert is_hans(text) < 0.5
+/// assert is_hans_confidence(text) < 0.5
 /// ```
 ///
 /// Determine the variant (experimental, low accuracy)
