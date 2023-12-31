@@ -31,9 +31,9 @@ pub enum Variant {
     ZhTW,
     /// Short for`zh-Hant-HK`, Script: Traditional Chinese, Region: Hong Kong
     ZhHK,
-    /// Short for`zh-Hant-MO`, Script: Traditional Chinese, Region: Taiwan
+    /// Short for`zh-Hant-MO`, Script: Traditional Chinese, Region: Macau
     ZhMO,
-    /// Short for`zh-Hans-MY`, Script: Simplified Chinese, Region: Macau
+    /// Short for`zh-Hans-MY`, Script: Simplified Chinese, Region: Malaysia
     ZhMY,
     /// Short for`zh-Hans-SG`, Script: Simplified Chinese, Region: Singapore
     ZhSG,
@@ -99,7 +99,6 @@ impl VariantMap<String> {
     /// Get the pairs of conversion for a target variant
     pub fn get_conv_pairs(&self, target: Variant) -> impl Iterator<Item = (&str, &str)> {
         use Variant::*;
-        // TODO: Iterator
         // MEDIAWIKI: the code of the reference implementation is too obscure, try to replicate the
         //            the same behavior based on some tests
         let mut it = None;
