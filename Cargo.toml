@@ -13,7 +13,8 @@ crate-type = ["cdylib", "rlib"]
 
 [features]
 # OpenCC rulesets are activated by default.
-# Disabling the feature would boost performance further at the cost of less accuracy.
+# Disabling the feature would reduce binary size significantly and boost performance further at
+# the cost of accuracy.
 default = ["opencc", "compress"]
 opencc = ["lazy_static"]
 compress = ["zstd", "ruzstd"]
