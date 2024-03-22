@@ -11,7 +11,7 @@ use crate::{
     pagerules::PageRules,
     rule::{Conv, ConvAction, ConvRule},
     tables::expand_table,
-    utils::{regex, unwrap_or_return},
+    utils::regex,
     variant::Variant,
 };
 
@@ -98,10 +98,13 @@ impl ZhConverter {
 
     /// Same as `convert`, except that it takes a `&mut String` as dest instead of returning a `String`.
     pub fn convert_to(&self, text: &str, output: &mut String) {
-        let automaton = unwrap_or_return!(self.automaton.as_ref().or_else(|| {
-            output.push_str(text);
-            None
-        }));
+        let automaton = match self.automaton.as_ref() {
+            Some(automaton) => automaton,
+            None => {
+                output.push_str(text);
+                return;
+            }
+        };
 
         // Ref: https://github.dev/rust-lang/regex/blob/5197f21287344d2994f9cf06758a3ea30f5a26c3/src/re_trait.rs#L192
         let mut last = 0;
@@ -186,10 +189,13 @@ impl ZhConverter {
         shadowing_target_words: &[String],
         shadowed_source_words: &HashSet<String>,
     ) {
-        let automaton = unwrap_or_return!(self.automaton.as_ref().or_else(|| {
-            output.push_str(text);
-            None
-        }));
+        let automaton = match self.automaton.as_ref() {
+            Some(automaton) => automaton,
+            None => {
+                output.push_str(text);
+                return;
+            }
+        };
 
         // let mut cnt = HashMap::<usize, usize>::new();
         let mut last = 0;

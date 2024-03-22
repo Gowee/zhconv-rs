@@ -6,7 +6,7 @@
 # zhconv-rs 中文简繁及地區詞轉換
 zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of rulesets from MediaWiki/Wikipedia and OpenCC.
 
-The implementation is powered by an [Aho-Corasick](https://github.com/daac-tools/daachorse) automaton, ensuring linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
+The implementation is powered by the [Aho-Corasick](https://github.com/daac-tools/daachorse) algorithm, ensuring linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
 
 🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
 

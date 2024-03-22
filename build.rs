@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 
 use std::collections::HashSet;
-use std::convert::TryInto;
 use std::env;
 use std::fs::{self, File};
 use std::io;
@@ -358,7 +357,6 @@ mod opencc {
     use daachorse::{
         CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind,
     };
-    use itertools::Itertools;
     // use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
     use lazy_static::lazy_static;
     use std::collections::HashMap;
@@ -429,7 +427,7 @@ mod opencc {
         s: &str,
     ) {
         for line in s.lines().map(|l| l.trim()).filter(|l| !l.is_empty()) {
-            if let Some((f, ts)) =  line.split_once(char::is_whitespace){
+            if let Some((f, ts)) = line.split_once(char::is_whitespace) {
                 if f.is_empty() || ts.is_empty() {
                     continue;
                 }
@@ -528,5 +526,5 @@ fn read_and_validate_file(path: &str, sha256sum: &[u8; 32]) -> String {
 fn sha256(text: &str) -> [u8; 32] {
     let mut hasher = Sha256::new();
     hasher.update(text.as_bytes());
-    hasher.finalize().try_into().unwrap()
+    hasher.finalize().into()
 }
