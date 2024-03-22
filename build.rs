@@ -20,12 +20,58 @@ use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
 const MEDIAWIKI_COMMIT: &str = "2216fa38ffa9fd6c026fbc3268564c772f447f90";
-const MEDIAWIKI_SHA256: [u8; 32] = hex!("b6d1663e72ff4165c96933ab89d0b5bf4e838bb76961412df7d9c20b7dac5dc3");
+const MEDIAWIKI_SHA256: [u8; 32] =
+    hex!("b6d1663e72ff4165c96933ab89d0b5bf4e838bb76961412df7d9c20b7dac5dc3");
 
 #[cfg(feature = "opencc")]
 const OPENCC_COMMIT: &str = "e5d6c5f1b78e28a5797e7ad3ede3513314e544b7";
 #[cfg(feature = "opencc")]
-const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [("HKVariants.txt", hex!("c3c93c35885902ba2b12a3235a7761b00fb2b027f36aa8314db2f6b6ad51d374")), ("HKVariantsRevPhrases.txt", hex!("c2da309afa7fdd9061f204664039d33b000a4dca0ecae4e7480dcbf9e20f658e")), ("STCharacters.txt", hex!("9207708da9f2e2a248f39c457b2fccad26ec42e7efaf47a860e6900464f4cac5")), ("STPhrases.txt", hex!("1411418f98dd7666a4ee673619654ed1e0518ec97953315cc10656c30c7015bb")), ("TSCharacters.txt", hex!("6b5a0a799bea2bb22c001f635eaa3fc2904310f0c08addbff275477a80ecf09a")), ("TSPhrases.txt", hex!("b2ef895dd4953b4bb77fc8ef8d26a2a9ca6d43a760ed9a1d767672cfafa6324f")), ("TWPhrasesIT.txt", hex!("b04fcabd8e2b21ab4cec81bab557173f270f01c56bc9da7085ee24e5fa6e7aa4")), ("TWPhrasesName.txt", hex!("76e643569a30ea54e7ab6e52621fd4c396e01ee6dc2d15b7d25bf23addf4438a")), ("TWPhrasesOther.txt", hex!("06d9e1a24b1f87431e029d38cdf67a35d32b96a08df736cf1a362477dd39f7c7")), ("TWVariants.txt", hex!("30e6f8395edbfdd74e293fd8b9c62105d787c849fbb208d2a7832eac696734d7")), ("TWVariantsRevPhrases.txt", hex!("bef60ceb4e57b6b062351406cb5d4644875574231d64787e03711317b7e773f3"))];
+const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
+    (
+        "HKVariants.txt",
+        hex!("c3c93c35885902ba2b12a3235a7761b00fb2b027f36aa8314db2f6b6ad51d374"),
+    ),
+    (
+        "HKVariantsRevPhrases.txt",
+        hex!("c2da309afa7fdd9061f204664039d33b000a4dca0ecae4e7480dcbf9e20f658e"),
+    ),
+    (
+        "STCharacters.txt",
+        hex!("9207708da9f2e2a248f39c457b2fccad26ec42e7efaf47a860e6900464f4cac5"),
+    ),
+    (
+        "STPhrases.txt",
+        hex!("1411418f98dd7666a4ee673619654ed1e0518ec97953315cc10656c30c7015bb"),
+    ),
+    (
+        "TSCharacters.txt",
+        hex!("6b5a0a799bea2bb22c001f635eaa3fc2904310f0c08addbff275477a80ecf09a"),
+    ),
+    (
+        "TSPhrases.txt",
+        hex!("b2ef895dd4953b4bb77fc8ef8d26a2a9ca6d43a760ed9a1d767672cfafa6324f"),
+    ),
+    (
+        "TWPhrasesIT.txt",
+        hex!("b04fcabd8e2b21ab4cec81bab557173f270f01c56bc9da7085ee24e5fa6e7aa4"),
+    ),
+    (
+        "TWPhrasesName.txt",
+        hex!("76e643569a30ea54e7ab6e52621fd4c396e01ee6dc2d15b7d25bf23addf4438a"),
+    ),
+    (
+        "TWPhrasesOther.txt",
+        hex!("06d9e1a24b1f87431e029d38cdf67a35d32b96a08df736cf1a362477dd39f7c7"),
+    ),
+    (
+        "TWVariants.txt",
+        hex!("30e6f8395edbfdd74e293fd8b9c62105d787c849fbb208d2a7832eac696734d7"),
+    ),
+    (
+        "TWVariantsRevPhrases.txt",
+        hex!("bef60ceb4e57b6b062351406cb5d4644875574231d64787e03711317b7e773f3"),
+    ),
+];
 
 fn main() -> io::Result<()> {
     let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
@@ -102,17 +148,6 @@ fn main() -> io::Result<()> {
 
         // longer phrases come first; lexicographically smaller phrases come first
         sort_and_dedup(pairs);
-
-        // debug_assert_eq!(
-        //     pairs.len(),
-        //     pairs
-        //         .iter()
-        //         .map(|(from, _to_)| from)
-        //         .collect::<HashSet<_>>()
-        //         .len(),
-        //     "deduping keys of {}",
-        //     name
-        // );
     }
 
     let hans_pairs = zhconvs.remove("zh2Hans").unwrap();
@@ -323,6 +358,7 @@ mod opencc {
     use daachorse::{
         CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind,
     };
+    use itertools::Itertools;
     // use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
     use lazy_static::lazy_static;
     use std::collections::HashMap;
@@ -393,16 +429,19 @@ mod opencc {
         s: &str,
     ) {
         for line in s.lines().map(|l| l.trim()).filter(|l| !l.is_empty()) {
-            let mut it = line.split_whitespace();
-            if let (Some(f), Some(t)) = (it.next(), it.next()) {
-                out_conv.insert(f.to_owned(), t.to_owned());
-                // TODO: one-to-many mapping?
-                if !out_revconv.contains_key(t) {
-                    out_revconv.insert(t.to_owned(), f.to_owned());
+            if let Some((f, ts)) =  line.split_once(char::is_whitespace){
+                if f.is_empty() || ts.is_empty() {
+                    continue;
                 }
-                for tt in it {
+                let ts: Vec<_> = ts.split_whitespace().collect();
+                if !(ts.len() > 1 && ts.iter().any(|&t| t == f)) {
+                    // be conservative when converting
+                    // e.g. 范 -> 範 范 can be simply eliminated
+                    out_conv.insert(f.to_owned(), ts[0].to_owned());
+                }
+                for t in ts {
                     if !out_revconv.contains_key(t) {
-                        out_revconv.insert(tt.to_owned(), f.to_owned());
+                        out_revconv.insert(t.to_owned(), f.to_owned());
                     }
                 }
             }
