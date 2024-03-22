@@ -13,7 +13,7 @@ crate-type = ["cdylib", "rlib"]
 
 [features]
 # OpenCC rulesets are disabled by default.
-# Enable the feature may improve accuracy at the cost of binary size bloating and performance
+# Enabling the feature may improve accuracy at the cost of binary size bloating and performance
 # degration.
 default = ["compress"]
 opencc = ["lazy_static"]
