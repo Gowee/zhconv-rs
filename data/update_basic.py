@@ -4,9 +4,10 @@ import requests
 import os
 import re
 import hashlib
+from pathlib import Path
 
-OUT_DIR = os.path.dirname(__file__)
-BUILD_RS_PATH = os.path.join(OUT_DIR, "../build.rs")
+OUT_DIR = Path(__file__).parent
+BUILD_RS_PATH = OUT_DIR / "../build.rs"
 
 OPENCC_URL = "https://raw.githubusercontent.com/BYVoid/OpenCC/%s/data/dictionary/%s"
 
@@ -80,12 +81,12 @@ def main():
         raise Exception("Failed to extract OPENCC_COMMIT from build.rs")
 
     zhconversion_php_sha256sum = fetch(
-        MEDIAWIKI_URL % mediawiki_commit, "ZhConversion.php"
+        MEDIAWIKI_URL % mediawiki_commit, OUT_DIR / "ZhConversion.php"
     )
 
     opencc_sha256sums = []
     for fname in OPENCC_FILES:
-        s = fetch(OPENCC_URL % (opencc_commit, fname), fname)
+        s = fetch(OPENCC_URL % (opencc_commit, fname), OUT_DIR / fname)
         opencc_sha256sums.append(s)
 
     old_build_rs = build_rs
