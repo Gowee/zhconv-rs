@@ -35,8 +35,8 @@ pub fn get_mediawiki_commit() -> String {
     env!("MEDIAWIKI_COMMIT_HASH").into()
 }
 #[wasm_bindgen]
-pub fn get_opencc_commit() -> String {
-    env!("OPENCC_COMMIT_HASH").into()
+pub fn get_opencc_commit() -> Option<String> {
+    option_env!("OPENCC_COMMIT_HASH").map(|s| s.into())
 }
 
 /// Convert a text to a target Chinese variant.
