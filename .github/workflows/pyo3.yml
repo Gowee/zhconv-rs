@@ -163,7 +163,7 @@ jobs:
         run: |
           apk add py3-pip
           pip3 install -U pip
-          pip3 install zhconv-rs --no-index --find-links /io/dist/ --force-reinstall
+          pip3 install zhconv-rs --no-index --find-links /io/pyo3/dist/ --force-reinstall
           python3 -c "import zhconv_rs"
     - name: Upload wheels
       uses: actions/upload-artifact@v3
