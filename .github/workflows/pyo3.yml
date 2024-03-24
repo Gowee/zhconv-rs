@@ -169,7 +169,7 @@ jobs:
           ls /io/pyo3 || echo -1
           echo "pyo3/dist"
           ls /io/pyo3/dist || echo -2
-          pip3 install zhconv_rs-0.3.1-cp310-cp310-musllinux_1_2_x86_64.whl
+          pip3 install zhconv_rs-0.3.1-cp310-cp310-musllinux_1_2_x86_64.whl --break-system-packages
           pip3 install zhconv-rs --no-index --find-links /io/pyo3/dist --force-reinstall --break-system-packages
           python3 -c "import zhconv_rs"
     - name: Upload wheels
