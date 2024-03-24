@@ -9,19 +9,25 @@ env:
 
 jobs:
   build-main:
+    strategy:
+      matrix:
+        featureset:
+          - flag: ""
+          - flag: "--all-features"
+          - flag: "--no-default-features"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Build
         run: |
           cargo --version
-          cargo build --verbose
+          cargo build --verbose ${{ matrix.featureset.flag }}
       - name: Test
-        run: cargo test --verbose
-      - name: Clippy
-        run: cargo clippy --all-targets --all-features -- -D warnings
+        run: cargo test ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
         run: cargo fmt -- --check
+      - name: Clippy
+        run: cargo clippy --all-targets ${{ matrix.featureset.flag }} -- -D warnings
 
   build-cli:
     needs: build-main
@@ -41,6 +47,21 @@ jobs:
         run: cargo clippy --all-targets --all-features -- -D warnings
       - name: Check Format
         run: cargo fmt -- --check
+
+  build-pyo3:
+    needs: build-main
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Symlink README
+      run: |
+        cd pyo3/
+        ln -s ../README.md ./
+    - uses: messense/maturin-action@v1
+      with:
+        manylinux: auto
+        command: build
+        args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
 
   # now Pages.dev do this for us
   # build-web:
