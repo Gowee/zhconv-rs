@@ -1,7 +1,6 @@
-name: PyO3
+name: Python
 
 on:
-  workflow_dispatch:
   push:
     branches:
       # - main
@@ -9,36 +8,36 @@ on:
     tags:
       - v*
   pull_request:
+  workflow_dispatch:
 
 jobs:
   macos:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: 3.9
           architecture: x64
       - uses: dtolnay/rust-toolchain@stable
       - name: Build wheels - x86_64
         uses: PyO3/maturin-action@v1
         with:
           target: x86_64
-          args: --release --sdist -o pyo3/dist -i 3.7 3.8 3.9 3.10 3.11 pypy3.8 pypy3.9 p3.10
+          args: --release -o pyo3/dist --sdist -m pyo3/Cargo.toml
       - name: Install built wheel - x86_64
         run: |
           pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
-          # pip install pytest
-          # pytest
+          # python -c "import zhconv_rs"
       - name: Build wheels - universal2
         uses: PyO3/maturin-action@v1
         with:
           target: universal2-apple-darwin
-          args: --release -o pyo3/dist -i 3.8 3.9 3.10 3.11 pypy3.8 pypy3.9 pypy3.10
+          args: --release -o pyo3/dist -m pyo3/Cargo.toml
       - name: Install built wheel - universal2
         run: |
           pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
-          # pytest
+          python -c "import zhconv_rs"
       - name: Upload wheels
         uses: actions/upload-artifact@v3
         with:
@@ -47,31 +46,25 @@ jobs:
 
   windows:
     runs-on: windows-latest
-    name: windows (${{ matrix.platform.target }})
     strategy:
       matrix:
-        platform:
-          - target: x64
-            interpreter: 3.7 3.8 3.9 3.10 3.11 3.12 pypy3.8 pypy3.9 pypy3.10
-          - target: x86
-            interpreter: 3.7 3.8 3.9 3.10 3.11 3.12
+        target: [x64, x86]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
-          architecture: ${{ matrix.platform.target }}
+          python-version: 3.9
+          architecture: ${{ matrix.target }}
       - uses: dtolnay/rust-toolchain@stable
       - name: Build wheels
         uses: PyO3/maturin-action@v1
         with:
-          target: ${{ matrix.platform.target }}
-          args: --release -o pyo3/dist -i ${{ matrix.platform.interpreter }}
+          target: ${{ matrix.target }}
+          args: --release -o pyo3/dist -m pyo3/Cargo.toml
       - name: Install built wheel
         run: |
           pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
-          # pip install pytest
-          # pytest
+          python -c "import zhconv_rs"
       - name: Upload wheels
         uses: actions/upload-artifact@v3
         with:
@@ -84,24 +77,22 @@ jobs:
       matrix:
         target: [x86_64, i686]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: 3.9
         architecture: x64
     - name: Build wheels
       uses: PyO3/maturin-action@v1
       with:
-        rust-toolchain: stable
         target: ${{ matrix.target }}
         manylinux: auto
-        args: --release -o pyo3/dist -i 3.7 3.8 3.9 3.10 3.11 3.12 pypy3.8 pypy3.9 pypy3.10
+        args: --release -o pyo3/dist -m pyo3/Cargo.toml
     - name: Install built wheel
       if: matrix.target == 'x86_64'
       run: |
         pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
-        # pip install pytest
-        # pytest
+        python -c "import zhconv_rs"
     - name: Upload wheels
       uses: actions/upload-artifact@v3
       with:
@@ -112,20 +103,19 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [aarch64, armv7, s390x, ppc64le]
+        target: [aarch64, armv7, s390x, ppc64le, ppc64]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: 3.9
     - name: Build wheels
       uses: PyO3/maturin-action@v1
       with:
-        rust-toolchain: stable
         target: ${{ matrix.target }}
         manylinux: auto
-        args: --release -o pyo3/dist -i 3.7 3.8 3.9 3.10 3.11 3.12 pypy3.8 pypy3.9 pypy3.10
-    - uses: uraimo/run-on-arch-action@v2.3.0
+        args: --release -o pyo3/dist -m pyo3/Cargo.toml
+    - uses: uraimo/run-on-arch-action@v2.7.1
       if: matrix.target != 'ppc64'
       name: Install built wheel
       with:
@@ -135,10 +125,10 @@ jobs:
         install: |
           apt-get update
           apt-get install -y --no-install-recommends python3 python3-pip
-          pip3 install -U pip pytest
+          pip3 install -U pip
         run: |
           pip3 install zhconv-rs --no-index --find-links pyo3/dist/ --force-reinstall
-          # pytest
+          python3 -c "import zhconv_rs"
     - name: Upload wheels
       uses: actions/upload-artifact@v3
       with:
@@ -153,18 +143,17 @@ jobs:
           - x86_64-unknown-linux-musl
           - i686-unknown-linux-musl
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: 3.9
         architecture: x64
     - name: Build wheels
       uses: PyO3/maturin-action@v1
       with:
-        rust-toolchain: stable
         target: ${{ matrix.target }}
         manylinux: musllinux_1_2
-        args: --release -o pyo3/dist -i 3.7 3.8 3.9 3.10 3.11 3.12
+        args: --release -o pyo3/dist -m pyo3/Cargo.toml
     - name: Install built wheel
       if: matrix.target == 'x86_64-unknown-linux-musl'
       uses: addnab/docker-run-action@v3
@@ -173,9 +162,9 @@ jobs:
         options: -v ${{ github.workspace }}:/io -w /io
         run: |
           apk add py3-pip
-          pip3 install -U pip pytest
-          pip3 install zhconv-rs --no-index --find-links /io/pyo3/dist/ --force-reinstall
-          # python3 -m pytest
+          pip3 install -U pip
+          pip3 install zhconv-rs --no-index --find-links /io/dist/ --force-reinstall
+          python3 -c "import zhconv_rs"
     - name: Upload wheels
       uses: actions/upload-artifact@v3
       with:
@@ -192,18 +181,17 @@ jobs:
           - target: armv7-unknown-linux-musleabihf
             arch: armv7
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: 3.9
     - name: Build wheels
       uses: PyO3/maturin-action@v1
       with:
-        rust-toolchain: stable
         target: ${{ matrix.platform.target }}
         manylinux: musllinux_1_2
-        args: --release -o pyo3/dist -i 3.7 3.8 3.9 3.10 3.11 3.12
-    - uses: uraimo/run-on-arch-action@v2.3.0
+        args: --release -o pyo3/dist -m pyo3/Cargo.toml
+    - uses: uraimo/run-on-arch-action@v2.7.1
       name: Install built wheel
       with:
         arch: ${{ matrix.platform.arch }}
@@ -211,10 +199,10 @@ jobs:
         githubToken: ${{ github.token }}
         install: |
           apk add py3-pip
-          pip3 install -U pip pytest
+          pip3 install -U pip
         run: |
           pip3 install zhconv-rs --no-index --find-links pyo3/dist/ --force-reinstall
-          # python3 -m pytest
+          python3 -c "import zhconv_rs"
     - name: Upload wheels
       uses: actions/upload-artifact@v3
       with:
@@ -230,12 +218,15 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: wheels
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
       - name: Publish to PyPI
         env:
-          MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
-        uses: PyO3/maturin-action@v1
-        with:
-          command: upload
-          args: --skip-existing *
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          pip install --upgrade twine
+          twine upload --skip-existing *
 
-# Adapted from: https://github.com/messense/py-dissimilar/blob/main/.github/workflows/CI.yml
+# Source: https://github.com/messense/crfs-rs/blob/main/.github/workflows/Python.yml
