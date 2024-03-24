@@ -60,6 +60,7 @@ pub fn get_builtin_converter(target: Variant) -> &'static ZhConverter {
 }
 
 #[doc(hidden)]
+#[allow(clippy::needless_borrow)]
 pub fn deserialize_converter(
     variant: Variant,
     daac: &[u8],
