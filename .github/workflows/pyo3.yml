@@ -2,8 +2,9 @@ name: PyO3
 
 on:
   push:
-    # branches:
-    #   - main
+    branches:
+      # - main
+      - dev
     tags:
       - v*
   pull_request:
