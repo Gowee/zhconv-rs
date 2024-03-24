@@ -1,4 +1,4 @@
-name: Python
+name: PyO3
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         uses: PyO3/maturin-action@v1
         with:
           target: x86_64
-          args: --release -o pyo3/dist --sdist -m pyo3/Cargo.toml
+          args: --release -o pyo3/dist --sdist --find-interpreter -m pyo3/Cargo.toml
       - name: Install built wheel - x86_64
         run: |
           pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
@@ -33,7 +33,7 @@ jobs:
         uses: PyO3/maturin-action@v1
         with:
           target: universal2-apple-darwin
-          args: --release -o pyo3/dist -m pyo3/Cargo.toml
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
       - name: Install built wheel - universal2
         run: |
           pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
@@ -60,7 +60,7 @@ jobs:
         uses: PyO3/maturin-action@v1
         with:
           target: ${{ matrix.target }}
-          args: --release -o pyo3/dist -m pyo3/Cargo.toml
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
       - name: Install built wheel
         run: |
           pip install zhconv-rs --no-index --find-links pyo3/dist --force-reinstall
@@ -87,7 +87,7 @@ jobs:
       with:
         target: ${{ matrix.target }}
         manylinux: auto
-        args: --release -o pyo3/dist -m pyo3/Cargo.toml
+        args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
     - name: Install built wheel
       if: matrix.target == 'x86_64'
       run: |
@@ -114,7 +114,7 @@ jobs:
       with:
         target: ${{ matrix.target }}
         manylinux: auto
-        args: --release -o pyo3/dist -m pyo3/Cargo.toml
+        args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
     - uses: uraimo/run-on-arch-action@v2.7.1
       if: matrix.target != 'ppc64'
       name: Install built wheel
@@ -153,7 +153,7 @@ jobs:
       with:
         target: ${{ matrix.target }}
         manylinux: musllinux_1_2
-        args: --release -o pyo3/dist -m pyo3/Cargo.toml
+        args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
     - name: Install built wheel
       if: matrix.target == 'x86_64-unknown-linux-musl'
       uses: addnab/docker-run-action@v3
@@ -190,7 +190,7 @@ jobs:
       with:
         target: ${{ matrix.platform.target }}
         manylinux: musllinux_1_2
-        args: --release -o pyo3/dist -m pyo3/Cargo.toml
+        args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
     - uses: uraimo/run-on-arch-action@v2.7.1
       name: Install built wheel
       with:
