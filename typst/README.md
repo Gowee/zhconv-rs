@@ -1,6 +1,6 @@
 # zhconv-typst
 
-zhconv converts Chinese text between Traditional/Simplified and regional variants in typst.
+zhconv-typst converts Chinese text between Traditional, Simplified and regional variants in typst, utilizing [zhconv-rs](https://github.com/Gowee/zhconv-rs).
 
 ## Usage
 
