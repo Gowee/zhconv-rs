@@ -9,7 +9,7 @@ use std::default::Default;
 use std::fmt::{self, Display};
 use std::str::FromStr;
 
-use strum::{Display, EnumString, VariantNames, IntoStaticStr};
+use strum::{Display, EnumString, IntoStaticStr, VariantNames};
 
 use crate::utils::get_with_fallback;
 
