@@ -73,7 +73,7 @@ fn make_converter(py: Python<'_>, base: Option<&str>, pairs: PyObject) -> PyResu
 
         if let Ok(string_ref) = pairs.downcast_bound::<PyString>(py) {
             // path
-            let path = string_ref.to_str()?;
+            let path = string_ref.to_string_lossy().to_string();
             File::open(path)?.read_to_string(&mut text)?;
         } else {
             // file-like
