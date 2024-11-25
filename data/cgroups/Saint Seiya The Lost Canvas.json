@@ -1,0 +1,275 @@
+{
+  "name": "Saint Seiya The Lost Canvas",
+  "description": "聖鬥士星矢 THE LOST CANVAS 冥王神話",
+  "path": "Module:CGroup/Saint Seiya The Lost Canvas",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:嘉米爾;zh-tw:嘉米爾;zh-hk:渣米路;zh-sg:嘉米爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:布魯格勒德;zh-tw:布魯格拉德;zh-hk:布魯格蘭特;zh-sg:布魯格拉德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:薩莎;zh-tw:紗夏;zh-hk:紗莎;zh-sg:薩莎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:讓葉;zh-tw:尤茲莉哈;zh-hk:由素莉華;zh-sg:讓葉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:哈古雷爾;zh-tw:白禮;zh-hk:哈古雷爾;zh-sg:哈古雷爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:史昂;zh-tw:希歐;zh-hk:薜安;zh-sg:史昂;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿魯迪巴;zh-tw:阿爾迪巴朗;zh-hk:阿魯迪巴;zh-sg:阿魯迪巴;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:哈斯加特;zh-tw:哈斯加多;zh-hk:哈斯加特;zh-sg:哈斯加特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:泰尼奧;zh-tw:泰尼歐;zh-hk:泰尼奧;zh-sg:泰尼奧;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿斯普洛斯;zh-tw:亞斯普羅士;zh-hk:阿斯普洛斯;zh-sg:阿斯普洛斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:德弗特洛斯;zh-tw:戴夫泰羅斯;zh-hk:德弗特洛斯;zh-sg:德弗特洛斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:馬尼戈特;zh-tw:馬尼葛魯多;zh-hk:馬尼戈特;zh-sg:馬尼哥特;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿釋密達;zh-tw:阿思密達;zh-hk:阿釋密達;zh-sg:阿釋密達;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:卡路狄亞;zh-tw:卡爾迪亞;zh-hk:卡路狄亞;zh-sg:卡路狄亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希緒弗斯;zh-tw:西基弗斯;zh-hk:斯捷霍斯;zh-sg:希緒弗斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾爾斯特;zh-tw:艾爾熙德;zh-hk:艾爾斯特;zh-sg:艾爾西德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克雷斯托;zh-tw:庫雷斯特;zh-hk:克雷斯托;zh-sg:克雷斯托;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:迪捷路;zh-tw:笛捷爾;zh-hk:迪捷路;zh-sg:迪捷路;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:雅柏菲卡;zh-tw:阿爾巴菲卡;zh-hk:雅柏菲卡;zh-sg:雅柏菲卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:施智;zh-tw:賽奇;zh-hk:施智;zh-sg:施智;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿加莎;zh-tw:阿加莎;zh-hk:雅嘉莎;zh-sg:阿加莎;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:亞特拉;zh-tw:亞特拉;zh-hk:亞杜拉;zh-sg:亞特拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴吉亞;zh-tw:帕基亞;zh-hk:柏基亞;zh-sg:帕基亞;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:雅典娜之嘆息;zh-tw:雅典娜之驚嘆;zh-hk:雅典娜之嘆息;zh-sg:雅典娜之嘆息;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:血紅毒針;zh-tw:深紅荊棘;zh-hk:血紅毒針;zh-sg:血紅毒針;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巨型號角;zh-tw:巨型號角;zh-hk:狂牛巨角;zh-sg:巨型號角;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:泰坦新星;zh-tw:泰坦新星;zh-hk:超新星大霹靂;zh-sg:泰坦新星;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:泰坦爆裂;zh-tw:泰坦爆裂;zh-hk:超新星大爆裂;zh-sg:泰坦爆裂;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:昴宿新星;zh-tw:昴宿新星;zh-hk:牡牛新星;zh-sg:昴宿新星;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:閃電光束拳;zh-tw:雷霆電擊;zh-hk:閃電奔雷;zh-sg:閃電奔雷;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:等離子光速拳;zh-tw:雷霆電漿;zh-hk:閃電光速拳;zh-sg:閃電光速拳;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:安達里士;zh-tw:心宿二;zh-hk:安達里士;zh-sg:安達里士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:吸血玫瑰;zh-tw:血腥玫瑰;zh-hk:吸血玫瑰;zh-sg:吸血玫瑰;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:獨角獸飛奔;zh-tw:獨角獸飛奔;zh-hk:獨角飛奔;zh-sg:獨角獸飛奔;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:獨角獸飛躍;zh-tw:獨角獸飛躍;zh-hk:獨角飛躍;zh-sg:獨角獸飛躍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巨船阿爾戈;zh-tw:巨船阿爾戈;zh-hk:南船座集合;zh-sg:巨船阿爾戈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:哈帝斯;zh-tw:黑帝斯;zh-hk:哈帝斯;zh-sg:哈帝斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:希普諾斯;zh-tw:休普諾斯;zh-hk:希普諾斯;zh-sg:希普諾斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:塔納托斯;zh-tw:達拿都斯;zh-hk:塔納托斯;zh-sg:塔納托斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奧尼羅斯;zh-tw:奥涅依羅斯;zh-hk:奧尼羅斯;zh-sg:奧尼羅斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:潘朵拉;zh-tw:潘多拉;zh-hk:潘朵拉;zh-sg:潘朵拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:弗列基亞斯;zh-tw:弗列基亞斯;zh-hk:費烈基斯;zh-sg:弗列基亞斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:史坦德;zh-tw:史坦德;zh-hk:史丹特;zh-sg:史坦德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:切希爾;zh-tw:切希爾;zh-hk:謝撒;zh-sg:切希爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:愛德華;zh-tw:愛德華;zh-hk:艾特華杜;zh-sg:愛德華;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:丘布;zh-tw:丘布;zh-hk:休布;zh-sg:丘布;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:溫柏;zh-tw:溫柏;zh-hk:雲巴;zh-sg:溫柏;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:古尼高;zh-tw:格雷克;zh-hk:古尼高;zh-sg:古尼高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巴連達因;zh-tw:巴連達因;zh-hk:華倫泰;zh-sg:巴連達因;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:貝希摩斯;zh-tw:貝西莫斯;zh-hk:貝希摩斯;zh-sg:貝希摩斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:獅鷲獸;zh-tw:葛利芬;zh-hk:鷹頭獅;zh-sg:獅鷲獸;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:人面獸身鳥;zh-tw:人面獸身鳥;zh-hk:鷹身女妖;zh-sg:鷹身女妖;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:地獄豺狼;zh-tw:地獄豺狼;zh-hk:狼人;zh-sg:地獄豺狼;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:納斯;zh-tw:納蘇;zh-hk:納斯;zh-sg:納斯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:風精靈;zh-tw:風精靈;zh-hk:蜂鳥;zh-sg:蜂鳥;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:無頭騎士;zh-tw:無頭騎士;zh-hk:無頭妖怪;zh-sg:無頭騎士;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:冷酷幻境;zh-tw:冷酷幻境;zh-hk:童話夢幻;zh-sg:冷酷幻境;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夢界之芥子;zh-tw:夢界之芥子;zh-hk:麻醉昏睡;zh-sg:夢界之芥子;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:星辰傀儡線;zh-tw:星辰傀儡線;zh-hk:宇宙傀儡線;zh-sg:星辰傀儡線;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巨翼翔風;zh-tw:巨翼翔風;zh-hk:巨翼振翅;zh-sg:巨翼翔風;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:鎖魂永生紋;zh-tw:十字釘刑;zh-hk:鎖魂永生紋;zh-sg:鎖魂永生紋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:甜蜜殺氣;zh-tw:甜美巧克力;zh-hk:甜蜜殺氣;zh-sg:甜蜜殺氣;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:地獄咆哮;zh-tw:地獄咆哮;zh-hk:咆哮地獄;zh-sg:咆哮地獄;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:地獄同行;zh-tw:地獄同行;zh-hk:地獄甲角衝擊;zh-sg:地獄同行;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:埋葬堡壘;zh-tw:埋葬堡壘;zh-hk:墓葬堡壘;zh-sg:墓葬堡壘;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:死亡信使;zh-tw:死亡信使;zh-hk:死亡惡耗;zh-sg:死亡信使;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:噩夢聲納;zh-tw:噩夢聲納;zh-hk:噩夢超音波;zh-sg:噩夢聲納;"
+    }
+  ]
+}

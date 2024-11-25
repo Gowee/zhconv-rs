@@ -1,0 +1,335 @@
+{
+  "name": "BLEACH",
+  "description": "[[BLEACH]]",
+  "path": "Module:CGroup/BLEACH",
+  "rules": [
+    {
+      "original": "ルキア",
+      "conv": "zh-tw:露琪亞; zh-hk:瑠亞; zh-hans:露琪亚;"
+    },
+    {
+      "original": "イヅル",
+      "conv": "zh-tw:井鶴; zh-hk:逸鶴; zh-hans:井鶴;"
+    },
+    {
+      "original": "やちる",
+      "conv": "zh-tw:八千流; zh-hk:八智留; zh-hans:八千流;"
+    },
+    {
+      "original": "マユリ",
+      "conv": "zh-tw:繭利; zh-hk:眉利; zh-hans:茧利;"
+    },
+    {
+      "original": "ネム",
+      "conv": "zh-tw:音無; zh-hk:合歡; zh-hans:音梦;"
+    },
+    {
+      "original": "コヨーテ",
+      "conv": "zh-tw:柯約代; zh-hk:哥約特;"
+    },
+    {
+      "original": "バラガン",
+      "conv": "zh-tw:巴拉岡; zh-hk:柏萊根;"
+    },
+    {
+      "original": "ルイゼンバーン",
+      "conv": "zh-tw:魯伊善邦; zh-hk:路贊班;"
+    },
+    {
+      "original": "ティア",
+      "conv": "zh-tw:蒂亞; zh-hk:緹亞;"
+    },
+    {
+      "original": "ハリベル",
+      "conv": "zh-tw:哈里貝爾; zh-hk:夏莉貝露;"
+    },
+    {
+      "original": "ウルキオラ",
+      "conv": "zh-tw:烏魯基歐拉; zh-hk:烏魯奇奧拿; zh-hans:乌尔奇奥拉;"
+    },
+    {
+      "original": "シファー",
+      "conv": "zh-tw:西法; zh-hk:篩凡; zh-hans:西法;"
+    },
+    {
+      "original": "ノイトラ",
+      "conv": "zh-tw:諾伊托拉; zh-hk:諾依朵拉;"
+    },
+    {
+      "original": "ジルガ",
+      "conv": "zh-tw:吉爾迦; zh-hk:哲魯加;"
+    },
+    {
+      "original": "グリムジョー",
+      "conv": "zh-tw:古里姆喬; zh-hk:固武助; zh-hans:葛力姆乔;"
+    },
+    {
+      "original": "ジャガージャック",
+      "conv": "zh-tw:賈卡傑克; zh-hk:積加捷克; zh-hans:贾卡杰克;"
+    },
+    {
+      "original": "ゾマリ",
+      "conv": "zh-tw:佐馬利; zh-hk:祖馬尼;"
+    },
+    {
+      "original": "ルルー",
+      "conv": "zh-tw:魯魯; zh-hk:魯奴;"
+    },
+    {
+      "original": "ザエルアポロ",
+      "conv": "zh-tw:薩耶爾阿波羅; zh-hk:贊艾路阿波羅;"
+    },
+    {
+      "original": "グランツ",
+      "conv": "zh-tw:葛蘭茲; zh-hk:古蘭茲;"
+    },
+    {
+      "original": "アーロニーロ",
+      "conv": "zh-tw:亞羅尼洛; zh-hk:亞洛尼洛;"
+    },
+    {
+      "original": "アルルエリ",
+      "conv": "zh-tw:阿魯魯耶里; zh-hk:亞路路艾利;"
+    },
+    {
+      "original": "ヤミー",
+      "conv": "zh-tw:闇; zh-hk:也米;"
+    },
+    {
+      "original": "リヤルゴ",
+      "conv": "zh-tw:里亞爾柯; zh-hk:彌也哥;"
+    },
+    {
+      "original": "ネリエル・トゥ・オーデルシュヴァンク",
+      "conv": "zh-tw:涅里耶爾·圖·歐戴爾修凡克; zh-hk:尼莉艾路·通·奧迪修域克;"
+    },
+    {
+      "original": "ネリエル",
+      "conv": "zh-tw:涅里耶爾; zh-hk:尼莉艾路;"
+    },
+    {
+      "original": "リリネット",
+      "conv": "zh-tw:里里涅特; zh-hk:利利尼杜;"
+    },
+    {
+      "original": "ジンジャーバック",
+      "conv": "zh-tw:金傑貝克; zh-hk:芝珍碧;"
+    },
+    {
+      "original": "アパッチ",
+      "conv": "zh-tw:阿帕契; zh-hk:阿柏芝;"
+    },
+    {
+      "original": "ミラ・ローズ",
+      "conv": "zh-tw:米拉·羅茲; zh-hk:米娜·羅絲;"
+    },
+    {
+      "original": "ワンダーワイス",
+      "conv": "zh-tw:萬達外斯; zh-hk:雲達華爾斯;"
+    },
+    {
+      "original": "見えざる帝国",
+      "conv": "zh-tw:看不見的帝國; zh-hk:黑暗帝國;"
+    },
+    {
+      "original": "ユーハバッハ",
+      "conv": "zh-tw:優哈巴哈; zh-hk:由哈巴哈;"
+    },
+    {
+      "original": "ユーグラム",
+      "conv": "zh-tw:優谷拉姆; zh-hk:雨格蘭;"
+    },
+    {
+      "original": "ハッシュヴァルト",
+      "conv": "zh-tw:哈修瓦特; zh-hk:赫修懷特;"
+    },
+    {
+      "original": "ペルニダ",
+      "conv": "zh-tw:沛尼達; zh-hk:柏爾達;"
+    },
+    {
+      "original": "ペルニダ",
+      "conv": "zh-tw:帕倫卡傑斯; zh-hk:班格思;"
+    },
+    {
+      "original": "アスキン",
+      "conv": "zh-tw:阿斯金; zh-hk:亞斯堅;"
+    },
+    {
+      "original": "ナックルヴァール",
+      "conv": "zh-tw:納克瓦爾; zh-hk:拿高瓦;"
+    },
+    {
+      "original": "バンビエッタ",
+      "conv": "zh-tw:班比艾塔; zh-hk:班比艾特;"
+    },
+    {
+      "original": "バスターバイン",
+      "conv": "zh-tw:巴斯塔拜; zh-hk:巴斯達拜;"
+    },
+    {
+      "original": "ノト",
+      "conv": "zh-tw:諾特; zh-hk:諾度;"
+    },
+    {
+      "original": "リルトット",
+      "conv": "zh-tw:莉露多托; zh-hk:莉朵歌;"
+    },
+    {
+      "original": "ランパード",
+      "conv": "zh-tw:藍帕德; zh-hk:琳寶;"
+    },
+    {
+      "original": "キルゲ",
+      "conv": "zh-tw:基爾傑; zh-hk:基路傑;"
+    },
+    {
+      "original": "オピー",
+      "conv": "zh-tw:歐霹; zh-hk:奧比;"
+    },
+    {
+      "original": "ペペ",
+      "conv": "zh-tw:呸呸; zh-hk:柏比;"
+    },
+    {
+      "original": "ワキャブラーダ",
+      "conv": "zh-tw:瓦卡布拉達; zh-hk:華卡班達;"
+    },
+    {
+      "original": "ジェラルド",
+      "conv": "zh-tw:傑拉爾德; zh-hk:謝拉度;"
+    },
+    {
+      "original": "ヴァルキリー",
+      "conv": "zh-tw:瓦爾奇利; zh-hk:韋基利;"
+    },
+    {
+      "original": "ロバート",
+      "conv": "zh-tw:羅伯特; zh-hk:羅拔;"
+    },
+    {
+      "original": "アキュトロン",
+      "conv": "zh-tw:亞裘托倫; zh-hk:臻創;"
+    },
+    {
+      "original": "ドリスコール",
+      "conv": "zh-tw:多利斯柯爾; zh-hk:多斯高;"
+    },
+    {
+      "original": "ベルチ",
+      "conv": "zh-tw:貝魯奇; zh-hk:比滋;"
+    },
+    {
+      "original": "ミニーニャ",
+      "conv": "zh-tw:米妮拿; zh-hk:敏妮娜;"
+    },
+    {
+      "original": "マカロン",
+      "conv": "zh-tw:馬卡隆; zh-hk:麥雅朗;"
+    },
+    {
+      "original": "ベレニケ",
+      "conv": "zh-tw:貝雷尼克; zh-hk:巴尼爾;"
+    },
+    {
+      "original": "ガブリエリ",
+      "conv": "zh-tw:賈布利耶里; zh-hk:加巴里艾尼;"
+    },
+    {
+      "original": "ジェローム",
+      "conv": "zh-tw:傑洛姆; zh-hk:積羅姆;"
+    },
+    {
+      "original": "ギズバット",
+      "conv": "zh-tw:古茲巴特; zh-hk:基斯巴度;"
+    },
+    {
+      "original": "マスク・ド・マスキュリン",
+      "conv": "zh-tw:麥斯庫·德·馬斯庫林; zh-hk:威武幪面俠;"
+    },
+    {
+      "original": "ジェイムズ",
+      "conv": "zh-tw:詹姆斯; zh-hk:占士;"
+    },
+    {
+      "original": "キャンディス",
+      "conv": "zh-tw:凱蒂絲; zh-hk:嘉蒂絲;"
+    },
+    {
+      "original": "キャットニップ",
+      "conv": "zh-tw:肯特妮普; zh-hk:卡聶;"
+    },
+    {
+      "original": "ナナナ",
+      "conv": "zh-tw:奈奈奈; zh-hk:拿拿拿;"
+    },
+    {
+      "original": "ナジャークープ",
+      "conv": "zh-tw:納傑庫普; zh-hk:拿沙古布;"
+    },
+    {
+      "original": "グレミィ",
+      "conv": "zh-tw:葛雷米; zh-hk:格萊密;"
+    },
+    {
+      "original": "トゥミュー",
+      "conv": "zh-tw:圖謬; zh-hk:圖米;"
+    },
+    {
+      "original": "シャズ",
+      "conv": "zh-tw:賈茲; zh-hk:撒茲;"
+    },
+    {
+      "original": "ドミノ",
+      "conv": "zh-tw:多米諾; zh-hk:多美諾;"
+    },
+    {
+      "original": "グエナエル",
+      "conv": "zh-tw:古耶納爾; zh-hk:桂尼葉;"
+    },
+    {
+      "original": "ニャンゾル",
+      "conv": "zh-tw:南佐; zh-hk:尼佐;"
+    },
+    {
+      "original": "ワイゾル",
+      "conv": "zh-tw:偉佐; zh-hk:偉素;"
+    },
+    {
+      "original": "リジェ",
+      "conv": "zh-tw:里傑; zh-hk:里爾;"
+    },
+    {
+      "original": "バロ",
+      "conv": "zh-tw:巴洛; zh-hk:鮑路;"
+    },
+    {
+      "original": "ロイド",
+      "conv": "zh-tw:洛伊德; zh-hk:羅意德;"
+    },
+    {
+      "original": "ジゼル",
+      "conv": "zh-tw:吉賽爾; zh-hk:姬茜;"
+    },
+    {
+      "original": "ジュエル",
+      "conv": "zh-tw:茱耶爾; zh-hk:茱維;"
+    },
+    {
+      "original": "アズギアロ",
+      "conv": "zh-tw:阿茲基亞洛; zh-hk:艾基阿朗;"
+    },
+    {
+      "original": "イーバーン",
+      "conv": "zh-tw:伊班; zh-hk:依巴;"
+    },
+    {
+      "original": "リューダス",
+      "conv": "zh-tw:留達斯; zh-hk:了達斯;"
+    },
+    {
+      "original": "フリーゲン",
+      "conv": "zh-tw:弗利根; zh-hk:夫利根;"
+    }
+  ]
+}

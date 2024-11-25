@@ -5,103 +5,111 @@
   "rules": [
     {
       "original": "Harry Potter and the Philosopher's Stone",
-      "conv": "zh-cn:哈利·波特与魔法石;zh-tw:哈利波特－神秘的魔法石"
+      "conv": "zh-cn:哈利·波特与魔法石;zh-tw:哈利波特：神秘的魔法石"
     },
     {
       "original": "Harry Potter and the Chamber of Secrets",
-      "conv": "zh-cn:哈利·波特与密室;zh-tw:哈利波特－消失的密室"
+      "conv": "zh-cn:哈利·波特与密室;zh-tw:哈利波特：消失的密室"
     },
     {
       "original": "Harry Potter and the Prisoner of Azkaban",
-      "conv": "zh-cn:哈利·波特与阿兹卡班囚徒;zh-tw:哈利波特－阿茲卡班的逃犯"
+      "conv": "zh-cn:哈利·波特与阿兹卡班囚徒;zh-tw:哈利波特：阿茲卡班的逃犯"
     },
     {
       "original": "Harry Potter and the Goblet of Fire",
-      "conv": "zh-cn:哈利·波特与火焰杯;zh-tw:哈利波特－火盃的考驗"
+      "conv": "zh-cn:哈利·波特与火焰杯;zh-tw:哈利波特：火盃的考驗"
     },
     {
       "original": "Harry Potter and the Order of the Phoenix",
-      "conv": "zh-cn:哈利·波特与凤凰社;zh-tw:哈利波特－鳳凰會的密令"
+      "conv": "zh-cn:哈利·波特与凤凰社;zh-tw:哈利波特：鳳凰會的密令"
     },
     {
       "original": "Harry Potter and the Half-Blood Prince",
-      "conv": "zh-cn:哈利·波特与“混血王子”;zh-tw:哈利波特－混血王子的背叛"
+      "conv": "zh-cn:哈利·波特与“混血王子”;zh-tw:哈利波特：混血王子的背叛"
     },
     {
       "original": "Harry Potter and the Deathly Hallows",
-      "conv": "zh-cn:哈利·波特与死亡圣器;zh-tw:哈利波特－死神的聖物"
+      "conv": "zh-cn:哈利·波特与死亡圣器;zh-tw:哈利波特：死神的聖物"
     },
     {
       "original": "Harry Potter and the Deathly Hallows",
-      "conv": "zh-cn:哈利·波特与被诅咒的孩子;zh-tw:哈利波特－被詛咒的孩子"
+      "conv": "zh-cn:哈利·波特与被诅咒的孩子;zh-tw:哈利波特：被詛咒的孩子"
     },
     {
       "original": "(Harry Potter and) the Goblet of Fire",
-      "conv": "zh-cn:火焰杯;zh-tw:火盃"
+      "conv": "zh-cn:火焰杯;zh-sg:火杯;zh-tw:火盃"
     },
     {
       "original": "(Harry Potter and the) Order of the Phoenix",
-      "conv": "zh-cn:凤凰社;zh-tw:鳳凰會"
+      "conv": "zh-cn:凤凰社;zh-sg:凤凰会;zh-tw:鳳凰會"
     },
     {
       "original": "(Harry Potter and) the Deathly Hallows",
-      "conv": "zh-cn:死亡圣器;zh-tw:死神的聖物"
+      "conv": "zh-cn:死亡圣器;zh-sg:死神的圣物;zh-tw:死神的聖物"
     },
     {
       "original": "Harry Potter and the Philosopher's Stone",
-      "conv": "zh-tw:哈利波特：神秘的魔法石;zh-cn:哈利·波特与魔法石"
+      "conv": "zh-tw:哈利波特：神秘的魔法石;zh-hk:哈利波特－神秘的魔法石;zh-sg:哈利波特：神秘的魔法石;zh-cn:哈利·波特与魔法石"
     },
     {
       "original": "Harry Potter and the Chamber of Secrets",
-      "conv": "zh-tw:哈利波特：消失的密室;zh-cn:哈利·波特与密室"
+      "conv": "zh-tw:哈利波特：消失的密室;zh-hk:哈利波特－消失的密室;zh-sg:哈利波特：消失的密室;zh-cn:哈利·波特与密室"
     },
     {
       "original": "Harry Potter and the Prisoner of Azkaban",
-      "conv": "zh-tw:哈利波特：阿茲卡班的逃犯;zh-cn:哈利·波特与阿兹卡班的囚徒"
+      "conv": "zh-tw:哈利波特：阿茲卡班的逃犯;zh-hk:哈利波特－阿茲卡班的逃犯;zh-sg:哈利波特：阿兹卡班的逃犯;zh-cn:哈利·波特与阿兹卡班的囚徒"
     },
     {
       "original": "Harry Potter and the Goblet of Fire",
-      "conv": "zh-tw:哈利波特：火盃的考驗;zh-cn:哈利·波特与火焰杯"
+      "conv": "zh-tw:哈利波特：火盃的考驗;zh-hk:哈利波特－火盃的考驗;zh-sg:哈利波特：火杯的考验;zh-cn:哈利·波特与火焰杯"
     },
     {
       "original": "Harry Potter and the Order of the Phoenix",
-      "conv": "zh-tw:哈利波特：鳳凰會的密令;zh-cn:哈利·波特与凤凰社"
+      "conv": "zh-tw:哈利波特：鳳凰會的密令;zh-hk:哈利波特－鳳凰會的密令;zh-sg:哈利波特凤凰会的密令;zh-cn:哈利·波特与凤凰社"
     },
     {
       "original": "Harry Potter and the Half-Blood Prince",
-      "conv": "zh-tw:哈利波特：混血王子的背叛;zh-cn:哈利·波特与混血王子"
+      "conv": "zh-tw:哈利波特：混血王子的背叛;zh-hk:哈利波特－混血王子的背叛;zh-sg:哈利波特：混血王子的背叛;zh-cn:哈利·波特与混血王子"
     },
     {
       "original": "Harry Potter and the Deathly Hallows",
-      "conv": "zh-tw:哈利波特：死神的聖物;zh-cn:哈利·波特与死亡圣器"
+      "conv": "zh-tw:哈利波特：死神的聖物;zh-hk:哈利波特－死神的聖物;zh-sg:哈利波特－死神的圣物;zh-cn:哈利·波特与死亡圣器"
     },
     {
       "original": "Harry Potter and the Deathly Hallows – Part 1",
-      "conv": "zh-tw:哈利波特：死神的聖物Ⅰ;zh-hk:哈利波特：死神的聖物1;zh-cn:哈利·波特与死亡圣器（上）"
+      "conv": "zh-tw:哈利波特：死神的聖物Ⅰ;zh-hk:哈利波特－死神的聖物1;zh-sg:哈利波特－死神的圣物1;zh-cn:哈利·波特与死亡圣器（上）"
     },
     {
       "original": "Harry Potter and the Deathly Hallows – Part 2",
-      "conv": "zh-tw:哈利波特：死神的聖物Ⅱ;zh-hk:哈利波特：死神的聖物2;zh-cn:哈利·波特与死亡圣器（下）"
+      "conv": "zh-tw:哈利波特：死神的聖物Ⅱ;zh-hk:哈利波特－死神的聖物2;zh-sg:哈利波特－死神的圣物2;zh-cn:哈利·波特与死亡圣器（下）"
     },
     {
       "original": "(Harry Potter and) the Deathly Hallows – Part 1",
-      "conv": "zh-cn:死亡圣器（上）;zh-tw:死神的聖物Ⅰ;zh-hk:哈利波特：死神的聖物1;"
+      "conv": "zh-cn:死亡圣器（上）;zh-tw:死神的聖物Ⅰ;zh-hk:死神的聖物1;zh-sg:死神的圣物1;"
     },
     {
       "original": "(Harry Potter and) the Deathly Hallows – Part 2",
-      "conv": "zh-cn:死亡圣器（下）;zh-tw:死神的聖物Ⅱ;zh-hk:哈利波特：死神的聖物2;"
+      "conv": "zh-cn:死亡圣器（下）;zh-tw:死神的聖物Ⅱ;zh-hk:死神的聖物2;zh-sg:死神的圣物2;"
     },
     {
       "original": "Fantastic Beasts and Where to Find Them",
-      "conv": "zh-tw:怪獸與牠們的產地;zh-cn:神奇动物在哪里"
+      "conv": "zh-tw:怪獸與牠們的產地;zh-cn:神奇动物在哪里;zh-sg:怪兽与它们的产地;"
     },
     {
       "original": "Fantastic Beasts: The Crimes of Grindelwald",
-      "conv": "zh-tw:怪獸與葛林戴華德的罪行;zh-hk:怪獸與葛林戴華德之罪;zh-cn:神奇动物：格林德沃之罪"
+      "conv": "zh-tw:葛林戴華德的罪行;zh-hk:葛林戴華德之罪;zh-cn:格林德沃之罪;zh-sg:葛林戴华德的罪行;"
+    },
+    {
+      "original": "Fantastic Beasts: The Crimes of Grindelwald",
+      "conv": "zh-tw:怪獸與葛林戴華德的罪行;zh-hk:怪獸與葛林戴華德之罪;zh-cn:神奇动物：格林德沃之罪;zh-sg:怪兽与葛林戴华德的罪行;"
     },
     {
       "original": "Fantastic Beasts: The Secrets of Dumbledore",
-      "conv": "zh-tw:怪獸與鄧不利多的秘密;zh-hk:怪獸與鄧不利多的秘密;zh-cn:神奇动物：邓布利多之谜"
+      "conv": "zh-tw:鄧不利多的秘密;zh-hk:鄧不利多的秘密;zh-cn:邓布利多之谜;zh-sg:邓不利多的秘密;"
+    },
+    {
+      "original": "Fantastic Beasts: The Secrets of Dumbledore",
+      "conv": "zh-tw:怪獸與鄧不利多的秘密;zh-hk:怪獸與鄧不利多的秘密;zh-cn:神奇动物：邓布利多之谜;zh-sg:怪兽与邓不利多的秘密;"
     },
     {
       "original": "Harry Potter 20th Anniversary: Return to Hogwarts",
@@ -125,7 +133,7 @@
     },
     {
       "original": "Emma Watson",
-      "conv": "zh-cn:埃玛·沃森;zh-tw:艾瑪·華森;zh-hk:愛瑪·屈臣"
+      "conv": "zh-cn:埃玛·沃森;zh-tw:艾瑪·華森;zh-hk:愛瑪·屈臣;zh-sg:艾玛·沃森;zh-my:艾玛·华森;"
     },
     {
       "original": "Jim Broadbent",
@@ -177,7 +185,7 @@
     },
     {
       "original": "Dean (Thomas)",
-      "conv": "zh-tw:丁;zh-cn:迪安"
+      "conv": "zh-cn:迪安;zh-tw:丁"
     },
     {
       "original": "(Dean) Thomas",
@@ -194,6 +202,10 @@
     {
       "original": "Goldstein (Tina)",
       "conv": "zh-tw:金坦;zh-cn:戈德斯坦"
+    },
+    {
+      "original": "(Gregory) Goyle",
+      "conv": "zh-cn:格高尔;zh-tw:高爾"
     },
     {
       "original": "Gregory (Goyle)",
@@ -284,6 +296,10 @@
       "conv": "zh-cn:佩内洛;zh-tw:潘妮"
     },
     {
+      "original": "(Penelope) Clearwater",
+      "conv": "zh-cn:克里瓦特;zh-tw:清水"
+    },
+    {
       "original": "(Seamus) Finnegan",
       "conv": "zh-cn:斐尼甘;zh-tw:斐尼干"
     },
@@ -309,7 +325,7 @@
     },
     {
       "original": "Blaise Zabini",
-      "conv": "zh-cn:布雷司‧剎比;zh-tw:剎比‧布雷司"
+      "conv": "zh-cn:布雷司‧扎比尼;zh-tw:剎比‧布雷司"
     },
     {
       "original": "Vernon (Dursley)",
@@ -472,6 +488,18 @@
       "conv": "zh-cn:厄尼;zh-tw:爾尼"
     },
     {
+      "original": "Igor Karkaroff",
+      "conv": "zh-cn:伊戈尔·卡卡洛夫;zh-tw:伊果·卡卡夫"
+    },
+    {
+      "original": "Igor (Karkaroff)",
+      "conv": "zh-cn:伊戈尔;zh-tw:伊果"
+    },
+    {
+      "original": "(Igor) Karkaroff",
+      "conv": "zh-cn:卡卡洛夫;zh-tw:卡卡夫"
+    },
+    {
       "original": "Kingsley (Shacklebolt)",
       "conv": "zh-cn:金斯莱;zh-tw:金利"
     },
@@ -514,6 +542,14 @@
     {
       "original": "(Professor) Tofty",
       "conv": "zh-cn:托福迪;zh-tw:禿福"
+    },
+    {
+      "original": "(Pius) Thicknesse",
+      "conv": "zh-cn:辛克尼斯;zh-tw:希克尼"
+    },
+    {
+      "original": "Pius (Thicknesse)",
+      "conv": "zh-cn:皮尔斯;zh-tw:派厄思"
     },
     {
       "original": "Pius Thicknesse",
@@ -565,7 +601,7 @@
     },
     {
       "original": "Hokey",
-      "conv": "霍琪; zh-hant:哈佳"
+      "conv": "zh-hans:郝琪; zh-hant:哈佳"
     },
     {
       "original": "Fleur (Delacour)",
@@ -578,6 +614,10 @@
     {
       "original": "Molly (Weasley)",
       "conv": "zh-cn:莫丽;zh-tw:茉莉"
+    },
+    {
+      "original": "Ms Weasley",
+      "conv": "zh-cn:韦斯莱夫人;zh-tw:衞斯理太太"
     },
     {
       "original": "Percy (Weasley)",
@@ -717,14 +757,18 @@
     },
     {
       "original": "Argus (Filch)",
-      "conv": "zh-cn:阿格斯;zh-tw:阿各"
+      "conv": "zh-cn:阿格斯;zh-tw:阿各;zh-hk:雅各"
     },
     {
       "original": "(Argus) Filch",
-      "conv": "zh-cn:费尔奇;zh-tw:飛七"
+      "conv": "zh-cn:费尔奇;zh-tw:飛七;zh-hk:飛鼠"
     },
     {
-      "original": "(Mr) Flitwick",
+      "original": "Filius (Flitwick)",
+      "conv": "zh-cn:菲利乌斯;zh-tw:菲力;"
+    },
+    {
+      "original": "(Filius) Flitwick",
       "conv": "zh-cn:弗立维;zh-tw:孚立維"
     },
     {
@@ -750,10 +794,6 @@
     {
       "original": "(Irma) Pince",
       "conv": "zh-tw:平斯夫人;zh-cn:平斯夫人"
-    },
-    {
-      "original": "Minerva McGonagall",
-      "conv": "zh-cn:米勒娃·麦格;zh-tw:麥米奈娃"
     },
     {
       "original": "Professor McGonagall",
@@ -948,6 +988,10 @@
       "conv": "zh-cn:肥女士;zh-tw:胖女士"
     },
     {
+      "original": null,
+      "conv": "zh-cn:薇奥莱特;zh-tw:紫羅蘭"
+    },
+    {
       "original": "Grigovich",
       "conv": "zh-cn:格里戈维奇;zh-tw:葛果羅威"
     },
@@ -989,23 +1033,23 @@
     },
     {
       "original": "King's Cross Station",
-      "conv": "zh-cn:国王十字车站;zh-tw:國王十字車站"
+      "conv": "zh-cn:国王十字车站;zh-tw:國王十字車站;zh-hk:英皇十字車站;"
     },
     {
       "original": "Platform Nine and Three-Quarters",
-      "conv": "zh-cn:九又四分之三站台;zh-tw:九又四分之三月台"
+      "conv": "zh-cn:九又四分之三站台;zh-tw:九又四分之三月台;zh-sg:九又四分之三月台;zh-my:九又四分之三站台;"
     },
     {
       "original": "Platform 9¾",
-      "conv": "zh-cn:9¾站台;zh-tw:9¾月台"
+      "conv": "zh-cn:9¾站台;zh-tw:9¾月台;zh-sg:9¾月台;zh-my:9¾站台"
     },
     {
       "original": "Knockturn Alley",
       "conv": "zh-cn:翻倒巷;zh-tw:夜行巷"
     },
     {
-      "original": "Little Hangleton",
-      "conv": "zh-cn:小汉格顿;zh-tw:小漢果頓"
+      "original": "(Little) Hangleton",
+      "conv": "zh-cn:汉格顿;zh-tw:漢果頓"
     },
     {
       "original": "Little Whinging",
@@ -1050,6 +1094,10 @@
     {
       "original": "Forbidden Forest",
       "conv": "zh-cn:禁林;zh-tw:禁忌森林"
+    },
+    {
+      "original": "Forbidden Forest",
+      "conv": "zh-cn:天文塔;zh-tw:占星塔"
     },
     {
       "original": "Godric (Gryffindor)",
@@ -1196,12 +1244,16 @@
       "conv": "zh-cn:佐科笑话店;zh-tw:桑科的惡作劇商店"
     },
     {
+      "original": null,
+      "conv": "zh-cn:大礼堂;zh-tw:餐廳"
+    },
+    {
       "original": "Accidental Magic Reversal Squad",
       "conv": "zh-cn:意外魔法逆转小队; zh-tw:魔法意外矯正組"
     },
     {
       "original": "Auror Office",
-      "conv": "zh-cn:傲羅办公室;; zh-tw:正氣師總部"
+      "conv": "zh-cn:傲罗办公室;; zh-tw:正氣師總部"
     },
     {
       "original": "Broom Regulatory Control",
@@ -1284,6 +1336,18 @@
       "conv": "zh-cn:狼人登记办公室; zh-tw:狼人支援服務處"
     },
     {
+      "original": null,
+      "conv": "zh-hans:飞路网办公室; zh-hant:呼嚕網管理局"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:处置危险动物委员会; zh-hant:危險生物處分委員會"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:错误信息办公室; zh-hant:誤報局"
+    },
+    {
       "original": "Beast Division",
       "conv": "zh-cn:怪兽分部; zh-hant:怪獸司"
     },
@@ -1296,8 +1360,64 @@
       "conv": "zh-cn:灵魂分部; zh-hant:靈魂司"
     },
     {
+      "original": "Wizengamot",
+      "conv": "zh-tw:巫審加碼;zh-cn:威森加摩"
+    },
+    {
       "original": "Marauders' Map",
       "conv": "zh-cn:活点地图;zh-tw:劫盜地圖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:比比多味豆; zh-hant:柏蒂全口味豆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:挂坠盒;zh-tw:小金匣"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韦斯莱嗖嗖—砰烟火; zh-hant:衛氏野火魔爆彈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:果冻鼻涕虫; zh-hant:果凍蛞蝓"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:肥舌太妃糖; zh-hant:吹舌太妃糖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:金丝雀饼干; zh-hant:金絲雀奶油"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:胡椒小顽童; zh-hant:黑色胡椒鬼"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:臭弹; zh-hant:小臭丸"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:粪弹; zh-hant:屎炸彈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:酸味爆爆糖; zh-hant:酷酸果"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:噼啪爆炸牌; zh-hant:爆炸牌"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:糖棒羽毛笔; zh-hant:糖絲羽毛筆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:冰鼠; zh-hans:冰耗子"
     },
     {
       "original": "Auto-Answer Quill",
@@ -1310,6 +1430,10 @@
     {
       "original": "Broom Compass",
       "conv": "zh-cn:扫帚指南针;zh-tw:掃帚指南針"
+    },
+    {
+      "original": "Chocolate Frog",
+      "conv": "朱古力蛙; zh-hant:巧克力蛙;zh-hk:朱古力蛙;"
     },
     {
       "original": "Deathly Hallows",
@@ -1334,10 +1458,6 @@
     {
       "original": "Fanged Frisbee",
       "conv": "zh-cn:狼牙飞碟;zh-tw:獠牙飛盤"
-    },
-    {
-      "original": "Firebolt",
-      "conv": "zh-cn:火弩箭;zh-tw:火閃電"
     },
     {
       "original": "Floo Network",
@@ -1412,6 +1532,14 @@
       "conv": "zh-cn:门钥匙;zh-tw:港口鑰"
     },
     {
+      "original": "Protean Charm",
+      "conv": "zh-cn:厉火;zh-tw:惡魔之火"
+    },
+    {
+      "original": "Puking Pastille",
+      "conv": "zh-cn:吐吐糖;zh-tw:嘔吐軟糖"
+    },
+    {
       "original": "Put-Outer",
       "conv": "zh-cn:熄灯器;zh-tw:熄燈器"
     },
@@ -1472,16 +1600,36 @@
       "conv": "zh-cn:消失柜;zh-tw:消失櫥櫃"
     },
     {
-      "original": "",
+      "original": "Cleansweep Seven",
+      "conv": "zh-cn:横扫七星;zh-tw:狂風七號"
+    },
+    {
+      "original": "Firebolt",
+      "conv": "zh-cn:火弩箭;zh-tw:火閃電"
+    },
+    {
+      "original": "Nimbus 1000",
+      "conv": "zh-cn:光轮1000;zh-tw:光輪一千;zh-hk:光輪1000;"
+    },
+    {
+      "original": "Nimbus 2000",
+      "conv": "zh-cn:光轮2000;zh-tw:光輪兩千;zh-hk:光輪2000;"
+    },
+    {
+      "original": "Nimbus 2001",
+      "conv": "zh-cn:光轮2001;zh-tw:光輪兩千零一;zh-hk:光輪2001;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:吃人妖; zh-hant:食人魔"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:客迈拉兽; zh-hant:獅面龍尾羊"
     },
     {
-      "original": "",
-      "conv": "精靈=>zh-cn:妖精"
+      "original": null,
+      "conv": "zh-hant:精靈=>zh-cn:妖精"
     },
     {
       "original": "Antipodean Opaleye",
@@ -1864,6 +2012,30 @@
       "conv": "zh-cn:神奇动物在哪里; zh-tw:怪獸與牠們的產地; zh-sg:怪兽与它们的产地;"
     },
     {
+      "original": null,
+      "conv": "zh-hans:生骨灵; zh-hant:生骨水"
+    },
+    {
+      "original": "Sleeping Draught",
+      "conv": "zh-cn:安眠剂;zh-tw:安寧劑"
+    },
+    {
+      "original": "Amortentia",
+      "conv": "zh-cn:痴心水;zh-tw:意亂情迷水"
+    },
+    {
+      "original": "Love Potions",
+      "conv": "zh-cn:迷情剂;zh-tw:愛情魔藥"
+    },
+    {
+      "original": "Felix Felicis",
+      "conv": "zh-hans:福灵剂;zh-tw:福來福喜"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:消肿剂; zh-hant:放氣水"
+    },
+    {
       "original": "Gurdyroot",
       "conv": "zh-cn:戈迪根;zh-tw:鍋底根"
     },
@@ -2052,6 +2224,10 @@
       "conv": "zh-cn:人形显身;zh-tw:人人現"
     },
     {
+      "original": "Immobulus",
+      "conv": "zh-cn:全部定身;zh-tw:依莫比拉"
+    },
+    {
       "original": "Impedimenta",
       "conv": "zh-cn:障碍重重;zh-tw:噴噴障"
     },
@@ -2130,10 +2306,6 @@
     {
       "original": "Obliviate",
       "conv": "zh-cn:一忘皆空;zh-tw:空空，遺忘"
-    },
-    {
-      "original": "Occlumency",
-      "conv": "zh-cn:大脑封闭术;zh-tw:鎖心術"
     },
     {
       "original": "Occlumency",
@@ -2336,10 +2508,6 @@
       "conv": "zh-cn:神奇动物：格林德沃之罪; zh-hk:怪獸與葛林戴華德之罪; zh-tw:怪獸與葛林戴華德的罪行; zh-sg:怪兽与葛林戴华德的罪行;"
     },
     {
-      "original": "Ancient Runes",
-      "conv": "zh-tw:古代神秘文字研究;zh-cn:古代魔文"
-    },
-    {
       "original": "Animagus",
       "conv": "zh-tw:化獸師;zh-cn:阿尼玛格斯"
     },
@@ -2368,10 +2536,6 @@
       "conv": "zh-tw:山怪;zh-cn:巨怪"
     },
     {
-      "original": "Wizengamot",
-      "conv": "zh-tw:巫審加碼;zh-cn:威森加摩"
-    },
-    {
       "original": "International Statute of Secrecy",
       "conv": "zh-cn:国际保密法;zh-tw:國際保密規章"
     },
@@ -2388,10 +2552,6 @@
       "conv": "zh-cn:红色火花;zh-tw:啪銳喀錀"
     },
     {
-      "original": "Immobulus",
-      "conv": "zh-cn:全部定身;zh-tw:依莫比拉"
-    },
-    {
       "original": "common room",
       "conv": "zh-cn:公共休息室;zh-tw:交誼廳"
     },
@@ -2404,8 +2564,8 @@
       "conv": "zh-cn:雷古勒斯·阿塔洛斯·布莱克;zh-tw:獅子阿爾發·布萊克"
     },
     {
-      "original": "Reverse-spell Effect",
-      "conv": "zh-cn:闪回咒效应;zh-tw:符咒倒轉效應"
+      "original": "Reverse-spell",
+      "conv": "zh-cn:闪回咒;zh-tw:符咒倒轉"
     },
     {
       "original": "Arania Exumai",
@@ -2417,11 +2577,7 @@
     },
     {
       "original": "12 Grimmauld Place",
-      "conv": "zh-cn:格里莫广场12号;zh-tw:古裡某街12號"
-    },
-    {
-      "original": "Ms Weasley",
-      "conv": "zh-cn:韦斯莱夫人;zh-tw:衞斯理太太"
+      "conv": "zh-cn:格里莫广场12号;zh-tw:古里某街十二號"
     },
     {
       "original": "St Mungo",
@@ -2436,28 +2592,12 @@
       "conv": "zh-cn:秘鲁隐身烟雾弹;zh-tw:秘魯神奇黑暗粉"
     },
     {
-      "original": "Protean Charm",
-      "conv": "zh-cn:厉火;zh-tw:惡魔之火"
-    },
-    {
       "original": "Repello Inimicumt",
       "conv": "zh-cn:驱逐敌方;zh-tw:護護敵不進"
     },
     {
-      "original": "",
-      "conv": "zh-hans:比比多味豆; zh-hant:柏蒂全口味豆;"
-    },
-    {
       "original": "Hogwarts: An Incomplete and Unreliable Guide",
       "conv": "zh-cn:霍格沃茨不完全不靠谱指南;zh-tw:霍格華茲不完全不可靠指南"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:白鲜香精 ;zh-tw:白鮮液"
-    },
-    {
-      "original": "Chocolate Frog",
-      "conv": "朱古力蛙; zh-hant:巧克力蛙"
     },
     {
       "original": "Being",
@@ -2468,11 +2608,11 @@
       "conv": "zh-cn:罗斯默塔女士;zh-tw:羅梅塔夫人"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:N.E.W.T.考试;zh-tw:超勞巫測"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:O.W.L.考试;zh-tw:普等巫測"
     },
     {
@@ -2484,108 +2624,120 @@
       "conv": "zh-cn:火龙的心脏神经;zh-tw:龍的心弦"
     },
     {
-      "original": "Puking Pastille",
-      "conv": "zh-cn:吐吐糖;zh-tw:嘔吐軟糖"
-    },
-    {
       "original": "Slug Club",
       "conv": "zh-cn:鼻涕虫俱乐部;zh-tw:史拉俱樂部"
     },
     {
-      "original": "Sleeping Draught",
-      "conv": "zh-cn:安眠剂;zh-tw:安寧劑"
-    },
-    {
-      "original": "Amortentia",
-      "conv": "zh-cn:痴心水;zh-tw:意亂情迷水"
-    },
-    {
-      "original": "Love Potions",
-      "conv": "zh-cn:迷情剂;zh-tw:愛情魔藥"
-    },
-    {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:莫瑞根;zh-tw:摩里根"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:科尔夫人;zh-tw:柯爾太太"
     },
     {
-      "original": "",
-      "conv": "zh-cn:挂坠盒;zh-tw:小金匣"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:肥舌太妃糖; zh-hant:吹舌太妃糖"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:果冻鼻涕虫; zh-hant:果凍蛞蝓"
-    },
-    {
-      "original": "",
-      "conv": "zh-hant:冰鼠; zh-hans:冰耗子"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:酸味爆爆糖; zh-hant:酷酸果"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:糖棒羽毛笔; zh-hant:糖絲羽毛筆"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:胡椒小顽童; zh-hant:黑色胡椒鬼"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:生骨灵; zh-hant:生骨水"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:金丝雀饼干; zh-hant:金絲雀奶油"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:粪弹; zh-hant:屎炸彈"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:臭弹; zh-hant:小臭丸"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:韦斯莱嗖嗖—砰烟火; zh-hant:衛氏野火魔爆彈"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:噼啪爆炸牌; zh-hant:爆炸牌"
-    },
-    {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:巴士; zh-hant:公車"
     },
     {
-      "original": "",
+      "original": "ring",
       "conv": "zh-hans:指环; zh-hant:戒指"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:神奇动物; zh-hant:奇獸"
     },
     {
-      "original": "",
+      "original": "Hogwarts Legacy",
       "conv": "zh-hans:霍格沃兹之遗; zh-hant:霍格華茲的傳承"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:霍格沃兹之谜; zh-hant:霍格華茲之謎"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-tw:純種; zh-hk:純血; zh-cn:纯血"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:格林格拉斯;zh-tw:綠茵"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:佩弗利尔;zh-tw:皮福雷"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:普威特;zh-tw:普瑞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:波特瞭望站; zh-hant:波特觀察"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:调查行动组; zh-hant:督察小組"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:神奇动物保护; zh-hant:奇獸飼育學"
+    },
+    {
+      "original": "Ancient Runes",
+      "conv": "zh-tw:古代神秘文字研究;zh-cn:古代魔文"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:霍利黑德哈比队; zh-hant:聖顱島女頭鳥隊"
+    },
+    {
+      "original": "J. K. Rowling",
+      "conv": "zh-cn:J.K.罗琳; zh-hant:J·K·羅琳"
+    },
+    {
+      "original": "J. K. Rowling",
+      "conv": "zh-cn:J.K.罗琳; zh-hans:J·K·罗琳"
+    },
+    {
+      "original": "J. K. Rowling",
+      "conv": "zh-cn:J.K.罗琳; zh-hant:J.K·羅琳"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:神奇动物系列电影; zh-hant:怪獸系列電影"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蓋勒特; zh-hant:蓋勒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿蒂米斯; zh-hant:阿提密斯"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:忒修斯; zh-hant:西瑟"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:萊塔; zh-hant:莉塔"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:斯卡曼; zh-hant:斯卡曼德"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:菲多; zh-hant:費度"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:国际巫师联合会; zh-hant:國際巫師聯盟"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊法魔尼魔法学校; zh-hant:伊法魔尼巫術與魔法學校"
     },
     {
       "original": "Latin",

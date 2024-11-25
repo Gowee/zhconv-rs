@@ -77,11 +77,11 @@
     },
     {
       "original": "García Márquez",
-      "conv": "zh-cn:加西亚·马尔克斯; zh-tw:賈西亞·馬奎斯;zh-hk:賈西亞·馬奎斯;zh-sg:加西亚·马尔克斯;zh-mo:賈西亞·馬奎斯;"
+      "conv": "zh-cn:加西亚·马尔克斯; zh-tw:賈西亞·馬奎斯;zh-hk:加斯亞·馬奎斯;zh-sg:加西亚·马尔克斯;zh-mo:加斯亞·馬奎斯;"
     },
     {
       "original": "Gabriel García Márquez",
-      "conv": "zh-cn:加夫列尔·加西亚·马尔克斯;zh-tw:加布列·賈西亞·馬奎斯;zh-hk:賈布列爾·賈西亞·馬奎斯;zh-sg:加夫列尔·加西亚·马尔克斯;zh-mo:賈布列爾·賈西亞·馬奎斯;"
+      "conv": "zh-cn:加夫列尔·加西亚·马尔克斯;zh-tw:加布列·賈西亞·馬奎斯;zh-hk:加布列·加斯亞·馬奎斯;zh-sg:加夫列尔·加西亚·马尔克斯;zh-mo:加布列·加斯亞·馬奎斯;"
     },
     {
       "original": "Márquez",
@@ -97,7 +97,11 @@
     },
     {
       "original": "卒業―雪月花殺人ゲーム",
-      "conv": "zh-cn:毕业;zh-tw:畢業 雪月花殺人遊戲;zh-hk:畢業 雪月花殺人遊戲;zh-sg:毕业;zh-mo:畢業 雪月花殺人遊戲;"
+      "conv": "zh-tw:畢業 雪月花殺人遊戲;zh-hk:畢業 雪月花殺人遊戲;zh-mo:畢業 雪月花殺人遊戲;"
+    },
+    {
+      "original": "卒業―雪月花殺人ゲーム",
+      "conv": "畢業 雪月花殺人遊戲=>zh-cn:毕业;畢業 雪月花殺人遊戲=>zh-sg:毕业;"
     },
     {
       "original": "白馬山荘殺人事件",
@@ -538,6 +542,10 @@
     {
       "original": "碆霊の如き祀るもの",
       "conv": "zh-cn:碆灵·祭祀之物;zh-tw:如碆霊祭祀之物;"
+    },
+    {
+      "original": "Pulitzer Prize",
+      "conv": "zh-cn:普利策奖; zh-my:普利策奖; zh-sg:普利策奖; zh-tw:普立茲獎; zh-hk:普立茲獎; zh-mo:普立茲獎;"
     }
   ]
 }

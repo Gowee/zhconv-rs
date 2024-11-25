@@ -5,7 +5,27 @@
   "rules": [
     {
       "original": "Thai FA Cup",
-      "conv": "zh:泰国足协杯; zh-cn:泰国足协杯; zh-tw:泰國足協盃; zh-hk:泰國足總盃;  "
+      "conv": "zh:泰路警察; zh-cn:警察特罗; zh-tw:泰路警察; zh-hk:泰路警察;  "
+    },
+    {
+      "original": "Thai FA Cup",
+      "conv": "zh:BEC泰路薩薩拿; zh-cn:BEC特罗萨萨纳; zh-tw:BEC泰路薩薩拿; zh-hk:BEC泰路薩薩拿;  "
+    },
+    {
+      "original": "Thai FA Cup",
+      "conv": "zh:泰国足协杯; zh-hans:泰国足协杯; zh-tw:泰國足協盃; zh-hk:泰國足總盃;  "
+    },
+    {
+      "original": "Thai League 1",
+      "conv": "zh:泰國甲組足球聯賽; zh-hans:泰国足球甲级联赛; zh-tw:泰國足球甲級聯賽; zh-hk:泰國甲組足球聯賽;  "
+    },
+    {
+      "original": "Thai League 2",
+      "conv": "zh:泰國乙組足球聯賽; zh-hans:泰国足球乙级联赛; zh-tw:泰國足球乙級聯賽; zh-hk:泰國乙組足球聯賽;  "
+    },
+    {
+      "original": "Thai League 3",
+      "conv": "zh:泰國丙組足球聯賽; zh-hans:泰国足球丙级联赛; zh-tw:泰國足球丙級聯賽; zh-hk:泰國丙組足球聯賽;  "
     }
   ]
 }

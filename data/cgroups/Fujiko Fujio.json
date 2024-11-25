@@ -1,0 +1,131 @@
+{
+  "name": "Fujiko Fujio",
+  "description": "藤子不二雄",
+  "path": "Module:CGroup/Fujiko Fujio",
+  "rules": [
+    {
+      "original": "道具",
+      "conv": "zh-hant:法寶;zh-hans:工具;zh-hk:法寶;zh-tw:工具;zh-cn:工具"
+    },
+    {
+      "original": "コロコロコミック",
+      "conv": "zh-hant:快樂龍;zh-hans:龙漫CORO-CORO;zh-hk:快樂龍;zh-tw:快樂快樂月刊;zh-cn:龙漫CORO-CORO"
+    },
+    {
+      "original": "オバケのQ太郎",
+      "conv": "zh-hant:小鬼Q太郎;zh-hans:小鬼Q太郎;zh-hk:Q太郎;zh-tw:小鬼Q太郎;zh-cn:小鬼Q太郎"
+    },
+    {
+      "original": "パーマン",
+      "conv": "zh-hant:神奇小子;zh-hans:飞人;zh-hk:神奇小子;zh-tw:小超人帕門;zh-cn:飞人"
+    },
+    {
+      "original": "ブービー",
+      "conv": "zh-hant:貔貅;zh-hans:布比;zh-hk:貔貅;zh-tw:布比"
+    },
+    {
+      "original": "パー子",
+      "conv": "zh-hant:神奇少女;zh-hans:飞人姑娘;zh-hk:神奇少女;zh-tw:炫風女超人;zh-cn:飞人姑娘"
+    },
+    {
+      "original": "パーやん",
+      "conv": "zh-hant:神奇羅漢;zh-hans:胖飞人;zh-hk:神奇羅漢;zh-tw:胖超人;zh-cn:胖飞人"
+    },
+    {
+      "original": "忍者ハットリくん",
+      "conv": "zh-hant:忍者小靈精;zh-hans:忍者服部君;zh-hk:忍者小靈精;zh-tw:忍者哈特利;zh-cn:忍者服部君"
+    },
+    {
+      "original": "ハットリくん",
+      "conv": "zh-hant:小靈精;zh-hans:服部君;zh-hk:小靈精;zh-tw:哈特利;zh-cn:服部君"
+    },
+    {
+      "original": "怪物くん",
+      "conv": "zh-hant:怪物小王子;zh-hans:怪物太郎;zh-hk:怪物小王子;zh-tw:怪物小王子;zh-cn:怪物太郎"
+    },
+    {
+      "original": "笑ゥせぇるすまん",
+      "conv": "zh-hant:黑色推銷員;zh-hans:笑面推銷員;zh-tw:黑色推銷員;zh-cn:笑面推銷員"
+    },
+    {
+      "original": "ウメ星デンカ",
+      "conv": "zh-hant:酸梅星王子;zh-hans:梅星球殿下;zh-hk:酸梅星王子;zh-tw:酸梅星王子"
+    },
+    {
+      "original": "モジャ公",
+      "conv": "zh-hant:外星毛查查;zh-hans:宇宙小毛球;zh-hk:外星毛查查;zh-tw:宇宙小毛球"
+    },
+    {
+      "original": "モジャラ",
+      "conv": "zh-hant:毛查查;zh-hans:小毛球;zh-hk:毛查查;zh-tw:小毛球;zh-cn:小毛球"
+    },
+    {
+      "original": "モジャリ",
+      "conv": "zh-hant:毛嚕嚕;zh-hans:毛妹;zh-hk:毛嚕嚕;zh-tw:毛妹;zh-cn:毛妹"
+    },
+    {
+      "original": "モジャル",
+      "conv": "zh-hant:毛啦啦;zh-hans:毛弟;zh-hk:毛啦啦;zh-tw:毛弟;zh-cn:毛弟"
+    },
+    {
+      "original": "モモンジャ",
+      "conv": "zh-hant:毛毛查;zh-hans:毛加球;zh-hk:毛毛查;zh-tw:毛加球;zh-cn:毛加球"
+    },
+    {
+      "original": "ドラえもん",
+      "conv": "zh-hant:多啦A夢;zh-hans:哆啦A梦;zh-hk:多啦A夢;zh-tw:哆啦A夢;zh-cn:哆啦A梦"
+    },
+    {
+      "original": "ドラミ",
+      "conv": "zh-hant:多啦美;zh-hans:哆啦美;zh-hk:多啦美;zh-tw:哆啦美;zh-cn:哆啦美"
+    },
+    {
+      "original": "ミニドラ",
+      "conv": "zh-hant:迷你多啦;zh-hans:迷你哆啦;zh-hk:迷你多啦;zh-tw:迷你哆啦;zh-cn:迷你哆啦"
+    },
+    {
+      "original": "ドラ",
+      "conv": "zh-hant:多啦;zh-hans:哆啦;zh-hk:多啦;zh-tw:哆啦;zh-cn:哆啦"
+    },
+    {
+      "original": "ポコニャン",
+      "conv": "zh-hant:親親小樂基;zh-hans:叮当猫;zh-hk:親親小樂基;zh-tw:叮噹貓"
+    },
+    {
+      "original": "ポコニャン",
+      "conv": "zh-hant:樂基;zh-hans:叮当猫;zh-hk:樂基;zh-tw:叮噹貓"
+    },
+    {
+      "original": "ジャングル黒べえ",
+      "conv": "zh-hant:黃毛仔;zh-hans:小酋長小黑;zh-hk:黃毛仔;zh-tw:小酋長小黑"
+    },
+    {
+      "original": "キテレツ大百科",
+      "conv": "zh-hant:奇天烈百科全書;zh-hans:奇天烈大百科;zh-hk:奇天烈百科全書;zh-tw:奇天烈大百科"
+    },
+    {
+      "original": "コロ助",
+      "conv": "zh-hant:波仔;zh-hans:可罗;zh-hk:波仔;zh-tw:可羅"
+    },
+    {
+      "original": "みよちゃん",
+      "conv": "zh-hant:美子;zh-hans:美美;zh-hk:美子;zh-tw:美美"
+    },
+    {
+      "original": "ブタゴリラ",
+      "conv": "zh-hant:豬頭丙;zh-hans:大猩猩;zh-hk:豬頭丙;zh-tw:大猩猩"
+    },
+    {
+      "original": "トンガリ",
+      "conv": "zh-hant:跳跳紮;zh-hans:冬冬;zh-hk:跳跳紮;zh-tw:冬冬"
+    },
+    {
+      "original": "T・Pぼん",
+      "conv": "zh-hant:時光巡邏隊;zh-hans:时空巡逻队;zh-hk:時光巡邏隊;zh-tw:T·P時光特警;zh-cn:时空巡逻队"
+    },
+    {
+      "original": "タイムパトロール",
+      "conv": "zh-hant:時光巡邏隊;zh-hans:时空巡逻队;zh-hk:時光巡邏隊;zh-tw:時光巡邏隊;zh-cn:时空巡逻队"
+    }
+  ]
+}

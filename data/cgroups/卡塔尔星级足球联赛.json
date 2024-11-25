@@ -4,40 +4,80 @@
   "path": "Module:CGroup/卡塔尔星级足球联赛",
   "rules": [
     {
-      "original": "Lekhwiya SC",
-      "conv": "zh:莱赫维亚;zh-hans:莱赫维亚;zh-cn:莱赫维亚;zh-hk:歷基韋亞;"
+      "original": "Al Arabi SC",
+      "conv": "zh:阿拉比體育俱樂部;zh-hans:多哈阿拉伯人体育俱乐部;zh-tw:杜哈阿拉比體育俱樂部;zh-hk:多哈艾阿拉比體育會;"
+    },
+    {
+      "original": "Al-Arabi",
+      "conv": "zh:阿尔阿拉比;zh-hans:多哈阿拉伯人; zh-hk:多哈艾阿拉比; zh-tw:杜哈阿拉比;"
+    },
+    {
+      "original": "Al Ahli SC",
+      "conv": "zh:阿赫利体育俱乐部 (多哈); zh-hans:多哈阿赫利体育俱乐部; zh-cn:多哈国民体育俱乐部; zh-hk:多哈艾阿里體育會; zh-tw:杜哈阿赫利體育俱樂部;"
+    },
+    {
+      "original": "Al Ahli SC",
+      "conv": "zh:多哈阿赫利; zh-hans:多哈阿赫利; zh-cn:多哈国民; zh-hk:多哈艾阿里; zh-tw:杜哈阿赫利;"
     },
     {
       "original": "Al-Sadd SC",
       "conv": "zh:萨德;zh-hans:萨德;zh-cn:萨德;zh-hk:艾薩德;"
     },
     {
+      "original": "El Jaish SC",
+      "conv": "zh:多哈武装;zh-hans:多哈军队;zh-cn:多哈武装;zh-hk:艾查殊;zh-tw:艾爾賈希;"
+    },
+    {
+      "original": "Lekhwiya SC",
+      "conv": "zh:莱赫维亚;zh-hans:莱赫维亚;zh-cn:莱赫维亚;zh-hk:歷基韋亞;zh-tw:萊赫維亞;"
+    },
+    {
+      "original": "Al Duhail",
+      "conv": "zh:杜海勒;zh-hans:杜海勒;zh-cn:杜海勒;zh-hk:艾杜哈尼;zh-tw:杜海勒;"
+    },
+    {
       "original": "Al-Gharafa SC",
-      "conv": "zh:加拉法;zh-hans:多哈加拉法;zh-cn:多哈狂热;zh-hk:艾加拉法;"
+      "conv": "zh-hans:加拉法;zh-cn:加拉法;zh-hk:艾加拉法;"
     },
     {
       "original": "Al-Rayyan SC",
       "conv": "zh:赖扬;zh-hans:赖扬;zh-cn:赖扬;zh-hk:艾雷恩;"
     },
     {
-      "original": "Al Arabi SC",
-      "conv": "zh:多哈阿拉比;zh-hans:多哈阿拉伯;zh-cn:多哈沙漠;zh-tw:杜哈阿拉比;zh-hk:多哈艾阿拉比;"
-    },
-    {
       "original": "Qatar SC",
-      "conv": "zh:卡塔尔体育;zh-hans:卡塔尔竞技;zh-cn:卡塔尔竞技;zh-tw:卡達體育會;zh-hk:卡塔爾體育會;"
+      "conv": "zh:卡塔尔体育;zh-hans:卡塔尔体育;zh-cn:卡塔尔体育;zh-tw:卡達體育會;zh-hk:卡塔爾體育會;"
     },
     {
       "original": "Umm Salal SC",
       "conv": "zh:乌姆萨拉尔;zh-hans:乌姆萨拉尔;zh-cn:乌姆萨拉尔;zh-tw:烏姆沙拉爾;zh-hk:烏姆沙拉爾;"
     },
     {
-      "original": "Al-Khor SC",
-      "conv": "zh:阿尔豪尔;zh-hans:阿尔豪尔;zh-cn:豪尔;zh-tw:阿爾科爾;zh-hk:阿爾科爾;"
+      "original": "Al-Khor",
+      "conv": "zh:阿尔豪尔;zh-hans:豪尔;zh-cn:豪尔;zh-tw:阿爾科爾;zh-hk:阿爾科爾;"
     },
     {
-      "original": "Al-Sailiya SC",
-      "conv": "zh:塞利亚;zh-hans:塞利亚;zh-cn:塞利亚;zh-tw:賽利亞;zh-hk:賽利亞;"
+      "original": "Al-Khor",
+      "conv": "艾哥爾=>zh-my:豪尔;艾哥爾=>zh-sg:豪尔;艾哥爾=>zh-cn:豪尔;艾哥爾=>zh-tw:豪爾;"
+    },
+    {
+      "original": "Al-Maref",
+      "conv": "zh:玛阿里夫;zh-hk:艾馬菲;zh-hans:玛阿里夫;"
+    },
+    {
+      "original": "Al-Markhiya SC",
+      "conv": "zh:马希亚;zh-hk:艾馬希亞;zh-hans:马希亚;"
+    },
+    {
+      "original": "Al-Sailiya",
+      "conv": "zh:塞利亚;zh-hans:塞利亚;zh-cn:塞利亚;zh-tw:賽利亞;zh-hk:艾賽利亞;"
+    },
+    {
+      "original": "Al-Shamal",
+      "conv": "夏馬爾=>zh-cn:北部区体育;"
+    },
+    {
+      "original": "Al-Wakrah",
+      "conv": "zh:沃克拉;zh-hans:沃克拉;zh-cn:沃克拉;zh-tw:沃克拉;zh-hk:艾華卡拉;"
     },
     {
       "original": "Qatar Stars League",

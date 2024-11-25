@@ -1,0 +1,363 @@
+{
+  "name": "Cyberpunk",
+  "description": "-{zh-cn:赛博朋克;zh-tw:電馭叛客;zh-hk:Cyberpunk}-系列",
+  "path": "Module:CGroup/Cyberpunk",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-cn:赛博朋克;zh-tw:賽博龐克;zh-hk:數碼龐克"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赛博朋克红;zh-tw:電馭叛客紅;zh-hk:Cyberpunk Red;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赛博朋克2020;zh-tw:電馭叛客2020;zh-hk:Cyberpunk 2020"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赛博朋克2077;zh-tw:電馭叛客2077;zh-hk:Cyberpunk 2077"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赛博朋克：边缘行者;zh-tw:電馭叛客：邊緣行者;zh-hk:電馭叛客：邊緣行者;zh-sg:赛博浪客;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:火线夜之城;zh-tw:夜城快報;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:往日之影;zh-tw:自由幻局;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:夜之城;zh-tw:夜城;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赛博精神病;zh-tw:神機錯亂"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:中间人;zh-tw:合事佬"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:街头小子;zh-tw:街頑;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:公司员工;zh-tw:企業人士"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:超梦体验;zh-tw:幻智之舞"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:超梦;zh-tw:幻舞"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:独狼;zh-tw:獨武俠"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:义体医生;zh-tw:神機醫"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:技术专家;zh-tw:械鬥匠"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:流浪者;zh-tw:游牧民"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米斯蒂的秘辛;zh-tw:迷霧秘坊;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:Relic;zh-tw:聖物"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:灵魂杀手;zh-tw:噬魂者"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:网络监察;zh-tw:衛網監理"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:网络空间;zh-tw:網路空間"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:边缘人;zh-tw:犯險者"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:入侵对抗电元;zh-tw:反制入口侵入電子系統"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:威斯特布鲁克;zh-tw:西流區"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:创伤小组;zh-tw:搶救團隊"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:网络黑客;zh-tw:竄網使"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:虎爪帮;zh-tw:虎鉤眾"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:漩涡帮;zh-tw:漩戰幫"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:动物帮;zh-tw:蠻獸派"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:莫克斯帮;zh-tw:茉刺盟"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瓦伦蒂诺帮;zh-tw:瓦倫提諾會;zh-hk:瓦倫蒂諾幫;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瓦伦蒂诺;zh-tw:瓦倫提諾"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:清道夫;zh-tw:清盜夫"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:军用科技;zh-tw:軍武科技"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:暴恐机动队;zh-tw:鎮靜特勤組"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:刚烈;zh-tw:Us Cracks"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马洛里安武器公司;zh-tw:梅洛瑞軍火"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马洛里安;zh-tw:梅洛瑞"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:斯安威斯坦;zh-tw:沙德威斯坦"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:铁胆;zh-tw:狂膽"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瓦莱丽;zh-tw:華娜莉"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:强尼·银手;zh-tw:銀手強尼"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:威尔斯;zh-tw:威爾斯"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:维克多;zh-tw:維克"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:维克托;zh-tw:威科特"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:米丝蒂;zh-tw:迷霧"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奥尔谢夫斯基;zh-tw:歐爾雪夫斯基"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:朱迪;zh-tw:茱蒂"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿尔瓦雷兹;zh-tw:艾法瑞茲"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:帕南;zh-tw:帕娜"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:帕尔默;zh-tw:琶爾莫"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瑞弗;zh-tw:大河"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:沃德;zh-tw:瓦德"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:奥特;zh-tw:艾特"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:坎宁安;zh-tw:康寧漢"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:克里;zh-tw:凱瑞"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:欧罗迪恩;zh-tw:歐達因"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:罗格;zh-tw:若惡"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:阿曼迪亚斯;zh-tw:亞門迪亞雷斯"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:重锤;zh-tw:碎骨"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:竹村;zh-tw:武村"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:五郎;zh-tw:吾郎"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:艾芙琳;zh-tw:伊芙琳"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:索尔;zh-tw:紹爾"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:布赖特;zh-tw:布萊特"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:赫尔曼;zh-tw:海爾曼"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:普拉西德;zh-tw:泰然"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马曼·布丽奇特;zh-tw:碧姬娘娘"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杰弗逊;zh-tw:傑弗森"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:佩拉雷斯;zh-tw:佩拉瑞茲"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:红祸;zh-tw:緋禍"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:戴诺;zh-tw:迪諾"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:瑞吉娜;zh-tw:芮琪娜"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:老船长;zh-tw:酋長"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:木头人;zh-tw:木男"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:蓝眼睛先生;zh-tw:藍眼先生"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:杜姆杜姆;zh-tw:傻傻"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:丽姿;zh-tw:莉茲"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:曼恩;zh-tw:魅音;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:丽贝卡;zh-tw:蕾貝卡;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:皮拉;zh-tw:霹拉;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:多莉欧;zh-tw:朵莉歐;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:马丁内斯;zh-tw:馬丁尼茲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:黑咲;zh-tw:黑關;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:迈克·庞德史密斯;zh-tw:麥可·龐德史密斯;zh-hk:米高·龐斯密;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基努·里维斯;zh-hk:奇洛·李維斯;zh-sg:基努·里维斯;zh-tw:基努·李維;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:基努;zh-hk:奇洛;zh-sg:基努;zh-tw:基努;"
+    }
+  ]
+}

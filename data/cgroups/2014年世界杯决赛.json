@@ -1,0 +1,467 @@
+{
+  "name": "2014年世界杯决赛",
+  "description": "-{zh-hans:2014年国际足联世界杯决赛;zh-hk:2014年國際足協世界盃決賽;zh-tw:2014年國際足總世界盃決賽;}-",
+  "path": "Template:CGroup/2014年世界杯决赛",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hant:馬拉卡納體育場;zh-hans:马拉卡纳体育场;zh-hk:馬拉簡拿運動場;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:馬拉卡納;zh-hans:马拉卡纳;zh-hk:馬拉簡拿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:科林蒂安斯;zh-hk:哥連泰斯;zh-hant:哥林多人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:里佐利;zh-hk:列佐里;zh-hant:里佐利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:贡萨洛·伊瓜因;zh-hk:干沙路·希古恩;zh-hant:岡薩洛·伊瓜因;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:伊瓜因;zh-hk:希古恩;zh-hant:伊瓜因;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:赫韦德斯;zh-hk:賀維迪斯;zh-hant:赫韋德斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:利昂内尔·梅西;zh-hk:利安奴·美斯;zh-tw:萊納爾·梅西;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:梅西;zh-hk:美斯;zh-hant:梅西;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:安德烈·许尔勒;zh-hk:安德列·舒賀爾尼;zh-tw:安德烈·舒勒;zh-mo:安德列·舒卓尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:许尔勒;zh-hk:舒賀爾尼;zh-tw:舒勒;zh-mo:舒卓尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:厄齐尔;zh-hk:奧斯爾;zh-hant:厄齊爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塞尔希奥·罗梅罗;zh-hk:沙治奧·羅美路;zh-hant:沙治奧·羅梅羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗梅罗;zh-hk:羅美路;zh-hant:羅梅羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:亞歷杭德羅·薩維利亞;zh-hans:亚历杭德罗·萨维利亚;zh-tw:亞歷山卓·薩維利亞;zh-hk:亞歷山卓·沙比拿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:萨维利亚; zh-tw:薩維利亞; zh-hk:沙比拿;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:约阿希姆·勒夫;zh-hk:祖亞占·路維;zh-hant:約阿希姆·勒夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:勒夫;zh-hk:路維;zh-hant:勒夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塞尔希奥·巴蒂斯塔;zh-hk:沙治奧·巴迪斯達;zh-hant:塞爾希奧·巴蒂斯塔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:若昂·佩雷拉;zh-hk:祖奧·彭利拿;zh-hant:若奧·佩雷拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佩佩;zh-hk:比比;zh-hant:佩佩; zh-mo:柏比;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:鲁伊·帕特里西奥;zh-hk:魯爾·柏迪斯奧;zh-hant:魯伊·帕特里西奧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿尤;zh-hk:阿休;zh-hant:阿尤;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:苏利·蒙塔里;zh-hk:蘇利·蒙達利;zh-hant:蘇利·蒙塔里;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿萨莫阿·吉安;zh-hk:艾沙姆·基恩;zh-hant:阿薩莫阿·吉安;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗纳尔多;zh-hk:朗拿度;zh-tw:羅納度;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蒂姆·霍华德;zh-hk:添·侯活;zh-tw:提姆·霍華德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:佩尔·默特萨克;zh-hk:佩亞·梅迪薩卡;zh-hant:佩爾·默特薩克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:默特萨克;zh-hk:梅迪薩卡;zh-hant:默特薩克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:萨米·赫迪拉;zh-hk:森美·基迪拉;zh-mo:森美·基迪拿;zh-hant:薩米·赫迪拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:赫迪拉;zh-hk:基迪拉;zh-mo:基迪拿;zh-hant:赫迪拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塞亚德·科拉希纳茨;zh-hk:施特·高拿仙納;zh-tw:塞亞德·克拉西納茨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:馬高斯·盧祖;zh-hans:马科斯·罗霍;zh-tw:馬科斯·羅赫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:盧祖;zh-hans:罗霍;zh-tw:羅赫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韦达德·伊比舍维奇;zh-hk:韋達德·伊比斯域;zh-hant:韋達德·伊比舍維奇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:安赫尔·迪马利亚;zh-hk:安祖·迪馬利亞;zh-tw:安赫爾·迪馬里亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:迪马利亚;zh-hk:迪馬利亞;zh-tw:迪馬里亞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:艾哈迈德·穆萨;zh-hk:阿密特·梅沙;zh-hant:艾哈邁德·穆薩;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:穆萨;zh-hk:梅沙;zh-hant:穆薩;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:迭戈·贝纳利奥;zh-hk:迪亞高·比拿利奧;zh-hant:迭戈·貝納利奧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哲马伊利;zh-hk:迪斯馬利;zh-hant:哲馬伊利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马内·加林查;zh-hk:文尼·加連渣;zh-hant:馬內·加林查;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:扬·费尔通亨;zh-hk:真·維頓漢;zh-hant:揚·費爾通亨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:荣·弗拉尔;zh-hk:朗·華亞爾;zh-hant:榮·弗拉爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:埃塞基耶尔·加雷;zh-hk:伊斯基爾·加雷;zh-tw:艾日奎利·格雷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:加雷;zh-hk:加雷;zh-tw:格雷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韦斯利·斯内德;zh-hant:衛斯理·史奈德;zh-hk:衛斯理·史奈達;zh-tw:衛斯理·斯奈德;zh-mo:衛斯理·史奈達;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塞尔希奥·阿圭罗;zh-hk:沙治奧·阿古路;zh-tw:塞爾希奧·阿奎羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿圭罗;zh-hk:阿古路;zh-tw:阿奎羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:迪尔克·库伊特;zh-hk:迪克·古治;zh-tw:德克·庫伊特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马克西·罗德里格斯;zh-hk:麥斯·洛迪古斯;zh-tw:馬克西·羅德里格茲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡洛斯·贝拉;zh-hk:卡路士·韋拉；zh-hant:卡洛斯·韋拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:皮耶路易吉·科利纳;zh-hk:皮耶路易吉·哥連拿;zh-hant :皮耶路易吉·科利納;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:夏奇拉;zh-hans:夏奇拉;zh-hk:莎琦拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:懷克里夫·金;zh-hans:怀克里夫·让;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:卡洛斯·山塔那;zh-hans:卡洛斯·桑塔纳;zh-hk:卡路士·桑塔納;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:吉赛尔·邦辰;zh-hk:吉賽兒·邦臣;zh-hant:吉賽兒·邦臣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡莱斯·普约尔;zh-hk:卡利士·佩奧爾;zh-hant:卡萊斯·普約爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:迪爾瑪·羅塞夫;zh-tw:迪爾瑪·羅賽芙;zh-cn:迪尔玛·罗塞夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:羅塞夫;zh-tw:羅賽芙;zh-cn:罗塞夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:祖马;zh-hk:祖馬;zh-tw:朱瑪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蕾哈娜;zh-hant:蕾哈娜;zh-hk:莉姲娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克雷格;zh-hk:基克;zh-hant:克雷格;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:米·積加;zh-hans:米克·贾格尔;zh-hant:米克·傑格;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿什顿·库彻;zh-tw:艾希頓·庫奇;zh-hk:艾斯頓·古查;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:大卫·贝克汉姆;zh-tw:大衛·貝克漢;zh-hk:大衛·碧咸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:达科特;zh-hk:達葛治;zh-tw:達科特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:勒布朗·詹姆斯;zh-hk:勒邦佔士;zh-hant:勒布朗·詹姆斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克里斯蒂安·维耶里;zh-hk:基斯頓·韋利;zh-hant:克里斯蒂安·維耶里;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:簡拿華路;zh-hans:卡纳瓦罗;zh-hant:卡納瓦羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:达尼埃尔·帕萨雷拉;zh-hk:丹尼爾·巴薩里拉;zh-hant:達尼埃爾·帕薩雷拉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马尔科·马特拉齐;zh-hk:馬高·馬特拉斯;zh-tw:馬可·馬特拉齊;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:贝利;zh-hk:比利;zh-tw:比利;zh-sg:比利;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克里斯托夫·克拉默;zh-hk:基斯托夫·基拉馬;zh-hant:克里斯托夫·克拉默;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:克拉默;zh-hk:基拉馬;zh-hant:克拉默;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:维克托·欧尔班;zh-tw:維克多·奧班;zh-hk:域陀·柯班;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:巴勃罗·萨巴莱塔;zh-hk:柏保路·薩巴列達;zh-tw:巴勃羅·薩巴萊塔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:萨巴莱塔;zh-hk:薩巴列達;zh-tw:薩巴萊塔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:埃塞基耶尔·拉韦齐;zh-hk:伊斯基爾·拿維斯;zh-tw:艾日奎利·拉維奇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:拉韦齐;zh-hk:拿維斯;zh-tw:拉維奇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:恩佐;zh-hk:安素;zh-hant:恩佐"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:比利亚;zh-hk:比基利亞;zh-tw:比格利亞"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哈维尔·马斯切拉诺;zh-hk:查維亞·馬斯查蘭奴;zh-tw:哈維爾·馬斯切拉諾;zh-mo:查維亞·馬斯卓蘭奴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马斯切拉诺;zh-hk:馬斯查蘭奴;zh-tw:馬斯切拉諾;zh-mo:馬斯卓蘭奴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:费尔南多·加戈;zh-hk:費蘭度·加高;zh-tw:費南多·加戈;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:凯文·格罗斯克罗伊茨; zh-hk:奇雲·哥斯基奧斯;zh-hant:凱文·格羅斯克羅伊茨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:马蒂亚斯·金特尔; zh-hk:馬菲亞斯·真達; zh-tw:馬堤亞斯·金特爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗恩-罗伯特·齐勒; zh-hk:朗-羅拔·薛拿; zh-tw:朗-羅伯特·齊勒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:尤利安·德拉克斯勒;zh-hk:祖利安·達斯拿;zh-hant:尤利安·德拉克斯勒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:埃里克·杜姆;zh-hk:艾歷·杜姆;zh-hant:埃里克·杜姆"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:施科德兰·穆斯塔菲;zh-hk:施高丹·梅斯達菲;zh-hant:施科德蘭·穆斯塔菲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗曼·魏登费勒;zh-hk:羅曼·維丹費拿;zh-hant:羅曼·魏登費勒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:乌戈·坎帕尼亚罗;zh-hk:曉高·甘柏拿路;zh-tw:烏戈·康帕格納羅;zh-hant:烏戈·坎帕尼亞羅;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奥里翁;zh-hk:奧利安;zh-hant:奧里翁;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:奥古斯托·费尔南德斯;zh-hk:奧古士圖·費南迪斯;zh-tw:奧古斯托·費南德斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:费德里科·费尔南德斯;zh-hk:費達歷高·費南迪斯;zh-tw:費德里科·費南德斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:罗德里戈·帕拉西奥;zh-hk:洛迪高·柏拉斯奧;zh-hant:羅德里戈·帕拉西奧;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:里卡多·阿尔瓦雷斯;zh-hk:列卡度·艾華利斯;zh-tw:里卡多·艾瓦雷茲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:馬里安奴·安度查;zh-hans:马里奥诺·安杜哈尔;zh-hant:馬里奧諾·安杜哈爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:何塞·巴桑塔;zh-hk:荷西·巴辛達;zh-tw:何塞·巴山塔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:塞普·布拉特;zh-hk:白禮達;zh-hant:塞普·布拉特;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:安德烈亚斯·布雷默;zh-hk:安達斯·布林美;zh-tw:安德烈亞斯·布雷默;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:保罗·马尔蒂尼;zh-hk:保羅·馬甸尼;zh-hant:保羅·馬爾蒂尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡福;zh-hk:卡富;zh-tw:卡富;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:克里斯蒂娜·費爾南德斯·德基什內爾; zh-tw:克莉絲蒂娜·費南德茲·德基西納; zh-sg:克里斯蒂娜·费尔南德斯·德基什内尔; zh-cn:克里斯蒂娜·费尔南德斯·德基什内尔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:克里斯蒂娜; zh-tw:克莉絲蒂娜; zh-hans:克里斯蒂娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:安格拉·默克爾;zh-hans:安格拉·默克尔;zh-hk:安格拉·默克爾;zh-tw:安格拉·梅克爾;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:决赛圈;zh-hant:決賽圈;zh-hk:決賽週;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桑巴;zh-hant:森巴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:球證;zh-hans:裁判;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:金氏; zh-hk:健力士; zh-sg:健力士;zh-cn:吉尼斯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:协调世界时;zh-tw:世界協調時間;zh-mo:世界協調時;zh-hk:協調世界時;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:挑射;zh-hant:挑射;zh-hk:笠射;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:阿迪达斯;zh-hant:阿迪達斯; zh-tw:愛廸達; zh-hk:Adidas"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:下底;zh-hant:下底;zh-hk:落底;"
+    }
+  ]
+}

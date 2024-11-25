@@ -1,0 +1,219 @@
+{
+  "name": "泰國人名及地名",
+  "description": "泰國人名及地名",
+  "path": "Module:CGroup/泰國人名及地名",
+  "rules": [
+    {
+      "original": "ยิ่งลักษณ์",
+      "conv": "zh-cn:英拉;zh-tw:盈拉;zh-hk:英祿;zh-sg:英叻;"
+    },
+    {
+      "original": "ชินวัตร/Chinnawat",
+      "conv": "zh:西那瓦;zh-cn:钦那瓦;zh-tw:欽那瓦; zh-hk:西那瓦;zh-sg:钦那瓦;"
+    },
+    {
+      "original": "ทักษิณl/Thaksin ",
+      "conv": "zh-cn:他信;zh-tw:塔克辛; zh-hk:他信; zh-sg:达信;zh:達信;"
+    },
+    {
+      "original": "อภิสิทธิ์",
+      "conv": "zh-cn:阿披实;zh-tw:艾比希;zh-hk:阿披實; zh-sg:阿比昔;"
+    },
+    {
+      "original": "ภูมิพลอดุลยเดช",
+      "conv": "zh-cn:普密蓬; zh-tw:蒲美蓬;zh-hk:普密蓬;zh-sg:蒲眉蓬;"
+    },
+    {
+      "original": "ชวน หลีกภัย",
+      "conv": "zh-cn:川·立派;zh-tw:乃川;zh-hk:川立派;"
+    },
+    {
+      "original": "ชวลิต",
+      "conv": "zh-cn:差瓦立;zh-tw:昭華利;zh-hk:差瓦立;zh-sg:查瓦利;"
+    },
+    {
+      "original": "สนธิ",
+      "conv": "zh-cn:颂提;zh-tw:宋帝;zh-hk:頌提;"
+    },
+    {
+      "original": "สมชาย",
+      "conv": "zh-cn:颂猜;zh-tw:宋才;zh-hk:頌猜;"
+    },
+    {
+      "original": "ชาติชาย",
+      "conv": "zh-cn:差猜;zh-tw:察柴;zh-hk:差提猜;"
+    },
+    {
+      "original": "คึกฤทธิ์ ปราโมช",
+      "conv": "zh-cn:克立·巴莫;zh-tw:克里巴莫;zh-hk:克立·巴莫;"
+    },
+    {
+      "original": "เสนีย์",
+      "conv": "zh-cn:社尼;zh-tw:西尼;zh-hk:社尼;"
+    },
+    {
+      "original": "ธานินทร์",
+      "conv": "zh-cn:他宁;zh-tw:譚寧;zh-hk:他寧;"
+    },
+    {
+      "original": "เกรียงศักดิ์",
+      "conv": "zh-cn:江萨;zh-tw:克利安薩;zh-hk:江薩;"
+    },
+    {
+      "original": "สงัด",
+      "conv": "zh-cn:沙鄂;zh-tw:桑加德;zh-hk:沙鄂;"
+    },
+    {
+      "original": "จันทร์โอชา",
+      "conv": "zh-tw:詹歐查;zh-hk:占奧差;zh-cn:占奥差;"
+    },
+    {
+      "original": "ประยุทธ์",
+      "conv": "zh-tw:帕拉育;zh-hk:巴育;zh-cn:巴育;"
+    },
+    {
+      "original": "ประวิตร",
+      "conv": "zh-tw:普拉威;zh-hk:巴威;zh-cn:巴威;"
+    },
+    {
+      "original": "ทักษิณร",
+      "conv": "zh-tw:戴克辛;zh-hk:他信;zh-cn:他信; zh-sg:达信;"
+    },
+    {
+      "original": "วชิราลงกรณ",
+      "conv": "zh-hans:哇集拉隆功;zh-hant:瓦集拉隆功;zh-hk:哇集拉隆功;zh-tw:瓦吉拉隆功;"
+    },
+    {
+      "original": "พิธา",
+      "conv": "zh-tw:皮塔;zh-hans:披他;"
+    },
+    {
+      "original": "ลิ้มเจริญรัตน์",
+      "conv": "zh-tw:林家倫拉;zh-hans:林乍伦拉;"
+    },
+    {
+      "original": "Mae Hong Son",
+      "conv": "zh-tw:湄宏順;zh-hk:湄宏順;zh-cn:夜丰颂;"
+    },
+    {
+      "original": "Krabi",
+      "conv": "zh-hans:甲米;zh-hk:喀比;zh-tw:甲米;"
+    },
+    {
+      "original": "Bang Sue",
+      "conv": "zh-hans:曼赐;zh-hant:邦蘇;zh-cn:挽赐;zh-hk:挽賜;zh-tw:挽賜;zh-mo:挽賜;"
+    },
+    {
+      "original": "Kamphaeng Phet",
+      "conv": "zh-cn:甘烹碧;zh-hk:甘烹碧;zh-tw:甘帕安碧;zh-mo:甘烹碧;"
+    },
+    {
+      "original": "Phahon Yothin",
+      "conv": "zh-hans:帕凤裕庭;zh-hant:塔宏猶清;zh-cn:帕凤裕庭;zh-hk:拍鳳裕庭;zh-tw:拍鳳裕庭;zh-mo:拍鳳裕庭;"
+    },
+    {
+      "original": "Lat Phrao",
+      "conv": "zh-hans:勒抛;zh-hant:叻拋;zh-cn:勒拋;zh-hk:叻拋;zh-tw:樂拋;zh-mo:叻拋;"
+    },
+    {
+      "original": "Ratchadaphisek",
+      "conv": "zh-hans:拉差达匹色;zh-hant:拉差當碧沙;zh-cn:拉差达匹色;zh-hk:叻猜拉披色;zh-tw:拉差拉披色;zh-mo:叻猜拉披色;"
+    },
+    {
+      "original": "Asok",
+      "conv": "zh-hant:阿索克;zh-cn:亚素;zh-hk:阿速;zh-tw:阿速;zh-mo:阿速;"
+    },
+    {
+      "original": "Rama IX",
+      "conv": "zh-hant:帕藍9;zh-cn:拉玛九世;zh-hk:拍喃九;zh-tw:拉瑪九世;zh-mo:拍喃九;"
+    },
+    {
+      "original": "Sala Daeng",
+      "conv": "zh-cn:沙拉铃;zh-hk:沙拉鈴;zh-tw:莎拉當;zh-mo:沙拉鈴;"
+    },
+    {
+      "original": "Chatuchak",
+      "conv": "zh-hans:乍都节;zh-hant:乍都節;zh-cn:乍都节;zh-hk:翟度翟;zh-tw:札都甲;zh-mo:翟度翟;"
+    },
+    {
+      "original": "Sukhumvit",
+      "conv": "zh-cn:素坤逸;zh-hk:素坤逸;zh-tw:蘇坤蔚;zh-mo:素坤逸;"
+    },
+    {
+      "original": "Silom",
+      "conv": "zh-cn:世隆;zh-hk:是隆;zh-tw:席隆;zh-mo:是隆;"
+    },
+    {
+      "original": "Hua Lamphong",
+      "conv": "zh-cn:华喃峰;zh-hk:華喃峰;zh-tw:華藍蓬;zh-mo:華喃峰;"
+    },
+    {
+      "original": "Sutthisan",
+      "conv": "zh-hans:苏迪参;zh-hant:蘇迪參;zh-cn:素铁讪;zh-hk:素鐵訕;zh-tw:素鐵訕;zh-mo:素鐵訕;"
+    },
+    {
+      "original": "Wang Burapha",
+      "conv": "zh-cn:汇权;zh-hk:匯權;zh-tw:惠恭王;zh-mo:匯權;"
+    },
+    {
+      "original": "Phetchaburi",
+      "conv": "zh-cn:碧武里;zh-hk:碧武里;zh-tw:碧差汶里;zh-mo:碧武里;"
+    },
+    {
+      "original": "Khlong Toei",
+      "conv": "zh-cn:孔提;zh-hk:孔提;zh-tw:克隆托伊;zh-mo:孔提;"
+    },
+    {
+      "original": "Lumphini",
+      "conv": "zh-cn:是乐园;zh-hk:是樂園;zh-tw:倫披尼;zh-mo:是樂園;"
+    },
+    {
+      "original": "Sam Yan",
+      "conv": "zh-cn:三养;zh-hk:三養;zh-tw:山燕;zh-mo:三養;"
+    },
+    {
+      "original": "Mo Chit",
+      "conv": "zh-hans:巫七;zh-hant:蒙奇;zh-cn:莫奇;zh-hk:慕七;zh-tw:蒙七;zh-mo:慕七;"
+    },
+    {
+      "original": "Tao Poon",
+      "conv": "zh-cn:岛本;zh-hk:島本;zh-tw:島本;zh-mo:島本;"
+    },
+    {
+      "original": "Phaya Thai",
+      "conv": "zh-hans:帕亚泰;zh-hant:帕亞泰;zh-cn:帕亚泰;zh-hk:披耶泰;zh-tw:拍耶泰;zh-mo:披耶泰站;"
+    },
+    {
+      "original": "Chao Phraya",
+      "conv": "zh-tw:昭披耶 ;zh-cn:昭披耶 ;zh-hk:昭拍耶 ;"
+    },
+    {
+      "original": "Udom Suk",
+      "conv": "zh-cn:乌冬素 ;zh-hk:烏東素 ;zh-tw:烏龍素 ;"
+    },
+    {
+      "original": "On Nut",
+      "conv": "zh-cn:翁聿 ;zh-hk:岸甩 ;zh-tw:安努 ;"
+    },
+    {
+      "original": "Makkasan",
+      "conv": "zh-hans:目甲讪 ;zh-cn:玛卡珊 ;zh-hk:目甲訕 ;zh-tw:目甲訕 ;"
+    },
+    {
+      "original": "Ramkhamhaeng",
+      "conv": "zh-cn:兰甘亨 ;zh-hk:蘭甘亨 ;zh-tw:蘭甘杏 ;"
+    },
+    {
+      "original": "Hua Mak",
+      "conv": "zh-hans:华目; zh-cn:华玛 ;zh-hk:華瑪 ;zh-tw:華目 ;"
+    },
+    {
+      "original": "Lak Krabang",
+      "conv": "zh-hans:叻甲挽; zh-cn:莱卡邦 ;zh-hk:叻甲挽 ;zh-tw:叻甲挽 ;"
+    },
+    {
+      "original": "Ban Thap Chang",
+      "conv": "zh-hans:挽塔昌; zh-cn:班塔昌 ;zh-hk:挽塔昌 ;zh-tw:挽塔昌 ;"
+    }
+  ]
+}

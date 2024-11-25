@@ -5,11 +5,43 @@
   "rules": [
     {
       "original": "account",
-      "conv": "zh-cn:账户; zh-tw:帳號;"
+      "conv": "zh-cn:账号; zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "账户=>zh-cn:账号; 账户=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "賬戶=>zh-cn:账号; 賬戶=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "賬號=>zh-cn:账号; 賬號=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "帐户=>zh-cn:账号; 帐户=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "帳戶=>zh-cn:账号;"
+    },
+    {
+      "original": "account",
+      "conv": "帐号=>zh-cn:账号; 帐号=>zh-tw:帳號;"
     },
     {
       "original": "account creator",
-      "conv": "zh-cn:大量账户创建者; zh-tw:大量帳號建立者; zh-hk:大量賬號創建者;"
+      "conv": "zh-cn:大量账号创建者; zh-tw:大量帳號建立者; zh-hk:大量帳號建立者;"
+    },
+    {
+      "original": "advanced",
+      "conv": "zh-cn:高级; zh-tw:進階;"
+    },
+    {
+      "original": "authority control",
+      "conv": "zh-cn:规范控制; zh-tw:權威控制;"
     },
     {
       "original": "block",
@@ -18,6 +50,18 @@
     {
       "original": "change",
       "conv": "zh-cn:更改; zh-tw:變更;"
+    },
+    {
+      "original": "character",
+      "conv": "zh-cn:字符; zh-tw:字元;"
+    },
+    {
+      "original": "copyright",
+      "conv": "zh-cn:著作权; zh-tw:著作權; zh-hk:版權; zh-mo:著作權;"
+    },
+    {
+      "original": "copyright",
+      "conv": "版权=>zh-tw:著作權; 版权=>zh-mo:著作權;"
     },
     {
       "original": "copyright information",
@@ -32,6 +76,50 @@
       "conv": "創建=>zh-tw:建立; 創建=>zh-hk:建立; 創建=>zh-mo:建立;"
     },
     {
+      "original": "custom",
+      "conv": "zh-cn:自定义; zh-tw:自訂;"
+    },
+    {
+      "original": "custom",
+      "conv": "自定義=>zh-hk:自訂; 自定義=>zh-tw:自訂;"
+    },
+    {
+      "original": "custom",
+      "conv": "自定=>zh-hk:自訂; 自定=>zh-tw:自訂;"
+    },
+    {
+      "original": "default",
+      "conv": "zh-cn:默认; zh-tw:預設;"
+    },
+    {
+      "original": "default",
+      "conv": "默認=>zh-tw:預設;"
+    },
+    {
+      "original": "extension",
+      "conv": "zh-hans: 扩展名; zh-hant: 副檔名;"
+    },
+    {
+      "original": "extension",
+      "conv": "文件扩展名 => zh-tw: 副檔名; 文件扩展名 => zh-hk: 副檔名; 文件扩展名 => zh-mo: 副檔名; "
+    },
+    {
+      "original": "extension",
+      "conv": "zh-hans: 扩展; zh-hant: 擴充功能;"
+    },
+    {
+      "original": "extension",
+      "conv": "扩充功能 => zh-cn: 扩展; 扩充功能 => zh-my: 扩展; 扩充功能 => zh-sg: 扩展;"
+    },
+    {
+      "original": "extension",
+      "conv": "擴充套件 => zh-cn: 扩展; 擴充套件 => zh-my: 扩展; 擴充套件 => zh-sg: 扩展;"
+    },
+    {
+      "original": "extension",
+      "conv": "擴展 => zh-tw: 擴充功能; 擴展 => zh-hk: 擴充功能; 擴展 => zh-mo: 擴充功能; "
+    },
+    {
       "original": "file",
       "conv": "zh-cn:文件; zh-tw:檔案;"
     },
@@ -44,20 +132,24 @@
       "conv": "zh-cn:文件名; zh-tw:檔案名稱;"
     },
     {
+      "original": "flood",
+      "conv": "zh-hans:机器用户; zh-tw:機器使用者; zh-hk:機械用戶;"
+    },
+    {
+      "original": "footnote",
+      "conv": "zh-cn:脚注; zh-tw:註腳;"
+    },
+    {
       "original": "Help:",
-      "conv": "zh-cn:帮助:; zh-tw:使用說明:; zh-hk:幫助:;"
+      "conv": "zh-cn:帮助:; zh-tw:說明:;"
     },
     {
       "original": "Help talk:",
-      "conv": "zh-cn:帮助讨论:; zh-tw:使用說明討論:; zh-hk:幫助討論:;"
-    },
-    {
-      "original": "interface administrators",
-      "conv": "zh-cn:界面管理员; zh-tw:介面管理員;"
+      "conv": "zh-cn:帮助讨论:; zh-tw:說明討論:;"
     },
     {
       "original": "import",
-      "conv": "zh-hans:导入; zh-hant:匯入;"
+      "conv": "zh-cn:导入; zh-tw:匯入;"
     },
     {
       "original": "import",
@@ -68,16 +160,116 @@
       "conv": "導入=>zh-tw:匯入; 導入=>zh-hk:匯入; 導入=>zh-mo:匯入;"
     },
     {
-      "original": "IP block exemption",
-      "conv": "zh-cn:IP封禁豁免; zh-tw:IP封鎖例外;"
+      "original": "info (information)",
+      "conv": "zh-cn:信息; zh-tw:資訊;"
+    },
+    {
+      "original": "interface",
+      "conv": "zh-hans:界面; zh-hant:介面;"
+    },
+    {
+      "original": "interface administrators",
+      "conv": "zh-cn:界面管理员; zh-tw:介面管理員;"
     },
     {
       "original": "IP block exemption",
-      "conv": "IP封禁例外=>zh-cn:IP封禁豁免; IP封禁例外=>zh-sg:IP封禁豁免; IP封禁例外=>zh-my:IP封禁豁免;"
+      "conv": "zh-cn:IP封禁豁免; zh-tw:IP封鎖豁免;"
+    },
+    {
+      "original": "IP block exemption",
+      "conv": "IP封禁例外=>zh-hans:IP封禁豁免; IP封禁例外=>zh-hant:IP封鎖豁免;"
+    },
+    {
+      "original": "IP block exemption",
+      "conv": "IP封鎖例外=>zh-hans:IP封禁豁免; IP封禁例外=>zh-hant:IP封鎖豁免;"
+    },
+    {
+      "original": "line breaker",
+      "conv": "zh-hans:换行符;zh-hant:換行字元;"
+    },
+    {
+      "original": "line breaker",
+      "conv": "zh:換行符;zh-hans:换行符;zh-hant:換行字元;"
+    },
+    {
+      "original": "line breaker",
+      "conv": "zh:换行字元;zh-hans:换行符;zh-hant:換行字元;"
+    },
+    {
+      "original": "link",
+      "conv": "zh-cn:链接; zh-tw:連結;"
+    },
+    {
+      "original": "link",
+      "conv": "连结=>zh-cn:链接; 连结=>zh-sg:链接; 连结=>zh-my:链接;"
+    },
+    {
+      "original": "link",
+      "conv": "鏈接=>zh-tw:連結; 鏈接=>zh-hk:連結; 鏈接=>zh-mo:連結;"
+    },
+    {
+      "original": "link",
+      "conv": "鏈結=>zh-tw:連結; 鏈結=>zh-hk:連結; 鏈結=>zh-mo:連結;"
+    },
+    {
+      "original": "internal link",
+      "conv": "内链=>zh-tw:內部連結; 内链=>zh-hk:內部連結; 内链=>zh-mo:內部連結;"
+    },
+    {
+      "original": "internal link",
+      "conv": "內鏈=>zh-tw:內部連結; 內鏈=>zh-hk:內部連結; 內鏈=>zh-mo:內部連結;"
+    },
+    {
+      "original": "external link",
+      "conv": "外链=>zh-tw:外部連結; 外链=>zh-hk:外部連結; 外链=>zh-mo:外部連結;"
+    },
+    {
+      "original": "external link",
+      "conv": "外鏈=>zh-tw:外部連結; 外鏈=>zh-hk:外部連結; 外鏈=>zh-mo:外部連結;"
+    },
+    {
+      "original": "red link",
+      "conv": "红链=>zh-tw:紅色連結; 红链=>zh-hk:紅色連結; 红链=>zh-mo:紅色連結;"
+    },
+    {
+      "original": "red link",
+      "conv": "紅鏈=>zh-tw:紅色連結; 紅鏈=>zh-hk:紅色連結; 紅鏈=>zh-mo:紅色連結;"
+    },
+    {
+      "original": "green link",
+      "conv": "绿链=>zh-tw:綠色連結; 绿链=>zh-hk:綠色連結; 绿链=>zh-mo:綠色連結;"
+    },
+    {
+      "original": "green link",
+      "conv": "綠鏈=>zh-tw:綠色連結; 綠鏈=>zh-hk:綠色連結; 綠鏈=>zh-mo:綠色連結;"
+    },
+    {
+      "original": "blue link",
+      "conv": "蓝链=>zh-tw:藍色連結; 蓝链=>zh-hk:藍色連結; 蓝链=>zh-mo:藍色連結;"
+    },
+    {
+      "original": "blue link",
+      "conv": "藍鏈=>zh-tw:藍色連結; 藍鏈=>zh-hk:藍色連結; 藍鏈=>zh-mo:藍色連結;"
+    },
+    {
+      "original": "link (here)",
+      "conv": "zh-cn:链入; zh-tw:連入;"
+    },
+    {
+      "original": "link (here)",
+      "conv": "鏈入=>zh-tw:連入;"
     },
     {
       "original": "log details",
-      "conv": "zh-hans:日志详情;zh-hant:日誌明細;"
+      "conv": "zh-hans:日志详情; zh-hant:日誌明細;"
+    },
+    {
+      "original": "login",
+      "conv": "zh-hans:登录; zh-hant:登入;"
+    },
+    {
+      "original": "logout",
+      "conv": "zh-hant:登出; zh-hans:退出;"
     },
     {
       "original": "module",
@@ -85,43 +277,59 @@
     },
     {
       "original": "module",
-      "conv": "模组 => zh-cn:模块; 模组=>zh-sg:模块; 模组=>zh-my:模块;"
+      "conv": "模组=>zh-cn:模块; 模组=>zh-sg:模块; 模组=>zh-my:模块;"
+    },
+    {
+      "original": "module documentation",
+      "conv": "zh-hans:模块文档; zh-hant:模組文件;"
     },
     {
       "original": "namespace",
-      "conv": "zh-cn:命名空间; zh-tw:命名空間;"
+      "conv": "zh-hans:命名空间; zh-hant:命名空間;"
+    },
+    {
+      "original": "namespace",
+      "conv": "名字空间=>zh-cn:命名空间; 名字空间=>zh-hk:命名空間; 名字空间=>zh-mo:命名空間; 名字空间=>zh-tw:命名空間; 名字空间=>zh-sg:命名空间; 名字空间=>zh-my:命名空间;"
+    },
+    {
+      "original": "namespace",
+      "conv": "名字空間=>zh-cn:命名空间; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間; 名字空間=>zh-tw:命名空間; 名字空間=>zh-sg:命名空间; 名字空間=>zh-my:命名空间;"
+    },
+    {
+      "original": "parser functions",
+      "conv": "zh-cn:解析器函数; zh-hk:解析器函數; zh-tw:解析器函數;"
+    },
+    {
+      "original": "preferences",
+      "conv": "zh-cn:参数设置; zh-tw:偏好設定; zh-hk:參數設置;"
     },
     {
       "original": "project",
-      "conv": "zh-hans:项目; zh-hant:專案; zh-tw:計畫; "
+      "conv": "zh-hans:项目; zh-hant:專案; zh-tw:專案;"
     },
     {
       "original": "project",
-      "conv": "項目=>zh-tw:計畫; 項目=>zh-hk:專案; 項目=>zh-mo:專案;"
-    },
-    {
-      "original": "transclude",
-      "conv": "zh-hans:嵌入; zh-hant:引用;"
+      "conv": "項目=>zh-tw:專案; 項目=>zh-hk:專案; 項目=>zh-mo:專案;"
     },
     {
       "original": "project",
-      "conv": "专案=>zh-cn:项目; 专案=>zh-sg:项目; 专案=>zh-my:项目;专案=>zh-tw:計畫;"
+      "conv": "专案=>zh-cn:项目; 专案=>zh-sg:项目; 专案=>zh-my:项目; 专案=>zh-tw:專案;"
     },
     {
       "original": "project",
-      "conv": "計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目;計劃=>zh-tw:計畫; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;"
+      "conv": "計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目; 計劃=>zh-tw:專案; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;"
     },
     {
       "original": "project page",
-      "conv": "zh-hans:项目页面; zh-hant:專案頁面; zh-tw:計畫頁面;"
+      "conv": "zh-hans:项目页面; zh-hant:專案頁面; zh-tw:專案頁面;"
     },
     {
       "original": "project page",
       "conv": "項目頁面=>zh-tw:計畫頁面; 項目頁面=>zh-hk:專案頁面; 項目=>zh-mo:專案頁面;"
     },
     {
-      "original": "template documentation",
-      "conv": "zh-hans:模板文档; zh-hant:模板文件; "
+      "original": "recent change",
+      "conv": "zh-hans:最近更改; zh-hant:近期變更;"
     },
     {
       "original": "redirect",
@@ -133,35 +341,79 @@
     },
     {
       "original": "redirect page",
-      "conv": "重定向页面 => zh-tw:重新導向頁面; 重定向页面 => zh-hk:重新導向頁面; 重定向页面 => zh-mo:重新導向頁面;"
+      "conv": "重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:重新導向頁面; 重定向页面=>zh-mo:重新導向頁面;"
+    },
+    {
+      "original": "report",
+      "conv": "zh-cn:举报; zh-tw:檢舉;"
     },
     {
       "original": "sample",
-      "conv": "zh-hans:示例; zh-hant:範例;"
+      "conv": "zh-cn:示例; zh-tw:範例;"
     },
     {
       "original": "skin",
-      "conv": "皮肤=>zh-tw:外觀; 皮肤=>zh-hk:佈景主題; 皮肤=>zh-mo:佈景主題;"
+      "conv": "皮肤=>zh-tw:外觀; 皮肤=>zh-hk:外觀; 皮肤=>zh-mo:外觀;"
+    },
+    {
+      "original": "source code",
+      "conv": "zh-hans:原始码; zh-hant:原始碼; zh-cn:源代码;"
+    },
+    {
+      "original": "source code",
+      "conv": "源代碼=>zh-hk:原始碼; 源代碼=>zh-mo:原始碼; 源代碼=>zh-tw:原始碼; 源代碼=>zh-sg:原始码; 源代碼=>zh-my:原始码;"
+    },
+    {
+      "original": "source code",
+      "conv": "源码=>zh-hk:原始碼; 源码=>zh-mo:原始碼; 源码=>zh-tw:原始碼; 源码=>zh-sg:原始码; 源码=>zh-my:原始码;"
+    },
+    {
+      "original": "source code",
+      "conv": "源碼=>zh-hk:原始碼; 源碼=>zh-mo:原始碼; 源碼=>zh-tw:原始碼; 源碼=>zh-sg:原始码; 源碼=>zh-my:原始码;"
+    },
+    {
+      "original": "string",
+      "conv": "zh-cn:字符串; zh-tw:字串;"
+    },
+    {
+      "original": "template data",
+      "conv": "zh-hans:模板数据; zh-hant:模板資料; zh-tw:模板資料;"
+    },
+    {
+      "original": "template documentation",
+      "conv": "zh-hans:模板文档; zh-hant:模板文件;"
+    },
+    {
+      "original": "through",
+      "conv": "zh-cn:通过; zh-tw:透過;"
     },
     {
       "original": "undo",
-      "conv": "zh-hans:撤销; zh-hant:復原;"
+      "conv": "zh-cn:撤销; zh-tw:復原;"
     },
     {
       "original": "undo",
-      "conv": "撤消 => zh-my:撤销; 撤消 => zh-sg:撤销;"
-    },
-    {
-      "original": "undo",
-      "conv": "撤消 => zh-tw:復原; 撤消 => zh-hk:復原; 撤消 => zh-mo:復原;"
+      "conv": "撤消=>zh-tw:復原; 撤消=>zh-hk:復原; 撤消=>zh-mo:復原;"
     },
     {
       "original": "user",
-      "conv": "zh-hans:用户; zh-hant:用戶; zh-tw:使用者;"
+      "conv": "zh-hans:用户; zh-hant:使用者; zh-tw:使用者; zh-hk:用戶;"
     },
     {
       "original": "user group",
       "conv": "zh-cn:用户组; zh-tw:使用者群組; zh-hk:用戶組;"
+    },
+    {
+      "original": "user namespace",
+      "conv": "用户名字空間=>zh-hk:用戶命名空間; 用户名字空間=>zh-mo:用戶命名空間; 用户名字空間=>zh-tw:使用者命名空間;"
+    },
+    {
+      "original": "user namespace",
+      "conv": "用戶名字空间=>zh-hk:用戶命名空間; 用戶名字空间=>zh-mo:用戶命名空間; 用戶名字空间=>zh-tw:使用者命名空間;"
+    },
+    {
+      "original": "user namespace",
+      "conv": "用戶名字空間=>zh-hk:用戶命名空間; 用戶名字空間=>zh-mo:用戶命名空間; 用戶名字空間=>zh-tw:使用者命名空間;"
     },
     {
       "original": "user page",
@@ -169,19 +421,31 @@
     },
     {
       "original": "user page",
-      "conv": "用户頁 => zh-tw:使用者頁面;"
+      "conv": "用户頁=>zh-tw:使用者頁面;"
     },
     {
       "original": "user page",
-      "conv": "用戶页 => zh-tw:使用者頁面;"
+      "conv": "用戶页=>zh-tw:使用者頁面;"
     },
     {
       "original": "user page",
-      "conv": "用户页面 => zh-tw:使用者頁面;"
+      "conv": "用户页面=>zh-tw:使用者頁面;"
     },
     {
       "original": "user page",
-      "conv": "使用者頁 => zh-tw:使用者頁面;"
+      "conv": "使用者頁=>zh-tw:使用者頁面;"
+    },
+    {
+      "original": "user page",
+      "conv": "使用者頁面=>zh-tw:使用者頁面;"
+    },
+    {
+      "original": "user right",
+      "conv": "用户权限 => zh-tw:使用者權限;用戶權限 => zh-tw:使用者權限;"
+    },
+    {
+      "original": "user right",
+      "conv": "用户权 => zh-tw:使用者權限;用戶權 => zh-tw:使用者權限;"
     },
     {
       "original": "userbox",
@@ -200,24 +464,12 @@
       "conv": "用戶名稱=>zh-cn:用户名; 用戶名稱=>zh-my:用户名; 用戶名稱=>zh-sg:用户名; 用戶名稱=>zh-tw:使用者名稱;"
     },
     {
-      "original": "user namespace",
-      "conv": "用户名字空間=>zh-hk:用戶命名空間; 用户名字空間=>zh-mo:用戶命名空間; 用户名字空間=>zh-tw:使用者命名空間;"
+      "original": "view",
+      "conv": "zh-cn:查看; zh-tw:檢視;"
     },
     {
-      "original": "user namespace",
-      "conv": "用戶名字空间=>zh-hk:用戶命名空間; 用戶名字空间=>zh-mo:用戶命名空間; 用戶名字空间=>zh-tw:使用者命名空間;"
-    },
-    {
-      "original": "user namespace",
-      "conv": "用戶名字空間=>zh-hk:用戶命名空間; 用戶名字空間=>zh-mo:用戶命名空間; 用戶名字空間=>zh-tw:使用者命名空間;"
-    },
-    {
-      "original": "user right",
-      "conv": "用户权限 => zh-tw:使用者權限;用戶權限 => zh-tw:使用者權限;"
-    },
-    {
-      "original": "user right",
-      "conv": "用户权 => zh-tw:使用者權限;用戶權 => zh-tw:使用者權限;"
+      "original": "watchlist",
+      "conv": "zh-cn:监视列表; zh-tw:監視清單;"
     },
     {
       "original": "computer",
@@ -309,7 +561,15 @@
     },
     {
       "original": "license terms",
-      "conv": "zh-cn:许可; zh-tw:授權; zh-hk:特許;"
+      "conv": "特許=>zh-cn:許可; 特許=>zh-hk:特許; 特許=>zh-tw:授權;"
+    },
+    {
+      "original": "license terms",
+      "conv": "許可=>zh-cn:许可; 許可=>zh-tw:授權; 許可=>zh-hk:特許;"
+    },
+    {
+      "original": "license terms",
+      "conv": "许可=>zh-cn:许可; 许可=>zh-tw:授權; 许可=>zh-hk:特許;"
     },
     {
       "original": "license",
@@ -326,10 +586,6 @@
     {
       "original": "license",
       "conv": "許可證=>zh-tw:授權條款;許可證=>zh-hk:特許條款;許可證=>zh-mo:特許條款;"
-    },
-    {
-      "original": "license agreement",
-      "conv": "zh-cn:许可协议; zh-tw:授權合約; zh-hk:特許協議;"
     },
     {
       "original": "Localization",
@@ -401,7 +657,7 @@
     },
     {
       "original": "EmailUser",
-      "conv": "zh-hans:电邮联系;zh-hant:Email 聯絡用戶;zh-tw:Email 聯絡使用者;"
+      "conv": "zh-hans:电邮联系;zh-hant:電郵聯絡用戶;zh-tw:電郵聯絡使用者;"
     },
     {
       "original": "Preferences",

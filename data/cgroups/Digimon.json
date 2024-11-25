@@ -9,7 +9,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:数码宝贝飓风登陆!!;zh-hk:暴龍旋風登陸 危機再現!;zh-tw:暴龍旋風登陸 危機再現!;"
+      "conv": "zh-cn:数码宝贝飓风登陆;zh-hk:暴龍旋風登陸 危機再現;zh-tw:暴龍旋風登陸 危機再現;"
     },
     {
       "original": null,
@@ -53,11 +53,15 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:数码宝贝05拯救者;zh-hk:數碼暴龍DS;zh-tw:數碼寶貝拯救隊;"
+      "conv": "zh-cn:数码宝贝拯救队;zh-hk:數碼暴龍DS;zh-mo:數碼暴龍拯救隊;zh-tw:數碼寶貝拯救隊;zh-sg:数码宝贝拯救者;"
     },
     {
       "original": null,
-      "conv": "zh-cn:拯救者;zh-hk:拯救隊;zh-tw:拯救隊;zh-sg:拯救队;"
+      "conv": "zh-cn:数码宝贝拯救队3D;zh-hk:數碼暴龍DS 3D;zh-mo:數碼暴龍拯救隊3D;zh-tw:數碼寶貝拯救隊3D;zh-sg:数码宝贝拯救者3D;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拯救队;zh-hk:拯救隊;zh-tw:拯救隊;zh-sg:拯救者;"
     },
     {
       "original": null,
@@ -65,15 +69,15 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:数码宝贝06合体战争;zh-hk:數碼暴龍合體大作戰;zh-tw:數碼寶貝大匯戰;"
+      "conv": "zh-cn:数码宝贝合体战争;zh-hk:數碼暴龍合體大作戰;zh-tw:數碼寶貝大匯戰;zh-sg:数码宝贝大汇战;"
     },
     {
       "original": null,
-      "conv": "zh-cn:合体战争;zh-hk:合體大作戰;zh-tw:大匯戰;"
+      "conv": "zh-cn:合体战争;zh-hk:合體大作戰;zh-tw:大匯戰;zh-sg:大汇战;"
     },
     {
       "original": null,
-      "conv": "zh-cn:穿越时空的少年猎人们;zh-hk:超越時空的少年獵人們;zh-tw:超越時空的少年獵人們;"
+      "conv": "zh-cn:穿越时空的少年猎人们;zh-hk:穿越時空的少年獵人們;zh-tw:超越時空的少年獵人們;zh-sg:超越时空的少年猎人们;"
     },
     {
       "original": null,
@@ -93,7 +97,19 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:数码宝贝02：起源;zh-hk:數碼暴龍02 THE BEGINNING;zh-tw:數碼寶貝02 THE BEGINNING;zh-sg:数码宝贝大冒险02 开端;"
+      "conv": "zh-cn:数码宝贝02：最初的召唤;zh-hk:數碼暴龍02 THE BEGINNING;zh-tw:數碼寶貝02 THE BEGINNING;zh-sg:数码宝贝大冒险02 起源;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:原创故事;zh-hk:原創故事;zh-tw:原創物語;zh-sg:原创物语;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:纪念故事;zh-hk:紀念故事;zh-tw:紀念物語;zh-sg:纪念物语;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码宝贝大冒险V驯兽师01;zh-hk:數碼暴龍大冒險V暴龍師-01;zh-tw:數碼寶貝V訓練師01;zh-sg:数码宝贝V训练师01;"
     },
     {
       "original": null,
@@ -101,7 +117,15 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:数码宝贝大冒险V驯兽师01;zh-hk:數碼暴龍大冒險V暴龍師-01;zh-tw:數碼寶貝V訓練師01;zh-sg:数码宝贝V训练师01;"
+      "conv": "zh-cn:编年史;zh-hk:年代記;zh-tw:編年史;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码宝贝宇宙 应用怪兽 应用兽学园;zh-hk:數碼暴龍App世代 程式獸學園;zh-tw:數碼寶貝-APP獸學園;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:三岔路;zh-hk:三叉路;zh-tw:三叉路;zh-sg:三叉路;"
     },
     {
       "original": null,
@@ -113,7 +137,51 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:超合体大战;zh-hk:超合體大作戰;zh-tw:超合體大戰;"
+      "conv": "zh-cn:口袋数码宝贝;zh-hk:袖珍數碼暴龍;zh-tw:袖珍數碼寶貝;zh-sg:袖珍数码宝贝;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码宝贝口袋;zh-hk:數碼暴龍袖珍;zh-tw:數碼寶貝袖珍;zh-sg:数码宝贝袖珍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:口袋古乐兽;zh-hk:袖珍古樂獸;zh-tw:袖珍古樂獸;zh-sg:袖珍古乐兽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:版：数码宝贝驯兽师;zh-hk:版：數碼暴龍師;zh-tw:版：數碼寶貝訓育師;zh-sg:版：数码宝贝驯育师;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:极驯兽师;zh-hk:極暴龍師;zh-tw:極訓育師;zh-sg:极驯育师;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:组合驯兽师;zh-hk:黑暗暴龍師;zh-tw:黑暗訓育師;zh-sg:黑暗驯育师;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:D-1驯兽师;zh-hk:D-1暴龍師;zh-tw:D-1訓育師;zh-sg:D-1驯育师;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:勇敢的驯兽师;zh-hk:勇者暴龍師;zh-tw:勇者訓育師;zh-sg:勇敢的驯育师;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:的驯兽师;zh-hk:的暴龍師;zh-tw:的訓育師;zh-sg:的驯育师;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:收集者;zh-hk:收藏家;zh-tw:收集者;zh-sg:收藏家;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:组曲;zh-hk:集成曲;zh-tw:組曲;zh-sg:集成曲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超乱斗;zh-hk:超級大亂鬥;zh-tw:超亂鬥;zh-sg:超级大乱斗;"
     },
     {
       "original": null,
@@ -125,7 +193,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:黑客;zh-hk:黑客;zh-tw:駭客;zh-sg:黑客;"
+      "conv": "zh-cn:黑客;zh-hk:黑客;zh-tw:駭客;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:崭新冒险之门;zh-hk:新冒險之門;zh-tw:新冒險之門;"
     },
     {
       "original": null,
@@ -141,11 +213,67 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:灵魂猎手 第2季;zh-hk:靈魂獵手Season2;zh-tw:靈魂獵手Season2;"
+      "conv": "zh-cn:灵魂猎手 第2季;zh-hk:靈魂獵手 Season2;zh-tw:靈魂獵手 Season2;"
     },
     {
       "original": null,
-      "conv": "zh-cn:灵魂猎手 第3季;zh-hk:靈魂獵手Season3;zh-tw:靈魂獵手Season3;"
+      "conv": "zh-cn:灵魂猎手 第3季;zh-hk:靈魂獵手 Season3;zh-tw:靈魂獵手 Season3;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:灵魂猎手 第4季;zh-hk:靈魂獵手 Season4;zh-tw:靈魂獵手 Season4;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗之魂;zh-hk:格鬥之王;zh-tw:格鬥之魂;zh-sg:对战之魂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗终端;zh-hk:格鬥終端;zh-tw:格鬥終端;zh-sg:对战终端;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗游戏;zh-hk:格鬥遊戲;zh-tw:格鬥遊戲;zh-sg:对战游戏;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗进化;zh-hk:格鬥超進化;zh-tw:格鬥進化;zh-sg:对战进化;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码宝贝战斗;zh-hk:數碼暴龍格鬥;zh-tw:數碼寶貝格鬥;zh-sg:数码宝贝对战;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:究极战斗;zh-hk:究極格鬥;zh-tw:究極格鬥;zh-sg:究极对战;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗机;zh-hk:格鬥機;zh-tw:格鬥機;zh-sg:对战机;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗口;zh-hk:格鬥口;zh-tw:格鬥口;zh-sg:对战口;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:战斗版;zh-hk:格鬥版;zh-tw:格鬥版;zh-sg:对战版;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码卡牌对战;zh-hk:數碼卡牌格鬥;zh-mo:數碼卡片格鬥;zh-tw:數碼卡牌格鬥;zh-sg:数码卡片对战;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码卡牌;zh-hk:數碼卡牌;zh-mo:數碼卡片;zh-tw:數碼卡牌;zh-sg:数码卡片;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:卡牌对战;zh-hk:卡牌遊戲;zh-mo:卡片遊戲;zh-tw:卡牌遊戲;zh-sg:卡片游戏;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:集换式卡牌;zh-hk:交換卡牌;zh-mo:交換卡片;zh-tw:交換卡牌;zh-sg:交换卡片;"
     },
     {
       "original": null,
@@ -157,15 +285,15 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:被选召;zh-hk:被選中;zh-tw:被選召;"
+      "conv": "zh-cn:被选召;zh-hk:被選中;zh-tw:被選召;zh-sg:被选中;"
     },
     {
       "original": null,
-      "conv": "zh-cn:被选召的孩子们;zh-hk:被選中的小孩;zh-tw:被選召的孩子們;"
+      "conv": "zh-cn:被选召的孩子们;zh-hk:被選中的小孩;zh-tw:被選召的孩子們;zh-sg:被选中的小孩;"
     },
     {
       "original": null,
-      "conv": "zh-cn:携带机;zh-hk:暴龍機;zh-tw:怪獸對打機;"
+      "conv": "zh-cn:携带机;zh-hk:暴龍機;zh-tw:怪獸對打機;zh-sg:宝贝机;"
     },
     {
       "original": null,
@@ -173,15 +301,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:徽章;zh-hk:紋章;zh-tw:徽章;"
-    },
-    {
-      "original": null,
       "conv": "zh-cn:神圣计划;zh-hk:數碼配章;zh-tw:神聖計劃;"
     },
     {
       "original": null,
-      "conv": "zh-cn:帝魔;zh-hk:迪柏;zh-tw:帝魔;"
+      "conv": "zh-cn:徽章;zh-hk:紋章;zh-tw:徽章;"
     },
     {
       "original": null,
@@ -189,11 +313,19 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:拓麻歌子;zh-hk:他媽哥池;zh-tw:塔麻可吉;zh-sg:塔麻可吉"
+      "conv": "zh-cn:周年;zh-hk:周年;zh-tw:週年;"
     },
     {
       "original": null,
-      "conv": "zh-cn:服务器;zh-hk:伺服器;zh-tw:伺服器;zh-sg:服务器;"
+      "conv": "zh-cn:服务器;zh-hk:伺服器;zh-tw:伺服器;zh-sg:伺服器;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:选项卡;zh-hk:行動卡;zh-tw:行動卡;zh-sg:行动卡;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:拓麻歌子;zh-hk:他媽哥池;zh-tw:塔麻可吉;zh-sg:塔麻可吉;"
     },
     {
       "original": null,
@@ -206,6 +338,26 @@
     {
       "original": null,
       "conv": "zh-cn:科库托斯;zh-hk:克塞特斯河;zh-tw:克塞特斯河;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:搭档;zh-hk:拍檔;zh-tw:搭檔;zh-sg:拍档;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伙伴;zh-hk:伙伴;zh-tw:夥伴;zh-sg:同伴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:发小;zh-hk:青梅竹馬;zh-tw:青梅竹馬;zh-sg:青梅竹马;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:发小;zh-hk:竹馬之交;zh-tw:竹馬之交;zh-sg:竹马之交;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:电子邮件;zh-hk:電子郵件;zh-tw:電子郵件;zh-sg:电邮;"
     },
     {
       "original": null,
@@ -230,6 +382,10 @@
     {
       "original": null,
       "conv": "zh-cn:应用合体;zh-hk:程式合體;zh-tw:APP合體;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:教学应用程序;zh-hk:輔導應用程序;zh-tw:輔導應用程序;zh-sg:辅导应用程序;"
     },
     {
       "original": null,
@@ -266,6 +422,10 @@
     {
       "original": null,
       "conv": "zh-cn:文件岛;zh-hk:檔案島;zh-tw:檔案島;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:格拉尼;zh-hk:古拉尼;zh-tw:葛拉尼;"
     },
     {
       "original": null,
@@ -333,7 +493,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:深红形态;zh-hk:真紅蓮形態;zh-tw:真紅蓮形態;"
+      "conv": "zh-cn:深红;zh-hk:真紅蓮;zh-tw:真紅蓮;"
     },
     {
       "original": null,
@@ -357,15 +517,15 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:魔神兽;zh-hk:究極魔獸;zh-tw:究極魔獸;"
-    },
-    {
-      "original": null,
       "conv": "zh-cn:别西卜兽;zh-hk:墮天地獄獸;zh-tw:墮天地獄獸;"
     },
     {
       "original": null,
-      "conv": "zh-cn:别西卜兽：疾风形态;zh-hk:墮天地獄獸：爆裂形態;zh-tw:墮天地獄獸：爆裂形態;"
+      "conv": "zh-cn:别西卜兽：疾风形态;zh-hk:墮天地獄獸：爆裂型態;zh-tw:墮天地獄獸：爆裂型態;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:魔神兽;zh-hk:究極魔獸;zh-tw:究極魔獸;zh-sg:魔皇兽;"
     },
     {
       "original": null,
@@ -593,11 +753,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:高吼兽;zh-hk:咆哮獸;zh-tw:咆哮獸;"
+      "conv": "zh-cn:高吼兽;zh-hk:咆哮獸;zh-tw:咆哮獸;zh-sg:咆哮兽;"
     },
     {
       "original": null,
-      "conv": "zh-cn:巨型指挥官兽;zh-hk:元帥獸;zh-tw:元帥獸;"
+      "conv": "zh-cn:巨型指挥官兽;zh-hk:元帥獸;zh-tw:元帥獸;zh-sg:元帅兽;"
     }
   ]
 }

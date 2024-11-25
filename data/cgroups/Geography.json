@@ -4,10 +4,6 @@
   "path": "Module:CGroup/Geography",
   "rules": [
     {
-      "original": "central place",
-      "conv": "中心地=>zh-tw:中地"
-    },
-    {
       "original": "continental shelf",
       "conv": "zh-cn:大陆架; zh-hk:大陸架; zh-tw:大陸棚;"
     },
@@ -45,7 +41,7 @@
     },
     {
       "original": "coordinate",
-      "conv": "座標=>zh-cn:坐标"
+      "conv": "座標=>zh-cn:坐标;"
     },
     {
       "original": "dasymetric map",

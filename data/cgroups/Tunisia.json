@@ -1,0 +1,75 @@
+{
+  "name": "Tunisia",
+  "description": "“突尼斯-突尼-{西亞}-”转换",
+  "path": "Module:CGroup/Tunisia",
+  "rules": [
+    {
+      "original": "Tunisia",
+      "conv": "zh-cn:突尼斯; zh-hk:突尼西亞; zh-tw:突尼西亞; zh-my:突尼斯; zh-sg:突尼斯;"
+    },
+    {
+      "original": "Republic of Tunisia",
+      "conv": "zh-cn:突尼斯共和国; zh-hk:突尼西亞共和國; zh-tw:突尼西亞共和國; zh-my:突尼斯共和国; zh-sg:突尼斯共和国;"
+    },
+    {
+      "original": "President of Tunisia",
+      "conv": "zh-cn:突尼斯总统; zh-hk:突尼西亞總統; zh-tw:突尼西亞總統; zh-my:突尼斯总统; zh-sg:突尼斯总统;"
+    },
+    {
+      "original": "Central Bank of Tunisia",
+      "conv": "zh-cn:突尼斯中央银行; zh-hk:突尼西亞中央銀行; zh-tw:突尼西亞中央銀行; zh-my:突尼斯中央银行; zh-sg:突尼斯中央银行;"
+    },
+    {
+      "original": "Tunisian dinar",
+      "conv": "zh-cn:突尼斯第纳尔; zh-hk:突尼西亞第納爾; zh-tw:突尼西亞第納爾; zh-my:突尼斯第纳尔; zh-sg:突尼斯第纳尔;"
+    },
+    {
+      "original": "Tunisian citizens",
+      "conv": "zh-cn:突尼斯公民; zh-hk:突尼西亞公民; zh-tw:突尼西亞公民; zh-my:突尼斯公民; zh-sg:突尼斯公民;"
+    },
+    {
+      "original": "Tunisia visa",
+      "conv": "zh-cn:突尼斯签证; zh-hk:突尼西亞簽證; zh-tw:突尼西亞簽證; zh-my:突尼斯签证; zh-sg:突尼斯签证;"
+    },
+    {
+      "original": "Tunisian Arabic",
+      "conv": "zh-cn:突尼斯阿拉伯语; zh-hk:突尼西亞阿拉伯語; zh-tw:突尼西亞阿拉伯語; zh-my:突尼斯阿拉伯语; zh-sg:突尼斯阿拉伯语;"
+    },
+    {
+      "original": "Tunis",
+      "conv": "zh-hans:突尼斯市; zh-hant:突尼斯市;"
+    },
+    {
+      "original": "Tunis Governorate",
+      "conv": "zh-hans:突尼斯省; zh-hant:突尼斯省;"
+    },
+    {
+      "original": "Lake of Tunis",
+      "conv": "zh-hans:突尼斯湖; zh-hant:突尼斯湖;"
+    },
+    {
+      "original": "Lake of Tunis",
+      "conv": "zh-hans:突尼斯潟湖; zh-hant:突尼斯潟湖;"
+    },
+    {
+      "original": "Gulf of Tunis",
+      "conv": "zh-hans:突尼斯湾; zh-hant:突尼斯灣;"
+    },
+    {
+      "original": "Tunis University",
+      "conv": "zh-hans:突尼斯大学; zh-hant:突尼斯大學;"
+    },
+    {
+      "original": "Tunis Light Metro",
+      "conv": "zh-hans:突尼斯轻轨; zh-hant:突尼斯輕軌;"
+    },
+    {
+      "original": "bey of Tunis",
+      "conv": "zh-hans:突尼斯贝伊; zh-hant:突尼斯貝伊;"
+    },
+    {
+      "original": "Espérance Sportive de Tunis",
+      "conv": "zh-hans:突尼斯希望体育俱乐部; zh-hk:艾斯柏蘭斯體育會; zh-tw:突尼斯希望體育俱樂部; zh-my:突尼斯希望体育俱乐部; zh-sg:突尼斯希望体育俱乐部;"
+    }
+  ]
+}

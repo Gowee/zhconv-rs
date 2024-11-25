@@ -1,0 +1,291 @@
+{
+  "name": "Stranger Things",
+  "description": "[[怪奇物語]]",
+  "path": "Module:CGroup/Stranger Things",
+  "rules": [
+    {
+      "original": "Barb",
+      "conv": "zh-hant:芭兒;zh-hans:芭珀;"
+    },
+    {
+      "original": "Bob",
+      "conv": "zh-hant:巴布;zh-hans:鲍伯;zh-hk:寳;"
+    },
+    {
+      "original": "Brenner",
+      "conv": "zh-hans:布伦纳;zh-hant:布雷南;"
+    },
+    {
+      "original": "Byers",
+      "conv": "zh-hans:拜尔斯;zh-hant:拜爾斯;zh-hk:拜也斯;"
+    },
+    {
+      "original": "Erica",
+      "conv": "zh-hant:艾瑞卡;zh-hans:埃莉卡;"
+    },
+    {
+      "original": "Hopper",
+      "conv": "zh-hant:哈普;zh-hans:霍珀;zh-hk:鶴比;"
+    },
+    {
+      "original": "Jonathan",
+      "conv": "zh-hant:強納森;zh-hans:乔纳森;zh-hk:壯力焚;"
+    },
+    {
+      "original": "Joyce",
+      "conv": "zh-hant:喬絲;zh-hans:乔伊斯;zh-hk:祖絲;"
+    },
+    {
+      "original": "Karen",
+      "conv": "zh-hans:凯伦;zh-hant:凱倫;zh-hk:嘉倫;"
+    },
+    {
+      "original": "Lucas",
+      "conv": "zh-hant:路卡斯;zh-hans:卢卡斯;"
+    },
+    {
+      "original": "Max",
+      "conv": "zh-hant:麥克絲;zh-hans:麦克斯;"
+    },
+    {
+      "original": "Mike",
+      "conv": "zh-hant:麥克;zh-hans:迈克;"
+    },
+    {
+      "original": "Nancy",
+      "conv": "zh-hant:南西;zh-hans:南茜;zh-hk:南斯;"
+    },
+    {
+      "original": "Owens",
+      "conv": "zh-hans:欧文斯;zh-hant:歐文斯;zh-hk:奧雲斯;"
+    },
+    {
+      "original": "Robin",
+      "conv": "zh-hans:罗宾;zh-hant:蘿蘋;"
+    },
+    {
+      "original": "Sinclair",
+      "conv": "zh-hans:辛克莱尔;zh-hant:辛克萊;"
+    },
+    {
+      "original": "Steve",
+      "conv": "zh-hant:史帝夫;zh-hans:史蒂夫;"
+    },
+    {
+      "original": "Vecna",
+      "conv": "zh-hans:维克那;zh-hant:威可那;"
+    },
+    {
+      "original": "Wheeler",
+      "conv": "zh-hans:惠勒;zh-hant:威勒;"
+    },
+    {
+      "original": "Astin",
+      "conv": "zh-hans:阿斯廷;zh-hk:艾斯丁;zh-tw:艾斯汀"
+    },
+    {
+      "original": "Finn Wolfhard",
+      "conv": "zh-hans:芬恩·伍法德;zh-tw:芬恩·沃夫哈德;zh-hk:芬·禾夫克;"
+    },
+    {
+      "original": "Gaetano Matarazzo",
+      "conv": "zh-cn:伽塔·马塔拉佐;zh-hk:加頓·馬達拉素;zh-tw:蓋頓·馬塔拉佐;"
+    },
+    {
+      "original": "Matarazzo",
+      "conv": "zh-cn:马塔拉佐;zh-hk:馬達拉素;zh-tw:馬塔拉佐;"
+    },
+    {
+      "original": "McLaughlin",
+      "conv": "zh-hans:麦罗林;zh-hant:麥羅林;"
+    },
+    {
+      "original": "Sean Astin",
+      "conv": "zh-hans:肖恩·阿斯廷;zh-hk:辛·艾斯丁;zh-tw:西恩·艾斯汀"
+    },
+    {
+      "original": "Wolfhard",
+      "conv": "zh-hans:伍法德;zh-tw:沃夫哈德;zh-hk:禾夫克;"
+    },
+    {
+      "original": "Chapter One: The Vanishing of Will Byers",
+      "conv": "zh-hans:第一集：威尔·拜尔斯失踪;zh-hant:第1章：威爾·拜爾斯消失了;zh-hk:第1章：威爾·拜也斯消失了;"
+    },
+    {
+      "original": "The Vanishing of Will Byers",
+      "conv": "zh-hans:威尔·拜尔斯失踪;zh-hant:威爾·拜爾斯消失了;zh-hk:威爾·拜也斯消失了;"
+    },
+    {
+      "original": "Chapter Two: The Weirdo on Maple Street",
+      "conv": "zh-hans:第二集：梅普尔街上的怪人;zh-hant:第2章：楓樹街上的怪女孩;"
+    },
+    {
+      "original": "Chapter Three: Holly, Jolly",
+      "conv": "zh-hans:第三集：开心的霍莉;zh-hant:第3章：聖誕燈光;"
+    },
+    {
+      "original": "Chapter Four: The Body",
+      "conv": "zh-hans:第四集：尸体;zh-hant:第4章：屍體;"
+    },
+    {
+      "original": "Chapter Five: The Flea and the Acrobat",
+      "conv": "zh-hans:第五集：跳蚤和杂技演员;zh-hant:第5章：跳蚤與雜技演員;"
+    },
+    {
+      "original": "Chapter Six: The Monster",
+      "conv": "zh-hans:第六集：怪兽;zh-hant:第6章：怪物;"
+    },
+    {
+      "original": "Chapter Seven: The Bathtub",
+      "conv": "zh-hans:第七集：浴缸;zh-hant:第7章：浴缸;"
+    },
+    {
+      "original": "Chapter Eight: The Upside Down",
+      "conv": "zh-hans:第八集：顛倒世界;zh-hant:第8章：上下顛倒的世界;"
+    },
+    {
+      "original": "Chapter One: MADMAX",
+      "conv": "zh-hans:第一集：疯狂麦克斯;zh-hant:第1章：瘋狂麥克絲"
+    },
+    {
+      "original": "Chapter Two: Trick or Treat, Freak",
+      "conv": "zh-hans:第二集：不给糖就捣蛋，怪胎;zh-hant:第2章：不給糖就搗蛋，怪胎;"
+    },
+    {
+      "original": "Chapter Three: The Pollywog",
+      "conv": "zh-hans:第三集：蝌蚪;zh-hant:第3章：蝌蚪;"
+    },
+    {
+      "original": "Chapter Four: Will the Wise",
+      "conv": "zh-hans:第四集：智者威尔;zh-hant:第4章：智者威爾;"
+    },
+    {
+      "original": "Chapter Five: Dig Dug",
+      "conv": "zh-hans:第五集：挖掘;zh-hant:第5章：挖掘;"
+    },
+    {
+      "original": "Chapter Six: The Spy",
+      "conv": "zh-hans:第六集：间谍;zh-hant:第6章：間諜;"
+    },
+    {
+      "original": "Chapter Seven: The Lost Sister",
+      "conv": "zh-hans:第七集：失踪的姐妹;zh-hant:第7章：失落的姐妹;"
+    },
+    {
+      "original": "Chapter Eight: The Mind Flayer",
+      "conv": "zh-hans:第八集：夺心魔;zh-hant:第8章：奪心魔;"
+    },
+    {
+      "original": "Chapter Nine: The Gate",
+      "conv": "zh-hans:第九集：关门;zh-hant:第9章：門;"
+    },
+    {
+      "original": "Chapter One: Suzie, Do You Copy?",
+      "conv": "zh-hans:第一集：苏西，能听到吗？;zh-hant:第1章：呼叫蘇西;"
+    },
+    {
+      "original": "Chapter Two: The Mall Rats",
+      "conv": "zh-hans:第二集：商场老鼠;zh-hant:第2章：鼠狂;"
+    },
+    {
+      "original": "Chapter Three: The Case of the Missing Lifeguard",
+      "conv": "zh-hans:第三集：救生员失踪案;zh-hant:第3章：失蹤的救生員一案;"
+    },
+    {
+      "original": "Chapter Four: The Sauna Test",
+      "conv": "zh-hans:第四集：桑拿测试;zh-hant:第4章：桑拿測試;"
+    },
+    {
+      "original": "Chapter Five: The Flayed",
+      "conv": "zh-hans:第五集：被夺者;zh-hant:第5章：奪心;"
+    },
+    {
+      "original": "Chapter Six: E Pluribus Unum",
+      "conv": "zh-hans:第六集：合众为一;zh-hant:第6章：合眾為一;"
+    },
+    {
+      "original": "Chapter Seven: The Bite",
+      "conv": "zh-hans:第七集：咬伤;zh-hant:第7章：咬;"
+    },
+    {
+      "original": "Chapter Eight: The Battle of Starcourt",
+      "conv": "zh-hans:第八集：星庭之战;zh-hant:第8章：星城之役;"
+    },
+    {
+      "original": "Chapter One: The Hellfire Club",
+      "conv": "zh-hans:第一集：地狱火俱乐部;zh-hant:第1章：地獄火俱樂部;"
+    },
+    {
+      "original": "Chapter Two: Vecnas Curse",
+      "conv": "zh-hans:第二集：维克那的诅咒;zh-hant:第2章：威可那的詛咒;"
+    },
+    {
+      "original": "Chapter Three: The Monster and the Superhero",
+      "conv": "zh-hans:第三集：怪物和超级英雄;zh-hant:第3章：怪物與超級英雄;"
+    },
+    {
+      "original": "Chapter Four: Dear Billy",
+      "conv": "zh-hans:第四集：亲爱的比利;zh-hant:第4章：親愛的比利;"
+    },
+    {
+      "original": "Chapter Five: The Nina Project",
+      "conv": "zh-hans:第五集：妮娜计划;zh-hant:第5章：妮娜計畫;"
+    },
+    {
+      "original": "Chapter Six: The Dive",
+      "conv": "zh-hans:第六集：深入;zh-hant:第6章：潛;"
+    },
+    {
+      "original": "Chapter Seven: The Massacre at Hawkins Lab",
+      "conv": "zh-hans:第七集：霍金斯实验室的屠杀;zh-hant:第7章：霍金斯實驗室血案;"
+    },
+    {
+      "original": "Chapter Eight: Papa",
+      "conv": "zh-hans:第八集：爸爸;zh-hant:第8章：爸爸;"
+    },
+    {
+      "original": "Chapter Nine: The Piggyback",
+      "conv": "zh-hans:第九集：肩驮;zh-hant:第9章：偷渡;"
+    },
+    {
+      "original": "Chapter One: The Crawl",
+      "conv": "zh-hans:第一集：匍匐潜行;zh-hant:第1章：匍匐潛行;"
+    },
+    {
+      "original": "Chapter Three: The Turnbow Trap",
+      "conv": "zh-hans:第三集：特波陷阱;zh-hant:第3章：特波陷阱;"
+    },
+    {
+      "original": "Chapter Four: Sorcerer",
+      "conv": "zh-hans:第四集：巫师;zh-hant:第4章：巫師;"
+    },
+    {
+      "original": "Chapter Five: Shock Jock",
+      "conv": "zh-hans:第五集：电击唤魔;zh-hant:第5章：電擊喚魔;"
+    },
+    {
+      "original": "Chapter Six: Escape from Camazotz",
+      "conv": "zh-hans:第六集：逃离卡玛佐兹;zh-hant:第6章：逃離卡瑪佐茲;"
+    },
+    {
+      "original": "Chapter Seven: The Bridge",
+      "conv": "zh-hans:第七集：桥梁;zh-hant:第7章：橋樑;"
+    },
+    {
+      "original": "Chapter Eight: The Rightside Up",
+      "conv": "zh-hans:第八集：正常世界;zh-hant:第8章：正常世界;"
+    },
+    {
+      "original": "Duffer",
+      "conv": "zh-hans:达菲;zh-hant:杜夫;"
+    },
+    {
+      "original": "Matt",
+      "conv": "zh-cn:马特;zh-hk:麥;zh-tw:麥特;"
+    },
+    {
+      "original": "Shawn Levy",
+      "conv": "zh-cn:肖恩·利维;zh-hk:桑·里維;zh-tw:薛恩·李維;"
+    }
+  ]
+}

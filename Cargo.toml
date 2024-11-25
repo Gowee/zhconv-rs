@@ -22,12 +22,12 @@ compress = ["zstd", "ruzstd"]
 
 [dependencies]
 daachorse = "1.0"
-itertools = "0.10"
+itertools = "0.13"
 lazy_static = "1.4" # TODO: switch to once_cell
-once_cell = "1.8"
-regex = "1.5"
-ruzstd = { version = "0.4", optional = true }
-strum = { version = "0.24", features = ["derive"] }
+once_cell = "1.20"
+regex = "1.11"
+ruzstd = { version = "0.7", optional = true }
+strum = { version = "0.26", features = ["derive"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 wasm-bindgen = "0.2"
@@ -52,13 +52,13 @@ wasm-bindgen-test = "0.3"
 [build-dependencies]
 daachorse = "1.0"
 hex-literal = "0.4"
-itertools = "0.10"
+itertools = "0.13"
 lazy_static = { version = "1.4", optional = true }
 once_cell = "1.8"
 regex = "1.5"
 sha2 = "0.10"
 vergen = { version = "8.2", features = ["build", "git", "gitcl"] }
-zstd = { version = "0.12", optional = true }
+zstd = { version = "0.13", optional = true }
 
 [[bench]]
 harness = false

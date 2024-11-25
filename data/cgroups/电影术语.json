@@ -1,0 +1,287 @@
+{
+  "name": "电影术语",
+  "description": "电影相关术语",
+  "path": "Module:CGroup/电影术语",
+  "rules": [
+    {
+      "original": "Cannes",
+      "conv": "zh:戛納;zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城;zh-my:康城;"
+    },
+    {
+      "original": "Venice Film Festival",
+      "conv": "zh:威尼斯電影節;zh-cn:威尼斯电影节;zh-hant:威尼斯影展;zh-sg:威尼斯影展;zh-my:威尼斯影展;"
+    },
+    {
+      "original": "Venice International Film Festival",
+      "conv": "zh:威尼斯國際電影節;zh-cn:威尼斯国际电影节;zh-hant:威尼斯國際影展;zh-sg:威尼斯国际影展;zh-my:威尼斯国际影展;"
+    },
+    {
+      "original": "Berlin Film Festival",
+      "conv": "zh:柏林電影節;zh-cn:柏林电影节;zh-hant:柏林影展;zh-sg:柏林影展;zh-my:柏林影展;"
+    },
+    {
+      "original": "Berlin International Film Festival",
+      "conv": "zh:柏林國際電影節;zh-cn:柏林国际电影节;zh-hant:柏林國際影展;zh-sg:柏林国际影展;zh-my:柏林国际影展;"
+    },
+    {
+      "original": "Toronto Film Festival",
+      "conv": "zh:多倫多電影節;zh-cn:多伦多电影节;zh-hant:多倫多影展;zh-my:多伦多影展;"
+    },
+    {
+      "original": "Toronto International Film Festival",
+      "conv": "zh:多倫多國際電影節;zh-cn:多伦多国际电影节;zh-hant:多倫多國際影展;zh-my:多伦多国际影展;"
+    },
+    {
+      "original": "Sundance Film Festival",
+      "conv": "zh:聖丹斯電影節;zh-cn:圣丹斯电影节;zh-tw:日舞影展;zh-hk:辛丹斯電影節;zh-sg:日舞影展;zh-my:日舞影展;"
+    },
+    {
+      "original": "Locarno",
+      "conv": "zh:洛迦諾;zh-cn:洛迦诺;zh-sg:洛迦诺;zh-my:卢卡诺;zh-hant:盧卡諾;"
+    },
+    {
+      "original": "Locarno",
+      "conv": "zh:羅加諾;zh-cn:洛迦诺;zh-sg:洛迦诺;zh-my:卢卡诺;zh-hant:盧卡諾;"
+    },
+    {
+      "original": "Locarno Film Festival",
+      "conv": "zh:羅加諾影展;zh-cn:洛迦诺电影节;zh-sg:洛迦诺影展;zh-my:卢卡诺影展;zh-hant:盧卡諾影展;"
+    },
+    {
+      "original": "Locarno International Film Festival",
+      "conv": "zh:洛迦諾國際電影節;zh-cn:洛迦诺国际电影节;zh-my:卢卡诺国际电影节;zh-hant:盧卡諾國際影展;"
+    },
+    {
+      "original": "Rotterdam Film Festival",
+      "conv": "zh-hant:鹿特丹影展;zh-sg:鹿特丹影展;zh-my:鹿特丹影展;zh-cn:鹿特丹电影节;"
+    },
+    {
+      "original": "SXSW Film Festival",
+      "conv": "zh-my:西南偏南影展;zh-sg:西南偏南电影节;zh-cn:西南偏南电影节;zh-tw:西南偏南電影節;zh-mo:西南偏南電影節;zh-hk:SXSW電影節;"
+    },
+    {
+      "original": "Critics Choice Movie Award",
+      "conv": "zh-tw:評論家選擇電影獎;zh-hk:影評人選擇大獎;zh-sg:影评人票选奖;zh-cn:评论家选择电影奖;"
+    },
+    {
+      "original": "Grammy",
+      "conv": "zh:格萊美;zh-cn:格莱美;zh-tw:葛萊美;zh-hk:格林美;zh-mo:格林美;zh-sg:格莱美;zh-my:格林美;"
+    },
+    {
+      "original": "César Awards",
+      "conv": "zh-hans:凯撒奖;zh-tw:凱薩獎;zh-hk:凱撒獎;"
+    },
+    {
+      "original": "César Awards",
+      "conv": "zh-hans:凯撒电影奖;zh-tw:凱薩電影獎;zh-hk:凱撒電影獎;"
+    },
+    {
+      "original": "Disney",
+      "conv": "zh:迪斯尼;zh-hant:迪士尼;zh-my:迪士尼;zh-sg:迪士尼;"
+    },
+    {
+      "original": "DreamWorks",
+      "conv": "zh-cn:梦工厂;zh-hk:夢工場;zh-tw:夢工廠;zh-sg:梦工厂"
+    },
+    {
+      "original": "Fox",
+      "conv": "zh-cn:福克斯电影;zh-tw:福斯電影;zh-hk:霍士電影;zh-sg:福斯电影;"
+    },
+    {
+      "original": "Fox",
+      "conv": "zh-cn:福克斯影业;zh-tw:福斯影業;zh-hk:霍士影業;zh-sg:福斯影业;"
+    },
+    {
+      "original": "Fox",
+      "conv": "zh-cn:福克斯公司;zh-tw:福斯公司;zh-hk:霍士公司;zh-sg:福斯公司;"
+    },
+    {
+      "original": "Fox",
+      "conv": "zh-cn:世纪福克斯;zh-tw:世紀福斯;zh-hk:世紀霍士;zh-sg:世纪福斯;"
+    },
+    {
+      "original": "Illumination Entertainment",
+      "conv": "zh-cn:照明娱乐;zh-hk:光映娛樂;zh-tw:照明娛樂;zh-sg:照明娱乐;"
+    },
+    {
+      "original": "Industrial Light & Magic",
+      "conv": "zh-cn:工业光魔;zh-hk:光影魔幻工業;zh-tw:光影魔幻工業;zh-sg:工业光魔;"
+    },
+    {
+      "original": "Lucasfilm",
+      "conv": "zh-hans:卢卡斯电影;zh-hk:魯卡斯電影;zh-tw:盧卡斯電影;"
+    },
+    {
+      "original": "Lucasfilm",
+      "conv": "zh-hans:卢卡斯影业;zh-hk:魯卡斯影業;zh-tw:盧卡斯影業;"
+    },
+    {
+      "original": "Metro-Goldwyn-Mayer",
+      "conv": "zh-hk:美高梅;zh-tw:米高梅;zh-hans:米高梅;"
+    },
+    {
+      "original": "Pixar Animation Studios",
+      "conv": "zh-hans:皮克斯动画工作室;zh-tw:皮克斯動畫工作室;zh-hk:彼思動畫製作室;"
+    },
+    {
+      "original": "Pixar",
+      "conv": "zh-hans:皮克斯;zh-tw:皮克斯;zh-hk:彼思;"
+    },
+    {
+      "original": "Touchstone",
+      "conv": "zh-hans:试金石;zh-tw:正金石;zh-hk:試金石;"
+    },
+    {
+      "original": "United International Pictures",
+      "conv": "zh-cn:联合国际影业;zh-tw:聯合國際影業;zh-sg:联邦影业;"
+    },
+    {
+      "original": "3-D film",
+      "conv": "zh:三維電影;zh-cn:三维电影;zh-sg:3D电影;zh-my:3D电影;zh-hant:3D電影;"
+    },
+    {
+      "original": "3D computer",
+      "conv": "zh-cn:三维计算机;zh-sg:3D电脑;zh-my:3D电脑;zh-hant:3D電腦;"
+    },
+    {
+      "original": "Academy of *",
+      "conv": "电影艺术与科学学院=>zh-tw:影藝學院;电影艺术与科学学院=>zh-hk:影藝學院;电影艺术与科学学院=>zh-mo:影藝學院;电影艺术与科学学院=>zh-sg:影艺学院;电影艺术与科学学院=>zh-my:影艺学院;"
+    },
+    {
+      "original": "The Academy of Motion Picture Arts and Sciences",
+      "conv": "zh:美國電影藝術與科學學院;zh-cn:美国电影艺术与科学学院;zh-hant:美國影藝學院;zh-sg:美国影艺学院;zh-my:美国影艺学院;"
+    },
+    {
+      "original": "attendance rate",
+      "conv": "上座率=>zh-hk:入座率;上座率=>zh-mo:入座率;入座率=>zh-cn:上座率;"
+    },
+    {
+      "original": "audio track",
+      "conv": "zh-hk:聲軌;zh-tw:音軌;zh-hans:音轨;"
+    },
+    {
+      "original": "Bollywood",
+      "conv": "zh-hans:宝莱坞;zh-hk:波里活;zh-tw:寶萊塢;"
+    },
+    {
+      "original": "Cahiers du Cinéma",
+      "conv": "zh-cn:电影手册;zh-hant:電影筆記;zh-sg:电影笔记;zh-my:电影笔记;"
+    },
+    {
+      "original": "digital movie / TV",
+      "conv": "zh:數字電;zh-tw:數位電;zh-hk:數碼電;zh-sg:数码电;zh-my:数码电;zh-cn:数字电;"
+    },
+    {
+      "original": "digital remastering",
+      "conv": "zh:數字修復;zh-tw:數位修復;zh-hk:數碼修復;zh-sg:数码修复;zh-my:数码修复;zh-cn:数字修复;"
+    },
+    {
+      "original": "digital technology",
+      "conv": "zh:數字技術;zh-tw:數位科技;zh-hk:數碼技術;zh-sg:数码科技;zh-my:数码科技;zh-cn:数字技术;"
+    },
+    {
+      "original": "digitalization",
+      "conv": "zh:數字化;zh-tw:數位化;zh-hk:數碼化;zh-sg:数码化;zh-my:数码化;zh-cn:数字化;"
+    },
+    {
+      "original": "dolby digital",
+      "conv": "zh:杜比數字;zh-tw:杜比數位;zh-hk:杜比數碼;zh-sg:杜比数码;zh-my:杜比数码;zh-cn:杜比数字;"
+    },
+    {
+      "original": "goof",
+      "conv": "zh-hk:穿崩;zh-hans:穿帮;zh-tw:穿幫;"
+    },
+    {
+      "original": "hand-held shooting / camera",
+      "conv": "zh-hk:手提攝;zh-tw:手持攝;zh-hans:手持摄;"
+    },
+    {
+      "original": "laureate",
+      "conv": "zh:獲得者;zh-cn:获得者;zh-hant:得主;zh-sg:得主;zh-my:得主;"
+    },
+    {
+      "original": "lensing ceremony",
+      "conv": "zh:開機;zh-cn:开机;zh-hant:開鏡;zh-sg:开镜;zh-my:开镜;開機=>zh-tw:開機;开机=>zh-tw:開機;"
+    },
+    {
+      "original": "limited release",
+      "conv": "zh:有限發行;zh-cn:有限发行;zh-hans:限量发行;zh-hant:限量發行;"
+    },
+    {
+      "original": "limited release",
+      "conv": "zh:有限放映;zh-cn:有限上映;zh-hans:限量放映;zh-hant:限量放映;"
+    },
+    {
+      "original": "narrative film",
+      "conv": "故事片=>zh-tw:劇情片;"
+    },
+    {
+      "original": "optical disc",
+      "conv": "zh:光盤;zh-cn:光盘;zh-sg:光碟;zh-my:光碟;zh-tw:光碟;光碟片=>zh-cn:光盘;"
+    },
+    {
+      "original": "première",
+      "conv": "首映式=>zh-hk:首映禮;首映式=>zh-mo:首映禮;首映式=>zh-tw:首映典禮;首映式=>zh-sg:首映礼;首映式=>zh-my:首映礼;"
+    },
+    {
+      "original": "preview",
+      "conv": "zh:點映;zh-cn:点映;zh-tw:點映（口碑場）;zh-hk:點映（優先場）;"
+    },
+    {
+      "original": "preview",
+      "conv": "点映=>zh-my:预映;点映=>zh-sg:预映;點映=>zh-my:预映;點映=>zh-sg:预映;"
+    },
+    {
+      "original": "preview",
+      "conv": "zh-cn:点映场;zh-tw:口碑場;zh-hk:優先場;zh-my:优先场;zh-sg:优先场;"
+    },
+    {
+      "original": "producer",
+      "conv": "制片人=>zh-hk:監製;制片人=>zh-mo:監製;製片人=>zh-hk:監製;製片人=>zh-mo:監製;"
+    },
+    {
+      "original": "series",
+      "conv": "影集=>zh-hk:片集;影集=>zh-mo:片集;影集=>zh-cn:剧集;zh-hant:電影集團;zh-hans:电影集团;"
+    },
+    {
+      "original": "shooting",
+      "conv": "摄像=>zh-tw:攝影;摄像=>zh-hk:攝影;摄像=>zh-mo:攝影;摄像机=>zh-hk:攝錄機;摄像机=>zh-mo:攝錄機;摄像头=>zh-tw:攝影機;摄像头=>zh-hk:攝影機;摄像头=>zh-mo:攝影機;"
+    },
+    {
+      "original": "surround sound",
+      "conv": "zh-hk:環迴聲;zh-tw:環繞聲;zh-cn:环绕声;"
+    },
+    {
+      "original": "surround sound",
+      "conv": "zh-hk:環迴立體聲;zh-tw:環繞立體聲;zh-cn:环绕立体声;"
+    },
+    {
+      "original": "thriller",
+      "conv": "zh-tw:驚悚;zh-hans:惊悚;zh-hk:驚慄;"
+    },
+    {
+      "original": "videotape",
+      "conv": "zh-hant:錄影帶;zh-sg:录影带;zh-my:录影带;zh-cn:录像带;"
+    },
+    {
+      "original": "VR",
+      "conv": "zh:虛擬現實;zh-cn:虚拟现实;zh-my:虚拟实境;zh-my:虚拟实境;zh-hant:虛擬實境;"
+    },
+    {
+      "original": "web edition",
+      "conv": "zh-tw:網路版;zh-hk:網絡版;zh-hans:网络版;"
+    },
+    {
+      "original": "web series / film",
+      "conv": "zh-tw:網路電;zh-hk:網絡電;zh-hans:网络电;"
+    },
+    {
+      "original": "widescreen",
+      "conv": "zh-hk:闊銀幕;zh-tw:寬銀幕;zh-hans:宽银幕;"
+    },
+    {
+      "original": "wrap",
+      "conv": "zh-tw:殺青;zh-hans:杀青;zh-hk:煞科;"
+    }
+  ]
+}

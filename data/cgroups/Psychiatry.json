@@ -1,0 +1,315 @@
+{
+  "name": "Psychiatry",
+  "description": "精神病学",
+  "path": "Module:CGroup/Psychiatry",
+  "rules": [
+    {
+      "original": "symptom",
+      "conv": "zh-cn:症状; zh-hk:徵狀; zh-tw:症狀;"
+    },
+    {
+      "original": "syndrome",
+      "conv": "zh-cn:综合征; zh-hk:綜合症; zh-tw:症候群;"
+    },
+    {
+      "original": "prevalence",
+      "conv": "zh-cn:患病率; zh-tw:盛行率;"
+    },
+    {
+      "original": "ICD",
+      "conv": "zh-cn:疾病和有关健康问题的国际统计分类; zh-hk:疾病和有關健康問題的國際統計分類; zh-tw:國際疾病與相關健康問題統計分類;"
+    },
+    {
+      "original": "DSM",
+      "conv": "zh-cn:精神障碍诊断与统计手册; zh-tw:精神疾病診斷與統計手冊;"
+    },
+    {
+      "original": "neurodevelopmental disorders",
+      "conv": "zh-cn:神经发育障碍; zh-tw:神經發展疾患;"
+    },
+    {
+      "original": "autism",
+      "conv": "zh-cn:孤独症; zh-tw:自閉症; zh-hans:自闭症;"
+    },
+    {
+      "original": "autism spectrum",
+      "conv": "zh-cn:孤独症谱系; zh-hk:自閉症譜系; zh-tw:自閉症類群;"
+    },
+    {
+      "original": "Asperger",
+      "conv": "zh-cn:阿斯伯格; zh-hk:亞氏保加; zh-tw:亞斯伯格;"
+    },
+    {
+      "original": "Aspergers disorder",
+      "conv": "zh-cn:阿斯伯格障碍; zh-hk:亞氏保加症; zh-tw:亞斯伯格症;"
+    },
+    {
+      "original": "Asperger syndrome",
+      "conv": "zh-cn:阿斯伯格综合征; zh-hk:亞氏保加症; zh-tw:亞斯伯格症候群;"
+    },
+    {
+      "original": "Rett syndrome",
+      "conv": "zh-cn:雷特综合征; zh-tw:蕾特氏症;"
+    },
+    {
+      "original": "PDD",
+      "conv": "zh-cn:广泛性发育障碍; zh-tw:廣泛性發展障礙;"
+    },
+    {
+      "original": "ADHD",
+      "conv": "zh-cn:注意缺陷多动障碍; zh-hk:專注力失調或過度活躍症; zh-tw:注意力不足過動症;"
+    },
+    {
+      "original": "psychosis",
+      "conv": "思覺失調=>zh-cn:精神病; 思覺失調=>zh-tw:精神病; 思覺失調=>zh-sg:精神病; 思覺失調=>zh-my:精神病;"
+    },
+    {
+      "original": "schizophrenia",
+      "conv": "zh-cn:精神分裂症; zh-hk:精神分裂症; zh-tw:思覺失調症;"
+    },
+    {
+      "original": "thought disorder",
+      "conv": "zh-cn:思维障碍; zh-tw:思想障礙;"
+    },
+    {
+      "original": "schizoaffective disorder",
+      "conv": "zh-cn:分裂情感障碍; zh-tw:情感思覺失調症;"
+    },
+    {
+      "original": "schizoaffective disorder",
+      "conv": "zh-cn:分裂情感性障碍; zh-tw:情感思覺失調症;"
+    },
+    {
+      "original": "delusional disorder",
+      "conv": "zh-cn:妄想障碍; zh-tw:妄想症;"
+    },
+    {
+      "original": "delusional disorder",
+      "conv": "妄想疾患 => zh-cn:妄想障碍;"
+    },
+    {
+      "original": "affective disorder",
+      "conv": "zh-cn:情感障碍; zh-tw:情感性疾患;"
+    },
+    {
+      "original": "depression",
+      "conv": "zh-cn:抑郁; zh-hk:抑鬱; zh-tw:憂鬱;"
+    },
+    {
+      "original": "depressive disorder",
+      "conv": "zh-cn:抑郁障碍; zh-hk:抑鬱障礙; zh-tw:憂鬱性疾患;"
+    },
+    {
+      "original": "depressive disorder",
+      "conv": "zh-cn:抑郁障碍; zh-hk:抑鬱障礙; zh-tw:憂鬱疾患;"
+    },
+    {
+      "original": "melancholia",
+      "conv": "zh-cn:忧郁症; zh-tw:憂鬱病;"
+    },
+    {
+      "original": "MDD",
+      "conv": "zh-cn:重性抑郁障碍; zh-tw:嚴重憂鬱疾患;"
+    },
+    {
+      "original": "dysthymic disorder",
+      "conv": "zh-cn:恶劣心境障碍; zh-tw:神經官能性憂鬱障礙;"
+    },
+    {
+      "original": "persistent depressive disorder",
+      "conv": "zh-cn:持续性抑郁障碍; zh-tw:持續性憂鬱症;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:双相障碍; zh-tw:雙極性障礙;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:双相障碍; zh-tw:雙相症;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-hans:双相障碍; zh-hant:雙相障礙;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:双相情感障碍; zh-tw:雙極性情緒障礙症;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:双相情感障碍; zh-tw:雙極性情感疾患;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:双相情感障碍; zh-tw:雙相情緒障礙症;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:双相情感障碍; zh-tw:雙相情感疾患;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "zh-cn:躁狂-抑郁性精神病; zh-tw:躁鬱症;"
+    },
+    {
+      "original": "bipolar disorder",
+      "conv": "躁鬱症 => zh-cn:双相障碍;"
+    },
+    {
+      "original": "cyclothymia",
+      "conv": "zh-cn:环性心境障碍; zh-tw:循環性情感疾患;"
+    },
+    {
+      "original": "mania",
+      "conv": "狂躁 => zh-cn:躁狂;"
+    },
+    {
+      "original": "mania",
+      "conv": "躁狂症 => zh-tw:躁狂;"
+    },
+    {
+      "original": "anxiety disorder",
+      "conv": "zh-cn:焦虑障碍; zh-tw:焦慮症;"
+    },
+    {
+      "original": "GAD",
+      "conv": "zh-cn:广泛性焦虑症; zh-tw:廣泛性焦慮疾患;"
+    },
+    {
+      "original": "agoraphobia",
+      "conv": "zh:广场恐怖症; zh-cn:场所恐惧症; zh-hk:廣場恐懼症; zh-tw:特定場所畏懼症;"
+    },
+    {
+      "original": "panic disorder",
+      "conv": "zh-cn:惊恐障碍; zh-tw:恐慌症;"
+    },
+    {
+      "original": "panic attack",
+      "conv": "zh-cn:惊恐发作; zh-tw:恐慌發作;"
+    },
+    {
+      "original": "specific phobia",
+      "conv": "zh-cn:特定恐怖症; zh-tw:特定對象畏懼症; zh-sg:特定对象畏惧症;"
+    },
+    {
+      "original": "specific phobia",
+      "conv": "zh:特定的恐怖; zh-cn:特定恐惧症; zh-tw:特定對象畏懼症; zh-sg:特定对象畏惧症;"
+    },
+    {
+      "original": "social anxiety disorder",
+      "conv": "zh-cn:社交焦虑障碍; zh-hk:社交恐懼症; zh-tw:社交焦慮症;"
+    },
+    {
+      "original": "hoarding disorder",
+      "conv": "zh-cn:囤积障碍; zh-tw:儲物症;"
+    },
+    {
+      "original": "PTSD",
+      "conv": "zh-cn:创伤后应激障碍; zh-tw:創傷後壓力症;"
+    },
+    {
+      "original": "complex PTSD",
+      "conv": "zh:复杂性创伤后应激障碍; zh-cn:复合性创伤后应激障碍; zh-tw:複雜性創傷後壓力症候群;"
+    },
+    {
+      "original": "dissociative disorder",
+      "conv": "zh-cn:分离障碍; zh-tw:解離症;"
+    },
+    {
+      "original": "dissociative identity disorder",
+      "conv": "zh-cn:分离性身份障碍; zh-tw:解離性身分疾患; zh-hk:解離性身份疾患;"
+    },
+    {
+      "original": "dissociative amnesia",
+      "conv": "zh-cn:分离性遗忘症; zh-tw:解離性失憶症;"
+    },
+    {
+      "original": "bulimia nervosa",
+      "conv": "zh-cn:神经性贪食; zh-tw:心因性暴食症;"
+    },
+    {
+      "original": "bulimia nervosa",
+      "conv": "zh-cn:神经性贪食症; zh-tw:心因性暴食症;"
+    },
+    {
+      "original": "bulimia nervosa",
+      "conv": "暴食症 => zh-cn:神经性贪食;"
+    },
+    {
+      "original": "binge eating disorder",
+      "conv": "zh-cn:暴食障碍; zh-tw:嗜食症;"
+    },
+    {
+      "original": "kleptomania",
+      "conv": "zh-cn:偷窃狂; zh-tw:竊盜癖;"
+    },
+    {
+      "original": "intermittent explosive disorder",
+      "conv": "zh-cn:间歇性暴怒障碍; zh-tw:間歇性暴怒症;"
+    },
+    {
+      "original": "personality disorder",
+      "conv": "人格疾患 => zh-cn:人格障碍;"
+    },
+    {
+      "original": "personality disorder",
+      "conv": "人格違常 => zh-cn:人格障碍;"
+    },
+    {
+      "original": "personality disorder",
+      "conv": "人格障礙症 => zh-cn:人格障碍;"
+    },
+    {
+      "original": "schizoid personality disorder",
+      "conv": "zh-cn:分裂样人格障碍; zh-tw:孤僻型人格障礙症;"
+    },
+    {
+      "original": "schizotypal personality disorder",
+      "conv": "分裂型人格 => zh-tw:思覺失調人格障礙症;"
+    },
+    {
+      "original": "schizotypal personality disorder",
+      "conv": "zh-cn:分裂型人格障碍; zh-tw:思覺失調人格障礙症;"
+    },
+    {
+      "original": "schizotypal disorder",
+      "conv": "zh-cn:分裂型障碍; zh-tw:思覺失調障礙症;"
+    },
+    {
+      "original": "HPD",
+      "conv": "表演型人格 => zh-tw:做作型人格疾患;"
+    },
+    {
+      "original": "histrionic personality disorder",
+      "conv": "zh-cn:表演型人格障碍; zh-tw:做作型人格疾患;"
+    },
+    {
+      "original": "voyeurism",
+      "conv": "zh-cn:窥阴症; zh-tw:窺視症;"
+    },
+    {
+      "original": "frotteurism",
+      "conv": "zh-cn:摩擦症; zh-tw:觸磨症;"
+    },
+    {
+      "original": "factitious disorder imposed on another",
+      "conv": "zh-cn:对他人的做作性障碍; zh-tw:代理型孟喬森症候群;"
+    },
+    {
+      "original": "factitious disorder imposed on self",
+      "conv": "zh-cn:对自身的做作性障碍; zh-tw:孟喬森症候群;"
+    },
+    {
+      "original": "amnesia",
+      "conv": "失憶症 => zh-cn:健忘症;"
+    },
+    {
+      "original": "amnesia",
+      "conv": "遗忘症 => zh-tw:健忘症;"
+    },
+    {
+      "original": "dementia",
+      "conv": "zh-cn:痴呆; zh-hk:認知障礙症; zh-mo:腦退化症; zh-tw:失智症; zh-hant:癡呆;"
+    }
+  ]
+}

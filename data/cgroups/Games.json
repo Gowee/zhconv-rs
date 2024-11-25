@@ -716,10 +716,6 @@
       "conv": "zh-cn:音频; zh-tw:音訊; zh-hk:音頻;"
     },
     {
-      "original": "video",
-      "conv": "zh-tw:影片; zh-hk:視像; zh-cn:视频; zh-mo:視頻; zh-sg:视频;"
-    },
-    {
       "original": "audio-video",
       "conv": "zh-cn:音视频; zh-tw:音視訊; zh-hk:音視頻;"
     },
@@ -754,62 +750,6 @@
     {
       "original": "floopy disk drive",
       "conv": "软盘驱动器=>zh-tw:軟碟機; 软盘驱动器=>zh-hk:磁碟機; 软盘驱动器=>zh-mo:磁碟機;"
-    },
-    {
-      "original": "final 32",
-      "conv": "zh-hk:32強賽; zh-cn:十六分之一决赛; zh-tw:32強賽;"
-    },
-    {
-      "original": "final 16",
-      "conv": "zh-hk:16強賽; zh-cn:八分之一决赛; zh-tw:16強賽;"
-    },
-    {
-      "original": "quarterfinal",
-      "conv": "zh-hk:八強賽; zh-cn:四分之一决赛; zh-tw:半準決賽;"
-    },
-    {
-      "original": "semifinal",
-      "conv": "zh-hk:準決賽; zh-cn:半决赛; zh-tw:準決賽;"
-    },
-    {
-      "original": "first round",
-      "conv": "zh-cn:第一轮; zh-hk:第一圈; zh-tw:第一輪;"
-    },
-    {
-      "original": "second round",
-      "conv": "zh-cn:第二轮; zh-hk:第二圈; zh-tw:第二輪;"
-    },
-    {
-      "original": "third round",
-      "conv": "zh-cn:第三轮; zh-hk:第三圈; zh-tw:第三輪;"
-    },
-    {
-      "original": "4th round",
-      "conv": "zh-cn:第四轮; zh-hk:第四圈; zh-tw:第四輪;"
-    },
-    {
-      "original": "5th round",
-      "conv": "zh-cn:第五轮; zh-hk:第五圈; zh-tw:第五輪;"
-    },
-    {
-      "original": "6th round",
-      "conv": "zh-cn:第六轮; zh-hk:第六圈; zh-tw:第六輪;"
-    },
-    {
-      "original": "7th round",
-      "conv": "zh-cn:第七轮; zh-hk:第七圈; zh-tw:第七輪;"
-    },
-    {
-      "original": "8th round",
-      "conv": "zh-cn:第八轮; zh-hk:第八圈; zh-tw:第八輪;"
-    },
-    {
-      "original": "9th round",
-      "conv": "zh-cn:第九轮; zh-hk:第九圈; zh-tw:第九輪;"
-    },
-    {
-      "original": "10th round",
-      "conv": "zh-cn:第十轮; zh-hk:第十圈; zh-tw:第十輪;"
     },
     {
       "original": "alternate reality game",
@@ -1080,6 +1020,18 @@
       "conv": "zh-cn:堡垒之夜; zh-tw:要塞英雄;"
     },
     {
+      "original": "Ghost of Tsushima",
+      "conv": "zh-cn:对马岛之魂; zh-tw:對馬戰鬼;"
+    },
+    {
+      "original": "Gorogoa",
+      "conv": "zh-cn:画中世界; zh-tw:圖中畫;"
+    },
+    {
+      "original": "Grounded",
+      "conv": "zh-cn:禁闭求生; zh-tw:微小世界生存戰;"
+    },
+    {
       "original": "Heavenly Sword",
       "conv": "zh-cn:天剑; zh-tw:玄天神劍;"
     },
@@ -1153,11 +1105,15 @@
     },
     {
       "original": "Ryu ga Gotoku",
-      "conv": "zh-cn:如龙; zh-tw:人中之龍;"
+      "conv": "zh-cn:人中之龙; zh-tw:人中之龍;"
     },
     {
       "original": "Saints Row",
       "conv": "zh-cn:黑道圣徒; zh-tw:黑街聖徒;"
+    },
+    {
+      "original": "Sekiro: Shadows Die Twice",
+      "conv": "zh-cn:只狼：影逝二度; zh-tw:隻狼：暗影雙死; zh-hk:隻狼：影逝二度;"
     },
     {
       "original": "Silent Hill",
@@ -1240,6 +1196,10 @@
       "conv": "zh-cn:极限脱出ADV 善人死亡; zh-hant:極限逃脫ADV 好人不長命;"
     },
     {
+      "original": "AI: The Somnium Files",
+      "conv": "zh-cn:AI：梦境档案; zh-tw:AI：夢境檔案; zh-hk:AI：夢境檔案;"
+    },
+    {
       "original": "Dead or Alive",
       "conv": "zh-cn:死或生; zh-tw:生死格鬥;"
     },
@@ -1269,7 +1229,15 @@
     },
     {
       "original": "Street Fighter",
-      "conv": "zh-cn:街头霸王; zh-tw:快打旋風; zh-hk:街頭霸王;"
+      "conv": "zh-cn:街头霸王; zh-hk:街頭霸王;"
+    },
+    {
+      "original": "Street Fighter",
+      "conv": "街头霸王=>zh-tw:快打旋風;"
+    },
+    {
+      "original": "Street Fighter",
+      "conv": "街頭霸王=>zh-tw:快打旋風;"
     },
     {
       "original": "Vampire",
@@ -1328,6 +1296,10 @@
       "conv": "zh-cn:瓦力欧制造; zh-tw:瓦利歐製造; zh-hk:瓦利歐製造;"
     },
     {
+      "original": "Marienbad",
+      "conv": "zh-cn:玛丽安巴德; zh-tw:馬倫巴;"
+    },
+    {
       "original": "Pac-Man",
       "conv": "吃豆人=>zh-hk:食鬼; 吃豆人=>zh-tw:小精靈;"
     },
@@ -1345,7 +1317,7 @@
     },
     {
       "original": "Taiko no Tatsujin",
-      "conv": "zh-cn:太鼓达人; zh-tw:太鼓之達人;"
+      "conv": "zh-cn:太鼓之达人; zh-tw:太鼓之達人;"
     },
     {
       "original": "Carbon",
@@ -1498,6 +1470,10 @@
     {
       "original": "Pro Evolution Soccer",
       "conv": "zh-cn:实况足球; zh-hk:實況足球; zh-sg:实况足球; zh-tw:世界足球競賽;"
+    },
+    {
+      "original": "Riders Republic",
+      "conv": "zh-tw:極限共和國;zh-cn:极限国度;極限國度=>zh-tw:極限共和國"
     },
     {
       "original": "Skate",
@@ -1740,10 +1716,6 @@
       "conv": "zh-cn:勇者斗恶龙怪兽篇; zh-hk:勇者鬥惡龍怪獸篇; zh-tw:勇者鬥惡龍 怪獸仙境;"
     },
     {
-      "original": "Dragon Quest",
-      "conv": "zh-hans:勇者斗恶龙; zh-hant:勇者鬥惡龍;"
-    },
-    {
       "original": "Dungeon Siege",
       "conv": "zh-cn:地牢围攻; zh-tw:末日危城;"
     },
@@ -1856,6 +1828,10 @@
       "conv": "zh-cn:废土;zh-tw:荒野遊俠;"
     },
     {
+      "original": "Hogwarts Legacy",
+      "conv": "zh-cn:霍格沃茨之遗;zh-hk:霍格華茲的傳承;zh-tw:霍格華茲的傳承;"
+    },
+    {
       "original": "Roller Coaster",
       "conv": "zh-cn:过山车大亨; zh-tw:模擬樂園;"
     },
@@ -1882,6 +1858,10 @@
     {
       "original": "Plague Inc: Evolved",
       "conv": "zh-cn:瘟疫公司：物竞天择; zh-tw:瘟疫公司：進化;"
+    },
+    {
+      "original": "Minecraft",
+      "conv": "當個創世神=>zh-cn:我的世界;"
     },
     {
       "original": "Age of Empires",
@@ -2428,6 +2408,10 @@
       "conv": "zh-cn:狙击手：幽灵战士; zh-tw:狙擊之王：幽靈戰士;"
     },
     {
+      "original": "Spacewar!",
+      "conv": "zh-cn:太空大战！; zh-tw:太空戰爭！;"
+    },
+    {
       "original": "Star Wars",
       "conv": "zh-cn:星球大战; zh-hk:星球大戰; zh-tw:星際大戰; zh-sg:星际大战;"
     },
@@ -2472,6 +2456,10 @@
       "conv": "zh-cn:无畏契约; zh-hk:VALORANT;  zh-tw:特戰英豪;"
     },
     {
+      "original": "World of Tanks",
+      "conv": "zh-cn:坦克世界; zh-tw:戰車世界"
+    },
+    {
       "original": "크레이지슈팅 버블파이터",
       "conv": "zh-cn:泡泡战士; zh-hk:泡泡大亂鬥; zh-tw:泡泡大亂鬥;"
     },
@@ -2481,7 +2469,7 @@
     },
     {
       "original": "Five Nights at Freddy's",
-      "conv": "zh-cn:玩具熊的五夜后宮; zh-hk:玩具熊的五夜後宮; zh-tw:玩具熊的五夜驚魂; zh-sg:玩具熊的五夜惊魂;"
+      "conv": "zh-cn:玩具熊的五夜后宫; zh-hk:玩具熊的五夜後宮; zh-tw:佛雷迪的五夜驚魂; zh-sg:玩具熊的五夜惊魂;"
     },
     {
       "original": "ネコぱら",

@@ -16,6 +16,14 @@
       "conv": "zh-cn:中央商务区; zh-tw:中心商業區; zh-hk:核心商業區; zh-my:中央商务区; zh-sg:中央商业区;"
     },
     {
+      "original": "CBD",
+      "conv": "商業中心區=>zh-cn:中央商务区; 商業中心區=>zh-tw:中心商業區; 商業中心區=>zh-hk:核心商業區; 商業中心區=>zh-mo:核心商業區; 商業中心區=>zh-my:中央商务区; 商業中心區=>zh-sg:中央商业区;"
+    },
+    {
+      "original": "CBD",
+      "conv": "商业中心区=>zh-cn:中央商务区; 商业中心区=>zh-tw:中心商業區; 商业中心区=>zh-hk:核心商業區; 商业中心区=>zh-mo:核心商業區; 商业中心区=>zh-my:中央商务区; 商业中心区=>zh-sg:中央商业区;"
+    },
+    {
       "original": "gentrification",
       "conv": "zh-cn:士绅化; zh-tw:仕紳化; zh-hk:士紳化;"
     },
@@ -25,19 +33,19 @@
     },
     {
       "original": "megalopolis",
-      "conv": "城市群"
+      "conv": "zh-hans:城市群; zh-hant:城市群;"
     },
     {
       "original": "metropolis",
-      "conv": "大都市"
+      "conv": "zh-hans:大都市; zh-hant:大都市;"
     },
     {
       "original": "metropolis",
-      "conv": "大城市"
+      "conv": "zh-hans:大城市; zh-hant:大城市;"
     },
     {
       "original": "metropolitan area",
-      "conv": "都市圈"
+      "conv": "zh-hans:都市圈; zh-hant:都市圈;"
     },
     {
       "original": "metropolitan area",
@@ -69,11 +77,11 @@
     },
     {
       "original": "The Image of the City",
-      "conv": "城市意象"
+      "conv": "zh-hans:城市意象; zh-hant:城市意象;"
     },
     {
       "original": "The Image of the City",
-      "conv": "城市的意象"
+      "conv": "zh-hans:城市的意象; zh-hant:城市的意象;"
     },
     {
       "original": "urban",
@@ -81,7 +89,7 @@
     },
     {
       "original": "urban growth boundary",
-      "conv": "zh-cn:城市增长边界; zh-tw:都市成長邊界; zh-hk:城市增長邊界;"
+      "conv": "zh-cn:增长边界; zh-tw:成長邊界; zh-hk:增長邊界;"
     },
     {
       "original": "urban planning",
@@ -137,7 +145,7 @@
     },
     {
       "original": "smart city",
-      "conv": "智慧城市"
+      "conv": "zh-hans:智慧城市; zh-hant:智慧城市;"
     },
     {
       "original": "Smart Growth",
@@ -184,18 +192,6 @@
       "conv": "zh-cn:脚手架; zh-hk:棚架; zh-tw:鷹架;"
     },
     {
-      "original": "bus",
-      "conv": "zh-tw:公車; zh-cn:公交车; zh-hk:巴士; zh-sg:巴士; zh-mo:巴士; zh-my:巴士;"
-    },
-    {
-      "original": "bike",
-      "conv": "zh-cn:自行车; zh-tw:腳踏車; zh-hk:單車; zh-sg:脚车; zh-my:脚车（自行车）;"
-    },
-    {
-      "original": "transit-oriented",
-      "conv": "zh-cn:公共交通导向; zh-hk:公共運輸導向; zh-tw:大眾運輸導向;"
-    },
-    {
       "original": "Corbusier",
       "conv": "zh-tw:柯比意; zh-cn:柯布西耶; zh-hk:科比意;"
     },
@@ -209,7 +205,7 @@
     },
     {
       "original": "Jane Jacobs",
-      "conv": "珍·雅各布斯"
+      "conv": "zh-hans:珍·雅各布斯; zh-hant:珍·雅各布斯;"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "name": "IE Places",
+  "description": "愛爾蘭地名",
+  "path": "Module:CGroup/IE Places",
+  "rules": [
+    {
+      "original": "Chiarraí",
+      "conv": "zh:凱里;zh-tw:克立;zh-cn:凯里;"
+    },
+    {
+      "original": "Dhún na nGall",
+      "conv": "zh-hans:多尼戈尔; zh-hant:多尼戈爾; zh-tw:多尼哥;"
+    },
+    {
+      "original": "Fine Gall",
+      "conv": "zh-cn:芬戈;zh-tw:芬加爾;"
+    },
+    {
+      "original": "Gaillimh",
+      "conv": "zh-hant:戈爾韋;zh-tw:高威;zh-hk:高威;zh-hans:戈尔韦;"
+    },
+    {
+      "original": "Liatroma",
+      "conv": "zh-hans:利特里姆;zh-hant:利特里姆;zh-tw:利特林;"
+    },
+    {
+      "original": "Leinster",
+      "conv": "zh-hans:伦斯特;zh-hk:利揚;zh-tw:倫斯特;"
+    },
+    {
+      "original": "Loch Garman",
+      "conv": "zh-cn:韦克斯福德; zh-tw:威克斯福; zh-hant:韋克斯福德;"
+    },
+    {
+      "original": "Luimneach",
+      "conv": "zh-cn:利默里克; zh-tw:利麥立克;"
+    },
+    {
+      "original": "Port Láirge",
+      "conv": "zh-hans:沃特福德; zh-tw:瓦特福; zh-hk:禾達福特;"
+    },
+    {
+      "original": "Thiobraid Árann",
+      "conv": "zh-cn:蒂珀雷里;zh-tw:提伯雷立;"
+    }
+  ]
+}

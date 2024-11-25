@@ -1,6 +1,6 @@
 {
   "name": "IT",
-  "description": "-{zh-cn:信息技术; zh-tw:資訊科技;}-",
+  "description": "-{zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;}-",
   "path": "Module:CGroup/IT",
   "rules": [
     {
@@ -9,11 +9,23 @@
     },
     {
       "original": "access",
-      "conv": "zh-cn:访问; zh-tw:存取;"
+      "conv": "存取=>zh-cn:访问; 存取=>zh-tw:存取;"
     },
     {
       "original": "access",
-      "conv": "訪問=>zh-tw:存取; 訪問=>zh-hk:存取; 訪問=>zh-mo:存取;"
+      "conv": "存取權=>zh-cn:访问权; 存取權=>zh-tw:存取權;"
+    },
+    {
+      "original": "access",
+      "conv": "访问权=>zh-cn:访问权; 访问权=>zh-tw:存取權;"
+    },
+    {
+      "original": "access",
+      "conv": "存取權限=>zh-cn:访问权限; 存取權限=>zh-tw:存取權限;"
+    },
+    {
+      "original": "access",
+      "conv": "访问权限=>zh-cn:访问权限; 访问权限=>zh-tw:存取權限;"
     },
     {
       "original": "access control list",
@@ -33,11 +45,11 @@
     },
     {
       "original": "account",
-      "conv": "zh-cn:账号; zh-tw:帳號; zh-hk:賬號;"
+      "conv": "zh-cn:账号; zh-tw:帳號; zh-hk:帳號;"
     },
     {
       "original": "account",
-      "conv": "zh-cn:账户; zh-tw:帳戶; zh-hk:賬戶;"
+      "conv": "zh-cn:账户; zh-tw:帳戶; zh-hk:帳戶;"
     },
     {
       "original": "activation",
@@ -85,7 +97,7 @@
     },
     {
       "original": "album (online)",
-      "conv": "zh-cn:相册; zh-tw:相簿;"
+      "conv": "zh-cn:相册; zh-my:相簿; zh-tw:相簿;"
     },
     {
       "original": "algorithm",
@@ -94,6 +106,14 @@
     {
       "original": "allocation unit",
       "conv": "zh-cn:分配单元; zh-tw:單位配置;"
+    },
+    {
+      "original": "always on display",
+      "conv": "zh-cn:息屏显示; zh-tw:隨顯螢幕;"
+    },
+    {
+      "original": "always on display",
+      "conv": "熄屏显示=>zh-tw:隨顯螢幕; 熄屏显示=>zh-hk:隨顯螢幕; 熄屏显示=>zh-mo:隨顯螢幕;"
     },
     {
       "original": "analog",
@@ -113,19 +133,19 @@
     },
     {
       "original": "AOL",
-      "conv": "zh-cn:美国在线; zh-tw:美國線上;"
+      "conv": "zh:美國在線; zh-cn:美国在线; zh-tw:美國線上;"
     },
     {
       "original": "application",
-      "conv": "zh-cn:应用程序; zh-tw:應用程式;"
+      "conv": "zh:應用程序; zh-cn:应用程序; zh-my:应用程式; zh-hant:應用程式;"
     },
     {
       "original": "application programming interface",
-      "conv": "zh-cn:应用程序接口; zh-tw:應用程式介面;"
+      "conv": "zh:應用程序接口; zh-cn:应用程序接口; zh:应用程式介面; zh-tw:應用程式介面;"
     },
     {
       "original": "archive",
-      "conv": "zh-cn:压缩包; zh-tw:壓縮檔;"
+      "conv": "zh:壓縮包; zh-cn:压缩包; zh-my:压缩档; zh-tw:壓縮檔;"
     },
     {
       "original": "array (RAID)",
@@ -153,7 +173,7 @@
     },
     {
       "original": "Artificial Neural",
-      "conv": "zh-cn:人工神經; zh-tw:類神經;"
+      "conv": "zh:人工神經; zh-cn:人工神经; zh-tw:類神經;"
     },
     {
       "original": "assembler",
@@ -189,7 +209,7 @@
     },
     {
       "original": "asynchrony",
-      "conv": "異步=>zh-hk:非同步; 異步=>zh-mo:非同步;"
+      "conv": "異步=>zh-tw:非同步; 異步=>zh-hk:非同步; 異步=>zh-mo:非同步;"
     },
     {
       "original": "average bitrate",
@@ -233,7 +253,7 @@
     },
     {
       "original": "augmented reality",
-      "conv": "zh-cn:增强现实; zh-tw:擴增實境; zh-hk:擴張實境;"
+      "conv": "zh:增強現實; zh-cn:增强现实; zh-sg:扩增实境; zh-tw:擴增實境; zh-hk:擴張實境;"
     },
     {
       "original": "back chaining",
@@ -297,7 +317,7 @@
     },
     {
       "original": "big data",
-      "conv": "zh-cn:大数据; zh-tw:大數據;"
+      "conv": "zh-cn:大数据; zh-hk:大數據; zh-tw:巨量資料;"
     },
     {
       "original": "Bill Gates",
@@ -517,15 +537,23 @@
     },
     {
       "original": "blog",
-      "conv": "zh-cn:博客; zh-tw:部落格; zh-hk:網誌; zh-sg:部落格;"
+      "conv": "zh-cn:博客; zh-tw:部落格; zh-hk:網誌; zh-my:部落格;"
+    },
+    {
+      "original": "bluetooth",
+      "conv": "藍芽=>zh-hans:蓝牙; 藍芽=>zh-hant:藍牙; 藍芽=>zh-cn:蓝牙; 藍芽=>zh-tw:藍牙; 藍芽=>zh-hk:藍牙;"
+    },
+    {
+      "original": "bluetooth",
+      "conv": "蓝芽=>zh-hans:蓝牙; 蓝芽=>zh-hant:藍牙; 蓝芽=>zh-cn:蓝牙; 蓝芽=>zh-tw:藍牙; 蓝芽=>zh-hk:藍牙;"
+    },
+    {
+      "original": "Blue Screen",
+      "conv": "zh-hant:藍屏; zh-cn:蓝屏; zh-tw:藍白畫面; zh-hk:藍畫面;"
     },
     {
       "original": "Blue Screen of Death",
-      "conv": "zh-cn:蓝屏死机; zh-tw:藍白當機; zh-hk:藍畫面死機;"
-    },
-    {
-      "original": "boot",
-      "conv": "開機=>zh-cn:引导; 開機=>zh-tw:啟動; 開機=>zh-hk:開機;"
+      "conv": "zh-hant:藍屏死機; zh-cn:蓝屏死机; zh-tw:藍白當機; zh-hk:藍畫面死機;"
     },
     {
       "original": "boot disk",
@@ -545,11 +573,11 @@
     },
     {
       "original": "brain-machine interface",
-      "conv": "zh-cn:脑机接口; zh-tw:人機介面;"
+      "conv": "zh-cn:脑机接口; zh-my:脑机介面; zh-tw:人機介面;"
     },
     {
       "original": "Broadband",
-      "conv": "zh-cn:宽带; zh-tw:寬頻;"
+      "conv": "zh:寬帶; zh-cn:宽带; zh-my:宽频; zh-tw:寬頻;"
     },
     {
       "original": "Bubble sort",
@@ -569,7 +597,7 @@
     },
     {
       "original": "build-in",
-      "conv": "zh-cn:内置; zh-tw:內建;"
+      "conv": "zh:內置; zh-cn:内置; zh-sg:内建; zh-tw:內建;"
     },
     {
       "original": "Built-in",
@@ -578,10 +606,6 @@
     {
       "original": "Built-in",
       "conv": "自帶=>zh-tw:內建; 自帶=>zh-hk:內建; 自帶=>zh-mo:內建;"
-    },
-    {
-      "original": "Built-in",
-      "conv": "內置=>zh-tw:內建"
     },
     {
       "original": "burn",
@@ -597,11 +621,7 @@
     },
     {
       "original": "byte",
-      "conv": "zh-cn:字节; zh-tw:位元組;"
-    },
-    {
-      "original": "byte",
-      "conv": "字節=>zh-tw:位元組; 字節=>zh-hk:位元組; 字節=>zh-mo:位元組;"
+      "conv": "zh:字節; zh-cn:字节; zh-tw:位元組; zh-hk:位元組; zh-mo:位元組;"
     },
     {
       "original": "boolean",
@@ -617,11 +637,7 @@
     },
     {
       "original": "cache",
-      "conv": "zh-cn:缓存; zh-tw:快取; zh-hk:快取;"
-    },
-    {
-      "original": "cache",
-      "conv": "緩存=>zh-tw:快取;"
+      "conv": "zh:緩存; zh-cn:缓存; zh-tw:快取; zh-hk:快取;"
     },
     {
       "original": "cache memory",
@@ -793,19 +809,23 @@
     },
     {
       "original": "Chief Executive Officer (CEO)",
-      "conv": "zh-cn:首席执行官; zh-tw:執行長; zh-hk:行政總裁;"
+      "conv": "zh:首席執行官; zh-cn:首席执行官; zh-sg:行政总裁; zh-my:总执行长; zh-tw:執行長; zh-hk:行政總裁;"
     },
     {
       "original": "Chief Information Officer (CIO)",
-      "conv": "zh-cn:首席信息官; zh-tw:資訊長; zh-hk:資訊總監;"
+      "conv": "zh-cn:首席信息官; zh-my:总资讯长; zh-tw:資訊長; zh-hk:資訊總監;"
     },
     {
       "original": "Chief Operating Officer (COO)",
-      "conv": "zh-cn:首席运营官; zh-tw:營運長; zh-hk:營運總監;"
+      "conv": "zh:首席運營官; zh-cn:首席运营官; zh-my:总营运长; zh-tw:營運長; zh-hk:營運總監;"
     },
     {
       "original": "Chief Technology Officer (CTO)",
-      "conv": "zh-cn:首席技术官; zh-tw:技術長;"
+      "conv": "zh:首席技術官; zh-cn:首席技术官; zh-my:总技术长; zh-tw:技術長;"
+    },
+    {
+      "original": "Chief Product Officer (CPO)",
+      "conv": "zh:首席產品官; zh-cn:首席产品官; zh-my:总产品长; zh-tw:產品長;"
     },
     {
       "original": "child class",
@@ -813,7 +833,7 @@
     },
     {
       "original": "chip",
-      "conv": "zh-cn:芯片; zh-tw:晶片;"
+      "conv": "zh-cn:芯片; zh-my:晶片; zh-tw:晶片;"
     },
     {
       "original": "class constructor",
@@ -905,7 +925,7 @@
     },
     {
       "original": "clipboard",
-      "conv": "zh-cn:剪贴板; zh-tw:剪貼簿;"
+      "conv": "zh:剪貼板; zh-cn:剪贴板; zh-my:剪贴簿; zh-tw:剪貼簿;"
     },
     {
       "original": "clock rate",
@@ -920,12 +940,20 @@
       "conv": "時鐘率=>zh-cn:时钟频率; 時鐘率=>zh-sg:时钟频率; 時鐘率=>zh-my:时钟频率;"
     },
     {
+      "original": "clock rate",
+      "conv": "時脈=>zh-cn:主频;"
+    },
+    {
       "original": "cloud computing",
-      "conv": "zh-cn:云计算; zh-tw:雲端運算;"
+      "conv": "zh:雲計算; zh-cn:云计算; zh-tw:雲端運算;"
     },
     {
       "original": "cloud computing storage",
-      "conv": "zh-cn:云存储; zh-tw:雲端儲存;"
+      "conv": "zh-cn:云存储; zh-sg:云储存; zh-my:云端储存; zh-tw:雲端儲存;"
+    },
+    {
+      "original": "cloud data",
+      "conv": "zh:雲數據; zh-cn:云数据; zh-tw:雲端資料; zh-tw:雲端數據;"
     },
     {
       "original": "cluster",
@@ -953,7 +981,7 @@
     },
     {
       "original": "color monitor",
-      "conv": "彩屏=>zh-tw:彩色螢幕; 彩屏=>zh-hk:彩色熒幕; 彩屏=>zh-mo:彩色熒幕;"
+      "conv": "彩屏=>zh-tw:彩色螢幕; 彩屏=>zh-hk:彩色螢幕; 彩屏=>zh-mo:彩色螢幕;"
     },
     {
       "original": "combobox",
@@ -965,7 +993,7 @@
     },
     {
       "original": "communication",
-      "conv": "通訊=>zh-cn:通信; 通訊=>zh-sg:通信; 通訊=>zh-my:通信;"
+      "conv": "zh:通信;zh-hant:通訊;通訊=>zh-cn:通信;"
     },
     {
       "original": "Communicating sequential processes",
@@ -977,15 +1005,15 @@
     },
     {
       "original": "compact disc",
-      "conv": "zh-cn:光盘; zh-tw:光碟;"
+      "conv": "zh:光盤; zh-cn:光盘; zh-sg:光碟; zh-my:光碟; zh-tw:光碟;"
     },
     {
       "original": "compact disc",
-      "conv": "光碟片=>zh-cn:光盘; 光碟片=>zh-sg:光盘; 光碟片=>zh-my:光盘;"
+      "conv": "光碟片=>zh-cn:光盘;"
     },
     {
       "original": "Compact Disc Driver",
-      "conv": "zh-cn:光盘驱动器; zh-tw:光碟機;"
+      "conv": "zh-cn:光盘驱动器; zh-sg:光碟机; zh-my:光碟机; zh-tw:光碟機;"
     },
     {
       "original": "compatible",
@@ -1029,15 +1057,15 @@
     },
     {
       "original": "computer architecture",
-      "conv": "zh-cn:计算机体系结构; zh-tw:電腦架構;"
+      "conv": "zh:計算機體系結構; zh-cn:计算机体系结构; zh-sg:电脑架构; zh-my:电脑架构; zh-tw:電腦架構;"
     },
     {
       "original": "computer programming",
-      "conv": "zh-cn:程序设计; zh-tw:程式設計;"
+      "conv": "zh:程序設計; zh-cn:程序设计; zh-my:程式设计; zh-tw:程式設計;"
     },
     {
       "original": "computer science",
-      "conv": "zh-cn:计算机科学; zh-sg:电脑科学; zh-tw:電腦科學;"
+      "conv": "zh:計算機科學; zh-cn:计算机科学; zh-my:电脑科学; zh-tw:電腦科學;"
     },
     {
       "original": "computer terminal",
@@ -1045,11 +1073,7 @@
     },
     {
       "original": "computer-generated imagery",
-      "conv": "zh-hans:电脑产生图像; zh-hant:電腦合成影像;"
-    },
-    {
-      "original": "computer-generated imagery",
-      "conv": "電腦產生圖像=>zh-tw:電腦合成影像; 電腦產生圖像=>zh-hk:電腦合成影像; 電腦產生圖像=>zh-mo:電腦合成影像;"
+      "conv": "zh:電腦產生圖像; zh-cn:电脑产生图像; zh-sg:电脑合成影像; zh-my:电脑合成影像; zh-hant:電腦合成影像;"
     },
     {
       "original": "concurrency",
@@ -1085,19 +1109,19 @@
     },
     {
       "original": "constructor",
+      "conv": "建構函數=>zh-cn:构造函数; 建構函數=>zh-tw:建構函式;"
+    },
+    {
+      "original": "constructor",
       "conv": "建構子=>zh-cn:构造函数; 建構子=>zh-sg:构造函数; 建構子=>zh-my:构造函数;"
     },
     {
       "original": "contact",
-      "conv": "zh-cn:联系; zh-tw:聯絡;"
+      "conv": "zh-cn:联系; zh-my:联络; zh-tw:聯絡; 連絡=>zh-cn:联系;"
     },
     {
       "original": "contact",
-      "conv": "連絡=>zh-cn:联系; 連絡=>zh-sg:联系; 連絡=>zh-my:联络;"
-    },
-    {
-      "original": "contact",
-      "conv": "zh-cn:联系人; zh-tw:聯絡人;"
+      "conv": "zh:聯繫人; zh-cn:联系人; zh-my:联络人; zh-tw:聯絡人;"
     },
     {
       "original": "content-addressable memory",
@@ -1129,11 +1153,7 @@
     },
     {
       "original": "copyright",
-      "conv": "zh-cn:著作权; zh-tw:著作權; zh-hk:版權; zh-mo:著作權;"
-    },
-    {
-      "original": "copyright",
-      "conv": "版权=>zh-cn:著作权; 版权=>zh-sg:著作权; 版权=>zh-my:著作权; 版权=>zh-tw:著作權; 版权=>zh-mo:著作權;"
+      "conv": "zh:版权; zh-cn:著作权; zh-tw:著作權; zh-hk:版權; zh-mo:著作權;"
     },
     {
       "original": "copyright information",
@@ -1149,15 +1169,23 @@
     },
     {
       "original": "crash",
-      "conv": "zh-cn:死机; zh-tw:當機;"
+      "conv": "zh-hk:死機; zh-cn:死机; zh-my:当机; zh-sg:当机; zh-tw:當機;"
     },
     {
       "original": "create",
-      "conv": "zh-cn:创建; zh-tw:建立;"
+      "conv": "zh:创建; zh-tw:建立;"
     },
     {
       "original": "create",
-      "conv": "創建=>zh-tw:建立; 創建=>zh-hk:建立; 創建=>zh-mo:建立;"
+      "conv": "創建=>zh-tw:建立;"
+    },
+    {
+      "original": "create new",
+      "conv": "zh:创建新; zh-tw:新增;"
+    },
+    {
+      "original": "create new",
+      "conv": "創建新=>zh-tw:新增;"
     },
     {
       "original": "CRT",
@@ -1237,7 +1265,7 @@
     },
     {
       "original": "data frame",
-      "conv": "zh-cn:数据帧; zh-tw:資料框; zh-hk:數據幀;"
+      "conv": "zh-cn:数据帧; zh-tw:資料訊框; zh-hk:數據幀;"
     },
     {
       "original": "data mart",
@@ -1249,23 +1277,15 @@
     },
     {
       "original": "data packet",
-      "conv": "zh-cn:数据包; zh-tw:封包;"
+      "conv": "zh:數據包; zh-cn:数据包; zh-tw:封包;"
     },
     {
       "original": "data packet",
-      "conv": "数据封包=>zh-cn:数据包; 数据封包=>zh-sg:数据包; 数据封包=>zh-my:数据包;"
-    },
-    {
-      "original": "data packet",
-      "conv": "數據封包=>zh-cn:数据包; 數據封包=>zh-sg:数据包; 數據封包=>zh-my:数据包;"
-    },
-    {
-      "original": "data packet",
-      "conv": "資料封包=>zh-cn:数据包; 資料封包=>zh-sg:数据包; 資料封包=>zh-my:数据包;"
+      "conv": "数据封包=>zh-cn:数据包; 數據封包=>zh-cn:数据包; 資料封包=>zh-cn:数据包;"
     },
     {
       "original": "data source",
-      "conv": "zh-cn:数据源; zh-tw:資料來源; zh-hk:數據源;"
+      "conv": "数据源=>zh-cn:数据源; 数据源=>zh-tw:資料來源; 数据源=>zh-hk:數據源;"
     },
     {
       "original": "data type",
@@ -1309,7 +1329,7 @@
     },
     {
       "original": "decode",
-      "conv": "译码=>zh-tw:解碼;"
+      "conv": "译码=>zh-tw:解碼;译码=>zh-sg:解码;译码=>zh-my:解码;"
     },
     {
       "original": "default",
@@ -1369,15 +1389,15 @@
     },
     {
       "original": "desktop computer",
-      "conv": "zh-cn:台式机; zh-tw:桌上型電腦; zh-hk:桌上電腦;"
+      "conv": "zh-cn:台式机; zh-sg:台式电脑; zh-my:台式电脑; zh-tw:桌上型電腦; zh-hk:桌上電腦;"
     },
     {
       "original": "desktop computer",
-      "conv": "桌上型电脑=>zh-cn:台式机; 桌上型电脑=>zh-sg:台式机; 桌上型电脑=>zh-my:台式机; 桌上型电脑=>zh-hk:桌上電腦; 桌上型电脑=>zh-mo:桌上電腦;"
+      "conv": "桌上型电脑=>zh-cn:台式机; 桌上型电脑=>zh-sg:台式电脑; 桌上型电脑=>zh-my:台式电脑; 桌上型电脑=>zh-hk:桌上電腦; 桌上型电脑=>zh-mo:桌上電腦;"
     },
     {
       "original": "desktop computer",
-      "conv": "桌上电脑=>zh-cn:台式机; 桌上电脑=>zh-sg:台式机; 桌上电脑=>zh-my:台式机; 桌上电脑=>zh-tw:桌上型電腦;"
+      "conv": "桌上电脑=>zh-cn:台式机; 桌上电脑=>zh-sg:台式电脑; 桌上电脑=>zh-my:台式电脑; 桌上电脑=>zh-tw:桌上型電腦;"
     },
     {
       "original": "desktop computer",
@@ -1390,10 +1410,6 @@
     {
       "original": "desktop computer",
       "conv": "台式计算机=>zh-tw:桌上型電腦; 台式计算机=>zh-hk:桌上電腦; 台式计算机=>zh-mo:桌上電腦;"
-    },
-    {
-      "original": "desktop computer",
-      "conv": "台式电脑=>zh-tw:桌上型電腦; 台式电脑=>zh-hk:桌上電腦; 台式电脑=>zh-mo:桌上電腦;"
     },
     {
       "original": "desktop computer",
@@ -1425,19 +1441,15 @@
     },
     {
       "original": "destructor",
+      "conv": "解構函數=>zh-cn:析构函数; 解構函數=>zh-tw:解構函式;"
+    },
+    {
+      "original": "destructor",
       "conv": "解構子=>zh-cn:析构函数; 解構子=>zh-sg:析构函数; 解構子=>zh-my:析构函数;"
     },
     {
       "original": "device",
-      "conv": "zh-cn:设备; zh-tw:裝置;"
-    },
-    {
-      "original": "device",
-      "conv": "装置=>zh-cn:设备; 装置=>zh-sg:设备; 装置=>zh-my:设备;"
-    },
-    {
-      "original": "device",
-      "conv": "設備=>zh-tw:裝置; 設備=>zh-hk:裝置; 設備=>zh-mo:裝置;"
+      "conv": "zh:設備; zh-cn:设备; zh-sg:装置; zh-hant:裝置;"
     },
     {
       "original": "dialog box",
@@ -1445,95 +1457,87 @@
     },
     {
       "original": "digital",
-      "conv": "数码=>zh-tw:數位;"
+      "conv": "数码=>zh-tw:數位; 数码=>zh-sg:数码; 数码=>zh-my:数码;"
     },
     {
       "original": "digital",
-      "conv": "數碼=>zh-cn:数字; 數碼=>zh-sg:数字; 數碼=>zh-my:数字; 數碼=>zh-tw:數位;"
+      "conv": "數碼=>zh-cn:数字; 數碼=>zh-sg:数码; 數碼=>zh-my:数码; 數碼=>zh-tw:數位;"
     },
     {
       "original": "digital",
-      "conv": "数位=>zh-hk:數碼; 数位=>zh-mo:數碼;"
+      "conv": "数位=>zh-sg:数码; 数位=>zh-my:数码; 数位=>zh-hk:數碼; 数位=>zh-mo:數碼;"
     },
     {
       "original": "digital",
-      "conv": "數位=>zh-cn:数字; 數位=>zh-sg:数字; 數位=>zh-my:数字; 數位=>zh-hk:數碼; 數位=>zh-mo:數碼;"
+      "conv": "數位=>zh-cn:数字; 數位=>zh-sg:数码; 數位=>zh-my:数码; 數位=>zh-hk:數碼; 數位=>zh-mo:數碼;"
+    },
+    {
+      "original": "digital",
+      "conv": "zh:數字圖像; zh-cn:数字图像; zh-sg:数码图像; zh-tw:數位影像; zh-hk:數碼圖像;"
     },
     {
       "original": "digitalisation",
-      "conv": "zh-cn:数字化; zh-tw:數位化; zh-hk:數碼化;"
-    },
-    {
-      "original": "digital",
-      "conv": "zh-cn:数字图像; zh-tw:數位影像; zh-hk:數碼圖像;"
-    },
-    {
-      "original": "digital",
-      "conv": "zh-cn:数字化; zh-my:数码化; zh-tw:數位化; zh-hk:數碼化;"
+      "conv": "zh:數字化; zh-cn:数字化; zh-sg:数码化; zh-my:数码化; zh-tw:數位化; zh-hk:數碼化;"
     },
     {
       "original": "digital asset",
-      "conv": "zh-cn:数字资产; zh-tw:數位資產; zh-hk:數碼資產;"
+      "conv": "zh:數字資產; zh-cn:数字资产; zh-sg:数码资产; zh-tw:數位資產; zh-hk:數碼資產;"
     },
     {
       "original": "digital broadcasting",
-      "conv": "zh-cn:数字广播; zh-tw:數位廣播; zh-hk:數碼廣播;"
+      "conv": "zh:數字廣播; zh-cn:数字广播; zh-sg:数码广播; zh-my:数码广播; zh-tw:數位廣播; zh-hk:數碼廣播;"
     },
     {
       "original": "digital camera",
-      "conv": "zh-cn:数字相机; zh-my:数码相机; zh-tw:數位相機; zh-hk:數碼相機;"
+      "conv": "zh-cn:数字相机; zh-sg:数码相机; zh-my:数码相机; zh-tw:數位相機; zh-hk:數碼相機;"
     },
     {
       "original": "digital certificates",
-      "conv": "zh-cn:数字证书; zh-tw:數位憑證; zh-hk:數碼證書;"
+      "conv": "zh:數字證書; zh-cn:数字证书; zh-sg:数码证书; zh-tw:數位憑證; zh-hk:數碼證書;"
     },
     {
       "original": "digital distribution",
-      "conv": "zh-cn:数字发行; zh-tw:數位發行; zh-hk:數碼發行;"
+      "conv": "zh:數字發行; zh-cn:数字发行; zh-sg:数码发行; zh-tw:數位發行; zh-hk:數碼發行;"
     },
     {
       "original": "digital identity",
-      "conv": "zh-cn:数字身份; zh-tw:數位身分; zh-hk:數碼身份;"
+      "conv": "zh-cn:数字身份; zh-sg:数码身份; zh-my:数码身份; zh-tw:數位身分; zh-hk:數碼身份;"
     },
     {
       "original": "digital mapping",
-      "conv": "zh-cn:数字测图; zh-tw:數位製圖; zh-hk:數碼製圖;"
+      "conv": "zh-cn:数字测图; zh-my:数码测图; zh-sg:数码制图; zh-tw:數位製圖; zh-hk:數碼製圖;"
+    },
+    {
+      "original": "digital media",
+      "conv": "zh:數字媒體; zh-cn:数字媒体; zh-sg:数码媒体; zh-my:数码媒体; zh-tw:數位媒體; zh-hk:數碼媒體;"
     },
     {
       "original": "digital mobile",
-      "conv": "zh-cn:数字移动; zh-tw:數位行動; zh-hk:數碼流動;"
+      "conv": "zh-cn:数字移动; zh-sg:数码移动; zh-my:数码移动; zh-tw:數位行動; zh-hk:數碼流動;"
     },
     {
       "original": "digital mode",
-      "conv": "zh-cn:数字模式; zh-tw:數位模式; zh-hk:數碼模式;"
+      "conv": "zh-cn:数字模式; zh-sg:数码模式; zh-my:数码模式; zh-tw:數位模式; zh-hk:數碼模式;"
     },
     {
       "original": "digital photo",
-      "conv": "zh-cn:数字照片; zh-tw:數位相片; zh-hk:數碼相片;"
+      "conv": "zh-cn:数字照片; zh-sg:数码照片; zh-my:数码相片; zh-tw:數位相片; zh-hk:數碼相片;"
     },
     {
       "original": "digital right",
-      "conv": "zh-cn:数字版权; zh-tw:數位版權; zh-hk:數碼版權;"
+      "conv": "zh:數字版權; zh-cn:数字版权; zh-my:数码版权; zh-tw:數位版權; zh-hk:數碼版權;"
     },
     {
       "original": "digital signature",
-      "conv": "zh-cn:数字签名; zh-tw:數位簽章; zh-hk:數碼簽章;"
+      "conv": "zh:數字簽名; zh-cn:数字签名; zh-sg:数码签名; zh-my:数码签名; zh-tw:數位簽章; zh-hk:數碼簽章;"
     },
     {
       "original": "digital television",
-      "conv": "zh-cn:数字电视; zh-tw:數位電視; zh-hk:數碼電視;"
-    },
-    {
-      "original": "digital terrestrial television",
-      "conv": "zh-cn:数字地面电视; zh-tw:數位無線電視; zh-hk:數碼地面電視;"
+      "conv": "zh:數字電視; zh-cn:数字电视; zh-sg:数码电视; zh-my:数码电视; zh-tw:數位電視; zh-hk:數碼電視;"
     },
     {
       "original": "digital video",
-      "conv": "zh-cn:数字视频; zh-tw:數位影片; zh-hk:數碼影片;"
-    },
-    {
-      "original": "digital video",
-      "conv": "zh-hans:视频;zh-hant:影片;"
+      "conv": "zh:數字視頻; zh-cn:数字视频; zh-sg:数码视频; zh-my:数码影音; zh-tw:數位影片; zh-hk:數碼影片;"
     },
     {
       "original": "digital video",
@@ -1541,7 +1545,7 @@
     },
     {
       "original": "digital video",
-      "conv": "视像=>zh-tw:視訊; 视像=>zh-hk:影片; 视像=>zh-cn:视频; 视像=>zh-my:视频; 视像=>zh-sg:视频;"
+      "conv": "视像=>zh-tw:視訊; 视像=>zh-cn:视频; 视像=>zh-my:视频; 视像=>zh-sg:视频;"
     },
     {
       "original": "digital video",
@@ -1549,27 +1553,31 @@
     },
     {
       "original": "digital video",
-      "conv": "視訊=>zh-hk:影片; 視訊=>zh-mo:視像; 視訊=>zh-cn:视频; 視訊=>zh-my:视频; 視訊=>zh-sg:视频;"
+      "conv": "视频=>zh-tw:影片; 视频=>zh-hk:影片; 视频=>zh-mo:影片;"
     },
     {
       "original": "digital video",
-      "conv": "视讯=>zh-mo:視像; 视讯=>zh-hk:影片; 视讯=>zh-cn:视频; 视讯=>zh-my:视频; 视讯=>zh-sg:视频;"
+      "conv": "視訊=>zh-hk:視像; 視訊=>zh-mo:視像; 視訊=>zh-cn:视频; 視訊=>zh-my:视频; 視訊=>zh-sg:视频;"
     },
     {
       "original": "digital video",
-      "conv": "zh-cn:监控; zh-tw:監視; zh-hk:監視;"
+      "conv": "视讯=>zh-mo:視像; 视讯=>zh-hk:視像; 视讯=>zh-cn:视频; 视讯=>zh-my:视频; 视讯=>zh-sg:视频;"
     },
     {
       "original": "digital watermarking",
-      "conv": " zh-cn:数字水印; zh-tw:數位浮水印; zh-hk:數碼水印;"
+      "conv": "zh-cn:数字水印; zh-my:数码水印; zh-sg:数码水印; zh-tw:數位浮水印; zh-hk:數碼水印;"
     },
     {
       "original": "disk",
-      "conv": "zh-cn:磁盘; zh-tw:磁碟;"
+      "conv": "zh:磁盤; zh-cn:磁盘; zh-my:磁碟; zh-tw:磁碟;"
     },
     {
       "original": "display device",
       "conv": "显示屏=>zh-tw:顯示器; 显示屏=>zh-hk:顯示器; 显示屏=>zh-mo:顯示器;"
+    },
+    {
+      "original": "display memory",
+      "conv": "zh-cn:显示内存; zh-tw:顯示記憶體;"
     },
     {
       "original": "distributed",
@@ -1577,15 +1585,7 @@
     },
     {
       "original": "document",
-      "conv": "文档=>zh-tw:文件; 文档=>zh-hk:文件; 文档=>zh-mo:文件;"
-    },
-    {
-      "original": "document",
       "conv": "文檔=>zh-tw:文件; 文檔=>zh-hk:文件; 文檔=>zh-mo:文件;"
-    },
-    {
-      "original": "document file",
-      "conv": "zh-cn:文档文件; zh-tw:文件檔案;"
     },
     {
       "original": "document file",
@@ -1729,7 +1729,7 @@
     },
     {
       "original": "driver",
-      "conv": "zh-cn:驱动程序; zh-tw:驅動程式;"
+      "conv": "zh:驅動程序; zh-cn:驱动程序; zh-my:驱动程式; zh-tw:驅動程式;"
     },
     {
       "original": "drop-down menu",
@@ -1750,10 +1750,6 @@
     {
       "original": "dynamic typing",
       "conv": "zh-cn:动态类型; zh-tw:動態型別;"
-    },
-    {
-      "original": "digital media",
-      "conv": "zh-cn:数字媒体; zh-tw:數位媒體; zh-hk:數碼媒體;"
     },
     {
       "original": "edit bar",
@@ -1821,15 +1817,7 @@
     },
     {
       "original": "enter key",
-      "conv": "zh-cn:回车键; zh-tw:確認鍵;"
-    },
-    {
-      "original": "enter key",
-      "conv": "确认键=>zh-cn:回车键; 确认键=>zh-sg:回车键; 确认键=>zh-my:回车键;"
-    },
-    {
-      "original": "enter key",
-      "conv": "回車鍵=>zh-tw:確認鍵; 回車鍵=>zh-hk:確認鍵; 回車鍵=>zh-mo:確認鍵;"
+      "conv": "zh:回車鍵; zh-cn:回车键; zh-sg:确认键; zh-my:确认键; zh-tw:確認鍵;"
     },
     {
       "original": "enumeration",
@@ -1909,11 +1897,11 @@
     },
     {
       "original": "extended Chinese character",
-      "conv": "扩充汉字=>zh-cn:扩展汉字; 扩充汉字=>zh-sg:扩展汉字; 扩充汉字=>zh-my:扩展汉字;"
+      "conv": "扩充汉字=>zh-cn:扩展汉字;"
     },
     {
       "original": "extended Chinese character",
-      "conv": "擴展漢字=>zh-tw:擴充漢字; 擴展漢字=>zh-hk:擴充漢字; 擴展漢字=>zh-mo:擴充漢字;"
+      "conv": "zh:擴展漢字; zh-hant:擴充漢字;"
     },
     {
       "original": "extended reality",
@@ -1921,7 +1909,7 @@
     },
     {
       "original": "extensible",
-      "conv": "zh-cn:可扩展; zh-tw:可延伸;"
+      "conv": "zh:可擴展; zh-cn:可扩展; zh-tw:可延伸;"
     },
     {
       "original": "extensible business reporting language",
@@ -2037,7 +2025,7 @@
     },
     {
       "original": "fairchild semiconductor",
-      "conv": "zh-cn:飞兆半导体; zh-tw:快捷半導體;"
+      "conv": "zh-cn:仙童半导体;zh-hans:飞兆半导体; zh-tw:快捷半導體;"
     },
     {
       "original": "feature phone",
@@ -2060,14 +2048,6 @@
       "conv": "zh-cn:第五范式; zh-tw:第五規格化;"
     },
     {
-      "original": "file",
-      "conv": "zh-cn:文件; zh-tw:檔案;"
-    },
-    {
-      "original": "file",
-      "conv": "档案=>zh-cn:文件; 档案=>zh-sg:文件; 档案=>zh-my:文件;"
-    },
-    {
       "original": "dile descriptor",
       "conv": "zh-cn:文件描述符; zh-hant:檔案描述子;"
     },
@@ -2081,11 +2061,7 @@
     },
     {
       "original": "filename",
-      "conv": "zh-cn:文件名称; zh-tw:檔案名稱;"
-    },
-    {
-      "original": "filename",
-      "conv": "文件名稱=>zh-tw:檔案名稱; 文件名稱=>zh-hk:檔案名稱; 文件名稱=>zh-mo:檔案名稱;"
+      "conv": "zh:文件名稱; zh-cn:文件名称; zh-tw:檔案名稱;"
     },
     {
       "original": "filename",
@@ -2125,7 +2101,7 @@
     },
     {
       "original": "floppy disk",
-      "conv": "zh-cn:软盘; zh-tw:軟碟;"
+      "conv": "zh:軟盤; zh-cn:软盘; zh-sg:软碟; zh-tw:軟碟;"
     },
     {
       "original": "floppy disk drive",
@@ -2133,7 +2109,7 @@
     },
     {
       "original": "folder",
-      "conv": "zh-cn:文件夹; zh-tw:資料夾;"
+      "conv": "zh:文件夾; zh-cn:文件夹; zh-tw:資料夾;"
     },
     {
       "original": "font",
@@ -2173,7 +2149,7 @@
     },
     {
       "original": "frame",
-      "conv": "zh-cn:帧; zh-tw:影格; zh-hk:幀;"
+      "conv": "zh-cn:帧; zh-tw:訊框; zh-hk:幀;"
     },
     {
       "original": "frame",
@@ -2185,7 +2161,11 @@
     },
     {
       "original": "frame",
-      "conv": "訊框=>zh-cn:帧; 訊框=>zh-sg:帧; 訊框=>zh-my:帧; 訊框=>zh-hk:幀; 訊框=>zh-mo:幀;"
+      "conv": "影格=>zh-cn:帧; 影格=>zh-sg:帧; 影格=>zh-my:帧; 影格=>zh-hk:幀; 影格=>zh-mo:幀;"
+    },
+    {
+      "original": "frame",
+      "conv": "畫格=>zh-cn:帧; 畫格=>zh-sg:帧; 畫格=>zh-my:帧; 畫格=>zh-hk:幀; 畫格=>zh-mo:幀;"
     },
     {
       "original": "frame rate",
@@ -2209,15 +2189,15 @@
     },
     {
       "original": "full screen",
-      "conv": "zh-cn:全屏; zh-tw:全螢幕; zh-hk:全屏幕;"
+      "conv": "zh-cn:全屏; zh-tw:全螢幕; zh-hk:全螢幕;"
     },
     {
       "original": "full screen",
-      "conv": "全面屏=>zh-tw:全螢幕;全面屏=>zh-hk:全屏幕;全面屏=>zh-mo:全屏幕;"
+      "conv": "全面屏=>zh-tw:全螢幕; 全面屏=>zh-hk:全螢幕; 全面屏=>zh-mo:全螢幕;"
     },
     {
       "original": "full-size smartphone",
-      "conv": "zh-cn:全面屏手机;zh-tw:全螢幕手機;zh-hk:全屏幕手機;"
+      "conv": "zh-cn:全面屏手机; zh-tw:全螢幕手機; zh-hk:全螢幕手機;"
     },
     {
       "original": "fullwidth",
@@ -2229,15 +2209,27 @@
     },
     {
       "original": "functional programming",
-      "conv": "zh-cn:函数式编程; zh-tw:函式語言程式設計;"
+      "conv": "zh-cn:函数式编程; zh-tw:函數式程式設計;"
+    },
+    {
+      "original": "functional programming",
+      "conv": "函式語言程式設計=>zh-cn:函数式编程; 函式語言程式設計=>zh-tw:函數式程式設計;"
     },
     {
       "original": "functional programming language",
-      "conv": "zh-cn:函数编程语言; zh-tw:函式程式語言;"
+      "conv": "zh-cn:函数编程语言; zh-tw:函數式程式語言;"
+    },
+    {
+      "original": "functional programming language",
+      "conv": "函數式程式語言=>zh-cn:函数编程语言; 函數式程式語言=>zh-sg:函数编程语言; 函數式程式語言=>zh-my:函数编程语言;"
     },
     {
       "original": "functional programming language",
       "conv": "函數程式語言=>zh-cn:函数编程语言; 函數程式語言=>zh-sg:函数编程语言; 函數程式語言=>zh-my:函数编程语言;"
+    },
+    {
+      "original": "functional programming language",
+      "conv": "函式程式語言=>zh-cn:函数编程语言; 函式程式語言=>zh-sg:函数编程语言; 函式程式語言=>zh-my:函数编程语言; 函式程式語言=>zh-tw:函數式程式語言;"
     },
     {
       "original": "full high definition (full HD)",
@@ -2282,10 +2274,6 @@
     {
       "original": "Global System for Mobile Communications Association",
       "conv": "zh-cn:全球移动通信系统协会; zh-tw:全球行動通訊系統協會; zh-hk:全球流動通訊系統協會;"
-    },
-    {
-      "original": "Google",
-      "conv": "谷歌=>zh-sg:Google; 谷歌=>zh-my:Google; 谷歌=>zh-tw:Google; 谷歌=>zh-hk:Google; 谷歌=>zh-mo:Google;"
     },
     {
       "original": "Google Cloud Messaging",
@@ -2348,6 +2336,14 @@
       "conv": "zh-cn:贪心算法; zh-tw:貪婪演算法;"
     },
     {
+      "original": "Green Screen",
+      "conv": "zh-hant:綠屏; zh-cn:绿屏; zh-tw:綠白畫面; zh-hk:綠畫面;"
+    },
+    {
+      "original": "Green Screen of Death",
+      "conv": "zh-hant:綠屏死機; zh-cn:绿屏死机; zh-tw:綠白當機; zh-hk:綠畫面死機;"
+    },
+    {
       "original": "greedy algorithm",
       "conv": "贪婪算法=>zh-cn:贪心算法; 贪婪算法=>zh-sg:贪心算法; 贪婪算法=>zh-my:贪心算法;"
     },
@@ -2361,11 +2357,7 @@
     },
     {
       "original": "greedy algorithm",
-      "conv": "zh-cn:贪心法; zh-tw:貪婪法;"
-    },
-    {
-      "original": "greedy algorithm",
-      "conv": "貪心法=>zh-tw:貪婪法; 貪心法=>zh-hk:貪婪法; 貪心法=>zh-mo:貪婪法;"
+      "conv": "zh:貪心法; zh-cn:贪心法; zh-tw:貪婪法;"
     },
     {
       "original": "gridlines",
@@ -2393,7 +2385,7 @@
     },
     {
       "original": "hacker",
-      "conv": "zh-cn:黑客; zh-tw:駭客; zh-hk:黑客;"
+      "conv": "zh-cn:黑客; zh-my:骇客; zh-tw:駭客; zh-hk:黑客;"
     },
     {
       "original": "halfwidth",
@@ -2409,11 +2401,7 @@
     },
     {
       "original": "hard disk",
-      "conv": "zh-cn:硬盘; zh-tw:硬碟;"
-    },
-    {
-      "original": "hard disk",
-      "conv": "硬盤 => zh-tw:硬碟;"
+      "conv": "zh:硬盤; zh-cn:硬盘; zh-tw:硬碟;"
     },
     {
       "original": "hard disk drive (HDD)",
@@ -2437,7 +2425,7 @@
     },
     {
       "original": "HDMI",
-      "conv": "zh-cn:高清多媒体界面; zh-tw:高畫質多媒體介面; zh-hk:高清多媒體介面;"
+      "conv": "zh-cn:高清多媒体接口; zh-tw:高畫質多媒體介面; zh-hk:高清多媒體介面;"
     },
     {
       "original": "head crash",
@@ -2494,6 +2482,10 @@
     {
       "original": "hierarchy",
       "conv": "zh-cn:层次结构; zh-tw:階層;"
+    },
+    {
+      "original": "high bandwidth memory",
+      "conv": "zh-cn:高带宽内存; zh-tw:高頻寬記憶體;"
     },
     {
       "original": "high definition (HD)",
@@ -2577,11 +2569,7 @@
     },
     {
       "original": "hosting",
-      "conv": "zh-cn:托管; zh-tw:代管; zh-hk:寄存;"
-    },
-    {
-      "original": "hosting",
-      "conv": "託管=>zh-tw:代管; 託管=>zh-hk:寄存; 託管=>zh-mo:寄存;"
+      "conv": "zh:託管; zh-cn:托管; zh-tw:代管; zh-hk:寄存; zh-mo:寄存;"
     },
     {
       "original": "hook",
@@ -2596,8 +2584,12 @@
       "conv": "zh-cn:超文本置标语言; zh-tw:超文件標示語言;"
     },
     {
+      "original": "map marker",
+      "conv": "zh:地圖標示; zh-cn:地图标示; zh-tw:地圖標示;"
+    },
+    {
       "original": "icon",
-      "conv": "zh-cn:图标; zh-tw:圖示;"
+      "conv": "zh:圖標; zh-cn:图标; zh-tw:圖示;"
     },
     {
       "original": "Integrated Development Environment (IDE)",
@@ -2613,11 +2605,11 @@
     },
     {
       "original": "identifier",
-      "conv": "zh-cn:标识符; zh-tw:識別碼;"
+      "conv": "zh:標識符; zh-cn:标识符; zh-tw:識別碼;"
     },
     {
       "original": "if and only if",
-      "conv": "zh-cn:当且仅当; zh-tw:若且唯若;"
+      "conv": "zh:當且僅當; zh-cn:当且仅当; zh-tw:若且唯若;"
     },
     {
       "original": "image",
@@ -2629,7 +2621,7 @@
     },
     {
       "original": "image macro",
-      "conv": "zh-cn:表情包; zh-tw:哏圖;"
+      "conv": "zh-cn:表情包; zh-my:梗图; zh-tw:哏圖;"
     },
     {
       "original": "image macro",
@@ -2657,7 +2649,7 @@
     },
     {
       "original": "Incognito mode",
-      "conv": "zh-cn:隐身模式; zh-tw:無痕模式;"
+      "conv": "zh-cn:隐身模式; zh-my:无痕模式; zh-tw:無痕模式;"
     },
     {
       "original": "indent",
@@ -2665,19 +2657,23 @@
     },
     {
       "original": "info (information)",
-      "conv": "zh-cn:信息; zh-tw:資訊;"
+      "conv": "zh-cn:信息; zh-my:资讯; zh-hant:資訊;"
+    },
+    {
+      "original": "info (information)",
+      "conv": "资讯=>zh-sg:资讯; 資訊=>zh-sg:资讯; 资讯=>zh-cn:资讯;"
     },
     {
       "original": "information age",
-      "conv": "zh-cn:信息时代; zh-tw:資訊時代; zh-hk:資訊年代;"
+      "conv": "zh-cn:信息时代; zh-hans:资讯时代; zh-tw:資訊時代; zh-hk:資訊年代;"
     },
     {
       "original": "Information and Communication Technology",
-      "conv": "zh-cn:信息及通信技术; zh-tw:資訊及通訊科技;"
+      "conv": "zh:信息与通信技术;zh-cn:信息和通信技术;zh-tw:資訊及通訊科技;"
     },
     {
       "original": "Information Engagement",
-      "conv": "zh-cn:信息接触; zh-tw:資訊參與;"
+      "conv": "zh-cn:信息接触; zh-my:资讯接触; zh-tw:資訊參與;"
     },
     {
       "original": "Information industry",
@@ -2685,27 +2681,31 @@
     },
     {
       "original": "Information Management",
-      "conv": "zh-cn:信息管理; zh-tw:資訊管理;"
+      "conv": "zh-cn:信息管理; zh-hans:资讯管理; zh-tw:資訊管理;"
     },
     {
       "original": "Information overload",
-      "conv": "zh-cn:信息过载; zh-tw:資訊超載;"
+      "conv": "zh-cn:信息过载; zh-hk:資訊超載; zh-tw:資訊超載;"
     },
     {
       "original": "Information Science",
-      "conv": "zh-cn:信息学; zh-tw:資訊學; zh-hk:資訊科學;"
+      "conv": "zh:信息科學; zh-cn:信息科学; zh-my:资讯科学; zh-tw:資訊學; zh-hk:資訊科學;"
+    },
+    {
+      "original": "Information Science",
+      "conv": "zh:信息學; zh-cn:信息学; zh-my:资讯学; zh-tw:資訊學; zh-hk:資訊科學;"
     },
     {
       "original": "information security",
-      "conv": "zh-cn:信息安全; zh-tw:資訊安全;"
+      "conv": "zh-cn:信息安全; zh-my:资讯安全; zh-tw:資訊安全; zh-hk:資訊保安;"
     },
     {
       "original": "information security",
-      "conv": "資安=>zh-cn:信息安全; 資安=>zh-sg:信息安全; 資安=>zh-my:信息安全;"
+      "conv": "資安=>zh-cn:信息安全;"
     },
     {
       "original": "Information Technology",
-      "conv": "zh-cn:信息技术; zh-tw:資訊科技;"
+      "conv": "zh:信息技術; zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;"
     },
     {
       "original": "injection",
@@ -2789,10 +2789,6 @@
     },
     {
       "original": "Internet",
-      "conv": "互联网=>zh-tw:網際網路; 互联网=>zh-hk:互聯網; 互联网=>zh-mo:互聯網;"
-    },
-    {
-      "original": "Internet",
       "conv": "国际互联网=>zh-tw:網際網路; 国际互联网=>zh-hk:互聯網; 国际互联网=>zh-mo:互聯網;"
     },
     {
@@ -2805,19 +2801,19 @@
     },
     {
       "original": "Internet forum",
-      "conv": "網上論壇 => zh-tw:網路論壇;"
+      "conv": "網上論壇=>zh-tw:網路論壇;"
     },
     {
       "original": "Internet forum",
-      "conv": "網上討論區 => zh-tw:網路論壇;"
+      "conv": "網上討論區=>zh-tw:網路論壇;"
     },
     {
       "original": "Internet Content Provider (ICP)",
-      "conv": "zh-cn:互联网内容提供商; zh-tw:線上內容提供者; zh-hk:互聯網內容供應商;"
+      "conv": "zh-cn:互联网内容提供商; zh-sg:互联网内容供应商; zh-my:互联网内容供应商; zh-tw:線上內容提供者; zh-hk:互聯網內容供應商;"
     },
     {
       "original": "Internet Service Provider (ISP)",
-      "conv": "zh-cn:互联网服务提供商; zh-tw:網際網路服務提供者; zh-hk:互聯網服務供應商;"
+      "conv": "zh-cn:互联网服务提供商; zh-sg:互联网服务供应商; zh-my:互联网服务供应商; zh-tw:網際網路服務提供者; zh-hk:互聯網服務供應商;"
     },
     {
       "original": "interpreter",
@@ -2865,7 +2861,7 @@
     },
     {
       "original": "key",
-      "conv": "zh-cn:密钥; zh-tw:金鑰;"
+      "conv": "zh:密鑰; zh-cn:密钥; zh-tw:金鑰;"
     },
     {
       "original": "keyboard layout",
@@ -2877,11 +2873,11 @@
     },
     {
       "original": "landscape",
-      "conv": "zh-cn:横屏幕; zh-tw:橫螢幕; zh-hk:橫熒幕;"
+      "conv": "zh-cn:横屏幕; zh-tw:橫螢幕; zh-hk:橫螢幕;"
     },
     {
       "original": "landscape",
-      "conv": "橫屏=>zh-tw:橫螢幕; 橫屏=>zh-hk:橫熒幕; 橫屏=>zh-mo:橫熒幕;"
+      "conv": "橫屏=>zh-tw:橫螢幕; 橫屏=>zh-hk:橫螢幕; 橫屏=>zh-mo:橫螢幕;"
     },
     {
       "original": "Language-Oriented Programming",
@@ -2893,15 +2889,11 @@
     },
     {
       "original": "laptop/notebook computer",
-      "conv": "zh-cn:笔记本电脑; zh-tw:筆記型電腦; zh-hk:手提電腦;"
+      "conv": "zh-cn:笔记本电脑; zh-tw:筆記型電腦; zh-hk:手提電腦; zh-sg:手提电脑; zh-my:手提电脑;"
     },
     {
       "original": "laptop/notebook computer",
-      "conv": "笔记型电脑=>zh-cn:笔记本电脑; 笔记型电脑=>zh-sg:笔记本电脑; 笔记型电脑=>zh-my:笔记本电脑; 笔记型电脑=>zh-hk:手提電腦; 笔记型电脑=>zh-mo:手提電腦;"
-    },
-    {
-      "original": "laptop/notebook computer",
-      "conv": "手提电脑=>zh-cn:笔记本电脑; 手提电脑=>zh-sg:笔记本电脑; 手提电脑=>zh-my:笔记本电脑; 手提电脑=>zh-tw:筆記型電腦;"
+      "conv": "笔记型电脑=>zh-cn:笔记本电脑; 笔记型电脑=>zh-sg:手提电脑; 笔记型电脑=>zh-my:手提电脑; 笔记型电脑=>zh-hk:手提電腦; 笔记型电脑=>zh-mo:手提電腦;"
     },
     {
       "original": "laptop/notebook computer",
@@ -2909,27 +2901,27 @@
     },
     {
       "original": "laptop/notebook computer",
-      "conv": "笔电=>zh-cn:笔记本电脑; 笔电=>zh-sg:笔记本电脑; 笔电=>zh-my:笔记本电脑; 笔电=>zh-hk:手提電腦; 笔电=>zh-mo:手提電腦;"
+      "conv": "笔电=>zh-sg:手提电脑; 笔电=>zh-my:手提电脑; 笔电=>zh-hk:手提電腦; 笔电=>zh-mo:手提電腦;"
     },
     {
       "original": "laptop/notebook computer",
-      "conv": "筆電=>zh-cn:笔记本电脑; 筆電=>zh-sg:笔记本电脑; 筆電=>zh-my:笔记本电脑; 筆電=>zh-hk:手提電腦; 筆電=>zh-mo:手提電腦;"
+      "conv": "筆電=>zh-sg:手提电脑; 筆電=>zh-my:手提电脑; 筆電=>zh-hk:手提電腦; 筆電=>zh-mo:手提電腦;"
     },
     {
       "original": "laptop/notebook computer",
-      "conv": "膝上型电脑=>zh-cn:笔记本电脑; 膝上型电脑=>zh-sg:笔记本电脑; 膝上型电脑=>zh-my:笔记本电脑; 膝上型电脑=>zh-tw:筆記型電腦;"
+      "conv": "膝上型电脑=>zh-cn:笔记本电脑; 膝上型电脑=>zh-sg:手提电脑; 膝上型电脑=>zh-my:手提电脑; 膝上型电脑=>zh-tw:筆記型電腦;"
     },
     {
       "original": "laptop/notebook computer",
-      "conv": "膝上型電腦=>zh-cn:笔记本电脑; 膝上型電腦=>zh-sg:笔记本电脑; 膝上型電腦=>zh-my:笔记本电脑; 膝上型電腦=>zh-tw:筆記型電腦;"
+      "conv": "膝上型電腦=>zh-cn:笔记本电脑; 膝上型電腦=>zh-sg:手提电脑; 膝上型電腦=>zh-my:手提电脑; 膝上型電腦=>zh-tw:筆記型電腦;"
     },
     {
       "original": "laser",
-      "conv": "zh-cn:激光; zh-sg:镭射; zh-tw:雷射; zh-hk:激光;"
+      "conv": "zh-cn:激光; zh-sg:镭射; zh-my:雷射; zh-tw:雷射; zh-hk:激光;"
     },
     {
       "original": "LaserDisc",
-      "conv": "zh-cn:激光视盘; zh-tw:雷射影碟; zh-hk:鐳射影碟;"
+      "conv": "zh-cn:激光视盘; zh-sg:镭射碟; zh-my:镭射影碟; zh-tw:雷射影碟; zh-hk:鐳射影碟;"
     },
     {
       "original": "launch bar",
@@ -2937,7 +2929,11 @@
     },
     {
       "original": "library",
-      "conv": "函式庫=>zh-cn:库; 函式庫=>zh-sg:库; 函式庫=>zh-my:库;"
+      "conv": "函式庫=>zh-cn:库; 函式庫=>zh-sg:库; 函式庫=>zh-my:库; 函式庫=>zh-tw:函式庫; 函式庫=>zh-hk:函式庫; 函式庫=>zh-mo:函式庫"
+    },
+    {
+      "original": "like",
+      "conv": "zh-cn:点赞; zh-tw:按讚; zh-hk:讚好;"
     },
     {
       "original": "link",
@@ -2957,11 +2953,11 @@
     },
     {
       "original": "linked list",
-      "conv": "zh-cn:链表; zh-tw:連結串列;"
+      "conv": "zh-cn:链表; zh-tw:鏈結串列;"
     },
     {
       "original": "linked list",
-      "conv": "鏈表=>zh-tw:連結串列; 鏈表=>zh-hk:連結串列; 鏈表=>zh-mo:連結串列;"
+      "conv": "鏈表=>zh-tw:鏈結串列; 鏈表=>zh-hk:連結串列; 鏈表=>zh-mo:連結串列;"
     },
     {
       "original": "livelock",
@@ -2993,11 +2989,11 @@
     },
     {
       "original": "log in",
-      "conv": "zh-hans:登录;zh-hant:登入;"
+      "conv": "zh-hans:登录; zh-hant:登入;"
     },
     {
       "original": "log out",
-      "conv": "zh-hant:登出;zh-hans:退出;"
+      "conv": "登出=>zh-cn:退出; 登出=>zh-my:退出; 登出=>zh-sg:退出;"
     },
     {
       "original": "logic device",
@@ -3121,7 +3117,23 @@
     },
     {
       "original": "main memory",
-      "conv": "zh-cn:主存; zh-tw:主記憶體;"
+      "conv": "zh-hans:主存储器; zh-hant:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "主存=>zh-tw:主記憶體; 主存=>zh-hk:主記憶體; 主存=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "内存储器=>zh-tw:主記憶體; 内存储器=>zh-hk:主記憶體; 内存储器=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "内存=>zh-tw:主記憶體; 内存=>zh-hk:主記憶體; 内存=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "內存=>zh-tw:主記憶體; 內存=>zh-hk:主記憶體; 內存=>zh-mo:主記憶體;"
     },
     {
       "original": "mainframe",
@@ -3168,11 +3180,11 @@
       "conv": "媒质=>zh-tw:媒介; 媒质=>zh-hk:媒介; 媒质=>zh-mo:媒介;"
     },
     {
-      "original": "Medium Dependent Interface",
+      "original": "medium dependent interface",
       "conv": "zh-cn:介质相关接口; zh-tw:媒體相依介面;"
     },
     {
-      "original": "Megabyte",
+      "original": "megabyte",
       "conv": "zh-hans:兆字节; zh-hant:百萬位元組;"
     },
     {
@@ -3181,15 +3193,7 @@
     },
     {
       "original": "memory",
-      "conv": "内部存储器=>zh-tw:記憶體; 内部存储器=>zh-hk:記憶體; 内部存储器=>zh-mo:記憶體;"
-    },
-    {
-      "original": "memory",
-      "conv": "内存=>zh-tw:記憶體; 内存=>zh-hk:記憶體; 内存=>zh-mo:記憶體;"
-    },
-    {
-      "original": "memory",
-      "conv": "內存=>zh-tw:記憶體; 內存=>zh-hk:記憶體; 內存=>zh-mo:記憶體;"
+      "conv": "電腦記憶體=>zh-cn:存储器;"
     },
     {
       "original": "memory card",
@@ -3256,24 +3260,24 @@
       "conv": "zh-cn:元数据; zh-tw:元資料; zh-hk:元數據;"
     },
     {
-      "original": "Metal Oxide Semiconductor",
+      "original": "metal Oxide Semiconductor",
       "conv": "zh-cn:金属氧化物半导体; zh-tw:金氧半導體;"
     },
     {
-      "original": "Metropolitan Area Network",
+      "original": "metropolitan Area Network",
       "conv": "zh-cn:城域网; zh-tw:都會網路;"
     },
     {
-      "original": "Micro-blog",
+      "original": "micro-blog",
       "conv": "zh-cn:微博客; zh-tw:微部落格; zh-hk:微博客;"
     },
     {
-      "original": "Micro-blog",
+      "original": "micro-blog",
       "conv": "zh-cn:微型博客; zh-tw:微型部落格; zh-hk:微型博客;"
     },
     {
-      "original": "Micro-blog",
-      "conv": "微網誌=>zh-cn:微博; 微網誌=>zh-sg:微博; 微網誌=>zh-my:微博;"
+      "original": "micro-blog",
+      "conv": "微網誌=>zh-cn:微博; 微網誌=>zh-sg:微博;"
     },
     {
       "original": "microcontroller",
@@ -3301,7 +3305,7 @@
     },
     {
       "original": "mixed reality",
-      "conv": "zh-cn:混合现实; zh-tw:混合實境;"
+      "conv": "zh-cn:混合现实; zh-sg:混合实境; zh-my:混合实境; zh-tw:混合實境;"
     },
     {
       "original": "mobile agent",
@@ -3309,11 +3313,11 @@
     },
     {
       "original": "mobile app",
-      "conv": "zh-cn:移动应用; zh-tw:行動應用; zh-hk:流動應用;"
+      "conv": "zh-cn:移动应用; zh-tw:行動應用; zh-hk:流動應用; zh-my:流动应用;"
     },
     {
       "original": "mobile broadcasting",
-      "conv": "zh-cn:移动广播; zh-tw:行動廣播; zh-hk:流動廣播;"
+      "conv": "zh-cn:移动广播; zh-tw:行動廣播; zh-hk:流動廣播; zh-my:流动广播;"
     },
     {
       "original": "mobile browser",
@@ -3329,15 +3333,27 @@
     },
     {
       "original": "mobile company",
-      "conv": "zh-cn:移动公司; zh-tw:行動公司; zh-hk:流動公司;"
+      "conv": "zh-cn:移动公司; zh-tw:電信公司; zh-hk:流動公司;"
+    },
+    {
+      "original": "mobile commerce",
+      "conv": "zh-hans:移动商务; zh-hk:流動商務; zh-tw:行動商務;"
+    },
+    {
+      "original": "mobile communication",
+      "conv": "zh-cn:移动通信; zh-tw:行動通訊; zh-hk:流動通訊;"
     },
     {
       "original": "mobile computer",
       "conv": "zh-cn:移动计算机; zh-tw:行動電腦; zh-hk:流動電腦;"
     },
     {
-      "original": "mobile communication",
-      "conv": "zh-cn:移动通信; zh-tw:行動通訊; zh-hk:流動通訊;"
+      "original": "mobile computing",
+      "conv": "zh-cn:移动计算; zh-tw:行動運算; zh-hk:流動運算;"
+    },
+    {
+      "original": "Mobile content management",
+      "conv": "zh-cn:移动内容管理; zh-tw:行動內容管理;"
     },
     {
       "original": "mobile data",
@@ -3372,7 +3388,7 @@
       "conv": "zh-cn:移动互联网; zh-tw:行動網際網路; zh-hk:流動互聯網;"
     },
     {
-      "original": "Mobile Internet Device",
+      "original": "mobile Internet Device",
       "conv": "zh-cn:移动联网设备; zh-tw:行動網路裝置; zh-hk:行動聯網裝置;"
     },
     {
@@ -3397,7 +3413,7 @@
     },
     {
       "original": "mobile phone",
-      "conv": "zh-cn:移动电话; zh-tw:行動電話; zh-hk:流動電話;"
+      "conv": "zh-cn:移动电话; zh-tw:行動電話; zh-hk:流動電話; zh-my:行动电话;"
     },
     {
       "original": "mobile platform",
@@ -3408,15 +3424,23 @@
       "conv": "zh-cn:移动产品; zh-tw:行動產品; zh-hk:流動產品;"
     },
     {
-      "original": "Mobile software",
+      "original": "mobile software",
       "conv": "zh-cn:移动软件; zh-tw:行動軟體; zh-hk:流動軟件;"
+    },
+    {
+      "original": "mobile technology",
+      "conv": "zh-cn:移动科技; zh-tw:行動科技; zh-hk:流動科技;"
+    },
+    {
+      "original": "mobile technology",
+      "conv": "zh-cn:移动技术; zh-tw:行動技術; zh-hk:流動技術;"
     },
     {
       "original": "mobile telecom",
       "conv": "zh-cn:移动电信; zh-tw:行動電信; zh-hk:流動電訊;"
     },
     {
-      "original": "Mobile telecom operator",
+      "original": "mobile telecom operator",
       "conv": "zh-cn:移动电信运营商; zh-tw:行動電信業者; zh-hk:流動電訊營辦商;"
     },
     {
@@ -3477,7 +3501,7 @@
     },
     {
       "original": "mouse",
-      "conv": "zh-cn:鼠标; zh-tw:滑鼠;"
+      "conv": "zh:鼠標; zh-cn:鼠标; zh-tw:滑鼠; zh-sg:滑鼠; zh-my:滑鼠;"
     },
     {
       "original": "multi-channel network",
@@ -3489,7 +3513,7 @@
     },
     {
       "original": "multi-tasking",
-      "conv": "zh-cn:多任务; zh-tw:多工;"
+      "conv": "zh:多任务;zh-hant:多工;"
     },
     {
       "original": "multiagent system",
@@ -3524,32 +3548,12 @@
       "conv": "zh-cn:我的文档; zh-tw:我的文件;"
     },
     {
-      "original": "Mobile World Congress",
-      "conv": "zh-cn:世界移动通信大会; zh-tw:世界行動通訊大會; zh-hk:世界流動通訊大會;"
-    },
-    {
-      "original": "Mobile content management",
-      "conv": "zh-cn:移动内容管理; zh-tw:行動內容管理;"
-    },
-    {
-      "original": "Mobile application management",
-      "conv": "zh-cn:移动应用管理; zh-tw:行動應用管理;"
-    },
-    {
-      "original": "Mobile device management",
-      "conv": "zh-cn:移动设备管理; zh-tw:行動裝置管理;"
+      "original": "namespace",
+      "conv": "zh-cn:命名空间; zh-tw:命名空間;"
     },
     {
       "original": "namespace",
-      "conv": "zh-cn:名字空间; zh-tw:命名空間;"
-    },
-    {
-      "original": "namespace",
-      "conv": "名字空間=>zh-tw:命名空間; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間;"
-    },
-    {
-      "original": "namespace",
-      "conv": "命名空间=>zh-cn:名字空间; 命名空间=>zh-sg:名字空间; 命名空间=>zh-my:名字空间;"
+      "conv": "名字空间=>zh-cn:命名空间; 名字空间=>zh-sg:命名空间; 名字空间=>zh-my:命名空间; 名字空間=>zh-tw:命名空間; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間;"
     },
     {
       "original": "nanometer",
@@ -3564,12 +3568,12 @@
       "conv": "zh-cn:窄带; zh-tw:窄頻;"
     },
     {
-      "original": "native",
-      "conv": "zh-cn:本地的; zh-tw:原生的;"
-    },
-    {
       "original": "navigation bar",
       "conv": "zh-cn:导航条; zh-tw:導覽列;"
+    },
+    {
+      "original": "near-field communication",
+      "conv": "zh-hk:近場通訊; zh-hans:近场通信; zh-tw:近場通訊;"
     },
     {
       "original": "nest",
@@ -3577,11 +3581,7 @@
     },
     {
       "original": "Net disk",
-      "conv": "zh-cn:网盘; zh-tw:網路硬碟;"
-    },
-    {
-      "original": "Net disk",
-      "conv": "網盤 => zh-tw:網路硬碟;網盤 => zh-hk:網路硬碟;網盤 => zh-mo:網路硬碟;"
+      "conv": "zh:網盤; zh-cn:网盘; zh-tw:網路硬碟;"
     },
     {
       "original": "Netbook",
@@ -3589,11 +3589,7 @@
     },
     {
       "original": "Netizen",
-      "conv": "网民=>zh-cn:网民;网民=>zh-tw:網友;网民=>zh-hk:網民;"
-    },
-    {
-      "original": "Netizen",
-      "conv": "網民=>zh-cn:网民;網民=>zh-tw:網友;網民=>zh-hk:網民;"
+      "conv": "网民=>zh-tw:網友; 網民=>zh-tw:網友;"
     },
     {
       "original": "Netscape Navigator",
@@ -3641,11 +3637,7 @@
     },
     {
       "original": "object",
-      "conv": "zh-cn:对象; zh-tw:物件;"
-    },
-    {
-      "original": "object",
-      "conv": "對象=>zh-tw:物件; 對象=>zh-hk:物件; 對象=>zh-mo:物件;"
+      "conv": "物件=>zh-cn:对象;"
     },
     {
       "original": "object code",
@@ -3666,10 +3658,6 @@
     {
       "original": "Object-oriented programming",
       "conv": "zh-cn:面向对象编程; zh-tw:物件導向程式設計;"
-    },
-    {
-      "original": "object",
-      "conv": "zh-cn:对象; zh-tw:物件;"
     },
     {
       "original": "octree",
@@ -3697,11 +3685,11 @@
     },
     {
       "original": "online",
-      "conv": "联机=>zh-tw:連線; 联机=>zh-hk:連線; 联机=>zh-mo:連線;"
+      "conv": "zh:联机; zh-hant:連線;"
     },
     {
       "original": "online hard drive",
-      "conv": "zh-cn:网络硬盘; zh-tw:網路硬碟; zh-hk:網絡硬碟;"
+      "conv": "zh-cn:网络硬盘; zh-my:网络硬碟; zh-tw:網路硬碟; zh-hk:網絡硬碟;"
     },
     {
       "original": "online shopping",
@@ -3773,11 +3761,15 @@
     },
     {
       "original": "optimal",
-      "conv": "最优=>zh-tw:最佳; 最优=>zh-hk:最佳; 最优=>zh-mo:最佳;"
+      "conv": "zh:最优; zh-hant:最佳;"
     },
     {
       "original": "optimization",
-      "conv": "zh-hans:优化; zh-hant:最佳化; 最優化=>zh-hant:最佳化; 最优化=>zh-hant:最佳化;"
+      "conv": "zh:最優化; zh-hant:最佳化;"
+    },
+    {
+      "original": "optimization",
+      "conv": "zh-hans:优化; zh-hant:最佳化;"
     },
     {
       "original": "Optical Network Terminals",
@@ -3825,7 +3817,7 @@
     },
     {
       "original": "page view",
-      "conv": "zh-cn:访问量; zh-tw:瀏覽量;"
+      "conv": "zh:訪問量; zh-cn:访问量; zh-tw:瀏覽量;"
     },
     {
       "original": "paint",
@@ -3937,7 +3929,7 @@
     },
     {
       "original": "physical layer",
-      "conv": "zh-cn:物理层; zh-tw:實體層;"
+      "conv": "zh:物理層; zh-cn:物理层; zh-tw:實體層;"
     },
     {
       "original": "physical address",
@@ -3953,7 +3945,7 @@
     },
     {
       "original": "picture viewer",
-      "conv": "图像浏览器=>zh-tw:圖片檢視器; 图像浏览器=>zh-hk:圖片檢視器; 图像浏览器=>zh-mo:圖片檢視器;"
+      "conv": "zh:图像浏览器; zh-hant:圖片檢視器;"
     },
     {
       "original": "pipeline",
@@ -3989,7 +3981,7 @@
     },
     {
       "original": "podcast",
-      "conv": "zh-cn:播客; zh-tw:Podcast;"
+      "conv": "zh-cn:播客; zh-tw:播客;"
     },
     {
       "original": "point and click",
@@ -4081,7 +4073,7 @@
     },
     {
       "original": "post",
-      "conv": "zh-cn:帖子; zh-tw:貼文;"
+      "conv": "zh-cn:帖子; zh-sg:贴文; zh-my:贴文; zh-tw:貼文;"
     },
     {
       "original": "power bank",
@@ -4093,7 +4085,7 @@
     },
     {
       "original": "preference settings",
-      "conv": "zh-cn:首选项; zh-tw:偏好設定; zh-hk:參數設置;"
+      "conv": "zh-cn:首选项; zh-my:偏好设置; zh-tw:偏好設定; zh-hk:參數設置;"
     },
     {
       "original": "prefix",
@@ -4113,7 +4105,7 @@
     },
     {
       "original": "printer",
-      "conv": "zh-cn:打印机; zh-tw:印表機;"
+      "conv": "zh:打印機; zh-cn:打印机; zh-tw:印表機;"
     },
     {
       "original": "procedural generation",
@@ -4169,11 +4161,11 @@
     },
     {
       "original": "programmer",
-      "conv": "zh-cn:程序员; zh-tw:程式設計師;"
+      "conv": "zh:程序員; zh-cn:程序员; zh-tw:程式設計師;"
     },
     {
       "original": "programmable",
-      "conv": "zh-cn:可编程; zh-tw:可程式化;"
+      "conv": "zh:可編程; zh-cn:可编程; zh-tw:可程式化;"
     },
     {
       "original": "programmable",
@@ -4217,11 +4209,7 @@
     },
     {
       "original": "protocol",
-      "conv": "zh-cn:协议; zh-tw:協定;"
-    },
-    {
-      "original": "protocol",
-      "conv": "協議=>zh-tw:協定; 協議=>zh-hk:協定; 協議=>zh-mo:協定;"
+      "conv": "zh:協議; zh-cn:协议; zh-tw:協定;"
     },
     {
       "original": "prototype-based programming",
@@ -4237,7 +4225,7 @@
     },
     {
       "original": "pattern recognition",
-      "conv": "zh-cn:模式识别; zh-tw:圖型識別;"
+      "conv": "zh:模式識別; zh-cn:模式识别; zh-tw:圖型識別;"
     },
     {
       "original": "Public land mobile network",
@@ -4258,6 +4246,14 @@
     {
       "original": "push",
       "conv": "zh-cn:推送; zh-tw:推播;"
+    },
+    {
+      "original": "QR code",
+      "conv": "QR code=>zh-cn:QR码; QR code=>zh-sg:QR码; QR code=>zh-my:QR码; QR code=>zh-hk:QR碼; QR code=>zh-mo:QR碼;"
+    },
+    {
+      "original": "QR code",
+      "conv": "QRcode=>zh-cn:QR码; QRcode=>zh-sg:QR码; QRcode=>zh-my:QR码; QRcode=>zh-hk:QR碼; QRcode=>zh-mo:QR碼;"
     },
     {
       "original": "QR code",
@@ -4292,8 +4288,12 @@
       "conv": "zh-cn:单选按钮; zh-tw:無線電鈕;"
     },
     {
+      "original": "radio-frequency identification",
+      "conv": "zh-cn:射频识别; zh-tw:無線射頻辨識; zh-hk:無線射頻辨識; zh-sg:射频识别;"
+    },
+    {
       "original": "random-access memory",
-      "conv": "随机存储器=>zh-tw:隨機存取記憶體; 随机存储器=>zh-hk:隨機存取記憶體; 随机存储器=>zh-mo:隨機存取記憶體;"
+      "conv": "zh-cn:随机存储器; zh-tw:隨機存取記憶體"
     },
     {
       "original": "random number",
@@ -4360,24 +4360,36 @@
       "conv": "zh-cn:回收站; zh-tw:資源回收筒;"
     },
     {
+      "original": "Red Screen",
+      "conv": "zh-hant:紅屏; zh-cn:红屏; zh-tw:紅白畫面; zh-hk:紅畫面;"
+    },
+    {
+      "original": "Red Screen of Death",
+      "conv": "zh-hant:紅屏死機; zh-cn:红屏死机; zh-tw:紅白當機; zh-hk:紅畫面死機;"
+    },
+    {
+      "original": "Red Screen of Death",
+      "conv": "紅屏當機=>zh-cn:红屏死机; 紅屏當機=>zh-tw:紅白當機; 紅屏當機=>zh-hk:紅畫面死機;"
+    },
+    {
       "original": "redirect",
-      "conv": "zh-hk:自動跳轉;zh-cn:重定向; zh-tw:重新導向"
+      "conv": "zh-cn:重定向; zh-tw:重新導向;"
     },
     {
       "original": "redirect page",
-      "conv": "zh-hk:自動跳轉頁;zh-cn:重定向页; zh-tw:重新導向頁面"
+      "conv": "zh-cn:重定向页; zh-tw:重新導向頁面;"
     },
     {
       "original": "redirect page",
-      "conv": "重定向頁=>zh-tw:重新導向頁面; 重定向頁=>zh-hk:自動跳轉頁;重定向頁=>zh-mo:自動跳轉頁;"
+      "conv": "重定向頁=>zh-tw:重新導向頁面; 重定向頁=>zh-hk:重新導向頁面; 重定向頁=>zh-mo:重新導向頁面;"
     },
     {
       "original": "redirect page",
-      "conv": "重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:自動跳轉頁;重定向页面=>zh-mo:自動跳轉頁;"
+      "conv": "重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:重新導向頁面; 重定向页面=>zh-mo:重新導向頁面;"
     },
     {
       "original": "redirect page",
-      "conv": "重定向頁面=>zh-tw:重新導向頁面; 重定向頁面=>zh-hk:自動跳轉頁;重定向頁面=>zh-mo:自動跳轉頁;"
+      "conv": "重定向頁面=>zh-tw:重新導向頁面; 重定向頁面=>zh-hk:重新導向頁面; 重定向頁面=>zh-mo:重新導向頁面;"
     },
     {
       "original": "reference",
@@ -4488,6 +4500,10 @@
       "conv": "zh-cn:丰富互联网应用程序; zh-tw:多樣化網際網路應用程式; zh-hk:多樣化互聯網應用程式;"
     },
     {
+      "original": "rollback",
+      "conv": "zh-cn:回滚; zh-tw:轉返;"
+    },
+    {
       "original": "routine",
       "conv": "zh-cn:例程; zh-tw:常式;"
     },
@@ -4521,7 +4537,7 @@
     },
     {
       "original": "scanner",
-      "conv": "zh-cn:扫描仪; zh-tw:掃描器;"
+      "conv": "zh:掃描儀; zh-cn:扫描仪; zh-tw:掃描器;"
     },
     {
       "original": "schedule",
@@ -4533,31 +4549,23 @@
     },
     {
       "original": "screen",
-      "conv": "zh-cn:屏幕; zh-tw:螢幕; zh-hk:熒幕;"
+      "conv": "zh-cn:屏幕; zh-tw:螢幕; zh-hk:螢幕;"
     },
     {
       "original": "screensaver",
-      "conv": "zh-cn:屏幕保护程序; zh-tw:螢幕保護裝置; zh-hk:熒幕保護裝置;"
+      "conv": "zh-cn:屏幕保护程序; zh-tw:螢幕保護裝置; zh-hk:螢幕保護裝置;"
     },
     {
       "original": "screenshot",
-      "conv": "zh-cn:截屏; zh-tw:螢幕擷取; zh-hk:熒幕擷取;"
+      "conv": "zh-cn:截屏; zh-tw:螢幕擷取; zh-hk:螢幕擷取;"
     },
     {
       "original": "script",
-      "conv": "zh-cn:脚本; zh-tw:指令碼;"
-    },
-    {
-      "original": "script",
-      "conv": "腳本=>zh-tw:指令碼; 腳本=>zh-hk:指令碼; 腳本=>zh-mo:指令碼;"
+      "conv": "zh:腳本; zh-cn:脚本; zh-tw:指令碼;"
     },
     {
       "original": "scripting language",
-      "conv": "zh-cn:脚本语言; zh-tw:手稿語言;"
-    },
-    {
-      "original": "scripting language",
-      "conv": "腳本語言=>zh-tw:手稿語言; 腳本語言=>zh-hk:手稿語言; 腳本語言=>zh-mo:手稿語言;"
+      "conv": "zh:腳本語言; zh-cn:脚本语言; zh-tw:手稿語言;"
     },
     {
       "original": "scroll",
@@ -4605,11 +4613,7 @@
     },
     {
       "original": "security software",
-      "conv": "zh-cn:安全软件; zh-tw:安全軟體; zh-hk:保安軟件;"
-    },
-    {
-      "original": "security software",
-      "conv": "保安軟體=>zh-cn:安全软件; 保安軟體=>zh-sg:安全软件; 保安軟體=>zh-my:安全软件; 保安軟體=>zh-hk:保安軟件; 保安軟體=>zh-mo:保安軟件;"
+      "conv": "zh:安全軟件; zh-cn:安全软件; zh-tw:安全軟體; zh-hk:保安軟件;"
     },
     {
       "original": "Semantic Web",
@@ -4621,15 +4625,11 @@
     },
     {
       "original": "semaphore",
-      "conv": "zh-cn:信号量; zh-tw:號誌; zh-hk:訊號量;"
-    },
-    {
-      "original": "semaphore",
-      "conv": "信號量=>zh-tw:號誌; 信號量=>zh-hk:號誌; 信號量=>zh-mo:號誌;"
+      "conv": "zh:信號量; zh-cn:信号量; zh-tw:號誌; zh-hk:訊號量;"
     },
     {
       "original": "send",
-      "conv": "zh-cn:发送; zh-tw:傳送;"
+      "conv": "zh:發送; zh-cn:发送; zh-tw:傳送;"
     },
     {
       "original": "send SMS",
@@ -4637,7 +4637,7 @@
     },
     {
       "original": "sensor",
-      "conv": "zh-cn:传感器; zh-tw:感測器;"
+      "conv": "zh:傳感器; zh-cn:传感器; zh-tw:感測器;"
     },
     {
       "original": "Sequencing",
@@ -4657,11 +4657,7 @@
     },
     {
       "original": "server",
-      "conv": "zh-cn:服务器; zh-tw:伺服器;"
-    },
-    {
-      "original": "server",
-      "conv": "服務器=>zh-tw:伺服器; 服務器=>zh-hk:伺服器; 服務器=>zh-mo:伺服器;"
+      "conv": "zh:服務器; zh-cn:服务器; zh-my:伺服器; zh-tw:伺服器;"
     },
     {
       "original": "server message block",
@@ -4673,7 +4669,7 @@
     },
     {
       "original": "server-side",
-      "conv": "伺服端=>zh-cn:服务端; 伺服端=>zh-sg:服务端; 伺服端=>zh-my:服务端;"
+      "conv": "伺服端=>zh-cn:服务端; 伺服端=>zh-sg:服务端;"
     },
     {
       "original": "server-side",
@@ -4741,7 +4737,7 @@
     },
     {
       "original": "signal",
-      "conv": "讯号=>zh-cn:信号; 讯号=>zh-sg:信号; 讯号=>zh-my:信号; 讯号=>zh-tw:訊號;"
+      "conv": "讯号=>zh-cn:信号; 讯号=>zh-sg:信号; 讯号=>zh-my:信号;"
     },
     {
       "original": "signature",
@@ -4789,11 +4785,11 @@
     },
     {
       "original": "smartphone",
-      "conv": "zh-cn:智能手机; zh-tw:智慧型手機; zh-hk:智能手機;"
+      "conv": "zh-hans:智能电话; zh-hant:智能手機; zh-cn:智能手机; zh-tw:智慧型手機; zh-hk:智能電話;"
     },
     {
       "original": "smartwatch",
-      "conv": "zh-cn:智能手表; zh-tw:智慧型手錶; zh-hk:智能手錶;"
+      "conv": "zh-cn:智能手表; zh-tw:智慧型手錶; zh-hk:智能手錶; zh-sg:智慧手表;"
     },
     {
       "original": "SMS",
@@ -4813,7 +4809,7 @@
     },
     {
       "original": "social media",
-      "conv": "zh-hans:社会媒体; zh-cn:社交媒体; zh-tw:社群媒體; zh-hk:社交媒體;"
+      "conv": "zh-cn:社交媒体;zh-tw:社群媒體;zh-hk:社交媒體;"
     },
     {
       "original": "social network",
@@ -4892,8 +4888,8 @@
       "conv": "試算表=>zh-cn:表格; 試算表=>zh-sg:表格; 試算表=>zh-my:表格;"
     },
     {
-      "original": "spider solitaire",
-      "conv": "zh-cn:蜘蛛纸牌; zh-tw:連環新接龍;"
+      "original": "SSD",
+      "conv": "zh-cn:固态盘; zh-tw:固態硬碟;"
     },
     {
       "original": "statement",
@@ -4926,6 +4922,10 @@
     {
       "original": "status bar",
       "conv": "zh-cn:状态栏; zh-tw:狀態列;"
+    },
+    {
+      "original": "sticky keys",
+      "conv": "zh-cn:粘滞键; zh-tw:相黏鍵;"
     },
     {
       "original": "storage",
@@ -5004,6 +5004,10 @@
       "conv": "zh-cn:Sun微系统; zh-tw:昇陽電腦; zh-hk:太陽電腦;"
     },
     {
+      "original": "super computer",
+      "conv": "zh-cn:超级计算机; zh-tw:超級電腦;"
+    },
+    {
       "original": "syntax highlighting",
       "conv": "zh-cn:语法高亮; zh-tw:語法突顯;"
     },
@@ -5022,6 +5026,10 @@
     {
       "original": "system (format)",
       "conv": "制式=>zh-tw:格式; 制式=>zh-hk:格式; 制式=>zh-mo:格式;"
+    },
+    {
+      "original": "System on a chip, SoC",
+      "conv": "zh-cn:单片系统; zh-tw:單晶片系統;"
     },
     {
       "original": "tab",
@@ -5153,11 +5161,11 @@
     },
     {
       "original": "touchscreen",
-      "conv": "zh-cn:触摸屏; zh-tw:觸控式螢幕; zh-hk:輕觸式熒幕;"
+      "conv": "zh-cn:触摸屏; zh-tw:觸控式螢幕; zh-hk:輕觸式螢幕;"
     },
     {
       "original": "touchscreen",
-      "conv": "zh-cn:触屏; zh-tw:觸控螢幕; zh-hk:輕觸熒幕;"
+      "conv": "zh-cn:触屏; zh-tw:觸控螢幕; zh-hk:輕觸螢幕;"
     },
     {
       "original": "TouchPad",
@@ -5244,6 +5252,10 @@
       "conv": "zh-cn:单参函数; zh-tw:一元函式;"
     },
     {
+      "original": "unary function",
+      "conv": "一元函數=>zh-cn:单参函数; 一元函數=>zh-tw:一元函式;"
+    },
+    {
       "original": "underflow",
       "conv": "欠位=>zh-cn:下溢; 欠位=>zh-my:下溢; 欠位=>zh-sg:下溢;"
     },
@@ -5289,11 +5301,11 @@
     },
     {
       "original": "upload",
-      "conv": "上传=>zh-hk:上載;上传=>zh-mo:上載;"
+      "conv": "zh-cn:上传;zh-tw:上傳;zh-hk:上載;"
     },
     {
       "original": "upload",
-      "conv": "上傳=>zh-hk:上載;上傳=>zh-mo:上載;"
+      "conv": "上载=>zh-tw:上傳;"
     },
     {
       "original": "UPS",
@@ -5412,6 +5424,10 @@
       "conv": "顯卡=>zh-tw:顯示卡; 顯卡=>zh-hk:顯示卡; 顯卡=>zh-mo:顯示卡;"
     },
     {
+      "original": "video conference",
+      "conv": "zh-cn:视频会议; zh-tw:視訊會議; zh-hk:視像會議;"
+    },
+    {
       "original": "video document",
       "conv": "zh-cn:视频文档; zh-tw:視訊檔案;"
     },
@@ -5437,7 +5453,7 @@
     },
     {
       "original": "video output",
-      "conv": "zh-cn:视频输出; zh-tw:視訊輸出; zh-hk:視頻輸出;"
+      "conv": "zh-cn:视频输出; zh-tw:視訊輸出; zh-hk:影像輸出;"
     },
     {
       "original": "video processor",
@@ -5468,6 +5484,10 @@
       "conv": "zh-cn:虚函数; zh-tw:虛擬函式;"
     },
     {
+      "original": "virtual function",
+      "conv": "虛擬函數=>zh-cn:虚函数; 虛擬函數=>zh-tw:虛擬函式;"
+    },
+    {
       "original": "virtual machine",
       "conv": "zh-cn:虚拟机; zh-tw:虛擬機器;"
     },
@@ -5476,8 +5496,44 @@
       "conv": "zh-cn:虚拟内存; zh-tw:虛擬記憶體;"
     },
     {
+      "original": "Virtual Private Network",
+      "conv": "zh-cn:虚拟专用网; zh-tw:虛擬私人網路;"
+    },
+    {
+      "original": "virtual reality",
+      "conv": "zh-cn:虚拟现实; zh-sg:虚拟实境; zh-my:虚拟实境; zh-tw:虛擬實境;"
+    },
+    {
+      "original": "virtual reality",
+      "conv": "zh:虛擬現實; zh-cn:虚拟现实; zh-sg:虚拟实境; zh-my:虚拟实境; zh-tw:虛擬實境;"
+    },
+    {
       "original": "visit",
       "conv": "造訪=>zh-cn:访问; 造訪=>zh-sg:访问; 造訪=>zh-my:访问;"
+    },
+    {
+      "original": "visit link",
+      "conv": "造訪連結=>zh-cn:访问链接; 造訪連結=>zh-tw:造訪連結;"
+    },
+    {
+      "original": "visit link",
+      "conv": "访问链接=>zh-cn:访问链接; 访问链接=>zh-tw:造訪連結;"
+    },
+    {
+      "original": "visit webpage",
+      "conv": "造訪網頁=>zh-cn:访问网页; 造訪網頁=>zh-tw:造訪網頁;"
+    },
+    {
+      "original": "visit webpage",
+      "conv": "访问网页=>zh-cn:访问网页; 访问网页=>zh-tw:造訪網頁;"
+    },
+    {
+      "original": "visit website",
+      "conv": "造訪網站=>zh-cn:访问网站; 造訪網站=>zh-tw:造訪網站;"
+    },
+    {
+      "original": "visit website",
+      "conv": "访问网站=>zh-cn:访问网站; 访问网站=>zh-tw:造訪網站;"
     },
     {
       "original": "visual",
@@ -5496,12 +5552,8 @@
       "conv": "zh-cn:逻辑卷管理; zh-tw:邏輯捲軸管理;"
     },
     {
-      "original": "Virtual Private Network",
-      "conv": "zh-cn:虚拟专用网; zh-tw:虛擬私人網路;"
-    },
-    {
       "original": "von Neumann",
-      "conv": "zh-cn:冯·诺伊曼; zh-tw:馮·紐曼;"
+      "conv": "zh-hant:馮諾依曼; zh-hans:冯诺伊曼; zh-tw:馮諾伊曼;zh-cn:冯诺依曼;zh-hk:馮紐曼;"
     },
     {
       "original": "wallpaper",
@@ -5553,15 +5605,15 @@
     },
     {
       "original": "wide screen",
-      "conv": "zh-cn:宽屏;zh-tw:寬螢幕;zh-hk:寬屏幕;"
+      "conv": "zh-cn:宽屏;zh-tw:寬螢幕;zh-hk:闊螢幕;"
     },
     {
       "original": "wide screen",
-      "conv": "宽面屏=>zh-tw:寬螢幕;宽面屏=>zh-hk:寬屏幕;宽面屏=>zh-mo:寬屏幕;"
+      "conv": "宽面屏=>zh-tw:寬螢幕;宽面屏=>zh-hk:闊螢幕;宽面屏=>zh-mo:闊螢幕;"
     },
     {
       "original": "wide screen",
-      "conv": "寬面屏=>zh-tw:寬螢幕;寬面屏=>zh-hk:寬屏幕;寬面屏=>zh-mo:寬屏幕;"
+      "conv": "寬面屏=>zh-tw:寬螢幕;寬面屏=>zh-hk:闊螢幕;寬面屏=>zh-mo:闊螢幕;"
     },
     {
       "original": "Windows Explorer",
@@ -5626,6 +5678,10 @@
     {
       "original": "Yottabyte",
       "conv": "zh-hans:尧字节; zh-hant:佑位元組;"
+    },
+    {
+      "original": "y2k",
+      "conv": "zh-hans:千年虫; zh-hk:千年蟲; zh-tw:千禧蟲;"
     },
     {
       "original": "Zettabyte",
@@ -6200,32 +6256,8 @@
       "conv": "zh-hans:毫比特; zh-hant:毫比特;"
     },
     {
-      "original": "functional",
-      "conv": "zh-hans:函数式; zh-hant:函數式;"
-    },
-    {
-      "original": "Office Suite",
-      "conv": "zh-hans:办公室套件; zh-hant:辦公室套件;"
-    },
-    {
-      "original": "PPTV",
-      "conv": "zh-hans:PP视频; zh-hant:PP視頻;"
-    },
-    {
-      "original": "real mode",
-      "conv": "真实模式=>zh-tw:真實模式; 真实模式=>zh-hk:真實模式; 真实模式=>zh-mo:真實模式;"
-    },
-    {
-      "original": "rolling update",
-      "conv": "zh-hans:滚动更新; zh-hant:滾動更新;"
-    },
-    {
-      "original": "script kiddie",
-      "conv": "zh-hans:脚本小子; zh-hant:腳本小子;"
-    },
-    {
-      "original": "tablet computer",
-      "conv": "zh-hans:平板电脑; zh-hant:平板電腦;"
+      "original": "function library",
+      "conv": "zh-cn:函数库; zh-tw:函式庫;"
     },
     {
       "original": "theme",

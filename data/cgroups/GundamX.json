@@ -1,0 +1,271 @@
+{
+  "name": "GundamX",
+  "description": "機動新世紀GUNDAMX",
+  "path": "Template:CGroup/GundamX",
+  "rules": [
+    {
+      "original": "ガロード",
+      "conv": "zh-hans:嘉罗德;zh-tw:嘉羅德;zh-hk:卡洛"
+    },
+    {
+      "original": "ガロード・ラン",
+      "conv": "zh-hans:嘉罗德·兰;zh-tw:嘉羅德·蘭;zh-hk:卡洛·萊"
+    },
+    {
+      "original": "ティファ",
+      "conv": "zh-hans:蒂法;zh-tw:蒂法;zh-hk:荻花"
+    },
+    {
+      "original": "アディール",
+      "conv": "zh-hans:安迪尔;zh-tw:安迪爾;zh-hk:艾迪洛"
+    },
+    {
+      "original": "ジャミル",
+      "conv": "zh-hans:加米尔;zh-tw:賈米爾;zh-hk:舒文"
+    },
+    {
+      "original": "ウィッツ",
+      "conv": "zh-hans:威兹;zh-tw:威茲;zh-hk:胡斯"
+    },
+    {
+      "original": "ロアビィ",
+      "conv": "zh-hans:罗阿比;zh-tw:羅亞比;zh-hk:羅比"
+    },
+    {
+      "original": "ロアビィ・ロイ",
+      "conv": "zh-hans:罗阿比·罗伊;zh-tw:羅亞比·羅伊;zh-hk:羅比·勞"
+    },
+    {
+      "original": "トニヤ",
+      "conv": "zh-hans:托尼娅;zh-tw:托尼婭;zh-hk:杜莉亞"
+    },
+    {
+      "original": "シンゴ",
+      "conv": "zh-hans:信吾;zh-tw:信吾;zh-hk:積高"
+    },
+    {
+      "original": "テクス",
+      "conv": "zh-hans:泰克斯;zh-tw:泰克斯;zh-hk:迪古"
+    },
+    {
+      "original": "キッド",
+      "conv": "zh-hans:基德;zh-tw:奇多;zh-hk:傑特"
+    },
+    {
+      "original": "サルサミル",
+      "conv": "zh-hans:沙尔沙米尔;zh-tw:薩魯薩米爾;zh-hk:沙米路"
+    },
+    {
+      "original": "カリス",
+      "conv": "zh-hans:卡利斯;zh-tw:卡利斯;zh-hk:加歷斯"
+    },
+    {
+      "original": "ノーティラス",
+      "conv": "zh-hans:罗迪拉斯;zh-tw:羅迪拉斯;zh-hk:諾迪尼斯"
+    },
+    {
+      "original": "エニル",
+      "conv": "zh-hans:爱妮尔;zh-tw:安妮;zh-hk:艾妮露"
+    },
+    {
+      "original": "エニル・エル",
+      "conv": "zh-hans:爱妮尔·艾尔;zh-tw:安妮·艾爾;zh-hk:艾妮露·艾活"
+    },
+    {
+      "original": "ナーダ・エル",
+      "conv": "zh-hans:那达·艾尔;zh-tw:那達·艾爾;zh-hk:納達·艾活"
+    },
+    {
+      "original": "パーラ",
+      "conv": "zh-hans:帕菈;zh-tw:帕菈;zh-hk:芭娜"
+    },
+    {
+      "original": "パーラ・シス",
+      "conv": "zh-hans:帕菈·西斯;zh-tw:帕菈·西斯;zh-hk:芭娜·絲"
+    },
+    {
+      "original": "シャギア",
+      "conv": "zh-hans:沙基亚;zh-tw:夏基亞;zh-hk:積基亞"
+    },
+    {
+      "original": "オルバ",
+      "conv": "zh-hans:欧尔巴;zh-tw:歐魯巴;zh-hk:奧魯巴"
+    },
+    {
+      "original": "フロスト",
+      "conv": "zh-hans:弗罗斯特;zh-tw:弗羅斯特;zh-hk:科洛特"
+    },
+    {
+      "original": "フォン・アルタネイティヴ",
+      "conv": "zh-hans:冯·阿尔塔尼提夫;zh-tw:馮·阿爾塔尼提夫;zh-hk:方·亞達利洛華"
+    },
+    {
+      "original": "アルタネイティヴ",
+      "conv": "zh-hans:阿尔塔尼提夫;zh-tw:阿爾塔尼提夫;zh-hk:亞達利洛華"
+    },
+    {
+      "original": "ノモア",
+      "conv": "zh-hans:诺莫尔;zh-tw:諾莫爾;zh-hk:羅莫亞"
+    },
+    {
+      "original": "コルトル",
+      "conv": "zh-hans:科朵露;zh-tw:科朵露;zh-hk:歌度爾"
+    },
+    {
+      "original": "サエリア",
+      "conv": "zh-hans:塞莉亚;zh-tw:塞莉亞;zh-hk:西莉亞"
+    },
+    {
+      "original": "ドラッソ",
+      "conv": "zh-hans:德拉索;zh-tw:德拉索;zh-hk:杜勒遜"
+    },
+    {
+      "original": "オニミム",
+      "conv": "zh-hans:奥妮米姆;zh-tw:奧妮米姆;zh-hk:奧莉美"
+    },
+    {
+      "original": "ショーラ",
+      "conv": "zh-hans:修拉;zh-tw:修拉;zh-hk:蘇娜"
+    },
+    {
+      "original": "ルチル",
+      "conv": "zh-hans:露姬兒;zh-tw:露姬兒;zh-hk:露絲爾"
+    },
+    {
+      "original": "リリアント",
+      "conv": "zh-hans:利利安多;zh-tw:利利安多;zh-hk:利利亞"
+    },
+    {
+      "original": "カトック",
+      "conv": "zh-hans:卡托克;zh-tw:卡托克;zh-hk:加特古"
+    },
+    {
+      "original": "アルザミール",
+      "conv": "zh-hans:阿鲁扎米尔;zh-tw:阿魯扎米爾;zh-hk:阿魯沙米"
+    },
+    {
+      "original": "ブラッドマン",
+      "conv": "zh-hans:布拉德曼;zh-tw:布拉德曼;zh-hk:布拉度"
+    },
+    {
+      "original": "デマー",
+      "conv": "zh-hans:德曼爾;zh-tw:德曼爾;zh-hk:迪馬"
+    },
+    {
+      "original": "ドゥエート",
+      "conv": "zh-hans:德溫特;zh-tw:德溫特;zh-hk:杜艾圖"
+    },
+    {
+      "original": "ラングラフ",
+      "conv": "zh-hans:朗格拉夫;zh-tw:朗格拉夫;zh-hk:蘭古利夫"
+    },
+    {
+      "original": "ミルラ",
+      "conv": "zh-hans:米尔莱;zh-tw:米爾萊;zh-hk:米拿"
+    },
+    {
+      "original": "ドライド",
+      "conv": "zh-hans:德莱杜;zh-tw:德萊杜;zh-hk:杜雷度"
+    },
+    {
+      "original": "アベル",
+      "conv": "zh-hans:阿贝尔;zh-tw:阿貝爾;zh-hk:阿比路"
+    },
+    {
+      "original": "バウアー",
+      "conv": "zh-hans:鲍尔;zh-tw:鮑爾;zh-hk:包維"
+    },
+    {
+      "original": "カロン",
+      "conv": "zh-hans:卡伦;zh-tw:卡倫;zh-hk:嘉露"
+    },
+    {
+      "original": "ラット",
+      "conv": "zh-hans:拉特;zh-tw:拉特;zh-hk:蘭特"
+    },
+    {
+      "original": "ランスロー",
+      "conv": "zh-hans:兰斯洛;zh-tw:蘭斯洛;zh-hk:藍斯朗"
+    },
+    {
+      "original": "ダーウェル",
+      "conv": "zh-hans:达威尔;zh-tw:達威爾;zh-hk:達威"
+    },
+    {
+      "original": "ザイデル",
+      "conv": "zh-hans:扎德尔;zh-tw:扎德爾;zh-hk:宰達"
+    },
+    {
+      "original": "ニコラ",
+      "conv": "zh-hans:尼可拉;zh-tw:尼可拉;zh-hk:尼古拉"
+    },
+    {
+      "original": "ジャクソン",
+      "conv": "zh-hans:杰克森;zh-tw:傑克森;zh-hk:積遜"
+    },
+    {
+      "original": "ガンダム",
+      "conv": "zh:GUNDAM;zh-hans:高达;zh-hk:高達;zh-tw:鋼彈;"
+    },
+    {
+      "original": "ガンダムX",
+      "conv": "zh:GUNDAM X;zh-hans:高达X;zh-hk:高達X;zh-tw:鋼彈X;"
+    },
+    {
+      "original": "ガンダムDX",
+      "conv": "zh:GUNDAM DX;zh-hans:高达DX;zh-hk:高達DX;zh-tw:鋼彈DX;"
+    },
+    {
+      "original": "Gビット",
+      "conv": "zh-hans:G子机;zh-hk:G BIT;zh-tw:G子機;"
+    },
+    {
+      "original": "パトゥーリア",
+      "conv": "zh-hans:帕特利亞; zh-hk:巴特利亞;zh-tw:帕特利亞;"
+    },
+    {
+      "original": "ベルティゴ",
+      "conv": "zh-hans:貝迪可;zh-tw:貝迪可;zh-hk:貝迪高"
+    },
+    {
+      "original": "ビーム",
+      "conv": "zh-hans:光束;zh-hk:鐳射;zh-tw:光束;"
+    },
+    {
+      "original": "ビームサーベル",
+      "conv": "zh-hans:光束军刀;zh-hk:鐳射劍;zh-tw:光束軍刀;"
+    },
+    {
+      "original": "ライフル",
+      "conv": "zh-hans:來福槍; zh-cn:来福枪; zh-hk:步槍;zh-tw:步槍;"
+    },
+    {
+      "original": "ヒートアックス、Heat Axe",
+      "conv": "zh-hans:电热斧; zh-tw:電熱斧; zh-hk:熱能斧;"
+    },
+    {
+      "original": "フラッシュシステム",
+      "conv": "zh-hans:闪光系统; zh-tw:閃光系統; zh-hk:閃影系統;"
+    },
+    {
+      "original": "ニュータイプ",
+      "conv": "zh-hans:NewType; zh-tw:新人類; zh-hk:新人類;"
+    },
+    {
+      "original": "ファーストニュータイプ",
+      "conv": "zh-hans:First NewType; zh-tw:First NewType; zh-hk:第一代新人類;"
+    },
+    {
+      "original": "フォートセバーン",
+      "conv": "zh-hans:福特塞邦; zh-hk:科巴特;zh-tw:福特塞邦;"
+    },
+    {
+      "original": "エスタルド",
+      "conv": "zh-hans:艾斯塔爾德; zh-hk:愛士杜;zh-tw:艾斯塔爾德;"
+    },
+    {
+      "original": "サテリコン",
+      "conv": "zh-hans:萨蒂里孔; zh-hk:衛星戰線;zh-tw:薩蒂里孔;"
+    }
+  ]
+}

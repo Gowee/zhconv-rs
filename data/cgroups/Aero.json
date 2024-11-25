@@ -33,7 +33,7 @@
     },
     {
       "original": "Airbus SE",
-      "conv": "zh-hant:空中巴士公司;zh-hans:欧洲宇航防务集团;"
+      "conv": "zh-hant:空中巴士公司;zh-hans:空中客车集团;"
     },
     {
       "original": "Airbus SE",
@@ -42,6 +42,10 @@
     {
       "original": "[[後燃器|afterburner]]",
       "conv": "zh-cn:加力燃烧室; zh-tw:後燃器; zh-hk:後燃器;"
+    },
+    {
+      "original": "Air brake",
+      "conv": "zh-hant:減速板;zh-hans:空气制动器;"
     },
     {
       "original": "[[空中巴士|airbus]]",
@@ -69,11 +73,11 @@
     },
     {
       "original": "[[阿波罗计划|Apollo program]]",
-      "conv": "zh-cn:阿波罗计划; zh-tw:阿波羅計畫; zh-hk:太陽神計劃"
+      "conv": "zh-cn:阿波罗计划; zh-tw:阿波羅計畫; zh-hk:太陽神計劃;"
     },
     {
       "original": "[[阿波罗计划|Apollo]]",
-      "conv": "zh-cn:阿波罗; zh-tw:阿波羅; zh-hk:太陽神"
+      "conv": "zh-cn:阿波罗; zh-tw:阿波羅; zh-hk:太陽神;"
     },
     {
       "original": "approach",
@@ -84,12 +88,16 @@
       "conv": "zh-cn:阿拉多; zh-tw:阿拉多; zh-hk:阿拉度;"
     },
     {
-      "original": "[[阿耳忒弥斯计划|Artemis program]]",
-      "conv": "zh-cn:阿耳忒弥斯计划; zh-tw:阿提米絲計畫; zh-hk:阿提米絲計畫;"
+      "original": "Artemis",
+      "conv": "zh-cn:阿耳忒弥斯;zh-hans:阿尔忒弥斯; zh-tw:阿提米絲;"
+    },
+    {
+      "original": "[[阿耳忒弥斯协定|Artemis Accords]]",
+      "conv": "zh-cn:阿耳忒弥斯协定;zh-hans:阿尔忒弥斯协议; zh-tw:阿提米絲協議; zh-hk:阿耳忒彌斯協議;"
     },
     {
       "original": "astronaut",
-      "conv": "zh-tw:太空人; zh-cn:宇航员; zh-hk:太空人; zh-sg:宇航员;"
+      "conv": "zh-hant:宇航員; zh-tw:太空人; zh-cn:宇航员; zh-hk:太空人; zh-sg:宇航员;"
     },
     {
       "original": "astronaut",
@@ -176,12 +184,20 @@
       "conv": "zh-cn:双组元; zh-tw:雙基; zh-hk:雙基;"
     },
     {
+      "original": "business class",
+      "conv": "zh-cn:公务舱; zh-tw:商務艙; zh-hk:商務客位;"
+    },
+    {
       "original": "[[卡納維爾角空軍基地|Cape Canaveral Air Force Station]]",
       "conv": "zh-tw:卡納維爾角空軍基地; zh-hk:卡納維拉爾角空軍基地; zh-cn:卡纳维拉尔角空军基地;"
     },
     {
+      "original": "[[Cape Canaveral Air Force Station]]",
+      "conv": "zh-tw:卡納維爾角空軍基地; zh-hk:卡納維拉爾角空軍基地; zh-cn:卡纳维拉尔角空军基地;"
+    },
+    {
       "original": "civil aircraft",
-      "conv": "zh-cn:民用飞机; zh-tw:民航機;zh-hk:民用飛機"
+      "conv": "zh-cn:民用飞机; zh-tw:民航機;zh-hk:民用飛機;"
     },
     {
       "original": "[[壓縮機|compressor]]",
@@ -256,16 +272,24 @@
       "conv": "zh-cn:多普勒; zh-tw:都卜勒; zh-hk:多普勒;"
     },
     {
+      "original": "SpaceX Dragon",
+      "conv": "zh-hans:龙飞船; zh-hk:龍飛船; zh-tw:飛龍號太空船;"
+    },
+    {
+      "original": "[[逐夢者太空飛機|Dream Chaser]]",
+      "conv": "zh-tw:逐夢者太空飛機;zh-cn:追梦者号航天飞机;"
+    },
+    {
       "original": "Dreamliner",
       "conv": "zh-tw:夢幻客機;zh-cn:梦想客机;"
     },
     {
-      "original": "[[引擎|Engine]]",
-      "conv": "zh-cn:发动机; zh-tw:引擎;zh-hk:引擎;"
+      "original": "economy class",
+      "conv": "zh-cn:经济舱; zh-tw:經濟艙; zh-hk:經濟客位;"
     },
     {
-      "original": "[[欧洲空间局|ESA]]",
-      "conv": "zh-cn:欧洲空间局; zh-tw:歐洲太空總署; zh-hk:歐洲太空總署;"
+      "original": "Electrochromism",
+      "conv": "zh-tw:電致色變;zh-cn:电致变色;"
     },
     {
       "original": "Emirates",
@@ -276,8 +300,12 @@
       "conv": "zh-tw:阿聯酋;zh-cn:阿联酋;"
     },
     {
-      "original": "Electrochromism",
-      "conv": "zh-tw:電致色變;zh-cn:电致变色;"
+      "original": "[[引擎|Engine]]",
+      "conv": "zh-cn:发动机; zh-tw:引擎;zh-hk:引擎;"
+    },
+    {
+      "original": "[[欧洲空间局|ESA]]",
+      "conv": "zh-cn:欧洲空间局; zh-tw:歐洲太空總署; zh-hk:歐洲太空總署;"
     },
     {
       "original": "[[FAA|Federal Aviation Administration]]",
@@ -305,7 +333,7 @@
     },
     {
       "original": "[[飞行工程师|flight engineer]]",
-      "conv": "zh-cn:飞行工程师; zh-tw:飛航工程師; zh-hk:飛行工程師"
+      "conv": "zh-cn:飞行工程师; zh-tw:飛航工程師; zh-hk:飛行工程師;"
     },
     {
       "original": "Flight plan",
@@ -313,15 +341,27 @@
     },
     {
       "original": "[[線傳操控|Fly-By-Wire]]",
-      "conv": "zh-cn:电传操纵; zh-tw:線傳飛控; zh-hk:線傳操控"
+      "conv": "zh-cn:电传操纵; zh-tw:線傳飛控; zh-hk:線傳操控;"
     },
     {
       "original": "[[線傳|Fly-By-Wire]]",
-      "conv": "zh-cn:电传; zh-tw:線傳; zh-hk:線傳"
+      "conv": "zh-cn:电传; zh-tw:線傳; zh-hk:線傳;"
     },
     {
       "original": "[[飛翼|flying wing]]",
       "conv": "zh-cn:飞翼; zh-tw:飛翼;"
+    },
+    {
+      "original": "first class",
+      "conv": "zh-cn:头等舱; zh-tw:頭等艙; zh-hk:頭等客位;"
+    },
+    {
+      "original": "[[嘉鲁达印尼航空|Garuda]]",
+      "conv": "zh-cn:印尼鹰航;zh-tw:嘉魯達;"
+    },
+    {
+      "original": "[[嘉鲁达印尼航空|Garuda Indonesia]]",
+      "conv": "zh-cn:印度尼西亚鹰航空;zh-tw:嘉魯達印尼航空;"
     },
     {
       "original": "[[通用电气|GE]]",
@@ -388,6 +428,10 @@
       "conv": "zh-cn:喷气; zh-tw:噴射; zh-hk:噴射;"
     },
     {
+      "original": "jet",
+      "conv": "噴氣=>zh-cn:喷气; 噴氣=>zh-tw:噴射; 噴氣=>zh-hk:噴射;"
+    },
+    {
       "original": "[[噴射發動機|jet engine]]",
       "conv": "zh-cn:喷气发动机; zh-tw:噴射發動機; zh-hk:噴射引擎;"
     },
@@ -413,7 +457,7 @@
     },
     {
       "original": "[[水星计划|Project Mercury]]",
-      "conv": "zh-cn:水星计划; zh-tw:水星計畫; zh-hk:水星計畫;"
+      "conv": "zh-cn:水星计划; zh-tw:水星計畫; zh-hk:水星計劃;"
     },
     {
       "original": "[[默林火箭发动机|Merlin]]",
@@ -453,11 +497,35 @@
     },
     {
       "original": "NASA",
-      "conv": "zh-cn:美国国家航空航天局; zh-tw:美國航空暨太空總署; zh-hk:美國太空總署;"
+      "conv": "zh-cn:美国国家航空航天局; zh-tw:美國國家航空暨太空總署; zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美国宇航局=>zh-cn:美国宇航局; 美国宇航局=>zh-tw:美國太空總署; 美国宇航局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美國宇航局=>zh-cn:美国宇航局; 美國宇航局=>zh-tw:美國太空總署; 美國宇航局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美國航天局=>zh-cn:美国宇航局; 美國航天局=>zh-tw:美國太空總署; 美國航天局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美国航天局=>zh-cn:美国宇航局; 美国航天局=>zh-tw:美國太空總署; 美国航天局=>zh-hk:美國太空總署;"
     },
     {
       "original": "National Space Organization",
       "conv": "zh:國家太空中心; zh-hant:國家太空中心; zh-hans:国家太空中心;"
+    },
+    {
+      "original": "[[新葛倫火箭|New Glenn]]",
+      "conv": "zh-hans:新葛伦火箭;zh-cn:新格伦火箭;zh-hk:新格倫火箭;zh-tw:新葛倫火箭;"
+    },
+    {
+      "original": "[[新雪帕德火箭|New Shepard]]",
+      "conv": "zh-hans:新谢泼德火箭;zh-hk:新謝潑德火箭;zh-tw:新雪帕德火箭;"
     },
     {
       "original": "[[噴嘴|nozzle]]",
@@ -476,12 +544,20 @@
       "conv": "zh-tw:營運;zh-cn:运营;"
     },
     {
+      "original": "[[猎户座飞船|Orion (spacecraft)]]",
+      "conv": "zh-tw:獵戶座太空船;zh-cn:猎户座飞船;zh-hk:獵戶座太空船;"
+    },
+    {
       "original": "[[Pallet]]",
       "conv": "zh-hant:貨盤;zh-hans:貨板;"
     },
     {
       "original": "[[酬載|payload]]",
       "conv": "zh-tw:酬載;zh-cn:有效载荷;zh-hk:載荷;"
+    },
+    {
+      "original": "[[酬載|payload]]",
+      "conv": "有效酬載=>zh-cn:有效载荷;有效酬載=>zh-tw:酬載;有效酬載=>zh-hk:載荷;"
     },
     {
       "original": "[[皮托管|pitot tube]]",
@@ -497,23 +573,27 @@
     },
     {
       "original": "[[計畫|Project]]",
-      "conv": "zh-cn:项目; zh-tw:計畫; zh-hk:專案;"
+      "conv": "zh-cn:计划; zh-tw:計畫; zh-hk:計劃;"
     },
     {
       "original": "[[雙子座計畫|Project Gemini]]",
-      "conv": "zh-cn:双子座计划; zh-tw:雙子星計畫; zh-hk:雙子座計畫;"
+      "conv": "zh-cn:双子座计划; zh-tw:雙子星計畫; zh-hk:雙子座計劃;"
     },
     {
       "original": "pilot",
       "conv": "zh-tw:機師;zh-cn:飞行员;"
     },
     {
+      "original": "premium economy class",
+      "conv": "zh-cn:优质经济舱; zh-tw:豪華經濟艙; zh-hk:優質經濟客位;"
+    },
+    {
       "original": "Qatar",
-      "conv": "zh-tw:卡達;zh-cn:卡塔尔;"
+      "conv": "zh-cn:卡塔尔;zh-tw:卡達;zh-hk:卡塔爾;"
     },
     {
       "original": "Qatar Airline",
-      "conv": "zh-tw:卡達航空;zh-cn:卡塔尔航空;"
+      "conv": "zh-cn:卡塔尔航空;zh-tw:卡達航空;zh-hk:卡塔爾航空;"
     },
     {
       "original": "[[支线飞机|Regional airliner]]",
@@ -545,10 +625,10 @@
     },
     {
       "original": "Rolls-Royce",
-      "conv": "zh-hans:罗尔斯·罗伊斯; zh-hant:勞斯萊斯; zh-sg:劳斯莱斯; "
+      "conv": "zh-hans:罗尔斯·罗伊斯; zh-hant:勞斯萊斯; zh-sg:劳斯莱斯; ;"
     },
     {
-      "original": "[[萨博|Saab]]",
+      "original": "[[萨博|saab]]",
       "conv": "zh-cn:萨博; zh-tw:紳寶; zh-hk:薩博;"
     },
     {
@@ -572,55 +652,67 @@
       "conv": "zh-cn:激波; zh-tw:震波;"
     },
     {
-      "original": "Single Aisle Aircraft",
+      "original": "New Shephard",
+      "conv": "zh-hans:谢泼德;zh-hk:謝潑德;zh-tw:雪帕德;"
+    },
+    {
+      "original": "single aisle aircraft",
       "conv": "zh-cn:窄体飞机; zh-hant:單走道客機;"
     },
     {
-      "original": "[[天空实验室计划|Skylab]]",
+      "original": "[[天空实验室计划|skylab]]",
       "conv": "zh-hant:太空實驗室; zh-hans:天空实验室;"
     },
     {
-      "original": "[[航天器|Spacecraft]]",
+      "original": "[[航天器|spacecraft]]",
       "conv": "zh-cn:航天器; zh-tw:太空載具; zh-hk:太空船; zh-sg:航天器;"
     },
     {
-      "original": "[[航天发射中心|Spaceport]]",
+      "original": "[[航天发射中心|spaceport]]",
       "conv": "zh-cn:航天港; zh-tw:太空港; zh-hk:太空港; zh-sg:航天港;"
     },
     {
-      "original": "Space Forces",
+      "original": "space Forces",
       "conv": "zh-hant:太空部隊; zh-hans:航天部队;"
     },
     {
-      "original": "[[太空會合|Space rendezvous]]",
+      "original": "[[太空會合|space rendezvous]]",
       "conv": "zh-cn:空间交会; zh-tw:太空會合; zh-hk:太空會合;"
     },
     {
-      "original": "[[空间科学|Space science]]",
+      "original": "[[空间科学|space science]]",
       "conv": "zh-hant:太空科學; zh-hans:空间科学;"
     },
     {
-      "original": "[[航天飞机|Space Shuttle]]",
+      "original": "[[航天飞机|space Shuttle]]",
       "conv": "zh-cn:航天飞机; zh-tw:太空梭; zh-hk:穿梭機; zh-sg:太空梭;"
     },
     {
-      "original": "Sputnik",
+      "original": "[[航天服|Space suit]]",
+      "conv": "zh-cn:航天服; zh-tw:太空衣;"
+    },
+    {
+      "original": "sputnik",
       "conv": "zh-cn:斯普特尼克; zh-tw:史普尼克; zh-hk:史普尼克;"
     },
     {
-      "original": "Spy",
+      "original": "spy",
       "conv": "zh-cn:特工; zh-tw:特務; zh-hk:特務;"
     },
     {
-      "original": "Stage",
-      "conv": "zh-cn:级火箭;zh-tw:節火箭"
+      "original": "stage",
+      "conv": "zh-cn:级火箭;zh-tw:節火箭;"
+    },
+    {
+      "original": "sub-orbital",
+      "conv": "zh-tw:次軌道; zh-cn:亚轨道; zh-hk:亞軌道;"
     },
     {
       "original": "[[次音速|subsonic]]",
       "conv": "zh-tw:次音速; zh-cn:亚音速; zh-hk:亞音速;"
     },
     {
-      "original": "Suchoi",
+      "original": "suchoi",
       "conv": "zh-hans:苏霍伊; zh-hant:蘇愷;"
     },
     {
@@ -628,15 +720,19 @@
       "conv": "zh-hans:苏-; zh-tw:蘇愷-; zh-hk:Su-;"
     },
     {
-      "original": "[[航天中心|Space center]]",
+      "original": "[[航天中心|space center]]",
       "conv": "zh-hant:太空中心; zh-hans:航天中心;"
     },
     {
-      "original": "[[空间发射系统|Space Launch System]]",
-      "conv": "zh-hant:太空發射系統;zh-cn:空间发射系统;"
+      "original": "space flight center",
+      "conv": "太空飛行中心=>zh-hans:航天中心; 太空飞行中心=>zh-hans:航天中心;"
     },
     {
-      "original": "[[太空站|Space station]]",
+      "original": "[[太空發射系統|space launch system]]",
+      "conv": "zh-hant:太空發射系統;zh-cn:太空发射系统;"
+    },
+    {
+      "original": "[[太空站|space station]]",
       "conv": "zh-tw:太空站;zh-hk:太空站;zh-cn:空间站;"
     },
     {
@@ -648,12 +744,16 @@
       "conv": "zh-hans:隐形; zh-hant:匿蹤;"
     },
     {
-      "original": "Super Sabre",
+      "original": "Starliner",
+      "conv": "zh-cn:星际客机; zh-hk:星際客機; zh-tw:星際飛機;"
+    },
+    {
+      "original": "super sabre",
       "conv": "zh-hans:超佩刀; zh-tw:超級軍刀;"
     },
     {
-      "original": "Supercritical airfoil",
-      "conv": "zh-cn:超临界机翼;zh-tw:超臨界翼型"
+      "original": "supercritical airfoil",
+      "conv": "zh-cn:超临界机翼;zh-tw:超臨界翼型;"
     },
     {
       "original": "Thrust Vector",
@@ -717,23 +817,23 @@
     },
     {
       "original": "turbofan enging",
-      "conv": "zh-cn:涡轮风扇发动机; zh-tw:渦輪扇發動機;zh-hk:渦輪風扇引擎"
+      "conv": "zh-cn:涡轮风扇发动机; zh-tw:渦輪扇發動機;zh-hk:渦輪風扇引擎;"
     },
     {
       "original": "[[渦輪噴射發動機|turbojet engine]]",
-      "conv": "zh-cn:涡轮喷气发动机; zh-tw:渦輪噴射發動機;zh-hk:渦輪噴射引擎"
+      "conv": "zh-cn:涡轮喷气发动机; zh-tw:渦輪噴射發動機;zh-hk:渦輪噴射引擎;"
     },
     {
       "original": "turboshaft enging",
-      "conv": "zh-cn:涡轮螺旋桨发动机; zh-tw:渦輪旋槳發動機; zh-hk:渦輪槳發引擎"
+      "conv": "zh-cn:涡轮螺旋桨发动机; zh-tw:渦輪旋槳發動機; zh-hk:渦輪槳發引擎;"
     },
     {
       "original": "[[型別檢定證|type certificate]]",
-      "conv": "zh-cn:型号合格证; zh-tw:型別檢定證; zh-hk:型號合格證"
+      "conv": "zh-cn:型号合格证; zh-tw:型別檢定證; zh-hk:型號合格證;"
     },
     {
       "original": "UK Space Agency",
-      "conv": "zh:英國太空局; zh-hant:英國太空局; zh-tw:英國太空署; zh-hk:英國太空總署; zh-cn:英国航天局; zh-sg:英国宇航署; "
+      "conv": "zh:英國太空局; zh-hant:英國太空局; zh-tw:英國太空署; zh-hk:英國太空總署; zh-cn:英国航天局; zh-sg:英国宇航署; ;"
     },
     {
       "original": "Unit load device",
@@ -745,7 +845,7 @@
     },
     {
       "original": "[[航天器裝配大樓|Vehicle Assembly Building]]",
-      "conv": "zh-cn:航天器装配大楼; zh-tw:飛行器裝配大樓; zh-hk:航天器裝配大樓"
+      "conv": "zh-cn:航天器装配大楼; zh-tw:飛行器裝配大樓; zh-hk:航天器裝配大樓;"
     },
     {
       "original": "[[向量|Vector]]",
@@ -766,6 +866,46 @@
     {
       "original": "Miller",
       "conv": "zh-hans:米勒; zh-hant:米勒;"
+    },
+    {
+      "original": "국가항공우주기술총국",
+      "conv": "zh-hans:国家航空航天技术总局; zh-hant:國家航空航天技術總局;"
+    },
+    {
+      "original": "国家航天局",
+      "conv": "zh-hans:国家航天局; zh-hant:國家航天局;"
+    },
+    {
+      "original": "中国航天",
+      "conv": "zh-hans:中国航天; zh-hant:中國航天;"
+    },
+    {
+      "original": "中国空间站",
+      "conv": "zh-hans:中国空间站; zh-hant:中國空間站;"
+    },
+    {
+      "original": "天宫空间站",
+      "conv": "zh-hans:天宫空间站; zh-hant:天宮空間站;"
+    },
+    {
+      "original": "中国载人航天",
+      "conv": "zh-hans:中国载人航天; zh-hant:中國載人航天;"
+    },
+    {
+      "original": "航天系统部",
+      "conv": "zh-hans:航天系统部; zh-hant:航天系統部;"
+    },
+    {
+      "original": "北京航天飞行控制中心",
+      "conv": "zh-hans:北京航天飞行控制中心; zh-hant:北京航天飛行控制中心;"
+    },
+    {
+      "original": "昊龙货运航天飞机",
+      "conv": "zh-hans:昊龙货运航天飞机; zh-hant:昊龍貨運航天飛機;"
+    },
+    {
+      "original": "可重复使用试验航天器",
+      "conv": "zh-hans:可重复使用试验航天器; zh-hant:可重複使用試驗航天器;"
     }
   ]
 }

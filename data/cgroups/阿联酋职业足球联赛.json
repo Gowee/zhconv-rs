@@ -4,12 +4,32 @@
   "path": "Module:CGroup/阿联酋职业足球联赛",
   "rules": [
     {
+      "original": "Al-Ahli FC",
+      "conv": "zh:迪拜阿赫利足球俱乐部;zh-hans:迪拜国民足球俱乐部;zh-hant:國民杜拜足球俱樂部;zh-cn:迪拜国民足球俱乐部;zh-hk:阿爾阿里杜拜足球會;"
+    },
+    {
       "original": "Al-Ahli",
-      "conv": "zh:迪拜阿赫利;zh-hans:迪拜国民;zh-hant:杜拜國民;zh-cn:迪拜国民;zh-hk:阿爾阿里;"
+      "conv": "zh:迪拜阿赫利;zh-hans:迪拜国民;zh-hant:國民杜拜;zh-cn:迪拜国民;zh-hk:阿爾阿里杜拜;"
+    },
+    {
+      "original": "Al-Ahli",
+      "conv": "zh:阿赫利;zh-hans:国民;zh-hant:國民;zh-cn:国民;zh-hk:阿爾阿里;"
     },
     {
       "original": "Shabab Al-Ahli",
-      "conv": "zh:沙巴布阿赫利;zh-hans:青年国民;zh-hant:青年國民;zh-cn:青年国民;zh-hk:艾沙比阿爾阿里;"
+      "conv": "zh:沙比阿爾阿里杜拜足球會;zh-hans:迪拜青年国民足球俱乐部;zh-hant:青年國民杜拜足球俱樂部;zh-cn:迪拜青年国民足球俱乐部;zh-hk:沙比阿爾阿里杜拜足球會;"
+    },
+    {
+      "original": "Shabab Al-Ahli",
+      "conv": "zh:沙比阿爾阿里;zh-hans:青年国民;zh-hant:青年國民;zh-cn:迪拜青年国民;zh-hk:沙比阿爾阿里;"
+    },
+    {
+      "original": "Shabab Al-Ahli",
+      "conv": "zh:沙比艾阿里;zh-hans:青年国民;zh-hant:青年國民;zh-cn:迪拜青年国民;zh-hk:沙比阿爾阿里;"
+    },
+    {
+      "original": "Shabab Al-Ahli",
+      "conv": "zh:沙巴布阿赫利;zh-hans:青年国民;zh-hant:青年國民;zh-cn:迪拜青年国民;zh-hk:艾沙比阿爾阿里;"
     },
     {
       "original": "Al Ain",
@@ -28,8 +48,12 @@
       "conv": "zh:阿尔贾兹拉;zh-hans:阿布扎比半岛;zh-cn:阿布扎比半岛;zh-hk:阿布扎比半島;zh-hant:阿布扎比半島;zh-tw:阿布達比半島;"
     },
     {
+      "original": "Al Jazira",
+      "conv": "zh:艾查捷拉;zh-hans:阿布扎比半岛;zh-cn:阿布扎比半岛;zh-hk:阿布扎比半島;zh-hant:阿布扎比半島;zh-tw:阿布達比半島;"
+    },
+    {
       "original": "Al-Wahda",
-      "conv": "zh:阿尔华达;zh-hans:阿布扎比联合;zh-cn:阿布扎比联合;zh-hk:阿爾華達;"
+      "conv": "zh:阿尔华达;zh-hans:阿布扎比统一;zh-cn:阿布扎比统一;zh-hk:阿爾華達;"
     },
     {
       "original": "Al Shabab",
@@ -44,16 +68,44 @@
       "conv": "zh:沙迦体育俱乐部;zh-hans:沙迦体育俱乐部;zh-cn:沙迦竞技俱乐部;zh-hk:沙迦體育會;"
     },
     {
+      "original": "Al-Nasr SC",
+      "conv": "zh:阿爾納沙體育會;zh-hans:迪拜胜利体育俱乐部"
+    },
+    {
       "original": "Al Nasr",
-      "conv": "zh:迪拜纳赛尔;zh-hans:迪拜胜利;zh-hant:杜拜勝利;zh-cn:迪拜胜利;zh-hk:杜拜勝利;zh-tw:杜拜勝利"
+      "conv": "zh:阿爾納沙;zh-hans:迪拜胜利;zh-hant:杜拜勝利"
+    },
+    {
+      "original": "Al Nasr",
+      "conv": "zh:迪拜纳赛尔;zh-hans:迪拜胜利;zh-hant:杜拜勝利"
     },
     {
       "original": "Al Wasl",
-      "conv": "zh:阿尔瓦斯尔;zh-hans:迪拜瓦斯尔;zh-cn:迪拜五环;zh-hk:艾華斯爾;"
+      "conv": "zh:阿尔瓦斯尔;zh-hans:迪拜瓦斯勒;zh-cn:迪拜祈祷;zh-hk:艾華斯爾;"
+    },
+    {
+      "original": "Al Wasl",
+      "conv": "迪拜五环=>zh-cn:迪拜祈祷;"
+    },
+    {
+      "original": "Ajman",
+      "conv": "阿積曼=>zh-cn:阿治曼; 阿積曼=>zh-sg:阿治曼; 阿積曼=>zh-my:阿治曼; 阿積曼=>zh-mo:阿治曼; 阿積曼=>zh-tw:阿吉曼; 阿積曼=>zh-hk:阿積曼;"
     },
     {
       "original": "Emirates Club",
-      "conv": "zh:酋长俱乐部;zh-hans:酋长俱乐部;zh-cn:酋长俱乐部;zh-hk:酋長會;"
+      "conv": "zh:酋长文化和体育俱乐部;zh-hans:酋长文化和体育俱乐部;zh-hk:酋長文化和體育會;"
+    },
+    {
+      "original": "Emirates",
+      "conv": "酋長會=>zh-cn:酋长; 酋長會=>zh-sg:酋长; 酋長會=>zh-my:酋长; 酋長會=>zh-hk:酋長會; 酋長會=>zh-tw:酋長;"
+    },
+    {
+      "original": "Ittihad Kalba FC",
+      "conv": "zh:伊蒂哈德卡爾巴足球俱樂部;zh-hans:伊蒂哈德卡尔巴足球俱乐部;zh-cn:凯勒巴联合足球俱乐部;zh-hk:伊蒂哈德卡爾巴足球會;"
+    },
+    {
+      "original": "Ittihad Kalba",
+      "conv": "zh:伊蒂哈德卡爾巴;zh-hans:伊蒂哈德卡尔巴;zh-cn:凯勒巴联合;zh-hk:伊蒂哈德卡爾巴;"
     },
     {
       "original": "Nassr",
@@ -77,15 +129,27 @@
     },
     {
       "original": "UAE Arabian Gulf League",
-      "conv": "zh:阿联酋职业足球联赛;zh-hant:阿聯酋職業足球聯賽;zh-hans:阿联酋阿拉伯海湾联赛;zh-cn:阿联酋阿拉伯海湾联赛;zh-tw:阿聯阿拉伯海灣聯賽;zh-hk:阿聯酋阿拉伯海灣聯賽;"
+      "conv": "zh:阿联酋职业足球联赛;zh-hant:阿聯酋職業足球聯賽;zh-hans:阿联酋职业足球联赛;zh-tw:阿聯阿拉伯海灣聯賽;zh-hk:阿聯酋阿拉伯海灣聯賽;"
+    },
+    {
+      "original": "UAE Division 1",
+      "conv": "zh:阿联酋足球甲级联赛;zh-hans:阿联酋足球甲级联赛;zh-cn:阿联酋足球甲级联赛;zh-tw:阿聯足球甲级聯賽;zh-hk:阿聯酋足球甲組聯賽;"
     },
     {
       "original": "UAE Division 1 Group A",
-      "conv": "zh:阿联酋足球甲级联赛A组;zh-hans:阿联酋足球甲级联赛;zh-cn:阿联酋足球甲级联赛A组;zh-tw:阿聯足球甲级聯賽A組;zh-hk:阿聯酋足球甲組聯賽;"
+      "conv": "zh:阿联酋足球甲级联赛A组;zh-hans:阿联酋足球甲级联赛A组;zh-cn:阿联酋足球甲级联赛A组;zh-tw:阿聯足球甲级聯賽A組;zh-hk:阿聯酋足球甲組聯賽A組;"
     },
     {
       "original": "UAE Division 1 Group B",
-      "conv": "zh:阿联酋足球甲级联赛B组;zh-hans:阿联酋足球乙级联赛;zh-cn:阿联酋足球甲级联赛B组;zh-tw:阿聯足球甲级聯賽A組;zh-hk:阿聯酋足球乙組聯賽;"
+      "conv": "zh:阿联酋足球甲级联赛B组;zh-hans:阿联酋足球甲级联赛B组;zh-cn:阿联酋足球甲级联赛B组;zh-tw:阿聯足球甲级聯賽B組;zh-hk:阿聯酋足球甲組聯賽B組;"
+    },
+    {
+      "original": "UAE Second Division League",
+      "conv": "zh:阿联酋足球乙级联赛;zh-hans:阿联酋足球乙级联赛;zh-tw:阿聯足球乙级聯賽;zh-hk:阿聯酋足球乙組聯賽;"
+    },
+    {
+      "original": "UAE Third Division League",
+      "conv": "zh:阿联酋足球丙级联赛;zh-hans:阿联酋足球丙级联赛;zh-tw:阿聯足球丙级聯賽;zh-hk:阿聯酋足球丙組聯賽;"
     },
     {
       "original": "UAE President s Cup",
@@ -96,7 +160,7 @@
       "conv": "zh:阿联酋联赛杯;zh-hans:阿联酋联赛杯;zh-cn:阿联酋联赛杯;zh-tw:阿聯聯賽盃;zh-hk:阿聯酋聯賽盃;"
     },
     {
-      "original": "Arabian Gulf Super Cup",
+      "original": "UAE Super Cup",
       "conv": "zh:阿联酋超级杯;zh-hans:阿联酋超级杯;zh-cn:阿联酋超级杯;zh-tw:阿聯超级盃;zh-hk:阿聯酋超级盃;"
     }
   ]

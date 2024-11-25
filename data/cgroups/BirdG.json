@@ -4,64 +4,184 @@
   "path": "Module:CGroup/BirdG",
   "rules": [
     {
-      "original": "",
-      "conv": "zh-hans:𮭥; zh-hant:䳍"
+      "original": "Struthioniformes",
+      "conv": "zh-cn:鸵鸟目; zh-tw:鴕形目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𫁡; zh-hant:鴗"
+      "original": "Rheiformes",
+      "conv": "zh-cn:美洲鸵鸟目; zh-tw:美洲鴕鳥目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𫛚; zh-hant:鳽"
+      "original": "Apterygiformes",
+      "conv": "zh-cn:无翼目; zh-tw:鷸鴕目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𫛭; zh-hant:鵟"
+      "original": "Casuariiformes",
+      "conv": "zh-cn:鹤鸵目; zh-tw:鶴鴕目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:䴕; zh-hant:鴷"
+      "original": "Tinamiformes",
+      "conv": "zh-cn:𮭥形目; zh-tw:䳍形目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𱉻; zh-hant:鵎"
+      "original": "Anseriformes",
+      "conv": "zh-cn:雁形目; zh-tw:雁形目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𱊊; zh-hant:鵼"
+      "original": "Galliformes",
+      "conv": "zh-cn:鸡形目; zh-tw:雞形目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𱉐; zh-hant:鵙"
+      "original": "Musophagiformes",
+      "conv": "zh-cn:蕉鹃目; zh-tw:蕉鵑目"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𱉼; zh-tw:鵖; zh-hk:䳭"
+      "original": "Otidiformes",
+      "conv": "zh-cn:鸨形目; zh-tw:鴇形目"
     },
     {
-      "original": "",
-      "conv": "zh-cn:厄瓜多尔; zh-tw:厄瓜多; zh-hk:厄瓜多爾;"
+      "original": "Cuculiformes",
+      "conv": "zh-cn:鹃形目; zh-tw:鵑形目"
     },
     {
-      "original": "",
-      "conv": "zh-cn:亚马孙; zh-tw:亞馬遜; zh-hk:亞馬遜;"
+      "original": "Mesitornithiformes",
+      "conv": "zh-cn:拟鹑目; zh-tw:擬鶉目"
     },
     {
-      "original": "",
-      "conv": "zh-cn:安第斯; zh-hk:安第斯; zh-tw:安地斯"
+      "original": "Pterocliformes",
+      "conv": "zh-cn:沙鸡目; zh-tw:沙雞目"
     },
     {
-      "original": "",
-      "conv": "zh-cn:留尼汪; zh-tw:留尼旺; zh-hk:留尼汪;"
+      "original": "Columbiformes",
+      "conv": "zh-cn:鸽形目; zh-tw:鴿形目"
     },
     {
-      "original": "",
-      "conv": "zh-cn:毛里求斯; zh-tw:模里西斯; zh-hk:毛里裘斯;"
+      "original": "Caprimulgiformes",
+      "conv": "zh-cn:夜鹰目; zh-tw:夜鷹目"
     },
     {
-      "original": "<i>Struthio camelus</i>",
-      "conv": "zh-cn:非洲鸵鸟; zh-tw:鴕鳥; zh-hk:非洲鴕鳥;"
+      "original": "Steatornithiformes",
+      "conv": "zh-cn:油夜鹰目; zh-tw:油鴟目"
+    },
+    {
+      "original": "Nyctibiiformes",
+      "conv": "zh-cn:钩嘴夜鹰目; zh-tw:林鴟目"
+    },
+    {
+      "original": "Podargiformes",
+      "conv": "zh-cn:蛙口夜鹰目; zh-tw:蟆口鴟目"
+    },
+    {
+      "original": "Aegotheliformes",
+      "conv": "zh-cn:裸鼻夜鹰目; zh-tw:裸鼻鴟目"
+    },
+    {
+      "original": "Apodiformes",
+      "conv": "zh-cn:雨燕目; zh-tw:雨燕目"
+    },
+    {
+      "original": "Gruiformes",
+      "conv": "zh-cn:鹤形目; zh-tw:鶴形目"
+    },
+    {
+      "original": "Charadriiformes",
+      "conv": "zh-cn:鸻形目; zh-tw:鴴形目"
+    },
+    {
+      "original": "Podicipediformes",
+      "conv": "zh-cn:䴙䴘目; zh-tw:鷉形目"
+    },
+    {
+      "original": "Phoenicopteriformes",
+      "conv": "zh-cn:红鹳目; zh-tw:紅鸛目"
+    },
+    {
+      "original": "Eurypygiformes",
+      "conv": "zh-cn:日鳽目; zh-tw:日鳽目"
+    },
+    {
+      "original": "Phaethontiformes",
+      "conv": "zh-cn:鹲形目; zh-tw:鸏形目"
+    },
+    {
+      "original": "Gaviiformes",
+      "conv": "zh-cn:潜鸟目; zh-tw:潛鳥目"
+    },
+    {
+      "original": "Sphenisciformes",
+      "conv": "zh-cn:企鹅目; zh-tw:企鵝目"
+    },
+    {
+      "original": "Procellariiformes",
+      "conv": "zh-cn:鹱形目; zh-tw:鸌形目"
+    },
+    {
+      "original": "Ciconiiformes",
+      "conv": "zh-cn:鹳形目; zh-tw:鸛形目"
+    },
+    {
+      "original": "Suliformes",
+      "conv": "zh-cn:鲣鸟目; zh-tw:鰹鳥目"
+    },
+    {
+      "original": "Pelecaniformes",
+      "conv": "zh-cn:鹈形目; zh-tw:鵜形目"
+    },
+    {
+      "original": "Opisthocomiformes",
+      "conv": "zh-cn:麝雉目; zh-tw:麝雉目"
+    },
+    {
+      "original": "Accipitriformes",
+      "conv": "zh-cn:鹰形目; zh-tw:鷹形目"
+    },
+    {
+      "original": "Strigiformes",
+      "conv": "zh-cn:鸮形目; zh-tw:鴞形目"
+    },
+    {
+      "original": "Cariamiformes",
+      "conv": "zh-cn:叫鹤目; zh-tw:叫鶴目"
+    },
+    {
+      "original": "Falconiformes",
+      "conv": "zh-cn:隼形目; zh-tw:隼形目"
+    },
+    {
+      "original": "Psittaciformes",
+      "conv": "zh-cn:鹦鹉目; zh-tw:鸚形目"
+    },
+    {
+      "original": "Passeriformes",
+      "conv": "zh-cn:雀形目; zh-tw:雀形目"
+    },
+    {
+      "original": "Coliiformes",
+      "conv": "zh-cn:鼠鸟目; zh-tw:鼠鳥目"
+    },
+    {
+      "original": "Leptosomiformes",
+      "conv": "zh-cn:鹃三宝鸟目; zh-tw:鵑鴗目"
+    },
+    {
+      "original": "Trogoniformes",
+      "conv": "zh-cn:咬鹃目; zh-tw:咬鵑目"
+    },
+    {
+      "original": "Bucerotiformes",
+      "conv": "zh-cn:犀鸟目; zh-tw:犀鳥目"
+    },
+    {
+      "original": "Coraciiformes",
+      "conv": "zh-cn:佛法僧目; zh-tw:佛法僧目"
+    },
+    {
+      "original": "Piciformes",
+      "conv": "zh-cn:啄木鸟目; zh-tw:鴷形目"
+    },
+    {
+      "original": "Cathartiformes",
+      "conv": "zh-cn:美洲鹫目; zh-tw:美洲鷲目"
     },
     {
       "original": "<i>Struthio molybdophanes</i>",
@@ -2124,10 +2244,6 @@
       "conv": "zh-cn:铜色腰蜂鸟; zh-tw:銅腰蜂鳥; zh-hk:銅色腰蜂鳥;"
     },
     {
-      "original": "<i>Amazilia luciae</i>",
-      "conv": "zh-cn:洪都拉斯蜂鸟; zh-tw:宏都拉斯蜂鳥; zh-hk:洪都拉斯蜂鳥;"
-    },
-    {
       "original": "<i>Amazilia boucardi</i>",
       "conv": "zh-cn:红树林蜂鸟; zh-tw:紅樹蜂鳥; zh-hk:紅樹林蜂鳥;"
     },
@@ -3708,6 +3824,10 @@
       "conv": "zh-cn:安第斯红鹳; zh-tw:安地斯紅鸛; zh-hk:安第斯紅鸛;"
     },
     {
+      "original": "Alcidae",
+      "conv": "zh-cn:海雀科; zh-tw:海雀科; zh-hk:海雀科;"
+    },
+    {
       "original": "<i>Turnix hottentottus</i>",
       "conv": "zh-cn:非洲三趾鹑; zh-tw:南非三趾鶉; zh-hk:非洲三趾鶉;"
     },
@@ -4361,7 +4481,7 @@
     },
     {
       "original": "<i>Larus canus</i>",
-      "conv": "zh-cn:普通海鸥; zh-tw:海鷗; zh-hk:海鷗;"
+      "conv": "zh-cn:普通海鸥; zh-tw:歐亞海鷗; zh-hk:海鷗;"
     },
     {
       "original": "<i>Larus californicus</i>",
@@ -4540,10 +4660,6 @@
       "conv": "zh-cn:克氏海雀; zh-tw:可瑞氏海雀; zh-hk:克氏海雀;"
     },
     {
-      "original": "<i>Ptychoramphus aleuticus</i>",
-      "conv": "zh-cn:海雀; zh-tw:卡辛氏海雀; zh-hk:海雀;"
-    },
-    {
       "original": "<i>Aethia psittacula</i>",
       "conv": "zh-cn:白腹海雀; zh-tw:白腹小海鸚; zh-hk:白腹海雀;"
     },
@@ -4665,7 +4781,7 @@
     },
     {
       "original": "<i>Diomedea amsterdamensis</i>",
-      "conv": "zh-cn:阿岛信天翁; zh-tw:阿姆斯特丹天翁; zh-hk:阿島信天翁;"
+      "conv": "zh-cn:阿岛信天翁; zh-tw:阿姆斯特丹信天翁; zh-hk:阿島信天翁;"
     },
     {
       "original": "<i>Diomedea dabbenena</i>",
@@ -4988,10 +5104,6 @@
       "conv": "zh-cn:黄嘴鹮鹳; zh-tw:黃嘴鸛; zh-hk:黃嘴䴉鸛;"
     },
     {
-      "original": "<i>Ciconia stormi</i>",
-      "conv": "zh-cn:黄脸鹳; zh-tw:史東氏鸛; zh-hk:黃臉鸛;"
-    },
-    {
       "original": "<i>Ephippiorhynchus senegalensis</i>",
       "conv": "zh-cn:鞍嘴鹳; zh-tw:凹嘴鸛; zh-hk:鞍嘴鸛;"
     },
@@ -5009,7 +5121,7 @@
     },
     {
       "original": "<i>Fregata minor</i>",
-      "conv": "zh-cn:黑腹军舰鸟; zh-tw:軍艦鳥; zh-hk:黑腹軍艦鳥;"
+      "conv": "zh-cn:黑腹军舰鸟; zh-tw:黑腹軍艦鳥; zh-hk:黑腹軍艦鳥;"
     },
     {
       "original": "<i>Morus bassanus</i>",
@@ -5029,171 +5141,171 @@
     },
     {
       "original": "<i>Microcarbo pygmaeus</i>",
-      "conv": "zh-cn:侏鸬鹚; zh-tw:侏鸕鷀; zh-hk:侏鸕鶿;"
+      "conv": "zh-cn:侏鸬鹚; zh-tw:侏鸕鶿; zh-hk:侏鸕鶿;"
     },
     {
       "original": "<i>Microcarbo africanus</i>",
-      "conv": "zh-cn:长尾鸬鹚; zh-tw:長尾鸕鷀; zh-hk:長尾鸕鶿;"
+      "conv": "zh-cn:长尾鸬鹚; zh-tw:長尾鸕鶿; zh-hk:長尾鸕鶿;"
     },
     {
       "original": "<i>Microcarbo coronatus</i>",
-      "conv": "zh-cn:冠鸬鹚; zh-tw:冠鸕鷀; zh-hk:冠鸕鶿;"
+      "conv": "zh-cn:冠鸬鹚; zh-tw:冠鸕鶿; zh-hk:冠鸕鶿;"
     },
     {
       "original": "<i>Microcarbo niger</i>",
-      "conv": "zh-cn:黑颈鸬鹚; zh-tw:黑頸鸕鷀; zh-hk:黑頸鸕鶿;"
+      "conv": "zh-cn:黑颈鸬鹚; zh-tw:黑頸鸕鶿; zh-hk:黑頸鸕鶿;"
     },
     {
       "original": "<i>Microcarbo melanoleucos</i>",
-      "conv": "zh-cn:小斑鸬鹚; zh-tw:小斑鸕鷀; zh-hk:小斑鸕鶿;"
+      "conv": "zh-cn:小斑鸬鹚; zh-tw:小斑鸕鶿; zh-hk:小斑鸕鶿;"
     },
     {
       "original": "<i>Poikilocarbo gaimardi</i>",
-      "conv": "zh-cn:红腿鸬鹚; zh-tw:紅腿鸕鷀; zh-hk:紅腿鸕鶿;"
+      "conv": "zh-cn:红腿鸬鹚; zh-tw:紅腿鸕鶿; zh-hk:紅腿鸕鶿;"
     },
     {
       "original": "<i>Urile penicillatus</i>",
-      "conv": "zh-cn:加州鸬鹚; zh-tw:阿拉斯加鸕鷀; zh-hk:加州鸕鶿;"
+      "conv": "zh-cn:加州鸬鹚; zh-tw:阿拉斯加鸕鶿; zh-hk:加州鸕鶿;"
     },
     {
       "original": "<i>Urile urile</i>",
-      "conv": "zh-cn:红脸鸬鹚; zh-tw:紅臉鸕鷀; zh-hk:紅臉鸕鶿;"
+      "conv": "zh-cn:红脸鸬鹚; zh-tw:紅臉鸕鶿; zh-hk:紅臉鸕鶿;"
     },
     {
       "original": "<i>Urile pelagicus</i>",
-      "conv": "zh-cn:海鸬鹚; zh-tw:海鸕鷀; zh-hk:海鸕鶿;"
+      "conv": "zh-cn:海鸬鹚; zh-tw:海鸕鶿; zh-hk:海鸕鶿;"
     },
     {
       "original": "<i>Urile perspicillatus</i>",
-      "conv": "zh-cn:白令鸬; zh-tw:波拉斯氏鸕鷀; zh-hk:白令鸕;"
+      "conv": "zh-cn:白令鸬; zh-tw:波拉斯氏鸕鶿; zh-hk:白令鸕;"
     },
     {
       "original": "<i>Phalacrocorax neglectus</i>",
-      "conv": "zh-cn:岸鸬鹚; zh-tw:堤鸕鷀; zh-hk:岸鸕鶿;"
+      "conv": "zh-cn:岸鸬鹚; zh-tw:堤鸕鶿; zh-hk:岸鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax nigrogularis</i>",
-      "conv": "zh-cn:黑喉鸬鹚; zh-tw:黑喉鸕鷀; zh-hk:黑喉鸕鶿;"
+      "conv": "zh-cn:黑喉鸬鹚; zh-tw:黑喉鸕鶿; zh-hk:黑喉鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax featherstoni</i>",
-      "conv": "zh-cn:皮岛鸬鹚; zh-tw:皮特島鸕鷀; zh-hk:皮島鸕鶿;"
+      "conv": "zh-cn:皮岛鸬鹚; zh-tw:皮特島鸕鶿; zh-hk:皮島鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax punctatus</i>",
-      "conv": "zh-cn:点斑鸬鹚; zh-tw:點斑鸕鷀; zh-hk:點斑鸕鶿;"
+      "conv": "zh-cn:点斑鸬鹚; zh-tw:點斑鸕鶿; zh-hk:點斑鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax fuscescens</i>",
-      "conv": "zh-cn:黑脸鸬鹚; zh-tw:黑臉鸕鷀; zh-hk:黑臉鸕鶿;"
+      "conv": "zh-cn:黑脸鸬鹚; zh-tw:黑臉鸕鶿; zh-hk:黑臉鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax varius</i>",
-      "conv": "zh-cn:斑鸬鹚; zh-tw:斑鸕鷀; zh-hk:斑鸕鶿;"
+      "conv": "zh-cn:斑鸬鹚; zh-tw:斑鸕鶿; zh-hk:斑鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax sulcirostris</i>",
-      "conv": "zh-cn:小黑鸬鹚; zh-tw:小黑鸕鷀; zh-hk:小黑鸕鶿;"
+      "conv": "zh-cn:小黑鸬鹚; zh-tw:小黑鸕鶿; zh-hk:小黑鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax fuscicollis</i>",
-      "conv": "zh-cn:印度鸬鹚; zh-tw:印度鸕鷀; zh-hk:印度鸕鶿;"
+      "conv": "zh-cn:印度鸬鹚; zh-tw:印度鸕鶿; zh-hk:印度鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax capensis</i>",
-      "conv": "zh-cn:南非鸬鹚; zh-tw:南非鸕鷀; zh-hk:南非鸕鶿;"
+      "conv": "zh-cn:南非鸬鹚; zh-tw:南非鸕鶿; zh-hk:南非鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax capillatus</i>",
-      "conv": "zh-cn:绿背鸬鹚; zh-tw:丹氏鸕鷀; zh-hk:綠背鸕鷀;"
+      "conv": "zh-cn:绿背鸬鹚; zh-tw:丹氏鸕鶿; zh-hk:綠背鸕鷀;"
     },
     {
       "original": "<i>Phalacrocorax lucidus</i>",
-      "conv": "zh-cn:白胸鸬鹚; zh-tw:白胸鸕鷀; zh-hk:白胸鸕鶿;"
+      "conv": "zh-cn:白胸鸬鹚; zh-tw:白胸鸕鶿; zh-hk:白胸鸕鶿;"
     },
     {
       "original": "<i>Phalacrocorax carbo</i>",
-      "conv": "zh-cn:普通鸬鹚; zh-tw:鸕鷀; zh-hk:普通鸕鷀;"
+      "conv": "zh-cn:普通鸬鹚; zh-tw:鸕鶿; zh-hk:普通鸕鷀;"
     },
     {
       "original": "<i>Gulosus aristotelis</i>",
-      "conv": "zh-cn:欧鸬鹚; zh-tw:長冠鸕鷀; zh-hk:歐鸕鶿;"
+      "conv": "zh-cn:欧鸬鹚; zh-tw:長冠鸕鶿; zh-hk:歐鸕鶿;"
     },
     {
       "original": "<i>Nannopterum harrisi</i>",
-      "conv": "zh-cn:弱翅鸬鹚; zh-tw:難飛鸕鷀; zh-hk:弱翅鸕鶿;"
+      "conv": "zh-cn:弱翅鸬鹚; zh-tw:難飛鸕鶿; zh-hk:弱翅鸕鶿;"
     },
     {
       "original": "<i>Nannopterum brasilianum</i>",
-      "conv": "zh-cn:美洲鸬鹚; zh-tw:斑翅鸕鷀; zh-hk:美洲鸕鶿;"
+      "conv": "zh-cn:美洲鸬鹚; zh-tw:斑翅鸕鶿; zh-hk:美洲鸕鶿;"
     },
     {
       "original": "<i>Nannopterum auritum</i>",
-      "conv": "zh-cn:角鸬鹚; zh-tw:雙冠鸕鷀; zh-hk:角鸕鶿;"
+      "conv": "zh-cn:角鸬鹚; zh-tw:雙冠鸕鶿; zh-hk:角鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo magellanicus</i>",
-      "conv": "zh-cn:岩鸬鹚; zh-tw:岩鸕鷀; zh-hk:岩鸕鶿;"
+      "conv": "zh-cn:岩鸬鹚; zh-tw:岩鸕鶿; zh-hk:岩鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo bougainvillii</i>",
-      "conv": "zh-cn:南美鸬鹚; zh-tw:南美鸕鷀; zh-hk:南美鸕鶿;"
+      "conv": "zh-cn:南美鸬鹚; zh-tw:南美鸕鶿; zh-hk:南美鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo ranfurlyi</i>",
-      "conv": "zh-cn:邦岛鸬鹚; zh-tw:班提島鸕鷀; zh-hk:邦島鸕鶿;"
+      "conv": "zh-cn:邦岛鸬鹚; zh-tw:班提島鸕鶿; zh-hk:邦島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo carunculatus</i>",
-      "conv": "zh-cn:毛脸鸬鹚; zh-tw:毛臉鸕鷀; zh-hk:毛臉鸕鶿;"
+      "conv": "zh-cn:毛脸鸬鹚; zh-tw:毛臉鸕鶿; zh-hk:毛臉鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo onslowi</i>",
-      "conv": "zh-cn:查岛鸬鹚; zh-tw:查坦島鸕鷀; zh-hk:查島鸕鶿;"
+      "conv": "zh-cn:查岛鸬鹚; zh-tw:查坦島鸕鶿; zh-hk:查島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo chalconotus</i>",
-      "conv": "zh-cn:铜鸬鹚; zh-tw:銅色鸕鷀; zh-hk:銅鸕鶿;"
+      "conv": "zh-cn:铜鸬鹚; zh-tw:銅色鸕鶿; zh-hk:銅鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo stewarti</i>",
-      "conv": "zh-cn:史都华岛鸬鹚; zh-tw:史都華島鸕鷀; zh-hk:史都華島鸕鶿;"
+      "conv": "zh-cn:史都华岛鸬鹚; zh-tw:史都華島鸕鶿; zh-hk:史都華島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo colensoi</i>",
-      "conv": "zh-cn:奥岛鸬鹚; zh-tw:奧克蘭島鸕鷀; zh-hk:奧島鸕鶿;"
+      "conv": "zh-cn:奥岛鸬鹚; zh-tw:奧克蘭島鸕鶿; zh-hk:奧島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo campbelli</i>",
-      "conv": "zh-cn:坎岛鸬鹚; zh-tw:粗臉鸕鷀; zh-hk:坎島鸕鶿;"
+      "conv": "zh-cn:坎岛鸬鹚; zh-tw:粗臉鸕鶿; zh-hk:坎島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo atriceps</i>",
-      "conv": "zh-cn:蓝眼鸬鹚; zh-tw:藍眼鸕鷀; zh-hk:藍眼鸕鶿;"
+      "conv": "zh-cn:蓝眼鸬鹚; zh-tw:藍眼鸕鶿; zh-hk:藍眼鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo georgianus</i>",
-      "conv": "zh-cn:南乔治亚鸬鹚; zh-tw:南喬治亞鸕鷀; zh-hk:南喬治亞鸕鶿;"
+      "conv": "zh-cn:南乔治亚鸬鹚; zh-tw:南喬治亞鸕鶿; zh-hk:南喬治亞鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo melanogenis</i>",
-      "conv": "zh-cn:科岛鸬鹚; zh-tw:克羅塞鸕鷀; zh-hk:科島鸕鶿;"
+      "conv": "zh-cn:科岛鸬鹚; zh-tw:克羅塞鸕鶿; zh-hk:科島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo bransfieldensis</i>",
-      "conv": "zh-cn:南极鸬鹚; zh-tw:南極鸕鷀; zh-hk:南極鸕鶿;"
+      "conv": "zh-cn:南极鸬鹚; zh-tw:南極鸕鶿; zh-hk:南極鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo verrucosus</i>",
-      "conv": "zh-cn:克岛鸬鹚; zh-tw:克格連鸕鷀; zh-hk:克島鸕鶿;"
+      "conv": "zh-cn:克岛鸬鹚; zh-tw:克格連鸕鶿; zh-hk:克島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo nivalis</i>",
-      "conv": "zh-cn:哈岛鸬鹚; zh-tw:赫德島鸕鷀; zh-hk:哈島鸕鶿;"
+      "conv": "zh-cn:哈岛鸬鹚; zh-tw:赫德島鸕鶿; zh-hk:哈島鸕鶿;"
     },
     {
       "original": "<i>Leucocarbo purpurascens</i>",
-      "conv": "zh-cn:麦岛鸬鹚; zh-tw:麥夸利鸕鷀; zh-hk:麥島鸕鶿;"
+      "conv": "zh-cn:麦岛鸬鹚; zh-tw:麥夸利鸕鶿; zh-hk:麥島鸕鶿;"
     },
     {
       "original": "<i>Threskiornis aethiopicus</i>",
@@ -5201,43 +5313,43 @@
     },
     {
       "original": "<i>Threskiornis bernieri</i>",
-      "conv": "zh-cn:马岛白鹮; zh-tw:馬達加斯加白鹮; zh-hk:馬島白䴉;"
+      "conv": "zh-cn:马岛白鹮; zh-tw:馬達加斯加白䴉; zh-hk:馬島白䴉;"
     },
     {
       "original": "<i>Threskiornis solitarius</i>",
-      "conv": "zh-cn:留尼汪孤鸽; zh-tw:留尼旺白鹮; zh-hk:留尼汪孤鴿;"
+      "conv": "zh-cn:留尼汪孤鸽; zh-tw:留尼旺白䴉; zh-hk:留尼汪孤鴿;"
     },
     {
       "original": "<i>Threskiornis melanocephalus</i>",
-      "conv": "zh-cn:黑头白鹮; zh-tw:黑頭白䴉; zh-hk:黑頭白鹮;"
+      "conv": "zh-cn:黑头白鹮; zh-tw:黑頭白䴉; zh-hk:黑頭白䴉;"
     },
     {
       "original": "<i>Threskiornis molucca</i>",
-      "conv": "zh-cn:澳洲白鹮; zh-tw:澳洲白鹮; zh-hk:澳洲白䴉;"
+      "conv": "zh-cn:澳洲白鹮; zh-tw:澳洲白䴉; zh-hk:澳洲白䴉;"
     },
     {
       "original": "<i>Threskiornis spinicollis</i>",
-      "conv": "zh-cn:蓑颈白鹮; zh-tw:蓑頸鹮; zh-hk:蓑頸白䴉;"
+      "conv": "zh-cn:蓑颈白鹮; zh-tw:蓑頸䴉; zh-hk:蓑頸白䴉;"
     },
     {
       "original": "<i>Pseudibis papillosa</i>",
-      "conv": "zh-cn:黑鹮; zh-tw:黑鹮; zh-hk:黑䴉;"
+      "conv": "zh-cn:黑鹮; zh-tw:黑䴉; zh-hk:黑䴉;"
     },
     {
       "original": "<i>Pseudibis davisoni</i>",
-      "conv": "zh-cn:白肩黑鹮; zh-tw:白肩鹮; zh-hk:白肩黑䴉;"
+      "conv": "zh-cn:白肩黑鹮; zh-tw:白肩䴉; zh-hk:白肩黑䴉;"
     },
     {
       "original": "<i>Pseudibis gigantea</i>",
-      "conv": "zh-cn:巨鹮; zh-tw:巨黑鹮; zh-hk:巨䴉;"
+      "conv": "zh-cn:巨鹮; zh-tw:巨黑䴉; zh-hk:巨䴉;"
     },
     {
       "original": "<i>Geronticus eremita</i>",
-      "conv": "zh-cn:隐鹮; zh-tw:隱鹮; zh-hk:隱䴉;"
+      "conv": "zh-cn:隐鹮; zh-tw:隱䴉; zh-hk:隱䴉;"
     },
     {
       "original": "<i>Geronticus calvus</i>",
-      "conv": "zh-cn:秃鹮; zh-tw:禿鹮; zh-hk:禿䴉;"
+      "conv": "zh-cn:秃鹮; zh-tw:禿䴉; zh-hk:禿䴉;"
     },
     {
       "original": "<i>Nipponia nippon</i>",
@@ -5245,75 +5357,75 @@
     },
     {
       "original": "<i>Bostrychia olivacea</i>",
-      "conv": "zh-cn:绿背鹮; zh-tw:橄綠鹮; zh-hk:綠背䴉;"
+      "conv": "zh-cn:绿背鹮; zh-tw:橄綠䴉; zh-hk:綠背䴉;"
     },
     {
       "original": "<i>Bostrychia bocagei</i>",
-      "conv": "zh-cn:侏绿背鹮; zh-tw:侏橄綠鹮; zh-hk:侏綠背䴉;"
+      "conv": "zh-cn:侏绿背鹮; zh-tw:侏橄綠䴉; zh-hk:侏綠背䴉;"
     },
     {
       "original": "<i>Bostrychia rara</i>",
-      "conv": "zh-cn:斑胸鹮; zh-tw:點胸鹮; zh-hk:斑胸䴉;"
+      "conv": "zh-cn:斑胸鹮; zh-tw:點胸䴉; zh-hk:斑胸䴉;"
     },
     {
       "original": "<i>Bostrychia hagedash</i>",
-      "conv": "zh-cn:噪鹮; zh-tw:鳳頭鹮; zh-hk:噪䴉;"
+      "conv": "zh-cn:噪鹮; zh-tw:鳳頭䴉; zh-hk:噪䴉;"
     },
     {
       "original": "<i>Bostrychia carunculata</i>",
-      "conv": "zh-cn:肉垂鹮; zh-tw:肉垂鹮; zh-hk:肉垂䴉;"
+      "conv": "zh-cn:肉垂鹮; zh-tw:肉垂䴉; zh-hk:肉垂䴉;"
     },
     {
       "original": "<i>Theristicus caerulescens</i>",
-      "conv": "zh-cn:铅色鹮; zh-tw:鉛鹮; zh-hk:鉛色䴉;"
+      "conv": "zh-cn:铅色鹮; zh-tw:鉛䴉; zh-hk:鉛色䴉;"
     },
     {
       "original": "<i>Theristicus caudatus</i>",
-      "conv": "zh-cn:黄颈鹮; zh-tw:黃頸鹮; zh-hk:黃頸䴉;"
+      "conv": "zh-cn:黄颈鹮; zh-tw:黃頸䴉; zh-hk:黃頸䴉;"
     },
     {
       "original": "<i>Theristicus melanopis</i>",
-      "conv": "zh-cn:黑脸鹮; zh-tw:黑臉鹮; zh-hk:黑臉䴉;"
+      "conv": "zh-cn:黑脸鹮; zh-tw:黑臉䴉; zh-hk:黑臉䴉;"
     },
     {
       "original": "<i>Theristicus branickii</i>",
-      "conv": "zh-cn:安第斯鹮; zh-tw:安地斯鹮; zh-hk:安第斯䴉;"
+      "conv": "zh-cn:安第斯鹮; zh-tw:安地斯䴉; zh-hk:安第斯䴉;"
     },
     {
       "original": "<i>Cercibis oxycerca</i>",
-      "conv": "zh-cn:长尾鹮; zh-tw:尖尾鹮; zh-hk:長尾䴉;"
+      "conv": "zh-cn:长尾鹮; zh-tw:尖尾䴉; zh-hk:長尾䴉;"
     },
     {
       "original": "<i>Mesembrinibis cayennensis</i>",
-      "conv": "zh-cn:绿鹮; zh-tw:綠鹮; zh-hk:綠䴉;"
+      "conv": "zh-cn:绿鹮; zh-tw:綠䴉; zh-hk:綠䴉;"
     },
     {
       "original": "<i>Phimosus infuscatus</i>",
-      "conv": "zh-cn:裸脸鹮; zh-tw:裸臉鹮; zh-hk:裸臉䴉;"
+      "conv": "zh-cn:裸脸鹮; zh-tw:裸臉䴉; zh-hk:裸臉䴉;"
     },
     {
       "original": "<i>Eudocimus albus</i>",
-      "conv": "zh-cn:美洲白鹮; zh-tw:美洲白鹮; zh-hk:美洲白䴉;"
+      "conv": "zh-cn:美洲白鹮; zh-tw:美洲白䴉; zh-hk:美洲白䴉;"
     },
     {
       "original": "<i>Eudocimus ruber</i>",
-      "conv": "zh-cn:美洲红鹮; zh-tw:紅鹮; zh-hk:美洲紅䴉;"
+      "conv": "zh-cn:美洲红鹮; zh-tw:紅䴉; zh-hk:美洲紅䴉;"
     },
     {
       "original": "<i>Plegadis falcinellus</i>",
-      "conv": "zh-cn:彩鹮; zh-tw:彩䴉; zh-hk:彩鹮;"
+      "conv": "zh-cn:彩鹮; zh-tw:彩䴉; zh-hk:彩䴉;"
     },
     {
       "original": "<i>Plegadis chihi</i>",
-      "conv": "zh-cn:白脸彩鹮; zh-tw:白臉彩鹮; zh-hk:白臉彩䴉;"
+      "conv": "zh-cn:白脸彩鹮; zh-tw:白臉彩䴉; zh-hk:白臉彩䴉;"
     },
     {
       "original": "<i>Plegadis ridgwayi</i>",
-      "conv": "zh-cn:秘鲁彩鹮; zh-tw:普納高原彩鹮; zh-hk:秘魯彩䴉;"
+      "conv": "zh-cn:秘鲁彩鹮; zh-tw:普納高原彩䴉; zh-hk:秘魯彩䴉;"
     },
     {
       "original": "<i>Lophotibis cristata</i>",
-      "conv": "zh-cn:凤头林鹮; zh-tw:鬃冠鴞鹮; zh-hk:鳳頭林䴉;"
+      "conv": "zh-cn:凤头林鹮; zh-tw:鬃冠鴞䴉; zh-hk:鳳頭林䴉;"
     },
     {
       "original": "<i>Platalea minor</i>",
@@ -5429,11 +5541,11 @@
     },
     {
       "original": "<i>Bubulcus ibis</i>",
-      "conv": "zh-cn:西牛背鹭; zh-tw:黃頭鷺; zh-hk:西牛背鷺;"
+      "conv": "zh-cn:西牛背鹭; zh-tw:西方牛背鷺; zh-hk:西牛背鷺;"
     },
     {
       "original": "<i>Bubulcus coromandus</i>",
-      "conv": "zh-cn:牛背鹭; zh-tw:東方牛背鷺; zh-hk:牛背鷺;"
+      "conv": "zh-cn:牛背鹭; zh-tw:黃頭鷺; zh-hk:牛背鷺;"
     },
     {
       "original": "<i>Ardea humbloti</i>",
@@ -5442,6 +5554,14 @@
     {
       "original": "<i>Ardea purpurea</i>",
       "conv": "zh-cn:草鹭; zh-tw:紫鷺; zh-hk:草鷺;"
+    },
+    {
+      "original": "<i>Ardea alba</i>",
+      "conv": "zh-cn:大白鹭; zh-tw:大白鷺; zh-hk:大白鷺;"
+    },
+    {
+      "original": "<i>Ardea intermedia</i>",
+      "conv": "zh-cn:中白鹭; zh-tw:中白鷺; zh-hk:中白鷺;"
     },
     {
       "original": "<i>Pilherodius pileatus</i>",
@@ -7224,10 +7344,6 @@
       "conv": "zh-cn:亮蓝翠鸟; zh-tw:閃藍翠鳥; zh-hk:亮藍翠鳥;"
     },
     {
-      "original": "<i>Alcedo atthis</i>",
-      "conv": "zh-cn:普通翠鸟; zh-tw:翠鳥; zh-hk:普通翠鳥;"
-    },
-    {
       "original": "<i>Alcedo hercules</i>",
       "conv": "zh-cn:斑头大翠鸟; zh-tw:斑頭大藍翠鳥; zh-hk:斑頭大翠鳥;"
     },
@@ -7392,16 +7508,32 @@
       "conv": "zh-cn:南红蜂虎; zh-tw:南方洋紅蜂虎; zh-hk:南紅蜂虎;"
     },
     {
-      "original": "<i>Picidae</i>",
+      "original": "Picidae",
       "conv": "zh-hans:啄木鸟科; zh-hant:啄木鳥科;"
     },
     {
-      "original": "<i>Megalaimidae</i>",
+      "original": "Ramphastides",
+      "conv": "zh-hans:巨嘴鸟下目; zh-hant:鵎鵼下目;"
+    },
+    {
+      "original": "Megalaimidae",
       "conv": "zh-cn:拟啄木鸟科; zh-tw:鬚鴷科; zh-hk:鬚鴷科;"
     },
     {
-      "original": "<i>Capitonidae</i>",
-      "conv": "zh-cn:美洲拟啄木鸟科; zh-tw:美洲鬚鴷科; zh-hk:美洲鬚鴷科;"
+      "original": "Capitonidae",
+      "conv": "zh-cn:美洲拟啄木鸟科; zh-tw:美洲擬鴷科; zh-hk:美洲鬚鴷科;"
+    },
+    {
+      "original": "Lybiidae",
+      "conv": "zh-cn:非洲拟啄木鸟科; zh-tw:非洲擬鴷科; zh-hk:非洲鬚鴷科;"
+    },
+    {
+      "original": "Semnornithidae",
+      "conv": "zh-cn:巨嘴拟啄木鸟科; zh-tw:巨嘴擬鴷科; zh-hk:巨嘴鬚鴷科;"
+    },
+    {
+      "original": "Ramphastidae",
+      "conv": "zh-cn:巨嘴鸟科; zh-tw:鵎鵼科; zh-hk:巨嘴鳥科;"
     },
     {
       "original": "<i>Brachygalba goeringi</i>",
@@ -8628,10 +8760,6 @@
       "conv": "zh-cn:大灰啄木鸟; zh-tw:大灰啄木; zh-hk:大灰啄木鳥;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:巨嘴鸟; zh-tw:鵎鵼; zh-hk:巨嘴鳥;|original=Ramphastidae"
-    },
-    {
       "original": "<i>Aulacorhynchus wagleri</i>",
       "conv": "zh-cn:韦氏绿巨嘴鸟; zh-tw:華格氏小鵎鵼; zh-hk:韋氏綠巨嘴鳥;"
     },
@@ -8797,7 +8925,7 @@
     },
     {
       "original": "<i>Caracara plancus</i>",
-      "conv": "zh-cn:凤头巨隼; zh-tw:南美鳳頭卡拉鷹; zh-hk:鳳頭巨隼;"
+      "conv": "zh-cn:凤头巨隼; zh-tw:鳳頭卡拉鷹; zh-hk:鳳頭巨隼;"
     },
     {
       "original": "<i>Milvago chimango</i>",
@@ -8888,6 +9016,422 @@
       "conv": "zh-cn:东非隼; zh-tw:泰塔隼; zh-hk:東非隼;"
     },
     {
+      "original": "Strigopoidea",
+      "conv": "zh-cn:鸮面鹦鹉总科; zh-tw:鴞鸚鵡總科; zh-hk:鴞面鸚鵡總科;"
+    },
+    {
+      "original": "Strigopidae",
+      "conv": "zh-cn:鸮面鹦鹉科; zh-tw:鴞鸚鵡科; zh-hk:鴞面鸚鵡科;"
+    },
+    {
+      "original": "<i>Strigops</i>",
+      "conv": "zh-cn:鸮面鹦鹉属; zh-tw:鴞鸚鵡屬; zh-hk:鴞面鸚鵡屬;"
+    },
+    {
+      "original": "Nestorinae",
+      "conv": "zh-cn:啄羊鹦鹉亚科; zh-tw:啄羊鸚鵡亞科; zh-hk:啄羊鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Nestor </i>",
+      "conv": "zh-cn:啄羊鹦鹉属; zh-tw:啄羊鸚鵡屬; zh-hk:啄羊鸚鵡屬;"
+    },
+    {
+      "original": "Cacatuoidea",
+      "conv": "zh-cn:凤头鹦鹉总科; zh-tw:鳳頭鸚鵡總科; zh-hk:鳳頭鸚鵡總科;"
+    },
+    {
+      "original": "Cacatuidae",
+      "conv": "zh-cn:凤头鹦鹉科; zh-tw:鳳頭鸚鵡科; zh-hk:鳳頭鸚鵡科;"
+    },
+    {
+      "original": "Nymphicinae",
+      "conv": "zh-cn:鸡尾鹦鹉亚科; zh-tw:雞尾鸚鵡亞科; zh-hk:雞尾鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Nymphicus</i>",
+      "conv": "zh-cn:鸡尾鹦鹉属; zh-tw:雞尾鸚鵡屬; zh-hk:雞尾鸚鵡屬;"
+    },
+    {
+      "original": "Calyptorhynchinae",
+      "conv": "zh-cn:黑凤头鹦鹉亚科; zh-tw:黑鳳頭鸚鵡亞科; zh-hk:黑鳳頭鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Calyptorhynchus</i>",
+      "conv": "zh-cn:辉凤头鹦鹉属; zh-tw:輝鳳頭鸚鵡屬; zh-hk:輝鳳頭鸚鵡屬;"
+    },
+    {
+      "original": "<i>Zanda</i>",
+      "conv": "zh-cn:黑凤头鹦鹉属; zh-tw:黑鳳頭鸚鵡屬; zh-hk:黑鳳頭鸚鵡屬;"
+    },
+    {
+      "original": "Cacatuinae",
+      "conv": "zh-cn:凤头鹦鹉亚科; zh-tw:白鳳頭鸚鵡亞科; zh-hk:鳳頭鸚鵡亞科;"
+    },
+    {
+      "original": "Microglossini",
+      "conv": "zh-cn:棕树凤头鹦鹉族; zh-tw:棕櫚鳳頭鸚鵡族; zh-hk:棕樹鳳頭鸚鵡族;"
+    },
+    {
+      "original": "<i>Probosciger</i>",
+      "conv": "zh-cn:棕树凤头鹦鹉属; zh-tw:棕櫚鳳頭鸚鵡屬; zh-hk:棕樹鳳頭鸚鵡屬;"
+    },
+    {
+      "original": "Cacatuini",
+      "conv": "zh-cn:凤头鹦鹉族; zh-tw:鳳頭鸚鵡族; zh-hk:鳳頭鸚鵡族;"
+    },
+    {
+      "original": "<i>Cacatua</i>",
+      "conv": "zh-cn:凤头鹦鹉属; zh-tw:鳳頭鸚鵡屬; zh-hk:鳳頭鸚鵡屬;"
+    },
+    {
+      "original": "<i>Callocephalon</i>",
+      "conv": "zh-cn:红冠灰凤头鹦鹉属; zh-tw:甘甘鳳頭鸚鵡屬; zh-hk:紅冠灰鳳頭鸚鵡屬;"
+    },
+    {
+      "original": "<i>Eolophus</i>",
+      "conv": "zh-cn:粉红凤头鹦鹉属; zh-tw:粉紅鳳頭鸚鵡屬; zh-hk:粉紅鳳頭鸚鵡屬;"
+    },
+    {
+      "original": "Psittacoidea",
+      "conv": "zh-cn:鹦鹉总科; zh-tw:鸚鵡總科; zh-hk:鸚鵡總科;"
+    },
+    {
+      "original": "Psittacidae",
+      "conv": "zh-cn:金刚鹦鹉科; zh-tw:新世界鸚鵡科; zh-hk:金剛鸚鵡科;"
+    },
+    {
+      "original": "Psittacinae",
+      "conv": "zh-cn:非洲鹦鹉亞科; zh-tw:非洲鸚鵡亞科; zh-hk:非洲鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Psittacus</i>",
+      "conv": "zh-cn:非洲灰鹦鹉属; zh-tw:非洲鸚鵡屬; zh-hk:非洲灰鸚鵡屬;"
+    },
+    {
+      "original": "Arinae",
+      "conv": "zh-cn:金刚鹦鹉亚科; zh-tw:新熱帶鸚鵡亞科; zh-hk:金剛鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Myiopsitta</i>",
+      "conv": "zh-cn:灰胸鹦哥属; zh-tw:和尚鸚鵡屬; zh-hk:灰胸鸚哥屬;"
+    },
+    {
+      "original": "<i>Brotogeris</i>",
+      "conv": "zh-cn:纯色鹦哥属; zh-tw:班翅鸚鵡屬; zh-hk:純色鸚哥屬;"
+    },
+    {
+      "original": "<i>Pionopsitta</i>",
+      "conv": "zh-cn:红顶鹦哥属; zh-tw:紅帽鸚鵡屬; zh-hk:紅頂鸚哥屬;"
+    },
+    {
+      "original": "<i>Triclaria</i>",
+      "conv": "zh-cn:蓝腹鹦哥属; zh-tw:藍腹鸚鵡屬; zh-hk:藍腹鸚哥屬;"
+    },
+    {
+      "original": "<i>Amazona</i>",
+      "conv": "zh-cn:亚马逊鹦鹉属; zh-tw:亞馬遜鸚鵡屬; zh-hk:亞馬遜鸚鵡屬;"
+    },
+    {
+      "original": "<i>Pionus</i>",
+      "conv": "zh-cn:裸眼鹦哥属; zh-tw:派翁尼斯鸚鵡屬; zh-hk:裸眼鸚哥屬;"
+    },
+    {
+      "original": "<i>Graydidascalus</i>",
+      "conv": "zh-cn:短尾鹦哥属; zh-tw:短尾鸚鵡屬; zh-hk:短尾鸚哥屬;"
+    },
+    {
+      "original": "<i>Alipiopsitta</i>",
+      "conv": "zh-cn:黄颊鹦哥属; zh-tw:黃面亞馬遜鸚鵡屬; zh-hk:黃頰鸚哥屬;"
+    },
+    {
+      "original": "Arini",
+      "conv": "zh-cn:金刚鹦鹉族; zh-tw:金剛鸚鵡族; zh-hk:金剛鸚鵡族;"
+    },
+    {
+      "original": "<i>Deroptyus</i>",
+      "conv": "zh-cn:鹰头鹦哥属; zh-tw:鷹頭鸚鵡屬; zh-hk:鷹頭鸚哥屬;"
+    },
+    {
+      "original": "<i>Pionites</i>",
+      "conv": "zh-cn:白腹鹦哥属; zh-tw:凱克鸚鵡屬; zh-hk:白腹鸚哥屬;"
+    },
+    {
+      "original": "<i>Rhynchopsitta</i>",
+      "conv": "zh-cn:厚嘴鹦哥属; zh-tw:粗喙鸚鵡屬; zh-hk:厚嘴鸚哥屬;"
+    },
+    {
+      "original": "<i>Pyrrhura</i>",
+      "conv": "zh-cn:小锥尾鹦鹉属; zh-tw:小錐尾鸚鵡屬; zh-hk:小錐尾鸚鵡屬;"
+    },
+    {
+      "original": "<i>Cyanoliseus</i>",
+      "conv": "zh-cn:穴鹦哥属; zh-tw:掘穴鸚鵡屬; zh-hk:穴鸚哥屬;"
+    },
+    {
+      "original": "<i>Anodorhynchus</i>",
+      "conv": "zh-cn:琉璃金刚鹦鹉属; zh-tw:琉璃金剛鸚鵡屬; zh-hk:琉璃金剛鸚鵡屬;"
+    },
+    {
+      "original": "<i>Conuropsis</i>",
+      "conv": "zh-cn:卡罗莱纳长尾鹦鹉属; zh-tw:卡羅萊納長尾鸚鵡屬; zh-hk:卡羅萊納長尾鸚鵡屬;"
+    },
+    {
+      "original": "<i>Aratinga</i>",
+      "conv": "zh-cn:锥尾鹦哥属; zh-tw:錐尾鸚鵡屬; zh-hk:錐尾鸚哥屬;"
+    },
+    {
+      "original": "<i>Cyanopsitta</i>",
+      "conv": "zh-cn:蓝金刚鹦鹉属; zh-tw:藍金剛鸚鵡屬; zh-hk:藍金剛鸚鵡屬;"
+    },
+    {
+      "original": "<i>Orthopsittaca</i>",
+      "conv": "zh-cn:红腹金刚鹦鹉属; zh-tw:紅腹金剛鸚鵡屬; zh-hk:紅腹金剛鸚鵡屬;"
+    },
+    {
+      "original": "<i>Primolius</i>",
+      "conv": "zh-cn:小金刚鹦鹉属; zh-tw:小金剛鸚鵡屬; zh-hk:小金剛鸚鵡屬;"
+    },
+    {
+      "original": "<i>Ara</i>",
+      "conv": "zh-cn:金刚鹦鹉属; zh-tw:金剛鸚鵡屬; zh-hk:金剛鸚鵡屬;"
+    },
+    {
+      "original": "<i>Psittacara</i>",
+      "conv": "zh-cn:卡拉鹦哥属; zh-tw:卡拉錐尾鸚鵡屬; zh-hk:卡拉鸚哥屬;"
+    },
+    {
+      "original": "<i>Ognorhynchus</i>",
+      "conv": "zh-cn:黄耳鹦哥属; zh-tw:黃耳鸚鵡屬; zh-hk:黃耳鸚哥屬;"
+    },
+    {
+      "original": "<i>Leptosittaca</i>",
+      "conv": "zh-cn:金羽鹦哥属; zh-tw:金羽錐尾鸚鵡屬; zh-hk:金羽鸚哥屬;"
+    },
+    {
+      "original": "<i>Thectocercus</i>",
+      "conv": "zh-cn:蓝冠鹦哥属; zh-tw:藍冠錐尾鸚鵡屬; zh-hk:藍冠鸚哥屬;"
+    },
+    {
+      "original": "<i>Guaruba</i>",
+      "conv": "zh-cn:金鹦哥属; zh-tw:黃金鸚鵡屬; zh-hk:金鸚哥屬;"
+    },
+    {
+      "original": "<i>Diopsittaca</i>",
+      "conv": "zh-cn:红肩金刚鹦鹉属; zh-tw:紅肩金剛鸚鵡屬; zh-hk:紅肩金剛鸚鵡屬;"
+    },
+    {
+      "original": "Psittaculidae",
+      "conv": "zh-cn:鹦鹉科; zh-tw:舊世界鸚鵡科; zh-hk:鸚鵡科;"
+    },
+    {
+      "original": "Psittrichasinae",
+      "conv": "zh-cn:彼氏鹦鹉亚科; zh-tw:彼斯奎氏鸚鵡亞科; zh-hk:彼氏鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Psittrichas</i>",
+      "conv": "zh-cn:彼氏鹦鹉属; zh-tw:彼斯奎氏鸚鵡屬; zh-hk:彼氏鸚鵡屬;"
+    },
+    {
+      "original": "<i>Coracopsis</i>",
+      "conv": "zh-cn:马岛鹦鹉属; zh-tw:馬島鸚鵡屬; zh-hk:馬島鸚鵡屬;"
+    },
+    {
+      "original": "Platycercinae",
+      "conv": "zh-cn:宽尾鹦鹉亚科; zh-tw:澳洲草原鸚鵡亞科; zh-hk:寬尾鸚鵡亞科;"
+    },
+    {
+      "original": "Pezoporini",
+      "conv": "zh-cn:地鹦鹉族; zh-tw:地棲鸚鵡族; zh-hk:地鸚鵡族;"
+    },
+    {
+      "original": "<i>Neophema</i>",
+      "conv": "zh-cn:橙腹鹦鹉属; zh-tw:紐費瑪鸚鵡屬; zh-hk:橙腹鸚鵡屬;"
+    },
+    {
+      "original": "<i>Neopsephotus</i>",
+      "conv": "zh-cn:伯氏鹦鹉属; zh-tw:伯基氏鸚鵡屬; zh-hk:伯氏鸚鵡屬;"
+    },
+    {
+      "original": "<i>Pezoporus</i>",
+      "conv": "zh-cn:地鹦鹉属; zh-tw:地棲鸚鵡屬; zh-hk:地鸚鵡屬;"
+    },
+    {
+      "original": "Platycercini",
+      "conv": "zh-cn:宽尾鹦鹉族; zh-tw:澳洲草原鸚鵡族; zh-hk:寬尾鸚鵡族;"
+    },
+    {
+      "original": "<i>Lathamus</i>",
+      "conv": "zh-cn:红尾绿鹦鹉属; zh-tw:快速鸚鵡屬; zh-hk:紅尾綠鸚鵡屬;"
+    },
+    {
+      "original": "<i>Prosopeia</i>",
+      "conv": "zh-cn:辉鹦鹉属; zh-tw:麝香鸚鵡屬; zh-hk:輝鸚鵡屬;"
+    },
+    {
+      "original": "<i>Eunymphicus</i>",
+      "conv": "zh-cn:翎冠鹦鹉属; zh-tw:角鸚鵡屬; zh-hk:翎冠鸚鵡屬;"
+    },
+    {
+      "original": "<i>Cyanoramphus</i>",
+      "conv": "zh-cn:长尾鹦鹉属; zh-tw:長尾鸚鵡屬; zh-hk:長尾鸚鵡屬;"
+    },
+    {
+      "original": "<i>Platycercus</i>",
+      "conv": "zh-cn:玫瑰鹦鹉属; zh-tw:玫瑰鸚鵡屬; zh-hk:玫瑰鸚鵡屬;"
+    },
+    {
+      "original": "<i>Barnardius</i>",
+      "conv": "zh-cn:环颈鹦鹉属; zh-tw:環頸鸚鵡屬; zh-hk:環頸鸚鵡屬;"
+    },
+    {
+      "original": "<i>Psephotus</i>",
+      "conv": "zh-cn:红腰鹦鹉属; zh-tw:紅腰鸚鵡屬; zh-hk:紅腰鸚鵡屬;"
+    },
+    {
+      "original": "<i>Northiella</i>",
+      "conv": "zh-cn:蓝额鹦鹉属; zh-tw:藍帽鸚鵡屬; zh-hk:藍額鸚鵡屬;"
+    },
+    {
+      "original": "<i>Purpureicephalus</i>",
+      "conv": "zh-cn:红顶鹦鹉属; zh-tw:紅帽鸚鵡屬; zh-hk:紅頂鸚鵡屬;"
+    },
+    {
+      "original": "<i>Psephotellus</i>",
+      "conv": "zh-cn:金肩鹦鹉属; zh-tw:金肩鸚鵡屬; zh-hk:金肩鸚鵡屬;"
+    },
+    {
+      "original": "Psittacellinae",
+      "conv": "zh-cn:虎斑鹦鹉亚科; zh-tw:虎紋鸚鵡亞科; zh-hk:虎斑鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Psittacella</i>",
+      "conv": "zh-cn:虎斑鹦鹉属; zh-tw:虎紋鸚鵡屬; zh-hk:虎斑鸚鵡屬;"
+    },
+    {
+      "original": "Loriinae",
+      "conv": "zh-cn:吸蜜鹦鹉亚科; zh-tw:吸蜜鸚鵡亞科; zh-hk:吸蜜鸚鵡亞科;"
+    },
+    {
+      "original": "Loriini",
+      "conv": "zh-cn:吸蜜鹦鹉族; zh-tw:吸蜜鸚鵡族; zh-hk:吸蜜鸚鵡族;"
+    },
+    {
+      "original": "<i>Oreopsittacus</i>",
+      "conv": "zh-cn:紫颊鹦鹉属; zh-tw:紫面吸蜜鸚鵡屬; zh-hk:紫頰鸚鵡屬;"
+    },
+    {
+      "original": "<i>Charminetta</i>",
+      "conv": "zh-cn:威氏鹦鹉属; zh-tw:小縱紋吸蜜鸚鵡屬; zh-hk:威氏鸚鵡屬;"
+    },
+    {
+      "original": "<i>Synorhacma</i>",
+      "conv": "zh-cn:纵纹鹦鹉属; zh-tw:縱紋吸蜜鸚鵡屬; zh-hk:縱紋鸚鵡屬;"
+    },
+    {
+      "original": "<i>Charmosynoides</i>",
+      "conv": "zh-cn:贵妃鹦鹉属; zh-tw:爵婦吸蜜鸚鵡屬; zh-hk:貴妃鸚鵡屬;"
+    },
+    {
+      "original": "<i>Psitteuteles</i>",
+      "conv": "zh-cn:丽色鹦鹉属; zh-tw:雜色吸蜜鸚鵡屬; zh-hk:麗色鸚鵡屬;"
+    },
+    {
+      "original": "<i>Glossoptilus</i>",
+      "conv": "zh-cn:戈氏鹦鹉属; zh-tw:戈迪氏吸蜜鸚鵡屬; zh-hk:戈氏鸚鵡屬;"
+    },
+    {
+      "original": "<i>Glossopsitta</i>",
+      "conv": "zh-cn:红耳绿鹦鹉属; zh-tw:麝香吸蜜鸚鵡屬; zh-hk:紅耳綠鸚鵡屬;"
+    },
+    {
+      "original": "<i>Trichoglossus</i>",
+      "conv": "zh-cn:吸蜜鹦鹉属; zh-tw:森氏吸蜜鸚鵡屬; zh-hk:吸蜜鸚鵡屬;"
+    },
+    {
+      "original": "Melopsittacini",
+      "conv": "zh-cn:虎皮鹦鹉族; zh-tw:虎皮鸚鵡族; zh-hk:虎皮鸚鵡族;"
+    },
+    {
+      "original": "<i>Melopsittacus</i>",
+      "conv": "zh-cn:虎皮鹦鹉属; zh-tw:虎皮鸚鵡屬; zh-hk:虎皮鸚鵡屬;"
+    },
+    {
+      "original": "Cyclopsittini",
+      "conv": "zh-cn:无花果鹦鹉族; zh-tw:無花果鸚鵡族; zh-hk:無花果鸚鵡族;"
+    },
+    {
+      "original": "<i>Cyclopsitta</i>",
+      "conv": "zh-cn:无花果鹦鹉属; zh-tw:無花果鸚鵡屬; zh-hk:無花果鸚鵡屬;"
+    },
+    {
+      "original": "Agapornithinae",
+      "conv": "zh-cn:牡丹鹦鹉亚科; zh-tw:情侶鸚鵡亞科; zh-hk:牡丹鸚鵡亞科;"
+    },
+    {
+      "original": "<i>Bolbopsittacus</i>",
+      "conv": "zh-cn:菲律宾鹦鹉属; zh-tw:月狀鸚鵡屬; zh-hk:菲律賓鸚鵡屬;"
+    },
+    {
+      "original": "<i>Loriculus</i>",
+      "conv": "zh-cn:短尾鹦鹉属; zh-tw:倒懸鸚鵡屬; zh-hk:短尾鸚鵡屬;"
+    },
+    {
+      "original": "<i>Agapornis</i>",
+      "conv": "zh-cn:牡丹鹦鹉属; zh-tw:情侶鸚鵡屬; zh-hk:牡丹鸚鵡屬;"
+    },
+    {
+      "original": "Psittaculinae",
+      "conv": "zh-cn:鹦鹉亞科; zh-tw:亞澳鸚鵡亞科; zh-hk:鸚鵡亞科;"
+    },
+    {
+      "original": "Polytelini",
+      "conv": "zh-cn:超级鹦鹉族; zh-tw:超級鸚鵡族; zh-hk:超級鸚鵡族;"
+    },
+    {
+      "original": "<i>Alisterus</i>",
+      "conv": "zh-cn:王鹦鹉属; zh-tw:國王鸚鵡屬; zh-hk:王鸚鵡屬;"
+    },
+    {
+      "original": "<i>Aprosmictus</i>",
+      "conv": "zh-cn:红翅鹦鹉属; zh-tw:紅翅鸚鵡屬; zh-hk:紅翅鸚鵡屬;"
+    },
+    {
+      "original": "<i>Polytelis</i>",
+      "conv": "zh-cn:超级鹦鹉属; zh-tw:超級鸚鵡屬; zh-hk:超級鸚鵡屬;"
+    },
+    {
+      "original": "Psittaculini",
+      "conv": "zh-cn:鹦鹉族; zh-tw:亞澳鸚鵡族; zh-hk:鸚鵡族;"
+    },
+    {
+      "original": "<i>Prioniturus</i>",
+      "conv": "zh-cn:扇尾鹦鹉属; zh-tw:拍尾鸚鵡屬; zh-hk:扇尾鸚鵡屬;"
+    },
+    {
+      "original": "<i>Eclectus</i>",
+      "conv": "zh-cn:红胁绿鹦鹉属; zh-tw:折衷鸚鵡屬; zh-hk:紅脇綠鸚鵡屬;"
+    },
+    {
+      "original": "<i>Psittinus</i>",
+      "conv": "zh-cn:蓝腰鹦鹉属; zh-tw:藍腰鸚鵡屬; zh-hk:藍腰鸚鵡屬;"
+    },
+    {
+      "original": "<i>Psittacula</i>",
+      "conv": "zh-cn:鹦鹉属; zh-tw:鸚鵡屬; zh-hk:鸚鵡屬;"
+    },
+    {
+      "original": "<i>Tanygnathus</i>",
+      "conv": "zh-cn:巨嘴鹦鹉属; zh-tw:巨喙鸚鵡屬; zh-hk:巨喙鸚鵡屬;"
+    },
+    {
+      "original": "Micropsittini",
+      "conv": "zh-cn:侏鹦鹉族; zh-tw:侏儒鸚鵡族; zh-hk:侏鸚鵡族;"
+    },
+    {
+      "original": "<i>Micropsitta</i>",
+      "conv": "zh-cn:侏鹦鹉属; zh-tw:侏儒鸚鵡屬; zh-hk:侏鸚鵡屬;"
+    },
+    {
       "original": "<i>Strigops habroptila</i>",
       "conv": "zh-cn:鸮面鹦鹉; zh-tw:鴞鸚鵡; zh-hk:鴞面鸚鵡;"
     },
@@ -8905,7 +9449,7 @@
     },
     {
       "original": "<i>Calyptorhynchus lathami</i>",
-      "conv": "zh-cn:辉凤头鹦鹉; zh-tw:輝亮鳳頭鸚鵡; zh-hk:輝鳳頭鸚鵡;"
+      "conv": "zh-cn:辉凤头鹦鹉; zh-tw:光輝黑鳳頭鸚鵡; zh-hk:輝鳳頭鸚鵡;"
     },
     {
       "original": "<i>Zanda funerea</i>",
@@ -8913,7 +9457,7 @@
     },
     {
       "original": "<i>Zanda baudinii</i>",
-      "conv": "zh-cn:长嘴黑凤头鹦鹉; zh-tw:白尾黑鳳頭鸚鵡; zh-hk:長嘴黑鳳頭鸚鵡;"
+      "conv": "zh-cn:长嘴黑凤头鹦鹉; zh-tw:長喙黑鳳頭鸚鵡; zh-hk:長嘴黑鳳頭鸚鵡;"
     },
     {
       "original": "<i>Zanda latirostris</i>",
@@ -8929,7 +9473,7 @@
     },
     {
       "original": "<i>Lophochroa leadbeateri</i>",
-      "conv": "zh-cn:彩冠凤头鹦鹉; zh-tw:米契氏粉紅鳳頭鸚鵡; zh-hk:彩冠鳳頭鸚鵡;"
+      "conv": "zh-cn:彩冠凤头鹦鹉; zh-tw:米契兒氏鳳頭鸚鵡; zh-hk:彩冠鳳頭鸚鵡;"
     },
     {
       "original": "<i>Cacatua pastinator</i>",
@@ -8941,43 +9485,51 @@
     },
     {
       "original": "<i>Cacatua goffiniana</i>",
-      "conv": "zh-cn:戈氏凤头鹦鹉; zh-tw:戈芬氏鳳頭鸚鵡; zh-hk:戈氏鳳頭鸚鵡;"
+      "conv": "zh-cn:戈氏凤头鹦鹉; zh-tw:戈芬氏鳳頭鸚鵡; zh-hk:戈芬氏鳳頭鸚鵡;"
     },
     {
       "original": "<i>Cacatua ducorpsii</i>",
-      "conv": "zh-cn:杜氏凤头鹦鹉; zh-tw:杜科氏鳳頭鸚鵡; zh-hk:杜氏鳳頭鸚鵡;"
+      "conv": "zh-cn:杜氏凤头鹦鹉; zh-tw:所羅門鳳頭鸚鵡; zh-hk:杜氏鳳頭鸚鵡;"
     },
     {
       "original": "<i>Cacatua haematuropygia</i>",
-      "conv": "zh-cn:菲律宾凤头鹦鹉; zh-tw:菲律賓紅臀鳳頭鸚鵡; zh-hk:菲律賓鳳頭鸚鵡;"
+      "conv": "zh-cn:菲律宾凤头鹦鹉; zh-tw:菲律賓鳳頭鸚鵡; zh-hk:紅肛鳳頭鸚鵡;"
+    },
+    {
+      "original": "<i>Cacatua tenuirostris</i>",
+      "conv": "zh-cn:长嘴凤头鹦鹉; zh-tw:長喙鳳頭鸚鵡; zh-hk:長嘴鳳頭鸚鵡;"
     },
     {
       "original": "<i>Cacatua galerita</i>",
-      "conv": "zh-cn:葵花鹦鹉; zh-tw:小葵花鳳頭鸚鵡; zh-hk:葵花鸚鵡;"
+      "conv": "zh-cn:葵花鹦鹉; zh-tw:葵花鳳頭鸚鵡; zh-hk:葵花鸚鵡;"
     },
     {
       "original": "<i>Cacatua ophthalmica</i>",
-      "conv": "zh-cn:蓝眼凤头鹦鹉; zh-tw:葵花鳳頭鸚鵡; zh-hk:藍眼鳳頭鸚鵡;"
+      "conv": "zh-cn:蓝眼凤头鹦鹉; zh-tw:藍眼鳳頭鸚鵡; zh-hk:藍眼鳳頭鸚鵡;"
     },
     {
       "original": "<i>Cacatua sulphurea</i>",
-      "conv": "zh-cn:小葵花鹦鹉; zh-tw:藍眼鳳頭鸚鵡; zh-hk:小葵花鳳頭鸚鵡;"
+      "conv": "zh-cn:小葵花鹦鹉; zh-tw:小葵花鳳頭鸚鵡; zh-hk:小葵花鸚鵡;"
     },
     {
       "original": "<i>Cacatua moluccensis</i>",
-      "conv": "zh-cn:橙冠凤头鹦鹉; zh-tw:鮭紅鳳頭鸚鵡; zh-hk:橙冠鳳頭鸚鵡;"
+      "conv": "zh-cn:橙冠凤头鹦鹉; zh-tw:鮭色鳳頭鸚鵡; zh-hk:鮭色鳳頭鸚鵡;"
     },
     {
       "original": "<i>Psittacus erithacus</i>",
-      "conv": "zh-cn:非洲灰鹦鹉; zh-tw:灰鸚鵡; zh-hk:非洲灰鸚鵡;"
+      "conv": "zh-cn:非洲灰鹦鹉; zh-tw:非洲灰鸚鵡; zh-hk:非洲灰鸚鵡;"
     },
     {
       "original": "<i>Psittacus timneh</i>",
       "conv": "zh-cn:西非灰鹦鹉; zh-tw:獅子山棕頸鸚鵡; zh-hk:西非灰鸚鵡;"
     },
     {
+      "original": "<i>Poicephalus gulielmi</i>",
+      "conv": "zh-cn:非洲红额鹦鹉; zh-tw:紅額鸚鵡; zh-hk:非洲紅額鸚鵡;"
+    },
+    {
       "original": "<i>Poicephalus flavifrons</i>",
-      "conv": "zh-cn:黄头鹦鹉; zh-tw:黃臉鸚鵡; zh-hk:黃頭鸚鵡;"
+      "conv": "zh-cn:黄头鹦鹉; zh-tw:黃面鸚鵡; zh-hk:黃頭鸚鵡;"
     },
     {
       "original": "<i>Poicephalus fuscicollis</i>",
@@ -8985,419 +9537,643 @@
     },
     {
       "original": "<i>Poicephalus robustus</i>",
-      "conv": "zh-cn:好望角鹦鹉; zh-tw:好望角棕頸鸚鵡; zh-hk:好望角鸚鵡;"
+      "conv": "zh-cn:好望角鹦鹉; zh-tw:棕頸鸚鵡; zh-hk:好望角鸚鵡;"
     },
     {
       "original": "<i>Poicephalus meyeri</i>",
-      "conv": "zh-cn:褐鹦鹉; zh-tw:棕鸚鵡; zh-hk:褐鸚鵡;"
+      "conv": "zh-cn:褐鹦鹉; zh-tw:邁耶氏鸚鵡; zh-hk:褐鸚鵡;"
     },
     {
       "original": "<i>Poicephalus rueppellii</i>",
       "conv": "zh-cn:鲁氏鹦鹉; zh-tw:魯佩氏鸚鵡; zh-hk:魯氏鸚鵡;"
     },
     {
+      "original": "<i>Poicephalus cryptoxanthus</i>",
+      "conv": "zh-cn:褐头鹦鹉; zh-tw:棕頭鸚鵡; zh-hk:褐頭鸚鵡;"
+    },
+    {
+      "original": "<i>Touit batavicus</i>",
+      "conv": "zh-cn:淡紫尾鹦哥; zh-tw:丁香尾小鸚鵡; zh-hk:淡紫尾鸚哥;"
+    },
+    {
+      "original": "<i>Touit huetii</i>",
+      "conv": "zh-cn:紫肩鹦哥; zh-tw:深紅肩小鸚鵡; zh-hk:紫肩鸚哥;"
+    },
+    {
       "original": "<i>Touit costaricensis</i>",
-      "conv": "zh-cn:中美红额鹦哥; zh-tw:紅額鸚哥; zh-hk:中美紅額鸚哥;"
+      "conv": "zh-cn:中美红额鹦哥; zh-tw:紅額小鸚鵡; zh-hk:中美紅額鸚哥;"
     },
     {
       "original": "<i>Touit dilectissimus</i>",
-      "conv": "zh-cn:蓝额鹦哥; zh-tw:紅翅鸚哥; zh-hk:藍額鸚哥;"
+      "conv": "zh-cn:蓝额鹦哥; zh-tw:藍額小鸚鵡; zh-hk:藍額鸚哥;"
     },
     {
       "original": "<i>Touit purpuratus</i>",
-      "conv": "zh-cn:青腰鹦哥; zh-tw:天藍腰鸚哥; zh-hk:青腰鸚哥;"
+      "conv": "zh-cn:青腰鹦哥; zh-tw:深藍腰小鸚鵡; zh-hk:青腰鸚哥;"
+    },
+    {
+      "original": "<i>Touit melanonotus</i>",
+      "conv": "zh-cn:褐背鹦哥; zh-tw:褐背小鸚鵡; zh-hk:褐背鸚哥;"
+    },
+    {
+      "original": "<i>Touit surdus</i>",
+      "conv": "zh-cn:金尾鹦哥; zh-tw:金尾小鸚鵡; zh-hk:金尾鸚哥;"
     },
     {
       "original": "<i>Touit stictopterus</i>",
-      "conv": "zh-cn:斑翅鹦哥; zh-tw:點翅鸚哥; zh-hk:斑翅鸚哥;"
+      "conv": "zh-cn:斑翅鹦哥; zh-tw:班翼小鸚鵡; zh-hk:斑翅鸚哥;"
     },
     {
       "original": "<i>Psilopsiagon aymara</i>",
-      "conv": "zh-cn:灰顶鹦哥; zh-tw:灰頭鸚哥; zh-hk:灰頂鸚哥;"
+      "conv": "zh-cn:灰顶鹦哥; zh-tw:灰頭巾鸚鵡; zh-hk:灰頂鸚哥;"
     },
     {
       "original": "<i>Psilopsiagon aurifrons</i>",
-      "conv": "zh-cn:山鹦哥; zh-tw:高山鸚哥; zh-hk:山鸚哥;"
+      "conv": "zh-cn:山鹦哥; zh-tw:高山鸚鵡; zh-hk:山鸚哥;"
+    },
+    {
+      "original": "<i>Bolborhynchus lineola</i>",
+      "conv": "zh-cn:横斑鹦哥; zh-tw:橫斑鸚鵡; zh-hk:橫斑鸚哥;"
+    },
+    {
+      "original": "<i>Bolborhynchus ferrugineifrons</i>",
+      "conv": "zh-cn:棕额鹦哥; zh-tw:赤褐額鸚鵡; zh-hk:棕額鸚哥;"
     },
     {
       "original": "<i>Bolborhynchus orbygnesius</i>",
-      "conv": "zh-cn:安第斯鹦哥; zh-tw:安地斯鸚哥; zh-hk:安第斯鸚哥;"
+      "conv": "zh-cn:安第斯鹦哥; zh-tw:安迪斯山鸚鵡; zh-hk:安第斯鸚哥;"
     },
     {
       "original": "<i>Myiopsitta monachus</i>",
-      "conv": "zh-cn:灰胸鹦哥; zh-tw:和尚鸚哥; zh-hk:灰胸鸚哥;"
+      "conv": "zh-cn:灰胸鹦哥; zh-tw:和尚鸚鵡; zh-hk:灰胸鸚哥;"
     },
     {
       "original": "<i>Myiopsitta luchsi</i>",
-      "conv": "zh-cn:白胸鹦哥; zh-tw:懸崖鸚哥; zh-hk:白胸鸚哥;"
+      "conv": "zh-cn:白胸鹦哥; zh-tw:峭壁鸚鵡; zh-hk:白胸鸚哥;"
+    },
+    {
+      "original": "<i>Brotogeris sanctithomae</i>",
+      "conv": "zh-cn:图伊鹦哥; zh-tw:圖伊鸚鵡; zh-hk:圖伊鸚哥;"
+    },
+    {
+      "original": "<i>Brotogeris tirica</i>",
+      "conv": "zh-cn:纯色鹦哥; zh-tw:純色鸚鵡; zh-hk:純色鸚哥;"
     },
     {
       "original": "<i>Brotogeris versicolurus</i>",
-      "conv": "zh-cn:淡黄翅鹦哥; zh-tw:白翅鸚哥; zh-hk:淡黃翅鸚哥;"
+      "conv": "zh-cn:淡黄翅鹦哥; zh-tw:金絲翅鸚鵡; zh-hk:淡黃翅鸚哥;"
     },
     {
       "original": "<i>Brotogeris chiriri</i>",
-      "conv": "zh-cn:黄翅斑鹦哥; zh-tw:黃肩鸚哥; zh-hk:黃翅斑鸚哥;"
+      "conv": "zh-cn:黄翅斑鹦哥; zh-tw:黃鋸翅鸚鵡; zh-hk:黃翅斑鸚哥;"
+    },
+    {
+      "original": "<i>Brotogeris pyrrhoptera</i>",
+      "conv": "zh-cn:灰颊鹦哥; zh-tw:灰頰鸚鵡; zh-hk:灰頰鸚哥;"
+    },
+    {
+      "original": "<i>Brotogeris jugularis</i>",
+      "conv": "zh-cn:橙颏鹦哥; zh-tw:橙頦鸚鵡; zh-hk:橙頦鸚哥;"
     },
     {
       "original": "<i>Brotogeris cyanoptera</i>",
-      "conv": "zh-cn:绣眼蓝翅鹦哥; zh-tw:鈷翅鸚哥; zh-hk:繡眼藍翅鸚哥;"
+      "conv": "zh-cn:绣眼蓝翅鹦哥; zh-tw:鈷翅鸚鵡; zh-hk:繡眼藍翅鸚哥;"
     },
     {
       "original": "<i>Brotogeris chrysoptera</i>",
-      "conv": "zh-cn:金翅斑鹦哥; zh-tw:金翅鸚哥; zh-hk:金翅斑鸚哥;"
+      "conv": "zh-cn:金翅斑鹦哥; zh-tw:金翅鸚鵡; zh-hk:金翅斑鸚哥;"
+    },
+    {
+      "original": "<i>Nannopsittaca panychlora</i>",
+      "conv": "zh-cn:特布伊鹦哥; zh-tw:特布伊小鸚鵡; zh-hk:特布伊鸚哥;"
+    },
+    {
+      "original": "<i>Nannopsittaca dachilleae</i>",
+      "conv": "zh-cn:亚马孙鹦哥; zh-tw:亞馬遜小鸚鵡; zh-hk:亞馬遜鸚哥;"
     },
     {
       "original": "<i>Pionopsitta pileata</i>",
-      "conv": "zh-cn:红顶鹦哥; zh-tw:紅帽鸚哥; zh-hk:紅頂鸚哥;"
+      "conv": "zh-cn:红顶鹦哥; zh-tw:紅帽鸚鵡; zh-hk:紅帽鸚鵡;"
+    },
+    {
+      "original": "<i>Pyrilia haematotis</i>",
+      "conv": "zh-cn:褐冠鹦哥; zh-tw:棕頭巾鸚鵡; zh-hk:褐冠鸚哥;"
     },
     {
       "original": "<i>Pyrilia pyrilia</i>",
-      "conv": "zh-cn:橙头鹦哥; zh-tw:蕃紅頭鸚哥; zh-hk:橙頭鸚哥;"
+      "conv": "zh-cn:橙头鹦哥; zh-tw:橙黃頭鸚鵡; zh-hk:橙頭鸚哥;"
     },
     {
       "original": "<i>Pyrilia pulchra</i>",
-      "conv": "zh-cn:粉脸鹦哥; zh-tw:麗色鸚哥; zh-hk:粉臉鸚哥;"
+      "conv": "zh-cn:粉脸鹦哥; zh-tw:玫瑰面鸚鵡; zh-hk:粉臉鸚哥;"
+    },
+    {
+      "original": "<i>Pyrilia barrabandi</i>",
+      "conv": "zh-cn:橙颊鹦哥; zh-tw:橙頰鸚鵡; zh-hk:橙頰鸚哥;"
     },
     {
       "original": "<i>Pyrilia caica</i>",
-      "conv": "zh-cn:盖加鹦哥; zh-tw:開卡拉鸚哥; zh-hk:蓋加鸚哥;"
+      "conv": "zh-cn:盖加鹦哥; zh-tw:蓋加鸚鵡; zh-hk:蓋加鸚哥;"
     },
     {
       "original": "<i>Pyrilia aurantiocephala</i>",
-      "conv": "zh-cn:秃鹦哥; zh-tw:白頭鸚哥; zh-hk:禿鸚哥;"
+      "conv": "zh-cn:秃鹦哥; zh-tw:白頭鸚鵡; zh-hk:禿鸚哥;"
     },
     {
       "original": "<i>Pyrilia vulturina</i>",
-      "conv": "zh-cn:鹫鹦哥; zh-tw:鷲形鸚哥; zh-hk:鷲鸚哥;"
+      "conv": "zh-cn:鹫鹦哥; zh-tw:兀鷹鸚鵡; zh-hk:鷲鸚哥;"
+    },
+    {
+      "original": "<i>Hapalopsittaca amazonina</i>",
+      "conv": "zh-cn:锈脸鹦哥; zh-tw:銹面鸚鵡; zh-hk:鏽臉鸚哥;"
     },
     {
       "original": "<i>Hapalopsittaca fuertesi</i>",
-      "conv": "zh-cn:红肩鹦哥; zh-tw:靛藍翅鸚哥; zh-hk:紅肩鸚哥;"
+      "conv": "zh-cn:红肩鹦哥; zh-tw:靛藍翼鸚鵡; zh-hk:紅肩鸚哥;"
+    },
+    {
+      "original": "<i>Hapalopsittaca pyrrhops</i>",
+      "conv": "zh-cn:红脸鹦哥; zh-tw:紅面鸚鵡; zh-hk:紅臉鸚哥;"
     },
     {
       "original": "<i>Hapalopsittaca melanotis</i>",
-      "conv": "zh-cn:黑耳鹦哥; zh-tw:黑翅鸚哥; zh-hk:黑耳鸚哥;"
+      "conv": "zh-cn:黑耳鹦哥; zh-tw:黑翼鸚鵡; zh-hk:黑耳鸚哥;"
+    },
+    {
+      "original": "<i>Graydidascalus brachyurus</i>",
+      "conv": "zh-cn:短尾鹦哥; zh-tw:短尾鸚鵡; zh-hk:短尾鸚哥;"
+    },
+    {
+      "original": "<i>Pionus fuscus</i>",
+      "conv": "zh-cn:暗色鹦哥; zh-tw:暗色鸚鵡; zh-hk:暗色鸚哥;"
+    },
+    {
+      "original": "<i>Pionus sordidus</i>",
+      "conv": "zh-cn:红嘴鹦哥; zh-tw:紅喙鸚鵡; zh-hk:紅嘴鸚哥;"
+    },
+    {
+      "original": "<i>Pionus maximiliani</i>",
+      "conv": "zh-cn:鳞头鹦哥; zh-tw:鱗頭鸚鵡; zh-hk:鱗頭鸚哥;"
     },
     {
       "original": "<i>Pionus tumultuosus</i>",
-      "conv": "zh-cn:紫冠鹦哥; zh-tw:梅紅冠鸚哥; zh-hk:紫冠鸚哥;"
+      "conv": "zh-cn:紫冠鹦哥; zh-tw:班面鸚鵡; zh-hk:紫冠鸚哥;"
+    },
+    {
+      "original": "<i>Pionus seniloides</i>",
+      "conv": "zh-cn:白顶鹦哥; zh-tw:白帽鸚鵡; zh-hk:白頂鸚哥;"
+    },
+    {
+      "original": "<i>Pionus menstruus</i>",
+      "conv": "zh-cn:蓝头鹦哥; zh-tw:藍頭鸚鵡; zh-hk:藍頭鸚哥;"
+    },
+    {
+      "original": "<i>Pionus senilis</i>",
+      "conv": "zh-cn:白冠鹦哥; zh-tw:白冠鸚鵡; zh-hk:白冠鸚哥;"
+    },
+    {
+      "original": "<i>Pionus chalcopterus</i>",
+      "conv": "zh-cn:青铜翅鹦哥; zh-tw:青銅翅鸚鵡; zh-hk:青銅翅鸚哥;"
     },
     {
       "original": "<i>Alipiopsitta xanthops</i>",
-      "conv": "zh-cn:黄颊鹦哥; zh-tw:黃臉亞馬遜鸚哥; zh-hk:黃頰鸚哥;"
+      "conv": "zh-cn:黄颊鹦哥; zh-tw:黃面亞馬遜鸚鵡; zh-hk:黃頰鸚哥;"
     },
     {
       "original": "<i>Amazona festiva</i>",
-      "conv": "zh-cn:红额蓝颊鹦哥; zh-tw:喜慶亞馬遜鸚哥; zh-hk:紅額藍頰鸚哥;"
+      "conv": "zh-cn:红额蓝颊鹦哥; zh-tw:喜慶亞馬遜鸚鵡; zh-hk:紅額藍頰鸚哥;"
     },
     {
       "original": "<i>Amazona vinacea</i>",
-      "conv": "zh-cn:红胸鹦哥; zh-tw:紅胸亞馬遜鸚哥; zh-hk:紅胸鸚哥;"
+      "conv": "zh-cn:红胸鹦哥; zh-tw:葡萄胸亞馬遜鸚鵡; zh-hk:紅胸亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona tucumana</i>",
-      "conv": "zh-cn:图库曼鹦哥; zh-tw:赤楊亞馬遜鸚哥; zh-hk:圖庫曼鸚哥;"
+      "conv": "zh-cn:图库曼鹦哥; zh-tw:土庫曼亞馬遜鸚鵡; zh-hk:榿木亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona pretrei</i>",
-      "conv": "zh-cn:红眶鹦哥; zh-tw:紅眼鏡亞馬遜鸚哥; zh-hk:紅眶鸚哥;"
+      "conv": "zh-cn:红眶鹦哥; zh-tw:紅眼鏡亞馬遜鸚鵡; zh-hk:紅眼鏡亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona agilis</i>",
-      "conv": "zh-cn:黑嘴鹦哥; zh-tw:黑嘴亞馬遜鸚哥; zh-hk:黑嘴鸚哥;"
+      "conv": "zh-cn:黑嘴鹦哥; zh-tw:黑喙亞馬遜鸚鵡; zh-hk:黑嘴鸚哥;"
     },
     {
       "original": "<i>Amazona albifrons</i>",
-      "conv": "zh-cn:白额绿鹦哥; zh-tw:白額亞馬遜鸚哥; zh-hk:白額綠鸚哥;"
+      "conv": "zh-cn:白额绿鹦哥; zh-tw:白額亞馬遜鸚鵡; zh-hk:白額綠鸚哥;"
     },
     {
       "original": "<i>Amazona collaria</i>",
-      "conv": "zh-cn:黄嘴鹦哥; zh-tw:黃嘴亞馬遜鸚哥; zh-hk:黃嘴鸚哥;"
+      "conv": "zh-cn:黄嘴鹦哥; zh-tw:黃喙亞馬遜鸚鵡; zh-hk:黃嘴鸚哥;"
     },
     {
       "original": "<i>Amazona leucocephala</i>",
-      "conv": "zh-cn:古巴白额鹦哥; zh-tw:古巴亞馬遜鸚哥; zh-hk:古巴白額鸚哥;"
+      "conv": "zh-cn:古巴白额鹦哥; zh-tw:古巴亞馬遜鸚鵡; zh-hk:古巴亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona ventralis</i>",
-      "conv": "zh-cn:白眶绿鹦哥; zh-tw:希斯潘諾拉亞馬遜鸚哥; zh-hk:白眶綠鸚哥;"
+      "conv": "zh-cn:白眶绿鹦哥; zh-tw:西斯盤紐拉亞馬遜鸚鵡; zh-hk:白眶綠鸚哥;"
     },
     {
       "original": "<i>Amazona vittata</i>",
-      "conv": "zh-cn:波多黎各鹦哥; zh-tw:波多黎各亞馬遜鸚哥; zh-hk:波多黎各鸚哥;"
+      "conv": "zh-cn:波多黎各鹦哥; zh-tw:波多黎各亞馬遜鸚鵡; zh-hk:波多黎各鸚哥;"
     },
     {
       "original": "<i>Amazona finschi</i>",
-      "conv": "zh-cn:淡紫冠鹦哥; zh-tw:淡紫冠亞馬遜鸚哥; zh-hk:淡紫冠鸚哥;"
+      "conv": "zh-cn:淡紫冠鹦哥; zh-tw:丁香亞馬遜鸚鵡; zh-hk:淡紫冠鸚哥;"
     },
     {
       "original": "<i>Amazona autumnalis</i>",
-      "conv": "zh-cn:红眼鹦哥; zh-tw:紅眼先亞馬遜鸚哥; zh-hk:紅眼鸚哥;"
+      "conv": "zh-cn:红眼鹦哥; zh-tw:紅眼先亞馬遜鸚鵡; zh-hk:紅眼鸚哥;"
     },
     {
       "original": "<i>Amazona diadema</i>",
-      "conv": "zh-cn:冕鹦哥; zh-tw:冠亞馬遜鸚哥; zh-hk:冕鸚哥;"
+      "conv": "zh-cn:冕鹦哥; zh-tw:冠亞馬遜鸚鵡; zh-hk:冕鸚哥;"
     },
     {
       "original": "<i>Amazona viridigenalis</i>",
-      "conv": "zh-cn:红冠鹦哥; zh-tw:紅冠亞馬遜鸚哥; zh-hk:紅冠鸚哥;"
+      "conv": "zh-cn:红冠鹦哥; zh-tw:紅冠亞馬遜鸚鵡; zh-hk:紅冠亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona xantholora</i>",
-      "conv": "zh-cn:黄眼先鹦哥; zh-tw:黃眼先亞馬遜鸚哥; zh-hk:黃眼先鸚哥;"
+      "conv": "zh-cn:黄眼先鹦哥; zh-tw:黃眼先亞馬遜鸚鵡; zh-hk:黃眼先鸚哥;"
     },
     {
       "original": "<i>Amazona dufresniana</i>",
-      "conv": "zh-cn:蓝颊鹦哥; zh-tw:藍頰亞馬遜鸚哥; zh-hk:藍頰鸚哥;"
+      "conv": "zh-cn:蓝颊鹦哥; zh-tw:藍頰亞馬遜鸚鵡; zh-hk:藍頰鸚哥;"
     },
     {
       "original": "<i>Amazona rhodocorytha</i>",
-      "conv": "zh-cn:红眉鹦哥; zh-tw:紅眉亞馬遜鸚哥; zh-hk:紅眉鸚哥;"
+      "conv": "zh-cn:红眉鹦哥; zh-tw:紅額亞馬遜鸚鵡; zh-hk:巴西藍頰亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona arausiaca</i>",
-      "conv": "zh-cn:红颈鹦哥; zh-tw:紅頸亞馬遜鸚哥; zh-hk:紅頸鸚哥;"
+      "conv": "zh-cn:红颈鹦哥; zh-tw:紅頸亞馬遜鸚鵡; zh-hk:紅頸亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona versicolor</i>",
-      "conv": "zh-cn:圣卢西亚鹦哥; zh-tw:聖露西亞亞馬遜鸚哥; zh-hk:聖盧西亞鸚哥;"
+      "conv": "zh-cn:圣卢西亚鹦哥; zh-tw:聖露西亞亞馬遜鸚鵡; zh-hk:聖盧西亞亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona oratrix</i>",
-      "conv": "zh-cn:黄头鹦哥; zh-tw:黃頭亞馬遜鸚哥; zh-hk:黃頭鸚哥;"
-    },
-    {
-      "original": "<i>Amazona tresmariae</i>",
-      "conv": "zh-cn:三圣岛鹦哥; zh-tw:翠馬里亞鸚哥; zh-hk:三聖島鸚哥;"
+      "conv": "zh-cn:黄头鹦哥; zh-tw:黃頭亞馬遜鸚鵡; zh-hk:黃冠亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona auropalliata</i>",
-      "conv": "zh-cn:黄枕鹦哥; zh-tw:黃頸亞馬遜鸚哥; zh-hk:黃枕鸚哥;"
+      "conv": "zh-cn:黄枕鹦哥; zh-tw:黃頸亞馬遜鸚鵡; zh-hk:黃頸亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona ochrocephala</i>",
-      "conv": "zh-cn:黄冠鹦哥; zh-tw:黃冠亞馬遜鸚哥; zh-hk:黃冠鸚哥;"
+      "conv": "zh-cn:黄冠鹦哥; zh-tw:黃冠亞馬遜鸚鵡; zh-hk:黃冠鸚哥;"
     },
     {
       "original": "<i>Amazona barbadensis</i>",
-      "conv": "zh-cn:黄肩鹦哥; zh-tw:黃肩亞馬遜鸚哥; zh-hk:黃肩鸚哥;"
+      "conv": "zh-cn:黄肩鹦哥; zh-tw:黃肩亞馬遜鸚鵡; zh-hk:黃肩亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona aestiva</i>",
-      "conv": "zh-cn:蓝顶鹦哥; zh-tw:青綠頂鸚哥; zh-hk:藍頂鸚哥;"
+      "conv": "zh-cn:蓝顶鹦哥; zh-tw:藍額亞馬遜鸚鵡; zh-hk:藍頂鸚哥;"
     },
     {
       "original": "<i>Amazona mercenarius</i>",
-      "conv": "zh-cn:鳞颈鹦哥; zh-tw:鱗頸亞馬遜鸚哥; zh-hk:鱗頸鸚哥;"
-    },
-    {
-      "original": "<i>Amazona guatemalae</i>",
-      "conv": "zh-cn:北斑点鹦哥; zh-tw:北方斑點亞馬遜鸚哥; zh-hk:北斑點鸚哥;"
+      "conv": "zh-cn:鳞颈鹦哥; zh-tw:鱗頸亞馬遜鸚鵡; zh-hk:鱗頸鸚哥;"
     },
     {
       "original": "<i>Amazona farinosa</i>",
-      "conv": "zh-cn:斑点鹦哥; zh-tw:斑點亞馬遜鸚哥; zh-hk:斑點鸚哥;"
+      "conv": "zh-cn:斑点鹦哥; zh-tw:斑點亞馬遜鸚鵡; zh-hk:斑點鸚哥;"
     },
     {
       "original": "<i>Amazona kawalli</i>",
-      "conv": "zh-cn:白脸鹦哥; zh-tw:卡氏白臉亞馬遜鸚哥; zh-hk:白臉鸚哥;"
+      "conv": "zh-cn:白脸鹦哥; zh-tw:卡沃氏亞馬遜鸚鵡; zh-hk:白臉鸚哥;"
     },
     {
       "original": "<i>Amazona imperialis</i>",
-      "conv": "zh-cn:帝鹦哥; zh-tw:帝王亞馬遜鸚哥; zh-hk:帝鸚哥;"
+      "conv": "zh-cn:帝鹦哥; zh-tw:帝王亞馬遜鸚鵡; zh-hk:帝王亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona brasiliensis</i>",
-      "conv": "zh-cn:红尾鹦哥; zh-tw:紅尾亞馬遜鸚哥; zh-hk:紅尾鸚哥;"
+      "conv": "zh-cn:红尾鹦哥; zh-tw:紅尾亞馬遜鸚鵡; zh-hk:紅尾亞馬遜鸚哥;"
     },
     {
       "original": "<i>Amazona amazonica</i>",
-      "conv": "zh-cn:橙翅鹦哥; zh-tw:橙翅亞馬遜鸚哥; zh-hk:橙翅鸚哥;"
+      "conv": "zh-cn:橙翅鹦哥; zh-tw:橙翼亞馬遜鸚鵡; zh-hk:橙翅鸚哥;"
     },
     {
       "original": "<i>Amazona guildingii</i>",
-      "conv": "zh-cn:圣文森特鹦哥; zh-tw:聖文森亞馬遜鸚哥; zh-hk:聖文森特鸚哥;"
+      "conv": "zh-cn:圣文森特鹦哥; zh-tw:聖文森亞馬遜鸚鵡; zh-hk:聖文森特亞馬遜鸚哥;"
+    },
+    {
+      "original": "<i>Triclaria malachitacea</i>",
+      "conv": "zh-cn:蓝腹鹦哥; zh-tw:藍腹鸚鵡; zh-hk:藍腹鸚哥;"
+    },
+    {
+      "original": "<i>Deroptyus accipitrinus</i>",
+      "conv": "zh-cn:鹰头鹦哥; zh-tw:鷹頭鸚鵡; zh-hk:鷹頭鸚哥;"
+    },
+    {
+      "original": "<i>Forpus modestus</i>",
+      "conv": "zh-cn:乌嘴鹦哥; zh-tw:黑喙小鸚鵡; zh-hk:烏嘴鸚哥;"
+    },
+    {
+      "original": "<i>Forpus cyanopygius</i>",
+      "conv": "zh-cn:蓝腰鹦哥; zh-tw:墨西哥小鸚鵡; zh-hk:藍腰鸚哥;"
+    },
+    {
+      "original": "<i>Forpus crassirostris</i>",
+      "conv": "zh-cn:大嘴鹦哥; zh-tw:大喙小鸚鵡; zh-hk:大嘴鸚哥;"
+    },
+    {
+      "original": "<i>Forpus spengeli</i>",
+      "conv": "zh-cn:绿翅鹦哥; zh-tw:綠翼小鸚鵡; zh-hk:綠翅鸚哥;"
+    },
+    {
+      "original": "<i>Forpus xanthopterygius</i>",
+      "conv": "zh-cn:蓝翅鹦哥; zh-tw:藍翼小鸚鵡; zh-hk:藍翅鸚哥;"
+    },
+    {
+      "original": "<i>Forpus passerinus</i>",
+      "conv": "zh-cn:绿腰鹦哥; zh-tw:綠腰小鸚鵡; zh-hk:綠腰鸚哥;"
     },
     {
       "original": "<i>Forpus conspicillatus</i>",
-      "conv": "zh-cn:蓝眶鹦哥; zh-tw:眼鏡鸚哥; zh-hk:藍眶鸚哥;"
+      "conv": "zh-cn:蓝眶鹦哥; zh-tw:眼鏡小鸚鵡; zh-hk:藍眶鸚哥;"
+    },
+    {
+      "original": "<i>Forpus coelestis</i>",
+      "conv": "zh-cn:太平洋鹦哥; zh-tw:太平洋小鸚鵡; zh-hk:太平洋鸚哥;"
+    },
+    {
+      "original": "<i>Forpus xanthops</i>",
+      "conv": "zh-cn:黄脸鹦哥; zh-tw:黃面小鸚鵡; zh-hk:黃臉鸚哥;"
     },
     {
       "original": "<i>Pionites melanocephalus</i>",
-      "conv": "zh-cn:黑头凯克鹦哥; zh-tw:黑頭鸚哥; zh-hk:黑頭凱克鸚哥;"
+      "conv": "zh-cn:黑头凯克鹦哥; zh-tw:黑頭鸚鵡; zh-hk:黑頭凱克鸚哥;"
     },
     {
       "original": "<i>Pionites leucogaster</i>",
-      "conv": "zh-cn:白腹凯克鹦哥; zh-tw:白腹鸚哥; zh-hk:白腹凱克鸚哥;"
+      "conv": "zh-cn:白腹凯克鹦哥; zh-tw:白腹鸚鵡; zh-hk:白腹凱克鸚哥;"
     },
     {
       "original": "<i>Pyrrhura cruentata</i>",
-      "conv": "zh-cn:蓝喉鹦哥; zh-tw:赭斑鸚哥; zh-hk:藍喉鸚哥;"
+      "conv": "zh-cn:蓝喉鹦哥; zh-tw:藍喉錐尾鸚鵡; zh-hk:赭斑鸚哥;"
     },
     {
       "original": "<i>Pyrrhura devillei</i>",
-      "conv": "zh-cn:辉翅鹦哥; zh-tw:閃翅鸚哥; zh-hk:輝翅鸚哥;"
+      "conv": "zh-cn:辉翅鹦哥; zh-tw:閃翅錐尾鸚鵡; zh-hk:輝翅鸚哥;"
     },
     {
       "original": "<i>Pyrrhura frontalis</i>",
-      "conv": "zh-cn:红腹鹦哥; zh-tw:暗紅腹鸚哥; zh-hk:紅腹鸚哥;"
+      "conv": "zh-cn:红腹鹦哥; zh-tw:赤褐腹錐尾鸚鵡; zh-hk:紅腹鸚哥;"
     },
     {
       "original": "<i>Pyrrhura lepida</i>",
-      "conv": "zh-cn:绯红腹鹦哥; zh-tw:珠色鸚哥; zh-hk:緋紅腹鸚哥;"
+      "conv": "zh-cn:绯红腹鹦哥; zh-tw:珠色錐尾鸚鵡; zh-hk:緋紅腹鸚哥;"
     },
     {
       "original": "<i>Pyrrhura perlata</i>",
-      "conv": "zh-cn:珠颈鹦哥; zh-tw:赤紅腹鸚哥; zh-hk:珠頸鸚哥;"
+      "conv": "zh-cn:珠颈鹦哥; zh-tw:鮮紅腹錐尾鸚鵡; zh-hk:珠頸鸚哥;"
     },
     {
       "original": "<i>Pyrrhura molinae</i>",
-      "conv": "zh-cn:绿颊锥尾鹦哥; zh-tw:綠頰鸚哥; zh-hk:綠頰錐尾鸚哥;"
+      "conv": "zh-cn:绿颊锥尾鹦哥; zh-tw:綠頰錐尾鸚鵡; zh-hk:綠頰錐尾鸚哥;"
     },
     {
       "original": "<i>Pyrrhura pfrimeri</i>",
-      "conv": "zh-cn:普氏鹦哥; zh-tw:寶菲氏鸚哥; zh-hk:普氏鸚哥;"
+      "conv": "zh-cn:普氏鹦哥; zh-tw:寶菲氏錐尾鸚鵡; zh-hk:普氏鸚哥;"
     },
     {
       "original": "<i>Pyrrhura griseipectus</i>",
-      "conv": "zh-cn:栗腹鹦哥; zh-tw:灰胸鸚哥; zh-hk:栗腹鸚哥;"
+      "conv": "zh-cn:栗腹鹦哥; zh-tw:灰胸錐尾鸚鵡; zh-hk:栗腹鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura leucotis</i>",
+      "conv": "zh-cn:白耳鹦哥; zh-tw:栗面錐尾鸚鵡; zh-hk:白耳鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura picta</i>",
+      "conv": "zh-cn:彩鹦哥; zh-tw:彩繪錐尾鸚鵡; zh-hk:彩鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura emma</i>",
+      "conv": "zh-cn:委内瑞拉鹦哥; zh-tw:委内瑞拉錐尾鸚鵡; zh-hk:委内瑞拉鹦哥;"
+    },
+    {
+      "original": "<i>Pyrrhura amazonum</i>",
+      "conv": "zh-cn:圣塔伦鹦哥; zh-tw:聖塔倫錐尾鸚鵡; zh-hk:聖塔倫鸚哥;"
     },
     {
       "original": "<i>Pyrrhura lucianii</i>",
-      "conv": "zh-cn:波氏鹦哥; zh-tw:博納氏鸚哥; zh-hk:波氏鸚哥;"
+      "conv": "zh-cn:波氏鹦哥; zh-tw:博納氏錐尾鸚鵡; zh-hk:波氏鸚哥;"
     },
     {
       "original": "<i>Pyrrhura roseifrons</i>",
-      "conv": "zh-cn:赤额鹦哥; zh-tw:玫額鸚哥; zh-hk:赤額鸚哥;"
+      "conv": "zh-cn:赤额鹦哥; zh-tw:玫額錐尾鸚鵡; zh-hk:赤額鸚哥;"
     },
     {
       "original": "<i>Pyrrhura viridicata</i>",
-      "conv": "zh-cn:圣马塔鹦哥; zh-tw:聖塔馬塔鸚哥; zh-hk:聖馬塔鸚哥;"
+      "conv": "zh-cn:圣马塔鹦哥; zh-tw:聖馬塔錐尾鸚鵡; zh-hk:聖馬塔鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura egregia</i>",
+      "conv": "zh-cn:火红肩鹦哥; zh-tw:火紅肩錐尾鸚鵡; zh-hk:火紅肩鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura melanura</i>",
+      "conv": "zh-cn:栗尾鹦哥; zh-tw:栗尾錐尾鸚鵡; zh-hk:栗尾鸚哥;"
     },
     {
       "original": "<i>Pyrrhura orcesi</i>",
-      "conv": "zh-cn:厄瓜多尔鹦哥; zh-tw:埃奧羅鸚哥; zh-hk:厄瓜多爾鸚哥;"
+      "conv": "zh-cn:厄瓜多尔鹦哥; zh-tw:厄瓜多錐尾鸚鵡; zh-hk:厄瓜多爾鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura albipectus</i>",
+      "conv": "zh-cn:白颈鹦哥; zh-tw:白頸錐尾鸚鵡; zh-hk:白頸鸚哥;"
     },
     {
       "original": "<i>Pyrrhura rupicola</i>",
-      "conv": "zh-cn:黑顶鹦哥; zh-tw:黑帽鸚哥; zh-hk:黑頂鸚哥;"
+      "conv": "zh-cn:黑顶鹦哥; zh-tw:黑帽錐尾鸚鵡; zh-hk:黑頂鸚哥;"
     },
     {
       "original": "<i>Pyrrhura calliptera</i>",
-      "conv": "zh-cn:褐胸鹦哥; zh-tw:焰翅鸚哥; zh-hk:褐胸鸚哥;"
+      "conv": "zh-cn:褐胸鹦哥; zh-tw:棕胸錐尾鸚鵡; zh-hk:褐胸鸚哥;"
+    },
+    {
+      "original": "<i>Pyrrhura hoematotis</i>",
+      "conv": "zh-cn:红耳鹦哥; zh-tw:紅耳錐尾鸚鵡; zh-hk:紅耳鸚哥;"
     },
     {
       "original": "<i>Pyrrhura rhodocephala</i>",
-      "conv": "zh-cn:赤头鹦哥; zh-tw:玫頭鸚哥; zh-hk:赤頭鸚哥;"
+      "conv": "zh-cn:赤头鹦哥; zh-tw:玫瑰頭錐尾鸚鵡; zh-hk:赤頭鸚哥;"
     },
     {
       "original": "<i>Pyrrhura hoffmanni</i>",
-      "conv": "zh-cn:黄翅鹦哥; zh-tw:硫磺翅鸚哥; zh-hk:黃翅鸚哥;"
+      "conv": "zh-cn:黄翅鹦哥; zh-tw:硫磺翅錐尾鸚鵡; zh-hk:黃翅鸚哥;"
     },
     {
       "original": "<i>Enicognathus ferrugineus</i>",
-      "conv": "zh-cn:南鹦哥; zh-tw:偏南鸚哥; zh-hk:南鸚哥;"
+      "conv": "zh-cn:南鹦哥; zh-tw:南方鸚鵡; zh-hk:南鸚哥;"
+    },
+    {
+      "original": "<i>Enicognathus leptorhynchus</i>",
+      "conv": "zh-cn:细嘴鹦哥; zh-tw:細喙鸚鵡; zh-hk:細嘴鸚哥;"
     },
     {
       "original": "<i>Cyanoliseus patagonus</i>",
-      "conv": "zh-cn:穴鹦哥; zh-tw:掘穴鸚哥; zh-hk:穴鸚哥;"
+      "conv": "zh-cn:穴鹦哥; zh-tw:掘穴鸚鵡; zh-hk:穴鸚哥;"
     },
     {
       "original": "<i>Anodorhynchus leari</i>",
-      "conv": "zh-cn:青蓝金刚鹦鹉; zh-tw:靛藍麥鷍; zh-hk:青藍金剛鸚鵡;"
+      "conv": "zh-cn:青蓝金刚鹦鹉; zh-tw:靛藍金剛鸚鵡; zh-hk:青藍金剛鸚鵡;"
     },
     {
       "original": "<i>Anodorhynchus glaucus</i>",
-      "conv": "zh-cn:蓝绿金刚鹦鹉; zh-tw:灰綠麥鷍; zh-hk:藍綠金剛鸚鵡;"
+      "conv": "zh-cn:蓝绿金刚鹦鹉; zh-tw:灰綠金剛鸚鵡; zh-hk:藍綠金剛鸚鵡;"
     },
     {
-      "original": "<i>Rhynchopsitta terrisi</i>",
-      "conv": "zh-cn:暗红额鹦哥; zh-tw:栗額鸚哥; zh-hk:暗紅額鸚哥;"
-    },
-    {
-      "original": "<i>Eupsittula nana</i>",
-      "conv": "zh-cn:绿喉鹦哥; zh-tw:橄綠喉鸚哥; zh-hk:綠喉鸚哥;"
-    },
-    {
-      "original": "<i>Eupsittula aurea</i>",
-      "conv": "zh-cn:粉额鹦哥; zh-tw:桃額鸚哥; zh-hk:粉額鸚哥;"
-    },
-    {
-      "original": "<i>Conuropsis carolinensis</i>",
-      "conv": "zh-cn:卡罗莱纳鹦哥; zh-tw:卡羅萊納鸚鵡; zh-hk:卡羅萊納鸚哥;"
+      "original": "<i>Cyanopsitta spixii</i>",
+      "conv": "zh-cn:小蓝金刚鹦鹉; zh-tw:斯皮克斯金剛鸚鵡; zh-hk:小藍金剛鸚鵡;"
     },
     {
       "original": "<i>Aratinga nenday</i>",
-      "conv": "zh-cn:黑头鹦哥; zh-tw:黑頭巾鸚哥; zh-hk:黑頭鸚哥;"
+      "conv": "zh-cn:黑头鹦哥; zh-tw:南達錐尾鸚鵡; zh-hk:黑頭鸚哥;"
     },
     {
       "original": "<i>Aratinga solstitialis</i>",
-      "conv": "zh-cn:金黄鹦哥; zh-tw:太陽鸚哥; zh-hk:金黃鸚哥;"
+      "conv": "zh-cn:金黄鹦哥; zh-tw:太陽錐尾鸚鵡; zh-hk:金黃鸚哥;"
     },
     {
       "original": "<i>Aratinga maculata</i>",
-      "conv": "zh-cn:橙胸鹦哥; zh-tw:硫黃胸鸚哥; zh-hk:橙胸鸚哥;"
+      "conv": "zh-cn:橙胸鹦哥; zh-tw:硫黃胸錐尾鸚鵡; zh-hk:橙胸鸚哥;"
     },
     {
       "original": "<i>Aratinga jandaya</i>",
-      "conv": "zh-cn:绿翅金鹦哥; zh-tw:詹代亞鸚哥; zh-hk:綠翅金鸚哥;"
+      "conv": "zh-cn:绿翅金鹦哥; zh-tw:詹代亞錐尾鸚鵡; zh-hk:綠翅金鸚哥;"
     },
     {
-      "original": "<i>Cyanopsitta</i>",
-      "conv": "zh-cn:金刚鹦鹉; zh-tw:麥鷍; zh-hk:金剛鸚鵡;"
+      "original": "<i>Aratinga weddellii</i>",
+      "conv": "zh-cn:暗头鹦哥; zh-tw:暗頭錐尾鸚鵡; zh-hk:暗頭鸚哥;"
+    },
+    {
+      "original": "<i>Aratinga auricapillus</i>",
+      "conv": "zh-cn:金帽鹦哥; zh-tw:金帽錐尾鸚鵡; zh-hk:金帽鸚哥;"
+    },
+    {
+      "original": "<i>Eupsittula nana</i>",
+      "conv": "zh-cn:绿喉鹦哥; zh-tw:橄綠喉錐尾鸚鵡; zh-hk:綠喉鸚哥;"
+    },
+    {
+      "original": "<i>Eupsittula aurea</i>",
+      "conv": "zh-cn:粉额鹦哥; zh-tw:桃額錐尾鸚鵡; zh-hk:粉額鸚哥;"
+    },
+    {
+      "original": "<i>Eupsittula canicularis</i>",
+      "conv": "zh-cn:橙额鹦哥; zh-tw:橙額錐尾鸚鵡; zh-hk:橙額鸚哥;"
+    },
+    {
+      "original": "<i>Eupsittula pertinax</i>",
+      "conv": "zh-cn:褐喉鹦哥; zh-tw:棕喉錐尾鸚鵡; zh-hk:褐喉鸚哥;"
+    },
+    {
+      "original": "<i>Eupsittula cactorum</i>",
+      "conv": "zh-cn:仙人掌鹦哥; zh-tw:仙人掌錐尾鸚鵡; zh-hk:仙人掌鸚哥;"
+    },
+    {
+      "original": "<i>Leptosittaca branickii</i>",
+      "conv": "zh-cn:金羽鹦哥; zh-tw:金羽錐尾鸚鵡; zh-hk:金羽鸚哥;"
     },
     {
       "original": "<i>Ara severus</i>",
-      "conv": "zh-cn:栗额金刚鹦鹉; zh-tw:偉格勒氏麥鷎; zh-hk:栗額金剛鸚鵡;"
+      "conv": "zh-cn:栗额金刚鹦鹉; zh-tw:栗額金剛鸚鵡;"
     },
     {
       "original": "<i>Ara tricolor</i>",
-      "conv": "zh-cn:古巴红鹦鹉; zh-tw:古巴麥鷎; zh-hk:古巴紅鸚鵡;"
+      "conv": "zh-cn:古巴红鹦鹉; zh-tw:古巴紅鸚鵡;"
     },
     {
       "original": "<i>Ara militaris</i>",
-      "conv": "zh-cn:军绿金刚鹦鹉; zh-tw:軍隊麥鷍; zh-hk:軍綠金剛鸚鵡;"
+      "conv": "zh-cn:军绿金刚鹦鹉; zh-tw:軍艦金剛鸚鵡; zh-hk:軍金剛鸚鵡;"
+    },
+    {
+      "original": "<i>Primolius auricollis</i>",
+      "conv": "zh-cn:金领金刚鹦鹉; zh-tw:黃領金剛鸚鵡;"
+    },
+    {
+      "original": "<i>Rhynchopsitta pachyrhyncha</i>",
+      "conv": "zh-cn:厚嘴鹦哥; zh-tw:粗喙鸚鵡; zh-hk:厚嘴鸚哥;"
+    },
+    {
+      "original": "<i>Rhynchopsitta terrisi</i>",
+      "conv": "zh-cn:暗红额鹦哥; zh-tw:暗紫額粗喙鸚鵡; zh-hk:暗紅額鸚哥;"
+    },
+    {
+      "original": "<i>Ognorhynchus icterotis</i>",
+      "conv": "zh-cn:黄耳鹦哥; zh-tw:黃耳鸚鵡; zh-hk:黃耳鸚哥;"
     },
     {
       "original": "<i>Guaruba guarouba</i>",
-      "conv": "zh-cn:金鹦哥; zh-tw:金色鸚哥; zh-hk:金鸚哥;"
+      "conv": "zh-cn:金鹦哥; zh-tw:黃金鸚鵡; zh-hk:金鸚哥;"
     },
     {
       "original": "<i>Thectocercus acuticaudatus</i>",
-      "conv": "zh-cn:蓝冠鹦哥; zh-tw:冠藍鸚哥; zh-hk:藍冠鸚哥;"
+      "conv": "zh-cn:蓝冠鹦哥; zh-tw:藍冠錐尾鸚鵡; zh-hk:藍冠鸚哥;"
     },
     {
-      "original": "<i>Psittacara brevipes</i>",
-      "conv": "zh-cn:索岛鹦哥; zh-tw:索科洛鸚哥; zh-hk:索島鸚哥;"
-    },
-    {
-      "original": "<i>Psittacara strenuus</i>",
-      "conv": "zh-cn:尼加拉瓜绿鹦哥; zh-tw:太平洋綠鸚哥; zh-hk:尼加拉瓜綠鸚哥;"
+      "original": "<i>Psittacara holochlorus</i>",
+      "conv": "zh-cn:绿鹦哥; zh-tw:綠色錐尾鸚鵡; zh-hk: 綠鸚哥;"
     },
     {
       "original": "<i>Psittacara wagleri</i>",
-      "conv": "zh-cn:红额鹦哥; zh-tw:猩紅額鸚哥; zh-hk:紅額鸚哥;"
+      "conv": "zh-cn:红额鹦哥; zh-tw:紅額錐尾鸚鵡; zh-hk:紅額鸚哥;"
     },
     {
       "original": "<i>Psittacara mitratus</i>",
-      "conv": "zh-cn:红耳绿鹦哥; zh-tw:密垂德鸚哥; zh-hk:紅耳綠鸚哥;"
+      "conv": "zh-cn:红耳绿鹦哥; zh-tw:米特雷錐尾鸚鵡; zh-hk:紅耳綠鸚哥;"
     },
     {
       "original": "<i>Psittacara finschi</i>",
-      "conv": "zh-cn:绯额鹦哥; zh-tw:深紅額鸚哥; zh-hk:緋額鸚哥;"
+      "conv": "zh-cn:绯额鹦哥; zh-tw:深紅額錐尾鸚鵡; zh-hk:緋額鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara erythrogenys</i>",
+      "conv": "zh-cn:红头鹦哥; zh-tw:紅面錐尾鸚鵡; zh-hk:紅頭鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara leucophthalmus</i>",
+      "conv": "zh-cn:白眼鹦哥; zh-tw:白眼錐尾鸚鵡; zh-hk:白眼鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara euops</i>",
+      "conv": "zh-cn:古巴鹦哥; zh-tw:古巴錐尾鸚鵡; zh-hk:古巴鸚哥;"
     },
     {
       "original": "<i>Psittacara chloropterus</i>",
-      "conv": "zh-cn:伊岛鹦哥; zh-tw:希斯潘諾拉鸚哥; zh-hk:伊島鸚哥;"
+      "conv": "zh-cn:伊岛鹦哥; zh-tw:西斯盤紐拉錐尾鸚鵡; zh-hk:伊島鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara brevipes</i>",
+      "conv": "zh-cn:索岛鹦哥; zh-tw:索可羅錐尾鸚鵡; zh-hk:索島鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara rubritorquis</i>",
+      "conv": "zh-cn:红喉鹦哥; zh-tw:紅喉錐尾鸚鵡; zh-hk: 紅喉鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara frontatus</i>",
+      "conv": "zh-cn:秘鲁红额鹦哥; zh-tw:秘魯錐尾鸚鵡; zh-hk:秘魯紅額鸚哥;"
+    },
+    {
+      "original": "<i>Psittacara strenuus</i>",
+      "conv": "zh-cn:尼加拉瓜绿鹦哥; zh-tw:太平洋錐尾鸚鵡; zh-hk:尼加拉瓜綠鸚哥;"
     },
     {
       "original": "<i>Psittacara maugei</i>",
-      "conv": "zh-cn:波多黎各鹦鹉; zh-tw:波多黎各鸚哥; zh-hk:波多黎各鸚鵡;"
+      "conv": "zh-cn:波多黎各鹦鹉; zh-tw:波多黎各錐尾鸚鵡; zh-hk:波多黎各鸚鵡;"
     },
     {
       "original": "<i>Psittrichas fulgidus</i>",
-      "conv": "zh-cn:彼氏鹦鹉; zh-tw:帕斯克氏鸚鵡; zh-hk:彼氏鸚鵡;"
+      "conv": "zh-cn:彼氏鹦鹉; zh-tw:彼斯奎氏鸚鵡; zh-hk:彼氏鸚鵡;"
     },
     {
       "original": "<i>Mascarinus mascarinus</i>",
@@ -9405,27 +10181,47 @@
     },
     {
       "original": "<i>Coracopsis vasa</i>",
-      "conv": "zh-cn:马岛鹦鹉; zh-tw:大瓦薩鸚鵡; zh-hk:馬島鸚鵡;"
+      "conv": "zh-cn:马岛鹦鹉; zh-tw:馬島鸚鵡; zh-hk:馬島鸚鵡;"
     },
     {
       "original": "<i>Coracopsis nigra</i>",
-      "conv": "zh-cn:马岛小鹦鹉; zh-tw:小瓦薩鸚鵡; zh-hk:馬島小鸚鵡;"
+      "conv": "zh-cn:马岛小鹦鹉; zh-tw:非洲黑鸚鵡; zh-hk:馬島小鸚鵡;"
+    },
+    {
+      "original": "<i>Coracopsis barklyi</i>",
+      "conv": "zh-cn:塞舌尔黑鹦鹉; zh-tw:塞席爾黑鸚鵡; zh-hk:塞舌爾黑鸚鵡;"
+    },
+    {
+      "original": "<i>Coracopsis sibilans</i>",
+      "conv": "zh-cn:科摩罗黑鹦鹉; zh-tw:葛摩黑鸚鵡; zh-hk:科摩羅黑鸚鵡;"
     },
     {
       "original": "<i>Micropsitta geelvinkiana</i>",
-      "conv": "zh-cn:杰文侏鹦鹉; zh-tw:蓋爾文克侏鸚鵡; zh-hk:傑文侏鸚鵡;"
+      "conv": "zh-cn:杰文侏鹦鹉; zh-tw:傑文侏儒鸚鵡; zh-hk:傑文侏鸚鵡;"
     },
     {
       "original": "<i>Micropsitta meeki</i>",
-      "conv": "zh-cn:米氏侏鹦鹉; zh-tw:米克氏黃胸侏鸚鵡; zh-hk:米氏侏鸚鵡;"
+      "conv": "zh-cn:米氏侏鹦鹉; zh-tw:米克氏侏儒鸚鵡; zh-hk:米氏侏鸚鵡;"
     },
     {
       "original": "<i>Micropsitta finschii</i>",
-      "conv": "zh-cn:芬氏侏鹦鹉; zh-tw:芬契氏翠綠侏鸚鵡; zh-hk:芬氏侏鸚鵡;"
+      "conv": "zh-cn:芬氏侏鹦鹉; zh-tw:芬施氏侏儒鸚鵡; zh-hk:芬氏侏鸚鵡;"
+    },
+    {
+      "original": "<i>Micropsitta keiensis</i>",
+      "conv": "zh-cn:黄顶侏鹦鹉; zh-tw:黃頂侏儒鸚鵡; zh-hk:黃頂侏鸚鵡;"
+    },
+    {
+      "original": "<i>Micropsitta pusio</i>",
+      "conv": "zh-cn:棕脸侏鹦鹉; zh-tw:橙面侏儒鸚鵡; zh-hk:棕臉侏鸚鵡;"
+    },
+    {
+      "original": "<i>Micropsitta bruijnii</i>",
+      "conv": "zh-cn:红胸侏鹦鹉; zh-tw:紅胸侏儒鸚鵡; zh-hk:紅胸侏鸚鵡;"
     },
     {
       "original": "<i>Polytelis swainsonii</i>",
-      "conv": "zh-cn:靓鹦鹉; zh-tw:華麗鸚鵡; zh-hk:靚鸚鵡;"
+      "conv": "zh-cn:靓鹦鹉; zh-tw:超級鸚鵡; zh-hk:靚鸚鵡;"
     },
     {
       "original": "<i>Polytelis anthopeplus</i>",
@@ -9433,87 +10229,139 @@
     },
     {
       "original": "<i>Alisterus amboinensis</i>",
-      "conv": "zh-cn:安汶王鹦鹉; zh-tw:摩鹿加王鸚鵡; zh-hk:安汶王鸚鵡;"
+      "conv": "zh-cn:安汶王鹦鹉; zh-tw:摩鹿加國王鸚鵡; zh-hk:安汶王鸚鵡;"
+    },
+    {
+      "original": "<i>Alisterus chloropterus</i>",
+      "conv": "zh-cn:绿翅王鹦鹉; zh-tw:巴布亞國王鸚鵡; zh-hk:綠翅王鸚鵡;"
+    },
+    {
+      "original": "<i>Alisterus scapularis</i>",
+      "conv": "zh-cn:澳洲王鹦鹉; zh-tw:澳洲國王鸚鵡; zh-hk:澳洲王鸚鵡;"
     },
     {
       "original": "<i>Aprosmictus jonquillaceus</i>",
-      "conv": "zh-cn:帝汶红翅鹦鹉; zh-tw:帝汶橙翅鸚鵡; zh-hk:帝汶紅翅鸚鵡;"
+      "conv": "zh-cn:帝汶红翅鹦鹉; zh-tw:橄欖肩紅翅鸚鵡; zh-hk:帝汶紅翅鸚鵡;"
     },
     {
       "original": "<i>Prioniturus mada</i>",
-      "conv": "zh-cn:布岛扇尾鹦鹉; zh-tw:布路盤尾鸚鵡; zh-hk:布島扇尾鸚鵡;"
+      "conv": "zh-cn:布岛扇尾鹦鹉; zh-tw:布魯拍尾鸚鵡; zh-hk:布島扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus platurus</i>",
-      "conv": "zh-cn:金肩扇尾鹦鹉; zh-tw:金衣盤尾鸚鵡; zh-hk:金肩扇尾鸚鵡;"
+      "conv": "zh-cn:金肩扇尾鹦鹉; zh-tw:金披拍尾鸚鵡; zh-hk:金肩扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus waterstradti</i>",
-      "conv": "zh-cn:棉岛扇尾鹦鹉; zh-tw:民答那峨盤尾鸚鵡; zh-hk:棉島扇尾鸚鵡;"
+      "conv": "zh-cn:棉岛扇尾鹦鹉; zh-tw:民答那峨拍尾鸚鵡; zh-hk:棉島扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus montanus</i>",
-      "conv": "zh-cn:山扇尾鹦鹉; zh-tw:山盤尾鸚鵡; zh-hk:山扇尾鸚鵡;"
+      "conv": "zh-cn:山扇尾鹦鹉; zh-tw:山拍尾鸚鵡; zh-hk:山扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus platenae</i>",
-      "conv": "zh-cn:巴拉望扇尾鹦鹉; zh-tw:藍頭盤尾鸚鵡; zh-hk:巴拉望扇尾鸚鵡;"
+      "conv": "zh-cn:巴拉望扇尾鹦鹉; zh-tw:藍頭拍尾鸚鵡; zh-hk:巴拉望扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus mindorensis</i>",
-      "conv": "zh-cn:民岛扇尾鹦鹉; zh-tw:民多羅盤尾鸚鵡; zh-hk:民島扇尾鸚鵡;"
+      "conv": "zh-cn:民岛扇尾鹦鹉; zh-tw:民多羅拍尾鸚鵡; zh-hk:民島扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus verticalis</i>",
-      "conv": "zh-cn:苏禄扇尾鹦鹉; zh-tw:藍翅盤尾鸚鵡; zh-hk:蘇祿扇尾鸚鵡;"
+      "conv": "zh-cn:苏禄扇尾鹦鹉; zh-tw:蘇魯拍尾鸚鵡; zh-hk:蘇祿扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus flavicans</i>",
-      "conv": "zh-cn:红斑扇尾鹦鹉; zh-tw:黃腹盤尾鸚鵡; zh-hk:紅斑扇尾鸚鵡;"
+      "conv": "zh-cn:红斑扇尾鹦鹉; zh-tw:黃胸拍尾鸚鵡; zh-hk:紅斑扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus luconensis</i>",
-      "conv": "zh-cn:绿扇尾鹦鹉; zh-tw:綠盤尾鸚鵡; zh-hk:綠扇尾鸚鵡;"
+      "conv": "zh-cn:绿扇尾鹦鹉; zh-tw:綠拍尾鸚鵡; zh-hk:綠扇尾鸚鵡;"
     },
     {
       "original": "<i>Prioniturus discurus</i>",
-      "conv": "zh-cn:蓝冠扇尾鹦鹉; zh-tw:藍冠盤尾鸚鵡; zh-hk:藍冠扇尾鸚鵡;"
+      "conv": "zh-cn:蓝冠扇尾鹦鹉; zh-tw:藍冠拍尾鸚鵡; zh-hk:藍冠扇尾鸚鵡;"
     },
     {
       "original": "<i>Eclectus roratus</i>",
       "conv": "zh-cn:红胁绿鹦鹉; zh-tw:折衷鸚鵡; zh-hk:紅脇綠鸚鵡;"
     },
     {
+      "original": "<i>Geoffroyus geoffroyi</i>",
+      "conv": "zh-cn:红脸鹦鹉; zh-tw:紅頰鸚鵡; zh-hk:紅臉鸚鵡;"
+    },
+    {
       "original": "<i>Geoffroyus heteroclitus</i>",
-      "conv": "zh-cn:歌鹦鹉; zh-tw:歌聲鸚鵡; zh-hk:歌鸚鵡;"
+      "conv": "zh-cn:歌鹦鹉; zh-tw:鳴唱鸚鵡; zh-hk:歌鸚鵡;"
     },
     {
       "original": "<i>Psittinus cyanurus</i>",
       "conv": "zh-cn:蓝腰短尾鹦鹉; zh-tw:藍腰鸚鵡; zh-hk:藍腰短尾鸚鵡;"
     },
     {
+      "original": "<i>Tanygnathus megalorynchos</i>",
+      "conv": "zh-cn:巨嘴鹦鹉; zh-tw:巨喙鸚鵡; zh-hk:巨嘴鸚鵡;"
+    },
+    {
+      "original": "<i>Tanygnathus lucionensis</i>",
+      "conv": "zh-cn:蓝颈鹦鹉; zh-tw:藍頸巨喙鸚鵡; zh-hk:藍頸鸚鵡;"
+    },
+    {
+      "original": "<i>Tanygnathus everetti</i>",
+      "conv": "zh-cn:蓝背鹦鹉; zh-tw:藍背巨喙鸚鵡; zh-hk:藍背鸚鵡;"
+    },
+    {
       "original": "<i>Tanygnathus sumatranus</i>",
-      "conv": "zh-cn:蓝腰鹦鹉; zh-tw:蘇門答臘藍背鸚鵡; zh-hk:藍腰鸚鵡;"
+      "conv": "zh-cn:青蓝腰鹦鹉; zh-tw:藍背巨喙鸚鵡; zh-hk:青藍腰鸚鵡;"
+    },
+    {
+      "original": "<i>Tanygnathus gramineus</i>",
+      "conv": "zh-cn:黑眼先鹦鹉; zh-tw:黑眼先巨喙鸚鵡; zh-hk:黑眼先鸚鵡;"
     },
     {
       "original": "<i>Psittacula himalayana</i>",
-      "conv": "zh-cn:青头鹦鹉; zh-tw:藍灰頭鸚鵡; zh-hk:青頭鸚鵡;"
+      "conv": "zh-cn:青头鹦鹉; zh-tw:黑頭環頸鸚鵡; zh-hk:青頭鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacula finschii</i>",
+      "conv": "zh-cn:灰头鹦鹉; zh-tw:灰頭環頸鸚鵡; zh-hk:灰頭鸚鵡;"
     },
     {
       "original": "<i>Psittacula roseata</i>",
-      "conv": "zh-cn:花头鹦鹉; zh-tw:彩頭鸚鵡; zh-hk:花頭鸚鵡;"
+      "conv": "zh-cn:花头鹦鹉; zh-tw:彩頭環頸鸚鵡; zh-hk:花頭鸚鵡;"
     },
     {
       "original": "<i>Psittacula cyanocephala</i>",
-      "conv": "zh-cn:紫头鹦鹉; zh-tw:花頭鸚鵡; zh-hk:紫頭鸚鵡;"
+      "conv": "zh-cn:紫头鹦鹉; zh-tw:花頭環頸鸚鵡; zh-hk:紫頭鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacula eques</i>",
+      "conv": "zh-cn:毛里求斯鹦鹉; zh-tw:模里西斯環頸鸚鵡; zh-hk:毛里裘斯鸚鵡;"
     },
     {
       "original": "<i>Psittacula derbiana</i>",
-      "conv": "zh-cn:大紫胸鹦鹉; zh-tw:大緋胸鸚鵡; zh-hk:大紫胸鸚鵡;"
+      "conv": "zh-cn:大紫胸鹦鹉; zh-tw:大達摩鸚鵡; zh-hk:大紫胸鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacula alexandri</i>",
+      "conv": "zh-cn:绯胸鹦鹉; zh-tw:紅胸達摩鸚鵡; zh-hk:緋胸鸚鵡;"
     },
     {
       "original": "<i>Psittacula caniceps</i>",
-      "conv": "zh-cn:布莱氏鹦鹉; zh-tw:尼科巴鸚鵡; zh-hk:布萊氏鸚鵡;"
+      "conv": "zh-cn:布莱氏鹦鹉; zh-tw:尼可巴達摩鸚鵡; zh-hk:布萊氏鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacula longicauda</i>",
+      "conv": "zh-cn:长尾鹦鹉; zh-tw:長尾達摩鸚鵡; zh-hk:長尾鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacula columboides</i>",
+      "conv": "zh-cn:马拉巴鹦鹉; zh-tw:馬拉巴環頸鸚鵡; zh-hk:馬拉巴鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacula calthrapae</i>",
+      "conv": "zh-cn:艳绿领鹦鹉; zh-tw:斯里蘭卡環頸鸚鵡; zh-hk:艷綠領鸚鵡;"
     },
     {
       "original": "<i>Psittacula bensoni</i>",
@@ -9521,23 +10369,27 @@
     },
     {
       "original": "<i>Psittacella brehmii</i>",
-      "conv": "zh-cn:布氏鹦鹉; zh-tw:布雷氏鸚鵡; zh-hk:布氏鸚鵡;"
+      "conv": "zh-cn:布氏鹦鹉; zh-tw:布雷氏虎紋鸚鵡; zh-hk:布氏鸚鵡;"
     },
     {
       "original": "<i>Psittacella modesta</i>",
-      "conv": "zh-cn:羞怯鹦鹉; zh-tw:怯虛鸚鵡; zh-hk:羞怯鸚鵡;"
+      "conv": "zh-cn:羞怯鹦鹉; zh-tw:橫斑小虎紋鸚鵡; zh-hk:羞怯鸚鵡;"
     },
     {
       "original": "<i>Psittacella madaraszi</i>",
-      "conv": "zh-cn:纹背绿鹦鹉; zh-tw:馬達氏鸚鵡; zh-hk:紋背綠鸚鵡;"
+      "conv": "zh-cn:纹背绿鹦鹉; zh-tw:馬達氏虎紋鸚鵡; zh-hk:紋背綠鸚鵡;"
+    },
+    {
+      "original": "<i>Psittacella picta</i>",
+      "conv": "zh-cn:彩鹦鹉; zh-tw:彩羽虎紋鸚鵡; zh-hk:彩鸚鵡;"
     },
     {
       "original": "<i>Psephotus haematonotus</i>",
-      "conv": "zh-cn:红腰鹦鹉; zh-tw:紅腰藍帽鸚鵡; zh-hk:紅腰鸚鵡;"
+      "conv": "zh-cn:红腰鹦鹉; zh-tw:紅腰鸚鵡; zh-hk:紅腰鸚鵡;"
     },
     {
       "original": "<i>Northiella haematogaster</i>",
-      "conv": "zh-cn:红腹蓝额鹦鹉; zh-tw:東方藍帽鸚鵡; zh-hk:紅腹藍額鸚鵡;"
+      "conv": "zh-cn:红腹蓝额鹦鹉; zh-tw:羽扇豆鸚鵡; zh-hk:紅腹藍額鸚鵡;"
     },
     {
       "original": "<i>Northiella narethae</i>",
@@ -9545,7 +10397,11 @@
     },
     {
       "original": "<i>Psephotellus pulcherrimus</i>",
-      "conv": "zh-cn:极乐鹦鹉; zh-tw:樂園鸚鵡; zh-hk:極樂鸚鵡;"
+      "conv": "zh-cn:极乐鹦鹉; zh-tw:樂園鸚鵡; zh-hk:樂園鸚鵡;"
+    },
+    {
+      "original": "<i>Psephotellus dissimilis</i>",
+      "conv": "zh-cn:黑冠鹦鹉; zh-tw:頭巾鸚鵡; zh-hk:異色金肩鸚鵡;"
     },
     {
       "original": "<i>Purpureicephalus spurius</i>",
@@ -9553,11 +10409,11 @@
     },
     {
       "original": "<i>Platycercus caledonicus</i>",
-      "conv": "zh-cn:绿背玫瑰鹦鹉; zh-tw:綠色玫瑰鸚鵡; zh-hk:綠背玫瑰鸚鵡;"
+      "conv": "zh-cn:绿背玫瑰鹦鹉; zh-tw:塔斯梅尼亞玫瑰鸚鵡; zh-hk:綠背玫瑰鸚鵡;"
     },
     {
       "original": "<i>Platycercus elegans</i>",
-      "conv": "zh-cn:红玫瑰鹦鹉; zh-tw:深紅玫瑰鸚鵡; zh-hk:紅玫瑰鸚鵡;"
+      "conv": "zh-cn:红玫瑰鹦鹉; zh-tw:鮮紅玫瑰鸚鵡; zh-hk:紅玫瑰鸚鵡;"
     },
     {
       "original": "<i>Platycercus venustus</i>",
@@ -9572,28 +10428,32 @@
       "conv": "zh-cn:西澳玫瑰鹦鹉; zh-tw:西方玫瑰鸚鵡; zh-hk:西澳玫瑰鸚鵡;"
     },
     {
+      "original": "<i>Platycercus adscitus</i>",
+      "conv": "zh-cn:淡头玫瑰鹦鹉; zh-tw:白頭玫瑰鸚鵡; zh-hk:淡頭玫瑰鸚鵡;"
+    },
+    {
       "original": "<i>Barnardius zonarius</i>",
-      "conv": "zh-cn:黑头环颈鹦鹉; zh-tw:環頸鸚鵡; zh-hk:黑頭環頸鸚鵡;"
+      "conv": "zh-cn:黑头环颈鹦鹉; zh-tw:林肯港環頸鸚鵡; zh-hk:黑頭環頸鸚鵡;"
     },
     {
       "original": "<i>Lathamus discolor</i>",
-      "conv": "zh-cn:红尾绿鹦鹉; zh-tw:雨燕鸚鵡; zh-hk:紅尾綠鸚鵡;"
+      "conv": "zh-cn:红尾绿鹦鹉; zh-tw:快速鸚鵡; zh-hk:紅尾綠鸚鵡;"
     },
     {
       "original": "<i>Prosopeia splendens</i>",
-      "conv": "zh-cn:绯胸辉鹦鹉; zh-tw:艷紅耀鸚鵡; zh-hk:緋胸輝鸚鵡;"
+      "conv": "zh-cn:绯胸辉鹦鹉; zh-tw:鮮紅麝香鸚鵡; zh-hk:緋胸輝鸚鵡;"
     },
     {
       "original": "<i>Prosopeia personata</i>",
-      "conv": "zh-cn:黄胸辉鹦鹉; zh-tw:黑臉耀鸚鵡; zh-hk:黃胸輝鸚鵡;"
+      "conv": "zh-cn:黄胸辉鹦鹉; zh-tw:面具麝香鸚鵡; zh-hk:黃胸輝鸚鵡;"
     },
     {
       "original": "<i>Prosopeia tabuensis</i>",
-      "conv": "zh-cn:红胸辉鹦鹉; zh-tw:紅耀鸚鵡; zh-hk:紅胸輝鸚鵡;"
+      "conv": "zh-cn:红胸辉鹦鹉; zh-tw:暗紅麝香鸚鵡; zh-hk:紅胸輝鸚鵡;"
     },
     {
       "original": "<i>Eunymphicus cornutus</i>",
-      "conv": "zh-cn:翎冠鹦鹉; zh-tw:角鸚鵡; zh-hk:翎冠鸚鵡;"
+      "conv": "zh-cn:翎冠鹦鹉; zh-tw:角鸚鵡; zh-hk:角鸚鵡;"
     },
     {
       "original": "<i>Eunymphicus uvaeensis</i>",
@@ -9613,7 +10473,7 @@
     },
     {
       "original": "<i>Cyanoramphus cookii</i>",
-      "conv": "zh-cn:诺福克红额鹦鹉; zh-tw:橙額鸚鵡; zh-hk:諾福克紅額鸚鵡;"
+      "conv": "zh-cn:诺福克红额鹦鹉; zh-tw:橙額鸚鵡; zh-hk:紅額長尾鸚鵡;"
     },
     {
       "original": "<i>Cyanoramphus subflavescens</i>",
@@ -9621,7 +10481,15 @@
     },
     {
       "original": "<i>Cyanoramphus unicolor</i>",
-      "conv": "zh-cn:纯绿鹦鹉; zh-tw:對蹠群島綠鸚鵡; zh-hk:純綠鸚鵡;"
+      "conv": "zh-cn:纯绿鹦鹉; zh-tw:反極綠鸚鵡; zh-hk:純綠鸚鵡;"
+    },
+    {
+      "original": "<i>Cyanoramphus novaezelandiae</i>",
+      "conv": "zh-cn:红额鹦鹉; zh-tw:紅額綠鸚鵡; zh-hk:紅額鸚鵡;"
+    },
+    {
+      "original": "<i>Cyanoramphus auriceps</i>",
+      "conv": "zh-cn:黄额鹦鹉; zh-tw:黃額綠鸚鵡; zh-hk:黃額鸚鵡;"
     },
     {
       "original": "<i>Cyanoramphus malherbi</i>",
@@ -9637,15 +10505,23 @@
     },
     {
       "original": "<i>Pezoporus wallicus</i>",
-      "conv": "zh-cn:地鹦鹉; zh-tw:地棲鸚鵡; zh-hk:地鸚鵡;"
+      "conv": "zh-cn:地鹦鹉; zh-tw:地棲鸚鵡; zh-hk:地棲鸚鵡;"
     },
     {
       "original": "<i>Pezoporus flaviventris</i>",
-      "conv": "zh-cn:西地鹦鹉; zh-tw:西方地棲鸚鵡; zh-hk:西地鸚鵡;"
+      "conv": "zh-cn:西地鹦鹉; zh-tw:西方地棲鸚鵡; zh-hk:西地棲鸚鵡;"
     },
     {
       "original": "<i>Neopsephotus bourkii</i>",
-      "conv": "zh-cn:伯氏鹦鹉; zh-tw:伯克氏鸚鵡; zh-hk:伯氏鸚鵡;"
+      "conv": "zh-cn:伯氏鹦鹉; zh-tw:伯基氏鸚鵡; zh-hk:伯氏鸚鵡;"
+    },
+    {
+      "original": "<i>Neophema chrysostoma</i>",
+      "conv": "zh-cn:蓝翅鹦鹉; zh-tw:藍翼鸚鵡; zh-hk:藍翅鸚鵡;"
+    },
+    {
+      "original": "<i>Neophema elegans</i>",
+      "conv": "zh-cn:蓝眉鹦鹉; zh-tw:優美鸚鵡; zh-hk:藍眉鸚鵡;"
     },
     {
       "original": "<i>Neophema pulchella</i>",
@@ -9657,11 +10533,11 @@
     },
     {
       "original": "<i>Oreopsittacus arfaki</i>",
-      "conv": "zh-cn:紫颊鹦鹉; zh-tw:鬚吸蜜鸚鵡; zh-hk:紫頰鸚鵡;"
+      "conv": "zh-cn:紫颊鹦鹉; zh-tw:紫面吸蜜鸚鵡; zh-hk:紫頰鸚鵡;"
     },
     {
       "original": "<i>Charminetta wilhelminae</i>",
-      "conv": "zh-cn:威氏鹦鹉; zh-tw:侏吸蜜鸚鵡; zh-hk:威氏鸚鵡;"
+      "conv": "zh-cn:威氏鹦鹉; zh-tw:小縱紋吸蜜鸚鵡; zh-hk:威氏鸚鵡;"
     },
     {
       "original": "<i>Hypocharmosyna rubronotata</i>",
@@ -9669,7 +10545,7 @@
     },
     {
       "original": "<i>Hypocharmosyna placentis</i>",
-      "conv": "zh-cn:蓝脸鹦鹉; zh-tw:紅脇吸蜜鸚鵡; zh-hk:藍臉鸚鵡;"
+      "conv": "zh-cn:蓝脸鹦鹉; zh-tw:紅腮吸蜜鸚鵡; zh-hk:藍臉鸚鵡;"
     },
     {
       "original": "<i>Charmosynopsis toxopei</i>",
@@ -9685,11 +10561,15 @@
     },
     {
       "original": "<i>Charmosyna josefinae</i>",
-      "conv": "zh-cn:约氏鹦鹉; zh-tw:約瑟芬氏吸蜜鸚鵡; zh-hk:約氏鸚鵡;"
+      "conv": "zh-cn:约氏鹦鹉; zh-tw:約瑟氏吸蜜鸚鵡; zh-hk:約氏鸚鵡;"
     },
     {
       "original": "<i>Charmosyna papou</i>",
       "conv": "zh-cn:巴布亚鹦鹉; zh-tw:巴布亞吸蜜鸚鵡; zh-hk:巴布亞鸚鵡;"
+    },
+    {
+      "original": "<i>Charmosyna stellae</i>",
+      "conv": "zh-cn:飘带尾鹦鹉; zh-tw:飄帶尾吸蜜鸚鵡; zh-hk:飄帶尾鸚鵡;"
     },
     {
       "original": "<i>Charmosynoides margarethae</i>",
@@ -9713,11 +10593,11 @@
     },
     {
       "original": "<i>Vini diadema</i>",
-      "conv": "zh-cn:新喀岛蓝额鹦鹉; zh-tw:新喀里多尼亞吸蜜鸚鵡; zh-hk:新喀島藍額鸚鵡;"
+      "conv": "zh-cn:新喀岛蓝额鹦鹉; zh-tw:新喀里吸蜜鸚鵡; zh-hk:新喀島藍額鸚鵡;"
     },
     {
       "original": "<i>Vini solitaria</i>",
-      "conv": "zh-cn:绿领鹦鹉; zh-tw:綠領吸蜜鸚鵡; zh-hk:綠領鸚鵡;"
+      "conv": "zh-cn:绿领鹦鹉; zh-tw:領吸蜜鸚鵡; zh-hk:綠領鸚鵡;"
     },
     {
       "original": "<i>Vini australis</i>",
@@ -9725,7 +10605,7 @@
     },
     {
       "original": "<i>Vini ultramarina</i>",
-      "conv": "zh-cn:翠蓝鹦鹉; zh-tw:深藍吸蜜鸚鵡; zh-hk:翠藍鸚鵡;"
+      "conv": "zh-cn:翠蓝鹦鹉; zh-tw:青色吸蜜鸚鵡; zh-hk:深藍吸蜜鸚鵡;"
     },
     {
       "original": "<i>Vini stepheni</i>",
@@ -9733,31 +10613,31 @@
     },
     {
       "original": "<i>Vini kuhlii</i>",
-      "conv": "zh-cn:库氏鹦鹉; zh-tw:庫氏吸蜜鸚鵡; zh-hk:庫氏鸚鵡;"
+      "conv": "zh-cn:库氏鹦鹉; zh-tw:孔氏吸蜜鸚鵡; zh-hk:庫氏鸚鵡;"
     },
     {
       "original": "<i>Vini peruviana</i>",
-      "conv": "zh-cn:蓝鹦鹉; zh-tw:藍吸蜜鸚鵡; zh-hk:藍鸚鵡;"
+      "conv": "zh-cn:蓝鹦鹉; zh-tw:藍色吸蜜鸚鵡; zh-hk:藍鸚鵡;"
     },
     {
       "original": "<i>Neopsittacus musschenbroekii</i>",
-      "conv": "zh-cn:马氏鹦鹉; zh-tw:黃嘴吸蜜鸚鵡; zh-hk:馬氏鸚鵡;"
+      "conv": "zh-cn:马氏鹦鹉; zh-tw:黃喙吸蜜鸚鵡; zh-hk:馬氏鸚鵡;"
     },
     {
       "original": "<i>Neopsittacus pullicauda</i>",
-      "conv": "zh-cn:翠绿鹦鹉; zh-tw:橙嘴吸蜜鸚鵡; zh-hk:翠綠鸚鵡;"
+      "conv": "zh-cn:翠绿鹦鹉; zh-tw:橙喙吸蜜鸚鵡; zh-hk:翠綠鸚鵡;"
     },
     {
       "original": "<i>Lorius albidinucha</i>",
-      "conv": "zh-cn:白枕鹦鹉; zh-tw:白頸吸蜜鸚鵡; zh-hk:白枕鸚鵡;"
+      "conv": "zh-cn:白枕鹦鹉; zh-tw:白頂吸蜜鸚鵡; zh-hk:白枕鸚鵡;"
     },
     {
       "original": "<i>Lorius chlorocercus</i>",
-      "conv": "zh-cn:黄领鹦鹉; zh-tw:黃領吸蜜鸚鵡; zh-hk:黃領鸚鵡;"
+      "conv": "zh-cn:黄领鹦鹉; zh-tw:黃裙吸蜜鸚鵡; zh-hk:黃領鸚鵡;"
     },
     {
       "original": "<i>Lorius domicella</i>",
-      "conv": "zh-cn:紫枕鹦鹉; zh-tw:紫枕吸蜜鸚鵡; zh-hk:紫枕鸚鵡;"
+      "conv": "zh-cn:紫枕鹦鹉; zh-tw:紫頂吸蜜鸚鵡; zh-hk:紫枕鸚鵡;"
     },
     {
       "original": "<i>Lorius garrulus</i>",
@@ -9777,7 +10657,7 @@
     },
     {
       "original": "<i>Parvipsitta porphyrocephala</i>",
-      "conv": "zh-cn:紫顶鹦鹉; zh-tw:紫頂吸蜜鸚鵡; zh-hk:紫頂鸚鵡;"
+      "conv": "zh-cn:紫顶鹦鹉; zh-tw:紫冠吸蜜鸚鵡; zh-hk:紫頂鸚鵡;"
     },
     {
       "original": "<i>Parvipsitta pusilla</i>",
@@ -9793,11 +10673,11 @@
     },
     {
       "original": "<i>Chalcopsitta duivenbodei</i>",
-      "conv": "zh-cn:黄额褐鹦鹉; zh-tw:褐吸蜜鸚鵡; zh-hk:黃額褐鸚鵡;"
+      "conv": "zh-cn:黄额褐鹦鹉; zh-tw:棕色吸蜜鸚鵡; zh-hk:黃額褐鸚鵡;"
     },
     {
       "original": "<i>Chalcopsitta atra</i>",
-      "conv": "zh-cn:黑鹦鹉; zh-tw:黑吸蜜鸚鵡; zh-hk:黑鸚鵡;"
+      "conv": "zh-cn:黑鹦鹉; zh-tw:黑色吸蜜鸚鵡; zh-hk:黑鸚鵡;"
     },
     {
       "original": "<i>Chalcopsitta scintillata</i>",
@@ -9817,11 +10697,15 @@
     },
     {
       "original": "<i>Saudareos iris</i>",
-      "conv": "zh-cn:五彩鹦鹉; zh-tw:鳶尾吸蜜鸚鵡; zh-hk:五彩鸚鵡;"
+      "conv": "zh-cn:五彩鹦鹉; zh-tw:虹膜吸蜜鸚鵡; zh-hk:五彩鸚鵡;"
     },
     {
       "original": "<i>Saudareos flavoviridis</i>",
       "conv": "zh-cn:黄绿鹦鹉; zh-tw:黃綠吸蜜鸚鵡; zh-hk:黃綠鸚鵡;"
+    },
+    {
+      "original": "<i>Saudareos meyeri</i>",
+      "conv": "zh-cn:黄耳鹦鹉; zh-tw:黃耳吸蜜鸚鵡; zh-hk:黃耳鸚鵡;"
     },
     {
       "original": "<i>Saudareos ornata</i>",
@@ -9837,7 +10721,7 @@
     },
     {
       "original": "<i>Eos bornea</i>",
-      "conv": "zh-cn:红鹦鹉; zh-tw:紅吸蜜鸚鵡; zh-hk:紅鸚鵡;"
+      "conv": "zh-cn:红鹦鹉; zh-tw:紅色吸蜜鸚鵡; zh-hk:紅鸚鵡;"
     },
     {
       "original": "<i>Eos cyanogenia</i>",
@@ -9845,7 +10729,7 @@
     },
     {
       "original": "<i>Eos histrio</i>",
-      "conv": "zh-cn:红蓝鹦鹉; zh-tw:紅藍吸蜜鸚鵡; zh-hk:紅藍鸚鵡;"
+      "conv": "zh-cn:红蓝鹦鹉; zh-tw:紅藍吸蜜鸚鵡; zh-hk:紅藍吸蜜鸚鵡;"
     },
     {
       "original": "<i>Eos squamata</i>",
@@ -9853,7 +10737,7 @@
     },
     {
       "original": "<i>Trichoglossus rubiginosus</i>",
-      "conv": "zh-cn:紫红鹦鹉; zh-tw:豐沛吸蜜鸚鵡; zh-hk:紫紅鸚鵡;"
+      "conv": "zh-cn:紫红鹦鹉; zh-tw:波納佩吸蜜鸚鵡; zh-hk:紫紅鸚鵡;"
     },
     {
       "original": "<i>Trichoglossus chlorolepidotus</i>",
@@ -9861,7 +10745,11 @@
     },
     {
       "original": "<i>Trichoglossus haematodus</i>",
-      "conv": "zh-cn:椰果鹦鹉; zh-tw:摩鹿加虹彩吸蜜鸚鵡; zh-hk:椰果鸚鵡;"
+      "conv": "zh-cn:椰果鹦鹉; zh-tw:新幾內亞彩虹吸蜜鸚鵡; zh-hk:椰果鸚鵡;"
+    },
+    {
+      "original": "<i>Trichoglossus moluccanus</i>",
+      "conv": "zh-cn:彩虹吸蜜鹦鹉; zh-tw:彩虹吸蜜鸚鵡; zh-hk:彩虹吸蜜鸚鵡;"
     },
     {
       "original": "<i>Trichoglossus rosenbergii</i>",
@@ -9873,7 +10761,7 @@
     },
     {
       "original": "<i>Trichoglossus euteles</i>",
-      "conv": "zh-cn:褐头绿鹦鹉; zh-tw:綠頭吸蜜鸚鵡; zh-hk:褐頭綠鸚鵡;"
+      "conv": "zh-cn:褐头绿鹦鹉; zh-tw:完美吸蜜鸚鵡; zh-hk:褐頭綠鸚鵡;"
     },
     {
       "original": "<i>Trichoglossus capistratus</i>",
@@ -9889,15 +10777,15 @@
     },
     {
       "original": "<i>Psittaculirostris desmarestii</i>",
-      "conv": "zh-cn:德氏果鹦鹉; zh-tw:大金頂無花果鸚鵡; zh-hk:德氏果鸚鵡;"
+      "conv": "zh-cn:德氏果鹦鹉; zh-tw:大無花果鸚鵡; zh-hk:德氏果鸚鵡;"
     },
     {
       "original": "<i>Psittaculirostris edwardsii</i>",
-      "conv": "zh-cn:爱氏果鹦鹉; zh-tw:愛德華氏無花果鸚鵡; zh-hk:愛氏果鸚鵡;"
+      "conv": "zh-cn:爱氏果鹦鹉; zh-tw:愛德華無花果鸚鵡; zh-hk:愛氏果鸚鵡;"
     },
     {
       "original": "<i>Psittaculirostris salvadorii</i>",
-      "conv": "zh-cn:萨氏果鹦鹉; zh-tw:薩瓦氏無花果鸚鵡; zh-hk:薩氏果鸚鵡;"
+      "conv": "zh-cn:萨氏果鹦鹉; zh-tw:薩爾瓦多氏無花果鸚鵡; zh-hk:薩氏果鸚鵡;"
     },
     {
       "original": "<i>Cyclopsitta gulielmitertii</i>",
@@ -9905,39 +10793,75 @@
     },
     {
       "original": "<i>Cyclopsitta diophthalma</i>",
-      "conv": "zh-cn:红脸果鹦鹉; zh-tw:雙眼無花果鸚鵡; zh-hk:紅臉果鸚鵡;"
+      "conv": "zh-cn:红脸果鹦鹉; zh-tw:雙眼無花果鸚鵡; zh-hk:雙眼無花果鸚鵡;"
+    },
+    {
+      "original": "<i>Cyclopsitta nigrifrons</i>",
+      "conv": "zh-cn:黑额果鹦鹉; zh-tw:黑額無花果鸚鵡; zh-hk:黑額果鸚鵡;"
+    },
+    {
+      "original": "<i>Cyclopsitta melanogenia</i>",
+      "conv": "zh-cn:暗颊果鹦鹉; zh-tw:暗頰無花果鸚鵡; zh-hk:暗頰果鸚鵡;"
     },
     {
       "original": "<i>Bolbopsittacus lunulatus</i>",
       "conv": "zh-cn:菲律宾鹦鹉; zh-tw:月狀鸚鵡; zh-hk:菲律賓鸚鵡;"
     },
     {
-      "original": "<i>Loriculus camiguinensis</i>",
-      "conv": "zh-cn:卡米金短尾鹦鹉; zh-tw:喀米昆島短尾鸚鵡; zh-hk:卡米金短尾鸚鵡;"
+      "original": "<i>Loriculus vernalis</i>",
+      "conv": "zh-cn:短尾鹦鹉; zh-tw:春天倒懸鸚鵡; zh-hk:短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus beryllinus</i>",
+      "conv": "zh-cn:斯里兰卡短尾鹦鹉; zh-tw:錫蘭倒懸鸚鵡; zh-hk:斯里蘭卡短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus philippensis</i>",
+      "conv": "zh-cn:菲律宾短尾鹦鹉; zh-tw:菲律賓倒懸鸚鵡; zh-hk:菲律賓短尾鸚鵡;"
     },
     {
       "original": "<i>Loriculus galgulus</i>",
-      "conv": "zh-cn:蓝顶短尾鹦鹉; zh-tw:藍冠短尾鸚鵡; zh-hk:藍頂短尾鸚鵡;"
+      "conv": "zh-cn:蓝顶短尾鹦鹉; zh-tw:藍冠倒懸鸚鵡; zh-hk:藍頂短尾鸚鵡;"
     },
     {
       "original": "<i>Loriculus stigmatus</i>",
-      "conv": "zh-cn:苏拉短尾鹦鹉; zh-tw:蘇拉威西短尾鸚鵡; zh-hk:蘇拉短尾鸚鵡;"
+      "conv": "zh-cn:苏拉短尾鹦鹉; zh-tw:蘇拉威西倒懸鸚鵡; zh-hk:蘇拉短尾鸚鵡;"
     },
     {
-      "original": "<i>Loriculus sclateri</i>",
-      "conv": "zh-cn:红背短尾鹦鹉; zh-tw:蘇拉短尾鸚鵡; zh-hk:紅背短尾鸚鵡;"
+      "original": "<i>Loriculus amabilis</i>",
+      "conv": "zh-cn:摩鹿加短尾鹦鹉; zh-tw:摩鹿加倒懸鸚鵡; zh-hk:摩鹿加短尾鸚鵡;"
     },
     {
       "original": "<i>Loriculus catamene</i>",
-      "conv": "zh-cn:桑岛短尾鹦鹉; zh-tw:猩紅短尾鸚鵡; zh-hk:桑島短尾鸚鵡;"
+      "conv": "zh-cn:桑岛短尾鹦鹉; zh-tw:聖格倒懸鸚鵡; zh-hk:桑島短尾鸚鵡;"
     },
     {
-      "original": "<i>Loriculus exilis</i>",
-      "conv": "zh-cn:绿短尾鹦鹉; zh-tw:紅嘴綠短尾鸚鵡; zh-hk:綠短尾鸚鵡;"
+      "original": "<i>Loriculus aurantiifrons</i>",
+      "conv": "zh-cn:橙额短尾鹦鹉; zh-tw:橙額倒懸鸚鵡; zh-hk:橙額短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus tener</i>",
+      "conv": "zh-cn:绿额短尾鹦鹉; zh-tw:綠額倒懸鸚鵡; zh-hk:綠額短尾鸚鵡;"
     },
     {
       "original": "<i>Loriculus flosculus</i>",
-      "conv": "zh-cn:瓦氏短尾鹦鹉; zh-tw:華萊士短尾鸚鵡; zh-hk:瓦氏短尾鸚鵡;"
+      "conv": "zh-cn:瓦氏短尾鹦鹉; zh-tw:華萊士倒懸鸚鵡; zh-hk:瓦氏短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus exilis</i>",
+      "conv": "zh-cn:绿短尾鹦鹉; zh-tw:紅喙倒懸鸚鵡; zh-hk:綠短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus pusillus</i>",
+      "conv": "zh-cn:黄喉短尾鹦鹉; zh-tw:黃喉倒懸鸚鵡; zh-hk:黃喉短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus sclateri</i>",
+      "conv": "zh-cn:红背短尾鹦鹉; zh-tw:蘇拉倒懸鸚鵡; zh-hk:紅背短尾鸚鵡;"
+    },
+    {
+      "original": "<i>Loriculus camiguinensis</i>",
+      "conv": "zh-cn:卡米金短尾鹦鹉; zh-tw:喀米昆島倒懸鸚鵡; zh-hk:卡米金短尾鸚鵡;"
     },
     {
       "original": "<i>Agapornis</i>",
@@ -9945,11 +10869,15 @@
     },
     {
       "original": "<i>Agapornis roseicollis</i>",
-      "conv": "zh-cn:粉脸牡丹鹦鹉; zh-tw:粉紅臉情侶鸚鵡; zh-hk:粉臉牡丹鸚鵡;"
+      "conv": "zh-cn:粉脸牡丹鹦鹉; zh-tw:桃面情侶鸚鵡; zh-hk:粉臉牡丹鸚鵡;"
     },
     {
       "original": "<i>Agapornis lilianae</i>",
-      "conv": "zh-cn:尼亚萨牡丹鹦鹉; zh-tw:利利安情侶鸚鵡; zh-hk:尼亞薩牡丹鸚鵡;"
+      "conv": "zh-cn:尼亚萨牡丹鹦鹉; zh-tw:利力安氏情侶鸚鵡; zh-hk:尼亞薩牡丹鸚鵡;"
+    },
+    {
+      "original": "<i>Agapornis fischeri</i>",
+      "conv": "zh-cn:费氏牡丹鹦鹉; zh-tw:費希氏情侶鸚鵡; zh-hk:費氏牡丹鸚鵡;"
     },
     {
       "original": "<i>Lophopsittacus mauritianus</i>",
@@ -9958,6 +10886,74 @@
     {
       "original": "<i>Necropsittacus rodricanus</i>",
       "conv": "zh-cn:罗德里格斯鹦鹉; zh-tw:羅德里圭斯鸚鵡; zh-hk:羅德里格斯鸚鵡;"
+    },
+    {
+      "original": "<i>Conuropsis carolinensis</i>",
+      "conv": "zh-cn:卡罗莱纳长尾鹦鹉; zh-tw:卡羅萊納長尾鸚鵡; zh-hk:卡羅萊納長尾鸚鵡;"
+    },
+    {
+      "original": "Estrildidae",
+      "conv": "zh-cn:梅花雀科; zh-tw:梅花雀科; zh-hk:梅花雀科;"
+    },
+    {
+      "original": "<i>Padda</i>",
+      "conv": "zh-cn:禾雀属; zh-tw:禾雀屬; zh-hk:禾雀屬;"
+    },
+    {
+      "original": "Fringillidae",
+      "conv": "zh-cn:燕雀科; zh-tw:雀科; zh-hk:燕雀科;"
+    },
+    {
+      "original": "Passeridae",
+      "conv": "zh-cn:雀科; zh-tw:麻雀科; zh-hk:雀科;"
+    },
+    {
+      "original": "<i>Alauda</i>",
+      "conv": "zh-cn:云雀属; zh-tw:雲雀屬; zh-hk:雲雀屬;"
+    },
+    {
+      "original": "Paridae",
+      "conv": "zh-cn:山雀科; zh-tw:山雀科; zh-hk:山雀科;"
+    },
+    {
+      "original": "Remizidae",
+      "conv": "zh-cn:攀雀科; zh-tw:攀雀科; zh-hk:攀雀科;"
+    },
+    {
+      "original": "Bombycillidae",
+      "conv": "zh-cn:太平鸟科; zh-tw:連雀科; zh-hk:太平鳥科;"
+    },
+    {
+      "original": "Hypocoliidae",
+      "conv": "zh-cn:连雀科; zh-tw:灰連雀科; zh-hk:連雀科;"
+    },
+    {
+      "original": "Thraupidae",
+      "conv": "zh-cn:唐纳雀科; zh-tw:唐納雀科; zh-hk:唐納雀科;"
+    },
+    {
+      "original": "Spindalidae",
+      "conv": "zh-cn: 鹀唐纳雀科; zh-tw:鵐唐納雀科; zh-hk:鵐唐納雀科;"
+    },
+    {
+      "original": "Nesospingidae",
+      "conv": "zh-cn: 暗唐纳雀科; zh-tw:波多黎各唐納雀科; zh-hk:暗唐纳雀科;"
+    },
+    {
+      "original": "Phaenicophilidae",
+      "conv": "zh-cn:长尾唐纳雀科; zh-tw:長尾唐納雀科; zh-hk:長尾唐納雀科;"
+    },
+    {
+      "original": "Mitrospingidae",
+      "conv": "zh-cn:乌脸唐纳雀科; zh-tw:烏臉唐納雀科; zh-hk:烏臉唐納雀科;"
+    },
+    {
+      "original": "Ploceidae",
+      "conv": "zh-cn:织雀科; zh-tw:織布文鳥科; zh-hk:織雀科;"
+    },
+    {
+      "original": "Timaliidae",
+      "conv": "zh-cn:林鹛科; zh-tw:畫眉科; zh-hk:林鶥科;"
     },
     {
       "original": "<i>Xenicus gilviventris</i>",
@@ -14325,7 +15321,7 @@
     },
     {
       "original": "<i>Coracina personata</i>",
-      "conv": "zh-cn:帝汶鹃𱉐; zh-tw:華勒西亞鵑鵙; zh-hk:帝汶鵑鵙;"
+      "conv": "zh-cn:帝汶鹃𱉐; zh-tw:華萊士鵑鵙; zh-hk:帝汶鵑鵙;"
     },
     {
       "original": "<i>Coracina welchmani</i>",
@@ -14420,8 +15416,8 @@
       "conv": "zh-cn:姬鹃𱉐; zh-tw:侏鵑鵙; zh-hk:姬鵑鵙;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:鸣鹃𱉐; zh-tw:原鵑鵙; zh-hk:鳴鵑鵙;"
+      "original": "<i>Lalage</i>",
+      "conv": "zh-cn:鸣鹃𱉐属; zh-tw:鳴鵑鵙屬; zh-hk:鳴鵑鵙屬;"
     },
     {
       "original": "<i>Lalage leucomela</i>",
@@ -14581,7 +15577,7 @@
     },
     {
       "original": "<i>Pachycephala arctitorquis</i>",
-      "conv": "zh-cn:印尼啸鹟; zh-tw:華勒西亞嘯鶲; zh-hk:印尼嘯鶲;"
+      "conv": "zh-cn:印尼啸鹟; zh-tw:華萊士嘯鶲; zh-hk:印尼嘯鶲;"
     },
     {
       "original": "<i>Pachycephala griseonota</i>",
@@ -14924,16 +15920,8 @@
       "conv": "zh-cn:塔岛卷尾; zh-tw:塔巴斯卷尾; zh-hk:塔島卷尾;"
     },
     {
-      "original": "<i>Dicrurus densus</i>",
-      "conv": "zh-cn:华莱士卷尾; zh-tw:華勒西亞卷尾; zh-hk:華萊士卷尾;"
-    },
-    {
       "original": "<i>Dicrurus waldenii</i>",
       "conv": "zh-cn:马约特卷尾; zh-tw:馬約特島卷尾; zh-hk:馬約特卷尾;"
-    },
-    {
-      "original": "<i>Dicrurus forficatus</i>",
-      "conv": "zh-cn:冠卷尾; zh-tw:馬達加斯加冠卷尾; zh-hk:冠卷尾;"
     },
     {
       "original": "<i>Dicrurus aldabranus</i>",
@@ -14950,6 +15938,10 @@
     {
       "original": "<i>Dicrurus macrocercus</i>",
       "conv": "zh-cn:黑卷尾; zh-tw:大卷尾; zh-hk:黑卷尾;"
+    },
+    {
+      "original": "<i>Dicrurus macrocercus</i>",
+      "conv": "zh-hans:发冠卷尾; zh-hant:髮冠卷尾;"
     },
     {
       "original": "<i>Rhipidura superciliaris</i>",
@@ -16109,7 +17101,7 @@
     },
     {
       "original": "<i>Pseudopodoces humilis</i>",
-      "conv": "zh-cn:地山雀; zh-tw:褐背擬地鴉; zh-hk:地山雀;"
+      "conv": "zh-cn:地山雀; zh-tw:地山雀; zh-hk:地山雀;"
     },
     {
       "original": "<i>Parus major</i>",
@@ -16117,11 +17109,11 @@
     },
     {
       "original": "<i>Parus minor</i>",
-      "conv": "zh-cn:远东山雀; zh-tw:日本山雀; zh-hk:遠東山雀;"
+      "conv": "zh-cn:大山雀; zh-tw:白頰山雀; zh-hk:遠東山雀;"
     },
     {
       "original": "<i>Parus cinereus</i>",
-      "conv": "zh-cn:大山雀; zh-tw:白頰山雀; zh-hk:大山雀;"
+      "conv": "zh-cn:苍背山雀; zh-tw:蒼背山雀; zh-hk:蒼背山雀;"
     },
     {
       "original": "<i>Parus monticolus</i>",
@@ -16709,7 +17701,7 @@
     },
     {
       "original": "<i>Hypsipetes rufigularis</i>",
-      "conv": "zh-cn:棉兰短脚鹎; zh-tw:三寶顏短腳鵯; zh-hk:棉蘭短腳鵯;"
+      "conv": "zh-cn:棉兰短脚鹎; zh-tw:棕面短腳鵯; zh-hk:棉蘭短腳鵯;"
     },
     {
       "original": "<i>Hypsipetes amaurotis</i>",
@@ -16717,15 +17709,15 @@
     },
     {
       "original": "<i>Hypsipetes borbonicus</i>",
-      "conv": "zh-cn:绿短脚鹎; zh-tw:留尼旺島短腳鵯; zh-hk:綠短腳鵯;"
+      "conv": "zh-cn:绿短脚鹎; zh-tw:白眼黑鵯; zh-hk:綠短腳鵯;"
     },
     {
       "original": "<i>Hypsipetes madagascariensis</i>",
-      "conv": "zh-cn:马岛短脚鹎; zh-tw:馬達加斯加黑短腳鵯; zh-hk:馬島短腳鵯;"
+      "conv": "zh-cn:马岛短脚鹎; zh-tw:馬島黑鵯; zh-hk:馬島短腳鵯;"
     },
     {
       "original": "<i>Hypsipetes olivaceus</i>",
-      "conv": "zh-cn:毛里求斯短脚鹎; zh-tw:模里西斯島短腳鵯; zh-hk:毛里裘斯短腳鵯;"
+      "conv": "zh-cn:毛里求斯短脚鹎; zh-tw:模里西斯短腳鵯; zh-hk:毛里裘斯短腳鵯;"
     },
     {
       "original": "<i>Hypsipetes leucocephalus</i>",
@@ -19090,6 +20082,10 @@
     {
       "original": "<i>Ianthocincla bieti</i>",
       "conv": "zh-cn:白点噪鹛; zh-tw:白斑噪鶥; zh-hk:白點噪鶥;"
+    },
+    {
+      "original": "<i>Pterorhinus</i>",
+      "conv": "zh-hans:黑喉噪鹛属;zh-tw:白喉噪鶥屬;zh-hk:黑喉噪鶥屬"
     },
     {
       "original": "<i>Pterorhinus delesserti</i>",
@@ -21836,10 +22832,6 @@
       "conv": "zh-cn:乌干达织雀; zh-tw:烏干達織布鳥; zh-hk:烏干達織雀;"
     },
     {
-      "original": "<i>Ploceus cucullatus</i>",
-      "conv": "zh-cn:黑头织雀; zh-tw:黑頭群棲織布鳥; zh-hk:黑頭織雀;"
-    },
-    {
       "original": "<i>Ploceus grandis</i>",
       "conv": "zh-cn:大织雀; zh-tw:巨織布鳥; zh-hk:大織雀;"
     },
@@ -22622,10 +23614,6 @@
     {
       "original": "<i>Pyrrhula nipalensis</i>",
       "conv": "zh-cn:褐灰雀; zh-tw:褐鷽; zh-hk:褐灰雀;"
-    },
-    {
-      "original": "<i>Pyrrhula erythaca</i>",
-      "conv": "zh-cn:灰头灰雀; zh-tw:灰鷽; zh-hk:灰頭灰雀;"
     },
     {
       "original": "<i>Pyrrhula leucogenis</i>",
@@ -24466,10 +25454,6 @@
     {
       "original": "<i>Sporophila cinnamomea</i>",
       "conv": "zh-cn:栗食籽雀; zh-tw:栗色食籽雀; zh-hk:栗食籽雀;"
-    },
-    {
-      "original": "<i>Piezorina cinerea</i>",
-      "conv": "zh-cn:灰雀鹀; zh-tw:灰雀; zh-hk:灰雀鵐;"
     },
     {
       "original": "<i>Xenospingus concolor</i>",

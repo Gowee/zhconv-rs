@@ -1,6 +1,6 @@
 {
   "name": "Snooker",
-  "description": "斯诺克",
+  "description": "-{zh-cn:斯诺克;zh-tw:司諾克;zh-hk:士碌架;}-",
   "path": "Module:CGroup/Snooker",
   "rules": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "original": "Season",
-      "conv": "zh-cn:赛季; zh-tw:球季; zh-hk:球季;"
+      "conv": "zh-cn:赛季; zh-tw:賽季; zh-hk:球季;"
     },
     {
       "original": "Final Stage",
@@ -181,7 +181,11 @@
     },
     {
       "original": "Brecel",
-      "conv": "zh-cn:布雷切尔;zh-tw:布里塞爾;zh-hk:布里塞爾;"
+      "conv": "zh-cn:布雷切尔;zh-tw:布里塞爾;zh-hk:比素;"
+    },
+    {
+      "original": "Steve Davis",
+      "conv": "zh-hans:史蒂夫·戴维斯;zh-tw:史蒂夫·戴維斯;zh-hk:史提芬·戴維斯;"
     },
     {
       "original": "Dennis",
@@ -200,8 +204,12 @@
       "conv": "zh-cn:艾伯顿;zh-tw:艾伯頓;zh-hk:伊本;"
     },
     {
+      "original": "Gilbert",
+      "conv": "zh-cn:吉尔伯特;zh-tw:吉爾伯特;zh-hk:基拔;"
+    },
+    {
       "original": "Graeme",
-      "conv": "zh-cn:格雷米;zh-tw:格林美;zh-hk:格林美;"
+      "conv": "zh-cn:格雷姆;zh-tw:格林美;zh-hk:格林美;"
     },
     {
       "original": "Gould",
@@ -222,6 +230,10 @@
     {
       "original": "Holt",
       "conv": "zh-cn:霍尔特;zh-tw:霍爾特;zh-hk:賀特;"
+    },
+    {
+      "original": "Hossein Vafaei",
+      "conv": "zh-cn:侯赛因·瓦菲;zh-tw:侯賽因·瓦菲;"
     },
     {
       "original": "Hunter",
@@ -309,7 +321,7 @@
     },
     {
       "original": "Reanne",
-      "conv": "zh-cn:瑞妮; zh-tw:瑞娜;zh-hk:瑞娜;"
+      "conv": "zh-cn:瑞安; zh-tw:瑞娜;zh-hk:瑞娜;"
     },
     {
       "original": "Ricky Walden",
@@ -329,7 +341,7 @@
     },
     {
       "original": "Selby",
-      "conv": "zh-cn:塞尔比;zh-tw:賽爾比;zh-hk:沙比;"
+      "conv": "zh-cn:塞尔比;zh-tw:賽爾比;zh-hk:沙比;zh-hant:塞爾比;"
     },
     {
       "original": "Shaun",
@@ -341,11 +353,7 @@
     },
     {
       "original": "Stephen",
-      "conv": "zh-cn:史蒂芬;zh-tw:史蒂芬;zh-hk:史提芬;"
-    },
-    {
-      "original": "Steve",
-      "conv": "zh-cn:史蒂夫;zh-hk:史提芬;zh-tw:史蒂夫;"
+      "conv": "zh-cn:斯蒂芬;zh-tw:史蒂芬;zh-hk:史提芬;"
     },
     {
       "original": "Stuart Bingham",
@@ -354,6 +362,10 @@
     {
       "original": "Swail",
       "conv": "zh-cn:斯维尔;zh-tw:斯維爾;zh-hk:史威爾;"
+    },
+    {
+      "original": "Saengkham",
+      "conv": "zh-cn:桑坎姆;zh-tw: ;zh-hk:;"
     },
     {
       "original": "Taylor",
@@ -381,11 +393,27 @@
     },
     {
       "original": "Williams",
-      "conv": "zh-cn:威廉姆斯; zh-tw:威廉士; zh-tw:威廉士;"
+      "conv": "zh-cn:威廉姆斯; zh-hk:威廉斯; zh-tw:威廉斯;"
     },
     {
-      "original": "Opening ceremony",
+      "original": "Sheffield",
       "conv": "zh-cn:谢菲尔德;zh-tw:雪菲爾;zh-hk:錫菲;"
+    },
+    {
+      "original": "香港桌球總會",
+      "conv": "zh-cn:香港桌球总会; zh-hk:香港桌球總會; zh-tw:香港桌球總會;"
+    },
+    {
+      "original": "中国台球协会",
+      "conv": "zh-cn:中国台球协会; zh-hk:中國枱球協會; zh-tw:中國檯球協會;"
+    },
+    {
+      "original": "中式台球世界锦标赛",
+      "conv": "zh-cn:中式台球世界锦标赛; zh-hk:中式枱球世界錦標賽; zh-tw:中式檯球世界錦標賽;"
+    },
+    {
+      "original": "中華民國撞球總會",
+      "conv": "zh-cn:中华民国撞球总会; zh-hk:中華民國撞球總會; zh-tw:中華民國撞球總會;"
     }
   ]
 }

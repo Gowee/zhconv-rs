@@ -1,31 +1,31 @@
 {
   "name": "Simpsons",
-  "description": "Simpsons",
-  "path": "Template:CGroup/Simpsons",
+  "description": "-{zh-cn:辛普森一家;zh-tw:辛普森家庭;zh-hk:阿森一族;zh-sg:阿森一族;}-",
+  "path": "Module:CGroup/Simpsons",
   "rules": [
     {
       "original": "Android's Dungeon & Baseball Card Shop",
-      "conv": "zh-cn:机器人地牢与棒球卡片店;zh-hant:機器人地牢與棒球卡片店;zh-tw:白入洞;zh-hk:機械人地牢與棒球卡片店"
+      "conv": "zh-cn:机器人地牢与棒球卡片店;zh-hant:機器人地牢與棒球卡片店;zh-tw:白入洞;zh-hk:機械人地牢與棒球卡片店;"
     },
     {
       "original": "Albertson, Jeff",
-      "conv": "zh-cn:杰夫·阿尔伯森;zh-tw:朱斜橫;zh-hk:傑夫·阿爾伯森"
+      "conv": "zh-cn:杰夫·阿尔伯森;zh-tw:朱斜橫;zh-hk:傑夫·阿爾伯森;"
     },
     {
       "original": "arcade",
-      "conv": "zh-cn:里亚蒂卡维尔约翰逊;zh-tw:侯陪襯;zh-hk:里亞蒂卡維爾約翰遜"
+      "conv": "zh-cn:里亚蒂卡维尔约翰逊;zh-tw:侯陪襯;zh-hk:里亞蒂卡維爾約翰遜;"
     },
     {
       "original": "arcade",
-      "conv": "zh-cn:街机;zh-tw:大型電玩;zh-hk:大型電玩"
+      "conv": "zh-cn:街机;zh-tw:大型電玩;zh-hk:大型電玩;"
     },
     {
       "original": "Artie",
-      "conv": "zh-cn:阿蒂;zh-tw:永罄;zh-hk:阿蒂"
+      "conv": "zh-cn:阿蒂;zh-tw:永罄;zh-hk:阿蒂;"
     },
     {
       "original": "Ben",
-      "conv": "zh-cn:阿斑;zh-tw:Z久大繩;zh-hk:阿斑"
+      "conv": "zh-cn:阿斑;zh-tw:Z久大繩;zh-hk:阿斑;"
     },
     {
       "original": "Bender",
@@ -33,63 +33,67 @@
     },
     {
       "original": "Bongo",
-      "conv": "zh-cn:邦戈;zh-tw:小黃;zh-hk:邦戈"
+      "conv": "zh-cn:邦戈;zh-tw:小黃;zh-hk:邦戈;"
     },
     {
       "original": "Bouvier, Ling",
-      "conv": "zh-cn:玲·布维尔; zh-tw:春粒; zh-hk:玲·布維爾; "
+      "conv": "zh-cn:玲·布维尔; zh-tw:春粒; zh-hk:玲·布維爾;"
     },
     {
       "original": "Brockman, Kent",
-      "conv": "zh-cn:肯特·布罗克曼;zh-tw:李掏;zh-hk:肯特·布羅克曼"
+      "conv": "zh-cn:肯特·布罗克曼;zh-tw:李掏;zh-hk:肯特·布羅克曼;"
     },
     {
       "original": "Bunny, Bugs",
-      "conv": "zh-cn:兔八哥;zh-tw:兔寶寶;zh-hk:賓尼兔"
+      "conv": "zh-cn:兔八哥;zh-tw:兔寶寶;zh-hk:賓尼兔;"
     },
     {
       "original": "Burns",
-      "conv": "zh-cn:伯恩斯;zh-tw:郭董;zh-hk:伯恩斯"
+      "conv": "zh-cn:伯恩斯;zh-tw:郭董;zh-hk:伯恩斯;"
     },
     {
       "original": "Burns, Montgomery",
-      "conv": "zh-cn:蒙哥马利·伯恩斯;zh-tw:郭董;zh-hk:蒙哥馬利·伯恩斯"
+      "conv": "zh-cn:蒙哥马利·伯恩斯;zh-tw:郭董;zh-hk:蒙哥馬利·伯恩斯;"
     },
     {
       "original": "Mr. Burns",
-      "conv": "zh-cn:伯恩斯先生;zh-tw:郭董;zh-hk:保先生"
+      "conv": "zh-cn:伯恩斯先生;zh-tw:郭董;zh-hk:保先生;"
     },
     {
       "original": "Bush, George",
-      "conv": "zh-cn:布什;zh-tw:布希;zh-hk:布殊"
+      "conv": "zh-cn:布什;zh-tw:布希;zh-hk:布殊;"
     },
     {
       "original": "Cantwell",
-      "conv": "zh-cn:坎特维尔;zh-tw:戴乃昭;zh-hk:坎特維爾"
+      "conv": "zh-cn:坎特维尔;zh-tw:戴乃昭;zh-hk:坎特維爾;"
     },
     {
       "original": "Carl",
-      "conv": "zh-cn:卡尔;zh-tw:盧到;zh-hk:卡爾"
+      "conv": "zh-cn:卡尔;zh-tw:盧到;zh-hk:卡爾;"
     },
     {
       "original": "Carlson",
-      "conv": "zh-cn:卡尔森;zh-tw:莫那;zh-hk:卡爾森"
+      "conv": "zh-cn:卡尔森;zh-tw:莫那;zh-hk:卡爾森;"
     },
     {
       "original": "Carlson, Carl",
-      "conv": "zh-cn:卡尔·卡尔森;zh-tw:莫那·盧到;zh-hk:卡爾·卡爾森"
+      "conv": "zh-cn:卡尔·卡尔森;zh-tw:莫那·盧到;zh-hk:卡爾·卡爾森;"
     },
     {
       "original": "Caro, Robert",
-      "conv": "zh-cn:罗伯特·卡罗;zh-tw:吳弱拳;zh-hk:羅伯特·卡羅"
+      "conv": "zh-cn:罗伯特·卡罗;zh-tw:吳弱拳;zh-hk:羅伯特·卡羅;"
     },
     {
       "original": "Chief Wiggum",
-      "conv": "zh-cn:克兰西·维古姆;zh-tw:孔龍金;zh-hk:克蘭西·維古姆"
+      "conv": "zh-cn:克兰西·维古姆;zh-tw:孔龍金;zh-hk:克蘭西·維古姆;"
     },
     {
       "original": "Castellaneta, Dan",
       "conv": "zh-cn:丹·卡斯泰拉内塔;zh-hant:丹·卡斯泰蘭尼塔;"
+    },
+    {
+      "original": "Chip Davis",
+      "conv": "zh-cn:志普·戴维斯;zh-tw:擠普塞;zh-hk:志普·戴維斯;"
     },
     {
       "original": "Chuey",
@@ -105,55 +109,55 @@
     },
     {
       "original": "The Cosby Show",
-      "conv": "zh-cn:考斯比一家;zh-hk:Bill Cosby半小時;zh-tw:天才老爹"
+      "conv": "zh-cn:考斯比一家;zh-hk:Bill Cosby半小時;zh-my:天才老爹;zh-tw:天才老爹;"
     },
     {
       "original": "cupcake",
-      "conv": "zh-cn:纸杯蛋糕;zh-hk:紙杯蛋糕;zh-tw:發粿"
+      "conv": "zh-cn:纸杯蛋糕;zh-hk:紙杯蛋糕;zh-tw:發粿;"
     },
     {
       "original": "David Letterman",
-      "conv": "zh-cn:大卫·莱特曼;zh-tw:劉飽節;zh-hk:大衛·莱特曼"
+      "conv": "zh-cn:大卫·莱特曼;zh-tw:劉飽節;zh-hk:大衛·莱特曼;"
     },
     {
       "original": "Dubinsky",
-      "conv": "zh-cn:杜宾斯基;zh-tw:莉精;zh-hk:杜賓斯基"
+      "conv": "zh-cn:杜宾斯基;zh-tw:莉精;zh-hk:杜賓斯基;"
     },
     {
       "original": "Dubinsky, Annie",
-      "conv": "zh-cn:安妮·杜宾斯基;zh-tw:莉精安妮;zh-hk:安妮·杜賓斯基"
+      "conv": "zh-cn:安妮·杜宾斯基;zh-tw:莉精安妮;zh-hk:安妮·杜賓斯基;"
     },
     {
       "original": "Edna",
-      "conv": "zh-cn:埃德娜;zh-hk:埃德娜;zh-tw:趾鹹"
+      "conv": "zh-cn:埃德娜;zh-hk:埃德娜;zh-tw:趾鹹;"
     },
     {
       "original": "Elizabeth",
-      "conv": "zh-cn:伊丽莎白;zh-hk:伊利沙伯;zh-tw:伊麗莎白"
+      "conv": "zh-cn:伊丽莎白;zh-hk:伊利沙伯;zh-tw:伊麗莎白;"
     },
     {
       "original": "Eduardo",
-      "conv": "zh-cn:爱德华多;zh-hk:愛德華多;zh-tw:阿鳴溝"
+      "conv": "zh-cn:爱德华多;zh-hk:愛德華多;zh-tw:阿鳴溝;"
     },
     {
       "original": "Family Guy",
-      "conv": "zh-hans:居家男人;zh-hk:蓋酷家庭;zh-tw:蓋酷家庭;"
+      "conv": "zh:居家男人;zh-cn:恶搞之家;zh-hk:蓋酷家庭;zh-tw:蓋酷家庭;"
     },
     {
       "original": "Fat Tony",
-      "conv": "zh-cn:安东尼·达米科;zh-tw:吉他大仔;zh-hk:安東尼·達米科"
+      "conv": "zh-cn:安东尼·达米科;zh-tw:吉他大仔;zh-hk:安東尼·達米科;"
     },
     {
       "original": "Flanders",
-      "conv": "弗兰德=>zh-tw:王;弗蘭德=>zh-tw:王"
+      "conv": "弗兰德=>zh-tw:王;弗蘭德=>zh-tw:王;"
     },
     {
       "original": "Flanders, Ned",
-      "conv": "zh-cn:内德·弗兰德;zh-tw:魯肉王;zh-hk:內德·弗蘭德"
+      "conv": "zh-cn:内德·弗兰德;zh-tw:魯肉王;zh-hk:內德·弗蘭德;"
     },
     {
       "original": "Fox",
-      "conv": "zh-cn:福斯;zh-tw:福斯;zh-hk:霍士"
+      "conv": "zh-cn:福斯;zh-tw:福斯;zh-hk:霍士;"
     },
     {
       "original": "Professor Farnsworth, Hubert",
@@ -165,11 +169,11 @@
     },
     {
       "original": "Professor Frink",
-      "conv": "zh-cn:弗林克教授;zh-tw:李眼摺博士;zh-hk:弗林克教授"
+      "conv": "zh-cn:弗林克教授;zh-tw:李眼摺博士;zh-hk:弗林克教授;"
     },
     {
       "original": "Fruitbat Man",
-      "conv": "zh-cn:狐蝠侠;zh-tw:騙蝠俠;zh-hk:狐蝠俠"
+      "conv": "zh-cn:狐蝠侠;zh-tw:騙蝠俠;zh-hk:狐蝠俠;"
     },
     {
       "original": "Fry, Philip J.",
@@ -177,127 +181,127 @@
     },
     {
       "original": "Futurama",
-      "conv": "zh-cn:飞出个未来;zh-tw:飛出個未來;zh-hk:乃出個未來"
+      "conv": "zh-cn:飞出个未来;zh-tw:飛出個未來;zh-hk:乃出個未來;"
     },
     {
       "original": "Gaiman, Neil",
-      "conv": "zh-cn:尼尔·盖曼;zh-tw:丸把刃;zh-hk:尼爾·蓋曼"
+      "conv": "zh-cn:尼尔·盖曼;zh-tw:丸把刃;zh-hk:尼爾·蓋曼;"
     },
     {
       "original": "Glamorous Godfrey",
-      "conv": "zh-cn:美艳戈弗雷;zh-tw:魔鬼筋肉人;zh-hk:美艷戈弗雷"
+      "conv": "zh-cn:美艳戈弗雷;zh-tw:魔鬼筋肉人;zh-hk:美艷戈弗雷;"
     },
     {
       "original": "Groening, Matt",
-      "conv": "zh-cn:格勒宁; zh-tw:格朗寧; zh-hk:格朗寧; "
+      "conv": "zh-cn:格勒宁; zh-tw:格朗寧; zh-hk:格朗寧;"
     },
     {
       "original": "Gut Check with Homer Simpson",
-      "conv": "zh-cn:与霍默·辛普森肠道检查; zh-tw:阿馬之聲; zh-hk:與荷馬·辛普森腸道檢查; "
+      "conv": "zh-cn:与霍默·辛普森肠道检查; zh-tw:阿馬之聲; zh-hk:與荷馬·辛普森腸道檢查;"
     },
     {
       "original": "Peter Griffin",
-      "conv": "zh-hans:彼得; zh-hk:彼得; zh-tw:痞德"
+      "conv": "zh-hans:彼得; zh-hk:彼得; zh-tw:痞德;"
     },
     {
       "original": "Peter Griffin",
-      "conv": "zh-hans:彼得·格里芬; zh-hk:彼得·格里芬; zh-tw:葛痞德"
+      "conv": "zh-hans:彼得·格里芬; zh-hk:彼得·格里芬; zh-tw:葛痞德;"
     },
     {
       "original": "Lois Griffin",
-      "conv": "zh-hans:洛伊丝; zh-hk:路易絲; zh-tw:拉拉"
+      "conv": "zh-hans:洛伊丝; zh-hk:路易絲; zh-tw:拉拉;"
     },
     {
       "original": "Lois Griffin",
-      "conv": "zh-hans:洛伊丝·格里芬; zh-hk:路易絲·格里芬; zh-tw:盧拉拉"
+      "conv": "zh-hans:洛伊丝·格里芬; zh-hk:路易絲·格里芬; zh-tw:盧拉拉;"
     },
     {
       "original": "Meg Griffin",
-      "conv": "zh-hans:梅格; zh-hk:梅格; zh-tw:小莉"
+      "conv": "zh-hans:梅格; zh-hk:梅格; zh-tw:小莉;"
     },
     {
       "original": "Meg Griffin",
-      "conv": "zh-hans:梅格·格里芬; zh-hk:梅格·格里芬; zh-tw:葛莉"
+      "conv": "zh-hans:梅格·格里芬; zh-hk:梅格·格里芬; zh-tw:葛莉;"
     },
     {
       "original": "Chris Griffin",
-      "conv": "zh-hans:克里斯; zh-hk:克里斯; zh-tw:馬藍"
+      "conv": "zh-hans:克里斯; zh-hk:克里斯; zh-tw:馬藍;"
     },
     {
       "original": "Chris Griffin",
-      "conv": "zh-hans:克里斯·格里芬; zh-hk:克里斯·格里芬; zh-tw:葛馬藍"
+      "conv": "zh-hans:克里斯·格里芬; zh-hk:克里斯·格里芬; zh-tw:葛馬藍;"
     },
     {
       "original": "Stewie Griffin",
-      "conv": "zh:斯图伊; zh-hans:斯图威; zh-hk:史杜威; zh-tw:葛屁"
+      "conv": "zh:斯图伊; zh-hans:斯图威; zh-hk:史杜威; zh-tw:葛屁;"
     },
     {
       "original": "Stewie Griffin",
-      "conv": "zh:斯图伊·格里芬; zh-hans:斯图威·格里芬; zh-hk:史杜威·格里芬; zh-tw:葛屁"
+      "conv": "zh:斯图伊·格里芬; zh-hans:斯图威·格里芬; zh-hk:史杜威·格里芬; zh-tw:葛屁;"
     },
     {
       "original": "Brian Griffin",
-      "conv": "zh-hans:布赖恩; zh-hk:布萊恩; zh-tw:來西"
+      "conv": "zh-hans:布赖恩; zh-hk:布萊恩; zh-tw:來西;"
     },
     {
       "original": "Brian Griffin",
-      "conv": "zh-hans:布赖恩·格里芬; zh-hk:布萊恩·格里芬; zh-tw:靈犬來西"
+      "conv": "zh-hans:布赖恩·格里芬; zh-hk:布萊恩·格里芬; zh-tw:靈犬來西;"
     },
     {
       "original": "Habushu",
-      "conv": "zh-cn:蛇米酒;zh-tw:魯蛇雄黃酒;zh-hk:蛇米酒"
+      "conv": "zh-cn:蛇米酒;zh-tw:魯蛇雄黃酒;zh-hk:蛇米酒;"
     },
     {
       "original": "Hibbert",
-      "conv": "zh-cn:希伯特; zh-tw:華頭; zh-hk:希伯特; "
+      "conv": "zh-cn:希伯特; zh-tw:華頭; zh-hk:希伯特;"
     },
     {
       "original": "Honest Abe",
-      "conv": "zh-cn:正直亚伯; zh-tw:荷熊歷險記; zh-hk:正直亞伯; "
+      "conv": "zh-cn:正直亚伯; zh-tw:荷熊歷險記; zh-hk:正直亞伯;"
     },
     {
       "original": "Hoover, Elizabeth",
-      "conv": "zh-cn:伊丽莎白·胡佛; zh-tw:季老師; zh-hk:伊利沙伯·胡佛; "
+      "conv": "zh-cn:伊丽莎白·胡佛; zh-tw:季老師; zh-hk:伊利沙伯·胡佛;"
     },
     {
       "original": "The Itchy & Scratchy Show",
-      "conv": "zh-cn:痒痒鼠与抓抓猫; zh-tw:貓鼠大戰; zh-hk:癢癢鼠與抓抓貓; "
+      "conv": "zh-cn:痒痒鼠与抓抓猫; zh-tw:貓鼠大戰; zh-hk:癢癢鼠與抓抓貓;"
     },
     {
       "original": "Jeff",
-      "conv": "zh-cn:杰夫;zh-tw:斜橫;zh-hk:傑夫"
+      "conv": "zh-cn:杰夫;zh-tw:斜橫;zh-hk:傑夫;"
     },
     {
       "original": "Krabappel",
-      "conv": "zh-cn:克拉巴佩尔;zh-hk:克拉巴佩爾;zh-tw:陳"
+      "conv": "zh-cn:克拉巴佩尔;zh-hk:克拉巴佩爾;zh-tw:陳;"
     },
     {
       "original": "Krabappel, Edna",
-      "conv": "zh-cn:埃德娜·克拉巴佩尔;zh-hk:埃德娜·克拉巴佩爾;zh-tw:陳趾鹹"
+      "conv": "zh-cn:埃德娜·克拉巴佩尔;zh-hk:埃德娜·克拉巴佩爾;zh-tw:陳趾鹹;"
     },
     {
       "original": "Kirk",
-      "conv": "zh-cn:柯克; zh-tw:牙擦; zh-hk:柯克; "
+      "conv": "zh-cn:柯克; zh-tw:牙擦; zh-hk:柯克;"
     },
     {
       "original": "Ki-Ya Karate Monsters",
-      "conv": "zh-cn:奇亚空手道怪兽; zh-tw:灰熊連盟OLO; zh-hk:木谷空手道怪獸; "
+      "conv": "zh-cn:奇亚空手道怪兽; zh-tw:灰熊連盟OLO; zh-hk:木谷空手道怪獸;"
     },
     {
       "original": "Krusty the Clown",
-      "conv": "zh-cn:库斯提; zh-tw:阿基; zh-hk:庫斯提; "
+      "conv": "zh-cn:库斯提; zh-tw:阿基; zh-hk:庫斯提;"
     },
     {
       "original": "Krusty Burger",
-      "conv": "zh-cn:库斯提汉堡; zh-tw:醜八怪漢堡; zh-hk:庫斯提漢堡包; "
+      "conv": "zh-cn:库斯提汉堡; zh-tw:醜八怪漢堡; zh-hk:庫斯提漢堡包;"
     },
     {
       "original": "Krustyland",
-      "conv": "zh-cn:库斯提乐园; zh-tw:醜八怪樂園; zh-hk:庫斯提樂園; "
+      "conv": "zh-cn:库斯提乐园; zh-tw:醜八怪樂園; zh-hk:庫斯提樂園;"
     },
     {
       "original": "Krustyland",
-      "conv": "zh-cn:库斯提乐园; zh-tw:猿山樂園; zh-hk:庫斯提樂園; "
+      "conv": "zh-cn:库斯提乐园; zh-tw:猿山樂園; zh-hk:庫斯提樂園;"
     },
     {
       "original": "Kumiko",
@@ -305,31 +309,31 @@
     },
     {
       "original": "Kwik-E-Mart",
-      "conv": "zh-cn:Kwik-E-Mart; zh-tw:QK便利商店; zh-hk:Kwik-E-Mart; "
+      "conv": "zh-cn:Kwik-E-Mart; zh-tw:QK便利商店; zh-hk:Kwik-E-Mart;"
     },
     {
       "original": "Lady Gaga",
-      "conv": "zh-cn:Lady Gaga; zh-tw:淚滴卡卡; zh-hk:Lady Gaga; "
+      "conv": "zh-cn:Lady Gaga; zh-tw:淚滴卡卡; zh-hk:Lady Gaga;"
     },
     {
       "original": "Leela",
-      "conv": "zh-cn:莉拉; zh-tw:殺拉; zh-hk:莉娜; "
+      "conv": "zh-cn:莉拉; zh-tw:殺拉; zh-hk:莉娜;"
     },
     {
       "original": "Lenny",
-      "conv": "zh-cn:伦尼; zh-tw:藍尼; zh-hk:倫尼; "
+      "conv": "zh-cn:伦尼; zh-tw:藍尼; zh-hk:倫尼;"
     },
     {
       "original": "Leonard",
-      "conv": "zh-cn:伦纳德; zh-tw:雷公; zh-hk:倫納德; "
+      "conv": "zh-cn:伦纳德; zh-tw:雷公; zh-hk:倫納德;"
     },
     {
       "original": "Leonard, Lenny",
-      "conv": "zh-cn:伦尼·伦纳德; zh-tw:藍尼·雷公; zh-hk:倫尼·倫納德; "
+      "conv": "zh-cn:伦尼·伦纳德; zh-tw:藍尼·雷公; zh-hk:倫尼·倫納德;"
     },
     {
       "original": "Lila",
-      "conv": "zh-cn:里拉; zh-tw:辛盈; zh-hk:里拉; "
+      "conv": "zh-cn:里拉; zh-tw:辛盈; zh-hk:里拉;"
     },
     {
       "original": "Lou",
@@ -345,15 +349,15 @@
     },
     {
       "original": "Lovejoy, Timothy",
-      "conv": "zh-cn:蒂莫西·洛夫乔伊; zh-tw:林涼堂; zh-hk:蒂莫西·洛夫喬伊; "
+      "conv": "zh-cn:蒂莫西·洛夫乔伊; zh-tw:林涼堂; zh-hk:蒂莫西·洛夫喬伊;"
     },
     {
       "original": "Maddow, Rachel",
-      "conv": "zh-cn:雷切尔·玛多;zh-tw:林佳淇;zh-hk:瑞秋·梅道"
+      "conv": "zh-cn:雷切尔·玛多;zh-tw:林佳淇;zh-hk:瑞秋·梅道;"
     },
     {
       "original": "Madison, James",
-      "conv": "zh-cn:詹姆斯·麦迪逊;zh-tw:孫盅杉;zh-hk:詹姆斯·麥迪遜"
+      "conv": "zh-cn:詹姆斯·麦迪逊;zh-tw:孫盅杉;zh-hk:詹姆斯·麥迪遜;"
     },
     {
       "original": "Mann, Otto",
@@ -361,35 +365,35 @@
     },
     {
       "original": "Marlowe",
-      "conv": "马洛=>zh-tw:白; 馬洛=>zh-tw:白;"
+      "conv": "1=马洛=>zh-tw:白; 馬洛=>zh-tw:白;"
     },
     {
       "original": "Marlowe, Robert",
-      "conv": "zh-cn:罗伯特·马洛;zh-tw:白頭翁;zh-hk:羅伯特·馬洛"
+      "conv": "zh-cn:罗伯特·马洛;zh-tw:白頭翁;zh-hk:羅伯特·馬洛;"
     },
     {
       "original": "Mary",
-      "conv": "zh-cn:玛莉; zh-tw:勁香; zh-hk:瑪莉; "
+      "conv": "zh-cn:玛莉; zh-tw:勁香; zh-hk:瑪莉;"
     },
     {
       "original": "Mason, Jackie",
-      "conv": "zh-cn:杰基·梅森; zh-tw:粗皮雄; zh-hk:傑基·梅森; "
+      "conv": "zh-cn:杰基·梅森; zh-tw:粗皮雄; zh-hk:傑基·梅森;"
     },
     {
       "original": "Mav",
-      "conv": "zh-cn:Mav; zh-tw:理理人; zh-hk:Mav; "
+      "conv": "zh-cn:Mav; zh-tw:理理人; zh-hk:Mav;"
     },
     {
       "original": "Milhouse",
-      "conv": "zh-cn:米尔豪斯; zh-tw:呆子; zh-hk:米爾豪斯; "
+      "conv": "zh-cn:米尔豪斯; zh-tw:呆子; zh-hk:米爾豪斯;"
     },
     {
       "original": "Mission: Impossible",
-      "conv": "zh-hans:谍中谍;zh-hk:職業特工隊;zh-tw:不可能的任務; "
+      "conv": "zh-cn:谍中谍;zh-hk:職業特工隊;zh-tw:不可能的任務;zh-sg:不可能的任务;"
     },
     {
       "original": "Moses, Edwin",
-      "conv": "zh-cn:埃德温·摩西; zh-tw:王治平; zh-hk:埃德溫·摩西; "
+      "conv": "zh-cn:埃德温·摩西; zh-tw:王治平; zh-hk:埃德溫·摩西;"
     },
     {
       "original": "Muntz",
@@ -398,10 +402,6 @@
     {
       "original": "Muntz, Nelson",
       "conv": "zh-cn:纳尔逊·芒茨; zh-tw:阿浮; zh-hk:納爾遜·芒茨;"
-    },
-    {
-      "original": "Nahasapeemapetilon",
-      "conv": "zh-cn:纳哈萨皮马佩蒂隆; zh-tw:柯; zh-hk:納哈薩皮馬佩蒂隆;"
     },
     {
       "original": "Nahasapeemapetilon, Apu",
@@ -417,31 +417,27 @@
     },
     {
       "original": "Ned",
-      "conv": "zh-cn:内德;zh-tw:魯肉;zh-hk:內德"
+      "conv": "zh-cn:内德;zh-tw:魯肉;zh-hk:內德;"
     },
     {
       "original": "New Scientist",
       "conv": "zh-hant:新科學人;zh-hans:新科学家;"
     },
     {
-      "original": "New York",
+      "original": "New Yor",
       "conv": "zh-hant:紐約;zh-hans:纽约;zh-tw:信異區;"
     },
     {
       "original": "Nick",
-      "conv": "zh-cn:尼克;zh-hk:尼克;zh-tw:寸上春樹"
+      "conv": "zh-cn:尼克;zh-hk:尼克;zh-tw:寸上春樹;"
     },
     {
       "original": "Dr. Nick",
-      "conv": "zh-cn:尼克医生;zh-hk:尼克醫生;zh-tw:懷棕醫生"
+      "conv": "zh-cn:尼克医生;zh-hk:尼克醫生;zh-tw:懷棕醫生;"
     },
     {
       "original": "Nugent, Ted",
-      "conv": "zh-cn:特德金特;zh-hk:特德金特;zh-tw:白賊七"
-    },
-    {
-      "original": "Oak Road",
-      "conv": "zh-cn:橡树; zh-hk:橡樹; zh-tw:忠孝;"
+      "conv": "zh-cn:特德金特;zh-hk:特德金特;zh-tw:白賊七;"
     },
     {
       "original": "Oregon",
@@ -469,27 +465,27 @@
     },
     {
       "original": "Reno, Janet",
-      "conv": "zh-cn:珍妮特·雷诺;zh-hk:珍妮特·雷諾;zh-tw:陳碇北"
+      "conv": "zh-cn:珍妮特·雷诺;zh-hk:珍妮特·雷諾;zh-tw:陳碇北;"
     },
     {
       "original": "Riviera",
-      "conv": "zh-cn:里维埃拉;zh-hk:里維埃拉;zh-tw:潘"
+      "conv": "zh-cn:里维埃拉;zh-hk:里維埃拉;zh-tw:潘;"
     },
     {
       "original": "Riviera, Nick",
-      "conv": "zh-cn:尼克·里维埃拉;zh-hk:尼克·里維埃拉;zh-tw:潘懷棕"
+      "conv": "zh-cn:尼克·里维埃拉;zh-hk:尼克·里維埃拉;zh-tw:潘懷棕;"
     },
     {
       "original": "Robert",
-      "conv": "zh-cn:罗伯特;zh-tw:頭翁;zh-hk:羅伯特"
+      "conv": "zh-cn:罗伯特;zh-tw:頭翁;zh-hk:羅伯特;"
     },
     {
       "original": "Roosevelt",
-      "conv": "zh-cn:罗斯福;zh-tw:槳公;zh-hk:羅斯福"
+      "conv": "zh-cn:罗斯福;zh-tw:槳公;zh-hk:羅斯福;"
     },
     {
       "original": "Roosevelt, Theodore",
-      "conv": "zh-cn:威诺纳西奥多·罗斯福;zh-tw:槳中政;zh-hk:西奧多·羅斯福"
+      "conv": "zh-cn:威诺纳西奥多·罗斯福;zh-tw:槳中政;zh-hk:西奧多·羅斯福;"
     },
     {
       "original": "Ryder, Winona",
@@ -497,103 +493,103 @@
     },
     {
       "original": "Sandwich",
-      "conv": "zh-hans:三明治;zh-hk:三文治;zh-tw:三明治;"
+      "conv": "zh-cn:三明治;zh-hk:三文治;zh-tw:三明治;"
     },
     {
       "original": "Santa's Little Helper",
-      "conv": "zh-cn:圣诞老人小助手;zh-tw:勇哥;zh-hk:聖誕老人小助手"
+      "conv": "zh-cn:圣诞老人小助手;zh-tw:勇哥;zh-hk:聖誕老人小助手;"
     },
     {
       "original": "Sarközy, Nicolas",
-      "conv": "zh-cn:萨科齐;zh-tw:薩科齊;zh-hk:薩爾科齊"
+      "conv": "zh-cn:萨科齐;zh-tw:薩科齊;zh-hk:薩爾科齊;"
     },
     {
       "original": "Seymour",
-      "conv": "zh-cn:西摩; zh-tw:西蒙; zh-hk:西摩"
+      "conv": "zh-cn:西摩; zh-tw:西蒙; zh-hk:西摩;"
     },
     {
       "original": "Sherri and Terri",
-      "conv": "zh-cn:雪莉和特莉;zh-tw:米口和油美;zh-hk:雪莉和特莉"
+      "conv": "zh-cn:雪莉和特莉;zh-tw:米口和油美;zh-hk:雪莉和特莉;"
     },
     {
       "original": "Sideshow Bob",
-      "conv": "zh-cn:杂耍家鲍伯;zh-tw:包添丁;zh-hk:雜耍家鮑伯"
+      "conv": "zh-cn:杂耍家鲍伯;zh-tw:包添丁;zh-hk:雜耍家鮑伯;"
     },
     {
       "original": "Simon, Samuel Michael",
-      "conv": "zh-cn:塞缪尔·迈克尔·西蒙; zh-tw:薩母耳·麥可·西蒙"
+      "conv": "zh-cn:塞缪尔·迈克尔·西蒙; zh-tw:薩母耳·麥可·西蒙;"
     },
     {
       "original": "Simon, Sam",
-      "conv": "zh-cn:萨姆·西蒙; zh-tw:薩姆·西蒙"
+      "conv": "zh-cn:萨姆·西蒙; zh-tw:薩姆·西蒙;"
     },
     {
       "original": "Simpson, Abraham",
-      "conv": "zh-cn:亚伯拉罕;zh-tw:荷熊;zh-hk:亞伯拉罕"
+      "conv": "zh-cn:亚伯拉罕;zh-tw:荷熊;zh-hk:亞伯拉罕;"
     },
     {
       "original": "Simpson, Bart",
-      "conv": "zh-cn:巴特;zh-tw:霸子;zh-hk:巴特"
+      "conv": "zh-cn:巴特;zh-tw:霸子;zh-hk:巴特;"
     },
     {
       "original": "Simpson, Homer",
-      "conv": "zh-cn:霍默;zh-tw:荷馬;zh-hk:荷馬"
+      "conv": "zh-cn:霍默;zh-tw:荷馬;zh-hk:荷馬;"
     },
     {
       "original": "Simpson, Lisa",
-      "conv": "zh-cn:莉萨;zh-tw:點子;zh-hk:麗莎"
+      "conv": "zh-cn:莉萨;zh-tw:點子;zh-hk:麗莎;"
     },
     {
       "original": "Simpson, Lisa",
-      "conv": "zh-cn:莉萨;zh-tw:花枝;zh-hk:麗莎"
+      "conv": "zh-cn:莉萨;zh-tw:花枝;zh-hk:麗莎;"
     },
     {
       "original": "Simpson, Maggie",
-      "conv": "zh-cn:玛吉;zh-tw:奶嘴;zh-hk:奶咀"
+      "conv": "zh-cn:玛吉;zh-tw:奶嘴;zh-hk:奶咀;"
     },
     {
       "original": "Simpson, Marge",
-      "conv": "zh-cn:玛琦;zh-tw:美枝;zh-hk:瑪吉"
+      "conv": "zh-cn:玛琦;zh-tw:美枝;zh-hk:瑪吉;"
     },
     {
       "original": "Simpsons, the",
-      "conv": "zh-cn:辛普森一家;zh-tw:辛普森家庭;zh-hk:阿森一族"
+      "conv": "zh-cn:辛普森一家;zh-tw:辛普森家庭;zh-hk:阿森一族;zh-sg:阿森一族;"
     },
     {
       "original": "The Simpsons Movie",
-      "conv": "zh-cn:辛普森一家电影版; zh-hk:阿森一族大電影; zh-tw:辛普森家庭電影版;"
+      "conv": "zh-cn:辛普森一家电影版;zh-hk:阿森一族大電影;zh-tw:辛普森家庭電影版;zh-sg:辛普森家庭电影版;"
     },
     {
       "original": "Skinner",
-      "conv": "zh-cn:斯金纳;zh-tw:喜金捏;zh-hk:斯金納"
+      "conv": "zh-cn:斯金纳;zh-tw:喜金捏;zh-hk:斯金納;"
     },
     {
       "original": "Skinner, Seymour",
-      "conv": "zh-cn:西摩·斯金纳;zh-tw:西蒙·喜金捏;zh-hk:西摩·斯金納"
+      "conv": "zh-cn:西摩·斯金纳;zh-tw:西蒙·喜金捏;zh-hk:西摩·斯金納;"
     },
     {
       "original": "Smithers, Waylon Jr.",
-      "conv": "zh-cn:韦伦·史密瑟斯;zh-tw:艾甲甲;zh-hk:韋倫·史密瑟斯"
+      "conv": "zh-cn:韦伦·史密瑟斯;zh-tw:艾甲甲;zh-hk:韋倫·史密瑟斯;"
     },
     {
       "original": "Smithers, Waylon Jr.",
-      "conv": "zh-cn:韦伦·史密瑟斯二世;zh-tw:艾甲甲;zh-hk:韋倫·史密瑟斯二世"
+      "conv": "zh-cn:韦伦·史密瑟斯二世;zh-tw:艾甲甲;zh-hk:韋倫·史密瑟斯二世;"
     },
     {
       "original": "Snake Jailbird",
-      "conv": "zh-cn:蛇累犯;zh-tw:蛇哥;zh-hk:蛇累犯"
+      "conv": "zh-cn:蛇累犯;zh-tw:蛇哥;zh-hk:蛇累犯;"
     },
     {
       "original": "Springfield",
-      "conv": "zh-cn:春田镇;zh-tw:內糊;zh-hk:春田市"
+      "conv": "zh-cn:春田镇;zh-tw:內糊;zh-hk:春田市;"
     },
     {
       "original": "Springfield Zoo",
-      "conv": "zh-cn:春田镇动物园;zh-tw:木刪動物園;zh-hk:春田市動物園"
+      "conv": "zh-cn:春田镇动物园;zh-tw:木刪動物園;zh-hk:春田市動物園;"
     },
     {
       "original": "Spuckler",
-      "conv": "斯普克勒=>zh-tw:柯;"
+      "conv": "1=斯普克勒=>zh-tw:柯;"
     },
     {
       "original": "Spuckler, Cletus",
@@ -601,95 +597,47 @@
     },
     {
       "original": "Spuckler, Cletus",
-      "conv": "zh-cn:克莱图斯·斯普克勒;zh-tw:柯老鼠;zh-hk:克萊圖斯·斯普克勒"
+      "conv": "zh-cn:克莱图斯·斯普克勒;zh-tw:柯老鼠;zh-hk:克萊圖斯·斯普克勒;"
     },
     {
       "original": "Spuckler, Mary",
-      "conv": "zh-cn:玛莉·斯普克勒; zh-tw:柯勁香; zh-hk:瑪莉·斯普克勒; "
+      "conv": "zh-cn:玛莉·斯普克勒; zh-tw:柯勁香; zh-hk:瑪莉·斯普克勒;"
     },
     {
       "original": "Stan Lee",
-      "conv": "zh-cn:史丹·李;zh-tw:宮崎俊;zh-hk:史丹·李"
+      "conv": "zh-cn:史丹·李;zh-tw:宮崎俊;zh-hk:史丹·李;"
     },
     {
       "original": "Super Bowl",
-      "conv": "zh-cn:超级碗;zh-tw:超級盃;zh-hk:超級碗"
+      "conv": "zh-cn:超级碗;zh-tw:超級盃;zh-hk:超級碗;"
     },
     {
       "original": "Swapper Jack's",
-      "conv": "zh-cn:Swapper Jack's;zh-tw:壞事多;zh-hk:Swapper Jack's"
+      "conv": "zh-cn:Swapper Jack's;zh-tw:壞事多;zh-hk:Swapper Jack's;"
     },
     {
       "original": "Szyslak",
-      "conv": "zh-cn:希斯拉克; zh-tw:少蔥; zh-hk:希斯拉克; "
+      "conv": "zh-cn:希斯拉克; zh-tw:少蔥; zh-hk:希斯拉克;"
     },
     {
       "original": "Szyslak, Moe",
-      "conv": "zh-cn:莫·希斯拉克; zh-tw:莫少蔥; zh-hk:莫·希斯拉克; "
+      "conv": "zh-cn:莫·希斯拉克; zh-tw:莫少蔥; zh-hk:莫·希斯拉克;"
     },
     {
       "original": "Terrance",
-      "conv": "zh-cn:特伦斯; zh-tw:史丹利; zh-hk:特倫斯; "
+      "conv": "zh-cn:特伦斯; zh-tw:史丹利; zh-hk:特倫斯;"
     },
     {
       "original": "Timothy",
-      "conv": "zh-cn:蒂莫西; zh-tw:涼堂; zh-hk:蒂莫西; "
+      "conv": "zh-cn:蒂莫西; zh-tw:涼堂; zh-hk:蒂莫西;"
     },
     {
       "original": "T-Rex",
-      "conv": "zh-cn:T-Rex; zh-tw:Jerry; zh-hk:T-Rex; "
+      "conv": "zh-cn:T-Rex; zh-tw:Jerry; zh-hk:T-Rex;"
     },
     {
       "original": "T-shirt",
-      "conv": "zh-hans:T恤;zh-hk:T裇;zh-tw:T恤; "
-    },
-    {
-      "original": "Van Houten",
-      "conv": "zh-cn:范霍腾; zh-tw:蘇; zh-hk:范霍滕; "
-    },
-    {
-      "original": "Van Houten, Kirk",
-      "conv": "zh-cn:科克·范霍腾; zh-tw:牙擦蘇; zh-hk:科克·范霍滕; "
-    },
-    {
-      "original": "Van Houten, Milhouse",
-      "conv": "zh-cn:米尔豪斯·范霍腾; zh-tw:蘇呆子; zh-hk:米爾豪斯·范霍滕; "
-    },
-    {
-      "original": "Villageville",
-      "conv": "zh-cn:Villageville; zh-tw:模擬鬼島; zh-hk:Villageville; "
-    },
-    {
-      "original": "Viola",
-      "conv": "维奥拉=>zh-tw:顏; 維奧拉=>zh-tw:顏; "
-    },
-    {
-      "original": "Wiggum",
-      "conv": "维古姆=>zh-tw:孔; 維古姆=>zh-tw:孔; "
-    },
-    {
-      "original": "Wiggum, Ralph",
-      "conv": "zh-cn:拉尔夫·维古姆; zh-tw:孔安; zh-hk:拉爾夫·維古姆; "
-    },
-    {
-      "original": "Willie, Groundskeeper",
-      "conv": "zh-cn:威利校管; zh-tw:鬍鬚張校管; zh-hk:威利校管; "
-    },
-    {
-      "original": "Zhenya",
-      "conv": "zh-hans:振亚;zh-hk:振亞;zh-tw:雞排;"
-    },
-    {
-      "original": "Ziff",
-      "conv": "齐夫=>zh-tw:王; 齊夫=>zh-tw:王;"
-    },
-    {
-      "original": "Ziff, Artie",
-      "conv": "zh-cn:阿蒂·齐夫;zh-tw:王永罄;zh-hk:阿蒂·齊夫"
-    },
-    {
-      "original": "Zoidberg",
-      "conv": "zh-cn:佐艾伯格; zh-tw:佐艾伯格; zh-hk:紅魷;"
+      "conv": "zh-hans:T恤;zh-hk:T裇;zh-tw:T恤;"
     }
   ]
 }

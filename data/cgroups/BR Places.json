@@ -1,0 +1,79 @@
+{
+  "name": "BR Places",
+  "description": "巴西地名",
+  "path": "Module:CGroup/BR Places",
+  "rules": [
+    {
+      "original": "Acre",
+      "conv": "zh-hans:阿克里州;zh-tw:阿克雷州;zh-hk:阿克里州;"
+    },
+    {
+      "original": "Amazonas",
+      "conv": "zh-hans:亚马逊; zh-hant:亞馬孫; zh-cn:亚马孙; zh-hk:亞馬遜; zh-tw:亞馬遜;"
+    },
+    {
+      "original": "Amazonas",
+      "conv": "zh-hans:亚马逊州; zh-hant:亞馬孫州; zh-cn:亚马孙州; zh-hk:亞馬遜州; zh-tw:亞馬遜州;"
+    },
+    {
+      "original": "Amazonas",
+      "conv": "zh-hans:伯南布哥;zh-hk:伯南布哥;zh-tw:伯南布科;"
+    },
+    {
+      "original": "Riograndense Republic",
+      "conv": " zh-cn:里奥格兰登斯共和国; zh-tw:里約格朗登斯共和國; zh-hk:大河共和國;"
+    },
+    {
+      "original": "Rio Grande do Norte",
+      "conv": " zh-cn:北里奥格兰德州; zh-tw:北里約格朗德州; zh-hk:北大河州;"
+    },
+    {
+      "original": "Rio Grande do Sul",
+      "conv": " zh-cn:南里奥格兰德州; zh-tw:南里約格朗德州; zh-hk:南大河州;"
+    },
+    {
+      "original": "Alegre",
+      "conv": "zh-hans:阿雷格里; zh-hant:阿列格雷;"
+    },
+    {
+      "original": "Argirita",
+      "conv": "zh-hans:阿尔日里塔;zh-hant:阿爾日里塔;"
+    },
+    {
+      "original": "Bagé",
+      "conv": "zh-hans:巴热;zh-hk:巴耶;zh-tw:巴熱;"
+    },
+    {
+      "original": "Belo Horizonte",
+      "conv": "zh-hans:贝洛奥里藏特;zh-tw:美景市;zh-hk:比路賀利桑特;"
+    },
+    {
+      "original": "Campo Grande",
+      "conv": "zh-hans:大坎普;zh-hant:大坎普;zh-tw:大坎波"
+    },
+    {
+      "original": "Curitiba",
+      "conv": "zh-hans:库里蒂巴;zh-hant:古里提巴;"
+    },
+    {
+      "original": "Florianópolis",
+      "conv": "zh-tw:佛羅安那波里;zh-hans:弗洛里亚诺波利斯;zh-hant:弗洛里亞諾波利斯;"
+    },
+    {
+      "original": "Fortaleza",
+      "conv": "zh-hans:福塔莱萨;zh-hk:福塔萊薩;zh-tw:福塔雷薩;"
+    },
+    {
+      "original": "Manaus",
+      "conv": "zh-hans:马瑙斯;zh-hk:馬瑙斯;zh-tw:瑪瑙斯;"
+    },
+    {
+      "original": "Maracanã",
+      "conv": "zh:馬拉簡拿; zh-tw:馬拉卡納; zh-cn:马拉卡纳; zh-hk:馬拉簡拿;"
+    },
+    {
+      "original": "Recife",
+      "conv": "zh-hans:累西腓;zh-tw:勒西菲;zh-hk:利斯菲;"
+    }
+  ]
+}

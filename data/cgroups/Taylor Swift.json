@@ -5,23 +5,15 @@
   "rules": [
     {
       "original": "Taylor Swift",
-      "conv": "zh-cn:泰勒·斯威夫特; zh-hk:泰勒·斯威夫特; zh-my:泰莱·史薇芙特; zh-tw:泰勒絲"
-    },
-    {
-      "original": "Swift",
-      "conv": "zh-cn:斯威夫特; zh-hk:斯威夫特; zh-sg:斯威夫特; zh-my:史薇芙特; zh-tw:泰勒絲"
-    },
-    {
-      "original": "Taylor",
-      "conv": "zh-cn:泰勒; zh-hk:泰勒; zh-sg:泰勒; zh-my:泰莱; zh-tw:泰勒絲"
+      "conv": "zh-cn:泰勒·斯威夫特;zh-hk:泰勒絲;zh-sg:泰勒丝;zh-my:泰勒丝;zh-tw:泰勒絲"
     },
     {
       "original": "Afterglow",
-      "conv": "zh-cn:余晖; zh-tw:餘韻"
+      "conv": "zh-cn:余晖;zh-tw:餘韻"
     },
     {
       "original": "All Too Well (10 Minute Version)",
-      "conv": "zh-cn:回忆太清晰（10分钟版）; zh-tw:回憶太清晰（十分鐘完整版）"
+      "conv": "zh-cn:回忆太清晰（10分钟版）;zh-tw:回憶太清晰（十分鐘完整版）"
     },
     {
       "original": "Back to December",
@@ -34,6 +26,10 @@
     {
       "original": "Beautiful Ghosts",
       "conv": "zh-cn:美丽灵魂;zh-tw:美麗的幽魂"
+    },
+    {
+      "original": "Bejeweled",
+      "conv": "zh-cn:珠光宝气;zh-tw:絢麗奪目"
     },
     {
       "original": "The Best Day",
@@ -50,6 +46,10 @@
     {
       "original": "Blank Space",
       "conv": "zh-cn:空格; zh-tw:空白"
+    },
+    {
+      "original": "But Daddy I Love Him",
+      "conv": "zh-cn:但爸爸，我爱他;zh-tw:但 爹地我愛他"
     },
     {
       "original": "Call It What You Want",
@@ -84,6 +84,10 @@
       "conv": "zh-cn:残酷夏季;zh-tw:慘痛夏日"
     },
     {
+      "original": "Castles Crumbling",
+      "conv": "zh-cn:崩塌城堡;zh-tw:崩塌的城堡"
+    },
+    {
       "original": "Dancing With Our Hands Tied",
       "conv": "zh-cn:束手共舞;zh-tw:綁手綁腳"
     },
@@ -108,6 +112,10 @@
       "conv": "zh-cn:别怪我;zh-tw:錯不在我"
     },
     {
+      "original": "Down Bad",
+      "conv": "zh-cn:崩坏;zh-tw:低迷境地"
+    },
+    {
       "original": "Dress",
       "conv": "zh-cn:长裙;zh-tw:戰袍"
     },
@@ -128,6 +136,10 @@
       "conv": "zh-cn:流放;zh-tw:放逐"
     },
     {
+      "original": "Electric Touch",
+      "conv": "zh-cn:触电;zh-tw:觸電感受"
+    },
+    {
       "original": "Fearless",
       "conv": "zh-cn:放手去爱;zh-tw:無懼的愛;"
     },
@@ -140,6 +152,10 @@
       "conv": "zh-cn:民间故事：长塘录音室现场; zh-hk:Folklore：長塘錄音室現場; zh-tw:美麗傳說：長塘錄音室現場; zh-sg:Folklore：专辑创作背后的故事"
     },
     {
+      "original": "Fresh Out The Slammer",
+      "conv": "zh-cn:新鲜出狱;zh-tw:愛囚重生"
+    },
+    {
       "original": "Getaway Car",
       "conv": "zh-cn:逃离之车;zh-tw:亡命飛車"
     },
@@ -150,6 +166,10 @@
     {
       "original": "Gorgeous",
       "conv": "zh-cn:完美情人;zh-tw:真命天子"
+    },
+    {
+      "original": "Guilty As Sin?",
+      "conv": "zh-cn:罪不可赦;zh-tw:罪愛"
     },
     {
       "original": "Happiness",
@@ -189,7 +209,7 @@
     },
     {
       "original": "Illicit Affairs",
-      "conv": "zh-cn:情事; zh-tw:禁忌戀曲"
+      "conv": "zh-cn:情事; zh-tw:非法關係"
     },
     {
       "original": "I'm Only Me When I'm With You",
@@ -228,6 +248,10 @@
       "conv": "zh-cn:坠入爱河;zh-tw:墜入情網"
     },
     {
+      "original": "Karma",
+      "conv": "zh-cn:因果报应;zh-tw:業力"
+    },
+    {
       "original": "King of My Heart",
       "conv": "zh-cn:心的主人;zh-tw:心的主宰"
     },
@@ -242,6 +266,10 @@
     {
       "original": "Last Kiss",
       "conv": "zh-cn:最后的吻; zh-tw:最後一吻"
+    },
+    {
+      "original": "Lavender Haze",
+      "conv": "zh-cn:薰衣草迷雾; zh-tw:薰衣草薄霧"
     },
     {
       "original": "Long Live",
@@ -268,12 +296,24 @@
       "conv": "zh-cn:玛乔丽;zh-tw:瑪裘瑞"
     },
     {
+      "original": "Maroon",
+      "conv": "zh-cn:褐红色;zh-tw:栗紅"
+    },
+    {
       "original": "Mary's Song (Oh My My My)",
       "conv": "zh-cn:玛丽之歌（哦，天啊）;zh-tw:瑪麗之歌（我的老天）"
     },
     {
+      "original": "Mastermind",
+      "conv": "zh-cn:幕后主使;zh-tw:大計謀家"
+    },
+    {
       "original": "Mean",
       "conv": "zh-cn:卑鄙;zh-tw:太刻薄"
+    },
+    {
+      "original": "Midnight Rain",
+      "conv": "zh-cn:午夜雨;zh-tw:午夜的雨"
     },
     {
       "original": "Mirrorball",
@@ -320,12 +360,12 @@
       "conv": "zh-cn:善良的心; zh-tw:完美心腸;"
     },
     {
-      "original": "Pink",
-      "conv": "zh-cn:粉红佳人; zh-tw:紅粉佳人;"
+      "original": "Question...?",
+      "conv": "zh-cn:问题…？;zh-tw:疑問…?"
     },
     {
-      "original": "...Ready for it",
-      "conv": "zh-cn:准备好了吗？; zh-tw:準備好了嗎 "
+      "original": "...Ready for It?",
+      "conv": "zh-cn:准备好了吗？;zh-tw:準備好了嗎"
     },
     {
       "original": "Red",
@@ -344,6 +384,10 @@
       "conv": "zh-cn:本应拒绝;zh-tw:早該拒絕"
     },
     {
+      "original": "Snow on the Beach",
+      "conv": "zh-cn:下雪的海灘;zh-tw:下雪的海灘"
+    },
+    {
       "original": "So It Goes...",
       "conv": "zh-cn:就这样吧;zh-tw:自然而然"
     },
@@ -360,16 +404,24 @@
       "conv": "zh-cn:超级巨星;zh-tw:大明星"
     },
     {
+      "original": "Sweet Nothing",
+      "conv": "zh-cn:绵绵情话;zh-tw:甜蜜情話"
+    },
+    {
       "original": "Taylor's Version",
-      "conv": "zh-cn:重制版; zh-tw:泰勒絲全新版; zh-hk:重製版"
+      "conv": "zh-cn:重制版;zh-tw:泰勒絲全新版; zh-hk:重製版"
     },
     {
       "original": "Tell Me Why",
-      "conv": "zh-cn:告诉我真相; zh-tw:告訴我 為什麼"
+      "conv": "zh-cn:告诉我真相;zh-tw:告訴我 為什麼"
+    },
+    {
+      "original": "The Tortured Poets Department",
+      "conv": "zh-cn:苦难诗社;zh-tw:折磨詩人俱樂部"
     },
     {
       "original": "This Is Me Trying",
-      "conv": "zh-cn:我努力了; zh-tw:我努力嘗試"
+      "conv": "zh-cn:我努力了;zh-tw:我努力嘗試"
     },
     {
       "original": "This Is Why We Can't Have Nice Things",
@@ -377,19 +429,19 @@
     },
     {
       "original": "Tied Together With A Smile",
-      "conv": "zh-cn:面带微笑; zh-tw:用一個微笑做自己"
+      "conv": "zh-cn:面带微笑;zh-tw:用一個微笑做自己"
     },
     {
       "original": "'Tis the Damn Season",
-      "conv": "zh-cn:这糟糕的季节; zh-tw:該死的季節"
+      "conv": "zh-cn:这糟糕的季节;zh-tw:該死的季節"
     },
     {
       "original": "Tim McGraw",
-      "conv": "zh-cn:蒂姆·麦格劳; zh-tw:提姆·麥格羅"
+      "conv": "zh-cn:蒂姆·麦格劳;zh-tw:提姆·麥格羅"
     },
     {
       "original": "Tolerate It",
-      "conv": "zh-cn:容忍; zh-tw:百般容忍"
+      "conv": "zh-cn:容忍;zh-tw:百般容忍"
     },
     {
       "original": "Untouchable",
@@ -397,35 +449,39 @@
     },
     {
       "original": "The Very First Night",
-      "conv": "zh-cn:第一个夜晚; zh-tw:那一夜"
+      "conv": "zh-cn:第一个夜晚;zh-tw:那一夜"
+    },
+    {
+      "original": "Vigilante Shit",
+      "conv": "zh-cn:治安琐事;zh-tw:私刑正義"
     },
     {
       "original": "Voice Memo",
-      "conv": "zh-cn:语音备忘录; zh-tw:創作語音備忘錄;"
+      "conv": "zh-cn:语音备忘录;zh-tw:創作語音備忘錄"
     },
     {
       "original": "We Are Never Ever Getting Back Together",
-      "conv": "zh-cn:我们再也回不去了; zh-tw:絕對絕對分定了 "
+      "conv": "zh-cn:我们再也回不去了;zh-tw:絕對絕對分定了"
     },
     {
       "original": "Welcome to New York",
-      "conv": "zh-cn:欢迎来纽约; zh-tw:歡迎光臨紐約"
+      "conv": "zh-cn:欢迎来纽约;zh-tw:歡迎光臨紐約"
     },
     {
       "original": "White Horse",
-      "conv": "zh-cn:白马; zh-tw:白馬王子 "
+      "conv": "zh-cn:白马;zh-tw:白馬王子 "
     },
     {
       "original": "Wildest Dreams",
-      "conv": "zh-cn:狂野的梦; zh-tw:狂野之夢 "
+      "conv": "zh-cn:狂野的梦;zh-tw:狂野之夢 "
     },
     {
       "original": "Forever Winter",
-      "conv": "zh-cn:永远的冬天; zh-tw:永恆冬日"
+      "conv": "zh-cn:永远的冬天;zh-tw:永恆冬日"
     },
     {
       "original": "Wonderland",
-      "conv": "zh-cn:仙境; zh-tw:樂園"
+      "conv": "zh-cn:仙境;zh-tw:樂園"
     },
     {
       "original": "You Belong With Me",

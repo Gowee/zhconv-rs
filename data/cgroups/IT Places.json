@@ -1,0 +1,123 @@
+{
+  "name": "IT Places",
+  "description": "-{zh-cn:意大利;zh-hk:意大利;zh-tw:義大利;}-地名",
+  "path": "Module:CGroup/IT Places",
+  "rules": [
+    {
+      "original": "Friuli",
+      "conv": "zh-cn:弗留利; zh-tw:佛里烏利;"
+    },
+    {
+      "original": "Lazio",
+      "conv": "zh-cn:拉齐奥;zh-hk:拉素;zh-tw:拉吉歐;"
+    },
+    {
+      "original": "Lombardia",
+      "conv": "zh-cn:伦巴第; zh-tw:倫巴底;"
+    },
+    {
+      "original": "Marche",
+      "conv": "zh-hans:马尔凯;zh-hant:馬爾凱;zh-tw:馬凱;"
+    },
+    {
+      "original": "Toscana",
+      "conv": "zh-cn:托斯卡纳;zh-tw:托斯卡尼;"
+    },
+    {
+      "original": "Trentino",
+      "conv": "zh-hans:特伦蒂诺;zh-hk:特倫蒂諾;zh-tw:特倫提諾;"
+    },
+    {
+      "original": "Umbria",
+      "conv": "zh-cn:翁布里亚; zh-tw:溫布利亞; zh-hant:翁布里亞;"
+    },
+    {
+      "original": "Bolzano",
+      "conv": "zh-hans:博尔扎诺; zh-hk:博爾扎諾; zh-tw:波爾察諾;"
+    },
+    {
+      "original": "Chieti",
+      "conv": "zh-hant:基耶蒂; zh-hans:基耶蒂; zh-tw:基替;"
+    },
+    {
+      "original": "Mantua",
+      "conv": "zh-cn:曼托瓦; zh-tw:曼托瓦; zh-hk:曼圖亞;"
+    },
+    {
+      "original": "Messina",
+      "conv": "zh-cn:墨西拿; zh-tw:美西納;"
+    },
+    {
+      "original": "Salerno",
+      "conv": "zh-hans:萨莱诺; zh-hant:薩雷諾;"
+    },
+    {
+      "original": "Sondrio",
+      "conv": "zh-hans:松德里奥;zh-hk:桑治奧;zh-tw:松德里奧;"
+    },
+    {
+      "original": "(Süd)tirol",
+      "conv": "zh-hans:蒂罗尔; zh-hk:蒂羅爾; zh-tw:提洛;"
+    },
+    {
+      "original": "Bologna",
+      "conv": "zh-hans:博洛尼亚;zh-tw:波隆那;zh-hk:博洛尼亞;"
+    },
+    {
+      "original": "Firenze",
+      "conv": "zh-hans:佛罗伦萨; zh-tw:佛羅倫斯; zh-hk:佛羅倫斯;"
+    },
+    {
+      "original": "Frosinone",
+      "conv": "zh-hans:弗罗西诺内; zh-hant:佛羅西羅內;"
+    },
+    {
+      "original": "Napoli",
+      "conv": "zh-cn:那不勒斯; zh-tw:拿坡里; zh-hk:拿坡里; zh-my:拿波利;"
+    },
+    {
+      "original": "Palermo",
+      "conv": "zh-cn:巴勒莫;zh-tw:巴勒摩;zh-hk:帕勒莫;"
+    },
+    {
+      "original": "Siena",
+      "conv": "zh-hant:錫耶納;zh-cn:锡耶纳;zh-tw:西恩納;"
+    },
+    {
+      "original": "Ravello",
+      "conv": "zh-hans:拉韦洛; zh-hant:拉維洛;"
+    },
+    {
+      "original": "Sorrento",
+      "conv": "zh-hans:索伦托;zh-hant:蘇連多;"
+    },
+    {
+      "original": "Torino",
+      "conv": "zh-cn:都灵; zh-tw:杜林; zh-hk:都靈;"
+    },
+    {
+      "original": "Amalfitana",
+      "conv": "zh-hans:阿马尔菲; zh-hant:阿瑪菲;"
+    },
+    {
+      "original": "Capri",
+      "conv": "zh-hans:卡普里; zh-hant:卡布里;"
+    },
+    {
+      "original": "Dolomiti",
+      "conv": "zh-hans:多洛米蒂;zh-tw:多羅米提;"
+    },
+    {
+      "original": "Monte Cristo",
+      "conv": "zh-cn:基督山; zh-hant:基度山;"
+    },
+    {
+      "original": "Sardegna",
+      "conv": "zh-hans:撒丁; zh-hant:薩丁尼亞;"
+    },
+    {
+      "original": "Gothic",
+      "conv": "zh-hans:哥特; zh-hant:哥德;"
+    }
+  ]
+}

@@ -1,183 +1,419 @@
 {
   "name": "Doraemon",
-  "description": "哆啦A夢",
-  "path": "Template:CGroup/Doraemon",
+  "description": "多啦A夢",
+  "path": "Module:CGroup/Doraemon",
   "rules": [
     {
       "original": "ドラえもん",
-      "conv": "zh-hans:哆啦A梦;zh-hant:多啦A夢;zh-hk:多啦A夢;zh-tw:哆啦A夢;"
+      "conv": "zh-hant:多啦A夢;zh-hans:哆啦A梦;zh-hk:多啦A夢;zh-tw:哆啦A夢;zh-cn:哆啦A梦"
+    },
+    {
+      "original": "ドラミ",
+      "conv": "zh-hant:多啦美;zh-hans:哆啦美;zh-hk:多啦美;zh-tw:哆啦美;zh-cn:哆啦美"
+    },
+    {
+      "original": "ミニドラ",
+      "conv": "zh-hant:迷你多啦;zh-hans:迷你哆啦;zh-hk:迷你多啦;zh-tw:迷你哆啦;zh-cn:迷你哆啦"
     },
     {
       "original": "ドラ",
-      "conv": "zh-hans:哆啦;zh-hant:多啦;zh-hk:多啦;zh-tw:哆啦;"
+      "conv": "zh-hant:多啦;zh-hans:哆啦;zh-hk:多啦;zh-tw:哆啦;zh-cn:哆啦"
     },
     {
       "original": "セワシ",
-      "conv": "zh-hans:世修;zh-hant:小雄;zh-hk:小雄;zh-tw:世修;"
-    },
-    {
-      "original": "野比のび助",
-      "conv": "zh-hans:野比大助;zh-hant:野比大助;zh-hk:野比大助;zh-tw:野比伸助;"
+      "conv": "zh-hant:小雄;zh-hans:世修;zh-hk:小雄;zh-tw:世修;zh-cn:世修"
     },
     {
       "original": "のび助",
-      "conv": "zh-hans:大助;zh-hant:大助;zh-hk:大助;zh-tw:伸助;"
+      "conv": "zh-hant:大助;zh-hans:伸助;zh-hk:大助;zh-tw:伸助;zh-cn:伸助"
     },
     {
       "original": "ジャイ子",
-      "conv": "zh-hans:胖妹;zh-hant:胖妹;zh-hk:胖妹;zh-tw:小珠;"
+      "conv": "zh-hant:胖妹;zh-hans:胖妹;zh-hk:胖妹;zh-tw:小珠;zh-cn:胖妹"
+    },
+    {
+      "original": "タイムパトロール",
+      "conv": "zh-hant:時光巡邏隊;zh-hans:时空巡逻队;zh-hk:時光巡邏隊;zh-tw:時光巡邏隊;zh-cn:时空巡逻队"
+    },
+    {
+      "original": "ペコ",
+      "conv": "zh-hant:柏高;zh-hans:贝可;zh-hk:柏高;zh-tw:扁扁;zh-cn:贝可"
+    },
+    {
+      "original": "ドラえもんズ",
+      "conv": "zh-hant:多啦A夢族;zh-hans:哆啦A梦七小子;zh-hk:多啦A夢族;zh-tw:哆啦A夢族;zh-cn:哆啦A梦七小子"
+    },
+    {
+      "original": "ドラ・ザ・キッド",
+      "conv": "zh-hant:多啦小子;zh-hans:哆啦小子;zh-hk:多啦小子;zh-tw:哆啦小子;zh-cn:哆啦小子"
+    },
+    {
+      "original": "王ドラ",
+      "conv": "zh-hant:王多啦;zh-hans:王哆啦;zh-hk:王多啦;zh-tw:王哆啦;zh-cn:王哆啦"
+    },
+    {
+      "original": "ドラニコフ",
+      "conv": "zh-hant:多啦尼考夫;zh-hans:哆啦尼可夫;zh-hk:多啦尼考夫;zh-tw:哆啦尼可夫;zh-cn:哆啦尼可夫"
+    },
+    {
+      "original": "ニコフ",
+      "conv": "zh-hant:尼考夫;zh-hans:尼可夫;zh-hk:尼考夫;zh-tw:尼可夫;zh-cn:尼可夫"
+    },
+    {
+      "original": "エル・マタドーラ",
+      "conv": "zh-hant:艾・馬達多啦;zh-hans:耶鲁马他哆啦;zh-hk:艾・馬達多啦;zh-tw:耶魯馬他哆啦;zh-cn:耶鲁马他哆啦"
+    },
+    {
+      "original": "エル・マタ",
+      "conv": "zh-hant:艾・馬達;zh-hans:耶鲁马他;zh-hk:艾・馬達;zh-tw:耶魯馬他;zh-cn:耶鲁马他"
+    },
+    {
+      "original": "マタドーラ",
+      "conv": "zh-hant:馬達多啦;zh-hans:马他哆啦;zh-hk:馬達多啦;zh-tw:馬他哆啦;zh-cn:马他哆啦"
+    },
+    {
+      "original": "ドラメッドIII世",
+      "conv": "zh-hant:多啦默德三世;zh-hans:哆啦梅度三世;zh-hk:多啦默德三世;zh-tw:哆啦梅度三世;zh-cn:哆啦梅度三世"
+    },
+    {
+      "original": "ドラメッド",
+      "conv": "zh-hant:多啦默德;zh-hans:哆啦梅度;zh-hk:多啦默德;zh-tw:哆啦梅度;zh-cn:哆啦梅度"
+    },
+    {
+      "original": "メッド",
+      "conv": "zh-hant:默德;zh-hans:梅度;zh-hk:默德;zh-tw:梅度;zh-cn:梅度"
+    },
+    {
+      "original": "ドラリーニョ",
+      "conv": "zh-hant:多啦尼奧;zh-hans:哆啦利钮;zh-hk:多啦尼奧;zh-tw:哆啦利鈕;zh-cn:哆啦利钮"
+    },
+    {
+      "original": "リーニョ",
+      "conv": "zh-hant:尼奧;zh-hans:利钮;zh-hk:尼奧;zh-tw:利鈕;zh-cn:利钮"
+    },
+    {
+      "original": "ドラパン",
+      "conv": "zh-hant:多啦賓;zh-hans:哆啦邦;zh-hk:多啦賓;zh-tw:哆啦邦;zh-cn:哆啦邦"
+    },
+    {
+      "original": "ドラえもんひみつ道具",
+      "conv": "zh-hant:多啦A夢神奇法寶;zh-hans:哆啦A梦秘密道具;zh-hk:多啦A夢神奇法寶;zh-tw:哆啦A夢祕密道具;zh-cn:哆啦A梦秘密道具"
+    },
+    {
+      "original": "ドラえもん道具",
+      "conv": "zh-hant:多啦A夢法寶;zh-hans:哆啦A梦道具;zh-hk:多啦A夢法寶;zh-tw:哆啦A夢道具;zh-cn:哆啦A梦道具"
     },
     {
       "original": "ひみつ道具",
-      "conv": "zh-hans:道具;zh-hk:法寶;zh-tw:道具;"
+      "conv": "zh-hant:神奇法寶;zh-hans:秘密道具;zh-hk:神奇法寶;zh-tw:祕密道具;zh-cn:秘密道具"
+    },
+    {
+      "original": "道具",
+      "conv": "zh-hant:法寶;zh-hans:道具;zh-hk:法寶;zh-tw:道具;zh-cn:道具"
+    },
+    {
+      "original": "四次元ポケット",
+      "conv": "zh-hant:百寶袋;zh-hans:四次元口袋;zh-hk:百寶袋;zh-tw:四次元百寶袋;zh-cn:四次元口袋"
     },
     {
       "original": "どこでもドア",
-      "conv": "zh-hans:任意门;zh-hk:隨意門;zh-tw:任意門;"
+      "conv": "zh-hant:隨意門;zh-hans:任意门;zh-hk:隨意門;zh-tw:任意門;zh-cn:任意门"
+    },
+    {
+      "original": "タイムふろしき",
+      "conv": "zh-hant:時間布;zh-hans:时间包袱皮;zh-hk:時間布;zh-tw:時光布;zh-cn:时间包袱皮"
     },
     {
       "original": "スモールライト",
-      "conv": "zh-hans:缩小灯;zh-hk:縮小電筒;zh-tw:縮小燈;"
+      "conv": "zh-hant:縮小電筒;zh-hans:缩小灯;zh-hk:縮小電筒;zh-tw:縮小燈;zh-cn:缩小灯"
     },
     {
       "original": "ビッグライト",
-      "conv": "zh-hans:放大灯;zh-hk:放大電筒;zh-tw:放大燈;"
+      "conv": "zh-hant:放大電筒;zh-hans:放大灯;zh-hk:放大電筒;zh-tw:放大燈;zh-cn:放大灯"
+    },
+    {
+      "original": "通りぬけフープ",
+      "conv": "zh-hant:穿牆圈;zh-hans:通行圈;zh-hk:穿牆圈;zh-tw:穿透環;zh-cn:通行圈"
+    },
+    {
+      "original": "翻訳こんにゃく",
+      "conv": "zh-hant:翻譯糕;zh-hans:翻译魔芋片;zh-hk:翻譯糕;zh-tw:翻譯蒟蒻;zh-cn:翻译魔芋片"
     },
     {
       "original": "名刀「電光丸」",
-      "conv": "zh-hans:名刀“电光丸”;zh-tw:名刀「電光丸」;zh-hk: 神劍「電光丸」;"
+      "conv": "zh-hant:神劍「電光丸」;zh-hans:宝剑「电光号」;zh-hk:神劍「電光丸」;zh-tw:名刀「電光丸」;zh-cn:宝剑「电光号」"
     },
     {
       "original": "名刀電光丸",
-      "conv": "zh-hans:名刀电光丸;zh-tw:名刀電光丸;zh-hk: 神劍電光丸;"
+      "conv": "zh-hant:神劍電光丸;zh-hans:宝剑电光号;zh-hk:神劍電光丸;zh-tw:名刀電光丸;zh-cn:宝剑电光号"
     },
     {
-      "original": "どこでもドア",
-      "conv": "zh-hans:异说俱乐部会员徽章;zh-hk:傳說俱樂部會員襟章;zh-tw:異說俱樂部徽章;"
-    },
-    {
-      "original": "テストに一夜漬けダル",
-      "conv": "zh-hans:临时抱佛脚;zh-hk:臨急抱佛腳;zh-tw:臨時抱佛腳;"
+      "original": "異説クラブメンバーズバッジ",
+      "conv": "zh-hant:傳說俱樂部會員襟章;zh-hans:异说俱乐部成员徽章;zh-hk:傳說俱樂部會員襟章;zh-tw:異說俱樂部徽章;zh-cn:异说俱乐部成员徽章"
     },
     {
       "original": "どら焼き",
-      "conv": "zh:铜锣烧;zh-hans:铜锣烧;zh-hk:豆沙包;zh-tw:銅鑼燒;"
+      "conv": "zh-hant:豆沙包;zh-hans:铜锣烧;zh-hk:豆沙包;zh-tw:銅鑼燒;zh-cn:铜锣烧"
     },
     {
-      "original": "どら焼き",
-      "conv": "zh:铜锣烧饼;zh-hans:铜锣烧饼;zh-hk:豆沙包;zh-tw:銅鑼燒;"
+      "original": "コロコロコミック",
+      "conv": "zh-hant:快樂龍;zh-hans:龙漫CORO-CORO;zh-hk:快樂龍;zh-tw:快樂快樂月刊;zh-cn:龙漫CORO-CORO"
     },
     {
-      "original": null,
-      "conv": "zh-hans:欺凌;zh-hk:欺凌;zh-tw:霸凌;"
+      "original": "ゴロゴロコミック",
+      "conv": "zh-hant:快樂蟲漫畫;zh-hk:快樂蟲漫畫"
     },
     {
-      "original": null,
-      "conv": "龙漫CORO-CORO; zh-hk:快樂龍; zh-tw:快樂快樂月刊;"
+      "original": "ネコ型ロボット",
+      "conv": "zh-hant:機械貓;zh-hans:机器猫;zh-hk:機械貓;zh-tw:機器貓;zh-hans:机器猫"
     },
     {
-      "original": null,
-      "conv": "龙漫GORO-GORO; zh-hk:《快樂蟲》漫畫;"
+      "original": "ロボット",
+      "conv": "zh-hant:機械人;zh-hans:机器人;zh-hk:機械人;zh-tw:機器人;zh-hans:机器人"
     },
     {
       "original": "おぼっちゃマンボ",
-      "conv": "zh-hans:少爷曼波;zh-tw:少爺曼波;zh-hk:曼波少爺;"
+      "conv": "zh-hant:曼波少爺;zh-hk:曼波少爺;zh-tw:少爺曼波"
     },
     {
-      "original": null,
-      "conv": "zh-hans:机器猫;zh-tw:機器貓;zh-hk:機械貓;"
+      "original": "いじめ",
+      "conv": "zh-hant:欺凌;zh-hans:欺凌;zh-hk:欺凌;zh-tw:霸凌;zh-cn:欺凌"
     },
     {
-      "original": null,
-      "conv": "zh-hans:机器人;zh-tw:機器人;zh-hk:機械人;"
+      "original": "焼き芋",
+      "conv": "zh-hant:煨番薯;zh-hans:烤番薯;zh-hk:煨番薯;zh-tw:烤番薯;zh-cn:烤番薯"
     },
     {
-      "original": null,
-      "conv": "zh-cn:烤番薯;zh-hk:煨番薯;zh-tw:烤番薯;"
+      "original": "ドラえもん プラス",
+      "conv": "zh-hant:多啦A夢PLUS;zh-hans:哆啦A梦未收录作品;zh-hk:多啦A夢PLUS;zh-tw:哆啦A夢PLUS;zh-cn:哆啦A梦未收录作品"
     },
     {
-      "original": "ドラえもん のび太とブリキの迷宮",
-      "conv": "zh-cn:大雄与白金迷宫; zh-hant:大雄與白金迷宮; zh-tw:大雄與迷宮之旅; zh-hk:大雄與迷宮之旅"
+      "original": "プラス",
+      "conv": "zh-hant:PLUS;zh-hans:未收录作品;zh-hk:PLUS;zh-tw:PLUS;zh-cn:未收录作品"
     },
     {
-      "original": "ドラえもん のび太のねじ巻き都市冒険記",
-      "conv": "zh:大雄的发条都市冒险记; zh-cn:大雄的钥匙城历险记; zh-tw:大雄的發條都市冒險記; zh-hk:大雄的上鏈都市冒險記"
+      "original": "プラス",
+      "conv": "zh-hant:Plus;zh-hans:未收录作品;zh-hk:Plus;zh-tw:Plus;zh-cn:未收录作品"
     },
     {
-      "original": "ドラえもん のび太とアニマル惑星",
-      "conv": "zh-hans:大雄与动物行星; zh-hant:大雄與惑星之迷; zh-tw:大雄與惑星之迷"
+      "original": "大長編ドラえもん",
+      "conv": "zh-hant:多啦A夢大長篇;zh-hans:超长篇哆啦A梦;zh-hk:多啦A夢大長篇;zh-tw:哆啦A夢大長篇;zh-cn:超长篇哆啦A梦"
     },
     {
-      "original": "ドラえもん のび太と雲の王国",
-      "conv": "zh-cn:大雄与云之王国; zh-tw:大雄與雲之王國; zh-hk:大雄與雲之國;"
+      "original": "映画ドラえもん",
+      "conv": "zh-hant:電影多啦A夢;zh-hans:电影哆啦A梦;zh-hk:電影多啦A夢;zh-tw:電影哆啦A夢;zh-cn:电影哆啦A梦"
     },
     {
-      "original": "ドラえもん のび太とふしぎ風使い",
-      "conv": "zh-hans:大雄与不可思议的风使者;zh-hant:大雄與風之使者;zh-tw:大雄與不可思議的風使者;"
+      "original": "ドラえもん映画",
+      "conv": "zh-hant:多啦A夢電影;zh-hans:哆啦A梦电影;zh-hk:多啦A夢電影;zh-tw:哆啦A夢電影;zh-cn:哆啦A梦电影"
     },
     {
-      "original": "ドラえもん のび太の恐竜2006",
-      "conv": "zh-hans:大雄的恐龙（2006年版）;zh-hant:新·大雄的恐龍;"
+      "original": "竜の騎士",
+      "conv": "zh-hant:龍騎士;zh-hans:恐龙骑士;zh-hk:龍騎士;zh-tw:恐龍騎士;zh-cn与恐龙骑士"
+    },
+    {
+      "original": "のび太と竜の騎士",
+      "conv": "zh-hant:大雄與龍騎士;zh-hans:大雄与恐龙骑士;zh-hk:大雄與龍騎士;zh-tw:大雄與恐龍騎士;zh-cn:大雄与恐龙骑士"
+    },
+    {
+      "original": "アニマル惑星",
+      "conv": "zh-hant:惑星之謎;zh-hans:动物行星;zh-hk:惑星之謎;zh-tw:惑星之謎;zh-cn:动物行星"
+    },
+    {
+      "original": "雲の王国",
+      "conv": "zh-hant:雲之國;zh-hans:云之王国;zh-hk:雲之國;zh-tw:雲之王國;zh-cn:云之王国"
+    },
+    {
+      "original": "ブリキの迷宮",
+      "conv": "zh-hant:迷宮之旅;zh-hans:白金迷宫;zh-hk:迷宮之旅;zh-tw:白金迷宮;zh-cn:白金迷宫"
+    },
+    {
+      "original": "のび太とブリキの迷宮",
+      "conv": "zh-hant:大雄與迷宮之旅;zh-hans:大雄与白金迷宫;zh-hk:大雄與迷宮之旅;zh-tw:大雄與白金迷宮;zh-cn:大雄与白金迷宫"
+    },
+    {
+      "original": "銀河超特急",
+      "conv": "zh-hant:銀河高速列車;zh-hans:银河超特快列车;zh-hk:銀河高速列車;zh-tw:銀河超特快列車;zh-cn:银河超特快列车"
+    },
+    {
+      "original": "のび太と銀河超特急",
+      "conv": "zh-hant:大雄與銀河高速列車;zh-hans:大雄与银河超特快列车;zh-hk:大雄與銀河高速列車;zh-tw:大雄與銀河超特快列車;zh-cn:大雄与银河超特快列车"
+    },
+    {
+      "original": "ねじ巻き都市冒険記",
+      "conv": "zh-hant:上鏈都市歷險記;zh-hans:钥匙城历险记;zh-hk:上鏈都市歷險記;zh-tw:發條城歷險記;zh-cn:钥匙城历险记"
+    },
+    {
+      "original": "のび太のねじ巻き都市冒険記",
+      "conv": "zh-hant:大雄的上鏈都市歷險記;zh-hans:大雄的钥匙城历险记;zh-hk:大雄的上鏈都市歷險記;zh-tw:大雄的發條城歷險記;zh-cn:大雄的钥匙城历险记"
+    },
+    {
+      "original": "〜7人の魔法使い〜",
+      "conv": "zh-hant:～7人之魔法師～;zh-hk:～7人之魔法師～;zh-tw:～7人魔法使～"
+    },
+    {
+      "original": "新魔界大冒険 〜7人の魔法使い〜",
+      "conv": "zh-hant:新魔界大冒險～7人之魔法師～;zh-hans:奇幻大冒险;zh-hk:新魔界大冒險～7人之魔法師～;zh-tw:新魔界大冒險～7人魔法使～"
+    },
+    {
+      "original": "のび太の新魔界大冒険 〜7人の魔法使い〜",
+      "conv": "zh-hant:大雄的新魔界大冒險～7人之魔法師～;zh-hans:大雄的奇幻大冒险;zh-hk:大雄的新魔界大冒險～7人之魔法師～;zh-tw:大雄的新魔界大冒險～7人魔法使～;zh-cn:大雄的奇幻大冒险"
     },
     {
       "original": "ドラえもん のび太の新魔界大冒険 〜7人の魔法使い〜",
-      "conv": "zh-cn:大雄的奇幻大冒险;zh-hk:大雄的新魔界大冒險~7人の魔法師~;zh-tw:大雄的新魔界大冒險~7人魔法使~;"
+      "conv": "zh-hant:多啦A夢：大雄的新魔界大冒險～7人之魔法師～;zh-hans:哆啦A梦：大雄的奇幻大冒险;zh-hk:多啦A夢：大雄的新魔界大冒險～7人之魔法師～;zh-tw:哆啦A夢：大雄的新魔界大冒險～7人魔法使～;zh-cn:哆啦A梦：大雄的奇幻大冒险"
     },
     {
-      "original": "ドラえもん のび太と緑の巨人伝",
-      "conv": "zh-hans:大雄与绿巨人传; zh-hant:大雄與綠之巨人傳;"
+      "original": "映画ドラえもん のび太の新魔界大冒険 〜7人の魔法使い〜",
+      "conv": "zh-hant:電影多啦A夢：大雄的新魔界大冒險～7人之魔法使～;zh-hans:电影哆啦A梦：大雄的奇幻大冒险;zh-hk:電影多啦A夢：大雄的新魔界大冒險～7人之魔法使～;zh-tw:電影哆啦A夢：大雄的新魔界大冒險～7人之魔法師～生;zh-cn:电影哆啦A梦：大雄的奇幻大冒险"
     },
     {
-      "original": "ドラえもん のび太と奇跡の島 〜アニマル アドベンチャー〜",
-      "conv": "zh-hans:;zh-tw:哆啦A夢：大雄與奇跡之島;zh-hk:大雄與奇跡之島~動物歷險記~;"
+      "original": "のび太の宇宙英雄記",
+      "conv": "zh-hant:大雄之宇宙英雄記;zh-hans:大雄之宇宙英雄记;zh-hk:大雄之宇宙英雄記;zh-tw:大雄之宇宙英雄記"
     },
     {
-      "original": "新・のび太の大魔境 ～ペコと5人の探検隊～",
-      "conv": "zh-cn:新·大雄的大魔境~贝可与5人探险队~; zh-tw:新·大雄的大魔境~扁扁與5人之探險隊~; zh-hk:新·大雄的大魔境~柏高與5人之探險隊~"
-    },
-    {
-      "original": "STAND BY ME ドラえもん",
-      "conv": "zh-cn:哆啦A梦：伴我同行; zh-tw:STAND BY ME 哆啦A夢; zh-hk:STAND BY ME：多啦A夢 3D"
+      "original": "映画ドラえもん のび太の宇宙英雄記",
+      "conv": "zh-hant:電影多啦A夢：大雄之宇宙英雄記;zh-hans:电影哆啦A梦：大雄之宇宙英雄记;zh-hk:電影多啦A夢：大雄之宇宙英雄記;zh-tw:電影哆啦A夢：大雄之宇宙英雄記"
     },
     {
       "original": "新・のび太の日本誕生",
-      "conv": "zh-cn:新·大雄的日本诞生; zh-tw:新·大雄的日本誕生; zh-hk:新·大雄之日本誕生"
+      "conv": "zh-hant:新‧大雄之日本誕生;zh-hans:新·大雄的日本诞生;zh-hk:新‧大雄之日本誕生;zh-tw:新·大雄的日本誕生;zh-cn:新·大雄的日本诞生"
+    },
+    {
+      "original": "映画ドラえもん 新・のび太の日本誕生",
+      "conv": "zh-hant:電影多啦A夢：新‧大雄之日本誕生;zh-hans:电影哆啦A梦：新·大雄的日本诞生;zh-hk:電影多啦A夢：新‧大雄之日本誕生;zh-tw:電影哆啦A夢：新·大雄的日本誕生;zh-cn:电影哆啦A梦：新·大雄的日本诞生"
+    },
+    {
+      "original": "南極カチコチ大冒険",
+      "conv": "zh-hant:南極凍冰冰大冒險;zh-hans:南极冰冰凉大冒险;zh-hk:南極凍冰冰大冒險;zh-tw:南極冰天雪地大冒險;zh-cn:南极冰冰凉大冒险"
+    },
+    {
+      "original": "のび太の南極カチコチ大冒険",
+      "conv": "zh-hant:大雄之南極凍冰冰大冒險;zh-hans:大雄的南极冰冰凉大冒险;zh-hk:大雄之南極凍冰冰大冒險;zh-tw:大雄的南極冰天雪地大冒險;zh-cn:大雄的南极冰冰凉大冒险"
     },
     {
       "original": "映画ドラえもん のび太の南極カチコチ大冒険",
-      "conv": "zh-cn:大雄的南极冰冰凉大冒险; zh-tw:大雄的南極冰天雪地大冒險; zh-hk:大雄之南極凍冰冰大冒險"
+      "conv": "zh-hant:電影多啦A夢：大雄之南極凍冰冰大冒險;zh-hans:电影哆啦A梦：大雄的南极冰冰凉大冒险;zh-hk:電影多啦A夢：大雄之南極凍冰冰大冒險;zh-tw:電影哆啦A夢：大雄的南極冰天雪地大冒險;zh-cn:电影哆啦A梦：大雄的南极冰冰凉大冒险"
+    },
+    {
+      "original": "のび太の宝島",
+      "conv": "zh-hant:大雄之金銀島;zh-hans:大雄的金银岛;zh-hk:大雄之金銀島;zh-tw:大雄的金銀島;zh-cn:大雄的金银岛"
+    },
+    {
+      "original": "映画ドラえもん のび太の宝島",
+      "conv": "zh-hant:電影多啦A夢：大雄之金銀島;zh-hans:电影哆啦A梦：大雄的金银岛;zh-hk:電影多啦A夢：大雄之金銀島;zh-tw:電影哆啦A夢：大雄的金銀島;zh-cn:电影哆啦A梦：大雄的金银岛"
+    },
+    {
+      "original": "月面探査記",
+      "conv": "zh-hant:月球探測記;zh-hans:月球探险记;zh-hk:月球探測記;zh-tw:月球探測記;zh-cn:月球探险记"
+    },
+    {
+      "original": "のび太の月面探査記",
+      "conv": "zh-hant:大雄之月球探測記;zh-hans:大雄的月球探险记;zh-hk:大雄之月球探測記;zh-tw:大雄的月球探測記;zh-cn:大雄的月球探险记"
+    },
+    {
+      "original": "映画ドラえもん のび太の月面探査記",
+      "conv": "zh-hant:電影多啦A夢：大雄之月球探測記;zh-hans:电影哆啦A梦：大雄的月球探险记;zh-hk:電影多啦A夢：大雄之月球探測記;zh-tw:電影哆啦A夢：大雄的月球探測記;zh-cn:电影哆啦A梦：大雄的月球探险记"
+    },
+    {
+      "original": "のび太の新恐竜",
+      "conv": "zh-hant:大雄之新恐龍;zh-hans:大雄的新恐龙;zh-hk:大雄之新恐龍;zh-tw:大雄的新恐龍;zh-cn:大雄的新恐龙"
+    },
+    {
+      "original": "映画ドラえもん のび太の新恐竜",
+      "conv": "zh-hant:電影多啦A夢：大雄之新恐龍;zh-hans:电影哆啦A梦：大雄的新恐龙;zh-hk:電影多啦A夢：大雄之新恐龍;zh-tw:電影哆啦A夢：大雄的新恐龍;zh-cn:电影哆啦A梦：大雄的新恐龙"
+    },
+    {
+      "original": "のび太の宇宙小戦争2021",
+      "conv": "zh-hant:大雄之宇宙小戰爭2021;zh-hans:大雄的宇宙小战争2021;zh-hk:大雄之宇宙小戰爭2021;zh-tw:大雄的宇宙小戰爭2021;zh-cn:大雄的宇宙小战争2021"
+    },
+    {
+      "original": "のび太の宇宙小戦争 2021",
+      "conv": "zh-hant:大雄之宇宙小戰爭 2021;zh-hans:大雄的宇宙小战争 2021;zh-hk:大雄之宇宙小戰爭 2021;zh-tw:大雄的宇宙小戰爭 2021;zh-cn:大雄的宇宙小战争 2021"
+    },
+    {
+      "original": "ドラえもん のび太と空の理想郷",
+      "conv": "zh-hant:多啦A夢：大雄與天空的理想鄉;zh-hans:哆啦A梦：大雄与天空的理想乡;zh-hk:多啦A夢：大雄與天空的理想鄉;zh-tw:哆啦A夢：大雄與天空的理想鄉;zh-cn:哆啦A梦：大雄与天空的理想乡"
+    },
+    {
+      "original": "映画ドラえもん のび太と空の理想郷",
+      "conv": "zh-hant:電影多啦A夢：大雄與天空的理想鄉;zh-hans:电影哆啦A梦：大雄与天空的理想乡;zh-hk:電影多啦A夢：大雄與天空的理想鄉;zh-tw:電影哆啦A夢：大雄與天空的理想鄉;zh-cn:电影哆啦A梦：大雄与天空的理想乡"
+    },
+    {
+      "original": "のび太の地球交響楽",
+      "conv": "zh-hant:大雄之地球交響樂;zh-hans:大雄的地球交响乐;zh-hk:大雄之地球交響樂;zh-tw:大雄的地球交響樂;zh-cn:大雄的地球交响乐"
+    },
+    {
+      "original": "ドラえもん のび太の地球交響楽",
+      "conv": "zh-hant:多啦A夢：大雄之地球交響樂;zh-hans:哆啦A梦：大雄的地球交响乐;zh-hk:多啦A夢：大雄之地球交響樂;zh-tw:哆啦A夢：大雄的地球交響樂;zh-cn:哆啦A梦：大雄的地球交响乐"
+    },
+    {
+      "original": "映画ドラえもん のび太の地球交響楽",
+      "conv": "zh-hant:電影多啦A夢：大雄之地球交響樂;zh-hans:电影哆啦A梦：大雄的地球交响乐;zh-hk:電影多啦A夢：大雄之地球交響樂;zh-tw:電影哆啦A夢：大雄的地球交響樂;zh-cn:电影哆啦A梦：大雄的地球交响乐"
+    },
+    {
+      "original": "STAND BY ME ドラえもん",
+      "conv": "zh-hant:STAND BY ME 多啦A夢;zh-hans:哆啦A梦：伴我同行;zh-hk:STAND BY ME 多啦A夢;zh-tw:STAND BY ME 哆啦A夢;zh-cn:哆啦A梦：伴我同行"
     },
     {
       "original": "STAND BY ME ドラえもん 2",
-      "conv": "zh-cn:哆啦A梦：伴我同行2; zh-hk:STAND BY ME 多啦A夢 2; zh-tw:STAND BY ME 哆啦A夢 2;"
+      "conv": "zh-hant:STAND BY ME 多啦A夢 2;zh-hans:哆啦A梦：伴我同行2;zh-hk:STAND BY ME 多啦A夢 2;zh-tw:STAND BY ME 哆啦A夢 2;zh-cn:哆啦A梦：伴我同行2"
     },
     {
-      "original": "{{lang-ja|ザ☆ドラえもんズ",
-      "conv": "哆啦A夢七小子=>zh-tw:哆啦A夢族;多啦A夢七小子=>zh-tw:哆啦A夢族;哆啦A梦七小子=>zh-tw:哆啦A夢族;"
+      "original": "ロボット学校七不思議!?",
+      "conv": "zh-hant:機械人學校七大奇異事件!?;zh-hans:机器人学校的七大怪事;zh-hk:機械人學校七大奇異事件!?;zh-tw:機器人學校七大怪談;zh-cn:机器人学校的七大怪事"
     },
     {
-      "original": "{{lang-ja|ザ☆ドラえもんズ",
-      "conv": "哆啦A夢七小子=>zh-hk:多啦A夢族;多啦A夢七小子=>zh-hk:多啦A夢族;哆啦A梦七小子=>zh-hk:多啦A夢族;"
+      "original": "ドラミ&ドラえもんズ ロボット学校七不思議!?",
+      "conv": "zh-hant:多啦美&多啦A夢族　機械人學校七大奇異事件!?;zh-hans:哆啦A梦在未来世界　机器人学校的七大怪事;zh-hk:多啦美&多啦A夢族　機械人學校七大奇異事件!?;zh-tw:哆啦美與哆啦A夢族　機器人學校七大怪談;zh-cn:哆啦A梦在未来世界　机器人学校的七大怪事"
     },
     {
-      "original": "{{lang-ja|ザ☆ドラえもんズ",
-      "conv": "哆啦A夢族=>zh-cn:哆啦A梦七小子;多啦A夢族=>zh-cn:哆啦A梦七小子;哆啦A梦族=>zh-cn:哆啦A梦七小子;"
+      "original": "怪盗ドラパン謎の挑戦状!",
+      "conv": "zh-hant:怪盜多啦賓　神秘的挑戰書;zh-hans:谜一样的挑战书;zh-hk:怪盜多啦賓　神秘的挑戰書;zh-tw:怪盜哆啦邦謎樣的挑戰書！;zh-cn:谜一样的挑战书"
     },
     {
-      "original": "{{lang-ja|ザ☆ドラえもんズ",
-      "conv": "哆啦A夢歷險記=>zh-hk:多啦A夢族;哆啦A梦历险记=>zh-hk:多啦A夢族;"
+      "original": "ザ☆ドラえもんズ 怪盗ドラパン謎の挑戦状!",
+      "conv": "zh-hant:多啦A夢族　怪盜多啦賓　神秘的挑戰書;zh-hans:哆啦A梦在未来世界　谜一样的挑战书;zh-hk:多啦A夢族　怪盜多啦賓　神秘的挑戰書;zh-tw:哆啦A夢族　怪盜哆啦邦謎樣的挑戰書！;zh-cn:哆啦A梦在未来世界　谜一样的挑战书"
     },
     {
-      "original": "米谷良知",
-      "conv": "zh-hans:米谷良知;zh-hant:米谷良知;zh-cn:米谷良知;zh-tw:米谷良知;zh-hk:米谷良知;zh-sg:米谷良知;zh-mo:米谷良知;"
+      "original": "お菓子なオカシナナ",
+      "conv": "zh-hant:甜品娜娜王國;zh-hans:点心娜娜王国;zh-hk:甜品娜娜王國;zh-tw:點心娜娜王國;zh-cn:点心娜娜王国"
     },
     {
-      "original": "米谷 良知",
-      "conv": "zh-hans:米谷 良知;zh-hant:米谷 良知;zh-cn:米谷 良知;zh-tw:米谷 良知;zh-hk:米谷 良知;zh-sg:米谷 良知;zh-mo:米谷 良知;"
+      "original": "おかしなお菓子なオカシナナ",
+      "conv": "zh-hant:奇異的甜品娜娜王國;zh-hans:奇怪的点心娜娜王国;zh-hk:奇異的甜品娜娜王國;zh-tw:奇異的點心娜娜王國;zh-cn:奇怪的点心娜娜王国"
     },
     {
-      "original": "Jean Reno",
-      "conv": "zh-hans:让·雷诺;zh-hk:尚·連奴;zh-tw:尚·雷諾;"
+      "original": "ザ☆ドラえもんズ おかしなお菓子なオカシナナ",
+      "conv": "zh-hant:多啦A夢族 奇異的甜品娜娜王國;zh-hans:哆啦A梦在未来世界　奇怪的点心娜娜王国;zh-hk:多啦A夢族 奇異的甜品娜娜王國;zh-tw:哆啦A夢族　奇異的點心娜娜王國;zh-cn:哆啦A梦在未来世界　奇怪的点心娜娜王国"
+    },
+    {
+      "original": "ぼくドラえもん",
+      "conv": "zh-hant:我是多啦A夢;zh-hans:我是哆啦A梦;zh-hk:我是多啦A夢;zh-tw:我是哆啦A夢;zh-cn:我是哆啦A梦"
+    },
+    {
+      "original": "ドラえもんのうた",
+      "conv": "zh-hant:多啦A夢之歌;zh-hans:哆啦A梦之歌;zh-hk:多啦A夢之歌;zh-tw:哆啦A夢之歌;zh-cn:哆啦A梦之歌"
+    },
+    {
+      "original": "夢をかなえてドラえもん",
+      "conv": "zh-hant:實現夢想的多啦A夢;zh-hans:实现梦想的哆啦A梦;zh-hk:實現夢想的多啦A夢;zh-tw:實現夢想的哆啦A夢;zh-cn:实现梦想的哆啦A梦"
+    },
+    {
+      "original": "我ら ザ☆ドラえもんズ",
+      "conv": "zh-hant:我們是多啦A夢族;zh-hans:我们是哆啦A梦七小子;zh-hk:我們是多啦A夢族;zh-tw:我們是哆啦A夢族;zh-cn:我们是哆啦A梦七小子"
+    },
+    {
+      "original": "とってもだいすき ドラえもん！ドラえもん誕生100年前祭／ドラえもん誕生前100年展",
+      "conv": "zh-hant:你睇！！多啦A夢嚟啦！誕生前100年祭;zh-hans:100哆啦A梦秘密道具博览;zh-hk:你睇！！多啦A夢嚟啦！誕生前100年祭;zh-tw:哆啦A夢誕生前100年特展;zh-cn:100哆啦A梦秘密道具博览"
+    },
+    {
+      "original": "ザ☆ドラえもんズ",
+      "conv": "zh-hant:多啦A夢族;zh-hans:哆啦A梦七小子;zh-hk:多啦A夢族;zh-tw:哆啦A夢族;zh-cn:哆啦A梦七小子"
+    },
+    {
+      "original": "のび太・ジャイアン症候群",
+      "conv": "zh-hant:大雄·胖虎綜合症;zh-hans:大雄·胖虎综合征;zh-hk:大雄·胖虎綜合症;zh-tw:大雄·胖虎症候群;zh-cn:大雄·胖虎综合征"
     }
   ]
 }

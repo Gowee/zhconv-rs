@@ -1,6 +1,6 @@
 {
   "name": "Counter-Strike",
-  "description": "絕對武力",
+  "description": "[[反恐精英|-{zh-hans:反恐精英; zh-hant:絕對武力}-]]",
   "path": "Module:CGroup/Counter-Strike",
   "rules": [
     {
@@ -210,6 +210,10 @@
     {
       "original": "Zombie Tag Mode",
       "conv": "zh-hans:真假尸王模式; zh-hant:鬼迷藏模式"
+    },
+    {
+      "original": "Counter Terrorists",
+      "conv": "zh-hant:CT; zh-hans:CT"
     },
     {
       "original": "Terrorists",

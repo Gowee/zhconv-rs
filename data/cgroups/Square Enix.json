@@ -88,59 +88,59 @@
       "conv": "zh-cn:达尔大冒险; zh-hk:達爾大冒險; zh-tw:達伊的大冒險;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想; zh-hk:最終幻想; zh-tw:Final Fantasy;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh:太空戰士; zh-cn:最终幻想; zh-hk:最終幻想; zh-tw:Final Fantasy;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想1; zh-hk:最終幻想1; zh-tw:Final Fantasy 1;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想2; zh-hk:最終幻想2; zh-tw:Final Fantasy 2;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想3; zh-hk:最終幻想3; zh-tw:Final Fantasy 3;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想4; zh-hk:最終幻想4; zh-tw:Final Fantasy 4;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想5; zh-hk:最終幻想5; zh-tw:Final Fantasy 5;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想6; zh-hk:最終幻想6; zh-tw:Final Fantasy 6;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想7; zh-hk:最終幻想7; zh-tw:Final Fantasy 7;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想8; zh-hk:最終幻想8; zh-tw:Final Fantasy 8;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想9; zh-hk:最終幻想9; zh-tw:Final Fantasy 9;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想I; zh-hk:最終幻想I; zh-tw:Final Fantasy I;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想V; zh-hk:最終幻想V; zh-tw:Final Fantasy V;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:最终幻想X; zh-hk:最終幻想X; zh-tw:Final Fantasy X;"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "original": "Ur",
-      "conv": "zh-hk:烏魯村; zh-tw:烏爾村;"
+      "conv": "zh-cn:乌鲁; zh-hk:烏魯村; zh-tw:烏爾村;"
     },
     {
       "original": "Warriors of Light",
@@ -228,6 +228,10 @@
       "conv": "zh-cn:爱丽丝; zh-tw:艾莉絲;"
     },
     {
+      "original": "Cissnei",
+      "conv": "zh-cn:西斯妮; zh-tw:希絲妮;"
+    },
+    {
       "original": "Cloud",
       "conv": "zh-cn:克劳德; zh-hk:古蘭特; zh-tw:克勞德;"
     },
@@ -246,6 +250,10 @@
     {
       "original": "Sephiroth",
       "conv": "zh-cn:萨菲罗斯; zh-hk:錫菲羅斯; zh-tw:賽菲羅斯;"
+    },
+    {
+      "original": "Zack",
+      "conv": "zh-cn:扎克斯; zh-hk:札克斯; zh-tw:札克斯;"
     },
     {
       "original": "Laguna",
@@ -436,6 +444,10 @@
       "conv": "陆行鸟赛车 ～通往幻界之路～=> zh-tw:陸行鳥大賽車;"
     },
     {
+      "original": "Shiva",
+      "conv": "zh-cn:希瓦; zh-tw:濕婆;"
+    },
+    {
       "original": "Tonberry",
       "conv": "zh-cn:冬贝利; zh-tw:提燈怪;"
     },
@@ -445,7 +457,7 @@
     },
     {
       "original": "Stranger of Paradise",
-      "conv": "zh-cn:天堂的陌生人; zh-tw:樂園的異鄉人;"
+      "conv": "zh-cn:天堂的异乡人; zh-tw:樂園的異鄉人;"
     },
     {
       "original": "SaGa series",
@@ -501,11 +513,11 @@
     },
     {
       "original": "Unlimited: Saga",
-      "conv": "无限：沙加=>zh-tw:復活邪神：無限傳說; 无限：沙加=>zh-hk:復活邪神：無限傳說; 无限：沙加=>zh-mo:復活邪神：無限傳說;"
+      "conv": "zh-cn:无限：沙加; zh-tw:復活邪神：無限傳說; zh-hk:復活邪神：無限傳說; zh-mo:復活邪神：無限傳說;"
     },
     {
       "original": "Unlimited: Saga",
-      "conv": "无限沙加=>zh-tw:復活邪神：無限傳說; 无限沙加=>zh-hk:復活邪神：無限傳說; 无限沙加=>zh-mo:復活邪神：無限傳說;"
+      "conv": "zh-cn:无限沙加; zh-tw:復活邪神：無限傳說; zh-hk:復活邪神：無限傳說; zh-mo:復活邪神：無限傳說;"
     },
     {
       "original": "Star Ocean",
@@ -592,12 +604,20 @@
       "conv": "zh-hans:记忆之链; zh-hant:記憶之鍊;"
     },
     {
+      "original": "Code Age",
+      "conv": "zh-hans:代码世纪; zh-hant:代碼世紀;"
+    },
+    {
       "original": "Concerto Gate",
       "conv": "zh-cn:魔力宝贝II; zh-tw:魔力寶貝2;"
     },
     {
       "original": "Deus Ex",
       "conv": "zh-cn:杀出重围; zh-tw:駭客入侵;"
+    },
+    {
+      "original": "Ikenie to Yuki no Setsuna, The",
+      "conv": "zh-cn:祭品与雪之刹那; zh-tw:祭物與雪之剎那;"
     },
     {
       "original": "Last Remnant, The",

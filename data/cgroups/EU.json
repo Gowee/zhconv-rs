@@ -5,23 +5,39 @@
   "rules": [
     {
       "original": "European Council",
+      "conv": "歐洲聯盟高峰會=>zh-tw:歐洲聯盟高峰會; 歐洲聯盟高峰會=>zh-hk:歐洲理事會; 歐洲聯盟高峰會=>zh-cn:欧洲理事会;"
+    },
+    {
+      "original": "European Council",
+      "conv": "欧洲联盟高峰会=>zh-tw:歐盟高峰會; 欧洲联盟高峰会=>zh-hk:歐洲理事會; 欧洲联盟高峰会=>zh-cn:欧洲理事会;"
+    },
+    {
+      "original": "European Council",
       "conv": "zh-tw:歐盟高峰會; zh-hk:歐洲理事會; zh-cn:欧洲理事会;"
     },
     {
       "original": "European Council",
-      "conv": "歐盟高峰會=>zh-tw:歐盟高峰會; 歐盟高峰會=>zh-hk:歐洲理事會; 歐盟高峰會=>zh-cn:欧洲理事会;"
-    },
-    {
-      "original": "European Council",
-      "conv": "欧洲理事会=>zh-tw:歐盟高峰會; 欧洲理事会=>zh-hk:歐洲理事會; 欧洲理事会=>zh-cn:欧洲理事会;"
+      "conv": "欧盟高峰会=>zh-tw:歐盟高峰會; 欧盟高峰会=>zh-hk:歐洲理事會; 欧盟高峰会=>zh-cn:欧洲理事会;"
     },
     {
       "original": "European Commission",
-      "conv": "zh-tw:歐洲執行委員會; zh-hk:歐洲聯盟委員會; zh-cn:欧洲联盟委员会;"
+      "conv": "zh-tw:歐洲聯盟執行委員會; zh-hk:歐洲聯盟委員會; zh-cn:欧洲联盟委员会;"
     },
     {
       "original": "European Commission",
-      "conv": "zh-tw:歐盟執行委員會; zh-hk:歐洲聯盟委員會; zh-cn:欧洲联盟委员会;"
+      "conv": "歐盟執行委員會=>zh-tw:歐盟執行委員會; 歐盟執行委員會=>zh-hk:歐洲聯盟委員會; 歐盟執行委員會=>zh-cn:欧洲联盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "欧盟执行委员会=>zh-tw:歐盟執行委員會; 欧盟执行委员会=>zh-hk:歐洲聯盟委員會; 欧盟执行委员会=>zh-cn:欧洲联盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "歐洲執行委員會=>zh-tw:歐盟執行委員會; 歐洲執行委員會=>zh-hk:歐洲聯盟委員會; 歐洲執行委員會=>zh-cn:欧洲联盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "欧洲执行委员会=>zh-tw:歐盟執行委員會; 欧洲执行委员会=>zh-hk:歐洲聯盟委員會; 欧洲执行委员会=>zh-cn:欧洲联盟委员会;"
     },
     {
       "original": "European Commission",
@@ -29,39 +45,19 @@
     },
     {
       "original": "European Commission",
+      "conv": "歐洲執委會=>zh-tw:歐盟執委會; 歐洲執委會=>zh-hk:歐盟委員會; 歐洲執委會=>zh-cn:欧盟委员会;"
+    },
+    {
+      "original": "European Commission",
+      "conv": "欧洲执委会=>zh-tw:歐盟執委會; 欧洲执委会=>zh-hk:歐盟委員會; 欧洲执委会=>zh-cn:欧盟委员会;"
+    },
+    {
+      "original": "European Commission",
       "conv": "zh-tw:執委會; zh-hant:委員會; zh-hans:委员会;"
     },
     {
-      "original": "Council of the European Union",
-      "conv": "zh-tw:歐洲聯盟理事會; zh-hk:歐洲聯盟理事會; zh-cn:欧洲联盟理事会;"
-    },
-    {
-      "original": "Council of the European Union",
-      "conv": "zh-tw:歐盟部長理事會; zh-hk:歐盟部長理事會; zh-cn:欧盟部长理事会;"
-    },
-    {
-      "original": "Council of the European Union",
-      "conv": "zh-tw:歐盟理事會; zh-hk:歐盟理事會; zh-cn:欧盟理事会;"
-    },
-    {
-      "original": "Council of the European Union",
-      "conv": "zh-tw:部長理事會; zh-hk:部長理事會; zh-cn:部长理事会;"
-    },
-    {
-      "original": "European Parliament",
-      "conv": "zh-tw:歐洲議會; zh-hk:歐洲議會; zh-cn:欧洲议会;"
-    },
-    {
-      "original": "European Union",
-      "conv": "zh-tw:歐洲聯盟; zh-hk:歐洲聯盟; zh-cn:欧洲联盟;"
-    },
-    {
       "original": "Council of Europe",
-      "conv": "歐洲委員會=>zh-tw:歐洲理事會; 歐洲委員會=>zh-hant:歐洲委員會; 歐洲委員會=>zh-hans:欧洲委员会;"
-    },
-    {
-      "original": "Council of Europe",
-      "conv": "欧洲委员会=>zh-tw:歐洲理事會; 欧洲委员会=>zh-hant:歐洲委員會; 欧洲委员会=>zh-hans:欧洲委员会;"
+      "conv": "zh-tw:歐洲理事會; zh-hk:歐洲委員會; zh-cn:欧洲委员会;"
     },
     {
       "original": "European Space Agency",
@@ -106,10 +102,6 @@
     {
       "original": "Maastricht",
       "conv": "zh-tw:馬斯垂克; zh-hk:馬斯垂克; zh-hans:马斯特里赫特;"
-    },
-    {
-      "original": "Croatia",
-      "conv": "zh-tw:克羅埃西亞; zh-hk:克羅地亞; zh-hans:克罗地亚;"
     },
     {
       "original": "Bundesministerium für Wirtschaft und Klimaschutz",

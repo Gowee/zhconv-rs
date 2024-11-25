@@ -1,39 +1,47 @@
 {
   "name": "Korea Comparison",
-  "description": "-{zh-cn:朝韩;zh-tw:南北韓;zh-hk:南北韓;zh-mo:南北韓;zh-sg:南北韩;zh-my:南北韩;}-",
+  "description": "-{zh-cn:朝韩;zh-tw:南北韓;}-",
   "path": "Module:CGroup/Korea Comparison",
   "rules": [
     {
       "original": null,
-      "conv": "zh-cn:朝鲜;zh-my:北韩;zh-sg:北韩;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;"
+      "conv": "zh-cn:朝鲜;zh-tw:北韓;"
     },
     {
       "original": null,
-      "conv": "朝鮮=>zh-hk:北韓;朝鮮=>zh-tw:北韓;朝鮮=>zh-mo:北韓;朝鮮=>zh-my:北韩;朝鮮=>zh-sg:北韩;"
+      "conv": "朝鮮=>zh-hk:北韓;朝鮮=>zh-tw:北韓;朝鮮=>zh-mo:北韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国;zh-my:南韩;zh-sg:南韩;zh-hk:南韓;zh-mo:南韓;zh-tw:南韓;"
+      "conv": "zh-cn:韩国;zh-tw:南韓;"
     },
     {
       "original": null,
-      "conv": "韓國=>zh-my:南韩;韓國=>zh-sg:南韩;韓國=>zh-hk:南韓;韓國=>zh-mo:南韓;韓國=>zh-tw:南韓;"
+      "conv": "韓國=>zh-hk:南韓;韓國=>zh-mo:南韓;韓國=>zh-tw:南韓;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩方;zh-my:南韩方面;zh-sg:南韩方面;zh-hant:南韓方面;"
+      "conv": "zh-cn:韩方;zh-tw:韩方;"
     },
     {
       "original": null,
-      "conv": "韓方=>zh-my:南韩方面;韓方=>zh-sg:南韩方面;韓方=>zh-hk:南韓方面;韓方=>zh-mo:南韓方面;韓方=>zh-tw:南韓方面;"
+      "conv": "韓方=>zh-hk:南韓方面;韓方=>zh-mo:南韓方面;韓方=>zh-tw:南韓方面;"
     },
     {
       "original": null,
-      "conv": "zh-hans:韩裔;zh-my:南韩裔;zh-sg:南韩裔;zh-hant:南韓裔;"
+      "conv": "zh-cn:对韩;zh-tw:對南韓;"
     },
     {
       "original": null,
-      "conv": "韓裔=>zh-my:南韩裔;韓裔=>zh-sg:南韩裔;韓裔=>zh-hk:南韓裔;韓裔=>zh-mo:南韓裔;韓裔=>zh-tw:南韓裔;"
+      "conv": "對韓=>zh-tw:對南韓;對韓=>zh-hk:對南韓;對韓=>zh-mo:對南韓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:韩裔;zh-tw:南韓裔;"
+    },
+    {
+      "original": null,
+      "conv": "韓裔=>zh-hk:南韓裔;韓裔=>zh-mo:南韓裔;韓裔=>zh-tw:南韓裔;"
     }
   ]
 }

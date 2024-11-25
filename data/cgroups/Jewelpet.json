@@ -1,7 +1,7 @@
 {
   "name": "Jewelpet",
   "description": "寶石寵物",
-  "path": "Template:CGroup/Jewelpet",
+  "path": "Module:CGroup/Jewelpet",
   "rules": [
     {
       "original": null,
@@ -466,10 +466,6 @@
     {
       "original": null,
       "conv": "zh-cn:甜点宠物; zh-tw:甜點寵物; zh-hk:甜品寵物;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:;zh-tw:;zh-hk:;"
     }
   ]
 }

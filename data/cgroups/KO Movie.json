@@ -4,144 +4,240 @@
   "path": "Module:CGroup/KO Movie",
   "rules": [
     {
+      "original": "1947 보스턴",
+      "conv": "zh-cn:1947波士顿;zh-sg:波士顿1947;zh-tw:沒有國家的冠軍;zh-hk:松奪之路;"
+    },
+    {
+      "original": "3일의 휴가",
+      "conv": "zh-cn:3天的休假;zh-tw:鬼媽媽的假期;zh-sg:三天的休假;"
+    },
+    {
       "original": "7광구(鑛區)",
-      "conv": "zh-hans:深海之战;zh-hant:7鑛區;zh-cn:深海之战;zh-tw:7號禁地;zh-hk:7號異煞;zh-mo:7號異煞;"
+      "conv": "zh-cn:深海之战;zh-sg:7号禁区;zh-tw:7號禁地;zh-hk:7號異煞;zh-mo:7號異煞;"
     },
     {
       "original": "7급 공무원(7級公務員)",
-      "conv": "zh-hans:七级公务员;zh-cn:特工强档;zh-tw:我的特務女友;zh-hk:我女友系零零7"
+      "conv": "zh:七级公务员;zh-cn:特工强档;zh-sg:我的特务女友;zh-tw:我的特務女友;zh-hk:我女友系零零7"
     },
     {
       "original": "7급 공무원",
-      "conv": "七级公務员=>zh-hk:我女友系零零7;七級公務員=>zh-hk:7級公務員;七级公務员=>zh-mo:我女友系零零7;七級公務員=>zh-mo:7級公務員;"
+      "conv": "七級公務員=>zh-hk:7級公務員;七級公務員=>zh-mo:7級公務員;"
     },
     {
       "original": "7번방의 선물(7番房의膳物)",
-      "conv": "zh-hans:七号房的礼物;zh-hant:七號房的禮物;zh-cn:七号房的礼物;zh-tw:七號房的禮物;zh-hk:戇爸的禮物;zh-mo:戇爸的禮物;"
+      "conv": "zh-cn:七号房的礼物;zh-tw:七號房的禮物;zh-hk:戇爸的禮物;zh-mo:戇爸的禮物;"
     },
     {
       "original": "가문의 영광",
-      "conv": "zh-hans:家门的荣耀;zh-hant:家門的榮耀;zh-cn:家门的荣耀;zh-tw:黑道千金逼我嫁;zh-hk:黑幫千金要結婚;zh-mo:黑幫千金要結婚;"
+      "conv": "zh:家門的榮耀;zh-cn:家门的荣耀;zh-sg:爱上大姐大;zh-tw:黑道千金逼我嫁;zh-hk:黑幫千金要結婚;zh-mo:黑幫千金要結婚;"
     },
     {
       "original": "가문의 영광2 - 가문의 위기(家門의危機)",
-      "conv": "zh-hans:家门的荣耀2;zh-hant:家門的榮耀2;zh-cn:家门的荣耀2;zh-tw:黑道千金逼我嫁2之家門的危機;zh-hk:黑幫千金要結婚2;zh-mo:黑幫千金要結婚2;"
+      "conv": "zh:家門的榮耀2;zh-cn:家门的荣耀2;zh-sg:爱上大姐大2;zh-tw:黑道千金逼我嫁2之家門的危機;zh-hk:黑幫千金要結婚2;zh-mo:黑幫千金要結婚2;"
     },
     {
       "original": "가문의 영광3 - 가문의 부활(家門의復活)",
-      "conv": "zh-hans:家门的荣耀3;zh-hant:家門的榮耀3;zh-cn:家门的荣耀3;zh-tw:黑道千金逼我嫁3之家門的復活;zh-hk:黑幫千金要結婚3;zh-mo:黑幫千金要結婚3;"
+      "conv": "zh:家門的榮耀3;zh-cn:家门的荣耀3;zh-sg:爱上大姐大3;zh-tw:黑道千金逼我嫁3之家門的復活;zh-hk:黑幫千金要結婚3;zh-mo:黑幫千金要結婚3;"
     },
     {
       "original": "가문의 영광4 - 가문의 수난(家門의受難)",
-      "conv": "zh-hans:家门的荣耀4;zh-hant:家門的榮耀4;zh-cn:家门的荣耀4;zh-tw:黑道千金逼我嫁4之家門的考驗;zh-hk:黑幫千金要結婚4;zh-mo:黑幫千金要結婚4;"
+      "conv": "zh:家門的榮耀4;zh-cn:家门的荣耀4;zh-sg:爱上大姐大4;zh-tw:黑道千金逼我嫁4之家門的考驗;zh-hk:黑幫千金要結婚4;zh-mo:黑幫千金要結婚4;"
     },
     {
       "original": "가문의 영광5 - 가문의 귀환(家門의歸還)",
-      "conv": "zh-hans:家门的荣耀5;zh-hant:家門的榮耀5;zh-cn:家门的荣耀5;zh-tw:黑道千金逼我嫁5之家門歸來;zh-hk:黑幫千金要結婚5;zh-mo:黑幫千金要結婚5;"
+      "conv": "zh:家門的榮耀5;zh-cn:家门的荣耀5;zh-sg:爱上大姐大5;zh-tw:黑道千金逼我嫁5之家門歸來;zh-hk:黑幫千金要結婚5;zh-mo:黑幫千金要結婚5;"
     },
     {
       "original": "가발",
-      "conv": "zh-hans:鬼发;zh-hant:鬼髮;zh-cn:鬼发;zh-tw:鬼髮;zh-hk:鬼上頭;zh-mo:鬼上頭;"
+      "conv": "zh-cn:鬼发;zh-tw:鬼髮;zh-hk:鬼上頭;zh-mo:鬼上頭;"
+    },
+    {
+      "original": "가장보통의 연애",
+      "conv": "zh-cn:最普通的恋爱;zh-tw:醉後的浪漫;zh-sg:最普通的恋爱;zh:最普通的戀愛;"
     },
     {
       "original": "가위",
-      "conv": "zh-hans:凶咒;zh-hant:靈魔;zh-cn:凶咒;zh-tw:靈魔;zh-hk:凶咒;zh-mo:凶咒;"
+      "conv": "zh-cn:凶咒;zh-tw:靈魔;zh-hk:凶咒;zh-mo:凶咒;"
     },
     {
       "original": "감기(感氣)",
-      "conv": "zh-hans:流感;zh-hant:流感;zh-cn:流感;zh-tw:流感;zh-hk:戰疫;zh-mo:戰疫;"
+      "conv": "zh-cn:流感;zh-tw:流感;zh-sg:疫战;zh-hk:戰疫;zh-mo:戰疫;"
     },
     {
       "original": "감시자들(監視者들)",
-      "conv": "zh-hans:监视者们;zh-hant:監視者們;zh-cn:监视者们;zh-tw:監諜任務;zh-hk:天眼跟蹤;zh-mo:天眼跟蹤;"
+      "conv": "zh-hans:监视者们;zh:監視者們;zh-cn:绝密跟踪;zh-my:监视大盗;zh-sg:监视大盗;zh-tw:監諜任務;zh-hk:天眼跟蹤;zh-mo:天眼跟蹤;"
+    },
+    {
+      "original": "감쪽같은 그녀",
+      "conv": "zh-cn:天衣无缝的她;zh-tw:小公主;"
     },
     {
       "original": "강원도의 힘",
-      "conv": "zh-cn:江原道之力; zh-hk:不羈的情人;"
+      "conv": "zh-cn:江原道之力;zh-hk:不羈的情人;"
     },
     {
       "original": "강철비 2: 정상회담",
-      "conv": "zh-cn:铁雨2：首脑峰会;zh-tw:鋼鐵雨：深潛行動;zh-hk:鋼鐵雨2：核戰危機;zh-mo:鋼鐵雨2：核戰危機;"
+      "conv": "zh-cn:铁雨2：首脑峰会;zh-sg:钢铁雨：深潜行动;zh-tw:鋼鐵雨：深潛行動;zh-hk:鋼鐵雨2：核戰危機;zh-mo:鋼鐵雨2：核戰危機;"
     },
     {
       "original": "강철비",
-      "conv": "zh-cn:铁雨;zh-tw:鋼鐵雨;zh-hk:鋼鐵雨;zh-mo:鋼鐵雨;"
+      "conv": "zh-cn:铁雨;zh-sg:钢铁雨;zh-tw:鋼鐵雨;zh-hk:鋼鐵雨;zh-mo:鋼鐵雨;"
+    },
+    {
+      "original": "강철중: 공공의 적 1-1",
+      "conv": "zh:姜哲中：公共敵 1-1;zh-cn:人民公敌3;"
+    },
+    {
+      "original": "강릉",
+      "conv": "zh-tw:喋血江陵;zh-hk:決戰江陵;"
+    },
+    {
+      "original": "강릉",
+      "conv": "喋血江陵=>zh-cn:江陵;決戰江陵=>zh-cn:江陵;"
     },
     {
       "original": "같은 속옷을 입는 두 여자",
-      "conv": "zh-tw:公寓裡的兩個女人; zh-hk:相近不相親; zh-cn:两位穿着同样内衣的女子;"
+      "conv": "zh-tw:公寓裡的兩個女人;zh-hk:相近不相親;zh-cn:两位穿着同样内衣的女子;"
+    },
+    {
+      "original": "거미집",
+      "conv": "zh:蜘蛛網;zh-cn:蜘蛛网;zh-tw:誆世巨作：蜘蛛窩新宇宙;zh-hk:韓戲逼人;zh-sg:蜘蛛窝新宇宙;"
+    },
+    {
+      "original": "거래완료",
+      "conv": "交易完了=>zh-hk:人生轉運站;交易完了=>zh-mo:人生轉運站;交易完了=>zh-cn:真划算;"
+    },
+    {
+      "original": "거북이 달린다",
+      "conv": "zh:奔跑的烏龜;zh-cn:奔跑的乌龟;zh-my:乌龟快跑;zh-tw:囧途追擊;zh-hk:疾走海龜;"
     },
     {
       "original": "건축학개론(建築學概論)",
-      "conv": "zh-hans:建筑学概论;zh-hant:建築學概論;zh-cn:建筑学概论;zh-tw:初戀築夢101;zh-hk:初戀築跡101;zh-mo:初戀築跡101;"
+      "conv": "zh:建築學概論;zh-cn:建筑学概论;zh-sg:初恋筑梦101;zh-tw:初戀築夢101;zh-hk:初戀築跡101;zh-mo:初戀築跡101;"
     },
     {
       "original": "걸캅스",
       "conv": "zh-cn:女警;zh-tw:霹靂嬌鋒;zh-hk:陀槍師奶X新紮師姐;zh-mo:陀槍師奶X新紮師姐;"
     },
     {
+      "original": "검사외전",
+      "conv": "zh-cn:检察官外传;zh-tw:王牌計中計;zh-hk:流氓檢察官;"
+    },
+    {
       "original": "경아의 딸",
-      "conv": "zh:景雅的女兒; zh-cn:景雅的女儿; zh-tw:因愛重生;"
+      "conv": "zh:景雅的女兒;zh-cn:景雅的女儿;zh-tw:因愛重生;"
+    },
+    {
+      "original": "결혼전야",
+      "conv": "zh:結婚前夜;zh-cn:结婚前夜;zh-tw:婚禮行不行！？;zh-hk:婚前撻Q日記;zh-my:婚前挞Q日记;"
     },
     {
       "original": "계춘할망",
-      "conv": "zh-hans:季春奶奶;zh-hant:季春奶奶;zh-tw:季春奶奶;zh-hk:被遺忘的秘密;"
+      "conv": "zh-hans:季春奶奶;zh-tw:季春奶奶;zh-hk:被遺忘的秘密;"
+    },
+    {
+      "original": "고양이를 부탁해",
+      "conv": "zh-cn:猫样少女;zh-tw:貓咪少女;"
     },
     {
       "original": "고령화가족",
-      "conv": "zh:高齡化家族; zh-cn:高龄化家族; zh-tw:啃老一族;"
+      "conv": "zh:高齡化家族;zh-cn:高龄化家族;zh-tw:啃老一族;"
+    },
+    {
+      "original": "고속도로 가족",
+      "conv": "高速公路家族=>zh-tw:人生轉運站;"
     },
     {
       "original": "고사(考死) 두 번째 이야기: 교생실습(敎生實習)",
-      "conv": "zh-hans:考死2：教学实习;zh-hant:血之期中考2;zh-cn:考死2：教学实习;zh-tw:血之期中考2;zh-hk:喪鐘2血洗夏令營;zh-mo:喪鐘2血洗夏令營;"
+      "conv": "zh-cn:考死2：教学实习;zh-sg:考死2：血染校园;zh-tw:血之期中考2;zh-hk:喪鐘2 血洗夏令營;zh-mo:喪鐘2 血洗夏令營;"
     },
     {
       "original": "고사: 피의 중간고사(中間考死)",
-      "conv": "zh-hans:考死：血之期中考试;zh-hant:血之期中考;zh-cn:考死：血之期中考试;zh-tw:血之期中考;zh-hk:喪鐘;zh-mo:喪鐘;"
+      "conv": "zh-cn:考死：血之期中考试;zh-tw:血之期中考：死題;zh-hk:喪鐘;zh-mo:喪鐘;"
     },
     {
       "original": "교섭",
-      "conv": "火線交涉=>zh-hans:交涉;火線交涉=>zh-cn:交涉;火線交涉=>zh-tw:火線交涉;火線交涉=>zh-hk:24小時救參行動;火線交涉=>zh-mo:24小時救參行動;"
+      "conv": "zh-tw:火線交涉;zh-sg:火线交涉;zh-hk:24小時救參行動;zh-mo:24小時救參行動;"
     },
     {
       "original": "교섭",
-      "conv": "24小時救參行動=>zh-hans:交涉;24小時救參行動=>zh-cn:交涉;24小時救參行動=>zh-tw:火線交涉;24小時救參行動=>zh-hk:24小時救參行動;24小時救參行動=>zh-mo:24小時救參行動;"
+      "conv": "火線交涉=>zh-cn:交涉;24小時救參行動=>zh-cn:交涉;"
     },
     {
-      "original": "ゴースト もういちど抱きしめたい",
-      "conv": "zh-hans:新人鬼情未了;zh-hant:新人鬼情未了;zh-cn:新人鬼情未了;zh-tw:新·第六感生死戀;zh-hk:新人鬼情未了;zh-mo:新人鬼情未了;"
+      "original": "{{lang|ja|ゴースト もういちど抱きしめたい",
+      "conv": "zh-cn:新人鬼情未了;zh-tw:新·第六感生死戀;zh-hk:新人鬼情未了;zh-mo:新人鬼情未了;"
     },
     {
       "original": "군도: 민란의 시대(-{群盜:民亂의時代}-)",
-      "conv": "zh-hans:群盗：民乱的时代;zh-hant:群盜：民亂的時代;zh-cn:群盗：民乱的时代;zh-tw:群盜;zh-hk:群盜：民亂的時代;zh-mo:群盜：民亂的時代;"
+      "conv": "zh-cn:群盗：民乱的时代;zh-tw:群盜;zh-hk:群盜：民亂的時代;zh-mo:群盜：民亂的時代;"
     },
     {
       "original": "공동경비구역(共同警備區域) JSA",
-      "conv": "zh-hans:共同警备区域JSA;zh-hant:JSA共同警戒區;zh-cn:共同警戒区域JSA;zh-tw:共同警戒區;zh-hk:JSA安全地帶;zh-mo:JSA安全地帶;"
+      "conv": "zh:JSA共同警戒區;zh-hant:共同警戒區;zh-hans:共同警备区;zh-cn:共同警备区域JSA;zh-tw:共同警戒區JSA;zh-hk:JSA安全地帶;zh-mo:JSA安全地帶;zh-sg:边界风云;"
+    },
+    {
+      "original": "공범",
+      "conv": "血緣共犯=>zh-cn:共犯;"
     },
     {
       "original": "공조",
-      "conv": "zh-hans:共助;zh-hant:共助;zh-cn:共助;zh-tw:機密同盟;zh-hk:秘密任務;zh-mo:秘密任務;"
+      "conv": "zh-cn:共助;zh-my:机密同盟;zh-tw:機密同盟;zh-hk:秘密任務;zh-mo:秘密任務;"
     },
     {
       "original": "공조2: 인터내셔날",
-      "conv": "zh-hans:共助2：International;zh-hant:共助2：International;zh-cn:共助2：International;zh-tw:機密同盟2;zh-hk:秘密任務2：International;zh-mo:秘密任務2：International;"
+      "conv": "zh:共助2;zh-cn:共助2：International;zh-sg:机密同盟2;zh-tw:機密同盟2;zh-hk:秘密任務2：International;zh-mo:秘密任務2：International;"
+    },
+    {
+      "original": "공작",
+      "conv": "北寒諜戰=>zh-cn:特工;北寒諜戰=>zh-tw:北風;北寒諜戰=>zh-sg:北风;"
+    },
+    {
+      "original": "공포 택시",
+      "conv": "zh-cn:幽灵的士;zh-tw:恐怖計程車;"
+    },
+    {
+      "original": "궁합",
+      "conv": "zh:宮合;zh-cn:宫合;zh-tw:野蠻公主玩婚記;zh-hk:野蠻公主玩婚記;zh-sg:野蛮公主玩婚记;"
+    },
+    {
+      "original": "괴기맨숀",
+      "conv": "zh:怪奇公寓;zh-cn:怪奇宅;zh-sg:猛鬼公寓;zh-tw:怪奇大廈;zh-hk:採魂邨;"
+    },
+    {
+      "original": "괴물",
+      "conv": "zh-cn:汉江怪物;zh-sg:骇人怪物;zh-my:骇人怪物;zh-tw:駭人怪物;zh-hk:韓流怪嚇;"
+    },
+    {
+      "original": "괴인",
+      "conv": "zh-cn:怪房客;zh-tw:半熟室友;zh-hk:毒舌室友;"
+    },
+    {
+      "original": "괴담만찬",
+      "conv": "zh-cn:怪谈晚餐;zh-sg:怪谈夜宴;zh-tw:鬼6怨;"
     },
     {
       "original": "과속스캔들",
-      "conv": "zh-hans:急速丑闻;zh-hant:急速醜聞;zh-cn:急速丑闻;zh-tw:急速醜聞;zh-hk:極速緋聞;zh-mo:極速緋聞;"
+      "conv": "zh:非常主播;zh-cn:急速丑闻;zh-tw:急速醜聞;zh-hk:極速緋聞;zh-mo:極速緋聞;zh-sg:绯闻家族;"
     },
     {
       "original": "광해(光海), 왕(王)이 된 남자(男子)",
-      "conv": "zh-hans:光海，成为王的男人;zh-hant:光海，成為王的男人;zh-cn:光海，成为王的男人;zh-tw:雙面君王;zh-hk:光海，成為王的男人;zh-mo:光海，成為王的男人;"
+      "conv": "zh-hk:光海，成為王的男人;zh-cn:光海，成为王的男人;zh-sg:双面君王;zh-tw:雙面君王;"
+    },
+    {
+      "original": "광복절 특사",
+      "conv": "zh-cn:光复节特赦;zh-tw:逃回監獄;"
     },
     {
       "original": "국가대표(國家代表)",
-      "conv": "zh-hans:国家代表;zh-hant:國家代表;zh-cn:国家代表;zh-tw:B咖大翻身;zh-hk:五個跳雪的少年;zh-mo:五個跳雪的少年;"
+      "conv": "zh-tw:B咖大翻身;zh-hk:五個跳雪的少年;zh-mo:五個跳雪的少年;"
+    },
+    {
+      "original": "국가대표(國家代表)",
+      "conv": "B咖大翻身=>zh-cn:国家代表;五個跳雪的少年=>zh-cn:国家代表;"
     },
     {
       "original": "극한직업",
-      "conv": "zh-hans:极限职业;zh-hant:極限職業;zh-cn:极限职业;zh-tw:雞不可失;zh-hk:炸雞特攻隊;zh-mo:炸雞特攻隊;"
+      "conv": "zh:極限職業;zh-cn:极限职业;zh-sg:鸡不可失;zh-tw:雞不可失;zh-hk:炸雞特攻隊;zh-mo:炸雞特攻隊;"
     },
     {
       "original": "국제수사",
@@ -149,15 +245,19 @@
     },
     {
       "original": "국제시장",
-      "conv": "zh-cn:国际市场;zh-tw:國際市場：半世紀的諾言;zh-hk:半世紀的諾言;zh-mo:半世紀的諾言;"
+      "conv": "zh-cn:国际市场;zh-tw:國際市場：半世紀的諾言;zh-hk:半世紀的諾言;zh-mo:半世紀的諾言;zh-my:半世纪的诺言;zh-sg:我们不平凡的爸爸;"
+    },
+    {
+      "original": "국가부도의 날",
+      "conv": "zh-cn:国家破产之日;zh-sg:分秒币争;zh-tw:分秒幣爭;zh-hk:救韓大時代;"
     },
     {
       "original": "골든 슬럼버",
-      "conv": "zh-cn:金色梦乡;zh-tw:宅配男逃亡曲;zh-hk:暗殺速遞;zh-mo:暗殺速遞;"
+      "conv": "zh:金色夢鄉;zh-cn:金色梦乡;zh-tw:宅配男逃亡曲;zh-hk:暗殺速遞;zh-mo:暗殺速遞;zh-sg:暗杀速递;"
     },
     {
       "original": "귀신(鬼神)이 산다",
-      "conv": "zh-hans:浪漫鬼屋;zh-hant:浪漫鬼屋;zh-cn:浪漫鬼屋;zh-tw:浪漫鬼屋;zh-hk:搵鬼同你玩;zh-mo:搵鬼同你玩;"
+      "conv": "zh-cn:幽灵鬼屋;zh-tw:浪漫鬼屋;zh-hk:搵鬼同你玩;zh-mo:搵鬼同你玩;"
     },
     {
       "original": "그것만이 내 세상 (그것만이 내 世上)",
@@ -165,147 +265,219 @@
     },
     {
       "original": "그녀를 모르면 간첩(間諜)",
-      "conv": "zh-hans:间谍俏辣媚;zh-hant:間諜俏辣媚;zh-cn:间谍俏辣媚;zh-tw:間諜俏辣媚;zh-hk:搞鬼凸務;zh-mo:搞鬼凸務;"
+      "conv": "zh-cn:间谍女孩;zh-tw:間諜俏辣媚;zh-hk:搞鬼凸務;zh-mo:搞鬼凸務;"
     },
     {
-      "original": "크리스마스 캐럴",
-      "conv": "zh-hans:圣诞颂歌;zh-hant:聖誕頌歌;zh-cn:圣诞颂歌;zh-tw:失控正義;zh-hk:聖誕頌歌;zh-mo:聖誕頌歌;"
+      "original": "그대 이름은 장미",
+      "conv": "zh-cn:你的名字是玫瑰;zh-tw:你的名字叫薔薇;zh-hk:Sing媽伴我心;"
+    },
+    {
+      "original": "그랑프리",
+      "conv": "zh-cn:大奖赛;zh-tw:賽馬甜心;"
+    },
+    {
+      "original": "그놈 목소리",
+      "conv": "zh-cn:那家伙的声音;zh-sg:追踪绑架奇案;zh-tw:原聲追兇;"
+    },
+    {
+      "original": "글로리데이",
+      "conv": "zh-cn:光辉岁月;zh-tw:青春，未完待續;zh-hk:衝出不歸路;"
     },
     {
       "original": "기생충",
-      "conv": "zh-cn:寄生虫;zh-my:寄生虫;zh-sg:寄生虫;zh-tw:寄生上流;zh-hk:上流寄生族;zh-mo:上流寄生族;"
+      "conv": "zh-cn:寄生虫;zh-my:寄生上流;zh-sg:寄生上流;zh-tw:寄生上流;zh-hk:上流寄生族;zh-mo:上流寄生族;"
+    },
+    {
+      "original": "기묘한 가족",
+      "conv": "zh-cn:奇妙的家族;zh-sg:奇妙的家族;zh-tw:搶錢大屍殺;zh-hk:搶錢大屍殺;"
     },
     {
       "original": "김관장 대 김관장 대 김관장(-{金館長對金館長對金館長}-)",
-      "conv": "zh-hans:金馆长对金馆长对金馆长;zh-hant:金館長對金館長對金館長;zh-cn:金馆长对金馆长对金馆长;zh-tw:PK金武門;zh-hk:金館長對金館長對金館長;zh-mo:金館長對金館長對金館長;"
+      "conv": "zh:金館長對金館長對金館長;zh-cn:金馆长对金馆长对金馆长;zh-tw:PK金武門;"
     },
     {
       "original": "김씨 표류기(金氏漂流記)",
-      "conv": "zh-hans:金氏漂流记;zh-hant:金氏漂流記;zh-cn:金氏漂流记;zh-tw:荒島·愛;zh-hk:金氏漂流記;zh-mo:金氏漂流記;"
+      "conv": "zh-hans:金氏漂流记;zh-tw:荒島·愛;zh:金氏漂流記;"
     },
     {
       "original": "김복남 살인 사건의 전말(金福南殺人事件의始末)",
-      "conv": "zh-hans:金福南杀人事件始末;zh-hant:金福南殺人事件始末;zh-cn:金福南杀人事件始末;zh-tw:煉獄島;zh-hk:金福南殺人事件始末;zh-mo:金福南殺人事件始末;"
+      "conv": "zh-hant:金福南殺人事件始末;zh-cn:金福南杀人事件始末;zh-tw:煉獄島;"
     },
     {
       "original": "김종욱 찾기(金鐘旭찾기)",
-      "conv": "zh-hans:寻找金钟旭;zh-hant:尋找完美先生;zh-cn:寻找金钟旭;zh-tw:尋找完美先生;zh-hk:尋找金鐘旭;zh-mo:尋找金鐘旭;"
+      "conv": "zh-cn:寻找金钟旭;zh-sg:命中注定就是你;zh-tw:尋找完美先生;zh:尋找金鐘旭;"
     },
     {
       "original": "경관의 피",
-      "conv": "zh-hans:警官之血;zh-hant:警官之血;zh-cn:警官之血;zh-tw:無間對決;zh-hk:無間對決;zh-mo:無間對決;"
+      "conv": "zh-cn:警官之血;zh-sg:无间对决;zh-tw:無間對決;zh-hk:無間對決;zh-mo:無間對決;"
+    },
+    {
+      "original": "까불지마",
+      "conv": "zh-cn:贱人帮;zh-tw:搞什麼啊;"
     },
     {
       "original": "꽃미남 연쇄 테러사건(꽃美男連鎖테러事件)",
-      "conv": "zh-hans:花美男连锁恐怖事件;zh-hant:花美男連鎖恐怖事件;zh-cn:花美男连锁恐怖事件;zh-tw:花美男事件簿;zh-hk:花美男連鎖恐怖事件;zh-mo:花美男連鎖恐怖事件;"
+      "conv": "zh-cn:花美男连锁恐怖事件;zh-tw:花美男事件簿;zh-hk:花美男連鎖恐怖事件;zh-mo:花美男連鎖恐怖事件;"
     },
     {
       "original": "끝까지 간다",
-      "conv": "zh-hans:走到尽头;zh-hant:走到盡頭;zh-cn:走到尽头;zh-tw:非常警探;zh-hk:黑仔型警;zh-mo:黑仔型警;"
+      "conv": "zh:走到盡頭;zh-cn:走到尽头;zh-tw:非常警探;zh-hk:黑仔型警;zh-mo:黑仔型警;"
     },
     {
       "original": "나는 왕(王)이로소이다",
-      "conv": "zh-hans:我是王;zh-hant:我是王;zh-cn:我是王;zh-tw:乞丐王子;zh-hk:我是王;zh-mo:我是王;"
-    },
-    {
-      "original": "나의 PS 파트너",
-      "conv": "zh-hans:我的PS搭档;zh-hant:我的PS搭檔;zh-cn:我的PS搭档;zh-tw:色即是空～0204愛你喲！;zh-hk:我愛瘋Sex;zh-mo:我愛瘋Sex;"
+      "conv": "zh-sg:我是王;zh-cn:我是王;zh-tw:乞丐王子;"
     },
     {
       "original": "나탈리",
-      "conv": "zh-hans:娜塔莉的情人;zh-hant:娜妲莉的情人;zh-cn:娜塔莉的情人;zh-tw:娜妲莉的情人;zh-hk:娜妲莉的情人;zh-mo:娜妲莉的情人;"
+      "conv": "zh-cn:娜塔莉的情人;zh-sg:娜妲莉的情人;zh-tw:娜妲莉的情人;zh-hk:娜妲莉的情人;zh-mo:娜妲莉的情人;"
+    },
+    {
+      "original": "나랏말싸미",
+      "conv": "zh-cn:国之语音;zh-sg:王的文字;zh-tw:王的文字;"
+    },
+    {
+      "original": "나의 PS 파트너",
+      "conv": "zh:我的PS搭檔;zh-cn:我的PS搭档;zh-tw:色即是空～0204愛你喲！;zh-hk:我愛瘋Sex;zh-mo:我愛瘋Sex;zh-sg:我爱疯SEX;"
+    },
+    {
+      "original": "나의 특별한 형제",
+      "conv": "zh:我的一級兄弟;zh-cn:我的一级兄弟;zh-tw:完美搭檔;"
+    },
+    {
+      "original": "나의 피투성이 연인",
+      "conv": "我血淋淋的恋人=>zh-hk:生;"
+    },
+    {
+      "original": "나의 사랑 나의 신부",
+      "conv": "zh:我的愛我的新娘;zh-cn:我的爱我的新娘;zh-tw:我的野蠻嬌妻;zh-sg:我的野蛮娇妻;"
+    },
+    {
+      "original": "나를 잊지 말아요",
+      "conv": "zh-cn:不要忘记我;zh-tw:記得愛過你;zh-hk:忘了我是誰;"
     },
     {
       "original": "낙원의 밤",
-      "conv": "zh-cn:乐园之夜;zh-sg:乐园之夜;zh-tw:暗夜天堂;zh-hk:天堂長夜;zh-mo:天堂長夜;"
+      "conv": "zh-cn:乐园之夜;zh-sg:暗夜天堂;zh-tw:暗夜天堂;zh-hk:天堂長夜;zh-mo:天堂長夜;"
+    },
+    {
+      "original": "남자가 사랑할 때",
+      "conv": "zh-cn:当男人恋爱时;zh-tw:不標準情人;zh-hk:不標準情人;"
+    },
+    {
+      "original": "남자사용설명서",
+      "conv": "zh-cn:男人使用说明书;zh-tw:御愛專用守則;zh-hk:盛女求愛戰;"
+    },
+    {
+      "original": "날나리 종부전",
+      "conv": "zh-cn:不良少妇;zh-tw:不良媳婦;"
     },
     {
       "original": "내가 살인범(殺人犯)이다",
-      "conv": "zh-hans:我是杀人犯;zh-hant:我是殺人犯;zh-cn:我是杀人犯;zh-tw:殺人告白;zh-hk:星級殺人犯;zh-mo:星級殺人犯;"
+      "conv": "zh:我是殺人犯;zh-cn:我是杀人犯;zh-tw:殺人告白;zh-hk:星級殺人犯;zh-mo:星級殺人犯;"
     },
     {
       "original": "내 눈에 콩깍지",
-      "conv": "zh-hans:在我眼里的豆荚;zh-hant:在我眼裡的豆莢;zh-cn:在我眼里的豆荚;zh-tw:情人眼裡出西施;zh-hk:愛情差錯覺;zh-mo:愛情差錯覺;"
+      "conv": "zh-cn:在我眼里的豆荚;zh-tw:情人眼裡出西施;zh-hk:愛情差錯覺;zh-mo:愛情差錯覺;"
     },
     {
       "original": "내 머리 속의 지우개",
-      "conv": "zh-hans:我脑海中的橡皮擦;zh-hant:我腦海中的橡皮擦;zh-cn:我脑海中的橡皮擦;zh-tw:我腦海中的橡皮擦;zh-hk:抱擁這分鐘;zh-mo:抱擁這分鐘;"
+      "conv": "zh-cn:我脑海中的橡皮擦;zh-tw:我腦海中的橡皮擦;zh-hk:抱擁這分鐘;zh-mo:抱擁這分鐘;"
     },
     {
       "original": "내부자들",
-      "conv": "zh:內部者們; zh-tw:萬惡新世界; zh-hk:寒流黑金; zh-cn:局内者们;"
+      "conv": "zh:內部者們;zh-tw:萬惡新世界;zh-hk:寒流黑金;zh-cn:局内人;"
     },
     {
       "original": "내 사랑 내 곁에",
-      "conv": "zh-hans:我的爱在我身边;zh-hant:我的愛在我身邊;zh-cn:我的爱在我身边;zh-tw:比天堂更近的美麗;zh-hk:我的愛在我身邊;zh-mo:我的愛在我身邊;"
+      "conv": "zh:我的愛在我身邊;zh-cn:我的爱在我身边;zh-tw:比天堂更近的美麗;zh-hk:我的愛在我身邊;zh-mo:我的愛在我身邊;"
     },
     {
-      "original": "내 사랑 내 곁에",
-      "conv": "我的爱在我身边=>zh-tw:比天堂更近的美麗;我的愛在我身邊=>zh-tw:我的愛在我身邊"
+      "original": "내 사랑 싸가지",
+      "conv": "zh-cn:奴隶情人;zh-tw:綁架愛情100天;"
     },
     {
       "original": "내 아내의 모든 것",
-      "conv": "zh-hans:我妻子的一切;zh-hant:我妻子的一切;zh-cn:我妻子的一切;zh-tw:妻人太甚;zh-hk:家有刁妻;zh-mo:家有刁妻;"
+      "conv": "zh-cn:我妻子的一切;zh-sg:家有刁妻;zh-tw:妻人太甚;zh-hk:家有刁妻;zh-mo:家有刁妻;"
+    },
+    {
+      "original": "내안의 그놈",
+      "conv": "zh-cn:我身体里的那个家伙;zh-tw:我裡面的那傢伙;zh-hk:大佬上錯身;"
     },
     {
       "original": "내 여자 친구를 소개(紹介)합니다",
-      "conv": "zh-hans:介紹我的女友;zh-hant:我的野蠻女友2-蠻風再現;zh-cn:介紹我的女友;zh-tw:我的野蠻女友2-蠻風再現;zh-hk:野蠻師姐;zh-mo:野蠻師姐;"
+      "conv": "zh-cn:野蛮师姐;zh-tw:我的野蠻女友2-蠻風再現;zh-hk:野蠻師姐;zh-mo:野蠻師姐;"
+    },
+    {
+      "original": "내 깡패 같은 애인",
+      "conv": "zh-cn:我的流氓爱人;zh-tw:我的流氓情人;"
+    },
+    {
+      "original": "내 남자의 순이",
+      "conv": "zh-cn:疯狂的钻石;zh-tw:鑽石也瘋狂;"
     },
     {
       "original": "너는 내 운명(運命)",
-      "conv": "zh-hans:你是我的命运;zh-hant:你是我的命運;zh-cn:你是我的命运;zh-tw:你是我的未來;zh-hk:你是我的命運;zh-mo:你是我的命運;"
+      "conv": "zh-sg:你是我的命运;zh:你是我的命運;zh-cn:你是我的命运;zh-tw:你是我的未來;zh-hk:你是我的命運;zh-mo:你是我的命運;"
     },
     {
       "original": "너는 내 운명",
-      "conv": "你是我的命运=>zh-tw:你是我的未來;你是我的命運=>zh-tw:你是我的命運"
+      "conv": "你是我的命運=>zh-tw:你是我的命運"
+    },
+    {
+      "original": "너의 결혼식",
+      "conv": "zh-cn:你的婚礼;zh-tw:婚禮的那一天;zh-hk:再見‧我的初戀。;"
+    },
+    {
+      "original": "너와 나",
+      "conv": "zh-cn:梦之歌;zh-tw:告白的那一天;"
     },
     {
       "original": "노브레싱",
-      "conv": "zh-hans:No Breathing;zh-hant:No Breathing;zh-cn:No Breathing;zh-tw:屏息;zh-hk:速水花美男;zh-mo:速水花美男;"
+      "conv": "zh-cn:No Breathing;zh-sg:一气呵成;zh-tw:屏息;zh-hk:速水花美男;zh-mo:速水花美男;"
     },
     {
       "original": "누구나 비밀(秘密)은 있다",
-      "conv": "zh-hans:谁都有秘密;zh-hant:誰都有秘密;zh-cn:谁都有秘密;zh-tw:三姊妹的情人;zh-hk:一屋誘心人;zh-mo:一屋誘心人;"
+      "conv": "zh:誰都有秘密;zh-cn:谁都有秘密;zh-sg:谁都有秘密;zh-tw:三姊妹的情人;zh-hk:一屋誘心人;zh-mo:一屋誘心人;"
     },
     {
       "original": "누구의 딸도 아닌 해원",
-      "conv": "zh-cn:不是任何人女儿的海媛; zh-tw:無人的女兒海媛; zh-hk:白日夢女兒;"
-    },
-    {
-      "original": "누구의 딸도 아닌 해원",
-      "conv": "他和她的白日夢=>zh-cn:不是任何人女儿的海媛; 他和她的白日夢=>zh-tw:無人的女兒海媛; 他和她的白日夢=>zh-hk:白日夢女兒;"
+      "conv": "zh:不是任何人的女兒海媛;zh-cn:不是任何人女儿的海媛;zh-tw:無人的女兒海媛;zh-hk:白日夢女兒;zh-hant:他和她的白日夢;"
     },
     {
       "original": "늑대소년(少年)",
-      "conv": "zh-hans:狼族少年;zh-hant:狼族少年;zh-cn:狼少年;zh-tw:狼少年：不朽的愛;zh-hk:狼少年之戀;zh-mo:狼少年之戀;"
+      "conv": "zh:狼族少年;zh-cn:狼少年;zh-sg:狼少年：不朽的爱;zh-my:狼少年：不朽的爱;zh-tw:狼少年：不朽的愛;zh-hk:狼少年之戀;zh-mo:狼少年之戀;"
     },
     {
       "original": "늑대의 유혹(誘惑)",
-      "conv": "zh-hans:狼的诱惑;zh-hant:愛上蛋白質女孩;zh-cn:狼的诱惑;zh-tw:愛上蛋白質女孩;zh-hk:愛上蛋白質女孩;zh-mo:愛上蛋白質女孩;"
+      "conv": "zh:狼的誘惑;zh-cn:狼的诱惑;zh-tw:愛上蛋白質女孩;zh-hk:愛上蛋白質女孩;zh-mo:愛上蛋白質女孩;"
     },
     {
       "original": "늑대사냥",
-      "conv": "zh-hans:狼狩猎;zh-hant:狼狩獵;zh-cn:狼狩猎;zh-tw:行動代號：狼狩獵;zh-hk:狼狩獵;zh-mo:狼狩獵;"
+      "conv": "zh:狼狩獵;zh-cn:狼狩猎;zh-tw:行動代號：狼狩獵;zh-hk:獵狼代號：屍殺號;zh-mo:獵狼代號：屍殺號;"
     },
     {
       "original": "님은 먼 곳에",
-      "conv": "zh-hans:君在远方;zh-hant:君在遠方;zh-cn:君在远方;zh-tw:亂世玫瑰;zh-hk:君在遠方;zh-mo:君在遠方;"
+      "conv": "zh-cn:君在远方;zh-tw:亂世玫瑰;zh-hk:君在遠方;zh-mo:君在遠方;"
     },
     {
       "original": "다른 나라에서",
-      "conv": "zh-tw:愛，在他鄉; zh-hk:他鄉的女人;"
+      "conv": "zh-tw:愛，在他鄉;zh-hk:他鄉的女人;"
     },
     {
       "original": "다른 나라에서",
-      "conv": "愛，在他鄉=>zh-cn:在异国; 他鄉的女人=>zh-cn:在异国;"
+      "conv": "愛，在他鄉=>zh-cn:在异国;他鄉的女人=>zh-cn:在异国;"
     },
     {
       "original": "다만 악에서 구하소서",
-      "conv": "zh-hans:从邪恶中拯救我;zh-hant:從邪惡中拯救我;zh-cn:从邪恶中拯救我;zh-tw:魔鬼對決;zh-hk:魔鬼對決;zh-mo:魔鬼對決;"
+      "conv": "zh:從邪惡中拯救我;zh-cn:从邪恶中拯救我;zh-sg:魔鬼对决;zh-tw:魔鬼對決;zh-hk:魔鬼對決;zh-mo:魔鬼對決;"
     },
     {
       "original": "다음 소희",
-      "conv": "zh-hans:下一个素熙;zh-hant:下一個素熙;zh-cn:下一个素熙;zh-tw:陰影下的她;zh-hk:下一個素熙;zh-mo:下一個素熙;"
+      "conv": "zh:下一個素熙;zh-cn:下一个素熙;zh-sg:阴影下的她;zh-tw:陰影下的她;zh-hk:下一個素熙;zh-mo:下一個素熙;"
+    },
+    {
+      "original": "단적비연수",
+      "conv": "zh-cn:丹赤飞燕秀;zh-tw:聖劍傳說;"
     },
     {
       "original": "담보",
@@ -313,91 +485,187 @@
     },
     {
       "original": "당신 얼굴 앞에서",
-      "conv": "zh-tw:在你面前; zh-hk:活在你面前; zh-cn:在你面前;"
+      "conv": "zh-tw:在你面前;zh-hk:活在你面前;zh-cn:在你面前;"
     },
     {
       "original": "당신자신과 당신의 것",
-      "conv": "zh-cn:你自己与你所有; zh-tw:戀妳非妳; zh-hk:愛上兩個你;"
+      "conv": "zh-cn:你自己与你所有;zh-tw:戀妳非妳;zh-hk:愛上兩個你;"
+    },
+    {
+      "original": "당신의 부탁",
+      "conv": "zh-cn:你的请求;zh-tw:成為母親之後;"
+    },
+    {
+      "original": "달짝지근해: 7510",
+      "conv": "zh-cn:甜蜜蜜：7510;zh-tw:絕對味覺情人;"
     },
     {
       "original": "대장 김창수",
-      "conv": "zh-hans:大将金昌洙;zh-hant:大將金昌洙;zh-cn:大将金昌洙;zh-tw:獄火重生：金昌洙;"
+      "conv": "zh:大將金昌洙;zh-cn:大将金昌洙;zh-tw:獄火重生：金昌洙;"
     },
     {
       "original": "대외비",
       "conv": "zh:對外秘密;zh-cn:对外秘密;zh-tw:闇黑對決;"
     },
     {
+      "original": "대학로에서 매춘하다가 토막살해 당한 여고생 아직 대학로에 있다",
+      "conv": "zh-hk:大學路雛妓之殺人機器;zh-cn:大学路雏妓之杀人机器;zh-tw:在大學路賣春的女高生被碎屍後還在大學路;"
+    },
+    {
       "original": "댄서의 순정(純情)",
-      "conv": "zh-hans:舞者的纯情;zh-hant:舞者的純情;zh-cn:舞者的纯情;zh-tw:舞動真愛;zh-hk:翩翩喜歡你;zh-mo:翩翩喜歡你;"
+      "conv": "zh:舞者的純情;zh-cn:舞者的纯情;zh-tw:舞動真愛;zh-hk:翩翩喜歡你;zh-mo:翩翩喜歡你;"
     },
     {
       "original": "댄싱퀸",
-      "conv": "zh-hans:舞后;zh-hant:舞后;zh-cn:舞后;zh-tw:舞后;zh-hk:勁舞Dancing Queen;zh-mo:勁舞Dancing Queen;"
+      "conv": "zh-cn:舞后;zh-tw:舞后;zh-hk:勁舞Dancing Queen;zh-mo:勁舞Dancing Queen;"
+    },
+    {
+      "original": "댓글부대",
+      "conv": "zh-tw:神鬼對決;zh-cn:网军部队;"
     },
     {
       "original": "더킹",
-      "conv": "zh-tw:金權性內幕; zh-hk:金權內幕;"
+      "conv": "zh-tw:金權性內幕;zh-hk:金權黑幕;"
     },
     {
       "original": "더킹",
-      "conv": "金權性內幕=>zh-cn:王者; 金權內幕=>zh-cn:王者;"
+      "conv": "金權性內幕=>zh-cn:王者;金權黑幕=>zh-cn:王者;"
+    },
+    {
+      "original": "더 문",
+      "conv": "zh-tw:逃出寧靜海;zh-sg:逃出宁静海;zh-cn:The Moon;zh-hk:The Moon：緊急營救;"
+    },
+    {
+      "original": "덕혜옹주",
+      "conv": "zh-cn:德惠翁主;zh-tw:末代公主;zh-hk:德惠翁主;"
     },
     {
       "original": "데이지",
-      "conv": "zh-hans:雏菊;zh-hant:愛無間;zh-cn:雏菊;zh-tw:愛無間;zh-hk:雛菊;zh-mo:雛菊;"
+      "conv": "zh-cn:雏菊;zh-sg:爱无间;zh-tw:愛無間;zh-hk:雛菊;zh-mo:雛菊;"
     },
     {
       "original": "데시벨",
-      "conv": "音爆浩劫=>zh-cn:分贝;音爆浩劫=>zh-tw:音爆浩劫;音爆浩劫=>zh-hk:分貝恐襲;音爆浩劫=>zh-mo:分貝恐襲;"
+      "conv": "zh-tw:音爆浩劫;zh-sg:音爆浩劫;zh-hk:分貝恐襲;zh-mo:分貝恐襲;"
     },
     {
       "original": "데시벨",
-      "conv": "分貝恐襲=>zh-cn:分贝;分貝恐襲=>zh-tw:音爆浩劫;分貝恐襲=>zh-hk:分貝恐襲;分貝恐襲=>zh-mo:分貝恐襲;"
+      "conv": "音爆浩劫=>zh-cn:分贝;分貝恐襲=>zh-cn:分贝;"
     },
     {
       "original": "더 테러 라이브",
-      "conv": "zh-hans:恐怖直播;zh-hant:恐怖直播;zh-cn:恐怖直播;zh-tw:恐怖直播;zh-hk:死亡「動」新聞;zh-mo:恐怖直播;"
+      "conv": "zh-cn:恐怖直播;zh-tw:恐怖攻擊直播;zh-hk:死亡「動」新聞;"
+    },
+    {
+      "original": "더블패티",
+      "conv": "zh:Double Patty;zh-cn:双层肉排;zh-tw:愛情漢堡包;zh-hk:滋味1+1;"
     },
     {
       "original": "도가니",
-      "conv": "zh-cn:熔炉; zh-hk:無聲吶喊; zh-tw:熔爐;"
+      "conv": "zh-cn:熔炉;zh-hk:無聲吶喊;zh-tw:熔爐;"
     },
     {
       "original": "도둑들",
-      "conv": "zh-hans:盗贼同盟;zh-hant:盜賊同盟;zh-cn:盗贼同盟;zh-tw:神偷大劫案;zh-hk:盜賊門;zh-mo:盜賊門;"
+      "conv": "zh:盜賊同盟;zh-cn:盗贼同盟;zh-hans:夺宝联盟;zh-tw:神偷大劫案;zh-hk:盜賊門;zh-mo:盜賊門;zh-sg:盗贼们;"
     },
     {
       "original": "도망친 여자",
-      "conv": "zh-cn:逃走的女人; zh-tw:逃亡的女人; zh-hk:出走的女人;"
+      "conv": "zh-cn:逃走的女人;zh-tw:逃亡的女人;zh-hk:出走的女人;"
+    },
+    {
+      "original": "도어락",
+      "conv": "zh-cn:门锁;zh-sg:锁命危机;zh-tw:鎖命危機;"
+    },
+    {
+      "original": "도그데이즈",
+      "conv": "zh-cn:宠爱 (韩国电影);zh-tw:日日好狗日;"
+    },
+    {
+      "original": "도그데이즈",
+      "conv": "日日好狗日=>zh-cn:宠爱;"
     },
     {
       "original": "독전",
-      "conv": "毒戰寒流=>zh-tw:信徒; 毒戰寒流=>zh-cn:毒战; 毒戰寒流=>zh-sg:毒战; 毒戰寒流=>zh-my:毒战;"
+      "conv": "毒戰寒流=>zh-tw:信徒;毒戰寒流=>zh-cn:毒战;毒戰寒流=>zh-sg:毒战;毒戰寒流=>zh-my:毒战;"
     },
     {
       "original": "독전2",
-      "conv": "zh-hk:毒戰寒流2; zh-tw:信徒2; zh-cn:毒战2; zh-sg:毒战2;"
+      "conv": "zh-hk:毒戰寒流2;zh-tw:信徒2;zh-cn:毒战2;zh-sg:毒战2;"
+    },
+    {
+      "original": "돈",
+      "conv": "zh-tw:錢力遊戲;zh-hk:萬誘金錢;zh-sg:金钱至上;"
+    },
+    {
+      "original": "돈",
+      "conv": "錢力遊戲=>zh-cn:钱;萬誘金錢=>zh-cn:钱;"
     },
     {
       "original": "돈의 맛",
-      "conv": "zh-hans:金钱的味道;zh-hant:金錢的味道;zh-cn:金钱的味道;zh-tw:慾望豪門;zh-hk:錢·慾·劫;zh-mo:錢·慾·劫;"
+      "conv": "zh:金錢的味道;zh-cn:金钱的味道;zh-sg:金钱的诱惑;zh-tw:慾望豪門;zh-hk:錢·慾·劫;zh-mo:錢·慾·劫;"
+    },
+    {
+      "original": "돈 크라이 마미",
+      "conv": "zh:媽媽別哭;zh-cn:妈妈别哭;zh-my:别哭妈妈;zh-sg:妈妈不哭;zh-tw:天倫制裁;"
     },
     {
       "original": "동갑내기 과외하기(同甲內記課外下記)",
-      "conv": "zh-hans:同龄家庭教师;zh-hant:我的野蠻女老師;zh-cn:同龄家庭教师;zh-tw:我的野蠻女老師;zh-hk:我的Band5男友;zh-mo:我的Band5男友;"
+      "conv": "zh:我的野蠻女教師;zh-sg:我的野蛮女家教;zh-my:我的野蛮女教师;zh-cn:我的野蛮女老师;zh-tw:我的野蠻女老師;zh-hk:我的Band 5男友;zh-mo:我的Band 5男友;"
+    },
+    {
+      "original": "동감",
+      "conv": "共感頻率=>zh-cn:同感;共感频率=>zh-cn:同感;"
+    },
+    {
+      "original": "동주",
+      "conv": "zh-tw:東柱：時代詩情;zh-hk:亂世詩情;"
+    },
+    {
+      "original": "동주",
+      "conv": "東柱：時代詩情=>zh-cn:东柱;亂世詩情=>zh-cn:东柱;"
+    },
+    {
+      "original": "동네사람들",
+      "conv": "zh-tw:惡鄰布局;zh-sg:恶邻布局;zh-cn:邻里的人们;"
+    },
+    {
+      "original": "돌멩이의 꿈",
+      "conv": "zh-cn:小石头的梦;zh-hk:夢想成真;"
+    },
+    {
+      "original": "돌연변이",
+      "conv": "zh-cn:突然变异;zh-tw:魚男悲歌;zh-hk:魚男突變;"
+    },
+    {
+      "original": "돌핀",
+      "conv": "zh-tw:Strike！娜英;zh-hk:Dolphin 躍動人生;"
+    },
+    {
+      "original": "돌핀",
+      "conv": "Strike！娜英=>zh-cn:海豚;Dolphin 躍動人生=>zh-cn:海豚;"
     },
     {
       "original": "두사부일체(頭師傅一體)",
-      "conv": "zh-hans:头师傅一体;zh-hant:頭師傅一體;zh-cn:头师傅一体;zh-tw:野蠻師生;zh-hk:隔離位係古惑仔;zh-mo:隔離位係古惑仔;"
+      "conv": "zh:頭師傅一體;zh-cn:头师傅一体;zh-tw:野蠻師生;zh-hk:隔離位係古惑仔;zh-mo:隔離位係古惑仔;"
+    },
+    {
+      "original": "두 여자",
+      "conv": "zh-tw:慾愛彌彰;zh-hk:慾‧愛彌彰;zh-sg:情‧欲男女;"
+    },
+    {
+      "original": "두 여자",
+      "conv": "慾愛彌彰=>zh-cn:两个女人;"
     },
     {
       "original": "뒷담화 : 감독이 미쳤어요",
-      "conv": "zh-cn:镜头背后; zh-tw:網路遙控開麥拉;"
+      "conv": "zh-cn:镜头背后;zh-tw:網路遙控開麥拉;"
     },
     {
       "original": "뜨거운 안녕(安寧)",
-      "conv": "zh-hans:温暖的再见; zh-hant:溫暖的再見; zh-cn:温暖的再见; zh-tw:跨樂心天堂：火熱告別曲; zh-hk:一路好Rock; zh-mo:一路好Rock;"
+      "conv": "zh:溫暖的再見;zh-cn:温暖的再见;zh-sg:摇滚天使;zh-tw:跨樂心天堂：火熱告別曲;zh-hk:一路好Rock;zh-mo:一路好Rock;"
+    },
+    {
+      "original": "똥파리",
+      "conv": "zh-cn:绿头苍蝇;zh-hk:窒息暴戾;"
     },
     {
       "original": "디바",
@@ -405,51 +673,67 @@
     },
     {
       "original": "러브픽션",
-      "conv": "zh-hans:爱情小说;zh-hant:愛情小說;zh-cn:爱情小说;zh-tw:愛情小說;zh-hk:“毛”法不愛你;zh-mo:“毛”法不愛你;"
+      "conv": "zh-cn:爱情小说;zh-tw:愛情小說;zh-hk:“毛”法不愛你;zh-mo:“毛”法不愛你;"
+    },
+    {
+      "original": "레슬러",
+      "conv": "zh-cn:摔跤选手;zh-tw:我的冠軍老爸;"
     },
     {
       "original": "RED 2",
-      "conv": "zh-hans:赤焰战场2;zh-hant:超危險特工2：狠戰;zh-cn:赤焰战场2;zh-tw:超危險特工2：狠戰;zh-hk:猛火爆2;zh-mo:猛火爆2;"
+      "conv": "zh-cn:赤焰战场2;zh-tw:超危險特工2：狠戰;zh-hk:猛火爆2;zh-mo:猛火爆2;"
     },
     {
       "original": "로맨틱 아일랜드",
-      "conv": "zh-hans:浪漫岛屿;zh-hant:浪漫島嶼;zh-cn:浪漫岛屿;zh-tw:落跑歌星;"
+      "conv": "zh:浪漫島嶼;zh-cn:浪漫岛屿;zh-tw:落跑歌星;"
     },
     {
       "original": "리멤버",
-      "conv": "厄憶追凶=>zh-hans:我记得;厄憶追凶=>zh-hant:我記得;厄憶追凶=>zh-cn:我记得;厄憶追凶=>zh-tw:厄憶追凶;厄憶追凶=>zh-hk:記憶。復仇;厄憶追凶=>zh-mo:記憶。復仇;"
+      "conv": "zh-tw:厄憶追凶;zh-hk:記憶。復仇;zh-mo:記憶。復仇;"
     },
     {
       "original": "리멤버",
-      "conv": "記憶。復仇=>zh-hans:我记得;記憶。復仇=>zh-hant:我記得;記憶。復仇=>zh-cn:我记得;記憶。復仇=>zh-tw:厄憶追凶;記憶。復仇=>zh-hk:記憶。復仇;記憶。復仇=>zh-mo:記憶。復仇;"
+      "conv": "厄憶追凶=>zh-cn:我记得;記憶。復仇=>zh-cn:我记得;"
     },
     {
       "original": "리바운드",
-      "conv": "zh-cn:篮板球;zh-tw:魯蛇大翻身;"
+      "conv": "zh-cn:篮板球;zh-sg:鲁蛇大翻身;zh-tw:魯蛇大翻身;"
     },
     {
       "original": "럭키",
       "conv": "zh-cn:幸运钥匙;zh-tw:這個殺手演很大;zh-hk:Luck Key;zh:Luck Key;"
     },
     {
+      "original": "룸 쉐어링",
+      "conv": "zh-cn:跨代同居;zh-tw:花漾奶奶金難搞;"
+    },
+    {
+      "original": "롱 리브 더 킹: 목포 영웅",
+      "conv": "zh-cn:吾王长存;zh-tw:國民英雄;zh-hk:國王萬歲：木浦英雄;"
+    },
+    {
       "original": "마누라 죽이기",
-      "conv": "zh-hans:杀妻秘笈;zh-hant:殺妻秘笈;zh-cn:杀妻秘笈;zh-tw:殺妻秘笈;zh-hk:攞命冤家;zh-mo:攞命冤家;"
+      "conv": "zh-cn:杀妻秘笈;zh-tw:殺妻秘笈;zh-hk:攞命冤家;zh-mo:攞命冤家;"
     },
     {
       "original": "마더",
-      "conv": "zh-hans:非常母亲;zh-hant:非常母親;zh-cn:非常母亲;zh-tw:非常母親;zh-hk:骨肉同謀;zh-mo:骨肉同謀;"
+      "conv": "zh-hans:非常母亲;zh-tw:非常母親;zh-hk:骨肉同謀;zh-mo:骨肉同謀;"
     },
     {
       "original": "마지막 전쟁-{(戰爭)}-",
-      "conv": "zh-hans:最后战争;zh-hant:婚姻戰爭;zh-cn:最后战争;zh-tw:婚姻戰爭;zh-hk:最後戰爭;zh-mo:最後戰爭;"
+      "conv": "zh-cn:最后战争;zh-tw:婚姻戰爭;zh:最後戰爭;"
+    },
+    {
+      "original": "마이 라띠마",
+      "conv": "zh:虎尾蘭之夢;zh-cn:虎尾兰之梦;zh-tw:虎尾蘭之戀;"
     },
     {
       "original": "마음이...",
-      "conv": "zh-hans:伴我走天涯;zh-hant:伴我走天涯;zh-cn:伴我走天涯;zh-tw:伴我走天涯;zh-hk:快樂尋回犬;zh-mo:快樂尋回犬;"
+      "conv": "zh:人狗奇缘;zh-cn:伴我走天涯;zh-tw:伴我走天涯;zh-hk:快樂尋回犬;zh-mo:快樂尋回犬;zh-sg:再见小雪;"
     },
     {
       "original": "마스터",
-      "conv": "zh-hans:金融决战;zh-hant:MASTER;zh-cn:金融决战;zh-tw:偷天對決;zh-hk:MASTER;zh-mo:MASTER;"
+      "conv": "zh-cn:金融决战;zh-sg:偷天对决;zh-tw:偷天對決;zh-hk:MASTER;zh-mo:MASTER;"
     },
     {
       "original": "마담 뺑덕",
@@ -461,443 +745,731 @@
     },
     {
       "original": "마약왕",
-      "conv": "zh-cn:麻药王;zh-hk:毒王;zh-mo:毒王;"
+      "conv": "zh:麻藥王;zh-cn:麻药王;zh-hk:毒王;zh-mo:毒王;"
     },
     {
       "original": "마약왕",
-      "conv": "麻药王=>zh-tw:毒梟; 毒王=>zh-tw:毒梟; 麻藥王=>zh-tw:毒梟; 麻藥王=>zh-hk:毒王; 麻藥王=>zh-mo:毒王;"
+      "conv": "麻药王=>zh-tw:毒梟;毒王=>zh-tw:毒梟;麻藥王=>zh-tw:毒梟;"
     },
     {
-      "original": "마약왕",
-      "conv": "毒梟 (電影)=>zh-cn:麻药王; 毒梟 (電影)=>zh-hk:毒王; 毒梟 (電影)=>zh-mo:毒王;"
+      "original": "마리이야기",
+      "conv": "zh-cn:美丽密语;zh-hk:美麗密語;zh-tw:瑪麗的故事;"
+    },
+    {
+      "original": "막걸스",
+      "conv": "zh-cn:米酒女孩;zh-tw:米酒甜心;"
     },
     {
       "original": "맛있는 섹스, 그리고",
-      "conv": "zh-hans:甜性涩爱;zh-hant:甜性澀愛;zh-cn:甜性涩爱;zh-tw:甜性澀愛;zh-hk:一褲誘心人;zh-mo:一褲誘心人;"
+      "conv": "zh-cn:甜性涩爱;zh-tw:甜性澀愛;zh-hk:一褲誘心人;zh-mo:一褲誘心人;"
     },
     {
       "original": "말아톤",
-      "conv": "zh-hans:我的马拉松;zh-hant:我的馬拉松;zh-cn:我的马拉松;zh-tw:馬拉松小子;zh-hk:我的馬拉松;zh-mo:我的馬拉松;"
+      "conv": "zh-sg:我的马拉松;zh-cn:我的马拉松;zh-tw:馬拉松小子;zh-hk:我的馬拉松;zh-mo:我的馬拉松;"
     },
     {
-      "original": "The Magnificent Seven",
-      "conv": "zh-hans:豪勇七蛟龙;zh-hant:絕地7騎士;zh-cn:豪勇七蛟龙;zh-tw:絕地7騎士;zh-hk:七俠蕩寇誌;zh-mo:七俠蕩寇誌;"
+      "original": "말모이",
+      "conv": "zh-tw:機密行動：我們的辭典;zh-hk:義筆容辭;"
+    },
+    {
+      "original": "말모이",
+      "conv": "機密行動：我們的辭典=>zh-cn:词典;義筆容辭=>zh-cn:词典;"
+    },
+    {
+      "original": "The Magnificent Seven (2016)",
+      "conv": "zh-sg:豪勇七蛟龙;zh-cn:豪勇七蛟龙;zh-tw:絕地7騎士;zh-hk:七俠蕩寇誌;zh-mo:七俠蕩寇誌;"
+    },
+    {
+      "original": "메기",
+      "conv": "zh-cn:鲶鱼美琪;zh-tw:一條鯰魚救地球;"
     },
     {
       "original": "명량-{(鳴梁)}-",
-      "conv": "zh-hans:鸣梁;zh-hant:鳴梁;zh-cn:鸣梁海战;zh-tw:鳴梁：怒海交鋒;zh-hk:鳴梁;zh-mo:鳴梁;"
+      "conv": "zh-hans:鸣梁;zh-cn:鸣梁海战;zh-tw:鳴梁：怒海交鋒;zh-hk:鳴梁;zh-mo:鳴梁;"
     },
     {
       "original": "몽타주(蒙太奇)",
-      "conv": "zh-hans:蒙太奇;zh-hant:蒙太奇;zh-cn:蒙太奇;zh-tw:模犯母親;zh-hk:重罪犯;zh-mo:重罪犯;"
+      "conv": "zh-cn:蒙太奇;zh-tw:模犯母親;zh-hk:重罪犯;zh-mo:重罪犯;"
+    },
+    {
+      "original": "므이",
+      "conv": "zh-cn:抽象画中的越南少女;zh-my:替尸鬼;zh-tw:替屍鬼;"
     },
     {
       "original": "모가디슈",
-      "conv": "zh-hans:摩加迪沙;zh-hant:摩加迪沙;zh-cn:摩加迪沙;zh-tw:逃出摩加迪休;zh-hk:絕路狂逃;zh-mo:絕路狂逃;"
+      "conv": "zh-cn:摩加迪沙;zh-sg:逃出摩加迪休;zh-tw:逃出摩加迪休;zh-hk:絕路狂逃;zh-mo:絕路狂逃;"
+    },
+    {
+      "original": "몬스터",
+      "conv": "獵殺對戰=>zh-cn:怪物;"
     },
     {
       "original": "뫼비우스",
-      "conv": "zh-hans:莫比乌斯;zh-hant:莫比烏斯;zh-cn:莫比乌斯;zh-tw:莫比烏斯;zh-hk:切夫之痛;zh-mo:切夫之痛;"
+      "conv": "zh-cn:莫比乌斯;zh-tw:莫比烏斯;zh-hk:切夫之痛;zh-mo:切夫之痛;"
     },
     {
       "original": "무서운 이야기",
-      "conv": "zh-hans:恐怖故事;zh-hant:恐怖故事;zh-cn:恐怖故事;zh-tw:一千零一魘;zh-hk:恐怖故事;zh-mo:恐怖故事;"
+      "conv": "zh-cn:恐怖故事;zh-tw:一千零一魘;zh-hk:恐怖零一夜;zh-mo:恐怖零一夜;"
+    },
+    {
+      "original": "무서운 이야기",
+      "conv": "恐怖故事=>zh-sg:恐怖的故事;一千零一魘=>zh-sg:恐怖的故事;恐怖零一夜=>zh-sg:恐怖的故事;"
+    },
+    {
+      "original": "무적자",
+      "conv": "zh:無籍者;zh-tw:英雄本色：無敵者;zh-my:英雄本色：无敌者;zh-sg:英雄本色之无敌者;zh-hk:無敵者;zh-cn:无籍者;"
+    },
+    {
+      "original": "무법자",
+      "conv": "zh-cn:无法者;zh-tw:神鬼仲裁;"
     },
     {
       "original": "물고기자리",
-      "conv": "zh-hans:双鱼座的女子;zh-hant:雙魚座的女子;zh-cn:双鱼座的女子;zh-tw:錯愛雙魚座;zh-hk:雙魚座的女子;zh-mo:雙魚座的女子;"
+      "conv": "zh:雙魚座的女子;zh-cn:双鱼座的女子;zh-tw:錯愛雙魚座;"
     },
     {
       "original": "물병자리",
-      "conv": "zh-hans:水瓶座;zh-hant:水瓶座;zh-cn:水瓶座;zh-tw:奪愛;zh-hk:水瓶座;zh-mo:水瓶座;"
+      "conv": "zh-cn:水瓶座;zh-tw:奪愛;"
     },
     {
       "original": "물안에서",
       "conv": "zh-cn:在水中;zh-hk:水中鏡花;zh-mo:水中鏡花;"
     },
     {
-      "original": "Mười: Truyền thuyết về bức chân dung",
-      "conv": "zh-hans:抽象画中的越南少女;zh-hant:替屍鬼;zh-cn:抽象画中的越南少女;zh-tw:替屍鬼;zh-hk:替屍鬼;zh-mo:替屍鬼;"
+      "original": "{{lang|vi|Mười: Truyền thuyết về bức chân dung",
+      "conv": "zh-cn:抽象画中的越南少女;zh-tw:替屍鬼;zh-hk:替屍鬼;zh-mo:替屍鬼;"
     },
     {
       "original": "미나문구점(美娜文具店)",
-      "conv": "zh-hans:美娜文具店;zh-hant:美娜文具店;zh-cn:美娜文具店;zh-tw:大姊頭與小屁孩;zh-hk:美娜文具店;zh-mo:美娜文具店;"
+      "conv": "zh-cn:美娜文具店;zh-tw:大姊頭與小屁孩;"
+    },
+    {
+      "original": "미드나이트",
+      "conv": "噩夜逃殺=>zh-cn:午夜;"
     },
     {
       "original": "MIRACLE デビクロくんの-{恋}-と魔法",
-      "conv": "zh-hans:MIRACLE;zh-hant:MIRACLE;zh-cn:MIRACLE;zh-tw:戀愛魔法奇蹟;zh-hk:戀愛魔法;zh-mo:戀愛魔法;"
+      "conv": "zh-cn:MIRACLE;zh-tw:戀愛魔法奇蹟;zh-hk:戀愛魔法;zh-mo:戀愛魔法;"
     },
     {
       "original": "미스터 고",
-      "conv": "zh-hans:大明猩;zh-hant:Mr. Go;zh-cn:大明猩;zh-tw:王牌巨猩;zh-hk:超級巨猩3D;zh-mo:超級巨猩3D;"
+      "conv": "zh:Mr. Go;zh-cn:大明猩;zh-sg:大明猩;zh-tw:王牌巨猩;zh-hk:超級巨猩3D;zh-mo:超級巨猩3D;"
     },
     {
       "original": "미스터 주: 사라진 VIP",
-      "conv": "zh-hans:动物园先生：消失的VIP;zh-hant:動物園先生：消失的VIP;zh-cn:动物园先生;zh-tw:明明會說話;zh-hk:好狗特攻隊;zh-mo:好狗特攻隊;"
+      "conv": "zh-cn:动物园先生;zh-tw:明明會說話;zh-hk:好狗特攻隊;zh-mo:好狗特攻隊;zh-sg:好狗特攻队;"
     },
     {
       "original": "미옥",
-      "conv": "zh-hans:美玉;zh-hant:美玉;zh-cn:美玉;zh-tw:致命女角頭;"
+      "conv": "zh-cn:美玉;zh-tw:致命女角頭;"
+    },
+    {
+      "original": "믿을 수 있는 사람",
+      "conv": "zh:可以相信的人;zh-tw:脫離心方向;zh-hk:北良領導;"
+    },
+    {
+      "original": "믿을 수 있는 사람",
+      "conv": "脫離心方向=>zh-cn:导游;北良領導=>zh-cn:导游;"
     },
     {
       "original": "Mr. 로빈 꼬시기",
-      "conv": "zh-hans:Robin先生追求记;zh-cn:Robin先生追求记;zh-tw:誘惑老闆100昭;zh-hk:Robin先生追求記"
+      "conv": "zh-cn:Robin先生追求记;zh-sg:完美追求记;zh-my:勾引完美先生;zh-tw:誘惑老闆100昭;zh:Robin先生追求記"
     },
     {
       "original": "Mr. 아이돌",
-      "conv": "zh-hans:Mr. Idol;zh-hant:Mr. Idol;zh-cn:Mr. Idol;zh-tw:Mr. Idol;zh-hk:Mr. Idol愛回歸;zh-mo:Mr. Idol愛回歸;"
+      "conv": "zh-cn:Mr. Idol;zh-tw:Mr. Idol;zh-hk:Mr. Idol愛回歸;zh-mo:Mr. Idol愛回歸;"
     },
     {
       "original": "미인도(美人圖)",
-      "conv": "zh-hans:美人图;zh-hant:美人圖;zh-cn:美人图;zh-tw:美人圖：私情畫慾;zh-hk:美人圖;zh-mo:美人圖;"
+      "conv": "zh:美人圖;zh-cn:美人图;zh-tw:美人圖：私情畫慾;zh-hk:美人圖：私情畫慾;zh-mo:美人圖：私情畫慾;"
     },
     {
       "original": "미션 파서블",
       "conv": "zh-cn:可能的任务;zh-tw:金派特務;zh-hk:拒絕不可能;zh-mo:拒絕不可能;"
     },
     {
+      "original": "밀수",
+      "conv": "zh-tw:神鬼海底撈;zh-sg:神鬼海底捞;zh-hk:閨密盜賞團;"
+    },
+    {
+      "original": "밀수",
+      "conv": "閨密盜賞團=>zh-cn:走私;神鬼海底撈=>zh-cn:走私;"
+    },
+    {
       "original": "바람과 함께 사라지다",
-      "conv": "zh-hans:随风而逝;zh-hant:隨風而逝;zh-cn:随风而逝;zh-tw:俠盜冰團;zh-hk:隨風而逝;zh-mo:隨風而逝;"
+      "conv": "zh:隨風而逝;zh-cn:随风而逝;zh-tw:俠盜冰團;"
     },
     {
       "original": "바람난 가족",
-      "conv": "zh:風流家族; zh-cn:偷情家族; zh-tw:偷情男女;"
+      "conv": "zh:風流家族;zh-cn:偷情家族;zh-tw:偷情男女;"
+    },
+    {
+      "original": "바람의 전설",
+      "conv": "zh-cn:花花公子传奇;zh-tw:舞動真情;"
     },
     {
       "original": "박수(拍手)건달",
-      "conv": "zh-hans:拍手痞子;zh-hant:拍手痞子;zh-cn:拍手痞子;zh-tw:老大靈不靈;zh-hk:拍手痞子;zh-mo:拍手痞子;"
+      "conv": "zh-cn:拍手痞子;zh-tw:老大靈不靈;zh-hk:神漢流氓;"
+    },
+    {
+      "original": "박수칠 때 떠나라",
+      "conv": "zh-cn:请在鼓掌的时候离开;zh-tw:緝兇48小時;"
     },
     {
       "original": "박쥐",
-      "conv": "zh-hans:蝙蝠;zh-hant:蝙蝠;zh-cn:蝙蝠;zh-tw:饑渴誘罪;zh-hk:蝙蝠：血色情慾;zh-mo:蝙蝠：血色情慾;"
+      "conv": "zh-cn:蝙蝠;zh-my:蝙蝠：血色情欲;zh-tw:蝙蝠：血色情慾;zh-hk:饑渴誘罪;zh-mo:饑渴誘罪;"
     },
     {
       "original": "반창꼬",
-      "conv": "zh-hans:创可贴;zh-hant:創可貼;zh-cn:创可贴;zh-tw:愛情OK繃;zh-hk:創可貼;zh-mo:創可貼;"
+      "conv": "zh:創可貼;zh-cn:创可贴;zh-tw:愛情OK繃;zh-my:爱情911;"
     },
     {
       "original": "방자전(方子傳)",
-      "conv": "zh-hans:方子传;zh-hant:方子傳;zh-cn:方子传;zh-tw:情慾對決;zh-hk:方子傳;zh-mo:方子傳;"
+      "conv": "zh-sg:方子传;zh-cn:方子传;zh-tw:情慾對決;zh-hk:方子傳;zh-mo:方子傳;"
+    },
+    {
+      "original": "방황하는 칼날",
+      "conv": "zh-cn:彷徨之刃;zh-tw:私刑制裁;zh-hk:徬徨之刃;"
     },
     {
       "original": "부산행(釜山行)",
-      "conv": "zh-hk:屍殺列車;zh-cn:釜山行; zh-tw:屍速列車; zh-sg:尸杀列车;"
+      "conv": "zh-hk:屍殺列車;zh-cn:釜山行;zh-tw:屍速列車;zh-sg:尸杀列车;"
     },
     {
       "original": "부당거래",
-      "conv": "zh-cn:不当交易; zh-tw:神鬼交易;"
+      "conv": "zh-cn:不当交易;zh-tw:神鬼交易;"
     },
     {
       "original": "뷰티 인사이드",
-      "conv": "zh-hk:我的變身男友;zh-cn:内在美; zh-tw:愛上變身情人;"
+      "conv": "zh-hk:我的變身男友;zh-cn:内在美;zh-my:爱上变身情人;zh-tw:愛上變身情人;"
     },
     {
       "original": "북촌방향",
-      "conv": "zh-cn:北村方向; zh-tw:愛情來的那一天; zh-hk:他來的那天;"
+      "conv": "zh-cn:北村方向;zh-tw:愛情來的那一天;zh-hk:他來的那天;"
     },
     {
-      "original": "박열",
-      "conv": "zh-tw:朴烈：逆權年代; zh-hk:逆權車伕;"
+      "original": "복수는 나의 것",
+      "conv": "我要复仇=>zh-hk:復仇;我要复仇=>zh-mo:復仇;我要復仇=>zh-hk:復仇;我要復仇=>zh-mo:復仇;"
     },
     {
-      "original": "박열",
-      "conv": "朴烈：逆權年代=>zh-cn:朴烈; 逆權車伕=>zh-cn:朴烈;"
-    },
-    {
-      "original": "반도(半島)",
-      "conv": "zh-hk:屍殺半島;zh-cn:釜山行2：半岛; zh-tw:屍速列車：感染半島; zh-sg:尸杀列车2：半岛;"
-    },
-    {
-      "original": "발신제한",
-      "conv": "zh-hans:限制来电;zh-hant:限制來電;zh-cn:限制来电;zh-tw:極速引爆;zh-hk:限制來電;zh-mo:限制來電;"
-    },
-    {
-      "original": "밤의 해변에서 혼자",
-      "conv": "zh-cn:独自在夜晚的海边; zh-tw:獨自在夜晚的海邊; zh-hk:等一個人的心灣;"
-    },
-    {
-      "original": "방법: 재차의",
-      "conv": "zh-hans:谤法：在此矣;zh-hant:謗法：在此矣;zh-cn:谤法：在此矣;zh-tw:咒術屍戰;zh-hk:咒術屍戰;zh-mo:咒術屍戰;"
-    },
-    {
-      "original": "배우는 배우다(俳優는 俳優다)",
-      "conv": "zh-hans:演员就是演员;zh-hant:演員就是演員;zh-cn:演员就是演员;zh-tw:殘酷舞台;zh-hk:演員就是演員;zh-mo:演員就是演員;"
-    },
-    {
-      "original": "베테랑",
-      "conv": "zh-hans:老手;zh-hant:老手;zh-cn:老手;zh-tw:辣手警探;zh-hk:燥底師兄生擒富二代;zh-mo:燥底師兄生擒富二代;"
-    },
-    {
-      "original": "변호인(辯護人)",
-      "conv": "zh-hans:辩护人;zh-hant:辯護人;zh-cn:辩护人;zh-tw:正義辯護人;zh-hk:逆權大狀;zh-mo:逆權大狀;"
+      "original": "보통의 가족",
+      "conv": "zh-cn:普通家庭;zh-tw:非普通家族;"
     },
     {
       "original": "복숭아나무",
-      "conv": "zh-hans:桃树;zh-hant:桃樹;zh-cn:桃树;zh-tw:桃樹男孩;zh-hk:桃樹;zh-mo:桃樹;"
+      "conv": "zh:桃樹;zh-cn:桃树;zh-tw:桃樹男孩;"
+    },
+    {
+      "original": "봉이 김선달",
+      "conv": "zh:鳳伊 金先達;zh-cn:凤伊金先达;zh-tw:騙神！騙鬼！金先達;zh-hk:千面扭計王;"
     },
     {
       "original": "봄 여름 가을 겨울 그리고 봄",
-      "conv": "zh-hans:春去春又来;zh-hant:春去春又來;zh-cn:春去春又来;zh-tw:春去春又來;zh-hk:春夏秋冬;zh-mo:春夏秋冬;"
+      "conv": "zh-hans:春去春又来;zh-tw:春去春又來;zh-hk:春夏秋冬;zh-mo:春夏秋冬;"
     },
     {
-      "original": "ラスト・ブラッド",
-      "conv": "zh-hans:小夜刀：最后的吸血鬼;zh-hant:血戰：最後的吸血鬼;zh-cn:小夜刀：最后的吸血鬼;zh-tw:血戰：最後的吸血鬼;zh-hk:血戰新世紀;zh-mo:血戰新世紀;"
+      "original": "박열",
+      "conv": "zh-tw:朴烈：逆權年代;zh-hk:逆權車伕;"
+    },
+    {
+      "original": "박열",
+      "conv": "朴烈：逆權年代=>zh-cn:朴烈;逆權車伕=>zh-cn:朴烈;"
+    },
+    {
+      "original": "반도(半島)",
+      "conv": "zh-hk:屍殺半島;zh-cn:釜山行2：半岛;zh-tw:屍速列車：感染半島;zh-sg:尸杀列车2：半岛;"
+    },
+    {
+      "original": "발신제한",
+      "conv": "zh:限制來電;zh-cn:限制来电;zh-tw:極速引爆;"
+    },
+    {
+      "original": "발레 교습소",
+      "conv": "zh-cn:芭蕾舞学院;zh-tw:偷偷喜歡你;"
+    },
+    {
+      "original": "밤의 해변에서 혼자",
+      "conv": "zh-cn:独自在夜晚的海边;zh-tw:獨自在夜晚的海邊;zh-hk:等一個人的心灣;"
+    },
+    {
+      "original": "밤치기",
+      "conv": "zh-cn:心动之夜;zh-tw:那一夜，我們談情說愛愛;zh-hk:那一夜，我們談情說愛愛;"
+    },
+    {
+      "original": "방법: 재차의",
+      "conv": "zh:謗法：在此矣;zh-cn:谤法：在此矣;zh-sg:咒术尸战;zh-tw:咒術屍戰;zh-hk:咒術屍戰;zh-mo:咒術屍戰;"
+    },
+    {
+      "original": "배우는 배우다(俳優는 俳優다)",
+      "conv": "zh:演員就是演員;zh-cn:演员就是演员;zh-tw:殘酷舞台;zh-hk:墮落星星的你;"
+    },
+    {
+      "original": "베테랑",
+      "conv": "zh-cn:老手;zh-sg:辣手警探;zh-tw:辣手警探;zh-hk:燥底師兄生擒富二代;zh-mo:燥底師兄生擒富二代;"
+    },
+    {
+      "original": "베테랑2",
+      "conv": "zh-cn:老手2;zh-sg:辣手警探：火爆裁决;zh-tw:辣手警探2;zh-hk:躁底師兄2 行刑師"
+    },
+    {
+      "original": "베를린",
+      "conv": "zh-tw:柏林諜變;zh-my:柏林谍变;zh-hk:柏林諜戰;"
+    },
+    {
+      "original": "베를린",
+      "conv": "柏林諜變=>zh-cn:柏林;柏林諜戰=>zh-cn:柏林;"
+    },
+    {
+      "original": "베스트셀러",
+      "conv": "詭書=>zh-cn:畅销书;"
+    },
+    {
+      "original": "변호인(辯護人)",
+      "conv": "zh-cn:辩护人;zh:辯護人;zh-my:正义辩护人;zh-tw:正義辯護人;zh-hk:逆權大狀;zh-mo:逆權大狀;"
+    },
+    {
+      "original": "변산",
+      "conv": "zh-cn:边山;zh-tw:我的嘻哈我的家;"
+    },
+    {
+      "original": "벌새",
+      "conv": "zh-cn:蜂鸟;zh-tw:我們與愛的距離;zh-hk:我們與愛的距離;"
+    },
+    {
+      "original": "{{lang|ja|ラスト・ブラッド",
+      "conv": "zh-cn:小夜刀：最后的吸血鬼;zh-tw:血戰：最後的吸血鬼;zh-sg:血战新世纪;zh-hk:血戰新世紀;zh-mo:血戰新世紀;"
     },
     {
       "original": "빈 집",
-      "conv": "zh-hans:空房子;zh-hant:感官樂園;zh-cn:空房子;zh-tw:空屋情人;zh-hk:感官樂園;zh-mo:感官樂園;"
+      "conv": "zh-cn:空房间;zh-sg:空屋情人;zh-tw:空屋情人;zh-hk:感官樂園;zh-mo:感官樂園;"
     },
     {
       "original": "백두산",
-      "conv": "zh-cn:白头山; zh-tw:白頭山：半島浩劫; zh-hk:白頭山：火山浩劫; zh-mo:白頭山：火山浩劫;"
+      "conv": "zh-cn:白头山;zh-tw:白頭山：半島浩劫;zh-hk:白頭山：火山浩劫;zh-mo:白頭山：火山浩劫;zh-sg:白头山：火山浩劫;"
     },
     {
       "original": "블루버스데이",
-      "conv": "zh-hans:致郁生日;zh-hant:至鬱生日;zh-cn:致郁生日;zh-tw:藍色生日;zh-hk:至鬱生日;zh-mo:至鬱生日;"
+      "conv": "zh-cn:致郁生日;zh-tw:藍色生日;"
     },
     {
       "original": "불도저에 탄 소녀",
-      "conv": "zh:推土機上的少女; zh-tw:推土機女孩; zh-cn:坐推土机的少女;"
+      "conv": "zh:推土機上的少女;zh-tw:推土機女孩;zh-cn:坐推土机的少女;"
     },
     {
       "original": "불한당: 나쁜 놈들의 세상",
-      "conv": "zh-hans:不汗党：坏家伙们的世界;zh-hant:不汗黨：壞傢伙們的世界;zh-cn:不汗党;zh-tw:不汗黨：地下秩序;"
+      "conv": "zh-hans:不汗党：坏家伙们的世界;zh:不汗黨：壞傢伙們的世界;zh-cn:不汗党;zh-tw:不汗黨：地下秩序;"
+    },
+    {
+      "original": "불꽃처럼 나비처럼",
+      "conv": "zh-cn:像火花像蝴蝶;zh-hk:像煙花像蝴蝶;"
     },
     {
       "original": "비상선언",
-      "conv": "zh-hans:非常宣言;zh-hant:非常宣言;zh-cn:非常宣言;zh-tw:緊急迫降;zh-hk:緊急迫降;zh-mo:緊急迫降;"
+      "conv": "zh-cn:非常宣言;zh-my:紧急迫降;zh-sg:紧急迫降;zh-tw:緊急迫降;zh-hk:緊急迫降;zh-mo:緊急迫降;"
     },
     {
       "original": "비스트",
-      "conv": "緝凶對決=>zh-hans:野兽;緝凶對決=>zh-hant:野獸;緝凶對決=>zh-cn:野兽;緝凶對決=>zh-tw:緝凶對決;緝凶對決=>zh-hk:野獸;緝凶對決=>zh-mo:野獸;"
+      "conv": "緝凶對決=>zh-cn:野兽;"
+    },
+    {
+      "original": "비공식작전",
+      "conv": "zh:非正式作戰;zh-cn:非正式作战;zh-my:赎命救援;zh-tw:贖命救援;zh-hk:救參的士;"
+    },
+    {
+      "original": "비와 당신의 이야기",
+      "conv": "zh-cn:雨和你的故事;zh-tw:如果雨之後;zh-hk:雨若尚在場;"
+    },
+    {
+      "original": "비닐하우스",
+      "conv": "zh-cn:塑料大棚;zh-tw:隱匿的真相;"
+    },
+    {
+      "original": "비밀의 언덕",
+      "conv": "zh-cn:秘密之丘;zh-tw:明恩的秘密;"
+    },
+    {
+      "original": "비밀은 없다",
+      "conv": "追兇倒數十五日=>zh-cn:没有秘密;"
     },
     {
       "original": "브로커",
-      "conv": "嬰兒轉運站=>zh-cn:掮客; 嬰兒轉運站=>zh-tw:嬰兒轉運站; 嬰兒轉運站=>zh-hk:孩子轉運站; 嬰兒轉運站=>zh-mo:孩子轉運站;"
+      "conv": "zh-tw:嬰兒轉運站;zh-sg:婴儿转运站;zh-hk:孩子轉運站;zh-mo:孩子轉運站;"
     },
     {
       "original": "브로커",
-      "conv": "孩子轉運站=>zh-cn:掮客; 孩子轉運站=>zh-tw:嬰兒轉運站; 孩子轉運站=>zh-hk:孩子轉運站; 孩子轉運站=>zh-mo:孩子轉運站;"
+      "conv": "嬰兒轉運站=>zh-cn:掮客;孩子轉運站=>zh-cn:掮客;"
+    },
+    {
+      "original": "번지점프를 하다",
+      "conv": "zh-cn:爱的蹦极;zh-tw:情約笨豬跳;zh-hk:情約笨豬跳;"
     },
     {
       "original": "범죄도시2",
-      "conv": "zh-hans:犯罪都市2;zh-hant:犯罪都市2;zh-cn:犯罪都市2;zh-tw:犯罪都市2;zh-hk:犯罪都市：極拳執法;zh-mo:犯罪都市：極拳執法;"
+      "conv": "zh-hans:犯罪都市2;zh-tw:犯罪都市2;zh-hk:犯罪都市：極拳執法;zh-mo:犯罪都市：極拳執法;"
+    },
+    {
+      "original": "범죄도시3",
+      "conv": "zh-hans:犯罪都市3;zh-tw:犯罪都市3;zh-hk:犯罪都市：鐵拳掃毒;"
+    },
+    {
+      "original": "범죄도시4",
+      "conv": "zh-hans:犯罪都市4;zh-tw:犯罪都市4;zh-hk:犯罪都市：鐵拳清算;"
+    },
+    {
+      "original": "범죄와의 전쟁: 나쁜놈들 전성시대",
+      "conv": "zh-cn:与犯罪的战争：坏家伙的全盛时代;zh-tw:罪時代;zh-hk:與犯罪的戰爭：壞傢伙的全盛時代 ;"
     },
     {
       "original": "보스 상륙 작전",
-      "conv": "zh-hans:反黑奇谋;zh-hant:反黑奇謀;zh-cn:反黑奇谋;zh-tw:老大檔案;"
+      "conv": "zh:反黑奇謀;zh-cn:反黑奇谋;zh-tw:老大檔案;"
     },
     {
       "original": "보이스",
       "conv": "zh-cn:通话惊魂;zh-tw:攔截聲命線;"
     },
     {
+      "original": "보트",
+      "conv": "霧港暗戰=>zh-cn:船;"
+    },
+    {
+      "original": "보희와 녹양",
+      "conv": "zh-cn:绿阳和少年;zh-tw:我想有個爸;"
+    },
+    {
       "original": "뺑반",
-      "conv": "zh:肇逃計畫;zh-hans:肇逃计划;zh-hant:肇逃計畫;zh-cn:逃组;zh-tw:飆風特警隊;zh-hk:飆風特警;zh-sg:肇逃计划;zh-mo:飆風特警;"
+      "conv": "zh:肇逃計畫;zh-cn:逃组;zh-tw:飆風特警隊;zh-hk:飆風特警;zh-sg:肇逃计划;zh-mo:飆風特警;"
     },
     {
       "original": "사랑따윈 필요(必要)없어",
-      "conv": "zh-hans:不需要爱情的夏天;zh-hant:不需要愛情的夏天;zh-cn:不需要爱情;zh-tw:不需要愛情的夏天;zh-hk:不需要愛情;zh-mo:不需要愛情;"
+      "conv": "zh-hans:不需要爱情的夏天;zh-cn:不需要爱情;zh-tw:不需要愛情的夏天;zh-hk:不需要愛情;zh-mo:不需要愛情;"
+    },
+    {
+      "original": "사랑을 놓치다",
+      "conv": "zh-cn:爱将逝;zh:錯過愛情;"
     },
     {
       "original": "사마리아",
-      "conv": "zh-hans:欲海慈航;zh-hant:援交天使;zh-cn:撒玛利亚女孩;zh-tw:援交天使;zh-hk:慾海慈航;zh-mo:慾海慈航;"
+      "conv": "zh-cn:撒玛利亚女孩;zh-sg:援交天使;zh-tw:援交天使;zh-hk:慾海慈航;zh-mo:慾海慈航;"
     },
     {
       "original": "사물의 비밀(事物의秘密)",
-      "conv": "zh-hans:事物的秘密;zh-hant:事物的秘密;zh-cn:事物的秘密;zh-tw:事物的秘密;zh-hk:不能愛的秘密;zh-mo:不能愛的秘密;"
+      "conv": "zh-cn:事物的秘密;zh-tw:嫩草的誘惑;zh-hk:不能愛的秘密;zh-mo:不能愛的秘密;"
+    },
+    {
+      "original": "사도",
+      "conv": "逆倫王朝=>zh-cn:思悼;逆倫王朝=>zh-hk:思悼;"
     },
     {
       "original": "삼진그룹 영어토익반",
-      "conv": "zh-cn:三振集团英语托业班;zh-tw:菜英文沒在怕;zh-hk:三振集團英語托業班;zh-mo:三振集團英語托業班;"
+      "conv": "zh-cn:三振集团英语托业班;zh-sg:三振姐妹并作战;zh-tw:菜英文沒在怕;zh:三振集團英語托業班;"
+    },
+    {
+      "original": "살아남은 아이",
+      "conv": "zh-cn:幸存的孩子;zh-hk:溺愛的替身;"
     },
     {
       "original": "서울대작전",
-      "conv": "zh-hans:极速首尔;zh-hant:極速首爾;zh-cn:首尔大作战;"
+      "conv": "zh-hans:极速首尔;zh-hant:極速首爾;zh-sg:急速首尔;zh-cn:首尔大作战;"
     },
     {
-      "original": "상사부일체(上師傅一體)",
-      "conv": "zh-hans:头师傅一体3;zh-hant:頭師傅一體3;zh-cn:头师傅一体3;zh-tw:野蠻師生3;zh-hk:隔離位係古惑仔3;zh-mo:隔離位係古惑仔3;"
+      "original": "서울의 봄",
+      "conv": "12.12：首爾之春=>zh-cn:首尔之春;"
     },
     {
       "original": "서복(徐福)",
-      "conv": "zh-hans:徐福;zh-hant:徐福;zh-cn:徐福;zh-tw:永生戰;zh-hk:複製人徐福;"
+      "conv": "zh-cn:徐福;zh-sg:永生战;zh-tw:永生戰;zh-hk:複製人徐福;"
     },
     {
       "original": "새드 무비",
-      "conv": "zh-hans:悲伤电影;zh-hant:悲傷電影;zh-cn:悲伤电影;zh-hk:真的愛你;zh-tw:戀人絮語;zh-mo:真的愛你;"
+      "conv": "zh:悲傷電影;zh-cn:悲伤电影;zh-tw:戀人絮語;zh-hk:真的愛你;zh-mo:真的愛你;"
     },
     {
       "original": "새해전야",
-      "conv": "zh-hans:新年前夜;zh-hant:新年前夕;zh-cn:新年前夜;zh-hk:新年前夕;zh-tw:今天決定我愛你;zh-mo:新年前夕;"
+      "conv": "zh-cn:新年前夜;zh-sg:今天决定我爱你;zh-tw:今天決定我愛你;zh-hk:新年前夕;zh-mo:新年前夕;"
     },
     {
       "original": "색즉시공(色卽是空)",
-      "conv": "zh-hans:色即是空;zh-hant:色即是空;zh-cn:色即是空;zh-tw:色即是空;zh-hk:我班Friend好搞嘢;zh-mo:我班Friend好搞嘢;"
-    },
-    {
-      "original": "색즉시공 2",
-      "conv": "zh-hans:色即是空2;zh-hant:色即是空2;zh-cn:色即是空2;zh-tw:色即是空2;zh-hk:我班Friend好搞嘢2;zh-mo:我班Friend好搞嘢2;"
+      "conv": "zh-hans:色即是空;zh-tw:色即是空;zh-hk:我班Friend好搞嘢;zh-mo:我班Friend好搞嘢;"
     },
     {
       "original": "생활의 발견",
-      "conv": "zh-cn:生活的发现; zh-hant:生活的發現; zh-tw:追憶失落大門; zh-hk:追憶失落大門;"
+      "conv": "zh-cn:生活的发现;zh:生活的發現;zh-tw:追憶失落大門;zh-hk:追憶失落大門;"
     },
     {
-      "original": "설국열차(雪國列車)/Snowpiercer",
-      "conv": "zh-hans:雪国列车;zh-hant:雪國列車;zh-cn:雪国列车;zh-tw:末日列車;zh-hk:雪國列車;zh-mo:雪國列車;"
+      "original": "생일",
+      "conv": "zh-tw:沒有你的生日;zh-sg:没有你的生日;zh-hk:沒有你的生日會;"
+    },
+    {
+      "original": "생일",
+      "conv": "沒有你的生日會=>zh-cn:生日;沒有你的生日=>zh-cn:生日;"
+    },
+    {
+      "original": "설국열차(雪國列車)}}/{{lang|en|Snowpiercer",
+      "conv": "zh:雪國列車;zh-cn:雪国列车;zh-my:末日列车;zh-tw:末日列車;zh-hk:末世列車;zh-mo:末世列車;"
+    },
+    {
+      "original": "설계자",
+      "conv": "超完美暗殺隊=>zh-cn:设计者;超完美暗殺隊=>zh-hk:意外;超完美暗殺隊=>zh-mo:意外;"
     },
     {
       "original": "섬",
-      "conv": "zh-hans:水上宾馆;zh-hant:水上賓館;zh-cn:水上宾馆;zh-tw:水上賓館;zh-hk:漂流慾室;zh-mo:漂流慾室;"
+      "conv": "zh-cn:水上宾馆;zh-tw:水上賓館;zh-hk:漂流慾室;zh-mo:漂流慾室;zh-my:漂流欲室;"
     },
     {
       "original": "세자매",
-      "conv": "zh-tw:我們三姊妹; zh-hk:虐是一家人;"
+      "conv": "zh-tw:我們三姊妹;zh-hk:虐是一家人;"
     },
     {
       "original": "세자매",
-      "conv": "我們三姊妹=>zh-cn:三姐妹; 虐是一家人=>zh-cn:三姐妹;"
+      "conv": "我們三姊妹=>zh-cn:三姐妹;虐是一家人=>zh-cn:三姐妹;"
     },
     {
       "original": "소설가의 영화",
-      "conv": "zh-tw:小說家電影; zh-hk:女作家的電影; zh-cn:小说家的电影;"
+      "conv": "zh-tw:小說家電影;zh-hk:女作家的電影;zh-cn:小说家的电影;"
     },
     {
       "original": "소원(素媛)",
-      "conv": "zh-hans:许愿; zh-hant:許願; zh-cn:许愿; zh-tw:希望：為愛重生; zh-hk:許願; zh-mo:許願;"
+      "conv": "zh-cn:素媛;zh-tw:希望：為愛重生;"
     },
     {
       "original": "소리도 없이",
-      "conv": "收屍人=>zh-cn:无声; 收屍人=>zh-tw:收屍人;收屍人=>zh-hk:無聲;收屍人=>zh-mo:無聲;"
+      "conv": "收屍人=>zh-cn:无声;"
     },
     {
       "original": "소울메이트",
-      "conv": "zh:灵魂伴侣;zh-cn:再见，我的灵魂伴侣; zh-tw:靈魂伴侶; zh-hk:微笑與夏溫; zh-mo:微笑與夏溫;"
+      "conv": "zh:灵魂伴侣;zh-cn:再见，我的灵魂伴侣;zh-tw:靈魂伴侶;zh-hk:微笑與夏溫;zh-mo:微笑與夏溫;"
+    },
+    {
+      "original": "소년들",
+      "conv": "zh:少年們;zh-cn:少年们;zh-tw:全羅道少年殺人事件;"
+    },
+    {
+      "original": "소년들",
+      "conv": "少年們=>zh-sg:冤狱;少年们=>zh-sg:冤狱;全羅道少年殺人事件=>zh-sg:冤狱;"
+    },
+    {
+      "original": "송어",
+      "conv": "zh-cn:鳟鱼;zh-tw:松魚;"
     },
     {
       "original": "수취인불명(收取人不明)",
-      "conv": "zh-hans:收取人不明;zh-hant:收取人不明;zh-cn:收取人不明;zh-tw:收取人不明;zh-hk:打回頭的情書;zh-mo:打回頭的情書;"
+      "conv": "zh-cn:收件人不详;zh-tw:收取人不明;zh-hk:打回頭的情書;zh-mo:打回頭的情書;"
     },
     {
       "original": "수색자",
-      "conv": "zh-hans:搜索者;zh-hant:搜索者;zh-cn:搜索者;zh-tw:絕命警戒區;zh-hk:搜索者;zh-mo:搜索者;"
+      "conv": "zh:搜索者;zh-tw:絕命警戒區;"
     },
     {
       "original": "쉬리",
-      "conv": "生死諜變=>zh-hans:鱼;生死諜變=>zh-hant:魚;生死諜變=>zh-cn:鱼;生死諜變=>zh-tw:魚;鱼=>zh-hk:生死諜變;鱼=>zh-mo:生死諜變;"
+      "conv": "生死諜變=>zh-tw:魚;生死谍变=>zh-tw:魚;"
     },
     {
       "original": "스토리 오브 와인",
-      "conv": "zh-hans:葡萄酒的故事;zh-hant:葡萄酒的故事;zh-cn:葡萄酒的故事;zh-tw:葡萄酒的故事;zh-hk:抒情酒吧;zh-mo:抒情酒吧;"
+      "conv": "zh-cn:葡萄酒的故事;zh-tw:抒情酒吧;zh-hk:抒情酒吧;zh-mo:抒情酒吧;"
     },
     {
       "original": "스파이",
-      "conv": "zh-hans:间谍 (2013年电影);zh-hant:間諜 (2013年電影);zh-cn:K先生;zh-tw:特務K先生;zh-hk:特務戇金;zh-mo:特務戇金;"
+      "conv": "zh-cn:K先生;zh-tw:特務K先生;zh-hk:特務戇金;zh-mo:特務戇金;"
     },
     {
       "original": "스위치",
-      "conv": "大明星多重宇宙=>zh-cn:Switch;大明星多重宇宙=>zh-tw:大明星多重宇宙;大明星多重宇宙=>zh-hk:倒轉人生;大明星多重宇宙=>zh-mo:倒轉人生;"
+      "conv": "zh-tw:大明星多重宇宙;zh-hk:倒轉人生;zh-sg:倒转人生;"
     },
     {
       "original": "스위치",
-      "conv": "倒轉人生=>zh-cn:Switch;倒轉人生=>zh-tw:大明星多重宇宙;倒轉人生=>zh-hk:倒轉人生;倒轉人生=>zh-mo:倒轉人生;"
+      "conv": "大明星多重宇宙=>zh-cn:Switch;倒轉人生=>zh-cn:Switch;倒转人生=>zh-cn:Switch;"
     },
     {
       "original": "스마트폰을 떨어뜨렸을 뿐인데",
-      "conv": "zh-hans:虽然只是弄丢了手机;雖然只是弄丟了手機;zh-tw:原本以為只是手機掉了;"
+      "conv": "zh-cn:虽然只是弄丢了手机;zh-hant:原本以為只是手機掉了;"
     },
     {
       "original": "Speed Racer",
-      "conv": "zh-hans:极速赛车手;zh-hant:駭速快手;zh-cn:极速赛车手;zh-tw:駭速快手;zh-hk:極速賽車手;zh-mo:極速賽車手;"
+      "conv": "zh-cn:极速赛车手;zh-tw:駭速快手;zh-hk:極速賽車手;zh-mo:極速賽車手;"
     },
     {
       "original": "슬픔보다 더 슬픈 이야기",
-      "conv": "zh-hans:比悲伤更悲伤的故事;zh-hant:比悲傷更悲傷的故事;zh-cn:比悲伤更悲伤的故事;zh-tw:最悲傷的故事;zh-hk:比悲傷更悲傷的故事;zh-mo:比悲傷更悲傷的故事;"
+      "conv": "zh-cn:比悲伤更悲伤的故事;zh-tw:最悲傷的故事;zh-hk:比悲傷更悲傷的故事;zh-mo:比悲傷更悲傷的故事;"
+    },
+    {
+      "original": "슬로우 비디오",
+      "conv": "zh-cn:慢放镜头;zh-tw:宅男慢半拍;"
+    },
+    {
+      "original": "시간이탈자",
+      "conv": "zh-cn:时间脱离者;zh-tw:時空叛逃者;"
+    },
+    {
+      "original": "시실리 2km",
+      "conv": "zh-cn:时失两公里;zh-tw:我們全村都不是人;zh-hk:我們全村都不是人;"
     },
     {
       "original": "시월애(時越愛)",
-      "conv": "zh-hans:时越爱;zh-hant:觸不到的戀人;zh-cn:时越爱;zh-tw:觸不到的戀人;zh-hk:觸不到的戀人;zh-mo:觸不到的戀人;"
+      "conv": "zh:触不到的恋人;zh-cn:时越爱;zh-tw:觸不到的戀人;zh-hk:觸不到的戀人;zh-mo:觸不到的戀人;zh-sg:穿越爱情海;"
+    },
+    {
+      "original": "시라노;연애조작단",
+      "conv": "zh-cn:恋爱操作团;zh-tw:戀愛操作團;zh:大鼻子情聖：戀愛操作團;zh-sg:恋爱达人;"
+    },
+    {
+      "original": "시동",
+      "conv": "青春催落去=>zh-cn:始动;青春催落去=>zh-tw:青春催落去;青春催落去=>zh-sg:启动;"
+    },
+    {
+      "original": "시민덕희",
+      "conv": "zh-cn:市民德熙;zh-tw:金派特攻隊;"
     },
     {
       "original": "신세계(新世界)",
-      "conv": "zh-hans:新世界; zh-hant:新世界; zh-cn:新世界; zh-tw:闇黑新世界; zh-hk:新世界;"
+      "conv": "zh-cn:新世界;zh-tw:闇黑新世界;"
     },
     {
       "original": "실미도(實尾島)",
-      "conv": "zh-hans:实尾島風云;zh-hant:實尾島風雲;zh-cn:实尾島風云;zh-tw:實尾島風雲;zh-hk:實尾島;zh-mo:實尾島;"
+      "conv": "實尾島風雲=>zh-cn:实尾岛;實尾島風雲=>zh-hk:實尾島;實尾島風雲=>zh-mo:實尾島;"
     },
     {
       "original": "실제 상황(實際狀況)",
-      "conv": "虛擬復仇事件=>zh-cn:实际状况; 虛擬復仇事件=>zh-tw:虛擬復仇事件; 虛擬復仇事件=>zh-hk:真相; 虛擬復仇事件=>zh-mo:真相;"
+      "conv": "虛擬復仇事件=>zh-cn:实际状况;虛擬復仇事件=>zh-tw:虛擬復仇事件;虛擬復仇事件=>zh-hk:真相;虛擬復仇事件=>zh-mo:真相;"
     },
     {
       "original": "심야(深夜)의 FM",
-      "conv": "zh-hans:深夜FM;zh-hant:深夜FM;zh-cn:深夜FM;zh-tw:深夜FM;zh-hk:殺錄直播;zh-mo:殺錄直播;"
+      "conv": "zh-cn:深夜FM;zh-tw:深夜FM;zh-hk:殺錄直播;zh-mo:殺錄直播;zh-sg:播音夜，杀人夜;"
     },
     {
       "original": "싱크홀",
-      "conv": "zh-hans:地陷;zh-hant:地陷;zh-cn:地陷;zh-tw:天坑;zh-hk:危樓深淵;zh-mo:危樓深淵;"
+      "conv": "zh-cn:地陷;zh-sg:天坑;zh-tw:天坑;zh-hk:危樓深淵;zh-mo:危樓深淵;"
+    },
+    {
+      "original": "싱글 인 서울",
+      "conv": "zh:單身首爾;zh-sg:单身首尔;zh-tw:首爾單身日記;"
     },
     {
       "original": "싸이보그지만 괜찮아",
-      "conv": "zh-hans:再造人之恋;zh-hant:再造人之戀;zh-cn:再造人之恋;zh-tw:賽柏格之戀;zh-hk:再造人之戀;zh-sg:爱上绝食女友;zh-mo:再造人之戀;"
+      "conv": "zh:再造人之恋;zh-cn:机器人之恋;zh-tw:賽柏格之戀;zh-hk:再造人之戀;zh-mo:再造人之戀;zh-sg:爱上绝食女友;"
     },
     {
       "original": "쌍화점(雙花店)",
-      "conv": "zh-hans:霜花店;zh-hant:霜花店;zh-cn:霜花店;zh-tw:霜花店：朕的男人;zh-hk:霜花店;zh-mo:霜花店;"
+      "conv": "zh-cn:霜花店;zh-tw:霜花店：朕的男人;zh-hk:霜花店;zh-mo:霜花店;"
     },
     {
       "original": "성난 변호사",
-      "conv": "zh-hans:愤怒的律师;zh-hant:憤怒的律師;zh-cn:愤怒的律师;zh-tw:正義代言人;"
+      "conv": "zh:憤怒的律師;zh-cn:愤怒的律师;zh-tw:正義代言人;"
+    },
+    {
+      "original": "쎄시봉",
+      "conv": "zh-cn:如此美好;zh-hk:巨聲架勢堂;zh-tw:初戀三重奏;"
+    },
+    {
+      "original": "아가씨",
+      "conv": "zh-sg:下女的诱惑;zh-tw:下女的誘惑;zh-hk:下女誘罪;"
+    },
+    {
+      "original": "아가씨",
+      "conv": "下女的诱惑=>zh-cn:小姐;下女的誘惑=>zh-cn:小姐;下女誘罪=>zh-cn:小姐;"
     },
     {
       "original": "아내가 결혼(結婚)했다",
-      "conv": "zh-hans:老婆结婚了;zh-hant:老婆結婚了;zh-cn:老婆结婚了;zh-tw:我的花心老婆;zh-hk:老婆結婚了;zh-mo:老婆結婚了;"
+      "conv": "zh:老婆結婚了;zh-cn:老婆结婚了;zh-tw:我的花心老婆;"
+    },
+    {
+      "original": "아는 여자",
+      "conv": "zh-cn:球爱咖啡屋;zh-tw:球愛咖啡屋;zh-hk:我的特別女友;"
     },
     {
       "original": "아랑",
-      "conv": "zh-hans:鬼魅兒;zh-hant:鬼魅兒;zh-cn:鬼魅兒;zh-tw:鬼魅兒;zh-hk:鬼迷4步半;zh-mo:鬼迷4步半;"
+      "conv": "zh-cn:鬼魅儿;zh-tw:鬼魅兒;zh-hk:鬼迷4步半;zh-mo:鬼迷4步半;"
     },
     {
       "original": "아이 캔 스피크",
-      "conv": "zh:I Can Speak; zh-tw:花漾奶奶秀英文; zh-hk:不能說的故事...; zh-cn:我能说;"
+      "conv": "zh:I Can Speak;zh-tw:花漾奶奶秀英文;zh-hk:不能說的故事...;zh-cn:我能说;"
     },
     {
       "original": "아저씨",
-      "conv": "zh-hans:大叔;zh-hant:大叔;zh-cn:孤胆特工;zh-tw:大叔;zh-hk:殺手代父;zh-mo:殺手代父;"
+      "conv": "zh-cn:孤胆特工;zh-hk:殺手代父;zh-mo:殺手代父;"
+    },
+    {
+      "original": "아저씨",
+      "conv": "孤胆特工=>zh-tw:大叔;殺手代父=>zh-tw:大叔;"
+    },
+    {
+      "original": "아워 바디",
+      "conv": "zh-cn:我们的身体;zh-hk:貼近你的身影;"
+    },
+    {
+      "original": "아홉살 인생",
+      "conv": "zh-cn:九岁人生;zh-hk:童行歲月;"
+    },
+    {
+      "original": "아프리카",
+      "conv": "zh-cn:F4沙胆妹;zh-tw:辣妹兵團;"
+    },
+    {
+      "original": "안나푸르나",
+      "conv": "愛在安娜普納峰=>zh-cn:安纳普尔纳;"
+    },
+    {
+      "original": "안시성",
+      "conv": "浴血圍城88天=>zh-cn:安市城;"
     },
     {
       "original": "알바트로스",
-      "conv": "zh-hans:阿尔巴特罗斯;zh-hant:阿爾巴特羅斯;zh-cn:阿尔巴特罗斯;zh-tw:阿爾巴特羅斯;zh-hk:宣戰;zh-mo:宣戰;"
+      "conv": "zh:阿爾巴特羅斯;zh-cn:阿尔巴特罗斯;zh-hk:宣戰;zh-mo:宣戰;"
     },
     {
-      "original": "어쿠스틱",
-      "conv": "zh-hans:木吉他：20岁之歌Acoustic;zh-hant:木吉他：20歲之歌Acoustic;zh-cn:木吉他：20岁之歌Acoustic;zh-tw:木吉他：20歲之歌Acoustic;zh-hk:木結他：20歲之歌Acoustic;zh-mo:木結他：20歲之歌Acoustic;"
-    },
-    {
-      "original": "압꾸정",
-      "conv": "整形帝王=>zh-cn:狎鸥亭报告;整形帝王=>zh-tw:整形帝王;整形帝王=>zh-hk:肌智整容大叔;整形帝王=>zh-mo:肌智整容大叔;"
+      "original": "암살 (2015년 영화)",
+      "conv": "復國者聯盟=>zh-cn:暗杀;復國者聯盟=>zh-tw:暗殺;"
     },
     {
       "original": "압꾸정",
-      "conv": "狎鸥亭报告=>zh-cn:狎鸥亭报告;狎鸥亭报告=>zh-tw:整形帝王;狎鸥亭报告=>zh-hk:肌智整容大叔;狎鸥亭报告=>zh-mo:肌智整容大叔;"
-    },
-    {
-      "original": "압꾸정",
-      "conv": "肌智整容大叔=>zh-cn:狎鸥亭报告;肌智整容大叔=>zh-tw:整形帝王;肌智整容大叔=>zh-hk:肌智整容大叔;肌智整容大叔=>zh-mo:肌智整容大叔;"
+      "conv": "zh-cn:狎鸥亭报告;zh-sg:整形帝王;zh-tw:整形帝王;zh-hk:肌智整容大叔;zh-mo:肌智整容大叔;"
     },
     {
       "original": "악인전",
-      "conv": "zh-cn:恶人传;zh-tw:極惡對決;zh-hk:惡霸·魔警·殺人狂;"
+      "conv": "zh-cn:恶人传;zh-sg:极恶对决;zh-tw:極惡對決;zh-hk:惡霸·魔警·殺人狂;"
+    },
+    {
+      "original": "악마를 보았다",
+      "conv": "zh-cn:看见恶魔;zh-tw:看見魔鬼;"
+    },
+    {
+      "original": "악마들",
+      "conv": "zh-cn:恶魔们;zh-tw:極惡變身;"
+    },
+    {
+      "original": "악질경찰",
+      "conv": "zh-hans:恶霸警察;zh-tw:一怒為紅顏;zh-hk:貪腐刑警;"
+    },
+    {
+      "original": "양자물리학",
+      "conv": "黯夜門徒=>zh-cn:量子物理学;"
     },
     {
       "original": "어린 신부(新婦)",
-      "conv": "zh-hans:我的小小新娘;zh-hant:幼齒老婆Oh My God;zh-cn:我的小小新娘;zh-tw:幼齒老婆Oh My God;zh-hk:吾妻16歲;zh-mo:吾妻16歲;"
+      "conv": "zh:幼齒老婆;zh-cn:我的小小新娘;zh-tw:幼齒老婆Oh My God;zh-hk:吾妻16歲;zh-mo:吾妻16歲;zh-my:吾妻16岁;"
+    },
+    {
+      "original": "어른도감",
+      "conv": "zh-cn:青葱时代;zh-tw:成人圖鑑;"
+    },
+    {
+      "original": "어쩌면 우린 헤어졌는지 모른다",
+      "conv": "zh:或許我們分手了;zh-cn:或许我们分手了;zh-tw:分手後不要做朋友;"
+    },
+    {
+      "original": "어깨너머의 연인",
+      "conv": "zh-cn:肩外的恋人;zh-hk:慾望女郎;"
+    },
+    {
+      "original": "어쿠스틱",
+      "conv": "zh:木吉他：20歲之歌Acoustic;zh-cn:纯乐;zh-tw:木吉他：20歲之歌;zh-hk:木結他：20歲之歌;"
+    },
+    {
+      "original": "언니",
+      "conv": "復仇血天使=>zh-cn:姐姐;"
     },
     {
       "original": "X-Men Origins: Wolverine",
-      "conv": "zh-hans:X战警前传：金刚狼;zh-hant:X戰警：金鋼狼;zh-cn:X战警前传：金刚狼;zh-tw:X戰警：金鋼狼;zh-hk:變種特攻：狼人外傳;zh-mo:變種特攻：狼人外傳;"
+      "conv": "zh-cn:X战警前传：金刚狼;zh-sg:X战警：金钢狼;zh-tw:X戰警：金鋼狼;zh-hk:變種特攻：狼人外傳;zh-mo:變種特攻：狼人外傳;"
     },
     {
       "original": "여고괴담(女高怪談)",
@@ -905,131 +1477,175 @@
     },
     {
       "original": "여고괴담 두번(番)째 이야기",
-      "conv": "zh-hans:女高怪谈2 鬼恋人;zh-hant:女高怪談2 鬼戀人;zh-cn:女高怪谈2：交换日记;zh-tw:鬼戀人;zh-hk:幽異戀人;zh-mo:幽異戀人;"
-    },
-    {
-      "original": "여고괴담 두번(番)째 이야기",
-      "conv": "女高怪談2=>zh-cn:女高怪谈2：交换日记;女高怪談2=>zh-tw:鬼戀人;女高怪談2=>zh-hk:幽異戀人;女高怪談2=>zh-mo:幽異戀人;"
-    },
-    {
-      "original": "여고괴담 두번(番)째 이야기",
-      "conv": "女高怪谈2=>zh-cn:女高怪谈2：交换日记;女高怪谈2=>zh-tw:鬼戀人;女高怪谈2=>zh-hk:幽異戀人;女高怪谈2=>zh-mo:幽異戀人;"
+      "conv": "zh-hans:女高怪谈2;zh-hant:女高怪談2;zh:女高怪談2 鬼戀人;zh-cn:女高怪谈2：交换日记;zh-sg:女高怪谈2：鬼恋人;zh-tw:鬼戀人;zh-hk:幽異戀人;zh-mo:幽異戀人;"
     },
     {
       "original": "여고괴담 3: 여우계단",
-      "conv": "zh:女高怪談3：狐狸階梯; zh-tw:斷魂梯; zh-hk:魔階斷魂; zh-cn:女高怪谈3：狐狸阶梯;"
+      "conv": "zh:女高怪談3：狐狸階梯;zh-tw:斷魂梯;zh-hk:魔階斷魂;zh-sg:怨望鬼梯;zh-cn:女高怪谈3：狐狸阶梯;"
     },
     {
       "original": "여고괴담 4: 목소리",
-      "conv": "zh:女高怪談4：聲音; zh-cn:女高怪谈4：声音; zh-my:怨望鬼声;"
+      "conv": "zh:女高怪談4：聲音;zh-cn:女高怪谈4：声音;zh-sg:怨望鬼声;zh-my:怨望鬼声;"
     },
     {
       "original": "여고괴담 4: 목소리",
-      "conv": "女高怪談4：聲音=>zh-tw:陰聲; 女高怪谈4：声音=>zh-tw:陰聲; 怨望鬼声=>zh-tw:陰聲; 怨望鬼聲=>zh-tw:陰聲;"
+      "conv": "女高怪談4：聲音=>zh-tw:陰聲;女高怪谈4：声音=>zh-tw:陰聲;怨望鬼声=>zh-tw:陰聲;怨望鬼聲=>zh-tw:陰聲;"
     },
     {
       "original": "여고괴담 5: 동반자살",
-      "conv": "zh-tw:女高怪談5：結伴自殺; zh-cn:女高怪谈5：结伴自杀;"
+      "conv": "zh-tw:女高怪談5：結伴自殺;zh-cn:女高怪谈5：结伴自杀;"
     },
     {
       "original": "여고괴담 여섯번째 이야기: 모교",
-      "conv": "zh:女高怪談6：母校; zh-tw:死亡教室：母校; zh-cn:女高怪谈重启：母校;"
+      "conv": "zh:女高怪談6：母校;zh-tw:死亡教室：母校;zh-sg:女高怪谈：母校;zh-cn:女高怪谈重启：母校;"
+    },
+    {
+      "original": "여행자",
+      "conv": "zh-cn:崭新的生活;zh-tw:等待回家的日子;zh-hk:等愛我的人;"
+    },
+    {
+      "original": "여행자의 필요",
+      "conv": "zh-cn:旅行者的需求;zh-hk:旅人的需要;"
     },
     {
       "original": "역린(逆鱗)",
-      "conv": "逆鱗：刺王危城=>zh-hans:逆鳞;逆鱗：刺王危城=>zh-hant:逆鱗;逆鱗：刺王危城=>zh-cn:逆鳞;逆鱗：刺王危城=>zh-tw:逆鱗：刺王危城;逆鱗：刺王危城=>zh-hk:殺王者;逆鱗：刺王危城=>zh-mo:殺王者;"
+      "conv": "zh-tw:逆鱗：刺王危城;zh-hk:殺王者;zh-mo:殺王者;zh-my:杀王者;"
     },
     {
       "original": "역린(逆鱗)",
-      "conv": "殺王者=>zh-hans:逆鳞;殺王者=>zh-hant:逆鱗;殺王者=>zh-cn:逆鳞;殺王者=>zh-tw:逆鱗：刺王危城;殺王者=>zh-hk:殺王者;殺王者=>zh-mo:殺王者;"
+      "conv": "逆鱗：刺王危城=>zh-cn:逆鳞;殺王者=>zh-cn:逆鳞;"
     },
     {
       "original": "연가시",
-      "conv": "zh-hans:铁线虫入侵;zh-hant:鐵線蟲;zh-cn:铁线虫入侵;zh-tw:鐵線蟲;zh-hk:鐵線蟲;zh-mo:鐵線蟲;"
+      "conv": "zh-hans:铁线虫入侵;zh-tw:鐵線蟲入侵;zh:鐵線蟲;"
     },
     {
       "original": "연애 빠진 로맨스",
-      "conv": "zh-tw:配對遊戲; zh-cn:恋爱缺席的罗曼史;"
+      "conv": "zh-tw:配對遊戲;zh-cn:恋爱缺席的罗曼史;"
     },
     {
       "original": "연애소설(戀愛小說)",
-      "conv": "zh-hans:恋爱小說;zh-hant:向左愛，向右愛;zh-cn:恋爱小說;zh-tw:向左愛，向右愛;zh-hk:向左愛，向又愛;zh-mo:向左愛，向又愛;"
+      "conv": "zh-cn:恋爱小说;zh-tw:向左愛，向右愛;zh-hk:向左愛，向又愛;zh-mo:向左愛，向又愛;"
+    },
+    {
+      "original": "열정같은소리하고있네",
+      "conv": "zh-cn:假装热情;zh-tw:菜鳥的逆襲;zh-hk:職場大翻身;"
     },
     {
       "original": "엑시트",
-      "conv": "zh:EXIT;zh-hans:极限逃生;zh-hant:極限逃生;zh-cn:极限逃生;zh-tw:極限逃生;zh-hk:EXIT：極限逃生;zh-mo:EXIT：極限逃生;"
+      "conv": "zh:EXIT;zh-hans:极限逃生;zh-tw:極限逃生;zh-hk:EXIT：極限逃生;zh-mo:EXIT：極限逃生;"
     },
     {
       "original": "영어 완전 정복(英語完全征服)",
-      "conv": "zh:英語完全征服;zh-hans:英语完全征服;zh-hant:英語完全征服;zh-cn:欲望教室;zh-tw:歪妹無敵追男記;zh-hk:補習天王;zh-mo:補習天王;"
+      "conv": "zh:英語完全征服;zh-sg:英语完全征服;zh-cn:欲望教室;zh-tw:歪妹無敵追男記;zh-hk:補習天王;zh-mo:補習天王;"
+    },
+    {
+      "original": "영화는 영화다",
+      "conv": "zh:電影就是電影;zh-cn:电影就是电影;zh-hk:酷大佬與串打星;"
     },
     {
       "original": "앵커",
-      "conv": "死亡預報=>zh-hans:主播;死亡預報=>zh-hant:主播;死亡預報=>zh-cn:主播;死亡預報=>zh-tw:死亡預報;死亡預報=>zh-hk:主播;死亡預報=>zh-mo:主播;"
+      "conv": "死亡預報=>zh-cn:主播;死亡預報=>zh-tw:死亡預報;"
     },
     {
       "original": "애비규환",
-      "conv": "zh-cn:悲喜交加;zh-tw:呼喚老爸;zh-hk:悲喜交加;zh-mo:悲喜交加;"
+      "conv": "zh-cn:悲喜交加;zh-tw:呼喚老爸;"
     },
     {
       "original": "오! 수정",
-      "conv": "zh-cn:处女心经; zh-hk:處女心經;"
+      "conv": "zh-cn:处女心经;zh-hk:處女心經;"
     },
     {
       "original": "오! 수정",
-      "conv": "等待的日子=>zh-cn:处女心经; 等待的日子=>zh-hk:處女心經;"
+      "conv": "等待的日子=>zh-cn:处女心经;等待的日子=>zh-hk:處女心經;"
     },
     {
       "original": "오감도(五感圖)",
-      "conv": "zh-hans:五感图;zh-hant:五感圖;zh-cn:五感图;zh-tw:情慾五感圖;zh-hk:五感圖;zh-mo:五感圖;"
+      "conv": "zh-hant:五感圖;zh-cn:五感图;zh-tw:情慾五感圖;"
     },
     {
       "original": "오마주",
-      "conv": "女影人生=>zh-tw:女影人生; 女影人生=>zh-cn:致敬;"
+      "conv": "女影人生=>zh-cn:致敬;"
     },
     {
-      "original": "映画 桜蘭高校ホスト部",
-      "conv": "zh-hans:樱兰高校男公关部;zh-hant:櫻蘭高校男公關部;zh-cn:樱兰高校男公关部;zh-tw:歡迎光臨櫻蘭高校;zh-hk:櫻蘭高校男公關部;zh-mo:櫻蘭高校男公關部;"
+      "original": "{{lang|ja|映画 桜蘭高校ホスト部",
+      "conv": "zh-hant:櫻蘭高校男公關部;zh-cn:樱兰高校男公关部;zh-tw:歡迎光臨櫻蘭高校;"
     },
     {
       "original": "오버 더 레인보우",
-      "conv": "zh-hans:跨越彩虹;zh-hant:明日戀愛預告;zh-cn:跨越彩虹;zh-tw:明日戀愛預告;zh-hk:明日戀愛預告;zh-mo:明日戀愛預告;"
+      "conv": "zh-sg:跨越彩虹;zh-cn:跨跃彩虹;zh-tw:明日戀愛預告;zh-hk:明日戀愛預告;zh-mo:明日戀愛預告;"
+    },
+    {
+      "original": "오빠생각",
+      "conv": "zh-cn:想念哥哥;zh-sg:记忆中的美好歌声;zh-tw:記憶中的美好歌聲;"
     },
     {
       "original": "오래된 정원",
-      "conv": "zh-cn:古老的庭院; zh-tw:亂世狂愛;"
+      "conv": "zh-cn:古老的庭院;zh-tw:亂世狂愛;"
     },
     {
       "original": "오싹한 연애(吳싹한 戀愛)",
-      "conv": "zh-hans:我的见鬼女友;zh-hant:我的見鬼女友;zh-cn:我的见鬼女友;zh-tw:我的見鬼女友;zh-hk:我女友見到鬼;zh-mo:我女友見到鬼;"
+      "conv": "zh-hans:我的见鬼女友;zh-tw:我的見鬼女友;zh-hk:我女友見到鬼;zh-mo:我女友見到鬼;"
+    },
+    {
+      "original": "오아시스",
+      "conv": "zh:綠洲曳影;zh-tw:情慾綠洲;zh-hk:愛的綠洲;zh-cn:绿洲;"
     },
     {
       "original": "오케이! 마담",
-      "conv": "zh:Okay! 夫人;zh-cn:OK 老板娘;zh-tw:特務搞飛機;zh-hk:特務打爆機;zh-mo:特務打爆機;"
+      "conv": "zh:Okay! 夫人;zh-hans:Okay！夫人;zh-cn:OK 老板娘;zh-sg:特务搞飞机;zh-tw:特務搞飛機;zh-hk:特務打爆機;zh-mo:特務打爆機;"
     },
     {
       "original": "오! 문희",
       "conv": "zh:名侦探奶奶;zh-cn:哦！文姬;zh-tw:名偵探奶奶;zh-hk:哦！文姬;zh-mo:哦！文姬;"
     },
     {
+      "original": "와니와 준하",
+      "conv": "zh:娃妮和俊河;zh-cn:青涩恋爱;zh-hk:戀愛素描;"
+    },
+    {
       "original": "옥희의 영화",
-      "conv": "zh-cn:玉熙的电影; zh-tw:談談情，拍拍片; zh-hk:玉熙的映畫;"
+      "conv": "zh-cn:玉熙的电影;zh-tw:談談情，拍拍片;zh-hk:玉熙的映畫;"
     },
     {
-      "original": "우리 선희",
-      "conv": "zh-tw:我們善熙; zh-cn:我们善熙; zh-hk:我們的善熙;"
-    },
-    {
-      "original": "우리 선희",
-      "conv": "那一年，我們都愛過的女孩=>zh-tw:我們善熙; 那一年，我們都愛過的女孩=>zh-cn:我们善熙; 那一年，我們都愛過的女孩=>zh-hk:我們的善熙;"
+      "original": "옥수역 귀신",
+      "conv": "zh-cn:玉水站之鬼;zh-sg:玉水站之鬼;zh-tw:鬼車站;"
     },
     {
       "original": "우는 남자",
-      "conv": "zh-hans:哭泣的男人;zh-hant:殺手的品格;zh-cn:哭泣的男人;zh-hk:殺手的品格;"
+      "conv": "zh-hant:殺手的品格;zh-sg:哭泣的男人;zh-cn:哭泣的男人;"
+    },
+    {
+      "original": "우리 선희",
+      "conv": "zh:那一年，我們都愛過的女孩;zh-tw:我們善熙;zh-tw:我們善熙;zh-cn:我们善熙;zh-hk:我們的善熙;"
+    },
+    {
+      "original": "우리는 형제입니다",
+      "conv": "zh:我們是兄弟;zh-cn:我们是兄弟;zh-tw:他不冏，他是我兄弟;"
+    },
+    {
+      "original": "우리는 천국에 갈 순 없지만 사랑은 할 수 있겠지",
+      "conv": "zh-cn:没有天堂，但有爱情;zh-hk:天堂不在彼岸;"
+    },
+    {
+      "original": "우상",
+      "conv": "zh-tw:權力殺機;zh-hk:陰謬;"
+    },
+    {
+      "original": "우상",
+      "conv": "權力殺機=>zh-cn:偶像;陰謬=>zh-cn:偶像;"
+    },
+    {
+      "original": "유체이탈자",
+      "conv": "zh-cn:灵魂脱离者;zh-sg:猎魂者;zh-tw:獵魂者;"
+    },
+    {
+      "original": "유령",
+      "conv": "zh-cn:幽灵号潜艇;zh-tw:行動代號：幽靈;"
     },
     {
       "original": "올드보이",
-      "conv": "zh-hans:老男孩;zh-hant:原罪犯;zh-cn:老男孩;zh-tw:原罪犯;zh-hk:原罪犯;zh-mo:原罪犯;"
+      "conv": "zh-cn:老男孩;zh-sg:情兽;zh-my:原罪犯;zh-tw:原罪犯;zh-hk:原罪犯;zh-mo:原罪犯;"
     },
     {
       "original": "올빼미",
@@ -1037,51 +1653,75 @@
     },
     {
       "original": "외출(外出)",
-      "conv": "zh-hans:四月的雪;zh-hant:四月的雪;zh-cn:外出;zh-tw:外出;zh-hk:外出;zh-mo:外出;"
+      "conv": "zh:四月的雪;zh-cn:外出;zh-tw:外出;zh-hk:外出;zh-mo:外出;zh-sg:外出;"
     },
     {
       "original": "외계+인 1부",
-      "conv": "zh-hans:外星+人;zh-hant:外星+人;zh-cn:外星+人;zh-tw:外星+人;zh-hk:祖宗膠戰外星人;zh-mo:祖宗膠戰外星人;"
+      "conv": "zh-cn:外星+人;zh-tw:外星+人;zh-hk:祖宗膠戰外星人;zh-mo:祖宗膠戰外星人;"
+    },
+    {
+      "original": "외계+인 2부",
+      "conv": "zh-cn:外星+人2;zh-tw:外星+人2：回到未來;zh-hk:祖宗膠戰外星人2;zh-mo:祖宗膠戰外星人2;"
     },
     {
       "original": "용의자",
-      "conv": "zh-hans:嫌疑者;zh-hant:嫌疑者;zh-cn:嫌疑者;zh-tw:嫌疑者;zh-hk:嫌疑犯;zh-sg:嫌疑者;zh-mo:嫌疑者;"
+      "conv": "zh:嫌疑者;zh-cn:嫌疑人;zh-tw:諜影殺機;zh-hk:嫌疑犯;"
+    },
+    {
+      "original": "용감한 시민",
+      "conv": "zh-cn:勇敢的市民;zh-tw:一拳鮮師：勇敢的市民;"
     },
     {
       "original": "은교(銀嬌)",
-      "conv": "zh-hans:银娇;zh-hant:銀嬌;zh-cn:银娇;zh-tw:蘿莉塔：情陷謬思;zh-hk:銀嬌;zh-mo:銀嬌;"
+      "conv": "zh:銀嬌;zh-cn:银娇;zh-tw:蘿莉塔：情陷謬思;"
     },
     {
       "original": "은밀하게 위대하게(隱密하게 偉大하게)",
-      "conv": "zh-hans:伟大的隐藏者;zh-hant:偉大的隱藏者;zh-cn:伟大的隐藏者;zh-tw:偉大的隱藏者;zh-hk:3個特攻美少年;zh-mo:3個特攻美少年;"
+      "conv": "zh-cn:伟大的隐藏者;zh-tw:偉大的隱藏者;zh-hk:3個特攻美少年;zh-mo:3個特攻美少年;zh-sg:三个特工美少男;"
+    },
+    {
+      "original": "이끼",
+      "conv": "青苔：死亡異域=>zh-cn:苔藓;"
     },
     {
       "original": "이재수의 난(李載洙의難)",
-      "conv": "zh-hans:李载洙之难;zh-hant:李載洙之難;zh-cn:李载洙之难;zh-tw:李載洙之難;zh-hk:傲氣蓋天;zh-mo:傲氣蓋天;"
+      "conv": "zh-hant:李載洙之難;zh-cn:李载洙之难;zh-hk:傲氣蓋天;zh-mo:傲氣蓋天;"
     },
     {
       "original": "이상한 나라의 수학자",
-      "conv": "zh-hans:奇怪国家的数学家;zh-hant:奇怪國家的數學家;zh-cn:奇怪国家的数学家;zh-tw:奇怪的數學家;zh-hk:奇怪的數學家;zh-mo:奇怪的數學家;"
+      "conv": "zh:奇怪國家的數學家;zh-cn:奇怪国家的数学家;zh-sg:奇怪的数学家;zh-tw:奇怪的數學家;zh-hk:奇怪的數學家;zh-mo:奇怪的數學家;"
     },
     {
       "original": "인생은 아름다워",
-      "conv": "zh-hans:人生多美丽;zh-hant:人生多美麗;zh-cn:人生多美丽;zh-tw:人生真美麗;zh-hk:給自己的情歌;zh-mo:給自己的情歌;"
+      "conv": "zh-cn:人生多美丽;zh-sg:人生真美丽;zh-tw:人生真美麗;zh-hk:給自己的情歌;zh-mo:給自己的情歌;"
     },
     {
       "original": "인형사(人形師)",
-      "conv": "zh-hans:人形师;zh-hant:靈異人形館;zh-cn:人形师;zh-tw:靈異人形館;zh-hk:人形咒;zh-sg:冤魂鬼娃;zh-mo:人形咒;"
+      "conv": "zh-cn:人形师;zh-tw:靈異人形館;zh-hk:人形咒;zh-mo:人形咒;zh-sg:冤魂鬼娃;"
     },
     {
       "original": "임금님의 사건수첩",
-      "conv": "zh-hans:王的记事簿;zh-hant:王的偵探事件簿;zh-cn:王的记事簿;zh-tw:王的偵探事件簿;"
+      "conv": "zh-cn:王的记事簿;zh-tw:王的偵探事件簿;"
+    },
+    {
+      "original": "인질",
+      "conv": "zh-tw:綁架影帝黃晸珉;zh-sg:人质：影帝黄晸玟;"
+    },
+    {
+      "original": "인질",
+      "conv": "綁架影帝黃晸珉=>zh-cn:人质;綁架影帝黃晸珉=>zh-hk:人質;"
     },
     {
       "original": "일단 뛰어",
-      "conv": "zh-hans:走为上策;zh-hant:走為上策;zh-cn:走为上策;zh-tw:天降橫財;"
+      "conv": "zh:走為上策;zh-cn:走为上策;zh-tw:天降橫財;"
+    },
+    {
+      "original": "1987",
+      "conv": "zh-cn:1987：黎明到来的那一天;zh-sg:1987：黎明到来的那一天;zh-tw:1987：逆權公民;zh-hk:1987：黎明到來的那一天;"
     },
     {
       "original": "옥희의 영화",
-      "conv": "zh-hans:玉熙的电影;zh-hant:玉熙的電影;zh-cn:玉熙的电影;zh-tw:談談情，拍拍片;"
+      "conv": "zh:玉熙的電影;zh-cn:玉熙的电影;zh-tw:談談情，拍拍片;"
     },
     {
       "original": "육사오",
@@ -1089,231 +1729,363 @@
     },
     {
       "original": "자칼이 온다",
-      "conv": "zh-hans:胡狼来了;zh-hant:胡狼來了;zh-cn:胡狼来了;zh-tw:女狼出任務;zh-hk:胡狼來了;zh-mo:胡狼來了;"
+      "conv": "zh:胡狼來了;zh-cn:胡狼来了;zh-tw:女狼出任務;"
     },
     {
       "original": "자백",
-      "conv": "zh-tw:局中局; zh-hk:真假佈局;"
+      "conv": "zh-tw:局中局;zh-sg:局中局;zh-hk:真假佈局;"
     },
     {
       "original": "자백",
-      "conv": "局中局=>zh-cn:自白; 真假佈局=>zh-cn:自白;"
+      "conv": "局中局=>zh-cn:自白;真假佈局=>zh-cn:自白;"
     },
     {
       "original": "자유의 언덕",
-      "conv": "相約在首爾=>zh-cn:自由之丘; 相約在首爾=>zh-tw:自由之丘; 相約在首爾=>zh-hk:自由之丘; 相約在首爾=>zh-mo:自由之丘; 相約在首爾=>zh-sg:自由之丘; 相約在首爾=>zh-my:自由之丘;"
+      "conv": "zh:相約在首爾;zh-hans:自由之丘;zh-hant:自由之丘;"
     },
     {
       "original": "작업의 정석(作業의定席)",
-      "conv": "zh-hans:恋爱高手;zh-hant:戀愛高手;zh-cn:恋爱高手;zh-tw:搭訕的法則;zh-hk:決戰偷心男;zh-mo:決戰偷心男;"
+      "conv": "zh:戀愛高手;zh-cn:恋爱高手;zh-tw:搭訕的法則;zh-hk:決戰偷心男;zh-mo:決戰偷心男;zh-my:情挑偷心男;zh-sg:情挑偷心男;"
     },
     {
       "original": "잘 알지도 못하면서",
-      "conv": "zh-cn:懂得又如何; zh-hk:電影節桃花劫;"
+      "conv": "zh-cn:懂得又如何;zh-hk:電影節桃花劫;"
+    },
+    {
+      "original": "잠",
+      "conv": "zh-tw:鬼夢遊;zh-hk:枕邊怪嚇;zh-sg:鬼梦游;"
+    },
+    {
+      "original": "잠",
+      "conv": "枕邊怪嚇=>zh-cn:眠;鬼夢遊=>zh-cn:眠;鬼梦游=>zh-cn:眠;"
     },
     {
       "original": "장르만 로맨스",
-      "conv": "zh:只有體裁的羅曼史; zh-tw:作家我就爛; zh-cn:只有形式的罗曼史;"
-    },
-    {
-      "original": "장르만 로맨스",
-      "conv": "只有体裁的罗曼史=>zh-tw:作家我就爛; 只有体裁的罗曼史=>zh-cn:只有形式的罗曼史;"
-    },
-    {
-      "original": "장르만 로맨스",
-      "conv": "只有形式的羅曼史=>zh-tw:作家我就爛; 只有形式的羅曼史=>zh-cn:只有形式的罗曼史;"
+      "conv": "zh:只有形式的羅曼史;zh-tw:作家我就爛;zh-hk:典型浪漫;zh-cn:只有形式的罗曼史;"
     },
     {
       "original": "장수상회",
-      "conv": "zh-hant:長壽商會;zh-hans:长寿商会;zh-tw:愛的禮讚;zh-hk:無事忘家族;"
+      "conv": "zh:長壽商會;zh-cn:长寿商会;zh-tw:愛的禮讚;zh-hk:無事忘家族;"
     },
     {
       "original": "장화, 홍련(薔花, 紅蓮)",
-      "conv": "zh-hans:蔷花，红莲;zh-hant:薔花, 紅蓮;zh-cn:蔷花，红莲;zh-tw:鬼魅;zh-hk:姐魅情深;zh-mo:姐魅情深;"
+      "conv": "zh:薔花, 紅蓮;zh-cn:蔷花，红莲;zh-tw:鬼魅;zh-hk:姐魅情深;zh-mo:姐魅情深;zh-sg:姐魅情深;"
     },
     {
       "original": "전우치(田禹治)",
-      "conv": "zh-hans:《田禹治》;zh-hant:《田禹治》;zh-cn:《田禹治》;zh-tw:田禹治：超時空爭霸;zh-hk:《田禹治》;zh-mo:《田禹治》;"
+      "conv": "田禹治：超時空爭霸=>zh-cn:田禹治;"
     },
     {
       "original": "젊은 남자(男子)",
-      "conv": "zh-hans:年轻人;zh-hant:年輕人;zh-cn:年轻人;zh-tw:年輕人;zh-hk:觸不到的一夜情;zh-mo:觸不到的一夜情;"
+      "conv": "zh-hk:觸不到的一夜情;zh-mo:觸不到的一夜情;"
+    },
+    {
+      "original": "제보자",
+      "conv": "zh:舉報者;zh-cn:举报者;zh-tw:揭密風暴;zh-hk:揭密風暴;"
     },
     {
       "original": "젠틀맨",
-      "conv": "紳探追緝令=>zh-hans:绅士;紳探追緝令=>zh-hant:紳士;紳探追緝令=>zh-cn:绅士;紳探追緝令=>zh-tw:紳探追緝令;紳探追緝令=>zh-hk:Gentleman;紳探追緝令=>zh-mo:Gentleman;"
+      "conv": "紳探追緝令=>zh-cn:绅士;"
     },
     {
       "original": "점(占)쟁이들",
-      "conv": "zh-hans:占卜師們;zh-hant:占卜師們;zh-cn:占卜師們;zh-tw:驅鬼特攻隊;zh-hk:占卜師們;zh-mo:占卜師們;"
+      "conv": "zh:占卜師們;zh-cn:占卜师们;zh-tw:驅鬼特攻隊;"
     },
     {
       "original": "접속(-{接續}-)",
-      "conv": "zh-hans:接续;zh-hant:接續;zh-cn:接续;zh-tw:接續;zh-hk:傷心街角戀人;zh-mo:傷心街角戀人;"
+      "conv": "zh-cn:伤心街角恋人;zh-tw:接續;zh-hk:傷心街角戀人;zh-mo:傷心街角戀人;"
     },
     {
       "original": "정사(情事)",
-      "conv": "zh-hans:汉城晚娘;zh-hant:情事;zh-cn:汉城晚娘;zh-tw:情事;zh-hk:婚外初夜;zh-mo:婚外初夜;"
-    },
-    {
-      "original": "정직한 후보2",
-      "conv": "zh-hans:正直的候选人2;zh-hant:正直的候選人2;zh-cn:正直的候选人2;zh-tw:政客誠實中2;zh-hk:誠實選舉媽2;zh-mo:誠實選舉媽2;"
+      "conv": "zh-cn:汉城晚娘;zh-tw:情事;zh-hk:婚外初夜;zh-mo:婚外初夜;zh-sg:婚外初夜;"
     },
     {
       "original": "정직한 후보",
-      "conv": "zh-hans:正直的候选人;zh-hant:正直的候選人;zh-cn:正直的候选人;zh-tw:政客誠實中;zh-hk:誠實選舉媽;zh-mo:誠實選舉媽;"
+      "conv": "zh:正直的候選人;zh-cn:正直的候选人;zh-my:政客诚实中;zh-tw:政客誠實中;zh-hk:誠實選舉媽;zh-mo:誠實選舉媽;"
+    },
+    {
+      "original": "증인",
+      "conv": "5時恭候的證人=>zh-tw:證人;5時恭候的證人=>zh-cn:证人;"
     },
     {
       "original": "조선명탐정(朝鮮名探偵): 각시투구꽃의 비밀(秘密)",
-      "conv": "zh-cn:朝鲜名侦探：高山乌头花的秘密;zh-tw:朝鮮名探長：烈女門秘辛;zh-hk:朝鮮名偵探：高山烏頭花的秘密;zh-mo:朝鮮名偵探：高山烏頭花的秘密;"
+      "conv": "zh:朝鮮名偵探：高山烏頭花的秘密;zh-cn:朝鲜名侦探：高山乌头花的秘密;zh-tw:朝鮮名探長：烈女門秘辛;"
     },
     {
       "original": "조선명탐정(朝鮮名探偵): 사라진 놉의 딸",
-      "conv": "zh-hk:朝鮮名偵探：奴隸的女兒;zh-mo:朝鮮名偵探：奴隸的女兒;zh-cn:朝鲜名侦探：奴隶的女儿;zh-tw:朝鮮密探出任務;"
+      "conv": "zh:朝鮮名偵探：奴隸的女兒;zh-cn:朝鲜名侦探：奴隶的女儿;zh-sg:朝鲜名侦探：消失的奴隶的女儿;zh-tw:朝鮮密探出任務;"
     },
     {
       "original": "조선명탐정(朝鮮名探偵): 흡혈괴마(吸血怪魔)의 비밀(秘密)",
-      "conv": "zh-hk:朝鮮名偵探：吸血怪魔的秘密;zh-mo:朝鮮名偵探：吸血怪魔的秘密;zh-cn:朝鲜名侦探：吸血怪魔的秘密;zh-tw:朝鮮名偵探3：吸血鬼的祕密;"
+      "conv": "zh:朝鮮名偵探：吸血怪魔的秘密;zh-cn:朝鲜名侦探：吸血怪魔的秘密;zh-tw:朝鮮名偵探3：吸血鬼的祕密;"
     },
     {
       "original": "조제",
-      "conv": "zh-cn:Jose与虎与鱼们;zh-tw:喬瑟與老虎、魚;zh-hk:不能忘記的名字;zh-mo:不能忘記的名字;"
+      "conv": "zh-cn:Jose与虎与鱼们;zh-tw:喬瑟與老虎、魚;zh-hk:不能忘記的名字;zh-mo:不能忘記的名字;zh-my:不能忘记的名字;"
+    },
+    {
+      "original": "조제",
+      "conv": "Jose与虎与鱼们=>zh-sg:乔瑟;喬瑟與老虎、魚=>zh-sg:乔瑟;不能忘記的名字=>zh-sg:乔瑟;"
+    },
+    {
+      "original": "조작된 도시",
+      "conv": "zh:被操縱的都市;zh-cn:被操纵的城市;zh-sg:虚拟城市;zh-tw:虛擬城市;zh-hk:虛擬都市;"
+    },
+    {
+      "original": "조용한 가족",
+      "conv": "zh-cn:死不张扬离奇失魂事件;zh-tw:瘋狂飯店殺人夜;zh-hk:死不張揚離奇失魂事件;"
+    },
+    {
+      "original": "죄 많은 소녀",
+      "conv": "zh:負罪少女;zh-cn:负罪少女;zh-tw:女高校生死了以後;"
+    },
+    {
+      "original": "좋은사람있으면 소개시켜줘",
+      "conv": "zh:他喜歡的是你;zh-cn:他喜欢的是你;zh-tw:愛你不後悔;zh-hk:愛你不後悔;"
     },
     {
       "original": "죽어도 좋은 경험: 천사여 악녀가 되라",
-      "conv": "zh:死也是好的經驗：天使女成為惡女; zh-cn:死也是很好的经验：天使女變惡女; zh-tw:妻子的復仇;"
+      "conv": "zh:死也是好的經驗：天使女成為惡女;zh-cn:死也是很好的经验：天使女變惡女;zh-tw:妻子的復仇;"
     },
     {
       "original": "죽여주는 여자",
       "conv": "zh-hk:神女觀音;zh-tw:巴克斯奶奶的性福配方;zh-cn:酒神小姐;"
     },
     {
+      "original": "죽이고 싶은",
+      "conv": "zh-cn:仇杀病房;zh-tw:殺不到的仇人;"
+    },
+    {
       "original": "죽지않는 인간들의 밤",
-      "conv": "zh-hk:那夜凌晨，我老公死極死唔去;zh-tw:老公不是人;zh-cn:活死人之夜;"
+      "conv": "zh-hk:那夜凌晨，我老公死極死唔去;zh-tw:老公不是人;zh-my:老公不是人;zh-cn:活死人之夜;"
+    },
+    {
+      "original": "죽거나 혹은 나쁘거나",
+      "conv": "zh-cn:没好死;zh-tw:或死或壞;"
     },
     {
       "original": "좋아해줘",
       "conv": "zh-hk:放閃男女;zh-tw:按讚情人;zh-cn:请点赞;"
     },
     {
-      "original": "중독(中毒",
-      "conv": "zh-hans:《中毒》;zh-hant:《中毒》;zh-cn:《中毒》;zh-tw:《中毒》;zh-hk:純愛中毒;zh-mo:純愛中毒;"
+      "original": "좋은 놈, 나쁜 놈, 이상한 놈",
+      "conv": "zh-hk:風塵三俠決戰地獄門;zh-tw:神偷．獵人．斷指客;zh-cn:好家伙、坏家伙、怪家伙;"
+    },
+    {
+      "original": "좋은 놈, 나쁜 놈, 이상한 놈",
+      "conv": "神偷·獵人·斷指客=>zh-hk:風塵三俠決戰地獄門;神偷·獵人·斷指客=>zh-cn:好家伙、坏家伙、怪家伙;"
+    },
+    {
+      "original": "중독(中毒)",
+      "conv": "純愛中毒=>zh-cn:中毒;純愛中毒=>zh-tw:中毒;"
     },
     {
       "original": "G.I. Joe 2: Retaliation",
-      "conv": "zh-hans:特种部队2：复仇;zh-hant:特種部隊2：正面對決;zh-cn:特种部队2：复仇;zh-tw:特種部隊2：正面對決;zh-hk:義勇群英：毒蛇反擊戰;zh-mo:義勇群英：毒蛇反擊戰;"
+      "conv": "zh-cn:特种部队2：全面反击;zh-sg:特种部队2：正面对决;zh-tw:特種部隊2：正面對決;zh-hk:義勇群英：毒蛇反擊戰;zh-mo:義勇群英：毒蛇反擊戰;"
     },
     {
       "original": "G.I. Joe: The Rise of Cobra",
-      "conv": "zh-hans:特种部队：眼镜蛇的崛起;zh-hant:特種部隊：眼鏡蛇的崛起;zh-cn:特種部隊:眼鏡蛇的崛起;zh-tw:特種部隊：眼鏡蛇的崛起;zh-hk:義勇群英之毒蛇風暴;zh-mo:義勇群英之毒蛇風暴;"
+      "conv": "zh-sg:特种部队：眼镜蛇的崛起;zh-cn:特种部队：眼镜蛇的崛起;zh-tw:特種部隊：眼鏡蛇的崛起;zh-hk:義勇群英之毒蛇風暴;zh-mo:義勇群英之毒蛇風暴;"
     },
     {
       "original": "지금은맞고그때는틀리다",
-      "conv": "zh-cn:这时对，那时错; zh-tw:這時對，那時錯; zh-hk:愛得對愛得錯;"
+      "conv": "zh-cn:这时对，那时错;zh-tw:這時對，那時錯;zh-hk:愛得對愛得錯;"
+    },
+    {
+      "original": "지금 만나러 갑니다",
+      "conv": "zh:現在，很想見你;zh-sg:现在，很想见你;zh-cn:现在去见你;zh-tw:雨妳再次相遇;zh-hk:藉著雨點再愛你;"
     },
     {
       "original": "지푸라기라도 잡고 싶은 짐승들",
-      "conv": "zh-sg:抓住稻草的野兽;zh-my:抓住稻草的野兽;zh-cn:抓住稻草的野兽;zh-tw:抓住救命稻草的的野獸們;zh-hk:籠子裡的野獸;"
+      "conv": "zh-sg:抓住救命稻草的野兽们;zh-cn:抓住稻草的野兽;zh-tw:抓住救命稻草的野獸們;zh-hk:籠子裡的野獸;"
     },
     {
       "original": "집으로...",
-      "conv": "zh-hans:爱·回家;zh-hant:愛·回家;zh-cn:爱·回家;zh-tw:有你真好;zh-hk:愛·回家;zh-sg:爱·回家;zh-mo:愛·回家;"
+      "conv": "zh-cn:爱·回家;zh-tw:有你真好;zh-hk:愛·回家;zh-sg:爱·回家;zh-mo:愛·回家;"
+    },
+    {
+      "original": "질투는 나의 힘",
+      "conv": "zh-cn:嫉妒是我的力量;zh-tw:慾望情骸;"
     },
     {
       "original": "짱",
-      "conv": "zh-hans:麻辣老大;zh-hant:青春無悔;zh-cn:麻辣老大;zh-tw:青春無悔;zh-hk:麻辣老大;zh-mo:麻辣老大;"
+      "conv": "zh-cn:出位教师;zh-tw:青春無悔;zh-hk:麻辣老大;zh-mo:麻辣老大;"
     },
     {
       "original": "쩨쩨한 로맨스",
-      "conv": "zh-hans:吝啬罗曼史;zh-hant:吝嗇羅曼史;zh-cn:吝啬罗曼史;zh-tw:談性不說愛？;"
+      "conv": "zh:吝嗇羅曼史;zh-cn:吝啬罗曼史;zh-tw:談性不說愛？;"
     },
     {
       "original": "차형사(車刑事)",
-      "conv": "zh-hans:车警官;zh-hant:車警官;zh-cn:车警官;zh-tw:醜男大變身;zh-hk:型警做MODEL;zh-mo:型警做MODEL;"
+      "conv": "zh:車警官;zh-cn:车警官;zh-sg:卧底肥探;zh-tw:醜男大變身;zh-hk:型警做MODEL;zh-mo:型警做MODEL;"
+    },
+    {
+      "original": "차우",
+      "conv": "zh-cn:食人猪;zh-sg:食人野兽;zh-my:食人野兽;zh-tw:駭人巨獸;"
     },
     {
       "original": "찬실이는 복도 많지",
       "conv": "zh:燦實也多福;zh-cn:灿实也多福;zh-tw:福氣啦！燦實;zh-hk:幸運是她;zh-mo:幸運是她;"
     },
     {
-      "original": "첫사랑 사수 궐기대회",
-      "conv": "zh-hans:我的野蛮初恋;zh-hant:我的野蠻初戀;zh-cn:我的野蛮初恋;zh-tw:瘋狂初戀;zh-hk:我的野蠻初戀;zh-mo:我的野蠻初戀;"
+      "original": "창궐(猖獗)",
+      "conv": "zh-cn:猖獗;zh-tw:屍落之城;zh-hk:屍殺帝國;zh-sg:尸杀帝国;"
     },
     {
-      "original": "창궐(猖獗)",
-      "conv": "zh-hans:猖獗;zh-hant:猖獗;zh-cn:猖獗;zh-tw:屍落之城;zh-hk:屍殺帝國;"
+      "original": "처녀들의 저녁식사",
+      "conv": "zh-cn:处女晚餐;zh-tw:開心見性;"
+    },
+    {
+      "original": "천박사 퇴마 연구소: 설경의 비밀",
+      "conv": "千博士驱魔研究所：雪景的秘密=>zh-tw:附身;千博士驱魔研究所：雪景的秘密=>zh-sg:附身;"
+    },
+    {
+      "original": "첫사랑 사수 궐기대회",
+      "conv": "zh-tw:我的野蠻初戀;zh-cn:我的野蛮初恋;zh-sg:疯狂初恋;zh-hk:瘋狂初戀;"
     },
     {
       "original": "청춘만화(青春漫畵)",
-      "conv": "zh-hans:青春漫画;zh-hant:青春漫畫;zh-cn:青春漫画;zh-tw:青春漫畫;zh-hk:情迷戇豬男;zh-mo:情迷戇豬男;"
+      "conv": "zh-cn:青春漫画;zh-tw:青春漫畫;zh-hk:情迷戇豬男;zh-mo:情迷戇豬男;"
+    },
+    {
+      "original": "청년경찰",
+      "conv": "zh-cn:青年警察;zh-tw:菜鳥警校生;zh-hk:青年警察;zh-sg:青年警察;"
     },
     {
       "original": "최종병기(最終兵器) 활",
-      "conv": "zh-hans:最终兵器：弓;zh-hant:最終兵器：弓;zh-cn:最终兵器：弓;zh-tw:弓箭之戰;zh-hk:最終兵器：弓;zh-mo:最終兵器：弓;"
+      "conv": "zh:最終兵器：弓;zh-cn:最终兵器：弓;zh-sg:弓：王者之箭;zh-tw:弓箭之戰;"
+    },
+    {
+      "original": "최선의 삶",
+      "conv": "zh-cn:最好的生活;zh-tw:飄零人生;"
     },
     {
       "original": "친구(親舊) 2",
-      "conv": "zh-hans:朋友2;zh-hant:朋友2;zh-cn:朋友2;zh-tw:朋友2：繼承者時代;zh-hk:朋友2;zh-mo:朋友2;"
+      "conv": "zh-cn:朋友2;zh-tw:朋友2：繼承者時代;zh-hk:朋友2：繼承者時代;"
     },
     {
       "original": "친절(親切)한 금자(金子)씨",
-      "conv": "zh-hans:亲切的金子;zh-hant:親切的金子;zh-cn:亲切的金子;zh-tw:李英愛之選擇;zh-hk:親切的金子;zh-mo:親切的金子;"
+      "conv": "zh-cn:亲切的金子;zh-tw:李英愛之選擇;zh-hk:親切的金子;zh-mo:親切的金子;"
     },
     {
       "original": "침입자",
       "conv": "zh-cn:侵入者;zh-tw:詭妹;zh-hk:惡·迴家;zh-mo:惡·迴家;"
     },
     {
+      "original": "초록물고기",
+      "conv": "zh-cn:绿鱼;zh-tw:生死邊緣;zh-hk:黑道初哥;"
+    },
+    {
+      "original": "초인",
+      "conv": "越過尼采，遇見你=>zh-cn:超人;"
+    },
+    {
       "original": "카리스마 탈출기(脫出記)",
-      "conv": "zh-hans:校园女王妃;zh-hant:校園女王妃;zh-cn:校园女王妃;zh-tw:校園女王妃;zh-hk:插班師姐 II：搞嘢校園;zh-mo:插班師姐 II：搞嘢校園;"
+      "conv": "zh:校园女王妃;zh-cn:圣诞出逃记;zh-tw:校園女王妃;zh-hk:插班師姐 II：搞嘢校園;zh-mo:插班師姐 II：搞嘢校園;zh-my:插班师姐II：搞嘢校园;"
     },
     {
       "original": "카트",
-      "conv": "zh-hans:賣場女王站起來;zh-hant:賣場女王站起來;zh-cn:购物车;zh-tw:失業女王聯盟;zh-hk:逆權師奶;zh-mo:賣場女王站起來;"
+      "conv": "zh:賣場女王站起來;zh-cn:购物车;zh-tw:失業女王聯盟;zh-hk:逆權師奶;zh-sg:逆权师奶;"
+    },
+    {
+      "original": "카운트",
+      "conv": "zh-sg:拳力逆转;zh-tw:拳力倒數;"
+    },
+    {
+      "original": "카운트",
+      "conv": "拳力逆转=>zh-cn:Count;拳力倒數=>zh-cn:Count;"
+    },
+    {
+      "original": "크리스마스 캐럴",
+      "conv": "zh:聖誕頌歌;zh-cn:圣诞颂歌;zh-tw:失控正義;"
     },
     {
       "original": "클레어의 카메라",
-      "conv": "zh-cn:克莱尔的相机; zh-tw:克萊兒的相機; zh-hk:嘉兒的照相機;"
+      "conv": "zh-cn:克莱尔的相机;zh-tw:克萊兒的相機;zh-hk:嘉兒的照相機;"
     },
     {
       "original": "클로젯",
-      "conv": "zh-cn:衣橱;zh-tw:陰櫃;zh-hk:凶櫃;zh-mo:凶櫃;"
+      "conv": "zh-sg:阴橱;zh-tw:陰櫥;zh-hk:凶櫃;zh-mo:凶櫃;"
     },
     {
       "original": "클로젯",
-      "conv": "陰櫃=>zh-cn:衣橱; 凶櫃=>zh-cn:衣橱;"
+      "conv": "陰櫥=>zh-cn:衣橱;凶櫃=>zh-cn:衣橱;"
     },
     {
       "original": "콜",
       "conv": "zh-cn:声命线索;zh-tw:聲命線索;zh-hk:The Call：超時空通話;zh-mo:The Call：超時空通話;"
     },
     {
+      "original": "롤러코스터",
+      "conv": "繫緊你的安全帶=>zh-cn:云霄飞车;"
+    },
+    {
+      "original": "콘크리트 유토피아",
+      "conv": "zh-cn:混凝土乌托邦;zh-tw:水泥烏托邦：末日浩劫;zh-hk:烏托邦浩劫;zh-sg:乌托邦浩劫;zh:水泥烏托邦;"
+    },
+    {
       "original": "퀵",
-      "conv": "zh-hans:快递惊魂;zh-hant:快遞驚魂;zh-cn:快递惊魂;zh-tw:快遞驚魂;zh-hk:生死快遞;zh-mo:生死快遞;"
+      "conv": "zh-cn:快递惊魂;zh-tw:快遞驚魂;zh-hk:生死快遞;zh-mo:生死快遞;"
     },
     {
       "original": "킹메이커",
-      "conv": "zh:王者制造：选战之狐;zh-hans:王者制造;zh-hant:王者製造;zh-cn:王者制造;zh-tw:王者製造;zh-hk:影子造王者;zh-mo:影子造王者;zh-sg:造王者;"
+      "conv": "zh:王者制造：选战之狐;zh-cn:王者制造;zh-tw:王者製造;zh-hk:影子造王者;zh-mo:影子造王者;zh-sg:造王者;"
+    },
+    {
+      "original": "킹콩을 들다",
+      "conv": "zh-cn:举起金刚;zh-hk:美麗壯舉;"
+    },
+    {
+      "original": "킬링 로맨스",
+      "conv": "zh:殺戮羅曼史;zh-cn:杀戮罗曼史;zh-hk:浪漫特攻隊;"
+    },
+    {
+      "original": "컴백홈",
+      "conv": "笑子當老大=>zh-cn:归乡;笑子當老大=>zh-tw:笑子當老大;"
+    },
+    {
+      "original": "캐치미",
+      "conv": "zh-cn:偷心贼;zh-hk:偷心叛侶;zh-tw:偷心戀人;"
     },
     {
       "original": "타짜: 신(神)의 손",
-      "conv": "zh-hans:老千2：神之手;zh-hant:老千2：神之手;zh-cn:老千2：神之手;zh-tw:千王新世紀;zh-hk:千術之神;zh-mo:千術之神;"
+      "conv": "zh-sg:老千：神之手;zh-cn:老千2：神之手;zh-tw:千王新世紀;zh-hk:千術之神;zh-mo:千術之神;zh-my:千术之神;"
     },
     {
       "original": "타워",
-      "conv": "zh-hans:摩天楼;zh-hant:摩天樓;zh-cn:摩天楼;zh-tw:火燒108大樓;zh-hk:火海108;zh-mo:火海108;"
+      "conv": "zh:摩天樓;zh-cn:摩天楼;zh-sg:火烧摩天楼;zh-tw:火燒108大樓;zh-hk:火海108;zh-mo:火海108;"
+    },
+    {
+      "original": "타겟",
+      "conv": "zh-tw:千萬別開門;zh-sg:千万别开门;"
+    },
+    {
+      "original": "타겟",
+      "conv": "千萬別開門=>zh-cn:目标;千万别开门=>zh-cn:目标;"
+    },
+    {
+      "original": "탈출: 프로젝트 사일런스",
+      "conv": "zh-sg:寂噤计划;zh-tw:寂噤計畫;zh-hk:末日廝殺橋;"
+    },
+    {
+      "original": "탈출: 프로젝트 사일런스",
+      "conv": "寂噤计划=>zh-cn:寂静;寂噤計畫=>zh-cn:寂静;末日廝殺橋=>zh-cn:寂静;"
+    },
+    {
+      "original": "탈주",
+      "conv": "绝地逃生=>zh-cn:逃脱;絕地逃生=>zh-cn:逃脱;"
     },
     {
       "original": "태극기(太極旗) 휘날리며",
-      "conv": "zh-hans:太极旗飘扬;zh-hant:太極旗－生死兄弟;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-mo:太極旗飄揚：生死有情;"
+      "conv": "zh:太極旗飄揚;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-mo:太極旗飄揚：生死有情;"
     },
     {
       "original": "태양(太陽)은 없다",
-      "conv": "zh-hans:沒有太阳;zh-hant:沒有太陽;zh-cn:日出城市;zh-tw:日出城市;zh-hk:日出城市;zh-mo:日出城市;"
+      "conv": "zh:沒有太陽;zh-cn:日出城市;zh-tw:日出城市;zh-hk:日出城市;zh-mo:日出城市;"
     },
     {
       "original": "택시운전사",
-      "conv": "zh-cn:出租车司机;zh-tw:我只是個計程車司機;zh-hk:逆權司機;zh-mo:逆權司機;"
+      "conv": "zh-cn:出租车司机;zh-tw:我只是個計程車司機;zh-hk:逆權司機;zh-mo:逆權司機;zh-sg:逆权司机;"
     },
     {
       "original": "터널",
@@ -1321,23 +2093,23 @@
     },
     {
       "original": "터널",
-      "conv": "隧道 (電影)=>zh-tw:失控隧道;隧道 (電影)=>zh-hk:活埋35夜;隧道 (電影)=>zh-mo:活埋35夜;"
+      "conv": "失控隧道=>zh-cn:隧道;活埋35夜=>zh-cn:隧道;"
     },
     {
-      "original": "터널",
-      "conv": "失控隧道=>zh-cn:隧道; 活埋35夜=>zh-cn:隧道;"
-    },
-    {
-      "original": "투사부일체(鬪師傅一體)",
-      "conv": "zh-hans:头师傅一体2;zh-hant:頭師傅一體2;zh-cn:头师傅一体2;zh-tw:野蠻師生2;zh-hk:隔離位係古惑仔2;zh-mo:隔離位係古惑仔2;"
+      "original": "투 가이즈",
+      "conv": "zh-cn:两个坏小子;zh-tw:瘋狂黑社會;"
     },
     {
       "original": "투캅스",
-      "conv": "zh-hans:两个警察;zh-hant:兩個警察;zh-cn:两个警察;zh-tw:兩個警察;zh-hk:特警冤家;zh-mo:特警冤家;"
+      "conv": "zh-cn:两个警察;zh-tw:兩個警察;zh-hk:特警冤家;zh-mo:特警冤家;"
     },
     {
       "original": "트라이앵글",
-      "conv": "zh-hans:三角;zh-hant:三角;zh-cn:三角;zh-tw:三角;zh-hk:盜寶三角錯;zh-mo:盜寶三角錯;"
+      "conv": "zh-cn:三角;zh-tw:三角;zh-hk:盜寶三角錯;zh-mo:盜寶三角錯;"
+    },
+    {
+      "original": "특종: 량첸살인기",
+      "conv": "zh:獨家報導：良辰殺人記;zh-tw:奪命頭條;zh-cn:独家报道：良辰杀人记;"
     },
     {
       "original": "튜브(Tube)",
@@ -1345,23 +2117,43 @@
     },
     {
       "original": "특송",
-      "conv": "zh-cn:特送;zh-tw:極速快遞;zh-hk:極速快遞;zh-mo:極速快遞;"
+      "conv": "zh-cn:特送;zh-sg:极速快递;zh-tw:極速快遞;zh-hk:極速快遞;zh-mo:極速快遞;"
+    },
+    {
+      "original": "특별시민",
+      "conv": "zh-cn:特别市民;zh-tw:超級市長;zh:特別市民;"
     },
     {
       "original": "파수꾼",
-      "conv": "zh-hans:守望者;zh-hant:守望者;zh-cn:守望者;zh-tw:那一夜，青春褪色守望者;zh-hk:青春夜行;zh-mo:青春夜行;"
+      "conv": "zh-cn:守望者;zh-tw:那一夜，青春褪色;zh-hk:青春夜行;zh-mo:青春夜行;zh-my:青春夜行;"
     },
     {
       "original": "파파로티",
-      "conv": "zh-hans:帕瓦罗蒂;zh-hant:帕帕羅蒂;zh-cn:我的帕瓦罗蒂;zh-tw:帕帕羅蒂;zh-hk:帕帕羅蒂;zh-mo:帕帕羅蒂;"
+      "conv": "zh:帕帕羅蒂;zh-cn:我的帕瓦罗蒂;zh-tw:黑道小子巨星夢;"
+    },
+    {
+      "original": "파이프라인",
+      "conv": "霹靂油俠=>zh-cn:管道;"
+    },
+    {
+      "original": "파일럿",
+      "conv": "zh-tw:變身機長;zh-sg:变身机长;zh-hk:男航女機師"
+    },
+    {
+      "original": "파일럿",
+      "conv": "變身機長=>zh-cn:飞行员;变身机长=>zh-cn:飞行员;男航女機師=>zh-cn:飞行员"
     },
     {
       "original": "펜트하우스 코끼리",
-      "conv": "zh-hans:阁楼大象;zh-hant:縱慾亂愛;zh-cn:阁楼大象;zh-tw:縱慾亂愛;zh-hk:閣樓大象;zh-mo:閣樓大象;"
+      "conv": "zh-cn:阁楼大象;zh-tw:縱慾亂愛;zh:閣樓大象;"
     },
     {
       "original": "퍼펙트 게임",
       "conv": "zh-cn:完美对垒;zh-tw:決戰投手丘;zh-hk:Perfect Game;"
+    },
+    {
+      "original": "퍼펙트맨",
+      "conv": "zh-cn:完美男人;zh-sg:完美男人;zh-tw:男人不敗;"
     },
     {
       "original": "페이스",
@@ -1369,63 +2161,115 @@
     },
     {
       "original": "포화(砲火) 속으로",
-      "conv": "zh-hans:向着炮火;zh-hant:太極旗－生死兄弟;zh-cn:向着炮火;zh-tw:走進炮火中;zh-hk:走進炮火中;zh-mo:走進炮火中;"
+      "conv": "zh-cn:向着炮火;zh-tw:走進炮火中;zh-sg:热血男儿;"
     },
     {
       "original": "푸른소금",
-      "conv": "zh:藍鹽; zh-cn:蓝盐; zh-tw:天使殺手;"
+      "conv": "zh:藍鹽;zh-cn:蓝盐;zh-tw:天使殺手;"
     },
     {
       "original": "풀잎들",
-      "conv": "zh-cn:草叶集; zh-tw:草葉集; zh-hk:草葉咖啡館;"
+      "conv": "zh-cn:草叶集;zh-tw:草葉集;zh-hk:草葉咖啡館;"
     },
     {
       "original": "피아노 치는 대통령(大統領)",
-      "conv": "zh-hans:弹钢琴的总统;zh-hant:彈鋼琴的總統;zh-cn:弹钢琴的总统;zh-tw:總統要出嫁;zh-hk:彈鋼琴的總統;zh-mo:彈鋼琴的總統;"
+      "conv": "zh:彈鋼琴的總統;zh-cn:总统浪漫史;zh-tw:總統要出嫁;"
     },
     {
       "original": "피끓는 청춘(靑春)",
-      "conv": "zh-hans:热血沸腾的青春;zh-hant:熱血沸騰的青春;zh-cn:热血沸腾的青春;zh-tw:熱戀年代;zh-hk:熱血青春;zh-mo:熱血青春;"
+      "conv": "zh:熱血沸騰的青春;zh-cn:热血沸腾的青春;zh-tw:熱戀年代;zh-hk:熱血青春;zh-mo:熱血青春;"
+    },
+    {
+      "original": "필사의 추격",
+      "conv": "zh-cn:殊死追踪;zh-tw:警賊黑白衝;"
     },
     {
       "original": "PMC: 더 벙커",
-      "conv": "zh-hans:绝地隧战;zh-hant:絕地隧戰;zh-hk:轟天暴隊;zh-tw:90分鐘末日倒數;zh-cn:绝地隧战;"
+      "conv": "zh:絕地隧戰;zh-hk:轟天暴隊;zh-tw:90分鐘末日倒數;zh-sg:90分钟末日倒数;zh-cn:绝地隧战;"
     },
     {
       "original": "히트맨",
-      "conv": "zh-hans:大画特务;zh-hant:大畫特務;zh-cn:漫画威龙之大话特务;zh-tw:大畫特務;zh-hk:大畫特務;zh-mo:大畫特務;"
+      "conv": "zh-cn:漫画威龙之大话特务;zh-sg:王牌特工;zh-tw:大畫特務;zh-hk:大畫特務;zh-mo:大畫特務;"
+    },
+    {
+      "original": "하면 된다",
+      "conv": "zh-cn:事在人为;zh-tw:發財不用本錢;zh-hk:發達唔使本;"
     },
     {
       "original": "화차(火車)",
-      "conv": "枕邊陌生人=>zh-hans:火车;枕邊陌生人=>zh-hant:火車;枕邊陌生人=>zh-cn:火车;枕邊陌生人=>zh-tw:火車迷蹤案;枕邊陌生人=>zh-hk:枕邊陌生人;枕邊陌生人=>zh-mo:枕邊陌生人;"
+      "conv": "zh-tw:火車迷蹤案;zh-hk:枕邊陌生人;zh-mo:枕邊陌生人;"
     },
     {
       "original": "화차(火車)",
-      "conv": "火車迷蹤案=>zh-hans:火车;火車迷蹤案=>zh-hant:火車;火車迷蹤案=>zh-cn:火车;火車迷蹤案=>zh-tw:火車迷蹤案;火車迷蹤案=>zh-hk:枕邊陌生人;火車迷蹤案=>zh-mo:枕邊陌生人;"
+      "conv": "火車迷蹤案=>zh-cn:火车;枕邊陌生人=>zh-cn:火车;"
     },
     {
       "original": "화려(華麗)한 휴가(休假)",
-      "conv": "zh-hans:华丽的休假;zh-hant:華麗的假期;zh-cn:华丽的休假;zh-tw:華麗的假期;zh-hk:華麗的假期;zh-mo:華麗的假期;"
+      "conv": "zh-cn:华丽的休假;zh-my:华丽的假期;zh-tw:華麗的假期;"
+    },
+    {
+      "original": "화란",
+      "conv": "zh:禍亂;zh-cn:祸乱;zh-hk:黑道深淵;zh-sg:祸乱;zh-tw:禍亂：地下秩序;"
+    },
+    {
+      "original": "화사한 그녀",
+      "conv": "zh:華麗的她;zh-cn:华丽的她;zh-tw:詐騙女王;zh-hk:欺詐女王;"
+    },
+    {
+      "original": "황해",
+      "conv": "zh:黃海 (電影);zh-tw:黃海追緝;zh-hk:追擊者2之黃海殺機;"
+    },
+    {
+      "original": "황해",
+      "conv": "黃海追緝=>zh-cn:黄海;追擊者2之黃海殺機=>zh-cn:黄海;"
+    },
+    {
+      "original": "환절기",
+      "conv": "zh-cn:换季期;zh-tw:換季男友;zh-hk:跨愛季節;"
     },
     {
       "original": "하얀 전쟁",
-      "conv": "zh-hans:白色战争;zh-hant:白色戰爭;zh-cn:白色军徽;zh-tw:蒼白戰爭;zh-hk:雷霆戰爭;zh-mo:雷霆戰爭;"
+      "conv": "zh:白色战争;zh-hant:白色戰爭;zh-cn:白色军徽;zh-tw:蒼白戰爭;zh-hk:雷霆戰爭;zh-mo:雷霆戰爭;"
     },
     {
       "original": "하하하",
-      "conv": "zh-cn:夏夏夏; zh-tw:愛情，說來可笑; zh-hk:哈哈夏;"
+      "conv": "zh-cn:夏夏夏;zh-tw:愛情，說來可笑;zh-hk:哈哈夏;"
     },
     {
       "original": "한산: 용의 출현",
-      "conv": "zh-hans:闲山：龙的出现;zh-hant:閒山：龍的出現;zh-cn:闲山：龙的出现;zh-tw:韓山島海戰;zh-hk:閒山：龍的出現;zh-mo:閒山：龍的出現;"
+      "conv": "zh:閒山：龍的出現;zh-cn:闲山：龙的出现;zh-sg:闲山岛海战;zh-tw:韓山島海戰;zh-hk:韓山島海戰;"
+    },
+    {
+      "original": "한여름의 판타지아",
+      "conv": "zh-cn:仲夏幻想曲;zh-tw:奈良之夏;"
+    },
+    {
+      "original": "한공주",
+      "conv": "zh:韓公主;zh-cn:韩公主;zh-tw:青春勿語;zh-hk:被轉校生;"
+    },
+    {
+      "original": "해결사",
+      "conv": "麻煩終結者=>zh-cn:解决士;麻煩終結者=>zh-tw:麻煩終結者;"
     },
     {
       "original": "해무",
-      "conv": "zh-tw:海霧; zh-hk:怒海沉淪; zh-cn:海雾;"
+      "conv": "zh-tw:海霧;zh-hk:怒海沉淪;zh-cn:海雾;"
     },
     {
       "original": "해변의 여인",
-      "conv": "zh-cn:海边的女人; zh-hk:沙灘上的女人;"
+      "conv": "zh-cn:海边的女人;zh-hk:沙灘上的女人;"
+    },
+    {
+      "original": "해빙(解氷)",
+      "conv": "zh:解冰 (电影);zh-hk:屍家屠房;zh-tw:解凍屍篇;"
+    },
+    {
+      "original": "해빙(解氷)",
+      "conv": "屍家屠房=>zh-cn:解冻;解凍屍篇=>zh-cn:解冻;"
+    },
+    {
+      "original": "해운대",
+      "conv": "大浩劫=>zh-cn:海云台;大浩劫=>zh-hk:海雲臺;"
     },
     {
       "original": "해피 뉴 이어",
@@ -1433,95 +2277,239 @@
     },
     {
       "original": "해적(海-{賊}-): 바다로 간 산적(山-{賊}-)",
-      "conv": "zh-hans:海盗：奔向大海的山贼;zh-hant:海賊：奔向大海的山賊;zh-cn:海盗：奔向大海的山贼;zh-tw:海賊：汪洋爭霸;zh-hk:海賊：奔向大海的山賊;zh-mo:海賊：奔向大海的山賊;"
+      "conv": "zh-cn:海盗：奔向大海的山贼;zh-tw:海賊：汪洋爭霸;zh-sg:海贼：汪洋争霸;"
     },
     {
       "original": "해치지않아",
       "conv": "zh-cn:秘密动物园;zh-tw:超“人”氣動物園;zh-hk:獸頭救兵;zh-mo:獸頭救兵;zh-sg:超人气动物园;zh-my:超人气动物园;"
     },
     {
+      "original": "행복",
+      "conv": "尋找幸福的日子=>zh-cn:幸福;"
+    },
+    {
       "original": "행복의 나라로",
-      "conv": "zh-cn:走向幸福的国家; zh-hk:天堂盜路;"
+      "conv": "zh-cn:走向幸福的国家;zh-hk:天堂盜路;"
     },
     {
       "original": "헌트",
-      "conv": "獵首密令=>zh-hans:狩猎;獵首密令=>zh-hant:狩獵;獵首密令=>zh-cn:狩猎;獵首密令=>zh-tw:獵首密令;獵首密令=>zh-hk:獵戰;獵首密令=>zh-mo:獵戰;"
+      "conv": "zh-hk:獵戰;zh-mo:獵戰;zh-sg:猎首密令;zh-tw:獵首密令;"
     },
     {
       "original": "헌트",
-      "conv": "獵戰=>zh-hans:狩猎;獵戰=>zh-hant:狩獵;獵戰=>zh-cn:狩猎;獵戰=>zh-tw:獵首密令;獵戰=>zh-hk:獵戰;獵戰=>zh-mo:獵戰;"
+      "conv": "獵首密令=>zh-cn:狩猎;獵戰=>zh-cn:狩猎;"
     },
     {
       "original": "헤라버플",
-      "conv": "zh-hans:魔鬼女神;zh-hant:奪命誘惑;zh-cn:魔鬼女神;zh-tw:奪命誘惑;zh-hk:奪命誘惑;zh-mo:奪命誘惑;"
+      "conv": "zh-cn:魔鬼女神;zh-tw:奪命誘惑;"
     },
     {
       "original": "헬로우 고스트",
-      "conv": "zh-hans:开心家族;zh-hant:開心家族;zh-cn:开心家族;zh-tw:開心鬼上身;zh-hk:開心家族;zh-mo:開心家族;"
+      "conv": "zh-cn:开心家族;zh-sg:撞到开心鬼;zh-tw:開心鬼上身;"
     },
     {
       "original": "협상",
-      "conv": "極智對決=>zh-cn:协商;極智對決=>zh-hk:智命談判;極智對決=>zh-mo:智命談判;"
+      "conv": "zh-tw:極智對決;zh-hk:智命談判;zh-mo:智命談判;"
     },
     {
       "original": "협상",
-      "conv": "智命談判=>zh-cn:协商;智命談判=>zh-tw:極智對決;智命談判=>zh-hk:智命談判;"
+      "conv": "極智對決=>zh-cn:协商;智命談判=>zh-cn:协商;"
+    },
+    {
+      "original": "혼자 사는 사람들",
+      "conv": "zh-cn:独自生活的人们;zh-tw:寂寞佔線中;"
+    },
+    {
+      "original": "홍길동의 후예",
+      "conv": "zh:洪吉童的後裔;zh-tw:神偷妙探三個半;zh-cn:盗亦有道;"
+    },
+    {
+      "original": "홍길동의 후예",
+      "conv": "zh:洪吉童的后裔;zh-tw:神偷妙探三個半;zh-cn:盗亦有道;"
     },
     {
       "original": "화이(華頤): 괴물(怪物)을 삼킨 아이",
-      "conv": "zh-hans:华颐：吞噬怪物的孩子;zh-hant:華頤：吞噬怪物的孩子;zh-cn:华颐：吞噬怪物的孩子;zh-tw:華頤：吞噬怪物的孩子;zh-hk:魔童殺手;zh-mo:魔童殺手;"
+      "conv": "zh-cn:华颐：吞噬怪物的孩子;zh-tw:華頤：吞噬怪物的孩子;zh-hk:魔童殺手;zh-mo:魔童殺手;"
+    },
+    {
+      "original": "효자동 이발사",
+      "conv": "zh-cn:孝子洞理发师;zh-tw:總統的理髮師;"
     },
     {
       "original": "후궁: 제왕의 첩(後宮 帝王의妾)",
-      "conv": "zh-hans:后宫：帝王之妾;zh-hant:後宮：帝王之妾;zh-cn:后宫：帝王之妾;zh-tw:後宮：色慾天下;zh-hk:滿宮春;zh-mo:滿宮春;"
+      "conv": "zh:後宮：帝王之妾;zh-cn:后宫：帝王之妾;zh-tw:後宮：色慾天下;zh-hk:滿宮春;zh-mo:滿宮春;"
     },
     {
       "original": "후회(後悔)하지 않아",
-      "conv": "zh-hans:爱，不悔;zh-hant:愛，不悔;zh-cn:爱，不悔;zh-tw:愛，不悔;zh-hk:愛在基吧的日子;zh-mo:愛在基吧的日子;"
+      "conv": "zh-cn:爱，不悔;zh-tw:愛，不悔;zh-hk:愛在基吧的日子;zh-mo:愛在基吧的日子;"
     },
     {
       "original": "흑수선(黑水仙)",
-      "conv": "zh-hans:黒水仙;zh-hant:黑水仙;zh-cn:黒水仙;zh-tw:黑水仙;zh-hk:下一個死者;zh-mo:下一個死者;"
+      "conv": "zh-cn:黑水仙;zh-tw:黑水仙;zh-hk:下一個死者;zh-mo:下一個死者;"
     },
     {
       "original": "HERO",
       "conv": "zh-hans:HERO;zh-hant:HERO;zh-cn:HERO;zh-tw:HERO;zh-hk:律政英雄;zh-mo:律政英雄;"
     },
     {
-      "original": "",
-      "conv": "影集=>zh-hk:劇集;影集=>zh-cn:剧集;"
+      "original": "HEROES",
+      "conv": "zh-hans:HEROES;zh-hant:HEROES;zh-cn:HEROES;zh-tw:HEROES;zh-hk:HEROES;zh-mo:HEROES;"
     },
     {
-      "original": "",
-      "conv": "電視影集=>zh-hk:電視劇集;電視影集=>zh-cn:电视剧集;"
+      "original": "Cannes",
+      "conv": "zh:戛納;zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城;zh-my:康城;"
     },
     {
-      "original": "",
-      "conv": "動畫影集=>zh-hk:動畫劇集;動畫影集=>zh-cn:动画剧集;"
+      "original": "Venice Film Festival",
+      "conv": "zh:威尼斯電影節;zh-cn:威尼斯电影节;zh-hant:威尼斯影展;zh-sg:威尼斯影展;zh-my:威尼斯影展;"
+    },
+    {
+      "original": "Venice International Film Festival",
+      "conv": "zh:威尼斯國際電影節;zh-cn:威尼斯国际电影节;zh-hant:威尼斯國際影展;zh-sg:威尼斯国际影展;zh-my:威尼斯国际影展;"
+    },
+    {
+      "original": "Berlin Film Festival",
+      "conv": "zh:柏林電影節;zh-cn:柏林电影节;zh-hant:柏林影展;zh-sg:柏林影展;zh-my:柏林影展;"
+    },
+    {
+      "original": "Berlin International Film Festival",
+      "conv": "zh:柏林國際電影節;zh-cn:柏林国际电影节;zh-hant:柏林國際影展;zh-sg:柏林国际影展;zh-my:柏林国际影展;"
+    },
+    {
+      "original": "Toronto Film Festival",
+      "conv": "zh:多倫多電影節;zh-cn:多伦多电影节;zh-hant:多倫多影展;zh-my:多伦多影展;"
+    },
+    {
+      "original": "Toronto International Film Festival",
+      "conv": "zh:多倫多國際電影節;zh-cn:多伦多国际电影节;zh-hant:多倫多國際影展;zh-my:多伦多国际影展;"
     },
     {
       "original": "대종상",
-      "conv": "zh:大鐘獎; zh-tw:大鐘賞; zh-hk:大鐘賞; zh-cn:大钟奖;"
+      "conv": "zh:大鐘獎;zh-tw:大鐘賞;zh-hk:大鐘賞;zh-cn:大钟奖;"
     },
     {
       "original": "백상예술대상",
-      "conv": "zh:百想藝術大獎; zh-tw:百想藝術大賞; zh-hk:百想藝術大賞; zh-cn:百想艺术大奖;"
+      "conv": "zh:百想藝術大獎;zh-tw:百想藝術大賞;zh-hk:百想藝術大賞;zh-cn:百想艺术大奖;"
     },
     {
       "original": "KBS연기대상",
-      "conv": "zh:KBS演技大獎; zh-tw:KBS演技大賞; zh-hk:KBS演技大賞; zh-cn:KBS演技大奖;"
+      "conv": "zh:KBS演技大獎;zh-tw:KBS演技大賞;zh-hk:KBS演技大賞;zh-cn:KBS演技大奖;"
     },
     {
       "original": "MBC연기대상",
-      "conv": "zh:MBC演技大獎; zh-tw:MBC演技大賞; zh-hk:MBC演技大賞; zh-cn:MBC演技大奖;"
+      "conv": "zh:MBC演技大獎;zh-tw:MBC演技大賞;zh-hk:MBC演技大賞;zh-cn:MBC演技大奖;"
     },
     {
       "original": "SBS연기대상",
-      "conv": "zh:SBS演技大獎; zh-tw:SBS演技大賞; zh-hk:SBS演技大賞; zh-cn:SBS演技大奖;"
+      "conv": "zh:SBS演技大獎;zh-tw:SBS演技大賞;zh-hk:SBS演技大賞;zh-cn:SBS演技大奖;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:HEROES;zh-hant:HEROES;zh-cn:HEROES;zh-tw:HEROES;zh-hk:HEROES;zh-mo:HEROES;"
+      "original": "들꽃영화상",
+      "conv": "zh-hant:野花電影獎;zh-hans:野花电影奖;"
+    },
+    {
+      "original": "attendance rate",
+      "conv": "上座率=>zh-hk:入座率;上座率=>zh-mo:入座率;入座率=>zh-cn:上座率;"
+    },
+    {
+      "original": "digital movie",
+      "conv": "zh:數字電影;zh-tw:數位電影;zh-hk:數碼電影;zh-sg:数码电影;zh-my:数码电影;zh-cn:数字电影;"
+    },
+    {
+      "original": "digital TV",
+      "conv": "zh:數字電視;zh-tw:數位電視;zh-hk:數碼電視;zh-sg:数码电视;zh-my:数码电视;zh-cn:数字电视;"
+    },
+    {
+      "original": "digital remastering",
+      "conv": "zh:數字修復;zh-tw:數位修復;zh-hk:數碼修復;zh-sg:数码修复;zh-my:数码修复;zh-cn:数字修复;"
+    },
+    {
+      "original": "digital remastering / remake",
+      "conv": "zh:數字重;zh-tw:數位重;zh-hk:數碼重;zh-sg:数码重;zh-my:数码重;zh-cn:数字重;"
+    },
+    {
+      "original": "digital technology",
+      "conv": "zh:數字技術;zh-tw:數位科技;zh-hk:數碼技術;zh-sg:数码科技;zh-my:数码科技;zh-cn:数字技术;"
+    },
+    {
+      "original": "digitalization",
+      "conv": "zh:數字化;zh-tw:數位化;zh-hk:數碼化;zh-sg:数码化;zh-my:数码化;zh-cn:数字化;"
+    },
+    {
+      "original": "dolby digital",
+      "conv": "zh:杜比數字;zh-tw:杜比數位;zh-hk:杜比數碼;zh-sg:杜比数码;zh-my:杜比数码;zh-cn:杜比数字;"
+    },
+    {
+      "original": "goof",
+      "conv": "zh-hk:穿崩;zh-hans:穿帮;zh-tw:穿幫;"
+    },
+    {
+      "original": "laureate",
+      "conv": "zh:獲得者;zh-cn:获得者;zh-hant:得主;zh-sg:得主;zh-my:得主;"
+    },
+    {
+      "original": "lensing ceremony",
+      "conv": "zh:開機;zh-cn:开机;zh-hant:開鏡;zh-sg:开镜;zh-my:开镜;開機=>zh-tw:開機;开机=>zh-tw:開機;"
+    },
+    {
+      "original": "limited release",
+      "conv": "zh:有限發行;zh-cn:有限发行;zh-hans:限量发行;zh-hant:限量發行;"
+    },
+    {
+      "original": "limited release",
+      "conv": "zh:有限放映;zh-cn:有限上映;zh-hans:限量放映;zh-hant:限量放映;"
+    },
+    {
+      "original": "narrative film",
+      "conv": "故事片=>zh-tw:劇情片;"
+    },
+    {
+      "original": "optical disc",
+      "conv": "zh:光盤;zh-cn:光盘;zh-sg:光碟;zh-my:光碟;zh-tw:光碟;光碟片=>zh-cn:光盘;"
+    },
+    {
+      "original": "première",
+      "conv": "首映式=>zh-hk:首映禮;首映式=>zh-mo:首映禮;首映式=>zh-tw:首映典禮;首映式=>zh-sg:首映礼;首映式=>zh-my:首映礼;"
+    },
+    {
+      "original": "preview",
+      "conv": "zh:點映;zh-cn:点映;zh-tw:點映（口碑場）;zh-hk:點映（優先場）;"
+    },
+    {
+      "original": "preview",
+      "conv": "点映=>zh-my:预映;点映=>zh-sg:预映;點映=>zh-my:预映;點映=>zh-sg:预映;"
+    },
+    {
+      "original": "preview",
+      "conv": "zh-cn:点映场;zh-tw:口碑場;zh-hk:優先場;zh-my:优先场;zh-sg:优先场;"
+    },
+    {
+      "original": "series",
+      "conv": "影集=>zh-hk:片集;影集=>zh-mo:片集;影集=>zh-cn:剧集;zh-hant:電影集團;zh-hans:电影集团;"
+    },
+    {
+      "original": "thriller",
+      "conv": "zh-tw:驚悚;zh-hans:惊悚;zh-hk:驚慄;"
+    },
+    {
+      "original": "videotape",
+      "conv": "zh-hant:錄影帶;zh-sg:录影带;zh-my:录影带;zh-cn:录像带;"
+    },
+    {
+      "original": "web series / film",
+      "conv": "zh-tw:網路電;zh-hk:網絡電;zh-hans:网络电;"
+    },
+    {
+      "original": "widescreen",
+      "conv": "zh-hk:闊銀幕;zh-tw:寬銀幕;zh-hans:宽银幕;"
+    },
+    {
+      "original": "wrap",
+      "conv": "zh-tw:殺青;zh-hans:杀青;zh-hk:煞科;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:嫌疑人X;zh-hant:嫌疑犯X;"
     }
   ]
 }

@@ -65,7 +65,11 @@
     },
     {
       "original": "강승민",
-      "conv": "zh-hans:姜升旼; zh-hant:姜昇旼;"
+      "conv": "zh-hans:姜昇旼;zh-hant:姜昇旼;"
+    },
+    {
+      "original": "강승민",
+      "conv": "姜升旼=>zh-cn:姜昇旼;姜升旼=>zh-hant:姜昇旼;"
     },
     {
       "original": "林杰漢",
@@ -74,6 +78,14 @@
     {
       "original": "孔杰",
       "conv": "zh-hans:孔杰; zh-hant:孔杰;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:芮迺伟;zh-hant:芮迺偉"
+    },
+    {
+      "original": "",
+      "conv": "芮乃伟=>zh-cn:芮迺伟;芮乃伟=>zh-hant:芮迺偉;"
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "original": "Borel",
-      "conv": "zh-cn:博雷尔; zh-tw:鮑萊耳;"
+      "conv": "zh-cn:博雷尔; zh-tw:鮑萊耳; zh-hant:博雷爾"
     },
     {
       "original": "Chebyshev",
@@ -429,15 +429,7 @@
     },
     {
       "original": "variable",
-      "conv": "zh-cn:变量; zh-tw:變數; zh-hk:變量;"
-    },
-    {
-      "original": "complex variable",
-      "conv": "zh-cn:复变量; zh-tw:複變數; zh-hk:複變量"
-    },
-    {
-      "original": "complex variable",
-      "conv": "复变数=>zh-tw:複變數; 复变数=>zh-hk:複變量; 复变数=>zh-mo:複變量;"
+      "conv": "變數=>zh-cn:变量; 變數=>zh-hk:變量;"
     },
     {
       "original": "Multivariate statistics",
@@ -484,10 +476,6 @@
       "conv": "zh-cn:卷积; zh-hk:卷積; zh-tw:摺積;"
     },
     {
-      "original": "coordinate",
-      "conv": "座標=>zh-cn:坐标; 座標=>zh-sg:坐标; 座標=>zh-my:坐标;"
-    },
-    {
       "original": "coprime",
       "conv": "zh-cn:互素; zh-tw:互質;"
     },
@@ -510,6 +498,14 @@
     {
       "original": "dependent variable",
       "conv": "zh-cn:因变量; zh-tw:應變數; zh-hk:應變量;"
+    },
+    {
+      "original": "independent variable",
+      "conv": "zh-cn:自变量;zh-tw:自變數;zh-hk:自變量;"
+    },
+    {
+      "original": "Random variable",
+      "conv": "zh-tw:隨機變數;zh-hk:隨機變量;zh-cn:随机变量;"
     },
     {
       "original": "derived algebra",
@@ -552,6 +548,10 @@
       "conv": "方程=>zh-tw:方程式;"
     },
     {
+      "original": "equation",
+      "conv": "方程式=>zh-tw:方程式;"
+    },
+    {
       "original": "coefficient",
       "conv": "zh-cn:系数; zh-tw:係數; zh-hk:系數;"
     },
@@ -574,6 +574,10 @@
     {
       "original": "extension field",
       "conv": "扩域=>zh-tw:擴張體; 扩域=>zh-hk:擴張體; 扩域=>zh-mo:擴張體;"
+    },
+    {
+      "original": "expected value",
+      "conv": "zh-cn:期望; zh-tw:期望值;"
     },
     {
       "original": "family of sets",
@@ -1009,7 +1013,7 @@
     },
     {
       "original": "information",
-      "conv": "zh-cn:信息; zh-tw:訊息;"
+      "conv": "zh-cn:信息; zh-tw:資訊;"
     },
     {
       "original": "scalar",

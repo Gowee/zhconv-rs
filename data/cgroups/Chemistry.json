@@ -76,6 +76,10 @@
       "conv": "鏈反應=>zh-tw:連鎖反應; 鏈反應=>zh-hk:連鎖反應; 鏈反應=>zh-mo:連鎖反應;"
     },
     {
+      "original": "chain reaction",
+      "conv": "鏈式反應=>zh-tw:連鎖反應; 鏈式反應=>zh-hk:連鎖反應; 鏈式反應=>zh-mo:連鎖反應;"
+    },
+    {
       "original": "chemical affinity",
       "conv": "zh-cn:化学亲和势; zh-tw:化學親和力; zh-hk:化學親合勢;"
     },
@@ -200,6 +204,10 @@
       "conv": "zh-cn:同分异构体; zh-tw:同分異構物; zh-hk:同分異構體;"
     },
     {
+      "original": "isomeric transition",
+      "conv": "zh-cn:同质异能跃迁; zh-tw:異構物躍遷;"
+    },
+    {
       "original": "ligand",
       "conv": "zh-cn:配体; zh-tw:配位基; zh-hk:配體;"
     },
@@ -234,6 +242,10 @@
     {
       "original": "nitroglycerin",
       "conv": "zh-cn:硝酸甘油; zh-tw:硝化甘油; zh-hk:硝酸甘油;"
+    },
+    {
+      "original": "nuclear isomer",
+      "conv": "zh-cn:核同质异能素; zh-tw:同核異構物;"
     },
     {
       "original": "nuclear magnetic resonance spectroscopy",
@@ -285,7 +297,7 @@
     },
     {
       "original": "pressure",
-      "conv": "壓力=>zh-hk:壓強; 壓力=>zh-mo:壓強; 壓力=>zh-cn:压强; 壓力=>zh-sg:压强; 壓力=>zh-my:压强;"
+      "conv": "壓力=>zh-hk:壓強; 壓力=>zh-mo:壓強; 壓力=>zh-sg:压强; 壓力=>zh-my:压强;"
     },
     {
       "original": "primary alcohol",
@@ -396,6 +408,10 @@
       "conv": "鎓內鹽=>zh-cn:𬭩内盐; 鎓內鹽=>zh-sg:𬭩内盐; 鎓內鹽=>zh-my:𬭩内盐; 鎓內鹽=>zh-tw:偶極體; 鎓內鹽=>zh-hk:偶極體; 鎓內鹽=>zh-mo:偶極體;"
     },
     {
+      "original": "arsenobetaine",
+      "conv": "zh-cn:砷甜菜碱;zh-hk:砷甜菜鹼;zh-tw:砷酸甜菜鹼"
+    },
+    {
       "original": "dioxin",
       "conv": "zh-cn:二𫫇英; zh-tw:戴奧辛; zh-hk:二噁英"
     },
@@ -468,6 +484,10 @@
       "conv": "zh-cn:酞嗪; zh-tw:呔𠯤; zh-hk:酞嗪;"
     },
     {
+      "original": "pinacol",
+      "conv": "zh-cn:频哪醇; zh-tw:嚬哪醇;"
+    },
+    {
       "original": "piperazine",
       "conv": "zh-cn:哌嗪; zh-tw:哌𠯤; zh-hk:哌嗪;"
     },
@@ -492,6 +512,10 @@
       "conv": "zh-cn:噻嗪; zh-tw:噻𠯤; zh-hk:噻嗪;"
     },
     {
+      "original": "urotropin",
+      "conv": "zh-cn:乌洛托品; zh-tw:優洛托品; zh-hk:烏洛托品"
+    },
+    {
       "original": "Arrhenius",
       "conv": "zh-cn:阿伦尼乌斯; zh-tw:阿瑞尼士;"
     },
@@ -506,6 +530,14 @@
     {
       "original": "Boyle",
       "conv": "玻意耳=>zh-tw:波以耳; 玻意耳=>zh-hk:波以耳; 玻意耳=>zh-mo:波以耳;"
+    },
+    {
+      "original": "Curie",
+      "conv": "zh-hans:居里; zh-tw:居禮;"
+    },
+    {
+      "original": "Dalton",
+      "conv": "zh-hans:道尔顿; zh-tw:道耳吞;"
     },
     {
       "original": "Gay-Lussac",
@@ -576,6 +608,14 @@
       "conv": "zh-cn:锫; zh-tw:鉳; zh-hk:錇;"
     },
     {
+      "original": "bohrium",
+      "conv": "zh-hans:𬭛; zh-hant:𨨏;"
+    },
+    {
+      "original": "bohrium",
+      "conv": "𬭛=>zh-hant:𨨏"
+    },
+    {
       "original": "californium",
       "conv": "zh-cn:锎; zh-tw:鉲; zh-hk:鐦;"
     },
@@ -584,8 +624,16 @@
       "conv": "zh-hans:鿔; zh-hant:鎶;"
     },
     {
+      "original": "copernicium",
+      "conv": "鿔=>zh-hant:鎶;"
+    },
+    {
       "original": "darmstadtium",
       "conv": "zh-hans:𫟼; zh-hant:鐽;"
+    },
+    {
+      "original": "darmstadtium",
+      "conv": "𫟼=>zh-hant:鐽;"
     },
     {
       "original": "einsteinium",
@@ -594,6 +642,10 @@
     {
       "original": "flerovium",
       "conv": "zh-hans:𫓧; zh-hant:鈇;"
+    },
+    {
+      "original": "flerovium",
+      "conv": "𫓧=>zh-hant:鈇;"
     },
     {
       "original": "francium",
@@ -605,7 +657,7 @@
     },
     {
       "original": "livermorium",
-      "conv": "𫟷=>zh-hant:鉝; 𫟷=>zh-tw:鉝; 𫟷=>zh-hk:鉝; 𫟷=>zh-mo:鉝;"
+      "conv": "𫟷=>zh-hant:鉝;"
     },
     {
       "original": "lutetium",
@@ -621,7 +673,7 @@
     },
     {
       "original": "nihonium",
-      "conv": "鿭=>zh-hant:鉨; 鿭=>zh-tw:鉨; 鿭=>zh-hk:鉨; 鿭=>zh-mo:鉨;"
+      "conv": "鿭=>zh-hant:鉨;"
     },
     {
       "original": "plutonium",
@@ -632,8 +684,24 @@
       "conv": "zh-hans:𬬭; zh-hant:錀;"
     },
     {
+      "original": "roentgenium",
+      "conv": "𬬭=>zh-hant:錀;"
+    },
+    {
       "original": "rutherfordium",
       "conv": "zh-hans:𬬻; zh-hant:鑪;"
+    },
+    {
+      "original": "rutherfordium",
+      "conv": "𬬻=>zh-hant:鑪;"
+    },
+    {
+      "original": "seaborgium",
+      "conv": "zh-hans:𬭳; zh-hant:𨭎;"
+    },
+    {
+      "original": "seaborgium",
+      "conv": "𬭳=>zh-hant:𨭎;"
     },
     {
       "original": "technetium",

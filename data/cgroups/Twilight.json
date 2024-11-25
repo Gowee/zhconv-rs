@@ -5,51 +5,55 @@
   "rules": [
     {
       "original": null,
-      "conv": "zh-cn: 暮光之城系列; zh-tw: 暮光之城系列; zh-hk: 吸血新世紀系列;"
+      "conv": "zh-cn:暮光之城系列; zh-tw:暮光之城系列; zh-hk:吸血新世紀系列;"
     },
     {
       "original": "Twilight",
-      "conv": "zh-cn: 暮光之城：暮色 ;  zh-hant: 暮光之城 ;"
+      "conv": "zh-cn:暮光之城：暮色;  zh-hant:暮光之城;"
     },
     {
       "original": "New Moon",
-      "conv": "zh-cn: 暮光之城：新月 ;  zh-hant: 暮光之城：新月 ;"
+      "conv": "zh-cn:暮光之城：新月;  zh-hant:暮光之城：新月;"
     },
     {
       "original": "Eclipse",
-      "conv": "zh-cn: 暮光之城：月食 ;  zh-hant: 暮光之城：蝕 ;"
+      "conv": "zh-cn:暮光之城：月食;  zh-hant:暮光之城：蝕;"
     },
     {
       "original": "Breaking Dawn",
-      "conv": "zh-cn: 暮光之城：破晓 ;  zh-hant: 暮光之城：破曉 ;"
+      "conv": "zh-cn:暮光之城：破晓;  zh-hant:暮光之城：破曉;"
     },
     {
       "original": "The Short Second Life of Bree Tanner",
-      "conv": "zh-cn: 布莉的重生─暮光之城：月食外传 ;  zh-hant: 布莉的重生─暮光之城：蝕外傳 ;"
+      "conv": "zh-cn:布莉的重生─暮光之城：月食外传;  zh-hant:布莉的重生─暮光之城：蝕外傳;"
     },
     {
       "original": "Midnight Sun",
-      "conv": "zh-cn: 午夜阳光 ;  zh-hant: 暮光之城：午夜陽光 ;"
+      "conv": "zh-cn:午夜阳光;  zh-hant:暮光之城：午夜陽光;"
     },
     {
       "original": "Twilight",
-      "conv": "暮光之城：無懼的愛=>zh-cn: 暮光之城 ; 暮光之城：無懼的愛=>zh-hk: 吸血新世紀 ; 吸血新世紀=>zh-cn: 暮光之城 ; 吸血新世紀=>zh-tw: 暮光之城：無懼的愛"
+      "conv": "暮光之城：無懼的愛=>zh-cn:暮光之城; 暮光之城：無懼的愛=>zh-hk:吸血新世紀; 暮光之城：無懼的愛=>zh-mo:吸血新世紀; 吸血新世紀=>zh-cn:暮光之城; 吸血新世紀=>zh-tw:暮光之城：無懼的愛"
     },
     {
-      "original": "The Twilight Saga: New Moon",
-      "conv": "zh-cn: 暮光之城2：新月 ; zh-hk: 吸血新世紀2：新月傳奇 ; zh-tw: 暮光之城2：新月 ;"
+      "original": "The Twilight Saga:New Moon",
+      "conv": "zh-cn:暮光之城2：新月; zh-hk:吸血新世紀2：新月傳奇; zh-tw:暮光之城2：新月;"
     },
     {
-      "original": "The Twilight Saga: Eclipse",
-      "conv": "暮光之城3：月食=>zh-hk: 吸血新世紀3：月蝕傳奇 ; 暮光之城3：月食=>zh-tw: 暮光之城：蝕 ;吸血新世紀3：月蝕傳奇=>zh-cn: 暮光之城3：月食 ; 吸血新世紀3：月蝕傳奇=>zh-tw: 暮光之城：蝕 ;"
+      "original": "The Twilight Saga:Eclipse",
+      "conv": "zh-cn:暮光之城3：月食; zh-hk:吸血新世紀3：月蝕傳奇; zh-sg:暮光之城：蚀; "
     },
     {
-      "original": "The Twilight Saga: Breaking Dawn – Part 1",
-      "conv": "zh-cn: 暮光之城4：破晓（上） ; zh-hk: 吸血新世紀4：破曉傳奇上集 ; zh-tw: 暮光之城：破曉Ⅰ ;"
+      "original": "The Twilight Saga:Eclipse",
+      "conv": "暮光之城3：月食=>zh-tw:暮光之城：蝕; 吸血新世紀3：月蝕傳奇=>zh-tw:暮光之城：蝕;"
     },
     {
-      "original": "The Twilight Saga: Breaking Dawn – Part 2",
-      "conv": "zh-cn: 暮光之城4：破晓（下） ; zh-hk: 吸血新世紀4：破曉傳奇下集 ; zh-tw: 暮光之城：破曉Ⅱ ;"
+      "original": "The Twilight Saga:Breaking Dawn – Part 1",
+      "conv": "zh-cn:暮光之城4：破晓（上）; zh-hk:吸血新世紀4：破曉傳奇上集; zh-sg:暮光之城：破晓1; zh-tw:暮光之城：破曉Ⅰ;"
+    },
+    {
+      "original": "The Twilight Saga:Breaking Dawn – Part 2",
+      "conv": "zh-cn:暮光之城4：破晓（下）; zh-hk:吸血新世紀4：破曉傳奇下集; zh-sg:暮光之城：破晓2; zh-tw:暮光之城：破曉Ⅱ;"
     },
     {
       "original": "Swan",
@@ -73,19 +77,19 @@
     },
     {
       "original": "(Pattinson), Robert",
-      "conv": "zh-cn:罗伯特; zh-tw:羅伯; zh-hk:羅拔;"
+      "conv": "zh-cn:罗伯特; zh-sg:罗伯; zh-my:罗拔; zh-tw:羅伯; zh-hk:羅拔;"
     },
     {
       "original": "Pattinson, (Robert)",
-      "conv": "zh-cn:帕丁森; zh-tw:派汀森; zh-hk:柏迪臣;"
+      "conv": "zh-cn:帕丁森; zh-sg:派汀森; zh-my:柏汀森; zh-tw:派汀森; zh-hk:柏迪臣;"
     },
     {
       "original": "(Stewart), Kristen (J)",
-      "conv": "zh-cn:克里斯汀; zh-tw:克莉絲汀; zh-hk:姬絲汀;"
+      "conv": "zh-cn:克里斯汀; zh-sg:克里斯汀; zh-my:姬丝汀; zh-tw:克莉絲汀; zh-hk:姬絲汀;"
     },
     {
       "original": "Stewart, (Kristen J)",
-      "conv": "zh-cn:斯图尔特; zh-tw:史都華; zh-hk:史超域;"
+      "conv": "zh-cn:斯图尔特; zh-sg:斯图尔特; zh-my:史都华; zh-tw:史都華; zh-hk:史超域;"
     }
   ]
 }
