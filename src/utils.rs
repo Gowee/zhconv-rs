@@ -11,6 +11,7 @@ pub(crate) use get_with_fallback;
 macro_rules! for_wasm {
     ($($item:item)*) => {$(
         #[cfg(target_arch = "wasm32")]
+        #[cfg(feature = "wasm")]
         $item
     )*}
 }
