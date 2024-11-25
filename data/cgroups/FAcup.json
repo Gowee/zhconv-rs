@@ -1,6 +1,6 @@
 {
   "name": "FAcup",
-  "description": "英格蘭足球球會",
+  "description": "[[英格蘭足總盃]]",
   "path": "Module:CGroup/FAcup",
   "rules": [
     {
@@ -21,11 +21,15 @@
     },
     {
       "original": "AFC Bournemouth",
-      "conv": "zh-hk:般尼茅夫;zh-cn:伯恩茅斯;zh-tw:伯恩茅斯;"
+      "conv": "zh-hans:伯恩茅斯;zh-tw:伯恩茅斯;zh-hk:般尼茅夫;"
     },
     {
       "original": "Birmingham City F.C.",
-      "conv": "zh-cn:伯明翰城;zh-hk:伯明翰;zh-tw:伯明罕城;zh-mo:伯明翰;"
+      "conv": "伯明翰城=>zh-hk:伯明翰;"
+    },
+    {
+      "original": "Birmingham City F.C.",
+      "conv": "伯明罕城=>zh-hk:伯明翰;"
     },
     {
       "original": "Blackburn Rovers",
@@ -40,16 +44,24 @@
       "conv": "zh-hans:博尔顿;zh-hk:保頓;zh-tw:博爾頓;"
     },
     {
+      "original": "Boreham Wood",
+      "conv": "zh-hans:博勒姆伍德;zh-hk:波利咸活特;"
+    },
+    {
       "original": "Bradford City F.C.",
       "conv": "zh-cn:布拉德福德;zh-hk:巴拉福特;zh-tw:巴拉福特;"
     },
     {
       "original": "Brentford F.C.",
-      "conv": "zh-cn:布伦特福德;zh-hk:賓福特;zh-tw:布倫特福德;"
+      "conv": "zh-hans:布伦特福德;zh-tw:布蘭特福德;zh-hk:賓福特;"
     },
     {
       "original": "Brighton & Hove Albion F.C.",
-      "conv": "zh-cn:布莱顿;zh-hk:白禮頓;zh-tw:布萊頓;"
+      "conv": "zh-hans:布赖顿;zh-tw:布萊頓;zh-hk:白禮頓;"
+    },
+    {
+      "original": "Brighton & Hove Albion F.C.",
+      "conv": "布莱顿=>zh-cn:布赖顿;布莱顿=>zh-sg:布赖顿;布莱顿=>zh-my:布赖顿;布莱顿=>zh-hk:白禮頓;布莱顿=>zh-mo:白禮頓;"
     },
     {
       "original": "Bristol City F.C.",
@@ -61,7 +73,7 @@
     },
     {
       "original": "Burnley F.C.",
-      "conv": "zh-cn:伯恩利;zh-hk:般尼;zh-tw:班來;zh-mo:般尼;"
+      "conv": "zh-hans:伯恩利;zh-tw:伯恩利;zh-hk:般尼;"
     },
     {
       "original": "Bury Football Club",
@@ -69,7 +81,7 @@
     },
     {
       "original": "Burton Albion",
-      "conv": "zh-hans:伯顿阿尔比恩;zh-hant:伯頓阿爾比恩;zh-hk:保頓艾爾賓;"
+      "conv": "zh-hans:伯顿阿尔比恩;zh-hant:伯頓阿爾比恩;zh-hk:伯頓艾爾賓;"
     },
     {
       "original": "Cardiff City F.C.",
@@ -137,7 +149,7 @@
     },
     {
       "original": "Exeter City Football Club",
-      "conv": "zh-cn:埃克塞特城; zh-tw:艾斯特城;"
+      "conv": "zh-hans:埃克塞特城;zh-hk:埃克塞特;zh-tw:艾希特城;"
     },
     {
       "original": "Fleetwood Town Football Club",
@@ -146,6 +158,10 @@
     {
       "original": "Fulham Football Club",
       "conv": "zh-cn:富勒姆;zh-hk:富咸;zh-tw:富勒姆;"
+    },
+    {
+      "original": "Gateshead F.C.",
+      "conv": "zh-hans:盖茨黑德;zh-tw:蓋茨黑德;zh-hk:基斯赫德"
     },
     {
       "original": "Gillingham F.C.",
@@ -173,11 +189,11 @@
     },
     {
       "original": "Hereford United Football Club",
-      "conv": "zh-cn:靴尔福特联;zh-hk:赫里福特聯;zh-tw:靴爾福特聯;"
+      "conv": "zh-cn:赫里福德联;zh-hk:赫里福特聯;zh-tw:赫里福特聯;"
     },
     {
-      "original": "Ipswich F.C.",
-      "conv": "zh-cn:伊普斯维奇;zh-hk:葉士域治;zh-tw:伊普斯維奇;"
+      "original": "Ipswich Town F.C.",
+      "conv": "zh-cn:伊普斯维奇城;zh-hk:葉士域治;zh-tw:伊普斯維奇鎮;"
     },
     {
       "original": "Kettering Town Football Club",
@@ -200,20 +216,24 @@
       "conv": "zh-cn:莱顿东方; zh-tw:奧連特;"
     },
     {
-      "original": "Middlesbrough Football Club",
-      "conv": "zh-cn:米德尔斯堡;zh-hk:米杜士堡;zh-tw:米德斯堡;"
+      "original": "Macclesfield Town Football Club",
+      "conv": "zh-hans:马科斯菲尔德;zh-hk:馬格斯菲特;zh-tw:馬斯菲爾;"
     },
     {
-      "original": "Millwall F.C.",
-      "conv": "zh-cn:米尔沃尔;zh-hk:米禾爾;zh-tw:米爾沃;zh-mo:米禾爾;"
+      "original": "Maidstone United Football Club",
+      "conv": "zh-hans:梅德斯通联;zh-hk:梅德士東聯;zh-tw:梅德斯通聯;"
     },
     {
       "original": "Mansfield Town Football Club",
       "conv": "zh-hans:曼斯菲尔德城; zh-hk:曼斯菲特;"
     },
     {
-      "original": "Macclesfield Town Football Club",
-      "conv": "zh-hans:马科斯菲尔德;zh-hk:馬格斯菲特;zh-tw:馬斯菲爾;"
+      "original": "Middlesbrough Football Club",
+      "conv": "zh-cn:米德尔斯堡;zh-hk:米杜士堡;zh-tw:米德斯堡;"
+    },
+    {
+      "original": "Millwall F.C.",
+      "conv": "zh-cn:米尔沃尔;zh-hk:米禾爾;zh-tw:米爾沃;zh-mo:米禾爾;"
     },
     {
       "original": "Morecambe Football Club",
@@ -224,12 +244,32 @@
       "conv": "zh-cn:纽卡斯尔联;zh-hk:紐卡素;zh-tw:紐卡索聯;"
     },
     {
-      "original": "Norwich",
-      "conv": "zh-hans:诺里奇城;zh-hk:諾域治;zh-tw:諾里奇城;"
+      "original": "Newport County",
+      "conv": "zh-hans:纽波特郡; zh-hk:新港郡;zh-tw:紐波特郡;"
     },
     {
-      "original": "Norwich",
-      "conv": "zh-hans:诺维奇城;zh-hk:諾域治;zh-tw:諾維奇城;"
+      "original": "Norwich City F.C.",
+      "conv": "zh-hans:诺里奇城;zh-tw:諾里奇城;zh-hk:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "诺维奇=>zh-cn:诺里奇城;诺维奇=>zh-sg:诺里奇城;诺维奇=>zh-my:诺里奇城;诺维奇=>zh-tw:諾里奇城;诺维奇=>zh-hk:諾域治;诺维奇=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "諾維奇=>zh-cn:诺里奇城;諾維奇=>zh-sg:诺里奇城;諾維奇=>zh-my:诺里奇城;諾維奇=>zh-tw:諾里奇城;諾維奇=>zh-hk:諾域治;諾維奇=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "诺维奇城=>zh-cn:诺里奇城;诺维奇城=>zh-sg:诺里奇城;诺维奇城=>zh-my:诺里奇城;诺维奇城=>zh-tw:諾里奇城;诺维奇城=>zh-hk:諾域治;诺维奇城=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "諾維奇城=>zh-cn:诺里奇城;諾維奇城=>zh-sg:诺里奇城;諾維奇城=>zh-my:诺里奇城;諾維奇城=>zh-tw:諾里奇城;諾維奇城=>zh-hk:諾域治;諾維奇城=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "諾域治城=>zh-cn:诺里奇城;諾域治城=>zh-sg:诺里奇城;諾域治城=>zh-my:诺里奇城;諾域治城=>zh-tw:諾里奇城;"
     },
     {
       "original": "Nottingham Forest F.C.",
@@ -288,8 +328,12 @@
       "conv": "zh-cn:谢周三; zh-hk:錫周三;"
     },
     {
-      "original": "Southampton F.C.",
-      "conv": "zh-cn:南安普顿;zh-hk:修咸頓;zh-tw:南安普頓;"
+      "original": "Southampton",
+      "conv": "zh-hans:南安普敦;zh-tw:南安普頓;zh-hk:修咸頓;"
+    },
+    {
+      "original": "Southampton",
+      "conv": "南安普顿=>zh-cn:南安普敦;南安普顿=>zh-sg:南安普敦;南安普顿=>zh-my:南安普敦;南安普顿=>zh-tw:南安普頓;南安普顿=>zh-hk:修咸頓;南安普顿=>zh-mo:修咸頓;"
     },
     {
       "original": "Southend United F.C.",
@@ -306,6 +350,10 @@
     {
       "original": "Sunderland F.C.",
       "conv": "zh-cn:桑德兰;zh-hk:新特蘭;zh-tw:桑德蘭;"
+    },
+    {
+      "original": "Sutton United F.C.",
+      "conv": "zh-hans:萨顿联; zh-hk:瑟頓聯; zh-tw:薩頓聯;"
     },
     {
       "original": "Swansea City A.F.C.",
@@ -325,7 +373,7 @@
     },
     {
       "original": "Tottenham Hotspur F.C.",
-      "conv": " zh-cn:托特纳姆热刺; zh-hk:托定咸熱刺; zh-tw:托特納姆熱刺"
+      "conv": " zh-cn:托特纳姆热刺; zh-hk:托定咸熱刺; zh-tw:托登罕熱刺"
     },
     {
       "original": "Torquay United Football Club",
@@ -344,12 +392,16 @@
       "conv": "zh-cn:西布罗姆维奇;zh-hk:西布朗;zh-tw:西布朗維奇;zh-mo:西布朗;"
     },
     {
-      "original": "Wolverhampton Wanderers",
-      "conv": "zh-cn:狼队;zh-hk:狼隊;zh-tw:伍爾弗漢普頓流浪;"
+      "original": "West Ham United",
+      "conv": "zh-cn:西汉姆联;zh-sg:西哈姆;zh-my:西罕;zh-tw:西漢姆聯;zh-hk:韋斯咸;"
     },
     {
-      "original": "West Ham United F.C.",
-      "conv": "zh-cn:西汉姆联;zh-hk:韋斯咸;zh-tw:西漢姆;"
+      "original": "West Ham United",
+      "conv": "西汉姆=>zh-cn:西汉姆联;西汉姆=>zh-sg:西哈姆;西汉姆=>zh-my:西罕;西汉姆=>zh-tw:西漢姆聯;西汉姆=>zh-hk:韋斯咸;西汉姆=>zh-mo:韋斯咸;"
+    },
+    {
+      "original": "West Ham United",
+      "conv": "西漢姆=>zh-cn:西汉姆联;西漢姆=>zh-sg:西哈姆;西漢姆=>zh-my:西罕;西漢姆=>zh-tw:西漢姆聯;西漢姆=>zh-hk:韋斯咸;西漢姆=>zh-mo:韋斯咸;"
     },
     {
       "original": "Wigan Athletic",
@@ -373,7 +425,7 @@
     },
     {
       "original": "Wrexham Football Club",
-      "conv": "zh-cn:雷克斯汉姆;zh-hk:域斯咸;zh-tw:雷克斯漢姆;"
+      "conv": "zh-hans:雷克瑟姆; zh-hk:域斯咸;zh-tw:雷克斯漢姆;"
     },
     {
       "original": "Wycombe Wanderers Football Club",
@@ -382,6 +434,18 @@
     {
       "original": "Yeovil Town F.C.",
       "conv": "zh-cn:约维尔;zh-hk:伊奧維;zh-tw:約維爾;"
+    },
+    {
+      "original": "Bramall Lane",
+      "conv": "zh-hans:布拉莫巷; zh-hk:巴拉摩徑;"
+    },
+    {
+      "original": "Bramall Lane",
+      "conv": "zh-hans:布拉莫巷体育场; zh-hk:巴拉摩徑球場;"
+    },
+    {
+      "original": "Pride Park Stadium",
+      "conv": "zh-cn:普莱德公园球场;zh-hk:派迪公園球場;zh-tw:普萊德公園球場;"
     }
   ]
 }

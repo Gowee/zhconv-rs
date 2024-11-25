@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-import os
+from pathlib import Path
 from glob import glob
 import json
 import re
 from datetime import datetime
+from sys import stderr
 
-CGROUPS_DIR = os.path.join(os.path.dirname(__file__), "./")
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "../../web/public/cgroups.json")
+CGROUPS_DIR = Path(__file__).parent / "./cgroups"
+OUTPUT_PATH = Path(__file__).parent / "../web/public/cgroups.json"
 
 REGEX_LINK = re.compile(r"\[\[(.+?)(\|.+?)?\]\]")
 
@@ -38,7 +39,7 @@ def now():
 
 def main():
     cgroups = {}
-    for f in glob(os.path.join(CGROUPS_DIR, "*.json")):
+    for f in glob(str(CGROUPS_DIR / "*.json")):
         with open(f, "r") as f:
             cgroup = json.loads(f.read())
             name = combine_names(cgroup["name"], cgroup['description'])
@@ -46,7 +47,7 @@ def main():
             cgroups[name] = rules
     with open(OUTPUT_PATH, "w") as f:
         f.write(json.dumps({'timestamp': now(), 'data': cgroups}, ensure_ascii=False, indent=2))
-    # Remember to apply `zhconv --mediawiki Zh` to the final json for rules in titles/descriptions.
+    print("Generated. Remember to apply `zhconv --wikitext Zh` to the final json for rules in titles/descriptions.", file=stderr)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,147 @@
+{
+  "name": "AC Milan",
+  "description": "AC米蘭",
+  "path": "Module:CGroup/AC Milan",
+  "rules": [
+    {
+      "original": "Abbiati",
+      "conv": "zh:阿比亚蒂; zh-hans:阿比亚蒂; zh-hk:艾比亞迪; zh-tw:阿比亞蒂;"
+    },
+    {
+      "original": "Ambrosini",
+      "conv": "zh:安布罗西尼; zh-hans:安布罗西尼; zh-hk:岩布仙尼; zh-tw:安布羅西尼;"
+    },
+    {
+      "original": "Baresi",
+      "conv": "zh-hans:巴雷西; zh-hk:巴里斯; zh-tw:巴雷西;"
+    },
+    {
+      "original": "Bierhoff",
+      "conv": "zh-hans:比尔霍夫; zh-hk:比亞荷夫; zh-tw:比爾霍夫;"
+    },
+    {
+      "original": "Brocchi",
+      "conv": "zh:布罗基; zh-hans:布罗基; zh-hk:布洛治; zh-tw:布羅基;"
+    },
+    {
+      "original": "Cafu",
+      "conv": "zh:卡福; zh-hans:卡福; zh-hk:卡富; zh-tw:卡福;"
+    },
+    {
+      "original": "Costacurta",
+      "conv": "zh:科斯塔库塔; zh-hans:科斯塔库塔; zh-hk:哥斯達古達; zh-tw:科斯塔庫塔;"
+    },
+    {
+      "original": "Crespo",
+      "conv": "zh:克雷斯波; zh-hans:克雷斯波; zh-hk:基斯普; zh-tw:克雷斯波;"
+    },
+    {
+      "original": "Emerson",
+      "conv": "zh:埃默森; zh-hans:埃默森; zh-hk:艾馬臣; zh-tw:埃默森;"
+    },
+    {
+      "original": "Favalli",
+      "conv": "zh::法瓦利; zh-hans:法瓦利; zh-hk:費華利; zh-tw:法瓦利;"
+    },
+    {
+      "original": "Flamini",
+      "conv": "zh:弗拉米尼; zh-hans:弗拉米尼; zh-hk:法明尼; zh-tw:弗拉米尼;"
+    },
+    {
+      "original": "Gattuso",
+      "conv": "zh:加图索; zh-hans:加图索; zh-hk:加度素; zh-tw:加圖索;"
+    },
+    {
+      "original": "Gilardino",
+      "conv": "zh:吉拉迪诺; zh-hans:吉拉迪诺; zh-hk:基拿甸奴; zh-tw:吉拉迪諾;"
+    },
+    {
+      "original": "Inzaghi",
+      "conv": "zh:因扎吉; zh-hans:因扎吉; zh-hk:恩沙基; zh-tw:因扎吉;"
+    },
+    {
+      "original": "Jankulovski",
+      "conv": "zh:扬库洛夫斯基; zh-hans:扬库洛夫斯基; zh-hk:贊古盧夫斯基; zh-tw:揚庫洛夫斯基;"
+    },
+    {
+      "original": "Kalac",
+      "conv": "zh:卡拉奇; zh-hans:卡拉奇; zh-hk:卡勒; zh-tw:卡拉奇;"
+    },
+    {
+      "original": "Kaladze",
+      "conv": "zh:卡拉泽; zh-hans:卡拉泽; zh-hk:卡拿迪斯; zh-tw:卡拉澤;"
+    },
+    {
+      "original": "Maldini",
+      "conv": "zh:马尔蒂尼; zh-hans:马尔蒂尼; zh-hk:馬甸尼; zh-tw:馬爾蒂尼;"
+    },
+    {
+      "original": "Nesta",
+      "conv": "zh:内斯塔; zh-hans:内斯塔; zh-hk:尼斯達; zh-tw:內斯塔;"
+    },
+    {
+      "original": "Oddo",
+      "conv": "zh:奥多; zh-hans:奥多; zh-hk:奧度; zh-tw:奧多;"
+    },
+    {
+      "original": "Pato",
+      "conv": "zh:帕托; zh-hans:帕托; zh-hk:柏圖; zh-tw:帕托;"
+    },
+    {
+      "original": "Pirlo",
+      "conv": "zh:皮尔洛; zh-hans:皮尔洛; zh-hk:派路; zh-tw:皮爾洛;"
+    },
+    {
+      "original": "Rivaldo",
+      "conv": "zh:里瓦尔多; zh-hans:里瓦尔多; zh-hk:李華度; zh-tw:里瓦爾多;"
+    },
+    {
+      "original": "Ronaldinho",
+      "conv": "zh:罗纳尔迪尼奥; zh-hans:罗纳尔迪尼奥; zh-hk:朗拿甸奴; zh-tw:羅納爾迪尼奧;"
+    },
+    {
+      "original": "Rui Costa",
+      "conv": "zh:鲁伊·科斯塔; zh-hans:鲁伊·科斯塔; zh-hk:雷·哥斯達; zh-tw:魯伊·科斯塔;"
+    },
+    {
+      "original": "Rui Costa",
+      "conv": "雷哥斯達=>zh-hans:鲁伊·科斯塔; 雷哥斯達=>zh-hant:魯伊·科斯塔; 雷哥斯達=>zh-cn:鲁伊·科斯塔; 雷哥斯達=>zh-tw:魯伊·科斯塔; 雷哥斯達=>zh-hk:雷·哥斯達;雷哥斯達=>zh-mo:雷·哥斯達;"
+    },
+    {
+      "original": "Seedorf",
+      "conv": "zh:西多夫; zh-hans:西多夫; zh-hk:施多夫; zh-tw:西多夫;"
+    },
+    {
+      "original": "Serginho",
+      "conv": "zh:塞尔吉尼奥; zh-hans:塞尔吉尼奥; zh-hk:沙真奴; zh-tw:塞爾吉尼奧;"
+    },
+    {
+      "original": "Shevchenko",
+      "conv": "zh:舍甫琴科; zh-hans:舍甫琴科; zh-hk:舒夫真高; zh-tw:舍甫琴科;"
+    },
+    {
+      "original": "Stam",
+      "conv": "zh:斯塔姆; zh-hans:斯塔姆; zh-hk:史譚; zh-tw:斯塔姆;"
+    },
+    {
+      "original": "Tomasson",
+      "conv": "zh:托马森; zh-hans:托马森; zh-hk:湯馬臣; zh-tw:托馬森;"
+    },
+    {
+      "original": "Ancelotti",
+      "conv": "zh:安切洛蒂; zh-hans:安切洛蒂; zh-hk:安察洛堤; zh-tw:安切洛蒂;"
+    },
+    {
+      "original": "Leonardo",
+      "conv": "zh:莱昂纳多; zh-hans:莱昂纳多; zh-hk:李安納度; zh-tw:萊昂納多;"
+    },
+    {
+      "original": "Zaccheroni",
+      "conv": "zh:扎切罗尼; zh-hans:扎切罗尼; zh-hk:沙哲朗尼; zh-tw:扎凱羅尼;"
+    },
+    {
+      "original": "Berlusconi",
+      "conv": "zh:贝卢斯科尼; zh-hans:贝卢斯科尼; zh-hk:貝盧斯科尼; zh-tw:貝魯斯柯尼;"
+    }
+  ]
+}

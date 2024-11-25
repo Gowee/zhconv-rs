@@ -29,6 +29,10 @@
     },
     {
       "original": "bus",
+      "conv": "公共汽車=>zh-hk:巴士;公共汽車=>zh-sg:巴士;公共汽車=>zh-mo:巴士;公共汽車=>zh-my:巴士;"
+    },
+    {
+      "original": "bus",
       "conv": "公车=>zh-hk:巴士;公车=>zh-sg:巴士;公车=>zh-mo:巴士;公车=>zh-my:巴士;"
     },
     {
@@ -41,15 +45,19 @@
     },
     {
       "original": "bus",
+      "conv": "公交車=>zh-cn:公交车;公交車=>zh-tw:公車;公交車=>zh-hk:巴士;公交車=>zh-sg:巴士;公交車=>zh-mo:巴士;公交車=>zh-my:巴士;"
+    },
+    {
+      "original": "bus",
       "conv": "公交=>zh-tw:公車;公交=>zh-hk:巴士;公交=>zh-sg:巴士;公交=>zh-mo:巴士;公交=>zh-my:巴士;"
     },
     {
       "original": "bus lane",
-      "conv": "zh-cn:公交专用道;zh-tw:公車專用道;zh-hk:巴士專線;zh-mo:巴士專線;zh-sg:巴士专用道;zh-my:巴士专用道;"
+      "conv": "zh-cn:公交专用道;zh-tw:公車專用道;zh-hk:巴士專線;zh-mo:巴士專道;zh-sg:巴士专用道;zh-my:巴士专用道;"
     },
     {
       "original": "bus lane",
-      "conv": "公交车专用道=>zh-tw:公車專用道;公交车专用道=>zh-hk:巴士專線;公交车专用道=>zh-mo:巴士專線;公交车专用道=>zh-sg:巴士专用道;公交车专用道=>zh-my:巴士专用道;"
+      "conv": "公交车专用道=>zh-tw:公車專用道;公交车专用道=>zh-hk:巴士專線;公交车专用道=>zh-mo:巴士專道;公交车专用道=>zh-sg:巴士专用道;公交车专用道=>zh-my:巴士专用道;"
     },
     {
       "original": "bus lane",
@@ -108,12 +116,16 @@
       "conv": "zh-cn:单层公共汽车;zh-tw:單層公車;zh-hk:單層巴士;zh-sg:单层巴士;zh-my:单层巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:长途汽车; zh-hk:長途大巴; zh-tw:長途客車;"
     },
     {
       "original": "sideturned",
       "conv": "zh-cn:侧翻; zh-hk:翻側; zh-tw:側翻;"
+    },
+    {
+      "original": "transit-oriented",
+      "conv": "zh-cn:公共交通导向; zh-hk:公共運輸導向; zh-tw:大眾運輸導向;"
     },
     {
       "original": "rush hours",
@@ -164,6 +176,10 @@
       "conv": "zh-cn:平峰;zh-tw:離峰;zh-hk:非繁忙;zh-sg:非繁忙;"
     },
     {
+      "original": "share taxt",
+      "conv": "zh-hant:合乘計程車;zh-hk:合乘的士;zh-tw:共乘計程車;zh-cn:合乘出租车;zh-sg:合乘德士;zh-my:合乘德士;"
+    },
+    {
       "original": "taxi",
       "conv": "zh-cn:出租车;zh-tw:計程車;zh-hk:的士;zh-mo:的士;zh-sg:德士;zh-my:德士;"
     },
@@ -176,24 +192,32 @@
       "conv": "计程车=>zh-cn:出租车;计程车=>zh-hk:的士;计程车=>zh-mo:的士;计程车=>zh-sg:德士;计程车=>zh-my:德士;"
     },
     {
+      "original": "taxi",
+      "conv": "出租汽车=>zh-tw:計程車;出租汽车=>zh-hk:的士;出租汽车=>zh-mo:的士;出租汽车=>zh-sg:德士;出租汽车=>zh-my:德士;"
+    },
+    {
+      "original": "taxi",
+      "conv": "出租汽車=>zh-tw:計程車;出租汽車=>zh-hk:的士;出租汽車=>zh-mo:的士;出租汽車=>zh-sg:德士;出租汽車=>zh-my:德士;"
+    },
+    {
       "original": "taxi stop",
       "conv": "zh-cn:出租车招呼站;zh-hk:的士站;zh-sg:德士站;zh-tw:計程車招呼站;"
     },
     {
       "original": "Bicycle/Bike",
-      "conv": "zh-cn:自行车;zh-hk:單車;zh-tw:自行車;zh-sg:脚车;"
+      "conv": "zh-cn:自行车;zh-hk:單車;zh-tw:自行車;zh-my:脚车;zh-sg:脚踏车;"
     },
     {
       "original": "Bicycle/Bike",
-      "conv": "腳踏車=>zh-cn:自行车;腳踏車=>zh-hk:單車;腳踏車=>zh-mo:單車;腳踏車=>zh-my:脚车;腳踏車=>zh-sg:脚车;"
+      "conv": "腳踏車=>zh-cn:自行车;腳踏車=>zh-hk:單車;腳踏車=>zh-mo:單車;腳踏車=>zh-my:脚车;"
     },
     {
       "original": "Cycle track",
-      "conv": "zh-cn:自行车道;zh-hk:單車徑;zh-tw:自行車道;zh-sg:脚车道;"
+      "conv": "zh-cn:自行车道;zh-hk:單車徑;zh-tw:自行車道;zh-my:脚车道;zh-sg:脚踏车道;"
     },
     {
       "original": "Cycle track",
-      "conv": "腳踏車道=>zh-cn:自行车道;腳踏車道=>zh-hk:單車徑;腳踏車道=>zh-mo:單車徑;腳踏車道=>zh-my:脚车道;腳踏車道=>zh-sg:脚车道;"
+      "conv": "腳踏車道=>zh-cn:自行车道;腳踏車道=>zh-hk:單車徑;腳踏車道=>zh-mo:單車徑;腳踏車道=>zh-my:脚车道;"
     },
     {
       "original": "Cycle track",
@@ -204,20 +228,24 @@
       "conv": "自行車車道=>zh-hk:單車徑;自行車車道=>zh-mo:單車徑;"
     },
     {
+      "original": "Mountain bike",
+      "conv": "zh-hans:登山车; zh-hant:山地車; zh-cn:山地车; zh-tw:登山車; zh-hk:山地單車;"
+    },
+    {
       "original": "Ride a bicycle/bike",
       "conv": "zh-cn:骑自行车;zh-hk:踩單車;zh-tw:騎自行車;zh-sg:踩脚车;"
     },
     {
       "original": "Ride a bicycle/bike",
-      "conv": "騎腳踏車=>zh-cn:骑自行车;騎腳踏車=>zh-hk:踩單車;騎腳踏車=>zh-mo:踩單車;騎腳踏車=>zh-my:踩脚车;騎腳踏車=>zh-sg:踩脚车;"
-    },
-    {
-      "original": "scooter",
-      "conv": "zh-cn:踏板式摩托车;zh-hk:綿羊仔;zh-tw:速克達;"
+      "conv": "騎腳踏車=>zh-cn:骑自行车;騎腳踏車=>zh-hk:踩單車;騎腳踏車=>zh-mo:踩單車;騎腳踏車=>zh-my:踩脚车;"
     },
     {
       "original": "elevator",
       "conv": "zh-cn:电梯; zh-hk:升降機; zh-tw:電梯;"
+    },
+    {
+      "original": "elevator",
+      "conv": "直梯=>zh-cn:电梯; 直梯=>zh-hk:升降機; 直梯=>zh-tw:電梯;"
     },
     {
       "original": "escalator",
@@ -228,12 +256,28 @@
       "conv": "輪渡=>zh-hk:渡輪;轮渡=>zh-hk:渡輪;輪渡=>zh-mo:渡輪;轮渡=>zh-mo:渡輪;"
     },
     {
+      "original": "private car",
+      "conv": "zh-sg:自用车;zh-cn:社会车辆;zh-tw:自用車;zh-hk:私家車;zh-mo:私家車;"
+    },
+    {
+      "original": "reiterbahnhof",
+      "conv": "zh-cn:橋上車站; zh-tw:跨站式站房;"
+    },
+    {
+      "original": "reiterbahnhof",
+      "conv": "zh-cn:桥上站; zh-tw:跨站式站房;"
+    },
+    {
       "original": "tractor",
       "conv": "zh-hk:拖頭;zh-tw:曳引車;zh-cn:牵引车;"
     },
     {
       "original": "trailer",
       "conv": "zh-hk:拖車;zh-tw:拖車;zh-cn:挂车;"
+    },
+    {
+      "original": "scooter",
+      "conv": "zh-cn:踏板式摩托车;zh-hk:綿羊仔;zh-tw:速克達;"
     },
     {
       "original": "semi-trailer truck",
@@ -260,19 +304,11 @@
       "conv": "zh-cn:奔驰; zh-tw:賓士; zh-hk:平治; zh-sg:宾士; zh-my:奔驰;"
     },
     {
-      "original": "Bentley",
-      "conv": "zh-cn:宾利; zh-tw:賓特利; zh-hk:賓利;"
+      "original": "Beetle",
+      "conv": "zh-cn:甲壳虫汽车; zh-tw:金龜車; zh-hk:甲蟲車; zh-my:甲虫车;"
     },
     {
-      "original": "Beetle",
-      "conv": "zh-cn:甲壳虫汽车; zh-tw:金龜車; zh-hk:甲蟲車; zh-my:甲虫车; "
-    },
-    {
-      "original": "Beetle",
-      "conv": "zh-cn:甲壳虫汽车; zh-tw:金龜車; zh-hk:甲蟲車; zh-my:甲虫车; "
-    },
-    {
-      "original": "Beetle",
+      "original": "BMW",
       "conv": "zh-cn:宝马; zh-tw:BMW; zh-hk:寶馬; zh-sg:BMW; zh-my:宝马; "
     },
     {
@@ -282,10 +318,6 @@
     {
       "original": "Bora",
       "conv": "zh-hans:宝来; zh-hk:Bora; zh-tw:Bora;"
-    },
-    {
-      "original": "Buick",
-      "conv": "zh-cn:别克; zh-tw:別克; zh-hk:標域;"
     },
     {
       "original": "Chrysler",
@@ -300,6 +332,10 @@
       "conv": "zh-cn:凯美瑞; zh-hk:Camry; zh-tw:Camry;"
     },
     {
+      "original": "Cosworth",
+      "conv": "zh-tw:考斯沃斯; zh-cn:考斯沃斯; zh-hk:告士禾夫;"
+    },
+    {
       "original": "Daimler",
       "conv": "zh-hans:戴姆勒; zh-hk:丹拿; zh-tw:戴姆勒;"
     },
@@ -310,6 +346,10 @@
     {
       "original": "Fiat",
       "conv": "zh-cn:菲亚特; zh-tw:飛雅特; zh-hk:快意; zh-sg:飞霞;"
+    },
+    {
+      "original": "Holden",
+      "conv": "zh-cn:霍顿; zh-hk:荷頓;"
     },
     {
       "original": "Iveco",
@@ -344,8 +384,24 @@
       "conv": "zh-cn:兰博基尼; zh-tw:藍寶堅尼; zh-hk:林寶堅尼; zh-my:蓝宝基尼;"
     },
     {
+      "original": "Lamborghini",
+      "conv": "蘭博基尼=>zh-cn:兰博基尼; 蘭博基尼=>zh-tw:藍寶堅尼; 蘭博基尼=>zh-hk:林寶堅尼; 蘭博基尼=>zh-my:蓝宝基尼;"
+    },
+    {
       "original": "Lexus",
       "conv": "zh-cn:雷克萨斯; zh-tw:凌志; zh-hk:凌志; zh-sg:立胜; zh-my:凌志;"
+    },
+    {
+      "original": "Mahindra ",
+      "conv": "zh-tw:馬亨達; zh-cn:马恒达; zh-hk:馬軒達;"
+    },
+    {
+      "original": "Mahindra ",
+      "conv": "馬璽達=>zh-tw:馬亨達; 馬璽達=>zh-cn:马恒达; 馬璽達=>zh-hk:馬軒達;"
+    },
+    {
+      "original": "Mahindra ",
+      "conv": "马玺达=>zh-tw:馬亨達; 马玺达=>zh-cn:马恒达; 马玺达=>zh-hk:馬軒達;"
     },
     {
       "original": "MAN",
@@ -372,12 +428,20 @@
       "conv": "奧林比安=>zh-cn:奥林匹克; 奧林比安=>zh-tw:奧林匹克; 奧林比安=>zh-sg:奧林匹克;"
     },
     {
+      "original": "Opel",
+      "conv": "zh-tw:歐寶; zh-hk:歐寶; zh-cn:欧宝;"
+    },
+    {
       "original": "Passat",
       "conv": "zh-hans:帕萨特; zh-hant:Passat;"
     },
     {
       "original": "Plymouth",
       "conv": "zh-cn:普利茅斯; zh-tw:順風; zh-hk:順風;"
+    },
+    {
+      "original": "Pontiac",
+      "conv": "zh:龐蒂克; zh-cn:庞蒂亚克; zh-hk:潘迪; zh-tw:龐帝克;"
     },
     {
       "original": "Scania AB",
@@ -404,12 +468,20 @@
       "conv": "zh-cn:斯巴鲁; zh-tw:速霸陸; zh-hk:富士汽車; zh-my:Subaru;"
     },
     {
+      "original": "Tesla",
+      "conv": "zh-cn:特斯拉Model; zh-tw:特斯拉Model; zh-hk:Tesla Model; zh-mo:Tesla Model;"
+    },
+    {
+      "original": "Tesla",
+      "conv": "特斯拉 Model=>特斯拉Model; 特斯拉 Model=>zh-tw:特斯拉Model; 特斯拉 Model=>zh-hk:Tesla Model; 特斯拉 Model=>zh-mo:Tesla Model;"
+    },
+    {
       "original": "Toyota Supra",
       "conv": "zh-cn:丰田牛魔王; zh-tw:豐田Supra; zh-hk:豐田Supra;"
     },
     {
       "original": "Vauxhall",
-      "conv": "zh-cn:沃克斯豪尔; zh-tw:Vauxhall; zh-hk:獲素"
+      "conv": "zh-tw:佛賀; zh-cn:沃克斯豪尔; zh-hk:獲素;"
     },
     {
       "original": "Volkswagen",
@@ -417,39 +489,95 @@
     },
     {
       "original": "Volkswagen Group",
-      "conv": "zh-cn:大众集团; zh-tw:福斯集團; zh-hk:福士集團; zh-sg:福士伟根集团"
+      "conv": "zh-cn:大众集团; zh-tw:福斯集團; zh-hk:福士集團; zh-sg:福士伟根集团;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:上汽大众;zh-hant:上汽大衆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:上海大众;zh-hant:上海大衆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:一汽大众;zh-hant:一汽大衆;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:一汽-大众;zh-hant:一汽-大衆;"
     },
     {
       "original": "Volvo",
-      "conv": "zh-cn:沃尔沃; zh-tw:富豪; zh-hk:富豪; zh-my:富豪;"
+      "conv": " 沃尔沃=>zh-tw:富豪; 沃尔沃=>zh-hk:富豪; 沃尔沃=>zh-my:富豪;"
     },
     {
       "original": "air bag",
       "conv": "zh-cn:安全气囊; zh-hk:安全氣袋; zh-tw:安全氣囊;"
     },
     {
-      "original": "Automatic Transmission",
-      "conv": "zh-cn:自动变速器; zh-tw:自排變速箱;"
+      "original": "automated manual transmission",
+      "conv": " zh-cn:自动手动变速器; zh-tw:自動手排變速箱; zh-hk:自動手動波箱; zh-sg:自动手动牙箱;"
     },
     {
-      "original": "Automatic Transmission",
-      "conv": "zh-cn:自动挡; zh-tw:自動排檔; zh-hk:自動波;"
+      "original": "automatic transmission",
+      "conv": "zh-cn:自动变速器; zh-tw:自排變速箱; zh-hk:自動波箱; zh-sg:自动牙箱;"
+    },
+    {
+      "original": "automatic transmission",
+      "conv": "zh-cn:自动挡; zh-tw:自動排檔; zh-hk:自動波; zh-sg:自牙;"
+    },
+    {
+      "original": "automatic transmission",
+      "conv": "自排=>zh-cn:自动挡; 自排=>zh-hk:自動波; 自排=>zh-sg:自牙;"
+    },
+    {
+      "original": "brake",
+      "conv": "zh-hant:制動; zh-cn:制动; zh-tw:煞車;"
     },
     {
       "original": "continuously variable",
       "conv": "zh-cn:无级; zh-tw:無段;"
     },
     {
+      "original": "continuously variable transmission",
+      "conv": "zh-hant:無段自動變速器; zh-cn:无级变速器; zh-tw:無段變速箱; zh-hk:無段變速波箱; zh-sg:无段速牙箱;"
+    },
+    {
       "original": "convertible",
       "conv": "zh-cn:敞篷; zh-tw:敞篷; zh-hk:開篷;"
+    },
+    {
+      "original": "cylinder",
+      "conv": "zh-hant:氣缸; zh-cn:气缸; zh-tw:汽缸;"
     },
     {
       "original": "engine",
       "conv": "zh-cn:发动机; zh-tw:引擎; zh-hk:引擎; zh-sg:引擎;"
     },
     {
+      "original": "engine displacement",
+      "conv": "zh-hans:排量; zh-hant:排氣量;"
+    },
+    {
+      "original": "engine displacement",
+      "conv": "排气量=>zh-hans:排量; 排气量=>zh-hant:排氣量;"
+    },
+    {
       "original": "executive cars",
       "conv": "zh-tw:主管級房車; zh-hk:行政轎車; zh-cn:行政轿车;"
+    },
+    {
+      "original": "fluid coupling",
+      "conv": "zh-cn:液力耦合器; zh-tw:液壓聯軸器;"
+    },
+    {
+      "original": "four-stroke",
+      "conv": "zh-hans:四冲程; zh-hk:四衝程; zh-tw:四行程;"
+    },
+    {
+      "original": "gearstick",
+      "conv": "zh-cn:挡把; zh-tw:排檔桿; zh-hk:波棍; zh-sg:牙柄;"
     },
     {
       "original": "hatchback",
@@ -460,16 +588,32 @@
       "conv": "zh-cn:混动; zh-hk:混燃;"
     },
     {
-      "original": "Manual Transmission",
-      "conv": "zh-cn:手动变速器; zh-tw:手排變速箱;"
+      "original": "manual transmission",
+      "conv": "zh-cn:手动变速器; zh-tw:手排變速箱; zh-hk:手動波箱; zh-sg:手动牙箱;"
     },
     {
-      "original": "Manual Transmission",
-      "conv": "zh-cn:手动挡; zh-tw:手動排檔; zh-hk:棍波;"
+      "original": "manual transmission",
+      "conv": "zh-cn:手动挡; zh-tw:手動排檔; zh-hk:棍波; zh-sg:手牙;"
+    },
+    {
+      "original": "manual transmission",
+      "conv": "手排=>zh-cn:手动挡; 手排=>zh-hk:棍波; 手排=>zh-sg:手牙;"
+    },
+    {
+      "original": "manumatic",
+      "conv": "zh-hans:手自一体变速箱; zh-cn:手自一体变速器; zh-tw:手動自排變速箱; zh-hk:手動自動波箱; zh-sg:手动自动牙箱;"
     },
     {
       "original": "rearview mirror",
       "conv": "zh-cn:后视镜; zh-hk:倒後鏡; zh-tw:後視鏡;"
+    },
+    {
+      "original": "six-stroke",
+      "conv": "zh-hans:六冲程; zh-hk:六衝程; zh-tw:六行程;"
+    },
+    {
+      "original": "spark plug",
+      "conv": "zh-hans:火花塞; zh-hk:火嘴; zh-tw:火星塞;"
     },
     {
       "original": "spindle grille",
@@ -480,16 +624,40 @@
       "conv": "zh-cn:悬挂; zh-tw:懸吊;"
     },
     {
+      "original": "torque converter",
+      "conv": "zh-cn:液力变矩器; zh-tw:扭矩轉換器;"
+    },
+    {
       "original": "transmission",
-      "conv": "zh-cn:变速器; zh-hk:波箱; zh-tw:變速箱;"
+      "conv": "zh-hans:变速箱; zh-hant:變速器; zh-cn:变速器; zh-hk:波箱; zh-tw:變速箱; zh-sg:牙箱;"
+    },
+    {
+      "original": "two-stroke",
+      "conv": "zh-hans:两冲程; zh-hk:二衝程; zh-tw:二行程;"
+    },
+    {
+      "original": "two-stroke",
+      "conv": "二冲程=>zh-hans:两冲程; 二冲程=>zh-hk:二衝程; 二冲程=>zh-tw:二行程;"
+    },
+    {
+      "original": "tyre",
+      "conv": "zh-hant:輪胎; zh-hans:轮胎; zh-hk:車呔"
+    },
+    {
+      "original": "valvetrain",
+      "conv": "zh-hans:气孔; zh-hant:汽門;"
+    },
+    {
+      "original": "valvetrain",
+      "conv": "氣門=>zh-hans:气孔; 氣門=>zh-hant:汽門;"
+    },
+    {
+      "original": "valvetrain",
+      "conv": "气门=>zh-hans:气孔; 气门=>zh-hant:汽門;"
     },
     {
       "original": "van",
-      "conv": "廂型車=>zh-cn:面包车; 面包车=>zh-tw:廂型車;"
-    },
-    {
-      "original": "van",
-      "conv": "面包车=>zh-hk:客貨車;"
+      "conv": "zh-cn:面包车; zh-tw:廂型車; zh-hk:客貨車;"
     },
     {
       "original": "wiper",
@@ -505,19 +673,19 @@
     },
     {
       "original": "passenger terminal",
-      "conv": "客運航廈=>zh-cn:客运航站楼; 客運航廈=>zh-tw:客運航廈; 客運航廈=>zh-hk:客運大樓; 客運航廈=>zh-sg:搭客大厦;客運航廈=>zh-my:客运航站楼 "
+      "conv": "客運航廈=>zh-cn:客运航站楼; 客運航廈=>zh-tw:客運航廈; 客運航廈=>zh-hk:客運大樓; 客運航廈=>zh-sg:搭客大厦;客運航廈=>zh-my:客运航站楼;"
     },
     {
       "original": "passenger terminal",
-      "conv": "客运航站楼=>zh-cn:客运航站楼; 客运航站楼=>zh-tw:客運航廈; 客运航站楼=>zh-hk:客運大樓; 客运航站楼=>zh-sg:搭客大厦;客运航站楼=>zh-my:客运航站楼"
+      "conv": "客运航站楼=>zh-cn:客运航站楼; 客运航站楼=>zh-tw:客運航廈; 客运航站楼=>zh-hk:客運大樓; 客运航站楼=>zh-sg:搭客大厦;客运航站楼=>zh-my:客运航站楼;"
     },
     {
       "original": "passenger terminal",
-      "conv": "客運航站楼=>zh-cn:客运航站楼; 客運航站楼=>zh-tw:客運航廈; 客運航站楼=>zh-hk:客運大樓; 客運航站楼=>zh-sg:搭客大厦;客運航站楼=>zh-my:客运航站楼"
+      "conv": "客運航站楼=>zh-cn:客运航站楼; 客運航站楼=>zh-tw:客運航廈; 客運航站楼=>zh-hk:客運大樓; 客運航站楼=>zh-sg:搭客大厦;客運航站楼=>zh-my:客运航站楼;"
     },
     {
       "original": "passenger terminal",
-      "conv": "客运航廈=>zh-cn:客运航站楼; 客运航廈=>zh-tw:客運航廈; 客运航廈=>zh-hk:客運大樓; 客运航廈=>zh-sg:搭客大厦;客运航廈=>zh-my:客运航站楼"
+      "conv": "客运航廈=>zh-cn:客运航站楼; 客运航廈=>zh-tw:客運航廈; 客运航廈=>zh-hk:客運大樓; 客运航廈=>zh-sg:搭客大厦;客运航廈=>zh-my:客运航站楼;"
     },
     {
       "original": "terminal 1",
@@ -540,28 +708,48 @@
       "conv": "zh-cn:五号航站楼;zh-tw:第五航廈;zh-hk:五號客運大樓;zh-mo:五號客運大樓;zh-sg:五号搭客大厦;zh-my:五号航站楼;"
     },
     {
+      "original": "terminal 1",
+      "conv": "zh-cn:1号航站楼;zh-tw:第1航廈;zh-hk:1號客運大樓;zh-mo:1號客運大樓;zh-sg:1号搭客大厦;zh-my:1号航站楼;"
+    },
+    {
+      "original": "terminal 2",
+      "conv": "zh-cn:2号航站楼;zh-tw:第2航廈;zh-hk:2號客運大樓;zh-mo:2號客運大樓;zh-sg:2号搭客大厦;zh-my:2号航站楼;"
+    },
+    {
+      "original": "terminal 3",
+      "conv": "zh-cn:3号航站楼;zh-tw:第3航廈;zh-hk:3號客運大樓;zh-mo:3號客運大樓;zh-sg:3号搭客大厦;zh-my:3号航站楼;"
+    },
+    {
+      "original": "terminal 4",
+      "conv": "zh-cn:4号航站楼;zh-tw:第4航廈;zh-hk:4號客運大樓;zh-mo:4號客運大樓;zh-sg:4号搭客大厦;zh-my:4号航站楼;"
+    },
+    {
+      "original": "terminal 5",
+      "conv": "zh-cn:5号航站楼;zh-tw:第5航廈;zh-hk:5號客運大樓;zh-mo:5號客運大樓;zh-sg:5号搭客大厦;zh-my:5号航站楼;"
+    },
+    {
       "original": "satellite terminal",
-      "conv": "zh-cn:卫星楼; zh-tw:衛星航廈; zh-hk:衛星樓"
+      "conv": "zh-cn:卫星楼; zh-tw:衛星航廈; zh-hk:衛星樓;"
     },
     {
       "original": "satellite concourse",
-      "conv": "zh-cn:卫星厅; zh-tw:衛星廊廳; zh-hk:衛星廊"
+      "conv": "zh-cn:卫星厅; zh-tw:衛星廊廳; zh-hk:衛星廊;"
     },
     {
       "original": "cargo terminal",
-      "conv": "zh-cn:货运航站楼; zh-tw:貨運航廈; zh-hk:貨運大樓"
+      "conv": "zh-cn:货运航站楼; zh-tw:貨運航廈; zh-hk:貨運大樓;"
     },
     {
       "original": "cargo terminal",
-      "conv": "貨運航站楼=>zh-cn:货运航站楼; 貨運航站楼=>zh-tw:貨運航廈; 貨運航站楼=>zh-hk:貨運大樓"
+      "conv": "貨運航站楼=>zh-cn:货运航站楼; 貨運航站楼=>zh-tw:貨運航廈; 貨運航站楼=>zh-hk:貨運大樓;"
     },
     {
       "original": "cargo terminal",
-      "conv": "货运航廈=>zh-cn:货运航站楼; 货运航廈=>zh-tw:貨運航廈; 货运航廈=>zh-hk:貨運大樓"
+      "conv": "货运航廈=>zh-cn:货运航站楼; 货运航廈=>zh-tw:貨運航廈; 货运航廈=>zh-hk:貨運大樓;"
     },
     {
       "original": "control tower",
-      "conv": "zh-cn:控制塔; zh-tw:塔台; zh-hk:控制塔"
+      "conv": "zh-cn:控制塔; zh-tw:塔台; zh-hk:控制塔;"
     },
     {
       "original": "boarding gate",
@@ -577,27 +765,27 @@
     },
     {
       "original": "jet bridge",
-      "conv": "zh-tw:空橋;zh-cn:廊桥;zh-hk:登機橋;"
+      "conv": "zh-cn:廊桥;zh-hk:登機橋;"
+    },
+    {
+      "original": "jet bridge",
+      "conv": "廊桥=>zh-tw:空橋;登機橋=>zh-tw:空橋;"
     },
     {
       "original": "ดินแดนสุวรรณภูมิ",
-      "conv": "zh-cn:素万那普; zh-tw:蘇凡納布; zh-hk:蘇萬那普;zh-sg:素万那普"
+      "conv": "zh-cn:素万那普;zh-tw:蘇凡納布;zh-hk:蘇萬那普;"
     },
     {
       "original": "กระบี่",
-      "conv": "zh-cn:甲米;zh-hk:喀比;zh-tw:喀比;zh-sg:甲米"
-    },
-    {
-      "original": "ภูเก็ต",
-      "conv": "zh-cn:普吉;zh-hk:布吉;zh-tw:普吉;zh-sg:普吉"
+      "conv": "zh-cn:甲米;zh-tw:喀比;"
     },
     {
       "original": "U-Tapao",
-      "conv": "zh-cn:乌塔保;zh-hk:烏達堡;zh-tw:烏打拋;zh-sg:乌塔保"
+      "conv": "zh-cn:乌塔保;zh-tw:烏打拋;zh-hk:烏達堡;"
     },
     {
       "original": "دبي",
-      "conv": "zh-cn:迪拜;zh-hk:杜拜;zh-tw:杜拜;zh-mo:杜拜;"
+      "conv": "zh-cn:迪拜;zh-tw:杜拜;"
     },
     {
       "original": "أبو ظبي",
@@ -605,7 +793,7 @@
     },
     {
       "original": "İstanbul",
-      "conv": "zh-cn:伊斯坦布尔;zh-sg:伊斯坦堡;zh-hk:伊斯坦堡;zh-tw:伊斯坦堡;"
+      "conv": "zh-cn:伊斯坦布尔;zh-sg:伊斯坦堡;zh-tw:伊斯坦堡;"
     },
     {
       "original": "Addis Abeba",
@@ -613,15 +801,15 @@
     },
     {
       "original": "Atatürk",
-      "conv": "zh-cn:阿塔图尔克;zh-sg:阿塔图尔克;zh-hk:阿塔圖克;zh-tw:阿塔圖克;"
+      "conv": "zh-cn:阿塔图尔克;zh-tw:阿塔圖克;"
     },
     {
       "original": "Chennai",
-      "conv": "zh-cn:金奈; zh-tw:清奈; zh-hk:清奈;"
+      "conv": "zh-cn:金奈;zh-tw:清奈;"
     },
     {
       "original": "Dar es Salaam",
-      "conv": "zh-cn:达累斯萨拉姆;zh-tw:三蘭港"
+      "conv": "zh-cn:达累斯萨拉姆;zh-tw:三蘭港;"
     },
     {
       "original": "Doha",
@@ -632,20 +820,24 @@
       "conv": "zh-cn:埃塞俄比亚;zh-tw:衣索比亞;zh-hk:埃塞俄比亞;"
     },
     {
-      "original": "Heathrow",
-      "conv": "zh-hans:希思罗; zh-hk:希斯路; zh-tw:希斯洛; zh-mo:希斯路;"
-    },
-    {
-      "original": "Heathrow",
-      "conv": "希思羅=>zh-mo:希斯路; 希思羅=>zh-hk:希斯路; 希思羅=>zh-tw:希斯洛;"
-    },
-    {
       "original": "Gatwick",
-      "conv": "zh-cn:盖特威克; zh-tw:蓋威克; zh-hk:格域;"
+      "conv": "zh-cn:盖特威克;zh-tw:蓋威克;zh-hk:格域;"
+    },
+    {
+      "original": "Heathrow",
+      "conv": "zh-hans:希思罗;zh-tw:希斯洛;zh-hk:希斯路;"
+    },
+    {
+      "original": "Heathrow",
+      "conv": "希思羅=>zh-tw:希斯洛;希思羅=>zh-hk:希斯路;"
     },
     {
       "original": "Kenya",
-      "conv": "zh-cn:肯尼亚;zh-hk:肯雅;zh-tw:肯亞"
+      "conv": "zh-cn:肯尼亚;zh-tw:肯亞;zh-hk:肯雅;"
+    },
+    {
+      "original": "Newark",
+      "conv": "zh-cn:纽瓦克;zh-tw:紐華克;"
     },
     {
       "original": "Perth",
@@ -653,15 +845,31 @@
     },
     {
       "original": "Schiphol",
-      "conv": "zh-cn:斯希普霍尔;zh-tw:史基浦"
+      "conv": "zh-cn:斯希普霍尔;zh-tw:史基浦;"
     },
     {
       "original": "Somalia",
-      "conv": "zh-cn:索马里;zh-tw:索馬利亞"
+      "conv": "zh-cn:索马里;zh-tw:索馬利亞;"
     },
     {
       "original": "Sydney",
-      "conv": "zh-cn:悉尼;zh-hk:悉尼;zh-tw:雪梨;zh-mo:悉尼;"
+      "conv": "zh-cn:悉尼;zh-tw:雪梨;zh-hk:悉尼;"
+    },
+    {
+      "original": "economy class",
+      "conv": "zh-cn:经济舱; zh-tw:經濟艙; zh-hk:經濟客位;"
+    },
+    {
+      "original": "premium economy class",
+      "conv": "zh-cn:优质经济舱; zh-tw:豪華經濟艙; zh-hk:優質經濟客位;"
+    },
+    {
+      "original": "business class",
+      "conv": "zh-cn:公务舱; zh-tw:商務艙; zh-hk:商務客位;"
+    },
+    {
+      "original": "first class",
+      "conv": "zh-cn:头等舱; zh-tw:頭等艙; zh-hk:頭等客位;"
     },
     {
       "original": "bridge",
@@ -680,6 +888,14 @@
       "conv": "zh-cn:建设－经营－转让模式; zh-hant:興建－營運－移轉模式; zh-hk:建造、營運及轉移模式; zh-tw:民間興建營運後轉移模式;"
     },
     {
+      "original": "bottleneck",
+      "conv": "zh-cn:瓶颈; zh-hk:樽頸; zh-tw:瓶頸;"
+    },
+    {
+      "original": "cable-stayed bridge",
+      "conv": "zh-hans:斜拉桥;zh-hk:斜拉橋;zh-tw:斜張橋;"
+    },
+    {
       "original": "PPP",
       "conv": "zh-cn:政府和社会资本合作; zh-tw:民間參與公共建設;"
     },
@@ -688,20 +904,28 @@
       "conv": "zh-hans:外包;zh-hk:外判;zh-tw:外包;"
     },
     {
-      "original": "Interchange",
-      "conv": "zh-cn:立交;zh-tw:交流道;zh-hk:交匯處;"
+      "original": "hutong",
+      "conv": "zh-hant:衚衕;zh-hans:胡同;"
     },
     {
       "original": "Interchange",
-      "conv": "互通立交=>zh-tw:交流道;互通立交=>zh-hk:交匯處;互通立交=>zh-mo:交匯處;"
+      "conv": "zh-cn:互通立交;zh-tw:交流道;zh-hk:交匯處;"
     },
     {
       "original": "Interchange",
-      "conv": "立交桥=>zh-tw:交流道;立交桥=>zh-hk:交匯處;立交桥=>zh-mo:交匯處;"
+      "conv": "立交=>zh-tw:交流道; 立交=>zh-hk:交匯處; 立交=>zh-mo:交匯處;"
     },
     {
       "original": "Interchange",
       "conv": "互通立交桥=>zh-tw:交流道;互通立交桥=>zh-hk:交匯處;互通立交桥=>zh-mo:交匯處;"
+    },
+    {
+      "original": "overpass",
+      "conv": "zh-cn:高架路;zh-sg:行车天桥;zh-mo:行車天橋;zh-tw:高架道路;zh-hk:架空道路;"
+    },
+    {
+      "original": "overpass",
+      "conv": "架空=>zh-tw:高架;架空=>zh-cn:高架;架空=>zh-hk:架空;"
     },
     {
       "original": "System Interchange",
@@ -718,6 +942,14 @@
     {
       "original": "Electronic Toll Collection",
       "conv": "zh-cn:电子不停车收费系统;zh-hk:自動道路繳費系統;zh-mo:自動道路繳費系統;zh-tw:電子道路收費系統;zh-sg:电子道路收费系统;zh-my:电子道路收费系统;"
+    },
+    {
+      "original": "Speed bump",
+      "conv": "zh-cn:减速带;zh-tw:減速丘;zh-hk:減速帶;"
+    },
+    {
+      "original": "suspension bridge",
+      "conv": "悬索桥=>zh-tw:吊橋;懸索橋=>zh-tw:吊橋;"
     },
     {
       "original": "Traffic Lane",
@@ -741,15 +973,95 @@
     },
     {
       "original": "Traffic Lane",
-      "conv": "行車路=>zh-tw:車道;行車路=>zh-cn:车道;行車路=>zh-sg:车道;行車路=>zh-my:车道;"
+      "conv": "行車路=>zh-tw:車道;行車路=>zh-cn:车道;行車路=>zh-sg:车道;行車路=>zh-my:车道;行車路=>zh-hk:行車線;行車路=>zh-mo:行車線;"
+    },
+    {
+      "original": "Traffic Lane",
+      "conv": "行車道=>zh-tw:車道;行車道=>zh-cn:车道;行車道=>zh-sg:车道;行車道=>zh-my:车道;行車道=>zh-hk:行車線;行車道=>zh-mo:行車線;"
+    },
+    {
+      "original": "1 traffic lanes",
+      "conv": "zh-hk:一線行車;zh-tw:一車道;zh-cn:一车道;"
+    },
+    {
+      "original": "1 traffic lanes",
+      "conv": "zh-hk:1線行車;zh-tw:1車道;zh-cn:1车道;"
     },
     {
       "original": "2 traffic lanes",
-      "conv": "zh-hk:兩條行車線;zh-tw:二車道;zh-cn:二车道;"
+      "conv": "zh-hk:兩線行車;zh-tw:二車道;zh-cn:二车道;"
     },
     {
       "original": "2 traffic lanes",
-      "conv": "zh:兩條行車綫;zh-hk:兩條行車線;zh-tw:二車道;zh-cn:二车道;"
+      "conv": "zh-hk:雙線行車;zh-tw:雙車道;zh-cn:双车道;"
+    },
+    {
+      "original": "2 traffic lanes",
+      "conv": "zh-hk:2線行車;zh-tw:2車道;zh-cn:2车道;"
+    },
+    {
+      "original": "3 traffic lanes",
+      "conv": "zh-hk:三線行車;zh-tw:三車道;zh-cn:三车道;"
+    },
+    {
+      "original": "3 traffic lanes",
+      "conv": "zh-hk:3線行車;zh-tw:3車道;zh-cn:3车道;"
+    },
+    {
+      "original": "4 traffic lanes",
+      "conv": "zh-hk:四線行車;zh-tw:四車道;zh-cn:四车道;"
+    },
+    {
+      "original": "4 traffic lanes",
+      "conv": "zh-hk:4線行車;zh-tw:4車道;zh-cn:4车道;"
+    },
+    {
+      "original": "5 traffic lanes",
+      "conv": "zh-hk:五線行車;zh-tw:五車道;zh-cn:五车道;"
+    },
+    {
+      "original": "5 traffic lanes",
+      "conv": "zh-hk:5線行車;zh-tw:5車道;zh-cn:5车道;"
+    },
+    {
+      "original": "6 traffic lanes",
+      "conv": "zh-hk:六線行車;zh-tw:六車道;zh-cn:六车道;"
+    },
+    {
+      "original": "6 traffic lanes",
+      "conv": "zh-hk:6線行車;zh-tw:6車道;zh-cn:6车道;"
+    },
+    {
+      "original": "7 traffic lanes",
+      "conv": "zh-hk:七線行車;zh-tw:七車道;zh-cn:七车道;"
+    },
+    {
+      "original": "7 traffic lanes",
+      "conv": "zh-hk:7線行車;zh-tw:7車道;zh-cn:7车道;"
+    },
+    {
+      "original": "8 traffic lanes",
+      "conv": "zh-hk:八線行車;zh-tw:八車道;zh-cn:八车道;"
+    },
+    {
+      "original": "8 traffic lanes",
+      "conv": "zh-hk:8線行車;zh-tw:8車道;zh-cn:8车道;"
+    },
+    {
+      "original": "9 traffic lanes",
+      "conv": "zh-hk:九線行車;zh-tw:九車道;zh-cn:九车道;"
+    },
+    {
+      "original": "9 traffic lanes",
+      "conv": "zh-hk:9線行車;zh-tw:9車道;zh-cn:9车道;"
+    },
+    {
+      "original": "10 traffic lanes",
+      "conv": "zh-hk:十線行車;zh-tw:十車道;zh-cn:十车道;"
+    },
+    {
+      "original": "10 traffic lanes",
+      "conv": "zh-hk:10線行車;zh-tw:10車道;zh-cn:10车道;"
     },
     {
       "original": "roundabout",
@@ -772,52 +1084,44 @@
       "conv": "zh-cn:辅路;zh-tw:集散道;zh-hk:集散公路;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:人行桥;zh-hk:行人橋;zh-tw:人行橋;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:人行天桥;zh-hk:行人天橋;zh-tw:人行天橋;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "过街天桥=>zh-hk:行人天橋;过街天桥=>zh-mo:行人天橋;过街天桥=>zh-tw:人行天橋;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "過街天橋=>zh-hk:行人天橋;過街天橋=>zh-mo:行人天橋;過街天橋=>zh-tw:人行天橋;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "人行过街天桥=>zh-hk:行人天橋;人行过街天桥=>zh-mo:行人天橋;人行过街天桥=>zh-tw:人行天橋;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "人行過街天橋=>zh-hk:行人天橋;人行過街天橋=>zh-mo:行人天橋;人行過街天橋=>zh-tw:人行天橋;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "人行陸橋=>zh-cn:人行天桥;人行陸橋=>zh-my:人行天桥;人行陸橋=>zh-sg:人行天桥;人行陸橋=>zh-hk:行人天橋;人行陸橋=>zh-mo:行人天橋;"
     },
     {
-      "original": "",
-      "conv": "空橋=>zh-cn:人行天桥;空橋=>zh-my:人行天桥;空橋=>zh-sg:人行天桥;空橋=>zh-hk:行人天橋;空橋=>zh-mo:行人天橋;"
-    },
-    {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:人行横道;zh-hk:行人過路線;zh-tw:行人穿越道;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:地下通道;zh-hk:行人隧道;zh-tw:人行地下道;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "人行=>zh-hk:行人; 人行=>zh-mo:行人;"
-    },
-    {
-      "original": "Line",
-      "conv": "zh-cn:线;zh-tw:線;"
     },
     {
       "original": "International Association of Public Transport",
@@ -825,19 +1129,15 @@
     },
     {
       "original": "Driving under the influence (of alcohol)",
-      "conv": "zh-cn:醉酒驾驶; zh-hant:酒後駕駛; zh-sg:酒后驾驶;"
-    },
-    {
-      "original": "Driving under the influence (of alcohol)",
       "conv": "醉酒駕駛=>zh-hk:酒後駕駛; 醉酒駕駛=>zh-mo:酒後駕駛; 醉酒駕駛=>zh-tw:酒後駕駛; 醉酒駕駛=>zh-my:酒后驾驶; 醉酒駕駛=>zh-sg:酒后驾驶;"
     },
     {
       "original": "Driving under the influence (of alcohol)",
-      "conv": "zh-cn:醉驾;zh-hant:酒駕;zh-sg:酒驾;"
+      "conv": "醉駕=>zh-hk:酒駕; 醉駕=>zh-mo:酒駕; 醉駕=>zh-tw:酒駕; 醉駕=>zh-my:酒驾; 醉駕=>zh-sg:酒驾;"
     },
     {
-      "original": "Driving under the influence (of alcohol)",
-      "conv": "醉駕=>zh-hk:酒駕; 醉駕=>zh-mo:酒駕; 醉駕=>zh-tw:酒駕; 醉駕=>zh-my:酒驾; 醉駕=>zh-sg:酒驾;"
+      "original": "Mass Rapid Transit System",
+      "conv": "zh-cn:大运量快速客运系统 ;zh-hk:集體運輸系統 ;zh-tw:大眾運輸系統 ;"
     },
     {
       "original": "Motorcycle",
@@ -845,19 +1145,39 @@
     },
     {
       "original": "Motorcycle",
-      "conv": "摩托車=>zh-hk:電單車; 摩托車=>zh-mo:電單車;摩托車=>zh-tw:機車; 摩托車=>zh-my:摩哆车;摩托車=>zh-sg:摩哆车;"
+      "conv": "摩托車=>zh-hk:電單車;摩托車=>zh-mo:電單車;摩托車=>zh-tw:機車;摩托車=>zh-my:摩哆车;摩托車=>zh-sg:摩哆车;"
     },
     {
       "original": "Motorcycle",
-      "conv": "电单车=>zh-cn:摩托车; 电单车=>zh-tw:機車;电单车=>zh-my:摩哆车; 电单车=>zh-sg:摩哆车;"
+      "conv": "电单车=>zh-cn:摩托车;电单车=>zh-tw:機車;电单车=>zh-my:摩哆车;电单车=>zh-sg:摩哆车;"
     },
     {
       "original": "Motorcycle",
-      "conv": "摩哆車=>zh-cn:摩托车; 摩哆車=>zh-hk:電單車;摩哆車=>zh-mo:電單車; 摩哆車=>zh-tw:機車;"
+      "conv": "摩哆車=>zh-cn:摩托车;摩哆車=>zh-hk:電單車;摩哆車=>zh-mo:電單車;摩哆車=>zh-tw:機車;"
+    },
+    {
+      "original": "Motorcycle",
+      "conv": "摩托车=>zh-hk:電單車;摩托车=>zh-mo:電單車;摩托车=>zh-tw:機車;摩托车=>zh-my:摩哆车;摩托车=>zh-sg:摩哆车;"
+    },
+    {
+      "original": "Motorcycle",
+      "conv": "電單車=>zh-cn:摩托车;電單車=>zh-tw:機車;電單車=>zh-my:摩哆车;電單車=>zh-sg:摩哆车;"
+    },
+    {
+      "original": "Motorcycle",
+      "conv": "摩哆车=>zh-cn:摩托车;摩哆车=>zh-hk:電單車;摩哆车=>zh-mo:電單車;摩哆车=>zh-tw:機車;"
+    },
+    {
+      "original": "Motorcycle lane",
+      "conv": "zh-cn:摩托车道;zh-hk:電單車專用行車線;zh-sg:摩哆车道;zh-tw:機車道;"
+    },
+    {
+      "original": "Motorcycle lane",
+      "conv": "zh-cn:摩托车专用道;zh-hk:電單車專用行車線;zh-sg:摩哆车专用道;zh-tw:機車專用道;"
     },
     {
       "original": "Scooter",
-      "conv": "zh-cn:踏板式摩托车; zh-hk:綿羊仔; zh-tw:速克達;"
+      "conv": "zh-cn:踏板式摩托车;zh-hk:綿羊仔;zh-tw:速克達;"
     },
     {
       "original": "Speed camera",
@@ -868,16 +1188,16 @@
       "conv": "zh-cn:固定测速摄像头; zh-tw:定桿測速照相機; zh-hk:固定偵速攝影機;"
     },
     {
+      "original": "Aerial photography",
+      "conv": "zh-cn:航拍; zh-tw:空拍;"
+    },
+    {
       "original": "Betrieb beenden",
       "conv": "zh-cn:停运; zh-tw:中止營運;"
     },
     {
       "original": "Betrieb beenden",
       "conv": "zh-cn:暂停运营; zh-tw:暫停營運;"
-    },
-    {
-      "original": "operation",
-      "conv": "zh-cn:运营; zh-hk:營運; zh-tw:營運"
     },
     {
       "original": "operation",
@@ -890,10 +1210,6 @@
     {
       "original": "admission",
       "conv": "zh-cn:许可证; zh-tw:營運許可;"
-    },
-    {
-      "original": "Emission",
-      "conv": "zh-hans:尾气; zh-hant:廢氣;"
     },
     {
       "original": "interchange",
@@ -913,11 +1229,31 @@
     },
     {
       "original": "line",
-      "conv": "zh-hans:线路;zh-hant:路線;"
+      "conv": "zh-hans:线路;zh-tw:路線;"
+    },
+    {
+      "original": "railway lines",
+      "conv": "铁路線=>zh-cn:铁路线"
     },
     {
       "original": "line",
-      "conv": "zh:路綫;zh-hans:线路;zh-hant:路線;"
+      "conv": "路綫=>zh-cn:线路;路綫=>zh-my:线路;路綫=>zh-sg:线路;"
+    },
+    {
+      "original": "railway lines",
+      "conv": "铁路綫=>zh-cn:铁路线"
+    },
+    {
+      "original": "through service",
+      "conv": "zh-cn:贯通运营;zh-tw:直通運轉;zh-hk:直通運行;"
+    },
+    {
+      "original": "through service",
+      "conv": "zh-cn:跨线路运营;zh-tw:直通運轉;zh-hk:直通運行;"
+    },
+    {
+      "original": "through service",
+      "conv": "zh-cn:跨线路运行;zh-tw:直通運轉;zh-hk:直通運行;"
     },
     {
       "original": "Texaco",
@@ -968,36 +1304,56 @@
       "conv": "zh-hant:后海灣幹線;zh-hans:后海湾干线;"
     },
     {
-      "original": "",
+      "original": null,
+      "conv": "zh-cn:首班;zh-hk:頭班;zh-tw:首班;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:末班;zh-hk:尾班;zh-tw:末班;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:水上巴士;zh-hant:水上巴士"
+      "original": null,
+      "conv": "zh-hans:水上巴士;zh-hant:水上巴士;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:蒸汽机车;zh-hant:蒸汽機車"
+      "original": null,
+      "conv": "zh-hans:蒸汽机车;zh-hant:蒸汽機車;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:柴油机车;zh-hant:柴油機車"
+      "original": null,
+      "conv": "zh-hans:柴油机车;zh-hant:柴油機車;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:内燃机车;zh-hant:內燃機車"
-    },
-    {
-      "original": "Haizhu Tram",
-      "conv": "zh-hans:海珠环岛新型有轨电车;zh-hant:海珠環島新型有軌電車"
+      "original": null,
+      "conv": "zh-hans:内燃机车;zh-hant:內燃機車;"
     },
     {
       "original": "Shiliang",
-      "conv": "zh-hans:石梁;zh-hant:石梁"
+      "conv": "zh-hans:石梁;zh-hant:石梁;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:环岛铁路;zh-hant:環島鐵路"
+      "original": "Road traffic",
+      "conv": "zh-hans:道路交通;zh-hant:道路交通;"
+    },
+    {
+      "original": "Traffic control",
+      "conv": "zh-hans:交通管制;zh-hant:交通管制;"
+    },
+    {
+      "original": "Traffic sign",
+      "conv": "zh-hans:交通标志;zh-hant:交通標誌;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:环岛高铁;zh-hant:環島高鐵"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:环岛高速;zh-hant:環島高速"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:环岛公路;zh-hant:環島公路"
     },
     {
       "original": "Bus Group",
@@ -1008,95 +1364,95 @@
       "conv": "zh-hant:巴士集團;zh-hans:巴士集团;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士公交;zh-hans:巴士公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:公交巴士;zh-hans:公交巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:一汽巴士;zh-hans:一汽巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:二汽巴士;zh-hans:二汽巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:三汽巴士;zh-hans:三汽巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:第一巴士;zh-hans:第一巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:第二巴士;zh-hans:第二巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:第三巴士;zh-hans:第三巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:第一公共汽車;zh-hans:第一公共汽车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:第二公共汽車;zh-hans:第二公共汽车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:第三公共汽車;zh-hans:第三公共汽车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士一公司;zh-hans:巴士一公司;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士二公司;zh-hans:巴士二公司;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士三公司;zh-hans:巴士三公司;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士四公司;zh-hans:巴士四公司;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士五公司;zh-hans:巴士五公司;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士一汽;zh-hans:巴士一汽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士二汽;zh-hans:巴士二汽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士三汽;zh-hans:巴士三汽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士四汽;zh-hans:巴士四汽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士五汽;zh-hans:巴士五汽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士六汽;zh-hans:巴士六汽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士電車;zh-hans:巴士电车;"
     },
     {
@@ -1161,7 +1517,7 @@
     },
     {
       "original": "TCM",
-      "conv": "zh-hant:澳門公共汽車股份;zh-hans:澳门公共汽车股份;"
+      "conv": "zh-hant:澳門公共汽車;zh-hans:澳门公共汽车;"
     },
     {
       "original": "Transmac",
@@ -1170,6 +1526,14 @@
     {
       "original": "Nova Era",
       "conv": "zh-hant:新時代公共汽車;zh-hans:新时代公共汽车;"
+    },
+    {
+      "original": "GZ/SZ Bus2",
+      "conv": "zh-hant:巴士二分;zh-hans:巴士二分;"
+    },
+    {
+      "original": "GZ/SZ Bus3",
+      "conv": "zh-hant:巴士三分;zh-hans:巴士三分;"
     },
     {
       "original": "GZ Sunshine",
@@ -1252,12 +1616,36 @@
       "conv": "zh-hant:金華南巴士;zh-hans:金华南巴士;"
     },
     {
+      "original": "SZ BusGongqi",
+      "conv": "zh-hant:巴士公汽;zh-hans:巴士公汽;"
+    },
+    {
+      "original": "SZ Bus1",
+      "conv": "zh-hant:巴士一分;zh-hans:巴士一分;"
+    },
+    {
+      "original": "SZ Bus4",
+      "conv": "zh-hant:巴士四分;zh-hans:巴士四分;"
+    },
+    {
+      "original": "SZ Bus5",
+      "conv": "zh-hant:巴士五分;zh-hans:巴士五分;"
+    },
+    {
       "original": "DG Bus",
       "conv": "zh-hant:東莞巴士;zh-hans:东莞巴士;"
     },
     {
       "original": "ZS Bus",
       "conv": "zh-hant:中山公交;zh-hans:中山公交;"
+    },
+    {
+      "original": "ZH Bus",
+      "conv": "zh-hant:珠海公交;zh-hans:珠海公交;"
+    },
+    {
+      "original": "ZH Bus",
+      "conv": "zh-hant:珠海公交巴士;zh-hans:珠海公交巴士;"
     },
     {
       "original": "ZH KK",
@@ -1284,31 +1672,31 @@
       "conv": "zh-hant:東江公共汽車;zh-hans:东江公共汽车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:久事公交;zh-hans:久事公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:上海巴士;zh-hans:上海巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:上海空港巴士;zh-hans:上海空港巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士新新;zh-hans:巴士新新;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士一電;zh-hans:巴士一电;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:二電巴士;zh-hans:二电巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:巴士三電;zh-hans:巴士三电;"
     },
     {
@@ -1316,43 +1704,43 @@
       "conv": "zh-hant:浦東冠忠公交;zh-hans:浦东冠忠公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:浦東巴士;zh-hans:浦东巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:上海浦東公交;zh-hans:上海浦东公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:浦東楊高公交;zh-hans:浦东杨高公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:浦東金高公交;zh-hans:浦东金高公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:浦東上南公交;zh-hans:浦东上南公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:浦東南匯公交;zh-hans:浦东南汇公交;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:上海金山巴士;zh-hans:上海金山巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:寶山巴士;zh-hans:宝山巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:崇明巴士;zh-hans:崇明巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:奉賢巴士;zh-hans:奉贤巴士;"
     },
     {
@@ -1376,7 +1764,7 @@
       "conv": "zh-hant:飛狗巴士;zh-hans:飞狗巴士;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:新北市新巴士;zh-hans:新北市新巴士;"
     }
   ]

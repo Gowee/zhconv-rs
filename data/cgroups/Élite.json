@@ -1,0 +1,211 @@
+{
+  "name": "Élite",
+  "description": "此公共轉換組是針對電視劇《[[菁英殺機|-{zh-hans:名校风暴; zh-tw:菁英殺機; zh-hk:名校風暴;}-]]》及相關事物的中文譯名差異而設",
+  "path": "Module:CGroup/Élite",
+  "rules": [
+    {
+      "original": "Élite",
+      "conv": "zh-hans:名校风暴; zh-tw:菁英殺機; zh-hk:名校風暴;"
+    },
+    {
+      "original": "Alexis",
+      "conv": "zh-hans:亚力克西斯; zh-hant:艾利西斯;"
+    },
+    {
+      "original": "Ari",
+      "conv": "zh-hans:阿丽; zh-hant:艾莉;"
+    },
+    {
+      "original": "Ariadna",
+      "conv": "zh-hans:阿丽德娜; zh-hant:艾莉安娜;"
+    },
+    {
+      "original": "Benavent",
+      "conv": "zh-hans:贝纳文特; zh-hant:貝納文;"
+    },
+    {
+      "original": "Benjamín",
+      "conv": "zh-hans:本哈明; zh-hant:班傑明;"
+    },
+    {
+      "original": "Caleruega",
+      "conv": "zh-hans:卡拉路加; zh-hant:卡萊魯埃加;"
+    },
+    {
+      "original": "Carla",
+      "conv": "zh-hans:卡尔拉; zh-hant:卡菈;"
+    },
+    {
+      "original": "Christian",
+      "conv": "zh-hans:克里斯廷; zh-hant:克利提安;"
+    },
+    {
+      "original": "Domínguez",
+      "conv": "zh-hans:多明奎茲; zh-hant:多明格斯;"
+    },
+    {
+      "original": "García",
+      "conv": "zh-hans:加西亚; zh-hant:葛西亞;"
+    },
+    {
+      "original": "Grajera",
+      "conv": "zh-hans:格拉杰拉; zh-hant:格拉也達;"
+    },
+    {
+      "original": "Guzmán",
+      "conv": "zh-hans:胡兹曼; zh-hant:古茲曼;"
+    },
+    {
+      "original": "Hendrich",
+      "conv": "zh-hans:亨迪奇; zh-hant:亨德里希;"
+    },
+    {
+      "original": "Leopoldo",
+      "conv": "zh-hans:里奥波尔德; zh-hant:李奧波多;"
+    },
+    {
+      "original": "Lucrecia",
+      "conv": "zh-hans:露西亚; zh-hant:露柯希雅;"
+    },
+    {
+      "original": "Malick",
+      "conv": "zh-hans:马利克; zh-hant:馬里克;"
+    },
+    {
+      "original": "Mencía",
+      "conv": "zh-hans:门西亚; zh-hant:曼西亞;"
+    },
+    {
+      "original": "Nadia",
+      "conv": "zh-hans:纳迪亚; zh-hant:娜迪雅;"
+    },
+    {
+      "original": "Nano",
+      "conv": "zh-hans:纳诺; zh-hant:那諾;"
+    },
+    {
+      "original": "Omar",
+      "conv": "zh-hans:奥马尔; zh-hant:歐瑪;"
+    },
+    {
+      "original": "Patrick",
+      "conv": "zh-hans:帕特里克; zh-hant:派崔克;"
+    },
+    {
+      "original": "Polo",
+      "conv": "zh-hans:保罗; zh-hant:波洛;"
+    },
+    {
+      "original": "Rebe",
+      "conv": "zh-hans:瑞贝; zh-hant:麗貝;"
+    },
+    {
+      "original": "Samu",
+      "conv": "zh-hans:萨缪; zh-hant:山繆;"
+    },
+    {
+      "original": "Shanaa",
+      "conv": "zh-hans:夏那; zh-hant:沙納;"
+    },
+    {
+      "original": "Valerio",
+      "conv": "zh-hans:瓦莱里奥; zh-hant:瓦勒里奧;"
+    },
+    {
+      "original": "Varela",
+      "conv": "zh-hans:瓦雷拉; zh-hant:瓦萊拉;"
+    },
+    {
+      "original": "Von Triesenberg, Phillipe Florian",
+      "conv": "zh-hans:菲利普·弗洛里安·冯·特里森伯格; zh-hant:菲利普·弗洛倫·凡·特里森貝格;"
+    },
+    {
+      "original": "Amorós, Georgina",
+      "conv": "zh-hans:乔治娜·阿莫罗斯; zh-hant:喬黎娜·阿莫羅斯;"
+    },
+    {
+      "original": "Ayuso, Omar",
+      "conv": "zh-hans:奥马尔·阿尤索; zh-hant:歐瑪·艾又索;"
+    },
+    {
+      "original": "Bernardeau, Miguel",
+      "conv": "zh-hans:米格尔·贝尔纳多; zh-hant:米格爾·伯納多;"
+    },
+    {
+      "original": "Cariddi, Martina",
+      "conv": "zh-hans:马丁娜·卡里迪; zh-hant:瑪提娜·卡瑞迪;"
+    },
+    {
+      "original": "Clemente, Jorge",
+      "conv": "zh-hans:豪尔赫·克莱门特; zh-hant:荷黑·克萊門特;"
+    },
+    {
+      "original": "Díaz, Carla",
+      "conv": "zh-hans:卡尔拉·吉阿兹; zh-hant:卡拉·迪亞斯;"
+    },
+    {
+      "original": "El Hammani, Mina",
+      "conv": "zh-hans:米娜·厄尔阿马尼; zh-hant:米娜·艾阿曼尼;"
+    },
+    {
+      "original": "Escamilla, Itzan",
+      "conv": "zh-hans:伊桑·埃斯卡米利亚; zh-hant:伊贊·伊斯卡米迪亞;"
+    },
+    {
+      "original": "Expósito, Ester",
+      "conv": "zh-hans:埃斯特尔·埃斯波西托;zh-hk:艾斯特·愛珀斯托;zh-tw:伊絲特·伊克斯波席多;"
+    },
+    {
+      "original": "Granch, Pol",
+      "conv": "zh-hans:波尔·格兰赫; zh-hant:保羅·格蘭奇;"
+    },
+    {
+      "original": "Herrán, Miguel",
+      "conv": "zh-hans:米盖尔·埃尔南;zh-hk:米蓋爾·靴南;zh-tw:米蓋爾·赫爾南;"
+    },
+    {
+      "original": "López, Jorge",
+      "conv": "zh-hans:豪尔赫·洛佩斯; zh-hant:豪爾赫·羅培茲;"
+    },
+    {
+      "original": "Lorente, Jaime",
+      "conv": "zh-hans:海梅·洛伦特; zh-hant:傑米·洛倫特;"
+    },
+    {
+      "original": "Momo, Sergio",
+      "conv": "zh-hans:塞尔吉奥·莫莫; zh-hant:賽吉歐·莫莫;"
+    },
+    {
+      "original": "Paola, Danna",
+      "conv": "zh-hans:丹娜·保拉; zh-hk:丹娜·帕拉; zh-hk:丹娜·寶拉;"
+    },
+    {
+      "original": "Pedraza, María",
+      "conv": "zh-hans:玛丽亚·佩德拉萨; zh-hant:瑪麗亞·佩卓薩;"
+    },
+    {
+      "original": "Piper, Arón",
+      "conv": "zh-hans:阿龙·皮佩尔; zh-hant:艾朗·皮坡;"
+    },
+    {
+      "original": "Rico, Álvaro",
+      "conv": "zh-hans:阿尔瓦罗·里科; zh-hant:艾瓦羅·瑞可;"
+    },
+    {
+      "original": "Ríos, Manu",
+      "conv": "zh-hans:马努·里奥斯; zh-hant:曼諾·瑞亞斯;"
+    },
+    {
+      "original": "Sène, Leïti",
+      "conv": "zh-hans:莱蒂·塞内; zh-hant:雷堤·塞內;"
+    },
+    {
+      "original": "Velencoso, Andrés",
+      "conv": "zh-hans:安德烈斯·维伦科索; zh-hant:安德斯·維倫科索;"
+    },
+    {
+      "original": "Madrona, Darío",
+      "conv": "zh-hans:达瑞欧·马德罗纳; zh-hant:達里奧·馬德羅納;"
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "name": "州邦",
+  "description": "州-邦转换",
+  "path": "Module:CGroup/州邦",
+  "rules": [
+    {
+      "original": "",
+      "conv": "zh-hans:城市州; zh-hk:城市州; zh-tw:城市邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:乡村州; zh-hk:鄉村州; zh-tw:鄉村邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:自由州; zh-hk:自由州; zh-tw:自由邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:人民州; zh-hk:人民州; zh-tw:人民邦"
+    },
+    {
+      "original": "",
+      "conv": "联邦州=>zh-tw:邦; "
+    },
+    {
+      "original": "",
+      "conv": "聯邦州=>zh-tw:邦; "
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:以州; zh-hk:以州; zh-tw:以邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州外; zh-hk:州外; zh-tw:邦外"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州内; zh-hk:州内; zh-tw:邦內"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州中; zh-hk:州中; zh-tw:邦中"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州里; zh-hk:州裡; zh-tw:邦裡"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州和; zh-hk:州和; zh-tw:邦和"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:和州; zh-hk:和州; zh-tw:和邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州及; zh-hk:州及; zh-tw:邦及"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:及州; zh-hk:及州; zh-tw:及邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州与; zh-hk:州與; zh-tw:邦與"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:与州; zh-hk:與州; zh-tw:與邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州或; zh-hk:州或; zh-tw:邦或"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:或州; zh-hk:或州; zh-tw:或邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州与州; zh-hk:州與州; zh-tw:邦與邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州和州; zh-hk:州和州; zh-tw:邦和邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦与州; zh-hk:聯邦與州; zh-tw:聯邦與邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦和州; zh-hk:聯邦和州; zh-tw:聯邦和邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州之; zh-hk:州之; zh-tw:邦之"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:之州; zh-hk:之州; zh-tw:之邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:的州; zh-hk:的州; zh-tw:的邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州的; zh-hk:州的; zh-tw:邦的"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:新州; zh-hk:新州; zh-tw:新邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:旧州; zh-hk:舊州; zh-tw:舊邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大州; zh-hk:大州; zh-tw:大邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小州; zh-hk:小州; zh-tw:小邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:部州; zh-hk:部州; zh-tw:部邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:此州; zh-hk:此州; zh-tw:此邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:该州; zh-hk:該州; zh-tw:該邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:本州; zh-hk:本州; zh-tw:本邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:全州; zh-hk:全州; zh-tw:全邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:同州; zh-hk:同州; zh-tw:同邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:他州; zh-hk:他州; zh-tw:他邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:诸州; zh-hk:諸州; zh-tw:諸邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:多州; zh-hk:多州; zh-tw:多邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:等州; zh-hk:等州; zh-tw:等邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:数州; zh-hk:數州; zh-tw:數邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:每州; zh-hk:每州; zh-tw:每邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:各州; zh-hk:各州; zh-tw:各邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:些州; zh-hk:些州; zh-tw:些邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:个别州; zh-hk:個別州; zh-tw:個別邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:部分州; zh-hk:部分州; zh-tw:部分邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:所有州; zh-hk:所有州; zh-tw:所有邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:所在州; zh-hk:所在州; zh-tw:所在邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:所属州; zh-hk:所屬州; zh-tw:所屬邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:保守州; zh-hk:保守州; zh-tw:保守邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:天主教州; zh-hk:天主教州; zh-tw:天主教邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:新教州; zh-hk:新教州; zh-tw:新教邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:因州而异; zh-hk:因州而異; zh-tw:因邦而異"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州立; zh-hk:州立; zh-tw:邦立"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州辖; zh-hk:州轄; zh-tw:邦轄"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州级; zh-hk:州級; zh-tw:邦級"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州上级; zh-hk:州上級; zh-tw:邦上級"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州中级; zh-hk:州中級; zh-tw:邦中級"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州下级; zh-hk:州下級; zh-tw:邦下級"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州名; zh-hk:州名; zh-tw:邦名"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州份; zh-hk:州份; zh-tw:邦份"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州旗; zh-hk:州旗; zh-tw:邦旗"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州徽; zh-hk:州徽; zh-tw:邦徽"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州法; zh-hk:州法; zh-tw:邦法"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州长; zh-hk:州長; zh-tw:邦長"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州民; zh-hk:州民; zh-tw:邦民"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州总理; zh-hk:州總理; zh-tw:邦總理"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州府; zh-hk:州府; zh-tw:邦府"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州首府; zh-hk:州首府; zh-tw:邦首府"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州政府; zh-hk:州政府; zh-tw:邦政府"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州自治; zh-hk:州自治; zh-tw:邦自治"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州行政; zh-hk:州行政; zh-tw:邦行政"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州管理; zh-hk:州管理; zh-tw:邦管理"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州管辖; zh-hk:州管轄; zh-tw:邦管轄"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州下辖; zh-hk:州下轄; zh-tw:邦下轄"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州直辖; zh-hk:州直轄; zh-tw:邦直轄"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州层级; zh-hk:州層級; zh-tw:邦層級"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州议会; zh-hk:州議會; zh-tw:邦議會"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州选举; zh-hk:州選舉; zh-tw:邦選舉"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州竞选; zh-hk:州競選; zh-tw:邦競選"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州大选; zh-hk:州大選; zh-tw:邦大選"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:州代表; zh-hk:州代表; zh-tw:邦代表"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:个州; zh-hk:個州; zh-tw:個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:半个州; zh-hk:半個州; zh-tw:半個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:一个州; zh-hk:一個州; zh-tw:一個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:两个州; zh-hk:兩個州; zh-tw:兩個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三个州; zh-hk:三個州; zh-tw:三個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:四个州; zh-hk:四個州; zh-tw:四個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:五个州; zh-hk:五個州; zh-tw:五個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:六个州; zh-hk:六個州; zh-tw:六個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:七个州; zh-hk:七個州; zh-tw:七個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:八个州; zh-hk:八個州; zh-tw:八個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:九个州; zh-hk:九個州; zh-tw:九個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:十个州; zh-hk:十個州; zh-tw:十個邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:半州; zh-hk:半州; zh-tw:半邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:一州; zh-hk:一州; zh-tw:一邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:二州; zh-hk:二州; zh-tw:二邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:两州; zh-hk:兩州; zh-tw:兩邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:三州; zh-hk:三州; zh-tw:三邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:四州; zh-hk:四州; zh-tw:四邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:五州; zh-hk:五州; zh-tw:五邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:六州; zh-hk:六州; zh-tw:六邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:七州; zh-hk:七州; zh-tw:七邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:八州; zh-hk:八州; zh-tw:八邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:十州; zh-hk:十州; zh-tw:十邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦; zh-hk:聯邦; zh-tw:聯邦"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦制; zh-hk:聯邦制; zh-tw:聯邦制"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦共和国; zh-hk:聯邦共和國; zh-tw:聯邦共和國"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦总理; zh-hk:聯邦總理; zh-tw:聯邦總理"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦选举; zh-hk:聯邦選舉; zh-tw:聯邦選舉"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦政府; zh-hk:聯邦政府; zh-tw:聯邦政府"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦议会; zh-hk:聯邦議會; zh-tw:聯邦議會"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦宪法; zh-hk:聯邦憲法; zh-tw:聯邦憲法"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:广州;zh-hk:廣州; zh-tw:廣州;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:潮州;zh-hk:潮州; zh-tw:潮州;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:胶州;zh-hk:膠州; zh-tw:膠州;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:兰州;zh-hk:蘭州; zh-tw:蘭州;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:徐州;zh-hk:徐州; zh-tw:徐州;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:邦交;zh-hk:邦交; zh-tw:邦交;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:邦联;zh-hk:邦聯; zh-tw:邦聯;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:友邦;zh-hk:友邦; zh-tw:友邦;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:邦德;zh-hk:邦德; zh-tw:邦德;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:普鲁士自由邦; zh-hant:普魯士自由邦"
+    }
+  ]
+}

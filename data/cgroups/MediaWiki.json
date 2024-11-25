@@ -4,8 +4,36 @@
   "path": "Module:CGroup/MediaWiki",
   "rules": [
     {
+      "original": "account",
+      "conv": "zh-cn:账号; zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "账户=>zh-cn:账号; 账户=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "賬戶=>zh-cn:账号; 賬戶=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "賬號=>zh-cn:账号; 賬號=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "帐户=>zh-cn:账号; 帐户=>zh-tw:帳號;"
+    },
+    {
+      "original": "account",
+      "conv": "帳戶=>zh-cn:账号;"
+    },
+    {
+      "original": "account",
+      "conv": "帐号=>zh-cn:账号; 帐号=>zh-tw:帳號;"
+    },
+    {
       "original": "account creator",
-      "conv": "zh-cn:大量账户创建者; zh-tw:大量帳號建立者; zh-hk:大量賬號創建者;"
+      "conv": "zh-cn:大量账号创建者; zh-tw:大量帳號建立者; zh-hk:大量帳號建立者;"
     },
     {
       "original": "advanced",
@@ -18,6 +46,10 @@
     {
       "original": "block",
       "conv": "zh-cn:封禁; zh-tw:封鎖; zh-hk:封鎖;"
+    },
+    {
+      "original": "change",
+      "conv": "zh-cn:更改; zh-tw:變更;"
     },
     {
       "original": "character",
@@ -33,11 +65,15 @@
     },
     {
       "original": "copyright information",
-      "conv": "版权信息=>zh-tw:著作權資訊; 版权信息=>zh-mo:著作權資訊;"
+      "conv": "版权信息=>zh-cn:著作权信息; 版权信息=>zh-sg:著作权信息; 版权信息=>zh-my:著作权信息; 版权信息=>zh-tw:著作權資訊; 版权信息=>zh-mo:著作權資訊;"
     },
     {
       "original": "create",
       "conv": "zh-cn:创建; zh-tw:建立;"
+    },
+    {
+      "original": "create",
+      "conv": "創建=>zh-tw:建立; 創建=>zh-hk:建立; 創建=>zh-mo:建立;"
     },
     {
       "original": "custom",
@@ -68,6 +104,10 @@
       "conv": "档案=>zh-cn:文件; 档案=>zh-sg:文件; 档案=>zh-my:文件;"
     },
     {
+      "original": "file name",
+      "conv": "zh-cn:文件名; zh-tw:檔案名稱;"
+    },
+    {
       "original": "flood",
       "conv": "zh-hans:机器用户; zh-tw:機器使用者; zh-hk:機械用戶;"
     },
@@ -77,11 +117,11 @@
     },
     {
       "original": "Help:",
-      "conv": "zh-cn:帮助:; zh-tw:使用說明:; zh-hk:幫助:;"
+      "conv": "zh-cn:帮助:; zh-tw:說明:;"
     },
     {
       "original": "Help talk:",
-      "conv": "zh-cn:帮助讨论:; zh-tw:說明討論:; zh-hk:幫助討論:;"
+      "conv": "zh-cn:帮助讨论:; zh-tw:說明討論:;"
     },
     {
       "original": "info (information)",
@@ -97,11 +137,15 @@
     },
     {
       "original": "IP block exemption",
-      "conv": "zh-cn:IP封禁豁免; zh-tw:IP封鎖例外;"
+      "conv": "zh-cn:IP封禁豁免; zh-tw:IP封鎖豁免;"
     },
     {
       "original": "IP block exemption",
-      "conv": "IP封禁例外=>zh-cn:IP封禁豁免; IP封禁例外=>zh-sg:IP封禁豁免; IP封禁例外=>zh-my:IP封禁豁免;"
+      "conv": "IP封禁例外=>zh-hans:IP封禁豁免; IP封禁例外=>zh-hant:IP封鎖豁免;"
+    },
+    {
+      "original": "IP block exemption",
+      "conv": "IP封鎖例外=>zh-hans:IP封禁豁免; IP封禁例外=>zh-hant:IP封鎖豁免;"
     },
     {
       "original": "import",
@@ -189,7 +233,7 @@
     },
     {
       "original": "link (here)",
-      "conv": "鏈入 => zh-tw:連入;"
+      "conv": "鏈入=>zh-tw:連入;"
     },
     {
       "original": "log details",
@@ -220,8 +264,16 @@
       "conv": "名字空間=>zh-cn:命名空间; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間; 名字空間=>zh-tw:命名空間; 名字空間=>zh-sg:命名空间; 名字空間=>zh-my:命名空间;"
     },
     {
+      "original": "noticeboard",
+      "conv": "zh-hans:布告板; zh-hant:布告板"
+    },
+    {
+      "original": "noticeboard",
+      "conv": "佈告板 => zh-tw:布告板; 佈告板 => zh-cn:布告板; 佈告板 => zh-hk:佈告板;"
+    },
+    {
       "original": "parser functions",
-      "conv": "zh-cn:解析器函数; zh-hk:解析器函數; zh-tw:解析器函式;"
+      "conv": "zh-cn:解析器函数; zh-hk:解析器函數; zh-tw:解析器函數;"
     },
     {
       "original": "preferences",
@@ -229,27 +281,23 @@
     },
     {
       "original": "project",
-      "conv": "zh-hans:项目; zh-hant:專案; zh-tw:計畫;"
+      "conv": "zh-hans:项目; zh-hant:專案; zh-tw:專案;"
     },
     {
       "original": "project",
-      "conv": "項目=>zh-tw:計畫; 項目=>zh-hk:專案; 項目=>zh-mo:專案;"
-    },
-    {
-      "original": "transclude",
-      "conv": "zh-hans:嵌入; zh-hant:引用;"
+      "conv": "項目=>zh-tw:專案; 項目=>zh-hk:專案; 項目=>zh-mo:專案;"
     },
     {
       "original": "project",
-      "conv": "专案=>zh-cn:项目; 专案=>zh-sg:项目; 专案=>zh-my:项目; 专案=>zh-tw:計畫;"
+      "conv": "专案=>zh-cn:项目; 专案=>zh-sg:项目; 专案=>zh-my:项目; 专案=>zh-tw:專案;"
     },
     {
       "original": "project",
-      "conv": "計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目; 計劃=>zh-tw:計畫; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;"
+      "conv": "計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目; 計劃=>zh-tw:專案; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;"
     },
     {
       "original": "project page",
-      "conv": "zh-hans:项目页面; zh-hant:專案頁面; zh-tw:計畫頁面;"
+      "conv": "zh-hans:项目页面; zh-hant:專案頁面; zh-tw:專案頁面;"
     },
     {
       "original": "project page",
@@ -272,8 +320,16 @@
       "conv": "重定向页面=>zh-tw:重新導向頁面; 重定向页面=>zh-hk:重新導向頁面; 重定向页面=>zh-mo:重新導向頁面;"
     },
     {
+      "original": "report",
+      "conv": "zh-cn:举报; zh-tw:檢舉;"
+    },
+    {
       "original": "sample",
       "conv": "zh-cn:示例; zh-tw:範例;"
+    },
+    {
+      "original": "skin",
+      "conv": "皮肤=>zh-tw:外觀; 皮肤=>zh-hk:外觀; 皮肤=>zh-mo:外觀;"
     },
     {
       "original": "source code",
@@ -297,7 +353,7 @@
     },
     {
       "original": "template data",
-      "conv": "zh-hans:模板数据; zh-hant:模板數據; zh-tw:模板資料;"
+      "conv": "zh-hans:模板数据; zh-hant:模板資料; zh-tw:模板資料;"
     },
     {
       "original": "template documentation",
@@ -314,10 +370,6 @@
     {
       "original": "undo",
       "conv": "撤消=>zh-tw:復原; 撤消=>zh-hk:復原; 撤消=>zh-mo:復原;"
-    },
-    {
-      "original": "user",
-      "conv": "zh-hans:用户; zh-hant:用戶; zh-tw:使用者;"
     },
     {
       "original": "user group",
@@ -348,8 +400,16 @@
       "conv": "使用者頁面=>zh-tw:使用者頁面;"
     },
     {
+      "original": "user right",
+      "conv": "用户权限 => zh-tw:使用者權限;用戶權限 => zh-tw:使用者權限;"
+    },
+    {
+      "original": "user right",
+      "conv": "用户权 => zh-tw:使用者權限;用戶權 => zh-tw:使用者權限;"
+    },
+    {
       "original": "userbox",
-      "conv": "zh-cn:用户框;zh-hk:用戶框;zh-tw:使用者方塊;"
+      "conv": "zh-cn:用户框; zh-tw:使用者方塊; zh-hk:用戶框;"
     },
     {
       "original": "username",

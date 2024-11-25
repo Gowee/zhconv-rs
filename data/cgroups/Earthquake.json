@@ -57,7 +57,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度; zh-tw:震度; zh-hk:烈度; zh-mo:烈度;"
+      "conv": "zh-cn:烈度; zh-my:震度; zh-tw:震度; zh-hk:烈度; zh-mo:烈度;"
     },
     {
       "original": null,
@@ -108,8 +108,12 @@
       "conv": "zh-cn:罗西–福雷尔地震烈度表; zh-tw:羅西-福瑞震度分級; zh-hk:羅西-佛瑞爾地震烈度表;"
     },
     {
+      "original": "気象庁烈度阶级",
+      "conv": "zh-cn:气象厅地震烈度表; zh-tw:氣象廳震度等級; zh-hk:氣象廳地震烈度表;"
+    },
+    {
       "original": null,
-      "conv": "zh-cn:震中; zh-tw:震央; zh-hk:震央;"
+      "conv": "zh-cn:震中; zh-my:震央; zh-tw:震央; zh-hk:震央;"
     },
     {
       "original": "Rayleigh wave",
@@ -122,6 +126,10 @@
     {
       "original": "Stoneley wave",
       "conv": "zh-cn:斯通利波; zh-tw:史東尼波; zh-hk:斯通利波;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:活断层; zh-tw:活動斷層;zh-hant:活斷層"
     },
     {
       "original": null,
@@ -141,11 +149,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:洋中脊; zh-tw:中洋脊; zh-hk:洋中脊;"
+      "conv": "zh-cn:洋中脊; zh-my:中洋脊; zh-tw:中洋脊; zh-hk:洋中脊;"
     },
     {
       "original": null,
-      "conv": "zh-cn:千米; zh-tw:公里; zh-hk:公里; zh-sg:公里;"
+      "conv": "zh-cn:千米; zh-tw:公里; zh-hk:公里; zh-sg:公里; zh-my:公里;"
     },
     {
       "original": null,
@@ -153,11 +161,11 @@
     },
     {
       "original": "South Sandwich (Plate)",
-      "conv": "zh-hans:南桑威奇; zh-hant:南三明治;"
+      "conv": "zh-hans:南桑威奇; zh-tw:南三明治;zh-hk:南三文治"
     },
     {
       "original": "tsunami amplitude",
-      "conv": "zh-cn:波幅; zh-hk:波幅; zh-tw:波高; zh-sg:波高;"
+      "conv": "zh-cn:波幅; zh-hk:波幅; zh-tw:波高; zh-sg:波高; zh-my:波高;"
     },
     {
       "original": "tsunami leading wave",
@@ -221,35 +229,35 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度0级; zh-tw:震度0級; zh-hk:烈度0級;"
+      "conv": "zh-cn:烈度0级; zh-my:震度0级; zh-tw:震度0級; zh-hk:烈度0級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度1级; zh-tw:震度1級; zh-hk:烈度1級;"
+      "conv": "zh-cn:烈度1级; zh-my:震度1级; zh-tw:震度1級; zh-hk:烈度1級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度2级; zh-tw:震度2級; zh-hk:烈度2級;"
+      "conv": "zh-cn:烈度2级; zh-my:震度2级; zh-tw:震度2級; zh-hk:烈度2級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度3级; zh-tw:震度3級; zh-hk:烈度3級;"
+      "conv": "zh-cn:烈度3级; zh-my:震度3级; zh-tw:震度3級; zh-hk:烈度3級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度4级; zh-tw:震度4級; zh-hk:烈度4級;"
+      "conv": "zh-cn:烈度4级; zh-my:震度4级; zh-tw:震度4級; zh-hk:烈度4級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度5级; zh-tw:震度5級; zh-hk:烈度5級;"
+      "conv": "zh-cn:烈度5级; zh-my:震度5级; zh-tw:震度5級; zh-hk:烈度5級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度6级; zh-tw:震度6級; zh-hk:烈度6級;"
+      "conv": "zh-cn:烈度6级; zh-my:震度6级; zh-tw:震度6級; zh-hk:烈度6級;"
     },
     {
       "original": null,
-      "conv": "zh-cn:烈度7级; zh-tw:震度7級; zh-hk:烈度7級;"
+      "conv": "zh-cn:烈度7级; zh-my:震度7级; zh-tw:震度7級; zh-hk:烈度7級;"
     },
     {
       "original": null,

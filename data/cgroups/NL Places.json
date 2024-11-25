@@ -1,0 +1,119 @@
+{
+  "name": "NL Places",
+  "description": "荷兰地名",
+  "path": "Module:CGroup/NL Places",
+  "rules": [
+    {
+      "original": "Brabant",
+      "conv": "zh-hans:布拉班特; zh-hant:布拉邦"
+    },
+    {
+      "original": "Vlaanderen/Flandre",
+      "conv": "zh-cn:佛兰德; zh-hant:法蘭德斯; zh-sg:法兰德斯"
+    },
+    {
+      "original": "Flevoland",
+      "conv": "zh-hans:弗莱福兰;zh-hk:弗萊福蘭;zh-tw:夫利佛蘭"
+    },
+    {
+      "original": "Friesland",
+      "conv": "zh-hans:弗里斯兰;zh-hant:弗里斯蘭;zh-tw:菲士蘭;zh-hk:菲士蘭;zh-mo:菲士蘭;"
+    },
+    {
+      "original": "Friesland（称呼法2）",
+      "conv": "弗里西=>zh-hk:菲士蘭;弗里西=>zh-tw:菲士蘭;"
+    },
+    {
+      "original": "Frisia（Friesland的英文名）",
+      "conv": "zh-hans:弗里西亚;zh-hk:弗里西亞;zh-tw:弗里西亞;"
+    },
+    {
+      "original": "Randstad",
+      "conv": "zh-cn:兰斯塔德; zh-hant:蘭斯台德;"
+    },
+    {
+      "original": "Almere",
+      "conv": "zh-cn:阿尔梅勒;zh-tw:阿爾梅勒;zh-hk:阿梅爾;"
+    },
+    {
+      "original": "Apeldoorn",
+      "conv": "zh-hans:阿珀尔多伦;zh-hk:阿珀爾多倫;zh-tw:阿培頓"
+    },
+    {
+      "original": "Delft",
+      "conv": "zh-hans:代尔夫特;zh-hk:代爾夫特;zh-tw:台夫特"
+    },
+    {
+      "original": "Delfshaven",
+      "conv": "zh-cn:代尔夫斯哈芬; zh-hk:代爾夫斯哈芬; zh-tw:台夫斯哈芬;"
+    },
+    {
+      "original": "Eindhoven",
+      "conv": "zh-cn:艾恩德霍芬;zh-hk:燕豪芬;zh-tw:恩荷芬;zh-mo:燕豪芬;"
+    },
+    {
+      "original": "Eindhoven（称呼法2的简体转换）",
+      "conv": "埃因霍温=>zh-hk:燕豪芬;埃因霍温=>zh-tw:恩荷芬;"
+    },
+    {
+      "original": "Eindhoven（称呼法2的繁体转换）",
+      "conv": "埃因霍溫=>zh-hk:燕豪芬;埃因霍溫=>zh-tw:恩荷芬;"
+    },
+    {
+      "original": "Feijenoord",
+      "conv": "zh-hans:费耶诺德; zh-hk:飛燕諾; zh-tw:飛燕諾;"
+    },
+    {
+      "original": "Maastricht",
+      "conv": "zh-hans:马斯特里赫特;zh-hk:馬斯特里赫特;zh-tw:馬斯垂克;"
+    },
+    {
+      "original": "Nijmegen",
+      "conv": "zh-hans:奈梅亨;zh-hk:尼美根;zh-tw:奈梅亨;"
+    },
+    {
+      "original": "Scheveningen",
+      "conv": "zh-hans:斯海弗宁恩; zh-hant:斯海弗寧恩; zh-tw:席凡寧根"
+    },
+    {
+      "original": "Utrecht",
+      "conv": "zh-cn:乌得勒支; zh-hk:烏德勒支; zh-tw:烏特勒支;"
+    },
+    {
+      "original": "Vaals",
+      "conv": "zh-cn:法尔斯; zh-tw:瓦爾斯;"
+    },
+    {
+      "original": "Willemstad",
+      "conv": "zh-cn:威廉斯塔德;zh-hk:威廉斯塔德;zh-tw:威廉城;"
+    },
+    {
+      "original": "Antillen",
+      "conv": "zh-hans:安的列斯; zh-hk:安的列斯; zh-tw:安地列斯;"
+    },
+    {
+      "original": "Bonaire",
+      "conv": "zh-hans:博奈尔;zh-hk:博奈爾;zh-tw:波奈;"
+    },
+    {
+      "original": "Curaçao",
+      "conv": "zh-hans:库拉索; zh-hk:庫拉索; zh-tw:古拉索;"
+    },
+    {
+      "original": "Saba",
+      "conv": "zh-hans:萨巴; zh-hk:薩巴; zh-tw:荷屬沙巴;"
+    },
+    {
+      "original": "Sint Eustatius",
+      "conv": "zh-hans:圣尤斯特歇斯; zh-hant:聖尤斯特歇斯; zh-tw:聖佑達修斯;"
+    },
+    {
+      "original": "IJssel",
+      "conv": "zh-hans:艾瑟尔; zh-hant:艾瑟爾; zh-hk:愛塞; zh-tw:愛塞;"
+    },
+    {
+      "original": "Maas",
+      "conv": "zh-hans:马斯河; zh-hant:馬士河;"
+    }
+  ]
+}

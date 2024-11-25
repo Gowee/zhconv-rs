@@ -13,19 +13,19 @@
     },
     {
       "original": "Channel",
-      "conv": "zh-cn:信道; zh-tw:頻道; zh-hk:頻道; zh-sg:波道"
+      "conv": "信道=>zh-tw:頻道; 信道=>zh-hk:頻道; 信道=>zh-sg:波道; 波道=>zh-cn:信道"
     },
     {
       "original": "Communication",
-      "conv": "zh-cn:通信;zh-tw:通訊;"
+      "conv": "zh-cn:通信;zh-sg:通讯;zh-tw:通訊;"
     },
     {
       "original": "Digital",
-      "conv": "zh-tw:數位;zh-cn:数字;zh-hk:數碼;"
+      "conv": "zh-tw:數位;zh-cn:数字;zh-sg:数码;zh-my:数码;zh-hk:數碼;"
     },
     {
       "original": "information",
-      "conv": "zh-cn:信息; zh-tw:資訊;"
+      "conv": "zh-cn:信息; zh-sg:资讯; zh-my:资讯; zh-tw:資訊;"
     },
     {
       "original": "integrated circuit",
@@ -41,15 +41,7 @@
     },
     {
       "original": "Noise",
-      "conv": "zh-tw:雜訊; zh-hk:雜訊; zh-cn:噪声;"
-    },
-    {
-      "original": "Noise",
-      "conv": "杂讯=>zh-cn:噪声; 杂讯=>zh-sg:噪声;"
-    },
-    {
-      "original": "Noise",
-      "conv": "噪聲=>zh-tw:雜訊; 噪聲=>zh-hk:雜訊; 噪聲=>zh-mo:雜訊;"
+      "conv": "zh:噪聲; zh-tw:雜訊; zh-hk:雜訊; zh-sg:杂讯; zh-my:杂讯; zh-cn:噪声;"
     },
     {
       "original": "P-N junction",
@@ -228,10 +220,6 @@
       "conv": "zh-tw:蜂巢式網路; zh-cn:蜂窝网络; zh-hk:蜂巢式網絡;"
     },
     {
-      "original": "Bit",
-      "conv": "zh-tw:位元;zh-cn:比特;"
-    },
-    {
       "original": "Slot",
       "conv": "zh-tw:時槽;zh-cn:时隙;"
     },
@@ -313,15 +301,11 @@
     },
     {
       "original": "Digital Broadcasting",
-      "conv": "zh-cn:数字广播;zh-hk:數碼廣播;zh-tw:數位廣播;"
+      "conv": "zh:數字廣播; zh-cn:数字广播; zh-sg:数码广播; zh-my:数码广播; zh-hk:數碼廣播; zh-tw:數位廣播;"
     },
     {
       "original": "Digital Television",
-      "conv": "zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-mo:數碼電視;zh-sg:数码电视;"
-    },
-    {
-      "original": "Digital Terrestrial Television",
-      "conv": "zh-tw:數位無線電視; zh-hk:地面數碼電視; zh-cn:地面数字电视;"
+      "conv": "zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-mo:數字電視;zh-sg:数码电视;zh-my:数码电视;"
     },
     {
       "original": "DVB-H",
@@ -333,11 +317,11 @@
     },
     {
       "original": "Set-top box",
-      "conv": "zh-hans:机顶盒;zh-hant:數碼電視解碼器;zh-hk:機頂盒;zh-tw:機上盒;zh-cn:机顶盒;zh-mo:機頂盒;"
+      "conv": "zh-hans:机顶盒;zh-hk:機頂盒;zh-mo:機頂盒;zh-tw:機上盒;"
     },
     {
       "original": "Set-top box",
-      "conv": "數位電視機上盒=>zh-hans:机顶盒; 數位電視機上盒=>zh-hant:機頂盒; 數位電視機上盒=>zh-tw:數位電視機上盒;"
+      "conv": "zh-tw:數位電視機上盒;zh-hk:數碼電視解碼器;zh-my:数码电视解码器;zh-sg:电视解码器;"
     },
     {
       "original": "Television channel",
@@ -377,7 +361,15 @@
     },
     {
       "original": "Information Technology",
-      "conv": "zh-cn:信息技术; zh-tw:資訊科技;"
+      "conv": "zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;"
+    },
+    {
+      "original": "Cable",
+      "conv": "zh-tw: 纜線; zh-cn: 线缆; zh-hans: 线缆;"
+    },
+    {
+      "original": "Leakage cable",
+      "conv": "zh-tw: 洩波電纜; zh-cn: 泄漏电缆; zh-hans: 泄漏电缆;"
     },
     {
       "original": "Landline",
@@ -385,7 +377,7 @@
     },
     {
       "original": "Mobileline",
-      "conv": "zh-cn:移动电话; zh-tw:移動電話; zh-hk:流動電話;"
+      "conv": "zh-cn:移动电话; zh-tw:行動電話; zh-hk:流動電話;"
     },
     {
       "original": "Service plan",
@@ -397,7 +389,7 @@
     },
     {
       "original": "Communication",
-      "conv": "zh-tw:通訊學; zh-cn:通信学;"
+      "conv": "zh-tw:通訊學; zh-sg:通讯学; zh-my:通讯学; zh-cn:通信学;"
     },
     {
       "original": "low-fidelity (Lo-Fi)",

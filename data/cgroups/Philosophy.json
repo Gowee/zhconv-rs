@@ -1,0 +1,39 @@
+{
+  "name": "Philosophy",
+  "description": "哲学",
+  "path": "Module:CGroup/Philosophy",
+  "rules": [
+    {
+      "original": "Camus",
+      "conv": "zh-cn:加缪;zh-tw:卡繆;zh-hk:卡繆;"
+    },
+    {
+      "original": "Lacan",
+      "conv": "zh-cn:拉康;zh-tw:拉岡;zh-hk:拉岡;"
+    },
+    {
+      "original": "Sartre, Jean-Paul",
+      "conv": "zh-cn:萨特;zh-tw:沙特;zh-hk:沙特;"
+    },
+    {
+      "original": "Althusser",
+      "conv": "zh-cn:阿尔都塞;zh-tw:阿圖塞;zh-hk:阿圖塞;"
+    },
+    {
+      "original": "Wittgenstein",
+      "conv": "zh-cn:维特根斯坦;zh-tw:維特根斯坦;zh-hk:維根斯坦;"
+    },
+    {
+      "original": "Spinoza",
+      "conv": "zh-cn:斯宾诺莎; zh-tw:斯賓諾莎; zh-hk:史賓諾沙;"
+    },
+    {
+      "original": "Ἐπίκουρος",
+      "conv": "zh-cn:伊壁鸠鲁; zh-tw:伊比鳩魯;"
+    },
+    {
+      "original": "Eucken",
+      "conv": "zh-cn:奥伊肯; zh-tw:倭鏗;"
+    }
+  ]
+}

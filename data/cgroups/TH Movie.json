@@ -1,0 +1,479 @@
+{
+  "name": "TH Movie",
+  "description": "泰國電影",
+  "path": "Module:CGroup/TH Movie",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hk:人造傳說;zh-tw:正午顯影;zh-cn:正午显影;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:冬蔭鐵娘子;zh-tw:鐵雞諜網種情花;zh-cn:铁鸡谍网种情花;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:夏日迷情;zh-sg:夏日迷情;zh-tw:熱帶幻夢;zh-my:热带幻梦;zh-cn:热带疾病;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:波米叔叔的前世今生;zh-tw:波米叔叔的前世今生;zh-sg:波米叔叔的前世今生;zh-my:波米叔叔的前世今生;zh-cn:能召回前世的布米叔叔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:湄公旅館;zh-tw:湄公河大酒店;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:浮華塚;zh-tw:華麗之墓;zh-sg:华丽之墓;zh-my:华丽冢;zh-cn:幻梦墓园;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:暴風之年;zh-tw:疫年之初;zh-sg:疫年之初;zh-cn:永恒风暴之年;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:入黑之時;zh-tw:生命宛如幽暗長河;zh-cn:入黑之时;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:1日情人;zh-tw:一日戀人;zh-sg:一日男友;zh-cn:相爱一天;"
+    },
+    {
+      "original": null,
+      "conv": "zh-sg:音为你;zh-cn:天赐的礼物; 天赐的礼物=>zh-tw:禮物;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:出貓特攻隊;zh-tw:模犯生;zh-sg:神精妙算;zh-cn:天才枪手;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:大佬可以退貨嗎？;zh-tw:把哥哥退貨可以嗎;zh-cn:把哥哥退货可以吗;zh-sg:我的哥哥是恶魔;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:去吧！女神兵團;zh-tw:限時好友;zh-sg:我不可能不会爱你;zh-cn:友情以上;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:女神撞正基OL;zh-tw:娘娘腔日記;zh-sg:似真是假;zh-cn:窈窕淑男的日记;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:呃Love天團;zh-tw:騙騙愛上你;zh-sg:决战偷心男;zh-cn:英俊的骗子;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:無痛斷捨離;zh-tw:就愛斷捨離;zh-sg:就爱断舍离;zh-cn:就爱断舍离;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:神速特攻隊;zh-tw:愛情超競速;zh-sg:叠叠不休;zh-cn:速度与爱情;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:凶靈祭;zh-tw:薩滿;zh-sg:灵媒恶咒;zh-cn:灵媒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:OMG！我的女神;zh-tw:OMG：就要喜歡你;zh-sg:OMG！我的女孩;zh-cn:OMG！我爱你...但不合时宜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:初戀雙妹豬;zh-tw:初戀你我他;zh-cn:你与我和我;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:租嚇;zh-tw:邪厄;zh-sg:凶宅出租;zh-cn:祭屋出租;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:第151個朋友;zh-tw:他的最後一個朋友;zh-sg:非亲密朋友;zh-cn:不亲密朋友;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:全職乖孫;zh-tw:金孫爆富攻略;zh-sg:金孙暴富攻略;zh-cn:姥姥的外孙;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:鬼妻;zh-tw:幽魂娜娜;zh-sg:鬼妻;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:鬼債;zh-sg:魂飞曼谷;zh-cn:鬼债;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:無聲火;zh-tw:無聲殺手;zh-sg:战火风暴;zh-cn:无声火;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:帝國驕蘭;zh-tw:暹羅女王;zh-sg:暹罗女王;zh:烈后苏仪若泰传奇;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:小情人;zh-sg:我的初恋小情人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:美麗拳王;zh-sg:命运拳击手;zh-cn:美丽拳王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:拳霸;zh-sg:霹雳威龙;zh-cn:拳霸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:冬蔭功2;zh-sg:拳霸冬荫功2;zh-cn:冬荫功2：拳霸天下;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:宇宙只有我和你;zh-tw:宇宙的最後生命;zh-sg:末路狂命;zh-cn:宇宙只有我和你;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:暗湧;zh-tw:無形海浪;zh-sg:暗涌;zh-cn:无形海浪;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:神探虎刀;zh-sg:鬼魔玄术;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:鬼怨;zh-sg:不姐冤情;zh-cn:鬼怨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:邪降前傳;zh-sg:夺命毒咒;zh-cn:恶魔的艺术;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:邪降：惡魔的藝術;zh-sg:夺命毒咒2;zh-cn:恶魔的艺术2：邪降;zh:恶魔的艺术2;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:邪降3：鬼影隨行;zh-sg:邪降3：鬼影随行;zh-cn:恶魔的艺术3：鬼影随行;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:連體孤魂;zh-tw:連體陰;zh-sg:连体阴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:靈嬰煞;zh-tw:卡到陰;zh-sg:婴阳眼;zh-cn:卡到阴;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:吊死詭;zh-sg:死亡之约;zh-my:死亡信件;zh-cn:死亡信件;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:鬼肢解;zh-sg:鬼异19号;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:鬼戲院;zh-sg:甘札诺惊魂;zh-cn:鬼银幕;"
+    },
+    {
+      "original": null,
+      "conv": "zh-sg:欲虐;zh-cn:校园猎色;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:泰南拳;zh-sg:无敌拳王;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:女拳霸;zh-tw:致命巧克力;zh-sg:女拳霸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:曼谷之戀;zh-tw:曼谷愛情故事;zh-sg:曼谷断背之恋;zh-cn:曼谷之恋;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:泰哥兒;zh-tw:愛在暹邏;zh-hans:爱在暹罗;zh-sg:与爱同行;zh-cn:暹罗之恋;zh:暹羅之戀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:4條大路通陰間;zh-tw:鬼4虐;zh-sg:4惊;zh-cn:死神的十字路口;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:5條大路通陰間;zh-tw:鬼亂5;zh-sg:5惊;zh-cn:鬼乱5;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:鬼魅情人;zh-sg:旧情不散;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:鬼陰驚;zh-my:鬼情人;zh-sg:鬼情人;zh-cn:新怨缠身;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:灌籃拳霸;zh-sg:灌篮拳霸;zh-cn:烈焰篮球;"
+    },
+    {
+      "original": null,
+      "conv": "zh-sg:我的最佳保镖;zh-cn:玩命狙击;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:你好，陌生人;zh-tw:嗨！陌生人;zh-sg:冬日恋爱;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:初戀無限囧;zh-tw:初戀那件小事;zh-cn:初恋这件小事;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:相約7年情;zh-tw:愛無7限;zh-sg:爱无7限;zh-cn:爱情3＊7;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:詭門開;zh-sg:鬼门开;zh-cn:凶间疑影;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:鬼4厲;zh-sg:四鬼怪谈;zh-cn:鬼4厉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:陰傭花園;zh-tw:陰地;zh-sg:怨鬼之家;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:非常追數男女;zh-tw:愛情大凸槌;zh-sg:抢钱俏冤家;zh-cn:争钱斗爱ATM;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:盛女30;zh-tw:女人30又怎樣;zh-sg:败犬30;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:凶靈假期;zh-tw:陰巢;zh-sg:幽长周末;zh-cn:13鬼作祟;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:我死在去年夏天;zh-sg:惊夏;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:陰魂嚇機3D;zh-tw:鬼機NO.8;zh-sg:鬼机;zh-cn:407航班;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:9路冥婚;zh-tw:陰緣;zh-sg:阴缘;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:奪命倒數夜;zh-tw:倒數夜驚魂;zh-sg:倒数夜惊魂;zh-cn:致命倒计时;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:嚇鬼阿嫂;zh-tw:淒厲人妻;zh-sg:凄厉人妻;zh-cn:鬼夫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:嚇鬼2嫂;zh-tw:這個高中沒有鬼2;zh-sg:哪个时代没有鬼？;zh-cn:这个高中没有鬼2;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:這個高中沒有鬼3;zh-sg:这个沙滩没有鬼！;zh-cn:这个高中没有鬼3;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:鬼揞眼;zh-tw:彎道鬼情人;zh-cn:鬼眼日记;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:游魂惹鬼;zh-tw:水男骸;zh-sg:游魂;zh-cn:泳队惊魂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:人妖打排球之再戰金剛芭比;zh-sg:人妖打排球2015;zh-cn:人妖打排球2014;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:我很好…愛死你;zh-tw:我很好～謝謝！愛你呦;zh:我很好，愛死你！;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:刺客拳霸;zh-sg:杀手复仇记;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:轟天搶救;zh-tw:浴血拳霸;zh-sg:淫媒门;zh-cn:人皮交易;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:聞鬼師;zh-sg:鬼学长;zh-cn:我的鬼学长;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:戀愛病發;zh-tw:戀愛診療中;zh-sg:恋爱自由业;zh-cn:恋爱诊疗中;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:突然20歲;zh-tw:忽然20歲;zh-sg:重返20岁;zh-cn:突然20岁;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:猛鬼號;zh-sg:猛鬼船;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:大象夫;zh-tw:親愛的大笨象;zh-sg:大笨象;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:屍控曼谷;zh-sg:丧尸猎队;zh-cn:尸控曼谷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:暹羅墳場;zh-sg:暹逻鬼广场;zh-cn:暹罗广场;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:寄身100天;zh-tw:借來的100天;zh-sg:借来的100天;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:條子超大條;zh-sg:超磅刑警;zh-cn:超重警官;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:魍美;zh-sg:魍美;zh-cn:让我死;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:又要威，又要除頭盔;zh-tw:騎機男孩;zh-sg:骑机男孩;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:鬼妻勿語;zh-tw:母嬰靈;zh-sg:犀利鬼妻;zh-cn:鬼妻勿语;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:回魂咒;zh-tw:屍降;zh-sg:尸降;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:嚇鬼貧僧;zh-tw:淒厲人僧前傳;zh-sg:鬼寺凶灵;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:嚇鬼貧僧2;zh-tw:淒厲人僧;zh-sg:鬼寺凶灵2;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:嚇鬼貧僧3;zh-tw:淒厲人僧：卡到陰;zh-sg:鬼寺凶灵3;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:飛人類之吻;zh-sg:飞人类之吻;zh-cn:落头氏之吻;"
+    },
+    {
+      "original": null,
+      "conv": "zh-sg:酷妈玩家;zh-cn:非常电竞队;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:阿美姨的時間碎片;zh-tw:光陰解剖學;zh-sg:光阴解剖学;zh-cn:时间解剖学;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:怨僕;zh-tw:鬼侍女;zh-sg:怨仆;zh-cn:鬼女佣;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:嚇鬼女朋友;zh-tw:見鬼的戀愛季節;zh-sg:单身快乐;zh-cn:单身请开眼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:猛鬼大學：第2學期;zh-cn:猛鬼大学2;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:猛鬼大學：邪無止禁;zh-sg:猛鬼大学3;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:淒厲鬼娃;zh-sg:鬼孩小登;zh-cn:登帕卡农;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:諾諾係個好學生;zh-tw:阿諾是個模範生;zh-sg:阿诺是个模范生;zh-cn:模范生阿诺德;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:AI愛上你;zh-tw:AI愛情故事;zh-sg:智能的爱;zh-cn:AI爱上你;zh:AI爱情故事;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:真愛萬歲;zh-tw:真愛失憶中;zh-sg:爱情万岁！;zh-cn:爱情万岁;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:不敢泰愛你;zh-tw:海濱小戀曲;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:那些年，我們泰想追的女孩;zh-tw:My Precious初戀;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:鬼聲陰;zh-tw:鬼聲泣;zh-sg:噬魂灵声;zh-cn:鬼滴语;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:愛與希望的禁區;zh-tw:熾愛青春;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:分期付款愛上你;zh-cn:当男人恋爱时;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:介乎榴槤與山竹的詩意;zh-tw:可恨的初戀！;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:撞鬼遇到愛;zh-tw:哈囉！萌鬼屋;zh-sg:我的鬼情人;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:屍控戰場;zh-my:尸控战场;zh-cn:复活之战;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:惡業;zh:罪生咒;"
+    },
+    {
+      "original": "digital movie / TV",
+      "conv": "zh:數字電;zh-tw:數位電;zh-hk:數碼電;zh-sg:数码电;zh-my:数码电;zh-cn:数字电;"
+    },
+    {
+      "original": "goof",
+      "conv": "zh-hk:穿崩;zh-hans:穿帮;zh-tw:穿幫;"
+    },
+    {
+      "original": "lensing ceremony",
+      "conv": "zh:開機;zh-cn:开机;zh-hant:開鏡;zh-sg:开镜;zh-my:开镜;開機=>zh-tw:開機;开机=>zh-tw:開機;"
+    },
+    {
+      "original": "optical disc",
+      "conv": "zh:光盤;zh-cn:光盘;zh-sg:光碟;zh-my:光碟;zh-tw:光碟;光碟片=>zh-cn:光盘;"
+    },
+    {
+      "original": "thriller",
+      "conv": "zh-tw:驚悚;zh-hans:惊悚;zh-hk:驚慄;"
+    },
+    {
+      "original": "wrap",
+      "conv": "zh-tw:殺青;zh-hans:杀青;zh-hk:煞科;"
+    }
+  ]
+}

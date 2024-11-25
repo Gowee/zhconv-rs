@@ -17,7 +17,15 @@
     },
     {
       "original": "DFB Pokal",
-      "conv": "zh:德国杯;zh-hans:德国足协杯;zh-hk:德國盃;zh-tw:德國足協盃;"
+      "conv": "zh:德国足协杯;zh-hans:德国足协杯;zh-hk:德國足協盃;zh-tw:德國足協盃;"
+    },
+    {
+      "original": "1. FC Union Berlin",
+      "conv": "zh-hans:柏林联;zh-tw:柏林聯盟;zh-hk:柏林聯;"
+    },
+    {
+      "original": "1. FC Union Berlin",
+      "conv": "柏林联盟=>zh-cn:柏林联;柏林联盟=>zh-sg:柏林联;柏林联盟=>zh-my:柏林联;柏林联盟=>zh-tw:柏林聯盟;柏林联盟=>zh-hk:柏林聯;柏林联盟=>zh-mo:柏林聯;"
     },
     {
       "original": "1860 München",
@@ -30,10 +38,6 @@
     {
       "original": "VfL Bochum",
       "conv": "zh:波鸿;zh-hans:波鸿;zh-hk:波琴;zh-tw:波鴻;"
-    },
-    {
-      "original": "Union Berlin",
-      "conv": "zh-hans:柏林联盟;zh-hk:柏林聯;zh-tw:柏林聯盟;"
     },
     {
       "original": "Braunschweig",
@@ -132,8 +136,8 @@
       "conv": "zh:普鲁士明斯特;zh-hans:普鲁士明斯特;zh-hk:普斯辛蒙斯達;zh-tw:普魯士明斯特;"
     },
     {
-      "original": "RB Leipzig",
-      "conv": "zh:RB萊比錫;zh-hans:莱比锡RB;zh-hk:RB萊比錫;zh-tw:RB萊比錫;"
+      "original": "Rot-Weiss Essen",
+      "conv": "zh:红白埃森;zh-hans:红白埃森;zh-hk:紅白艾遜;zh-tw:紅白埃森;"
     },
     {
       "original": "Sandhausen",
@@ -174,6 +178,10 @@
     {
       "original": "Kevin de Bruyne",
       "conv": "zh-hans:凯文·德布劳内;zh-hk:奇雲·迪布尼;zh-tw:凱文·德布勞内;"
+    },
+    {
+      "original": "Harry Kane",
+      "conv": "zh-hans:哈里·凯恩;zh-tw:哈里·凱恩;zh-hk:哈利·簡尼;zh-mo:哈利·卡尼;"
     },
     {
       "original": "Matthäus",

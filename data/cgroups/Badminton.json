@@ -4,8 +4,20 @@
   "path": "Module:CGroup/Badminton",
   "rules": [
     {
-      "original": "",
+      "original": null,
       "conv": "zh:羽毛球; zh-cn:羽毛球; zh-hk:羽毛球; zh-tw:羽球;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:残疾人羽毛球; zh-hant:殘疾人羽毛球; zh-tw:帕拉羽球;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:残疾人奥林匹克; zh-tw:帕拉林匹克; zh-hk:殘疾人奧林匹克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:亚洲残疾人运动会; zh-tw:亞洲帕拉運動會; zh-hk:亞洲殘疾人運動會;"
     },
     {
       "original": "Badminton World Federation (BWF)",
@@ -24,35 +36,35 @@
       "conv": "zh:國際羽總; zh-cn:国际羽联; zh-hk:國際羽聯; zh-tw:國際羽總;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:世界羽毛球联合会; zh:世界羽毛球聯合會; zh-hk:世界羽毛球聯會; zh-tw:世界羽球聯盟;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:亚洲羽毛球联合会; zh:亞洲羽毛球聯合會; zh-hk:亞洲羽毛球聯會; zh-tw:亞洲羽球聯盟;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:中华民国羽球协会;zh-hant:中華民國羽球協會;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:国家体育总局乒乓球羽毛球运动管理中心;zh-hant:國家體育總局乒乓球羽毛球運動管理中心;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:中国羽毛球协会;zh-hant:中國羽毛球協會;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:中华民国羽球协会;zh-hant:中華民國羽球協會;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:香港羽毛球总会;zh-hant:香港羽毛球總會;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:澳门羽毛球总会;zh-hant:澳門羽毛球總會;"
     },
     {
@@ -61,47 +73,47 @@
     },
     {
       "original": "Barcelona",
-      "conv": "zh-cn:巴塞罗那; zh-tw:巴塞隆納; zh-hk:巴塞隆拿"
+      "conv": "zh-cn:巴塞罗那; zh-tw:巴塞隆納; zh-hk:巴塞隆拿;"
     },
     {
       "original": "Bilbao",
-      "conv": "zh-hans:毕尔巴鄂; zh-hant:畢爾包"
+      "conv": "zh-hans:毕尔巴鄂; zh-hant:畢爾包;"
     },
     {
       "original": "Birmingham",
-      "conv": "zh-cn:伯明翰;zh-hk:伯明翰;zh-tw:伯明罕"
+      "conv": "zh-cn:伯明翰;zh-hk:伯明翰;zh-tw:伯明罕;"
     },
     {
       "original": "Brunei",
-      "conv": "zh-cn:文莱; zh-tw:汶萊; zh-sg:汶莱"
+      "conv": "zh-cn:文莱; zh-tw:汶萊; zh-sg:汶莱;"
     },
     {
       "original": "Commonwealth of Nations",
-      "conv": "zh-cn:英联邦; zh-tw:大英國協; zh-hk:英聯邦; zh-sg:共和联邦"
+      "conv": "zh-cn:英联邦; zh-tw:大英國協; zh-hk:英聯邦; zh-sg:共和联邦;"
     },
     {
       "original": "Costa Rica",
-      "conv": "zh-cn:哥斯达黎加; zh-hk:哥斯達黎加; zh-tw:哥斯大黎加"
+      "conv": "zh-cn:哥斯达黎加; zh-hk:哥斯達黎加; zh-tw:哥斯大黎加;"
     },
     {
       "original": "Doha",
-      "conv": "zh-cn:多哈; zh:杜哈; zh-hk:多哈"
+      "conv": "zh-cn:多哈; zh:杜哈; zh-hk:多哈;"
     },
     {
       "original": "Dubai",
-      "conv": "zh-hans:杜拜; zh-tw:杜拜; zh-hk:杜拜; zh-cn:迪拜"
+      "conv": "zh-hans:杜拜; zh-tw:杜拜; zh-hk:杜拜; zh-cn:迪拜;"
     },
     {
       "original": "Guatemala",
-      "conv": "zh-cn:危地马拉; zh-tw:瓜地馬拉; zh-hk:危地馬拉"
+      "conv": "zh-cn:危地马拉; zh-tw:瓜地馬拉; zh-hk:危地馬拉;"
     },
     {
       "original": "Italy",
-      "conv": "zh-cn:意大利; zh-tw:義大利; zh-hk:意大利"
+      "conv": "zh-cn:意大利; zh-tw:義大利; zh-hk:意大利;"
     },
     {
       "original": "New Zealand",
-      "conv": "zh-cn:新西兰; zh-hk:紐西蘭; zh-tw:紐西蘭;zh-sg:纽西兰"
+      "conv": "zh-cn:新西兰; zh-hk:紐西蘭; zh-tw:紐西蘭;zh-sg:纽西兰;"
     },
     {
       "original": "Odense",
@@ -109,35 +121,39 @@
     },
     {
       "original": "Qatar",
-      "conv": "zh-cn:卡塔尔; zh-hk:卡塔爾; zh-tw:卡達"
+      "conv": "zh-cn:卡塔尔; zh-hk:卡塔爾; zh-tw:卡達;"
     },
     {
       "original": "Riga",
-      "conv": "zh-hans:年里加;zh-hant:年里加;zh-tw:年里加;zh-hk:年里加;zh-sg:年里加;zh-mo:年里加"
+      "conv": "zh-hans:年里加;zh-hant:年里加;zh-tw:年里加;zh-hk:年里加;zh-sg:年里加;zh-mo:年里加;"
     },
     {
       "original": "Slovenia",
-      "conv": "zh-cn:斯洛文尼亚; zh-tw:斯洛維尼亞; zh-hk:斯洛文尼亞"
+      "conv": "zh-cn:斯洛文尼亚; zh-tw:斯洛維尼亞; zh-hk:斯洛文尼亞;"
     },
     {
       "original": "Sydney",
-      "conv": "zh-cn:悉尼; zh-hk:悉尼; zh-tw:雪梨"
+      "conv": "zh-cn:悉尼; zh-hk:悉尼; zh-tw:雪梨;"
     },
     {
       "original": "The United Arab Emirates",
-      "conv": "zh-tw:阿拉伯聯合大公國; zh-cn:阿拉伯联合酋长国; zh-hk:阿拉伯聯合酋長國"
+      "conv": "zh-tw:阿拉伯聯合大公國; zh-cn:阿拉伯联合酋长国; zh-hk:阿拉伯聯合酋長國;"
     },
     {
       "original": "Lagos",
-      "conv": "zh-hans:拉各斯; zh-hk:拉各斯; zh-tw:拉哥斯"
+      "conv": "zh-hans:拉各斯; zh-hk:拉各斯; zh-tw:拉哥斯;"
     },
     {
       "original": "Nigeria",
-      "conv": "zh-hans:尼日利亚; zh-cn:尼日利亚; zh-hk:尼日利亞; zh-tw:奈及利亞"
+      "conv": "zh-hans:尼日利亚; zh-cn:尼日利亚; zh-hk:尼日利亞; zh-tw:奈及利亞;"
     },
     {
       "original": "Saarbrücken",
-      "conv": "zh-hans:萨尔布吕肯; zh-hant:薩爾布魯根"
+      "conv": "zh-hans:萨尔布吕肯; zh-hant:薩爾布魯根;"
+    },
+    {
+      "original": "Pekanbaru",
+      "conv": "zh-hans:北干巴鲁; zh-hant:北干巴鲁;"
     },
     {
       "original": "Sudirman Cup",
@@ -152,28 +168,36 @@
       "conv": "zh-cn:尤伯杯; zh:優霸杯; zh-hk:優霸盃; zh-tw:優霸盃;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:汤尤杯; zh-tw:湯優盃; zh-hk:湯優盃;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:世界青年羽毛球锦标赛; zh:世界青年羽毛球錦標賽; zh-hk:世界青年羽毛球錦標賽; zh-tw:世界青少年羽球錦標賽;"
+      "original": null,
+      "conv": "zh-cn:世界青年羽毛球锦标赛; zh:世界青年羽毛球錦標賽; zh-hk:世界青年羽毛球錦標賽; zh-tw:世界青年羽球錦標賽;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:亚洲青年羽毛球锦标赛; zh:亞洲青年羽毛球錦標賽; zh-hk:亞洲青年羽毛球錦標賽; zh-tw:亞洲青少年羽球錦標賽;"
+      "original": null,
+      "conv": "zh-cn:亚洲青年羽毛球锦标赛; zh:亞洲青年羽毛球錦標賽; zh-hk:亞洲青年羽毛球錦標賽; zh-tw:亞洲青年羽球錦標賽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:首要超级赛; zh:首要超級賽; zh-hk:首要超級賽; zh-tw:頂級超級賽;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:首要超级系列赛; zh:首要超級系列賽; zh-hk:首要超級系列賽; zh-tw:頂級超級系列賽;"
     },
     {
-      "original": "",
+      "original": null,
+      "conv": "zh-hans:世界大学生羽毛球锦标赛; zh-hant:世界大學生羽毛球錦標賽; zh-tw:世界大學羽球錦標賽;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:杯; zh-hant:盃;"
+    },
+    {
+      "original": "楊筑云",
+      "conv": "zh-hans:杨筑云; zh-hant:楊筑云;"
     },
     {
       "original": "蘇敬恒",
@@ -205,11 +229,39 @@
     },
     {
       "original": "鍾蕊",
-      "conv": "zh-cn:钟蕊; zh-hk:鍾蕊; zh-tw:鍾蕊"
+      "conv": "zh-cn:钟蕊; zh-hk:鍾蕊; zh-tw:鍾蕊;"
+    },
+    {
+      "original": "林于顥",
+      "conv": "zh-hans:林于颢; zh-hant:林于顥;"
+    },
+    {
+      "original": "吴汶锝",
+      "conv": "zh-hans:吴汶锝; zh-hant:吳汶鍀;"
+    },
+    {
+      "original": "于亚杰",
+      "conv": "zh-hans:于亚杰; zh-hant:于亞杰;"
+    },
+    {
+      "original": "田中湧士",
+      "conv": "zh-hans:田中涌士; zh-hant:田中湧士;"
+    },
+    {
+      "original": "谷岡大后",
+      "conv": "zh-hans:谷岡大后; zh-hant:谷岡大后;"
+    },
+    {
+      "original": "佐藤灯",
+      "conv": "zh-hans:佐藤灯; zh-hant:佐藤灯;"
     },
     {
       "original": "Axelsen",
-      "conv": "zh-cn:阿萨尔森; zh-tw:阿薩爾森; zh-hk:艾素臣; zh-sg:艾塞申"
+      "conv": "zh-cn:阿萨尔森; zh-tw:阿薩爾森; zh-hk:艾素臣; zh-sg:艾塞申;"
+    },
+    {
+      "original": "Bernardo",
+      "conv": "zh-hans:贝尔纳多; zh-hk:賓拿度; zh-tw:貝納多;"
     },
     {
       "original": "Camilla Martin",
@@ -220,16 +272,24 @@
       "conv": "zh-tw:欣希雅; zh-hk:仙菲亞; zh-cn:辛西娅;"
     },
     {
+      "original": "Carolina Marín",
+      "conv": "zh-hk:卡露蓮娜·馬蓮; zh-cn:卡罗列娜·马琳; zh-hant:卡羅列娜·馬琳;"
+    },
+    {
+      "original": "Carolina",
+      "conv": "zh-hk:卡露蓮娜; zh-cn:卡罗列娜; zh-hant:卡羅列娜;"
+    },
+    {
       "original": "Frost",
       "conv": "zh-hans:弗罗斯特; zh-hk:佛羅斯特; zh-tw:佛洛斯特;"
     },
     {
-      "original": "Hendra Setiawan",
-      "conv": "zh-cn:亨德拉·塞蒂亚万; zh:亨德拉·塞蒂亞萬; zh-hk:漢德拉·施達雲;zh-tw:亨德拉·塞蒂亞萬"
-    },
-    {
       "original": "Gade",
       "conv": "zh-cn:盖德; zh-tw:蓋德; zh-hk:基特; zh-sg:盖特;"
+    },
+    {
+      "original": "Hendra Setiawan",
+      "conv": "zh-cn:亨德拉·塞蒂亚万; zh:亨德拉·塞蒂亞萬; zh-hk:漢德拉·施達雲;zh-tw:亨德拉·塞蒂亞萬;"
     },
     {
       "original": "Ikhsan",
@@ -252,8 +312,16 @@
       "conv": "zh-hans:莫滕; zh-hk:摩頓; zh-tw:摩丹;"
     },
     {
+      "original": "Marín",
+      "conv": "zh-hk:馬蓮; zh-cn:马琳; zh-hant:馬琳;"
+    },
+    {
+      "original": "Poul-Erik Høyer Larsen",
+      "conv": "zh-hk:保羅·拉遜; zh-cn:波尔-埃里克·赫耶尔·拉尔森; zh-tw:保羅-埃里克·何雅·拉森;"
+    },
+    {
       "original": "Rashid Sidek",
-      "conv": "zh-cn:拉昔·西迪; zh-hk:拉錫·西迪; zh-tw:瑞許·西迪;"
+      "conv": "zh-cn:拉希德·西德克;zh-my:拉昔·西迪; zh-hk:拉錫·西迪; zh-tw:瑞許·西迪;"
     },
     {
       "original": "Ratchanok",
@@ -272,32 +340,28 @@
       "conv": "zh-cn:苏吉亚托; zh-hant:蘇吉亞托; zh-sg:苏基亚多;"
     },
     {
+      "original": "Syed Modi",
+      "conv": "zh-hans:赛义德·莫迪; zh-hant:賽義德·莫迪; zh-tw:西德·莫迪;"
+    },
+    {
       "original": "Taufik",
       "conv": "zh-cn:陶菲克; zh-hant:陶菲克; zh-sg:道菲;"
     },
     {
       "original": "Uber",
-      "conv": "zh-hans:尤伯; zh-tw:優霸; zh-hk:優霸; zh-mo:優霸"
+      "conv": "zh-hans:尤伯; zh-tw:優霸; zh-hk:優霸; zh-mo:優霸;"
     },
     {
-      "original": "Carolina Marín",
-      "conv": "zh-hk:卡露蓮娜·馬蓮; zh-cn:卡罗列娜·马琳; zh-hant:卡羅列娜·馬琳"
+      "original": "Pornpicha",
+      "conv": "zh:波恩皮查;zh-tw:邦比差;"
     },
     {
-      "original": "Carolina",
-      "conv": "zh-hk:卡露蓮娜; zh-cn:卡罗列娜; zh-hant:卡羅列娜"
-    },
-    {
-      "original": "Marín",
-      "conv": "zh-hk:馬蓮; zh-cn:马琳; zh-hant:馬琳"
-    },
-    {
-      "original": "Poul-Erik Høyer Larsen",
-      "conv": "zh-hk:保羅·拉遜; zh-cn:波尔-埃里克·赫耶尔·拉尔森; zh-tw:保羅-埃里克·何雅·拉森"
+      "original": "Choeikeewong",
+      "conv": "zh-hans:乔伊凯旺;zh-hant:喬伊凱旺;zh-tw:崔基翁;"
     },
     {
       "original": "Qualifying Rounds",
-      "conv": "zh:預賽; zh-hk:外圍賽; zh-tw:會外賽; zh-cn:资格赛"
+      "conv": "zh:外圍賽; zh-hk:外圍賽; zh-tw:會外賽; zh-cn:资格赛;"
     },
     {
       "original": "Main Draw",
@@ -313,38 +377,38 @@
     },
     {
       "original": "first round",
-      "conv": "zh-cn:首轮; zh-hk:首圈; zh-tw:首輪"
+      "conv": "zh-cn:首轮; zh-hk:首圈; zh-tw:首輪;"
     },
     {
       "original": "first round",
-      "conv": "zh-cn:第一轮; zh-hk:第一圈; zh-tw:第一輪"
+      "conv": "zh-cn:第一轮; zh-hk:第一圈; zh-tw:第一輪;"
     },
     {
       "original": "second round",
-      "conv": "zh-cn:第二轮; zh-hk:第二圈; zh-tw:第二輪"
+      "conv": "zh-cn:第二轮; zh-hk:第二圈; zh-tw:第二輪;"
     },
     {
       "original": "third round",
-      "conv": "zh-cn:第三轮; zh-hk:第三圈; zh-tw:第三輪"
+      "conv": "zh-cn:第三轮; zh-hk:第三圈; zh-tw:第三輪;"
     },
     {
       "original": "4th round",
-      "conv": "zh-cn:第四轮; zh-hk:第四圈; zh-tw:第四輪"
+      "conv": "zh-cn:第四轮; zh-hk:第四圈; zh-tw:第四輪;"
     },
     {
       "original": "5th round",
-      "conv": "zh-cn:第五轮; zh-hk:第五圈; zh-tw:第五輪"
+      "conv": "zh-cn:第五轮; zh-hk:第五圈; zh-tw:第五輪;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:搭档;zh-hk:拍檔;zh-tw:搭檔;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:联同;zh-hk:夥拍;zh-tw:聯同;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:尤尼克斯;zh-hk:優乃克;zh-tw:優乃克;"
     }
   ]

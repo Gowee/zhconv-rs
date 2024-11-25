@@ -8,12 +8,20 @@
       "conv": "zh-hans:守望先锋;zh-hant:鬥陣特攻;"
     },
     {
+      "original": "overwatch",
+      "conv": "zh-hans:守望先锋“归来”;zh-hant:鬥陣特攻2;"
+    },
+    {
       "original": "Ganji",
       "conv": "zh-hans:源氏;zh-hant:源氏;"
     },
     {
       "original": "Mccree",
       "conv": "zh-hans:麦克雷;zh-hant:麥卡利;"
+    },
+    {
+      "original": "Cassidy",
+      "conv": "zh-hans:卡西迪;zh-hant:卡西迪;"
     },
     {
       "original": "Pharah",
@@ -58,6 +66,10 @@
     {
       "original": "D.VA",
       "conv": "zh-hans:D.VA;zh-hant:D.VA;"
+    },
+    {
+      "original": "Song Hana",
+      "conv": "zh-hans:宋哈娜;zh-hant:宋荷娜;"
     },
     {
       "original": "Reinhrdt",
@@ -130,6 +142,34 @@
     {
       "original": "Sigma",
       "conv": "zh-hans:西格玛;zh-hant:席格馬;"
+    },
+    {
+      "original": "Echo",
+      "conv": "zh-hans:回声;zh-hant:迴音;"
+    },
+    {
+      "original": "Sojourn",
+      "conv": "zh-hans:索杰恩;zh-hant:索潔恩;"
+    },
+    {
+      "original": "Junker Queen",
+      "conv": "zh-hans:渣客女王;zh-hant:垃圾鎮女王;"
+    },
+    {
+      "original": "Ramattra",
+      "conv": "zh-hans:拉玛刹;zh-hant:拉瑪塔;"
+    },
+    {
+      "original": "Lifeweaver.",
+      "conv": "zh-hans:生命之梭;zh-hant:織命;"
+    },
+    {
+      "original": "Illari",
+      "conv": "zh-hans:伊拉锐;zh-hant:伊拉里;"
+    },
+    {
+      "original": "Mauga",
+      "conv": "zh-hans:毛加;zh-hant:莫加;"
     },
     {
       "original": "Volskaya Industries",
@@ -208,483 +248,495 @@
       "conv": "zh-hans:支援;zh-hant:輔助;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:死局帮;zh-hant:亡鎖幫;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:暗影守望;zh-hant:黑衛部隊;"
     },
     {
-      "original": "",
+      "original": null,
+      "conv": "zh-hans:费斯卡;zh-hant:維旭卡;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:费斯卡集团;zh-hant:維旭卡企業;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:海力士国际安保公司;zh-hant:螺旋國際安全公司;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:黑爪;zh-hant:利爪;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:韩国陆军特别机动部队;zh-hant:韓國機甲戰鬥部隊;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:俄罗斯防御部队;zh-hant:俄羅斯防衛部隊;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:骷髅帮;zh-hant:烈骨幫;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:光明科创集团;zh-hant:光明能源公司;"
     },
     {
-      "original": "",
+      "original": null,
+      "conv": "zh-hans:归零者;zh-hant:零度象限;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:智瞳;zh-hant:虹光;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:福豕拱春;zh-hant:豬是大吉;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:国王行动;zh-hant:零度叛亂;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:威尼斯行动;zh-hant:制裁行動;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:行动档案;zh-hant:捍衛密令;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:补给;zh-hant:戰利品;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:动感斗球;zh-hant:路西歐球;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:街机先锋;zh-hant:遊樂場;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:勇夺锦旗;zh-hant:搶旗;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:决斗先锋;zh-hant:鬥陣對決;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:万圣夜惊魂;zh-hant:萬聖節驚魂;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:怪鼠复仇;zh-hant:鼠肯斯坦復仇記;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:聚变机炮;zh-hant:熱核砲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:防御矩阵;zh-hant:防護力場;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:自毁;zh-hant:自爆;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:呼叫机甲;zh-hant:空投機甲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:推进器;zh-hant:噴射推進;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:微型飞弹;zh-hant:火箭匣艙;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:弹射;zh-hant:緊急逃生;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:音速扩张器;zh-hant:音波槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:音障;zh-hant:音波屏障;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:切歌;zh-hant:切換曲目;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:强音;zh-hant:音量全開;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:滑墙;zh-hant:壁面疾走;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:大火力固定转轮机枪;zh-hant:大火力旋轉機槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:轻型自动机枪;zh-hant:輕型自動武裝;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:侦察模式;zh-hant:機動模式;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:自我修复;zh-hant:自我修復;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:坦克模式;zh-hant:坦克模式;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:螺旋飞弹;zh-hant:旋風火箭;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:战术目镜;zh-hant:戰術鎖定;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:疾跑;zh-hant:衝刺;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:生物力场;zh-hant:生化力場;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:天使冲击枪;zh-hant:天使光槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:天使降临;zh-hant:天使緩降;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:自动恢复;zh-hant:再生;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:聚变驱动器;zh-hant:核融砲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:站住别动;zh-hant:不准動;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:超充能器;zh-hant:增壓強化裝置;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:强固防御;zh-hant:強化防禦;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:生物步枪;zh-hant:生化步槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:纳米激素;zh-hant:奈米強化;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:麻醉镖;zh-hant:睡眠鏢;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:生物手雷;zh-hant:生化手榴彈;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:屏障护盾;zh-hant:屏障防盾;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:能量盾击;zh-hant:持盾衝鋒;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:集结号令;zh-hant:全軍集結;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:流星飞锤;zh-hant:懲擊;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:恢复包;zh-hant:修復包;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:鼓舞士气;zh-hant:激勵;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:熔火核心;zh-hant:爐心超載;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:部署炮台;zh-hant:部署炮塔;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:热力过载;zh-hant:超負荷;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:手炮;zh-hant:散彈手砲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:火箭重拳;zh-hant:火箭拳;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:毁天灭地;zh-hant:流星墜;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:上勾重拳;zh-hant:天鉤拳;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:裂地重拳;zh-hant:震地襲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:最佳防守;zh-hant:最佳防禦;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:粒子炮;zh-hant:粒子砲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:重力喷涌;zh-hant:引力彈;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:地狱火霰弹枪;zh-hant:獄焰散彈槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:幽灵形态;zh-hant:亡靈形態;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:暗影步;zh-hant:幽影傳送;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:收割;zh-hant:奪魂;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:推进背包;zh-hant:跳躍噴射;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:震荡冲击;zh-hant:震蕩爆破;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:悬浮背包;zh-hant:滯空;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:特斯拉炮;zh-hant:特斯拉砲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:原始暴怒;zh-hant:野性之怒;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:喷射背包;zh-hant:噴射跳躍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:屏障发射器;zh-hant:屏障產生器;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:榴弹发射器;zh-hant:爆彈槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:炸弹轮胎;zh-hant:地獄飛輪;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:捕兽夹;zh-hant:鋼鐵陷阱;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:临别礼物;zh-hant:同歸於盡;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:脉冲双枪;zh-hant:脈衝手槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:闪回;zh-hant:回溯;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:四联火炮;zh-hant:四管加農砲;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:工程抓钩;zh-hant:穩固爪鉤;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:地雷禁区;zh-hant:地雷陣;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:动力铁球;zh-hant:滾球形態;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:感应护盾;zh-hant:自動調整型護盾;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:重力坠击;zh-hant:垂直打樁機;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:光子发射器;zh-hant:光子投射器;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:哨戒炮;zh-hant:哨戒塔;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:传送面板;zh-hant:傳送器;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:冰霜冲击枪;zh-hant:冷凍槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:急冻;zh-hant:冰霜屏障;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:短筒猎枪;zh-hant:雙管散彈槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:延时雷管;zh-hant:炸藥;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:生化之触;zh-hant:生化轉移之手;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:聚合射线;zh-hant:聚合光束;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:生化之球;zh-hant:生化球;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:火箭重锤;zh-hant:火箭鎚;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:裂地猛击;zh-hant:地裂擊;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:烈焰打击;zh-hant:烈焰擊;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:爆裂枪;zh-hant:廢鐵槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:鸡飞狗跳;zh-hant:火力全開;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:链钩;zh-hant:鎖鏈鉤;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:呼吸器;zh-hant:吸了再上;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:维和者;zh-hant:和平捍衛者;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:神射手;zh-hant:彈無虛發;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:自动手枪;zh-hant:衝鋒槍;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:黑客入侵;zh-hant:駭入;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:隐秘潜行;zh-hant:匿蹤;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:位移传动;zh-hant:相位轉換器;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:相时而动;zh-hant:投機主義者;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:黑百合之吻;zh-hant:奪命之吻;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:红外侦测;zh-hant:紅外線視野;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:抓钩;zh-hant:爪鉤;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hans:剧毒诡雷;zh-hant:劇毒地雷;"
     }
   ]

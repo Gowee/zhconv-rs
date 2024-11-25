@@ -37,7 +37,7 @@
     },
     {
       "original": "chitin",
-      "conv": "zh-cn:甲壳素; zh-hk:甲殼素; zh-tw:幾丁質;"
+      "conv": "zh-cn:甲壳质; zh-hk:甲殼質; zh-tw:幾丁質;"
     },
     {
       "original": "activate",
@@ -130,6 +130,10 @@
     {
       "original": "deoxy-",
       "conv": "zh-cn:脱氧; zh-hk:脫氧; zh-tw:去氧;"
+    },
+    {
+      "original": "fluorescent",
+      "conv": "zh-cn:荧光; zh-tw:螢光; zh-hk:熒光;"
     },
     {
       "original": "functional group",
@@ -261,7 +265,7 @@
     },
     {
       "original": "ox-",
-      "conv": "zh-cn:噁; zh-hk:噁; zh-tw:噁;"
+      "conv": "zh-cn:𫫇; zh-hk:噁; zh-tw:噁;"
     },
     {
       "original": "porphyrin",
@@ -362,6 +366,10 @@
     {
       "original": "erythrulose",
       "conv": "zh-cn:赤藓酮糖; zh-tw:赤藻酮糖; zh-hk:赤蘚酮糖"
+    },
+    {
+      "original": "erythritol",
+      "conv": "zh-cn:赤藓糖醇; zh-tw:赤藻糖醇; zh-hk:赤蘚糖醇"
     },
     {
       "original": "furanose",
@@ -530,6 +538,10 @@
     {
       "original": "signal transduction",
       "conv": "zh-cn:信号转导; zh-hk:信號轉導; zh-tw:訊息傳遞;"
+    },
+    {
+      "original": "signaling molecules",
+      "conv": "zh-cn:信号分子; zh-hk:信號分子; zh-tw:傳訊分子;"
     },
     {
       "original": "smooth endoplasmic reticulum",
@@ -732,6 +744,10 @@
       "conv": "zh-cn:双名法; zh-hk:二名法; zh-tw:二名法;"
     },
     {
+      "original": "specific name",
+      "conv": "zh-cn:种加词; zh-hk:種加詞; zh-tw:種小名;"
+    },
+    {
       "original": "<i>Arabidopsis thaliana</i>",
       "conv": "zh-tw:阿拉伯芥; zh-cn:拟南芥; zh-sg:拟南芥;"
     },
@@ -797,11 +813,7 @@
     },
     {
       "original": "glomerulus",
-      "conv": "zh-cn:肾小球; zh-hk:腎小球; zh-tw:絲球體"
-    },
-    {
-      "original": "glomerulus",
-      "conv": "zh-cn:肾丝球; zh-hk:腎絲球; zh-tw:絲球體"
+      "conv": "zh-cn:肾小球; zh-hk:腎小球; zh-tw:腎絲球"
     },
     {
       "original": "glucocorticoid",
@@ -861,7 +873,7 @@
     },
     {
       "original": "neurotransmitter",
-      "conv": "zh-cn:神经递质; zh-hk:神經遞質; zh-tw:神經傳遞質"
+      "conv": "zh-cn:神经递质; zh-hk:神經遞質; zh-tw:神經傳導物質"
     },
     {
       "original": "neurotransmitter",
@@ -966,6 +978,10 @@
     {
       "original": "Hymenochaetaceae",
       "conv": "zh-cn:锈革孔菌; zh-hk:鏽革孔菌; zh-tw:刺革菌;"
+    },
+    {
+      "original": "Gibberella",
+      "conv": "zh-cn:赤霉属; zh-hant:赤黴屬; zh-tw:赤黴菌屬;"
     },
     {
       "original": "apoplast pathway",
@@ -1081,7 +1097,11 @@
     },
     {
       "original": "Tracheophyta",
-      "conv": "zh-cn:维管植物; zh-hk:維管束植物; zh-tw:維管束植物"
+      "conv": "zh-cn:维管植物;zh-tw:維管束植物;zh-hk:維管植物;"
+    },
+    {
+      "original": "Bretschneidera",
+      "conv": "zh-cn:伯乐树; zh-tw:鐘萼木;"
     },
     {
       "original": "Selaginella delicatula",
@@ -1172,6 +1192,10 @@
       "conv": "zh-hans:尼泊尔桤木; zh-hant:尼泊爾赤楊"
     },
     {
+      "original": "Albizia lebbeck",
+      "conv": "zh-cn:阔荚合欢; zh-hk:大葉合歡; zh-tw:大葉合歡"
+    },
+    {
       "original": "Mucuna",
       "conv": "zh-cn:黎豆属; zh-hk:黧豆屬; zh-tw:血藤屬"
     },
@@ -1194,6 +1218,14 @@
     {
       "original": "Lasianthus",
       "conv": "zh-cn:粗叶木属; zh-hk:粗葉木屬; zh-tw:雞屎樹屬"
+    },
+    {
+      "original": "Neonauclea",
+      "conv": "zh-hans:新乌檀属;zh-tw:欖仁舅屬;zh-hk:新烏檀屬"
+    },
+    {
+      "original": "Neonauclea truncata",
+      "conv": "zh-hans:台湾新乌檀;zh-tw:欖仁舅;zh-hk:臺灣新烏檀"
     },
     {
       "original": "Calanthe",
@@ -1252,6 +1284,10 @@
       "conv": "zh-cn:白花黄兰; zh-tw:三伯肖頭蕊蘭"
     },
     {
+      "original": "Cypripedium",
+      "conv": "zh-cn:杓兰属; zh-tw:喜普鞋蘭屬"
+    },
+    {
       "original": "Epipogium",
       "conv": "zh-cn:虎舌兰属; zh-tw:上鬚蘭屬"
     },
@@ -1288,6 +1324,34 @@
       "conv": "zh-cn:无叶美冠兰; zh-tw:山芋蘭"
     },
     {
+      "original": "Neottia kuanshanensis",
+      "conv": "zh-cn:关山对叶兰; zh-tw:關山雙葉蘭"
+    },
+    {
+      "original": "Neottia meifongensis",
+      "conv": "zh-cn:梅峰对叶兰; zh-tw:梅峰雙葉蘭"
+    },
+    {
+      "original": "Neottia morrisonicola",
+      "conv": "zh-cn:浅裂对叶兰; zh-tw:玉山雙葉蘭"
+    },
+    {
+      "original": "Neottia nankomontana",
+      "conv": "zh-cn:台湾对叶兰; zh-tw:南湖雙葉蘭"
+    },
+    {
+      "original": "Neottia pseudonipponica",
+      "conv": "zh-cn:耳唇对叶兰; zh-tw:假日本雙葉蘭"
+    },
+    {
+      "original": "Neottia suzukii",
+      "conv": "zh-cn:无毛对叶兰; zh-tw:三角雙葉蘭"
+    },
+    {
+      "original": "Neottia taizanensis",
+      "conv": "zh-cn:小花对叶兰; zh-tw:大山雙葉蘭"
+    },
+    {
       "original": "Nervilia",
       "conv": "zh-cn:芋兰属; zh-tw:脈葉蘭屬"
     },
@@ -1314,6 +1378,30 @@
     {
       "original": "Phaius mishmensis",
       "conv": "zh-cn:紫花鹤顶兰; zh-tw:細莖鶴頂蘭"
+    },
+    {
+      "original": "Anaphalis",
+      "conv": "zh-cn:香青属; zh-tw:籟簫屬"
+    },
+    {
+      "original": "Crepidiastrum",
+      "conv": "zh-cn:假还阳参; zh-tw:假黃鵪菜;"
+    },
+    {
+      "original": "Farfugium",
+      "conv": "zh-cn:大吴风草属; zh-tw:山菊屬"
+    },
+    {
+      "original": "Senecio",
+      "conv": "zh-cn:千里光属; zh-hk:千里光屬; zh-tw:黃菀屬"
+    },
+    {
+      "original": "Anaphalis nepalensis",
+      "conv": "zh-cn:尼泊尔香青; zh-tw:尼泊爾籟簫"
+    },
+    {
+      "original": "Anaphalis royleana",
+      "conv": "zh-cn:须弥香青; zh-tw:能高籟簫"
     },
     {
       "original": "Aster altaicus",
@@ -1344,8 +1432,8 @@
       "conv": "zh-cn:毡毛马兰; zh-tw:島田氏雞兒腸"
     },
     {
-      "original": "Senecio",
-      "conv": "zh-cn:千里光属; zh-hk:千里光屬; zh-tw:黃菀屬"
+      "original": "Machilus",
+      "conv": "zh-cn:润楠属; zh-hk:潤楠; zh-tw:楨楠屬"
     },
     {
       "original": "Merremieae",
@@ -1480,6 +1568,10 @@
       "conv": "zh-cn:千層樹; zh-tw:白千層屬;"
     },
     {
+      "original": "Syzygium",
+      "conv": "zh-cn:蒲桃属; zh-tw:赤楠屬;"
+    },
+    {
       "original": "Eucalyptus botryoides",
       "conv": "zh-cn:葡萄桉; zh-tw:鹽風桉;"
     },
@@ -1580,6 +1672,142 @@
       "conv": "zh-tw:栲屬; zh-hans:锥栗属;"
     },
     {
+      "original": "Lithocarpus",
+      "conv": "zh-tw:石櫟屬; zh-hans:柯属; zh-hk:柯屬;"
+    },
+    {
+      "original": "Lithocarpus konishii",
+      "conv": "zh-tw:小西氏石櫟; zh-hans:油叶柯; zh-hk:油葉柯;"
+    },
+    {
+      "original": "Carpinus",
+      "conv": "zh-tw:千金榆屬; zh-cn:鹅耳枥属; zh-hk:鵝耳櫪屬"
+    },
+    {
+      "original": "Carpinus hebestroma",
+      "conv": "zh-cn:太鲁阁鹅耳枥;zh-tw:太魯閣千金榆;zh-hant:太魯閣鵝耳櫪;"
+    },
+    {
+      "original": "Carpinus kawakamii",
+      "conv": "zh-cn:阿里山鹅耳枥;zh-tw:阿里山千金榆;zh-hant:阿里山鵝耳櫪;"
+    },
+    {
+      "original": "Clausena anisum-olens",
+      "conv": "zh-cn:细叶黄皮;zh-tw:短柱黃皮;"
+    },
+    {
+      "original": "Clausena excavata",
+      "conv": "zh-cn:假黄皮;zh-tw:過山香;"
+    },
+    {
+      "original": "Lecythidaceae",
+      "conv": "zh-hans:玉蕊科;zh-hant:玉蕊科;"
+    },
+    {
+      "original": "Barringtonia",
+      "conv": "zh-cn:玉蕊属;zh-tw:棋盤腳樹屬;"
+    },
+    {
+      "original": "Lecythis",
+      "conv": "zh-cn:猴钵树属;zh-tw:玉蕊屬;"
+    },
+    {
+      "original": "Antidesma montanum",
+      "conv": "zh-tw:枯里珍; zh-cn:山地五月茶; zh-hk:山地五月茶"
+    },
+    {
+      "original": "Euphorbia prostrata",
+      "conv": "zh-tw:伏生大戟; zh-cn:匍匐大戟; zh-hk:匍匐大戟"
+    },
+    {
+      "original": "Arenga",
+      "conv": "zh-hans:桄榔属; zh-tw:山棕屬; zh-hk:桄榔屬"
+    },
+    {
+      "original": "Phoenix",
+      "conv": "zh-hans:刺葵属; zh-tw:海棗屬;"
+    },
+    {
+      "original": "Dilleniales",
+      "conv": "zh-hans:五桠果目; zh-hant:第倫桃目"
+    },
+    {
+      "original": "Dilleniaceae",
+      "conv": "zh-hans:五桠果科; zh-hant:第倫桃科"
+    },
+    {
+      "original": "Hydrocotyle benguetensis",
+      "conv": "zh-hans:吕宋天胡荽; zh-tw:菲島天胡荽"
+    },
+    {
+      "original": "Hydrocotyle dichondroides",
+      "conv": "zh-hans:毛柄天胡荽; zh-tw:毛天胡荽"
+    },
+    {
+      "original": "Hydrocotyle nepalensis",
+      "conv": "zh-hans:红马蹄草; zh-tw:乞食碗"
+    },
+    {
+      "original": "Hydrocotyle setulosa",
+      "conv": "zh-hans:刺毛天胡荽; zh-tw:阿里山天胡荽"
+    },
+    {
+      "original": "Sambucus chinensis",
+      "conv": "zh-hans:接骨草; zh-tw:冇骨消; zh-hk:接骨草"
+    },
+    {
+      "original": "Gonostegia",
+      "conv": "zh-cn:糯米团属; zh-tw:石薯屬"
+    },
+    {
+      "original": "Cnidaria",
+      "conv": "zh-hans:刺胞动物门; zh-hk:刺胞動物門; zh-tw:刺絲胞動物門;"
+    },
+    {
+      "original": "cnidarian",
+      "conv": "zh-hans:刺胞动物; zh-hk:刺胞動物; zh-tw:刺絲胞動物;"
+    },
+    {
+      "original": "Loricifera",
+      "conv": "zh-hans:铠甲动物门; zh-tw:兜甲動物門;"
+    },
+    {
+      "original": "loriciferan",
+      "conv": "zh-hans:铠甲动物; zh-tw:兜甲動物;"
+    },
+    {
+      "original": "loriciferan",
+      "conv": "zh-hans:铠甲虫; zh-tw:兜甲蟲;"
+    },
+    {
+      "original": "Porifera",
+      "conv": "zh-hans:多孔动物门; zh-hk:多孔動物門; zh-tw:海綿動物門;"
+    },
+    {
+      "original": "poriferan",
+      "conv": "zh-hans:多孔动物; zh-hk:多孔動物; zh-tw:海綿動物;"
+    },
+    {
+      "original": "Phoronida",
+      "conv": "zh-hans:帚虫动物门; zh-hk:帚蟲動物門; zh-tw:箒形動物門;"
+    },
+    {
+      "original": "phoronid",
+      "conv": "zh-hans:帚虫动物; zh-hk:帚蟲動物; zh-tw:箒形動物;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:刺尾鱼; zh-tw:刺尾鯛; zh-hk:刺尾魚;"
+    },
+    {
+      "original": "Paracanthurus",
+      "conv": "zh-hans:副刺尾鱼; zh-hk:副刺尾魚; zh-tw:擬刺尾鯛;"
+    },
+    {
+      "original": "Prionurus",
+      "conv": "zh-hans:多板盾尾鱼; zh-hk:多板盾尾魚; zh-tw:鋸尾鯛;"
+    },
+    {
       "original": "Oncorhynchus",
       "conv": "zh-cn:麻哈鱼属; zh-tw:鉤吻鮭屬; zh-hk:麻哈魚屬;"
     },
@@ -1601,11 +1829,11 @@
     },
     {
       "original": "Ranidae",
-      "conv": "赤蛙科=>zh-hans:蛙科; 赤蛙科=>zh-hk:蛙科; 赤蛙科=>zh-mo:蛙科;"
+      "conv": "zh-tw:赤蛙科; zh-hans:蛙科; zh-hk:蛙科; zh-mo:蛙科;"
     },
     {
       "original": "Rana",
-      "conv": "赤蛙屬=>zh-hans:蛙属; 赤蛙屬=>zh-hk:蛙屬; 赤蛙屬=>zh-mo:蛙屬;"
+      "conv": "zh-tw:赤蛙屬;zh-hans:蛙属; zh-hk:蛙屬; zh-mo:蛙屬;"
     },
     {
       "original": "Dicroglossidae",
@@ -1652,6 +1880,18 @@
       "conv": "zh-cn:水游蛇科; zh-tw:水游蛇科; zh-hk:水游蛇科;"
     },
     {
+      "original": "Amphiesma stolata",
+      "conv": "zh-cn:草腹链蛇; zh-tw:花浪蛇;"
+    },
+    {
+      "original": "Psammodynastes",
+      "conv": "zh-hans:紫沙蛇属; zh-hant:紫沙蛇屬;"
+    },
+    {
+      "original": "Psammodynastes pulverulentus",
+      "conv": "zh-hans:紫沙蛇; zh-hant:茶斑蛇;"
+    },
+    {
       "original": "Pseudoxenodon stejnegeri",
       "conv": "zh-cn:花尾斜鳞蛇; zh-tw:史丹吉氏斜鱗蛇;"
     },
@@ -1660,8 +1900,32 @@
       "conv": "zh-cn:阿里山钝头蛇; zh-tw:駒井氏鈍頭蛇;"
     },
     {
+      "original": "Sibynophis chinensis",
+      "conv": "zh-cn:黑头剑蛇; zh-tw:黑頭蛇; zh-hk:黑頭劍蛇;"
+    },
+    {
+      "original": "Paracrinoidea",
+      "conv": "zh-cn:拟海百合纲; zh-tw:副海百合綱;"
+    },
+    {
       "original": "Polyneoptera",
       "conv": "zh-cn:复新翅类; zh-tw:複新翅類; zh-hk:複新翅類; zh-sg:复新翅类;"
+    },
+    {
+      "original": "Anotogaster sieboldii",
+      "conv": "zh-hans:巨圆臀大蜓; zh-tw:無霸勾蜓; zh-hk:巨圓臀大蜓;"
+    },
+    {
+      "original": "Euphaeidae",
+      "conv": "zh-hans:溪蟌; zh-tw:幽蟌; zh-hk:溪蟌;"
+    },
+    {
+      "original": "Bayadera brevicauda",
+      "conv": "zh-hans:台湾尾溪蟌; zh-tw:短尾幽蟌; zh-hk:臺灣尾溪蟌;"
+    },
+    {
+      "original": "Euphaea formosa",
+      "conv": "zh-hans:台湾溪蟌; zh-tw:短腹幽蟌; zh-hk:臺灣溪蟌;"
     },
     {
       "original": "Achilidae",
@@ -1738,6 +2002,50 @@
     {
       "original": "Mesohomotoma",
       "conv": "zh-hans:瘦木虱属; zh-tw:中尾突木蝨屬;"
+    },
+    {
+      "original": "Cryptotympana",
+      "conv": "zh-hans:蚱蝉属; zh-tw:熊蟬屬; zh-hk:蚱蟬屬"
+    },
+    {
+      "original": "Cryptotympana holsti",
+      "conv": "zh-hans:南蚱蝉; zh-tw:臺灣熊蟬"
+    },
+    {
+      "original": "Cryptotympana takasagona",
+      "conv": "zh-hans:橙蚱蝉; zh-tw:高砂熊蟬"
+    },
+    {
+      "original": "Formotosena",
+      "conv": "zh-hans:宝岛蝉属;zh-tw:爺蟬屬"
+    },
+    {
+      "original": "Formotosena seebohmi",
+      "conv": "zh-hans:黑丽宝岛蝉;zh-tw:臺灣爺蟬"
+    },
+    {
+      "original": "Tanna",
+      "conv": "zh-hans:螗蝉属; zh-tw:暮蟬屬"
+    },
+    {
+      "original": "Tanna auripennis",
+      "conv": "zh-hans:金翅螗蝉; zh-tw:黃羽暮蟬"
+    },
+    {
+      "original": "Tanna infuscata",
+      "conv": "zh-hans:南方纹翅螗蝉; zh-tw:阿里山紋翅暮蟬"
+    },
+    {
+      "original": "Tanna viridis",
+      "conv": "zh-hans:绿螗蝉; zh-tw:小暮蟬"
+    },
+    {
+      "original": "Pomponia",
+      "conv": "zh-hans:螂蝉属; zh-tw:騷蟬屬"
+    },
+    {
+      "original": "Pomponia yayeyamana",
+      "conv": "zh-hans:八重山螂蝉; zh-tw:臺灣騷蟬"
     },
     {
       "original": "",
@@ -1909,7 +2217,7 @@
     },
     {
       "original": "Silvanidae",
-      "conv": "zh-cn:锯谷盗科; zh-tw:細扁甲科"
+      "conv": "zh-cn:锯谷盗科; zh-hk:鋸穀盜科; zh-tw:細扁甲科"
     },
     {
       "original": "Spercheidae",
@@ -2024,8 +2332,72 @@
       "conv": "zh-cn:窗大蚊; zh-tw:平大蚊;"
     },
     {
+      "original": "Andrenidae",
+      "conv": "zh-cn:地蜂科; zh-tw:地花蜂科;"
+    },
+    {
+      "original": "Periplaneta",
+      "conv": "zh-cn:大蠊属; zh-tw:家蠊屬; zh-hk:大蠊屬"
+    },
+    {
+      "original": "Periplaneta americana",
+      "conv": "zh-cn:美洲大蠊; zh-tw:美洲家蠊; zh-hk:美洲大蠊"
+    },
+    {
+      "original": "Periplaneta australasiae",
+      "conv": "zh-cn:澳洲大蠊; zh-tw:澳洲家蠊; zh-hk:澳洲大蠊"
+    },
+    {
+      "original": "Periplaneta brunnea",
+      "conv": "zh-cn:褐斑大蠊; zh-tw:棕色家蠊; zh-hk:褐斑大蠊"
+    },
+    {
+      "original": "Periplaneta fuliginosa",
+      "conv": "zh-cn:黑胸大蠊; zh-tw:黑褐家蠊; zh-hk:黑胸大蠊"
+    },
+    {
+      "original": "Schizomida",
+      "conv": "zh-cn:裂盾目; zh-tw:裂體目;"
+    },
+    {
       "original": "Araneidae",
       "conv": "zh-cn:园蛛科; zh-tw:金蛛科; zh-hk:園蛛科;"
+    },
+    {
+      "original": "Gasteracantha",
+      "conv": "zh-cn:棘腹蛛属; zh-tw:棘蛛屬; zh-hk:棘腹蛛屬;"
+    },
+    {
+      "original": "Gasteracantha kuhli",
+      "conv": "zh-cn:库氏棘腹蛛; zh-tw:古氏棘蛛; zh-hk:庫氏棘腹蛛;"
+    },
+    {
+      "original": "Gasteracantha sauteri",
+      "conv": "zh-cn:索氏棘腹蛛; zh-tw:梭德氏棘蛛; zh-hk:索氏棘腹蛛;"
+    },
+    {
+      "original": "Poltys",
+      "conv": "zh-cn:锥头蛛; zh-tw:尖鼻蛛; zh-hk:錐鼻蛛"
+    },
+    {
+      "original": "Agelenid",
+      "conv": "zh-cn:漏斗蛛; zh-tw:草蛛;"
+    },
+    {
+      "original": "Agelena silvatica",
+      "conv": "zh-cn:森林漏斗蛛; zh-tw:緣草蛛;"
+    },
+    {
+      "original": "Allagelena opulenta",
+      "conv": "zh-cn:华丽异漏蛛; zh-tw:小草蛛;"
+    },
+    {
+      "original": "Pireneitega",
+      "conv": "zh-cn:拟隙蛛; zh-tw:副隙蛛;"
+    },
+    {
+      "original": "Tegenaria",
+      "conv": "zh-cn:棚蛛; zh-tw:隅蛛;"
     },
     {
       "original": "Salticidae",
@@ -2076,6 +2448,30 @@
       "conv": "zh-cn:蝇虎属; zh-tw:條斑蠅虎屬;"
     },
     {
+      "original": "Theridiidae",
+      "conv": "zh-cn:球蛛科; zh-tw:姬蛛科; zh-hk:球蛛科;"
+    },
+    {
+      "original": "Anelosimus",
+      "conv": "zh-cn:阿內蛛属; zh-tw:粗腳姬蛛屬; zh-hk:阿內蛛屬;"
+    },
+    {
+      "original": "Chrysso",
+      "conv": "zh-cn:丽蛛属; zh-tw:金姬蛛屬; zh-hk:麗蛛屬;"
+    },
+    {
+      "original": "Coleosoma",
+      "conv": "zh-cn:鞘腹蛛属; zh-tw:鞘腹姬蛛屬; zh-hk:鞘腹蛛屬;"
+    },
+    {
+      "original": "Coleosoma",
+      "conv": "zh-cn:丘腹蛛属; zh-tw:菱蛛屬; zh-hk:丘腹蛛屬;"
+    },
+    {
+      "original": "Theridion",
+      "conv": "zh-cn:球蛛属; zh-tw:姬蛛屬; zh-hk:球蛛屬;"
+    },
+    {
       "original": "Uloboridae",
       "conv": "zh-cn:蟱蛛科; zh-tw:渦蛛科; zh-hk:嫵蛛科;"
     },
@@ -2116,28 +2512,8 @@
       "conv": "zh-cn:结实腰蟱蛛; zh-tw:膝形渦蛛;"
     },
     {
-      "original": "Theridiidae",
-      "conv": "zh-cn:球蛛科; zh-tw:姬蛛科; zh-hk:球蛛科;"
-    },
-    {
-      "original": "Anelosimus",
-      "conv": "zh-cn:阿內蛛属; zh-tw:粗腳姬蛛屬; zh-hk:阿內蛛屬;"
-    },
-    {
-      "original": "Chrysso",
-      "conv": "zh-cn:丽蛛属; zh-tw:金姬蛛屬; zh-hk:麗蛛屬;"
-    },
-    {
-      "original": "Coleosoma",
-      "conv": "zh-cn:鞘腹蛛属; zh-tw:鞘腹姬蛛屬; zh-hk:鞘腹蛛屬;"
-    },
-    {
-      "original": "Coleosoma",
-      "conv": "zh-cn:丘腹蛛属; zh-tw:菱蛛屬; zh-hk:丘腹蛛屬;"
-    },
-    {
-      "original": "Theridion",
-      "conv": "zh-cn:球蛛属; zh-tw:姬蛛屬; zh-hk:球蛛屬;"
+      "original": "Candidiopotamon",
+      "conv": "zh-cn:清溪蟹; zh-tw:明溪蟹;"
     },
     {
       "original": "Pleocyemata",
@@ -2262,6 +2638,10 @@
     {
       "original": "population",
       "conv": "zh-cn:种群; zh-hk:種群; zh-tw:族群;"
+    },
+    {
+      "original": "Living fossil",
+      "conv": "活化石"
     }
   ]
 }

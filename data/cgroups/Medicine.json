@@ -13,7 +13,7 @@
     },
     {
       "original": "occupational therapy",
-      "conv": "zh-hans:康复治疗; zh-tw:職能治療; zh-hk:職業治療;"
+      "conv": "zh-cn:作业治疗; zh-tw:職能治療; zh-hk:職業治療;"
     },
     {
       "original": "Caesarean section",
@@ -73,7 +73,7 @@
     },
     {
       "original": "systematic review",
-      "conv": "zh-cn:系統綜述; zh-tw:系統性回顧;"
+      "conv": "zh-cn:系统综述; zh-tw:系統性回顧;"
     },
     {
       "original": "meta-analysis",
@@ -98,6 +98,14 @@
     {
       "original": "metatarsal bone",
       "conv": "zh-cn:跖骨; zh-tw:蹠骨;"
+    },
+    {
+      "original": "viscera",
+      "conv": "zh-cn:内脏; zh-tw:內臟;"
+    },
+    {
+      "original": "visceral layer",
+      "conv": "zh-cn:脏层; zh-tw:臟層;"
     },
     {
       "original": "amoxicillin",
@@ -228,10 +236,6 @@
       "conv": "zh-hans:乙酰水杨酸; zh-hant:乙醯柳酸;"
     },
     {
-      "original": "Opioid",
-      "conv": "zh-hans:阿片; zh-hant:鴉片;"
-    },
-    {
       "original": "Panadol",
       "conv": "zh-cn:必理通; zh-tw:普拿疼; zh-hk:必理痛; zh-sg:班纳杜;"
     },
@@ -308,24 +312,28 @@
       "conv": "zh-hans:麻腮风三联; zh-hant:麻疹腮腺炎德國麻疹混合;"
     },
     {
-      "original": "generic drug",
-      "conv": "zh-hant:學名藥; zh-hans:通用名药物"
-    },
-    {
       "original": "anticonvulsive",
       "conv": "zh-tw:抗痙攣; zh-hk:抗驚厥; zh-hans:抗惊厥;"
     },
     {
+      "original": "generic drug",
+      "conv": "zh-hant:學名藥; zh-hans:通用名药物"
+    },
+    {
+      "original": "Progynova",
+      "conv": "zh-hant:普女榮; zh-hans:补佳乐"
+    },
+    {
+      "original": "echocardiogram",
+      "conv": "zh-cn:超声心动图; zh-tw:超音波心動圖; zh-hk:超音波心動圖;"
+    },
+    {
       "original": "echocardiography",
-      "conv": "zh-hans:超声心动图; zh-tw:心臟超音波; zh-hk:心臟超聲波;"
+      "conv": "zh-cn:超声心动描记术; zh-tw:超音波心動圖顯像; zh-hk:超音波心動圖顯像;"
     },
     {
       "original": "computed tomography",
       "conv": "zh-tw:電腦斷層掃描; zh-hk:電腦斷層掃描; zh-hans:计算机断层成像;"
-    },
-    {
-      "original": "computed tomography",
-      "conv": "计算机断层掃描=>zh-tw:電腦斷層掃描;计算机断层掃描=>zh-hk:電腦斷層掃描;"
     },
     {
       "original": "Magnetic resonance imaging",
@@ -372,8 +380,8 @@
       "conv": "zh-hant:梗塞; zh-hans:梗死;"
     },
     {
-      "original": "Alzheimer disease",
-      "conv": "zh-hant:阿茲海默症; zh-hans:阿尔茨海默病; zh-my:阿茲海默症; zh-sg:阿茲海默症;"
+      "original": "Alzheimern&#x0027;s disease",
+      "conv": "zh-hant:阿茲海默症; zh-hans:阿尔茨海默病; zh-my:阿茲海默症; zh-sg:阿茲海默症;zh-tw:阿茲海默症;"
     },
     {
       "original": "Angelman Syndrome",
@@ -390,6 +398,10 @@
     {
       "original": "bovine spongiform encephalopathy",
       "conv": "zh-hans:牛海绵状脑病; zh-hant:牛腦海綿狀病變"
+    },
+    {
+      "original": "Febrile seizure",
+      "conv": "zh-cn:热性惊厥; zh-tw:熱性痙攣;"
     },
     {
       "original": "Gastroesophageal reflux disease",
@@ -428,6 +440,10 @@
       "conv": "zh-tw:G型肝炎; zh-hk:庚型肝炎; zh-cn:庚型肝炎;"
     },
     {
+      "original": "inflammatory bowel disease",
+      "conv": "zh-tw:發炎性腸道疾病; zh-hk:炎症性腸病; zh-cn:炎症性肠病;"
+    },
+    {
       "original": "Influenza type A",
       "conv": "zh-tw:A型流感; zh-hk:甲型流感; zh-cn:甲型流感;"
     },
@@ -448,15 +464,15 @@
       "conv": "zh-hans:军团病; zh-hk:退伍軍人病; zh-tw:退伍軍人病;"
     },
     {
-      "original": "Menigoccoccal A",
-      "conv": "流脑=>zh-tw:流行性腦脊髓膜炎;"
+      "original": "Menigoccoccal",
+      "conv": "zh-cn:流脑; zh-tw:流行性腦脊髓膜炎;"
     },
     {
       "original": "Menigoccoccal A",
       "conv": "zh-tw:流行性腦脊髓膜炎（A型）; zh-cn:A群流脑;"
     },
     {
-      "original": "Menigoccoccal A",
+      "original": "Menigoccoccal C",
       "conv": "zh-tw:流行性腦脊髓膜炎（C型）; zh-cn:C群流脑;"
     },
     {
@@ -464,12 +480,20 @@
       "conv": "zh-cn:疯牛病; zh-hk:瘋牛症; zh-tw:狂牛症"
     },
     {
+      "original": "Mpox",
+      "conv": "zh-cn:猴痘; zh-tw:M痘; zh-hk:猴痘; zh-mo:猴痘; zh-sg:猴痘; zh-my:猴痘; "
+    },
+    {
       "original": "neurotic disorder",
       "conv": "zh-hant:精神官能症; zh-hans:神经症;"
     },
     {
       "original": "Parkinson&#x0027;s disease",
-      "conv": "zh-tw:帕金森氏症; zh-hk:柏金遜症; zh-cn:帕金森病;"
+      "conv": "zh-tw:巴金森氏症; zh-hk:柏金遜症; zh-cn:帕金森病;"
+    },
+    {
+      "original": "Parkinson&#x0027;s disease",
+      "conv": "帕金森氏病=>zh-cn:帕金森病; 帕金森氏病=>zh-tw:巴金森氏症; 帕金森氏病=>zh-hk:柏金遜症;"
     },
     {
       "original": "septal defect",
@@ -493,7 +517,7 @@
     },
     {
       "original": "SARS",
-      "conv": "zh-cn:严重急性呼吸道综合征; zh-hk:嚴重急性呼吸系統綜合症; zh-tw:嚴重急性呼吸道症候群;"
+      "conv": "zh-cn:严重急性呼吸综合征; zh-hk:嚴重急性呼吸系統綜合症; zh-tw:嚴重急性呼吸道症候群;"
     },
     {
       "original": "SARS",
@@ -517,7 +541,7 @@
     },
     {
       "original": "Dementia",
-      "conv": "zh-tw:失智症; zh-hk:認知障礙症; zh-cn:痴呆症; zh-mo:腦退化症;"
+      "conv": "zh-hans:痴呆症; zh-hant:癡呆症; zh-tw:失智症; zh-hk:認知障礙症; zh-cn:痴呆; zh-mo:腦退化症;"
     },
     {
       "original": "Type 1 diabetes mellitus",

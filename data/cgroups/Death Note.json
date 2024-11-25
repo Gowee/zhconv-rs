@@ -1,11 +1,11 @@
 {
   "name": "Death Note",
-  "description": "-{zh-hans:死亡笔记;zh-tw:死亡筆記本;zh-hk:死亡筆記;zh-sg:死神笔记簿;zh-mo:死亡筆記;}-",
+  "description": "-{zh-cn:死亡笔记;zh-hant:死亡筆記本;zh-tw:死亡筆記本;zh-hk:死亡筆記;zh-sg:死神笔记簿;zh-mo:死亡筆記;}-",
   "path": "Template:CGroup/Death Note",
   "rules": [
     {
       "original": "DEATH NOTE",
-      "conv": "zh-hans:死亡笔记;zh-tw:死亡筆記本;zh-hk:死亡筆記;zh-sg:死神笔记簿;zh-mo:死亡筆記"
+      "conv": "zh-hans:死亡笔记;zh-hant:死亡筆記本;zh-tw:死亡筆記本;zh-hk:死亡筆記;zh-sg:死神笔记簿;zh-mo:死亡筆記"
     },
     {
       "original": null,
@@ -13,11 +13,11 @@
     },
     {
       "original": null,
-      "conv": "zh-tw:死亡筆記本：L;zh-hans:L：最终的23日;zh-hk:L之終章 最後的23天;zh-hant:L：最終的23日;"
+      "conv": "zh-tw:死亡筆記本：L;zh-hant:L：最終的23日;zh-hans:L：最终的23日;zh-sg:死亡笔记外传－神探L;zh-hk:L之終章 最後的23天;"
     },
     {
       "original": null,
-      "conv": "zh-hans:点亮新世界;zh-hk:照亮新世紀;zh-tw:決戰新世界;"
+      "conv": "zh-cn:点亮新世界;zh-sg:照亮新世纪;zh-hk:照亮新世紀;zh-tw:決戰新世界;"
     },
     {
       "original": null,

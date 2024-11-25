@@ -1,15 +1,27 @@
 {
   "name": "Pokemon",
-  "description": "精灵宝可梦",
+  "description": "宝可梦",
   "path": "Template:CGroup/Pokemon",
   "rules": [
     {
       "original": "",
-      "conv": "zh-hk:寶可夢; zh-cn:宝可梦; zh-tw:寶可夢; "
+      "conv": "zh-hk:寶可夢;zh-cn:宝可梦;zh-tw:寶可夢;"
     },
     {
       "original": "",
-      "conv": "zh-hk:寵物小精靈; zh-cn:精灵宝可梦; zh-tw:精靈寶可夢; "
+      "conv": "宝可梦=>zh-hk:寵物小精靈;"
+    },
+    {
+      "original": "",
+      "conv": "寶可夢=>zh-hk:寵物小精靈;"
+    },
+    {
+      "original": "",
+      "conv": "精灵宝可梦=>zh-hk:寵物小精靈;"
+    },
+    {
+      "original": "",
+      "conv": "精靈寶可夢=>zh-hk:寵物小精靈;"
     },
     {
       "original": "",
@@ -29,14 +41,6 @@
     },
     {
       "original": "",
-      "conv": "宝可梦=>zh-hk:寵物小精靈;"
-    },
-    {
-      "original": "",
-      "conv": "寶可夢=>zh-hk:寵物小精靈;"
-    },
-    {
-      "original": "",
       "conv": "zh-hk:電台塔; zh-cn:收讯塔; zh-tw:收訊塔; "
     },
     {
@@ -45,23 +49,23 @@
     },
     {
       "original": "",
-      "conv": "zh-tw:神奇寶貝無印;zh-hk:寵物小精靈無印; zh-cn:精灵宝可梦无印;"
+      "conv": "zh-tw:神奇寶貝無印;zh-hk:寵物小精靈無印; zh-cn:宝可梦无印;"
     },
     {
       "original": "",
-      "conv": "zh-tw:神奇寶貝超世代;zh-hk:寵物小精靈超世代; zh-cn:精灵宝可梦 超世代;"
+      "conv": "zh-tw:神奇寶貝超世代;zh-hk:寵物小精靈超世代; zh-cn:宝可梦 超世代;"
     },
     {
       "original": "",
-      "conv": "zh-tw:神奇寶貝鑽石&珍珠; zh-hk:寵物小精靈DP; zh-cn:精灵宝可梦DP 钻石与珍珠;"
+      "conv": "zh-tw:神奇寶貝鑽石&珍珠; zh-hk:寵物小精靈DP; zh-cn:宝可梦DP 钻石与珍珠;"
     },
     {
       "original": "",
-      "conv": "zh-tw:神奇寶貝超級願望;zh-hk:寵物小精靈：超級願望; zh-cn:精灵宝可梦 超级愿望;"
+      "conv": "zh-tw:神奇寶貝超級願望;zh-hk:寵物小精靈：超級願望; zh-cn:宝可梦 超级愿望;"
     },
     {
       "original": "",
-      "conv": "zh-tw:神奇寶貝XY;zh-hk:寵物小精靈XY; zh-cn:精灵宝可梦XY;"
+      "conv": "zh-tw:神奇寶貝XY;zh-hk:寵物小精靈XY; zh-cn:宝可梦XY;"
     },
     {
       "original": "",

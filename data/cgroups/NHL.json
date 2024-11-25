@@ -1,43 +1,207 @@
 {
   "name": "NHL",
-  "description": "國家冰球聯盟",
-  "path": "Template:CGroup/NHL",
+  "description": "国家冰球联盟",
+  "path": "Module:CGroup/NHL",
   "rules": [
     {
+      "original": "Alberta",
+      "conv": "zh-hans:艾伯塔;zh-tw:亞伯達;zh-hk:艾伯塔;"
+    },
+    {
+      "original": "Anaheim",
+      "conv": "zh-hans:阿纳海姆;zh-tw:安納罕;zh-hk:阿納海姆;"
+    },
+    {
+      "original": "Anaheim",
+      "conv": "安那翰=>zh-cn:阿纳海姆;安那翰=>zh-sg:阿纳海姆;安那翰=>zh-my:阿纳海姆;安那翰=>zh-tw:安納罕;安那翰=>zh-hk:阿納海姆;安那翰=>zh-mo:阿納海姆;"
+    },
+    {
+      "original": "Anaheim",
+      "conv": "安那海姆=>zh-cn:阿纳海姆;安那海姆=>zh-sg:阿纳海姆;安那海姆=>zh-my:阿纳海姆;安那海姆=>zh-tw:安納罕;安那海姆=>zh-hk:阿納海姆;安那海姆=>zh-mo:阿納海姆;"
+    },
+    {
+      "original": "Anaheim",
+      "conv": "安纳海姆=>zh-cn:阿纳海姆;安纳海姆=>zh-sg:阿纳海姆;安纳海姆=>zh-my:阿纳海姆;安纳海姆=>zh-tw:安納罕;安纳海姆=>zh-hk:阿納海姆;安纳海姆=>zh-mo:阿納海姆;"
+    },
+    {
+      "original": "Anaheim",
+      "conv": "安納海姆=>zh-cn:阿纳海姆;安納海姆=>zh-sg:阿纳海姆;安納海姆=>zh-my:阿纳海姆;安納海姆=>zh-tw:安納罕;安納海姆=>zh-hk:阿納海姆;安納海姆=>zh-mo:阿納海姆;"
+    },
+    {
       "original": "Anaheim Ducks",
-      "conv": "zh-hant:安那翰鴨;zh-hk:安納海姆鴨;"
+      "conv": "zh-hans:阿纳海姆小鸭;zh-tw:安納罕鴨;zh-hk:阿納海姆小鴨;"
     },
     {
-      "original": "Edmonton Oilers",
-      "conv": "zh-hant:艾德蒙頓油人;zh-hk:愛民頓油人;"
+      "original": "Anaheim Ducks",
+      "conv": "安那翰鴨=>zh-cn:阿纳海姆小鸭;安那翰鴨=>zh-sg:阿纳海姆小鸭;安那翰鴨=>zh-my:阿纳海姆小鸭;安那翰鴨=>zh-hk:阿納海姆小鴨;安那翰鴨=>zh-mo:阿納海姆小鴨;"
     },
     {
-      "original": "Clarence S. Campbell Bowl",
-      "conv": "zh-hant:克萊倫斯·坎貝爾盃;zh-hk:卡雲斯·甘保杯;"
+      "original": "Anaheim Ducks",
+      "conv": "安纳海姆鸭=>zh-cn:阿纳海姆小鸭;安纳海姆鸭=>zh-sg:阿纳海姆小鸭;安纳海姆鸭=>zh-my:阿纳海姆小鸭;安纳海姆鸭=>zh-hk:阿納海姆小鴨;安纳海姆鸭=>zh-mo:阿納海姆小鴨;"
+    },
+    {
+      "original": "Anaheim Ducks",
+      "conv": "安納海姆鴨=>zh-cn:阿纳海姆小鸭;安納海姆鴨=>zh-sg:阿纳海姆小鸭;安納海姆鴨=>zh-my:阿纳海姆小鸭;安納海姆鴨=>zh-hk:阿納海姆小鴨;安納海姆鴨=>zh-mo:阿納海姆小鴨;"
+    },
+    {
+      "original": "Buffalo",
+      "conv": "水牛城=>zh-cn:布法罗;水牛城=>zh-sg:布法罗;水牛城=>zh-my:布法罗;"
+    },
+    {
+      "original": "Calgary",
+      "conv": "zh-hans:卡尔加里;zh-tw:卡加利;zh-hk:卡爾加里;"
+    },
+    {
+      "original": "Coyotes",
+      "conv": "zh-hans:郊狼;zh-tw:土狼;zh-hk:郊狼;"
+    },
+    {
+      "original": "Carolina",
+      "conv": "卡罗莱纳=>zh-cn:卡罗来纳;卡罗莱纳=>zh-sg:卡罗来纳;卡罗莱纳=>zh-my:卡罗来纳;"
+    },
+    {
+      "original": "Carolina",
+      "conv": "卡羅萊納=>zh-cn:卡罗来纳;卡羅萊納=>zh-sg:卡罗来纳;卡羅萊納=>zh-my:卡罗来纳;"
+    },
+    {
+      "original": "Edmonton",
+      "conv": "zh-hans:埃德蒙顿;zh-tw:愛德蒙頓;zh-hk:愛民頓;"
+    },
+    {
+      "original": "Edmonton",
+      "conv": "艾德蒙頓=>zh-cn:埃德蒙顿;艾德蒙頓=>zh-sg:埃德蒙顿;艾德蒙頓=>zh-my:埃德蒙顿;艾德蒙頓=>zh-tw:愛德蒙頓;艾德蒙頓=>zh-hk:愛民頓;艾德蒙頓=>zh-mo:愛民頓;"
+    },
+    {
+      "original": "Golden Knights",
+      "conv": "黃金騎士=>zh-cn:金骑士;黃金騎士=>zh-sg:金骑士;黃金騎士=>zh-my:金骑士;"
+    },
+    {
+      "original": "Jets",
+      "conv": "zh-hans:喷气机;zh-hant:噴射機;"
+    },
+    {
+      "original": "Minnesota Wild",
+      "conv": "zh-hans:明尼苏达狂野;zh-hant:明尼蘇達荒野;"
+    },
+    {
+      "original": "Minnesota Wild",
+      "conv": "zh-hans:狂野队;zh-hant:荒野隊;"
+    },
+    {
+      "original": "Montréal",
+      "conv": "zh-hans:蒙特利尔;zh-tw:蒙特婁;zh-hk:蒙特利爾;"
+    },
+    {
+      "original": "Montréal",
+      "conv": "滿地可=>zh-cn:蒙特利尔;滿地可=>zh-sg:蒙特利尔;滿地可=>zh-my:蒙特利尔;滿地可=>zh-tw:蒙特婁;"
+    },
+    {
+      "original": "Newark",
+      "conv": "zh-hans:纽瓦克;zh-hant:紐華克;"
+    },
+    {
+      "original": "Paradise, Nevada",
+      "conv": "zh-hans:帕拉代斯;zh-tw:天堂市;zh-hk:帕拉代斯;"
+    },
+    {
+      "original": "Phoenix",
+      "conv": "zh-hans:菲尼克斯;zh-hant:鳳凰城;"
+    },
+    {
+      "original": "San Jose",
+      "conv": "zh-hans:圣何塞;zh-hant:聖荷西;"
+    },
+    {
+      "original": "St. Louis",
+      "conv": "聖路易=>zh-cn:圣路易斯;聖路易=>zh-sg:圣路易斯;聖路易=>zh-my:圣路易斯;"
+    },
+    {
+      "original": "St. Louis",
+      "conv": "聖路易斯=>zh-cn:圣路易斯;聖路易斯=>zh-sg:圣路易斯;聖路易斯=>zh-my:圣路易斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "zh-hans:得克萨斯;zh-hant:德克薩斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "德克萨斯=>zh-cn:得克萨斯;德克萨斯=>zh-sg:得克萨斯;德克萨斯=>zh-my:得克萨斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "zh-hans:得州;zh-hant:德州;"
+    },
+    {
+      "original": "Washington Capitals",
+      "conv": "zh-hans:华盛顿首都人;zh-hant:華盛頓首都;"
+    },
+    {
+      "original": "Washington Capitals",
+      "conv": "zh-hans:首都人队;zh-hant:首都隊;"
+    },
+    {
+      "original": "Washington Capitals",
+      "conv": "首都队=>zh-cn:首都人队;首都队=>zh-sg:首都人队;首都队=>zh-my:首都人队;"
+    },
+    {
+      "original": "Ball Arena",
+      "conv": "波爾體育館=>zh-cn:鲍尔体育馆;波爾體育館=>zh-sg:鲍尔体育馆;波爾體育館=>zh-my:鲍尔体育馆;"
     },
     {
       "original": "Campbell Bowl",
-      "conv": "zh-hant:坎貝爾盃;zh-hk:甘保杯;"
+      "conv": "zh-hans:坎贝尔杯;zh-tw:坎貝爾盃;zh-hk:甘保杯;"
     },
     {
-      "original": "Clarence",
-      "conv": "zh-hant:克萊倫斯;zh-hk:卡雲斯;"
+      "original": "Clarence S. Campbell Bowl",
+      "conv": "zh-hans:克拉伦斯·坎贝尔杯;zh-tw:克萊倫斯·坎貝爾盃;zh-hk:卡雲斯·甘保杯;"
     },
     {
-      "original": "Campbell Conference",
-      "conv": "zh-hant:坎貝爾聯會;zh-hk:甘保聯盟;"
+      "original": "Stanley",
+      "conv": "zh-hans:斯坦利;zh-tw:史坦利;zh-hk:史丹利;"
     },
     {
-      "original": "Campbell",
-      "conv": "zh-hant:坎貝爾;zh-hk:甘保;"
+      "original": "Stanley Cup",
+      "conv": "zh-hans:斯坦利杯;zh-tw:史坦利盃;zh-hk:史丹利盃;"
     },
     {
       "original": "Western Conference",
-      "conv": "zh-hant:西部聯會;zh-hk:西部聯盟;"
+      "conv": "西部聯會=>zh-cn:西部联盟;西部聯會=>zh-sg:西部联盟;西部聯會=>zh-my:西部联盟;西部聯會=>zh-tw:西部聯盟;西部聯會=>zh-hk:西部聯盟;西部聯會=>zh-mo:西部聯盟;"
     },
     {
-      "original": "Eastern Conference",
-      "conv": "zh-hant:東部聯會;zh-hk:東部聯盟;"
+      "original": "adidas",
+      "conv": "zh-hans:阿迪达斯;zh-tw:愛迪達;zh-hk:adidas;"
+    },
+    {
+      "original": "final",
+      "conv": "冠軍賽=>zh-cn:决赛;冠軍賽=>zh-sg:决赛;冠軍賽=>zh-my:决赛;"
+    },
+    {
+      "original": "final 3-4",
+      "conv": "季軍賽=>zh-cn:三四名决赛;季軍賽=>zh-sg:三四名决赛;季軍賽=>zh-my:三四名决赛;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "zh-hans:四分之一决赛;zh-hant:半準決賽;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "8強賽=>zh-cn:1/4决赛;8強賽=>zh-sg:1/4决赛;8強賽=>zh-my:1/4决赛;"
+    },
+    {
+      "original": "round of 16",
+      "conv": "zh-hans:八分之一决赛;zh-hant:十六強賽;"
+    },
+    {
+      "original": "round of 16",
+      "conv": "16強賽=>zh-cn:1/8决赛;16強賽=>zh-sg:1/8决赛;16強賽=>zh-my:1/8决赛;"
+    },
+    {
+      "original": "season",
+      "conv": "球季=>zh-cn:赛季;球季=>zh-sg:赛季;球季=>zh-my:赛季;"
+    },
+    {
+      "original": "semifinal",
+      "conv": "zh-hans:半决赛;zh-hant:準決賽;"
     }
   ]
 }

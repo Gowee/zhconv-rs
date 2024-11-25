@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "AMD",
-      "conv": "zh-cn:超微半导体; zh-tw:超微半導體;"
+      "conv": "zh-cn:超威半导体; zh-tw:超微半導體;"
     },
     {
       "original": "ANZ",
@@ -16,8 +16,28 @@
       "conv": "zh-cn:美国在线; zh-tw:美國線上; zh-hk:美國在線;"
     },
     {
+      "original": "ASEAN",
+      "conv": "zh-tw:東南亞國家協會;zh-hk:東南亞國家聯盟;zh-cn:东南亚国家联盟;zh-my:东南亚国家联盟;zh-sg:亚细安组织;"
+    },
+    {
+      "original": "ASEAN",
+      "conv": "zh-tw:東協;zh-hk:東盟;zh-cn:东盟;zh-my:东盟;zh-sg:亚细安;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:東協助;zh-hans:东协助;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:東協議;zh-hans:东协议;"
+    },
+    {
       "original": "Bauhaus",
       "conv": "zh-hans:包豪斯; zh-hant:包浩斯;"
+    },
+    {
+      "original": "University of California, Berkeley",
+      "conv": "zh-hans:伯克利分校; zh-hant:柏克萊分校;"
     },
     {
       "original": "Caterpillar",
@@ -80,6 +100,10 @@
       "conv": "zh-cn:首席运营官; zh-tw:首席營運長;"
     },
     {
+      "original": "Cornell University",
+      "conv": "zh-cn:康奈尔大学; zh-tw:康乃爾大學; zh-hk:康奈爾大學;"
+    },
+    {
       "original": "Digital Agency",
       "conv": "zh-tw:數位廳; zh-cn:数字厅; zh-hk:數碼廳;"
     },
@@ -89,7 +113,7 @@
     },
     {
       "original": "Fairchild Semiconductor",
-      "conv": "zh-hans:飞兆半导体; zh-hant:快捷半導體;"
+      "conv": "zh-hans:飞兆半导体;zh-cn:仙童半导体; zh-hant:快捷半導體;"
     },
     {
       "original": "Fiat",
@@ -97,7 +121,11 @@
     },
     {
       "original": "Forbes",
-      "conv": "zh-cn:福布斯; zh-sg:资本家杂志; zh-hk:福布斯;zh-tw:富比士;"
+      "conv": "zh-cn:福布斯; zh-sg:福布斯; zh-hk:福布斯;zh-tw:富比士;"
+    },
+    {
+      "original": "Forbes",
+      "conv": "富比世=>zh-cn:福布斯; 富比世=>zh-sg:福布斯; 富比世=>zh-hk:福布斯;"
     },
     {
       "original": "<i>Fortune</i>",
@@ -129,7 +157,7 @@
     },
     {
       "original": "Group of Seven",
-      "conv": "zh-hans:七国集团; zh-hant:七大工業國組織;"
+      "conv": "zh-tw:七大工業國組織; zh-hans:七国集团; zh-hk:七國集團;"
     },
     {
       "original": "Group of Eight",
@@ -208,6 +236,10 @@
       "conv": "zh-cn:营利; zh-tw:營利; zh-hk:牟利;"
     },
     {
+      "original": "PayPal",
+      "conv": "zh:PayPal;zh-cn:贝宝;zh-hant:PayPal;zh-hans:PayPal;"
+    },
+    {
       "original": "Sendero Luminoso",
       "conv": "zh-hans:光辉道路; zh-hant:光明之路;"
     },
@@ -224,6 +256,10 @@
       "conv": "zh-hans:升特; zh-hant:陞特;"
     },
     {
+      "original": "Summit",
+      "conv": "高峰會議=>zh-cn:峰会; 高峰會=>zh-cn:峰会;"
+    },
+    {
       "original": "Solidarność",
       "conv": "zh-cn:团结工会; zh-tw:團結工聯; zh-hk:團結工會;"
     },
@@ -238,6 +274,10 @@
     {
       "original": "Stanford University",
       "conv": "zh-cn:斯坦福大学; zh-tw:史丹佛大學; zh-hk:史丹福大學;"
+    },
+    {
+      "original": "Sistema de la Integración Centroamericana",
+      "conv": "zh-cn:中美洲一体化体系;zh-tw:中美洲統合體;"
     },
     {
       "original": "TSMC",
@@ -269,15 +309,11 @@
     },
     {
       "original": "Cornell University",
-      "conv": "zh-cn:康奈尔大学;zh-tw:康乃爾大學;zh-hk:康乃爾大學;"
+      "conv": "zh-cn:康奈尔大学;zh-tw:康乃爾大學;zh-hk:康奈爾大學;"
     },
     {
       "original": "<u>Cornell</u> University",
-      "conv": "zh-cn:康奈尔;zh-tw:康乃爾;zh-hk:康乃爾;"
-    },
-    {
-      "original": "Purdue University",
-      "conv": "zh-cn:普度大学;zh-tw:普渡大學;"
+      "conv": "zh-cn:康奈尔;zh-tw:康乃爾;zh-hk:康奈爾;"
     },
     {
       "original": "Carnegie Mellon University",
@@ -321,7 +357,11 @@
     },
     {
       "original": "University of British Columbia",
-      "conv": "1=卑詩大學=>zh-tw:英屬哥倫比亞大學;卑詩大學=>zh-hk:英屬哥倫比亞大學;卑詩大學=>zh-mo:英屬哥倫比亞大學;"
+      "conv": "卑詩大學=>不列颠哥伦比亚大学;卑詩大學=>zh-tw:英屬哥倫比亞大學;卑詩大學=>zh-hk:英屬哥倫比亞大學;卑詩大學=>zh-mo:英屬哥倫比亞大學;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:新力量; zh-hant:新力量"
     }
   ]
 }

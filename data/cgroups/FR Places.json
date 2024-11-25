@@ -12,12 +12,24 @@
       "conv": "zh-cn:阿基坦; zh-hant:亞奎丹;"
     },
     {
+      "original": "Armagnac",
+      "conv": "zh-hans:阿马尼亚克; zh-hk:阿馬尼亞克; zh-tw:阿馬涅克"
+    },
+    {
       "original": "Auvergne",
       "conv": "zh-hans:奥弗涅;zh-hk:奧文尼;zh-tw:奧弗涅"
     },
     {
       "original": "Auvergne-Rhône-Alpes",
       "conv": "zh-hans:奥弗涅-罗讷-阿尔卑斯;zh-hk:奧文尼-羅訥-阿爾卑斯;zh-tw:奧弗涅-隆-阿爾卑斯"
+    },
+    {
+      "original": "Auvergne-Rhône-Alpes（简称）",
+      "conv": "zh-hans:奥罗阿;zh-hk:奧羅阿;zh-tw:奧隆阿"
+    },
+    {
+      "original": "Béarn",
+      "conv": "zh-hans:贝阿恩;zh-hk:貝亞恩;zh-tw:貝亞恩;"
     },
     {
       "original": "Bourgogne-Franche-Comté",
@@ -33,19 +45,19 @@
     },
     {
       "original": "Flamande",
-      "conv": "zh-hans:弗拉芒; zh-tw:佛萊明; zh-hk:弗拉芒;"
+      "conv": "zh-hans:弗拉芒; zh-tw:佛拉蒙; zh-hk:弗拉芒;"
     },
     {
       "original": "Franche-Comté",
       "conv": "zh-cn:弗朗什-孔泰; zh-hant:法蘭琪-康堤;"
     },
     {
-      "original": "Normandie",
-      "conv": "zh-cn:诺曼底;zh-tw:諾曼第;zh-hk:諾曼第;"
+      "original": "Gascogne",
+      "conv": "zh-cn:加斯科涅;zh-tw:加斯科尼"
     },
     {
-      "original": "Provence-Alpes-Côte d‘Azur",
-      "conv": "zh-cn:普罗旺斯-阿尔卑斯-蓝色海岸;zh-hk:普羅旺斯-阿爾卑斯-蔚藍海岸;zh-tw:普羅旺斯-阿爾卑斯-蔚藍海岸"
+      "original": "Normandie",
+      "conv": "zh-cn:诺曼底;zh-tw:諾曼第;zh-hk:諾曼第;"
     },
     {
       "original": "Rhône-Alpes",
@@ -61,7 +73,7 @@
     },
     {
       "original": "Nord",
-      "conv": "zh-cn:北部省;zh-hant:諾爾省;诺尔省=>zh-cn:北部省"
+      "conv": "諾爾省=>北部省;诺尔省=>北部省"
     },
     {
       "original": "Rhône",
@@ -88,12 +100,32 @@
       "conv": "zh-cn:昂古莱姆; zh-hant:昂古萊姆; zh-tw:安古蘭;"
     },
     {
+      "original": "Angely",
+      "conv": "zh-cn:昂热利; zh-tw:安吉利; zh-hk:昂熱利;"
+    },
+    {
+      "original": "Angers",
+      "conv": "昂熱=>zh-cn:昂热; 昂熱=>zh-tw:安傑; 昂熱=>zh-hk:昂熱;"
+    },
+    {
+      "original": "Angers",
+      "conv": "昂热=>zh-cn:昂热; 昂热=>zh-tw:安傑; 昂热=>zh-hk:昂熱;"
+    },
+    {
+      "original": "Angerville",
+      "conv": "zh-cn:昂热维尔; zh-tw:安傑維勒; zh-hk:昂熱維爾;"
+    },
+    {
       "original": "Annecy",
       "conv": "zh-cn:阿讷西; zh-tw:安錫;"
     },
     {
+      "original": "Avesnes",
+      "conv": "zh-cn:阿韦讷; zh-tw:阿凡內; zh-hk:阿韋訥;"
+    },
+    {
       "original": "Avignon",
-      "conv": "zh-hans:阿维尼翁; zh-hk:阿維尼翁; zh-tw:亞維農; "
+      "conv": "zh-hans:阿维尼翁; zh-hk:阿維尼翁; zh-tw:亞維農;"
     },
     {
       "original": "Bastia",
@@ -112,6 +144,14 @@
       "conv": "zh-cn:比亚里茨; zh-hk:比亞里茨; zh-tw:比亞希茲;"
     },
     {
+      "original": "Biron",
+      "conv": "zh-cn:比龙; zh-tw:比宏; zh-hk:比龍;"
+    },
+    {
+      "original": "Blois",
+      "conv": "zh-cn:布卢瓦; zh-tw:布耳瓦; zh-hk:布盧瓦;"
+    },
+    {
       "original": "Caen",
       "conv": "zh-hans:卡昂; zh-tw:康城;"
     },
@@ -121,7 +161,7 @@
     },
     {
       "original": "Cannes",
-      "conv": "zh-cn:戛纳; zh-tw:坎城; zh-hk:康城;"
+      "conv": "zh-cn:戛纳; zh-tw:坎城; zh-hk:康城; zh-sg:康城; zh-my:康城; zh:戛納;"
     },
     {
       "original": "Carcassonne",
@@ -141,11 +181,19 @@
     },
     {
       "original": "Châteauroux",
-      "conv": "zh-hans:沙托鲁;zh-tw:夏托魯;"
+      "conv": "zh-hans:沙托鲁;zh-tw:夏托魯;zh-hk:查多魯"
     },
     {
       "original": "Compiègne",
-      "conv": "zh:貢比涅; zh-tw:康比涅; zh-cn:贡比涅;"
+      "conv": "zh:貢比涅; zh-tw:貢皮厄內; zh-cn:贡比涅;"
+    },
+    {
+      "original": "Condé",
+      "conv": "zh-cn:孔代; zh-tw:貢代; zh-hk:孔代;"
+    },
+    {
+      "original": "Coutras",
+      "conv": "zh-cn:库特拉; zh-tw:古特哈; zh-hk:庫特拉;"
     },
     {
       "original": "Dieppe",
@@ -156,12 +204,20 @@
       "conv": "zh-hans:敦刻尔克; zh-hant:敦克爾克; zh-hk:鄧寇克;"
     },
     {
+      "original": "Fontenay",
+      "conv": "zh-cn:丰特奈勒; zh-tw:芳特內; zh-hk:豐特奈勒;"
+    },
+    {
       "original": "Guingamp",
       "conv": "zh-hans:甘冈; zh-tw:干貢; zh-hk:甘岡;"
     },
     {
       "original": "Gustavia",
-      "conv": "zh-cn:居斯塔维亚; zh-tw:古斯塔維亞; "
+      "conv": "zh-cn:居斯塔维亚; zh-tw:古斯塔維亞;"
+    },
+    {
+      "original": "La Rochelle",
+      "conv": "zh-cn:拉罗谢尔; zh-tw:荷榭勒; zh-hk:拉羅謝爾;"
     },
     {
       "original": "Le Bourget",
@@ -200,6 +256,10 @@
       "conv": "zh-hans:讷韦尔;zh-hant:尼維爾;"
     },
     {
+      "original": "Poitou",
+      "conv": "zh-cn:普瓦图; zh-tw:波瓦圖; zh-hk:普瓦圖;"
+    },
+    {
       "original": "Reims",
       "conv": "zh-hans:兰斯;zh-hk:蘭斯;zh-tw:漢斯"
     },
@@ -232,6 +292,10 @@
       "conv": "zh-hans:特鲁瓦; zh-hant:特華; zh-hk:特魯華;"
     },
     {
+      "original": "Valenciennes",
+      "conv": "zh-hans:瓦朗谢讷;zh-hk:華倫西恩斯;zh-tw:瓦隆先;zh-hant:瓦朗謝訥;"
+    },
+    {
       "original": "Vichy",
       "conv": "zh-cn:维希;zh-my:维琪;zh-sg:维琪;zh-hk:維琪;zh-mo:維琪;zh-tw:維琪;"
     },
@@ -244,12 +308,12 @@
       "conv": "zh-cn:安的列斯; zh-hk:安地列斯; zh-tw:安地列斯"
     },
     {
-      "original": "Futuna",
-      "conv": "zh-hans:富图纳;zh-hk:富圖納;zh-tw:富圖那;"
+      "original": "Basse-terre",
+      "conv": "zh-cn:巴斯特尔; zh-tw:巴斯提荷; zh-hk:巴斯特爾;"
     },
     {
-      "original": "Guadeloupe",
-      "conv": "zh-hans:瓜德罗普; zh-hk:瓜德羅普; zh-tw:瓜地洛普;"
+      "original": "Futuna",
+      "conv": "zh-hans:富图纳;zh-hk:富圖納;zh-tw:富圖那;"
     },
     {
       "original": "Guyane française",
@@ -265,7 +329,7 @@
     },
     {
       "original": "Polynésie",
-      "conv": "zh-cn:波利尼西亚; zh-hk:波利尼西亞; zh-tw:玻里尼西亞; "
+      "conv": "zh-cn:波利尼西亚; zh-hk:波利尼西亞; zh-tw:玻里尼西亞;"
     },
     {
       "original": "Saint-Barthélemy",
@@ -304,12 +368,24 @@
       "conv": "zh-cn:撒丁; zh-hk:撒丁; zh-tw:薩丁尼亞"
     },
     {
+      "original": "langue créole",
+      "conv": "zh-hans:克里奥尔语; zh-hk:歸融語; zh-tw:克里奧爾語;"
+    },
+    {
       "original": "Goten",
       "conv": "zh-hans:哥特人; zh-hant:哥德人;"
     },
     {
-      "original": "creole",
-      "conv": "zh-sg:克里奥尔语;zh-cn:克里奥尔语; zh-tw:克里奧爾語;zh-hk:歸融語;"
+      "original": "Muséum national d’histoire naturelle",
+      "conv": "zh-cn:国家自然历史博物馆; zh-tw:國立自然史博物館;"
+    },
+    {
+      "original": "Ministère de l Europe et des Affaires étrangères",
+      "conv": "zh-tw:欧洲暨外交事務部; zh-hk:欧洲及外交事務部; zh-cn:欧洲和外交事务部"
+    },
+    {
+      "original": "Ministère des Solidarités et de la Santé",
+      "conv": "zh-tw:社會事務及卫生部; zh-cn:社会事务与卫生部"
     },
     {
       "original": "Ardenne",
@@ -321,23 +397,23 @@
     },
     {
       "original": "Canal du Rhône au Rhin",
-      "conv": "zh-cn:罗讷-莱茵运河;zh-hk:羅訥-萊茵運河;zh-tw:隆-萊茵運河"
+      "conv": "zh-cn:罗讷-莱茵运河;zh-hk:羅訥-萊茵運河;zh-tw:隆-萊因運河"
     },
     {
       "original": "Canal du Rhône au Rhin（另一种连词符）",
-      "conv": "zh-cn:罗讷－莱茵运河;zh-hk:羅訥－萊茵運河;zh-tw:隆－萊茵運河"
+      "conv": "zh-cn:罗讷－莱茵运河;zh-hk:羅訥－萊茵運河;zh-tw:隆－萊因運河"
     },
     {
       "original": "Canal du Rhône au Rhin（另一种称呼）",
-      "conv": "zh-cn:莱茵-罗讷运河;zh-hk:萊茵-羅訥運河;zh-tw:萊茵-隆運河"
+      "conv": "zh-cn:莱茵-罗讷运河;zh-hk:萊茵-羅訥運河;zh-tw:萊因-隆運河"
     },
     {
       "original": "Canal du Rhône au Rhin（另一种称呼与另一种连词符）",
-      "conv": "zh-cn:莱茵－罗讷运河;zh-hk:萊茵－羅訥運河;zh-tw:萊茵－隆運河"
+      "conv": "zh-cn:莱茵－罗讷运河;zh-hk:萊茵－羅訥運河;zh-tw:萊因－隆運河"
     },
     {
-      "original": "Côte d‘Azur",
-      "conv": "zh-cn:蓝色海岸;zh-hk:蔚藍海岸;zh-tw:蔚藍海岸"
+      "original": "Oléron",
+      "conv": "zh-cn:奥莱龙; zh-tw:厄列宏; zh-hk:奧萊龍;"
     },
     {
       "original": "Jura",
@@ -346,10 +422,6 @@
     {
       "original": "la Manche/English Channel",
       "conv": "zh-hk:英倫海峽;zh-cn:英吉利海峡;zh-tw:英吉利海峽;"
-    },
-    {
-      "original": "Loire",
-      "conv": "zh-hans:卢瓦尔河; zh-hk:盧瓦爾河; zh-tw:羅亞爾河;"
     },
     {
       "original": "Mont Blanc",
@@ -374,6 +446,54 @@
     {
       "original": "Yonne",
       "conv": "zh-hant:約訥河;zh-cn:约讷河;zh-tw:約納河;"
+    },
+    {
+      "original": "Chartrené",
+      "conv": "zh-hans:沙特勒内;zh-hant:沙特勒內"
+    },
+    {
+      "original": "Chartres, Châtre",
+      "conv": "zh-hans:沙特尔;zh-hant:沙特爾"
+    },
+    {
+      "original": "Chartreuse",
+      "conv": "zh-hans:沙特勒斯;zh-hant:沙特勒斯"
+    },
+    {
+      "original": "Châtelaillon",
+      "conv": "zh-hans:沙特拉永;zh-hant:沙特拉永"
+    },
+    {
+      "original": "Châtelard",
+      "conv": "zh-hans:沙特拉尔;zh-hant:沙特拉爾"
+    },
+    {
+      "original": "Châtelaudren",
+      "conv": "zh-hans:沙特洛德朗;zh-hant:沙特洛德朗"
+    },
+    {
+      "original": "Châtelet, Chatelay",
+      "conv": "zh-hans:沙特莱;zh-hant:沙特萊"
+    },
+    {
+      "original": "Châtelier, Châtellier",
+      "conv": "zh-hans:沙特利耶;zh-hant:沙特利耶"
+    },
+    {
+      "original": "Châtelus, Chastellux",
+      "conv": "zh-hans:沙特吕;zh-hant:沙特呂"
+    },
+    {
+      "original": "Châtenet",
+      "conv": "zh-hans:沙特内;zh-hant:沙特內"
+    },
+    {
+      "original": "Châtenay",
+      "conv": "zh-hans:沙特奈;zh-hant:沙特奈"
+    },
+    {
+      "original": "Châtenois, Châtenoy",
+      "conv": "zh-hans:沙特努瓦;zh-hant:沙特努瓦"
     },
     {
       "original": null,
@@ -457,11 +577,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:苍图尔; zh-hant:蒼圖爾"
+      "conv": "zh-hans:仓图尔; zh-hant:仓圖爾"
     },
     {
       "original": null,
-      "conv": "zh-hans:图尔苍; zh-hant:圖爾蒼"
+      "conv": "zh-hans:图尔仓; zh-hant:圖爾仓"
     },
     {
       "original": null,
@@ -1681,11 +1801,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:苍里尔; zh-hant:蒼里爾"
+      "conv": "zh-hans:仓里尔; zh-hant:仓里爾"
     },
     {
       "original": null,
-      "conv": "zh-hans:里尔苍; zh-hant:里爾蒼"
+      "conv": "zh-hans:里尔仓; zh-hant:里爾仓"
     },
     {
       "original": null,
@@ -3697,7 +3817,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:阿登苍; zh-hant:阿登蒼"
+      "conv": "zh-hans:阿登仓; zh-hant:阿登仓"
     },
     {
       "original": null,
@@ -4176,6 +4296,54 @@
       "conv": "zh-hans:阿登祖; zh-hant:阿登祖"
     },
     {
+      "original": "",
+      "conv": "zh-hans:位于;zh-hant:位於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:属于;zh-hant:屬於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大于;zh-hant:大於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小于;zh-hant:小於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:等于;zh-hant:等於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:关于;zh-hant:關於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:生于;zh-hant:生於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:死于;zh-hant:死於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:卒于;zh-hant:卒於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:逝于;zh-hant:逝於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:逝世于;zh-hant:逝世於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:葬于;zh-hant:葬於"
+    },
+    {
       "original": "Béhuard",
       "conv": "zh-hans:贝于阿尔;zh-hant:貝于阿爾"
     },
@@ -4328,6 +4496,14 @@
       "conv": "zh-hans:奥里于勒;zh-hant:奧里于勒"
     },
     {
+      "original": "Port-en-Bessin-Huppain",
+      "conv": "zh-hans:贝桑港-于潘;zh-hant:貝桑港-于潘"
+    },
+    {
+      "original": "reunis, Gaves",
+      "conv": "zh-hans:雷于尼河;zh-hant:雷于尼河"
+    },
+    {
       "original": "Rigny-Ussé",
       "conv": "zh-hans:里尼-于塞;zh-hant:里尼-于塞"
     },
@@ -4392,6 +4568,10 @@
       "conv": "zh-hans:于阿尔特锡兹;zh-hant:于阿爾特錫茲"
     },
     {
+      "original": "Uhart-Mixe",
+      "conv": "zh-hans:于阿尔米克斯;zh-hant:于阿爾米克斯"
+    },
+    {
       "original": "Ully-Saint-Georges",
       "conv": "zh-hans:于利圣乔治;zh-hant:于利聖喬治"
     },
@@ -4406,6 +4586,14 @@
     {
       "original": "Ur-",
       "conv": "zh-hans:于尔;zh-hant:于爾"
+    },
+    {
+      "original": "Huriel",
+      "conv": "zh-hans:于列勒;zh-hant:于列勒"
+    },
+    {
+      "original": "Urost",
+      "conv": "zh-hans:于罗斯特;zh-hant:于羅斯特"
     },
     {
       "original": "Urou-et-Crennes",
@@ -4429,7 +4617,7 @@
     },
     {
       "original": "Usson-du-Poitou",
-      "conv": "zh-hans:于松迪普瓦图;zh-hant:于松迪普瓦圖"
+      "conv": "zh-cn:于松迪普瓦图; zh-tw:于松迪波瓦圖; zh-hk:于松迪普瓦圖"
     },
     {
       "original": "Ustaritz",
@@ -4466,6 +4654,10 @@
     {
       "original": "Uzeste",
       "conv": "zh-hans:于泽斯特;zh-hant:于澤斯特"
+    },
+    {
+      "original": "Viuz-en-Sallaz",
+      "conv": "zh-hans:维于昂萨拉;zh-hant:維于昂薩拉"
     },
     {
       "original": "Viuz-la-Chiésaz",
@@ -4508,6 +4700,10 @@
       "conv": "zh-cn:·卡昂;zh-hk:·卡昂;zh-tw:·卡昂"
     },
     {
+      "original": "Cabris",
+      "conv": "zh-cn:卡布里斯;zh-hk:卡布里斯;zh-tw:卡布里斯"
+    },
+    {
       "original": "Calonne",
       "conv": "zh-cn:卡洛讷河;zh-hk:卡洛訥河;zh-tw:卡洛訥河"
     },
@@ -4516,8 +4712,8 @@
       "conv": "zh-cn:戛纳埃克吕斯;zh-hk:康埃克呂斯;zh-tw:坎埃克呂斯"
     },
     {
-      "original": "Cabris",
-      "conv": "zh-cn:卡布里斯;zh-hk:卡布里斯;zh-tw:卡布里斯"
+      "original": "Carcen-Ponson",
+      "conv": "zh-hans:卡尔桑-蓬松;zh-hant:卡爾桑-蓬松"
     },
     {
       "original": "Céronne",
@@ -4568,6 +4764,10 @@
       "conv": "zh-cn:埃卢瓦尔;zh-hk:埃盧瓦爾;zh-tw:埃盧瓦爾"
     },
     {
+      "original": "Flers-lez-Lille",
+      "conv": "zh-cn:弗莱尔斯莱里尔;zh-hk:弗萊爾斯萊里爾;zh-tw:弗萊爾斯萊里耳"
+    },
+    {
       "original": "Floire（人名）",
       "conv": "zh-cn:弗卢瓦尔;zh-hk:弗盧瓦爾;zh-tw:弗盧瓦爾"
     },
@@ -4594,6 +4794,10 @@
     {
       "original": "Hans-（人名）",
       "conv": "zh-cn:汉斯-;zh-hk:漢斯-;zh-tw:漢斯-"
+    },
+    {
+      "original": "Hellemmes-Lille",
+      "conv": "zh-cn:埃莱姆里尔;zh-hk:埃萊姆里爾;zh-tw:埃萊姆里耳"
     },
     {
       "original": "Illon",
@@ -4648,12 +4852,24 @@
       "conv": "zh-cn:普列斯特;zh-hk:普列斯特;zh-tw:普列斯特"
     },
     {
+      "original": "à Rostrenen",
+      "conv": "zh-hans:于罗斯特勒南;zh-hant:於羅斯特勒南"
+    },
+    {
       "original": "Rouans",
       "conv": "zh-cn:鲁昂斯;zh-hk:魯昂斯;zh-tw:魯昂斯"
     },
     {
+      "original": "Saint-Aubin",
+      "conv": "zh-hans:圣欧班;zh-hant:聖歐班"
+    },
+    {
       "original": "Salon",
       "conv": "zh-cn:萨隆河;zh-hk:薩隆河;zh-tw:薩隆河"
+    },
+    {
+      "original": "Schliemann",
+      "conv": "zh-cn:施利曼;zh-hk:施利曼;zh-tw:施利曼"
     },
     {
       "original": "Septmoncel",
@@ -4718,22 +4934,6 @@
     {
       "original": "",
       "conv": "zh-cn:北部省份;zh-hk:北部省份;zh-tw:北部省份"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:位于;zh-hant:位於"
-    },
-    {
-      "original": "",
-      "conv": "zh-hans:属于;zh-hant:屬於"
-    },
-    {
-      "original": "Ministère de l Europe et des Affaires étrangères",
-      "conv": "zh-tw:欧洲暨外交事務部; zh-hk:欧洲及外交事務部; zh-cn:欧洲和外交事务部"
-    },
-    {
-      "original": "Ministère des Solidarités et de la Santé",
-      "conv": "zh-tw:社會事務及卫生部; zh-cn:社会事务与卫生部"
     }
   ]
 }

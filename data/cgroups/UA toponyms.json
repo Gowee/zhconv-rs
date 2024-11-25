@@ -4,12 +4,36 @@
   "path": "Module:CGroup/UA toponyms",
   "rules": [
     {
+      "original": "Cherkasy",
+      "conv": "車卡夕=>zh-cn:切尔卡瑟; 車卡夕=>zh-hk:切爾卡瑟; 車卡夕=>zh-tw:切爾卡瑟;"
+    },
+    {
+      "original": "Cherkasy",
+      "conv": "车卡夕=>zh-cn:切尔卡瑟; 车卡夕=>zh-hk:切爾卡瑟; 车卡夕=>zh-tw:切爾卡瑟;"
+    },
+    {
+      "original": "Chernihiv",
+      "conv": "車尼哥夫=>zh-cn:切尔尼戈夫; 車尼哥夫=>zh-hk:切爾尼戈夫; 車尼哥夫=>zh-tw:切爾尼戈夫;"
+    },
+    {
+      "original": "Chernihiv",
+      "conv": "车尼哥夫=>zh-cn:切尔尼戈夫; 车尼哥夫=>zh-hk:切爾尼戈夫; 车尼哥夫=>zh-tw:切爾尼戈夫;"
+    },
+    {
+      "original": "Chernihiv",
+      "conv": "車尼希夫=>zh-cn:切尔尼希夫; 車尼希夫=>zh-hk:切爾尼希夫; 車尼希夫=>zh-tw:切爾尼希夫;"
+    },
+    {
+      "original": "Chernihiv",
+      "conv": "车尼希夫=>zh-cn:切尔尼希夫; 车尼希夫=>zh-hk:切爾尼希夫; 车尼希夫=>zh-tw:切爾尼希夫;"
+    },
+    {
       "original": "Chernivtsi",
       "conv": "zh-cn:切尔诺夫策; zh-hk:切爾諾夫策; zh-tw:車尼夫契;"
     },
     {
       "original": "Dnipropetrovsk",
-      "conv": "zh-cn:第聂伯罗彼得罗夫斯克; zh-hk:第尼伯彼得羅夫斯克; zh-tw:第聶伯羅彼得羅夫斯克;"
+      "conv": "zh-cn:第聂伯罗彼得罗夫斯克; zh-hk:第聶伯羅彼得羅夫斯克; zh-tw:聶伯彼得羅夫斯克;"
     },
     {
       "original": "Donetsk",
@@ -17,11 +41,7 @@
     },
     {
       "original": "Donetsk",
-      "conv": "頓內次克=>zh-cn:顿涅茨克; 頓內次克=>zh-hk:頓涅茨克; 頓內次克=>zh-tw:頓內茨克;"
-    },
-    {
-      "original": "Donetsk",
-      "conv": "顿内次克=>zh-cn:顿涅茨克; 頓內次克=>zh-hk:頓涅茨克; 頓內次克=>zh-tw:頓內茨克;"
+      "conv": "顿内次克=>zh-cn:顿涅茨克; 頓內次克=>zh-hk:頓涅茨克; 頓內次克=>zh-tw:頓內次克;"
     },
     {
       "original": "Ivano-Frankivsk",
@@ -36,8 +56,20 @@
       "conv": "zh-cn:弗兰科夫斯克; zh-hk:弗蘭科夫斯克; zh-tw:法蘭科夫斯克;"
     },
     {
+      "original": "Kharkiv",
+      "conv": "卡爾可夫=>zh-cn:哈尔科夫; 卡爾可夫=>zh-hk:哈爾科夫; 卡爾可夫=>zh-tw:哈爾科夫;"
+    },
+    {
+      "original": "Kharkiv",
+      "conv": "卡尔可夫=>zh-cn:哈尔科夫; 卡尔可夫=>zh-hk:哈爾科夫; 卡尔可夫=>zh-tw:哈爾科夫;"
+    },
+    {
       "original": "Kherson",
       "conv": "赫松=>zh-cn:赫尔松; 赫松=>zh-hk:赫爾松; 赫松=>zh-tw:赫爾松;"
+    },
+    {
+      "original": "Kherson",
+      "conv": "刻松=>zh-cn:赫尔松; 刻松=>zh-hk:赫爾松; 刻松=>zh-tw:赫爾松;"
     },
     {
       "original": "Kirovohrad",
@@ -49,7 +81,7 @@
     },
     {
       "original": "Luhansk",
-      "conv": "卢干斯克=>zh-cn:卢甘斯克; 盧干斯克=>zh-hk:盧甘斯克; 盧干斯克=>zh-tw:盧甘斯克;"
+      "conv": "卢干斯克=>zh-cn:卢甘斯克; 卢干斯克=>zh-hk:盧甘斯克; 卢干斯克=>zh-tw:盧甘斯克;"
     },
     {
       "original": "Lviv",
@@ -58,6 +90,10 @@
     {
       "original": "Odesa",
       "conv": "zh-cn:敖德萨; zh-hk:敖德薩; zh-tw:敖得薩;"
+    },
+    {
+      "original": "Odesa",
+      "conv": "敖得萨=>zh-cn:敖德萨; 敖得萨=>zh-hk:敖德薩; 敖得萨=>zh-tw:敖得薩;"
     },
     {
       "original": "Sevastopol",
@@ -81,23 +117,35 @@
     },
     {
       "original": "Zaporizhzhia",
-      "conv": "札波罗结=>zh-cn:扎波罗热; 札波羅結=>zh-hk:扎波羅熱; 札波羅結=>zh-tw:札波羅熱;"
+      "conv": "札波罗结=>zh-cn:扎波罗热; 札波罗结=>zh-hk:扎波羅熱; 札波罗结=>zh-tw:札波羅熱;"
+    },
+    {
+      "original": "Zaporizhzhia",
+      "conv": "札波利扎=>zh-cn:扎波罗热; 札波利扎=>zh-hk:扎波羅熱; 札波利扎=>zh-tw:札波羅熱;"
     },
     {
       "original": "Dnipro",
-      "conv": "zh-cn:第聂伯罗; zh-hk:第尼伯; zh-tw:第聶伯羅;"
+      "conv": "zh-cn:第聂伯罗; zh-hk:第聶伯羅; zh-tw:聶伯;"
+    },
+    {
+      "original": "Dnipro",
+      "conv": "第尼伯=>zh-cn:第聂伯罗; 第尼伯=>zh-hk:第聶伯羅; 第尼伯=>zh-tw:聶伯;"
+    },
+    {
+      "original": "Dnipro",
+      "conv": "聶伯城=>zh-cn:第聂伯罗; 聶伯城=>zh-hk:第聶伯羅; 聶伯城=>zh-tw:聶伯城;"
     },
     {
       "original": "Simferopol",
-      "conv": "zh-cn:辛菲罗波尔; zh-hk:辛菲羅波爾; zh-tw:辛費羅波爾;"
+      "conv": "zh-cn:辛菲罗波尔; zh-hk:辛菲羅波爾; zh-tw:辛費羅波;"
     },
     {
       "original": "Simferopol",
-      "conv": "辛費羅波=>zh-cn:辛菲罗波尔; 辛費羅波=>zh-hk:辛菲羅波爾; 辛費羅波=>zh-tw:辛費羅波爾;"
+      "conv": "辛菲洛普=>zh-cn:辛菲罗波尔; 辛菲洛普=>zh-hk:辛菲羅波爾; 辛菲洛普=>zh-tw:辛費羅波;"
     },
     {
       "original": "Kryvyi Rih",
-      "conv": "zh-cn:克里沃罗格; zh-hk:克里沃羅格; zh-tw:克利福洛;"
+      "conv": "克利福洛=>zh-cn:克里维里赫; 克利福洛=>zh-hk:克里維里赫; 克利福洛=>zh-tw:克里維里赫;"
     },
     {
       "original": "Novomoskovsk",
@@ -117,7 +165,7 @@
     },
     {
       "original": "Brovary",
-      "conv": "zh-cn:布罗瓦里; zh-hk:布羅瓦里; zh-tw:布洛瓦利;"
+      "conv": "zh-cn:布罗瓦雷; zh-hk:布羅瓦雷; zh-tw:布洛瓦利;"
     },
     {
       "original": "Boryspil",
@@ -132,16 +180,56 @@
       "conv": "zh-cn:亚沃里夫; zh-hk:亞沃里夫; zh-tw:亞沃利夫;"
     },
     {
+      "original": "Izmail",
+      "conv": "zh-cn:伊兹梅尔; zh-hk:伊茲梅爾; zh-tw:伊斯梅爾;"
+    },
+    {
+      "original": "Lubny",
+      "conv": "zh-cn:卢布内; zh-hk:盧布內; zh-tw:盧布尼;"
+    },
+    {
       "original": "Myrhorod",
       "conv": "zh-cn:米尔哥罗德; zh-hk:米爾哥羅德; zh-tw:米爾果羅德;"
     },
     {
       "original": "Okhtyrka",
-      "conv": "zh-cn:奥赫蒂尔卡; zh-hk:奧赫蒂爾卡; zh-tw:阿克提卡;"
+      "conv": "zh-cn:阿赫特尔卡; zh-hk:阿赫特爾卡; zh-tw:阿克提卡;"
+    },
+    {
+      "original": "Chornobyl",
+      "conv": "zh-cn:切尔诺贝利; zh-hk:切爾諾貝爾; zh-tw:車諾比;"
+    },
+    {
+      "original": "Chornobyl",
+      "conv": "切爾諾貝利=>zh-cn:切尔诺贝利; 切爾諾貝利=>zh-hk:切爾諾貝爾; 切爾諾貝利=>zh-tw:車諾比;"
+    },
+    {
+      "original": "Dniester",
+      "conv": "zh-cn:德涅斯特; zh-hk:德涅斯特; zh-tw:聶斯特;"
+    },
+    {
+      "original": "Dnipro River",
+      "conv": "zh-cn:第聂伯河; zh-hk:第聶伯河; zh-tw:聶伯河;"
+    },
+    {
+      "original": "Dniprovskyi District",
+      "conv": "zh-cn:第聂伯区; zh-hk:第聶伯區; zh-tw:聶伯區;"
+    },
+    {
+      "original": "Donets",
+      "conv": "zh-cn:顿涅茨; zh-hk:頓涅茨; zh-tw:頓內茨;"
     },
     {
       "original": "Kerch",
       "conv": "zh-cn:刻赤; zh-hk:刻赤; zh-tw:克赤;"
+    },
+    {
+      "original": "Prypiat",
+      "conv": "zh-cn:普里皮亚季; zh-hant:普里皮亞季; zh-hk:普里皮亞特; zh-tw:普里皮亞特;"
+    },
+    {
+      "original": "Ananiv",
+      "conv": "zh-cn:阿纳尼伊夫; zh-hk:阿納尼伊夫; zh-tw:阿南尼夫;"
     }
   ]
 }

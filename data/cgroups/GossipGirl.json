@@ -1,11 +1,11 @@
 {
   "name": "GossipGirl",
-  "description": "-{zh-hans:绯闻女孩; zh-tw:花邊教主; zh-hk:花邊教主;}-",
+  "description": "-{zh-cn:绯闻女孩; zh-sg:绯闻女孩; zh-my:花边教主; zh-tw:花邊教主; zh-hk:花邊教主;}-",
   "path": "Template:CGroup/GossipGirl",
   "rules": [
     {
       "original": "Gossip Girl",
-      "conv": "zh-cn:绯闻女孩; zh-tw:花邊教主; zh-hk:花邊教主;"
+      "conv": "zh-cn:绯闻女孩; zh-sg:绯闻女孩; zh-my:花边教主; zh-tw:花邊教主; zh-hk:花邊教主;"
     },
     {
       "original": "Abrams, Vanessa",

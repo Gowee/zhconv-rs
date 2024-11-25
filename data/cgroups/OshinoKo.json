@@ -1,0 +1,159 @@
+{
+  "name": "OshinoKo",
+  "description": "【我推的孩子】",
+  "path": "Module:CGroup/OshinoKo",
+  "rules": [
+    {
+      "original": "苺プロ",
+      "conv": "zh-hans:莓Pro;zh-hant:莓Pro;zh-tw:草莓娛樂;zh-hk:草莓娛樂"
+    },
+    {
+      "original": "苺プロダクション",
+      "conv": "zh-hans:莓Production;zh-hant:莓Production;zh-tw:草莓娛樂經紀公司;zh-hk:草莓娛樂經紀公司"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:神木Production;zh-hant:神木Production;zh-tw:神木經紀公司"
+    },
+    {
+      "original": "今日あま",
+      "conv": "zh-hans:今甜;zh-hant:今甜;zh-tw:今天甜;zh-hk:今天甜"
+    },
+    {
+      "original": "今日は甘口で",
+      "conv": "zh-hans:今天就稍微甜一点;zh-hant:今天就稍微甜一點;zh-tw:今天吃甜甜;zh-hk:今天要甜言蜜語"
+    },
+    {
+      "original": "今ガチ",
+      "conv": "zh-hans:现恋;zh-hant:現戀;zh-tw:現在認戀;zh-hk:現在認戀"
+    },
+    {
+      "original": "深堀れ☆ワンチャン!!",
+      "conv": "zh-hans:深挖☆机不可失!!;zh-hant:深挖☆機不可失!!;zh-tw:深掘☆大好機會!!"
+    },
+    {
+      "original": "幼年期",
+      "conv": "zh-hans:童年;zh-hant:童年;zh-tw:童年期"
+    },
+    {
+      "original": null,
+      "conv": "童年期=>zh-tw:童年期"
+    },
+    {
+      "original": "プロローグ",
+      "conv": "zh-hans:序幕;zh-hant:序幕;zh-tw:序章;zh-hk:序章"
+    },
+    {
+      "original": "恋愛リアリティショー編",
+      "conv": "zh-hans:恋爱真人秀篇;zh-hant:戀愛真人秀篇;zh-tw:戀愛真人實境秀篇"
+    },
+    {
+      "original": "ファーストステージ編",
+      "conv": "zh-hans:初次登台篇;zh-hant:初次登台篇;zh-tw:舞台首秀篇"
+    },
+    {
+      "original": "プライベート",
+      "conv": "zh-hans:舞台幕后;zh-hant:舞台幕後;zh-tw:私人時間"
+    },
+    {
+      "original": "アイ",
+      "conv": "小愛=>zh-hans:爱;小愛=>zh-hant:愛;小愛=>zh-cn:爱;小愛=>zh-hk:愛;小愛=>zh-mo:愛;小愛=>zh-tw:愛;小愛=>zh-my:爱;愛;小愛=>zh-sg:爱"
+    },
+    {
+      "original": "アクア",
+      "conv": "zh-hans:阿库亚;zh-hant:阿庫亞;zh-tw:阿奎亞;zh-hk:阿奎亞"
+    },
+    {
+      "original": "さりな",
+      "conv": "zh-hans:纱利奈;zh-hant:紗利奈;zh-tw:紗理奈;zh-hk:紗理奈"
+    },
+    {
+      "original": "かな",
+      "conv": "zh-hans:加奈;zh-hant:加奈;zh-tw:佳奈;zh-hk:佳奈"
+    },
+    {
+      "original": "茜",
+      "conv": "zh-hans:赤音;zh-hant:赤音;zh-tw:茜"
+    },
+    {
+      "original": "MEMちょ",
+      "conv": "zh-hans:MEM啾;zh-hant:MEM啾;zh-tw:MEM CYO;zh-hk:Mem Cyo"
+    },
+    {
+      "original": "ミヤコ",
+      "conv": "zh-hans:京子;zh-hant:京子;zh-tw:美彌子;zh-hk:美彌子"
+    },
+    {
+      "original": "みなみ",
+      "conv": "zh-hans:美奈美;zh-hant:美奈美;zh-tw:美波;zh-hk:美波"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:爱理Pian;zh-hant:愛理Pian;zh-tw:亞理蹦;zh-hk:亞理蹦"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Q炭;zh-hant:Q炭;zh-tw:啾胖;zh-hk:啾胖"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:梅梅;zh-hant:梅梅;zh-tw:美美;zh-hk:美美"
+    },
+    {
+      "original": "メルト",
+      "conv": "zh-hans:梅尔特;zh-hant:梅爾特;zh-tw:愛溶;zh-hk:愛溶"
+    },
+    {
+      "original": "ゆき",
+      "conv": "zh-hans:夕雪;zh-hant:夕雪;zh-tw:有希;zh-hk:有希"
+    },
+    {
+      "original": "ノブユキ",
+      "conv": "zh-hans:信行;zh-hant:信行;zh-tw:修之;zh-hk:修之"
+    },
+    {
+      "original": "ケンゴ",
+      "conv": "zh-hans:剑吾;zh-hant:劍吾;zh-tw:健吾;zh-hk:健吾"
+    },
+    {
+      "original": "ぴえヨン",
+      "conv": "zh-hans:啾啾仔;zh-hant:啾啾仔;zh-tw:皮耶勇酷雞;zh-hk:皮耶勇酷雞"
+    },
+    {
+      "original": "まな",
+      "conv": "zh-hans:真奈;zh-hant:真奈;zh-tw:苿奈;zh-hk:苿奈"
+    },
+    {
+      "original": "なな",
+      "conv": "zh-hans:拉拉;zh-hant:拉拉;zh-hk:娜娜"
+    },
+    {
+      "original": "アビ子",
+      "conv": "zh-hans:阿比子;zh-hant:阿比子;zh-tw:亞枇子"
+    },
+    {
+      "original": "ヒムラ",
+      "conv": "zh-hans:緋村;zh-hant:緋村;zh-tw:火村"
+    },
+    {
+      "original": "アネモネ・モネモネ",
+      "conv": "zh-hans:Anemone·Monemone;zh-hant:Anemone·Monemone;zh-tw:銀蓮花·蓮蓮"
+    },
+    {
+      "original": "アネモネ",
+      "conv": "zh-hans:Anemone;zh-hant:Anemone;zh-tw:銀蓮花"
+    },
+    {
+      "original": "メイヤ",
+      "conv": "zh-hans:梅娅;zh-hant:梅婭;zh-tw:梅雅"
+    },
+    {
+      "original": "ぴえヨンブートダンス",
+      "conv": "zh-hans:啾啾仔健身舞;zh-hant:啾啾仔健身舞;zh-tw:皮耶勇開機舞;zh-hk:皮耶勇酷雞超強健身舞"
+    },
+    {
+      "original": "ピーマン体操",
+      "conv": "zh-hans:大青椒体操;zh-hant:大青椒體操;zh-tw:青椒體操;zh-hk:青椒體操"
+    }
+  ]
+}

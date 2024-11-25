@@ -1,0 +1,159 @@
+{
+  "name": "IN Movie",
+  "description": "印度電影",
+  "path": "Module:CGroup/IN Movie",
+  "rules": [
+    {
+      "original": "3 Idiots",
+      "conv": "zh-hk:作死不離3兄弟;zh-cn:三傻大闹宝莱坞;zh-my:三个傻瓜;zh-sg:三个傻瓜;zh-tw:三個傻瓜;"
+    },
+    {
+      "original": "All We Imagine as Light",
+      "conv": "zh-cn:想象之光; zh-tw:你是我眼中的那道光;"
+    },
+    {
+      "original": "Andhadhun",
+      "conv": "zh-tw:看不見的旋律;zh-cn:调音师;zh-hk:盲舂舂風暴;"
+    },
+    {
+      "original": "Bajrangi Bhaijaan",
+      "conv": "zh-cn:小萝莉的猴神大叔; zh-hk:把她帶回家; zh-tw:寶萊塢之鋼鐵奶爸;"
+    },
+    {
+      "original": "Bade Miyan Chote Miyan",
+      "conv": "zh-tw:救世雙雄;zh-hk:雙雄合璧;zh-cn:救世双雄;"
+    },
+    {
+      "original": "Bride and Prejudice",
+      "conv": "zh-hk:愛鬥氣愛上你;zh-cn:爱斗气爱上你;zh-sg:新娘与偏见;zh-tw:新娘與偏見;"
+    },
+    {
+      "original": "Chennai Express",
+      "conv": "zh-tw:寶萊塢愛情特快車;zh-hk:波李活愛情特快車;zh-cn:金奈快车;"
+    },
+    {
+      "original": "Dangal",
+      "conv": "zh-cn:摔跤吧！爸爸; zh-tw:我和我的冠軍女兒; zh-hk:打死不離3父女;"
+    },
+    {
+      "original": "Dredd",
+      "conv": "zh-cn:新特警判官; zh-hk:新特警判官; zh-sg:新特警判官; zh-tw:超時空戰警3D;"
+    },
+    {
+      "original": "Don: The Chase Begins Again",
+      "conv": "zh-tw:迷蹤再現;zh-hk:迷蹤再現;zh-cn:追踪再现;"
+    },
+    {
+      "original": "Don 2: The King Is Back",
+      "conv": "zh-tw:寶萊塢奪命煞星Ⅱ;zh-hk:迷蹤再現2;zh-cn:夺命煞星宝莱坞之国王归来;"
+    },
+    {
+      "original": "Eega",
+      "conv": "zh-cn:功夫小蝇; zh-tw:終極唬神：愛的大復仇;"
+    },
+    {
+      "original": "Ek Tha Tiger",
+      "conv": "zh-tw:猛虎英雄傳;zh-cn:代号猛虎行动;"
+    },
+    {
+      "original": "The Fifth Estate",
+      "conv": "zh-cn:危机解密; zh-tw:危機解密; zh-hk:洩密風雲;"
+    },
+    {
+      "original": "Fighter",
+      "conv": "zh-tw:凌雲戰士;zh-hk:鋼翼戰士;zh-cn:天空斗士;"
+    },
+    {
+      "original": "Hichki",
+      "conv": "zh-hk:我的破嗝Miss; zh-tw:我的嗝嗝老師; zh-cn:嗝嗝老师;"
+    },
+    {
+      "original": "Hotel Mumbai",
+      "conv": "zh-cn:孟买酒店;zh-sg:失控危城;zh-tw:失控危城;zh-hk:孟買酒店;"
+    },
+    {
+      "original": "Loev",
+      "conv": "zh-hk:聽見愛你的聲音;zh-tw:聽見愛你的聲音;zh-cn:孟买之恋;"
+    },
+    {
+      "original": "The Lunchbox",
+      "conv": "zh-cn:午餐盒; zh-tw:美味情書; zh-sg:美味情书;"
+    },
+    {
+      "original": "Maharaja",
+      "conv": "zh-tw:誰偷了垃圾桶？;zh-sg:谁偷了垃圾桶？;zh-hk:失竊風雲;zh-cn:因果报应;"
+    },
+    {
+      "original": "Margarita with a Straw",
+      "conv": "zh-hans:带吸管的玛格丽塔;zh-hant:乾吧！我的彩虹人生"
+    },
+    {
+      "original": "My Name Is Khan",
+      "conv": "zh-cn:我的名字叫可汗; zh-hk:阿漢正傳; zh-tw:我的名字叫可汗;"
+    },
+    {
+      "original": "Need for Speed",
+      "conv": "zh-tw:極速快感;zh-sg:极速快感;zh-cn:极品飞车;zh-hk:極速激戰;"
+    },
+    {
+      "original": "Pad Man",
+      "conv": "zh-cn:印度合伙人; zh-hk:M巾俠; zh-tw:護墊俠;"
+    },
+    {
+      "original": "Padmaavat",
+      "conv": "zh-tw:帕德瑪瓦蒂：愛無所懼; zh-hk:帕德瑪瓦特;"
+    },
+    {
+      "original": "PK",
+      "conv": "zh-cn:我的个神啊;zh-tw:來自星星的傻瓜PK;zh-hk:來自星星的PK;"
+    },
+    {
+      "original": "PK",
+      "conv": "zh-cn:我的个神啊;zh-tw:來自星星的傻瓜;zh-hk:來自星星的PK;"
+    },
+    {
+      "original": "PK",
+      "conv": "我的个神啊=>zh-my:PK;我的个神啊=>zh-sg:PK;來自星星的傻瓜PK=>zh-my:PK;來自星星的傻瓜PK=>zh-sg:PK;來自星星的傻瓜=>zh-my:PK;來自星星的傻瓜=>zh-sg:PK;來自星星的PK=>zh-my:PK;來自星星的PK=>zh-sg:PK;"
+    },
+    {
+      "original": "Race",
+      "conv": "zh-tw:駭速霹靂火;zh-hk:生死競賽;zh-cn:生死竞赛;"
+    },
+    {
+      "original": "RRR",
+      "conv": "zh:RRR;zh-tw:雙雄起義;zh-hk:革命雙雄;zh-sg:双雄起义;"
+    },
+    {
+      "original": "Saawariya",
+      "conv": "zh-hans:莎华丽雅; zh-hant:莎華麗雅; zh-tw:魔幻藍詩;"
+    },
+    {
+      "original": "Saawariya",
+      "conv": "莎华丽雅=>zh-hk:愛人; 莎華麗雅=>zh-hk:愛人; 莎华丽雅=>zh-mo:愛人; 莎華麗雅=>zh-mo:愛人;"
+    },
+    {
+      "original": "Secret Superstar",
+      "conv": "zh-tw:隱藏的大明星;zh-cn:神秘巨星; zh-hk:打死不離歌星夢;"
+    },
+    {
+      "original": "Sooryavanshi",
+      "conv": "zh-tw:反恐追緝令;zh-hk:反恐雄心;zh-cn:反恐追缉令;"
+    },
+    {
+      "original": "Taare Zameen Par",
+      "conv": "zh-tw:心中的小星星;zh-cn:地球上的星星;"
+    },
+    {
+      "original": "Tiger Zinda Hai",
+      "conv": "zh-tw:猛虎已覺醒;zh-cn:猛虎还活着;"
+    },
+    {
+      "original": "Yeh Jawaani Hai Deewani",
+      "conv": "zh-tw:青春洋溢色彩;zh-hk:那些年我們瘋狂的青春;zh-cn:那些年我们疯狂的青春;"
+    },
+    {
+      "original": "Zindagi Na Milegi Dobara",
+      "conv": "zh-cn:人生不再重来; zh-tw:三個大丈夫：花天走地; zh-hk:巴打旅痕團;"
+    }
+  ]
+}

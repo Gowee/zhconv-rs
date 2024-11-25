@@ -1,6 +1,6 @@
 {
   "name": "KO Show",
-  "description": "南韓综艺",
+  "description": "南韓藝人",
   "path": "Module:CGroup/KO Show",
   "rules": [
     {
@@ -88,10 +88,6 @@
       "conv": "李素妍=>zh-hans:李昭娟;李素妍=>zh-hant:李昭娟;李素妍=>zh-cn:李昭娟;李素妍=>zh-tw:李昭娟;李素妍=>zh-hk:李昭娟;李素妍=>zh-mo:李昭娟;"
     },
     {
-      "original": "이은주(李恩宙)",
-      "conv": "李恩珠=>zh-hans:李恩宙;李恩珠=>zh-hant:李恩宙;李恩珠=>zh-cn:李恩宙;李恩珠=>zh-tw:李恩宙;李恩珠=>zh-hk:李恩宙;李恩珠=>zh-mo:李恩宙;"
-    },
-    {
       "original": "장서희(張瑞希)",
       "conv": "张瑞姬=>zh-hans:张瑞希;張瑞姬=>zh-hant:張瑞希;张瑞姬=>zh-cn:张瑞希;張瑞姬=>zh-tw:張瑞希;張瑞姬=>zh-hk:張瑞希;張瑞姬=>zh-mo:張瑞希;"
     },
@@ -110,10 +106,6 @@
     {
       "original": "주상욱(朱相昱)",
       "conv": "朱相旭=>zh-hans:朱相昱;朱相旭=>zh-hant:朱相昱;朱相旭=>zh-cn:朱相昱;朱相旭=>zh-tw:朱相昱;朱相旭=>zh-hk:地成;朱相旭=>zh-mo:朱相昱;"
-    },
-    {
-      "original": "지성(地成)",
-      "conv": "池城=>zh-hans:地成;池城=>zh-hant:地成;池城=>zh-cn:地成;池城=>zh-tw:地成;池城=>zh-hk:地成;池城=>zh-mo:地成;池诚=>zh-hans:地成;池誠=>zh-hant:地成;池诚=>zh-cn:地成;池誠=>zh-tw:地成;池誠=>zh-hk:地成;池誠=>zh-mo:地成;"
     },
     {
       "original": "지현우(智鉉寓)",
@@ -154,10 +146,6 @@
     {
       "original": "남궁민('''南宮玟''')",
       "conv": "南宮民=>zh-hans:南宫民;南宫民=>zh-hant:南宮民;南宮民=>zh-cn:南宫民;南宫民=>zh-tw:南宮民;南宫民=>zh-hk:南宮民;南宫民=>zh-mo:南宮民;南宮民=>zh-sg:南宫民;"
-    },
-    {
-      "original": "신민아('''新慜娥''')",
-      "conv": "zh-hans:申敏儿;zh-hant:新慜娥;zh-cn:申敏儿;zh-tw:申敏兒;zh-hk:申敏雅;zh-mo:申敏雅;"
     },
     {
       "original": "유인나('''劉寅娜''')",
@@ -254,10 +242,6 @@
     {
       "original": "전태수('''田汰遂''')",
       "conv": "田汰遂=>zh-hans:全泰秀;田汰遂=>zh-hant:全泰秀;田汰遂=>zh-cn:全泰秀;田汰遂=>zh-tw:全泰秀;田汰遂=>zh-hk:全泰秀;田汰遂=>zh-mo:全泰秀;"
-    },
-    {
-      "original": "전해림('''全慧彬''')",
-      "conv": "全慧彬=>zh-hans:BIN;全慧彬=>zh-hant:BIN;全慧彬=>zh-cn:BIN;全慧彬=>zh-tw:BIN;全慧彬=>zh-hk:BIN;全慧彬=>zh-mo:BIN;"
     },
     {
       "original": "정용준('''鄭鏞俊''')",
@@ -593,119 +577,183 @@
     },
     {
       "original": "김규리(金奎吏)",
-      "conv": "zh-hans:金奎吏;zh-hant:金奎吏;zh-cn:金奎吏;zh-tw:金奎吏;zh-hk:金奎吏;zh-mo:金奎吏;"
+      "conv": "zh-hans:金奎吏;zh-hant:金奎吏;"
     },
     {
       "original": "김규리",
-      "conv": "zh-hans:金奎梨;zh-hant:金奎梨;zh-cn:金奎梨;zh-tw:金奎莉;zh-hk:金奎梨;zh-mo:金奎梨;"
+      "conv": "zh-hans:金奎梨;zh-hant:金奎梨;"
     },
     {
       "original": "김수현(金秀賢)",
-      "conv": "zh-hans:金秀贤 (女演员);zh-hant:金秀賢 (女演員);zh-cn:金秀贤 (女演员);zh-tw:金秀賢 (女演員);zh-hk:金秀賢 (女演員);zh-mo:金秀賢 (女演員);"
+      "conv": "zh-hans:金秀贤 (女演员);zh-hant:金秀賢 (女演員);"
     },
     {
       "original": "김수현(金秀賢)",
-      "conv": "zh-hans:金秀贤 (男演员);zh-hant:金秀賢 (男演員);zh-cn:金秀贤 (男演员);zh-tw:金秀賢 (男演員);zh-hk:金秀賢 (男演員);zh-mo:金秀賢 (男演員);"
+      "conv": "zh-hans:金秀贤 (男演员);zh-hant:金秀賢 (男演員);"
     },
     {
       "original": "정다빈(鄭多彬)",
-      "conv": "zh-hans:郑多彬 (1980年);zh-hant:鄭多彬 (1980年);zh-cn:郑多彬 (1980年);zh-tw:鄭多彬 (1980年);zh-hk:鄭多彬 (1980年);zh-mo:鄭多彬 (1980年);"
+      "conv": "zh-hans:郑多彬 (1980年);zh-hant:鄭多彬 (1980年);"
     },
     {
       "original": "정다빈(鄭多彬)",
-      "conv": "zh-hans:郑有彬 (2000年);zh-hant:鄭有彬 (2000年);zh-cn:郑有彬 (2000年);zh-tw:鄭有彬 (2000年);zh-hk:鄭有彬 (2000年);zh-mo:鄭有彬 (2000年);"
+      "conv": "zh-hans:郑有彬 (2000年);zh-hant:鄭有彬 (2000年);"
     },
     {
       "original": "정유미(鄭有美)",
-      "conv": "zh-hans:郑有美;zh-hant:鄭有美;zh-cn:郑有美;zh-tw:鄭有美;zh-hk:鄭有美;zh-mo:鄭有美;"
+      "conv": "zh-hans:郑有美;zh-hant:鄭有美;"
     },
     {
       "original": "정유미(鄭柔美)",
-      "conv": "zh-hans:郑柔美;zh-hant:鄭柔美;zh-cn:郑柔美;zh-tw:鄭柔美;zh-hk:鄭柔美;zh-mo:鄭柔美;"
+      "conv": "zh-hans:郑柔美;zh-hant:鄭柔美;"
     },
     {
       "original": "문희경(文熙慶)",
-      "conv": "zh-hans:文熙庆;zh-hant:文熙慶;zh-cn:文熙庆;zh-tw:文熙慶;zh-hk:文熙慶;zh-mo:文熙慶;"
+      "conv": "zh-hans:文熙庆;zh-hant:文熙慶;"
     },
     {
       "original": "문희정(文熙貞)",
-      "conv": "zh-hans:文熙贞;zh-hant:文熙貞;zh-cn:文熙贞;zh-tw:文熙貞;zh-hk:文熙貞;zh-mo:文熙貞;"
+      "conv": "zh-hans:文熙贞;zh-hant:文熙貞;"
     },
     {
       "original": "문희정(文熙俊)",
-      "conv": "zh-hans:文熙俊;zh-hant:文熙俊;zh-cn:文熙俊;zh-tw:文熙俊;zh-hk:文熙俊;zh-mo:文熙俊;"
+      "conv": "zh-hans:文熙俊;zh-hant:文熙俊;"
     },
     {
       "original": "박소담(朴素淡)",
-      "conv": "zh-hans:朴素淡;zh-hant:朴素淡;zh-cn:朴素淡;zh-tw:朴素淡;zh-hk:朴素淡;"
+      "conv": "zh-hans:朴素淡;zh-hant:朴素淡;"
     },
     {
       "original": "박소담(朴素談)",
-      "conv": "zh-hans:朴素谈;zh-hant:朴素談;zh-cn:朴素谈;zh-tw:朴素談;zh-hk:朴素談;"
+      "conv": "zh-hans:朴素谈;zh-hant:朴素談;"
     },
     {
       "original": "박소현",
-      "conv": "zh-hans:朴素娴;zh-hant:朴素嫻;zh-cn:朴素娴;zh-tw:朴素嫻;zh-hk:朴素嫻;zh-mo:朴素嫻;"
+      "conv": "zh-hans:朴素娴;zh-hant:朴素嫻;"
     },
     {
       "original": "박소희(朴素熙)",
-      "conv": "zh-hans:朴素熙;zh-hant:朴素熙;zh-cn:朴素熙;zh-tw:朴素熙;zh-hk:朴素熙;zh-mo:朴素熙;"
+      "conv": "zh-hans:朴素熙;zh-hant:朴素熙;"
     },
     {
       "original": "박중훈(朴重勳)",
-      "conv": "zh-hans:朴重勳;zh-hant:朴重勳;zh-cn:朴重勳;zh-tw:朴重勳;zh-hk:朴重勳;zh-mo:朴重勳;"
+      "conv": "zh-hans:朴重勳;zh-hant:朴重勳;"
+    },
+    {
+      "original": "agent / manager",
+      "conv": "经纪人=>zh-hk:經理人;经纪人=>zh-mo:經理人;經紀人=>zh-hk:經理人;經紀人=>zh-mo:經理人;經理人=>zh-cn:经纪人;"
+    },
+    {
+      "original": "comedian",
+      "conv": "zh-cn:笑星;zh-hant:諧星;zh-my:谐星;"
+    },
+    {
+      "original": "laureate",
+      "conv": "zh:獲得者;zh-cn:获得者;zh-hant:得主;zh-sg:得主;zh-my:得主;"
+    },
+    {
+      "original": "out of tune",
+      "conv": "zh:跑調;zh-cn:跑调;zh-hans:走调;zh-my:走音;zh-sg:走音;zh-hant:走音;"
+    },
+    {
+      "original": "red carpet",
+      "conv": "zh-hk:紅地氈; zh-hans:红地毯; zh-tw:紅地毯;"
+    },
+    {
+      "original": "red carpet",
+      "conv": "zh-hk:紅地氈; zh-hans:红毯; zh-tw:紅毯;"
+    },
+    {
+      "original": "stand-up",
+      "conv": "zh:單人喜劇; zh-tw:單口喜劇; zh-cn:单口喜剧; zh-my:栋笃笑; zh-hk:棟篤笑;"
+    },
+    {
+      "original": "stand-up comedian / show",
+      "conv": "脱口秀演=>zh-hk:棟篤笑演;脱口秀演=>zh-mo:棟篤笑演;脱口秀演=>zh-my:栋笃笑演;脫口秀演=>zh-hk:棟篤笑演;脫口秀演=>zh-mo:棟篤笑演;脫口秀演=>zh-my:栋笃笑演;"
+    },
+    {
+      "original": "talk show (World) / stand-up (China)",
+      "conv": "zh-tw:脫口秀; zh-cn:脱口秀; zh-hk:脫口騷;"
+    },
+    {
+      "original": "thriller",
+      "conv": "zh-tw:驚悚; zh-hans:惊悚; zh-hk:驚慄;"
+    },
+    {
+      "original": "video clip",
+      "conv": "zh:短視頻;zh-cn:短视频;zh-tw:短影音;"
+    },
+    {
+      "original": null,
+      "conv": "男一号=>zh-hk:男一;男一号=>zh-mo:男一;男一號=>zh-hk:男一;男一號=>zh-mo:男一;"
+    },
+    {
+      "original": null,
+      "conv": "女一号=>zh-hk:女一;女一号=>zh-mo:女一;女一號=>zh-hk:女一;女一號=>zh-mo:女一;"
+    },
+    {
+      "original": null,
+      "conv": "男二号=>zh-hk:男二;男二号=>zh-mo:男二;男二號=>zh-hk:男二;男二號=>zh-mo:男二;"
+    },
+    {
+      "original": null,
+      "conv": "女二号=>zh-hk:女二;女二号=>zh-mo:女二;女二號=>zh-hk:女二;女二號=>zh-mo:女二;"
     },
     {
       "original": "Cannes",
-      "conv": "zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城"
+      "conv": "zh:戛納;zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城;zh-my:康城;"
     },
     {
       "original": "Cannes Film Festival",
-      "conv": "zh-cn:戛纳电影节; zh-tw:康城影展; zh-hk:康城影展;"
+      "conv": "zh:戛納國際電影節; zh-cn:戛纳国际电影节; zh-tw:坎城影展; zh-hk:康城影展; zh-sg:康城影展; zh-my:康城影展;"
+    },
+    {
+      "original": "Cannes Film Festival",
+      "conv": "zh:戛納電影節; zh-cn:戛纳电影节; zh-tw:坎城影展; zh-hk:康城影展; zh-sg:康城影展; zh-my:康城影展;"
+    },
+    {
+      "original": "Cannes Film Festival",
+      "conv": "zh:康城電影節; zh-cn:戛纳电影节; zh-tw:坎城影展; zh-hk:康城影展; zh-sg:康城影展; zh-my:康城影展;"
+    },
+    {
+      "original": "Cannes Film Festival",
+      "conv": "zh:坎城電影節; zh-cn:戛纳电影节; zh-tw:坎城影展; zh-hk:康城影展; zh-sg:康城影展; zh-my:康城影展;"
     },
     {
       "original": "Venice Film Festival",
-      "conv": "zh-cn:威尼斯电影节; zh-tw:威尼斯影展; zh-hk:威尼斯影展;"
+      "conv": "zh:威尼斯電影節; zh-cn:威尼斯电影节; zh-hant:威尼斯影展; zh-sg:威尼斯影展; zh-my:威尼斯影展;"
     },
     {
       "original": "Venice International Film Festival",
-      "conv": "zh-cn:威尼斯国际电影节; zh-tw:威尼斯國際影展; zh-hk:威尼斯國際影展;"
+      "conv": "zh:威尼斯國際電影節; zh-cn:威尼斯国际电影节; zh-hant:威尼斯國際影展; zh-sg:威尼斯国际影展; zh-my:威尼斯国际影展;"
     },
     {
       "original": "Berlin Film Festival",
-      "conv": "zh-cn:柏林电影节; zh-tw:柏林影展; zh-hk:柏林影展;"
+      "conv": "zh:柏林電影節; zh-cn:柏林电影节; zh-hant:柏林影展; zh-sg:柏林影展; zh-my:柏林影展;"
     },
     {
       "original": "Berlin International Film Festival",
-      "conv": "zh-cn:柏林国际电影节; zh-tw:柏林國際影展; zh-hk:柏林國際影展;"
+      "conv": "zh:柏林國際電影節; zh-cn:柏林国际电影节; zh-hant:柏林國際影展; zh-sg:柏林国际影展; zh-my:柏林国际影展;"
     },
     {
       "original": "Toronto Film Festival",
-      "conv": "zh-cn:多伦多电影节; zh-tw:多倫多影展; zh-hk:多倫多影展;"
+      "conv": "zh:多倫多電影節; zh-cn:多伦多电影节; zh-hant:多倫多影展; zh-my:多伦多影展;"
     },
     {
       "original": "Toronto International Film Festival",
-      "conv": "zh-cn:多伦多国际电影节; zh-tw:多倫多國際影展; zh-hk:多倫多國際影展;"
-    },
-    {
-      "original": "Sundance Film Festival",
-      "conv": "zh-cn:圣丹斯电影节; zh-tw:日舞影展; zh-hk:辛丹斯電影節;"
-    },
-    {
-      "original": "Critics Choice Movie Award",
-      "conv": "zh-tw:評論家選擇電影獎; zh-hk:影評人選擇大獎; zh-cn:评论家选择电影奖; "
+      "conv": "zh:多倫多國際電影節; zh-cn:多伦多国际电影节; zh-hant:多倫多國際影展; zh-my:多伦多国际影展;"
     },
     {
       "original": "",
-      "conv": "zh-hans:姜;zh-hant:姜; zh-cn:姜;zh-tw:姜;zh-hk:姜;zh-mo:姜;"
+      "conv": "zh-hans:姜;zh-hant:姜;"
     },
     {
       "original": "",
-      "conv": "zh-hans:朴;zh-hant:朴; zh-cn:朴;zh-tw:朴;zh-hk:朴;zh-mo:朴;"
+      "conv": "zh-hans:朴;zh-hant:朴;"
     },
     {
       "original": "",
-      "conv": "zh-hans:鲜于;zh-hant:鮮于; zh-cn:鲜于;zh-tw:鮮于;zh-hk:鮮于;zh-mo:鮮于;"
+      "conv": "zh-hans:鲜于;zh-hant:鮮于;"
     },
     {
       "original": "조(曺)",

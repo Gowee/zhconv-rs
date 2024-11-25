@@ -4,16 +4,12 @@
   "path": "Template:CGroup/Lady Gaga",
   "rules": [
     {
-      "original": "Lady Gaga",
-      "conv": "zh-cn:Lady Gaga; zh-hk:Lady Gaga; zh-tw:女神卡卡; zh-sg:女神卡卡"
-    },
-    {
-      "original": "Gaga",
-      "conv": "zh-cn:嘎嘎; zh-hk:Gaga; zh-tw:卡卡; zh-sg:卡卡"
-    },
-    {
       "original": "Stefani Joanne Angelina Germanotta",
       "conv": "zh-cn:史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔; zh-hk:絲蒂芬妮·祖安·安祖蓮娜·祖瑪娜達; zh-tw:史蒂芬妮·喬安·安潔麗娜·潔曼諾塔"
+    },
+    {
+      "original": "Stefani Germanotta",
+      "conv": "zh-cn:史蒂芬妮·杰尔马诺塔; zh-hk:絲蒂芬妮·祖瑪娜達; zh-tw:史蒂芬妮·潔曼諾塔"
     },
     {
       "original": "Paparazzi",

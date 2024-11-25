@@ -1,0 +1,23 @@
+{
+  "name": "Civil Law",
+  "description": "民法",
+  "path": "Module:CGroup/Civil Law",
+  "rules": [
+    {
+      "original": "Verschuldenshaftung",
+      "conv": "zh-hant:過錯責任;zh-hans:过错责任;zh-tw:過失責任"
+    },
+    {
+      "original": "Haftung aus Unrecht in widerleglich vermutetem Verschulden",
+      "conv": "zh-hant:過錯推定責任;zh-hans:过错推定责任;zh-tw:中間責任"
+    },
+    {
+      "original": "Gefährdungshaftung",
+      "conv": "zh-hans:无过错责任;zh-hant:無過错責任;zh-tw:無過失責任"
+    },
+    {
+      "original": "beschränktes Sachenrecht",
+      "conv": "zh-hans:限制物权;zh-hant:定限物權;zh-tw:定限物權;zh-hk:限制無權"
+    }
+  ]
+}

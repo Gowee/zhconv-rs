@@ -1,0 +1,19 @@
+{
+  "name": "rugby",
+  "description": "-{zh-cn:橄榄球; zh-tw:橄欖球; zh-hk:欖球}-",
+  "path": "Module:CGroup/rugby",
+  "rules": [
+    {
+      "original": "Rugby",
+      "conv": "zh-cn:橄榄球; zh-tw:橄欖球; zh-hk:欖球"
+    },
+    {
+      "original": "Rugby sevens",
+      "conv": "zh-cn:七人制橄榄球; zh-tw:七人制橄欖球; zh-hk:七人欖球"
+    },
+    {
+      "original": "Rugby World Cup",
+      "conv": "zh-hk:世界盃欖球賽; zh-hans:橄榄球世界杯赛; zh-hant:世界盃橄欖球賽;"
+    }
+  ]
+}

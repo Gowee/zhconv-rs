@@ -1,7 +1,7 @@
 {
   "name": "PeppaPig",
   "description": "小猪佩奇",
-  "path": "Template:CGroup/PeppaPig",
+  "path": "Module:CGroup/PeppaPig",
   "rules": [
     {
       "original": null,
@@ -80,11 +80,11 @@
       "conv": "zh-hk:Robbie;zh-cn:罗比;zh-tw:羅比;"
     },
     {
-      "original": null,
+      "original": "Pedro",
       "conv": "zh-hk:皮卓;zh-cn:佩德罗;zh-tw:皮卓;"
     },
     {
-      "original": null,
+      "original": "Danny",
       "conv": "zh-hk:Danny;zh-cn:丹尼;zh-tw:丹尼;"
     },
     {
@@ -96,7 +96,7 @@
       "conv": "zh-hk:Suzy;zh-cn:小羊苏西;zh-tw:蘇西;"
     },
     {
-      "original": null,
+      "original": "Leo",
       "conv": "zh-hk:Leo;zh-cn:里奥;zh-tw:里奧;"
     },
     {
@@ -138,6 +138,10 @@
     {
       "original": null,
       "conv": "zh-hant:粉紅豬一家親;zh-hk:粉紅豬小妹;zh-cn:小猪佩奇;zh-tw:粉紅豬小妹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:我的好友小猪佩奇;zh-hant:我的好友：粉紅豬小妹;"
     }
   ]
 }

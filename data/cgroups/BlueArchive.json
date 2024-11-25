@@ -1,0 +1,587 @@
+{
+  "name": "BlueArchive",
+  "description": "蔚藍檔案",
+  "path": "Module:CGroup/BlueArchive",
+  "rules": [
+    {
+      "original": "EXスキル",
+      "conv": "zh-hans:EX技能;zh-hant:EX技能;zh-cn:必杀技能;"
+    },
+    {
+      "original": "モモトーク",
+      "conv": "zh-hans:MomoTalk;zh-hant:MomoTalk;zh-cn:桃信;"
+    },
+    {
+      "original": "絆ストーリー",
+      "conv": "zh-hans:羁绊剧情;zh-hant:羈絆劇情;zh-cn:好感剧情;"
+    },
+    {
+      "original": "シッテムの箱",
+      "conv": "zh-hans:希迪姆的箱子;zh-hant:希迪姆的箱子;zh-cn:什亭之箱;"
+    },
+    {
+      "original": "キヴォトス",
+      "conv": "zh-hans:奇普托斯;zh-hant:奇普托斯;zh-cn:基沃托斯;"
+    },
+    {
+      "original": "学園",
+      "conv": "zh-hans:学园;zh-hant:學園;zh-cn:学院;"
+    },
+    {
+      "original": "生徒会",
+      "conv": "zh-hans:学生会;zh-hant:學生會;zh-cn:理事会;"
+    },
+    {
+      "original": "クロノス",
+      "conv": "zh-hans:克洛卢斯;zh-hant:克洛盧斯;zh-cn:克罗诺斯;"
+    },
+    {
+      "original": "シャーレ",
+      "conv": "zh-hans:夏莱;zh-hant:夏萊;zh-cn:沙勒;"
+    },
+    {
+      "original": "アロナ",
+      "conv": "zh-hans:彩奈;zh-hant:彩奈;zh-cn:阿洛娜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:彩奈小编;zh-hant:彩奈小編;"
+    },
+    {
+      "original": "連邦生徒会",
+      "conv": "zh-hans:联邦学生会;zh-hant:聯邦學生會;zh-cn:联邦理事会;"
+    },
+    {
+      "original": "モモカ",
+      "conv": "zh-hans:桃香;zh-hant:桃香;zh-cn:桃可;"
+    },
+    {
+      "original": "カヤ",
+      "conv": "zh-hans:香耶;zh-hant:香耶;zh-cn:花耶;"
+    },
+    {
+      "original": "扇喜アオイ",
+      "conv": "zh-hans:扇喜碧;zh-hant:扇喜碧;zh-cn:扇喜葵"
+    },
+    {
+      "original": "アビドス高等学校",
+      "conv": "zh-hans:阿拜多斯高中;zh-hant:阿拜多斯高中;zh-cn:阿拜多斯高等学院;"
+    },
+    {
+      "original": "廃校対策委員会",
+      "conv": "zh-hans:废校对策委员会;zh-hant:廢校對策委員會;zh-cn:停办对策委员会;"
+    },
+    {
+      "original": "セリカ",
+      "conv": "zh-hans:茜香;zh-hant:茜香;zh-cn:芹香;"
+    },
+    {
+      "original": "ノノミ",
+      "conv": "zh-hans:野乃美;zh-hant:野乃美;zh-cn:野宫;"
+    },
+    {
+      "original": "ミレニアム",
+      "conv": "zh-hans:千年;zh-hant:千年;zh-cn:千禧年;"
+    },
+    {
+      "original": "ミレニアムサイエンス",
+      "conv": "zh-hans:千年科学;zh-hant:千年科學;zh-cn:千禧年科技;"
+    },
+    {
+      "original": "エンジニア部",
+      "conv": "zh-hans:工程师部;zh-hant:工程師部;zh-cn:工程部;"
+    },
+    {
+      "original": "ヴェリタス",
+      "conv": "zh-hans:贝里塔斯;zh-hant:貝里塔斯;zh-cn:真理社;"
+    },
+    {
+      "original": "特異現象特捜部",
+      "conv": "zh-hans:特异现象搜查部;zh-hant:特異現象搜查部;zh-cn:超自然现象调查部;"
+    },
+    {
+      "original": "トレーニング部",
+      "conv": "zh-hans:训练部;zh-hant:訓練部;zh-cn:健身部;"
+    },
+    {
+      "original": "リオ",
+      "conv": "zh-hans:莉央;zh-hant:莉央;zh-cn:莉音;"
+    },
+    {
+      "original": "ノア",
+      "conv": "zh-hans:乃爱;zh-hant:乃愛;zh-cn:诺亚;"
+    },
+    {
+      "original": "ネル",
+      "conv": "zh-hans:宁瑠;zh-hant:寧瑠;zh-cn:妮露;"
+    },
+    {
+      "original": "室笠アカネ",
+      "conv": "zh-hans:室笠朱音;zh-hant:室笠朱音;zh-cn:室笠茜;"
+    },
+    {
+      "original": "アスナ",
+      "conv": "zh-hans:明日奈;zh-hant:明日奈;zh-cn:明日奈;"
+    },
+    {
+      "original": "ヒマリ",
+      "conv": "zh-hans:阳葵;zh-hant:陽葵;zh-cn:日鞠;"
+    },
+    {
+      "original": "エイミ",
+      "conv": "zh-hans:英美;zh-hant:英美;zh-cn:艾米;"
+    },
+    {
+      "original": "ウタハ",
+      "conv": "zh-hans:咏叶;zh-hant:詠葉;zh-cn:歌原;"
+    },
+    {
+      "original": "コトリ",
+      "conv": "zh-hans:亚都梨;zh-hant:亞都梨;zh-cn:琴里;"
+    },
+    {
+      "original": "才羽モモイ",
+      "conv": "zh-hans:才羽桃井;zh-hant:才羽桃井;zh-cn:才羽桃;"
+    },
+    {
+      "original": "飛鳥馬トキ",
+      "conv": "zh-hans:飞鸟马季;zh-hant:飛鳥馬季;zh-cn:飞鸟马时;"
+    },
+    {
+      "original": "ゲヘナ",
+      "conv": "zh-hans:格黑娜;zh-hant:格黑娜;zh-cn:歌赫娜;"
+    },
+    {
+      "original": "給食部",
+      "conv": "zh-hans:供给部;zh-hant:供給部;zh-cn:供餐部;"
+    },
+    {
+      "original": "ヒナ",
+      "conv": "zh-hans:阳奈;zh-hant:陽奈;zh-cn:日奈;"
+    },
+    {
+      "original": "アル",
+      "conv": "zh-hans:亚瑠;zh-hant:亞瑠;zh-cn:爱露;"
+    },
+    {
+      "original": "ムツキ",
+      "conv": "zh-hans:无月;zh-hant:無月;zh-cn:睦月;"
+    },
+    {
+      "original": "カヨコ",
+      "conv": "zh-hans:佳世子;zh-hant:佳世子;zh-cn:佳代子;"
+    },
+    {
+      "original": "ハルカ",
+      "conv": "zh-hans:遥香;zh-hant:遙香;zh-cn:春香;"
+    },
+    {
+      "original": "フウカ",
+      "conv": "zh-hans:风华;zh-hant:風華;zh-cn:风香;"
+    },
+    {
+      "original": "ジュリ",
+      "conv": "zh-hans:茱莉;zh-hant:茱莉;zh-cn:朱莉;"
+    },
+    {
+      "original": "ハルナ",
+      "conv": "zh-hans:羽留奈;zh-hant:羽留奈;zh-cn:晴奈;"
+    },
+    {
+      "original": "ジュンコ",
+      "conv": "zh-hans:淳子;zh-hant:淳子;zh-cn:纯子;"
+    },
+    {
+      "original": "アカリ",
+      "conv": "zh-hans:亚伽里;zh-hant:亞伽里;zh-cn:明里;"
+    },
+    {
+      "original": "セナ",
+      "conv": "zh-hans:濑奈;zh-hant:瀨奈;zh-cn:濑名;"
+    },
+    {
+      "original": "エリカ",
+      "conv": "zh-hans:绘里香;zh-hant:繪里香;zh-cn:绘梨香;"
+    },
+    {
+      "original": "鬼怒川カスミ",
+      "conv": "zh-hans:鬼怒川佳澄;zh-hant:鬼怒川佳澄;zh-cn:鬼怒川霞;"
+    },
+    {
+      "original": "トリニティ",
+      "conv": "zh-hans:三一;zh-hant:三一;zh-cn:崔尼蒂;"
+    },
+    {
+      "original": "パテル",
+      "conv": "zh-hans:圣父;zh-hant:聖父;zh-cn:帕特尔;"
+    },
+    {
+      "original": "フィリウス",
+      "conv": "zh-hans:圣子;zh-hant:聖子;zh-cn:菲利乌斯;"
+    },
+    {
+      "original": "サンクトゥス",
+      "conv": "zh-hans:圣灵;zh-hant:聖靈;zh-cn:桑克图斯;"
+    },
+    {
+      "original": "ティーパーティー",
+      "conv": "zh-hans:茶会;zh-hant:茶會;zh-cn:茶话会;"
+    },
+    {
+      "original": "正義実現委員会",
+      "conv": "zh-hans:实现正义部;zh-hant:實現正義部;zh-cn:正义实现部;"
+    },
+    {
+      "original": "シスターフッド",
+      "conv": "zh-hans:修女会;zh-hant:修女會;zh-cn:姐妹会;"
+    },
+    {
+      "original": "補習授業部",
+      "conv": "zh-hans:补课部;zh-hant:補課部;zh-cn:补习部;"
+    },
+    {
+      "original": "放課後スイーツ部",
+      "conv": "zh-hans:放学后的甜点部;zh-hant:放學後的甜點部;zh-cn:甜点部;"
+    },
+    {
+      "original": "トリニティ自警団",
+      "conv": "zh-hans:三一自卫队;zh-hant:三一自衛隊;zh-cn:崔尼蒂自警团;"
+    },
+    {
+      "original": "ミカ",
+      "conv": "zh-hans:弥香;zh-hant:彌香;zh-cn:未花;"
+    },
+    {
+      "original": "セイア",
+      "conv": "zh-hans:圣亚;zh-hant:聖亞;zh-cn:圣娅;"
+    },
+    {
+      "original": "ツルギ",
+      "conv": "zh-hans:弦生;zh-hant:弦生;zh-cn:鹤城;"
+    },
+    {
+      "original": "ハスミ",
+      "conv": "zh-hans:莲实;zh-hant:蓮實;zh-cn:莲见;"
+    },
+    {
+      "original": "マシロ",
+      "conv": "zh-hans:麻白;zh-hant:麻白;zh-cn:真白;"
+    },
+    {
+      "original": "ハナエ",
+      "conv": "zh-hans:花绘;zh-hant:花繪;zh-cn:花江;"
+    },
+    {
+      "original": "セリナ",
+      "conv": "zh-hans:芹奈;zh-hant:芹奈;zh-cn:芹娜;"
+    },
+    {
+      "original": "ヒフミ",
+      "conv": "zh-hans:日步美;zh-hant:日步美;zh-cn:日富美;"
+    },
+    {
+      "original": "ヨシミ",
+      "conv": "zh-hans:喜美;zh-hant:喜美;zh-cn:好美;"
+    },
+    {
+      "original": "アイリ",
+      "conv": "zh-hans:爱莉;zh-hant:愛莉;zh-cn:爱理;"
+    },
+    {
+      "original": "カズサ",
+      "conv": "zh-hans:千纱;zh-hant:千紗;zh-cn:和纱;"
+    },
+    {
+      "original": "レイサ",
+      "conv": "zh-hans:澪纱;zh-hant:澪紗;zh-cn:玲纱;"
+    },
+    {
+      "original": "レイサ",
+      "conv": "zh-hans:美禰;zh-hant:美禰;zh-cn:美祢;"
+    },
+    {
+      "original": "アリウス分校",
+      "conv": "zh-hans:奥利斯分校;zh-hant:奧利斯分校;zh-cn:阿里乌斯分院;"
+    },
+    {
+      "original": "アリウス",
+      "conv": "zh-hans:奥利斯;zh-hant:奧利斯;zh-cn:阿里乌斯;"
+    },
+    {
+      "original": "アリウススクワッド",
+      "conv": "zh-hans:奥利斯小队;zh-hant:奧利斯小隊;zh-cn:阿里乌斯战术小队;"
+    },
+    {
+      "original": "サオリ",
+      "conv": "zh-hans:沙织;zh-hant:沙織;zh-cn:纱织;"
+    },
+    {
+      "original": "アツコ",
+      "conv": "zh-hans:敦子;zh-hant:敦子;zh-cn:亚津子"
+    },
+    {
+      "original": "お祭り運営委員会",
+      "conv": "zh-hans:节庆营运管理部;zh-hant:節慶營運管理部;zh-cn:庆典运营管理部;"
+    },
+    {
+      "original": "チセ",
+      "conv": "zh-hans:知世;zh-hant:知世;zh-cn:千世;"
+    },
+    {
+      "original": "ツクヨ",
+      "conv": "zh-hans:月夜;zh-hant:月夜;zh-cn:月咏;"
+    },
+    {
+      "original": "ミチル",
+      "conv": "三千留=>zh-cn:满;"
+    },
+    {
+      "original": "千鳥ミチル",
+      "conv": "zh-hans:千鸟三千留;zh-hant:千鳥三千留;zh-cn:千鸟满;"
+    },
+    {
+      "original": "イズナ",
+      "conv": "zh-hans:伊树菜;zh-hant:伊樹菜;zh-cn:泉奈;"
+    },
+    {
+      "original": "カホ",
+      "conv": "zh-hans:佳穗;zh-hant:佳穗;zh-cn:果穗;"
+    },
+    {
+      "original": "ウミカ",
+      "conv": "zh-hans:海花;zh-hant:海花;zh-cn:海夏;"
+    },
+    {
+      "original": "レッドウィンター",
+      "conv": "zh-hans:赤冬;zh-hant:赤冬;zh-cn:红冬;"
+    },
+    {
+      "original": "チェリノ",
+      "conv": "zh-hans:洁莉诺;zh-hant:潔莉諾;zh-cn:切里诺;"
+    },
+    {
+      "original": "佐城トモエ",
+      "conv": "zh-hans:佐城智惠;zh-hant:佐城智惠;zh-cn:佐城巴;"
+    },
+    {
+      "original": "マリナ",
+      "conv": "zh-hans:玛丽娜;zh-hant:瑪麗娜;zh-cn:真理奈;"
+    },
+    {
+      "original": "メル",
+      "conv": "zh-hans:爱瑠;zh-hant:愛瑠;zh-cn:芽瑠;"
+    },
+    {
+      "original": "ミノリ",
+      "conv": "zh-hans:实里;zh-hant:實里;zh-cn:实梨;"
+    },
+    {
+      "original": "山海経高級中学校",
+      "conv": "zh-hans:山海经高级中学;zh-hant:山海經高級中學;zh-cn:山海经高等学院;"
+    },
+    {
+      "original": "錬丹術研究会",
+      "conv": "zh-hans:炼丹术研究会;zh-hant:鍊丹術研究會;zh-cn:炼丹研究会;"
+    },
+    {
+      "original": "ココナ",
+      "conv": "zh-hans:心菜;zh-hant:心菜;zh-cn:心奈;"
+    },
+    {
+      "original": "サヤ",
+      "conv": "zh-hans:沙耶;zh-hant:沙耶;zh-cn:沙绫;"
+    },
+    {
+      "original": "キサキ",
+      "conv": "zh-hans:妃姬;zh-hant:妃姬;zh-cn:妃咲;"
+    },
+    {
+      "original": "ルミ",
+      "conv": "zh-hans:瑠美;zh-hant:瑠美;zh-cn:瑠海;"
+    },
+    {
+      "original": "近衛ミナ",
+      "conv": "zh-hans:近卫美奈;zh-hant:近衛美奈;zh-cn:近卫南;"
+    },
+    {
+      "original": "特殊学園",
+      "conv": "zh-hans:特殊学园;zh-hant:特殊學園;zh-cn:特种学院"
+    },
+    {
+      "original": "ミヤコ",
+      "conv": "zh-hans:都子;zh-hant:都子;zh-cn:宫子;"
+    },
+    {
+      "original": "空井サキ",
+      "conv": "zh-hans:空井咲希;zh-hant:空井咲希;zh-cn:空井咲;"
+    },
+    {
+      "original": "モエ",
+      "conv": "萌绘=>zh-hans:萌;萌绘=>zh-hant:萌;萌绘=>zh-hk:萌;萌绘=>zh-mo:萌;萌绘=>zh-my:萌;萌绘=>zh-sg:萌;萌绘=>zh-tw:萌;"
+    },
+    {
+      "original": "風倉モエ",
+      "conv": "zh-hans:风仓萌;zh-hant:風倉萌;zh-cn:风仓萌绘;"
+    },
+    {
+      "original": "ミユ",
+      "conv": "zh-hans:美优;zh-hant:美優;zh-cn:美游;"
+    },
+    {
+      "original": "ニコ",
+      "conv": "zh-hans:仁子;zh-hant:仁子;zh-cn:妮可;"
+    },
+    {
+      "original": "ヴァルキューレ",
+      "conv": "zh-hans:女武神;zh-hant:女武神;zh-cn:瓦尔基丽;"
+    },
+    {
+      "original": "ヴァルキューレ警察",
+      "conv": "zh-hans:女武神警察;zh-hant:女武神警察;zh-cn:瓦尔基丽警员;"
+    },
+    {
+      "original": "カンナ",
+      "conv": "zh-hans:环奈;zh-hant:環奈;zh-cn:康娜;"
+    },
+    {
+      "original": "ハイランダー",
+      "conv": "zh-hans:海兰德;zh-hant:高地人;"
+    },
+    {
+      "original": "ゲマトリア",
+      "conv": "zh-hans:盖玛特利亚;zh-hant:蓋瑪特利亞;zh-cn:数秘会;"
+    },
+    {
+      "original": "黒服",
+      "conv": "zh-hans:黑色西装人;zh-hant:黑色西裝人;zh-cn:黑服;"
+    },
+    {
+      "original": "フランシス",
+      "conv": "zh-hans:法兰西斯;zh-hant:法蘭西斯;zh-cn:弗朗西斯;"
+    },
+    {
+      "original": "デカグラマトン",
+      "conv": "zh-hans:十字神名;zh-hant:十字神名;zh-cn:神名十文字;"
+    },
+    {
+      "original": "スランピア",
+      "conv": "zh-hans:史林皮亚;zh-hant:史林皮亞;zh-cn:斯兰匹亚;"
+    },
+    {
+      "original": "ゴズ",
+      "conv": "zh-hans:高兹;zh-hant:高茲;zh-cn:格兹;"
+    },
+    {
+      "original": "ヒエロニムス",
+      "conv": "zh-hans:耶罗尼姆斯;zh-hant:耶羅尼姆斯;zh-cn:希罗尼穆斯;"
+    },
+    {
+      "original": "カイテンジャー",
+      "conv": "zh-hans:凯坦泽;zh-hant:凱坦澤;zh-cn:回转者;"
+    },
+    {
+      "original": "KAITEN FX Mk.0",
+      "conv": "zh-hans:KAITEN FX Mk.0;zh-hant:KAITEN FX Mk.0;zh-cn:回转 FX Mk.0;"
+    },
+    {
+      "original": "The Library of Lore",
+      "conv": "zh-hans:怪谈的无限图书馆;zh-hant:怪談的無限圖書館;zh-cn:无尽怪谈图书馆;"
+    },
+    {
+      "original": "ペロロジラ",
+      "conv": "zh-hans:佩洛洛吉拉;zh-hant:佩洛洛吉拉;zh-cn:佩洛洛斯拉;"
+    },
+    {
+      "original": "ラブ",
+      "conv": "zh-hans:良舞;zh-hant:良舞;zh-cn:兰舞;"
+    },
+    {
+      "original": "時計じかけの花のパヴァーヌ",
+      "conv": "zh-hans:发条花的帕凡舞曲;zh-hant:發條花的帕凡舞曲;zh-cn:发条之花的帕凡舞曲;"
+    },
+    {
+      "original": "桜花爛漫お祭り騒ぎ",
+      "conv": "zh-hans:樱花盛开庆典大骚动;zh-hant:櫻花盛開慶典大騷動;zh-cn:樱花烂漫庆典大骚动;"
+    },
+    {
+      "original": "革命のイワン・クパーラ",
+      "conv": "zh-hans:革命的伊凡·库帕拉;zh-hant:革命的伊凡·庫帕拉;zh-cn:革命之伊万·库帕拉;"
+    },
+    {
+      "original": "風紀委員会行政官緊急特務命令",
+      "conv": "zh-hans:风纪委员会行政官的紧急命令;zh-hant:風紀委員會行政官的緊急命令;zh-cn:风纪委员会行政官紧急特别命令;"
+    },
+    {
+      "original": "ヒナ委員長のなつやすみっ",
+      "conv": "zh-hans:阳奈委员长的暑假;zh-hant:陽奈委員長的暑假;zh-cn:日奈会长的夏日休假;"
+    },
+    {
+      "original": "ネバーランドでつかまえて",
+      "conv": "zh-hans:梦幻岛的捉迷藏;zh-hant:夢幻島的捉迷藏;zh-cn:在梦幻岛玩捉迷藏;"
+    },
+    {
+      "original": "船上のバニーチェイサー",
+      "conv": "zh-hans:船上的兔子追逐者;zh-hant:船上的兔子追逐者;zh-cn:船上的兔子追击者;"
+    },
+    {
+      "original": "初音ミクのスペシャルライブ",
+      "conv": "zh-hans:初音未来的特别现场演唱会;zh-hant:初音未來的特別現場演唱會;zh-cn:初音未来的特别演唱会;"
+    },
+    {
+      "original": "227号温泉郷の運営記録",
+      "conv": "zh-hans:227号温泉浴场营运日志;zh-hant:227號溫泉浴場營運日誌;zh-cn:227号温泉乡运营记录;"
+    },
+    {
+      "original": "第68番 新春狂想曲",
+      "conv": "zh-hans:新春狂想曲第68号;zh-hant:新春狂想曲第68號;zh-cn:第68号新春狂想曲;"
+    },
+    {
+      "original": "狐坂ワカモの沈黙と祝宴",
+      "conv": "zh-hans:狐坂若藻的沉默与祝宴;zh-hant:狐坂若藻的沈默與祝宴;zh-cn:狐坂若藻的沉默与欢宴;"
+    },
+    {
+      "original": "どたばたシスターと古書館の魔術師",
+      "conv": "zh-hans:冒失修女和古书馆的魔术师;zh-hant:冒失修女和古書館的魔術師;zh-cn:冒失修女和古书馆的魔法师;"
+    },
+    {
+      "original": "アビドスリゾート復旧対策委員会",
+      "conv": "zh-hans:阿拜多斯渡假胜地复原对策委员会;zh-hant:阿拜多斯渡假勝地復原對策委員會;zh-cn:阿拜多斯度假村重建对策委员会;"
+    },
+    {
+      "original": "出張! 百夜堂 海の家FC計画",
+      "conv": "zh-hans:出差！百夜堂大海之家加盟计画;zh-hant:出差！百夜堂大海之家加盟計畫;zh-cn:出差！百夜堂海之家加盟计划;"
+    },
+    {
+      "original": "放課後スイーツ物語",
+      "conv": "zh-hans:放学后的甜点故事;zh-hant:放學後的甜點故事;zh-cn:课后甜点故事;"
+    },
+    {
+      "original": "甘い秘密と銃撃戦",
+      "conv": "zh-hans:甜秘密与枪击战;zh-hant:甜秘密與槍擊戰;zh-cn:甜秘枪战;"
+    },
+    {
+      "original": "キヴォトス晄輪大祭",
+      "conv": "zh-hans:奇普托斯晄轮大祭;zh-hant:奇普托斯晄輪大祭;zh-cn:基沃托斯晄轮大会;"
+    },
+    {
+      "original": "聖堂のメリークリスマス",
+      "conv": "zh-hans:教堂的圣诞祝福;zh-hant:教堂的聖誕祝福;zh-cn:圣堂的圣夜祝福;"
+    },
+    {
+      "original": "喰積の前にいささか",
+      "conv": "zh-hans:正餐前的开胃年菜;zh-hant:正餐前的開胃年菜;zh-cn:新年开胃菜;"
+    },
+    {
+      "original": "とある科学の超電磁砲",
+      "conv": "zh-hans:某科学的超电磁炮;zh-hant:科學超電磁砲;"
+    },
+    {
+      "original": "乾夏宁",
+      "conv": "zh-hans:乾夏宁;zh-hant:乾夏寧;zh-cn:乾夏宁;"
+    },
+    {
+      "original": "菅沼千纱",
+      "conv": "zh-hans:菅沼千纱;zh-hant:菅沼千紗;"
+    }
+  ]
+}

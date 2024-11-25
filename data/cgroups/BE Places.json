@@ -28,10 +28,6 @@
       "conv": "zh-cn:巴斯托涅;zh-hk:巴斯托涅;zh-tw:巴斯通;"
     },
     {
-      "original": "Liège",
-      "conv": "zh-hans:列日;zh-hk:列治;zh-tw:列日;"
-    },
-    {
       "original": "Waterloo",
       "conv": "zh-hans:滑铁卢;zh-hant:滑鐵盧;"
     },
@@ -48,12 +44,28 @@
       "conv": "zh-cn:昂代讷;zh-tw:安登;"
     },
     {
-      "original": "Aubange",
-      "conv": "zh-cn:欧邦日;zh-tw:奧班吉;"
+      "original": "Aartselaar",
+      "conv": "zh-cn:阿尔策拉尔;zh-hk:阿爾策拉爾;zh-tw:阿爾翠臘;"
+    },
+    {
+      "original": "Alveringem",
+      "conv": "zh-cn:阿尔弗灵厄姆;zh-hk:阿爾弗靈厄姆;zh-tw:阿韋林根;"
+    },
+    {
+      "original": "Alveringem",
+      "conv": "zh-cn:阿尔弗灵厄姆;zh-hk:阿爾弗靈厄姆;zh-tw:阿韋林根;"
+    },
+    {
+      "original": "Amay",
+      "conv": "zh-cn:阿迈;zh-hk:阿邁;zh-tw:阿梅;"
     },
     {
       "original": "Beauraing",
       "conv": "zh-cn:博兰;zh-tw:波朗;"
+    },
+    {
+      "original": "Aubange",
+      "conv": "zh-cn:欧邦日;zh-tw:奧班吉;"
     },
     {
       "original": "Beernem",
@@ -140,10 +152,6 @@
       "conv": "zh-cn:莫策尔;zh-tw:摩策爾;"
     },
     {
-      "original": "Namur",
-      "conv": "zh-cn:那慕尔;zh-hk:那慕爾;zh-tw:納木爾;"
-    },
-    {
       "original": "Neufchâteau",
       "conv": "zh-cn:讷沙托;zh-tw:紐沙特;"
     },
@@ -208,18 +216,6 @@
       "conv": "zh-hans:敦刻尔克; zh-hant:敦克爾克; zh-hk:鄧寇克;"
     },
     {
-      "original": "Ariège",
-      "conv": "zh-cn:阿列日;zh-hk:阿列日;zh-tw:阿列日"
-    },
-    {
-      "original": "La Hulpe",
-      "conv": "zh-cn:拉于尔普;zh-hk:拉于爾普;zh-tw:拉于爾普"
-    },
-    {
-      "original": "Waterloo Road",
-      "conv": "zh-hans:窝打老道;zh-hant:窩打老道;"
-    },
-    {
       "original": null,
       "conv": "zh-hans:阿登巴; zh-hant:阿登巴"
     },
@@ -249,7 +245,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:阿登苍; zh-hant:阿登蒼"
+      "conv": "zh-hans:阿登仓; zh-hant:阿登倉"
     },
     {
       "original": null,
@@ -853,11 +849,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:苍瓦隆; zh-hant:蒼瓦隆"
+      "conv": "zh-hans:仓瓦隆; zh-hant:倉瓦隆"
     },
     {
       "original": null,
-      "conv": "zh-hans:瓦隆苍; zh-hant:瓦隆蒼"
+      "conv": "zh-hans:瓦隆仓; zh-hant:瓦隆倉"
     },
     {
       "original": null,
@@ -2014,6 +2010,22 @@
     {
       "original": null,
       "conv": "zh-hans:瓦隆祖; zh-hant:瓦隆祖"
+    },
+    {
+      "original": "Ariège",
+      "conv": "zh-cn:阿列日;zh-hk:阿列日;zh-tw:阿列日"
+    },
+    {
+      "original": "Châtelet",
+      "conv": "zh-hans:沙特莱;zh-hant:沙特萊"
+    },
+    {
+      "original": "La Hulpe",
+      "conv": "zh-cn:拉于尔普;zh-hk:拉于爾普;zh-tw:拉于爾普"
+    },
+    {
+      "original": "Waterloo Road",
+      "conv": "zh-hans:窝打老道;zh-hant:窩打老道;"
     }
   ]
 }

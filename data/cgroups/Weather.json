@@ -21,11 +21,27 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:暴雨;zh-tw:豪雨;zh-hk:暴雨;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:风切变;zh-tw:風切;zh-hk:風切變;"
     },
     {
       "original": null,
+      "conv": "单体=>zh-hk:胞;单体=>zh-tw:胞;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超级单体; zh-hk:超級胞; zh-tw:超大胞;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:厄尔尼诺现象;zh-tw:聖嬰現象;zh-hk:厄爾尼諾現象;zh-mo:厄爾尼諾現象; zh-sg:厄尔尼诺现象;"
+    },
+    {
+      "original": null,
+      "conv": "zh:拉尼娜现象; zh-hans:拉尼娜现象; zh-hk:拉尼娜現象; zh-tw:反聖嬰現象;"
     },
     {
       "original": null,
@@ -37,19 +53,23 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:双台风效应;zh-hk:雙颱效應;zh-mo:雙颱效應;zh-tw:藤原效應;"
+      "conv": "双台风效应=>zh-tw:藤原效應;"
     },
     {
       "original": null,
-      "conv": "zh-cn:亚热带; zh-tw:副熱帶;"
+      "conv": "雙颱效應=>zh-tw:藤原效應;"
     },
     {
       "original": null,
-      "conv": "副热带=>zh-cn:亚热带;副热带=>zh-my:亚热带;副热带=>zh-sg:亚热带;"
+      "conv": "zh-cn:双台风效应;zh-hk:雙颱效應;zh-mo:雙颱效應;"
     },
     {
       "original": null,
-      "conv": "亞熱帶=>zh-tw:副熱帶;亞熱帶=>zh-hk:副熱帶;亞熱帶=>zh-mo:副熱帶;"
+      "conv": "副热带=>zh-my:亚热带;副热带=>zh-sg:亚热带;"
+    },
+    {
+      "original": null,
+      "conv": "亞熱帶=>zh-tw:副熱帶;亚热带=>zh-tw:副熱帶;"
     },
     {
       "original": null,
@@ -61,7 +81,31 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:降水;zh-tw:降雨;"
+      "conv": "降水=>zh-tw:降雨"
+    },
+    {
+      "original": null,
+      "conv": "全球暖化=>zh-cn:全球变暖;"
+    },
+    {
+      "original": "Wet-bulb globe temperature",
+      "conv": "zh-cn:WBGT指数;zh-hk:暑熱壓力指數;"
+    },
+    {
+      "original": "Wet-bulb globe temperature",
+      "conv": "zh-cn:湿球黑球温度;zh-hk:濕黑球溫度;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:对流有效位能;zh-tw:對流可用位能;"
+    },
+    {
+      "original": null,
+      "conv": "zh:位能"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:准静止锋;zh-tw:滯留鋒"
     },
     {
       "original": null,
@@ -98,10 +142,6 @@
     {
       "original": null,
       "conv": "zh-cn:卫星;zh-tw:衛星;zh-hk:衞星;zh-mo:衞星;"
-    },
-    {
-      "original": null,
-      "conv": "zh:退役;zh-cn:退役;zh-tw:除名;zh-hk:除名;zh-mo:除名;"
     },
     {
       "original": null,

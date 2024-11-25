@@ -9,15 +9,15 @@
     },
     {
       "original": "traction",
-      "conv": "zh-tw:牽引力;zh-cn:牵引力"
+      "conv": "zh-tw:牽引力;zh-cn:牵引力;"
     },
     {
       "original": "attraction",
-      "conv": "zh-tw:吸引力;zh-cn:吸引力"
+      "conv": "zh-tw:吸引力;zh-cn:吸引力;"
     },
     {
       "original": "Integral form",
-      "conv": "zh-tw:積分形式;zh-cn:积分形式"
+      "conv": "zh-tw:積分形式;zh-cn:积分形式;"
     },
     {
       "original": "Anti-gravity",
@@ -25,23 +25,23 @@
     },
     {
       "original": "Differential form",
-      "conv": "zh-tw:微分形式;zh-cn:微分形式"
+      "conv": "zh-tw:微分形式;zh-cn:微分形式;"
     },
     {
       "original": "Gravitational acceleration",
-      "conv": "zh-tw:重力加速度;zh-cn:重力加速度"
+      "conv": "zh-tw:重力加速度;zh-cn:重力加速度;"
     },
     {
       "original": "Equations",
-      "conv": "zh-tw:方程組;zh-cn:方程组"
+      "conv": "zh-tw:方程組;zh-cn:方程组;"
     },
     {
       "original": "Mass",
-      "conv": "zh-tw:質量;zh-cn:质量"
+      "conv": "zh-tw:質量;zh-cn:质量;"
     },
     {
       "original": "Interfere",
-      "conv": "zh-tw:干涉;zh-cn:干涉"
+      "conv": "zh-tw:干涉;zh-cn:干涉;"
     },
     {
       "original": "function",
@@ -53,19 +53,19 @@
     },
     {
       "original": "Electric displacement field",
-      "conv": "zh-tw:電位移;zh-cn:电位移"
+      "conv": "zh-tw:電位移;zh-cn:电位移;"
     },
     {
       "original": "motor",
       "conv": "zh-cn:电动机;zh-hant:電動機;zh-tw:馬達;zh-hk:摩打;"
     },
     {
-      "original": "",
-      "conv": "zh-tw:斯特凡尼;zh-cn:斯特凡尼"
+      "original": null,
+      "conv": "zh-tw:斯特凡尼;zh-cn:斯特凡尼;"
     },
     {
-      "original": "",
-      "conv": "zh-tw:斯特凡妮;zh-cn:斯特凡妮"
+      "original": null,
+      "conv": "zh-tw:斯特凡妮;zh-cn:斯特凡妮;"
     },
     {
       "original": "aufbau principle",
@@ -85,7 +85,7 @@
     },
     {
       "original": "Born-Oppenheimer approximation",
-      "conv": "zh-cn:玻恩-奥本海默近似; zh-tw:波恩-歐本海默近似法;"
+      "conv": "zh-cn:玻恩-奥本海默近似; zh-tw:玻恩-奧本海默近似法;"
     },
     {
       "original": "Big Bang",
@@ -97,11 +97,15 @@
     },
     {
       "original": "Biot-Savart law",
-      "conv": "zh-tw:必歐-沙伐定律;zh-cn:毕奥-萨伐尔定律"
+      "conv": "zh-tw:必歐-沙伐定律;zh-cn:毕奥-萨伐尔定律;"
     },
     {
       "original": "Boltzmann constant",
       "conv": "zh-cn:玻尔兹曼常数; zh-tw:波茲曼常數;"
+    },
+    {
+      "original": "Bottom quark",
+      "conv": "zh-cn:b夸克; zh-tw:底夸克;"
     },
     {
       "original": "Bra",
@@ -125,7 +129,7 @@
     },
     {
       "original": "Central force",
-      "conv": "zh-tw:連心力;zh-cn:有心力"
+      "conv": "zh-tw:連心力;zh-cn:有心力;"
     },
     {
       "original": "chain reaction",
@@ -141,31 +145,35 @@
     },
     {
       "original": "Charge-mass ratio",
-      "conv": "zh-tw:電荷質量比;zh-cn:荷质比"
+      "conv": "zh-tw:電荷質量比;zh-cn:荷质比;"
     },
     {
-      "original": "Charm",
-      "conv": "zh-tw:魅夸克;zh-cn:粲夸克"
+      "original": "Charm quark",
+      "conv": "zh-tw:魅夸克;zh-cn:c夸克;"
+    },
+    {
+      "original": "Charm quark",
+      "conv": "粲夸克=>zh-tw:魅夸克;"
     },
     {
       "original": "Charm (number)",
-      "conv": "zh-tw:魅數;zh-cn:粲数"
+      "conv": "zh-tw:魅數;zh-cn:粲数;"
     },
     {
       "original": "Chiral",
-      "conv": "zh-tw:手徵;zh-cn:手征"
+      "conv": "zh-tw:手徵;zh-cn:手征;"
     },
     {
       "original": "Classical",
-      "conv": "zh-tw:古典;zh-cn:经典;zh-hk:經典"
+      "conv": "zh-tw:古典;zh-cn:经典;zh-hk:經典;"
     },
     {
       "original": "Clone",
-      "conv": "zh-tw:複製;zh-cn:克隆"
+      "conv": "zh-tw:複製;zh-cn:克隆;"
     },
     {
       "original": "Cold fusion",
-      "conv": "zh-tw:冷融合;zh-cn:冷聚变;zh-hk:冷聚變"
+      "conv": "zh-tw:冷融合;zh-cn:冷聚变;zh-hk:冷聚變;"
     },
     {
       "original": "Collapse",
@@ -181,19 +189,19 @@
     },
     {
       "original": "Confinement fusion",
-      "conv": "zh-tw:局限融合;zh-cn:约束聚变;zh-hk:約束聚變"
+      "conv": "zh-tw:局限融合;zh-cn:约束聚变;zh-hk:約束聚變;"
     },
     {
       "original": "constant of universal gravitation",
-      "conv": "zh-tw:萬有引力常數;zh-cn:万有引力常数"
+      "conv": "zh-tw:萬有引力常數;zh-cn:万有引力常数;"
     },
     {
       "original": "constructive interference",
-      "conv": "zh-tw:建設性干涉;zh-cn:相长干涉"
+      "conv": "zh-tw:建設性干涉;zh-cn:相长干涉;"
     },
     {
       "original": "Contravariant",
-      "conv": "zh-tw:反變;zh-cn:反变"
+      "conv": "zh-tw:反變;zh-cn:反变;"
     },
     {
       "original": "Coordinate",
@@ -201,119 +209,119 @@
     },
     {
       "original": "Covariant",
-      "conv": "zh-tw:協變;zh-cn:协变"
+      "conv": "zh-tw:協變;zh-cn:协变;"
     },
     {
       "original": "Criterion",
-      "conv": "zh-tw:準則;zh-cn:判据"
+      "conv": "zh-tw:準則;zh-cn:判据;"
     },
     {
       "original": "Criterion",
-      "conv": "zh-tw:準則;zh-cn:判据"
+      "conv": "zh-tw:準則;zh-cn:判据;"
     },
     {
       "original": "Cyclotron",
-      "conv": "zh-tw:迴旋加速器;zh-cn:回旋加速器"
+      "conv": "zh-tw:迴旋加速器;zh-cn:回旋加速器;"
     },
     {
       "original": "Decoherence",
-      "conv": "zh-tw:去相干;zh-cn:退相干"
+      "conv": "zh-tw:去相干;zh-cn:退相干;"
     },
     {
       "original": "destructive interference",
-      "conv": "zh-tw:破壞性干涉;zh-cn:相消干涉"
+      "conv": "zh-tw:破壞性干涉;zh-cn:相消干涉;"
     },
     {
       "original": "dielectric",
-      "conv": "电介质=>zh-tw:介電質"
+      "conv": "电介质=>zh-tw:介電質;"
     },
     {
       "original": "dielectric",
-      "conv": "电介体=>zh-tw:介電質"
+      "conv": "电介体=>zh-tw:介電質;"
     },
     {
       "original": "dielectric",
-      "conv": "介电体=>zh-tw:介電質"
+      "conv": "介电体=>zh-tw:介電質;"
     },
     {
       "original": "Dielectric strength",
-      "conv": "zh-tw:介電強度;zh-cn:电介质强度"
+      "conv": "zh-tw:介電強度;zh-cn:电介质强度;"
     },
     {
       "original": "Diffraction",
-      "conv": "zh-tw:繞射;zh-cn:衍射"
+      "conv": "zh-tw:繞射;zh-cn:衍射;"
     },
     {
       "original": "Dimension",
-      "conv": "zh-tw:因次;zh-cn:量纲"
+      "conv": "zh-tw:因次;zh-cn:量纲;"
     },
     {
       "original": "Diode",
-      "conv": "zh-tw:二極體;zh-cn:二极管"
+      "conv": "zh-tw:二極體;zh-cn:二极管;"
     },
     {
       "original": "dissipative force",
-      "conv": "zh-tw:耗能力;zh-cn:耗散力"
+      "conv": "zh-tw:耗能力;zh-cn:耗散力;"
     },
     {
       "original": "Dragging",
-      "conv": "zh-tw:拖曳;zh-cn:拖拽"
+      "conv": "zh-tw:拖曳;zh-cn:拖拽;"
     },
     {
       "original": "Drehmomentwandler",
-      "conv": "zh-tw:扭矩轉換器;zh-cn:液力变矩器"
+      "conv": "zh-tw:扭矩轉換器;zh-cn:液力变矩器;"
     },
     {
       "original": "Drehmomentwandler",
-      "conv": "zh-tw:扭矩轉換器;zh-cn:扭力变矩器"
+      "conv": "zh-tw:扭矩轉換器;zh-cn:扭力变矩器;"
     },
     {
       "original": "Dulong-Petit law",
-      "conv": "zh-tw:杜隆-泊替定律;zh-cn:杜隆-珀蒂定律"
+      "conv": "zh-tw:杜隆-泊替定律;zh-cn:杜隆-珀蒂定律;"
     },
     {
       "original": "Echo",
-      "conv": "zh-tw:回音;zh-cn:回声"
+      "conv": "zh-tw:回音;zh-cn:回声;"
     },
     {
       "original": "Echo",
-      "conv": "zh-tw:回音;zh-cn:回声"
+      "conv": "zh-tw:回音;zh-cn:回声;"
     },
     {
       "original": "Electric dipole",
-      "conv": "zh-tw:電雙級;zh-cn:电偶极子"
+      "conv": "zh-tw:電雙級;zh-cn:电偶极子;"
     },
     {
       "original": "Electron hole",
-      "conv": "zh-tw:電洞;zh-cn:空穴"
+      "conv": "zh-tw:電洞;zh-cn:空穴;"
     },
     {
       "original": "Electric field",
-      "conv": "zh-tw:電位;zh-cn:电势;zh-hk:電勢"
+      "conv": "zh-tw:電位;zh-cn:电势;zh-hk:電勢;"
     },
     {
       "original": "Electroweak interaction",
-      "conv": "zh-tw:電弱交互作用; zh-hk:電弱相互作用;zh-cn:弱电相互作用"
+      "conv": "zh-tw:電弱交互作用; zh-hk:電弱相互作用;zh-cn:弱电相互作用;"
     },
     {
       "original": "Energy level",
-      "conv": "zh-tw:能階;zh-cn:能级"
+      "conv": "zh-tw:能階;zh-cn:能级;"
     },
     {
       "original": "Entanglement",
-      "conv": "zh-tw:纏結;zh-cn:纠缠"
+      "conv": "zh-tw:纏結;zh-cn:纠缠;"
     },
     {
       "original": "Equation",
-      "conv": "zh-tw:方程式;zh-cn:方程"
+      "conv": "zh-tw:方程式;zh-cn:方程;"
     },
     {
       "original": "Equipotential line",
-      "conv": "zh-tw:等位線;zh-cn:等势线"
+      "conv": "zh-tw:等位線;zh-cn:等势线;"
     },
     {
       "original": "Ergoregion",
-      "conv": "zh-tw:動區;zh-cn:能层;zh-sg:能层"
+      "conv": "zh-tw:動區;zh-cn:能层;zh-sg:能层;"
     },
     {
       "original": "Ergosphere",
@@ -325,23 +333,23 @@
     },
     {
       "original": "fermi level",
-      "conv": "zh-tw:費米階;zh-cn:费密能级"
+      "conv": "zh-tw:費米階;zh-cn:费密能级;"
     },
     {
       "original": "Fractal",
-      "conv": "zh-tw:碎形;zh-cn:分形"
+      "conv": "zh-tw:碎形;zh-cn:分形;"
     },
     {
       "original": "Fresnel diffraction",
-      "conv": "zh-tw:菲涅耳繞射;zh-cn:菲涅耳衍射"
+      "conv": "zh-tw:菲涅耳繞射;zh-cn:菲涅耳衍射;"
     },
     {
       "original": "Fraunhofer diffraction",
-      "conv": "zh-tw:夫朗和斐繞射;zh-cn:夫琅禾费衍射"
+      "conv": "zh-tw:夫朗和斐繞射;zh-cn:夫琅禾费衍射;"
     },
     {
       "original": "Fusion reaction",
-      "conv": "zh-tw:融合反應;zh-cn:聚变反应;zh-hk:聚變反應"
+      "conv": "zh-tw:融合反應;zh-cn:聚变反应;zh-hk:聚變反應;"
     },
     {
       "original": "Geiger counter",
@@ -349,7 +357,11 @@
     },
     {
       "original": "Grand Unified Theory",
-      "conv": "zh-tw:大一統理論;zh-cn:大统一理论"
+      "conv": "zh-tw:大一統理論;zh-cn:大统一理论;"
+    },
+    {
+      "original": "Gravitation",
+      "conv": "引力=>zh-tw:重力; 引力=>zh-hk:重力; 引力=>zh-mo:重力;"
     },
     {
       "original": "Gravitational wave",
@@ -357,39 +369,39 @@
     },
     {
       "original": "Helium fusion",
-      "conv": "zh-tw:氦融合;zh-cn:氦聚变;zh-hk:氦聚變"
+      "conv": "zh-tw:氦融合;zh-cn:氦聚变;zh-hk:氦聚變;"
     },
     {
       "original": "Holography",
-      "conv": "zh-tw:全像;zh-cn:全息"
+      "conv": "zh-tw:全像;zh-cn:全息;"
     },
     {
       "original": "Hydrogen fusion",
-      "conv": "zh-tw:氫融合;zh-cn:氢聚变;zh-hk:氫聚變"
-    },
-    {
-      "original": "Huygens’principle",
-      "conv": "zh-tw:惠金斯原理;zh-cn:惠更斯原理;zh-hk:惠更斯原理"
+      "conv": "zh-tw:氫融合;zh-cn:氢聚变;zh-hk:氫聚變;"
     },
     {
       "original": "Information",
-      "conv": "zh-tw:資訊;zh-cn:信息"
+      "conv": "zh-tw:資訊;zh-cn:信息;"
     },
     {
       "original": "Interaction",
-      "conv": "zh-tw:交互作用;zh-cn:相互作用;zh-hk:相互作用"
+      "conv": "zh-tw:交互作用;zh-cn:相互作用;zh-hk:相互作用;"
     },
     {
       "original": "Ionizing radiation",
-      "conv": "zh-tw:游離輻射;zh-cn:电离辐射;zh-hk:電離輻射"
+      "conv": "zh-tw:游離輻射;zh-cn:电离辐射;zh-hk:電離輻射;"
     },
     {
       "original": "isobar",
-      "conv": "zh-tw:同量素;zh-cn:同量异位素"
+      "conv": "zh-tw:同量素;zh-cn:同量异位素;"
+    },
+    {
+      "original": "isomeric transition",
+      "conv": "zh-cn:同质异能跃迁;zh-tw:異構物躍遷;"
     },
     {
       "original": "isotone",
-      "conv": "zh-tw:同中素;zh-cn:同中子异荷素"
+      "conv": "zh-tw:同中素;zh-cn:同中子异荷素;"
     },
     {
       "original": "Ket",
@@ -397,7 +409,7 @@
     },
     {
       "original": "Laser",
-      "conv": "zh-tw:雷射; zh-cn:激光; zh-hk:激光; zh-sg:镭射;"
+      "conv": "zh-cn:激光; zh-hk:激光; zh-tw:雷射; zh-sg:镭射; zh-mo:激光;"
     },
     {
       "original": "Law of universal gravitation",
@@ -405,19 +417,19 @@
     },
     {
       "original": "Legendre transformation",
-      "conv": "zh-tw:勒壤得轉換;zh-cn:勒让德变换"
+      "conv": "zh-tw:勒壤得轉換;zh-cn:勒让德变换;"
     },
     {
       "original": "Liouville's theorem",
-      "conv": "zh-tw:劉維定理;zh-cn:刘维尔定理"
+      "conv": "zh-tw:劉維定理;zh-cn:刘维尔定理;"
     },
     {
       "original": "Lloyd’s mirror",
-      "conv": "zh-tw:洛以得鏡;zh-cn:洛埃境"
+      "conv": "zh-tw:洛以得鏡;zh-cn:洛埃境;"
     },
     {
       "original": "Macroscopic quantities",
-      "conv": "zh-tw:巨觀量;zh-cn:宏观量"
+      "conv": "zh-tw:巨觀量;zh-cn:宏观量;"
     },
     {
       "original": "Maglev",
@@ -429,15 +441,15 @@
     },
     {
       "original": "Magnetic domain",
-      "conv": "zh-tw:磁域;zh-cn:磁畴"
+      "conv": "zh-tw:磁域;zh-cn:磁畴;"
     },
     {
       "original": "Maser",
-      "conv": "zh-tw:邁射;zh-cn:激微波"
+      "conv": "zh-tw:邁射;zh-cn:激微波;"
     },
     {
       "original": "Mean free path",
-      "conv": "zh-tw:平均自由徑;zh-cn:平均自由程"
+      "conv": "zh-tw:平均自由徑;zh-cn:平均自由程;"
     },
     {
       "original": "Mole",
@@ -453,11 +465,11 @@
     },
     {
       "original": "Net force",
-      "conv": "zh-tw:凈力;zh-tw:淨力;zh-cn:合力"
+      "conv": "zh-tw:凈力;zh-tw:淨力;zh-cn:合力;"
     },
     {
       "original": "Net external force",
-      "conv": "zh-tw:凈外力;zh-tw:淨外力;zh-cn:合外力"
+      "conv": "zh-tw:凈外力;zh-tw:淨外力;zh-cn:合外力;"
     },
     {
       "original": "Nuclear fission",
@@ -465,23 +477,39 @@
     },
     {
       "original": "Nuclear fusion",
-      "conv": "zh-cn:核聚变;zh-hk:核聚變;zh-tw:核融合;"
+      "conv": "zh-cn:核聚变; zh-hk:核聚變; zh-tw:核融合; zh-sg:核聚变; zh-mo:核聚變;"
+    },
+    {
+      "original": "Nuclear isomer",
+      "conv": "zh-cn:核同质异能素;zh-tw:同核異構物;"
     },
     {
       "original": "Nuclear transmutation",
-      "conv": "zh-cn:核嬗变;zh-hk:核嬗變;zh-tw:核轉換"
+      "conv": "zh-cn:核嬗变;zh-hk:核嬗變;zh-tw:核轉換;"
     },
     {
       "original": "Nuclide",
-      "conv": "zh-cn:核素;zh-tw:核種"
+      "conv": "zh-cn:核素;zh-tw:核種;"
     },
     {
       "original": "Neutrino",
-      "conv": "zh-tw:微中子;zh-cn:中微子"
+      "conv": "zh-tw:微中子;zh-cn:中微子;"
+    },
+    {
+      "original": "Newtons first law",
+      "conv": "zh-tw:牛頓第一運動定律;zh-cn:牛顿第一定律;"
+    },
+    {
+      "original": "Newtons second law",
+      "conv": "zh-tw:牛頓第二運動定律;zh-cn:牛顿第二定律;"
+    },
+    {
+      "original": "Newtons third law",
+      "conv": "zh-tw:牛頓第三運動定律;zh-cn:牛顿第三定律;"
     },
     {
       "original": "Noise",
-      "conv": "zh-tw:雜訊;zh-cn:噪声"
+      "conv": "zh-tw:雜訊;zh-cn:噪声;"
     },
     {
       "original": "Non-uniform circular motion",
@@ -504,8 +532,12 @@
       "conv": "作變速圓周運動=>zh-cn:做变速圆周运动;"
     },
     {
+      "original": "down quark",
+      "conv": "zh-cn:d夸克; zh-tw:下夸克;"
+    },
+    {
       "original": "Paradox",
-      "conv": "zh-tw:悖論;zh-cn:佯谬"
+      "conv": "zh-tw:悖論;zh-cn:佯谬;"
     },
     {
       "original": "Periodic",
@@ -513,7 +545,11 @@
     },
     {
       "original": "Perturbation",
-      "conv": "zh-tw:微擾;zh-cn:摄动"
+      "conv": "zh-tw:微擾;zh-cn:摄动;"
+    },
+    {
+      "original": "Physical constant",
+      "conv": "zh-tw:物理常數;zh-cn:物理常量;"
     },
     {
       "original": "Plasma",
@@ -529,11 +565,11 @@
     },
     {
       "original": "Plasma state",
-      "conv": "zh-tw:電漿態;zh-cn:等离子态;zh-hk:等離子態"
+      "conv": "zh-tw:電漿態;zh-cn:等离子态;zh-hk:等離子態;"
     },
     {
       "original": "Positronium",
-      "conv": "zh-tw:正子電子偶;zh-cn:电子偶素"
+      "conv": "zh-tw:正子電子偶;zh-cn:电子偶素;"
     },
     {
       "original": "Potential energy",
@@ -545,7 +581,7 @@
     },
     {
       "original": "Probability",
-      "conv": "zh-tw:機率;zh-cn:概率"
+      "conv": "zh-tw:機率;zh-cn:概率;"
     },
     {
       "original": "Probability",
@@ -553,7 +589,7 @@
     },
     {
       "original": "Proper time",
-      "conv": "zh-tw:原時;zh-cn:固有时"
+      "conv": "zh-tw:原時;zh-cn:固有时;"
     },
     {
       "original": "quark-gluon plasma",
@@ -561,11 +597,15 @@
     },
     {
       "original": "Qubit",
-      "conv": "zh-tw:量子位元;zh-cn:量子比特"
+      "conv": "zh-tw:量子位元;zh-cn:量子比特;"
+    },
+    {
+      "original": "Scalar",
+      "conv": "zh-tw:純量;zh-cn:标量;"
     },
     {
       "original": "Scalar potential",
-      "conv": "zh-tw:純量勢;zh-cn:标势"
+      "conv": "zh-tw:純量勢;zh-cn:标势;"
     },
     {
       "original": "Singularity",
@@ -585,51 +625,55 @@
     },
     {
       "original": "Shear stress",
-      "conv": "zh-tw:切應力;zh-cn:剪应力"
+      "conv": "zh-tw:切應力;zh-cn:剪应力;"
     },
     {
       "original": "Solid-state physics",
-      "conv": "zh-cn:固体物理学;zh-hk:固態物理學;zh-tw:固態物理學"
+      "conv": "zh-cn:固体物理学;zh-hk:固態物理學;zh-tw:固態物理學;"
     },
     {
       "original": "Statically indeterminate",
-      "conv": "zh-tw:靜不定;zh-cn:超静定"
+      "conv": "zh-tw:靜不定;zh-cn:超静定;"
     },
     {
       "original": "Stern—Gerlach experiment",
-      "conv": "zh-tw:史頓一加立克實驗;zh-cn:斯特恩一革拉赫实验"
+      "conv": "zh-tw:史頓-加立克實驗;zh-cn:斯特恩-革拉赫实验;"
+    },
+    {
+      "original": "strange quark",
+      "conv": "zh-cn:s夸克; zh-tw:奇夸克;"
     },
     {
       "original": "sublimation",
-      "conv": "zh-cn:升华; zh-hk:昇華; zh-tw:昇華"
+      "conv": "zh-cn:升华; zh-hk:昇華; zh-tw:昇華;"
     },
     {
       "original": "subatom",
-      "conv": "zh-cn:亚原子; zh-hk:亞原子; zh-tw:次原子"
+      "conv": "zh-cn:亚原子; zh-hk:亞原子; zh-tw:次原子;"
     },
     {
       "original": "Tachyon",
-      "conv": "zh-tw:迅子;zh-cn:快子"
+      "conv": "zh-tw:迅子;zh-cn:快子;"
     },
     {
       "original": "Tau neutrino",
-      "conv": "zh-tw:濤微中子;zh-hk:陶中微子;zh-cn:τ中微子"
+      "conv": "zh-tw:濤微中子;zh-hk:陶中微子;zh-cn:τ中微子;"
     },
     {
       "original": "Tauon",
-      "conv": "zh-tw:陶子;zh-hk:陶子;zh-cn:τ子"
+      "conv": "zh-tw:陶子;zh-hk:陶子;zh-cn:τ子;"
     },
     {
       "original": "Tesla",
-      "conv": "zh-tw:特斯拉;zh-cn:特斯拉;zh-hk:忒斯拉"
+      "conv": "zh-tw:特斯拉;zh-cn:特斯拉;zh-hk:忒斯拉;"
     },
     {
       "original": "Thermographic",
       "conv": "zh-tw:熱影像;zh-cn:热成像;"
     },
     {
-      "original": "Tokamak",
-      "conv": "zh-tw:托克馬克;zh-cn:托卡马克;"
+      "original": "Top quark",
+      "conv": "zh-cn:t夸克; zh-tw:頂夸克;"
     },
     {
       "original": "Tunnelling",
@@ -637,11 +681,11 @@
     },
     {
       "original": "Turbulence",
-      "conv": "zh-tw:亂流;zh-cn:湍流"
+      "conv": "zh-tw:亂流;zh-cn:湍流;"
     },
     {
       "original": "Ultrasound",
-      "conv": "zh-cn:超声波; zh-hk:超聲波; zh-tw:超音波;"
+      "conv": "zh-cn:超声波; zh-hant:超聲波; zh-hk:超音波; zh-mo:超音波; zh-tw:超音波;"
     },
     {
       "original": "Underdamped",
@@ -688,6 +732,10 @@
       "conv": "等速圆周运动=>zh-cn:匀速圆周运动; 等速圓周運動=>zh-tw:等速率圓周運動;"
     },
     {
+      "original": "Up quark",
+      "conv": "zh-cn:u夸克; zh-tw:上夸克;"
+    },
+    {
       "original": "do a uniform circular motion",
       "conv": "zh-cn:做匀速圆周运动; zh-tw:作等速率圓周運動;"
     },
@@ -717,71 +765,79 @@
     },
     {
       "original": "Unitary",
-      "conv": "zh-tw:么正;zh-cn:幺正"
+      "conv": "zh-tw:么正;zh-cn:幺正;"
     },
     {
       "original": "universal joint",
-      "conv": "zh-tw:萬向接頭;zh-cn:万向接头"
+      "conv": "zh-tw:萬向接頭;zh-cn:万向接头;"
     },
     {
       "original": "van der Waals equation",
       "conv": "zh-hans:范德华方程;zh-hk:范德華方程式;zh-tw:凡得瓦方程式;"
     },
     {
+      "original": "Vector",
+      "conv": "zh-cn:矢量;zh-tw:向量;"
+    },
+    {
       "original": "Vector potential",
-      "conv": "zh-tw:向量勢;zh-cn:矢势"
+      "conv": "zh-tw:向量勢;zh-cn:矢势;"
     },
     {
       "original": "Wave vector",
-      "conv": "zh-tw:波向量;zh-cn:波矢"
+      "conv": "zh-tw:波向量;zh-cn:波矢;"
     },
     {
       "original": "do work",
-      "conv": "zh-cn:做功;zh-tw:作功"
+      "conv": "zh-cn:做功;zh-tw:作功;"
     },
     {
       "original": "do positive work",
-      "conv": "zh-cn:做正功;zh-tw:作正功"
+      "conv": "zh-cn:做正功;zh-tw:作正功;"
     },
     {
       "original": "do negative work",
-      "conv": "zh-cn:做负功;zh-tw:作負功"
+      "conv": "zh-cn:做负功;zh-tw:作負功;"
     },
     {
       "original": "the work you do",
-      "conv": "zh-cn:做的功;zh-tw:作的功"
+      "conv": "zh-cn:做的功;zh-tw:作的功;"
     },
     {
       "original": "did work",
-      "conv": "zh-cn:做了功;zh-tw:作了功"
+      "conv": "zh-cn:做了功;zh-tw:作了功;"
+    },
+    {
+      "original": "scanning acoustic microscope",
+      "conv": "zh-cn:超声波扫描显微镜;zh-tw:超音波掃瞄顯微鏡;"
     },
     {
       "original": "Avogadro",
-      "conv": "zh-tw:亞佛加厥;zh-cn:阿伏伽德罗;zh-hk:阿佛加德羅"
+      "conv": "zh-tw:亞佛加厥;zh-cn:阿伏伽德罗;zh-hk:阿佛加德羅;"
     },
     {
       "original": "Becquerel",
-      "conv": "zh-tw:貝克勒;zh-hk:貝克勒爾;zh-cn:贝克勒尔"
+      "conv": "zh-tw:貝克勒;zh-hk:貝克勒爾;zh-cn:贝克勒尔;"
     },
     {
       "original": "Bednorz",
-      "conv": "zh-tw:比得諾茲;zh-cn:贝德诺尔茨"
+      "conv": "zh-tw:比得諾茲;zh-cn:贝德诺尔茨;"
     },
     {
       "original": "Bernoulli",
-      "conv": "zh-tw:白努利;zh-cn:伯努利"
+      "conv": "zh-tw:白努利;zh-cn:伯努利;"
     },
     {
       "original": "Biot",
-      "conv": "zh-tw:必歐;zh-cn:毕奥"
+      "conv": "zh-tw:必歐;zh-cn:毕奥;"
     },
     {
       "original": "Bohr",
-      "conv": "zh-tw:波耳;zh-cn:玻尔;zh-hk:玻爾"
+      "conv": "zh-tw:波耳;zh-cn:玻尔;zh-hk:玻爾;"
     },
     {
       "original": "Boltzmann",
-      "conv": "zh-tw:波茲曼;zh-cn:玻尔兹曼"
+      "conv": "zh-tw:波茲曼;zh-cn:玻尔兹曼;"
     },
     {
       "original": "Boyle",
@@ -789,19 +845,19 @@
     },
     {
       "original": "Bravais",
-      "conv": "zh-tw:布拉菲;zh-cn:布拉维"
+      "conv": "zh-tw:布拉菲;zh-cn:布拉维;"
     },
     {
       "original": "Brillouin",
-      "conv": "zh-tw:布里元;zh-cn:布里渊"
+      "conv": "zh-tw:布里元;zh-cn:布里渊;"
     },
     {
       "original": "Chadwick",
-      "conv": "zh-tw:查兌克;zh-cn:查德威克;zh-hans:查德威克;zh-hk:查德威克"
+      "conv": "zh-tw:查兌克;zh-cn:查德威克;zh-hans:查德威克;zh-hk:查德威克;"
     },
     {
       "original": "Cherenkov",
-      "conv": "zh-tw:契忍可夫;zh-hk:切倫科夫;zh-cn:切连科夫"
+      "conv": "zh-tw:契忍可夫;zh-hk:切倫科夫;zh-cn:切连科夫;"
     },
     {
       "original": "Curie",
@@ -809,15 +865,15 @@
     },
     {
       "original": "DeWitt",
-      "conv": "zh-tw:德威特;zh-cn:德维特"
+      "conv": "zh-tw:德威特;zh-cn:德维特;"
     },
     {
       "original": "Doppler",
-      "conv": "zh-tw:都卜勒;zh-cn:多普勒"
+      "conv": "zh-tw:都卜勒;zh-cn:多普勒;"
     },
     {
       "original": "Drude",
-      "conv": "zh-tw:德汝德;zh-cn:德鲁德"
+      "conv": "zh-tw:德汝德;zh-cn:德鲁德;"
     },
     {
       "original": "Ernest",
@@ -825,75 +881,79 @@
     },
     {
       "original": "Fabry",
-      "conv": "zh-tw:法布立; zh-cn:法布里"
+      "conv": "zh-tw:法布立; zh-cn:法布里;"
     },
     {
       "original": "Flyorov",
-      "conv": "zh-tw:佛雷洛夫; zh-cn:弗廖罗夫"
+      "conv": "zh-tw:佛雷洛夫; zh-cn:弗廖罗夫;"
     },
     {
       "original": "Fourier",
-      "conv": "zh-tw:傅立葉; zh-cn:傅里叶"
+      "conv": "zh-tw:傅立葉; zh-cn:傅里叶;"
     },
     {
       "original": "Franck",
-      "conv": "zh-tw:法蘭克;zh-cn:弗兰克"
+      "conv": "zh-tw:法蘭克;zh-cn:弗兰克;"
     },
     {
       "original": "Friedmann",
-      "conv": "zh-tw:傅里德曼;zh-cn:弗里德曼"
+      "conv": "zh-tw:傅里德曼;zh-cn:弗里德曼;"
     },
     {
       "original": "Gay-Lussac",
-      "conv": "zh-tw:給呂薩克;zh-cn:盖-吕萨克"
+      "conv": "zh-tw:給呂薩克;zh-cn:盖-吕萨克;"
     },
     {
       "original": "Gerlach, Walther",
-      "conv": "zh-tw:革拉赫;zh-cn:格拉赫"
+      "conv": "zh-tw:革拉赫;zh-cn:格拉赫;"
     },
     {
       "original": "Heaviside",
-      "conv": "zh-tw:黑維塞;zh-cn:亥维赛"
+      "conv": "zh-tw:黑維塞;zh-cn:亥维赛;"
     },
     {
       "original": "Hooke",
-      "conv": "zh-tw:虎克;zh-cn:胡克"
+      "conv": "zh-tw:虎克;zh-cn:胡克;"
     },
     {
       "original": "Hubble",
-      "conv": "zh-tw:哈伯;zh-cn:哈勃;zh-hk:哈勃"
+      "conv": "zh-tw:哈伯;zh-cn:哈勃;zh-hk:哈勃;"
     },
     {
       "original": "Ising",
-      "conv": "zh-tw:易辛;zh-cn:伊辛"
+      "conv": "zh-tw:易辛;zh-cn:伊辛;"
     },
     {
       "original": "Kelvin",
-      "conv": "zh-tw:克耳文;zh-cn:开尔文;zh-hk:開爾文"
+      "conv": "zh-tw:克耳文;zh-cn:开尔文;zh-hk:開爾文;"
     },
     {
       "original": "Kepler",
-      "conv": "zh-tw:克卜勒;zh-cn:开普勒;zh-hk:開普勒"
+      "conv": "zh-cn:开普勒; zh-tw:克卜勒; zh-hk:開普勒;"
+    },
+    {
+      "original": "Kepler",
+      "conv": "刻卜勒=>zh-cn:开普勒; 刻卜勒=>zh-tw:克卜勒; 刻卜勒=>zh-hk:開普勒;"
     },
     {
       "original": "Kirchhoff",
-      "conv": "zh-tw:克希荷夫;zh-cn:基尔霍夫;zh-hk:基爾霍夫"
+      "conv": "zh-tw:克希荷夫;zh-cn:基尔霍夫;zh-hk:基爾霍夫;"
     },
     {
       "original": "Langmuir",
-      "conv": "zh-tw:朗繆耳;zh-cn:朗缪尔"
+      "conv": "zh-tw:朗繆耳;zh-cn:朗缪尔;"
     },
     {
       "original": "Lenz",
-      "conv": "zh-tw:冷次;zh-cn:楞次;zh-hk:楞次"
+      "conv": "zh-tw:冷次;zh-cn:楞次;zh-hk:楞次;"
     },
     {
       "original": "Liénard",
-      "conv": "zh-tw:黎納;zh-cn:李纳"
+      "conv": "zh-tw:黎納;zh-cn:李纳;"
     },
     {
       "original": "Lorentz",
-      "conv": "zh-tw:勞侖茲;zh-cn:洛伦兹"
+      "conv": "zh-tw:勞侖茲;zh-cn:洛伦兹;"
     },
     {
       "original": "Lorentz",
@@ -901,10 +961,10 @@
     },
     {
       "original": "Lorenz",
-      "conv": "zh-tw:勞侖次;zh-cn:洛伦茨"
+      "conv": "zh-tw:勞侖次;zh-cn:洛伦茨;"
     },
     {
-      "original": "Maria Curie",
+      "original": "Marie Curie",
       "conv": "zh-cn:玛丽·居里;zh-hk:瑪莉·居禮;zh-tw:瑪麗·居禮;"
     },
     {
@@ -913,47 +973,51 @@
     },
     {
       "original": "Maxwell",
-      "conv": "zh-tw:馬克士威;zh-cn:麦克斯韦;zh-hk:麥克斯韋"
+      "conv": "zh-tw:馬克士威;zh-cn:麦克斯韦;zh-hk:麥克斯韋;"
     },
     {
       "original": "Michelson",
-      "conv": "zh-tw:邁克生;zh-cn:迈克耳孙"
+      "conv": "zh-tw:邁克生;zh-cn:迈克耳孙;"
     },
     {
       "original": "Minkowski",
-      "conv": "zh-tw:閔考斯基;zh-cn:闵可夫斯基"
+      "conv": "zh-tw:閔考斯基;zh-cn:闵可夫斯基;"
+    },
+    {
+      "original": "Millikan",
+      "conv": "zh-tw:密立坎;zh-cn:密立根;"
     },
     {
       "original": "Morley",
-      "conv": "莫立=>zh-cn:莫雷"
+      "conv": "莫立=>zh-cn:莫雷;"
     },
     {
       "original": "Morley",
-      "conv": "摩里=>zh-cn:莫雷"
+      "conv": "摩里=>zh-cn:莫雷;"
     },
     {
       "original": "Moseley",
-      "conv": "zh-tw:莫斯利;zh-cn:莫塞莱"
+      "conv": "zh-tw:莫色勒;zh-cn:莫塞莱;"
     },
     {
       "original": "Mossbauer",
-      "conv": "zh-tw:梅斯堡;zh-cn:穆斯堡尔"
+      "conv": "zh-tw:梅斯堡;zh-cn:穆斯堡尔;"
     },
     {
       "original": "Oppenheimer",
-      "conv": "zh-tw:歐本海默;zh-cn:奥本海默"
+      "conv": "zh-cn:奥本海默; zh-hk:奧本海默; zh-tw:歐本海默;"
     },
     {
       "original": "Pauli",
-      "conv": "zh-tw:包立;zh-cn:泡利"
+      "conv": "zh-cn:泡利; zh-hk:鮑利; zh-tw:包立;"
     },
     {
       "original": "Penrose",
-      "conv": "zh-tw:潘洛斯;zh-cn:彭罗斯"
+      "conv": "zh-tw:潘洛斯;zh-cn:彭罗斯;"
     },
     {
       "original": "Perot",
-      "conv": "zh-tw:培若;zh-cn:珀罗"
+      "conv": "zh-tw:培若;zh-cn:珀罗;"
     },
     {
       "original": "Pierre Curie",
@@ -969,31 +1033,35 @@
     },
     {
       "original": "Poisson",
-      "conv": "zh-tw:帕松;zh-cn:泊松"
+      "conv": "zh-tw:卜瓦松;zh-cn:泊松;"
     },
     {
       "original": "Poynting",
-      "conv": "zh-tw:坡印廷;zh-cn:坡印亭"
+      "conv": "zh-tw:坡印廷;zh-cn:坡印亭;"
     },
     {
       "original": "Rayleigh",
-      "conv": "zh-tw:瑞立;zh-cn:瑞利"
+      "conv": "zh-tw:瑞立;zh-cn:瑞利;"
     },
     {
       "original": "Reissner",
-      "conv": "zh-tw:萊斯納;zh-cn:雷斯勒"
+      "conv": "zh-tw:萊斯納;zh-cn:雷斯勒;"
+    },
+    {
+      "original": "Robert",
+      "conv": "zh-cn:罗伯特; zh-hk:羅拔; zh-tw:羅伯特;"
     },
     {
       "original": "Rutherford",
-      "conv": "zh-tw:拉塞福;zh-cn:卢瑟福;zh-hk:盧瑟福"
+      "conv": "zh-tw:拉塞福;zh-cn:卢瑟福;zh-hk:盧瑟福;"
     },
     {
       "original": "Rydberg",
-      "conv": "zh-tw:芮得柏;zh-cn:里德伯"
+      "conv": "zh-tw:芮得柏;zh-cn:里德伯;"
     },
     {
       "original": "Sakharov",
-      "conv": "zh-tw:沙卡洛夫;zh-cn:萨哈罗夫;zh-hk:沙哈諾夫"
+      "conv": "zh-tw:沙卡洛夫;zh-cn:萨哈罗夫;zh-hk:沙哈諾夫;"
     },
     {
       "original": "Savart",
@@ -1001,59 +1069,63 @@
     },
     {
       "original": "Schrödinger",
-      "conv": "zh-tw:薛丁格;zh-cn:薛定谔;zh-hk:薛定諤"
+      "conv": "zh-tw:薛丁格;zh-cn:薛定谔;zh-hk:薛定諤;"
     },
     {
       "original": "Snell",
-      "conv": "zh-tw:司乃耳;zh-cn:斯涅尔;zh-hk:斯涅耳"
+      "conv": "zh-tw:司乃耳;zh-cn:斯涅尔;zh-hk:斯涅耳;"
     },
     {
       "original": "Stanford",
-      "conv": "zh-cn:斯坦福; zh-sg:斯坦福; zh-tw:史丹佛; zh-hk:史丹福"
+      "conv": "zh-cn:斯坦福; zh-sg:斯坦福; zh-tw:史丹佛; zh-hk:史丹福;"
     },
     {
       "original": "Stark",
-      "conv": "zh-tw:史塔克;zh-cn:斯塔克"
+      "conv": "zh-tw:史塔克;zh-cn:斯塔克;"
     },
     {
       "original": "Stefan",
-      "conv": "zh-tw:斯特凡;zh-cn:斯特藩"
+      "conv": "zh-tw:斯特凡;zh-cn:斯特藩;"
     },
     {
       "original": "Stern, Otto",
-      "conv": "zh-tw:斯特恩;zh-cn:施特恩"
+      "conv": "zh-tw:斯特恩;zh-cn:施特恩;"
     },
     {
       "original": "Susskind",
-      "conv": "zh-cn:萨斯坎德; zh-hk:蘇士侃;zh-tw:色斯金"
+      "conv": "zh-cn:萨斯坎德; zh-hk:蘇士侃;zh-tw:色斯金;"
     },
     {
-      "original": "Joseph Thomson",
-      "conv": "zh-tw:湯姆森;zh-cn:汤姆孙;zh-hk:湯姆生"
+      "original": "J. J. Thomson",
+      "conv": "zh-hant:湯姆森;zh-hans:汤姆森;zh-tw:湯木生;zh-cn:汤姆孙;zh-hk:湯姆生;"
     },
     {
       "original": "Van der Waals",
-      "conv": "zh-tw:凡得瓦;zh-cn:范德瓦耳斯;zh-hk:范德華"
+      "conv": "zh-tw:凡得瓦;zh-cn:范德瓦耳斯;zh-hk:范德華;"
     },
     {
       "original": "Von Neumann",
-      "conv": "zh-tw:馮·諾伊曼;zh-cn:冯·诺伊曼;zh-hk:馮·紐曼"
+      "conv": "zh-hant:馮諾依曼; zh-hans:冯诺伊曼; zh-tw:馮諾伊曼;zh-cn:冯诺依曼;zh-hk:馮紐曼;"
     },
     {
       "original": "Walker",
-      "conv": "zh-tw:沃克;zh-cn:沃尔克"
+      "conv": "zh-tw:沃克;zh-cn:沃尔克;"
     },
     {
       "original": "Wien",
-      "conv": "zh-tw:維因;zh-cn:维恩"
+      "conv": "zh-tw:維因;zh-cn:维恩;"
     },
     {
       "original": "Wilson",
-      "conv": "zh-tw:威爾森;zh-cn:威耳孙"
+      "conv": "zh-tw:威爾森;zh-cn:威耳孙;"
     },
     {
       "original": "Witten",
-      "conv": "zh-tw:維騰;zh-cn:威滕"
+      "conv": "zh-tw:維騰;zh-cn:威滕;"
+    },
+    {
+      "original": "Wolfgang",
+      "conv": "zh-cn:沃尔夫冈; zh-hk:華夫岡; zh-tw:沃夫岡;"
     },
     {
       "original": "Α，α，alpha",

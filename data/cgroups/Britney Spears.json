@@ -1,91 +1,91 @@
 {
   "name": "Britney Spears",
-  "description": "美国流行歌手Britney Spears",
+  "description": "布蘭妮·-{zh-cn:斯皮尔斯;zh-tw:斯皮爾斯;zh-hk:斯皮雅斯;}-",
   "path": "Module:CGroup/Britney Spears",
   "rules": [
     {
-      "original": "Britney Jean Spears",
-      "conv": "zh-cn:布兰妮·简·斯皮尔斯;zh-tw:布蘭妮·珍·斯皮爾斯;zh-hk:布蘭妮·珍·斯皮雅斯;"
+      "original": "Britney Jean",
+      "conv": "zh-cn:布兰妮·简;zh-tw:布蘭妮·珍;zh-hk:布蘭妮·珍;"
     },
     {
-      "original": "Britney Spears",
-      "conv": "zh-cn:布兰妮·斯皮尔斯;zh-tw:布蘭妮·斯皮爾斯;zh-hk:布蘭妮·斯皮雅斯;"
-    },
-    {
-      "original": "(You Drive Me) Crazy",
-      "conv": "zh-cn:你让我疯狂;zh-tw:（你讓我）神魂顛倒;"
-    },
-    {
-      "original": "Sometimes",
-      "conv": "zh-cn:少女的祈祷;zh-tw:有時候;"
+      "original": "Spears",
+      "conv": "zh-cn:斯皮尔斯;zh-tw:斯皮爾斯;zh-hk:斯皮雅斯;"
     },
     {
       "original": "Born to Make You Happy",
-      "conv": "zh-cn:你快乐 我快乐;zh-tw:只要你快樂;"
+      "conv": "zh-cn:为你快乐而生;zh-tw:只要你快樂;"
     },
     {
       "original": "From the Bottom of My Broken Heart",
-      "conv": "zh-cn:伤心布兰妮;zh-tw:破碎的心;"
+      "conv": "zh-cn:破碎的内心;zh-tw:悲傷布蘭妮;"
     },
     {
-      "original": "Stronger",
-      "conv": "zh-cn:坚强一点;zh-tw:更堅強;"
+      "original": "I Will Still Love You",
+      "conv": "zh-cn:我会依然爱你;zh-tw:舊情也綿綿;"
     },
     {
-      "original": "Don&#x0027;t Let Me Be the Last to Know",
-      "conv": "zh-cn:别让我最后知道;zh-tw:別讓我最後才知道;"
+      "original": "Deep In My Heart",
+      "conv": "zh-cn:深埋在我心中;zh-tw:穿心;"
     },
     {
-      "original": "I&#x0027;m a Slave 4 U",
-      "conv": "zh-cn:我是你的奴仆;zh-tw:愛情奴隸;"
+      "original": "E-Mail My Heart",
+      "conv": "zh-cn:电邮我的心;zh-tw:愛的電郵;"
+    },
+    {
+      "original": "Don't Go Knockin' On My Door",
+      "conv": "zh-cn:別去敲我门;zh-tw:別來煩我;"
+    },
+    {
+      "original": "Anticipating",
+      "conv": "zh-cn:期望;zh-tw:萬眾矚目;"
     },
     {
       "original": "Crossroads",
-      "conv": "zh-cn:穿越乡间路;zh-tw:布蘭妮要怎樣;"
+      "conv": "zh-cn:穿越乡间路;zh-tw:布蘭妮要怎樣;zh-hk:玉女半熟時;"
     },
     {
       "original": "Live From Las Vegas",
-      "conv": "zh-cn:布兰妮：拉斯维加斯演唱会;zh-tw:拉斯維加斯之幻夢冒險演唱會;"
+      "conv": "zh-cn:拉斯维加斯演唱会;zh-tw:拉斯維加斯之幻夢冒險演唱會;"
+    },
+    {
+      "original": "Me Against the Music",
+      "conv": "zh-cn:与音乐同在;zh-tw:嗆音樂;"
     },
     {
       "original": "Outrageous",
-      "conv": "zh-cn:忍无可忍;zh-tw:危險情人;"
+      "conv": "zh-cn:尽情挥洒;zh-tw:肆無忌憚;"
     },
     {
-      "original": "Shadow",
-      "conv": "zh-cn:你的影子;zh-tw:影子;"
-    },
-    {
-      "original": "The Answer",
-      "conv": "zh-cn:生命的答案;zh-tw:答案;"
-    },
-    {
-      "original": "Greatest Hits: My Prerogative",
-      "conv": "zh-cn:妮裳神话·精选加新曲;zh-tw:妮裳神話-精選＋新曲;"
-    },
-    {
-      "original": "I&#x0027;ve Just Begun (Having My Fun)",
+      "original": "I've Just Begun (Having My Fun)",
       "conv": "zh-cn:我开始找到乐趣; zh-tw:愛情上路;"
     },
     {
-      "original": "Do Somethin&#x0027;",
-      "conv": "zh-cn:有所作为;zh-tw:做 就對了;"
+      "original": "B in the Mix",
+      "conv": "zh-tw:妮裳舞部曲;zh-cn:妮裳舞曲;"
     },
     {
       "original": "Blackout",
-      "conv": "zh-tw:暈炫風暴;zh-cn:目眩神迷"
+      "conv": "zh-tw:暈炫風暴;zh-cn:目眩神迷;"
     },
     {
       "original": "Gimme More",
-      "conv": "zh-cn:给我更多;zh-tw:再危險 ​​我也要;"
+      "conv": "zh-cn:给我更多;zh-tw:再危險...我也要;"
+    },
+    {
+      "original": "Piece of Me",
+      "conv": "zh-cn:我的点滴;zh-tw:破碎的我;"
     },
     {
       "original": "Radar",
       "conv": "zh-cn:雷达;zh-tw:愛情雷達;"
     },
     {
+      "original": "Circus",
+      "conv": "zh-cn:马戏团;zh-tw:妮裳馬戲團;"
+    },
+    {
       "original": "Womanizer",
-      "conv": "zh-cn:好色之徒;zh-tw:愛情玩咖;"
+      "conv": "zh-cn:爱情玩家;zh-tw:愛情玩咖;"
     },
     {
       "original": "Out from Under",
@@ -116,16 +116,20 @@
       "conv": "zh-cn:哦 爸爸;zh-tw:嗯 爸比;"
     },
     {
+      "original": "Mannequin",
+      "conv": "zh-cn:塑料模特;zh-tw:冷面模特兒;"
+    },
+    {
       "original": "Britney: For the Record",
       "conv": "zh-cn:布兰妮：星踪可考;zh-tw:布蘭妮的私密檔案;"
     },
     {
-      "original": "Hold It Against Me",
-      "conv": "zh-cn:抱紧我;zh-tw:極限情挑;"
+      "original": "Femme Fetale",
+      "conv": "zh-cn:绝世美人;zh-tw:蛇蠍美人;"
     },
     {
-      "original": "(Drop Dead) Beautiful (Featuring Sabi)",
-      "conv": "zh-cn:美得冒泡;zh-tw:美的冒泡;"
+      "original": "Hold It Against Me",
+      "conv": "zh-cn:抱紧我;zh-tw:極限情挑;"
     },
     {
       "original": "Trip to Your Heart",
@@ -148,16 +152,12 @@
       "conv": "zh-cn:私心;zh-tw:藏私;"
     },
     {
-      "original": "Don&#x0027;t Keep Me Waiting",
+      "original": "Don't Keep Me Waiting",
       "conv": "zh-cn:我不能等;zh-tw:失去耐性;"
     },
     {
       "original": "Britney Jean",
       "conv": "zh-cn:真我妮裳;zh-tw:勁舞布蘭妮;"
-    },
-    {
-      "original": "Work Bitch",
-      "conv": "zh-cn:工作狂;zh-tw:惡女向前衝;"
     },
     {
       "original": "Work Work",
@@ -180,19 +180,15 @@
       "conv": "zh-cn:筋疲力尽;zh-tw:為他疼痛;"
     },
     {
-      "original": "Til It&#x0027;s Gone",
+      "original": "Til It's Gone",
       "conv": "zh-cn:直到爱消失;zh-tw:直到失去他;"
     },
     {
-      "original": "Passenger",
-      "conv": "zh-cn:乘客;zh-tw:愛情乘客;"
-    },
-    {
-      "original": "Chillin&#x0027; With You",
+      "original": "Chillin' With You",
       "conv": "zh-cn:和你在一起;zh-tw:和你放鬆在一起;"
     },
     {
-      "original": "Don&#x0027;t Cry",
+      "original": "Don't Cry",
       "conv": "zh-cn:别哭泣;zh-tw:不要哭;"
     },
     {
@@ -208,26 +204,6 @@
       "conv": "zh-cn:终于遇见你;zh-tw:直到遇見你;"
     },
     {
-      "original": "Perfume (The Dreaming Mix)",
-      "conv": "zh-cn:香水（混音版）;zh-tw:\t香水味（The Dreaming混音版）;"
-    },
-    {
-      "original": "Work Bitch (The Jane Doze Remix)",
-      "conv": "zh-cn:工作狂（简达斯混音版）;zh-tw:惡女向前衝（The Jane Doze混音版）;"
-    },
-    {
-      "original": "Work Work (The Jane Doze Remix)",
-      "conv": "zh-cn:工作狂（简达斯混音版）;zh-tw:惡女向前衝（The Jane Doze混音版）;"
-    },
-    {
-      "original": "Work Bitch (7th Heaven Remix)",
-      "conv": "zh-cn:工作狂（第七天堂混音版）;zh-tw:惡女向前衝（7th Heaven Club混音版）;"
-    },
-    {
-      "original": "Work Work (7th Heaven Remix)",
-      "conv": "zh-cn:工作狂（第七天堂混音版）;zh-tw:惡女向前衝（7th Heaven Club混音版）;"
-    },
-    {
       "original": "Pretty Girls",
       "conv": "zh-cn:魅惑佳人;zh-tw:爆表正妹;"
     },
@@ -238,10 +214,6 @@
     {
       "original": "Do You Wanna Come Over?",
       "conv": "zh-cn:想过来吗？;zh-tw:你想過來嗎？;"
-    },
-    {
-      "original": "Make Me...",
-      "conv": "zh-cn:让我;zh-tw:讓我…;"
     },
     {
       "original": "Private Show",
@@ -264,15 +236,11 @@
       "conv": "zh-cn:难忘;zh-tw:令人難忘;"
     },
     {
-      "original": "Change Your Mind (No Seas Cortes)",
-      "conv": "zh-cn:改变心意;zh-tw:改變心意(不要矜持);"
-    },
-    {
       "original": "Liar",
       "conv": "zh-cn:爱情谎言;zh-tw:愛情騙子;"
     },
     {
-      "original": "If I&#x0027;m Dancing",
+      "original": "If I'm Dancing",
       "conv": "zh-cn:如果我起舞;zh-tw:如果我在跳舞;"
     }
   ]

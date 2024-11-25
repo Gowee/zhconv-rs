@@ -13,7 +13,7 @@
     },
     {
       "original": "The Darkside Chronicles",
-      "conv": "zh-cn:暗黑编年史; zh-tw:黑暗面編年史;"
+      "conv": "zh-cn:暗黑编年史; zh-tw:黑暗面編年史; zh-hk:黑暗編年史;"
     },
     {
       "original": "Gun Survivor",
@@ -37,27 +37,27 @@
     },
     {
       "original": "Resident Evil (movie)",
-      "conv": "zh-cn:生化危机 (电影); zh-tw:惡靈古堡 (電影); zh-hk:生化危機之變種生還者;"
+      "conv": "zh-cn:生化危机 (电影); zh-sg:妖兽工厂; zh-tw:2002惡靈古堡; zh-hk:生化危機之變種生還者;"
     },
     {
       "original": "Resident Evil: Apocalypse",
-      "conv": "zh-cn:生化危机2：启示录; zh-tw:惡靈古堡2：啟示錄; zh-hk:生化危機之殲滅生還者;"
+      "conv": "zh-cn:生化危机2：启示录; zh-sg:恶灵古堡2：启示录; zh-tw:惡靈古堡2：啟示錄; zh-hk:生化危機之殲滅生還者;"
     },
     {
       "original": "Resident Evil: Extinction",
-      "conv": "zh-cn:生化危机3：灭绝; zh-tw:惡靈古堡3：大滅絕; zh-hk:生化危機3：絕種生還者;"
+      "conv": "zh-cn:生化危机3：灭绝; zh-sg:恶灵古堡3：大灭绝; zh-tw:惡靈古堡3：大滅絕; zh-hk:生化危機3：絕種生還者;"
     },
     {
       "original": "Resident Evil: Afterlife",
-      "conv": "zh:生化危機4：陰陽界; zh-cn:生化危机4：来生; zh-tw:惡靈古堡4：陰陽界; zh-hk:生化危機3D：戰神再生;"
+      "conv": "zh:生化危機4：陰陽界; zh-sg:恶灵古堡4：阴阳界; zh-cn:生化危机4：来生; zh-tw:惡靈古堡4：陰陽界; zh-hk:生化危機3D：戰神再生;"
     },
     {
       "original": "Resident Evil: Retributio",
-      "conv": "zh-cn:生化危机：惩罚; zh-tw:惡靈古堡5：天譴日;zh-hk:生化危機之滅絕真相;"
+      "conv": "zh-cn:生化危机5：惩罚; zh-sg:生化危机：惩罚; zh-tw:惡靈古堡5：天譴日;zh-hk:生化危機之滅絕真相;"
     },
     {
       "original": "Resident Evil: The Final Chapter",
-      "conv": "zh-cn:生化危机6：终章; zh-tw:惡靈古堡：最終章; zh-hk:生化危機：終極屍殺;"
+      "conv": "zh-cn:生化危机6：终章; zh-sg:生化危机：最终章; zh-tw:惡靈古堡：最終章; zh-hk:生化危機：終極屍殺;"
     },
     {
       "original": "Resident Evil: Degeneration",
@@ -72,16 +72,20 @@
       "conv": "zh:生化危机：血仇; zh-cn:生化危机：复仇; zh-tw:惡靈古堡：血仇; zh-hk:生化危機：血仇殺戮;"
     },
     {
+      "original": "Resident Evil: Death Island",
+      "conv": "zh:生化危机：死亡岛; zh-cn:生化危机：死亡岛; zh-tw:惡靈古堡：死亡島; zh-hk:生化危機：死亡之島;"
+    },
+    {
       "original": "Resident Evil: Infinite Darkness",
       "conv": "zh-cn:生化危机：无尽黑暗; zh-sg:生化危机：无尽黑暗; zh-tw:惡靈古堡：無盡闇黑; zh-hk:生化危機：無盡黑暗;"
     },
     {
       "original": "Albert",
-      "conv": "zh-cn:阿尔伯特; zh-tw:亞伯;"
+      "conv": "zh-cn:阿尔伯特; zh-hk:亞伯; zh-tw:亞伯;"
     },
     {
       "original": "Ashley",
-      "conv": "zh-cn:阿什莉; zh-hk:雅士利; zh-tw:愛旭莉;"
+      "conv": "zh-cn:阿什莉; zh-hk:艾殊莉; zh-tw:愛旭莉;"
     },
     {
       "original": "Benford",
@@ -97,7 +101,7 @@
     },
     {
       "original": "Claire",
-      "conv": "zh-cn:克莱尔; zh-tw:克蕾兒;"
+      "conv": "zh-cn:克莱尔; zh-hk:克萊兒; zh-tw:克蕾兒;"
     },
     {
       "original": "Deborah",
@@ -105,11 +109,11 @@
     },
     {
       "original": "Finn Macauley",
-      "conv": "zh-cn:芬恩·麦考雷; zh-tw:芬·馬科雷; zh-hk:芬·麥考雷;"
+      "conv": "zh-cn:芬恩; zh-tw:芬; zh-hk:芬;"
     },
     {
       "original": "Graham",
-      "conv": "zh-cn:格林汉姆; zh-hk:格拉漢;zh-tw:葛拉漢;"
+      "conv": "zh-cn:格拉汉姆; zh-hk:葛拉罕;zh-tw:葛拉漢;"
     },
     {
       "original": "Helena",
@@ -120,12 +124,8 @@
       "conv": "zh-cn:海尼根; zh-hk:漢尼根;zh-tw:漢妮卡;"
     },
     {
-      "original": "Jill",
-      "conv": "zh-cn:吉尔; zh-tw:吉兒;"
-    },
-    {
       "original": "Jovovichy",
-      "conv": "zh-cn:乔沃维奇; zh-tw:喬娃薇琪; zh-hk:祖華域芝;"
+      "conv": "zh-cn:乔沃维奇; zh-sg:乔瓦维奇; zh-my:乔娃维琪; zh-tw:喬娃薇琪; zh-hk:祖華域芝;"
     },
     {
       "original": "Kennedy",
@@ -133,7 +133,7 @@
     },
     {
       "original": "Milla",
-      "conv": "zh-cn:米拉; zh-tw:蜜拉; zh-hk:米娜;"
+      "conv": "zh-cn:米拉; zh-sg:米拉; zh-my:蜜拉; zh-tw:蜜拉; zh-hk:米娜;"
     },
     {
       "original": "Muller",
@@ -145,7 +145,7 @@
     },
     {
       "original": "Nivans",
-      "conv": "zh-cn:奈文斯; zh-tw:尼凡斯;"
+      "conv": "zh-cn:奈文斯; zh-hk:尼文斯; zh-tw:尼凡斯;"
     },
     {
       "original": "Radames",
@@ -156,11 +156,7 @@
       "conv": "zh-cn:瑞贝卡; zh-hk:瑞貝卡; zh-tw:蕾貝卡;"
     },
     {
-      "original": "Red Queen",
-      "conv": "zh-cn:红后; zh-tw:紅后;"
-    },
-    {
-      "original": "Redfiel",
+      "original": "Redfield",
       "conv": "zh-cn:雷德菲尔德; zh-tw:雷德菲爾;"
     },
     {
@@ -173,7 +169,7 @@
     },
     {
       "original": "Valentine",
-      "conv": "zh-cn:瓦伦蒂安; zh-tw:范倫廷;"
+      "conv": "zh-cn:瓦伦丁; zh-tw:范倫廷;"
     },
     {
       "original": "Wesker",
@@ -181,7 +177,7 @@
     },
     {
       "original": "Umbrella",
-      "conv": "zh-cn:安布雷拉; zh-hk:雨傘; zh-tw:保護傘;"
+      "conv": "zh-cn:保护伞; zh-hk:雨傘; zh-tw:保護傘;"
     },
     {
       "original": "Raccoon City",

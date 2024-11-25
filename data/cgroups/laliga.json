@@ -1,47 +1,55 @@
 {
   "name": "laliga",
-  "description": "西甲",
+  "description": "[[西班牙足球甲级联赛|西甲]]",
   "path": "Module:CGroup/laliga",
   "rules": [
     {
       "original": "Agüero",
-      "conv": "zh:阿奎罗;zh-cn:阿奎罗; zh-tw:阿奎羅; zh-hk:阿古路"
+      "conv": "zh-cn:阿奎罗; zh-tw:阿奎羅; zh-hk:阿古路"
     },
     {
       "original": "Ángel",
-      "conv": "zh:安赫尔;zh-cn:安赫尔; zh-tw:安赫爾; zh-hk:安祖"
+      "conv": "zh-cn:安赫尔; zh-tw:安赫爾; zh-hk:安祖"
     },
     {
       "original": "Albelda",
-      "conv": "zh:阿尔贝尔达;zh-cn:阿尔贝尔达; zh-tw:阿爾貝爾達; zh-hk:艾比達"
+      "conv": "zh-cn:阿尔贝尔达; zh-tw:阿爾貝爾達; zh-hk:艾比達"
     },
     {
       "original": "Alonso",
-      "conv": "zh:阿隆索;zh-cn:阿隆索; zh-tw:阿隆索; zh-hk:阿朗素"
+      "conv": "zh-cn:阿隆索; zh-tw:阿隆索; zh-hk:阿朗素"
     },
     {
       "original": "Alonso, Xabi",
-      "conv": "zh:哈维·阿隆索;zh-cn:哈维·阿隆索; zh-tw:哈維·阿隆索; zh-hk:沙比·阿朗素"
+      "conv": "zh-cn:哈维·阿隆索; zh-tw:哈維·阿隆索; zh-hk:沙比·阿朗素"
     },
     {
       "original": "Álvarez",
-      "conv": "zh:阿尔瓦雷斯;zh-cn:阿尔瓦雷斯; zh-tw:阿爾瓦雷斯; zh-hk:艾華利斯"
+      "conv": "zh-cn:阿尔瓦雷斯; zh-tw:阿爾瓦雷斯; zh-hk:艾華利斯"
     },
     {
       "original": "Álvaro",
-      "conv": "zh:阿尔巴罗;zh-cn:阿尔巴罗; zh-tw:阿爾巴羅; zh-hk:艾華路"
+      "conv": "zh-cn:阿尔巴罗; zh-tw:阿爾巴羅; zh-hk:艾華路"
     },
     {
       "original": "Álvaro",
-      "conv": "阿尔瓦罗=>zh-cn:阿尔瓦罗;阿尔瓦罗=>zh-tw:阿爾瓦羅;阿尔瓦罗=>zh-hk:艾華路;阿尔瓦罗=>zh-mo:艾華路;"
+      "conv": "阿尔瓦罗=>zh-hk:艾華路;阿尔瓦罗=>zh-mo:艾華路;"
     },
     {
       "original": "Alves",
-      "conv": "zh:阿尔维斯;zh-cn:阿尔维斯;zh-tw:阿維斯;zh-hk:艾維斯"
+      "conv": "zh-cn:阿尔维斯;zh-tw:阿維斯;zh-hk:艾維斯"
     },
     {
       "original": "Aragonés",
-      "conv": "zh:阿拉贡内斯; zh-cn:阿拉贡内斯; zh-tw:阿拉貢內斯; zh-hk:阿拉干尼斯;"
+      "conv": "zh-cn:阿拉贡内斯; zh-tw:阿拉貢內斯; zh-hk:阿拉干尼斯;"
+    },
+    {
+      "original": "Ronald Araújo",
+      "conv": "zh-hans:罗纳德·阿劳霍;zh-tw:羅納德·阿拉烏霍;zh-hk:朗奴·阿拿奧荷;"
+    },
+    {
+      "original": "Araújo",
+      "conv": "zh-hans:阿劳霍;zh-tw:阿拉烏霍;zh-hk:阿拿奧荷;"
     },
     {
       "original": "Arbeloa",
@@ -57,11 +65,11 @@
     },
     {
       "original": "Busquets",
-      "conv": "zh:布斯克茨;zh-cn:布斯克茨; zh-tw:布斯克茨; zh-hk:布斯基斯;"
+      "conv": "zh-cn:布斯克茨; zh-tw:布斯克茨; zh-hk:布斯基斯;"
     },
     {
       "original": "Camacho",
-      "conv": "zh:卡马乔;zh-cn:卡马乔; zh-tw:卡馬喬; zh-hk:甘馬曹;"
+      "conv": "zh-cn:卡马乔; zh-tw:卡馬喬; zh-hk:甘馬曹;"
     },
     {
       "original": "Carlo",
@@ -69,27 +77,27 @@
     },
     {
       "original": "Carlos",
-      "conv": "zh:卡洛斯; zh-cn:卡洛斯; zh-tw:卡洛斯; zh-hk:卡路士"
+      "conv": "zh-cn:卡洛斯; zh-tw:卡洛斯; zh-hk:卡路士"
     },
     {
       "original": "Casemiro",
-      "conv": "zh-hans:卡塞米罗;zh-hk:卡斯米路;zh-tw:卡塞米羅;zh-cn:卡塞米罗;"
+      "conv": "zh-hk:卡斯米路;zh-tw:卡塞米羅;zh-cn:卡塞米罗;"
     },
     {
       "original": "Casillas",
-      "conv": "zh:卡西利亚斯; zh-cn:卡西利亚斯; zh-tw:卡西亞斯; zh-hk:卡斯拿斯"
+      "conv": "zh-cn:卡西利亚斯; zh-tw:卡西亞斯; zh-hk:卡斯拿斯"
     },
     {
       "original": "Castro",
-      "conv": "zh:卡斯特罗; zh-cn:卡斯特罗; zh-tw:卡斯特羅; zh-hk:卡斯度"
+      "conv": "zh-cn:卡斯特罗; zh-tw:卡斯特羅; zh-hk:卡斯度"
     },
     {
       "original": "Carvajal",
-      "conv": "zh-hans:卡瓦哈尔;zh-hk:卡華積;zh-tw:卡瓦哈爾;zh-cn:卡瓦哈尔;"
+      "conv": "zh-hk:卡華積;zh-tw:卡瓦哈爾;zh-cn:卡瓦哈尔;"
     },
     {
       "original": "Cristian",
-      "conv": "zh:克里斯蒂安; zh-cn:克里斯蒂安; zh-tw:克里斯提安; zh-hk:基斯甸"
+      "conv": "zh-cn:克里斯蒂安; zh-tw:克里斯提安; zh-hk:基斯甸"
     },
     {
       "original": "Cristiano",
@@ -97,7 +105,7 @@
     },
     {
       "original": "Costa",
-      "conv": "zh:科斯塔;zh-cn:科斯塔;zh-tw:哥斯達;zh-hk:哥斯達;"
+      "conv": "zh-cn:科斯塔;zh-tw:哥斯達;zh-hk:哥斯達;"
     },
     {
       "original": "Di María",
@@ -106,6 +114,10 @@
     {
       "original": "Di Stéfano",
       "conv": "zh:迪·斯蒂法诺;zh-cn:迪·斯蒂法诺;zh-tw:迪·史提法諾;zh-hk:迪·史提芬奴"
+    },
+    {
+      "original": "Brahim Díaz",
+      "conv": "zh-hans:卜拉欣·迪亚斯;zh-tw:卜拉欣·迪亞斯;zh-hk:巴謙·迪亞斯;"
     },
     {
       "original": "Diego",
@@ -298,6 +310,10 @@
     {
       "original": "Messi",
       "conv": "zh:梅西;zh-cn:梅西;zh-tw:梅西;zh-hk:美斯"
+    },
+    {
+      "original": "Messi, Lionel",
+      "conv": "zh-cn:利昂内尔·梅西;zh-hk:利安奴·美斯;zh-tw:萊納爾·梅西;"
     },
     {
       "original": "Miguel",
@@ -585,7 +601,7 @@
     },
     {
       "original": "Almería, UD",
-      "conv": "zh-hans:阿尔梅里亚;zh-hk:艾美利亞;zh-mo:艾美利亞;zh-hant:阿爾梅里亞;zh-tw:阿美利亞;"
+      "conv": "zh-hans:阿尔梅里亚;zh-tw:阿爾梅里亞;zh-hk:艾美利亞;"
     },
     {
       "original": "Athletic Club Bilbao",
@@ -600,8 +616,20 @@
       "conv": "zh-cn:马德里竞技; zh-tw:馬德里競技; zh-hk:馬德里體育會; zh-sg:体育马德里"
     },
     {
+      "original": "Club Atlético de Madrid",
+      "conv": "马德里竞技俱乐部=>zh-hk:馬德里體育會;马德里竞技俱乐部=>zh-mo:馬德里體育會;"
+    },
+    {
+      "original": "Club Atlético de Madrid",
+      "conv": "馬德里競技俱樂部=>zh-hk:馬德里體育會;馬德里競技俱樂部=>zh-mo:馬德里體育會;"
+    },
+    {
       "original": "Barcelona, FC",
-      "conv": "zh-cn:巴塞罗那; zh-tw:巴塞隆納; zh-hk:巴塞隆拿; zh-mo:巴塞羅那; zh-hant:巴塞羅拿;"
+      "conv": "zh-hans:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞隆拿;zh-mo:巴塞羅那;"
+    },
+    {
+      "original": "Barcelona, FC",
+      "conv": "巴塞羅拿=>zh-cn:巴塞罗那;巴塞罗羅拿=>zh-tw:巴塞隆納;巴塞罗羅拿=>zh-mo:巴塞羅那;巴塞罗羅拿=>zh-sg:巴塞罗那;巴塞罗羅拿=>zh-my:巴塞罗那;"
     },
     {
       "original": "Betis, Real",
@@ -641,7 +669,11 @@
     },
     {
       "original": "Girona FC",
-      "conv": "zh-cn:赫罗纳;zh-hk:基羅納;zh-tw:吉羅納;"
+      "conv": "zh-hans:赫罗纳;zh-tw:吉羅納;zh-hk:基朗拿;zh-mo:傑羅納;"
+    },
+    {
+      "original": "Girona FC",
+      "conv": "基羅納=>zh-cn:赫罗纳;基羅納=>zh-sg:赫罗纳;基羅納=>zh-my:赫罗纳;基羅納=>zh-tw:吉羅納;基羅納=>zh-mo:傑羅納;"
     },
     {
       "original": "Gijón, Sporting de",
@@ -725,7 +757,11 @@
     },
     {
       "original": "Valencia CF",
-      "conv": "zh-hans:瓦伦西亚;zh-tw:瓦倫西亞;zh-hk:華倫西亞;"
+      "conv": "zh-hans:巴伦西亚;zh-tw:瓦倫西亞;zh-hk:華倫西亞;"
+    },
+    {
+      "original": "Valencia CF",
+      "conv": "瓦伦西亚=>zh-cn:巴伦西亚;瓦伦西亚=>zh-sg:巴伦西亚;瓦伦西亚=>zh-my:巴伦西亚;"
     },
     {
       "original": "Valladolid, Real",
@@ -737,7 +773,7 @@
     },
     {
       "original": "Villarreal Club de Futbol, Real",
-      "conv": "zh-hans:比利亚雷亚尔;zh-hk:維拉利爾;zh-mo:維拉利爾;zh-hant:比利亞雷阿爾;"
+      "conv": "zh-hans:比利亚雷亚尔;zh-hk:維拉利爾;zh-mo:維拉利爾;zh-tw:比利亞雷阿爾;"
     },
     {
       "original": "Villarreal Club de Futbol, Real",
@@ -754,6 +790,10 @@
     {
       "original": "",
       "conv": "zh-hk:巴塞; zh-cn:巴萨; zh-tw:巴薩;"
+    },
+    {
+      "original": "Barcelona, FC",
+      "conv": "zh-hans:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞隆拿;zh-mo:巴塞羅那;"
     },
     {
       "original": "Bernabéu",
@@ -786,6 +826,10 @@
     {
       "original": "",
       "conv": "zh-cn:加泰罗语; zh-hk:加泰羅語; zh-tw:加泰隆語; zh-hant:加泰羅語;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:冈萨雷斯; zh-tw:岡薩雷斯; "
     }
   ]
 }

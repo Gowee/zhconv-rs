@@ -1,0 +1,127 @@
+{
+  "name": "Dune",
+  "description": "[[沙丘 (跨媒體製作)|沙丘]]",
+  "path": "Module:CGroup/Dune",
+  "rules": [
+    {
+      "original": "Atreides",
+      "conv": "zh-tw:亞崔迪; zh-hk:阿特雷斯; zh-hans:厄崔迪;"
+    },
+    {
+      "original": "Gurney",
+      "conv": "zh-tw:葛尼; zh-hk:格尼; zh-hans:哥尼;"
+    },
+    {
+      "original": "Halleck",
+      "conv": "zh-tw:哈萊克; zh-hk:哈萊; zh-hans:哈莱克;"
+    },
+    {
+      "original": "Hawat",
+      "conv": "zh-tw:郝沃茲; zh-hk:哈瓦特;"
+    },
+    {
+      "original": "Idaho",
+      "conv": "zh-tw:艾德侯; zh-hk:艾達荷;"
+    },
+    {
+      "original": "Lady Jessica",
+      "conv": "zh-tw:潔西嘉女士; zh-hk:積西嘉夫人; zh-hans:杰西卡夫人;"
+    },
+    {
+      "original": "Leto",
+      "conv": "zh-tw:雷托; zh-hk:雷託; zh-hans:雷托;"
+    },
+    {
+      "original": "Thufir",
+      "conv": "zh-tw:瑟非; zh-hk:杜菲;"
+    },
+    {
+      "original": "Yueh",
+      "conv": "zh-tw:尤因; zh-hk:岳;"
+    },
+    {
+      "original": "De Vries",
+      "conv": "zh-tw:德弗立斯; zh-hk:德弗里斯;"
+    },
+    {
+      "original": "Feyd-Rautha",
+      "conv": "zh-tw:菲得-羅薩; zh-hk:菲得-羅薩; zh-hans:菲德-罗萨;"
+    },
+    {
+      "original": "Feyd",
+      "conv": "zh-tw:菲得; zh-hk:菲得; zh-hans:菲德;"
+    },
+    {
+      "original": "Harkonnen",
+      "conv": "zh-tw:哈肯能; zh-hk:哈根尼; zh-hans:哈克南;"
+    },
+    {
+      "original": "Vladimir",
+      "conv": "zh-tw:弗拉迪米爾; zh-hk:弗拉基米; zh-hans:弗拉基米尔;"
+    },
+    {
+      "original": "Chani",
+      "conv": "zh-tw:荃妮; zh-hk:采寧; zh-hans:契妮;"
+    },
+    {
+      "original": "Fremen",
+      "conv": "zh-tw:弗瑞曼人; zh-hk:弗雷曼人; zh-hans:弗雷曼人;"
+    },
+    {
+      "original": "Stilgar",
+      "conv": "zh-tw:史帝加; zh-hk:斯蒂加; zh-hans:斯第尔格;"
+    },
+    {
+      "original": "Corrino",
+      "conv": "zh-tw:柯瑞諾; zh-hk:蒙科里諾;"
+    },
+    {
+      "original": "Irulan",
+      "conv": "zh-tw:伊若琅; zh-hk:伊如蘭; zh-hans:伊勒琅;"
+    },
+    {
+      "original": "Padishah Emperor",
+      "conv": "zh-tw:帕迪沙皇帝; zh-hk:帕迪沙帝王; zh-hans:帕迪沙皇帝;"
+    },
+    {
+      "original": "Shaddam IV",
+      "conv": "zh-tw:沙德姆四世; zh-hk:沙達姆四世;"
+    },
+    {
+      "original": "Bene Gesserit",
+      "conv": "zh-tw:貝尼·潔瑟睿德; zh-hk:貝尼·哲斯; zh-hans:贝尼·杰瑟里特;"
+    },
+    {
+      "original": "Gaius",
+      "conv": "zh-tw:凱亞斯; zh-hk:凱斯;"
+    },
+    {
+      "original": "Lady Margot",
+      "conv": "zh-tw:瑪歌夫人; zh-hk:瑪歌夫人; zh-hans:玛戈夫人;"
+    },
+    {
+      "original": "Mohiam",
+      "conv": "zh-tw:莫哈亞; zh-hk:莫希姆;"
+    },
+    {
+      "original": "Arrakis",
+      "conv": "zh-tw:厄拉科斯; zh-hk:阿拉吉斯; zh-hans:厄拉科斯;"
+    },
+    {
+      "original": "Herald of the Change",
+      "conv": "zh-tw:變動傳令官; zh-hk:更迭傳令官; zh-hans:变革先驱;"
+    },
+    {
+      "original": "Kwisatz Haderach",
+      "conv": "zh-tw:奎薩兹·哈德拉赫; zh-hk:魁薩茨·哈德拉;"
+    },
+    {
+      "original": "Lisan al Gaib",
+      "conv": "zh-tw:利桑亞拉黑; zh-hk:天外之音;"
+    },
+    {
+      "original": "Sandworm",
+      "conv": "zh-tw:沙胡坴; zh-hk:沙胡魯; zh-hans:沙虫;"
+    }
+  ]
+}

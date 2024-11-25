@@ -5,11 +5,11 @@
   "rules": [
     {
       "original": "〈",
-      "conv": "〈=>zh-cn:《; 〈=>zh-my:《; 〈=>zh-sg:《; 〈=>zh-hk:《; 〈=>zh-mo:《;"
+      "conv": "〈=>zh-cn:《; 〈=>zh-my:《; 〈=>zh-sg:《; 〈=>zh-hk:《; 〈=>zh-mo:《;〈=>zh-tw:〈;"
     },
     {
       "original": "〉",
-      "conv": "〉=>zh-cn:》; 〉=>zh-my:》; 〉=>zh-sg:》; 〉=>zh-hk:》; 〉=>zh-mo:》;"
+      "conv": "〉=>zh-cn:》; 〉=>zh-my:》; 〉=>zh-sg:》; 〉=>zh-hk:》; 〉=>zh-mo:》; 〉=>zh-tw:〉;"
     }
   ]
 }

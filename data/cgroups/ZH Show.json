@@ -1,11 +1,11 @@
 {
   "name": "ZH Show",
-  "description": "華語綜藝",
+  "description": "華語娛樂",
   "path": "Module:CGroup/ZH Show",
   "rules": [
     {
-      "original": "",
-      "conv": "zh:中文;zh-hans:简体;zh-hant:繁體;zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:香港;"
+      "original": "本名",
+      "conv": "zh:非正式原文;zh-hans:中新马共通简体;zh-hant:港澳臺共通繁體;zh-cn:中国大陆;zh-tw:臺灣;zh-hk:香港;zh-mo:澳門;zh-sg:新加坡;zh-my:马来西亚;"
     },
     {
       "original": "-{½次同床}-",
@@ -40,7 +40,7 @@
       "conv": "zh-hk:AV; zh-cn:青春梦工场; zh-tw:AV;"
     },
     {
-      "original": "A計劃",
+      "original": "-{A計劃}-",
       "conv": "zh-cn:A计划; zh-tw:A計劃; zh-hk:盜海奇兵;"
     },
     {
@@ -264,7 +264,7 @@
       "conv": "zh-tw:大學生了沒 University; zh-sg:大学生了没 College Talk;"
     },
     {
-      "original": "",
+      "original": "-{University}-",
       "conv": "zh-tw:University; zh-sg:College Talk;"
     },
     {
@@ -292,7 +292,7 @@
       "conv": "zh-cn:理发师陶德; zh-tw:瘋狂理髮師：倫敦首席惡魔剃刀手; zh-hk:魔街理髮師;"
     },
     {
-      "original": "칼잡이 오수정(吳水晶)",
+      "original": "-{칼잡이 오수정(吳水晶)}-",
       "conv": "刀手吴水晶=>zh-hant:刀手吳水晶;刀手吴水晶=>zh-tw:愛情殺手吳水晶;刀手吴水晶=>zh-hk:豬兜王子復仇記;刀手吴水晶=>zh-mo:豬兜王子復仇記;"
     },
     {
@@ -304,7 +304,7 @@
       "conv": "zh-hk:帝女花; zh-cn:帝女花; zh-hk:帝女花-長平公主;"
     },
     {
-      "original": "狄仁杰之通天帝国",
+      "original": "-{狄仁杰之通天帝国}-",
       "conv": "zh-cn:狄仁杰之通天帝国; zh-tw:通天神探狄仁傑; zh-hk:狄仁傑之通天帝國;"
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "original": "-{惡作劇2吻}-",
-      "conv": "惡作劇2吻=>zh-cn:甜蜜再恋"
+      "conv": "惡作劇2吻=>zh-cn:甜蜜再恋;"
     },
     {
       "original": "-{惡作劇之吻}-",
@@ -349,7 +349,7 @@
     },
     {
       "original": "-{惡作劇之吻}-",
-      "conv": "惡作劇之吻=>zh-cn:梦幻华尔兹"
+      "conv": "惡作劇之吻=>zh-cn:梦幻华尔兹;"
     },
     {
       "original": "-{發達先生}-",
@@ -360,7 +360,7 @@
       "conv": "zh-tw:放膽去旅行; zh-cn:放胆去旅行; zh-hk:玩樂台灣;"
     },
     {
-      "original": "方谬神探",
+      "original": "-{方谬神探}-",
       "conv": "zh-cn:方谬神探; zh-tw:敗家仔; zh-hk:敗家仔;"
     },
     {
@@ -376,7 +376,7 @@
       "conv": "zh-tw:飯糰之家; zh-cn:团团爱; zh-hk:飯糰之家;"
     },
     {
-      "original": "非常完美",
+      "original": "-{非常完美}-",
       "conv": "zh-hk:非常完美; zh-cn:非常完美; zh-tw:非常完美：奪愛大作戰;"
     },
     {
@@ -448,7 +448,7 @@
       "conv": "zh-cn:古今大战秦俑情; zh-tw:秦俑; zh-hk:秦俑;"
     },
     {
-      "original": "光環之-{后}-",
+      "original": "-{光環之后}-",
       "conv": "zh-cn:光环之后; zh-tw:光環之后; zh-hk:光環之后;"
     },
     {
@@ -560,7 +560,7 @@
       "conv": "zh-cn:回家的路; zh-tw:幸福的背後; zh-hk:回家的路;"
     },
     {
-      "original": "",
+      "original": "집으로 가는 길",
       "conv": "回家的路=>zh-cn:回家的路;回家的路=>zh-tw:幸福的背後;回家的路=>zh-hk:回家的路;回家的路=>zh-mo:回家的路;"
     },
     {
@@ -580,7 +580,7 @@
       "conv": "zh-hk:洪福齊天; zh-cn:洪福斉天; zh-tw:鬼賭鬼;"
     },
     {
-      "original": "洪熙官",
+      "original": "-{洪熙官}-",
       "conv": "zh-hk:洪熙官; zh-cn:洪熙官; zh-tw:洪熙官之新少林五祖;"
     },
     {
@@ -616,7 +616,7 @@
       "conv": "zh-hk:機boy小子之真假威龍; zh-tw:龍神太子;"
     },
     {
-      "original": "機靈小子",
+      "original": "-{機靈小子}-",
       "conv": "zh-hk:機靈小子; zh-hans:机灵小不懂; zh-tw:一修和尚;"
     },
     {
@@ -625,7 +625,7 @@
     },
     {
       "original": "The Amazing Race",
-      "conv": "zh-hans:极速前进;zh-hk:奪寶奇Show;zh-tw:驚險大挑戰;"
+      "conv": "zh-cn:极速前进; zh-sg:惊险大挑战; zh-hk:奪寶奇Show; zh-tw:驚險大挑戰;"
     },
     {
       "original": "-{激戰MMA}-",
@@ -1016,7 +1016,7 @@
       "conv": "zh-cn:枪炮侯; zh-tw:光緒外傳; zh-hk:槍炮侯;"
     },
     {
-      "original": "",
+      "original": "-{枪炮侯}-",
       "conv": "龙非龙凤非凤=>zh-hk:光緒外傳;龍非龍鳳非鳳=>zh-tw:光緒外傳;枪炮侯=>zh-tw:光緒外傳;槍炮侯=>zh-mo:光緒外傳;"
     },
     {
@@ -1040,7 +1040,7 @@
       "conv": "zh-hk:秋天的童話; zh-cn:秋天的童话; zh-tw:流氓大亨;"
     },
     {
-      "original": "-{zh-cn:全城热恋; zh-tw:全城熱戀熱辣辣; zh-hk:全城熱戀熱辣辣;}-",
+      "original": "-{全城熱戀熱辣辣}-",
       "conv": "zh-cn:全城热恋; zh-tw:全城熱戀熱辣辣; zh-hk:全城熱戀熱辣辣;"
     },
     {
@@ -1188,7 +1188,7 @@
       "conv": "zh-hk:天若有情; zh-cn:天若有情; zh-tw:追夢人;"
     },
     {
-      "original": "天若有情",
+      "original": "-{天若有情}-",
       "conv": "天若有情=>zh-hk:偷心;天若有情=>zh-tw:追夢人;天若有情=>zh-mo:偷心;"
     },
     {
@@ -1200,7 +1200,7 @@
       "conv": "zh-hk:天若有情II之天長地久; zh-cn:天若有情II之天长地久; zh-tw:天若有情;"
     },
     {
-      "original": "天若有情II",
+      "original": "-{天若有情II}-",
       "conv": "天若有情II=>zh-hk:偷心II;天若有情II=>zh-tw:天若有情II;天若有情II之天長地久=>zh-tw:天若有情;天若有情II之天长地久=>zh-tw:天若有情;天若有情II=>zh-mo:偷心II;"
     },
     {
@@ -1224,7 +1224,7 @@
       "conv": "zh-tw:偷心大聖PS男 PS Man; zh-cn:偷心大圣 PS Man; zh-hk:偷心大聖PS男 PS Man; zh-sg:偷心大聖PS男 The Player;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-tw:PS Man; zh-cn:PS Man; zh-hk:PS Man; zh-sg:The Player;"
     },
     {
@@ -1685,11 +1685,7 @@
     },
     {
       "original": "-{中华小当家}-",
-      "conv": "zh-cn:中华小当家; zh-tw:小當家; zh-hk:中華小當家;"
-    },
-    {
-      "original": "-{中华小当家}-",
-      "conv": "中華小當家=>zh-hk:中華小當家;中華小當家=>zh-mo:中華小當家;"
+      "conv": "zh-cn:中华小当家; zh-tw:小當家; zh-hk:中華小當家; zh-mo:中華小當家;"
     },
     {
       "original": "-{中華英雄}-",
@@ -1704,72 +1700,344 @@
       "conv": "zh-hk:中環英雄; zh-cn:中环英雄; zh-tw:天地雙尊;"
     },
     {
-      "original": "",
-      "conv": "影集=>zh-hans:剧集; 影集=>zh-cn:剧集; 影集=>zh-hk:劇集;"
+      "original": "agent / manager",
+      "conv": "经纪人=>zh-hk:經理人;经纪人=>zh-mo:經理人;經紀人=>zh-hk:經理人;經紀人=>zh-mo:經理人;經理人=>zh-cn:经纪人;"
     },
     {
-      "original": "",
-      "conv": "電視影集=>zh-hans:电视剧集; 電視影集=>zh-cn:电视剧集; 電視影集=>zh-hk:電視劇集;"
+      "original": "attendance rate",
+      "conv": "上座率=>zh-hk:入座率;上座率=>zh-mo:入座率;入座率=>zh-cn:上座率;"
     },
     {
-      "original": "",
-      "conv": "動畫影集=>zh-hans:动画剧集; 動畫影集=>zh-cn:动画剧集; 動畫影集=>zh-hk:動畫劇集;"
+      "original": "audio-visual product",
+      "conv": "zh:音像製品;zh-cn:音像制品;zh-tw:影音製品;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:华语（普通话）; zh-tw:華語〔國語〕; zh-hk:華語〔普通話〕; zh-sg:华语;"
+      "original": "Cannes",
+      "conv": "zh:戛納;zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城;zh-my:康城;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:萝卜; zh-tw:蘿蔔; zh-hk:蘿蔔; zh-sg:萝卜;"
+      "original": "children(/s program)",
+      "conv": "少儿=>zh-tw:兒少;少兒=>zh-tw:兒少;兒少=>zh-cn:少儿; 少儿节目=>zh-hk:兒童節目;兒少節目=>zh-hk:兒童節目; 少儿频道=>zh-tw:少兒頻道;少兒頻道=>zh-tw:少兒頻道;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:出租车; zh-tw:計程車; zh-hk:的士; zh-sg:德士;"
+      "original": "digital on-screen graphic",
+      "conv": "zh-cn:台标;zh-my:台徽;zh-hant:台徽;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:数字; zh-tw:數位; zh-hk:數碼;"
+      "original": "digital album",
+      "conv": "zh:數字專輯;zh-tw:數位專輯;zh-hk:數碼專輯;zh-sg:数码专辑;zh-my:数码专辑;zh-cn:数字专辑;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:无线; zh-tw:無線; zh-hk:無綫;"
+      "original": "digital distribution",
+      "conv": "zh:數字發行;zh-tw:數位發行;zh-hk:數碼發行;zh-sg:数码发行;zh-my:数码发行;zh-cn:数字发行;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:无线电视; zh-hant:無綫電視;"
+      "original": "digital download",
+      "conv": "zh:數字下載;zh-tw:數位下載;zh-hk:數碼下載;zh-sg:数码下载;zh-my:数码下载;zh-cn:数字下载;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:无线剧集台; zh-hant:無綫劇集台;"
+      "original": "digital movie / TV",
+      "conv": "zh:數字電;zh-tw:數位電;zh-hk:數碼電;zh-sg:数码电;zh-my:数码电;zh-cn:数字电;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:台标; zh-hant:台徽;"
+      "original": "digital music",
+      "conv": "zh:數字音樂;zh-tw:數位音樂;zh-hk:數碼音樂;zh-sg:数码音乐;zh-my:数码音乐;zh-cn:数字音乐;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:高清; zh-tw:高畫質;zh-hk:高清;"
+      "original": "digital remastering",
+      "conv": "zh:數字修復;zh-tw:數位修復;zh-hk:數碼修復;zh-sg:数码修复;zh-my:数码修复;zh-cn:数字修复;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:高清翡翠台; zh-hant:高清翡翠台;"
+      "original": "digital single",
+      "conv": "zh:數字单曲;zh-tw:數位單曲;zh-hk:數碼單曲;zh-sg:数码单曲;zh-my:数码单曲;zh-cn:数字单曲;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:标清; zh-tw:標準畫質;zh-hk:標清;"
+      "original": "digital song",
+      "conv": "zh:數字歌曲;zh-tw:數位歌曲;zh-hk:數碼歌曲;zh-sg:数码歌曲;zh-my:数码歌曲;zh-cn:数字歌曲;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:模拟; zh-tw:類比;zh-hk:模擬;"
+      "original": "digital version / right",
+      "conv": "zh:數字版;zh-tw:數位版;zh-hk:數碼版;zh-sg:数码版;zh-my:数码版;zh-cn:数字版;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:向前冲; zh-tw:向前衝;zh-hk:向前衝;"
+      "original": "digitalization",
+      "conv": "zh:數字化;zh-tw:數位化;zh-hk:數碼化;zh-sg:数码化;zh-my:数码化;zh-cn:数字化;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:家伙; zh-tw:傢伙;zh-hk:傢伙;"
+      "original": "dolby digital",
+      "conv": "zh:杜比數字;zh-tw:杜比數位;zh-hk:杜比數碼;zh-sg:杜比数码;zh-my:杜比数码;zh-cn:杜比数字;"
+    },
+    {
+      "original": "goof",
+      "conv": "zh-hk:穿崩;zh-hans:穿帮;zh-tw:穿幫;"
+    },
+    {
+      "original": "信息节目",
+      "conv": "zh:信息節目;zh-cn:信息节目;zh-my:资讯节目;zh-sg:资讯节目;zh-hant:資訊節目;"
+    },
+    {
+      "original": "情報番組",
+      "conv": "zh:情報節目;zh-cn:情报节目;zh-my:资讯节目;zh-sg:资讯节目;zh-hant:資訊節目;"
+    },
+    {
+      "original": "laureate",
+      "conv": "zh:獲得者;zh-cn:获得者;zh-hant:得主;zh-sg:得主;zh-my:得主;"
+    },
+    {
+      "original": "lensing ceremony",
+      "conv": "zh:開機;zh-cn:开机;zh-hant:開鏡;zh-sg:开镜;zh-my:开镜;開機=>zh-tw:開機;开机=>zh-tw:開機;"
+    },
+    {
+      "original": "limited release",
+      "conv": "zh:有限發行;zh-cn:有限发行;zh-hans:限量发行;zh-hant:限量發行;"
+    },
+    {
+      "original": "limited release",
+      "conv": "zh:有限放映;zh-cn:有限上映;zh-hans:限量放映;zh-hant:限量放映;"
+    },
+    {
+      "original": "limited series",
+      "conv": "zh:限定剧集;zh-hans:限定剧;zh-tw:限定影集;zh-hk:限定劇集;"
+    },
+    {
+      "original": "miniseries",
+      "conv": "zh-hans:迷你剧集;zh-cn:迷你剧;zh-tw:迷你影集;zh-hk:迷你劇集;"
+    },
+    {
+      "original": "narrative film",
+      "conv": "故事片=>zh-tw:劇情片;"
+    },
+    {
+      "original": "optical disc",
+      "conv": "zh:光盤;zh-cn:光盘;zh-sg:光碟;zh-my:光碟;zh-tw:光碟;光碟片=>zh-cn:光盘;"
+    },
+    {
+      "original": "out of tune",
+      "conv": "zh:跑調;zh-cn:跑调;zh-hans:走调;zh-my:走音;zh-sg:走音;zh-hant:走音;"
+    },
+    {
+      "original": "première",
+      "conv": "首映式=>zh-hk:首映禮;首映式=>zh-mo:首映禮;首映式=>zh-tw:首映典禮;首映式=>zh-sg:首映礼;首映式=>zh-my:首映礼;"
+    },
+    {
+      "original": "preview",
+      "conv": "zh:點映;zh-cn:点映;zh-tw:點映〔口碑場〕;zh-hk:點映〔優先場〕;"
+    },
+    {
+      "original": "preview",
+      "conv": "点映=>zh-my:预映;点映=>zh-sg:预映;點映=>zh-my:预映;點映=>zh-sg:预映;"
+    },
+    {
+      "original": "preview",
+      "conv": "zh-cn:点映场;zh-tw:口碑場;zh-hk:優先場;zh-my:优先场;zh-sg:优先场;"
+    },
+    {
+      "original": "reality show",
+      "conv": "zh-hans:实境节目;zh-hk:實況節目;zh-tw:實境節目;"
+    },
+    {
+      "original": "red carpet",
+      "conv": "zh-hk:紅地氈;zh-hans:红地毯;zh-tw:紅地毯;"
+    },
+    {
+      "original": "red carpet",
+      "conv": "zh-hk:紅地氈;zh-hans:红毯;zh-tw:紅毯;"
+    },
+    {
+      "original": "regular program",
+      "conv": "zh-hk:常規節目;zh-cn:常规节目;zh-sg:常态节目;zh-tw:常態節目;"
+    },
+    {
+      "original": "series",
+      "conv": "影集=>zh-hk:片集;影集=>zh-mo:片集;影集=>zh-cn:剧集;zh-hant:電影集團;zh-hans:电影集团;"
+    },
+    {
+      "original": "series",
+      "conv": "片集=>zh-cn:剧集;短片集=>zh-cn:短片集;相片集=>zh-cn:相片集;照片集=>zh-cn:照片集;"
+    },
+    {
+      "original": "share",
+      "conv": "zh-hk:收視份額;zh-cn:收视份额;zh-tw:收視佔有率; 市场份额=>zh-tw:市占率;市場份額=>zh-tw:市占率;"
+    },
+    {
+      "original": "shooting",
+      "conv": "摄像=>zh-tw:攝影;摄像=>zh-hk:攝影;摄像=>zh-mo:攝影;摄像机=>zh-hk:攝錄機;摄像机=>zh-mo:攝錄機;摄像头=>zh-tw:攝影機;摄像头=>zh-hk:攝影機;摄像头=>zh-mo:攝影機;"
+    },
+    {
+      "original": "situation comedy",
+      "conv": "zh:情景劇;zh-cn:情景剧;zh-sg:情境剧;zh-tw:情境劇;zh-hk:處境劇;zh-my:处境剧;"
+    },
+    {
+      "original": "situation comedy",
+      "conv": "zh:情景喜劇;zh-cn:情景喜剧;zh-sg:情境喜剧;zh-tw:情境喜劇;zh-hk:處境喜劇;zh-my:处境喜剧;"
+    },
+    {
+      "original": "stand-up",
+      "conv": "zh:單人喜劇;zh-tw:單口喜劇;zh-cn:单口喜剧;zh-my:栋笃笑;zh-hk:棟篤笑;"
+    },
+    {
+      "original": "stand-up comedian / show",
+      "conv": "脱口秀演=>zh-hk:棟篤笑演;脱口秀演=>zh-mo:棟篤笑演;脱口秀演=>zh-my:栋笃笑演;脫口秀演=>zh-hk:棟篤笑演;脫口秀演=>zh-mo:棟篤笑演;脫口秀演=>zh-my:栋笃笑演;"
+    },
+    {
+      "original": "studio (TV)",
+      "conv": "zh-tw:攝影棚;zh-sg:摄影棚;zh-my:摄影棚;zh-hk:錄影廠;zh-cn:演播室;zh:錄影棚;zh-hans:录影棚;"
+    },
+    {
+      "original": "studio (TV)",
+      "conv": "zh-tw:攝影棚;zh-sg:摄影棚;zh-my:摄影棚;zh-hk:錄影廠;zh-cn:演播厅;zh:演播廳;zh-hans:录影厂;"
+    },
+    {
+      "original": "talk show (World) / stand-up (China)",
+      "conv": "zh-tw:脫口秀;zh-cn:脱口秀;zh-hk:脫口騷;"
+    },
+    {
+      "original": "talk show",
+      "conv": "zh-tw:談話節目;zh-cn:谈话节目;zh-hk:清談節目;zh-my:清谈节目;"
+    },
+    {
+      "original": "talk show",
+      "conv": "清談節目=>zh-sg:清谈节目;清谈节目=>zh-sg:清谈节目;脫口秀節目=>zh-hk:清談節目;脫口秀節目=>zh-mo:清談節目;脱口秀节目=>zh-hk:清談節目;脱口秀节目=>zh-mo:清談節目;"
+    },
+    {
+      "original": "thriller",
+      "conv": "zh-tw:驚悚;zh-hans:惊悚;zh-hk:驚慄;"
+    },
+    {
+      "original": "time, *:*0",
+      "conv": "0檔=>zh-hk:0時段;0檔=>zh-mo:0時段;0檔=>zh-my:0时段;0档=>zh-hk:0時段;0档=>zh-mo:0時段;0档=>zh-my:0时段;"
+    },
+    {
+      "original": "time, *:00",
+      "conv": "點檔次=>zh-hk:點時段;點檔次=>zh-mo:點時段;點檔次=>zh-my:点时段;點檔=>zh-hk:點時段;點檔=>zh-mo:點時段;點檔=>zh-my:点时段;点档=>zh-hk:點時段;点档=>zh-mo:點時段;点档=>zh-my:点时段;zh-hant:八點檔;zh-hans:八点档;"
+    },
+    {
+      "original": "time, *:30",
+      "conv": "點半檔=>zh-hk:點半時段;點半檔=>zh-mo:點半時段;點半檔=>zh-my:点半时段;点半档=>zh-hk:點半時段;点半档=>zh-mo:點半時段;点半档=>zh-my:点半时段;"
+    },
+    {
+      "original": "time, *noon",
+      "conv": "午檔=>zh-hk:午時段;午檔=>zh-mo:午時段;午檔=>zh-my:午时段;午档=>zh-hk:午時段;午档=>zh-mo:午時段;午档=>zh-my:午时段;"
+    },
+    {
+      "original": "time, *(part)",
+      "conv": "間檔=>zh-hk:間時段;間檔=>zh-mo:間時段;間檔=>zh-my:间时段;间档=>zh-hk:間時段;间档=>zh-mo:間時段;间档=>zh-my:间时段;"
+    },
+    {
+      "original": "time, prime",
+      "conv": "黃金檔=>zh-hk:黃金時段;黃金檔=>zh-mo:黃金時段;黃金檔=>zh-my:黄金时段;黄金档=>zh-hk:黃金時段;黄金档=>zh-mo:黃金時段;黄金档=>zh-my:黄金时段;zh-hans:黄金档剧场;zh-hant:黃金檔劇場;"
+    },
+    {
+      "original": "time, late night",
+      "conv": "深夜檔=>zh-hk:深宵時段;深夜檔=>zh-mo:深宵時段;深夜檔=>zh-my:深夜时段;深夜档=>zh-hk:深宵時段;深夜档=>zh-mo:深宵時段;深夜档=>zh-my:深夜时段;"
+    },
+    {
+      "original": "video clip",
+      "conv": "zh:短視頻;zh-cn:短视频;zh-tw:短影音;"
+    },
+    {
+      "original": "video platform / site",
+      "conv": "zh-tw:影音平臺;zh-cn:视频网站;zh-my:影音平台;"
+    },
+    {
+      "original": "video platform / site",
+      "conv": "zh-tw:影音平台;zh-cn:视频平台;zh-my:影音平台;"
+    },
+    {
+      "original": "videotape",
+      "conv": "zh-hant:錄影帶;zh-sg:录影带;zh-my:录影带;zh-cn:录像带;"
+    },
+    {
+      "original": "web edition",
+      "conv": "zh-tw:網路版;zh-hk:網絡版;zh-hans:网络版;"
+    },
+    {
+      "original": "web series / film",
+      "conv": "zh-tw:網路電;zh-hk:網絡電;zh-hans:网络电;"
+    },
+    {
+      "original": "web series",
+      "conv": "zh-tw:網路節目;zh-hk:網絡節目;zh-hans:网络节目;"
+    },
+    {
+      "original": "widescreen",
+      "conv": "zh-hk:闊銀幕;zh-tw:寬銀幕;zh-hans:宽银幕;"
+    },
+    {
+      "original": "wire(-flying)",
+      "conv": "zh-tw:吊威亞;zh-sg:吊威亚;zh-cn:吊威亚;zh-hant:吊威也;zh-my:吊威也;"
+    },
+    {
+      "original": "wrap",
+      "conv": "zh-tw:殺青;zh-hans:杀青;zh-hk:煞科;"
+    },
+    {
+      "original": null,
+      "conv": "男一号=>zh-hk:男一;男一号=>zh-mo:男一;男一號=>zh-hk:男一;男一號=>zh-mo:男一;"
+    },
+    {
+      "original": null,
+      "conv": "女一号=>zh-hk:女一;女一号=>zh-mo:女一;女一號=>zh-hk:女一;女一號=>zh-mo:女一;"
+    },
+    {
+      "original": null,
+      "conv": "男二号=>zh-hk:男二;男二号=>zh-mo:男二;男二號=>zh-hk:男二;男二號=>zh-mo:男二;"
+    },
+    {
+      "original": null,
+      "conv": "女二号=>zh-hk:女二;女二号=>zh-mo:女二;女二號=>zh-hk:女二;女二號=>zh-mo:女二;"
+    },
+    {
+      "original": null,
+      "conv": "官宣=>zh-tw:宣布;官宣=>zh-hk:宣布;官宣=>zh-mo:宣佈;官宣=>zh-sg:宣布;官宣=>zh-my:宣布;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:二搭;zh-sg:再度合作;zh-my:再度合作;zh-hant:再度合作;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:再度合作;zh-hant:再度合作;"
+    },
+    {
+      "original": null,
+      "conv": "zh:進組;zh-cn:进组;zh-sg:加入剧组;zh-my:加入剧组;zh-hant:加入劇組;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:加入剧组;zh-hant:加入劇組;"
+    },
+    {
+      "original": null,
+      "conv": "zh:現實主義;zh-cn:现实主义;zh-hant:現實主義〔寫實〕;zh-my:现实主义〔写实〕;zh-sg:现实主义〔写实〕;"
+    },
+    {
+      "original": "(Standard) Mandarin",
+      "conv": "zh-cn:普通话; zh-tw:普通話〔國語〕; zh-hk:普通話〔國語〕; zh-sg:普通话〔华语〕;"
+    },
+    {
+      "original": "taxi",
+      "conv": "zh:出租車; zh-cn:出租车; zh-tw:計程車; zh-hk:的士; zh-sg:德士;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无线;zh-tw:無線;zh-hk:無綫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无线电视;zh-hant:無綫電視;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:家伙;zh-hant:傢伙;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hant:蘿蔔;zh-hans:萝卜;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:向前冲;zh-hant:向前衝;"
     }
   ]
 }

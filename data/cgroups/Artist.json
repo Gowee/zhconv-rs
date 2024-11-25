@@ -4,12 +4,28 @@
   "path": "Module:CGroup/Artist",
   "rules": [
     {
-      "original": "Monet, Claude",
-      "conv": "zh-hk:克勞德·莫奈; zh-mo:克勞德·莫奈; zh-cn:克劳德·莫奈; zh-tw:克洛德·莫內;"
+      "original": "Carracci",
+      "conv": "zh-cn:卡拉奇; zh-tw:卡拉奇; zh-tw:卡拉奇;"
     },
     {
       "original": "Gainsborough",
       "conv": "zh-cn:庚斯博羅; zh-tw:根茲巴羅;"
+    },
+    {
+      "original": "kandinsky",
+      "conv": "zh-cn:康定斯基; zh-tw:康丁斯基; zh-hk:康丁斯基"
+    },
+    {
+      "original": "Michelangelo",
+      "conv": "zh-cn:米开朗基罗; zh-tw:米開朗基羅; zh-hk:米高安哲羅;"
+    },
+    {
+      "original": "Matisse, Henri",
+      "conv": "zh-cn:亨利·马蒂斯; zh-hk:亨利·馬蒂斯; zh-tw:亨利·馬諦斯; "
+    },
+    {
+      "original": "Monet, Claude",
+      "conv": "zh-hk:克勞德·莫奈; zh-mo:克勞德·莫奈; zh-cn:克劳德·莫奈; zh-tw:克洛德·莫內;"
     },
     {
       "original": "Rembrandt",
@@ -18,6 +34,14 @@
     {
       "original": "Toulouse-Lautrec, Henri de",
       "conv": "zh-hans:亨利·德·土鲁斯-劳特累克; zh-hant:亨利·德·土魯斯-羅特列克;"
+    },
+    {
+      "original": "da Vinci, Leonardo",
+      "conv": "zh-cn:列奥纳多·达·芬奇; zh-tw:李奧納多·達文西; zh-hk:李安納度·達文西;"
+    },
+    {
+      "original": "da Vinci",
+      "conv": "zh-cn:达·芬奇; zh-tw:達文西; zh-hk:達文西;"
     }
   ]
 }

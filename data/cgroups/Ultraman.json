@@ -49,11 +49,11 @@
     },
     {
       "original": null,
-      "conv": "zh:The Ultraman;zh:The☆Ultraman;zh-tw:宇宙超人"
+      "conv": "zh-hans:乔尼亚斯·奥特曼;zh:The Ultraman;zh:The☆Ultraman;zh-tw:The☆Ultraman"
     },
     {
       "original": null,
-      "conv": "zh:; zh-tw:超人力霸王梅比斯外傳 希卡利傳奇;zh-hans:梦比优斯·奥特曼外传 希卡利传奇; zh-tw:超人力霸王梅比斯外傳：希卡利傳奇; zh-hk:超人梅比斯外傳光明傳奇;"
+      "conv": "zh-tw:超人力霸王梅比斯外傳 希卡利傳奇;zh-hans:梦比优斯·奥特曼外传 希卡利传奇; zh-tw:超人力霸王梅比斯外傳：希卡利傳奇; zh-hk:超人梅比斯外傳光明傳奇;"
     },
     {
       "original": null,
@@ -104,16 +104,24 @@
       "conv": "zh-tw:超人力霸王 年代記Z 英雄旅程;zh-cn:奥特英雄传泽塔 英雄之路;"
     },
     {
+      "original": null,
+      "conv": "zh-tw:电光超人古立特;zh-tw:電光超人古立特;zh-hk:電光超人傑德文;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:鏡子超人;zh-tw:鏡子超人;zh-hk:鏡子超人;"
+    },
+    {
       "original": "ULTRAMAN",
       "conv": "zh-hans:奈克斯特·奥特曼;zh-tw:超人力霸王THE NEXT;zh-hk:超人強勢出擊;"
     },
     {
       "original": "劇場版 ウルトラマンX きたぞ! われらのウルトラマン",
-      "conv": "zh-hk:超人X大電影 我們的超人來了;zh-tw:劇場版超人力霸王X來了！我們的超人力霸王;zh-hans:剧场版艾克斯奥特曼：来了！我们的奥特曼;"
+      "conv": "zh-hk:超人X大電影 我們的超人來了;zh-tw:劇場版超人力霸王X：來了！我們的超人力霸王;zh-hans:剧场版艾克斯奥特曼：来了！我们的奥特曼;"
     },
     {
       "original": "ウルトラマンメビウス&ウルトラ兄弟",
-      "conv": "zh-cn:梦比优斯奥特曼&奥特兄弟; zh-tw:超人力霸王梅比斯&超人兄弟世紀之戰; zh-hk:超人梅比斯&超人兄弟世紀之戰;"
+      "conv": "zh-cn:梦比优斯奥特曼&奥特兄弟; zh-tw:超人力霸王梅比斯&超人兄弟：世紀之戰; zh-hk:超人梅比斯&超人兄弟世紀之戰;"
     },
     {
       "original": null,
@@ -125,7 +133,7 @@
     },
     {
       "original": "ウルトラマン",
-      "conv": "zh-hans:初代奥特曼; zh-tw:初代超人力霸王; zh-hk:超人吉田"
+      "conv": "zh-hans:奥特曼; zh-tw:超人力霸王; zh-hk:超人"
     },
     {
       "original": null,
@@ -137,7 +145,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:超人七號; zh-hans:赛文·奥特曼;zh-hk:超人七星侠"
+      "conv": "zh-hant:超人七號; zh-hans:赛文·奥特曼;zh-hk:超人七星俠"
     },
     {
       "original": null,
@@ -146,10 +154,6 @@
     {
       "original": null,
       "conv": "zh-hant:太空历奇;zh-cn:奥特船长;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hk:超人阿鄉;zh-tw:超人力霸王傑克;zh-hans:杰克·奥特曼;zh-mo:超人阿鄉;"
     },
     {
       "original": null,
@@ -181,7 +185,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:超人喬尼斯;zh-tw:超人力霸王喬伊尼亞斯;zh-hans:乔尼亚斯·奥特曼;zh-mo:超人喬尼斯;"
+      "conv": "zh-hk:超人喬尼斯;zh-tw:超人力霸王喬尼亞斯;zh-hans:乔尼亚斯·奥特曼;zh-mo:超人喬尼亞斯;"
     },
     {
       "original": null,
@@ -349,11 +353,15 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:布莱泽奥特曼; zh-cn:布莱泽奥特曼;zh-tw:超人力霸王布雷薩; zh-hk:超人Blazar;"
+      "conv": "zh-hans:布莱泽奥特曼; zh-cn:布莱泽奥特曼;zh-tw:超人力霸王布雷薩; zh-hk:超人布雷撒;"
     },
     {
       "original": null,
-      "conv": "zh-hans:初代; zh-tw:初代; zh-hk:吉田"
+      "conv": "zh-hans:亚刻奥特曼;zh-cn:亚刻奥特曼;zh-hk:超人亞刻;zh-tw:超人力霸王雅克;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:初代; zh-tw:初代; zh-hk:初代"
     },
     {
       "original": null,
@@ -413,7 +421,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:力王;zh-tw:力王;zh-hans:帕瓦特;zh-mo:力王;"
+      "conv": "zh-hk:力王;zh-tw:帕瓦德;zh-hans:帕瓦特;zh-mo:力王;"
     },
     {
       "original": null,
@@ -421,7 +429,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:尼奧斯;zh-hans:奈欧斯;zh-tw:涅歐斯;"
+      "conv": "zh-hk:尼奧斯;zh-hans:奈欧斯;zh-tw:雷歐斯;"
     },
     {
       "original": null,
@@ -430,10 +438,6 @@
     {
       "original": null,
       "conv": "zh-hans:博伊;zh-hk:男孩;zh-tw:男孩;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hk:謝亞斯;zh-hans:哉阿斯;zh-tw:傑斯;"
     },
     {
       "original": null,
@@ -485,7 +489,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:杰斯提斯;zh-hk:傑斯;zh-tw:正義;"
+      "conv": "zh-hans:杰斯提斯;zh-hk:傑斯;zh-tw:傑斯;"
     },
     {
       "original": null,
@@ -549,11 +553,23 @@
     },
     {
       "original": null,
-      "conv": "zh-tw:雷克洛斯;zh-cn:雷古洛思"
+      "conv": "zh-tw:雷古洛斯;zh-cn:雷古洛思"
     },
     {
       "original": null,
       "conv": "zh-cn:特利迦;zh-hk:Trigger;zh-tw:特利卡"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:德凱;zh-hk:帝卡;zh-tw:德卡"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:布莱泽;zh-hk:布雷撒;zh-tw:布雷薩"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:亞刻;zh-hk:雅古;zh-tw:雅克"
     },
     {
       "original": "にせウルトラマン",
@@ -706,6 +722,10 @@
     {
       "original": "ベムラー",
       "conv": "zh-hant:貝姆拉;zh-cn:百慕拉"
+    },
+    {
+      "original": "アントラー",
+      "conv": "zh-cn:安东拉;zh-hant:安東拉"
     }
   ]
 }

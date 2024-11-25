@@ -1,6 +1,6 @@
 {
   "name": "意甲",
-  "description": "意甲",
+  "description": "[[意大利足球甲级联赛|意甲]]",
   "path": "Template:CGroup/意甲",
   "rules": [
     {
@@ -54,6 +54,10 @@
     {
       "original": "ACF Fiorentina",
       "conv": "zh-hans:佛罗伦萨;zh-hk:費倫天拿;zh-tw:佛倫提那;"
+    },
+    {
+      "original": "Calcio Foggia 1920",
+      "conv": "zh-hans:福贾;zh-tw:福賈;zh-hk:霍治亞;"
     },
     {
       "original": "Frosinone Calcio SRL",
@@ -136,12 +140,8 @@
       "conv": "zh:特尔纳纳; zh-cn:特尔纳纳; zh-tw:特爾納納; zh-hk:特拉納;"
     },
     {
-      "original": "Torino FC",
-      "conv": "拖連奴=>zh-cn:都灵;拖連奴=>zh-tw:杜里諾;拖連奴=>zh-hk:拖連奴;拖連奴=>zh-mo:拖連奴;"
-    },
-    {
-      "original": "Torino FC",
-      "conv": "杜里諾=>zh-cn:都灵;杜里諾=>zh-tw:杜里諾;杜里諾=>zh-hk:拖連奴;杜里諾=>zh-mo:拖連奴;"
+      "original": "Torino",
+      "conv": "zh-hans:都灵;zh-hk:拖連奴;zh-tw:杜里諾;"
     },
     {
       "original": "Triestina",
@@ -482,10 +482,6 @@
     {
       "original": "Thiago Motta",
       "conv": "zh:蒂亚戈·莫塔;zh-cn:蒂亚戈·莫塔; zh-tw:蒂亞戈·莫塔; zh-hk:泰亞高·莫達;"
-    },
-    {
-      "original": "Toni",
-      "conv": "zh:托尼; zh-cn:托尼; zh-tw:托尼; zh-hk:東尼;"
     },
     {
       "original": "Totti",
