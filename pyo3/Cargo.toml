@@ -15,6 +15,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 zhconv = { path = "../" }
-pyo3 = { version = "0.19", features = ["extension-module"] }
-pyo3-file = "0.7.0"
+pyo3 = { version = "0.23", features = ["extension-module"] }
+pyo3-file = "0.10.0"
 
