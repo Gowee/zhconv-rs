@@ -1,7 +1,7 @@
 use std::str::{self, FromStr};
 
-use zhconv::{zhconv as zhconv_plain, zhconv_mw, Variant};
 use wasm_minimal_protocol::*;
+use zhconv::{zhconv as zhconv_plain, zhconv_mw, Variant};
 
 initiate_protocol!();
 

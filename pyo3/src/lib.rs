@@ -67,17 +67,17 @@ fn make_converter(py: Python<'_>, base: Option<&str>, pairs: PyObject) -> PyResu
         .target(base)
         .tables(get_builtin_tables(base));
     if let Ok(pairs) = pairs.extract::<Vec<(String, String)>>(py) {
-        builder = builder.conv_pairs(pairs.into_iter());
+        builder = builder.conv_pairs(pairs);
     } else {
         let mut text = String::new();
 
-        if let Ok(string_ref) = pairs.downcast::<PyString>(py) {
+        if let Ok(string_ref) = pairs.downcast_bound::<PyString>(py) {
             // path
-            let path = string_ref.to_str()?;
+            let path = string_ref.to_string_lossy().to_string();
             File::open(path)?.read_to_string(&mut text)?;
         } else {
             // file-like
-            PyFileLikeObject::with_requirements(pairs, true, false, false)?
+            PyFileLikeObject::with_requirements(pairs, true, false, false, false)?
                 .read_to_string(&mut text)?;
         }
 
@@ -209,7 +209,7 @@ fn infer_variant_confidence(text: &str) -> Vec<(String, f32)> {
 /// #   ('zh-cn', 0.15151512622833252)]
 
 #[pymodule]
-fn zhconv_rs(_py: Python, m: &PyModule) -> PyResult<()> {
+fn zhconv_rs(_py: Python, m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(crate::zhconv, m)?)?;
     m.add_function(wrap_pyfunction!(crate::make_converter, m)?)?;
     m.add_function(wrap_pyfunction!(crate::is_hans, m)?)?;
