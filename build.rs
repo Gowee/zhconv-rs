@@ -358,17 +358,17 @@ mod opencc {
         CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind,
     };
     // use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
-    use lazy_static::lazy_static;
     use std::collections::HashMap;
+    use std::sync::LazyLock;
 
     use super::OPENCC_SHA256;
 
-    lazy_static! {
-        pub static ref OPENCC_SHA256_MAP: HashMap<String, [u8; 32]> = OPENCC_SHA256
+    pub static OPENCC_SHA256_MAP: LazyLock<HashMap<String, [u8; 32]>> = LazyLock::new(|| {
+        OPENCC_SHA256
             .into_iter()
             .map(|(n, s)| (n.to_owned(), s))
-            .collect();
-    }
+            .collect()
+    });
 
     macro_rules! load_opencc_to {
         ( @read_to $out_conv: expr, $out_revconv: expr, $name: ident) => {
