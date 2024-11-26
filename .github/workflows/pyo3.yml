@@ -53,7 +53,7 @@ jobs:
           sccache: 'true'
           manylinux: auto
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: mv pyo3/pyproject.toml pyo3/pyproject-defaul.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
@@ -93,7 +93,7 @@ jobs:
           sccache: 'true'
           manylinux: musllinux_1_2
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: mv pyo3/pyproject.toml pyo3/pyproject-default.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
@@ -129,7 +129,7 @@ jobs:
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: mv pyo3/pyproject.toml pyo3/pyproject-default.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
@@ -163,7 +163,7 @@ jobs:
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: mv pyo3/pyproject.toml pyo3/pyproject-default.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
