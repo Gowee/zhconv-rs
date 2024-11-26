@@ -95,7 +95,9 @@ jobs:
           sccache: 'true'
           manylinux: musllinux_1_2
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject.toml pyo3/pyproject-default.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: |
+          sed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
@@ -131,7 +133,9 @@ jobs:
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject.toml pyo3/pyproject-default.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: |
+          sed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
@@ -165,7 +169,9 @@ jobs:
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
       - name: Prepare OpenCC
-        run: mv pyo3/pyproject.toml pyo3/pyproject-default.toml && mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+        run: |
+          sed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
