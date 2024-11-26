@@ -52,6 +52,15 @@ jobs:
           args: --release -o pyo3/dist --sdist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
           manylinux: auto
+      - name: Prepare OpenCC
+        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+      - name: Build wheels - OpenCC
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --sdist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
+          manylinux: auto
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
@@ -77,6 +86,15 @@ jobs:
         with:
           python-version: 3.x
       - name: Build wheels
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
+          manylinux: musllinux_1_2
+      - name: Prepare OpenCC
+        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+      - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
           target: ${{ matrix.platform.target }}
@@ -110,6 +128,14 @@ jobs:
           target: ${{ matrix.platform.target }}
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
+      - name: Prepare OpenCC
+        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+      - name: Build wheels - OpenCC
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
@@ -131,6 +157,14 @@ jobs:
         with:
           python-version: 3.x
       - name: Build wheels
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
+      - name: Prepare OpenCC
+        run: mv pyo3/pyproject-opencc.toml pyo3/pyproject.toml
+      - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
           target: ${{ matrix.platform.target }}

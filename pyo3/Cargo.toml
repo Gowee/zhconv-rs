@@ -17,4 +17,3 @@ crate-type = ["cdylib"]
 zhconv = { path = "../" }
 pyo3 = { version = "0.23", features = ["extension-module", "abi3-py39"] }
 pyo3-file = "0.10.0"
-
