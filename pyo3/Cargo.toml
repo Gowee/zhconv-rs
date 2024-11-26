@@ -7,11 +7,13 @@ license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
 description = "zhconv as in MediaWiki, oxidized with more efficiency 🦀"
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
 name = "zhconv_rs"
 crate-type = ["cdylib"]
+
+[features]
+default = []
+opencc = ["zhconv/opencc"]
 
 [dependencies]
 zhconv = { path = "../" }
