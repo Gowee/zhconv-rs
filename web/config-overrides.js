@@ -30,12 +30,12 @@ module.exports = function override(config, env) {
     });
   });
 
-  // // Add a dedicated loader for WASM
-  // config.module.rules.push({
-  //   test: wasmExtensionRegExp,
-  //   include: path.resolve(__dirname, 'src'),
-  //   use: [{ loader: require.resolve('wasm-loader'), options: {} }]
-  // });
+  // Add a dedicated loader for WASM
+  config.module.rules.push({
+    test: wasmExtensionRegExp,
+    include: path.resolve(__dirname, 'src'),
+    use: [{ loader: require.resolve('wasm-loader'), options: {} }]
+  });
 
   removeModuleScopePlugin()(config);
 
