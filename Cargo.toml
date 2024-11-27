@@ -1,7 +1,7 @@
 [package]
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 categories = ["text-processing", "localization", "value-formatting", "wasm"]
-description = "Traditional/Simplified and regional Chinese variants converter based on MediaWiki & OpenCC rulesets and powered by AC automata  轉換简体、繁體及兩岸、新馬中文地區詞，基於MediaWiki和OpenCC之字詞轉換表"
+description = "Traditional/Simplified and regional Chinese variants converter backed by MediaWiki & OpenCC rulesets and the Aho-Corasick algorithm 中文简繁及地區詞轉換，基於MediaWiki和OpenCC之字詞轉換表"
 edition = "2021"
 license = "GPL-2.0-or-later"
 name = "zhconv"

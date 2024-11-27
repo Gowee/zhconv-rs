@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-description = "zhconv as in MediaWiki, oxidized with more efficiency 🦀"
+description = "zhconv as in MediaWiki, 🦀oxidized for more efficiency"
 
 [lib]
 name = "zhconv_rs"
