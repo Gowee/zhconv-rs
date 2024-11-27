@@ -81,10 +81,10 @@ jobs:
       run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
     - name: Check Format
       run: cargo fmt -- --check
-    # - name: Install Typst:
-    #   run: curl -fsSL https://typst.community/typst-install/install.sh | sh
-    # - name: Typst Compile
-    #   run: typst compile example.typ
+    - name: Install Typst
+      run: curl -fsSL https://typst.community/typst-install/install.sh | sh
+    - name: Typst Compile
+      run: typst compile example.typ
 
   # now Pages.dev do this for us
   # build-web:
