@@ -8,14 +8,14 @@ const DATA689K: &str = include_str!("data689k.txt");
 const DATA3185K: &str = include_str!("data3185k.txt");
 
 const CONVTUPLES: [(&str, Variant); 8] = [
-    ("zh2Hant", Variant::ZhHant),
-    ("zh2Hans", Variant::ZhHans),
-    ("zh2TW", Variant::ZhTW),
-    ("zh2HK", Variant::ZhHK),
-    ("zh2MO", Variant::ZhMO),
-    ("zh2CN", Variant::ZhCN),
-    ("zh2SG", Variant::ZhSG),
-    ("zh2MY", Variant::ZhMY),
+    ("ZH_TO_HANT", Variant::ZhHant),
+    ("ZH_TO_HANS", Variant::ZhHans),
+    ("ZH_TO_TW", Variant::ZhTW),
+    ("ZH_TO_HK", Variant::ZhHK),
+    ("ZH_TO_MO", Variant::ZhMO),
+    ("ZH_TO_CN", Variant::ZhCN),
+    ("ZH_TO_SG", Variant::ZhSG),
+    ("ZH_TO_MY", Variant::ZhMY),
 ];
 
 fn criterion_benchmark(c: &mut Criterion) {
@@ -83,43 +83,43 @@ fn criterion_benchmark(c: &mut Criterion) {
         }
     }
 
-    c.bench_function("zh2CN wikitext basic", |b| {
+    c.bench_function("ZH_TO_CN wikitext basic", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_CN_CONVERTER.convert_as_wikitext_basic(WIKITEXT)
         })
     });
-    c.bench_function("zh2TW wikitext basic", |b| {
+    c.bench_function("ZH_TO_TW wikitext basic", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert_as_wikitext_basic(WIKITEXT)
         })
     });
-    c.bench_function("zh2TW wikitext extended", |b| {
+    c.bench_function("ZH_TO_TW wikitext extended", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert_as_wikitext_extended(WIKITEXT)
         })
     });
-    c.bench_function("zh2CN 天乾物燥", |b| {
+    c.bench_function("ZH_TO_CN 天乾物燥", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert("天乾物燥"))
     });
-    c.bench_function("zh2TW data54k", |b| {
+    c.bench_function("ZH_TO_TW data54k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA54K))
     });
-    c.bench_function("zh2CN data54k", |b| {
+    c.bench_function("ZH_TO_CN data54k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert(DATA54K))
     });
-    c.bench_function("zh2Hant data689k", |b| {
+    c.bench_function("ZH_TO_HANT data689k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_HANT_CONVERTER.convert(DATA689K))
     });
-    c.bench_function("zh2TW data689k", |b| {
+    c.bench_function("ZH_TO_TW data689k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA689K))
     });
-    c.bench_function("zh2Hant data3185k", |b| {
+    c.bench_function("ZH_TO_HANT data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_HANT_CONVERTER.convert(DATA3185K))
     });
-    c.bench_function("zh2TW data3185k", |b| {
+    c.bench_function("ZH_TO_TW data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA3185K))
     });
-    c.bench_function("zh2TW data55m", |b| {
+    c.bench_function("ZH_TO_TW data55m", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert(
                 &(String::from(DATA3185K)
