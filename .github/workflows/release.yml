@@ -71,7 +71,7 @@ jobs:
           strip -v "$f" || echo "strip failed"
         working-directory: ./cli
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: binaries
           path: cli/bin/
@@ -81,11 +81,11 @@ jobs:
     if: "startsWith(github.ref, 'refs/tags/')"
     needs: [compile]
     steps:
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4
         with:
           name: binaries
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: |
             *
