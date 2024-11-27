@@ -92,7 +92,7 @@ def cgroup_templates(site):
             "Template:CGroup/sandbox",
             "Template:CGroup/CHead",
             "Template:CGroup/editintro",
-            "Template:CGroup/New Style"
+            "Template:CGroup/New Style",
             # "Template:CGroup/Science" # including several other templates
         }:
             continue  # not targets
@@ -141,7 +141,7 @@ def parse_module_line(s):
             s = s[1:-1]
             if args := parse_lua_args(s):
                 args = args[1]  # kwargs
-                if "original" in args or "rule" in args: # O.W. it might not be a rule
+                if "original" in args or "rule" in args:  # O.W. it might not be a rule
                     return (args.get("original", ""), args.get("rule", ""))
         elif s.startswith("Item(") and s.endswith(")"):
             s = s[5:-1]

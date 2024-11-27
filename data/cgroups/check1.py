@@ -20,7 +20,7 @@ def combine_names(name, desc):
 
 def check_conv(conv):
     # packed = "\n".join(rule['conv'] for rule in rules)
-    # packed = "" 
+    # packed = ""
     # for rule in rules:
     #     # rule['original'] is unused for now
     #     packed += f"-{{H|{rule['conv']}}}-"
@@ -31,7 +31,8 @@ def check_conv(conv):
                 print("E1", conv, f"no => in {single}")
                 break
             f, t = single.split("=>")
-            f = f.strip();t = t.strip()
+            f = f.strip()
+            t = t.strip()
             if ff is None:
                 ff = f
             elif f != ff:
@@ -47,7 +48,7 @@ def main():
             cgroup = json.loads(f.read())
             # name = combine_names(cgroup["name"], cgroup['description'])
             for rule in cgroup["rules"]:
-                check_conv(rule['conv'])
+                check_conv(rule["conv"])
             # cgroups[name] = rules
     with open(OUTPUT_PATH, "w") as f:
         f.write(json.dumps(cgroups, ensure_ascii=False, indent=2))

@@ -18,12 +18,12 @@ use vergen::EmitBuilder;
 use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
-const MEDIAWIKI_COMMIT: &str = "2216fa38ffa9fd6c026fbc3268564c772f447f90";
+const MEDIAWIKI_COMMIT: &str = "7e8ae4dd01a659ecda127088bd1d227f4a1a1c68";
 const MEDIAWIKI_SHA256: [u8; 32] =
-    hex!("b6d1663e72ff4165c96933ab89d0b5bf4e838bb76961412df7d9c20b7dac5dc3");
+    hex!("128e3240f31ad69513ec26b38c04b9ab485508429a2b9b4877e0926a0155d6a8");
 
 #[cfg(feature = "opencc")]
-const OPENCC_COMMIT: &str = "e5d6c5f1b78e28a5797e7ad3ede3513314e544b7";
+const OPENCC_COMMIT: &str = "2c7187e33b77bd8a356c676843cda69d2fccf887";
 #[cfg(feature = "opencc")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     (
@@ -36,11 +36,11 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "STCharacters.txt",
-        hex!("9207708da9f2e2a248f39c457b2fccad26ec42e7efaf47a860e6900464f4cac5"),
+        hex!("ed1d268e0ad028511dcf5b0089faed0a980ad332449ec11d481ceefde6879f41"),
     ),
     (
         "STPhrases.txt",
-        hex!("1411418f98dd7666a4ee673619654ed1e0518ec97953315cc10656c30c7015bb"),
+        hex!("3e24d511fac0fc293e41ea116c7b2f2ecbfb1f594ea741f54e051c9b986a908e"),
     ),
     (
         "TSCharacters.txt",
@@ -48,11 +48,11 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "TSPhrases.txt",
-        hex!("b2ef895dd4953b4bb77fc8ef8d26a2a9ca6d43a760ed9a1d767672cfafa6324f"),
+        hex!("504169029c43f7f234b8e2ae470720af3657675c5574ff8aa0feb257e1dc5ce2"),
     ),
     (
         "TWPhrasesIT.txt",
-        hex!("b04fcabd8e2b21ab4cec81bab557173f270f01c56bc9da7085ee24e5fa6e7aa4"),
+        hex!("3a4a2ad207f3a9442eb8f399630cf982c2ffc561df9c58b2ee352cfa023915c1"),
     ),
     (
         "TWPhrasesName.txt",
@@ -60,7 +60,7 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "TWPhrasesOther.txt",
-        hex!("06d9e1a24b1f87431e029d38cdf67a35d32b96a08df736cf1a362477dd39f7c7"),
+        hex!("6d0365fd180283f3e14b44f63d19d1aca045d60b0e000765902ad889a90d7a33"),
     ),
     (
         "TWVariants.txt",
