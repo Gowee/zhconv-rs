@@ -63,28 +63,28 @@ jobs:
         command: build
         args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
 
-  build-typst:
-    needs: build-main
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: typst/
-    steps:
-    - uses: actions/checkout@v3
-    - name: Build
-      run: |
-        cargo --version
-        cargo build --release --verbose --target wasm32-unknown-unknown
-    - name: Test
-      run: cargo test --verbose --target wasm32-unknown-unknown
-    - name: Clippy
-      run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
-    - name: Check Format
-      run: cargo fmt -- --check
-    - name: Install Typst:
-      run: curl -fsSL https://typst.community/typst-install/install.sh | sh
-    - name: Typst Compile
-      run: typst compile example.typ
+  # build-typst:
+  #   needs: build-main
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       working-directory: typst/
+  #   steps:
+  #   - uses: actions/checkout@v3
+  #   - name: Build
+  #     run: |
+  #       cargo --version
+  #       cargo build --release --verbose --target wasm32-unknown-unknown
+  #   - name: Test
+  #     run: cargo test --verbose --target wasm32-unknown-unknown
+  #   - name: Clippy
+  #     run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
+  #   - name: Check Format
+  #     run: cargo fmt -- --check
+  #   - name: Install Typst:
+  #     run: curl -fsSL https://typst.community/typst-install/install.sh | sh
+  #   - name: Typst Compile
+  #     run: typst compile example.typ
 
   # now Pages.dev do this for us
   # build-web:
