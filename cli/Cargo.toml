@@ -1,6 +1,6 @@
 [package]
 name = "zhconv-cli"
-version = "0.3.1"
+version = "0.3.2"
 edition = "2021"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-2.0-or-later"
@@ -13,7 +13,7 @@ name = "zhconv"
 path = "src/main.rs"
 
 [dependencies]
-zhconv = { version = "0.3.1", path = "../", features = ["opencc"] }
+zhconv = { version = "0.3.2", path = "../", features = ["opencc"] }
 structopt = "0.3"
 anyhow = "1.0"
 log = "0.4"

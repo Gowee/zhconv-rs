@@ -242,12 +242,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "lazy_static"
-version = "1.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
-
-[[package]]
 name = "libc"
 version = "0.2.164"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -867,13 +861,12 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 
 [[package]]
 name = "zhconv"
-version = "0.3.1"
+version = "0.3.2"
 dependencies = [
  "console_error_panic_hook",
  "daachorse",
  "hex-literal",
  "itertools",
- "lazy_static",
  "once_cell",
  "regex",
  "ruzstd",
@@ -886,7 +879,7 @@ dependencies = [
 
 [[package]]
 name = "zhconv-pyo3"
-version = "0.3.1"
+version = "0.3.2"
 dependencies = [
  "pyo3",
  "pyo3-file",
