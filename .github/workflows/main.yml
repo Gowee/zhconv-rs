@@ -80,7 +80,9 @@ jobs:
         cargo --version
         cargo build --release --verbose --target wasm32-unknown-unknown
     - name: Typst Compile
-      run: typst compile example.typ
+      run: |
+        cp target/wasm32-unknown-unknown/release/zhconv_typst.wasm ./
+        /home/runner/.typst/bin/typst compile example.typ
     - name: Clippy
       run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
     - name: Check Format
