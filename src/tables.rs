@@ -12,20 +12,6 @@ use crate::converter::{ZhConverter, ZhConverterBuilder};
 use crate::Variant;
 
 pub type Table<'s> = (&'s str, &'s str);
-// pub struct Table<'s> {
-//     daac: &'s [u8],
-//     froms: &'s str,
-//     tos: &'s str
-// }
-// pub(crate) const ZH_HANT_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/zh2Hant.daac"));
-// pub fn daac() -> usize {
-//     let mut buf = vec![];
-//     StreamingDecoder::new(ZH_HANT_DAAC).unwrap().read_to_end(&mut buf).unwrap();
-//     unsafe {daachorse::CharwiseDoubleArrayAhoCorasick::<usize>::deserialize_unchecked(&buf).0.heap_bytes()}
-
-//     // unsafe {daachorse::CharwiseDoubleArrayAhoCorasick::<usize>::deserialize_unchecked(&lz4_flex::decompress_size_prepended(ZH_HANT_DAAC).unwrap())}.0.heap_bytes()
-// }
-
 // pub(crate) const EMPTY_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/empty.daac"));
 
 /// Empty table
@@ -33,38 +19,38 @@ pub const ZH_TABLE: Table<'static> = ("", "");
 pub(crate) const ZH_TABLES: [Table; 0] = [];
 /// Simplified Chinese to Traditional Chinese conversion table, including no region-specific phrases
 pub const ZH_HANT_TABLE: Table<'static> = (
-    include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.from.conv")),
-    include_str!(concat!(env!("OUT_DIR"), "/zh2Hant.to.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT.from.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT.to.conv")),
 );
 pub(crate) const ZH_HANT_TABLES: [Table; 1] = [ZH_HANT_TABLE];
 #[doc(hidden)]
-pub(crate) const ZH_HANT_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/zh2Hant.daac"));
+pub(crate) const ZH_HANT_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT.daac"));
 /// Traditional Chinese to Simplified Chinese conversion table, including no region-specific phrases
 pub const ZH_HANS_TABLE: Table<'static> = (
-    include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.from.conv")),
-    include_str!(concat!(env!("OUT_DIR"), "/zh2Hans.to.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS.from.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS.to.conv")),
 );
 pub(crate) const ZH_HANS_TABLES: [Table; 1] = [ZH_HANS_TABLE];
 #[doc(hidden)]
-pub(crate) const ZH_HANS_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/zh2Hans.daac"));
+pub(crate) const ZH_HANS_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS.daac"));
 /// Taiwan-specific phrases conversion table, excluding `ZH_HANT_TABLE`
 pub const ZH_TW_TABLE: Table<'static> = (
-    include_str!(concat!(env!("OUT_DIR"), "/zh2TW.from.conv")),
-    include_str!(concat!(env!("OUT_DIR"), "/zh2TW.to.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_TW.from.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_TW.to.conv")),
 );
 pub(crate) const ZH_HANT_TW_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_TW_TABLE];
 #[doc(hidden)]
 pub(crate) const ZH_HANT_TW_DAAC: &[u8] =
-    include_bytes!(concat!(env!("OUT_DIR"), "/zh2HantTW.daac"));
+    include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT_TW.daac"));
 /// Hong Kong-specific phrases conversion table, excluding `ZH_HANT_TABLE`
 pub const ZH_HK_TABLE: Table<'static> = (
-    include_str!(concat!(env!("OUT_DIR"), "/zh2HK.from.conv")),
-    include_str!(concat!(env!("OUT_DIR"), "/zh2HK.to.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HK.from.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HK.to.conv")),
 );
 pub(crate) const ZH_HANT_HK_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_HK_TABLE];
 #[doc(hidden)]
 pub(crate) const ZH_HANT_HK_DAAC: &[u8] =
-    include_bytes!(concat!(env!("OUT_DIR"), "/zh2HantHK.daac"));
+    include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT_HK.daac"));
 /// Macao-specific phrases conversion table, excluding `ZH_HANT_TABLE`
 pub const ZH_MO_TABLE: Table<'static> = ZH_HK_TABLE;
 pub(crate) const ZH_HANT_MO_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_MO_TABLE];
@@ -72,13 +58,13 @@ pub(crate) const ZH_HANT_MO_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_MO_TABLE];
 pub(crate) const ZH_HANT_MO_DAAC: &[u8] = ZH_HANT_HK_DAAC;
 /// Mainland China-specific phrases conversion table, excluding `ZH_HANS_TABLE`
 pub const ZH_CN_TABLE: Table<'static> = (
-    include_str!(concat!(env!("OUT_DIR"), "/zh2CN.from.conv")),
-    include_str!(concat!(env!("OUT_DIR"), "/zh2CN.to.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_CN.from.conv")),
+    include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_CN.to.conv")),
 );
 pub(crate) const ZH_HANS_CN_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_CN_TABLE];
 #[doc(hidden)]
 pub(crate) const ZH_HANS_CN_DAAC: &[u8] =
-    include_bytes!(concat!(env!("OUT_DIR"), "/zh2HansCN.daac"));
+    include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS_CN.daac"));
 /// Singapore-specific phrases conversion table, excluding `ZH_HANS_TABLE`
 pub const ZH_SG_TABLE: Table<'static> = ZH_CN_TABLE;
 pub(crate) const ZH_HANS_SG_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_SG_TABLE];
@@ -89,63 +75,6 @@ pub const ZH_MY_TABLE: Table<'static> = ZH_SG_TABLE;
 pub(crate) const ZH_HANS_MY_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_MY_TABLE];
 #[doc(hidden)]
 pub(crate) const ZH_HANS_MY_DAAC: &[u8] = ZH_HANS_SG_DAAC;
-
-// // Ref: https://github.com/wikimedia/mediawiki/blob/6eda8891a0595e72e350998b6bada19d102a42d9/includes/language/converters/ZhConverter.php#L157
-// // More specific rules should take precedence when merging (e.g. zh-TW > zh-Hant).
-// // Since the converter build process relies on HashMap::extend, latter rules overwrite the early ones.
-// lazy_static! {
-//     /// For `ZH_TO_TW_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_TW_TABLE`
-//     pub static ref ZH_HANT_TW_TABLE: (&'static str, &'static str) =
-//         merge_tables_leaked(ZH_HANT_TABLE, ZH_TW_TABLE);
-//     /// For `ZH_TO_HK_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_HK_TABLE`
-//     pub static ref ZH_HANT_HK_TABLE: (&'static str, &'static str) =
-//         merge_tables_leaked(ZH_HANT_TABLE, ZH_HK_TABLE);
-//     /// For `ZH_TO_MO_CONVERTER`, merged from `ZH_HANT_TABLE` and `ZH_MO_TABLE`
-//     pub static ref ZH_HANT_MO_TABLE: (&'static str, &'static str) =
-//         merge_tables_leaked(ZH_HANT_TABLE, ZH_MO_TABLE);
-//     /// For `ZH_TO_CN_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_CN_TABLE`
-//     pub static ref ZH_HANS_CN_TABLE: (&'static str, &'static str) =
-//         merge_tables_leaked(ZH_HANS_TABLE, ZH_CN_TABLE);
-//     /// For `ZH_TO_SG_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_SG_TABLE`
-//     pub static ref ZH_HANS_SG_TABLE: (&'static str, &'static str) =
-//         merge_tables_leaked(ZH_HANS_TABLE, ZH_SG_TABLE);
-//     /// For `ZH_TO_MY_CONVERTER`, merged from `ZH_HANS_TABLE` and `ZH_MY_TABLE`
-//     pub static ref ZH_HANS_MY_TABLE: (&'static str, &'static str) =
-//         merge_tables_leaked(ZH_HANS_TABLE, ZH_MY_TABLE);
-// }
-
-// // TODO: How to make these lazy consts more idiomatic?
-
-// /// Merge two conversion Table<'static> and leak the merged string.
-// fn merge_tables_leaked(conv1: Table, conv2: Table) -> (&'static str, &'static str) {
-//     let (froms, tos) = merge_tables(conv1, conv2);
-//     (
-//         Box::leak(froms.into_boxed_str()),
-//         Box::leak(tos.into_boxed_str()),
-//     )
-// }
-
-// /// Merge two conversion table.
-// pub fn merge_tables(conv1: Table, conv2: Table) -> (String, String) {
-//     let mut froms = String::with_capacity(conv1.0.len() + conv2.0.len());
-//     let mut tos = String::with_capacity(conv1.1.len() + conv2.1.len());
-//     // merge_by detains the first occurrence
-//     let mut it = itertools::Itertools::merge_by(
-//         std::iter::zip(conv1.0.trim().split('|'), conv1.1.trim().split('|')),
-//         std::iter::zip(conv2.0.trim().split('|'), conv2.1.trim().split('|')),
-//         |pair1, pair2| pair1.0.len() >= pair2.0.len(),
-//     )
-//     .peekable();
-//     while let Some((from, to)) = it.next() {
-//         froms.push_str(from);
-//         tos.push_str(to);
-//         if it.peek().is_some() {
-//             froms.push('|');
-//             tos.push('|');
-//         }
-//     }
-//     (froms, tos)
-// }
 
 /// Expand a compressed built-in conversion table.
 pub fn expand_table((froms, tos): Table<'_>) -> impl Iterator<Item = (String, String)> + '_ {

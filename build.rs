@@ -18,12 +18,12 @@ use vergen::EmitBuilder;
 use self::opencc::load_opencc_to;
 
 // To update upstream dataset: manually update commits here and run data/update_basic.py
-const MEDIAWIKI_COMMIT: &str = "2216fa38ffa9fd6c026fbc3268564c772f447f90";
+const MEDIAWIKI_COMMIT: &str = "7e8ae4dd01a659ecda127088bd1d227f4a1a1c68";
 const MEDIAWIKI_SHA256: [u8; 32] =
-    hex!("b6d1663e72ff4165c96933ab89d0b5bf4e838bb76961412df7d9c20b7dac5dc3");
+    hex!("128e3240f31ad69513ec26b38c04b9ab485508429a2b9b4877e0926a0155d6a8");
 
 #[cfg(feature = "opencc")]
-const OPENCC_COMMIT: &str = "e5d6c5f1b78e28a5797e7ad3ede3513314e544b7";
+const OPENCC_COMMIT: &str = "2c7187e33b77bd8a356c676843cda69d2fccf887";
 #[cfg(feature = "opencc")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     (
@@ -36,11 +36,11 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "STCharacters.txt",
-        hex!("9207708da9f2e2a248f39c457b2fccad26ec42e7efaf47a860e6900464f4cac5"),
+        hex!("ed1d268e0ad028511dcf5b0089faed0a980ad332449ec11d481ceefde6879f41"),
     ),
     (
         "STPhrases.txt",
-        hex!("1411418f98dd7666a4ee673619654ed1e0518ec97953315cc10656c30c7015bb"),
+        hex!("3e24d511fac0fc293e41ea116c7b2f2ecbfb1f594ea741f54e051c9b986a908e"),
     ),
     (
         "TSCharacters.txt",
@@ -48,11 +48,11 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "TSPhrases.txt",
-        hex!("b2ef895dd4953b4bb77fc8ef8d26a2a9ca6d43a760ed9a1d767672cfafa6324f"),
+        hex!("504169029c43f7f234b8e2ae470720af3657675c5574ff8aa0feb257e1dc5ce2"),
     ),
     (
         "TWPhrasesIT.txt",
-        hex!("b04fcabd8e2b21ab4cec81bab557173f270f01c56bc9da7085ee24e5fa6e7aa4"),
+        hex!("3a4a2ad207f3a9442eb8f399630cf982c2ffc561df9c58b2ee352cfa023915c1"),
     ),
     (
         "TWPhrasesName.txt",
@@ -60,7 +60,7 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "TWPhrasesOther.txt",
-        hex!("06d9e1a24b1f87431e029d38cdf67a35d32b96a08df736cf1a362477dd39f7c7"),
+        hex!("6d0365fd180283f3e14b44f63d19d1aca045d60b0e000765902ad889a90d7a33"),
     ),
     (
         "TWVariants.txt",
@@ -88,7 +88,7 @@ fn main() -> io::Result<()> {
         // while not covering them in whole.
         #[cfg(feature = "opencc")]
         match name.as_ref() {
-            "zh2Hans" => {
+            "ZH_TO_HANS" => {
                 // hk2s & tw2s & t2s
                 load_opencc_to!(
                     &mut pairs,
@@ -101,13 +101,13 @@ fn main() -> io::Result<()> {
                     [TSCharacters, TSPhrases]
                 );
             }
-            "zh2Hant" => {
+            "ZH_TO_HANT" => {
                 // s2t & hk2t & tw2t
                 load_opencc_to!(&mut pairs, [HKVariantsRevPhrases, !HKVariants]);
                 load_opencc_to!(&mut pairs, [TWVariantsRevPhrases, !TWVariants]);
                 load_opencc_to!(&mut pairs, [STCharacters, STPhrases]);
             }
-            "zh2TW" => {
+            "ZH_TO_TW" => {
                 // s2twp & t2tw
                 load_opencc_to!(
                     &mut pairs,
@@ -116,12 +116,12 @@ fn main() -> io::Result<()> {
                     [TWVariants]
                 );
             }
-            "zh2HK" => {
+            "ZH_TO_HK" => {
                 // s2hk & t2hk
                 load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [HKVariants]);
             }
-            "zh2MO" => {}
-            "zh2CN" => {
+            "ZH_TO_MO" => {}
+            "ZH_TO_CN" => {
                 // tw2sp & hk2s
                 load_opencc_to!(
                     &mut pairs,
@@ -140,8 +140,8 @@ fn main() -> io::Result<()> {
                     [TSPhrases, TSCharacters]
                 );
             }
-            "zh2SG" => {}
-            "zh2MY" => {}
+            "ZH_TO_SG" => {}
+            "ZH_TO_MY" => {}
             _ => (),
         }
 
@@ -149,49 +149,50 @@ fn main() -> io::Result<()> {
         sort_and_dedup(pairs);
     }
 
-    let hans_pairs = zhconvs.remove("zh2Hans").unwrap();
-    write_conv_file("zh2Hans", &hans_pairs)?;
+    let hans_pairs = zhconvs.remove("ZH_TO_HANS").unwrap();
+    write_conv_file("ZH_TO_HANS", &hans_pairs)?;
     // let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
-    write_daac_file("zh2Hans", &hans_pairs)?;
+    write_daac_file("ZH_TO_HANS", &hans_pairs)?;
     let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
 
-    let hant_pairs = zhconvs.remove("zh2Hant").unwrap();
-    write_conv_file("zh2Hant", &hant_pairs)?;
+    let hant_pairs = zhconvs.remove("ZH_TO_HANT").unwrap();
+    write_conv_file("ZH_TO_HANT", &hant_pairs)?;
     // let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
-    write_daac_file("zh2Hant", &hant_pairs)?;
+    write_daac_file("ZH_TO_HANT", &hant_pairs)?;
     let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
 
-    let mut cn_pairs = zhconvs.remove("zh2CN").unwrap();
+    let mut cn_pairs = zhconvs.remove("ZH_TO_CN").unwrap();
     cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
-    // write_conv_file("zh2CN", &cn_pairs)?;
+    // write_conv_file("ZH_TO_CN", &cn_pairs)?;
     // cn_pairs.extend();
-    write_conv_file("zh2CN", &cn_pairs)?;
+    write_conv_file("ZH_TO_CN", &cn_pairs)?;
     let mut hans_cn_pairs = hans_pairs;
     hans_cn_pairs.extend(cn_pairs);
     // sort_and_dedup(&mut hans_cn_pairs);
-    write_daac_file("zh2HansCN", &hans_cn_pairs)?;
+    write_daac_file("ZH_TO_HANS_CN", &hans_cn_pairs)?;
 
-    // Here, zh2Hant | zh2TW => zh2HantTW, etc. In other places, zh2TW might imply zh2HantTW.
+    // FIXME: doc
+    // Here, ZH_TO_HANT | ZH_TO_TW => ZH_TO_HANT_TW, etc. In other places, ZH_TO_TW might imply ZH_TO_HANT_TW.
 
-    let mut tw_pairs = zhconvs.remove("zh2TW").unwrap();
+    let mut tw_pairs = zhconvs.remove("ZH_TO_TW").unwrap();
     tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-    // write_conv_file("zh2TW", &tw_pairs)?;
+    // write_conv_file("ZH_TO_TW", &tw_pairs)?;
     // tw_pairs.extend(.into_iter());
-    write_conv_file("zh2TW", &tw_pairs)?;
+    write_conv_file("ZH_TO_TW", &tw_pairs)?;
     let mut hant_tw_pairs = hant_pairs.clone();
     hant_tw_pairs.extend(tw_pairs);
     // sort_and_dedup(&mut hant_tw_pairs);
-    write_daac_file("zh2HantTW", &hant_tw_pairs)?;
+    write_daac_file("ZH_TO_HANT_TW", &hant_tw_pairs)?;
 
-    let mut hk_pairs = zhconvs.remove("zh2HK").unwrap();
+    let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
     hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-    // write_conv_file("zh2HK", &hk_pairs)?;
-    // hk_pairs.extend(zhconvs.remove("zh2HK").unwrap().into_iter());
-    write_conv_file("zh2HK", &hk_pairs)?;
+    // write_conv_file("ZH_TO_HK", &hk_pairs)?;
+    // hk_pairs.extend(zhconvs.remove("ZH_TO_HK").unwrap().into_iter());
+    write_conv_file("ZH_TO_HK", &hk_pairs)?;
     let mut hant_hk_pairs = hant_pairs;
     hant_hk_pairs.extend(hk_pairs);
     // sort_and_dedup(&mut hant_hk_pairs);
-    write_daac_file("zh2HantHK", &hant_hk_pairs)?;
+    write_daac_file("ZH_TO_HANT_HK", &hant_hk_pairs)?;
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
@@ -225,7 +226,7 @@ fn main() -> io::Result<()> {
 }
 
 fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
-    let patb = Regex::new(r"public static \$(\w+) = \[([^]]+)\]?;").unwrap();
+    let patb = Regex::new(r"public const (\w+) = \[([^]]+)\]?;").unwrap();
     let patl = Regex::new(r"'(.+?)' *=> *'(.+?)' *,?\n").unwrap();
     let mut res = HashMap::new();
 
