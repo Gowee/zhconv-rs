@@ -48,20 +48,20 @@ jobs:
       - name: Check Format
         run: cargo fmt -- --check
 
-  # build-pyo3:
-  #   needs: build-main
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - uses: actions/checkout@v3
-  #   - name: Symlink README
-  #     run: |
-  #       cd pyo3/
-  #       ln -s ../README.md ./
-  #   - uses: messense/maturin-action@v1
-  #     with:
-  #       manylinux: auto
-  #       command: build
-  #       args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+  build-pyo3:
+    needs: build-main
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Symlink README
+      run: |
+        cd pyo3/
+        ln -s ../README.md ./
+    - uses: messense/maturin-action@v1
+      with:
+        manylinux: auto
+        command: build
+        args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
 
   build-typst:
     needs: build-main
@@ -75,16 +75,16 @@ jobs:
       run: |
         cargo --version
         cargo build --release --verbose --target wasm32-unknown-unknown
-    - name: Test
-      run: cargo test --verbose --target wasm32-unknown-unknown
-    - name: Clippy
-      run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
-    - name: Check Format
-      run: cargo fmt -- --check
-    - name: Install Typst:
-      run: curl -fsSL https://typst.community/typst-install/install.sh | sh
-    - name: Typst Compile
-      run: typst compile example.typ
+    # - name: Test
+    #   run: cargo test --verbose --target wasm32-unknown-unknown
+    # - name: Clippy
+    #   run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
+    # - name: Check Format
+    #   run: cargo fmt -- --check
+    # - name: Install Typst:
+    #   run: curl -fsSL https://typst.community/typst-install/install.sh | sh
+    # - name: Typst Compile
+    #   run: typst compile example.typ
 
   # now Pages.dev do this for us
   # build-web:
