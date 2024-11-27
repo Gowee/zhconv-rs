@@ -75,12 +75,12 @@ jobs:
       run: |
         cargo --version
         cargo build --release --verbose --target wasm32-unknown-unknown
-    # - name: Test
-    #   run: cargo test --verbose --target wasm32-unknown-unknown
-    # - name: Clippy
-    #   run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
-    # - name: Check Format
-    #   run: cargo fmt -- --check
+    - name: Test
+      run: cargo test --verbose --target wasm32-unknown-unknown
+    - name: Clippy
+      run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
+    - name: Check Format
+      run: cargo fmt -- --check
     # - name: Install Typst:
     #   run: curl -fsSL https://typst.community/typst-install/install.sh | sh
     # - name: Typst Compile
