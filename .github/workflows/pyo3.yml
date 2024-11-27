@@ -183,8 +183,8 @@ jobs:
           sccache: 'true'
       - name: Prepare OpenCC
         run: |
-          gsed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
-          gsed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
+          sed -i'' -e 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i'' -e 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
       - name: Build wheels - OpenCC
         uses: PyO3/maturin-action@v1
         with:
