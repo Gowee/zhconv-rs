@@ -52,6 +52,18 @@ jobs:
           args: --release -o pyo3/dist --sdist --find-interpreter -m pyo3/Cargo.toml
           sccache: 'true'
           manylinux: auto
+      - name: Prepare OpenCC
+        run: |
+          sed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
+          sed -i 's/\(description = ".*\)"$/\1 (with OpenCC dicts)"/' pyo3/Cargo.toml
+      - name: Build wheels - OpenCC
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --sdist --find-interpreter -m pyo3/Cargo.toml -F opencc
+          sccache: 'true'
+          manylinux: auto
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
@@ -73,6 +85,10 @@ jobs:
             target: armv7
     steps:
       - uses: actions/checkout@v4
+      - name: Symlink README
+        run: |
+          cd pyo3/
+          ln -s ../README.md ./
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -81,6 +97,17 @@ jobs:
         with:
           target: ${{ matrix.platform.target }}
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
+          manylinux: musllinux_1_2
+      - name: Prepare OpenCC
+        run: |
+          sed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
+      - name: Build wheels - OpenCC
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml -F opencc
           sccache: 'true'
           manylinux: musllinux_1_2
       - name: Upload wheels
@@ -100,6 +127,10 @@ jobs:
             target: x86
     steps:
       - uses: actions/checkout@v4
+      - name: Symlink README
+        run: |
+          cd pyo3/
+          ln -s ../README.md ./
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -109,6 +140,16 @@ jobs:
         with:
           target: ${{ matrix.platform.target }}
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
+      - name: Prepare OpenCC
+        run: |
+          sed -i 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
+      - name: Build wheels - OpenCC
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml -F opencc
           sccache: 'true'
       - name: Upload wheels
         uses: actions/upload-artifact@v4
@@ -127,6 +168,10 @@ jobs:
             target: aarch64
     steps:
       - uses: actions/checkout@v4
+      - name: Symlink README
+        run: |
+          cd pyo3/
+          ln -s ../README.md ./
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -135,6 +180,16 @@ jobs:
         with:
           target: ${{ matrix.platform.target }}
           args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+          sccache: 'true'
+      - name: Prepare OpenCC
+        run: |
+          sed -i'' -e 's/name = "zhconv-rs"/name = "zhconv-rs-opencc"/' pyo3/pyproject.toml
+          sed -i'' -e 's/name = "zhconv_rs"/name = "zhconv_rs_opencc"/' pyo3/Cargo.toml
+      - name: Build wheels - OpenCC
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          args: --release -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml -F opencc
           sccache: 'true'
       - name: Upload wheels
         uses: actions/upload-artifact@v4

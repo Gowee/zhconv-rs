@@ -63,6 +63,31 @@ jobs:
         command: build
         args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
 
+  build-typst:
+    needs: build-main
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: typst/
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Wasm target for Rust
+      run: rustup target add wasm32-unknown-unknown
+    - name: Install Typst
+      run: curl -fsSL https://typst.community/typst-install/install.sh | sh
+    - name: Build
+      run: |
+        cargo --version
+        cargo build --release --verbose --target wasm32-unknown-unknown
+    - name: Typst Compile
+      run: |
+        cp target/wasm32-unknown-unknown/release/zhconv_typst.wasm ./
+        /home/runner/.typst/bin/typst compile example.typ
+    - name: Clippy
+      run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
+    - name: Check Format
+      run: cargo fmt -- --check
+
   # now Pages.dev do this for us
   # build-web:
   #   needs: build-main

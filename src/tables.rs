@@ -6,15 +6,9 @@
 // // ! should not be used on their own. For example, to convert text to `zh-TW` (i.e. `zh-Hant-TW`),
 // // ! both [`ZH_HANT_TABLE`] and [`ZH_TW_TABLE`] should specified together, in order, when building
 // // ! the converter.
-
-// use itertools;
-// use lazy_static::lazy_static;
-// use ruzstd::StreamingDecoder;
-
 use std::iter;
 
 use crate::converter::{ZhConverter, ZhConverterBuilder};
-
 use crate::Variant;
 
 pub type Table<'s> = (&'s str, &'s str);
