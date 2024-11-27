@@ -226,7 +226,7 @@ fn main() -> io::Result<()> {
 }
 
 fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
-    let patb = Regex::new(r"public static \$(\w+) = \[([^]]+)\]?;").unwrap();
+    let patb = Regex::new(r"public const (\w+) = \[([^]]+)\]?;").unwrap();
     let patl = Regex::new(r"'(.+?)' *=> *'(.+?)' *,?\n").unwrap();
     let mut res = HashMap::new();
 
