@@ -530,7 +530,7 @@ impl ZhConverter {
 /// A builder that helps build a [`ZhConverter`](ZhConverter).
 ///
 /// # Example
-/// Build a ZH_TO_HANS_CN converter with some additional rules.
+/// Build a Zh2CN converter with some additional rules.
 /// ```
 /// use zhconv::{zhconv, ZhConverterBuilder, Variant, get_builtin_tables};
 /// // extracted from https://zh.wikipedia.org/wiki/Template:CGroup/Template:CGroup/文學.
