@@ -12,7 +12,7 @@ use serde::Deserialize;
 use tower_service::Service;
 use worker::*;
 
-use std::env;
+// use std::{env, cell::OnceCell};
 
 fn router() -> Router {
     Router::new()
