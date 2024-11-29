@@ -12,7 +12,7 @@ use serde::Deserialize;
 use tower_service::Service;
 use worker::*;
 
-// use std::{env, cell::OnceCell};
+use std::{cell::OnceCell, env};
 
 fn router() -> Router {
     Router::new()
@@ -122,56 +122,55 @@ pub async fn is_hans(body: String) -> impl IntoResponse {
     is_hans_confidence(&body).to_string()
 }
 
-pub async fn version() -> String {
-    // env!("CARGO_PKG_VERSION").to_string()
-        let mut info = Vec::new();
+pub async fn version() -> impl IntoResponse {
+    let mut info = Vec::new();
 
-        if let Some(version) = option_env!("CARGO_PKG_VERSION") {
-            info.push(format!("Version: {}", version));
-        }    
-        // Build Information
-        if let Some(timestamp) = option_env!("VERGEN_BUILD_TIMESTAMP") {
-            info.push(format!("Built on: {}", timestamp));
-        }
-        if let Some(date) = option_env!("VERGEN_BUILD_DATE") {
-            info.push(format!("Build date: {}", date));
-        }
-        if let Some(debug) = option_env!("VERGEN_CARGO_DEBUG") {
-            info.push(format!("Debug build: {}", debug));
-        }
-        if let Some(features) = option_env!("VERGEN_CARGO_FEATURES") {
-            info.push(format!("Features: {}", features));
-        }
-        if let Some(target) = option_env!("VERGEN_CARGO_TARGET_TRIPLE") {
-            info.push(format!("Target: {}", target));
-        }
-        if let Some(rustc) = option_env!("VERGEN_RUSTC_VERSION") {
-            info.push(format!("Rust version: {}", rustc));
-        }
-    
-        // Git Information
-        if let Some(branch) = option_env!("VERGEN_GIT_BRANCH") {
-            info.push(format!("Branch: {}", branch));
-        }
-        if let Some(commit_date) = option_env!("VERGEN_GIT_COMMIT_DATE") {
-            info.push(format!("Commit date: {}", commit_date));
-        }
-        if let Some(sha) = option_env!("VERGEN_GIT_SHA") {
-            info.push(format!("Commit: {}", sha));
-        }
-        if let Some(describe) = option_env!("VERGEN_GIT_DESCRIBE") {
-            info.push(format!("Git describe: {}", describe));
-        }
-        if let Some(msg) = option_env!("VERGEN_GIT_COMMIT_MESSAGE") {
-            info.push(format!("Commit message: {}", msg));
-        }
-        if let Some(commit) = option_env!("MEDIAWIKI_COMMIT_HASH") {
-            info.push(format!("MediaWiki commit: {}", commit));
-        }
-        if let Some(commit) = option_env!("OPENCC_COMMIT_HASH") {
-            info.push(format!("OpenCC commit: {}", commit));
-        }
-    
-        // Join all available info with newlines
-        info.join("\n")
+    if let Some(version) = option_env!("CARGO_PKG_VERSION") {
+        info.push(format!("Version: {}", version));
+    }
+    // Build Information
+    if let Some(timestamp) = option_env!("VERGEN_BUILD_TIMESTAMP") {
+        info.push(format!("Built on: {}", timestamp));
+    }
+    if let Some(date) = option_env!("VERGEN_BUILD_DATE") {
+        info.push(format!("Build date: {}", date));
+    }
+    if let Some(debug) = option_env!("VERGEN_CARGO_DEBUG") {
+        info.push(format!("Debug build: {}", debug));
+    }
+    if let Some(features) = option_env!("VERGEN_CARGO_FEATURES") {
+        info.push(format!("Features: {}", features));
+    }
+    if let Some(target) = option_env!("VERGEN_CARGO_TARGET_TRIPLE") {
+        info.push(format!("Target: {}", target));
+    }
+    if let Some(rustc) = option_env!("VERGEN_RUSTC_VERSION") {
+        info.push(format!("Rust version: {}", rustc));
+    }
+
+    // Git Information
+    if let Some(branch) = option_env!("VERGEN_GIT_BRANCH") {
+        info.push(format!("Branch: {}", branch));
+    }
+    if let Some(commit_date) = option_env!("VERGEN_GIT_COMMIT_DATE") {
+        info.push(format!("Commit date: {}", commit_date));
+    }
+    if let Some(sha) = option_env!("VERGEN_GIT_SHA") {
+        info.push(format!("Commit: {}", sha));
+    }
+    if let Some(describe) = option_env!("VERGEN_GIT_DESCRIBE") {
+        info.push(format!("Git describe: {}", describe));
+    }
+    if let Some(msg) = option_env!("VERGEN_GIT_COMMIT_MESSAGE") {
+        info.push(format!("Commit message: {}", msg));
+    }
+    if let Some(commit) = option_env!("MEDIAWIKI_COMMIT_HASH") {
+        info.push(format!("MediaWiki commit: {}", commit));
+    }
+    if let Some(commit) = option_env!("OPENCC_COMMIT_HASH") {
+        info.push(format!("OpenCC commit: {}", commit));
+    }
+
+    // Join all available info with newlines
+    info.join("\n")
 }
