@@ -15,29 +15,52 @@ use crate::utils::get_with_fallback;
 
 /// Chinese variants (a.k.a 中文變體), parsed from language tags, as listed in [Help:高级字词转换语法#组合转换标签](https://zh.wikipedia.org/wiki/Help:高级字词转换语法#组合转换标签).
 #[derive(
-    Clone, Copy, Debug, PartialEq, Eq, Hash, Display, EnumString, VariantNames, IntoStaticStr,
+    Clone,
+    Copy,
+    Debug,
+    Default,
+    PartialEq,
+    Eq,
+    Hash,
+    Display,
+    EnumString,
+    VariantNames,
+    IntoStaticStr,
 )]
 #[strum(serialize_all = "kebab_case", ascii_case_insensitive)]
-#[derive(Default)]
+#[cfg_attr(
+    feature = "serde",
+    derive(serde::Serialize, serde::Deserialize),
+    serde(rename_all = "kebab-case")
+)]
 pub enum Variant {
     #[default]
     /// Chinese (dummy variant)
     Zh,
     /// Script: Traditional Chinese
+    #[cfg_attr(feature = "serde", serde(alias = "zh-Hant"))]
     ZhHant,
     /// Script: Simplified Chinese
+    #[cfg_attr(feature = "serde", serde(alias = "zh-Hans"))]
     ZhHans,
     /// Short for `zh-Hant-TW`, Script: Traditional Chinese, Region: Taiwan
+    #[cfg_attr(feature = "serde", serde(rename = "zh-tw", alias = "zh-TW"))]
+    // zh-t-w by serde by default
     ZhTW,
     /// Short for`zh-Hant-HK`, Script: Traditional Chinese, Region: Hong Kong
+    #[cfg_attr(feature = "serde", serde(rename = "zh-hk", alias = "zh-HK"))]
     ZhHK,
     /// Short for`zh-Hant-MO`, Script: Traditional Chinese, Region: Macau
+    #[cfg_attr(feature = "serde", serde(rename = "zh-mo", alias = "zh-MO"))]
     ZhMO,
     /// Short for`zh-Hans-MY`, Script: Simplified Chinese, Region: Malaysia
+    #[cfg_attr(feature = "serde", serde(rename = "zh-my", alias = "zh-MY"))]
     ZhMY,
     /// Short for`zh-Hans-SG`, Script: Simplified Chinese, Region: Singapore
+    #[cfg_attr(feature = "serde", serde(rename = "zh-sg", alias = "zh-SG"))]
     ZhSG,
     /// Short for`zh-Hans-CN`, Script: Simplified Chinese, Region: China (mainland)
+    #[cfg_attr(feature = "serde", serde(rename = "zh-cn", alias = "zh-CN"))]
     ZhCN,
     // Unknown(String)
 }

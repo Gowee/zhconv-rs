@@ -11,12 +11,23 @@ release = false
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false
 
+[features]
+default = []
+opencc = ["zhconv/opencc"]
+
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
 worker = { version="0.4.2", features=['http', 'axum'] }
 worker-macros = { version="0.4.2", features=['http'] }
-axum  = { version = "0.7", default-features = false }
+axum  = { version = "0.7", default-features = false, features=["query"] }
+axum-extra = { version = "0.9", default-features = false, features=["typed-header"]}
+serde = "1.0"
+headers = "0.4"
 tower-service = "0.3.2"
 console_error_panic_hook = { version = "0.1.1" }
+zhconv = { path = "../", features=["serde"] }
+
+[patch.crates-io]
+wasm-bindgen = { git = "https://github.com/rustwasm/wasm-bindgen" }

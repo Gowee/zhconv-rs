@@ -18,6 +18,11 @@ It leverages the [Aho-Corasick](https://github.com/daac-tools/daachorse) algorit
 
 🐍 **Python package w/ wheels via PyO3**: `pip install zhconv-rs` or `pip install zhconv-rs-opencc` (with rulesets from OpenCC)
 
+🧩 **API demo**: https://zhconv.bamboo.workers.dev
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/gowee/zhconv-rs">
+    <img src="https://deploy.workers.cloudflare.com/button" height="20" alt="Deploy to Cloudflare Workers">
+</a>
+
 <details open>
  <summary>Python snippet</summary>
 
