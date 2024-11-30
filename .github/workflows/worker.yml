@@ -9,12 +9,22 @@ jobs:
     timeout-minutes: 60
     steps:
       - run: echo '${{ toJSON(github.event) }}' | jq .
+      - uses: actions/checkout@v2
       - name: Disable other workflows in Workers fork
-        if: github.event_name == 'repository_dispatch' && github.event.repository.fork == true
-        run: gh workflow list --json 'name,id' --jq '.[] | select(.name != "Deploy Worker") | .id' | xargs -I! gh workflow disable !
+        if: true || github.run_number == 1 && github.event_name == 'repository_dispatch' && github.event.repository.fork == true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@v2
+        run: |
+          flows=$(gh workflow list --json 'name,id' --jq '.[] | select(.name != "${{ github.workflow }}") | .id)')
+          echo "Workflows to disable: $flows"
+          for flow in $flows; do
+            gh workflow disable $flow
+          done
+          runs=$(gh run list --json 'databaseId' --jq '.[] | select(.databaseId != ${{ github.run_id }}) | .databaseId')
+          echo "Runs to cancel: $flows"
+          for run in $runs; do
+            gh run cancel $run
+          done
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
