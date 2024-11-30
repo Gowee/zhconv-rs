@@ -35,3 +35,5 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           workingDirectory: worker
+
+# Note: To set an API token, run `wrangler secret put API_TOKEN` locally
