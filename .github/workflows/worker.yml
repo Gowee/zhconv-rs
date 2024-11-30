@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     # For Workers Deployment fork only
-    if: github.repository != "Gowee/zhconv-rs"
+    if: github.repository != 'Gowee/zhconv-rs'
     timeout-minutes: 60
     steps:
       # - run: echo '${{ toJSON(github.event) }}' | jq .
