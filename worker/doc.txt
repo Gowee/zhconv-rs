@@ -32,6 +32,9 @@ ENDPOINTS:
    Response:
    - 200: Confidence score (0.0 to 1.0, or NaN)
 
+3. GET /version
+   Returns the current version.
+
 Examples:
 
    POST /convert/zh-hant

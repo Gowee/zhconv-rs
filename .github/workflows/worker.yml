@@ -6,6 +6,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # we use the built-in CI of Workers
+    if: github.repository != "Gowee/zhconv-rs"
     timeout-minutes: 60
     steps:
       # - run: echo '${{ toJSON(github.event) }}' | jq .
