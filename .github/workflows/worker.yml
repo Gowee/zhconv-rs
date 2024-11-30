@@ -6,12 +6,14 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # we use the built-in CI of Workers
+    # For Workers Deployment fork only
     if: github.repository != "Gowee/zhconv-rs"
     timeout-minutes: 60
     steps:
       # - run: echo '${{ toJSON(github.event) }}' | jq .
       - uses: actions/checkout@v2
+      - name: Activate OpenCC Dicts
+        run: sed -i 's/default = \[/\0"opencc"/' worker/Cargo.toml
       - name: Disable other workflows in Workers fork
         if: github.run_number == 1 && github.event_name == 'repository_dispatch' && github.event.repository.fork == true
         env:
