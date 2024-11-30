@@ -11,7 +11,7 @@ ENDPOINTS:
    - target: Variant type (zh-{hans, hant, tw, hk, cn})
 
    Query Parameters:
-   - wikitext: boolean (optional) - Set to true to handle WikiText markup
+   - wikitext: boolean (optional) - Set to 1 to handle WikiText markup
 
    Headers:
    - Authorization: Bearer token (optional unless API_TOKEN env var is set)
@@ -45,8 +45,8 @@ Examples:
    Content: \"简体字\"
    Response: \"簡體字\"
 
-   POST /convert/hans?wikitext=true
-   Content: \"繁-{體}-字"
+   POST /convert/zh-cn?wikitext=1
+   Content: \"簡-{體}-字"
    Response: \"简體字\"
 
    POST /is-hans

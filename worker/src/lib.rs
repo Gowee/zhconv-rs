@@ -14,6 +14,9 @@ use worker::*;
 
 use std::sync::OnceLock;
 
+mod utils;
+use utils::bool_from_int;
+
 const DOC: &str = include_str!("../doc.txt");
 static API_TOKEN: OnceLock<Option<String>> = OnceLock::new();
 
@@ -45,7 +48,8 @@ pub async fn doc() -> &'static str {
 #[derive(Deserialize)]
 pub struct ConvertQuery {
     // #[serde(default = false)]
-    wikitext: Option<bool>,
+    #[serde(default, deserialize_with = "bool_from_int")]
+    wikitext: bool,
 }
 
 pub async fn convert(
@@ -55,7 +59,7 @@ pub async fn convert(
     body: String,
 ) -> impl IntoResponse {
     ensure_authorized!(bearer);
-    let wikitext = params.wikitext.unwrap_or(false);
+    let wikitext = params.wikitext;
 
     let response_body = if wikitext {
         zhconv_mw(&body, target)
