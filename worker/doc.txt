@@ -6,19 +6,19 @@ ENDPOINTS:
 
 1. POST /convert/{target}
    Convert Chinese text between variants
-   
+
    Path Parameters:
    - target: Variant type (zh-{hans, hant, tw, hk, cn})
-   
+
    Query Parameters:
    - wikitext: boolean (optional) - Set to true to handle WikiText markup
-   
+
    Headers:
    - Authorization: Bearer token (optional unless TOKEN env var is set)
-   
+
    Request Body:
    - Plain text to be converted
-   
+
    Response:
    - 200: Converted text
    - 401: Unauthorized (if token validation fails)
