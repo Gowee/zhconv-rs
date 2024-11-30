@@ -9,7 +9,9 @@ jobs:
     timeout-minutes: 60
     steps:
       - run: echo '${{ toJSON(github.event) }}' | jq .
-      - run: gh workflow list
+      - name: Disable other workflows in Workers fork
+        if: github.event_name == 'repository_dispatch' && github.event.repository.fork == true
+        run: gh workflow list --json 'name,id' --jq '.[] | select(.name != "Deploy Worker") | .id' | xargs -I! gh workflow disable !
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v2
