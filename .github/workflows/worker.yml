@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      - run: echo '${{ toJSON(github.event) }}' | jq .
+      - run: gh workflow list
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v2
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
