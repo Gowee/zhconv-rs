@@ -10,13 +10,19 @@ zhconv-rs converts Chinese text among traditional/simplified scripts or regional
 
 It leverages the [Aho-Corasick](https://github.com/daac-tools/daachorse) algorithm for linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
 
-🔗 **Web app: https://zhconv.pages.dev** (powered by WASM)
+🔗 **Web app (Wasm):** https://zhconv.pages.dev (w/ OpenCC dicts)
 
 ⚙️ **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases).
 
 🦀 **Rust crate**: `cargo add zhconv` (check [docs](https://docs.rs/zhconv/latest/zhconv/) for examples)
 
-🐍 **Python package w/ wheels via PyO3**: `pip install zhconv-rs` or `pip install zhconv-rs-opencc` (with rulesets from OpenCC)
+🐍 **Python package w/ wheels**: `pip install zhconv-rs` or `pip install zhconv-rs-opencc` (w/ OpenCC dicts)
+
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/gowee/zhconv-rs">
+    <img src="https://deploy.workers.cloudflare.com/button" align="right" alt="Deploy to Cloudflare Workers">
+</a>
+
+🧩 **API demo**: https://zhconv.bamboo.workers.dev
 
 <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/gowee/zhconv-rs">
     <img src="https://deploy.workers.cloudflare.com/button" align="right" alt="Deploy to Cloudflare Workers">
@@ -47,9 +53,9 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 
 </details>
 
-**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
+**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (Wasm, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
 
-**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (WASM)
+**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (Wasm)
 
 <details>
  <summary>HTML snippet</summary>
@@ -160,9 +166,14 @@ infer_variant data3185k time:   [74.878 ms 76.262 ms 77.818 ms]
 ```
 
 </details>
+<!--
+## Upstream rulesets
 
-By default, only rulesets from MediaWiki are used. `opencc` feature can be enabled with `zhconv = { version = "...", features = [ "opencc" ] }`. 
-But be noted that, other than performance decrease, it accounts for at least several MiBs in build output.
+zhconv-rs does not maintain any conversion rulesets/dicts. Instead, it relies on two upstream sources: MediaWiki and OpenCC. These rulesets are merged and compiled into an automaton at compile-time for optimal performance, which means rulesets cannot be dynamically selected at runtime. However, it is possible to load custom rulesets manually.
+
+By default, only MediaWiki rulesets are used. For a Rust project, to enable additional OpenCC rulesets, activate the `opencc` feature: `zhconv = { version = "...", features = [ "opencc" ] }`. For a Python project, there are two standalone packages `zhconv-rs` (w/ MediaWiki rulesets only) and `zhconv-rs-opencc` (w/ additional OpenCC rulesets) to be installed as needed. For the API on Workers, check [worker.yml](.github/workflows/worker.yml) for instructions on configuring OpenCC rulesets. The web app is always shiped with additional OpenCC rulesets for now.-->
+
+**Note:** Enabling OpenCC rulesets increases the build size by several MiBs and noticeably impacts performance, even though it still outperforms other implementations.
 
 <!--
 ## Differences with other converters
@@ -197,3 +208,4 @@ References:
 - https://zh.wikipedia.org/wiki/Help:高级字词转换语法
 - https://github.com/wikimedia/mediawiki/blob/master/includes/language/LanguageConverter.php
 <!--- https://www.hankcs.com/nlp/simplified-traditional-chinese-conversion.html-->
+

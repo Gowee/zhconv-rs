@@ -35,3 +35,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           workingDirectory: worker
+
+# Note:
+# To activate authentication, set the `API_TOKEN` secret, via the CF dashboard or `wrangler secret put API_TOKEN`.
+# To change the 2MiB default request body limit, set the `BODY_LIMIT` envvar, via the dashboard or wrangler.toml.
