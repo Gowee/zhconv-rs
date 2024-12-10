@@ -1,33 +1,41 @@
 use zhconv::{is_hans_confidence, zhconv as zhconv_plain, zhconv_mw, Variant};
 
 use axum::{
-    extract::{Path, Query},
+    extract::{DefaultBodyLimit, Path, Query, State},
     http::StatusCode,
     response::IntoResponse,
     routing::{get, post, Router},
 };
-use axum_extra::TypedHeader;
+use axum_extra::{response::ErasedJson, TypedHeader};
 use headers::{authorization::Bearer, Authorization};
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use tower_service::Service;
 use worker::*;
-
-use std::sync::OnceLock;
 
 mod utils;
 use utils::bool_from_int;
 
 const DOC: &str = include_str!("../doc.txt");
-static API_TOKEN: OnceLock<Option<String>> = OnceLock::new();
+const DEFAULT_BODY_LIMIT: usize = 2 * 1024 * 1024;
 
-fn router() -> Router {
+#[derive(Clone, Default, Debug)]
+pub struct AppState {
+    api_token: Option<String>,
+    body_limit: Option<usize>,
+}
+
+fn router(state: AppState) -> Router {
     Router::new()
         .route("/", get(doc))
         .route("/convert/:target", post(convert))
         .route("/is-hans", post(is_hans))
-        .route("/version", get(version))
+        .route("/info", get(info))
+        .layer(DefaultBodyLimit::max(
+            state.body_limit.unwrap_or(DEFAULT_BODY_LIMIT),
+        ))
         .fallback(handle_404)
         .method_not_allowed_fallback(handle_405)
+        .with_state(state)
 }
 
 #[event(fetch)]
@@ -37,8 +45,14 @@ async fn fetch(
     _ctx: Context,
 ) -> Result<axum::http::Response<axum::body::Body>> {
     console_error_panic_hook::set_once();
-    let _ = API_TOKEN.get_or_init(|| env.secret("API_TOKEN").ok().map(|t| t.to_string()));
-    Ok(router().call(req).await?)
+    let state = AppState {
+        api_token: env.secret("API_TOKEN").ok().map(|t| t.to_string()),
+        body_limit: env
+            .var("BODY_LIMIT")
+            .ok()
+            .and_then(|v| v.to_string().parse().ok()),
+    };
+    Ok(router(state).call(req).await?)
 }
 
 pub async fn doc() -> &'static str {
@@ -47,18 +61,18 @@ pub async fn doc() -> &'static str {
 
 #[derive(Deserialize)]
 pub struct ConvertQuery {
-    // #[serde(default = false)]
     #[serde(default, deserialize_with = "bool_from_int")]
     wikitext: bool,
 }
 
 pub async fn convert(
+    State(state): State<AppState>,
     Path(target): Path<Variant>,
     Query(params): Query<ConvertQuery>,
     bearer: Option<TypedHeader<Authorization<Bearer>>>,
     body: String,
 ) -> impl IntoResponse {
-    ensure_authorized!(bearer);
+    ensure_authorized!(state, bearer);
     let wikitext = params.wikitext;
 
     let response_body = if wikitext {
@@ -71,16 +85,28 @@ pub async fn convert(
 }
 
 pub async fn is_hans(
+    State(state): State<AppState>,
     bearer: Option<TypedHeader<Authorization<Bearer>>>,
     body: String,
 ) -> impl IntoResponse {
-    ensure_authorized!(bearer);
+    ensure_authorized!(state, bearer);
 
     (StatusCode::OK, is_hans_confidence(&body).to_string())
 }
 
-pub async fn version() -> impl IntoResponse {
-    option_env!("CARGO_PKG_VERSION").unwrap_or("UNKNOWN")
+#[derive(Serialize)]
+pub struct Info {
+    version: &'static str,
+    auth_enabled: bool,
+    body_limit: usize,
+}
+
+pub async fn info(State(state): State<AppState>) -> impl IntoResponse {
+    ErasedJson::pretty(Info {
+        version: option_env!("CARGO_PKG_VERSION").unwrap_or("UNKNOWN"),
+        auth_enabled: state.api_token.is_some(),
+        body_limit: state.body_limit.unwrap_or(DEFAULT_BODY_LIMIT),
+    })
 }
 
 pub async fn handle_404() -> impl IntoResponse {
@@ -92,13 +118,10 @@ pub async fn handle_405() -> impl IntoResponse {
 }
 
 macro_rules! ensure_authorized {
-    ($bearer:expr) => {
-        if let Some(token) = API_TOKEN.get().map(|t| t.as_ref()).flatten() {
+    ($state:expr, $bearer:expr) => {
+        if let Some(token) = $state.api_token {
             if $bearer.as_ref().map(|b| b.token()) != Some(&token) {
-                return (
-                    StatusCode::UNAUTHORIZED,
-                    String::from("401 Unauthorized - Token is set by the API_TOKEN envvar"),
-                );
+                return (StatusCode::UNAUTHORIZED, String::from("401 Unauthorized"));
             }
         }
     };

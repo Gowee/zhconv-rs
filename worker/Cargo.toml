@@ -22,7 +22,7 @@ crate-type = ["cdylib"]
 worker = { version="0.4.2", features=['http', 'axum'] }
 worker-macros = { version="0.4.2", features=['http'] }
 axum  = { version = "0.7", default-features = false, features=["query"] }
-axum-extra = { version = "0.9", default-features = false, features=["typed-header"]}
+axum-extra = { version = "0.9", default-features = false, features=["typed-header", "erased-json"]}
 serde = "1.0"
 headers = "0.4"
 tower-service = "0.3.2"
