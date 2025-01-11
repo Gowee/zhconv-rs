@@ -76,7 +76,11 @@ pub(crate) const ZH_HANS_MY_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_MY_TABLE];
 #[doc(hidden)]
 pub(crate) const ZH_HANS_MY_DAAC: &[u8] = ZH_HANS_SG_DAAC;
 
-/// Expand a compressed built-in conversion table.
+/// Expand a built-in conversion table.
+///
+/// Tables are compressed for space efficiency. This behavior is independent of the `compress`
+/// feature, which only controls the compression of serialized
+/// [automata](https://docs.rs/daachorse).
 pub fn expand_table((froms, tos): Table<'_>) -> impl Iterator<Item = (String, String)> + '_ {
     std::iter::zip(froms.trim().split('|'), tos.trim().split('|')).scan(
         String::from(""),
@@ -109,7 +113,7 @@ pub fn pair_expand<'s>(
             }
         }
         expanding -= 1;
-        Some(b.expect("compressed rulesets should be well-formed"))
+        Some(b.expect("shrunken rulesets should be well-formed"))
     })
 }
 

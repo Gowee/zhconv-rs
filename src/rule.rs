@@ -167,7 +167,7 @@ impl FromStr for ConvRule {
     }
 }
 
-impl<'r> Display for ConvRuleWithVariant<'r> {
+impl Display for ConvRuleWithVariant<'_> {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let rule = self.rule;
         match &rule.output {
@@ -178,7 +178,7 @@ impl<'r> Display for ConvRuleWithVariant<'r> {
                 rule.conv
                     .as_ref()
                     .and_then(|c| c.get_text_by_target(self.variant))
-                    .unwrap_or("") // mediawiki would show: 在手动语言转换规则中检测到错误
+                    .unwrap_or("") // MediaWiki would show: 在手动语言转换规则中检测到错误
             ),
             Some(Output::VariantName(variant)) => write!(f, "{}", variant.get_name()),
             Some(Output::Description) => {
@@ -393,7 +393,7 @@ impl AsRef<Conv> for ConvAction {
 
 static REGEX_RULE: Lazy<Regex> = Lazy::new(|| Regex::new(r"-\{.+?\}-").unwrap());
 
-/// Extract a set rules from a text.
+/// Extract rules in wikitext.
 pub fn extract_rules<'s>(
     text: &'s str,
 ) -> Map<Matches<'static, 's>, impl FnMut(Match<'s>) -> Result<ConvRule, RuleError>> {
