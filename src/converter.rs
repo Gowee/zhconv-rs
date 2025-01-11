@@ -236,7 +236,12 @@ impl ZhConverter {
                     // not shadowed: pick a word in original automaton
                     if shadowed_source_words.contains(a.2) {
                         // source word is disabled: skip one char and re-search
-                        let first_char_len = text.chars().next().unwrap().len_utf8();
+                        //
+                        // NOTE: In case there are two rules like `{abcd -> foo, abc -> bar}`,
+                        // even if the former is disabled, the latter won't take effect, since `a`
+                        // will be skipped and the next search start at `bc`.
+                        // It is inevitable if we do not re-build a new automaton every time.
+                        let first_char_len = text[a.0..].chars().next().unwrap().len_utf8();
                         (
                             last,
                             a.0 + first_char_len,

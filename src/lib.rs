@@ -40,6 +40,7 @@
 //! assert_eq!(zhconv_mw("-{zh-tw:鼠麴草;zh-cn:香茅}-是菊科草本植物。", Variant::ZhCN), "香茅是菊科草本植物。");
 //! assert_eq!(zhconv_mw("菊科草本植物包括-{zh-tw:鼠麴草;zh-cn:香茅;}-等。", Variant::ZhTW), "菊科草本植物包括鼠麴草等。");
 //! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // global rule
+//! assert_eq!(zhconv_mw("&二極體\n-{-|zh-hans:二极管; zh-hant:二極體}-\n", Variant::ZhCN), "&二极体\n\n")
 //! ```
 //!
 //! To load or add additional conversion rules such as CGroups or `(FROM, TO)` pairs,

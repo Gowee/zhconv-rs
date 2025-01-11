@@ -102,7 +102,12 @@ impl FromStr for ConvRule {
             match flag {
                 // FIX: 'A'
                 '+' => action = Some(Action::Add),
-                '-' => action = Some(Action::Remove),
+                '-' => {
+                    action = {
+                        output = None;
+                        Some(Action::Remove)
+                    }
+                }
                 // no conv, just display the inner as-is
                 'R' => {
                     return Ok(ConvRule {
