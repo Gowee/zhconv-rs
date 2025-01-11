@@ -13,10 +13,12 @@ use ::zhconv::{
     ZhConverterBuilder,
 };
 
-/// Convert a text to a target Chinese variant. Converters are constructed from built-in rulesets
-/// on demand and cached automatically. If `wikitext` is `True`, inline conversion rules such as
-/// `-{foo...bar}-` are activated, while converters must be rebuilt for every invocation if there
-/// are global rules. Check the project's README for more info.
+/// Convert text to a target Chinese variant using pre-built converters, which are loaded
+/// automatically on demand.
+///
+/// If `wikitext` is `True`, the MediaWiki conversion syntax such as `-{foo...bar}-` is supported,
+/// while performance may degrade. The implementation is not fully compliant with the MediaWiki
+/// LanguageConverter system. Check the project's README for more info.
 ///
 /// Supported target variants: zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY.
 #[pyfunction]
@@ -37,7 +39,7 @@ fn zhconv(py: Python<'_>, text: &str, target: &str, wikitext: Option<bool>) -> P
 
 /// converter(text) -> result
 ///
-/// Convert a text with the previously built converter. It is a callable object that works like a
+/// Convert text with the previously built converter. It is a callable object that behaves like a
 /// plain function, returned by `make_converter`.
 #[pyclass]
 struct ZhConverter(Converter);

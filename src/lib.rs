@@ -33,14 +33,18 @@
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
 //! ```
 //!
-//! With MediaWiki conversion rules:
+//! With MediaWiki conversion syntax:
 //! ```
 //! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("天-{干}-物燥 小心火烛", "zh-Hant".parse::<Variant>().unwrap()), "天干物燥 小心火燭");
 //! assert_eq!(zhconv_mw("-{zh-tw:鼠麴草;zh-cn:香茅}-是菊科草本植物。", Variant::ZhCN), "香茅是菊科草本植物。");
 //! assert_eq!(zhconv_mw("菊科草本植物包括-{zh-tw:鼠麴草;zh-cn:香茅;}-等。", Variant::ZhTW), "菊科草本植物包括鼠麴草等。");
-//! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // global rule
-//! assert_eq!(zhconv_mw("&二極體\n-{-|zh-hans:二极管; zh-hant:二極體}-\n", Variant::ZhCN), "&二极体\n\n")
+//! ```
+//! Set global rules inline (note that such rules always apply globally regardless of their
+//! location, unlike in MediaWiki where they affect only the text that follows):
+//! ```
+//! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // add
+//! assert_eq!(zhconv_mw("&二極體\n-{-|zh-hans:二极管; zh-hant:二極體}-\n", Variant::ZhCN), "&二极体\n\n"); // remove
 //! ```
 //!
 //! To load or add additional conversion rules such as CGroups or `(FROM, TO)` pairs,
@@ -79,7 +83,7 @@ pub use self::variant::Variant;
 
 /// Helper function for general conversion using built-in converters.
 ///
-/// For fine-grained control and custom conversion rules, these is [`ZhConverter`].
+/// For fine-grained control and custom conversion rules, there is [`ZhConverter`].
 #[inline(always)]
 pub fn zhconv(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert(text)
@@ -88,7 +92,7 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 /// Helper function for general conversion, activating conversion rules in MediaWiki syntax.
 ///
 /// For general cases, [`zhconv`](#method.zhconv) should work well. Both of them share the same
-/// built-in conversions tables.
+/// built-in conversion tables.
 ///
 /// # Note
 /// The implementation scans the input text at first to extract possible global rules like
@@ -96,11 +100,10 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 /// If there are no global rules, the overall time complexity is `O(n + n)`.
 /// Otherwise, the overall time complexity may degrade to `O(n + n * m)` in the worst case, where
 /// `n` is input text length and `m` is the maximum lengths of source words in conversion rulesets.
-///
 /// In case global rules support are not expected, it is better to use
 /// `get_builtin_converter(target).convert_as_wikitext_basic(text)` instead, which incurs no extra
 /// overhead.
-///   
+///
 // /// Different from the implementation of MediaWiki, this crate use a automaton which makes it
 // /// infeasible to mutate global rules during converting. So the function always searches the text
 // /// for global rules such as `-{H|FOO BAR}-` in the first pass. If such rules exists, it build a
@@ -108,7 +111,10 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 // /// Otherwise, it just picks a built-in converter. Then it converts the text with the chosen
 // /// converter during when non-global rules are parsed and applied.
 ///
-/// For fine-grained control and custom conversion rules, check [`ZhConverter`].
+/// For fine-grained control and custom conversion rules, check [`ZhConverterBuilder`].
+///
+/// Although it is designed to replicate the behavior of the MediaWiki implementation, it is not
+/// fully compliant.
 pub fn zhconv_mw(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert_as_wikitext_extended(text)
 }

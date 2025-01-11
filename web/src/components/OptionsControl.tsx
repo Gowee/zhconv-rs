@@ -82,8 +82,8 @@ function OptionsControl(
             <Tooltip
               title={
                 <>
-                  Parse MediaWiki conversion rules in the text
-                  <br />/ 解析文本中的 MediaWiki 轉換規則
+                  Parse and apply inline rules in the MediaWiki LanguageConverter syntax
+                  <br />/ 解析並應用文本中的 MediaWiki 語言轉換規則
                 </>
               }
             >
@@ -102,8 +102,7 @@ function OptionsControl(
                     flexDirection="column"
                     alignItems="center"
                   >
-                    <span>Inline Rules</span>
-                    <span>文內規則</span>
+                    <span>Wikitext</span>
                   </Box>
                 }
               />

@@ -39,7 +39,7 @@ pub fn get_opencc_commit() -> Option<String> {
     option_env!("OPENCC_COMMIT_HASH").map(|s| s.into())
 }
 
-/// Convert a text to a target Chinese variant.
+/// Convert text to a target Chinese variant.
 ///
 /// Supported target variants: zh, zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY.
 /// If `wikitext` is `True`, inline conversion rules such as `-{foo...bar}-` are parsed.

@@ -88,7 +88,7 @@ impl ZhConverter {
             .build()
     }
 
-    /// Convert a text.
+    /// Convert text.
     #[inline(always)]
     pub fn convert(&self, text: &str) -> String {
         let mut output = String::with_capacity(text.len());
@@ -124,7 +124,7 @@ impl ZhConverter {
         output.push_str(&text[last..]);
     }
 
-    /// Convert a text, a long with a secondary converter.
+    /// Convert text, along with a secondary converter.
     ///
     /// Conversion rules in the secondary converter shadow these existing ones in the original
     /// converter.
@@ -176,7 +176,7 @@ impl ZhConverter {
         }
     }
 
-    /// Convert a text, a long with a secondary conversion table (typically temporary).
+    /// Convert text, along with a secondary conversion table (typically temporary).
     ///
     /// The worst-case time complexity of the implementation is `O(n*m)` where `n` and `m` are the
     /// length of the text and the maximum lengths of sources words in conversion rulesets.
@@ -612,9 +612,11 @@ impl<'t> ZhConverterBuilder<'t> {
         self.conv_actions(page_rules.as_conv_actions())
     }
 
-    /// Add a set of rules.
+    /// Add [`ConvAction`]s, which are typically parsed from rules in the MediaWiki syntax.
     ///
     /// These rules take the higher precedence over those specified via `table`.
+    /// For general usage, check [`conv_pairs`](#method.conv_pairs) which takes
+    /// `from -> to` pairs.
     fn conv_actions<'i>(mut self, conv_actions: impl IntoIterator<Item = &'i ConvAction>) -> Self {
         for conv_action in conv_actions {
             let pairs = conv_action.as_conv().get_conv_pairs(self.target);
@@ -629,10 +631,10 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Add [`Conv`]s.
+    /// Add [`Conv`]s, which are typically parsed from rules in MediaWiki syntax.
     ///
-    /// For general cases, check [`add_conv_pair`](#method.add_conv_pair) which takes a plain
-    /// `from -> to` pair.
+    /// For general usage, check [`conv_pairs`](#method.conv_pairs) which takes
+    /// `from -> to` pairs.
     pub fn convs(mut self, convs: impl IntoIterator<Item = impl AsRef<Conv>>) -> Self {
         for conv in convs.into_iter() {
             self.adds.extend(
@@ -644,7 +646,7 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Mark a conv as removed.
+    /// Mark [`Conv`]s as removed.
     pub fn unconvs(mut self, convs: impl IntoIterator<Item = impl AsRef<Conv>>) -> Self {
         for conv in convs.into_iter() {
             self.removes.extend(
@@ -658,7 +660,8 @@ impl<'t> ZhConverterBuilder<'t> {
 
     /// Add `from -> to` conversion pairs.
     ///
-    /// It takes the precedence over those specified via `table`. It shares the same precedence level with those specified via `cgroup`.
+    /// It takes the precedence over those specified via `table`, while shares the same precedence
+    /// level with those specified via `convs` or `conv_lines`.
     pub fn conv_pairs(
         mut self,
         pairs: impl IntoIterator<Item = (impl Into<String>, impl Into<String>)>,
@@ -676,7 +679,8 @@ impl<'t> ZhConverterBuilder<'t> {
 
     /// Mark conversion pairs as removed.
     ///
-    /// Any rule with the same `from`, whether specified via `add_conv_pair`, `conv_lines` or `table`, is removed.
+    /// Any rule with the same `from`, whether specified via `conv_pairs`, `conv_lines` or `table`,
+    /// is removed.
     pub fn unconv_pairs(
         mut self,
         pairs: impl IntoIterator<Item = (impl Into<String>, impl Into<String>)>,
@@ -694,14 +698,15 @@ impl<'t> ZhConverterBuilder<'t> {
 
     /// Mark a single conversion pair as removed.
     ///
-    /// Any rule with the same `from`, whether specified via `add_conv_pair`, `conv_lines` or `table`, is removed.
+    /// Any rule with the same `from`, whether specified via `conv_pairs`, `conv_lines` or `table`,
+    /// is removed.
     pub fn unconv_pair(mut self, from: impl AsRef<str>, to: impl AsRef<str>) -> Self {
         self.removes
             .insert(from.as_ref().to_owned(), to.as_ref().to_owned());
         self
     }
 
-    /// Add a text of conv lines.
+    /// Add rules in the MediaWiki conversion syntax line by line.
     ///
     /// e.g.
     /// ```text
