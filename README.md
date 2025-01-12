@@ -24,12 +24,6 @@ It leverages the [Aho-Corasick](https://github.com/daac-tools/daachorse) algorit
 
 🧩 **API demo**: https://zhconv.bamboo.workers.dev
 
-<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/gowee/zhconv-rs">
-    <img src="https://deploy.workers.cloudflare.com/button" align="right" alt="Deploy to Cloudflare Workers">
-</a>
-
-🧩 **API demo**: https://zhconv.bamboo.workers.dev
-
 <details open>
  <summary>Python snippet</summary>
 
