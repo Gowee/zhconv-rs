@@ -22,7 +22,7 @@ pub fn zstd_decompress(bytes: &[u8]) -> Vec<u8> {
     use std::io::Read;
 
     let mut buf = vec![];
-    ruzstd::StreamingDecoder::new(bytes)
+    ruzstd::decoding::StreamingDecoder::new(bytes)
         .unwrap()
         .read_to_end(&mut buf)
         .unwrap();
