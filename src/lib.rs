@@ -43,6 +43,7 @@
 //! Set global rules inline (note that such rules always apply globally regardless of their
 //! location, unlike in MediaWiki where they affect only the text that follows):
 //! ```
+//! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // add
 //! assert_eq!(zhconv_mw("&二極體\n-{-|zh-hans:二极管; zh-hant:二極體}-\n", Variant::ZhCN), "&二极体\n\n"); // remove
 //! ```
