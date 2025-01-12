@@ -1,6 +1,6 @@
 [package]
 name = "zhconv"
-version = "0.3.2"
+version = "0.3.3"
 entrypoint = "zhconv.typ"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
 license = "GPL-2.0" # GPL 2.0 or later
