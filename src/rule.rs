@@ -100,7 +100,6 @@ impl FromStr for ConvRule {
         //  (not fully compliant, especially for multi-flags cases)
         for flag in flags.chars() {
             match flag {
-                // FIX: 'A'
                 '+' => action = Some(Action::Add),
                 '-' => {
                     action = {
