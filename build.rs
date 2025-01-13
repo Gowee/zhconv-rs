@@ -151,24 +151,19 @@ fn main() -> io::Result<()> {
 
     let hans_pairs = zhconvs.remove("ZH_TO_HANS").unwrap();
     write_conv_file("ZH_TO_HANS", &hans_pairs)?;
-    // let hans_pairs: HashMap<String, String> = hans_pairs.into_iter().collect();
     write_daac_file("ZH_TO_HANS", &hans_pairs)?;
     let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
 
     let hant_pairs = zhconvs.remove("ZH_TO_HANT").unwrap();
     write_conv_file("ZH_TO_HANT", &hant_pairs)?;
-    // let hant_pairs: HashMap<String, String> = hant_pairs.into_iter().collect();
     write_daac_file("ZH_TO_HANT", &hant_pairs)?;
     let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
 
     let mut cn_pairs = zhconvs.remove("ZH_TO_CN").unwrap();
     cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
-    // write_conv_file("ZH_TO_CN", &cn_pairs)?;
-    // cn_pairs.extend();
     write_conv_file("ZH_TO_CN", &cn_pairs)?;
     let mut hans_cn_pairs = hans_pairs;
     hans_cn_pairs.extend(cn_pairs);
-    // sort_and_dedup(&mut hans_cn_pairs);
     write_daac_file("ZH_TO_HANS_CN", &hans_cn_pairs)?;
 
     // FIXME: doc
@@ -176,22 +171,16 @@ fn main() -> io::Result<()> {
 
     let mut tw_pairs = zhconvs.remove("ZH_TO_TW").unwrap();
     tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-    // write_conv_file("ZH_TO_TW", &tw_pairs)?;
-    // tw_pairs.extend(.into_iter());
     write_conv_file("ZH_TO_TW", &tw_pairs)?;
     let mut hant_tw_pairs = hant_pairs.clone();
     hant_tw_pairs.extend(tw_pairs);
-    // sort_and_dedup(&mut hant_tw_pairs);
     write_daac_file("ZH_TO_HANT_TW", &hant_tw_pairs)?;
 
     let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
     hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-    // write_conv_file("ZH_TO_HK", &hk_pairs)?;
-    // hk_pairs.extend(zhconvs.remove("ZH_TO_HK").unwrap().into_iter());
     write_conv_file("ZH_TO_HK", &hk_pairs)?;
     let mut hant_hk_pairs = hant_pairs;
     hant_hk_pairs.extend(hk_pairs);
-    // sort_and_dedup(&mut hant_hk_pairs);
     write_daac_file("ZH_TO_HANT_HK", &hant_hk_pairs)?;
 
     if std::env::var("DOCS_RS").is_err() {
@@ -297,26 +286,12 @@ fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
         .unwrap();
 
     File::create(dest_path_daac)?.write_all(&daac)
-
-    // let automaton: CharwiseDoubleArrayAhoCorasick<u32> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build(opairs.iter().map(|(f, t)|f)).unwrap();
-    // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
-    // let mut fdaac = File::create(dest_path_daac)?;
-    // let daac = automaton.serialize();
-    // // let mut compressed_daac = vec![0; snap::raw::max_compress_len(daac.len())];
-    // // snap::raw::Encoder::new().compress(&daac, &mut compressed_daac).unwrap();
-    // // let compressed_daac = lz4_flex::compress_prepend_size(&daac);
-    // let compressed_daac =zstd::bulk::Compressor::new(3).unwrap().compress(&daac).unwrap();
-    //  fdaac.write(&compressed_daac)?;
-
-    // let automaton: CharwiseDoubleArrayAhoCorasick<String> = CharwiseDoubleArrayAhoCorasickBuilder::new().match_kind(MatchKind::LeftmostLongest).build_with_values(opairs.into_iter()).unwrap();
-    // let dest_path_daac = Path::new(&out_dir).join(format!("{}.daccv", name));
-    // let mut fdaac = File::create(dest_path_daac)?;
-    // fdaac.write(&automaton.serialize())?;
 }
 
 const SURROGATE_START: char = '\x00';
 const SURROGATE_END: char = '\x20';
 
+// simple but efficient compression
 fn pair_reduce<'s>(
     mut s: impl Iterator<Item = char> + 's + Clone,
     mut base: impl Iterator<Item = char> + 's + Clone,

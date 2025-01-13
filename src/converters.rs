@@ -10,8 +10,6 @@ use std::sync::LazyLock;
 use crate::utils::zstd_decompress;
 use crate::{tables::*, Variant, ZhConverter, ZhConverterBuilder};
 
-// FIX: Doc
-
 // Be careful with the order of tables.
 // The converter build process relies on HashMap::extend, during which latter rules overwrite the
 // early ones. And we expect more specific rules take precedence (e.g. zh-TW > zh-Hant).
