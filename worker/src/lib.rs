@@ -27,7 +27,7 @@ pub struct AppState {
 fn router(state: AppState) -> Router {
     Router::new()
         .route("/", get(doc))
-        .route("/convert/:target", post(convert))
+        .route("/convert/{target}", post(convert))
         .route("/is-hans", post(is_hans))
         .route("/info", get(info))
         .layer(DefaultBodyLimit::max(
