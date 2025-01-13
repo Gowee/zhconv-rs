@@ -1,11 +1,12 @@
 [package]
 name = "zhconv-pyo3"
-version = "0.3.3"
-edition = "2021"
-authors = ["Hung-I Wang <whygowe@gmail.com>"]
-license = "GPL-2.0-or-later"
-repository = "https://github.com/Gowee/zhconv-rs"
+authors.workspace = true
+categories.workspace = true
 description = "zhconv as in MediaWiki, 🦀oxidized for more efficiency"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
 
 [lib]
 name = "zhconv_rs"
@@ -19,3 +20,6 @@ opencc = ["zhconv/opencc"]
 zhconv = { path = "../" }
 pyo3 = { version = "0.23", features = ["extension-module", "abi3-py39"] }
 pyo3-file = "0.10.0"
+
+[lints]
+workspace = true
