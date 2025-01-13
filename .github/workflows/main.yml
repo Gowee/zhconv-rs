@@ -18,35 +18,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build
+      - name: Build lib
+        if: matrix.featureset.flag == ''
         run: |
           cargo --version
           cargo build --verbose ${{ matrix.featureset.flag }}
+      - name: Build bin
+        run: |
+          cargo build --features bin-build --bin zhconv --verbose
       - name: Test
         run: cargo test ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
         run: cargo fmt -- --check
       - name: Clippy
         run: cargo clippy --all-targets ${{ matrix.featureset.flag }} -- -D warnings
-
-  build-cli:
-    needs: build-main
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: cli/
-    steps:
-      - uses: actions/checkout@v2
-      - name: Build
-        run: |
-          cargo --version
-          cargo build --verbose
-      - name: Test
-        run: cargo test --verbose
-      - name: Clippy
-        run: cargo clippy --all-targets --all-features -- -D warnings
-      - name: Check Format
-        run: cargo fmt -- --check
 
   build-pyo3:
     needs: build-main
