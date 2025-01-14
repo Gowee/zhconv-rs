@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useRef, forwardRef, ForwardedRef } from "react";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
@@ -27,14 +27,16 @@ const variants = {
 };
 type Variant = keyof typeof variants;
 
-export default function ConvertButton({
+function ConvertButton({
   onConvert: handleConvert,
+  ref,
 }: {
   onConvert: (target: Variant) => void;
+  ref: ForwardedRef<HTMLButtonElement>;
 }) {
-  const [open, setOpen] = React.useState(false);
-  const anchorRef = React.useRef<HTMLDivElement>(null);
-  const [selectedVariant, setSelectedVariant] = React.useState<Variant>(() => {
+  const [open, setOpen] = useState(false);
+  const anchorRef = useRef<HTMLDivElement>(null);
+  const [selectedVariant, setSelectedVariant] = useState<Variant>(() => {
     const hash = window.location.hash.slice(1) as Variant;
     if (variants[hash]) {
       return hash;
@@ -87,10 +89,10 @@ export default function ConvertButton({
           variant="outlined"
           color="primary"
           ref={anchorRef}
-          aria-label="split button"
+          aria-label="convert button"
         >
           <Tooltip title="Click to convert / 點擊以轉換">
-            <Button onClick={handleClick}>
+            <Button ref={ref} onClick={handleClick}>
               <small>To/至</small>
               &nbsp;
               <Box sx={{ whiteSpace: "nowrap" }}>
@@ -151,3 +153,5 @@ export default function ConvertButton({
     </Grid>
   );
 }
+
+export default forwardRef(ConvertButton);

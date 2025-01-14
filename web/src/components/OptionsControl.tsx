@@ -1,4 +1,4 @@
-import { forwardRef, ForwardedRef, useState, useEffect } from "react";
+import { forwardRef, ForwardedRef, useState, useEffect, useRef } from "react";
 
 // import { withStyles, Theme, makeStyles } from "@material-ui/core/styles";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -34,6 +34,7 @@ function OptionsControl(
   },
   ref: ForwardedRef<any>
 ) {
+  const convertButtonRef = useRef<HTMLButtonElement>();
   const [cgroups, setCGroups] = useState({} as { [name: string]: string });
   const [activatedCGroups, setActivatedCGroups] = useState(() => {
     return JSON.parse(
@@ -55,10 +56,12 @@ function OptionsControl(
   useEffect(() => {
     const s = JSON.stringify(activatedCGroups);
     localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
+    convertButtonRef.current?.click();
   }, [activatedCGroups]);
   useEffect(() => {
     const s = JSON.stringify(parsingInline);
     localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
+    convertButtonRef.current?.click();
   }, [parsingInline]);
   return (
     <Grid container direction="row" justifyContent="space-around">
@@ -117,6 +120,7 @@ function OptionsControl(
                   activatedCGroups.map((name) => cgroups[name]).join("\n")
                 )
               }
+              ref={convertButtonRef}
             />
           </Grid>
         </Grid>
