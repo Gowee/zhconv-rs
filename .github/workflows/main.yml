@@ -19,11 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build lib
-        if: matrix.featureset.flag == ''
         run: |
           cargo --version
           cargo build --verbose ${{ matrix.featureset.flag }}
       - name: Build bin
+        if: matrix.featureset.flag == ''
         run: |
           cargo build --features bin-build --bin zhconv --verbose
       - name: Test
