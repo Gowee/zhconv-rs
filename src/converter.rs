@@ -441,15 +441,18 @@ impl ZhConverter {
             while let Some(m2) = pat_inner.find_at(text, pos) {
                 // let mut piece = String::from(&text[pos..m2.start()]);
                 if m2.as_str() == "-{" {
-                    // if there are two many open start tag, ignore the new nested rule
-                    if pieces.len() >= NESTED_RULE_MAX_DEPTH {
-                        pos += 2;
-                        continue;
-                    }
                     // start tag
                     pieces.last_mut().unwrap().push_str(&text[pos..m2.start()]);
-                    pieces.push(String::new()); // e.g. -{ zh: AAA -{
                     pos = m2.end();
+
+                    // if there are two many open start tags, ignore the new nested rule
+                    //
+                    // MediaWiki would show: language-converter-depth-warning/已超出語言轉換器深度限制
+                    if pieces.len() >= NESTED_RULE_MAX_DEPTH {
+                        continue;
+                    }
+
+                    pieces.push(String::new()); // e.g. -{ zh: AAA -{
                 } else {
                     // end tag
                     let mut piece = pieces.pop().unwrap();
@@ -461,13 +464,6 @@ impl ZhConverter {
                     } else {
                         write!(output, "{}", r.targeted(self.variant)).unwrap();
                     };
-                    // if let Ok(rule) = dbg!(ConvRule::from_str(&piece)) {
-                    //     rule.write_output(upper, self.variant).unwrap();
-                    // } else {
-                    //     // rule is invalid
-                    //     // TODO: what should we do actually? for now, we just do nothing to it
-                    //     upper.push_str(&piece);
-                    // }
                     pos = m2.end();
                     if pieces.is_empty() {
                         // return to toplevel
@@ -475,11 +471,13 @@ impl ZhConverter {
                     }
                 }
             }
-            while let Some(piece) = pieces.pop() {
+            for piece in pieces.iter() {
                 output.push_str("-{");
-                output.push_str(&piece);
+                // replicating the behaviour of MediaWiki LC here, even though the it is pretty
+                // weird: `-{简-{简}` is converted to `-{簡-{簡}` with `zh-hant` for example
+                convert_to(piece, output);
             }
-            // TODO: produce convert(&text[pos..])
+            pieces.clear();
         }
         if pos < text.len() {
             // no more conv rules, just convert and append
