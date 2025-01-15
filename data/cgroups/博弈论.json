@@ -28,6 +28,14 @@
       "conv": "zh-cn:信息集; zh-tw:資訊集合;"
     },
     {
+      "original": "operational research",
+      "conv": "zh-cn:运筹学; zh-hk:運籌學; zh-tw:作業研究;"
+    },
+    {
+      "original": "Prisoners dilemma",
+      "conv": "zh-cn:囚徒困境; zh-tw:囚犯困境; zh-hk:囚徒困境;"
+    },
+    {
       "original": "sequential game",
       "conv": "zh-cn:序贯博弈; zh-tw:序列賽局; zh-hk:序列博弈;"
     },
@@ -36,16 +44,12 @@
       "conv": "zh-cn:信号博弈; zh-tw:傳訊賽局; zh-hk:信號博弈;"
     },
     {
+      "original": "volunteer",
+      "conv": "zh-cn:志愿者; zh-tw:自願者; zh-hk:志願者;"
+    },
+    {
       "original": "Bayesian game",
       "conv": "zh-cn:贝叶斯博弈; zh-tw:貝氏賽局; zh-hk:貝葉斯博弈;"
-    },
-    {
-      "original": "Bayesian-Nash",
-      "conv": "zh-cn:贝叶斯-纳什; zh-tw:貝氏納許; zh-hk:貝葉斯-納殊;"
-    },
-    {
-      "original": "Nash",
-      "conv": "zh-cn:纳什; zh-hant:納什; zh-tw:納許; zh-hk:納殊; 奈許=>zh-cn:纳什; 奈許=>zh-hk:納殊; 拿殊=>zh-cn:纳什; 拿殊=>zh-tw:納許;"
     },
     {
       "original": "Pareto",

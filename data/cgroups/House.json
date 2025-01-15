@@ -1,6 +1,6 @@
 {
   "name": "House",
-  "description": "豪斯醫生",
+  "description": "-{zh-cn:豪斯医生; zh-tw:怪醫豪斯; zh-hk:醫神; zh-hant:豪斯醫生;}-",
   "path": "Module:CGroup/House",
   "rules": [
     {
@@ -373,7 +373,7 @@
     },
     {
       "original": "Tritter, Michael",
-      "conv": "zh-cn:迈克尔·特里特; zh-tw:邁可·崔特; zh-hk:徐萬其; zh-hant:邁克爾·崔特"
+      "conv": "zh-cn:迈克尔·特里特; zh-tw:邁可·崔特; zh-hk:徐萬其; zh-hant:邁克爾·崔特;"
     },
     {
       "original": "Vicodin",

@@ -1,30 +1,38 @@
 {
   "name": "核能",
   "description": "核能",
-  "path": "Template:CGroup/核能",
+  "path": "Module:CGroup/核能",
   "rules": [
     {
       "original": null,
       "conv": "zh-cn:堆芯; zh-hk:爐心; zh-tw:爐心;"
     },
     {
-      "original": null,
+      "original": "sievert/Sv",
       "conv": "zh-cn:希沃特; zh-hk:希沃特; zh-tw:西弗;"
     },
     {
       "original": null,
-      "conv": "zh-cn:戈瑞; zh-hk:戈瑞; zh-tw:戈雷; zh-mo:格雷; "
+      "conv": "zh-cn:戈瑞; zh-hk:戈瑞; zh-tw:戈雷; zh-mo:格雷;"
     },
     {
       "original": null,
       "conv": "zh-cn:钚; zh-hk:鈈; zh-tw:鈽;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:兆瓦; zh-hk:兆瓦; zh-tw:百萬瓦;"
+      "original": "MW",
+      "conv": "zh-cn:兆瓦; zh-hk:兆瓦; zh-tw:千瓩;"
     },
     {
-      "original": null,
+      "original": "GW",
+      "conv": "zh-cn:吉瓦; zh-hk:吉瓦; zh-tw:百萬瓩;"
+    },
+    {
+      "original": "TW",
+      "conv": "zh-cn:太瓦; zh-hk:太瓦; zh-tw:十億瓩;"
+    },
+    {
+      "original": "Chernobyl",
       "conv": "zh-cn:切尔诺贝利; zh-hk:切爾諾貝爾; zh-tw:車諾比;"
     },
     {
@@ -81,15 +89,23 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:辐射; zh-tw:放射線;zh-hk:輻射"
+      "conv": "zh-cn:辐射; zh-tw:放射線;zh-hk:輻射;"
     },
     {
       "original": null,
       "conv": "zh-cn:世界核协会; zh-tw:世界核能協會;"
     },
     {
-      "original": null,
+      "original": "IAEA",
       "conv": "zh-cn:国际原子能机构; zh-tw:國際原子能總署; zh-hk:國際原子能總署;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:链反应; zh-tw:連鎖反應; zh-hk:連鎖反應;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:链式反应; zh-tw:連鎖反應; zh-hk:連鎖反應;"
     }
   ]
 }

@@ -4,16 +4,16 @@
   "path": "Module:CGroup/Bird",
   "rules": [
     {
-      "original": "",
-      "conv": "zh-hans:𫛚; zh-hant:鳽"
+      "original": null,
+      "conv": "zh-hans:𫛚; zh-hant:鳽;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𱉐; zh-hant:鵙"
+      "original": null,
+      "conv": "zh-hans:𱉐; zh-hant:鵙;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:𱉼; zh-tw:鵖; zh-hk:䳭"
+      "original": null,
+      "conv": "zh-hans:𱉼; zh-tw:鵖; zh-hk:䳭;"
     },
     {
       "original": "Anatidae",
@@ -160,20 +160,16 @@
       "conv": "zh-hans:中华秋沙鸭;zh-cn:中华秋沙鸭;zh-tw:唐秋沙;zh-hk:中華秋沙鴨;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "白秋沙鸭=>zh-hans:斑头秋沙鸭;白秋沙鸭=>zh-cn:斑头秋沙鸭;白秋沙鸭=>zh-sg:斑头秋沙鸭;白秋沙鸭=>zh-my:斑头秋沙鸭;白秋沙鸭=>zh-tw:白秋沙;白秋沙鸭=>zh-hant:白秋沙鴨;白秋沙鸭=>zh-hk:白秋沙鴨;白秋沙鸭=>zh-mo:白秋沙鴨;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "普通鵲鴨=>zh-hans:鹊鸭;普通鵲鴨=>zh-cn:鹊鸭;普通鵲鴨=>zh-sg:鹊鸭;普通鵲鴨=>zh-my:鹊鸭;普通鵲鴨=>zh-hant:鵲鴨;普通鵲鴨=>zh-tw:鵲鴨;普通鵲鴨=>zh-hk:鵲鴨;普通鵲鴨=>zh-mo:鵲鴨;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "南亚斑嘴鸭=>zh-cn:印度斑嘴鸭;南亚斑嘴鸭=>zh-hans:印度斑嘴鸭;南亚斑嘴鸭=>zh-sg:印度斑嘴鸭;南亚斑嘴鸭=>zh-my:印度斑嘴鸭;南亚斑嘴鸭=>zh-tw:印緬花嘴鴨;南亚斑嘴鸭=>zh-hant:印缅斑嘴鴨;南亚斑嘴鸭=>zh-hk:印缅斑嘴鴨;南亚斑嘴鸭=>zh-mo:印缅斑嘴鴨;"
-    },
-    {
-      "original": "<i>Coturnix</i>",
-      "conv": "zh-cn:鹌鹑属;zh-tw:鶉屬;zh-hk:鵪鶉屬;"
     },
     {
       "original": "<i>Tetraophasis</i>",
@@ -328,10 +324,6 @@
       "conv": "zh-hans:霍氏鹰鹃;zh-cn:棕腹鹰鹃;zh-tw:棕腹鷹鵑;zh-hk:霍氏鷹鵑;"
     },
     {
-      "original": "<i>Cuculus saturatus</i>",
-      "conv": "zh-hans:中杜鹃;zh-cn:中杜鹃;zh-tw:喜馬拉雅中杜鵑;zh-hk:中杜鵑;"
-    },
-    {
       "original": "<i>Cuculus optatus</i>",
       "conv": "zh-hans:北方中杜鹃;zh-cn:东方中杜鹃;zh-tw:北方中杜鵑;zh-hk:東方中杜鵑;"
     },
@@ -364,10 +356,6 @@
       "conv": "zh-hans:绿鸠属;zh-cn:绿鸠属;zh-tw:綠鳩;zh-hk:紅翅綠鳩;"
     },
     {
-      "original": "<i>Treron bicinctus</i>",
-      "conv": "zh-hans:橙胸绿鸠;zh-cn:橙胸绿鸠;zh-tw:橙胸綠鳩;zh-hk:橙胸綠鳩;"
-    },
-    {
       "original": "<i>Treron phayrei</i>",
       "conv": "zh-hans:灰头绿鸠;zh-cn:灰头绿鸠;zh-tw:蒼頭綠鳩;zh-hk:灰頭綠鳩;"
     },
@@ -390,10 +378,6 @@
     {
       "original": "<i>Treron sphenurus</i>",
       "conv": "zh-hans:楔尾绿鸠;zh-cn:楔尾绿鸠;zh-tw:楔尾綠鳩;zh-hk:楔尾綠鳩;"
-    },
-    {
-      "original": "<i>Treron sieboldii</i>",
-      "conv": "zh-hans:红翅绿鸠;zh-cn:红翅绿鸠;zh-tw:綠鳩;zh-hk:紅翅綠鳩;"
     },
     {
       "original": "<i>Treron formosae</i>",
@@ -426,10 +410,6 @@
     {
       "original": "<i>Porphyrio poliocephalus</i>",
       "conv": "zh-hans:紫水鸡;zh-cn:紫水鸡;zh-tw:灰頭紫水雞;zh-hk:紫水雞;"
-    },
-    {
-      "original": "<i>Porphyrio indicus</i>",
-      "conv": "zh-hans:黑背紫水鸡;zh-cn:黑背紫水鸡;zh-tw:黑背紫水雞;zh-hk:黑背紫水雞;"
     },
     {
       "original": "<i>Coturnicops exquisitus</i>",
@@ -470,10 +450,6 @@
     {
       "original": "<i>Podiceps cristatus</i>",
       "conv": "zh-hans:凤头䴙䴘;zh-cn:凤头䴙䴘;zh-tw:冠鸊鷉;zh-hk:鳳頭鸊鷉;"
-    },
-    {
-      "original": "<i>Burhinus oedicnemus</i>",
-      "conv": "zh-hans:欧石鸻;zh-cn:石鸻;zh-tw:歐石鴴;zh-hk:石鴴;"
     },
     {
       "original": "<i>Esacus recurvirostris</i>",
@@ -576,10 +552,6 @@
       "conv": "zh-hans:阔嘴鹬;zh-cn:阔嘴鹬;zh-tw:寬嘴鷸;zh-hk:闊嘴鷸;"
     },
     {
-      "original": "<i>Recurvirostra avosetta</i>",
-      "conv": "zh-hans:反嘴鹬;zh-cn:反嘴鹬;zh-tw:反嘴鴴;zh-hk:反嘴鷸;"
-    },
-    {
       "original": "<i>Calidris himantopus</i>",
       "conv": "zh-hans:高跷鹬;zh-cn:高跷鹬;zh-tw:高蹺濱鷸;zh-hk:高蹺鷸;"
     },
@@ -640,10 +612,6 @@
       "conv": "zh-hans:扇尾沙锥;zh-cn:扇尾沙锥;zh-tw:田鷸;zh-hk:扇尾沙錐;"
     },
     {
-      "original": "<i>Xenus cinereus</i>",
-      "conv": "zh-hans:翘嘴鹬;zh-cn:翘嘴鹬;zh-tw:反嘴鷸;zh-hk:翹嘴鷸;"
-    },
-    {
       "original": "<i>Phalaropus lobatus</i>",
       "conv": "zh-hans:红颈瓣蹼鹬;zh-cn:红颈瓣蹼鹬;zh-tw:紅領瓣足鷸;zh-hk:紅頸瓣蹼鷸;"
     },
@@ -680,14 +648,6 @@
       "conv": "zh-hans:小青脚鹬;zh-cn:小青脚鹬;zh-tw:諾氏鷸;zh-hk:小青腳鷸;"
     },
     {
-      "original": "<i>Glareola pratincola</i>",
-      "conv": "zh-hans:领燕鸻;zh-cn:领燕鸻;zh-tw:領燕鴴;zh-hk:領燕鴴;"
-    },
-    {
-      "original": "<i>Glareola maldivarum</i>",
-      "conv": "zh-hans:普通燕鸻;zh-cn:普通燕鸻;zh-tw:燕鴴;zh-hk:普通燕鴴;"
-    },
-    {
       "original": "<i>Glareola nordmanni</i>",
       "conv": "zh-hans:黑翅燕鸻;zh-cn:黑翅燕鸻;zh-tw:黑翅燕鴴;zh-hk:黑翅燕鴴;"
     },
@@ -706,10 +666,6 @@
     {
       "original": "<i>Larus canus</i>",
       "conv": "zh-hans:海鸥;zh-cn:普通海鸥;zh-tw:海鷗;zh-hk:海鷗;"
-    },
-    {
-      "original": "<i>Larus brachyrhynchus</i>",
-      "conv": "zh-hans:美洲海鸥;zh-cn:美洲海鸥;zh-tw:;zh-hk:美洲海鷗;"
     },
     {
       "original": "<i>Larus vegae</i>",
@@ -736,10 +692,6 @@
       "conv": "zh-hans:大凤头燕鸥;zh-cn:大凤头燕鸥;zh-tw:鳳頭燕鷗;zh-hk:大鳳頭燕鷗;"
     },
     {
-      "original": "<i>Thalasseus bengalensis</i>",
-      "conv": "zh-hans:小凤头燕鸥;zh-cn:小凤头燕鸥;zh-tw:小鳳頭燕鷗;zh-hk:小鳳頭燕鷗;"
-    },
-    {
       "original": "<i>Thalasseus bernsteini</i>",
       "conv": "zh-hans:中华凤头燕鸥;zh-cn:中华凤头燕鸥;zh-tw:黑嘴端鳳頭燕鷗;zh-hk:中華鳳頭燕鷗;"
     },
@@ -750,10 +702,6 @@
     {
       "original": "<i>Sternula albifrons</i>",
       "conv": "zh-hans:白额燕鸥;zh-cn:白额燕鸥;zh-tw:小燕鷗;zh-hk:白額燕鷗;"
-    },
-    {
-      "original": "<i>Onychoprion aleuticus</i>",
-      "conv": "zh-hans:白腰燕鸥;zh-cn:白腰燕鸥;zh-tw:白腰燕鷗;zh-hk:白腰燕鷗;"
     },
     {
       "original": "<i>Onychoprion anaethetus</i>",
@@ -860,10 +808,6 @@
       "conv": "zh-hans:军舰鸟科;zh-cn:军舰鸟科;zh-tw:軍艦鳥科;zh-hk:軍艦鳥科;"
     },
     {
-      "original": "<i>Fregata</i>",
-      "conv": "zh-hans:军舰鸟属;zh-cn:军舰鸟属;zh-tw:軍艦鳥屬;zh-hk:軍艦鳥屬;"
-    },
-    {
       "original": "<i>Fregata andrewsi</i>",
       "conv": "zh-hans:白腹军舰鸟;zh-cn:白腹军舰鸟;zh-tw:白腹軍艦鳥;zh-hk:白腹軍艦鳥;"
     },
@@ -878,10 +822,6 @@
     {
       "original": "<i>Sula leucogaster</i>",
       "conv": "zh-hans:褐鲣鸟;zh-cn:褐鲣鸟;zh-tw:白腹鰹鳥;zh-hk:褐鰹鳥;"
-    },
-    {
-      "original": "<i>Phalacrocoracidae</i>",
-      "conv": "zh-hans:鸬鹚科;zh-cn:鸬鹚科;zh-tw:鸕鷀屬;zh-hk:鸕鷀屬;"
     },
     {
       "original": "<i>Phalacrocorax</i>",
@@ -964,16 +904,8 @@
       "conv": "zh-hans:绿鹭;zh-cn:绿鹭;zh-tw:綠簑鷺;zh-hk:綠鷺;"
     },
     {
-      "original": "<i>Bubulcus coromandus</i>",
-      "conv": "zh-hans:牛背鹭;zh-cn:牛背鹭;zh-tw:東方牛背鷺;zh-hk:牛背鷺;"
-    },
-    {
       "original": "<i>Ardea purpurea</i>",
       "conv": "zh-hans:草鹭;zh-cn:草鹭;zh-tw:紫鷺;zh-hk:草鷺;"
-    },
-    {
-      "original": "<i>Ardea alba</i>",
-      "conv": "zh-hans:大白鹭;zh-cn:大白鹭;zh-tw:大白鷺;zh-hk:大白鷺;"
     },
     {
       "original": "<i>Ardea intermedia</i>",
@@ -1028,10 +960,6 @@
       "conv": "zh-hans:乌雕;zh-cn:乌雕;zh-tw:花鵰;zh-hk:烏鵰;"
     },
     {
-      "original": "<i>Aquila nipalensis</i>",
-      "conv": "zh-hans:草原雕;zh-cn:草原雕;zh-tw:歐亞草原鵰;zh-hk:草原鵰;"
-    },
-    {
       "original": "<i>Aquila fasciata</i>",
       "conv": "zh-hans:白腹隼雕;zh-cn:白腹隼雕;zh-tw:白腹鵰;zh-hk:白腹隼鵰;"
     },
@@ -1040,20 +968,8 @@
       "conv": "zh-hans:凤头鹰;zh-cn:凤头鹰;zh-tw:鳳頭蒼鷹;zh-hk:鳳頭鷹;"
     },
     {
-      "original": "<i>Accipiter badius</i>",
-      "conv": "zh-hans:褐耳鹰;zh-cn:褐耳鹰;zh-tw:褐耳雀鷹;zh-hk:褐耳鷹;"
-    },
-    {
-      "original": "<i>Accipiter gularis</i>",
-      "conv": "zh-hans:日本松雀鹰;zh-cn:日本松雀鹰;zh-tw:日本松雀鷹;zh-hk:日本松雀鷹;"
-    },
-    {
       "original": "<i>Accipiter virgatus</i>",
       "conv": "zh-hans:松雀鹰;zh-cn:松雀鹰;zh-tw:松雀鷹;zh-hk:松雀鷹;"
-    },
-    {
-      "original": "<i>Accipiter nisus</i>",
-      "conv": "zh-hans:雀鹰;zh-cn:雀鹰;zh-tw:北雀鷹;zh-hk:雀鷹;"
     },
     {
       "original": "<i>Circus aeruginosus</i>",
@@ -1072,28 +988,8 @@
       "conv": "zh-hans:鹊鹞;zh-cn:鹊鹞;zh-tw:花澤鵟;zh-hk:鵲鷂;"
     },
     {
-      "original": "<i>Haliaeetus humilis</i>",
-      "conv": "zh-hans:渔雕;zh-cn:渔雕;zh-tw:小漁鵰;zh-hk:漁雕;"
-    },
-    {
-      "original": "<i>Tyto javanica</i>",
-      "conv": "zh-hans:仓鸮;zh-cn:仓鸮;zh-tw:東方倉鴞;zh-hk:倉鴞;"
-    },
-    {
       "original": "<i>Ninox japonica</i>",
       "conv": "zh-hans:北鹰鸮;zh-cn:日本鹰鸮;zh-tw:北方鷹鴞;zh-hk:北鷹鴞;"
-    },
-    {
-      "original": "<i>Ninox scutulata</i>",
-      "conv": "zh-hans:鹰鸮;zh-cn:鹰鸮;zh-tw:褐鷹鴞;zh-hk:鷹鴞;"
-    },
-    {
-      "original": "<i>Taenioptynx brodiei</i>",
-      "conv": "zh-hans:领鸺鹠;zh-cn:领鸺鹠;zh-tw:鵂鶹;zh-hk:領鵂鶹;"
-    },
-    {
-      "original": "<i>Glaucidium passerinum</i>",
-      "conv": "zh-hans:花头鸺鹠;zh-cn:花头鸺鹠;zh-tw:花頭鵂鶹;zh-hk:花頭鵂鶹;"
     },
     {
       "original": "<i>Glaucidium cuculoides</i>",
@@ -1128,16 +1024,8 @@
       "conv": "zh-hans:冠斑犀鸟;zh-cn:冠斑犀鸟;zh-tw:斑犀鳥;zh-hk:冠斑犀鳥;"
     },
     {
-      "original": "<i>Coracias affinis</i>",
-      "conv": "zh-hans:棕胸佛法僧;zh-cn:棕胸佛法僧;zh-tw:;zh-hk:棕胸佛法僧;"
-    },
-    {
       "original": "<i>Coracias garrulus</i>",
       "conv": "zh-hans:蓝胸佛法僧;zh-cn:蓝胸佛法僧;zh-tw:藍胸佛法僧;zh-hk:藍胸佛法僧;"
-    },
-    {
-      "original": "<i>Eurystomus orientalis</i>",
-      "conv": "zh-hans:三宝鸟;zh-cn:三宝鸟;zh-tw:佛法僧;zh-hk:三寶鳥;"
     },
     {
       "original": "<i>Halcyon smyrnensis</i>",
@@ -1148,20 +1036,8 @@
       "conv": "zh-hans:蓝翡翠;zh-cn:蓝翡翠;zh-tw:黑頭翡翠;zh-hk:藍翡翠;"
     },
     {
-      "original": "<i>Alcedo meninting</i>",
-      "conv": "zh-hans:蓝耳翠鸟;zh-cn:蓝耳翠鸟;zh-tw:藍耳翠鳥;zh-hk:藍耳翠鳥;"
-    },
-    {
-      "original": "<i>Alcedo atthis</i>",
-      "conv": "zh-hans:普通翠鸟;zh-cn:普通翠鸟;zh-tw:翠鳥;zh-hk:普通翠鳥;"
-    },
-    {
       "original": "<i>Alcedo hercules</i>",
       "conv": "zh-hans:斑头大翠鸟;zh-cn:斑头大翠鸟;zh-tw:斑頭大藍翠鳥;zh-hk:斑頭大翠鳥;"
-    },
-    {
-      "original": "<i>Ceyx erithaca</i>",
-      "conv": "zh-hans:三趾翠鸟;zh-cn:三趾翠鸟;zh-tw:黑背三趾翠鳥;zh-hk:三趾翠鳥;"
     },
     {
       "original": "<i>Ceryle rudis</i>",
@@ -1312,10 +1188,6 @@
       "conv": "zh-hans:幽鹛科; zh-tw:雀眉科; zh-hant:幽鶥科;"
     },
     {
-      "original": "<i>Hydrornis phayrei</i>",
-      "conv": "zh-hans:双辫八色鸫;zh-cn:双辫八色鸫;zh-tw:雙辮八色鳥;zh-hk:雙辮八色鶇;"
-    },
-    {
       "original": "<i>Hydrornis oatesi</i>",
       "conv": "zh-hans:栗头八色鸫;zh-cn:栗头八色鸫;zh-tw:栗頭八色鳥;zh-hk:栗頭八色鶇;"
     },
@@ -1338,10 +1210,6 @@
     {
       "original": "<i>Pitta sordida</i>",
       "conv": "zh-hans:绿胸八色鸫;zh-cn:绿胸八色鸫;zh-tw:黑領八色鳥;zh-hk:綠胸八色鶇;"
-    },
-    {
-      "original": "<i>Pitta nympha</i>",
-      "conv": "zh-hans:仙八色鸫;zh-cn:仙八色鸫;zh-tw:八色鳥;zh-hk:仙八色鶇;"
     },
     {
       "original": "<i>Tephrodornis virgatus</i>",
@@ -1400,20 +1268,12 @@
       "conv": "zh-hans:鹊色鹂;zh-cn:鹊鹂;zh-tw:鵲鸝;zh-hk:鵲色鸝;"
     },
     {
-      "original": "<i>Oriolus xanthornus</i>",
-      "conv": "zh-hans:黑头黄鹂;zh-cn:黑头黄鹂;zh-tw:黑頭黃鸝;zh-hk:黑頭黃鸝;"
-    },
-    {
       "original": "<i>Oriolus kundoo</i>",
       "conv": "zh-hans:印度金黄鹂;zh-cn:印度金黄鹂;zh-tw:印度黃鸝;zh-hk:印度金黃鸝;"
     },
     {
       "original": "<i>Oriolus oriolus</i>",
       "conv": "zh-hans:金黄鹂;zh-cn:金黄鹂;zh-tw:金黃鸝;zh-hk:金黃鸝;"
-    },
-    {
-      "original": "<i>Oriolus chinensis</i>",
-      "conv": "zh-hans:黑枕黄鹂;zh-cn:黑枕黄鹂;zh-tw:黃鸝;zh-hk:黑枕黃鸝;"
     },
     {
       "original": "<i>Oriolus tenuirostris</i>",
@@ -1448,28 +1308,12 @@
       "conv": "zh-hans:中南寿带;zh-cn:东方寿带;zh-tw:布來氏綬帶;zh-hk:東方綬帶;"
     },
     {
-      "original": "<i>Terpsiphone incei</i>",
-      "conv": "zh-hans:寿带;zh-cn:寿带;zh-tw:阿穆爾綬帶;zh-hk:綬帶;"
-    },
-    {
       "original": "<i>Terpsiphone atrocaudata</i>",
       "conv": "zh-hans:紫寿带;zh-cn:紫寿带;zh-tw:紫綬帶;zh-hk:紫綬帶;"
     },
     {
-      "original": "<i>Cissa chinensis</i>",
-      "conv": "zh-hans:蓝绿鹊;zh-cn:蓝绿鹊;zh-tw:綠鵲;zh-hk:藍綠鵲;"
-    },
-    {
       "original": "<i>Cissa hypoleuca</i>",
       "conv": "zh-hans:印支绿鹊;zh-cn:黄胸绿鹊;zh-tw:黃胸綠鵲;zh-hk:黃胸綠鵲;"
-    },
-    {
-      "original": "<i>Dendrocitta vagabunda</i>",
-      "conv": "zh-hans:棕腹树鹊;zh-cn:棕腹树鹊;zh-tw:棕腹樹鵲;zh-hk:棕腹樹鵲;"
-    },
-    {
-      "original": "<i>Dendrocitta formosae</i>",
-      "conv": "zh-hans:灰树鹊;zh-cn:灰树鹊;zh-tw:樹鵲;zh-hk:灰樹鵲;"
     },
     {
       "original": "<i>Dendrocitta frontalis</i>",
@@ -1560,24 +1404,8 @@
       "conv": "zh-hans:眼纹黄山雀;zh-cn:眼纹黄山雀;zh-tw:黑頭黃頰山雀;zh-hk:眼紋黃山雀;"
     },
     {
-      "original": "<i>Remiz coronatus</i>",
-      "conv": "zh-hans:白冠攀雀;zh-cn:白冠攀雀;zh-tw:白冠攀雀;zh-hk:白冠攀雀;"
-    },
-    {
-      "original": "<i>Remiz consobrinus</i>",
-      "conv": "zh-hans:中华攀雀;zh-cn:中华攀雀;zh-tw:攀雀;zh-hk:中華攀雀;"
-    },
-    {
-      "original": "<i>Alauda leucoptera</i>",
-      "conv": "zh-hans:白翅百灵;zh-cn:白翅云雀;zh-tw:白翅百靈;zh-hk:白翅雲雀;"
-    },
-    {
       "original": "<i>Alauda gulgula</i>",
       "conv": "zh-hans:小云雀;zh-cn:小云雀;zh-tw:小雲雀;zh-hk:小雲雀;"
-    },
-    {
-      "original": "<i>Alauda arvensis</i>",
-      "conv": "zh-hans:云雀;zh-cn:云雀;zh-tw:歐亞雲雀;zh-hk:雲雀;"
     },
     {
       "original": "<i>Calandrella dukhunensis</i>",
@@ -1586,14 +1414,6 @@
     {
       "original": "<i>Melanocorypha bimaculata</i>",
       "conv": "zh-hans:二斑百灵;zh-cn:双斑百灵;zh-tw:二斑百靈;zh-hk:雙斑百靈;"
-    },
-    {
-      "original": "<i>Alaudala cheleensis</i>",
-      "conv": "zh-hans:亚洲短趾百灵;zh-cn:短趾百灵;zh-tw:亞洲短趾百靈;zh-hk:亞洲短趾百靈;"
-    },
-    {
-      "original": "<i>Alaudala heinei</i>",
-      "conv": "zh-hans:中亚短趾百灵;zh-cn:中亚短趾百灵;zh-tw:;zh-hk:中亞短趾百靈;"
     },
     {
       "original": "<i>Alophoixus flaveolus</i>",
@@ -1720,14 +1540,6 @@
       "conv": "zh-hans:鳞头树莺;zh-cn:鳞头树莺;zh-tw:短尾鶯;zh-hk:鱗頭樹鶯;"
     },
     {
-      "original": "<i>Aegithalos caudatus</i>",
-      "conv": "zh-hans:北长尾山雀;zh-cn:北长尾山雀;zh-tw:長尾山雀;zh-hk:北長尾山雀;"
-    },
-    {
-      "original": "<i>Aegithalos glaucogularis</i>",
-      "conv": "zh-hans:银喉长尾山雀;zh-cn:银喉长尾山雀;zh-tw:銀喉長尾山雀;zh-hk:銀喉長尾山雀;"
-    },
-    {
       "original": "<i>Aegithalos concinnus</i>",
       "conv": "zh-hans:红头长尾山雀;zh-cn:红头长尾山雀;zh-tw:紅頭山雀;zh-hk:紅頭長尾山雀;"
     },
@@ -1808,24 +1620,8 @@
       "conv": "zh-hans:华南冠纹柳莺;zh-cn:华南冠纹柳莺;zh-tw:哈氏冠紋柳鶯;zh-hk:華南冠紋柳鶯;"
     },
     {
-      "original": "<i>Phylloscopus ogilviegranti</i>",
-      "conv": "zh-hans:白斑尾柳莺;zh-cn:白斑尾柳莺;zh-tw:克洛氏白斑尾柳鶯;zh-hk:白斑尾柳鶯;"
-    },
-    {
-      "original": "<i>Phylloscopus intensior</i>",
-      "conv": "zh-hans:云南白斑尾柳莺;zh-cn:云南白斑尾柳莺;zh-tw:;zh-hk:雲南白斑尾柳鶯;"
-    },
-    {
       "original": "<i>Phylloscopus xanthoschistos</i>",
       "conv": "zh-hans:灰头柳莺;zh-cn:灰头柳莺;zh-tw:灰頭鶲鶯;zh-hk:灰頭柳鶯;"
-    },
-    {
-      "original": "<i>Acrocephalus arundinaceus</i>",
-      "conv": "zh-hans:大苇莺;zh-cn:大苇莺;zh-tw:西方大葦鶯;zh-hk:大葦鶯;"
-    },
-    {
-      "original": "<i>Acrocephalus orientalis</i>",
-      "conv": "zh-hans:东方大苇莺;zh-cn:东方大苇莺;zh-tw:東方大葦鶯;zh-hk:東方大葦鶯;"
     },
     {
       "original": "<i>Acrocephalus stentoreus</i>",
@@ -1850,10 +1646,6 @@
     {
       "original": "<i>Iduna rama</i>",
       "conv": "zh-hans:赛氏篱莺;zh-cn:赛氏篱莺;zh-tw:塞克氏鶯;zh-hk:賽氏篱鶯;"
-    },
-    {
-      "original": "<i>Iduna pallida</i>",
-      "conv": "zh-hans:草绿篱莺;zh-cn:草绿篱莺;zh-tw:東方草綠蘺鶯;zh-hk:草綠籬鶯;"
     },
     {
       "original": "<i>Helopsaltes pleskei</i>",
@@ -2044,20 +1836,12 @@
       "conv": "zh-hans:长尾鹩鹛;zh-cn:灰腹鹩鹛;zh-tw:灰腹鷯鶥;zh-hk:灰腹鷯鶥;"
     },
     {
-      "original": "<i>Pomatorhinus</i>",
-      "conv": "zh-hans:钩嘴鹛属;zh-cn:钩嘴鹛属;zh-tw:彎嘴鶥屬;zh-hk:鉤嘴鶥屬;"
-    },
-    {
       "original": "<i>Pomatorhinus superciliaris</i>",
       "conv": "zh-hans:剑嘴鹛;zh-cn:细嘴钩嘴鹛;zh-tw:細嘴鉤嘴鶥;zh-hk:細嘴鉤嘴鶥;"
     },
     {
       "original": "<i>Pomatorhinus musicus</i>",
       "conv": "zh-hans:台湾棕颈钩嘴鹛;zh-cn:台湾棕颈钩嘴鹛;zh-tw:小彎嘴;zh-hk:台灣鉤嘴鶥;"
-    },
-    {
-      "original": "<i>Erythrogenys gravivox</i>",
-      "conv": "zh-hans:斑胸钩嘴鹛;zh-cn:斑胸钩嘴鹛;zh-tw:黑紋鉤嘴鶥;zh-hk:斑胸鉤嘴鶥;"
     },
     {
       "original": "<i>Erythrogenys swinhoei</i>",
@@ -2164,16 +1948,8 @@
       "conv": "zh-hans:红翅薮鹛;zh-cn:红翅薮鹛;zh-tw:猩紅臉藪鶥;zh-hk:紅翅藪鶥;"
     },
     {
-      "original": "<i>Timaliidae</i>",
-      "conv": "zh-hans:林鹛科;zh-cn:林鹛科;zh-tw:畫眉科;zh-hk:林鶥科;"
-    },
-    {
       "original": "<i>Garrulax</i>",
       "conv": "zh-hans:画眉属;zh-cn:画眉属;zh-tw:畫眉屬;zh-hk:畫眉屬;"
-    },
-    {
-      "original": "<i></i>",
-      "conv": "zh-hans:画眉鸟;zh-cn:画眉鸟;zh-tw:畫眉鳥;zh-hk:畫眉鳥;"
     },
     {
       "original": "<i>Garrulax canorus</i>",
@@ -2196,6 +1972,10 @@
       "conv": "zh-hans:白点噪鹛;zh-cn:白点噪鹛;zh-tw:白斑噪鶥;zh-hk:白點噪鶥;"
     },
     {
+      "original": "<i>Pterorhinus</i>",
+      "conv": "zh-hans:黑喉噪鹛属;zh-cn:黑喉噪鹛属;zh-tw:白喉噪鶥屬;zh-hk:黑喉噪鶥屬;"
+    },
+    {
       "original": "<i>Pterorhinus ruficollis</i>",
       "conv": "zh-hans:栗颈噪鹛;zh-cn:栗颈噪鹛;zh-tw:棕頸噪鶥;zh-hk:栗頸噪鶥;"
     },
@@ -2208,12 +1988,12 @@
       "conv": "zh-hans:台湾棕噪鹛;zh-cn:台湾棕噪鹛;zh-tw:棕噪眉;zh-hk:台灣棕噪鶥;"
     },
     {
-      "original": "<i>Regulus goodfellowi</i>",
-      "conv": "zh-hans:台湾戴菊;zh-cn:台湾戴菊;zh-tw:火冠戴菊鳥;zh-hk:台灣戴菊;"
+      "original": "<i>Pterorhinus ruficollis</i>",
+      "conv": "zh-hans:栗颈噪鹛;zh-cn:栗颈噪鹛;zh-tw:棕頸噪鶥;zh-hk:栗頸噪鶥;"
     },
     {
-      "original": "<i>Regulus regulus</i>",
-      "conv": "zh-hans:戴菊;zh-cn:戴菊;zh-tw:戴菊鳥;zh-hk:戴菊;"
+      "original": "<i>Pterorhinus ruficeps</i>",
+      "conv": "zh-cn:台湾白喉噪鹛; zh-tw:臺灣白喉噪眉; zh-hk:台灣白喉噪鶥;"
     },
     {
       "original": "<i>Elachura formosa</i>",
@@ -2260,6 +2040,10 @@
       "conv": "zh-hans:紫翅椋鸟;zh-cn:紫翅椋鸟;zh-tw:歐洲椋鳥;zh-hk:紫翅椋鳥;"
     },
     {
+      "original": "<i>Gracupica nigricollis</i>",
+      "conv": "zh-hans:黑领椋鸟;zh-tw:烏領椋鳥;zh-hk:黑領椋鳥;"
+    },
+    {
       "original": "<i>Zoothera mollissima</i>",
       "conv": "zh-hans:光背地鸫;zh-cn:淡背地鸫;zh-tw:淡背地鶇;zh-hk:淡背地鶇;"
     },
@@ -2278,18 +2062,6 @@
     {
       "original": "<i>Zoothera dauma</i>",
       "conv": "zh-hans:虎斑地鸫;zh-cn:小虎斑地鸫;zh-tw:虎斑地鶇;zh-hk:小虎斑地鶇;"
-    },
-    {
-      "original": "<i>Turdus philomelos</i>",
-      "conv": "zh-hans:欧歌鸫;zh-cn:欧歌鸫;zh-tw:歌鶇;zh-hk:歐歌鶇;"
-    },
-    {
-      "original": "<i>Turdus mandarinus</i>",
-      "conv": "zh-hans:乌鸫;zh-cn:乌鸫;zh-tw:中國黑鶇;zh-hk:烏鶇;"
-    },
-    {
-      "original": "<i>Turdus merula</i>",
-      "conv": "zh-hans:欧乌鸫;zh-cn:欧乌鸫;zh-tw:烏鶇;zh-hk:歐烏鶇;"
     },
     {
       "original": "<i>Turdus unicolor</i>",
@@ -2372,10 +2144,6 @@
       "conv": "zh-hans:台湾林鸲;zh-cn:台湾林鸲;zh-tw:栗背林鴝;zh-hk:台灣林鴝;"
     },
     {
-      "original": "<i>Tarsiger cyanurus</i>",
-      "conv": "zh-hans:红胁蓝尾鸲;zh-cn:红胁蓝尾鸲;zh-tw:藍尾鴝;zh-hk:紅脇藍尾鴝;"
-    },
-    {
       "original": "<i>Tarsiger rufilatus</i>",
       "conv": "zh-hans:蓝眉林鸲;zh-cn:蓝眉林鸲;zh-tw:喜瑪拉雅藍尾林鴝;zh-hk:藍眉林鴝;"
     },
@@ -2390,14 +2158,6 @@
     {
       "original": "<i>Enicurus leschenaulti</i>",
       "conv": "zh-hans:白冠燕尾;zh-cn:白额燕尾;zh-tw:白額燕尾;zh-hk:白額燕尾;"
-    },
-    {
-      "original": "<i>Myophonus insularis</i>",
-      "conv": "zh-hans:台湾紫啸鸫;zh-cn:台湾紫啸鸫;zh-tw:臺灣紫嘯鶇;zh-hk:臺灣紫嘯鶇;"
-    },
-    {
-      "original": "<i>Myophonus caeruleus</i>",
-      "conv": "zh-hans:紫啸鸫;zh-cn:紫啸鸫;zh-tw:白斑紫嘯鶇;zh-hk:紫嘯鶇;"
     },
     {
       "original": "<i>Cinclidium frontale</i>",
@@ -2436,10 +2196,6 @@
       "conv": "zh-hans:红胸姬鹟;zh-cn:红胸姬鹟;zh-tw:紅胸鶲;zh-hk:紅胸姬鶲;"
     },
     {
-      "original": "<i>Phoenicurus alaschanicus</i>",
-      "conv": "zh-hans:贺兰山红尾鸲;zh-cn:贺兰山红尾鸲;zh-tw:賀蘭山紅尾鴝;zh-hk:賀蘭山紅尾鴝;"
-    },
-    {
       "original": "<i>Phoenicurus erythronotus</i>",
       "conv": "zh-hans:红背红尾鸲;zh-cn:红背红尾鸲;zh-tw:紅背紅尾鴝;zh-hk:紅背紅尾鴝;"
     },
@@ -2450,10 +2206,6 @@
     {
       "original": "<i>Phoenicurus ochruros</i>",
       "conv": "zh-hans:赭红尾鸲;zh-cn:赭红尾鸲;zh-tw:赭紅尾鴝;zh-hk:赭紅尾鴝;"
-    },
-    {
-      "original": "<i>Phoenicurus phoenicurus</i>",
-      "conv": "zh-hans:欧亚红尾鸲;zh-cn:欧亚红尾鸲;zh-tw:紅尾鴝;zh-hk:歐亞紅尾鴝;"
     },
     {
       "original": "<i>Phoenicurus hodgsoni</i>",
@@ -2486,14 +2238,6 @@
     {
       "original": "<i>Saxicola ferreus</i>",
       "conv": "zh-hans:灰林𱉼;zh-cn:灰林𱉼;zh-tw:灰叢鴝;zh-hk:灰林䳭;"
-    },
-    {
-      "original": "<i>Oenanthe pleschanka</i>",
-      "conv": "zh-hans:白顶𱉼;zh-cn:斑𱉼;zh-tw:白頂䳭;zh-hk:白頂䳭;"
-    },
-    {
-      "original": "<i>Oenanthe picata</i>",
-      "conv": "zh-hans:东方斑𱉼;zh-cn:东方斑𱉼;zh-tw:東方斑鵖;zh-hk:東方斑䳭;"
     },
     {
       "original": "<i>Cinclus cinclus</i>",
@@ -2550,14 +2294,6 @@
     {
       "original": "<i>Passer</i>",
       "conv": "zh-hans:麻雀属;zh-cn:;zh-tw:;zh-hk:;"
-    },
-    {
-      "original": "<i>Passer cinnamomeus</i>",
-      "conv": "zh-hans:山麻雀;zh-cn:山麻雀;zh-tw:山麻雀;zh-hk:山麻雀;"
-    },
-    {
-      "original": "<i>Passer montanus</i>",
-      "conv": "zh-hans:麻雀;zh-cn:麻雀;zh-tw:麻雀;zh-hk:樹麻雀;"
     },
     {
       "original": "<i>Passer ammodendri</i>",
@@ -2620,14 +2356,6 @@
       "conv": "zh-hans:朱鹀;zh-cn:朱鹀;zh-tw:紅尾朱雀;zh-hk:朱鵐;"
     },
     {
-      "original": "<i>Fringilla coelebs</i>",
-      "conv": "zh-hans:苍头燕雀;zh-cn:苍头燕雀;zh-tw:蒼頭燕雀;zh-hk:蒼頭燕雀;"
-    },
-    {
-      "original": "<i>Fringilla montifringilla</i>",
-      "conv": "zh-hans:燕雀;zh-cn:燕雀;zh-tw:花雀;zh-hk:燕雀;"
-    },
-    {
       "original": "<i>Mycerobas affinis</i>",
       "conv": "zh-hans:黄颈拟蜡嘴雀;zh-cn:黄颈拟蜡嘴雀;zh-tw:黑翅擬臘嘴雀;zh-hk:黃頸擬蠟嘴雀;"
     },
@@ -2638,10 +2366,6 @@
     {
       "original": "<i>Mycerobas carnipes</i>",
       "conv": "zh-hans:白斑翅拟蜡嘴雀;zh-cn:白斑翅拟蜡嘴雀;zh-tw:白翅擬臘嘴雀;zh-hk:白斑翅擬蠟嘴雀;"
-    },
-    {
-      "original": "<i>Coccothraustes coccothraustes</i>",
-      "conv": "zh-hans:锡嘴雀;zh-cn:锡嘴雀;zh-tw:臘嘴雀;zh-hk:錫嘴雀;"
     },
     {
       "original": "<i>Eophona migratoria</i>",
@@ -2766,10 +2490,6 @@
     {
       "original": "<i>Emberiza godlewskii</i>",
       "conv": "zh-hans:戈氏岩鹀;zh-cn:灰眉岩鹀;zh-tw:戈氏岩鵐;zh-hk:灰眉岩鵐;"
-    },
-    {
-      "original": "<i>Emberiza cioides</i>",
-      "conv": "zh-hans:三道眉草鹀;zh-cn:三道眉草鹀;zh-tw:草鵐;zh-hk:三道眉草鵐;"
     },
     {
       "original": "<i>Emberiza fucata</i>",

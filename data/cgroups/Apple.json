@@ -4,6 +4,10 @@
   "path": "Module:CGroup/Apple",
   "rules": [
     {
+      "original": "AirDrop",
+      "conv": "zh-cn:隔空投送;zh-hk:AirDrop;zh-tw:AirDrop;zh-sg:AirDrop;"
+    },
+    {
       "original": "AirPlay",
       "conv": "zh:隔空播放;zh-cn:隔空播放;zh-hant:AirPlay;"
     },
@@ -20,6 +24,10 @@
       "conv": "zh-cn:Apple 保真压缩;zh-tw:Apple 保真壓縮;zh-hk:Apple 無損壓縮;"
     },
     {
+      "original": "Bug fixes",
+      "conv": "zh-cn:错误修复;zh-tw:錯誤修正;"
+    },
+    {
       "original": "CarPlay",
       "conv": "zh-cn:CarPlay车载;zh-tw:CarPlay;"
     },
@@ -34,6 +42,10 @@
     {
       "original": "Deep Fusion",
       "conv": "zh-cn:深度融合;zh-mo:深度融合;zh-tw:深度融合;zh-hk:深度融合;"
+    },
+    {
+      "original": "Dynamic Island",
+      "conv": "zh-tw:動態島;zh-cn:灵动岛;"
     },
     {
       "original": "Express Cards",
@@ -80,12 +92,20 @@
       "conv": "zh-cn:人像光效;zh-mo:人像燈光;zh-tw:人像光線;zh-hk:人像燈光;"
     },
     {
+      "original": "Private Relay",
+      "conv": "zh-cn:专用代理;zh-mo:私密轉送;zh-tw:私密轉送;zh-hk:私密轉送;"
+    },
+    {
       "original": "QuickPath",
       "conv": "zh-cn:速滑;zh-tw:快滑;zh-hk:快滑;"
     },
     {
       "original": "QuickTake video",
       "conv": "zh-cn:视频快录;zh-tw:影片快錄;zh-hk:閃錄影片;"
+    },
+    {
+      "original": "Security updates",
+      "conv": "zh-cn:安全性更新;zh-tw:安全性更新;zh-hk:保安更新;"
     },
     {
       "original": "Split View",
@@ -181,7 +201,11 @@
     },
     {
       "original": "Podcast",
-      "conv": "zh-cn:播客;zh-tw:Podcast;"
+      "conv": "Podcasts=>zh-cn:播客;Podcasts=>zh-hant:Podcast;"
+    },
+    {
+      "original": "Podcast",
+      "conv": "zh-cn:播客;zh-hant:Podcast;"
     },
     {
       "original": "Safari",
@@ -240,6 +264,10 @@
       "conv": "zh:三维触控;zh-hant:3D觸控;zh-cn:三维触控;"
     },
     {
+      "original": "Action Button",
+      "conv": "zh-hans:操作按钮; zh-hant:動作按鈕;"
+    },
+    {
       "original": "Always-On Retina display",
       "conv": "zh-cn:全天候视网膜显示屏;zh-tw:隨顯 Retina 顯示器;zh-hk:常亮 Retina 顯示器;"
     },
@@ -285,7 +313,7 @@
     },
     {
       "original": "Jet Black",
-      "conv": "zh-cn:亮黑色;zh-tw:曜石黑色;"
+      "conv": "zh-cn:亮黑色;zh-tw:曜石黑色;zh-hk:亮黑色;"
     },
     {
       "original": "LiDAR Scanner",
@@ -309,7 +337,7 @@
     },
     {
       "original": "Magic Keyboard",
-      "conv": "zh-cn:妙控键盘;zh-tw:巧控键盘;zh-hk:精妙键盘;"
+      "conv": "zh-cn:妙控键盘;zh-tw:巧控鍵盤;zh-hk:精妙鍵盤;"
     },
     {
       "original": "Magic Mouse",
@@ -374,6 +402,10 @@
     {
       "original": "TrueDepth",
       "conv": "zh-cn:原深感;zh-tw:原深感測;zh-hk:原深感測;"
+    },
+    {
+      "original": "WWDC",
+      "conv": "zh-hans:苹果全球开发者大会;zh-hant:Apple 全球開發者大會;"
     }
   ]
 }

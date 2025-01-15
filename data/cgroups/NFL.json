@@ -1,131 +1,247 @@
 {
   "name": "NFL",
-  "description": "美國國家美式足球聯盟",
+  "description": "-{zh-hans:全国橄榄球联盟;zh-hant:美國國家美式足球聯盟;}-",
   "path": "Module:CGroup/NFL",
   "rules": [
     {
       "original": "American Football",
-      "conv": "zh-hans:美式橄榄球;zh-hant:美式足球;zh-cn:美式橄榄球;zh-tw:美式足球;zh-hk:美式足球;zh-mo:美式足球;"
+      "conv": "zh-hans:美式橄榄球;zh-hant:美式足球;"
     },
     {
       "original": "National Football League",
-      "conv": "zh-hans:全国橄榄球联盟;zh-hant:國家美式足球聯盟;zh-cn:全国橄榄球联盟;"
+      "conv": "zh-hans:全国橄榄球联盟;zh-hant:國家美式足球聯盟;"
     },
     {
       "original": "National Football League",
-      "conv": "國家美式橄欖球聯盟=>zh-cn:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-tw:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-hk:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-mo:國家美式足球聯盟;"
+      "conv": "国家美式足球联盟=>zh-cn:全国橄榄球联盟;国家美式足球联盟=>zh-sg:全国橄榄球联盟;国家美式足球联盟=>zh-my:全国橄榄球联盟;"
+    },
+    {
+      "original": "National Football League",
+      "conv": "國家美式橄欖球聯盟=>zh-cn:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-sg:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-my:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-tw:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-hk:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-mo:國家美式足球聯盟;"
     },
     {
       "original": "National Football Conference",
-      "conv": "zh-hans:全国橄榄球联合会;zh-hant:國家美式足球聯會;zh-cn:全国橄榄球联合会;"
+      "conv": "zh-hans:全国橄榄球联合会;zh-hant:國家美式足球聯會;"
+    },
+    {
+      "original": "National Football Conference",
+      "conv": "国家橄榄球联合会=>zh-cn:全国橄榄球联合会;国家橄榄球联合会=>zh-sg:全国橄榄球联合会;国家橄榄球联合会=>zh-my:全国橄榄球联合会;国家橄榄球联合会=>zh-tw:國家美式足球聯會;国家橄榄球联合会=>zh-hk:國家美式足球聯會;国家橄榄球联合会=>zh-mo:國家美式足球聯會;"
     },
     {
       "original": "American Football Conference",
-      "conv": "zh-hans:美国橄榄球联合会;zh-hant:美國美式足球聯會;zh-cn:美国橄榄球联合会;"
+      "conv": "zh-hans:美国橄榄球联合会;zh-hant:美國美式足球聯會;"
+    },
+    {
+      "original": "American Football League",
+      "conv": "zh-hans:美国橄榄球联盟;zh-hant:美國美式足球聯盟;"
+    },
+    {
+      "original": "American Football League",
+      "conv": "美国美式橄榄球联盟=>zh-cn:美国橄榄球联盟;美国美式橄榄球联盟=>zh-sg:美国橄榄球联盟;美国美式橄榄球联盟=>zh-my:美国橄榄球联盟;"
     },
     {
       "original": "Super Bowl",
-      "conv": "zh-hans:超级碗;zh-tw:超級盃;zh-hk:超級碗"
+      "conv": "zh-hans:超级碗;zh-tw:超級盃;zh-hk:超級碗;"
+    },
+    {
+      "original": "Super Bowl",
+      "conv": "超级杯=>zh-cn:超级碗;超级杯=>zh-sg:超级碗;超级杯=>zh-my:超级碗;超级杯=>zh-tw:超級盃;超级杯=>zh-hk:超級碗;超级杯=>zh-mo:超級碗;"
     },
     {
       "original": "Pro Bowl",
-      "conv": "zh-hans:职业碗;zh-tw:職業盃;zh-hk:職業碗"
+      "conv": "zh-hans:职业碗;zh-tw:職業盃;zh-hk:職業碗;"
     },
     {
-      "original": "Cleveland Browns",
-      "conv": "zh-hans:克利夫兰布朗;zh-cn:克利夫兰布朗;zh-tw:克里夫蘭布朗;zh-hk:克里夫蘭布朗;zh-mo:克里夫蘭布朗;"
+      "original": "Pro Bowl",
+      "conv": "zh-hans:职业美式橄榄球名人堂;zh-tw:職業美式足球名人堂;zh-hk:職業美式足球名人堂;"
     },
     {
-      "original": "Green Bay Packers",
-      "conv": "zh-hans:格林贝包装工;zh-cn:格林贝包装工;zh-tw:綠灣包裝工;zh-hk:綠灣包裝者;zh-mo:綠灣包裝者;"
+      "original": "Defensive end",
+      "conv": "防守邊鋒=>zh-cn:防守端锋;防守邊鋒=>zh-sg:防守端锋;防守邊鋒=>zh-my:防守端锋;防守邊鋒=>zh-hk:防守端鋒;防守邊鋒=>zh-mo:防守端鋒;"
     },
     {
-      "original": "Packers",
-      "conv": "zh-hans:包装工;zh-cn:包装工;zh-tw:包裝工;zh-hk:包裝者;zh-mo:包裝者;"
+      "original": "Wide receiver",
+      "conv": "外接員=>zh-cn:外接手;外接員=>zh-sg:外接手;外接員=>zh-my:外接手;外接員=>zh-hk:外接手;外接員=>zh-mo:外接手;"
     },
     {
-      "original": "Houston Texans",
-      "conv": "zh-hans:休斯敦得州人;zh-cn:休斯敦得州人;zh-tw:休士頓德州人;zh-hk:候斯頓德州人;zh-mo:候斯頓德州人;"
-    },
-    {
-      "original": "Houston Texans",
-      "conv": "zh-hans:休斯敦得克萨斯人;zh-cn:休斯敦得克萨斯人;zh-tw:休士頓德克薩斯人;zh-hk:候斯頓德薩斯人;zh-mo:候斯頓德薩斯人;"
-    },
-    {
-      "original": "Texans",
-      "conv": "zh-hans:得克萨斯人;zh-cn:得克萨斯人;zh-tw:德克薩斯人;zh-hk:德薩斯人;zh-mo:德薩斯人;"
-    },
-    {
-      "original": "Jacksonville Jaguars",
-      "conv": "zh-hans:杰克逊维尔美洲虎;zh-cn:杰克逊维尔美洲虎;zh-tw:傑克遜維爾美洲虎;zh-hk:積遜威爾美洲虎;zh-mo:積遜威爾美洲虎;"
-    },
-    {
-      "original": "Jacksonville Jaguars",
-      "conv": "傑克遜威爾美洲虎=>zh-cn:杰克逊维尔美洲虎;傑克遜威爾美洲虎=>zh-tw:傑克遜維爾美洲虎;傑克遜威爾美洲虎=>zh-hk:積遜威爾美洲虎;傑克遜威爾美洲虎=>zh-mo:積遜威爾美洲虎;"
-    },
-    {
-      "original": "Jacksonville Jaguars",
-      "conv": "杰克逊威尔美洲虎=>zh-cn:杰克逊维尔美洲虎;杰克逊威尔美洲虎=>zh-tw:傑克遜維爾美洲虎;杰克逊威尔美洲虎=>zh-hk:積遜威爾美洲虎;杰克逊威尔美洲虎=>zh-mo:積遜威爾美洲虎;"
-    },
-    {
-      "original": "Los Angeles Chargers",
-      "conv": "zh-hant:洛杉磯電光;zh-hans:洛杉矶闪电;zh-hk:洛杉磯電光;zh-tw:洛杉磯電光;"
-    },
-    {
-      "original": "New England Patriots",
-      "conv": "zh-hans:新英格兰爱国者;zh-cn:新英格兰爱国者;zh-tw:新英格蘭愛國者;zh-hk:新英倫愛國者;zh-mo:新英倫愛國者;"
-    },
-    {
-      "original": "New Orleans Saints",
-      "conv": "zh-hans:新奥尔良圣徒;zh-cn:新奥尔良圣徒;zh-tw:紐奧良聖徒;zh-hk:新奧爾良聖徒;zh-mo:新奧爾良聖徒;"
-    },
-    {
-      "original": "New York Jets",
-      "conv": "zh-hans:纽约喷气机;zh-cn:纽约喷气机;zh-tw:紐約噴射機;zh-hk:紐約噴射機;zh-mo:紐約噴射機;"
-    },
-    {
-      "original": "Pittsburgh Steelers",
-      "conv": "zh-hans:匹兹堡钢人;zh-cn:匹兹堡钢人;zh-tw:匹茲堡鋼人;zh-hk:匹茲堡鋼鐵者;zh-mo:匹茲堡鋼鐵者;"
-    },
-    {
-      "original": "Steelers",
-      "conv": "zh-hans:钢人;zh-cn:钢人;zh-tw:鋼人;zh-hk:鋼鐵者;zh-mo:鋼鐵者;"
-    },
-    {
-      "original": "Steelers",
-      "conv": "钢人=>zh-cn:钢人;钢人=>zh-tw:鋼人;钢人=>zh-hk:鋼鐵者;钢人=>zh-mo:鋼鐵者;"
+      "original": "Jets",
+      "conv": "zh-hans:喷气机;zh-hant:噴射機;"
     },
     {
       "original": "San Diego Chargers",
-      "conv": "zh-hans:圣迭戈闪电;zh-hant:聖地牙哥閃電;zh-cn:圣迭戈闪电;zh-tw:聖地牙哥閃電;zh-hk:聖地牙哥閃電;zh-mo:聖地牙哥閃電;"
+      "conv": "圣地牙哥电光=>zh-cn:圣迭戈闪电;圣地牙哥电光=>zh-sg:圣迭戈闪电;圣地牙哥电光=>zh-my:圣迭戈闪电;"
     },
     {
-      "original": "Chargers",
-      "conv": "电光=>zh-cn:闪电;电光=>zh-tw:閃電;电光=>zh-hk:閃電;电光=>zh-mo:閃電;"
+      "original": "San Diego Chargers",
+      "conv": "聖地牙哥電光=>zh-cn:圣迭戈闪电;聖地牙哥電光=>zh-sg:圣迭戈闪电;聖地牙哥電光=>zh-my:圣迭戈闪电;"
     },
     {
-      "original": "Tennessee Titans",
-      "conv": "zh-hans:田纳西泰坦;zh-cn:田纳西泰坦;zh-tw:田納西巨神;zh-hk:田納西泰坦;zh-mo:田納西泰坦;"
-    },
-    {
-      "original": "Washington Commanders",
-      "conv": "zh-hans:华盛顿指挥官;zh-cn:华盛顿指挥官;zh-tw:華盛頓司令;zh-hk:華盛頓司令;zh-mo:華盛頓司令;"
-    },
-    {
-      "original": "Commanders",
-      "conv": "zh-hans:指挥官;zh-cn:指挥官;zh-tw:司令;zh-hk:司令;zh-mo:司令;"
+      "original": "Los Angeles Chargers",
+      "conv": "洛杉磯電光=>zh-cn:洛杉矶闪电;聖地牙哥電光=>zh-sg:洛杉矶闪电;聖地牙哥電光=>zh-my:洛杉矶闪电;"
     },
     {
       "original": "Washington Redskins",
-      "conv": "zh-hans:华盛顿红皮;zh-cn:华盛顿红皮;zh-tw:華盛頓紅人;zh-hk:華盛頓紅人;zh-mo:華盛頓紅人;"
+      "conv": "华盛顿红人=>zh-cn:华盛顿红皮;华盛顿红人=>zh-sg:华盛顿红皮;华盛顿红人=>zh-my:华盛顿红皮;华盛顿红人=>zh-hk:華盛頓紅皮;华盛顿红人=>zh-mo:華盛頓紅皮;"
+    },
+    {
+      "original": "Washington Redskins",
+      "conv": "華盛頓紅人=>zh-cn:华盛顿红皮;華盛頓紅人=>zh-sg:华盛顿红皮;華盛頓紅人=>zh-my:华盛顿红皮;華盛頓紅人=>zh-hk:華盛頓紅皮;華盛頓紅人=>zh-mo:華盛頓紅皮;"
     },
     {
       "original": "Redskins",
-      "conv": "zh-hans:红皮;zh-cn:红皮;zh-tw:紅人;zh-hk:紅人;zh-mo:紅人;"
+      "conv": "红人队=>zh-cn:红皮队;红人队=>zh-sg:红皮队;红人队=>zh-my:红皮队;红人队=>zh-hk:紅皮隊;红人队=>zh-mo:紅皮隊;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:杰克逊维尔球场;zh-cn:杰克逊维尔球场;zh-tw:傑克遜威爾市體育場;zh-hk:積遜威爾球場;zh-mo:積遜威爾球場;"
+      "original": "Redskins",
+      "conv": "紅人隊=>zh-cn:红皮队;紅人隊=>zh-sg:红皮队;紅人隊=>zh-my:红皮队;紅人隊=>zh-hk:紅皮隊;紅人隊=>zh-mo:紅皮隊;"
+    },
+    {
+      "original": "Buffalo",
+      "conv": "水牛城=>zh-cn:布法罗;水牛城=>zh-sg:布法罗;水牛城=>zh-my:布法罗;"
+    },
+    {
+      "original": "Carolina",
+      "conv": "卡罗莱纳=>zh-cn:卡罗来纳;卡罗莱纳=>zh-sg:卡罗来纳;卡罗莱纳=>zh-my:卡罗来纳;卡罗莱纳=>zh-tw:卡羅來納;"
+    },
+    {
+      "original": "Carolina",
+      "conv": "卡羅萊納=>zh-cn:卡罗来纳;卡羅萊納=>zh-sg:卡罗来纳;卡羅萊納=>zh-my:卡罗来纳;卡羅萊納=>zh-tw:卡羅來納;"
+    },
+    {
+      "original": "Cincinnati",
+      "conv": "zh-hans:辛辛那提;zh-tw:辛辛那提;zh-hk:辛辛那堤;"
+    },
+    {
+      "original": "Cleveland",
+      "conv": "zh-hans:克利夫兰;zh-tw:克里夫蘭;zh-hk:克利夫蘭;"
+    },
+    {
+      "original": "Cleveland",
+      "conv": "克里夫兰=>zh-cn:克利夫兰;克里夫兰=>zh-sg:克利夫兰;克里夫兰=>zh-my:克利夫兰;克里夫兰=>zh-hk:克利夫蘭;克里夫兰=>zh-mo:克利夫蘭;"
+    },
+    {
+      "original": "East Rutherford",
+      "conv": "东卢瑟福=>zh-cn:东拉瑟福德;东卢瑟福=>zh-sg:东拉瑟福德;东卢瑟福=>zh-my:东拉瑟福德;"
+    },
+    {
+      "original": "East Rutherford",
+      "conv": "東盧瑟福=>zh-cn:东拉瑟福德;東盧瑟福=>zh-sg:东拉瑟福德;東盧瑟福=>zh-my:东拉瑟福德;"
+    },
+    {
+      "original": "Green Bay",
+      "conv": "zh-hans:格林贝;zh-hant:綠灣;"
+    },
+    {
+      "original": "Green Bay Packers",
+      "conv": "zh-hans:绿湾包装工;zh-hant:綠灣包裝工;"
+    },
+    {
+      "original": "Houston",
+      "conv": "zh-hans:休斯敦;zh-tw:休士頓;zh-hk:侯斯頓;"
+    },
+    {
+      "original": "Houston",
+      "conv": "休士顿=>zh-cn:休斯敦;休士顿=>zh-sg:休斯敦;休士顿=>zh-my:休斯敦;休士顿=>zh-hk:侯斯頓;休士顿=>zh-mo:侯斯頓;"
+    },
+    {
+      "original": "Houston",
+      "conv": "休斯顿=>zh-cn:休斯敦;休斯顿=>zh-sg:休斯敦;休斯顿=>zh-my:休斯敦;休斯顿=>zh-tw:休士頓;休斯顿=>zh-hk:侯斯頓;休斯顿=>zh-mo:侯斯頓;"
+    },
+    {
+      "original": "Jacksonville",
+      "conv": "zh-hans:杰克逊维尔;zh-tw:傑克孫維;zh-hk:傑克遜維爾;"
+    },
+    {
+      "original": "Jacksonville",
+      "conv": "杰克逊威尔=>zh-cn:杰克逊维尔;杰克逊威尔=>zh-sg:杰克逊维尔;杰克逊威尔=>zh-my:杰克逊维尔;杰克逊威尔=>zh-tw:傑克孫維;杰克逊威尔=>zh-hk:傑克遜維爾;杰克逊威尔=>zh-mo:傑克遜維爾;"
+    },
+    {
+      "original": "Jacksonville",
+      "conv": "傑克遜威爾=>zh-cn:杰克逊维尔;傑克遜威爾=>zh-sg:杰克逊维尔;傑克遜威爾=>zh-my:杰克逊维尔;傑克遜威爾=>zh-tw:傑克孫維;傑克遜威爾=>zh-hk:傑克遜維爾;傑克遜威爾=>zh-mo:傑克遜維爾;"
+    },
+    {
+      "original": "Louisiana",
+      "conv": "路易斯安娜=>zh-cn:路易斯安那;路易斯安娜=>zh-sg:路易斯安那;路易斯安娜=>zh-my:路易斯安那;路易斯安娜=>zh-tw:路易斯安納;路易斯安娜=>zh-hk:路易斯安那;路易斯安娜=>zh-mo:路易斯安那;"
+    },
+    {
+      "original": "New England",
+      "conv": "zh-hans:新英格兰;zh-tw:新英格蘭;zh-hk:新英倫;"
+    },
+    {
+      "original": "New Orleans Saints",
+      "conv": "zh-hans:新奥尔良;zh-tw:紐奧良;zh-hk:新奧爾良;"
+    },
+    {
+      "original": "Paradise, Nevada",
+      "conv": "zh-hans:帕拉代斯;zh-tw:天堂區;zh-hk:天堂市;"
+    },
+    {
+      "original": "San Diego",
+      "conv": "zh-hans:圣迭戈;zh-hant:聖地牙哥;"
+    },
+    {
+      "original": "St. Louis",
+      "conv": "聖路易=>zh-cn:圣路易斯;聖路易=>zh-sg:圣路易斯;聖路易=>zh-my:圣路易斯;"
+    },
+    {
+      "original": "St. Louis",
+      "conv": "聖路易斯=>zh-cn:圣路易斯;聖路易斯=>zh-sg:圣路易斯;聖路易斯=>zh-my:圣路易斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "zh-hans:得克萨斯;zh-tw:德克薩斯;zh-hk:德薩斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "德克萨斯=>zh-cn:得克萨斯;德克萨斯=>zh-sg:得克萨斯;德克萨斯=>zh-my:得克萨斯;"
+    },
+    {
+      "original": "Texas",
+      "conv": "zh-hans:得州;zh-hant:德州;"
+    },
+    {
+      "original": "Georgia Dome",
+      "conv": "zh-hans:佐治亚圆顶体育场;zh-tw:喬治亞巨蛋;zh-hk:佐治亞圓頂體育場;"
+    },
+    {
+      "original": "Raymond James Stadium",
+      "conv": "zh-hans:雷蒙德詹姆斯体育场;zh-tw:雷蒙詹姆斯體育場;zh-hk:雷蒙占士體育場;"
+    },
+    {
+      "original": "State Farm Stadium",
+      "conv": "zh-hans:州农场体育场;zh-hant:州立農業體育場;"
+    },
+    {
+      "original": "The Superdome",
+      "conv": "zh-hans:超级圆顶体育场;zh-tw:超級巨蛋;zh-hk:超級圓頂體育場;"
+    },
+    {
+      "original": "Mercedes-Benz",
+      "conv": "zh-cn:梅赛德斯-奔驰;zh-tw:梅賽德斯-賓士;zh-hk:梅斯特斯-平治;zh-sg:马赛地-宾士;zh-my:马赛地-奔驰;"
+    },
+    {
+      "original": "David ",
+      "conv": "zh-hans:戴维·;zh-hant:大衛·;"
+    },
+    {
+      "original": "David ",
+      "conv": "大卫·=>zh-cn:戴维·;大卫·=>zh-sg:戴维·;大卫·=>zh-my:戴维·;"
+    },
+    {
+      "original": "Kaepernick",
+      "conv": "zh-hans:凯珀尼克;zh-hant:卡佩尼克;"
+    },
+    {
+      "original": "Mahomes",
+      "conv": "zh-hans:马霍姆斯;zh-tw:馬霍姆斯;zh-hk:馬賀姆斯;"
+    },
+    {
+      "original": "Joe Montana",
+      "conv": "zh-hans:乔·蒙塔纳;zh-tw:喬·蒙塔納;zh-hk:祖·蒙坦拿;"
+    },
+    {
+      "original": "Montana",
+      "conv": "zh-hans:蒙塔纳;zh-tw:蒙塔納;zh-hk:蒙坦拿;"
     }
   ]
 }

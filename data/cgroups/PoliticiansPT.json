@@ -1,0 +1,259 @@
+{
+  "name": "PoliticiansPT",
+  "description": "葡萄牙政治",
+  "path": "Module:CGroup/PoliticiansPT",
+  "rules": [
+    {
+      "original": "Aníbal Cavaco Silva",
+      "conv": "zh:阿尼巴爾·卡瓦科·席爾瓦; zh-cn:阿尼巴尔·卡瓦科·席尔瓦; zh-mo:施華高; zh-tw:阿尼巴爾·卡瓦科·席瓦;"
+    },
+    {
+      "original": "Cavaco Silva",
+      "conv": "zh:卡瓦科·席爾瓦; zh-cn:卡瓦科·席尔瓦; zh-tw:卡瓦科·席瓦;"
+    },
+    {
+      "original": "Cavaco Silva",
+      "conv": "卡瓦科·席爾瓦=>zh-hk:施華高; 卡瓦科·席尔瓦=>zh-hk:施華高; 卡瓦科·席瓦=>zh-hk:施華高;"
+    },
+    {
+      "original": "Cavaco Silva",
+      "conv": "卡瓦科·席爾瓦=>zh-mo:施華高; 卡瓦科·席尔瓦=>zh-mo:施華高; 卡瓦科·席瓦=>zh-mo:施華高;"
+    },
+    {
+      "original": "António Barbosa de Melo",
+      "conv": "zh-cn:安东尼奥·巴尔博萨·德梅洛; zh-mo:繆博誠; zh-tw:安東尼奧·巴爾博薩·德梅洛;"
+    },
+    {
+      "original": "António Carlos dos Santos",
+      "conv": "zh-cn:安东尼奥·卡洛斯·多斯桑托斯; zh-mo:沈濤安; zh-tw:安東尼奧·卡洛斯·多斯桑托斯;"
+    },
+    {
+      "original": "António de Almeida Santos",
+      "conv": "zh-cn:安东尼奥·德阿尔梅达·桑托斯; zh-mo:歐達琛; zh-tw:安東尼奧·德阿爾梅達·桑托斯;"
+    },
+    {
+      "original": "António de Sousa Franco",
+      "conv": "zh-cn:安东尼奥·德索萨·佛朗哥; zh-mo:范禮高; zh-tw:安東尼奧·德索薩·佛朗哥;"
+    },
+    {
+      "original": "António Guterres",
+      "conv": "zh-hans:安东尼奥·古特雷斯;zh-tw:安東尼歐·古特瑞斯;zh-mo:古德禮;zh-hant:安東尼奧·古特雷斯;zh-hk:古德禮;"
+    },
+    {
+      "original": "António Ramalho Eanes",
+      "conv": "zh-cn:安东尼奥·拉马略·埃亚内斯;zh-mo:恩尼斯;zh-tw:安東尼奧·拉馬略·埃亞內斯;"
+    },
+    {
+      "original": "António Ramalho Eanes",
+      "conv": "安東尼奧·拉馬爾霍·埃亞內斯=>zh-hans:安东尼奥·拉马略·埃亚内斯;安東尼奧·拉馬爾霍·埃亞內斯=>zh-hk:恩尼斯;安東尼奧·拉馬爾霍·埃亞內斯=>zh-mo:恩尼斯;安東尼奧·拉馬爾霍·埃亞內斯=>zh-tw:安東尼奧·拉馬略·埃亞內斯;"
+    },
+    {
+      "original": "António Ramalho Eanes",
+      "conv": "安东尼奥·拉马尔霍·埃亚内斯=>zh-hans:安东尼奥·拉马略·埃亚内斯;安东尼奥·拉马尔霍·埃亚内斯=>zh-hk:恩尼斯;安东尼奥·拉马尔霍·埃亚内斯=>zh-mo:恩尼斯;安东尼奥·拉马尔霍·埃亚内斯=>zh-tw:安東尼奧·拉馬略·埃亞內斯;"
+    },
+    {
+      "original": "Carlos da Mota Pinto",
+      "conv": "zh-cn:卡洛斯·莫塔·平托;zh-tw:卡洛斯·莫塔·平托;zh-mo:麥斌圖;"
+    },
+    {
+      "original": "Eduardo Marçal Grilo",
+      "conv": "zh-cn:爱德华多·马萨尔·格里洛;zh-tw:愛德華多·馬薩爾·格里洛;zh-mo:基尼路;"
+    },
+    {
+      "original": "Ernesto Melo Antunes",
+      "conv": "zh-cn:埃内斯托·梅洛·安图内斯;zh-tw:埃內斯托·梅洛·安圖內斯;zh-mo:安恩濤;"
+    },
+    {
+      "original": "Francisco da Costa Gomes",
+      "conv": "zh-cn:弗朗西斯科·达科斯塔·戈麦斯;zh:弗朗西斯科·達科斯塔·戈麥斯;zh-tw:法蘭西斯科·達科斯塔·高梅斯;zh-mo:高美士;"
+    },
+    {
+      "original": "Francisco da Costa Gomes",
+      "conv": "弗朗西斯科·达科斯塔·戈麦斯=>zh-mo:高美士;弗朗西斯科·达科斯塔·戈麦斯=>zh-hk:高美士;"
+    },
+    {
+      "original": "Francisco da Costa Gomes",
+      "conv": "弗朗西斯科·達科斯塔·戈麥斯=>zh-mo:高美士;弗朗西斯科·達科斯塔·戈麥斯=>zh-hk:高美士;"
+    },
+    {
+      "original": "Francisco da Costa Gomes",
+      "conv": "法蘭西斯科·達科斯塔·高梅斯=>zh-mo:高美士;法蘭西斯科·達科斯塔·高梅斯=>zh-hk:高美士;"
+    },
+    {
+      "original": "Francisco de Oliveira Dias",
+      "conv": "zh-cn:弗朗西斯科·德奥利维拉·迪亚斯;zh-tw:弗朗西斯科·德奧利維拉·迪亞斯;zh-mo:狄方民;"
+    },
+    {
+      "original": "Francisco Pinto Balsemão",
+      "conv": "zh-cn:弗朗西斯科·平托·巴尔塞芒;zh-tw:弗朗西斯科·平托·巴爾塞芒;zh-mo:鮑仕民;"
+    },
+    {
+      "original": "Francisco Sá Carneiro",
+      "conv": "zh-cn:弗朗西斯科·萨·卡内罗;zh-tw:弗朗西斯科·薩·卡內羅;zh-mo:簡尼路;"
+    },
+    {
+      "original": "Manuela Ferreira Leite",
+      "conv": "zh-cn:曼努埃拉·费雷拉·莱特;zh-mo:李瑪莉;zh-tw:曼努埃拉·費雷拉·萊特;"
+    },
+    {
+      "original": "Maria de Lurdes Pintasilgo",
+      "conv": "zh-cn:玛丽亚·德卢尔德斯·平塔西尔戈;zh-mo:卞美婷;zh-tw:瑪麗亞·德盧爾德斯·平塔西爾戈;"
+    },
+    {
+      "original": "Nuno Rodrigues dos Santos",
+      "conv": "zh-cn:努诺·罗德里格斯·多斯桑托斯;zh-mo:申道士;zh-tw:努諾·羅德里格斯·多斯桑托斯;"
+    },
+    {
+      "original": "João Carlos Silva",
+      "conv": "zh-cn:若昂·卡洛斯·席尔瓦;zh-tw:若昂·卡洛斯·席瓦;zh-mo:施俊安;"
+    },
+    {
+      "original": "João de Freitas Cruz",
+      "conv": "zh-cn:若昂·德弗雷塔斯·克鲁斯;zh-tw:若昂·德弗雷塔斯·克魯斯;zh-mo:古家龍;"
+    },
+    {
+      "original": "Joaquim Fernando Nogueira",
+      "conv": "zh-cn:若阿金·费尔南多·诺盖拉;zh-tw:若阿金·費爾南多·諾蓋拉;zh-mo:盧基立;"
+    },
+    {
+      "original": "Jorge Coelho",
+      "conv": "zh-cn:若热·科埃略;zh-tw:若熱·科埃略;zh-mo:高偉度;"
+    },
+    {
+      "original": "Jorge Sampaio",
+      "conv": "zh-hk:沈拜奧;zh-mo:沈拜奧;zh-hans:若热·桑帕约;zh-tw:若熱·桑帕約;"
+    },
+    {
+      "original": "José Augusto Fernandes",
+      "conv": "zh-cn:若泽·奥古斯托·费尔南德斯;zh-tw:若澤·奧古斯托·費爾南德斯;zh-mo:范智碩"
+    },
+    {
+      "original": "José Medeiros Ferreira",
+      "conv": "zh-cn:若泽·梅代罗斯·费雷拉;zh-tw:若澤·梅代羅斯·費雷拉;zh-mo:費敏年"
+    },
+    {
+      "original": "José Pinheiro de Azevedo",
+      "conv": "zh-cn:若泽·皮涅罗·德阿泽维多;zh-tw:若澤·皮涅羅·德阿澤維多;zh-mo:魏祖承"
+    },
+    {
+      "original": "José Baptista Pinheiro de Azevedo",
+      "conv": "zh-cn:若泽·巴蒂斯塔·皮涅罗·德阿泽维多;zh-tw:若澤·巴蒂斯塔·皮涅羅·德阿澤維多;zh-mo:魏祖承;"
+    },
+    {
+      "original": "José Menéres Pimentel",
+      "conv": "zh-cn:若泽·梅内雷斯·皮门特尔;zh-tw:若澤·梅內雷斯·皮門特爾;zh-mo:卞民狄"
+    },
+    {
+      "original": "José Vera Jardim",
+      "conv": "zh-cn:若泽·维拉·雅尔丁;zh-tw:若澤·維拉·雅爾丁;zh-mo:顧仲德;"
+    },
+    {
+      "original": "Luís Marques Mendes",
+      "conv": "zh-cn:路易斯·马克斯·门德斯;zh-tw:路易斯·馬克斯·門德斯;zh-mo:文磊斯;"
+    },
+    {
+      "original": "Paulo Lowndes Marques",
+      "conv": "zh-cn:保罗·朗兹·马克斯;zh-tw:保羅·朗茲·馬克斯;zh-mo:馬保羅;"
+    },
+    {
+      "original": "Vasco da Gama Fernandes",
+      "conv": "zh-cn:瓦斯科·达伽马·费尔南德斯;zh-tw:瓦斯科·達伽馬·費爾南德斯;zh-mo:馮偉高;"
+    },
+    {
+      "original": "Vasco Gonçalves",
+      "conv": "zh-cn:瓦斯科·贡萨尔维斯;zh-tw:瓦斯科·貢薩爾維斯;zh-mo:江沙維斯;"
+    },
+    {
+      "original": "Vítor Pereira Crespo",
+      "conv": "zh-cn:维托·佩雷拉·克雷斯波;zh-tw:維托·佩雷拉·克雷斯波;zh-mo:祁偉濤;"
+    },
+    {
+      "original": "Almeida",
+      "conv": "阿尔梅达=>zh-hans:阿尔梅达;阿尔梅达=>zh-tw:阿爾梅達;阿尔梅达=>zh-mo:亞美打;阿尔梅达=>zh-hk:亞美打;"
+    },
+    {
+      "original": "Almeida",
+      "conv": "阿爾梅達=>zh-hans:阿尔梅达;阿爾梅達=>zh-tw:阿爾梅達;阿爾梅達=>zh-mo:亞美打;阿爾梅達=>zh-hk:亞美打;"
+    },
+    {
+      "original": "Caetano",
+      "conv": "zh-cn:卡埃塔诺; zh-hk:卡丹奴; zh-tw:卡埃塔諾;"
+    },
+    {
+      "original": "Carlos I",
+      "conv": "zh-cn:卡洛斯一世;zh-mo:嘉路士一世;zh-tw:卡洛斯一世;"
+    },
+    {
+      "original": "Carvalho",
+      "conv": "zh-cn:卡瓦略; zh-tw:卡瓦略; zh-mo:加華路;"
+    },
+    {
+      "original": "dos Santos",
+      "conv": "zh-cn:多斯桑托斯; zh-tw:多斯桑托斯; zh-hk:杜斯山度士;"
+    },
+    {
+      "original": "Ferreira",
+      "conv": "zh-cn:费雷拉;zh-mo:非利喇;zh-tw:費雷拉;"
+    },
+    {
+      "original": "Gomes",
+      "conv": "zh:戈麥斯; zh-hans:戈麦斯; zh-tw:高梅斯; zh-mo:高美士;"
+    },
+    {
+      "original": "Gonçalves",
+      "conv": "zh-cn:贡萨尔维斯;zh-tw:貢薩爾維斯;zh-mo:江沙維斯;"
+    },
+    {
+      "original": "José",
+      "conv": "zh:若澤;zh-cn:若泽;zh-tw:若瑟;zh-mo:祖些"
+    },
+    {
+      "original": "Mário",
+      "conv": "zh-hans:马里奥;zh-hant:馬里奧;zh-tw:馬力歐;"
+    },
+    {
+      "original": "Pereira",
+      "conv": "佩雷拉=>zh-hans:佩雷拉;佩雷拉=>zh-tw:佩雷拉;佩雷拉=>zh-mo:俾利喇;佩雷拉=>zh-hk:俾利喇;"
+    },
+    {
+      "original": "Pinto",
+      "conv": "zh-cn:平托;zh-tw:平托;zh-mo:便度;"
+    },
+    {
+      "original": "Santos",
+      "conv": "zh-cn:桑托斯;zh-tw:桑托斯;zh-hk:山度士;"
+    },
+    {
+      "original": "Soares",
+      "conv": "zh-hans:苏亚雷斯;zh-hant:蘇亞雷斯;zh-tw:索阿雷斯;"
+    },
+    {
+      "original": "Spínola",
+      "conv": "zh:斯皮諾拉; zh-cn:斯皮诺拉;zh-mo:史賓諾拉;"
+    },
+    {
+      "original": "Vasco",
+      "conv": "zh-cn:瓦斯科;zh-tw:華士古;zh-mo:瓦斯科;"
+    },
+    {
+      "original": "Assembleia da República",
+      "conv": "zh-cn:共和国议会;zh-tw:共和國議會;zh-hk:共和國議會;zh-mo:共和國議會;"
+    },
+    {
+      "original": "Escola Secundária Luso-Chinesa de Luís Gonzaga Gomes",
+      "conv": "zh-cn:高美士中葡中学;zh-hant:高美士中葡中學;zh-mo:高美士中葡中學;"
+    },
+    {
+      "original": "Jardim Ramalho Eanes",
+      "conv": "zh-cn:恩尼斯花园;zh-hant:恩尼斯花園;zh-mo:恩尼斯花園;"
+    },
+    {
+      "original": "Largo do Presidente António Ramalho Eanes",
+      "conv": "zh-cn:恩尼斯总统前地;zh-hant:恩尼斯總統前地;zh-mo:恩尼斯總統前地;"
+    },
+    {
+      "original": "Rua de Luís Gonzaga Gomes",
+      "conv": "zh-cn:高美士街;zh-hant:高美士街;zh-mo:高美士街;"
+    }
+  ]
+}

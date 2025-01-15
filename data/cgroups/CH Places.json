@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "Appenzell",
-      "conv": "zh-hans:阿彭策尔;zh-hk:阿彭策爾;zh-tw:亞本塞;"
+      "conv": "zh-hans:阿彭策尔;zh-hk:阿彭策爾;zh-tw:阿彭策爾;"
     },
     {
       "original": "Basel",
@@ -17,7 +17,7 @@
     },
     {
       "original": "Fribourg/Freiburg",
-      "conv": "zh-cn:弗里堡; zh-hant:佛立堡;"
+      "conv": "zh-cn:弗里堡; zh-hant:弗里堡;"
     },
     {
       "original": "Jura",
@@ -25,19 +25,15 @@
     },
     {
       "original": "Luzern",
-      "conv": "zh-hans:卢塞恩; zh-tw:琉森; zh-hk:琉森;"
+      "conv": "zh-hans:卢塞恩; zh-hk:琉森; zh-tw:琉森;"
     },
     {
       "original": "Neuchâtel",
-      "conv": "zh-hans:纳沙泰尔;zh-hk:納沙泰爾;zh-tw:紐沙特;"
+      "conv": "zh-hans:纳沙泰尔;zh-hk:納沙泰爾; zh-tw:諾夏特;"
     },
     {
       "original": "Schwyz",
-      "conv": "zh-hans:施维茨;zh-hant:施維茨;zh-tw:舒維茲;"
-    },
-    {
-      "original": "Vaud",
-      "conv": "zh-hans:沃州;zh-hant:沃州;zh-tw:佛德州;"
+      "conv": "zh-hans:施维茨;zh-hant:施維茨; zh-tw:施維茨;"
     },
     {
       "original": "Bodensee",
@@ -78,6 +74,106 @@
     {
       "original": "gotische Alphabet/alphabet gotique/alfabeto gotico",
       "conv": "zh-hans:哥特字母; zh-hant:哥德字母;"
+    },
+    {
+      "original": "Appenzell",
+      "conv": "zh-hans:阿彭策尔州;zh-hk:阿彭策爾州;zh-tw:阿彭策爾邦;"
+    },
+    {
+      "original": "Aargau",
+      "conv": "zh-cn:阿尔高州; zh-hk:阿爾高州; zh-tw:阿爾高邦;"
+    },
+    {
+      "original": "Basel-Stadt",
+      "conv": "zh-hans:巴塞尔城市州; zh-hk:巴塞爾城市州; zh-tw:巴塞爾城市邦;"
+    },
+    {
+      "original": "Basel-Landschaft",
+      "conv": "zh-hans:巴塞尔乡村州; zh-hk:巴塞爾鄉村州; zh-tw:巴塞爾鄉村邦;"
+    },
+    {
+      "original": "Bern/Berne",
+      "conv": "zh-hans:伯尔尼州; zh-hant:伯爾尼州; zh-tw:伯恩邦; zh-hk:伯恩州"
+    },
+    {
+      "original": "Fribourg/Freiburg",
+      "conv": "zh-cn:弗里堡州; zh-hk:弗里堡州; zh-tw:弗里堡邦;"
+    },
+    {
+      "original": "Genève",
+      "conv": "zh-cn:日内瓦州; zh-hk:日內瓦州; zh-tw:日內瓦邦;"
+    },
+    {
+      "original": "Glarus",
+      "conv": "zh-cn:格拉鲁斯州; zh-hk:格拉魯斯州; zh-tw:格拉魯斯邦;"
+    },
+    {
+      "original": "Graubünden",
+      "conv": "zh-cn:格劳宾登州; zh-hk:格勞賓登州; zh-tw:格勞賓登邦;"
+    },
+    {
+      "original": "Jura",
+      "conv": "zh-cn:汝拉州; zh-hk:侏羅州; zh-tw:侏羅邦;"
+    },
+    {
+      "original": "Luzern",
+      "conv": "zh-hans:卢塞恩州; zh-hk:琉森州; zh-tw:琉森邦;"
+    },
+    {
+      "original": "Neuchâtel",
+      "conv": "zh-hans:纳沙泰尔州; zh-hk:納沙泰爾州; zh-tw:諾夏特邦;"
+    },
+    {
+      "original": "St. Gallen",
+      "conv": "zh-cn:圣加仑州; zh-hk:聖加侖州; zh-tw:聖加侖邦;"
+    },
+    {
+      "original": "Schaffhausen",
+      "conv": "zh-cn:沙夫豪森州; zh-hk:沙夫豪森州; zh-tw:沙夫豪森邦;"
+    },
+    {
+      "original": "Schwyz",
+      "conv": "zh-hans:施维茨州; zh-hant:施維茨州; zh-tw:施維茨邦;"
+    },
+    {
+      "original": "Solothurn",
+      "conv": "zh-hans:索洛图恩州; zh-hant:索洛圖恩州; zh-tw:索洛圖恩邦;"
+    },
+    {
+      "original": "Thurgau",
+      "conv": "zh-cn:图尔高州; zh-hk:圖爾高州; zh-tw:圖爾高邦;"
+    },
+    {
+      "original": "Ticino",
+      "conv": "zh-cn:提契诺州; zh-hk:提契諾州; zh-tw:提契諾邦;"
+    },
+    {
+      "original": "Uri",
+      "conv": "zh-cn:乌里州; zh-hk:烏里州; zh-tw:烏里邦;"
+    },
+    {
+      "original": "Valais/Wallis",
+      "conv": "zh-cn:瓦莱州; zh-hk:瓦萊州; zh-tw:瓦萊邦;"
+    },
+    {
+      "original": "Vaud",
+      "conv": "沃州=>zh-tw:沃邦;"
+    },
+    {
+      "original": "-walden",
+      "conv": "zh-cn:瓦尔登州; zh-hk:瓦爾登州; zh-tw:瓦爾登邦;"
+    },
+    {
+      "original": "Waldstätte",
+      "conv": "zh-cn:森林州; zh-hk:森林州; zh-tw:森林邦;"
+    },
+    {
+      "original": "Zürich",
+      "conv": "zh-cn:苏黎世州; zh-hk:蘇黎世州; zh-tw:蘇黎世邦;"
+    },
+    {
+      "original": "Zug",
+      "conv": "zh-cn:楚格州; zh-hk:楚格州; zh-tw:楚格邦;"
     },
     {
       "original": null,
@@ -130,10 +226,6 @@
     {
       "original": null,
       "conv": "zh-hans:邦伯恩; zh-hant:邦伯恩"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:伯恩邦; zh-hant:伯恩邦"
     },
     {
       "original": null,
@@ -1476,12 +1568,92 @@
       "conv": "zh-hans:伯恩祖; zh-hant:伯恩祖"
     },
     {
+      "original": "",
+      "conv": "zh-hans:位于;zh-hant:位於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:属于;zh-hant:屬於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大于;zh-hant:大於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小于;zh-hant:小於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:等于;zh-hant:等於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:关于;zh-hant:關於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:生于;zh-hant:生於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:死于;zh-hant:死於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:卒于;zh-hant:卒於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:逝于;zh-hant:逝於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:逝世于;zh-hant:逝世於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:葬于;zh-hant:葬於"
+    },
+    {
       "original": "Ur-",
       "conv": "zh-hans:于尔;zh-hant:于爾"
     },
     {
       "original": "Jurassique",
       "conv": "zh-hans:侏罗纪; zh-hant:侏羅紀;"
+    },
+    {
+      "original": "Châtelard",
+      "conv": "zh-hans:沙特拉尔; zh-hant:沙特拉爾;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦制; zh-hk:聯邦制; zh-tw:聯邦制"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦共和国; zh-hk:聯邦共和國; zh-tw:聯邦共和國"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦总理; zh-hk:聯邦總理; zh-tw:聯邦總理"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦选举; zh-hk:聯邦選舉; zh-tw:聯邦選舉"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦政府; zh-hk:聯邦政府; zh-tw:聯邦政府"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦议会; zh-hk:聯邦議會; zh-tw:聯邦議會"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:联邦宪法; zh-hk:聯邦憲法; zh-tw:聯邦憲法"
     }
   ]
 }

@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "Mission: Impossible",
-      "conv": "zh-hans:碟中谍; zh-hk:職業特工隊; zh-tw:不可能的任務; zh-sg:不可能的任务;"
+      "conv": "zh-cn:碟中谍; zh-hk:職業特工隊; zh-tw:不可能的任務; zh-sg:不可能的任务; zh-my:不可能的任务;"
     },
     {
       "original": "Mission: Impossible – Ghost Protocol",
@@ -32,8 +32,24 @@
       "conv": "zh-cn:全面瓦解; zh-tw:全面瓦解; zh-hk:叛逆之謎;"
     },
     {
+      "original": "Mission Impossible – Dead Reckoning Part One",
+      "conv": "zh-tw:不可能的任務：致命清算 第一章; zh-sg:不可能的任务：致命清算 第一章; zh-my:不可能的任务：致命清算 第一章; zh-hk:職業特工隊：死亡清算上集; zh-cn:碟中谍7：致命清算（上）;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:致命清算 第一章; zh-sg:致命清算 第一章; zh-my:致命清算 第一章; zh-hk:死亡清算上集; zh-cn:致命清算（上）;"
+    },
+    {
+      "original": "Mission Impossible – Dead Reckoning Part Two",
+      "conv": "zh-tw:不可能的任務：致命清算 第二章; zh-sg:不可能的任务：致命清算 第二章; zh-my:不可能的任务：致命清算 第二章; zh-hk:職業特工隊：死亡清算下集; zh-cn:碟中谍8：致命清算（下）;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:致命清算 第二章; zh-sg:致命清算 第二章; zh-my:致命清算 第二章; zh-hk:死亡清算下集; zh-cn:致命清算（下）;"
+    },
+    {
       "original": "Tom Cruise",
-      "conv": "zh-hans:汤姆·克鲁斯;zh-hk:湯·告魯斯;zh-tw:湯姆·克魯斯;"
+      "conv": "zh-cn:汤姆·克鲁斯;zh-sg:汤姆·克鲁斯;zh-my:汤·告鲁斯;zh-hk:湯·告魯斯;zh-tw:湯姆·克魯斯;"
     },
     {
       "original": null,
@@ -41,7 +57,23 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:亨特; zh-tw:韓特; zh-sg:杭特"
+      "conv": "zh-cn:亨特; zh-tw:韓特; zh-sg:杭特; zh-hk:亨特"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:班吉; zh-hk:班治"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:伊爾莎; zh-hk:曉莎"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:福斯特; zh-hk:梵詩"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:麥奎里; zh-hk:麥哥利; zh-cn:迈考利"
     }
   ]
 }

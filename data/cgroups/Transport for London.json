@@ -9,87 +9,115 @@
     },
     {
       "original": "Bakerloo line",
-      "conv": "zh-hant:貝克盧線; zh-hans:贝克卢线; zh-tw:貝克盧線; zh-hk:必嘉老綫;"
+      "conv": "zh-hant:貝克盧線; zh-hans:贝克卢线; zh-tw:貝克盧線; zh-hk:必嘉老線;"
     },
     {
       "original": "Central line",
-      "conv": "zh-hant:中央線; zh-hans:中央线; zh-tw:中央線; zh-hk:中央綫;"
+      "conv": "zh-hant:中央線; zh-hans:中央线; zh-tw:中央線; zh-hk:中央線;"
     },
     {
       "original": "Circle line",
-      "conv": "zh-hant:環線; zh-hans:环线; zh-tw:環狀線; zh-hk:環綫; 环状线 => zh-hans:环线;"
+      "conv": "zh-hant:環線; zh-hans:环线; zh-tw:環狀線; zh-hk:環線; 环状线 => zh-hans:环线;"
     },
     {
       "original": "District line",
-      "conv": "zh-hant:區域線; zh-hans:区域线; zh-tw:區域線; zh-hk:區域綫;"
+      "conv": "zh-hant:區域線; zh-hans:区域线; zh-tw:區域線; zh-hk:區域線;"
     },
     {
       "original": "East London line",
-      "conv": "zh-hant:東倫敦線; zh-hans:东伦敦线; zh-hk:東倫敦綫; zh-tw:東倫敦線;"
-    },
-    {
-      "original": "Elizabeth line",
-      "conv": "zh-hant:伊利莎伯線; 伊利沙伯線 => zh-hant:伊利莎伯線; zh-hans:伊利莎伯线; 伊丽莎白线 => zh-hans:伊利莎伯线; zh-hk:伊利莎伯綫; zh-tw:伊利莎白線;"
+      "conv": "zh-hant:東倫敦線; zh-hans:东伦敦线; zh-hk:東倫敦線; zh-tw:東倫敦線;"
     },
     {
       "original": "Hammersmith & City line",
-      "conv": "zh-hans:哈默史密斯及城市线; 汉默史密斯及城市线 => zh-hans:哈默史密斯及城市线; zh-hant:漢默史密斯及城市線; zh-hk:咸默史密夫及城市綫; zh-tw:漢默史密斯及城市線;"
+      "conv": "zh-hans:哈默史密斯及城市线; 汉默史密斯及城市线 => zh-hans:哈默史密斯及城市线; zh-hant:漢默史密斯及城市線; zh-hk:咸默史密夫及城市線; zh-tw:漢墨斯密及都市線; 漢默史密斯及都市線 => zh-tw:漢墨斯密及都市線"
     },
     {
       "original": "Jubilee line",
-      "conv": "zh-hant:銀禧線; zh-hans:银禧线; zh-tw:朱比利線; zh-hk:銀禧綫;"
+      "conv": "zh-hant:銀禧線; zh-hans:银禧线; zh-tw:銀禧線; zh-hk:銀禧線;"
+    },
+    {
+      "original": "Jubilee line",
+      "conv": "朱比利线=>zh-hant:銀禧線; 朱比利线=>zh-hans:银禧线; 朱比利线=>zh-cn:银禧线; 朱比利线=>zh-sg:银禧线; 朱比利线=>zh-my:银禧线; 朱比利线=>zh-tw:銀禧線; 朱比利线=>zh-hk:銀禧線; 朱比利线=>zh-mo:銀禧線;"
+    },
+    {
+      "original": "Jubilee line",
+      "conv": "朱比利線=>zh-hant:銀禧線; 朱比利線=>zh-hans:银禧线; 朱比利線=>zh-cn:银禧线; 朱比利線=>zh-sg:银禧线; 朱比利線=>zh-my:银禧线; 朱比利線=>zh-tw:銀禧線; 朱比利線=>zh-hk:銀禧線; 朱比利線=>zh-mo:銀禧線;"
     },
     {
       "original": "Metropolitan line",
-      "conv": "zh-hant:大都會線; zh-hans:大都会线; zh-tw:大都會線; zh-hk:大都會綫;"
+      "conv": "zh-hant:大都會線; zh-hans:大都会线; zh-tw:大都會線; zh-hk:大都會線;"
     },
     {
       "original": "Northern line",
-      "conv": "zh-hant:北線; zh-hans:北线; zh-tw:北線; zh-hk:北綫;"
+      "conv": "zh-hant:北線; zh-hans:北线; zh-tw:北線; zh-hk:北線;"
     },
     {
       "original": "Piccadilly line",
-      "conv": "zh-hant:皮卡迪利線; zh-hans:皮卡迪利线; zh-tw:皮卡迪利線; zh-hk:皮卡迪利綫;"
+      "conv": "zh-hant:皮卡迪利線; zh-hans:皮卡迪利线; zh-tw:皮卡迪利線; zh-hk:皮卡迪利線;"
     },
     {
       "original": "Victoria line",
-      "conv": "zh-hant:維多利亞線; zh-hans:维多利亚线; zh-tw:維多利亞線; zh-hk:維多利亞綫;"
+      "conv": "zh-hant:維多利亞線; zh-hans:维多利亚线; zh-tw:維多利亞線; zh-hk:維多利亞線;"
     },
     {
       "original": "Waterloo & City line",
-      "conv": "zh-hant:滑鐵盧及城市線; zh-hans:滑铁卢及城市线; zh-tw:滑鐵盧及城市線; zh-hk:窩打老及城市綫;"
+      "conv": "zh-hant:滑鐵盧及城市線; zh-hans:滑铁卢及城市线; zh-tw:滑鐵盧及都市線; zh-hk:窩打老及城市線;"
     },
     {
       "original": "East London line",
-      "conv": "zh-hant:東倫敦線; zh-hans:东伦敦线; zh-tw:東倫敦線; zh-hk:東倫敦綫;"
+      "conv": "zh-hant:東倫敦線; zh-hans:东伦敦线; zh-tw:東倫敦線; zh-hk:東倫敦線;"
     },
     {
       "original": "Gospel Oak - Barking Line line",
-      "conv": " zh-hant:福音橡至巴金線; zh-hans:福音橡至巴金线; zh-tw:福音橡至巴金線; zh-hk:福音橡至巴金綫;"
+      "conv": " zh-hant:福音橡至巴金線; zh-hans:福音橡至巴金线; zh-tw:福音橡至巴金線; zh-hk:福音橡至巴金線;"
     },
     {
       "original": "Lea Valley line",
-      "conv": "zh-hant:李河谷線; zh-hans:李河谷线; zh-tw:李河谷線; zh-hk:李河谷綫;"
+      "conv": "zh-hant:李河谷線; zh-hans:李河谷线; zh-tw:李河谷線; zh-hk:李河谷線;"
     },
     {
       "original": "North London line",
-      "conv": "zh-hant:北倫敦線; zh-hans:北伦敦线; zh-tw:北倫敦線; zh-hk:北倫敦綫;"
+      "conv": "zh-hant:北倫敦線; zh-hans:北伦敦线; zh-tw:北倫敦線; zh-hk:北倫敦線;"
     },
     {
       "original": "Romford–Upminster line",
-      "conv": "zh-hant:羅姆福德－上敏斯特線; zh-hans:罗姆福德－上敏斯特线; zh-tw:羅姆福德－上敏斯特線; zh-hk:羅姆福德－上敏斯特綫;"
+      "conv": "zh-hant:羅姆福德－上敏斯特線; zh-hans:罗姆福德－上敏斯特线; zh-tw:羅姆福德－上敏斯特線; zh-hk:羅姆福德－上敏斯特線;"
     },
     {
       "original": "South London line",
-      "conv": "zh-hant:南倫敦線; zh-hans:南伦敦线; zh-tw:南倫敦線; zh-hk:南倫敦綫;"
+      "conv": "zh-hant:南倫敦線; zh-hans:南伦敦线; zh-tw:南倫敦線; zh-hk:南倫敦線;"
     },
     {
       "original": "Watford DC line",
-      "conv": "zh-hant:沃特福德直流電鐵線; zh-hans:沃特福德直流电铁线; zh-tw:沃特福德直流電鐵線; zh-hk:沃特福德直流電鐵綫;"
+      "conv": "zh-hant:沃特福德直流電鐵線; zh-hans:沃特福德直流电铁线; zh-tw:沃特福德直流電鐵線; zh-hk:沃特福德直流電鐵線;"
     },
     {
       "original": "West London line",
-      "conv": "zh-hant:西倫敦線; zh-hans:西伦敦线; zh-tw:西倫敦線; zh-hk:西倫敦綫;"
+      "conv": "zh-hant:西倫敦線; zh-hans:西伦敦线; zh-tw:西倫敦線; zh-hk:西倫敦線;"
+    },
+    {
+      "original": "Elizabeth line",
+      "conv": "zh-hant:伊利莎伯線; 伊利沙伯線 => zh-hant:伊利莎伯線; zh-hans:伊利莎白线; 伊丽莎伯线 => zh-hans:伊利莎白线; zh-hk:伊利沙伯線; zh-tw:伊莉莎白線;"
+    },
+    {
+      "original": "Elizabeth line",
+      "conv": "伊麗莎白線=>zh-hant:伊利莎伯線; 伊麗莎白線=>zh-hans:伊利莎白线; 伊麗莎白線=>zh-hk:伊利沙伯線; 伊麗莎白線=>zh-mo:伊利沙伯線; 伊麗莎白線=>zh-tw:伊莉莎白線;"
+    },
+    {
+      "original": "Elizabeth line",
+      "conv": "伊丽莎白线=>zh-hant:伊利莎伯線; 伊丽莎白线=>zh-hans:伊利莎白线; 伊丽莎白线=>zh-hk:伊利沙伯線; 伊丽莎白线=>zh-mo:伊利沙伯線; 伊丽莎白线=>zh-tw:伊莉莎白線;"
+    },
+    {
+      "original": "London Buses",
+      "conv": "zh-cn:伦敦公交; zh-hk:倫敦巴士; zh-mo:倫敦巴士; zh-tw:倫敦公車;"
+    },
+    {
+      "original": "Tramlink",
+      "conv": "zh-hans:轻轨电车;zh-hant:輕軌電車;zh-tw:輕軌電車;zh-hk:電車連線;"
+    },
+    {
+      "original": "King's Cross",
+      "conv": "zh-hk:英皇十字; zh-tw:國王十字; zh-cn:国王十字"
     },
     {
       "original": "Queensway",
@@ -101,7 +129,19 @@
     },
     {
       "original": "Tottenham Court Road",
-      "conv": "zh-tw:托登罕宮路; zh-hk:托定咸宮路; zh-cn:托登罕宮路;"
+      "conv": "zh-tw:托登罕宮路; zh-hk:托定咸宮路; zh-cn:托登罕宫路;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:希斯罗机场2及3号航站楼;zh-hant:希斯羅機場2及3號航站樓;zh-hk:希斯路機場2及3號客運大樓;zh-mo:希斯路機場2及3號客運大樓;zh-tw:希斯洛機場第2、3航廈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:希斯罗机场4号航站楼;zh-hant:希斯羅機場4號航站樓;zh-hk:希斯路機場4號客運大樓;zh-mo:希斯路機場4號客運大樓;zh-tw:希斯洛機場第4航廈;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:希斯罗机场5号航站楼;zh-hant:希斯羅機場5號航站樓;zh-hk:希斯路機場5號客運大樓;zh-mo:希斯路機場5號客運大樓;zh-tw:希斯洛機場第5航廈;"
     },
     {
       "original": "Oyster Card",

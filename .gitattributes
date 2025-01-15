@@ -1,5 +1,8 @@
-# Ref: https://stackoverflow.com/questions/19052834/is-it-possible-to-exclude-files-from-git-language-statistics
-data/ZhConversion.php linguist-vendored
+# Exclude external ruleset files from GitHub PL stats
+#   ref: https://stackoverflow.com/questions/19052834/is-it-possible-to-exclude-files-from-git-language-statistics
+# And prevent auto CRLF conversion to avoid checksum mismatch
+data/ZhConversion.php linguist-vendored binary
+data/*.txt linguist-vendored binary
 data/cgroups/*.json linguist-vendored
 web/public/cgroups.json linguist-vendored
 benches/*.txt linguist-vendored

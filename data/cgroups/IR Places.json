@@ -1,0 +1,127 @@
+{
+  "name": "IR Places",
+  "description": "伊朗地名",
+  "path": "Module:CGroup/IR Places",
+  "rules": [
+    {
+      "original": "Ahvaz (Ahwaz)",
+      "conv": "zh-cn:阿瓦士;zh-hk:艾華斯;zh-tw:艾赫瓦茲;"
+    },
+    {
+      "original": "Alborz",
+      "conv": "zh-hans:厄尔布尔士;zh-hk:艾布士;zh-tw:阿勒布爾茲"
+    },
+    {
+      "original": "Ardal",
+      "conv": "zh:阿爾達勒;zh-cn:阿尔达勒;zh-tw:阿達爾;"
+    },
+    {
+      "original": "Bakhtiari",
+      "conv": "zh:巴赫蒂亞里;zh-cn:巴赫蒂亚里;zh-tw:巴赫提亞里;"
+    },
+    {
+      "original": "Boldaji",
+      "conv": "zh:博勒達吉;zh-cn:博勒达吉;zh-tw:波達吉;"
+    },
+    {
+      "original": "Borujen",
+      "conv": "zh:博魯真;zh-cn:博鲁真;zh-tw:波路珍;"
+    },
+    {
+      "original": "Bushehr",
+      "conv": "zh-cn:布什尔;zh-tw:布什爾;"
+    },
+    {
+      "original": "Chaharmahal",
+      "conv": "zh:恰哈馬哈勒;zh-cn:恰哈马哈勒;zh-tw:查哈馬哈;"
+    },
+    {
+      "original": "Fars (Farsistan)",
+      "conv": "zh:法爾斯;zh-cn:法尔斯;zh-tw:法斯;"
+    },
+    {
+      "original": "Golestan",
+      "conv": "zh-cn:戈勒斯坦;zh-tw:哥勒斯坦;"
+    },
+    {
+      "original": "Gorgan (Asterabad、Gurgan)",
+      "conv": "zh:戈爾甘;zh-cn:戈尔甘;zh-tw:哥干;"
+    },
+    {
+      "original": "Ilam",
+      "conv": "zh-cn:伊拉姆;zh-tw:伊蘭;"
+    },
+    {
+      "original": "Izeh",
+      "conv": "zh:伊澤;zh-cn:伊泽;zh-tw:伊則;"
+    },
+    {
+      "original": "Kerman",
+      "conv": "zh:克爾曼;zh-cn:克尔曼;zh-tw:克曼;"
+    },
+    {
+      "original": "Khorramabad",
+      "conv": "zh:霍拉馬巴德;zh-cn:霍拉马巴德;zh-tw:荷拉馬巴德;"
+    },
+    {
+      "original": "Khuzestan",
+      "conv": "zh:胡齊斯坦;zh-cn:胡齐斯坦;zh-hk:古澤斯旦;zh-tw:胡哲斯坦;"
+    },
+    {
+      "original": "Kurd",
+      "conv": "zh-hans:库尔德;zh-hk:庫爾德;zh-tw:庫德;"
+    },
+    {
+      "original": "Lordgan (Lordegan)",
+      "conv": "zh:洛爾代甘;zh-cn:洛尔代甘;zh-tw:羅德干;"
+    },
+    {
+      "original": "Mazandaran",
+      "conv": "zh-cn:马赞德兰;zh-hk:馬贊德蘭;zh-tw:馬占達蘭;"
+    },
+    {
+      "original": "Persepolis",
+      "conv": "zh-cn:波斯波利斯; zh-hk:柏斯波利斯; zh-tw:波斯波利斯"
+    },
+    {
+      "original": "Qom",
+      "conv": "zh-cn:库姆;zh-hk:庫姆;zh-tw:庫母;"
+    },
+    {
+      "original": "Sari",
+      "conv": "zh:薩里;zh-cn:萨里;zh-tw:沙里;"
+    },
+    {
+      "original": "Seistan (Sistan)",
+      "conv": "zh:錫斯坦;zh-cn:锡斯坦;zh-tw:西斯坦;"
+    },
+    {
+      "original": "Semnan",
+      "conv": "zh-cn:塞姆南;zh-tw:森南;"
+    },
+    {
+      "original": "Shushtar",
+      "conv": "zh:舒什塔爾;zh-cn:舒什塔尔;zh-tw:舒什塔;"
+    },
+    {
+      "original": "Tabriz",
+      "conv": "zh-cn:大不里士;zh-tw:大布里士;"
+    },
+    {
+      "original": "Yazd",
+      "conv": "zh:亞茲德;zh-cn:亚兹德;zh-tw:雅茲德;"
+    },
+    {
+      "original": "Zabul, Shahr i (Zabol)",
+      "conv": "zh-cn:扎博勒;zh-tw:札布城;"
+    },
+    {
+      "original": "Zahedan",
+      "conv": "zh-cn:扎黑丹;zh-tw:札赫丹;"
+    },
+    {
+      "original": "Zanjan",
+      "conv": "zh-cn:赞詹;zh-hk:贊詹;zh-tw:占詹;"
+    }
+  ]
+}

@@ -5,107 +5,127 @@
   "rules": [
     {
       "original": "Joe Biden",
-      "conv": "zh-cn:乔·拜登; zh-tw:喬·拜登; zh-hk:祖·拜登;"
+      "conv": "zh-hans:乔·拜登;zh-tw:喬·拜登;zh-hk:祖·拜登;"
     },
     {
-      "original": "Donald",
-      "conv": "zh-hans:唐纳德; zh-hant:唐納德; zh-cn:唐纳德; zh-tw:唐納; zh-hk:當勞;"
+      "original": "Donald J. Trump",
+      "conv": "zh-hans:唐纳德·J·特朗普;zh-tw:唐納·J·川普;zh-hk:當勞·J·特朗普;"
+    },
+    {
+      "original": "Donald Trump",
+      "conv": "zh-hans:唐纳德·特朗普;zh-tw:唐納·川普;zh-hk:當勞·特朗普;"
     },
     {
       "original": "Trump",
-      "conv": "zh-hans:特朗普; zh-hant:川普; zh-cn:特朗普; zh-tw:川普; zh-hk:特朗普; zh-mo:特朗普;"
+      "conv": "zh-hans:特朗普;zh-tw:川普;zh-hk:特朗普;"
     },
     {
       "original": "Barack",
-      "conv": "zh-hans:贝拉克; zh-tw:巴拉克; zh-hk:巴拉克;"
+      "conv": "zh-hans:贝拉克;zh-hant:巴拉克;"
     },
     {
       "original": "Obama",
-      "conv": "zh-hans:奥巴马; zh-hant:奧巴馬; zh-tw:歐巴馬; zh-hk:奧巴馬;"
+      "conv": "zh-hans:奥巴马;zh-tw:歐巴馬;zh-hk:奧巴馬;"
     },
     {
       "original": "Hussein",
-      "conv": "zh-cn:侯赛因; zh-tw:胡笙; zh-hk:侯賽因; zh-sg:胡申;"
+      "conv": "zh-cn:侯赛因;zh-sg:胡申;zh-tw:胡笙;zh-hk:侯賽因;"
     },
     {
       "original": "George Walker Bush",
-      "conv": "zh-hans:乔治·沃克·布什; zh-tw:喬治·沃克·布希; zh-hk:喬治·獲加·布殊"
+      "conv": "zh-hans:乔治·沃克·布什;zh-tw:喬治·沃克·布希;zh-hk:喬治·獲加·布殊;"
     },
     {
-      "original": "Bill",
-      "conv": "zh-hans:比尔; zh-tw:比爾; zh-hk:比爾;"
+      "original": "George W. Bush",
+      "conv": "zh-hans:乔治·W·布什;zh-tw:喬治·W·布希;zh-hk:喬治·W·布殊;"
     },
     {
-      "original": "Clinton",
-      "conv": "zh-hans:克林顿; zh-tw:柯林頓; zh-hk:克林頓;"
-    },
-    {
-      "original": "Jefferson",
-      "conv": "zh-hans:杰斐逊; zh-tw:傑佛遜; zh-hk:傑佛遜;"
-    },
-    {
-      "original": "George Herbert Walker Bush",
-      "conv": "zh-hans:乔治·H·W·布什; zh-tw:喬治·H·W·布希; zh-hk:喬治·H·W·布殊"
+      "original": "George Bush",
+      "conv": "zh-hans:乔治·布什;zh-tw:喬治·布希;zh-hk:喬治·布殊;"
     },
     {
       "original": "Bush",
-      "conv": "zh-hans:布什; zh-tw:布希; zh-hk:布殊;"
+      "conv": "zh-hans:布什;zh-tw:布希;zh-hk:布殊;"
+    },
+    {
+      "original": "Bill",
+      "conv": "zh-hans:比尔;zh-hant:比爾;"
+    },
+    {
+      "original": "Clinton",
+      "conv": "zh-hans:克林顿;zh-tw:柯林頓;zh-hk:克林頓;"
+    },
+    {
+      "original": "Jefferson",
+      "conv": "zh-hans:杰斐逊;zh-hant:傑佛遜;"
+    },
+    {
+      "original": "George Herbert Walker Bush",
+      "conv": "zh-hans:乔治·赫伯特·沃克·布什;zh-tw:喬治·赫伯特·華克·布希;zh-hk:喬治·夏拔·獲加·布殊;"
+    },
+    {
+      "original": "George H. W. Bush",
+      "conv": "zh-hans:乔治·H·W·布什;zh-tw:喬治·H·W·布希;zh-hk:喬治·H·W·布殊;"
     },
     {
       "original": "Ronald Reagan",
-      "conv": "zh-cn:罗纳德·里根; zh-tw:隆納·雷根; zh-hk:朗奴·列根;"
+      "conv": "zh-hans:罗纳德·里根;zh-tw:隆納·雷根;zh-hk:朗奴·列根;"
     },
     {
       "original": "Reagan",
-      "conv": "zh:裡根; zh-hans:里根; zh-tw:雷根; zh-hk:列根;"
+      "conv": "zh:裡根;zh-hans:里根;zh-tw:雷根;zh-hk:列根;"
+    },
+    {
+      "original": "Jimmy",
+      "conv": "zh-tw:吉米;zh-cn:吉米;zh-hk:占美;"
     },
     {
       "original": "Gerald Ford",
-      "conv": "zh:杰拉爾德·福特;zh-tw:傑拉德·福特;zh-cn:杰拉尔德·福特;zh-hk:傑拉爾德·福特;"
+      "conv": "zh:杰拉爾德·福特;zh-hans:杰拉尔德·福特;zh-tw:傑拉德·福特;zh-hk:傑拉爾德·福特;"
     },
     {
       "original": "Gerald",
-      "conv": "zh:杰拉爾德;zh-tw:傑拉德;zh-cn:杰拉尔德;zh-hk:傑拉爾德;"
+      "conv": "zh:杰拉爾德;zh-hans:杰拉尔德;zh-tw:傑拉德;zh-hk:傑拉爾德;"
     },
     {
       "original": "Richard Milhous Nixon",
-      "conv": "zh-hans:理查德·尼克松; zh-tw:理察·尼克森; zh-hk:李察·尼克遜"
+      "conv": "zh-hans:理查德·尼克松;zh-tw:理察·尼克森;zh-hk:李察·尼克遜;"
     },
     {
       "original": "Richard",
-      "conv": "zh-hans:理查德; zh-tw:理察; zh-hk:李察"
+      "conv": "zh-hans:理查德;zh-tw:理察;zh-hk:李察;"
     },
     {
       "original": "Nixon",
-      "conv": "zh-hans:尼克松; zh-tw:尼克森; zh-hk:尼克遜"
+      "conv": "zh-hans:尼克松;zh-tw:尼克森;zh-hk:尼克遜;"
     },
     {
       "original": "Lyndon Johnson",
-      "conv": "zh-hans:林登·约翰逊; zh-tw:林登·詹森; zh-hk:林登·詹森;"
+      "conv": "zh-hans:林登·约翰逊;zh-hant:林登·詹森;"
     },
     {
       "original": "John Fitzgerald Kennedy",
-      "conv": "zh-hans:肯尼迪; zh-tw:甘迺迪; zh-hk:甘迺迪;"
+      "conv": "zh-hans:肯尼迪;zh-hant:甘迺迪;"
     },
     {
       "original": "Dwight Eisenhower",
-      "conv": "zh-hans:德怀特·艾森豪威尔; zh-tw:德懷特·艾森豪; zh-hk:懷特·艾森豪威爾;"
+      "conv": "zh-hans:德怀特·艾森豪威尔;zh-tw:德懷特·艾森豪;zh-hk:懷特·艾森豪威爾;"
     },
     {
       "original": "Dwight David Eisenhower",
-      "conv": "zh-cn:德怀特·戴维·艾森豪威尔;zh-tw:德懷特·大衛·艾森豪;zh-hk:懷特·大衛·艾森豪"
+      "conv": "zh-hans:德怀特·戴维·艾森豪威尔;zh:德懷特·大衛·艾森豪威爾;zh-tw:德懷特·大衛·艾森豪;zh-hk:懷特·大衛·艾森豪威爾;"
     },
     {
       "original": "Dwight David Eisenhower",
-      "conv": "zh-hans:艾森豪威尔; zh-tw:艾森豪; zh-hk:艾森豪威爾;"
+      "conv": "zh-hans:艾森豪威尔;zh-tw:艾森豪;zh-hk:艾森豪威爾;"
     },
     {
       "original": "Harry",
-      "conv": "zh-hans:哈里; zh-hk:哈里; zh-tw:哈瑞;"
+      "conv": "zh-hans:哈里;zh-tw:哈瑞;zh-hk:哈里;"
     },
     {
       "original": "Herbert",
-      "conv": "zh-cn:赫伯特;zh-tw:赫伯特;zh-hk:夏拔;"
+      "conv": "zh-hans:赫伯特;zh-tw:赫伯特;zh-hk:夏拔;"
     },
     {
       "original": "Hoover",
@@ -113,27 +133,27 @@
     },
     {
       "original": "Calvin Coolidge",
-      "conv": "zh-hans:卡尔文·柯立芝; zh-tw:卡爾文·柯立芝; zh-hk:卡雲·古列茲;"
+      "conv": "zh-hans:卡尔文·柯立芝;zh-tw:卡爾文·柯立芝;zh-hk:卡雲·古列茲;"
     },
     {
       "original": "Calvin",
-      "conv": "zh-hans:卡尔文; zh-tw:卡爾文; zh-hk:卡雲;"
+      "conv": "zh-hans:卡尔文;zh-tw:卡爾文;zh-hk:卡雲;"
     },
     {
       "original": "Coolidge",
-      "conv": "zh-hans:柯立芝; zh-tw:柯立芝; zh-hk:古列茲;"
+      "conv": "zh-hans:柯立芝;zh-tw:柯立芝;zh-hk:古列茲;"
     },
     {
       "original": "Warren",
-      "conv": "zh-hans:沃伦; zh-tw:華倫; zh-hk:禾倫;"
+      "conv": "zh-hans:沃伦;zh-tw:華倫;zh-hk:禾倫;"
     },
     {
       "original": "Gamaliel",
-      "conv": "zh-hans:盖玛利尔; zh-tw:蓋瑪利爾; zh-hk:加馬利爾;"
+      "conv": "zh-hans:盖玛利尔;zh-tw:蓋瑪利爾;zh-hk:加馬利爾;"
     },
     {
       "original": "William H. Taft",
-      "conv": "zh-hans:塔夫脱; zh-tw:塔虎脫"
+      "conv": "zh-hans:塔夫脱;zh-tw:塔虎脫;"
     },
     {
       "original": "Theodore Roosevelt",
@@ -149,31 +169,39 @@
     },
     {
       "original": "James Abram Garfield",
-      "conv": "zh-cn:詹姆斯;zh-hant:詹姆士;zh-hk:占士;"
+      "conv": "zh-hans:詹姆斯;zh-hant:詹姆士;zh-hk:占士;"
     },
     {
       "original": "James Abram Garfield",
-      "conv": "zh-cn:艾布拉姆;zh-hant:艾布拉姆;zh-hk:艾伯林;"
+      "conv": "zh-hans:艾布拉姆;zh-hant:艾布拉姆;zh-hk:艾伯林;"
     },
     {
       "original": "James Abram Garfield",
-      "conv": "zh-cn:加菲尔德;zh-tw:加菲爾;zh-hk:加菲;"
+      "conv": "zh-hans:加菲尔德;zh:加菲爾德;zh-tw:加菲爾;zh-hk:加菲;"
     },
     {
       "original": "Johnson",
-      "conv": "zh-hans:约翰逊; zh-tw:詹森; zh-hk:約翰遜;"
+      "conv": "zh-hans:约翰逊;zh-hant:詹森;"
+    },
+    {
+      "original": "Johnson",
+      "conv": "莊遜=>zh-cn:约翰逊; 莊遜=>zh-hk:詹森; 莊遜=>zh-tw:詹森;"
     },
     {
       "original": "Thomas",
-      "conv": "zh-hans:托马斯; zh-tw:湯瑪斯; zh-hk:湯馬士;"
+      "conv": "zh-hans:托马斯;zh-tw:湯瑪斯;zh-hk:湯馬士;"
     },
     {
       "original": "Jefferson",
-      "conv": "zh-hans:杰斐逊; zh-tw:傑佛遜; zh-hk:傑佛遜;"
+      "conv": "zh-hans:杰斐逊;zh-hant:傑佛遜;zh-tw:傑弗遜;"
     },
     {
-      "original": "George",
-      "conv": "zh-cn:乔治·华盛顿; zh-tw:喬治·華盛頓; zh-hk:佐治·華盛頓;"
+      "original": "George Washington",
+      "conv": "佐治·華盛頓=>zh-cn:乔治·华盛顿; 佐治·華盛頓=>zh-tw:喬治·華盛頓;"
+    },
+    {
+      "original": "George Washington",
+      "conv": "佐治·华盛顿=>zh-cn:乔治·华盛顿; 佐治·华盛顿=>zh-tw:喬治·華盛頓;"
     },
     {
       "original": "John Sidney McCain III",
@@ -208,6 +236,10 @@
       "conv": "博茲曼=>zh-cn:布兹曼;博茲曼=>zh-my:布兹曼;博茲曼=>zh-sg:布兹曼;博茲曼=>zh-tw:布瑟曼;博茲曼=>zh-hk:布瑟曼;博茲曼=>zh-mo:布瑟曼;"
     },
     {
+      "original": "Mike Braun",
+      "conv": "迈克·布劳恩=>zh-cn:迈克·布朗;迈克·布劳恩=>zh-sg:迈克·布朗;迈克·布劳恩=>zh-my:迈克·布朗;"
+    },
+    {
       "original": "Ted Budd",
       "conv": "zh-hans:特德·巴德;zh-hant:泰德·巴德;"
     },
@@ -230,10 +262,6 @@
     {
       "original": "Liz Cheney",
       "conv": "zh-hans:莉兹·切尼;zh-tw:麗茲·錢尼;zh-hk:利茲·切尼;"
-    },
-    {
-      "original": "Collins",
-      "conv": "zh-hans:柯林斯;zh-hant:柯琳絲;"
     },
     {
       "original": "Coons",
@@ -264,8 +292,12 @@
       "conv": "泰德·克鲁兹=>zh-cn:特德·克鲁兹;泰德·克鲁兹=>zh-my:特德·克鲁兹;泰德·克鲁兹=>zh-sg:特德·克鲁兹;"
     },
     {
+      "original": "Ron DeSantis",
+      "conv": "zh-hans:罗恩·德桑蒂斯;zh-tw:隆恩·迪尚特;zh-hk:朗·迪桑提斯;"
+    },
+    {
       "original": "Douglas Emhoff",
-      "conv": "zh:任德龙; zh-cn:道格·埃姆霍夫; zh-my:任德龙; zh-sg:任德龙; zh-tw:任德龍;"
+      "conv": "zh-cn:道格·埃姆霍夫;zh-sg:任德龙;zh-my:任德龙;zh-tw:任德龍;"
     },
     {
       "original": "Tammy Duckworth",
@@ -293,23 +325,27 @@
     },
     {
       "original": "Dianne Feinstein",
-      "conv": "zh-hans:黛安娜;zh-hant:黛安;"
+      "conv": "zh-hans:黛安娜·范斯坦;zh-hant:黛安·范士丹;"
     },
     {
-      "original": "Dianne Feinstein",
+      "original": "Feinstein",
       "conv": "zh-hans:范斯坦;zh-hant:范士丹;"
     },
     {
       "original": "Dianne Feinstein",
-      "conv": "费恩斯坦=>zh-cn:范斯坦;费恩斯坦=>zh-my:范斯坦;费恩斯坦=>zh-sg:范斯坦;费恩斯坦=>zh-tw:范士丹;费恩斯坦=>zh-hk:范士丹;费恩斯坦=>zh-mo:范士丹;"
+      "conv": "费恩斯坦=>zh-hans:范斯坦; 费恩斯坦=>zh-hant:范士丹;"
     },
     {
-      "original": "Deb Fischer",
-      "conv": "zh-hans:德布·菲舍尔;zh-hant:黛比·菲希爾;"
+      "original": "Frederick",
+      "conv": "zh-cn:弗雷德里克;zh-hk:費德烈;zh-tw:費德瑞克;"
     },
     {
-      "original": "Fischer",
-      "conv": "zh-hans:菲舍尔;zh-hant:菲希爾;"
+      "original": "Fritz",
+      "conv": "zh-cn:弗里茨;zh-tw:佛瑞茲;zh-hk:費茲;"
+    },
+    {
+      "original": "Ruben Gallego",
+      "conv": "zh-hans:鲁本·加列戈;zh-tw:魯本·加勒戈;zh-hk:魯本·加列戈;"
     },
     {
       "original": "Grassley",
@@ -317,7 +353,7 @@
     },
     {
       "original": "Kamala Harris",
-      "conv": "zh-cn:卡玛拉·哈里斯;zh-sg:贺锦丽;zh-hant:賀錦麗;"
+      "conv": "zh-cn:卡玛拉·哈里斯;zh-sg:卡玛拉·哈里斯;zh-my:贺锦丽;zh-hant:賀錦麗;"
     },
     {
       "original": "Josh Hawley",
@@ -332,8 +368,8 @@
       "conv": "約什·霍利=>zh-cn:乔希·霍利;約什·霍利=>zh-my:乔希·霍利;約什·霍利=>zh-sg:乔希·霍利;約什·霍利=>zh-tw:喬什·霍利;約什·霍利=>zh-hk:祖殊·霍利;約什·霍利=>zh-mo:祖殊·霍利;"
     },
     {
-      "original": "Steny Hoyer",
-      "conv": "zh-hans:斯特尼;zh-tw:斯坦利;zh-hk:斯特尼;"
+      "original": "Eric Holcomb",
+      "conv": "zh-hans:埃里克·霍尔科姆;zh-hant:侯康安;"
     },
     {
       "original": "Cindy Hyde-Smith",
@@ -356,8 +392,16 @@
       "conv": "傑佛瑞斯=>zh-cn:杰弗里斯;傑佛瑞斯=>zh-my:杰弗里斯;傑佛瑞斯=>zh-sg:杰弗里斯;傑佛瑞斯=>zh-tw:傑福瑞斯;傑佛瑞斯=>zh-hk:傑弗里斯;傑佛瑞斯=>zh-mo:傑弗里斯;"
     },
     {
+      "original": "Mike Johnson",
+      "conv": "zh-hans:迈克·约翰逊;zh-tw:麥克·強生;zh-hk:邁克·約翰遜;"
+    },
+    {
       "original": "Kerry",
       "conv": "凱里=>zh-cn:克里;凱里=>zh-tw:凱瑞;凱里=>zh-hk:克里;"
+    },
+    {
+      "original": "John Kerry",
+      "conv": "zh-cn:约翰·克里; zh-tw:約翰·凱瑞;zh-hk:約翰·克里"
     },
     {
       "original": "Kinzinger",
@@ -380,8 +424,8 @@
       "conv": "zh-hans:莉萨;zh-tw:麗莎;zh-hk:莉薩;"
     },
     {
-      "original": "Luján",
-      "conv": "zh-hans:卢汉;zh-tw:魯詹;zh-hk:盧揚;"
+      "original": "Ben Ray Luján",
+      "conv": "zh-hans:本·雷·卢汉;zh-tw:本·雷·魯詹;zh-hk:本·雷·盧漢;"
     },
     {
       "original": "Maggie",
@@ -413,7 +457,15 @@
     },
     {
       "original": "John Sidney McCain III",
-      "conv": "zh-hans:麦凯恩;zh-tw:麥肯;zh-hk:麥凱恩;"
+      "conv": "zh-hans:麦凯恩;麦凯恩=>zh-tw:麥肯;麥凱恩=>zh-tw:麥肯;zh-hk:麥凱恩;"
+    },
+    {
+      "original": "Mondale",
+      "conv": "zh-cn:蒙代尔;zh-tw:孟岱爾;zh-hk:蒙代爾;"
+    },
+    {
+      "original": "Walter Mondale",
+      "conv": "zh-cn:沃尔特·蒙代尔;zh-tw:華特·孟岱爾;zh-hk:禾特·蒙代爾;"
     },
     {
       "original": "Moore",
@@ -426,6 +478,10 @@
     {
       "original": "Mitch McConnell",
       "conv": "zh-hans:米奇;zh-tw:密契;zh-hk:米奇;"
+    },
+    {
+      "original": "David McCormick",
+      "conv": "zh-hans:戴维·麦考密克;zh-tw:大衛·麥考米克;zh-hk:大衛·麥考密克;"
     },
     {
       "original": "McSally",
@@ -445,27 +501,27 @@
     },
     {
       "original": "Murkowski",
-      "conv": "穆考斯基=>zh-cn:穆尔科斯基;穆考斯基=>zh-my:穆尔科斯基;穆考斯基=>zh-sg:穆尔科斯基;穆考斯基=>zh-tw:穆爾科斯基;穆考斯基=>zh-hk:穆爾科斯基;穆考斯基=>zh-mo:穆爾科斯基;"
+      "conv": "穆考斯基=>zh-cn:穆尔科斯基;穆考斯基=>zh-my:穆尔科斯基;穆考斯基=>zh-sg:穆尔科斯基;穆爾科斯基=>zh-tw:穆考斯基;穆考斯基=>zh-hk:穆爾科斯基;穆考斯基=>zh-mo:穆爾科斯基;"
     },
     {
       "original": "Patty Murray",
-      "conv": "zh-hans:帕蒂;zh-hant:派蒂;"
-    },
-    {
-      "original": "Patty Murray",
-      "conv": "zh-hans:默里;zh-hant:莫瑞;"
+      "conv": "zh-hans:帕蒂·默里;zh-tw:派蒂·莫瑞;zh-hk:帕蒂·默里;"
     },
     {
       "original": "Nancy Pelosi",
-      "conv": "zh-hans:南希;zh-hk:蘭茜;zh-tw:南西;"
+      "conv": "zh-hans:南希;zh-tw:南西;zh-hk:蘭茜;"
     },
     {
       "original": "Nancy Pelosi",
-      "conv": "zh-hans:佩洛西;zh-hk:佩洛西;zh-tw:裴洛西;"
+      "conv": "zh-hans:佩洛西;zh-tw:裴洛西;zh-hk:佩洛西;"
+    },
+    {
+      "original": "Gavin Newsom",
+      "conv": "zh-hans:加文·纽森;zh-tw:葛文·紐森;zh-hk:加文·紐森;"
     },
     {
       "original": "Mike Pompeo",
-      "conv": "zh-hans:迈克;zh-tw:麥克;zh-hk:米高;zh-mo:邁克;"
+      "conv": "zh-hans:迈克·蓬佩奥;zh-tw:麥克·龐培歐;zh-hk:米高·蓬佩奧;zh-mo:邁克·蓬佩奧;"
     },
     {
       "original": "Mike Pompeo",
@@ -473,7 +529,11 @@
     },
     {
       "original": "Ricketts",
-      "conv": "zh-cn:里基茨;zh-tw:芮基茲;zh-hk:里克茨;"
+      "conv": "zh-hans:里基茨;zh-tw:芮基茲;zh-hk:里基茨;"
+    },
+    {
+      "original": "Ricketts",
+      "conv": "里克茨=>zh-cn:里基茨;里克茨=>zh-sg:里基茨;里克茨=>zh-my:里基茨;里克茨=>zh-tw:芮基茲;里克茨=>zh-hk:里基茨;里克茨=>zh-mo:里基茨;"
     },
     {
       "original": "Jacky Rosen",
@@ -485,15 +545,15 @@
     },
     {
       "original": "Marco Rubio",
-      "conv": "zh-hans:卢比奥;zh-tw:魯比歐;zh-hk:盧比奧;"
+      "conv": "zh-hans:鲁比奥;zh-tw:盧比歐;zh-hk:魯比奧;"
     },
     {
       "original": "Marco Rubio",
-      "conv": "魯比奧=>zh-cn:卢比奥;魯比奧=>zh-my:卢比奥;魯比奧=>zh-sg:卢比奥;魯比奧=>zh-tw:魯比歐;魯比奧=>zh-hk:盧比奧;魯比奧=>zh-mo:盧比奧;"
+      "conv": "盧比奧=>zh-cn:鲁比奥;盧比奧=>zh-my:鲁比奥;盧比奧=>zh-sg:鲁比奥;盧比奧=>zh-tw:魯比歐;盧比奧=>zh-hk:魯比奧;盧比奧=>zh-mo:魯比奧;"
     },
     {
       "original": "Paul Ryan",
-      "conv": "zh-hans:瑞安;zh-tw:萊恩;zh-hk:瑞安;"
+      "conv": "zh-hans:保罗·瑞安;zh-tw:保羅·萊恩;zh-hk:保羅·瑞安;"
     },
     {
       "original": "Brian Schatz",
@@ -502,6 +562,14 @@
     {
       "original": "Brian Schatz",
       "conv": "zh-hans:沙茨;zh-hant:夏茲;"
+    },
+    {
+      "original": "Rick Scott",
+      "conv": "zh-hans:里克·斯科特;zh-tw:瑞克·史考特;zh-hk:里克·史葛;"
+    },
+    {
+      "original": "Scott",
+      "conv": "zh-hans:斯科特;zh-tw:史考特;zh-hk:史葛;"
     },
     {
       "original": "Shelley",
@@ -533,19 +601,31 @@
     },
     {
       "original": "Tillis",
-      "conv": "zh-hans:蒂利斯;zh-hant:提力斯;"
+      "conv": "zh-hans:蒂利斯;zh-tw:提里斯;zh-hk:蒂利斯;"
     },
     {
       "original": "Van Hollen",
       "conv": "zh-hans:范霍伦;zh-hant:范荷倫;"
     },
     {
-      "original": "Vance",
-      "conv": "zh-hans:万斯;zh-hant:范斯;"
+      "original": "JD Vance",
+      "conv": "zh-hans:JD·万斯;zh-tw:JD·范斯;zh-hk:JD·萬斯;"
     },
     {
-      "original": "Vance",
-      "conv": "凡斯=>zh-cn:万斯;凡斯=>zh-my:万斯;凡斯=>zh-sg:万斯;凡斯=>zh-tw:范斯;凡斯=>zh-hk:范斯;凡斯=>zh-mo:范斯;"
+      "original": "J. D. Vance",
+      "conv": "zh-hans:J·D·万斯;zh-tw:J·D·范斯;zh-hk:J·D·萬斯;"
+    },
+    {
+      "original": "Walter",
+      "conv": "zh-cn:沃尔特;zh-tw:華特;zh-hk:禾特;"
+    },
+    {
+      "original": "Tim Walz",
+      "conv": "zh-hans:蒂姆·沃尔兹;zh-tw:提姆·華茲;zh-hk:添·沃爾茲;"
+    },
+    {
+      "original": "Susie Wiles",
+      "conv": "zh-hans:苏茜·怀尔斯;zh-tw:蘇西·威爾斯;zh-hk:蘇茜·懷爾斯;"
     },
     {
       "original": "Ron Wyden",
@@ -556,72 +636,68 @@
       "conv": "榮·懷登=>zh-cn:罗恩·怀登;榮·懷登=>zh-my:罗恩·怀登;榮·懷登=>zh-sg:罗恩·怀登;榮·懷登=>zh-tw:榮恩·魏登;榮·懷登=>zh-hk:朗·懷登;榮·懷登=>zh-mo:朗·懷登;"
     },
     {
-      "original": "Ron DeSantis",
-      "conv": "zh-hans:罗恩·德桑蒂斯;zh-tw:隆恩·迪尚特;zh-hk:朗·迪桑提斯;"
+      "original": "",
+      "conv": "zh-hans:罗比内特;zh-tw:羅比內特;zh-hk:羅賓納特;"
     },
     {
       "original": "",
-      "conv": "zh-cn:罗比内特; zh-tw:羅比內特; zh-hk:羅賓納特;"
+      "conv": "zh-hans:凯瑟琳 ;zh-tw:凱薩琳 ;zh-hk:嘉芙蓮;"
     },
     {
       "original": "",
-      "conv": "zh-cn:凯瑟琳 ;zh-tw:凱薩琳 ;zh-hk:嘉芙蓮;"
+      "conv": "zh-hans:欧根尼娅;zh-tw:尤金尼亞;zh-hk:尤珍妮亞;"
     },
     {
       "original": "",
-      "conv": "zh-cn:欧根尼娅; zh-tw:尤金尼亞; zh-hk:尤珍妮亞;"
+      "conv": "zh-hans:福纳根;zh-hant:芬尼根;"
     },
     {
       "original": "",
-      "conv": "zh-cn:福纳根; zh-tw:芬尼根; zh-hk:芬尼根;"
+      "conv": "zh-hans:布莱恩;zh-tw:布萊恩;zh-hk:拜仁;"
     },
     {
       "original": "",
-      "conv": "zh-cn:布莱恩; zh-tw:布萊恩; zh-hk:拜仁;"
+      "conv": "zh-hans:弗朗西斯;zh-hant:法蘭西斯;"
     },
     {
       "original": "",
-      "conv": "zh-cn:弗朗西斯; zh-tw:法蘭西斯; zh-hk:法蘭西斯;"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:瓦莱里; zh-tw:薇樂莉; zh-hk:法萊麗;"
+      "conv": "zh-hans:瓦莱里;zh-tw:薇樂莉;zh-hk:法萊麗;"
     },
     {
       "original": "Melania",
-      "conv": "zh-cn:梅拉尼娅;zh-hk:梅拉尼亞;zh-tw:梅蘭妮亞;"
+      "conv": "zh-hans:梅拉尼娅;zh-tw:梅蘭妮亞;zh-hk:梅拉尼亞;"
     },
     {
       "original": "",
-      "conv": "zh-cn:白宫办公厅主任; zh-hk:白宮幕僚長; zh-sg:白宫幕僚长; zh-tw:白宮幕僚長;"
+      "conv": "zh-cn:白宫办公厅主任;zh-sg:白宫幕僚长;zh-hant:白宮幕僚長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:白宫办公厅副主任; zh-hk:白宮助理幕僚長; zh-sg:白宫助理幕僚长; zh-tw:白宮助理幕僚長;"
+      "conv": "zh-cn:白宫办公厅副主任;zh-sg:白宫助理幕僚长;zh-hant:白宮助理幕僚長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:白宫新闻发言人; zh-hk:白宮發言人; zh-tw:白宮新聞秘書;"
+      "conv": "zh-hans:白宫新闻发言人;zh-tw:白宮新聞秘書;zh-hk:白宮發言人;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:常务副国务卿; zh-hk:副國務卿; zh-tw:副國務卿;"
+      "original": "Deputy Secretary of State",
+      "conv": "zh-hans:常务副国务卿;zh-hant:副國務卿;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:副国务卿; zh-hk:次國務卿; zh-tw:國務次卿"
+      "original": "Under Secretary of State",
+      "conv": "zh-hans:副国务卿;zh-tw:國務次卿;zh-hk:次國務卿;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:助理国务卿帮办; zh-hk:副助理國務卿; zh-tw:副助理國務卿;"
+      "original": "Deputy Assistant Secretary of State",
+      "conv": "zh-hans:助理国务卿帮办;zh-hant:副助理國務卿;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:助卿帮办; zh-hk:副助卿; zh-tw:副助卿;"
+      "original": "Deputy Assistant Secretary of.State",
+      "conv": "zh-hans:助卿帮办;zh-hant:副助卿;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:助理部长帮办; zh-hk:副助理部長; zh-tw:副助理部長;"
+      "original": "Deputy Assistant Secretary",
+      "conv": "zh-hans:助理部长帮办;zh-hant:副助理部長;"
     },
     {
       "original": "",
@@ -629,67 +705,99 @@
     },
     {
       "original": "Census Bureau",
-      "conv": "zh-hans:人口调查局; zh-hant:人口普查局;"
+      "conv": "zh-hans:人口调查局;zh-hant:人口普查局;"
     },
     {
       "original": "Coast guard",
-      "conv": "zh-cn:海岸警卫队; zh-hk:海岸防衛隊; zh-mo:海岸警衛隊; zh-tw:海岸巡防隊;"
+      "conv": "zh-hans:海岸警卫队;zh-tw:海岸巡防隊;zh-hk:海岸防衛隊;zh-mo:海岸警衛隊;"
     },
     {
       "original": "Federal Reserve Board of Governors",
-      "conv": "zh-tw:聯邦準備理事會; zh-hk:聯邦儲備委員會; zh-cn:联邦储备委员会"
+      "conv": "zh-hans:联邦储备委员会;zh-tw:聯邦準備理事會;zh-hk:聯邦儲備委員會;"
+    },
+    {
+      "original": "Federal Reserve Board of Governors",
+      "conv": "聯邦儲備局=>zh-cn:联邦储备委员会;聯邦儲備局=>zh-tw:聯邦準備理事會;聯儲局=>zh-cn:联储会;聯儲局=>zh-tw:聯準會;"
     },
     {
       "original": "Federal Reserve System",
-      "conv": "zh-tw:聯邦準備制度; zh-hk:聯邦儲備系統; zh-cn:联邦储备系统"
+      "conv": "zh-hans:联邦储备系统;zh-tw:聯邦準備制度;zh-hk:聯邦儲備系統;"
     },
     {
       "original": "Federal Reserve",
-      "conv": "zh-tw:聯邦準備; zh-hk:聯邦儲備; zh-cn:联邦储备"
+      "conv": "zh-hans:联邦储备;zh-tw:聯邦準備;zh-hk:聯邦儲備;"
     },
     {
-      "original": "",
-      "conv": "zh-tw:聯準; zh-hk:聯儲; zh-cn:联储"
+      "original": "Federal Reserve",
+      "conv": "zh-hans:联储;zh-tw:聯準;zh-hk:聯儲;"
     },
     {
       "original": "National Aeronautics and Space Administration",
-      "conv": "zh-tw:國家航空暨太空總署; zh-hk:太空總署; zh-cn:国家航空航天局"
+      "conv": "zh-hans:国家航空航天局;zh-tw:國家航空暨太空總署;zh-hk:太空總署;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:美国国家航空航天局;zh-tw:美國國家航空暨太空總署;zh-hk:美國太空總署;"
+    },
+    {
+      "original": "",
+      "conv": "美国宇航局=>zh-hans:美国宇航局;美国宇航局=>zh-tw:美國太空總署;美国宇航局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "",
+      "conv": "美國宇航局=>zh-hans:美国宇航局;美國宇航局=>zh-tw:美國太空總署;美國宇航局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "",
+      "conv": "美國航天局=>zh-hans:美国宇航局;美國航天局=>zh-tw:美國太空總署;美國航天局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "",
+      "conv": "美国航天局=>zh-hans:美国宇航局;美国航天局=>zh-tw:美國太空總署;美国航天局=>zh-hk:美國太空總署;"
     },
     {
       "original": "National Oceanic and Atmospheric Administration",
-      "conv": "zh-tw:國家海洋暨大氣總署; zh-hk: 國家海洋及大氣管理局; zh-cn:国家海洋和大气管理局"
+      "conv": "zh-hans:海洋和大气管理局;zh-tw:海洋暨大氣總署;zh-hk: 海洋及大氣管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:航空總署;zh-hk:航空管理局;zh-cn:航空管理局;"
+      "conv": "zh-hans:航空管理局;zh-tw:航空總署;zh-hk:航空管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:公路總署;zh-hk:公路管理局;zh-cn:公路管理局;"
+      "conv": "zh-hans:公路管理局;zh-tw:公路總署;zh-hk:公路管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:汽車運輸安全總署;zh-hk:汽車運輸安全管理局;zh-cn:汽车运输安全局;"
+      "conv": "zh-hans:汽车运输安全局;zh-tw:汽車運輸安全總署;zh-hk:汽車運輸安全管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:鐵路總署;zh-hk:鐵路管理局;zh-cn:铁路署;"
+      "conv": "zh-hans:铁路署;zh-tw:鐵路總署;zh-hk:鐵路管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:公共運輸總署;zh-hk:公共交通管理局;zh-cn:公共交通管理局;"
+      "conv": "zh-hans:公共交通管理局;zh-tw:公共運輸總署;zh-hk:公共交通管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:海運總署;zh-hk:海事局;zh-cn:海事局;"
+      "conv": "zh-hans:海事局;zh-tw:海運總署;zh-hk:海事局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:公路交通安全總署;zh-hk:公路交通安全海事局;zh-cn:公路交通安全管理局;"
+      "conv": "zh-hans:公路交通安全管理局;zh-tw:公路交通安全總署;zh-hk:公路交通安全海事局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:運輸安全總署;zh-hk:運輸安全管理局;zh-cn:运输安全管理局;"
+      "conv": "zh-hans:运输安全管理局;zh-tw:運輸安全總署;zh-hk:運輸安全管理局;"
+    },
+    {
+      "original": "Environmental Protection Agency",
+      "conv": "zh-cn:环境保护局; zh-hk:國家環境保護局; zh-sg:国家环境保护局;"
+    },
+    {
+      "original": "Environmental Protection Agency",
+      "conv": "環境保護署=>zh-cn:环境保护局; 环境保护署=>zh-cn:环境保护局;"
     },
     {
       "original": "National Security Council",
@@ -697,83 +805,115 @@
     },
     {
       "original": "",
-      "conv": "zh:卫生与公共服务部; zh-tw:衛生及公共服務部; zh-cn:卫生与公众服务部; zh-sg:卫生及公共服务部"
+      "conv": "zh-hans:卫生与公共服务部;zh-cn:卫生与公众服务部;zh-sg:卫生及公共服务部;zh-hant:衛生及公共服務部;"
     },
     {
       "original": "",
-      "conv": "zh:住房及城市發展部;zh-tw:住宅及城市發展部; zh-cn:住房与城市发展部; zh-sg:住房及城市发展部"
+      "conv": "zh:住房及城市發展部;zh-cn:住房与城市发展部;zh-sg:住房及城市发展部;zh-tw:住宅及城市發展部;"
     },
     {
       "original": "",
-      "conv": "zh:住房及城市发展部;zh-tw:住宅及城市發展部; zh-cn:住房与城市发展部; zh-sg:住房及城市发展部"
+      "conv": "zh-cn:住房与城市发展部;zh-sg:住房及城市发展部;zh-tw:住宅及城市發展部;"
     },
     {
       "original": "The Pentagon",
-      "conv": "zh-tw:五角大廈; zh-cn:五角大楼"
+      "conv": "zh-hans:五角大楼;zh-tw:五角大廈;"
     },
     {
       "original": "",
-      "conv": "zh-tw:高等研究計劃署; zh-hk:高級研究計劃局; zh-cn:高级研究计划局"
+      "conv": "zh-hans:高级研究计划局;zh-tw:高等研究計劃署;zh-hk:高級研究計劃局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:國家食品暨農業研究院;  zh-hk:國家食品和農業研究所; zh-cn:国家食品和农业研究所"
+      "conv": "zh-hans:国家食品和农业研究所;zh-tw:國家食品暨農業研究院;zh-hk:國家食品和農業研究所;"
     },
     {
       "original": "",
-      "conv": "zh:森林局; zh-tw:林業局; zh-cn:林务局"
+      "conv": "zh:森林局;zh-hans:林务局;zh-tw:林業局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:國家標準暨技術研究院;  zh-hk:國家標準技術研究所; zh-cn:国家标准技术研究所"
+      "conv": "zh-hans:国家标准技术研究所;zh-tw:國家標準暨技術研究院;zh-hk:國家標準技術研究所;"
     },
     {
       "original": "",
-      "conv": "zh-tw:教育科學研究院;  zh-hk:教育科學研究所; zh-cn:教育科学研究所"
+      "conv": "zh-hans:教育科学研究所;zh-tw:教育科學研究院;zh-hk:教育科學研究所;"
     },
     {
       "original": "",
-      "conv": "zh-tw:退伍軍人健康總署;  zh-hk:退伍軍人健康管理局; zh-cn:退伍军人健康管理局"
+      "conv": "zh-hans:退伍军人健康管理局;zh-tw:退伍軍人健康總署;zh-hk:退伍軍人健康管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:國家身心障礙暨復健研究院;  zh-hk:國家身心障礙和康復研究所; zh-cn:国家身心障碍和康复研究所"
+      "conv": "zh-hans:国家身心障碍和康复研究所;zh-tw:國家身心障礙暨復健研究院;zh-hk:國家身心障礙和康復研究所;"
     },
     {
       "original": "",
-      "conv": "zh-tw:貿易代表署;  zh-hk:貿易代表處; zh-cn:贸易代表办公室"
+      "conv": "zh-hans:贸易代表办公室;zh-tw:貿易代表署;zh-hk:貿易代表處;"
     },
     {
       "original": "",
-      "conv": "zh-tw:緊急事務管理署;  zh-hk:緊急事務管理署; zh-cn:紧急措施署; zh-sg:紧急事务管理署;"
+      "conv": "zh-cn:紧急措施署;zh-sg:紧急事务管理署;zh-hant:緊急事務管理署;"
     },
     {
       "original": "",
-      "conv": "zh-tw:海關及邊境保衛局; zh-hk:海關及邊境保衛局; zh-cn:海关和边境保护局"
+      "conv": "zh-cn:海关和边境保护局;zh-hant:海關及邊境保衛局;"
+    },
+    {
+      "original": "Immigration and Customs Enforcement",
+      "conv": "zh-cn:移民与海关执法局;zh-hant:移民及海關執法局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:移民及海關執法局; zh-hk:移民及海關執法局; zh-cn:移民和海关执法局"
+      "conv": "zh-hans:邮政总局;zh-hant:郵政署;"
+    },
+    {
+      "original": "National Archives and Records Administration",
+      "conv": "zh-hans:国家档案和记录管理局;zh-tw:國家文書暨檔案總署;zh-hk:國家檔案和記錄管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:郵政署;  zh-hk:郵政署; zh-cn:邮政总局"
+      "conv": "zh-hans:档案与文件署;zh-hant:檔案記錄署;"
     },
     {
       "original": "",
-      "conv": "zh-tw:檔案記錄署;  zh-hk:檔案記錄署; zh-cn:档案与文件署"
+      "conv": "zh-hans:情报和反情报;zh-hant:情報和反情報;zh-tw:情報及反情報;zh-hk:情報及反情報;"
+    },
+    {
+      "original": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+      "conv": "zh:烟酒枪炮及爆炸物管理局; zh-cn:酒精、烟草、火器和爆炸物管理局;zh-hk:煙酒槍炮及爆裂物管理局;zh-tw:菸酒槍炮及爆裂物管理局;"
     },
     {
       "original": "",
-      "conv": "zh-tw:社會安全局;  zh-hk:社會保障署; zh-cn:社会保障署"
+      "conv": "zh-hans:社会保障署;zh-tw:社會安全局;zh-hk:社會保障署;"
     },
     {
       "original": "CDC",
-      "conv": "zh-hant:疾病管制與預防中心; zh-hans:疾病控制与预防中心;"
+      "conv": "zh-hans:疾病控制与预防中心;zh-hk:疾病控制及預防中心;zh-tw:疾病管制與預防中心;"
     },
     {
       "original": "",
-      "conv": "zh-tw:小商業局; zh-cn:小企业局"
+      "conv": "zh-hans:小企业局;zh-tw:小商業局;"
+    },
+    {
+      "original": "Office of Management and Budget",
+      "conv": "zh-hans:行政管理和预算局;zh-tw:行政管理預算局;"
+    },
+    {
+      "original": "Office of Terrorism and Financial Intelligence",
+      "conv": "zh-hans:恐怖主义和金融情报办公室;zh-tw:反恐金融情報辦公室;"
+    },
+    {
+      "original": "Office of Terrorist Financing and Financial Crimes",
+      "conv": "zh-hans:恐怖分子资助和金融犯罪办公室;zh-tw:反恐資金暨金融犯罪處;"
+    },
+    {
+      "original": "East Asian and Pacific Affairs",
+      "conv": "zh-cn:东亚和太平洋;zh-tw:東亞暨太平洋;"
+    },
+    {
+      "original": "Federal Communications Commission",
+      "conv": "zh-cn:联邦通信委员会;zh-tw:聯邦通訊委員會;"
     },
     {
       "original": "White House Chief of Staff",
@@ -804,12 +944,8 @@
       "conv": "国家安全顾问 => zh-cn:国家安全事务助理; 國家安全顧問 => zh-cn:国家安全事务助理"
     },
     {
-      "original": "National Security Advisor",
-      "conv": "国家安全顾问 => zh-cn:国家安全事务助理; 國家安全顧問 => zh-cn:国家安全事务助理"
-    },
-    {
       "original": "General Services Administration",
-      "conv": "zh-tw:總務署;  zh-hk:總務署; zh-cn:总务管理局; zh-sg:总务署;"
+      "conv": "zh-cn:总务管理局;zh-sg:总务署;zh-hant:總務署;"
     },
     {
       "original": "Attorney General",
@@ -817,63 +953,63 @@
     },
     {
       "original": "Solicitor General",
-      "conv": "zh-cn:副总检察长;zh-tw:訟務次長;"
+      "conv": "zh-hans:副总检察长;zh-tw:訟務次長;"
     },
     {
       "original": "CEO",
-      "conv": "zh-cn:首席执行官;zh-hk:行政總裁;zh-tw:執行長;zh-mo:行政總裁;zh-sg:行政总裁;zh-my:行政总裁;"
+      "conv": "zh-cn:首席执行官;zh-sg:行政总裁;zh-my:行政总裁;zh-tw:執行長;zh-hk:行政總裁;"
     },
     {
       "original": "CFO",
-      "conv": "zh-hans:财务长;zh-hant:財務長;zh-cn:首席财务官;zh-hk:財務總監;zh-tw:財務長;zh-mo:財務總監;"
+      "conv": "zh-hans:财务长;zh-cn:首席财务官;zh-tw:財務長;zh-hk:財務總監;"
     },
     {
       "original": "",
-      "conv": "zh-cn:陆军总军士长; zh-hk:陸軍總軍士長; zh-mo:陸軍總軍士長; zh-tw:陸軍特等士官長;"
+      "conv": "zh-hans:陆军总军士长;zh-tw:陸軍特等士官長;zh-hk:陸軍總軍士長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:一级军士长; zh-hk:一級軍士長; zh-mo:一級軍士長; zh-tw:一等士官長;"
+      "conv": "zh-hans:一级军士长;zh-tw:一等士官長;zh-hk:一級軍士長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:二级军士长; zh-hk:二級軍士長; zh-mo:二級軍士長; zh-tw:二等士官長;"
+      "conv": "zh-hans:二级军士长;zh-tw:二等士官長;zh-hk:二級軍士長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:三级军士长; zh-hk:三級軍士長; zh-mo:三級軍士長; zh-tw:三等士官長;"
+      "conv": "zh-hans:三级军士长;zh-tw:三等士官長;zh-hk:三級軍士長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:军士长; zh-hk:軍士長; zh-mo:軍士長; zh-tw:士官長;"
+      "conv": "zh-hans:军士长;zh-tw:士官長;zh-hk:軍士長;"
     },
     {
       "original": "",
-      "conv": "zh-cn:技术兵; zh-hk:技術兵; zh-mo:技術兵; zh-tw:技術士官;"
+      "conv": "zh-hans:技术兵;zh-tw:技術士官;zh-hk:技術兵;"
     },
     {
       "original": "",
-      "conv": "zh-cn:五级准尉; zh-hk:五級準尉; zh-mo:五級準尉; zh-tw:特級准尉;"
+      "conv": "zh-hans:五级准尉;zh-tw:特級准尉;zh-hk:五級準尉;"
     },
     {
       "original": "",
-      "conv": "zh-cn:四级准尉; zh-hk:四級準尉; zh-mo:四級準尉; zh-tw:一級准尉;"
+      "conv": "zh-hans:四级准尉;zh-tw:一級准尉;zh-hk:四級準尉;"
     },
     {
       "original": "",
-      "conv": "zh-cn:三级准尉; zh-hk:三級準尉; zh-mo:三級準尉; zh-tw:二級准尉;"
+      "conv": "zh-hans:三级准尉;zh-tw:二級准尉;zh-hk:三級準尉;"
     },
     {
       "original": "",
-      "conv": "zh-cn:二级准尉; zh-hk:二級準尉; zh-mo:二級準尉; zh-tw:三級准尉;"
+      "conv": "zh-hans:二级准尉;zh-tw:三級准尉;zh-hk:二級準尉;"
     },
     {
       "original": "",
-      "conv": "zh-cn:一级准尉; zh-hk:一級準尉; zh-mo:一級準尉; zh-tw:四級准尉;"
+      "conv": "zh-hans:一级准尉;zh-tw:四級准尉;zh-hk:一級準尉;"
     },
     {
       "original": "",
-      "conv": "zh-cn:集团军; zh-sg:集团军; zh-hk:集團軍; zh-mo:集團軍; zh-tw:軍團;"
+      "conv": "zh-hans:集团军;zh-tw:軍團;zh-hk:集團軍;"
     },
     {
       "original": "",
@@ -881,15 +1017,27 @@
     },
     {
       "original": "Countering America’s Adversaries Through Sanctions Act",
-      "conv": "zh-cn:美国敌对国家制裁法案; zh-tw:美國敵對國家制裁法案; zh-hk:通過制裁打擊美國對手法;zh-sg:通过制裁打击美国对手法;"
+      "conv": "zh-cn:美国敌对国家制裁法案;zh-sg:通过制裁打击美国对手法;zh-tw:美國敵對國家制裁法案;zh-hk:通過制裁打擊美國對手法;"
     },
     {
       "original": "",
-      "conv": "zh-cn:与台湾交往法; zh-hk:台灣旅行法; zh-tw:台灣旅行法; zh-sg:台湾旅行法;"
+      "conv": "zh-cn:与台湾交往法;zh-sg:台湾旅行法;zh-hant:台灣旅行法;"
     },
     {
       "original": "",
-      "conv": "zh-cn:与台湾关系法; zh-hk:台灣關係法; zh-tw:臺灣關係法; zh-sg:台湾关系法;"
+      "conv": "zh-cn:与台湾关系法;zh-sg:台湾关系法;zh-tw:臺灣關係法;zh-hk:台灣關係法;"
+    },
+    {
+      "original": "Ketanji Brown Jackson",
+      "conv": "zh-hans:凯坦吉·布朗·杰克逊;zh-tw:凱坦吉·布朗·傑克森;zh-hk:凱坦吉·布朗·傑克遜;"
+    },
+    {
+      "original": "Ketanji Brown Jackson",
+      "conv": "凯坦吉·布朗·杰克森=>zh-cn:凯坦吉·布朗·杰克逊;凯坦吉·布朗·杰克森=>zh-sg:凯坦吉·布朗·杰克逊;凯坦吉·布朗·杰克森=>zh-my:凯坦吉·布朗·杰克逊;凯坦吉·布朗·杰克森=>zh-hk:凱坦吉·布朗·傑克遜;凯坦吉·布朗·杰克森=>zh-mo:凱坦吉·布朗·傑克遜;"
+    },
+    {
+      "original": "Amy Coney Barrett",
+      "conv": "艾米·康尼·巴雷特=>zh-cn:埃米·科尼·巴雷特;艾米·康尼·巴雷特=>zh-sg:埃米·科尼·巴雷特;艾米·康尼·巴雷特=>zh-my:埃米·科尼·巴雷特;"
     },
     {
       "original": "Gorsuch",
@@ -901,39 +1049,39 @@
     },
     {
       "original": "John Roberts",
-      "conv": "zh-cn:约翰·罗伯茨;zh-tw:約翰·羅勃茲;zh-hk:約翰·羅伯茨;"
+      "conv": "zh-hans:约翰·罗伯茨;zh-tw:約翰·羅勃茲;zh-hk:約翰·羅伯茨;"
     },
     {
       "original": "Roberts",
-      "conv": "zh-cn:罗伯茨; zh-hans:罗伯茨; zh-hant:羅伯茨;zh-tw:羅勃茲;zh-hk:羅伯茨;"
+      "conv": "zh-hans:罗伯茨;zh-tw:羅勃茲;zh-hk:羅伯茨;"
     },
     {
       "original": "Ruth Bader Ginsburg",
-      "conv": "zh-cn:露丝·巴德·金斯伯格;zh-tw:露絲·貝德·金斯堡;zh-hk:露芙·巴達·堅士堡;"
+      "conv": "zh-hans:露丝·巴德·金斯伯格;zh-tw:露絲·貝德·金斯堡;zh-hk:露芙·巴達·堅士堡;"
     },
     {
       "original": "Ginsburg",
-      "conv": "zh-cn:金斯伯格;zh-tw:金斯堡;zh-hk:堅士堡;"
+      "conv": "zh-hans:金斯伯格;zh-tw:金斯堡;zh-hk:堅士堡;"
     },
     {
       "original": "Scalia",
-      "conv": "zh-hans:斯卡利亚; zh-hant:斯卡利亞; zh-tw:史卡利亞;"
+      "conv": "zh-hans:斯卡利亚;zh-hant:斯卡利亞;zh-tw:史卡利亞;"
     },
     {
       "original": "Sandra Day O'Connor",
-      "conv": "zh-hant:桑德拉·戴·奧康納;zh-tw:珊卓拉·戴·歐康納;zh-hans:桑德拉·戴·奥康纳;"
+      "conv": "zh-hans:桑德拉·戴·奥康纳;zh-hant:桑德拉·戴·奧康納;zh-tw:珊卓拉·戴·歐康納;"
     },
     {
       "original": "Rehnquist",
-      "conv": "zh-cn:伦奎斯特;zh-hans:伦奎斯特;zh-hant:芮恩奎斯特;"
+      "conv": "zh-hans:伦奎斯特;zh-hant:芮恩奎斯特;"
     },
     {
       "original": "Warren Earl Burger",
-      "conv": "zh-hans:沃伦·厄尔·伯格;zh-tw:華倫·厄爾·柏格;zh-hant:沃倫·厄爾·伯格;zh-hk:禾倫·艾爾·伯格;"
+      "conv": "zh-hans:沃伦·厄尔·伯格;zh-hant:沃倫·厄爾·伯格;zh-tw:華倫·厄爾·柏格;zh-hk:禾倫·艾爾·伯格;"
     },
     {
       "original": "Warren Burger",
-      "conv": "zh-hans:沃伦·伯格;zh-tw:華倫·柏格;zh-hant:沃倫·伯格;zh-hk:禾倫·伯格;"
+      "conv": "zh-hans:沃伦·伯格;zh-hant:沃倫·伯格;zh-tw:華倫·柏格;zh-hk:禾倫·伯格;"
     }
   ]
 }

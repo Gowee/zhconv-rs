@@ -25,7 +25,7 @@
     },
     {
       "original": "ASEA",
-      "conv": "zh-cn:瑞典通用电气; zh-tw:瑞典通用電氣; zh-hk:瑞典通用電氣; "
+      "conv": "zh-cn:瑞典通用电气; zh-tw:瑞典通用電氣; zh-hk:瑞典通用電氣;"
     },
     {
       "original": "auf den Schluss des Güterzuges auffuhr",
@@ -48,6 +48,14 @@
       "conv": "zh-cn:自动柜员机; zh-tw:自動提款機;"
     },
     {
+      "original": "Bangkok Mass Transit System",
+      "conv": "zh-hans:曼谷空铁;zh-cn:曼谷天铁;zh-hk:曼谷BTS;zh-tw:曼谷BTS;"
+    },
+    {
+      "original": "Bangkok Mass Transit System",
+      "conv": "zh-cn:曼谷大众运输系统;zh-hk:曼谷集體運輸系統;zh-tw:曼谷大眾運輸系統;"
+    },
+    {
       "original": "Balise",
       "conv": "zh-hans:应答器; zh-hant:感應子; zh-tw: 地上感應子;"
     },
@@ -58,6 +66,10 @@
     {
       "original": "Bay platform",
       "conv": "zh-cn:尽头式; zh-tw:終端式;"
+    },
+    {
+      "original": "Bay",
+      "conv": "zh-cn:港湾式;zh-tw:終端式;zh-hk:港灣式;"
     },
     {
       "original": "befördern",
@@ -161,7 +173,7 @@
     },
     {
       "original": "station concourse",
-      "conv": "zh-cn:站厅;zh-tw:車站大廳;"
+      "conv": "zh-cn:站厅;zh-tw:車站大廳;zh-hk:車站大堂;zh-mo:車站大堂;"
     },
     {
       "original": "conductor room",
@@ -241,7 +253,7 @@
     },
     {
       "original": "Diesel Multiple Unit",
-      "conv": "zh-cn:内燃动车组; zh-tw:柴聯車;zh-hk:柴油動車組;"
+      "conv": "zh-cn:内燃动车组;zh-tw:柴聯車;zh-hk:柴油列車;"
     },
     {
       "original": "digitization",
@@ -253,7 +265,7 @@
     },
     {
       "original": "distance",
-      "conv": "zh-hans:里程;zh-tw:距離;zh-mo:距離;zh-hk:距離"
+      "conv": "zh-hans:里程;zh-tw:距離;zh-mo:距離;zh-hk:距離;"
     },
     {
       "original": "DB Netz AG",
@@ -285,11 +297,7 @@
     },
     {
       "original": "Dead man",
-      "conv": "zh-hans:驾驶失知; zh-hant:駕駛失能;"
-    },
-    {
-      "original": "Dead man",
-      "conv": "zh-hans:駕駛失知; zh-hant:駕駛失能;"
+      "conv": "zh-hans:驾驶失知; zh-hant:駕駛失能; 駕駛失知=>zh-hant:駕駛失能;"
     },
     {
       "original": "Double heading",
@@ -324,6 +332,10 @@
       "conv": "zh:電力動車組;zh-cn:电力动车组;zh-hk:電動列車;zh-tw:電聯車;"
     },
     {
+      "original": "electric multiple unit",
+      "conv": "电动车组=>zh-tw:電聯車;"
+    },
+    {
       "original": "electric system",
       "conv": "zh-cn:电压制式;zh-tw:電壓規格;"
     },
@@ -353,7 +365,7 @@
     },
     {
       "original": "electric system",
-      "conv": "zh-hans:电流制式;zh-hant:電力系統;"
+      "conv": "zh-hans:电流制式;zh-tw:電力系統;"
     },
     {
       "original": "Electronically controlled pneumatic brakes",
@@ -385,15 +397,15 @@
     },
     {
       "original": "Fahrgastinformationssystem",
-      "conv": "zh-hans:旅客信息系统;zh-hant:旅客資訊系統;"
+      "conv": "zh-hans:旅客信息系统;zh-tw:旅客資訊系統;"
     },
     {
       "original": "Fahrleitung",
-      "conv": "zh-hans:触线;zh-hant:電車線;"
+      "conv": "zh-hans:触线;zh-tw:電車線;"
     },
     {
       "original": "Fahrzeugreserve",
-      "conv": "zh-hans:车辆储备;zh-hant:列車預備編組;"
+      "conv": "zh-hans:车辆储备;zh-tw:列車預備編組;"
     },
     {
       "original": "Federspeicherbremse",
@@ -401,7 +413,7 @@
     },
     {
       "original": "Feste Fahrbahn",
-      "conv": "zh-hans:无砟轨道;zh-hant:無道碴道床;"
+      "conv": "zh-hans:无砟轨道;zh-tw:無道碴道床;"
     },
     {
       "original": "first class",
@@ -448,6 +460,10 @@
       "conv": "zh:玻璃纖維; zh-hant:玻璃纖維; zh-hans:玻璃钢;"
     },
     {
+      "original": "grade-separated juntion",
+      "conv": "zh-hans:立体交汇;zh-tw:立體交叉;"
+    },
+    {
       "original": "GYSEV",
       "conv": "zh-hant:傑瑟夫; zh-hans:杰肖埃;"
     },
@@ -461,7 +477,7 @@
     },
     {
       "original": "Hochspannungs-Dachleitung",
-      "conv": "zh-cn:特高壓引通線; zh-tw:高壓電力跳線;"
+      "conv": "zh-cn:特高压引通线; zh-tw:高壓電力跳線;"
     },
     {
       "original": "Hochtastfahrt",
@@ -512,10 +528,6 @@
       "conv": "zh-cn:整体集成传动单元; zh-tw:整合驅動系統;"
     },
     {
-      "original": "Intercity-Express",
-      "conv": "zh-cn:城际特快列车; zh-tw:ICE;"
-    },
-    {
       "original": "interlocking",
       "conv": "zh-cn:锁闭; zh-tw:聯鎖;"
     },
@@ -530,6 +542,10 @@
     {
       "original": "Kilonewton",
       "conv": "zh-cn:千牛; zh-tw:千牛頓;"
+    },
+    {
+      "original": "Kodama",
+      "conv": "zh-cn:回声号;zh-tw:回音號;"
     },
     {
       "original": "Kompatibilität",
@@ -576,10 +592,6 @@
       "conv": "zh-hans:轻快铁;zh-hant:輕快鐵;"
     },
     {
-      "original": "line",
-      "conv": "zh-hans:线路;zh-tw:路線;zh-mo:路線;zh-hk:路綫;zh-my:线路;zh-sg:线路;"
-    },
-    {
       "original": "Linienzugbeeinflussung",
       "conv": "zh-hans:线状列车控制系统; zh-hant:連續列車監控系統;"
     },
@@ -593,7 +605,7 @@
     },
     {
       "original": "load",
-      "conv": "zh-hans:驱动车头; zh-hant:動力機車;"
+      "conv": "zh-hans:驱动车头; zh-tw:動力機車;"
     },
     {
       "original": "low-floor",
@@ -621,27 +633,27 @@
     },
     {
       "original": "Mehrfachtraktion",
-      "conv": "zh-hans:多单元列车控制; zh-hant:列車重聯;"
+      "conv": "zh-hans:多单元列车控制; zh-tw:列車重聯;"
     },
     {
       "original": "Mehrfachtraktion",
-      "conv": "zh-hans:多单元列车; zh-hant:重聯運轉;"
+      "conv": "zh-hans:多单元列车; zh-tw:重聯運轉;"
     },
     {
       "original": "Mehrfachtraktion",
-      "conv": "zh-hans:重联运行; zh-hant:重聯運轉;"
+      "conv": "zh-hans:重联运行; zh-tw:重聯運轉;"
     },
     {
       "original": "Mehrfachtraktion",
-      "conv": "zh-hans:重联运营; zh-hant:重聯運轉;"
+      "conv": "zh-hans:重联运营; zh-tw:重聯運轉;"
     },
     {
       "original": "memorandum of understanding",
-      "conv": "zh-hans:意向书; zh-hant:合作備忘錄;"
+      "conv": "zh-hans:意向书; zh-tw:合作備忘錄;"
     },
     {
       "original": "memorandum of understanding",
-      "conv": "zh-hans:諒解備忘錄; zh-hant:合作備忘錄;"
+      "conv": "zh-hans:諒解備忘錄; zh-tw:合作備忘錄;"
     },
     {
       "original": "micro-computer",
@@ -729,15 +741,23 @@
     },
     {
       "original": "overhead line",
-      "conv": "接触网=>zh-tw:電車線;"
+      "conv": "接触网=>zh-tw:電車線;接触网=>zh-hk:電纜;接触网=>zh-mo:電纜;"
     },
     {
       "original": "overhead line",
-      "conv": "架空电缆=>zh-tw:電車線;"
+      "conv": "架空电缆=>zh-tw:高架電車線;架空电缆=>zh-cn:架空接触网;架空电缆=>zh-my:架空接触网;架空电缆=>zh-sg:架空接触网;"
+    },
+    {
+      "original": "overhead line",
+      "conv": "接觸網=>zh-tw:電車線;接觸網=>zh-hk:電纜;接觸網=>zh-mo:電纜;"
     },
     {
       "original": "pantograph",
       "conv": "zh-hans:受电弓;zh-tw:集電弓;zh-hk:集電弓;"
+    },
+    {
+      "original": "Passing",
+      "conv": "zh-hans:会让;zh-hant:交會;"
     },
     {
       "original": "Patrol inspection",
@@ -765,7 +785,7 @@
     },
     {
       "original": "platform gates",
-      "conv": "zh-cn:低站台门;zh-tw:半高式月台門;zh-hk:月台閘門; 月台閘門=>zh-mo:月台幕門;zh-sg:月台屏门;zh-my:低站台门;"
+      "conv": "zh-cn:低站台门;zh-tw:半高式月台門;zh-hk:月台閘門; 月台閘門=>zh-mo:月台閘門;zh-sg:月台屏门;zh-my:低站台门;"
     },
     {
       "original": "platform gates",
@@ -785,7 +805,7 @@
     },
     {
       "original": "Push–pull train",
-      "conv": "推拉式=>zh-cn:动力集中式;推拉式=>zh-my:动力集中式;推拉式=>zh-sg:动力集中式;推拉式=>zh-tw:動力集中式;推拉式=>zh-hk:動力集中式;推拉式=>zh-mo:動力集中式;"
+      "conv": "zh-cn:推挽式动力集中;zh-tw:推拉式;zh-hk:推挽式動力集中;"
     },
     {
       "original": "Push–pull Tze-Chiang Express",
@@ -806,6 +826,10 @@
     {
       "original": "primary suspension",
       "conv": "zh-cn:一系悬挂; zh-hk:一系懸掛; zh-tw:一次懸吊;"
+    },
+    {
+      "original": "project",
+      "conv": "项目=>zh-tw:計畫;項目=>zh-tw:計畫;"
     },
     {
       "original": "Probefahrt",
@@ -849,7 +873,7 @@
     },
     {
       "original": "Rail & Fly",
-      "conv": "zh-cn:空铁联运;zh-tw:航空鐵路聯運"
+      "conv": "zh-cn:空铁联运;zh-tw:航空鐵路聯運;"
     },
     {
       "original": "Rail & Fly",
@@ -861,7 +885,7 @@
     },
     {
       "original": "rail yard",
-      "conv": "zh-cn:车辆段;zh-hk:車廠;zh-tw:機廠;zh-sg:车厂;"
+      "conv": "车辆段=>zh-hk:車廠;车辆段=>zh-tw:機廠;车辆段=>zh-sg:车厂;"
     },
     {
       "original": "rail yard",
@@ -876,12 +900,36 @@
       "conv": "车辆基地=>zh-hk:車廠;车辆基地=>zh-mo:車廠;车辆基地=>zh-tw:機廠;车辆基地=>zh-my:车厂;车辆基地=>zh-sg:车厂;"
     },
     {
+      "original": "rail yard",
+      "conv": "动车段=>zh-tw:總機廠;动车段=>zh-hk:車廠;"
+    },
+    {
+      "original": "rail yard",
+      "conv": "动车运用所=>zh-hk:車廠;动车运用所=>zh-mo:車廠;动车运用所=>zh-tw:基地;动车运用所=>zh-my:车厂;动车运用所=>zh-sg:车厂;"
+    },
+    {
+      "original": "rail yard",
+      "conv": "动车所=>zh-hk:車廠;动车所=>zh-mo:車廠;动车所=>zh-tw:基地;动车所=>zh-my:车厂;动车所=>zh-sg:车厂;"
+    },
+    {
+      "original": "rail yard",
+      "conv": "运用所=>zh-hk:車廠;运用所=>zh-mo:車廠;运用所=>zh-tw:基地;运用所=>zh-my:车厂;运用所=>zh-sg:车厂;"
+    },
+    {
+      "original": "rail yard",
+      "conv": "动车存车场=>zh-hk:列車停放處;动车存车场=>zh-mo:列車停放處;动车存车场=>zh-tw:基地;"
+    },
+    {
+      "original": "rail yard",
+      "conv": "存车场=>zh-hk:列車停放處;存车场=>zh-mo:列車停放處;存车场=>zh-tw:基地;"
+    },
+    {
       "original": "railway lines",
-      "conv": "zh-hans:铁路线;zh-tw:鐵路線;zh-mo:鐵路線;zh-hk:鐵路綫;"
+      "conv": "zh-hans:铁路线;zh-tw:鐵道路線;zh-mo:鐵路線;zh-hk:鐵路綫;"
     },
     {
       "original": "(railway) lines",
-      "conv": "zh-cn:线路;zh-tw:路線;zh-mo:路線;zh-hk:路綫;"
+      "conv": "zh-cn:线路;zh-tw:路線;zh-mo:路線;zh-hk:路綫;zh-my:线路;zh-sg:线路;"
     },
     {
       "original": "rate-limiting",
@@ -896,6 +944,14 @@
       "conv": "zh-cn:制冷剂;zh-tw:冷媒;"
     },
     {
+      "original": "Reiterbahnhof",
+      "conv": "zh-cn:橋上車站; zh-tw:跨站式站房;"
+    },
+    {
+      "original": "Reiterbahnhof",
+      "conv": "zh-cn:桥上站; zh-tw:跨站式站房;"
+    },
+    {
       "original": "repairing",
       "conv": "zh-cn:级修;zh-tw:級保養;"
     },
@@ -905,11 +961,11 @@
     },
     {
       "original": "Rheingold",
-      "conv": "zh-cn:莱茵之金;zh-tw:金萊茵;"
+      "conv": "zh-cn:金色莱茵;zh-tw:金萊茵;"
     },
     {
       "original": "Rheingold",
-      "conv": "zh-cn:金色莱茵;zh-tw:金萊茵;"
+      "conv": "zh-cn:莱茵之金;zh-tw:金萊茵;"
     },
     {
       "original": "routine",
@@ -956,6 +1012,10 @@
       "conv": "zh-cn:螺旋弹簧;zh-tw:捲簧;"
     },
     {
+      "original": "screen",
+      "conv": "zh-cn:屏幕;zh-hk:熒幕;zh-tw:螢幕;"
+    },
+    {
       "original": "Seitenwindstabilität",
       "conv": "zh-cn:侧风敏感性; zh-tw:側風穩定度;"
     },
@@ -972,6 +1032,10 @@
       "conv": "zh-cn:系列审批;zh-tw:系列審核;"
     },
     {
+      "original": "shuttle trains",
+      "conv": "zh-hans:摆渡列车; zh-hant:擺渡列車; zh-hk:穿梭列車;"
+    },
+    {
       "original": "Sicherheitsfahrschaltung",
       "conv": "zh-cn:列车紧急停止装置;zh-tw:自動警醒裝置;"
     },
@@ -985,7 +1049,11 @@
     },
     {
       "original": "signals",
-      "conv": "zh-cn:信号;zh-hk:訊號;zh-tw:號誌"
+      "conv": "zh-cn:信号;zh-hk:訊號;zh-tw:號誌;"
+    },
+    {
+      "original": "signals",
+      "conv": "zh:信號;zh-cn:信号;zh-hk:訊號;zh-tw:號誌;"
     },
     {
       "original": "signal lamp",
@@ -1009,11 +1077,11 @@
     },
     {
       "original": "stacked island platform",
-      "conv": "zh-hans:叠岛式;zh-hant:島疊式;"
+      "conv": "zh-hans:叠岛式;zh-tw:島疊式;"
     },
     {
       "original": "stacked side platform",
-      "conv": "zh-hans:叠侧式;zh-hant:側疊式;"
+      "conv": "zh-hans:叠侧式;zh-tw:側疊式;"
     },
     {
       "original": "staffless station",
@@ -1021,7 +1089,7 @@
     },
     {
       "original": "standard-gauge",
-      "conv": "zh-cn:准轨;zh-tw:標準軌;"
+      "conv": "准轨=>zh-tw:標準軌;准轨=>zh-hk:標準軌;准轨=>zh-mo:標準軌;"
     },
     {
       "original": "Steuerwagen",
@@ -1068,8 +1136,16 @@
       "conv": "zh-cn:第三轨供电;zh-hk:軌道供電;zh-tw:第三軌供電;"
     },
     {
-      "original": "through train",
-      "conv": "zh-cn:贯通运营;zh-tw:直通運轉;zh-my:贯通运营;zh-sg:贯通运营;zh-hk:直通運行;zh-mo:直通運行;"
+      "original": "through service",
+      "conv": "zh-cn:贯通运营;zh-tw:直通運轉;zh-hk:直通運行;"
+    },
+    {
+      "original": "through service",
+      "conv": "zh-cn:跨线路运营;zh-tw:直通運轉;zh-hk:直通運行;"
+    },
+    {
+      "original": "through service",
+      "conv": "zh-cn:跨线路运行;zh-tw:直通運轉;zh-hk:直通運行;"
     },
     {
       "original": "thyristor",
@@ -1078,6 +1154,10 @@
     {
       "original": "tilting Train",
       "conv": "zh-cn:摆式; zh-tw:傾斜式; zh-hk:擺式;"
+    },
+    {
+      "original": "Timetabling Speed",
+      "conv": "zh-cn:图定速度;zh-tw:表定速度;"
     },
     {
       "original": "toshiba",
@@ -1093,7 +1173,7 @@
     },
     {
       "original": "trailer",
-      "conv": "zh-hans:动车组拖车;zh-hk:拖卡;zh-tw:無動力車卡;"
+      "conv": "zh-hans:动车组拖车;zh-hk:拖卡;zh-tw:無動力車廂;"
     },
     {
       "original": "trailer car",
@@ -1112,24 +1192,20 @@
       "conv": "zh-cn:有轨电车; zh-tw:路面電車; zh-hk:有軌電車;"
     },
     {
-      "original": "tram",
-      "conv": "有軌電車=>zh-tw:路面電車;"
-    },
-    {
-      "original": "travel",
-      "conv": "zh-hans:出行; zh-hant:旅行;"
-    },
-    {
-      "original": "Triebwagen",
+      "original": "triebwagen",
       "conv": "zh-cn:动车组;zh-tw:列車組;"
     },
     {
-      "original": "Trittstufe",
+      "original": "trittstufe",
       "conv": "zh-cn:车梯踏面;zh-tw:列車登車踏階;"
     },
     {
-      "original": "Trolley pole",
-      "conv": "zh-cn:受电杆;zh-tw:集電杆;"
+      "original": "trolley pole",
+      "conv": "zh-hant:受電桿;zh-hans:受电杆;zh-tw:集電杆;zh-hk:集電竿;"
+    },
+    {
+      "original": "trolley pole",
+      "conv": "集電桿=>zh-cn:受电杆;集電桿=>zh-tw:集電杆;集電桿=>zh-hk:集電竿;"
     },
     {
       "original": "turbulence",
@@ -1156,6 +1232,10 @@
       "conv": "zh-cn:城市轨道交通;zh-tw:都市軌道運輸;zh-hk:城市軌道交通;"
     },
     {
+      "original": "Überholbahnhof",
+      "conv": "zh-hans:越行站;zh-hant:號誌站;"
+    },
+    {
       "original": "Variante",
       "conv": "zh-cn:变体; zh-tw:車款;"
     },
@@ -1166,10 +1246,6 @@
     {
       "original": "Vacuum toilet",
       "conv": "zh-hans:真空集便器;zh-hant:真空廁所;"
-    },
-    {
-      "original": "wagen",
-      "conv": "zh-cn:车厢;zh-tw:車廂;zh-hk:車卡;zh:车卡;"
     },
     {
       "original": "wagen room",
@@ -1213,11 +1289,11 @@
     },
     {
       "original": "Zulassung",
-      "conv": "zh-cn:适航证;zh-tw:營運安全許可;"
+      "conv": "zh-cn:适航;zh-tw:營運安全許可;"
     },
     {
       "original": "Zulassung",
-      "conv": "zh-cn:适航;zh-tw:營運安全許可;"
+      "conv": "zh-cn:适航证;zh-tw:營運安全許可;"
     },
     {
       "original": "Zulassung der Fahrzeuge Versuchsreihen",
@@ -1244,40 +1320,20 @@
       "conv": "上座率=>zh-tw:載客率;上座率=>zh-hk:載客率;上座率=>zh-mo:載客率;"
     },
     {
-      "original": "Überholbahnhof",
-      "conv": "zh-hans:越行站;zh-hant:號誌站;"
-    },
-    {
-      "original": "Passing",
-      "conv": "zh-hans:会让;zh-hant:交會;"
-    },
-    {
-      "original": "Bay",
-      "conv": "zh-cn:港湾式;zh-tw:終端式;zh-hk:港灣式;"
-    },
-    {
-      "original": "grade-separated juntion",
-      "conv": "zh-hans:立体交汇;zh-tw:立體交叉;"
-    },
-    {
-      "original": "project",
-      "conv": "项目=>zh-tw:計畫;項目=>zh-tw:計畫;"
-    },
-    {
       "original": "-{筑}-豊",
       "conv": "zh-hant:筑豐;zh-hans:筑丰;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:屏幕;zh-hk:屏幕;zh-tw:螢幕;"
-    },
-    {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:末班;zh-hk:尾班;zh-tw:末班;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:线;zh-tw:線;zh-mo:線;zh-hk:綫;"
+      "original": "Brown line",
+      "conv": "zh-hans:棕线; zh-hant:棕線; zh-tw:棕線; zh-mo:啡線; zh-hk:啡綫;"
+    },
+    {
+      "original": "Orange line",
+      "conv": "zh-hans:橙线; zh-hant:橙線; zh-tw:橘線; zh-mo:橙線; zh-hk:橙綫;"
     },
     {
       "original": "捷運行政（……）",
@@ -1288,27 +1344,27 @@
       "conv": "zh-hans:马达加斯加;zh-hant:馬達加斯加;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:鐵路機車;zh-hans:铁路机车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:蒸汽機車;zh-hans:蒸汽机车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:燃氣機車;zh-hans:燃气机车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:渦輪機車;zh-hans:涡轮机车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:調車機車;zh-hans:调车机车;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:機車頭;zh-hans:机车头;"
     },
     {
@@ -1316,20 +1372,44 @@
       "conv": "zh-hant:機車廠;zh-hans:机车厂;"
     },
     {
+      "original": "Shinkansen",
+      "conv": "zh-hans:新干线; zh-hant:新幹線;"
+    },
+    {
       "original": "都営地下鉄",
       "conv": " zh-cn:都营地铁; zh-hk:都營地鐵; zh-mo:都營地鐵; zh-sg:都营地铁; zh-tw:都營地下鐵;"
     },
     {
-      "original": "安心出行",
-      "conv": "zh-hant:安心出行;zh-hans:安心出行;"
-    },
-    {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:平板電腦;zh-hans:平板电脑;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-hant:運行形態;zh-hans:运行形态;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:地铁路线;zh-tw:地鐵路線;zh-mo:地鐵路線;zh-hk:地鐵路綫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:环岛铁路;zh-hant:環島鐵路;"
+    },
+    {
+      "original": "Haizhu Tram",
+      "conv": "zh-hans:海珠环岛新型有轨电车;zh-hant:海珠環島新型有軌電車;"
+    },
+    {
+      "original": "SHA T1 Metro Sta",
+      "conv": "zh-hans:虹桥1号航站楼;zh-hant:虹橋1號航站樓;"
+    },
+    {
+      "original": "SHA T2 Metro Sta",
+      "conv": "zh-hans:虹桥2号航站楼;zh-hant:虹橋2號航站樓;"
+    },
+    {
+      "original": "PVG T1T2 Metro Sta",
+      "conv": "zh-hans:浦东1号2号航站楼;zh-hant:浦東1號2號航站樓;"
     }
   ]
 }

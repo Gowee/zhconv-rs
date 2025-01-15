@@ -1,11 +1,11 @@
 {
   "name": "EPL",
-  "description": "英超",
+  "description": "[[英格兰足球超级联赛|英超]]",
   "path": "Module:CGroup/EPL",
   "rules": [
     {
       "original": "Arsenal",
-      "conv": "zh-hans:阿森纳; zh-hk:阿仙奴;zh-tw:兵工廠;zh-hant:阿森納"
+      "conv": "zh-cn:阿森纳;zh-sg:阿申纳;zh-tw:兵工廠;zh-hk:阿仙奴;"
     },
     {
       "original": "Aston Villa",
@@ -16,8 +16,12 @@
       "conv": "zh-cn:巴恩斯利; zh-hk:班士利; zh-tw:巴恩斯利;"
     },
     {
-      "original": "Birmingham City",
-      "conv": "zh-cn:伯明翰城; zh-hk:伯明翰; zh-tw:伯明罕城;"
+      "original": "Birmingham City F.C.",
+      "conv": "伯明翰城=>zh-hk:伯明翰;"
+    },
+    {
+      "original": "Birmingham City F.C.",
+      "conv": "伯明罕城=>zh-hk:伯明翰;"
     },
     {
       "original": "Blackburn",
@@ -37,23 +41,31 @@
     },
     {
       "original": "Bournemouth",
-      "conv": "zh-cn:伯恩茅斯; zh-tw:伯恩茅斯; zh-hk:般尼茅夫;"
+      "conv": "zh-hans:伯恩茅斯;zh-tw:伯恩茅斯;zh-hk:般尼茅夫;"
     },
     {
       "original": "Brentford",
-      "conv": "zh-hans:布伦特福德; zh-hant:賓福特; zh-tw:布倫特福德;"
+      "conv": "zh-hans:布伦特福德;zh-tw:布蘭特福德;zh-hk:賓福特;"
+    },
+    {
+      "original": "Brentford",
+      "conv": "布倫特福德=>zh-tw:布蘭特福德;布倫特福德=>zh-hk:賓福特;布倫特福德=>zh-mo:賓福特;"
     },
     {
       "original": "Brighton",
-      "conv": "zh-hans:布莱顿; zh-hk:白禮頓; zh-tw:布萊頓;"
+      "conv": "zh-hans:布赖顿;zh-tw:布萊頓;zh-hk:白禮頓;"
+    },
+    {
+      "original": "Brighton",
+      "conv": "布莱顿=>zh-cn:布赖顿;布莱顿=>zh-sg:布赖顿;布莱顿=>zh-my:布赖顿;布莱顿=>zh-hk:白禮頓;布莱顿=>zh-mo:白禮頓;"
     },
     {
       "original": "Burnley",
-      "conv": "zh-hans:伯恩利; zh-hk:般尼; zh-tw:班來;"
+      "conv": "zh-hans:伯恩利;zh-tw:伯恩利;zh-hk:般尼;"
     },
     {
       "original": "Cardiff City",
-      "conv": "zh-cn:加迪夫城; zh-tw:卡地夫城; zh-hk:卡迪夫城;"
+      "conv": "zh-cn:卡迪夫城;zh-hans:加的夫城; zh-tw:卡地夫城; zh-hk:卡迪夫城;"
     },
     {
       "original": "Chelsea",
@@ -89,7 +101,7 @@
     },
     {
       "original": "Ipswich",
-      "conv": "zh-cn:伊普斯维奇; zh-tw:伊普斯維奇; zh-hk:葉士域治;"
+      "conv": "zh-hans:伊普斯威奇;zh-tw:伊普斯維奇鎮;zh-hk:葉士域治;"
     },
     {
       "original": "Leeds",
@@ -105,7 +117,7 @@
     },
     {
       "original": "Manchester City",
-      "conv": "zh-cn:曼城; zh-tw:曼城; zh-sg:曼市;"
+      "conv": "zh-cn:曼城;zh-sg:曼市;zh-hant:曼城;"
     },
     {
       "original": "Middlesbrough",
@@ -113,15 +125,39 @@
     },
     {
       "original": "Newcastle United",
-      "conv": "zh-cn:纽卡斯尔联; zh-hk:紐卡素; zh-tw:紐卡索聯;"
+      "conv": "zh-hans:纽卡斯尔;zh-tw:紐卡索;zh-hk:紐卡素;"
     },
     {
-      "original": "Norwich",
-      "conv": "zh-hans:诺里奇城;zh-hk:諾域治;zh-tw:諾里奇城;"
+      "original": "Newcastle United",
+      "conv": "zh-hans:纽卡斯尔联;zh-tw:紐卡索聯;zh-hk:紐卡素聯;"
     },
     {
-      "original": "Norwich",
-      "conv": "zh-hans:诺维奇城;zh-hk:諾域治;zh-tw:諾維奇城;"
+      "original": "Newcastle United",
+      "conv": "紐卡素聯=>zh-cn:纽卡斯尔联;紐卡素聯=>zh-sg:纽卡斯尔联;紐卡素聯=>zh-my:纽卡斯尔联;紐卡素聯=>zh-tw:紐卡索聯;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "zh-hans:诺里奇城;zh-tw:諾里奇城;zh-hk:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "诺维奇=>zh-cn:诺里奇城;诺维奇=>zh-sg:诺里奇城;诺维奇=>zh-my:诺里奇城;诺维奇=>zh-tw:諾里奇城;诺维奇=>zh-hk:諾域治;诺维奇=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "諾維奇=>zh-cn:诺里奇城;諾維奇=>zh-sg:诺里奇城;諾維奇=>zh-my:诺里奇城;諾維奇=>zh-tw:諾里奇城;諾維奇=>zh-hk:諾域治;諾維奇=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "诺维奇城=>zh-cn:诺里奇城;诺维奇城=>zh-sg:诺里奇城;诺维奇城=>zh-my:诺里奇城;诺维奇城=>zh-tw:諾里奇城;诺维奇城=>zh-hk:諾域治;诺维奇城=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "諾維奇城=>zh-cn:诺里奇城;諾維奇城=>zh-sg:诺里奇城;諾維奇城=>zh-my:诺里奇城;諾維奇城=>zh-tw:諾里奇城;諾維奇城=>zh-hk:諾域治;諾維奇城=>zh-mo:諾域治;"
+    },
+    {
+      "original": "Norwich City F.C.",
+      "conv": "諾域治城=>zh-cn:诺里奇城;諾域治城=>zh-sg:诺里奇城;諾域治城=>zh-my:诺里奇城;諾域治城=>zh-tw:諾里奇城;"
     },
     {
       "original": "Nottingham Forest",
@@ -145,11 +181,11 @@
     },
     {
       "original": "Southampton",
-      "conv": "zh-cn:南安普敦; zh-tw:南安普敦; zh-hk:修咸頓;"
+      "conv": "zh-hans:南安普敦;zh-tw:南安普頓;zh-hk:修咸頓;"
     },
     {
       "original": "Southampton",
-      "conv": "zh-cn:南安普顿; zh-tw:南安普頓; zh-hk:修咸頓;"
+      "conv": "南安普顿=>zh-cn:南安普敦;南安普顿=>zh-sg:南安普敦;南安普顿=>zh-my:南安普敦;南安普顿=>zh-tw:南安普頓;南安普顿=>zh-hk:修咸頓;南安普顿=>zh-mo:修咸頓;"
     },
     {
       "original": "Stoke City",
@@ -165,7 +201,7 @@
     },
     {
       "original": "Tottenham Hotspur",
-      "conv": "zh-cn:托特纳姆热刺; zh-tw:托特納姆熱刺; zh-hk:托定咸熱刺;"
+      "conv": "zh:托特納姆熱刺;zh-cn:托特纳姆热刺; zh-tw:托登罕熱刺; zh-hk:托定咸熱刺;"
     },
     {
       "original": "Watford",
@@ -177,15 +213,19 @@
     },
     {
       "original": "West Ham United",
-      "conv": "zh-cn:西汉姆联; zh-tw:西漢姆; zh-hk:韋斯咸;zh-sg:西哈姆;"
+      "conv": "zh-cn:西汉姆联;zh-sg:西哈姆;zh-my:西罕;zh-tw:西漢姆聯;zh-hk:韋斯咸;"
+    },
+    {
+      "original": "West Ham United",
+      "conv": "西汉姆=>zh-cn:西汉姆联;西汉姆=>zh-sg:西哈姆;西汉姆=>zh-my:西罕;西汉姆=>zh-tw:西漢姆聯;西汉姆=>zh-hk:韋斯咸;西汉姆=>zh-mo:韋斯咸;"
+    },
+    {
+      "original": "West Ham United",
+      "conv": "西漢姆=>zh-cn:西汉姆联;西漢姆=>zh-sg:西哈姆;西漢姆=>zh-my:西罕;西漢姆=>zh-tw:西漢姆聯;西漢姆=>zh-hk:韋斯咸;西漢姆=>zh-mo:韋斯咸;"
     },
     {
       "original": "Wigan Athletic",
       "conv": "zh-hans:维冈;zh-hk:韋根;zh-sg:威根;zh-tw:維根;"
-    },
-    {
-      "original": "Wolverhampton Wanderers",
-      "conv": "zh-cn:狼队; zh-tw:狼隊; zh-hk:狼隊;"
     },
     {
       "original": "Bramall Lane",
@@ -198,6 +238,10 @@
     {
       "original": "Highbury",
       "conv": "zh-cn:海布里;zh-hk:高貝利;zh-tw:海布里;"
+    },
+    {
+      "original": "Kenilworth Road",
+      "conv": "zh-hans:克尼尔沃思路;zh-hk:堅尼禾夫路;zh-tw:克尼爾沃思路;"
     },
     {
       "original": "Old Trafford",
@@ -218,6 +262,22 @@
     {
       "original": "White Hart Lane",
       "conv": "zh-cn:白鹿巷; zh-hk:白鹿徑; zh-tw:白鹿巷"
+    },
+    {
+      "original": "Anfield",
+      "conv": "zh-cn:安菲尔德; zh-tw:安菲爾德; zh-hk:晏菲路;"
+    },
+    {
+      "original": "Selhurst",
+      "conv": "zh-hans:塞尔赫斯特; zh-hk:施靴斯; zh-tw:塞爾赫斯特;"
+    },
+    {
+      "original": "Goodison",
+      "conv": "zh-hans:古迪逊; zh-hk:葛迪遜; zh-tw:古迪遜;"
+    },
+    {
+      "original": "Molineux",
+      "conv": "zh-hans:莫利纽克斯; zh-tw:莫利紐克斯; zh-hk:摩連納斯;"
     },
     {
       "original": "David Luiz",
@@ -245,7 +305,7 @@
     },
     {
       "original": "Alan Hansen",
-      "conv": "zh-cn:阿兰汉森; zh-hk:阿倫·漢臣;"
+      "conv": "zh-cn:阿兰·汉森; zh-hk:阿倫·漢臣;"
     },
     {
       "original": "Alan Shearer",
@@ -257,7 +317,7 @@
     },
     {
       "original": "Alex Young",
-      "conv": "zh-cn:亚历克斯·杨; zh-hk:阿歷斯·楊格;"
+      "conv": "zh-cn:亚历克斯·扬; zh-hk:阿歷斯·楊格;"
     },
     {
       "original": "Alf Ramsey",
@@ -274,6 +334,10 @@
     {
       "original": "Benjamin",
       "conv": "zh:本傑明; zh-cn:本杰明; zh-tw:班傑明; zh-hk:賓捷文;"
+    },
+    {
+      "original": "Ben White",
+      "conv": "zh-cn:本·怀特; zh-hk:賓·韋特; zh-tw:班·懷特;"
     },
     {
       "original": "Berbatov",
@@ -297,7 +361,7 @@
     },
     {
       "original": "Bobby Moore",
-      "conv": "zh-cn:博比·摩尔; zh-hk:波比·摩亞;"
+      "conv": "zh-cn:博比·摩尔; zh-hk:波比·摩亞; zh-tw:博比·摩爾;"
     },
     {
       "original": "Borges",
@@ -360,12 +424,24 @@
       "conv": "zh-cn:艾登·阿扎尔;zh-hk:伊登·夏薩特;zh-tw:伊甸·夏沙特;"
     },
     {
+      "original": "Eddie Nketiah",
+      "conv": "zh-hans:埃迪·恩凯蒂亚;zh-tw:埃迪·恩凱蒂亞;zh-hk:艾迪·尼基迪亞;"
+    },
+    {
+      "original": "Nketiah",
+      "conv": "zh-hans:恩凯蒂亚;zh-tw:恩凱蒂亞;zh-hk:尼基迪亞;"
+    },
+    {
       "original": "Edwin van der Sar",
       "conv": "zh-cn:埃德文·范德萨; zh-tw:埃德文·范德薩; zh-hk:埃德文·雲達沙;"
     },
     {
       "original": "Eric Cantona",
       "conv": "zh-cn:埃里克·坎通纳; zh-hk:艾力·簡東拿; zh-tw:埃里克·坎通納;"
+    },
+    {
+      "original": "Erling Haaland",
+      "conv": "zh-cn:埃尔林·哈兰德; zh-hk:艾寧·夏蘭特; zh-tw:厄林·哈蘭德;"
     },
     {
       "original": "Frank Lampard",
@@ -378,6 +454,10 @@
     {
       "original": "Frank Swift",
       "conv": "zh-cn:弗兰克·斯威夫特; zh-hk:法蘭·史惠夫;"
+    },
+    {
+      "original": "Gabriel",
+      "conv": "zh-cn:加布里埃尔; zh-tw:加布里埃爾; zh-hk:加比爾;"
     },
     {
       "original": "Gareth Bale",
@@ -428,8 +508,16 @@
       "conv": "zh-cn:伊恩·拉什; zh-hk:伊恩·魯殊;"
     },
     {
+      "original": "Jack Grealish",
+      "conv": "zh-cn:杰克·格拉利什; zh-hk:積·基亞利殊; zh-tw:傑克·格拉利許;"
+    },
+    {
       "original": "Jackie Milburn",
       "conv": "zh-cn:杰克·米尔伯恩; zh-hk:積奇·米爾般;"
+    },
+    {
+      "original": "Jakub Kiwior",
+      "conv": "zh-cn:雅各布·基维奥尔; zh-hk:積及·基域諾; zh-tw:雅各布·基維奧爾;"
     },
     {
       "original": "Javier",
@@ -464,6 +552,10 @@
       "conv": "zh-cn:胡安·马塔; zh-tw:胡安·馬塔; zh-hk:桑·馬達;"
     },
     {
+      "original": "Julián Álvarez",
+      "conv": "zh-cn:胡利安·阿尔瓦雷斯;zh-hk:祖利安·艾華利斯;zh-tw:朱利安·艾瓦雷茲;"
+    },
+    {
       "original": "Kenny Dalglish",
       "conv": "zh-cn:肯尼·达格利什; zh-hk:堅尼·杜格利殊;"
     },
@@ -472,12 +564,32 @@
       "conv": "zh-cn:凯文·基冈; zh-hk:奇雲·基謹;"
     },
     {
+      "original": "Kevin De Bruyne",
+      "conv": "zh-cn:凯文·德布劳内; zh-hk:奇雲·迪布尼; zh-tw:凱文·德布勞內;"
+    },
+    {
+      "original": "Kieran Tierney",
+      "conv": "zh-tw:蒂爾尼;zh-hk:泰亞尼;zh-hans:蒂尔尼;"
+    },
+    {
+      "original": "Kyle Walker",
+      "conv": "zh-cn:凯尔·沃克; zh-tw:凱爾·沃克; zh-hk:基爾·獲加;"
+    },
+    {
       "original": "Lampard",
       "conv": "zh-cn:兰帕德; zh-tw:蘭帕德; zh-hk:林柏特;"
     },
     {
+      "original": "Leandro Trossard",
+      "conv": "zh-cn:莱安德罗·特罗萨德; zh-tw:萊昂德羅·特羅薩德; zh-hk:李安度·托沙特;"
+    },
+    {
       "original": "Liam Brady",
       "conv": "zh-cn:里亚姆·布拉迪; zh-hk:林·柏拉迪;"
+    },
+    {
+      "original": "Magalhães",
+      "conv": "zh-cn:马加良斯; zh-tw:馬加良斯; zh-hk:馬加希斯;"
     },
     {
       "original": "Malcolm Macdonald",
@@ -486,10 +598,6 @@
     {
       "original": "Martin Peters",
       "conv": "zh-cn:马丁·彼得斯; zh-hk:馬田·彼得斯;"
-    },
-    {
-      "original": "Nani",
-      "conv": "zh-cn:纳尼; zh-tw:納尼; zh-hk:蘭尼;"
     },
     {
       "original": "Nasri",
@@ -514,6 +622,10 @@
     {
       "original": "Ossie Ardiles",
       "conv": "zh-cn:奥斯瓦尔多·阿迪莱斯; zh-hk:奧斯·雅迪尼斯;"
+    },
+    {
+      "original": "Ødegaard",
+      "conv": "zh-cn:厄德高; zh-tw:奧德加特; zh-hk:奧迪加特;"
     },
     {
       "original": "Pat Jennings",
@@ -548,6 +660,10 @@
       "conv": "zh-cn:雷·克莱门斯; zh-hk:雷·基文斯;"
     },
     {
+      "original": "Rob Holding",
+      "conv": "zh-cn:罗布·霍尔丁; zh-tw:羅伯·霍爾丁; zh-hk:洛·賀丁;"
+    },
+    {
       "original": "Robin van Persie",
       "conv": "zh-cn:罗宾·范佩西; zh-tw:羅賓·范佩西; zh-hk:羅賓·雲佩斯;"
     },
@@ -560,12 +676,28 @@
       "conv": "zh-cn:瑞恩·吉格斯; zh-tw:瑞恩·吉格斯; zh-hk:賴恩·傑斯;"
     },
     {
+      "original": "Saka",
+      "conv": "zh-cn:萨卡; zh-tw:薩卡; zh-hk:沙卡;"
+    },
+    {
+      "original": "Saliba",
+      "conv": "zh-cn:萨利巴; zh-tw:薩利巴; zh-hk:沙列巴;"
+    },
+    {
       "original": "Sergio",
       "conv": "zh-cn:塞尔希奥; zh-tw:塞爾希奧; zh-hk:沙治奧;"
     },
     {
       "original": "Silva",
       "conv": "zh-cn:席尔瓦; zh-tw:席爾瓦; zh-hk:施華;"
+    },
+    {
+      "original": "Smith Rowe",
+      "conv": "zh-cn:史密斯·罗; zh-tw:史密斯·羅維; zh-hk:史密夫·路維;"
+    },
+    {
+      "original": "Sneijder",
+      "conv": "zh-cn:斯内德;zh-hk:史奈達;zh-tw:斯奈德;zh-mo:史奈達;"
     },
     {
       "original": "Sol Campbell",
@@ -580,6 +712,10 @@
       "conv": "zh-cn:史蒂夫·布卢默; zh-hk:史提夫·般馬;"
     },
     {
+      "original": "Stones",
+      "conv": "zh-cn:斯通斯; zh-hk:史東斯; zh-tw:斯通斯;"
+    },
+    {
       "original": "Terry Paine",
       "conv": "zh-cn:特里·佩因; zh-hk:泰利·披尼;"
     },
@@ -588,12 +724,24 @@
       "conv": "zh-cn:蒂博·库尔图瓦; zh-hk:泰拔·高圖爾斯;zh-tw:蒂博·庫爾圖瓦"
     },
     {
+      "original": "Timber",
+      "conv": "zh-hans:廷贝尔;zh-tw:廷伯;zh-hk:添巴;"
+    },
+    {
+      "original": "Jurriën Timber",
+      "conv": "zh-hans:尤里恩·廷贝尔;zh-tw:尤里安·廷伯;zh-hk:祖利安·添巴;"
+    },
+    {
       "original": "Tim Howard",
       "conv": "zh-cn:蒂姆·霍华德;zh-hk:添·侯活;zh-tw:提姆·霍華德;"
     },
     {
       "original": "Tom Finney",
       "conv": "zh-cn:汤姆·芬尼; zh-hk:湯·芬尼;"
+    },
+    {
+      "original": "Thomas Partey",
+      "conv": "zh-cn:托马斯·帕尔特伊; zh-hk:湯馬士·柏迪; zh-tw:湯瑪斯·帕爾特伊;"
     },
     {
       "original": "Tommy Smith",
@@ -612,6 +760,10 @@
       "conv": "zh-cn:特雷弗·弗朗西斯; zh-hk:杜利華·法蘭西斯;"
     },
     {
+      "original": "Vieira",
+      "conv": "zh-cn:维埃拉; zh-tw:維埃拉; zh-hk:維亞拿;"
+    },
+    {
       "original": "van der Sar",
       "conv": "zh-cn:范德萨; zh-tw:范德薩; zh-hk:雲達沙;"
     },
@@ -626,10 +778,6 @@
     {
       "original": "Yaya Touré",
       "conv": "zh-cn:亚亚·图雷; zh-tw:亞亞·圖雷; zh-hk:耶耶·托尼;"
-    },
-    {
-      "original": "Sneijder",
-      "conv": "zh-cn:斯内德;zh-hk:史奈達;zh-tw:斯奈德;zh-mo:史奈達;"
     },
     {
       "original": "Alex Ferguson",
@@ -682,6 +830,10 @@
     {
       "original": "Hodgson",
       "conv": "zh-cn:霍奇森; zh-tw:霍奇森; zh-hk:鶴臣;"
+    },
+    {
+      "original": "Eddie Howe",
+      "conv": "zh-hans:埃迪·豪;zh-tw:埃迪·霍維;zh-hk:艾迪·賀維;"
     },
     {
       "original": "Ian Holloway",

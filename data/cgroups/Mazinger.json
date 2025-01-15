@@ -28,12 +28,16 @@
       "conv": "zh:真魔神 衝擊！Z篇;zh-hans:真魔神 冲击！Z篇;zh-tw:真無敵鐵金剛 衝擊！Z篇;zh-hk:真鐵甲萬能俠 衝擊！Z編;"
     },
     {
-      "original": "真マジンガーZERO",
-      "conv": "zh-hans:真魔神ZERO;zh-tw:真無敵鐵金剛ZERO;zh-hk:真鐵甲萬能俠ZERO;"
+      "original": "マジンガーZERO",
+      "conv": "zh-hans:魔神ZERO;zh-tw:無敵鐵金剛ZERO;zh-hk:鐵甲萬能俠ZERO;"
     },
     {
       "original": "マジンガーZ / INFINITY",
       "conv": "zh-hans:魔神Z / INFINITY;zh-tw:無敵鐵金剛 / INFINITY;zh-hk:鐵甲萬能俠：決戰魔神;"
+    },
+    {
+      "original": "グレンダイザーU",
+      "conv": "zh-hans:古连泰沙U;zh-tw:金剛戰神U;zh-hk:巨靈神U;"
     },
     {
       "original": "マジンガーサーガ",
@@ -98,6 +102,10 @@
     {
       "original": "ゴーゴン",
       "conv": "zh-hans:哥隆;zh-tw:哥隆;zh-hk:戈耳工;"
+    },
+    {
+      "original": "フリード",
+      "conv": "zh-hans:弗瑞德;zh-tw:弗瑞德;zh-hk:弗蕾特;"
     },
     {
       "original": "恐星大王ベガ",
@@ -165,7 +173,11 @@
     },
     {
       "original": "グレンダイザー",
-      "conv": "zh-hans:古连泰沙;zh-tw:克雷飛天神;zh-hk:巨靈神;"
+      "conv": "克雷飛天神=>zh-hans:古连泰沙;克雷飛天神=>zh-cn:古连泰沙;克雷飛天神=>zh-tw:克雷飛天神;克雷飛天神=>zh-hk:巨靈神;"
+    },
+    {
+      "original": "グレンダイザー",
+      "conv": "古连泰沙=>zh-hans:古连泰沙;古连泰沙=>zh-tw:克雷飛天神;古连泰沙=>zh-hk:巨靈神;"
     },
     {
       "original": "ダブルスペイザー",
@@ -182,10 +194,6 @@
     {
       "original": "エネルガーZ",
       "conv": "zh-cn:ENERGER Z;zh-tw:能量鐵金剛Z;zh-hk:萬能鐵俠Z;"
-    },
-    {
-      "original": "マジンガーZERO",
-      "conv": "zh-hans:魔神ZERO;zh-tw:無敵鐵金剛ZERO;zh-hk:鐵甲萬能俠ZERO;"
     },
     {
       "original": "マジンエンペラーG",
@@ -306,10 +314,6 @@
     {
       "original": "スクリュークラッシャーパンチ",
       "conv": "zh-hans:鋼爪飞拳;zh-tw:螺旋粉碎飛拳;zh-hk:鋼爪飛拳;"
-    },
-    {
-      "original": "グレン",
-      "conv": "zh-hans:古连;zh-tw:克雷;zh-hk:巨靈;"
     },
     {
       "original": "カイザーパイルダー",

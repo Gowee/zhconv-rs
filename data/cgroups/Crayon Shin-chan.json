@@ -1,0 +1,43 @@
+{
+  "name": "Crayon Shin-chan",
+  "description": "蠟筆小新",
+  "path": "Module:CGroup/Crayon Shin-chan",
+  "rules": [
+    {
+      "original": "爆睡!ユメミーワールド大突撃",
+      "conv": "zh-hk:\t瞓啦！早唞早著夢作戰;zh-tw:爆睡！夢世界大作戰"
+    },
+    {
+      "original": "キネ",
+      "conv": "zh-hk:莉莉;zh-tw:霓霓;zh-cn:霓霓"
+    },
+    {
+      "original": "ブーちゃん",
+      "conv": "zh-hk:阿凱;zh-tw:阿袋;zh-cn:阿袋"
+    },
+    {
+      "original": "あくの博士",
+      "conv": "zh-hk:惡野博士;zh-tw:斜二博士;zh-cn:斜二博士"
+    },
+    {
+      "original": "ひのやまヨヨコ",
+      "conv": "zh-hk:檜山羅羅子;zh-tw:火山良良子;zh-cn:火山良良子"
+    },
+    {
+      "original": "ひのやまララコ",
+      "conv": "zh-hk:檜山代代子;zh-tw:火山代代子;zh-cn:火山代代子"
+    },
+    {
+      "original": "キャップ",
+      "conv": "zh-hk:檜山守;zh-tw:火山守;zh-cn:火山守"
+    },
+    {
+      "original": "青山はた",
+      "conv": "zh-hk:青山織;zh-tw:青山綺;zh-cn:青山绮"
+    },
+    {
+      "original": "おわらない",
+      "conv": "zh-tw:永不結束的;zh-cn:没有终点的"
+    }
+  ]
+}

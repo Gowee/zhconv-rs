@@ -1,4 +1,4 @@
-import { forwardRef, ForwardedRef, useState, useEffect } from "react";
+import { forwardRef, ForwardedRef, useState, useEffect, useRef } from "react";
 
 // import { withStyles, Theme, makeStyles } from "@material-ui/core/styles";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -34,6 +34,8 @@ function OptionsControl(
   },
   ref: ForwardedRef<any>
 ) {
+  const convertButtonRef = useRef(null as any);
+  const isMounting = useRef(true);
   const [cgroups, setCGroups] = useState({} as { [name: string]: string });
   const [activatedCGroups, setActivatedCGroups] = useState(() => {
     return JSON.parse(
@@ -53,12 +55,21 @@ function OptionsControl(
     loadCGroups();
   }, []);
   useEffect(() => {
+    if (isMounting.current) {
+      isMounting.current = false;
+      return;
+    }
     const s = JSON.stringify(activatedCGroups);
     localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
   }, [activatedCGroups]);
   useEffect(() => {
+    if (isMounting.current) {
+      // isMounting.current = false;
+      return;
+    }
     const s = JSON.stringify(parsingInline);
     localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
+    convertButtonRef.current?.click();
   }, [parsingInline]);
   return (
     <Grid container direction="row" justifyContent="space-around">
@@ -82,8 +93,9 @@ function OptionsControl(
             <Tooltip
               title={
                 <>
-                  Parse MediaWiki conversion rules in the text
-                  <br />/ 解析文本中的 MediaWiki 轉換規則
+                  Parse and apply inline rules in MediaWiki LanguageConverter
+                  syntax
+                  <br />/ 解析並應用文本中的 MediaWiki 語言轉換規則
                 </>
               }
             >
@@ -102,8 +114,7 @@ function OptionsControl(
                     flexDirection="column"
                     alignItems="center"
                   >
-                    <span>Inline Rules</span>
-                    <span>文內規則</span>
+                    <span>Wikitext</span>
                   </Box>
                 }
               />
@@ -111,6 +122,7 @@ function OptionsControl(
           </Grid>
           <Grid item>
             <ConvertButton
+              ref={convertButtonRef}
               onConvert={(target) =>
                 handleConvert(
                   target,

@@ -1,0 +1,407 @@
+{
+  "name": "Mahjong",
+  "description": "麻將",
+  "path": "Module:CGroup/Mahjong",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:麻將;zh-cn:麻将;zh-tw:麻將;zh-hk:麻雀;zh-mo:麻雀;zh-sg:麻将;"
+    },
+    {
+      "original": null,
+      "conv": "zh:數字牌;zh-cn:数字牌;zh-tw:序數牌;zh-hk:數字牌;zh-mo:數字牌;zh-sg:序数牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:筒;zh-cn:饼;zh-tw:筒;zh-hk:筒;zh-mo:筒;zh-sg:筒;"
+    },
+    {
+      "original": null,
+      "conv": "餅=>zh:筒;餅=>zh-cn:饼;餅=>zh-tw:筒;餅=>zh-hk:筒;餅=>zh-mo:筒;餅=>zh-sg:筒;"
+    },
+    {
+      "original": null,
+      "conv": "zh:筒子;zh-cn:饼子;zh-tw:筒子;zh-hk:筒子;zh-mo:筒子;zh-sg:筒子;"
+    },
+    {
+      "original": null,
+      "conv": "餅子=>zh:筒子;餅子=>zh-cn:饼子;餅子=>zh-tw:筒子;餅子=>zh-hk:筒子;餅子=>zh-mo:筒子;餅子=>zh-sg:筒子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:索;zh-cn:条;zh-tw:條;zh-hk:索;zh-mo:索;zh-sg:条;"
+    },
+    {
+      "original": null,
+      "conv": "zh:索子;zh-cn:条子;zh-tw:條子;zh-hk:索子;zh-mo:索子;zh-sg:条子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:萬;zh-cn:万;zh-tw:萬;zh-hk:萬;zh-mo:萬;zh-sg:万;"
+    },
+    {
+      "original": null,
+      "conv": "zh:萬子;zh-cn:万子;zh-tw:萬子;zh-hk:萬子;zh-mo:萬子;zh-sg:万子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:字牌;zh-cn:字牌;zh-tw:字牌;zh-hk:番子;zh-mo:番子;zh-sg:字牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:幺;zh-cn:幺;zh-tw:么;zh-hk:幺;zh-mo:幺;zh-sg:幺;"
+    },
+    {
+      "original": null,
+      "conv": "zh:幺九;zh-cn:幺九;zh-tw:么九;zh-hk:幺九;zh-mo:幺九;zh-sg:幺九;"
+    },
+    {
+      "original": null,
+      "conv": "zh:幺雞;zh-cn:幺鸡;zh-tw:么鳳;zh-hk:雀仔;zh-mo:雀仔;zh-sg:小鸟;"
+    },
+    {
+      "original": null,
+      "conv": "zh:對子;zh-cn:将;zh-tw:將;zh-hk:眼;zh-mo:眼;zh-sg:对子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:將眼;zh-cn:将眼;zh-tw:將眼;zh-hk:將眼;zh-mo:將眼;zh-sg:将眼;"
+    },
+    {
+      "original": null,
+      "conv": "zh:刻子;zh-cn:刻子;zh-tw:刻子;zh-hk:刻子;zh-mo:刻子;zh-sg:刻子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:順子;zh-cn:顺子;zh-tw:順子;zh-hk:順子;zh-mo:順子;zh-sg:顺子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:面子;zh-cn:面子;zh-tw:面子;zh-hk:面子;zh-mo:面子;zh-sg:面子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:搭子;zh-cn:搭子;zh-tw:搭子;zh-hk:搭子;zh-mo:搭子;zh-sg:搭子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:寶牌;zh-cn:宝牌;zh-tw:加分牌;zh-hk:懸賞牌;zh-mo:懸賞牌;zh-sg:宝牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:表示牌;zh-cn:指示牌;zh-tw:指示牌;zh-hk:指示牌;zh-mo:指示牌;zh-sg:表示牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:莊家;zh-cn:庄家;zh-tw:莊家;zh-hk:莊家;zh-mo:莊家;zh-sg:庄家;"
+    },
+    {
+      "original": null,
+      "conv": "zh:連莊;zh-cn:连庄;zh-tw:連莊;zh-hk:冧莊;zh-mo:冧莊;zh-sg:连庄;"
+    },
+    {
+      "original": null,
+      "conv": "zh:過莊;zh-cn:过庄;zh-tw:過莊;zh-hk:過莊;zh-mo:過莊;zh-sg:过庄;"
+    },
+    {
+      "original": null,
+      "conv": "zh:閒家;zh-cn:闲家;zh-tw:閒家;zh-hk:閒家;zh-mo:閒家;zh-sg:闲家;"
+    },
+    {
+      "original": null,
+      "conv": "zh:出牌;zh-cn:出牌;zh-tw:出牌;zh-hk:打牌;zh-mo:打牌;zh-sg:出牌;"
+    },
+    {
+      "original": null,
+      "conv": "荒牌=>zh:流局;荒牌=>zh-cn:流局;荒牌=>zh-tw:流局;荒牌=>zh-hk:流局;荒牌=>zh-mo:流局;荒牌=>zh-sg:和局;"
+    },
+    {
+      "original": null,
+      "conv": "zh:吃牌;zh-cn:吃牌;zh-tw:吃牌;zh-hk:上牌;zh-mo:上牌;zh-sg:吃牌;"
+    },
+    {
+      "original": null,
+      "conv": "吃=>zh:吃;吃=>zh-cn:吃;吃=>zh-tw:吃;吃=>zh-hk:上;吃=>zh-mo:上;吃=>zh-sg:吃;"
+    },
+    {
+      "original": null,
+      "conv": "zh:槓牌;zh-cn:杠牌;zh-tw:槓牌;zh-hk:槓牌;zh-mo:槓牌;zh-sg:杠牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:聽牌;zh-cn:听牌;zh-tw:聽牌;zh-hk:叫糊;zh-mo:叫糊;zh-sg:听牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:一面聽;zh-cn:一面听;zh-tw:一面聽;zh-hk:叫一扉;zh-mo:叫一扉;zh-sg:一面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:二面聽;zh-cn:两面听;zh-tw:兩面聽;zh-hk:叫兩扉;zh-mo:叫兩扉;zh-sg:二面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:三面聽;zh-cn:三面听;zh-tw:三面聽;zh-hk:叫三扉;zh-mo:叫三扉;zh-sg:三面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:四面聽;zh-cn:四面听;zh-tw:四面聽;zh-hk:叫四扉;zh-mo:叫四扉;zh-sg:面四听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:五面聽;zh-cn:五面听;zh-tw:五面聽;zh-hk:叫五扉;zh-mo:叫五扉;zh-sg:五面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:六面聽;zh-cn:六面听;zh-tw:六面聽;zh-hk:叫六扉;zh-mo:叫六扉;zh-sg:六面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:七面聽;zh-cn:七面听;zh-tw:七面聽;zh-hk:叫七扉;zh-mo:叫七扉;zh-sg:七面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:八面聽;zh-cn:八面听;zh-tw:八面聽;zh-hk:叫八扉;zh-mo:叫八扉;zh-sg:八面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:九面聽;zh-cn:九面听;zh-tw:九面聽;zh-hk:叫九扉;zh-mo:叫九扉;zh-sg:九面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:十三面聽;zh-cn:十三面听;zh-tw:十三面聽;zh-hk:叫十三扉;zh-mo:叫十三扉;zh-sg:十三面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:二十二面聽;zh-cn:二十二面听;zh-tw:二十二面聽;zh-hk:叫二十二扉;zh-mo:叫二十二扉;zh-sg:二十二面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:三十四面聽;zh-cn:三十四面听;zh-tw:三十四面聽;zh-hk:叫三十四扉;zh-mo:叫三十四扉;zh-sg:三十四面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:幾面聽;zh-cn:多面听;zh-tw:多面聽;zh-hk:叫幾扉;zh-mo:叫幾扉;zh-sg:几面听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:嵌張聽;zh-cn:嵌张听;zh-tw:嵌張聽;zh-hk:叫卡窿;zh-mo:叫卡窿;zh-sg:嵌张听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:邊張聽;zh-cn:边张听;zh-tw:邊獨聽;zh-hk:叫偏張;zh-mo:叫偏張;zh-sg:边独听;"
+    },
+    {
+      "original": null,
+      "conv": "偏張聽=>zh:邊張聽;偏張聽=>zh-cn:边张听;偏張聽=>zh-tw:邊獨聽;偏張聽=>zh-hk:叫偏張;偏張聽=>zh-mo:叫偏張;偏張聽=>zh-sg:边独听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:雙碰聽;zh-cn:双碰听;zh-tw:雙碰聽;zh-hk:叫雙碰;zh-mo:叫雙碰;zh-sg:双碰听;"
+    },
+    {
+      "original": null,
+      "conv": "zh:起糊;zh-cn:起和;zh-tw:起胡;zh-hk:起糊;zh-mo:起糊;zh-sg:起和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:糊牌;zh-cn:和牌;zh-tw:胡牌;zh-hk:食糊;zh-mo:食糊;zh-sg:胡牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:攔糊;zh-cn:抢和;zh-tw:攔胡;zh-hk:截糊;zh-mo:截糊;zh-sg:拦胡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:放槍;zh-cn:放炮;zh-tw:放銃;zh-hk:出銃;zh-mo:出冲;zh-sg:放铳;"
+    },
+    {
+      "original": null,
+      "conv": "放枪=>zh:放槍;放枪=>zh-cn:放炮;放枪=>zh-tw:放銃;放枪=>zh-hk:出銃;放枪=>zh-mo:出冲;放枪=>zh-sg:放铳;"
+    },
+    {
+      "original": null,
+      "conv": "出銃=>zh:放槍;出銃=>zh-cn:放炮;出銃=>zh-tw:放銃;出銃=>zh-hk:出銃;出銃=>zh-mo:出冲;出銃=>zh-sg:放铳;"
+    },
+    {
+      "original": null,
+      "conv": "出铳=>zh:放槍;出铳=>zh-cn:放炮;出铳=>zh-tw:放銃;出铳=>zh-hk:出銃;出铳=>zh-mo:出冲;出铳=>zh-sg:放铳;"
+    },
+    {
+      "original": null,
+      "conv": "zh:糊了;zh-cn:和了;zh-tw:胡了;zh-hk:食了糊;zh-mo:食了糊;zh-sg:胡了;"
+    },
+    {
+      "original": null,
+      "conv": "zh:銃糊;zh-cn:点和;zh-tw:銃胡;zh-hk:衝糊;zh-mo:衝糊;zh-sg:铳胡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:攏糊;zh-cn:荣和;zh-tw:榮胡;zh-hk:榮糊;zh-mo:榮糊;zh-sg:拢胡;"
+    },
+    {
+      "original": null,
+      "conv": "榮和=>zh:攏糊;榮和=>zh-cn:荣和;榮和=>zh-tw:榮胡;榮和=>zh-hk:榮糊;榮和=>zh-mo:榮糊;榮和=>zh-sg:拢胡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:自摸糊;zh-cn:自摸和;zh-tw:自摸胡;zh-hk:自摸糊;zh-mo:自摸糊;zh-sg:自摸胡;"
+    },
+    {
+      "original": null,
+      "conv": "zh:天糊;zh-cn:天和;zh-tw:天胡;zh-hk:天糊;zh-mo:天糊;zh-sg:天和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:地糊;zh-cn:地和;zh-tw:地胡;zh-hk:地糊;zh-mo:地糊;zh-sg:地和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:人糊;zh-cn:人和;zh-tw:人胡;zh-hk:人糊;zh-mo:人糊;zh-sg:人和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:平糊;zh-cn:平和;zh-tw:平胡;zh-hk:平糊;zh-mo:平糊;zh-sg:平和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:屁糊;zh-cn:小和;zh-tw:屁胡;zh-hk:雞糊;zh-mo:雞糊;zh-sg:屁和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:詐糊;zh-cn:诈和;zh-tw:詐胡;zh-hk:詐糊;zh-mo:詐糊;zh-sg:诈和;"
+    },
+    {
+      "original": null,
+      "conv": "詐和=>zh:詐糊;詐和=>zh-cn:诈和;詐和=>zh-tw:詐胡;詐和=>zh-hk:詐糊;詐和=>zh-mo:詐糊;詐和=>zh-sg:诈和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:錯糊;zh-cn:错和;zh-tw:錯胡;zh-hk:錯糊;zh-mo:錯糊;zh-sg:错和;"
+    },
+    {
+      "original": null,
+      "conv": "錯和=>zh:錯糊;錯和=>zh-cn:错和;錯和=>zh-tw:錯胡;錯和=>zh-hk:錯糊;錯和=>zh-mo:錯糊;錯和=>zh-sg:错和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:花糊;zh-cn:花和;zh-tw:花胡;zh-hk:花糊;zh-mo:花糊;zh-sg:花和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:棄糊;zh-cn:弃和;zh-tw:棄胡;zh-hk:棄糊;zh-mo:棄糊;zh-sg:弃和;"
+    },
+    {
+      "original": null,
+      "conv": "棄和=>zh:棄糊;棄和=>zh-cn:弃和;棄和=>zh-tw:棄胡;棄和=>zh-hk:棄糊;棄和=>zh-mo:棄糊;棄和=>zh-sg:弃和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:中洞;zh-cn:嵌张;zh-tw:中洞;zh-hk:卡窿;zh-mo:卡窿;zh-sg:中洞;"
+    },
+    {
+      "original": null,
+      "conv": "卡洞=>zh:中洞;卡洞=>zh-cn:嵌张;卡洞=>zh-tw:中洞;卡洞=>zh-hk:卡窿;卡洞=>zh-mo:卡窿;卡洞=>zh-sg:中洞;"
+    },
+    {
+      "original": null,
+      "conv": "嵌張=>zh:中洞;嵌張=>zh-cn:嵌张;嵌張=>zh-tw:中洞;嵌張=>zh-hk:卡窿;嵌張=>zh-mo:卡窿;嵌張=>zh-sg:中洞;"
+    },
+    {
+      "original": null,
+      "conv": "zh:邊張;zh-cn:边张;zh-tw:邊獨;zh-hk:偏張;zh-mo:偏張;zh-sg:边独;"
+    },
+    {
+      "original": null,
+      "conv": "zh:單釣;zh-cn:单钓;zh-tw:單騎;zh-hk:單吊;zh-mo:單吊;zh-sg:单骑;"
+    },
+    {
+      "original": null,
+      "conv": "zh:番;zh-cn:番;zh-tw:台;zh-hk:番;zh-mo:番;zh-sg:番;"
+    },
+    {
+      "original": null,
+      "conv": "zh:番種;zh-cn:番种;zh-tw:台種;zh-hk:番種;zh-mo:番種;zh-sg:番种;"
+    },
+    {
+      "original": null,
+      "conv": "zh:番數;zh-cn:番数;zh-tw:台數;zh-hk:番數;zh-mo:番數;zh-sg:番数;"
+    },
+    {
+      "original": null,
+      "conv": "zh:一枱花;zh-cn:一台花;zh-tw:一臺花;zh-hk:一臺花;zh-mo:一檯花;zh-sg:一台花;"
+    },
+    {
+      "original": null,
+      "conv": "zh:兩枱花;zh-cn:两台花;zh-tw:兩臺花;zh-hk:兩臺花;zh-mo:兩檯花;zh-sg:兩台花;"
+    },
+    {
+      "original": null,
+      "conv": "zh:枱花;zh-cn:台花;zh-tw:臺花;zh-hk:臺花;zh-mo:檯花;zh-sg:台花;"
+    },
+    {
+      "original": null,
+      "conv": "zh:嶺上;zh-cn:岭上;zh-tw:嶺上;zh-hk:嶺上;zh-mo:嶺上;zh-sg:嶺上;"
+    },
+    {
+      "original": null,
+      "conv": "zh:對對糊;zh-cn:对对和;zh-tw:對對胡;zh-hk:對對糊;zh-mo:對對糊;zh-sg:对对和;"
+    },
+    {
+      "original": null,
+      "conv": "對對和=>zh:對對糊;對對和=>zh-cn:对对和;對對和=>zh-tw:對對胡;對對和=>zh-hk:對對糊;對對和=>zh-mo:對對糊;對對和=>zh-sg:对对和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:七對子;zh-cn:七对子;zh-tw:七對子;zh-hk:七對子;zh-mo:七對子;zh-sg:七对子;"
+    },
+    {
+      "original": null,
+      "conv": "zh:一條龍;zh-cn:一条龙;zh-tw:一條龍;zh-hk:一條龍;zh-mo:一條龍;zh-sg:一条龙;"
+    },
+    {
+      "original": null,
+      "conv": "zh:盃口;zh-cn:盃口;zh-tw:盃口;zh-hk:盃口;zh-mo:盃口;zh-sg:杯口;"
+    },
+    {
+      "original": null,
+      "conv": "zh:五族共和;zh-cn:五族共和;zh-tw:五族共和;zh-hk:五族共和;zh-mo:五族共和;zh-sg:五族共和;"
+    },
+    {
+      "original": null,
+      "conv": "zh:馬將;zh-cn:马将;zh-tw:馬將;zh-hk:馬將;zh-mo:馬將;zh-sg:马将;"
+    },
+    {
+      "original": null,
+      "conv": "zh:花將;zh-cn:花将;zh-tw:花將;zh-hk:花將;zh-mo:花將;zh-sg:花将;"
+    },
+    {
+      "original": null,
+      "conv": "zh:台湾;zh-cn:台湾;zh-tw:臺灣;zh-hk:臺灣;zh-mo:台灣;zh-sg:台湾;"
+    },
+    {
+      "original": null,
+      "conv": "zh:撲克牌;zh-cn:扑克牌;zh-tw:撲克牌;zh-hk:啤牌;zh-mo:啤牌;zh-sg:扑克牌;"
+    },
+    {
+      "original": null,
+      "conv": "zh:撲克;zh-cn:扑克;zh-tw:撲克;zh-hk:啤;zh-mo:啤;zh-sg:扑克;"
+    },
+    {
+      "original": null,
+      "conv": "zh:司徒活;zh-cn:史都华;zh-tw:史都華;zh-hk:史超域;zh-mo:史超域;zh-sg:史都华;"
+    },
+    {
+      "original": null,
+      "conv": "zh:古林;zh-cn:克林;zh-tw:庫林;zh-hk:古連;zh-mo:古連;zh-sg:库林;"
+    },
+    {
+      "original": null,
+      "conv": "zh:布魯克林;zh-cn:布鲁克林;zh-tw:布魯克林;zh-hk:布魯克林;zh-mo:布魯克林;zh-sg:布鲁克林;"
+    },
+    {
+      "original": null,
+      "conv": "zh:條目;zh-cn:条目;zh-tw:條目;zh-hk:條目;zh-mo:條目;zh-sg:条目;"
+    }
+  ]
+}

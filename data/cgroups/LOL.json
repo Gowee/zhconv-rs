@@ -12,7 +12,7 @@
       "conv": "zh-cn:点券; zh-tw:聯盟幣; zh-sg:联盟币;"
     },
     {
-      "original": "",
+      "original": "Queue",
       "conv": "zh-cn:匹配; zh-tw:配對;"
     },
     {
@@ -29,15 +29,19 @@
     },
     {
       "original": "",
-      "conv": "zh-tw:審判系統;zh-cn:裁决之镰;"
+      "conv": "zh-cn:裁决之镰; zh-tw:審判系統;"
+    },
+    {
+      "original": "Skin",
+      "conv": "zh-cn:皮肤; zh-tw:造型; zh-sg:造型; zh-my:造型;"
     },
     {
       "original": "",
-      "conv": "zh-cn:战区系统;zh-tw:聯盟系統;"
+      "conv": "zh-cn:战区系统; zh-tw:聯盟系統;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:段位;zh-tw:階級;"
+      "original": "Tier",
+      "conv": "zh-cn:段位; zh-tw:階級;"
     },
     {
       "original": "Bronze",
@@ -64,11 +68,11 @@
       "conv": "超凡大师=>zh-tw:大師; 超凡大师=>zh-hk:大師; 超凡大师=>zh-mo:大師; 超凡大师=>zh-sg:大师;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:最强王者;zh-tw:菁英;zh-sg:菁英;"
+      "original": "Challenger",
+      "conv": "zh-cn:最强王者; zh-tw:菁英; zh-sg:菁英;"
     },
     {
-      "original": "",
+      "original": "Summoner's Rift",
       "conv": "zh-cn:召唤师峡谷; zh-tw:召喚峽谷; zh-sg:召唤峡谷"
     },
     {
@@ -132,6 +136,14 @@
       "conv": "zh-cn:克隆大作战; zh-tw:無限死鬥; zh-sg:无限死斗; zh-my:无限死斗;"
     },
     {
+      "original": "",
+      "conv": "zh-cn:克隆大作战：镜像模式; zh-tw:無限死鬥：鏡像對決;"
+    },
+    {
+      "original": "Hexakill",
+      "conv": "zh-cn:六杀争夺战; zh-tw:六連殺;"
+    },
+    {
       "original": "Ultra Rapid Fire",
       "conv": "zh-cn:无限火力; zh-tw:阿福快打; zh-sg:阿福快打; zh-my:阿福快打;"
     },
@@ -145,7 +157,7 @@
     },
     {
       "original": "",
-      "conv": "zh-cn:飞升模式; zh-tw:霸權爭奪;"
+      "conv": "zh-cn:飞升争夺战; zh-tw:霸權爭奪;"
     },
     {
       "original": "Legend of the Poro King",
@@ -180,6 +192,10 @@
       "conv": "zh-cn:终极魔典; zh-tw:終極法書; zh-sg:终极法书; zh-my:终极法书;"
     },
     {
+      "original": "Swarm",
+      "conv": "zh-cn:无尽狂潮; zh-tw:魔獸成群; zh-sg:激流狂潮; zh-my:激流狂潮;"
+    },
+    {
       "original": "Nexus",
       "conv": "zh-cn:水晶枢纽; zh-tw:主堡;"
     },
@@ -198,6 +214,10 @@
     {
       "original": "The Rift Herald",
       "conv": "zh-cn:峡谷先锋; zh-tw:預示者; zh-sg:峡谷预示者;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:巨龙; zh-tw:飛龍;"
     },
     {
       "original": "Runeterra",
@@ -400,10 +420,6 @@
       "conv": "zh-cn:德莱文; zh-tw:達瑞文; zh-sg:达瑞文;"
     },
     {
-      "original": "Evelynn",
-      "conv": "zh-cn:伊芙琳; zh-tw:伊芙琳; zh-sg:伊夫林;"
-    },
-    {
       "original": "Fiora",
       "conv": "zh-cn:菲奥娜; zh-tw:菲歐拉;"
     },
@@ -434,6 +450,10 @@
     {
       "original": "Heimerdinger",
       "conv": "zh-cn:黑默丁格; zh-tw:漢默丁格; zh-sg:汉默丁格;"
+    },
+    {
+      "original": "Hwei",
+      "conv": "赫威=>zh-cn:彗; 赫威=>zh-sg:慧; 赫威=>zh-my:慧;"
     },
     {
       "original": "Illaoi",
@@ -490,14 +510,6 @@
     {
       "original": "Kindred",
       "conv": "zh-cn:千珏; zh-tw:鏡爪;"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:羊灵; zh-tw:神羊;"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:狼灵; zh-tw:魔狼;"
     },
     {
       "original": "Kogmaw",
@@ -608,8 +620,8 @@
       "conv": "zh-cn:萨勒芬妮; zh-tw:瑟菈紛; zh-sg:瑟菈纷; zh-my:瑟菈纷;"
     },
     {
-      "original": "Singed",
-      "conv": "zh-cn:辛吉德; zh-tw:辛吉德; zh-sg:辛基德;"
+      "original": "Sett",
+      "conv": "zh-cn:瑟提;zh-tw:賽特;"
     },
     {
       "original": "Skarner",
@@ -622,6 +634,10 @@
     {
       "original": "Swain",
       "conv": "zh-cn:斯维因; zh-tw:斯溫; zh-sg:斯温;"
+    },
+    {
+      "original": "Sylas",
+      "conv": "zh-cn:塞拉斯;zh-tw:賽勒斯;"
     },
     {
       "original": "Syndra",
@@ -664,6 +680,10 @@
       "conv": "zh-cn:维克兹; zh-tw:威寇茲;"
     },
     {
+      "original": "Viktor",
+      "conv": "zh-cn:维克托;zh-tw:維克特;"
+    },
+    {
       "original": "Warwick",
       "conv": "zh-cn:沃里克; zh-tw:沃維克; zh-sg:沃维克;"
     },
@@ -678,6 +698,10 @@
     {
       "original": "Yasuo",
       "conv": "zh-cn:亚索; zh-tw:犽宿;"
+    },
+    {
+      "original": "Yone",
+      "conv": "zh-cn:永恩;zh-tw:犽凝"
     },
     {
       "original": "Yorick",
@@ -702,6 +726,18 @@
     {
       "original": "Zyra",
       "conv": "zh-cn:婕拉; zh-tw:枷蘿; zh-sg:枷萝;"
+    },
+    {
+      "original": "Lamb",
+      "conv": "zh-cn:羊灵; zh-tw:神羊;"
+    },
+    {
+      "original": "Poro",
+      "conv": "zh-cn:魄罗; zh-tw:普羅;"
+    },
+    {
+      "original": "Wolf",
+      "conv": "zh-cn:狼灵; zh-tw:魔狼;"
     },
     {
       "original": "Blitzcrank's Poro Roundup",

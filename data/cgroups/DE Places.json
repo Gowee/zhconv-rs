@@ -36,6 +36,10 @@
       "conv": "zh-hans:荷尔斯泰因;zh-hk:荷爾斯泰因;zh-tw:霍爾斯坦;"
     },
     {
+      "original": "Mecklenburg",
+      "conv": "zh-hans:梅克伦堡;zh-tw:麥克倫堡;"
+    },
+    {
       "original": "Neumarkt",
       "conv": "zh-hans:诺伊马克特;zh-hant:諾伊馬克特;zh-hk:紐馬赫;zh-mo:紐馬赫;zh-tw:諾伊馬克特;zh-cn:诺伊马克特;"
     },
@@ -45,11 +49,11 @@
     },
     {
       "original": "Rheinland-Pfalz",
-      "conv": "zh-hans:莱茵兰-普法尔茨;zh-hant:萊茵-普法茲;zh-hk:萊茵蘭-普法茨;zh-tw:萊茵-法爾茲;"
+      "conv": "zh-hans:莱茵兰-普法尔茨;zh-hant:萊茵-普法茲;zh-hk:萊茵蘭-普法茨;zh-tw:萊因蘭-法爾茲;"
     },
     {
       "original": "Rheinland-Pfalz（另一种连词符）",
-      "conv": "zh-hans:莱茵兰－普法尔茨;zh-hant:萊茵蘭－普法茲;zh-hk:萊茵蘭－普法茨;zh-tw:萊茵-法爾茲;"
+      "conv": "zh-hans:莱茵兰－普法尔茨;zh-hant:萊茵蘭－普法茲;zh-hk:萊茵蘭－普法茨;zh-tw:萊因蘭-法爾茲;"
     },
     {
       "original": "Schlesien/Silesia",
@@ -57,7 +61,7 @@
     },
     {
       "original": "Schleswig",
-      "conv": "zh-hans:石勒苏益格;zh-hk:石勒蘇益格;zh-tw:什勒斯維希;"
+      "conv": "zh-hans:石勒苏益格;zh-hk:石勒蘇益格;zh-tw:什列斯威;"
     },
     {
       "original": "Schwaben",
@@ -65,11 +69,11 @@
     },
     {
       "original": "Vorpommern",
-      "conv": "zh-hans:前波美拉尼亚; zh-hant:西波美拉尼亞;"
+      "conv": "zh-hans:前波莫瑞; zh-hant:西波美拉尼亞; zh-tw:佛波門;"
     },
     {
       "original": "Westfalen",
-      "conv": "zh-hans:威斯特法伦;zh-hant:威斯特法倫;zh-hk:西法倫;zh-tw:西伐利亞;"
+      "conv": "zh-hans:威斯特法伦;zh-hant:威斯特法倫;zh-hk:西法倫;zh-tw:西發利亞;"
     },
     {
       "original": "Aachen",
@@ -89,7 +93,11 @@
     },
     {
       "original": "Bayreuth",
-      "conv": "zh-cn:拜罗伊特;zh-hk:拜洛特;zh-tw:拜律特;"
+      "conv": "zh-cn:拜罗伊特;zh-hk:拜洛特;zh-tw:拜魯特;"
+    },
+    {
+      "original": "Bayreuth",
+      "conv": "拜律特=>zh-tw:拜魯特; 拜律特=>zh-hk:拜洛特; 拜律特=>zh-cn:拜罗伊特;"
     },
     {
       "original": "Bielefeld",
@@ -140,10 +148,6 @@
       "conv": "zh-hans:开姆尼茨;zh-hk:真尼沙;zh-tw:肯尼茲;"
     },
     {
-      "original": "Charlottenburg",
-      "conv": "zh-cn:夏洛滕堡;zh-tw:夏洛騰堡;"
-    },
-    {
       "original": "Dachau",
       "conv": "zh-cn:达豪;zh-tw:達浩;"
     },
@@ -172,8 +176,12 @@
       "conv": "zh-cn:爱森纳赫;zh-hant:艾森納赫;艾森纳赫=>zh-hant:艾森納赫;埃森纳赫=>zh-hant:艾森納赫;"
     },
     {
+      "original": "Emden",
+      "conv": "埃姆登=>zh-tw:恩登;"
+    },
+    {
       "original": "Erding",
-      "conv": "zh-tw:艾丁; zh-cn:埃尔丁;"
+      "conv": "埃尔丁=>zh-tw:艾丁; 埃爾丁=>zh-tw:艾丁;"
     },
     {
       "original": "Erfurt",
@@ -196,12 +204,16 @@
       "conv": "zh-cn:菲尔特; zh-hk:菲爾特; zh-tw:福爾特;"
     },
     {
+      "original": "Fürstenberg",
+      "conv": "zh-hans:菲斯滕贝格; zh-cn:菲尔斯滕贝格; zh-hk:菲斯滕貝格; zh-tw:福斯坦伯格;"
+    },
+    {
       "original": "Freiburg",
       "conv": "zh:弗赖堡;zh-hans:弗赖堡;zh-hant:弗賴堡;zh-hk:弗賴堡;zh-tw:弗萊堡;zh-mo:費雷堡;"
     },
     {
       "original": "Görlitz",
-      "conv": "zh-hans:格尔利茨; zh-tw:哥利茲;"
+      "conv": "zh-hans:格尔利茨; zh-hk:格爾利茨; zh-tw:哥利茲;"
     },
     {
       "original": "Greifswald",
@@ -292,6 +304,10 @@
       "conv": "zh-hans:吕贝克;zh-hk:呂貝克;zh-tw:呂北克;"
     },
     {
+      "original": "Lüneburg",
+      "conv": "zh-hans:吕讷堡;zh-hk:呂訥堡;zh-tw:呂內堡;"
+    },
+    {
       "original": "Magdeburg",
       "conv": "zh-hans:马格德堡;zh-hant:馬德堡;"
     },
@@ -346,6 +362,10 @@
     {
       "original": "Osnabrück",
       "conv": "zh:奥斯纳布吕克;zh-hans:奥斯纳布吕克;zh-hk:奧斯納布克;zh-tw:奧斯納貝克;"
+    },
+    {
+      "original": "Parchim",
+      "conv": "zh-hans:帕尔希姆;zh-tw:巴歆;"
     },
     {
       "original": "Pegnitz",
@@ -434,6 +454,14 @@
     {
       "original": "Stuttgart",
       "conv": "司徒加特=>zh-cn:斯图加特;司徒加特=>zh-my:斯图加特;司徒加特=>zh-sg:斯图加特;司徒加特=>zh-hk:史特加;司徒加特=>zh-mo:史特加;司徒加特=>zh-tw:司徒加特"
+    },
+    {
+      "original": "Stuttgart",
+      "conv": "斯图城=>zh-cn:斯图加特;斯图城=>zh-my:斯图加特;斯图城=>zh-sg:斯图加特;斯图城=>zh-hk:史特加;斯图城=>zh-mo:史特加;斯图城=>zh-tw:司徒加特"
+    },
+    {
+      "original": "Stuttgart",
+      "conv": "斯圖城=>zh-cn:斯图加特;斯圖城=>zh-my:斯图加特;斯圖城=>zh-sg:斯图加特;斯圖城=>zh-hk:史特加;斯圖城=>zh-mo:史特加;斯圖城=>zh-tw:司徒加特"
     },
     {
       "original": "Tübingen",
@@ -549,7 +577,7 @@
     },
     {
       "original": "Oberharzer",
-      "conv": "zh-hans:上哈爾茨;zh-hant:上哈茲;"
+      "conv": "上哈尔茨=>zh-hant:上哈茲;"
     },
     {
       "original": "Oberharzer",
@@ -594,6 +622,10 @@
     {
       "original": "Deutscher Bund",
       "conv": "zh-cn:德意志邦联;zh-hk:德意志邦聯;zh-tw:日耳曼邦聯;"
+    },
+    {
+      "original": "Bund",
+      "conv": "zh-cn:邦联;zh-hk:邦聯;zh-tw:邦聯;"
     },
     {
       "original": "Katowice/Kattowitz",
@@ -681,7 +713,15 @@
     },
     {
       "original": "Bremen",
-      "conv": "zh-hans:不莱梅州; zh-cn:不来梅州; zh-hk:不萊梅州; zh-tw:布萊梅邦;"
+      "conv": "zh:不莱梅州; zh-cn:不来梅州; zh-hk:不萊梅州; zh-tw:布萊梅邦;"
+    },
+    {
+      "original": "Bremen（变体译名）",
+      "conv": "不來梅州=>zh-tw:布萊梅邦;"
+    },
+    {
+      "original": "Bremen（变体译名）",
+      "conv": "布萊梅州=>zh-tw:布萊梅邦;"
     },
     {
       "original": "Hessen",
@@ -689,11 +729,19 @@
     },
     {
       "original": "Mecklenburg-Vorpommern",
-      "conv": "zh-hans:梅克伦堡-前波美拉尼亚州; zh-hk:梅克倫堡-西波美拉尼亞州; zh-tw:梅克倫堡-西波美拉尼亞邦;"
+      "conv": "zh-hans:梅克伦堡-前波美拉尼亚州; zh-hk:梅克倫堡-西波美拉尼亞州; zh-tw:麥克倫堡-佛波門邦;"
     },
     {
       "original": "Mecklenburg-Vorpommern（另一种连词符）",
-      "conv": "zh-hans:梅克伦堡－前波美拉尼亚州; zh-hk:梅克倫堡－西波美拉尼亞州; zh-tw:梅克倫堡－西波美拉尼亞邦;"
+      "conv": "zh-hans:梅克伦堡－前波美拉尼亚州; zh-hk:梅克倫堡－西波美拉尼亞州; zh-tw:麥克倫堡－佛波門邦;"
+    },
+    {
+      "original": "Mecklenburg-Vorpommern（变体译名）",
+      "conv": "前波莫瑞州=>zh-tw:佛波門邦;"
+    },
+    {
+      "original": "Mecklenburg-Vorpommern（变体译名）",
+      "conv": "前波美拉尼亞州=>zh-tw:佛波門邦;"
     },
     {
       "original": "Niedersachsen",
@@ -701,19 +749,19 @@
     },
     {
       "original": "Nordrhein-Westfalen",
-      "conv": "zh-hans:北莱茵-威斯特法伦州; zh-hant:北萊茵-威斯特法倫州; zh-hk:北萊茵-西法倫州; zh-tw:北萊茵-西伐利亞邦;"
+      "conv": "zh-hans:北莱茵-威斯特法伦州; zh-hant:北萊茵-威斯特法倫州; zh-hk:北萊茵-西法倫州; zh-tw:北萊因-威斯特法連邦;"
     },
     {
       "original": "Nordrhein-Westfalen（另一种连词符）",
-      "conv": "zh-hans:北莱茵－威斯特法伦州; zh-hant:北萊茵－威斯特法倫州; zh-hk:北萊茵－西法倫州; zh-tw:北萊茵－西伐利亞邦;"
+      "conv": "zh-hans:北莱茵－威斯特法伦州; zh-hant:北萊茵－威斯特法倫州; zh-hk:北萊茵－西法倫州; zh-tw:北萊因－威斯特法連邦;"
     },
     {
       "original": "Rheinland-Pfalz",
-      "conv": "zh-cn:莱茵兰-普法尔茨州;zh-hk:萊茵蘭-普法茲州;zh-tw:萊茵-法爾茲邦;"
+      "conv": "zh-cn:莱茵兰-普法尔茨州;zh-hk:萊茵蘭-普法茲州;zh-tw:萊因蘭-法爾茲邦;"
     },
     {
       "original": "Rheinland-Pfalz（另一种连词符）",
-      "conv": "zh-cn:莱茵兰－普法尔茨州;zh-hk:萊茵蘭－普法茲州;zh-tw:萊茵－法爾茲邦;"
+      "conv": "zh-cn:莱茵兰－普法尔茨州;zh-hk:萊茵蘭－普法茲州;zh-tw:萊因蘭－法爾茲邦;"
     },
     {
       "original": "Rheinland-Pfalz（简称）",
@@ -3804,6 +3852,70 @@
       "conv": "zh-hans:哈勒祖; zh-hant:哈勒祖"
     },
     {
+      "original": "",
+      "conv": "zh-hans:位于;zh-hant:位於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:属于;zh-hant:屬於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:大于;zh-hant:大於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:小于;zh-hant:小於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:等于;zh-hant:等於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:关于;zh-hant:關於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:生于;zh-hant:生於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:死于;zh-hant:死於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:卒于;zh-hant:卒於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:逝于;zh-hant:逝於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:逝世于;zh-hant:逝世於"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:葬于;zh-hant:葬於"
+    },
+    {
+      "original": "Überlingen",
+      "conv": "zh-hans:于伯林根; zh-hant:于伯林根"
+    },
+    {
+      "original": "Übersee",
+      "conv": "zh-hans:于伯塞; zh-hant:于伯塞"
+    },
+    {
+      "original": "Überherrn",
+      "conv": "zh-hans:于伯黑恩; zh-hant:于伯黑恩"
+    },
+    {
+      "original": "Eldingen",
+      "conv": "zh-cn:埃尔丁根;zh-hk:埃爾丁根;zh-tw:埃爾丁根"
+    },
+    {
       "original": "Siegenburg",
       "conv": "zh-cn:锡根堡;zh-hk:錫根堡;zh-tw:錫根堡"
     },
@@ -3820,372 +3932,36 @@
       "conv": "zh-cn:·卡塞尔;zh-hk:·卡塞爾;zh-tw:·卡塞爾"
     },
     {
-      "original": null,
-      "conv": "zh-hans:城市州; zh-tw:城邦"
+      "original": "",
+      "conv": "zh-hans:联邦制; zh-hk:聯邦制; zh-tw:聯邦制"
     },
     {
-      "original": null,
-      "conv": "zh-hans:各联邦州; zh-hk:各聯邦州; zh-tw:各邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:各州; zh-hk:各州; zh-tw:各邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州份; zh-hk:州份; zh-tw:邦份"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:所在州; zh-hk:所在州;; zh-tw:所在邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:所属州; zh-hk:所屬州;; zh-tw:所屬邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:个别州; zh-hk:個別州;; zh-tw:個別邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:部分州; zh-hk:部分州;; zh-tw:部分邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:因州而异; zh-hk:因州而異;; zh-tw:因邦而異"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:些州; zh-hk:些州;; zh-tw:些邦"
-    },
-    {
-      "original": null,
-      "conv": "新联邦州=>zh-tw:新邦; 新聯邦州=>zh-tw:新邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:新州; zh-hk:新州; zh-tw:新邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:自由州; zh-hk:自由州; zh-tw:自由邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:该州; zh-hk:該州; zh-tw:該邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:此州; zh-hk:此州; zh-tw:此邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:本州; zh-hk:本州; zh-tw:本邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:他州; zh-hk:他州; zh-tw:他邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:诸州; zh-hk:諸州;zh-tw:諸邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:同州; zh-hk:同州;zh-tw:同邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:多州; zh-hk:多州;zh-tw:多邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:全州; zh-hk:全州;zh-tw:全邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:大州; zh-hk:大州;zh-tw:大邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:小州; zh-hk:小州;zh-tw:小邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:邻州; zh-hk:鄰州;zh-tw:鄰邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:等州; zh-hk:等州;zh-tw:等邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:数州; zh-hk:數州;zh-tw:數邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:以州; zh-hk:以州;zh-tw:以邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州与; zh-hk:州與;zh-tw:邦與"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:与州; zh-hk:與州;zh-tw:與邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州外; zh-hk:州外;zh-tw:邦外"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州内; zh-hk:州内;zh-tw:邦內"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州中; zh-hk:州中;zh-tw:邦中"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州里; zh-hk:州裡;zh-tw:邦裡"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州和; zh-hk:州和;zh-tw:邦和"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:和州; zh-hk:和州;zh-tw:和邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州之; zh-hk:州之;zh-tw:邦之"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:之州; zh-hk:之州;zh-tw:之邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州的; zh-hk:州的;zh-tw:邦的"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:的州; zh-hk:的州;zh-tw:的邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州与州; zh-hk:州與州;zh-tw:邦與邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州和州; zh-hk:州和州;zh-tw:邦和邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:一州; zh-hk:一州; zh-tw:一邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:两州; zh-hk:兩州; zh-tw:兩邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:三州; zh-hk:三州; zh-tw:三邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:四州; zh-hk:四州; zh-tw:四邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:五州; zh-hk:五州; zh-tw:五邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:六州; zh-hk:六州; zh-tw:六邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:七州; zh-hk:七州; zh-tw:七邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:八州; zh-hk:八州; zh-tw:八邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:九州; zh-hk:九州; zh-tw:九邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十州; zh-hk:十州; zh-tw:十邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十一州; zh-hk:十一州; zh-tw:十一邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十二州; zh-hk:十二州; zh-tw:十二邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十三州; zh-hk:十三州; zh-tw:十三邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十四州; zh-hk:十四州; zh-tw:十四邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十五州; zh-hk:十五州; zh-tw:十五邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十六州; zh-hk:十六州; zh-tw:十六邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:个州; zh-hk:個州; zh-tw:個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:一个州; zh-hk:一個州; zh-tw:一個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:两个州; zh-hk:兩個州; zh-tw:兩個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:三个州; zh-hk:三個州; zh-tw:三個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:四个州; zh-hk:四個州; zh-tw:四個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:五个州; zh-hk:五個州; zh-tw:五個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:六个州; zh-hk:六個州; zh-tw:六個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:七个州; zh-hk:七個州; zh-tw:七個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:八个州; zh-hk:八個州; zh-tw:八個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:九个州; zh-hk:九個州; zh-tw:九個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十个州; zh-hk:十個州; zh-tw:十個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十一个州; zh-hk:十一個州; zh-tw:十一個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十二个州; zh-hk:十二個州; zh-tw:十二個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十三个州; zh-hk:十三個州; zh-tw:十三個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十四个州; zh-hk:十四個州; zh-tw:十四個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十五个州; zh-hk:十五個州; zh-tw:十五個邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:十六个州; zh-hk:十六個州; zh-tw:十六個邦"
-    },
-    {
-      "original": null,
-      "conv": "联邦州=>zh-tw:邦; "
-    },
-    {
-      "original": null,
-      "conv": "聯邦州=>zh-tw:邦; "
-    },
-    {
-      "original": null,
+      "original": "",
       "conv": "zh-hans:联邦共和国; zh-hk:聯邦共和國; zh-tw:聯邦共和國"
     },
     {
-      "original": null,
-      "conv": "zh-hans:州长; zh-hk:州長; zh-tw:邦總理"
+      "original": "",
+      "conv": "zh-hans:联邦总理; zh-hk:聯邦總理; zh-tw:聯邦總理"
     },
     {
-      "original": null,
-      "conv": "zh-hans:州选举; zh-hk:州選舉; zh-tw:邦選舉"
+      "original": "",
+      "conv": "zh-hans:联邦选举; zh-hk:聯邦選舉; zh-tw:聯邦選舉"
     },
     {
-      "original": null,
-      "conv": "zh-hans:州大选; zh-hk:州大選; zh-tw:邦大選"
+      "original": "",
+      "conv": "zh-hans:联邦政府; zh-hk:聯邦政府; zh-tw:聯邦政府"
     },
     {
-      "original": null,
-      "conv": "zh-hans:州府; zh-hk:州府; zh-tw:邦府"
+      "original": "",
+      "conv": "zh-hans:联邦议会; zh-hk:聯邦議會; zh-tw:聯邦議會"
     },
     {
-      "original": null,
-      "conv": "zh-hans:州首府; zh-hk:州首府; zh-tw:邦首府"
+      "original": "",
+      "conv": "zh-hans:联邦宪法; zh-hk:聯邦憲法; zh-tw:聯邦憲法"
     },
     {
-      "original": null,
-      "conv": "zh-hans:州政府; zh-hk:州政府; zh-tw:邦政府"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州议会; zh-hk:州議會; zh-tw:邦議會"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州宪法; zh-hk:州憲法; zh-tw:邦憲法"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州代表; zh-hk:州代表; zh-tw:邦代表"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:人民州; zh-hk:人民州; zh-tw:人民邦"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州旗; zh-hk:州旗; zh-tw:邦旗"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州徽; zh-hk:州徽; zh-tw:邦徽"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州立; zh-hk:州立; zh-tw:邦立"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州法; zh-hk:州法; zh-tw:邦法"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:州级; zh-hk:州級; zh-tw:邦級"
+      "original": "",
+      "conv": "zh-hans:普鲁士自由邦; zh-hant:普魯士自由邦"
     },
     {
       "original": "Bundesministerium für Wirtschaft und Klimaschutz",

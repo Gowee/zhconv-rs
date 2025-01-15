@@ -1,12 +1,8 @@
 {
   "name": "Hayate the Combat Butler",
   "description": "-{zh-cn:旋风管家; zh-tw:旋風管家; zh-hk:爆笑管家工作日誌; zh-sg:疾风守护者;}-",
-  "path": "Template:CGroup/Hayate the Combat Butler",
+  "path": "Module:CGroup/Hayate the Combat Butler",
   "rules": [
-    {
-      "original": null,
-      "conv": "zh:旋風管家;zh-cn:旋风管家; zh-tw:旋風管家！; zh-hk:爆笑管家工作日誌; zh-sg:疾风守护者！;"
-    },
     {
       "original": null,
       "conv": "zh-cn:球球; zh-tw:球球; zh-hk:波波; zh-sg:小玉;"
@@ -14,10 +10,6 @@
     {
       "original": null,
       "conv": "zh-cn:仓鼠; zh-tw:黃金鼠; zh-hk:倉鼠;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:亘; zh-tw:亘; zh-hk:亙;"
     },
     {
       "original": null,

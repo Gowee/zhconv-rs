@@ -1,11 +1,11 @@
 {
   "name": "Half-Life",
-  "description": "-{zh-hans:半衰期;zh-hant:戰慄時空;zh-tw:戰慄時空;zh-sg:半条命}-",
+  "description": "-{zh-hans:半衰期/半条命; zh-hant:戰慄時空; zh-tw:戰慄時空; zh-sg:半条命;}-",
   "path": "Module:CGroup/Half-Life",
   "rules": [
     {
       "original": "Half-Life",
-      "conv": "zh-cn:半衰期; zh-tw:戰慄時空;zh-hk:戰慄時空;"
+      "conv": "zh-cn:半衰期; zh-tw:戰慄時空; zh-hk:戰慄時空; zh-sg:半条命;"
     },
     {
       "original": "Opposing Force",
@@ -177,7 +177,7 @@
     },
     {
       "original": "Civil Protection",
-      "conv": "zh-cn:国民警卫队; zh-tw:市民保安隊"
+      "conv": "zh-cn:国民警卫队; zh-tw:市民保安隊;"
     },
     {
       "original": "Crowbar",

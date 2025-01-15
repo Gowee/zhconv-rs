@@ -17,7 +17,7 @@
     },
     {
       "original": "California",
-      "conv": "zh-cn:加利福尼亚州; zh-tw:加利福尼亞州; zh-hk:加利福尼亞州"
+      "conv": "zh-cn:加利福尼亚; zh-tw:加利福尼亞; zh-hk:加利福尼亞"
     },
     {
       "original": "Connecticut",
@@ -25,11 +25,11 @@
     },
     {
       "original": "Delaware",
-      "conv": "zh-cn:特拉华州; zh-tw:德拉瓦州; zh-hk:特拉華州;"
+      "conv": "zh-cn:特拉华; zh-tw:德拉瓦; zh-hk:特拉華;"
     },
     {
       "original": "Delaware",
-      "conv": "德拉威州=>zh-cn:特拉华州; 德拉威州=>zh-tw:德拉威州; 德拉威州=>zh-hk:特拉華州; 德拉威州=>zh-mo:特拉華州;"
+      "conv": "德拉威=>zh-cn:特拉华; 德拉威=>zh-tw:德拉威; 德拉威=>zh-hk:特拉華; 德拉威=>zh-mo:特拉華;"
     },
     {
       "original": "Florida",
@@ -38,6 +38,14 @@
     {
       "original": "Georgia",
       "conv": "zh-cn:佐治亚州; zh-tw:喬治亞州; zh-hk:佐治亞州;"
+    },
+    {
+      "original": "Georgia",
+      "conv": "佐治亚=>zh-tw:喬治亞;佐治亞=>zh-tw:喬治亞;"
+    },
+    {
+      "original": "Georgia",
+      "conv": "乔治亚=>zh-cn:佐治亚;乔治亚=>zh-my:佐治亚;乔治亚=>zh-sg:佐治亚;乔治亚=>zh-hk:佐治亞;乔治亚=>zh-mo:佐治亞;"
     },
     {
       "original": "Idaho",
@@ -53,23 +61,27 @@
     },
     {
       "original": "Illinois",
-      "conv": "伊利诺伊=>zh-cn:伊利诺伊; zh-tw:伊利諾;"
-    },
-    {
-      "original": "Illinois",
-      "conv": "伊利諾伊=>zh-cn:伊利诺伊; zh-tw:伊利諾;"
+      "conv": "伊利諾伊=>zh-cn:伊利诺伊; 伊利諾伊=>zh-tw:伊利諾;"
     },
     {
       "original": "Indiana",
-      "conv": "zh-hans:印第安纳; zh-hant:印第安納;"
+      "conv": "zh-hans:印第安纳;zh-hant:印第安納;"
+    },
+    {
+      "original": "Indiana",
+      "conv": "印第安那=>zh-cn:印第安纳;印第安那=>zh-sg:印第安纳;印第安那=>zh-my:印第安纳;"
     },
     {
       "original": "Iowa",
-      "conv": "zh-cn:艾奥瓦; zh-tw:愛荷華; zh-hk:愛荷華;"
+      "conv": "zh-hans:艾奥瓦;zh-hant:愛荷華;"
     },
     {
       "original": "Iowa",
-      "conv": "衣阿華=>zh-cn:艾奥瓦; 衣阿華=>zh-tw:愛荷華; 衣阿華=>zh-hk:愛荷華; 衣阿華=>zh-mo:愛荷華;"
+      "conv": "爱荷华=>zh-cn:艾奥瓦;爱荷华=>zh-sg:艾奥瓦;爱荷华=>zh-my:艾奥瓦;"
+    },
+    {
+      "original": "Iowa",
+      "conv": "衣阿華=>zh-cn:艾奥瓦;衣阿華=>zh-sg:艾奥瓦;衣阿華=>zh-my:艾奥瓦;衣阿華=>zh-tw:愛荷華;衣阿華=>zh-hk:愛荷華;衣阿華=>zh-mo:愛荷華;"
     },
     {
       "original": "Louisiana",
@@ -89,39 +101,31 @@
     },
     {
       "original": "Massachusetts",
-      "conv": "zh-cn:马萨诸塞; zh-tw:麻薩諸塞; zh-hk:麻省"
+      "conv": "zh-hans:马萨诸塞州;zh-tw:麻薩諸塞州;zh-hk:麻省;"
     },
     {
       "original": "Massachusetts",
-      "conv": "马萨诸塞州=>zh-tw:麻薩諸塞州; 马萨诸塞州=>zh-hk:麻省;"
+      "conv": "馬薩諸塞州=>zh-tw:麻薩諸塞州;馬薩諸塞州=>zh-hk:麻省;馬薩諸塞州=>zh-mo:麻省;"
     },
     {
       "original": "Massachusetts",
-      "conv": "馬薩諸塞州=>zh-cn:马萨诸塞州; 馬薩諸塞州=>zh-tw:麻薩諸塞州; 馬薩諸塞州=>zh-hk:麻省;"
+      "conv": "麻萨诸塞州=>zh-cn:马萨诸塞州;麻萨诸塞州=>zh-sg:马萨诸塞州;麻萨诸塞州=>zh-my:马萨诸塞州;麻萨诸塞州=>zh-hk:麻省;麻萨诸塞州=>zh-mo:麻省;"
     },
     {
       "original": "Massachusetts",
-      "conv": "麻薩諸塞州=>zh-cn:马萨诸塞州; 麻薩諸塞州=>zh-tw:麻薩諸塞州; 麻薩諸塞州=>zh-hk:麻省;"
+      "conv": "麻州=>zh-cn:马萨诸塞州;麻州=>zh-sg:马萨诸塞州;麻州=>zh-my:马萨诸塞州;麻州=>zh-hk:麻省;麻州=>zh-mo:麻省;"
     },
     {
       "original": "Massachusetts",
-      "conv": "马萨诸塞州=>zh-tw:麻薩諸塞州; 马萨诸塞州=>zh-hk:麻省;"
+      "conv": "马萨诸塞=>zh-tw:麻薩諸塞;马萨诸塞=>zh-hk:麻省;马萨诸塞=>zh-mo:麻省;"
     },
     {
       "original": "Massachusetts",
-      "conv": "麻州=>zh-cn:马萨诸塞州; 麻州=>zh-tw:麻州; 麻州=>zh-hk:麻省;"
-    },
-    {
-      "original": "Massachusetts",
-      "conv": "麻萨诸塞=>zh-tw:麻薩諸塞; 麻萨诸塞=>zh-hk:麻省;"
-    },
-    {
-      "original": "Massachusetts",
-      "conv": "麻萨诸塞州=>zh-cn:麻萨诸塞州; 麻萨诸塞州=>zh-tw:麻薩諸塞州; 麻萨诸塞州=>zh-hk:麻省;"
+      "conv": "麻薩諸塞=>zh-cn:马萨诸塞;麻薩諸塞=>zh-sg:马萨诸塞;麻薩諸塞=>zh-my:马萨诸塞;麻薩諸塞=>zh-hk:麻省;麻薩諸塞=>zh-mo:麻省;"
     },
     {
       "original": "Michigan",
-      "conv": "zh-cn:密歇根; zh-tw:密西根; zh-hk:密芝根;"
+      "conv": "zh-hans:密歇根;zh-tw:密西根;zh-hk:密芝根;"
     },
     {
       "original": "New Hampshire",
@@ -129,23 +133,27 @@
     },
     {
       "original": "New Hampshire",
-      "conv": "新罕布什爾=>zh-cn:新罕布什尔; 新罕布什爾=>zh-tw:新罕布夏; 新罕布什爾=>zh-hk:新罕布什爾;"
+      "conv": "紐罕布什爾=>zh-cn:新罕布什尔; 紐罕布什爾=>zh-tw:新罕布夏; 紐罕布什爾=>zh-hk:新罕布什爾;"
     },
     {
       "original": "New Hampshire",
-      "conv": "新罕布什尔=>zh-cn:新罕布什尔; 新罕布什尔=>zh-tw:新罕布夏; 新罕布什尔=>zh-hk:新罕布什爾;"
+      "conv": "紐罕布夏=>zh-cn:新罕布什尔; 紐罕布夏=>zh-tw:新罕布夏; 紐罕布夏=>zh-hk:新罕布什爾;"
     },
     {
       "original": "New Jersey",
-      "conv": "zh-cn:新泽西; zh-tw:紐澤西; zh-hk:新澤西;"
+      "conv": "zh-hans:新泽西;zh-tw:紐澤西;zh-hk:新澤西;"
     },
     {
       "original": "North Carolina",
-      "conv": "zh-cn:北卡罗来纳; zh-tw:北卡羅來納; zh-hk:北卡羅萊納;"
+      "conv": "zh-hans:北卡罗来纳;zh-tw:北卡羅來納;zh-hk:北卡羅萊納;"
     },
     {
       "original": "North Carolina",
       "conv": "北卡羅萊那=>zh-cn:北卡罗来纳; 北卡罗莱那=>zh-tw:北卡羅來納; 北卡羅萊那=>zh-hk:北卡羅萊納; 北卡羅萊那=>zh-mo:北卡羅萊納;"
+    },
+    {
+      "original": "(North/South) Carolina",
+      "conv": "卡罗莱纳=>zh-cn:卡罗来纳;卡罗莱纳=>zh-sg:卡罗来纳;卡罗莱纳=>zh-my:卡罗来纳;卡罗莱纳=>zh-tw:卡羅來納;"
     },
     {
       "original": "(North / South) Dakota",
@@ -165,7 +173,7 @@
     },
     {
       "original": "Oregon",
-      "conv": "奧勒岡=>zh-cn:俄勒冈; 奥勒冈=>zh-tw:奧勒岡; 奧勒岡=>zh-hk:俄勒岡; 奧勒岡=>zh-mo:俄勒岡;"
+      "conv": "奥勒冈=>zh-cn:俄勒冈; 奥勒冈=>zh-tw:奧勒岡; 奥勒冈=>zh-hk:俄勒岡; 奥勒冈=>zh-mo:俄勒岡;"
     },
     {
       "original": "Pennsylvania",
@@ -209,11 +217,11 @@
     },
     {
       "original": "Virginia",
-      "conv": "弗吉尼亞=>zh-cn:弗吉尼亚; 弗吉尼亞=>zh-tw:維吉尼亞; 弗吉尼亞=>zh-hk:維珍尼亞;"
+      "conv": "弗吉尼亞=>zh-mo:維珍尼亞; 弗吉尼亞=>zh-tw:維吉尼亞; 弗吉尼亞=>zh-hk:維珍尼亞;"
     },
     {
       "original": "Wisconsin",
-      "conv": "zh-cn:威斯康星; zh-tw:威斯康辛; zh-hk:威斯康辛;"
+      "conv": "zh-cn:威斯康星; zh-tw:威斯康辛; zh-hk:威斯康星;"
     },
     {
       "original": "Albany, New York",
@@ -253,15 +261,19 @@
     },
     {
       "original": "Hartford, Connecticut",
-      "conv": "zh-cn:哈特福德; zh-tw:哈特福; zh-hk:哈特福;"
+      "conv": "zh-cn:哈特福德; zh-hant:哈特福;"
     },
     {
       "original": "Honolulu",
-      "conv": "zh-cn:火奴鲁鲁;zh-sg:檀香山;zh-tw:檀香山;zh-hk:檀香山;"
+      "conv": "zh-cn:火奴鲁鲁;zh-sg:檀香山;zh-hant:檀香山;"
     },
     {
       "original": "Houston",
-      "conv": "zh-hans:休斯敦;zh-hk:侯斯頓;zh-tw:休士頓;"
+      "conv": "zh-hans:休斯敦;zh-tw:休士頓;zh-hk:侯斯頓;"
+    },
+    {
+      "original": "Houston",
+      "conv": "休士顿=>zh-cn:休斯敦;休士顿=>zh-sg:休斯敦;休士顿=>zh-my:休斯敦;休士顿=>zh-hk:侯斯頓;休士顿=>zh-mo:侯斯頓;"
     },
     {
       "original": "Indianapolis, Indiana",
@@ -277,7 +289,7 @@
     },
     {
       "original": "Miami",
-      "conv": "zh-cn:迈阿密; zh-tw:邁阿密; zh-hk:邁亞密;"
+      "conv": "zh-hans:迈阿密;zh-tw:邁阿密;zh-hk:邁亞密;zh-mo:邁阿密;"
     },
     {
       "original": "Montpelier, Vermont",
@@ -301,7 +313,11 @@
     },
     {
       "original": "Phoenix, Arizona",
-      "conv": "zh-cn:菲尼克斯; zh-tw:鳳凰城; zh-hk:鳳凰城;"
+      "conv": "zh-cn:菲尼克斯; zh-tw:鳳凰城; zh-hk:鳳凰城; zh-sg:菲尼克斯; zh-my:凤凰城;"
+    },
+    {
+      "original": "Providence",
+      "conv": "zh-cn:普罗维登斯; zh-tw:普洛維登斯;"
     },
     {
       "original": "Raleigh, North Carolina",
@@ -313,11 +329,19 @@
     },
     {
       "original": "Sacramento, California",
-      "conv": "zh-cn:萨克拉门托; zh-tw:沙加緬度; zh-hk:沙加緬度;"
+      "conv": "zh-cn:萨克拉门托; zh-tw:沙加緬度; zh-hk:沙加緬度; zh-sg:萨克拉门托; zh-my:萨克拉门托;zh-my:沙加缅度;"
     },
     {
       "original": "Salem, Oregon",
       "conv": "zh-cn:塞勒姆 (俄勒冈州); zh-tw:撒冷 (奧勒岡州); zh-hk:塞勒姆 (俄勒岡州);"
+    },
+    {
+      "original": "Santa Clara",
+      "conv": "圣塔克拉拉=>zh-cn:圣克拉拉;圣塔克拉拉=>zh-sg:圣克拉拉;圣塔克拉拉=>zh-my:圣克拉拉;"
+    },
+    {
+      "original": "Santa Clara",
+      "conv": "聖塔克拉拉=>zh-cn:圣克拉拉;聖塔克拉拉=>zh-sg:圣克拉拉;聖塔克拉拉=>zh-my:圣克拉拉;"
     },
     {
       "original": "Santa Fe, New Mexico",
@@ -360,8 +384,16 @@
       "conv": "zh-cn:阿伯丁; zh-tw:亞伯丁; zh-hk:鴨巴甸;"
     },
     {
+      "original": "Adair",
+      "conv": "zh-hans:亚代尔; zh-cn:阿代尔; zh-tw:亞代爾"
+    },
+    {
       "original": "Albany",
       "conv": "zh-cn:奥尔巴尼; zh-tw:阿伯尼; zh-hk:雅賓利;"
+    },
+    {
+      "original": "Albuquerque",
+      "conv": "zh-hans:阿尔伯克基;zh-hk:阿爾伯克基;zh-tw:阿布奎基;"
     },
     {
       "original": "Algona",
@@ -377,11 +409,23 @@
     },
     {
       "original": "Anaheim",
-      "conv": "zh-cn:阿纳海姆; zh-hk:安納海姆; zh-hant:安那翰;"
+      "conv": "zh-cn:阿纳海姆;zh-tw:安那翰;zh-hk:阿納海姆;"
+    },
+    {
+      "original": "Ann Arbor",
+      "conv": "zh-hans:安阿伯;zh-tw:安納保;zh-hk:安娜堡;"
     },
     {
       "original": "Antioch",
-      "conv": "zh-hans:安条克; zh-hk:安條克; zh-tw:安提阿克;"
+      "conv": "zh-hans:安蒂奥克; zh-hk:安蒂奧克; zh-tw:安提阿克;"
+    },
+    {
+      "original": "Arapahoe",
+      "conv": "zh-cn:阿拉珀霍; zh-tw:阿拉帕霍;"
+    },
+    {
+      "original": "Ashton",
+      "conv": "zh-hant:阿什頓; zh-tw:亞士頓; zh-cn:阿什顿;"
     },
     {
       "original": "Atwater",
@@ -393,7 +437,7 @@
     },
     {
       "original": "Buffalo, New York",
-      "conv": "zh-cn:布法罗; zh-tw:水牛城; zh-hk:水牛城;"
+      "conv": "zh-hans:布法罗;zh-hant:水牛城;"
     },
     {
       "original": "Bellevue",
@@ -428,16 +472,32 @@
       "conv": "布倫海姆=>zh-tw:布倫亨;布倫海姆=>zh-hk:白蘭軒;布倫海姆=>zh-mo:白蘭軒;"
     },
     {
+      "original": "Bridgeport",
+      "conv": "zh-cn:布卢厄斯; zh-tw:藍地; zh-hk:布盧厄斯"
+    },
+    {
+      "original": "Bristol",
+      "conv": "布里斯托爾=>zh-hans:布里斯托尔;布里斯托爾=>zh-hant:布里斯托;"
+    },
+    {
       "original": "Calais",
-      "conv": "zh-cn:加来;zh-hk:加來;zh-tw:加萊;"
+      "conv": "zh-cn:加来; zh-hk:加來; zh-tw:加萊;"
     },
     {
       "original": "Camas",
-      "conv": "zh-cn:卡默斯; zh-tw:卡馬斯;"
+      "conv": "zh-hans:卡默斯; zh-hant:卡馬斯;"
+    },
+    {
+      "original": "Camden Country",
+      "conv": "zh-hans:卡姆登县; zh-hant:康登縣; zh-hk:卡姆登縣; zh-tw:康登郡"
+    },
+    {
+      "original": "Cape Canaveral",
+      "conv": "zh-tw:卡納維拉角; zh-cn:卡纳维拉尔角; zh-hk:卡納維拉爾角;"
     },
     {
       "original": "Carmel-by-the-Sea",
-      "conv": "zh-hans:卡梅尔海; zh-hk:卡米爾海;"
+      "conv": "zh-hans:卡梅尔海; zh-hant:卡米爾海;"
     },
     {
       "original": "Ceres",
@@ -445,11 +505,19 @@
     },
     {
       "original": "Champaign",
-      "conv": "zh-cn:尚佩恩;zh-tw:香檳;zh-sg:香槟;zh-hk:香檳;"
+      "conv": "尚佩恩=>zh-cn:尚佩恩; 尚佩恩=>zh-tw:香檳; 尚佩恩=>zh-sg:香槟; 尚佩恩=>zh-hk:香檳;"
+    },
+    {
+      "original": "Cherry",
+      "conv": "zh-cn:切里; zh-tw:​契里; zh-hk:切里;"
     },
     {
       "original": "Clallam",
-      "conv": "zh-cn:克拉勒姆; zh-tw:克拉蘭;"
+      "conv": "zh-hans:克拉勒姆; zh-hant:克拉蘭;"
+    },
+    {
+      "original": "Clearwater",
+      "conv": "zh-cn:克利尔沃特; zh-hant:克利爾沃特 ;zh-tw:清水;"
     },
     {
       "original": "Coronado",
@@ -457,11 +525,15 @@
     },
     {
       "original": "Corpus Christi",
-      "conv": "zh-tw:聖體市; zh-cn:科珀斯克里斯蒂;"
+      "conv": "zh-hant:聖體市; zh-hans:科珀斯克里斯蒂;"
     },
     {
       "original": "Coventry",
-      "conv": "zh-cn:考文垂;zh-hk:高雲地利;zh-tw:科芬特里;"
+      "conv": "zh-cn:考文垂; zh-hk:高雲地利; zh-tw:科芬特里;"
+    },
+    {
+      "original": "Cuming",
+      "conv": "zh-cn:卡明; zh-tw:卡明; zh-hk:庫名;"
     },
     {
       "original": "Decatur",
@@ -472,6 +544,10 @@
       "conv": "zh-cn:达勒姆; zh-tw:德罕; zh-hk:對衡"
     },
     {
+      "original": "Duval",
+      "conv": "zh-cn:杜瓦尔; zh-tw:杜弗; zh-hk:杜瓦爾"
+    },
+    {
       "original": "Ephrata",
       "conv": "zh-cn:埃夫拉塔; zh-tw:艾夫拉塔;"
     },
@@ -480,8 +556,24 @@
       "conv": "zh-cn:伊纳姆克洛; zh-tw:伊南克洛;"
     },
     {
+      "original": "Fall River",
+      "conv": "zh-hans:福尔里弗;zh-hant:瀑河城;"
+    },
+    {
       "original": "Fargo, North Dakota",
       "conv": "zh-cn:法戈; zh-tw:法哥; zh-hk:法戈;"
+    },
+    {
+      "original": "Fort Lauderdale",
+      "conv": "zh-hant:勞德代爾堡; zh-hans:劳德代尔堡; zh-hk:羅德岱堡; zh-tw:羅德岱堡;"
+    },
+    {
+      "original": "Foxborough",
+      "conv": "zh-hans:福克斯伯勒;zh-hant: 福克斯堡;"
+    },
+    {
+      "original": "Florence",
+      "conv": "zh-hans: 弗洛伦斯; zh-hant:佛羅倫斯;"
     },
     {
       "original": "Frederick",
@@ -493,7 +585,11 @@
     },
     {
       "original": "Green Bay, Wisconsin",
-      "conv": "zh:格林貝; zh-cn:格林贝; zh-tw:綠灣;"
+      "conv": "zh-hans:格林贝;zh-hant:綠灣;"
+    },
+    {
+      "original": "Glacier",
+      "conv": "zh-tw:冰河; zh-hk:冰川; zh-hans:冰川;"
     },
     {
       "original": "Gloucester",
@@ -528,12 +624,20 @@
       "conv": "傑克遜威爾=>zh-cn:杰克逊维尔; 傑克遜威爾=>zh-tw:傑克孫維; 傑克遜威爾=>zh-hk:積遜威爾; 傑克遜威爾=>zh-mo:積遜威爾;"
     },
     {
+      "original": "Jefferson",
+      "conv": "zh-hant:傑佛遜; zh-cn:杰斐逊; zh-tw:傑弗遜;"
+    },
+    {
       "original": "Kent",
       "conv": "zh-cn:肯特;zh-hk:根德;zh-tw:肯特;"
     },
     {
       "original": "Lafayette",
-      "conv": "zh-hans:拉斐特; zh-hant:拉法葉;"
+      "conv": "zh-hans:拉斐特;zh-hant:拉法葉;"
+    },
+    {
+      "original": "Lafayette",
+      "conv": "拉法叶=>zh-cn:拉斐特;拉法叶=>zh-sg:拉斐特;拉法叶=>zh-my:拉斐特;"
     },
     {
       "original": "Lake Placid",
@@ -552,12 +656,24 @@
       "conv": "zh-hans:拉斯罗普; zh-hant:萊思羅普;"
     },
     {
+      "original": "Leelanau",
+      "conv": "zh-cn:利勒诺; zh-tw:利拉諾; zh-hk:利勒諾"
+    },
+    {
       "original": "Lemon Grove",
       "conv": "zh-hans:莱蒙格罗韦; zh-hant:檸檬林;"
     },
     {
       "original": "Liberty",
       "conv": "利伯蒂=>zh-hk:自由;利伯蒂=>zh-mo:自由;利伯蒂=>zh-tw:自由;"
+    },
+    {
+      "original": "Linneus",
+      "conv": "zh-hans:林尼厄斯; zh-hant:林尼亞斯;"
+    },
+    {
+      "original": "Little Rock",
+      "conv": "zh-hans:小石城; zh-hant:小岩城"
     },
     {
       "original": "Live Oak",
@@ -572,8 +688,28 @@
       "conv": "zh-hans:曼哈顿;zh-hk:曼克頓;zh-tw:曼哈頓;"
     },
     {
+      "original": "Maui",
+      "conv": "zh-hans:毛伊岛;zh-tw:茂宜島;zh-hk:毛伊島;"
+    },
+    {
+      "original": "Maui",
+      "conv": "茂宜岛=>zh-cn:毛伊岛;茂宜岛=>zh-sg:毛伊岛;茂宜岛=>zh-my:毛伊岛;茂宜岛=>zh-hk:毛伊島;茂宜岛=>zh-mo:毛伊島;"
+    },
+    {
+      "original": "Maui County, Hawaii",
+      "conv": "zh-hans:毛伊县;zh-tw:茂宜郡;zh-hk:毛伊縣;"
+    },
+    {
+      "original": "Maui County, Hawaii",
+      "conv": "茂宜县=>zh-cn:毛伊县;茂宜县=>zh-sg:毛伊县;茂宜县=>zh-my:毛伊县;茂宜县=>zh-hk:毛伊縣;茂宜县=>zh-mo:毛伊縣;"
+    },
+    {
+      "original": "Maui County, Hawaii",
+      "conv": "茂宜縣=>zh-cn:毛伊县;茂宜縣=>zh-sg:毛伊县;茂宜縣=>zh-my:毛伊县;茂宜縣=>zh-hk:毛伊縣;茂宜縣=>zh-mo:毛伊縣;"
+    },
+    {
       "original": "Memphis, Tennessee",
-      "conv": "zh-cn:孟菲斯; zh-tw:曼非斯; zh-hk:孟菲斯;"
+      "conv": "zh-cn:孟菲斯; zh-tw:曼菲斯; zh-hk:孟菲斯;"
     },
     {
       "original": "Minneapolis, Minnesota",
@@ -582,6 +718,22 @@
     {
       "original": "Manteca",
       "conv": "zh-hans:曼特卡; zh-hant:曼提加;"
+    },
+    {
+      "original": "Marion Country",
+      "conv": "zh-hans:马里恩县; zh-hant:馬里昂縣; zh-hk:馬里恩縣; zh-tw:馬里昂郡;"
+    },
+    {
+      "original": "Marion Country",
+      "conv": "马里昂县=>zh-cn:马里恩县;马里昂县=>zh-hk:馬里恩縣;马里昂县=>zh-tw:馬里昂郡;"
+    },
+    {
+      "original": "Marion Township",
+      "conv": "zh-hans:马里恩镇区; zh-hant:馬里昂鎮區; zh-hk:馬里恩鎮區; zh-tw:馬里昂鎮區;"
+    },
+    {
+      "original": "Marion Township",
+      "conv": "马里昂镇区=>zh-cn:马里恩镇区;马里昂镇区=>zh-hk:馬里恩鎮區;马里昂镇区=>zh-tw:馬里昂鎮區;"
     },
     {
       "original": "Martinez",
@@ -600,36 +752,44 @@
       "conv": "zh-hans:密尔布瑞; zh-hant:米爾布雷;"
     },
     {
+      "original": "Milwaukee",
+      "conv": "zh-hk:米華基; zh-hans:密尔沃基; zh-hant:密爾瓦基; zh-tw:密爾瓦基;"
+    },
+    {
+      "original": "Minneapolis",
+      "conv": "zh-hk:明尼阿波利斯; zh-hans:明尼阿波里斯; zh-hant:明尼亞波里斯;"
+    },
+    {
+      "original": "Middlesex",
+      "conv": "zh-cn:米德尔塞克斯; zh-tw:密德瑟斯; zh-hk:密德適士; zh-hant:米德爾塞克斯;"
+    },
+    {
+      "original": "Midland",
+      "conv": "zh-cn:米德兰; zh-tw:密德蘭; zh-hant:米德蘭;"
+    },
+    {
+      "original": "Midland",
+      "conv": "密德兰=>zh-cn:米德兰;密德兰=>zh-tw:密德蘭;"
+    },
+    {
       "original": "Monterey",
       "conv": "zh-hans:蒙特雷; zh-hk:蒙特雷; zh-tw:蒙特瑞;"
     },
     {
-      "original": "Nassau",
-      "conv": "zh-cn:拿骚;zh-tw:拿索;zh-hk:蘭秀;"
+      "original": "Monterey Park",
+      "conv": "zh-hans:蒙特雷帕克; zh-hant:蒙特利公園;"
     },
     {
       "original": "Nassau",
-      "conv": "拿騷=>zh-tw:拿索;拿騷=>zh-hk:蘭秀;拿騷=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "拿紹=>zh-cn:拿骚;拿紹=>zh-my:拿骚;拿紹=>zh-sg:拿骚;拿紹=>zh-tw:拿索;拿紹=>zh-hk:蘭秀;拿紹=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "拿绍=>zh-cn:拿骚;拿绍=>zh-my:拿骚;拿绍=>zh-sg:拿骚;拿绍=>zh-tw:拿索;拿绍=>zh-hk:蘭秀;拿绍=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "納蘇=>zh-cn:拿骚;納蘇=>zh-my:拿骚;納蘇=>zh-sg:拿骚;納蘇=>zh-tw:拿索;納蘇=>zh-hk:蘭秀;納蘇=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "纳苏=>zh-cn:拿骚;纳苏=>zh-my:拿骚;纳苏=>zh-sg:拿骚;纳苏=>zh-tw:拿索;纳苏=>zh-hk:蘭秀;纳苏=>zh-mo:蘭秀;"
+      "conv": "zh-cn:拿骚;zh-tw:拿索;zh-hk:拿騷;"
     },
     {
       "original": "Newark, New Jersey",
       "conv": "zh-cn:纽瓦克; zh-hant:紐華克; zh-hk:紐瓦克;"
+    },
+    {
+      "original": "Newaygo",
+      "conv": "zh-hans:纽威哥; zh-cn:尼韦戈; zh-tw:紐威哥;"
     },
     {
       "original": "New Castle",
@@ -640,36 +800,116 @@
       "conv": "zh-hans:新奥尔良; zh-sg:新奥尔良; zh-hant:紐奧良;"
     },
     {
+      "original": "Niagara",
+      "conv": "zh-hans:尼亚加拉; zh-tw:尼加拉; zh-hk:尼亞加拉;"
+    },
+    {
+      "original": "Niagara Falls",
+      "conv": "zh-hans: 尼亚加拉瀑布; zh-hant:尼加拉大瀑布; zh-hk:尼亞加拉大瀑布;"
+    },
+    {
+      "original": "Oʻahu",
+      "conv": "zh-hans:瓦胡岛;zh-tw:歐胡島;zh-hk:瓦胡島;"
+    },
+    {
+      "original": "Oʻahu",
+      "conv": "欧胡岛=>zh-cn:瓦胡岛;欧胡岛=>zh-sg:瓦胡岛;欧胡岛=>zh-my:瓦胡岛;欧胡岛=>zh-hk:瓦胡島;欧胡岛=>zh-mo:瓦胡島;"
+    },
+    {
       "original": "Oakland",
-      "conv": "zh-hans:奥克兰;zh-hant:奧克蘭;zh-hk:屋崙;"
+      "conv": "zh-hans:奥克兰; zh-hant:奧克蘭; zh-hk:屋崙;"
+    },
+    {
+      "original": "Oakland Bay ",
+      "conv": "zh-cn:奥克兰海湾; zh-hk:屋崙灣區; zh-mo:屋崙灣區; zh-tw:奧克蘭海灣;"
     },
     {
       "original": "Obispo",
-      "conv": "zh-hans:奥比斯波;zh-hant:奧比斯保;"
+      "conv": "zh-hans:奥比斯波; zh-hant:奧比斯保;"
+    },
+    {
+      "original": "Orange County",
+      "conv": "zh-hans:奥兰治县;zh-tw:橘郡;zh-hk:橙縣;"
+    },
+    {
+      "original": "Osceola",
+      "conv": "zh-hans:奥西欧拉;zh-cn:奥西奥拉;zh-tw:奧西歐拉;"
+    },
+    {
+      "original": "Portland",
+      "conv": "zh-cn:皮奥里亚; zh-tw:皮歐立亞; zh-hk:皮奧里亞"
+    },
+    {
+      "original": "Portland",
+      "conv": "zh-cn:波特兰;zh-hk:砵蘭;zh-tw:波特蘭;"
     },
     {
       "original": "Portsmouth",
       "conv": "zh-cn:朴次茅斯;zh-hk:樸茨茅夫;zh-tw:樸茨茅斯;zh-hant:朴茨茅斯;"
     },
     {
+      "original": "Pulaski",
+      "conv": "zh-hans:珀拉斯凯; zh-hk:普瓦斯基; zh-tw:普拉斯基"
+    },
+    {
+      "original": "Ramsey",
+      "conv": "zh-cn:拉姆西; zh-tw:藍夕; zh-hk:拉姆西;"
+    },
+    {
       "original": "Rancho Cordova",
       "conv": "zh-hans:兰乔科尔多瓦; zh-hant:科多瓦牧場;"
+    },
+    {
+      "original": "Randolph",
+      "conv": "zh-hans:兰道夫; zh-cn:伦道夫; zh-hant:蘭道夫;"
     },
     {
       "original": "Redwood City",
       "conv": "zh-hans:雷德伍德城; zh-hant:紅木城;"
     },
     {
+      "original": "Rochester",
+      "conv": "zh-hans:罗切斯特; zh-hant:羅徹斯特;"
+    },
+    {
+      "original": "Rochester",
+      "conv": "罗彻斯特=>zh-cn:罗切斯特;罗彻斯特=>zh-sg:罗切斯特;罗彻斯特=>zh-my:罗切斯特;"
+    },
+    {
+      "original": "Roswell",
+      "conv": "zh:羅斯威爾; zh-cn:罗斯威尔; zh-tw:羅斯威爾; zh-hk:羅茲威爾;"
+    },
+    {
       "original": "Routt",
       "conv": "zh-hans:劳特; zh-hant:魯特;"
     },
     {
-      "original": "Saint Louis",
-      "conv": "zh-hans:圣路易; zh-hant:聖路易斯;"
+      "original": "Sacramento",
+      "conv": "zh-hans:萨克拉门托; zh-hant:沙加緬度; zh-tw:沙加緬度"
     },
     {
       "original": "Sacramento",
-      "conv": "zh-hans:萨克拉门托; zh-hant:沙加緬度;"
+      "conv": "薩克拉門托=>zh-tw:沙加緬度"
+    },
+    {
+      "original": "Santa Barbara",
+      "conv": "zh-hans:圣巴巴拉; zh-hant:聖塔芭芭拉;"
+    },
+    {
+      "original": "Santa Clara",
+      "conv": "zh-hans:圣克拉拉; zh-hant:聖塔克拉拉; zh-hk:聖克拉拉;"
+    },
+    {
+      "original": "Santa Cruz",
+      "conv": "zh-hans:圣克鲁斯; zh-hant:聖塔克魯茲;"
+    },
+    {
+      "original": "Santa Fe",
+      "conv": "zh-hans:圣菲; zh-hant:聖塔非;"
+    },
+    {
+      "original": "Santa Rosa",
+      "conv": "zh-hans:圣罗莎; zh-hant:聖塔羅沙;"
     },
     {
       "original": "San Bernardino",
@@ -677,11 +917,19 @@
     },
     {
       "original": "San Diego",
-      "conv": "zh-hans:圣迭戈; zh-hant:聖地牙哥; zh-hk:聖地亞哥; zh-mo:聖地亞哥;"
+      "conv": "zh-hans:圣迭戈; zh-hant:聖地牙哥;"
+    },
+    {
+      "original": "San Diego",
+      "conv": "圣地亚哥=>zh-cn:圣迭戈;圣地亚哥=>zh-sg:圣迭戈;圣地亚哥=>zh-my:圣迭戈;圣地亚哥=>zh-tw:聖地牙哥;圣地亚哥=>zh-hk:聖地牙哥;圣地亚哥=>zh-mo:聖地牙哥;"
+    },
+    {
+      "original": "San Diego",
+      "conv": "聖地亞哥=>zh-cn:圣迭戈;聖地亞哥=>zh-sg:圣迭戈;聖地亞哥=>zh-my:圣迭戈;聖地亞哥=>zh-tw:聖地牙哥;聖地亞哥=>zh-hk:聖地牙哥;聖地亞哥=>zh-mo:聖地牙哥;"
     },
     {
       "original": "San Jose",
-      "conv": "zh-cn:圣何塞; zh-hk:聖何西; zh-tw:聖荷西"
+      "conv": "zh-hans:圣何塞;zh-hant:聖荷西;"
     },
     {
       "original": "San Mateo",
@@ -692,20 +940,20 @@
       "conv": "zh-hans:圣巴勃罗; zh-hant:聖帕布羅;"
     },
     {
-      "original": "Santa Fe",
-      "conv": "zh-hans:圣菲; zh-hant:聖非;"
-    },
-    {
-      "original": "Santa Rosa",
-      "conv": "zh-hans:圣罗莎; zh-hant:聖羅沙;"
-    },
-    {
       "original": "Scotts Valley",
       "conv": "zh-hans:斯科茨谷; zh-hk:史葛斯谷; zh-hant:史考茲谷;"
     },
     {
       "original": "Shepherd",
       "conv": "zh-hans:谢泼德; zh-tw:雪柏; zh-hant:謝潑德;"
+    },
+    {
+      "original": "Snohomish",
+      "conv": "zh-cn:斯诺霍米什; zh-tw:史諾荷密什; zh-hk:斯諾霍米什"
+    },
+    {
+      "original": "St. Louis",
+      "conv": "zh-hans:圣路易斯;zh-tw:聖路易;zh-hk:聖路易斯;"
     },
     {
       "original": "Stirling",
@@ -749,7 +997,11 @@
     },
     {
       "original": "Stanford",
-      "conv": "zh-hans:斯坦福; zh-hant:史丹福;"
+      "conv": "zh-hans:斯坦福;zh-tw:史丹佛;zh-hk:史丹福;"
+    },
+    {
+      "original": "Superior",
+      "conv": "zh-hans:苏必利尔; zh-hant:蘇必略; zh-cn:苏必利尔; zh-tw:蘇必略;"
     },
     {
       "original": "Susquehanna",
@@ -774,6 +1026,26 @@
     {
       "original": "Tulsa, Oklahoma",
       "conv": "zh-hans:塔尔萨; zh-hk:塔爾薩; zh-tw:土爾沙;"
+    },
+    {
+      "original": "Urbana",
+      "conv": "zh-hans:厄巴纳; zh-hant:厄巴納; zh-hk:奧班拿;"
+    },
+    {
+      "original": "Vigo Country",
+      "conv": "zh-hant:維哥縣;zh-cn:维戈县;zh-hk:維戈縣;zh-tw:維哥郡;"
+    },
+    {
+      "original": "Vigo Country",
+      "conv": "维哥县=>zh-cn:维戈县;维哥县=>zh-hk:維戈縣;维哥县=>zh-tw:維哥郡;"
+    },
+    {
+      "original": "Virgin Islands",
+      "conv": "zh-cn:维尔京群岛;zh-tw:維京群島;zh-hk:處女群島;"
+    },
+    {
+      "original": "Virgin Islands",
+      "conv": "zh:維爾京群島;zh-cn:维尔京群岛;zh-tw:維京群島;zh-hk:處女群島;"
     },
     {
       "original": "Wakefield",
@@ -808,6 +1080,14 @@
       "conv": "窝打老=>zh-cn:滑铁卢;窝打老=>zh-my:滑铁卢;窝打老=>zh-sg:滑铁卢;窝打老=>zh-tw:滑鐵盧;"
     },
     {
+      "original": "Watsonville",
+      "conv": "zh-hans:沃森维尔; zh-hant:華生維爾;"
+    },
+    {
+      "original": "Wellington",
+      "conv": "zh-hans:惠灵顿; zh-hant:威靈頓;"
+    },
+    {
       "original": "Wilmington",
       "conv": "zh-cn:威尔明顿; zh-tw:威明頓; zh-hant:威爾明頓;"
     },
@@ -820,8 +1100,8 @@
       "conv": "zh-hans:伍德兰; zh-hant:森林地;"
     },
     {
-      "original": "Watsonville",
-      "conv": "zh-hans:沃森维尔; zh-hant:華生維爾;"
+      "original": "Worcester",
+      "conv": "zh-hans:伍斯特; zh-hant:烏斯特; zh-hk:伍斯特; zh-tw:伍斯特;"
     },
     {
       "original": "Yosemite",
@@ -834,6 +1114,10 @@
     {
       "original": "Federal Information Processing Standards",
       "conv": "zh-tw:聯邦資料處理標準;  zh-cn:联邦信息处理标准;"
+    },
+    {
+      "original": "Cornell University",
+      "conv": "zh-cn:康奈尔大学; zh-tw:康乃爾大學; zh-hk:康奈爾大學;"
     },
     {
       "original": "Waterloo Road",
@@ -856,8 +1140,24 @@
       "conv": "zh-hans:香槟语;zh-hant:香檳語;"
     },
     {
+      "original": "Green Bay Packers",
+      "conv": "zh-hans:绿湾包装工;zh-hant:綠灣包裝工;"
+    },
+    {
       "original": "MIT",
       "conv": "zh-hans:麻省理工;zh-hant:麻省理工;"
+    },
+    {
+      "original": "Saint Philip",
+      "conv": "zh-hans:圣菲利普;zh-hant:聖菲利普;"
+    },
+    {
+      "original": "Puerto Rico",
+      "conv": "zh-hans:波多黎各; zh-hant:波多黎各;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:乒乓外交; zh-tw:乒乓外交;"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "name": "CL Places",
+  "description": "智利地名",
+  "path": "Module:CGroup/CL Places",
+  "rules": [
+    {
+      "original": "Andes",
+      "conv": "zh-cn:安第斯; zh-hk:安第斯; zh-tw:安地斯;"
+    },
+    {
+      "original": "Atacama",
+      "conv": "zh-cn:阿塔卡马; zh-hk:阿塔卡馬; zh-tw:阿他加馬;"
+    },
+    {
+      "original": "Brunswick",
+      "conv": "zh-hans:不伦瑞克; zh-hk:不倫瑞克; zh-tw:布藍茲維;"
+    },
+    {
+      "original": "Chillán",
+      "conv": "zh:奇廉; zh-tw:奇陽;"
+    },
+    {
+      "original": "Osorno",
+      "conv": "zh-hans:奥索尔诺; zh-tw:奧索諾;"
+    },
+    {
+      "original": "Punta Arenas",
+      "conv": "zh-hans:蓬塔阿雷纳斯; zh-hant:蓬塔阿雷納斯; zh-tw:旁塔阿雷納斯;"
+    },
+    {
+      "original": "Santiago",
+      "conv": "zh:聖地亞哥; zh-hans:圣地亚哥; zh-hant:聖地牙哥;"
+    },
+    {
+      "original": "San Bernardo",
+      "conv": "zh-hant:聖貝爾納多; zh-hans:圣贝尔纳多;zh-hk:聖賓拿度;zh-tw:聖貝納多;"
+    },
+    {
+      "original": "San Fernando",
+      "conv": "zh-cn:圣费尔南多; zh-hk:聖費南度; zh-tw:聖費南多; zh-hant:聖費爾南多;"
+    },
+    {
+      "original": "Viña del Mar",
+      "conv": "zh-hans:比尼亚德尔马; zh-tw:維涅馬爾; zh-hant:比尼亞德爾馬;"
+    }
+  ]
+}

@@ -576,24 +576,28 @@
       "conv": "zh-cn:工具栏; zh-tw:工具列"
     },
     {
-      "original": "Extended Support",
-      "conv": "zh:延伸支持;zh-cn:扩展支持; zh-hant:延伸支援;"
-    },
-    {
       "original": "apply",
       "conv": "zh-hans:应用; zh-hant:套用;"
     },
     {
-      "original": "tile",
-      "conv": "zh-hans:磁贴; zh-hant:磚;"
+      "original": "Extended Support",
+      "conv": "zh:延伸支持;zh-cn:扩展支持; zh-hant:延伸支援;"
+    },
+    {
+      "original": "File managers",
+      "conv": "zh-cn:文件管理器;zh-tw:檔案管理員"
+    },
+    {
+      "original": "News and Interests",
+      "conv": "zh-cn:资讯和兴趣;zh-tw:新聞和興趣"
     },
     {
       "original": "System Resource Manager",
       "conv": "zh-cn:系统资源管理器;zh-tw:系統資源管理員"
     },
     {
-      "original": "File managers",
-      "conv": "zh-cn:文件管理器;zh-tw:檔案管理員"
+      "original": "tile",
+      "conv": "zh-hans:磁贴; zh-hant:磚;"
     }
   ]
 }

@@ -1,0 +1,403 @@
+{
+  "name": "南美足球队",
+  "description": "南美足球队",
+  "path": "Template:CGroup/南美足球队",
+  "rules": [
+    {
+      "original": "Copa Libertadores",
+      "conv": "zh-hans:解放者杯;zh-hant:自由盃;"
+    },
+    {
+      "original": "Aldosivi",
+      "conv": "zh-hans:阿尔多希维;zh-hk:阿度斯維;"
+    },
+    {
+      "original": "All Boys",
+      "conv": "zh-hans:全男孩;zh-hant:全男孩;zh-hk:男生隊;"
+    },
+    {
+      "original": "Argentinos Juniors",
+      "conv": "zh-hans:阿根廷青年; zh-hk:小阿根廷人;zh-tw:阿根廷青年;"
+    },
+    {
+      "original": "Arsenal de Sarandí",
+      "conv": "zh-hans:萨兰迪阿森纳;zh-hk:沙蘭迪兵工廠;"
+    },
+    {
+      "original": "Atlético Colón",
+      "conv": "zh-hans:科隆竞技;zh-hk:高隆;"
+    },
+    {
+      "original": "Banfield",
+      "conv": "zh-hans:班菲尔德;zh-hk:班菲特;zh-tw: 班菲爾德;"
+    },
+    {
+      "original": "Belgrano",
+      "conv": "zh-hans:贝尔格拉诺;zh-hk:貝格拉諾;"
+    },
+    {
+      "original": "Boca Juniors",
+      "conv": "zh:博卡;zh-hans:博卡;zh-hk:小保加;zh-tw:博卡;"
+    },
+    {
+      "original": "Boca Juniors",
+      "conv": "zh:博卡青年;zh-hans:博卡青年;zh-hk:小保加;zh-tw:博卡青年;"
+    },
+    {
+      "original": "Chacarita Juniors",
+      "conv": "zh-hans:查卡里塔;zh-hk:小農夫;"
+    },
+    {
+      "original": "Defensa y Justicia",
+      "conv": "zh-hans:国防与司法;zh-hk:防衛者;"
+    },
+    {
+      "original": "Estudiantes de La Plata",
+      "conv": "zh-hans:拉普拉塔大学生;zh-hk:拉普拉塔學生隊;"
+    },
+    {
+      "original": "Estudiantes de La Plata",
+      "conv": "zh-hans:拉普拉塔大学生;zh-hk:拉普拉達學生隊;"
+    },
+    {
+      "original": "Estudiantes de La Plata",
+      "conv": "zh-hans:拉普拉塔大学生队;zh-hk:拉普拉塔學生隊;"
+    },
+    {
+      "original": "Estudiantes de La Plata",
+      "conv": "zh-hans:拉普拉塔大学生队;zh-hk:拉普拉達學生隊;"
+    },
+    {
+      "original": "Ferro Carril",
+      "conv": "zh-hans:西部铁路;zh-hk:費羅卡利;"
+    },
+    {
+      "original": "Godoy Cruz",
+      "conv": "zh-hans:戈多伊克鲁斯;zh-hk:葛度爾古斯;"
+    },
+    {
+      "original": "Huracan",
+      "conv": "zh-hans:飓风;zh-cn:飓风;zh-hk:颶風隊;"
+    },
+    {
+      "original": "Independiente",
+      "conv": "zh-hans:独立竞技;zh-hk:獨立隊;"
+    },
+    {
+      "original": "Independiente",
+      "conv": "zh-hans:独立竞技俱乐部;zh-hk:獨立體育會;"
+    },
+    {
+      "original": "Jujuy",
+      "conv": "zh-hans:胡胡伊体操击剑;zh-hk:祖祖爾甘拿斯亞;"
+    },
+    {
+      "original": "Jujuy",
+      "conv": "zh-hans:胡胡伊;zh-hk:祖祖爾;"
+    },
+    {
+      "original": "Lanús",
+      "conv": "zh-hans:拉努斯;zh-hk:拉魯斯;zh-tw:拉努斯;"
+    },
+    {
+      "original": "Newell's Old Boys",
+      "conv": "zh:纽韦尔老男孩;zh-hans:纽韦尔老男孩;zh-hant:紐維爾舊生;zh-hk:紐維爾舊生;zh-tw:紐維爾舊生;zh-mo:紐維爾舊生;"
+    },
+    {
+      "original": "Olimpo",
+      "conv": "zh-hans:奥林波;zh-hk:奧林普;"
+    },
+    {
+      "original": "Patronato",
+      "conv": "zh-hans:帕特罗纳图;zh-hk:帕托拿圖;"
+    },
+    {
+      "original": "Racing Club",
+      "conv": "zh-hans:竞赛队;zh-hk:競賽會;"
+    },
+    {
+      "original": "Rafaela",
+      "conv": "zh-hans:拉斐拉;zh-hk:拉費爾拿;"
+    },
+    {
+      "original": "Rosario Central",
+      "conv": "zh-hans:罗萨里奥中央;zh-hk:羅沙里奧中央;zh-hant:羅薩里奧中央"
+    },
+    {
+      "original": "San Lorenzo de Almagro",
+      "conv": "zh-hans:圣洛伦索;zh-hk:聖羅倫素;"
+    },
+    {
+      "original": "San Martin SJ",
+      "conv": "zh-hans:圣胡安圣马丁;zh-hk:聖馬田聖祖安;"
+    },
+    {
+      "original": "Vélez Sársfield",
+      "conv": "zh-hans:萨斯菲尔德;zh-hk:沙士菲;"
+    },
+    {
+      "original": "Union de Santa Fe",
+      "conv": "zh-hans:圣菲联合;zh-hk:聖達菲聯;"
+    },
+    {
+      "original": "Talleres de Cordoba",
+      "conv": "zh-hans:铁路工厂;zh-cn:铁路工厂;zh-hk:泰拿尼斯;"
+    },
+    {
+      "original": "Avai",
+      "conv": "zh:阿瓦伊;zh-hans:阿瓦伊;zh-hk:艾華爾;zh-tw:阿瓦伊;"
+    },
+    {
+      "original": "America Mineiro",
+      "conv": "zh:阿瓦伊;zh:米内罗美洲;zh-hans:米内罗美洲;zh-hk:阿美利加明尼路;zh-tw:米內羅美洲;"
+    },
+    {
+      "original": "Bahia",
+      "conv": "zh:巴伊亚;zh-hans:巴伊亚;zh-hk:巴希亞;zh-tw:巴伊亞;"
+    },
+    {
+      "original": "Botafogo",
+      "conv": "zh:博塔弗戈;zh-hans:博塔弗戈;zh-hk:保地花高;zh-tw:博塔弗戈;"
+    },
+    {
+      "original": "Ceara",
+      "conv": "zh:塞阿拉;zh-hans:塞阿拉;zh-hk:施亞拉;zh-tw:塞阿拉;"
+    },
+    {
+      "original": "Chapecoense",
+      "conv": "zh:沙佩科恩斯;zh-hans:沙佩科恩斯;zh-hk:查比高恩斯;zh-tw:沙佩科恩斯;"
+    },
+    {
+      "original": "Corinthians",
+      "conv": "zh:科林蒂安;zh-hans:科林蒂安;zh-hk:哥連泰斯;zh-tw:哥林多人;"
+    },
+    {
+      "original": "Coritiba",
+      "conv": "zh:科里蒂巴;zh-hans:科里蒂巴;zh-hk:哥列迪巴;zh-tw:庫里奇巴;"
+    },
+    {
+      "original": "Criciuma",
+      "conv": "zh:克里西乌马;zh-hans:克里西乌马;zh-hk:基斯奧馬;zh-tw:克里西烏馬;"
+    },
+    {
+      "original": "Cruzeiro",
+      "conv": "zh:克鲁塞罗;zh-hans:克鲁塞罗;zh-hk:高士路;zh-tw:克魯塞羅;"
+    },
+    {
+      "original": "Figueirense",
+      "conv": "zh:费古埃伦斯;zh-hans:费古埃伦斯;zh-hk:費古倫斯;"
+    },
+    {
+      "original": "Flamengo",
+      "conv": "zh:法林明高;zh-hans:弗拉门戈;zh-hant:弗拉門戈;zh-hk:法林明高;zh-tw:佛朗明哥;zh-mo:法林明高;"
+    },
+    {
+      "original": "Fluminense",
+      "conv": "zh:弗鲁米嫩塞;zh-hans:弗鲁米嫩塞;zh-hk:富明尼斯;zh-tw:弗魯米嫩塞;"
+    },
+    {
+      "original": "Grêmio",
+      "conv": "zh:格雷米奧;zh-hans:格雷米奥;zh-hk:甘美奧;zh-tw:格雷米奧;"
+    },
+    {
+      "original": "Icasa",
+      "conv": "zh:伊卡萨;zh-hans:伊卡萨;zh-hk:伊卡沙;zh-tw:伊卡薩;"
+    },
+    {
+      "original": "Ipatinga",
+      "conv": "zh:伊帕廷加;zh-hans:伊帕廷加;zh-hk:伊帕汀加;zh-tw:伊帕廷加;"
+    },
+    {
+      "original": "Joinville",
+      "conv": "zh:祖恩維爾;zh-cn:若因维利;zh-tw:積安維爾;zh-hk:祖恩維爾;"
+    },
+    {
+      "original": "Luverdense",
+      "conv": "zh:盧韋爾登塞;zh-hans:卢韦尔登塞;zh-hk:盧維丹斯;zh-tw:盧韋爾登塞;"
+    },
+    {
+      "original": "Sport Club Internacional",
+      "conv": "zh:國際體育會;zh-hans:巴西国际;zh-hant:國際體育會;"
+    },
+    {
+      "original": "Mineiro",
+      "conv": "zh:米内罗;zh-hans:米内罗;zh-hk:明尼路;zh-tw:米內羅;"
+    },
+    {
+      "original": "Natal",
+      "conv": "zh:纳塔尔;zh-hans:纳塔尔;zh-hk:納泰;zh-tw:那托;"
+    },
+    {
+      "original": "Nautico",
+      "conv": "zh:瑙蒂科;zh-hans:诺蒂卡;zh-hk:紐迪高;zh-tw:瑙蒂科;"
+    },
+    {
+      "original": "Palmeiras",
+      "conv": "zh:帕尔梅拉斯;zh-hans:帕尔梅拉斯;zh-hk:彭美拉斯;zh-tw:帕爾梅拉斯;"
+    },
+    {
+      "original": "Palmeiras",
+      "conv": "帕梅拉斯=>zh-cn:帕尔梅拉斯;帕梅拉斯=>zh-hk:彭美拉斯;"
+    },
+    {
+      "original": "Paysandu",
+      "conv": "zh:派桑杜;zh-hans:派桑杜;zh-hk:彼辛度;zh-tw:派桑杜;"
+    },
+    {
+      "original": "Ponte Preta",
+      "conv": "zh:庞特普雷塔;zh-hans:庞特普雷塔;zh-hk:邦迪比達;zh-tw:龐特普雷塔;"
+    },
+    {
+      "original": "Parana",
+      "conv": "zh:巴拉纳;zh-hans:巴拉纳;zh-hk:帕拉拿;zh-tw:巴拉納;zh-mo:巴拉納"
+    },
+    {
+      "original": "Paranaense",
+      "conv": "zh:巴拉纳竞技;zh-hans:巴拉纳竞技;zh-hk:帕拉尼恩斯;zh-tw:巴拉納競技;zh-mo:巴拉納體育會"
+    },
+    {
+      "original": "Portuguesa",
+      "conv": "波圖基沙=>zh-cn:葡萄牙人;波圖基沙=>zh-tw:葡萄牙人;波圖基沙=>zh-hk:波圖基沙;波圖基沙=>zh-mo:葡萄牙人;"
+    },
+    {
+      "original": "Red Bull Bragantino",
+      "conv": "zh:布拉甘蒂诺红牛;zh-cn:布拉甘蒂诺红牛;zh-hk:巴拉干天奴紅牛;zh-tw:布拉甘蒂諾紅牛;"
+    },
+    {
+      "original": "Bragantino",
+      "conv": "zh:布拉甘蒂诺;zh-cn:布拉甘蒂诺;zh-hk:巴拉干天奴;zh-tw:布拉甘蒂諾;"
+    },
+    {
+      "original": "São Caetano",
+      "conv": "zh:圣卡埃塔诺;zh-hans:圣卡埃塔诺;zh-hk:聖卡坦奴;zh-tw:聖卡埃塔諾;"
+    },
+    {
+      "original": "Recife",
+      "conv": "zh:累西腓;zh-hans:累西腓;zh-hk:利斯菲;zh-tw:累西腓;"
+    },
+    {
+      "original": "Sport Club Recife",
+      "conv": "zh:累西腓体育;zh-hans:累西腓体育;zh-hk:利斯菲體育會;zh-tw:累西腓體育;"
+    },
+    {
+      "original": "Santos",
+      "conv": "zh:桑托斯;zh-hans:桑托斯;zh-hk:山度士;zh-tw:桑托斯"
+    },
+    {
+      "original": "Club de Regatas Vasco da Gama",
+      "conv": "zh-cn:瓦斯科达伽马;zh-tw:瓦斯科達伽馬;zh-hk:華斯高;zh-mo:華斯高;"
+    },
+    {
+      "original": "Cuiabá",
+      "conv": "zh-cn:库亚巴;zh-hk:古亞巴;zh-tw:庫亞巴;"
+    },
+    {
+      "original": "Cobreloa",
+      "conv": "zh-hans:科布雷罗阿;zh-tw:科布雷洛;zh-hk:哥比路亞;"
+    },
+    {
+      "original": "Colo-Colo",
+      "conv": "zh-hans:科洛科洛;zh-hk:高路高路;zh-tw:科洛科洛;"
+    },
+    {
+      "original": "Union de Calera",
+      "conv": "zh-hans:尤尼昂;zh-hk:卡拉雷聯;"
+    },
+    {
+      "original": "Española",
+      "conv": "zh-hans:艾斯潘诺拉;zh-hk:艾斯賓路拿;"
+    },
+    {
+      "original": "Atlético Nacional",
+      "conv": "zh-cn:国民竞技;zh-hans:国民竞技;zh-tw:國民競技;zh-hk:國民體育會;"
+    },
+    {
+      "original": "Boyaca Chico",
+      "conv": "zh:博亚卡小伙子;zh-hans:博亚卡小伙子;zh-hk:博亞卡捷高;zh-tw:博亞卡小伙子;"
+    },
+    {
+      "original": "Santa Fe",
+      "conv": "zh-hans:圣塔菲;zh-tw:聖塔菲;zh-hk:聖達菲;"
+    },
+    {
+      "original": "CD Cruz Azul",
+      "conv": "zh-hans:蓝十字竞技俱乐部;zh-hk:藍十字體育會;"
+    },
+    {
+      "original": "América",
+      "conv": "zh-hans:墨西哥美洲;zh-hk:CF阿美利加;zh-mo:CF阿美利加;zh-tw:CF亞美利加;zh-sg:墨西哥美洲;"
+    },
+    {
+      "original": "Club Necaxa",
+      "conv": "zh-hans:内卡哈;zh-hk:尼卡沙;zh-tw:内卡哈;"
+    },
+    {
+      "original": "Tigres",
+      "conv": "zh-cn:老虎队;zh-hk:堤格雷斯;zh-tw:老虎隊;"
+    },
+    {
+      "original": "Tigres UNAL",
+      "conv": "zh-cn:新莱昂自治大学老虎;zh-hk:新利昂自治大學堤格雷斯;zh-tw:新萊昂自治大學老虎;"
+    },
+    {
+      "original": "Monterrey",
+      "conv": "zh-hans:蒙特雷; zh-hk:蒙特里;zh-tw:蒙特雷;"
+    },
+    {
+      "original": "Luqueno",
+      "conv": "zh-hans:卢克尼奥;zh-hk:路昆奴;"
+    },
+    {
+      "original": "Club Nacional",
+      "conv": "zh-hans:国民俱乐部;zh-hk:國民會;"
+    },
+    {
+      "original": "Libertad",
+      "conv": "zh-hans:自由俱乐部;zh-hant:自由俱樂部;zh-tw:亞松森自由;zh-hk:利伯泰迪會;"
+    },
+    {
+      "original": "Club de Alto Rendimiento Especializado Independiente del Valle",
+      "conv": "zh-cn:山谷独立;zh-hk:迪華利獨立;zh-tw:山谷獨立;"
+    },
+    {
+      "original": "Club Nacional de Football",
+      "conv": "zh-hans:国民队;zh-hant:國民隊;"
+    },
+    {
+      "original": "Club Nacional de Football",
+      "conv": "zh-hans:蒙得维的亚国民;zh-hk:蒙特維多國民隊;"
+    },
+    {
+      "original": "Club Nacional de Football",
+      "conv": "zh-hans:国民足球俱乐部;zh-hk:國民足球會;"
+    },
+    {
+      "original": "Danubio",
+      "conv": "zh-hans:多瑙河;zh-tw:多瑙河;zh-hk:達奴比奧;"
+    },
+    {
+      "original": "Defensor Sporting",
+      "conv": "zh-hans:防卫者体育;zh-tw:防衛者體育;zh-hk:迪芬沙士砵亭;"
+    },
+    {
+      "original": "Fénix",
+      "conv": "zh-hans:凤凰竞技;zh-tw:鳳凰競技;zh-hk:芬斯;"
+    },
+    {
+      "original": "Montevideo Wanderers",
+      "conv": "zh-hans:蒙得维的亚流浪者;zh-tw:蒙得維的亞流浪者;zh-hk:蒙特維多流浪;"
+    },
+    {
+      "original": "Peñarol",
+      "conv": "zh-hans:佩那罗尔;zh-tw:佩納羅爾;zh-hk:彭拿路;"
+    },
+    {
+      "original": "Sud América",
+      "conv": "zh-hans:南美洲竞技;zh-tw:南美洲競技;zh-hk:蘇特阿美利加;"
+    },
+    {
+      "original": "Defensor Sporting Club",
+      "conv": "zh-hans:捍卫者体育;zh-tw:捍衛者體育;zh-hk:迪芬沙士砵亭;"
+    }
+  ]
+}

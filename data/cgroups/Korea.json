@@ -1,6 +1,6 @@
 {
   "name": "Korea",
-  "description": "朝鲜半岛",
+  "description": "朝鲜半岛用语",
   "path": "Module:CGroup/Korea",
   "rules": [
     {
@@ -13,11 +13,11 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:北韩;zh-my:北韩;"
+      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:朝鲜;zh-my:朝鲜;"
     },
     {
       "original": null,
-      "conv": "zh:朝鮮;zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:北韩;zh-my:北韩;"
+      "conv": "zh:朝鮮;zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:朝鲜;zh-my:朝鲜;"
     },
     {
       "original": null,
@@ -25,7 +25,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:朝韩;zh-tw:南北韓;zh-hk:南北韓;zh-mo:南北韓;zh-sg:南北韩;zh-my:南北韩;"
+      "conv": "zh-cn:朝韩;zh-tw:南北韓;zh-hk:南北韓;zh-mo:南北韓;zh-sg:朝韩;zh-my:朝韩;"
     },
     {
       "original": null,
@@ -33,63 +33,67 @@
     },
     {
       "original": null,
-      "conv": "韩朝=>zh-tw:南北韓;韩朝=>zh-hk:南北韓;韩朝=>zh-mo:南北韓;韩朝=>zh-my:南北韩;韩朝=>zh-sg:南北韩;"
+      "conv": "韩朝=>zh-tw:南北韓;韩朝=>zh-hk:南北韓;韩朝=>zh-mo:南北韓;"
     },
     {
       "original": null,
-      "conv": "韓朝=>zh-tw:南北韓;韓朝=>zh-hk:南北韓;韓朝=>zh-mo:南北韓;韓朝=>zh-my:南北韩;韓朝=>zh-sg:南北韩;"
+      "conv": "韓朝=>zh-tw:南北韓;韓朝=>zh-hk:南北韓;韓朝=>zh-mo:南北韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜与韩国;zh-tw:北韓與南韓;zh-hk:北韓與南韓;zh-mo:北韓與南韓;zh-sg:北韩与南韩;zh-my:北韩与南韩;"
+      "conv": "zh-cn:朝鲜与韩国;zh-tw:北韓與南韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国与朝鲜;zh-tw:南韓與北韓;zh-hk:南韓與北韓;zh-mo:南韓與北韓;zh-sg:南韩与北韩;zh-my:南韩与北韩;"
+      "conv": "zh-cn:韩国与朝鲜;zh-tw:南韓與北韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜和韩国;zh-tw:北韓和南韓;zh-hk:北韓和南韓;zh-mo:北韓和南韓;zh-sg:北韩和南韩;zh-my:北韩和南韩;"
+      "conv": "zh-cn:朝鲜和韩国;zh-tw:北韓和南韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国和朝鲜;zh-tw:南韓和北韓;zh-hk:南韓和北韓;zh-mo:南韓和北韓;zh-sg:南韩和北韩;zh-my:南韩和北韩;"
+      "conv": "zh-cn:韩国和朝鲜;zh-tw:南韓和北韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜同韩国;zh-tw:北韓同南韓;zh-hk:北韓同南韓;zh-mo:北韓同南韓;zh-sg:北韩同南韩;zh-my:北韩同南韩;"
+      "conv": "zh-cn:朝鲜同韩国;zh-tw:北韓同南韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国同朝鲜;zh-tw:南韓同北韓;zh-hk:南韓同北韓;zh-mo:南韓同北韓;zh-sg:南韩同北韩;zh-my:南韩同北韩;"
+      "conv": "zh-cn:韩国同朝鲜;zh-tw:南韓同北韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜及韩国;zh-tw:北韓及南韓;zh-hk:北韓及南韓;zh-mo:北韓及南韓;zh-sg:北韩及南韩;zh-my:北韩及南韩;"
+      "conv": "zh-cn:朝鲜及韩国;zh-tw:北韓及南韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国及朝鲜;zh-tw:南韓及北韓;zh-hk:南韓及北韓;zh-mo:南韓及北韓;zh-sg:南韩及北韩;zh-my:南韩及北韩;"
+      "conv": "zh-cn:韩国及朝鲜;zh-tw:南韓及北韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜以及韩国;zh-tw:北韓以及南韓;zh-hk:北韓以及南韓;zh-mo:北韓以及南韓;zh-sg:北韩以及南韩;zh-my:北韩以及南韩;"
+      "conv": "zh-cn:朝鲜以及韩国;zh-tw:北韓以及南韓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:韩国以及朝鲜;zh-tw:南韓以及北韓;zh-hk:南韓以及北韓;zh-mo:南韓以及北韓;zh-sg:南韩以及北韩;zh-my:南韩以及北韩;"
+      "conv": "zh-cn:韩国以及朝鲜;zh-tw:南韓以及北韓;"
     },
     {
       "original": null,
-      "conv": "兩韓=>zh-cn:朝韩;两韩=>zh-cn:朝韩;"
+      "conv": "兩韓=>zh-cn:朝韩;兩韓=>zh-sg:朝韩;兩韓=>zh-my:朝韩;"
     },
     {
       "original": null,
-      "conv": "南北朝鲜=>zh-cn:朝韩;南北朝鲜=>zh-tw:南北韓;南北朝鲜=>zh-hk:南北韓;南北朝鲜=>zh-mo:南北韓;南北朝鲜=>zh-sg:南北韩;南北朝鲜=>zh-my:南北韩;"
+      "conv": "两韩=>zh-cn:朝韩;两韩=>zh-sg:朝韩;两韩=>zh-my:朝韩;"
     },
     {
       "original": null,
-      "conv": "南北朝鮮=>zh-cn:朝韩;南北朝鮮=>zh-tw:南北韓;南北朝鮮=>zh-hk:南北韓;南北朝鮮=>zh-mo:南北韓;南北朝鮮=>zh-sg:南北韩;南北朝鮮=>zh-my:南北韩;"
+      "conv": "南北朝鲜=>zh-cn:朝韩;南北朝鲜=>zh-tw:南北韓;南北朝鲜=>zh-hk:南北韓;南北朝鲜=>zh-mo:南北韓;南北朝鲜=>zh-sg:朝韩;南北朝鲜=>zh-my:朝韩;"
+    },
+    {
+      "original": null,
+      "conv": "南北朝鮮=>zh-cn:朝韩;南北朝鮮=>zh-tw:南北韓;南北朝鮮=>zh-hk:南北韓;南北朝鮮=>zh-mo:南北韓;南北朝鮮=>zh-sg:朝韩;南北朝鮮=>zh-my:朝韩;"
     },
     {
       "original": null,
@@ -101,23 +105,43 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:朝方;zh-my:北韩方面;zh-sg:北韩方面;zh-hant:北韓方面;"
+      "conv": "zh-cn:朝方;zh-tw:北韓方面;"
     },
     {
       "original": null,
-      "conv": "北韩方=>zh-cn:朝方;北韓方=>zh-cn:朝方;"
+      "conv": "北韩方=>zh-cn:朝方;北韩方=>zh-sg:朝方;北韩方=>zh-my:朝方;北韓方=>zh-cn:朝方;北韓方=>zh-sg:朝方;北韓方=>zh-my:朝方;"
     },
     {
       "original": null,
-      "conv": "南韩方面=>zh-cn:韩方;南韓方面=>zh-cn:韩方;"
+      "conv": "南韩方面=>zh-cn:韩方;南韩方面=>zh-sg:韩方;南韩方面=>zh-my:韩方;"
     },
     {
       "original": null,
-      "conv": "南韩方=>zh-cn:韩方;南韓方=>zh-cn:韩方;"
+      "conv": "南韓方面=>zh-cn:韩方;南韓方面=>zh-sg:韩方;南韓方面=>zh-my:韩方;"
+    },
+    {
+      "original": null,
+      "conv": "南韩方=>zh-cn:韩方;南韩方=>zh-sg:韩方;南韩方=>zh-my:韩方;"
+    },
+    {
+      "original": null,
+      "conv": "南韓方=>zh-cn:韩方;南韓方=>zh-sg:韩方;南韓方=>zh-my:韩方;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:对朝;zh-tw:對北韓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:对朝鲜;zh-tw:對北韓;"
     },
     {
       "original": null,
       "conv": "zh-hans:古朝鲜;zh-hant:古朝鮮;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:古代朝鲜;zh-hant:古代朝鮮;"
     },
     {
       "original": null,
@@ -393,19 +417,19 @@
     },
     {
       "original": null,
-      "conv": "zh-tw:南北韓高峰會;zh-hk:南北韓首腦會談;zh-mo:南北韓首腦會談;zh-cn:朝韩首脑会晤;zh-my:南北韩首脑会晤;zh-sg:南北韩首脑会晤;"
+      "conv": "zh-tw:南北韓高峰會;zh-hk:南北韓首腦會談;zh-mo:南北韓首腦會談;zh-cn:朝韩首脑会晤;zh-my:朝韩首脑会晤;zh-sg:朝韩首脑会晤;"
     },
     {
       "original": null,
-      "conv": "韩朝首脑会晤=>zh-tw:南北韓高峰會;韩朝首脑会晤=>zh-hk:南北韓首腦會談;韩朝首脑会晤=>zh-mo:南北韓首腦會談;韩朝首脑会晤=>zh-my:南北韩首脑会晤;韩朝首脑会晤=>zh-sg:南北韩首脑会晤;"
+      "conv": "韩朝首脑会晤=>zh-tw:南北韓高峰會;韩朝首脑会晤=>zh-hk:南北韓首腦會談;韩朝首脑会晤=>zh-mo:南北韓首腦會談;韩朝首脑会晤=>zh-my:韩朝首脑会晤;韩朝首脑会晤=>zh-sg:韩朝首脑会晤;"
     },
     {
       "original": null,
-      "conv": "zh-cn:对朝政策;zh-tw:對北政策;zh-hk:對北政策;zh-mo:對北政策;zh-sg:对北政策;zh-my:对北政策;"
+      "conv": "zh-cn:对朝政策;zh-tw:對北政策;zh-hk:對北政策;zh-mo:對北政策;zh-sg:对朝政策;zh-my:对朝政策;"
     },
     {
       "original": null,
-      "conv": "對朝政策=>zh-hk:對北政策;對朝政策=>zh-mo:對北政策;對朝政策=>zh-tw:對北政策;對朝政策=>zh-sg:对北政策;對朝政策=>zh-my:对北政策;"
+      "conv": "對朝政策=>zh-hk:對北政策;對朝政策=>zh-mo:對北政策;對朝政策=>zh-tw:對北政策;"
     },
     {
       "original": null,
@@ -485,6 +509,10 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:朝鲜陆佚娱编辑社;zh-hant:朝鮮陸佚娛編輯社;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:自由韩国党;zh-hant:自由韓國黨;"
     },
     {
@@ -518,6 +546,22 @@
     {
       "original": null,
       "conv": "zh-hans:韩国航空宇宙产业;zh-hant:韓國航空宇宙產業;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韩国文化院;zh-hant:韓國文化院;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:新韩国党;zh-hant:新韓國黨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韩国铁道;zh-hant:韓國鐵道;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:韩国高速铁道;zh-hant:韓國高速鐵道;"
     },
     {
       "original": null,
@@ -697,7 +741,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮海峽;zh-hans:朝鲜海峡;"
+      "conv": "zh-hant:朝鮮海;zh-hans:朝鲜海;"
     },
     {
       "original": null,
@@ -833,7 +877,19 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:朝鲜陶瓷;zh-hant:朝鮮陶瓷;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:朝鲜白瓷;zh-hant:朝鮮白瓷;"
+    },
+    {
+      "original": null,
       "conv": "zh:太極旗飄揚;zh-hans:太极旗飘扬;zh-hant:太極旗－生死兄弟;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-mo:太極旗飄揚：生死有情;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:鋼鐵雨;zh-cn:铁雨;zh-hk:鋼鐵雨;"
     },
     {
       "original": null,

@@ -24,10 +24,6 @@
       "conv": "zh-cn:许可条款; zh-tw:授權條款; zh-hk:特許條款;"
     },
     {
-      "original": "license agreement",
-      "conv": "zh-cn:许可协议; zh-tw:授權合約; zh-hk:特許協議;"
-    },
-    {
       "original": "license",
       "conv": "zh-cn:许可协议;zh-tw:授權條款;zh-hk:特許條款;"
     },
@@ -57,7 +53,7 @@
     },
     {
       "original": "GNU Free Documentation License",
-      "conv": "zh-cn:自由文档许可证;zh-tw:自由文檔許可證;zh-hk:自由文檔許可證;zh-sg:自由文档许可证"
+      "conv": "zh-cn:自由文档许可证;zh-tw:自由文件授權條款;zh-hk:自由文件特許條款;zh-sg:自由文档许可证"
     },
     {
       "original": "GNU Lesser General Public License",
@@ -97,7 +93,11 @@
     },
     {
       "original": "NoDerivs",
-      "conv": "zh-cn:禁止演绎; zh-hk:禁止衍生; zh-tw:禁止改作; zh-cn:禁止演绎;"
+      "conv": "zh-cn:禁止演绎; zh-hk:禁止衍生; zh-tw:禁止改作;"
+    },
+    {
+      "original": "NonCommercial",
+      "conv": "zh-hans:非商业性使用;zh-hant:非商業性"
     },
     {
       "original": "Localization",

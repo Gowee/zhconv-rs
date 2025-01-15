@@ -148,6 +148,10 @@
       "conv": "zh-hk:收入; zh-cn:收入; zh-tw:所得;"
     },
     {
+      "original": "income tax",
+      "conv": "zh-hk:入息稅;zh-cn:所得税;zh-tw:所得稅;"
+    },
+    {
       "original": "level",
       "conv": "zh-cn:水平; zh-tw:水準; zh-hk:水平;"
     },
@@ -241,7 +245,7 @@
     },
     {
       "original": "Economic growth",
-      "conv": "zh-cn:经济增长; zh-tw:經濟成長;經濟增長=>zh-tw:經濟成長;"
+      "conv": "zh-cn:经济增长; zh-tw:經濟成長; zh-hk:經濟增長;"
     },
     {
       "original": "[[:en:The General Theory of Employment, Interest and Money|The General Theory of Employment, Interest and Money]]",
@@ -257,7 +261,7 @@
     },
     {
       "original": "[[:en:Great Depression|Great Depression]]",
-      "conv": "zh-cn:大萧条; zh-sg:大萧条; zh-tw:經濟大蕭條; zh-hk:經濟大蕭條;"
+      "conv": "zh-cn:大萧条; zh-sg:大萧条; zh-tw:經濟大蕭條; zh-hk:大蕭條;"
     },
     {
       "original": "[[:en:Means of production|Means of production]]",
@@ -330,6 +334,18 @@
     {
       "original": "variable",
       "conv": "zh-cn:变量; zh-tw:變數; 變量=>zh-tw:變數;"
+    },
+    {
+      "original": "Market share",
+      "conv": "zh-cn:市場份額; zh-tw:市場佔有率;"
+    },
+    {
+      "original": "Market share",
+      "conv": "zh-cn:市場份額; zh-tw:市佔率;"
+    },
+    {
+      "original": "price reduction",
+      "conv": "zh-cn:减价; zh-tw:降價;"
     },
     {
       "original": "game theory",
@@ -412,6 +428,10 @@
       "conv": "zh-cn:押金; zh-tw:押金; zh-hk:按金"
     },
     {
+      "original": "Entrepreneur",
+      "conv": "实业家=>zh-tw:企業家"
+    },
+    {
       "original": "[[:en:Mortgage|Mortgage]]",
       "conv": "zh-cn:按揭; zh-sg:按揭; zh-tw:抵押; zh-hk:按揭"
     },
@@ -420,11 +440,11 @@
       "conv": "按揭=>zh-tw:抵押;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "按揭抵押;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "抵押按揭;"
     },
     {
@@ -454,6 +474,18 @@
     {
       "original": "exchange-traded funds",
       "conv": "zh-cn:交易型开放式指数基金; zh-tw:指數股票型基金; zh-hk:交易所買賣基金;"
+    },
+    {
+      "original": "senior executive",
+      "conv": "zh-cn:高管; zh-tw:高階主管;"
+    },
+    {
+      "original": "valuation",
+      "conv": "zh-cn:估值; zh-tw:估價;"
+    },
+    {
+      "original": "voluntary winding-up",
+      "conv": "zh:自動清盤; zh-cn:自愿清算;zh-tw:自願清算;zh-hk:自動清盤"
     },
     {
       "original": "[[:en:Initial public offering|Initial public offering]]",
@@ -500,15 +532,15 @@
       "conv": "zh-cn:金融衍生工具; zh-hk:金融衍生產品; zh-tw:衍生性金融商品;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-tw:衍生商品; zh-cn:衍生工具; zh-hk:衍生產品;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-cn:金融商品; zh-tw:金融商品; zh-hk:金融商品;"
     },
     {
-      "original": "",
+      "original": null,
       "conv": "zh-tw:信用衍生性商品; zh-cn:信用衍生工具; zh-hk:信用衍生產品;"
     },
     {
@@ -540,8 +572,8 @@
       "conv": "zh-tw:遠期契約; zh-hk:遠期合約; zh-cn:远期合约;"
     },
     {
-      "original": "contract ",
-      "conv": "合同=>zh-tw:契約; "
+      "original": "Contract",
+      "conv": "zh-tw:合約; zh-cn:合同;"
     },
     {
       "original": "swap ",
@@ -612,8 +644,52 @@
       "conv": "zh-cn:经营现金流; zh-tw:營運現金流量;"
     },
     {
+      "original": "Gross sales",
+      "conv": "zh-cn:毛销售;zh-hk:毛銷售;zh-tw:銷貨總額;"
+    },
+    {
+      "original": "Gross sales",
+      "conv": "zh-cn:营业收入;zh-hk:營業收入;zh-tw:營業收入;"
+    },
+    {
+      "original": "Net sales",
+      "conv": "zh-cn:净销售;zh-hk:淨銷售;zh-tw:銷貨淨額;"
+    },
+    {
+      "original": "sales revenue",
+      "conv": "zh-cn:销售收入;zh-hk:銷售收入;zh-tw:銷貨收入;销货收入=>zh-tw:銷貨收入;"
+    },
+    {
       "original": "[[:en:COGS|COGS]]",
       "conv": "zh-cn:销售成本; zh-tw:銷貨成本; zh-hk:銷售成本;"
+    },
+    {
+      "original": "[[:en:Operating Income|Operating Income]]",
+      "conv": "zh-cn:营业利润; zh-tw:營業利益; zh-hk:營業利潤;"
+    },
+    {
+      "original": "[[:en:Operating Income|Non-operating Income]]",
+      "conv": "zh-cn:业外利润;zh-hk:業外利潤;zh-tw:業外收益;"
+    },
+    {
+      "original": "[[:en:Operating Income|Non-operating Revenue]]",
+      "conv": "zh-cn:业外收入;zh-hk:業外收入;zh-tw:業外收入;"
+    },
+    {
+      "original": "[[:en:Operating Income|Non-operating Expenses]]",
+      "conv": "zh-cn:业外支出;zh-hk:業外支出;zh-tw:業外支出;"
+    },
+    {
+      "original": "[[:en:Earnings before taxes|Earnings before taxes]]",
+      "conv": "zh-cn:税前利润;zh-hk:稅前利潤;zh-tw:稅前盈餘;"
+    },
+    {
+      "original": "",
+      "conv": "zh-cn:税后利润;zh-hk:稅後利潤;zh-tw:稅後淨利;"
+    },
+    {
+      "original": "[[:en:Fiscal Year|Fiscal Year]]",
+      "conv": "zh-cn:财政年度;zh-hk:財政年度;zh-tw:會計年度;"
     },
     {
       "original": "South African Rand",
@@ -636,8 +712,24 @@
       "conv": "zh-cn:联储; zh-tw:聯準; zh-hk:聯儲;"
     },
     {
+      "original": "Reserve Bank",
+      "conv": "zh-cn:储备银行; zh-tw:準備銀行; zh-hk:儲備銀行;"
+    },
+    {
+      "original": "Federal Reserve System",
+      "conv": "zh-hans:联邦储备系统;zh-tw:聯邦準備制度;zh-hk:聯邦儲備系統;"
+    },
+    {
+      "original": "Federal Reserve Board of Governors",
+      "conv": "zh-cn:联邦储备委员会; zh-tw:聯邦準備理事會; zh-hk:聯邦儲備局; 聯邦儲備委員會=>zh-tw:聯邦準備理事會"
+    },
+    {
       "original": "Forbes",
-      "conv": "zh-cn:福布斯; zh-sg:资本家杂志; zh-hk:福布斯; zh-tw:富比士;"
+      "conv": "zh-cn:福布斯; zh-sg:福布斯; zh-hk:福布斯; zh-tw:富比士;"
+    },
+    {
+      "original": "Forbes",
+      "conv": "富比世=>zh-cn:福布斯; 富比世=>zh-sg:福布斯; 富比世=>zh-hk:福布斯;"
     },
     {
       "original": "[[:en:Northern Rock|Northern Rock]]",

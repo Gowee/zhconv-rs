@@ -1,0 +1,235 @@
+{
+  "name": "NWSL",
+  "description": "[[國家女子足球聯賽]]",
+  "path": "Module:CGroup/NWSL",
+  "rules": [
+    {
+      "original": "National Womens Soccer League",
+      "conv": "zh-cn:美国女子职业足球赛;zh-hk:美國女子職業足球賽;zh-tw:國家女子足球聯賽;"
+    },
+    {
+      "original": "NWSL Challenge Cup",
+      "conv": "zh-cn:美国女子职业足球赛挑战杯;zh-hk:美國女子挑戰盃;zh-tw:國家女子足球聯賽挑戰盃;"
+    },
+    {
+      "original": "New Jersey",
+      "conv": "zh-hans:新泽西;zh-hk:新澤西;zh-tw:紐澤西;"
+    },
+    {
+      "original": "San Diego",
+      "conv": "zh-hans:圣迭戈;zh-hant:聖地牙哥;"
+    },
+    {
+      "original": "Houston",
+      "conv": "zh-hans:休斯敦;zh-hk:侯斯頓;zh-tw:休士頓;"
+    },
+    {
+      "original": "North Carolina",
+      "conv": "zh-hans:北卡罗来纳;zh-hant:北卡羅萊納;"
+    },
+    {
+      "original": "Louisville",
+      "conv": "zh-cn:路易斯维尔;zh-hant:路易維爾;"
+    },
+    {
+      "original": "Racing Louisville FC",
+      "conv": "zh-cn:路易斯维尔竞技;zh-hk:路易維爾競技;zh-tw:路易維爾競技;"
+    },
+    {
+      "original": "Houston Dash",
+      "conv": "zh-cn:休斯敦冲刺;zh-hk:侯斯頓達斯;zh-tw:休士頓衝鋒;"
+    },
+    {
+      "original": "San Diego Wave FC",
+      "conv": "zh-cn:圣迭戈海浪;zh-hant:聖地牙哥波浪;"
+    },
+    {
+      "original": "Kansas City Current",
+      "conv": "zh-cn:堪萨斯城川流;zh-hk:堪薩斯城川流;zh-tw:堪薩斯城潮流;"
+    },
+    {
+      "original": "Orlando Pride",
+      "conv": "zh-cn:奥兰多荣耀;zh-hk:奧蘭多驕傲;zh-tw:奧蘭多榮耀;"
+    },
+    {
+      "original": "North Carolina Courage",
+      "conv": "zh-cn:北卡罗来纳勇气;zh-hk:北卡羅萊納勇氣;zh-tw:北卡羅萊納勇氣;"
+    },
+    {
+      "original": "NJ/NY Gotham FC",
+      "conv": "zh-cn:新泽西/纽约哥谭;zh-hk:新澤西/紐約哥譚;zh-tw:紐澤西/紐約高譚;"
+    },
+    {
+      "original": "Gotham FC",
+      "conv": "zh-cn:哥谭FC;zh-hk:哥譚FC;zh-tw:高譚FC;"
+    },
+    {
+      "original": "Sky Blue FC",
+      "conv": "zh-cn:新泽西天蓝;zh-hk:新澤西天藍;zh-tw:藍天;"
+    },
+    {
+      "original": "Berger, Ann-Katrin",
+      "conv": "zh-hans:安-卡特琳·贝格尔;zh-tw:安-卡特琳·貝爾格;"
+    },
+    {
+      "original": "Bethune, Croix",
+      "conv": "zh-hans:克鲁瓦·贝休恩;zh-tw:克蘿伊·貝杜恩;"
+    },
+    {
+      "original": "Carter, Jess",
+      "conv": "zh-hans:杰丝·卡特;zh-hk:謝絲·卡達;zh-tw:潔絲·卡特;"
+    },
+    {
+      "original": "Dahlkemper, Abby",
+      "conv": "zh-hans:阿比·达尔肯珀;zh-tw:艾比·達爾肯珀;"
+    },
+    {
+      "original": "DeMelo, Savannah",
+      "conv": "zh-hans:萨万娜·德梅洛;zh-tw:薩凡娜·德梅洛;"
+    },
+    {
+      "original": "Debinha",
+      "conv": "zh-hans:德宾妮亚;zh-hk:德賓夏;zh-tw:德賓妮亞;"
+    },
+    {
+      "original": "Dunn, Crystal",
+      "conv": "zh-hans:克丽丝特尔·邓恩;zh-tw:克莉絲朵·鄧恩;"
+    },
+    {
+      "original": "van Egmond, Emily",
+      "conv": "zh-hans:埃米莉·范埃格蒙德;zh-hk:艾美莉·雲艾蒙;zh-tw:艾蜜莉·范艾格蒙;"
+    },
+    {
+      "original": "Fleming, Jessie",
+      "conv": "zh-hans:洁西·弗雷明;zh-hk:謝茜·費琳明;zh-tw:潔西·弗雷明"
+    },
+    {
+      "original": "Fox, Emily",
+      "conv": "zh-hans:埃米莉·福克斯;zh-hk:艾美莉·霍絲;zh-tw:艾蜜莉·福克斯;"
+    },
+    {
+      "original": "Gilles, Vanessa",
+      "conv": "zh-hans:瓦妮莎·吉勒;zh-hk:雲妮莎·基莉絲;zh-tw:凡妮莎·吉勒;"
+    },
+    {
+      "original": "Heath, Tobin",
+      "conv": "zh-hans:托宾·希思;zh-hk:托賓·希芙;zh-tw:托賓·希思;"
+    },
+    {
+      "original": "Hill, Rachel",
+      "conv": "zh-hans:雷切尔·希尔;zh-hk:麗素·希爾;zh-tw:瑞秋·希爾;"
+    },
+    {
+      "original": "Huitema, Jordyn",
+      "conv": "zh-hans:乔丁·海特玛;zh-hk:佐丁·夏伊提瑪;zh-tw:喬丁·海特瑪;"
+    },
+    {
+      "original": "Krueger, Casey",
+      "conv": "zh-hans:凯茜·克鲁格;zh-tw:凱西·克魯格;"
+    },
+    {
+      "original": "Leon, Adrianna",
+      "conv": "zh-hans:阿德里安娜·利昂;zh-hk:阿積安娜·理安;zh-tw:阿德里安娜·利昂;"
+    },
+    {
+      "original": "Marta",
+      "conv": "zh-hans:玛塔;zh-hk:瑪達;zh-tw:瑪塔;"
+    },
+    {
+      "original": "Murphy, Casey",
+      "conv": "zh-hans:凯茜·墨菲;zh-tw:凱西·墨菲;"
+    },
+    {
+      "original": "O Hara, Kelley",
+      "conv": "zh-hans:凯莉·奥哈拉;zh-tw:凱莉·歐哈拉;"
+    },
+    {
+      "original": "O Reilly, Heather",
+      "conv": "zh-hans:希瑟·奥赖利;zh-hk:希瑟·奧賴利;zh-tw:海瑟·歐萊利"
+    },
+    {
+      "original": "Oshoala, Asisat",
+      "conv": "zh-hans:阿西萨特·奥肖拉;zh-tw:亞希薩特·奧紹拉;"
+    },
+    {
+      "original": "Prince, Nichelle",
+      "conv": "zh-hans:妮谢尔·普林斯;zh-hk:妮舍爾·普連斯;zh-tw:妮謝爾·普林斯;"
+    },
+    {
+      "original": "Riley, Ali",
+      "conv": "zh-hans:阿莉·赖利;zh-tw:艾莉·萊利;"
+    },
+    {
+      "original": "Rodman, Trinity",
+      "conv": "zh-hans:特里尼蒂·罗德曼;zh-hk:卓妮迪·洛文;zh-tw:崔妮蒂·羅德曼;"
+    },
+    {
+      "original": "Riley, Ali",
+      "conv": "zh-hans:特里尼蒂·罗德曼;zh-hk:卓妮迪·洛文;zh-tw:崔妮蒂·羅德曼;"
+    },
+    {
+      "original": "Sams, Emily",
+      "conv": "zh-hans:埃米莉·萨姆斯;zh-hk:艾美莉·森姆斯;zh-tw:艾蜜莉·山姆斯;"
+    },
+    {
+      "original": "Sanchez, Ashley",
+      "conv": "zh-hans:阿什莉·桑切斯;zh-hk:艾殊莉·山齊士;zh-tw:艾許莉·桑切斯;"
+    },
+    {
+      "original": "Sheridan, Kailen",
+      "conv": "zh-hans:凯伦·谢里登;zh-hk:琪倫·舍列丹;zh-tw:凱倫·謝里登;"
+    },
+    {
+      "original": "Sinclair, Christine",
+      "conv": "zh-hans:克里斯汀·辛克莱尔;zh-hk:姬絲甸·冼佳亞;zh-tw:克里斯汀·辛克萊爾;"
+    },
+    {
+      "original": "Smith, Sophia",
+      "conv": "zh-hans:索菲娅·史密斯;zh-hk:索菲亞·史密芙;zh-tw:索菲亞·史密斯;"
+    },
+    {
+      "original": "Sonnett, Emily",
+      "conv": "zh-hans:埃米莉·桑尼特;zh-tw:艾蜜莉·桑內特;"
+    },
+    {
+      "original": "Sullivan, Andi",
+      "conv": "zh-hans:安迪·沙利文;zh-tw:安蒂·蘇利文;"
+    },
+    {
+      "original": "Swanson, Mallory",
+      "conv": "zh-hans:马洛丽·斯旺森;zh-hk:瑪洛麗·史雲遜;zh-tw:瑪洛麗·史瓦森;"
+    },
+    {
+      "original": "Thompson, Alyssa",
+      "conv": "zh-hans:阿莉莎·汤普森;zh-tw:艾莉莎·湯普森;"
+    },
+    {
+      "original": "Ertz, Julie",
+      "conv": "zh-hans:朱莉·厄茨;zh-tw:茱莉·厄茲;"
+    },
+    {
+      "original": "Hamm, Mia",
+      "conv": "zh-hans:米娅·哈姆;zh-hk:韓美亞;zh-tw:米婭·哈姆;"
+    },
+    {
+      "original": "Lloyd, Carli",
+      "conv": "zh-hans:卡莉·劳埃德;zh-hk:卡莉·萊特;zh-tw:卡莉·勞埃德;"
+    },
+    {
+      "original": "Morgan, Alex ",
+      "conv": "zh-hans:亚历克丝·梅根;zh-hk:亞歷絲·摩根;zh-tw:亞歷克斯·摩根"
+    },
+    {
+      "original": "Rapinoe, Megan",
+      "conv": "zh-cn:梅甘·拉皮诺;zh-hk:美謹·韋冰露;zh-tw:梅根·拉皮諾;"
+    },
+    {
+      "original": "Solo, Hope",
+      "conv": "zh-hans:霍普·索洛;zh-hk:霍普·蘇露;zh-tw:霍普·索洛;"
+    },
+    {
+      "original": "Wambach, Abby",
+      "conv": "zh-hans:阿比·瓦姆巴赫;zh-hk:阿比·雲芭芝;zh-tw:艾比·溫巴赫;"
+    }
+  ]
+}

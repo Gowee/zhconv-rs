@@ -4,6 +4,18 @@
   "path": "Template:CGroup/Shinkalion",
   "rules": [
     {
+      "original": "新幹線変形ロボ シンカリオン",
+      "conv": "zh-cn:新干线变形机器人 进化利恩;zh-hk:新幹線戰士;zh-tw:新幹線變形機器人;"
+    },
+    {
+      "original": "シンカリオンZ",
+      "conv": "zh-cn:进化利恩之极;zh-hk:新幹線戰士Z;zh-tw:新幹線變形機器人Z;"
+    },
+    {
+      "original": "シンカリオン チェンジ ザ ワールド",
+      "conv": "zh-hant:新幹線戰士 Change the World;zh-hans:新干线变形机器人 改变世界;zh-hk:新幹線戰士 改變世界;zh-tw:新幹線變形機器人 變革世代;"
+    },
+    {
       "original": "",
       "conv": "zh-hant:大門山貫;zh-hk:大門山貫;zh-tw:大門山徹;"
     },
@@ -105,6 +117,42 @@
     },
     {
       "original": "",
+      "conv": "zh-hk:太晴;zh-tw:大誠;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:舞;zh-tw:真依;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:比娜;zh-tw:碧娜;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:福爾登;zh-tw:弗爾登;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:丹吾;zh-tw:丹後;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:築後;zh-tw:筑後;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:門哥;zh-tw:小高;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:寬、馬薩;zh-tw:廣、正;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:紫苑;zh-tw:詩音;"
+    },
+    {
+      "original": "",
       "conv": "zh-hans:基多拉尔撒斯;zh-hk:基度拉爾撒斯;zh-tw:基多拉爾薩斯;"
     },
     {
@@ -122,6 +170,14 @@
     {
       "original": "",
       "conv": "zh-hans:地下试验场;zh-hk:地下試驗場;zh-tw:地下實驗場;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超铁机;zh-hk:超鐵機;zh-tw:超鐵;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超进化铁道开发机构;zh-hk:超進化鐵路開發機構;zh-tw:超進化鐵道開發機構;"
     },
     {
       "original": "",
@@ -237,11 +293,83 @@
     },
     {
       "original": "",
-      "conv": "zh-hant:E5黃醫生號;zh-hk:E5黃醫生號;zh-tw:E5黃博士號;"
+      "conv": "zh-cn:东隼黄医生号;zh-hk:E5黃醫生號;zh-tw:E5黃博士號;"
     },
     {
       "original": "",
       "conv": "zh-hans:双重极型态;zh-hk:Double Z;zh-tw:雙重Z型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:海鸥号;zh-tw:海鷗號;zh-hk:鷗號;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:超铁机支援车;zh-hk:超鐵機支援車;zh-tw:超鐵特務機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:支援运输机;zh-hk:支援運輸機;zh-tw:超鐵運輸機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:支援拖车;zh-hk:支援拖車;zh-tw:超鐵牽引車;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:支援起重车;zh-hk:支援起重車;zh-tw:超鐵堆高機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:支援钻地车;zh-hk:支援鑽地車;zh-tw:超鐵鑽頭機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:支援蒼藍運輸車;zh-tw:超鐵強化牽引車;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:支援推土車;zh-tw:超鐵推土機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:支援無人機;zh-tw:超鐵無人機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:支援渡輪;zh-tw:超鐵渡輪;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:支援人機;zh-tw:超鐵神機;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:拖車形態;zh-tw:牽引車型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:起重車形態;zh-tw:堆高機型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:鑽地車形態;zh-tw:鑽頭機型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:蒼藍運輸車形態;zh-tw:強化牽引車型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:推土車形態;zh-tw:推土機型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:人機形態;zh-tw:神機型態;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hk:冥王;zh-tw:黑帝斯;"
     },
     {
       "original": "巨大怪物体",
@@ -373,7 +501,7 @@
     },
     {
       "original": "",
-      "conv": "zh-hans:瓦尔德鲁;zh-hant:瓦爾多;zh-hk:瓦爾德魯;zh-tw:瓦爾多;"
+      "conv": "zh-cn:巴鲁德尔;zh-hant:瓦爾多;zh-hk:瓦爾德魯;zh-tw:瓦爾多;"
     },
     {
       "original": "",
@@ -416,12 +544,8 @@
       "conv": "zh-hant:大歩危爺爺;zh-hk:大歩危爺爺;zh-tw:大歩危兒啼爺;"
     },
     {
-      "original": "新幹線変形ロボ シンカリオン",
-      "conv": "zh-cn:新干线变形机器人 进化利恩;zh-hk:新幹線戰士;zh-tw:新幹線變形機器人;"
-    },
-    {
-      "original": "シンカリオンZ",
-      "conv": "zh-cn:进化利恩之极;zh-hk:新幹線戰士Z;zh-tw:新幹線變形機器人Z;"
+      "original": "",
+      "conv": "zh-hk:Unknown;zh-tw:未知怪;"
     },
     {
       "original": "",
@@ -570,6 +694,22 @@
     {
       "original": "",
       "conv": "zh-hant:新幹線集集樂;zh-hk:新幹線遊俠;zh-tw:新幹線集集樂;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:适性值;zh-hk:適性值;zh-tw:適合値;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:捕捉牆;zh-hk:捕捉牆;zh-tw:捕捉防壁;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:指挥员;zh-hk:指揮員;zh-tw:指令員;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:支援合体;zh-hk:支援合體;zh-tw:特務機合體;"
     },
     {
       "original": "",
@@ -830,6 +970,22 @@
     {
       "original": "",
       "conv": "zh-hans:双重极能量炮;zh-hk:雙重Z光速能量炮;zh-tw:雙重Z光速能量炮;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:陆运剑;zh-hk:陸運劍;zh-tw:陸運聖劍;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:双重挖地钻;zh-hk:雙重挖地鑽;zh-tw:鏟掘鑽頭;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:固锁破坏者;zh-hk:固鎖破壞者;zh-tw:迴旋光砲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:陆运刀;zh-hk:陸運刀;zh-tw:陸運光刃;"
     }
   ]
 }

@@ -1,199 +1,211 @@
 {
   "name": "Pixar",
-  "description": "-{zh-cn:皮克斯; zh-tw:皮克斯; zh-hk:彼思;zh-sg:皮克斯;}-",
+  "description": "-{zh-cn:皮克斯;zh-tw:皮克斯;zh-hk:彼思;zh-sg:皮克斯;}-",
   "path": "Module:CGroup/Pixar",
   "rules": [
     {
-      "original": "原文",
-      "conv": "zh:中文;zh-hans:简体;zh-hant:繁體;zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:澳門;"
-    },
-    {
-      "original": "A Bug’s Life",
-      "conv": "zh-hans:虫虫危机; zh-hant:蟲蟲危機; zh-cn:虫虫危机; zh-tw:蟲蟲危機; zh-hk:蟲蟲特工隊; zh-sg:虫虫特工队; zh-mo:蟲蟲特工隊;"
+      "original": "Brave",
+      "conv": "zh-cn:勇敢传说;zh-tw:勇敢傳說;zh-hk:勇敢傳說之幻險森林;zh-sg:勇敢传说;zh-mo:勇敢傳說之幻險森林;"
     },
     {
       "original": "Brave",
-      "conv": "zh-hans:勇敢传说; zh-hant:勇敢傳說; zh-cn:勇敢传说; zh-tw:勇敢傳說; zh-hk:勇敢傳說之幻險森林; zh-sg:勇敢传说; zh-mo:勇敢傳說之幻險森林;"
+      "conv": "勇敢傳說=>zh-sg:勇敢;勇敢傳說之幻險森林=>zh-sg:勇敢;勇敢传说=>zh-sg:勇敢;"
     },
     {
-      "original": "Cars 2",
-      "conv": "zh-hans:赛车总动员2; zh-hant:Cars 2：世界大賽; zh-cn:赛车总动员2; zh-tw:Cars 2：世界大賽; zh-hk:反斗車王2; zh-sg:赛车总动员2; zh-mo:反斗車王2;"
-    },
-    {
-      "original": "Cars 3",
-      "conv": "zh-hans:赛车总动员3; zh-hant:Cars 3：閃電再起; zh-cn:赛车总动员3; zh-tw:Cars 3：閃電再起; zh-hk:反斗車王3; zh-sg:赛车总动员3; zh-mo:反斗車王3;"
+      "original": "A Bug’s Life",
+      "conv": "zh-cn:虫虫危机;zh-tw:蟲蟲危機;zh-hk:蟲蟲特工隊;zh-sg:虫虫特工队;zh-mo:蟲蟲特工隊;"
     },
     {
       "original": "Cars",
-      "conv": "zh-hans:赛车总动员; zh-hant:Cars; zh-cn:赛车总动员; zh-tw:Cars; zh-hk:反斗車王; zh-sg:赛车总动员; zh-mo:反斗車王;zh:汽車總動員;"
+      "conv": "zh-cn:赛车总动员;zh-tw:Cars;zh-hk:反斗車王;zh-sg:赛车总动员;zh-mo:反斗車王;zh:汽車總動員;"
+    },
+    {
+      "original": "Cars 2",
+      "conv": "zh-cn:赛车总动员2;zh-tw:Cars 2：世界大賽;zh-hk:反斗車王2;zh-sg:赛车总动员2;zh-mo:反斗車王2;"
+    },
+    {
+      "original": "Cars 3",
+      "conv": "zh-cn:赛车总动员3：极速挑战;zh-tw:Cars 3：閃電再起;zh-hk:反斗車王3;zh-sg:赛车总动员3;zh-mo:反斗車王3;"
     },
     {
       "original": "Coco",
-      "conv": "zh-cn:寻梦环游记; zh-tw:可可夜總會; zh-hk:玩轉極樂園; zh-sg:可可人生奇遇;"
+      "conv": "zh-cn:寻梦环游记;zh-tw:可可夜總會;zh-hk:玩轉極樂園;zh-sg:可可人生奇遇;"
     },
     {
       "original": "Elemental",
-      "conv": "zh-tw:元素方城市; zh-hk:元素大都會; zh-cn:疯狂元素城;"
+      "conv": "zh-tw:元素方城市;zh-my:元素方城市;zh-hk:元素大都會;zh-sg:疯狂元素城;zh-cn:疯狂元素城;"
+    },
+    {
+      "original": "Elio",
+      "conv": "zh-cn:地球特派员;zh-tw:艾立歐：第三星公關;zh-hk:外星奇遇記;"
     },
     {
       "original": "Finding Dory",
-      "conv": "zh-cn:海底总动员2：多莉去哪儿; zh-tw:海底總動員2：多莉去哪兒？; zh-hk:海底奇兵2; zh-sg:海底总动员 : 寻找多莉;"
+      "conv": "zh-cn:海底总动员2：多莉去哪儿;zh-tw:海底總動員2：多莉去哪兒？;zh-hk:海底奇兵2;zh-sg:海底总动员 : 寻找多莉;"
     },
     {
       "original": "Finding Nemo",
-      "conv": "zh-hans:海底总动员; zh-hant:海底總動員; zh-cn:海底总动员; zh-tw:海底總動員; zh-hk:海底奇兵; zh-sg:海底总动员; zh-mo:海底奇兵;"
+      "conv": "zh-cn:海底总动员;zh-sg:海底总动员;zh-tw:海底總動員;zh-hk:海底奇兵;zh-mo:海底奇兵;"
     },
     {
       "original": "The Good Dinosaur",
-      "conv": "zh-cn:恐龙当家; zh-tw:恐龍當家; zh-hk:恐龍大時代;"
+      "conv": "zh-cn:恐龙当家;zh-tw:恐龍當家;zh-hk:恐龍大時代;"
     },
     {
-      "original": "The Incredibles",
-      "conv": "zh-hans:超人总动员; zh-hant:超人特攻隊; zh-cn:超人总动员; zh-tw:超人特攻隊; zh-hk:超人特工隊; zh-sg:超人特工队; zh-mo:超人特工隊;"
+      "original": "The Incredibles (2)",
+      "conv": "zh-cn:超人总动员;zh-tw:超人特攻隊;zh-hk:超人特工隊;zh-sg:超人特工队;zh-mo:超人特工隊;"
     },
     {
-      "original": "Incredibles 2",
-      "conv": "zh-hans:超人总动员2; zh-hant:超人特攻隊2; zh-cn:超人总动员2; zh-tw:超人特攻隊2; zh-hk:超人特工隊2; zh-sg:超人特工队2; zh-mo:超人特工隊2;"
-    },
-    {
-      "original": "Inside Out",
-      "conv": "zh-cn:头脑特工队; zh-tw:腦筋急轉彎; zh-hk:玩轉腦朋友; zh-sg:脑筋急转弯;"
+      "original": "Inside Out (2)",
+      "conv": "zh-cn:头脑特工队;zh-tw:腦筋急轉彎;zh-hk:玩轉腦朋友;zh-sg:脑筋急转弯;"
     },
     {
       "original": "Luca",
-      "conv": "zh-tw:路卡的夏天; zh-hk:盛夏友晴天; zh-cn:夏日友晴天;"
+      "conv": "zh-tw:路卡的夏天;zh-my:路卡的夏天;zh-hk:盛夏友晴天;zh-cn:夏日友晴天;zh-sg:夏日友晴天;"
     },
     {
       "original": "Monsters, Inc.",
-      "conv": "zh-hans:怪兽电力公司; zh-hant:怪獸電力公司; zh-cn:怪兽电力公司; zh-tw:怪獸電力公司; zh-hk:怪獸公司; zh-sg:怪兽电力公司; zh-mo:怪獸電力公司;"
+      "conv": "zh-cn:怪兽电力公司;zh-tw:怪獸電力公司;zh-hk:怪獸公司;zh-mo:怪獸公司;"
     },
     {
       "original": "Ratatouille",
-      "conv": "zh-hans:料理鼠王; zh-hant:料理鼠王; zh-cn:料理鼠王; zh-tw:料理鼠王; zh-hk:五星級大鼠; zh-sg:料理鼠王; zh-mo:五星級大鼠;"
+      "conv": "zh-cn:美食总动员;zh-sg:料理鼠王;zh-my:料理鼠王;zh-tw:料理鼠王;zh-hk:五星級大鼠;zh-mo:五星級大鼠;"
     },
     {
       "original": "Soul",
-      "conv": "zh-hk:靈魂奇遇記; zh-tw:靈魂急轉彎; zh-cn:心灵奇旅;"
+      "conv": "zh-hk:靈魂奇遇記;zh-tw:靈魂急轉彎;zh-my:灵魂急转弯;zh-sg:心灵奇遇记;zh-cn:心灵奇旅;"
+    },
+    {
+      "original": "Toy Story (3/4)",
+      "conv": "zh-cn:玩具总动员;zh-tw:玩具總動員;zh-hk:反斗奇兵;zh-mo:反斗奇兵;"
     },
     {
       "original": "Toy Story 2",
-      "conv": "zh-hans:玩具总动员2; zh-hant:玩具總動員2; zh-cn:玩具总动员2; zh-tw:玩具總動員2; zh-hk:反斗奇兵續集; zh-sg:玩具总动员2; zh-mo:反斗奇兵續集;"
-    },
-    {
-      "original": "Toy Story 3",
-      "conv": "zh-hans:玩具总动员3; zh-hant:玩具總動員3; zh-cn:玩具总动员3; zh-tw:玩具總動員3; zh-hk:反斗奇兵3; zh-sg:玩具总动员3; zh-mo:反斗奇兵3;"
-    },
-    {
-      "original": "Toy Story 4",
-      "conv": "zh-hans:玩具总动员4; zh-hant:玩具總動員4; zh-cn:玩具总动员4; zh-tw:玩具總動員4; zh-hk:反斗奇兵4; zh-sg:玩具总动员4; zh-mo:反斗奇兵4;"
-    },
-    {
-      "original": "Toy Story",
-      "conv": "zh-hans:玩具总动员; zh-hant:玩具總動員; zh-cn:玩具总动员; zh-tw:玩具總動員; zh-hk:反斗奇兵; zh-sg:玩具总动员; zh-mo:反斗奇兵;"
+      "conv": "zh-cn:玩具总动员2;zh-tw:玩具總動員2;zh-hk:反斗奇兵續集;zh-mo:反斗奇兵續集;"
     },
     {
       "original": "Turning Red",
-      "conv": "zh-hk:熊抱青春記; zh-tw:青春養成記; zh-cn:青春变形记;"
+      "conv": "zh-hk:熊抱青春記;zh-sg:熊抱青春记;zh-tw:青春養成記;zh-cn:青春变形记;"
     },
     {
       "original": "Up",
-      "conv": "zh-hans:飞屋环游记; zh-hant:天外奇蹟; zh-cn:飞屋环游记; zh-tw:天外奇蹟; zh-hk:沖天救兵; zh-sg:飞屋环游记; zh-mo:沖天救兵;"
+      "conv": "zh-cn:飞屋环游记;zh-sg:天外奇迹;zh-my:天外奇迹;zh-tw:天外奇蹟;zh-hk:沖天救兵;zh-mo:沖天救兵;"
     },
     {
       "original": "WALL-E",
-      "conv": "zh-hans:机器人总动员; 机器人总动员=>zh-hant:瓦力; 机器人瓦力=>zh-hant:瓦力; zh-cn:机器人瓦力; 机器人瓦力=>zh-tw:瓦力; 机器人总动员=>zh-tw:瓦力; zh-hk:太空奇兵·威E; zh-sg:机器人总动员; zh-mo:太空奇兵·威E;"
+      "conv": "zh:机器人瓦力;zh-cn:机器人总动员;zh-hk:太空奇兵·威E;zh-mo:太空奇兵·威E;"
     },
     {
-      "original": "Bao",
-      "conv": "zh-cn:包宝宝; zh-tw:包子; zh-hk:包寶寶;"
-    },
-    {
-      "original": "For the Birds",
-      "conv": "zh-hans:鸟！鸟！鸟！; zh-hant:鳥！鳥！鳥！; zh-cn:鸟！鸟！鸟！; zh-tw:電線上的鳥; zh-hk:雀仔樂園; zh-sg:鸟！鸟！鸟！; zh-mo:雀仔樂園;"
-    },
-    {
-      "original": "Geri’s Game",
-      "conv": "zh-hans:棋局; zh-hant:棋局; zh-cn:棋局; zh-tw:棋局; zh-hk:博奕遊戲; zh-sg:棋局; zh-mo:博奕遊戲;"
-    },
-    {
-      "original": "La Luna",
-      "conv": "zh-hans:月光光; zh-hant:月光光; zh-cn:月神; zh-tw:月光光; zh-hk:月亮; zh-sg:月光光; zh-mo:月亮;"
-    },
-    {
-      "original": "Lava",
-      "conv": "zh-cn:熔岩; zh-tw:火山戀曲; zh-hk:熔岩熱戀;"
-    },
-    {
-      "original": "Lifted",
-      "conv": "zh-hans:Lifted; zh-hant:Lifted; zh-cn:綁架課; zh-tw:漂浮; zh-hk:外星仔搞乜鬼; zh-sg:Lifted; zh-mo:外星仔搞乜鬼;"
-    },
-    {
-      "original": "One Man Band",
-      "conv": "zh-hans:单人乐队; zh-hant:許願池; zh-cn:单人乐队; zh-tw:許願池; zh-hk:壹蚊Show; zh-sg:单人乐队; zh-mo:壹蚊Show;"
-    },
-    {
-      "original": "Partly Cloudy",
-      "conv": "zh-hans:晴时多云; zh-hant:晴時多雲; zh-cn:晴时多云; zh-tw:晴時多雲; zh-hk:半嚿雲; zh-sg:晴时多云; zh-mo:半嚿雲;"
-    },
-    {
-      "original": "Red’s Dream",
-      "conv": "zh-hans:Red的梦; zh-hant:單輪車的夢想; zh-cn:Red的梦; zh-tw:單輪車的夢想; zh-hk:單輪車的夢想; zh-sg:Red的梦; zh-mo:單輪車的夢想;"
+      "original": "WALL-E",
+      "conv": "机器人瓦力=>zh-tw:瓦力;机器人瓦力=>zh-sg:瓦力;太空奇兵·威E=>zh-tw:瓦力;太空奇兵·威E=>zh-sg:瓦力;机器人总动员=>zh-tw:瓦力;机器人总动员=>zh-sg:瓦力;"
     },
     {
       "original": "Luxo Jr.",
-      "conv": "zh-hans:小台灯; zh-hant:頑皮跳跳燈; zh-cn:小台灯; zh-tw:頑皮跳跳燈; zh-hk:小洛素; zh-sg:小台灯; zh-mo:小洛素;"
+      "conv": "zh-cn:小台灯;zh-tw:頑皮跳跳燈;zh-hk:小洛素;zh-sg:小台灯;zh-mo:小洛素;"
+    },
+    {
+      "original": "Red’s Dream",
+      "conv": "zh-cn:Red的梦;zh-tw:單輪車的夢想;zh-hk:單輪車的夢想;zh-sg:Red的梦;zh-mo:單輪車的夢想;"
+    },
+    {
+      "original": "Geri’s Game",
+      "conv": "zh-cn:棋局;zh-tw:棋局;zh-hk:博奕遊戲;zh-sg:棋局;zh-mo:博奕遊戲;"
+    },
+    {
+      "original": "For the Birds",
+      "conv": "zh-cn:鸟！鸟！鸟！;zh-tw:電線上的鳥;zh-hk:雀仔樂園;zh-sg:鸟！鸟！鸟！;zh-mo:雀仔樂園;"
+    },
+    {
+      "original": "One Man Band",
+      "conv": "zh-cn:单人乐队;zh-tw:許願池;zh-hk:壹蚊Show;zh-sg:单人乐队;zh-mo:壹蚊Show;"
+    },
+    {
+      "original": "Lifted",
+      "conv": "zh-cn:綁架課;zh-tw:漂浮;zh-hk:外星仔搞乜鬼;zh-sg:Lifted;zh-mo:外星仔搞乜鬼;"
+    },
+    {
+      "original": "Partly Cloudy",
+      "conv": "zh-cn:晴时多云;zh-tw:晴時多雲;zh-hk:半嚿雲;zh-sg:晴时多云;zh-mo:半嚿雲;"
+    },
+    {
+      "original": "La Luna",
+      "conv": "zh-cn:月神;zh-tw:月光光;zh-hk:月亮;zh-sg:月光光;zh-mo:月亮;"
+    },
+    {
+      "original": "The Blue Umbrella",
+      "conv": "zh-cn:蓝雨伞之恋;zh-tw:一支小藍傘;zh-hk:藍雨傘之戀;"
+    },
+    {
+      "original": "Lava",
+      "conv": "zh-cn:熔岩;zh-tw:火山戀曲;zh-hk:熔岩熱戀;"
+    },
+    {
+      "original": "Piper",
+      "conv": "zh-cn:鹬;zh-tw:小鷸初登場;zh-hk:BB肚餓鳥;"
+    },
+    {
+      "original": "Bao",
+      "conv": "zh-cn:包宝宝;zh-tw:包子;zh-hk:包寶寶;"
+    },
+    {
+      "original": "Carl’s Date",
+      "conv": "zh-tw:卡爾有約;zh-hk:卡叔有約;zh-cn:卡尔的约会;"
     },
     {
       "original": "Air Mater",
-      "conv": "zh-hans:空气板牙; zh-hant:噴射拖線; zh-cn:空气板牙; zh-tw:噴射拖線; zh-hk:飛天哨牙嘜; zh-sg:空气板牙; zh-mo:飛天哨牙嘜;"
+      "conv": "zh-cn:空气板牙;zh-tw:噴射拖線;zh-hk:飛天哨牙嘜;zh-sg:空气板牙;zh-mo:飛天哨牙嘜;"
     },
     {
       "original": "BURN-E",
-      "conv": "zh-hans:电焊工波力; zh-hant:本力; zh-cn:电焊工波力; zh-tw:本力; 电焊工波力=>zh-hk:BURN-E; 本力=>zh-hk:BURN-E; 波力=>zh-hk:BURN-E; zh-sg:电焊工波力;"
+      "conv": "zh-cn:电焊工波力;zh-tw:本力;电焊工波力=>zh-hk:BURN-E;本力=>zh-hk:BURN-E;波力=>zh-hk:BURN-E;zh-sg:电焊工波力;"
     },
     {
       "original": "Dug’s Special Mission",
-      "conv": "zh-hans:道格的特别任务; zh-hant:小逗的特殊任務; zh-cn:道格的特别任务; zh-tw:小逗的特殊任務; zh-hk:阿德特殊任務; zh-sg:道格的特别任务; zh-mo:阿德特殊任務;"
+      "conv": "zh-cn:道格的特别任务;zh-tw:小逗的特殊任務;zh-hk:阿德特殊任務;zh-sg:道格的特别任务;zh-mo:阿德特殊任務;"
     },
     {
       "original": "Jack-Jack Attack",
-      "conv": "zh-hans:小杰的攻击; zh-hant:小傑的攻擊; zh-cn:小杰的攻击; zh-tw:小傑的攻擊; zh-hk:積仔全攻擊; zh-sg:小杰的攻击; zh-mo:積仔全攻擊;"
+      "conv": "zh-cn:小杰的攻击;zh-tw:小傑的攻擊;zh-hk:積仔全攻擊;zh-sg:小杰的攻击;zh-mo:積仔全攻擊;"
     },
     {
       "original": "Mater and the Ghostlight",
-      "conv": "zh-hans:板牙遇上鬼火; zh-hant:拖線遇上鬼火; zh-cn:板牙遇上鬼火; zh-tw:拖線遇上鬼火; zh-hk:哨牙嘜鬼火驚魂; zh-sg:板牙遇上鬼火; zh-mo:哨牙嘜鬼火驚魂;"
+      "conv": "zh-cn:板牙遇上鬼火;zh-tw:拖線遇上鬼火;zh-hk:哨牙嘜鬼火驚魂;zh-sg:板牙遇上鬼火;zh-mo:哨牙嘜鬼火驚魂;"
     },
     {
       "original": "Partysaurus Rex",
-      "conv": "zh-cn:派对恐龙; zh-tw:暴暴龍大英雄; zh-hk:抱抱龍大英雄; "
+      "conv": "zh-cn:派对恐龙;zh-tw:暴暴龍大英雄;zh-hk:抱抱龍大英雄;"
     },
     {
       "original": "Small Fry",
-      "conv": "zh-cn:小玩具; zh-tw:薯假包換; zh-hk:薯假包換; "
+      "conv": "zh-cn:小玩具;zh-tw:薯假包換;zh-hk:薯假包換;"
     },
     {
       "original": "The Legend of Mor’du",
-      "conv": "zh-hans:熊魔王传说; zh-hant:熊魔王傳說; zh-cn:熊魔王传说; zh-tw:熊魔王傳說; zh-hk:熊獸魔度的傳說; zh-sg:熊魔王传说; zh-mo:熊獸魔度的傳說;"
+      "conv": "zh-cn:熊魔王传说;zh-tw:熊魔王傳說;zh-hk:熊獸魔度的傳說;zh-sg:熊魔王传说;zh-mo:熊獸魔度的傳說;"
     },
     {
       "original": "Toy Story That Time Forgot",
-      "conv": "zh-hans:玩具总动员：遗忘的时光; zh-hant:玩具總動員：遺忘的時光; zh-cn:玩具总动员：遗忘的时光; zh-tw:玩具總動員：迷失時空; zh-hk:反斗奇兵：迷失時空; zh-sg:玩具总动员：遗忘的时光; zh-mo:反斗奇兵：迷失時空;"
+      "conv": "zh-cn:玩具总动员：遗忘的时光;zh-sg:玩具总动员：遗忘的时光;zh-tw:玩具總動員：迷失時空;zh-hk:反斗奇兵：迷失時空;zh-mo:反斗奇兵：迷失時空;"
     },
     {
       "original": "Your Friend the Rat",
-      "conv": "zh-hans:你的老鼠朋友; zh-hant:您的老鼠好友; zh-cn:你的老鼠朋友; zh-tw:您的老鼠好友; zh-hk:人類老鼠大接觸; zh-sg:你的老鼠朋友; zh-mo:人類老鼠大接觸;"
+      "conv": "zh-cn:你的老鼠朋友;zh-tw:您的老鼠好友;zh-hk:人類老鼠大接觸;zh-sg:你的老鼠朋友;zh-mo:人類老鼠大接觸;"
     },
     {
       "original": "Cars Toons: Mater’s Tall Tales",
-      "conv": "zh-hans:拖线狂想曲; zh-hant:拖線狂想曲; zh-cn:拖线狂想曲; zh-tw:拖線狂想曲; zh-hk:反斗車王闖天關：哨牙嘜外傳; zh-sg:拖线狂想曲; zh-mo:反斗車王闖天關：哨牙嘜外傳;"
+      "conv": "zh-cn:拖线狂想曲;zh-tw:拖線狂想曲;zh-hk:反斗車王闖天關：哨牙嘜外傳;zh-sg:拖线狂想曲;zh-mo:反斗車王闖天關：哨牙嘜外傳;"
     },
     {
       "original": "Monsters at Work",
-      "conv": "zh-tw:怪獸職場求生記; zh-hk:怪獸開工;"
+      "conv": "zh-tw:怪獸職場求生記;zh-hk:怪獸開工;"
     },
     {
-      "original": "Animated Series",
-      "conv": "動畫影集=>zh-hk:動畫劇集;動畫影集=>zh-cn:动画剧集;"
+      "original": "Cars on the Road",
+      "conv": "zh-tw:汽車總動員：公路旅行;zh-hk:反斗車王：公路奇遇記;zh-cn:赛车总动员：公路旅行;"
+    },
+    {
+      "original": "Dug Days",
+      "conv": "zh-tw:小逗的日常;zh-hk:德仔日記;zh-cn:小逗的日子;zh-sg:逗逗的日记;"
     },
     {
       "original": "Axiom",
@@ -201,7 +213,7 @@
     },
     {
       "original": "Computer",
-      "conv": "zh-cn:计算机; zh-tw:電腦; zh-hk:電腦;"
+      "conv": "zh-cn:计算机;zh-sg:电脑;zh-my:电脑;zh-hant:電腦;"
     },
     {
       "original": "Dinoco",
@@ -217,11 +229,11 @@
     },
     {
       "original": "Pixar Animation Studios",
-      "conv": "zh-cn:皮克斯动画工作室; zh-tw:皮克斯動畫工作室; zh-hk:彼思動畫製作室;zh-sg:皮克斯动画工作室;"
+      "conv": "zh-cn:皮克斯动画工作室;zh-tw:皮克斯動畫工作室;zh-hk:彼思動畫製作室;zh-sg:皮克斯动画工作室;"
     },
     {
       "original": "Pixar",
-      "conv": "zh-cn:皮克斯; zh-tw:皮克斯; zh-hk:彼思;zh-sg:皮克斯;"
+      "conv": "zh-cn:皮克斯;zh-tw:皮克斯;zh-hk:彼思;zh-sg:皮克斯;"
     },
     {
       "original": "Randy Newman",
@@ -229,27 +241,23 @@
     },
     {
       "original": "Series",
-      "conv": "影集=>zh-hk:劇集; 影集=>zh-cn:剧集;"
+      "conv": "影集=>zh-hk:劇集;影集=>zh-mo:劇集;影集=>zh-cn:剧集;"
     },
     {
       "original": "Steve",
-      "conv": "zh-hans:史蒂夫; zh-hant:史提夫;"
+      "conv": "zh-hans:史蒂夫;zh-hant:史提夫;"
     },
     {
       "original": "Sydney",
-      "conv": "zh-hans:悉尼; zh-hk:悉尼; zh-tw:雪梨;"
+      "conv": "zh-hans:悉尼;zh-hk:悉尼;zh-tw:雪梨;"
     },
     {
       "original": "The Walt Disney Company",
-      "conv": "zh-hans:华特迪士尼公司; zh-hant:華特迪士尼公司;"
-    },
-    {
-      "original": "TV Series",
-      "conv": "電視影集=>zh-hk:電視劇集; 電視影集=>zh-cn:电视剧集;"
+      "conv": "zh-hans:华特迪士尼公司;zh-hant:華特迪士尼公司;"
     },
     {
       "original": "Walt Disney Pictures",
-      "conv": "zh-hans:华特迪士尼影片; zh-hant:華特迪士尼影業;"
+      "conv": "zh-hans:华特迪士尼影片;zh-hant:華特迪士尼影業;"
     },
     {
       "original": "Dim",
@@ -341,23 +349,23 @@
     },
     {
       "original": "Finn McMissile",
-      "conv": "zh-cn:麦克飞弹; zh-tw:麥克飛彈; zh-hk:飛彈麥克;"
+      "conv": "zh-cn:麦克飞弹;zh-tw:麥克飛彈;zh-hk:飛彈麥克;"
     },
     {
       "original": "Francesco Bernoulli",
-      "conv": "zh-cn:法兰斯高; zh-tw:超哥; zh-hk:法蘭斯高;"
+      "conv": "zh-cn:法兰斯高;zh-tw:超哥;zh-hk:法蘭斯高;"
     },
     {
       "original": "Holley Shiftwell",
-      "conv": "zh-cn:荷莉; zh-tw:郝莉莉; zh-hk:何犀莉;"
+      "conv": "zh-cn:荷莉;zh-tw:郝莉莉;zh-hk:何犀莉;"
     },
     {
       "original": "Jeff Gorvette",
-      "conv": "zh-hans:杰夫; zh-tw:高竿; zh-hk:格凡特;"
+      "conv": "zh-hans:杰夫;zh-tw:高竿;zh-hk:格凡特;"
     },
     {
       "original": "Lewis Hamilton",
-      "conv": "zh-cn:刘易斯; zh-tw:漢米爾頓; zh-hk:咸美頓;"
+      "conv": "zh-cn:刘易斯;zh-tw:漢米爾頓;zh-hk:咸美頓;"
     },
     {
       "original": "Lightning McQueen",
@@ -377,11 +385,11 @@
     },
     {
       "original": "Miles Axlerod",
-      "conv": "zh-cn:迈尔斯爵士; zh-tw:邁爵士; zh-hk:米路士爵士;"
+      "conv": "zh-cn:迈尔斯爵士;zh-tw:邁爵士;zh-hk:米路士爵士;"
     },
     {
       "original": "Professor Zündapp",
-      "conv": "zh-cn:恣博士; zh-tw:Z博士; zh-hk:Z博士;"
+      "conv": "zh-cn:恣博士;zh-tw:Z博士;zh-hk:Z博士;"
     },
     {
       "original": "Red",
@@ -441,39 +449,39 @@
     },
     {
       "original": "Ember",
-      "conv": "zh-tw:小炎; zh-hk:小焰; zh-cn:小焰;"
+      "conv": "zh-tw:小炎;zh-hk:小焰;zh-cn:小焰;"
     },
     {
       "original": "Wade",
-      "conv": "zh-tw:水弟; zh-hk:阿水;"
+      "conv": "zh-tw:水弟;zh-hk:阿水;"
     },
     {
       "original": "Anchor",
-      "conv": "zh-tw:安安; zh-hk:安仔;"
+      "conv": "zh-tw:安安;zh-hk:安仔;"
     },
     {
       "original": "Bloat",
-      "conv": "zh-tw:豚豚; zh-hk:爆谷;"
+      "conv": "zh-tw:豚豚;zh-hk:爆谷;"
     },
     {
       "original": "Bruce",
-      "conv": "zh-tw:布魯斯; zh-cn:布鲁斯; zh-hk:大舊布斯;"
+      "conv": "zh-tw:布魯斯;zh-cn:布鲁斯;zh-hk:大舊布斯;"
     },
     {
       "original": "Chum",
-      "conv": "zh-tw:小沈; zh-cn:小沈; zh-hk:阿沈;"
+      "conv": "zh-tw:小沈;zh-cn:小沈;zh-hk:阿沈;"
     },
     {
       "original": "Crush",
-      "conv": "zh-tw:龜龜; zh-hk:阿古;"
+      "conv": "zh-tw:龜龜;zh-hk:阿古;"
     },
     {
       "original": "Darla",
-      "conv": "zh-tw:妲拉; zh-cn:妲拉; zh-hk:達麗;"
+      "conv": "zh-tw:妲拉;zh-cn:妲拉;zh-hk:達麗;"
     },
     {
       "original": "Deb",
-      "conv": "zh-tw:漂漂; zh-hk:嬌嬌;"
+      "conv": "zh-tw:漂漂;zh-hk:嬌嬌;"
     },
     {
       "original": "Gill",
@@ -481,11 +489,11 @@
     },
     {
       "original": "Gurgle",
-      "conv": "zh-tw:膽小鬼; zh-cn:胆小鬼; zh-hk:騰雞;"
+      "conv": "zh-tw:膽小鬼;zh-cn:胆小鬼;zh-hk:騰雞;"
     },
     {
       "original": "Jacques",
-      "conv": "zh-tw:蝦蝦; zh-cn:虾虾; zh-hk:基圍積;"
+      "conv": "zh-tw:蝦蝦;zh-cn:虾虾;zh-hk:基圍積;"
     },
     {
       "original": "Marlin",
@@ -497,19 +505,19 @@
     },
     {
       "original": "Nigel",
-      "conv": "zh-tw:祖哥; zh-cn:祖哥; zh-hk:大口祖;"
+      "conv": "zh-tw:祖哥;zh-cn:祖哥;zh-hk:大口祖;"
     },
     {
       "original": "Sheldon",
-      "conv": "zh-tw:東東; zh-hk:雪丹;"
+      "conv": "zh-tw:東東;zh-hk:雪丹;"
     },
     {
       "original": "Sherman",
-      "conv": "zh-tw:雪曼; zh-hk:沙曼;"
+      "conv": "zh-tw:雪曼;zh-hk:沙曼;"
     },
     {
       "original": "Squirt",
-      "conv": "zh-tw:小古; zh-hk:古仔;"
+      "conv": "zh-tw:小古;zh-hk:古仔;"
     },
     {
       "original": "Bailey",
@@ -585,7 +593,7 @@
     },
     {
       "original": "Bob",
-      "conv": "zh-tw:鮑伯; zh-cn:鲍勃; 鮑伯=>zh-hk:波; 鲍勃=>zh-hk:波;"
+      "conv": "zh-tw:鮑伯;zh-cn:鲍勃;鮑伯=>zh-hk:波;鲍勃=>zh-hk:波;"
     },
     {
       "original": "Bomb Voyage",
@@ -704,20 +712,64 @@
       "conv": "zh-hk:雲特;zh-tw:文森;"
     },
     {
+      "original": "Andersen",
+      "conv": "zh-tw:安德森;zh-hk:安德遜"
+    },
+    {
       "original": "Anger",
       "conv": "zh-cn:怒怒;zh-tw:怒怒;zh-hk:阿燥;"
+    },
+    {
+      "original": "Anxiety",
+      "conv": "zh-tw:阿焦;zh-hk:阿焦;zh-cn:焦焦;"
     },
     {
       "original": "Bing Bong",
       "conv": "zh-cn:冰棒;zh-tw:小彬彬;zh-hk:乒乓;"
     },
     {
+      "original": "Bloofy",
+      "conv": "zh-tw:布飛狗;zh-hk:波仔"
+    },
+    {
+      "original": "Bobby",
+      "conv": "zh-tw:鮑比;zh-hk:波比"
+    },
+    {
+      "original": "Bree",
+      "conv": "zh-tw:布麗;zh-hk:貝兒"
+    },
+    {
+      "original": "Deep Dark Secret",
+      "conv": "zh-tw:深層秘密;zh-hk:黑歷史"
+    },
+    {
       "original": "Disgust",
       "conv": "zh-cn:厌厌;zh-tw:厭厭;zh-hk:阿憎;"
     },
     {
+      "original": "Embarrassment",
+      "conv": "zh-tw:阿羞;zh-hk:阿尷;zh-cn:尬尬;"
+    },
+    {
+      "original": "Ennui",
+      "conv": "zh-tw:阿廢;zh-hk:阿厭;zh-cn:丧丧;"
+    },
+    {
+      "original": "Envy",
+      "conv": "zh-tw:阿慕;zh-hk:阿羨;zh-cn:慕慕;"
+    },
+    {
       "original": "Fear",
       "conv": "zh-cn:怕怕;zh-tw:驚驚;zh-hk:阿驚;"
+    },
+    {
+      "original": "Forgetter",
+      "conv": "zh-tw:記憶清潔工;zh-hk:失憶師"
+    },
+    {
+      "original": "Grace",
+      "conv": "zh-tw:葛蕾斯;zh-hk:姬絲"
     },
     {
       "original": "Helicopter Pilot",
@@ -725,15 +777,47 @@
     },
     {
       "original": "Joy",
-      "conv": "zh-cn:乐乐;zh-tw:樂樂;zh-hk:阿樂;"
+      "conv": "zh-cn:乐乐;zh-tw:樂樂;zh-hk:阿樂"
+    },
+    {
+      "original": "Lance Slashblade",
+      "conv": "zh-tw:狂刀藍斯;zh-hk:劍聖蘭斯"
+    },
+    {
+      "original": "Margie",
+      "conv": "zh-tw:瑪姬;zh-hk:瑪芝姐"
+    },
+    {
+      "original": "Nostalgia",
+      "conv": "zh-cn:念旧嬷;zh-tw:念舊嬤;zh-hk:念舊姐"
+    },
+    {
+      "original": "Ortiz",
+      "conv": "zh-tw:奧爾蒂斯;zh-hk:奧提茲"
+    },
+    {
+      "original": "Paula",
+      "conv": "zh-tw:波拉;zh-hk:保娜"
     },
     {
       "original": "Riley",
       "conv": "zh-cn:莱莉;zh-tw:萊莉;zh-hk:韋莉;"
     },
     {
+      "original": "Roberts",
+      "conv": "zh-tw:羅伯茲;zh-hk:羅柏斯"
+    },
+    {
       "original": "Sadness",
       "conv": "zh-cn:忧忧;zh-tw:憂憂;zh-hk:阿愁;"
+    },
+    {
+      "original": "Val",
+      "conv": "zh-tw:薇姊;zh-hk:阿V"
+    },
+    {
+      "original": "Valentina",
+      "conv": "zh-tw:瓦倫蒂娜;zh-hk:華倫天娜"
     },
     {
       "original": "Alberto",
@@ -896,10 +980,6 @@
       "conv": "zh-hk:古士圖;zh-cn:厨神;zh-tw:食神;"
     },
     {
-      "original": "Colette",
-      "conv": "zh-hk:歌麗;zh-cn:甜姐;zh-tw:樂樂;"
-    },
-    {
       "original": "Django",
       "conv": "zh-hant:老王;zh-cn:米爸;"
     },
@@ -909,7 +989,7 @@
     },
     {
       "original": "Rémy",
-      "conv": "zh-tw:雷米; zh-hk:味王;zh-cn:小米;"
+      "conv": "zh-tw:雷米;zh-hk:味王;zh-cn:小米;"
     },
     {
       "original": "Skinner",
@@ -1049,71 +1129,71 @@
     },
     {
       "original": "Meilin",
-      "conv": "zh-cn:李美玲; zh-hk:李美蓮; zh-tw:李美玲;"
+      "conv": "zh-cn:李美玲;zh-hk:李美蓮;zh-tw:李美玲;"
     },
     {
       "original": "Ming",
-      "conv": "zh-cn:李明; zh-hk:李鳴; zh-tw:李明;"
+      "conv": "zh-cn:李明;zh-hk:李鳴;zh-tw:李明;"
     },
     {
       "original": "Miriam",
-      "conv": "zh-cn:蜜瑞; zh-hk:阿Mi; zh-tw:蜜瑞;"
+      "conv": "zh-cn:蜜瑞;zh-hk:阿Mi;zh-tw:蜜瑞;"
     },
     {
       "original": "Abby",
-      "conv": "zh-cn:艾比; zh-hk:阿爆; zh-tw:艾比;"
+      "conv": "zh-cn:艾比;zh-hk:阿爆;zh-tw:艾比;"
     },
     {
       "original": "Priya",
-      "conv": "zh-cn:普莉亚; zh-hk:佩瑩; zh-tw:普莉亞"
+      "conv": "zh-cn:普莉亚;zh-hk:佩瑩;zh-tw:普莉亞"
     },
     {
       "original": "Jin",
-      "conv": "zh-cn:李锦; zh-hk:阿進; zh-tw:李錦;"
+      "conv": "zh-cn:李锦;zh-hk:阿進;zh-tw:李錦;"
     },
     {
       "original": "Grandma",
-      "conv": "zh-cn:外婆; zh-hk:婆婆; zh-tw:外婆"
+      "conv": "zh-cn:外婆;zh-hk:婆婆;zh-tw:外婆"
     },
     {
       "original": "Auntie Chen",
-      "conv": "zh-cn:芊姨婆; zh-hk:陳姨婆; zh-tw:芊姨婆;"
+      "conv": "zh-cn:芊姨婆;zh-hk:陳姨婆;zh-tw:芊姨婆;"
     },
     {
       "original": "Auntie Ping",
-      "conv": "zh-cn:萍姨婆; zh-hk:彭姨婆; zh-tw:萍姨婆;"
+      "conv": "zh-cn:萍姨婆;zh-hk:彭姨婆;zh-tw:萍姨婆;"
     },
     {
       "original": "Mr. Gao",
-      "conv": "zh-cn:高先生; zh-hk:高伯伯; zh-tw:高先生;"
+      "conv": "zh-cn:高先生;zh-hk:高伯伯;zh-tw:高先生;"
     },
     {
       "original": "Robaire",
-      "conv": "zh-cn:罗贝尔; zh-hk:路比亞; zh-tw:羅貝;"
+      "conv": "zh-cn:罗贝尔;zh-hk:路比亞;zh-tw:羅貝;"
     },
     {
       "original": "Jesse",
-      "conv": "zh-cn:杰西; zh-hk:傑斯; zh-tw:傑西;"
+      "conv": "zh-cn:杰西;zh-hk:傑斯;zh-tw:傑西;"
     },
     {
       "original": "Aaron T.",
-      "conv": "zh-cn:阿伦T; zh-hk:AT; zh-tw:阿倫T;"
+      "conv": "zh-cn:阿伦T;zh-hk:AT;zh-tw:阿倫T;"
     },
     {
       "original": "Aaron Z.",
-      "conv": "zh-cn:阿伦Z; zh-hk:AZ; zh-tw:阿倫Z;"
+      "conv": "zh-cn:阿伦Z;zh-hk:AZ;zh-tw:阿倫Z;"
     },
     {
       "original": "Mr. Kieslowski",
-      "conv": "zh-cn:凯老师; zh-hk:基先生; zh-tw:凱老師;"
+      "conv": "zh-cn:凯老师;zh-hk:基先生;zh-tw:凱老師;"
     },
     {
       "original": "Devon",
-      "conv": "zh-cn:戴文; zh-hk:迪雲; zh-tw:戴文;"
+      "conv": "zh-cn:戴文;zh-hk:迪雲;zh-tw:戴文;"
     },
     {
       "original": "Stacy Frick ",
-      "conv": "zh-cn:黛西; zh-hk:史黛絲; zh-tw:黛西"
+      "conv": "zh-cn:黛西;zh-hk:史黛絲;zh-tw:黛西"
     },
     {
       "original": "Tae Young",

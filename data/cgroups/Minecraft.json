@@ -36,10 +36,6 @@
       "conv": "zh:浮冰;zh-cn:浮冰;zh-tw:冰磚;"
     },
     {
-      "original": "Silk Touch",
-      "conv": "zh:精准采集;zh-cn:精准采集;zh-tw:絲綢之觸;"
-    },
-    {
       "original": "Plank",
       "conv": "zh:木板;zh-cn:木板;zh-tw:木材;zh-hk:木板;"
     },
@@ -132,14 +128,6 @@
       "conv": "zh:末影人;zh-cn:末影人;zh-tw:終界使者;"
     },
     {
-      "original": "Ender Dragon",
-      "conv": "zh:末影龙;zh-cn:末影龙;zh-tw:終界龍;"
-    },
-    {
-      "original": "Endermite",
-      "conv": "zh:末影螨;zh-cn:末影螨;zh-tw:終界蟎;"
-    },
-    {
       "original": "Shulker",
       "conv": "zh:潜影贝;zh-cn:潜影贝;zh-tw:界伏蚌;"
     },
@@ -164,16 +152,12 @@
       "conv": "zh:下界之星;zh-cn:下界之星;zh-tw:地獄之星;"
     },
     {
-      "original": "Ender Pearl",
-      "conv": "zh:末影珍珠;zh-cn:末影珍珠;zh-tw:終界珍珠;"
-    },
-    {
-      "original": "Eye of Ender",
-      "conv": "zh:末影之眼;zh-cn:末影之眼;zh-tw:終界之眼;"
-    },
-    {
       "original": "Chorus",
       "conv": "zh:紫颂;zh-cn:紫颂;zh-tw:歌萊;"
+    },
+    {
+      "original": "Spawn Egg",
+      "conv": "zh-cn:刷怪蛋;zh-tw:生怪蛋;zh-hk:生成蛋;"
     },
     {
       "original": "Compass",
@@ -205,6 +189,10 @@
     },
     {
       "original": "The End",
+      "conv": "zh-cn:末影;zh-tw:終界;"
+    },
+    {
+      "original": "The End",
       "conv": "zh:末路之地;zh-cn:末路之地;zh-tw:終末之界;"
     },
     {
@@ -222,6 +210,18 @@
     {
       "original": "Woodland Mansions",
       "conv": "zh-cn:林地府邸;zh-tw:綠林府邸;zh-hk:林間別墅;"
+    },
+    {
+      "original": "Difficulty",
+      "conv": "zh-cn:难度;zh-tw:難易度;zh-hk:難度;"
+    },
+    {
+      "original": "Command",
+      "conv": "zh-cn:命令;zh-tw:指令;zh-hk:命令;"
+    },
+    {
+      "original": "Silk Touch",
+      "conv": "zh:精准采集;zh-cn:精准采集;zh-tw:絲綢之觸;"
     },
     {
       "original": "Minecraft: Story Mode",

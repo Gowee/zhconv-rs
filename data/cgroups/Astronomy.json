@@ -100,12 +100,24 @@
       "conv": "zh-hans:盖尼米德;zh-hant:蓋尼米德;"
     },
     {
-      "original": "[[美国国家航空航天局|NASA]]",
+      "original": "NASA",
       "conv": "zh-cn:美国国家航空航天局; zh-tw:美國國家航空暨太空總署; zh-hk:美國太空總署;"
     },
     {
       "original": "NASA",
-      "conv": "zh-cn:美国宇航局; zh-tw:美國國家航空暨太空總署; zh-hk:美國太空總署;"
+      "conv": "美国宇航局=>zh-cn:美国宇航局; 美国宇航局=>zh-tw:美國太空總署; 美国宇航局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美國宇航局=>zh-cn:美国宇航局; 美國宇航局=>zh-tw:美國太空總署; 美國宇航局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美國航天局=>zh-cn:美国宇航局; 美國航天局=>zh-tw:美國太空總署; 美國航天局=>zh-hk:美國太空總署;"
+    },
+    {
+      "original": "NASA",
+      "conv": "美国航天局=>zh-cn:美国宇航局; 美国航天局=>zh-tw:美國太空總署; 美国航天局=>zh-hk:美國太空總署;"
     },
     {
       "original": "[[欧洲空间局|ESA]]",
@@ -150,6 +162,10 @@
     {
       "original": "Alfven speed",
       "conv": "zh-cn:阿尔文速率; zh-tw:亞耳芬速率;"
+    },
+    {
+      "original": "Air shower",
+      "conv": "zh-cn:空气簇射; zh-tw:空氣射叢;"
     },
     {
       "original": "Auger",
@@ -256,6 +272,10 @@
       "conv": "zh-cn:赫歇尔; zh-tw:赫雪爾; zh-hk:赫歇爾; zh-sg:赫谢尔;"
     },
     {
+      "original": "Space Telescope",
+      "conv": "zh-cn:空间望远镜; zh-tw:太空望遠鏡; zh-hk:太空望遠鏡; zh-sg:太空望远镜;"
+    },
+    {
       "original": "Space Observatory",
       "conv": "zh-cn:空间天文台; zh-tw:太空望遠鏡; zh-hk:太空望遠鏡; zh-sg:太空观察站;"
     },
@@ -265,7 +285,7 @@
     },
     {
       "original": "Roman Space Telescope",
-      "conv": "zh-cn:罗曼空间望远镜; zh-tw:羅曼太空望遠鏡; zh-hk:羅曼太空望遠鏡; zh-sg:罗曼太空观察站;"
+      "conv": "zh-cn:罗曼空间望远镜; zh-tw:羅曼太空望遠鏡; zh-hk:羅曼太空望遠鏡; zh-sg:罗曼太空望远镜;"
     },
     {
       "original": "Kelvin–Helmholtz contraction",
@@ -277,7 +297,11 @@
     },
     {
       "original": "ice mantle",
-      "conv": "zh-cn:冰幔; zh-tw:冰函; zh-hk:冰幔"
+      "conv": "zh-cn:冰幔; zh-tw:冰函; zh-hk:冰幔;"
+    },
+    {
+      "original": "Markarian (galaxies)",
+      "conv": "zh-cn:马卡良; zh-tw:馬克仁; zh-hant:馬卡良;"
     },
     {
       "original": "[[地幔|Mantle]]",
@@ -308,16 +332,28 @@
       "conv": "zh-cn:特大质量黑洞; zh-tw:超大質量黑洞;"
     },
     {
+      "original": "Seyfert (galaxies)",
+      "conv": "zh-cn:赛弗特; zh-tw:西佛;zh-hant:賽弗特;"
+    },
+    {
       "original": "Shock wave",
       "conv": "zh-cn:激波; zh-tw:震波;"
+    },
+    {
+      "original": "Gliese",
+      "conv": "zh-cn:格利泽; zh-tw:葛利斯; zh-hk:格利澤;"
+    },
+    {
+      "original": "James",
+      "conv": "zh-cn:詹姆斯; zh-tw:詹姆斯; zh-hk:占士;"
     },
     {
       "original": "Kepler",
       "conv": "zh-cn:开普勒; zh-tw:克卜勒; zh-hk:開普勒;"
     },
     {
-      "original": "Gliese",
-      "conv": "zh-cn:格利泽; zh-tw:葛利斯; zh-hk:格利澤;"
+      "original": "Kepler",
+      "conv": "刻卜勒=>zh-cn:开普勒; 刻卜勒=>zh-tw:克卜勒; 刻卜勒=>zh-hk:開普勒;"
     },
     {
       "original": "Messier",
@@ -328,44 +364,20 @@
       "conv": "zh-cn:白羊宫; zh-tw:牡羊宮; zh-hk:白羊宮;"
     },
     {
-      "original": "Aries",
-      "conv": "zh-cn:白羊座; zh-tw:牡羊座; zh-hk:白羊座;"
-    },
-    {
       "original": "Virgo",
       "conv": "zh-cn:室女宫; zh-tw:處女宮; zh-hk:處女宮;"
     },
     {
-      "original": "Virgo",
-      "conv": "zh-cn:室女座; zh-tw:處女座; zh-hk:處女座;"
-    },
-    {
       "original": "Sagittarius",
-      "conv": "zh-cn:射手宮; zh-tw:射手宮; zh-hk:人馬宮;"
-    },
-    {
-      "original": "Sagittarius",
-      "conv": "zh-cn:射手座; zh-tw:射手座; zh-hk:人馬座;"
-    },
-    {
-      "original": "Centauri",
-      "conv": "zh-cn:半人马座; zh-tw:半人馬座; zh-hk:半人馬座;"
+      "conv": "zh-cn:人马宫; zh-tw:射手宮; zh-hk:人馬宮;"
     },
     {
       "original": "Capricorn",
-      "conv": "zh-cn:摩羯宮; zh-tw:摩羯宮; zh-hk:山羊宮;"
-    },
-    {
-      "original": "Capricorn",
-      "conv": "zh-cn:摩羯座; zh-tw:摩羯座; zh-hk:山羊座;"
+      "conv": "zh-cn:摩羯宫; zh-tw:摩羯宮; zh-hk:山羊宮;"
     },
     {
       "original": "Aquarius",
-      "conv": "zh-cn:宝瓶宮; zh-tw:水瓶宮; zh-hk:水瓶宮;"
-    },
-    {
-      "original": "Aquarius",
-      "conv": "zh-cn:宝瓶座; zh-tw:水瓶座; zh-hk:水瓶座;"
+      "conv": "zh-hans:宝瓶宫; zh-hant:寶瓶宮; zh-cn:宝瓶宫; zh-tw:水瓶宮; zh-hk:水瓶宮;"
     }
   ]
 }

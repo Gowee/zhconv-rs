@@ -1,7 +1,7 @@
 {
   "name": "SAO",
   "description": "-{zh:刀劍神域;zh-cn:刀剑神域;zh-tw:刀劍神域;zh-hk:刀劍神域;}-",
-  "path": "Template:CGroup/SAO",
+  "path": "Module:CGroup/SAO",
   "rules": [
     {
       "original": null,
@@ -10,10 +10,6 @@
     {
       "original": null,
       "conv": "zh-cn:无星之夜的咏叹调;zh-tw:無星夜的詠嘆調;zh-hk:無星夜的詠嘆調"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:虚幻之剑的圆舞曲;zh-tw:幻矓劍之迴旋曲;"
     },
     {
       "original": null,
@@ -45,15 +41,15 @@
     },
     {
       "original": null,
-      "conv": "暴风之铳=>zh-tw:Gun Gale Online;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:刀剑神域：序列之争; zh-tw:刀劍神域劇場版：序列爭戰;zh-hk:刀劍神域劇場版：序列爭戰"
+      "conv": "zh-cn:刀剑神域：序列之争; zh-tw:刀劍神域劇場版：序列爭戰; zh-hk:刀劍神域劇場版：序列爭戰"
     },
     {
       "original": null,
       "conv": "zh-cn:序列之争; zh-tw:序列爭戰; zh-hk:序列爭戰"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:刀剑神域进击篇：暮色黄昏; zh-tw:刀劍神域劇場版 -Progressive- 陰沉薄暮的詼諧曲; zh-hk:刀劍神域劇場版 -Progressive- 陰沉薄暮的詼諧曲"
     },
     {
       "original": null,
@@ -62,10 +58,6 @@
     {
       "original": null,
       "conv": "zh-cn:结城明日奈;zh-tw:結城明日奈;zh-hk:結城明日奈;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:亚丝娜;zh-tw:亞絲娜;zh-hk:明日奈;"
     },
     {
       "original": null,
@@ -213,11 +205,7 @@
     },
     {
       "original": null,
-      "conv": "詩楠=>zh-hk:詩楠; 詩楠=>zh-tw:詩乃; 詩楠=>zh-cn:诗乃; 詩楠=>zh-sg:诗乃;"
-    },
-    {
-      "original": null,
-      "conv": "詩音=>zh-hk:詩楠; 詩音=>zh-tw:詩乃; 詩音=>zh-cn:诗乃; 詩音=>zh-sg:诗乃;"
+      "conv": " 詩楠=>zh-hk:詩楠; 詩楠=>zh-tw:詩乃; 詩楠=>zh-cn:诗乃; 詩楠=>zh-sg:诗乃;"
     },
     {
       "original": null,
@@ -302,10 +290,6 @@
     {
       "original": null,
       "conv": "zh-cn:辛赛西斯·万;zh-tw:辛賽西斯·汪;zh-hk:冼合·益;zh-mo:冼合·益;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:法娜提欧;zh-tw:法娜提歐;zh-hk:法娜迪奧;"
     },
     {
       "original": null,
@@ -410,10 +394,6 @@
     {
       "original": null,
       "conv": "zh-cn:吉克;zh-tw:吉克;zh-hk:真古;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:暗神;zh-tw:闇神;zh-hk:黑暗之神;"
     },
     {
       "original": null,
@@ -649,10 +629,6 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:综合通信基盘局高度通信网振兴课第二分室;zh-tw:綜合通信基盤局高度通信網振興課第二個室;zh-hk:綜合通訊基礎局通訊網絡振興課第二小組;"
-    },
-    {
-      "original": null,
       "conv": "zh-cn:通信网络内虚拟空间管理课;zh-tw:通信網路內假想空間管理課;zh-hk:通訊網絡虛擬空間管理課;"
     },
     {
@@ -770,10 +746,6 @@
     {
       "original": null,
       "conv": "zh-cn:阿尔普海姆;zh-tw:阿爾普海姆;zh-hk:愛芙崁;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:守卫精灵;zh-tw:守衛精靈;zh-hk:影精靈;"
     },
     {
       "original": null,
@@ -918,10 +890,6 @@
     {
       "original": null,
       "conv": "zh-cn:法力;zh-tw:魔力;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:教官;zh-tw:師範(或者 指導);"
     },
     {
       "original": null,
@@ -1362,10 +1330,6 @@
     {
       "original": null,
       "conv": "zh-tw:負荷實驗階段;zh-cn:压力测试阶段;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:;zh-tw:;zh-hk:;"
     }
   ]
 }

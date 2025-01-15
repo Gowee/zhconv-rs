@@ -1,0 +1,171 @@
+{
+  "name": "Charlie Chaplin",
+  "description": "-{zh-tw:查理·卓別林 ;zh-cn:查理·卓别林; zh-hk:差利·卓別靈;}-",
+  "path": "Module:CGroup/Charlie Chaplin",
+  "rules": [
+    {
+      "original": "Chaplin",
+      "conv": "zh-cn:卓别林; zh-hk:卓別靈; zh-tw:卓別林;"
+    },
+    {
+      "original": "Charles",
+      "conv": "zh-cn:查尔斯; zh-hk:查理斯; zh-tw:查爾斯;"
+    },
+    {
+      "original": "Charlie",
+      "conv": "zh-cn:查理; zh-hk:差利; zh-tw:查理;"
+    },
+    {
+      "original": "Charlie Chaplin",
+      "conv": "zh-tw:查理·卓別林; zh-cn:查理·卓别林; zh-hk:差利·卓別靈;"
+    },
+    {
+      "original": "Spencer",
+      "conv": "zh-hans:斯宾赛;zh-hk:史賓莎;zh-tw:史賓賽;"
+    },
+    {
+      "original": "The Adventurer",
+      "conv": "zh-tw:探險家;zh-cn:冒险者;zh-hk:探險;"
+    },
+    {
+      "original": "Behind the Screen",
+      "conv": "zh:銀幕背後;zh-tw:螢光幕後;zh-cn:银幕背后;zh-hk:差利大鬧攝影場;"
+    },
+    {
+      "original": "A Burlesque on Carmen",
+      "conv": "zh:卡門的鬧劇;zh-tw:卡門;zh-cn:卡门的闹剧;zh-hk:差利誤中美人計;"
+    },
+    {
+      "original": "Caught in the Rain",
+      "conv": "zh-tw:陣雨;zh-cn:遇雨;"
+    },
+    {
+      "original": "The Champion",
+      "conv": "zh-tw:拳擊冠軍;zh-cn:冠军;"
+    },
+    {
+      "original": "The Chaplin Revue",
+      "conv": "zh-tw:卓別林短片精選;zh-cn:卓别林短片精选;zh-hk:差利諧片集;"
+    },
+    {
+      "original": "The Charlie Chaplin",
+      "conv": "zh-cn:卓别林精选;zh-hk:遊戲人間;"
+    },
+    {
+      "original": "The Charlie Chaplin Festival",
+      "conv": "zh-cn:卓别林电影节;zh-hk:差利笑片精華;"
+    },
+    {
+      "original": "Chase Me Charlie",
+      "conv": "zh-cn:追我，查理;zh-hk:差利打擂臺;"
+    },
+    {
+      "original": "The Circus",
+      "conv": "zh:馬戲團;zh-tw:大馬戲團;zh-cn:马戏团;zh-hk:馬戲班;"
+    },
+    {
+      "original": "The Count",
+      "conv": "zh-cn:冒牌的伯爵;zh-hk:子爵;"
+    },
+    {
+      "original": "The Cure",
+      "conv": "zh:療養;zh-cn:疗养;zh-hk:醫好了;"
+    },
+    {
+      "original": "A Dog's Life",
+      "conv": "zh-tw:狗的生涯; zh-cn:狗的生活; zh-hk:差利捱世界;"
+    },
+    {
+      "original": "A Day's Pleasure",
+      "conv": "zh-tw:快樂的一天;zh-cn:快乐的一天;zh-hk:我嘅疏肝;"
+    },
+    {
+      "original": "Easy Street",
+      "conv": "zh-cn:安乐街;zh-hk:善言化盜;"
+    },
+    {
+      "original": "A Film Johnnie",
+      "conv": "zh-tw:強尼在片場;zh-cn:拍摄强尼;zh-hk:戲中戲;"
+    },
+    {
+      "original": "The Fireman",
+      "conv": "zh-tw:救火員;zh-cn:救火员;zh-hk:消防隊索嘢;"
+    },
+    {
+      "original": "The Gentleman Tramp",
+      "conv": "zh-tw:紳士流浪漢;zh-cn:绅士流浪汉;zh-hk:流氓紳士;zh-sg:谐匠卓别麟;"
+    },
+    {
+      "original": "The Gold Rush",
+      "conv": "zh-tw:淘金記;zh-cn:淘金记;zh-hk:尋金熱;zh-sg:差利寻金热;"
+    },
+    {
+      "original": "His Favorite Pastime",
+      "conv": "zh-cn:他的消遣;zh-hk:醉後;"
+    },
+    {
+      "original": "The Immigrant",
+      "conv": "zh-tw:移民;zh-cn:移民;zh-hk:僑民;"
+    },
+    {
+      "original": "The Kid",
+      "conv": "zh-hk:差利與小孩;zh-sg:差利与小孩;zh-cn:寻子遇仙记;zh-tw:孤兒流浪記;"
+    },
+    {
+      "original": "A King in New York",
+      "conv": "zh:紐約王;zh-tw:紐約之王;zh-cn:纽约之王;zh-sg:纽约一王;zh-hk:流亡皇帝;"
+    },
+    {
+      "original": "Mabel at the Wheel",
+      "conv": "zh-tw:瑪蓓爾開汽車;zh-cn:梅布尔赛车记;"
+    },
+    {
+      "original": "Monsieur Verdoux",
+      "conv": "zh:凡爾杜先生;zh-tw:維杜先生;zh-cn:凡尔杜先生;zh-sg:华杜先生;zh-hk:華杜先生;"
+    },
+    {
+      "original": "A Night Out",
+      "conv": "zh-tw:一夜外流;zh-cn:漫漫长夜;zh-hk:成晚行;"
+    },
+    {
+      "original": "One A.M.",
+      "conv": "zh:凌晨一點;zh-cn:凌晨一点;zh-hk:一點鐘;"
+    },
+    {
+      "original": "The Pawnshop",
+      "conv": "zh-tw:當鋪;zh-cn:当铺;zh-hk:荒唐伙記"
+    },
+    {
+      "original": "Pay Day",
+      "conv": "zh:發薪日;zh-tw:發餉日;zh-cn:发薪日;zh-hk:出糧之日;"
+    },
+    {
+      "original": "The Pilgrim",
+      "conv": "zh-tw:朝聖;zh-cn:朝圣者;"
+    },
+    {
+      "original": "The Rink",
+      "conv": "zh-tw:溜冰場;zh-cn:溜冰场;zh-hk:大鬧溜冰場;"
+    },
+    {
+      "original": "Souls for Sale",
+      "conv": "zh-cn:出卖灵魂;zh-hk:靈魂出賣;"
+    },
+    {
+      "original": "Shoulder Arms",
+      "conv": "zh:夏尔洛从军记; zh-tw:夏爾洛從軍記; zh-cn:从军记; zh-hk:差利從軍夢;"
+    },
+    {
+      "original": "Sunnyside",
+      "conv": "zh:田園牧歌; zh-tw:田園詩; zh-cn:田园牧歌; zh-hk:差利幻游仙境;"
+    },
+    {
+      "original": "Tillie's Punctured Romance",
+      "conv": "zh-cn:破灭的美梦;zh-hk:差利淘古井;zh-sg:差利猎艳记;"
+    },
+    {
+      "original": "A Woman of Paris",
+      "conv": "zh-tw:巴黎婦人;zh-cn:巴黎一妇人;zh-hk:巴黎一婦人;"
+    }
+  ]
+}

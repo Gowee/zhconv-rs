@@ -1,0 +1,955 @@
+{
+  "name": "FC Bayern footballer",
+  "description": "-{zh-cn:拜仁慕尼黑足球俱乐部;zh-hk:拜仁慕尼黑足球會;zh-tw:拜仁慕尼黑足球俱樂部;}-",
+  "path": "Template:CGroup/FC Bayern footballer",
+  "rules": [
+    {
+      "original": "FC Bayern München",
+      "conv": "zh-cn:拜仁慕尼黑足球俱乐部; zh-tw:拜仁慕尼黑足球俱樂部; zh-hk:拜仁慕尼黑足球會;"
+    },
+    {
+      "original": "Allianz Arena",
+      "conv": "zh-cn:安联竞技场; zh-tw:安聯競技場; zh-hk:安聯球場;"
+    },
+    {
+      "original": "Grünwalder Stadion",
+      "conv": "zh-cn:绿森林体育场; zh-tw:綠森林體育場; zh-hk:綠森林球場;"
+    },
+    {
+      "original": "Andreas Brehme",
+      "conv": "zh:安德烈亚斯·布雷默; zh-cn:安德烈亚斯·布雷默; zh-tw:安德烈亞斯·布雷默; zh-hk:安德烈斯·布林美;"
+    },
+    {
+      "original": "Brehme",
+      "conv": "zh:布雷默; zh-cn:布雷默; zh-tw:布雷默; zh-hk:布林美;"
+    },
+    {
+      "original": "Reuter",
+      "conv": "zh:罗伊特; zh-hans:罗伊特; zh-hant:羅伊特; zh-hk:路德;"
+    },
+    {
+      "original": "Kohler",
+      "conv": "zh:科勒尔; zh-hans:科勒尔; zh-hant:科勒爾; zh-hk:高拿;"
+    },
+    {
+      "original": "Christian",
+      "conv": "zh:克里斯蒂安; zh-hans:克里斯蒂安; zh-hant:克里斯蒂安; zh-hk:基斯坦;"
+    },
+    {
+      "original": "Ziege",
+      "conv": "zh:齐格;zh-hans:齐格;zh-hk:薛基;zh-hant:齊格;"
+    },
+    {
+      "original": "Bixente",
+      "conv": "zh:比森特;zh-hans:比森特;zh-hk:比辛迪;zh-hant:比森特;"
+    },
+    {
+      "original": "Lizarazu",
+      "conv": "zh:利扎拉祖;zh-hans:利扎拉祖;zh-hk:李沙拉素;zh-hant:利扎拉祖;"
+    },
+    {
+      "original": "Élber",
+      "conv": "zh:埃尔伯;zh-hans:埃尔伯;zh-hk:艾爾巴;zh-hant:埃爾伯;"
+    },
+    {
+      "original": "Stefan",
+      "conv": "zh:斯特凡;zh-hans:斯特凡;zh-hk:史提芬;zh-hant:斯特凡;"
+    },
+    {
+      "original": "Thomas",
+      "conv": "zh:托马斯;zh-hans:托马斯;zh-hk:湯瑪士;zh-hant:托馬斯;"
+    },
+    {
+      "original": "Linke",
+      "conv": "zh:林克;zh-hans:林克;zh-hk:連基;zh-hant:林克;"
+    },
+    {
+      "original": "Jens Jeremies",
+      "conv": "zh:延斯·耶雷米斯;zh-hans:延斯·耶雷米斯;zh-hk:贊斯·謝利美斯;zh-tw:延斯·傑里梅斯;"
+    },
+    {
+      "original": "Jancker",
+      "conv": "zh:扬克尔;zh-hans:扬克尔;zh-hk:贊卡;zh-tw:揚克爾;"
+    },
+    {
+      "original": "Lúcio",
+      "conv": "zh:卢西奥;zh-hans:卢西奥;zh-hk:盧斯奧;zh-hant:盧西奧;"
+    },
+    {
+      "original": "Manuel Neuer",
+      "conv": "zh:曼努埃尔·诺伊尔; zh-cn:曼努埃尔·诺伊尔; zh-tw:曼努埃爾·諾伊爾; zh-hk:文奴爾·紐亞;"
+    },
+    {
+      "original": "Neuer",
+      "conv": "zh:诺伊尔; zh-cn:诺伊尔; zh-tw:諾伊爾; zh-hk:紐亞;"
+    },
+    {
+      "original": "Starke",
+      "conv": "zh:施塔克; zh-cn:施塔克; zh-tw:史塔克; zh-hk:史達基;"
+    },
+    {
+      "original": "Riedmüller",
+      "conv": "zh:里德穆勒; zh-cn:里德穆勒; zh-tw:里德穆勒; zh-hk:列特梅拿;"
+    },
+    {
+      "original": "Raeder",
+      "conv": "zh:雷德尔; zh-cn:雷德尔; zh-tw:雷德爾; zh-hk:連達;"
+    },
+    {
+      "original": "Dante",
+      "conv": "zh:丹特; zh-cn:丹特; zh-tw:丹特; zh-hk:丹迪;"
+    },
+    {
+      "original": "Daniel van Buyten",
+      "conv": "zh:丹尼尔·范比滕; zh-cn:丹尼尔·范比滕; zh-tw:丹尼爾·范布伊滕; zh-hk:丹尼爾·雲拜頓;"
+    },
+    {
+      "original": "Van Buyten",
+      "conv": "zh:范比滕; zh-cn:范比滕; zh-tw:范布伊滕; zh-hk:雲拜頓;"
+    },
+    {
+      "original": "Rafinha",
+      "conv": "zh:拉菲尼亚; zh-cn:拉菲尼亚; zh-tw:拉菲尼亞; zh-hk:拉芬拿;"
+    },
+    {
+      "original": "Kirchhoff",
+      "conv": "zh:基希霍夫; zh-cn:基希霍夫; zh-tw:基希霍夫; zh-hk:卻治賀夫;"
+    },
+    {
+      "original": "Jérôme Boateng",
+      "conv": "zh:热罗姆·博阿滕;zh-cn:热罗姆·博阿滕;zh-tw:熱羅姆·博阿滕;zh-hk:謝洛美·保定;"
+    },
+    {
+      "original": "Boateng",
+      "conv": "zh:博阿滕; zh-cn:博阿滕; zh-tw:博阿滕; zh-hk:保定;"
+    },
+    {
+      "original": "Philipp Lahm",
+      "conv": "zh:菲利普·拉姆; zh-cn:菲利普·拉姆; zh-tw:菲利普·拉姆; zh-hk:菲臘·拿姆;"
+    },
+    {
+      "original": "Lahm",
+      "conv": "zh:拉姆; zh-cn:拉姆; zh-tw:拉姆; zh-hk:拿姆;"
+    },
+    {
+      "original": "Diego Contento",
+      "conv": "zh:迭戈·孔滕托; zh-cn:迭戈·孔滕托; zh-tw:迪亞哥·孔滕托; zh-hk:迪亞高·干坦圖;"
+    },
+    {
+      "original": "Contento",
+      "conv": "zh:孔滕托; zh-cn:孔滕托; zh-tw:孔滕托; zh-hk:干坦圖;"
+    },
+    {
+      "original": "Badstuber",
+      "conv": "zh:巴德施图伯; zh-cn:巴德施图贝尔; zh-tw:巴德施圖伯; zh-hk:畢斯杜巴;"
+    },
+    {
+      "original": "Franck Ribéry",
+      "conv": "zh:弗兰克·里贝里; zh-cn:弗兰克·里贝里; zh-tw:法蘭克·里貝里; zh-hk:法蘭克·列貝利;"
+    },
+    {
+      "original": "Ribéry",
+      "conv": "zh:里贝里; zh-cn:里贝里; zh-tw:里貝里; zh-hk:列貝利;"
+    },
+    {
+      "original": "Javi Martínez",
+      "conv": "zh:哈维·马丁内斯; zh-cn:哈维·马丁内斯; zh-tw:哈維·馬丁內斯; zh-hk:查維·馬天尼斯;"
+    },
+    {
+      "original": "Martínez",
+      "conv": "zh:马丁内斯; zh-cn:马丁内斯; zh-tw:馬丁內斯; zh-hk:馬天尼斯;"
+    },
+    {
+      "original": "Robben",
+      "conv": "zh:罗本; zh-cn:罗本; zh-tw:羅本; zh-hk:洛賓;"
+    },
+    {
+      "original": "Xherdan Shaqiri",
+      "conv": "zh:谢尔丹·沙奇里; zh-cn:谢尔丹·沙奇里; zh-tw:傑爾丹·沙奇里; zh-hk:梳頓·沙基利;"
+    },
+    {
+      "original": "Shaqiri",
+      "conv": "zh:沙奇里; zh-cn:沙奇里; zh-tw:沙基利; zh-hk:沙基利;"
+    },
+    {
+      "original": "Götze",
+      "conv": "zh:格策; zh-cn:格策; zh-tw:格策; zh-hk:葛斯;"
+    },
+    {
+      "original": "Gustavo",
+      "conv": "zh:古斯塔沃; zh-cn:古斯塔沃; zh-tw:古斯塔沃; zh-hk:古斯達禾;"
+    },
+    {
+      "original": "Bastian Schweinsteiger",
+      "conv": "zh:巴斯蒂安·施魏因斯泰格; zh-cn:巴斯蒂安·施魏因斯泰格; zh-tw:巴斯蒂安·史汪斯泰格; zh-hk:巴斯坦·舒韋恩史迪加;"
+    },
+    {
+      "original": "Schweinsteiger",
+      "conv": "zh:施魏因斯泰格; zh-cn:施魏因斯泰格; zh-tw:史汪斯泰格; zh-hk:舒韋恩史迪加;"
+    },
+    {
+      "original": "Emre Can",
+      "conv": "zh:埃姆雷·詹; zh-cn:埃姆雷·詹; zh-tw:埃姆雷·詹; zh-hk:安利·簡恩;"
+    },
+    {
+      "original": "Toni Kroos",
+      "conv": "zh:托尼·克罗斯; zh-cn:托尼·克罗斯; zh-tw:托尼·克羅斯; zh-hk:東尼·卻奧斯;"
+    },
+    {
+      "original": "Kroos",
+      "conv": "zh:克罗斯; zh-cn:克罗斯; zh-tw:克羅斯; zh-hk:卻奧斯;"
+    },
+    {
+      "original": "Højbjerg",
+      "conv": "zh:霍伊别尔格; zh-cn:霍伊别尔格; zh-tw:赫伊別爾; zh-hk:靴爾保;"
+    },
+    {
+      "original": "Mandžukić",
+      "conv": "zh:曼祖基奇; zh-cn:曼祖基奇; zh-tw:曼祖基奇; zh-hk:文迪蘇傑;"
+    },
+    {
+      "original": "Pizarro",
+      "conv": "zh:皮萨罗; zh-cn:皮萨罗; zh-tw:皮薩羅; zh-hk:比沙路;"
+    },
+    {
+      "original": "Weihrauch",
+      "conv": "zh:魏劳赫; zh-cn:魏劳赫; zh-tw:魏勞赫; zh-hk:韋赫洛治;"
+    },
+    {
+      "original": "Weiser",
+      "conv": "zh:魏泽尔; zh-cn:魏泽尔; zh-tw:魏澤爾; zh-hk:韋沙;"
+    },
+    {
+      "original": "Müller",
+      "conv": "zh:穆勒; zh-cn:穆勒; zh-tw:穆勒; zh-hk:梅拿;"
+    },
+    {
+      "original": "Gómez",
+      "conv": "zh:戈麦斯; zh-cn:戈麦斯; zh-tw:戈梅茲; zh-hk:高美斯;"
+    },
+    {
+      "original": "Breno",
+      "conv": "zh:布雷诺; zh-cn:布雷诺; zh-tw:布雷諾; zh-hk:比連奴;"
+    },
+    {
+      "original": "Petersen",
+      "conv": "zh:彼得森; zh-cn:彼得森; zh-tw:彼得森; zh-hk:比達臣;"
+    },
+    {
+      "original": "Tymoshchuk",
+      "conv": "zh-hans:季莫什丘克;zh-hk:迪莫斯卓;zh-tw:蒂莫斯楚克;"
+    },
+    {
+      "original": "Butt",
+      "conv": "zh:布特; zh-cn:布特; zh-tw:布特; zh-hk:畢特;"
+    },
+    {
+      "original": "Pranjić",
+      "conv": "zh:普拉尼奇; zh-cn:普拉尼奇; zh-tw:普拉尼奇; zh-hk:彭捷;"
+    },
+    {
+      "original": "Olić",
+      "conv": "zh:奥利奇; zh-cn:奥利奇; zh-tw:奧利奇; zh-hk:奧歷;"
+    },
+    {
+      "original": "Breitner",
+      "conv": "zh:布莱特纳; zh-cn:布莱特纳; zh-tw:布萊特納; zh-hk:畢列拿;"
+    },
+    {
+      "original": "Scholl",
+      "conv": "zh:绍尔; zh-cn:绍尔; zh-tw:紹爾; zh-hk:史高爾;"
+    },
+    {
+      "original": "Schwarzenbeck",
+      "conv": "zh:施瓦岑贝克; zh-cn:施瓦岑贝克; zh-tw:施瓦岑貝克; zh-hk:舒華真碧;"
+    },
+    {
+      "original": "Augenthaler",
+      "conv": "zh:奥根塔勒; zh-cn:奥根塔勒; zh-tw:奧根塔勒; zh-hk:歐真泰拿;"
+    },
+    {
+      "original": "Thiago Alcântara",
+      "conv": "zh-cn:蒂亚戈·阿尔坎塔拉; zh-hk:泰亞高·艾簡達拿; zh-tw:蒂亞戈·阿爾坎塔拉;"
+    },
+    {
+      "original": "Thiago",
+      "conv": "zh-cn:蒂亚戈; zh-hk:泰亞高; zh-tw:蒂亞戈;"
+    },
+    {
+      "original": "Oliver Kahn",
+      "conv": "zh:奥利弗·卡恩; zh-hans:奥利弗·卡恩; zh-hk:奧利華·簡尼; zh-tw:奧利佛·卡恩;"
+    },
+    {
+      "original": "Kahn",
+      "conv": "zh:卡恩; zh-hans:卡恩; zh-hk:簡尼; zh-tw:卡恩;"
+    },
+    {
+      "original": "Sepp Maier",
+      "conv": "zh:塞普·迈尔; zh-cn:塞普·迈尔;zh-hk:瑟普·美亞;zh-tw:瑟普·邁爾;"
+    },
+    {
+      "original": "Maier",
+      "conv": "zh:迈尔; zh-cn:迈尔; zh-hk:美亞; zh-tw:邁爾;"
+    },
+    {
+      "original": "Hamit Altıntop",
+      "conv": "zh:哈米特·阿尔滕托普; zh-hans:哈米特·阿尔滕托普; zh-hk:咸美治·艾天托; zh-tw:哈米提·阿爾滕托普;"
+    },
+    {
+      "original": "Altıntop",
+      "conv": "zh:阿尔滕托普; zh-hans:阿尔滕托普; zh-hk:艾天托; zh-tw:阿爾滕托普;"
+    },
+    {
+      "original": "Markus Babbel",
+      "conv": "zh:马库斯·巴贝尔; zh-hans:马库斯·巴贝尔; zh-hk:馬克斯·巴布; zh-tw:馬庫斯·巴貝爾;"
+    },
+    {
+      "original": "Toni",
+      "conv": "zh:托尼; zh-hans:托尼; zh-hk:東尼; zh-tw:托尼;"
+    },
+    {
+      "original": "Owen Hargreaves",
+      "conv": "zh:欧文·哈格里夫斯; zh-hans:欧文·哈格里夫斯; zh-hk:奧雲·夏格維斯; zh-tw:歐文·哈格里夫斯;"
+    },
+    {
+      "original": "Michael Rensing",
+      "conv": "zh:米夏埃尔·伦辛; zh-hans:米夏埃尔·伦辛; zh-hk:米高·雲昇; zh-tw:麥可·倫辛;"
+    },
+    {
+      "original": "van Bommel",
+      "conv": "zh:范博梅尔;zh-hans:范博梅尔;zh-hk:雲保美;zh-hant:范博梅爾;"
+    },
+    {
+      "original": "Lothar Matthäus",
+      "conv": "zh:洛塔尔·马特乌斯; zh-hans:洛塔尔·马特乌斯; zh-hk:路德·馬圖斯; zh-tw:洛塔爾·馬特烏斯;"
+    },
+    {
+      "original": "Effenberg",
+      "conv": "zh:埃芬伯格; zh-hans:埃芬伯格; zh-hk:艾芬堡; zh-tw:埃芬伯格;"
+    },
+    {
+      "original": "Michael Ballack",
+      "conv": "zh:米夏埃尔·巴拉克; zh-cn:米夏埃尔·巴拉克; zh-hk:米高·波歷克; zh-tw:米夏爾·巴拉克;"
+    },
+    {
+      "original": "Trochowski",
+      "conv": "zh:特罗霍夫斯基; zh-cn:特罗霍夫斯基; zh-hk:杜查奧斯基; zh-tw:特羅霍夫斯基;"
+    },
+    {
+      "original": "Podolski",
+      "conv": "zh:波多尔斯基; zh-cn:波多尔斯基; zh-hk:普度斯基; zh-tw:波多斯基;"
+    },
+    {
+      "original": "Dietmar Hamann",
+      "conv": "zh:迪特马尔·哈曼; zh-cn:迪特马尔·哈曼; zh-hk:戴馬·夏文; zh-tw:迪特馬爾·哈曼;"
+    },
+    {
+      "original": "Hamann",
+      "conv": "zh:哈曼; zh-cn:哈曼; zh-hk:夏文; zh-tw:哈曼;"
+    },
+    {
+      "original": "Lell",
+      "conv": "zh:莱尔; zh-cn:莱尔; zh-hk:利爾; zh-tw:萊爾;"
+    },
+    {
+      "original": "Misimović",
+      "conv": "zh:米西莫维奇; zh-cn:米西莫维奇; zh-hk:米斯莫域; zh-tw:米西莫維奇;"
+    },
+    {
+      "original": "Ottl",
+      "conv": "zh:奥特尔; zh-cn:奥特尔; zh-hk:奧圖; zh-tw:奧特爾;"
+    },
+    {
+      "original": "Robert Lewandowski",
+      "conv": "zh:罗伯特·莱万多夫斯基; zh-cn:罗伯特·莱万多夫斯基; zh-hk:羅拔·利雲度夫斯基; zh-tw:羅伯特·萊萬多夫斯基;"
+    },
+    {
+      "original": "Lewandowski",
+      "conv": "zh:莱万多夫斯基; zh-cn:莱万多夫斯基; zh-hk:利雲度夫斯基; zh-tw:勒萬多夫斯基;"
+    },
+    {
+      "original": "Sebastian Rode",
+      "conv": "zh:塞巴斯蒂安·罗德; zh-cn:塞巴斯蒂安·罗德; zh-hk:施巴斯坦·洛迪; zh-tw:塞巴斯蒂安·羅德;"
+    },
+    {
+      "original": "Juan Bernat",
+      "conv": "zh:胡安·贝尔纳特; zh-cn:胡安·贝尔纳特; zh-hk:祖安·巴尼特; zh-tw:胡安·伯納特;"
+    },
+    {
+      "original": "Julian Green",
+      "conv": "zh:祖利安·格連; zh-cn:朱利安·格林; zh-hk:祖利安·格連; zh-tw:朱利安·格林;"
+    },
+    {
+      "original": "Pepe Reina",
+      "conv": "zh:佩佩·雷纳; zh-cn:佩佩·雷纳; zh-hk:比比·連拿; zh-tw:佩佩·雷納;"
+    },
+    {
+      "original": "Reina",
+      "conv": "zh:雷纳; zh-cn:雷纳; zh-hk:連拿; zh-tw:雷納;"
+    },
+    {
+      "original": "Sven Ulreich",
+      "conv": "zh:斯文·乌爾賴希; zh-cn:斯文·乌尔赖希; zh-hk:斯雲·烏里治; zh-tw:斯文·烏爾賴希;"
+    },
+    {
+      "original": "Sven Ulreich",
+      "conv": "zh:乌爾賴希; zh-cn:乌尔赖希; zh-hk:烏里治; zh-tw:烏爾賴希;"
+    },
+    {
+      "original": "Costa",
+      "conv": "zh:科斯塔; zh-cn:科斯塔; zh-hk:哥斯達; zh-tw:科斯塔;"
+    },
+    {
+      "original": "Vidal",
+      "conv": "zh:比达尔; zh-cn:比达尔; zh-hk:維度爾; zh-tw:維達爾;"
+    },
+    {
+      "original": "Gianluca Gaudino",
+      "conv": "zh:吉安卢卡·高迪诺; zh-cn:吉安卢卡·高迪诺; zh-hk:基安盧卡·加甸奴; zh-tw:詹盧卡·高迪諾;"
+    },
+    {
+      "original": "Gaudino",
+      "conv": "zh:高迪诺; zh-cn:高迪诺; zh-hk:加甸奴; zh-tw:高迪諾;"
+    },
+    {
+      "original": "Sinan Kurt",
+      "conv": "zh:希南·库尔特; zh-cn:希南·库尔特; zh-hk:施蘭·卻特; zh-tw:希南·庫爾特;"
+    },
+    {
+      "original": "Sinan Kurt",
+      "conv": "zh:库尔特; zh-cn:库尔特; zh-hk:卻特; zh-tw:庫爾特;"
+    },
+    {
+      "original": "Kingsley Coman",
+      "conv": "zh:金斯利·科芒;zh-hans:金斯利·科芒;zh-cn:金斯利·科曼;zh-hk:京士利·高文;zh-tw:金斯利·科曼;"
+    },
+    {
+      "original": "Coman",
+      "conv": "zh:科芒; zh-hans:科芒; zh-cn:科曼; zh-hk:高文; zh-tw:科曼;"
+    },
+    {
+      "original": "Serdar Taşçı",
+      "conv": "zh:塞尔达尔·塔什彻; zh-cn:塞尔达尔·塔什彻; zh-hk:薛達·泰斯治; zh-tw:塞爾達·塔斯齊;"
+    },
+    {
+      "original": "Taşçı",
+      "conv": "zh:塔什彻; zh-cn:塔什彻; zh-hk:泰斯治; zh-tw:塔斯齊;"
+    },
+    {
+      "original": "Renato Sanches",
+      "conv": "zh:雷纳托·桑谢斯; zh-cn:雷纳托·桑谢斯; zh-hk:連拿度·辛捷士; zh-tw:雷納托·桑切斯;"
+    },
+    {
+      "original": "Mats Hummels",
+      "conv": "zh-hans:马茨·胡梅尔斯;zh-tw:馬茨·胡梅爾斯;zh-hk:麥斯·曉姆斯;"
+    },
+    {
+      "original": "Hummels",
+      "conv": "zh-hans:胡梅尔斯;zh-tw:胡梅爾斯;zh-hk:曉姆斯;"
+    },
+    {
+      "original": "Xabi Alonso",
+      "conv": "zh:哈维·阿隆索;zh-hans:哈维·阿隆索;zh-hant:哈維·阿隆索;zh-hk:沙比·阿朗素;zh-tw:哈維·阿隆索;zh-mo:沙比·阿朗素;"
+    },
+    {
+      "original": "Alonso",
+      "conv": "zh:阿隆索;zh-hans:阿隆索;zh-hant:阿隆索;zh-hk:阿朗素;zh-tw:阿隆索;zh-mo:阿朗素;"
+    },
+    {
+      "original": "Corentin Tolisso",
+      "conv": "zh:科朗坦·托利索;zh-hans:科朗坦·托利索;zh-hant:科朗坦·托利索;zh-hk:哥倫天·杜利素;zh-tw:科倫丁·托利索;zh-mo:哥倫天·杜利素;"
+    },
+    {
+      "original": "Tolisso",
+      "conv": "zh:托利索;zh-hans:托利索;zh-hant:托利索;zh-hk:杜利素;zh-tw:托利索;zh-mo:杜利素;"
+    },
+    {
+      "original": "Serge Gnabry",
+      "conv": "zh:塞尔吉·格纳布里;zh-hans:塞尔吉·格纳布里;zh-hant:塞爾吉·格納布里;zh-hk:沙治·基拿比;zh-tw:塞爾吉·格納布里;zh-mo:沙治·基拿比;"
+    },
+    {
+      "original": "Gnabry",
+      "conv": "zh:格纳布里;zh-hans:格纳布里;zh-hant:格納布里;zh-hk:基拿比;zh-tw:格納布里;zh-mo:基拿比;"
+    },
+    {
+      "original": "Niklas Süle",
+      "conv": "zh:尼克拉斯·聚勒;zh-hans:尼克拉斯·聚勒;zh-hant:尼克拉斯·聚勒;zh-hk:尼卡拉斯·蘇利;zh-tw:尼克拉斯·具勒;zh-mo:尼卡拉斯·蘇利;"
+    },
+    {
+      "original": "Süle",
+      "conv": "zh:聚勒;zh-hans:聚勒;zh-hant:聚勒;zh-hk:蘇利;zh-tw:具勒;zh-mo:蘇利;"
+    },
+    {
+      "original": "James Rodríguez",
+      "conv": "zh:哈梅斯·罗德里格斯;zh-hans:哈梅斯·罗德里格斯;zh-hant:哈梅斯·羅德里格斯;zh-hk:占士·洛迪古斯;zh-tw:哈梅斯·羅德里奎茲;"
+    },
+    {
+      "original": "Willy Sagnol",
+      "conv": "zh:威利·萨尼奥尔;zh-hans:威利·萨尼奥尔;zh-hant:威利·薩尼奧爾;zh-hk:威利·沙洛;zh-tw:威利·薩尼奧爾;"
+    },
+    {
+      "original": "Sandro Wagner",
+      "conv": "zh:桑德羅·瓦格納;zh-hans:桑德罗·瓦格纳;zh-hant:桑德羅·瓦格納;zh-hk:辛度·華拿;zh-tw:桑德羅·瓦格納;zh-mo:辛度·華拿;"
+    },
+    {
+      "original": "Wagner",
+      "conv": "zh:瓦格納;zh-hans:瓦格纳;zh-hant:瓦格納;zh-hk:華拿;zh-tw:瓦格納;zh-mo:華拿;"
+    },
+    {
+      "original": "Leon Goretzka",
+      "conv": "zh:莱昂·戈雷茨卡;zh-hans:莱昂·戈雷茨卡;zh-hant:萊昂·格雷茨卡;zh-hk:李昂·哥列斯卡;zh-tw:萊昂·格雷茨卡;zh-mo:李昂·哥列斯卡;"
+    },
+    {
+      "original": "Goretzka",
+      "conv": "zh:戈雷茨卡;zh-hans:戈雷茨卡;zh-hant:格雷茨卡;zh-hk:哥列斯卡;zh-tw:格雷茨卡;zh-mo:哥列斯卡;"
+    },
+    {
+      "original": "Serge Gnabry",
+      "conv": "zh:塞尔吉·格纳布里;zh-hans:塞尔吉·格纳布里;zh-hant:塞爾吉·格納布里;zh-hk:沙治·基拿比;zh-tw:塞爾吉·格納布里;zh-mo:沙治·基拿比;"
+    },
+    {
+      "original": "Gnabry",
+      "conv": "zh:格纳布里;zh-hans:格纳布里;zh-hant:格納布里;zh-hk:基拿比;zh-tw:格納布里;zh-mo:基拿比;"
+    },
+    {
+      "original": "Benjamin Pavard",
+      "conv": "zh:本傑明·帕瓦德;zh-hans:邦雅曼·帕瓦尔;zh-hant:邦雅曼·帕瓦爾;zh-hk:班捷文·柏華特;zh-tw:本傑明·帕瓦德;zh-mo:班捷文·柏華特;"
+    },
+    {
+      "original": "Benjamin Pavard",
+      "conv": "zh:帕瓦德;zh-hans:帕瓦尔;zh-hant:帕瓦爾;zh-hk:柏華特;zh-tw:帕瓦德;zh-mo:柏華特;"
+    },
+    {
+      "original": "Arp",
+      "conv": "zh:阿尔普;zh-hans:阿尔普;zh-hant:阿爾普;zh-hk:艾比;zh-tw:阿爾普;zh-mo:艾比;"
+    },
+    {
+      "original": "Lucas Hernandez",
+      "conv": "zh:盧卡斯·埃爾南德斯;zh-hans:卢卡斯·埃尔南德斯;zh-hant:盧卡斯·埃爾南德斯;zh-hk:盧卡斯·靴南迪斯;zh-tw:盧卡斯·埃爾南德斯;zh-mo:盧卡斯·靴南迪斯;"
+    },
+    {
+      "original": "Hernandez",
+      "conv": "zh:埃爾南德斯;zh-hans:埃尔南德斯;zh-hant:埃爾南德斯;zh-hk:靴南迪斯;zh-tw:埃爾南德斯;zh-mo:靴南迪斯;"
+    },
+    {
+      "original": "Christian Früchtl",
+      "conv": "zh:克里斯蒂安·弗吕希特尔;zh-hans:克里斯蒂安·弗吕希特尔;zh-hant:克里斯蒂安·弗呂希特爾;zh-hk:基斯坦·富捷爾;zh-tw:克里斯蒂安·弗呂希特爾;zh-mo:基斯坦·富捷爾;"
+    },
+    {
+      "original": "Früchtl",
+      "conv": "zh:弗吕希特尔;zh-hans:弗吕希特尔;zh-hant:弗呂希特爾;zh-hk:富捷爾;zh-tw:弗呂希特爾;zh-mo:富捷爾;"
+    },
+    {
+      "original": "Ivan Perišić",
+      "conv": "zh:伊万·佩里希奇;zh-hans:伊万·佩里希奇;zh-hant:伊萬·佩里希奇;zh-hk:艾雲·比列錫;zh-tw:伊萬·佩里希奇;zh-mo:艾雲·比列錫;"
+    },
+    {
+      "original": "Perišić",
+      "conv": "zh:佩里希奇;zh-hans:佩里希奇;zh-hant:佩里希奇;zh-hk:比列錫;zh-tw:佩里希奇;zh-mo:比列錫;"
+    },
+    {
+      "original": "Mickaël Cuisance",
+      "conv": "zh:米卡埃尔·屈桑斯;zh-hans:米卡埃尔·屈桑斯;zh-hant:米卡埃爾·屈桑斯;zh-hk:米基爾·古辛施;zh-tw:米卡埃爾·屈桑斯;zh-mo:米基爾·古辛施;"
+    },
+    {
+      "original": "Cuisance",
+      "conv": "zh:屈桑斯;zh-hans:屈桑斯;zh-hant:屈桑斯;zh-hk:古辛施;zh-tw:屈桑斯;zh-mo:古辛施;"
+    },
+    {
+      "original": "Philippe Coutinho",
+      "conv": "zh:菲利普·库蒂尼奥;zh-hans:菲利普·库蒂尼奥;zh-hant:菲利普·庫蒂尼奧;zh-hk:菲臘比·古天奴;zh-tw:菲利普·庫蒂尼奧;zh-mo:菲臘比·古天奴;"
+    },
+    {
+      "original": "Coutinho",
+      "conv": "zh:库蒂尼奥;zh-hans:库蒂尼奥;zh-hant:庫蒂尼奧;zh-hk:古天奴;zh-tw:庫蒂尼奧;zh-mo:古天奴;"
+    },
+    {
+      "original": "Lars Lukas Mai",
+      "conv": "zh:拉斯·卢卡斯·迈;zh-hans:拉斯·卢卡斯·迈;zh-hant:拉斯·盧卡斯·邁;zh-hk:拿斯·盧卡斯·邁爾;zh-tw:拉斯·盧卡斯·邁;zh-mo:拿斯·盧卡斯·邁爾;"
+    },
+    {
+      "original": "Zirkzee",
+      "conv": "zh:齐尔克泽;zh-hans:齐尔克泽;zh-hant:齊爾克澤;zh-hk:舒克斯;zh-tw:齊爾克澤;zh-mo:舒克斯;"
+    },
+    {
+      "original": "Álvaro Odriozola",
+      "conv": "zh:阿尔瓦罗·奥德里奥索拉;zh-hans:阿尔瓦罗·奥德里奥索拉;zh-hant:阿爾瓦羅·奧德里奧索拉;zh-hk:艾華路·奧迪奧蘇拿;zh-tw:阿爾瓦羅·奧德里奧索拉;zh-mo:艾華路·奧迪奧蘇拿;"
+    },
+    {
+      "original": "Odriozola",
+      "conv": "zh:奥德里奥索拉;zh-hans:奥德里奥索拉;zh-hant:奧德里奧索拉;zh-hk:奧迪奧蘇拿;zh-tw:奧德里奧索拉;zh-mo:奧迪奧蘇拿;"
+    },
+    {
+      "original": "Tanguy Nianzou Kouassi",
+      "conv": "zh:唐吉·夸西;zh-hans:唐吉·夸西;zh-hant:唐吉·夸西;zh-hk:尼安素·高亞斯;zh-tw:唐吉·夸西;zh-mo:尼安素·高亞斯;"
+    },
+    {
+      "original": "Kouassi",
+      "conv": "zh:夸西;zh-hans:夸西;zh-hant:夸西;zh-hk:高亞斯;zh-tw:夸西;zh-mo:高亞斯;"
+    },
+    {
+      "original": "Leroy Sané",
+      "conv": "zh:勒鲁瓦·萨内;zh-hans:勒鲁瓦·萨内;zh-hant:勒魯瓦·薩內;zh-hk:利萊·辛尼;zh-tw:里羅·薩內;zh-mo:利萊·辛尼;"
+    },
+    {
+      "original": "Sané",
+      "conv": "zh:萨内;zh-hans:萨内;zh-hant:薩內;zh-hk:辛尼;zh-tw:薩內;zh-mo:辛尼;"
+    },
+    {
+      "original": "Nübel",
+      "conv": "zh:尼貝爾;zh-hans:尼贝尔;zh-hant:尼貝爾;zh-hk:紐布爾;zh-tw:尼貝爾;zh-mo:紐布爾;"
+    },
+    {
+      "original": "Alphonso",
+      "conv": "zh:阿方索;zh-hans:阿方索;zh-hant:阿方索;zh-hk:艾方素;zh-tw:阿方索;zh-mo:艾方素;"
+    },
+    {
+      "original": "Joshua",
+      "conv": "zh:约书亚;zh-hans:约书亚;zh-hant:約書亞;zh-hk:約舒亞;zh-tw:約書亞;zh-mo:約舒亞;"
+    },
+    {
+      "original": "Kimmich",
+      "conv": "zh:基米希;zh-hans:基米希;zh-hant:基米希;zh-hk:甘美治;zh-tw:基米希;zh-mo:甘美治;"
+    },
+    {
+      "original": "Ron-Thorben Hoffmann",
+      "conv": "zh:罗恩-托本·霍夫曼;zh-hans:罗恩-托本·霍夫曼;zh-hant:羅恩-托本·霍夫曼;zh-hk:朗-科班·賀夫曼;zh-tw:羅恩-托本·霍夫曼;zh-mo:朗-科班·賀夫曼;"
+    },
+    {
+      "original": "Hoffmann",
+      "conv": "zh:霍夫曼;zh-hans:霍夫曼;zh-hant:霍夫曼;zh-hk:荷夫曼;zh-tw:霍夫曼;zh-mo:荷夫曼;"
+    },
+    {
+      "original": "Marc Roca",
+      "conv": "zh:马克·罗卡;zh-hans:马克·罗卡;zh-hant:馬克·羅卡;zh-hk:馬克·洛卡;zh-tw:馬克·羅卡;zh-mo:馬克·洛卡;"
+    },
+    {
+      "original": "Roca",
+      "conv": "zh:罗卡;zh-hans:罗卡;zh-hant:羅卡;zh-hk:洛卡;zh-tw:羅卡;zh-mo:洛卡;"
+    },
+    {
+      "original": "Bouna Sarr",
+      "conv": "zh:布纳·萨尔;zh-hans:布纳·萨尔;zh-hant:布納·薩爾;zh-hk:保拿·沙亞;zh-tw:布納·薩爾;zh-mo:保拿·沙亞;"
+    },
+    {
+      "original": "Sarr",
+      "conv": "zh:萨尔;zh-hans:萨尔;zh-hant:薩爾;zh-hk:沙亞;zh-tw:薩爾;zh-mo:沙亞;"
+    },
+    {
+      "original": "Choupo-Moting",
+      "conv": "zh:舒波-莫廷;zh-hans:舒波-莫廷;zh-hant:舒波-莫廷;zh-hk:祖普-莫亭;zh-tw:舒波-莫廷;zh-mo:祖普-莫亭;"
+    },
+    {
+      "original": "Dayot Upamecano",
+      "conv": "zh:達約特·烏帕梅卡諾;zh-hans:达约·于帕梅卡诺;zh-hant:達約特·烏帕梅卡諾;zh-hk:達約·烏柏美卡奴;zh-tw:達約特·烏帕梅卡諾;zh-mo:達約·烏柏美卡奴;"
+    },
+    {
+      "original": "Upamecano",
+      "conv": "zh:烏帕梅卡諾;zh-hans:于帕梅卡诺;zh-hant:烏帕梅卡諾;zh-hk:烏柏美卡奴;zh-tw:烏帕梅卡諾;zh-mo:烏柏美卡奴;"
+    },
+    {
+      "original": "Omar Richards",
+      "conv": "zh:奥马尔·理查兹;zh-hans:奥马尔·理查兹;zh-hant:奧馬爾·理查茲;zh-hk:奧馬·李察士;zh-tw:奧馬爾·理查茲;zh-mo:奧馬·李察士;"
+    },
+    {
+      "original": "Richards",
+      "conv": "zh:理查兹;zh-hans:理查兹;zh-hant:理查茲;zh-hk:李察士;zh-tw:理查茲;zh-mo:李察士;"
+    },
+    {
+      "original": "Musiala",
+      "conv": "zh:穆西亚拉;zh-hans:穆西亚拉;zh-hant:穆西亞拉;zh-hk:穆斯亞拿;zh-tw:穆夏拉;zh-mo:穆斯亞拿;"
+    },
+    {
+      "original": "Sabitzer",
+      "conv": "zh:薩比策;zh-hans:扎比策;zh-hant:薩比策;zh-hk:沙比薩;zh-tw:薩比策;zh-mo:沙比薩;"
+    },
+    {
+      "original": "Sadio Mané",
+      "conv": "zh:萨迪奥·马内;zh-hans:萨迪奥·马内;zh-hant:薩迪奧·馬內;zh-hk:沙迪奧·文尼;"
+    },
+    {
+      "original": "Mané",
+      "conv": "zh:马内;zh-hans:马内;zh-hant:馬內;zh-hk:文尼;"
+    },
+    {
+      "original": "Ryan Gravenberch",
+      "conv": "zh:瑞安·赫拉芬贝赫;zh-hans:瑞安·赫拉芬贝赫;zh-hant:瑞安·赫拉芬貝赫;zh-hk:賴恩·格雲貝治;zh-tw:瑞安·葛萊分伯赫;"
+    },
+    {
+      "original": "Gravenberch",
+      "conv": "zh:赫拉芬贝赫;zh-hans:赫拉芬贝赫;zh-hant:赫拉芬貝赫;zh-hk:格雲貝治;zh-tw:葛萊分伯赫;"
+    },
+    {
+      "original": "Mazraoui",
+      "conv": "zh:马兹拉维;zh-hans:马兹拉维;zh-hant:馬茲拉維;zh-hk:馬斯奧爾;zh-tw:馬茲拉烏伊;"
+    },
+    {
+      "original": "Matthijs de Ligt",
+      "conv": "zh:馬菲斯·迪歷特;zh-hans:马泰斯·德利赫特;zh-hant:馬泰斯·德利赫特;zh-hk:馬菲斯·迪歷特;zh-tw:馬蒂斯·德里赫特;"
+    },
+    {
+      "original": "de Ligt",
+      "conv": "zh:迪歷特;zh-hans:德利赫特;zh-hant:德利赫特;zh-hk:迪歷特;zh-tw:德里赫特;"
+    },
+    {
+      "original": "Tel",
+      "conv": "zh:特尔;zh-hans:特尔;zh-hant:特爾;zh-hk:泰爾;zh-tw:特爾;"
+    },
+    {
+      "original": "Gabriel Vidović",
+      "conv": "zh:加布里埃尔·维多维奇;zh-hans:加布里埃尔·维多维奇;zh-hant:加布里埃爾·維多維奇;zh-hk:加比爾·域多域治;zh-tw:加布里埃爾·維多維奇;"
+    },
+    {
+      "original": "Vidović",
+      "conv": "zh:维多维奇;zh-hans:维多维奇;zh-hant:維多維奇;zh-hk:域多域治;zh-tw:維多維奇;"
+    },
+    {
+      "original": "Blind",
+      "conv": "zh:布林德;zh-hans:布林德;zh-hant:布林德;zh-hk:白蘭特;"
+    },
+    {
+      "original": "Yann Sommer",
+      "conv": "zh:揚·索莫;zh-hans:扬·佐默;zh-hant:楊·佐默;zh-hk:恩·蘇馬;zh-tw:揚·索莫;"
+    },
+    {
+      "original": "Sommer",
+      "conv": "zh:索莫;zh-hans:佐默;zh-hant:佐默;zh-hk:蘇馬;zh-tw:索莫;"
+    },
+    {
+      "original": "João Cancelo",
+      "conv": "zh:若奧·坎塞洛;zh-hans:若奥·坎塞洛;zh-hant:若奧·坎塞洛;zh-hk:祖奧·簡些路;"
+    },
+    {
+      "original": "Cancelo",
+      "conv": "zh:坎塞洛;zh-hans:坎塞洛;zh-hant:坎塞洛;zh-hk:簡些路;"
+    },
+    {
+      "original": "Arijon Ibrahimović",
+      "conv": "zh:阿里翁·伊布拉希莫维奇;zh-hans:阿里翁·伊布拉希莫维奇;zh-hk:亞列莊·伊巴謙莫域;zh-hant:阿里永·伊布拉希莫維奇;"
+    },
+    {
+      "original": "Ibrahimović",
+      "conv": "zh:伊布拉希莫维奇;zh-hans:伊布拉希莫维奇;zh-hk:伊巴謙莫域;zh-hant:伊布拉希莫維奇;"
+    },
+    {
+      "original": "Konrad Laimer",
+      "conv": "zh:孔拉德·萊梅爾;zh-hans:康拉德·莱默;zh-hk:干拉特·賴馬;zh-tw:孔拉德·萊梅爾;"
+    },
+    {
+      "original": "Laimer",
+      "conv": "zh:萊梅爾;zh-hans:莱默;zh-hk:賴馬;zh-tw:萊梅爾;"
+    },
+    {
+      "original": "Raphaël Guerreiro",
+      "conv": "zh:拉斐爾·古埃雷羅;zh-hans:拉斐尔·格雷罗;zh-hk:拉斐爾·古里路;zh-tw:拉斐爾·古埃雷羅;"
+    },
+    {
+      "original": "Guerreiro",
+      "conv": "zh:格雷罗;zh-hans:格雷罗;zh-hk:古里路;zh-tw:古埃雷羅;"
+    },
+    {
+      "original": "Wanner",
+      "conv": "zh:万纳;zh-hans:万纳;zh-hk:雲拿;zh-hant:萬納;"
+    },
+    {
+      "original": "Josip Stanišić",
+      "conv": "zh:约西普·斯塔尼希奇;zh-hans:约瑟普·斯塔尼希奇;zh-hk:約瑟普·史坦尼錫;zh-hant:約瑟普·斯塔尼希奇;"
+    },
+    {
+      "original": "Stanišić",
+      "conv": "zh:斯塔尼希奇;zh-hans:斯塔尼希奇;zh-hk:史坦尼錫;zh-hant:斯塔尼希奇;"
+    },
+    {
+      "original": "Harry Kane",
+      "conv": "zh:哈里·凯恩;zh-hans:哈里·凯恩;zh-hk:哈利·簡尼;zh-hant:哈里·凱恩;"
+    },
+    {
+      "original": "Kane",
+      "conv": "zh:凯恩;zh-hans:凯恩;zh-hk:簡尼;zh-hant:凱恩;"
+    },
+    {
+      "original": "Peretz",
+      "conv": "zh:佩雷茨;zh-hans:佩雷茨;zh-hk:普列斯;zh-hant:佩雷茨;"
+    },
+    {
+      "original": "Eric Dier",
+      "conv": "zh:艾歷·迪亞;zh-hans:埃里克·戴尔;zh-hk:艾歷·迪亞;zh-tw:艾瑞克·戴爾"
+    },
+    {
+      "original": "Dier",
+      "conv": "zh:迪亞;zh-hans:戴尔;zh-hk:迪亞;zh-hant:戴爾;"
+    },
+    {
+      "original": "Sacha Boey",
+      "conv": "zh:萨夏·博埃;zh-hans:萨夏·博埃;zh-hk:沙查·保爾;zh-hant:薩夏·博埃"
+    },
+    {
+      "original": "Boey",
+      "conv": "zh:博埃;zh-hans:博埃;zh-hk:保爾;zh-hant:博埃;"
+    },
+    {
+      "original": "Michael Olise",
+      "conv": "zh:米夏埃尔·奥利塞;zh-hans:迈克尔·奥利塞;zh-hk:米高·奧利斯;zh-tw:麥可·奧利塞;zh-hant:邁克爾·奧利塞"
+    },
+    {
+      "original": "Olise",
+      "conv": "zh:奥利塞;zh-hans:奥利塞;zh-hk:奧利斯;zh-tw:奧利塞;zh-hant:奧利塞"
+    },
+    {
+      "original": "João Palhinha",
+      "conv": "zh:若昂·帕利尼亚;zh-hans:若昂·帕利尼亚;zh-hk:祖奧·柏連拿;zh-hant:若昂·帕利尼亞"
+    },
+    {
+      "original": "Palhinha",
+      "conv": "zh:帕利尼亚;zh-hans:帕利尼亚;zh-hk:柏連拿;zh-hant:帕利尼亞"
+    },
+    {
+      "original": "Guardiola",
+      "conv": "zh:瓜迪奥拉; zh-cn:瓜迪奥拉; zh-tw:瓜迪奧拉; zh-hk:哥迪奧拿;"
+    },
+    {
+      "original": "Jupp Heynckes",
+      "conv": "zh:尤普·海因克斯; zh-cn:尤普·海因克斯; zh-tw:尤普·海因克斯; zh-hk:積普·希基斯;"
+    },
+    {
+      "original": "Heynckes",
+      "conv": "zh:海因克斯; zh-cn:海因克斯; zh-tw:海因克斯; zh-hk:希基斯;"
+    },
+    {
+      "original": "Hitzfeld",
+      "conv": "zh:希斯菲尔德; zh-cn:希斯菲尔德; zh-hk:希斯菲特; zh-tw:希斯菲爾德;"
+    },
+    {
+      "original": "Giovanni",
+      "conv": "zh:吉奥瓦尼; zh-hans:吉奥瓦尼; zh-hk:基奧雲尼;zh-hant:喬瓦尼"
+    },
+    {
+      "original": "Giovanni Trapattoni",
+      "conv": "zh:吉奥瓦尼·特拉帕托尼; zh-hans:吉奥瓦尼·特拉帕托尼; zh-hk:基奧雲尼·查帕東尼;"
+    },
+    {
+      "original": "Trapattoni",
+      "conv": "zh:特拉帕托尼; zh-hans:特拉帕托尼; zh-hk:查帕東尼;"
+    },
+    {
+      "original": "Otto Rehhagel",
+      "conv": "zh:奥托·雷哈格尔; zh-cn:奥托·雷哈格尔; zh-hk:奧圖·列哈格; zh-tw:奧托·雷哈格爾;"
+    },
+    {
+      "original": "Felix Magath",
+      "conv": "zh:菲利斯·馬加夫; zh-hans:菲利克斯·马加特; zh-hk:菲利斯·馬加夫; zh-tw:菲利克斯·馬加特;"
+    },
+    {
+      "original": "Magath",
+      "conv": "zh:馬加夫; zh-hans:马加特; zh-hk:馬加夫; zh-tw:馬加特;"
+    },
+    {
+      "original": "Klinsmann",
+      "conv": "zh:克林斯曼; zh-hans:克林斯曼; zh-hk:奇連士文; zh-tw:克林斯曼;"
+    },
+    {
+      "original": "van Gaal",
+      "conv": "zh-hans:范加尔;zh-hk:雲高爾;zh-tw:范加爾;"
+    },
+    {
+      "original": "Jonker",
+      "conv": "zh:永克尔; zh-hans:永克尔; zh-hk:鍾卡;"
+    },
+    {
+      "original": "Carlo Ancelotti",
+      "conv": "zh:卡洛·安切洛蒂; zh-hans:卡洛·安切洛蒂; zh-tw:卡洛·安切洛蒂; zh-hk:卡路·安察洛堤;"
+    },
+    {
+      "original": "Ancelotti",
+      "conv": "zh:安切洛蒂; zh-hans:安切洛蒂; zh-tw:安切洛蒂; zh-hk:安察洛堤;"
+    },
+    {
+      "original": "Paul Clement",
+      "conv": "zh:保罗·克莱门特; zh-hans:保罗·克莱门特; zh-tw:保羅·克萊門特; zh-hk:保羅·基文迪;"
+    },
+    {
+      "original": "Clement",
+      "conv": "zh:克莱门特; zh-hans:克莱门特; zh-tw:克萊門特; zh-hk:基文迪;"
+    },
+    {
+      "original": "Niko Kovač",
+      "conv": "zh:尼科·科瓦奇; zh-hans:尼科·科瓦奇; zh-tw:尼科·科瓦奇; zh-hk:尼高·高華;"
+    },
+    {
+      "original": "Kovač",
+      "conv": "zh:科瓦奇; zh-hans:科瓦奇; zh-tw:科瓦奇; zh-hk:高華;"
+    },
+    {
+      "original": "Flick",
+      "conv": "zh:弗利克; zh-hans:弗利克; zh-hant:弗利克; zh-hk:費歷克;"
+    },
+    {
+      "original": "Julian Nagelsmann",
+      "conv": "zh:尤利安·纳格尔斯曼;zh-hans:尤利安·纳格尔斯曼;zh-hant:尤利安·納格爾斯曼;zh-tw:尤利安·納格爾斯曼;zh-hk:祖利安·拿高士文;zh-mo:祖利安·拿高士文;"
+    },
+    {
+      "original": "Nagelsmann",
+      "conv": "zh:纳格尔斯曼;zh-hans:纳格尔斯曼;zh-hant:納格爾斯曼;zh-tw:納格爾斯曼;zh-hk:拿高士文;zh-mo:拿高士文;"
+    },
+    {
+      "original": "Miroslav Klose",
+      "conv": "zh:米罗斯拉夫·克洛泽; zh-hans:米罗斯拉夫·克洛泽; zh-hk:米路斯拉夫·高路斯; zh-tw:米羅斯拉夫·克洛斯;"
+    },
+    {
+      "original": "Klose",
+      "conv": "zh:克洛泽; zh-hans:克洛泽; zh-hk:高路斯; zh-tw:克洛斯;"
+    },
+    {
+      "original": "Martín Demichelis",
+      "conv": "zh:马丁·德米凯利斯; zh-hans:马丁·德米凯利斯; zh-hk:馬田·迪米捷利斯; zh-tw:馬丁·德米凱利斯;"
+    },
+    {
+      "original": "Tuchel",
+      "conv": "zh:图赫尔; zh-hans:图赫尔; zh-hk:杜曹; zh-hant:圖赫爾;"
+    },
+    {
+      "original": "Vincent Kompany",
+      "conv": "zh:樊尚·孔帕尼;zh-hans:樊尚·孔帕尼;zh-hk:雲遜·甘賓尼;zh-hant:文森特·孔帕尼;"
+    },
+    {
+      "original": "Kompany",
+      "conv": "zh:孔帕尼;zh-hans:孔帕尼;zh-hk:甘賓尼;zh-tw:孔帕尼;"
+    },
+    {
+      "original": "Hoeneß",
+      "conv": "zh:赫内斯; zh-cn:赫内斯; zh-tw:赫内斯; zh-hk:漢尼斯;"
+    },
+    {
+      "original": "Jupp Heynckes",
+      "conv": "zh:萨默尔; zh-cn:萨默尔; zh-tw:薩默爾; zh-hk:森馬;"
+    },
+    {
+      "original": "Franz Beckenbauer",
+      "conv": "zh:弗朗茨·贝肯鲍尔; zh-cn:弗朗茨·贝肯鲍尔; zh-tw:法蘭茲·貝肯鮑爾; zh-hk:法蘭斯·碧根鮑華;"
+    },
+    {
+      "original": "Beckenbauer",
+      "conv": "zh:贝肯鲍尔; zh-cn:贝肯鲍尔; zh-tw:貝肯鮑爾; zh-hk:碧根鮑華;"
+    },
+    {
+      "original": "Rummenigge",
+      "conv": "zh:鲁梅尼格; zh-cn:鲁梅尼格; zh-tw:魯梅尼格; zh-hk:路明尼加;"
+    },
+    {
+      "original": "Hasan Salihamidžić",
+      "conv": "zh:哈桑·萨利哈米季奇;zh-hans:哈桑·萨利哈米季奇;zh-hk:哈桑·沙歷咸美迪錫;zh-hant:哈桑·薩利哈米季奇;"
+    },
+    {
+      "original": "Salihamidžić",
+      "conv": "zh:萨利哈米季奇;zh-hans:萨利哈米季奇;zh-hk:沙歷咸美迪錫;zh-hant:薩利哈米季奇;"
+    },
+    {
+      "original": "Jan-Christian Dreesen",
+      "conv": "zh:扬-克里斯蒂安·德雷森;zh-hans:扬-克里斯蒂安·德雷森;zh-hk:贊-基斯坦·迪利臣;zh-hant:揚-克里斯蒂安·德雷森;"
+    },
+    {
+      "original": "Dreesen",
+      "conv": "zh:德雷森;zh-hans:德雷森; zh-hk:迪利臣; zh-hant:德雷森;"
+    }
+  ]
+}

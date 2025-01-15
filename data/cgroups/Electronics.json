@@ -36,12 +36,12 @@
       "conv": "zh-tw:突崩潰; zh-cn:雪崩击穿;"
     },
     {
-      "original": "Ballast",
-      "conv": "zh-cn:镇流器; zh-hk:鎮流器; zh-tw:安定器;"
+      "original": "Avalanche diode",
+      "conv": "zh-tw:雪崩二極體; zh-cn:雪崩二极管;"
     },
     {
-      "original": "Ballast",
-      "conv": "zh-cn:启辉器; zh-hk:士撻膽; zh-tw:啟動器;"
+      "original": "Avalanche photodiode",
+      "conv": "zh-tw:雪崩光二極體; zh-cn:雪崩光电二极管;"
     },
     {
       "original": "Biasing",
@@ -80,10 +80,6 @@
       "conv": "高速緩存=>zh-tw:快取; 高速緩存=>zh-hk:緩衝記憶體; 高速緩存=>zh-mo:緩衝記憶體;"
     },
     {
-      "original": "CFL (vulgar)",
-      "conv": "zh-cn:节能灯; zh-hk:慳電膽; zh-tw:省電燈泡;"
-    },
-    {
       "original": "Channel",
       "conv": "zh-cn:沟道; zh-tw:通道;"
     },
@@ -93,7 +89,7 @@
     },
     {
       "original": "Clock signal",
-      "conv": "zh-cn:时间脉冲信号; zh-tw:定時器訊號;"
+      "conv": "zh-cn:时间脉冲信号; zh-tw:時鐘訊號;"
     },
     {
       "original": "Collector",
@@ -113,7 +109,7 @@
     },
     {
       "original": "Compact fluorescent lamp",
-      "conv": "zh-cn:节能灯; zh-tw:省電燈泡;"
+      "conv": "zh-cn:节能灯; zh-tw:省電燈泡; zh-hk:慳電膽;"
     },
     {
       "original": "Coordinate",
@@ -124,8 +120,16 @@
       "conv": "zh-cn:数字模拟转换器; zh-hk:數碼模擬轉換器; zh-tw:數位類比轉換器"
     },
     {
-      "original": "Depletion region",
+      "original": "Depletion",
+      "conv": "zh-tw:空乏; zh-cn:耗尽; zh-hk:空乏;"
+    },
+    {
+      "original": "Depletion layer",
       "conv": "zh-cn:耗尽层; zh-tw:空乏層"
+    },
+    {
+      "original": "Depletion region",
+      "conv": "zh-cn:耗尽区; zh-tw:空乏區"
     },
     {
       "original": "Device",
@@ -134,10 +138,6 @@
     {
       "original": "Digital",
       "conv": "zh-tw:數位; zh-cn:数字; zh-hk:數碼;"
-    },
-    {
-      "original": "Depletion",
-      "conv": "zh-tw:空乏; zh-cn:耗尽; zh-hk:空乏;"
     },
     {
       "original": "Diode",
@@ -169,7 +169,7 @@
     },
     {
       "original": "Electrical ballast",
-      "conv": "zh-tw:安定器; zh-cn:镇流器;"
+      "conv": "zh-tw:安定器; zh-cn:镇流器; zh-hk:鎮流器;"
     },
     {
       "original": "Electrical engineering",
@@ -228,16 +228,20 @@
       "conv": "zh-cn:固件; zh-tw:韌體;"
     },
     {
+      "original": "Flip-flop",
+      "conv": "zh-cn:触发器; zh-tw:正反器;"
+    },
+    {
+      "original": "Fluorescent",
+      "conv": "zh-cn:荧光; zh-tw:螢光; zh-hk:熒光;"
+    },
+    {
       "original": "Fourteen-segment display",
       "conv": "zh-cn:十四段数码管; zh-hk:十四劃管; zh-tw:十四段顯示器;"
     },
     {
       "original": "Forward",
       "conv": "zh-cn:正向; zh-tw:順向;"
-    },
-    {
-      "original": "Flip-flop",
-      "conv": "zh-cn:触发器; zh-tw:正反器;"
     },
     {
       "original": "Gate",
@@ -284,12 +288,20 @@
       "conv": "zh-tw:介面; zh-cn:接口;"
     },
     {
+      "original": "Ion implantation",
+      "conv": "zh-tw:離子佈植; zh-cn:离子注入;"
+    },
+    {
       "original": "IP core",
       "conv": "zh-tw:矽智財; zh-cn:IP核;"
     },
     {
       "original": "JFET",
       "conv": "zh-tw:接面場效電晶體; zh-cn:结型场效应管;"
+    },
+    {
+      "original": "Junction capacitance",
+      "conv": "zh-cn:结电容; zh-tw:接面電容;"
     },
     {
       "original": "Junctional",
@@ -374,6 +386,10 @@
     {
       "original": "Nine-segment display",
       "conv": "zh-cn:九段数码管; zh-hk:九劃管; zh-tw:九段顯示器;"
+    },
+    {
+      "original": "Nixie tube",
+      "conv": "zh-hans:数码管; zh-cn:数字管; zh-tw:數位管; zh-hk:數碼管;"
     },
     {
       "original": "OR gate",
@@ -525,7 +541,7 @@
     },
     {
       "original": "signal",
-      "conv": "zh-cn:信号; zh-tw:訊號;zh-hk:訊號; 信號=>zh-mo:訊號;"
+      "conv": "zh-cn:信号; zh-tw:訊號; zh-hk:訊號; 信號=>zh-mo:訊號;"
     },
     {
       "original": "Silicon",
@@ -545,7 +561,7 @@
     },
     {
       "original": "Starting",
-      "conv": "zh-cn:启辉器; zh-tw:啟動器;"
+      "conv": "zh-cn:启辉器; zh-hk:士撻膽; zh-tw:啟動器;"
     },
     {
       "original": "Substrate",

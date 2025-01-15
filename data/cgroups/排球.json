@@ -1,0 +1,471 @@
+{
+  "name": "排球",
+  "description": "排球",
+  "path": "Module:CGroup/排球",
+  "rules": [
+    {
+      "original": "Simone Anzani",
+      "conv": "zh-hans:西莫内·安扎尼;zh-tw:西蒙尼·安扎尼;"
+    },
+    {
+      "original": "Mateusz Bieniek",
+      "conv": "zh-hans:马特乌什·比涅克;zh-tw:馬特烏斯·比尼克;"
+    },
+    {
+      "original": "Bieniek",
+      "conv": "zh-hans:比涅克;zh-tw:比尼克;"
+    },
+    {
+      "original": "Micah Christenson",
+      "conv": "zh-hans:迈卡·克里斯滕森;zh-tw:米卡·克里斯滕森;"
+    },
+    {
+      "original": "Trévor Clévenot",
+      "conv": "zh-hans:特雷沃尔·克莱弗诺;zh-tw:崔佛·克里夫諾;"
+    },
+    {
+      "original": "Clévenot",
+      "conv": "zh-hans:克莱弗诺;zh-tw:克里夫諾;"
+    },
+    {
+      "original": "David ",
+      "conv": "zh-hans:戴维·;zh-hant:大衛·;"
+    },
+    {
+      "original": "David ",
+      "conv": "大卫·=>zh-cn:戴维·;大卫·=>zh-sg:戴维·;大卫·=>zh-my:戴维·;"
+    },
+    {
+      "original": "Drzyzga",
+      "conv": "zh-hans:杰兹加;zh-tw:德爾奇佳;"
+    },
+    {
+      "original": "Erik",
+      "conv": "zh-hans:埃里克;zh-tw:埃瑞克;"
+    },
+    {
+      "original": "Jenia Grebennikov",
+      "conv": "zh-hans:热尼亚·格列比翁尼科夫;zh-tw:耶尼亞·格雷本尼科夫;"
+    },
+    {
+      "original": "Grebennikov",
+      "conv": "zh-hans:格列比翁尼科夫;zh-tw:格雷本尼科夫;"
+    },
+    {
+      "original": "Maxwell Holt",
+      "conv": "zh-hans:马克斯韦尔·霍尔特;zh-tw:馬克斯維爾·霍爾特;"
+    },
+    {
+      "original": "Jiří Kovář",
+      "conv": "zh-hans:伊日·科瓦日;zh-tw:吉日·科瓦爾;"
+    },
+    {
+      "original": "Kovář",
+      "conv": "zh-hans:科瓦日;zh-tw:科瓦爾;"
+    },
+    {
+      "original": "Michał Kubiak",
+      "conv": "zh-hans:米哈乌·库比亚克;zh-tw:米扎爾·庫比亞克;"
+    },
+    {
+      "original": "Bartosz Kurek",
+      "conv": "zh-hans:巴尔托什·库雷克;zh-tw:巴爾托斯·庫雷克;"
+    },
+    {
+      "original": "Kévin Le Roux",
+      "conv": "zh-hans:凯万·勒鲁;zh-tw:凱文·勒羅克斯;"
+    },
+    {
+      "original": "Leal",
+      "conv": "zh-hans:莱亚尔;zh-tw:萊亞;"
+    },
+    {
+      "original": "Wilfredo León",
+      "conv": "zh-hans:维尔弗雷多·莱昂;zh-tw:威爾弗雷多·萊昂;"
+    },
+    {
+      "original": "Dmitry Muserskiy",
+      "conv": "zh-hans:德米特里·穆塞尔斯基;zh-tw:迪米特里·穆塞爾斯基;"
+    },
+    {
+      "original": "Earvin Ngapeth",
+      "conv": "zh-hans:欧文·恩加佩特;zh-tw:埃爾文·恩加佩斯;"
+    },
+    {
+      "original": "Ngapeth",
+      "conv": "zh-hans:恩加佩特;zh-tw:恩加佩斯;"
+    },
+    {
+      "original": "Piotr Nowakowski",
+      "conv": "zh-hans:彼得·诺瓦科夫斯基;zh-tw:皮奥特爾·諾瓦克沃斯基;"
+    },
+    {
+      "original": "Nowakowski",
+      "conv": "zh-hans:诺瓦科夫斯基;zh-tw:諾瓦克沃斯基;"
+    },
+    {
+      "original": "Federico Pereyra",
+      "conv": "zh-hans:费德里科·佩雷拉;zh-hk:費德里柯·裴瑞拉;"
+    },
+    {
+      "original": "Pereyra",
+      "conv": "zh-hans:佩雷拉;zh-hk:裴瑞拉;"
+    },
+    {
+      "original": "Matteo Piano",
+      "conv": "zh-hans:马泰奥·皮亚诺;zh-tw:馬特奧·皮亞諾;"
+    },
+    {
+      "original": "Cristian Poglajen",
+      "conv": "zh-hans:克里斯蒂安·波格拉延;zh-hk:克里斯提安·波亞宏;"
+    },
+    {
+      "original": "Poglajen",
+      "conv": "zh-hans:波格拉延;zh-hk:波亞宏;"
+    },
+    {
+      "original": "Aaron Russell",
+      "conv": "zh-hans:阿伦·拉塞尔;zh-tw:阿隆·羅素;"
+    },
+    {
+      "original": "Russell",
+      "conv": "zh-hans:拉塞尔;zh-tw:羅素;"
+    },
+    {
+      "original": "Saatkamp",
+      "conv": "zh-hans:扎特坎普;zh-tw:斯特坎普;"
+    },
+    {
+      "original": "Santarelli",
+      "conv": "zh-hans:圣雷利;zh-tw:桑塔瑞利;"
+    },
+    {
+      "original": "Vettori",
+      "conv": "zh-hans:韦托里;zh-tw:維托里;"
+    },
+    {
+      "original": "Paweł Zatorski",
+      "conv": "鲍威尔·扎托尔斯基=>zh-cn:帕维乌·扎托尔斯基;鲍威尔·扎托尔斯基=>zh-sg:帕维乌·扎托尔斯基;鲍威尔·扎托尔斯基=>zh-my:帕维乌·扎托尔斯基;"
+    },
+    {
+      "original": "Paweł Zatorski",
+      "conv": "鮑威爾·扎托爾斯基=>zh-cn:帕维乌·扎托尔斯基;鮑威爾·扎托爾斯基=>zh-sg:帕维乌·扎托尔斯基;鮑威爾·扎托爾斯基=>zh-my:帕维乌·扎托尔斯基;"
+    },
+    {
+      "original": "Łomacz",
+      "conv": "罗马什=>zh-cn:沃马奇;罗马什=>zh-sg:沃马奇;罗马什=>zh-my:沃马奇;"
+    },
+    {
+      "original": "Łomacz",
+      "conv": "羅馬什=>zh-cn:沃马奇;羅馬什=>zh-sg:沃马奇;羅馬什=>zh-my:沃马奇;"
+    },
+    {
+      "original": "Śliwka",
+      "conv": "zh-hans:希利夫卡;zh-tw:斯里夫卡;"
+    },
+    {
+      "original": "Bartsch-Hackley",
+      "conv": "zh-hans:巴奇-哈克利;zh-hk:巴特-赫克利;"
+    },
+    {
+      "original": "Tijana Bošković",
+      "conv": "zh-hans:蒂亚娜·博什科维奇;zh-tw:蒂亞娜·博什科維奇;zh-hk:蒂雅娜·寶斯高域;"
+    },
+    {
+      "original": "Bošković",
+      "conv": "zh-hans:博什科维奇;zh-tw:博什科维奇;zh-hk:寶斯高域;"
+    },
+    {
+      "original": "Bošković",
+      "conv": "博斯科维奇=>zh-cn:博什科维奇;博斯科维奇=>zh-sg:博什科维奇;博斯科维奇=>zh-my:博什科维奇;博斯科维奇=>zh-tw:博什科維奇;博斯科维奇=>zh-hk:寶斯高域;博斯科维奇=>zh-mo:寶斯高域;"
+    },
+    {
+      "original": "Bošković",
+      "conv": "博斯科維奇=>zh-cn:博什科维奇;博斯科維奇=>zh-sg:博什科维奇;博斯科維奇=>zh-my:博什科维奇;博斯科維奇=>zh-tw:博什科維奇;博斯科維奇=>zh-hk:寶斯高域;博斯科維奇=>zh-mo:寶斯高域;"
+    },
+    {
+      "original": "Bianka Buša",
+      "conv": "zh-hans:比安卡·布沙;zh-hk:碧安卡·布莎;"
+    },
+    {
+      "original": "Buša",
+      "conv": "zh-hans:布沙;zh-hk:布莎;"
+    },
+    {
+      "original": "Carolina",
+      "conv": "zh-hans:卡罗琳娜;zh-hk:卡洛琳娜;"
+    },
+    {
+      "original": "Alexia Căruțașu",
+      "conv": "zh-hans:亚历克西娅·克鲁察舒;zh-hk:艾蕾希雅·葛魯察;"
+    },
+    {
+      "original": "Căruțașu",
+      "conv": "zh-hans:克鲁察舒;zh-hk:葛魯察;"
+    },
+    {
+      "original": "Ana Beatriz Correa",
+      "conv": "zh-hans:安娜·比阿特丽斯·科雷亚;zh-hk:阿納·比亞特麗斯·科雷亞;"
+    },
+    {
+      "original": "da Silva",
+      "conv": "達·席爾瓦=>zh-cn:达席尔瓦;達·席爾瓦=>zh-sg:达席尔瓦;達·席爾瓦=>zh-my:达席尔瓦;"
+    },
+    {
+      "original": "Andrea Drews",
+      "conv": "zh-hans:安德烈娅·德鲁斯;zh-hk:安德烈·德魯斯;"
+    },
+    {
+      "original": "Paola Egonu",
+      "conv": "zh:宝拉·艾格努=>:zh-cn:宝拉·埃格努;zh-tw:寶拉·艾格努;zh-hk:寶拉·伊干奴;"
+    },
+    {
+      "original": "Eda Erdem Dündar",
+      "conv": "艾達·艾爾丹姆·丹達爾=>zh-cn:埃达·埃德姆·丁达尔;艾達·艾爾丹姆·丹達爾=>zh-sg:埃达·埃德姆·丁达尔;艾達·艾爾丹姆·丹達爾=>zh-my:埃达·埃德姆·丁达尔;"
+    },
+    {
+      "original": "Carol Gattaz",
+      "conv": "zh-hans:卡萝尔·加塔斯;zh-hk:卡洛·蓋塔茲;"
+    },
+    {
+      "original": "Gattaz",
+      "conv": "zh-hans:加塔斯;zh-hk:蓋塔茲;"
+    },
+    {
+      "original": "Gabriela Guimarães",
+      "conv": "zh-hans:加布丽埃拉·吉马良斯;zh-hk:加布里埃拉·桂馬萊絲;"
+    },
+    {
+      "original": "Guimarães",
+      "conv": "zh-hans:吉马良斯;zh-hk:桂馬萊絲;"
+    },
+    {
+      "original": "Larson",
+      "conv": "zh-hans:拉森;zh-hk:拉爾森;"
+    },
+    {
+      "original": "Michelle",
+      "conv": "zh-hans:米歇尔;zh-tw:蜜雪兒;zh-hk:米歇爾;"
+    },
+    {
+      "original": "Brankica Mihajlović",
+      "conv": "zh-hans:布兰基察·米哈伊洛维奇;zh-tw:布蘭基察·米哈伊洛維奇;zh-hk:布蘭克莎·米赫露域;"
+    },
+    {
+      "original": "Mihajlović",
+      "conv": "zh-hans:米哈伊洛维奇;zh-tw:米哈伊洛維奇;zh-hk:米赫露域;"
+    },
+    {
+      "original": "Kelly Murphy",
+      "conv": "zh-hans:凯莉·墨菲;zh-hk:凱莉·梅菲;"
+    },
+    {
+      "original": "Maja Ognjenović",
+      "conv": "zh-hans:马娅·奥格涅诺维奇;zh-tw:馬婭·奧格涅諾維奇;zh-hk:瑪雅·奧珍洛域;"
+    },
+    {
+      "original": "Ognjenović",
+      "conv": "zh-hans:奥格涅诺维奇;zh-tw:奧格涅諾維奇;zh-hk:奧珍洛域;"
+    },
+    {
+      "original": "Sofia ",
+      "conv": "zh-hans:索菲娅·;zh-hant:索菲亞·;"
+    },
+    {
+      "original": "Sofia ",
+      "conv": "索菲亚·=>zh-cn:索菲娅·;索菲亚·=>zh-sg:索菲娅·;索菲亚·=>zh-my:索菲娅·;"
+    },
+    {
+      "original": "Jovana Stevanović",
+      "conv": "zh-hans:约瓦娜·斯特万诺维奇;zh-tw:約瓦娜·斯特万諾維奇;zh-hk:喬凡娜·史提凡洛域;"
+    },
+    {
+      "original": "Stevanović",
+      "conv": "zh-hans:斯特万诺维奇;zh-tw:斯特万諾維奇;zh-hk:史提凡洛域;"
+    },
+    {
+      "original": "Stefana Veljković",
+      "conv": "zh-hans:斯特凡娜·韦利科维奇;zh-tw:斯特凡娜·韋利科維奇;zh-hk:史蒂凡娜·維祖高域;"
+    },
+    {
+      "original": "Veljković",
+      "conv": "zh-hans:韦利科维奇;zh-tw:韋利科維奇;zh-hk:維祖高域;"
+    },
+    {
+      "original": "Haleigh Washington",
+      "conv": "zh-hans:哈莉·华盛顿;zh-hk:哈赫·華盛頓;"
+    },
+    {
+      "original": "Anaheim",
+      "conv": "zh-hans:阿纳海姆;zh-tw:安那翰;zh-hk:阿納海姆;"
+    },
+    {
+      "original": "Bologna",
+      "conv": "zh-hans:博洛尼亚;zh-tw:波隆納;zh-hk:博洛尼亞;"
+    },
+    {
+      "original": "Ljubljana",
+      "conv": "zh-hans:卢布尔雅那;zh-tw:盧比安納;zh-hk:盧布爾雅那;"
+    },
+    {
+      "original": "Sofia",
+      "conv": "zh-hans:索非亚;zh-hant:索菲亞;"
+    },
+    {
+      "original": "Sofia",
+      "conv": "索菲亚=>zh-cn:索非亚;索菲亚=>zh-sg:索非亚;索菲亚=>zh-my:索非亚;"
+    },
+    {
+      "original": "Trentino",
+      "conv": "zh-hans:特伦蒂诺;zh-tw:特倫提諾;zh-hk:特倫蒂諾;"
+    },
+    {
+      "original": "Fédération Internationale de Volleyball",
+      "conv": "zh-hans:国际排球联合会;zh-tw:國際排球總會;zh-hk:國際排球聯會;"
+    },
+    {
+      "original": "FIVB",
+      "conv": "zh-hans:国际排联;zh-tw:國際排總;zh-hk:國際排聯;"
+    },
+    {
+      "original": "FIVB Volleyball Men's Nations League",
+      "conv": "zh-hans:世界男排联赛;zh-tw:男子排球國家聯賽;zh-hk:世界男排聯賽;"
+    },
+    {
+      "original": "FIVB Volleyball Men's Nations League",
+      "conv": "男排國家聯賽=>zh-cn:世界男排联赛;男排國家聯賽=>zh-sg:世界男排联赛;男排國家聯賽=>zh-my:世界男排联赛;男排國家聯賽=>zh-hk:世界男排聯賽;男排國家聯賽=>zh-mo:世界男排聯賽;"
+    },
+    {
+      "original": "FIVB Volleyball Nations League",
+      "conv": "排球國家聯賽=>zh-cn:世界排球联赛;排球國家聯賽=>zh-sg:世界排球联赛;排球國家聯賽=>zh-my:世界排球联赛;排球國家聯賽=>zh-hk:世界排球聯賽;排球國家聯賽=>zh-mo:世界排球聯賽;"
+    },
+    {
+      "original": "FIVB Volleyball Nations League",
+      "conv": "國家聯賽=>zh-cn:世界联赛;國家聯賽=>zh-sg:世界联赛;國家聯賽=>zh-my:世界联赛;國家聯賽=>zh-hk:世界聯賽;國家聯賽=>zh-mo:世界聯賽;"
+    },
+    {
+      "original": "FIVB Volleyball Women's Nations League",
+      "conv": "zh-hans:世界女排联赛;zh-tw:女子排球國家聯賽;zh-hk:世界女排聯賽;"
+    },
+    {
+      "original": "FIVB Volleyball Women's Nations League",
+      "conv": "女排國家聯賽=>zh-cn:世界女排联赛;女排國家聯賽=>zh-sg:世界女排联赛;女排國家聯賽=>zh-my:世界女排联赛;女排國家聯賽=>zh-hk:世界女排聯賽;女排國家聯賽=>zh-mo:世界女排聯賽;"
+    },
+    {
+      "original": "Volleyball World Cup",
+      "conv": "zh-hans:排球世界杯;zh-tw:世界盃排球賽;zh-hk:排球世界盃;"
+    },
+    {
+      "original": "Volleyball World Cup",
+      "conv": "世界杯排球赛=>zh-cn:排球世界杯;世界杯排球赛=>zh-sg:排球世界杯;世界杯排球赛=>zh-my:排球世界杯;世界杯排球赛=>zh-hk:排球世界盃;世界杯排球赛=>zh-mo:排球世界盃;"
+    },
+    {
+      "original": "Volleyball Men's World Cup",
+      "conv": "zh-hans:男排世界杯;zh-tw:世界盃男子排球賽;zh-hk:男排世界盃;"
+    },
+    {
+      "original": "Volleyball Men's World Cup",
+      "conv": "世界杯男子排球赛=>zh-cn:男排世界杯;世界杯男子排球赛=>zh-sg:男排世界杯;世界杯男子排球赛=>zh-my:男排世界杯;世界杯男子排球赛=>zh-hk:男排世界盃;世界杯男子排球赛=>zh-mo:男排世界盃;"
+    },
+    {
+      "original": "Volleyball Women's World Cup",
+      "conv": "zh-hans:女排世界杯;zh-tw:世界盃女子排球賽;zh-hk:女排世界盃;"
+    },
+    {
+      "original": "Volleyball Women's World Cup",
+      "conv": "世界杯女子排球赛=>zh-cn:女排世界杯;世界杯女子排球赛=>zh-sg:女排世界杯;世界杯女子排球赛=>zh-my:女排世界杯;世界杯女子排球赛=>zh-hk:女排世界盃;世界杯女子排球赛=>zh-mo:女排世界盃;"
+    },
+    {
+      "original": "Volleyball World Grand Champions Cup",
+      "conv": "zh-hans:排球大冠军杯;zh-tw:世界大冠軍盃排球賽;zh-hk:排球大冠軍盃;"
+    },
+    {
+      "original": "Volleyball Men's World Grand Champions Cup",
+      "conv": "zh-hans:男排大冠军杯;zh-tw:男子世界大冠軍盃排球賽;zh-hk:男排大冠軍盃;"
+    },
+    {
+      "original": "Volleyball Women's World Grand Champions Cup",
+      "conv": "zh-hans:女排大冠军杯;zh-tw:女子世界大冠軍盃排球賽;zh-hk:女排大冠軍盃;"
+    },
+    {
+      "original": "libero",
+      "conv": "zh-hans:自由人;zh-tw:自由球員;zh-hk:自由人;"
+    },
+    {
+      "original": "middle blocker",
+      "conv": "zh-hans:副攻;zh-tw:中間手;zh-hk:副攻;"
+    },
+    {
+      "original": "middle blocker",
+      "conv": "攔中=>zh-cn:副攻;攔中=>zh-sg:副攻;攔中=>zh-my:副攻;攔中=>zh-hk:副攻;攔中=>zh-mo:副攻;"
+    },
+    {
+      "original": "middle blocker",
+      "conv": "攔中手=>zh-cn:副攻;攔中手=>zh-sg:副攻;攔中手=>zh-my:副攻;攔中手=>zh-hk:副攻;攔中手=>zh-mo:副攻;"
+    },
+    {
+      "original": "opposite",
+      "conv": "zh-hans:接应;zh-tw:副攻手;zh-hk:接應二傳;"
+    },
+    {
+      "original": "opposite",
+      "conv": "舉對=>zh-cn:接应;舉對=>zh-sg:接应;舉對=>zh-my:接应;舉對=>zh-hk:接應二傳;舉對=>zh-mo:接應二傳;"
+    },
+    {
+      "original": "opposite",
+      "conv": "輔舉=>zh-cn:接应;輔舉=>zh-sg:接应;輔舉=>zh-my:接应;輔舉=>zh-hk:接應二傳;輔舉=>zh-mo:接應二傳;"
+    },
+    {
+      "original": "outside hitter",
+      "conv": "zh-hans:主攻;zh-tw:主攻手;zh-hk:主攻;"
+    },
+    {
+      "original": "set",
+      "conv": "舉球=>zh-cn:传球;舉球=>zh-sg:传球;舉球=>zh-my:传球;舉球=>zh-hk:傳球;舉球=>zh-mo:傳球;"
+    },
+    {
+      "original": "setter",
+      "conv": "舉球員=>zh-cn:二传;舉球員=>zh-sg:二传;舉球員=>zh-my:二传;舉球員=>zh-hk:二傳;舉球員=>zh-mo:二傳;"
+    },
+    {
+      "original": "adidas",
+      "conv": "zh-hans:阿迪达斯;zh-tw:愛迪達; zh-hk:adidas"
+    },
+    {
+      "original": "final",
+      "conv": "冠軍賽=>zh-cn:决赛;冠軍賽=>zh-sg:决赛;冠軍賽=>zh-my:决赛;"
+    },
+    {
+      "original": "final 3-4",
+      "conv": "季軍賽=>zh-cn:三四名决赛;季軍賽=>zh-sg:三四名决赛;季軍賽=>zh-my:三四名决赛;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "zh-hans:四分之一决赛;zh-tw:半準決賽;zh-hk:八強賽;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "8強賽=>zh-cn:1/4决赛;8強賽=>zh-sg:1/4决赛;8強賽=>zh-my:1/4决赛;"
+    },
+    {
+      "original": "round of 16",
+      "conv": "zh-hans:八分之一决赛;zh-hant:十六強賽;"
+    },
+    {
+      "original": "round of 16",
+      "conv": "16強賽=>zh-cn:1/8决赛;16強賽=>zh-sg:1/8决赛;16強賽=>zh-my:1/8决赛;"
+    },
+    {
+      "original": "semifinal",
+      "conv": "zh-hans:半决赛;zh-hant:準決賽;"
+    },
+    {
+      "original": "Bebuša/Bebusha",
+      "conv": "zh-hans:贝布莎;zh-hant:貝布莎;"
+    },
+    {
+      "original": "Aslı Kalaç",
+      "conv": "zh-hans:阿斯勒·卡拉奇;zh-hant:阿斯勒·卡拉奇;"
+    }
+  ]
+}

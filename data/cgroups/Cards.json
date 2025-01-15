@@ -1,0 +1,75 @@
+{
+  "name": "Cards",
+  "description": "-{zh:撲克牌; zh-cn:扑克牌; zh-tw:撲克牌; zh-hk:啤牌; zh-mo:啤牌; zh-sg:扑克牌;}-",
+  "path": "Module:CGroup/Cards",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh:撲克牌; zh-cn:扑克牌; zh-tw:撲克牌; zh-hk:啤牌; zh-mo:啤牌; zh-sg:扑克牌;"
+    },
+    {
+      "original": "poker",
+      "conv": "zh:撲克; zh-cn:扑克; zh-tw:撲克; zh-hk:啤; zh-mo:啤; zh-sg:扑克;"
+    },
+    {
+      "original": "diamond",
+      "conv": "zh-hans:方块; zh-tw:方塊; zh-hk:階磚;"
+    },
+    {
+      "original": "spade",
+      "conv": "zh-hans:黑桃; zh-tw:黑桃; zh-hk:葵扇;"
+    },
+    {
+      "original": "Big Two",
+      "conv": "zh-hans:大老二; zh-tw:大老二; zh-hk:鋤大弟;"
+    },
+    {
+      "original": "Big Two",
+      "conv": "鋤大D=>zh-hans:大老二; 鋤大D=>zh-tw:大老二; 鋤大D=>zh-hk:鋤大弟;"
+    },
+    {
+      "original": "Big Two",
+      "conv": "锄大D=>zh-hans:大老二; 锄大D=>zh-tw:大老二; 锄大D=>zh-hk:鋤大弟;"
+    },
+    {
+      "original": "Blackjack",
+      "conv": "zh-hans:黑杰克; zh-hk:二十一點; zh-tw:二十一點;"
+    },
+    {
+      "original": "Blackjack",
+      "conv": "廿一點=>zh-hans:黑杰克; 廿一點=>zh-hk:二十一點; 廿一點=>zh-tw:二十一點;"
+    },
+    {
+      "original": "Blackjack",
+      "conv": "廿一点=>zh-hans:黑杰克; 廿一点=>zh-hk:二十一點; 廿一点=>zh-tw:二十一點;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:十三张; zh-hant:十三張; zh-tw:十三支; zh-mo:十三水;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:衾棉胎; zh-hk:冚棉胎; zh-tw:心臟病;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:接龙; zh-hk:排七; zh-tw:接龍;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:抽乌龟; zh-hk:潛烏龜; zh-tw:抽鬼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:斗地主; zh-hant:鬥地主;"
+    },
+    {
+      "original": "Texas hold'em",
+      "conv": "zh-hans:德州扑克; zh-hk:德州撲克; zh-tw:德州撲克;"
+    },
+    {
+      "original": "World Series of Poker",
+      "conv": "zh-hant:世界撲克大賽; zh-hans:世界扑克大赛;"
+    }
+  ]
+}

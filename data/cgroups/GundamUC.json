@@ -192,6 +192,26 @@
       "conv": "zh:库克罗斯·德安; zh-cn:库库鲁斯·多安; zh-tw:庫克羅斯·德安; zh-hk:庫克羅斯·德安;"
     },
     {
+      "original": "ククルス",
+      "conv": "zh:库克罗斯; zh-cn:库库鲁斯; zh-tw:庫克羅斯; zh-hk:庫克羅斯;"
+    },
+    {
+      "original": "マルコス",
+      "conv": "zh-cn:马科斯; zh-tw:馬可斯; zh-hk:馬可斯;"
+    },
+    {
+      "original": "ウォルド",
+      "conv": "zh-cn:沃尔德; zh-tw:渥爾多; zh-hk:華爾多;"
+    },
+    {
+      "original": "エグバ",
+      "conv": "zh-cn:埃格巴; zh-tw:艾格巴; zh-hk:艾格巴;"
+    },
+    {
+      "original": "サンホ",
+      "conv": "zh-cn:三浩; zh-tw:尚昊; zh-hk:尚昊;"
+    },
+    {
       "original": "シロー・アマダ",
       "conv": "zh-cn:天田士郎; zh-hans:天田士郎;zh-tw:天田士郎;zh-hk:斯羅·阿瑪達;"
     },
@@ -1000,7 +1020,11 @@
       "conv": "zh-cn:贝拉; zh-tw:貝拉; zh-hk:比拉"
     },
     {
-      "original": "ベラ・ロナ",
+      "original": "ロナ",
+      "conv": "zh-cn:·罗纳; zh-tw:·羅納; zh-hk:·羅拿"
+    },
+    {
+      "original": "ロナ",
       "conv": "zh-cn:罗纳; zh-tw:羅納; zh-hk:羅拿"
     },
     {
@@ -1021,7 +1045,7 @@
     },
     {
       "original": "ザビーネ",
-      "conv": "zh-cn:莉絲; zh-tw:莉絲; zh-hk:麗絲;"
+      "conv": "zh-cn:莉丝; zh-tw:莉絲; zh-hk:麗絲;"
     },
     {
       "original": "マイッツァー",
@@ -1029,11 +1053,11 @@
     },
     {
       "original": "鉄仮面",
-      "conv": "zh-hans:鐵假面;zh-hk:鐵面具;zh-tw:鐵假面;"
+      "conv": "zh-hans:铁假面;zh-hk:鐵面具;zh-tw:鐵假面;"
     },
     {
       "original": "カロッゾ",
-      "conv": "zh-hans:卡羅索;zh-hk:卡羅佐;zh-tw:卡羅索;"
+      "conv": "zh-hans:卡罗索;zh-hk:卡羅佐;zh-tw:卡羅索;"
     },
     {
       "original": "トビア",
@@ -1525,11 +1549,11 @@
     },
     {
       "original": "ジオング、Zeong",
-      "conv": "zh-cn:吉恩号; zh-tw:吉翁號; zh-hk:自護號;"
+      "conv": "zh-cn:吉翁号; zh-tw:吉翁號; zh-hk:自護號;"
     },
     {
       "original": "ジオング、Zeong",
-      "conv": "吉翁克=>zh-cn:吉恩号;吉翁克=>zh-hk:自護號;"
+      "conv": "吉翁克=>zh-cn:吉翁号;吉翁克=>zh-hk:自護號;"
     },
     {
       "original": "グワジン、Gwazine",
@@ -1721,7 +1745,11 @@
     },
     {
       "original": "サイコガンダム、PSYCO--{GUNDAM}-",
-      "conv": "zh-cn:精神感应高达; zh-tw:精神感應式鋼彈（賽可鋼彈）; zh-hk:重高達;"
+      "conv": "zh-cn:精神感应高达; zh-tw:賽可鋼彈; zh-hk:重高達;"
+    },
+    {
+      "original": "サイコガンダム、PSYCO--{GUNDAM}-",
+      "conv": "zh-cn:精神感应高达; zh-tw:精神感應式鋼彈; zh-hk:重高達;"
     },
     {
       "original": "リック・ディアス、RICK DIAS",
@@ -1788,6 +1816,10 @@
       "conv": "zh-cn:赛克; zh-tw:賽克; zh-hk:沙古;"
     },
     {
+      "original": "スペリオルガンダム、SUPERIOR GUNDAM",
+      "conv": "zh:S GUNDAM;zh-hans:S高达;zh-hk:S高達;zh-tw:S鋼彈;"
+    },
+    {
       "original": "ZZガンダム",
       "conv": "zh:ZZ GUNDAM;zh-hans:ZZ高达;zh-cn:ZZ高达;zh-hk:ZZ高達;zh-tw:ZZ鋼彈;"
     },
@@ -1842,6 +1874,14 @@
     {
       "original": "ズサ、ZSSA",
       "conv": "zh-cn:兹萨; zh-tw:茲沙; zh-hk:瑞莎;"
+    },
+    {
+      "original": "クィン・マンサ、Quin Mantha",
+      "conv": "zh-hans:昆曼沙;zh-hk:京密煞;zh-tw:昆曼沙;"
+    },
+    {
+      "original": "クィン・マンサ、Quin Mantha",
+      "conv": "zh-hans:昆·曼沙;zh-hk:京·密煞;zh-tw:昆·曼沙;"
     },
     {
       "original": "RS・ジャジャ、RS-JARJA",
@@ -1996,6 +2036,14 @@
       "conv": "zh:GUNDAM F91; zh-cn:高达F91; zh-tw:鋼彈F91; zh-hk:高達F91;"
     },
     {
+      "original": "ビギナ・ギナ",
+      "conv": "zh-hans:比基纳·基娜; zh-tw:比基納·基娜; zh-hk:維娜·基娜;"
+    },
+    {
+      "original": "ラフレシア",
+      "conv": "zh-hans:拉弗雷西亚; zh-tw:拉弗雷西亞; zh-hk:拉夫列西亞;"
+    },
+    {
       "original": "Vガンダム、V Gundam",
       "conv": "zh:V GUNDAM; zh-cn:V高达; zh-tw:V鋼彈; zh-hk:V高達;"
     },
@@ -2129,15 +2177,15 @@
     },
     {
       "original": "閃光のハサウェイ、Hathaway's Flash",
-      "conv": "zh-cn:闪光之哈萨维; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
-    },
-    {
-      "original": "閃光のハサウェイ、Hathaway's Flash",
       "conv": "zh-cn:闪光的哈撒韦; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
     },
     {
       "original": "閃光のハサウェイ、Hathaway's Flash",
       "conv": "zh-cn:闪光的哈萨威; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
+    },
+    {
+      "original": "閃光のハサウェイ、Hathaway's Flash",
+      "conv": "zh-cn:闪光之哈萨维; zh-tw:閃光的哈薩威; zh-hk:閃光之凱薩衛"
     },
     {
       "original": "ベルトーチカ・チルドレン、Beltorchika's Children",
@@ -2168,8 +2216,28 @@
       "conv": "zh:GUNDAM NT; zh-cn:高达NT; zh-tw:鋼彈NT; zh-hk:高達NT;"
     },
     {
-      "original": "ククルス・ドアンの島",
-      "conv": "zh:库克罗斯·德安之岛; zh-cn:库库鲁斯·多安的小岛; zh-tw:庫克羅斯·德安之島; zh-hk:庫克羅斯·德安之島;"
+      "original": "ガンダムバトル",
+      "conv": "zh:GUNDAM战争; zh-cn:高达战争; zh-tw:鋼彈激鬥; zh-hk:GUNDAM BATTLE;"
+    },
+    {
+      "original": "ガンダムバトル",
+      "conv": "zh:GUNDAM激鬥; zh-cn:高达战争; zh-tw:鋼彈激鬥; zh-hk:GUNDAM BATTLE;"
+    },
+    {
+      "original": "ガンダムバトルタクティクス",
+      "conv": "zh-cn:高达战争TACTICS; zh-tw:鋼彈激鬥TACTICS; zh-hk:GUNDAM BATTLE TACTICS;"
+    },
+    {
+      "original": "ガンダムバトルロワイヤル",
+      "conv": "zh:GUNDAM战争大混战; zh-cn:高达战争大混战; zh-tw:鋼彈激鬥會戰; zh-hk:GUNDAM BATTLE ROYALE;"
+    },
+    {
+      "original": "ガンダムバトルロワイヤル",
+      "conv": "zh:GUNDAM激鬥年代記; zh-cn:高达战争编年史; zh-tw:鋼彈激鬥年代記; zh-hk:GUNDAM BATTLE CHRONICLE;"
+    },
+    {
+      "original": "ガンダムバトルユニバース",
+      "conv": "zh:GUNDAM战争宇宙; zh-cn:高达战争宇宙; zh-tw:鋼彈激鬥宇宙; zh-hk:GUNDAM BATTLE UNIVERSE;"
     },
     {
       "original": "ニュータイプ",

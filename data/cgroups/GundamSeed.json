@@ -33,19 +33,19 @@
     },
     {
       "original": "カガリ、Cagalli",
-      "conv": "zh-cn:卡嘉莲; zh-tw:卡佳里; zh-hk:卡嘉蓮"
+      "conv": "zh-cn:卡嘉莉; zh-tw:卡佳里; zh-hk:卡嘉蓮"
     },
     {
       "original": null,
-      "conv": "卡嘉丽=>zh-cn:卡嘉莲;卡嘉丽=>zh-tw:卡佳里;卡嘉丽=>zh-hk:卡嘉蓮"
+      "conv": "卡嘉丽=>zh-cn:卡嘉莉;卡嘉丽=>zh-tw:卡佳里;卡嘉丽=>zh-hk:卡嘉蓮"
     },
     {
       "original": null,
-      "conv": "卡嘉莉=>zh-cn:卡嘉莲;卡嘉莉=>zh-tw:卡佳里;卡嘉莉=>zh-hk:卡嘉蓮"
+      "conv": "卡嘉莲=>zh-cn:卡嘉莲;卡嘉莲=>zh-tw:卡佳里;卡嘉莲=>zh-hk:卡嘉蓮"
     },
     {
       "original": "ユラ、Yula",
-      "conv": "zh-cn:尤拉; zh-tw:由拉; zh-hk:尤拉"
+      "conv": "zh-cn:由拉; zh-tw:由拉; zh-hk:尤拉"
     },
     {
       "original": "アスハ、Athha",
@@ -54,6 +54,10 @@
     {
       "original": "ルナマリア、Lunamaria",
       "conv": "zh-cn:露娜玛莉亚; zh-tw:露娜瑪莉亞; zh-hk:露娜瑪利亞"
+    },
+    {
+      "original": "ルナマリア、Lunamaria",
+      "conv": "zh-cn:露娜玛丽亚; zh-tw:露娜瑪莉亞; zh-hk:露娜瑪利亞"
     },
     {
       "original": "ホーク、Hawke",
@@ -76,12 +80,24 @@
       "conv": "zh-cn:玛露; zh-tw:瑪琉; zh-hk:瑪露"
     },
     {
+      "original": "マリュー、Murrue",
+      "conv": "zh-cn:玛琉; zh-tw:瑪琉; zh-hk:瑪露"
+    },
+    {
       "original": "ラミアス、Ramius",
       "conv": "zh-cn:拉米亚斯; zh-tw:雷明斯; zh-hk:拉美雅斯"
     },
     {
+      "original": "ラミアス、Ramius",
+      "conv": "zh-cn:拉缪斯; zh-tw:雷明斯; zh-hk:拉美雅斯"
+    },
+    {
       "original": "フラガ、Flaga",
       "conv": "zh-cn:福拉卡; zh-tw:福拉卡; zh-hk:布拉加"
+    },
+    {
+      "original": "フラガ、Flaga",
+      "conv": "zh-cn:弗拉加; zh-tw:福拉卡; zh-hk:布拉加"
     },
     {
       "original": "ナタル、Natarle",
@@ -97,7 +113,7 @@
     },
     {
       "original": "アルスター、Allster",
-      "conv": "zh-cn:阿尔斯達; zh-tw:阿斯達; zh-hk:亞斯達"
+      "conv": "zh-cn:阿尔斯塔; zh-tw:阿斯達; zh-hk:阿斯達"
     },
     {
       "original": "ミリアリア、Miriallia",
@@ -256,8 +272,16 @@
       "conv": "zh-cn:迪安卡; zh-tw:迪安卡; zh-hk:迪亞加"
     },
     {
+      "original": "ディアッカ、Dearka",
+      "conv": "zh-cn:迪亚卡; zh-tw:迪安卡; zh-hk:迪亞加"
+    },
+    {
       "original": "エルスマン、Elsman",
       "conv": "zh-cn:艾斯曼; zh-tw:艾斯曼; zh-hk:艾士文"
+    },
+    {
+      "original": "エルスマン、Elsman",
+      "conv": "zh-cn:埃尔斯曼; zh-tw:艾斯曼; zh-hk:艾士文"
     },
     {
       "original": "イザーク、Yzak",
@@ -314,6 +338,10 @@
     {
       "original": "メイリン、Meyrin",
       "conv": "zh-cn:美铃; zh-tw:美玲; zh-hk:美鈴"
+    },
+    {
+      "original": "メイリン、Meyrin",
+      "conv": "zh-cn:美琳; zh-tw:美玲; zh-hk:美鈴"
     },
     {
       "original": "タリア、Talia",
@@ -392,8 +420,8 @@
       "conv": "zh-cn:海姆; zh-tw:海姆; zh-hk:希姆"
     },
     {
-      "original": "ヴェステンフルス、Westenfluss",
-      "conv": "zh-cn:威斯坦弗斯; zh-tw:威斯坦弗斯; zh-hk:西川"
+      "original": "ハイネ・ヴェステンフルス、Heine Westenfluss",
+      "conv": "zh-cn:海涅･威斯坦弗斯; zh-tw:海涅･威斯坦弗斯; zh-hk:海涅･西川"
     },
     {
       "original": "ヨアヒム、Joachim",
@@ -472,6 +500,34 @@
       "conv": "zh-cn:可妮儿; zh-tw:可妮兒; zh-hk:歌尼露"
     },
     {
+      "original": "ヒルダ",
+      "conv": "zh-cn:希尔达; zh-tw:希爾達; zh-hk:希露達"
+    },
+    {
+      "original": "ハーケン",
+      "conv": "zh-cn:哈肯; zh-tw:海肯; zh-hk:夏金"
+    },
+    {
+      "original": "ヘルベルト",
+      "conv": "zh-cn:赫伯特; zh-tw:赫伯特; zh-hk:海比特"
+    },
+    {
+      "original": "フォン･ラインハルト",
+      "conv": "zh-cn:冯·赖因哈特; zh-tw:馮·萊因哈特; zh-hk:方·萊恩哈特"
+    },
+    {
+      "original": "ラインハルト",
+      "conv": "zh-cn:赖因哈特; zh-tw:萊因哈特; zh-hk:萊恩哈特"
+    },
+    {
+      "original": "マーズ",
+      "conv": "zh-cn:马尔斯; zh-tw:馬斯; zh-hk:馬茲"
+    },
+    {
+      "original": "シメオン",
+      "conv": "zh-cn:西米恩; zh-tw:西緬; zh-hk:斯米奧"
+    },
+    {
       "original": null,
       "conv": "zh-cn:埃德蒙; zh-tw:埃德蒙; zh-hk:愛德蒙"
     },
@@ -540,8 +596,32 @@
       "conv": "肯恩=>zh-cn:肯;肯恩=>zh-tw:肯;肯恩=>zh-hk:肯恩"
     },
     {
-      "original": null,
+      "original": "エルネスト",
       "conv": "zh-cn:埃内斯托; zh-tw:埃內斯托; zh-hk:艾魯尼斯度"
+    },
+    {
+      "original": "スドー",
+      "conv": "zh-cn:須藤; zh-tw:須藤; zh-hk:蘇道"
+    },
+    {
+      "original": "ウミト",
+      "conv": "zh-cn:海渡; zh-tw:海渡; zh-hk:奧米多"
+    },
+    {
+      "original": "ミツ",
+      "conv": "zh-cn:御津; zh-tw:御津; zh-hk:米芝"
+    },
+    {
+      "original": "ヴァレンティーナ",
+      "conv": "zh-cn:瓦伦蒂娜; zh-tw:瓦倫蒂娜; zh-hk:華倫汀娜"
+    },
+    {
+      "original": "ヴァレン",
+      "conv": "zh-cn:瓦蕾; zh-tw:瓦蕾; zh-hk:華蕾"
+    },
+    {
+      "original": "ヴァレンティーナ",
+      "conv": "zh-cn:瓦伦蒂诺; zh-tw:范倫蒂諾; zh-hk:華倫天奴"
     },
     {
       "original": null,
@@ -556,12 +636,76 @@
       "conv": "zh-cn:波尼; zh-tw:波尼; zh-hk:邦尼"
     },
     {
-      "original": null,
+      "original": "ジョエル",
       "conv": "zh-cn:乔尔; zh-tw:喬爾; zh-hk:莊爾"
     },
     {
-      "original": null,
+      "original": "ジャンメール",
       "conv": "zh-cn:强梅尔; zh-tw:尚梅爾; zh-hk:強梅爾"
+    },
+    {
+      "original": "アグネス",
+      "conv": "zh-cn:阿格尼丝; zh-tw:艾格妮絲; zh-hk:亞古尼絲"
+    },
+    {
+      "original": "アレクセレイ",
+      "conv": "zh-cn:阿列克谢; zh-tw:阿列克謝; zh-hk:阿雷克謝"
+    },
+    {
+      "original": "アルバート",
+      "conv": "zh-cn:艾伯特; zh-tw:亞伯特; zh-hk:阿魯巴特"
+    },
+    {
+      "original": "ハインライン",
+      "conv": "zh-cn:海因莱因; zh-tw:海萊因; zh-hk:海恩萊恩"
+    },
+    {
+      "original": "マハ・ハイバル",
+      "conv": "zh-cn:玛哈·海贝尔; zh-tw:馬哈·海伯爾; zh-hk:瑪哈·海伯爾"
+    },
+    {
+      "original": "ハイバル",
+      "conv": "zh-cn:海贝尔; zh-tw:海伯爾; zh-hk:海伯爾"
+    },
+    {
+      "original": "オルフェ",
+      "conv": "zh-cn:奥费; zh-tw:歐爾菲; zh-hk:奧菲"
+    },
+    {
+      "original": "ラム・タオ",
+      "conv": "zh-cn:拉姆·塔奥; zh-tw:拉姆·陶; zh-hk:拉姆·塔奧"
+    },
+    {
+      "original": "サーペンタイン",
+      "conv": "zh-cn:塞尔彭坦; zh-tw:薩潘塔因; zh-hk:賓泰爾"
+    },
+    {
+      "original": "イングリット",
+      "conv": "zh-cn:英格利特; zh-tw:英格麗特; zh-hk:英格麗德"
+    },
+    {
+      "original": "リデラード",
+      "conv": "zh-cn:丽德拉德; zh-tw:莉迪拉德; zh-hk:莉德拉多"
+    },
+    {
+      "original": "トラドール",
+      "conv": "zh-cn:特拉多尔; zh-tw:特拉德爾; zh-hk:特拉德爾"
+    },
+    {
+      "original": "ハルパー",
+      "conv": "zh-cn:哈珀; zh-tw:哈爾帕; zh-hk:哈爾帕"
+    },
+    {
+      "original": "リュー・シェンチアン",
+      "conv": "zh-cn:刘慎强; zh-tw:劉神槍; zh-hk:劉慎強"
+    },
+    {
+      "original": "グリフィン",
+      "conv": "zh-cn:格里芬; zh-tw:葛里芬; zh-hk:葛里芬"
+    },
+    {
+      "original": "アルバレスト",
+      "conv": "zh-cn:阿尔巴莱斯特; zh-tw:阿巴雷斯特; zh-hk:阿爾巴斯特"
     },
     {
       "original": null,
@@ -569,55 +713,63 @@
     },
     {
       "original": "Strike Gundam",
-      "conv": "zh:突击GUNDAM;zh-hans:突击高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
+      "conv": "zh:突击GUNDAM;zh-hans:强袭高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
     },
     {
       "original": "Strike Gundam",
-      "conv": "zh:突擊GUNDAM;zh-hans:突击高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
+      "conv": "zh:强袭GUNDAM;zh-hans:强袭高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
     },
     {
       "original": "Strike Gundam",
-      "conv": "zh:攻擊GUNDAM;zh-hans:突击高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
+      "conv": "zh:突擊GUNDAM;zh-hans:强袭高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
+    },
+    {
+      "original": "Strike Gundam",
+      "conv": "zh:攻擊GUNDAM;zh-hans:强袭高达;zh-hk:突擊高達;zh-tw:攻擊鋼彈;"
     },
     {
       "original": "Aile Strike",
-      "conv": "zh-hans:翔翼型突击高达;zh-hk:機動型突擊高達;zh-tw:翔翼型攻擊鋼彈;"
+      "conv": "zh-hans:翔翼型强袭高达;zh-hk:機動型突擊高達;zh-tw:翔翼型攻擊鋼彈;"
     },
     {
       "original": "Launcher Strike",
-      "conv": "zh-hans:重炮型突击高达;zh-hk:砲戰型突擊高達;zh-tw:重砲型攻擊鋼彈;"
+      "conv": "zh-hans:重炮型强袭高达;zh-hk:砲戰型突擊高達;zh-tw:重砲型攻擊鋼彈;"
     },
     {
       "original": "Sword Strike",
-      "conv": "zh-hans:巨剑型突击高达;zh-hk:重劍型突擊高達;zh-tw:巨劍型攻擊鋼彈;"
+      "conv": "zh-hans:巨剑型强袭高达;zh-hk:重劍型突擊高達;zh-tw:巨劍型攻擊鋼彈;"
     },
     {
-      "original": "Strike pack",
-      "conv": "zh-hans:突击装备背包;zh-hk:突擊裝備背包;zh-tw:攻擊裝備背包;"
+      "original": "Striker pack",
+      "conv": "zh-hans:强袭装备背包;zh-hk:突擊裝備背包;zh-tw:攻擊裝備背包;"
     },
     {
-      "original": "Strike pack",
-      "conv": "zh-hans:突击者装备背包;zh-hk:突擊者裝備背包;zh-tw:攻擊者裝備背包;"
+      "original": "Striker pack",
+      "conv": "zh-hans:强袭者装备背包;zh-hk:突擊者裝備背包;zh-tw:攻擊者裝備背包;"
     },
     {
-      "original": "Strike pack",
-      "conv": "zh-hans:突击者背包;zh-hk:突擊者背包;zh-tw:攻擊者背包;"
+      "original": "Striker pack",
+      "conv": "zh-hans:强袭者背包;zh-hk:突擊者背包;zh-tw:攻擊者背包;"
     },
     {
-      "original": "Aile Strike pack",
-      "conv": "zh-hans:翔翼型突击;zh-hk:機動型突擊;zh-tw:翔翼型攻擊;"
+      "original": "Striker pack system",
+      "conv": "zh-hans:强袭背包系统;zh-hk:突擊裝備背包系統;zh-tw:攻擊裝備背包系統;"
     },
     {
-      "original": "Launcher Strike pack",
-      "conv": "zh-hans:重炮型突击;zh-hk:砲戰型突擊;zh-tw:重砲型攻擊;"
+      "original": "Aile Striker",
+      "conv": "zh-hans:翔翼型强袭;zh-hk:機動型突擊;zh-tw:翔翼型攻擊;"
     },
     {
-      "original": "Sword Strike pack",
-      "conv": "zh-hans:巨剑型突击;zh-hk:重劍型突擊;zh-tw:巨劍型攻擊;"
+      "original": "Launcher Striker",
+      "conv": "zh-hans:重炮型强袭;zh-hk:砲戰型突擊;zh-tw:重砲型攻擊;"
     },
     {
-      "original": "",
-      "conv": "zh-hans:炮筒型突击;zh-hk:砲筒型突擊;zh-tw:砲筒型攻擊;"
+      "original": "Sword Striker",
+      "conv": "zh-hans:巨剑型强袭;zh-hk:重劍型突擊;zh-tw:巨劍型攻擊;"
+    },
+    {
+      "original": "Gunbarrel",
+      "conv": "zh-hans:炮筒;zh-hk:砲筒;zh-tw:砲筒;"
     },
     {
       "original": "Blitz Gundam",
@@ -725,39 +877,39 @@
     },
     {
       "original": "Dagger",
-      "conv": "zh-hans:刃式;zh-tw:刃式;zh-hk:達加;"
+      "conv": "zh-hans:短剑;zh-tw:刃式;zh-hk:達加;"
     },
     {
       "original": "Strike Dagger",
-      "conv": "zh-hans:突击刃式;zh-tw:攻擊刃;zh-hk:突擊達加;"
+      "conv": "zh:突击刃式;zh-hans:强袭短剑;zh-tw:攻擊刃;zh-hk:突擊達加;"
     },
     {
       "original": "Buster Dagger",
-      "conv": "zh-hans:暴风刃式;zh-tw:暴風刃;zh-hk:暴風達加;"
+      "conv": "zh-hans:暴风短剑;zh-tw:暴風刃;zh-hk:暴風達加;"
     },
     {
       "original": "Duel Dagger",
-      "conv": "zh-hans:决斗刃式;zh-tw:決鬥刃;zh-hk:決鬥達加;"
+      "conv": "zh-hans:决斗短剑;zh-tw:決鬥刃;zh-hk:決鬥達加;"
     },
     {
       "original": "Launcher Dagger",
-      "conv": "zh-hans:重炮刃式;zh-hk:砲戰達加;zh-tw:重砲刃;"
+      "conv": "zh-hans:重炮短剑;zh-hk:砲戰達加;zh-tw:重砲刃;"
     },
     {
       "original": "Sword Dagger",
-      "conv": "zh-hans:巨剑刃式;zh-hk:重劍達加;zh-tw:巨劍刃;"
+      "conv": "zh-hans:巨剑短剑;zh-hk:重劍達加;zh-tw:巨劍刃;"
     },
     {
       "original": "Long Dagger",
-      "conv": "zh-hans:长刃式;zh-tw:長刃;zh-hk:長達加;"
+      "conv": "zh-hans:长剑;zh-tw:長刃;zh-hk:長達加;"
     },
     {
       "original": "Long Dagger",
-      "conv": "zh-hans:105刃式;zh-tw:105刃;zh-hk:105達加;"
+      "conv": "zh-hans:105短剑;zh-tw:105刃;zh-hk:105達加;"
     },
     {
       "original": "Slaughter Dagger",
-      "conv": "zh-hans:歼灭刃式;zh-tw:殲滅刃;zh-hk:殲滅達加;"
+      "conv": "zh-hans:歼灭短剑;zh-tw:殲滅刃;zh-hk:殲滅達加;"
     },
     {
       "original": null,
@@ -904,6 +1056,10 @@
       "conv": "zh-cn:大魔骑兵; zh-tw:德姆騎兵; zh-hk:大魔裝甲兵"
     },
     {
+      "original": "DOM",
+      "conv": "zh-cn:大魔; zh-tw:德姆; zh-hk:大魔"
+    },
+    {
       "original": "Ash",
       "conv": "zh-hans:亚修;zh-hant:亞修; zh-hk:亞索"
     },
@@ -925,11 +1081,11 @@
     },
     {
       "original": "Force Impulse Gundam",
-      "conv": "zh-hans:威力型脉冲高达;zh-tw:威力型脈衝鋼彈;zh-hk:強攻型衝擊高達;"
+      "conv": "zh-hans:强攻型脉冲高达;zh-tw:威力型脈衝鋼彈;zh-hk:強攻型衝擊高達;"
     },
     {
       "original": "Force Silhouette pack",
-      "conv": "zh-hans:威力型外挂装备;zh-tw:威力型外掛裝備;zh-hk:強攻型魅影;"
+      "conv": "zh-hans:强攻型外挂装备;zh-tw:威力型外掛裝備;zh-hk:強攻型魅影;"
     },
     {
       "original": "Blast Impulse Gundam",
@@ -961,7 +1117,11 @@
     },
     {
       "original": "Strike Freedom",
-      "conv": "zh-hans:突击自由;zh-tw:攻擊自由; zh-hk:突擊自由;"
+      "conv": "zh-hans:强袭自由;zh-tw:攻擊自由; zh-hk:突擊自由;"
+    },
+    {
+      "original": "Strike Freedom",
+      "conv": "突击自由=>zh-cn:强袭自由;突击自由=>zh-tw:攻擊自由;突击自由=>zh-hk:突擊自由"
     },
     {
       "original": "Destroy Gundam",
@@ -989,11 +1149,11 @@
     },
     {
       "original": "Dark Dagger L",
-      "conv": "zh-hans:黑刃式L;zh-tw:黑刃L;zh-hk:黑色達加L;"
+      "conv": "zh-hans:黑短剑L;zh-tw:黑刃L;zh-hk:黑色達加L;"
     },
     {
       "original": "Wild Dagger",
-      "conv": "zh-hans:野刃式;zh-tw:野刃;zh-hk:野達加;"
+      "conv": "zh-hans:野短剑;zh-tw:野刃;zh-hk:野達加;"
     },
     {
       "original": "Exus",
@@ -1001,11 +1161,11 @@
     },
     {
       "original": "Windam",
-      "conv": "zh-hans:威达;zh-tw:威達;zh-hk:偉達;"
+      "conv": "zh:威达;zh-hans:温达姆;zh-tw:威達;zh-hk:偉達;"
     },
     {
       "original": "Aile Windam",
-      "conv": "zh-hans:翔翼型威达;zh-hk:機動型偉達;zh-tw:翔翼型威達;"
+      "conv": "zh:翔翼型威达;zh-hans:翔翼型温达姆;zh-hk:機動型偉達;zh-tw:翔翼型威達;"
     },
     {
       "original": "Zamza-Zah",
@@ -1056,12 +1216,20 @@
       "conv": "曉鋼彈=>zh-cn:曉;曉鋼彈=>zh-tw:曉鋼彈;曉鋼彈=>zh-hk:曉"
     },
     {
+      "original": "",
+      "conv": "zh-hans:大鹫;zh-hk:大鷲;zh-tw:大鷲;"
+    },
+    {
       "original": "Providence ZAKU",
       "conv": "zh-hans:神意扎古;zh-tw:天帝薩克;zh-hk:天意渣古;"
     },
     {
       "original": "シビリアンアストレイ、Civilian Astray",
       "conv": "zh-hans:民用异端高达;zh-hk:民用迷惘高達;zh-tw:民用異端式;"
+    },
+    {
+      "original": "Arms Astray",
+      "conv": "zh-hans:武装异端高达;zh-hk:武裝迷惘高達;zh-tw:武裝異端式;"
     },
     {
       "original": "エクリプスガンダム、Eclipse Gundam",
@@ -1081,7 +1249,79 @@
     },
     {
       "original": "Adler（Aile Calamity的武器）",
-      "conv": "zh-hans:天鹰座;zh-hk:阿德勒;zh-tw:鷲;"
+      "conv": "天鹰座=>zh-cn:天鹰座;天鹰座=>zh-tw:鷲;天鹰座=>zh-hk:阿德勒"
+    },
+    {
+      "original": "Adler（Aile Calamity的武器）",
+      "conv": "阿德勒=>zh-cn:天鹰座;阿德勒=>zh-tw:鷲;阿德勒=>zh-hk:阿德勒"
+    },
+    {
+      "original": "ライジングフリーダム、Rising Freedom",
+      "conv": "zh-hans:飞升自由;zh-tw:振揚自由;zh-hk:飛昇自由;"
+    },
+    {
+      "original": "（フォースインパルスガンダム）SpecⅡ",
+      "conv": "規格Ⅱ=>zh-hans:Ⅱ型;規格Ⅱ=>zh-tw:SpecⅡ;規格Ⅱ=>zh-hk:規格Ⅱ"
+    },
+    {
+      "original": "（フォースインパルスガンダム）SpecⅡ",
+      "conv": "規格II=>zh-hans:Ⅱ型;規格II=>zh-tw:SpecⅡ;規格II=>zh-hk:規格Ⅱ"
+    },
+    {
+      "original": "ギャンシュトローム、Gyan Storm",
+      "conv": "zh-hans:强人奔流;zh-tw:吉昂激流;zh-hk:強人舒特洛姆;"
+    },
+    {
+      "original": "ゲルググメナース、Gelgoog Menace",
+      "conv": "zh-hans:勇士险兆;zh-tw:傑爾古格猛士;zh-hk:格魯古古麥尼斯;"
+    },
+    {
+      "original": "ブラックナイトスコード シヴァ、Black Knight Squad Shi-ve.A",
+      "conv": "zh-hans:黑骑士小队 湿婆;zh-tw:黑騎士破壞神小隊機;zh-hk:黑騎士小隊 破壞;"
+    },
+    {
+      "original": "ブラックナイトスコード ルドラ、Black Knight Squad Rud-ro.A",
+      "conv": "zh-hans:黑骑士小队 楼陀罗;zh-tw:黑騎士暴風神小隊機;zh-hk:黑騎士小隊 暴風;"
+    },
+    {
+      "original": "ズゴック、Z'GOK",
+      "conv": "zh-cn:魔蟹; zh-tw:茲卡克; zh-hk:魔蟹;"
+    },
+    {
+      "original": "ズゴック、Z'GOK",
+      "conv": "zh-cn:魔蟹; zh-tw:茲寇克; zh-hk:魔蟹;"
+    },
+    {
+      "original": "マイティーストライクフリーダム、Mighty Strike Freedom",
+      "conv": "zh-hans:非凡强袭自由;zh-tw:全能攻擊自由; zh-hk:突擊自由極;"
+    },
+    {
+      "original": "マイティーストライクフリーダムガンダム、Mighty Strike Freedom Gundam",
+      "conv": "zh:非凡强袭自由GUNDAM;zh-hans:非凡强袭自由高达;zh-tw:全能攻擊自由鋼彈; zh-hk:突擊自由高達極;"
+    },
+    {
+      "original": "マイティーストライクフリーダムガンダム、Mighty Strike Freedom Gundam",
+      "conv": "zh:全能攻擊自由GUNDAM;zh-hans:非凡强袭自由高达;zh-tw:全能攻擊自由鋼彈; zh-hk:突擊自由高達極;"
+    },
+    {
+      "original": "マイティーストライクフリーダムガンダム、Mighty Strike Freedom Gundam",
+      "conv": "zh:突擊自由GUNDAM極;zh-hans:非凡强袭自由高达;zh-tw:全能攻擊自由鋼彈; zh-hk:突擊自由高達極;"
+    },
+    {
+      "original": "デュエルブリッツ，DUEL BLITZ",
+      "conv": "zh:决斗雷击;zh-hans:决斗迅雷;zh-tw:決鬥電擊; zh-hk:決鬥閃電;"
+    },
+    {
+      "original": "ライトニングバスターガンダム，LIGHTING BUSTER",
+      "conv": "zh-hans:闪电暴风;zh-tw:閃電暴風; zh-hk:電光暴風;"
+    },
+    {
+      "original": "Proud Defender",
+      "conv": "zh-hans:骄傲捍卫者;zh-tw:榮耀護衛機; zh-hk:自豪防衛者;"
+    },
+    {
+      "original": "Millennium",
+      "conv": "zh-hans:“千禧年”号;zh-tw:「千禧年」號; zh-hk:「千年」號;"
     },
     {
       "original": "",
@@ -1089,7 +1329,7 @@
     },
     {
       "original": "",
-      "conv": "zh-hans:赫立奥波利斯; zh-tw:海利歐波里斯; zh-hk:希奈波里斯;"
+      "conv": "zh-hans:赫利奥波利斯; zh-tw:海利歐波里斯; zh-hk:希奈波里斯;"
     },
     {
       "original": "",
@@ -1125,11 +1365,15 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:卡贝塔利亚; zh-tw:卡貝塔利亞; zh-hk:卡賓達利亞;"
+      "conv": "zh-hans:卡奔塔利亚; zh-tw:卡貝塔利亞; zh-hk:卡賓達利亞;"
     },
     {
       "original": null,
       "conv": "zh-hans:瑙鲁; zh-tw:諾瑙; zh-hk:瑙魯;"
+    },
+    {
+      "original": "Guluahan",
+      "conv": "zh-hans:卡鲁纳汉; zh-tw:喀爾納罕; zh-hk:卡魯納漢;"
     },
     {
       "original": "",
@@ -1157,18 +1401,26 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:孔帕斯; zh-tw:羅盤; zh-hk:COMPASS;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:芬德申; zh-tw:基金國; zh-hk:Foundation;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:芬德申; zh-tw:基金國; zh-hk:Foundation;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:调整者; zh-tw:調整者; zh-hk:新人類;"
     },
     {
       "original": null,
-      "conv": "海市蜃楼胶质=>zh-cn:海市蜃楼胶质;海市蜃楼胶质=>zh-tw:幻象化粒子;海市蜃楼胶质=>zh-hk:幻影"
+      "conv": "zh-hans:海市蜃楼胶质; zh-tw:幻象化粒子; zh-hk:幻象化粒子"
     },
     {
-      "original": null,
-      "conv": "幻象化粒子=>zh-cn:海市蜃楼胶质;幻象化粒子=>zh-tw:幻象化粒子;幻象化粒子=>zh-hk:幻影"
-    },
-    {
-      "original": null,
+      "original": "グングニール、Gungnir",
       "conv": "zh-hans:奥丁之雷; zh-tw:奧丁神槍; zh-hk:奧丁之雷;"
     },
     {
@@ -1178,6 +1430,10 @@
     {
       "original": "Deuterion Beam",
       "conv": "zh-hans:氘光束;zh-tw:重氫光束;zh-hk:氘核鐳射;"
+    },
+    {
+      "original": "ビーム、Beam",
+      "conv": "zh-cn:光束; zh-tw:光束; zh-hk:鐳射;"
     },
     {
       "original": "ビームサーベル、Beam Saber",
@@ -1194,6 +1450,10 @@
     {
       "original": "ビームキャノン、Beam Cannon",
       "conv": "zh-cn:光束加农砲; zh-tw:光束加農砲; zh-hk:鐳射砲;"
+    },
+    {
+      "original": "ニュートロンジャマーキャンセラー、Neutron Jammer Canceler",
+      "conv": "zh-hans:反中子干扰器; zh-tw:反中子干擾器; zh-hk:中子干擾調解器;"
     },
     {
       "original": null,
@@ -1213,7 +1473,11 @@
     },
     {
       "original": "トリイ、Birdy",
-      "conv": "zh-hans:托利;zh-hk:多莉;zh-tw:托里"
+      "conv": "zh-hans:托莉;zh-hk:多莉;zh-tw:托里"
+    },
+    {
+      "original": "ブルー、Blue",
+      "conv": "zh-hans:布鲁;zh-hk:布魯;zh-tw:小藍"
     },
     {
       "original": "",
@@ -1222,6 +1486,34 @@
     {
       "original": "新世紀GPXサイバーフォーミュラ",
       "conv": "zh-hans:高智能方程式;zh-tw:閃電霹靂車; zh-hk:高智能方程式;"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:GUNDAM SEED PROJECT ignited;zh-hant:GUNDAM SEED PROJECT ignited"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:“X” plosion GUNDAM SEED;zh-hant:“X” plosion GUNDAM SEED"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:「X」 plosion GUNDAM SEED;zh-hant:「X」 plosion GUNDAM SEED"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:\"X\" plosion GUNDAM SEED;zh-hant:\"X\" plosion GUNDAM SEED"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:“X”plosion GUNDAM SEED;zh-hant:“X”plosion GUNDAM SEED"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:「X」plosion GUNDAM SEED;zh-hant:「X」plosion GUNDAM SEED"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:\"X\"plosion GUNDAM SEED;zh-hant:\"X\"plosion GUNDAM SEED"
     }
   ]
 }

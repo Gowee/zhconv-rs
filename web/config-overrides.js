@@ -12,6 +12,7 @@ module.exports = function override(config, env) {
     new WasmPackPlugin({
       crateDirectory: path.resolve(__dirname, "../"),
       withTypeScript: true,
+      extraArgs: "-- --features opencc",
       // NOTE: it is 'index' by default, different from the default (package name) of wasm-pack
       outName: 'zhconv'
     }));

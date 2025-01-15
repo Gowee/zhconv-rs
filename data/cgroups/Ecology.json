@@ -308,10 +308,6 @@
       "conv": "同化代謝=>zh-cn:合成代谢;"
     },
     {
-      "original": "anagenesis",
-      "conv": "zh-cn:进化; zh-tw:前進演化; zh-hk:進化;"
-    },
-    {
       "original": "andosol",
       "conv": "zh-cn:钙铁榴石; zh-tw:暗色火山灰土;"
     },
@@ -1132,6 +1128,10 @@
       "conv": "zh-cn:富营养化; zh-tw:優養化; zh-hk:富營養化;"
     },
     {
+      "original": "evolution",
+      "conv": "zh-hans:进化;zh-hant:進化;zh-hk:進化;zh-tw:演化;zh-cn:进化;zh-sg:进化;zh-mo:進化;"
+    },
+    {
       "original": "exploitation competition",
       "conv": "剝削競爭=>zh-cn:利用性竞争;"
     },
@@ -1206,6 +1206,10 @@
     {
       "original": "pollination",
       "conv": "zh-hans:传粉;zh-hant:傳粉;zh-tw:授粉;"
+    },
+    {
+      "original": "polyphagy",
+      "conv": "zh-cn:多食性; zh-tw:廣食性;"
     },
     {
       "original": "population",

@@ -5,7 +5,23 @@
   "rules": [
     {
       "original": "",
-      "conv": "zh-tw:夢原美美;zh-hk:夢原望美;zh-cn:梦原希;zh-hans:梦原望;"
+      "conv": "zh-tw:美美;zh-hk:美美;zh-cn:望;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:玲;zh-hk:玲玲;zh-cn:玲;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:叮叮;zh-hk:町町;zh-cn:小町;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:小香;zh-hk:香戀;zh-cn:香恋;"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:夢原美美;zh-hk:夢原望美;zh-hant:夢原望;zh-cn:梦原望;"
     },
     {
       "original": "",
@@ -21,19 +37,19 @@
     },
     {
       "original": "",
-      "conv": "zh-tw:水無月小香;zh-hk:水無月香戀;zh-cn:水无月香恋;"
+      "conv": "zh-tw:水無月小香;zh-hk:水無月香戀;zh-cn:水無月香恋;"
     },
     {
       "original": "",
-      "conv": "zh-tw:美美野露米;zh-hk:美美野露米;zh-cn:美美野来未;zh-hant:美美野胡桃;"
+      "conv": "zh-tw:小浩;zh-hk:浩司;"
     },
     {
       "original": "",
-      "conv": "zh-tw:小小田小浩;zh-hk:小小田浩司;"
+      "conv": "zh-tw:露米;zh-hk:露米;zh-cn:来未;"
     },
     {
       "original": "",
-      "conv": "zh-tw:秋元圓香;zh-hk:秋元小圓;zh-cn:秋元圆香;"
+      "conv": "zh-tw:圓香;zh-hk:小圓;zh-cn:圆香;"
     },
     {
       "original": "",
@@ -137,6 +153,18 @@
     },
     {
       "original": "",
+      "conv": "zh-tw:光之美少女 夢幻變身;zh-hk:Pretty Cure 光之美少女變身;zh-cn:光之美少女 梦幻变身"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:夢幻變身;zh-hk:變身;zh-cn:梦幻变身"
+    },
+    {
+      "original": "",
+      "conv": "zh-tw:希望的力量，未來的光芒，五顆華麗展翅高飛的心！Yes，光之美少女FIVE;zh-hk:集合希望的力量以及未來之光，五顆光亮的心將會合二為一！Yes! Pretty Cure 5;zh-cn:希望的力量，未来的光芒，五颗华丽展翅高飞的心！Yes，光之美少女FIVE"
+    },
+    {
+      "original": "",
       "conv": "zh-tw:希望之光Five，夢天使！;zh-hk:希望之光Five，夢天使！;zh-hant:膨脹的夢想的力量，夢天使！;zh-hans:伟大的希望之力，梦天使！;"
     },
     {
@@ -157,63 +185,63 @@
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女星炫風;zh-hk:光之美少女星炫風;zh-cn:光之美少女柠檬闪光;"
+      "conv": "zh-tw:星炫風;zh-hk:星炫風;zh-cn:柠檬闪光;"
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女冰空防護罩;zh-hk:光之美少女冰空防護罩;zh-cn:光之美少女薄荷防護罩;"
+      "conv": "zh-tw:冰空防護罩;zh-hk:冰空防護罩;zh-cn:薄荷防護罩;"
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女水滴風暴;zh-hk:光之美少女水滴風暴;zh-cn:光之美少女清水激流;"
+      "conv": "zh-tw:水滴風暴;zh-hk:水滴風暴;zh-cn:清水激流;"
     },
     {
       "original": "",
-      "conv": "zh-tw:夢天使水晶攻擊;zh-hk:夢天使水晶攻擊;zh-cn:光之美少女水晶冲击;"
+      "conv": "zh-tw:光之美少女 夢天使水晶攻擊;zh-hk:夢天使 水晶攻擊;zh-cn:光之美少女 水晶冲击;"
     },
     {
       "original": "",
-      "conv": "zh-tw:火天使燃燒攻擊;zh-hk:火天使燃燒攻擊;zh-cn:光之美少女烈焰燃烧;"
+      "conv": "zh-tw:光之美少女 火天使燃燒攻擊;zh-hk:火天使 燃燒攻擊;zh-cn:光之美少女 烈焰燃烧;"
     },
     {
       "original": "",
-      "conv": "zh-tw:星天使閃耀光束攻擊;zh-hk:星天使閃耀光束攻擊;zh-cn:光之美少女柠檬炫光;"
+      "conv": "zh-tw:光之美少女 星天使閃耀光束攻擊;zh-hk:星天使 閃耀光束攻擊;zh-cn:光之美少女 柠檬炫光;"
     },
     {
       "original": "",
-      "conv": "zh-tw:冰天使雪光盾;zh-hk:冰天使雪光盾;zh-cn:光之美少女薄荷屏障;"
+      "conv": "zh-tw:光之美少女 冰天使雪光盾;zh-hk:冰天使 雪光盾;zh-cn:光之美少女 薄荷屏障;"
     },
     {
       "original": "",
-      "conv": "zh-tw:水天使龍捲攻擊;zh-hk:水天使龍捲攻擊;zh-cn:光之美少女清流水击;"
+      "conv": "zh-tw:光之美少女 水天使龍捲攻擊;zh-hk:水天使 龍捲攻擊;zh-cn:光之美少女 清流水击;"
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女花蝶流星;zh-hk:光之美少女花蝶流星;zh-cn:光之美少女流星冲击;"
+      "conv": "zh-tw:花蝶流星;zh-hk:花蝶流星;zh-cn:流星冲击;"
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女寶石弓箭;zh-hk:光之美少女寶石弓箭;zh-cn:光之美少女深蓝飞箭;"
+      "conv": "zh-tw:寶石弓箭;zh-hk:寶石弓箭;zh-cn:深蓝飞箭;"
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女烈焰火球;zh-hk:光之美少女烈焰火球;zh-cn:光之美少女烈焰火球;"
+      "conv": "zh-tw:烈焰火球;zh-hk:烈焰火球;zh-cn:烈焰火球;"
     },
     {
       "original": "",
-      "conv": "zh-tw:藍色玫瑰風暴;zh-hk:Milky Rose 藍色玫瑰風暴;zh-cn:妙奇露丝玫瑰吹雪;"
+      "conv": "zh-tw:藍色玫瑰風暴;zh-hk:Milky Rose 藍色玫瑰風暴;zh-cn:妙奇露丝 玫瑰吹雪;"
     },
     {
       "original": "",
-      "conv": "zh-tw:紫天使金屬玫瑰風暴;zh-hk:妙奇露絲鋼鐵暴風雪;zh-cn:妙奇露丝金属玫瑰风暴;"
+      "conv": "zh-tw:紫天使 金屬玫瑰風暴;zh-hk:Milky Rose 鋼鐵暴風雪;zh-cn:妙奇露丝 金属玫瑰风暴;"
     },
     {
-      "original": "光之美少女幻所玫瑰大爆發",
-      "conv": "zh-tw:光之美少女彩虹玫瑰 Explosion;zh-hk:Pretty Cure Rainbow Rose Explosion;zh-cn:光之美少女幻彩玫瑰大爆发;"
+      "original": "光之美少女 幻所玫瑰大爆發",
+      "conv": "zh-tw:光之美少女 彩虹玫瑰大爆發;zh-hk:Pretty Cure Rainbow Rose Explosion;zh-cn:光之美少女 幻彩玫瑰大爆发;"
     },
     {
       "original": "",
-      "conv": "zh-tw:光之美少女終極幻彩玫瑰花朵 Explosion;zh-hk:光之美少女妙奇露絲芙蘿拉大爆發;zh-cn:光之美少女妙奇露丝芙罗拉冲击;"
+      "conv": "zh-tw:光之美少女 終極幻彩玫瑰花朵大爆發;zh-hk:Pretty Cure Milky Rose Flora Explosion;zh-cn:光之美少女 妙奇露丝芙罗拉冲击;"
     },
     {
       "original": "",
@@ -254,6 +282,14 @@
     {
       "original": "",
       "conv": "zh-tw:席納;zh-hk:想要;zh-cn:贪婪使者;"
+    },
+    {
+      "original": "",
+      "conv": "希望"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:绝望;zh-hant:絕望"
     }
   ]
 }

@@ -9,26 +9,58 @@ use std::default::Default;
 use std::fmt::{self, Display};
 use std::str::FromStr;
 
-use strum::{Display, EnumString, EnumVariantNames, IntoStaticStr};
+use strum::{Display, EnumString, IntoStaticStr, VariantNames};
 
 use crate::utils::get_with_fallback;
 
 /// Chinese variants (a.k.a 中文變體), parsed from language tags, as listed in [Help:高级字词转换语法#组合转换标签](https://zh.wikipedia.org/wiki/Help:高级字词转换语法#组合转换标签).
 #[derive(
-    Clone, Copy, Debug, PartialEq, Eq, Hash, Display, EnumString, EnumVariantNames, IntoStaticStr,
+    Clone,
+    Copy,
+    Debug,
+    Default,
+    PartialEq,
+    Eq,
+    Hash,
+    Display,
+    EnumString,
+    VariantNames,
+    IntoStaticStr,
 )]
 #[strum(serialize_all = "kebab_case", ascii_case_insensitive)]
-#[derive(Default)]
+#[cfg_attr(
+    feature = "serde",
+    derive(serde::Serialize, serde::Deserialize),
+    serde(rename_all = "kebab-case")
+)]
 pub enum Variant {
     #[default]
+    /// Chinese (dummy variant)
     Zh,
+    /// Script: Traditional Chinese
+    #[cfg_attr(feature = "serde", serde(alias = "zh-Hant"))]
     ZhHant,
+    /// Script: Simplified Chinese
+    #[cfg_attr(feature = "serde", serde(alias = "zh-Hans"))]
     ZhHans,
+    /// Short for `zh-Hant-TW`, Script: Traditional Chinese, Region: Taiwan
+    #[cfg_attr(feature = "serde", serde(rename = "zh-tw", alias = "zh-TW"))]
+    // zh-t-w by serde by default
     ZhTW,
+    /// Short for`zh-Hant-HK`, Script: Traditional Chinese, Region: Hong Kong
+    #[cfg_attr(feature = "serde", serde(rename = "zh-hk", alias = "zh-HK"))]
     ZhHK,
+    /// Short for`zh-Hant-MO`, Script: Traditional Chinese, Region: Macau
+    #[cfg_attr(feature = "serde", serde(rename = "zh-mo", alias = "zh-MO"))]
     ZhMO,
+    /// Short for`zh-Hans-MY`, Script: Simplified Chinese, Region: Malaysia
+    #[cfg_attr(feature = "serde", serde(rename = "zh-my", alias = "zh-MY"))]
     ZhMY,
+    /// Short for`zh-Hans-SG`, Script: Simplified Chinese, Region: Singapore
+    #[cfg_attr(feature = "serde", serde(rename = "zh-sg", alias = "zh-SG"))]
     ZhSG,
+    /// Short for`zh-Hans-CN`, Script: Simplified Chinese, Region: China (mainland)
+    #[cfg_attr(feature = "serde", serde(rename = "zh-cn", alias = "zh-CN"))]
     ZhCN,
     // Unknown(String)
 }
@@ -88,14 +120,14 @@ impl VariantMap<String> {
     }
 
     /// Get the pairs of conversion for a target variant
-    pub fn get_conv_pairs(&self, target: Variant) -> Vec<(&str, &str)> {
+    pub fn get_conv_pairs(&self, target: Variant) -> impl Iterator<Item = (&str, &str)> {
         use Variant::*;
-        // TODO: Iterator
         // MEDIAWIKI: the code of the reference implementation is too obscure, try to replicate the
         //            the same behavior based on some tests
+        let mut it = None;
         match target {
-            // based on tests, the three are only used for regional scripts as fallbacks
-            Zh | ZhHant | ZhHans => vec![],
+            // based on tests, the three are only used as fallbacks for regional scripts
+            Zh | ZhHant | ZhHans => (),
             _ => {
                 // It won't fallback to Zh finally. So Zh is only used as from?
                 let to = match_fallback!(
@@ -113,20 +145,19 @@ impl VariantMap<String> {
                 );
 
                 if let Some(to) = to {
-                    let mut pairs = vec![];
-                    for (_variant, from) in self.0.iter() {
-                        // when variant == target, from == to, which indicates preventing the word
-                        // from converting
-                        if !from.is_empty() {
-                            pairs.push((from.as_ref(), to));
+                    // for variant == target, from == to, it prevents the word from converting
+                    it = Some(self.0.iter().filter_map(move |(_variant, from)| {
+                        if from.is_empty() {
+                            None
+                        } else {
+                            Some((from.as_ref(), to))
                         }
-                    }
-                    pairs
-                } else {
-                    vec![]
+                    }));
                 }
             }
         }
+
+        it.into_iter().flatten()
     }
 }
 

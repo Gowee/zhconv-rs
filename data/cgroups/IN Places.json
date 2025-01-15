@@ -1,0 +1,163 @@
+{
+  "name": "IN Places",
+  "description": "印度地名",
+  "path": "Module:CGroup/IN Places",
+  "rules": [
+    {
+      "original": "Ahmedabad",
+      "conv": "zh-hant:艾哈邁達巴德; zh-hans:艾哈迈达巴德; zh-hk:阿美達巴德; zh-tw:亞美達巴德;"
+    },
+    {
+      "original": "Amalapuram",
+      "conv": "zh:阿马拉普拉姆;zh-cn:阿默拉布勒姆; zh-hk:阿默拉布勒姆; zh-tw:阿馬拉普蘭;"
+    },
+    {
+      "original": "Andhra",
+      "conv": "zh-hans:安得拉; zh-hant:安德拉;"
+    },
+    {
+      "original": "Arunachal",
+      "conv": "zh-cn:阿鲁纳恰尔; zh-hk:阿魯納恰爾; zh-tw:阿魯納查;"
+    },
+    {
+      "original": "Bangalore",
+      "conv": "zh:邦加羅爾; zh-hans:班加罗尔; zh-hant:班加羅爾; zh-tw:邦加羅爾;"
+    },
+    {
+      "original": "Chandigarh",
+      "conv": "zh-cn:昌迪加尔; zh-tw:昌迪加爾; zh-hk:昌迪加;"
+    },
+    {
+      "original": "Chennai",
+      "conv": "zh-cn:金奈; zh-hk:欽奈; zh-sg:真奈; zh-my:真奈; zh-tw:清奈;"
+    },
+    {
+      "original": "Chhattisgarhi",
+      "conv": "zh-cn:切蒂斯格尔; zh-hk:切蒂斯格爾; zh-tw:恰蒂斯加爾;"
+    },
+    {
+      "original": "Coromandel",
+      "conv": "zh-hans:科罗曼德尔; zh-hk:科羅曼德爾; zh-tw:科羅曼德;"
+    },
+    {
+      "original": "Erode",
+      "conv": "zh-cn:埃罗德; zh-tw:埃羅德; zh-hk:伊洛德;"
+    },
+    {
+      "original": "Gandhinagar",
+      "conv": "zh-hant:甘地訥格爾; zh-hans:甘地讷格尔; zh-tw:甘地納加;"
+    },
+    {
+      "original": "Gayā",
+      "conv": "zh-cn:格雅; zh-tw:加雅;"
+    },
+    {
+      "original": "Goa",
+      "conv": "zh-hk:果阿; zh-cn:果阿; zh-tw:果亞;"
+    },
+    {
+      "original": "Gujarat",
+      "conv": "zh-hans:古吉拉特; zh-hk:古吉拉特; zh-tw:古加拉特;"
+    },
+    {
+      "original": "Himachal",
+      "conv": "zh-cn:喜马偕尔; zh-tw:喜馬恰爾; zh-hk:喜馬偕爾;"
+    },
+    {
+      "original": "Hyderabad",
+      "conv": "zh-cn:海得拉巴; zh-tw:海德拉巴; zh-hk:海德拉巴;"
+    },
+    {
+      "original": "Kannada",
+      "conv": "zh:卡纳达; zh-cn:卡纳达; zh-tw:康納達;"
+    },
+    {
+      "original": "Karnataka",
+      "conv": "zh-hans:卡纳塔克; zh-hant:卡納塔克; zh-tw:卡納塔卡;"
+    },
+    {
+      "original": "Kashmir",
+      "conv": "zh-hans:克什米尔; zh-cn:克什米尔; zh-hk:克什米爾; zh-tw:喀什米爾; zh-mo:克什米爾;"
+    },
+    {
+      "original": "Kathiawar",
+      "conv": "zh-cn:卡提阿瓦; zh-tw:卡提亞瓦;"
+    },
+    {
+      "original": "Kerala",
+      "conv": "zh-cn:喀拉拉; zh-hk:基拉拉; zh-tw:喀拉拉;"
+    },
+    {
+      "original": "Khambhat",
+      "conv": "zh-cn:肯帕德; zh-tw:康貝;"
+    },
+    {
+      "original": "Kochi",
+      "conv": "zh-cn:戈奇; zh-tw:科契;"
+    },
+    {
+      "original": "Kodaikanal",
+      "conv": "zh-cn:科代卡纳尔;zh-hk:科代加納爾;zh-tw:科代卡纳;"
+    },
+    {
+      "original": "Kutch",
+      "conv": "zh-cn:卡奇; zh-tw:刻赤;"
+    },
+    {
+      "original": "Maharashtra",
+      "conv": "zh-hans:马哈拉施特拉; zh-hant:馬哈拉施特拉; zh-tw:馬哈拉什特拉;"
+    },
+    {
+      "original": "Malayalam",
+      "conv": "zh-cn:马拉雅拉姆; zh-hk:馬拉也林; zh-tw:馬拉雅拉姆;"
+    },
+    {
+      "original": "Marathi",
+      "conv": "zh-hant:馬拉地; zh-hans:马拉地; zh-tw:馬拉提;"
+    },
+    {
+      "original": "Madikeri",
+      "conv": "zh-cn:马迪凯里; zh-hk:馬迪凱里; zh-tw:馬迪開里;"
+    },
+    {
+      "original": "Nagaland",
+      "conv": "zh-cn:那加兰; zh-hk:那加蘭; zh-tw:納加蘭;"
+    },
+    {
+      "original": "Odisha",
+      "conv": "zh-hans:奥迪沙; zh-hant:奧迪沙; zh-tw:奧迪薩;"
+    },
+    {
+      "original": "Pondicherry",
+      "conv": "zh-cn:本地治里; zh-hk:本地治里; zh-tw:朋迪治里;"
+    },
+    {
+      "original": "Pondicherry",
+      "conv": "邦狄哲利=>zh-cn:本地治里; 邦狄哲利=>zh-hk:本地治里; 邦狄哲利=>zh-tw:朋迪治里;"
+    },
+    {
+      "original": "Porbandar",
+      "conv": "zh-cn:博尔本德尔; zh-tw:波爾本達;"
+    },
+    {
+      "original": "Pune",
+      "conv": "zh-hans:浦那; zh-hant:浦那; zh-tw:浦納;"
+    },
+    {
+      "original": "Tamil",
+      "conv": "zh:泰米尔; zh-cn:泰米尔; zh-hk:泰米爾; zh-sg:淡米尔; zh-my:淡米尔; zh-tw:坦米爾;"
+    },
+    {
+      "original": "Tamil Nadu",
+      "conv": "zh-cn:泰米尔纳德; zh-hk:泰米爾納德; zh-sg:淡米尔纳德; zh-tw:坦米爾那都;"
+    },
+    {
+      "original": "Telangana",
+      "conv": "zh-hant:特倫甘納; zh-cn:特伦甘纳; zh-sg:泰伦加纳; zh-tw:泰倫加納;"
+    },
+    {
+      "original": "Union territory",
+      "conv": "zh-cn:中央直辖区; zh-hant:聯邦屬地; zh-sg:联邦属地;"
+    }
+  ]
+}

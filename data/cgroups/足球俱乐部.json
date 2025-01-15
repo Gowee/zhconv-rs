@@ -1,0 +1,179 @@
+{
+  "name": "足球俱乐部",
+  "description": "足球俱乐部",
+  "path": "Module:CGroup/足球俱乐部",
+  "rules": [
+    {
+      "original": "FC Bunyodkor",
+      "conv": "本尤德科足球俱乐部=>zh-hans:创造者足球俱乐部; 本尤德科足球俱乐部=>zh-cn:塔什干创造者足球俱乐部; 本尤德科足球俱乐部=>zh-sg:塔什干创造者足球俱乐部; 賓約哥足球會=>zh-hans:创造者足球俱乐部;賓約哥足球會=>zh-cn:塔什干创造者足球俱乐部;賓約哥足球會=>zh-sg:塔什干创造者足球俱乐部;賓約哥足球會=>zh-my:塔什干创造者足球俱乐部;賓約哥足球會=>zh-hant:締造者足球俱樂部; 賓約哥足球會=>zh-hk:塔什干締造者足球會; 賓約哥足球會=>zh-tw:塔什干締造者足球俱樂部;賓約哥足球會=>zh-mo:塔什干締造者足球會;zh-hans:创造者足球俱乐部; zh-cn:塔什干创造者足球俱乐部;zh-hant:締造者足球俱樂部;zh-hk:塔什干締造者足球會;zh-tw:塔什干締造者足球俱樂部;zh-sg:塔什干创造者足球俱乐部;zh-mo:塔什干締造者足球會;zh-my:塔什干创造者足球俱乐部;"
+    },
+    {
+      "original": "FC Bunyodkor",
+      "conv": "zh:缔造者足球俱乐部;zh-hans:缔造者足球俱乐部;zh-hant:締造者足球俱樂部;"
+    },
+    {
+      "original": "Bunyodkor",
+      "conv": "zh:创造者;zh-hans:创造者;zh-hant:創造者;"
+    },
+    {
+      "original": "Bunyodkor",
+      "conv": "本尤德科=>zh-hans:创造者; 本尤德科=>zh-cn:创造者; 本尤德科=>zh-sg:创造者; 本尤德科=>zh-my:创造者; 本尤德科=>zh-hant:創造者; zh-hans:创造者; zh-hant:創造者;"
+    },
+    {
+      "original": "Bunyodkor",
+      "conv": "zh:本尤德科; zh-hans:创造者; zh-hant:創造者; zh-cn:创造者; zh-sg:创造者; zh-my:创造者; zh-hk:創造者; zh-tw:創造者;"
+    },
+    {
+      "original": "Club Always Ready",
+      "conv": "阿爾韋斯列迪足球俱樂部=>zh-hans:拉巴斯恒常准备足球俱乐部; 阿爾韋斯列迪足球俱樂部=>zh-hant:拉巴斯恆常準備足球俱樂部; 阿爾韋斯列迪足球俱樂部=>zh-hk:拉巴斯恆常準備足球會;阿爾韋斯列迪足球俱樂部=>zh-tw:拉巴斯恆常準備足球俱樂部;阿爾韋斯列迪足球俱樂部=>zh-mo:拉巴斯恆常準備足球會;zh-hans:拉巴斯恒常准备足球俱乐部;zh-hant:拉巴斯恆常準備足球俱樂部;zh-hk:拉巴斯恆常準備足球會;zh-mo:拉巴斯恆常準備足球會;"
+    },
+    {
+      "original": "Always Ready",
+      "conv": "阿爾韋斯列迪=>zh-hans:拉巴斯恒常准备; 阿爾韋斯列迪=>zh-hant:拉巴斯恆常準備;阿爾韋斯列迪=>zh-hk:拉巴斯恆常準備;阿爾韋斯列迪=>zh-tw:拉巴斯恆常準備;阿爾韋斯列迪=>zh-mo:拉巴斯恆常準備;zh-hans:拉巴斯恒常准备;zh-hant:拉巴斯恆常準備;"
+    },
+    {
+      "original": "Club Always Ready",
+      "conv": "时刻准备着俱乐部=>zh-hans:时刻准备着足球俱乐部;时刻准备着俱乐部=>zh-cn:时刻准备着足球俱乐部;时刻准备着俱乐部=>zh-hant:拉巴斯恆常準備足球俱樂部;时刻准备着俱乐部=>zh-hk:拉巴斯恆常準備隊;时刻准备着俱乐部=>zh-tw:拉巴斯恆常準備足球俱樂部;时刻准备着俱乐部=>zh-mo:拉巴斯恆常準備隊;zh-hans:时刻准备着足球俱乐部;zh-hant:拉巴斯恆常準備足球俱樂部;zh-hk:拉巴斯恆常準備隊;zh-mo:拉巴斯恆常準備隊;"
+    },
+    {
+      "original": "Always Ready",
+      "conv": "zh:阿爾韋斯列迪;zh-hans:拉巴斯恒常准备; zh-hant:拉巴斯恆常準備;zh-cn:拉巴斯恒常准备; zh-hk:拉巴斯恆常準備;zh-tw:拉巴斯恆常準備;zh-mo:拉巴斯恆常準備;"
+    },
+    {
+      "original": "Arterivo Wakayama",
+      "conv": "zh:和歌山艺术到达;zh-hans:和歌山艺术到达;zh-hant:和歌山藝術到達;"
+    },
+    {
+      "original": "Arterivo Wakayama",
+      "conv": "zh:和歌山艾特里武;zh-hans:和歌山艺臻;zh-cn:和歌山艺臻;zh-sg:和歌山艺臻;zh-my:和歌山艺臻;zh-hant:和歌山藝達;zh-hk:和歌山藝達;"
+    },
+    {
+      "original": "Arterivo Wakayama",
+      "conv": "和歌山艾特里武=>zh-hans:和歌山艺臻;和歌山艾特里武=>zh-cn:和歌山艺臻;和歌山艾特里武=>zh-sg:和歌山艺臻;和歌山艾特里武=>zh-my:和歌山艺臻;和歌山艾特里武=>zh-hant:和歌山藝達;zh-hans:和歌山艺臻;zh-hant:和歌山藝達;"
+    },
+    {
+      "original": "Arterivo Wakayama",
+      "conv": "和歌山艾特里武足球俱乐部=>zh-hans:和歌山艺臻足球俱乐部;和歌山艾特里武足球俱乐部=>zh-hant:和歌山藝達足球俱樂部;zh-hans:和歌山艺臻足球俱乐部;zh-hant:和歌山藝達足球俱樂部;"
+    },
+    {
+      "original": "Club Atlético Talleres",
+      "conv": "塔勒瑞斯足球俱乐部=>zh-hans:工作坊体育俱乐部;塔勒瑞斯足球俱乐部=>zh-cn:工作坊体育俱乐部;塔勒瑞斯足球俱乐部=>zh-hans:工作坊体育俱乐部;科爾多瓦塔勒雷斯=>zh-hk:科爾多瓦工作坊;科爾多瓦塔勒雷斯=>zh-tw:科爾多瓦工作坊;科爾多瓦塔勒雷斯=>zh-mo:科爾多瓦工作坊;塔勒瑞斯足球俱乐部=>zh-sg:工作坊体育俱乐部;塔勒瑞斯足球俱乐部=>zh-my:工作坊体育俱乐部;科爾多瓦塔勒雷斯=>zh-hant:科爾多瓦工作坊;zh-hans:工作坊体育俱乐部;zh-hant:科爾多瓦工作坊;;"
+    },
+    {
+      "original": "Club Atlético Talleres",
+      "conv": "泰拿尼斯體育會=>zh-hans:工作坊体育俱乐部;泰拿尼斯體育會=>zh-cn:工作坊体育俱乐部;泰拿尼斯體育會=>zh-hant:工作坊體育俱樂部;泰拿尼斯體育會=>zh-hk:工作坊體育會;泰拿尼斯體育會=>zh-tw:工作坊體育俱樂部;泰拿尼斯體育會=>zh-mo:工作坊體育會;泰拿尼斯體育會=>zh-sg:工作坊体育俱乐部;泰拿尼斯體育會=>zh-my:工作坊体育俱乐部;zh-hans:工作坊体育俱乐部;zh-hant:工作坊體育俱樂部;zh-hk:工作坊體育會;zh-mo:工作坊體育會;"
+    },
+    {
+      "original": " Talleres",
+      "conv": "泰拿尼斯=>zh-hans:工作坊;泰拿尼斯=>zh-hant:工作坊;zh-hans:工作坊;zh-hant:工作坊;"
+    },
+    {
+      "original": " Talleres",
+      "conv": "塔勒瑞斯=>zh-hans:工作坊;塔勒瑞斯=>zh-cn:工作坊;塔勒雷斯=>zh-hant:工作坊;塔勒瑞斯=>zh-sg:工作坊;塔勒瑞斯=>zh-my:工作坊;塔勒雷斯=>zh-hk:工作坊;塔勒雷斯=>zh-tw:工作坊;塔勒雷斯=>zh-mo:工作坊;zh-hans:工作坊;zh-hant:工作坊;"
+    },
+    {
+      "original": " Talleres",
+      "conv": "zh:塔勒瑞斯;zh-hans:工作坊;zh-cn:工作坊;zh-hant:工作坊;zh-sg:工作坊;zh-my:工作坊;zh-hk:工作坊;zh-tw:工作坊;zh-mo:工作坊;"
+    },
+    {
+      "original": " Talleres",
+      "conv": "zh:塔勒雷斯;zh-hans:工作坊;zh-cn:工作坊;zh-hant:工作坊;zh-sg:工作坊;zh-my:工作坊;zh-hk:工作坊;zh-tw:工作坊;zh-mo:工作坊;"
+    },
+    {
+      "original": "Club Atlético Talleres",
+      "conv": "zh:工作坊体育俱乐部;zh-hans:工作坊体育俱乐部;zh-hant:工作坊體育俱樂部;zh-hk:工作坊體育會;"
+    },
+    {
+      "original": "Talleres",
+      "conv": "zh:工作坊;zh-hans:工作坊;zh-hant:工作坊;"
+    },
+    {
+      "original": "Delfín",
+      "conv": "zh:海豚;zh-hans:海豚;zh-hant:海豚;"
+    },
+    {
+      "original": "Delfín",
+      "conv": "zh:德芬;zh-hans:海豚SC;zh-hant:海豚SC;zh-cn:曼塔海豚SC;zh-hk:海豚SC;zh-tw:海豚SC;zh-sg:海豚SC;"
+    },
+    {
+      "original": "Delfín",
+      "conv": "德芬=>zh-hans:海豚SC;德芬=>zh-hant:海豚SC;德芬=>zh-hans:海豚SC;德芬=>zh-cn:曼塔海豚SC;德芬=>zh-hans:海豚SC;德芬=>zh-hk:海豚SC;德芬=>zh-tw:海豚SC;德芬=>zh-sg:海豚SC;德芬=>zh-my:海豚SC;德芬=>zh-mo:海豚SC;zh-hans:海豚SC;zh-hant:海豚SC;zh-cn:曼塔海豚SC;"
+    },
+    {
+      "original": "S.P. La Fiorita",
+      "conv": "拉科奧里塔體育會=>zh-hans:蒙特贾尔迪诺鲜花 (足球队);拉科奧里塔體育會=>zh-cn:蒙特贾尔迪诺鲜花 (足球队);拉科奧里塔體育會=>zh-hans:蒙特贾尔迪诺鲜花 (足球队);拉科奧里塔體育會=>zh-hant:蒙特賈爾迪諾鮮花 (足球隊);拉科奧里塔體育會=>zh-hk:蒙特賈爾迪諾鮮花 (足球隊);拉科奧里塔體育會=>zh-tw:蒙特賈爾迪諾鮮花 (足球隊);拉科奧里塔體育會=>zh-sg:蒙特贾尔迪诺鲜花 (足球队);拉科奧里塔體育會=>zh-my:蒙特贾尔迪诺鲜花 (足球队);拉科奧里塔體育會=>zh-mo:蒙特賈爾迪諾鮮花 (足球隊);"
+    },
+    {
+      "original": "S.P. La Fiorita",
+      "conv": "拉科奧里塔=>zh-hans:蒙特贾尔迪诺鲜花;拉科奧里塔=>zh-cn:蒙特贾尔迪诺鲜花;拉科奧里塔=>zh-hant:蒙特賈爾迪諾鮮花;拉科奧里塔=>zh-hk:蒙特賈爾迪諾鮮花;拉科奧里塔=>zh-tw:蒙特賈爾迪諾鮮花;拉科奧里塔=>zh-sg:蒙特贾尔迪诺鲜花;拉科奧里塔=>zh-my:蒙特贾尔迪诺鲜花;"
+    },
+    {
+      "original": "La Fiorita",
+      "conv": "zh:拉科奧里塔;zh-hans:蒙特贾尔迪诺鲜花;zh-cn:蒙特贾尔迪诺鲜花;zh-hant:蒙特賈爾迪諾鮮花;zh-hk:蒙特賈爾迪諾鮮花;zh-tw:蒙特賈爾迪諾鮮花;zh-sg:蒙特贾尔迪诺鲜花;zh-my:蒙特贾尔迪诺鲜花;"
+    },
+    {
+      "original": "S.P. Tre Fiori",
+      "conv": "泰科奧里足球會=>zh-hans:菲奥伦蒂诺三花 (足球队);泰科奧里足球會=>zh-hant:菲奧倫蒂諾三花 (足球隊);泰科奧里足球會=>zh-cn:菲奥伦蒂诺三花 (足球队);泰科奧里足球會=>zh-hk:三花足球會;泰科奧里足球會=>zh-tw:菲奧倫蒂諾三花 (足球隊);泰科奧里足球會=>zh-mo:菲奧倫蒂諾三花 (足球隊);泰科奧里足球會=>zh-sg:菲奥伦蒂诺三花 (足球队);泰科奧里足球會=>zh-my:菲奥伦蒂诺三花 (足球队);zh-hans:菲奥伦蒂诺三花 (足球队);zh-hant:菲奧倫蒂諾三花 (足球隊);"
+    },
+    {
+      "original": "Tre Fiori",
+      "conv": "泰科奧里=>zh-hans:三花;泰科奧里=>zh-hant:三花;泰科奧里=>zh-cn:菲奥伦蒂诺三花;泰科奧里=>zh-hk:菲奧倫蒂諾三花;泰科奧里=>zh-tw:菲奧倫蒂諾三花;泰科奧里=>zh-mo:菲奧倫蒂諾三花;zh-hans:三花;zh-hant:三花;zh-hk:菲奧倫蒂諾三花;zh-tw:菲奧倫蒂諾三花;zh-mo:菲奧倫蒂諾三花;"
+    },
+    {
+      "original": "Tre Fiori",
+      "conv": "特费奥里=>zh-hans:三花;特费奥里=>zh-hant:三花;特费奥里=>zh-cn:菲奥伦蒂诺三花;特里費奧里=>zh-hk:菲奧倫蒂諾三花;特里費奧里=>zh-tw:菲奧倫蒂諾三花;特里費奧里=>zh-mo:菲奧倫蒂諾三花;zh-hans:三花;zh-hant:三花;zh-hk:菲奧倫蒂諾三花;zh-tw:菲奧倫蒂諾三花;zh-mo:菲奧倫蒂諾三花;"
+    },
+    {
+      "original": "Tre Fiori",
+      "conv": "zh:泰科奧里;zh-hans:三花;zh-hant:三花;zh-cn:菲奥伦蒂诺三花;zh-hk:菲奧倫蒂諾三花;zh-tw:菲奧倫蒂諾三花;zh-mo:菲奧倫蒂諾三花;;"
+    },
+    {
+      "original": "Tre Fiori",
+      "conv": "zh:特里費奧里;zh-hans:三花;zh-hant:三花;zh-cn:菲奥伦蒂诺三花;zh-hk:菲奧倫蒂諾三花;zh-tw:菲奧倫蒂諾三花;zh-mo:菲奧倫蒂諾三花;;"
+    },
+    {
+      "original": "Tre Fiori",
+      "conv": "zh:特费奧里;zh-hans:三花;zh-hant:三花;zh-cn:菲奥伦蒂诺三花;zh-hk:菲奧倫蒂諾三花;zh-tw:菲奧倫蒂諾三花;zh-mo:菲奧倫蒂諾三花;zh-sg:菲奥伦蒂诺三花zh-my:菲奥伦蒂诺三花;"
+    },
+    {
+      "original": "Tre Fiori",
+      "conv": "zh:三花;zh-hans:三花;zh-hant:三花;"
+    },
+    {
+      "original": "Libertas",
+      "conv": "zh:自由;zh-hans:自由;zh-hant:自由;"
+    },
+    {
+      "original": "Libertas",
+      "conv": "zh:自由;zh-hans:自由;zh-hant:自由;"
+    },
+    {
+      "original": "Libertas",
+      "conv": "zh:利伯達斯;zh-hans:博尔戈马焦雷自由;zh-hant:博爾戈馬焦雷自由;zh-cn:博尔戈马焦雷自由;zh-sg:博尔戈马焦雷自由;zh-hk:博爾戈馬焦雷自由;zh-tw:博爾戈馬焦雷自由;zh-mo:博爾戈馬焦雷自由;zh-my:博尔戈马焦雷自由;"
+    },
+    {
+      "original": "Libertas",
+      "conv": "zh:利贝塔斯;zh-hans:博尔戈马焦雷自由;zh-hant:博爾戈馬焦雷自由;zh-cn:博尔戈马焦雷自由;zh-sg:博尔戈马焦雷自由;zh-hk:博爾戈馬焦雷自由;zh-tw:博爾戈馬焦雷自由;zh-mo:博爾戈馬焦雷自由;zh-my:博尔戈马焦雷自由;"
+    },
+    {
+      "original": "Libertas",
+      "conv": "zh:利伯達斯足球會;zh-hans:博尔戈马焦雷自由 (足球队);zh-hant:博爾戈馬焦雷自由 (足球隊);"
+    },
+    {
+      "original": "Delfín S.C.",
+      "conv": "德芬体育俱乐部=>zh-hans:海豚体育俱乐部;德芬体育俱乐部=>zh-hant:海豚體育俱樂部;德芬体育俱乐部=>zh-cn:曼塔海豚体育俱乐部;德芬体育俱乐部=>zh-sg:海豚体育俱乐部;zh-hans:海豚体育俱乐部;zh-hant:海豚體育俱樂部;zh-cn:曼塔海豚体育俱乐部;"
+    },
+    {
+      "original": "Montegiardino",
+      "conv": "zh:蒙特贾尔迪诺;zh-hans:蒙特贾尔迪诺;zh-hant:蒙特賈爾迪諾;"
+    },
+    {
+      "original": "Montegiardino",
+      "conv": "zh:蒙泰吉阿迪诺;zh-hans:蒙特贾尔迪诺;zh-hant:蒙特賈爾迪諾;"
+    },
+    {
+      "original": "Montegiardino",
+      "conv": "蒙泰吉阿迪诺=>zh-hans:蒙特贾尔迪诺;蒙泰吉阿迪诺=>zh-hant:蒙特賈爾迪諾;zh-hans:蒙特贾尔迪诺;zh-hant:蒙特賈爾迪諾;"
+    }
+  ]
+}

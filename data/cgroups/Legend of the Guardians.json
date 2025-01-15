@@ -1,11 +1,11 @@
 {
   "name": "Legend of the Guardians",
-  "description": "-{zh-hans:猫头鹰王国：守卫者传奇;zh-hant:貓頭鷹守護神;zh-cn:猫头鹰王国：守卫者传奇;zh-hk:守護神傳奇;zh-tw:貓頭鷹守護神;}-",
+  "description": "-{zh-cn:猫头鹰王国：守卫者传奇;zh-hant:貓頭鷹守護神;zh-cn:猫头鹰王国：守卫者传奇;zh-hk:守護神傳奇;zh-sg:猫头鹰守护神;zh-tw:貓頭鷹守護神;}-",
   "path": "Template:CGroup/Legend of the Guardians",
   "rules": [
     {
       "original": "Legend of the Guardians",
-      "conv": "zh-cn:猫头鹰王国：守卫者传奇;zh-hk:守護神傳奇;zh-tw:貓頭鷹守護神;"
+      "conv": "zh-cn:猫头鹰王国：守卫者传奇;zh-hk:守護神傳奇;zh-sg:猫头鹰守护神;zh-tw:貓頭鷹守護神;"
     },
     {
       "original": "Ga'Hoole",
@@ -46,10 +46,6 @@
     {
       "original": "Grimble",
       "conv": "zh-cn:格林布尔;zh-tw:孤伶包"
-    },
-    {
-      "original": "",
-      "conv": "zh:中文;zh-cn:简体;zh-hant:繁體;zh-cn:大陆;zh-tw:臺灣;zh-hk:香港;zh-sg:新馬;zh-mo:香港;"
     }
   ]
 }

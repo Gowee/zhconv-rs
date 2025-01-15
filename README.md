@@ -3,18 +3,26 @@
 [![Crates.io](https://img.shields.io/crates/v/zhconv.svg)](https://crates.io/crates/zhconv)
 [![PyPI version](https://img.shields.io/pypi/v/zhconv-rs)](https://pypi.org/project/zhconv-rs/)
 [![NPM version](https://badge.fury.io/js/zhconv.svg)](https://www.npmjs.com/package/zhconv)
+
 # zhconv-rs 中文简繁及地區詞轉換
-zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), built on the top of rulesets from MediaWiki/Wikipedia and OpenCC.
 
-The implementation is powered by the [Aho-Corasick](https://github.com/BurntSushi/aho-corasick) automaton, ensuring linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
+zhconv-rs converts Chinese text among traditional/simplified scripts or regional variants (e.g. `zh-TW <-> zh-CN <-> zh-HK <-> zh-Hans <-> zh-Hant`), backed by rulesets from MediaWiki/Wikipedia and OpenCC.
 
-🔗 **Web App: https://zhconv.pages.dev** (powered by WASM)
+It leverages the [Aho-Corasick](https://github.com/daac-tools/daachorse) algorithm for linear time complexity with respect to the length of input text and conversion rules (`O(n+m)`), processing dozens of MiBs text per second.
+
+🔗 **Web app (Wasm):** https://zhconv.pages.dev (w/ OpenCC dicts)
 
 ⚙️ **Cli**: `cargo install zhconv-cli` or check [releases](https://github.com/Gowee/zhconv-rs/releases).
 
-🦀 **Rust Crate**: `cargo add zhconv` (see doc comments and [cli/](https://github.com/Gowee/zhconv-rs/tree/main/cli) for examples)
+🦀 **Rust crate**: `cargo add zhconv` (check [docs](https://docs.rs/zhconv/latest/zhconv/) for examples)
 
-🐍 **Python Package via PyO3**: `pip install zhconv-rs` (WASM with wheels)
+🐍 **Python package w/ wheels**: `pip install zhconv-rs` or `pip install zhconv-rs-opencc` (w/ OpenCC dicts)
+
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/gowee/zhconv-rs">
+    <img src="https://deploy.workers.cloudflare.com/button" align="right" alt="Deploy to Cloudflare Workers">
+</a>
+
+🧩 **API demo**: https://zhconv.bamboo.workers.dev
 
 <details open>
  <summary>Python snippet</summary>
@@ -36,11 +44,12 @@ import io
 convert = make_converter("zh-hans", io.StringIO("䖏 处\n罨畫 掩画")) # or path to rule file
 assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去湖州近 几处楼台掩画间"
 ```
+
 </details>
 
-**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (WASM, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
+**JS (Webpack)**: `npm install zhconv` or `yarn add zhconv` (Wasm, [instructions](https://rustwasm.github.io/wasm-pack/book/tutorials/npm-browser-packages/using-your-library.html))
 
-**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (WASM)
+**JS in browser**: https://cdn.jsdelivr.net/npm/zhconv-web@latest (Wasm)
 
 <details>
  <summary>HTML snippet</summary>
@@ -65,6 +74,7 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
     run();
 </script>
 ```
+
 </details>
 
 ## Supported variants
@@ -86,48 +96,106 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 *Note:*  `zh-TW` and `zh-HK` are based on `zh-Hant`. `zh-CN` are based on `zh-Hans`. Currently, `zh-MO` shares the same rulesets with `zh-HK` unless additional rules are manually configured; `zh-MY` and `zh-SG` shares the same rulesets with `zh-CN` unless additional rules are manually configured. 
 </details>
 
+## Performance
+
+`cargo bench` on `AMD EPYC 7B13` (GitPod) by v0.3:
+
+<details>
+<summary>w/ default features</summary>
+
+```
+load/zh2Hant            time:   [4.6368 ms 4.6862 ms 4.7595 ms]
+load/zh2Hans            time:   [2.2670 ms 2.2891 ms 2.3138 ms]
+load/zh2TW              time:   [4.7115 ms 4.7543 ms 4.8001 ms]
+load/zh2HK              time:   [5.4438 ms 5.5474 ms 5.6573 ms]
+load/zh2MO              time:   [4.9503 ms 4.9673 ms 4.9850 ms]
+load/zh2CN              time:   [3.0809 ms 3.1046 ms 3.1323 ms]
+load/zh2SG              time:   [3.0543 ms 3.0637 ms 3.0737 ms]
+load/zh2MY              time:   [3.0514 ms 3.0640 ms 3.0787 ms]
+zh2CN wikitext basic    time:   [385.95 µs 388.53 µs 391.39 µs]
+zh2TW wikitext basic    time:   [393.70 µs 395.16 µs 396.89 µs]
+zh2TW wikitext extended time:   [1.5105 ms 1.5186 ms 1.5271 ms]
+zh2CN 天乾物燥          time:   [46.970 ns 47.312 ns 47.721 ns]
+zh2TW data54k           time:   [200.72 µs 201.54 µs 202.41 µs]
+zh2CN data54k           time:   [231.55 µs 232.86 µs 234.30 µs]
+zh2Hant data689k        time:   [2.0330 ms 2.0513 ms 2.0745 ms]
+zh2TW data689k          time:   [1.9710 ms 1.9790 ms 1.9881 ms]
+zh2Hant data3185k       time:   [15.199 ms 15.260 ms 15.332 ms]
+zh2TW data3185k         time:   [15.346 ms 15.464 ms 15.629 ms]
+zh2TW data55m           time:   [329.54 ms 330.53 ms 331.58 ms]
+is_hans data55k         time:   [404.73 µs 407.11 µs 409.59 µs]
+infer_variant data55k   time:   [1.0468 ms 1.0515 ms 1.0570 ms]
+is_hans data3185k       time:   [22.442 ms 22.589 ms 22.757 ms]
+infer_variant data3185k time:   [60.205 ms 60.412 ms 60.627 ms]
+``` 
+</details>
+
+<details>
+<summary>w/ the additional non-default `opencc` feature</summary>
+
+```
+load/zh2Hant            time:   [22.074 ms 22.338 ms 22.624 ms]
+load/zh2Hans            time:   [2.7913 ms 2.8126 ms 2.8355 ms]
+load/zh2TW              time:   [23.068 ms 23.286 ms 23.520 ms]
+load/zh2HK              time:   [23.358 ms 23.630 ms 23.929 ms]
+load/zh2MO              time:   [23.363 ms 23.627 ms 23.913 ms]
+load/zh2CN              time:   [3.6778 ms 3.7222 ms 3.7722 ms]
+load/zh2SG              time:   [3.6522 ms 3.6848 ms 3.7202 ms]
+load/zh2MY              time:   [3.6642 ms 3.7079 ms 3.7545 ms]
+zh2CN wikitext basic    time:   [396.17 µs 402.51 µs 409.36 µs]
+zh2TW wikitext basic    time:   [442.16 µs 447.53 µs 453.27 µs]
+zh2TW wikitext extended time:   [1.5795 ms 1.6007 ms 1.6233 ms]
+zh2CN 天乾物燥          time:   [47.884 ns 48.878 ns 49.953 ns]
+zh2TW data54k           time:   [255.25 µs 259.01 µs 262.92 µs]
+zh2CN data54k           time:   [233.74 µs 236.99 µs 240.67 µs]
+zh2Hant data689k        time:   [3.9696 ms 4.0005 ms 4.0327 ms]
+zh2TW data689k          time:   [3.4593 ms 3.4896 ms 3.5203 ms]
+zh2Hant data3185k       time:   [27.710 ms 27.955 ms 28.206 ms]
+zh2TW data3185k         time:   [30.298 ms 30.858 ms 31.428 ms]
+zh2TW data55m           time:   [500.95 ms 515.80 ms 531.34 ms]
+is_hans data55k         time:   [461.22 µs 470.99 µs 481.20 µs]
+infer_variant data55k   time:   [1.1669 ms 1.1759 ms 1.1852 ms]
+is_hans data3185k       time:   [26.609 ms 26.964 ms 27.385 ms]
+infer_variant data3185k time:   [74.878 ms 76.262 ms 77.818 ms]
+```
+
+</details>
 <!--
+## Upstream rulesets
+
+zhconv-rs does not maintain any conversion rulesets/dicts. Instead, it relies on two upstream sources: MediaWiki and OpenCC. These rulesets are merged and compiled into an automaton at compile-time for optimal performance, which means rulesets cannot be dynamically selected at runtime. However, it is possible to load custom rulesets manually.
+
+By default, only MediaWiki rulesets are used. For a Rust project, to enable additional OpenCC rulesets, activate the `opencc` feature: `zhconv = { version = "...", features = [ "opencc" ] }`. For a Python project, there are two standalone packages `zhconv-rs` (w/ MediaWiki rulesets only) and `zhconv-rs-opencc` (w/ additional OpenCC rulesets) to be installed as needed. For the API on Workers, check [worker.yml](.github/workflows/worker.yml) for instructions on configuring OpenCC rulesets. The web app is always shiped with additional OpenCC rulesets for now.-->
+
+**Note:** Enabling OpenCC rulesets increases the build size by several MiBs and noticeably impacts performance, even though it still outperforms other implementations.
+
+<!--
+## Differences with other converters
+* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs just takes conversion tables listed in [`ZhConversion.php`](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14). MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
+* OpenCC: The [conversion rulesets](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary) of OpenCC is independent of MediaWiki. The core [conversion implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. However, OpenCC supports pre-segmentation and maintains multiple rulesets which are applied successively. By contrast, the Aho-Corasick-powered zhconv-rs merges rulesets from MediaWiki and OpenCC in compile time and converts text in single-pass linear time, resulting in much more efficiency. Though, conversion results may differ in some cases.
 ## Comparisions with other tools
 - OpenCC: Dict::MatchPrefix (iterating from maxlen to minlen character by character to match) [https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Dict.cpp#L25](MatchPrefix), [segments converter](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) [segmentizer](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/MaxMatchSegmentation.cpp#L34)
 - zhConversion.php: strtr (iterating from maxlen to minlen for every known key length to match) [https://github.dev/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974]
 - zhconv-rs regex-based automaton
 -->
 
-## Performance
-`cargo bench` on `Intel(R) Xeon(R) CPU @ 2.80GHz` (GitPod), without parsing inline conversion rules:
-```
-load zh2Hant            time:   [45.442 ms 45.946 ms 46.459 ms]
-load zh2Hans            time:   [8.1378 ms 8.3787 ms 8.6414 ms]
-load zh2TW              time:   [60.209 ms 61.261 ms 62.407 ms]
-load zh2HK              time:   [89.457 ms 90.847 ms 92.297 ms]
-load zh2MO              time:   [96.670 ms 98.063 ms 99.586 ms]
-load zh2CN              time:   [27.850 ms 28.520 ms 29.240 ms]
-load zh2SG              time:   [28.175 ms 28.963 ms 29.796 ms]
-load zh2MY              time:   [27.142 ms 27.635 ms 28.143 ms]
-zh2TW data54k           time:   [546.10 us 553.14 us 561.24 us]
-zh2CN data54k           time:   [504.34 us 511.22 us 518.59 us]
-zh2Hant data689k        time:   [3.4375 ms 3.5182 ms 3.6013 ms]
-zh2TW data689k          time:   [3.6062 ms 3.6784 ms 3.7545 ms]
-zh2Hant data3185k       time:   [62.457 ms 64.257 ms 66.099 ms]
-zh2TW data3185k         time:   [60.217 ms 61.348 ms 62.556 ms]
-zh2TW data55m           time:   [1.0773 s 1.0872 s 1.0976 s]
-``` 
-
-The benchmark was performed on a previous version that had only Mediawiki rulesets. In the newer version, with OpenCC rulesets activated by default, the performance may degrade ~2x.
-
-## Differences with other converters
-* `ZhConver{sion,ter}.php` of MediaWiki: zhconv-rs just takes conversion tables listed in [`ZhConversion.php`](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/data/ZhConversion.php#L14). MediaWiki relies on the inefficient PHP built-in function [`strtr`](https://github.com/php/php-src/blob/217fd932fa57d746ea4786b01d49321199a2f3d5/ext/standard/string.c#L2974). Under the basic mode, zhconv-rs guarantees linear time complexity (`T = O(n+m)` instead of `O(nm)`) and single-pass scanning of input text. Optionally, zhconv-rs supports the same conversion rule syntax with MediaWiki.
-* OpenCC: The [conversion rulesets](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary) of OpenCC is independent of MediaWiki. The core [conversion implementation](https://github.dev/BYVoid/OpenCC/blob/21995f5ea058441423aaff3ee89b0a5d4747674c/src/Conversion.cpp#L27) of OpenCC is kinda similar to the aforementioned `strtr`. However, OpenCC supports pre-segmentation and maintains multiple rulesets which are applied successively. By contrast, the Aho-Corasick-powered zhconv-rs merges rulesets from MediaWiki and OpenCC in compile time and converts text in single-pass linear time, resulting in much more efficiency. Though, conversion results may differ in some cases.
-
 ## Limitations
-The converter utilizes an aho-corasick automaton with the leftmost-longest matching strategy. This strategy gives priority to the leftmost-matched words or phrases. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. The strategy is generally effective but may occasionally lead to unexpected results.
 
-Futuremore, since an automaton is infeasible to update after being built, the converter must (re)build it from scratch for every ruleset. The automata for built-in rulesets (i.e. conversion tables) are built on demand and cached by default. However, if a short input text contains global conversion rules (in MediaWiki syntax like -{H|zh-hans:鹿|zh-hant:马}-), this process incurs a significant overhead, potentially being less efficient than a naive implementation.
+### Accuracy
+
+A rule-based converter cannot capture every possible linguistic nuance, resulting in limited accuracy. Besides, the converter employs a leftmost-longest matching strategy, prioritizing to the earliest and longest matches in the text. For instance, if a ruleset includes both `干 -> 幹` and `天干物燥 -> 天乾物燥`, the converter would prioritize `天乾物燥` because `天干物燥` gets matched earlier compared to `干` at a later position. This approach generally produces accurate results but may occasionally lead to incorrect conversions.
+
+### Wikitext support
+
+While the implementation supports most MediaWiki conversion rules, it is not fully compliant with the original MediaWiki implementation.
+
+For wikitext inputs containing global conversion rules (e.g., `-{H|zh-hans:鹿|zh-hant:马}-` in MediaWiki syntax), the implementation's time complexity may degrade to `O(n*m)` in the worst case, where `n` is the input text length and `m` is the maximum length of source words in the ruleset. This is equivalent to a brute-force approach.
 
 ## Credits
-All rulesets that power the converter come from the [MediaWiki](https://github.com/wikimedia/mediawiki) project and [OpenCC](https://github.com/BYVoid/OpenCC).
 
-The project takes the following projects/pages as references:
+Rulesets/Dictionaries: [MediaWiki](https://github.com/wikimedia/mediawiki) and [OpenCC](https://github.com/BYVoid/OpenCC).
+
+References:
 - https://github.com/gumblex/zhconv : Python implementation of `zhConver{ter,sion}.php`.
 - https://github.com/BYVoid/OpenCC/ : Widely adopted Chinese converter.
 - https://zh.wikipedia.org/wiki/Wikipedia:字詞轉換處理
@@ -135,9 +203,3 @@ The project takes the following projects/pages as references:
 - https://github.com/wikimedia/mediawiki/blob/master/includes/language/LanguageConverter.php
 <!--- https://www.hankcs.com/nlp/simplified-traditional-chinese-conversion.html-->
 
-## TODO
-- [x] Support [Module:CGroup](https://zh.wikipedia.org/wiki/Module:CGroup)
-- [ ] Propogate error properly with Anyhow and thiserror
-- [x] Python lib
-- [x] More exmaples in README
-- [x] Add rulesets from OpenCC

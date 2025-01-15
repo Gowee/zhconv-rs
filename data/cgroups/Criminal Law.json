@@ -1,0 +1,23 @@
+{
+  "name": "Criminal Law",
+  "description": "刑法",
+  "path": "Module:CGroup/Criminal Law",
+  "rules": [
+    {
+      "original": "Putativnotwehrexzess",
+      "conv": "zh-hant:誤想防衛;zh-cn:假想防卫"
+    },
+    {
+      "original": "Absicht",
+      "conv": "zh-hant:意圖;zh-cn:目的"
+    },
+    {
+      "original": "Notstand",
+      "conv": "zh-hant:緊急避難;zh-cn:紧急避险"
+    },
+    {
+      "original": "Nebenstrafe",
+      "conv": "zh-hant:從刑;zh-cn:附加刑"
+    }
+  ]
+}

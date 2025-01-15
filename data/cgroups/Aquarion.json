@@ -1,0 +1,43 @@
+{
+  "name": "Aquarion",
+  "description": "-{zh-hans:创圣的亚库艾里翁; zh-cn:创圣的大天使; zh-hant:創聖的亞庫艾里翁; zh-tw:創聖機械天使; zh-hk:創聖大天使; zh-mo:創聖大天使}-系列",
+  "path": "Template:CGroup/Aquarion",
+  "rules": [
+    {
+      "original": "創聖のアクエリオン",
+      "conv": "zh-hans:创圣的亚库艾里翁; zh-cn:创圣的大天使; zh-hant:創聖的亞庫艾里翁; zh-tw:創聖機械天使; zh-hk:創聖大天使; zh-mo:創聖大天使;"
+    },
+    {
+      "original": "創星のアクエリオン",
+      "conv": "zh-hans:创星的亚库艾里翁; zh-cn:创星的大天使; zh-hant:創星的亞庫艾里翁; zh-tw:創星機械天使; zh-hk:創星大天使; zh-mo:創星大天使;"
+    },
+    {
+      "original": "劇場版アクエリオン",
+      "conv": "zh-hans:剧场版 机械天使; zh-hant:劇場版 亞庫艾里翁; zh-tw:劇場版 機械天使; zh-hk:劇場版 Aquarion"
+    },
+    {
+      "original": "アクエリオンEVOL",
+      "conv": "zh-hans:创圣的亚库艾里翁EVOL; zh-cn:创圣的大天使EVOL; zh-hant:創聖的亞庫艾里翁EVOL; zh-tw:創聖機械天使EVOL; zh-hk:創聖大天使EVOL; zh-mo:創聖大天使EVOL;"
+    },
+    {
+      "original": "創勢のアクエリオンEVOL",
+      "conv": "zh-hans:创势的亚库艾里翁EVOL; zh-cn:创势的大天使EVOL; zh-hant:創勢的亞庫艾里翁EVOL; zh-tw:創勢機械天使EVOL; zh-hk:創勢大天使EVOL; zh-mo:創勢大天使EVOL;"
+    },
+    {
+      "original": "アクエリオンロゴス",
+      "conv": "zh:Aquarion Logos;zh-hans:创圣的亚库艾里翁LOGOS; zh-cn:创圣的大天使LOGOS; zh-hant:創聖的亞庫艾里翁LOGOS; zh-tw:創聖機械天使 LOGOS; zh-hk:創聖大天使LOGOS; zh-mo:創聖大天使LOGOS;"
+    },
+    {
+      "original": "想星のアクエリオン",
+      "conv": "zh:想星的Aquarion; zh-hans:想星的亚库艾里翁; zh-cn:想星的大天使; zh-hant:想星的亞庫艾里翁; zh-tw:想星機械天使; zh-hk:想星大天使; zh-mo:想星大天使;"
+    },
+    {
+      "original": "アクエリオン",
+      "conv": "亚库艾里翁=>zh-hans:亚库艾里翁;亚库艾里翁=>zh-cn:亚库艾里翁;亚库艾里翁=>zh-tw:亞庫艾里翁;亚库艾里翁=>zh-hk:Aquarion;"
+    },
+    {
+      "original": "アクエリオン",
+      "conv": "亞庫艾里翁=>zh-hans:亚库艾里翁;亞庫艾里翁=>zh-cn:亚库艾里翁;亞庫艾里翁=>zh-tw:亞庫艾里翁;亞庫艾里翁=>zh-hk:Aquarion;"
+    }
+  ]
+}
