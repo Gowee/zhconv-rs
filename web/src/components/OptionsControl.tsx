@@ -61,6 +61,7 @@ function OptionsControl(
   useEffect(() => {
     const s = JSON.stringify(parsingInline);
     localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
+    console.log(convertButtonRef, convertButtonRef.current)
     convertButtonRef.current?.click();
   }, [parsingInline]);
   return (
