@@ -32,7 +32,7 @@ function ConvertButton({
   ref,
 }: {
   onConvert: (target: Variant) => void;
-  ref: ForwardedRef<HTMLButtonElement>;
+  ref: ForwardedRef<any>;
 }) {
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLDivElement>(null);

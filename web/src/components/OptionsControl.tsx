@@ -34,7 +34,7 @@ function OptionsControl(
   },
   ref: ForwardedRef<any>
 ) {
-  const convertButtonRef = useRef<HTMLButtonElement>();
+  const convertButtonRef = useRef(null as any);
   const [cgroups, setCGroups] = useState({} as { [name: string]: string });
   const [activatedCGroups, setActivatedCGroups] = useState(() => {
     return JSON.parse(
