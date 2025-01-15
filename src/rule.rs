@@ -295,6 +295,7 @@ impl Display for Conv {
 impl FromStr for Conv {
     type Err = ();
 
+    #[allow(clippy::needless_as_bytes)]
     fn from_str(s: &str) -> Result<Conv, Self::Err> {
         let s = s.trim();
         if s.is_empty() {
