@@ -1,4 +1,10 @@
-import React, { useEffect, useState, useRef, forwardRef, ForwardedRef } from "react";
+import React, {
+  useEffect,
+  useState,
+  useRef,
+  forwardRef,
+  ForwardedRef,
+} from "react";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
@@ -27,13 +33,14 @@ const variants = {
 };
 type Variant = keyof typeof variants;
 
-function ConvertButton({
-  onConvert: handleConvert,
-  ref,
-}: {
-  onConvert: (target: Variant) => void;
-  ref: ForwardedRef<any>;
-}) {
+function ConvertButton(
+  {
+    onConvert: handleConvert,
+  }: {
+    onConvert: (target: Variant) => void;
+  },
+  ref: ForwardedRef<any>
+) {
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLDivElement>(null);
   const [selectedVariant, setSelectedVariant] = useState<Variant>(() => {

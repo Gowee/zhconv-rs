@@ -61,7 +61,7 @@ function OptionsControl(
   useEffect(() => {
     const s = JSON.stringify(parsingInline);
     localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
-    console.log(convertButtonRef, convertButtonRef.current)
+    console.log(convertButtonRef, convertButtonRef.current);
     convertButtonRef.current?.click();
   }, [parsingInline]);
   return (
@@ -86,7 +86,8 @@ function OptionsControl(
             <Tooltip
               title={
                 <>
-                  Parse and apply inline rules in the MediaWiki LanguageConverter syntax
+                  Parse and apply inline rules in the MediaWiki
+                  LanguageConverter syntax
                   <br />/ 解析並應用文本中的 MediaWiki 語言轉換規則
                 </>
               }
@@ -114,6 +115,7 @@ function OptionsControl(
           </Grid>
           <Grid item>
             <ConvertButton
+              ref={convertButtonRef}
               onConvert={(target) =>
                 handleConvert(
                   target,
@@ -121,7 +123,6 @@ function OptionsControl(
                   activatedCGroups.map((name) => cgroups[name]).join("\n")
                 )
               }
-              ref={convertButtonRef}
             />
           </Grid>
         </Grid>
