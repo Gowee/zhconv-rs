@@ -35,6 +35,7 @@ function OptionsControl(
   ref: ForwardedRef<any>
 ) {
   const convertButtonRef = useRef(null as any);
+  const isMounting = useRef(true);
   const [cgroups, setCGroups] = useState({} as { [name: string]: string });
   const [activatedCGroups, setActivatedCGroups] = useState(() => {
     return JSON.parse(
@@ -54,11 +55,18 @@ function OptionsControl(
     loadCGroups();
   }, []);
   useEffect(() => {
+    if (isMounting.current) {
+      isMounting.current = false;
+      return;
+    }
     const s = JSON.stringify(activatedCGroups);
     localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
-    convertButtonRef.current?.click();
   }, [activatedCGroups]);
   useEffect(() => {
+    if (isMounting.current) {
+      // isMounting.current = false;
+      return;
+    }
     const s = JSON.stringify(parsingInline);
     localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
     console.log(convertButtonRef, convertButtonRef.current);

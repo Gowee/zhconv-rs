@@ -41,6 +41,7 @@ function ConvertButton(
   },
   ref: ForwardedRef<any>
 ) {
+  const isMounting = useRef(true);
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLDivElement>(null);
   const [selectedVariant, setSelectedVariant] = useState<Variant>(() => {
@@ -67,11 +68,15 @@ function ConvertButton(
     setOpen(false);
   };
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => handleConvert(selectedVariant), [selectedVariant]);
   useEffect(() => {
+    if (isMounting.current) {
+      isMounting.current = false;
+      return;
+    }
+    handleConvert(selectedVariant);
     localStorage.setItem(`${PACKAGE.name}-selected-variant`, selectedVariant);
     window.history.replaceState({}, "", `#${selectedVariant}`);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedVariant]);
 
   const handleToggle = () => {
