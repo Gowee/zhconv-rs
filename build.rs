@@ -466,7 +466,7 @@ mod opencc {
                     continue;
                 }
                 let ts: Vec<_> = ts.split_whitespace().collect();
-                if !(ts.len() > 1 && ts.iter().any(|&t| t == f)) {
+                if !(ts.len() > 1 && ts.contains(&f)) {
                     // be conservative when converting
                     // e.g. 范 -> 範 范 can be simply eliminated
                     out_conv.insert(f.to_owned(), ts[0].to_owned());

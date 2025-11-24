@@ -183,6 +183,7 @@ impl<T> VariantMap<T> {
 impl FromStr for VariantMap<String> {
     type Err = (); // TODO: better error propagation
 
+    #[allow(clippy::needless_as_bytes)]
     fn from_str(s: &str) -> Result<VariantMap<String>, Self::Err> {
         let s = s.trim();
         let mut map = HashMap::new();
