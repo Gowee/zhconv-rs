@@ -76,7 +76,7 @@ fn main() -> io::Result<()> {
     let mut diagnostics_file =
         File::create(Path::new(&env::var_os("OUT_DIR").unwrap()).join("zhconv-diagnostics.txt"))?;
     macro_rules! log_diag {
-        ($fmt:expr $(, $arg:expr)*) => {
+        ($fmt:expr_2021 $(, $arg:expr_2021)*) => {
             write!(diagnostics_file, $fmt $(, $arg)*)
         };
     }

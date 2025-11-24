@@ -6,13 +6,13 @@ use std::path::{Path, PathBuf};
 use anyhow::{Error, Result};
 use log::info;
 use structopt::{
-    clap::AppSettings::{ColoredHelp, DeriveDisplayOrder},
     StructOpt,
+    clap::AppSettings::{ColoredHelp, DeriveDisplayOrder},
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
 use zhconv::get_builtin_tables;
-use zhconv::{get_builtin_converter, rule::Conv, Variant, ZhConverterBuilder};
+use zhconv::{Variant, ZhConverterBuilder, get_builtin_converter, rule::Conv};
 
 #[derive(StructOpt, Debug)]
 #[structopt(name = "zhconv", about = "Convert among Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
