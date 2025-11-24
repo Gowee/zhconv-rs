@@ -1,5 +1,7 @@
 use std::hint::black_box;
+
 use criterion::{criterion_group, criterion_main, Criterion};
+
 use zhconv::{converters::deserialize_converter, tables::*, Variant};
 
 const WIKITEXT: &str = include_str!("wikitext.txt");
