@@ -91,11 +91,4 @@ zstd = { version = "0.13", optional = true }
 harness = false
 name = "zhconv_benchmark"
 
-[profile.release]
-# Strip fixes web app building issues with old webpack versions.
-# It won't be effective when the crate is used as a library.
-# https://github.com/wasm-bindgen/wasm-bindgen/issues/4211
-# https://github.com/webpack/webpack/issues/15566#issuecomment-2421927813
-strip = true
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

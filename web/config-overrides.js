@@ -4,6 +4,11 @@ const path = require('path');
 const { removeModuleScopePlugin } = require('customize-cra');
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 
+// Strip fixes web app building issues with old webpack versions.
+// https://github.com/wasm-bindgen/wasm-bindgen/issues/4211
+// https://github.com/webpack/webpack/issues/15566#issuecomment-2421927813
+process.env.RUSTFLAGS = "-C strip";
+
 module.exports = function override(config, env) {
   config.plugins.push(
     // new MonacoWebpackPlugin({
