@@ -73,11 +73,36 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
 ];
 
 fn main() -> io::Result<()> {
+    let mut diagnostics_file =
+        File::create(Path::new(&env::var_os("OUT_DIR").unwrap()).join("zhconv-diagnostics.txt"))?;
+    macro_rules! log_diag {
+        ($fmt:expr $(, $arg:expr)*) => {
+            write!(diagnostics_file, $fmt $(, $arg)*)
+        };
+    }
+    log_diag!("=== BUILDING ===\n")?;
+    for (k, _v) in std::env::vars() {
+        if k.starts_with("CARGO_FEATURE_") {
+            log_diag!("feature: {}\n", k.strip_prefix("CARGO_FEATURE_").unwrap())?;
+        }
+    }
+    log_diag!("MEDIAWIKI_COMMIT={}\n", MEDIAWIKI_COMMIT)?;
+    #[cfg(feature = "opencc")]
+    log_diag!("OPENCC_COMMIT={}\n", OPENCC_COMMIT)?;
+    let start_time = std::time::Instant::now();
+
+    // Load Mediawiki rulesets
     let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
     let mut zhconvs = parse_mediawiki(&zhconv);
     #[allow(unused_variables, unused_mut)]
     for (name, mut pairs) in zhconvs.iter_mut() {
-        // Load and append OpenCC rulesets to the Mediawiki ones
+        write!(
+            diagnostics_file,
+            "Processing {}: MediaWiki rules = {}",
+            name,
+            pairs.len()
+        )?;
+        // Load and append OpenCC rulesets
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
 
         // Note: OpenCC conversion procededures take multi-pass for chaining rulesets.
@@ -168,9 +193,13 @@ fn main() -> io::Result<()> {
             "ZH_TO_MY" => {}
             _ => (),
         }
+        #[cfg(feature = "opencc")]
+        log_diag!(", OpenCC merged = {}", pairs.len())?;
 
         // longer phrases come first; lexicographically smaller phrases come first
         sort_and_dedup(pairs);
+
+        log_diag!(", sorted and deduped = {}\n", pairs.len())?;
     }
 
     let hans_pairs = zhconvs.remove("ZH_TO_HANS").unwrap();
@@ -189,6 +218,7 @@ fn main() -> io::Result<()> {
     let mut hans_cn_pairs = hans_pairs;
     hans_cn_pairs.extend(cn_pairs);
     write_daac_file("ZH_TO_HANS_CN", &hans_cn_pairs)?;
+    log_diag!("ZH_TO_HANS_CN: final rules = {}\n", hans_cn_pairs.len())?;
 
     // FIXME: doc
     // Here, ZH_TO_HANT | ZH_TO_TW => ZH_TO_HANT_TW, etc. In other places, ZH_TO_TW might imply ZH_TO_HANT_TW.
@@ -199,6 +229,7 @@ fn main() -> io::Result<()> {
     let mut hant_tw_pairs = hant_pairs.clone();
     hant_tw_pairs.extend(tw_pairs);
     write_daac_file("ZH_TO_HANT_TW", &hant_tw_pairs)?;
+    log_diag!("ZH_TO_HANT_TW: final rules = {}\n", hant_tw_pairs.len())?;
 
     let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
     hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
@@ -206,6 +237,9 @@ fn main() -> io::Result<()> {
     let mut hant_hk_pairs = hant_pairs;
     hant_hk_pairs.extend(hk_pairs);
     write_daac_file("ZH_TO_HANT_HK", &hant_hk_pairs)?;
+    log_diag!("ZH_TO_HANT_HK: final rules = {}\n", hant_hk_pairs.len())?;
+
+    log_diag!("Processed in: {:?}\n=== DONE ===\n", start_time.elapsed())?;
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
