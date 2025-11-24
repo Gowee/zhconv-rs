@@ -1,6 +1,6 @@
-use criterion::{black_box, criterion_group, criterion_main, Criterion};
+use criterion::{Criterion, black_box, criterion_group, criterion_main};
 
-use zhconv::{converters::deserialize_converter, tables::*, Variant};
+use zhconv::{Variant, converters::deserialize_converter, tables::*};
 
 const WIKITEXT: &str = include_str!("wikitext.txt");
 const DATA54K: &str = include_str!("data54k.txt");
