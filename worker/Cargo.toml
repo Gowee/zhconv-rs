@@ -23,8 +23,8 @@ opencc = ["zhconv/opencc"]
 crate-type = ["cdylib"]
 
 [dependencies]
-worker = { version="0.5", features=['http', 'axum'] }
-worker-macros = { version="0.5", features=['http'] }
+worker = { version="0.6", features=['http', 'axum'] }
+worker-macros = { version="0.6", features=['http'] }
 axum  = { version = "0.8", default-features = false, features=["query"] }
 axum-extra = { version = "0.10", default-features = false, features=["typed-header", "erased-json"]}
 serde = "1.0"
