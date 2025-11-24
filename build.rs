@@ -89,32 +89,45 @@ fn main() -> io::Result<()> {
         #[cfg(feature = "opencc")]
         match name.as_ref() {
             "ZH_TO_HANS" => {
-                // hk2s & tw2s & t2s
-                load_opencc_to!(
-                    &mut pairs,
-                    [HKVariantsRevPhrases, !HKVariants],
-                    [TSCharacters, TSPhrases]
-                );
-                load_opencc_to!(
-                    &mut pairs,
-                    [TWVariantsRevPhrases, !TWVariants],
-                    [TSCharacters, TSPhrases]
-                );
+                // t2s
+                load_opencc_to!(&mut pairs, [TSCharacters, TSPhrases]);
+                // OpenCC has rules & configs for "de-regionalization" when targetted at hans/hant,
+                // which are not present in https://opencc.byvoid.com/.
+                // We decide to skip here, also to keep consistency with Mediawiki's behavior.
+                // // hk2s & tw2s & t2s
+                // load_opencc_to!(
+                //     &mut pairs,
+                //     [HKVariantsRevPhrases, !HKVariants],
+                //     [TSCharacters, TSPhrases]
+                // );
+                // load_opencc_to!(
+                //     &mut pairs,
+                //     [TWVariantsRevPhrases, !TWVariants],
+                //     [TSCharacters, TSPhrases]
+                // );
             }
             "ZH_TO_HANT" => {
-                // s2t & hk2t & tw2t
-                load_opencc_to!(&mut pairs, [HKVariantsRevPhrases, !HKVariants]);
-                load_opencc_to!(&mut pairs, [TWVariantsRevPhrases, !TWVariants]);
+                // ditto
+                // // hk2t & tw2t
+                // load_opencc_to!(&mut pairs, [HKVariantsRevPhrases, !HKVariants]);
+                // load_opencc_to!(&mut pairs, [TWVariantsRevPhrases, !TWVariants]);
+                // s2t
                 load_opencc_to!(&mut pairs, [STCharacters, STPhrases]);
             }
             "ZH_TO_TW" => {
-                // s2twp & t2tw
-                load_opencc_to!(
-                    &mut pairs,
-                    [STPhrases, STCharacters],
-                    [TWPhrasesIT, TWPhrasesName, TWPhrasesOther],
-                    [TWVariants]
-                );
+                // Since s2twp appears to be too aggresive for general use, we make it optional.
+                if cfg!(feature = "opencc-twp") {
+                    // s2tw & s2twp & t2tw
+                    load_opencc_to!(
+                        &mut pairs,
+                        [STPhrases, STCharacters],
+                        [TWPhrasesIT, TWPhrasesName, TWPhrasesOther],
+                        [TWVariants]
+                    );
+                } else {
+                    // s2tw & t2tw
+                    load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [TWVariants]);
+                }
             }
             "ZH_TO_HK" => {
                 // s2hk & t2hk
@@ -122,18 +135,29 @@ fn main() -> io::Result<()> {
             }
             "ZH_TO_MO" => {}
             "ZH_TO_CN" => {
-                // tw2sp & hk2s
-                load_opencc_to!(
-                    &mut pairs,
-                    [
-                        !TWPhrasesIT,
-                        !TWPhrasesName,
-                        !TWPhrasesOther,
-                        TWVariantsRevPhrases,
-                        !TWVariants
-                    ],
-                    [TSPhrases, TSCharacters]
-                );
+                // ditto
+                if cfg!(feature = "opencc-twp") {
+                    // tw2sp
+                    load_opencc_to!(
+                        &mut pairs,
+                        [
+                            !TWPhrasesIT,
+                            !TWPhrasesName,
+                            !TWPhrasesOther,
+                            TWVariantsRevPhrases,
+                            !TWVariants
+                        ],
+                        [TSPhrases, TSCharacters]
+                    );
+                } else {
+                    // tw2s
+                    load_opencc_to!(
+                        &mut pairs,
+                        [TWVariantsRevPhrases, !TWVariants],
+                        [TSPhrases, TSCharacters]
+                    );
+                }
+                // hk2s
                 load_opencc_to!(
                     &mut pairs,
                     [HKVariantsRevPhrases, !HKVariants],
