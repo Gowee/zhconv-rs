@@ -55,7 +55,7 @@ pub enum RuleError {
 }
 
 impl ConvRule {
-    pub fn targeted(&self, target: Variant) -> ConvRuleWithVariant {
+    pub fn targeted(&self, target: Variant) -> ConvRuleWithVariant<'_> {
         ConvRuleWithVariant {
             rule: self,
             variant: target,

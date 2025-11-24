@@ -37,6 +37,8 @@ required-features = ["bin-build"]
 default = ["compress", "wasm"]
 wasm = []
 opencc = []
+# twp = Taiwan phrases; too aggressive for general use, resulting in odd conversions
+opencc-twp = ["opencc"]
 compress = ["zstd", "ruzstd"]
 bin-build = ["structopt", "anyhow", "log", "env_logger", "tempfile"]
 
