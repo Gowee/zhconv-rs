@@ -6,7 +6,7 @@
 use std::str::FromStr;
 
 use crate::{
-    rule::{ConvAction, extract_rules},
+    rule::{extract_rules, ConvAction},
     variant::{Variant, VariantMap},
 };
 
@@ -44,13 +44,13 @@ impl FromStr for PageRules {
         let mut conv_actions = vec![];
         // or should be propogate the error?
         for rule in extract_rules(s).filter_map(|r| r.ok()) {
-            if rule.set_title
-                && let Some(map) = rule.conv.as_ref().and_then(|conv| conv.get_bid()).cloned()
-            {
-                // actually, our parser ensure this is !is_empty
-                // just be more tolerant here
-                if !map.is_empty() {
-                    title = Some(map); // unwrap?
+            if rule.set_title {
+                if let Some(map) = rule.conv.as_ref().and_then(|conv| conv.get_bid()).cloned() {
+                    // actually, our parser ensure this is !is_empty
+                    // just be more tolerant here
+                    if !map.is_empty() {
+                        title = Some(map); // unwrap?
+                    }
                 }
             }
             // it is absolutely normal that not all rules are global

@@ -1,13 +1,13 @@
-use zhconv::{Variant, is_hans_confidence, zhconv as zhconv_plain, zhconv_mw};
+use zhconv::{is_hans_confidence, zhconv as zhconv_plain, zhconv_mw, Variant};
 
 use axum::{
     extract::{DefaultBodyLimit, Path, Query, State},
     http::StatusCode,
     response::IntoResponse,
-    routing::{Router, get, post},
+    routing::{get, post, Router},
 };
-use axum_extra::{TypedHeader, response::ErasedJson};
-use headers::{Authorization, authorization::Bearer};
+use axum_extra::{response::ErasedJson, TypedHeader};
+use headers::{authorization::Bearer, Authorization};
 use serde::{Deserialize, Serialize};
 use tower_service::Service;
 use worker::*;

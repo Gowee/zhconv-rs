@@ -256,13 +256,13 @@ impl<T> From<HashMap<Variant, T>> for VariantMap<T> {
 
 // Ref: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=cdab97d0a7f71d9a13568c97ad3faf3a
 macro_rules! match_fallback {
-    ( $map:expr_2021, $target:expr_2021, $($t:tt)* ) => {
+    ( $map:expr, $target:expr, $($t:tt)* ) => {
         match_fallback!(@build $map, $target, (), $($t)*)
     };
-    (@build $map:expr_2021, $target:expr_2021, ($($arms:tt)*), $variant:ident -> [ $($fallbacks:tt)* ], $($others:tt)* ) => {
+    (@build $map:expr, $target:expr, ($($arms:tt)*), $variant:ident -> [ $($fallbacks:tt)* ], $($others:tt)* ) => {
         match_fallback!(@build $map, $target, ($($arms)* $variant => get_with_fallback!($map, $variant, $($fallbacks)*),), $($others)*)
     };
-    (@build $map:expr_2021, $target:expr_2021, ($($arms:tt)*) $(,)? ) => {
+    (@build $map:expr, $target:expr, ($($arms:tt)*) $(,)? ) => {
         match $target {
             $($arms)*
             #[allow(unreachable_patterns)]

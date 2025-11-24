@@ -8,7 +8,7 @@ use std::sync::LazyLock;
 
 #[cfg(feature = "compress")]
 use crate::utils::zstd_decompress;
-use crate::{Variant, ZhConverter, ZhConverterBuilder, tables::*};
+use crate::{tables::*, Variant, ZhConverter, ZhConverterBuilder};
 
 // Be careful with the order of tables.
 // The converter build process relies on HashMap::extend, during which latter rules overwrite the

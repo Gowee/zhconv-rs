@@ -9,8 +9,8 @@ use pyo3::types::PyString;
 use pyo3_file::PyFileLikeObject;
 
 use ::zhconv::{
-    Variant, ZhConverter as Converter, ZhConverterBuilder, get_builtin_tables,
-    zhconv as zhconv_plain, zhconv_mw,
+    get_builtin_tables, zhconv as zhconv_plain, zhconv_mw, Variant, ZhConverter as Converter,
+    ZhConverterBuilder,
 };
 
 /// Convert text to a target Chinese variant using pre-built converters, which are loaded

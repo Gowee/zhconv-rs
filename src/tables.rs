@@ -8,8 +8,8 @@
 // // ! the converter.
 use std::iter;
 
-use crate::Variant;
 use crate::converter::{ZhConverter, ZhConverterBuilder};
+use crate::Variant;
 
 pub type Table<'s> = (&'s str, &'s str);
 // pub(crate) const EMPTY_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/empty.daac"));
