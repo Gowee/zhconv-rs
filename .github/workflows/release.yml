@@ -19,20 +19,20 @@ jobs:
       matrix:
         include:
           - target: x86_64-pc-windows-gnu
-            os: windows-2019
+            os: windows-2025
             cross: false
             # archive: zip
-            #- target: x86_64-unknown-linux-musl
-            #  os: ubuntu-latest
-            #  cross: false
-            #  # archive: tar.gz tar.xz
-            #- target: aarch64-unknown-linux-musl
-            #  os: ubuntu-latest
-            #  cross: true
-            #- target: x86_64-apple-darwin
-            #  os: macos-latest
-            #  cross: false
-            #  # archive: zip
+          - target: x86_64-unknown-linux-musl
+            os: ubuntu-latest
+            cross: false
+            # archive: tar.gz tar.xz
+          - target: aarch64-unknown-linux-musl
+            os: ubuntu-latest
+            cross: true
+          - target: x86_64-apple-darwin
+            os: macos-latest
+            cross: false
+            # archive: zip
     steps:
       - uses: actions/checkout@v3
       - uses: actions-rs/toolchain@v1
@@ -59,7 +59,7 @@ jobs:
         shell: bash # on win, the default is ps
         run: |
           mkdir bin
-          if [ "${{ matrix.os }}" = "windows-2019" ]; then
+          if [ "${{ matrix.os }}" = "windows-2025" ]; then
             # 7z a "$staging.zip" "$staging"
             f="bin/zhconv-${{ matrix.target }}.exe"
             mv target/${{ matrix.target }}/release/zhconv.exe "$f"
