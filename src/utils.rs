@@ -1,8 +1,8 @@
 macro_rules! get_with_fallback {
-    ( $map:expr, $key:expr, $( $others:tt )* ) => {
+    ( $map:expr_2021, $key:expr_2021, $( $others:tt )* ) => {
         $map.get(&$key).or_else(|| get_with_fallback!($map, $($others)* ))
     };
-    ( $map:expr, $key:expr ) => {
+    ( $map:expr_2021, $key:expr_2021 ) => {
         $map.get(&$key)
     };
 }
