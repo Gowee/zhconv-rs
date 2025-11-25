@@ -6,3 +6,7 @@ data/*.txt linguist-vendored binary
 data/cgroups/*.json linguist-vendored
 web/public/cgroups.json linguist-vendored
 benches/*.txt linguist-vendored
+
+# disable CRLF conversion
+data/ZhConversion.php binary
+data/*.txt binary

@@ -59,7 +59,11 @@ jobs:
     - name: Install Wasm target for Rust
       run: rustup target add wasm32-unknown-unknown
     - name: Install Typst
-      run: curl -fsSL https://typst.community/typst-install/install.sh | sh
+      run: |
+        curl -fsSL -O https://github.com/typst/typst/releases/download/v0.14.0/typst-x86_64-unknown-linux-musl.tar.xz
+        tar xf typst-x86_64-unknown-linux-musl.tar.xz
+        mv typst-x86_64-unknown-linux-musl/typst /home/runner/
+      working-directory: /tmp
     - name: Build
       run: |
         cargo --version
@@ -67,7 +71,8 @@ jobs:
     - name: Typst Compile
       run: |
         cp target/wasm32-unknown-unknown/release/zhconv_typst.wasm ./
-        /home/runner/.typst/bin/typst compile example.typ
+        /home/runner/typst --version
+        /home/runner/typst compile example.typ
     - name: Clippy
       run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
     - name: Check Format
