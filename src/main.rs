@@ -15,7 +15,7 @@ use zhconv::get_builtin_tables;
 use zhconv::{get_builtin_converter, rule::Conv, Variant, ZhConverterBuilder};
 
 #[derive(StructOpt, Debug)]
-#[structopt(name = "zhconv", about = "Convert among Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
+#[structopt(name = "zhconv", about = "Convert Chinese between Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
 struct Opt {
     /// Additional conversion rules in MediaWiki syntax (excluding -{, }-)
     #[structopt(long = "rule")]
