@@ -30,8 +30,8 @@ jobs:
         run: |
           # comment out benchmark-only dependencies, which require opencc installation
           sed -i -E 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
-          # and empty the benchmark file to avoid clippy warnings
-          echo "" > benches/compare_benchmark.rs
+          # and disable the relevant benchmark to avoid clippy warnings
+          perl -0777 -i -pe 's/\[\[bench\]\]\s*\n\s*harness\s*=\s*false\s*\n\s*name\s*=\s*"compare_benchmark"\s*\n?//s' Cargo.toml
 
           cargo test ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
