@@ -20,18 +20,22 @@ jobs:
         include:
           - target: x86_64-pc-windows-gnu
             os: windows-2025
-            cross: false
+            cargo: cargo
+            binext: .exe # binary extension
             # archive: zip
           - target: x86_64-unknown-linux-musl
             os: ubuntu-latest
-            cross: false
+            cargo: cargo
+            binext: ""
             # archive: tar.gz tar.xz
           - target: aarch64-unknown-linux-musl
             os: ubuntu-latest
-            cross: true
+            cargo: cross
+            binext: ""
           - target: x86_64-apple-darwin
             os: macos-latest
-            cross: false
+            cargo: cargo
+            binext: ""
             # archive: zip
     steps:
       - uses: actions/checkout@v3
@@ -41,48 +45,39 @@ jobs:
           target: ${{ matrix.target }}
           override: true
           profile: minimal
-      - name: Build with cargo
-        run: cargo build --features bin-build --bin zhconv --release --target ${{ matrix.target }}
-        if: matrix.cross == false
-      - name: Build with cross
+      - name: Install cross
         run: |
           cargo install cross --git https://github.com/cross-rs/cross.git
-          cross build --features bin-build --bin zhconv --release --target ${{ matrix.target }}
-        if: matrix.cross == true
-      # some error with the default cross version
-      # - uses: actions-rs/cargo@v1
-      #   with:
-      #     command: build
-      #     args: --features bin-build --bin zhconv --release --target ${{ matrix.target }}
-      #     use-cross: ${{ matrix.cross }}
-      - name: Prepare asset
+        if: matrix.cargo == cross
+      - name: Build and strip
         shell: bash # on win, the default is ps
         run: |
           mkdir bin
-          if [ "${{ matrix.os }}" = "windows-2025" ]; then
-            # 7z a "$staging.zip" "$staging"
-            f="bin/zhconv-${{ matrix.target }}.exe"
-            mv target/${{ matrix.target }}/release/zhconv.exe "$f"
-          else
-            # tar czf "$staging.tar.gz" "$staging"
-            f="bin/zhconv-${{ matrix.target }}"
-            mv target/${{ matrix.target }}/release/zhconv "$f"
-          fi
+          ${{ matrix.cargo }} build --features bin-build --bin zhconv --release --target ${{ matrix.target }}
+          mv target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-${{ matrix.target }}${{ matrix.binext }}"
+          ${{ matrix.cargo }} build --features bin-build --features opencc --bin zhconv --release --target ${{ matrix.target }}
+          mv target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-opencc-${{ matrix.target }}${{ matrix.binext }}"
           strip -v "$f" || echo "strip failed"
+          # if [ "${{ matrix.os }}" = "windows-2025" ]; then
+          #   7z a "$staging.zip" "$staging"
+          # else
+          #   tar czf "$staging.tar.gz" "$staging"
+          # fi
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: binary-${{ matrix.target }}
+          name: binaries-${{ matrix.target }}
           path: bin/
 
   release:
     runs-on: ubuntu-latest
+    # trigger real release only on tag push
     if: "startsWith(github.ref, 'refs/tags/')"
     needs: [build]
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: binary-*
+          pattern: binaries-*
           merge-multiple: true
       - name: Release
         uses: softprops/action-gh-release@v2

@@ -20,7 +20,7 @@ const CONVTUPLES: [(&str, Variant); 8] = [
     ("zh2MY", Variant::ZhMY),
 ];
 
-fn criterion_benchmark(c: &mut Criterion) {
+fn bench_load(c: &mut Criterion) {
     // c.bench_function("build zh-Hant-HK", |b| {
     //     b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANT_TABLE), black_box(ZH_HK_TABLE)))
     // });
@@ -64,64 +64,80 @@ fn criterion_benchmark(c: &mut Criterion) {
         //     })
         // });
     }
+    let group_name = match (
+        cfg!(feature = "opencc"),
+        cfg!(feature = "opencc-twp"),
+        cfg!(feature = "compress"),
+    ) {
+        (_, true, true) => "load-opencc-twp-compressed-serialized",
+        (_, true, false) => "load-opencc-twp-serialized",
+        (true, false, true) => "load-opencc-compressed-serialized",
+        (true, false, false) => "load-opencc-serialized",
+        (false, _, true) => "load-compressed-serialized",
+        (false, _, false) => "load-serialized",
+    };
 
-    {
-        let tag = if cfg!(feature = "compress") {
-            "load-compressed-serialized"
-        } else {
-            "load-serialized"
-        };
-        let mut load = c.benchmark_group(tag);
-        for (name, variant) in CONVTUPLES {
-            load.bench_function(name, |b| {
-                b.iter_with_large_drop(|| {
-                    deserialize_converter(
-                        variant,
-                        black_box(get_builtin_serialized_daac(variant)),
-                        black_box(get_builtin_tables(variant).iter().cloned()),
-                    )
-                })
-            });
-        }
+    let mut load = c.benchmark_group(group_name);
+    load.sample_size(20);
+    for (name, variant) in CONVTUPLES {
+        load.bench_function(name, |b| {
+            b.iter_with_large_drop(|| {
+                deserialize_converter(
+                    variant,
+                    black_box(get_builtin_serialized_daac(variant)),
+                    black_box(get_builtin_tables(variant).iter().cloned()),
+                )
+            })
+        });
     }
+}
 
-    c.bench_function("zh2CN wikitext basic", |b| {
+fn bench_convert(c: &mut Criterion) {
+    let group_name = match (cfg!(feature = "opencc"), cfg!(feature = "opencc-twp")) {
+        (_, true) => "convert-opencc-twp",
+        (true, false) => "convert-opencc",
+        (false, false) => "convert",
+    };
+
+    let mut convert = c.benchmark_group(group_name);
+    convert.sample_size(20);
+    convert.bench_function("zh2CN wikitext basic", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_CN_CONVERTER.convert_as_wikitext_basic(WIKITEXT)
         })
     });
-    c.bench_function("zh2TW wikitext basic", |b| {
+    convert.bench_function("zh2TW wikitext basic", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert_as_wikitext_basic(WIKITEXT)
         })
     });
-    c.bench_function("zh2TW wikitext extended", |b| {
+    convert.bench_function("zh2TW wikitext extended", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert_as_wikitext_extended(WIKITEXT)
         })
     });
-    c.bench_function("zh2CN 天乾物燥", |b| {
+    convert.bench_function("zh2CN 天乾物燥", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert("天乾物燥"))
     });
-    c.bench_function("zh2TW data54k", |b| {
+    convert.bench_function("zh2TW data54k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA54K))
     });
-    c.bench_function("zh2CN data54k", |b| {
+    convert.bench_function("zh2CN data54k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_CN_CONVERTER.convert(DATA54K))
     });
-    c.bench_function("zh2Hant data689k", |b| {
+    convert.bench_function("zh2Hant data689k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_HANT_CONVERTER.convert(DATA689K))
     });
-    c.bench_function("zh2TW data689k", |b| {
+    convert.bench_function("zh2TW data689k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA689K))
     });
-    c.bench_function("zh2Hant data3185k", |b| {
+    convert.bench_function("zh2Hant data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_HANT_CONVERTER.convert(DATA3185K))
     });
-    c.bench_function("zh2TW data3185k", |b| {
+    convert.bench_function("zh2TW data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::converters::ZH_TO_TW_CONVERTER.convert(DATA3185K))
     });
-    c.bench_function("zh2TW data55m", |b| {
+    convert.bench_function("zh2TW data55m", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert(
                 &(String::from(DATA3185K)
@@ -144,21 +160,26 @@ fn criterion_benchmark(c: &mut Criterion) {
             )
         })
     });
-    c.bench_function("is_hans data55k", |b| {
+}
+
+fn bench_utils(c: &mut Criterion) {
+    let mut utils = c.benchmark_group("utils");
+    utils.sample_size(20);
+    utils.bench_function("is_hans data55k", |b| {
         b.iter_with_large_drop(|| zhconv::is_hans(DATA54K))
     });
-    c.bench_function("infer_variant data55k", |b| {
+    utils.bench_function("infer_variant data55k", |b| {
         b.iter_with_large_drop(|| zhconv::infer_variant(DATA54K))
     });
-    c.bench_function("is_hans data3185k", |b| {
+    utils.bench_function("is_hans data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::is_hans(DATA3185K))
     });
-    c.bench_function("infer_variant data3185k", |b| {
+    utils.bench_function("infer_variant data3185k", |b| {
         b.iter_with_large_drop(|| zhconv::infer_variant(DATA3185K))
     });
 }
 
-criterion_group!(benches, criterion_benchmark);
+criterion_group!(benches, bench_load, bench_convert, bench_utils);
 // criterion_group! {
 //     name = benches;
 //     config = Criterion::default().sample_size(500);
