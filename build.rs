@@ -1,3 +1,25 @@
+/// Generates conversion tables and data structures for Chinese character/phrase conversion.
+///
+/// This build script:
+/// - Loads MediaWiki conversion rulesets from `ZhConversion.php`
+/// - Optionally merges OpenCC (Open Chinese Convert) rulesets when the "opencc" feature is enabled
+/// - Validates file integrity using SHA256 checksums
+/// - Sorts conversion pairs by length (longest first) and lexicographically
+/// - Deduplicates pairs, retaining only the first rule for each source mapping
+/// - Generates three types of output files:
+///   - `.from.conv` and `.to.conv`: Compressed pair format for direct lookup
+///   - `.daac`: Serialized Aho-Corasick automaton for efficient pattern matching
+///
+/// The conversion rulesets are processed for the following targets:
+/// - `ZH_TO_HANS`: Simplified Chinese
+/// - `ZH_TO_HANT`: Traditional Chinese
+/// - `ZH_TO_CN`: Mainland China variant (Hans + CN-specific rules)
+/// - `ZH_TO_TW`: Taiwan variant (Hant + TW-specific rules)
+/// - `ZH_TO_HK`: Hong Kong variant (Hant + HK-specific rules)
+/// - `ZH_TO_MO`, `ZH_TO_SG`, `ZH_TO_MY`: Regional variants
+///
+/// **Note**: Earlier rules take precedence over later ones. When multiple rules apply to the
+/// same source string, the first occurrence is retained.
 use std::collections::HashMap;
 
 use std::collections::HashSet;
@@ -17,7 +39,7 @@ use vergen::EmitBuilder;
 #[cfg(feature = "opencc")]
 use self::opencc::load_opencc_to;
 
-// To update upstream dataset: manually update commits here and run data/update_basic.py
+// To update upstream rulesets, manually update commits here and run data/update_basic.py
 const MEDIAWIKI_COMMIT: &str = "7e8ae4dd01a659ecda127088bd1d227f4a1a1c68";
 const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("128e3240f31ad69513ec26b38c04b9ab485508429a2b9b4877e0926a0155d6a8");
@@ -381,6 +403,7 @@ fn pair_reduce<'s>(
 }
 
 fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
+    // earlier rules take precedence
     pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
     pairs.dedup_by(|a, b| a.0 == b.0);
 }

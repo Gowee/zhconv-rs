@@ -76,6 +76,10 @@ console_error_panic_hook = {version = "0.1"}#, default-features = true, optional
 [dev-dependencies]
 criterion = "0.7"
 wasm-bindgen-test = "0.3"
+ferrous-opencc = { version = "0.2" }
+opencc-rust = { version = "1.1" }
+fast2s = { version = "0.3" }
+opencc-fmmseg = { version = "0.8" }
 
 [build-dependencies]
 daachorse = "1.0"
@@ -90,5 +94,9 @@ zstd = { version = "0.13", optional = true }
 [[bench]]
 harness = false
 name = "zhconv_benchmark"
+
+[[bench]]
+harness = false
+name = "compare_benchmark"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
