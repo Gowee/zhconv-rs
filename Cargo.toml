@@ -8,7 +8,7 @@ description = "Traditional/Simplified and regional Chinese variants converter ba
 edition = "2021"
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-version = "0.3.3"
+version = "0.3.4"
 
 [workspace.lints]
 
@@ -31,15 +31,17 @@ path = "src/main.rs"
 required-features = ["bin-build"]
 
 [features]
-# OpenCC rulesets are disabled by default.
-# Enabling the feature may improve accuracy at the cost of binary size bloating and performance
-# degration.
-default = ["compress", "wasm"]
-wasm = []
+default = ["compress"]
+# Enable OpenCC rulesets.
+# Accuracy may be improved at the cost of binary size bloating and performance degration.
 opencc = []
-# twp = Taiwan phrases; too aggressive for general use, resulting in odd conversions
+# Use s2twp and tw2sp dicts instead of s2tw and tw2s.
+# It seems too aggressive for general use, resulting in odd conversions.
 opencc-twp = ["opencc"]
+# Compressing built-in rulesets using zstd.
+# The decompression overhead during initialization is negligible, considering the I/O savings.
 compress = ["zstd", "ruzstd"]
+wasm = []
 bin-build = ["structopt", "anyhow", "log", "env_logger", "tempfile"]
 
 [dependencies]
