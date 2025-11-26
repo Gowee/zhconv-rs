@@ -27,7 +27,14 @@ jobs:
         run: |
           cargo build --features bin-build --bin zhconv --verbose
       - name: Test
-        run: cargo test ${{ matrix.featureset.flag }} --verbose
+        run: |
+          # comment out benchmark-only dependencies, which require opencc installation
+          sed -i -E 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
+          # and disable the relevant benchmark to avoid clippy warnings
+          perl -0777 -i -pe 's/\[\[bench\]\]\s*\n\s*harness\s*=\s*false\s*\n\s*name\s*=\s*"compare_benchmark"\s*\n?//s' Cargo.toml
+          echo "" > benches/compare_benchmark.rs
+
+          cargo test ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
         run: cargo fmt -- --check
       - name: Clippy
@@ -37,16 +44,16 @@ jobs:
     needs: build-main
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Symlink README
-      run: |
-        cd pyo3/
-        ln -s ../README.md ./
-    - uses: messense/maturin-action@v1
-      with:
-        manylinux: auto
-        command: build
-        args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
+      - uses: actions/checkout@v3
+      - name: Symlink README
+        run: |
+          cd pyo3/
+          ln -s ../README.md ./
+      - uses: messense/maturin-action@v1
+        with:
+          manylinux: auto
+          command: build
+          args: --release --sdist -o pyo3/dist --find-interpreter -m pyo3/Cargo.toml
 
   build-typst:
     needs: build-main
@@ -55,28 +62,28 @@ jobs:
       run:
         working-directory: typst/
     steps:
-    - uses: actions/checkout@v3
-    - name: Install Wasm target for Rust
-      run: rustup target add wasm32-unknown-unknown
-    - name: Install Typst
-      run: |
-        curl -fsSL -O https://github.com/typst/typst/releases/download/v0.14.0/typst-x86_64-unknown-linux-musl.tar.xz
-        tar xf typst-x86_64-unknown-linux-musl.tar.xz
-        mv typst-x86_64-unknown-linux-musl/typst /home/runner/
-      working-directory: /tmp
-    - name: Build
-      run: |
-        cargo --version
-        cargo build --release --verbose --target wasm32-unknown-unknown
-    - name: Typst Compile
-      run: |
-        cp target/wasm32-unknown-unknown/release/zhconv_typst.wasm ./
-        /home/runner/typst --version
-        /home/runner/typst compile example.typ
-    - name: Clippy
-      run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
-    - name: Check Format
-      run: cargo fmt -- --check
+      - uses: actions/checkout@v3
+      - name: Install Wasm target for Rust
+        run: rustup target add wasm32-unknown-unknown
+      - name: Install Typst
+        run: |
+          curl -fsSL -O https://github.com/typst/typst/releases/download/v0.14.0/typst-x86_64-unknown-linux-musl.tar.xz
+          tar xf typst-x86_64-unknown-linux-musl.tar.xz
+          mv typst-x86_64-unknown-linux-musl/typst /home/runner/
+        working-directory: /tmp
+      - name: Build
+        run: |
+          cargo --version
+          cargo build --release --verbose --target wasm32-unknown-unknown
+      - name: Typst Compile
+        run: |
+          cp target/wasm32-unknown-unknown/release/zhconv_typst.wasm ./
+          /home/runner/typst --version
+          /home/runner/typst compile example.typ
+      - name: Clippy
+        run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
+      - name: Check Format
+        run: cargo fmt -- --check
 
   # now Pages.dev do this for us
   # build-web:
@@ -96,10 +103,9 @@ jobs:
   #     - name: Build
   #       working-directory: web/
   #       run: yarn build
-    # - name: Test
-    #   working-directory: web/
-    #   run: yarn test # no effective test so far
-
+  # - name: Test
+  #   working-directory: web/
+  #   run: yarn test # no effective test so far
 # adapted from: https://github.com/Gowee/cidr-aggregator/blob/9c02241ab64e5cf62e33375e55e09502385bdc61/.github/workflows/main.yml#L1
 # which is in turn adapted from:
 # https://github.com/Gowee/json2pyi/blob/4e13b4767f97d79e90ecf19a0cb21b1e799d7d48/.github/workflows/main.yml
