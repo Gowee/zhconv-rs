@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install OpenCC
+        # zhconv-rs does not rely on system OpenCC, but some benchmark-only deps do
+        run: |
+          apt update && apt install -y opencc
       - name: Build lib
         run: |
           cargo --version
@@ -28,11 +32,7 @@ jobs:
           cargo build --features bin-build --bin zhconv --verbose
       - name: Test
         run: |
-          # comment out benchmark-only dependencies, which require opencc installation
-          sed -i -E 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
           cargo test ${{ matrix.featureset.flag }} --verbose
-          # uncomment to make clippy happy
-          sed -i -E 's/^#(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/\1/' Cargo.toml
       - name: Check Format
         run: cargo fmt -- --check
       - name: Clippy
