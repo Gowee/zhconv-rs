@@ -32,7 +32,7 @@ jobs:
           sed -i -E 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
           # and disable the relevant benchmark to avoid clippy warnings
           perl -0777 -i -pe 's/\[\[bench\]\]\s*\n\s*harness\s*=\s*false\s*\n\s*name\s*=\s*"compare_benchmark"\s*\n?//s' Cargo.toml
-          cat Cargo.toml
+          echo "" > benches/compare_benchmark.rs
 
           cargo test ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
