@@ -216,14 +216,6 @@
       "conv": "zh-hans:泰乐菌素; zh-hant:泰黴素;"
     },
     {
-      "original": "hydroxychloroquine",
-      "conv": "zh-hans:羟氯喹;zh-tw:羥氯奎寧;zh-hk:羥氯喹;"
-    },
-    {
-      "original": "chloroquine",
-      "conv": "zh-hans:氯喹;zh-tw:氯化奎寧;"
-    },
-    {
       "original": "acetaminophen",
       "conv": "zh-hans:对乙酰氨基酚; zh-hant:乙醯胺酚;"
     },
@@ -241,7 +233,7 @@
     },
     {
       "original": "NSAID",
-      "conv": "zh-cn:非甾体抗炎药; zh-tw:非類固醇抗發炎藥;"
+      "conv": "zh-cn:非甾体抗炎药; zh-tw:非類固醇抗炎藥;"
     },
     {
       "original": "Ritalin",
@@ -357,7 +349,11 @@
     },
     {
       "original": "SARS-CoV-2",
-      "conv": "zh-cn:严重急性呼吸系统综合征冠状病毒2;zh-hk:嚴重急性呼吸綜合症冠狀病毒2型;zh-mo:嚴重急性呼吸綜合症冠狀病毒2型;zh-tw:嚴重急性呼吸道症候群冠狀病毒2型;zh-my:严重急性呼吸综合征冠状病毒2;zh-sg:严重急性呼吸综合征冠状病毒2;"
+      "conv": "zh-cn:严重急性呼吸综合征冠状病毒2;zh-hk:嚴重急性呼吸綜合症冠狀病毒2型;zh-tw:嚴重急性呼吸道症候群冠狀病毒2型;"
+    },
+    {
+      "original": "SARS-CoV-2",
+      "conv": "zh:严重急性呼吸系统综合征冠状病毒2;zh-cn:严重急性呼吸综合征冠状病毒2;zh-hk:嚴重急性呼吸綜合症冠狀病毒2型;zh-tw:嚴重急性呼吸道症候群冠狀病毒2型;"
     },
     {
       "original": "symptom",
@@ -380,8 +376,8 @@
       "conv": "zh-hant:梗塞; zh-hans:梗死;"
     },
     {
-      "original": "Alzheimern&#x0027;s disease",
-      "conv": "zh-hant:阿茲海默症; zh-hans:阿尔茨海默病; zh-my:阿茲海默症; zh-sg:阿茲海默症;zh-tw:阿茲海默症;"
+      "original": "Alzheimer&#x0027;s disease",
+      "conv": "zh-hans:阿尔茨海默病; zh-tw:阿茲海默症; zh-hk:阿茲海默症;"
     },
     {
       "original": "Angelman Syndrome",
@@ -489,18 +485,22 @@
     },
     {
       "original": "Parkinson&#x0027;s disease",
-      "conv": "zh-tw:巴金森氏症; zh-hk:柏金遜症; zh-cn:帕金森病;"
+      "conv": "zh-tw:帕金森氏症; zh-hk:柏金遜症; zh-cn:帕金森病;"
+    },
+    {
+      "original": "Parkinson&#x0027;s",
+      "conv": "帕金森氏=>zh-cn:帕金森; 帕金森氏=>zh-tw:帕金森氏; 帕金森氏=>zh-hk:柏金遜;"
     },
     {
       "original": "Parkinson&#x0027;s disease",
-      "conv": "帕金森氏病=>zh-cn:帕金森病; 帕金森氏病=>zh-tw:巴金森氏症; 帕金森氏病=>zh-hk:柏金遜症;"
+      "conv": "帕金森氏症=>zh-cn:帕金森病;帕金森氏病=>zh-cn:帕金森病;巴金森氏症=>zh-cn:帕金森病;柏金遜症=>zh-cn:帕金森病;"
     },
     {
       "original": "septal defect",
       "conv": "zh-cn:中隔缺损; zh-tw:中隔缺損; zh-hk:間隔缺損; 中膈缺損=>zh-cn:中隔缺损; 中膈缺損=>zh-hk:間隔缺損;"
     },
     {
-      "original": "Syndrome",
+      "original": "syndrome",
       "conv": "zh-tw:症候群; zh-hk:綜合症; zh-cn:综合征; zh-sg:综合症;"
     },
     {
@@ -525,7 +525,19 @@
     },
     {
       "original": "COVID-19",
-      "conv": "zh-cn:2019冠状病毒病;zh-hk:2019冠狀病毒病;zh-mo:2019冠狀病毒病;zh-tw:嚴重特殊傳染性肺炎;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病;"
+      "conv": "zh-hans:2019冠状病毒病;zh-hant:2019冠狀病毒病;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病;"
+    },
+    {
+      "original": "COVID-19",
+      "conv": "zh:2019冠狀病毒疾病;zh-hans:2019冠状病毒病;zh-hant:2019冠狀病毒病;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病;"
+    },
+    {
+      "original": "COVID-19",
+      "conv": "zh:嚴重特殊傳染性肺炎;zh-hans:2019冠状病毒病;zh-hant:2019冠狀病毒病;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病;"
+    },
+    {
+      "original": "COVID-19",
+      "conv": "zh:新冠併發重症;zh-hans:2019冠状病毒病;zh-hant:2019冠狀病毒病;zh-my:2019冠状病毒病;zh-sg:2019冠状病毒疾病;"
     },
     {
       "original": "ketoacidosis",
@@ -582,6 +594,10 @@
     {
       "original": "Lassa fever",
       "conv": "zh-hans:拉沙热; zh-hant:拉沙熱; zh-tw:拉薩熱;"
+    },
+    {
+      "original": "congenital rubella syndrome",
+      "conv": "zh-hans:先天性风疹综合征; zh-tw:先天性德國麻疹;"
     },
     {
       "original": "Sex linkage",

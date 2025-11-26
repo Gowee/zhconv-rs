@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "Kuwait SC",
-      "conv": "zh:阿尔科威特;zh-hans:科威特体育;zh-hant:阿爾科威特;zh-cn:科威特竞技;zh-hk:科威特競技;"
+      "conv": "zh:阿尔科威特;zh-hans:科威特体育;zh-hant:科威特競技;zh-cn:科威特竞技;zh-hk:科威特SC;"
     },
     {
       "original": "Qadsia SC",
@@ -13,7 +13,15 @@
     },
     {
       "original": "Al-Arabi SC",
-      "conv": "zh:阿尔阿拉比;zh-hans:科威特阿拉比;zh-hant:科威特阿拉比;zh-cn:科威特沙漠;zh-hk:艾拉比;"
+      "conv": "zh:科威特阿拉比;zh-hans:科威特阿拉伯人;zh-hant:科威特阿拉比;zh-hk:阿拉比;"
+    },
+    {
+      "original": "Al Nasr Sporting Club",
+      "conv": "zh:阿爾納沙體育會;zh-hans:费尔瓦尼耶胜利体育俱乐部zh-hant:阿爾納沙體育俱樂部;zh-cn:费尔瓦尼耶胜利体育俱乐部;zh-hk:阿爾納沙體育會;"
+    },
+    {
+      "original": "Al Nasr SC",
+      "conv": "zh:阿爾納沙;zh-hans:费尔瓦尼耶胜利zh-hant:阿爾納沙;zh-cn:费尔瓦尼耶胜利;zh-hk:阿爾納沙;"
     },
     {
       "original": "Kuwait Premier League",

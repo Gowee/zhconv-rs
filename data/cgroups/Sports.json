@@ -4,6 +4,22 @@
   "path": "Module:CGroup/Sports",
   "rules": [
     {
+      "original": "3x3 Basketball",
+      "conv": "zh-hans:三人篮球; zh-tw:三對三籃球; zh-hk:三人籃球;"
+    },
+    {
+      "original": "American football",
+      "conv": "zh-hans:美式橄榄球;zh-hant:美式足球;"
+    },
+    {
+      "original": "air pistol",
+      "conv": "zh-cn:气手枪;zh-hk:氣手槍;zh-tw:空氣手槍"
+    },
+    {
+      "original": "air rifle",
+      "conv": "zh-cn:气步枪;zh-hk:氣步槍;zh-tw:空氣步槍"
+    },
+    {
       "original": "Backstroke",
       "conv": "zh-cn:仰泳; zh-tw:仰泳; zh-hk:背泳;"
     },
@@ -17,7 +33,7 @@
     },
     {
       "original": "billiards",
-      "conv": "zh-cn:台球; zh-tw:撞球"
+      "conv": "zh-cn:台球; zh-tw:撞球;"
     },
     {
       "original": "billiards",
@@ -30,6 +46,14 @@
     {
       "original": "Canoeing",
       "conv": "zh-cn:皮划艇; zh-tw:輕艇; zh-hk:獨木舟;"
+    },
+    {
+      "original": "canoe polo",
+      "conv": "zh-cn:皮艇球; zh-tw:輕艇水球; zh-hk:獨木舟水球;"
+    },
+    {
+      "original": "China Pool",
+      "conv": "zh-cn:中式台球; zh-tw:中式檯球;"
     },
     {
       "original": "Épée",
@@ -61,11 +85,15 @@
     },
     {
       "original": "Freestyle Swimming",
-      "conv": "zh-cn:自由泳; zh-tw:捷泳; zh-hk:自由泳;"
+      "conv": "zh-hans:自由泳; zh-hk:自由泳; 自由泳=>zh-tw:自由式;"
     },
     {
       "original": "Gladiator",
       "conv": "zh-tw:角鬥士; zh-hk:角鬥士; zh-cn:角斗士;"
+    },
+    {
+      "original": "Ice skating",
+      "conv": "zh-hk:溜冰; zh-hans:滑冰; zh-tw:滑冰;"
     },
     {
       "original": "競輪",
@@ -76,12 +104,16 @@
       "conv": "zh-cn:古拉什; zh-tw:克拉術; zh-hk:克柔術; zh-mo:克柔術;"
     },
     {
+      "original": "Lacrosse",
+      "conv": "zh-cn:棍网球; zh-hk:棍網球; zh-tw:袋棍球;"
+    },
+    {
       "original": "Nordic combined",
       "conv": "zh-hans:北欧两项; zh-hk:北歐兩項; zh-tw:北歐混合式滑雪;"
     },
     {
       "original": "Press-up",
-      "conv": "zh-cn:俯卧撑; zh-tw:伏地挺身; zh-hk:掌上壓; zh-sg:俯卧撑;"
+      "conv": "zh:俯臥撐; zh-cn:俯卧撑; zh-tw:伏地挺身; zh-hk:掌上壓; 伏地挺身=>zh-my:伏地挺身; 伏地挺身=>zh-sg:伏地挺身; 伏地挺身=>zh-hans:伏地挺身; 掌上壓=>zh-my:伏地挺身;"
     },
     {
       "original": "Paragliding",
@@ -90,6 +122,10 @@
     {
       "original": "Parkour",
       "conv": "zh-tw:跑酷; zh-hk:Parkour; zh-cn:跑酷;"
+    },
+    {
+      "original": "Racewalking",
+      "conv": "zh-cn:竞走; zh-hk:競步; zh-tw:競走;"
     },
     {
       "original": "Rhythmic gymnastics",
@@ -108,7 +144,7 @@
       "conv": "zh-cn:橄榄球; zh-tw:橄欖球; zh-hk:欖球;"
     },
     {
-      "original": "Rugby union",
+      "original": "Rugby sevens",
       "conv": "zh-cn:七人制橄榄球; zh-tw:七人制橄欖球; zh-hk:七人欖球;"
     },
     {
@@ -156,12 +192,60 @@
       "conv": "zh-cn:摔跤; zh-tw:角力; zh-hk:摔角;"
     },
     {
+      "original": "All China Table Tennis Championships",
+      "conv": "zh-cn:全国乒乓球锦标赛; zh-tw:全國乒乓球錦標賽;"
+    },
+    {
+      "original": "Deaflympic",
+      "conv": "zh-cn:听障奥林匹克; zh-tw:達福林匹克; zh-hk:聽障奧林匹克;"
+    },
+    {
+      "original": "Deaflympic Games",
+      "conv": "zh-cn:听障奥林匹克运动会; zh-tw:達福林匹克運動會; zh-hk:聽障奧林匹克運動會;"
+    },
+    {
+      "original": "Deaflympic Games",
+      "conv": "听障奥运=>zh-tw:達運; 听障奧運=>zh-tw:達運;"
+    },
+    {
+      "original": "Deaflympic Games",
+      "conv": "zh-cn:听奥; zh-tw:達運; zh-hk:聽奧;"
+    },
+    {
+      "original": "Deaflympic Games",
+      "conv": "zh-cn:听奥会; zh-tw:達奧會; zh-hk:聽奧會;"
+    },
+    {
+      "original": "Deaflympic Games",
+      "conv": "残运=>zh-tw:達運; 殘運=>zh-tw:達運;"
+    },
+    {
+      "original": "Deaflympic Committee",
+      "conv": "zh-cn:听委会; zh-hk:聽委會; zh-tw:達委會;"
+    },
+    {
+      "original": "Deaflympic Committee",
+      "conv": "听奥委会=>zh-tw:達委會; 聽奧委會=>zh-tw:達委會;"
+    },
+    {
+      "original": "Deaflympic Committee",
+      "conv": "听障奥委会=>zh-tw:達委會;  聽障奧委會=>zh-tw:達委會;"
+    },
+    {
+      "original": "Paralympic",
+      "conv": "zh-cn:残疾人奥林匹克; zh-tw:帕拉林匹克; zh-hk:殘疾人奧林匹克;"
+    },
+    {
       "original": "Paralympic",
       "conv": "zh-cn:残疾人奥林匹克; zh-tw:帕拉林匹克; zh-hk:殘疾人奧林匹克;"
     },
     {
       "original": "Paralympic Games",
       "conv": "zh-cn:残疾人奥林匹克运动会; zh-tw:帕拉林匹克運動會; zh-hk:殘疾人奧林匹克運動會;"
+    },
+    {
+      "original": "Paralympic Games",
+      "conv": "傷殘奧林匹克運動會 =>zh-cn:残疾人奥林匹克运动会; 傷殘奧林匹克運動會=>zh-tw:帕拉林匹克運動會;"
     },
     {
       "original": "Paralympic Games",
@@ -173,7 +257,15 @@
     },
     {
       "original": "Paralympic Games",
+      "conv": "zh-cn:残奥会; zh-tw:帕運會; zh-hk:殘奧會;"
+    },
+    {
+      "original": "Paralympic Games",
       "conv": "残运=>zh-tw:帕運; 殘運=>zh-tw:帕運;"
+    },
+    {
+      "original": "Paralympic Games",
+      "conv": "帕奧=>zh-cn:残奥; 帕運=>zh-hk:殘奧;"
     },
     {
       "original": "Paralympic Committee",
@@ -208,28 +300,400 @@
       "conv": "zh-hans:大运会;zh-hk:大運會;zh-tw:世大運;zh-mo:大運會;"
     },
     {
-      "original": "FIBA World Championship",
-      "conv": "zh-hans:国际篮联篮球世界杯;zh-hk:國際籃總籃球世界盃;zh-tw:世界盃籃球賽;"
+      "original": "3x3 Basketball World Cup",
+      "conv": "三对三世界杯篮球赛=>zh-cn:三人篮球世界杯;三对三世界杯篮球赛=>zh-sg:三人篮球世界杯;三对三世界杯篮球赛=>zh-my:三人篮球世界杯;三对三世界杯篮球赛=>zh-hk:三人籃球世界盃;三对三世界杯篮球赛=>zh-mo:三人三人籃球世界盃;"
     },
     {
-      "original": "FIVB Volleyball World Cup",
-      "conv": "zh-hans:国际排联排球世界杯;zh-hk:國際排總排球世界盃;zh-tw:世界盃排球賽; zh-sg:世界杯排球赛; "
+      "original": "3x3 Basketball World Cup",
+      "conv": "三對三世界盃籃球賽=>zh-cn:三人篮球世界杯;三對三世界盃籃球賽=>zh-sg:三人篮球世界杯;三對三世界盃籃球賽=>zh-my:三人篮球世界杯;三對三世界盃籃球賽=>zh-hk:三人籃球世界盃;三對三世界盃籃球賽=>zh-mo:三人籃球世界盃;"
     },
     {
-      "original": "FIVB Volleyball Men s World Cup",
-      "conv": "zh-cn:国际排联男子排球世界杯; zh-hk:國際排總男子排球世界盃;zh-tw:世界盃男子排球賽; zh:世界杯男子排球赛; "
+      "original": "Basketball World Cup",
+      "conv": "世界杯篮球赛=>zh-cn:篮球世界杯;世界杯篮球赛=>zh-sg:篮球世界杯;世界杯篮球赛=>zh-my:篮球世界杯;世界杯篮球赛=>zh-hk:籃球世界盃;世界杯篮球赛=>zh-mo:籃球世界盃;"
     },
     {
-      "original": "FIVB Volleyball Women s World Cup",
-      "conv": "zh-hans:国际排联女子排球世界杯; zh-hk:國際排總女子排球世界盃;zh-tw:世界盃女子排球賽; zh:世界杯女子排球赛; "
+      "original": "Basketball World Cup",
+      "conv": "世界盃籃球賽=>zh-cn:篮球世界杯;世界盃籃球賽=>zh-sg:篮球世界杯;世界盃籃球賽=>zh-my:篮球世界杯;世界盃籃球賽=>zh-hk:籃球世界盃;世界盃籃球賽=>zh-mo:籃球世界盃;"
+    },
+    {
+      "original": "FIFA World Cup",
+      "conv": "世界盃足球賽=>zh-cn:足球世界杯;世界盃足球賽=>zh-sg:足球世界杯;世界盃足球賽=>zh-my:足球世界杯;"
+    },
+    {
+      "original": "Volleyball World Cup",
+      "conv": "世界杯排球赛=>zh-cn:排球世界杯;世界杯排球赛=>zh-sg:排球世界杯;世界杯排球赛=>zh-my:排球世界杯;世界杯排球赛=>zh-hk:排球世界盃;世界杯排球赛=>zh-mo:排球世界盃;"
+    },
+    {
+      "original": "Volleyball World Cup",
+      "conv": "世界盃排球賽=>zh-cn:排球世界杯;世界盃排球賽=>zh-sg:排球世界杯;世界盃排球賽=>zh-my:排球世界杯;世界盃排球賽=>zh-hk:排球世界盃;世界盃排球賽=>zh-mo:排球世界盃;"
+    },
+    {
+      "original": "Volleyball Men's World Cup",
+      "conv": "zh-hans:男排世界杯;zh-tw:世界盃男子排球賽;zh-hk:男排世界盃;"
+    },
+    {
+      "original": "Volleyball Men's World Cup",
+      "conv": "世界杯男子排球赛=>zh-cn:男排世界杯;世界杯男子排球赛=>zh-sg:男排世界杯;世界杯男子排球赛=>zh-my:男排世界杯;世界杯男子排球赛=>zh-hk:男排世界盃;世界杯男子排球赛=>zh-mo:男排世界盃;"
+    },
+    {
+      "original": "Volleyball Women's World Cup",
+      "conv": "zh-hans:女排世界杯;zh-tw:世界盃女子排球賽;zh-hk:女排世界盃;"
+    },
+    {
+      "original": "Volleyball Women's World Cup",
+      "conv": "世界杯女子排球赛=>zh-cn:女排世界杯;世界杯女子排球赛=>zh-sg:女排世界杯;世界杯女子排球赛=>zh-my:女排世界杯;世界杯女子排球赛=>zh-hk:女排世界盃;世界杯女子排球赛=>zh-mo:女排世界盃;"
+    },
+    {
+      "original": "Volleyball World Grand Champions Cup",
+      "conv": "zh-hans:排球大冠军杯;zh-tw:世界大冠軍盃排球賽;zh-hk:排球大冠軍盃;"
+    },
+    {
+      "original": "Volleyball Men's World Grand Champions Cup",
+      "conv": "zh-hans:男排大冠军杯;zh-tw:男子世界大冠軍盃排球賽;zh-hk:男排大冠軍盃;"
+    },
+    {
+      "original": "Volleyball Women's World Grand Champions Cup",
+      "conv": "zh-hans:女排大冠军杯;zh-tw:女子世界大冠軍盃排球賽;zh-hk:女排大冠軍盃;"
     },
     {
       "original": "Rugby World Cup",
-      "conv": "zh-hk:世界盃欖球賽; zh-hans:橄榄球世界杯赛; zh-hant:世界盃橄欖球賽;"
+      "conv": "zh-hans:橄榄球世界杯;zh-tw:世界盃橄欖球賽;zh-hk:欖球世界盃;"
+    },
+    {
+      "original": "Rugby World Cup",
+      "conv": "世界杯橄榄球赛=>zh-cn:橄榄球世界杯;世界杯橄榄球赛=>zh-sg:橄榄球世界杯;世界杯橄榄球赛=>zh-my:橄榄球世界杯;世界杯橄榄球赛=>zh-hk:欖球世界盃;世界杯橄榄球赛=>zh-mo:欖球世界盃;"
+    },
+    {
+      "original": "Rugby World Cup",
+      "conv": "世界盃欖球賽=>zh-cn:橄榄球世界杯;世界盃欖球賽=>zh-sg:橄榄球世界杯;世界盃欖球賽=>zh-my:橄榄球世界杯;世界盃欖球賽=>zh-hk:欖球世界盃;世界盃欖球賽=>zh-mo:欖球世界盃;"
     },
     {
       "original": "Table Tennis World Cup",
-      "conv": "zh-tw:世界盃桌球賽; zh-hans:国际乒联世界杯; zh-hk:世界盃乒乓球賽; zh:世界杯乒乓球赛; "
+      "conv": "zh-tw:世界盃桌球賽; zh-hans:国际乒联世界杯; zh-hk:世界盃乒乓球賽; zh:世界杯乒乓球赛; ;"
+    },
+    {
+      "original": "Asian Indoor and Martial Arts Games",
+      "conv": "zh-tw:亞洲室內暨武藝運動會; zh-cn:亚洲室内与武道运动会; zh-hk:亞洲室內暨武藝運動會;"
+    },
+    {
+      "original": "Asian Indoor and Martial Arts Games",
+      "conv": "武藝運動會=>zh-cn:武道运动会;"
+    },
+    {
+      "original": "World University Championships",
+      "conv": "zh:世界大學單項錦標賽;zh-tw:世界大學單項錦標賽;zh-hk:世界大學生錦標賽;zh-cn:世界大学生锦标赛;"
+    },
+    {
+      "original": "World Masters Games",
+      "conv": "zh-cn:世界老将运动会; zh-hk:世界先進運動會; zh-tw:世界壯年運動會; 世壯運=>zh-cn:老将运动会; 世壯運=>zh-hk:先進運動會;"
+    },
+    {
+      "original": "Masters Games",
+      "conv": "zh-cn:老将运动会; zh-hk:先進運動會; zh-tw:壯年運動會; 壮年运动会=>zh-cn:老将运动会;"
+    },
+    {
+      "original": "Association of Summer Olympic International Federations",
+      "conv": "zh-cn:夏季奥运项目国际单项体育联合会协会; zh-tw:夏季奧運單項運動總會聯合會;"
+    },
+    {
+      "original": "Association of Winter Olympic International Federations",
+      "conv": "zh-cn:冬季奥运项目国际单项体育联合会协会; zh-tw:冬季奧運單項運動總會聯合會;"
+    },
+    {
+      "original": "International Federations",
+      "conv": "zh-cn:单项体育联合会; zh-tw:單項運動總會;"
+    },
+    {
+      "original": "Association of IOC Recognised International Sports Federations",
+      "conv": "zh-cn:国际奥委会所承认的单项体育联合会联盟; zh-tw:國際奧會承認之國際運動總會聯合會;"
+    },
+    {
+      "original": "Global Association of International Sports Federations",
+      "conv": "zh-cn:国际单项体育联合会总会; zh-tw:國際單項運動總會聯合會;"
+    },
+    {
+      "original": "World Aquatics",
+      "conv": "zh-hans:世界游泳联合会; zh-tw:世界水上運動總會; zh-hk:世界游泳聯合會;"
+    },
+    {
+      "original": "Swimming Federation",
+      "conv": "zh-hans:洲游泳联合会; zh-hant:洲游泳總會;"
+    },
+    {
+      "original": "Chinese Billiards & Snooker Association",
+      "conv": "zh-tw:中國檯球協會;zh-cn:中国台球协会;"
+    },
+    {
+      "original": "Chinese Taipei Billiards Federation",
+      "conv": "zh-tw:中華民國撞球運動總會;zh-cn:中华民国撞球运动总会;"
+    },
+    {
+      "original": "Chinese Taipei Billiards Federation",
+      "conv": "zh-tw:中華臺北撞球總會;zh-cn:中华台北撞球总会;"
+    },
+    {
+      "original": "Chinaada",
+      "conv": "zh-hant:中國反興奮劑中心;zh-hans:中国反兴奋剂中心;"
+    },
+    {
+      "original": "CMAS",
+      "conv": "zh-tw:國際滑水暨寬板滑水總會;zh-cn:国际滑水联合会;"
+    },
+    {
+      "original": "CMSB",
+      "conv": "zh-tw:世界滾球運動聯合總會;zh-cn:世界滚球运动联盟;"
+    },
+    {
+      "original": "CTBF",
+      "conv": "zh-hant:中華民國撞球總會;zh-hans:中华民国撞球总会;"
+    },
+    {
+      "original": "CTTA",
+      "conv": "zh-hant:中國乒乓球協會;zh-hans:中国乒乓球协会;"
+    },
+    {
+      "original": "FAI",
+      "conv": "zh-tw:國際壁網球總會;zh-cn:世界壁球联合会;"
+    },
+    {
+      "original": "Federation Internationale de Savate",
+      "conv": "zh-tw:國際雪橇犬運動總會;zh-cn:国际雪橇犬运动联合会;"
+    },
+    {
+      "original": "FEI",
+      "conv": "zh-tw:國際馬術總會;zh-cn:国际马术联合会;"
+    },
+    {
+      "original": "FIAS",
+      "conv": "zh-tw:國際登山滑雪總會;zh-cn:国际滑雪登山联盟;"
+    },
+    {
+      "original": "Fédération internationale de basket-ball",
+      "conv": "zh-hans:国际篮球联合会;zh-tw:國際籃球總會;zh-hk:國際籃球聯會;"
+    },
+    {
+      "original": "FIBA",
+      "conv": "zh-hans:国际篮联;zh-tw:國際籃總;zh-hk:國際籃聯;"
+    },
+    {
+      "original": "FIE",
+      "conv": "zh-tw:國際擊劍總會;zh-cn:国际击剑联合会;"
+    },
+    {
+      "original": "FIM",
+      "conv": "zh-tw:國際泰拳總會;zh-cn:世界泰拳联合会;"
+    },
+    {
+      "original": "FIQ",
+      "conv": "zh-tw:國際保齡球總會;zh-cn:国际保龄球联合会;"
+    },
+    {
+      "original": "FISU",
+      "conv": "zh-tw:國際大學運動總會;zh-hk:國際大學體育總會;zh-cn:国际大学生体育联合会;"
+    },
+    {
+      "original": "FISU",
+      "conv": "zh-tw:國際大學體總;zh-hk:國際大學體總;zh-cn:国际大体联;"
+    },
+    {
+      "original": "Fédération Internationale de Volleyball",
+      "conv": "zh-hans:国际排球联合会;zh-tw:國際排球總會;zh-hk:國際排球聯會;"
+    },
+    {
+      "original": "FIVB",
+      "conv": "zh-hans:国际排联;zh-tw:國際排總;zh-hk:國際排聯;"
+    },
+    {
+      "original": "International Amateur Athletics Federation",
+      "conv": "zh:国际业余田径联合会;zh-hans:国际业余田径联合会;zh-hk:國際業餘田徑聯會;zh-tw:國際業餘田徑總會;"
+    },
+    {
+      "original": "International Association of Athletics Federations",
+      "conv": "zh:国际田径联合会;zh-hans:国际田径联合会;zh-hk:國際田徑聯會;zh-tw:國際田徑總會;"
+    },
+    {
+      "original": "International Association of Athletics Federations",
+      "conv": "zh:国际田联;zh-hans:国际田联;zh-hk:國際田聯;zh-tw:國際田總;"
+    },
+    {
+      "original": "ICEA",
+      "conv": "zh-tw:中式檯球國際聯合會;zh-cn:中式台球国际联合会;"
+    },
+    {
+      "original": "ICF",
+      "conv": "zh-tw:國際輕艇總會;zh-cn:国际皮划艇联合会;"
+    },
+    {
+      "original": "IDBF",
+      "conv": "zh-tw:國際浮士德球總會;zh-cn:国际浮士德球联合会;"
+    },
+    {
+      "original": "IFBB",
+      "conv": "zh-tw:世界飛鏢總會;zh-cn:国际飞镖联合会;"
+    },
+    {
+      "original": "IFF",
+      "conv": "zh-tw:國際福樂球總會;zh-cn:国际福乐球联合会;"
+    },
+    {
+      "original": "IFI",
+      "conv": "zh-tw:世界踢拳總會;zh-cn:世界踢拳道协会组织;"
+    },
+    {
+      "original": "IFMA",
+      "conv": "zh-tw:國際籃網球總會;zh-cn:国际篮网球联合会;"
+    },
+    {
+      "original": "IFS",
+      "conv": "zh-tw:國際拔河運動總會;zh-cn:国际拔河联合会;"
+    },
+    {
+      "original": "IFSS",
+      "conv": "zh-tw:國際釣魚運動總會;zh-cn:国际钓鱼运动联合会;"
+    },
+    {
+      "original": "IGF",
+      "conv": "zh-tw:國際高爾夫總會;zh-cn:国际高尔夫球联合会;"
+    },
+    {
+      "original": "IJF",
+      "conv": "zh-tw:國際柔道總會;zh-cn:国际柔道联合会;"
+    },
+    {
+      "original": "INF",
+      "conv": "zh-tw:國際定向越野運動總會;zh-cn:国际定向越野运动联合会;"
+    },
+    {
+      "original": "IOC",
+      "conv": "zh-hans:国际奥委会;zh-hant:國際奧委會;zh-tw:國際奧會;"
+    },
+    {
+      "original": "IOC",
+      "conv": "国际奥会=>zh-cn:国际奥委会;国际奥会=>zh-my:国际奥委会;国际奥会=>zh-sg:国际奥委会;"
+    },
+    {
+      "original": "IPF",
+      "conv": "zh-tw:國際藤球總會;zh-cn:国际藤球联合会;"
+    },
+    {
+      "original": "IRF",
+      "conv": "zh-tw:國際桑搏總會;zh-cn:国际桑勃式摔跤联合会;"
+    },
+    {
+      "original": "ISMF",
+      "conv": "zh-tw:世界壁球總會;zh-cn:世界壁球联合会;"
+    },
+    {
+      "original": "ISU",
+      "conv": "zh-hk:國際溜冰聯盟; zh-hans:国际滑冰联盟; zh-tw:國際滑冰總會;"
+    },
+    {
+      "original": "ITF",
+      "conv": "zh-tw:國際網球總會;zh-cn:国际网球联合会;"
+    },
+    {
+      "original": "ITF",
+      "conv": "zh-tw:國際網球總會;zh-cn:国际网球联合会;"
+    },
+    {
+      "original": "JJIF",
+      "conv": "zh-tw:世界迷你高爾夫球總會;zh-cn:世界迷你高尔夫球运动联盟;"
+    },
+    {
+      "original": "UCI",
+      "conv": "zh-hant:國際自行車聯盟;zh-cn:国际自行车联盟;zh-hk:國際單車聯盟;zh-tw:國際自由車總會;"
+    },
+    {
+      "original": "UIM",
+      "conv": "zh-tw:國際馬球總會;zh-cn:国际马球联合会;"
+    },
+    {
+      "original": "UIPM",
+      "conv": "zh-tw:國際現代五項總會;zh-cn:国际现代五项联合会;"
+    },
+    {
+      "original": "USADA",
+      "conv": "zh-cn:美国反兴奋剂机构; zh-tw:美國反禁藥組織;  zh-hk:美國反興奮劑機構;"
+    },
+    {
+      "original": "UWW",
+      "conv": "zh-tw:世界角力總會;zh-cn:世界摔跤协会;"
+    },
+    {
+      "original": "WADA",
+      "conv": "zh-cn:世界反兴奋剂机构; zh-tw:世界反運動禁藥機構; zh-hk:世界運動禁藥機構; zh-mo:世界反興奮劑機構;"
+    },
+    {
+      "original": "WAKO",
+      "conv": "zh-tw:國際合球總會;zh-cn:国际合球联合会;"
+    },
+    {
+      "original": "WCBS",
+      "conv": "zh-tw:世界撞球總會;zh-cn:世界台球运动联盟;"
+    },
+    {
+      "original": "WDF",
+      "conv": "zh-tw:世界西洋跳棋總會;zh-cn:世界国际跳棋联合会;"
+    },
+    {
+      "original": "WDSF",
+      "conv": "zh-tw:世界運動舞蹈總會;zh-cn:世界体育舞蹈联合会;zh-hk:世界體育舞蹈總會;"
+    },
+    {
+      "original": "WFDF",
+      "conv": "zh-tw:國際冰上滑盤總會;zh-cn:国际冰上溜石联合会;"
+    },
+    {
+      "original": "WFDF",
+      "conv": "zh-tw:世界飛盤總會;zh-cn:世界飞盘联合会;"
+    },
+    {
+      "original": "WKF",
+      "conv": "zh-tw:國際滑輪溜冰總會;zh-cn:国际轮滑联合会;"
+    },
+    {
+      "original": "World Athletics",
+      "conv": "zh:世界田径联合会;zh-hans:世界田径联合会;zh-hk:世界田徑聯會;zh-tw:世界田徑總會;"
+    },
+    {
+      "original": "World Athletics",
+      "conv": "zh:世界田联;zh-hans:世界田联;zh-hk:世界田聯;zh-tw:世界田總;"
+    },
+    {
+      "original": "World Rowing",
+      "conv": "zh-tw:世界划船總會;zh-cn:世界赛艇联合会;"
+    },
+    {
+      "original": "World Rugby",
+      "conv": "zh-hans:世界橄榄球联合会;zh-tw:世界橄欖球總會;zh-hk:世界欖球協會;"
+    },
+    {
+      "original": "World Skate",
+      "conv": "zh-tw:國際運動攀登總會;zh-cn:国际攀岩联合会;"
+    },
+    {
+      "original": "WSF",
+      "conv": "zh-tw:國際相撲總會;zh-cn:国际相扑联合会;"
+    },
+    {
+      "original": "WPA",
+      "conv": "zh-tw:世界撞球協會;zh-cn:世界撞球协会;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:國際健美總會;zh-cn:国际健美健身联合会;"
+    },
+    {
+      "original": "International University Sports Federation",
+      "conv": "zh-hans:国际大学生体育联合会;zh-hant:國際大學運動總會;zh:国际大学运动总会;"
+    },
+    {
+      "original": "IUSF",
+      "conv": "zh-hans:大体联;zh-hant:大學體總;"
+    },
+    {
+      "original": "International Masters Games Association",
+      "conv": "zh-cn:国际世界老将运动会协会; zh-hk:國際先進運動總會; zh-tw:國際壯年運動總會;"
     },
     {
       "original": "Opening ceremony",
@@ -237,7 +701,7 @@
     },
     {
       "original": "Opening ceremony",
-      "conv": "開幕典禮=>zh-hk:開幕禮;開幕典禮=>zh-mo:開幕禮;"
+      "conv": "開幕典禮=>zh-hk:開幕禮;開幕典禮=>zh-mo:開幕禮;開幕典禮=>zh-cn:开幕式;開幕典禮=>zh-tw:開幕式;"
     },
     {
       "original": "Closing ceremony",
@@ -245,7 +709,7 @@
     },
     {
       "original": "Opening ceremony",
-      "conv": "閉幕典禮=>zh-hk:閉幕禮;閉幕典禮=>zh-mo:閉幕禮;"
+      "conv": "閉幕典禮=>zh-hk:閉幕禮;閉幕典禮=>zh-mo:閉幕禮;閉幕典禮=>zh-cn:闭幕式;閉幕典禮=>zh-tw:閉幕式;"
     },
     {
       "original": "Opening & closing ceremony",
@@ -273,43 +737,43 @@
     },
     {
       "original": "first round",
-      "conv": "zh-cn:第一轮;zh-hk:第一圈;zh-tw:第一輪"
+      "conv": "zh-cn:第一轮;zh-hk:第一圈;zh-tw:第一輪;"
     },
     {
       "original": "second round",
-      "conv": "zh-cn:第二轮;zh-hk:第二圈;zh-tw:第二輪"
+      "conv": "zh-cn:第二轮;zh-hk:第二圈;zh-tw:第二輪;"
     },
     {
       "original": "third round",
-      "conv": "zh-cn:第三轮;zh-hk:第三圈;zh-tw:第三輪"
+      "conv": "zh-cn:第三轮;zh-hk:第三圈;zh-tw:第三輪;"
     },
     {
       "original": "4th round",
-      "conv": "zh-cn:第四轮;zh-hk:第四圈;zh-tw:第四輪"
+      "conv": "zh-cn:第四轮;zh-hk:第四圈;zh-tw:第四輪;"
     },
     {
       "original": "5th round",
-      "conv": "zh-cn:第五轮;zh-hk:第五圈;zh-tw:第五輪"
+      "conv": "zh-cn:第五轮;zh-hk:第五圈;zh-tw:第五輪;"
     },
     {
       "original": "6th round",
-      "conv": "zh-cn:第六轮;zh-hk:第六圈;zh-tw:第六輪"
+      "conv": "zh-cn:第六轮;zh-hk:第六圈;zh-tw:第六輪;"
     },
     {
       "original": "7th round",
-      "conv": "zh-cn:第七轮;zh-hk:第七圈;zh-tw:第七輪"
+      "conv": "zh-cn:第七轮;zh-hk:第七圈;zh-tw:第七輪;"
     },
     {
       "original": "8th round",
-      "conv": "zh-cn:第八轮;zh-hk:第八圈;zh-tw:第八輪"
+      "conv": "zh-cn:第八轮;zh-hk:第八圈;zh-tw:第八輪;"
     },
     {
       "original": "9th round",
-      "conv": "zh-cn:第九轮;zh-hk:第九圈;zh-tw:第九輪"
+      "conv": "zh-cn:第九轮;zh-hk:第九圈;zh-tw:第九輪;"
     },
     {
       "original": "10th round",
-      "conv": "zh-cn:第十轮;zh-hk:第十圈;zh-tw:第十輪"
+      "conv": "zh-cn:第十轮;zh-hk:第十圈;zh-tw:第十輪;"
     },
     {
       "original": "Stadium",
@@ -317,23 +781,23 @@
     },
     {
       "original": "Doping",
-      "conv": "zh-cn:体育兴奋剂; zh-tw:運動禁藥;"
+      "conv": "zh-cn:体育兴奋剂; zh-mo:體育興奮劑; zh-tw:運動禁藥; zh-hk:運動禁藥;"
     },
     {
       "original": "Doping",
-      "conv": "體育禁藥=>zh-cn:体育兴奋剂;"
+      "conv": "體育禁藥=>zh-cn:体育兴奋剂; 體育禁藥=>zh-mo:體育興奮劑;"
     },
     {
       "original": "Anti-Doping",
-      "conv": "反運動禁藥=>zh-cn:反兴奋剂; 反禁藥=>zh-cn:反兴奋剂; "
-    },
-    {
-      "original": "WADA",
-      "conv": "zh-cn:世界反兴奋剂机构; zh-tw:世界反運動禁藥機構; zh:世界反運動禁藥組織; "
+      "conv": "反運動禁藥=>zh-cn:反兴奋剂; 反禁藥=>zh-cn:反兴奋剂; 反禁药=>zh-cn:反兴奋剂; 反運動禁藥=>zh-mo:反興奮劑; 反禁药=>zh-hk:反興奮劑; 反禁藥=>zh-mo:反興奮劑;"
     },
     {
       "original": "Olympic Village",
-      "conv": "選手村=>zh-cn:运动员村; "
+      "conv": "選手村=>zh-cn:运动员村;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:奥运模式; zh-tw:奧會模式; zh-hk:奧運模式;"
     }
   ]
 }

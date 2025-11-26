@@ -32,6 +32,10 @@
       "conv": "帐号=>zh-cn:账号; 帐号=>zh-tw:帳號;"
     },
     {
+      "original": "article wizard",
+      "conv": "zh-cn:条目向导; zh-tw:條目嚮導;"
+    },
+    {
       "original": "account creator",
       "conv": "zh-cn:大量账号创建者; zh-tw:大量帳號建立者; zh-hk:大量帳號建立者;"
     },
@@ -101,7 +105,7 @@
     },
     {
       "original": "file",
-      "conv": "档案=>zh-cn:文件; 档案=>zh-sg:文件; 档案=>zh-my:文件;"
+      "conv": "档案=>zh-cn:文件;"
     },
     {
       "original": "file name",
@@ -125,7 +129,7 @@
     },
     {
       "original": "info (information)",
-      "conv": "zh-cn:信息; zh-tw:資訊;"
+      "conv": "zh:信息;zh-tw:資訊;資訊=>zh-cn:信息;資訊=>zh-sg:资讯;資訊=>zh-my:资讯;"
     },
     {
       "original": "interface",
@@ -296,6 +300,10 @@
       "conv": "計劃=>zh-cn:项目; 計劃=>zh-sg:项目; 計劃=>zh-my:项目; 計劃=>zh-tw:專案; 計劃=>zh-hk:專案; 計劃=>zh-mo:專案;"
     },
     {
+      "original": "project namespace",
+      "conv": "zh-hans:计划命名空间; zh-hant:計畫命名空間;"
+    },
+    {
       "original": "project page",
       "conv": "zh-hans:项目页面; zh-hant:專案頁面; zh-tw:專案頁面;"
     },
@@ -430,10 +438,6 @@
     {
       "original": "watchlist",
       "conv": "zh-cn:监视列表; zh-tw:監視清單;"
-    },
-    {
-      "original": "global",
-      "conv": "zh-cn:全域; zh-tw:全域;"
     }
   ]
 }

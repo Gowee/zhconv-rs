@@ -53,11 +53,23 @@
     },
     {
       "original": "[[空中巴士|airbus]]",
-      "conv": "zh-cn:空中客车; zh-tw:空中巴士; zh-hk:空中巴士; zh-sg:空中巴士;"
+      "conv": "zh-cn:空客; zh-tw:空巴; zh-hk:空巴; zh-sg:空巴;"
     },
     {
-      "original": "[[空中巴士|airbus]]",
-      "conv": "zh-cn:空客; zh-tw:空巴; zh-hk:空巴; zh-sg:空巴;"
+      "original": "[[航空交通管制|Air Traffic Control]]",
+      "conv": "zh-cn:空中交通管制; zh-tw:航空交通管制;"
+    },
+    {
+      "original": "[[航空交通管制|Air Traffic Control]]",
+      "conv": "zh-cn:空管; zh-tw:航管;"
+    },
+    {
+      "original": "[[航空管制員|Air Traffic Controller]]",
+      "conv": "zh-cn:空中交通管制员; zh-tw:航空管制員; 航空管制员=>zh-cn:空中交通管制员;"
+    },
+    {
+      "original": "[[航空管制員|Air Traffic Controller]]",
+      "conv": "zh-cn:空管员; zh-tw:航管員; 航管员=>zh-cn:空管员;"
     },
     {
       "original": "[[模拟|analog]]",
@@ -97,11 +109,11 @@
     },
     {
       "original": "astronaut",
-      "conv": "zh-hant:宇航員; zh-tw:太空人; zh-cn:宇航员; zh-hk:太空人; zh-sg:宇航员;"
+      "conv": "zh:航天员; zh-hant:航天員; zh-hk:太空人; zh-tw:太空人; 航天员=>zh-my:太空人;航天員=>zh-sg:太空人;航天员=>zh-my:太空人;航天員=>zh-sg:太空人;"
     },
     {
       "original": "astronaut",
-      "conv": "航天员=>zh-hk:太空人;航天員=>zh-hk:太空人;航天员=>zh-tw:太空人;航天員=>zh-tw:太空人;航天员=>zh-sg:宇航员;航天員=>zh-sg:宇航员;航天员=>zh-my:宇航员;航天員=>zh-my:宇航员;"
+      "conv": "zh:宇航員; zh-cn:宇航员; zh-hk:太空人; zh-tw:太空人; zh-my:太空人;"
     },
     {
       "original": "Atlas",
@@ -198,6 +210,10 @@
     {
       "original": "civil aircraft",
       "conv": "zh-cn:民用飞机; zh-tw:民航機;zh-hk:民用飛機;"
+    },
+    {
+      "original": "cockpit voice recorder",
+      "conv": "zh-hans:驾驶舱通话记录器;zh-hk:駕駛艙語音紀錄儀;zh-hant:駕駛艙通話記錄器;"
     },
     {
       "original": "[[壓縮機|compressor]]",
@@ -332,12 +348,20 @@
       "conv": "zh-hk:航太總署; zh-tw:太空總署; zh-cn:航空航天局;"
     },
     {
+      "original": "flight data recorder",
+      "conv": "zh-hans:飞行数据记录器;zh-hk:飛行數據紀錄儀;zh-hant:飛行資料記錄器;"
+    },
+    {
       "original": "[[飞行工程师|flight engineer]]",
       "conv": "zh-cn:飞行工程师; zh-tw:飛航工程師; zh-hk:飛行工程師;"
     },
     {
       "original": "Flight plan",
       "conv": "zh-cn:飞行计划; zh-tw:飛航計畫;"
+    },
+    {
+      "original": "flight recorder",
+      "conv": "zh-hans:飞行记录仪;zh-hk:飛行紀錄儀;zh-tw:飛行記錄器;"
     },
     {
       "original": "[[線傳操控|Fly-By-Wire]]",
@@ -350,6 +374,10 @@
     {
       "original": "[[飛翼|flying wing]]",
       "conv": "zh-cn:飞翼; zh-tw:飛翼;"
+    },
+    {
+      "original": "Firefly Aerospace",
+      "conv": "zh-cn:萤火虫航空航天; zh-tw:螢火蟲太空; zh-hk:螢火蟲太空; 萤火虫太空=>zh-cn:萤火虫航空航天;"
     },
     {
       "original": "first class",
@@ -380,6 +408,10 @@
       "conv": "zh-hans:盖尼米德;zh-hant:蓋尼米德;"
     },
     {
+      "original": "[[和谐号节点舱|Harmony]]",
+      "conv": "zh-cn:和谐号节点舱; zh-tw:協和號節點艙; zh-hk:和諧號節點艙; zh-sg:和谐号节点舱;"
+    },
+    {
       "original": "[[载人航天|Human spaceflight]]",
       "conv": "zh-cn:载人航天; zh-tw:載人太空飛行; zh-hk:載人太空飛行; zh-sg:载人航天;"
     },
@@ -393,7 +425,7 @@
     },
     {
       "original": "Information",
-      "conv": "zh-cn:信息; zh-tw:資訊; zh-hk:資訊;"
+      "conv": "zh:信息;zh-tw:資訊;zh-hk:資訊;資訊=>zh-cn:信息;資訊=>zh-sg:资讯;資訊=>zh-my:资讯;"
     },
     {
       "original": "[[進氣道|inlet]]",

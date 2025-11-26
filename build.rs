@@ -39,13 +39,13 @@ use vergen::EmitBuilder;
 #[cfg(feature = "opencc")]
 use self::opencc::load_opencc_to;
 
-// To update upstream rulesets, manually update commits here and run data/update_basic.py
-const MEDIAWIKI_COMMIT: &str = "7e8ae4dd01a659ecda127088bd1d227f4a1a1c68";
+// To update upstream rulesets, run `data/update_basic.py and cargo fmt`.
+const MEDIAWIKI_COMMIT: &str = "7747d1cc8b84bd1c6922dfb3c2bd5c2128304a1d";
 const MEDIAWIKI_SHA256: [u8; 32] =
-    hex!("128e3240f31ad69513ec26b38c04b9ab485508429a2b9b4877e0926a0155d6a8");
+    hex!("5cb0019b32bb39ec5c6e662029f90bd166f7a844efb3bc877f9be41fdd511bf2");
 
 #[cfg(feature = "opencc")]
-const OPENCC_COMMIT: &str = "2c7187e33b77bd8a356c676843cda69d2fccf887";
+const OPENCC_COMMIT: &str = "e0d41d7f5e7c62f9be1cfdd9e6cb1d03847c06e7";
 #[cfg(feature = "opencc")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     (
@@ -62,7 +62,7 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
     (
         "STPhrases.txt",
-        hex!("3e24d511fac0fc293e41ea116c7b2f2ecbfb1f594ea741f54e051c9b986a908e"),
+        hex!("b867f76161b76c9c6eb3f1d410fa51f8169e03c459f6c0a9e71c30ee00b86944"),
     ),
     (
         "TSCharacters.txt",

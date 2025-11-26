@@ -4,48 +4,24 @@
   "path": "Template:CGroup/名偵探柯南",
   "rules": [
     {
-      "original": "名探偵コナン 14番目の標的",
-      "conv": "zh-cn:名侦探柯南：第十四个目标;zh-tw:名偵探柯南：第十四號獵物;"
-    },
-    {
-      "original": "名探偵コナン 天国へのカウントダウン",
-      "conv": "zh-cn:名侦探柯南：通往天国的倒计时;zh-tw:名偵探柯南：往天國的倒數計時;"
-    },
-    {
-      "original": "名探偵コナン 迷宮の十字路",
-      "conv": "zh-cn:名侦探柯南：迷宫的十字路口;zh-tw:名偵探柯南：迷宮的十字路;"
-    },
-    {
-      "original": "名探偵コナン 銀翼の奇術師",
-      "conv": "zh-cn:名侦探柯南：银翼的魔术师;zh-tw:名偵探柯南：銀翼的奇術師;"
-    },
-    {
-      "original": "名探偵コナン 漆黒の追跡者",
-      "conv": "zh-cn:名侦探柯南：漆黑的追踪者;zh-tw:名偵探柯南：漆黑的追跡者;"
-    },
-    {
-      "original": "名探偵コナン 天空の難破船",
-      "conv": "zh-cn:名侦探柯南：天空的遇难船;zh-tw:名偵探柯南：天空的劫難船;zh-cn:名侦探柯南：天空的遇难船;zh-hk:名偵探柯南：天空的遇難船;zh-tw:名偵探柯南：天空的劫難船;zh-mo:名偵探柯南：天空的遇難船;"
-    },
-    {
-      "original": "名探偵コナン 11人目のストライカー",
-      "conv": "zh-cn:名侦探柯南：第11名前锋;zh-tw:名偵探柯南：第11位前鋒;"
+      "original": null,
+      "conv": "zh-cn:计时引爆摩天楼;zh-my:引爆摩天楼;zh-tw:引爆摩天樓;"
     },
     {
       "original": null,
-      "conv": "zh-cn:第十四个目标;zh-tw:第十四號獵物;"
+      "conv": "zh-cn:第十四个目标;zh-hk:第十四號獵物;zh-my:第十四号猎物;zh-sg:十四号猎物;zh-tw:第14號獵物;"
     },
     {
       "original": null,
-      "conv": "zh-cn:通往天国的倒计时;zh-tw:往天國的倒數計時;"
+      "conv": "zh-cn:通往天国的倒计时;zh-hk:通往天國的倒計時;zh-my:天国的倒数计时;zh-tw:往天國的倒數計時;"
     },
     {
       "original": null,
-      "conv": "zh-cn:迷宫的十字路口;zh-tw:迷宮的十字路;"
+      "conv": "zh-cn:迷宫的十字路口;zh-my:迷宫的十字路;zh-tw:迷宮的十字路;"
     },
     {
       "original": null,
-      "conv": "zh-cn:银翼的魔术师;zh-tw:銀翼的奇術師;"
+      "conv": "zh-cn:银翼的魔术师;zh-hk:銀翼魔術師;zh-my:银翼奇术师;zh-tw:銀翼的奇術師;"
     },
     {
       "original": null,
@@ -53,19 +29,27 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:天空的遇难船;zh-tw:天空的劫難船;zh-cn:天空的遇难船;zh-hk:天空的遇難船;zh-tw:天空的劫難船;zh-mo:天空的遇難船;"
+      "conv": "zh:天空的遇難船;zh-cn:天空的遇难船;zh-hk:天空的難破船;zh-tw:天空的劫難船;"
     },
     {
       "original": null,
-      "conv": "zh-cn:第11名前锋;zh-tw:第11位前鋒;"
+      "conv": "zh-cn:第11名前锋;zh-my:第11位前锋;zh-tw:第11位前鋒;"
     },
     {
       "original": null,
-      "conv": "zh-cn:远海的侦探;zh-tw:絕海的偵探;"
+      "conv": "zh-cn:远海的侦探;zh-my:绝海的侦探;zh-tw:絕海的偵探;"
     },
     {
-      "original": "緋色の弾丸",
-      "conv": "zh-cn:绯色的子弹;zh-tw:緋色的彈丸;zh-hk:緋色的彈丸;"
+      "original": null,
+      "conv": "zh:纯黑的噩梦;zh-hk:純黑的惡夢;zh-tw:純黑的惡夢;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:绯色的子弹;zh-hk:緋色的彈丸;zh-tw:緋色的彈丸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:百万美元的五棱星;zh-my:100万美元的五棱星;zh-tw:100萬美元的五稜星;"
     },
     {
       "original": "Vermouth",
@@ -100,16 +84,24 @@
       "conv": "zh-hans:胁田;zh-hant:脇田"
     },
     {
+      "original": "Jodie Starling",
+      "conv": "zh-cn:茱蒂·斯泰琳;zh-tw:茱蒂·史坦林"
+    },
+    {
       "original": "Agatha Christie",
-      "conv": "zh-cn:阿加莎·克里斯蒂; zh-sg:阿加莎·克里斯蒂; zh-tw:阿嘉莎·克莉絲蒂; zh-hk:阿嘉莎·姬絲蒂;"
+      "conv": "zh-cn:阿加莎·克里斯蒂;zh-my:阿嘉莎·克莉丝蒂;zh-tw:阿嘉莎·克莉絲蒂;zh-hk:阿嘉莎·姬絲蒂;"
     },
     {
       "original": "Jane Marple",
-      "conv": "zh-hans:简·马普尔; zh-hant:珍·瑪波;"
+      "conv": "zh-hans:简·马普尔;zh-hant:珍·瑪波;"
     },
     {
       "original": "Luís Figo",
       "conv": "zh-hans:路易斯·菲戈;zh-hk:路爾斯·費高;zh-tw:路易斯·菲戈;"
+    },
+    {
+      "original": "ルパン三世",
+      "conv": "zh-cn:鲁邦三世;zh-tw:魯邦三世;zh-hk:雷朋三世;"
     },
     {
       "original": "仮面",

@@ -49,11 +49,11 @@
     },
     {
       "original": "Di Rupo, Elio",
-      "conv": "zh-cn:埃利奥·迪吕波;zh-hk:埃利奧·迪魯伯; zh-tw:艾利歐·迪賀波;"
+      "conv": "zh-hans:埃利奥·迪吕波;zh-hant:埃利奧·迪呂波; zh-tw:艾利歐·迪賀波;"
     },
     {
       "original": "Di Rupo",
-      "conv": "zh-cn:迪吕波;zh-hk:迪魯伯; zh-tw:迪賀波;"
+      "conv": "zh-hans:迪吕波;zh-hant:迪呂波;zh-tw:迪賀波;"
     },
     {
       "original": "Bolsonaro",
@@ -61,7 +61,7 @@
     },
     {
       "original": "Nkurunziza, Pierre",
-      "conv": "zh-cn:皮埃尔·恩库伦齐扎; zh-tw:皮耶·恩庫倫齊薩; zh-hk:皮耶·恩古龍施沙;"
+      "conv": "zh-hans:皮埃尔·恩库伦齐扎; zh-tw:皮耶·恩庫倫齊薩; zh-hant:皮埃爾·恩庫倫齊扎;"
     },
     {
       "original": "Trudeau, Justin",
@@ -81,35 +81,47 @@
     },
     {
       "original": "Kubera, Jaroslav",
-      "conv": "zh-cn:雅罗斯拉夫·库贝拉; zh-tw:柯佳洛; zh-hk:柯佳洛;"
+      "conv": "zh-hans:雅罗斯拉夫·库贝拉; zh-hant:柯佳洛;"
     },
     {
-      "original": "Kubera, Jaroslav",
-      "conv": "zh-cn:库贝拉; zh-tw:柯佳洛; zh-hk:柯佳洛;"
-    },
-    {
-      "original": "Vystrčil, Miloš",
-      "conv": "zh-cn:米洛什·维斯特奇尔; zh-tw:韋德齊; zh-hk:維特齊;"
+      "original": "Kubera",
+      "conv": "zh-hans:库贝拉; zh-hant:柯佳洛;"
     },
     {
       "original": "Vystrčil, Miloš",
-      "conv": "zh-cn:维斯特奇尔; zh-tw:韋德齊; zh-hk:維特齊;"
+      "conv": "zh-hans:米洛什·维斯特奇尔; zh-tw:韋德齊;zh-hant:米洛什·維斯特奇爾;"
+    },
+    {
+      "original": "Vystrčil",
+      "conv": "zh-hans:维斯特奇尔; zh-tw:韋德齊; zh-hant:維斯特奇爾;"
+    },
+    {
+      "original": "Petříček, Tomáš",
+      "conv": "zh-hans:托马什·佩特日切克; zh-hant:托馬什·佩特日切克; zh-tw:湯瑪斯·佩崔切克;"
+    },
+    {
+      "original": "Petříček",
+      "conv": "zh-hans:佩特日切克; zh-hant:佩特日切克; zh-tw:佩崔切克;"
     },
     {
       "original": "Hřib, Zdeněk",
-      "conv": "zh-cn:兹德涅克·赫日布; zh-tw:茲德涅克·賀吉普; zh-hk:茲德涅克·賀瑞普;"
+      "conv": "zh-hans:兹德涅克·赫日布; zh-tw:賀吉普; zh-hk:賀瑞普;"
     },
     {
-      "original": "Hřib, Zdeněk",
-      "conv": "zh-cn:赫日布; zh-tw:賀吉普; zh-hk:賀瑞普;"
+      "original": "Hřib",
+      "conv": "zh-hans:赫日布; zh-tw:賀吉普; zh-hk:賀瑞普;"
     },
     {
       "original": "Frederiksen",
-      "conv": "zh-hans:弗雷德里克森; zh-hant:弗雷德里克森; zh-hk: 腓特烈臣; zh-tw:佛瑞德里克森;"
+      "conv": "zh-hans:弗雷泽里克森; zh-hant:弗雷澤里克森; zh-tw:佛瑞德里克森;"
     },
     {
       "original": "Afwerki",
       "conv": "zh-cn:阿费沃基; zh-tw:阿費沃爾基;"
+    },
+    {
+      "original": "Kallas, Kaja",
+      "conv": "zh-cn:卡娅·卡拉斯; zh-hant:卡婭·卡拉斯; zh-tw:卡雅·卡拉斯;"
     },
     {
       "original": "Niinistö",
@@ -117,11 +129,15 @@
     },
     {
       "original": "Bardella, Jordan",
-      "conv": "zh-hans:若尔丹·巴尔代拉; zh-hk:若爾丹·巴爾代拉; zh-tw:喬丹·巴德拉;"
+      "conv": "zh-hans:若尔当·巴尔代拉; zh-hk:佐敦·巴爾代拉; zh-tw:喬丹·巴德拉;"
     },
     {
       "original": "Bardella",
       "conv": "zh-hans:巴尔代拉; zh-hk:巴爾代拉; zh-tw:巴德拉;"
+    },
+    {
+      "original": "Bayrou",
+      "conv": "zh-hans:贝鲁; zh-tw:白胡;"
     },
     {
       "original": "Darmanin",
@@ -149,7 +165,7 @@
     },
     {
       "original": "Copé, Jean-François",
-      "conv": "zh-tw:冉-法蘭索瓦·柯貝;zh-cn:让-弗朗索瓦·科佩;zh-hant:讓-弗朗索瓦·科佩;"
+      "conv": "zh-tw:尚-法蘭索瓦·柯貝;zh-cn:让-弗朗索瓦·科佩;zh-hant:讓-弗朗索瓦·科佩;"
     },
     {
       "original": "Mélenchon, Jean-Luc",
@@ -173,11 +189,11 @@
     },
     {
       "original": "Le Pen, Marine",
-      "conv": "zh-cn:玛丽娜·勒庞;zh-hant:瑪琳·勒龐;zh-tw:瑪琳·勒朋;zh-hk:瑪琳·勒龐;"
+      "conv": "zh-cn:玛丽娜·勒庞;zh-tw:瑪琳·勒朋;zh-hk:瑪琳·勒龐;"
     },
     {
       "original": "Le Pen, Jean-Marie",
-      "conv": "zh-cn:让-马里·勒庞; zh-tw:尚-馬里·勒朋;zh-hant:讓-馬里·勒龐;zh-hk:莊-馬里·勒龐;"
+      "conv": "zh-cn:让-马里·勒庞;zh-tw:尚-馬里·勒朋;zh-hant:讓-馬里·勒龐;zh-hk:莊-馬里·勒龐;"
     },
     {
       "original": "Le Pen",
@@ -233,7 +249,7 @@
     },
     {
       "original": "Honecker",
-      "conv": "zh-hans:昂纳克; zh-tw:何內克;"
+      "conv": "zh-hans:昂纳克; zh-tw:何內克; zh-hk:昂立克;"
     },
     {
       "original": "Brandt",
@@ -252,24 +268,28 @@
       "conv": "zh-hans:希特勒;zh-hk:希特拉;zh-tw:希特勒;"
     },
     {
+      "original": "Merz",
+      "conv": "zh-hans:默茨;zh-tw:梅爾茨;zh-hk:默茨;"
+    },
+    {
       "original": "Moïse",
-      "conv": "zh-cn:莫伊兹;zh-tw:摩依士;"
+      "conv": "zh-cn:莫伊兹;zh-hk:摩依士;zh-tw:摩依士;"
     },
     {
-      "original": "Orbán",
-      "conv": "zh-hans:欧尔班; zh-tw:奧班; zh-hk:歐爾班;"
+      "original": "Orbán, Viktor Mihály (Hungary)",
+      "conv": "欧尔班=>zh-tw:奧班;歐爾班=>zh-tw:奧班;"
     },
     {
-      "original": "Orbán, Viktor",
-      "conv": "zh-hans:欧尔班·维克托; zh-tw:奧班·維克多; zh-hk:歐爾班·域陀;"
+      "original": "Orbán, Viktor Mihály (Hungary)",
+      "conv": "zh-cn:欧尔班·维克托; zh-tw:奧班·維克多; zh-hk:歐爾班·域陀;"
     },
     {
       "original": "Netanyahu, Benjamin",
-      "conv": "zh-hans:本雅明·内塔尼亚胡; zh-tw:班傑明·納坦雅胡; zh-hk:班傑明·內塔尼亞胡;"
+      "conv": "zh-hans:本雅明·内塔尼亚胡; zh-tw:班傑明·納坦雅胡; zh-hant:本雅明·內塔尼亞胡;"
     },
     {
       "original": "Netanyahu",
-      "conv": "zh-hans:内塔尼亚胡; zh-tw:納坦雅胡;zh-hk:內塔尼亞胡;"
+      "conv": "zh-hans:内塔尼亚胡; zh-tw:納坦雅胡;zh-hant:內塔尼亞胡;"
     },
     {
       "original": "Gantz, Benny",
@@ -285,7 +305,7 @@
     },
     {
       "original": "Khomeini",
-      "conv": "zh-hans:霍梅尼; zh-tw:何梅尼; zh-hk:高美尼;"
+      "conv": "zh-hans:霍梅尼; zh-tw:何梅尼; zh-hk:霍梅尼;"
     },
     {
       "original": "Mattarella",
@@ -305,7 +325,7 @@
     },
     {
       "original": "Conte, Giuseppe",
-      "conv": "zh-cn:朱塞佩·孔特; zh-hk:朱斯卑·干地; zh-tw:朱塞佩·孔蒂;"
+      "conv": "zh-hans:朱塞佩·孔特;zh-hant:朱塞佩·孔特; zh-tw:朱塞佩·孔蒂;"
     },
     {
       "original": "Di Maio",
@@ -324,12 +344,8 @@
       "conv": "zh-hans:托卡耶夫;zh-hant:托卡耶夫;zh-tw:托卡葉夫;"
     },
     {
-      "original": "Nursultan",
-      "conv": "zh-hans:努尔苏丹;zh-hk:諾爾蘇丹;zh-tw:努爾蘇丹;"
-    },
-    {
       "original": "Nazarbayev",
-      "conv": "zh-hans:纳扎尔巴耶夫;zh-hant:納扎爾巴耶夫;zh-hk:拿薩巴耶夫;"
+      "conv": "zh-hans:纳扎尔巴耶夫;zh-hant:納扎爾巴耶夫;zh-tw:納札爾巴耶夫;"
     },
     {
       "original": "Ibrahim, Anwar",
@@ -360,10 +376,6 @@
       "conv": "zh-tw:卡德隆;zh-hant:卡爾德龍;zh-hans:卡尔德龙;"
     },
     {
-      "original": "Maia",
-      "conv": "zh-cn:马娅;zh-hant:馬婭;zh-tw:瑪雅;"
-    },
-    {
       "original": "Schoof",
       "conv": "zh-hans:斯霍夫;zh-hant:斯霍夫;zh-tw:史庫夫;"
     },
@@ -378,6 +390,22 @@
     {
       "original": "Hipkins, Christopher John",
       "conv": "希普金斯=>zh-tw:希金斯; 希普金斯=>zh-hk:葉建事; 希普金斯=>zh-mo:葉建事;"
+    },
+    {
+      "original": "Ortega",
+      "conv": "zh-hans:奥尔特加;zh-hant:奧爾特加;zh-tw:奧德嘉;"
+    },
+    {
+      "original": "Murillo",
+      "conv": "zh-hans:穆里略;zh-hant:穆里略;zh-tw:穆麗優;"
+    },
+    {
+      "original": "Sandino",
+      "conv": "zh-hans:桑地诺;zh-tw:桑迪諾;zh-hk:桑地諾;"
+    },
+    {
+      "original": "Somoza",
+      "conv": "zh-hans:索摩查;zh-tw:蘇慕薩;zh-hk:索摩查;"
     },
     {
       "original": "Stoltenberg",
@@ -400,16 +428,72 @@
       "conv": "zh-hk:阿基諾;zh-tw:艾奎諾;zh-cn:阿基诺;zh-sg:阿奎诺;"
     },
     {
+      "original": "Rafał Trzaskowski",
+      "conv": "zh-hk:拉法烏·特扎斯科夫斯基; zh-cn:拉法乌·恰斯科夫斯基;zh-tw:拉法·佐薩斯科斯基;"
+    },
+    {
+      "original": "Trzaskowski",
+      "conv": "zh-hk:特扎斯科夫斯基; zh-cn:恰斯科夫斯基; zh-tw:佐薩斯科斯基;"
+    },
+    {
+      "original": "Aníbal Cavaco Silva",
+      "conv": "zh:阿尼巴爾·卡瓦科·席爾瓦; zh-cn:阿尼巴尔·卡瓦科·席尔瓦; zh-mo:施華高; zh-tw:阿尼巴爾·卡瓦科·席瓦;"
+    },
+    {
+      "original": "Cavaco Silva",
+      "conv": "zh:卡瓦科·席爾瓦; zh-cn:卡瓦科·席尔瓦; zh-tw:卡瓦科·席瓦;"
+    },
+    {
+      "original": "Cavaco Silva",
+      "conv": "卡瓦科·席爾瓦=>zh-hk:施華高; 卡瓦科·席尔瓦=>zh-hk:施華高; 卡瓦科·席瓦=>zh-hk:施華高;"
+    },
+    {
+      "original": "Cavaco Silva",
+      "conv": "卡瓦科·席爾瓦=>zh-mo:施華高; 卡瓦科·席尔瓦=>zh-mo:施華高; 卡瓦科·席瓦=>zh-mo:施華高;"
+    },
+    {
+      "original": "António Guterres",
+      "conv": "zh-hans:安东尼奥·古特雷斯;zh-tw:安東尼歐·古特瑞斯;zh-mo:古德禮;zh-hant:安東尼奧·古特雷斯;zh-hk:古德禮;"
+    },
+    {
+      "original": "Jorge Sampaio",
+      "conv": "zh-hk:沈拜奧;zh-mo:沈拜奧;zh-hans:若热·桑帕约;zh-tw:若熱·桑帕約;"
+    },
+    {
       "original": "Pútin, Vladímir",
       "conv": "zh-cn:弗拉基米尔·普京;zh-hk:弗拉迪米爾·普京;zh-tw:弗拉迪米爾·普丁;"
     },
     {
-      "original": "Pútin",
-      "conv": "zh-cn:普京; zh-tw:普丁;zh-hk:普京;"
+      "original": "Antonescu",
+      "conv": "zh-tw:安托內斯古;zh-hk:安東尼斯古;zh-cn:安东内斯库;"
     },
     {
-      "original": "Ceaușescu",
-      "conv": "zh-hans:齐奥塞斯库; zh-hant:西奧塞古; zh-hk:壽西斯古; zh-tw:西奧塞古;"
+      "original": "Antonescu",
+      "conv": "zh:安東內斯庫;zh-tw:安托內斯古;zh-hk:安東尼斯古;zh-cn:安东内斯库;"
+    },
+    {
+      "original": "Băsescu",
+      "conv": "zh-cn:伯塞斯库;zh-tw:伯塞斯古;"
+    },
+    {
+      "original": "Ceauşescu",
+      "conv": "zh-cn:齐奥塞斯库; zh-tw:西奧塞古; zh-hk:壽西斯古;"
+    },
+    {
+      "original": "Geoană",
+      "conv": "zh-cn:杰瓦讷;zh-tw:傑瓦納;"
+    },
+    {
+      "original": "Iliescu",
+      "conv": "zh-cn:伊利埃斯库;zh-tw:伊列斯古;"
+    },
+    {
+      "original": "Orban, Ludovic (Romania)",
+      "conv": "奥尔班=>zh-tw:奧班;奧爾班=>zh-tw:奧班;"
+    },
+    {
+      "original": "Popescu",
+      "conv": "zh-tw:波佩斯庫;zh-hk:樸比斯古;zh-cn:波佩斯库;"
     },
     {
       "original": "Ramaphosa",
@@ -430,6 +514,10 @@
     {
       "original": "Botha, Pieter Willem",
       "conv": "zh-hans:威廉·博塔; zh-hant:威廉·波塔; zh-hk:威廉·博塔"
+    },
+    {
+      "original": "Han Duck-soo",
+      "conv": "zh-cn:韩德洙 ;zh-hk:韓悳洙 ;zh-tw:韓悳洙 ;zh-hant:韓德洙 ;zh-hans:韩悳洙 ;"
     },
     {
       "original": "Borrell, Josep",
@@ -500,16 +588,24 @@
       "conv": "zh-hans:查尔斯; zh-tw:查爾斯; zh-hk:查理斯;"
     },
     {
-      "original": "Zelenskyy, Volodymyr",
-      "conv": "zh-hans:弗拉基米尔·泽连斯基; zh-hant:弗拉基米爾·澤連斯基; zh-tw:弗拉迪米爾·澤倫斯基;"
+      "original": "Kuchma",
+      "conv": "zh-hant:庫奇馬; zh-tw:庫契馬; zh-cn:库奇马;"
     },
     {
-      "original": "Zelenskyy",
-      "conv": "zh-hans:泽连斯基; zh-hant:澤連斯基; zh-tw:澤倫斯基;"
+      "original": "Poroshenko, Petro",
+      "conv": "zh-hk:彼得羅·波羅申科; zh-tw:彼得·波洛申科; zh-cn:彼得罗·波罗申科; zh-hant:彼得·波羅申科; zh:彼得·波罗申科;"
     },
     {
       "original": "Poroshenko",
       "conv": "zh-cn:波罗申科; zh-tw:波洛申科;zh-hk:波羅申科;"
+    },
+    {
+      "original": "Turchynov",
+      "conv": "zh-hans:图尔奇诺夫;zh-hant:圖爾奇諾夫;zh-tw:圖奇諾夫;"
+    },
+    {
+      "original": "Tymoshenko",
+      "conv": "zh-cn:季莫申科;zh-hk:季莫申科;zh-tw:提摩申科;"
     },
     {
       "original": "Tymoshenko, Yulia",
@@ -518,6 +614,10 @@
     {
       "original": "Yushchenko",
       "conv": "zh-cn:尤先科; zh-tw:尤申科; zh-hk:尤先科;"
+    },
+    {
+      "original": "Zelenskyy, Volodymyr",
+      "conv": "zh-hans:弗拉基米尔·泽连斯基; zh-hant:弗拉基米爾·澤連斯基; zh-tw:弗拉迪米爾·澤倫斯基;"
     },
     {
       "original": "Joe Biden",
@@ -582,6 +682,14 @@
     {
       "original": "Khrushchev",
       "conv": "zh-hans:赫鲁晓夫; zh-tw:赫魯雪夫; zh-hk:赫魯曉夫;"
+    },
+    {
+      "original": "Gorbachyov",
+      "conv": "zh-hk:戈巴卓夫; zh-tw:戈巴契夫; zh-cn:戈尔巴乔夫; zh-hant:戈爾巴喬夫;"
+    },
+    {
+      "original": "Tito",
+      "conv": "zh-cn:铁托; zh-hk:鐵托; zh-tw:狄托;"
     }
   ]
 }

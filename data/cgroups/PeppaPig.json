@@ -1,6 +1,6 @@
 {
   "name": "PeppaPig",
-  "description": "小猪佩奇",
+  "description": "PeppaPig",
   "path": "Module:CGroup/PeppaPig",
   "rules": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hk:Peppa;zh-cn:佩奇;zh-tw:佩佩;"
+      "conv": "zh-hk:Peppa;zh-cn:佩奇;zh-my:佩佩;zh-tw:佩佩;"
     },
     {
       "original": null,
@@ -137,7 +137,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:粉紅豬一家親;zh-hk:粉紅豬小妹;zh-cn:小猪佩奇;zh-tw:粉紅豬小妹;"
+      "conv": "zh-hk:粉紅豬小妹;zh-cn:小猪佩奇;zh-my:佩佩粉红猪;zh-tw:粉紅豬小妹;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hk:粉紅豬一家親;zh-cn:小猪佩奇;zh-my:佩佩粉红猪;zh-tw:粉紅豬小妹;"
     },
     {
       "original": null,

@@ -5,11 +5,11 @@
   "rules": [
     {
       "original": "ガロード",
-      "conv": "zh-hans:嘉罗德;zh-tw:嘉羅德;zh-hk:卡洛"
+      "conv": "zh-hans:加罗德;zh-tw:嘉羅德;zh-hk:卡洛"
     },
     {
       "original": "ガロード・ラン",
-      "conv": "zh-hans:嘉罗德·兰;zh-tw:嘉羅德·蘭;zh-hk:卡洛·萊"
+      "conv": "zh-hans:加罗德·兰;zh-tw:嘉羅德·蘭;zh-hk:卡洛·萊"
     },
     {
       "original": "ティファ",
@@ -21,19 +21,23 @@
     },
     {
       "original": "ジャミル",
-      "conv": "zh-hans:加米尔;zh-tw:賈米爾;zh-hk:舒文"
+      "conv": "zh-hans:賈米尔;zh-tw:賈米爾;zh-hk:舒文"
     },
     {
       "original": "ウィッツ",
-      "conv": "zh-hans:威兹;zh-tw:威茲;zh-hk:胡斯"
+      "conv": "zh-hans:维兹;zh-tw:威茲;zh-hk:胡斯"
+    },
+    {
+      "original": "ウィッツ",
+      "conv": "zh-hans:维兹·斯;zh-tw:威茲·蘇;zh-hk:胡斯·蘇"
     },
     {
       "original": "ロアビィ",
-      "conv": "zh-hans:罗阿比;zh-tw:羅亞比;zh-hk:羅比"
+      "conv": "zh-hans:罗比;zh-tw:羅亞比;zh-hk:羅比"
     },
     {
       "original": "ロアビィ・ロイ",
-      "conv": "zh-hans:罗阿比·罗伊;zh-tw:羅亞比·羅伊;zh-hk:羅比·勞"
+      "conv": "zh-hans:罗比·罗伊;zh-tw:羅亞比·羅伊;zh-hk:羅比·勞"
     },
     {
       "original": "トニヤ",
@@ -65,11 +69,11 @@
     },
     {
       "original": "エニル",
-      "conv": "zh-hans:爱妮尔;zh-tw:安妮;zh-hk:艾妮露"
+      "conv": "zh-hans:艾尼尔;zh-tw:安妮;zh-hk:艾妮露"
     },
     {
       "original": "エニル・エル",
-      "conv": "zh-hans:爱妮尔·艾尔;zh-tw:安妮·艾爾;zh-hk:艾妮露·艾活"
+      "conv": "zh-hans:艾尼尔·艾尔;zh-tw:安妮·艾爾;zh-hk:艾妮露·艾活"
     },
     {
       "original": "ナーダ・エル",
@@ -85,11 +89,11 @@
     },
     {
       "original": "シャギア",
-      "conv": "zh-hans:沙基亚;zh-tw:夏基亞;zh-hk:積基亞"
+      "conv": "zh-hans:夏基亚;zh-tw:夏基亞;zh-hk:積基亞"
     },
     {
       "original": "オルバ",
-      "conv": "zh-hans:欧尔巴;zh-tw:歐魯巴;zh-hk:奧魯巴"
+      "conv": "zh-hans:奥尔巴;zh-tw:歐魯巴;zh-hk:奧魯巴"
     },
     {
       "original": "フロスト",
@@ -149,11 +153,15 @@
     },
     {
       "original": "デマー",
-      "conv": "zh-hans:德曼爾;zh-tw:德曼爾;zh-hk:迪馬"
+      "conv": "zh-hans:戴玛;zh-tw:德曼爾;zh-hk:迪馬"
+    },
+    {
+      "original": "グライフ",
+      "conv": "zh-hans:葛雷夫;zh-tw:格萊福;zh-hk:格萊福"
     },
     {
       "original": "ドゥエート",
-      "conv": "zh-hans:德溫特;zh-tw:德溫特;zh-hk:杜艾圖"
+      "conv": "zh-hans:德溫迪;zh-tw:德溫特;zh-hk:杜艾圖"
     },
     {
       "original": "ラングラフ",
@@ -161,11 +169,11 @@
     },
     {
       "original": "ミルラ",
-      "conv": "zh-hans:米尔莱;zh-tw:米爾萊;zh-hk:米拿"
+      "conv": "zh-hans:米露拉;zh-tw:米爾萊;zh-hk:米拿"
     },
     {
       "original": "ドライド",
-      "conv": "zh-hans:德莱杜;zh-tw:德萊杜;zh-hk:杜雷度"
+      "conv": "zh-hans:道拉德;zh-tw:德萊杜;zh-hk:杜雷度"
     },
     {
       "original": "アベル",
@@ -173,7 +181,7 @@
     },
     {
       "original": "バウアー",
-      "conv": "zh-hans:鲍尔;zh-tw:鮑爾;zh-hk:包維"
+      "conv": "zh-hans:巴尔;zh-tw:鮑爾;zh-hk:包維"
     },
     {
       "original": "カロン",
@@ -225,7 +233,7 @@
     },
     {
       "original": "ベルティゴ",
-      "conv": "zh-hans:貝迪可;zh-tw:貝迪可;zh-hk:貝迪高"
+      "conv": "zh-hans:贝露迪哥;zh-tw:貝迪可;zh-hk:貝迪高"
     },
     {
       "original": "ビーム",

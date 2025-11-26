@@ -13,19 +13,23 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:朝鲜;zh-my:朝鲜;"
+      "conv": "zh=朝鮮;zh-hans=朝鲜;zh-hant=朝鮮;zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:朝鲜;zh-my:朝鲜;"
     },
     {
       "original": null,
-      "conv": "zh:朝鮮;zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:朝鲜;zh-my:朝鲜;"
+      "conv": "zh=韓國;zh-hans=韩国;zh-hant=韓國;zh-cn:韩国;zh-tw:南韓;zh-hk:南韓;zh-mo:南韓;zh-sg:韩国;zh-my:韩国;"
     },
     {
       "original": null,
-      "conv": "南韩=>zh-cn:韩国;南韓=>zh-cn:韩国;"
+      "conv": "南韩=>zh-cn:韩国;"
     },
     {
       "original": null,
-      "conv": "zh-cn:朝韩;zh-tw:南北韓;zh-hk:南北韓;zh-mo:南北韓;zh-sg:朝韩;zh-my:朝韩;"
+      "conv": "南韓=>zh-cn:韩国;"
+    },
+    {
+      "original": null,
+      "conv": "朝韩=>zh-tw:南北韓;朝韩=>zh-hk:南北韓;朝韩=>zh-mo:南北韓;"
     },
     {
       "original": null,
@@ -81,11 +85,11 @@
     },
     {
       "original": null,
-      "conv": "兩韓=>zh-cn:朝韩;兩韓=>zh-sg:朝韩;兩韓=>zh-my:朝韩;"
+      "conv": "两韩=>zh-cn:韩朝;兩韓=>zh-sg:韩朝;兩韓=>zh-my:韩朝;"
     },
     {
       "original": null,
-      "conv": "两韩=>zh-cn:朝韩;两韩=>zh-sg:朝韩;两韩=>zh-my:朝韩;"
+      "conv": "兩韓=>zh-cn:韩朝;兩韓=>zh-sg:韩朝;兩韓=>zh-my:韩朝;"
     },
     {
       "original": null,
@@ -109,15 +113,15 @@
     },
     {
       "original": null,
-      "conv": "北韩方=>zh-cn:朝方;北韩方=>zh-sg:朝方;北韩方=>zh-my:朝方;北韓方=>zh-cn:朝方;北韓方=>zh-sg:朝方;北韓方=>zh-my:朝方;"
+      "conv": "zh-cn:韩方;zh-tw:南韓方面;"
     },
     {
       "original": null,
-      "conv": "南韩方面=>zh-cn:韩方;南韩方面=>zh-sg:韩方;南韩方面=>zh-my:韩方;"
+      "conv": "北韩方=>zh-cn:朝方;北韩方=>zh-sg:朝方;北韩方=>zh-my:朝方;"
     },
     {
       "original": null,
-      "conv": "南韓方面=>zh-cn:韩方;南韓方面=>zh-sg:韩方;南韓方面=>zh-my:韩方;"
+      "conv": "北韓方=>zh-cn:朝方;北韓方=>zh-sg:朝方;北韓方=>zh-my:朝方;"
     },
     {
       "original": null,
@@ -129,11 +133,35 @@
     },
     {
       "original": null,
+      "conv": "北韩方面=>zh-cn:朝方;北韩方面=>zh-sg:朝方;北韩方面=>zh-my:朝方;"
+    },
+    {
+      "original": null,
+      "conv": "北韓方面=>zh-cn:朝方;北韓方面=>zh-sg:朝方;北韓方面=>zh-my:朝方;"
+    },
+    {
+      "original": null,
+      "conv": "南韩方面=>zh-cn:韩方;南韩方面=>zh-sg:韩方;南韩方面=>zh-my:韩方;"
+    },
+    {
+      "original": null,
+      "conv": "南韓方面=>zh-cn:韩方;南韓方面=>zh-sg:韩方;南韓方面=>zh-my:韩方;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:对朝;zh-tw:對北韓;"
     },
     {
       "original": null,
       "conv": "zh-cn:对朝鲜;zh-tw:對北韓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:对韩;zh-tw:對南韓;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:对韩国;zh-tw:對南韓;"
     },
     {
       "original": null,
@@ -437,7 +465,19 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:特检法; zh-hant:獨檢法; 独检法=>zh-cn:特检法;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:特别检察官; zh-hant:獨立檢察官;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:朝鲜共产党;zh-hant:朝鮮共產黨;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:朝鲜人民党;zh-hant:朝鮮人民黨;"
     },
     {
       "original": null,
@@ -469,6 +509,10 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:朝鲜社会安全军;zh-hant:朝鮮社會安全軍;"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:朝鲜银行;zh-hant:朝鮮銀行;"
     },
     {
@@ -481,7 +525,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:朝鮮文學藝術總同盟;zh-hans:朝鲜文学艺术总同盟;"
+      "conv": "zh-hans:朝鲜文学艺术总同盟;zh-hant:朝鮮文學藝術總同盟;"
     },
     {
       "original": null,
@@ -725,6 +769,14 @@
     },
     {
       "original": null,
+      "conv": "三八线=>zh-tw:38度線; 三八线=>zh-hk:38度線; 三八线=>zh-mo:38度線;"
+    },
+    {
+      "original": null,
+      "conv": "三八線=>zh-tw:38度線; 三八線=>zh-hk:38度線; 三八線=>zh-mo:38度線;"
+    },
+    {
+      "original": null,
       "conv": "zh-hant:朝鮮半島;zh-hans:朝鲜半岛;"
     },
     {
@@ -865,6 +917,10 @@
     },
     {
       "original": null,
+      "conv": "zh-hant:朝鮮冷麵;zh-hans:朝鲜冷面;"
+    },
+    {
+      "original": null,
       "conv": "zh-hant:朝鮮學;zh-hans:朝鲜学;"
     },
     {
@@ -885,11 +941,11 @@
     },
     {
       "original": null,
-      "conv": "zh:太極旗飄揚;zh-hans:太极旗飘扬;zh-hant:太極旗－生死兄弟;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-mo:太極旗飄揚：生死有情;"
+      "conv": "zh:太極旗飄揚;zh-cn:太极旗飘扬;zh-tw:太極旗－生死兄弟;zh-hk:太極旗飄揚：生死有情;zh-my:太极旗飘扬：生死有情;zh-sg:兄弟;}--{-|兄弟"
     },
     {
       "original": null,
-      "conv": "zh-tw:鋼鐵雨;zh-cn:铁雨;zh-hk:鋼鐵雨;"
+      "conv": "zh-cn:铁雨;zh-sg:钢铁雨;zh-tw:鋼鐵雨;zh-hk:鋼鐵雨;"
     },
     {
       "original": null,

@@ -101,6 +101,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:动画25周年纪念 数码宝贝大冒险展;zh-hk:數碼暴龍動畫25周年紀念展;zh-tw:數碼寶貝動畫25週年紀念展;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:原创故事;zh-hk:原創故事;zh-tw:原創物語;zh-sg:原创物语;"
     },
     {
@@ -125,7 +129,35 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:梦想家;zh-hk:夢想家;zh-tw:夢想者;zh-sg:梦想者;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:三岔路;zh-hk:三叉路;zh-tw:三叉路;zh-sg:三叉路;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:外墙贫民窟;zh-hk:外壁貧民街;zh-tw:外壁貧民街;zh-sg:外壁贫民街;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:噩梦;zh-hk:噩夢;zh-tw:惡夢;zh-sg:恶梦;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:港台;zh-hk:港台;zh-tw:台港;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:港澳台;zh-hk:港澳台;zh-tw:台港澳;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:汉化;zh-hk:漢化;zh-tw:中文化;zh-sg:中文化;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:新马;zh-hk:新馬;zh-tw:新馬;zh-my:马新;zh-sg:新马;"
     },
     {
       "original": null,
@@ -173,7 +205,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:收集者;zh-hk:收藏家;zh-tw:收集者;zh-sg:收藏家;"
+      "conv": "zh-cn:收集者;zh-hk:收藏家;zh-tw:收藏家;zh-sg:收藏家;"
     },
     {
       "original": null,
@@ -225,6 +257,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:遗失的进化;zh-hk:失落的進化;zh-tw:失落的進化;zh-sg:失落的进化;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:战斗之魂;zh-hk:格鬥之王;zh-tw:格鬥之魂;zh-sg:对战之魂;"
     },
     {
@@ -249,6 +285,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:联网战斗;zh-hk:聯網格鬥;zh-tw:聯網格鬥;zh-sg:联网对战;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:战斗机;zh-hk:格鬥機;zh-tw:格鬥機;zh-sg:对战机;"
     },
     {
@@ -258,6 +298,10 @@
     {
       "original": null,
       "conv": "zh-cn:战斗版;zh-hk:格鬥版;zh-tw:格鬥版;zh-sg:对战版;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:数码宝贝卡牌;zh-hk:數碼暴龍卡牌;zh-mo:數碼暴龍卡片;zh-tw:數碼寶貝卡牌;zh-sg:数码宝贝卡片;"
     },
     {
       "original": null,
@@ -293,6 +337,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:御台场纪念音乐会;zh-hk:台場紀念音樂會;zh-tw:台場紀念音樂會;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:携带机;zh-hk:暴龍機;zh-tw:怪獸對打機;zh-sg:宝贝机;"
     },
     {
@@ -309,11 +357,91 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:周年;zh-hk:周年;zh-tw:週年;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:形态;zh-hk:型態;zh-tw:型態;"
     },
     {
       "original": null,
-      "conv": "zh-cn:周年;zh-hk:周年;zh-tw:週年;"
+      "conv": "zh-cn:异种型;zh-hk:異域型;zh-tw:異域型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:改造型;zh-hk:生化型;zh-tw:生化型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:烟雾型;zh-hk:煙幕型;zh-tw:煙幕型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:畸变型;zh-hk:變種型;zh-tw:變種型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:布朗型;zh-hk:布勞恩型;zh-tw:布勞恩型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:长颈龙型;zh-hk:蛇頸龍型;zh-tw:蛇頸龍型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:两栖类型;zh-hk:兩棲型;zh-tw:兩棲型;zh-sg:两栖型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:智能机;zh-hk:智能機;zh-tw:智慧機;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:主计算机;zh-hk:主電腦;zh-tw:主電腦;zh-sg:主电脑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机的;zh-hk:電腦的;zh-tw:電腦的;zh-sg:电脑的;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机上;zh-hk:電腦上;zh-tw:電腦上;zh-sg:电脑上;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机中;zh-hk:電腦中;zh-tw:電腦中;zh-sg:电脑中;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机部;zh-hk:電腦部;zh-tw:電腦部;zh-sg:电脑部;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机企业;zh-hk:電腦公司;zh-tw:電腦公司;zh-sg:电脑公司;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机网络;zh-hk:電腦網絡;zh-tw:電腦網路;zh-sg:电脑网络;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机病毒;zh-hk:電腦病毒;zh-tw:電腦病毒;zh-sg:电脑病毒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:个人计算机;zh-hk:個人電腦;zh-tw:個人電腦;zh-sg:个人电脑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:笔记本电脑;zh-hk:手提電腦;zh-tw:筆記型電腦;zh-sg:手提电脑;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:电子计算机;zh-hk:電腦（Computer）;zh-tw:電腦（Computer）;zh-sg:电脑（Computer）;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:计算机服务器;zh-hk:電腦伺服器;zh-tw:電腦伺服器;zh-sg:电脑伺服器;"
     },
     {
       "original": null,
@@ -326,6 +454,10 @@
     {
       "original": null,
       "conv": "zh-cn:拓麻歌子;zh-hk:他媽哥池;zh-tw:塔麻可吉;zh-sg:塔麻可吉;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:伊利亚斯;zh-hk:伊利亞斯;zh-tw:伊利亞斯;zh-sg:伊利亚特;"
     },
     {
       "original": null,
@@ -365,6 +497,14 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:暴龙改造者;zh-hk:數碼凱撒;zh-tw:暴龍改造者;zh-sg:数码恺撒;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:个应用;zh-hk:個程式;zh-tw:個APP;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:应用兽;zh-hk:程式獸;zh-tw:APP獸;"
     },
     {
@@ -382,6 +522,10 @@
     {
       "original": null,
       "conv": "zh-cn:应用合体;zh-hk:程式合體;zh-tw:APP合體;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:应用生命体;zh-hk:程式生命體;zh-tw:APP生命體;"
     },
     {
       "original": null,
@@ -421,11 +565,23 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:三枪手;zh-hk:三槍手;zh-tw:三劍客;zh-sg:三剑客;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:万维网大陆;zh-hk:萬維網大陸;zh-tw:WWW大陸;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:文件岛;zh-hk:檔案島;zh-tw:檔案島;"
     },
     {
       "original": null,
       "conv": "zh-cn:格拉尼;zh-hk:古拉尼;zh-tw:葛拉尼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:武尔坎努斯;zh-hk:伏爾坎;zh-tw:伏爾坎;"
     },
     {
       "original": null,
@@ -489,6 +645,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:时空兽;zh-hk:柯羅諾獸;zh-tw:柯羅諾獸;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:公爵兽;zh-hk:紅蓮騎士獸;zh-tw:紅蓮騎士獸;"
     },
     {
@@ -521,7 +681,27 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:别西卜兽：疾风形态;zh-hk:墮天地獄獸：爆裂型態;zh-tw:墮天地獄獸：爆裂型態;"
+      "conv": "zh-cn:别西卜兽：疾风;zh-hk:墮天地獄獸：爆裂;zh-tw:墮天地獄獸：爆裂;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:真君兽;zh-hk:二郎獸;zh-tw:二郎獸;zh-sg:二郎兽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:真君兽：疾风;zh-hk:二郎獸：爆裂;zh-tw:二郎獸：爆裂;zh-sg:二郎兽：疾风;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:毗沙门兽;zh-hk:托塔獸;zh-tw:托塔獸;zh-sg:托塔兽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:威灵兽;zh-hk:哪吒獸;zh-tw:哪吒獸;zh-sg:哪吒兽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:姮娥兽;zh-hk:嫦娥獸;zh-tw:嫦娥獸;zh-sg:嫦娥兽;"
     },
     {
       "original": null,
@@ -629,6 +809,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:终弩级加鲁鲁;zh-hk:無限加魯魯;zh-tw:無限加魯魯;zh-sg:终弩加鲁鲁;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:幽暗兽;zh-hk:暗黑獸;zh-tw:暗黑獸;"
     },
     {
@@ -689,6 +873,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:暗马兽;zh-hk:魔馬獸;zh-tw:魔馬獸;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:百合兽;zh-hk:花仙獸;zh-tw:花仙獸;"
     },
     {
@@ -717,6 +905,10 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:僵尸普路托兽;zh-hk:喪屍普路托獸;zh-tw:喪屍普路托獸;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:骷髅撒旦兽;zh-hk:喪屍撒旦獸;zh-tw:喪屍撒旦獸;"
     },
     {
@@ -729,7 +921,15 @@
     },
     {
       "original": null,
+      "conv": "zh-cn:跃升暴龙兽;zh-hk:進昇暴龍獸;zh-tw:進昇暴龍獸;"
+    },
+    {
+      "original": null,
       "conv": "zh-cn:黑暗骑士兽;zh-hk:暗黑騎士獸;zh-tw:暗黑騎士獸;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:迦楼罗兽;zh-hk:伽樓達獸;zh-tw:伽樓達獸;"
     },
     {
       "original": null,
@@ -738,10 +938,6 @@
     {
       "original": null,
       "conv": "zh-cn:锹形虫兽;zh-hk:古加獸;zh-tw:古加獸;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:迦楼罗兽;zh-hk:伽樓達獸;zh-tw:伽樓達獸;"
     },
     {
       "original": null,
@@ -758,6 +954,14 @@
     {
       "original": null,
       "conv": "zh-cn:巨型指挥官兽;zh-hk:元帥獸;zh-tw:元帥獸;zh-sg:元帅兽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:超恶魔兽;zh-hk:超惡魔獸;zh-tw:超惡魔獸;zh-sg:迪亚波罗兽;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:显示屏兽;zh-hk:顯示屏獸;zh-mo:顯示器獸;zh-tw:顯示屏獸;zh-sg:显示器兽;"
     }
   ]
 }

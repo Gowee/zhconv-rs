@@ -1,6 +1,6 @@
 {
   "name": "Communication",
-  "description": "-{zh-cn:通信;zh-tw:通訊;}-学",
+  "description": "-{zh-cn:通信;zh-sg:通讯;zh-my:通讯;zh-tw:通訊;}-学",
   "path": "Module:CGroup/Communication",
   "rules": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "original": "Communication",
-      "conv": "zh-cn:通信;zh-sg:通讯;zh-tw:通訊;"
+      "conv": "zh-cn:通信;zh-sg:通讯;zh-my:通讯;zh-tw:通訊;"
     },
     {
       "original": "Digital",
@@ -37,7 +37,11 @@
     },
     {
       "original": "Medium",
-      "conv": "媒质=>zh-hant:媒介; 介质=>zh-hant:媒介;"
+      "conv": "zh:媒质;zh-hant:媒介;"
+    },
+    {
+      "original": "Medium",
+      "conv": "zh:介质;zh-hant:媒介;"
     },
     {
       "original": "Noise",
@@ -77,15 +81,7 @@
     },
     {
       "original": "signal",
-      "conv": "zh-cn:信号; zh-tw:訊號;"
-    },
-    {
-      "original": "signal",
-      "conv": "信號=>zh-tw:訊號; 信號=>zh-hk:訊號; 信號=>zh-mo:訊號;"
-    },
-    {
-      "original": "signal",
-      "conv": "讯号=>zh-tw:訊號; 讯号=>zh-cn:信号; 讯号=>zh-sg:信号;"
+      "conv": "zh:信號;zh-cn:信号;zh-sg:讯号;zh-my:讯号;zh-tw:訊號;"
     },
     {
       "original": "Signal-to-noise ratio, SNR",
@@ -305,7 +301,7 @@
     },
     {
       "original": "Digital Television",
-      "conv": "zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-mo:數字電視;zh-sg:数码电视;zh-my:数码电视;"
+      "conv": "zh:數字電視;zh-cn:数字电视;zh-tw:數位電視;zh-hk:數碼電視;zh-sg:数码电视;zh-my:数码电视;"
     },
     {
       "original": "DVB-H",
@@ -361,15 +357,15 @@
     },
     {
       "original": "Information Technology",
-      "conv": "zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;"
+      "conv": "zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯工艺; zh-tw:資訊科技;"
     },
     {
       "original": "Cable",
-      "conv": "zh-tw: 纜線; zh-cn: 线缆; zh-hans: 线缆;"
+      "conv": "zh-tw:纜線; zh-cn:线缆; zh-hans:线缆;"
     },
     {
       "original": "Leakage cable",
-      "conv": "zh-tw: 洩波電纜; zh-cn: 泄漏电缆; zh-hans: 泄漏电缆;"
+      "conv": "zh-tw:洩波電纜; zh-cn:泄漏电缆; zh-hans:泄漏电缆;"
     },
     {
       "original": "Landline",
@@ -406,6 +402,14 @@
     {
       "original": null,
       "conv": "zh-hant:資訊台; zh-hans:资讯台;"
+    },
+    {
+      "original": "Hong Kong Broadband Network Ltd.",
+      "conv": "zh-hans:香港宽频;zh-hant:香港寬頻;"
+    },
+    {
+      "original": "New World Telecommunications Ltd.",
+      "conv": "zh-hans:新世界电讯;zh-hant:新世界電訊;"
     }
   ]
 }

@@ -20,6 +20,10 @@
       "conv": "格令=>zh-tw:格林;"
     },
     {
+      "original": "[[公噸|t]]",
+      "conv": "zh-cn:吨;zh-tw:公噸;zh-hk:噸;"
+    },
+    {
       "original": "[[米每秒|m/s]]",
       "conv": "zh-hans:米每秒; zh-hk:米每秒; zh-sg:米每秒; zh-mo:米每秒; zh-tw:公尺每秒;"
     },
@@ -48,6 +52,18 @@
       "conv": "zh-hans:米／分钟; zh-hk:米／分鐘; zh-sg:米／分钟; zh-mo:米／分鐘; zh-tw:公尺／分鐘;"
     },
     {
+      "original": "MW",
+      "conv": "zh-cn:兆瓦; zh-hk:兆瓦; zh-tw:千瓩;"
+    },
+    {
+      "original": "GW",
+      "conv": "zh-cn:吉瓦; zh-hk:吉瓦; zh-tw:百萬瓩;"
+    },
+    {
+      "original": "TW",
+      "conv": "zh-cn:太瓦; zh-hk:太瓦; zh-tw:十億瓩;"
+    },
+    {
       "original": "[[摄氏温标|°C]]",
       "conv": "zh-hans:摄氏温标;zh-hk:攝氏溫度;zh-tw:攝氏溫標;"
     },
@@ -60,12 +76,16 @@
       "conv": "zh-hans:开氏;zh-hk:開氏;zh-tw:克氏;"
     },
     {
-      "original": "[[坎德拉|cd]]",
+      "original": "[[坎德拉|candela]]",
       "conv": "zh-hans:坎德拉;zh-hk:燭光;zh-tw:燭光;"
     },
     {
       "original": "[[弧度|rad]]",
       "conv": "zh-hans:弧度;zh-hk:弧度;zh-tw:弳;"
+    },
+    {
+      "original": "[[弧度|rad]]",
+      "conv": "弳度=>zh-cn:弧度;弳度=>zh-hk:弧度;弳度=>zh-mo:弧度;弳度=>zh-my:弧度;弳度=>zh-sg:弧度;"
     },
     {
       "original": "[[球面度|sr]]",
@@ -89,7 +109,35 @@
     },
     {
       "original": "[[乌克兰格里夫纳|Hryvnia]]",
-      "conv": "zh-hant:格里夫納;zh-hans:格里夫纳;zh-tw:赫里夫尼亞"
+      "conv": "zh-hant:格里夫納; zh-hans:格里夫纳; zh-tw:荷林夫納;"
+    },
+    {
+      "original": "[[乌克兰格里夫纳|Hryvnia]]",
+      "conv": "赫里夫尼亞=>zh-hant:格里夫納; 赫里夫尼亞=>zh-hans:格里夫纳; 赫里夫尼亞=>zh-tw:荷林夫納;"
+    },
+    {
+      "original": "[[安哥拉匡撒|Kwanza]]",
+      "conv": "zh-cn:宽扎;zh-tw:匡撒;"
+    },
+    {
+      "original": "[[不丹努尔特鲁姆|Ngultrum]]",
+      "conv": "zh-cn:努扎姆; zh-tw:那特倫;"
+    },
+    {
+      "original": "[[巴西雷亚尔|Real]]",
+      "conv": "zh-cn:雷亚尔; zh-tw:黑奧;"
+    },
+    {
+      "original": "[[厄立特里亚纳克法|Nakfa]]",
+      "conv": "zh-cn:纳克法; zh-tw:奈克法;"
+    },
+    {
+      "original": "[[巴拿馬巴波亞|Balboa]]",
+      "conv": "zh-cn:巴波亚; zh-tw:巴爾波;"
+    },
+    {
+      "original": "[[圣多美和普林西比多布拉|Dobra]]",
+      "conv": "zh-cn:多布拉; zh-tw:杜布拉;"
     },
     {
       "original": "[[Bureau international des poids et mesures]]",
@@ -104,8 +152,16 @@
       "conv": "zh-cn:国际计量委员会;zh-hk:國際計量委員會;zh-tw:國際度量衡委員會;"
     },
     {
+      "original": "[[国际单位制词头|metric prefix]]",
+      "conv": "zh-hans:国际单位制词头; zh-hant:國際單位制詞頭; zh-tw:國際單位制前綴;"
+    },
+    {
       "original": "[[哔哩哔哩|Bilibili]]",
       "conv": "zh-hans:哔哩哔哩;zh-hant:嗶哩嗶哩;"
+    },
+    {
+      "original": "[[唭哩岸|Ki-Irigan]]",
+      "conv": "zh-hans:唭哩岸;zh-hant:唭哩岸;"
     },
     {
       "original": "[[摩尔多瓦|Moldova]]",
@@ -120,12 +176,12 @@
       "conv": "zh-hans:摩尔庄园; zh-hant:摩爾莊園;"
     },
     {
-      "original": "[[摩尔人]]",
+      "original": "[[摩尔人|Moors]]",
       "conv": "zh-hans:摩尔人; zh-hant:摩爾人;"
     },
     {
       "original": "[[摩尔斯电码|Morse code]]",
-      "conv": "zh-cn:摩尔斯; zh-tw:摩斯;"
+      "conv": "zh-cn:摩尔斯电码; zh-tw:摩斯電碼;"
     },
     {
       "original": "[[摩爾曼斯克|Murmansk]]",

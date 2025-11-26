@@ -1,31 +1,35 @@
 {
   "name": "Cartoon",
-  "description": "卡通名稱",
+  "description": "歐美電視卡通",
   "path": "Module:CGroup/Cartoon",
   "rules": [
+    {
+      "original": "3Below: Tales of Arcadia",
+      "conv": "zh-tw:天外三俠：幽林傳說;zh-hk:落難奇兵：幽林傳說;zh-hans:天外三侠：世外桃源的传说;"
+    },
     {
       "original": "The Addams Family",
       "conv": "zh-cn:亚当斯一家;zh-sg:阿达一族;zh-tw:阿達一族;zh-hk:愛登士家庭;"
     },
     {
       "original": "Adventures of Sonic the Hedgehog",
-      "conv": "zh-cn:刺猬索尼克历险记;zh-sg:音速小子;zh-tw:音速小子;zh-hk:超音鼠;"
+      "conv": "zh:刺蝟索尼克歷險記;zh-cn:刺猬索尼克历险记;zh-sg:音速小子;zh-tw:音速小子;zh-hk:超音鼠;"
     },
     {
       "original": "Adventure Time",
       "conv": "zh-cn:探险活宝;zh-hk:探險時光;zh-tw:探險活寶;"
     },
     {
-      "original": "Air Mater",
-      "conv": "zh-cn:空气板牙;zh-hk:飛天哨牙嘜;zh-tw:飛天拖線;"
-    },
-    {
       "original": "American Dad!",
-      "conv": "zh-cn:特工老爹;zh-hk:美國老爹;zh-tw:美國老爹;"
+      "conv": "zh:特工老爹;zh-cn:美国老爸;zh-sg:美国老爹;zh-hk:美國老爹;zh-tw:美國老爹;"
     },
     {
-      "original": "The Amazing World of Gumball",
-      "conv": "zh-cn:阿甘妙世界;zh-tw:阿甘妙世界;zh-hk:The Amazing World of Gumball"
+      "original": "Amphibia",
+      "conv": "zh-hk:蛙！小安的奇幻之旅;zh-sg:蛙！小安的奇幻之旅;zh-cn:奇幻沼泽;zh-tw:奇幻沼澤;"
+    },
+    {
+      "original": "Animaniacs",
+      "conv": "zh-hk:瘋狂調皮貓;zh-tw:狂歡三寶;zh-hans:狂欢三宝;zh-cn:动物王国总动员;"
     },
     {
       "original": "The Annoying Orange",
@@ -33,11 +37,11 @@
     },
     {
       "original": "Archer",
-      "conv": "zh-cn:间谍亚契;zh-tw:風流007;zh-hk:風流007;"
+      "conv": "zh:間諜亞契;zh-cn:间谍亚契;zh-tw:風流007;zh-hk:風流007;"
     },
     {
       "original": "Barbapapa",
-      "conv": "zh-cn:巴巴爸爸;zh-tw:奇妙家庭變形豆;zh-hk:奇妙家庭變形豆"
+      "conv": "zh-cn:巴巴爸爸;zh-tw:泡泡先生;zh-hk:奇妙家庭變形豆;zh-sg:奇妙家庭变形豆;"
     },
     {
       "original": "Beast Machines",
@@ -53,11 +57,31 @@
     },
     {
       "original": "Ben 10",
-      "conv": "zh-cn:Ben 10;zh-tw:Ben 10;zh-hk:少年勇將"
+      "conv": "zh:少年駭客;zh-hans:少年骇客;zh-cn:Ben 10 外星传奇;zh-sg:Ben 10;zh-tw:Ben 10;zh-hk:少年勇將;zh-mo:變身俠阿奔;"
     },
     {
-      "original": "Cars Toons: Mater's Tall Tales",
-      "conv": "zh-cn:拖线狂想曲;zh-tw:拖線狂想曲;zh-hk:反斗車王闖天關：哨牙嘜外傳;"
+      "original": "Ben 10: Omniverse",
+      "conv": "zh-cn:少年骇客：全面进化;zh-sg:Ben 10 全面进化;zh-tw:Ben 10 全面進化;zh-hk:少年勇將之宇宙激戰;"
+    },
+    {
+      "original": "Ben 10 (2016)",
+      "conv": "zh-cn:少年骇客：再显神威;zh-sg:BEN 10 再显神威;zh-tw:Ben 10 再顯神威;zh-hk:少年勇將之再顯神威;zh-mo:變身俠阿奔;"
+    },
+    {
+      "original": "Big City Greens",
+      "conv": "zh:大城市綠地;zh-hk:格林一家進城記;zh-tw:格林一家進城趣;zh-sg:格林一家进城趣;"
+    },
+    {
+      "original": "Big Mouth",
+      "conv": "zh-tw:青春無密語;zh-hk:青春無密語;zh-sg:青春无禁忌;zh-cn:大嘴巴;}--{-|大嘴巴"
+    },
+    {
+      "original": "Bluey",
+      "conv": "zh-hk:妙妙犬保怡;zh-tw:妙妙犬布麗;zh-sg:妙妙犬布丽;zh-cn:布鲁伊;}--{-|布鲁伊"
+    },
+    {
+      "original": "The Boss Baby: Back in Business",
+      "conv": "zh-tw:寶貝老闆：重出江湖;zh-cn:宝贝老板：重围商界;zh-hk:波士BB：又再開工;zh-hans:宝贝当家：宝宝归来;"
     },
     {
       "original": "The Centurions",
@@ -68,12 +92,20 @@
       "conv": "zh-hans:百变雄师;zh-tw:機器戰神;zh-hk:百變雄師;"
     },
     {
+      "original": "Чебурашка (Cheburashka)",
+      "conv": "zh-hk:大頭仔阿Cheb;zh-tw:小小車布歷險記;"
+    },
+    {
       "original": "Chip 'n Dale Rescue Rangers",
-      "conv": "zh-cn:救援突击队;zh-tw:救難小福星;zh-hk:小松鼠歷險記;"
+      "conv": "zh-cn:救援突击队;zh-sg:救难小福星;zh-tw:救難小福星;zh-hk:小松鼠歷險記;"
     },
     {
       "original": "The Cleveland Show",
-      "conv": "zh-cn:克利夫兰秀;zh-tw:克利夫家庭;zh-hk:克利夫家庭;"
+      "conv": "zh:克利夫蘭秀;zh-cn:克利夫兰秀;zh-tw:克利夫家庭;zh-hk:克利夫家庭;"
+    },
+    {
+      "original": "Close Enough",
+      "conv": "zh-hk:大細路夫妻;zh-sg:脱序一家亲;zh-tw:人生差一點;"
     },
     {
       "original": "Code Lyoko",
@@ -81,7 +113,15 @@
     },
     {
       "original": "Count Duckula",
-      "conv": "zh-cn:怪鸭历险记;zh-tw:伯爵鴨;zh-hk:殭屍奇鴨;"
+      "conv": "zh:怪鴨歷險記;zh-cn:怪鸭历险记;zh-tw:伯爵鴨;zh-hk:殭屍奇鴨;"
+    },
+    {
+      "original": "Curious George",
+      "conv": "zh:好奇的喬治;zh-tw:好奇猴喬治;zh-sg:好奇猴乔治;zh-cn:好奇的乔治;"
+    },
+    {
+      "original": "The Dark Crystal: Age of Resistance",
+      "conv": "zh:黑水晶：抗戰紀元;zh-tw:魔水晶：抗爭時代;zh-hk:夜魔水晶：抵抗時代;zh-hans:黑水晶：抗战纪元;"
     },
     {
       "original": "Darkwing Duck",
@@ -92,12 +132,24 @@
       "conv": "zh-cn:德克斯特的实验室;zh-tw:德克斯特的實驗室;zh-hk:怪物實驗室"
     },
     {
+      "original": "Dragons: Defenders of Berk",
+      "conv": "zh-cn:驯龙记：伯克岛的守护者;zh-hans:博克岛上的龙骑士;zh-tw:馴龍高手：捍衛博克島;zh-hk:馴龍騎士II;"
+    },
+    {
+      "original": "Dragons: Race to the Edge",
+      "conv": "zh-cn:驯龙记：飞越边界;zh-sg:驯龙高手：赛到尽头;zh-tw:馴龍高手：比賽直到盡頭;zh-hk:馴龍記：比賽直到盡頭;"
+    },
+    {
       "original": "Dragons: Riders of Berk",
-      "conv": "zh-cn:驯龙高手：博克島騎士;zh-tw:馴龍高手：博克島騎士;zh-hk:馴龍記：博克島騎士"
+      "conv": "zh-cn:驯龙记：伯克岛的龙骑手;zh-sg:博克岛上的龙骑士;zh-tw:馴龍高手：博克島騎士;zh-hk:馴龍騎士;"
+    },
+    {
+      "original": "The Epic Tales of Captain Underpants",
+      "conv": "zh-hk:底底超人歷險記;zh-tw:內褲隊長歷險記;zh-sg:内裤超人历险记;zh-cn:内裤队长传奇;"
     },
     {
       "original": "The Fairly OddParents",
-      "conv": "zh-cn:趣怪守护仙;zh-tw:反斗家族;zh-hk:神仙鬼爸媽;"
+      "conv": "zh-cn:反斗家族;zh-sg:趣怪守护仙;zh-tw:趣怪守護仙;zh-hk:神仙鬼爸媽;}--{-|趣怪守護仙}--{-|趣怪守护仙"
     },
     {
       "original": "Family Guy",
@@ -105,7 +157,7 @@
     },
     {
       "original": "The Flintstones",
-      "conv": "zh-cn:聪明笨伯;zh-tw:摩登原始人;zh-hk:摩登原始人;"
+      "conv": "zh-hk:聰明笨伯;zh-tw:石頭族樂園;zh-hans:摩登原始人;"
     },
     {
       "original": "Foster's Home for Imaginary Friends",
@@ -117,19 +169,35 @@
     },
     {
       "original": "Generator Rex",
-      "conv": "zh-cn:变形小雷;zh-tw:機械戰士REX"
+      "conv": "zh-cn:变形小雷;zh-sg:机械战士Rex;zh-tw:機械戰士REX"
     },
     {
       "original": "Gerald McBoing-Boing",
-      "conv": "zh-cn:杰洛德·麦可蹦蹦;zh-hant:淘氣ㄅㄥㄅㄥ;"
+      "conv": "zh:杰洛德·麦可蹦蹦;zh-cn:砰砰杰瑞德;zh-tw:淘氣ㄅㄥㄅㄥ;"
+    },
+    {
+      "original": "The Ghost and Molly McGee",
+      "conv": "zh:幽灵与莫莉·麦琪;zh-hk:孤獨鬼與莫莉麥琪;zh-tw:討厭鬼與莫莉麥琪;zh-sg:讨厌鬼与莫莉·麦琪;"
     },
     {
       "original": "G.I. Joe: A Real American Hero",
       "conv": "zh-hans:特种部队;zh-tw:大英雄;zh-hk:義勇羣英;"
     },
     {
+      "original": "Gravity Falls",
+      "conv": "zh-cn:怪诞小镇;zh-sg:神秘小镇大冒险;zh-tw:神秘小鎮大冒險;zh-hk:神秘小鎮大冒險;"
+    },
+    {
+      "original": "Hazbin Hotel",
+      "conv": "zh:地獄客棧;zh-tw:地獄旅館;zh-cn:地狱客栈;"
+    },
+    {
+      "original": "Hilda",
+      "conv": "藍髮女孩進城記=>zh-sg:希尔达;藍髮女孩進城記=>zh-cn:希尔达;"
+    },
+    {
       "original": "Inspector Gadget",
-      "conv": "zh-cn:神探加杰特;zh-tw:阿G探長;zh-hk:萬能探長;"
+      "conv": "zh:神探加傑特;zh-cn:神探加杰特;zh-tw:阿G探長;zh-hk:萬能探長;"
     },
     {
       "original": "Johnny Bravo",
@@ -137,7 +205,7 @@
     },
     {
       "original": "The Legend of Korra",
-      "conv": "zh:降世神通：珂拉傳說;zh-cn:降世神通：科拉传奇;zh-tw:降世神通：柯拉傳奇;zh-hk:降世神通：柯拉傳奇;"
+      "conv": "zh:科拉傳奇;zh-hant:珂拉傳說;zh-cn:科拉传奇;zh-tw:柯拉傳奇;zh-hk:柯拉傳奇;"
     },
     {
       "original": "Legion of Super Heroes",
@@ -145,23 +213,31 @@
     },
     {
       "original": "Littlest Pet Shop",
-      "conv": "zh-hans:小小宠物店;zh-tw:小小寵物店;zh-hk:至Q寵物屋;"
+      "conv": "zh:至Q寵物屋;zh-hans:小小宠物店;zh-tw:小小寵物園;zh-hk:小小寵物店;"
     },
     {
       "original": "M.A.S.K.",
       "conv": "zh-hans:蒙面斗士;zh-tw:神龍特攻隊;zh-hk:幻變奇兵;"
     },
     {
-      "original": "The Penguins of Madagascar",
-      "conv": "zh-hans:马达加斯加的企鹅;zh-tw:馬達加斯加的企鵝;zh-hk:馬達加斯加的企鵝;"
+      "original": "The Mask: The Animated Series",
+      "conv": "zh-cn:摩登大圣;zh-hans:变相怪杰;zh-tw:摩登大聖;zh-hk:變相怪傑;"
     },
     {
-      "original": "The Mask: The Animated Series",
-      "conv": "zh-hans:变相怪杰;zh-tw:摩登大聖;zh-hk:變相怪傑;"
+      "original": "Masters of the Universe: Revelation",
+      "conv": "zh-tw:太空超人：啟示錄;zh-hk:He-Man：天啟;zh-cn:宇宙巨人：启示录;"
+    },
+    {
+      "original": "Maya and the Three",
+      "conv": "zh-tw:瑪雅與三劍客;zh-hk:瑪雅與三劍客;zh-cn:玛雅与三勇士;zh-sg:玛雅与三勇士;"
+    },
+    {
+      "original": "Milo Murphy's Law",
+      "conv": "zh-tw:米羅的莫非命運;zh-hk:米羅的墨菲定律;zh-sg:米罗的墨菲定律;"
     },
     {
       "original": "Mr. Bean",
-      "conv": "zh-cn:憨豆先生;zh-tw:豆豆先生;zh-hk:戇豆先生;"
+      "conv": "zh-cn:憨豆先生;zh-sg:豆豆先生;zh-tw:豆豆先生;zh-hk:戇豆先生;"
     },
     {
       "original": "My Little Pony",
@@ -176,16 +252,32 @@
       "conv": "zh-cn:肥猫大战三小强;zh-tw:肥貓鬥小強;zh-hk:肥貓大戰三小強;"
     },
     {
+      "original": "The Owl House",
+      "conv": "zh-tw:奇幻貓頭鷹小屋;zh-sg:奇幻猫头鹰小屋;zh-cn:猫头鹰魔法社;"
+    },
+    {
+      "original": "Pacific Rim: The Black",
+      "conv": "zh-tw:環太平洋：黑色禁區;zh-hk:悍戰太平洋：黑色禁區;zh-sg:环太平洋：黑色禁区;zh-cn:环太平洋：黑暗大陆;"
+    },
+    {
+      "original": "The Penguins of Madagascar",
+      "conv": "zh-cn:马达加斯加的企鹅;zh-tw:馬達加斯加的企鵝;"
+    },
+    {
+      "original": "Peppa Pig",
+      "conv": "zh-hk:粉紅豬一家親;zh-tw:粉紅豬小妹;zh-my:佩佩粉红猪;zh-cn:小猪佩奇;"
+    },
+    {
       "original": "Phineas and Ferb",
       "conv": "zh-cn:飞哥与小佛;zh-tw:飛哥與小佛;zh-hk:飛哥與發仔;"
     },
     {
       "original": "Regular Show",
-      "conv": "zh-cn:天兵公园;zh-tw:天兵公園;zh-hk:Regular Show;"
+      "conv": "zh-sg:天兵公园;zh-tw:天兵公園;zh-hk:天兵公園;zh-cn:日常工作;}--{-|日常工作"
     },
     {
       "original": "Sabrina: The Animated Series",
-      "conv": "zh-hans:魔法少女萨琳娜;zh-tw:魔法少女莎賓娜;zh-hk:魔法少女上學記;"
+      "conv": "zh-cn:魔法少女萨琳娜;zh-tw:魔法少女莎賓娜;zh-hk:魔法少女上學記;zh-hans:莎宾娜;}--{-|莎宾娜"
     },
     {
       "original": "Sagwa, the Chinese Siamese Cat",
@@ -194,6 +286,10 @@
     {
       "original": "Scooby-Doo",
       "conv": "zh-cn:叔比狗;zh-tw:叔比狗;zh-hk:狗狗震;"
+    },
+    {
+      "original": "Scott Pilgrim Takes Off",
+      "conv": "zh-hk:爆女再格鬥;zh-tw:歪小子史考特：火力全開;zh-cn:歪小子史考特：火力全开;"
     },
     {
       "original": "The Secret Show",
@@ -208,8 +304,16 @@
       "conv": "zh-hans:银鹰侠队;zh-tw:銀鷹戰士;zh-hk:銀鷹俠隊;"
     },
     {
+      "original": "She-Ra and the Princesses of Power",
+      "conv": "zh-tw:神娃之伊莎莉亞戰記;zh-hk:She-Ra之伊莎莉亞戰記;zh-sg:希瑞与非凡的公主们;"
+    },
+    {
       "original": "The Simpsons",
       "conv": "zh-cn:辛普森一家;zh-tw:辛普森家庭;zh-hk:阿森一族;zh-sg:阿森一族;"
+    },
+    {
+      "original": "Skylanders Academy",
+      "conv": "zh-hant:空島寶貝龍學院;zh-hans:天空城宝贝龙学院;"
     },
     {
       "original": "South Park",
@@ -217,19 +321,39 @@
     },
     {
       "original": "Star Trek: The Animated Series",
-      "conv": "zh-cn:星际旅行;zh-tw:星艦奇航記;zh-hk:星空奇遇記;"
+      "conv": "zh-cn:星际旅行;zh-sg:星际迷航;zh-tw:星艦奇航記;zh-hk:星空奇遇記;"
+    },
+    {
+      "original": "Star Wars: Droids: The Adventures of R2-D2 and C-3PO",
+      "conv": "zh-hk:星球大戰：機械人傳奇;zh-tw:外星一對寶;zh-cn:星球大战：外星一对宝;zh-sg:星球大战：机器人传奇;zh:星際大戰：DROID的大冒險;"
+    },
+    {
+      "original": "Star vs. the Forces of Evil",
+      "conv": "zh-hk:公主闖天關;zh-tw:公主闖天關;zh-sg:公主闯天关;zh-cn:星蝶公主;"
     },
     {
       "original": "Steven Universe",
-      "conv": "zh-cn:史帝芬宇宙;zh-tw:神臍小捲毛;zh-hk:史帝芬宇宙;"
+      "conv": "zh:史蒂芬宇宙;zh-hans:史帝芬宇宙;zh-cn:宇宙小子;zh-my:神脐小卷毛;zh-tw:神臍小捲毛;zh-hk:寶石戰士Steven;"
+    },
+    {
+      "original": "Steven Universe Future",
+      "conv": "zh:史蒂芬宇宙：未來篇;zh-cn:宇宙小子：未来;zh-hk:寶石戰士Steven未來篇;zh-tw:神臍小捲毛 超未來;zh-my:神脐小卷毛 超未来;"
+    },
+    {
+      "original": "Super Monsters",
+      "conv": "zh-tw:超能小萌怪;zh-hk:超級小怪獸;zh-hans:超级小怪兽;"
+    },
+    {
+      "original": "Summer Camp Island",
+      "conv": "zh-tw:夏令營奇幻島;zh-sg:夏令营奇幻岛;zh-cn:夏令营岛;"
     },
     {
       "original": "Tangled Ever After",
-      "conv": "zh-hans:麻烦不断;zh-hk:魔髮奇緣延續篇;zh-tw:魔髮奇緣：大喜之日;"
+      "conv": "zh-cn:麻烦不断;zh-sg:魔发奇缘番外篇：麻烦不断;zh-hk:魔髮奇緣延續篇;zh-tw:魔髮奇緣：大喜之日;"
     },
     {
       "original": "The Super Hero Squad Show",
-      "conv": "zh-tw:Q版大英雄;zh-hk:超級英雄聯盟;"
+      "conv": "zh-hk:超級英雄聯盟;zh-sg:超级英雄联盟;zh-cn:Q版大英雄;zh-tw:Q版大英雄;}--{-|超级英雄联盟}--{-|超級英雄聯盟"
     },
     {
       "original": "Teen Titans",
@@ -237,11 +361,11 @@
     },
     {
       "original": "Teletubbies",
-      "conv": "zh-cn:天线宝宝;zh-tw:天線寶寶;zh-hk:天綫得得B;zh-mo:天線寶寶;"
+      "conv": "zh-cn:天线宝宝;zh-tw:天線寶寶;zh-hk:天線得得B;"
     },
     {
       "original": "Thomas & Friends",
-      "conv": "zh-cn:托马斯和朋友们;zh-tw:湯瑪士小火車;zh-hk:火車頭Thomas;"
+      "conv": "zh:火車頭日記;zh-tw:湯瑪士小火車;zh-hk:湯瑪仕小火車;zh-my:汤马仕小火车;zh-cn:托马斯和朋友们;"
     },
     {
       "original": "ThunderCats",
@@ -249,11 +373,11 @@
     },
     {
       "original": "Timmy Time",
-      "conv": "zh-cn:小小羊蒂米;zh-hk:羊咩咩上學去;"
+      "conv": "zh-cn:小小羊蒂米;zh-hans:小小羊提米;zh-tw:咪咪羊;zh-hk:羊咩咩上學去;"
     },
     {
       "original": "Tom and Jerry",
-      "conv": "zh-cn:猫和老鼠;zh-tw:湯姆貓與傑利鼠;zh-hk:湯姆與謝利;"
+      "conv": "zh:貓和老鼠;zh-hant:湯姆與傑利;zh-cn:猫和老鼠;zh-sg:汤姆与杰利;zh-tw:湯姆貓與傑利鼠;zh-hk:湯姆與謝利;"
     },
     {
       "original": "Tom and Jerry Kids Show",
@@ -265,11 +389,35 @@
     },
     {
       "original": "Totally Spies!",
-      "conv": "zh-hans:间谍少女组;zh-tw:校園嬌娃;zh-hk:校園嬌娃;"
+      "conv": "zh-hans:间谍少女组;zh-hk:間諜少女組;zh-tw:校園嬌娃;"
     },
     {
       "original": "Transformers: Animated",
-      "conv": "zh-cn:变形金刚08动画;zh-tw:變形金剛進化版;zh-hk:變形金剛"
+      "conv": "zh-cn:变形金刚08动画;zh-tw:變形金剛進化版;zh-hk:變形金剛;}--{-|變形金剛"
+    },
+    {
+      "original": "Tuca & Bertie",
+      "conv": "zh-tw:圖卡和柏蒂;zh-hk:中女有話兒;zh-hans:鸟姐妹的反差生活;"
+    },
+    {
+      "original": "Turbo FAST",
+      "conv": "zh-tw:渦輪方程式：絕技快攻隊;zh-hk:極速TURBO 快到震;zh-cn:极速蜗牛：狂奔;"
+    },
+    {
+      "original": "Voltron: Legendary Defender",
+      "conv": "zh-tw:聖戰士：宇宙防衛隊;zh-hk:聖戰士：傳奇護衛;zh-hans:战神金刚：传奇的保护神;"
+    },
+    {
+      "original": "Wander Over Yonder",
+      "conv": "zh-tw:宇宙小奇兵;zh-sg:宇宙小奇兵;zh-cn:星际漫步;"
+    },
+    {
+      "original": "We Baby Bears",
+      "conv": "zh-cn:咱们小裸熊;zh-sg:熊熊宝贝遇见你;zh-tw:熊熊寶貝遇見你;"
+    },
+    {
+      "original": "We Bare Bears",
+      "conv": "zh-cn:咱们裸熊;zh-sg:熊熊遇见你;zh-tw:熊熊遇見你;"
     },
     {
       "original": "Winx Club",
@@ -280,8 +428,16 @@
       "conv": "zh-cn:魔力W.i.t.c.h.;zh-tw:精靈少女組;"
     },
     {
+      "original": "Wizards: Tales of Arcadia",
+      "conv": "zh-tw:傳奇魔法師：幽林傳說;zh-hk:大魔法師：幽林傳說;zh-hans:魔法大师：世外桃源的传说;"
+    },
+    {
+      "original": "The Wonderful World of Mickey Mouse",
+      "conv": "zh-tw:米奇妙妙世界;zh-sg:米奇妙妙世界;zh-cn:米奇妙世界;"
+    },
+    {
       "original": "Xcalibur",
-      "conv": "zh-cn:神秘岛;zh-hk:神劍傳奇;zh-tw:神劍傳奇;"
+      "conv": "zh:神剑传奇;zh-cn:神秘岛;zh-hk:神劍傳奇;zh-tw:神劍傳奇;"
     },
     {
       "original": "Xiaolin Showdown",
@@ -302,6 +458,10 @@
     {
       "original": "digitalization",
       "conv": "zh:數字化;zh-tw:數位化;zh-hk:數碼化;zh-sg:数码化;zh-my:数码化;zh-cn:数字化;"
+    },
+    {
+      "original": "Disney",
+      "conv": "迪斯尼=>zh-hk:迪士尼;迪斯尼=>zh-mo:迪士尼;"
     },
     {
       "original": "dolby digital",

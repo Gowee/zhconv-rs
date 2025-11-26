@@ -1,0 +1,159 @@
+{
+  "name": "Steam",
+  "description": "Steam相关词语",
+  "path": "Module:CGroup/Steam",
+  "rules": [
+    {
+      "original": "wishlist",
+      "conv": "zh-hans:愿望单; zh-hant:願望清單;"
+    },
+    {
+      "original": "Overwhelmingly Negative",
+      "conv": "zh-hans:差评如潮; zh-hant:壓倒性負評;"
+    },
+    {
+      "original": "Very Negative",
+      "conv": "zh-hans:特别差评; zh-hant:極度負評;"
+    },
+    {
+      "original": "Mostly Negative",
+      "conv": "zh-hans:多半差评; zh-hant:大多負評;"
+    },
+    {
+      "original": "Mostly Positive",
+      "conv": "zh-hans:多半好评; zh-hant:大多好評;"
+    },
+    {
+      "original": "Very Positive",
+      "conv": "zh-hans:特别好评; zh-hant:極度好評;"
+    },
+    {
+      "original": "Overwhelmingly Positive",
+      "conv": "zh-hans:好评如潮; zh-hant:壓倒性好評;"
+    },
+    {
+      "original": "Game of the Year Award",
+      "conv": "zh-hans:年度最佳游戏; zh-hant:年度遊戲;"
+    },
+    {
+      "original": "VR Game of the Year Award",
+      "conv": "zh-hans:年度最佳 VR 游戏; zh-hant:年度 VR 遊戲;"
+    },
+    {
+      "original": "VR Game of the Year Award",
+      "conv": "zh-hans:年度最佳VR游戏; zh-hant:年度VR遊戲;"
+    },
+    {
+      "original": "Labor of Love Award",
+      "conv": "zh-hans:爱的付出; zh-hant:甜蜜的負擔;"
+    },
+    {
+      "original": "Most Innovative Gameplay Award",
+      "conv": "zh-hans:最具创意游戏玩法; zh-hant:玩法創新無上限;"
+    },
+    {
+      "original": "Best Game You Suck At Award",
+      "conv": "zh-hans:纵使手残仍大爱; zh-hant:難到抓狂的極品;"
+    },
+    {
+      "original": "Best Soundtrack Award",
+      "conv": "zh-hans:最佳原声音轨; zh-hant:最佳原聲帶;"
+    },
+    {
+      "original": "Best Game on the Go",
+      "conv": "zh-hans:最佳随身游戏; zh-hant:出外必備良伴;"
+    },
+    {
+      "original": "Villain Most In Need Of A Hug",
+      "conv": "zh-hans:最需要抱抱的反派; zh-hant:最需要抱抱的壞人;"
+    },
+    {
+      "original": "I Thought This Game Was Cool Before It Won An Award",
+      "conv": "zh-hans:在这游戏火之前我就慧眼识游戏; zh-hant:早在它爆紅之前我就知道這款遊戲讚透了;"
+    },
+    {
+      "original": "I’m Not Crying, There’s Something In My Eye",
+      "conv": "zh-hans:没哭，只是眼睛里进了点沙子！; zh-hant:沒哭，這裡面有洋蔥;"
+    },
+    {
+      "original": "Best Use Of A Farm Animal",
+      "conv": "zh-hans:家畜的最佳用途; zh-hant:最佳農場動物活用;"
+    },
+    {
+      "original": "Choices Matter",
+      "conv": "zh-hans:我的选择我做主; zh-hant:自己的路自己走;"
+    },
+    {
+      "original": "The World Is Grim Enough Let’s Just All Get Along",
+      "conv": "zh-hans:世界已冷酷至极，让我们携手前行; zh-hant:世界已經夠殘酷了，大家和平相處吧;"
+    },
+    {
+      "original": "Cry Havoc And Let Slip The Dogs Of War",
+      "conv": "zh-hans:发出屠杀号令，让战争猛犬四出蹂躏; zh-hant:一聲殺戮令下，戰犬脫韁而出;"
+    },
+    {
+      "original": "Soul Of Vitruvius",
+      "conv": "zh-hans:维特鲁威的灵魂; zh-hant:維特魯威之魂;"
+    },
+    {
+      "original": "Whoooaaaaaaa, dude!",
+      "conv": "zh-hans:厉害了，我的哥！; zh-hant:這也太扯了啦！;"
+    },
+    {
+      "original": "Whoooaaaaaaa, Dude! 2.0",
+      "conv": "zh-hans:厉害了，我的哥！2.0 版; zh-hant:這也太扯了啦！2.0;"
+    },
+    {
+      "original": "Best Soundtrack",
+      "conv": "zh-hans:最佳原声音轨; zh-hant:最佳音軌;"
+    },
+    {
+      "original": "Most Fun with a Machine",
+      "conv": "zh-hans:最佳机械游戏; zh-hant:與機器一同遊戲最樂;"
+    },
+    {
+      "original": "Mom’s Spaghetti",
+      "conv": "zh-hans:老妈的意大利面; zh-hant:滷肉飯;"
+    },
+    {
+      "original": "Suspension of Disbelief",
+      "conv": "zh-hans:一切皆有可能; zh-hant:擱置懷疑;"
+    },
+    {
+      "original": "No Apologies",
+      "conv": "zh-hans:我行我素; zh-hant:愛得理直氣壯;"
+    },
+    {
+      "original": "Defies Description",
+      "conv": "zh-hans:无以言表; zh-hant:難以言喻;"
+    },
+    {
+      "original": "Cry Havoc And Let Slip The Dogs Of War",
+      "conv": "zh-hans:发出屠杀号令，让战争猛犬四出蹂躏; zh-hant:一聲殺戮令下，戰犬脫韁而出;"
+    },
+    {
+      "original": "Haunts My Dreams",
+      "conv": "zh-hans:魂萦梦牵; zh-hant:魂牽夢縈;"
+    },
+    {
+      "original": "Even Better Than I Expected",
+      "conv": "zh-hans:超乎想象; zh-hant:比預期的也好太多;"
+    },
+    {
+      "original": "Test of Time",
+      "conv": "zh-hans:时间考验; zh-hant:經得起時間的考驗;"
+    },
+    {
+      "original": "I'm Not Crying, There's Something In My Eye",
+      "conv": "zh-hans:我没哭，只是眼睛里进了点沙子; zh-hant:我沒哭，這裡面有洋蔥;"
+    },
+    {
+      "original": "Boom Boom",
+      "conv": "zh-hans:轰！！！; zh-hant:轟！轟！;"
+    },
+    {
+      "original": "Love/Hate Relationship",
+      "conv": "zh-hans:爱恨纠结; zh-hant:又愛又恨;"
+    }
+  ]
+}

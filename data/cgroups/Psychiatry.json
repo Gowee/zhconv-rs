@@ -4,18 +4,6 @@
   "path": "Module:CGroup/Psychiatry",
   "rules": [
     {
-      "original": "symptom",
-      "conv": "zh-cn:症状; zh-hk:徵狀; zh-tw:症狀;"
-    },
-    {
-      "original": "syndrome",
-      "conv": "zh-cn:综合征; zh-hk:綜合症; zh-tw:症候群;"
-    },
-    {
-      "original": "prevalence",
-      "conv": "zh-cn:患病率; zh-tw:盛行率;"
-    },
-    {
       "original": "ICD",
       "conv": "zh-cn:疾病和有关健康问题的国际统计分类; zh-hk:疾病和有關健康問題的國際統計分類; zh-tw:國際疾病與相關健康問題統計分類;"
     },
@@ -84,6 +72,10 @@
       "conv": "zh-cn:妄想障碍; zh-tw:妄想症;"
     },
     {
+      "original": "妄想症状",
+      "conv": "zh-hans:妄想症状; zh-hant:妄想症狀;"
+    },
+    {
       "original": "delusional disorder",
       "conv": "妄想疾患 => zh-cn:妄想障碍;"
     },
@@ -109,7 +101,7 @@
     },
     {
       "original": "MDD",
-      "conv": "zh-cn:重性抑郁障碍; zh-tw:嚴重憂鬱疾患;"
+      "conv": "zh-cn:重性抑郁障碍; zh-tw:嚴重憂鬱疾患; zh-hk:重度抑鬱症"
     },
     {
       "original": "dysthymic disorder",
@@ -130,10 +122,6 @@
     {
       "original": "bipolar disorder",
       "conv": "zh-hans:双相障碍; zh-hant:雙相障礙;"
-    },
-    {
-      "original": "bipolar disorder",
-      "conv": "zh-cn:双相情感障碍; zh-tw:雙極性情緒障礙症;"
     },
     {
       "original": "bipolar disorder",
@@ -216,12 +204,20 @@
       "conv": "zh-cn:分离障碍; zh-tw:解離症;"
     },
     {
+      "original": "dissociative disorder",
+      "conv": "zh-cn:分离性障碍; zh-tw:解離症;"
+    },
+    {
       "original": "dissociative identity disorder",
       "conv": "zh-cn:分离性身份障碍; zh-tw:解離性身分疾患; zh-hk:解離性身份疾患;"
     },
     {
       "original": "dissociative amnesia",
       "conv": "zh-cn:分离性遗忘症; zh-tw:解離性失憶症;"
+    },
+    {
+      "original": "bulimia nervosa",
+      "conv": "zh-cn:神经性贪食; zh-tw:暴食症;"
     },
     {
       "original": "bulimia nervosa",
@@ -232,12 +228,12 @@
       "conv": "zh-cn:神经性贪食症; zh-tw:心因性暴食症;"
     },
     {
-      "original": "bulimia nervosa",
-      "conv": "暴食症 => zh-cn:神经性贪食;"
-    },
-    {
       "original": "binge eating disorder",
       "conv": "zh-cn:暴食障碍; zh-tw:嗜食症;"
+    },
+    {
+      "original": "night eating syndrome",
+      "conv": "zh-cn:夜食症; zh-tw:夜食症候群;"
     },
     {
       "original": "kleptomania",
@@ -310,6 +306,34 @@
     {
       "original": "dementia",
       "conv": "zh-cn:痴呆; zh-hk:認知障礙症; zh-mo:腦退化症; zh-tw:失智症; zh-hant:癡呆;"
+    },
+    {
+      "original": "symptom",
+      "conv": "zh-cn:症状; zh-hk:徵狀; zh-tw:症狀;"
+    },
+    {
+      "original": "syndrome",
+      "conv": "zh-cn:综合征; zh-hk:綜合症; zh-tw:症候群;"
+    },
+    {
+      "original": "prevalence",
+      "conv": "zh-cn:患病率; zh-tw:盛行率;"
+    },
+    {
+      "original": "The Lancet",
+      "conv": "zh-cn:柳叶刀; zh-hk:刺針; zh-tw:刺胳針;"
+    },
+    {
+      "original": "evidence-based",
+      "conv": "zh-cn:循证; zh-tw:實證;"
+    },
+    {
+      "original": "systematic review",
+      "conv": "zh-cn:系统综述; zh-tw:系統性回顧;"
+    },
+    {
+      "original": "meta-analysis",
+      "conv": "zh-cn:元分析; zh-tw:統合分析;"
     }
   ]
 }

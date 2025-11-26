@@ -52,6 +52,10 @@
       "conv": "zh-hans:决赛圈;zh-tw:決賽圈;zh-hk:決賽週;"
     },
     {
+      "original": "Competition proper",
+      "conv": "zh-hans:正赛轮;zh-tw:正賽輪;zh-hk:主賽圈;"
+    },
+    {
       "original": "First Division",
       "conv": "zh-hans:甲级联赛;zh-tw:甲級聯賽;zh-hk:甲組聯賽;"
     },
@@ -60,8 +64,12 @@
       "conv": "zh-hans:足球甲级联赛;zh-tw:甲級足球聯賽;zh-hk:甲組足球聯賽;"
     },
     {
-      "original": "First start",
-      "conv": "zh-hans:首发;zh-tw:先發;zh-hk:正選;"
+      "original": "Second Division",
+      "conv": "zh-hans:乙级联赛;zh-tw:乙級聯賽;zh-hk:乙組聯賽;"
+    },
+    {
+      "original": "Second Division",
+      "conv": "zh-hans:足球乙级联赛;zh-tw:乙級足球聯賽;zh-hk:乙組足球聯賽;"
     },
     {
       "original": "Fourth Division",
@@ -72,16 +80,20 @@
       "conv": "zh-hans:足球丁级联赛;zh-tw:丁級足球聯賽;zh-hk:丁組足球聯賽;"
     },
     {
-      "original": "Free agent",
-      "conv": "zh-hans:自由球员;zh-tw:自由球員;"
+      "original": "Third Division",
+      "conv": "zh-hans:丙级联赛;zh-tw:丙級聯賽;zh-hk:丙組聯賽;"
+    },
+    {
+      "original": "Third Division",
+      "conv": "zh-hans:足球丙级联赛;zh-tw:丙級足球聯賽;zh-hk:丙組足球聯賽;"
+    },
+    {
+      "original": "First start",
+      "conv": "zh-hans:首发;zh-tw:先發;zh-hk:正選;"
     },
     {
       "original": "Free kick",
-      "conv": "zh-hans:任意球;zh-hant:自由球;"
-    },
-    {
-      "original": "Giants",
-      "conv": "zh-hans:豪门;zh-hant:班霸;"
+      "conv": "zh-hans:任意球;zh-tw:任意球;zh-hk:自由球;"
     },
     {
       "original": "Goal",
@@ -129,7 +141,7 @@
     },
     {
       "original": "Qualification",
-      "conv": "zh-hans:常规赛;zh-tw:例行賽;zh-hk:常規賽;"
+      "conv": "zh-hans:常规赛;zh-tw:例行賽;zh-hk:正規賽;"
     },
     {
       "original": "Away goals rule",
@@ -153,7 +165,7 @@
     },
     {
       "original": "Rounds",
-      "conv": "zh-hans:轮次;zh-tw:輪次;zh-hk:圈數;"
+      "conv": "zh-hans:轮次;zh-tw:輪次;zh-hk:圏數;"
     },
     {
       "original": "Start",
@@ -162,6 +174,18 @@
     {
       "original": "Super Division",
       "conv": "zh-hans:足球超级联赛; zh-hant:超級足球聯賽;"
+    },
+    {
+      "original": "This Round",
+      "conv": "zh-hans:此轮;zh-tw:此輪;zh-hk:此圈;"
+    },
+    {
+      "original": "This Round",
+      "conv": "zh-hans:这轮;zh-tw:這輪;zh-hk:這圈;"
+    },
+    {
+      "original": "This Round",
+      "conv": "zh-hans:这一轮;zh-tw:這一輪;zh-hk:這一圈;"
     },
     {
       "original": "Round 1",
@@ -212,12 +236,16 @@
       "conv": "zh-hans:第九轮;zh-tw:第九輪;zh-hk:第九圈;"
     },
     {
+      "original": "Previous Round",
+      "conv": "zh-hans:上一轮;zh-tw:上一輪;zh-hk:上一圈;"
+    },
+    {
       "original": "Further round",
       "conv": "zh-hans:下一轮;zh-tw:下一輪;zh-hk:下一圈;"
     },
     {
       "original": "Round of 16",
-      "conv": "zh-hans:八分之一决赛;zh-tw:十六強賽;zh-hk:十六強;"
+      "conv": "zh-hans:八分之一决赛;zh-tw:十六強賽;zh-hk:十六強賽;"
     },
     {
       "original": "Score",
@@ -226,14 +254,6 @@
     {
       "original": "Season",
       "conv": "zh-hans:赛季;zh-tw:賽季;zh-hk:球季;"
-    },
-    {
-      "original": "Second Division",
-      "conv": "zh-hans:乙级联赛;zh-tw:乙級聯賽;zh-hk:乙組聯賽;"
-    },
-    {
-      "original": "Second Division",
-      "conv": "zh-hans:足球乙级联赛;zh-tw:乙級足球聯賽;zh-hk:乙組足球聯賽;"
     },
     {
       "original": "Semi-Finals",
@@ -252,20 +272,16 @@
       "conv": "zh-hans:主客场两回合制;zh-tw:主客場淘汰賽;"
     },
     {
-      "original": "Third Division",
-      "conv": "zh-hans:丙级联赛;zh-tw:丙級聯賽;zh-hk:丙組聯賽;"
-    },
-    {
-      "original": "Third Division",
-      "conv": "zh-hans:足球丙级联赛;zh-tw:丙級足球聯賽;zh-hk:丙組足球聯賽;"
-    },
-    {
       "original": "Third place playoff",
       "conv": "zh-hans:三、四名决赛;zh-hant:季軍戰;"
     },
     {
       "original": "Top scorer",
       "conv": "zh-hans:最佳射手;zh-hant:神射手;"
+    },
+    {
+      "original": "Team dissolved",
+      "conv": "zh-hans:球队解散;zh-hk:球隊解散;zh-tw:球隊解散;"
     },
     {
       "original": "under-15",
@@ -305,7 +321,7 @@
     },
     {
       "original": "Footballer",
-      "conv": "zh-hans:足球运动员;zh-hant:足球員;"
+      "conv": "zh-hans:足球运动员;zh-hant:足球員;足球員=>zh-cn:足球运动员;足球员=>zh-cn:足球运动员;"
     },
     {
       "original": "Yellow card",
@@ -365,7 +381,11 @@
     },
     {
       "original": "Substitute",
-      "conv": "zh-hans:替补;zh-tw:替補;zh-hk:入替;"
+      "conv": "zh-hans:替补;zh-tw:替補;zh-hk:後備;"
+    },
+    {
+      "original": "Substituting",
+      "conv": "zh-hans:换下;zh-tw:換下;zh-hk:入替;"
     },
     {
       "original": "Referee",
@@ -480,6 +500,18 @@
       "conv": "zh-hans:世俱杯;zh-tw:世俱盃;zh-hk:世冠盃;"
     },
     {
+      "original": "FIFA Womens Club World Cup",
+      "conv": "zh-hans:国际足联女子世界俱乐部杯;zh-cn:国际足联女子俱乐部世界杯;zh-tw:國際足總女子俱樂部世界盃;zh-hk:國際足協女子世界冠軍球會盃;"
+    },
+    {
+      "original": "FIFA Womens Club World Cup",
+      "conv": "zh-hans:女子世界俱乐部杯;zh-cn:女子俱乐部世界杯;zh-tw:女子俱樂部世界盃;zh-hk:女子世界冠軍球會盃;"
+    },
+    {
+      "original": "FIFA Womens Club World Cup",
+      "conv": "zh-hans:女子世俱杯;zh-tw:女子世俱盃;zh-hk:女子世冠盃;"
+    },
+    {
       "original": "Champions League",
       "conv": "zh-hans:洲冠军联赛;zh-tw:洲冠軍聯賽;zh-hk:洲聯賽冠軍盃;zh-mo:洲冠軍聯賽;"
     },
@@ -532,6 +564,10 @@
       "conv": "zh-hans:意乙;zh-tw:義乙;zh-hk:意乙;"
     },
     {
+      "original": "Shakhtar Donetsk",
+      "conv": "zh-hant:頓內次克礦工; zh-cn:顿涅茨克矿工; zh-hk:薩克達; zh-tw:頓內茨克礦工; zh:頓涅茨克礦工;"
+    },
+    {
       "original": "J-League",
       "conv": "zh-hans:J联赛;zh-hant:日職;"
     },
@@ -550,6 +586,10 @@
     {
       "original": "Dynamo",
       "conv": "zh-hans:迪纳摩;zh-tw:發電機;zh-hk:戴拿模;"
+    },
+    {
+      "original": "Anglo-Italian Cup",
+      "conv": "zh-cn:英意杯;zh-tw:英義盃;zh-hk:英意盃;"
     },
     {
       "original": "FIFA",
@@ -760,6 +800,10 @@
       "conv": "zh-cn:租借;zh-hk:外借;zh-tw:租借;"
     },
     {
+      "original": "volley",
+      "conv": "zh-cn:凌空抽射;zh-hk:窩利;zh-tw:凌空射門;"
+    },
+    {
       "original": "To represent the team to play",
       "conv": "zh-hans:比赛;zh-hant:比賽;"
     },
@@ -786,6 +830,10 @@
     {
       "original": "Glass cup",
       "conv": "玻璃杯=>zh-tw:玻璃杯; 玻璃杯=>zh-hk:玻璃杯; 玻璃杯=>zh-mo:玻璃杯"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:女足球员;zh-hant:女足球員;"
     }
   ]
 }

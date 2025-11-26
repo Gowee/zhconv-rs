@@ -4,18 +4,6 @@
   "path": "Module:CGroup/Organization",
   "rules": [
     {
-      "original": "AMD",
-      "conv": "zh-cn:超威半导体; zh-tw:超微半導體;"
-    },
-    {
-      "original": "ANZ",
-      "conv": "zh-cn:澳新银行; zh-tw:澳盛銀行; zh-hk:澳新銀行;"
-    },
-    {
-      "original": "AOL",
-      "conv": "zh-cn:美国在线; zh-tw:美國線上; zh-hk:美國在線;"
-    },
-    {
       "original": "ASEAN",
       "conv": "zh-tw:東南亞國家協會;zh-hk:東南亞國家聯盟;zh-cn:东南亚国家联盟;zh-my:东南亚国家联盟;zh-sg:亚细安组织;"
     },
@@ -32,48 +20,8 @@
       "conv": "zh-hant:東協議;zh-hans:东协议;"
     },
     {
-      "original": "Bauhaus",
-      "conv": "zh-hans:包豪斯; zh-hant:包浩斯;"
-    },
-    {
-      "original": "University of California, Berkeley",
-      "conv": "zh-hans:伯克利分校; zh-hant:柏克萊分校;"
-    },
-    {
-      "original": "Caterpillar",
-      "conv": "zh-cn:卡特彼勒; zh-tw:開拓重工; zh-hk:卡特比勒; zh-hans:卡特彼勒;"
-    },
-    {
-      "original": "Japan Casino Regulatory Commission",
-      "conv": "zh-hk:博弈管理; zh-cn:赌场管理;"
-    },
-    {
-      "original": "CBO",
-      "conv": "zh-cn:首席品牌官; zh-tw:品牌長;"
-    },
-    {
       "original": "Central Commission for Navigation on the Rhine",
       "conv": "zh-cn:莱茵河航运中央委员会; zh-tw:萊茵河航運中央執委會;"
-    },
-    {
-      "original": "CEO",
-      "conv": "zh-cn:首席执行官; zh-hk:行政總裁; zh-tw:執行長;"
-    },
-    {
-      "original": "CFO",
-      "conv": "zh-cn:首席财务官; zh-tw:財務長;"
-    },
-    {
-      "original": "CFO",
-      "conv": "財務總監=>zh-tw:財務長;财务总监=>zh-tw:財務長;"
-    },
-    {
-      "original": "Charoen Pokphand Group",
-      "conv": "zh-cn:正大集团; zh-tw:卜蜂集團; zh-hk:卜蜂集團; zh-hans:卜蜂集团;"
-    },
-    {
-      "original": "CIO",
-      "conv": "zh-cn:信息主管; zh-tw:資訊總監;"
     },
     {
       "original": "CIS",
@@ -84,36 +32,128 @@
       "conv": "zh-cn:独联体;zh-hant:獨協;zh-hk:獨聯體;zh-tw:獨立國協;zh-mo:獨聯體;"
     },
     {
-      "original": "CMO",
-      "conv": "zh-cn:市场总监; zh-tw:行銷長;"
+      "original": "Fraunhofer Assossation",
+      "conv": "zh-hant:夫朗和斐協會;zh-hans:弗劳恩霍夫协会;"
+    },
+    {
+      "original": "FIG",
+      "conv": "zh-cn:国际体操联合会; zh-tw:國際體操總會"
+    },
+    {
+      "original": "Group of Six",
+      "conv": "zh-hans:六国集团; zh-hant:六大工業國組織;"
+    },
+    {
+      "original": "Group of Seven",
+      "conv": "zh-tw:七大工業國組織; zh-hans:七国集团; zh-hk:七國集團;"
+    },
+    {
+      "original": "Group of Eight",
+      "conv": "zh-hans:八国集团; zh-hant:八大工業國組織;"
+    },
+    {
+      "original": "Internet Archive",
+      "conv": "zh-cn:互联网档案馆; zh-tw:網際網路檔案館; zh-hk:互聯網檔案館; zh-sg:互联网档案馆;"
+    },
+    {
+      "original": "Kōsei Torihiki Iinkai",
+      "conv": "取引委員會=>zh-cn:交易委员会;"
+    },
+    {
+      "original": "NASA",
+      "conv": "zh-cn:美国国家航空航天局; zh-tw:美國國家航空暨太空總署; zh-hk:美國太空總署;"
+    },
+    {
+      "original": "Non-Profit",
+      "conv": "zh-cn:非营利; zh-tw:非營利; zh-hk:非牟利;"
+    },
+    {
+      "original": "NPO",
+      "conv": "zh-cn:非营利组织; zh-tw:非營利組織; zh-hk:非牟利機構;"
+    },
+    {
+      "original": "institute a prosecution",
+      "conv": "zh-cn:提起公诉; zh-tw:提起公訴; zh-hk:作出檢控; zh-sg:作出检控;"
+    },
+    {
+      "original": "nolle prosequi",
+      "conv": "zh-cn:撤回起诉; zh-tw:撤回起訴; zh-hk:中止檢控; zh-sg:中止检控;"
+    },
+    {
+      "original": "prosecution agencies",
+      "conv": "檢控機構=>zh-cn:检察机构"
+    },
+    {
+      "original": "prosecuting authorities",
+      "conv": "檢控機關=>zh-cn:检察机关"
+    },
+    {
+      "original": "Prosecutor",
+      "conv": "檢控官=>zh-cn:检察官; 檢控官=>zh-tw:檢察官; 檢控官=>zh-mo:檢察官;"
+    },
+    {
+      "original": "Sendero Luminoso",
+      "conv": "zh-hans:光辉道路; zh-hant:光明之路;"
+    },
+    {
+      "original": "Summit",
+      "conv": "高峰會議=>zh-cn:峰会; 高峰會=>zh-cn:峰会;"
+    },
+    {
+      "original": "Solidarność",
+      "conv": "zh-cn:团结工会; zh-tw:團結工聯; zh-hk:團結工會;"
+    },
+    {
+      "original": "Sistema de la Integración Centroamericana",
+      "conv": "zh-cn:中美洲一体化体系;zh-tw:中美洲統合體;"
+    },
+    {
+      "original": "UEFA",
+      "conv": "zh:歐洲足聯; zh-cn:欧洲足联; zh-tw:歐洲足總; zh-hk:歐洲足協; zh-mo:歐洲足協; zh-sg:欧洲足总;"
+    },
+    {
+      "original": "UEFA",
+      "conv": "zh:歐足聯; zh-cn:欧足联; zh-tw:歐足總; zh-hk:歐足協; zh-mo:歐足協; zh-sg:欧足总;"
+    },
+    {
+      "original": "AMD",
+      "conv": "zh-cn:超威半导体; zh-tw:超微半導體; zh-hk:超微半導體;"
+    },
+    {
+      "original": "ANZ",
+      "conv": "zh-cn:澳新银行; zh-tw:澳盛銀行; zh-hk:澳新銀行;"
+    },
+    {
+      "original": "AOL",
+      "conv": "zh-cn:美国在线; zh-tw:美國線上; zh-hk:美國在線;"
+    },
+    {
+      "original": "Bauhaus",
+      "conv": "zh-hans:包豪斯; zh-hant:包浩斯;"
+    },
+    {
+      "original": "Berkshire Hathaway",
+      "conv": "zh-cn:伯克希尔·哈撒韦; zh-hk:巴郡·哈薩威; zh-tw:波克夏·海瑟威;"
+    },
+    {
+      "original": "Caterpillar",
+      "conv": "zh-cn:卡特彼勒; zh-tw:開拓重工; zh-hk:卡特比勒; zh-hans:卡特彼勒;"
+    },
+    {
+      "original": "Charoen Pokphand Group",
+      "conv": "zh-cn:正大集团; zh-tw:卜蜂集團; zh-hk:卜蜂集團; zh-hans:卜蜂集团;"
     },
     {
       "original": "CNN",
       "conv": "zh:CNN; zh-hans:有线电视新闻网; zh-hk:CNN; zh-sg:CNN; zh-cn:CNN; zh-tw:CNN;"
     },
     {
-      "original": "Community",
-      "conv": "zh-cn:社区; zh-tw:社群; zh-hk:社區;"
-    },
-    {
-      "original": "COO",
-      "conv": "zh-cn:首席运营官; zh-tw:首席營運長;"
-    },
-    {
-      "original": "Cornell University",
-      "conv": "zh-cn:康奈尔大学; zh-tw:康乃爾大學; zh-hk:康奈爾大學;"
-    },
-    {
-      "original": "Digital Agency",
-      "conv": "zh-tw:數位廳; zh-cn:数字厅; zh-hk:數碼廳;"
-    },
-    {
-      "original": "Employ",
-      "conv": "zh-cn:雇佣; zh-tw:僱用;"
+      "original": "Fairchild Semiconductor",
+      "conv": "zh-hans:仙童半导体; zh-hant:快捷半導體;"
     },
     {
       "original": "Fairchild Semiconductor",
-      "conv": "zh-hans:飞兆半导体;zh-cn:仙童半导体; zh-hant:快捷半導體;"
+      "conv": "飞兆半导体=>zh-hans:仙童半导体; 飞兆半导体=>zh-hant:快捷半導體;"
     },
     {
       "original": "Fiat",
@@ -132,76 +172,28 @@
       "conv": "財星=>zh-cn:财富;財星=>zh-hk:財富;財星=>zh-mo:財富;"
     },
     {
-      "original": "Fraunhofer Assossation",
-      "conv": "zh-hant:夫朗和斐協會;zh-hans:弗劳恩霍夫协会;"
-    },
-    {
-      "original": "FIG",
-      "conv": "zh-cn:国际体操联合会; zh-tw:國際體操總會"
-    },
-    {
       "original": "Fox",
       "conv": "zh-cn:福斯;zh-tw:福斯;zh-hk:霍士;zh-sg:福斯"
     },
     {
       "original": "GlobalFoundries",
-      "conv": "zh-tw:格羅方德; zh-cn:格芯;"
+      "conv": "zh-hant:格羅方德; zh-hans:格芯;"
     },
     {
       "original": "Goodyear",
       "conv": "zh-cn:固特异; zh-hans:固特异; zh-hk:好時年; zh-tw:固特異;"
     },
     {
-      "original": "Group of Six",
-      "conv": "zh-hans:六国集团; zh-hant:六大工業國組織;"
-    },
-    {
-      "original": "Group of Seven",
-      "conv": "zh-tw:七大工業國組織; zh-hans:七国集团; zh-hk:七國集團;"
-    },
-    {
-      "original": "Group of Eight",
-      "conv": "zh-hans:八国集团; zh-hant:八大工業國組織;"
-    },
-    {
       "original": "Honeywell",
       "conv": "zh-cn:霍尼韦尔; zh-tw:漢威聯合; zh-hk:霍尼韋爾; zh-hans:霍尼韦尔;"
-    },
-    {
-      "original": "Intellectual property",
-      "conv": "zh-hans:知识产权; zh-hant:知識產權; zh-tw:智慧財產權;"
-    },
-    {
-      "original": "Internet Archive",
-      "conv": "zh-cn:互联网档案馆; zh-tw:網際網路檔案館; zh-hk:互聯網檔案館; zh-sg:互联网档案馆;"
-    },
-    {
-      "original": "Incoterms",
-      "conv": "zh-cn:国际贸易术语解释通则; zh-tw:國貿條規;"
-    },
-    {
-      "original": "Incoterms",
-      "conv": "zh-cn:国际贸易术语; zh-tw:國際商業用語;"
     },
     {
       "original": "Johnson & Johnson",
       "conv": "zh-hans:强生; zh-hk:強生; zh-tw:嬌生;"
     },
     {
-      "original": "Kōsei Torihiki Iinkai",
-      "conv": "取引委員會=>zh-cn:交易委员会;"
-    },
-    {
-      "original": "Kindergarten",
-      "conv": "zh-cn:幼儿园; zh-hant:幼稚園; zh-sg:幼稚园;"
-    },
-    {
       "original": "Galeries Lafayette Haussmann",
-      "conv": "zh-hans:老佛爷百货公司;zh-hant:拉法葉百貨公司;"
-    },
-    {
-      "original": "NASA",
-      "conv": "zh-cn:美国国家航空航天局; zh-tw:美國國家航空暨太空總署; zh-hk:美國太空總署;"
+      "conv": "zh-cn:老佛爷百货;zh-hk:老佛爺百貨;zh-tw:拉法葉百貨;"
     },
     {
       "original": "NASDAQ",
@@ -212,10 +204,6 @@
       "conv": "zh-cn:耐克; zh-tw:耐吉; zh-hk:Nike;"
     },
     {
-      "original": "NPO",
-      "conv": "zh-cn:非营利组织; zh-tw:非營利組織; zh-hk:非牟利機構;"
-    },
-    {
       "original": "NVIDIA",
       "conv": "zh-hans:英伟达; zh-hant:輝達;"
     },
@@ -224,24 +212,8 @@
       "conv": "zh-cn:宝洁; zh-tw:寶鹼; zh-hk:寶潔; zh-hans:宝洁;"
     },
     {
-      "original": "Project",
-      "conv": "zh-cn:项目; zh-tw:專案;"
-    },
-    {
-      "original": "Privacy",
-      "conv": "zh-cn:隐私; zh-tw:私密;"
-    },
-    {
-      "original": "Profit",
-      "conv": "zh-cn:营利; zh-tw:營利; zh-hk:牟利;"
-    },
-    {
       "original": "PayPal",
       "conv": "zh:PayPal;zh-cn:贝宝;zh-hant:PayPal;zh-hans:PayPal;"
-    },
-    {
-      "original": "Sendero Luminoso",
-      "conv": "zh-hans:光辉道路; zh-hant:光明之路;"
     },
     {
       "original": "SHARP",
@@ -256,14 +228,6 @@
       "conv": "zh-hans:升特; zh-hant:陞特;"
     },
     {
-      "original": "Summit",
-      "conv": "高峰會議=>zh-cn:峰会; 高峰會=>zh-cn:峰会;"
-    },
-    {
-      "original": "Solidarność",
-      "conv": "zh-cn:团结工会; zh-tw:團結工聯; zh-hk:團結工會;"
-    },
-    {
       "original": "Sony",
       "conv": "zh:新力; zh-cn:索尼; zh-tw:索尼; zh-hk:索尼; zh-sg:索尼; zh-mo:索尼;"
     },
@@ -272,32 +236,20 @@
       "conv": "zh-cn:索尼影视娱乐; zh-tw:索尼影視娛樂; zh-hk:索尼影業;"
     },
     {
-      "original": "Stanford University",
-      "conv": "zh-cn:斯坦福大学; zh-tw:史丹佛大學; zh-hk:史丹福大學;"
-    },
-    {
-      "original": "Sistema de la Integración Centroamericana",
-      "conv": "zh-cn:中美洲一体化体系;zh-tw:中美洲統合體;"
-    },
-    {
       "original": "TSMC",
       "conv": "zh-hant:積體電路製造公司; zh-hans:积体电路制造公司;"
-    },
-    {
-      "original": "UEFA",
-      "conv": "zh:歐洲足聯; zh-cn:欧洲足联; zh-tw:歐洲足總; zh-hk:歐洲足協; zh-mo:歐洲足協; zh-sg:欧洲足总;"
-    },
-    {
-      "original": "UEFA",
-      "conv": "zh:歐足聯; zh-cn:欧足联; zh-tw:歐足總; zh-hk:歐足協; zh-mo:歐足協; zh-sg:欧足总;"
     },
     {
       "original": "Verizon",
       "conv": "zh-cn:威瑞森;zh-tw:威訊;zh-hk:威訊;zh-mo:威訊;zh-sg:威瑞森;"
     },
     {
+      "original": "Volkswagen",
+      "conv": "zh-cn:大众汽车; zh-hk:福士汽車; zh-sg:福士伟根汽车; zh-tw:福斯汽車;"
+    },
+    {
       "original": "Western Digital",
-      "conv": "zh-cn:西部数据; zh-tw:威騰電子;"
+      "conv": "zh-cn:西部数据; zh-hk:西部數據; zh-tw:威騰電子;"
     },
     {
       "original": "WorldCom",
@@ -306,6 +258,54 @@
     {
       "original": "Xerox",
       "conv": "zh-hans:施乐;zh-hant:全录;zh-cn:施乐;zh-tw:全錄;zh-hk:施樂;zh-mo:施樂;"
+    },
+    {
+      "original": "CBO",
+      "conv": "zh-cn:首席品牌官; zh-tw:品牌長;"
+    },
+    {
+      "original": "CEO",
+      "conv": "zh-cn:首席执行官; zh-hk:行政總裁; zh-tw:執行長;"
+    },
+    {
+      "original": "CFO",
+      "conv": "zh-cn:首席财务官; zh-tw:財務長;"
+    },
+    {
+      "original": "CFO",
+      "conv": "財務總監=>zh-tw:財務長;财务总监=>zh-tw:財務長;"
+    },
+    {
+      "original": "CIO",
+      "conv": "zh-cn:信息主管; zh-tw:資訊總監;"
+    },
+    {
+      "original": "CMO",
+      "conv": "zh-cn:市场总监; zh-tw:行銷長;"
+    },
+    {
+      "original": "COO",
+      "conv": "zh-cn:首席运营官; zh-tw:首席營運長;"
+    },
+    {
+      "original": "Employ",
+      "conv": "zh-cn:雇佣; zh-tw:僱用; zh-hk:僱用;"
+    },
+    {
+      "original": "Berkeley",
+      "conv": "zh-cn:伯克利;zh-tw:柏克萊;"
+    },
+    {
+      "original": "University of British Columbia",
+      "conv": "zh-cn:不列颠哥伦比亚大学;zh-tw:英屬哥倫比亞大學;zh-hk:英屬哥倫比亞大學;"
+    },
+    {
+      "original": "University of British Columbia",
+      "conv": "卑詩大學=>不列颠哥伦比亚大学;卑詩大學=>zh-tw:英屬哥倫比亞大學;卑詩大學=>zh-hk:英屬哥倫比亞大學;卑詩大學=>zh-mo:英屬哥倫比亞大學;"
+    },
+    {
+      "original": "University of California, Berkeley",
+      "conv": "zh-hans:伯克利分校; zh-hant:柏克萊分校;"
     },
     {
       "original": "Cornell University",
@@ -320,24 +320,8 @@
       "conv": "zh-cn:卡内基梅隆大学;zh-tw:卡內基美隆大學;zh-hk:卡尼基美隆大學;"
     },
     {
-      "original": "University of Pennsylvania",
-      "conv": "zh-cn:宾夕法尼亚大学;zh-tw:賓州大學;zh-hk:賓夕凡尼亞大學;"
-    },
-    {
-      "original": "University of California, Berkeley",
-      "conv": "zh-cn:加州大学伯克利分校;zh-tw:加州大學柏克萊分校;"
-    },
-    {
-      "original": "Berkeley",
-      "conv": "zh-cn:伯克利;zh-tw:柏克萊;"
-    },
-    {
-      "original": "Stanford University",
-      "conv": "zh-cn:斯坦福大学;zh-tw:史丹佛大學;zh-hk:史丹福大學;"
-    },
-    {
-      "original": "Stanford",
-      "conv": "zh-cn:斯坦福;zh-tw:史丹佛;zh-hk:史丹福;"
+      "original": "Kindergarten",
+      "conv": "zh-cn:幼儿园; zh-hant:幼稚園; zh-sg:幼稚园;"
     },
     {
       "original": "Massachusetts Institute of Technology",
@@ -348,20 +332,40 @@
       "conv": "zh-cn:麦吉尔大学;zh-tw:麥基爾大學;zh-hk:麥基爾大學;"
     },
     {
+      "original": "Open University",
+      "conv": "zh-cn:开放大学; zh-hk:公開大學; zh-tw:空中大學;"
+    },
+    {
+      "original": "University of Pennsylvania",
+      "conv": "zh-cn:宾夕法尼亚大学;zh-tw:賓州大學;zh-hk:賓夕凡尼亞大學;"
+    },
+    {
       "original": "University of Saskatchewan",
       "conv": "zh-cn:萨斯喀彻温大学;zh-tw:薩克其萬大學;zh-hk:沙斯卡寸旺大學;"
     },
     {
-      "original": "University of British Columbia",
-      "conv": "zh-cn:不列颠哥伦比亚大学;zh-tw:英屬哥倫比亞大學;zh-hk:英屬哥倫比亞大學;"
+      "original": "Stanford",
+      "conv": "zh-cn:斯坦福;zh-tw:史丹佛;zh-hk:史丹福;"
     },
     {
-      "original": "University of British Columbia",
-      "conv": "卑詩大學=>不列颠哥伦比亚大学;卑詩大學=>zh-tw:英屬哥倫比亞大學;卑詩大學=>zh-hk:英屬哥倫比亞大學;卑詩大學=>zh-mo:英屬哥倫比亞大學;"
+      "original": "Stanford University",
+      "conv": "zh-cn:斯坦福大学;zh-tw:史丹佛大學;zh-hk:史丹福大學;"
     },
     {
       "original": null,
       "conv": "zh-hans:新力量; zh-hant:新力量"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:国家开放大学; zh-hk:國家開放大學; zh-tw:國家開放大學;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:香港公开大学; zh-hk:香港公開大學; zh-tw:香港公開大學;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:立空中大学; zh-hk:立空中大學; zh-tw:立空中大學;"
     }
   ]
 }

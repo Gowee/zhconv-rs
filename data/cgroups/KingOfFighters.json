@@ -1,0 +1,247 @@
+{
+  "name": "KingOfFighters",
+  "description": "游戏The King Of Fighters相关译名转换",
+  "path": "Module:CGroup/KingOfFighters",
+  "rules": [
+    {
+      "original": "The King of Fighters",
+      "conv": "zh-cn:拳皇;zh-tw:格鬥天王;zh-hk:拳皇;"
+    },
+    {
+      "original": "Terry Bogard",
+      "conv": "zh-cn:特瑞;zh-tw:泰瑞;zh-hk:泰利;"
+    },
+    {
+      "original": "Bogard",
+      "conv": "zh-cn:博加德;zh-tw:柏格;zh-hk:波格;"
+    },
+    {
+      "original": "Ryo Sakazaki",
+      "conv": "zh-cn:坂崎良;zh-tw:坂崎良;zh-hk:坂崎龍;"
+    },
+    {
+      "original": "Robert",
+      "conv": "zh-cn:罗伯特;zh-tw:羅伯特;zh-hk:羅拔;"
+    },
+    {
+      "original": "Garcia",
+      "conv": "zh-cn:加西亚;zh-tw:葛若西亞;zh-hk:嘉西亞;"
+    },
+    {
+      "original": "Takuma Sakazaki",
+      "conv": "zh-cn:坂崎琢磨;zh-tw:坂崎琢磨;zh-hk:坂崎大個馬;"
+    },
+    {
+      "original": "Yuri Sakazaki",
+      "conv": "zh-cn:坂崎百合;zh-tw:坂崎百合;zh-hk:坂崎尤里;"
+    },
+    {
+      "original": "Heidern",
+      "conv": "zh-cn:哈迪兰;zh-tw:海迪倫;zh-hk:海頓;"
+    },
+    {
+      "original": "Jones",
+      "conv": "zh-cn:琼斯;zh-tw:瓊斯;zh-hk:鍾斯;"
+    },
+    {
+      "original": "Still",
+      "conv": "zh-cn:史迪尔;zh-tw:史迪爾;zh-hk:史超;"
+    },
+    {
+      "original": "Heavy",
+      "conv": "zh-cn:哈维;zh-tw:黑比;zh-hk:哈維;"
+    },
+    {
+      "original": "Lucky",
+      "conv": "zh-cn:洛奇;zh-tw:洛基;zh-hk:勒奇;"
+    },
+    {
+      "original": "Glauber",
+      "conv": "zh-cn:古洛巴;zh-tw:古柏;zh-hk:古羅巴;"
+    },
+    {
+      "original": "Brian",
+      "conv": "zh-cn:布莱恩;zh-tw:布萊安;zh-hk:拜仁;"
+    },
+    {
+      "original": "Battler",
+      "conv": "zh-cn:巴特勒;zh-tw:巴特拉;zh-hk:巴多拉;"
+    },
+    {
+      "original": "Kim Kaphwan",
+      "conv": "zh-cn:金家藩;zh-tw:金卡法;zh-hk:金甲煥;"
+    },
+    {
+      "original": "Chang Koehan",
+      "conv": "zh-cn:陈国汉;zh-tw:陳可漢;zh-hk:張國寒;"
+    },
+    {
+      "original": "Choi Bounge",
+      "conv": "zh-cn:蔡宝奇;zh-tw:邱豐凱;zh-hk:崔盆革;"
+    },
+    {
+      "original": "Rugal Bernstein",
+      "conv": "zh-cn:卢卡尔;zh-tw:路卡爾;zh-hk:路卡爾;"
+    },
+    {
+      "original": "Bernstein",
+      "conv": "zh-cn:伯恩斯坦;zh-tw:班舒泰爾;zh-hk:班舒泰爾;"
+    },
+    {
+      "original": "Billy Kane",
+      "conv": "zh-cn:比利·凯恩;zh-tw:比利·凱恩;zh-hk:比利·卡;"
+    },
+    {
+      "original": "Leona",
+      "conv": "zh-cn:莉安娜;zh-tw:蕾歐娜;zh-hk:莉奧娜;"
+    },
+    {
+      "original": "Mature",
+      "conv": "zh-cn:麦卓;zh-tw:瑪裘亞;zh-hk:瑪卓亞;"
+    },
+    {
+      "original": "Vice",
+      "conv": "zh-cn:薇丝;zh-tw:拜斯;zh-hk:白絲;"
+    },
+    {
+      "original": "Geese",
+      "conv": "zh-cn:吉斯;zh-tw:基斯;zh-hk:傑斯;"
+    },
+    {
+      "original": "Howard",
+      "conv": "zh-cn:霍华德;zh-tw:霍華德;zh-hk:侯活;"
+    },
+    {
+      "original": "Wolfgang",
+      "conv": "zh-cn:沃尔夫冈;zh-tw:沃夫剛格;zh-hk:烏爾夫格古;"
+    },
+    {
+      "original": "Krauser",
+      "conv": "zh-cn:克劳萨;zh-tw:克勞薩;zh-hk:古拉薩;"
+    },
+    {
+      "original": "Goenitz",
+      "conv": "zh-cn:高尼茨;zh-tw:傑尼茲;zh-hk:基烈寺;"
+    },
+    {
+      "original": "Yuki",
+      "conv": "zh-cn:小雪;zh-tw:阿雪;zh-hk:有紀;"
+    },
+    {
+      "original": "Gaidel",
+      "conv": "zh-cn:盖德尔;zh-tw:凱迪爾;zh-hk:嘉狄爾;"
+    },
+    {
+      "original": "Shermie",
+      "conv": "zh-cn:夏尔美;zh-tw:雪魯咪;zh-hk:舍露美;"
+    },
+    {
+      "original": "Maxima",
+      "conv": "zh-cn:马克西马;zh-tw:麥斯瑪;zh-hk:麥斯瑪;"
+    },
+    {
+      "original": "Whip",
+      "conv": "zh-cn:薇普;zh-tw:薇普;zh-hk:葳莆;"
+    },
+    {
+      "original": "Ramon",
+      "conv": "zh-cn:拉蒙;zh-tw:拉蒙;zh-hk:羅門;"
+    },
+    {
+      "original": "Vanessa",
+      "conv": "zh-cn:温妮莎;zh-tw:凡妮莎;zh-hk:芭妮莎;"
+    },
+    {
+      "original": "Seth",
+      "conv": "zh-cn:赛斯;zh-tw:賽斯;zh-hk:謝素;"
+    },
+    {
+      "original": "Kula",
+      "conv": "zh-cn:库拉;zh-tw:庫拉;zh-hk:古娜;"
+    },
+    {
+      "original": "Foxy",
+      "conv": "zh-cn:霍斯;zh-tw:福克茜;zh-hk:霍斯;"
+    },
+    {
+      "original": "Diamond",
+      "conv": "zh-cn:戴尔蒙多;zh-tw:戴蒙;zh-hk:戴雅門度;"
+    },
+    {
+      "original": "Angel",
+      "conv": "zh-cn:安琪尔;zh-tw:;zh-hk:安琪兒;"
+    },
+    {
+      "original": "Misty",
+      "conv": "zh-cn:密丝缇;zh-tw:;zh-hk:美絲迪;"
+    },
+    {
+      "original": "Ash",
+      "conv": "zh-cn:阿修;zh-tw:阿修;zh-hk:艾森;"
+    },
+    {
+      "original": "Crimson",
+      "conv": "zh-cn:克里门森;zh-tw:克里門森;zh-hk:古立遜;"
+    },
+    {
+      "original": "Tizoc",
+      "conv": "zh-cn:狮鹫假面;zh-tw:獅鷲假面;zh-hk:鷹面人;"
+    },
+    {
+      "original": "Malin",
+      "conv": "zh-cn:玛琳;zh-tw:瑪琳;zh-hk:麻琳;"
+    },
+    {
+      "original": "Adelheid",
+      "conv": "zh-cn:艾迪尔海特;zh-tw:亞迪爾哈德;zh-hk:艾黛爾海特;"
+    },
+    {
+      "original": "Rose",
+      "conv": "zh-cn:罗丝;zh-tw:蘿絲;zh-hk:路絲;"
+    },
+    {
+      "original": "Blanctorche",
+      "conv": "zh-cn:布兰克托什;zh-tw:布蘭克托什;zh-hk:布蘭特路殊;"
+    },
+    {
+      "original": "Oswald",
+      "conv": "zh-cn:奥斯瓦尔德;zh-tw:奧斯華德;zh-hk:奧斯華爾特;"
+    },
+    {
+      "original": "Janet",
+      "conv": "zh-cn:珍妮特;zh-tw:潔妮;zh-hk:潔妮;"
+    },
+    {
+      "original": "Hwa Jai",
+      "conv": "zh-cn:霍查;zh-tw:霍查;zh-hk:賀猜;"
+    },
+    {
+      "original": "Alba",
+      "conv": "zh-cn:阿尔巴;zh-tw:;zh-hk:雅柏;"
+    },
+    {
+      "original": "Meira",
+      "conv": "zh-cn:梅拉;zh-tw:;zh-hk:美拿;"
+    },
+    {
+      "original": "Soiree",
+      "conv": "zh-cn:索瓦雷;zh-tw:;zh-hk:索華尼;"
+    },
+    {
+      "original": "Beart",
+      "conv": "zh-cn:贝阿;zh-tw:;zh-hk:琵雅;"
+    },
+    {
+      "original": "Mignon",
+      "conv": "zh-cn:米侬;zh-tw:;zh-hk:美樂;"
+    },
+    {
+      "original": "Ninon",
+      "conv": "zh-cn:尼诺;zh-tw:;zh-hk:妮朧;"
+    },
+    {
+      "original": "Lily Kane",
+      "conv": "zh-cn:莉莉·凯恩;zh-tw:莉莉·凱恩;zh-hk:莉莉·卡;"
+    }
+  ]
+}

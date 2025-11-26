@@ -4,6 +4,14 @@
   "path": "Module:CGroup/Anime",
   "rules": [
     {
+      "original": "Annecy",
+      "conv": "zh-hant:安錫;zh-my:安锡;zh-cn:安纳西;"
+    },
+    {
+      "original": "Festival International du Film d'Animation d'Annecy",
+      "conv": "zh-hant:安錫國際動畫影展;zh-my:安锡动画国际影展;zh-cn:安纳西国际动画电影节;"
+    },
+    {
       "original": "アニメドラマ",
       "conv": "動畫影集=>zh-hk:動畫劇集;動畫影集=>zh-mo:動畫劇集;動畫影集=>zh-cn:动画剧集;"
     },
@@ -13,159 +21,479 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:泡面番;zh-tw:泡麵番;zh-hk:泡麵番;"
+      "conv": "zh-cn:泡面番;zh-tw:泡麵番;zh-hk:杯麵番;"
+    },
+    {
+      "original": "digital remastering",
+      "conv": "zh:數字修復;zh-tw:數位修復;zh-hk:數碼修復;zh-sg:数码修复;zh-my:数码修复;zh-cn:数字修复;"
+    },
+    {
+      "original": "digital remastering / remake",
+      "conv": "zh:數字重;zh-tw:數位重;zh-hk:數碼重;zh-sg:数码重;zh-my:数码重;zh-cn:数字重;"
+    },
+    {
+      "original": "digital technology",
+      "conv": "zh:數字技術;zh-tw:數位科技;zh-hk:數碼技術;zh-sg:数码科技;zh-my:数码科技;zh-cn:数字技术;"
     },
     {
       "original": "optical disc",
       "conv": "zh:光盤;zh-cn:光盘;zh-sg:光碟;zh-my:光碟;zh-tw:光碟;光碟片=>zh-cn:光盘;"
     },
     {
-      "original": "ネットワーク",
-      "conv": "zh:網路;zh-cn:网络;zh-sg:网络;zh-my:网络;zh-hk:網絡;zh-mo:網絡;zh-tw:網路;"
+      "original": "film streaming",
+      "conv": "zh-cn:影片流;zh-my:影片串流;zh-tw:影片串流;"
+    },
+    {
+      "original": "video streaming",
+      "conv": "zh-cn:影音流;zh-my:影音串流;zh-tw:影音串流;"
+    },
+    {
+      "original": "streaming media",
+      "conv": "zh:流媒體;zh-cn:流媒体;zh-my:串流媒体;zh-tw:串流媒體;"
+    },
+    {
+      "original": "mainstream media",
+      "conv": "zh-cn:主流媒体;zh-tw:主流媒體;zh-hk:主流傳媒;"
+    },
+    {
+      "original": "stream",
+      "conv": "串流=>zh-cn:流;"
+    },
+    {
+      "original": "stream",
+      "conv": "流式=>zh-tw:串流;流式=>zh-hk:串流;流式=>zh-mo:串流;"
+    },
+    {
+      "original": "thriller",
+      "conv": "zh-tw:驚悚;zh-hans:惊悚;zh-hk:驚慄;"
+    },
+    {
+      "original": "videotape",
+      "conv": "zh-hant:錄影帶;zh-sg:录影带;zh-my:录影带;zh-cn:录像带;"
+    },
+    {
+      "original": "web",
+      "conv": "zh-cn:网络;zh-hk:網絡;zh-tw:網路;"
+    },
+    {
+      "original": null,
+      "conv": "初中=>zh-tw:國中;初中=>zh-hk:中學;初中=>zh-mo:中學;初中=>zh-my:中学;初中=>zh-sg:中学;"
     },
     {
       "original": "渋谷圭一郎",
-      "conv": "zh:涉谷圭一郎;zh-cn:涉谷圭一郎;zh-sg:涉谷圭一郎;zh-my:涉谷圭一郎;zh-hk:涉谷圭一郎;zh-mo:涉谷圭一郎;zh-tw:涉谷圭一郎;"
+      "conv": "zh:澀谷圭一郎;zh-hant:澀谷圭一郎;zh-hans:涩谷圭一郎;zh-cn:涩谷圭一郎;zh-sg:涩谷圭一郎;zh-my:涩谷圭一郎;zh-hk:澀谷圭一郎;zh-mo:澀谷圭一郎;zh-tw:澀谷圭一郎;"
+    },
+    {
+      "original": "渋谷圭介",
+      "conv": "zh:澀谷圭介;zh-hant:澀谷圭介;zh-hans:涩谷圭介;zh-cn:涩谷圭介;zh-sg:涩谷圭介;zh-my:涩谷圭介;zh-hk:澀谷圭介;zh-mo:澀谷圭介;zh-tw:澀谷圭介;"
     },
     {
       "original": "神栖みか",
-      "conv": "zh:神栖臣佳;zh-cn:神栖臣佳;zh-sg:神栖臣佳;zh-my:神栖臣佳;zh-hk:神栖臣佳;zh-mo:神栖臣佳;zh-tw:神栖臣佳;"
+      "conv": "zh:神栖臣佳;zh-hant:神栖臣佳;zh-hans:神栖臣佳;zh-cn:神栖臣佳;zh-sg:神栖臣佳;zh-my:神栖臣佳;zh-hk:神栖臣佳;zh-mo:神栖臣佳;zh-tw:神栖臣佳;"
     },
     {
-      "original": "紅の豚",
-      "conv": "zh-cn:红猪;zh-tw:紅豬;zh-hk:飛天紅豬俠;zh-mo:飛天紅豬俠;zh-sg:红猪;zh-my:红猪;"
+      "original": "北条司",
+      "conv": "zh-hant:北条司;zh-hans:北条司;"
     },
     {
-      "original": "もののけ姫",
-      "conv": "zh-cn:幽灵公主;zh-tw:魔法公主;zh-hk:幽靈公主;zh-mo:幽靈公主;zh-sg:魔法公主;zh-my:魔法公主;"
+      "original": "BORUTO-ボルト- -NARUTO NEXT GENERATIONS-",
+      "conv": "zh-cn:博人传-火影次世代-;zh-hk:BORUTO-火影新世代-NARUTO NEXT GENERATIONS-;zh-tw:BORUTO-火影新世代-NARUTO NEXT GENERATIONS-;"
     },
     {
-      "original": "千と千尋の神隠し",
-      "conv": "zh-cn:千与千寻;zh-tw:神隱少女;zh-hk:千與千尋;zh-mo:千與千尋;zh-sg:神隐少女;zh-my:神隐少女;"
+      "original": "BORUTO-ボルト- -NARUTO NEXT GENERATIONS-",
+      "conv": "zh:慕留人 火影新世代;zh-cn:博人传 火影忍者新时代;zh-hant:慕留人-火影新世代-;zh-sg:慕留人-火影新世代-;"
     },
     {
-      "original": "ハウルの動く城",
-      "conv": "zh-cn:哈尔的移动城堡;zh-tw:霍爾的移動城堡;zh-hk:哈爾移動城堡;zh-mo:哈爾移動城堡;zh-sg:哈尔的移动城堡;zh-my:哈尔的移动城堡;"
+      "original": "カードキャプターさくら",
+      "conv": "zh-hant:百變小櫻;zh-hans:百变小樱;zh-cn:魔卡少女樱;zh-tw:庫洛魔法使;zh-hk:百變小櫻Magic咭;zh-sg:库洛魔法使;"
     },
     {
-      "original": "崖の上のポニョ",
-      "conv": "zh-cn:崖上的波妞;zh-tw:崖上的波妞;zh-hk:崖上的波兒;zh-mo:崖上的波兒;zh-sg:崖上的波妞;zh-my:崖上的波妞;"
+      "original": "カードキャプターさくら クリアカード編",
+      "conv": "zh-cn:魔卡少女樱：透明牌篇;zh-tw:庫洛魔法使：透明牌篇;zh-hk:百變小櫻Clear咭;zh-sg:库洛魔法使：透明牌篇;"
     },
     {
-      "original": "時をかける少女",
-      "conv": "zh-cn:穿越时空的少女;zh-tw:跳躍吧！時空少女;zh-hk:穿越時空的少女;zh-sg:跳跃吧！时空少女;"
+      "original": "カードキャプターさくら クリアカード編",
+      "conv": "zh-cn:魔卡少女樱 透明牌篇;zh-tw:庫洛魔法使 透明牌篇;zh-hk:百變小櫻Clear咭;zh-sg:库洛魔法使 透明牌篇;"
     },
     {
-      "original": "未来少年コナン",
-      "conv": "zh-cn:未来少年柯南;zh-tw:未來少年柯南;zh-hk:高立的未來世界;zh-mo:高立的未來世界;zh-sg:未来少年柯南;zh-my:未来少年柯南;"
+      "original": "反逆のルルーシュ",
+      "conv": "zh-cn:反叛的鲁路修;zh-tw:反叛的魯路修;zh-hk:叛逆的魯魯修;"
     },
     {
-      "original": "パン種とタマゴ姫",
-      "conv": "zh-cn:酵母君与鸡蛋公主;zh-tw:麵種與蛋姬;zh-hk:酵母君與雞蛋公主;zh-mo:酵母君與雞蛋公主;zh-sg:酵母与鸡蛋公主;zh-my:酵母与鸡蛋公主;"
+      "original": "復活のルルーシュ",
+      "conv": "zh-cn:复活的鲁路修;zh-tw:復活的魯路修;zh-hk:復活的魯魯修;"
     },
     {
-      "original": "めいとこねこバス",
-      "conv": "zh-cn:梅伊与小猫巴士;zh-tw:梅與小貓巴士;zh-hk:大卷次子與小貓巴士;zh-mo:大卷次子與小貓巴士;zh-sg:梅伊与龙猫巴士;zh-my:梅伊与龙猫巴士;"
+      "original": "コードギアス 亡国のアキト",
+      "conv": "zh-cn:Code Geass 亡国的阿基德;zh-tw:Code Geass 亡國的AKITO;zh-hk:Code Geass 亡國的阿基德;"
     },
     {
-      "original": "星をかった日",
-      "conv": "zh-cn:种下星星的日子;zh-tw:買下星星的日子;zh-hk:種下星星的日子;zh-mo:種下星星的日子;zh-sg:种下星星的日子;zh-my:种下星星的日子;"
+      "original": "クレヨンしんちゃん アクション仮面VSハイグレ魔王",
+      "conv": "zh-cn:蜡笔小新：动感超人VS高衩魔王;zh-tw:蠟筆小新劇場版：動感超人VS高衩魔王;zh-hk:蠟筆小新：動感超人VS高叉魔王;"
     },
     {
-      "original": "空想の機械達の中の破壊の発明",
-      "conv": "zh-cn:幻想机械之破坏的发明;zh-tw:空想的機械們裡破壞的發明;zh-hk:幻想機械之破壞的發明;zh-mo:幻想機械之破壞的發明;zh-sg:幻想机械之破坏的发明;zh-my:幻想机械之破坏的发明;"
+      "original": "クレヨンしんちゃん ブリブリ王国の秘宝",
+      "conv": "zh-cn:卟哩卟哩王国的秘密宝藏;zh-tw:不理不理王國的秘寶;zh-hk:不理不理王國的寶藏;"
     },
     {
-      "original": "やどさがし",
-      "conv": "zh-cn:寻找家园;zh-tw:尋找棲所;zh-hk:尋找棲所;zh-mo:尋找棲所;zh-sg:寻找家园;zh-my:寻找家园;zh-my:寻找家园;"
+      "original": "クレヨンしんちゃん 雲黒斎の野望",
+      "conv": "zh-cn:云黑斋的野心;zh-tw:雲黑齋的野心;zh-hk:雲黑齋之野心;"
     },
     {
-      "original": "コロの大さんぽ",
-      "conv": "zh-cn:克洛的大冒险;zh-tw:可羅的大散步;zh-hk:可羅的大散步;zh-sg:克洛的大冒险;zh-mo:可羅的大散步;zh-my:克洛的大冒险;"
+      "original": "クレヨンしんちゃん ヘンダーランドの大冒険",
+      "conv": "zh-cn:搞怪游乐园大冒险;zh-tw:搞怪遊樂園大冒險;zh-hk:古怪樂園大冒險;"
     },
     {
-      "original": "ルパン三世",
-      "conv": "zh-cn:鲁邦三世;zh-tw:魯邦三世;zh-hk:雷朋三世;zh-mo:雷朋三世;zh-sg:鲁邦三世;zh-my:鲁邦三世;"
+      "original": "クレヨンしんちゃん 暗黒タマタマ大追跡",
+      "conv": "zh-cn:黑暗珠珠大追击;zh-tw:黑暗珠珠大追擊;zh-hk:黑暗大追踪;"
     },
     {
-      "original": "アルプスの少女ハイジ",
-      "conv": "zh-cn:阿尔卑斯山的少女;zh-hk:飄零燕;zh-mo:飄零燕;zh-tw:小天使;zh-sg:阿尔卑斯山的少女;zh-my:阿尔卑斯山的少女;"
+      "original": "クレヨンしんちゃん 電撃!ブタのヒヅメ大作戦",
+      "conv": "zh-cn:电击！猪之蹄大作战;zh-tw:電擊！豬蹄大作戰;zh-hk:電擊！豬腳仔大作戰;"
     },
     {
-      "original": "平成狸合戦ぽんぽこ",
-      "conv": "zh-cn:平成狸合战;zh-tw:平成狸合戰;zh-hk:百變貍貓;zh-mo:百變貍貓;zh-sg:平成狸合战;zh-my:平成狸合战;"
+      "original": "クレヨンしんちゃん 爆発!溫泉わくわく大決戦",
+      "conv": "zh-cn:爆发！温泉激烈大决战;zh-tw:爆發！溫泉激烈大決戰;zh-hk:爆發！溫泉大決戰;"
     },
     {
-      "original": "ホーホケキョ となりの山田くん",
-      "conv": "zh-cn:我的邻居山田君;zh-tw:隔壁的山田君;zh-hk:我的鄰居山田君;zh-mo:我的鄰居山田君;zh-sg:我的邻居山田君;zh-my:我的邻居山田君;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶジャングル",
+      "conv": "zh-cn:风起云涌的丛林冒险;zh-tw:風起雲湧的叢林冒險;zh-hk:：暴風森林大作戰;"
     },
     {
-      "original": "火垂るの墓",
-      "conv": "zh-cn:萤火虫之墓;zh-tw:螢火蟲之墓;zh-hk:再見螢火蟲;zh-mo:再見螢火蟲;zh-sg:萤火虫之墓;zh-my:萤火虫之墓;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ モーレツ! オトナ帝国の逆襲",
+      "conv": "zh-cn:呼风唤雨！猛烈！大人帝国的反击;zh-tw:風起雲湧 猛烈！大人帝國的反擊;zh-hk:暴風大人帝國反擊戰;"
     },
     {
-      "original": "おもひでぽろぽろ",
-      "conv": "zh-cn:岁月的童话;zh-tw:兒時的點點滴滴;zh-hk:歲月的童話;zh-mo:歲月的童話;zh-sg:回忆点点滴滴;zh-my:回忆点点滴滴;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ アッパレ! 戦国大合戦",
+      "conv": "zh-cn:风起云涌！壮烈！战国大合战;zh-tw:風起雲湧 壯烈！戰國大會戰;zh-hk:戰國大合戰;"
     },
     {
-      "original": "赤毛のアン",
-      "conv": "zh-cn:红发安妮;zh-tw:清秀佳人;zh-hk:安妮的故事;zh-mo:安妮的故事;zh-sg:红发安妮;zh-my:红发安妮;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ 栄光のヤキニクロード",
+      "conv": "zh-cn:呼风唤雨！光荣烧肉之路;zh-tw:風起雲湧 光榮燒肉之路;zh-hk:蠟筆小新：烤肉反擊戰;"
     },
     {
-      "original": "母をたずねて三千里",
-      "conv": "zh-cn:三千里寻母记;zh-tw:萬里尋母;zh-hk:萬里尋親記;zh-mo:萬里尋親記;zh-sg:寻母三千里;zh-my:寻母三千里;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ!夕陽のカスカベボーイズ",
+      "conv": "zh-cn:蜡笔小新：呼风唤雨！夕阳下的春日部男孩;zh-tw:蠟筆小新：時空大冒險;zh-hk:蠟筆小新：夕陽下的春日部男孩;"
     },
     {
-      "original": "耳をすませば",
-      "conv": "zh-cn:侧耳倾听;zh-tw:心之谷;zh-hk:夢幻街少女;zh-mo:夢幻街少女;zh-sg:梦幻街少女;zh-my:梦幻街少女;"
+      "original": "クレヨンしんちゃん 伝説を呼ぶブリブリ 3分ポッキリ大進撃",
+      "conv": "zh-cn:3分钟百变大进击;zh-tw:3分鐘百變大進擊;zh-hk:傳說召喚 3分鐘百變大進擊;"
     },
     {
-      "original": "コクリコ坂から",
-      "conv": "zh-cn:来自虞美人之坡;zh-tw:來自紅花坂;zh-hk:紅花坂上的海;zh-mo:紅花坂上的海;zh-sg:红花坂上的海;zh-my:红花坂上的海;"
+      "original": "クレヨンしんちゃん 伝説を呼ぶ 踊れ!アミーゴ!",
+      "conv": "zh-cn:蜡笔小新：呼唤传说！跳舞吧！朋友！;zh-tw:蠟筆小新：Amigo！森巴入侵計畫;zh-hk:蠟筆小新劇場版：傳說召喚 Amigo！森巴入侵計畫;"
     },
     {
-      "original": "ゲド戦記",
-      "conv": "zh-cn:地海战记;zh-tw:地海戰記;zh-hk:地海傳說;zh-mo:地海傳說;zh-sg:地海战记;zh-my:地海战记;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ 歌うケツだけ爆弾!",
+      "conv": "zh-cn:蜡笔小新：小白的屁屁炸弹;zh-tw:蠟筆小新：小白的屁屁炸彈;zh-hk:蠟筆小新劇場版：風起雲湧 小白的噼噼炸彈;"
     },
     {
-      "original": "借りぐらしのアリエッティ",
-      "conv": "zh-cn:借东西的小人阿莉埃蒂;zh-tw:借物少女艾莉緹;zh-hk:借東西的小矮人亞莉亞蒂;zh-mo:借東西的小矮人亞莉亞蒂;zh-sg:借东西的小人阿莉埃蒂;zh-my:借东西的小人阿莉埃蒂;"
+      "original": "クレヨンしんちゃん ちょー嵐を呼ぶ 金矛の勇者",
+      "conv": "zh-cn:蜡笔小新：呼风唤雨！金矛之勇者;zh-tw:蠟筆小新：風起雲湧的金矛勇者;zh-hk:蠟筆小新劇場版：風起雲湧的金矛勇者;"
     },
     {
-      "original": "海がきこえる",
-      "conv": "zh-cn:听到涛声;zh-tw:海潮之聲;zh-hk:海潮之聲;zh-mo:海潮之聲;zh-sg:海潮之声;zh-my:海潮之声;"
+      "original": "クレヨンしんちゃん オタケベ!カスカベ野生王国",
+      "conv": "zh-cn:蜡笔小新：呐喊！春日部野生王国;zh-tw:蠟筆小新：春日部野生王國;zh-hk:蠟筆小新劇場版：吶喊吧！春日部野生王國;"
     },
     {
-      "original": "猫の恩返し",
-      "conv": "zh-cn:猫的报恩;zh-tw:貓的報恩;zh-hk:貓之報恩;zh-mo:貓之報恩;zh-sg:猫的报恩;zh-my:猫的报恩;"
+      "original": "クレヨンしんちゃん 超時空!嵐を呼ぶオラの花嫁",
+      "conv": "zh-cn:超时空！呼风唤雨之我的新娘;zh-tw:我的超時空新娘;zh-hk:超時空！我的新娘;"
     },
     {
-      "original": "風立ちぬ",
-      "conv": "zh-cn:起风了;zh-tw:風起;zh-hk:風起了;zh-mo:風起了;zh-sg:风起了;zh-my:风起了;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ黄金のスパイ大作戦",
+      "conv": "zh-cn:呼风唤雨！黄金间谍大作战;zh-tw:黃金間諜大作戰;zh-hk:黃金間諜大作戰;"
     },
     {
-      "original": "巨神兵東京に現わる",
-      "conv": "zh-cn:巨神兵在东京出现;zh-tw:巨神兵現身東京;zh-hk:巨神兵現身東京;zh-mo:巨神兵現身東京;zh-sg:巨神兵现身东京;zh-my:巨神兵现身东京;"
+      "original": "クレヨンしんちゃん 嵐を呼ぶ!オラと宇宙のプリンセス",
+      "conv": "zh-cn:呼风唤雨！我与宇宙公主;zh-sg:我和我的宇宙公主;zh-tw:我和我的宇宙公主;zh-hk:我與我的宇宙公主;"
     },
     {
-      "original": "space station No.9",
-      "conv": "zh-cn:9号太空站;zh-tw:9號太空站;zh-hk:Space Station No.9;zh-mo:Space Station No.9;zh-sg:Space Station No.9;zh-my:Space Station No.9;"
+      "original": "クレヨンしんちゃん バカうまっ!B級グルメサバイバル!!",
+      "conv": "蠟筆小新：超級美味！B級美食大逃亡！！=>zh-cn:蜡笔小新：超级美味！B级美食大逃亡！！;蠟筆小新：超級美味！B級美食大逃亡！！=>zh-tw:蠟筆小新：B級美食大逃亡;蠟筆小新：超級美味！B級美食大逃亡！！=>zh-hk:蠟筆小新：超級美味B級美食大逃亡;"
     },
     {
-      "original": "かぐや姫の物語",
-      "conv": "zh-cn:辉夜姬物语;zh-tw:輝耀姬物語;zh-hk:輝耀姬物語;zh-mo:輝耀姬物語;zh-sg:辉夜姬物语;zh-my:辉夜姬物语;"
+      "original": "クレヨンしんちゃん ガチンコ!逆襲のロボとーちゃん!!",
+      "conv": "zh-cn:决一胜负！逆袭的机器人爸爸;zh-tw:大對決！機器人爸爸的反擊;zh-hk:大對決！機器人爸爸的反擊;"
     },
     {
-      "original": "夢と狂気の王国",
-      "conv": "zh-cn:梦与疯狂的王国;zh-tw:夢與瘋狂的王國;zh-hk:夢與瘋狂之王國;zh-mo:夢與瘋狂之王國;zh-sg:梦与疯狂的王国;zh-my:梦与疯狂的王国;"
+      "original": "クレヨンしんちゃん オラの引越し物語 サボテン大襲撃",
+      "conv": "zh-cn:我的搬家物语～仙人掌大袭击～;zh-tw:我的搬家物語仙人掌大襲擊;zh-hk:我的搬家物語仙人掌大襲擊;"
     },
     {
-      "original": "レッドタートル ある島の物語",
-      "conv": "zh-cn:红海龟;zh-tw:紅烏龜：小島物語;zh-hk:紅海龜;zh-mo:紅海龜;zh-sg:红海龟;zh-my:红海龟;"
+      "original": "クレヨンしんちゃん 爆睡!ユメミーワールド大突撃",
+      "conv": "zh-cn:梦境世界大突击;zh-tw:爆睡！夢世界大作戰;zh-hk:瞓啦！早唞早著夢作戰;"
     },
     {
-      "original": "君たちはどう生きるか",
-      "conv": "zh-hans:苍鹭与少年;zh-hant:蒼鷺與少年;zh-cn:你想活出怎样的人生;"
+      "original": "クレヨンしんちゃん 襲来!! 宇宙人シリリ",
+      "conv": "zh-cn:宇宙人来袭！！;zh-tw:宇宙人Pi力來襲！！;zh-hk:外星人噼噼怪來襲！！;"
+    },
+    {
+      "original": "クレヨンしんちゃん 爆盛！カンフーボーイズ〜拉麺大乱〜",
+      "conv": "zh-cn:爆盛！功夫男孩～拉面大乱～;zh-tw:功夫小子～拉麵大亂鬥～;zh-hk:爆盛！功夫小新～拉麵大亂鬥～;"
+    },
+    {
+      "original": "クレヨンしんちゃん 新婚旅行ハリケーン 〜失われたひろし〜",
+      "conv": "zh-cn:新婚旅行飓风之遗失的野原广志;zh-tw:新婚旅行風暴～奪回廣志大作戰～;zh-hk:蜜月風暴～拯救老豆大作戰～;"
+    },
+    {
+      "original": "クレヨンしんちゃん 激突!ラクガキングダムとほぼ四人の勇者",
+      "conv": "zh-cn:涂鸦王国和约四位勇士;zh-tw:塗鴉王國與差不多四勇者;zh-hk:塗鴉王國與差不多四勇者;"
+    },
+    {
+      "original": "クレヨンしんちゃん 謎メキ!花の天カス学園",
+      "conv": "zh-cn:谜团！花之天下春日部学院;zh-sg:谜案！天下春日部学院的怪奇事件;zh-tw:謎案！天下春日部學院的怪奇事件;zh-hk:謎團？！天下春日部學園之嫌疑事件簿;"
+    },
+    {
+      "original": "クレヨンしんちゃん もののけニンジャ珍風伝",
+      "conv": "zh-cn:蜡笔小新：幽灵忍者珍风传;zh-tw:蠟筆小新：幽靈忍者珍風傳;zh-hk:蠟筆小新劇場版：幽靈忍者珍風傳;"
+    },
+    {
+      "original": "クレヨンしんちゃん オラたちの恐竜日記",
+      "conv": "zh-cn:蜡笔小新：我们的恐龙日记;zh-tw:電影蠟筆小新：我們的恐龍日記;zh-hk:蠟筆小新：我們的恐龍日記;"
+    },
+    {
+      "original": "しん次元！クレヨンしんちゃんTHE MOVIE 超能力大決戦 ～とべとべ手巻き寿司～",
+      "conv": "zh:新次元！蠟筆小新THE MOVIE 超能力大決戰 ～飛吧！手卷壽司～;zh-cn:蜡笔小新：新次元！超能力大决战;zh-sg:新次元！蜡笔小新THE MOVIE 超能力大决战～飞吧！手卷寿司;zh-tw:新次元！蠟筆小新電影超能力大決戰～飛吧！手卷壽司～;zh-hk:新次元！蠟筆小新大電影：超能力大決戰～飛吧飛吧手捲壽司～;"
+    },
+    {
+      "original": "デジタルモンスター",
+      "conv": "zh-cn:数码宝贝;zh-tw:數碼寶貝;zh-hk:數碼暴龍;"
+    },
+    {
+      "original": "デジモンセイバーズ",
+      "conv": "zh-cn:数码宝贝拯救者;zh-tw:數碼寶貝拯救隊;zh-hk:數碼暴龍DS;"
+    },
+    {
+      "original": "デジモンクロスウォーズ",
+      "conv": "zh-cn:数码宝贝合体战争;zh-tw:數碼寶貝大匯戰;zh-hk:數碼暴龍合體大作戰;"
+    },
+    {
+      "original": "デジモンユニバース アプリモンスターズ",
+      "conv": "zh-cn:数码宝贝宇宙 应用怪兽;zh-hk:數碼暴龍App世代;zh-tw:數碼寶貝-APP獸;"
+    },
+    {
+      "original": "Dr.STONE",
+      "conv": "zh-cn:Dr.STONE 石纪元;zh-my:Dr.STONE 新石纪;zh-sg:Dr.STONE 新石纪;zh-tw:Dr.STONE 新石紀;"
+    },
+    {
+      "original": "Dr.STONE",
+      "conv": "Dr.STONE 石纪元=>zh-hk:Dr.STONE;Dr.STONE 石纪元=>zh-mo:Dr.STONE;Dr.STONE 新石紀=>zh-hk:Dr.STONE;Dr.STONE 新石紀=>zh-mo:Dr.STONE;"
+    },
+    {
+      "original": "エウレカセブン",
+      "conv": "zh-cn:优莱卡7;zh-tw:艾蕾卡7;zh-hk:艾蕾卡7;"
+    },
+    {
+      "original": "エウレカセブンAO",
+      "conv": "zh-tw:艾蕾卡7 AO;zh-hk:交響詩篇AO;"
+    },
+    {
+      "original": "交響詩篇エウレカセブン ポケットが虹でいっぱい",
+      "conv": "zh-cn:交响诗篇：彩虹满载;zh-tw:交響詩篇艾蕾卡7 口袋裏的彩虹;zh-hk:交響詩篇艾蕾卡7 口袋裏的彩虹;"
+    },
+    {
+      "original": "Presage Flower",
+      "conv": "zh-cn:恶兆之花;zh-tw:預示之花;zh-hk:Presage Flower;"
+    },
+    {
+      "original": "Lost Butterfly",
+      "conv": "zh-cn:迷失之蝶;zh-tw:迷途之蝶;zh-hk:Lost Butterfly;"
+    },
+    {
+      "original": "Spring Song",
+      "conv": "zh-cn:春之歌;zh-tw:春櫻之歌;zh-hk:Spring Song;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:无限剑制;zh-hant:無限劍製;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:天之杯;zh-tw:第三魔法;"
+    },
+    {
+      "original": "Fate/stay night [Unlimited Blade Works]",
+      "conv": "zh-cn:命运之夜：无限剑制;zh-tw:Fate/stay night [Unlimited Blade Works];"
+    },
+    {
+      "original": "Fate/stay night Unlimited Blade Works",
+      "conv": "zh:Fate/stay night Unlimited Blade Works;zh-cn:命运之夜 剧场版;zh-tw:Fate/stay night - 無限劍製;"
+    },
+    {
+      "original": "Fate/strange Fake -Whispers of Dawn-",
+      "conv": "zh-cn:命运-奇异赝品 黎明低语;zh-tw:Fate/strange Fake -Whispers of Dawn-;"
+    },
+    {
+      "original": "ロード・エルメロイII世の事件簿",
+      "conv": "zh-cn:君主·埃尔梅罗二世事件簿;zh-tw:艾梅洛閣下II世事件簿;"
+    },
+    {
+      "original": "Fate/stay night [Heaven's Feel]",
+      "conv": "zh-cn:命运之夜——天之杯;zh-tw:Fate/stay night [Heaven's Feel];zh-hk:Fate/stay night Heaven's Feel;"
+    },
+    {
+      "original": "衛宮さんちの今日のごはん",
+      "conv": "zh-cn:卫宫家今天的饭;zh-tw:衛宮家今天的餐桌風景;"
+    },
+    {
+      "original": "Fate/EXTRA Last Encore",
+      "conv": "zh-cn:Fate/EXTRA Last Encore;zh-tw:Fate/EXTRA：最後安歌;zh-hk:Fate/EXTRA：最後安歌;"
+    },
+    {
+      "original": "FAIRY TAIL",
+      "conv": "zh:FAIRY TAIL;zh-cn:妖精的尾巴;zh-tw:魔導少年;zh-hk:FAIRY TAIL魔導少年;zh-sg:FAIRY TAIL;"
+    },
+    {
+      "original": "FAIRY TAIL 100年クエスト",
+      "conv": "zh:FAIRY TAIL 100 YEARS QUEST;zh-sg:魔导少年 百年任务;zh-cn:妖精的尾巴 百年任务;zh-tw:FAIRY TAIL魔導少年 百年任務;zh-hk:FAIRY TAIL魔導少年 百年任務;"
+    },
+    {
+      "original": "ガンダム",
+      "conv": "zh:GUNDAM;zh-cn:高达;zh-tw:鋼彈;zh-hk:高達;zh-sg:高达;"
+    },
+    {
+      "original": "ガンダム00",
+      "conv": "zh:GUNDAM 00;zh-cn:高达00;zh-tw:鋼彈00;zh-hk:高達00;zh-sg:高达00;"
+    },
+    {
+      "original": "ポケットの中の戦争",
+      "conv": "zh-cn:口袋里的战争;zh-tw:口袋裡的戰爭;zh-hk:口袋中的戰爭;"
+    },
+    {
+      "original": "STARDUST MEMORY",
+      "conv": "zh:STARDUST MEMORY;zh-cn:星尘的回忆;zh-tw:星塵回憶;zh-hk:星塵的回憶;"
+    },
+    {
+      "original": "Zガンダム",
+      "conv": "zh:Z GUNDAM;zh-cn:Z高达;zh-tw:Z鋼彈;zh-hk:Z高達;zh-sg:Z高达;"
+    },
+    {
+      "original": "ガンダムZZ",
+      "conv": "zh:GUNDAM ZZ;zh-cn:高达ZZ;zh-tw:鋼彈ZZ;zh-hk:高達ZZ;zh-sg:高达ZZ;"
+    },
+    {
+      "original": "逆襲のシャア",
+      "conv": "zh-cn:逆袭的夏亚;zh-tw:逆襲的夏亞;zh-hk:馬沙之反擊;"
+    },
+    {
+      "original": "ガンダムUC",
+      "conv": "zh:GUNDAM UC;zh-cn:高达UC;zh-tw:鋼彈UC;zh-hk:高達UC;zh-sg:高达UC;"
+    },
+    {
+      "original": "ガンダムNT",
+      "conv": "zh:GUNDAM NT;zh-cn:高达NT;zh-tw:鋼彈NT;zh-hk:高達NT;zh-sg:高达NT;"
+    },
+    {
+      "original": "ガンダムF91",
+      "conv": "zh:GUNDAM F91;zh-cn:高达F91;zh-tw:鋼彈F91;zh-hk:高達F91;zh-sg:高达F91;"
+    },
+    {
+      "original": "Vガンダム",
+      "conv": "zh:V GUNDAM;zh-cn:V高达;zh-tw:V鋼彈;zh-hk:V高達;zh-sg:V高达;"
+    },
+    {
+      "original": "Gガンダム",
+      "conv": "zh:G GUNDAM;zh-cn:G高达;zh-tw:G鋼彈;zh-hk:G高達;zh-sg:G高达;"
+    },
+    {
+      "original": "ガンダムW",
+      "conv": "zh-sg:GUNDAM W;zh-cn:高达W;zh-tw:鋼彈W;zh-hk:高達W;"
+    },
+    {
+      "original": "ガンダムX",
+      "conv": "zh:GUNDAM X;zh-cn:高达X;zh-tw:鋼彈X;zh-hk:高達X;zh-sg:高达X;"
+    },
+    {
+      "original": "ガンダムSEED",
+      "conv": "zh:GUNDAM SEED;zh-cn:高达SEED;zh-tw:鋼彈SEED;zh-hk:高達SEED;zh-sg:高达SEED;"
+    },
+    {
+      "original": "ガンダムAGE",
+      "conv": "zh:GUNDAM AGE;zh-cn:高达AGE;zh-tw:鋼彈AGE;zh-hk:高達AGE;zh-sg:高达AGE;"
+    },
+    {
+      "original": "SDガンダム",
+      "conv": "zh:SD GUNDAM;zh-cn:SD高达;zh-tw:SD鋼彈;zh-hk:SD高達;zh-sg:SD高达;"
+    },
+    {
+      "original": "鉄血のオルフェンズ",
+      "conv": "zh-cn:铁血的奥尔芬斯;zh-tw:鐵血孤兒;zh-hk:鐵血的孤兒;"
+    },
+    {
+      "original": "ビルダーズ ビギニングG",
+      "conv": "zh-cn:模型大师 BEGINNING G;zh-tw:模型製作家 起始G;zh-hk:模型大師BEGINNING G;"
+    },
+    {
+      "original": "Gのレコンギスタ",
+      "conv": "zh-hans:G之复国运动;zh-hant:G之復國運動;zh-cn:Reconguista in G;zh-hk:Reconguista in G;zh-my:Reconguista in G;zh-sg:Reconguista in G;zh-tw:Reconguista in G;"
+    },
+    {
+      "original": "ガンダムビルドファイターズ",
+      "conv": "zh-cn:高达创战者;zh-hk:高達創戰者;zh-tw:鋼彈創鬥者;"
+    },
+    {
+      "original": "ガンダムビルドダイバーズ",
+      "conv": "zh-cn:高达创形者;zh-hk:高達創戰潛行者;zh-tw:鋼彈創鬥者 潛網大戰;"
+    },
+    {
+      "original": "ガンダムビルドダイバーズRe:RISE",
+      "conv": "zh-cn:高达创形者 再起;zh-hk:高達創戰潛行者Re:RISE;zh-tw:鋼彈創鬥者 潛網大戰Re:RISE;"
+    },
+    {
+      "original": "ガンダムビルドメタバース",
+      "conv": "zh-cn:高达创战元宇宙;zh-hk:高達創戰元宇宙;zh-tw:鋼彈創鬥元宇宙;"
+    },
+    {
+      "original": "ガンダムブレイカー",
+      "conv": "zh-cn:高达破坏者;zh-hk:高達破壞者;zh-tw:鋼彈創壞者;"
+    },
+    {
+      "original": "BATTLOGUE",
+      "conv": "zh-cn:战斗部落;zh-hk:對戰紀錄;zh-mo:對戰紀錄;zh-tw:對戰風雲錄;"
+    },
+    {
+      "original": "閃光のハサウェイ",
+      "conv": "zh-cn:闪光的哈萨维;zh-tw:閃光的哈薩威;zh-hk:閃光之凱薩衛;"
+    },
+    {
+      "original": "機動戦士Gundam GQuuuuuuX",
+      "conv": "zh-cn:机动战士高达：跨时之战;zh-my:机动战士Gundam GQuuuuuuX;zh-sg:机动战士Gundam GQuuuuuuX;zh-tw:機動戰士Gundam GQuuuuuuX;zh-hk:機動戰士Gundam GQuuuuuuX;zh-mo:機動戰士Gundam GQuuuuuuX;"
+    },
+    {
+      "original": "機動戦士Gundam GQuuuuuuX -Beginning-",
+      "conv": "zh-cn:机动战士高达：跨时之战;zh-my:机动战士Gundam GQuuuuuuX -Beginning-;zh-sg:机动战士Gundam GQuuuuuuX -Beginning-;zh-tw:機動戰士GQuuuuuuX -Beginning-;zh-hk:機動戰士GQuuuuuuX -Beginning-;zh-mo:機動戰士GQuuuuuuX -Beginning-;"
+    },
+    {
+      "original": "超劇場版ケロロ軍曹",
+      "conv": "zh-tw:超劇場版 Keroro軍曹;zh-hk:Keroro軍曹大電影;zh-sg:Keroro军曹大电影;"
+    },
+    {
+      "original": "深海のプリンセスであります!",
+      "conv": "zh-tw:深海的公主;zh-hk:決戰水著兵團;"
+    },
+    {
+      "original": "ちびケロ ケロボールの秘密？！",
+      "conv": "zh-tw:小Kero K隆球的秘密;zh-hk:Keroro回到未紅時;"
+    },
+    {
+      "original": "ケロロ対ケロロ天空大決戦 であります!",
+      "conv": "zh-tw:Keroro VS Keroro 天空大決戰;zh-hk:Keroro 對 Keroro 天空大作戰;"
+    },
+    {
+      "original": "撃侵 ドラゴンウォリアーズ であります!",
+      "conv": "zh-tw:逆襲的龍勇士;zh-hk:翻兜侏羅紀;"
+    },
+    {
+      "original": "誕生!究極ケロロ 奇跡の時空島であります!!",
+      "conv": "zh-tw:誕生！究極Keroro奇蹟的時空之島！！;zh-hk:反轉復活島;"
+    },
+    {
+      "original": "魔法のプリンセス ミンキーモモ",
+      "conv": "zh:魔法小仙女;zh-hant:魔法公主 Minky Momo;zh-hans:魔法公主 明琪桃子;zh-cn:魔法公主明琪桃子;zh-sg:甜甜仙子;zh-tw:甜甜仙子;zh-hk:精靈小咪咪;"
+    },
+    {
+      "original": "魔法のプリンセス ミンキーモモ 夢を抱きしめて",
+      "conv": "zh:魔法公主 Minky Momo 擁抱夢想;zh-cn:魔法公主明琪桃子2;zh-sg:甜甜仙子Ⅱ;zh-tw:甜甜仙子2;zh-hk:魔法小公主;"
     },
     {
       "original": "マジンガーZ",
@@ -196,116 +524,24 @@
       "conv": "zh-hans:魔神Z / INFINITY;zh-tw:無敵鐵金剛 / INFINITY;zh-hk:鐵甲萬能俠：決戰魔神;"
     },
     {
-      "original": "ガンダム",
-      "conv": "zh:GUNDAM;zh-cn:高达;zh-tw:鋼彈;zh-hk:高達;zh-sg:高达;"
-    },
-    {
-      "original": "ガンダム00",
-      "conv": "zh:GUNDAM 00;zh-cn:高达00;zh-tw:鋼彈00;zh-hk:高達00;zh-sg:高达00;"
-    },
-    {
-      "original": "ポケットの中の戦争",
-      "conv": "zh-cn:口袋里的战争;zh-tw:口袋裡的戰爭;zh-hk:口袋中的戰爭;"
-    },
-    {
-      "original": "STARDUST MEMORY",
-      "conv": "zh:STARDUST MEMORY;zh-cn:星尘的回忆;zh-tw:星塵回憶;zh-hk:星塵的回憶;"
-    },
-    {
-      "original": "逆襲のシャア",
-      "conv": "zh-cn:逆袭的夏亚;zh-tw:逆襲的夏亞;zh-hk:馬沙之反擊;"
-    },
-    {
-      "original": "ガンダムUC",
-      "conv": "zh:GUNDAM UC;zh-cn:高达UC;zh-tw:鋼彈UC;zh-hk:高達UC;zh-sg:高达UC;"
-    },
-    {
-      "original": "ガンダムNT",
-      "conv": "zh:GUNDAM NT;zh-cn:高达NT;zh-tw:鋼彈NT;zh-hk:高達NT;zh-sg:高达NT;"
-    },
-    {
-      "original": "ガンダムF91",
-      "conv": "zh:GUNDAM F91;zh-cn:高达F91;zh-tw:鋼彈F91;zh-hk:高達F91;zh-sg:高达F91;"
-    },
-    {
-      "original": "Vガンダム",
-      "conv": "zh:V GUNDAM;zh-cn:V高达;zh-tw:V鋼彈;zh-hk:V高達;zh-sg:V高达;"
-    },
-    {
-      "original": "Gガンダム",
-      "conv": "zh:G GUNDAM;zh-cn:G高达;zh-tw:G鋼彈;zh-hk:G高達;zh-sg:G高达;"
-    },
-    {
-      "original": "ガンダムW",
-      "conv": "zh:GUNDAM W;zh-cn:高达W;zh-tw:鋼彈W;zh-hk:高達W;zh-sg:高达W;"
-    },
-    {
-      "original": "ガンダムX",
-      "conv": "zh:GUNDAM X;zh-cn:高达X;zh-tw:鋼彈X;zh-hk:高達X;zh-sg:高达X;"
-    },
-    {
-      "original": "ガンダムSEED",
-      "conv": "zh:GUNDAM SEED;zh-cn:高达SEED;zh-tw:鋼彈SEED;zh-hk:高達SEED;zh-sg:高达SEED;"
-    },
-    {
-      "original": "ガンダムAGE",
-      "conv": "zh:GUNDAM AGE;zh-cn:高达AGE;zh-tw:鋼彈AGE;zh-hk:高達AGE;zh-sg:高达AGE;"
-    },
-    {
-      "original": "SDガンダム",
-      "conv": "zh:SD GUNDAM;zh-cn:SD高达;zh-tw:SD鋼彈;zh-hk:SD高達;zh-sg:SD高达;"
-    },
-    {
-      "original": "鉄血のオルフェンズ",
-      "conv": "zh-cn:铁血的奥尔芬斯;zh-tw:鐵血孤兒;zh-hk:鐵血的孤兒;"
-    },
-    {
-      "original": "ビルダーズ ビギニングG",
-      "conv": "zh-cn:模型大师 BEGINNING G;zh-tw:模型製作家 起始G;zh-hk:模型大師BEGINNING G;"
-    },
-    {
-      "original": "Gのレコンギスタ",
-      "conv": "zh-hans:G之复国运动;zh-hant:G之復國運動;zh-cn:Reconguista in G;zh-hk:Reconguista in G;zh-mo:Reconguista in G;zh-my:Reconguista in G;zh-sg:Reconguista in G;zh-tw:Reconguista in G;"
-    },
-    {
-      "original": "ガンダムビルドファイターズ",
-      "conv": "zh-cn:高达创战者;zh-hk:高達創戰者;zh-mo:高達創戰者;zh-tw:鋼彈創鬥者;"
-    },
-    {
-      "original": "ガンダムビルドダイバーズ",
-      "conv": "zh-cn:高达创形者;zh-hk:高達創戰潛行者;zh-mo:高達創戰潛行者;zh-tw:鋼彈創鬥者 潛網大戰;"
-    },
-    {
-      "original": "ガンダムビルドダイバーズRe:RISE",
-      "conv": "zh-cn:高达创形者 再起;zh-hk:高達創戰潛行者Re:RISE;zh-mo:高達創戰潛行者Re:RISE;zh-tw:鋼彈創鬥者 潛網大戰Re:RISE;"
-    },
-    {
-      "original": "ガンダムビルドメタバース",
-      "conv": "zh-cn:高达创战元宇宙;zh-hk:高達創戰元宇宙;zh-mo:高達創戰元宇宙;zh-tw:鋼彈創鬥元宇宙;"
-    },
-    {
-      "original": "ガンダムブレイカー",
-      "conv": "zh-cn:高达破坏者;zh-hk:高達破壞者;zh-mo:高達破壞者;zh-tw:鋼彈創壞者;"
-    },
-    {
-      "original": "BATTLOGUE",
-      "conv": "zh-cn:战斗部落;zh-hk:對戰紀錄;zh-mo:對戰紀錄;zh-tw:對戰風雲錄;"
+      "original": "時計じかけの摩天楼",
+      "conv": "zh-cn:计时引爆摩天楼;zh-my:引爆摩天楼;zh-tw:引爆摩天樓;"
     },
     {
       "original": "14番目の標的",
-      "conv": "zh-cn:第十四个目标;zh-tw:第十四號獵物;"
+      "conv": "zh-cn:第十四个目标;zh-hk:第十四號獵物;zh-my:第十四号猎物;zh-sg:十四号猎物;zh-tw:第14號獵物;"
     },
     {
       "original": "天国へのカウントダウン",
-      "conv": "zh-cn:通往天国的倒计时;zh-tw:往天國的倒數計時;"
+      "conv": "zh-cn:通往天国的倒计时;zh-hk:通往天國的倒計時;zh-my:天国的倒数计时;zh-tw:往天國的倒數計時;"
     },
     {
       "original": "迷宮の十字路",
-      "conv": "zh-cn:迷宫的十字路口;zh-tw:迷宮的十字路;"
+      "conv": "zh-cn:迷宫的十字路口;zh-my:迷宫的十字路;zh-tw:迷宮的十字路;"
     },
     {
       "original": "銀翼の奇術師",
-      "conv": "zh-cn:银翼的魔术师;zh-tw:銀翼的奇術師;"
+      "conv": "zh-cn:银翼的魔术师;zh-hk:銀翼魔術師;zh-my:银翼奇术师;zh-tw:銀翼的奇術師;"
     },
     {
       "original": "漆黒の追跡者",
@@ -313,39 +549,371 @@
     },
     {
       "original": "天空の難破船",
-      "conv": "zh-cn:天空的遇难船;zh-tw:天空的劫難船;"
+      "conv": "zh:天空的遇難船;zh-cn:天空的遇难船;zh-hk:天空的難破船;zh-tw:天空的劫難船;"
     },
     {
       "original": "11人目のストライカー",
-      "conv": "zh-cn:第11名前锋;zh-tw:第11位前鋒;"
+      "conv": "zh-cn:第11名前锋;zh-my:第11位前锋;zh-tw:第11位前鋒;"
     },
     {
       "original": "絶海の探偵",
-      "conv": "zh-cn:远海的侦探;zh-tw:絕海的偵探;"
+      "conv": "zh-cn:远海的侦探;zh-my:绝海的侦探;zh-tw:絕海的偵探;"
     },
     {
       "original": "緋色の弾丸",
       "conv": "zh-cn:绯色的子弹;zh-tw:緋色的彈丸;"
     },
     {
-      "original": "デジタルモンスター",
-      "conv": "zh-cn:数码宝贝;zh-tw:數碼寶貝;zh-hk:數碼暴龍;"
+      "original": "100万ドルの五稜星",
+      "conv": "zh-cn:百万美元的五棱星;zh-my:100万美元的五棱星;zh-tw:100萬美元的五稜星;"
     },
     {
-      "original": "デジモンセイバーズ",
-      "conv": "zh-cn:数码宝贝拯救者;zh-tw:數碼寶貝拯救隊;zh-hk:數碼暴龍DS;"
+      "original": "爆転シュート ベイブレード",
+      "conv": "zh-cn:战斗陀螺;zh-hk:爆旋陀螺;zh-tw:戰鬥陀螺;zh-sg:战斗陀螺;"
     },
     {
-      "original": "デジモンクロスウォーズ",
-      "conv": "zh-cn:数码宝贝合体战争;zh-tw:數碼寶貝大匯戰;zh-hk:數碼暴龍合體大作戰;"
+      "original": "メタルファイト ベイブレード",
+      "conv": "zh-cn:金属对决 战斗陀螺;zh-tw:戰鬥陀螺 鋼鐵奇兵;zh-hk:爆旋陀螺 鋼鐵戰魂;"
     },
     {
-      "original": "デジモンユニバース アプリモンスターズ",
-      "conv": "zh-cn:数码宝贝宇宙 应用怪兽;zh-hk:數碼暴龍App世代;zh-tw:數碼寶貝-APP獸;"
+      "original": "ベイブレードバースト",
+      "conv": "zh:爆旋陀螺Burst;zh-cn:霸旋陀螺 爆刃对决;zh-hk:爆旋陀螺 擊爆戰魂;zh-tw:戰鬥陀螺 爆烈世代;"
+    },
+    {
+      "original": "ONE PIECE",
+      "conv": "zh-cn:航海王;zh-tw:航海王;zh-hk:海賊王;zh-sg:海贼王;"
+    },
+    {
+      "original": "ONE PIECE STAMPEDE",
+      "conv": "zh-tw:航海王：奪寶爭霸戰;zh-sg:ONE PIECE STAMPEDE;zh-hk:ONE PIECE STAMPEDE;zh-cn:航海王：狂热行动;"
+    },
+    {
+      "original": "ONE PIECE FILM RED",
+      "conv": "zh-tw:航海王劇場版：紅髮歌姬;zh-sg:航海王剧场版：红发歌姬;zh-hk:ONE PIECE FILM RED;zh-cn:航海王：红发歌姬;"
+    },
+    {
+      "original": "ふたりはプリキュア Splash Star",
+      "conv": "zh-cn:光之美少女Splash Star;zh-tw:光之美少女Splash Star;zh-hk:光之美少女Ⅲ"
+    },
+    {
+      "original": "フレッシュプリキュア！",
+      "conv": "zh-hans:光之美少女：幸福精灵;zh-cn:FRESH光之美少女！;zh-tw:光之美少女：幸福精靈Fresh!;zh-hk:光之美少女：幸福精靈"
+    },
+    {
+      "original": "ハートキャッチプリキュア！",
+      "conv": "zh-hans:光之美少女：甜蜜天使;zh-cn:Heart Catch光之美少女！;zh-tw:光之美少女：甜蜜天使！;zh-hk:光之美少女：甜蜜天使"
+    },
+    {
+      "original": "スイートプリキュア♪",
+      "conv": "zh-cn:Suite光之美少女♪;zh-tw:光之美少女：美樂天使;zh-hk:光之美少女：美樂天使"
+    },
+    {
+      "original": "スマイルプリキュア！",
+      "conv": "zh-cn:Smile光之美少女;zh-tw:Smile 光之美少女！;zh-hk:Smile 光之美少女"
+    },
+    {
+      "original": "ドキドキ！プリキュア",
+      "conv": "zh-cn:心跳！光之美少女;zh-tw:DokiDoki! 光之美少女;zh-hk:心動！光之美少女"
+    },
+    {
+      "original": "ハピネスチャージプリキュア！",
+      "conv": "zh-hans:幸福爆发！光之美少女;zh-cn:HappinessCharge光之美少女！;zh-tw:幸福爆發！光之美少女;zh-hk:幸福爆發！光之美少女"
+    },
+    {
+      "original": "魔法つかいプリキュア！",
+      "conv": "zh-cn:魔法使光之美少女;zh-tw:魔法使 光之美少女！;zh-hk:魔法使光之美少女！"
+    },
+    {
+      "original": "魔法つかいプリキュア！！～MIRAI DAYS～",
+      "conv": "zh-cn:魔法使光之美少女！！～未来之日～;zh-hant:魔法使光之美少女！！～MIRAI DAYS～;zh-hk:魔法使光之美少女！！～MIRAI DAYS～"
+    },
+    {
+      "original": "キラキラ☆プリキュアアラモード",
+      "conv": "zh-cn:光之美少女食尚甜心;zh-tw:光之美少女：食尚甜心;zh-hk:光之美少女食尚甜心"
+    },
+    {
+      "original": "ヒーリングっど♥プリキュア",
+      "conv": "zh:元氣魔法光之美少女;zh-cn:Healin' Good ♥ 光之美少女;zh-tw:元氣魔法♥光之美少女;zh-hk:元氣魔法 光之美少女;"
+    },
+    {
+      "original": "トロピカル～ジュ！プリキュア",
+      "conv": "zh-hans:热情闪耀！光之美少女;zh-cn:Tropical-Rouge！光之美少女;zh-hant:熱情閃耀！光之美少女;zh-tw:熱情閃耀！光之美少女"
+    },
+    {
+      "original": "デリシャスパーティ♡プリキュア",
+      "conv": "zh-hans:美味Party♡光之美少女;zh-tw:美味Party♡光之美少女;zh-cn:美味派对 光之美少女;zh-hk:美味PARTY♡光之美少女"
+    },
+    {
+      "original": "わんだふるぷりきゅあ！",
+      "conv": "zh-cn:美妙宠物 光之美少女！;zh-tw:美妙寵物 光之美少女;zh-hk:美妙寵物 光之美少女"
+    },
+    {
+      "original": "キミとアイドルプリキュア♪",
+      "conv": "zh-cn:Idol光之美少女你与我♪;zh-tw:Idol光之美少女你與我;zh-hk:光之美少女偶像與你"
+    },
+    {
+      "original": "映画キミとアイドルプリキュア♪",
+      "conv": "zh-cn:剧场版 Idol光之美少女你与我♪;zh-tw:電影Idol光之美少女你與我;zh-hk:電影光之美少女偶像與你♪"
+    },
+    {
+      "original": "キミに届けるキラッキライブ！",
+      "conv": "zh-cn:为你献上闪耀舞台！;zh-hk:為你送上閃耀的現場演唱會！"
+    },
+    {
+      "original": "勇者ライディーン",
+      "conv": "zh-cn:勇者莱汀;zh-tw:勇者萊汀;zh-hk:勇者雷登;"
+    },
+    {
+      "original": "超者ライディーン",
+      "conv": "zh-cn:超者莱汀;zh-tw:超者萊汀;zh-hk:超者雷登;"
+    },
+    {
+      "original": "ライディーン",
+      "conv": "zh-cn:新勇者莱汀;zh-tw:新勇者萊汀;zh-hk:新勇者雷登;"
+    },
+    {
+      "original": "科学忍者隊ガッチャマン",
+      "conv": "zh-sg:旋风小飞侠;zh-cn:科学小飞侠;zh-tw:科學小飛俠;zh-hk:神勇飛鷹俠;"
+    },
+    {
+      "original": "科学忍者隊ガッチャマンII / F",
+      "conv": "zh-tw:旋風小飛俠;zh-hk:太空飛鷹俠;"
+    },
+    {
+      "original": "SLAM DUNK",
+      "conv": "zh:SLAM DUNK;zh-cn:灌篮高手;zh-tw:灌籃高手;zh-hk:男兒當入樽;"
+    },
+    {
+      "original": "THE FIRST SLAM DUNK",
+      "conv": "zh-tw:灌籃高手 THE FIRST SLAM DUNK;zh-hk:THE FIRST SLAM DUNK;zh-sg:THE FIRST SLAM DUNK;"
+    },
+    {
+      "original": "THE FIRST SLAM DUNK",
+      "conv": "THE FIRST SLAM DUNK=>zh-cn:灌篮高手;灌籃高手 THE FIRST SLAM DUNK=>zh-cn:灌篮高手;"
+    },
+    {
+      "original": "紅の豚",
+      "conv": "zh-cn:红猪;zh-tw:紅豬;zh-hk:飛天紅豬俠;"
+    },
+    {
+      "original": "もののけ姫",
+      "conv": "zh-cn:幽灵公主;zh-tw:魔法公主;zh-hk:幽靈公主;"
+    },
+    {
+      "original": "千と千尋の神隠し",
+      "conv": "zh-cn:千与千寻;zh-tw:神隱少女;zh-hk:千與千尋;zh-sg:神隐少女;"
+    },
+    {
+      "original": "ハウルの動く城",
+      "conv": "zh-cn:哈尔的移动城堡;zh-tw:霍爾的移動城堡;zh-hk:哈爾移動城堡;zh-sg:霍尔的移动城堡;zh-my:哈尔移动城堡;"
+    },
+    {
+      "original": "崖の上のポニョ",
+      "conv": "zh:悬崖上的金鱼公主;zh-cn:崖上的波妞;zh-tw:崖上的波妞;zh-hk:崖上的波兒;zh-sg:悬崖上的波儿;zh-my:悬崖上的波儿;"
+    },
+    {
+      "original": "時をかける少女",
+      "conv": "zh-cn:穿越时空的少女;zh-tw:跳躍吧！時空少女;zh-hk:穿越時空的少女;zh-sg:跳跃吧！时空少女;"
+    },
+    {
+      "original": "未来少年コナン",
+      "conv": "zh-cn:未来少年柯南;zh-tw:未來少年柯南;zh-hk:高立的未來世界;"
+    },
+    {
+      "original": "パン種とタマゴ姫",
+      "conv": "zh-cn:酵母君与鸡蛋公主;zh-tw:麵種與蛋姬;zh-hk:酵母君與雞蛋公主;zh-sg:酵母与鸡蛋公主;zh-my:酵母与鸡蛋公主;"
+    },
+    {
+      "original": "めいとこねこバス",
+      "conv": "zh-cn:梅伊与小猫巴士;zh-tw:梅與小貓巴士;zh-hk:大卷次子與小貓巴士;"
+    },
+    {
+      "original": "星をかった日",
+      "conv": "zh-cn:种下星星的日子;zh-tw:買下星星的日子;zh-hk:種下星星的日子;"
+    },
+    {
+      "original": "空想の機械達の中の破壊の発明",
+      "conv": "zh-cn:幻想机械之破坏的发明;zh-tw:空想的機械們裡破壞的發明;zh-hk:幻想機械之破壞的發明;"
+    },
+    {
+      "original": "やどさがし",
+      "conv": "zh-cn:寻找家园;zh-tw:尋找棲所;zh-hk:尋找棲所;"
+    },
+    {
+      "original": "コロの大さんぽ",
+      "conv": "zh-cn:克洛的大冒险;zh-tw:可羅的大散步;zh-hk:可羅的大散步;"
+    },
+    {
+      "original": "ルパン三世",
+      "conv": "zh-cn:鲁邦三世;zh-tw:魯邦三世;zh-hk:雷朋三世;zh-sg:鲁邦三世;zh-my:鲁邦三世;"
+    },
+    {
+      "original": "ルパン三世 カリオストロの城",
+      "conv": "zh:魯邦三世 卡里奧斯特羅之城;zh-cn:鲁邦三世 卡里奥斯特罗之城;zh-tw:魯邦三世 卡里奧斯特羅城;zh-hk:無敵特務之偽鈔堡壘;zh-my:古城之谜;"
+    },
+    {
+      "original": "アルプスの少女ハイジ",
+      "conv": "zh-cn:阿尔卑斯山的少女;zh-hk:飄零燕;zh-tw:小天使;zh-sg:小天使;}--{-|小天使"
+    },
+    {
+      "original": "平成狸合戦ぽんぽこ",
+      "conv": "zh-cn:平成狸合战;zh-tw:平成狸合戰;zh-hk:百變貍貓;zh-my:百变狸猫;"
+    },
+    {
+      "original": "ホーホケキョ となりの山田くん",
+      "conv": "zh-cn:我的邻居山田君;zh-tw:隔壁的山田君;zh-hk:我的鄰居山田君;zh-my:我的邻居山田君;"
+    },
+    {
+      "original": "火垂るの墓",
+      "conv": "zh-cn:萤火虫之墓;zh-tw:螢火蟲之墓;zh-hk:再見螢火蟲;zh-my:再见萤火虫;"
+    },
+    {
+      "original": "おもひでぽろぽろ",
+      "conv": "zh-cn:岁月的童话;zh-tw:兒時的點點滴滴;zh-hk:歲月的童話;zh-sg:回忆点点滴滴;"
+    },
+    {
+      "original": "赤毛のアン",
+      "conv": "zh-cn:红发安妮;zh-tw:清秀佳人;zh-hk:安妮的故事;"
+    },
+    {
+      "original": "母をたずねて三千里",
+      "conv": "zh-cn:三千里寻母记;zh-tw:萬里尋母;zh-hk:萬里尋親記;zh-sg:寻母三千里;zh-my:寻母三千里;"
+    },
+    {
+      "original": "耳をすませば",
+      "conv": "zh-cn:侧耳倾听;zh-tw:心之谷;zh-hk:夢幻街少女;zh-sg:梦幻街少女;zh-my:梦幻街少女;"
+    },
+    {
+      "original": "耳をすませば",
+      "conv": "聽聽我的心=>zh-cn:侧耳倾听;"
+    },
+    {
+      "original": "耳をすませば 幸せな時間",
+      "conv": "侧耳倾听：幸福的时光=>zh-hk:心之谷;侧耳倾听：幸福的时光=>zh-tw:心之谷;"
+    },
+    {
+      "original": "コクリコ坂から",
+      "conv": "zh-cn:来自虞美人之坡;zh-tw:來自紅花坂;zh-hk:紅花坂上的海;zh-sg:红花坂上的海;zh-my:红花坂上的海;"
+    },
+    {
+      "original": "ゲド戦記",
+      "conv": "zh-cn:地海战记;zh-tw:地海戰記;zh-hk:地海傳說;zh-my:地海传说;"
+    },
+    {
+      "original": "借りぐらしのアリエッティ",
+      "conv": "zh-cn:借东西的小人阿莉埃蒂;zh-tw:借物少女艾莉緹;zh-hk:借東西的小矮人亞莉亞蒂;zh-my:借物少女艾莉缇;"
+    },
+    {
+      "original": "海がきこえる",
+      "conv": "zh-cn:听到涛声;zh-tw:海潮之聲;zh-hk:海潮之聲;zh-sg:海潮之声;zh-my:海潮之声;"
+    },
+    {
+      "original": "猫の恩返し",
+      "conv": "zh-cn:猫的报恩;zh-tw:貓的報恩;zh-hk:貓之報恩;zh-sg:猫之报恩;zh-my:猫之报恩;"
+    },
+    {
+      "original": "風立ちぬ",
+      "conv": "zh-cn:起风了;zh-tw:風起;zh-hk:風起了;zh-sg:风起了;zh-my:风起了;"
+    },
+    {
+      "original": "巨神兵東京に現わる",
+      "conv": "zh-cn:巨神兵在东京出现;zh-tw:巨神兵現身東京;zh-hk:巨神兵現身東京;zh-sg:巨神兵现身东京;zh-my:巨神兵现身东京;"
+    },
+    {
+      "original": "space station No.9",
+      "conv": "zh-cn:9号太空站;zh-tw:9號太空站;zh-hk:Space Station No.9;zh-sg:Space Station No.9;zh-my:Space Station No.9;"
+    },
+    {
+      "original": "かぐや姫の物語",
+      "conv": "zh-cn:辉夜姬物语;zh-tw:輝耀姬物語;zh-hk:輝耀姬物語;zh-my:辉耀姬物语;"
+    },
+    {
+      "original": "夢と狂気の王国",
+      "conv": "zh-cn:梦与疯狂的王国;zh-tw:夢與瘋狂的王國;zh-hk:夢與瘋狂之王國;"
+    },
+    {
+      "original": "レッドタートル ある島の物語",
+      "conv": "zh-cn:红海龟;zh-tw:紅烏龜：小島物語;zh-hk:紅海龜;zh-my:红海龟;"
+    },
+    {
+      "original": "君たちはどう生きるか",
+      "conv": "zh-hans:苍鹭与少年;zh-hant:蒼鷺與少年;zh-cn:你想活出怎样的人生;"
+    },
+    {
+      "original": "山賊の娘ローニャ",
+      "conv": "zh-tw:強盜的女兒;zh-hk:綠林女兒羅妮婭;zh-cn:绿林女儿罗妮娅;"
+    },
+    {
+      "original": "メアリと魔女の花",
+      "conv": "zh-tw:瑪麗與魔女之花;zh-hk:瑪莉與魔女之花;zh-cn:玛丽与魔女之花"
+    },
+    {
+      "original": "SPY×FAMILY",
+      "conv": "zh-cn:间谍过家家;zh-hk:SPY×FAMILY間諜家家酒;zh-tw:SPY×FAMILY間諜家家酒;zh-my:SPY×FAMILY间谍家家酒;zh-sg:Spy × Family;"
+    },
+    {
+      "original": "劇場版 SPY×FAMILY CODE: White",
+      "conv": "zh-cn:间谍过家家 代号：白;zh-mo:劇場版 SPY×FAMILY間諜家家酒 CODE:White;zh-hk:劇場版 SPY×FAMILY間諜家家酒 CODE:White;zh-tw:劇場版 SPY×FAMILY間諜家家酒 CODE:White;zh-sg:间谍家家酒 代号：白;"
     },
     {
       "original": "鉄腕アトム",
-      "conv": "zh-cn:铁臂阿童木;zh-tw:原子小金剛;zh-hk:小飛俠阿童木;"
+      "conv": "zh-cn:铁臂阿童木;zh-tw:原子小金剛;zh-hk:小飛俠阿童木;zh-sg:小飞侠;}--{-|小飞侠"
+    },
+    {
+      "original": "ジャングル大帝",
+      "conv": "zh:小白狮;zh-tw:小獅王;zh-hk:小白獅;zh-sg:小白狮遇险记;zh-cn:森林大帝;"
+    },
+    {
+      "original": "海のトリトン",
+      "conv": "zh-cn:小飞龙;zh-tw:海王子;"
+    },
+    {
+      "original": "三つ目がとおる",
+      "conv": "zh-cn:三眼神童;zh-tw:三眼神童;zh-hk:三眼小子;"
+    },
+    {
+      "original": "手塚治虫のブッダ -赤い砂漠よ!美しく-",
+      "conv": "zh:佛陀 -美麗的紅色沙漠;zh-hant:佛陀 -美麗的紅色沙漠！-;zh-hk:佛陀 -美麗的紅色沙漠-;zh-mo:佛陀 美麗的紅色沙漠;zh-tw:佛陀：首部曲;"
+    },
+    {
+      "original": "ミスター味っ子",
+      "conv": "zh-cn:妙手小厨师;zh-tw:妙手小廚師;zh-hk:伙頭智多星;"
+    },
+    {
+      "original": "喰いタン",
+      "conv": "zh-cn:美食侦探王;zh-tw:美食偵探王;zh-hk:為食神探;"
+    },
+    {
+      "original": "ゾイド -ZOIDS-",
+      "conv": "zh-hans:机兽新世纪ZOIDS;zh-tw:機獸新世紀ZOIDS;zh-hk:索斯機械獸;"
+    },
+    {
+      "original": "ゾイド新世紀スラッシュゼロ",
+      "conv": "zh-hans:机兽新世纪ZERO;zh-tw:機獸新世紀ZERO;zh-hk:索斯機械獸III;"
+    },
+    {
+      "original": "ゾイドフューザーズ",
+      "conv": "zh-hans:机兽超世纪;zh-tw:機獸超世紀;zh-hk:索斯機械獸IV;"
+    },
+    {
+      "original": "ゾイドジェネシス",
+      "conv": "zh-hans:机兽创世纪;zh-tw:機獸創世紀;zh-hk:索斯機械獸V;"
+    },
+    {
+      "original": "ゾイドワイルド",
+      "conv": "zh:索斯機械獸WILD;zh-cn:索斯机兽：荒野纪;zh-tw:機獸戰記 狂野爆發;zh-hk:索斯機械獸 激戰本能;"
+    },
+    {
+      "original": "ゾイドワイルドZERO",
+      "conv": "zh:索斯機械獸WILD ZERO;zh-cn:索斯机兽：荒野纪 ZERO;zh-tw:機獸戰記ZERO;zh-hk:索斯機械獸 激戰本能 ZERO;"
+    },
+    {
+      "original": "ウルトラマン超闘士激伝",
+      "conv": "zh-cn:奧特曼超鬥士激傳;zh-cn:奥特曼 超斗士激传;zh-sg:宇宙超人超斗士激传;zh-hk:超人超鬥士激傳;zh-tw:超人力霸王超鬥士激傳;"
+    },
+    {
+      "original": "ULTRAMAN",
+      "conv": "zh-hk:ULTRAMAN-超人再現-;zh-tw:ULTRAMAN 超人力霸王;zh-cn:ULTRAMAN 机动奥特曼;zh-sg:ULTRAMAN;}--{-|ULTRAMAN"
     },
     {
       "original": "パーマン",
@@ -357,23 +925,27 @@
     },
     {
       "original": "怪物くん",
-      "conv": "zh:怪物王子;zh-cn:怪物太郎;zh-tw:怪物小鬼;zh-hk:怪物小王子;"
+      "conv": "zh:怪物王子;zh-cn:怪物太郎;zh-tw:怪物小鬼;zh-hk:怪物小王子;zh-sg:怪物小王子;"
     },
     {
       "original": "ひみつのアッコちゃん",
       "conv": "zh-cn:甜蜜小天使;zh-tw:甜蜜小天使;zh-hk:小魔鏡;"
     },
     {
+      "original": "忍者ハットリくん",
+      "conv": "zh-cn:忍者服部君;zh-tw:忍者哈特利;zh-hk:忍者小靈精;"
+    },
+    {
+      "original": "安寿と厨子王丸",
+      "conv": "zh-tw:安壽和廚子王丸;zh-cn:安寿和厨子王丸;zh-hant:安壽與廚師王丸;zh-hk:王子流浪記;zh-sg:王子流浪记;"
+    },
+    {
+      "original": "太陽の王子 ホルスの大冒険",
+      "conv": "zh-tw:太陽王子 霍爾斯的大冒險;zh-cn:太阳王子 霍尔斯的大冒险;zh-hk:太陽王子;}--{-|太陽王子"
+    },
+    {
       "original": "あしたのジョー",
-      "conv": "zh-cn:明日之丈;zh-tw:小拳王;zh-hk:鐵拳浪子;"
-    },
-    {
-      "original": "海のトリトン",
-      "conv": "zh-cn:小飞龙;zh-tw:海王子;"
-    },
-    {
-      "original": "科学忍者隊ガッチャマン",
-      "conv": "zh-cn:科学小飞侠;zh-tw:科學小飛俠;zh-hk:神勇飛鷹俠;"
+      "conv": "zh-cn:明日之丈;zh-tw:小拳王;zh-hk:鐵拳浪子;zh-sg:铁拳浪子;"
     },
     {
       "original": "ジャングル黒べえ",
@@ -385,23 +957,15 @@
     },
     {
       "original": "新造人間キャシャーン",
-      "conv": "zh-cn:再造人卡辛;zh-tw:複製人卡辛;zh-hk:再造人卡辛;"
+      "conv": "zh-cn:再造人卡辛;zh-hk:再造人卡新;zh-tw:生化超人卡撒;"
     },
     {
       "original": "ゲッターロボ",
-      "conv": "zh-cn:盖塔机器人;zh-tw:蓋特機器人;zh-hk:三一萬能俠;"
+      "conv": "zh-cn:盖塔机器人;zh-sg:盖特机器人;zh-tw:蓋特機器人;zh-hk:三一萬能俠;"
     },
     {
       "original": "フランダースの犬",
-      "conv": "zh-cn:佛兰德斯的狗;zh-tw:龍龍與忠狗;zh-hk:義犬報恩;"
-    },
-    {
-      "original": "勇者ライディーン",
-      "conv": "zh-cn:勇者莱汀;zh-tw:勇者萊汀;zh-hk:勇者雷登;"
-    },
-    {
-      "original": "超者ライディーン",
-      "conv": "zh-cn:超者莱汀;zh-tw:超者萊汀;zh-hk:超者雷登;"
+      "conv": "zh:佛兰德的狗;zh-sg:龙龙与忠狗;zh-tw:龍龍與忠狗;zh-hk:義犬報恩;"
     },
     {
       "original": "ラ・セーヌの星",
@@ -421,7 +985,7 @@
     },
     {
       "original": "ゴワッパー5 ゴーダム",
-      "conv": "zh-cn:太空小五义;zh-tw:鋼鐵小英雄;zh-hk:太空小五義;"
+      "conv": "zh-cn:太空小五义;zh-tw:小英雄;zh-hk:太空小五義;}--{-|小英雄"
     },
     {
       "original": "UFO戦士ダイアポロン",
@@ -461,7 +1025,7 @@
     },
     {
       "original": "風船少女テンプルちゃん",
-      "conv": "zh-cn:飞船流浪记;zh-tw:彩雲仙子;"
+      "conv": "zh-cn:飞船流浪记;zh-hk:飛船流浪記;zh-tw:彩雲仙子;"
     },
     {
       "original": "家なき子",
@@ -477,15 +1041,31 @@
     },
     {
       "original": "未来ロボ ダルタニアス",
-      "conv": "zh-cn:未来机械人 达特纽斯;zh-tw:巨獸王;zh-hk:太空保衛團;"
+      "conv": "zh-cn:巨兽王;zh-tw:巨獸王;zh-hk:太空保衛團;"
     },
     {
       "original": "闘士ゴーディアン",
-      "conv": "zh-cn:战士高迪安;zh-tw:黑豹傳奇;zh-hk:高迪安;"
+      "conv": "zh:戰士高迪安;zh-cn:战士高迪安;zh-tw:黑豹傳奇;zh-hk:戰士高狄安;"
+    },
+    {
+      "original": "どうぶつ宝島",
+      "conv": "zh:動物寶島;zh-tw:動物金銀島;zh-cn:动物金银岛;zh-hk:金銀島;}--{-|金銀島"
+    },
+    {
+      "original": "六神合体ゴッドマーズ",
+      "conv": "zh-cn:六神合体;zh-sg:雷霆王;zh-tw:六神合體雷霆王;zh-hk:六神合體;"
     },
     {
       "original": "宇宙大帝ゴッドシグマ",
       "conv": "zh-cn:宇宙大帝GODSIGMA;zh-tw:神勇戰士;zh-hk:宇宙大帝;"
+    },
+    {
+      "original": "メイプルタウン物語",
+      "conv": "zh:枫叶镇物语;zh-hant:楓葉鎮物語;zh-hk:動物村;}--{-|動物村"
+    },
+    {
+      "original": "アキラ",
+      "conv": "zh-cn:阿基拉;zh-hk:亞基拉;zh-tw:阿基拉"
     },
     {
       "original": "ムーの白鯨",
@@ -496,16 +1076,8 @@
       "conv": "zh-cn:黄金战士;zh-tw:無敵小戰士;zh-hk:黃金戰士;"
     },
     {
-      "original": "忍者ハットリくん",
-      "conv": "zh-cn:忍者服部君;zh-tw:忍者哈特利;zh-hk:忍者小靈精;"
-    },
-    {
       "original": "うる星やつら",
       "conv": "zh-cn:福星小子;zh-tw:福星小子;zh-hk:山T女福星;"
-    },
-    {
-      "original": "魔法のプリンセス ミンキーモモ",
-      "conv": "zh-cn:魔法公主明琪桃子;zh-tw:甜甜仙子;"
     },
     {
       "original": "科学救助隊テクノボイジャー",
@@ -529,7 +1101,7 @@
     },
     {
       "original": "キャッツ・アイ",
-      "conv": "zh-cn:猫眼;zh-tw:貓眼;zh-hk:貓之眼;"
+      "conv": "zh:貓眼三姐妹;zh-cn:猫眼三姐妹;zh-tw:貓眼;zh-hk:貓之眼;"
     },
     {
       "original": "機甲創世記モスピーダ",
@@ -541,7 +1113,7 @@
     },
     {
       "original": "ウイングマン",
-      "conv": "zh-cn:飞翼人;zh-tw:銀翼超人;"
+      "conv": "zh:夢戰士WING-MAN;zh-cn:梦战士银翼超人;zh-tw:銀翼超人;zh-hk:夢戰士;}--{-|夢戰士"
     },
     {
       "original": "ガラスの仮面",
@@ -553,11 +1125,11 @@
     },
     {
       "original": "レンズマン",
-      "conv": "zh-cn:兰斯曼;zh-tw:銀河戰士;zh-hk:天眼急先鋒;"
+      "conv": "zh-cn:天眼急先锋;zh-tw:銀河戰士;zh-hk:天眼急先鋒;"
     },
     {
       "original": "タッチ",
-      "conv": "zh-cn:棒球英豪;zh-tw:鄰家女孩;"
+      "conv": "zh-cn:棒球英豪;zh-tw:鄰家女孩;zh-hk:TOUCH;zh-sg:TOUCH;}--{-|TOUCH"
     },
     {
       "original": "アルペンローゼ",
@@ -565,11 +1137,7 @@
     },
     {
       "original": "ダーティペア",
-      "conv": "zh-cn:搞怪拍档;zh-tw:棘手拍檔;zh-hk:銀河警花;"
-    },
-    {
-      "original": "三つ目がとおる",
-      "conv": "zh-cn:三眼神童;zh-tw:三眼神童;zh-hk:三眼小子;"
+      "conv": "zh:搞怪拍檔;zh-sg:搞怪拍档;zh-tw:棘手拍檔;zh-hk:銀河警花;"
     },
     {
       "original": "ドラゴンボール",
@@ -582,10 +1150,6 @@
     {
       "original": "きまぐれオレンジ☆ロード",
       "conv": "zh-cn:橙路;zh-tw:古靈精怪;zh-hk:橙路;"
-    },
-    {
-      "original": "ミスター味っ子",
-      "conv": "zh-cn:妙手小厨师;zh-tw:妙手小廚師;zh-hk:伙頭智多星;"
     },
     {
       "original": "キテレツ大百科",
@@ -606,6 +1170,38 @@
     {
       "original": "ダッシュ!四駆郎",
       "conv": "zh-cn:四驱小子;zh-tw:衝鋒四驅郎;zh-hk:四驅小子;"
+    },
+    {
+      "original": "クライングフリーマン",
+      "conv": "zh-cn:哭泣杀神;zh-hk:淚眼煞星;zh-tw:哭泣殺神;"
+    },
+    {
+      "original": "魔神伝",
+      "conv": "zh-hk:真魔神人傳;zh-tw:真魔神傳;zh-cn:真魔神传;"
+    },
+    {
+      "original": "妖刀伝",
+      "conv": "zh-tw:戰國奇譚妖刀傳;zh-hk:妖刀傳;"
+    },
+    {
+      "original": "伝説巨神イデオン",
+      "conv": "zh:傳說巨神;zh-hans:传说巨神伊迪安;zh-tw:傳說巨神伊甸王;zh-hk:傳說巨神伊迪安;"
+    },
+    {
+      "original": "Dr.スランプ",
+      "conv": "zh-cn:阿拉蕾;zh-tw:怪博士與機器娃娃;zh-hk:IQ博士;zh-sg:IQ博士;"
+    },
+    {
+      "original": "蒼き流星SPTレイズナー",
+      "conv": "zh:蒼藍流星;zh-hans:苍蓝流星;zh-hk:蒼之流星SPT力士拿;zh-tw:蒼之流星SPT雷茲納;"
+    },
+    {
+      "original": "冥王計画ゼオライマー",
+      "conv": "zh-cn:冥王计划志雷马;zh-tw:冥王計劃傑歐萊馬;zh-hk:冥王計劃志雷馬;"
+    },
+    {
+      "original": "トップをねらえ!",
+      "conv": "zh-cn:飞跃巅峰;zh-tw:勇往直前;zh-hk:飛越巔峰;"
     },
     {
       "original": "まじかる☆タルるートくん",
@@ -644,6 +1240,10 @@
       "conv": "zh-cn:达伊大冒险;zh-tw:達伊的大冒險;zh-hk:達爾大冒險;"
     },
     {
+      "original": "Coo 遠い海から来たクー",
+      "conv": "zh-tw:叮噹小恐龍;zh-hk:深海的童話;zh-cn:叮当小恐龙;"
+    },
+    {
       "original": "ママは小学4年生",
       "conv": "zh-cn:妈妈是小学四年生;zh-tw:超時空保姆;zh-hk:媽媽是小學四年生;"
     },
@@ -656,16 +1256,12 @@
       "conv": "zh-cn:元气爆发;zh-tw:元氣小子;zh-hk:元氣爆發;"
     },
     {
-      "original": "伝説巨神イデオン",
-      "conv": "zh:傳說巨神;zh-hans:传说巨神伊迪安;zh-tw:傳說巨神伊甸王;zh-hk:傳說巨神伊迪安;"
-    },
-    {
       "original": "クッキングパパ",
       "conv": "zh-cn:妙厨老爹;zh-tw:妙廚老爹;zh-hk:伙頭爸B;"
     },
     {
       "original": "ヤダモン",
-      "conv": "zh-cn:小讨厌;zh-tw:小巫仙;zh-hk:小魔女得意妹;"
+      "conv": "zh-cn:小讨厌;zh-sg:小巫仙;zh-tw:小巫仙;zh-hk:小魔女得意妹;"
     },
     {
       "original": "姫ちゃんのリボン",
@@ -673,7 +1269,7 @@
     },
     {
       "original": "みかん絵日記",
-      "conv": "zh-cn:蜜柑绘日记;zh-tw:橘夢日記;zh-hk:貓貓日記;"
+      "conv": "zh:蜜柑繪日記;zh-cn:蜜柑绘日记;zh-tw:橘夢日記;zh-hk:貓貓日記;"
     },
     {
       "original": "疾風!アイアンリーガー",
@@ -688,12 +1284,8 @@
       "conv": "zh-cn:秀逗泰山;zh-tw:秀逗泰山;zh-hk:抵死泰山;"
     },
     {
-      "original": "SLAM DUNK",
-      "conv": "zh:SLAM DUNK;zh-cn:灌篮高手;zh-tw:灌籃高手;zh-hk:男兒當入樽;"
-    },
-    {
-      "original": "THE FIRST SLAM DUNK",
-      "conv": "THE FIRST SLAM DUNK;"
+      "original": "スレイヤーズ",
+      "conv": "zh-cn:秀逗魔导士;zh-tw:秀逗魔導士;zh-hk:魔劍美神;zh-sg:魔剑美神;"
     },
     {
       "original": "赤ずきんチャチャ",
@@ -717,11 +1309,11 @@
     },
     {
       "original": "メタルファイター♥MIKU",
-      "conv": "zh-cn:重装甲少女组;zh-tw:美少女戰鬥隊;zh-hk:重裝甲少女組;"
+      "conv": "zh-cn:美少女战斗队;zh-tw:美少女戰鬥隊;zh-hk:重裝甲少女組;"
     },
     {
-      "original": "BLUE SEED",
-      "conv": "zh-cn:种子特务;zh-tw:碧奇魂;"
+      "original": "ブルーシード (BLUE SEED)",
+      "conv": "zh-cn:种子特务;zh-hk:種子特務;zh-tw:碧奇魂;"
     },
     {
       "original": "魔法騎士レイアース",
@@ -737,15 +1329,11 @@
     },
     {
       "original": "ふしぎ遊戯",
-      "conv": "zh-cn:不可思议的游戏;zh-tw:夢幻遊戲;zh-hk:不思議遊戲;"
+      "conv": "zh-cn:不思议游戏;zh-sg:梦幻游戏;zh-tw:夢幻遊戲;zh-hk:不思議遊戲;"
     },
     {
       "original": "十二戦支 爆烈エトレンジャー",
       "conv": "zh:十二生肖爆烈戰士;zh-cn:十二生肖守护神;zh-tw:十二生肖 爆烈戰士;zh-hk:十二守護戰士"
-    },
-    {
-      "original": "スレイヤーズ",
-      "conv": "zh-cn:秀逗魔导士;zh-tw:秀逗魔導士;zh-hk:魔劍美神;"
     },
     {
       "original": "ストリートファイター",
@@ -753,7 +1341,7 @@
     },
     {
       "original": "ナースエンジェルりりかSOS",
-      "conv": "zh-cn:守护天使莉莉佳;zh-tw:莉莉佳SOS;zh-hk:護士小天使;"
+      "conv": "zh-cn:守护天使莉莉佳;zh-tw:守護天使莉莉佳;zh-hk:護士小天使;"
     },
     {
       "original": "ご近所物語",
@@ -761,11 +1349,11 @@
     },
     {
       "original": "怪盗セイント・テール",
-      "conv": "zh-cn:圣少女;zh-tw:怪盜聖少女;zh-hk:怪盜St. Tail;"
+      "conv": "zh:怪盜Saint Tail;zh-hans:怪盗Saint Tail;zh-cn:圣少女;zh-tw:怪盜聖少女;zh-hk:怪盜St. Tail;zh-sg:怪盗St. Tail;"
     },
     {
       "original": "爆走兄弟レッツ&ゴー!!",
-      "conv": "zh-cn:四驱兄弟;zh-tw:爆走兄弟Let's & Go!!;zh-hk:四驅兄弟;"
+      "conv": "zh-cn:四驱兄弟;zh-sg:爆走兄弟;zh-tw:爆走兄弟Let's & Go!!;zh-hk:四驅兄弟;"
     },
     {
       "original": "るろうに剣心 -明治剣客浪漫譚-",
@@ -777,15 +1365,11 @@
     },
     {
       "original": "快傑ゾロ",
-      "conv": "zh-cn:佐罗的传说;zh-tw:蒙面俠蘇洛傳;zh-hk:黑龍俠影;"
+      "conv": "zh-cn:佐罗的传说;zh-sg:蒙面侠苏洛传;zh-tw:蒙面俠蘇洛傳;zh-hk:黑龍俠影;"
     },
     {
       "original": "こどものおもちゃ",
       "conv": "zh:孩子們的遊戲;zh-cn:玩偶游戏;zh-tw:玩偶遊戲;zh-hk:小孩子的玩具;"
-    },
-    {
-      "original": "スレイヤーズ",
-      "conv": "zh-cn:秀逗魔导士;zh-tw:秀逗魔導士;zh-hk:魔劍美神;"
     },
     {
       "original": "地獄先生ぬ〜べ〜",
@@ -813,7 +1397,7 @@
     },
     {
       "original": "HAUNTEDじゃんくしょん",
-      "conv": "zh-cn:灵异猎人;zh-tw:靈異獵人;zh-hk:嘩鬼校園;"
+      "conv": "zh-cn:灵异猎人;zh-tw:靈異獵人;zh-hk:嘩鬼校園;zh-sg:猛鬼校园;"
     },
     {
       "original": "みすて・ないでデイジー",
@@ -825,7 +1409,7 @@
     },
     {
       "original": "夢のクレヨン王国",
-      "conv": "zh:夢之蠟筆王國;zh-cn:蜡笔小王国;zh-tw:‎夢幻蠟筆王國;zh-hk:蠟筆小王國;"
+      "conv": "zh:夢之蠟筆王國;zh-cn:蜡笔小王国;zh-tw:夢幻蠟筆王國;zh-hk:蠟筆小王國;"
     },
     {
       "original": "バトルアスリーテス 大運動会",
@@ -833,11 +1417,7 @@
     },
     {
       "original": "剣風伝奇ベルセルク",
-      "conv": "zh-cn:剑风传奇;zh-tw:烙印勇士;zh-hk:烙印戰士;"
-    },
-    {
-      "original": "Dr.スランプ",
-      "conv": "zh-cn:阿拉蕾;zh-tw:怪博士與機器娃娃;zh-hk:IQ博士;"
+      "conv": "zh-cn:剑风传奇;zh-sg:烙印勇士;zh-tw:烙印勇士;zh-hk:烙印戰士;"
     },
     {
       "original": "ロスト・ユニバース",
@@ -845,27 +1425,11 @@
     },
     {
       "original": "魔法のステージファンシーララ",
-      "conv": "zh-cn:梦幻拉拉;zh-tw:魔法拉拉;zh-hk:魔法小美穗;"
+      "conv": "zh:夢幻拉拉;zh-cn:梦幻拉拉;zh-tw:魔法拉拉;zh-hk:魔法小美穗;"
     },
     {
       "original": "ああっ女神さまっ",
       "conv": "zh-cn:我的女神;zh-tw:幸運女神;zh-hk:幸運女神;"
-    },
-    {
-      "original": "カードキャプターさくら",
-      "conv": "zh-hant:百變小櫻;zh-hans:魔卡少女樱;zh-cn:魔卡少女樱;zh-tw:庫洛魔法使;zh-hk:百變小櫻Magic咭;zh-sg:库洛魔法使;"
-    },
-    {
-      "original": "カードキャプターさくら クリアカード編",
-      "conv": "zh-hant:百變小櫻Clear咭;zh-hans:魔卡少女樱：透明牌篇;zh-cn:魔卡少女樱：透明牌篇;zh-tw:庫洛魔法使：透明牌篇;zh-hk:百變小櫻Clear咭;zh-sg:库洛魔法使：透明牌篇;"
-    },
-    {
-      "original": "カードキャプターさくら クリアカード編",
-      "conv": "zh-hant:百變小櫻Clear咭;zh-hans:魔卡少女樱 透明牌篇;zh-cn:魔卡少女樱 透明牌篇;zh-tw:庫洛魔法使 透明牌篇;zh-hk:百變小櫻Clear咭;zh-sg:库洛魔法使 透明牌篇;"
-    },
-    {
-      "original": "ヴァイスクロイツ",
-      "conv": "zh-cn:白色猎人;zh-tw:白色十字架;"
     },
     {
       "original": "浦安鉄筋家族",
@@ -897,7 +1461,7 @@
     },
     {
       "original": "サイボーグクロちゃん",
-      "conv": "zh-cn:超级酷乐猫;zh-tw:霹靂酷樂貓;zh-hk:超級小黑咪;"
+      "conv": "zh-cn:超级酷乐猫;zh-sg:霹雳酷乐猫;zh-tw:霹靂酷樂貓;zh-hk:超級小黑咪;"
     },
     {
       "original": "人形草紙あやつり左近",
@@ -912,8 +1476,48 @@
       "conv": "zh-cn:全职猎人;zh-tw:HUNTER×HUNTER 獵人;zh-hk:全職獵人;zh-sg:HUNTER×HUNTER 猎人×猎人;"
     },
     {
-      "original": "ONE PIECE",
-      "conv": "zh-cn:航海王;zh-tw:航海王;zh-hk:海賊王;zh-sg:海贼王;"
+      "original": "3丁目のタマ うちのタマ知りませんか？",
+      "conv": "zh-cn:猫狗宠物街;zh-tw:淘氣貓 喵喵三丁目;zh-hk:貓狗寵物街;"
+    },
+    {
+      "original": "アイドル天使ようこそようこ",
+      "conv": "zh-tw:小俏妞;zh-hk:偶像天使陽子;"
+    },
+    {
+      "original": "魔法のエンジェルスイートミント",
+      "conv": "zh-tw:歡歡仙子;zh-hk:魔法天使;"
+    },
+    {
+      "original": "ふしぎの海のナディア",
+      "conv": "zh-cn:蓝宝石之谜;zh-tw:海底兩萬哩;zh-hk:冒險少女娜汀亞;"
+    },
+    {
+      "original": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+      "conv": "zh:鋼之鍊金術師 FULLMETAL ALCHEMIST;zh-cn:钢之炼金术师 FULLMETAL ALCHEMIST;zh-tw:鋼之鍊金術師 BROTHERHOOD;zh-hk:鋼之鍊金術師FA;"
+    },
+    {
+      "original": "夢色パティシエール",
+      "conv": "zh-cn:梦色蛋糕师;zh-tw:夢色蛋糕師;zh-hk:夢色糕點師;"
+    },
+    {
+      "original": "夢色パティシエール",
+      "conv": "zh-cn:梦色蛋糕师;zh-tw:夢色蛋糕師;zh-hk:夢幻蛋糕師;"
+    },
+    {
+      "original": "BLEACH",
+      "conv": "zh-cn:BLEACH境·界;zh-tw:BLEACH死神;zh-hk:BLEACH漂靈;zh-sg:BLEACH死神;"
+    },
+    {
+      "original": "家庭教師ヒットマンREBORN!",
+      "conv": "zh-cn:家庭教师HITMAN REBORN!;zh-tw:家庭教師HITMAN REBORN!;zh-hk:家庭教師REBORN!殺手利邦;"
+    },
+    {
+      "original": "ベクシル 2077日本鎖国",
+      "conv": "zh-hans:日本锁国;zh-hk:2077日本鎖國;zh-tw:日本鎖國;"
+    },
+    {
+      "original": "ヴァイスクロイツ",
+      "conv": "zh-cn:白色猎人;zh-tw:白色十字架;"
     },
     {
       "original": "だぁ!だぁ!だぁ!",
@@ -933,7 +1537,7 @@
     },
     {
       "original": "創聖のアクエリオン",
-      "conv": "zh-hans:创圣的大天使;zh-hant:創聖的亞庫艾里翁;zh-tw:創聖機械天使;zh-hk:創聖大天使;"
+      "conv": "zh:创圣的亚库艾里翁;zh-hant:創聖的亞庫艾里翁;zh-cn:创圣的大天使;zh-sg:创圣的机械天使;zh-tw:創聖機械天使;zh-hk:創聖大天使;"
     },
     {
       "original": "リングにかけろ",
@@ -941,151 +1545,331 @@
     },
     {
       "original": "アイシールド21",
-      "conv": "zh-hans:光速跑者21号;zh-hk:衝鋒21;zh-sg:疾风蒙面侠21;zh-tw:光速蒙面俠21;"
-    },
-    {
-      "original": "3丁目のタマ うちのタマ知りませんか？",
-      "conv": "zh-cn:猫狗宠物街;zh-tw:淘氣貓 喵喵三丁目;zh-hk:貓狗寵物街;"
-    },
-    {
-      "original": "交響詩篇エウレカセブン ポケットが虹でいっぱい",
-      "conv": "zh-hans:交响诗篇 彩虹满载;zh-hant:交響詩篇 口袋裏的彩虹;"
-    },
-    {
-      "original": "反逆のルルーシュ",
-      "conv": "zh-cn:反叛的鲁路修;zh-tw:反叛的魯路修;zh-hk:叛逆的魯魯修;"
-    },
-    {
-      "original": "復活のルルーシュ",
-      "conv": "zh-cn:复活的鲁路修;zh-tw:復活的魯路修;zh-hk:復活的魯魯修;"
-    },
-    {
-      "original": "蒼き流星SPTレイズナー",
-      "conv": "zh:蒼藍流星;zh-hans:苍蓝流星;zh-hk:蒼之流星SPT力士拿;zh-tw:蒼之流星SPT雷茲納;"
-    },
-    {
-      "original": "冥王計画ゼオライマー",
-      "conv": "zh-cn:冥王计划志雷马; zh-tw:冥王計劃傑歐萊馬; zh-hk:冥王計劃志雷馬;"
+      "conv": "zh-cn:光速跑者21号;zh-hk:衝鋒21;zh-sg:光速蒙面侠21;zh-tw:光速蒙面俠21;"
     },
     {
       "original": "フルメタル・パニック!",
-      "conv": "zh-cn:全金属狂潮; zh-tw:驚爆危機; zh-hk:驚爆危機;"
-    },
-    {
-      "original": "ゾイド -ZOIDS-",
-      "conv": "zh-hans:机兽新世纪ZOIDS; zh-tw:機獸新世紀ZOIDS; zh-hk:索斯機械獸;"
-    },
-    {
-      "original": "ゾイド新世紀スラッシュゼロ",
-      "conv": "zh-hans:机兽新世纪ZERO; zh-tw:機獸新世紀ZERO; zh-hk:索斯機械獸III;"
-    },
-    {
-      "original": "ゾイドフューザーズ",
-      "conv": "zh-hans:机兽超世纪; zh-tw:機獸超世紀; zh-hk:索斯機械獸IV;"
-    },
-    {
-      "original": "ゾイドジェネシス",
-      "conv": "zh-hans:机兽创世纪; zh-tw:機獸創世紀; zh-hk:索斯機械獸V;"
-    },
-    {
-      "original": "ゾイドワイルド",
-      "conv": "zh:索斯機械獸WILD; zh-cn:索斯机兽：荒野纪;zh-tw:機獸戰記 狂野爆發;zh-hk:索斯機械獸 激戰本能;"
-    },
-    {
-      "original": "ゾイドワイルドZERO",
-      "conv": "zh:索斯機械獸WILD ZERO; zh-cn:索斯机兽：荒野纪 ZERO;zh-tw:機獸戰記ZERO;zh-hk:索斯機械獸 激戰本能 ZERO;"
+      "conv": "zh-cn:全金属狂潮;zh-tw:驚爆危機;zh-hk:驚爆危機;"
     },
     {
       "original": "OVERMAN キングゲイナー",
-      "conv": "zh-cn:返乡战士; zh-tw:極限戰士; zh-hk:帝皇戰紀;"
+      "conv": "zh-cn:返乡战士;zh-tw:極限戰士;zh-hk:帝皇戰紀;"
     },
     {
       "original": "ジャイアントロボ",
-      "conv": "zh-tw:機械巨神; zh-hk:鐵甲人;"
-    },
-    {
-      "original": "トップをねらえ!",
-      "conv": "zh-cn:飞跃巅峰;zh-hans:飞越巅峰;zh-tw:勇往直前;zh-hk:飛越巔峰;"
+      "conv": "zh-tw:機械巨神;zh-hk:鐵甲人;zh-cn:铁甲人;"
     },
     {
       "original": "ヘタリア",
-      "conv": "zh-cn:黑塔利亚; zh-tw:義呆利; zh-hk:意呆利;"
-    },
-    {
-      "original": "BLEACH",
-      "conv": "zh-cn:BLEACH境·界;zh-tw:BLEACH死神;zh-hk:BLEACH漂靈;zh-sg:BLEACH死神;"
-    },
-    {
-      "original": "家庭教師ヒットマンREBORN!",
-      "conv": "zh-cn:家庭教师HITMAN REBORN!;zh-tw:家庭教師HITMAN REBORN!;zh-hk:家庭教師REBORN!殺手利邦;"
-    },
-    {
-      "original": "FAIRY TAIL",
-      "conv": "zh:FAIRY TAIL;zh-cn:妖精的尾巴;zh-tw:FAIRY TAIL魔導少年;zh-hk:FAIRY TAIL魔導少年;zh-sg:FAIRY TAIL;"
-    },
-    {
-      "original": "FAIRY TAIL 100年クエスト",
-      "conv": "zh:FAIRY TAIL 100 YEARS QUEST;zh-cn:妖精的尾巴 百年任务;zh-tw:FAIRY TAIL魔導少年 百年任務;zh-hk:FAIRY TAIL魔導少年 百年任務;"
-    },
-    {
-      "original": "黒子のバスケ",
-      "conv": "zh:黑子的籃球;zh-hans:黑子的篮球; zh-hk:幻影籃球王; zh-tw:影子籃球員;"
+      "conv": "zh-cn:黑塔利亚;zh-tw:義呆利;zh-hk:意呆利;"
     },
     {
       "original": "金色のガッシュ!!",
-      "conv": "zh:金色的卡修;zh-hans:魔法少年賈修; zh-hk:魔法小神童加旋; zh-tw:魔法少年賈修;"
+      "conv": "zh:金色的卡修;zh-sg:魔法少年贾修;zh-hk:魔法小神童加旋;zh-tw:魔法少年賈修;zh-cn:金童卡修;"
     },
     {
       "original": "カレイドスター",
-      "conv": "zh-cn:百变之星; zh-hk:星夢美少女; zh-tw:萬花筒之星;"
+      "conv": "zh-cn:百变之星;zh-hk:星夢美少女;zh-tw:萬花筒之星;"
     },
     {
       "original": "おねがいマイメロディ",
-      "conv": "zh-cn:奇幻魔法Melody; zh-hk:奇幻魔法Melody; zh-tw:我愛美樂蒂;"
+      "conv": "zh-cn:奇幻魔法Melody;zh-hk:奇幻魔法Melody;zh-tw:我愛美樂蒂;"
     },
     {
       "original": "ぱにぽに",
-      "conv": "zh-cn:不可思议的教室; zh-hk:不可思議的課堂; zh-tw:嬉皮笑園;"
+      "conv": "zh-cn:不可思议的教室;zh-hk:不可思議的課堂;zh-tw:嬉皮笑園;"
     },
     {
       "original": "しゅごキャラ!",
-      "conv": "zh-cn:守护甜心！; zh-hk:守護蛋精靈; zh-tw:守護甜心;"
+      "conv": "zh-cn:守护甜心！;zh-hk:守護蛋精靈;zh-tw:守護甜心;"
     },
     {
       "original": "おとぎ銃士 赤ずきん",
-      "conv": "zh-cn:童话枪手小红帽！; zh-hk:俏皮劍俠小紅帽; zh-tw:童話槍手小紅帽;"
+      "conv": "zh-cn:童话枪手小红帽！;zh-hk:俏皮劍俠小紅帽;zh-tw:童話槍手小紅帽;"
     },
     {
-      "original": "アイドル天使ようこそようこ",
-      "conv": "zh-tw:小俏妞; zh-hk:偶像天使陽子;"
+      "original": "とある科学の超電磁砲",
+      "conv": "zh-cn:某科学的超电磁炮;zh-tw:科學超電磁砲;zh-sg:科学超电磁炮;"
     },
     {
-      "original": "魔法のエンジェルスイートミント",
-      "conv": "zh-tw:歡歡仙子; zh-hk:魔法天使;"
+      "original": "最上の命医",
+      "conv": "zh-hk:最佳命醫;zh-tw:頂尖明醫;"
+    },
+    {
+      "original": "プリパラ",
+      "conv": "zh-cn:美妙天堂;zh-tw:星光樂園;zh-hk:星光樂園;"
+    },
+    {
+      "original": "トリニティセブン 7人の魔書使い",
+      "conv": "zh-cn:七人魔法使;zh-tw:TRINITY SEVEN 魔道書7使者;"
+    },
+    {
+      "original": "ハマトラ",
+      "conv": "zh-hans:滨虎;zh-hant:HAMATORA-超能偵探社-"
+    },
+    {
+      "original": "からかい上手の高木さん",
+      "conv": "zh-cn:擅长捉弄的高木同学;zh-hant:擅長捉弄人的高木同學;zh-sg:擅长捉弄人的高木同学;zh-my:擅长捉弄人的高木同学;"
+    },
+    {
+      "original": "文豪ストレイドッグス",
+      "conv": "zh-cn:文豪野犬;zh-tw:文豪Stray Dogs;zh-hk:文豪Stray Dogs;"
+    },
+    {
+      "original": "べるぜバブ",
+      "conv": "zh-cn:魔王奶爸;zh-my:恶魔奶爸;zh-tw:惡魔奶爸;zh-hk:魔B爸B;"
+    },
+    {
+      "original": "ゆらぎ荘の幽奈さん",
+      "conv": "zh-cn:摇曳庄有位幽奈小姐;zh-hk:搖曳莊的幽奈小姐;zh-tw:搖曳莊的幽奈小姐;zh-my:摇曳庄的幽奈小姐;"
+    },
+    {
+      "original": "黒子のバスケ",
+      "conv": "zh:黑子的籃球;zh-cn:黑子的篮球;zh-sg:幻影篮球王;zh-hk:幻影籃球王;zh-tw:影子籃球員;"
+    },
+    {
+      "original": "REDLINE",
+      "conv": "zh-cn:红线;zh-tw:超時空甩尾;"
+    },
+    {
+      "original": "HELLO WORLD",
+      "conv": "zh-tw:HELLO WORLD;zh-hk:HELLO WORLD;zh-my:HELLO WORLD;zh-sg:HELLO WORLD;zh-cn:你好世界;"
+    },
+    {
+      "original": "あした世界が終わるとしても",
+      "conv": "zh:就算明天世界毀滅;zh-cn:即使明天世界将迎来终结;zh-tw:相對世界。明日終結？;zh-my:相对世界。明日终结？;"
     },
     {
       "original": "蒼き鋼のアルペジオ",
-      "conv": "zh-cn:苍蓝钢铁的琶音; zh-tw:蒼藍鋼鐵戰艦; zh-hk:蒼藍鋼鐵戰艦;"
-    },
-    {
-      "original": "ふしぎの海のナディア",
-      "conv": "zh-cn:蓝宝石之谜; zh-tw:海底兩萬哩; zh-hk:冒險少女娜汀亞;"
+      "conv": "zh-cn:苍蓝钢铁的琶音;zh-tw:蒼藍鋼鐵戰艦;zh-hk:蒼藍鋼鐵戰艦;"
     },
     {
       "original": "ぬらりひょんの孫",
-      "conv": "zh-cn:滑头鬼之孙;zh-tw:妖怪少爺;zh-hk:百鬼小當家;"
+      "conv": "zh-cn:滑头鬼之孙;zh-tw:妖怪少爺;zh-hk:百鬼小當家;zh-sg:百鬼小当家;"
     },
     {
-      "original": "爆転シュート ベイブレード",
-      "conv": "zh-cn:战斗陀螺; zh-hk:爆旋陀螺; zh-tw:戰鬥陀螺;"
+      "original": "エンジェルビーツ",
+      "conv": "zh-hans:Angel Beats!; zh-hant:Angel Beats!;zh-tw:天使的脈動;"
     },
     {
-      "original": "メタルファイト ベイブレード",
-      "conv": "zh-cn:金属对决 战斗陀螺; zh-tw:戰鬥陀螺 鋼鐵奇兵; zh-hk:爆旋陀螺 鋼鐵戰魂;"
+      "original": "シャーロット",
+      "conv": "zh:Charlotte; zh-cn:Charlotte;zh-tw:夏洛特; zh-hk:Charlotte;"
     },
     {
-      "original": "ベイブレードバースト",
-      "conv": "zh:爆旋陀螺Burst; zh-cn:霸旋陀螺 爆刃对决; zh-hk:爆旋陀螺 擊爆戰魂; zh-tw:戰鬥陀螺 爆烈世代;"
+      "original": "千歳くんはラムネ瓶のなか",
+      "conv": "zh-hant:彈珠汽水瓶裡的千歲同學;zh-hans:弹珠汽水瓶里的千岁同学;"
+    },
+    {
+      "original": "探偵はもう、死んでいる。",
+      "conv": "zh-tw:偵探已經，死了。;zh-sg:侦探已经，死了。;zh-my:侦探已经，死了。;zh-cn:侦探已死;"
+    },
+    {
+      "original": "エロマンガ先生",
+      "conv": "zh-hk:我的妹妹是黃漫老師;zh-cn:埃罗芒阿老师;zh-tw:情色漫畫老師;zh-sg:情色漫画老师;"
+    },
+    {
+      "original": "まちカドまぞく",
+      "conv": "zh-tw:小惡魔女在街角;zh-hk:小惡魔女在街角;zh-sg:小恶魔女在街角;zh-cn:街角魔族;"
+    },
+    {
+      "original": "冴えない彼女の育てかた",
+      "conv": "zh-hant:不起眼女主角培育法;zh-sg:不起眼女主角培育法;zh-cn:路人女主的养成方法;"
+    },
+    {
+      "original": "ベルゼブブ嬢のお気に召すまま。",
+      "conv": "zh-cn:只要贝尔哲布布大小姐喜欢就好;zh-hant:只要別西卜大小姐喜歡就好;zh-sg:只要别西卜大小姐喜欢就好;"
+    },
+    {
+      "original": "この勇者が俺TUEEEくせに慎重すぎる",
+      "conv": "zh-cn:这个勇者明明超强却过分慎重;zh-tw:這個勇者明明超TUEEE卻過度謹慎;zh-sg:这个勇者明明超TUEEE却过度谨慎;"
+    },
+    {
+      "original": "テイルズ オブ ゼスティリア ザ X",
+      "conv": "zh-tw:熱情傳奇 the X;zh-hk:時空幻境熱情傳奇 THE X;zh-sg:时空幻境热情传奇 the X;zh-cn:情热传说 the X;"
+    },
+    {
+      "original": "学園ベビーシッターズ",
+      "conv": "zh-hk:湊B同學仔;zh-tw:學園奶爸;zh-sg:学园奶爸;"
+    },
+    {
+      "original": "アリスとテレスのまぼろし工場",
+      "conv": "zh-tw:maboroshi：愛麗絲與特蕾絲的虛幻工廠;zh-sg:maboroshi：爱丽丝和特蕾丝的梦幻工厂;zh-cn:爱丽丝和特蕾丝的梦幻工厂;zh-hk:maboroshi;}--{-|maboroshi"
+    },
+    {
+      "original": "プリンセスコネクト！Re:Dive",
+      "conv": "zh-hant:超異域公主連結;zh-my:超异域公主连结;zh-cn:公主连结;"
+    },
+    {
+      "original": "プリンセスコネクト！Re:Dive",
+      "conv": "zh-hant:超異域公主連結☆Re:Dive;zh-my:超异域公主连结☆Re:Dive;zh-cn:公主连结Re:Dive;"
+    },
+    {
+      "original": "その着せ替え人形は恋をする",
+      "conv": "zh-cn:更衣人偶坠入爱河;zh-my:恋上换装娃娃;zh-sg:恋上换装娃娃;zh-tw:戀上換裝娃娃;"
+    },
+    {
+      "original": "劇場版プロジェクトセカイ 壊れたセカイと歌えないミク",
+      "conv": "zh-hant:劇場版 世界計畫 崩壞的世界與無法歌唱的初音未來;zh-sg:剧场版 世界计划 崩坏的世界与无法歌唱的初音未来;zh-cn:世界计划：无法歌唱的初音未来;"
+    },
+    {
+      "original": "一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる",
+      "conv": "zh-cn:天才治疗师退队作为无照治疗师快乐过活;zh-hk:瞬間治癒卻被當成廢物踢出隊伍的天才治療師，改當無照治療師快樂過活;zh-tw:瞬間治癒卻被當成廢物踢出隊伍的天才治療師，改當無照治療師快樂過活;zh-sg:天才治疗师退队作为无照治疗师快乐过活;zh-my:瞬间治疗却被视为无用而被流放的天才治疗师，以暗黑治疗师的身份幸福的生活;"
+    },
+    {
+      "original": "リコリス・リコイル",
+      "conv": "zh-tw:Lycoris Recoil 莉可麗絲;zh-hk:莉可麗絲;zh-cn:莉可丽丝;"
+    },
+    {
+      "original": "アイの歌声を聴かせて",
+      "conv": "zh-tw:讓我聽見愛的歌聲;zh-sg:让我听见爱的歌声;zh-cn:让我聆听爱的歌声;"
+    },
+    {
+      "original": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS-",
+      "conv": "zh-tw:正義使者 -我的英雄學院之非法英雄-;zh-sg:正义使者 -我的英雄学院之非法英雄-;zh-hk:我的英雄學院 -ILLEGALS Vigilante-;"
+    },
+    {
+      "original": "Lv1魔王とワンルーム勇者",
+      "conv": "zh-cn:菜鸟魔王与独居勇者;zh-sg:Lv1魔王与独居废勇者;zh-hant:Lv1魔王與獨居廢勇者;"
+    },
+    {
+      "original": "時々ボソッとロシア語でデレる隣のアーリャさん",
+      "conv": "zh-tw:不時輕聲地以俄語遮羞的鄰座艾莉同學;zh-my:不时轻声地以俄语遮羞的邻座艾莉同学;zh-sg:不时用俄语说真心话的邻桌艾莉同学;zh-cn:不时用俄语小声说真心话的邻桌艾莉同学;"
+    },
+    {
+      "original": "姫様“拷問”の時間です",
+      "conv": "zh-hant:公主殿下，「拷問」的時間到了;zh-sg:公主殿下，“拷问”的时间到了;zh-my:公主殿下，“拷问”的时间到了;zh-cn:公主大人，接下来是“拷问”时间;"
+    },
+    {
+      "original": "望まぬ不死の冒険者",
+      "conv": "zh-tw:非自願的不死冒險者;zh-sg:非自愿的不死冒险者;zh-my:非自愿的不死冒险者;zh-cn:事与愿违的不死冒险者;"
+    },
+    {
+      "original": "DOG SIGNAL",
+      "conv": "zh-tw:愛犬訊號;zh-sg:爱犬讯号;zh-cn:爱犬指令;"
+    },
+    {
+      "original": "ゾン100～ゾンビになるまでにしたい100のこと～",
+      "conv": "zh-tw:殭屍100～在成為殭屍前要做的100件事～;zh-sg:僵尸100～在成为僵尸前要做的100件事～;zh-my:僵尸100～在成为僵尸前要做的100件事～;zh-cn:僵尸百分百～变成僵尸之前想做的100件事～;"
+    },
+    {
+      "original": "はめつのおうこく",
+      "conv": "zh-cn:破灭王国;zh-my:破灭的王国;zh-sg:破灭的王国;zh-tw:破滅的王國;"
+    },
+    {
+      "original": "聖女の魔力は万能です",
+      "conv": "zh-tw:聖女魔力無所不能;zh-sg:圣女魔力无所不能;zh-my:圣女魔力无所不能;zh-cn:圣女的魔力是万能的;"
+    },
+    {
+      "original": "デキる猫は今日も憂鬱",
+      "conv": "zh-tw:能幹貓今天也憂鬱;zh-sg:能干猫今天也忧郁;zh-cn:能干的猫今天也忧郁;"
+    },
+    {
+      "original": "とんでもスキルで異世界放浪メシ",
+      "conv": "zh-cn:超常技能开启奇幻世界美食之旅;zh-sg:拥有超常技能的异世界流浪美食家;zh-my:拥有超常技能的异世界流浪美食家;zh-hk:擁有超常技能的異世界流浪美食家;zh-tw:擁有超常技能的異世界流浪美食家;"
+    },
+    {
+      "original": "CONCEPTION 俺の子供を産んでくれ！",
+      "conv": "zh-hant:CONCEPTION 產子救世錄;zh-sg:产子救世录;zh-my:产子救世录;zh-cn:为我而生;"
+    },
+    {
+      "original": "CONCEPTION 俺の子供を産んでくれ！",
+      "conv": "zh-hant:產子救世錄;zh-sg:产子救世录;zh-my:产子救世录;zh-cn:为我而生;"
+    },
+    {
+      "original": "薫る花は凛と咲く",
+      "conv": "zh-hant:薰香花朵凛然綻放;zh-hans:薰香花朵凛然绽放;"
+    },
+    {
+      "original": "ブサメンガチファイター",
+      "conv": "zh-hant:醜男真戰士;zh-cn:肥宅勇者;"
+    },
+    {
+      "original": "僕の心のヤバイやつ",
+      "conv": "zh-cn:我心里危险的东西;zh-sg:我内心的糟糕念头;zh-my:我内心的糟糕念头;zh-tw:我內心的糟糕念頭;"
+    },
+    {
+      "original": "父は英雄、母は精霊、娘の私は転生者。",
+      "conv": "zh-cn:无敌的我是英雄爸爸和精灵妈妈的女儿;zh-hk:轉生後的我成了英雄爸爸和精靈媽媽的女兒;zh-tw:轉生後的我成了英雄爸爸和精靈媽媽的女兒;zh-my:转生后的我成了英雄爸爸和精灵妈妈的女儿。;zh-sg:转生后的我成了英雄爸爸和精灵妈妈的女儿。;"
+    },
+    {
+      "original": "暗殺者である俺のステータスが勇者よりも明らかに強いのだが",
+      "conv": ";zh-cn:明明只是暗杀者，我的面板数值却比勇者还强;zh-sg:身为暗杀者的我明显比勇者还强;zh-tw:身為暗殺者的我明顯比勇者還強;zh-hk:身為暗殺者的我明顯比勇者還強;"
+    },
+    {
+      "original": "ワンダンス",
+      "conv": "zh:WONDANCE—热舞青春—;zh-cn:绝妙舞步;zh-hk:WONDANCE—熱舞青春—;zh-tw:WONDANCE—熱舞青春—;zh-sg:WONDANCE—热舞青春—;zh-my:WONDANCE—热舞青春—;"
+    },
+    {
+      "original": "Unnamed Memory",
+      "conv": "zh:Unnamed Memory 無名記憶;zh-hk:Unnamed Memory 無名記憶;zh-tw:Unnamed Memory 無名記憶;zh-my:Unnamed Memory 无名记忆;zh-sg:Unnamed Memory 无名记忆;zh-cn:无名记忆;"
+    },
+    {
+      "original": "果てしなきスカーレット",
+      "conv": "zh-hk:無盡的施嘉莉;zh-tw:Scarlet永無止境的史嘉蕾;"
+    },
+    {
+      "original": "クレバテス-魔獣の王と赤子と屍の勇者-",
+      "conv": "zh-hant:Clevatess -魔獸之王與嬰兒與屍之勇者-;zh-sg:Clevatess - 魔兽之王与婴儿与尸之勇者;zh-cn:克雷瓦提斯-魔兽之王与婴儿与尸之勇者-;"
+    },
+    {
+      "original": "iiiあいすくりん",
+      "conv": "zh-sg:冰冰冰 冰淇淋君;zh-tw:冰冰冰 冰淇淋君;zh-hk:雪雪雪 雪糕君;"
+    },
+    {
+      "original": "大正処女御伽話",
+      "conv": "zh-tw:大正處女御伽話;zh-sg:大正处女御伽话;zh-cn:大正少女御伽话;"
+    },
+    {
+      "original": "ひげを剃る。そして女子高生を拾う。",
+      "conv": "zh-tw:刮掉鬍子的我與撿到的女高中生;zh-sg:刮掉胡子的我与捡到的女高中生;zh-cn:剃须。然后捡到女高中生。;"
+    },
+    {
+      "original": "お兄ちゃんはおしまい！",
+      "conv": "zh-hant:不當哥哥了;zh-sg:不当哥哥了;zh-cn:别当欧尼酱了;"
+    },
+    {
+      "original": "スライム倒して300年、知らないうちにレベルMAXになってました",
+      "conv": "zh-tw:持續狩獵史萊姆三百年，不知不覺就練到LV MAX;zh-sg:持续狩猎史莱姆三百年，不知不觉就练到Lv MAX;zh-cn:打了300年的史莱姆，不知不觉就练到了满级;"
+    },
+    {
+      "original": "氷属性男子とクールな同僚女子",
+      "conv": "zh-hant:冰屬性男子與無表情女子;zh-hans:冰属性男子与无表情女子;zh-cn:冰属性男子和酷酷女同事;"
+    },
+    {
+      "original": "ひとりぼっちの異世界攻略",
+      "conv": "zh-tw:孤單一人的異世界攻略;zh-sg:孤单一人的异世界攻略;zh-cn:独自一人的异世界攻略;"
+    },
+    {
+      "original": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…",
+      "conv": "zh-cn:转生成为了只有乙女游戏破灭Flag的邪恶大小姐;zh-tw:轉生成女性向遊戲只有毀滅END的壞人大小姐;zh-sg:转生成女性向游戏只有毁灭END的坏人大小姐;"
+    },
+    {
+      "original": "先輩がうざい後輩の話",
+      "conv": "zh-hant:前輩有夠煩;zh-sg:前辈有够烦;zh-cn:关于前辈很烦人的事;"
+    },
+    {
+      "original": "パリピ孔明",
+      "conv": "zh-tw:派對咖孔明;zh-my:派对咖孔明;zh-cn:派对浪客诸葛孔明;"
+    },
+    {
+      "original": "負けヒロインが多すぎる！",
+      "conv": "zh-tw:敗北女角太多了;zh-sg:败北女角太多了;zh-my:败北女角太多了;zh-cn:败犬女主太多了;"
+    },
+    {
+      "original": "ひゃくえむ。",
+      "conv": "zh-tw:一百公尺。;zh-hk:極速一百米。;"
+    },
+    {
+      "original": "アオのハコ",
+      "conv": "zh-tw:青春之箱;zh-my:青春之箱;zh-sg:青之箱;zh-cn:青之箱;zh-hk:青春盒子;"
+    },
+    {
+      "original": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+      "conv": "zh-hant:貫徹輔助魔法支援弱小隊友的宮廷魔法師，慘遭驅逐後目標成為最強冒險者;zh-sg:队友太弱所以贯彻辅助的宫廷魔法师，惨遭流放而目标却是最强;"
+    },
+    {
+      "original": "あかね噺",
+      "conv": "zh-cn:落语朱音;zh-hk:朱音落語;zh-tw:朱音落語;zh-sg:朱音落语;zh-my:朱音落雨;"
     },
     {
       "original": "爆闘宣言ダイガンダー",
@@ -1097,11 +1881,7 @@
     },
     {
       "original": "ファンタジスタ",
-      "conv": "zh-hk:球場幻想曲;zh-tw:夢幻足球手;"
-    },
-    {
-      "original": "ハングリーハート WILD STRIKER",
-      "conv": "zh-tw:飆悍射將; zh-hk:踢出我天地; zh-cn:野狼前锋;"
+      "conv": "zh-hk:球場幻想曲;zh-tw:夢幻足球手;zh-sg:少年足球梦;"
     },
     {
       "original": "ライジンオー",
@@ -1121,11 +1901,11 @@
     },
     {
       "original": "凪のあすから",
-      "conv": "zh-cn:来自风平浪静的明天;zh-hk:來自風平浪靜的明天;zh-tw:來自風平浪靜的明日;zh-sg:来自风平浪静的明天;"
+      "conv": "zh-cn:来自风平浪静的明天;zh-hk:來自風平浪靜的明天;zh-tw:來自風平浪靜的明日;zh-my:来自风平浪静的明日;zh-sg:来自风平浪静的明日;"
     },
     {
       "original": "色づく世界の明日から",
-      "conv": "zh-cn:来自多彩世界的明天;zh-hk:來自繽紛世界的明日;zh-tw:來自繽紛世界的明日;zh-sg:来自多彩世界的明天;"
+      "conv": "zh-cn:来自多彩世界的明天;zh-hk:來自繽紛世界的明日;zh-tw:來自繽紛世界的明日;zh-my:来自缤纷世界的明日;zh-sg:来自缤纷世界的明日;"
     },
     {
       "original": "白い砂のアクアトープ",
@@ -1133,11 +1913,7 @@
     },
     {
       "original": "ハヤテのごとく！",
-      "conv": "zh:旋風管家;zh-cn:旋风管家;zh-tw:旋風管家！;zh-hk:爆笑管家工作日誌;zh-sg:疾风守护者;"
-    },
-    {
-      "original": "AKIRA",
-      "conv": "zh:亚基拉;zh-cn:阿基拉;zh-tw:阿基拉;zh-hk:亞基拉;"
+      "conv": "zh:旋風管家;zh-cn:旋风管家;zh-tw:旋風管家！;zh-hk:爆笑管家工作日誌;zh-sg:疾风守护者！;"
     },
     {
       "original": "ひぐらしのなく頃に",
@@ -1153,11 +1929,7 @@
     },
     {
       "original": "会長はメイド様!",
-      "conv": "zh-cn:非常女会长; zh-tw:學生會長是女僕！; zh-hk:會長是女僕大人！; zh-sg:会长是女仆！;"
-    },
-    {
-      "original": "その着せ替え人形は恋をする",
-      "conv": "zh-cn:更衣人偶坠入爱河;zh-tw:戀上換裝娃娃;"
+      "conv": "zh-cn:非常女会长;zh-tw:學生會長是女僕！;zh-hk:會長是女僕大人！;zh-sg:会长是女仆！;"
     },
     {
       "original": "シュガシュガルーン",
@@ -1172,32 +1944,20 @@
       "conv": "zh-cn:传颂之物;zh-hk:傳頌之物;zh-tw:受讚頌者;"
     },
     {
-      "original": "SPY×FAMILY",
-      "conv": "zh-cn:间谍过家家;zh-hk:SPY×FAMILY間諜家家酒;zh-tw:SPY×FAMILY間諜家家酒;"
-    },
-    {
       "original": "不滅のあなたへ",
-      "conv": "zh-cn:致不灭的你;zh-hk:給不滅的你;zh-tw:給不滅的你;"
+      "conv": "zh:致不滅的你;zh-cn:致不灭的你;zh-sg:给不灭的你;zh-my:给不灭的你;zh-hk:給不滅的你;zh-tw:給不滅的你;"
     },
     {
       "original": "のんのんびより",
-      "conv": "zh-cn:悠哉日常大王;zh-hk:悠悠哉哉少女日和;zh-mo:悠悠哉哉少女日和;zh-sg:悠悠哉哉少女日和;zh-tw:悠悠哉哉少女日和;"
+      "conv": "zh-cn:悠哉日常大王;zh-hk:悠悠哉哉少女日和;zh-sg:悠悠哉哉少女日和;zh-tw:悠悠哉哉少女日和;"
     },
     {
       "original": "海賊王女",
-      "conv": "zh-cn:海贼王女;zh-hk:海賊王女;zh-mo:海賊王女;zh-sg:海贼王女;zh-tw:海賊王女;"
-    },
-    {
-      "original": "Dr.STONE",
-      "conv": "Dr.STONE 石纪元=>zh-cn:Dr.STONE 石纪元;Dr.STONE 石纪元=>zh-hk:Dr.STONE;Dr.STONE 石纪元=>zh-tw:Dr.STONE 新石紀;"
-    },
-    {
-      "original": "Dr.STONE",
-      "conv": "Dr.STONE 新石紀=>zh-cn:Dr.STONE 石纪元;Dr.STONE 新石紀=>zh-hk:Dr.STONE;Dr.STONE 新石紀=>zh-tw:Dr.STONE 新石紀;"
+      "conv": "zh-cn:海贼王女;zh-hk:海賊王女;zh-sg:海贼王女;zh-tw:海賊王女;"
     },
     {
       "original": "邪神ちゃんドロップキック",
-      "conv": "zh-hans:邪神与厨二病少女;zh-hant:小邪神飛踢;"
+      "conv": "zh:邪神與廚二病少女;zh-hans:邪神与厨二病少女;zh-hant:小邪神飛踢;"
     },
     {
       "original": "東京ミュウミュウ",
@@ -1209,11 +1969,11 @@
     },
     {
       "original": "サイバーパンク: エッジランナーズ",
-      "conv": "zh-hans:赛博浪客;zh-hk:電馭叛客：邊緣行者;zh-sg:赛博浪客;zh-tw:電馭叛客：邊緣行者;"
+      "conv": "zh-cn:赛博朋克：边缘行者;zh-hk:電馭叛客：邊緣行者;zh-sg:赛博浪客;zh-tw:電馭叛客：邊緣行者;"
     },
     {
       "original": "シドニアの騎士",
-      "conv": "zh-cn:希德尼娅的骑士;zh-hk:薛多尼亞騎士;zh-tw:銀河騎士傳;"
+      "conv": "zh-cn:希德尼娅的骑士;zh-hk:薛多尼亞騎士;zh-tw:銀河騎士傳;zh-sg:银河骑士传;"
     },
     {
       "original": "PSYCHO-PASS サイコパス",
@@ -1221,7 +1981,7 @@
     },
     {
       "original": "マッシュル -MASHLE-",
-      "conv": "zh-cn:物理魔法使马修;zh-hk:肌肉魔法使-MASHLE-;zh-tw:肌肉魔法使-MASHLE-;"
+      "conv": "zh-cn:物理魔法使马修;zh-sg:肌肉魔法使-Mashle-;zh-hk:肌肉魔法使-MASHLE-;zh-tw:肌肉魔法使-MASHLE-;"
     },
     {
       "original": "To LOVEる -とらぶる-",
@@ -1229,15 +1989,19 @@
     },
     {
       "original": "美鳥の日々",
-      "conv": "zh-cn:美鸟日记;zh-hk:美鳥的日記;zh-mo:美鳥的日記;zh-tw:美鳥伴身邊;"
+      "conv": "zh-cn:美鸟日记;zh-hk:美鳥的日記;zh-tw:美鳥伴身邊;"
     },
     {
       "original": "うさぎドロップ",
-      "conv": "zh-cn:白兔糖;zh-hk:白兔糖;zh-mo:白兔糖;zh-sg:白兔糖;zh-tw:白兔玩偶;"
+      "conv": "zh-cn:白兔糖;zh-hk:白兔糖;zh-sg:白兔糖;zh-tw:白兔玩偶;"
     },
     {
       "original": "弱キャラ友崎くん",
       "conv": "zh-cn:弱势角色友崎君;zh-hk:弱角友崎同學;zh-tw:弱角友崎同學;"
+    },
+    {
+      "original": "弱キャラ友崎くん 2nd STAGE",
+      "conv": "zh-cn:弱势角色友崎君 第二季;zh-tw:弱角友崎同學 2nd STAGE;"
     },
     {
       "original": "フルーツバスケット",
@@ -1265,11 +2029,11 @@
     },
     {
       "original": "恋する小惑星",
-      "conv": "zh-cn:恋爱小行星;zh-hk:戀愛中的小行星;zh-mo:戀愛中的小行星;zh-my:恋爱中的小行星;zh-sg:恋爱中的小行星;zh-tw:戀愛中的小行星;"
+      "conv": "zh-cn:恋爱小行星;zh-hk:戀愛中的小行星;zh-my:恋爱中的小行星;zh-sg:恋爱中的小行星;zh-tw:戀愛中的小行星;"
     },
     {
       "original": "魔王様、リトライ！",
-      "conv": "zh-cn:重来吧，魔王大人！;zh-hk:魔王陛下RETRY！;zh-mo:魔王陛下RETRY！;zh-tw:魔王陛下RETRY！;"
+      "conv": "zh-cn:重来吧，魔王大人！;zh-hk:魔王陛下RETRY！;zh-tw:魔王陛下RETRY！;"
     },
     {
       "original": "君に届け",
@@ -1277,7 +2041,7 @@
     },
     {
       "original": "BURN THE WITCH",
-      "conv": "zh-cn:龙与魔女;zh-hk:BURN THE WITCH;zh-tw:BURN THE WITCH 龍與魔女;"
+      "conv": "zh-cn:龙与魔女;zh-sg:Burn the Witch 龙与魔女;zh-hk:BURN THE WITCH;zh-tw:BURN THE WITCH 龍與魔女;"
     },
     {
       "original": "T・Pぼん",
@@ -1293,27 +2057,23 @@
     },
     {
       "original": "新幹線変形ロボ シンカリオン",
-      "conv": "zh-cn:新干线变形机器人 进化利恩;zh-hk:新幹線戰士;zh-mo:新幹線戰士;zh-tw:新幹線變形機器人;"
+      "conv": "zh-cn:新干线变形机器人 进化利恩;zh-hk:新幹線戰士;zh-tw:新幹線變形機器人;"
     },
     {
       "original": "干物妹！うまるちゃん",
-      "conv": "zh-cn:干物妹！小埋;zh-tw:我家有個魚乾妹;"
+      "conv": "zh-cn:干物妹！小埋;zh-hk:干物妹！小埋;zh-tw:我家有個魚乾妹;"
     },
     {
       "original": "カノジョも彼女",
-      "conv": "zh-cn:女友成双;zh-tw:女朋友 and 女朋友;zh-hk:女朋友 and 女朋友;"
+      "conv": "zh:女友成双;zh-cn:女友成堆;zh-sg:女朋友和女朋友;zh-my:女朋友 and 女朋友;zh-tw:女朋友 and 女朋友;zh-hk:女朋友 and 女朋友;"
     },
     {
       "original": "私の推しは悪役令嬢",
-      "conv": "zh-cn:我推是反派大小姐;zh-tw:我的推是壞人大小姐;"
+      "conv": "zh-cn:我推是反派大小姐;zh-tw:我的推是壞人大小姐。;"
     },
     {
       "original": "薬屋のひとりごと",
-      "conv": "zh-cn:药屋少女的呢喃;zh-tw:藥師少女的獨語;zh-hk:藥師少女的獨語;zh-mo:藥師少女的獨語;zh-sg:药屋少女的呢喃;"
-    },
-    {
-      "original": "スコット・ピルグリムがゆく",
-      "conv": "zh-cn:歪小子斯科特对抗全世界;zh-tw:歪小子史考特;"
+      "conv": "zh-cn:药屋少女的呢喃;zh-tw:藥師少女的獨語;zh-hk:藥師少女的獨語;zh-my:药师少女的独语;zh-sg:药屋少女的呢喃;"
     },
     {
       "original": "婚約破棄された令嬢を拾った俺が、イケナイことを教え込む",
@@ -1329,7 +2089,7 @@
     },
     {
       "original": "彼女、お借りします",
-      "conv": "zh-cn:租借女友;zh-tw:出租女友;"
+      "conv": "zh-cn:租借女友;zh-sg:出租女友;zh-tw:出租女友;"
     },
     {
       "original": "シャドウバース",
@@ -1341,7 +2101,7 @@
     },
     {
       "original": "デッドマウント・デスプレイ",
-      "conv": "zh-cn:亡骸游戏;zh-tw:屍體如山的死亡遊戲;"
+      "conv": "zh-cn:亡骸游戏;zh-my:尸体如山的死亡游戏;zh-sg:尸体如山的死亡游戏;zh-tw:屍體如山的死亡遊戲;"
     },
     {
       "original": "夜は猫といっしょ",
@@ -1352,16 +2112,8 @@
       "conv": "zh-cn:祭品公主与兽之王;zh-tw:獻祭公主與獸王;"
     },
     {
-      "original": "僕の心のヤバイやつ",
-      "conv": "zh-cn:我心里危险的东西;zh-tw:我內心的糟糕念頭;"
-    },
-    {
-      "original": "弱キャラ友崎くん 2nd STAGE",
-      "conv": "zh-cn:弱势角色友崎君 第二季;zh-tw:弱角友崎同學 2nd STAGE;"
-    },
-    {
       "original": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました",
-      "conv": "zh-cn:因为不是命中注定的伙伴而被逐出勇者队伍，从此到边境过上了悠闲的隐居生活;zh-tw:因為不是真正的夥伴而被逐出勇者隊伍，流落到邊境展開慢活人生;"
+      "conv": "zh-cn:我被逐出队伍后过上慢生活;zh-sg:因为不是命中注定的伙伴而被逐出勇者队伍，从此到边境过上了悠闲的隐居生活;zh-tw:因為不是真正的夥伴而被逐出勇者隊伍，流落到邊境展開慢活人生;"
     },
     {
       "original": "神は遊戯に飢えている。",
@@ -1377,35 +2129,51 @@
     },
     {
       "original": "疑似ハーレム",
-      "conv": "zh-cn:百变的七仓同学;zh-tw:模擬後宮體驗;"
+      "conv": "zh-cn:百变的七仓同学;zh-sg:模拟后宫体验;zh-tw:模擬後宮體驗;"
     },
     {
       "original": "ライジングインパクト シーズン",
-      "conv": "zh-cn:高尔夫物语;zh-hk:一擊沖天;zh-mo:一擊沖天;zh-tw:高爾夫物語;zh-sg:高尔夫物语;"
+      "conv": "zh-cn:高尔夫物语;zh-hk:一擊沖天;zh-tw:高爾夫物語;zh-sg:高尔夫物语;"
     },
     {
       "original": "異世界スーサイドスクワッド",
-      "conv": "zh-cn:X特遣队的奇幻之旅;zh-hk:異世界自殺特攻;zh-tw:異世界自殺突擊隊;"
+      "conv": "zh-cn:X特遣队的奇幻之旅;zh-hk:異世界自殺特攻;zh-tw:異世界自殺突擊隊;zh-sg:异世界自杀突击队;zh-my:异世界自杀小队;"
     },
     {
       "original": "悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。",
-      "conv": "zh:成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻;zh-cn:身为悲剧始作俑者的最强邪恶BOSS女王为民竭心尽力;zh-sg:身为悲剧始作俑者的最强邪恶BOSS女王为民竭心尽力;zh-my:身为悲剧始作俑者的最强邪恶BOSS女王为民竭心尽力;zh-hk:成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻;zh-mo:成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻;zh-tw:成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻;"
+      "conv": "zh-cn:身为悲剧始作俑者的最强邪恶BOSS女王为民竭心尽力;zh-hk:成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻;zh-tw:成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻;"
     },
     {
       "original": "没落予定の貴族だけど、暇だったから魔法を極めてみた",
-      "conv": "zh:雖然我是注定沒落的貴族 閒來無事只好來深究魔法;zh-cn:虽然我是注定没落的贵族 闲来无事只好来深究魔法;zh-sg:虽然我是注定没落的贵族 闲来无事只好来深究魔法;zh-my:虽然我是注定没落的贵族 闲来无事只好来深究魔法;zh-hk:雖然我是注定沒落的貴族 閒來無事只好來深究魔法;zh-mo:雖然我是注定沒落的貴族 閒來無事只好來深究魔法;zh-tw:雖然我是注定沒落的貴族 閒來無事只好來深究魔法;"
+      "conv": "zh-cn:虽然我是注定没落的贵族 闲来无事只好来深究魔法;zh-hk:雖然我是注定沒落的貴族 閒來無事只好來深究魔法;zh-tw:雖然我是注定沒落的貴族 閒來無事只好來深究魔法;"
+    },
+    {
+      "original": "没落予定の貴族",
+      "conv": "zh-cn:注定没落的贵族;zh-hk:注定沒落的貴族;zh-tw:注定沒落的貴族;"
     },
     {
       "original": "いずれ最強の錬金術師？",
-      "conv": "zh:終將成為最強鍊金術師？;zh-cn:终将成为最强炼金术师？;zh-sg:终将成为最强炼金术师？;zh-my:终将成为最强炼金术师？;zh-hk:終將成為最強鍊金術師？;zh-mo:終將成為最強鍊金術師？;zh-tw:終將成為最強鍊金術師？;"
+      "conv": "zh-cn:迟早是最强的炼金术师？;zh-hk:遲早是最強的鍊金術師？;zh-tw:遲早是最強的鍊金術師？;"
+    },
+    {
+      "original": "ロックは淑女の嗜みでして",
+      "conv": "zh-cn:摇滚乃是淑女的爱好;zh-sg:摇滚乐是淑女的嗜好;zh-my:摇滚乐是淑女的嗜好;zh-hk:搖滾樂是淑女的嗜好;zh-tw:搖滾樂是淑女的嗜好;"
     },
     {
       "original": "星降る王国のニナ",
-      "conv": "zh:星辰墜落之國的妮娜;zh-cn:辰星降临之国的妮娜;zh-sg:辰星降临之国的妮娜;zh-my:辰星降临之国的妮娜;zh-hk:星辰墜落之國的妮娜;zh-mo:星辰墜落之國的妮娜;zh-tw:星辰墜落之國的妮娜;"
+      "conv": "zh-cn:辰星降临之国的妮娜;zh-hk:星辰墜落之國的妮娜;zh-tw:星辰墜落之國的妮娜;"
     },
     {
       "original": "未実装のラスボス達が仲間になりました。",
-      "conv": "zh:未實裝的最後魔王們成為了伙伴;zh-cn:未实装的最终Boss们成为了伙伴;zh-sg:未实装的最终Boss们成为了伙伴;zh-my:未实装的最终Boss们成为了伙伴;zh-hk:未實裝的最後魔王們成為了伙伴;zh-mo:未實裝的最後魔王們成為了伙伴;zh-tw:未實裝的最後魔王們成為了伙伴;"
+      "conv": "zh-cn:未实装的最终Boss们成为了伙伴;zh-hk:未實裝的最後魔王們成為了伙伴;zh-tw:未實裝的最後魔王們成為了伙伴;"
+    },
+    {
+      "original": "魔法使いになれなかった女の子の話",
+      "conv": "zh-cn:没能成为魔法师的女孩子的故事;zh-sg:当不成魔法师的女孩;zh-my:当不成魔法师的女孩;zh-hk:當不成魔法師的女孩;zh-tw:當不成魔法師的女孩;"
+    },
+    {
+      "original": "新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。",
+      "conv": "zh-cn:大叔新人冒险者，被最强小队往死里锻炼后变无敌了;zh-sg:新人大叔冒险者，被最强队伍操到死成无敌;zh-my:新人大叔冒险者，被最强队伍操到死成无敌;zh-hk:新人大叔冒險者，被最強隊伍操到死成無敵;zh-tw:新人大叔冒險者，被最強隊伍操到死成無敵;"
     },
     {
       "original": "とんがり帽子のアトリエ",
@@ -1414,10 +2182,6 @@
     {
       "original": "コレクター・ユイ",
       "conv": "zh-tw:網路安琪兒;zh-hk:Cyber守護星;zh-cn:Cyber守护星;"
-    },
-    {
-      "original": "魔法使いになれなかった女の子の話",
-      "conv": "zh-cn:没能成为魔法师的女孩子的故事;zh-tw:當不成魔法師的女孩;"
     },
     {
       "original": "SK∞ エスケーエイト",
@@ -1429,55 +2193,727 @@
     },
     {
       "original": "やはり俺の青春ラブコメはまちがっている。",
-      "conv": "zh-hans:我的青春恋爱物语果然有问题;zh-hant:果然我的青春戀愛喜劇搞錯了。;"
+      "conv": "zh-cn:我的青春恋爱物语果然有问题;zh-my:果然我的青春恋爱喜剧搞错了;zh-hant:果然我的青春戀愛喜劇搞錯了。;"
     },
     {
-      "original": "ふたりはプリキュア Splash Star",
-      "conv": "zh-hans:光之美少女Splash Star;zh-cn:光之美少女Splash Star;zh-tw:光之美少女Splash Star;zh-hk:光之美少女Ⅲ"
+      "original": "クレイモア",
+      "conv": "zh-hans:大剑;zh-tw:獵魔戰記;zh-hk:大劍CLAYMORE;"
     },
     {
-      "original": "フレッシュプリキュア！",
-      "conv": "zh-hans:光之美少女：幸福精灵;zh-cn:FRESH光之美少女！;zh-tw:光之美少女：幸福精靈Fresh!;zh-hk:光之美少女：幸福精靈"
+      "original": "ゴブリンスレイヤー",
+      "conv": "zh-cn:哥布林猎人;zh-my:哥布林杀手;zh-tw:哥布林殺手;zh-hk:哥布林殺手;"
     },
     {
-      "original": "ハートキャッチプリキュア！",
-      "conv": "zh-hans:光之美少女：甜蜜天使;zh-cn:Heart Catch光之美少女！;zh-tw:光之美少女：甜蜜天使！;zh-hk:光之美少女：甜蜜天使"
+      "original": "ガールズバンドクライ",
+      "conv": "zh:Girls Band Cry;zh-tw:少女樂團 吶喊吧;zh-cn:少女乐队的呐喊;"
     },
     {
-      "original": "スイートプリキュア♪",
-      "conv": "zh-hans:光之美少女：美樂天使;zh-cn:Suite光之美少女♪;zh-hant:光之美少女：美樂天使;zh-tw:光之美少女：美樂天使;zh-hk:光之美少女：美樂天使"
+      "original": "ブスに花束を。",
+      "conv": "zh-tw:為丑女獻上花束;zh-cn:为丑女献上花束;"
     },
     {
-      "original": "スマイルプリキュア！",
-      "conv": "zh-cn:Smile光之美少女;zh-tw:Smile 光之美少女！;zh-hk:Smile 光之美少女"
+      "original": "海獣の子供",
+      "conv": "zh-cn:海兽的孩子;zh-hk:海獸之子;zh-tw:海獸之子;"
     },
     {
-      "original": "ドキドキ！プリキュア",
-      "conv": "zh-cn:心跳！光之美少女;zh-tw:DokiDoki! 光之美少女;zh-hk:心動！光之美少女"
+      "original": "チェンソーマン",
+      "conv": "zh-cn:电锯人;zh-my:链锯人;zh-hk:鏈鋸人;zh-tw:鏈鋸人;"
     },
     {
-      "original": "ハピネスチャージプリキュア！",
-      "conv": "zh-hans:幸福爆发！光之美少女;zh-cn:HappinessCharge光之美少女！;zh-hant:幸福爆發！光之美少女;zh-hk:幸福爆發！光之美少女"
+      "original": "劇場版『チェンソーマン レゼ篇』",
+      "conv": "zh-tw:劇場版『鏈鋸人 蕾潔篇』;zh-hk:鏈鋸人－劇場版：蕾潔篇;zh-cn:电锯人剧场版：蕾塞篇;zh-my:链锯人剧场版：蕾洁篇;zh-sg:链锯人－剧场版：雷塞篇;"
     },
     {
-      "original": "魔法つかいプリキュア！",
-      "conv": "zh-cn:魔法使光之美少女;zh-hant:魔法使光之美少女！;zh-hk:魔法使光之美少女！"
+      "original": "ピアノの森",
+      "conv": "zh-hk:琴絃森林;zh-tw:琴之森;zh-cn:钢琴之森;zh-sg:绿林琴声;"
     },
     {
-      "original": "キラキラ☆プリキュアアラモード",
-      "conv": "zh-hans:光之美少女：食尚甜心;zh-cn:光之美少女食尚甜心;zh-hant:光之美少女：食尚甜心;zh-tw:光之美少女：食尚甜心"
+      "original": "南国少年パプワくん",
+      "conv": "zh-hk:南國少年巴布華;zh-tw:南國少年奇小邪;zh-sg:南国少年奇小邪;"
     },
     {
-      "original": "ヒーリングっど♥プリキュア",
-      "conv": "zh-hans:元氣魔法光之美少女;zh-cn:Healin' Good ♡ 光之美少女;zh-tw:元氣魔法光之美少女;zh-hk:元氣魔法光之美少女"
+      "original": "レベルE",
+      "conv": "zh-tw:靈異E接觸;zh-hk:LEVEL E;zh-cn:LEVEL E;zh-sg:第三类接触;}--{-|第三类接触"
     },
     {
-      "original": "トロピカル～ジュ！プリキュア",
-      "conv": "zh-hans:热情闪耀！光之美少女;zh-cn:Tropical-Rouge！光之美少女;zh-hant:熱情閃耀！光之美少女;zh-tw:熱情閃耀！光之美少女"
+      "original": "め組の大吾",
+      "conv": "zh-sg:灭火群雄;zh-cn:消防员的故事;zh-hk:消防員的故事;zh-tw:火線先鋒大吾;"
     },
     {
-      "original": "デリシャスパーティ♡プリキュア",
-      "conv": "zh-hans:美味Party♡光之美少女;zh-hant:美味Party♡光之美少女;zh-cn:美味派对 光之美少女;zh-hk:美味PARTY♡光之美少女"
+      "original": "tactics",
+      "conv": "zh-hk:捉鬼天狗幫;zh-tw:抓鬼天狗幫;zh-cn:抓鬼天狗帮;zh-sg:降魔小天师;"
+    },
+    {
+      "original": "ドラゴンドライブ",
+      "conv": "zh-tw:DRAGON DRIVE 龍騎士;zh-hk:馭龍少年;zh-cn:驭龙少年;zh-sg:暴龙使者;"
+    },
+    {
+      "original": "六門天外モンコレナイト",
+      "conv": "zh-hk:六門天外;zh-sg:六门天外;zh-cn:宝贝骑士;zh-tw:寶貝騎士;"
+    },
+    {
+      "original": "王ドロボウJING",
+      "conv": "zh-cn:盗贼王;zh-sg:银河侠盗王;zh-tw:銀河俠盜;"
+    },
+    {
+      "original": "WILD HALF",
+      "conv": "zh-cn:WILD HALF;zh-hk:WILD HALF 神犬阿西;zh-tw:WILD HALF 沙羅沙;zh-sg:变身吧！沙罗沙;"
+    },
+    {
+      "original": "四畳半タイムマシンブルース",
+      "conv": "zh-cn:四叠半时光机布鲁斯;zh-sg:四叠半时光机蓝调;zh-hk:四疊半時光機藍調;zh-tw:四疊半時光機藍調;"
+    },
+    {
+      "original": "YAIBA",
+      "conv": "zh-cn:城市风云儿;zh-tw:城市風雲兒;zh-hk:YAIBA鐵刃;zh-sg:剑勇传说;"
+    },
+    {
+      "original": "剣勇伝説YAIBA",
+      "conv": "zh-cn:剑勇传说;zh-tw:九龍珠;zh-hk:反斗劍神;"
+    },
+    {
+      "original": "OH!MYコンブ",
+      "conv": "zh:OH!我的海带;zh-tw:美食小專家;zh-hk:伙頭仔昆布;zh-sg:伙头仔昆布;"
+    },
+    {
+      "original": "ロックマンエグゼ",
+      "conv": "zh-hk:網絡英雄洛克人;zh-tw:洛克人EXE;zh-sg:洛克人EXE;"
+    },
+    {
+      "original": "GS美神 極楽大作戦!!",
+      "conv": "zh-hk:驅魔大作戰;zh-tw:極樂大作戰;zh-sg:极乐大作战;"
+    },
+    {
+      "original": "あずまんが大王 THE ANIMATION",
+      "conv": "zh:笑園漫畫大王;zh-sg:校园漫画大王;zh-cn:阿滋漫画大王;zh-tw:辣妹高校生;"
+    },
+    {
+      "original": "ぷちぷり*ユーシィ",
+      "conv": "zh-cn:小公主优希;zh-hk:超齡細公主;zh-sg:魔法公主有希;zh-tw:小公主優希;"
+    },
+    {
+      "original": "新造人間キャシャーン",
+      "conv": "zh-tw:生化超人卡撒;zh-hk:再造人卡新;zh-cn:再造人卡辛;"
+    },
+    {
+      "original": "MÄR-メルヘヴン-",
+      "conv": "zh-sg:MÄR 魔界奇兵;zh-cn:MÄR 魔兵传奇;zh-tw:MÄR 魔兵傳奇;zh-hk:MÄR 魔法世界;"
+    },
+    {
+      "original": "若おかみは小学生！",
+      "conv": "zh-cn:温泉屋的小老板娘;zh-my:温泉屋小女将;zh-hk:溫泉屋小女將;zh-tw:溫泉屋小女將;"
+    },
+    {
+      "original": "ユーリ!!! on ICE",
+      "conv": "zh-hk:冰上溜星;zh-tw:Yuri!!! on ICE;zh-cn:冰上的尤里;zh-my:勇利!!! on ICE;"
+    },
+    {
+      "original": "バケモノの子",
+      "conv": "zh-cn:怪物的孩子;zh-tw:怪物的孩子;zh-hk:怪物之子;zh-my:怪物之子;"
+    },
+    {
+      "original": "ツバサ-RESERVoir CHRoNiCLE-",
+      "conv": "zh-cn:翼·年代记;zh-sg:TSUBASA翼;zh-tw:TSUBASA翼;zh-hk:翼之奇幻旅程;"
+    },
+    {
+      "original": "ももへの手紙",
+      "conv": "zh-tw:給小桃的信;zh-hk:小桃の奇幻手紙;"
+    },
+    {
+      "original": "銀色の髪のアギト",
+      "conv": "zh-cn:银色头发的阿基德;zh-my:银发之阿基德;zh-hk:銀髮阿基德;zh-tw:失序森林-銀髮阿基德;"
+    },
+    {
+      "original": "ムーの白鯨",
+      "conv": "zh-hk:巨鯨無比敵;zh-tw:大白鯨;zh-cn:大白鲸;"
+    },
+    {
+      "original": "ロミオの青い空",
+      "conv": "zh-tw:羅密歐的藍天;zh-hk:羅密歐的天空;zh-sg:罗密欧的蓝天;"
+    },
+    {
+      "original": "ホワッツマイケル?",
+      "conv": "zh:我為貓狂;zh-tw:貓咪也瘋狂;zh-hk:俏皮扮嘢貓;zh-cn:怪猫麦克;"
+    },
+    {
+      "original": "夜は短し歩けよ乙女",
+      "conv": "zh-hk:夜短夢長，少女前進吧！;zh-tw:春宵苦短，少女前進吧！;zh-cn:春宵苦短，少女前进吧！;"
+    },
+    {
+      "original": "サイレントメビウス",
+      "conv": "zh-cn:魔法阵都市;zh-tw:魔法陣都市;zh-hk:未來特警;"
+    },
+    {
+      "original": "空の青さを知る人よ",
+      "conv": "zh-cn:知晓天空之蓝的人啊;zh-my:知道天空有多蓝的人啊;zh-hant:知道天空有多藍的人啊;"
+    },
+    {
+      "original": "心が叫びたがってるんだ。",
+      "conv": "zh-cn:心灵想要大声呼喊;zh-tw:好想大聲說出心底的話。;zh-hk:好想大聲說出心底話;"
+    },
+    {
+      "original": "あの日見た花の名前を僕達はまだ知らない。",
+      "conv": "zh:我們仍未知道那天所看見的花的名字;zh-cn:我们仍未知道那天所看见的花的名字;zh-sg:我们仍未知道那天所看见的花名;zh-my:我们仍未知道那天所看见的花名;zh-tw:我們仍未知道那天所看見的花名;"
+    },
+    {
+      "original": "ふれる。",
+      "conv": "zh-tw:心之觸碰。;zh-sg:心之触碰。;zh-cn:触碰你;"
+    },
+    {
+      "original": "超くせになりそう",
+      "conv": "zh:超變身俏妞;zh-tw:城市小飛女;zh-sg:偶像小英雄;zh-hk:偶像小英雌;zh-cn:偶像小英雌;"
+    },
+    {
+      "original": "BUZZER BEATER",
+      "conv": "zh-hk:宇宙也入樽;zh-sg:BUZZER BEATER;zh-tw:零秒出手;zh-cn:零秒出手;"
+    },
+    {
+      "original": "デスノート",
+      "conv": "zh:死亡笔记本;zh-cn:死亡笔记;zh-tw:死亡筆記本;zh-hk:死亡筆記;zh-sg:死神笔记簿;"
+    },
+    {
+      "original": "恋は雨上がりのように",
+      "conv": "zh-cn:恋如雨止;zh-my:爱在雨过天晴时;zh-tw:愛在雨過天晴時;"
+    },
+    {
+      "original": "ヴィンランド・サガ",
+      "conv": "zh-tw:海盜戰記;zh-sg:海盗战记;zh-my:海盗战记;zh-cn:冰海战记;"
+    },
+    {
+      "original": "もやしもん",
+      "conv": "zh-cn:萌菌物语;zh-tw:農大菌物語;"
+    },
+    {
+      "original": "ハチミツとクローバー",
+      "conv": "zh-tw:蜂蜜幸運草;zh-hk:蜂蜜與四葉草;"
+    },
+    {
+      "original": "GIANT KILLING",
+      "conv": "zh-cn:逆转监督;zh-tw:逆轉監督;zh-hk:GIANT KILLING 踢狠勁!!;"
+    },
+    {
+      "original": "ジパング",
+      "conv": "zh-hk:漂流艦隊;zh-tw:次元艦隊;zh-cn:次元舰队;"
+    },
+    {
+      "original": "ドラゴンリーグ",
+      "conv": "zh-tw:龍鬥球聯盟;zh-sg:龙斗球联盟;zh-hk:侏羅紀足球傳說;zh-cn:侏罗纪足球传说;"
+    },
+    {
+      "original": "将国のアルタイル",
+      "conv": "zh-cn:将国之天鹰星;zh-hk:將國之鷲星;zh-tw:將國戡亂記;"
+    },
+    {
+      "original": "しましまとらのしまじろう",
+      "conv": "老虎仔樂園=>zh-tw:可愛巧虎島;嘻嘻哈哈虎次郎=>zh-tw:可愛巧虎島;"
+    },
+    {
+      "original": "秒速5センチメートル",
+      "conv": "zh-cn:秒速5厘米;zh-tw:秒速5公分;zh-hk:秒速5厘米;"
+    },
+    {
+      "original": "バガボンド",
+      "conv": "zh-hk:浪客行;zh-tw:浪人劍客;"
+    },
+    {
+      "original": "：シャングリラ・フロンティア〜クソゲーハンター、神ゲーに挑まんとす〜",
+      "conv": "zh-tw:香格里拉·開拓異境～糞作獵手挑戰神作～;zh-hk:香格里拉·開拓異境～糞作獵手挑戰神作～;zh-my:香格里拉·开拓异境～粪作猎手挑战神作～;zh-sg:香格里拉·开拓异境～粪作猎手挑战神作～;zh-cn:香格里拉边境～粪作猎人向神作游戏发起挑战～;"
+    },
+    {
+      "original": "宇宙のステルヴィア",
+      "conv": "zh-tw:宇宙學園;zh-cn:宇宙星路;"
+    },
+    {
+      "original": "スペース☆ダンディ",
+      "conv": "zh-tw:宇宙浪子;zh-cn:太空丹迪;"
+    },
+    {
+      "original": "鉄腕バーディー",
+      "conv": "zh:鐵腕巴迪;zh-tw:鐵腕女警;zh-hk:雙面特攻;"
+    },
+    {
+      "original": "甲鉄城のカバネリ",
+      "conv": "zh-tw:甲鐵城的卡巴內里;zh-cn:甲铁城的卡巴内瑞;"
+    },
+    {
+      "original": "夜明け告げるルーのうた",
+      "conv": "zh-hk:宣告黎明的人魚之歌;zh-tw:宣告黎明的露之歌;"
+    },
+    {
+      "original": "ラーゼフォン",
+      "conv": "zh-tw:翼神世音;zh-cn:翼神传说;"
+    },
+    {
+      "original": "中華一番！",
+      "conv": "zh-hant:中華一番！;zh-sg:中华一番！;zh-cn:中华小当家;"
+    },
+    {
+      "original": "サーバント×サービス",
+      "conv": "zh:SERVANT×SERVICE;zh-cn:跟班×服务;zh-tw:迷糊公務員 SERVANT×SERVICE;zh-hk:爆趣鄉公所;"
+    },
+    {
+      "original": "魔法使いTai!",
+      "conv": "zh-cn:魔法使Tai！;zh-hk:魔法使俱樂部;zh-tw:寶貝魔法使;"
+    },
+    {
+      "original": "スプリガン",
+      "conv": "zh-tw:轟天高校生;zh-hk:保衛者;zh-hans:轰天高校生"
+    },
+    {
+      "original": "プラネテス",
+      "conv": "zh-tw:惑星奇航;zh-hk:星空之旅;zh-cn:星空清理者;"
+    },
+    {
+      "original": "焼きたて!! ジャぱん",
+      "conv": "zh-cn:日式面包王;zh-hk:日式麵包王;zh-tw:烘焙王;zh-sg:烘焙王;"
+    },
+    {
+      "original": "バクマン。",
+      "conv": "zh-hans:爆漫王。;zh-tw:爆漫王。;zh-hk:爆漫。;"
+    },
+    {
+      "original": "BAMBOO BLADE",
+      "conv": "zh:BAMBOO BLADE;zh-hk:劍道甜心;zh-tw:竹劍少女;"
+    },
+    {
+      "original": "かみちゅ！",
+      "conv": "zh-cn:神是中学生;zh-tw:神樣中學生;"
+    },
+    {
+      "original": "この世界の片隅に",
+      "conv": "zh-hk:謝謝你，在世界角落中找到我;zh-sg:谢谢你，在世界角落中找到我;zh-tw:謝謝你，在世界的角落找到我;"
+    },
+    {
+      "original": "イノセンス",
+      "conv": "zh-cn:攻壳机动队2：无罪;zh-hk:攻殻機動隊2之無邪;zh-tw:攻殼機動隊2 INNOCENCE;"
+    },
+    {
+      "original": "怪盗ジョーカー",
+      "conv": "zh-tw:怪盜喬克;zh-hk:怪盜Joker;"
+    },
+    {
+      "original": "怪盗ジョーカー",
+      "conv": "zh-tw:怪盜喬克;zh-hk:怪盜小丑;"
+    },
+    {
+      "original": "BLACK LAGOON",
+      "conv": "zh-cn:黑礁;zh-hk:黑礁;zh-tw:企業傭兵;zh-sg:BLACK LAGOON;"
+    },
+    {
+      "original": "リトルバスターズ！",
+      "conv": "zh-hans:Little Busters!;zh-hant:校園剋星;"
+    },
+    {
+      "original": "ガンバ!Fly high",
+      "conv": "zh-hk:體操小子;zh-tw:奧運高手;zh-cn:奥运高手;"
+    },
+    {
+      "original": "プロメア",
+      "conv": "zh-hk:普羅米亞的火焰;zh-tw:普羅米亞;zh-cn:普罗米亚;"
+    },
+    {
+      "original": "アソボット戦記五九",
+      "conv": "zh:阿波特戰記五九;zh-tw:猴王五九;zh-hk:五九戰記;"
+    },
+    {
+      "original": "烈火の炎",
+      "conv": "zh-hk:烈火之燄;zh-sg:烈火之炎;zh-tw:烈火之炎;"
+    },
+    {
+      "original": "バウ",
+      "conv": "zh-hans:家有贱狗;zh-hk:家有傻犬;zh-tw:家有賤狗;"
+    },
+    {
+      "original": "スクールランブル",
+      "conv": "zh-hk:惡搞校園;zh-tw:校園迷糊大王;zh-cn:校园迷糊大王;zh-sg:喧嚣学院;"
+    },
+    {
+      "original": "からくりサーカス",
+      "conv": "zh-cn:魔偶马戏团;zh-hk:魔偶馬戲團;zh-tw:傀儡馬戲團;zh-sg:傀儡马戏团;zh-my:傀儡马戏团;"
+    },
+    {
+      "original": "花田少年史",
+      "conv": "zh-cn:花田少年史;zh-tw:花田少年史;zh-hk:通靈反斗星;"
+    },
+    {
+      "original": "満月をさがして",
+      "conv": "zh-hans:寻找满月;zh-tw:尋找滿月;zh-hk:星河滿月;"
+    },
+    {
+      "original": "3×3 EYES",
+      "conv": "zh-tw:三隻眼;zh-cn:三只眼;zh-hk:3×3 EYES;"
+    },
+    {
+      "original": "S・A",
+      "conv": "zh-hk:S·A Special·A;zh-tw:S·A特優生;zh-sg:S·A特优生;"
+    },
+    {
+      "original": "ゆるゆり",
+      "conv": "zh-hans:摇曳百合;zh-hant:輕鬆百合;"
+    },
+    {
+      "original": "テラフォーマーズ",
+      "conv": "zh-tw:Terra Formars ~火星任務~;zh-hk:火星異種;zh-cn:火星异种;zh-my:火星任务;}--{-|火星任务"
+    },
+    {
+      "original": "クロスゲーム",
+      "conv": "zh-hans:幸运四叶草;zh-hant:幸運四葉草;zh-tw:四葉遊戲;"
+    },
+    {
+      "original": "思い、思われ、ふり、ふられ",
+      "conv": "zh-hans:恋途未卜;zh-hant:交錯的想念;"
+    },
+    {
+      "original": "RAINBOW-二舎六房の七人-",
+      "conv": "zh-hans:少年犯之七人;zh-tw:少年犯罪檔案;zh-hk:少年犯之七人;"
+    },
+    {
+      "original": "古見さんは、コミュ症です。",
+      "conv": "zh-cn:古见同学有交流障碍症;zh-tw:古見同學是溝通魯蛇。;zh-hk:古見同學有社交障礙;"
+    },
+    {
+      "original": "エリア88",
+      "conv": "zh:戰區88;zh-cn:战区88;zh-tw:空戰88區;zh-hk:沙漠銀鷹;"
+    },
+    {
+      "original": "スケット・ダンス",
+      "conv": "zh-hk:古靈精探團;zh-tw:學園救援團;zh-my:学园救援团;"
+    },
+    {
+      "original": "ペンギンの問題",
+      "conv": "zh-cn:企鹅的问题;zh-tw:企鵝找麻煩;"
+    },
+    {
+      "original": "マギ",
+      "conv": "zh-cn:天方魔谭MAGI;zh-tw:MAGI魔奇少年;zh-hk:地上最強阿拉丁－魔奇;zh-sg:魔奇少年;"
+    },
+    {
+      "original": "マギ",
+      "conv": "zh-cn:魔笛MAGI;zh-tw:魔奇少年;zh-hk:魔奇少年;zh-sg:魔奇少年;"
+    },
+    {
+      "original": "わがまま☆フェアリー ミルモでポン!",
+      "conv": "zh-hans:魔法咪路咪路;zh-hk:魔法小米路;zh-tw:魔法咪路咪路;"
+    },
+    {
+      "original": "赤ちゃんと僕",
+      "conv": "zh-tw:天才寶貝;zh-hk:BB與我;"
+    },
+    {
+      "original": "YAWARA!",
+      "conv": "zh-hk:柔之道;zh-tw:柔道英雌;"
+    },
+    {
+      "original": "デュエル・マスターズ",
+      "conv": "zh-tw:決鬥王;zh-hk:決鬥大師;zh-cn:决斗大师;"
+    },
+    {
+      "original": "コロッケ!",
+      "conv": "zh-hk:貯金大冒險;zh-tw:可樂小子;zh-cn:可乐小子;"
+    },
+    {
+      "original": "サイダーのように言葉が湧き上がる",
+      "conv": "zh:言語如蘇打般湧現;zh-cn:言语如苏打般涌现;zh-tw:言語如汽水般湧現;zh-hk:言語如汽水般湧現;zh-sg:言语如汽水般涌现;"
+    },
+    {
+      "original": "がんばれ!キッカーズ",
+      "conv": "zh-hk:足球小旋風;zh-tw:加油！吉塔斯;zh-cn:加油！吉塔斯;"
+    },
+    {
+      "original": "きみと、波にのれたら",
+      "conv": "zh-cn:若能与你共乘海浪之上;zh-sg:乘浪之约;zh-tw:乘浪之約;zh-hk:浪尖上的約定;"
+    },
+    {
+      "original": "きらりん☆レボリューション",
+      "conv": "zh-tw:偶像宣言;zh-hk:星夢天使;"
+    },
+    {
+      "original": "きらりん☆レボリューション",
+      "conv": "zh:星梦天使;zh-tw:花漾明星KIRARIN;zh-hk:花漾明星;"
+    },
+    {
+      "original": "サムライチャンプルー",
+      "conv": "zh-tw:琉球武士瘋雲錄;zh-sg:琉球武士疯云录;zh-cn:混沌武士;"
+    },
+    {
+      "original": "ペンギン・ハイウェイ",
+      "conv": "zh-hk:企鵝夢幻街;zh-tw:企鵝公路;zh-cn:企鹅公路;"
+    },
+    {
+      "original": "マイマイ新子と千年の魔法",
+      "conv": "zh-tw:新子與千年魔法;zh-hk:魔法之少女;"
+    },
+    {
+      "original": "パルムの樹",
+      "conv": "zh-hk:機械人間;zh-tw:帕盧姆之樹;zh-cn:帕卢姆之树;"
+    },
+    {
+      "original": "ジョゼと虎と魚たち",
+      "conv": "zh-tw:喬瑟與虎與魚群動畫版;zh-my:乔瑟与虎与鱼群;zh-sg:乔瑟与虎与鱼群;zh-hk:猶瑟與虎魚們;zh-cn:乔西的虎与鱼;"
+    },
+    {
+      "original": "アニマル横町",
+      "conv": "zh-hans:动物横町;zh-tw:動物小町;zh-hk:動物橫町;"
+    },
+    {
+      "original": "ダンダダン",
+      "conv": "zh-tw:膽大黨;zh-hk:DAN DA DAN;zh-cn:胆大党;"
+    },
+    {
+      "original": "おじゃる丸",
+      "conv": "zh-hans:反斗小王子;zh-tw:丸少爺;zh-hk:反斗小王子;"
+    },
+    {
+      "original": "アップルシード",
+      "conv": "zh-hans:苹果核战记;zh-hk:蘋果核戰記;zh-tw:蘋果核戰;"
+    },
+    {
+      "original": "鉄人28号（太陽の使者 鉄人28号）",
+      "conv": "zh:太陽的使者 鐵人28號;zh-cn:太阳的使者 铁人28号;zh-tw:鐵超人;zh-hk:鐵人28號;}--{-|鐵人28號"
+    },
+    {
+      "original": "超電動ロボ 鉄人28号FX",
+      "conv": "zh:超電動機器人 鐵人28號FX;zh-hant:超電動機械人 鐵人28號FX;zh-hk:無敵大鐵人;"
+    },
+    {
+      "original": "ラペジウム",
+      "conv": "zh-tw:成為星星的少女;zh-cn:四重星;zh-sg:Trapezium;"
+    },
+    {
+      "original": "二ノ国",
+      "conv": "zh-hans:二之国;zh-hant:第二國度;"
+    },
+    {
+      "original": "雨を告げる漂流団地",
+      "conv": "zh-hk:漂流之家;zh-tw:漂流家園;zh-sg:漂流家园;"
+    },
+    {
+      "original": "映画大好きポンポさん",
+      "conv": "zh-hk:一日，在片場打雜的我，俾老細叫去做導演;zh-tw:酷愛電影的龐波小姐;zh-my:酷爱电影的庞波小姐;"
+    },
+    {
+      "original": "詩季織々",
+      "conv": "zh-tw:詩季織織;zh-hk:詩季織織;zh-cn:肆式青春;"
+    },
+    {
+      "original": "響け！ユーフォニアム",
+      "conv": "zh-hk:吹奏吧！管樂團;zh-tw:吹響吧！上低音號;zh-my:吹响吧！上低音号;"
+    },
+    {
+      "original": "魔女見習いをさがして",
+      "conv": "zh-cn:寻找见习魔女;zh-tw:尋找小魔女DoReMi;zh-hk:尋找小魔女DoReMi;zh-my:寻找小魔女DoReMi;"
+    },
+    {
+      "original": "ウィッチウォッチ",
+      "conv": "zh-cn:魔女与使魔;zh-hans:魔女守护者;zh-hant:WITCH WATCH 魔女守護者;"
+    },
+    {
+      "original": "竜とそばかすの姫",
+      "conv": "zh-cn:雀斑公主;zh-tw:龍與雀斑公主;zh-hk:龍與雀斑公主;zh-sg:龙与雀斑公主;"
+    },
+    {
+      "original": "100日間生きたワニ",
+      "conv": "zh-hans:活了100天的鳄鱼;zh-hk:鱷魚君最後的100天;zh-tw:活了100天的鱷魚;"
+    },
+    {
+      "original": "中二病でも恋がしたい!",
+      "conv": "zh-cn:中二病也要谈恋爱;zh-hk:中二病也想談戀愛;zh-tw:中二病也想談戀愛;"
+    },
+    {
+      "original": "スカイ・クロラ",
+      "conv": "zh-hans:空中杀手;zh-hk:青空之行者;zh-tw:空中殺手;"
+    },
+    {
+      "original": "Free!",
+      "conv": "zh-cn:Free!;zh-hk:熱血自由式;zh-tw:Free! 男子游泳部;zh-my:Free! 男子游泳部;"
+    },
+    {
+      "original": "Free!",
+      "conv": "zh-cn:Free!;zh-hk:熱血自由式;zh-tw:Free!;"
+    },
+    {
+      "original": "B: The Beginning",
+      "conv": "zh-hk:B：彼之初;zh-tw:B：彼之初;zh-sg:B：起点;zh-cn:B：起点;"
+    },
+    {
+      "original": "アグレッシブ烈子",
+      "conv": "zh-hant:衝吧烈子;zh-hans:职场小烈;"
+    },
+    {
+      "original": "スーパー・クルックス",
+      "conv": "zh-tw:超級小偷;zh-hk:神級大盜;zh-hans:超级骗子;"
+    },
+    {
+      "original": "あらしのよるに",
+      "conv": "zh-hans:翡翠森林狼与羊;zh-hk:狼羊物語;zh-tw:翡翠森林狼與羊;"
+    },
+    {
+      "original": "みなみけ",
+      "conv": "zh-cn:南家三姐妹;zh-tw:南家三姊妹;zh-hk:女生怪奇事件123;"
+    },
+    {
+      "original": "北斗の拳",
+      "conv": "zh-cn:北斗神拳;zh-hk:北斗之拳;zh-tw:北斗之拳;"
+    },
+    {
+      "original": "ブラム!",
+      "conv": "zh:特工次时代;zh-hk:特工次時代;zh-sg:特工次世代;zh-tw:探索者！;"
+    },
+    {
+      "original": "七人のナナ",
+      "conv": "zh-cn:七人之奈奈;zh-hk:七小花;zh-tw:七個娜娜;"
+    },
+    {
+      "original": "いばらの王 -King of Thorn-",
+      "conv": "zh-tw:古城荊棘王;zh-my:古城荆棘王;zh-hk:新世紀荊棘傳說;"
+    },
+    {
+      "original": "BNA ビー・エヌ・エー",
+      "conv": "zh:動物新世代 BNA;zh-cn:动物新世代 BNA;zh-sg:BNA 全新动物;zh-hk:BNA;zh-tw:BNA;}--{-|BNA"
+    },
+    {
+      "original": "ゴジラ S.P <シンギュラポイント>",
+      "conv": "zh-tw:哥吉拉 奇異點;zh-hk:哥斯拉 奇異點;zh-sg:哥斯拉 奇点;"
+    },
+    {
+      "original": "空挺ドラゴンズ",
+      "conv": "zh-tw:空挺Dragons;zh-hk:空挺Dragons;zh-sg:空挺龙;zh-cn:猎龙飞船;"
+    },
+    {
+      "original": "わたしの幸せな結婚",
+      "conv": "zh-hk:我的幸福婚約;zh-tw:我的幸福婚約;zh-sg:我的幸福婚约;zh-cn:我的幸福婚姻;"
+    },
+    {
+      "original": "キングダム",
+      "conv": "zh-cn:王者天下;zh-tw:王者天下;zh-hk:戰國英雄;"
+    },
+    {
+      "original": "SOUL EATER",
+      "conv": "zh-tw:噬魂者;zh-hk:噬魂師;"
+    },
+    {
+      "original": "SOUL EATER",
+      "conv": "zh:SOUL EATER;zh-tw:SOUL EATER 噬魂者;zh-hk:SOUL EATER 噬魂師;"
+    },
+    {
+      "original": "ぴたテン",
+      "conv": "zh-cn:迷糊天使;zh-hk:天使·愛·美紗;zh-tw:迷糊天使;"
+    },
+    {
+      "original": "しおんの王",
+      "conv": "zh-cn:紫音之王;zh-tw:棋靈少女;zh-hk:棋靈少女;"
+    },
+    {
+      "original": "魔人探偵脳噛ネウロ",
+      "conv": "zh-hans:魔人侦探食脑奈罗;zh-hk:魔人偵探腦嚙尼奧洛;zh-tw:魔人偵探腦嚙涅羅;"
+    },
+    {
+      "original": "学園アリス",
+      "conv": "zh-cn:爱丽丝学园;zh-hk:愛麗絲學園;zh-tw:學園愛麗絲;"
+    },
+    {
+      "original": "めだかボックス",
+      "conv": "zh-cn:最强会长黑神;zh-tw:最強學生會長;zh-hk:校園一姐黑神;"
+    },
+    {
+      "original": "カラフル",
+      "conv": "zh-hans:意外的幸运签;zh-hant:Colorful 多彩奇幻之旅;"
+    },
+    {
+      "original": "まじかる☆タルるートくん",
+      "conv": "zh-tw:神通小精靈;zh-hk:幻法小魔星;zh-cn:幻法小魔星;"
+    },
+    {
+      "original": "舞-HiME",
+      "conv": "zh-tw:舞-HiME;zh-hk:誘姬;"
+    },
+    {
+      "original": "ぼくたちは勉強ができない",
+      "conv": "zh-tw:我們真的學不來！;zh-cn:我们无法一起学习;"
+    },
+    {
+      "original": "花咲くいろは",
+      "conv": "zh-cn:花开伊吕波;zh-hk:花開物語;zh-tw:花開物語;"
+    },
+    {
+      "original": "ムヒョとロージーの魔法律相談事務所",
+      "conv": "zh-cn:魔法律事务所;zh-tw:魔法律事務所;zh-hk:魔法律顧問事務所;"
+    },
+    {
+      "original": "トリコ",
+      "conv": "zh-tw:美食獵人;zh-hk:為食獵人;zh-cn:美食的俘虏;"
+    },
+    {
+      "original": "ファントムブラッド",
+      "conv": "zh-tw:幻影血脈;zh-cn:幻影血脉;zh-hk:幻影之血;"
+    },
+    {
+      "original": "Mr.FULLSWING",
+      "conv": "zh-tw:野球長打王;zh-hk:Mr.FULLSWING強棒出擊;"
+    },
+    {
+      "original": "燃える!お兄さん",
+      "conv": "zh:燃燒吧！哥哥;zh-cn:森林好小子;zh-tw:森林好小子;zh-hk:深山太保;"
+    },
+    {
+      "original": "輪るピングドラム",
+      "conv": "zh-cn:回转企鹅罐;zh-tw:轉吧！企鵝罐;"
+    },
+    {
+      "original": "青の祓魔師",
+      "conv": "zh-cn:青之驱魔师;zh-tw:青之驅魔師;zh-hk:青之祓魔師;"
+    },
+    {
+      "original": "TIGER & BUNNY",
+      "conv": "zh-cn:老虎和兔子;zh-tw:TIGER & BUNNY;zh-hk:TIGER & BUNNY;"
+    },
+    {
+      "original": "おまえうまそうだな",
+      "conv": "zh-hans:你看起来好像很好吃;zh-hant:你看起來很好吃;"
+    },
+    {
+      "original": "STAND BY ME ドラえもん",
+      "conv": "zh-tw:STAND BY ME 哆啦A夢;zh-sg:STAND BY ME 多啦A梦;zh-cn:哆啦A梦：伴我同行;zh-hk:STAND BY ME：多啦A夢 3D;"
+    },
+    {
+      "original": "鹿楓堂よついろ日和",
+      "conv": "zh:鹿枫堂四色日和;zh-tw:和風喫茶鹿楓堂;zh-my:和风吃茶鹿枫堂;zh-cn:鹿枫堂;"
+    },
+    {
+      "original": "組長娘と世話係",
+      "conv": "zh-hk:組長女兒與保姆;zh-tw:組長女兒與保姆;zh-sg:组长女儿与保姆;zh-cn:组长女儿与照料专员;"
+    },
+    {
+      "original": "ちみも",
+      "conv": "zh-cn:团团奇米莫;zh-tw:奇米萌 CHIMIMO;"
+    },
+    {
+      "original": "ヲタクに恋は難しい",
+      "conv": "zh-tw:阿宅的戀愛太難;zh-my:阿宅的恋爱太难;zh-cn:阿宅的恋爱真难;zh-hans:宅男腐女恋爱真难;"
+    },
+    {
+      "original": "パーフェクトブルー",
+      "conv": "zh-tw:藍色恐懼;zh-hk:藍色恐懼;zh-cn:未麻的部屋;zh-sg:偶像·凶手·梦;"
+    },
+    {
+      "original": "さよならの朝に約束の花をかざろう",
+      "conv": "zh:於離別之朝束起約定之花;zh-hant:於離別早晨飾上約定之花;zh-cn:朝花夕誓——于离别之朝束起约定之花;zh-tw:道別的早晨就用約定之花點綴吧;zh-hk:道別的早晨就用約定之花點綴吧;zh-my:道别的早晨就用约定之花点缀吧;"
+    },
+    {
+      "original": "チョコレート・アンダーグラウンド",
+      "conv": "zh:巧克力地下社會;zh-hk:朱古力反擊戰;zh-cn:地下巧克力;"
+    },
+    {
+      "original": "地球が動いた日",
+      "conv": "zh:地球搖動的日子;zh-tw:地動之日;zh-hk:地球震動之日;zh-hant:地球變動之日;"
+    },
+    {
+      "original": "ヴイナス戦記",
+      "conv": "zh-hk:維納斯戰紀;zh-tw:金星戰記;"
+    },
+    {
+      "original": "ペリーヌ物語",
+      "conv": "zh:佩琳物語;zh-cn:佩琳物语;zh-sg:小英的故事;zh-tw:小英的故事;zh-hk:小英的故事;"
     }
   ]
 }

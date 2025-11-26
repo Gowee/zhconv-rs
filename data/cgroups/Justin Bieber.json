@@ -4,8 +4,16 @@
   "path": "Module:CGroup/Justin Bieber",
   "rules": [
     {
+      "original": "Bieber",
+      "conv": "zh-cn:比伯;zh-tw:比伯;zh-hk:Bieber;}--{-|Bieber"
+    },
+    {
+      "original": "Justin",
+      "conv": "zh:贾斯丁;zh-cn:贾斯汀;zh-sg:贾斯汀;zh-my:小贾斯汀;zh-tw:小賈斯汀;zh-hk:Justin;}--{-|Justin"
+    },
+    {
       "original": "Justin Bieber",
-      "conv": "zh-cn:贾斯汀·比伯 ;zh-hk:積斯汀·比伯 ;zh-tw:小賈斯汀; zh-my:小贾斯汀; zh-sg:贾斯汀·比伯;"
+      "conv": "zh:賈斯汀·比伯;zh-hans:贾斯丁·比伯;zh-cn:贾斯汀·比伯;zh-sg:贾斯汀·比伯;zh-my:小贾斯汀;zh-tw:小賈斯汀;zh-hk:Justin Bieber;}--{-|Justin Bieber"
     },
     {
       "original": "My World",

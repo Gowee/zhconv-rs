@@ -1,0 +1,291 @@
+{
+  "name": "Wednesday",
+  "description": "[[星期三 (电视剧)]]",
+  "path": "Module:CGroup/Wednesday",
+  "rules": [
+    {
+      "original": "Addams",
+      "conv": "zh-hans:亚当斯; zh-tw:阿達; zh-hk:愛登士;"
+    },
+    {
+      "original": "Agnes",
+      "conv": "zh-hans:艾格尼丝; zh-hant:艾涅絲;"
+    },
+    {
+      "original": "Arnold",
+      "conv": "zh-hans:阿诺德; zh-hant:阿諾;"
+    },
+    {
+      "original": "Arnold Hunt",
+      "conv": "zh-hans:阿诺德·亨特; zh-hant:阿諾·杭特;"
+    },
+    {
+      "original": "Ajax",
+      "conv": "zh-hans:阿贾克斯; zh-hant:阿賈;"
+    },
+    {
+      "original": "Barclay",
+      "conv": "zh-hans:巴克莱; zh-hant:巴克禮;"
+    },
+    {
+      "original": "Barry",
+      "conv": "zh-hans:巴里; zh-hant:巴瑞;"
+    },
+    {
+      "original": "Bianca",
+      "conv": "zh-hans:比安卡; zh-hant:碧安卡;"
+    },
+    {
+      "original": "Bradbury",
+      "conv": "zh-hans:布拉德伯里; zh-hant:布萊伯利;"
+    },
+    {
+      "original": "Dort",
+      "conv": "zh-hans:多特; zh-hant:朵特;"
+    },
+    {
+      "original": "DeMille",
+      "conv": "zh-hans:德米尔; zh-hant:狄米爾;"
+    },
+    {
+      "original": "Enid",
+      "conv": "zh-hans:伊妮德; zh-hant:依妮"
+    },
+    {
+      "original": "Fairburn",
+      "conv": "zh-hans:费尔本; zh-hant:費爾伯恩; "
+    },
+    {
+      "original": "Fester",
+      "conv": "zh-hans:费斯特; zh-hant:肥斯特;"
+    },
+    {
+      "original": "Françoise",
+      "conv": "zh-hans:弗朗索瓦丝; zh-hant:馮絲華;"
+    },
+    {
+      "original": "Frump",
+      "conv": "zh-hans:弗朗普; zh-hant:佛朗普;"
+    },
+    {
+      "original": "Gabrielle",
+      "conv": "zh-hans:嘉柏麗; zh-hant:加布丽尔;"
+    },
+    {
+      "original": "Galpin",
+      "conv": "zh-hans:加尔平; zh-hant:高平;"
+    },
+    {
+      "original": "Gideon",
+      "conv": "zh-hans:吉迪恩; zh-hant:基甸;"
+    },
+    {
+      "original": "Gomez",
+      "conv": "zh-hans:哥梅兹; zh-hant:高魔子;"
+    },
+    {
+      "original": "Goody",
+      "conv": "zh-hans:古迪; zh-hant:古蒂;"
+    },
+    {
+      "original": "Hester",
+      "conv": "zh-hans:赫丝特; zh-hant:海絲特;"
+    },
+    {
+      "original": "Kansas City Scalper",
+      "conv": "zh-hans:堪萨斯城剥皮手; zh-hant:堪薩斯剝皮魔;"
+    },
+    {
+      "original": "Kinbott",
+      "conv": "zh-hans:金博特; zh-hant:金柏;"
+    },
+    {
+      "original": "Larissa",
+      "conv": "zh-hans:拉丽莎; zh-hant:拉瑞莎;"
+    },
+    {
+      "original": "Laurel",
+      "conv": "zh-hans:劳蕾尔; zh-hant:羅芮;"
+    },
+    {
+      "original": "Lurch",
+      "conv": "zh-hans:路奇; zh-hant:老蛆;"
+    },
+    {
+      "original": "Marilyn",
+      "conv": "zh-hans:玛丽莲; zh-hant:瑪莉蓮;"
+    },
+    {
+      "original": "Morticia",
+      "conv": "zh-hans:魔蒂夏; zh-hant:魔帝女;"
+    },
+    {
+      "original": "Orloff",
+      "conv": "zh-hans:奥洛夫; zh-hant:歐洛夫;"
+    },
+    {
+      "original": "Ottinger",
+      "conv": "zh-hans:奥廷格; zh-hant:歐廷格;"
+    },
+    {
+      "original": "Petropolus",
+      "conv": "zh-hans:彼得罗波利斯; zh-hant:派卓波樂斯;"
+    },
+    {
+      "original": "Ron",
+      "conv": "zh-hans:罗恩; zh-hant:朗恩;"
+    },
+    {
+      "original": "Rotwood",
+      "conv": "zh-hans:罗特伍德; zh-hant:羅特伍;"
+    },
+    {
+      "original": "Pugsley",
+      "conv": "zh-hans:普格斯利; zh-hant:帕斯利;"
+    },
+    {
+      "original": "Sinclair",
+      "conv": "zh-hans:辛克莱尔; zh-hant:辛克萊;"
+    },
+    {
+      "original": "Sterling",
+      "conv": "zh-hans:斯特林; zh-hant:史德林;"
+    },
+    {
+      "original": "Stonehearst",
+      "conv": "zh-hans:斯通赫斯特; zh-hant:史東赫;"
+    },
+    {
+      "original": "Thing",
+      "conv": "zh-hans:小东西; zh-hant:小手;"
+    },
+    {
+      "original": "Thornhill",
+      "conv": "zh-hans:桑希尔; zh-hant:桑溪;"
+    },
+    {
+      "original": "Valerie",
+      "conv": "zh-hans:瓦莱丽; zh-hant:華樂麗;"
+    },
+    {
+      "original": "Weems",
+      "conv": "zh-hans:威姆斯; zh-hant:溫絲;"
+    },
+    {
+      "original": "Xavier",
+      "conv": "zh-hans:泽维尔; zh-hant:賽維爾;"
+    },
+    {
+      "original": "Jericho",
+      "conv": "zh-hans:杰里科; zh-hant:傑利可;"
+    },
+    {
+      "original": "Tiki Tails",
+      "conv": "zh-hans:美人鱼尾; zh-hant:熱帶魚尾;"
+    },
+    {
+      "original": "Nevermore Academy",
+      "conv": "zh-hans:奈弗莫尔学院; zh-hant:奈落學院;"
+    },
+    {
+      "original": "Nevermore",
+      "conv": "zh-hans:奈弗莫尔; zh-hant:奈落;"
+    },
+    {
+      "original": "Nightshades",
+      "conv": "zh-hans:夜影社; zh-hant:龍葵社;"
+    },
+    {
+      "original": "Willow Hill",
+      "conv": "zh-hans:柳山; zh-hant:柳丘;"
+    },
+    {
+      "original": "Normies",
+      "conv": "zh-hans:正常人; zh-hant:糯米;"
+    },
+    {
+      "original": "Wednesday's Child Is Full of Woe",
+      "conv": "zh-hans:星期三出生的孩子灾祸不断; zh-hant:星期三的孩子充滿悲傷;"
+    },
+    {
+      "original": "Woe Is the Loneliest Number",
+      "conv": "zh-hans:灾祸是最孤独的数字; zh-hant:悲傷最寂寞;"
+    },
+    {
+      "original": "Friend or Woe",
+      "conv": "zh-hans:是友是祸; zh-hant:亦敵亦友;"
+    },
+    {
+      "original": "Woe What a Night",
+      "conv": "zh-hans:多么糟糕的夜晚; zh-hant:噢，多精彩的夜晚;"
+    },
+    {
+      "original": "You Reap What You Woe",
+      "conv": "zh-hans:种祸得祸; zh-hant:自食其果;"
+    },
+    {
+      "original": "Quid Pro Woe",
+      "conv": "zh-hans:礼尚往来; zh-hant:交換條件;"
+    },
+    {
+      "original": "If You Don't Woe Me by Now",
+      "conv": "zh-hans:如果你现在不伤害我; zh-hant:如果你現在還不了解我;"
+    },
+    {
+      "original": "A Murder of Woes",
+      "conv": "zh-hans:祸患连连; zh-hant:烏鴉頭上過;"
+    },
+    {
+      "original": "Here We Woe Again",
+      "conv": "zh-hans:再次陷入险境; zh-hant:好戲又登場;"
+    },
+    {
+      "original": "The Devil You Woe",
+      "conv": "zh-hans:你熟知的恶魔; zh-hant:魔鬼就在眼前;"
+    },
+    {
+      "original": "Call of the Woe",
+      "conv": "zh-hans:暴力的呼唤; zh-hant:野性的呼喊;"
+    },
+    {
+      "original": "If These Woes Could Talk",
+      "conv": "zh-hans:如果不幸能够说话; zh-hant:秘密計劃;"
+    },
+    {
+      "original": "Hyde and Woe Seek",
+      "conv": "zh-hans:猫鼠游戏; zh-hant:捉迷藏;"
+    },
+    {
+      "original": "Woe Thyself",
+      "conv": "zh-hans:自我了解; zh-hant:知己知彼;"
+    },
+    {
+      "original": "Woe Me the Money",
+      "conv": "zh-hans:让我赚大钱; zh-hant:把錢掏出來;"
+    },
+    {
+      "original": "This Means Woe",
+      "conv": "zh-hans:这意味着战争; zh-hant:一觸即發;"
+    },
+    {
+      "original": "Ortega",
+      "conv": "zh-hans:奥尔特加; zh-hant:奧特嘉;"
+    },
+    {
+      "original": "Burton",
+      "conv": "zh-hans:伯顿; zh-hant:波頓; zh-hk:布頓;"
+    },
+    {
+      "original": "Riki",
+      "conv": "zh-hans:里奇; zh-hant:蕾奇;"
+    },
+    {
+      "original": "Catherine",
+      "conv": "zh-hans:凯瑟琳; zh-hans:凯瑟琳; zh-hant:凱薩琳; zh-hk:嘉芙蓮;"
+    },
+    {
+      "original": "Zeta-Jones",
+      "conv": "zh-hans:泽塔-琼斯; zh-hant:麗塔-瓊絲; zh-hk:薛達-鍾斯;"
+    }
+  ]
+}

@@ -2,5 +2,30 @@
   "name": "音樂劇",
   "description": "音樂劇",
   "path": "Module:CGroup/音樂劇",
-  "rules": []
+  "rules": [
+    {
+      "original": "The Phantom of the Opera",
+      "conv": "zh-cn:歌剧魅影;zh-hk:歌聲魅影;zh-tw:歌劇魅影;"
+    },
+    {
+      "original": "Les Misérables",
+      "conv": "zh-cn:悲惨世界;zh-tw:悲慘世界;zh-hk:孤星淚;"
+    },
+    {
+      "original": "The Sound of Music",
+      "conv": "zh-cn:音乐之声;zh-hk:仙樂飄飄處處聞;zh-tw:真善美;"
+    },
+    {
+      "original": "West Side Story",
+      "conv": "zh-cn:西区故事;zh-sg:西城故事;zh-tw:西城故事;zh-hk:夢斷城西;"
+    },
+    {
+      "original": "Notre-Dame de Paris",
+      "conv": "zh:巴黎聖母院 (音樂劇);zh-cn:巴黎圣母院 (音乐剧);zh-sg:钟楼怪人 (歌舞剧);zh-tw:鐘樓怪人（音樂劇）;"
+    },
+    {
+      "original": "Tony Award",
+      "conv": "zh:托尼獎;zh-hant:東尼獎;zh-my:东尼奖;zh-cn:托尼奖;"
+    }
+  ]
 }

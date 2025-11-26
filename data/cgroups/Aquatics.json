@@ -17,7 +17,7 @@
     },
     {
       "original": "World Aquatics",
-      "conv": "zh-hans:世界水上运动; zh-hant:世界水上運動總會;"
+      "conv": "zh-hans:世界游泳联合会; zh-tw:世界水上運動總會; zh-hk:世界游泳聯合會;"
     },
     {
       "original": "Swimming Federation",
@@ -33,19 +33,23 @@
     },
     {
       "original": "Backstroke",
-      "conv": "zh-cn:仰泳;zh-hant:仰式;zh-tw:仰式;zh-hk:背泳;zh-mo:背泳;"
+      "conv": "zh-cn:仰泳;zh-tw:仰式;zh-hk:背泳;zh-mo:背泳;"
     },
     {
       "original": "Butterfly",
-      "conv": "zh-cn:蝶泳;zh-hant:蝶式;zh-tw:蝶式;zh-hk:蝶泳;"
+      "conv": "zh-cn:蝶泳;zh-tw:蝶式;zh-hk:蝶泳;"
     },
     {
       "original": "Breaststroke",
-      "conv": "zh-cn:蛙泳;zh-hant:蛙式;zh-tw:蛙式;zh-hk:蛙泳;"
+      "conv": "zh-cn:蛙泳;zh-tw:蛙式;zh-hk:蛙泳;"
     },
     {
       "original": "Freestyle",
       "conv": "zh-cn:自由泳;zh-tw:自由式;zh-hk:自由泳;"
+    },
+    {
+      "original": "Freestyle",
+      "conv": "zh-cn:米自由泳;zh-tw:公尺自由式;zh-hk:米自由泳;"
     },
     {
       "original": "Freestyle",
@@ -57,7 +61,7 @@
     },
     {
       "original": "Medley",
-      "conv": "zh-cn:混合泳;zh-hant:混合式;zh-tw:混合式;zh-hk:混合泳;"
+      "conv": "zh-cn:混合泳;zh-tw:混合式;zh-hk:混合泳;"
     },
     {
       "original": "Meter",
@@ -184,7 +188,7 @@
       "conv": "zh-hant:花樣游泳; zh-cn:花样游泳; zh-sg:花样游泳;zh-my:韵律泳;zh-tw:水上芭蕾; zh-hk:韻律泳"
     },
     {
-      "original": "-{于}-乐乐",
+      "original": "于乐乐",
       "conv": "zh-cn:于乐乐; zh-tw:于樂樂; zh-tw:于樂樂; zh-hk:于樂樂;"
     },
     {

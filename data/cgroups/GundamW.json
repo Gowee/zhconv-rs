@@ -116,6 +116,10 @@
       "conv": "zh:GUNDAM;zh-hans:高达;zh-hk:高達;zh-tw:鋼彈;"
     },
     {
+      "original": "ガンダム",
+      "conv": "GUNDAM=>zh-sg:Gundam;高达=>zh-sg:Gundam;高達=>zh-sg:Gundam;鋼彈=>zh-sg:Gundam;"
+    },
+    {
       "original": "ピースミリオン",
       "conv": "zh-hans:万年和平号;zh-hk:卑斯米里安;zh-tw:萬年和平號;"
     },
@@ -141,15 +145,15 @@
     },
     {
       "original": "ガンダムエピオン",
-      "conv": "zh:次代GUNDAM; zh-cn:艾比安高达;zh-hk:高達艾比安;zh-tw:次代鋼彈;"
+      "conv": "zh:次代GUNDAM;zh-sg:Gundam艾比安;zh-cn:艾比安高达;zh-hk:高達艾比安;zh-tw:次代鋼彈;"
     },
     {
       "original": "ガンダムエピオン",
-      "conv": "zh:艾比安GUNDAM; zh-cn:艾比安高达;zh-hk:高達艾比安;zh-tw:次代鋼彈;"
+      "conv": "zh:艾比安GUNDAM;zh-sg:Gundam艾比安;zh-cn:艾比安高达;zh-hk:高達艾比安;zh-tw:次代鋼彈;"
     },
     {
       "original": "ガンダムエピオン",
-      "conv": "zh:GUNDAM艾比安; zh-cn:艾比安高达;zh-hk:高達艾比安;zh-tw:次代鋼彈;"
+      "conv": "zh:GUNDAM艾比安;zh-sg:Gundam艾比安;zh-cn:艾比安高达;zh-hk:高達艾比安;zh-tw:次代鋼彈;"
     },
     {
       "original": "エピオン",
@@ -209,7 +213,7 @@
     },
     {
       "original": "ガンダムW",
-      "conv": "zh:GUNDAM W;zh-hans:高达W;zh-hk:高達W;zh-tw:鋼彈W;"
+      "conv": "zh:GUNDAM W;zh-sg:Gundam W;zh-cn:高达W;zh-hk:高達W;zh-tw:鋼彈W;"
     },
     {
       "original": "サンクキングダム",

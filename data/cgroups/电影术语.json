@@ -8,28 +8,24 @@
       "conv": "zh:戛納;zh-cn:戛纳;zh-hk:康城;zh-tw:坎城;zh-sg:康城;zh-my:康城;"
     },
     {
-      "original": "Venice Film Festival",
+      "original": "Un certain regard",
+      "conv": "zh:一種關注;zh-cn:一种关注;zh-sg:一种注视;zh-tw:一種注目;zh-hk:某種觀點;}--{-|某種觀點"
+    },
+    {
+      "original": "Mostra del cinema di Venezia (Venice Film Festival)",
       "conv": "zh:威尼斯電影節;zh-cn:威尼斯电影节;zh-hant:威尼斯影展;zh-sg:威尼斯影展;zh-my:威尼斯影展;"
     },
     {
-      "original": "Venice International Film Festival",
-      "conv": "zh:威尼斯國際電影節;zh-cn:威尼斯国际电影节;zh-hant:威尼斯國際影展;zh-sg:威尼斯国际影展;zh-my:威尼斯国际影展;"
-    },
-    {
-      "original": "Berlin Film Festival",
+      "original": "Berlinale (Berlin Film Festival)",
       "conv": "zh:柏林電影節;zh-cn:柏林电影节;zh-hant:柏林影展;zh-sg:柏林影展;zh-my:柏林影展;"
-    },
-    {
-      "original": "Berlin International Film Festival",
-      "conv": "zh:柏林國際電影節;zh-cn:柏林国际电影节;zh-hant:柏林國際影展;zh-sg:柏林国际影展;zh-my:柏林国际影展;"
     },
     {
       "original": "Toronto Film Festival",
       "conv": "zh:多倫多電影節;zh-cn:多伦多电影节;zh-hant:多倫多影展;zh-my:多伦多影展;"
     },
     {
-      "original": "Toronto International Film Festival",
-      "conv": "zh:多倫多國際電影節;zh-cn:多伦多国际电影节;zh-hant:多倫多國際影展;zh-my:多伦多国际影展;"
+      "original": "Sundance",
+      "conv": "zh:聖丹斯;zh-cn:圣丹斯;zh-hk:辛丹斯;zh-tw:日舞;zh-sg:日舞;zh-my:日舞;}--{-|日舞"
     },
     {
       "original": "Sundance Film Festival",
@@ -37,22 +33,14 @@
     },
     {
       "original": "Locarno",
-      "conv": "zh:洛迦諾;zh-cn:洛迦诺;zh-sg:洛迦诺;zh-my:卢卡诺;zh-hant:盧卡諾;"
-    },
-    {
-      "original": "Locarno",
-      "conv": "zh:羅加諾;zh-cn:洛迦诺;zh-sg:洛迦诺;zh-my:卢卡诺;zh-hant:盧卡諾;"
+      "conv": "zh:洛迦諾;zh-cn:洛迦诺;zh-sg:洛迦诺;zh-my:卢卡诺;zh-tw:盧卡諾;zh-hk:盧卡諾;zh-hant:羅加諾;"
     },
     {
       "original": "Locarno Film Festival",
       "conv": "zh:羅加諾影展;zh-cn:洛迦诺电影节;zh-sg:洛迦诺影展;zh-my:卢卡诺影展;zh-hant:盧卡諾影展;"
     },
     {
-      "original": "Locarno International Film Festival",
-      "conv": "zh:洛迦諾國際電影節;zh-cn:洛迦诺国际电影节;zh-my:卢卡诺国际电影节;zh-hant:盧卡諾國際影展;"
-    },
-    {
-      "original": "Rotterdam Film Festival",
+      "original": "International Film Festival Rotterdam",
       "conv": "zh-hant:鹿特丹影展;zh-sg:鹿特丹影展;zh-my:鹿特丹影展;zh-cn:鹿特丹电影节;"
     },
     {
@@ -60,7 +48,27 @@
       "conv": "zh-my:西南偏南影展;zh-sg:西南偏南电影节;zh-cn:西南偏南电影节;zh-tw:西南偏南電影節;zh-mo:西南偏南電影節;zh-hk:SXSW電影節;"
     },
     {
-      "original": "Critics Choice Movie Award",
+      "original": "Karlovy Vary",
+      "conv": "zh:卡羅維發利;zh-tw:卡羅維瓦利;zh-cn:卡罗维发利;"
+    },
+    {
+      "original": "Křišťálový glóbus (Crystal Globe)",
+      "conv": "zh:水晶地球儀獎;zh-cn:水晶地球仪奖;zh-sg:水晶球奖;zh-tw:水晶球獎;"
+    },
+    {
+      "original": "Annecy",
+      "conv": "zh-hant:安錫;zh-my:安锡;zh-cn:安纳西;"
+    },
+    {
+      "original": "Festival International du Film d'Animation d'Annecy",
+      "conv": "zh-hant:安錫國際動畫影展;zh-my:安锡动画国际影展;zh-cn:安纳西国际动画电影节;"
+    },
+    {
+      "original": "Critics' Choice Award",
+      "conv": "zh-tw:評論家選擇獎;zh-hk:影評人選擇大獎;zh-sg:影评人票选奖;zh-cn:评论家选择奖;"
+    },
+    {
+      "original": "Critics' Choice Movie Award",
       "conv": "zh-tw:評論家選擇電影獎;zh-hk:影評人選擇大獎;zh-sg:影评人票选奖;zh-cn:评论家选择电影奖;"
     },
     {
@@ -68,16 +76,52 @@
       "conv": "zh:格萊美;zh-cn:格莱美;zh-tw:葛萊美;zh-hk:格林美;zh-mo:格林美;zh-sg:格莱美;zh-my:格林美;"
     },
     {
-      "original": "César Awards",
+      "original": "Grammy",
+      "conv": "zh:格萊美獎;zh-cn:格莱美奖;zh-tw:葛萊美獎;zh-hk:格林美獎;zh-mo:格林美獎;zh-sg:格莱美奖;zh-my:格林美奖;"
+    },
+    {
+      "original": "Online Film Critics",
+      "conv": "zh:在線影評人;zh-cn:在线影评人;zh-tw:線上影評人;"
+    },
+    {
+      "original": "People's Choice Awards",
+      "conv": "zh-cn:人民选择奖;zh-tw:全美民選獎;zh-hk:人民選擇獎;"
+    },
+    {
+      "original": "Teen Choice Awards",
+      "conv": "zh:青少年選擇獎;zh-tw:青少年票選獎;zh-hk:Teen材大獎;zh-cn:青少年选择奖;"
+    },
+    {
+      "original": "Nickelodeon Kids' Choice Awards",
+      "conv": "zh:尼克頻道兒童選擇獎;zh-cn:尼克频道儿童选择奖;zh-tw:兒童票選獎;"
+    },
+    {
+      "original": "Nickelodeon Kids' Choice Awards",
+      "conv": "zh:兒童選擇獎;zh-cn:儿童选择奖;zh-tw:兒童票選獎;"
+    },
+    {
+      "original": "Golden Raspberry Award",
+      "conv": "zh-cn:金酸莓;zh-tw:金酸莓;zh-hk:金草莓;"
+    },
+    {
+      "original": "Golden Raspberry Award",
+      "conv": "zh-cn:金酸莓奖;zh-tw:金酸莓獎;zh-hk:金草莓獎;"
+    },
+    {
+      "original": "César du cinéma (César Awards)",
       "conv": "zh-hans:凯撒奖;zh-tw:凱薩獎;zh-hk:凱撒獎;"
     },
     {
-      "original": "César Awards",
+      "original": "César du cinéma (César Awards)",
       "conv": "zh-hans:凯撒电影奖;zh-tw:凱薩電影獎;zh-hk:凱撒電影獎;"
     },
     {
+      "original": "Premios Goya (Goya Awards)",
+      "conv": "zh-tw:哥雅獎;zh-my:哥雅奖;zh-cn:戈雅奖;"
+    },
+    {
       "original": "Disney",
-      "conv": "zh:迪斯尼;zh-hant:迪士尼;zh-my:迪士尼;zh-sg:迪士尼;"
+      "conv": "迪斯尼=>zh-hk:迪士尼;迪斯尼=>zh-mo:迪士尼;"
     },
     {
       "original": "DreamWorks",
@@ -120,20 +164,36 @@
       "conv": "zh-hk:美高梅;zh-tw:米高梅;zh-hans:米高梅;"
     },
     {
-      "original": "Pixar Animation Studios",
-      "conv": "zh-hans:皮克斯动画工作室;zh-tw:皮克斯動畫工作室;zh-hk:彼思動畫製作室;"
+      "original": "Netflix",
+      "conv": "zh:奈飞;zh-hk:Netflix;zh-tw:Netflix;奈飞=>zh-my:Netflix;奈飞=>zh-sg:Netflix;"
+    },
+    {
+      "original": "Netflix",
+      "conv": "網飛=>zh-hk:Netflix;網飛=>zh-mo:Netflix;網飛=>zh-my:Netflix;網飛=>zh-sg:Netflix;网飞=>zh-hk:Netflix;网飞=>zh-mo:Netflix;网飞=>zh-my:Netflix;网飞=>zh-sg:Netflix;"
     },
     {
       "original": "Pixar",
       "conv": "zh-hans:皮克斯;zh-tw:皮克斯;zh-hk:彼思;"
     },
     {
+      "original": "Pixar Animation Studios",
+      "conv": "zh-hans:皮克斯动画工作室;zh-tw:皮克斯動畫工作室;zh-hk:彼思動畫製作室;"
+    },
+    {
       "original": "Touchstone",
       "conv": "zh-hans:试金石;zh-tw:正金石;zh-hk:試金石;"
     },
     {
+      "original": "United Artists",
+      "conv": "聯藝=>zh-hk:聯美;聯藝=>zh-mo:聯美;联艺=>zh-hk:聯美;联艺=>zh-mo:聯美;"
+    },
+    {
       "original": "United International Pictures",
       "conv": "zh-cn:联合国际影业;zh-tw:聯合國際影業;zh-sg:联邦影业;"
+    },
+    {
+      "original": "双喜電影",
+      "conv": "zh:雙喜電影;zh-hans:双喜电影;zh-hant:双喜電影;"
     },
     {
       "original": "3-D film",
@@ -145,11 +205,15 @@
     },
     {
       "original": "Academy of *",
-      "conv": "电影艺术与科学学院=>zh-tw:影藝學院;电影艺术与科学学院=>zh-hk:影藝學院;电影艺术与科学学院=>zh-mo:影藝學院;电影艺术与科学学院=>zh-sg:影艺学院;电影艺术与科学学院=>zh-my:影艺学院;"
+      "conv": "zh:电影艺术与科学学院;zh-tw:影藝學院;zh-hk:影藝學院;电影艺术与科学学院=>zh-sg:影艺学院;电影艺术与科学学院=>zh-my:影艺学院;"
     },
     {
       "original": "The Academy of Motion Picture Arts and Sciences",
       "conv": "zh:美國電影藝術與科學學院;zh-cn:美国电影艺术与科学学院;zh-hant:美國影藝學院;zh-sg:美国影艺学院;zh-my:美国影艺学院;"
+    },
+    {
+      "original": "agent / manager",
+      "conv": "经纪人=>zh-hk:經理人;经纪人=>zh-mo:經理人;經紀人=>zh-hk:經理人;經紀人=>zh-mo:經理人;經理人=>zh-cn:经纪人;"
     },
     {
       "original": "attendance rate",
@@ -158,6 +222,18 @@
     {
       "original": "audio track",
       "conv": "zh-hk:聲軌;zh-tw:音軌;zh-hans:音轨;"
+    },
+    {
+      "original": "Beverly",
+      "conv": "zh:比弗利;zh-hk:比華利;zh-tw:比佛利;比弗利=>zh-sg:比佛利;比弗利=>zh-my:比佛利;"
+    },
+    {
+      "original": "Beverly",
+      "conv": "zh:贝弗利;zh-hk:比華利;zh-tw:比佛利;贝弗利=>zh-sg:比佛利;贝弗利=>zh-my:比佛利;"
+    },
+    {
+      "original": "Beverly Hills",
+      "conv": "zh:比弗利山;zh-cn:贝弗利山;zh-hk:比華利山;zh-sg:比佛利山;zh-tw:比佛利山;"
     },
     {
       "original": "Bollywood",
@@ -174,6 +250,10 @@
     {
       "original": "digital remastering",
       "conv": "zh:數字修復;zh-tw:數位修復;zh-hk:數碼修復;zh-sg:数码修复;zh-my:数码修复;zh-cn:数字修复;"
+    },
+    {
+      "original": "digital remastering / remake",
+      "conv": "zh:數字重;zh-tw:數位重;zh-hk:數碼重;zh-sg:数码重;zh-my:数码重;zh-cn:数字重;"
     },
     {
       "original": "digital technology",
@@ -196,20 +276,8 @@
       "conv": "zh-hk:手提攝;zh-tw:手持攝;zh-hans:手持摄;"
     },
     {
-      "original": "laureate",
-      "conv": "zh:獲得者;zh-cn:获得者;zh-hant:得主;zh-sg:得主;zh-my:得主;"
-    },
-    {
       "original": "lensing ceremony",
       "conv": "zh:開機;zh-cn:开机;zh-hant:開鏡;zh-sg:开镜;zh-my:开镜;開機=>zh-tw:開機;开机=>zh-tw:開機;"
-    },
-    {
-      "original": "limited release",
-      "conv": "zh:有限發行;zh-cn:有限发行;zh-hans:限量发行;zh-hant:限量發行;"
-    },
-    {
-      "original": "limited release",
-      "conv": "zh:有限放映;zh-cn:有限上映;zh-hans:限量放映;zh-hant:限量放映;"
     },
     {
       "original": "narrative film",
@@ -225,11 +293,7 @@
     },
     {
       "original": "preview",
-      "conv": "zh:點映;zh-cn:点映;zh-tw:點映（口碑場）;zh-hk:點映（優先場）;"
-    },
-    {
-      "original": "preview",
-      "conv": "点映=>zh-my:预映;点映=>zh-sg:预映;點映=>zh-my:预映;點映=>zh-sg:预映;"
+      "conv": "zh:點映;zh-cn:点映;zh-my:预映;zh-sg:预映;zh-tw:點映〔口碑場〕;zh-hk:點映〔優先場〕;}--{-|预映"
     },
     {
       "original": "preview",
@@ -240,12 +304,20 @@
       "conv": "制片人=>zh-hk:監製;制片人=>zh-mo:監製;製片人=>zh-hk:監製;製片人=>zh-mo:監製;"
     },
     {
+      "original": "red carpet",
+      "conv": "zh-hk:紅地氈;zh-hans:红地毯;zh-tw:紅地毯;"
+    },
+    {
+      "original": "red carpet",
+      "conv": "zh-hk:紅地氈;zh-hans:红毯;zh-tw:紅毯;"
+    },
+    {
       "original": "series",
       "conv": "影集=>zh-hk:片集;影集=>zh-mo:片集;影集=>zh-cn:剧集;zh-hant:電影集團;zh-hans:电影集团;"
     },
     {
       "original": "shooting",
-      "conv": "摄像=>zh-tw:攝影;摄像=>zh-hk:攝影;摄像=>zh-mo:攝影;摄像机=>zh-hk:攝錄機;摄像机=>zh-mo:攝錄機;摄像头=>zh-tw:攝影機;摄像头=>zh-hk:攝影機;摄像头=>zh-mo:攝影機;"
+      "conv": "zh:摄像;zh-tw:攝影;zh-hk:攝影;摄像机=>zh-hk:攝錄機;摄像机=>zh-mo:攝錄機;摄像头=>zh-tw:攝影機;摄像头=>zh-hk:攝影機;摄像头=>zh-mo:攝影機;"
     },
     {
       "original": "surround sound",
@@ -280,8 +352,28 @@
       "conv": "zh-hk:闊銀幕;zh-tw:寬銀幕;zh-hans:宽银幕;"
     },
     {
+      "original": "wire(-flying)",
+      "conv": "zh-tw:吊威亞;zh-sg:吊威亚;zh-cn:吊威亚;zh-hant:吊威也;zh-my:吊威也;"
+    },
+    {
       "original": "wrap",
       "conv": "zh-tw:殺青;zh-hans:杀青;zh-hk:煞科;"
+    },
+    {
+      "original": null,
+      "conv": "男一号=>zh-hk:男一;男一号=>zh-mo:男一;男一號=>zh-hk:男一;男一號=>zh-mo:男一;"
+    },
+    {
+      "original": null,
+      "conv": "女一号=>zh-hk:女一;女一号=>zh-mo:女一;女一號=>zh-hk:女一;女一號=>zh-mo:女一;"
+    },
+    {
+      "original": null,
+      "conv": "男二号=>zh-hk:男二;男二号=>zh-mo:男二;男二號=>zh-hk:男二;男二號=>zh-mo:男二;"
+    },
+    {
+      "original": null,
+      "conv": "女二号=>zh-hk:女二;女二号=>zh-mo:女二;女二號=>zh-hk:女二;女二號=>zh-mo:女二;"
     }
   ]
 }

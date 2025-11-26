@@ -33,7 +33,7 @@
     },
     {
       "original": "Descartes",
-      "conv": "zh-cn:笛卡尔; zh-tw:笛卡兒; zh-hk:笛卡爾;"
+      "conv": "zh-cn:笛卡儿; zh-tw:笛卡兒; zh-hk:笛卡兒;"
     },
     {
       "original": "de Moivre",
@@ -80,7 +80,7 @@
       "conv": "zh-cn:柯尔莫哥洛夫; zh-tw: 科摩哥洛夫; 柯爾莫哥洛夫 =>zh-tw: 科摩哥洛夫;"
     },
     {
-      "original": "[[:en:Ronald Fisher| Ronald Fisher]]",
+      "original": "[[:en:Ronald Fisher|Ronald Fisher]]",
       "conv": "zh-cn:费希尔; zh-tw:費雪; 費希爾 =>zh-tw:費雪;"
     },
     {
@@ -380,6 +380,10 @@
       "conv": "zh-hans:复共轭; zh-hant:複共軛;"
     },
     {
+      "original": "complex conjugate",
+      "conv": "zh-hans:共轭复数; zh-hant:共軛複數; zh-hk:共軛複數;"
+    },
+    {
       "original": "complex differentiable",
       "conv": "zh-hans:复可微; zh-hant:複可微;"
     },
@@ -405,7 +409,7 @@
     },
     {
       "original": "complex plane",
-      "conv": "zh-cn:复平面; zh-tw:複數平面;"
+      "conv": "zh-cn:复平面; zh-tw:複數平面;zh-hk:複數平面;"
     },
     {
       "original": "complex projective",
@@ -413,7 +417,7 @@
     },
     {
       "original": "complex root",
-      "conv": "zh-hans:复根; zh-hant:複根;"
+      "conv": "zh-hans:复根; zh-hant:複根; zh-hk:複數根; zh-tw:複數根;"
     },
     {
       "original": "complex space",
@@ -426,6 +430,10 @@
     {
       "original": "complex valued",
       "conv": "zh-hans:复值; zh-hant:複值;"
+    },
+    {
+      "original": "coordinate",
+      "conv": "座標=>zh-cn:坐标; 座標=>zh-sg:坐标; 座標=>zh-my:坐标;"
     },
     {
       "original": "variable",
@@ -520,6 +528,10 @@
       "conv": "zh-cn:导集; zh-tw:導來集;"
     },
     {
+      "original": "design of experiments",
+      "conv": "zh-cn:试验设计; zh-tw:實驗設計;"
+    },
+    {
       "original": "disjoint union",
       "conv": "zh-cn:不交并; zh-tw:互斥聯集; zh-hk:互斥併集;"
     },
@@ -553,11 +565,15 @@
     },
     {
       "original": "coefficient",
-      "conv": "zh-cn:系数; zh-tw:係數; zh-hk:系數;"
+      "conv": "zh-cn:系数; zh-tw:係數; zh-hk:係數;zh-mo:係數;zh-hant:系數;"
     },
     {
       "original": "product-moment",
       "conv": "zh-cn:积矩; zh-tw:積動差; 積矩=>zh-tw:積動差; "
+    },
+    {
+      "original": "effect size",
+      "conv": "zh-cn:效应值;zh-tw:效果量; "
     },
     {
       "original": "exclusive or",
@@ -618,6 +634,10 @@
     {
       "original": "Galois field",
       "conv": "zh-cn:伽罗瓦域; zh-tw:伽羅瓦體;"
+    },
+    {
+      "original": "general form",
+      "conv": "zh-cn:一般形式; zh-hk:一般式; zh-tw:一般式;"
     },
     {
       "original": "global field",
@@ -892,6 +912,10 @@
       "conv": "zh-cn:变换; zh-tw:轉換;"
     },
     {
+      "original": "perimeter",
+      "conv": "zh-cn:周长; zh-hk:周界; zh-tw:周長"
+    },
+    {
       "original": "Pythagorean theorem",
       "conv": "zh-cn:勾股定理; zh-sg:毕氏定理; zh-tw:畢氏定理; zh-hk:畢氏定理;"
     },
@@ -1017,7 +1041,7 @@
     },
     {
       "original": "scalar",
-      "conv": "zh-cn:标量; zh-tw:純量;"
+      "conv": "zh-cn:标量; zh-hk:純量; zh-tw:純量;"
     },
     {
       "original": "scalar curvature",

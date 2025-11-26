@@ -149,7 +149,7 @@
     },
     {
       "original": "Oklahoma City",
-      "conv": "zh-cn:俄克拉何马城;zh-hant:奧克拉荷馬城;zh-tw:奧克拉荷馬城;zh-hk:奧克拉荷馬城;zh-mo:奧克拉荷馬城;"
+      "conv": "zh-cn:俄克拉荷马城;zh-hant:奧克拉荷馬市;zh-tw:奧克拉荷馬市;zh-hk:奧克拉荷馬城;zh-mo:奧克拉荷馬城;"
     },
     {
       "original": "Phoenix",
@@ -393,7 +393,7 @@
     },
     {
       "original": "Antetokounmpo",
-      "conv": "zh-cn:安特托昆博;zh-tw:安戴托昆波;zh-hk:艾迪杜高普;"
+      "conv": "zh-cn:阿德托昆博;zh-tw:安戴托昆波;zh-hk:艾迪杜高普;"
     },
     {
       "original": "Anthony",
@@ -709,7 +709,7 @@
     },
     {
       "original": "Collins",
-      "conv": "zh:柯林斯;zh-hans:科林斯;zh-hk:哥連斯;zh-tw:科林斯;"
+      "conv": "zh-cn:科林斯;zh-hk:哥連斯;zh-tw:柯林斯;"
     },
     {
       "original": "Collinsworth",
@@ -870,6 +870,14 @@
     {
       "original": "Dominique, Dominic",
       "conv": "zh-cn:多米尼克;zh-tw:多明尼克;zh-hk:杜明歷;"
+    },
+    {
+      "original": "Dončić",
+      "conv": "zh-cn:东契奇;zh-tw:唐西奇;zh-hk:當錫;"
+    },
+    {
+      "original": "Dončić",
+      "conv": "東契奇=>zh-cn:东契奇;東契奇=>zh-tw:唐西奇;東契奇=>zh-hk:當錫;"
     },
     {
       "original": "Donovan",
@@ -1140,6 +1148,10 @@
       "conv": "zh-cn:格兰特;zh-tw:格蘭特;zh-hk:格蘭;"
     },
     {
+      "original": "Graham",
+      "conv": "zh-cn:格雷厄姆;zh-tw:葛拉漢;"
+    },
+    {
       "original": "Green",
       "conv": "zh-hans:格林; zh-hk:格連; zh-tw:格林;"
     },
@@ -1276,6 +1288,10 @@
       "conv": "zh-cn:伊塞亚;zh-tw:以賽亞;zh-hk:艾西亞;"
     },
     {
+      "original": "Isaiah, Isiah",
+      "conv": "以賽亞=>zh-cn:以赛亚;艾西亞=>zh-cn:以赛亚;"
+    },
+    {
       "original": "Iverson",
       "conv": "zh-cn:艾弗森;zh-tw:艾佛森;zh-hk:艾佛遜;"
     },
@@ -1301,7 +1317,11 @@
     },
     {
       "original": "James",
-      "conv": "zh-cn:詹姆斯;zh-tw:詹姆士;zh-hk:占士;"
+      "conv": "zh-cn:詹姆斯;zh-tw:詹姆斯;zh-hk:占士;"
+    },
+    {
+      "original": "James",
+      "conv": "詹姆士=>zh-cn:詹姆斯;詹姆士=>zh-tw:詹姆斯;詹姆士=>zh-hk:占士;"
     },
     {
       "original": "Jamison",
@@ -1389,7 +1409,7 @@
     },
     {
       "original": "Johnson",
-      "conv": "zh-cn:约翰逊;zh-tw:詹森;zh-hk:莊臣;"
+      "conv": "zh-cn:约翰逊;zh-tw:強森;zh-hk:莊臣;"
     },
     {
       "original": "Jokić",
@@ -1558,6 +1578,10 @@
     {
       "original": "LeBron",
       "conv": "zh-cn:勒布朗;zh-tw:雷霸龍;zh-hk:勒邦;"
+    },
+    {
+      "original": "Ledo",
+      "conv": "zh-cn:莱多;zh-tw:利多;"
     },
     {
       "original": "Lenny",
@@ -1777,7 +1801,7 @@
     },
     {
       "original": "Nate",
-      "conv": "zh-cn:內特;zh-tw:奈特;zh-hk:拿特;"
+      "conv": "zh-cn:内特;zh-tw:奈特;zh-hk:拿特;"
     },
     {
       "original": "Nathaniel",
@@ -2006,6 +2030,10 @@
     {
       "original": "Reggie",
       "conv": "zh-cn:雷吉;zh-tw:瑞吉;zh-hk:列治;"
+    },
+    {
+      "original": "Reginald",
+      "conv": "zh-cn:雷金纳德;zh-tw:瑞金納德;"
     },
     {
       "original": "Richard",
@@ -2328,6 +2356,10 @@
       "conv": "zh-cn:特里斯坦;zh-tw:崔斯坦;zh-hk:卓斯坦;"
     },
     {
+      "original": "Tucker",
+      "conv": "zh-cn:塔克;zh-tw:塔克;zh-hk:德加;"
+    },
+    {
       "original": "Turkoglu",
       "conv": "zh-cn:特科格鲁;zh-tw:特克魯;zh-hk:圖告魯;"
     },
@@ -2497,7 +2529,7 @@
     },
     {
       "original": "Wiseman",
-      "conv": "zh-hans:怀斯曼;zh-hk:韋斯文;zh-tw:懷斯曼;"
+      "conv": "zh-hans:怀斯曼;zh-hk:韋斯文;zh-tw:威斯曼;"
     },
     {
       "original": "Worthy",

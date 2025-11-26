@@ -56,6 +56,10 @@
       "conv": "zh:楼梯;zh-cn:楼梯;zh-tw:階梯;zh-hk:樓梯;"
     },
     {
+      "original": "Lever",
+      "conv": "zh:拉杆;zh-cn:拉杆;zh-tw:控制桿;zh-hk:拉桿;"
+    },
+    {
       "original": "Note Block",
       "conv": "zh:音符盒;zh-cn:音符盒;zh-tw:音階盒;zh-hk:音符盒;"
     },
@@ -76,12 +80,56 @@
       "conv": "zh:幽匿;zh-cn:幽匿;zh-tw:伏聆;zh-hk:沉靈;"
     },
     {
+      "original": "Stripped",
+      "conv": "zh:去皮;zh-cn:去皮;zh-tw:剝皮;"
+    },
+    {
       "original": "Mangrove Wood",
-      "conv": "zh:红树木;zh-cn:红树木;zh-tw:紅樹林木;zh-hk:紅樹林木;"
+      "conv": "zh:红树木;zh-cn:红树木;zh-tw:紅樹林木;zh-hk:紅樹木;"
+    },
+    {
+      "original": "Mangrove Log",
+      "conv": "zh:红树原木;zh-cn:红树原木;zh-tw:紅樹林木原木;zh-hk:紅樹原木;"
+    },
+    {
+      "original": "Pumpkin Stem",
+      "conv": "zh:南瓜茎;zh-cn:南瓜茎;zh-tw:南瓜梗;zh-hk:南瓜莖;"
+    },
+    {
+      "original": "Melon Stem",
+      "conv": "zh:西瓜茎;zh-cn:西瓜茎;zh-tw:西瓜梗;zh-hk:西瓜莖;"
     },
     {
       "original": "Gravel",
       "conv": "zh:沙砾;zh-cn:沙砾;zh-tw:礫石;zh-hk:砂礫;"
+    },
+    {
+      "original": "Dried Ghast",
+      "conv": "zh:失水恶魂;zh-cn:失水恶魂;zh-tw:乾癟幽靈;zh-hk:脱水幽靈;"
+    },
+    {
+      "original": "Daylight Detector",
+      "conv": "zh:阳光探测器;zh-cn:阳光探测器;zh-tw:日光感測器;"
+    },
+    {
+      "original": "Chest",
+      "conv": "zh:箱子;zh-cn:箱子;zh-tw:儲物箱;"
+    },
+    {
+      "original": "Crafting Table",
+      "conv": "zh:工作台;zh-cn:工作台;zh-tw:工作台;"
+    },
+    {
+      "original": "Hanging Sign",
+      "conv": "zh:悬挂式告示牌;zh-cn:悬挂式告示牌;zh-tw:懸掛式告示牌;zh-hk:吊牌;"
+    },
+    {
+      "original": "Shelf",
+      "conv": "zh:展示架;zh-cn:展示架;zh-tw:展示架;zh-hk:置物架;"
+    },
+    {
+      "original": "Copper Golem Statue",
+      "conv": "zh:铜傀儡像;zh-cn:铜傀儡像;zh-tw:銅像;zh-hk:銅人雕像;"
     },
     {
       "original": "Donkey",
@@ -96,6 +144,14 @@
       "conv": "zh:豹猫;zh-cn:豹猫;zh-tw:山貓;zh-hk:豹貓;"
     },
     {
+      "original": "Axolotl",
+      "conv": "zh:美西螈;zh-cn:美西螈;zh-tw:六角恐龍;zh-hk:墨西哥蠑螈;"
+    },
+    {
+      "original": "Panda",
+      "conv": "zh:熊猫;zh-cn:熊猫;zh-tw:貓熊;zh-hk:熊貓;"
+    },
+    {
       "original": "Snow Golem",
       "conv": "zh:雪傀儡;zh-cn:雪傀儡;zh-tw:雪人;"
     },
@@ -104,8 +160,28 @@
       "conv": "zh:铁傀儡;zh-cn:铁傀儡;zh-tw:鐵魔像;zh-hk:鐵人;"
     },
     {
+      "original": "Copper Golem",
+      "conv": "zh:铜傀儡;zh-cn:铜傀儡;zh-tw:銅魔像;zh-hk:銅人;"
+    },
+    {
       "original": "Creeper",
-      "conv": "zh:苦力怕; zh-cn:苦力怕; zh-tw:苦力怕; zh-sg:苦力帕;"
+      "conv": "zh:苦力怕; zh-cn:苦力怕; zh-tw:苦力怕; zh-hk:Creeper;"
+    },
+    {
+      "original": "Charged Creeper",
+      "conv": "zh:闪电苦力怕; zh-cn:闪电苦力怕; zh-tw:高壓苦力怕; zh-hk:高壓Creeper;"
+    },
+    {
+      "original": "Zombie",
+      "conv": "zh:僵尸;zh-cn:僵尸;zh-tw:殭屍;zh-hk:喪屍;"
+    },
+    {
+      "original": "Stray",
+      "conv": "zh:流浪者; zh-cn:流浪者; zh-tw:流髑; zh-hk:流浪者;"
+    },
+    {
+      "original": "Skeleton",
+      "conv": "zh:骷髅; zh-cn:骷髅; zh-tw:骷髏; zh-hk:骷髏骨;"
     },
     {
       "original": "Phantom",
@@ -128,6 +204,10 @@
       "conv": "zh:末影人;zh-cn:末影人;zh-tw:終界使者;"
     },
     {
+      "original": "Endersent",
+      "conv": "zh:末影遣使;zh-cn:末影遣使;zh-tw:終界遣使;"
+    },
+    {
       "original": "Shulker",
       "conv": "zh:潜影贝;zh-cn:潜影贝;zh-tw:界伏蚌;"
     },
@@ -144,6 +224,38 @@
       "conv": "zh:监守者;zh-cn:监守者;zh-tw:伏守者;zh-hk:沉靈守衞;"
     },
     {
+      "original": "Endermite",
+      "conv": "zh:末影螨;zh-cn:末影螨;zh-tw:終界蟎;zh-hk:終界蟎;"
+    },
+    {
+      "original": "Bogged",
+      "conv": "zh:沼骸;zh-cn:沼骸;zh-tw:沼骸;zh-hk:沼骨;"
+    },
+    {
+      "original": "Parched",
+      "conv": "zh:焦骸;zh-cn:焦骸;zh-tw:乾骷;zh-hk:旱骨;"
+    },
+    {
+      "original": "Creaking",
+      "conv": "zh:嘎枝;zh-cn:嘎枝;zh-tw:嘎枝;zh-hk:異響樹妖;"
+    },
+    {
+      "original": "Ghast",
+      "conv": "zh:恶魂;zh-cn:恶魂;zh-tw:地獄幽靈;zh-hk:地獄幽靈;"
+    },
+    {
+      "original": "Happy Ghast",
+      "conv": "zh:快乐恶魂;zh-cn:快乐恶魂;zh-tw:快樂幽靈;zh-hk:快樂幽靈;"
+    },
+    {
+      "original": "Ghastling",
+      "conv": "zh:小恶魂;zh-cn:小恶魂;zh-tw:小幽靈;zh-hk:幽靈仔;"
+    },
+    {
+      "original": "Illager",
+      "conv": "zh:灾厄村民;zh-cn:灾厄村民;zh-tw:窳民;zh-hk:災厄村民;"
+    },
+    {
       "original": "Shovel",
       "conv": "zh:锹;zh-cn:锹;zh-tw:鏟;"
     },
@@ -152,8 +264,28 @@
       "conv": "zh:下界之星;zh-cn:下界之星;zh-tw:地獄之星;"
     },
     {
+      "original": "Ghast Tear",
+      "conv": "zh:恶魂之泪;zh-cn:恶魂之泪;zh-tw:幽靈之淚;"
+    },
+    {
+      "original": "Music Discs",
+      "conv": "zh:音乐唱片;zh-cn:音乐唱片;zh-tw:唱片;"
+    },
+    {
+      "original": "Book and Quill",
+      "conv": "zh:书与笔;zh-cn:书与笔;zh-tw:書和羽毛筆;zh-hk:書與羽毛筆;"
+    },
+    {
       "original": "Chorus",
       "conv": "zh:紫颂;zh-cn:紫颂;zh-tw:歌萊;"
+    },
+    {
+      "original": "Ender Pearl",
+      "conv": "zh:末影珍珠;zh-cn:末影珍珠;zh-tw:終界珍珠;"
+    },
+    {
+      "original": "Eye of Ender",
+      "conv": "zh:末影之眼;zh-cn:末影之眼;zh-tw:終界之眼;"
     },
     {
       "original": "Spawn Egg",
@@ -166,6 +298,30 @@
     {
       "original": "Netherite",
       "conv": "zh:下界合金;zh-cn:下界合金;zh-tw:獄髓;zh-hk:地獄合金;"
+    },
+    {
+      "original": "Boat with Chest",
+      "conv": "zh:运输船;zh-cn:运输船;zh-tw:儲物箱船;zh-hk:儲物箱船;"
+    },
+    {
+      "original": "Bamboo Raft with Chest",
+      "conv": "zh:运输竹筏;zh-cn:运输竹筏;zh-tw:儲物箱竹筏;zh-hk:儲物箱竹筏;"
+    },
+    {
+      "original": "Wolf Armor",
+      "conv": "zh:狼铠;zh-cn:狼铠;zh-tw:狼鎧;zh-hk:狼甲;"
+    },
+    {
+      "original": "Breeze Rod",
+      "conv": "zh:旋风棒;zh-cn:旋风棒;zh-tw:旋風桿;zh-hk:旋風棒;"
+    },
+    {
+      "original": "Bundle",
+      "conv": "zh:收纳袋;zh-cn:收纳袋;zh-tw:束口袋;zh-hk:收納袋;"
+    },
+    {
+      "original": "Harness",
+      "conv": "zh:挽具;zh-cn:挽具;zh-tw:帽鞍;zh-hk:輓具;"
     },
     {
       "original": "Mods",
@@ -189,15 +345,31 @@
     },
     {
       "original": "The End",
-      "conv": "zh-cn:末影;zh-tw:終界;"
-    },
-    {
-      "original": "The End",
       "conv": "zh:末路之地;zh-cn:末路之地;zh-tw:終末之界;"
     },
     {
       "original": "Deep Dark",
       "conv": "zh:深渊;zh-cn:深暗之域;zh-tw:深淵;zh-hk:深淵"
+    },
+    {
+      "original": "Mushroom Fields",
+      "conv": "zh:蘑菇岛;zh-cn:蘑菇岛;zh-tw:蘑菇地;zh-hk:蘑菇地"
+    },
+    {
+      "original": "Nether Wastes",
+      "conv": "zh:下界荒地;zh-cn:下界荒地;zh-tw:地獄荒原;zh-hk:地獄荒原"
+    },
+    {
+      "original": "Soul Sand Valley",
+      "conv": "zh:灵魂沙峡谷;zh-cn:灵魂沙峡谷;zh-tw:靈魂砂谷;zh-hk:靈魂砂谷"
+    },
+    {
+      "original": "Warped forest",
+      "conv": "zh:诡异森林;zh-cn:诡异森林;zh-tw:扭曲森林;zh-hk:迷離森林"
+    },
+    {
+      "original": "Crimson Forest",
+      "conv": "zh:绯红森林;zh-cn:绯红森林;zh-tw:緋紅森林;zh-hk:猩紅森林"
     },
     {
       "original": "Biome",
@@ -212,6 +384,10 @@
       "conv": "zh-cn:林地府邸;zh-tw:綠林府邸;zh-hk:林間別墅;"
     },
     {
+      "original": "Jungle Pyramid",
+      "conv": "zh-cn:丛林神庙;zh-tw:叢林遺跡;zh-hk:叢林神廟;"
+    },
+    {
       "original": "Difficulty",
       "conv": "zh-cn:难度;zh-tw:難易度;zh-hk:難度;"
     },
@@ -220,12 +396,28 @@
       "conv": "zh-cn:命令;zh-tw:指令;zh-hk:命令;"
     },
     {
+      "original": "Data Pack",
+      "conv": "zh:数据包;zh-cn:数据包;zh-tw:資料包;zh-hk:數據包;"
+    },
+    {
+      "original": "Locator Bar",
+      "conv": "zh:定位栏;zh-cn:定位栏;zh-tw:定位條;"
+    },
+    {
       "original": "Silk Touch",
       "conv": "zh:精准采集;zh-cn:精准采集;zh-tw:絲綢之觸;"
     },
     {
+      "original": "Markus Persson",
+      "conv": "zh:马库斯·佩尔松;zh-cn:马库斯·佩尔松;zh-tw:馬庫斯·佩爾松"
+    },
+    {
       "original": "Minecraft: Story Mode",
       "conv": "zh-tw:Minecraft：故事模式; zh-cn:我的世界：故事模式; zh-hk:Minecraft：故事模式;"
+    },
+    {
+      "original": "A Minecraft Movie",
+      "conv": "zh-tw:MINECRAFT麥塊電影; zh-cn:我的世界大电影; zh-hk:MINECRAFT：我的世界大電影; zh-sg:MINECRAFT：我的世界大电影;"
     },
     {
       "original": "Minecraft Dungeons",

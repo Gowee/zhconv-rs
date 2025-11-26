@@ -21,7 +21,7 @@
     },
     {
       "original": "Aaron",
-      "conv": "zh-hans:阿伦;zh-hk:艾朗;zh-tw:阿隆"
+      "conv": "zh-hans:阿伦;zh-hk:艾朗;zh-hant:阿倫"
     },
     {
       "original": "Adebayor",
@@ -73,11 +73,11 @@
     },
     {
       "original": "Clichy",
-      "conv": "zh:克利希;zh-cn:克利希;zh-hk:基治;zh-tw:克利希"
+      "conv": "zh-hans:克利希;zh-hk:基歷治;zh-hant:克利希"
     },
     {
       "original": "Gael Clichy",
-      "conv": "zh:盖尔·克利希;zh-cn:盖尔·克利希;zh-hk:基捷·基治;zh-tw:蓋爾·克利希"
+      "conv": "zh-hans:加埃尔·克利希;zh-hk:基爾·基歷治;zh-hant:加埃爾·克利希"
     },
     {
       "original": "Cole",
@@ -121,11 +121,11 @@
     },
     {
       "original": "Gallas",
-      "conv": "zh:加拉斯;zh-cn:加拉斯;zh-hk:加拿斯;zh-tw:加拉斯"
+      "conv": "zh-cn:加拉;zh-hk:加拿斯;zh-tw:加拉斯"
     },
     {
       "original": "Gilberto",
-      "conv": "zh:吉尔伯托;zh-cn:吉尔伯托;zh-hk:基拔圖;zh-tw:吉爾伯托"
+      "conv": "zh-hans:吉尔贝托;zh-hk:基拔圖;zh-hant:吉爾貝托"
     },
     {
       "original": "Giroud",
@@ -133,7 +133,7 @@
     },
     {
       "original": "Koscielny",
-      "conv": "zh-cn:科斯切尼;zh-hk:哥斯尼;zh-tw:科斯安尼"
+      "conv": "zh-hans:科希切尔内;zh-hk:哥斯尼;zh-tw:科斯切爾尼"
     },
     {
       "original": "Lacazette",
@@ -185,7 +185,7 @@
     },
     {
       "original": "Ramsey",
-      "conv": "zh-cn:拉姆塞;zh-hk:藍斯;zh-tw:拉姆塞"
+      "conv": "zh-hans:拉姆齐;zh-hk:藍斯;zh-tw:藍西"
     },
     {
       "original": "Rosický",
@@ -217,7 +217,7 @@
     },
     {
       "original": "Gilberto Silva",
-      "conv": "基拔圖施華=>zh-cn:吉尔伯托·席尔瓦;基拔圖施華=>zh-sg:吉尔伯托·席尔瓦;基拔圖施華=>zh-tw:吉爾伯托·席爾瓦;基拔圖施華=>zh-hk:基拔圖·施華;基拔圖施華=>zh-mo:基拔圖·施華;"
+      "conv": "基拔圖施華=>zh-cn:吉尔贝托·席尔瓦;基拔圖施華=>zh-sg:吉尔贝托·席尔瓦;基拔圖施華=>zh-tw:吉爾貝托·席爾瓦;基拔圖施華=>zh-hk:基拔圖·施華;基拔圖施華=>zh-mo:基拔圖·施華;"
     },
     {
       "original": "Silvestre",
@@ -269,7 +269,7 @@
     },
     {
       "original": "Vermaelen",
-      "conv": "zh:维尔瓦伦;zh-cn:维尔瓦伦;zh-hk:華美倫;"
+      "conv": "zh-hans:费尔马伦;zh-hk:華美倫;zh-tw:維爾馬倫"
     },
     {
       "original": "Vieira",
@@ -292,8 +292,12 @@
       "conv": "zh:维尔托德;zh-cn:维尔托德;zh-hk:韋托特;zh-tw:維爾托德"
     },
     {
-      "original": null,
-      "conv": "zh:海布里; zh-cn:海布里; zh-tw:海布里; zh-hk:高貝利"
+      "original": "Zinchenko",
+      "conv": "zh-hans:津琴科;zh-hk:辛真高;zh-tw:津琴科;"
+    },
+    {
+      "original": "Highbury",
+      "conv": "zh-cn:海布里; zh-tw:海布里; zh-hk:高貝利"
     }
   ]
 }
