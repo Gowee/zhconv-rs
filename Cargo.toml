@@ -97,8 +97,4 @@ zstd = { version = "0.13", optional = true }
 harness = false
 name = "zhconv_benchmark"
 
-[[bench]]
-harness = false
-name = "compare_benchmark"
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
