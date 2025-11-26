@@ -29,7 +29,7 @@ jobs:
       - name: Test
         run: |
           # comment out benchmark-only dependencies, which require opencc installation
-          sed -iE 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
+          sed -i -E 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
           cargo test ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
         run: cargo fmt -- --check
