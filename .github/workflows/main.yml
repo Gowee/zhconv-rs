@@ -31,6 +31,8 @@ jobs:
           # comment out benchmark-only dependencies, which require opencc installation
           sed -i -E 's/^(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/#\1/' Cargo.toml
           cargo test ${{ matrix.featureset.flag }} --verbose
+          # uncomment to make clippy happy
+          sed -i -E 's/^#(ferrous-opencc|opencc-rust|fast2s|opencc-fmmseg)/\1/' Cargo.toml
       - name: Check Format
         run: cargo fmt -- --check
       - name: Clippy
