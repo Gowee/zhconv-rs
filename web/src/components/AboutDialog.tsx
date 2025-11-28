@@ -90,11 +90,10 @@ export default function AboutDialog({
         </DialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom>
-            All the conversion rules including built-in conversion tables and
-            CGroups comes from Chinese Wikipedia (MediaWiki) and OpenCC, whose
-            communities build and maintain those rulesets. The accuracy of
-            conversions is pretty good. But it is still predictable to have some
-            wrong conversions.
+            All conversion rules including built-in conversion tables and
+            CGroups are sourced from MediaWiki and OpenCC and maintained by
+            their communities. The accuracy is generally acceptable while
+            limited, and erroneous conversions are to be expected.
           </Typography>
           <Typography gutterBottom>
             包括內建轉換表（

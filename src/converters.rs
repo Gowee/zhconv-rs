@@ -1,4 +1,4 @@
-//! Converters built from built-in [`tables`](crate::tables).
+//! Built-in converters built from [`tables`](crate::tables).
 //!
 //! These converters are lazily loaded from serialized automata built at build-time, and cached for
 //! later use.
