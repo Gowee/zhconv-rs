@@ -48,7 +48,7 @@ jobs:
       - name: Install cross
         run: |
           cargo install cross --git https://github.com/cross-rs/cross.git
-        if: matrix.cargo == cross
+        if: matrix.cargo == 'cross'
       - name: Build and strip
         shell: bash # on win, the default is ps
         run: |
