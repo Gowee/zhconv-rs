@@ -34,11 +34,11 @@ jobs:
           perl -0777 -i -pe 's/\[\[bench\]\]\s*\n\s*harness\s*=\s*false\s*\n\s*name\s*=\s*"compare_benchmark"\s*\n?//s' Cargo.toml
           echo "" > benches/compare_benchmark.rs
 
-          cargo test ${{ matrix.featureset.flag }} --verbose
+          cargo test --workspace ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
         run: cargo fmt -- --check
       - name: Clippy
-        run: cargo clippy --all-targets ${{ matrix.featureset.flag }} -- -D warnings
+        run: cargo clippy --workspace --all-targets ${{ matrix.featureset.flag }} -- -D warnings
 
   build-pyo3:
     needs: build-main

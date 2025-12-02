@@ -2,7 +2,7 @@
 
 ## Files
 
-- `zhConversion.php` is sourced from [MediaWiki](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/Data/ZhConversion.php) (licensed under GPLv2.0 or later) and `*.txt` are from OpenCC(https://github.com/BYVoid/OpenCC/tree/master/data) (licensed under Apache 2.0). They are used by `build.rs` to generate dictionaries and automata to be bundled.
+- `zhConversion.php` is sourced from [MediaWiki](https://github.com/wikimedia/mediawiki/blob/master/includes/languages/Data/ZhConversion.php) (licensed under GPLv2.0 or later) and `*.txt` are from [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data) (licensed under Apache 2.0). They are used by `build.rs` to generate dictionaries and automata to be bundled.
 
 - `update_basic.py` updates `zhConversion.php`, `*.txt` from upstream and relevant references in `build.rs` automatically.
 
