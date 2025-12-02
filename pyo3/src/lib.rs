@@ -24,7 +24,7 @@ use ::zhconv::{
 #[pyfunction]
 #[pyo3(signature = (text, target, wikitext=true, /))]
 fn zhconv(py: Python<'_>, text: &str, target: &str, wikitext: Option<bool>) -> PyResult<String> {
-    py.allow_threads(move || {
+    py.detach(move || {
         let target = Variant::from_str(target).map_err(|_e| {
             PyTypeError::new_err(format!("Unsupported target variant: {}", target))
         })?;
@@ -48,7 +48,7 @@ struct ZhConverter(Converter);
 impl ZhConverter {
     #[pyo3(signature = (text))]
     fn __call__(&self, py: Python<'_>, text: &str) -> String {
-        py.allow_threads(move || self.0.convert(text))
+        py.detach(move || self.0.convert(text))
     }
 }
 
@@ -61,7 +61,7 @@ impl ZhConverter {
 /// converter(text) -> result
 #[pyfunction]
 #[pyo3(signature = (base, pairs, /))]
-fn make_converter(py: Python<'_>, base: Option<&str>, pairs: PyObject) -> PyResult<ZhConverter> {
+fn make_converter(py: Python<'_>, base: Option<&str>, pairs: Py<PyAny>) -> PyResult<ZhConverter> {
     let base = base
         .and_then(|base| base.try_into().ok())
         .unwrap_or(Variant::Zh);
