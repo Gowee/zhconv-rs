@@ -1,4 +1,4 @@
-//! Built-in conversion tables sourced from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php)
+//! Built-in conversion tables sourced from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/Data/ZhConversion.php)
 //! (maintained by MediaWiki and Chinese Wikipedia) and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary).
 //!
 // // ! # Note
