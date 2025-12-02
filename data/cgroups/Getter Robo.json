@@ -1,6 +1,6 @@
 {
   "name": "Getter Robo",
-  "description": "-{zh-hans:盖塔机器人;zh-hk:三一萬能俠;zh-tw:蓋特機器人;}-系列",
+  "description": "-{zh-cn:盖塔机器人;zh-hk:三一萬能俠;zh-tw:蓋特機器人;zh-sg:盖特机器人;}-系列",
   "path": "Template:CGroup/Getter Robo",
   "rules": [
     {
@@ -29,23 +29,23 @@
     },
     {
       "original": "ゲッターロボ",
-      "conv": "zh-hans:盖塔机器人;zh-hk:三一萬能俠;zh-tw:蓋特機器人;"
+      "conv": "zh-cn:盖塔机器人;zh-hk:三一萬能俠;zh-tw:蓋特機器人;zh-sg:盖特机器人;"
     },
     {
       "original": "ゲッター",
-      "conv": "zh-hans:盖塔;zh-hk:三一;zh-tw:蓋特;"
+      "conv": "zh-cn:盖塔;zh-hk:三一;zh-tw:蓋特;zh-sg:盖特;"
     },
     {
       "original": "ゲッター1",
-      "conv": "zh-hans:盖塔1;zh-hk:三一1號;zh-tw:蓋特1;"
+      "conv": "zh-cn:盖塔1;zh-hk:三一1號;zh-tw:蓋特1;zh-sg:盖特1;"
     },
     {
       "original": "ゲッター2",
-      "conv": "zh-hans:盖塔2;zh-hk:三一2號;zh-tw:蓋特2;"
+      "conv": "zh-cn:盖塔2;zh-hk:三一2號;zh-tw:蓋特2;zh-sg:盖特2;"
     },
     {
       "original": "ゲッター3",
-      "conv": "zh-hans:盖塔3;zh-hk:三一3號;zh-tw:蓋特3;"
+      "conv": "zh-cn:盖塔3;zh-hk:三一3號;zh-tw:蓋特3;zh-sg:盖特3;"
     },
     {
       "original": "ステルバー",
@@ -61,11 +61,11 @@
     },
     {
       "original": "ゲッター線",
-      "conv": "zh-hans:盖塔線;zh-hk:三一射線;zh-tw:蓋特線;"
+      "conv": "zh-cn:盖塔线;zh-hk:三一射線;zh-tw:蓋特線;zh-sg:盖特线;"
     },
     {
       "original": "ゲッタービーム",
-      "conv": "zh-hans:盖塔光束;zh-hk:三一死光;zh-tw:蓋特光束;"
+      "conv": "zh-cn:盖塔光束;zh-hk:三一死光;zh-tw:蓋特光束;zh-sg:盖特光束;"
     },
     {
       "original": "ビーム",

@@ -1,0 +1,19 @@
+{
+  "name": "KingOfFighters",
+  "description": "游戏The King Of Fighters相关译名转换",
+  "path": "Module:CGroup/King Of Fighters",
+  "rules": [
+    {
+      "original": "Kyo Kusanagi",
+      "conv": "zh-cn:草薙京;zh-tw:草薙京;zh-hk:草薙京;"
+    },
+    {
+      "original": "Iori Yagami",
+      "conv": "zh-cn:八神庵;zh-tw:八神庵;zh-hk:八神庵;"
+    },
+    {
+      "original": "Leona Heidern",
+      "conv": "zh-cn:莉安娜·哈迪兰;;zh-tw:雷歐娜·海迪倫;;zh-hk:雷歐娜·海頓;"
+    }
+  ]
+}

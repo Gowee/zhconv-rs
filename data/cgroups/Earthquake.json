@@ -112,6 +112,10 @@
       "conv": "zh-cn:气象厅地震烈度表; zh-tw:氣象廳震度等級; zh-hk:氣象廳地震烈度表;"
     },
     {
+      "original": "seismic precautionary intensity",
+      "conv": "zh-hans:抗震设防烈度; zh-tw:抗震度; zh-hk:抗震設防烈度;"
+    },
+    {
       "original": null,
       "conv": "zh-cn:震中; zh-my:震央; zh-tw:震央; zh-hk:震央;"
     },
@@ -186,6 +190,14 @@
     {
       "original": "teletsunami",
       "conv": "zh-cn:远距离海啸; zh-tw:遠海海嘯;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:山体滑坡;zh-hk:山泥傾瀉;zh-tw:山崩;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:泥石流;zh-tw:土石流;zh-hk:泥石流;"
     },
     {
       "original": null,

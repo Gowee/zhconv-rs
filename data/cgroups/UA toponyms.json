@@ -37,7 +37,7 @@
     },
     {
       "original": "Donetsk",
-      "conv": "zh-cn:顿涅茨克; zh-hk:頓涅茨克; zh-tw:頓內茨克;"
+      "conv": "zh:顿内茨克; zh-cn:顿涅茨克; zh-hk:頓涅茨克; zh-tw:頓內茨克;"
     },
     {
       "original": "Donetsk",
@@ -136,6 +136,10 @@
       "conv": "聶伯城=>zh-cn:第聂伯罗; 聶伯城=>zh-hk:第聶伯羅; 聶伯城=>zh-tw:聶伯城;"
     },
     {
+      "original": "Dnipro",
+      "conv": "聂伯城=>zh-cn:第聂伯罗; 聂伯城=>zh-hk:第聶伯羅; 聂伯城=>zh-tw:聶伯城;"
+    },
+    {
       "original": "Simferopol",
       "conv": "zh-cn:辛菲罗波尔; zh-hk:辛菲羅波爾; zh-tw:辛費羅波;"
     },
@@ -196,6 +200,10 @@
       "conv": "zh-cn:阿赫特尔卡; zh-hk:阿赫特爾卡; zh-tw:阿克提卡;"
     },
     {
+      "original": "Chasiv Yar",
+      "conv": "zh-hk:查西夫雅爾; zh-tw:恰西夫亞爾; zh-cn:恰西夫亚尔;"
+    },
+    {
       "original": "Chornobyl",
       "conv": "zh-cn:切尔诺贝利; zh-hk:切爾諾貝爾; zh-tw:車諾比;"
     },
@@ -210,6 +218,10 @@
     {
       "original": "Dnipro River",
       "conv": "zh-cn:第聂伯河; zh-hk:第聶伯河; zh-tw:聶伯河;"
+    },
+    {
+      "original": "Dnipro (Kyiv Metro)",
+      "conv": "zh-cn:第聂伯站;zh-hk:第聶伯站;zh-tw:聶伯站"
     },
     {
       "original": "Dniprovskyi District",

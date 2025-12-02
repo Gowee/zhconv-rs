@@ -296,6 +296,18 @@
       "conv": "名字空間=>zh-cn:命名空间; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間; 名字空間=>zh-tw:命名空間; 名字空間=>zh-sg:命名空间; 名字空間=>zh-my:命名空间;"
     },
     {
+      "original": "noticeboard",
+      "conv": "zh-hans:布告板; zh-hant:布告板;"
+    },
+    {
+      "original": "noticeboard",
+      "conv": "布告板=>zh-hk:佈告板; 布告板=>zh-mo:佈告板"
+    },
+    {
+      "original": "noticeboard",
+      "conv": "佈告板=>zh-tw:布告板; 佈告板=>zh-hans:布告板"
+    },
+    {
       "original": "parser functions",
       "conv": "zh-cn:解析器函数; zh-hk:解析器函數; zh-tw:解析器函數;"
     },
@@ -494,6 +506,10 @@
     {
       "original": "link (here)",
       "conv": "zh-cn:链入; zh-tw:連入;"
+    },
+    {
+      "original": "program",
+      "conv": "zh-cn:程序;zh-hk:程序;zh-tw:程式;"
     },
     {
       "original": "syntax highlighting",

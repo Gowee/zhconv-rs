@@ -1,28 +1,28 @@
-//! This crate provides a ZhConverter that converts Chinese variants among each other. The
-//! implementation is based on the [Aho-Corasick](https://docs.rs/daachorse) algorithm
-//! with the leftmost-longest matching strategy and linear time complexity with respect to the
-//! length of input text and conversion rules. It ships with a bunch of conversion tables,
-//! extracted from [zhConversion.php](https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php)
-//! (maintained by MediaWiki and Chinese Wikipedia) and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data/dictionary).
+//! zhconv-rs converts Chinese between Traditional, Simplified and regional variants, using
+//! rulesets sourced from [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/Languages/Data/ZhConversion.php)
+//! by MediaWiki and Chinese Wikipedia and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data),
+//! which are merged, flattened and then precompiled into [Aho-Corasick](https://en.wikipedia.org/wiki/Aho–Corasick_algorithm)
+//! automata by [daachorse](https://github.com/daac-tools/daachorse) for single-pass, linear-time
+//! conversions.
 //!
-//! While built-in rulesets work well for general case, the converter is never meant to be 100%
-//! accurate, especially for professional text. On Chinese Wikipedia, it is pretty common for
-//! editors to apply additional [conversion groups](https://zh.wikipedia.org/wiki/Module:CGroup) and
-//! [manual conversion rules](https://zh.wikipedia.org/wiki/Help:%E9%AB%98%E7%BA%A7%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2%E8%AF%AD%E6%B3%95)
-//! on an article base. The converter optionally supports the conversion rule syntax used in
-//! MediaWiki in the form `-{FOO BAR}-` and loading external rules defined line by line, which are
-//! typically extracted and pre-processed from a [CGroup](https://zh.wikipedia.org/wiki/Category:%E5%85%AC%E5%85%B1%E8%BD%AC%E6%8D%A2%E7%BB%84%E6%A8%A1%E5%9D%97)
-//! on a specific topic.
-//! For simplicity, it is certainly also possible to add custom conversions by `(FROM, TO)` pairs.
+//! The non-default feature `opencc` enables additional OpenCC dictionaries. Unlike other
+//! implementations, dictionaries cannot be chosen (enabled or disabled partly) at runtime since
+//! they are merged and precompiled into separate automata for each target variant.  
 //!
-//! # Usage
-//! This crate is [on crates.io](https://crates.io/crates/zhconv).
+//! As with MediaWiki and OpenCC, the accuracy is generally acceptable while limited.
+//! The converter optionally supports additional conversion rules in MediaWiki syntax (refer to [conversion groups](https://zh.wikipedia.org/wiki/Module:CGroup)
+//! and [manual conversion rules](https://zh.wikipedia.org/wiki/Help:高级字词转换语法) on Chinese
+//! Wikipedia), external rules defined line by line, and custom conversions defined by `(FROM, TO)`
+//! pairs. Prebuilding converter with custom rules or dictionaries is not yet supported.
+//!
+//! ## Usage
+//! The crate is [on crates.io](https://crates.io/crates/zhconv).
 //! ```toml
 //! [dependencies]
-//! zhconv = "?"
+//! zhconv = { version = "?", features = ["opencc"] } # enable additional OpenCC dictionaries
 //! ```
 //!
-//! # Example
+//! ## Example
 //!
 //! Basic conversion:
 //! ```
@@ -84,16 +84,17 @@ pub use self::variant::Variant;
 
 /// Helper function for general conversion using built-in converters.
 ///
-/// For fine-grained control and custom conversion rules, there is [`ZhConverter`].
+/// Built-in converters are pre-built, lazily loaded and cached for later use. For fine-grained
+/// control and custom conversion rules, check [`ZhConverter`] and [`ZhConverterBuilder`].
 #[inline(always)]
 pub fn zhconv(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert(text)
 }
 
-/// Helper function for general conversion, activating conversion rules in MediaWiki syntax.
+/// Helper function for general conversion, activating wikitext support.
 ///
-/// For general cases, [`zhconv`](#method.zhconv) should work well. Both of them share the same
-/// built-in conversion tables.
+/// It function share the same built-in conversion converters as [`zhconv`](#method.zhconv), but
+/// additionally supports conversion rules in MediaWiki syntax.
 ///
 /// # Note
 /// The implementation scans the input text at first to extract possible global rules like

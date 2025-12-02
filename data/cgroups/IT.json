@@ -1,6 +1,6 @@
 {
   "name": "IT",
-  "description": "-{zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;}-",
+  "description": "-{zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯工艺; zh-tw:資訊科技;}-",
   "path": "Module:CGroup/IT",
   "rules": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "original": "average bitrate",
-      "conv": "zh-cn:平均码率; zh-tw:平均位元速率;"
+      "conv": "zh-cn:平均码率; zh-tw:平均位元率;"
     },
     {
       "original": "audio",
@@ -337,19 +337,15 @@
     },
     {
       "original": "binary linked list",
-      "conv": "zh-cn:二叉链表; zh-tw:二元連結串列;"
+      "conv": "zh-cn:二叉链表; zh-tw:二元連結串列; 二叉鏈表=>zh-tw:二元連結串列; 二叉鏈表=>zh-hk:二元連結串列; 二叉鏈表=>zh-mo:二元連結串列;"
     },
     {
-      "original": "binary linked list",
-      "conv": "二叉鏈表=>zh-tw:二元連結串列; 二叉鏈表=>zh-hk:二元連結串列; 二叉鏈表=>zh-mo:二元連結串列;"
-    },
-    {
-      "original": "binary search tree",
-      "conv": "zh-cn:二叉搜索树; zh-tw:二元搜尋樹; zh-hk:二叉搜尋樹;"
+      "original": "binary search",
+      "conv": "zh-cn:二分查找; zh-tw:二分搜尋; zh-hk:二分檢索; 二分搜索=>zh-tw:二分搜尋; 二分搜索=>zh-hk:二分檢索;"
     },
     {
       "original": "binary search tree",
-      "conv": "二叉查找树=>zh-tw:二元搜尋樹; 二叉查找树=>zh-hk:二叉搜尋樹; 二叉查找树=>zh-mo:二叉搜尋樹;"
+      "conv": "zh-cn:二叉搜索树; zh-tw:二元搜尋樹; zh-hk:二叉搜尋樹; 二叉查找树=>zh-tw:二元搜尋樹; 二叉查找树=>zh-hk:二叉搜尋樹; 二叉查找树=>zh-mo:二叉搜尋樹;"
     },
     {
       "original": "binary tree",
@@ -457,23 +453,23 @@
     },
     {
       "original": "bitrate",
-      "conv": "zh-cn:比特率; zh-tw:位元速率;"
+      "conv": "zh-cn:比特率; zh-tw:位元率;"
     },
     {
       "original": "bitrate",
-      "conv": "码率=>zh-tw:位元速率; 码率=>zh-hk:位元速率; 码率=>zh-mo:位元速率;"
+      "conv": "码率=>zh-tw:位元率; 码率=>zh-hk:位元率; 码率=>zh-mo:位元率;"
     },
     {
       "original": "bitrate",
-      "conv": "碼率=>zh-tw:位元速率; 碼率=>zh-hk:位元速率; 碼率=>zh-mo:位元速率;"
+      "conv": "碼率=>zh-tw:位元率; 碼率=>zh-hk:位元率; 碼率=>zh-mo:位元率;"
     },
     {
       "original": "bitrate",
-      "conv": "荷码率=>zh-tw:位元速率; 荷码率=>zh-hk:位元速率; 荷码率=>zh-mo:位元速率;"
+      "conv": "荷码率=>zh-tw:位元率; 荷码率=>zh-hk:位元率; 荷码率=>zh-mo:位元率;"
     },
     {
       "original": "bitrate",
-      "conv": "荷碼率=>zh-tw:位元速率; 荷碼率=>zh-hk:位元速率; 荷碼率=>zh-mo:位元速率;"
+      "conv": "荷碼率=>zh-tw:位元率; 荷碼率=>zh-hk:位元率; 荷碼率=>zh-mo:位元率;"
     },
     {
       "original": "bitwise",
@@ -901,7 +897,7 @@
     },
     {
       "original": "class variable",
-      "conv": "zh-cn:类变量; zh-tw:類別變數;"
+      "conv": "zh-cn:类变量; zh-tw:類別變數; zh-hk:類變量;"
     },
     {
       "original": "class-based",
@@ -942,6 +938,10 @@
     {
       "original": "clock rate",
       "conv": "時脈=>zh-cn:主频;"
+    },
+    {
+      "original": "clock signal",
+      "conv": "zh-tw:時脈訊號; zh-cn:时钟信号;"
     },
     {
       "original": "cloud computing",
@@ -1101,7 +1101,7 @@
     },
     {
       "original": "constant bitrate",
-      "conv": "zh-cn:固定码率; zh-tw:固定位元速率;"
+      "conv": "zh-cn:固定码率; zh-tw:固定位元率;"
     },
     {
       "original": "constructor",
@@ -1229,7 +1229,7 @@
     },
     {
       "original": "daemon",
-      "conv": "zh-cn:守护进程; zh-tw:守護行程;"
+      "conv": "zh-cn:守护进程; zh-tw:常駐程式;"
     },
     {
       "original": "daisy chaining",
@@ -1242,6 +1242,10 @@
     {
       "original": "database",
       "conv": "zh-cn:数据库; zh-tw:資料庫; zh-hk:資料庫;"
+    },
+    {
+      "original": "data broadcasting",
+      "conv": "zh-hk:數據廣播;zh-tw:資料廣播;zh-hans:数据广播;"
     },
     {
       "original": "data center",
@@ -1449,7 +1453,7 @@
     },
     {
       "original": "device",
-      "conv": "zh:設備; zh-cn:设备; zh-sg:装置; zh-hant:裝置;"
+      "conv": "zh:設備; zh-cn:设备; zh-sg:装置; zh-tw:裝置;"
     },
     {
       "original": "dialog box",
@@ -2133,7 +2137,7 @@
     },
     {
       "original": "form",
-      "conv": "zh-cn:窗体; zh-tw:表單;"
+      "conv": "窗体=>zh-cn:窗体; 窗体=>zh-sg:窗体; 窗体=>zh-my:窗体; 窗体=>zh-tw:表單; 窗体=>zh-hk:表單; 窗体=>zh-mo:表單;"
     },
     {
       "original": "forward chaining",
@@ -2186,6 +2190,10 @@
     {
       "original": "forum",
       "conv": "zh-cn:论坛; zh-tw:論壇; zh-hk:討論區;"
+    },
+    {
+      "original": "USB-IF",
+      "conv": "zh-cn:USB开发者论坛; zh-tw:USB開發者論壇;"
     },
     {
       "original": "full screen",
@@ -2261,7 +2269,7 @@
     },
     {
       "original": "Gigabyte",
-      "conv": "吉咖字节=>zh-hant:吉位元組; 京字节=>zh-hant:吉位元組; 吉字节=>zh-hant:吉位元組; "
+      "conv": "吉咖字节=>zh-hant:吉位元組; 吉字节=>zh-hant:吉位元組; "
     },
     {
       "original": "Gigabyte",
@@ -2386,6 +2394,10 @@
     {
       "original": "hacker",
       "conv": "zh-cn:黑客; zh-my:骇客; zh-tw:駭客; zh-hk:黑客;"
+    },
+    {
+      "original": "hackathon",
+      "conv": "zh-hans:黑客松; zh-hant:黑客松;"
     },
     {
       "original": "halfwidth",
@@ -2617,15 +2629,11 @@
     },
     {
       "original": "image file",
-      "conv": "zh-cn:图像文件; zh-tw:圖檔;"
+      "conv": "zh-cn:图像文件;zh-tw:圖檔;"
     },
     {
       "original": "image macro",
-      "conv": "zh-cn:表情包; zh-my:梗图; zh-tw:哏圖;"
-    },
-    {
-      "original": "image macro",
-      "conv": "表情图=>zh-cn:表情包; 表情圖=>zh-cn:表情包; 表情图=>zh-tw:哏圖; 表情圖=>zh-tw:哏圖;"
+      "conv": "zh-cn:梗图;zh-hk:梗圖;zh-tw:哏圖;"
     },
     {
       "original": "imperative programming",
@@ -2705,7 +2713,7 @@
     },
     {
       "original": "Information Technology",
-      "conv": "zh:信息技術; zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯科技; zh-tw:資訊科技;"
+      "conv": "zh:信息技術; zh-cn:信息技术; zh-sg:资讯科技; zh-my:资讯工艺; zh-tw:資訊科技;"
     },
     {
       "original": "injection",
@@ -3005,7 +3013,7 @@
     },
     {
       "original": "loop",
-      "conv": "zh-cn:循环; zh-tw:迴圈;"
+      "conv": "zh-cn:循环; zh-tw:迴圈; zh-hk:循環;"
     },
     {
       "original": "lossless",
@@ -3076,8 +3084,12 @@
       "conv": "zh-cn:邮件列表; zh-tw:郵寄清單;"
     },
     {
+      "original": "streaming media",
+      "conv": "zh:流媒體;zh-cn:流媒体;zh-my:串流媒体;zh-tw:串流媒體;"
+    },
+    {
       "original": "mainstream media",
-      "conv": "zh-cn:主流媒体; zh-tw:主流媒體;"
+      "conv": "zh-cn:主流媒体;zh-tw:主流媒體;zh-hk:主流傳媒;"
     },
     {
       "original": "managed code",
@@ -3166,10 +3178,6 @@
     {
       "original": "Master Boot Record",
       "conv": "zh-cn:主引导记录; zh-tw:主開機紀錄;"
-    },
-    {
-      "original": "media streamming",
-      "conv": "zh-cn:流媒体; zh-tw:串流媒體;"
     },
     {
       "original": "medium",
@@ -3401,7 +3409,7 @@
     },
     {
       "original": "mobile operating system",
-      "conv": "zh-cn:移动操作系统; zh-tw:行動作業系統; zh-hk:流動作業系統;"
+      "conv": "zh:移動操作系統;zh-cn:移动操作系统; zh-tw:行動作業系統; zh-hk:流動作業系統;"
     },
     {
       "original": "mobile operator",
@@ -3733,7 +3741,7 @@
     },
     {
       "original": "operating system",
-      "conv": "zh-cn:操作系统; zh-tw:作業系統;"
+      "conv": "zh:操作系統;zh-cn:操作系统; zh-tw:作業系統;"
     },
     {
       "original": "operation object",
@@ -3816,8 +3824,12 @@
       "conv": "zh-cn:分组交换; zh-tw:封包交換;"
     },
     {
+      "original": "page",
+      "conv": "zh-hans:页面;zh-hant:頁面;"
+    },
+    {
       "original": "page view",
-      "conv": "zh:訪問量; zh-cn:访问量; zh-tw:瀏覽量;"
+      "conv": "访问量=>zh-cn:访问量; 访问量=>zh-tw:瀏覽量; 訪問量=>zh-cn:访问量; 訪問量=>zh-tw:瀏覽量;"
     },
     {
       "original": "paint",
@@ -3889,7 +3901,7 @@
     },
     {
       "original": "Peer-to-Peer",
-      "conv": "zh-cn:点对点; zh-tw:對等;"
+      "conv": "zh-cn:点对点; zh-tw:對等; zh-hk:點對點;"
     },
     {
       "original": "performance",
@@ -4224,10 +4236,6 @@
       "conv": "zh-cn:伪代码; zh-tw:虛擬碼; zh-hk:偽代碼;"
     },
     {
-      "original": "pattern recognition",
-      "conv": "zh:模式識別; zh-cn:模式识别; zh-tw:圖型識別;"
-    },
-    {
       "original": "Public land mobile network",
       "conv": "zh-cn:公共陆基移动网; zh-tw:公用陸上行動網路; zh-hk:公地流動網路;"
     },
@@ -4246,6 +4254,10 @@
     {
       "original": "push",
       "conv": "zh-cn:推送; zh-tw:推播;"
+    },
+    {
+      "original": "Personal message",
+      "conv": "zh-cn:私信; zh-tw:私訊;"
     },
     {
       "original": "QR code",
@@ -4465,7 +4477,11 @@
     },
     {
       "original": "render",
-      "conv": "zh-cn:渲染; zh-tw:彩現;"
+      "conv": "彩現=>zh-cn:渲染;彩現=>zh-my:渲染;彩現=>zh-sg:渲染;彩現=>zh-hk:渲染;彩現=>zh-mo:渲染;"
+    },
+    {
+      "original": "render",
+      "conv": "彩现=>zh-cn:渲染;彩现=>zh-my:渲染;彩现=>zh-sg:渲染;彩现=>zh-hk:渲染;彩现=>zh-mo:渲染;"
     },
     {
       "original": "repeating group",
@@ -4622,6 +4638,10 @@
     {
       "original": "semantics",
       "conv": "zh-cn:语义; zh-tw:語意;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:语意思; zh-hant:語意思;"
     },
     {
       "original": "semaphore",
@@ -4820,6 +4840,14 @@
       "conv": "zh-cn:社交网站; zh-tw:社群網站; zh-hk:社交網站;"
     },
     {
+      "original": "Social platform",
+      "conv": "zh-cn:社交平台; zh-tw:社群平台; zh-hk:社交平台;"
+    },
+    {
+      "original": "Social account",
+      "conv": "zh-cn:社交账号; zh-tw:社群帳號; zh-hk:社交帳號;"
+    },
+    {
       "original": "socket",
       "conv": "zh-cn:套接字; zh-tw:通訊端;"
     },
@@ -4889,7 +4917,7 @@
     },
     {
       "original": "SSD",
-      "conv": "zh-cn:固态盘; zh-tw:固態硬碟;"
+      "conv": "固态盘=>zh-cn:固态盘; 固态盘=>zh-tw:固態硬碟;"
     },
     {
       "original": "statement",
@@ -5033,7 +5061,7 @@
     },
     {
       "original": "tab",
-      "conv": "zh-cn:标签页; zh-tw:分頁;"
+      "conv": "标签页=>zh-tw:分頁; 標籤頁=>zh-tw:分頁; 标签页=>zh-hk:標籤頁; 标签页=>zh-mo:標籤頁;"
     },
     {
       "original": "tab",
@@ -5385,19 +5413,15 @@
     },
     {
       "original": "variable",
-      "conv": "zh-cn:变量; zh-tw:變數;"
+      "conv": "zh-cn:变量;zh-tw:變數;zh-hk:變量;"
     },
     {
       "original": "variable",
-      "conv": "变数=>zh-cn:变量; 变数=>zh-sg:变量; 变数=>zh-my:变量;"
-    },
-    {
-      "original": "variable",
-      "conv": "變量=>zh-tw:變數; 變量=>zh-hk:變數; 變量=>zh-mo:變數;"
+      "conv": "zh:变数;zh-cn:变量;zh-tw:變數;zh-hk:變量;"
     },
     {
       "original": "variable bitrate",
-      "conv": "zh-cn:可变码率; zh-tw:變動位元速率; zh-hk:動態編碼率;"
+      "conv": "zh-cn:可变码率; zh-tw:變動位元率; zh-hk:動態編碼率;"
     },
     {
       "original": "vector",
@@ -5553,7 +5577,7 @@
     },
     {
       "original": "von Neumann",
-      "conv": "zh-hant:馮諾依曼; zh-hans:冯诺伊曼; zh-tw:馮諾伊曼;zh-cn:冯诺依曼;zh-hk:馮紐曼;"
+      "conv": "zh-tw:馮·諾伊曼; zh-cn:冯·诺依曼; zh-hk:馮紐曼;"
     },
     {
       "original": "wallpaper",
@@ -6290,6 +6314,18 @@
     {
       "original": "China Computer Federation",
       "conv": "zh-hans:中国计算机学会; zh-hant:中國計算機學會;"
+    },
+    {
+      "original": "DynaComware",
+      "conv": "zh-hans:威锋数位;zh-hant:威鋒數位;"
+    },
+    {
+      "original": "Hong Kong Broadband Network Ltd.",
+      "conv": "zh-hans:香港宽频;zh-hant:香港寬頻;"
+    },
+    {
+      "original": "New World Telecommunications Ltd.",
+      "conv": "zh-hans:新世界电讯;zh-hant:新世界電訊;"
     }
   ]
 }

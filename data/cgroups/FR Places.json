@@ -73,7 +73,7 @@
     },
     {
       "original": "Nord",
-      "conv": "諾爾省=>北部省;诺尔省=>北部省"
+      "conv": "諾爾省=>zh-hans:北部省;諾爾省=>zh-hant:北部省;诺尔省=>zh-hans:北部省;诺尔省=>zh-hant:北部省"
     },
     {
       "original": "Rhône",
@@ -104,14 +104,6 @@
       "conv": "zh-cn:昂热利; zh-tw:安吉利; zh-hk:昂熱利;"
     },
     {
-      "original": "Angers",
-      "conv": "昂熱=>zh-cn:昂热; 昂熱=>zh-tw:安傑; 昂熱=>zh-hk:昂熱;"
-    },
-    {
-      "original": "Angers",
-      "conv": "昂热=>zh-cn:昂热; 昂热=>zh-tw:安傑; 昂热=>zh-hk:昂熱;"
-    },
-    {
       "original": "Angerville",
       "conv": "zh-cn:昂热维尔; zh-tw:安傑維勒; zh-hk:昂熱維爾;"
     },
@@ -125,7 +117,7 @@
     },
     {
       "original": "Avignon",
-      "conv": "zh-hans:阿维尼翁; zh-hk:阿維尼翁; zh-tw:亞維農;"
+      "conv": "zh-hans:阿维尼翁; zh-hk:亞維農; zh-tw:亞維儂;zh-hant:阿維尼翁;阿維尼翁=>zh-tw:亞維儂;亞維農=>zh-tw:亞維儂;"
     },
     {
       "original": "Bastia",
@@ -274,6 +266,10 @@
     {
       "original": "Saint-Saturnin-lès-Avignon",
       "conv": "zh-cn:圣萨蒂南-莱萨维尼翁; zh-tw:聖薩蒂南萊薩維農; zh-hk:聖薩蒂南萊薩維農;"
+    },
+    {
+      "original": "Saverne",
+      "conv": "zh-hans:萨韦尔讷;zh-hant:薩韋爾訥;zh-tw:沙溫;"
     },
     {
       "original": "Strasbourg/Straßburg",
@@ -441,7 +437,7 @@
     },
     {
       "original": "Vosges",
-      "conv": "zh-hans:孚日;zh-hant:佛日;"
+      "conv": "zh-cn:孚日;zh-tw:弗日;"
     },
     {
       "original": "Yonne",
@@ -4684,6 +4680,10 @@
       "conv": "zh-cn:贝罗讷河;zh-hk:貝羅訥河;zh-tw:貝羅訥河"
     },
     {
+      "original": "Berry, Canal de",
+      "conv": "zh-hans:贝里运河;zh-hant:貝里運河"
+    },
+    {
       "original": "Beuloir（人名）",
       "conv": "zh-cn:伯卢瓦尔;zh-hk:伯盧瓦爾;zh-tw:伯盧瓦爾"
     },
@@ -4694,6 +4694,10 @@
     {
       "original": "Bouloir（人名）/Bouloire",
       "conv": "zh-cn:布卢瓦尔;zh-hk:布盧瓦爾;zh-tw:布盧瓦爾"
+    },
+    {
+      "original": "Brabant-le-Roi",
+      "conv": "zh-cn:布拉邦勒鲁瓦;zh-hk:布拉邦勒魯瓦;zh-tw:布拉邦勒魯瓦"
     },
     {
       "original": "Cahen（人名）",
@@ -4846,6 +4850,10 @@
     {
       "original": "Moulon",
       "conv": "zh-hans:穆隆河;zh-hant:穆隆河"
+    },
+    {
+      "original": "Nouméa",
+      "conv": "zh-hans:努美阿;zh-hant:努美亞"
     },
     {
       "original": "Priest",

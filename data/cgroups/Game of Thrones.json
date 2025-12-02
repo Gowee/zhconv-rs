@@ -1,0 +1,167 @@
+{
+  "name": "Game of Thrones",
+  "description": "[[权力的游戏 (电视剧)|冰與火之歌：權力遊戲]]，繁體中文譯名取自[[Max (流媒体)|HBO Max]]。",
+  "path": "Module:CGroup/Game of Thrones",
+  "rules": [
+    {
+      "original": "Game of Thrones",
+      "conv": "zh-tw:冰與火之歌：權力遊戲;冰與火之歌：權力遊戲=>zh-cn:权力的游戏;冰與火之歌：權力遊戲=>zh-hk:權力遊戲;zh-sg:冰与火之歌：权力游戏;冰与火之歌：权力游戏=>zh-cn:权力的游戏;冰与火之歌：权力游戏=>zh-hk:權力遊戲;"
+    },
+    {
+      "original": "Cripples, Bastards, and Broken Things",
+      "conv": "zh-cn:跛子、私生子和废物; zh-tw:跛子、雜種、殘缺之人; zh-hk:跛子、雜種、殘缺之人;"
+    },
+    {
+      "original": "The Wolf and the Lion",
+      "conv": "zh-cn:狮狼之争; zh-tw:獅與王; zh-hk:獅與王;"
+    },
+    {
+      "original": "A Golden Crown",
+      "conv": "zh-cn:黄金宝冠; zh-tw:黃金冠冕; zh-hk:黃金冠冕;"
+    },
+    {
+      "original": "The Pointy End",
+      "conv": "zh-cn:剑之尖端; zh-tw:針鋒相對; zh-hk:針鋒相對;"
+    },
+    {
+      "original": "Baelor",
+      "conv": "zh-cn:贝勒圣堂; zh-tw:貝勒大聖堂; zh-hk:貝勒大聖堂;"
+    },
+    {
+      "original": "The Night Lands",
+      "conv": "zh-cn:夜幕降临; zh-tw:夜之國度; zh-hk:夜之國度;"
+    },
+    {
+      "original": "What Is Dead May Never Die",
+      "conv": "zh-cn:逝者永垂不朽; zh-tw:逝者未亡; zh-hk:逝者未亡;"
+    },
+    {
+      "original": "The Ghost of Harrenhal",
+      "conv": "zh-cn:赫伦堡的幽灵; zh-tw:赫倫堡幽靈; zh-hk:赫倫堡幽靈;"
+    },
+    {
+      "original": "Blackwater",
+      "conv": "zh-cn:黑水河战; zh-tw:黑水河之戰; zh-hk:黑水河之戰;"
+    },
+    {
+      "original": "Valar Morghulis",
+      "conv": "zh-cn:凡人皆有一死; zh-tw:凡人終將一死; zh-hk:凡人終將一死;"
+    },
+    {
+      "original": "Valar Dohaeris",
+      "conv": "zh-cn:凡人皆需侍奉; zh-tw:凡人皆須侍奉; zh-hk:凡人皆須侍奉;"
+    },
+    {
+      "original": "Dark Wings, Dark Words",
+      "conv": "zh-cn:黑翼之言; zh-tw:黑翼振翅，噩耗將至; zh-hk:黑翼振翅，噩耗將至;"
+    },
+    {
+      "original": "Walk of Punishment",
+      "conv": "zh-cn:惩罚之路; zh-tw:懲罰大道; zh-hk:懲罰大道;"
+    },
+    {
+      "original": "And Now His Watch Is Ended",
+      "conv": "zh-cn:至死方休; zh-tw:守夜職責已了; zh-hk:守夜職責已了;"
+    },
+    {
+      "original": "The Climb",
+      "conv": "zh-cn:绝壁攀爬; zh-tw:絕境攀頂; zh-hk:絕境攀頂;"
+    },
+    {
+      "original": "The Bear and the Maiden Fair",
+      "conv": "zh-cn:狗熊与少女; zh-tw:狗熊和美少女; zh-hk:狗熊和美少女;"
+    },
+    {
+      "original": "Second Sons",
+      "conv": "zh-cn:次子团; zh-tw:次子兵團; zh-hk:次子兵團;"
+    },
+    {
+      "original": "The Lion and the Rose",
+      "conv": "zh-cn:狮子与玫瑰; zh-tw:獅與玫瑰; zh-hk:獅與玫瑰;"
+    },
+    {
+      "original": "Breaker of Chains",
+      "conv": "zh-cn:破镣之人; zh-tw:奴隸解放者; zh-hk:奴隸解放者;"
+    },
+    {
+      "original": "Oathkeeper",
+      "conv": "zh-cn:守誓之剑; zh-tw:守誓者; zh-hk:守誓者;"
+    },
+    {
+      "original": "First of His Name",
+      "conv": "zh-cn:继他之名; zh-tw:吾王一世; zh-hk:吾王一世;"
+    },
+    {
+      "original": "Mockingbird",
+      "conv": "zh-cn:知更展翅; zh-tw:仿聲鳥; zh-hk:仿聲鳥;"
+    },
+    {
+      "original": "The Mountain and the Viper",
+      "conv": "zh-cn:魔山与毒蛇; zh-tw:魔山與紅毒蛇; zh-hk:魔山與紅毒蛇;"
+    },
+    {
+      "original": "The Watchers on the Wall",
+      "conv": "zh-cn:长城守望者; zh-tw:守城人; zh-hk:守城人;"
+    },
+    {
+      "original": "The Children",
+      "conv": "zh-cn:万生之子; zh-tw:不肖子孫; zh-hk:不肖子孫;"
+    },
+    {
+      "original": "The Wars to Come",
+      "conv": "zh-cn:战争来临; zh-tw:戰爭前夕; zh-hk:戰爭前夕;"
+    },
+    {
+      "original": "The House of Black and White",
+      "conv": "zh-cn:黑白之屋; zh-tw:黑白之院; zh-hk:黑白之院;"
+    },
+    {
+      "original": "High Sparrow",
+      "conv": "zh-cn:大麻雀; zh-tw:麻雀之首; zh-hk:麻雀之首;"
+    },
+    {
+      "original": "The Red Woman",
+      "conv": "zh-cn:红袍女王; zh-tw:紅袍女巫; zh-hk:紅袍女巫;"
+    },
+    {
+      "original": "Home",
+      "conv": "zh-cn:归乡; zh-tw:家園; zh-hk:家園;"
+    },
+    {
+      "original": "Oathbreaker",
+      "conv": "zh-cn:破誓者; zh-tw:背誓者; zh-hk:背誓者;"
+    },
+    {
+      "original": "Book of the Stranger",
+      "conv": "zh-cn:陌客之书; zh-tw:陌客書; zh-hk:陌客書;"
+    },
+    {
+      "original": "The Door",
+      "conv": "zh-cn:守门人; 守门人=>zh-tw:門; 守门人=>zh-hk:門;"
+    },
+    {
+      "original": "The Broken Man",
+      "conv": "zh-cn:一蹶不振; 一蹶不振=>zh-tw:廢人; 一蹶不振=>zh-hk:廢人;"
+    },
+    {
+      "original": "Battle of the Bastards",
+      "conv": "zh-cn:私生子大战; zh-tw:私生子之戰; zh-hk:私生子之戰;"
+    },
+    {
+      "original": "The Queen's Justice",
+      "conv": "zh-cn:女王的正义; zh-tw:女王正義; zh-hk:女王正義;"
+    },
+    {
+      "original": "Beyond the Wall",
+      "conv": "zh-cn:长城之外; zh-tw:長城境外; zh-hk:長城境外;"
+    },
+    {
+      "original": "The Dragon and the Wolf",
+      "conv": "zh-cn:火龙与冰狼; zh-tw:龍與狼; zh-hk:龍與狼;"
+    },
+    {
+      "original": "A Knight of the Seven Kingdoms",
+      "conv": "zh-cn:七国士; zh-tw:七國騎士; zh-hk:七國騎士;"
+    }
+  ]
+}

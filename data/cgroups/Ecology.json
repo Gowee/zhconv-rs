@@ -1145,7 +1145,11 @@
     },
     {
       "original": "global warming",
-      "conv": "zh-cn:全球变暖; zh-hk:全球變暖; zh-tw:全球暖化;"
+      "conv": "zh-cn:全球变暖; zh-tw:全球暖化;"
+    },
+    {
+      "original": "global warming",
+      "conv": "zh:全球變暖; zh-cn:全球变暖; zh-tw:全球暖化;"
     },
     {
       "original": "Gloger's rule",
@@ -1188,12 +1192,20 @@
       "conv": "zh-cn:集合种群; zh-hk:集合種群; zh-tw:關聯族群;"
     },
     {
+      "original": "microhabitat",
+      "conv": "zh-cn:小生境; zh-hk:小生境; zh-tw:微棲地;"
+    },
+    {
       "original": "niche",
       "conv": "zh-cn:生态位; zh-hk:生態位; zh-tw:生態棲位;"
     },
     {
       "original": "niche breadth",
       "conv": "zh-cn:生态位宽度; zh-tw:棲位寬度;"
+    },
+    {
+      "original": "patch",
+      "conv": "zh-cn:斑块; zh-tw:區塊;"
     },
     {
       "original": "physiognomic classification of community",

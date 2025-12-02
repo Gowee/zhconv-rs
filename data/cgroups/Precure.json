@@ -1,0 +1,379 @@
+{
+  "name": "Precure",
+  "description": "《光之美少女》系列作品之公共轉換組",
+  "path": "Module:CGroup/Precure",
+  "rules": [
+    {
+      "original": null,
+      "conv": "zh-hans:初中;zh-tw:國中;zh-hk:初中"
+    },
+    {
+      "original": null,
+      "conv": "Pretty Cure=>zh-hans:光之美少女;Pretty Cure=>zh-hant:光之美少女;Pretty Cure=>zh-cn:光之美少女;Pretty Cure=>zh-tw:光之美少女;Pretty Cure=>zh-hk:Pretty Cure;Pretty Cure=>zh-mo:Pretty Cure;Pretty Cure=>zh-my:光之美少女;Pretty Cure=>zh-sg:光之美少女;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Splash Star;zh-hk:Ⅲ;zh-tw:Splash Star"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Fresh;zh-hk:幸福精靈;zh-tw:幸福精靈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:甜蜜天使;zh-cn:Heart Catch;zh-tw:甜蜜天使;zh-hk:甜蜜天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美樂天使;zh-cn:Suite;zh-tw:美樂天使;zh-hk:美樂天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:心跳;zh-cn:心跳;zh-tw:DokiDoki;zh-hk:心動"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:幸福爆发;zh-cn:HappinessCharge;zh-tw:幸福爆發;zh-hk:幸福爆發"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Healin' Good;zh-cn:Healin' Good;zh-tw:元氣魔法;zh-hk:元氣魔法"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:热情闪耀;zh-hant:熱情閃耀;zh-cn:Tropical-Rouge;zh-tw:熱情閃耀"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美味Party;zh-cn:美味派对;zh-tw:美味Party;zh-hk:美味PARTY"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Idol你与我;zh-tw:Idol你與我;zh-hk:偶像與你"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:夢原望;zh-tw:夢原美美;zh-hk:夢原望美;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:望;zh-tw:美美;zh-hk:美美"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:玲;zh-tw:玲;zh-hk:玲子;玲玲=>zh-hans:玲;玲玲=>zh-tw:玲;玲玲=>zh-hk:玲"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丽;zh-tw:麗;zh-hk:麗子"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:秋元小町;zh-tw:秋元叮叮;zh-hk:秋元小町"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:小町;zh-tw:叮叮;zh-hk:町町"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:香恋;zh-tw:小香;zh-hk:香戀"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:口红天使;zh-tw:火天使;zh-hk:火天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:柠檬水天使;zh-tw:星天使;zh-hk:星天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:薄荷天使;zh-tw:冰天使;zh-hk:冰天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:桃园爱;zh-hant:桃園愛;zh-hk:桃園小愛"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Cure Peach;zh-tw:愛情精靈;zh-hk:Cure Peach"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Cure Berry;zh-tw:希望精靈;zh-hk:Cure Berry"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Cure Pine;zh-tw:祈願精靈;zh-hk:Cure Pine"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Cure Passion;zh-tw:幸運精靈;zh-hk:Cure Passion"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:花咲蕾;zh-tw:花小蜜;zh-hk:花咲蕾"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蕾;zh-tw:小蜜;zh-hk:蕾"
+    },
+    {
+      "original": null,
+      "conv": "花蕾天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:丽华;zh-hant:麗華"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美丽天使;zh-hant:美麗天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:爱丽丝;zh-hant:愛麗絲"
+    },
+    {
+      "original": null,
+      "conv": "蜂蜜天使=>zh-hans:蜂蜜天使;蜂蜜天使=>zh-hant:蜂蜜天使;蜂蜜天使=>zh-cn:甜蜜天使;蜂蜜天使=>zh-tw:蜂蜜天使;蜂蜜天使=>zh-hk:蜂蜜天使;蜂蜜天使=>zh-mo:蜂蜜天使;蜂蜜天使=>zh-my:蜂蜜天使;蜂蜜天使=>zh-sg:蜂蜜天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:和佳;zh-tw:和佳;zh-hk:和香"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Cure Grace;zh-tw:恩典天使;zh-hk:Cure Grace"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Cure Fontaine;zh-tw:泉源天使;zh-hk:Cure Fontaine"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Cure Sparkle;zh-tw:閃亮天使;zh-hk:Cure Sparkle"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:Cure Earth;zh-tw:大地天使;zh-hk:Cure Earth"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:珊瑚;zh-tw:珊珊"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:劳拉;zh-tw:蘿拉"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:夏日天使;zh-tw:夏日天使;zh-hk:Cure Summer"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:珊瑚天使;zh-tw:珊瑚天使;zh-hk:Cure Coral"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:木瓜天使;zh-tw:水果天使;zh-hk:Cure Papaya"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:火烈鸟天使;zh-tw:紅鶴天使;zh-hk:Cure Flamingo"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:沧海天使;zh-tw:人魚天使;zh-hk:Cure Lamer"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:由依;zh-tw:結;zh-hk:結"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:珍贵天使;zh-tw:珍味天使;zh-hk:珍貴天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:香辛天使;zh-tw:調味天使;zh-hk:香料天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:美味天使;zh-tw:好味天使;zh-hk:美味天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:甜点天使;zh-tw:甜點天使;zh-hk:終結天使"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:索拉;zh-tw:天晴;zh-hk:晴天"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:哈雷瓦塔爾;zh-tw:娃塔兒;zh-hk:哈蕾瓦塔爾"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:棱鏡天使;zh-tw:稜鏡天使;zh-hk:棱鏡天使"
+    },
+    {
+      "original": null,
+      "conv": "莊嚴天使=>zh-hans:莊嚴天使;莊嚴天使=>zh-hant:莊嚴天使;莊嚴天使=>zh-cn:莊嚴天使;莊嚴天使=>zh-tw:公主天使;莊嚴天使=>zh-hk:莊嚴天使;莊嚴天使=>zh-mo:莊嚴天使;莊嚴天使=>zh-my:莊嚴天使;莊嚴天使=>zh-sg:莊嚴天使"
+    },
+    {
+      "original": "こむぎ",
+      "conv": "zh-cn:麦;zh-tw:麥;zh-hk:小麥"
+    },
+    {
+      "original": "まゆ",
+      "conv": "zh-cn:真结;zh-tw:真結;zh-hk:真結"
+    },
+    {
+      "original": "キュアウインク",
+      "conv": "zh-hans:俏丽天使;zh-hant:俏麗天使"
+    },
+    {
+      "original": "キュアキュンキュン",
+      "conv": "zh-hans:心跳天使;zh-hant:心跳天使"
+    },
+    {
+      "original": "メロロン",
+      "conv": "zh-hans:梅宝;zh-tw:梅寶;zh-hk:美樂露"
+    },
+    {
+      "original": "キュアズキューン",
+      "conv": "zh-cn:心恋天使;zh-tw:心戀天使;zh-hk:觸動天使"
+    },
+    {
+      "original": "キュアキッス",
+      "conv": "zh-cn:亲亲天使;zh-tw:親親天使;zh-hk:親吻天使"
+    },
+    {
+      "original": "ズキューンキッス",
+      "conv": "zh-cn:心恋啾咪;zh-tw:心戀啾咪;zh-hk:觸動親吻"
+    },
+    {
+      "original": "プリ",
+      "conv": "zh-hans:噗哩;zh-tw:噗哩;zh-hk:Puri"
+    },
+    {
+      "original": "メロ",
+      "conv": "zh-hans:梅洛;zh-tw:梅洛;zh-hk:Mero"
+    },
+    {
+      "original": "プリ",
+      "conv": "PULI=>zh-hans:噗哩;PULI=>zh-hant:噗哩;PULI=>zh-cn:噗哩;PULI=>zh-tw:噗哩;PULI=>zh-hk:PULI;PULI=>zh-mo:PULI;PULI=>zh-my:噗哩;PULI=>zh-sg:噗哩"
+    },
+    {
+      "original": "メロ",
+      "conv": "MELO=>zh-hans:梅洛;MELO=>zh-hant:梅洛;MELO=>zh-cn:梅洛;MELO=>zh-tw:梅洛;MELO=>zh-hk:MELO;MELO=>zh-mo:MELO;MELO=>zh-my:梅洛;MELO=>zh-sg:梅洛"
+    },
+    {
+      "original": "キラッキランラン♪キュアアイドルデビュー！",
+      "conv": "zh-hans:闪闪发光 偶像天使出道;zh-tw:閃閃發光 偶像天使出道;zh-hk:閃閃發光！偶像天使出道！"
+    },
+    {
+      "original": "私、バズっちゃってる！？",
+      "conv": "zh-hans:我变成大明星了;zh-tw:我變成大明星了;zh-hk:我現在突然變得很紅！？"
+    },
+    {
+      "original": "勇気を出して♪キュアウインクデビュー！",
+      "conv": "zh-hans:鼓起勇气 俏丽天使出道;zh-tw:鼓起勇氣 俏麗天使出道;zh-hk:鼓起勇氣，俏麗天使出道！"
+    },
+    {
+      "original": "レジェンドアイドル！？響カイト",
+      "conv": "zh-hans:传奇偶像 响海斗;zh-tw:傳奇偶像 響海斗;zh-hk:傳奇偶像！？響海斗"
+    },
+    {
+      "original": "マネージャーさん、ついちゃった！",
+      "conv": "zh-hans:我们有经纪人了;zh-tw:我們有經紀人了;zh-hk:我們都有經理人了!"
+    },
+    {
+      "original": "心キュンキュンしてます！？",
+      "conv": "zh-hans:不觉得很心动吗;zh-tw:不覺得很心動嗎;zh-hk:現在真的覺得很心動？"
+    },
+    {
+      "original": "心おどる♪キュアキュンキュンデビュー！",
+      "conv": "zh-hans:心动不已 心跳天使出道;zh-tw:心動不已 心跳天使出道;zh-hk:隨心起舞！心跳天使出道"
+    },
+    {
+      "original": "みんなでお泊り！アイドルプリキュア大研究！",
+      "conv": "zh-hans:大家一起过夜 深入研究偶像光之美少女;zh-tw:大家一起過夜 深入研究偶像光之美少女;zh-hk:大家一起留宿！偶像光之美少女大研究！"
+    },
+    {
+      "original": "ななの七不思議！",
+      "conv": "zh-hans:奈奈的七大奇闻;zh-tw:奈奈的七大奇聞;zh-hk:奈奈的七大不可思議！"
+    },
+    {
+      "original": "ＣＤデビュー！アイドルプリキュア！",
+      "conv": "zh-hans:发行CD 偶像光之美少女;zh-tw:發行CD 偶像光之美少女;zh-hk:CD出道！偶像光之美少女！"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:上田丽奈;zh-hant:上田麗奈"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:麦克风;zh-hant:麥克風"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:耳麦;zh-hant:耳麥"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:卡利麦罗;zh-hant:卡利麥羅"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:荞麦面;zh-hant:蕎麥麵"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:结束;zh-hant:結束"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:连结;zh-hant:連結"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:完结;zh-hant:完結"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:蝴蝶结;zh-hant:蝴蝶結"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:渴望;zh-hant:渴望"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美丽;zh-hant:美麗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:希望;zh-hant:希望"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:愿望;zh-hant:願望"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:华丽;zh-hant:華麗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:俏丽;zh-hant:俏麗"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:完结;zh-hant:完結"
+    }
+  ]
+}

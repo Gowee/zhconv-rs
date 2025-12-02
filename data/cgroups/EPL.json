@@ -76,10 +76,6 @@
       "conv": "zh-cn:考文垂; zh-hk:高雲地利; zh-tw:科芬特里;"
     },
     {
-      "original": "Deportivo",
-      "conv": "zh-hans:拉科鲁尼亚; zh-hant:拉科魯尼亞;"
-    },
-    {
       "original": "Derby County",
       "conv": "zh-cn:德比郡; zh-tw:德比郡; zh-hk:打比郡;"
     },
@@ -280,6 +276,10 @@
       "conv": "zh-hans:莫利纽克斯; zh-tw:莫利紐克斯; zh-hk:摩連納斯;"
     },
     {
+      "original": "Elland Road",
+      "conv": "zh-hans:埃兰路;zh-hant:艾蘭路;"
+    },
+    {
       "original": "David Luiz",
       "conv": "zh-cn:大卫·路易斯;zh-hk:大衛·雷斯;zh-tw:大衛·路易斯;"
     },
@@ -333,7 +333,7 @@
     },
     {
       "original": "Benjamin",
-      "conv": "zh:本傑明; zh-cn:本杰明; zh-tw:班傑明; zh-hk:賓捷文;"
+      "conv": "zh:本傑明; zh-cn:本杰明; zh-tw:班傑明; zh-hk:班捷文;"
     },
     {
       "original": "Ben White",
@@ -509,7 +509,7 @@
     },
     {
       "original": "Jack Grealish",
-      "conv": "zh-cn:杰克·格拉利什; zh-hk:積·基亞利殊; zh-tw:傑克·格拉利許;"
+      "conv": "zh-cn:杰克·格雷利什; zh-hk:積·基亞利殊; zh-tw:傑克·格拉利許;"
     },
     {
       "original": "Jackie Milburn",
@@ -668,6 +668,10 @@
       "conv": "zh-cn:罗宾·范佩西; zh-tw:羅賓·范佩西; zh-hk:羅賓·雲佩斯;"
     },
     {
+      "original": "Romelu Lukaku",
+      "conv": "zh-cn:罗梅卢·卢卡库; zh-tw:羅梅盧·盧卡庫; zh-hk:羅美路·盧卡古;"
+    },
+    {
       "original": "Rooney",
       "conv": "zh-cn:鲁尼; zh-tw:魯尼; zh-hk:朗尼;"
     },
@@ -725,11 +729,11 @@
     },
     {
       "original": "Timber",
-      "conv": "zh-hans:廷贝尔;zh-tw:廷伯;zh-hk:添巴;"
+      "conv": "zh-hans:廷伯;zh-hant:廷伯;zh-hk:添巴;"
     },
     {
       "original": "Jurriën Timber",
-      "conv": "zh-hans:尤里恩·廷贝尔;zh-tw:尤里安·廷伯;zh-hk:祖利安·添巴;"
+      "conv": "zh-hans:于里恩·廷伯;zh-tw:尤里安·廷伯;zh-hk:祖利安·添巴;"
     },
     {
       "original": "Tim Howard",
@@ -778,6 +782,10 @@
     {
       "original": "Yaya Touré",
       "conv": "zh-cn:亚亚·图雷; zh-tw:亞亞·圖雷; zh-hk:耶耶·托尼;"
+    },
+    {
+      "original": "Ange Postecoglou",
+      "conv": "zh-hant:安奇·波斯特科格盧;zh-hans:安奇·波斯特科格卢;zh-hk:安治·普斯迪高古;"
     },
     {
       "original": "Alex Ferguson",
@@ -893,7 +901,7 @@
     },
     {
       "original": "Redknapp",
-      "conv": "zh-cn:雷德克纳普; zh-tw:雷德克納普; zh-hk:列納;"
+      "conv": "zh-hans:雷德纳普; zh-tw:雷德克納普; zh-hk:列納;"
     },
     {
       "original": "René Meulensteen",

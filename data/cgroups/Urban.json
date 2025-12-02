@@ -24,6 +24,10 @@
       "conv": "商业中心区=>zh-cn:中央商务区; 商业中心区=>zh-tw:中心商業區; 商业中心区=>zh-hk:核心商業區; 商业中心区=>zh-mo:核心商業區; 商业中心区=>zh-my:中央商务区; 商业中心区=>zh-sg:中央商业区;"
     },
     {
+      "original": "floor area ratio",
+      "conv": "zh-cn:容积率; zh-hk:地積比率; zh-tw:容積率;"
+    },
+    {
       "original": "gentrification",
       "conv": "zh-cn:士绅化; zh-tw:仕紳化; zh-hk:士紳化;"
     },
@@ -52,8 +56,8 @@
       "conv": "zh-hans:都市区; zh-hant:都市區;"
     },
     {
-      "original": "plot ratio",
-      "conv": "zh-cn:容积率; zh-hk:地積比率; zh-tw:容積率;"
+      "original": "open space",
+      "conv": "zh-cn:开敞空间; zh-tw:開放空間;"
     },
     {
       "original": "primate city",
@@ -102,6 +106,10 @@
     {
       "original": "urban renewal",
       "conv": "zh-cn:城市更新; zh-tw:都市更新; zh-hk:市區更新;"
+    },
+    {
+      "original": "城市规划委员会",
+      "conv": "zh-hans:城市规划委员会; zh-hant:城市規劃委員會;"
     },
     {
       "original": "城市规划区",

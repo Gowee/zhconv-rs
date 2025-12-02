@@ -4,36 +4,40 @@
   "path": "Module:CGroup/地名",
   "rules": [
     {
+      "original": "Abakan",
+      "conv": "zh-cn:阿巴坎; zh-tw:亞巴坎;"
+    },
+    {
       "original": "Aberdeen",
-      "conv": "zh-cn:阿伯丁; zh-tw:亞伯丁; zh-hk:鴨巴甸;"
+      "conv": "zh-cn:阿伯丁;zh-tw:亞伯丁;zh-hk:鴨巴甸;"
     },
     {
       "original": "Abidjan",
-      "conv": "zh-cn:阿比让; zh-tw:阿必尚; zh-hk:阿比讓;"
+      "conv": "zh-cn:阿比让;zh-tw:阿必尚;zh-hk:阿比讓;"
     },
     {
       "original": "Abbotsford",
-      "conv": "zh-hans:阿伯茨福德; zh-hant:亞博斯福;"
+      "conv": "zh-hans:阿伯茨福德;zh-hant:亞博斯福;"
     },
     {
       "original": "Abu Dhabi",
-      "conv": "zh-cn:阿布扎比; zh-hk:阿布扎比; zh-tw:阿布達比;"
+      "conv": "zh-cn:阿布扎比;zh-hk:阿布扎比;zh-tw:阿布達比;"
     },
     {
       "original": "Abuja",
-      "conv": "zh-cn:阿布贾; zh-tw:阿布加; zh-hk:阿布賈;"
+      "conv": "zh-cn:阿布贾;zh-tw:阿布加;zh-hk:阿布賈;"
     },
     {
       "original": "Abyei",
-      "conv": "zh-hans:阿卜耶伊; zh-hant:艾卜耶;"
+      "conv": "zh-hans:阿卜耶伊;zh-hant:艾卜耶;"
     },
     {
       "original": "Addis Ababa",
-      "conv": "zh-cn:亚的斯亚贝巴; zh-hk:亞的斯亞貝巴; zh-tw:阿迪斯阿貝巴;"
+      "conv": "zh-cn:亚的斯亚贝巴;zh-hk:亞的斯亞貝巴;zh-tw:阿迪斯阿貝巴;"
     },
     {
       "original": "Adelaide",
-      "conv": "zh-cn:阿德莱德; zh-tw:阿得雷德; zh-hk:阿德萊得;"
+      "conv": "zh-cn:阿德莱德;zh-tw:阿得雷德;zh-hk:阿德萊德;"
     },
     {
       "original": "Afonso Cláudio",
@@ -49,7 +53,11 @@
     },
     {
       "original": "Albuquerque",
-      "conv": "zh-cn:阿尔伯克基; zh-hk:阿爾伯克基; zh-tw:阿布奎基;"
+      "conv": "zh-cn:阿尔伯克基;zh-hk:阿爾伯克基;zh-tw:阿布奎基;"
+    },
+    {
+      "original": "Aleppo",
+      "conv": "zh-hans:阿勒颇;zh-tw:阿勒坡;zh-hk:阿勒頗;"
     },
     {
       "original": "Alexandria",
@@ -57,7 +65,7 @@
     },
     {
       "original": "Alsace",
-      "conv": "zh-cn:阿尔萨斯; zh-tw:亞爾薩斯; zh-hk:亞爾薩斯;"
+      "conv": "zh-cn:阿尔萨斯;zh-tw:亞爾薩斯;zh-hk:亞爾薩斯;"
     },
     {
       "original": "Almere",
@@ -65,7 +73,7 @@
     },
     {
       "original": "Amazon",
-      "conv": "zh-hans:亚马孙;zh-hant:亞馬遜;"
+      "conv": "zh:亞馬孫;zh-cn:亚马孙;zh-sg:亚马逊;zh-my:亚马逊;zh-hant:亞馬遜;"
     },
     {
       "original": "Amhara",
@@ -73,7 +81,11 @@
     },
     {
       "original": "Anchorage",
-      "conv": "zh-cn:安克雷奇; zh-hk:安克雷奇; zh-tw:安克拉治;zh-sg:安克雷奇;"
+      "conv": "zh-cn:安克雷奇;zh-hk:安克雷奇;zh-tw:安克拉治;zh-sg:安克雷奇;"
+    },
+    {
+      "original": "Anatolia",
+      "conv": "zh-cn:安纳托利亚; zh-hk:安納托利亞; zh-tw:安納托力亞; zh:安那托利亞;"
     },
     {
       "original": "Andalucía",
@@ -81,15 +93,15 @@
     },
     {
       "original": "Andes",
-      "conv": "zh-cn:安第斯; zh-hk:安第斯; zh-tw:安地斯;"
+      "conv": "zh-cn:安第斯;zh-hk:安第斯;zh-tw:安地斯;"
     },
     {
       "original": "Andorra la Vella",
-      "conv": "zh-cn:安道尔城; zh-tw:老安道爾; zh-hk:安道爾城;"
+      "conv": "zh-cn:安道尔城;zh-tw:老安道爾;zh-hk:安道爾城;"
     },
     {
       "original": "Antananarivo",
-      "conv": "zh-cn:塔那那利佛; zh-tw:安塔那那利佛;"
+      "conv": "zh-cn:塔那那利佛;zh-tw:安塔那那利佛;"
     },
     {
       "original": "Antietam",
@@ -105,43 +117,43 @@
     },
     {
       "original": "Apia",
-      "conv": "zh-cn:阿皮亚; zh-tw:阿庇亞;"
+      "conv": "zh-cn:阿皮亚;zh-tw:阿庇亞;"
     },
     {
       "original": "Aragon",
-      "conv": "zh-cn:阿拉贡; zh-hk:阿拉貢; zh-tw:亞拉岡;"
+      "conv": "zh-cn:阿拉贡;zh-hk:阿拉貢;zh-tw:亞拉岡;"
     },
     {
       "original": "Ascension",
-      "conv": "zh-tw:亞森欣; zh-hk:阿森松; zh-cn:阿森松;"
+      "conv": "zh-tw:亞森欣;zh-hk:阿森松;zh-cn:阿森松;"
     },
     {
       "original": "Ashgabat",
-      "conv": "zh-cn:阿什哈巴德; zh-tw:阿什哈巴特; zh-hk:阿什哈巴德;"
+      "conv": "zh-cn:阿什哈巴德;zh-tw:阿什哈巴特;zh-hk:阿什哈巴德;"
     },
     {
       "original": "Asmara",
-      "conv": "zh-cn:阿斯马拉; zh-tw:阿斯瑪拉;"
+      "conv": "zh-cn:阿斯马拉;zh-tw:阿斯瑪拉;"
     },
     {
       "original": "ASEAN",
-      "conv": "zh-cn:东盟; zh-hk:東盟; zh-tw:東協; zh-sg:亚细安; zh-my:东盟;"
+      "conv": "zh-cn:东盟;zh-hk:東盟;zh-tw:東協;zh-sg:亚细安;zh-my:东盟;"
     },
     {
       "original": "Association of Southeast Asian Nations",
-      "conv": "zh-cn:东南亚国家联盟; zh-hk:東南亞國家聯盟; zh-tw:東南亞國家協會; zh-sg:亚细安组织; zh-my:东南亚国家联盟;"
+      "conv": "zh-cn:东南亚国家联盟;zh-hk:東南亞國家聯盟;zh-tw:東南亞國家協會;zh-sg:亚细安组织;zh-my:东南亚国家联盟;"
     },
     {
       "original": "Atacama",
-      "conv": "zh-cn:阿塔卡马; zh-hk:阿他加馬; zh-tw:亞他加馬;"
+      "conv": "zh-cn:阿塔卡马;zh-hk:阿他加馬;zh-tw:亞他加馬;"
     },
     {
       "original": "Athabasca",
-      "conv": "zh-hans:阿萨巴斯卡; zh-hant:阿薩巴斯卡;"
+      "conv": "zh-hans:阿萨巴斯卡;zh-hant:阿薩巴斯卡;"
     },
     {
       "original": "Atlanta",
-      "conv": "zh-cn:亚特兰大; zh-hk:亞特蘭大; zh-tw:亞特蘭大; zh-hant:阿特蘭大;"
+      "conv": "zh-cn:亚特兰大;zh-hk:亞特蘭大;zh-tw:亞特蘭大;zh:阿特蘭大;"
     },
     {
       "original": "Austin",
@@ -153,43 +165,47 @@
     },
     {
       "original": "Australasia",
-      "conv": "zh-cn:澳大拉西亚; zh-tw:澳大拉西亞; zh-hk:澳大利西亞;"
+      "conv": "zh-cn:澳大拉西亚;zh-tw:澳大拉西亞;zh-hk:澳大利西亞;"
     },
     {
       "original": "Australia",
-      "conv": "zh-hans:澳大利亚;zh-hant:澳洲;zh-cn:澳大利亚;zh-hk:澳洲;zh-mo:澳洲;zh-my:澳大利亚;zh-sg:澳大利亚;zh-tw:澳洲;"
+      "conv": "zh:澳大利亞;zh-cn:澳大利亚;zh-hk:澳洲;zh-mo:澳洲;zh-tw:澳洲;"
+    },
+    {
+      "original": "Australia",
+      "conv": "澳大利亞=>zh-tw:澳大利亞;澳洲=>zh-sg:澳洲;澳洲=>zh-my:澳洲;"
     },
     {
       "original": "Avignon",
-      "conv": "zh-cn:阿维尼翁; zh-tw:亞維農; zh-hk:亞維農;"
+      "conv": "zh-cn:阿维尼翁;zh-tw:亞維農;zh-hk:亞維農;"
     },
     {
       "original": "Azerbaijan",
-      "conv": "zh-cn:阿塞拜疆; zh-tw:亞塞拜然; zh-hk:阿塞拜疆;"
+      "conv": "zh-cn:阿塞拜疆;zh-tw:亞塞拜然;zh-hk:阿塞拜疆;"
     },
     {
       "original": "Azores",
-      "conv": "zh-cn:亚速尔群岛; zh-hk:亞速爾群島; zh-tw:亞速群島;"
+      "conv": "zh-cn:亚速尔群岛;zh-hk:亞速爾群島;zh-tw:亞速群島;"
     },
     {
       "original": "Älmhult",
-      "conv": "zh-cn:艾尔姆胡尔特; zh-hk:阿姆霍特; zh-tw:阿姆胡特;"
+      "conv": "zh-cn:艾尔姆胡尔特;zh-hk:阿姆霍特;zh-tw:阿姆胡特;"
     },
     {
       "original": "Baker Island",
-      "conv": "zh-cn:贝克岛; zh-hk:必嘉島; zh-tw:貝克島;"
+      "conv": "zh-cn:贝克岛;zh-hk:必嘉島;zh-tw:貝克島;"
     },
     {
       "original": "Baker Street",
-      "conv": "zh-cn:贝克街; zh-hk:必嘉街; zh-tw:貝克街;"
+      "conv": "zh-cn:贝克街;zh-hk:必嘉街;zh-tw:貝克街;"
     },
     {
       "original": "Balearic",
-      "conv": "zh-cn:巴利阿里; zh-hk:巴利阿里; zh-tw:巴利亞利;"
+      "conv": "zh-cn:巴利阿里;zh-hk:巴利阿里;zh-tw:巴利亞利;"
     },
     {
       "original": "Bali",
-      "conv": "zh-cn:巴厘; zh-tw:峇里; zh-hk:峇里; zh-sg:峇厘;"
+      "conv": "zh-cn:巴厘;zh-tw:峇里;zh-hk:峇里;zh-sg:峇厘;"
     },
     {
       "original": "Bangladesh",
@@ -197,15 +213,15 @@
     },
     {
       "original": "Bandar Seri Begawan",
-      "conv": "zh-cn:斯里巴加湾; zh-hk:斯里巴加灣; zh-tw:斯里巴卡旺;"
+      "conv": "zh-cn:斯里巴加湾市;zh-hk:斯里巴加灣市;zh-tw:斯里百加灣市;"
     },
     {
       "original": "Bangui",
-      "conv": "zh-cn:班吉; zh-tw:班基; zh-hk:班基;"
+      "conv": "zh-cn:班吉;zh-tw:班基;zh-hk:班基;"
     },
     {
       "original": "Banjul",
-      "conv": "zh-cn:班珠尔; zh-tw:班竹;"
+      "conv": "zh-cn:班珠尔;zh-tw:班竹;"
     },
     {
       "original": "Barbados",
@@ -213,19 +229,23 @@
     },
     {
       "original": "Barbary",
-      "conv": "zh-cn:巴巴里; zh-tw:巴巴里; zh-hk:巴巴里;"
+      "conv": "zh-cn:巴巴里;zh-tw:巴巴里;zh-hk:巴巴里;"
     },
     {
       "original": "Barcelona",
-      "conv": "zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞隆拿;zh-mo:巴塞羅那;"
+      "conv": "zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞羅那;"
     },
     {
       "original": "Barcelona",
-      "conv": "zh:巴塞隆那;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞隆拿;zh-mo:巴塞羅那;"
+      "conv": "zh:巴塞隆那;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞羅那;"
+    },
+    {
+      "original": "Barcelona",
+      "conv": "zh:巴塞隆拿;zh-cn:巴塞罗那;zh-tw:巴塞隆納;zh-hk:巴塞羅那;"
     },
     {
       "original": "Basseterre",
-      "conv": "zh-cn:巴斯特尔; zh-tw:巴士底; zh-hk:巴斯特爾;"
+      "conv": "zh-cn:巴斯特尔;zh-tw:巴士底;zh-hk:巴斯特爾;"
     },
     {
       "original": "Beaufort",
@@ -233,7 +253,7 @@
     },
     {
       "original": "Beliliou",
-      "conv": "zh-cn:佩莱利乌; zh-tw:貝里琉; zh-hk:貝里琉;"
+      "conv": "zh-cn:佩莱利乌;zh-tw:貝里琉;zh-hk:貝里琉;"
     },
     {
       "original": "Bellona",
@@ -249,39 +269,35 @@
     },
     {
       "original": "Belmopan",
-      "conv": "zh-cn:贝尔莫潘; zh-tw:貝爾墨邦; zh-hk:貝爾墨邦;"
+      "conv": "zh-cn:贝尔莫潘;zh-tw:貝爾墨邦;zh-hk:貝爾墨邦;"
     },
     {
       "original": "Belo Horizonte",
-      "conv": "zh-hans:贝洛奥里藏特; zh-tw:美景市; zh-hk:比路賀利桑特;"
+      "conv": "zh-hans:贝洛奥里藏特;zh-tw:美景市;zh-hk:比路賀利桑特;"
     },
     {
       "original": "Benin",
-      "conv": "zh-cn:贝宁; zh-hk:貝寧; zh-tw:貝南;"
-    },
-    {
-      "original": "Berkeley",
-      "conv": "zh-cn:伯克利; zh-tw:柏克萊;"
+      "conv": "zh-cn:贝宁;zh-hk:貝寧;zh-tw:貝南;"
     },
     {
       "original": "Брэст (Brest)",
-      "conv": "zh-hans:布列斯特; zh-hant:布列斯特;"
+      "conv": "zh-hans:布列斯特;zh-hant:布列斯特;"
     },
     {
       "original": "Bermuda",
-      "conv": "zh-cn:百慕大; zh-hk:百慕達; zh-tw:百慕達;zh-sg:百慕大;"
+      "conv": "zh-cn:百慕大;zh-hk:百慕達;zh-tw:百慕達;zh-sg:百慕大;"
     },
     {
       "original": "Beslan",
-      "conv": "zh-cn:别斯兰; zh-tw:貝司蘭; zh-hk:別斯蘭;"
+      "conv": "zh-cn:别斯兰;zh-tw:貝司蘭;zh-hk:別斯蘭;"
     },
     {
       "original": "Belize",
-      "conv": "zh-hans:伯利兹; zh-tw:貝里斯; zh-hk:伯利茲;"
+      "conv": "zh-hans:伯利兹;zh-tw:貝里斯;zh-hk:伯利茲;"
     },
     {
       "original": "Bilbao",
-      "conv": "zh-hans:毕尔巴鄂; zh-hant:畢爾包;"
+      "conv": "zh-cn:毕尔巴鄂;zh:畢爾巴鄂;zh-tw:畢爾包;"
     },
     {
       "original": "Birmingham",
@@ -289,11 +305,11 @@
     },
     {
       "original": "Bishkek",
-      "conv": "zh-cn:比什凯克; zh-tw:比斯凱克; zh-hk:比什凱克;"
+      "conv": "zh-cn:比什凯克;zh-tw:比斯凱克;zh-hk:比什凱克;"
     },
     {
       "original": "Blantyre",
-      "conv": "zh-cn:布兰太尔; zh-tw:布蘭岱; zh-hk:布蘭太爾;"
+      "conv": "zh-cn:布兰太尔;zh-tw:布蘭岱;zh-hk:布蘭太爾;"
     },
     {
       "original": "Mont Blanc",
@@ -309,19 +325,15 @@
     },
     {
       "original": "Bonaire",
-      "conv": "zh-hans:博奈尔; zh-hk:博奈爾; zh-tw:波奈;"
-    },
-    {
-      "original": "Bonn",
-      "conv": "zh-cn:波恩; zh-tw:波昂; zh-hk:波恩;"
+      "conv": "zh-hans:博奈尔;zh-hk:博奈爾;zh-tw:波奈;"
     },
     {
       "original": "Bophuthatswana",
-      "conv": "zh-hans:博普塔茨瓦纳; zh-hant:博普塔茨瓦納; zh-tw:波布那;"
+      "conv": "zh-hans:博普塔茨瓦纳;zh-hant:博普塔茨瓦納;zh-tw:波布那;"
     },
     {
       "original": "Bošnjaci",
-      "conv": "zh-cn:波什尼亚克; zh-tw:波士尼亞克; zh-hk:波什尼亞克;"
+      "conv": "zh-cn:波什尼亚克;zh-tw:波士尼亞克;zh-hk:波什尼亞克;"
     },
     {
       "original": "Botswana",
@@ -333,11 +345,11 @@
     },
     {
       "original": "Brabant",
-      "conv": "zh-hans:布拉班特; zh-hant:布拉邦;"
+      "conv": "zh-hans:布拉班特;zh-hant:布拉邦;"
     },
     {
       "original": "Bratislava",
-      "conv": "zh-cn:布拉迪斯拉发; zh-tw:布拉提斯拉瓦; zh-hk:布拉迪斯拉發;"
+      "conv": "zh-cn:布拉迪斯拉发;zh-tw:布拉提斯拉瓦;zh-hk:布拉迪斯拉發;"
     },
     {
       "original": "Braunschweig",
@@ -357,19 +369,19 @@
     },
     {
       "original": "Brazza",
-      "conv": "zh-cn:布拉柴; zh-tw:布拉薩; zh-hk:布拉柴;"
+      "conv": "zh-cn:布拉柴;zh-tw:布拉薩;zh-hk:布拉柴;"
     },
     {
       "original": "Brazzaville",
-      "conv": "zh-cn:布拉柴维尔; zh-tw:布拉薩市; zh-hk:布拉柴維爾;"
+      "conv": "zh-cn:布拉柴维尔;zh-tw:布拉薩市;zh-hk:布拉柴維爾;"
     },
     {
       "original": "Bremen",
-      "conv": "zh-cn:不来梅; zh-tw:不來梅; zh-hk:不萊梅;"
+      "conv": "zh-cn:不来梅;zh-tw:不來梅;zh-hk:不萊梅;"
     },
     {
       "original": "Bridgetown",
-      "conv": "zh-cn:布里奇顿; zh-tw:橋鎮;"
+      "conv": "zh-cn:布里奇顿;zh-tw:橋鎮;"
     },
     {
       "original": "Brighton",
@@ -393,11 +405,11 @@
     },
     {
       "original": "Bringeland",
-      "conv": "zh-tw:布林格蘭; zh-cn:布灵厄兰; zh-hk:兵基蘭;"
+      "conv": "zh-tw:布林格蘭;zh-cn:布灵厄兰;zh-hk:兵基蘭;"
     },
     {
       "original": "British Columbia",
-      "conv": "zh-cn:不列颠哥伦比亚; zh-tw:英屬哥倫比亞; zh-hk:卑詩;"
+      "conv": "zh-cn:不列颠哥伦比亚;zh-tw:英屬哥倫比亞;zh-hk:卑詩;"
     },
     {
       "original": "British Columbia",
@@ -405,59 +417,67 @@
     },
     {
       "original": "Brisbane",
-      "conv": "zh-hans:布里斯班;zh-hant:布里斯本;zh-tw:布里斯本;zh-hk:布里斯班;zh-mo:布里斯本;zh-cn:布里斯班"
+      "conv": "zh-hans:布里斯班;zh-hant:布里斯本;zh-tw:布里斯本;zh-hk:布里斯本;zh-mo:布里斯本;zh-cn:布里斯班"
     },
     {
       "original": "Bristol",
-      "conv": "zh-cn:布里斯托尔; zh-tw:布里斯托;"
+      "conv": "zh-cn:布里斯托尔;zh:布里斯托爾;zh-tw:布里斯托;"
     },
     {
       "original": "Brunei",
-      "conv": "zh-cn:文莱; zh-tw:汶萊; zh-hk:汶萊;zh-sg:汶莱;zh-my:文莱;"
+      "conv": "zh-cn:文莱;zh:文萊;zh-tw:汶萊;zh-hk:汶萊;zh-sg:汶莱;zh-my:文莱;"
     },
     {
       "original": "Brunei Darussalam",
-      "conv": "zh-cn:文莱达鲁萨兰国; zh-tw:汶萊和平之國; zh-hk:汶萊達魯薩蘭國; zh-sg:汶莱达鲁萨兰国;"
+      "conv": "zh-cn:文莱达鲁萨兰国;zh-tw:汶萊和平之國;zh-hk:汶萊達魯薩蘭國;zh-sg:汶莱达鲁萨兰国;"
+    },
+    {
+      "original": "Brunswick",
+      "conv": "zh-cn:不伦瑞克;zh-hk:賓士域;zh-tw:布藍茲維;"
+    },
+    {
+      "original": "Bucha",
+      "conv": "zh-hk:布查;zh-tw:布查;zh-my:布查;zh-cn:布恰"
     },
     {
       "original": "Buffalo",
-      "conv": "zh-cn:布法罗; zh-tw:水牛城;"
+      "conv": "zh-cn:布法罗;zh:布法羅;zh-tw:水牛城;"
     },
     {
       "original": "Bujumbura",
-      "conv": "zh-cn:布琼布拉; zh-tw:布松布拉;"
+      "conv": "zh-cn:布琼布拉;zh-tw:布松布拉;"
     },
     {
       "original": "Burgenland",
-      "conv": "zh-cn:布尔根兰; zh-hk:布爾根蘭; zh-tw:布根蘭;"
+      "conv": "zh-cn:布尔根兰;zh-hk:布爾根蘭;zh-tw:布根蘭;"
     },
     {
       "original": "Burbank",
-      "conv": "zh-cn:伯班克; zh-hk:柏本克; zh-tw:柏本克;"
+      "conv": "zh-cn:伯班克;zh-hk:柏本克;zh-tw:柏本克;"
     },
     {
       "original": "Burgos",
-      "conv": "zh-hans:布尔戈斯; zh-hant:布爾戈斯; zh-tw:布哥斯;"
+      "conv": "zh-hans:布尔戈斯;zh-hant:布爾戈斯;zh-tw:布哥斯;"
     },
     {
       "original": "Burkina Faso",
-      "conv": "zh-cn:布基纳法索; zh-hk:布基納法索; zh-tw:布吉納法索;"
+      "conv": "zh-cn:布基纳法索;zh-hk:布基納法索;zh-tw:布吉納法索;"
     },
     {
       "original": "Burundi",
-      "conv": "zh-cn:布隆迪; zh-hk:布隆迪; zh-tw:蒲隆地;"
+      "conv": "zh-cn:布隆迪;zh-hk:布隆迪;zh-tw:蒲隆地;"
     },
     {
       "original": "Cádiz",
-      "conv": "zh-cn:加的斯; zh-hk:卡迪斯; zh-tw:卡迪斯;"
+      "conv": "zh-cn:加的斯;zh-hk:卡迪斯;zh-tw:卡迪斯;"
     },
     {
       "original": "Côte d'Ivoire",
-      "conv": "zh-cn:科特迪瓦; zh-hk:科特迪瓦; zh-tw:象牙海岸; zh-sg:象牙海岸;"
+      "conv": "zh-cn:科特迪瓦;zh-hk:科特迪瓦;zh-tw:象牙海岸;zh-sg:象牙海岸;"
     },
     {
       "original": "Caicos",
-      "conv": "zh-cn:凯科斯; zh-tw:凱可; zh-hk:凱科斯;"
+      "conv": "zh-cn:凯科斯;zh-tw:凱可;zh-hk:凱科斯;"
     },
     {
       "original": "Calais, Pas de",
@@ -465,27 +485,27 @@
     },
     {
       "original": "Calgary",
-      "conv": "zh-hans:卡尔加里;zh-hant:卡加利;zh-hk:卡加利;zh-tw:卡加利;zh-mo:卡加利;"
+      "conv": "zh-cn:卡尔加里;zh:卡爾加里;zh-hk:卡加利;zh-tw:卡加利;zh-mo:卡加利;"
     },
     {
       "original": "Cannes",
-      "conv": "zh-cn:戛纳; zh-tw:坎城; zh-hk:康城; zh-sg:康城; zh-my:康城; zh:戛納;"
+      "conv": "zh-cn:戛纳;zh-tw:坎城;zh-hk:康城;zh-sg:康城;zh-my:康城;zh:戛納;"
     },
     {
       "original": "Cape Canaveral",
-      "conv": "zh-cn:卡纳维拉尔角; zh-tw:卡納維爾角; zh-hk:卡納維拉爾角;"
+      "conv": "zh-cn:卡纳维拉尔角;zh-tw:卡納維爾角;zh-hk:卡納維拉爾角;"
     },
     {
       "original": "Cape Verde",
-      "conv": "zh-cn:佛得角; zh-hk:維德角; zh-tw:維德角;"
+      "conv": "zh-cn:佛得角;zh-hk:維德角;zh-tw:維德角;"
     },
     {
       "original": "Caracas",
-      "conv": "zh-cn:加拉加斯; zh-tw:卡拉卡斯; zh-hk:卡拉卡斯;"
+      "conv": "zh-cn:加拉加斯;zh-tw:卡拉卡斯;zh-hk:卡拉卡斯;"
     },
     {
       "original": "Cardiff",
-      "conv": "zh-cn:加的夫; zh-hk:卡迪夫; zh-tw:卡地夫;"
+      "conv": "zh-cn:加的夫;zh-hk:卡迪夫;zh-tw:卡地夫;"
     },
     {
       "original": "Caernarfon/Carnarvon",
@@ -517,7 +537,7 @@
     },
     {
       "original": "Castilla",
-      "conv": "zh-cn:卡斯蒂利亚; zh-hant:卡斯蒂利亞; zh-tw:卡斯提亞;"
+      "conv": "zh-cn:卡斯蒂利亚;zh-hant:卡斯蒂利亞;zh-tw:卡斯提亞;"
     },
     {
       "original": "Castilla-La Mancha",
@@ -525,11 +545,11 @@
     },
     {
       "original": "Castries",
-      "conv": "zh-cn:卡斯特里; zh-tw:卡斯翠;"
+      "conv": "zh-cn:卡斯特里;zh-tw:卡斯翠;"
     },
     {
       "original": "Catalonia",
-      "conv": "zh-cn:加泰罗尼亚; zh-hk:加泰羅尼亞; zh-tw:加泰隆尼亞;"
+      "conv": "zh-cn:加泰罗尼亚;zh-hk:加泰羅尼亞;zh-tw:加泰隆尼亞;"
     },
     {
       "original": "Chad",
@@ -537,19 +557,19 @@
     },
     {
       "original": "Chagos",
-      "conv": "zh-cn:查戈斯; zh-tw:查哥斯;"
+      "conv": "zh-cn:查戈斯;zh-tw:查哥斯;"
     },
     {
       "original": "Charing",
-      "conv": "zh-cn:查灵; zh-hk:查令; zh-tw:查令;"
+      "conv": "zh-cn:查灵;zh-hk:查令;zh-tw:查令;"
     },
     {
       "original": "Chennai",
-      "conv": "zh-cn:金奈; zh-hk:清奈; zh-sg:清奈; zh-tw:欽奈;"
+      "conv": "zh-cn:金奈;zh-hk:清奈;zh-sg:清奈;zh-tw:欽奈;"
     },
     {
       "original": "Chernobyl",
-      "conv": "zh-cn:切尔诺贝利; zh-tw:車諾比; zh-hk:切爾諾貝爾;"
+      "conv": "zh-cn:切尔诺贝利;zh:切爾諾貝利;zh-tw:車諾比;zh-hk:切爾諾貝爾;"
     },
     {
       "original": "Chișinău",
@@ -561,7 +581,7 @@
     },
     {
       "original": "Ciskei",
-      "conv": "zh-hans:西斯凯; zh-hant:西斯凱; zh-tw:希斯凱;"
+      "conv": "zh-hans:西斯凯;zh-hant:西斯凱;zh-tw:希斯凱;"
     },
     {
       "original": "Coimbra",
@@ -573,31 +593,31 @@
     },
     {
       "original": "Colombo",
-      "conv": "zh-cn:科伦坡; zh-tw:可倫坡; zh-hk:科倫坡; zh-sg:哥伦坡;"
+      "conv": "zh-cn:科伦坡;zh-tw:可倫坡;zh-hk:科倫坡;zh-sg:哥伦坡;"
     },
     {
       "original": "Colorado Springs",
-      "conv": "zh-hans:科罗拉多斯普林斯; zh-hant:科羅拉多泉;"
+      "conv": "zh-hans:科罗拉多斯普林斯;zh-hant:科羅拉多泉;"
     },
     {
       "original": "Commonwealth of Australia",
-      "conv": "zh-hant:澳大利亞聯邦; zh-hans:澳大利亚联邦;"
+      "conv": "zh-hant:澳大利亞聯邦;zh-hans:澳大利亚联邦;"
     },
     {
       "original": "Commonwealth of Nations",
-      "conv": "zh-cn:英联邦; zh-tw:大英國協; zh-hk:英聯邦; zh-sg:共和联邦;"
+      "conv": "zh-cn:英联邦;zh-tw:大英國協;zh-hk:英聯邦;zh-sg:共和联邦;"
     },
     {
       "original": "Commonwealth of Independent States",
-      "conv": "zh-cn:独联体; zh-hk:獨聯體; zh-tw:獨立國協;"
+      "conv": "zh-cn:独联体;zh-hk:獨聯體;zh-tw:獨立國協;"
     },
     {
       "original": "Comoros",
-      "conv": "zh-cn:科摩罗; zh-hk:科摩羅; zh-tw:葛摩;"
+      "conv": "zh-cn:科摩罗;zh-hk:科摩羅;zh-tw:葛摩;"
     },
     {
       "original": "Conakry",
-      "conv": "zh-cn:科纳克里; zh-tw:柯那克里;"
+      "conv": "zh-cn:科纳克里;zh-tw:柯那克里;"
     },
     {
       "original": "Connacht/Connaught",
@@ -609,47 +629,47 @@
     },
     {
       "original": "Córdoba",
-      "conv": "zh-hans:科尔多瓦; zh-hant:科爾多瓦; zh-tw:哥多華;"
+      "conv": "zh-hans:科尔多瓦;zh-hant:科爾多瓦;zh-tw:哥多華;"
     },
     {
       "original": "Cortina d’Ampezzo",
-      "conv": "zh-cn:科尔蒂纳丹佩佐; zh-tw:柯蒂納戴比索;zh-hk:哥甸拿丹普素;"
+      "conv": "zh-cn:科尔蒂纳丹佩佐;zh-tw:柯蒂納戴比索;zh-hk:哥甸拿丹普素;"
     },
     {
       "original": "Costa Rica",
-      "conv": "zh-cn:哥斯达黎加; zh-hk:哥斯達黎加; zh-tw:哥斯大黎加;"
+      "conv": "zh-cn:哥斯达黎加;zh-hk:哥斯達黎加;zh-tw:哥斯大黎加;"
     },
     {
       "original": "Coventry",
-      "conv": "zh-cn:考文垂; zh-hk:高雲地利; zh-tw:科芬特里;"
+      "conv": "zh-cn:考文垂;zh-hk:高雲地利;zh-tw:科芬特里;"
     },
     {
-      "original": "Crimea, Крым, Крим, Qırım",
-      "conv": "zh-hans:克里米亚; zh-hant:克里米亞;"
+      "original": "Crimea, Крим, Qırım, Крым",
+      "conv": "zh-hans:克里米亚;zh-hant:克里米亞;"
     },
     {
-      "original": "Crimea, Крым, Крим, Qırım",
-      "conv": "zh-hans:克里木; zh-hant:克里木;"
+      "original": "Crimea, Крим, Qırım, Крым",
+      "conv": "zh-hans:克里木;zh-hant:克里木;"
     },
     {
       "original": "Cuanza",
-      "conv": "zh-cn:宽扎; zh-tw:廣薩;"
+      "conv": "zh-cn:宽扎;zh-tw:廣薩;"
     },
     {
       "original": "Curaçao",
-      "conv": "zh-hans:库拉索; zh-hk:庫拉索; zh-tw:古拉索;"
+      "conv": "zh-hans:库拉索;zh-hk:庫拉索;zh-tw:古拉索;"
     },
     {
       "original": "Cyprus",
-      "conv": "zh-cn:塞浦路斯; zh-hk:塞浦路斯; zh-tw:賽普勒斯;"
+      "conv": "zh-cn:塞浦路斯;zh-hk:塞浦路斯;zh-tw:賽普勒斯;"
     },
     {
       "original": "道里",
-      "conv": "zh-cn:道里; zh-hans:道里; zh-tw:道裡; zh-hk:道裡; zh-hans:道裡;"
+      "conv": "zh-cn:道里;zh-hans:道里;zh-tw:道裡;zh-hk:道裏;zh-hant:道裏;"
     },
     {
       "original": "道里区",
-      "conv": "zh-cn:道里区; zh-hans:道里区; zh-tw:道裡區; zh-hk:道裡區; zh-hans:道裡區;"
+      "conv": "zh-cn:道里区;zh-hans:道里区;zh-tw:道裡區;zh-hk:道裏區;zh-hant:道裏區;"
     },
     {
       "original": "Dar es Salaam",
@@ -665,7 +685,7 @@
     },
     {
       "original": "Denpasar",
-      "conv": "zh-cn:登巴萨; zh-tw:丹帕沙; zh-hk:登巴薩; zh-sg:登巴萨;"
+      "conv": "zh-cn:登巴萨;zh-tw:丹帕沙;zh-hk:登巴薩;zh-sg:登巴萨;"
     },
     {
       "original": "Delft",
@@ -673,35 +693,31 @@
     },
     {
       "original": "Dibër",
-      "conv": "zh-hans:迪勃拉; zh-hant:第巴爾;"
+      "conv": "zh-hans:迪勃拉;zh-hant:第巴爾;"
     },
     {
       "original": "Dili",
-      "conv": "zh-cn:帝力; zh-tw:狄力; zh-hk:帝力;"
+      "conv": "zh-cn:帝力;zh-tw:狄力;zh-hk:帝力;"
     },
     {
       "original": "Djibouti",
-      "conv": "zh-cn:吉布提; zh-hk:吉布提; zh-tw:吉布地;"
+      "conv": "zh-cn:吉布提;zh-hk:吉布提;zh-tw:吉布地;"
     },
     {
       "original": "Dodoma",
-      "conv": "zh:多多馬;zh-cn:多多马;zh-tw:杜篤瑪;"
+      "conv": "zh-cn:多多马; zh-tw:杜篤瑪; zh-hk:多多馬;"
     },
     {
       "original": "Doha",
-      "conv": "zh-cn:多哈; zh-tw:杜哈; zh-hk:多哈;"
+      "conv": "zh-cn:多哈;zh-tw:杜哈;zh-hk:多哈;"
     },
     {
       "original": "Dominicana",
-      "conv": "zh-cn:多米尼加; zh-tw:多明尼加; zh-hk:多米尼加;"
+      "conv": "zh-cn:多米尼加;zh-tw:多明尼加;zh-hk:多米尼加;"
     },
     {
       "original": "Dniester",
-      "conv": "zh-cn:德涅斯特; zh-tw:聶斯特; zh-hk:德涅斯特;"
-    },
-    {
-      "original": "Dnieper",
-      "conv": "zh-hans:第聂伯;zh-hk:第聶伯;zh-tw:聶伯;"
+      "conv": "zh-cn:德涅斯特河;zh-tw:聶斯特河;zh-hk:德涅斯特河;"
     },
     {
       "original": "Douro/Duero",
@@ -709,71 +725,71 @@
     },
     {
       "original": "DPRK",
-      "conv": "zh-cn:朝鲜民主主义人民共和国; zh-tw:朝鮮民主主義人民共和國;"
+      "conv": "zh-cn:朝鲜民主主义人民共和国;zh-tw:朝鮮民主主義人民共和國;"
     },
     {
       "original": "Drakensberg",
-      "conv": "zh-hans:德拉肯斯山脉; zh-hant:德拉肯斯山脈; zh-tw:龍山山脈;"
+      "conv": "zh-hans:德拉肯斯山脉;zh-hant:德拉肯斯山脈;zh-tw:龍山山脈;"
     },
     {
       "original": "Durban",
-      "conv": "zh-hans:德班; zh-hant:德班; zh-tw:德爾班;"
+      "conv": "zh-hans:德班;zh-hant:德班;zh-tw:德爾班;"
     },
     {
       "original": "Dushanbe",
-      "conv": "zh-cn:杜尚别; zh-tw:杜尚貝; zh-hk:杜尚別;"
+      "conv": "zh-cn:杜尚别;zh-tw:杜尚貝;zh-hk:杜尚別;"
     },
     {
       "original": "Dresden",
-      "conv": "zh-cn:德累斯顿; zh-tw:德勒斯登; zh-hk:德累斯頓;"
+      "conv": "zh-cn:德累斯顿;zh-tw:德勒斯登;zh-hk:德累斯頓;"
     },
     {
       "original": "Darmstadt",
-      "conv": "zh-cn:达姆施塔特; zh-tw:達姆城;"
+      "conv": "zh-cn:达姆施塔特;zh-tw:達姆城;"
     },
     {
       "original": "Edmonton",
-      "conv": "zh-hans:埃德蒙顿; zh-hant:艾德蒙頓; zh-hk:愛民頓; zh-tw:愛蒙頓; zh-mo:愛民頓;"
+      "conv": "zh-hans:埃德蒙顿;zh-hant:艾德蒙頓;zh-hk:愛民頓;zh-tw:愛蒙頓;zh-mo:愛民頓;"
     },
     {
       "original": "Edirne",
-      "conv": "zh-tw:愛第尼; zh-hant:埃迪爾內; zh-hans:埃迪尔内;"
+      "conv": "zh-tw:愛第尼;zh-hant:埃迪爾內;zh-hans:埃迪尔内;"
     },
     {
       "original": "جمهوريّة مصرالعربيّة、Arab Republic of Egypt",
-      "conv": "zh-cn:阿拉伯埃及共和国; zh-tw:埃及阿拉伯共和國;"
+      "conv": "zh-cn:阿拉伯埃及共和国;zh-tw:埃及阿拉伯共和國;"
     },
     {
       "original": "Eindhoven",
-      "conv": "zh-cn:埃因霍温; zh-hant:埃因霍溫; zh-hk:燕豪芬; zh-tw:恩荷芬; zh-sg:艾恩德霍芬;"
+      "conv": "zh-cn:埃因霍温;zh-hant:埃因霍溫;zh-hk:燕豪芬;zh-tw:恩荷芬;zh-sg:艾恩德霍芬;"
     },
     {
       "original": "English Channel",
-      "conv": "zh-cn:英吉利海峡; zh-hk:英倫海峽; zh-tw:英吉利海峽;"
+      "conv": "zh-cn:英吉利海峡;zh-hk:英倫海峽;zh-tw:英吉利海峽;"
     },
     {
       "original": "Erbil",
-      "conv": "zh-hans:埃尔比勒; zh-hant:埃爾比勒; zh-tw:艾比爾;"
+      "conv": "zh-hans:埃尔比勒;zh-hant:埃爾比勒;zh-tw:艾比爾;"
     },
     {
       "original": "Eritrea",
-      "conv": "zh-cn:厄立特里亚; zh-hk:厄立特里亞; zh-tw:厄利垂亞;"
+      "conv": "zh-cn:厄立特里亚;zh-hk:厄立特里亞;zh-tw:厄利垂亞;"
     },
     {
       "original": "Ethiopia",
-      "conv": "zh-cn:埃塞俄比亚; zh-hk:埃塞俄比亞; zh-tw:衣索比亞;"
+      "conv": "zh-cn:埃塞俄比亚;zh-hk:埃塞俄比亞;zh-tw:衣索比亞;"
     },
     {
       "original": "Euboea",
-      "conv": "zh-cn:埃维亚; zh-hk:埃維亞; zh-tw:尤比亞;"
+      "conv": "zh-cn:埃维亚;zh-hk:埃維亞;zh-tw:尤比亞;"
     },
     {
       "original": "Eisenach",
-      "conv": "zh-cn:爱森纳赫; zh-tw:艾森納赫;"
+      "conv": "zh-cn:爱森纳赫;zh-tw:艾森納赫;"
     },
     {
       "original": "Florence",
-      "conv": "zh-hans:佛罗伦萨; zh-tw:佛羅倫斯; zh-hk:佛羅倫斯;"
+      "conv": "zh-hans:佛罗伦萨;zh-tw:佛羅倫斯;zh-hk:佛羅倫斯;"
     },
     {
       "original": "Flevoland",
@@ -781,7 +797,7 @@
     },
     {
       "original": "Freycinet",
-      "conv": "zh-hans:弗雷西内; zh-tw:弗雷西內; zh-hk:菲瑟涅;"
+      "conv": "zh-hans:弗雷西内;zh-tw:弗雷西內;zh-hk:菲瑟涅;"
     },
     {
       "original": "Friesland",
@@ -801,11 +817,11 @@
     },
     {
       "original": "Gabon",
-      "conv": "zh-cn:加蓬; zh-hk:加蓬; zh-tw:加彭;"
+      "conv": "zh-cn:加蓬;zh-hk:加蓬;zh-tw:加彭;"
     },
     {
       "original": "Gaborone",
-      "conv": "zh-cn:哈博罗内; zh-tw:嘉柏隆里;"
+      "conv": "zh-cn:哈博罗内;zh-tw:嘉柏隆里;"
     },
     {
       "original": "Galápagos Islands",
@@ -825,31 +841,31 @@
     },
     {
       "original": "Georgetown",
-      "conv": "zh-cn:乔治敦; zh-tw:喬治城; zh-hk:佐治城;"
+      "conv": "zh-cn:乔治敦;zh-tw:喬治城;zh-hk:佐治城;"
     },
     {
       "original": "Georgia (country)",
-      "conv": "zh-cn:格鲁吉亚; zh-hk:格魯吉亞; zh-tw:喬治亞;"
+      "conv": "zh-cn:格鲁吉亚;zh-hk:格魯吉亞;zh-tw:喬治亞;"
     },
     {
       "original": "Georgia (state)",
-      "conv": "zh-cn:佐治亚州; zh-hk:佐治亞州; zh-tw:喬治亞州;"
+      "conv": "zh-cn:佐治亚州;zh-hk:佐治亞州;zh-tw:喬治亞州;"
     },
     {
       "original": "Goderich",
-      "conv": "zh-cn:戈德里奇; zh-hk:哥打列治; zh-tw:戈德里奇;"
+      "conv": "zh-cn:戈德里奇;zh-hk:哥打列治;zh-tw:戈德里奇;"
     },
     {
       "original": "Gosford",
-      "conv": "zh-cn:戈斯福德; zh-hk:高士福; zh-tw:高士福;"
+      "conv": "zh-cn:戈斯福德;zh-hk:高士福;zh-tw:高士福;"
     },
     {
       "original": "Gothenburg",
-      "conv": "zh-cn:哥德堡; zh-tw:哥特堡; zh-hk:哥德堡; zh-sg:哥德堡;"
+      "conv": "zh-cn:哥德堡;zh-tw:哥特堡;zh-hk:哥德堡;zh-sg:哥德堡;"
     },
     {
       "original": "Graz",
-      "conv": "zh-cn:格拉茨; zh-tw:格拉茲; zh-hk:格拉茨;"
+      "conv": "zh-cn:格拉茨;zh-tw:格拉茲;zh-hk:格拉茨;"
     },
     {
       "original": "Granada",
@@ -857,15 +873,15 @@
     },
     {
       "original": "Grenada",
-      "conv": "zh:格林纳达; zh-cn:格林纳达; zh-tw:格瑞那達; zh-hk:格林納達;"
+      "conv": "zh:格林纳达;zh-cn:格林纳达;zh-tw:格瑞那達;zh-hk:格林納達;"
     },
     {
       "original": "Guadalcanal",
-      "conv": "zh-cn:瓜达尔卡纳尔;zh-tw:瓜達康納爾; zh-hk:瓜達爾卡納爾;"
+      "conv": "zh-cn:瓜达尔卡纳尔;zh-tw:瓜達康納爾;zh-hk:瓜達爾卡納爾;"
     },
     {
       "original": "Guadalupe",
-      "conv": "zh-cn:瓜达卢佩; zh-tw:瓜達魯佩; zh-hk:瓜達盧佩;"
+      "conv": "zh-cn:瓜达卢佩;zh-tw:瓜達魯佩;zh-hk:瓜達盧佩;"
     },
     {
       "original": "Guadalupe",
@@ -873,51 +889,59 @@
     },
     {
       "original": "Guadalupe",
-      "conv": "zh-cn:瓜达卢普; zh-tw:瓜達魯普; zh-hk:瓜達盧普;"
+      "conv": "zh-cn:瓜达卢普;zh-tw:瓜達魯普;zh-hk:瓜達盧普;"
     },
     {
       "original": "Guatemala",
-      "conv": "zh-cn:危地马拉; zh-tw:瓜地馬拉; zh-hk:危地馬拉;"
+      "conv": "zh-cn:危地马拉;zh-tw:瓜地馬拉;zh-hk:危地馬拉;"
     },
     {
       "original": "Guatemala City",
-      "conv": "zh-cn:危地马拉城; zh-tw:瓜地馬拉市; zh-hk:危地馬拉市;"
+      "conv": "zh-cn:危地马拉城;zh-tw:瓜地馬拉市;zh-hk:危地馬拉市;"
     },
     {
       "original": "Guinea-Bissau",
-      "conv": "zh-cn:几内亚比绍; zh-hk:畿內亞比紹; zh-tw:幾內亞比索;"
+      "conv": "zh-cn:几内亚比绍;zh-hk:畿內亞比紹;zh-tw:幾內亞比索;"
     },
     {
       "original": "Guinea",
-      "conv": "zh-cn:几内亚; zh-hk:畿內亞; zh-tw:幾內亞;"
+      "conv": "zh-cn:几内亚;zh-hk:畿內亞;zh-tw:幾內亞;"
+    },
+    {
+      "original": "Guyana",
+      "conv": "zh-hans:圭亚那;zh-hant:圭亞那;zh-tw:蓋亞那;"
     },
     {
       "original": "Győr-Moson-Sopron",
-      "conv": "zh-cn:杰尔-莫雄-肖普朗; zh-tw:焦爾-莫松-肖普朗; zh-hk:傑爾-莫雄-肖普朗;"
+      "conv": "zh-cn:杰尔-莫雄-肖普朗;zh-tw:焦爾-莫松-肖普朗;zh-hk:傑爾-莫雄-肖普朗;"
     },
     {
       "original": "Hamilton",
-      "conv": "zh-cn:汉密尔顿; zh-tw:漢密爾頓; zh-hk:咸美頓;"
+      "conv": "zh-cn:汉密尔顿;zh-tw:漢密爾頓;zh-hk:咸美頓;"
     },
     {
       "original": "Hamilton",
-      "conv": "zh-cn:哈密尔顿; zh-hk:咸美頓; zh-tw:漢彌爾頓;"
+      "conv": "zh-cn:哈密尔顿;zh-hk:咸美頓;zh-tw:漢彌爾頓;"
     },
     {
       "original": "Härnösand",
-      "conv": "海讷桑德; zh-hk:海訥珊; zh-tw:哈內珊;"
+      "conv": "海讷桑德;zh-hk:海訥珊;zh-tw:哈內珊;"
     },
     {
       "original": "Haute Volta",
-      "conv": "zh-cn:上沃尔特; zh-hk:上沃爾特;zh-tw:上伏塔;"
+      "conv": "zh-cn:上沃尔特;zh-hk:上沃爾特;zh-tw:上伏塔;"
     },
     {
       "original": "Havana",
-      "conv": "zh-cn:哈瓦那; zh-hk:夏灣拿; zh-tw:哈瓦那;"
+      "conv": "zh-cn:哈瓦那;zh-hk:夏灣拿;zh-tw:哈瓦那;"
+    },
+    {
+      "original": "Heard Island and McDonald Island",
+      "conv": "zh-hans:赫德岛和麦克唐纳群岛 ;zh-hant:赫德島和麥克唐納群島 ;zh-tw:赫德及麥當勞群島 ;"
     },
     {
       "original": "Hebron",
-      "conv": "zh-cn:希伯伦; zh-hk:希伯倫; zh-tw:希布倫;"
+      "conv": "zh-cn:希伯伦;zh-hk:希伯倫;zh-tw:希布倫;"
     },
     {
       "original": "Hebron",
@@ -933,11 +957,11 @@
     },
     {
       "original": "Hobart",
-      "conv": "zh-hans:霍巴特; zh-tw:荷巴特; zh-hk:荷伯特;"
+      "conv": "zh-hans:霍巴特;zh-tw:荷巴特;zh-hk:荷伯特;"
     },
     {
       "original": "Hollywood",
-      "conv": "zh-cn:好莱坞; zh-tw:好萊塢; zh-hk:荷里活;"
+      "conv": "zh-cn:好莱坞;zh-tw:好萊塢;zh-hk:荷里活;"
     },
     {
       "original": "Holstein",
@@ -945,11 +969,11 @@
     },
     {
       "original": "Honiara",
-      "conv": "zh-cn:霍尼亚拉; zh-tw:荷尼阿拉;"
+      "conv": "zh-cn:霍尼亚拉;zh-tw:荷尼阿拉;"
     },
     {
       "original": "Honduras",
-      "conv": "zh-cn:洪都拉斯; zh-tw:宏都拉斯; zh-hk:洪都拉斯;"
+      "conv": "zh-cn:洪都拉斯;zh-tw:宏都拉斯;zh-hk:洪都拉斯;"
     },
     {
       "original": "Houston",
@@ -957,15 +981,15 @@
     },
     {
       "original": "Huron",
-      "conv": "zh-cn:休伦; zh-hk:曉倫; zh-tw:休倫;"
+      "conv": "zh-cn:休伦;zh-hk:曉倫;zh-tw:休倫;"
     },
     {
       "original": "Iberia",
-      "conv": "zh-cn:伊比利亚; zh-hk:伊比利亞; zh-tw:伊比利;"
+      "conv": "zh-cn:伊比利亚;zh-hk:伊比利亞;zh-tw:伊比利;"
     },
     {
       "original": "IJssel",
-      "conv": "zh-hans:艾瑟尔; zh-hant:艾瑟爾; zh-hk:愛塞; zh-tw:愛塞;"
+      "conv": "zh-hans:艾瑟尔;zh-hant:艾瑟爾;zh-hk:愛塞;zh-tw:愛塞;"
     },
     {
       "original": "Illes Balears",
@@ -973,39 +997,39 @@
     },
     {
       "original": "inuit",
-      "conv": "zh-hans:因纽特; zh-hant:因努伊特;"
+      "conv": "zh-hans:因纽特;zh-hant:因努伊特;"
     },
     {
       "original": "Irkutsk",
-      "conv": "zh-hant:伊爾庫茨克;zh-hans:伊尔库茨克; zh-tw:伊爾庫次克;"
+      "conv": "zh-hant:伊爾庫茨克;zh-hans:伊尔库茨克;zh-tw:伊爾庫次克;"
     },
     {
       "original": "Islamabad",
-      "conv": "zh-cn:伊斯兰堡; zh-tw:伊斯蘭瑪巴德; zh-hk:伊斯蘭堡;"
+      "conv": "zh-cn:伊斯兰堡;zh-tw:伊斯蘭瑪巴德;zh-hk:伊斯蘭堡;"
     },
     {
       "original": "Istanbul",
-      "conv": "zh-hant:伊斯坦布爾; zh-cn:伊斯坦布尔; zh-tw:伊斯坦堡; zh-hk:伊斯坦堡; zh-sg:伊斯坦布尔;"
+      "conv": "zh-hant:伊斯坦布爾;zh-cn:伊斯坦布尔;zh-tw:伊斯坦堡;zh-hk:伊斯坦堡;zh-sg:伊斯坦布尔;"
     },
     {
       "original": "Italian Libya",
-      "conv": "zh-cn:意属利比亚; zh-tw:義屬利比亞; zh-hk:意屬利比亞; zh-sg:意属利比亚;"
+      "conv": "zh-cn:意属利比亚;zh-tw:義屬利比亞;zh-hk:意屬利比亞;zh-sg:意属利比亚;"
     },
     {
       "original": "Italiana",
-      "conv": "zh-hans:意属; zh-cn:意属; zh-tw:義屬; zh-hk:意屬; zh-sg:意属;"
+      "conv": "zh-hans:意属;zh-cn:意属;zh-tw:義屬;zh-hk:意屬;zh-sg:意属;"
     },
     {
       "original": "Ivano-Frankivsk",
-      "conv": "zh-cn:伊万诺-弗兰科夫斯克; zh-hk:伊凡-法兰科夫; zh-tw:伊瓦諾-福蘭基夫斯克;"
+      "conv": "zh-cn:伊万诺-弗兰科夫斯克;zh-hk:伊凡諾-法蘭科夫斯克;zh-tw:伊凡諾-法蘭科夫斯克;"
     },
     {
       "original": "Canton of Jura",
-      "conv": "zh-cn:汝拉州; zh-hk:侏羅州; zh-tw:侏羅邦;"
+      "conv": "zh-cn:汝拉州;zh-hk:侏羅州;zh-tw:侏羅邦;"
     },
     {
       "original": "Jura",
-      "conv": "zh-cn:汝拉山; zh-hk:侏羅山; zh-tw:侏羅山;"
+      "conv": "zh-cn:汝拉山;zh-hk:侏羅山;zh-tw:侏羅山;"
     },
     {
       "original": "Johannesburg",
@@ -1037,27 +1061,27 @@
     },
     {
       "original": "Kazakhstan",
-      "conv": "zh-cn:哈萨克斯坦; zh-hk:哈薩克; zh-tw:哈薩克; zh-hant:哈薩克斯坦;zh-hans:哈萨克斯坦;"
+      "conv": "zh-cn:哈萨克斯坦;zh-hk:哈薩克;zh-tw:哈薩克;zh-hant:哈薩克斯坦;zh-hans:哈萨克斯坦;"
     },
     {
       "original": "Kermadec",
-      "conv": "zh-cn:克马德克; zh-hk:克馬德克; zh-tw:克馬德克;zh:克馬得;"
+      "conv": "zh-cn:克马德克;zh-hk:克馬德克;zh-tw:克馬德克;zh:克馬得;"
     },
     {
       "original": "Kenya",
-      "conv": "zh-cn:肯尼亚; zh-hk:肯雅; zh-tw:肯亞;"
+      "conv": "zh-cn:肯尼亚;zh-hant:肯尼亞;zh-hk:肯雅;zh-tw:肯亞;"
     },
     {
-      "original": "Керч",
+      "original": "Kerch, Керч",
       "conv": "zh-hans:刻赤;zh-hant:克赤;"
     },
     {
       "original": "Kitchener",
-      "conv": "zh-hans:基奇纳; zh-hk:基秦拿; zh-tw:基秦拿;"
+      "conv": "zh-hans:基奇纳;zh-hk:基秦拿;zh-tw:基秦拿;"
     },
     {
       "original": "Kigali",
-      "conv": "zh-cn:基加利; zh-tw:吉佳利; zh-hk:基加利;"
+      "conv": "zh-cn:基加利;zh-tw:吉佳利;zh-hk:基加利;"
     },
     {
       "original": "Kingston",
@@ -1093,19 +1117,23 @@
     },
     {
       "original": "Korçë",
-      "conv": "zh-hans:科尔察; zh-hant:科赤;"
+      "conv": "zh-hans:科尔察;zh-hant:科赤;"
     },
     {
       "original": "Korsakov",
-      "conv": "zh-hant:科爾薩科夫; zh-hk:高沙哥夫; zh-tw:科沙可夫; zh-cn:科尔萨科夫;"
+      "conv": "zh-hant:科爾薩科夫;zh-hk:高沙哥夫;zh-tw:科沙可夫;zh-cn:科尔萨科夫;"
     },
     {
       "original": "Kosrae",
-      "conv": "zh-hans:科斯雷; zh-tw:科斯雷;zh-hk:庫賽埃;"
+      "conv": "zh-hans:科斯雷;zh-tw:科斯雷;zh-hk:庫賽埃;"
+    },
+    {
+      "original": "Krasnoyarsk",
+      "conv": "zh-tw:克拉斯諾雅斯克; zh-hk:克拉斯諾亞爾斯克; zh-cn:克拉斯诺亚尔斯克;"
     },
     {
       "original": "Kurd",
-      "conv": "zh:庫爾德; zh-hans:库尔德; zh-hk:庫爾德; zh-tw:庫德;"
+      "conv": "zh:庫爾德;zh-hans:库尔德;zh-hk:庫爾德;zh-tw:庫德;"
     },
     {
       "original": "Kursk",
@@ -1128,7 +1156,7 @@
       "conv": "zh-cn:柯尔克孜语;zh-hant:吉爾吉斯語;zh-sg:吉尔吉斯语;"
     },
     {
-      "original": null,
+      "original": "Kirghiz",
       "conv": "zh-hans:吉尔吉斯苏维埃;zh-hant:吉爾吉斯蘇維埃;"
     },
     {
@@ -1137,43 +1165,43 @@
     },
     {
       "original": "Lagos",
-      "conv": "zh:拉各斯; zh-cn:拉各斯; zh-tw:拉哥斯; zh-hk:拉各斯;"
+      "conv": "zh:拉各斯;zh-cn:拉各斯;zh-tw:拉哥斯;zh-hk:拉各斯;"
     },
     {
       "original": "La Mancha",
-      "conv": "zh-cn:拉曼恰; zh-hant:拉曼恰; zh-tw:拉曼查;"
+      "conv": "zh-cn:拉曼恰;zh-hant:拉曼恰;zh-tw:拉曼查;"
     },
     {
       "original": "Laos",
-      "conv": "zh-cn:老挝; zh-hk:老撾; zh-sg:寮国; zh-tw:寮國;"
+      "conv": "zh-cn:老挝;zh-hk:老撾;zh-sg:寮国;zh-tw:寮國;"
     },
     {
       "original": "Lao language",
-      "conv": "zh-cn:老挝语; zh-hk:老撾語; zh-sg:寮语; zh-tw:寮語;"
+      "conv": "zh-cn:老挝语;zh-hk:老撾語;zh-sg:寮语;zh-tw:寮語;"
     },
     {
       "original": "Lao alphabet",
-      "conv": "zh-cn:老挝文; zh-hk:老撾文; zh-sg:寮文; zh-tw:寮文;"
+      "conv": "zh-cn:老挝文;zh-hk:老撾文;zh-sg:寮文;zh-tw:寮文;"
     },
     {
       "original": "Lao People's Democratic Republic",
-      "conv": "zh-cn:老挝人民民主共和国;zh-hk:老撾人民民主共和國; zh-sg:寮人民民主共和国; zh-tw:寮人民民主共和國;"
+      "conv": "zh-cn:老挝人民民主共和国;zh-hk:老撾人民民主共和國;zh-sg:寮人民民主共和国;zh-tw:寮人民民主共和國;"
     },
     {
       "original": "Laos, Kingdom of",
-      "conv": "zh-cn:老挝王国; zh-hk:老撾王國; zh-sg:寮王国; zh-tw:寮王國;"
+      "conv": "zh-cn:老挝王国;zh-hk:老撾王國;zh-sg:寮王国;zh-tw:寮王國;"
     },
     {
-      "original": "French Protectorate  of Laos",
-      "conv": "zh-cn:老挝法国保护国; zh-tw:寮法國保護國; zh-hk:老撾法國保護國;zh-sg:寮法国保护国;"
+      "original": "French Protectorate of Laos",
+      "conv": "zh-cn:老挝法国保护国;zh-tw:寮法國保護國;zh-hk:老撾法國保護國;zh-sg:寮法国保护国;"
     },
     {
       "original": "Pathet Lao",
-      "conv": "zh-cn:巴特寮; zh-tw:巴特寮; zh-hk:巴特寮; zh-sg:巴特寮;"
+      "conv": "zh-cn:巴特寮;zh-tw:巴特寮;zh-hk:巴特寮;zh-sg:巴特寮;"
     },
     {
       "original": "Leeuwarden",
-      "conv": "zh-cn:吕伐登; zh-tw:雷瓦登;"
+      "conv": "zh-cn:吕伐登;zh-tw:雷瓦登;"
     },
     {
       "original": "Le Mans",
@@ -1181,59 +1209,59 @@
     },
     {
       "original": "Lesbos",
-      "conv": "zh-hans:莱斯沃斯; zh-hk:萊斯沃斯; zh-tw:列斯伏斯;"
+      "conv": "zh-hans:莱斯沃斯;zh-hk:萊斯沃斯;zh-tw:列斯伏斯;"
     },
     {
       "original": "Lesotho",
-      "conv": "zh-cn:莱索托; zh-hk:萊索托; zh-tw:賴索托; zh-sg:莱索托;"
+      "conv": "zh-cn:莱索托;zh-hk:萊索托;zh-tw:賴索托;zh-sg:莱索托;"
     },
     {
       "original": "Leyte Island",
-      "conv": "zh-cn:莱特岛; zh-hk:雷伊泰島; zh-tw:雷伊泰島;"
+      "conv": "zh-cn:莱特岛;zh-hk:雷伊泰島;zh-tw:雷伊泰島;"
     },
     {
       "original": "Leyte Island",
-      "conv": "zh-cn:莱特省; zh-hk:雷伊泰省; zh-tw:雷伊泰省;"
+      "conv": "zh-cn:莱特省;zh-hk:雷伊泰省;zh-tw:雷伊泰省;"
     },
     {
       "original": "Leyte Gulf",
-      "conv": "zh-cn:莱特湾; zh-hk:雷伊泰灣; zh-tw:雷伊泰灣;"
+      "conv": "zh-cn:莱特湾;zh-hk:雷伊泰灣;zh-tw:雷伊泰灣;"
     },
     {
       "original": "Liberia",
-      "conv": "zh-cn:利比里亚; zh-hk:利比里亞; zh-tw:賴比瑞亞;"
+      "conv": "zh-cn:利比里亚;zh-hk:利比里亞;zh-tw:賴比瑞亞;"
     },
     {
       "original": "Liechtenstein",
-      "conv": "zh-tw:列支敦斯登; zh-cn:列支敦士登; zh-hk:列支敦士登;"
+      "conv": "zh-tw:列支敦斯登;zh-cn:列支敦士登;zh-hk:列支敦士登;"
     },
     {
       "original": "Lillehammer",
-      "conv": "zh-cn:利勒哈默尔; zh-tw:利樂漢瑪;zh-hk:利勒哈默;zh-mo:利樂漢瑪;"
+      "conv": "zh-cn:利勒哈默尔;zh-tw:利樂漢瑪;zh-hk:利勒哈默;zh-mo:利樂漢瑪;"
     },
     {
       "original": "Lilongwe",
-      "conv": "zh-cn:利隆圭; zh-tw:里朗威; zh-hk:利隆威;"
+      "conv": "zh-cn:利隆圭;zh-tw:里朗威;zh-hk:利隆威;"
     },
     {
       "original": "Linköping",
-      "conv": "zh-cn:林雪平; zh-hk:林雪坪; zh-tw:林雪坪; zh-sg:林雪坪;"
+      "conv": "zh-cn:林雪平;zh-hk:林雪坪;zh-tw:林雪坪;zh-sg:林雪坪;"
     },
     {
       "original": "Linz",
-      "conv": "zh-cn:林茨; zh-tw:林茲; zh-hk:林茨;"
+      "conv": "zh-cn:林茨;zh-tw:林茲;zh-hk:林茨;"
     },
     {
       "original": "Ljubljana",
-      "conv": "zh-cn:卢布尔雅那; zh-hk:盧布爾雅那; zh-tw:盧比安納;"
+      "conv": "zh-cn:卢布尔雅那;zh-hk:盧布爾雅那;zh-tw:盧比安納;"
     },
     {
       "original": "Lombardia",
-      "conv": "zh-cn:伦巴第; zh-tw:倫巴底;"
+      "conv": "zh-cn:伦巴第;zh-tw:倫巴底;"
     },
     {
       "original": "Luanda",
-      "conv": "zh-cn:罗安达; zh-tw:魯安達; zh-hk:羅安達;"
+      "conv": "zh-cn:罗安达;zh-tw:魯安達;zh-hk:羅安達;"
     },
     {
       "original": "Luanda",
@@ -1245,63 +1273,63 @@
     },
     {
       "original": "Lunda",
-      "conv": "zh-cn:隆达省; zh-tw:倫達省;"
+      "conv": "zh-cn:隆达省;zh-tw:倫達省;"
     },
     {
       "original": "Lusaka",
-      "conv": "zh-hans:卢萨卡; zh-hant:盧薩卡; zh-tw:路沙卡;"
+      "conv": "zh-hans:卢萨卡;zh-hant:盧薩卡;zh-tw:路沙卡;"
     },
     {
       "original": "Lübeck",
-      "conv": "zh-cn:吕贝克; zh-hant:呂貝克; zh-tw:呂北克;"
+      "conv": "zh-cn:吕贝克;zh-hant:呂貝克;zh-tw:呂北克;"
     },
     {
       "original": "Luzern",
-      "conv": "zh-hans:卢塞恩; zh-tw:琉森; zh-hk:琉森;"
+      "conv": "zh-hans:卢塞恩;zh-tw:琉森;zh-hk:琉森;"
     },
     {
       "original": "Lviv",
-      "conv": "zh-hans:利沃夫; zh-hk:利沃夫; zh-tw:利維夫;"
+      "conv": "zh-hans:利沃夫;zh-hk:利沃夫;zh-tw:利維夫;"
     },
     {
       "original": "Maas",
-      "conv": "zh-hans:马斯河; zh-hant:馬士河;"
+      "conv": "zh-hans:马斯河;zh-hant:馬士河;"
     },
     {
       "original": "Maastricht",
-      "conv": "zh-cn:马斯特里赫特; zh-hk:馬斯特里赫特; zh-tw:馬斯垂克;"
+      "conv": "zh-cn:马斯特里赫特;zh-hk:馬斯特里赫特;zh-tw:馬斯垂克;"
     },
     {
       "original": "Madagascar",
-      "conv": "zh-cn:马达加斯加; zh-hk:馬達加斯加; zh-tw:馬達加斯加;"
+      "conv": "zh-cn:马达加斯加;zh-hk:馬達加斯加;zh-tw:馬達加斯加;"
     },
     {
       "original": "Mainz",
-      "conv": "zh-cn:美因茨; zh-tw:美因茲; zh-hk:緬恩斯;"
+      "conv": "zh-cn:美因茨;zh-tw:美因茲;zh-hk:緬恩斯;"
     },
     {
       "original": "Magdeburg",
-      "conv": "zh-hans:马格德堡; zh-hant:馬德堡;"
+      "conv": "zh-hans:马格德堡;zh-hant:馬德堡;"
     },
     {
       "original": "Malawi",
-      "conv": "zh-cn:马拉维; zh-tw:馬拉威; zh-hk:馬拉維;"
+      "conv": "zh-cn:马拉维;zh-tw:馬拉威;zh-hk:馬拉維;"
     },
     {
       "original": "Maldives",
-      "conv": "zh-cn:马尔代夫; zh-hk:馬爾代夫; zh-sg:马尔代夫; zh-tw:馬爾地夫;"
+      "conv": "zh-cn:马尔代夫;zh-hk:馬爾代夫;zh-sg:马尔代夫;zh-tw:馬爾地夫;"
     },
     {
       "original": "Malmö",
-      "conv": "zh-cn:马尔默; zh-tw:馬爾摩; zh-hk:馬爾摩;"
+      "conv": "zh-cn:马尔默;zh-tw:馬爾摩;zh-hk:馬爾摩;"
     },
     {
       "original": "Maluku",
-      "conv": "zh-cn:马鲁古; zh-hk:摩鹿加; zh-tw:摩鹿加;"
+      "conv": "zh:馬魯古;zh-cn:马鲁古;zh-hk:摩鹿加;zh-tw:摩鹿加;"
     },
     {
       "original": "Majuro",
-      "conv": "zh-cn:马朱罗; zh-tw:馬久羅;"
+      "conv": "zh-cn:马朱罗;zh-tw:馬久羅;"
     },
     {
       "original": "Malta",
@@ -1317,11 +1345,11 @@
     },
     {
       "original": "Managua",
-      "conv": "zh-cn:马那瓜; zh-tw:馬納瓜;zh:馬拿瓜;"
+      "conv": "zh-cn:马那瓜;zh-tw:馬納瓜;zh:馬拿瓜;"
     },
     {
       "original": "Manama",
-      "conv": "zh-cn:麦纳麦; zh-tw:麥納瑪;"
+      "conv": "zh-cn:麦纳麦;zh-tw:麥納瑪;"
     },
     {
       "original": "Manitoba",
@@ -1333,15 +1361,11 @@
     },
     {
       "original": "Mantua",
-      "conv": "zh-cn:曼托瓦; zh-tw:曼托瓦; zh-hk:曼圖亞;"
+      "conv": "zh-cn:曼托瓦;zh-tw:曼托瓦;zh-hk:曼圖亞;"
     },
     {
       "original": "Maputo",
-      "conv": "zh-hans:马普托; zh-hant:馬普托; zh-tw:馬布多;"
-    },
-    {
-      "original": "Marbella",
-      "conv": "zh-hans:马尔韦利亚;zh-hant:馬貝拉;"
+      "conv": "zh-hans:马普托;zh-hant:馬普托;zh-tw:馬布多;"
     },
     {
       "original": "Marbella",
@@ -1353,31 +1377,31 @@
     },
     {
       "original": "Maseru",
-      "conv": "zh-cn:马塞卢; zh-tw:馬賽魯;"
+      "conv": "zh-cn:马塞卢;zh-tw:馬賽魯;"
     },
     {
       "original": "Mauritania",
-      "conv": "zh-cn:毛里塔尼亚; zh-hk:毛里塔尼亞; zh-tw:茅利塔尼亞;"
+      "conv": "zh-cn:毛里塔尼亚;zh-hk:毛里塔尼亞;zh-tw:茅利塔尼亞;"
     },
     {
       "original": "Mauritius",
-      "conv": "zh-cn:毛里求斯; zh-hk:毛里裘斯; zh-tw:模里西斯; zh-sg:毛里求斯;"
+      "conv": "zh-cn:毛里求斯;zh-hk:毛里裘斯;zh-tw:模里西斯;zh-sg:毛里求斯;"
     },
     {
       "original": "Mbabane",
-      "conv": "zh-cn:姆巴巴内; zh-tw:墨巴本;"
+      "conv": "zh-cn:姆巴巴内;zh-tw:墨巴本;"
     },
     {
       "original": "Milwaukee",
-      "conv": "zh-cn:密尔沃基; zh-tw:密爾瓦基; zh-hk:密爾沃基;"
+      "conv": "zh-cn:密尔沃基;zh-tw:密爾瓦基;zh-hk:密爾沃基;"
     },
     {
       "original": "Minneapolis",
-      "conv": "zh-cn:明尼阿波利斯; zh-hk:明尼阿波利斯; zh-tw:明尼亞波利斯;"
+      "conv": "zh-cn:明尼阿波利斯;zh-hk:明尼阿波利斯;zh-tw:明尼亞波利斯;"
     },
     {
       "original": "Mogadishu",
-      "conv": "zh-cn:摩加迪沙; zh-tw:摩加迪休; zh-hk:摩加迪沙;"
+      "conv": "zh-cn:摩加迪沙;zh-tw:摩加迪休;zh-hk:摩加迪沙;"
     },
     {
       "original": "Mönchengladbach",
@@ -1388,20 +1412,16 @@
       "conv": "zh-cn:勃朗峰;zh-tw:白朗峰;zh-hk:白朗峰;"
     },
     {
-      "original": "Montpellier",
-      "conv": "zh-cn:蒙彼利埃;zh-tw:蒙皮立; zh-hk:蒙彼利埃;"
-    },
-    {
       "original": "Montevideo",
-      "conv": "zh-cn:蒙得维的亚; zh-tw:蒙特維多; zh-hk:蒙特維多;"
+      "conv": "zh-cn:蒙得维的亚;zh-tw:蒙特維多;zh-hk:蒙特維多;"
     },
     {
       "original": "Montgomery",
-      "conv": "zh-cn:蒙哥马利; zh-tw:蒙哥馬利; zh-hk:蒙哥馬利;"
+      "conv": "zh-cn:蒙哥马利;zh-tw:蒙哥馬利;zh-hk:蒙哥馬利;"
     },
     {
       "original": "Montreal",
-      "conv": "zh-cn:蒙特利尔; zh-tw:蒙特婁; zh-hk:滿地可;"
+      "conv": "zh-cn:蒙特利尔;zh-tw:蒙特婁;zh-hk:滿地可;"
     },
     {
       "original": "Montreal",
@@ -1409,7 +1429,7 @@
     },
     {
       "original": "Montserrat",
-      "conv": "zh-hans:蒙特塞拉特; zh-hant:蒙特塞拉特; zh-tw:蒙哲臘;"
+      "conv": "zh-hans:蒙特塞拉特;zh-hant:蒙特塞拉特;zh-tw:蒙哲臘;"
     },
     {
       "original": "Moresby",
@@ -1425,79 +1445,55 @@
     },
     {
       "original": "Mozambique",
-      "conv": "zh-cn:莫桑比克; zh-tw:莫三比克; zh-hk:莫桑比克;"
+      "conv": "zh-cn:莫桑比克;zh-tw:莫三比克;zh-hk:莫桑比克;"
     },
     {
       "original": "Mindanao",
-      "conv": "zh-cn:棉兰老岛; zh-tw:民答那峨島; zh-hk:棉蘭老島;"
+      "conv": "zh-cn:棉兰老岛;zh-tw:民答那峨島;zh-hk:棉蘭老島;"
     },
     {
       "original": "Murcia",
-      "conv": "zh-cn:穆尔西亚; zh-hant:穆爾西亞; zh-tw:莫夕亞; zh-hk:莫西亞;"
+      "conv": "zh-cn:穆尔西亚;zh-hant:穆爾西亞;zh-tw:莫夕亞;zh-hk:莫西亞;"
     },
     {
       "original": "Murmansk",
-      "conv": "zh-hans:摩尔曼斯克; zh-hant:莫曼斯克;"
+      "conv": "zh-hans:摩尔曼斯克;zh-hant:摩爾曼斯克;zh-tw:莫曼斯克;zh-hk:莫曼斯克;"
     },
     {
       "original": "Mühlhausen",
-      "conv": "zh-cn:米尔豪森; zh-tw:慕豪森;"
+      "conv": "zh-cn:米尔豪森;zh-tw:慕豪森;"
     },
     {
       "original": "Myawaddy",
-      "conv": "zh-cn:妙瓦底; zh-tw:苗瓦迪;"
+      "conv": "zh-cn:妙瓦底;zh-tw:苗瓦迪;zh-hk:妙瓦底;"
     },
     {
       "original": "Nagorno-Karabakh",
-      "conv": "zh-cn:纳戈尔诺-卡拉巴赫; zh-hk:納戈爾諾-卡拉巴赫; zh-tw:納戈爾諾-卡拉巴赫;"
+      "conv": "zh-cn:纳戈尔诺-卡拉巴赫;zh-hk:納戈爾諾-卡拉巴赫;zh-tw:納戈爾諾-卡拉巴赫;"
     },
     {
       "original": "Navarra",
-      "conv": "zh-cn:纳瓦拉; zh-hk:納華拉; zh-tw:納瓦拉;"
+      "conv": "zh-cn:纳瓦拉;zh-hk:納華拉;zh-tw:納瓦拉;"
     },
     {
       "original": "Nairobi",
-      "conv": "zh-cn:内罗毕; zh-hk:內羅比; zh-tw:奈洛比;"
+      "conv": "zh-cn:内罗毕;zh-hk:內羅比;zh-tw:奈洛比;"
     },
     {
       "original": "Namibia",
-      "conv": "zh-cn:纳米比亚; zh-hk:納米比亞; zh-tw:納米比亞; zh-sg:那米比亚;"
+      "conv": "zh-hans:纳米比亚;zh-hant:納米比亞;"
     },
     {
       "original": "Napoli",
-      "conv": "zh-cn:那不勒斯; zh-tw:拿坡里; zh-hk:拿坡里; zh-my:拿波利;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "zh-cn:拿骚;zh-tw:拿索;zh-hk:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "拿騷=>zh-tw:拿索;拿騷=>zh-hk:蘭秀;拿騷=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "拿紹=>zh-cn:拿骚;拿紹=>zh-my:拿骚;拿紹=>zh-sg:拿骚;拿紹=>zh-tw:拿索;拿紹=>zh-hk:蘭秀;拿紹=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "拿绍=>zh-cn:拿骚;拿绍=>zh-my:拿骚;拿绍=>zh-sg:拿骚;拿绍=>zh-tw:拿索;拿绍=>zh-hk:蘭秀;拿绍=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "納蘇=>zh-cn:拿骚;納蘇=>zh-my:拿骚;納蘇=>zh-sg:拿骚;納蘇=>zh-tw:拿索;納蘇=>zh-hk:蘭秀;納蘇=>zh-mo:蘭秀;"
-    },
-    {
-      "original": "Nassau",
-      "conv": "纳苏=>zh-cn:拿骚;纳苏=>zh-my:拿骚;纳苏=>zh-sg:拿骚;纳苏=>zh-tw:拿索;纳苏=>zh-hk:蘭秀;纳苏=>zh-mo:蘭秀;"
+      "conv": "zh-cn:那不勒斯;zh-tw:拿坡里;zh-hk:拿坡里;zh-my:拿波利;"
     },
     {
       "original": "Naypyidaw",
-      "conv": "zh-cn:内比都; zh-tw:奈比多; zh-hk:內比都;"
+      "conv": "zh-cn:内比都;zh-tw:奈比都;zh-hk:內比都;zh-hant:奈比多;"
     },
     {
       "original": "N'Djamena",
-      "conv": "zh-cn:恩贾梅纳; zh-tw:恩加美納; zh-hk:恩賈梅納;"
+      "conv": "zh-cn:恩贾梅纳;zh-tw:恩加美納;zh-hk:恩賈梅納;"
     },
     {
       "original": "N'Djamena",
@@ -1505,11 +1501,11 @@
     },
     {
       "original": "Nelspruit",
-      "conv": "zh-hans:内尔斯普雷特; zh-hant:尼爾斯普魯特;"
+      "conv": "zh-hans:内尔斯普雷特;zh-hant:尼爾斯普魯特;"
     },
     {
       "original": "Netherlands Antilles",
-      "conv": "zh-hans:荷属安的列斯; zh-hant:荷屬安的列斯; zh-tw:荷屬安地列斯;"
+      "conv": "zh-hans:荷属安的列斯;zh-hant:荷屬安的列斯;zh-tw:荷屬安地列斯;"
     },
     {
       "original": "Newcastle",
@@ -1525,11 +1521,11 @@
     },
     {
       "original": "New Georgia",
-      "conv": "zh-cn:新乔治亚; zh-hk:新佐治亞; zh-tw:新喬治亞;"
+      "conv": "zh-cn:新乔治亚;zh-hk:新佐治亞;zh-tw:新喬治亞;"
     },
     {
       "original": "New South Wales",
-      "conv": "zh-hans:新南威尔士; zh-hk:新南威爾士; zh-sg:新南威尔斯; zh-tw:新南威爾斯;"
+      "conv": "zh-hans:新南威尔士;zh-hk:新南威爾士;zh-sg:新南威尔斯;zh-tw:新南威爾斯;"
     },
     {
       "original": "New South Wales",
@@ -1537,23 +1533,23 @@
     },
     {
       "original": "New Zealand",
-      "conv": "zh-hans:纽西兰; zh-hant:新西蘭; zh-cn:新西兰; zh-tw:紐西蘭; zh-hk:新西蘭;zh-mo:紐西蘭; zh-my:纽西兰; zh-sg:新西兰;"
+      "conv": "zh-hans:纽西兰;zh-hant:新西蘭;zh-cn:新西兰;zh-tw:紐西蘭;zh-hk:新西蘭;zh-mo:紐西蘭;zh-my:纽西兰;zh-sg:新西兰;"
     },
     {
       "original": "Niamey",
-      "conv": "zh-cn:尼亚美; zh-hk:尼亞美; zh-tw:尼阿美;"
+      "conv": "zh-cn:尼亚美;zh-hk:尼亞美;zh-tw:尼阿美;"
     },
     {
       "original": "Nicosia",
-      "conv": "zh-cn:尼科西亚; zh-tw:尼柯西亞; zh-hk:尼科西亞;"
+      "conv": "zh-cn:尼科西亚;zh-tw:尼柯西亞;zh-hk:尼科西亞;"
     },
     {
       "original": "Niger",
-      "conv": "zh-cn:尼日尔; zh-hk:尼日爾; zh-tw:尼日;"
+      "conv": "zh-cn:尼日尔;zh-hk:尼日爾;zh-tw:尼日;"
     },
     {
       "original": "Nigeria",
-      "conv": "zh-cn:尼日利亚; zh-hk:尼日利亞; zh-tw:奈及利亞;"
+      "conv": "zh-cn:尼日利亚;zh-hk:尼日利亞;zh-tw:奈及利亞;"
     },
     {
       "original": "Nijmegen",
@@ -1561,11 +1557,11 @@
     },
     {
       "original": "Normandy",
-      "conv": "zh-cn:诺曼底; zh-hk:諾曼第; zh-tw:諾曼第;"
+      "conv": "zh-cn:诺曼底;zh-hk:諾曼第;zh-tw:諾曼第;"
     },
     {
       "original": "North Rhine-Westphalia",
-      "conv": "zh-hk:北萊茵-西法倫; zh-hans:北莱茵-威斯特法伦; zh-tw:北萊茵-西發利亞;"
+      "conv": "zh-hk:北萊茵-西法倫;zh-hans:北莱茵-威斯特法伦;zh-tw:北萊茵-西發利亞;"
     },
     {
       "original": "Nottingham",
@@ -1573,55 +1569,59 @@
     },
     {
       "original": "Nouakchott",
-      "conv": "zh-cn:努瓦克肖特; zh-tw:諾克少;"
+      "conv": "zh-cn:努瓦克肖特;zh-tw:諾克少;"
     },
     {
       "original": "Nova Scotia",
-      "conv": "zh-cn:新斯科舍; zh-hk:諾華斯高沙; zh-tw:新斯科細亞;"
+      "conv": "zh-cn:新斯科舍;zh-hk:諾華斯高沙;zh-tw:新斯科細亞;"
     },
     {
       "original": "Novi Pazar",
-      "conv": "zh-hans:新帕扎尔; zh-hk:新帕扎爾;zh-tw:新帕札;"
+      "conv": "zh-hans:新帕扎尔;zh-hk:新帕扎爾;zh-tw:新帕札;"
     },
     {
       "original": "Novi Sad",
-      "conv": "zh-hans:诺维萨德; zh-hk:諾維薩德;zh-tw:新沙德;"
+      "conv": "zh-hans:诺维萨德;zh-hk:諾維薩德;zh-tw:新沙德;"
     },
     {
       "original": "Nuku'alofa",
-      "conv": "zh-cn:努库阿洛法; zh-tw:努瓜婁發;"
+      "conv": "zh-cn:努库阿洛法;zh-tw:努瓜婁發;"
     },
     {
       "original": "Nunavut",
-      "conv": "zh-tw:努納福特; zh-hk:努納武特; zh-cn:努纳武特;"
+      "conv": "zh-tw:努納福特;zh-hk:努納武特;zh-cn:努纳武特;"
+    },
+    {
+      "original": "Nusantara",
+      "conv": "zh-cn:努山塔拉;zh-hk:努山塔拉;zh-tw:努山打拉;zh-my:努山达拉;zh-sg:努山达拉;"
     },
     {
       "original": "Nyköping",
-      "conv": "zh-hans:尼雪平; zh-hk:尼雪平;zh-tw:尼科平;"
+      "conv": "zh-hans:尼雪平;zh-hk:尼雪平;zh-tw:尼科平;"
     },
     {
-      "original": "Odessa",
-      "conv": "zh-cn:敖德萨; zh-hk:奧迪沙; zh-tw:敖得薩;"
+      "original": "Odesa",
+      "conv": "zh-cn:敖德萨;zh-hk:敖德薩;zh-tw:敖得薩;"
     },
     {
       "original": "Opole",
-      "conv": "zh-cn:奥波莱; zh-hk:奧波萊; zh-tw:奧波列;"
+      "conv": "zh-cn:奥波莱;zh-hk:奧波萊;zh-tw:奧波列;"
     },
     {
       "original": "Ossetia",
-      "conv": "zh-cn:奥塞梯; zh-hk:奧塞梯; zh-tw:奧塞提亞;"
+      "conv": "zh-cn:奥塞梯;zh-hk:奧塞梯;zh-tw:奧塞提亞;"
     },
     {
       "original": "Oostende/Ostende",
-      "conv": "zh-hans:奥斯坦德; zh-hk:奧斯坦德; zh-tw:奧斯滕德;"
+      "conv": "zh-hans:奥斯坦德;zh-hk:奧斯坦德;zh-tw:奧斯滕德;"
     },
     {
       "original": "Ostrava",
-      "conv": "zh-cn:俄斯特拉发; zh-hk:俄斯特拉發; zh-tw:奧斯特拉瓦;"
+      "conv": "zh-cn:俄斯特拉发;zh-hk:俄斯特拉發;zh-tw:奧斯特拉瓦;"
     },
     {
       "original": "Ouagadougou",
-      "conv": "zh-cn:瓦加杜古; zh-hk:烏格都古; zh-tw:瓦加杜古;"
+      "conv": "zh-cn:瓦加杜古;zh-hk:烏格都古;zh-tw:瓦加杜古;"
     },
     {
       "original": "Ottoman",
@@ -1633,15 +1633,15 @@
     },
     {
       "original": "Øyrane",
-      "conv": "zh-cn:厄于拉讷; zh-hk:愛蘭立; zh-tw:厄于拉訥;"
+      "conv": "zh-cn:厄于拉讷;zh-hk:愛蘭立;zh-tw:厄于拉訥;"
     },
     {
       "original": "Owen Sound",
-      "conv": "zh-cn:欧文桑德; zh-hk:奧雲灣; zh-tw:歐文灣;"
+      "conv": "zh-cn:欧文桑德;zh-hk:奧雲灣;zh-tw:歐文灣;"
     },
     {
       "original": "Palace of Westminster",
-      "conv": "zh-cn:威斯敏斯特宫; zh-hk:西敏宮; zh-tw:西敏宮; zh-sg:西敏宫;"
+      "conv": "zh-cn:威斯敏斯特宫;zh-hk:西敏宮;zh-tw:西敏宮;zh-sg:西敏宫;"
     },
     {
       "original": "Palau",
@@ -1649,7 +1649,7 @@
     },
     {
       "original": "Palikir",
-      "conv": "zh-cn:帕利基尔; zh-tw:帕里克爾;"
+      "conv": "zh-cn:帕利基尔;zh-tw:帕里克爾;"
     },
     {
       "original": "Papeete",
@@ -1657,19 +1657,19 @@
     },
     {
       "original": "Paramaribo",
-      "conv": "zh-cn:帕拉马里博; zh-tw:巴拉馬利波;"
+      "conv": "zh-cn:帕拉马里博;zh-tw:巴拉馬利波;"
     },
     {
       "original": "Paranal",
-      "conv": "zh-cn:帕瑞纳; zh-tw:帕拉納; zh-hk:帕瑞納;"
+      "conv": "zh-cn:帕瑞纳;zh-tw:帕拉納;zh-hk:帕瑞納;"
     },
     {
       "original": "Peleliu",
-      "conv": "zh-cn:佩莱利乌; zh-tw:佩里琉; zh-hk:佩里琉;"
+      "conv": "zh-cn:佩莱利乌;zh-tw:佩里琉;zh-hk:佩里琉;"
     },
     {
       "original": "Penza",
-      "conv": "zh-cn:奔萨; zh-tw:朋札; zh-hk:奔薩;"
+      "conv": "zh-cn:奔萨;zh-tw:朋札;zh-hk:奔薩;"
     },
     {
       "original": "Penza",
@@ -1677,7 +1677,7 @@
     },
     {
       "original": "Perth",
-      "conv": "zh-cn:珀斯; zh-hk:珀斯; zh-tw:伯斯;"
+      "conv": "zh-cn:珀斯;zh-hk:珀斯;zh-tw:伯斯;"
     },
     {
       "original": "Phuket",
@@ -1685,7 +1685,7 @@
     },
     {
       "original": "Place Vendôme",
-      "conv": "zh-tw:芳登廣場; zh-cn:旺多姆广场; zh-hk:凡登廣場;"
+      "conv": "zh-tw:芳登廣場;zh-cn:旺多姆广场;zh-hk:凡登廣場;"
     },
     {
       "original": "Plymouth",
@@ -1697,23 +1697,19 @@
     },
     {
       "original": "P.N.G.",
-      "conv": "zh-cn:巴新; zh-tw:巴紐; zh-hk:巴新;"
-    },
-    {
-      "original": "Poltava",
-      "conv": "zh-cn:波尔塔瓦; zh-tw:波塔瓦; zh-hk:波爾塔瓦;"
+      "conv": "zh-cn:巴新;zh-tw:巴紐;zh-hk:巴新;"
     },
     {
       "original": "Pomerania",
-      "conv": "zh-cn:波美拉尼亚; zh-tw:波莫瑞; zh-hk:波美恩;"
+      "conv": "zh-cn:波美拉尼亚;zh-tw:波莫瑞;zh-hk:波美恩;"
     },
     {
       "original": "Port Elizabeth",
-      "conv": "zh-hans:伊丽莎白港; zh-hk:伊利沙伯港; zh-tw:伊莉莎白港;"
+      "conv": "zh-hans:伊丽莎白港;zh-hk:伊利沙伯港;zh-tw:伊莉莎白港;"
     },
     {
       "original": "Port Louis",
-      "conv": "zh-cn:路易港; zh-tw:路易士港; zh-hk:路易港;"
+      "conv": "zh-cn:路易港;zh-tw:路易士港;zh-hk:路易港;"
     },
     {
       "original": "Port Moresby",
@@ -1729,7 +1725,7 @@
     },
     {
       "original": "Portsmouth",
-      "conv": "zh-cn:朴次茅斯; zh-tw:樸茨茅斯; zh-hk:樸茨茅夫;zh:朴茨茅斯;"
+      "conv": "zh-cn:朴次茅斯;zh-tw:樸茨茅斯;zh-hk:樸茨茅夫;zh:朴茨茅斯;"
     },
     {
       "original": "Praia",
@@ -1737,35 +1733,39 @@
     },
     {
       "original": "Pretoria",
-      "conv": "zh-hans:比勒陀利亚;zh-hant:比勒陀利亞;zh-hk:普勒陀尼亞;zh-tw:普勒托利亞;"
-    },
-    {
-      "original": "Pretoria",
-      "conv": "普利托利亞=>zh-cn:比勒陀利亚;普利托利亞=>zh-my:比勒陀利亚;普利托利亞=>zh-sg:比勒陀利亚;普利托利亞=>zh-hk:普勒陀尼亞;普利托利亞=>zh-mo:普勒陀尼亞;"
+      "conv": "zh-hans:比勒陀利亚;zh-hant:比勒陀利亞;zh-hk:比勒陀利亞;zh-tw:普利托利亞;"
     },
     {
       "original": "Przemyśl",
-      "conv": "zh-hant:普熱梅希爾; zh-cn:普热梅希尔; zh-tw:普瑟密士;"
+      "conv": "zh-hant:普熱梅希爾;zh-cn:普热梅希尔;zh-tw:普瑟密士;"
     },
     {
       "original": "Putrajaya",
-      "conv": "zh-cn:布城; zh-tw:布城; zh-hk:布城;"
+      "conv": "zh-cn:布城;zh-tw:布城;zh-hk:布城;"
     },
     {
       "original": "Qatar",
-      "conv": "zh-cn:卡塔尔; zh-hk:卡塔爾; zh-tw:卡達;"
+      "conv": "zh-cn:卡塔尔;zh-hk:卡塔爾;zh-tw:卡達;"
     },
     {
       "original": "Queensland",
       "conv": "昆士蘭省=>zh-cn:昆士兰州;昆士蘭省=>zh-my:昆士兰州;昆士蘭省=>zh-sg:昆士兰州;昆士蘭省=>zh-tw:昆士蘭州;昆士蘭省=>zh-hk:昆士蘭州;昆士蘭省=>zh-mo:昆士蘭州;"
     },
     {
+      "original": "Ramallah",
+      "conv": "zh-cn:拉姆安拉;zh-tw:拉馬拉;"
+    },
+    {
       "original": "Recife",
-      "conv": "zh-hans:累西腓; zh-hk:利斯菲; zh-tw:勒西菲;"
+      "conv": "zh-hans:累西腓;zh-hk:利斯菲;zh-tw:勒西菲;"
+    },
+    {
+      "original": "Rennell",
+      "conv": "zh-hans:伦内尔;zh-hk:拉納爾;zh-tw:拉納爾;"
     },
     {
       "original": "Reykjavík",
-      "conv": "zh-cn:雷克雅未克; zh-hk:雷克雅未克; zh-tw:雷克雅維克;"
+      "conv": "zh-cn:雷克雅未克;zh-hk:雷克雅未克;zh-tw:雷克雅維克;"
     },
     {
       "original": "Rheinland-Pfalz",
@@ -1781,63 +1781,63 @@
     },
     {
       "original": "Rio Grande do Sul",
-      "conv": "zh-cn:南里奥格兰德州; zh-hk:南里約格蘭州;zh-tw:南里約格朗德州;"
+      "conv": "zh-cn:南里奥格兰德州;zh-hk:南里約格蘭州;zh-tw:南里約格朗德州;"
     },
     {
       "original": "Riyadh",
-      "conv": "zh-cn:利雅得; zh-hk:利雅得;zh-tw:利雅德;"
+      "conv": "zh-cn:利雅得;zh-hk:利雅得;zh-tw:利雅德;"
     },
     {
       "original": "Roseau",
-      "conv": "zh-cn:罗索; zh-tw:羅梭;"
+      "conv": "zh-cn:罗索;zh-tw:羅梭;"
     },
     {
       "original": "Rwanda",
-      "conv": "zh-cn:卢旺达; zh-hk:盧旺達; zh-tw:盧安達;"
+      "conv": "zh-cn:卢旺达;zh-hk:盧旺達;zh-tw:盧安達;"
     },
     {
       "original": "Saarbrücken",
-      "conv": "zh-cn:萨尔布吕肯; zh-tw:薩爾布魯根;"
+      "conv": "zh-cn:萨尔布吕肯;zh-tw:薩爾布魯根;"
     },
     {
       "original": "Sahel",
-      "conv": "zh-cn:萨赫勒; zh-hk:薩赫勒; zh-tw:薩赫爾;"
+      "conv": "zh-cn:萨赫勒;zh-hk:薩赫勒;zh-tw:薩赫爾;"
     },
     {
       "original": "Saint Christopher and Nevis",
-      "conv": "zh:聖克里斯多福及尼維斯; zh-sg:圣基茨和尼维斯; zh-tw:聖克里斯多福及尼維斯; zh-cn:圣基茨和尼维斯; zh-hk:聖基茨和尼維斯;"
+      "conv": "zh:聖克里斯多福及尼維斯;zh-sg:圣基茨和尼维斯;zh-tw:聖克里斯多福及尼維斯;zh-cn:圣基茨和尼维斯;zh-hk:聖基茨和尼維斯;"
     },
     {
       "original": "Saint Lawrence / Saint-Laurent",
-      "conv": "zh-cn:圣劳伦斯; zh-hk:聖羅倫斯; zh-tw:聖羅倫斯;"
+      "conv": "zh-cn:圣劳伦斯;zh-hk:聖羅倫斯;zh-tw:聖羅倫斯;"
     },
     {
       "original": "Saint Pierre",
-      "conv": "zh-cn:圣皮埃尔; zh-hk:聖皮埃爾; zh-tw:聖皮耶;"
+      "conv": "zh-cn:圣皮埃尔;zh-hk:聖皮埃爾;zh-tw:聖皮耶;"
     },
     {
       "original": "Saint Pierre and Miquelon",
-      "conv": "zh-cn:圣皮埃尔和密克隆; zh-hk:聖皮埃爾和密克隆; zh-tw:聖皮耶與密克隆;"
+      "conv": "zh-cn:圣皮埃尔和密克隆;zh-hk:聖皮埃爾和密克隆;zh-tw:聖皮耶與密克隆;"
     },
     {
       "original": "Saint Vincent and the Grenadines",
-      "conv": "zh-cn:圣文森特和格林纳丁斯; zh-hk:聖文森特和格林納丁斯; zh-tw:聖文森及格瑞那丁;"
+      "conv": "zh-cn:圣文森特和格林纳丁斯;zh-hk:聖文森特和格林納丁斯;zh-tw:聖文森及格瑞那丁;"
     },
     {
       "original": "Salzburg",
-      "conv": "zh-cn:萨尔茨堡; zh-hk:薩爾斯堡; zh-tw:薩爾斯堡;"
+      "conv": "zh-cn:萨尔茨堡;zh-hk:薩爾斯堡;zh-tw:薩爾斯堡;"
     },
     {
       "original": "São Tomé and Príncipe",
-      "conv": "zh-cn:圣多美和普林西比; zh-tw:聖多美普林西比; zh-hk:聖多美和普林西比;"
+      "conv": "zh-cn:圣多美和普林西比;zh-tw:聖多美普林西比;zh-hk:聖多美和普林西比;"
     },
     {
       "original": "Sana'a",
-      "conv": "zh-cn:萨那; zh-tw:沙那;"
+      "conv": "zh-cn:萨那;zh-tw:沙那;"
     },
     {
       "original": "San Francisco",
-      "conv": "zh-cn:旧金山; zh-hk:三藩市;zh-tw:舊金山;"
+      "conv": "zh-cn:旧金山;zh-hk:三藩市;zh-tw:舊金山;"
     },
     {
       "original": "San José",
@@ -1849,39 +1849,39 @@
     },
     {
       "original": "San Marino",
-      "conv": "zh-cn:圣马力诺; zh-tw:聖馬利諾; zh-hk:聖馬力諾;"
+      "conv": "zh-cn:圣马力诺;zh-tw:聖馬利諾;zh-hk:聖馬力諾;"
     },
     {
       "original": "Santiago",
-      "conv": "zh-cn:圣地亚哥; zh-sg:圣地亚哥; zh-hant:聖地牙哥;"
+      "conv": "zh-cn:圣地亚哥;zh-sg:圣地亚哥;zh-hant:聖地牙哥;"
     },
     {
       "original": "Santiago de Cubao",
-      "conv": "zh-cn:古巴圣地亚哥; zh-tw:聖地亞哥-德古巴;"
+      "conv": "zh-cn:古巴圣地亚哥;zh-tw:聖地亞哥-德古巴;"
     },
     {
       "original": "Santa Clara",
-      "conv": "zh-cn:圣克拉拉; zh-hk:聖塔克拉拉; zh-tw:聖塔克拉拉;"
+      "conv": "zh-cn:圣克拉拉;zh-hk:聖塔克拉拉;zh-tw:聖塔克拉拉;"
     },
     {
       "original": "Santo Domingo",
-      "conv": "zh-cn:圣多明各; zh-tw:聖多明哥; zh-hk:聖多明各;"
+      "conv": "zh-cn:圣多明各;zh-tw:聖多明哥;zh-hk:聖多明各;"
     },
     {
       "original": "Sarajevo",
-      "conv": "zh-cn:萨拉热窝; zh-tw:塞拉耶佛; zh-hk:薩拉熱窩;"
+      "conv": "zh-cn:萨拉热窝;zh-tw:塞拉耶佛;zh-hk:薩拉熱窩;"
     },
     {
       "original": "Saskatchewan",
-      "conv": "zh-cn:萨斯喀彻温; zh-tw:薩克其萬; zh-hk:沙斯卡寸旺; zh-hant:薩斯喀徹溫;"
+      "conv": "zh-cn:萨斯喀彻温;zh-tw:薩克其萬;zh-hk:沙斯卡寸旺;zh-hant:薩斯喀徹溫;"
     },
     {
       "original": "Saudi",
-      "conv": "zh-cn:沙特; zh-hk:沙地; zh-tw:沙烏地; zh-my:沙地; zh-sg:沙特;"
+      "conv": "zh-cn:沙特;zh-hk:沙地;zh-tw:沙烏地;zh-my:沙地;zh-sg:沙特;"
     },
     {
       "original": "Saudi Arabia (full)",
-      "conv": "zh-cn:沙特阿拉伯; zh-hk:沙地阿拉伯; zh-tw:沙烏地阿拉伯; zh-my:沙地阿拉伯; zh-sg:沙特阿拉伯;"
+      "conv": "zh-cn:沙特阿拉伯;zh-hk:沙地阿拉伯;zh-tw:沙烏地阿拉伯;zh-my:沙地阿拉伯;zh-sg:沙特阿拉伯;"
     },
     {
       "original": "Schengen",
@@ -1889,11 +1889,11 @@
     },
     {
       "original": "Schleswig",
-      "conv": "zh-cn:石勒苏益格; zh-tw:什列斯威;"
+      "conv": "zh-cn:石勒苏益格;zh-tw:什列斯威;"
     },
     {
       "original": "Schwaben",
-      "conv": "zh-cn:施瓦本; zh-hk:士瓦本; zh-tw:施瓦本;"
+      "conv": "zh-cn:施瓦本;zh-hk:士瓦本;zh-tw:施瓦本;"
     },
     {
       "original": "Schwyz/Schwytz/Svitto/Sviz",
@@ -1901,19 +1901,19 @@
     },
     {
       "original": "Scheveningen",
-      "conv": "zh-hans:斯海弗宁恩; zh-tw:席凡寧根;"
+      "conv": "zh-hans:斯海弗宁恩;zh-tw:席凡寧根;"
     },
     {
       "original": "Isles of Scilly",
-      "conv": "zh-cn:锡利群岛; zh-tw:夕利群島;"
+      "conv": "zh-cn:锡利群岛;zh-tw:夕利群島;"
     },
     {
       "original": "Serbia and Montenegro",
-      "conv": "zh-cn:塞黑; zh-hk:塞黑; zh-tw:塞蒙;"
+      "conv": "zh-cn:塞黑;zh-hk:塞黑;zh-tw:塞蒙;"
     },
     {
       "original": "Serbia and Montenegro (full)",
-      "conv": "zh-cn:塞尔维亚和黑山; zh-hk:塞爾維亞和黑山; zh-tw:塞爾維亞與蒙特內哥羅;"
+      "conv": "zh-cn:塞尔维亚和黑山;zh-hk:塞爾維亞和黑山;zh-tw:塞爾維亞與蒙特內哥羅;"
     },
     {
       "original": "Sengiley",
@@ -1945,19 +1945,19 @@
     },
     {
       "original": "Shrewsbury",
-      "conv": "zh-cn:什鲁斯伯里; zh-hk:什魯斯伯里;zh-tw:舒茲伯利;"
+      "conv": "zh-cn:什鲁斯伯里;zh-hk:什魯斯伯里;zh-tw:舒茲伯利;"
     },
     {
       "original": "Sierra Leone",
-      "conv": "zh-cn:塞拉利昂; zh-tw:獅子山; zh-hk:塞拉利昂;"
+      "conv": "zh-cn:塞拉利昂;zh-tw:獅子山;zh-hk:塞拉利昂;"
     },
     {
       "original": "Silicon Valley",
-      "conv": "zh-hans:硅谷; zh-my:矽谷; zh-hant:矽谷;"
+      "conv": "zh-hans:硅谷;zh-my:矽谷;zh-hant:矽谷;"
     },
     {
       "original": "Simferopol",
-      "conv": "zh-cn:辛菲罗波尔; zh-hk:辛菲羅波爾; zh-tw:辛費羅波;"
+      "conv": "zh-cn:辛菲罗波尔;zh-hk:辛菲羅波爾;zh-tw:辛費羅波;"
     },
     {
       "original": "Simferopol",
@@ -1965,15 +1965,15 @@
     },
     {
       "original": "Sint Eustatius",
-      "conv": "zh-hans:圣尤斯特歇斯; zh-hant:聖尤斯特歇斯; zh-tw:聖佑達修斯;"
+      "conv": "zh-hans:圣尤斯特歇斯;zh-hant:聖尤斯特歇斯;zh-tw:聖佑達修斯;"
     },
     {
       "original": "Smolensk",
-      "conv": "zh-hans:斯摩棱斯克; zh-hant:斯摩倫斯克;"
+      "conv": "zh-hans:斯摩棱斯克;zh-hant:斯摩倫斯克;"
     },
     {
       "original": "Somalia",
-      "conv": "zh-cn:索马里; zh-sg:索马里; zh-tw:索馬利亞; zh-hk:索馬里;"
+      "conv": "zh-cn:索马里;zh-sg:索马里;zh-tw:索馬利亞;zh-hk:索馬里;"
     },
     {
       "original": "Somalia italiana",
@@ -2073,31 +2073,31 @@
     },
     {
       "original": "Stigant Reef（South Luconia Shoal）",
-      "conv": "zh-cn:海安礁; zh-hant:海安礁; zh-my:沙合礁; zh-sg:沙合礁;"
+      "conv": "zh-cn:海安礁;zh-hant:海安礁;zh-my:沙合礁;zh-sg:沙合礁;"
     },
     {
       "original": "Connell Reef（South Luconia Shoal）",
-      "conv": "zh-cn:隐波暗沙; zh-hant:隠波暗沙; zh-my:拿督打立礁; zh-sg:拿督打立礁;"
+      "conv": "zh-cn:隐波暗沙;zh-hant:隠波暗沙;zh-my:拿督打立礁;zh-sg:拿督打立礁;"
     },
     {
       "original": "Herald Reef（South Luconia Shoal）",
-      "conv": "zh-cn:海宁礁; zh-hant:海寧礁; zh-my:沙吉礁; zh-sg:沙吉礁;"
+      "conv": "zh-cn:海宁礁;zh-hant:海寧礁;zh-my:沙吉礁;zh-sg:沙吉礁;"
     },
     {
       "original": "Comus Shoal（South Luconia Shoal）",
-      "conv": "zh-cn:欢乐暗沙; zh-hant:歡樂暗沙; zh-my:美巴蒂滩; zh-sg:美巴蒂滩;zh:美巴蒂灘;"
+      "conv": "zh-cn:欢乐暗沙;zh-hant:歡樂暗沙;zh-my:美巴蒂滩;zh-sg:美巴蒂滩;zh:美巴蒂灘;"
     },
     {
       "original": "Richmond Reef（South Luconia Shoal）",
-      "conv": "zh-cn:潭门礁; zh-hant:潭門礁; zh-my:万年烟礁; zh-sg:万年烟礁;zh:萬年煙礁;"
+      "conv": "zh-cn:潭门礁;zh-hant:潭門礁;zh-my:万年烟礁;zh-sg:万年烟礁;zh:萬年煙礁;"
     },
     {
       "original": "Luconia Breakers（South Luconia Shoal）",
-      "conv": "zh-cn:琼台礁; zh-hant:瓊台礁; zh-my:班丁破礁; zh-sg:班丁破礁;"
+      "conv": "zh-cn:琼台礁;zh-hant:瓊台礁;zh-my:班丁破礁;zh-sg:班丁破礁;"
     },
     {
       "original": "Sierra Blanca Reef（South Luconia Shoal）",
-      "conv": "zh-cn:澄平礁; zh-hant:澄平礁; zh-my:峇都布爹礁; zh-sg:峇都布爹礁;zh:峇都布爹礁;"
+      "conv": "zh-cn:澄平礁;zh-hant:澄平礁;zh-my:峇都布爹礁;zh-sg:峇都布爹礁;zh:峇都布爹礁;"
     },
     {
       "original": "防止南海礁过度转换",
@@ -2169,7 +2169,7 @@
     },
     {
       "original": "Stirling",
-      "conv": "斯特林=>zh-cn:斯特灵;斯特林=>zh-my:斯特灵;斯特林=>zh-sg:斯特灵;斯特林=>zh-hk:士他令;斯特林=>zh-mo:士他令;斯特林=>zh-tw:史特靈;"
+      "conv": "斯特林=>zh-hk:士他令;斯特林=>zh-mo:士他令;斯特林=>zh-tw:史特靈;"
     },
     {
       "original": "Stirling",
@@ -2177,11 +2177,11 @@
     },
     {
       "original": "Strasbourg",
-      "conv": "zh-cn:斯特拉斯堡; zh-tw:史特拉斯堡; zh-hk:斯特拉斯堡;"
+      "conv": "zh-cn:斯特拉斯堡;zh-tw:史特拉斯堡;zh-hk:斯特拉斯堡;"
     },
     {
       "original": "Stuttgart",
-      "conv": "zh-cn:斯图加特; zh-hk:史特加; zh-tw:斯圖加特;"
+      "conv": "zh-cn:斯图加特;zh-hk:史特加;zh-tw:斯圖加特;"
     },
     {
       "original": "Stuttgart",
@@ -2189,11 +2189,11 @@
     },
     {
       "original": "St.Helena",
-      "conv": "zh-cn:圣赫勒拿; zh-hk:聖海倫娜; zh-tw:聖赫勒拿;"
+      "conv": "zh-cn:圣赫勒拿;zh-hk:聖海倫娜;zh-tw:聖赫勒拿;"
     },
     {
       "original": "Sucre",
-      "conv": "zh-cn:苏克雷; zh-tw:蘇克瑞;"
+      "conv": "zh-cn:苏克雷;zh-tw:蘇克瑞;"
     },
     {
       "original": "Suez",
@@ -2201,7 +2201,7 @@
     },
     {
       "original": "Suez Canal",
-      "conv": "zh-tw:蘇伊士運河; zh-hk:蘇彝士運河; zh-cn:苏伊士运河;"
+      "conv": "zh-tw:蘇伊士運河;zh-hk:蘇彝士運河;zh-cn:苏伊士运河;"
     },
     {
       "original": "সুন্দরবন (Sundarbans)",
@@ -2217,11 +2217,11 @@
     },
     {
       "original": "Swaziland",
-      "conv": "zh-cn:斯威士兰; zh-hk:斯威士蘭; zh-tw:史瓦濟蘭;"
+      "conv": "zh-cn:斯威士兰;zh-hk:斯威士蘭;zh-tw:史瓦濟蘭;"
     },
     {
       "original": "Sydney",
-      "conv": "zh-cn:悉尼; zh-hk:悉尼; zh-tw:雪梨;"
+      "conv": "zh-cn:悉尼;zh-hk:悉尼;zh-tw:雪梨;"
     },
     {
       "original": "Syracuse",
@@ -2233,19 +2233,19 @@
     },
     {
       "original": "Schweinfurt",
-      "conv": "zh-cn:施韦因富特; zh-tw:什文福;"
+      "conv": "zh-cn:施韦因富特;zh-tw:什文福;"
     },
     {
       "original": "Tashkent",
-      "conv": "zh-cn:塔什干; zh-hk:塔什干; zh-tw:塔什干; zh-sg:塔什干;"
+      "conv": "zh-cn:塔什干;zh-hk:塔什干;zh-tw:塔什干;zh-sg:塔什干;"
     },
     {
       "original": "Tamil",
-      "conv": "zh-cn:泰米尔; zh-hk:淡米爾; zh-mo:泰米爾; zh-tw:坦米爾; zh-sg:淡米尔;"
+      "conv": "zh-cn:泰米尔;zh-hk:淡米爾;zh-mo:泰米爾;zh-tw:坦米爾;zh-sg:淡米尔;"
     },
     {
       "original": "Tanganyika",
-      "conv": "zh-cn:坦噶尼喀; zh-hk:坦噶尼喀; zh-tw:坦加尼喀;"
+      "conv": "zh-cn:坦噶尼喀;zh-hk:坦噶尼喀;zh-tw:坦加尼喀;"
     },
     {
       "original": "Tanganyika",
@@ -2253,27 +2253,23 @@
     },
     {
       "original": "Tanzania",
-      "conv": "zh-cn:坦桑尼亚; zh-hk:坦桑尼亞; zh-tw:坦尚尼亞;"
+      "conv": "zh-cn:坦桑尼亚;zh-hk:坦桑尼亞;zh-tw:坦尚尼亞;"
     },
     {
       "original": "Tajikistan",
-      "conv": "zh-cn:塔吉克斯坦; zh-tw:塔吉克;zh-hk:塔吉克;zh-hant:塔吉克斯坦;"
+      "conv": "zh-cn:塔吉克斯坦;zh-tw:塔吉克;zh-hk:塔吉克;zh-hant:塔吉克斯坦;"
     },
     {
       "original": "Tbilisi",
-      "conv": "zh-cn:第比利斯; zh-hk:第比利斯; zh-tw:提比里西;"
-    },
-    {
-      "original": "Tbilisi",
-      "conv": "提比里斯=>zh-cn:第比利斯; 提比里斯=>zh-hk:第比利斯; 提比里斯=>zh-tw:提比里西;"
+      "conv": "zh-cn:第比利斯;zh-hk:第比利斯;zh-tw:提比里斯;"
     },
     {
       "original": "Teplice",
-      "conv": "zh-cn:特普利采; zh-hk:特普利策; zh-tw:特普利策;"
+      "conv": "zh-cn:特普利采;zh-hk:特普利策;zh-tw:特普利策;"
     },
     {
       "original": "Tegucigalpa",
-      "conv": "zh-cn:特古西加尔巴; zh-tw:德古西加巴;"
+      "conv": "zh-cn:特古西加尔巴;zh-tw:德古西加巴;"
     },
     {
       "original": "Tel Aviv",
@@ -2285,19 +2281,23 @@
     },
     {
       "original": "Telangana",
-      "conv": "zh-cn:特伦甘纳; zh-sg:泰伦加纳; zh-tw:泰倫加納;"
+      "conv": "zh-cn:特伦甘纳;zh-sg:泰伦加纳;zh-tw:泰倫加納;"
+    },
+    {
+      "original": "Ternate",
+      "conv": "zh:特爾納特;zh-hans:特尔纳特;zh-tw:德那第;"
     },
     {
       "original": "The Collegiate Church of St Peter at Westminster",
-      "conv": "zh-cn:威斯敏斯特圣彼得牧师团教堂; zh-tw:西敏市聖彼得牧師團教堂; zh-sg:西敏市圣彼得牧师团教堂;zh-hk:西敏市聖彼得牧師團教堂;"
+      "conv": "zh-cn:威斯敏斯特圣彼得牧师团教堂;zh-tw:西敏市聖彼得牧師團教堂;zh-sg:西敏市圣彼得牧师团教堂;zh-hk:西敏市聖彼得牧師團教堂;"
     },
     {
       "original": "Thimphu",
-      "conv": "zh-cn:廷布; zh-tw:辛布;"
+      "conv": "zh-cn:廷布;zh-tw:辛布;"
     },
     {
       "original": "Tiflis",
-      "conv": "zh-cn:梯弗里斯; zh-hk:梯弗里斯; zh-tw:提弗利司;"
+      "conv": "zh-cn:梯弗里斯;zh-hk:梯弗里斯;zh-tw:提弗利司;"
     },
     {
       "original": "Tiraspol",
@@ -2313,23 +2313,27 @@
     },
     {
       "original": "Tobago",
-      "conv": "zh-cn:多巴哥; zh-tw:托巴哥; zh-hk:多巴哥; zh-mo:多巴哥;"
+      "conv": "zh-cn:多巴哥;zh-tw:托巴哥;zh-hk:多巴哥;zh-mo:多巴哥;"
     },
     {
       "original": "Tokson",
-      "conv": "zh-cn:托克逊; zh-hk:托克遜; zh-tw:托克遜;"
+      "conv": "zh-cn:托克逊;zh-hk:托克遜;zh-tw:托克遜;"
     },
     {
       "original": "Torino",
-      "conv": "zh-cn:都灵; zh-tw:杜林; zh-hk:都靈;"
+      "conv": "zh-cn:都灵;zh-tw:杜林;zh-hk:都靈;"
     },
     {
       "original": "Toledo",
-      "conv": "zh-hans:托莱多; zh-hant:托萊多; zh-tw:托雷多;"
+      "conv": "zh-hans:托莱多;zh-hant:托萊多;zh-tw:托雷多;"
+    },
+    {
+      "original": "Tønsberg",
+      "conv": "zh-cn:滕斯贝格;zh-tw:通斯堡;zh-hk:通斯堡;zh:滕斯貝格;"
     },
     {
       "original": "Transkei",
-      "conv": "zh-hans:特兰斯凯; zh-hant:特蘭斯凱; zh-tw:川斯凱;"
+      "conv": "zh-hans:特兰斯凯;zh-hant:特蘭斯凱;zh-tw:川斯凱;"
     },
     {
       "original": "Transvaal",
@@ -2337,7 +2341,11 @@
     },
     {
       "original": "Transylvania",
-      "conv": "zh-cn:特兰西瓦尼亚; zh-hk:特蘭西瓦尼亞; zh-tw:外西凡尼亞;"
+      "conv": "zh-cn:特兰西瓦尼亚;zh-tw:外西凡尼亞;"
+    },
+    {
+      "original": "Transylvania",
+      "conv": "zh:特蘭西瓦尼亞;zh-cn:特兰西瓦尼亚;zh-tw:外西凡尼亞;"
     },
     {
       "original": "Trinidad",
@@ -2345,7 +2353,7 @@
     },
     {
       "original": "Tristan da Cunha",
-      "conv": "zh-tw:崔斯坦達庫尼亞; zh-hk:特里斯坦-達庫尼亞; zh-hans:特里斯坦-达库尼亚;"
+      "conv": "zh-tw:崔斯坦達庫尼亞;zh-hk:特里斯坦-達庫尼亞;zh-hans:特里斯坦-达库尼亚;"
     },
     {
       "original": "ცხინვალი",
@@ -2353,87 +2361,83 @@
     },
     {
       "original": "Turks and Caicos Islands",
-      "conv": "zh-cn:特克斯和凯科斯群岛; zh-tw:土克凱可群島; zh-hk:特克斯和凱科斯群島;"
+      "conv": "zh-cn:特克斯和凯科斯群岛;zh-tw:土克凱可群島;zh-hk:特克斯和凱科斯群島;"
     },
     {
       "original": "Republic of Trinidad and Tobago",
-      "conv": "zh-cn:特立尼达和多巴哥; zh-tw:千里達及托巴哥; zh-hk:千里達和多巴哥;"
+      "conv": "zh-cn:特立尼达和多巴哥;zh-tw:千里達及托巴哥;zh-hk:千里達和多巴哥;"
     },
     {
       "original": "Tuvalu",
-      "conv": "zh-cn:图瓦卢; zh-tw:吐瓦魯; zh-hk:圖瓦盧;"
+      "conv": "zh-cn:图瓦卢;zh-tw:吐瓦魯;zh-hk:圖瓦盧;"
     },
     {
       "original": "Tunisia",
-      "conv": "zh-tw:突尼西亞; zh-hk:突尼西亞; zh-cn:突尼斯;"
+      "conv": "zh-tw:突尼西亞;zh-hk:突尼西亞;zh-cn:突尼斯;"
     },
     {
       "original": "防止突尼斯过度转换",
-      "conv": "zh-tw:突尼斯市; zh-hk:突尼斯市; zh-cn:突尼斯市;"
+      "conv": "zh-tw:突尼斯市;zh-hk:突尼斯市;zh-cn:突尼斯市;"
     },
     {
       "original": "防止突尼斯过度转换",
-      "conv": "zh-hans:突尼斯城; zh-hant:突尼斯城; "
+      "conv": "zh-hans:突尼斯城;zh-hant:突尼斯城; "
     },
     {
       "original": "防止突尼斯过度转换",
-      "conv": "zh-tw:突尼斯湖; zh-hk:突尼斯湖; zh-cn:突尼斯湖;"
+      "conv": "zh-tw:突尼斯湖;zh-hk:突尼斯湖;zh-cn:突尼斯湖;"
     },
     {
       "original": "防止突尼斯过度转换",
-      "conv": "zh-tw:突尼斯灣; zh-hk:突尼斯灣; zh-cn:突尼斯湾;"
+      "conv": "zh-tw:突尼斯灣;zh-hk:突尼斯灣;zh-cn:突尼斯湾;"
     },
     {
       "original": "防止突尼斯过度转换",
-      "conv": "zh-tw:突尼斯省; zh-hk:突尼斯省; zh-cn:突尼斯省;"
+      "conv": "zh-tw:突尼斯省;zh-hk:突尼斯省;zh-cn:突尼斯省;"
     },
     {
       "original": "防止突尼斯过度转换",
-      "conv": "zh-tw:突尼斯-古萊特-港口鐵路; zh-hk:突尼斯-古萊特-港口鐵路; zh-cn:突尼斯-古萊特-港口铁路;"
+      "conv": "zh-tw:突尼斯-古萊特-港口鐵路;zh-hk:突尼斯-古萊特-港口鐵路;zh-cn:突尼斯-古萊特-港口铁路;"
     },
     {
       "original": "Turkmenistan",
-      "conv": "zh-cn:土库曼斯坦; zh-tw:土庫曼; zh-hk:土庫曼; zh-hans:土库曼斯坦;zh-hant:土庫曼斯坦;"
+      "conv": "zh-cn:土库曼斯坦;zh-tw:土庫曼;zh-hk:土庫曼;zh-hans:土库曼斯坦;zh-hant:土庫曼斯坦;"
     },
     {
       "original": "Turkmen ",
-      "conv": "zh-hans:土库曼语; zh-hant:土庫曼語;"
+      "conv": "zh-hans:土库曼语;zh-hant:土庫曼語;"
     },
     {
       "original": "Turks",
-      "conv": "zh-cn:特克斯; zh-tw:土克; zh-hk:特克斯;"
+      "conv": "zh-cn:特克斯;zh-tw:土克;zh-hk:特克斯;"
     },
     {
       "original": "Turks and Caicos",
-      "conv": "zh-cn:特克斯和凯科斯; zh-tw:土克凱可; zh-hk:特克斯和凱科斯;"
-    },
-    {
-      "original": "Tyne",
-      "conv": "zh-cn:泰恩;zh-hk:泰恩;zh-tw:泰恩;zh:泰因"
+      "conv": "zh-cn:特克斯和凯科斯;zh-tw:土克凱可;zh-hk:特克斯和凱科斯;"
     },
     {
       "original": "UAE",
-      "conv": "zh-cn:阿联酋; zh-hk:阿聯酋; zh-tw:阿聯;"
+      "conv": "zh-cn:阿联酋;zh-hk:阿聯酋;zh-tw:阿聯;"
     },
     {
       "original": "Utrecht",
-      "conv": "zh-cn:乌得勒支; zh-hk:烏德勒支; zh-tw:烏特勒支;"
+      "conv": "zh-cn:乌得勒支;zh-hk:烏德勒支;zh-tw:烏特勒支;"
     },
     {
       "original": "Upper Volta",
-      "conv": "zh-cn:上沃尔特; zh-hk:上沃爾特;zh-tw:上伏塔;"
+      "conv": "zh-cn:上沃尔特;zh-hk:上沃爾特;zh-tw:上伏塔;"
     },
     {
       "original": "United Arab Emirates",
-      "conv": "zh-cn:阿拉伯联合酋长国; zh-hk:阿拉伯聯合酋長國; zh-sg:阿拉伯联合酋长国; zh-tw:阿拉伯聯合大公國;"
+      "conv": "zh-cn:阿拉伯联合酋长国;zh-hk:阿拉伯聯合酋長國;zh-sg:阿拉伯联合酋长国;zh-tw:阿拉伯聯合大公國;"
     },
     {
       "original": "Urundi",
-      "conv": "zh-cn:乌隆迪; zh-hk:烏隆迪; zh-tw:烏隆地;"
+      "conv": "zh-cn:乌隆迪;zh-hk:烏隆迪;zh-tw:烏隆地;"
     },
     {
       "original": "Urgell",
-      "conv": "zh-hant:烏格爾; zh-hans:乌赫尔;"
+      "conv": "zh-hant:烏格爾;zh-hans:乌赫尔;"
     },
     {
       "original": "Urgell",
@@ -2441,7 +2445,7 @@
     },
     {
       "original": "Uzbekistan",
-      "conv": "zh-cn:乌兹别克斯坦; zh-tw:烏茲別克; zh-hk:烏茲別克; zh-hant:烏茲別克斯坦;"
+      "conv": "zh-cn:乌兹别克斯坦;zh-tw:烏茲別克;zh-hk:烏茲別克;zh-hant:烏茲別克斯坦;"
     },
     {
       "original": "Vaduz",
@@ -2457,19 +2461,15 @@
     },
     {
       "original": "Vaals",
-      "conv": "zh-cn:法尔斯; zh-tw:瓦爾斯;"
+      "conv": "zh-cn:法尔斯;zh-tw:瓦爾斯;"
     },
     {
       "original": "Valletta",
-      "conv": "zh-cn:瓦莱塔; zh-tw:瓦勒他;"
+      "conv": "zh-cn:瓦莱塔;zh-hk:法勒他;zh-tw:瓦勒他;"
     },
     {
       "original": "Valladolid",
-      "conv": "zh-hans:巴利亚多利德; zh-hant:巴利阿多利德; zh-tw:瓦拉多利德; zh-hk:華亞度列;"
-    },
-    {
-      "original": "Venda",
-      "conv": "zh-hans:文达; zh-hant:文達; zh-tw:溫達;"
+      "conv": "zh-hans:巴利亚多利德;zh-hant:巴利阿多利德;zh-tw:瓦拉多利德;zh-hk:華亞度列;"
     },
     {
       "original": "Victoria, Australia",
@@ -2493,27 +2493,23 @@
     },
     {
       "original": "Vladivostok",
-      "conv": "zh-cn:海参崴; zh-tw:海參崴; zh-hk:海參崴;"
+      "conv": "zh-cn:海参崴;zh-tw:海參崴;zh-hk:海參崴;"
     },
     {
       "original": "Vlorë",
-      "conv": "zh-hans:发罗拉;zh-hant:夫羅勒;"
+      "conv": "zh-hans:发罗拉;zh-tw:夫羅勒;zh-hk:發羅拉"
     },
     {
       "original": "Vojvodina",
-      "conv": "zh-cn:伏伊伏丁那; zh-tw:弗伊弗迪納; zh-hk:伏伊伏丁那;"
+      "conv": "zh-cn:伏伊伏丁那;zh-hk:禾獲甸拿;zh-tw:弗伊弗迪納;"
     },
     {
       "original": "Vojvodina",
-      "conv": "佛伊弗迪納=>zh-cn:伏伊伏丁那; 佛伊弗迪納=>zh-tw:弗伊弗迪納; 佛伊弗迪納=>zh-hk:伏伊伏丁那;"
+      "conv": "zh:佛伊弗迪納;zh-cn:伏伊伏丁那;zh-hk:禾獲甸拿;zh-tw:弗伊弗迪納;"
     },
     {
       "original": "Volga",
-      "conv": "zh-cn:伏尔加河; zh-tw:窩瓦河; zh-hk:伏爾加河;"
-    },
-    {
-      "original": "Vosges",
-      "conv": "zh-cn:孚日;zh-hk:佛日;zh-tw:佛日;"
+      "conv": "zh-cn:伏尔加河;zh-tw:窩瓦河;zh-hk:伏爾加河;"
     },
     {
       "original": "Wales",
@@ -2521,7 +2517,7 @@
     },
     {
       "original": "Wallonia",
-      "conv": "zh-cn:瓦隆; zh-tw:瓦隆; zh-hk:華隆;"
+      "conv": "zh-cn:瓦隆;zh-tw:瓦隆;zh-hk:華隆;"
     },
     {
       "original": "Waterloo",
@@ -2541,15 +2537,15 @@
     },
     {
       "original": "Walvis Bay",
-      "conv": "zh-hans:鲸湾港; zh-hant:華維斯灣;"
+      "conv": "zh-hans:鲸湾港;zh-hant:華維斯灣;"
     },
     {
       "original": "Wellington",
-      "conv": "zh-hans:惠灵顿; zh-hant:威靈頓;"
+      "conv": "zh-hans:惠灵顿;zh-hant:威靈頓;"
     },
     {
       "original": "Weimar",
-      "conv": "zh-cn:魏玛; zh-tw:威瑪; zh-hk:威瑪;"
+      "conv": "zh-cn:魏玛;zh-tw:威瑪;zh-hk:威瑪;"
     },
     {
       "original": "Western Australia",
@@ -2585,27 +2581,27 @@
     },
     {
       "original": "Whistler",
-      "conv": "zh-cn:惠斯勒; zh-hk:威士拿; zh-tw:惠斯勒;"
+      "conv": "zh-cn:惠斯勒;zh-hk:威士拿;zh-tw:惠斯勒;"
     },
     {
       "original": "Wimbledon",
-      "conv": "zh-cn:温布尔登; zh-tw:溫布頓; zh-hk:溫布頓;"
+      "conv": "zh-cn:温布尔登;zh-tw:溫布頓;zh-hk:溫布頓;"
     },
     {
       "original": "Windhoek",
-      "conv": "zh-hans:温得和克; zh-hant:溫得和克; zh-tw:溫荷克;"
+      "conv": "zh-hans:温得和克;zh-hant:溫得和克;zh-tw:溫荷克;"
     },
     {
       "original": "Witwatersrand",
-      "conv": "zh-hans:威特沃特斯兰德; zh-hant:維瓦特斯蘭;"
+      "conv": "zh-hans:威特沃特斯兰德;zh-hant:維瓦特斯蘭;"
     },
     {
       "original": "Willemstad",
-      "conv": "zh-cn:威廉斯塔德; zh-hk:威廉斯塔德; zh-tw:威廉城;"
+      "conv": "zh-cn:威廉斯塔德;zh-hk:威廉斯塔德;zh-tw:威廉城;"
     },
     {
       "original": "Wolfsburg",
-      "conv": "zh-cn:沃尔夫斯堡; zh-tw:狼堡; zh-hk:禾夫斯堡;"
+      "conv": "zh-cn:沃尔夫斯堡;zh-tw:狼堡;zh-hk:禾夫斯堡;"
     },
     {
       "original": "Wrocław",
@@ -2613,55 +2609,55 @@
     },
     {
       "original": "Yakutsk",
-      "conv": "zh-hant:雅庫茨克; zh-tw:雅庫次克; zh-hans:雅库茨克;"
+      "conv": "zh-hant:雅庫茨克;zh-tw:雅庫次克;zh-hans:雅库茨克;"
     },
     {
       "original": "Yalta",
-      "conv": "zh-cn:雅尔塔; zh-tw:雅爾達;"
+      "conv": "zh-cn:雅尔塔;zh-tw:雅爾達;"
     },
     {
       "original": "Yamoussoukro",
-      "conv": "zh-cn:亚穆苏克罗; zh-tw:雅穆索戈;"
+      "conv": "zh-cn:亚穆苏克罗;zh-tw:雅穆索戈;"
     },
     {
       "original": "Yaoundé",
-      "conv": "zh-cn:雅温得;zh-tw:雅恩德;zh-hk:雅溫得;"
+      "conv": "zh-cn:雅温得;zh-tw:雅溫德;zh-hk:雅溫得;"
     },
     {
       "original": "Yaoundé",
-      "conv": "雅溫德=>zh-cn:雅温得;雅溫德=>zh-my:雅温得;雅溫德=>zh-sg:雅温得;雅溫德=>zh-tw:雅恩德;雅溫德=>zh-hk:雅溫得;雅溫德=>zh-mo:雅溫得;"
+      "conv": "雅恩德=>zh-cn:雅温得;雅恩德=>zh-my:雅温得;雅恩德=>zh-sg:雅温得;雅恩德=>zh-tw:雅溫德;雅恩德=>zh-hk:雅溫得;雅恩德=>zh-mo:雅溫得;"
     },
     {
       "original": "Yemen",
-      "conv": "zh-cn:也门; zh-hk:也門; zh-tw:葉門;"
+      "conv": "zh-cn:也门;zh-hk:也門;zh-tw:葉門;"
     },
     {
       "original": "Yellowknife",
-      "conv": "zh-hans:耶罗纳夫; zh-hk:黃刀鎮; zh-tw:黃刀鎮;"
+      "conv": "zh-hans:耶罗纳夫;zh-hk:黃刀鎮;zh-tw:黃刀鎮;"
     },
     {
       "original": "Yerevan",
-      "conv": "zh-cn:埃里温; zh-tw:葉里溫; zh-hk:葉里溫;"
+      "conv": "zh-cn:埃里温;zh-tw:葉里溫;zh-hk:葉里溫;"
     },
     {
       "original": "Zagreb",
-      "conv": "zh-cn:萨格勒布; zh-tw:札格瑞布; zh-hk:薩格勒布;"
+      "conv": "zh-cn:萨格勒布;zh-tw:札格瑞布;zh-hk:薩格勒布;"
     },
     {
       "original": "Zambia",
-      "conv": "zh-cn:赞比亚; zh-tw:尚比亞; zh-hk:贊比亞;"
+      "conv": "zh-cn:赞比亚;zh-tw:尚比亞;zh-hk:贊比亞;"
     },
     {
       "original": "Zanzibar",
-      "conv": "zh-cn:桑给巴尔; zh-hk:桑給巴爾; zh-tw:尚吉巴;"
+      "conv": "zh-cn:桑给巴尔;zh-hk:桑給巴爾;zh-tw:尚吉巴;"
     },
     {
       "original": "Zaragoza",
-      "conv": "zh-hans:萨拉戈萨; zh-hant:薩拉戈薩; zh-tw:沙拉哥薩;"
+      "conv": "zh-hans:萨拉戈萨;zh-hant:薩拉戈薩;zh-tw:沙拉哥薩;"
     },
     {
       "original": "Zihuatanejo",
-      "conv": "zh-cn:锡瓦塔内霍; zh-hk:斯華坦尼奧; zh-tw:芝華塔尼歐;"
+      "conv": "zh-cn:锡瓦塔内霍;zh-hk:斯華坦尼奧;zh-tw:芝華塔尼歐;"
     },
     {
       "original": "Žilina",
@@ -2669,19 +2665,15 @@
     },
     {
       "original": "Zimbabwe",
-      "conv": "zh-cn:津巴布韦; zh-hk:津巴布韋; zh-tw:辛巴威;"
+      "conv": "zh-cn:津巴布韦;zh-hk:津巴布韋;zh-tw:辛巴威;"
     },
     {
       "original": "diaoyu island",
-      "conv": "zh-cn:钓鱼岛; zh-tw:釣魚臺; zh-hk:釣魚台; zh-sg:钓鱼岛;"
+      "conv": "zh-cn:钓鱼岛;zh-tw:釣魚臺;zh-hk:釣魚台;zh-sg:钓鱼岛;"
     },
     {
       "original": "diaoyu islands",
-      "conv": "zh-cn:钓鱼岛及其附属岛屿; zh-tw:釣魚臺列嶼; zh-hk:釣魚台及其附屬島嶼; zh-sg:钓鱼岛及其附属岛屿; zh-hant:釣魚台列嶼; zh-mo:釣魚台及其附屬島嶼;"
-    },
-    {
-      "original": "North Korea",
-      "conv": "zh-cn:朝鲜;zh-tw:北韓;zh-hk:北韓;zh-mo:北韓;zh-sg:朝鲜;zh-my:朝鲜;"
+      "conv": "zh-cn:钓鱼岛及其附属岛屿;zh-tw:釣魚臺列嶼;zh-hk:釣魚台及其附屬島嶼;zh-sg:钓鱼岛及其附属岛屿;zh-hant:釣魚台列嶼;zh-mo:釣魚台及其附屬島嶼;"
     },
     {
       "original": "South Korea",
@@ -2689,87 +2681,83 @@
     },
     {
       "original": "Korean Peninsula",
-      "conv": "zh-cn:朝鲜半岛; zh-tw:朝鮮半島;"
+      "conv": "zh-cn:朝鲜半岛;zh-tw:朝鮮半島;"
     },
     {
       "original": "가사군도",
-      "conv": "zh-cn:加沙群岛; zh-hk:加沙群島; zh-sg:加沙群岛; zh-tw:加沙群島;"
+      "conv": "zh-cn:加沙群岛;zh-hk:加沙群島;zh-sg:加沙群岛;zh-tw:加沙群島;"
     },
     {
       "original": "Yamdena",
-      "conv": "zh-cn:扬德纳岛; zh-tw:延德納島;"
+      "conv": "zh-cn:扬德纳岛;zh-tw:延德納島;"
     },
     {
       "original": "Belgrade",
-      "conv": "zh-cn:贝尔格莱德; zh-tw:貝爾格勒; zh-hk:貝爾格萊德;"
+      "conv": "zh-cn:贝尔格莱德;zh-tw:貝爾格勒;zh-hk:貝爾格萊德;"
     },
     {
       "original": "Bosnia",
-      "conv": "zh-cn:波斯尼亚; zh-hk:波斯尼亞; zh-tw:波士尼亞; zh-sg:波士尼亚;"
+      "conv": "zh-cn:波斯尼亚;zh-hk:波斯尼亞;zh-tw:波士尼亞;zh-sg:波士尼亚;"
     },
     {
       "original": "Bosnia and Herzegovina",
-      "conv": "zh-cn:波黑; zh-hk:波黑; zh-tw:波赫;"
+      "conv": "zh-cn:波黑;zh-hk:波黑;zh-tw:波赫;"
     },
     {
       "original": "Bosnia and Herzegovina (full)",
-      "conv": "zh-cn:波斯尼亚和黑塞哥维那; zh-hk:波斯尼亞和黑塞哥維那; zh-tw:波士尼亞與赫塞哥維納;"
+      "conv": "zh-cn:波斯尼亚和黑塞哥维那;zh-hk:波斯尼亞和黑塞哥維那;zh-tw:波士尼亞與赫塞哥維納;"
     },
     {
       "original": "Cetinje",
-      "conv": "zh-cn:采蒂涅; zh-hk:采蒂涅; zh-tw:策提涅;"
+      "conv": "zh-cn:采蒂涅;zh-hk:采蒂涅;zh-tw:策提涅;"
     },
     {
       "original": "Croatia",
-      "conv": "zh-cn:克罗地亚; zh-hk:克羅地亞; zh-tw:克羅埃西亞; zh-sg:克罗地亚;"
+      "conv": "zh-cn:克罗地亚;zh-hk:克羅地亞;zh-tw:克羅埃西亞;zh-sg:克罗地亚;"
     },
     {
       "original": "Herzegovina",
-      "conv": "zh-cn:黑塞哥维那; zh-hk:黑塞哥維那; zh-tw:赫塞哥維納;"
+      "conv": "zh-cn:黑塞哥维那;zh-hk:黑塞哥維那;zh-tw:赫塞哥維納;"
     },
     {
       "original": "Kharkiv",
-      "conv": "zh-cn:哈尔科夫; zh-hk:哈爾科夫; zh-tw:哈爾科夫;"
+      "conv": "zh-cn:哈尔科夫;zh-hk:哈爾科夫;zh-tw:哈爾科夫;"
     },
     {
       "original": "Leposavić",
-      "conv": "zh-cn:莱波萨维齐; zh-tw:萊波薩維奇;"
+      "conv": "zh-cn:莱波萨维齐;zh-tw:萊波薩維奇;"
     },
     {
       "original": "Montenegro",
-      "conv": "zh-cn:黑山; zh-hk:黑山; zh-tw:蒙特內哥羅;"
+      "conv": "zh-cn:黑山;zh-hk:黑山;zh-tw:蒙特內哥羅;"
     },
     {
       "original": "Podgorica",
-      "conv": "zh-cn:波德戈里察; zh-hk:波德戈里察; zh-tw:波德里查; zh-sg:波德戈里察;"
+      "conv": "zh-cn:波德戈里察;zh-hk:波德戈里察;zh-tw:波德里查;zh-sg:波德戈里察;"
     },
     {
       "original": "Pristina",
-      "conv": "zh-cn:普里什蒂纳; zh-hk:普里什蒂納; zh-tw:普里斯提納; zh-sg:普里什蒂纳;"
-    },
-    {
-      "original": "Skopje",
-      "conv": "zh-cn:斯科普里; zh-hk:史高比耶; zh-tw:史高比耶;"
-    },
-    {
-      "original": "Slovenia",
-      "conv": "zh-cn:斯洛文尼亚; zh-hk:斯洛文尼亞; zh-tw:斯洛維尼亞;"
-    },
-    {
-      "original": "Split, Croatia",
-      "conv": "zh-cn:斯普利特; zh-hk:施普利特; zh-tw:史普利特;"
-    },
-    {
-      "original": "Vojvodina",
-      "conv": "zh-cn:伏伊伏丁那; zh-hk:禾獲甸拿; zh-tw:佛伊弗迪納;"
-    },
-    {
-      "original": "Ashmore and Cartier",
-      "conv": "zh-cn:阿什莫尔和卡捷; zh-tw:亞什摩及卡地爾;"
+      "conv": "zh-cn:普里什蒂纳;zh-hk:普里什蒂納;zh-tw:普里斯汀納;zh-sg:普里什蒂纳;"
     },
     {
       "original": "Australia",
-      "conv": "zh-cn:澳大利亚; 澳大利亞=>zh-hk:澳洲;"
+      "conv": "普里斯提納=>zh-cn:普里什蒂纳; 普里斯提納=>zh-hk:普里什蒂納; 普里斯提納=>zh-tw:普里斯汀納; 普里斯提納=>zh-sg:普里什蒂纳;"
+    },
+    {
+      "original": "Skopje",
+      "conv": "zh-cn:斯科普里;zh-hk:史高比耶;zh-tw:史高比耶;"
+    },
+    {
+      "original": "Slovenia",
+      "conv": "zh-cn:斯洛文尼亚;zh-hk:斯洛文尼亞;zh-tw:斯洛維尼亞;"
+    },
+    {
+      "original": "Split, Croatia",
+      "conv": "zh-cn:斯普利特;zh-hk:施普利特;zh-tw:史普利特;"
+    },
+    {
+      "original": "Ashmore and Cartier",
+      "conv": "zh-cn:阿什莫尔和卡捷;zh-tw:亞什摩及卡地爾;"
     },
     {
       "original": "Australia (continent)",
@@ -2777,67 +2765,71 @@
     },
     {
       "original": "Canberra",
-      "conv": "zh-cn:堪培拉; zh-hk:坎培拉; zh-tw:坎培拉;"
+      "conv": "zh-cn:堪培拉;zh-hk:坎培拉;zh-tw:坎培拉;"
     },
     {
       "original": "Johnston",
-      "conv": "zh-cn:约翰斯顿; zh-hk:約翰斯頓; zh-tw:強斯頓;"
+      "conv": "zh-cn:约翰斯顿;zh-hk:約翰斯頓;zh-tw:強斯頓;"
     },
     {
       "original": "Johnston Island",
-      "conv": "zh-cn:约翰斯顿岛; zh-hk:約翰斯頓島; zh-tw:強斯頓島;"
+      "conv": "zh-cn:约翰斯顿岛;zh-hk:約翰斯頓島;zh-tw:強斯頓島;"
     },
     {
       "original": "Johnston Atoll",
-      "conv": "zh-cn:约翰斯顿环礁; zh-hk:約翰斯頓環礁; zh-tw:強斯頓環礁;"
+      "conv": "zh-cn:约翰斯顿环礁;zh-hk:約翰斯頓環礁;zh-tw:強斯頓環礁;"
     },
     {
       "original": "Kiribati",
-      "conv": "zh-cn:基里巴斯; zh-hk:基里巴斯; zh-tw:吉里巴斯;"
+      "conv": "zh-cn:基里巴斯;zh-hk:基里巴斯;zh-tw:吉里巴斯;"
     },
     {
       "original": "Koror",
-      "conv": "zh-cn:科罗尔; zh-tw:柯羅;"
+      "conv": "zh-cn:科罗尔;zh-tw:柯羅;"
     },
     {
       "original": "Moorea",
-      "conv": "zh-hans:莫雷阿岛; zh-hant:茉莉亞島;"
+      "conv": "zh-hans:莫雷阿岛;zh-hant:茉莉亞島;"
     },
     {
       "original": "Nauru",
-      "conv": "zh-cn:瑙鲁; zh-tw:諾魯; zh-hk:瑙魯;"
+      "conv": "zh-cn:瑙鲁;zh-tw:諾魯;zh-hk:瑙魯;"
     },
     {
       "original": "New Guinea",
-      "conv": "zh-cn:新几内亚; zh-hk:新畿內亞; zh-tw:新幾內亞;"
+      "conv": "zh-cn:新几内亚;zh-hk:新畿內亞;zh-tw:新幾內亞;"
+    },
+    {
+      "original": "New Guinea",
+      "conv": "紐幾內亞=>zh-cn:新几内亚;紐幾內亞=>zh-hk:新畿內亞;紐幾內亞=>zh-mo:新畿內亞;紐幾內亞=>zh-tw:新幾內亞;紐幾內亞=>zh-sg:新几内亚;紐幾內亞=>zh-my:新几内亚;"
     },
     {
       "original": "Palau",
-      "conv": "zh-cn:帕劳; zh-hk:帕勞; zh-tw:帛琉;"
+      "conv": "zh-cn:帕劳;zh-hk:帕勞;zh-tw:帛琉;"
     },
     {
       "original": "Palmyra",
-      "conv": "zh-cn:巴尔米拉; zh-hk:帕邁拉; zh-tw:巴美拉;"
+      "conv": "zh-cn:巴尔米拉;zh-hk:帕邁拉;zh-tw:巴美拉;"
     },
     {
       "original": "Papua New Guinea",
-      "conv": "zh-cn:巴布亚新几内亚; zh-hk:巴布亞新畿內亞; zh-tw:巴布亞紐幾內亞;"
+      "conv": "zh-cn:巴布亚新几内亚;zh-hk:巴布亞新畿內亞;zh-tw:巴布亞紐幾內亞;"
     },
     {
       "original": "Phoenix Islands",
-      "conv": "zh-cn:菲尼克斯群岛; zh-hk:鳳凰群島; zh-tw:鳳凰群島;"
+      "conv": "zh-cn:菲尼克斯群岛;zh-hk:鳳凰群島;zh-tw:鳳凰群島;"
     },
     {
       "original": "Pitcairn",
-      "conv": "zh-cn:皮特凯恩; zh-tw:皮特肯;"
+      "conv": "zh-cn:皮特凯恩;zh-tw:皮特肯;"
     },
     {
       "original": "Polynesia",
-      "conv": "zh-cn:波利尼西亚; zh-hk:波利尼西亞; zh-tw:玻里尼西亞;"
+      "conv": "zh-cn:波利尼西亚;zh-hk:波利尼西亞;zh-tw:玻里尼西亞;"
     },
     {
       "original": "Polynesia, French",
-      "conv": "zh-cn:法属波利尼西亚; zh-hk:法屬波利尼西亞; zh-tw:法屬玻里尼西亞;"
+      "conv": "zh-cn:法属波利尼西亚;zh-hk:法屬波利尼西亞;zh-tw:法屬玻里尼西亞;"
     },
     {
       "original": "Tahiti",
@@ -2853,11 +2845,11 @@
     },
     {
       "original": "Tonga",
-      "conv": "zh-cn:汤加; zh-hk:湯加; zh-tw:東加;"
+      "conv": "zh-cn:汤加;zh-hk:湯加;zh-tw:東加;"
     },
     {
       "original": "Vanuatu",
-      "conv": "zh-cn:瓦努阿图; zh-hk:瓦努阿圖; zh-tw:萬那杜;"
+      "conv": "zh-cn:瓦努阿图;zh-hk:瓦努阿圖;zh-tw:萬那杜;"
     },
     {
       "original": "Yaren",
@@ -2869,47 +2861,55 @@
     },
     {
       "original": "Continental shelf",
-      "conv": "zh-cn:大陆架; zh-hk:大陸架; zh-tw:大陸棚; zh-my:大陆棚;"
+      "conv": "zh-cn:大陆架;zh-hk:大陸架;zh-tw:大陸棚;zh-my:大陆棚;"
+    },
+    {
+      "original": "Australasian realm",
+      "conv": "zh-hans:澳新界; zh-tw:澳紐界; zh-hk:澳新界;"
     },
     {
       "original": "Schengener Abkommen",
       "conv": "zh-cn:申根协议;zh-tw:申根公約;zh-hk:神根公約;申根公约=>zh-tw:申根公約;申根公约=>zh-hk:神根公約;"
     },
     {
-      "original": "Connaught Road",
-      "conv": "zh-hans:干诺道;zh-hant:干諾道;"
+      "original": "Kazakhs",
+      "conv": "zh-cn:哈萨克族;zh-tw:哈薩克族;"
     },
     {
       "original": "Kazakhs",
-      "conv": "zh-cn:哈萨克族; zh-tw:哈薩克族;"
-    },
-    {
-      "original": "Kazakhs",
-      "conv": "zh-cn:哈萨克语; zh-tw:哈薩克語;"
+      "conv": "zh-cn:哈萨克语;zh-tw:哈薩克語;"
     },
     {
       "original": "Kyrgyz",
-      "conv": "zh-cn:吉尔吉斯语; zh-tw:吉爾吉斯語;"
+      "conv": "zh-cn:吉尔吉斯语;zh-tw:吉爾吉斯語;"
     },
     {
       "original": "Kyrgyz",
-      "conv": "zh-cn:吉尔吉斯族; zh-tw:吉爾吉斯族;"
+      "conv": "zh-cn:吉尔吉斯族;zh-tw:吉爾吉斯族;"
+    },
+    {
+      "original": "Oliveira do Bairro",
+      "conv": "zh-hans:奥利韦拉-杜拜鲁;zh-hant:奧利韋拉-杜拜魯;"
+    },
+    {
+      "original": "Saint Philip",
+      "conv": "zh-hans:圣菲利普;zh-hant:聖菲利普;"
     },
     {
       "original": "Tajik",
-      "conv": "zh-cn:塔吉克语; zh-tw:塔吉克語;"
+      "conv": "zh-cn:塔吉克语;zh-tw:塔吉克語;"
     },
     {
       "original": "Tajik",
-      "conv": "zh-cn:塔吉克族; zh-tw:塔吉克族;"
+      "conv": "zh-cn:塔吉克族;zh-tw:塔吉克族;"
     },
     {
       "original": "Turkmen",
-      "conv": "zh-cn:土库曼语; zh-tw:土庫曼語;"
+      "conv": "zh-cn:土库曼语;zh-tw:土庫曼語;"
     },
     {
       "original": "Turkmen",
-      "conv": "zh-cn:土库曼族; zh-tw:土庫曼族;"
+      "conv": "zh-cn:土库曼族;zh-tw:土庫曼族;"
     },
     {
       "original": "Uzbek",
@@ -2921,71 +2921,63 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:东加里曼丹; zh-hant:東加里曼丹;"
+      "conv": "zh-hans:东加里曼丹;zh-hant:東加里曼丹;"
     },
     {
       "original": null,
-      "conv": "zh-hans:东加勒比; zh-hant:東加勒比;"
+      "conv": "zh-hans:东加勒比;zh-hant:東加勒比;"
     },
     {
       "original": null,
-      "conv": "zh-hans:东加拿大; zh-hant:東加拿大;"
+      "conv": "zh-hans:东加拿大;zh-hant:東加拿大;"
     },
     {
       "original": null,
-      "conv": "zh-hans:东加利福尼亚; zh-hant:東加利福尼亞;"
+      "conv": "zh-hans:东加利福尼亚;zh-hant:東加利福尼亞;"
     },
     {
       "original": null,
-      "conv": "zh-hans:东加古川; zh-hant:東加古川;"
+      "conv": "zh-hans:东加古川;zh-hant:東加古川;"
     },
     {
       "original": null,
-      "conv": "zh-hans:东加罗林狐蝠; zh-hant:東加羅林狐蝠;"
+      "conv": "zh-hans:东加罗林狐蝠;zh-hant:東加羅林狐蝠;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由城市; zh-hant:自由城市;"
+      "conv": "zh-hans:自由城市;zh-hant:自由城市;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由城县; zh-hant:自由城縣;"
+      "conv": "zh-hans:自由城县;zh-hant:自由城縣;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由城镇; zh-hant:自由城鎮;"
+      "conv": "zh-hans:自由城镇;zh-hant:自由城鎮;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由城区; zh-hant:自由城區;"
+      "conv": "zh-hans:自由城区;zh-hant:自由城區;"
     },
     {
       "original": null,
-      "conv": "zh-hans:宗教自由城; zh-hant:宗教自由城;"
+      "conv": "zh-hans:宗教自由城;zh-hant:宗教自由城;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由市镇; zh-hant:自由市鎮;"
+      "conv": "zh-hans:自由市场;zh-hant:自由市場;"
     },
     {
       "original": null,
-      "conv": "zh-hans:自由市场; zh-hant:自由市場;"
+      "conv": "zh-hans:属于;zh-hant:屬於;"
     },
     {
       "original": null,
-      "conv": "zh-hans:属于; zh-hant:屬於;"
+      "conv": "zh-hans:位于;zh-hant:位於;"
     },
     {
       "original": null,
-      "conv": "zh-hans:位于; zh-hant:位於;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:生于; zh-hant:生於;"
-    },
-    {
-      "original": "Saint Philip",
-      "conv": "zh-hans:圣菲利普;zh-hant:聖菲利普;"
+      "conv": "zh-hans:生于;zh-hant:生於;"
     }
   ]
 }

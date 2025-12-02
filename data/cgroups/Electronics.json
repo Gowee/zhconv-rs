@@ -20,6 +20,10 @@
       "conv": "zh-cn:模拟数字转换器; zh-hk:模擬數碼轉換器; zh-tw:類比數位轉換器"
     },
     {
+      "original": "Aligner",
+      "conv": "zh-cn:光刻机; zh-tw:曝光機; zh-hk:光刻機;"
+    },
+    {
       "original": "Analog",
       "conv": "zh-tw:類比; zh-cn:模拟; zh-hk:模擬;"
     },
@@ -29,7 +33,11 @@
     },
     {
       "original": "ASIC",
-      "conv": "zh-cn:专用集成电路; zh-tw:特殊應用積體電路;"
+      "conv": "zh-cn:特殊应用集成电路; zh-hk:特殊應用集成電路; zh-tw:特定應用積體電路; zh-hant:特殊應用積體電路;"
+    },
+    {
+      "original": "ASIC",
+      "conv": "专用集成电路=>zh-hk:特殊應用集成電路; 专用集成电路=>zh-tw:特定應用積體電路"
     },
     {
       "original": "Avalanche breakdown",
@@ -42,6 +50,10 @@
     {
       "original": "Avalanche photodiode",
       "conv": "zh-tw:雪崩光二極體; zh-cn:雪崩光电二极管;"
+    },
+    {
+      "original": "BEOL",
+      "conv": "zh-cn:后道工序;zh-tw:後段製程;"
     },
     {
       "original": "Biasing",
@@ -110,6 +122,10 @@
     {
       "original": "Compact fluorescent lamp",
       "conv": "zh-cn:节能灯; zh-tw:省電燈泡; zh-hk:慳電膽;"
+    },
+    {
+      "original": "Component",
+      "conv": "元器件=>zh-tw:元件;"
     },
     {
       "original": "Coordinate",
@@ -220,8 +236,16 @@
       "conv": "zh-cn:反馈; zh-hk:反饋; zh-tw:回饋;"
     },
     {
+      "original": "FEOL",
+      "conv": "zh-cn:前道工序;zh-tw:前段製程;"
+    },
+    {
       "original": "Field Effect Transistor",
       "conv": "zh-cn:场效应管; zh-tw:場效電晶體;"
+    },
+    {
+      "original": "Field Effect Transistor",
+      "conv": "场效应晶体管=>zh-tw:場效電晶體;"
     },
     {
       "original": "Firmware",
@@ -324,12 +348,20 @@
       "conv": "zh-tw:邏輯閘; zh-cn:逻辑门; zh-hk:邏輯門;"
     },
     {
+      "original": "logic synthesis",
+      "conv": "zh-tw:邏輯合成; zh-cn:逻辑综合;"
+    },
+    {
       "original": "LSI",
       "conv": "zh-cn:大规模集成电路; zh-tw:大型積體電路;"
     },
     {
       "original": "Mask",
       "conv": "zh-cn:掩模; zh-tw:光罩;"
+    },
+    {
+      "original": "Mask",
+      "conv": "掩膜=>zh-tw:光罩; 光掩模=>zh-tw:光罩;"
     },
     {
       "original": "Microcontroller",
@@ -477,7 +509,7 @@
     },
     {
       "original": "Process",
-      "conv": "zh-cn:工艺; zh-tw:製程;"
+      "conv": "工艺=>zh-tw:製程;"
     },
     {
       "original": "Protective relay",
@@ -584,6 +616,10 @@
       "conv": "zh-cn:封装内系统; zh-tw:封裝體系;"
     },
     {
+      "original": "Tape-out",
+      "conv": "zh-cn:流片; zh-tw:下線;"
+    },
+    {
       "original": "TSM(C)",
       "conv": "zh-hans:台湾积体电路制造; zh-hant:台灣積體電路製造;"
     },
@@ -610,6 +646,10 @@
     {
       "original": "Universal motor",
       "conv": "zh-cn:单相串励电动机; zh-tw:交流整流子電動機;"
+    },
+    {
+      "original": "Wire bonding",
+      "conv": "zh-tw:打線接合; zh-cn:引线键合"
     },
     {
       "original": "XNOR gate",

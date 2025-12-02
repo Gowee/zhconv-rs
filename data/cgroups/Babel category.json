@@ -1,0 +1,39 @@
+{
+  "name": "Babel category",
+  "description": "用於在用户頁中強制使巴别模板分類中的「使用者」不被轉換爲「用户」",
+  "path": "Module:CGroup/Babel category",
+  "rules": [
+    {
+      "original": "",
+      "conv": "-0 使用者"
+    },
+    {
+      "original": "",
+      "conv": "-0.5 使用者"
+    },
+    {
+      "original": "",
+      "conv": "-1 使用者"
+    },
+    {
+      "original": "",
+      "conv": "-2 使用者"
+    },
+    {
+      "original": "",
+      "conv": "-3 使用者"
+    },
+    {
+      "original": "",
+      "conv": "-4 使用者"
+    },
+    {
+      "original": "",
+      "conv": "-5 使用者"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:母语使用者;zh-hant:母語使用者"
+    }
+  ]
+}

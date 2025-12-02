@@ -1,19 +1,19 @@
 {
   "name": "Ultraman",
-  "description": "-{zh-hant:超人力霸王;zh-hk:超人;zh-tw:超人力霸王;zh-hans:奥特曼;zh-mo:超人;}-",
+  "description": "-{zh-hk:超人;zh-tw:超人力霸王;zh-cn:奥特曼;zh-sg:咸蛋超人;}-",
   "path": "Template:CGroup/Ultraman",
   "rules": [
     {
       "original": "ウルトラマン",
-      "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼;"
+      "conv": "zh-tw:超人力霸王;zh-cn:奥特曼;"
     },
     {
       "original": "ウルトラマン",
-      "conv": "zh-hant:超人力霸王;zh-tw:超人力霸王;zh-hans:奥特曼;"
+      "conv": "超人力霸王=>zh-sg:咸蛋超人;超人力霸王=>zh-my:咸蛋超人;奥特曼=>zh-sg:咸蛋超人;奥特曼=>zh-my:咸蛋超人;超人力霸王=>zh-hk:超人;超人力霸王=>zh-mo:超人;奥特曼=>zh-hk:超人;奥特曼=>zh-mo:超人;"
     },
     {
       "original": "ウルトラシリーズ",
-      "conv": "zh-hk:超人系列;zh-tw:超人力霸王系列;zh-hans:奥特曼系列;zh-mo:超人系列;zh-sg:咸蛋超人系列;zh-my:咸蛋超人系列"
+      "conv": "zh-hk:超人系列;zh-mo:超人系列;zh-tw:超人力霸王系列;zh-cn:奥特曼系列;zh-sg:咸蛋超人系列;zh-my:咸蛋超人系列"
     },
     {
       "original": "光の国",
@@ -21,7 +21,7 @@
     },
     {
       "original": "ウルトラの星",
-      "conv": "zh-hans:奥特之星;zh-hant:超人之星;"
+      "conv": "zh-cn:奥特之星;zh-my:超人之星;zh-sg:超人之星;zh-hant:超人之星;"
     },
     {
       "original": "Plasma Spark Tower",
@@ -57,7 +57,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:哈奴曼与七个奥特曼; zh-tw:猴王大戰七超人; zh-hk:猴王大戰七超人;"
+      "conv": "zh-cn:哈奴曼与七个奥特曼; zh-sg:猴王与七超人; zh-tw:猴王大戰七超人; zh-hk:飛天超人;"
     },
     {
       "original": null,
@@ -129,7 +129,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:大决戰!超人力霸王8兄弟; zh-tw:大決戰!超人力霸王8兄弟; zh-hk:大決戰!超人8兄弟;"
+      "conv": "zh:超奧特8兄弟; zh-hans:超奥特8兄弟; zh-hant:超鹹蛋超人8兄弟; zh-tw:超人力霸王8兄弟; zh-hk:超人8兄弟;"
+    },
+    {
+      "original": null,
+      "conv": "zh:大決戰!超奧特8兄弟;zh-hant:大決戰!超人力霸王8兄弟;zh-tw:大決戰！超鹹蛋超人8兄弟;zh-hk:超人8兄弟大電影;"
     },
     {
       "original": "ウルトラマン",

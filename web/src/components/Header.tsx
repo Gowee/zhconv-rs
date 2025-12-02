@@ -45,7 +45,7 @@ export default function Header() {
       <Box display="flex" alignItems="center">
         <Typography variant="h6" component="h2" gutterBottom>
           {
-            "Convert Chinese among different variants / 轉換简、繁體以及兩岸四地、新马的地區詞"
+            "Convert Chinese between Trad, Simp and regional variants / 轉換中文简、繁體以及兩岸四地和新马的地區詞"
           }
         </Typography>
         <Box

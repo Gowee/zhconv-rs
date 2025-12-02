@@ -3,10 +3,15 @@ import os
 import re
 import logging
 import json
+from time import sleep
+from pathlib import Path
 from itertools import count, chain
 from mwclient import Site
 
-CGROUPS_DIR = os.path.join(os.path.dirname(__file__), "cgroups")
+API_TOKEN = os.getenv("MW_API_TOKEN")
+SLEEP = 0
+
+CGROUPS_DIR = Path(__file__).parent / "cgroups"
 
 logger = logging.getLogger(__name__)
 
@@ -58,7 +63,12 @@ def cgroup_modules(site):
     # yield None
     for entry in site.search("Module:CGroup/"):
         title = entry["title"]
-        if title in {"Module:CGroup/core", "Module:CGroup/preload"}:
+        if title in {
+            "Module:CGroup/core",
+            "Module:CGroup/preload",
+            "Module:CGroup/sandbox",
+            "Module:CGroup/Sandbox",
+        }:
             continue  # not targets
         if not title.startswith("Module:CGroup/"):
             continue  # e.g. Module:CGroupViewer
@@ -93,7 +103,7 @@ def cgroup_templates(site):
             "Template:CGroup/CHead",
             "Template:CGroup/editintro",
             "Template:CGroup/New Style",
-            # "Template:CGroup/Science" # including several other templates
+            # "Template:CGroup/Science" # TODO: including several other templates
         }:
             continue  # not targets
         if not title.startswith("Template:CGroup/"):
@@ -159,91 +169,6 @@ def parse_template_line(s):
             or REGEX_RULE8.search(s)
         )
     ) and (m.group("original"), m.group("conv"))
-
-
-def fetch_cgroups(site):
-    # ok_cnt = 0
-    emptys = []
-    seen = set()
-    fails = []
-    for nth, title in zip(
-        count(1), chain(cgroup_modules(site), cgroup_templates(site))
-    ):
-        logger.info(f"Processing no.{nth} {title}")
-        try:
-            # name = title.split("/")[-1]
-            # if name in seen:  # modules that appear first take higher precedence
-            #     logger.info(f"Skip {title} (name already seen)")
-            #     continue
-            # # seen.add(name)
-            page = site.pages[title]
-            text = REGEX_LANG.sub(r"\1", page.text())
-            if (
-                title.startswith("Module:")
-                and (mname := REGEX_MODULE_NAME.search(text))
-                and (mdesc := REGEX_MODULE_DESCRIPTION.search(text))
-            ):
-                name = str(mname.group("name"))
-                description = str(mdesc.group("desc"))
-            elif mheader := REGEX_TEMPLATE_HEADER.search(text):
-                name = mheader.group("name")
-                description = mheader.group("desc")
-            else:
-                fails.append(title)
-                logger.warning("Failed to parse " + title)
-                continue
-            if name in seen:  # modules that appear first take higher precedence
-                logger.info(f"Skip {title} (name already seen)")
-                continue
-            seen.add(name)
-            rules = []
-            if title.startswith("Module:"):
-                match_rule = parse_module_line
-            else:  # Template:
-                match_rule = parse_template_line
-
-            for mrule in filter(
-                None,
-                map(
-                    match_rule,
-                    text.split("\n"),
-                ),
-            ):
-                conv = REGEX_SPECIAL_CHAR_NOTICE.sub(
-                    r"\1",
-                    mrule[1].replace("{{=}}", "="),  # e.g. `=>` in {{CItem}}
-                )
-                rules.append(
-                    {
-                        "original": mrule[0],
-                        "conv": conv,
-                    }
-                )
-
-            cgroup = {
-                "name": name,
-                "description": description,
-                "path": title,
-                "rules": rules,
-            }
-            yield cgroup
-            if len(rules) == 0:
-                logger.warning(f"0 rules found in {title}")
-                emptys.append(title)
-            # ok_cnt += 1
-        except KeyError:
-            fails.append(title)
-            logger.warning(f"Skip {title} (missing metadata)")
-        except Exception:
-            fails.append(title)
-            logger.exception(f"Error when processing {title}")
-    logger.info(
-        f"{nth} group(s) successfully fetched with {len(emptys)} empty, {len(fails)} failed."
-    )
-    if emptys:
-        logger.info(f"empty: " + ", ".join(emptys))
-    if fails:
-        logger.info(f"fail: " + ", ".join(fails))
 
 
 # def fetch_module(site):
@@ -318,14 +243,101 @@ def fetch_cgroups(site):
 def main():
     logging.basicConfig(level=os.environ.get("LOGLEVEL") or logging.INFO)
     logger.info("Up and running...")
+    logger.info("Do not forget to clear existing cgroups if necessary.")
     if not os.path.exists("./cgroups"):
         os.mkdir(CGROUPS_DIR)
-    site = Site("zh.wikipedia.org")
-    # cgroups = []
-    for cgroup in fetch_cgroups(site):
-        name = (cgroup["path"] or "").split("/")[-1] or cgroup["name"]
-        with open(os.path.join(CGROUPS_DIR, f"{name}.json"), "w") as f:
-            f.write(json.dumps(cgroup, indent=2, ensure_ascii=False))
+    auth_headers = {"Authorization": f"Bearer {API_TOKEN}"} if API_TOKEN else {}
+    site = Site(
+        "zh.wikipedia.org",
+        clients_useragent="zhconvs-rs/0.0",
+        custom_headers=auth_headers,
+    )
+
+    emptys = []
+    fails = []
+    for nth, title in zip(
+        count(1), chain(cgroup_modules(site), cgroup_templates(site))
+    ):
+        logger.info(f"Processing no.{nth} {title}")
+        try:
+            pname = (title or "").split("/")[-1].strip()
+            if not pname:
+                logger.warning(f"Path invalid: {title}")
+                fails.append(title)
+                continue
+            if (CGROUPS_DIR / f"{pname}.json").exists():
+                # skip existing
+                logger.info(f"Skip {title} (file already exists)")
+                continue
+
+            sleep(SLEEP)
+            page = site.pages[title]
+            text = REGEX_LANG.sub(r"\1", page.text())
+            if (
+                title.startswith("Module:")
+                and (mname := REGEX_MODULE_NAME.search(text))
+                and (mdesc := REGEX_MODULE_DESCRIPTION.search(text))
+            ):
+                name = str(mname.group("name"))
+                description = str(mdesc.group("desc"))
+            elif mheader := REGEX_TEMPLATE_HEADER.search(text):
+                name = mheader.group("name")
+                description = mheader.group("desc")
+            else:
+                fails.append(title)
+                logger.warning("Failed to parse " + title)
+                continue
+            rules = []
+            if title.startswith("Module:"):
+                match_rule = parse_module_line
+            else:  # Template:
+                match_rule = parse_template_line
+
+            for mrule in filter(
+                None,
+                map(
+                    match_rule,
+                    text.split("\n"),
+                ),
+            ):
+                conv = REGEX_SPECIAL_CHAR_NOTICE.sub(
+                    r"\1",
+                    mrule[1].replace("{{=}}", "="),  # e.g. `=>` in {{CItem}}
+                )
+                rules.append(
+                    {
+                        "original": mrule[0],
+                        "conv": conv,
+                    }
+                )
+
+            cgroup = {
+                "name": name,
+                "description": description,
+                "path": title,
+                "rules": rules,
+            }
+            # yield cgroup
+            with open(CGROUPS_DIR / f"{pname}.json", "w") as f:
+                f.write(json.dumps(cgroup, indent=2, ensure_ascii=False))
+
+            if len(rules) == 0:
+                logger.warning(f"0 rules found in {title}")
+                emptys.append(title)
+            # ok_cnt += 1
+        except KeyError:
+            fails.append(title)
+            logger.warning(f"Skip {title} (missing metadata)")
+        except Exception:
+            fails.append(title)
+            logger.exception(f"Error when processing {title}")
+    logger.info(
+        f"{nth} group(s) successfully fetched with {len(emptys)} empty, {len(fails)} failed."
+    )
+    if emptys:
+        logger.info(f"empty: " + ", ".join(emptys))
+    if fails:
+        logger.info(f"fail: " + ", ".join(fails))
 
 
 if __name__ == "__main__":

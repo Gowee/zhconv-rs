@@ -12,10 +12,6 @@
       "conv": "zh-cn:台球; zh-tw:撞球; zh-hk:桌球;"
     },
     {
-      "original": "Cue ball",
-      "conv": "zh-cn:主球; zh-tw:母球; zh-hk:白球;"
-    },
-    {
       "original": "Clear",
       "conv": "zh-cn:清台; zh-tw:清袋; zh-hk:清袋;"
     },
@@ -28,11 +24,11 @@
       "conv": "zh-cn:单杆50+;zh-tw:單桿50+;zh-hk:50+度數;"
     },
     {
-      "original": "Highest break",
-      "conv": "zh-cn:单杆过百;zh-tw:單桿過百;zh-hk:過百度;"
+      "original": "Century break",
+      "conv": "zh-cn:单杆过百;zh-tw:單桿破百;zh-hk:過百度;"
     },
     {
-      "original": "Highest break",
+      "original": "Maximum break",
       "conv": "zh-cn:满分杆;zh-tw:滿分桿;zh-hk:滿桿度;"
     },
     {
@@ -44,12 +40,20 @@
       "conv": "zh-cn:赛季; zh-tw:賽季; zh-hk:球季;"
     },
     {
+      "original": "Calendar",
+      "conv": "zh-cn:赛历; zh-tw:賽曆; zh-hk:賽曆;"
+    },
+    {
       "original": "Final Stage",
       "conv": "zh-cn:决赛圈;zh-tw:決賽圈;zh-hk:決賽週;"
     },
     {
       "original": "Final Stage",
       "conv": "zh-cn:决赛阶段;zh-tw:決賽階段;zh-hk:決賽週;"
+    },
+    {
+      "original": "Information",
+      "conv": "zh-cn:信息;zh-tw:資訊;zh-hk:資訊;zh-my:资讯;"
     },
     {
       "original": "TV Stage",
@@ -157,11 +161,11 @@
     },
     {
       "original": "Alan McManus",
-      "conv": "zh-cn:阿兰·麦克马努斯;zh-hk:阿倫·麥馬路斯;zh-hk:阿倫·麥馬路斯;"
+      "conv": "zh-hans:艾伦·麦克马纳斯;zh-hk:阿倫·麥馬路斯;zh-hant:艾倫·麥克馬納斯;"
     },
     {
       "original": "Alan McManus 2",
-      "conv": "zh-cn:阿兰·麦克马努斯;zh-tw:阿倫·麥克馬納斯; zh-hk:阿倫·麥文拿斯;"
+      "conv": "zh-hans:艾伦·麦克马纳斯;zh-hk:阿倫·麥文拿斯;zh-hant:艾倫·麥克馬納斯"
     },
     {
       "original": "Alan Robindou",
@@ -181,11 +185,7 @@
     },
     {
       "original": "Brecel",
-      "conv": "zh-cn:布雷切尔;zh-tw:布里塞爾;zh-hk:比素;"
-    },
-    {
-      "original": "Steve Davis",
-      "conv": "zh-hans:史蒂夫·戴维斯;zh-tw:史蒂夫·戴維斯;zh-hk:史提芬·戴維斯;"
+      "conv": "zh-hans:布雷塞尔;zh-hant:布雷塞爾;zh-hk:比素爾;"
     },
     {
       "original": "Dennis",
@@ -197,27 +197,43 @@
     },
     {
       "original": "Dott",
-      "conv": "zh-cn:多特;zh-tw:杜特;zh-hk:杜特;"
+      "conv": "zh-cn:多特;zh-hant:多特;zh-hk:杜特;"
     },
     {
       "original": "Ebdon",
       "conv": "zh-cn:艾伯顿;zh-tw:艾伯頓;zh-hk:伊本;"
     },
     {
-      "original": "Gilbert",
-      "conv": "zh-cn:吉尔伯特;zh-tw:吉爾伯特;zh-hk:基拔;"
+      "original": "Elliot",
+      "conv": "zh-cn:埃利奥特; zh-hk:艾略特; zh-tw:艾略特;"
     },
     {
-      "original": "Graeme",
-      "conv": "zh-cn:格雷姆;zh-tw:格林美;zh-hk:格林美;"
+      "original": "Gary",
+      "conv": "zh-cn:加里; zh-tw:蓋瑞; zh-hk:加利;"
+    },
+    {
+      "original": "Gilbert",
+      "conv": "zh-cn:吉尔伯特;zh-tw:吉爾伯特;zh-hk:基拔;"
     },
     {
       "original": "Gould",
       "conv": "zh-cn:古尔德;zh-tw:戈爾德;zh-hk:古特;"
     },
     {
+      "original": "Graeme Dott",
+      "conv": "zh-hans:格雷姆·多特;zh-tw:葛蘭姆·多特;zh-hk:格林美·杜特;"
+    },
+    {
+      "original": "Graham",
+      "conv": "zh-cn:格雷厄姆;zh-tw:葛蘭姆;zh-hk:格林美;"
+    },
+    {
       "original": "Hawkins",
       "conv": "zh-cn:霍金斯;zh-tw:霍金斯;zh-hk:賀健士;"
+    },
+    {
+      "original": "Heathcote",
+      "conv": "zh-hans:希思科特;zh-hant:希思科特;zh-hk:希夫高特;"
     },
     {
       "original": "Hendry",
@@ -232,12 +248,20 @@
       "conv": "zh-cn:霍尔特;zh-tw:霍爾特;zh-hk:賀特;"
     },
     {
-      "original": "Hossein Vafaei",
-      "conv": "zh-cn:侯赛因·瓦菲;zh-tw:侯賽因·瓦菲;"
-    },
-    {
       "original": "Hunter",
       "conv": "zh-cn:亨特;zh-hk:亨打;zh-tw:亨特;"
+    },
+    {
+      "original": "Jack Lisowski",
+      "conv": "zh-cn:杰克·利索夫斯基; zh-hant:傑克·利索夫斯基; zh-hk:積·利素禾斯基;"
+    },
+    {
+      "original": "Jackson",
+      "conv": "zh-cn:杰克逊; zh-tw:傑克森; zh-hk:積遜;"
+    },
+    {
+      "original": "Jak Jones",
+      "conv": "zh-cn:杰克·琼斯; zh-tw:傑克·瓊斯; zh-hk:積·鍾斯;"
     },
     {
       "original": "Jamie Cope",
@@ -248,40 +272,40 @@
       "conv": "zh-cn:吉米;zh-hk:占美;zh-tw:吉米;"
     },
     {
+      "original": "Joe",
+      "conv": "zh-cn:乔; zh-tw:喬; zh-hk:祖;"
+    },
+    {
+      "original": "Johnson",
+      "conv": "zh-cn:约翰逊; zh-tw:強森; zh-hk:莊遜;"
+    },
+    {
       "original": "Judd",
       "conv": "zh-cn:贾德;zh-hk:渣德;zh-tw:賈德;"
     },
     {
-      "original": "Joe Johnson",
-      "conv": "zh-cn:乔·约翰逊; zh-tw:喬·約翰遜; zh-hk:祖·莊遜;"
-    },
-    {
-      "original": "Joe Perry",
-      "conv": "zh-cn:乔·佩里;zh-tw:喬·佩里;zh-hk:祖·佩利;"
-    },
-    {
       "original": "Kyren",
-      "conv": "zh-cn:凯伦; zh-hk:加蘭; zh-tw:奇倫;"
+      "conv": "zh-hans:凯伦; zh-hk:加蘭; zh-hant:凱倫;"
     },
     {
-      "original": "Lisowski",
-      "conv": "zh-cn:利索夫斯基;zh-tw:利索斯基;zh-hk:利索斯基;"
+      "original": "Leone",
+      "conv": "zh-cn:莱昂内; zh-tw:利昂; zh-hk:利昂;"
     },
     {
-      "original": "Luca",
-      "conv": "zh-cn:卢卡;zh-tw:路卡;zh-hk:路卡;"
+      "original": "Liam",
+      "conv": "zh-cn:利亚姆; zh-tw:連恩; zh-hk:利亞姆;"
     },
     {
       "original": "Maguire",
-      "conv": "zh-cn:马奎尔;zh-tw:馬奎爾;zh-hk:麥佳亞;"
+      "conv": "zh-hans:马奎尔;zh-hant:馬奎爾;zh-hk:麥佳亞;"
     },
     {
       "original": "Mark Allen",
-      "conv": "zh-cn:马克·艾伦;zh-tw:馬克·艾倫;zh-hk:麥克·阿倫;"
+      "conv": "zh-hans:马克·艾伦;zh-tw:馬克·艾倫;zh-hk:麥克·阿倫;"
     },
     {
       "original": "Mark King",
-      "conv": "zh-cn:马克·金;zh-tw:馬克·金恩;zh-hk:麥克·京治;"
+      "conv": "zh-hans:马克·金;zh-hant:馬克·金;zh-hk:麥克·京治;"
     },
     {
       "original": "Martin Gould",
@@ -289,51 +313,71 @@
     },
     {
       "original": "Matthew Stevens",
-      "conv": "zh-cn:马修·史蒂文斯; zh-tw:馬菲·史堤芬斯; zh-hk:馬菲·史堤芬斯;"
+      "conv": "zh-cn:马修·史蒂文斯; zh-tw:馬修·史蒂芬斯; zh-hk:馬菲·史堤芬斯;"
     },
     {
       "original": "McGill",
-      "conv": "zh-cn:麦克吉尔; zh-tw:麥基爾; zh-tw:麥基爾;"
+      "conv": "zh-hans:麦吉尔; zh-tw:麥基爾; zh-hant:麥吉爾;"
+    },
+    {
+      "original": "McGuigan",
+      "conv": "zh-hans:麦圭根; zh-tw:麥奎根; zh-hk:麥桂根;"
     },
     {
       "original": "McLeod",
-      "conv": "zh-cn:麦克罗德;zh-tw:麥克羅德;zh-hk:麥利洛;"
+      "conv": "zh-hans:麦克劳德;zh-hant:麥克勞德;zh-hk:麥利洛;"
     },
     {
       "original": "McManus",
-      "conv": "zh-cn:麦克马努斯;zh-tw:麥克馬納斯; zh-hk:麥文拿斯;"
+      "conv": "zh-hans:麦克马纳斯;zh-hant:麥克馬納斯; zh-hk:麥文拿斯;"
     },
     {
       "original": "Michael Holt",
-      "conv": "zh-cn:迈克尔·霍尔特;zh-tw:邁克爾·霍爾特;zh-hk:米高·賀特;"
-    },
-    {
-      "original": "Murphy",
-      "conv": "zh-cn:墨菲;zh-tw:墨菲;zh-hk:梅菲;"
+      "conv": "zh-cn:迈克尔·霍尔特;zh-tw:麥可·霍爾特;zh-hk:米高·賀特;"
     },
     {
       "original": "Nigel Bond",
-      "conv": "zh-cn:奈吉尔·邦德;zh-tw:奈吉爾·邦德;zh-hk:尼祖·邦特;"
+      "conv": "zh-hans:奈杰尔·邦德;zh-tw:奈吉爾·邦德;zh-hk:尼祖·邦特;"
     },
     {
-      "original": "O'sullivan",
+      "original": "Noppon Saengkham",
+      "conv": "zh-hans:诺鹏·桑坎姆zh-hant:諾蓬·桑坎; zh-hk:諾蓬·沙英咸;"
+    },
+    {
+      "original": "O'Conner",
+      "conv": "zh-cn:奥康纳; zh-tw:奧康納;"
+    },
+    {
+      "original": "Oliver",
+      "conv": "zh-cn:奥利弗; zh-tw:奧利佛;"
+    },
+    {
+      "original": "O'Sullivan",
       "conv": "zh-cn:奥沙利文;zh-tw:奧沙利文;zh-hk:奧蘇利雲;"
     },
     {
-      "original": "Reanne",
-      "conv": "zh-cn:瑞安; zh-tw:瑞娜;zh-hk:瑞娜;"
+      "original": "Page",
+      "conv": "zh-cn:佩奇; zh-tw:佩吉; zh-hk:比治;"
     },
     {
-      "original": "Ricky Walden",
-      "conv": "zh-cn:里奇·沃顿;zh-tw:里奇·沃登;zh-hk:域奇·禾頓;"
+      "original": "Perry",
+      "conv": "zh-cn:佩里;zh-tw:佩里;zh-hk:佩利;"
+    },
+    {
+      "original": "Reanne",
+      "conv": "zh-cn:瑞安; zh-tw:瑞恩; zh-hk:瑞安;"
+    },
+    {
+      "original": "Ricky",
+      "conv": "zh-hans:里奇;zh-tw:里奇;zh-hk:域奇;"
     },
     {
       "original": "Robertson",
       "conv": "zh-cn:罗伯逊;zh-tw:羅伯森;zh-hk:羅拔臣;"
     },
     {
-      "original": "Ronnie O'sullivan",
-      "conv": "zh-cn:罗尼·奥沙利文;zh-tw:羅尼·奧沙利文;zh-hk:朗尼·奧蘇利雲;"
+      "original": "Ronnie",
+      "conv": "zh-cn:罗尼;zh-tw:羅尼;zh-hk:朗尼;"
     },
     {
       "original": "Ryan Day",
@@ -341,11 +385,11 @@
     },
     {
       "original": "Selby",
-      "conv": "zh-cn:塞尔比;zh-tw:賽爾比;zh-hk:沙比;zh-hant:塞爾比;"
+      "conv": "zh-cn:塞尔比;zh-tw:塞爾比;zh-hk:沙比;zh-hant:塞爾比;"
     },
     {
-      "original": "Shaun",
-      "conv": "zh-cn:肖恩;zh-tw:肖恩;zh-hk:桑;"
+      "original": "Shaun Murphy",
+      "conv": "zh-cn:肖恩·墨菲;zh-tw:肖恩·墨菲;zh-hk:桑·梅菲;"
     },
     {
       "original": "Spencer",
@@ -356,16 +400,20 @@
       "conv": "zh-cn:斯蒂芬;zh-tw:史蒂芬;zh-hk:史提芬;"
     },
     {
+      "original": "Steve",
+      "conv": "zh-hans:史蒂夫;zh-tw:史蒂夫;zh-hk:史提夫;"
+    },
+    {
       "original": "Stuart Bingham",
-      "conv": "zh-cn:斯图亚特·宾汉姆;zh-tw:史都華·賓漢;zh-hk:史超活·冰咸;"
+      "conv": "zh-cn:斯图尔特·宾汉姆;zh-tw:史都華·賓漢;zh-hk:史超活·冰咸;"
     },
     {
       "original": "Swail",
       "conv": "zh-cn:斯维尔;zh-tw:斯維爾;zh-hk:史威爾;"
     },
     {
-      "original": "Saengkham",
-      "conv": "zh-cn:桑坎姆;zh-tw: ;zh-hk:;"
+      "original": "Szubarczyk",
+      "conv": "zh-cn:舒巴尔奇克; zh-tw:舒巴爾奇克; zh-hk:蘇巴錫;"
     },
     {
       "original": "Taylor",
@@ -381,19 +429,23 @@
     },
     {
       "original": "Walden",
-      "conv": "zh-cn:沃顿;zh-tw:沃登;zh-hk:禾頓;"
+      "conv": "zh-hans:沃顿;zh-tw:瓦爾登;zh-hk:禾頓;"
     },
     {
       "original": "White",
       "conv": "zh-cn:怀特;zh-hk:韋德;zh-tw:懷特;"
     },
     {
-      "original": "Wilson",
-      "conv": "zh-cn:威尔逊; zh-hk:威爾遜; zh-tw:威爾森;"
-    },
-    {
       "original": "Williams",
       "conv": "zh-cn:威廉姆斯; zh-hk:威廉斯; zh-tw:威廉斯;"
+    },
+    {
+      "original": "Wilson",
+      "conv": "zh-hans:威尔逊; zh-tw:威爾森; zh-hant:威爾遜;"
+    },
+    {
+      "original": "Woollaston",
+      "conv": "zh-hans:伍拉斯顿; zh-tw:伍拉斯頓; zh-hk:禾拉斯頓;"
     },
     {
       "original": "Sheffield",

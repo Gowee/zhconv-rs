@@ -1,15 +1,15 @@
 {
   "name": "Britney Spears",
-  "description": "布蘭妮·-{zh-cn:斯皮尔斯;zh-tw:斯皮爾斯;zh-hk:斯皮雅斯;}-",
+  "description": "布蘭妮·-{zh-cn:斯皮尔斯;zh-tw:斯皮爾斯;zh-hk:施庇雅絲;}-",
   "path": "Module:CGroup/Britney Spears",
   "rules": [
     {
       "original": "Britney Jean",
-      "conv": "zh-cn:布兰妮·简;zh-tw:布蘭妮·珍;zh-hk:布蘭妮·珍;"
+      "conv": "zh-cn:布兰妮·简;zh-tw:布蘭妮·珍;zh-hk:碧妮·珍;"
     },
     {
       "original": "Spears",
-      "conv": "zh-cn:斯皮尔斯;zh-tw:斯皮爾斯;zh-hk:斯皮雅斯;"
+      "conv": "zh-cn:斯皮尔斯;zh-tw:斯皮爾斯;zh-hk:施庇雅絲;"
     },
     {
       "original": "Born to Make You Happy",

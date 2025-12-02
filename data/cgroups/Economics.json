@@ -4,132 +4,40 @@
   "path": "Module:CGroup/Economics",
   "rules": [
     {
-      "original": "[[:en:Microeconomics|Microeconomics]]",
-      "conv": "zh-cn:微观经济学; zh-sg:微观经济学; zh-tw:個體經濟學; zh-hk:微觀經濟學; "
+      "original": "Adverse Selection",
+      "conv": "zh-cn:逆向选择; zh-tw:逆選擇; 逆向選擇=>zh-tw:逆選擇;"
     },
     {
-      "original": "[[:en:Microeconomics|Microeconomics]]",
-      "conv": "zh-cn:微观经济; zh-sg:微观经济; zh-tw:個體經濟; zh-hk:微觀經濟; "
+      "original": "Anchoring Effect",
+      "conv": "zh-cn:锚定; zh-tw:定錨; zh-hk:錨定;"
     },
     {
-      "original": "[[:en:Scarcity|Scarcity]]",
-      "conv": "zh-cn:稀缺性; zh-sg:稀缺性; zh-tw:稀少性; zh-hk:稀缺性; "
+      "original": "anti-monopoly",
+      "conv": "zh-hans:反垄断;zh-hant:反壟斷;"
+    },
+    {
+      "original": "Cognitive bias",
+      "conv": "zh-cn:认知偏差; zh-hk:認知偏差; zh-tw:認知偏誤;"
+    },
+    {
+      "original": "Duopoly",
+      "conv": "zh-cn:双头垄断; zh-tw:雙占; zh-hk:雙頭壟斷;"
     },
     {
       "original": "[[:en:Gini coefficient|Gini coefficient]]",
       "conv": "zh-cn:基尼系数; zh-sg:基尼系数; zh-tw:吉尼係數; zh-hk:堅尼系數;"
     },
     {
-      "original": "[[:en:Lorenz curve|Lorenz curve]]",
-      "conv": "zh-cn:洛伦兹曲线; zh-tw:羅倫茲曲線; zh-hk:洛倫茲曲線;"
+      "original": "income",
+      "conv": "zh-hk:收入; zh-cn:收入; zh-tw:所得;"
     },
     {
-      "original": "[[:en:Marketing|Marketing]]",
-      "conv": "zh-cn:营销; zh-sg:营销; zh-tw:行銷; zh-hk:營銷;"
+      "original": "income effect",
+      "conv": "zh-hk:收入效應; zh-cn:收入效应; zh-tw:所得效果; 收入效應=>zh-tw:所得效果"
     },
     {
-      "original": "[[:en:Outsourcing|Outsourcing]]",
-      "conv": "zh-cn:承包; zh-sg:承包; zh-tw:承包; zh-hk:承判;"
-    },
-    {
-      "original": "[[:en:Outsourcing|Outsourcing]]",
-      "conv": "zh-cn:外包; zh-sg:外包; zh-tw:外包; zh-hk:外判;"
-    },
-    {
-      "original": "commodity",
-      "conv": "zh-cn:大宗商品; zh-tw:大宗物資; zh-hk:大宗商品;"
-    },
-    {
-      "original": "[[:en:Durable good|Durable good]]",
-      "conv": "zh-cn:耐用品; zh-sg:耐用品; zh-tw:耐久財; zh-hk:耐用品;"
-    },
-    {
-      "original": "[[:en:Normal good|Normal good]]",
-      "conv": "zh-cn:正常物品; zh-sg:正常物品; zh-tw:正常財; zh-hk:正常物品;"
-    },
-    {
-      "original": "[[:en:Inferior good|Inferior good]]",
-      "conv": "zh-cn:低档商品; zh-sg:低档商品; zh-tw:劣等財; zh-hk:貧窮物品;"
-    },
-    {
-      "original": "Giffen good",
-      "conv": "zh-cn:吉芬商品; zh-hk:吉芬商品; zh-tw:季芬財;"
-    },
-    {
-      "original": "Veblen Good",
-      "conv": "zh-cn:韦伯伦商品; zh-hk:韋伯倫商品; zh-tw:韋伯倫財;"
-    },
-    {
-      "original": "[[:en:Free good|Free good]]",
-      "conv": "zh-cn:免费物品; zh-tw:自由財; zh-hk:免費物品;"
-    },
-    {
-      "original": "[[:ja:経済財|経済財]]",
-      "conv": "zh-cn:经济物品; zh-tw:經濟財; zh-hk:經濟物品;"
-    },
-    {
-      "original": "Final good",
-      "conv": "zh-tw:最終財; zh-cn:制成品; zh-hk:最終物品;"
-    },
-    {
-      "original": "substitute good",
-      "conv": "zh-tw:替代品; zh-hk:代替品; zh-cn:替代品;"
-    },
-    {
-      "original": "complementary good",
-      "conv": "zh-tw:互補品; zh-hk:輔助品; zh-cn:互补品;"
-    },
-    {
-      "original": "private good",
-      "conv": "zh-tw:私有財; zh-hk:私用品; zh-cn:私人物品;"
-    },
-    {
-      "original": "public good",
-      "conv": "zh-tw:公共財; zh-hk:共用品; zh-cn:公共物品;"
-    },
-    {
-      "original": "common-pool resource",
-      "conv": "zh-tw:準私有財; zh-hk:共有品; zh-cn:共有物品;"
-    },
-    {
-      "original": "club goods",
-      "conv": "zh-tw:準公共財; zh-hk:集團商品; zh-cn:集团物品;"
-    },
-    {
-      "original": "club goods",
-      "conv": "集團物品=>zh-tw:準公共財;集團品=>zh-tw:準公共財;集团商品=>zh-tw:準公共財;集团品=>zh-tw:準公共財;俱樂部產品=>zh-tw:準公共財;俱乐部产品=>zh-tw:準公共財;"
-    },
-    {
-      "original": "Rivalry",
-      "conv": "zh-tw:敵對性; zh-cn:竞争性;競爭性=>zh-tw:敵對性;"
-    },
-    {
-      "original": "Monopoly",
-      "conv": "zh-cn:垄断; zh-tw:獨占; zh-hk:獨佔;"
-    },
-    {
-      "original": "Monopoly",
-      "conv": "卖方垄断=> zh-tw:獨占; 賣方壟斷=> zh-tw:獨占卖者垄断=> zh-tw:獨占; 賣者壟斷=> zh-tw:獨占; "
-    },
-    {
-      "original": "Monopsony",
-      "conv": "zh-cn:买方垄断; zh-tw:獨買;"
-    },
-    {
-      "original": "Monopsony",
-      "conv": "買方壟斷=> zh-tw:獨買; 买者垄断=> zh-tw:獨買; 買者壟斷=> zh-tw:獨買;"
-    },
-    {
-      "original": "Oligopoly",
-      "conv": "zh-cn:寡头垄断; zh-tw:寡占; zh-hk:寡佔; 寡頭壟斷=>zh-tw:寡占;"
-    },
-    {
-      "original": "Duopoly",
-      "conv": "zh-cn:双头垄断; zh-tw:雙占; zh-hk:雙佔; 雙頭壟斷=>zh-tw:雙占;"
-    },
-    {
-      "original": "Natural Monopoly",
-      "conv": "zh-cn:自然垄断; zh-tw:自然獨占; zh-hk:自然獨佔; 自然壟斷=>zh-tw:自然獨占;"
+      "original": "income tax",
+      "conv": "zh-hk:入息稅; zh-cn:所得税; zh-tw:所得稅;"
     },
     {
       "original": "Indifference Curve",
@@ -140,40 +48,84 @@
       "conv": "zh-cn:无差异; zh-tw:無異; zh-hk:等優;"
     },
     {
-      "original": "supply",
-      "conv": "zh-cn:供给; zh-tw:供給; zh-hk:供應;供应=>zh-tw:供給"
-    },
-    {
-      "original": "income",
-      "conv": "zh-hk:收入; zh-cn:收入; zh-tw:所得;"
-    },
-    {
-      "original": "income tax",
-      "conv": "zh-hk:入息稅;zh-cn:所得税;zh-tw:所得稅;"
+      "original": "law of demand",
+      "conv": "zh-cn:需求定律; zh-tw:需求法則; zh-hk:需求定律;"
     },
     {
       "original": "level",
-      "conv": "zh-cn:水平; zh-tw:水準; zh-hk:水平;"
+      "conv": "zh-cn:水平; zh-tw:水準;"
+    },
+    {
+      "original": "[[:en:Lorenz curve|Lorenz curve]]",
+      "conv": "zh-cn:洛伦兹曲线; zh-tw:羅倫茲曲線; zh-hk:洛倫茲曲線;"
+    },
+    {
+      "original": "[[:en:Marketing|Marketing]]",
+      "conv": "zh-cn:营销; zh-sg:营销; zh-tw:行銷; zh-hk:營銷;"
     },
     {
       "original": "maximization",
       "conv": "zh-cn:最大化; zh-tw:極大化; zh-hk:最大化;"
     },
     {
+      "original": "[[:en:Microeconomics|Microeconomics]]",
+      "conv": "zh-cn:微观经济学; zh-sg:微观经济学; zh-tw:個體經濟學; zh-hk:微觀經濟學; "
+    },
+    {
+      "original": "[[:en:Microeconomics|Microeconomics]]",
+      "conv": "zh-cn:微观经济; zh-sg:微观经济; zh-tw:個體經濟; zh-hk:微觀經濟; "
+    },
+    {
       "original": "minimisation",
       "conv": "zh-cn:最小化; zh-tw:極小化; zh-hk:最小化;"
     },
     {
-      "original": "utility",
-      "conv": "zh-cn:效用; zh-hk:功用; zh-tw:效用;"
+      "original": "Monopoly",
+      "conv": "zh-cn:垄断; zh-tw:獨占; zh-hk:壟斷;"
     },
     {
-      "original": "income effect",
-      "conv": "zh-hk:收入效應; zh-cn:收入效应; zh-tw:所得效果; 收入效應=>zh-tw:所得效果"
+      "original": "Monopoly",
+      "conv": "zh:獨佔; zh-cn:垄断; zh-tw:獨占; zh-hk:壟斷;"
     },
     {
-      "original": "substitution effect",
-      "conv": "zh-hk:替代效應; zh-cn:替代效应; zh-tw:替代效果; 替代效應=>zh-tw:替代效果"
+      "original": "Monopoly",
+      "conv": "zh-cn:卖方垄断; zh-hk:賣家壟斷;"
+    },
+    {
+      "original": "Monopoly",
+      "conv": "卖方垄断=> zh-tw:獨占; 賣方壟斷=> zh-tw:獨占; 卖者垄断=> zh-tw:獨占; 賣者壟斷=> zh-tw:獨占; 賣家壟斷=> zh-tw:獨占;"
+    },
+    {
+      "original": "Monopsony",
+      "conv": "zh-cn:买方垄断; zh-tw:獨買; zh-hk:買家壟斷;"
+    },
+    {
+      "original": "Monopsony",
+      "conv": "zh:買方壟斷; zh-cn:买方垄断; zh-tw:獨買; zh-hk:買家壟斷;"
+    },
+    {
+      "original": "Monopsony",
+      "conv": "zh:买者垄断; zh-cn:买方垄断; zh-tw:獨買; zh-hk:買家壟斷;"
+    },
+    {
+      "original": "Monopsony",
+      "conv": "zh:買者壟斷; zh-cn:买方垄断; zh-tw:獨買; zh-hk:買家壟斷;"
+    },
+    {
+      "original": "Natural Monopoly",
+      "conv": "zh-cn:自然垄断; zh-tw:自然獨占; zh-hk:自然壟斷;"
+    },
+    {
+      "original": "[[:en:Outsourcing|Outsourcing]]",
+      "conv": "zh-cn:承包; zh-sg:承包; zh-tw:承包; zh-hk:承判;"
+    },
+    {
+      "original": "[[:en:Outsourcing|Outsourcing]]",
+      "conv": "zh-cn:外包; zh-sg:外包; zh-tw:外包; zh-hk:外判;"
+    },
+    {
+      "original": "Oligopoly",
+      "conv": "zh-cn:寡头垄断; zh-tw:寡占; zh-hk:寡頭壟斷;"
     },
     {
       "original": "price discrimination",
@@ -184,44 +136,184 @@
       "conv": "zh-hk:價格效應; zh-cn:价格效应; zh-tw:價格效果; 價格效應=>zh-tw:價格效果 "
     },
     {
-      "original": "Adverse Selection",
-      "conv": "zh-cn:逆向选择; zh-tw:逆選擇; 逆向選擇=>zh-tw:逆選擇;"
+      "original": "Rivalry",
+      "conv": "zh-tw:敵對性; zh-cn:竞争性;競爭性=>zh-tw:敵對性;"
     },
     {
-      "original": "Adverse Selection",
-      "conv": "zh-cn:逆向选择; zh-tw:逆選擇; 逆向選擇=>zh-tw:逆選擇;"
+      "original": "[[:en:Scarcity|Scarcity]]",
+      "conv": "zh-cn:稀缺性; zh-sg:稀缺性; zh-tw:稀少性; zh-hk:稀缺性; "
     },
     {
-      "original": "law of demand",
-      "conv": "zh-cn:需求定律; zh-tw:需求法則; zh-hk:需求定律;"
+      "original": "substitution effect",
+      "conv": "zh-hk:替代效應; zh-cn:替代效应; zh-tw:替代效果; 替代效應=>zh-tw:替代效果"
     },
     {
-      "original": "Anchoring Effect",
-      "conv": "zh-cn:锚定效应; zh-tw:定錨效應; zh-hk:錨定效應;"
+      "original": "supply",
+      "conv": "zh-cn:供给; zh-tw:供給; zh-hk:供應;供应=>zh-tw:供給"
     },
     {
-      "original": "[[:en:Macroeconomics|Macroeconomics]]",
-      "conv": "zh-cn:宏观经济学; zh-sg:宏观经济学; zh-tw:總體經濟學; zh-hk:宏觀經濟學; "
+      "original": "utility",
+      "conv": "zh-cn:效用; zh-hk:功用; zh-tw:效用;"
     },
     {
-      "original": "[[:en:Macroeconomics|Macroeconomics]]",
-      "conv": "zh-cn:宏观经济; zh-sg:宏观经济; zh-tw:總體經濟; zh-hk:宏觀經濟; "
+      "original": "capital good",
+      "conv": "zh-tw:資本財; zh-hk:資本物品; zh-cn:资本品;"
     },
     {
-      "original": "[[:en:The General Theory of Employment, Interest and Money|The General Theory of Employment, Interest and Money]]",
-      "conv": "zh-cn:就业、利息和货币通论; zh-sg:就业、利息和货币通论; zh-tw:就業、利息與貨幣的一般理論; zh-hk:就業、利息和貨幣通論;"
+      "original": "capital good",
+      "conv": "資本品=>zh-tw:資本財;"
+    },
+    {
+      "original": "common-pool resource",
+      "conv": "zh-tw:準私有財; zh-hk:共有品; zh-cn:共有物品;"
+    },
+    {
+      "original": "common-pool resource",
+      "conv": "共有財=>zh-hk:共有品; 共有財=>zh-cn:共有物品;"
+    },
+    {
+      "original": "complementary good",
+      "conv": "zh-tw:互補品; zh-hk:輔助品; zh-cn:互补品;"
+    },
+    {
+      "original": "complementary good",
+      "conv": "互補物品=>zh-tw:互補品;"
+    },
+    {
+      "original": "consumer good",
+      "conv": "消費財=>zh-hk:消費品; 消費財=>zh-mo:消費品; 消費財=>zh-cn:消费品; 消費財=>zh-sg:消费品; 消費財=>zh-my:消费品;"
+    },
+    {
+      "original": "Quasi-public goods",
+      "conv": "zh-tw:準公共財; zh-hk:類公共財產; zh-cn:准公共物品;"
+    },
+    {
+      "original": "club goods",
+      "conv": "zh-tw:俱樂部財; zh-hk:會所財產; zh-cn:俱乐部物品;"
+    },
+    {
+      "original": "club goods",
+      "conv": "集團物品=>zh-tw:準公共財;集團品=>zh-tw:準公共財;集团商品=>zh-tw:準公共財;集团品=>zh-tw:準公共財;俱樂部產品=>zh-tw:準公共財;俱乐部产品=>zh-tw:準公共財;俱樂部物品=>zh-tw:準公共財;"
+    },
+    {
+      "original": "[[:en:Durable good|Durable good]]",
+      "conv": "zh-cn:耐用品; zh-sg:耐用品; zh-tw:耐久財; zh-hk:耐用品;"
+    },
+    {
+      "original": "[[:en:Durable good|Durable good]]",
+      "conv": "耐用物品=>zh-tw:耐久財;"
+    },
+    {
+      "original": "Final good",
+      "conv": "zh-tw:最終財; zh-cn:制成品; zh-hk:最終產品;"
+    },
+    {
+      "original": "[[:en:Free good|Free good]]",
+      "conv": "zh-cn:免费物品; zh-tw:自由財; zh-hk:免費物品;"
+    },
+    {
+      "original": "Giffen good",
+      "conv": "zh-cn:吉芬商品; zh-hk:吉芬物品; zh-tw:季芬財;"
+    },
+    {
+      "original": "Household goods",
+      "conv": "zh-tw:日用品;zh-cn:生活用品;"
+    },
+    {
+      "original": "[[:en:Inferior good|Inferior good]]",
+      "conv": "zh-cn:低档商品; zh-sg:低档商品; zh-tw:劣等財; zh-hk:貧窮物品;"
+    },
+    {
+      "original": "[[:en:Inferior good|Inferior good]]",
+      "conv": "劣等物品=>zh-cn:低档商品; 劣等物品=>zh-sg:低档商品; 劣等物品=>zh-tw:劣等財;"
+    },
+    {
+      "original": "Intermediate goods",
+      "conv": "zh-tw:中間財;zh-hk:中間貨品;zh-cn:中间商品;"
+    },
+    {
+      "original": "[[:neutral good|neutral good]]",
+      "conv": "zh-cn:中性商品; zh-tw:中性財; zh-hk:中性商品;"
+    },
+    {
+      "original": "[[:en:Normal good|Normal good]]",
+      "conv": "zh-cn:正常物品; zh-sg:正常物品; zh-tw:正常財; zh-hk:正常物品;"
+    },
+    {
+      "original": "private good",
+      "conv": "zh-tw:私有財; zh-hk:私用品; zh-cn:私人物品;"
+    },
+    {
+      "original": "public good",
+      "conv": "zh-tw:公共財; zh-hk:共用品; zh-cn:公共物品;"
+    },
+    {
+      "original": "substitute good",
+      "conv": "zh-tw:替代品; zh-hk:代替品; zh-cn:替代品;"
+    },
+    {
+      "original": "Veblen Good",
+      "conv": "zh-cn:韦伯伦商品; zh-hk:韋伯倫商品; zh-tw:韋伯倫財;"
+    },
+    {
+      "original": "[[:ja:経済財|経済財]]",
+      "conv": "zh-cn:经济物品; zh-tw:經濟財; zh-hk:經濟物品;"
     },
     {
       "original": "Big Mac index",
       "conv": "zh-cn:巨无霸指数; zh-tw:大麥克指數; zh-hk:巨無霸指數;"
     },
     {
-      "original": "Consumer Price Index",
-      "conv": "zh-cn:居民消费价格指数; zh-tw:消費者物價指數; zh-hk:綜合消費物價指數;"
+      "original": "[[:en:Business cycle|Business cycle]]",
+      "conv": "zh-cn:商业周期; zh-hk:商業週期; zh-tw:景氣循環; "
     },
     {
-      "original": "GDP deflator",
-      "conv": "zh-cn:平均物价指数; zh-tw:GDP平减指數;"
+      "original": "Consumer Price Index, CPI",
+      "conv": "zh-cn:居民消费价格指数; zh-tw:消費者物價指數; zh-hk:消費物價指數;"
+    },
+    {
+      "original": "Crowding Out Effect",
+      "conv": "zh-hk:擠出效應; zh-cn:挤出效应; zh-tw:排擠效果;"
+    },
+    {
+      "original": "Crowding Out Effect",
+      "conv": "排挤效应=>zh-tw:排擠效果;排擠效應=>zh-tw:排擠效果"
+    },
+    {
+      "original": "[[:en:Developed country|Developed country]]",
+      "conv": "zh:發達國家; zh-cn:发达国家; zh-tw:已開發國家; zh-hk:已發展國家; zh-sg:先进国家;"
+    },
+    {
+      "original": "[[:en:Developed country|Developed country]]",
+      "conv": "zh-cn:发达国家; zh-tw:已開發國家; zh-hk:已發展國家; zh-sg:先进国;"
+    },
+    {
+      "original": "Developed  economy",
+      "conv": "zh:發達經濟體; zh-cn:发达经济体; zh-tw:已開發經濟體; zh-hk:已發展經濟體; zh-sg:先进经济体;"
+    },
+    {
+      "original": "Developing",
+      "conv": "zh-cn:发展中; zh-tw:開發中;zh-hk:發展中; zh-sg:发展中;"
+    },
+    {
+      "original": "[[:en:Developing country|Developing country]]",
+      "conv": "zh-cn:发展中国家; zh-sg:发展中国家; zh-tw:開發中國家; zh-hk:發展中國家;"
+    },
+    {
+      "original": "Disposable income",
+      "conv": "zh-hk:可支配收入; zh-cn:可支配收入; zh-tw:可支配所得;"
+    },
+    {
+      "original": "Economic growth",
+      "conv": "zh-cn:经济增长; zh-tw:經濟成長; zh-hk:經濟增長;"
+    },
+    {
+      "original": "effect",
+      "conv": "zh-hk:效應; zh-cn:效应; zh-tw:效果;"
+    },
+    {
+      "original": "Fisher effect",
+      "conv": "zh:費雪效應; zh-cn:费雪效应 ; zh-tw:費雪效果; zh-hk:費沙效應;"
     },
     {
       "original": "Gross Domestic Product",
@@ -232,120 +324,104 @@
       "conv": "zh-cn:国民生产总值; zh-tw:國民生產毛額; zh-hk:國民生產總值;"
     },
     {
-      "original": "Disposable income",
-      "conv": "zh-hk:可支配收入; zh-cn:可支配收入; zh-tw:可支配所得;"
+      "original": "[[:en:Great Depression|Great Depression]]",
+      "conv": "zh-cn:大萧条; zh-sg:大萧条; zh-tw:經濟大蕭條; zh-hk:大蕭條;"
     },
     {
       "original": "growth",
-      "conv": "zh-cn:增长; zh-tw:成長;增長=>zh-tw:成長;"
+      "conv": "增长=>zh-tw:成長; 增長=>zh-tw:成長;"
     },
     {
       "original": "growth rate",
       "conv": "zh-cn:增长率; zh-tw:成長率;增長率=>zh-tw:成長率;"
     },
     {
-      "original": "Economic growth",
-      "conv": "zh-cn:经济增长; zh-tw:經濟成長; zh-hk:經濟增長;"
-    },
-    {
-      "original": "[[:en:The General Theory of Employment, Interest and Money|The General Theory of Employment, Interest and Money]]",
-      "conv": "zh-cn:通论; zh-sg:通论; zh-tw:一般理論; zh-hk:通論;"
-    },
-    {
       "original": "[[:en:Inflation|Inflation]]",
       "conv": "zh-cn:通胀; zh-sg:通胀; zh-tw:通膨; zh-hk:通脹;"
     },
     {
-      "original": "[[:en:stagflation|stagflation]]",
-      "conv": "滞胀=>zh-tw:停滯性通膨;滯脹=>zh-tw:停滯性通膨;"
+      "original": "interest effect",
+      "conv": "zh-hk:利率效應; zh-cn:利率效应; zh-tw:利率效果;"
     },
     {
-      "original": "[[:en:Great Depression|Great Depression]]",
-      "conv": "zh-cn:大萧条; zh-sg:大萧条; zh-tw:經濟大蕭條; zh-hk:大蕭條;"
+      "original": "keynes effect",
+      "conv": "zh-hk:凱恩斯效應; zh-cn:凯恩斯效应; zh-tw:凱因斯效果;"
+    },
+    {
+      "original": "[[:en:Least developed country|Least developed country]]",
+      "conv": "zh:最不發達國家; zh-cn:最不发达国家; zh-tw:最低度開發國家; zh-hk:最低度發展國家;"
+    },
+    {
+      "original": "Least developed",
+      "conv": "zh:最不發達; zh-cn:最不发达; zh-tw:最低度開發; zh-hk:最低度發展; zh-sg:最不先进;"
+    },
+    {
+      "original": "[[:en:Macroeconomics|Macroeconomics]]",
+      "conv": "zh-cn:宏观经济学; zh-sg:宏观经济学; zh-tw:總體經濟學; zh-hk:宏觀經濟學; "
+    },
+    {
+      "original": "[[:en:Macroeconomics|Macroeconomics]]",
+      "conv": "zh-cn:宏观经济; zh-sg:宏观经济; zh-tw:總體經濟; zh-hk:宏觀經濟; "
     },
     {
       "original": "[[:en:Means of production|Means of production]]",
       "conv": "zh-cn:生产资料; zh-sg:生产资料; zh-tw:生產工具; zh-hk:生產資料; "
     },
     {
-      "original": "[[:en: Monetary base|Monetary base]]",
+      "original": "[[:en:Monetary base|Monetary base]]",
       "conv": "zh-cn:货币基数; zh-tw:貨幣基底; zh-hk:貨幣基數; "
-    },
-    {
-      "original": "[[:en:Business cycle|Business cycle]]",
-      "conv": "zh-cn:商业周期; zh-hk:商業週期; zh-tw:景氣循環; "
-    },
-    {
-      "original": "[[:en:Developed country|Developed country]]",
-      "conv": "zh-cn:发达国家; zh-sg:发达国家; zh-tw:已開發國家; zh-hk:發達國家;"
-    },
-    {
-      "original": "[[:en:Developing country|Developing country]]",
-      "conv": "zh-cn:发展中国家; zh-sg:发展中国家; zh-tw:開發中國家; zh-hk:發展中國家; "
-    },
-    {
-      "original": "[[:en:Least developed country|Least developed country]]",
-      "conv": "zh-cn:最不发达国家; zh-sg:最不发达国家; zh-tw:最低度開發國家; zh-hk:最不發達國家;"
-    },
-    {
-      "original": "effect",
-      "conv": "zh-hk:效應; zh-cn:效应; zh-tw:效果; 效應=>zh-tw:效果"
-    },
-    {
-      "original": "Pigou Effect",
-      "conv": "zh-hk:庇古效應; zh-cn:庇古效应; zh-tw:皮古效果; 庇古效应=>zh-tw:皮古效果 "
-    },
-    {
-      "original": "interest effect",
-      "conv": "zh-hk:利率效應; zh-cn:利率效应; zh-tw:利率效果; 利率效應=>zh-tw:利率效果"
-    },
-    {
-      "original": "wealth effect",
-      "conv": "zh-hk:財富效應; zh-cn:财富效应; zh-tw:財富效果; 財富效應=>zh-tw:財富效果"
-    },
-    {
-      "original": "keynes effect",
-      "conv": "zh-hk:凱恩斯效應; zh-cn:凯恩斯效应; zh-tw:凱因斯效果; 凱恩斯效應=>zh-tw:凱因斯效果 "
-    },
-    {
-      "original": "Fisher effect",
-      "conv": "zh-cn:费雪效应 ; zh-tw:費雪效果; zh-hk:費沙效應; 費雪效應=>zh-tw:費雪效果"
-    },
-    {
-      "original": "Crowding Out Effect",
-      "conv": "zh-hk:擠出效應; zh-cn:挤出效应; zh-tw:排擠效果; 擠出效應=>zh-tw:排擠效果;"
-    },
-    {
-      "original": "Crowding Out Effect",
-      "conv": "排挤效应=>zh-tw:排擠效果;排擠效應=>zh-tw:排擠效果 "
     },
     {
       "original": "[[:en:Nominal interest rate|Nominal interest rate]]",
       "conv": "zh-cn:名义利率; zh-tw:名目利率; zh-hk:名義利率;"
     },
     {
-      "original": "[[:en:Real interest rate|Real interest rate]]",
-      "conv": "zh-cn:实际利率; zh-tw:實質利率; zh-hk:實質利率;實際利率=>zh-tw:實質利率"
-    },
-    {
       "original": "Nominal",
       "conv": "zh-cn:名义; zh-tw:名目; zh-hk:名義;"
+    },
+    {
+      "original": "Pigou Effect",
+      "conv": "zh-hk:庇古效應; zh-cn:庇古效应; zh-tw:皮古效果;"
+    },
+    {
+      "original": "Public finance",
+      "conv": "zh-hk:公共財政; zh-cn:公共财政; zh-tw:公共財政;"
+    },
+    {
+      "original": "[[:en:Real interest rate|Real interest rate]]",
+      "conv": "zh:實際利率; zh-cn:实际利率; zh-tw:實質利率; zh-hk:實質利率;"
+    },
+    {
+      "original": "Real GDP",
+      "conv": "zh-cn:实际GDP; zh-tw:實質GDP;"
+    },
+    {
+      "original": "[[:en:stagflation|stagflation]]",
+      "conv": "滞胀=>zh-tw:停滯性通膨;滯脹=>zh-tw:停滯性通膨;"
+    },
+    {
+      "original": "[[:en:The General Theory of Employment, Interest and Money|The General Theory of Employment, Interest and Money]]",
+      "conv": "zh-cn:通论; zh-sg:通论; zh-tw:一般理論; zh-hk:通論;"
+    },
+    {
+      "original": "[[:en:The General Theory of Employment, Interest and Money|The General Theory of Employment, Interest and Money]]",
+      "conv": "zh-cn:就业、利息和货币通论; zh-sg:就业、利息和货币通论; zh-tw:就業、利息與貨幣的一般理論; zh-hk:就業、利息和貨幣通論;"
     },
     {
       "original": "variable",
       "conv": "zh-cn:变量; zh-tw:變數; 變量=>zh-tw:變數;"
     },
     {
-      "original": "Market share",
-      "conv": "zh-cn:市場份額; zh-tw:市場佔有率;"
+      "original": "wealth effect",
+      "conv": "zh-hk:財富效應; zh-cn:财富效应; zh-tw:財富效果;"
     },
     {
-      "original": "Market share",
-      "conv": "zh-cn:市場份額; zh-tw:市佔率;"
+      "original": "Bayesian game",
+      "conv": "zh-cn:贝叶斯博弈; zh-tw:貝氏賽局; zh-hk:貝葉斯博弈;"
     },
     {
-      "original": "price reduction",
-      "conv": "zh-cn:减价; zh-tw:降價;"
+      "original": "complete information",
+      "conv": "zh-cn:完全信息; zh-tw:完全訊息;"
     },
     {
       "original": "game theory",
@@ -356,12 +432,8 @@
       "conv": "zh-cn:博弈; zh-tw:賽局; zh-hk:博弈;"
     },
     {
-      "original": "complete information",
-      "conv": "zh-cn:完全信息; zh-tw:完全訊息;"
-    },
-    {
       "original": "game tree",
-      "conv": "zh-tw:決策樹; zh-cn:博弈树;;"
+      "conv": "zh-tw:決策樹; zh-cn:博弈树;"
     },
     {
       "original": "information",
@@ -370,22 +442,6 @@
     {
       "original": "information set",
       "conv": "zh-cn:信息集; zh-tw:資訊集合;"
-    },
-    {
-      "original": "Prisoners Dilemma",
-      "conv": "zh-cn:囚徒困境; zh-tw:囚犯困境; zh-hk:囚徒困境;"
-    },
-    {
-      "original": "sequential game",
-      "conv": "zh-cn:序贯博弈; zh-tw:序列賽局; zh-hk:序列博弈;"
-    },
-    {
-      "original": "signaling game",
-      "conv": "zh-cn:信号博弈; zh-tw:傳訊賽局; zh-hk:信號博弈;"
-    },
-    {
-      "original": "Bayesian game",
-      "conv": "zh-cn:贝叶斯博弈; zh-tw:貝氏賽局; zh-hk:貝葉斯博弈;"
     },
     {
       "original": "Pareto optimality",
@@ -404,36 +460,88 @@
       "conv": "zh-cn:概率; zh-tw:機率; zh-hk:概率;"
     },
     {
+      "original": "Prisoners Dilemma",
+      "conv": "zh-cn:囚徒困境; zh-tw:囚犯困境; zh-hk:囚徒困境;"
+    },
+    {
+      "original": "sequential game",
+      "conv": "zh-cn:序贯博弈; zh-tw:序列賽局; zh-hk:序列博弈;"
+    },
+    {
+      "original": "signaling game",
+      "conv": "zh-cn:信号博弈; zh-tw:傳訊賽局; zh-hk:信號博弈;"
+    },
+    {
+      "original": "Bank Reserve",
+      "conv": "zh-cn:银行储备; zh-tw:銀行準備; zh-hk:銀行儲備;"
+    },
+    {
+      "original": "[[:en:Bank run|Bank run]]",
+      "conv": "zh-cn:挤兑; zh-hk:擠提; zh-tw:擠兌;"
+    },
+    {
       "original": "Behavioral Finance",
-      "conv": "zh-cn:行为金融学; zh-tw:行為財務學;"
+      "conv": "zh-cn:行为金融学; zh-tw:行為財務學; zh-hk:行為金融學;"
     },
     {
-      "original": "Corporate Governance",
-      "conv": "zh-cn:公司治理; zh-tw:公司治理; zh-hk:企業管治;"
-    },
-    {
-      "original": "Corporate Governance",
-      "conv": "企業治理=>zh-tw:公司治理;企业治理=>zh-tw:公司治理;"
-    },
-    {
-      "original": "Channel",
-      "conv": "zh-cn:渠道; zh-hk:渠道; zh-tw:管道;"
+      "original": "Capital Adequacy Ratio",
+      "conv": "zh-tw:資本適足率; zh-hk:資本充足比率; zh-cn:资本充足率; 資本充足率=>zh-tw:資本適足率;"
     },
     {
       "original": "central place",
       "conv": "zh-cn:中心地; zh-hk:中心地; zh-tw:中地"
     },
     {
+      "original": "Channel",
+      "conv": "zh-cn:渠道; zh-hk:渠道; zh-tw:管道;"
+    },
+    {
+      "original": "commodity",
+      "conv": "zh-cn:大宗商品; zh-tw:大宗物資; zh-hk:大宗商品;"
+    },
+    {
       "original": "[[:en:Deposit|Deposit]]",
       "conv": "zh-cn:押金; zh-tw:押金; zh-hk:按金"
+    },
+    {
+      "original": "Efficient frontier",
+      "conv": "zh-cn:有效边界; zh-tw:效率前緣;"
     },
     {
       "original": "Entrepreneur",
       "conv": "实业家=>zh-tw:企業家"
     },
     {
-      "original": "[[:en:Mortgage|Mortgage]]",
-      "conv": "zh-cn:按揭; zh-sg:按揭; zh-tw:抵押; zh-hk:按揭"
+      "original": "Federal Reserve Districts",
+      "conv": "zh-cn:联邦储备区; zh-tw:聯邦準備區; zh-hk:聯邦儲備區;"
+    },
+    {
+      "original": "Federal Reserve Districts",
+      "conv": "zh-cn:储备区; zh-tw:準備區; zh-hk:儲備區;"
+    },
+    {
+      "original": "Foreign exchange reserves",
+      "conv": "zh-tw:外匯存底; zh-hk:外匯儲備; zh-cn:外汇储备;"
+    },
+    {
+      "original": "Gold reserve",
+      "conv": "zh-tw:黃金準備 ;zh-hk:黃金儲備 ;zh-cn:黄金储备;"
+    },
+    {
+      "original": "Hedge",
+      "conv": "zh-cn:对冲; zh-tw:避險; zh-hk:對沖;"
+    },
+    {
+      "original": "Hedge Fund",
+      "conv": "zh-cn:对冲基金; zh-tw:避險基金; zh-hk:對沖基金;"
+    },
+    {
+      "original": "Interest Rate Spread",
+      "conv": "息差=>zh-tw:利差;"
+    },
+    {
+      "original": "[[:en:Liquidation|Liquidation]]",
+      "conv": "zh-cn:清算; zh-sg:清算; zh-tw:清算; zh-hk:清盤;"
     },
     {
       "original": "[[:en:Mortgage|Mortgage]]",
@@ -448,36 +556,24 @@
       "conv": "抵押按揭;"
     },
     {
-      "original": "[[:en:Subprime lending|Subprime lending]]",
-      "conv": "zh-cn:次贷; zh-sg:次贷; zh-tw:次貸; zh-hk:次按;"
-    },
-    {
-      "original": "[[:en:Liquidation|Liquidation]]",
-      "conv": "zh-cn:清算; zh-sg:清算; zh-tw:清算; zh-hk:清盤;"
-    },
-    {
-      "original": "[[:en:Bank run|Bank run]]",
-      "conv": "zh-cn:挤兑; zh-hk:擠提; zh-tw:擠兌;"
-    },
-    {
-      "original": "Hedge",
-      "conv": "zh-cn:对冲; zh-tw:避險; zh-hk:對沖;"
-    },
-    {
-      "original": "Hedge Fund",
-      "conv": "zh-cn:对冲基金; zh-tw:避險基金; zh-hk:對沖基金;"
-    },
-    {
       "original": "Mutual Fund",
       "conv": "zh-cn:投资基金; zh-hk:互惠基金; zh-tw:共同基金;"
     },
     {
-      "original": "exchange-traded funds",
-      "conv": "zh-cn:交易型开放式指数基金; zh-tw:指數股票型基金; zh-hk:交易所買賣基金;"
+      "original": "Reserve Assets",
+      "conv": "储备资产=>zh-tw:準備資產;儲備資產=>zh-tw:準備資產;"
+    },
+    {
+      "original": "Reserve Currency",
+      "conv": "zh-cn:国际储备货币 ;zh-hk:國際儲備貨幣 ;zh-tw:國際準備貨幣 ;"
     },
     {
       "original": "senior executive",
       "conv": "zh-cn:高管; zh-tw:高階主管;"
+    },
+    {
+      "original": "[[:en:Subprime lending|Subprime lending]]",
+      "conv": "zh-cn:次贷; zh-sg:次贷; zh-tw:次貸; zh-hk:次按;"
     },
     {
       "original": "valuation",
@@ -485,31 +581,35 @@
     },
     {
       "original": "voluntary winding-up",
-      "conv": "zh:自動清盤; zh-cn:自愿清算;zh-tw:自願清算;zh-hk:自動清盤"
+      "conv": "zh:自動清盤; zh-cn:自愿清算; zh-tw:自願清算; zh-hk:自動清盤;"
     },
     {
-      "original": "[[:en:Initial public offering|Initial public offering]]",
-      "conv": "zh-cn:首次公开募股; zh-hk:招股上市; zh-tw:首次公開募股;"
+      "original": "",
+      "conv": "储备货币=>zh-tw:準備貨幣;儲備貨幣=>zh-tw:準備貨幣;"
     },
     {
-      "original": "Preferred stock",
-      "conv": "zh:優先股; zh-cn:优先股; zh-tw:特別股;"
+      "original": "",
+      "conv": "zh-cn:加息; zh-tw:升息; zh-hk:加息"
     },
     {
-      "original": "dividend yield",
-      "conv": "zh-cn:股息率; zh-hk:股息率; zh-tw:殖利率;"
+      "original": "",
+      "conv": "zh-cn:减息; zh-tw:降息; zh-hk:減息"
     },
     {
-      "original": "dividend",
-      "conv": "zh-tw:股利 ; zh-hk:股息 ; zh-cn:股息 ;"
+      "original": "",
+      "conv": "zh-cn:万亿; zh-tw:兆; zh-hk:兆; zh-sg:兆;"
     },
     {
-      "original": "Jensens alpha",
-      "conv": "zh-tw:詹森α; zh-hk:詹森阿爾法; zh-cn:詹森阿尔法;"
+      "original": "asset-backed security, ABS",
+      "conv": "资产支持证券=>zh-tw:資產擔保證券;"
     },
     {
-      "original": "Efficient-market hypothesis",
-      "conv": "zh-tw:效率市場假說; zh-hk:效率市場假說; zh-cn:有效市场假说;"
+      "original": "-backed security",
+      "conv": "抵押贷款支持证券=>zh-tw:擔保證券;"
+    },
+    {
+      "original": "Commercial mortgage-backed security, CMBS",
+      "conv": "zh-tw:商業不動產擔保證券; zh-cn:商业地产抵押贷款支持证券; zh-hk:商業按揭抵押證券;"
     },
     {
       "original": "day trading",
@@ -520,28 +620,84 @@
       "conv": "zh-cn:日内交易者; zh-hk:即日買賣人士; zh-tw:當沖客;"
     },
     {
-      "original": "[[:en:Nominal price|nominal price]]",
-      "conv": "zh-cn:名义价格; zh-hk:按盤價; zh-tw:名目價格;"
+      "original": "dividend yield",
+      "conv": "zh-cn:股息率; zh-hk:股息率; zh-tw:殖利率;"
+    },
+    {
+      "original": "dividend",
+      "conv": "zh-tw:股利 ; zh-hk:股息 ; zh-cn:股息 ;"
+    },
+    {
+      "original": "duration",
+      "conv": "zh-tw:存續期間; zh-hk:久期; zh-cn:久期;"
+    },
+    {
+      "original": "Efficient-market hypothesis",
+      "conv": "zh-tw:效率市場假說; zh-hk:效率市場假說; zh-cn:有效市场假说;"
+    },
+    {
+      "original": "exchange-traded funds",
+      "conv": "zh-cn:交易型开放式指数基金; zh-tw:指數股票型基金; zh-hk:交易所買賣基金;"
+    },
+    {
+      "original": "Government bond",
+      "conv": "国债券=>zh-tw:國債;"
     },
     {
       "original": "[[:en:Grey market|grey market]]",
       "conv": "zh-cn:灰市交易; zh-tw:灰市交易; zh-hk:暗盤買賣;"
     },
     {
-      "original": "Derivative",
-      "conv": "zh-cn:金融衍生工具; zh-hk:金融衍生產品; zh-tw:衍生性金融商品;"
+      "original": "[[:en:Initial public offering|Initial public offering]]",
+      "conv": "zh-cn:首次公开募股; zh-hk:招股上市; zh-tw:首次公開募股;"
     },
     {
-      "original": null,
-      "conv": "zh-tw:衍生商品; zh-cn:衍生工具; zh-hk:衍生產品;"
+      "original": "Jensens alpha",
+      "conv": "zh-tw:詹森α; zh-hk:詹森阿爾法; zh-cn:詹森阿尔法;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:金融商品; zh-tw:金融商品; zh-hk:金融商品;"
+      "original": "market maker",
+      "conv": "zh-tw:造市者; zh-hk:證券莊家; zh-cn:做市商;"
     },
     {
-      "original": null,
-      "conv": "zh-tw:信用衍生性商品; zh-cn:信用衍生工具; zh-hk:信用衍生產品;"
+      "original": "[[:en:Nominal price|nominal price]]",
+      "conv": "zh-cn:名义价格; zh-hk:按盤價; zh-tw:名目價格;"
+    },
+    {
+      "original": "Preferred stock",
+      "conv": "zh:優先股; zh-cn:优先股; zh-tw:特別股;"
+    },
+    {
+      "original": "Primary dealer",
+      "conv": "zh-cn:一级交易商;zh-hant:一級交易商;zh-tw:初級交易商;"
+    },
+    {
+      "original": "Primary market",
+      "conv": "zh-cn:一级市场; zh-tw:初級市場;"
+    },
+    {
+      "original": "Residential mortgage-backed security, RMBS",
+      "conv": "zh-tw:住宅不動產擔保證券; zh-cn:住宅地产抵押贷款支持证券; zh-hk:住宅按揭抵押證券;"
+    },
+    {
+      "original": "Secondary market",
+      "conv": "zh-cn:二级市场; zh-tw:次級市場;"
+    },
+    {
+      "original": "Treasury Inflation Protected Securities",
+      "conv": "zh-cn:通胀保值债券;zh-tw:抗通膨債券;zh-hk:通脹保值債券;"
+    },
+    {
+      "original": "Treasury stock",
+      "conv": "zh-cn:库存股;zh-tw:庫藏股;zh-hk:庫藏股;zh-sg:库藏股;"
+    },
+    {
+      "original": "zero coupon bond",
+      "conv": "zh-cn:零息票债券; zh-tw:零息債券;"
+    },
+    {
+      "original": "cornering",
+      "conv": "zh-cn:逼仓; zh-tw:逼倉; zh-hk:挾倉;"
     },
     {
       "original": "Commodity market",
@@ -556,24 +712,52 @@
       "conv": "zh-cn:商品交易所; zh-tw:商品交易所; zh-hk:商品交易所;"
     },
     {
-      "original": "option",
-      "conv": "zh-cn:期权; zh-hk:期權; zh-tw:選擇權;"
+      "original": "Contract",
+      "conv": "zh-tw:合約; zh-cn:合同;"
     },
     {
-      "original": "underlying asset",
-      "conv": "zh-cn:标的资产; zh-hk:相關資產; zh-tw:標的資產;"
+      "original": "Derivative",
+      "conv": "zh:金融衍生品; zh-cn:金融衍生工具; zh-hk:金融衍生產品; zh-tw:衍生性金融商品;"
     },
     {
-      "original": "underlying asset",
-      "conv": "zh-cn:标的物; zh-hk:相關資產; zh-tw:標的物;"
+      "original": null,
+      "conv": "zh-tw:衍生商品; zh-cn:衍生工具; zh-hk:衍生產品;"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:金融商品; zh-tw:金融商品; zh-hk:金融商品;"
+    },
+    {
+      "original": null,
+      "conv": "zh-tw:信用衍生性商品; zh-cn:信用衍生工具; zh-hk:信用衍生產品;"
+    },
+    {
+      "original": "foreign exchange swap ",
+      "conv": "zh-cn:外汇掉期; zh-hk:外匯互換; zh-tw:外匯交換;"
     },
     {
       "original": "Forward Contract",
       "conv": "zh-tw:遠期契約; zh-hk:遠期合約; zh-cn:远期合约;"
     },
     {
-      "original": "Contract",
-      "conv": "zh-tw:合約; zh-cn:合同;"
+      "original": "Interest Rate Swap",
+      "conv": "zh-cn:利率掉期; zh-hk:利率互換; zh-tw:利率交換;"
+    },
+    {
+      "original": "OIS",
+      "conv": "zh-tw:隔夜指數交換;zh-cn:隔夜指数掉期;zh-hk:隔夜指數掉期;"
+    },
+    {
+      "original": "option",
+      "conv": "zh-cn:期权; zh-hk:期權; zh-tw:選擇權;"
+    },
+    {
+      "original": "position",
+      "conv": "zh-tw:部位; zh-hk:倉位; zh-cn:仓位;"
+    },
+    {
+      "original": "position",
+      "conv": "头寸=>zh-tw:部位;"
     },
     {
       "original": "swap ",
@@ -584,40 +768,80 @@
       "conv": "掉期=>zh-tw:交換;"
     },
     {
-      "original": "Interest Rate Swap ",
-      "conv": "zh-cn:利率掉期; zh-hk:利率互換; zh-tw:利率交換;"
+      "original": "underlying asset",
+      "conv": "zh-cn:标的资产; zh-hk:相關資產; zh-tw:標的資產;"
     },
     {
-      "original": "foreign exchange swap ",
-      "conv": "zh-cn:外汇掉期; zh-hk:外匯互換; zh-tw:外匯交換;"
+      "original": "underlying asset",
+      "conv": "zh-cn:标的物; zh-hk:相關資產; zh-tw:標的物;"
     },
     {
-      "original": "position",
-      "conv": "zh-tw:部位;zh-hk:倉位;zh-cn:仓位;"
+      "original": "[[:en:accountancy firm]]",
+      "conv": "zh-cn:会计师事务所; zh-sg:会计师事务所; zh-tw:會計師事務所; zh-hk:會計師行;"
     },
     {
-      "original": "cornering",
-      "conv": "zh-cn:逼仓; zh-tw:逼倉; zh-hk:挾倉;"
+      "original": "[[:en:COGS|COGS]]",
+      "conv": "zh-cn:销售成本; zh-tw:銷貨成本; zh-hk:銷售成本;"
+    },
+    {
+      "original": "[[:en:Earnings before taxes|Earnings before taxes]]",
+      "conv": "zh-cn:税前利润; zh-hk:稅前利潤; zh-tw:稅前盈餘;"
+    },
+    {
+      "original": "[[:en:Fiscal Year|Fiscal Year]]",
+      "conv": "zh-cn:财政年度; zh-hk:財政年度; zh-tw:會計年度;"
+    },
+    {
+      "original": "[[:en:Fiscal Year|Fiscal Year]]",
+      "conv": "财政年度=>zh-tw:會計年度; 財政年度=>zh-tw:會計年度;"
+    },
+    {
+      "original": "Gross sales",
+      "conv": "zh-cn:毛销售; zh-hk:毛銷售; zh-tw:銷貨總額;"
+    },
+    {
+      "original": "Gross sales",
+      "conv": "zh-cn:营业收入; zh-hk:營業收入; zh-tw:營業收入;"
+    },
+    {
+      "original": "[[:en:Income statement|Income statement]]",
+      "conv": "zh-cn:损益表; zh-sg:损益表; zh-tw:損益表; zh-hk:購銷損益帳;"
+    },
+    {
+      "original": "Net sales",
+      "conv": "zh-cn:净销售; zh-hk:淨銷售; zh-tw:銷貨淨額;"
+    },
+    {
+      "original": "[[:en:Ownership equity|Ownership equity]]",
+      "conv": "zh-cn:所有者权益; zh-sg:所有者权益; zh-tw:業主權益; zh-hk:所有者權益;"
+    },
+    {
+      "original": "[[:en:Operating cash flow|Operating cash flow]]",
+      "conv": "zh-cn:经营现金流; zh-tw:營運現金流量;"
+    },
+    {
+      "original": "[[:en:Operating Income|Operating Income]]",
+      "conv": "zh-cn:营业利润; zh-tw:營業利益; zh-hk:營業利潤;"
+    },
+    {
+      "original": "[[:en:Operating Income|Non-operating Income]]",
+      "conv": "zh-cn:业外利润; zh-hk:業外利潤; zh-tw:業外收益;"
+    },
+    {
+      "original": "[[:en:Operating Income|Non-operating Revenue]]",
+      "conv": "zh-cn:业外收入; zh-hk:業外收入; zh-tw:業外收入;"
+    },
+    {
+      "original": "[[:en:Operating Income|Non-operating Expenses]]",
+      "conv": "zh-cn:业外支出; zh-hk:業外支出; zh-tw:業外支出;"
     },
     {
       "original": "Premium",
       "conv": "zh-cn:溢价; zh-hk:溢價; zh-tw:溢酬;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:回报; zh-sg:回报; zh-tw:報酬; zh-hk:回報;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:回报率; zh-sg:回报率; zh-tw:報酬率; zh-hk:回報率;"
-    },
-    {
-      "original": "[[:en:Rate of return|Rate of return]]",
-      "conv": "zh-cn:投资回报率; zh-sg:投资回报率; zh-tw:投資報酬率; zh-hk:投資回報率; "
-    },
-    {
-      "original": "Rate of Return on Common Stockholders&#x0027; Equity",
-      "conv": "zh-cn:净资产收益率; zh-sg:净资产收益率; zh-tw:股東權益報酬率; zh-hk:淨值報酬率; "
+      "original": "Profit after tax",
+      "conv": "zh-cn:税后利润; zh-hk:稅後利潤; zh-tw:稅後淨利;"
     },
     {
       "original": "Price-to-Earning Ratio",
@@ -628,80 +852,68 @@
       "conv": "zh-cn:市净率; zh-hk:市淨率; zh-tw:股價淨值比;"
     },
     {
-      "original": "[[:en:Ownership equity|Ownership equity]]",
-      "conv": "zh-cn:所有者权益; zh-sg:所有者权益; zh-tw:業主權益; zh-hk:所有者權益;"
+      "original": "Price-to-Sales Ratio",
+      "conv": "zh-cn:市销率; zh-hk:市銷率; zh-tw:股價營收比;"
     },
     {
-      "original": "[[:en:Income statement|Income statement]]",
-      "conv": "zh-cn:损益表; zh-sg:损益表; zh-tw:損益表; zh-hk:購銷損益帳;"
+      "original": "[[:en:Rate of return|Rate of return]]",
+      "conv": "zh-cn:投资回报率; zh-sg:投资回报率; zh-tw:投資報酬率; zh-hk:投資回報率; "
     },
     {
-      "original": "[[:en:accountancy firm]]",
-      "conv": "zh-cn:会计师事务所; zh-sg:会计师事务所; zh-tw:會計師事務所; zh-hk:會計師行;"
+      "original": "Rate of Return on Common Stockholders&#x0027; Equity",
+      "conv": "zh-cn:净资产收益率; zh-sg:净资产收益率; zh-tw:股東權益報酬率; zh-hk:淨值報酬率; "
     },
     {
-      "original": "[[:en:Operating cash flow|Operating cash flow]]",
-      "conv": "zh-cn:经营现金流; zh-tw:營運現金流量;"
+      "original": null,
+      "conv": "zh-cn:回报; zh-sg:回报; zh-tw:報酬; zh-hk:回報;"
     },
     {
-      "original": "Gross sales",
-      "conv": "zh-cn:毛销售;zh-hk:毛銷售;zh-tw:銷貨總額;"
-    },
-    {
-      "original": "Gross sales",
-      "conv": "zh-cn:营业收入;zh-hk:營業收入;zh-tw:營業收入;"
-    },
-    {
-      "original": "Net sales",
-      "conv": "zh-cn:净销售;zh-hk:淨銷售;zh-tw:銷貨淨額;"
+      "original": null,
+      "conv": "zh-cn:回报率; zh-sg:回报率; zh-tw:報酬率; zh-hk:回報率;"
     },
     {
       "original": "sales revenue",
-      "conv": "zh-cn:销售收入;zh-hk:銷售收入;zh-tw:銷貨收入;销货收入=>zh-tw:銷貨收入;"
+      "conv": "zh-cn:销售收入; zh-hk:銷售收入; zh-tw:銷貨收入;销货收入=>zh-tw:銷貨收入;"
     },
     {
-      "original": "[[:en:COGS|COGS]]",
-      "conv": "zh-cn:销售成本; zh-tw:銷貨成本; zh-hk:銷售成本;"
+      "original": "Incoterms",
+      "conv": "zh-cn:国际贸易术语解释通则; zh-tw:國貿條規;"
     },
     {
-      "original": "[[:en:Operating Income|Operating Income]]",
-      "conv": "zh-cn:营业利润; zh-tw:營業利益; zh-hk:營業利潤;"
-    },
-    {
-      "original": "[[:en:Operating Income|Non-operating Income]]",
-      "conv": "zh-cn:业外利润;zh-hk:業外利潤;zh-tw:業外收益;"
-    },
-    {
-      "original": "[[:en:Operating Income|Non-operating Revenue]]",
-      "conv": "zh-cn:业外收入;zh-hk:業外收入;zh-tw:業外收入;"
-    },
-    {
-      "original": "[[:en:Operating Income|Non-operating Expenses]]",
-      "conv": "zh-cn:业外支出;zh-hk:業外支出;zh-tw:業外支出;"
-    },
-    {
-      "original": "[[:en:Earnings before taxes|Earnings before taxes]]",
-      "conv": "zh-cn:税前利润;zh-hk:稅前利潤;zh-tw:稅前盈餘;"
-    },
-    {
-      "original": "",
-      "conv": "zh-cn:税后利润;zh-hk:稅後利潤;zh-tw:稅後淨利;"
-    },
-    {
-      "original": "[[:en:Fiscal Year|Fiscal Year]]",
-      "conv": "zh-cn:财政年度;zh-hk:財政年度;zh-tw:會計年度;"
-    },
-    {
-      "original": "South African Rand",
-      "conv": "zh-cn:南非兰特; zh-hk:南非蘭特; zh-tw:南非鍰"
-    },
-    {
-      "original": "Peso",
-      "conv": "zh-cn:比索; zh-hk:披索; zh-tw:披索"
+      "original": "Incoterms",
+      "conv": "zh-cn:国际贸易术语; zh-tw:國際商業用語;"
     },
     {
       "original": "bolívar",
       "conv": "zh-cn:玻利瓦尔; zh-tw:玻利瓦; zh-hk:玻利瓦爾;"
+    },
+    {
+      "original": "South African Rand",
+      "conv": "zh-cn:南非兰特; zh-hk:南非蘭特; zh-tw:南非鍰;"
+    },
+    {
+      "original": "Peso",
+      "conv": "zh-cn:比索; zh-hk:披索; zh-tw:披索;"
+    },
+    {
+      "original": "Asian Development Bank",
+      "conv": "zh-cn:亚行; zh-hant:亞行; zh-tw:亞銀;"
+    },
+    {
+      "original": "Asian Infrastructure Investment Bank",
+      "conv": "zh-cn:亚投行; zh-hk:亞投行; zh-tw:亞投銀;"
+    },
+    {
+      "original": "BIS",
+      "conv": "zh-hans:国际清算银行; zh-hant:國際清算銀行; zh-sg:国际清算银行; zh-cn:国际清算银行;zh-tw:國際結算銀行;zh-hk:國際結算銀行;"
+    },
+    {
+      "original": "[[:Bank of England|Bank of England]]",
+      "conv": "zh-cn:英格兰银行; zh-hk:英倫銀行; zh-tw:英格蘭銀行;"
+    },
+    {
+      "original": "[[:en:Deloitte|Deloitte]]",
+      "conv": "zh-cn:德勤华永; zh-sg:德勤华永; zh-tw:勤業眾信; zh-hk:德勤·關黃陳方;"
     },
     {
       "original": "Federal Reserve",
@@ -712,16 +924,24 @@
       "conv": "zh-cn:联储; zh-tw:聯準; zh-hk:聯儲;"
     },
     {
-      "original": "Reserve Bank",
-      "conv": "zh-cn:储备银行; zh-tw:準備銀行; zh-hk:儲備銀行;"
+      "original": "Federal Reserve Bank",
+      "conv": "zh-cn:联邦储备银行; zh-tw:聯邦準備銀行; zh-hk:聯邦儲備銀行;"
     },
     {
-      "original": "Federal Reserve System",
-      "conv": "zh-hans:联邦储备系统;zh-tw:聯邦準備制度;zh-hk:聯邦儲備系統;"
+      "original": "Federal Reserve Bank",
+      "conv": "zh-cn:联储银行; zh-tw:聯準銀行; zh-hk:聯儲銀行;"
     },
     {
       "original": "Federal Reserve Board of Governors",
-      "conv": "zh-cn:联邦储备委员会; zh-tw:聯邦準備理事會; zh-hk:聯邦儲備局; 聯邦儲備委員會=>zh-tw:聯邦準備理事會"
+      "conv": "zh-cn:联邦储备委员会; zh-tw:聯邦準備理事會; zh-hk:聯邦儲備局;"
+    },
+    {
+      "original": "Federal Reserve Board of Governors",
+      "conv": "聯邦儲備委員會=>zh-tw:聯邦準備理事會;"
+    },
+    {
+      "original": "Federal Reserve Board of Governors",
+      "conv": "zh-cn:联储会; zh-tw:聯準會; zh-hk:聯儲局;"
     },
     {
       "original": "Forbes",
@@ -732,28 +952,44 @@
       "conv": "富比世=>zh-cn:福布斯; 富比世=>zh-sg:福布斯; 富比世=>zh-hk:福布斯;"
     },
     {
-      "original": "[[:en:Northern Rock|Northern Rock]]",
-      "conv": "zh-cn:北岩银行; zh-hk:北石銀行; zh-tw:北岩銀行;"
-    },
-    {
-      "original": "[[:Bank of England|Bank of England]]",
-      "conv": "zh-cn:英格兰银行; zh-hk:英倫銀行; zh-tw:英格蘭銀行;"
-    },
-    {
-      "original": "[[:en:PricewaterhouseCoopers|PricewaterhouseCoopers]]",
-      "conv": "zh-cn:普华永道; zh-sg:普华永道; zh-tw:資誠; zh-hk:羅兵咸永道;"
+      "original": "Investment Bank",
+      "conv": "zh-cn:投行; zh-hk:投行; zh-tw:投銀;"
     },
     {
       "original": "[[:en:KPMG|KPMG]]",
       "conv": "zh-cn:毕马威; zh-sg:毕马威; zh-tw:安侯建業; zh-hk:畢馬威;"
     },
     {
-      "original": "[[:en:Deloitte|Deloitte]]",
-      "conv": "zh-cn:德勤华永; zh-sg:德勤华永; zh-tw:勤業眾信; zh-hk:德勤·關黃陳方;"
+      "original": "Nasdaq",
+      "conv": "zh-cn:纳斯达克; zh-hk:納斯達克; zh-tw:那斯達克;"
+    },
+    {
+      "original": "[[:en:Northern Rock|Northern Rock]]",
+      "conv": "zh-cn:北岩银行; zh-hk:北石銀行; zh-tw:北岩銀行;"
+    },
+    {
+      "original": "OCED",
+      "conv": "zh-cn:经济合作与发展 ;zh-tw:經濟合作暨發展 ;"
+    },
+    {
+      "original": "[[:en:PricewaterhouseCoopers|PricewaterhouseCoopers]]",
+      "conv": "zh-cn:普华永道; zh-sg:普华永道; zh-tw:資誠; zh-hk:羅兵咸永道;"
+    },
+    {
+      "original": "World Bank",
+      "conv": "zh-cn:世行; zh-hant:世行; zh-tw:世銀;"
     },
     {
       "original": "Adam Smith",
       "conv": "zh-cn:亚当·斯密; zh-tw:亞當·史密斯; zh-hk:亞當·史密夫;"
+    },
+    {
+      "original": "Bayesian",
+      "conv": "zh-cn:贝叶斯; zh-tw:貝氏; zh-hk:貝葉斯;"
+    },
+    {
+      "original": "Eccles",
+      "conv": "zh-cn:埃克尔斯;zh-tw:埃克斯;zh-hk:埃克爾斯;"
     },
     {
       "original": "[[:en:John Maynard Keynes|Keynes]]",
@@ -792,16 +1028,12 @@
       "conv": "zh-cn:弗里德曼; zh-sg:弗里德曼; zh-tw:傅利曼; zh-hk:佛利民;"
     },
     {
-      "original": "[[:en: William Phillips (economist) | William Phillips ]]",
+      "original": "[[:en:William Phillips (economist) | William Phillips ]]",
       "conv": "zh-cn:菲利普斯; zh-tw:菲利浦;"
     },
     {
       "original": "[[:en:Krugman (surname)|Krugman]]",
       "conv": "zh-cn:克鲁格曼; zh-hk:克魯明; zh-tw:克魯曼;"
-    },
-    {
-      "original": "Bayesian",
-      "conv": "zh-cn:贝叶斯; zh-tw:貝氏; zh-hk:貝葉斯;"
     },
     {
       "original": "Pareto",

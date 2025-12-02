@@ -1,8 +1,20 @@
 {
   "name": "Lady Gaga",
-  "description": "-{zh-cn:嘎嘎小姐; zh-tw:女神卡卡; zh-hk:Lady Gaga}-",
+  "description": "-{zh-cn:Lady Gaga; zh-sg:女神卡卡; zh-tw:女神卡卡; zh-hk:Lady Gaga}-",
   "path": "Template:CGroup/Lady Gaga",
   "rules": [
+    {
+      "original": "Gaga",
+      "conv": "zh:嘎嘎; zh-cn:Gaga; zh-hk:Gaga; zh-mo:Gaga; zh-tw:卡卡; zh-my:卡卡; zh-sg:卡卡;"
+    },
+    {
+      "original": "Lady Gaga",
+      "conv": "zh:嘎嘎小姐; zh-cn:Lady Gaga; zh-tw:女神卡卡; zh-sg:女神卡卡; zh-hk:Lady Gaga;"
+    },
+    {
+      "original": "Lady Gaga",
+      "conv": "zh-hant:Lady Gaga; zh-hans:Lady Gaga;"
+    },
     {
       "original": "Stefani Joanne Angelina Germanotta",
       "conv": "zh-cn:史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔; zh-hk:絲蒂芬妮·祖安·安祖蓮娜·祖瑪娜達; zh-tw:史蒂芬妮·喬安·安潔麗娜·潔曼諾塔"
@@ -49,7 +61,7 @@
     },
     {
       "original": "The Fame Monster",
-      "conv": "zh-cn:超人气女魔头; zh-tw:超人氣魔神"
+      "conv": "zh-cn:超人气女魔头; zh-hk:The Fame Monster; zh-tw:超人氣魔神"
     },
     {
       "original": "Alejandro",
@@ -101,7 +113,7 @@
     },
     {
       "original": "Cheek to Cheek",
-      "conv": "zh-cn:脸贴脸; zh-tw:爵對經典"
+      "conv": "zh-cn:脸贴脸; zh-hk:Cheek to Cheek; zh-tw:爵對經典"
     }
   ]
 }

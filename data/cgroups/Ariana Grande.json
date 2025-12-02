@@ -1,15 +1,11 @@
 {
   "name": "Ariana Grande",
-  "description": "-{zh-cn:爱莉安娜·格兰德; zh-hk:愛莉安娜·格蘭德; zh-tw:亞莉安娜·格蘭德}-",
+  "description": "-{zh-cn:爱莉安娜·格兰德;zh-sg:亚莉安娜·格兰德;zh-hk:亞莉安娜·格蘭德;zh-tw:亞莉安娜·格蘭德}-",
   "path": "Module:CGroup/Ariana Grande",
   "rules": [
     {
-      "original": "Ariana Grande",
-      "conv": "zh-cn:爱莉安娜·格兰德; zh-hk:愛莉安娜·格蘭德; zh-tw:亞莉安娜·格蘭德; zh-sg:亚莉安娜·格兰德;"
-    },
-    {
       "original": "Ariana",
-      "conv": "zh-cn:爱莉安娜; zh-hk:愛莉安娜; zh-tw:亞莉安娜; zh-sg:亚莉安娜;"
+      "conv": "zh-cn:爱莉安娜; zh-tw:亞莉安娜; zh-hk:亞莉安娜; zh-sg:亚莉安娜;"
     },
     {
       "original": "Yours Truly",
@@ -114,6 +110,18 @@
     {
       "original": "Break Up with Your Girlfriend, I'm Bored",
       "conv": "zh-cn:分手吧，我无聊了; zh-tw:和你女友分手，我無聊了;"
+    },
+    {
+      "original": "Bye",
+      "conv": "zh-cn:再见; zh-tw:拜囉;"
+    },
+    {
+      "original": "We Can't Be Friends (Wait for Your Love)",
+      "conv": "zh-cn:我们不能当朋友（等待你你的爱）; zh-tw:當不成朋友（等待你的愛）;"
+    },
+    {
+      "original": "Imperfect for You",
+      "conv": "zh-cn:为你而不完美; zh-tw:對你不夠完美;"
     }
   ]
 }

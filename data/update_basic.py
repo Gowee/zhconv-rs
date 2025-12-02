@@ -10,7 +10,7 @@ OUT_DIR = Path(__file__).parent
 BUILD_RS_PATH = OUT_DIR / "../build.rs"
 
 MEDIAWIKI_COMMIT_API = "https://api.github.com/repos/mediawiki/mediawiki/commits/master"
-MEDIAWIKI_ZHCONV_URL = "https://raw.githubusercontent.com/wikimedia/mediawiki/%s/includes/languages/data/ZhConversion.php"
+MEDIAWIKI_ZHCONV_URL = "https://raw.githubusercontent.com/wikimedia/mediawiki/%s/includes/Languages/Data/ZhConversion.php"
 
 OPENCC_COMMIT_API = "https://api.github.com/repos/BYVoid/OpenCC/commits/master"
 OPENCC_DICTS_URL = (
@@ -78,7 +78,7 @@ def main():
         if old_mediawiki_commit != (
             mediawiki_commit := requests.get(MEDIAWIKI_COMMIT_API).json()["sha"].lower()
         ):
-            print(f"MediaWiki Commit: {mediawiki_commit} -> {mediawiki_commit}")
+            print(f"MediaWiki Commit: {old_mediawiki_commit} -> {mediawiki_commit}")
             build_rs = re.sub(
                 r"const MEDIAWIKI_COMMIT.+?=[\s\S]+?;$",
                 f'const MEDIAWIKI_COMMIT: &str = "{mediawiki_commit}";',
@@ -94,7 +94,7 @@ def main():
         if old_opencc_commit != (
             opencc_commit := requests.get(OPENCC_COMMIT_API).json()["sha"].lower()
         ):
-            print(f"OpenCC Commit: {opencc_commit} -> {opencc_commit}")
+            print(f"OpenCC Commit: {old_opencc_commit} -> {opencc_commit}")
             build_rs = re.sub(
                 r"const OPENCC_COMMIT.+?=[\s\S]+?;$",
                 f'const OPENCC_COMMIT: &str = "{opencc_commit}";',

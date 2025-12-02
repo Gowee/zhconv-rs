@@ -1,11 +1,11 @@
 {
   "name": "Pixar",
-  "description": "-{zh-cn:皮克斯;zh-tw:皮克斯;zh-hk:彼思;zh-sg:皮克斯;}-",
+  "description": "-{zh-hans:皮克斯;zh-tw:皮克斯;zh-hk:彼思;}-",
   "path": "Module:CGroup/Pixar",
   "rules": [
     {
       "original": "Brave",
-      "conv": "zh-cn:勇敢传说;zh-tw:勇敢傳說;zh-hk:勇敢傳說之幻險森林;zh-sg:勇敢传说;zh-mo:勇敢傳說之幻險森林;"
+      "conv": "zh-cn:勇敢传说;zh-tw:勇敢傳說;zh-hk:勇敢傳說之幻險森林;"
     },
     {
       "original": "Brave",
@@ -13,19 +13,19 @@
     },
     {
       "original": "A Bug’s Life",
-      "conv": "zh-cn:虫虫危机;zh-tw:蟲蟲危機;zh-hk:蟲蟲特工隊;zh-sg:虫虫特工队;zh-mo:蟲蟲特工隊;"
+      "conv": "zh-cn:虫虫危机;zh-tw:蟲蟲危機;zh-hk:蟲蟲特工隊;zh-sg:虫虫特工队;"
     },
     {
       "original": "Cars",
-      "conv": "zh-cn:赛车总动员;zh-tw:Cars;zh-hk:反斗車王;zh-sg:赛车总动员;zh-mo:反斗車王;zh:汽車總動員;"
+      "conv": "zh-cn:赛车总动员;zh-tw:Cars;zh-hk:反斗車王;zh:汽車總動員;"
     },
     {
       "original": "Cars 2",
-      "conv": "zh-cn:赛车总动员2;zh-tw:Cars 2：世界大賽;zh-hk:反斗車王2;zh-sg:赛车总动员2;zh-mo:反斗車王2;"
+      "conv": "zh-cn:赛车总动员2;zh-tw:Cars 2：世界大賽;zh-hk:反斗車王2"
     },
     {
       "original": "Cars 3",
-      "conv": "zh-cn:赛车总动员3：极速挑战;zh-tw:Cars 3：閃電再起;zh-hk:反斗車王3;zh-sg:赛车总动员3;zh-mo:反斗車王3;"
+      "conv": "zh-cn:赛车总动员3：极速挑战;zh-tw:Cars 3：閃電再起;zh-hk:反斗車王3;zh-sg:赛车总动员3;"
     },
     {
       "original": "Coco",
@@ -37,7 +37,7 @@
     },
     {
       "original": "Elio",
-      "conv": "zh-cn:地球特派员;zh-tw:艾立歐：第三星公關;zh-hk:外星奇遇記;"
+      "conv": "zh-cn:地球特派员;zh-tw:地球特派員;zh-hk:外星奇遇記;"
     },
     {
       "original": "Finding Dory",
@@ -45,15 +45,19 @@
     },
     {
       "original": "Finding Nemo",
-      "conv": "zh-cn:海底总动员;zh-sg:海底总动员;zh-tw:海底總動員;zh-hk:海底奇兵;zh-mo:海底奇兵;"
+      "conv": "zh-cn:海底总动员;zh-tw:海底總動員;zh-hk:海底奇兵;"
     },
     {
       "original": "The Good Dinosaur",
       "conv": "zh-cn:恐龙当家;zh-tw:恐龍當家;zh-hk:恐龍大時代;"
     },
     {
+      "original": "Hoppers",
+      "conv": "zh-tw:狸想世界;zh-hk:狸想奇兵;zh-cn:河狸变身计划;"
+    },
+    {
       "original": "The Incredibles (2)",
-      "conv": "zh-cn:超人总动员;zh-tw:超人特攻隊;zh-hk:超人特工隊;zh-sg:超人特工队;zh-mo:超人特工隊;"
+      "conv": "zh-cn:超人总动员;zh-tw:超人特攻隊;zh-hk:超人特工隊;zh-sg:超人特工队;"
     },
     {
       "original": "Inside Out (2)",
@@ -65,11 +69,11 @@
     },
     {
       "original": "Monsters, Inc.",
-      "conv": "zh-cn:怪兽电力公司;zh-tw:怪獸電力公司;zh-hk:怪獸公司;zh-mo:怪獸公司;"
+      "conv": "zh-cn:怪兽电力公司;zh-tw:怪獸電力公司;zh-hk:怪獸公司;"
     },
     {
       "original": "Ratatouille",
-      "conv": "zh-cn:美食总动员;zh-sg:料理鼠王;zh-my:料理鼠王;zh-tw:料理鼠王;zh-hk:五星級大鼠;zh-mo:五星級大鼠;"
+      "conv": "zh-cn:美食总动员;zh-sg:料理鼠王;zh-tw:料理鼠王;zh-hk:五星級大鼠;"
     },
     {
       "original": "Soul",
@@ -77,11 +81,11 @@
     },
     {
       "original": "Toy Story (3/4)",
-      "conv": "zh-cn:玩具总动员;zh-tw:玩具總動員;zh-hk:反斗奇兵;zh-mo:反斗奇兵;"
+      "conv": "zh-cn:玩具总动员;zh-tw:玩具總動員;zh-hk:反斗奇兵;"
     },
     {
       "original": "Toy Story 2",
-      "conv": "zh-cn:玩具总动员2;zh-tw:玩具總動員2;zh-hk:反斗奇兵續集;zh-mo:反斗奇兵續集;"
+      "conv": "zh-cn:玩具总动员2;zh-tw:玩具總動員2;zh-hk:反斗奇兵續集;"
     },
     {
       "original": "Turning Red",
@@ -89,11 +93,11 @@
     },
     {
       "original": "Up",
-      "conv": "zh-cn:飞屋环游记;zh-sg:天外奇迹;zh-my:天外奇迹;zh-tw:天外奇蹟;zh-hk:沖天救兵;zh-mo:沖天救兵;"
+      "conv": "zh-cn:飞屋环游记;zh-sg:天外奇迹;zh-tw:天外奇蹟;zh-hk:沖天救兵;"
     },
     {
       "original": "WALL-E",
-      "conv": "zh:机器人瓦力;zh-cn:机器人总动员;zh-hk:太空奇兵·威E;zh-mo:太空奇兵·威E;"
+      "conv": "zh:机器人瓦力;zh-cn:机器人总动员;zh-hk:太空奇兵·威E;"
     },
     {
       "original": "WALL-E",
@@ -101,35 +105,35 @@
     },
     {
       "original": "Luxo Jr.",
-      "conv": "zh-cn:小台灯;zh-tw:頑皮跳跳燈;zh-hk:小洛素;zh-sg:小台灯;zh-mo:小洛素;"
+      "conv": "zh-cn:小台灯;zh-tw:頑皮跳跳燈;zh-hk:小洛素;zh-sg:顽皮跳跳灯;"
     },
     {
       "original": "Red’s Dream",
-      "conv": "zh-cn:Red的梦;zh-tw:單輪車的夢想;zh-hk:單輪車的夢想;zh-sg:Red的梦;zh-mo:單輪車的夢想;"
+      "conv": "zh-cn:Red的梦;zh-tw:單輪車的夢想;zh-hk:單輪車的夢想;zh-sg:独轮车的梦想;"
     },
     {
       "original": "Geri’s Game",
-      "conv": "zh-cn:棋局;zh-tw:棋局;zh-hk:博奕遊戲;zh-sg:棋局;zh-mo:博奕遊戲;"
+      "conv": "zh-cn:棋局;zh-tw:棋局;zh-hk:博奕遊戲;zh-sg:棋逢敌手;"
     },
     {
       "original": "For the Birds",
-      "conv": "zh-cn:鸟！鸟！鸟！;zh-tw:電線上的鳥;zh-hk:雀仔樂園;zh-sg:鸟！鸟！鸟！;zh-mo:雀仔樂園;"
+      "conv": "zh-cn:鸟！鸟！鸟！;zh-tw:電線上的鳥;zh-hk:雀仔樂園;zh-sg:鸟！鸟！鸟！;"
     },
     {
       "original": "One Man Band",
-      "conv": "zh-cn:单人乐队;zh-tw:許願池;zh-hk:壹蚊Show;zh-sg:单人乐队;zh-mo:壹蚊Show;"
+      "conv": "zh-cn:单人乐队;zh-tw:許願池;zh-hk:壹蚊Show;zh-sg:一人乐队;"
     },
     {
       "original": "Lifted",
-      "conv": "zh-cn:綁架課;zh-tw:漂浮;zh-hk:外星仔搞乜鬼;zh-sg:Lifted;zh-mo:外星仔搞乜鬼;"
+      "conv": "zh:綁架課;zh-cn:绑架課;zh-tw:漂浮;zh-hk:外星仔搞乜鬼;zh-sg:Lifted;"
     },
     {
       "original": "Partly Cloudy",
-      "conv": "zh-cn:晴时多云;zh-tw:晴時多雲;zh-hk:半嚿雲;zh-sg:晴时多云;zh-mo:半嚿雲;"
+      "conv": "zh-cn:晴时多云;zh-tw:晴時多雲;zh-hk:半嚿雲;zh-sg:暴力云与送子鹳;"
     },
     {
       "original": "La Luna",
-      "conv": "zh-cn:月神;zh-tw:月光光;zh-hk:月亮;zh-sg:月光光;zh-mo:月亮;"
+      "conv": "zh-cn:月神;zh-tw:太空漫談;zh-hk:月光光;zh-sg:月光光;"
     },
     {
       "original": "The Blue Umbrella",
@@ -137,7 +141,7 @@
     },
     {
       "original": "Lava",
-      "conv": "zh-cn:熔岩;zh-tw:火山戀曲;zh-hk:熔岩熱戀;"
+      "conv": "zh-cn:熔岩;zh-tw:火山戀曲;zh-hk:熔岩熱戀;zh-sg:熔岩热恋;"
     },
     {
       "original": "Piper",
@@ -149,31 +153,31 @@
     },
     {
       "original": "Carl’s Date",
-      "conv": "zh-tw:卡爾有約;zh-hk:卡叔有約;zh-cn:卡尔的约会;"
+      "conv": "zh-tw:卡爾有約;zh-sg:卡尔有约;zh-hk:卡叔有約;zh-cn:卡尔的约会;"
     },
     {
       "original": "Air Mater",
-      "conv": "zh-cn:空气板牙;zh-tw:噴射拖線;zh-hk:飛天哨牙嘜;zh-sg:空气板牙;zh-mo:飛天哨牙嘜;"
+      "conv": "zh-cn:空气板牙;zh-tw:噴射拖線;zh-hk:飛天哨牙嘜;zh-sg:飞天板牙;"
     },
     {
       "original": "BURN-E",
-      "conv": "zh-cn:电焊工波力;zh-tw:本力;电焊工波力=>zh-hk:BURN-E;本力=>zh-hk:BURN-E;波力=>zh-hk:BURN-E;zh-sg:电焊工波力;"
+      "conv": "zh-cn:电焊工波力;zh-tw:本力;zh-hk:賓E;zh-sg:焊接机器人/本力;"
     },
     {
       "original": "Dug’s Special Mission",
-      "conv": "zh-cn:道格的特别任务;zh-tw:小逗的特殊任務;zh-hk:阿德特殊任務;zh-sg:道格的特别任务;zh-mo:阿德特殊任務;"
+      "conv": "zh-cn:道格的特别任务;zh-tw:小逗的特殊任務;zh-hk:阿德特殊任務;zh-sg:道格的特别任务;"
     },
     {
       "original": "Jack-Jack Attack",
-      "conv": "zh-cn:小杰的攻击;zh-tw:小傑的攻擊;zh-hk:積仔全攻擊;zh-sg:小杰的攻击;zh-mo:積仔全攻擊;"
+      "conv": "zh-cn:小杰的攻击;zh-tw:小傑的攻擊;zh-hk:積仔全攻擊;zh-sg:小杰的攻击;"
     },
     {
       "original": "Mater and the Ghostlight",
-      "conv": "zh-cn:板牙遇上鬼火;zh-tw:拖線遇上鬼火;zh-hk:哨牙嘜鬼火驚魂;zh-sg:板牙遇上鬼火;zh-mo:哨牙嘜鬼火驚魂;"
+      "conv": "zh-cn:板牙遇上鬼火;zh-tw:拖線遇上鬼火;zh-hk:哨牙嘜鬼火驚魂;zh-sg:板牙和鬼火;"
     },
     {
       "original": "Partysaurus Rex",
-      "conv": "zh-cn:派对恐龙;zh-tw:暴暴龍大英雄;zh-hk:抱抱龍大英雄;"
+      "conv": "zh-cn:派对恐龙;zh-tw:暴暴龍大英雄;zh-hk:抱抱龍大英雄;zh-sg:抱抱龙大英雄;"
     },
     {
       "original": "Small Fry",
@@ -181,27 +185,35 @@
     },
     {
       "original": "The Legend of Mor’du",
-      "conv": "zh-cn:熊魔王传说;zh-tw:熊魔王傳說;zh-hk:熊獸魔度的傳說;zh-sg:熊魔王传说;zh-mo:熊獸魔度的傳說;"
+      "conv": "zh-cn:熊魔王传说;zh-tw:熊魔王傳說;zh-hk:熊獸魔度的傳說;zh-sg:熊魔王传说;"
     },
     {
       "original": "Toy Story That Time Forgot",
-      "conv": "zh-cn:玩具总动员：遗忘的时光;zh-sg:玩具总动员：遗忘的时光;zh-tw:玩具總動員：迷失時空;zh-hk:反斗奇兵：迷失時空;zh-mo:反斗奇兵：迷失時空;"
+      "conv": "zh-cn:玩具总动员：遗忘的时光;zh-sg:玩具总动员：遗忘的时光;zh-tw:玩具總動員：迷失時空;zh-hk:反斗奇兵：迷失時空;"
     },
     {
       "original": "Your Friend the Rat",
-      "conv": "zh-cn:你的老鼠朋友;zh-tw:您的老鼠好友;zh-hk:人類老鼠大接觸;zh-sg:你的老鼠朋友;zh-mo:人類老鼠大接觸;"
+      "conv": "zh-cn:你的老鼠朋友;zh-tw:您的老鼠好友;zh-hk:人類老鼠大接觸;zh-sg:你的老鼠朋友;"
     },
     {
-      "original": "Cars Toons: Mater’s Tall Tales",
-      "conv": "zh-cn:拖线狂想曲;zh-tw:拖線狂想曲;zh-hk:反斗車王闖天關：哨牙嘜外傳;zh-sg:拖线狂想曲;zh-mo:反斗車王闖天關：哨牙嘜外傳;"
+      "original": "Dream Productions",
+      "conv": "zh-hk:發夢製作公司;zh-tw:夢境製片廠;zh-hans:梦境制片厂;"
     },
     {
       "original": "Monsters at Work",
-      "conv": "zh-tw:怪獸職場求生記;zh-hk:怪獸開工;"
+      "conv": "zh-tw:怪獸職場求生記;zh-hk:怪獸開工;zh-sg:怪兽职场记;"
+    },
+    {
+      "original": "Win or Lose",
+      "conv": "zh-tw:勝與敗;zh-hk:贏定輸;"
     },
     {
       "original": "Cars on the Road",
       "conv": "zh-tw:汽車總動員：公路旅行;zh-hk:反斗車王：公路奇遇記;zh-cn:赛车总动员：公路旅行;"
+    },
+    {
+      "original": "Cars Toons: Mater’s Tall Tales",
+      "conv": "zh-cn:拖线狂想曲;zh-tw:拖線狂想曲;zh-hk:反斗車王闖天關：哨牙嘜外傳;zh-sg:拖线狂想曲;"
     },
     {
       "original": "Dug Days",
@@ -220,6 +232,10 @@
       "conv": "zh-hans:岱诺可;zh-hk:水殼公司;zh-cn:恐龙公司;zh-tw:岱諾可;"
     },
     {
+      "original": "Disney",
+      "conv": "迪斯尼=>zh-hk:迪士尼;迪斯尼=>zh-mo:迪士尼;"
+    },
+    {
       "original": "George Lucas",
       "conv": "zh-hans:乔治·卢卡斯;zh-hk:佐治·魯卡斯;zh-tw:喬治·盧卡斯;"
     },
@@ -228,12 +244,12 @@
       "conv": "zh-hans:乔布斯;zh-hk:喬布斯;zh-tw:賈伯斯;"
     },
     {
-      "original": "Pixar Animation Studios",
-      "conv": "zh-cn:皮克斯动画工作室;zh-tw:皮克斯動畫工作室;zh-hk:彼思動畫製作室;zh-sg:皮克斯动画工作室;"
+      "original": "Pixar",
+      "conv": "zh-hans:皮克斯;zh-tw:皮克斯;zh-hk:彼思;"
     },
     {
-      "original": "Pixar",
-      "conv": "zh-cn:皮克斯;zh-tw:皮克斯;zh-hk:彼思;zh-sg:皮克斯;"
+      "original": "Pixar Animation Studios",
+      "conv": "zh-hans:皮克斯动画工作室;zh-tw:皮克斯動畫工作室;zh-hk:彼思動畫製作室;"
     },
     {
       "original": "Randy Newman",
@@ -250,10 +266,6 @@
     {
       "original": "Sydney",
       "conv": "zh-hans:悉尼;zh-hk:悉尼;zh-tw:雪梨;"
-    },
-    {
-      "original": "The Walt Disney Company",
-      "conv": "zh-hans:华特迪士尼公司;zh-hant:華特迪士尼公司;"
     },
     {
       "original": "Walt Disney Pictures",
@@ -456,6 +468,34 @@
       "conv": "zh-tw:水弟;zh-hk:阿水;"
     },
     {
+      "original": "Elio",
+      "conv": "zh-tw:艾立歐;zh-hk:艾力奧;zh-cn:埃利奥"
+    },
+    {
+      "original": "Falluvinum",
+      "conv": "zh-tw:佛羅星;zh-hk:維魯維納;zh-cn:法鲁维纳"
+    },
+    {
+      "original": "Glordon",
+      "conv": "zh-tw:登登;zh-hk:歌爾頓;zh-cn:小格"
+    },
+    {
+      "original": "Gom",
+      "conv": "zh-tw:剛母星球;zh-hk:戈姆;zh-cn:高姆"
+    },
+    {
+      "original": "Grigon",
+      "conv": "zh-tw:怪鋼;zh-hk:格爾鋼;zh-cn:格霸"
+    },
+    {
+      "original": "Helix",
+      "conv": "zh-tw:海立士;zh-hk:赫利克斯;zh-cn:悉理士"
+    },
+    {
+      "original": "Questa",
+      "conv": "zh-tw:奎士達;zh-hk:奎斯塔"
+    },
+    {
       "original": "Anchor",
       "conv": "zh-tw:安安;zh-hk:安仔;"
     },
@@ -588,6 +628,10 @@
       "conv": "zh-cn:点点;zh-hk:細細粒;zh-tw:小巴;"
     },
     {
+      "original": "Mabel",
+      "conv": "zh-tw:梅寶;zh-hk:美寶;zh-cn:梅宝;"
+    },
+    {
       "original": "Bernie Kropp",
       "conv": "zh-hk:谷Sir;zh-tw:班尼·克羅普;"
     },
@@ -641,7 +685,7 @@
     },
     {
       "original": "Jack-Jack",
-      "conv": "zh-hk:小積;zh-tw:小傑;"
+      "conv": "zh-hk:積積;zh-tw:小傑;"
     },
     {
       "original": "Karen",
@@ -1074,6 +1118,10 @@
     {
       "original": "Ken Sean Carson",
       "conv": "zh-hans:肯尼;zh-hk:阿Ken;zh-tw:肯尼;"
+    },
+    {
+      "original": "Lots-O’-Huggin’ Bear",
+      "conv": "zh-hans:小荷平板;zh-hk:莉莉平板;zh-tw:莉莉板;"
     },
     {
       "original": "Lots-O’-Huggin’ Bear",

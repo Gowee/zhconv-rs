@@ -1,6 +1,6 @@
 {
   "name": "DreamWorks",
-  "description": "[[夢工廠動畫]]",
+  "description": "[[夢工廠]]",
   "path": "Module:CGroup/DreamWorks",
   "rules": [
     {
@@ -9,11 +9,15 @@
     },
     {
       "original": "The Road To EL Dorado",
-      "conv": "zh-hk:黃金國冒險之旅;zh-tw:勇闖黃金城;zh-cn:勇闯黄金城;"
+      "conv": "zh-hk:黃金國冒險之旅;zh-tw:勇闖黃金城;zh-cn:勇闯黄金城;zh-sg:寻金双宝;"
     },
     {
       "original": "Chicken Run",
       "conv": "zh-hk:咪走雞;zh-tw:落跑雞;zh-sg:落跑鸡;zh-cn:小鸡快跑;"
+    },
+    {
+      "original": "Joseph: King of Dreams",
+      "conv": "zh-tw:約瑟傳說：夢境之王;zh-hk:約瑟傳說：埃及之謎;zh-sg:约瑟传说：埃及之谜;zh-cn:约瑟传说：梦幻国王;"
     },
     {
       "original": "Shrek",
@@ -33,7 +37,7 @@
     },
     {
       "original": "Wallace & Gromit: The Curse of the Were-Rabbit",
-      "conv": "zh-hk:超級無敵掌門狗之世紀大騙兔;zh-tw:酷狗寶貝之魔兔詛咒;zh-cn:超级无敌掌门狗：人兔的诅咒;"
+      "conv": "zh-hk:超級無敵掌門狗之世紀大騙兔;zh-tw:酷狗寶貝之魔兔詛咒;zh-sg:酷狗宝贝;zh-my:酷狗宝贝之魔兔诅咒;zh-cn:超级无敌掌门狗：人兔的诅咒;"
     },
     {
       "original": "Over the Hedge",
@@ -89,7 +93,7 @@
     },
     {
       "original": "Turbo",
-      "conv": "zh-hk:極速TURBO;zh-tw:渦輪方程式;zh-cn:极速蜗牛;"
+      "conv": "zh-hk:極速TURBO;zh-tw:渦輪方程式;zh-cn:极速蜗牛;zh-sg:极速;}--{-|极速"
     },
     {
       "original": "Mr. Peabody & Sherman",
@@ -121,7 +125,7 @@
     },
     {
       "original": "Abominable",
-      "conv": "zh-hk:長毛雪寶;zh-my:长毛雪宝;zh-sg:坏坏萌雪怪;zh-tw:壞壞萌雪怪;zh-cn:雪人奇缘;"
+      "conv": "zh-hk:長毛雪寶;zh-sg:坏坏萌雪怪;zh-tw:壞壞萌雪怪;zh-cn:雪人奇缘;"
     },
     {
       "original": "Trolls World Tour",
@@ -150,6 +154,10 @@
     {
       "original": "Trolls Band Together",
       "conv": "zh-hk:魔髮精靈：夾BAND天團;zh-tw:魔髮精靈：樂團在一起;zh-sg:魔发精灵乐团在一起;zh-cn:魔发精灵3;"
+    },
+    {
+      "original": "DreamWorks",
+      "conv": "zh-cn:梦工厂;zh-hk:夢工場;zh-tw:夢工廠;zh-sg:梦工厂;"
     },
     {
       "original": "Far, Far Away",
@@ -517,7 +525,7 @@
     },
     {
       "original": "Dr. Cockroach P.H.D.",
-      "conv": "zh-hk:大強博士;zh-tw:小強博士;zh-cn:蟑螂博士 ;"
+      "conv": "zh-hk:大強博士;zh-tw:小強博士;zh-cn:蟑螂博士;"
     },
     {
       "original": "The Missing Link",
@@ -785,7 +793,7 @@
     },
     {
       "original": "Turbo",
-      "conv": "zh-hk:Turbo;zh-tw:蝸寶;zh-cn:特伯;"
+      "conv": "zh-hk:Turbo;zh-sg:Turbo;zh-tw:蝸寶;zh-cn:特伯;"
     },
     {
       "original": "Chet",
@@ -837,11 +845,11 @@
     },
     {
       "original": "Mr. Peabody",
-      "conv": "zh-hk:百寶狗;zh-tw:皮巴弟;zh-cn:皮博迪;"
+      "conv": "zh-hk:百寶狗;zh-sg:百宝狗;zh-tw:皮巴弟;zh-cn:皮博迪;"
     },
     {
       "original": "Sherman",
-      "conv": "zh-hk:細蚊;zh-tw:薛曼;zh-cn:舍曼;"
+      "conv": "zh-hk:細蚊;zh-sg:细蚊;zh-tw:薛曼;zh-cn:舍曼;"
     },
     {
       "original": "Penny",

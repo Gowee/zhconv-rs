@@ -76,16 +76,8 @@
       "conv": "zh-cn:阿米尔丁·哈姆扎;zh-my:阿米鲁丁韩沙;zh-sg:阿米鲁丁韩沙;"
     },
     {
-      "original": "Ampang",
-      "conv": "zh-cn:暗邦;zh-my:安邦;zh-sg:安邦;"
-    },
-    {
       "original": "Anwar",
       "conv": "zh-cn:安瓦尔; zh-tw:安華; zh-sg:安华;"
-    },
-    {
-      "original": "Arau",
-      "conv": "zh-cn:亚劳;zh-my:亚娄;zh-sg:亚娄;"
     },
     {
       "original": "Ayer Hitam",
@@ -116,24 +108,12 @@
       "conv": "zh-cn:阿兹敏; zh-tw:阿茲敏; zh-sg:阿兹敏; zh-hk:阿茲敏;"
     },
     {
-      "original": "Bachok",
-      "conv": "zh-cn:巴卓;zh-my:万捷;zh-sg:万捷;"
-    },
-    {
       "original": "Badawi",
       "conv": "zh-cn:巴达维; zh-tw:巴達威; zh-hk:巴達威;zh-sg:巴达威;"
     },
     {
-      "original": "Bagan",
-      "conv": "zh-cn:巴甘;zh-my:峇眼;zh-sg:峇眼;"
-    },
-    {
       "original": "Bagan Datuk",
       "conv": "zh-cn:巴眼拿督;zh-my:峇眼拿督;zh-sg:峇眼拿督;"
-    },
-    {
-      "original": "Bagan Serai",
-      "conv": "zh-cn:巴眼士来;zh-my:峇眼色海;zh-sg:峇眼色海;"
     },
     {
       "original": "Bakar",
@@ -176,16 +156,12 @@
       "conv": "zh-cn:巴都牙也;zh-my:华都牙也;zh-sg:华都牙也;"
     },
     {
-      "original": "Batu Gajah",
-      "conv": "zh-cn:巴都加旺;zh-my:峇都交湾;zh-sg:峇都交湾;"
-    },
-    {
       "original": "Batu Pahat",
       "conv": "zh-cn:巴株巴辖;zh-my:峇株巴辖;zh-sg:峇株巴辖;"
     },
     {
       "original": "Bayan Baru",
-      "conv": "zh-cn:巴延巴鲁;zh-my:峇央峇鲁;zh-sg:峇央峇鲁;"
+      "conv": "zh-cn:巴央巴鲁;zh-my:峇央峇鲁;zh-sg:峇央峇鲁;"
     },
     {
       "original": "Beluran",
@@ -301,15 +277,39 @@
     },
     {
       "original": "Ibrahim",
-      "conv": "zh-cn:易卜拉欣; zh-tw:伊布拉欣; zh-hk:易卜拉欣; zh-sg:依布拉欣;"
+      "conv": "zh-cn:易卜拉欣;zh-tw:伊布拉欣;zh-hk:易卜拉欣;zh-sg:依布拉欣;"
     },
     {
       "original": "Igan",
-      "conv": "zh-cn:伊甘;zh-my:伊干;zh-sg:伊干;"
+      "conv": "zh-cn:伊甘;zh-my:伊干;zh-sg:伊干;zh-tw:伊干;"
     },
     {
       "original": "Ishak",
-      "conv": "zh-cn:伊沙克;zh-my:伊萨;zh-sg:伊萨;"
+      "conv": "zh-cn:伊沙克;zh-my:伊萨;zh-sg:伊萨;zh-tw:伊薩;"
+    },
+    {
+      "original": "Iskandar",
+      "conv": "zh-cn:伊斯坎达尔;zh-my:依斯干达;zh-sg:依斯干达;zh-tw:依斯干達;"
+    },
+    {
+      "original": "Iskandar",
+      "conv": "zh-cn:伊斯坎達爾;zh-cn:伊斯坎达尔;zh-my:依斯干达;zh-sg:依斯干达;zh-tw:依斯干達;"
+    },
+    {
+      "original": "Iskandar Malaysia",
+      "conv": "zh-hans:马来西亚依斯干达;zh-hant:馬來西亞依斯干達;"
+    },
+    {
+      "original": "Iskandar Puteri",
+      "conv": "zh-hans:依斯干达公主城;zh-hant:依斯干達公主城;"
+    },
+    {
+      "original": "Iskander",
+      "conv": "zh-cn:伊斯坎德尔;zh-my:依斯干达;zh-sg:依斯干达;zh-tw:依斯干達;"
+    },
+    {
+      "original": "Iskander",
+      "conv": "zh:伊斯坎德爾;zh-cn:伊斯坎德尔;zh-my:依斯干达;zh-sg:依斯干达;zh-tw:依斯干達;"
     },
     {
       "original": "Ismail",
@@ -445,11 +445,15 @@
     },
     {
       "original": "Napsiah Omar",
-      "conv": "zh-cn:纳普西娅·奥马尔;zh-my:娜霞奥玛;zh-sg:娜霞奥玛"
+      "conv": "zh-cn:纳普西娅·奥马尔;zh-my:娜霞奥玛;zh-sg:娜霞奥玛;"
     },
     {
       "original": "Noh",
       "conv": "zh-cn:努·;zh-tw:努·;zh-hk:努·;zh-sg:诺·"
+    },
+    {
+      "original": "Nusantara",
+      "conv": "zh-cn:努山塔拉 ;zh-hk:努山塔拉 ;zh-tw:努山打拉 ;zh-my:努山达拉 ;zh-sg:努山达拉 ;"
     },
     {
       "original": "Omar",
@@ -474,10 +478,6 @@
     {
       "original": "Osman Sapian",
       "conv": "zh-cn:奥斯曼·萨皮安; zh-my:奥斯曼沙比安; zh-sg:奥斯曼沙比安;"
-    },
-    {
-      "original": "Padang Rengas",
-      "conv": "zh-cn:巴当宁仔;zh-my:硝山;zh-sg:硝山;"
     },
     {
       "original": "Perdana Menteri",
@@ -560,6 +560,10 @@
       "conv": "zh-cn:斯里巴加湾; zh-tw:斯里巴卡旺; zh-hk:斯里巴加灣;"
     },
     {
+      "original": "Seri Iskandar",
+      "conv": "zh-hans:斯里依斯干达;zh-hant:斯里依斯干達;"
+    },
+    {
       "original": "Sheikh Muszaphar",
       "conv": "zh-cn:谢赫·穆扎法尔;zh-tw:錫慕查化;zh-sg:赛慕查化;"
     },
@@ -617,7 +621,7 @@
     },
     {
       "original": "Tunku Abdul Rahman",
-      "conv": "zh-sg:东姑阿都拉曼; zh-cn:东古·阿卜杜勒·拉赫曼; zh-tw:東姑·阿布都拉曼; zh-hk:東姑阿都拉曼;"
+      "conv": "zh-sg:东姑阿都拉曼; zh-cn:东古·阿卜杜勒·拉赫曼; zh-tw:東姑阿都拉曼; zh-hk:東姑阿都拉曼;"
     },
     {
       "original": "Wahab",

@@ -37,7 +37,7 @@
     },
     {
       "original": "chitin",
-      "conv": "zh-cn:甲壳质; zh-hk:甲殼質; zh-tw:幾丁質;"
+      "conv": "zh-cn:几丁质; zh-hk:甲殼質; zh-tw:幾丁質;"
     },
     {
       "original": "activate",
@@ -106,6 +106,10 @@
     {
       "original": "carbamoyl-",
       "conv": "zh-cn:氨甲酰; zh-tw:胺甲醯"
+    },
+    {
+      "original": "carotene",
+      "conv": "zh-cn:胡萝卜素;zh-tw:胡蘿蔔素;"
     },
     {
       "original": "cinnamaldehyde",
@@ -208,10 +212,6 @@
       "conv": "zh-cn:异亮氨酸; zh-hk:異白氨酸; zh-tw:異白胺酸;"
     },
     {
-      "original": "lanosterol",
-      "conv": "zh-cn:羊毛甾醇; zh-tw:羊毛脂固醇;"
-    },
-    {
       "original": "lentinan",
       "conv": "zh-cn:香菇多糖; zh-tw:蘑菇多糖;"
     },
@@ -305,7 +305,7 @@
     },
     {
       "original": "triglyceride",
-      "conv": "zh-cn:三酰甘油; zh-hk:甘油三酸酯; zh-tw:三酸甘油酯; zh-sg:三酸甘油酯;"
+      "conv": "zh-cn:甘油三酯; zh-hk:甘油三酸酯; zh-tw:三酸甘油酯; zh-sg:三酸甘油酯;"
     },
     {
       "original": "salvage pathway",
@@ -816,10 +816,6 @@
       "conv": "zh-cn:肾小球; zh-hk:腎小球; zh-tw:腎絲球"
     },
     {
-      "original": "glucocorticoid",
-      "conv": "zh-cn:糖皮质激素; zh-hk:糖皮質激素; zh-tw:糖皮質素"
-    },
-    {
       "original": "heart",
       "conv": "zh-cn:心脏; zh-tw:心臟;"
     },
@@ -860,10 +856,6 @@
       "conv": "zh-cn:延髓; zh-hk:延髓; zh-tw:延腦"
     },
     {
-      "original": "mineralocorticoid",
-      "conv": "zh-cn:盐皮质激素; zh-hk:鹽皮質激素; zh-tw:礦物皮質素"
-    },
-    {
       "original": "myoglobin",
       "conv": "zh-cn:肌红蛋白; zh-hk:肌紅蛋白; zh-tw:肌紅素"
     },
@@ -882,10 +874,6 @@
     {
       "original": "norepinephrine",
       "conv": "zh-cn:去甲肾上腺素; zh-hk:去甲腎上腺素; zh-tw:正腎上腺素;"
-    },
-    {
-      "original": "ovarian follicle",
-      "conv": "zh-cn:卵泡; zh-hk:卵泡; zh-tw:濾泡;"
     },
     {
       "original": "parathyroid gland",
@@ -1026,6 +1014,30 @@
     {
       "original": "Angiopteris",
       "conv": "zh-cn:莲座蕨; zh-hk:蓮座蕨; zh-tw:觀音座蓮;"
+    },
+    {
+      "original": "Selliguea echinospora",
+      "conv": "zh-cn:大叶玉山假瘤蕨; zh-tw:大葉玉山茀蕨;"
+    },
+    {
+      "original": "Selliguea engleri",
+      "conv": "zh-cn:恩氏假瘤蕨; zh-tw:恩氏茀蕨;"
+    },
+    {
+      "original": "Selliguea hastata",
+      "conv": "zh-cn:金鸡脚假瘤蕨; zh-tw:三葉茀蕨;"
+    },
+    {
+      "original": "Selliguea quasidivaricata",
+      "conv": "zh-cn:展羽假瘤蕨; zh-tw:玉山茀蕨;"
+    },
+    {
+      "original": "Selliguea taiwanensis",
+      "conv": "zh-cn:台湾假瘤蕨; zh-tw:臺灣茀蕨;"
+    },
+    {
+      "original": "Selliguea yakushimensis",
+      "conv": "zh-cn:屋久假瘤蕨; zh-tw:姬茀蕨;"
     },
     {
       "original": "Haplomitriopsida",
@@ -1226,6 +1238,14 @@
     {
       "original": "Neonauclea truncata",
       "conv": "zh-hans:台湾新乌檀;zh-tw:欖仁舅;zh-hk:臺灣新烏檀"
+    },
+    {
+      "original": "",
+      "conv": "zh-hans:栀子;zh-hant:梔子"
+    },
+    {
+      "original": "Anoectochilus formosanus",
+      "conv": "zh-cn:台湾银线兰; zh-hant:臺灣銀線蘭; zh-tw:臺灣金線蓮"
     },
     {
       "original": "Calanthe",
@@ -1760,6 +1780,14 @@
       "conv": "zh-cn:糯米团属; zh-tw:石薯屬"
     },
     {
+      "original": "Malpighia emarginata",
+      "conv": "zh-cn:针叶樱桃;zh-tw:西印度櫻桃;zh-hk:針葉櫻桃"
+    },
+    {
+      "original": "Malpighia glabra",
+      "conv": "zh-cn:亮叶金虎尾;zh-tw:黃褥花;zh-hk:亮葉金虎尾"
+    },
+    {
       "original": "Cnidaria",
       "conv": "zh-hans:刺胞动物门; zh-hk:刺胞動物門; zh-tw:刺絲胞動物門;"
     },
@@ -1824,16 +1852,12 @@
       "conv": "zh-cn:台湾电鳐; zh-tw:臺灣電鱝; zh-hant:臺灣電鰩;"
     },
     {
+      "original": "Hemimyzon",
+      "conv": "zh-cn:间吸鳅; zh-tw:間爬岩鰍;"
+    },
+    {
       "original": "Amphibia",
       "conv": "zh-cn:两栖纲; zh-tw:兩生綱; zh-hk:兩棲綱;"
-    },
-    {
-      "original": "Ranidae",
-      "conv": "zh-tw:赤蛙科; zh-hans:蛙科; zh-hk:蛙科; zh-mo:蛙科;"
-    },
-    {
-      "original": "Rana",
-      "conv": "zh-tw:赤蛙屬;zh-hans:蛙属; zh-hk:蛙屬; zh-mo:蛙屬;"
     },
     {
       "original": "Dicroglossidae",
@@ -2174,6 +2198,14 @@
     {
       "original": "Lucanidae",
       "conv": "zh-cn:锹甲科; zh-tw:鍬形蟲科; zh-hk:鍬甲科"
+    },
+    {
+      "original": "Odontolabis",
+      "conv": "zh-cn:奥锹甲属; zh-tw:豔鍬形蟲屬"
+    },
+    {
+      "original": "Odontolabis siva",
+      "conv": "zh-cn:西奥锹甲属; zh-tw:鬼豔鍬形蟲"
     },
     {
       "original": "Lymexylidae",

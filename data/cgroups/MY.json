@@ -4,488 +4,384 @@
   "path": "Module:CGroup/MY",
   "rules": [
     {
-      "original": null,
-      "conv": "zh-cn:尼普顿;zh-tw:涅普頓;"
+      "original": "Όλυμπος, Ólympos",
+      "conv": "zh-cn:奥林匹斯;zh-hk:奧林帕斯;zh-tw:奧林帕斯;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:双头狗;zh-tw:雙頭犬;"
+      "original": "Διόνυσος, Diónusos",
+      "conv": "zh-cn:狄俄倪索斯;zh-tw:狄奧尼索斯;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:朱诺;zh-hk:朱諾;zh-tw:朱諾;"
+      "original": "Ποσειδῶν, Poseidō̂n",
+      "conv": "zh-hant:波塞頓;zh-cn:波塞冬;zh-hk:波賽頓;zh-tw:波賽頓;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:伊菲克勒斯;zh-hk:伊克力斯;zh-tw:伊克力斯;"
+      "original": "Ἄρτεμις, Artemis",
+      "conv": "zh-cn:阿耳忒弥斯;zh-hk:阿提密斯;zh-tw:阿提密斯;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:伏尔坎努斯;zh-hk:伏爾坎;zh-tw:伏爾坎;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:印度教;zh-hant:印度教;zh-sg:兴都教;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:朱庇特;zh-hk:朱比特;zh-tw:朱庇特;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:克洛德;zh-tw:克勞德;zh-hk:克洛德;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:克洛德·列维-斯特劳斯;zh-tw:克勞德·李維史陀;zh-hk:克洛德·列維-斯特勞斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:忒拜;zh-tw:底比斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:狄阿娜;zh-hk:黛安娜;zh-tw:狄安娜;"
-    },
-    {
-      "original": "Dionysus",
-      "conv": "zh-cn:狄俄倪索斯;zh-tw:戴歐尼修斯;"
-    },
-    {
-      "original": "Poseidon",
-      "conv": "zh-cn:波赛冬;zh-hk:波塞頓;zh-tw:波塞頓;"
-    },
-    {
-      "original": "Artemis",
-      "conv": "zh-cn:阿耳忒弥斯;zh-hk:阿提密斯;zh-tw:阿蒂蜜絲;"
-    },
-    {
-      "original": "Aphrodite",
+      "original": "Ἀφροδίτη, Aphrodítē",
       "conv": "zh-cn:阿佛洛狄忒;zh-tw:阿芙羅黛蒂;zh-hk:阿芙蘿黛蒂;"
     },
     {
-      "original": "Oizys",
-      "conv": "zh:俄匊斯;zh-cn:俄-{匊}-斯;zh-tw:奧伊季斯;zh-hk:俄-{匊}-斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:俄耳甫斯教;zh-tw:奧菲斯教;zh-hk:奧菲斯教;"
-    },
-    {
-      "original": "Hades",
-      "conv": "zh-cn:哈得斯;zh-hk:哈迪斯;zh-tw:黑帝斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:珀耳塞福涅;zh-hk:普賽芬尼;zh-tw:普賽芬尼;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:涅普图努斯;zh-hk:涅普頓;zh-tw:涅普頓;"
-    },
-    {
-      "original": null,
+      "original": "Δημήτηρ, Dēmḗtēr",
       "conv": "zh-cn:得墨忒耳;zh-hk:得茉忒薾;zh-tw:狄蜜特;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:得摩斯;zh-tw:戴摩斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:博斯海峽;zh-hk:博斯普魯斯海峽;zh-tw:博斯普魯斯海峽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:喀戎;zh-hk:奇倫;zh-tw:凱隆;"
-    },
-    {
-      "original": "Olympians",
-      "conv": "zh-cn:奥林波斯;zh-hk:奧林帕斯;zh-tw:奧林帕斯;"
-    },
-    {
-      "original": "Twelve Olympians",
-      "conv": "zh-cn:奥林波斯十二神;zh-hk:奧林帕斯十二神;zh-tw:奧林帕斯十二神;"
-    },
-    {
-      "original": "Titan",
-      "conv": "zh-cn:提坦;zh-tw:泰坦;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:普鲁图斯;zh-hk:普魯托;zh-tw:普鲁托;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:路基阿诺斯;zh-hk:琉善;zh-tw:琉善;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:赫卡忒;zh-hk:赫卡忒;zh-tw:黑卡蒂;"
-    },
-    {
-      "original": "Hermes",
+      "original": "Ἑρμῆς, Hermês",
       "conv": "zh-cn:赫耳墨斯;zh-hk:赫密斯;zh-tw:荷米斯;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:赫拉克勒斯;zh-hk:海格力斯;zh-tw:海克力士;"
+      "original": "Ἥρα, Hḗrā",
+      "conv": "zh-cn:赫拉;zh-hk:赫拉;zh-tw:赫拉;"
     },
     {
-      "original": "Hera",
-      "conv": "zh-cn:赫拉;zh-hk:希拉;zh-tw:希拉;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:赫柏;zh-hk:希碧;zh-tw:希碧;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:赫淮斯托斯;zh-tw:赫菲斯托斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:赫斯提亚;zh-hk:赫斯提亞;zh-tw:荷絲提雅;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:墨丘利;zh-hk:墨丘利;zh-tw:墨丘利;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:摩摩斯;zh-tw:摩墨斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:丘比特;zh-hk:邱比特;zh-tw:丘比特;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:维纳斯;zh-hk:維納斯;zh-tw:維納斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:维斯塔;zh-hk:維斯塔;zh-tw:維斯塔;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:方塔苏斯;zh-tw:芳塔索斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:西西里;zh-hant:西西里;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:忒弥斯;zh-hant:泰美斯;zh-hk:泰美斯;zh-tw:泰美斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:那耳喀索斯;zh-hk:納西瑟斯;zh-tw:納西瑟斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:埃阿科斯;zh-hk:艾亞哥斯;zh-tw:艾亞哥斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:桑那托斯;zh-hant:桑納托斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:福柏托耳;zh-tw:佛貝托爾;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:赫利俄斯; zh-cn:赫利俄斯; zh-tw:海利歐斯; zh-hk:希路斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:乌剌诺斯; zh-cn:乌拉诺斯; zh-hk:尤諾斯;zh-tw:烏拉諾斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:卢娜;zh-hant:露娜;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:繆思;zh-hans:缪斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-tw:伊麗絲;zh-cn:伊里斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-tw:阿加曼農;zh-cn:阿伽门农;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:蓬托斯; zh-cn:蓬托斯; zh-tw:澎濤士; zh-hk:澎濤士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:刻托; zh-cn:刻托; zh-tw:克托; zh-hk:潔多;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:福耳库斯; zh-cn:福耳库斯; zh-tw:佛西士; zh-hk:科歇斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:赫柏; zh-cn:赫柏; zh-tw:赫柏; zh-hk:希比;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:厄倪俄; zh-cn:厄倪俄; zh-tw:恩幼; zh-hk:埃尼奥;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:阿瑞斯; zh-cn:阿瑞斯; zh-tw:阿瑞斯; zh-hk:阿雷斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:戈耳工; zh-tw:戈爾貢; zh-hk:戈爾貢;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:涅柔斯; zh-cn:涅柔斯; zh-tw:涅羅斯; zh-hk:涅勞士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:俄刻阿诺斯; zh-cn:俄刻阿诺斯; zh-tw:歐開諾斯; zh-hk:奧卡諾斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:厄庇墨透斯; zh-cn:厄庇墨透斯; zh-tw:艾比米修斯; zh-hk:艾比米修斯;"
-    },
-    {
-      "original": "Phoebe",
-      "conv": "zh-hans:福柏; zh-cn:福柏; zh-tw:佛碧; zh-hk:菲比;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:塞勒涅; zh-cn:塞勒涅; zh-tw:塞勒涅; zh-hk:施蓮娜;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:许珀里翁; zh-cn:许珀里翁; zh-tw:海波利昂; zh-hk:海柏利昂;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:厄俄斯; zh-cn:厄俄斯; zh-tw:厄俄斯; zh-hk:艾奥斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:赫西俄德; zh-cn:赫西俄德; zh-tw:海希奧德; zh-hk:希斯亞德;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:朱诺; zh-cn:朱诺; zh-tw:茱諾; zh-hk:茱諾;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:乌拉诺斯; zh-cn:乌拉诺斯; zh-tw:烏拉諾斯; zh-hk:尤諾斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:弥涅耳瓦; zh-cn:弥涅耳瓦; zh-tw:米娜瓦; zh-hk:米娜娃;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:萨图尔努斯; zh-cn:萨图尔努斯; zh-tw:薩圖恩努斯; zh-hk:撒頓努斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:萨图尔; zh-cn:萨图尔; zh-tw:薩圖恩; zh-hk:撒頓;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:朱文塔斯; zh-cn:朱文塔斯; zh-tw:尤文圖絲; zh-hk:祖雲達絲;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:武尔坎; zh-cn:武尔坎; zh-tw:兀兒肯; zh-hk:霍努坎;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:武尔坎努斯; zh-cn:武尔坎努斯; zh-tw:兀兒肯努斯; zh-hk:霍坎努斯;"
-    },
-    {
-      "original": null,
+      "original": "Ἥφαιστος, Hḗphaistos",
       "conv": "zh-hans:赫淮斯托斯; zh-cn:赫淮斯托斯; zh-tw:赫菲斯托斯; zh-hk:希菲托斯;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:玛尔斯; zh-cn:玛尔斯; zh-tw:瑪爾斯; zh-hk:瑪雅斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:罗穆卢斯; zh-cn:罗慕路斯; zh-tw:羅穆盧斯; zh-hk:羅穆路斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:雷穆斯; zh-cn:雷穆斯; zh-tw:瑞摩斯; zh-hk:雷穆斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:涅墨西斯; zh-cn:涅墨西斯; zh-tw:涅墨西斯; zh-hk:尼密修斯;"
-    },
-    {
-      "original": null,
+      "original": "Ἑστία, Hestía",
       "conv": "zh-hans:赫斯提亚; zh-cn:赫斯提亚; zh-tw:赫斯提亞; zh-hk:希式鐵;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:倪克斯; zh-cn:倪克斯; zh-tw:倪克斯; zh-hk:妮克斯;"
+      "original": "Ἄρης, Árēs",
+      "conv": "zh-hans:阿瑞斯; zh-cn:阿瑞斯; zh-tw:阿瑞斯; zh-hk:阿雷斯;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:伽倪墨得斯; zh-cn:伽倪墨得斯; zh-tw:蓋尼米德; zh-hk:伽尼米德;"
+      "original": "ᾍδης, Hā́idēs",
+      "conv": "zh-cn:哈得斯;zh-hk:哈迪斯;zh-tw:黑帝斯;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:宝瓶座; zh-cn:宝瓶座; zh-tw:水瓶座; zh-hk:水瓶座;"
+      "original": "Περσεφόνη, Persephónē",
+      "conv": "zh-cn:珀耳塞福涅;zh-hk:普賽芬尼;zh-tw:波瑟芬尼;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:厄勒梯亚; zh-cn:厄勒梯亚; zh-tw:埃雷圖亞; zh-hk:艾莉西亞;"
+      "original": "Ἡρακλῆς, ：Hēraklēs",
+      "conv": "zh-cn:赫拉克勒斯;zh-hk:海格力斯;zh-tw:海克力士;"
     },
     {
-      "original": null,
+      "original": "Ἥβη, Hḗbē",
+      "conv": "zh-hans:赫柏; zh-cn:赫柏; zh-tw:赫柏; zh-hk:希比;"
+    },
+    {
+      "original": "Θᾰ́νᾰτος, Thánatos",
+      "conv": "zh-cn:塔那托斯; zh-hk:桑納托斯; zh-tw:達拿都斯"
+    },
+    {
+      "original": "Λητώ, Lētṓ",
+      "conv": "zh-cn:勒托; zh-tw:樂朵;"
+    },
+    {
+      "original": "Ἶρις, Îris",
+      "conv": "zh-cn:伊里斯; zh-tw:伊麗絲;"
+    },
+    {
+      "original": "Νίκη, Níkē",
+      "conv": "zh-cn:尼刻; zh-hk:尼刻; zh-mo:尼刻; zh-tw:尼姬;"
+    },
+    {
+      "original": "Ἔρις, Éris",
       "conv": "zh-hans:厄里斯; zh-cn:厄里斯; zh-tw:厄莉絲; zh-hk:艾莉絲;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:克洛诺斯; zh-cn:克罗诺斯; zh-tw:克洛諾斯; zh-hk:格羅諾斯;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:盖亚; zh-cn:盖亚; zh-tw:蓋亞; zh-hk:該亞;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:福尔图娜; zh-cn:福尔图娜; zh-tw:福圖納; zh-hk:霍陶娜;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:忒堤斯; zh-cn:忒堤斯; zh-tw:特提斯; zh-hk:泰西絲;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:忒卢斯; zh-cn:忒卢斯; zh-tw:特盧斯; zh-hk:泰盧絲;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:瑞亚; zh-cn:瑞亚; zh-tw:雷亞; zh-hk:蕾亞;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:阿尔克墨涅; zh-cn:阿尔克墨涅; zh-tw:阿爾克墨涅; zh-hk:阿姬米娜;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:安菲特律翁; zh-cn:安菲特律翁; zh-tw:安菲特律翁; zh-hk:安菲底律翁;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:厄勒克特律翁; zh-cn:厄勒克特律翁; zh-tw:艾利克屈昂; zh-hk:艾利底律翁;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:安德洛墨达; zh-hant:安德洛墨達; zh-tw:安朵美達; zh-hk:安德羅美達;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:癸干忒斯; zh-tw:巨人族;"
-    },
-    {
-      "original": null,
-      "conv": "zh:仄費羅斯; zh-tw:齊菲兒;"
-    },
-    {
-      "original": null,
+      "original": "Δεῖμος, Deîmos",
       "conv": "zh:得摩斯; zh-tw:戴摩斯;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:赫拉; zh-hk:希拉; zh-tw:希拉;"
+      "original": "Φάντασος, Phántasos",
+      "conv": "zh-hans:方塔苏斯;zh-tw:芳塔索斯;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:波塞冬; zh-cn:波塞冬; zh-tw:波賽頓; zh-hk:波賽頓;"
+      "original": "Πόντος, Póntos",
+      "conv": "zh-hans:蓬托斯; zh-cn:蓬托斯; zh-tw:澎濤士; zh-hk:澎濤士;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:哈迪斯; zh-hk:哈帝斯; zh-tw:黑帝斯;"
+      "original": "Νύξ, Nyx",
+      "conv": "zh-hans:倪克斯; zh-cn:倪克斯; zh-tw:倪克斯; zh-hk:妮克斯;"
     },
     {
-      "original": "Aphrodite",
-      "conv": "zh-cn:阿佛洛狄忒; zh-hk:阿芙蘿迪蒂; zh-tw:阿芙蘿黛蒂;"
+      "original": "Οὐρανός, Ouranós",
+      "conv": "zh-hans:乌拉诺斯; zh-cn:乌拉诺斯; zh-tw:烏拉諾斯; zh-hk:尤諾斯;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:阿耳忒弥斯; zh-cn:阿耳忒弥斯; zh-tw:阿提米絲; zh-hk:阿緹蜜絲;"
+      "original": "Γαῖα, Gaîa",
+      "conv": "zh-hans:盖亚; zh-cn:盖亚; zh-tw:蓋亞; zh-hk:該亞;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:赫拉克勒斯; zh-hk:海格力斯; zh-tw:海克力斯;"
+      "original": "Φοβήτωρ, Phobḗtōr",
+      "conv": "zh-hans:福柏托耳;zh-tw:佛貝托爾;"
     },
     {
-      "original": null,
-      "conv": "zh-cn:喀戎; zh-hk:奇倫; zh-tw:凱隆;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:拉冬; zh-tw:拉頓;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:阿耳戈斯; zh-tw:阿古士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:阿革诺耳; zh-tw:阿格諾;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:刻律涅; zh-tw:克列尼亞;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:哈耳庇厄; zh-tw:哈比;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:许德拉; zh-tw:海卓拉;"
-    },
-    {
-      "original": null,
-      "conv": "zh-cn:厄客德娜; zh-tw:艾奇德娜;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:许珀里翁; zh-cn:许珀里翁; zh-tw:許珀里翁; zh-hk:海柏利昂;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:塞勒涅; zh-cn:塞勒涅; zh-tw:塞勒涅; zh-hk:施蓮娜;"
-    },
-    {
-      "original": null,
+      "original": "Ἥλιος, Hḗlios",
       "conv": "zh-hans:赫利俄斯; zh-cn:赫利俄斯; zh-tw:海利歐斯; zh-hk:希路斯;"
     },
     {
-      "original": null,
+      "original": "Ἐπιμηθεύς, Epimētheús",
+      "conv": "zh-hans:厄庇墨透斯; zh-cn:厄庇墨透斯; zh-tw:艾比米修斯; zh-hk:艾比米修斯;"
+    },
+    {
+      "original": "Ἑκάτη, Hekate",
+      "conv": "zh-cn:赫卡忒;zh-hk:赫卡忒;zh-tw:黑卡蒂;"
+    },
+    {
+      "original": "Φόρκυς, Phórkus",
+      "conv": "zh-hans:福耳库斯; zh-cn:福耳库斯; zh-tw:佛西士; zh-hk:科歇斯;"
+    },
+    {
+      "original": "Νηρεύς, Nēreús",
+      "conv": "zh-hans:涅柔斯; zh-cn:涅柔斯; zh-tw:涅柔斯; zh-hk:涅勞士;"
+    },
+    {
+      "original": "Σελήνη, Selḗnē",
+      "conv": "zh-hans:塞勒涅; zh-cn:塞勒涅; zh-tw:塞勒涅; zh-hk:施蓮娜;"
+    },
+    {
+      "original": "Ἠώς, Ēṓs",
+      "conv": "zh-hans:厄俄斯; zh-cn:厄俄斯; zh-tw:厄俄斯; zh-hk:艾奥斯;"
+    },
+    {
+      "original": "Ζέφυρος, Zéphuros",
+      "conv": "zh:仄費羅斯; zh-tw:仄費羅斯;"
+    },
+    {
+      "original": "Νέμεσις, Némesis",
+      "conv": "zh-hans:涅墨西斯; zh-cn:涅墨西斯; zh-tw:涅墨西斯; zh-hk:尼密修斯;"
+    },
+    {
+      "original": "Εἰλείθυια, Eíleíthuia",
+      "conv": "zh-hans:厄勒梯亚; zh-cn:厄勒梯亚; zh-tw:埃雷圖亞;"
+    },
+    {
+      "original": "Ἀστραῖος, Astraîos",
       "conv": "zh-hans:阿斯特赖俄斯; zh-tw:亞斯特拉歐斯;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:刻耳; zh-tw:克爾;"
+      "original": "Ὀϊζύς, Oïzús",
+      "conv": "zh:;zh-cn:俄匊斯;zh-tw:俄匊斯;zh-hk:俄匊斯;"
     },
     {
-      "original": null,
+      "original": "Μῶμος Mômos",
+      "conv": "zh-cn:摩墨斯;zh-tw:摩墨斯;"
+    },
+    {
+      "original": "Τιτάν, Tītā́n",
+      "conv": "zh-cn:提坦;zh-tw:泰坦;"
+    },
+    {
+      "original": "Ρέα, Rhéa",
+      "conv": "zh-hans:瑞亚; zh-cn:瑞亚; zh-tw:雷亞; zh-hk:蕾亞;"
+    },
+    {
+      "original": "Ὠκεανός, Ōkeanós",
+      "conv": "zh-hans:俄刻阿诺斯; zh-cn:俄刻阿诺斯; zh-tw:歐開諾斯; zh-hk:奧卡諾斯;"
+    },
+    {
+      "original": "Θέτις, Thétis",
+      "conv": "zh-hans:忒提丝; zh-cn:忒提丝; zh-tw:忒提絲; zh-hk:泰西絲;"
+    },
+    {
+      "original": "Θέμις, Themis",
+      "conv": "zh-hans:忒弥斯;zh-hant:泰美斯;zh-hk:泰美斯;zh-tw:泰美斯;"
+    },
+    {
+      "original": "Ὑπερίων, Huperíōn",
+      "conv": "zh-hans:许珀里翁; zh-cn:许珀里翁; zh-tw:海柏利昂; zh-hk:海柏利昂;"
+    },
+    {
+      "original": "Φοίβη, Phoíbē",
+      "conv": "zh-hans:福柏; zh-cn:福柏; zh-tw:佛碧; zh-hk:菲比;"
+    },
+    {
+      "original": "Λάδων, Ládon",
+      "conv": "zh-cn:拉冬; zh-tw:拉頓;"
+    },
+    {
+      "original": "Κητώ, Kētṓ",
+      "conv": "zh-hans:刻托; zh-cn:刻托; zh-tw:克托; zh-hk:潔多;"
+    },
+    {
+      "original": "Ὄρθρος, Orthros",
+      "conv": "zh-cn:双头狗;zh-tw:雙頭犬;"
+    },
+    {
+      "original": "Ἄργος Πανόπτης",
+      "conv": "zh-cn:阿耳戈斯; zh-tw:百眼巨人;"
+    },
+    {
+      "original": "ἅρπυια, hárpuia",
+      "conv": "zh-hant:客邁拉;zh-cn:客迈拉; zh-hk:凱美拉; zh-tw:奇美拉;"
+    },
+    {
+      "original": "ὕδρα, húdrā",
+      "conv": "zh-cn:许德拉; zh-tw:九頭蛇;"
+    },
+    {
+      "original": "Ἔχιδνα, Ékhidna",
+      "conv": "zh-cn:厄客德娜; zh-tw:艾奇德娜;"
+    },
+    {
+      "original": "Πύθων, Púthōn",
       "conv": "zh-hans:皮同; zh-tw:培冬;"
+    },
+    {
+      "original": "Ἰφικλῆς, Iphiklēs",
+      "conv": "zh-cn:伊菲克勒斯;zh-hk:伊克力斯;zh-tw:伊克力斯;"
+    },
+    {
+      "original": "Νάρκισσος, Nárkissos",
+      "conv": "zh-hans:那耳喀索斯;zh-hk:納西瑟斯;zh-tw:納西瑟斯;"
+    },
+    {
+      "original": "Αἰακός, Aiakós",
+      "conv": "zh-hans:埃阿科斯;zh-hk:艾亞哥斯;zh-tw:艾亞哥斯;"
+    },
+    {
+      "original": "Ἀχιλλεύς, Achilleús",
+      "conv": "zh-cn:阿喀琉斯; zh-hk:阿基里斯; zh-tw:阿基里斯;"
+    },
+    {
+      "original": "Χείρων, Cheírōn",
+      "conv": "zh-cn:喀戎;zh-hk:奇倫;zh-tw:凱隆;"
+    },
+    {
+      "original": "Περσεύς, Perseús",
+      "conv": "zh-hans:珀耳修斯; zh-cn:珀耳修斯; zh-tw:柏修斯; zh-hk:珀爾修斯"
+    },
+    {
+      "original": "Ὀρφεύς, Orpheús",
+      "conv": "zh-cn:俄耳甫斯;zh-tw:奧菲斯;zh-hk:奧菲斯;"
+    },
+    {
+      "original": "Ἀγήνωρ, Agēnor",
+      "conv": "zh-cn:阿革诺耳; zh-tw:阿格諾;"
+    },
+    {
+      "original": "Γανυμήδης, Ganymḗdēs",
+      "conv": "zh-hans:伽倪墨得斯; zh-cn:伽倪墨得斯; zh-tw:蓋尼米德; zh-hk:伽尼米德;"
+    },
+    {
+      "original": "Ἀγαμέμνων, Agamémnōn",
+      "conv": "zh-tw:阿加曼農;zh-cn:阿伽门农;"
+    },
+    {
+      "original": "Ἀλκμήνη, Alkmḗnē",
+      "conv": "zh-hans:阿尔克墨涅; zh-cn:阿尔克墨涅; zh-tw:阿爾克墨涅; zh-hk:阿姬米娜;"
+    },
+    {
+      "original": "Ἀμφιτρύων, Amphitrúon",
+      "conv": "zh-hans:安菲特律翁; zh-cn:安菲特律翁; zh-tw:安菲特律翁; zh-hk:安菲底律翁;"
+    },
+    {
+      "original": "Ἠλεκτρύων, Ēlektrúon",
+      "conv": "zh-hans:厄勒克特律翁; zh-cn:厄勒克特律翁; zh-tw:艾利克屈昂; zh-hk:艾利底律翁;"
+    },
+    {
+      "original": "Ἀνδρομέδα, Androméda",
+      "conv": "zh-cn:安德洛墨达; zh-hant:安德洛墨達; zh-tw:安朵美達; zh-hk:安德羅美達;"
+    },
+    {
+      "original": "Γίγαντες, Gígantes",
+      "conv": "zh-cn:癸干忒斯; zh-tw:巨人族;"
+    },
+    {
+      "original": "Λουκιανὸς, Loukianos",
+      "conv": "zh-cn:琉善;zh-hk:琉善;zh-tw:琉善;"
+    },
+    {
+      "original": "Ἡσίοδος, Hēsíodos",
+      "conv": "zh-hans:赫西俄德; zh-cn:赫西俄德; zh-tw:海希奧德; zh-hk:希斯亞德;"
+    },
+    {
+      "original": "Θῆβαι, Thêbai",
+      "conv": "zh-cn:忒拜;zh-tw:底比斯;"
+    },
+    {
+      "original": "Κερύνεια, Kerúneia",
+      "conv": "zh-cn:刻律涅; zh-tw:克列尼亞;"
+    },
+    {
+      "original": "Παρθενών, Parthenōn",
+      "conv": "zh-hans:帕提农;zh-hk:巴特農;zh-tw:帕德嫩;"
+    },
+    {
+      "original": "Iūpiter",
+      "conv": "zh-cn:朱庇特;zh-hk:朱比特;zh-tw:朱庇特;"
+    },
+    {
+      "original": "Iūnō",
+      "conv": "zh-hans:朱诺; zh-cn:朱诺; zh-tw:茱諾; zh-hk:茱諾;"
+    },
+    {
+      "original": "Diana",
+      "conv": "zh-cn:狄阿娜;zh-hk:黛安娜;zh-tw:狄安娜;"
+    },
+    {
+      "original": "Neptūnus",
+      "conv": "zh-cn:尼普顿;zh-hk:涅普頓;zh-tw:涅普頓;"
+    },
+    {
+      "original": "Minerva",
+      "conv": "zh-hans:弥涅耳瓦; zh-cn:弥涅耳瓦; zh-tw:密涅瓦; zh-hk:米娜娃;"
+    },
+    {
+      "original": "Saturnus",
+      "conv": "zh-hans:萨图尔努斯; zh-cn:萨图尔努斯; zh-tw:薩圖爾努斯;"
+    },
+    {
+      "original": "Vulcānus",
+      "conv": "zh-hans:武尔坎努斯; zh-cn:武尔坎努斯; zh-tw:兀兒肯努斯; zh-hk:霍坎努斯;"
+    },
+    {
+      "original": "Mārs",
+      "conv": "zh-hans:玛尔斯; zh-cn:玛尔斯; zh-tw:瑪爾斯; zh-hk:瑪雅斯;"
+    },
+    {
+      "original": "Mercurius",
+      "conv": "zh-cn:墨丘利; zh-hk:墨丘利; zh-tw:墨丘利;"
+    },
+    {
+      "original": "Bacchus",
+      "conv": "zh-cn:巴克科斯; zh-hk:巴克斯; zh-tw:巴克斯"
+    },
+    {
+      "original": "Lūna",
+      "conv": "zh-hans:卢娜;zh-hant:露娜;"
+    },
+    {
+      "original": "Tellus",
+      "conv": "zh-hans:特鲁斯; zh-cn:特鲁斯; zh-tw:特魯斯; zh-hk:泰盧絲;"
+    },
+    {
+      "original": "Iuventūs",
+      "conv": "zh-hans:朱文塔斯; zh-cn:朱文塔斯; zh-tw:尤文圖絲; zh-hk:祖雲達絲;"
+    },
+    {
+      "original": "Fortūna",
+      "conv": "zh-hans:福尔图娜; zh-cn:福尔图娜; zh-tw:福圖納; zh-hk:霍陶娜;"
+    },
+    {
+      "original": "Plūto",
+      "conv": "zh-cn:普鲁托;zh-hk:普魯托;zh-tw:普魯托;"
+    },
+    {
+      "original": "Cupīdō",
+      "conv": "zh-cn:丘比特;zh-hk:邱比特;zh-tw:邱比特;"
+    },
+    {
+      "original": "Venus",
+      "conv": "zh-cn:维纳斯;zh-hk:維納斯;zh-tw:維納斯;"
+    },
+    {
+      "original": "Vesta",
+      "conv": "zh-cn:维斯塔;zh-hk:維斯塔;zh-tw:維斯塔;"
+    },
+    {
+      "original": "Romulus",
+      "conv": "zh-hans:罗穆卢斯; zh-cn:罗慕路斯; zh-tw:羅穆路斯; zh-hk:羅穆盧斯;"
+    },
+    {
+      "original": "Remus",
+      "conv": "zh-hans:瑞摩斯; zh-cn:雷穆斯; zh-tw:雷穆斯; zh-hk:雷穆斯;"
     },
     {
       "original": "Alvíss",
@@ -568,11 +464,11 @@
       "conv": "zh-hans:伊米尔; zh-tw:尤彌爾; zh-hk:伊米爾;"
     },
     {
-      "original": null,
+      "original": "काली, kālī",
       "conv": "zh-hant:迦梨;zh-tw:迦梨;zh-hans:时母;zh-cn:时母;zh-hk:時母;"
     },
     {
-      "original": null,
+      "original": "नाग, nāga",
       "conv": "zh-hans:那伽;zh-hant:那伽;"
     }
   ]

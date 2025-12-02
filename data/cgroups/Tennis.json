@@ -17,11 +17,19 @@
     },
     {
       "original": "Alcaraz",
-      "conv": "zh-hans:阿尔卡拉斯;zh-tw:艾卡拉茲;zh-hk:艾卡拿斯;"
+      "conv": "zh-hans:阿尔卡拉斯;zh-hk:艾卡拿斯;zh-tw:艾卡拉茲;"
+    },
+    {
+      "original": "Alex",
+      "conv": "zh-cn:亚历克斯;zh-hk:艾力士;zh-tw:艾力克斯;"
+    },
+    {
+      "original": "Alexander",
+      "conv": "zh-hans:亚历山大;zh-tw:亞歷山大;zh-hk:阿歷山大;"
     },
     {
       "original": "Altmaier",
-      "conv": "zh-hans:阿尔特迈尔;zh-tw:阿特麥爾;zh-hk:奧特邁爾;"
+      "conv": "zh-hans:阿尔特迈尔;zh-hk:奧特邁爾;zh-tw:阿特麥爾;"
     },
     {
       "original": "Altmaier",
@@ -36,10 +44,6 @@
       "conv": "zh-cn:安德森;zh-hk:安達臣;zh-tw:安德森;"
     },
     {
-      "original": "Andújar",
-      "conv": "zh-hans:安杜哈尔;zh-hant:安杜哈爾;"
-    },
-    {
       "original": "Arthur Ashe",
       "conv": "zh-hans:阿瑟·阿什;zh-tw:亞瑟·艾許;zh-hk:亞瑟·艾殊;"
     },
@@ -52,16 +56,12 @@
       "conv": "亞瑟·阿什=>zh-cn:阿瑟·阿什;亞瑟·阿什=>zh-sg:阿瑟·阿什;亞瑟·阿什=>zh-my:阿瑟·阿什;亞瑟·阿什=>zh-tw:亞瑟·艾許;亞瑟·阿什=>zh-hk:亞瑟·艾殊;亞瑟·阿什=>zh-mo:亞瑟·艾殊;"
     },
     {
-      "original": "Baena",
-      "conv": "巴耶纳=>zh-cn:巴埃纳;巴耶纳=>zh-my:巴埃纳;巴耶纳=>zh-sg:巴埃纳;巴耶纳=>zh-tw:巴埃納;"
+      "original": "Sebastián Báez",
+      "conv": "塞巴斯蒂安·贝兹=>zh-cn:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·贝兹=>zh-sg:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·贝兹=>zh-my:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·贝兹=>zh-tw:塞瓦斯蒂安·巴艾茲;塞巴斯蒂安·贝兹=>zh-hk:塞巴斯蒂安·巴耶斯;塞巴斯蒂安·贝兹=>zh-mo:塞巴斯蒂安·巴耶斯;"
     },
     {
       "original": "Sebastián Báez",
-      "conv": "塞巴斯蒂安·贝兹=>zh-cn:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·贝兹=>zh-sg:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·贝兹=>zh-my:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·贝兹=>zh-tw:塞巴斯蒂安·巴艾茲;塞巴斯蒂安·贝兹=>zh-hk:塞巴斯蒂安·巴耶斯;塞巴斯蒂安·贝兹=>zh-mo:塞巴斯蒂安·巴耶斯;"
-    },
-    {
-      "original": "Sebastián Báez",
-      "conv": "塞巴斯蒂安·貝茲=>zh-cn:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·貝茲=>zh-sg:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·貝茲=>zh-my:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·貝茲=>zh-tw:塞巴斯蒂安·巴艾茲;塞巴斯蒂安·貝茲=>zh-hk:塞巴斯蒂安·巴耶斯;塞巴斯蒂安·貝茲=>zh-mo:塞巴斯蒂安·巴耶斯;"
+      "conv": "塞巴斯蒂安·貝茲=>zh-cn:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·貝茲=>zh-sg:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·貝茲=>zh-my:塞瓦斯蒂安·巴埃斯;塞巴斯蒂安·貝茲=>zh-tw:塞瓦斯蒂安·巴艾茲;塞巴斯蒂安·貝茲=>zh-hk:塞巴斯蒂安·巴耶斯;塞巴斯蒂安·貝茲=>zh-mo:塞巴斯蒂安·巴耶斯;"
     },
     {
       "original": "Sebastián Báez",
@@ -69,7 +69,7 @@
     },
     {
       "original": "Báez",
-      "conv": "zh-hans:巴埃斯;zh-tw:巴艾茲;zh-hk:巴耶斯;"
+      "conv": "zh-hans:巴埃斯;zh-hk:巴耶斯;zh-tw:巴艾茲;"
     },
     {
       "original": "Baghdatis",
@@ -78,6 +78,10 @@
     {
       "original": "Becker",
       "conv": "zh-cn:贝克尔;zh-hk:碧加;zh-tw:貝克;"
+    },
+    {
+      "original": "Benjamin",
+      "conv": "zh-cn:本杰明;zh-hk:班哲文;zh-tw:班傑明;"
     },
     {
       "original": "Berdych",
@@ -101,7 +105,15 @@
     },
     {
       "original": "Bob",
-      "conv": "zh-cn:鲍勃;zh-tw: 鮑伯;"
+      "conv": "zh-cn:鲍勃;zh-tw:鮑伯;"
+    },
+    {
+      "original": "Rohan Bopanna",
+      "conv": "罗翰·波柏纳=>zh-cn:罗汉·波帕纳;罗翰·波柏纳=>zh-sg:罗汉·波帕纳;罗翰·波柏纳=>zh-my:罗汉·波帕纳;罗翰·波柏纳=>zh-tw:羅漢·波帕納;罗翰·波柏纳=>zh-hk:羅漢·保彭拿;"
+    },
+    {
+      "original": "Bopanna",
+      "conv": "波柏纳=>zh-cn:波帕纳;波柏纳=>zh-sg:波帕纳;波柏纳=>zh-my:波帕纳;波柏纳=>zh-tw:波帕納;波柏纳=>zh-hk:保彭拿;"
     },
     {
       "original": "Björn Borg",
@@ -112,32 +124,36 @@
       "conv": "zh-cn:博里;zh-hk:波格;zh-tw:伯格;"
     },
     {
-      "original": "Boulter",
-      "conv": "zh-hk:波爾達; zh-hant:博爾特; zh-hans:博尔特;"
-    },
-    {
       "original": "Bruguera",
       "conv": "zh-cn:布鲁格拉;zh-hk:卜季拿;zh-tw:布魯蓋拉;"
     },
     {
       "original": "Bryan",
-      "conv": "zh-cn:布赖恩;zh-tw:布萊恩;zh-hk:拜仁;"
+      "conv": "zh-cn:布赖恩;zh-hk:拜仁;zh-tw:布萊恩;"
     },
     {
       "original": "Bublik",
       "conv": "zh-hans:布勃利克;zh-hant:巴伯里克;"
     },
     {
-      "original": "Carballés Baena",
-      "conv": "zh-hans:卡瓦列斯·巴埃纳;zh-tw:卡巴列斯·巴埃納;"
+      "original": "Cameron",
+      "conv": "zh-hans:卡梅伦;zh-hk:金馬倫;zh-tw:卡麥隆;"
     },
     {
       "original": "Carballés Baena",
-      "conv": "卡巴列罗·巴耶纳=>zh-cn:卡瓦列斯·巴埃纳;卡巴列罗·巴耶纳=>zh-sg:卡瓦列斯·巴埃纳;卡巴列罗·巴耶纳=>zh-my:卡瓦列斯·巴埃纳;卡巴列罗·巴耶纳=>zh-tw:卡巴列斯·巴埃納;"
+      "conv": "卡巴列罗·巴耶纳=>zh-cn:卡瓦列斯·巴埃纳;卡巴列罗·巴耶纳=>zh-sg:卡瓦列斯·巴埃纳;卡巴列罗·巴耶纳=>zh-my:卡瓦列斯·巴埃纳;卡巴列罗·巴耶纳=>zh-tw:卡瓦列斯·巴埃納;"
     },
     {
       "original": "Carballés Baena",
-      "conv": "卡巴列羅·巴耶納=>zh-cn:卡瓦列斯·巴埃纳;卡巴列羅·巴耶納=>zh-sg:卡瓦列斯·巴埃纳;卡巴列羅·巴耶納=>zh-my:卡瓦列斯·巴埃纳;卡巴列羅·巴耶納=>zh-tw:卡巴列斯·巴埃納;"
+      "conv": "卡巴列羅·巴耶納=>zh-cn:卡瓦列斯·巴埃纳;卡巴列羅·巴耶納=>zh-sg:卡瓦列斯·巴埃纳;卡巴列羅·巴耶納=>zh-my:卡瓦列斯·巴埃纳;卡巴列羅·巴耶納=>zh-tw:卡瓦列斯·巴埃納;"
+    },
+    {
+      "original": "Baena",
+      "conv": "巴耶纳=>zh-cn:巴埃纳;巴耶纳=>zh-my:巴埃纳;巴耶纳=>zh-sg:巴埃纳;巴耶纳=>zh-tw:巴埃納;"
+    },
+    {
+      "original": "Carlos",
+      "conv": "zh-cn:卡洛斯;zh-hk:卡路士;zh-tw:卡洛斯;"
     },
     {
       "original": "Cash",
@@ -160,6 +176,10 @@
       "conv": "zh-cn:克莱门特;zh-hk:基文迪;zh-tw:克萊門特;zh-hans:克莱芒;"
     },
     {
+      "original": "Cobolli",
+      "conv": "zh-cn:科博利;zh-hk:高保利;zh-tw:科博利;"
+    },
+    {
       "original": "Connors",
       "conv": "zh-cn:康诺尔斯;zh-hk:干納斯;zh-tw:康諾斯;"
     },
@@ -169,7 +189,7 @@
     },
     {
       "original": "Ćorić",
-      "conv": "zh-hans:乔里奇;zh-tw:丘里奇;zh-hk:哥歷;"
+      "conv": "zh-hans:乔里奇;zh-hk:哥歷;zh-tw:丘里奇;"
     },
     {
       "original": "Costa",
@@ -201,35 +221,39 @@
     },
     {
       "original": "Davydenko",
-      "conv": "zh-cn:达维登科;zh-hk:迪維丹高;zh-tw:達維登科;"
+      "conv": "zh-cn:达维坚科;zh-hk:迪維丹高;zh-tw:達維堅科;"
+    },
+    {
+      "original": "Davydenko",
+      "conv": "达维登科=>zh-cn:达维坚科;达维登科=>zh-sg:达维坚科;达维登科=>zh-my:达维坚科;达维登科=>zh-tw:達維堅科;达维登科=>zh-hk:迪維丹高;"
     },
     {
       "original": "Alex de Minaur",
-      "conv": "阿莱克斯·德·米瑙尔=>zh-cn:亚历克斯·德米纳尔;阿莱克斯·德·米瑙尔=>zh-sg:亚历克斯·德米纳尔;阿莱克斯·德·米瑙尔=>zh-my:亚历克斯·德米纳尔;"
+      "conv": "阿莱克斯·德·米瑙尔=>zh-cn:亚历克斯·德米纳尔;阿莱克斯·德·米瑙尔=>zh-sg:亚历克斯·德米纳尔;阿莱克斯·德·米瑙尔=>zh-my:亚历克斯·德米纳尔;阿莱克斯·德·米瑙尔=>zh-tw:艾力克斯·德米瑙爾;阿莱克斯·德·米瑙尔=>zh-hk:艾力士·迪文拿奧;"
     },
     {
       "original": "Alex de Minaur",
-      "conv": "阿萊克斯·德·米瑙爾=>zh-cn:亚历克斯·德米纳尔;阿萊克斯·德·米瑙爾=>zh-sg:亚历克斯·德米纳尔;阿萊克斯·德·米瑙爾=>zh-my:亚历克斯·德米纳尔;"
+      "conv": "阿萊克斯·德·米瑙爾=>zh-cn:亚历克斯·德米纳尔;阿萊克斯·德·米瑙爾=>zh-sg:亚历克斯·德米纳尔;阿萊克斯·德·米瑙爾=>zh-my:亚历克斯·德米纳尔;阿萊克斯·德·米瑙爾=>zh-tw:艾力克斯·德米瑙爾;阿萊克斯·德·米瑙爾=>zh-hk:艾力士·迪文拿奧;"
     },
     {
       "original": "Alex de Minaur",
-      "conv": "阿莱克斯·德米瑙尔=>zh-cn:亚历克斯·德米纳尔;阿莱克斯·德米瑙尔=>zh-sg:亚历克斯·德米纳尔;阿莱克斯·德米瑙尔=>zh-my:亚历克斯·德米纳尔;"
+      "conv": "阿莱克斯·德米瑙尔=>zh-cn:亚历克斯·德米纳尔;阿莱克斯·德米瑙尔=>zh-sg:亚历克斯·德米纳尔;阿莱克斯·德米瑙尔=>zh-my:亚历克斯·德米纳尔;阿莱克斯·德米瑙尔=>zh-tw:艾力克斯·德米瑙爾;阿莱克斯·德米瑙尔=>zh-hk:艾力士·迪文拿奧;"
     },
     {
       "original": "Alex de Minaur",
-      "conv": "阿萊克斯·德米瑙爾=>zh-cn:亚历克斯·德米纳尔;阿萊克斯·德米瑙爾=>zh-sg:亚历克斯·德米纳尔;阿萊克斯·德米瑙爾=>zh-my:亚历克斯·德米纳尔;"
+      "conv": "阿萊克斯·德米瑙爾=>zh-cn:亚历克斯·德米纳尔;阿萊克斯·德米瑙爾=>zh-sg:亚历克斯·德米纳尔;阿萊克斯·德米瑙爾=>zh-my:亚历克斯·德米纳尔;阿萊克斯·德米瑙爾=>zh-tw:艾力克斯·德米瑙爾;阿萊克斯·德米瑙爾=>zh-hk:艾力士·迪文拿奧;"
     },
     {
       "original": "de Minaur",
-      "conv": "zh-hans:德米纳尔;zh-tw:德米瑙爾;zh-hk:迪文拿奧;"
+      "conv": "zh-hans:德米纳尔;zh-hk:迪文拿奧;zh-tw:德米瑙爾;"
     },
     {
       "original": "de Minaur",
-      "conv": "德·米瑙尔=>zh-cn:德米纳尔;德·米瑙尔=>zh-sg:德米纳尔;德·米瑙尔=>zh-my:德米纳尔;德·米瑙尔=>zh-hk:迪文拿奧;"
+      "conv": "德·米瑙尔=>zh-cn:德米纳尔;德·米瑙尔=>zh-sg:德米纳尔;德·米瑙尔=>zh-my:德米纳尔;德·米瑙尔=>zh-tw:德米瑙爾;德·米瑙尔=>zh-hk:迪文拿奧;"
     },
     {
       "original": "de Minaur",
-      "conv": "德·米瑙爾=>zh-cn:德米纳尔;德·米瑙爾=>zh-sg:德米纳尔;德·米瑙爾=>zh-my:德米纳尔;德·米瑙爾=>zh-hk:迪文拿奧;"
+      "conv": "德·米瑙爾=>zh-cn:德米纳尔;德·米瑙爾=>zh-sg:德米纳尔;德·米瑙爾=>zh-my:德米纳尔;德·米瑙爾=>zh-tw:德米瑙爾;德·米瑙爾=>zh-hk:迪文拿奧;"
     },
     {
       "original": "de Minaur",
@@ -237,7 +261,11 @@
     },
     {
       "original": "del Potro",
-      "conv": "zh-cn:德尔波特罗;zh-hk:迪普祖;zh-tw:戴波特羅;"
+      "conv": "zh-cn:德尔波特罗;zh-hk:迪普祖;zh-tw:戴波特羅;zh-hant:德爾波特羅;"
+    },
+    {
+      "original": "Diallo",
+      "conv": "zh-cn:迪亚洛;zh-hk:迪亞路;zh-tw:迪亞洛;"
     },
     {
       "original": "Diego",
@@ -249,7 +277,7 @@
     },
     {
       "original": "Dimitrov",
-      "conv": "zh-hans:迪米特罗夫;zh-tw:狄米特羅夫;zh-hk:迪米杜夫;"
+      "conv": "zh-hans:迪米特罗夫;zh-hk:迪米杜夫;zh-tw:狄米特羅夫;"
     },
     {
       "original": "Dimitrov",
@@ -262,6 +290,10 @@
     {
       "original": "Djokovic",
       "conv": "zh-cn:德约科维奇;zh-sg:乔科维奇;zh-my:德约科维奇;zh-tw:喬科維奇;zh-hk:祖高域;zh-mo:迪祖高域;"
+    },
+    {
+      "original": "Draper",
+      "conv": "zh-cn:德雷珀;zh-hk:德拉柏;zh-tw:德雷珀;"
     },
     {
       "original": "Đere",
@@ -280,12 +312,20 @@
       "conv": "zh-hans:罗伊·爱默生;zh-hk:萊·艾馬臣;zh-tw:羅伊·愛默生;"
     },
     {
+      "original": "Etcheverry",
+      "conv": "zh-cn:埃切韦里;zh-hk:艾卓華利;zh-tw:艾切維利;"
+    },
+    {
+      "original": "Evans",
+      "conv": "zh-cn:埃文斯;zh-hk:伊雲斯;zh-tw:伊凡斯;"
+    },
+    {
       "original": "Federer",
       "conv": "zh-cn:费德勒;zh-hk:費達拿;zh-tw:費德勒;"
     },
     {
       "original": "Fernando",
-      "conv": "zh-cn:费尔南多;zh-hk:費蘭度;zh-tw:費南多;"
+      "conv": "zh-cn:费尔南多;zh-hk:費蘭度;zh-tw:費南多;zh-hant:費爾南多;"
     },
     {
       "original": "Ferrer",
@@ -300,16 +340,16 @@
       "conv": "zh-cn:费什;zh-hk:費殊;zh-tw:費許;"
     },
     {
-      "original": "Fritz",
-      "conv": "zh-hans:弗里茨;zh-tw:佛里茲;zh-hk:費歷斯;"
+      "original": "Fonseca",
+      "conv": "zh-cn:丰塞卡;zh-hk:方錫卡;zh-tw:豐塞卡;"
     },
     {
       "original": "Fritz",
-      "conv": "弗里茨=>zh-mo:費斯;佛里茲=>zh-mo:費斯;費歷斯=>zh-mo:費斯;"
+      "conv": "zh-hans:弗里茨;zh-tw:佛里茲;zh-hk:費歷斯;zh-mo:費斯;"
     },
     {
       "original": "Fucsovics",
-      "conv": "zh-hans:富乔维奇;zh-tw:法索維克斯;zh-hk:福索維斯;"
+      "conv": "zh-hans:富乔维奇;zh-hk:福索維斯;zh-tw:法索維克斯;"
     },
     {
       "original": "Fucsovics",
@@ -333,19 +373,35 @@
     },
     {
       "original": "Gomez",
-      "conv": "zh-cn:戈麦斯;zh-hk:高美斯;zh-tw:戈梅斯;"
+      "conv": "zh-cn:戈麦斯;zh-hk:高美斯;zh-tw:戈梅茲;"
     },
     {
       "original": "González",
-      "conv": "zh-cn:冈萨雷斯;zh-hk:干沙里斯;zh-tw:岡薩雷茲;"
+      "conv": "zh-cn:冈萨雷斯;zh-hk:干沙里斯;zh-tw:岡薩雷茲;zh-hant:岡薩雷斯;"
     },
     {
-      "original": "Grigor",
-      "conv": "zh-cn:格里戈尔;zh-hk:格里戈爾;zh-tw:格里戈爾;"
+      "original": "Granollers",
+      "conv": "zh-cn:格拉诺列尔斯;zh-hk:加挪勒斯;zh-tw:葛拉諾勒;zh-hant:格拉諾列爾斯;"
+    },
+    {
+      "original": "Granollers",
+      "conv": "格拉諾勒斯=>zh-cn:格拉诺列尔斯;格拉諾勒斯=>zh-sg:格拉诺列尔斯;格拉諾勒斯=>zh-my:格拉诺列尔斯;格拉諾勒斯=>zh-tw:葛拉諾勒;格拉諾勒斯=>zh-hk:加挪勒斯;"
+    },
+    {
+      "original": "Griekspoor",
+      "conv": "zh-cn:格里克斯波尔;zh-hk:希斯博;zh-tw:葛利克史普;zh-hant:格里克斯波爾;"
+    },
+    {
+      "original": "Griekspoor",
+      "conv": "格里科斯普=>zh-cn:格里克斯波尔;格里科斯普=>zh-sg:格里克斯波尔;格里科斯普=>zh-my:格里克斯波尔;格里科斯普=>zh-tw:葛利克史普;格里科斯普=>zh-hk:希斯博;"
     },
     {
       "original": "Grosjean",
-      "conv": "zh-cn:格罗斯让;zh-hk:哥斯贊;zh-tw:格羅讓;"
+      "conv": "zh-cn:格罗让;zh-hk:哥斯贊;zh-tw:格羅讓;"
+    },
+    {
+      "original": "Grosjean",
+      "conv": "格罗斯让=>zh-cn:格罗让;格罗斯让=>zh-sg:格罗让;格罗斯让=>zh-my:格罗让;"
     },
     {
       "original": "Lloyd Harris",
@@ -357,15 +413,15 @@
     },
     {
       "original": "Hewitt",
-      "conv": "zh-cn:休伊特;zh-hk:曉域;zh-tw:休伊特;zh-tw:休威特;"
+      "conv": "zh-cn:休伊特;zh-hk:曉域;zh-tw:修威特;"
     },
     {
       "original": "Hubert Hurkacz",
-      "conv": "休伯特·胡尔卡奇=>zh-cn:胡贝特·胡尔卡奇;休伯特·胡尔卡奇=>zh-sg:胡贝特·胡尔卡奇;休伯特·胡尔卡奇=>zh-my:胡贝特·胡尔卡奇;"
+      "conv": "休伯特·胡尔卡奇=>zh-cn:胡贝特·胡尔卡奇;休伯特·胡尔卡奇=>zh-sg:胡贝特·胡尔卡奇;休伯特·胡尔卡奇=>zh-my:胡贝特·胡尔卡奇;休伯特·胡尔卡奇=>zh-tw:胡貝特·胡爾卡奇;"
     },
     {
       "original": "Hubert Hurkacz",
-      "conv": "休伯特·胡爾卡奇=>zh-cn:胡贝特·胡尔卡奇;休伯特·胡爾卡奇=>zh-sg:胡贝特·胡尔卡奇;休伯特·胡爾卡奇=>zh-my:胡贝特·胡尔卡奇;"
+      "conv": "休伯特·胡爾卡奇=>zh-cn:胡贝特·胡尔卡奇;休伯特·胡爾卡奇=>zh-sg:胡贝特·胡尔卡奇;休伯特·胡爾卡奇=>zh-my:胡贝特·胡尔卡奇;休伯特·胡尔卡奇=>zh-tw:胡貝特·胡爾卡奇;"
     },
     {
       "original": "Hurkacz",
@@ -400,8 +456,16 @@
       "conv": "伊华舒卡=>zh-cn:伊瓦什卡;伊华舒卡=>zh-sg:伊瓦什卡;伊华舒卡=>zh-my:伊瓦什卡;"
     },
     {
+      "original": "Jack",
+      "conv": "zh-cn:杰克;zh-hk:積克;zh-tw:傑克;"
+    },
+    {
       "original": "Nicolás Jarry",
       "conv": "尼可拉斯·雅里=>zh-cn:尼古拉斯·雅里;尼可拉斯·雅里=>zh-sg:尼古拉斯·雅里;尼可拉斯·雅里=>zh-my:尼古拉斯·雅里;尼可拉斯·雅里=>zh-tw:尼古拉斯·賈瑞;"
+    },
+    {
+      "original": "Jarry",
+      "conv": "zh-hans:雅里;zh-hk:謝利;zh-tw:賈瑞;"
     },
     {
       "original": "Jimmy",
@@ -420,6 +484,10 @@
       "conv": "zh-cn:托马斯·约翰松;zh-hk:T祖漢臣;zh-tw:托馬斯·約翰森;"
     },
     {
+      "original": "Jordan",
+      "conv": "zh-cn:乔丹;zh-hk:佐敦;zh-tw:喬丹;"
+    },
+    {
       "original": "Jürgen",
       "conv": "zh-cn:于尔根;zh-tw:尤爾根;"
     },
@@ -433,7 +501,7 @@
     },
     {
       "original": "Kecmanović",
-      "conv": "zh-hans:凯茨曼诺维奇;zh-tw:凱柯曼諾維奇;zh-hk:基斯曼奴域;"
+      "conv": "zh-hans:凯茨曼诺维奇;zh-hk:基斯曼奴域;zh-tw:凱柯曼諾維奇;"
     },
     {
       "original": "Kecmanović",
@@ -449,7 +517,7 @@
     },
     {
       "original": "Khachanov",
-      "conv": "zh-hans:哈恰诺夫;zh-hant:哈查諾夫;"
+      "conv": "zh-hans:哈恰诺夫;zh-hk:卡真洛夫;zh-tw:哈查諾夫;"
     },
     {
       "original": "Kiefer",
@@ -461,7 +529,7 @@
     },
     {
       "original": "Korda",
-      "conv": "zh-hans:科达;zh-tw:柯達;zh-hk:哥達;"
+      "conv": "zh-hans:科达;zh-hk:哥達;zh-tw:柯達;"
     },
     {
       "original": "Korda",
@@ -473,7 +541,11 @@
     },
     {
       "original": "Krajicek",
-      "conv": "zh-cn:克拉伊切克;zh-hk:加逸錫;zh-tw:克萊切克;"
+      "conv": "zh-cn:克拉伊切克;zh-hk:加逸錫;zh-tw:克拉伊切克;"
+    },
+    {
+      "original": "Krajicek",
+      "conv": "克拉吉塞克=>zh-cn:克拉伊切克;克拉吉塞克=>zh-my:克拉伊切克;克拉吉塞克=>zh-sg:克拉伊切克;克拉吉塞克=>zh-hk:加逸錫;克拉吉塞克=>zh-tw:克拉伊切克;"
     },
     {
       "original": "Jason Kubler",
@@ -489,23 +561,27 @@
     },
     {
       "original": "Kyrgios",
-      "conv": "zh-hans:克耶高斯;zh-tw:基里奧斯;zh-hk:基域奧斯;"
+      "conv": "zh-hans:克耶高斯;zh-hk:基域奧斯;zh-tw:基里奧斯;"
     },
     {
       "original": "Kyrgios",
-      "conv": "基里奥斯=>zh-cn:克耶高斯;基里奥斯=>zh-sg:克耶高斯;基里奥斯=>zh-my:克耶高斯;基里奥斯=>zh-hk:基域奧斯;基里奥斯=>zh-mo:基域奧斯;"
+      "conv": "基里奥斯=>zh-cn:克耶高斯;基里奥斯=>zh-sg:克耶高斯;基里奥斯=>zh-my:克耶高斯;基里奥斯=>zh-tw:基里奧斯;基里奥斯=>zh-hk:基域奧斯;基里奥斯=>zh-mo:基域奧斯;"
+    },
+    {
+      "original": "Krawietz",
+      "conv": "zh-cn:克拉维茨;zh-tw:克拉維茲;"
     },
     {
       "original": "Laver",
-      "conv": "zh-hans:拉沃尔;zh-tw:拉沃;zh-hk:利華;"
+      "conv": "zh-hans:拉沃尔;zh-hk:利華;zh-tw:拉沃;"
     },
     {
       "original": "Leconte",
-      "conv": "zh-hk:利干特;zh-cn:李康特;zh-tw:李康特;"
+      "conv": "zh-cn:李康特;zh-hk:利干特;zh-tw:李康特;"
     },
     {
       "original": "Lehečka",
-      "conv": "zh-hans:莱赫奇卡;zh-tw:萊赫茨卡;zh-hk:利赫捷卡;"
+      "conv": "zh-hans:莱赫奇卡;zh-hk:利赫捷卡;zh-tw:萊赫茨卡;"
     },
     {
       "original": "Lendl",
@@ -518,6 +594,10 @@
     {
       "original": "López",
       "conv": "zh-cn:洛佩斯;zh-hk:盧比斯;zh-tw:羅培茲;"
+    },
+    {
+      "original": "Lorenzo",
+      "conv": "zh-cn:洛伦佐;zh-hk:羅倫素;zh-tw:羅倫佐;zh-hant:洛倫佐;"
     },
     {
       "original": "Mahut",
@@ -533,7 +613,7 @@
     },
     {
       "original": "Mannarino",
-      "conv": "zh-hans:马纳里诺;zh-tw:馬納里諾;zh-hk:文拿連奴;"
+      "conv": "zh-hans:马纳里诺;zh-hk:文拿連奴;zh-tw:馬納里諾;"
     },
     {
       "original": "Mannarino",
@@ -544,6 +624,10 @@
       "conv": "曼納里諾=>zh-cn:马纳里诺;曼納里諾=>zh-sg:马纳里诺;曼納里諾=>zh-my:马纳里诺;曼納里諾=>zh-tw:馬納里諾;曼納里諾=>zh-hk:文拿連奴;曼納里諾=>zh-mo:文拿連奴;"
     },
     {
+      "original": "Marozsán",
+      "conv": "zh-cn:毛罗然;zh-hk:馬路辛;zh-tw:毛羅然;"
+    },
+    {
       "original": "McEnroe",
       "conv": "zh-cn:麦肯罗;zh-hk:麥根萊;zh-tw:馬克安諾;zh-hant:麥肯羅;"
     },
@@ -552,12 +636,28 @@
       "conv": "zh-cn:梅尔泽;zh-hk:梅爾策;zh-tw:梅爾策;"
     },
     {
+      "original": "Medvedev",
+      "conv": "zh-hans:梅德韦杰夫;zh-hk:麥維迪夫;zh-tw:梅德韋傑夫;"
+    },
+    {
+      "original": "Menšík",
+      "conv": "zh-hans:门希克;zh-hk:文錫;zh-tw:門希克;"
+    },
+    {
+      "original": "Michelsen",
+      "conv": "zh-cn:米切尔森;zh-hk:麥基臣;zh-tw:米歇爾森;"
+    },
+    {
       "original": "Mmoh",
       "conv": "莫阿=>zh-cn:莫;莫阿=>zh-my:莫;莫阿=>zh-sg:莫;"
     },
     {
       "original": "Monfils",
-      "conv": "zh-hans:孟菲尔斯;zh-tw:蒙菲爾斯;zh-hk:蒙菲斯;"
+      "conv": "zh-hans:孟菲尔斯;zh-hk:蒙菲斯;zh-tw:蒙菲爾斯;"
+    },
+    {
+      "original": "Moutet",
+      "conv": "zh-hans:穆泰;zh-hk:穆迪;zh-tw:穆特;"
     },
     {
       "original": "Molčan",
@@ -568,20 +668,24 @@
       "conv": "若姆·穆纳尔=>zh-cn:豪梅·穆纳尔;若姆·穆纳尔=>zh-sg:豪梅·穆纳尔;若姆·穆纳尔=>zh-my:豪梅·穆纳尔;若姆·穆纳尔=>zh-tw:豪梅·穆納爾;"
     },
     {
+      "original": "Munar",
+      "conv": "zh-cn:穆纳尔;zh-hk:蒙拿;zh-tw:穆納爾;"
+    },
+    {
       "original": "Murray",
       "conv": "zh-cn:穆雷;zh-hk:梅利;zh-tw:莫瑞;"
+    },
+    {
+      "original": "Musetti",
+      "conv": "zh-hans:穆塞蒂;zh-tw:穆薩提;zh-hk:姆錫迪;zh-mo:梅斯迪;"
     },
     {
       "original": "Muster",
       "conv": "zh-cn:穆斯特;zh-hk:梅士達;zh-tw:穆斯特;"
     },
     {
-      "original": "Alexandre Müller",
-      "conv": "zh-hans:亚历山大·米勒;zh-tw:亞歷山大·穆勒;"
-    },
-    {
-      "original": "Alexandre Müller",
-      "conv": "亚历山大·穆勒=>zh-cn:亚历山大·米勒;亚历山大·穆勒=>zh-sg:亚历山大·米勒;亚历山大·穆勒=>zh-my:亚历山大·米勒;"
+      "original": "Müller",
+      "conv": "zh-hans:米勒;zh-hk:慕拿;zh-tw:穆勒;"
     },
     {
       "original": "Nadal",
@@ -589,11 +693,11 @@
     },
     {
       "original": "Nalbandian",
-      "conv": "zh-hk:納賓迪安;zh-cn:纳尔班迪安;zh-tw:納班迪安;"
+      "conv": "zh-cn:纳尔班迪安;zh-hk:納賓迪安;zh-tw:納班迪安;"
     },
     {
       "original": "Nieminen",
-      "conv": "zh-hk:尼米倫;zh-cn:涅米宁;zh-tw:尼米南;"
+      "conv": "zh-cn:涅米宁;zh-hk:尼米倫;zh-tw:尼米南;"
     },
     {
       "original": "Cameron Norrie",
@@ -605,11 +709,15 @@
     },
     {
       "original": "Norrie",
-      "conv": "zh-hans:诺里;zh-tw:諾瑞;"
+      "conv": "zh-hans:诺里;zh-hk:諾利;zh-tw:諾瑞;"
     },
     {
       "original": "Novak",
-      "conv": "zh-hk:諾華克;zh-cn:诺瓦克;zh-tw:諾瓦克;"
+      "conv": "zh-cn:诺瓦克;zh-hk:諾華克;zh-tw:諾瓦克;"
+    },
+    {
+      "original": "Opelka",
+      "conv": "zh-cn:奥佩尔卡;zh-hk:奧普卡;zh-tw:奧裴卡;"
     },
     {
       "original": "Paire",
@@ -617,7 +725,7 @@
     },
     {
       "original": "Tommy Paul",
-      "conv": "zh-hans:汤米·保罗;zh-tw:托米·保羅;zh-hk:湯美·保羅;"
+      "conv": "zh-hans:汤米·保罗;zh-hk:湯美·保羅;zh-tw:托米·保羅;"
     },
     {
       "original": "Perry",
@@ -629,7 +737,7 @@
     },
     {
       "original": "Prižmić",
-      "conv": "zh-hans:普里兹米奇;zh-tw:普里茲米奇;zh-hk:柏斯美;"
+      "conv": "zh-hans:普里兹米奇;zh-hk:柏斯美;zh-tw:普里茲米奇;"
     },
     {
       "original": "Rafter",
@@ -644,20 +752,8 @@
       "conv": "阿爾伯特·拉莫斯=>zh-cn:阿尔韦特·拉莫斯;阿爾伯特·拉莫斯=>zh-sg:阿尔韦特·拉莫斯;阿爾伯特·拉莫斯=>zh-my:阿尔韦特·拉莫斯;"
     },
     {
-      "original": "Arthur Rinderknech",
-      "conv": "zh-hans:阿蒂尔·林德克内希;zh-tw:亞瑟·瑞德克內希;"
-    },
-    {
-      "original": "Arthur Rinderknech",
-      "conv": "亚瑟·瑞德克内希=>zh-cn:阿蒂尔·林德克内希;亚瑟·瑞德克内希=>zh-sg:阿蒂尔·林德克内希;亚瑟·瑞德克内希=>zh-my:阿蒂尔·林德克内希;"
-    },
-    {
       "original": "Rinderknech",
-      "conv": "zh-hans:林德克内希;zh-tw:瑞德克內希;"
-    },
-    {
-      "original": "Rinderknech",
-      "conv": "瑞德克内希=>zh-cn:林德克内希;瑞德克内希=>zh-sg:林德克内希;瑞德克内希=>zh-my:林德克内希;"
+      "conv": "zh-cn:林德克内希;zh-hk:連達克利殊;zh-tw:林德克內希;"
     },
     {
       "original": "Ríos",
@@ -672,32 +768,48 @@
       "conv": "zh-cn:罗迪克;zh-hk:洛迪克;zh-tw:羅迪克;"
     },
     {
-      "original": "Roger",
-      "conv": "zh-cn:罗杰;zh-hk:羅傑;zh-tw:羅傑;"
-    },
-    {
       "original": "Rosset",
       "conv": "zh-cn:罗塞特;zh-hk:羅錫;zh-tw:羅塞特;"
     },
     {
       "original": "Rusedski",
-      "conv": "zh-hk:魯錫斯基;zh-cn:鲁塞德斯基;zh-tw:魯塞斯基;"
+      "conv": "zh-cn:鲁塞德斯基;zh-hk:魯錫斯基;zh-tw:魯塞斯基;"
     },
     {
       "original": "Raonic",
-      "conv": "zh-hk:拉奧歷;zh-cn:劳尼奇;zh-tw:拉奧尼奇;"
+      "conv": "zh-cn:劳尼奇;zh-hk:拉奧歷;zh-tw:拉奧尼奇;"
     },
     {
       "original": "Rublev",
       "conv": "zh-hans:卢布列夫;zh-tw:盧布列夫;zh-hk:盧比利夫;zh-mo:路比夫;"
     },
     {
+      "original": "Rublev",
+      "conv": "魯布列夫=>zh-cn:卢布列夫;魯布列夫=>zh-sg:卢布列夫;魯布列夫=>zh-my:卢布列夫;魯布列夫=>zh-tw:盧布列夫;魯布列夫=>zh-hk:盧比利夫;魯布列夫=>zh-mo:路比夫;"
+    },
+    {
+      "original": "Rublev",
+      "conv": "鲁布列夫=>zh-cn:卢布列夫;鲁布列夫=>zh-sg:卢布列夫;鲁布列夫=>zh-my:卢布列夫;鲁布列夫=>zh-tw:盧布列夫;鲁布列夫=>zh-hk:盧比利夫;鲁布列夫=>zh-mo:路比夫;"
+    },
+    {
+      "original": "Rune",
+      "conv": "zh-hans:鲁内;zh-hk:魯尼;zh-tw:魯內;"
+    },
+    {
+      "original": "Ruud",
+      "conv": "zh-hans:鲁德;zh-hk:魯迪;zh-tw:魯德;"
+    },
+    {
+      "original": "Ryan",
+      "conv": "zh-cn:瑞安;zh-hk:賴恩;zh-tw:萊恩;zh-sg:莱恩;"
+    },
+    {
       "original": "Safin",
-      "conv": "zh-hk:沙芬;zh-cn:萨芬;zh-tw:沙芬;"
+      "conv": "zh-cn:萨芬;zh-hk:沙芬;zh-tw:沙芬;"
     },
     {
       "original": "Sampras",
-      "conv": "zh-hk:森柏斯;zh-cn:桑普拉斯;zh-tw:山普拉斯;"
+      "conv": "zh-cn:桑普拉斯;zh-hk:森柏斯;zh-tw:山普拉斯;"
     },
     {
       "original": "Santoro",
@@ -705,7 +817,7 @@
     },
     {
       "original": "Schwartzman",
-      "conv": "zh-hans:施瓦茨曼;zh-tw:史瓦茲曼;zh-hk:舒華斯文;"
+      "conv": "zh-hans:施瓦茨曼;zh-hk:舒華斯文;zh-tw:史瓦茲曼;"
     },
     {
       "original": "Schwartzman",
@@ -716,12 +828,28 @@
       "conv": "施瓦茲曼=>zh-cn:施瓦茨曼;施瓦茲曼=>zh-sg:施瓦茨曼;施瓦茲曼=>zh-my:施瓦茨曼;施瓦茲曼=>zh-tw:史瓦茲曼;施瓦茲曼=>zh-hk:舒華斯文;施瓦茲曼=>zh-mo:舒華斯文;"
     },
     {
-      "original": "Jannik Sinner",
-      "conv": "詹尼克·辛纳=>zh-cn:扬尼克·辛纳;詹尼克·辛纳=>zh-sg:扬尼克·辛纳;詹尼克·辛纳=>zh-my:扬尼克·辛纳;"
+      "original": "Shapovalov",
+      "conv": "zh-cn:沙波瓦洛夫;zh-hk:沙普華路夫;zh-tw:沙波瓦洛夫;"
+    },
+    {
+      "original": "Ben Shelton",
+      "conv": "zh-cn:谢尔顿;zh-hk:舒爾頓;zh-tw:謝爾頓;"
+    },
+    {
+      "original": "Shelton",
+      "conv": "zh-cn:本·谢尔顿;zh-hk:班·舒爾頓;zh-tw:班·謝爾頓;"
     },
     {
       "original": "Jannik Sinner",
-      "conv": "詹尼克·辛納=>zh-cn:扬尼克·辛纳;詹尼克·辛納=>zh-sg:扬尼克·辛纳;詹尼克·辛納=>zh-my:扬尼克·辛纳;"
+      "conv": "詹尼克·辛纳=>zh-cn:扬尼克·辛纳;詹尼克·辛纳=>zh-sg:扬尼克·辛纳;詹尼克·辛纳=>zh-my:扬尼克·辛纳;詹尼克·辛纳=>zh-tw:揚尼克·辛納;詹尼克·辛纳=>zh-hk:贊歷·冼拿;詹尼克·辛纳=>zh-mo:贊歷·辛拿"
+    },
+    {
+      "original": "Jannik Sinner",
+      "conv": "詹尼克·辛納=>zh-cn:扬尼克·辛纳;詹尼克·辛納=>zh-sg:扬尼克·辛纳;詹尼克·辛納=>zh-my:扬尼克·辛纳;詹尼克·辛納=>zh-tw:揚尼克·辛納;詹尼克·辛納=>zh-hk:贊歷·冼拿;詹尼克·辛納=>zh-mo:贊歷·辛拿"
+    },
+    {
+      "original": "Jannik",
+      "conv": "zh-hans:扬尼克;zh-hk:贊歷;zh-tw:揚尼克;"
     },
     {
       "original": "Sinner",
@@ -729,11 +857,15 @@
     },
     {
       "original": "Söderling",
-      "conv": "zh-tw:索德靈;zh-hk:蘇達寧;zh-cn:索德林;"
+      "conv": "zh-cn:索德林;zh-hk:蘇達寧;zh-tw:索德靈;"
+    },
+    {
+      "original": "Sinner",
+      "conv": "zh-cn:索内戈; zh-hk:蘇利高;zh-tw:索內戈;"
     },
     {
       "original": "Sousa",
-      "conv": "zh-hans:索萨;zh-tw:索沙;zh-hk:蘇沙;"
+      "conv": "zh-hans:索萨;zh-hk:蘇沙;zh-tw:索沙;"
     },
     {
       "original": "João Sousa",
@@ -745,11 +877,15 @@
     },
     {
       "original": "Štěpánek",
-      "conv": "zh-cn:斯捷潘内克;zh-tw:史坦帕尼克;zh-hk:史提潘尼克"
+      "conv": "zh-cn:斯捷潘内克;zh-hk:史提潘尼克;zh-tw:史坦帕尼克;"
     },
     {
       "original": "Stich",
       "conv": "zh-cn:施蒂希;zh-hk:史迪治;zh-tw:史提希;"
+    },
+    {
+      "original": "Struff",
+      "conv": "zh-cn:施特鲁夫;zh-hk:史卓夫;zh-tw:史卓夫;"
     },
     {
       "original": "Alejandro Tabilo",
@@ -768,8 +904,12 @@
       "conv": "法蘭西斯·蒂亞弗=>zh-cn:弗朗西斯·蒂亚福;法蘭西斯·蒂亞弗=>zh-sg:弗朗西斯·蒂亚福;法蘭西斯·蒂亞弗=>zh-my:弗朗西斯·蒂亚福;"
     },
     {
+      "original": "Thompson",
+      "conv": "zh-cn:汤普森;zh-hk:湯臣;zh-tw:湯普森;"
+    },
+    {
       "original": "Tiafoe",
-      "conv": "zh-hans:蒂亚福;zh-tw:提亞佛;zh-hk:迪亞科爾;"
+      "conv": "zh-hans:蒂亚福;zh-hk:迪亞科爾;zh-tw:提亞佛;"
     },
     {
       "original": "Tiafoe",
@@ -781,7 +921,15 @@
     },
     {
       "original": "Tomic",
-      "conv": "zh-tw:湯米奇;zh-cn:托米奇;zh-hk:杜米治;"
+      "conv": "zh-cn:托米奇;zh-hk:杜米治;zh-tw:湯米奇;"
+    },
+    {
+      "original": "Learner Tien",
+      "conv": "zh-cn:勒纳·钱;zh-hk:亮拿·錢;zh-tw:勒納·錢;"
+    },
+    {
+      "original": "Learner Tien",
+      "conv": "勒纳·田=>zh-cn:勒纳·钱;勒纳·田=>zh-sg:勒纳·钱;勒纳·田=>zh-my:勒纳·钱;勒纳·田=>zh-tw:勒納·錢;勒纳·田=>zh-hk:亮拿·錢;"
     },
     {
       "original": "Stefanos Tsitsipas",
@@ -793,11 +941,19 @@
     },
     {
       "original": "Tsonga",
-      "conv": "zh-tw:特松加;zh-cn:特松加;zh-hk:桑加;"
+      "conv": "zh-cn:特松加;zh-hk:桑加;zh-tw:松加;"
+    },
+    {
+      "original": "涂辰立",
+      "conv": "zh-hans:涂辰立;zh-hant:涂辰立;"
+    },
+    {
+      "original": "Ugo",
+      "conv": "zh-hans:于戈;zh-hant:于戈;"
     },
     {
       "original": "Verdasco",
-      "conv": "zh-hk:華達斯高;zh-tw:貝爾達斯科;zh-cn:沃达斯科;"
+      "conv": "zh-cn:沃达斯科;zh-hk:華達斯高;zh-tw:貝爾達斯科;"
     },
     {
       "original": "Botic van de Zandschulp",
@@ -813,23 +969,27 @@
     },
     {
       "original": "Veselý",
-      "conv": "zh-hans:韦塞利;zh-tw:維塞利;zh-hk:維斯利;"
+      "conv": "zh-hans:韦塞利;zh-hk:維斯利;zh-tw:維塞利;"
     },
     {
       "original": "Viñolas",
       "conv": "维诺拉斯=>zh-cn:比尼奥拉斯;维诺拉斯=>zh-sg:比尼奥拉斯;维诺拉斯=>zh-my:比尼奥拉斯;"
     },
     {
+      "original": "Walton",
+      "conv": "zh-hans:沃尔顿;zh-hk:禾頓;zh-tw:沃爾頓"
+    },
+    {
       "original": "Wawrinka",
-      "conv": "zh-hans:瓦林卡;zh-tw:瓦林卡;zh-hk:華連卡;"
+      "conv": "zh-hans:瓦林卡;zh-hk:華連卡;zh-tw:瓦林卡;"
     },
     {
       "original": "Wilander",
-      "conv": "zh-hk:韋蘭特;zh-cn:维兰德;zh-tw:韋蘭德;"
+      "conv": "zh-cn:维兰德;zh-hk:韋蘭特;zh-tw:韋蘭德;"
     },
     {
       "original": "Woodbridge",
-      "conv": "zh-hk:胡比治;zh-cn:伍德布里奇;zh-tw:伍德布里奇;"
+      "conv": "zh-cn:伍德布里奇;zh-hk:胡比治;zh-tw:伍德布里奇;"
     },
     {
       "original": "Todd Woodbridge",
@@ -837,7 +997,7 @@
     },
     {
       "original": "Woodforde",
-      "conv": "zh-hk:胡霍特;zh-cn:伍德福德;zh-tw:伍德福德;"
+      "conv": "zh-cn:伍德福德;zh-hk:胡霍特;zh-tw:伍德福德;"
     },
     {
       "original": "Elias Ymer",
@@ -857,11 +1017,19 @@
     },
     {
       "original": "Youzhny",
-      "conv": "zh-hans:尤日内;zh-tw:尤茲尼;zh-hk:沃切尼;"
+      "conv": "zh-hans:尤日内;zh-hk:沃切尼;zh-tw:尤茲尼;"
     },
     {
       "original": "Bernabé Zapata Miralles",
       "conv": "伯纳贝·萨帕塔·米拉莱斯=>zh-cn:贝尔纳韦·萨帕塔·米拉列斯;伯纳贝·萨帕塔·米拉莱斯=>zh-sg:贝尔纳韦·萨帕塔·米拉列斯;伯纳贝·萨帕塔·米拉莱斯=>zh-my:贝尔纳韦·萨帕塔·米拉列斯;"
+    },
+    {
+      "original": "Zeballos",
+      "conv": "澤巴洛斯=>zh-cn:塞瓦略斯;澤巴洛斯=>zh-sg:塞瓦略斯;澤巴洛斯=>zh-my:塞瓦略斯;澤巴洛斯=>zh-tw:塞瓦略斯;澤巴洛斯=>zh-hk:施巴路斯;"
+    },
+    {
+      "original": "Zeballos",
+      "conv": "泽巴洛斯=>zh-cn:塞瓦略斯;泽巴洛斯=>zh-sg:塞瓦略斯;泽巴洛斯=>zh-my:塞瓦略斯;泽巴洛斯=>zh-tw:塞瓦略斯;泽巴洛斯=>zh-hk:施巴路斯;"
     },
     {
       "original": "Zverev",
@@ -896,6 +1064,10 @@
       "conv": "安德列絲庫=>zh-cn:安德烈埃斯库;安德列絲庫=>zh-sg:安德烈埃斯库;安德列絲庫=>zh-my:安德烈埃斯库;安德列絲庫=>zh-tw:安德烈斯庫;安德列絲庫=>zh-hk:安祖艾絲古;安德列絲庫=>zh-mo:安祖艾絲古;"
     },
     {
+      "original": "Andreeva",
+      "conv": "zh-hk:安祖娃; zh-tw:安德烈耶娃; zh-cn:安德烈耶娃;"
+    },
+    {
       "original": "Azarenka",
       "conv": "zh-cn:阿扎伦卡;zh-hk:艾莎蘭卡;zh-tw:亞薩蓮卡;"
     },
@@ -918,6 +1090,10 @@
     {
       "original": "Bencic",
       "conv": "本西奇=>zh-cn:本契奇;本西奇=>zh-sg:本契奇;本西奇=>zh-my:本契奇;本西奇=>zh-tw:班西琪;本西奇=>zh-hk:賓錫;本西奇=>zh-mo:賓絲;"
+    },
+    {
+      "original": "Boulter",
+      "conv": "zh-hans:博尔特;zh-hk:波爾達; zh-hant:博爾特;"
     },
     {
       "original": "Camelia",
@@ -968,10 +1144,6 @@
       "conv": "zh-cn:希塞拉·杜尔科;zh-tw:吉塞拉·杜爾科;zh-hk:姬絲拉·杜高"
     },
     {
-      "original": "Elizabeth",
-      "conv": "zh-cn:伊丽莎白;zh-tw:伊麗莎白;"
-    },
-    {
       "original": "Errani",
       "conv": "zh-cn:埃拉尼;zh-hk:艾蘭妮;zh-tw:艾拉妮;"
     },
@@ -980,8 +1152,12 @@
       "conv": "zh-cn:埃弗特;zh-hk:艾華特;zh-tw:艾芙特;"
     },
     {
+      "original": "Chris Evert",
+      "conv": "zh-cn:克丽丝·埃弗特;zh-hk:姬絲·艾華特;zh-tw:克莉絲·艾芙特;zh-hant:克里斯·埃弗特;"
+    },
+    {
       "original": "Eugenie Bouchard",
-      "conv": "zh-cn:尤金妮·布沙尔;zh-tw:尤金妮·布夏德;zh-hk:尤金妮·保查特;"
+      "conv": "zh-cn:尤金妮·布沙尔;zh-tw:尤金妮·布夏爾;zh-hk:尤金妮·保查特;"
     },
     {
       "original": "Patty Fendick",
@@ -989,11 +1165,15 @@
     },
     {
       "original": "Gigi Fernández",
-      "conv": "zh-cn:吉吉·费尔南德斯;zh-hk:;zh-tw:吉吉·費南德茲;zh-hk:G費南迪斯;"
+      "conv": "zh-cn:吉吉·费尔南德斯;zh-tw:吉吉·費南德茲;zh-hk:G費南迪斯;"
     },
     {
       "original": "Mary Joe Fernandez",
-      "conv": "zh-hant:瑪麗·喬·費爾南德斯;zh-cn:玛丽·乔·费尔南德斯;zh-hk:;zh-tw:瑪麗·喬·費南德茲;zh-hk:MJ費南迪斯;"
+      "conv": "zh-cn:玛丽·乔·费尔南德斯;zh-tw:瑪麗·喬·費南德茲;zh-hk:MJ費南迪斯;"
+    },
+    {
+      "original": "Fernandez",
+      "conv": "zh-cn:费尔南德斯;zh-tw:費南德茲;zh-hk:費南迪斯;"
     },
     {
       "original": "Brenda Fruhvirtová",
@@ -1052,6 +1232,10 @@
       "conv": "zh-cn:胡贝尔;zh-hk:胡芭;zh-tw:胡珀;"
     },
     {
+      "original": "Hunter",
+      "conv": "zh-cn:亨特;zh-hk:杭特;zh-tw:杭特;"
+    },
+    {
       "original": "Ivanović",
       "conv": "zh-cn:伊万诺维奇;zh-hant:伊萬諾維奇;zh-tw:伊凡諾維琪;zh-hk:伊雲奴域絲;zh-mo:伊雲奴域絲;"
     },
@@ -1070,6 +1254,10 @@
     {
       "original": "Janković",
       "conv": "zh-cn:扬科维奇;zh-tw:揚科維奇;zh-hk:珍高域;"
+    },
+    {
+      "original": "Jasmine",
+      "conv": "贾斯明=>zh-cn:贾丝明;贾斯明=>zh-sg:贾丝明;贾斯明=>zh-my:贾丝明;贾斯明=>zh-tw:賈絲明;贾斯明=>zh-hk:賈絲明;"
     },
     {
       "original": "Jessica",
@@ -1241,7 +1429,7 @@
     },
     {
       "original": "Mirjana Lučić",
-      "conv": "zh-cn:米里亚娜·卢西奇;zh-tw:米里亞娜·盧西奇;zh-hk:米里亞娜·盧錫;"
+      "conv": "zh-cn:米里亚娜·卢西奇;zh-tw:米里亞娜·魯西琪;zh-hk:米里亞娜·盧錫;"
     },
     {
       "original": "Majoli",
@@ -1257,7 +1445,11 @@
     },
     {
       "original": "Mauresmo",
-      "conv": "zh-cn:毛瑞斯莫;zh-tw:莫瑞絲摩;zh-hk:瑪莉絲莫;"
+      "conv": "zh-cn:毛瑞斯莫;zh-tw:茉莉絲摩;zh-hk:瑪莉絲莫;"
+    },
+    {
+      "original": "Mboko",
+      "conv": "zh-cn:姆博科;zh-hk:安寶高;zh-tw:姆博珂;"
     },
     {
       "original": "Meredith McGrath",
@@ -1300,12 +1492,36 @@
       "conv": "穆古鲁萨=>zh-cn:穆古拉扎;穆古鲁萨=>zh-sg:穆古拉扎;穆古鲁萨=>zh-my:穆古拉扎;穆古鲁萨=>zh-tw:蒙奎露薩;穆古鲁萨=>zh-hk:梅古露莎;穆古鲁萨=>zh-mo:梅古露莎;"
     },
     {
+      "original": "Bethanie Mattek-Sands",
+      "conv": "zh-hans:贝塔尼·马泰克-桑兹;zh-tw:比丹妮·瑪蒂克-桑茲;zh-hk:比丹妮·馬迪姬-辛絲;"
+    },
+    {
+      "original": "Bethanie Mattek",
+      "conv": "贝塔尼·马泰克=>zh-tw:比丹妮·瑪蒂克;贝塔尼·马泰克=>zh-hk:比丹妮·馬迪姬"
+    },
+    {
+      "original": "Bethanie Mattek",
+      "conv": "比丹妮·瑪迪克=>zh-cn:贝塔尼·马泰克;比丹妮·瑪迪克=>zh-sg:贝塔尼·马泰克;比丹妮·瑪迪克=>zh-my:贝塔尼·马泰克;比丹妮·瑪迪克=>zh-tw:比丹妮·瑪蒂克;比丹妮·瑪迪克=>zh-hk:比丹妮·馬迪姬"
+    },
+    {
+      "original": "Mattek-Sands",
+      "conv": "zh-hans:马泰克-桑兹;zh-tw:瑪蒂克-桑茲;zh-hk:馬迪姬-辛絲;"
+    },
+    {
+      "original": "Mattek-Sands",
+      "conv": "马泰克-桑德斯=>zh-cn:马泰克-桑兹;马泰克-桑德斯=>zh-sg:马泰克-桑兹;马泰克-桑德斯=>zh-my:马泰克-桑兹;马泰克-桑德斯=>zh-tw:瑪蒂克-桑茲;马泰克-桑德斯=>zh-hk:馬迪姬-辛絲"
+    },
+    {
+      "original": "Mattek-Sands",
+      "conv": "瑪迪克-辛特斯=>zh-cn:马泰克-桑兹;瑪迪克-辛特斯=>zh-sg:马泰克-桑兹;瑪迪克-辛特斯=>zh-my:马泰克-桑兹;瑪迪克-辛特斯=>zh-tw:瑪蒂克-桑茲;瑪迪克-辛特斯=>zh-hk:馬迪姬-辛絲"
+    },
+    {
       "original": "Navrátilová",
       "conv": "zh-cn:纳芙拉蒂洛娃;zh-tw:娜拉提洛娃;zh-hk:娜華蒂露娃;"
     },
     {
       "original": "Navarro",
-      "conv": "zh-hant:納瓦羅;zh-cn:纳瓦罗;zh-tw:納凡諾;zh-hk:拿華路;"
+      "conv": "zh-hant:納瓦羅;zh-cn:纳瓦罗;zh-tw:納瓦洛;zh-hk:拿華路;"
     },
     {
       "original": "Novotná",
@@ -1328,6 +1544,10 @@
       "conv": "奥斯塔朋科=>zh-cn:奥斯塔彭科;奥斯塔朋科=>zh-sg:奥斯塔彭科;奥斯塔朋科=>zh-my:奥斯塔彭科;奥斯塔朋科=>zh-hk:奧絲達賓高;奥斯塔朋科=>zh-mo:奧絲達賓高;"
     },
     {
+      "original": "Paolini",
+      "conv": "zh-cn:保利尼;zh-tw:鮑里妮;zh-hk:柏奧莉妮;"
+    },
+    {
       "original": "Pennetta",
       "conv": "zh-cn:佩内塔;zh-tw:佩內塔;zh-hk:賓妮達;"
     },
@@ -1337,11 +1557,11 @@
     },
     {
       "original": "Pegula",
-      "conv": "zh-hans:佩古拉;zh-tw:皮古拉;zh-hk:柏高娜;zh-mo:柏古娜;"
+      "conv": "zh-hans:佩古拉;zh-tw:佩古拉;zh-hk:柏高娜;zh-mo:柏古娜;"
     },
     {
       "original": "Pierce",
-      "conv": "zh-cn:皮尔斯;zh-tw:皮爾絲;zh-hk:皮雅絲;"
+      "conv": "zh-cn:皮尔斯;zh-tw:皮爾斯;zh-hk:皮雅斯;"
     },
     {
       "original": "Karolína Plíšková",
@@ -1350,6 +1570,14 @@
     {
       "original": "Plíšková",
       "conv": "zh-hans:普利斯科娃;zh-tw:普里斯科娃;zh-hk:比莉絲高娃;"
+    },
+    {
+      "original": "Putintseva",
+      "conv": "zh-cn:普京采娃;zh-tw:普汀塞娃;zh-hk:佩婷絲娃;"
+    },
+    {
+      "original": "Putintseva",
+      "conv": "普丁塞瓦=>zh-cn:普京采娃;普丁塞瓦=>zh-sg:普京采娃;普丁塞瓦=>zh-my:普京采娃;普丁塞瓦=>zh-tw:普汀塞娃;普丁塞瓦=>zh-hk:佩婷絲娃;"
     },
     {
       "original": "Radwańska",
@@ -1389,7 +1617,11 @@
     },
     {
       "original": "Šafářová",
-      "conv": "zh-cn:萨法洛娃;zh-hk:莎伐洛娃;zh-tw:莎法洛法;"
+      "conv": "zh-cn:萨法洛娃;zh-hk:莎伐洛娃;zh-tw:莎伐洛娃;"
+    },
+    {
+      "original": "Šafářová",
+      "conv": "莎法洛法=>zh-cn:萨法洛娃;莎法洛法=>zh-sg:萨法洛娃;莎法洛法=>zh-my:萨法洛娃;莎法洛法=>zh-tw:莎伐洛娃;莎法洛法=>zh-hk:莎伐洛娃;莎法洛法=>zh-mo:莎伐洛娃;"
     },
     {
       "original": "Safina",
@@ -1420,12 +1652,24 @@
       "conv": "zh-cn:塞莱斯;zh-hk:施莉絲;zh-tw:莎莉絲;"
     },
     {
+      "original": "Anastasija Sevastova",
+      "conv": "安娜絲塔西卓·希瓦妥娃=>zh-cn:安娜斯塔西亚·塞瓦斯托娃;安娜絲塔西卓·希瓦妥娃=>zh-sg:安娜斯塔西亚·塞瓦斯托娃;安娜絲塔西卓·希瓦妥娃=>zh-my:安娜斯塔西亚·塞瓦斯托娃;安娜絲塔西卓·希瓦妥娃=>zh-tw:安娜斯塔西亞·塞娃斯圖娃;安娜絲塔西卓·希瓦妥娃=>zh-hk:安娜絲塔西卓·絲華絲杜娃;"
+    },
+    {
+      "original": "Sevastova",
+      "conv": "希瓦妥娃=>zh-cn:塞瓦斯托娃;希瓦妥娃=>zh-sg:塞瓦斯托娃;希瓦妥娃=>zh-my:塞瓦斯托娃;希瓦妥娃=>zh-tw:塞娃斯圖娃;希瓦妥娃=>zh-hk:絲華絲杜娃;"
+    },
+    {
+      "original": "Sevastova",
+      "conv": "塞瓦斯托娃=>zh-tw:塞娃斯圖娃;塞瓦斯托娃=>zh-hk:絲華絲杜娃;"
+    },
+    {
       "original": "Sharapova",
       "conv": "zh-cn:莎拉波娃;zh-hk:舒拉寶娃;zh-tw:莎拉波娃;"
     },
     {
-      "original": "Shriver",
-      "conv": "zh-cn:施莱佛;zh-tw:施萊佛;"
+      "original": "Shnaider",
+      "conv": "zh-cn:施耐德;zh-hk:舒娜迪;zh-tw:施耐德;"
     },
     {
       "original": "Simona",
@@ -1488,8 +1732,12 @@
       "conv": "zh-cn:温蒂·特恩布尔;zh-tw:溫蒂·騰布爾;zh-hk:溫蒂·端布爾;"
     },
     {
+      "original": "Vekić",
+      "conv": "zh-cn:维基奇;zh-tw:維基奇;zh-hk:維姬治;"
+    },
+    {
       "original": "Vinci",
-      "conv": "zh-cn:文奇;zh-tw:文琪;zh-hk:雲芝"
+      "conv": "zh-cn:文奇;zh-tw:文琪;zh-hk:雲芝;"
     },
     {
       "original": "Vaidišová",
@@ -1514,14 +1762,6 @@
     {
       "original": "Williams",
       "conv": "zh-cn:威廉姆斯;zh-hk:威廉絲;zh-tw:威廉絲"
-    },
-    {
-      "original": "Venus[ Williams]",
-      "conv": "zh-cn:维纳斯;zh-tw:維納斯;zh-hk:雲露絲;zh-mo:維納絲;"
-    },
-    {
-      "original": "Serena[ Williams]",
-      "conv": "zh-cn:塞雷娜;zh-hk:莎蓮娜;zh-tw:塞雷娜"
     },
     {
       "original": "Venus Williams",
@@ -1581,7 +1821,11 @@
     },
     {
       "original": "Benz",
-      "conv": "zh-cn:奔驰;zh-hk:平治;zh-tw:朋馳;"
+      "conv": "zh-cn:奔驰;zh-hk:平治;zh-tw:賓士;"
+    },
+    {
+      "original": "Billie Jean King Cup",
+      "conv": "zh-cn:比利·简·金杯;zh-hk:金夫人盃;zh-tw:金恩盃;zh-hant:比莉·珍·金盃;"
     },
     {
       "original": "Birmingham",
@@ -1693,7 +1937,7 @@
     },
     {
       "original": "Lipton Championships",
-      "conv": "zh-cn:利普顿锦标赛;zh-hk:立頓錦標賽;zh-tw:利普頓錦標賽;"
+      "conv": "zh-hans:利普顿锦标赛;zh-hant::立頓錦標賽;"
     },
     {
       "original": "Louis Armstrong Stadium",
@@ -1702,6 +1946,10 @@
     {
       "original": "Louis Armstrong Stadium",
       "conv": "路易斯·阿姆斯壯球場=>zh-cn:路易斯·阿姆斯特朗体育场;路易斯·阿姆斯壯球場=>zh-sg:路易斯·阿姆斯特朗体育场;路易斯·阿姆斯壯球場=>zh-my:路易斯·阿姆斯特朗体育场;路易斯·阿姆斯壯球場=>zh-tw:路易·阿姆斯壯球場;路易斯·阿姆斯壯球場=>zh-hk:路易斯·岩士唐球場;路易斯·阿姆斯壯球場=>zh-mo:路易斯·岩士唐球場;"
+    },
+    {
+      "original": "Louis Armstrong Stadium",
+      "conv": "zh-hans:路易斯·阿姆斯特朗;zh-tw:路易·阿姆斯壯;zh-hk:路易斯·岩士唐;zh-hant:路易斯·阿姆斯壯;"
     },
     {
       "original": "Miami Gardens",
@@ -1740,12 +1988,20 @@
       "conv": "zh-cn:女王杯;zh-hk:皇后會盃;zh-tw:女王盃;"
     },
     {
+      "original": "Queen&#x0027;s Club Championships",
+      "conv": "zh-cn:女王俱乐部网球锦标赛;zh-hk:皇后會網球錦標賽;zh-tw:女王俱樂部網球錦標賽;"
+    },
+    {
       "original": "Richmond",
       "conv": "zh-cn:里士满;zh-hk:列治文;zh-tw:里奇蒙;"
     },
     {
       "original": "Rogers Cup (tennis)",
       "conv": "zh-cn:罗杰斯杯;zh-hk:羅渣士盃;zh-tw:羅傑斯盃;"
+    },
+    {
+      "original": "Rogers",
+      "conv": "zh-cn:罗杰斯;zh-hk:羅渣士;zh-tw:羅傑斯;"
     },
     {
       "original": "Sony Ericsson (Open)",
@@ -1804,6 +2060,10 @@
       "conv": "zh-cn:图卢兹;zh-hk:圖盧茲;zh-tw:土魯斯;"
     },
     {
+      "original": "United Cup",
+      "conv": "zh-hans:联合杯;zh-hant:聯合盃;"
+    },
+    {
       "original": "Valencia",
       "conv": "zh-hans:巴伦西亚;zh-tw:瓦倫西亞;zh-hk:華倫西亞;"
     },
@@ -1824,40 +2084,76 @@
       "conv": "zh-hk:泥地;zh-cn:红土;zh-tw:紅土;"
     },
     {
-      "original": "quarterfinal",
-      "conv": "zh-hk:八強賽;zh-cn:四分之一决赛;zh-tw:半準決賽;"
+      "original": "draw",
+      "conv": "zh-cn:签表;zh-tw:籤表;"
     },
     {
-      "original": "semifinal",
-      "conv": "zh-hk:準決賽;zh-cn:半决赛;zh-tw:準決賽;"
-    },
-    {
-      "original": "Serena Slam",
-      "conv": "zh-cn:塞雷娜大满贯;zh-hk:沙蓮娜大滿貫;zh-tw:塞雷娜大滿貫"
+      "original": "first round",
+      "conv": "zh-cn:首轮;zh-hk:首圈;zh-tw:首輪"
     },
     {
       "original": "first round",
       "conv": "zh-cn:第一轮;zh-hk:第一圈;zh-tw:第一輪"
     },
     {
-      "original": "second round",
-      "conv": "zh-cn:第二轮;zh-hk:第二圈;zh-tw:第二輪"
-    },
-    {
-      "original": "third round",
-      "conv": "zh-cn:第三轮;zh-hk:第三圈;zh-tw:第三輪"
+      "original": "first round",
+      "conv": "zh-cn:第1轮;zh-hk:第1圈;zh-tw:第1輪"
     },
     {
       "original": "fourth round",
       "conv": "zh-cn:第四轮;zh-hk:第四圈;zh-tw:第四輪"
     },
     {
-      "original": "qualification round",
-      "conv": "zh-cn:资格赛;zh-hk:外圍賽;zh-tw:會外賽"
+      "original": "fourth round",
+      "conv": "zh-cn:第4轮;zh-hk:第4圈;zh-tw:第4輪"
     },
     {
       "original": "main draw",
       "conv": "zh-cn:正赛;zh-hk:正賽;zh-tw:會內賽;"
+    },
+    {
+      "original": "qualification round",
+      "conv": "zh-cn:资格赛;zh-hk:外圍賽;zh-tw:會外賽"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "zh-hk:八強賽;zh-cn:1/4决赛;zh-tw:八強賽;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "四分之一决赛=>zh-cn:四分之一决赛;四分之一决赛=>zh-hk:八強賽;四分之一决赛=>zh-tw:八強賽;"
+    },
+    {
+      "original": "quarterfinal",
+      "conv": "1/4决赛=>zh-cn:1/4决赛;1/4决赛=>zh-hk:八強賽;1/4决赛=>zh-tw:八強賽;"
+    },
+    {
+      "original": "second round",
+      "conv": "zh-cn:次轮;zh-hk:次圈;zh-tw:次輪"
+    },
+    {
+      "original": "second round",
+      "conv": "zh-cn:第二轮;zh-hk:第二圈;zh-tw:第二輪"
+    },
+    {
+      "original": "second round",
+      "conv": "zh-cn:第2轮;zh-hk:第2圈;zh-tw:第2輪"
+    },
+    {
+      "original": "semifinal",
+      "conv": "zh-hk:準決賽;zh-cn:半决赛;zh-tw:準決賽;"
+    },
+    {
+      "original": "third round",
+      "conv": "zh-cn:第三轮;zh-hk:第三圈;zh-tw:第三輪"
+    },
+    {
+      "original": "third round",
+      "conv": "zh-cn:第3轮;zh-hk:第3圈;zh-tw:第3輪"
+    },
+    {
+      "original": "Serena Slam",
+      "conv": "zh-cn:塞雷娜大满贯;zh-hk:沙蓮娜大滿貫;zh-tw:塞雷娜大滿貫"
     },
     {
       "original": "International Tennis Federation",

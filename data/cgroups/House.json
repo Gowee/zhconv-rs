@@ -1,6 +1,6 @@
 {
   "name": "House",
-  "description": "-{zh-cn:豪斯医生; zh-tw:怪醫豪斯; zh-hk:醫神; zh-hant:豪斯醫生;}-",
+  "description": "-{zh:豪斯醫生;zh-cn:豪斯医生;zh-sg:怪医豪斯;zh-tw:怪醫豪斯;zh-hk:醫神;}-",
   "path": "Module:CGroup/House",
   "rules": [
     {
@@ -165,7 +165,7 @@
     },
     {
       "original": "Hadley",
-      "conv": "zh-cn:哈德利=>zh-hk:向; zh-tw:海德利=>zh-hk:向;"
+      "conv": "哈德利=>zh-hk:向;哈德利=>zh-mo:向;海德利=>zh-hk:向;海德利=>zh-mo:向;"
     },
     {
       "original": "Hadley, Remy",
@@ -181,7 +181,7 @@
     },
     {
       "original": "Hourani",
-      "conv": "胡拉尼=>zh-hk:賀;"
+      "conv": "胡拉尼=>zh-hk:賀;胡拉尼=>zh-mo:賀;"
     },
     {
       "original": "Hourani, Lawrence",
@@ -193,7 +193,7 @@
     },
     {
       "original": "House",
-      "conv": "豪斯=>zh-hk:侯;"
+      "conv": "豪斯=>zh-hk:侯;豪斯=>zh-mo:侯;"
     },
     {
       "original": "House, Blythe",
@@ -213,7 +213,7 @@
     },
     {
       "original": "House, M.D.",
-      "conv": "zh-cn:豪斯医生; zh-tw:怪醫豪斯; zh-hk:醫神; zh-hant:豪斯醫生;"
+      "conv": "zh:豪斯醫生;zh-cn:豪斯医生;zh-sg:怪医豪斯;zh-tw:怪醫豪斯;zh-hk:醫神;"
     },
     {
       "original": "James",
@@ -225,7 +225,7 @@
     },
     {
       "original": "Juan",
-      "conv": "胡安=>zh-hk:宏;"
+      "conv": "胡安=>zh-hk:宏;胡安=>zh-mo:宏;"
     },
     {
       "original": "Julia",
@@ -237,7 +237,7 @@
     },
     {
       "original": "Kutner",
-      "conv": "卡特纳=>zh-hk:寇; 卡特納=>zh-hk:寇;"
+      "conv": "卡特纳=>zh-hk:寇;卡特纳=>zh-mo:寇;卡特納=>zh-hk:寇;卡特納=>zh-mo:寇;"
     },
     {
       "original": "Kutner, Lawrence",
@@ -261,7 +261,7 @@
     },
     {
       "original": "Masters",
-      "conv": "zh-cn:马斯特斯; zh-tw:麥斯特;"
+      "conv": "zh:馬斯特斯;zh-cn:马斯特斯;zh-tw:麥斯特;"
     },
     {
       "original": "Masters",
@@ -281,11 +281,11 @@
     },
     {
       "original": "Nolan",
-      "conv": "zh-cn:诺兰; zh-tw:諾蘭; zh-cn:诺兰=>zh-hk:盧;"
+      "conv": "zh-cn:诺兰; zh-tw:諾蘭;"
     },
     {
       "original": "Nolan",
-      "conv": "諾蘭=>zh-hk:盧;"
+      "conv": "諾蘭=>zh-hk:盧;諾蘭=>zh-mo:盧;诺兰=>zh-hk:盧;诺兰=>zh-mo:盧;"
     },
     {
       "original": "Nolan, Darryl",

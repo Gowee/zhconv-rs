@@ -1,0 +1,1335 @@
+{
+  "name": "PLT",
+  "description": "-{zh-hans:程序设计语言理论; zh-hant:程式設計語言理論;}-",
+  "path": "Module:CGroup/PLT",
+  "rules": [
+    {
+      "original": "code",
+      "conv": "程式碼=>zh-cn:代码; 程式碼=>zh-sg:代码; 程式碼=>zh-my:代码;"
+    },
+    {
+      "original": "compatible",
+      "conv": "zh-cn:兼容; zh-tw:相容;"
+    },
+    {
+      "original": "compatible",
+      "conv": "相兼容=>zh-tw:相容; 相兼容=>zh-hk:相容; 相兼容=>zh-mo:相容;"
+    },
+    {
+      "original": "complexity class",
+      "conv": "zh-cn:复杂性类; zh-tw:複雜性類別;"
+    },
+    {
+      "original": "complexity class",
+      "conv": "zh-cn:复杂度类; zh-tw:複雜度類別;"
+    },
+    {
+      "original": "computer",
+      "conv": "计算机=>zh-sg:电脑; 计算机=>zh-my:电脑; 计算机=>zh-tw:電腦; 计算机=>zh-hk:電腦; 计算机=>zh-mo:電腦;"
+    },
+    {
+      "original": "computer",
+      "conv": "計算機=>zh-sg:电脑; 計算機=>zh-my:电脑;"
+    },
+    {
+      "original": "computer",
+      "conv": "电子计算机=>zh-sg:电脑; 电子计算机=>zh-my:电脑; 电子计算机=>zh-tw:電腦; 电子计算机=>zh-hk:電腦; 电子计算机=>zh-mo:電腦;"
+    },
+    {
+      "original": "computer",
+      "conv": "電子計算機=>zh-cn:电子计算机; 電子計算機=>zh-sg:电脑; 電子計算機=>zh-my:电脑;"
+    },
+    {
+      "original": "computer architecture",
+      "conv": "zh:計算機體系結構; zh-cn:计算机体系结构; zh-sg:电脑架构; zh-my:电脑架构; zh-tw:電腦架構;"
+    },
+    {
+      "original": "computer programming",
+      "conv": "zh:程序設計; zh-cn:程序设计; zh-my:程式设计; zh-tw:程式設計;"
+    },
+    {
+      "original": "computer science",
+      "conv": "zh:計算機科學; zh-cn:计算机科学; zh-my:电脑科学; zh-tw:電腦科學;"
+    },
+    {
+      "original": "computer terminal",
+      "conv": "終端機=>zh-cn:终端; 終端機=>zh-sg:终端; 終端機=>zh-my:终端;"
+    },
+    {
+      "original": "concurrency",
+      "conv": "zh-cn:并发; zh-tw:並行;"
+    },
+    {
+      "original": "constant",
+      "conv": "zh-cn:常量; zh-tw:常數;"
+    },
+    {
+      "original": "data",
+      "conv": "数据=>zh-tw:資料; 数据=>zh-hk:數據;"
+    },
+    {
+      "original": "database",
+      "conv": "zh-cn:数据库; zh-tw:資料庫; zh-hk:資料庫;"
+    },
+    {
+      "original": "data type",
+      "conv": "zh-cn:数据类型; zh-hant:資料類型;"
+    },
+    {
+      "original": "data warehouse",
+      "conv": "zh-cn:数据仓库; zh-tw:資料倉儲; zh-hk:數據倉庫;"
+    },
+    {
+      "original": "datagram",
+      "conv": "zh-cn:数据报文;zh-tw:資料報;"
+    },
+    {
+      "original": "deadlock",
+      "conv": "zh-cn:死锁; zh-tw:死結;"
+    },
+    {
+      "original": "debug",
+      "conv": "zh-cn:调试; zh-tw:除錯;"
+    },
+    {
+      "original": "debug",
+      "conv": "除错=>zh-cn:调试; 除错=>zh-sg:调试; 除错=>zh-my:调试;"
+    },
+    {
+      "original": "debug",
+      "conv": "偵錯=>zh-cn:调试; 偵錯=>zh-sg:调试; 偵錯=>zh-my:调试;"
+    },
+    {
+      "original": "debug",
+      "conv": "侦错=>zh-cn:调试; 侦错=>zh-sg:调试; 侦错=>zh-my:调试;"
+    },
+    {
+      "original": "debug",
+      "conv": "調試=>zh-tw:除錯; 調試=>zh-hk:除錯; 調試=>zh-mo:除錯;"
+    },
+    {
+      "original": "declaration",
+      "conv": "声明语句=>zh-tw:宣告; 声明语句=>zh-hk:宣告; 声明语句=>zh-mo:宣告;"
+    },
+    {
+      "original": "decode",
+      "conv": "译码=>zh-tw:解碼;译码=>zh-sg:解码;译码=>zh-my:解码;"
+    },
+    {
+      "original": "default",
+      "conv": "zh-cn:默认; zh-tw:預設;"
+    },
+    {
+      "original": "default",
+      "conv": "缺省=>zh-tw:預設; 缺省=>zh-hk:預設; 缺省=>zh-mo:預設;"
+    },
+    {
+      "original": "dependent type",
+      "conv": "zh-cn:依赖类型; zh-tw:依值型別;"
+    },
+    {
+      "original": "dependent type",
+      "conv": "zh-cn:依存类型; zh-tw:依存型別;"
+    },
+    {
+      "original": "derivation list",
+      "conv": "zh-cn:继承列表; zh-tw:衍化列;"
+    },
+    {
+      "original": "derive",
+      "conv": "zh-cn:派生; zh-tw:衍生;"
+    },
+    {
+      "original": "derived class",
+      "conv": "zh-cn:派生类; zh-tw:衍生類別;"
+    },
+    {
+      "original": "derived type",
+      "conv": "zh-cn:派生类型; zh-tw:衍生類型;"
+    },
+    {
+      "original": "destruct",
+      "conv": "zh-cn:析构; zh-tw:解構;"
+    },
+    {
+      "original": "destructor",
+      "conv": "zh-cn:析构函数; zh-tw:解構函式;"
+    },
+    {
+      "original": "destructor",
+      "conv": "解構函數=>zh-cn:析构函数; 解構函數=>zh-tw:解構函式;"
+    },
+    {
+      "original": "destructor",
+      "conv": "解構子=>zh-cn:析构函数; 解構子=>zh-sg:析构函数; 解構子=>zh-my:析构函数;"
+    },
+    {
+      "original": "duck typing",
+      "conv": "zh-cn:鸭子类型; zh-tw:鴨子型別;"
+    },
+    {
+      "original": "dynamic binding",
+      "conv": "zh-cn:动态绑定; zh-tw:動態繫結;"
+    },
+    {
+      "original": "dynamic typing",
+      "conv": "zh-cn:动态类型; zh-tw:動態型別;"
+    },
+    {
+      "original": "enumeration",
+      "conv": "zh-cn:枚举; zh-tw:列舉;"
+    },
+    {
+      "original": "enumerators",
+      "conv": "zh-cn:枚举器; zh-tw:列舉元;"
+    },
+    {
+      "original": "enumerators",
+      "conv": "zh-cn:枚举成员; zh-tw:列舉元;"
+    },
+    {
+      "original": "escape",
+      "conv": "zh-cn:转义; zh-tw:跳脫;"
+    },
+    {
+      "original": "exception handling",
+      "conv": "zh-cn:异常处理; zh-tw:例外處理;"
+    },
+    {
+      "original": "exclusive or",
+      "conv": "zh-cn:异或; zh-tw:互斥或; zh-hk:異或;"
+    },
+    {
+      "original": "expression",
+      "conv": "運算式=>zh-cn:表达式; 運算式=>zh-sg:表达式; 運算式=>zh-my:表达式;"
+    },
+    {
+      "original": "extensible",
+      "conv": "zh:可擴展; zh-cn:可扩展; zh-tw:可延伸;"
+    },
+    {
+      "original": "field",
+      "conv": "zh-cn:字段; zh-tw:欄位;"
+    },
+    {
+      "original": "function",
+      "conv": "zh-cn:函数; zh-tw:函式; zh-hk:函數;"
+    },
+    {
+      "original": "functional programming",
+      "conv": "zh-cn:函数式编程; zh-tw:函數式程式設計;"
+    },
+    {
+      "original": "functional programming",
+      "conv": "函式語言程式設計=>zh-cn:函数式编程; 函式語言程式設計=>zh-tw:函數式程式設計;"
+    },
+    {
+      "original": "functional programming language",
+      "conv": "zh-cn:函数编程语言; zh-tw:函數式程式語言;"
+    },
+    {
+      "original": "functional programming language",
+      "conv": "函數式程式語言=>zh-cn:函数编程语言; 函數式程式語言=>zh-sg:函数编程语言; 函數式程式語言=>zh-my:函数编程语言;"
+    },
+    {
+      "original": "functional programming language",
+      "conv": "函數程式語言=>zh-cn:函数编程语言; 函數程式語言=>zh-sg:函数编程语言; 函數程式語言=>zh-my:函数编程语言;"
+    },
+    {
+      "original": "functional programming language",
+      "conv": "函式程式語言=>zh-cn:函数编程语言; 函式程式語言=>zh-sg:函数编程语言; 函式程式語言=>zh-my:函数编程语言; 函式程式語言=>zh-tw:函數式程式語言;"
+    },
+    {
+      "original": "handler",
+      "conv": "zh-cn:处理函数; zh-tw:處理常式;"
+    },
+    {
+      "original": "handle",
+      "conv": "zh-cn:句柄; zh-tw:控制代碼;"
+    },
+    {
+      "original": "hard-coded",
+      "conv": "zh-cn:硬编码; zh-tw:寫死;"
+    },
+    {
+      "original": "hardware",
+      "conv": "zh-cn:硬件; zh-tw:硬體; zh-hk:硬件;"
+    },
+    {
+      "original": "hash",
+      "conv": "哈希=>zh-tw:雜湊; 哈希=>zh-hk:雜湊; 哈希=>zh-mo:雜湊;"
+    },
+    {
+      "original": "hash",
+      "conv": "zh-cn:散列; zh-tw:雜湊;"
+    },
+    {
+      "original": "high-level language",
+      "conv": "zh-cn:高级语言; zh-tw:高階語言;"
+    },
+    {
+      "original": "high-level language",
+      "conv": "高阶语言=>zh-cn:高级语言; 高阶语言=>zh-sg:高级语言; 高阶语言=>zh-my:高级语言;"
+    },
+    {
+      "original": "high-level language",
+      "conv": "高级語言=>zh-tw:高階語言; 高级語言=>zh-hk:高階語言; 高级語言=>zh-mo:高階語言;"
+    },
+    {
+      "original": "high-level language",
+      "conv": "高級語言=>zh-tw:高階語言; 高級語言=>zh-hk:高階語言; 高級語言=>zh-mo:高階語言;"
+    },
+    {
+      "original": "high-level programming language",
+      "conv": "zh-cn:高级编程语言; zh-tw:高階程式語言;"
+    },
+    {
+      "original": "high-level programming language",
+      "conv": "高级编程語言=>zh-tw:高階程式語言; 高级编程語言=>zh-hk:高階程式語言; 高级编程語言=>zh-mo:高階程式語言;"
+    },
+    {
+      "original": "high-level programming language",
+      "conv": "高级编程語言=>zh-tw:高階程式語言; 高级编程語言=>zh-hk:高階程式語言; 高级编程語言=>zh-mo:高階程式語言;"
+    },
+    {
+      "original": "highlight",
+      "conv": "高亮=>zh-tw:突顯; 高亮=>zh-hk:突顯; 高亮=>zh-mo:突顯;"
+    },
+    {
+      "original": "highlight",
+      "conv": "高亮显示=>zh-tw:突出顯示; 高亮显示=>zh-hk:突出顯示; 高亮显示=>zh-mo:突出顯示;"
+    },
+    {
+      "original": "highlight",
+      "conv": "高亮顯示=>zh-tw:突出顯示; 高亮顯示=>zh-hk:突出顯示; 高亮顯示=>zh-mo:突出顯示;"
+    },
+    {
+      "original": "Integrated Development Environment (IDE)",
+      "conv": "zh-cn:集成开发环境; zh-tw:整合式開發環境;"
+    },
+    {
+      "original": "Integrated Device Electronics (IDE)",
+      "conv": "zh-cn:集成设备电路; zh-tw:整合裝置電路;"
+    },
+    {
+      "original": "ID",
+      "conv": "zh-cn:身份; zh-tw:身分; zh-hk:身份;"
+    },
+    {
+      "original": "identifier",
+      "conv": "zh:標識符; zh-cn:标识符; zh-tw:識別碼;"
+    },
+    {
+      "original": "if and only if",
+      "conv": "zh:當且僅當; zh-cn:当且仅当; zh-tw:若且唯若;"
+    },
+    {
+      "original": "imperative programming",
+      "conv": "zh-cn:命令式编程; zh-tw:指令式程式設計;"
+    },
+    {
+      "original": "implement",
+      "conv": "實作=>zh-cn:实现; 實作=>zh-sg:实现; 實作=>zh-my:实现;"
+    },
+    {
+      "original": "import",
+      "conv": "zh-cn:导入; zh-tw:匯入;"
+    },
+    {
+      "original": "import",
+      "conv": "汇入=>zh-cn:导入; 汇入=>zh-sg:导入; 汇入=>zh-my:导入;"
+    },
+    {
+      "original": "import",
+      "conv": "導入=>zh-tw:匯入; 導入=>zh-hk:匯入; 導入=>zh-mo:匯入;"
+    },
+    {
+      "original": "indent",
+      "conv": "zh-cn:缩进; zh-tw:縮排;"
+    },
+    {
+      "original": "info (information)",
+      "conv": "zh-cn:信息; zh-my:资讯; zh-hant:資訊;"
+    },
+    {
+      "original": "info (information)",
+      "conv": "资讯=>zh-sg:资讯; 資訊=>zh-sg:资讯; 资讯=>zh-cn:资讯;"
+    },
+    {
+      "original": "inline",
+      "conv": "zh-cn:内联; zh-tw:行內;"
+    },
+    {
+      "original": "instance method",
+      "conv": "實體方法=>zh-cn:实例方法; 實體方法=>zh-sg:实例方法; 實體方法=>zh-my:实例方法;"
+    },
+    {
+      "original": "integrate",
+      "conv": "zh-cn:集成; zh-tw:整合;"
+    },
+    {
+      "original": "interacts",
+      "conv": "zh-cn:交互; zh-tw:互動;"
+    },
+    {
+      "original": "interface",
+      "conv": "zh-cn:接口; zh-tw:介面;"
+    },
+    {
+      "original": "interpreter",
+      "conv": "zh-cn:解释器; zh-tw:直譯器;"
+    },
+    {
+      "original": "Interpreted language",
+      "conv": "zh-cn:解释型语言; zh-tw:直譯語言;"
+    },
+    {
+      "original": "Intranet",
+      "conv": "zh-cn:内部网络; zh-tw:內部網路; zh-hk:內聯網;"
+    },
+    {
+      "original": "Intranet",
+      "conv": "zh-cn:内部网; zh-tw:內部網路; zh-hk:內聯網;"
+    },
+    {
+      "original": "Inter-Process Communication",
+      "conv": "zh-cn:进程间通信; zh-tw:行程間通訊; zh-hk:行程間通訊;"
+    },
+    {
+      "original": "Inter-Process",
+      "conv": "zh-cn:进程间; zh-tw:行程間; zh-hk:行程間;"
+    },
+    {
+      "original": "invoke",
+      "conv": "叫用=>zh-cn:调用; 叫用=>zh-sg:调用; 叫用=>zh-my:调用;"
+    },
+    {
+      "original": "Language-Oriented Programming",
+      "conv": "zh-cn:面向语言的程序设计; zh-tw:語言導向程式設計;"
+    },
+    {
+      "original": "language package",
+      "conv": "zh-cn:语言包; zh-tw:語言套件;"
+    },
+    {
+      "original": "library",
+      "conv": "函式庫=>zh-cn:库; 函式庫=>zh-sg:库; 函式庫=>zh-my:库; 函式庫=>zh-tw:函式庫; 函式庫=>zh-hk:函式庫; 函式庫=>zh-mo:函式庫"
+    },
+    {
+      "original": "link",
+      "conv": "zh-cn:链接; zh-tw:連結;"
+    },
+    {
+      "original": "link",
+      "conv": "鏈結=>zh-cn:链接; 鏈結=>zh-sg:链接; 鏈結=>zh-my:链接;"
+    },
+    {
+      "original": "link",
+      "conv": "连结=>zh-cn:链接; 连结=>zh-sg:链接; 连结=>zh-my:链接;"
+    },
+    {
+      "original": "link",
+      "conv": "鏈接=>zh-tw:鏈結; 鏈接=>zh-hk:連結; 鏈接=>zh-mo:連結;"
+    },
+    {
+      "original": "linked list",
+      "conv": "zh-cn:链表; zh-tw:鏈結串列;"
+    },
+    {
+      "original": "linked list",
+      "conv": "鏈表=>zh-tw:鏈結串列; 鏈表=>zh-hk:連結串列; 鏈表=>zh-mo:連結串列;"
+    },
+    {
+      "original": "livelock",
+      "conv": "zh-cn:活锁; zh-tw:活結;"
+    },
+    {
+      "original": "load",
+      "conv": "zh-cn:加载; zh-tw:載入;"
+    },
+    {
+      "original": "load",
+      "conv": "载入=>zh-cn:加载; 载入=>zh-sg:加载; 载入=>zh-my:加载;"
+    },
+    {
+      "original": "load",
+      "conv": "加載=>zh-tw:載入; 加載=>zh-hk:載入; 加載=>zh-mo:載入;"
+    },
+    {
+      "original": "loop",
+      "conv": "zh-cn:循环; zh-tw:迴圈; zh-hk:循環;"
+    },
+    {
+      "original": "lost",
+      "conv": "zh-cn:丢失; zh-tw:遺失;"
+    },
+    {
+      "original": "low level",
+      "conv": "zh-cn:低级; zh-tw:低階;"
+    },
+    {
+      "original": "low level",
+      "conv": "zh-cn:低端; zh-tw:低階;"
+    },
+    {
+      "original": "low-level language",
+      "conv": "zh-cn:低级语言; zh-tw:低階語言;"
+    },
+    {
+      "original": "low-level language",
+      "conv": "低阶语言=>zh-cn:低级语言; 低阶语言=>zh-sg:低级语言; 低阶语言=>zh-my:低级语言;"
+    },
+    {
+      "original": "low-level language",
+      "conv": "低级語言=>zh-tw:低階語言; 低级語言=>zh-hk:低階語言; 低级語言=>zh-mo:低階語言;"
+    },
+    {
+      "original": "low-level language",
+      "conv": "低級語言=>zh-tw:低階語言; 低級語言=>zh-hk:低階語言; 低級語言=>zh-mo:低階語言;"
+    },
+    {
+      "original": "low-level programming language",
+      "conv": "zh-cn:低级编程语言; zh-tw:低階程式語言;"
+    },
+    {
+      "original": "low-level programming language",
+      "conv": "低级编程語言=>zh-tw:低階程式語言; 低级编程語言=>zh-hk:低階程式語言; 低级编程語言=>zh-mo:低階程式語言;"
+    },
+    {
+      "original": "machine code",
+      "conv": "zh-cn:机器代码; zh-tw:機器碼; zh-hk:機械碼;"
+    },
+    {
+      "original": "machine code",
+      "conv": "機器代碼=>zh-tw:機器碼; 機器代碼=>zh-hk:機械碼; 機器代碼=>zh-mo:機械碼;"
+    },
+    {
+      "original": "machine code",
+      "conv": "机器码=>zh-tw:機器碼; 机器码=>zh-hk:機械碼; 机器码=>zh-mo:機械碼;"
+    },
+    {
+      "original": "macro",
+      "conv": "巨集=>zh-cn:宏; 巨集=>zh-sg:宏; 巨集=>zh-my:宏;"
+    },
+    {
+      "original": "macro virus",
+      "conv": "zh-cn:宏病毒; zh-tw:巨集病毒;"
+    },
+    {
+      "original": "main memory",
+      "conv": "zh-hans:主存储器; zh-hant:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "主存=>zh-tw:主記憶體; 主存=>zh-hk:主記憶體; 主存=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "内存储器=>zh-tw:主記憶體; 内存储器=>zh-hk:主記憶體; 内存储器=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "内存=>zh-tw:主記憶體; 内存=>zh-hk:主記憶體; 内存=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "main memory",
+      "conv": "內存=>zh-tw:主記憶體; 內存=>zh-hk:主記憶體; 內存=>zh-mo:主記憶體;"
+    },
+    {
+      "original": "mapping",
+      "conv": "zh-cn:映射; zh-tw:對映;"
+    },
+    {
+      "original": "marketing",
+      "conv": "zh-cn:营销; zh-tw:行銷;"
+    },
+    {
+      "original": "Markup Language",
+      "conv": "zh-cn:置标语言; zh-tw:標示語言;"
+    },
+    {
+      "original": "Markup Language",
+      "conv": "zh-cn:标记语言; zh-tw:標示語言;"
+    },
+    {
+      "original": "Markup Language",
+      "conv": "zh-cn:标记语言; zh-tw:標記式語言;"
+    },
+    {
+      "original": "mask",
+      "conv": "掩码=>zh-tw:遮罩; 掩码=>zh-hk:遮罩; 掩码=>zh-mo:遮罩;"
+    },
+    {
+      "original": "merge",
+      "conv": "归并=>zh-tw:合併; 归并=>zh-hk:合併; 归并=>zh-mo:合併;"
+    },
+    {
+      "original": "meta-programming",
+      "conv": "zh-cn:元编程; zh-tw:元程式設計;"
+    },
+    {
+      "original": "meta-programming",
+      "conv": "元編程=>zh-tw:元程式設計; 元編程=>zh-hk:元程式設計; 元編程=>zh-mo:元程式設計;"
+    },
+    {
+      "original": "meta-programming",
+      "conv": "zh-cn:超编程; zh-tw:超程式設計;"
+    },
+    {
+      "original": "meta-programming",
+      "conv": "超編程=>zh-tw:超程式設計; 超編程=>zh-hk:超程式設計; 超編程=>zh-mo:超程式設計; 超編程=>zh-cn:元编程;"
+    },
+    {
+      "original": "metadata",
+      "conv": "zh-cn:元数据; zh-tw:元資料; zh-hk:元數據;"
+    },
+    {
+      "original": "modifier",
+      "conv": "zh-cn:修饰符; zh-tw:修飾詞;"
+    },
+    {
+      "original": "module",
+      "conv": "zh-cn:模块; zh-tw:模組;"
+    },
+    {
+      "original": "module",
+      "conv": "模组=>zh-cn:模块; 模组=>zh-sg:模块; 模组=>zh-my:模块;"
+    },
+    {
+      "original": "module",
+      "conv": "模塊=>zh-tw:模組; 模塊=>zh-hk:模組; 模塊=>zh-mo:模組;"
+    },
+    {
+      "original": "namespace",
+      "conv": "zh-cn:命名空间; zh-tw:命名空間;"
+    },
+    {
+      "original": "namespace",
+      "conv": "名字空间=>zh-cn:命名空间; 名字空间=>zh-sg:命名空间; 名字空间=>zh-my:命名空间; 名字空間=>zh-tw:命名空間; 名字空間=>zh-hk:命名空間; 名字空間=>zh-mo:命名空間;"
+    },
+    {
+      "original": "native",
+      "conv": "固有=>zh-tw:原生; 固有=>zh-hk:原生; 固有=>zh-mo:原生;"
+    },
+    {
+      "original": "nest",
+      "conv": "zh-cn:嵌套; zh-tw:巢狀;"
+    },
+    {
+      "original": "null list",
+      "conv": "zh-cn:空列表; zh-tw:空串列;"
+    },
+    {
+      "original": "null string",
+      "conv": "zh-cn:空串; zh-tw:空字串;"
+    },
+    {
+      "original": "object",
+      "conv": "物件=>zh-cn:对象;"
+    },
+    {
+      "original": "object code",
+      "conv": "zh-cn:目标代码; zh-tw:目的碼; zh-hk:目標碼;"
+    },
+    {
+      "original": "Object-oriented",
+      "conv": "zh-cn:面向对象; zh-tw:物件導向;"
+    },
+    {
+      "original": "Object-oriented programming",
+      "conv": "zh-cn:面向对象编程; zh-tw:物件導向程式設計;"
+    },
+    {
+      "original": "online",
+      "conv": "zh-cn:在线; zh-tw:線上;"
+    },
+    {
+      "original": "online",
+      "conv": "zh:联机; zh-hant:連線;"
+    },
+    {
+      "original": "open",
+      "conv": "zh-cn:开启; zh-tw:開啟;"
+    },
+    {
+      "original": "operand",
+      "conv": "zh-cn:操作数; zh-tw:運算元;"
+    },
+    {
+      "original": "operating system",
+      "conv": "zh:操作系統;zh-cn:操作系统; zh-tw:作業系統;"
+    },
+    {
+      "original": "operation object",
+      "conv": "zh-cn:操作对象; zh-tw:運算物件;"
+    },
+    {
+      "original": "operator",
+      "conv": "zh-cn:运算符; zh-tw:運算子;"
+    },
+    {
+      "original": "operator",
+      "conv": "运算子=>zh-cn:运算符; 运算子=>zh-sg:运算符; 运算子=>zh-my:运算符;"
+    },
+    {
+      "original": "operator",
+      "conv": "運算符=>zh-tw:運算子; 運算符=>zh-hk:運算子; 運算符=>zh-mo:運算子;"
+    },
+    {
+      "original": "operator",
+      "conv": "操作符=>zh-tw:運算子; 操作符=>zh-hk:運算子; 操作符=>zh-mo:運算子;"
+    },
+    {
+      "original": "operator",
+      "conv": "操作子=>zh-tw:運算子; 操作子=>zh-hk:運算子; 操作子=>zh-mo:運算子;"
+    },
+    {
+      "original": "optimal",
+      "conv": "zh:最优; zh-hant:最佳;"
+    },
+    {
+      "original": "optimization",
+      "conv": "zh:最優化; zh-hant:最佳化;"
+    },
+    {
+      "original": "optimization",
+      "conv": "zh-hans:优化; zh-hant:最佳化;"
+    },
+    {
+      "original": "outport",
+      "conv": "zh-cn:导出; zh-tw:匯出;"
+    },
+    {
+      "original": "overflow",
+      "conv": "上限溢位=>zh-cn:溢出; 上限溢位=>zh-sg:溢出; 上限溢位=>zh-my:溢出;"
+    },
+    {
+      "original": "overflow",
+      "conv": "zh-cn:溢出; zh-tw:溢位;"
+    },
+    {
+      "original": "overload",
+      "conv": "zh-cn:重载; zh-tw:多載;"
+    },
+    {
+      "original": "overload",
+      "conv": "過載=>zh-cn:重载; 過載=>zh-sg:重载; 過載=>zh-my:重载;"
+    },
+    {
+      "original": "override",
+      "conv": "zh-cn:改写; zh-tw:覆寫;"
+    },
+    {
+      "original": "package",
+      "conv": "套件=>zh-cn:包; 套件=>zh-sg:包; 套件=>zh-my:包;"
+    },
+    {
+      "original": "package management system",
+      "conv": "zh-cn:软件包管理系统; zh-tw:軟體套件管理系統; zh-hk:軟件套件管理系統;"
+    },
+    {
+      "original": "package of software",
+      "conv": "zh-cn:软件包; zh-tw:軟體套件; zh-hk:軟件套件;"
+    },
+    {
+      "original": "paradigm",
+      "conv": "zh-cn:范型; zh-tw:範式;"
+    },
+    {
+      "original": "parallel",
+      "conv": "zh-cn:并行; zh-tw:並列;"
+    },
+    {
+      "original": "parallel computing",
+      "conv": "zh-cn:并行计算; zh-tw:平行計算;"
+    },
+    {
+      "original": "parameter list",
+      "conv": "zh-cn:参数列表; zh-tw:參數列;"
+    },
+    {
+      "original": "parameter list",
+      "conv": "zh-cn:参数表; zh-tw:參數列;"
+    },
+    {
+      "original": "parser",
+      "conv": "zh-cn:分析器; zh-tw:剖析器;"
+    },
+    {
+      "original": "performance",
+      "conv": "zh-cn:性能; zh-tw:效能;"
+    },
+    {
+      "original": "persistence",
+      "conv": "zh-cn:持久性; zh-tw:永續性;"
+    },
+    {
+      "original": "placeholder",
+      "conv": "zh-cn:占位符; zh-tw:預留位置;"
+    },
+    {
+      "original": "Plug and Play",
+      "conv": "zh-cn:即插即用; zh-tw:隨插即用;"
+    },
+    {
+      "original": "plug-in",
+      "conv": "zh-cn:插件; zh-tw:外掛程式;"
+    },
+    {
+      "original": "plug-in",
+      "conv": "外掛模組=>zh-cn:插件; 外掛模組=>zh-sg:插件; 外掛模組=>zh-my:插件;"
+    },
+    {
+      "original": "pointer",
+      "conv": "zh-cn:指针; zh-tw:指標;"
+    },
+    {
+      "original": "polymorphism",
+      "conv": "zh-cn:多态; zh-tw:多型;"
+    },
+    {
+      "original": "procedural generation",
+      "conv": "程序化生成=>zh-cn:过程生成; 程序化生成=>zh-sg:过程生成; 程序化生成=>zh-my:过程生成;"
+    },
+    {
+      "original": "procedural programming",
+      "conv": "zh-cn:过程式; zh-tw:程序式;"
+    },
+    {
+      "original": "procedural programming",
+      "conv": "zh-cn:过程化; zh-tw:程序化;"
+    },
+    {
+      "original": "procedural programming",
+      "conv": "zh-cn:面向过程; zh-tw:程序導向;"
+    },
+    {
+      "original": "process",
+      "conv": "連作=>zh-cn:进程; 連作=>zh-sg:进程; 連作=>zh-my:进程;"
+    },
+    {
+      "original": "process",
+      "conv": "處理程序=>zh-cn:进程; 處理程序=>zh-sg:进程; 處理程序=>zh-my:进程;"
+    },
+    {
+      "original": "process",
+      "conv": "进程=>zh-tw:行程; 进程=>zh-hk:行程; 进程=>zh-mo:行程;"
+    },
+    {
+      "original": "program",
+      "conv": "zh-cn:程序; zh-tw:程式;"
+    },
+    {
+      "original": "programmer",
+      "conv": "zh-cn:程序编写员; zh-tw:程式設計師;"
+    },
+    {
+      "original": "programmer",
+      "conv": "zh:程序員; zh-cn:程序员; zh-tw:程式設計師;"
+    },
+    {
+      "original": "programmable",
+      "conv": "zh:可編程; zh-cn:可编程; zh-tw:可程式化;"
+    },
+    {
+      "original": "programmable",
+      "conv": "可規化=>zh-cn:可编程; 可規化=>zh-sg:可编程; 可規化=>zh-my:可编程;"
+    },
+    {
+      "original": "programming language",
+      "conv": "zh-cn:编程语言; zh-tw:程式語言;"
+    },
+    {
+      "original": "programming language",
+      "conv": "程式语言=>zh-cn:编程语言; 程式语言=>zh-sg:编程语言; 程式语言=>zh-my:编程语言;"
+    },
+    {
+      "original": "programming language",
+      "conv": "编程語言=>zh-tw:程式語言; 编程語言=>zh-hk:程式語言; 编程語言=>zh-mo:程式語言;"
+    },
+    {
+      "original": "programming language",
+      "conv": "編程语言=>zh-tw:程式語言; 編程语言=>zh-hk:程式語言; 編程语言=>zh-mo:程式語言;"
+    },
+    {
+      "original": "programming language",
+      "conv": "編程語言=>zh-tw:程式語言; 編程語言=>zh-hk:程式語言; 編程語言=>zh-mo:程式語言;"
+    },
+    {
+      "original": "Programming paradigm",
+      "conv": "zh-cn:编程范型; zh-tw:程式設計範式;"
+    },
+    {
+      "original": "protocol",
+      "conv": "zh:協議; zh-cn:协议; zh-tw:協定;"
+    },
+    {
+      "original": "prototype-based programming",
+      "conv": "zh-cn:基于原型的编程; zh-tw:原型程式設計;"
+    },
+    {
+      "original": "Pseudocode",
+      "conv": "zh-cn:伪代码; zh-tw:虛擬碼; zh-hk:偽代碼;"
+    },
+    {
+      "original": "queue",
+      "conv": "zh-cn:队列; zh-tw:佇列;"
+    },
+    {
+      "original": "quality",
+      "conv": "zh-cn:质量; zh-tw:品質; zh-hk:質素;"
+    },
+    {
+      "original": "quality",
+      "conv": "品质=>zh-cn:质量; 品质=>zh-sg:质量; 品质=>zh-my:质量; 品质=>zh-hk:質素; 品质=>zh-mo:質素;"
+    },
+    {
+      "original": "quality",
+      "conv": "质素=>zh-cn:质量; 质素=>zh-sg:质量; 质素=>zh-my:质量; 质素=>zh-tw:品質;"
+    },
+    {
+      "original": "quality",
+      "conv": "質量=>zh-tw:品質; 質量=>zh-hk:質素; 質量=>zh-mo:質素;"
+    },
+    {
+      "original": "random number",
+      "conv": "zh-cn:随机数; zh-tw:亂數;"
+    },
+    {
+      "original": "read-only",
+      "conv": "zh-cn:只读; zh-tw:唯讀;"
+    },
+    {
+      "original": "real-time",
+      "conv": "实时=>zh-tw:即時; 实时=>zh-hk:即時; 实时=>zh-mo:即時;"
+    },
+    {
+      "original": "Reaching Definition",
+      "conv": "zh-hans:到达定值;zh-hant:可到達定義;"
+    },
+    {
+      "original": "Reaching Definition",
+      "conv": "定義可達性=>zh-hans:到达定值;"
+    },
+    {
+      "original": "recognition",
+      "conv": "zh-cn:识别; zh-tw:辨識;"
+    },
+    {
+      "original": "recover",
+      "conv": "回復=>zh-cn:恢复; 回復=>zh-sg:恢复; 回復=>zh-my:恢复;"
+    },
+    {
+      "original": "recursion",
+      "conv": "zh-cn:递归; zh-tw:遞迴; zh-hk:遞歸;"
+    },
+    {
+      "original": "Recycle Bin",
+      "conv": "zh-cn:回收站; zh-tw:資源回收筒;"
+    },
+    {
+      "original": "dereference",
+      "conv": "zh-cn:解引用; zh-tw:解除參照;"
+    },
+    {
+      "original": "regular expression",
+      "conv": "zh-cn:正则表达式; zh-tw:正規表示式; zh-hk:正則表達式;"
+    },
+    {
+      "original": "regular language",
+      "conv": "zh-cn:正则语言; zh-tw:正規語言; zh-hk:正則語言;"
+    },
+    {
+      "original": "regular language",
+      "conv": "正规语言=>zh-cn:正则语言; 正规语言=>zh-sg:正则语言; 正规语言=>zh-my:正则语言;"
+    },
+    {
+      "original": "response",
+      "conv": "响应=>zh-tw:回應;"
+    },
+    {
+      "original": "routine",
+      "conv": "zh-cn:例程; zh-tw:常式;"
+    },
+    {
+      "original": "save",
+      "conv": "保存=>zh-tw:儲存; 保存=>zh-hk:儲存; 保存=>zh-mo:儲存;"
+    },
+    {
+      "original": "schedule",
+      "conv": "zh-cn:调度; zh-tw:排程;"
+    },
+    {
+      "original": "scheduler",
+      "conv": "zh-cn:调度器; zh-tw:排程器;"
+    },
+    {
+      "original": "script",
+      "conv": "zh:腳本; zh-cn:脚本; zh-tw:指令碼;"
+    },
+    {
+      "original": "scripting language",
+      "conv": "zh:腳本語言; zh-cn:脚本语言; zh-tw:手稿語言;"
+    },
+    {
+      "original": "second normal form",
+      "conv": "zh-cn:第二范式; zh-tw:第二正規化;"
+    },
+    {
+      "original": "software",
+      "conv": "zh-cn:软件; zh-tw:軟體; zh-hk:軟件;"
+    },
+    {
+      "original": "source code",
+      "conv": "zh-cn:源代码; zh-sg:原始码; zh-tw:原始碼;"
+    },
+    {
+      "original": "source code",
+      "conv": "源代碼=>zh-sg:原始码; 源代碼=>zh-my:原始码; 源代碼=>zh-tw:原始碼; 源代碼=>zh-hk:原始碼; 源代碼=>zh-mo:原始碼;"
+    },
+    {
+      "original": "source code",
+      "conv": "源码=>zh-sg:原始码; 源码=>zh-my:原始码; 源码=>zh-tw:原始碼; 源码=>zh-hk:原始碼; 源码=>zh-mo:原始碼;"
+    },
+    {
+      "original": "source code",
+      "conv": "源碼=>zh-sg:原始码; 源碼=>zh-my:原始码; 源碼=>zh-tw:原始碼; 源碼=>zh-hk:原始碼; 源碼=>zh-mo:原始碼;"
+    },
+    {
+      "original": "source file",
+      "conv": "zh-cn:源文件; zh-tw:原始檔;"
+    },
+    {
+      "original": "statement",
+      "conv": "zh-cn:语句; zh-tw:語句; zh-hk:陳述式;"
+    },
+    {
+      "original": "stack",
+      "conv": "zh-cn:堆栈; zh-tw:堆疊;"
+    },
+    {
+      "original": "static typing",
+      "conv": "zh-cn:静态类型; zh-tw:靜態型別;"
+    },
+    {
+      "original": "support",
+      "conv": "zh-cn:支持; zh-tw:支援;"
+    },
+    {
+      "original": "syntax highlighting",
+      "conv": "zh-cn:语法高亮; zh-tw:語法突顯;"
+    },
+    {
+      "original": "syntax highlighting",
+      "conv": "語法凸顯=>zh-cn:语法高亮; 語法凸顯=>zh-sg:语法高亮; 語法凸顯=>zh-my:语法高亮;"
+    },
+    {
+      "original": "syntax highlighting",
+      "conv": "语法高亮度=>zh-tw:語法突顯; 语法高亮度=>zh-hk:語法突顯; 语法高亮度=>zh-mo:語法突顯;"
+    },
+    {
+      "original": "syntax highlighting",
+      "conv": "語法高亮度=>zh-tw:語法突顯; 語法高亮度=>zh-hk:語法突顯; 語法高亮度=>zh-mo:語法突顯;"
+    },
+    {
+      "original": "tail recursion",
+      "conv": "zh-cn:尾部递归; zh-tw:尾端遞迴;"
+    },
+    {
+      "original": "target",
+      "conv": "zh-cn:目标软件; zh-tw:目標軟體; zh-hk:目標軟件;"
+    },
+    {
+      "original": "task switch",
+      "conv": "zh-cn:任务切换; zh-tw:工作切換;"
+    },
+    {
+      "original": "template",
+      "conv": "樣板=>zh-cn:模板; 樣板=>zh-sg:模板; 樣板=>zh-my:模板; 樣板=>zh-tw:模板; 樣板=>zh-hk:模板; 樣板=>zh-mo:模板;"
+    },
+    {
+      "original": "terminator",
+      "conv": "zh-cn:终结器; zh-tw:終端子;"
+    },
+    {
+      "original": "third normal form",
+      "conv": "zh-cn:第三范式; zh-tw:第三正規化;"
+    },
+    {
+      "original": "threads",
+      "conv": "zh-cn:线程; zh-tw:執行緒; zh-hk:線程;"
+    },
+    {
+      "original": "throw",
+      "conv": "zh-cn:抛出; zh-tw:丟擲; zh-hk:投擲;"
+    },
+    {
+      "original": "token",
+      "conv": "zh-cn:权标; zh-tw:符記;"
+    },
+    {
+      "original": "token",
+      "conv": "zh-cn:令牌; zh-tw:權杖;"
+    },
+    {
+      "original": "Turing completeness",
+      "conv": "zh-cn:图灵完备; zh-tw:圖靈完備;"
+    },
+    {
+      "original": "Turing completeness",
+      "conv": "图灵完备=>zh-cn:图灵完备; 图灵完备=>zh-sg:图灵完备; 图灵完备=>zh-my:图灵完全;"
+    },
+    {
+      "original": "Turing completeness",
+      "conv": "圖靈完全=>zh-tw:圖靈完備; 圖靈完全=>zh-hk:圖靈完備; 圖靈完全=>zh-mo:圖靈完備;"
+    },
+    {
+      "original": "type",
+      "conv": "型別=>zh-cn:类型; 型別=>zh-sg:类型; 型別=>zh-my:类型;"
+    },
+    {
+      "original": "type",
+      "conv": "型態=>zh-cn:类型; 型態=>zh-sg:类型; 型態=>zh-my:类型;"
+    },
+    {
+      "original": "type checking",
+      "conv": "zh-cn:类型检查; zh-tw:型別檢查;"
+    },
+    {
+      "original": "type system",
+      "conv": "zh-cn:类型系统; zh-tw:型別系統;"
+    },
+    {
+      "original": "unary function",
+      "conv": "zh-cn:单参函数; zh-tw:一元函式;"
+    },
+    {
+      "original": "unary function",
+      "conv": "一元函數=>zh-cn:单参函数; 一元函數=>zh-tw:一元函式;"
+    },
+    {
+      "original": "underflow",
+      "conv": "欠位=>zh-cn:下溢; 欠位=>zh-my:下溢; 欠位=>zh-sg:下溢;"
+    },
+    {
+      "original": "underline",
+      "conv": "zh-cn:下划线; zh-tw:底線;"
+    },
+    {
+      "original": "undo",
+      "conv": "zh-cn:撤销; zh-tw:復原;"
+    },
+    {
+      "original": "undo",
+      "conv": "撤銷=>zh-tw:復原; 撤銷=>zh-hk:復原; 撤銷=>zh-mo:復原;"
+    },
+    {
+      "original": "undo",
+      "conv": "撤消=>zh-tw:復原; 撤消=>zh-hk:復原; 撤消=>zh-mo:復原;"
+    },
+    {
+      "original": "union",
+      "conv": "zh-cn:并集; zh-tw:聯集; zh-hk:併集;"
+    },
+    {
+      "original": "variable",
+      "conv": "zh-cn:变量;zh-tw:變數;zh-hk:變量;"
+    },
+    {
+      "original": "variable",
+      "conv": "zh:变数;zh-cn:变量;zh-tw:變數;zh-hk:變量;"
+    },
+    {
+      "original": "vector",
+      "conv": "矢量=>zh-tw:向量; 矢量=>zh-hk:向量; 矢量=>zh-mo:向量;"
+    },
+    {
+      "original": "virtual function",
+      "conv": "zh-cn:虚函数; zh-tw:虛擬函式;"
+    },
+    {
+      "original": "virtual function",
+      "conv": "虛擬函數=>zh-cn:虚函数; 虛擬函數=>zh-tw:虛擬函式;"
+    },
+    {
+      "original": "visit",
+      "conv": "造訪=>zh-cn:访问; 造訪=>zh-sg:访问; 造訪=>zh-my:访问;"
+    },
+    {
+      "original": "weak typing",
+      "conv": "zh-cn:弱类型; zh-tw:弱型別;"
+    },
+    {
+      "original": "write-only",
+      "conv": "zh-cn:只写; zh-tw:唯寫;"
+    },
+    {
+      "original": "write protection",
+      "conv": "zh-cn:写保护; zh-tw:防寫;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:推导; zh-hant:推導;"
+    },
+    {
+      "original": null,
+      "conv": "子类别=>zh-tw:子類別; 子类别=>zh-hk:子類別; 子类别=>zh-mo:子類別;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:子类型; zh-hant:子類型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:C++类似; zh-hant:C++類似;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:C++类型; zh-hant:C++類型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:C++的类型; zh-hant:C++的類型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Java类似; zh-hant:Java類似;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Java类型; zh-hant:Java類型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:Java的类型; zh-hant:Java的類型;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:复杂度类似; zh-hant:複雜度類似;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:基于类似; zh-hant:基於類似;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:基于类型; zh-hant:基於類型;"
+    },
+    {
+      "original": "executable",
+      "conv": "zh-hans:可执行; zh-hant:可執行;"
+    },
+    {
+      "original": "executor",
+      "conv": "zh-hans:执行者; zh-hant:執行者;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:高亮度; zh-hant:高亮度;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:访问学者; zh-hant:訪問學者;"
+    },
+    {
+      "original": "random-access",
+      "conv": "zh-hans:随机存取; zh-hant:隨機存取;"
+    },
+    {
+      "original": null,
+      "conv": "程序代码=>zh-tw:程式碼; 程序代码=>zh-hk:程式碼; 程序代码=>zh-mo:程式碼;"
+    },
+    {
+      "original": null,
+      "conv": "程序代碼=>zh-tw:程式碼; 程序代碼=>zh-hk:程式碼; 程序代碼=>zh-mo:程式碼;"
+    },
+    {
+      "original": null,
+      "conv": "程式代码=>zh-tw:程式碼; 程式代码=>zh-hk:程式碼; 程式代码=>zh-mo:程式碼;"
+    },
+    {
+      "original": null,
+      "conv": "程式代碼=>zh-tw:程式碼; 程式代碼=>zh-hk:程式碼; 程式代碼=>zh-mo:程式碼;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:类型代码; zh-hant:類型代碼;"
+    },
+    {
+      "original": null,
+      "conv": "交互資訊=>zh-tw:交互資訊; 交互資訊=>zh-hk:交互資訊; 交互資訊=>zh-mo:交互資訊;"
+    },
+    {
+      "original": null,
+      "conv": "預存程序=>zh-tw:預存程序; 預存程序=>zh-hk:預存程序; 預存程序=>zh-mo:預存程序;"
+    },
+    {
+      "original": "analogizer",
+      "conv": "zh-hans:模拟器; zh-hant:模擬器;"
+    },
+    {
+      "original": "archives",
+      "conv": "zh-hans:档案馆; zh-hant:檔案館;"
+    },
+    {
+      "original": "archives",
+      "conv": "zh-hans:档案室; zh-hant:檔案室;"
+    },
+    {
+      "original": "Macao Information System Character Set",
+      "conv": "zh-hans:澳门资讯系统字集; zh-hant:澳門資訊系統字集;"
+    },
+    {
+      "original": "bitcent",
+      "conv": "zh-hans:比特分; zh-hant:比特分;"
+    },
+    {
+      "original": "bitcoin",
+      "conv": "zh-hans:比特币; zh-hant:比特幣;"
+    },
+    {
+      "original": "BitComet",
+      "conv": "zh-hans:比特彗星; zh-hant:比特彗星;"
+    },
+    {
+      "original": "BitSpirit",
+      "conv": "zh-hans:比特精灵; zh-hant:比特精靈;"
+    },
+    {
+      "original": "micro-bitcoin",
+      "conv": "zh-hans:微比特; zh-hant:微比特;"
+    },
+    {
+      "original": "milli-bitcoin",
+      "conv": "zh-hans:毫比特; zh-hant:毫比特;"
+    },
+    {
+      "original": "function library",
+      "conv": "zh-cn:函数库; zh-tw:函式庫;"
+    },
+    {
+      "original": "theme",
+      "conv": "布景主题=>zh-tw:佈景主題; 佈景主題=>zh-tw:佈景主題;"
+    },
+    {
+      "original": "wubi",
+      "conv": "zh-hans:五笔字型; zh-hant:五筆字型;"
+    },
+    {
+      "original": "operator",
+      "conv": "zh-hans:运算符号; zh-hant:運算符號;"
+    },
+    {
+      "original": "code list",
+      "conv": "zh-hans:代码表; zh-hant:代碼表;"
+    },
+    {
+      "original": "XXX language interface",
+      "conv": "zh-cn:文界面; zh-tw:文介面; zh-hk:文介面;"
+    },
+    {
+      "original": "China Computer Federation",
+      "conv": "zh-hans:中国计算机学会; zh-hant:中國計算機學會;"
+    }
+  ]
+}

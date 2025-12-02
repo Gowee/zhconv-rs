@@ -21,7 +21,7 @@
     },
     {
       "original": "セイラ・マス",
-      "conv": "zh-cn:塞拉·玛斯; zh-tw:雪拉·瑪絲; zh-hk:馬茜·瑪斯;"
+      "conv": "zh-cn:塞拉·玛斯; zh-tw:雪拉·瑪絲; zh-hk:雪拉·馬茜;"
     },
     {
       "original": "セイラ",
@@ -210,6 +210,22 @@
     {
       "original": "サンホ",
       "conv": "zh-cn:三浩; zh-tw:尚昊; zh-hk:尚昊;"
+    },
+    {
+      "original": "シャリア",
+      "conv": "zh-cn:夏里亚; zh-tw:夏利安; zh-hk:沙利亞;"
+    },
+    {
+      "original": "シャリア・ブル",
+      "conv": "zh-cn:夏里亚·布尔; zh-tw:夏利安·布爾; zh-hk:沙利亞·布魯;"
+    },
+    {
+      "original": "ドレン",
+      "conv": "zh-cn:多连; zh-tw:德連; zh-hk:德廉;"
+    },
+    {
+      "original": "カシアス",
+      "conv": "zh-cn:卡西亚斯; zh-tw:卡修斯; zh-hk:卡西亞斯;"
     },
     {
       "original": "シロー・アマダ",
@@ -780,6 +796,14 @@
       "conv": "zh-cn:艾玛丽; zh-tw:安瑪莉;zh-hk:艾美莉;"
     },
     {
+      "original": "ジョニー・ライデン",
+      "conv": "zh-cn:强尼·莱汀; zh-tw:強尼·萊汀; zh-hk:尊尼·萊登"
+    },
+    {
+      "original": "ジョニー",
+      "conv": "zh-cn:强尼; zh-tw:強尼; zh-hk:尊尼"
+    },
+    {
       "original": "ギュネイ・ガス",
       "conv": "zh-cn:邱尼·盖斯; zh-tw:裘尼·卡斯; zh-hk:基尼·戒司"
     },
@@ -940,6 +964,10 @@
       "conv": "zh-cn:马夫蒂;zh-tw:馬法提; zh-hk:馬法狄;"
     },
     {
+      "original": "アンダルシア",
+      "conv": "zh-cn:安达露西娅;zh-tw:安塔露茜雅;"
+    },
+    {
       "original": "ケネス",
       "conv": "zh-cn:凯奈斯;zh-tw:肯尼斯; zh-hk:堅尼斯;"
     },
@@ -952,12 +980,12 @@
       "conv": "zh-cn:艾梅拉尔妲;zh-tw:艾梅拉爾妲; zh-hk:艾美拉路達;"
     },
     {
-      "original": "フェンサー",
-      "conv": "zh-cn:芬萨;zh-tw:芬瑟; zh-hk:芬薩;"
+      "original": "エメラルダ",
+      "conv": "zh-cn:艾梅拉尔妲;zh-tw:艾梅拉爾妲; zh-hk:艾美拉路達;"
     },
     {
-      "original": "",
-      "conv": "zh-cn:雷恩;zh-hk:雷恩;zh-tw:連恩;"
+      "original": "フェンサー",
+      "conv": "zh-cn:芬萨;zh-tw:芬瑟; zh-hk:芬薩;"
     },
     {
       "original": "ケイン",
@@ -988,6 +1016,10 @@
       "conv": "zh-cn:卡迪亚斯;zh-tw:卡迪亞斯; zh-hk:卡迪亞斯;"
     },
     {
+      "original": "ゲイス・H・ヒューゲスト",
+      "conv": "zh-cn:盖斯·H·修盖斯特;zh-hk:加斯‧H‧曉格特;zh-tw:蓋斯‧H‧休格特;"
+    },
+    {
       "original": "ヒューゲスト",
       "conv": "zh-cn:修盖斯特;zh-hk:曉格特;zh-tw:休格特;"
     },
@@ -996,12 +1028,44 @@
       "conv": "zh-cn:米黑夏;zh-hk:米赫莎;zh-tw:米赫莎;"
     },
     {
+      "original": "メイス・フラゥワー",
+      "conv": "zh-cn:梅丝·芙劳尔;zh-hk:美絲‧科拉華;zh-tw:梅絲‧弗勞爾;"
+    },
+    {
+      "original": "マクシミリアン",
+      "conv": "zh-cn:马克西米利安;zh-hk:麥斯米利安;zh-tw:馬克西米利安;"
+    },
+    {
+      "original": "ジュリア・スガ",
+      "conv": "zh-cn:朱莉亚·素加;zh-hk:茱莉亞‧素加;zh-tw:茱麗雅‧須賀;"
+    },
+    {
       "original": "ハンドリー・ヨクサン",
-      "conv": "zh-cn:洪德利·翼赞;zh-hk:亨德利·翼贊;zh-tw:亨德利·約克森;"
+      "conv": "zh-cn:洪德利·翼赞;zh-hk:亨德利·約克森;zh-tw:亨德利·翼贊;"
     },
     {
       "original": "ガウマン",
       "conv": "zh-cn:加乌曼;zh-hk:高曼;zh-tw:高曼;"
+    },
+    {
+      "original": "ベッチー",
+      "conv": "zh-cn:贝琪;zh-hk:碧芝;zh-tw:貝琪;"
+    },
+    {
+      "original": "ガウマン",
+      "conv": "zh-cn:加乌曼;zh-hk:高曼;zh-tw:高曼;"
+    },
+    {
+      "original": "ガウマン",
+      "conv": "zh-cn:马克西米利安‧尼古拉;zh-hk:麥斯米利安‧尼哥拉;zh-tw:馬克西米利安‧尼古拉;"
+    },
+    {
+      "original": "ガウマン",
+      "conv": "zh-cn:加乌曼;zh-hk:高曼;zh-tw:高曼;"
+    },
+    {
+      "original": "ミツダ・ケンジ",
+      "conv": "zh-cn:三田健治;zh-hk:光田健二;zh-tw:光田健二;"
     },
     {
       "original": "ビルギット・ピリオ",
@@ -1448,6 +1512,14 @@
       "conv": "zh-cn:白色木马; zh-tw:白色基地; zh-hk:太空母艦;"
     },
     {
+      "original": "ペガサス、PEGASUS",
+      "conv": "zh-cn:天马号; zh-tw:飛馬號; zh-hk:珀伽索斯;"
+    },
+    {
+      "original": "ペガサス、PEGASUS",
+      "conv": "zh-cn:天马级; zh-tw:飛馬級; zh-hk:珀伽索斯級;"
+    },
+    {
       "original": "ザク、ZAKU",
       "conv": "zh-cn:扎古; zh-tw:薩克; zh-hk:渣古;"
     },
@@ -1536,7 +1608,7 @@
       "conv": "zh-cn:布劳·布罗; zh-tw:布勞·普羅; zh-hk:波羅號;"
     },
     {
-      "original": "ビグ・ザム、BYG-ZAM",
+      "original": "ビグ・ザム、BIG ZAM",
       "conv": "zh-cn:大扎姆; zh-tw:畢克·薩姆; zh-hk:魔霸;"
     },
     {
@@ -2148,6 +2220,18 @@
       "conv": "zh-cn:力克迪杰; zh-tw:力克迪傑; zh-hk:力奇迪謝;"
     },
     {
+      "original": "機動戦士ガンダム I",
+      "conv": "zh-cn:机动战士高达 I;zh-hk:機動戰士高達 I：劇場版;zh-tw:機動戰士鋼彈 劇場版;"
+    },
+    {
+      "original": "機動戦士ガンダムII 哀・戦士編",
+      "conv": "zh-cn:机动战士高达 II 哀·战士篇;zh-hk:機動戰士高達II：劇場版;zh-tw:機動戰士鋼彈劇場版 II 哀戰士篇;"
+    },
+    {
+      "original": "機動戦士ガンダムIII めぐりあい宇宙編",
+      "conv": "zh-cn:机动战士高达 III 相逢在宇宙篇;zh-hk:機動戰士高達III：劇場版;zh-tw:機動戰士鋼彈劇場版 III 宇宙相逢篇;"
+    },
+    {
       "original": "ガンダム0083",
       "conv": "zh:GUNDAM 0083;zh-hans:高达0083;zh-cn:高达0083;zh-hk:高達0083;zh-tw:鋼彈0083;"
     },
@@ -2170,6 +2254,22 @@
     {
       "original": "コロニーの落ちた地で…、Rise From the Ashes",
       "conv": "zh-cn:殖民地坠落之地; zh-tw:殖民地墜落之地; zh-hk:殖民星墜落之地;"
+    },
+    {
+      "original": "機動戦士Ζガンダム-星を継ぐ者-",
+      "conv": "zh-cn:机动战士Z高达 星之继承者;zh-hk:機動戰士Z高達 星之繼承者;zh-tw:機動戰士Z鋼彈 首部曲 星之繼承者;"
+    },
+    {
+      "original": "機動戦士ΖガンダムII-恋人たち-",
+      "conv": "zh-cn:机动战士Z高达II 恋人们;zh-hk:機動戰士Z高達Ⅱ 戀人們;zh-tw:機動戰士Z鋼彈 贰部曲 戀人們;"
+    },
+    {
+      "original": "機動戦士ΖガンダムIII-星の鼓動は愛-",
+      "conv": "zh-cn:机动战士Z高达III 星尘的鼓动是爱;zh-hk:機動戰士Z高達Ⅲ 星之躍動是愛;zh-tw:機動戰士Z鋼彈 參部曲 星辰鼓動之愛;"
+    },
+    {
+      "original": "星の鼓動は愛",
+      "conv": "zh-cn:星尘的鼓动是爱;zh-hk:星之躍動是愛;zh-tw:星辰鼓動之愛;"
     },
     {
       "original": "閃光のハサウェイ、Hathaway's Flash",
@@ -2238,6 +2338,14 @@
     {
       "original": "ガンダムバトルユニバース",
       "conv": "zh:GUNDAM战争宇宙; zh-cn:高达战争宇宙; zh-tw:鋼彈激鬥宇宙; zh-hk:GUNDAM BATTLE UNIVERSE;"
+    },
+    {
+      "original": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
+      "conv": "zh-cn:机动战士高达 闪光的哈萨维 喀耳刻的魔女;zh-hk:機動戰士高達 閃光之凱薩衛 瑟茜的魔女;zh-tw:機動戰士鋼彈 閃光的哈薩威 喀耳刻的魔女;"
+    },
+    {
+      "original": "キルケーの魔女",
+      "conv": "zh-cn:喀耳刻的魔女;zh-hk:瑟茜的魔女;zh-tw:喀耳刻的魔女;"
     },
     {
       "original": "ニュータイプ",

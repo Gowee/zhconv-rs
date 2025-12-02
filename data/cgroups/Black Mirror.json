@@ -5,7 +5,7 @@
   "rules": [
     {
       "original": "Fifteen Million Merits",
-      "conv": "zh-hans:一千五百万点; zh-hant:一千五百萬個積點"
+      "conv": "zh-hans:一千五百万点; zh-hant:一千五百萬個積點; zh-cn:一千五百万的价值"
     },
     {
       "original": "The Entire History of You",
@@ -13,7 +13,7 @@
     },
     {
       "original": "White Bear",
-      "conv": "zh-hans:白熊; zh-hant:白熊世界"
+      "conv": "白熊世界=>zh-cn:白熊; 白熊世界=>zh-sg:白熊; 白熊世界=>zh-hans:白熊;"
     },
     {
       "original": "The Waldo Moment",
@@ -25,7 +25,7 @@
     },
     {
       "original": "San Junipero",
-      "conv": "zh-hans:圣朱尼皮罗; zh-hant:聖朱尼佩洛"
+      "conv": "zh-hans:圣朱尼皮罗; zh-hant:聖朱尼佩洛; zh-cn:圣朱尼佩洛"
     },
     {
       "original": "USS Callister",
@@ -33,7 +33,7 @@
     },
     {
       "original": "Arkangel",
-      "conv": "zh-hans:大天使; zh-hant:方舟天使"
+      "conv": "zh-hans:大天使; zh-hant:方舟天使;zh-cn:方舟天使"
     },
     {
       "original": "Hang the DJ",
@@ -54,6 +54,26 @@
     {
       "original": "Rachel, Jack and Ashley Too",
       "conv": "zh-hans:瑞秋、洁柯和小艾希莉; zh-hant:瑞秋、潔可和小艾希莉"
+    },
+    {
+      "original": "Common People",
+      "conv": "凡夫俗女=>zh-cn:普通人; 凡夫俗女=>zh-sg:普通人; 凡夫俗女=>zh-hans:普通人;"
+    },
+    {
+      "original": "Bête Noire",
+      "conv": "zh-hans:眼中钉; zh-hant:黑色野獸"
+    },
+    {
+      "original": "Hotel Reverie",
+      "conv": "zh-hans:梦幻酒店; zh-hant:白日夢飯店"
+    },
+    {
+      "original": "Eulogy",
+      "conv": "憶錄集=>zh-cn:悼念; 憶錄集=>zh-sg:悼念; 憶錄集=>zh-hans:悼念;"
+    },
+    {
+      "original": "USS Callister: Into Infinity",
+      "conv": "zh-hans:卡利斯特号：进入“无限”世界; zh-hant:聯邦星艦卡里斯特：深入無際"
     },
     {
       "original": "Michael Callow",

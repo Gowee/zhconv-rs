@@ -77,7 +77,7 @@ export default function Footer() {
               color="inherit"
               href={`https://github.com/wikimedia/mediawiki/blob/${
                 buildInfo.mediawikiCommit ?? "master"
-              }/includes/languages/data/ZhConversion.php#L14`}
+              }/includes/languages/Data/ZhConversion.php#L14`}
               underline="always"
             >
               <code>
@@ -112,7 +112,7 @@ export default function Footer() {
             {"Based on conversion tables from "}
             <Link
               color="inherit"
-              href="https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/data/ZhConversion.php"
+              href="https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/languages/Data/ZhConversion.php"
               underline="always"
             >
               {"MediaWiki"}

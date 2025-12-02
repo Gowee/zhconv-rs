@@ -1,0 +1,239 @@
+{
+  "name": "Valorant",
+  "description": "无畏契约",
+  "path": "Module:CGroup/Valorant",
+  "rules": [
+    {
+      "original": "Bind",
+      "conv": "zh-hans:源工重镇; zh-tw:劫境之地; zh-hk:Bind;"
+    },
+    {
+      "original": "Haven",
+      "conv": "zh-hans:隐世修所; zh-tw:遺落境地; zh-hk:Haven;"
+    },
+    {
+      "original": "Split",
+      "conv": "zh-hans:霓虹町; zh-tw:雙塔迷城; zh-hk:Split;"
+    },
+    {
+      "original": "Ascent",
+      "conv": "zh-hans:亚海悬城; zh-tw:義境空島; zh-hk:Ascent;"
+    },
+    {
+      "original": "Icebox",
+      "conv": "zh-hans:森寒东港; zh-tw:極地寒港; zh-hk:Icebox;"
+    },
+    {
+      "original": "Breeze",
+      "conv": "zh-hans:微风岛屿; zh-tw:熱帶樂園; zh-hk:Breeze;"
+    },
+    {
+      "original": "Fracture",
+      "conv": "zh-hans:裂变峡谷; zh-tw:天漠之峽; zh-hk:Fracture;"
+    },
+    {
+      "original": "Pearl",
+      "conv": "zh-hans:深海明珠; zh-tw:深海遺珠; zh-hk:Pearl;"
+    },
+    {
+      "original": "Lotus",
+      "conv": "zh-hans:莲华古城; zh-tw:蓮華古城; zh-hk:Lotus;"
+    },
+    {
+      "original": "Sunset",
+      "conv": "zh-hans:日落之城; zh-tw:日落之城; zh-hk:Sunset;"
+    },
+    {
+      "original": "Abyss",
+      "conv": "zh-hans:幽邃地窟; zh-tw:深窟幽境; zh-hk:Abyss;"
+    },
+    {
+      "original": "Corrode",
+      "conv": "zh-hans:盐海矿镇; zh-tw:晶蝕之地; zh-hk:Corrode;"
+    },
+    {
+      "original": "Classic",
+      "conv": "zh-hans:标配; zh-tw:制式手槍; zh-hk:制式手槍;"
+    },
+    {
+      "original": "Shorty",
+      "conv": "zh-hans:短炮; zh-tw:短管; zh-hk:短管;"
+    },
+    {
+      "original": "Frenzy",
+      "conv": "zh-hans:狂怒; zh-tw:狂弒; zh-hk:狂弒;"
+    },
+    {
+      "original": "Ghost",
+      "conv": "zh-hans:鬼魅; zh-tw:鬼魅; zh-hk:鬼魅;"
+    },
+    {
+      "original": "Sheriff",
+      "conv": "zh-hans:正义; zh-tw:神射; zh-hk:神射;"
+    },
+    {
+      "original": "Stinger",
+      "conv": "zh-hans:蜂刺; zh-tw:刺針; zh-hk:刺針;"
+    },
+    {
+      "original": "Spectre",
+      "conv": "zh-hans:骇灵; zh-tw:惡靈; zh-hk:惡靈;"
+    },
+    {
+      "original": "Bucky",
+      "conv": "zh-hans:雄鹿; zh-tw:重砲; zh-hk:重砲;"
+    },
+    {
+      "original": "Judge",
+      "conv": "zh-hans:判官; zh-tw:判官; zh-hk:判官;"
+    },
+    {
+      "original": "Bulldog",
+      "conv": "zh-hans:撩犬; zh-tw:鬥牛犬; zh-hk:鬥牛犬;"
+    },
+    {
+      "original": "Guardian",
+      "conv": "zh-hans:戍卫; zh-tw:捍衛者; zh-hk:捍衛者;"
+    },
+    {
+      "original": "Phantom",
+      "conv": "zh-hans:幻影; zh-tw:幻象; zh-hk:幻象;"
+    },
+    {
+      "original": "Vandal",
+      "conv": "zh-hans:狂徒; zh-tw:暴徒; zh-hk:暴徒;"
+    },
+    {
+      "original": "Marshal",
+      "conv": "zh-hans:飞将; zh-tw:警長; zh-hk:警長;"
+    },
+    {
+      "original": "Operator",
+      "conv": "zh-hans:冥驹; zh-tw:間諜; zh-hk:間諜;"
+    },
+    {
+      "original": "Ares",
+      "conv": "zh-hans:战神; zh-tw:戰神; zh-hk:戰神;"
+    },
+    {
+      "original": "Odin",
+      "conv": "zh-hans:奥丁; zh-tw:奧丁; zh-hk:奧丁;"
+    },
+    {
+      "original": "Tactical Knife",
+      "conv": "zh-hans:战刀; zh-tw:戰術小刀; zh-hk:戰術小刀;"
+    },
+    {
+      "original": "Outlaw",
+      "conv": "zh-hans:莽侠; zh-tw:逃犯; zh-hk:逃犯;"
+    },
+    {
+      "original": "Brimstone",
+      "conv": "zh-hans:炼狱; zh-tw:布史東; zh-hk:Brimstone;"
+    },
+    {
+      "original": "Phoenix",
+      "conv": "zh-hans:不死鸟; zh-tw:菲尼克斯; zh-hk:Phoenix;"
+    },
+    {
+      "original": "Sage",
+      "conv": "zh-hans:贤者; zh-tw:聖祈; zh-hk:Sage;"
+    },
+    {
+      "original": "Sova",
+      "conv": "zh-hans:猎枭; zh-tw:蘇法; zh-hk:Sova;"
+    },
+    {
+      "original": "Viper",
+      "conv": "zh-hans:蝰蛇; zh-tw:薇蝮; zh-hk:Viper;"
+    },
+    {
+      "original": "Cypher",
+      "conv": "zh-hans:零; zh-tw:瑟符; zh-hk:Cypher;"
+    },
+    {
+      "original": "Reyna",
+      "conv": "zh-hans:芮娜; zh-tw:蕾娜; zh-hk:Reyna;"
+    },
+    {
+      "original": "Kiljoy",
+      "conv": "zh-hans:奇乐; zh-tw:愷宙; zh-hk:Kiljoy;"
+    },
+    {
+      "original": "Breach",
+      "conv": "zh-hans:铁臂; zh-tw:叛奇; zh-hk:Breach;"
+    },
+    {
+      "original": "Omen",
+      "conv": "zh-hans:幽影; zh-tw:歐門; zh-hk:Omen;"
+    },
+    {
+      "original": "Jett",
+      "conv": "zh-hans:捷风; zh-tw:婕提; zh-hk:Jett;"
+    },
+    {
+      "original": "Raze",
+      "conv": "zh-hans:雷兹; zh-tw:芮茲; zh-hk:Raze;"
+    },
+    {
+      "original": "Skye",
+      "conv": "zh-hans:斯凯; zh-tw:絲凱; zh-hk:Skye;"
+    },
+    {
+      "original": "Yoru",
+      "conv": "zh-hans:夜露; zh-tw:夜戮; zh-hk:Yoru;"
+    },
+    {
+      "original": "Astra",
+      "conv": "zh-hans:星礈; zh-tw:亞星卓; zh-hk:Astra;"
+    },
+    {
+      "original": "KAY/O",
+      "conv": "zh-hans:K/O; zh-tw:KAY/O; zh-hk:KAY/O;"
+    },
+    {
+      "original": "Chamber",
+      "conv": "zh-hans:尚勃勒; zh-tw:錢博爾; zh-hk:Chamber;"
+    },
+    {
+      "original": "Neon",
+      "conv": "zh-hans:霓虹; zh-tw:妮虹; zh-hk:Neon;"
+    },
+    {
+      "original": "Fade",
+      "conv": "zh-hans:黑梦; zh-tw:菲德; zh-hk:Fade;"
+    },
+    {
+      "original": "Harbor",
+      "conv": "zh-hans:海神; zh-tw:哈泊; zh-hk:Harbor;"
+    },
+    {
+      "original": "Gekko",
+      "conv": "zh-hans:盖可; zh-tw:蓋克; zh-hk:Gekko;"
+    },
+    {
+      "original": "Deadlock",
+      "conv": "zh-hans:钢索; zh-tw:蒂羅; zh-hk:Deadlock;"
+    },
+    {
+      "original": "Iso",
+      "conv": "zh-hans:壹决; zh-tw:離索; zh-hk:Iso;"
+    },
+    {
+      "original": "Clove",
+      "conv": "zh-hans:暮蝶; zh-tw:珂樂芙; zh-hk:Clove;"
+    },
+    {
+      "original": "Vyse",
+      "conv": "zh-hans:维斯; zh-tw:薇絲; zh-hk:Vyse;"
+    },
+    {
+      "original": "Tejo",
+      "conv": "zh-hans:钛狐; zh-tw:戴侯; zh-hk:Tejo;"
+    },
+    {
+      "original": "Waylay",
+      "conv": "zh-hans:幻棱; zh-tw:維蕾; zh-hk:Waylay;"
+    }
+  ]
+}

@@ -65,7 +65,7 @@
     },
     {
       "original": "FBI",
-      "conv": "zh-cn:联邦调查局;zh-tw:聯邦調查局;zh-hk:聯邦調查局"
+      "conv": "zh-hans:联邦调查局;zh-hant:聯邦調查局"
     },
     {
       "original": "Walker, Renee",
@@ -625,11 +625,35 @@
     },
     {
       "original": "Sutherland, Kiefer",
-      "conv": "zh-cn:基弗·萨瑟兰;zh-tw:基佛·蘇德蘭;zh-hk:基夫·修打蘭"
+      "conv": "zh-cn:基弗·萨瑟兰;zh-my:基夫·苏特兰;zh-tw:基佛·蘇德蘭;zh-hk:基夫·修打蘭"
     },
     {
       "original": "Sutherland",
-      "conv": "zh-cn:萨瑟兰;zh-tw:蘇德蘭;zh-hk:修打蘭"
+      "conv": "zh-cn:萨瑟兰;zh-my:苏特兰;zh-tw:蘇德蘭;zh-hk:修打蘭"
+    },
+    {
+      "original": "24",
+      "conv": "zh-sg:反恐24小时;zh-tw:24小時反恐任務;zh-cn:24小时;zh-hk:24;}--{-|24}--{-|24小时"
+    },
+    {
+      "original": "24",
+      "conv": "zh-sg:反恐24小时;zh-tw:24反恐任務;zh-cn:24小时;zh-hk:24;}--{-|24}--{-|24小时"
+    },
+    {
+      "original": "24",
+      "conv": "zh:《24小時》;zh-cn:《24小时》;zh-sg:《反恐24小时》;zh-tw:《24反恐任務》;zh-hk:《24》;"
+    },
+    {
+      "original": "24: Legacy",
+      "conv": "zh-tw:24反恐任務：傳承;zh-hk:24：反恐追擊;zh-sg:24：反恐追击;zh-cn:24小时：遗产;"
+    },
+    {
+      "original": "24: Live Another Day",
+      "conv": "zh-tw:活過今晚;zh-hk:生死存亡;zh-sg:生死存亡;zh-cn:再活一天;"
+    },
+    {
+      "original": "24: Redemption",
+      "conv": "zh:24：救贖;zh-tw:24反恐任務：救贖行動;zh-hk:24：序幕篇;zh-sg:24：救赎;zh-cn:24小时：救赎;"
     },
     {
       "original": "Counter Terrorist Unit",
@@ -637,11 +661,11 @@
     },
     {
       "original": "Fox Network",
-      "conv": "zh-cn:福克斯电视网; zh-tw:福斯電視網; zh-hk:霍士電視;"
+      "conv": "zh-cn:福克斯电视网;zh-sg:福斯电视网;zh-tw:福斯電視網;zh-hk:霍士電視;"
     },
     {
       "original": "Fox Broadcasting Company",
-      "conv": "zh-cn:福克斯广播公司; zh-tw:福斯廣播公司; zh-hk:霍士廣播公司;"
+      "conv": "zh-cn:福克斯广播公司;zh-sg:福斯广播公司;zh-tw:福斯廣播公司;zh-hk:霍士廣播公司;"
     }
   ]
 }
