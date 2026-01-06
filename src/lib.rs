@@ -54,6 +54,7 @@
 //! Other useful function:
 //! ```
 //! use zhconv::{is_hans, is_hans_confidence, infer_variant, infer_variant_confidence};
+//! assert!(is_hans("清乾隆嘉庆间刻本"));
 //! assert!(!is_hans("秋冬濁而春夏清，晞於朝而生於夕"));
 //! assert!(is_hans_confidence("滴瀝明花苑，葳蕤泫竹叢") < 0.5);
 //! println!("{}", infer_variant("錦字緘愁過薊水，寒衣將淚到遼城"));

@@ -9,10 +9,10 @@ use std::fmt::{self, Display};
 use std::iter::{self, Map};
 use std::str::FromStr;
 
-use once_cell::sync::Lazy;
-use regex::{Match, Matches, Regex};
+use regex::{Match, Matches};
 
 use crate::variant::{Variant, VariantMap};
+use crate::utils::regex;
 
 /// A single rule used for language conversion, usually extracted from wikitext in the syntax `-{ }-`.
 ///
@@ -391,14 +391,13 @@ impl AsRef<Conv> for ConvAction {
     }
 }
 
-static REGEX_RULE: Lazy<Regex> = Lazy::new(|| Regex::new(r"-\{.+?\}-").unwrap());
-
 /// Extract rules in wikitext.
 pub fn extract_rules<'s>(
     text: &'s str,
 ) -> Map<Matches<'static, 's>, impl FnMut(Match<'s>) -> Result<ConvRule, RuleError>> {
     // note: the regex works a little differently from the parser in converter
-    (*REGEX_RULE).find_iter(text).map(|m| {
+    let pat_rule = regex!(r"-\{.+?\}-");
+    pat_rule.find_iter(text).map(|m| {
         let rule = m.as_str();
         ConvRule::from_str(&rule[2..rule.len() - 2])
     })
