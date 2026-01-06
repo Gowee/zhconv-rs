@@ -522,10 +522,18 @@ impl ZhConverter {
     }
 
     /// Count the sum of lengths of source words to be replaced by the converter, in chars
+    ///
+    /// Source words identical to target words are omitted.
     #[doc(hidden)]
     pub fn count_replaced(&self, text: &str) -> usize {
         self.search(text)
-            .map(|(s, e, _to)| text[s..e].chars().count())
+            .map(|(s, e, to)| {
+                if &text[s..e] == to {
+                    0
+                } else {
+                    text[s..e].chars().count()
+                }
+            })
             .sum()
     }
 }
