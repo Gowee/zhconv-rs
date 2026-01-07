@@ -1,0 +1,19 @@
+version = 1
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[code_formatters]]
+name = "black"
+
+[[code_formatters]]
+name = "rustfmt"
