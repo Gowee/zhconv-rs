@@ -11,8 +11,8 @@ use std::str::FromStr;
 
 use regex::{Match, Matches};
 
-use crate::variant::{Variant, VariantMap};
 use crate::utils::regex;
+use crate::variant::{Variant, VariantMap};
 
 /// A single rule used for language conversion, usually extracted from wikitext in the syntax `-{ }-`.
 ///
