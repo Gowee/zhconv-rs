@@ -1,6 +1,6 @@
 {
   "name": "zhconv-web",
-  "version": "0.2.0-beta",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -21,7 +21,9 @@
   },
   "scripts": {
     "dev": "npm run build:wasm && vite",
-    "build:wasm": "cd .. && wasm-pack build --release -d pkg -- --features opencc --features wasm",
+    "build:wasm": "npm run build:wasm-opencc && npm run build:wasm-default",
+    "build:wasm-opencc": "cd .. && wasm-pack build --release -d web/pkg-opencc -- --features opencc --features wasm",
+    "build:wasm-default": "cd .. && wasm-pack build --release -d web/pkg-default -- --features wasm",
     "build": "npm run build:wasm && vite build",
     "preview": "vite preview",
     "test": "vitest",

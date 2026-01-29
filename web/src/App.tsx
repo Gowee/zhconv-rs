@@ -11,13 +11,9 @@ import InputEditor from "./components/InputEditor";
 import OutputEditor from "./components/OutputEditor";
 import OptionsControl from "./components/OptionsControl";
 import theme from "./theme";
+import { useWasm } from "./WasmContext";
 
 import PACKAGE from "../package.json";
-
-(async () => {
-  // preload wasm
-  await import("../../pkg/zhconv.js");
-})();
 
 function App() {
   const controlRef = useRef(null as any);
@@ -25,16 +21,17 @@ function App() {
     () => localStorage.getItem(`${PACKAGE.name}-text`) || ""
   );
   const [output, setOutput] = useState(undefined as any);
+  const { wasm } = useWasm();
+
   const handleConvert = async (
     target = "zh",
     mediawiki = false,
     cgroup = ""
   ) => {
-    if (input.trim() === "") {
+    if (input.trim() === "" || !wasm) {
       return;
     }
-    const { zhconv } = await import("../../pkg/zhconv.js");
-    setOutput(await zhconv(input, target, mediawiki, cgroup));
+    setOutput(await wasm.zhconv(input, target, mediawiki, cgroup));
     controlRef?.current &&
       controlRef.current.scrollIntoView({ behavior: "smooth" });
   };
