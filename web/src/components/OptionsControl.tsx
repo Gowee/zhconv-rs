@@ -1,26 +1,15 @@
 import { forwardRef, ForwardedRef, useState, useEffect, useRef } from "react";
-
-// import { withStyles, Theme, makeStyles } from "@material-ui/core/styles";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import Switch from "@material-ui/core/Switch";
-import Grid from "@material-ui/core/Grid";
-// import ChangeCircleOutlinedIcon from '@material-ui/icons/ChangeCircleOutlined';
-import Tooltip /*, { TooltipProps }*/ from "@material-ui/core/Tooltip";
-import Box from "@material-ui/core/Box";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Switch from "@mui/material/Switch";
+import Grid from "@mui/material/Grid";
+// import ChangeCircleOutlinedIcon from '@mui/icons-material/ChangeCircleOutlined';
+import Tooltip /*, { TooltipProps }*/ from "@mui/material/Tooltip";
+import Box from "@mui/material/Box";
 
 import CGroupSelect from "./CGroupSelect";
 import ConvertButton from "./ConvertButton";
 
 import PACKAGE from "../../package.json";
-
-// const LightTooltip = withStyles((theme: Theme) => ({
-//   tooltip: {
-//     backgroundColor: theme.palette.common.white,
-//     color: "rgba(0, 0, 0, 0.87)",
-//     boxShadow: theme.shadows[1],
-//     fontSize: 11,
-//   },
-// }))(Tooltip);
 
 function OptionsControl(
   {
@@ -49,8 +38,9 @@ function OptionsControl(
   });
   useEffect(() => {
     async function loadCGroups() {
-      const { data } = await import("../../public/cgroups.json");
-      setCGroups(data);
+      const res = await fetch("/cgroups.json");
+      const json = await res.json();
+      setCGroups(json.data as { [name: string]: string });
     }
     loadCGroups();
   }, []);
@@ -105,6 +95,7 @@ function OptionsControl(
                     checked={parsingInline}
                     onChange={() => setParsingInline(!parsingInline)}
                     name="mediawiki"
+                    color="secondary"
                   />
                 }
                 label={

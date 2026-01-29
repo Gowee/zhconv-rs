@@ -1,12 +1,11 @@
 import { useMemo, useState, useEffect } from "react";
-import TextField from "@material-ui/core/TextField";
-// import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
-import Tooltip from "@material-ui/core/Tooltip";
+import TextField from "@mui/material/TextField";
+// import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Tooltip from "@mui/material/Tooltip";
 
 import { countLines } from "../utils";
-import { useEditorStyles } from "./editorCommon";
 
 const INPUT_STATS_MAX_LEN: number = 128 * 1024;
 
@@ -17,7 +16,6 @@ export default function InputEditor({
   input: string;
   setInput: (value: string) => void;
 }) {
-  const classes = useEditorStyles();
   const [inferVariantConfidence, setInferVariantConfidence] = useState(
     () => (_: string) => "LOADING"
   );
@@ -43,11 +41,16 @@ export default function InputEditor({
         fullWidth
         autoFocus
         rows={16}
-        inputProps={{ wrap: "soft", fontSize: "1.2em" }}
+        variant="standard"
+        sx={{
+          "& .MuiInputBase-input": {
+            lineHeight: 1.2,
+          },
+        }}
         value={input}
         onChange={(event) => setInput(event.target.value)}
       />
-      <Box className={classes.statusLineWrapper}>
+      <Box sx={{ mt: 0.5, mb: -1 }}>
         <Typography variant="caption" color="textSecondary">
           Lines/橫行:{" "}
           {useMemo(

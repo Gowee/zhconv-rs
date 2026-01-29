@@ -1,27 +1,29 @@
-import Box from "@material-ui/core/Box";
-import TextField from "@material-ui/core/TextField";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
-import { useEditorStyles } from "./editorCommon";
 import OutputStatusLine from "./OutputStatusLine";
 
 export default function OutputEditor({ output }: { output: any }) {
-  const classes = useEditorStyles();
-
   return (
     <Box position="relative">
       {/* for Fab positioning */}
       {/* TODO: nowrap */}
       <TextField
-        id="input"
+        id="output"
         label="Output / 結果"
         placeholder="No input"
         multiline
         fullWidth
         rows={16}
-        inputProps={{ wrap: "soft" }}
+        variant="standard"
+        sx={{
+          "& .MuiInputBase-input": {
+            lineHeight: 1.2,
+          },
+        }}
         value={output ?? ""}
       />
-      <Box className={classes.statusLineWrapper}>
+      <Box sx={{ mt: 0.5, mb: -1 }}>
         <OutputStatusLine output={output} />
       </Box>
       {/* <WarningFab invalidLines={output?.invalid} /> */}
