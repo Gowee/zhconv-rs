@@ -1,8 +1,4 @@
-import { makeStyles } from "@material-ui/core/styles";
+// Legacy shared editor styles have been inlined using MUI's `sx` prop.
+// This module is kept as a no-op placeholder to avoid breaking imports.
 
-export const useEditorStyles = makeStyles((theme) => ({
-  statusLineWrapper: {
-    marginTop: theme.spacing(0.5),
-    marginBottom: theme.spacing(-1),
-  },
-}));
+export {};

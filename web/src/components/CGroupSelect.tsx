@@ -1,50 +1,19 @@
 import { useState, useEffect } from "react";
-import {
-  createStyles,
-  makeStyles,
-  // useTheme,
-  Theme,
-} from "@material-ui/core/styles";
-import FormControl from "@material-ui/core/FormControl";
-import FormHelperText from "@material-ui/core/FormHelperText";
-import InputLabel from "@material-ui/core/InputLabel";
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
-import Chip from "@material-ui/core/Chip";
-import Dialog /*, { DialogProps }*/ from "@material-ui/core/Dialog";
-import DialogActions from "@material-ui/core/DialogActions";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
+import Box from "@mui/material/Box";
+import FormControl from "@mui/material/FormControl";
+import FormHelperText from "@mui/material/FormHelperText";
+import InputLabel from "@mui/material/InputLabel";
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
+import Chip from "@mui/material/Chip";
+import Dialog /*, { DialogProps }*/ from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogTitle from "@mui/material/DialogTitle";
+import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
 
 import CGroupCheckbox from "./CGroupCheckbox";
-
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    formControl: {
-      margin: theme.spacing(1),
-      // minWidth: 120,
-      // maxWidth: 300,
-      // width: "50%",
-    },
-    noLabel: {
-      marginTop: theme.spacing(3),
-    },
-    chips: {
-      display: "flex",
-      justifyContent: "center",
-      flexWrap: "wrap",
-      listStyle: "none",
-      padding: theme.spacing(0.5),
-      margin: 0,
-    },
-    chip: {
-      margin: theme.spacing(0.3),
-      cursor: "pointer",
-    },
-  })
-);
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -150,7 +119,6 @@ export default function CGroupSelect({
   selected: string[];
   onSelect: (selected: string[]) => void;
 }) {
-  const classes = useStyles();
   const [dialogOpen, setDialogOpen] = useState(false);
   // const handleDelete = (name: string) => {
   //   const set = new Set(selected);
@@ -159,7 +127,7 @@ export default function CGroupSelect({
   // };
   return (
     <>
-      <FormControl className={classes.formControl}>
+      <FormControl variant="standard" sx={{ m: 1 }}>
         <InputLabel id="cgroups-select-label">CGroups / 公共轉換組</InputLabel>
         <Select
           labelId="cgroups-select-label"
@@ -172,14 +140,23 @@ export default function CGroupSelect({
           fullWidth={true}
           // input={<Input id="select-multiple-chip" />}
           renderValue={(selected) => (
-            <div className={classes.chips}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+                listStyle: "none",
+                p: 0.5,
+                m: 0,
+              }}
+            >
               {(selected as string[]).length === 0 ||
               (selected as string[])[0] === "placeholder" ? (
                 <Chip
                   key="add more"
                   label="Select CGroups / 選擇公共轉換組 ..."
                   color="primary"
-                  className={classes.chip}
+                  sx={{ m: 0.3, cursor: "pointer" }}
                   variant="outlined"
                 />
               ) : (
@@ -193,12 +170,12 @@ export default function CGroupSelect({
                     //   event.stopPropagation();
                     //   handleDelete(name);
                     // }}
-                    className={classes.chip}
+                    sx={{ m: 0.3, cursor: "pointer" }}
                     variant="outlined"
                   />
                 ))
               )}
-            </div>
+            </Box>
           )}
           MenuProps={MenuProps}
         >

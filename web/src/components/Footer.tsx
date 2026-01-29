@@ -1,21 +1,11 @@
 import { useEffect, useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import Link from "@material-ui/core/Link";
-import GitHubIcon from "@material-ui/icons/GitHub";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    marginTop: theme.spacing(3),
-  },
-  icon: {
-    fontSize: "1rem",
-  },
-}));
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Footer() {
-  const classes = useStyles();
   const [buildInfo, setBuildInfo] = useState(
     {} as {
       buildDate?: Date;
@@ -33,9 +23,8 @@ export default function Footer() {
         get_mediawiki_commit,
         get_opencc_commit,
       } = await import("../../../pkg/zhconv.js");
-      const { timestamp: cgroupTimestamp } = await import(
-        "../../public/cgroups.json"
-      );
+      const res = await fetch("/cgroups.json");
+      const { timestamp: cgroupTimestamp } = await res.json();
       setBuildInfo({
         buildDate: new Date(get_build_timestamp() ?? 0),
         commit: get_commit(),
@@ -48,12 +37,12 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className={classes.root}>
+    <Box component="footer" sx={{ mt: 3 }}>
       <Grid container justifyContent="space-between">
         <Grid item>
           <Typography variant="body2" color="textSecondary">
             <Link color="inherit" href="https://github.com/Gowee/zhconv-rs">
-              <GitHubIcon className={classes.icon} />
+              <GitHubIcon sx={{ fontSize: "1rem" }} />
               {" Source code"}
             </Link>
           </Typography>
@@ -77,7 +66,7 @@ export default function Footer() {
               color="inherit"
               href={`https://github.com/wikimedia/mediawiki/blob/${
                 buildInfo.mediawikiCommit ?? "master"
-              }/includes/languages/Data/ZhConversion.php#L14`}
+              }/includes/Languages/Data/ZhConversion.php#L14`}
               underline="always"
             >
               <code>
@@ -129,6 +118,6 @@ export default function Footer() {
           </Typography> */}
         </Grid>
       </Grid>
-    </footer>
+    </Box>
   );
 }

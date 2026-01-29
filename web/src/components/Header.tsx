@@ -1,25 +1,12 @@
 import React, { useState } from "react";
-// import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
-// import Popover from "@material-ui/core/Popover"; // TODO:
-import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
-import IconButton from "@material-ui/core/IconButton";
-import Tooltip from "@material-ui/core/Tooltip";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+// import Popover from "@mui/material/Popover"; // TODO:
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import IconButton from "@mui/material/IconButton";
+import Tooltip from "@mui/material/Tooltip";
 
 import AboutDialog from "./AboutDialog";
-
-// const useStyles = makeStyles((theme: Theme) =>
-//   createStyles({
-//     popover: {
-//       pointerEvents: "none",
-//       maxWidth: "45em",
-//     },
-//     paper: {
-//       padding: theme.spacing(1),
-//     },
-//   })
-// );
 
 export default function Header() {
   // const classes = useStyles();
