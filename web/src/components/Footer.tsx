@@ -4,10 +4,10 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { useWasm } from "../WasmContext";
+import { useApp } from "../AppContext";
 
 export default function Footer() {
-  const { wasm } = useWasm();
+  const { wasm, cgroups } = useApp();
   const [buildInfo, setBuildInfo] = useState(
     {} as {
       buildDate?: Date;
@@ -20,18 +20,16 @@ export default function Footer() {
   useEffect(() => {
     async function loadBuildInfo() {
       if (!wasm) return;
-      const res = await fetch("/cgroups.json");
-      const { timestamp: cgroupTimestamp } = await res.json();
       setBuildInfo({
         buildDate: new Date(wasm.get_build_timestamp() ?? 0),
         commit: wasm.get_commit(),
         mediawikiCommit: wasm.get_mediawiki_commit(),
         openccCommit: wasm.get_opencc_commit(),
-        cgroupDate: new Date(cgroupTimestamp * 1000),
+        cgroupDate: cgroups.timestamp ? new Date(cgroups.timestamp * 1000) : undefined,
       });
     }
     loadBuildInfo();
-  }, [wasm]);
+  }, [wasm, cgroups]);
 
   return (
     <Box component="footer" sx={{ mt: 3 }}>
@@ -49,11 +47,10 @@ export default function Footer() {
             {"Build: "}
             <Link
               color="inherit"
-              href={`https://github.com/Gowee/zhconv-rs/commit/${
-                buildInfo.commit ?? ""
-              }`}
+              href={`https://github.com/Gowee/zhconv-rs/commit/${buildInfo.commit ?? ""
+                }`}
               underline="always"
-              title={buildInfo?.buildDate?.toLocaleString() ?? undefined}
+              title={buildInfo?.buildDate?.toISOString() ?? undefined}
             >
               <code>{buildInfo.commit?.substring(0, 8) ?? "10A0D149."}</code>
             </Link>
@@ -61,9 +58,8 @@ export default function Footer() {
             {"MediaWiki: "}
             <Link
               color="inherit"
-              href={`https://github.com/wikimedia/mediawiki/blob/${
-                buildInfo.mediawikiCommit ?? "master"
-              }/includes/Languages/Data/ZhConversion.php#L14`}
+              href={`https://github.com/wikimedia/mediawiki/blob/${buildInfo.mediawikiCommit ?? "master"
+                }/includes/Languages/Data/ZhConversion.php#L14`}
               underline="always"
             >
               <code>
@@ -74,9 +70,8 @@ export default function Footer() {
             {"OpenCC: "}
             <Link
               color="inherit"
-              href={`https://github.com/BYVoid/OpenCC/blob/${
-                buildInfo.openccCommit ?? "master"
-              }/data/dictionary`}
+              href={`https://github.com/BYVoid/OpenCC/blob/${buildInfo.openccCommit ?? "master"
+                }/data/dictionary`}
               underline="always"
             >
               <code>
@@ -91,7 +86,7 @@ export default function Footer() {
               href={`https://zh.wikipedia.org/wiki/Template:CGroup/list`}
               underline="always"
             >
-              {buildInfo.cgroupDate?.toLocaleString() ?? "Date unknown"}
+              {buildInfo.cgroupDate?.toISOString() ?? "DATE_UNKNOWN"}
             </Link>
           </Typography>
           {/* <Typography variant="body2" color="textSecondary">

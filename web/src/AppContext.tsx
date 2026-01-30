@@ -21,21 +21,30 @@ type WasmModule = {
   infer_variant_confidence: (text: string) => string;
 };
 
-type WasmContextType = {
+type AppContextType = {
   wasm: WasmModule | null;
   useOpenCC: boolean;
   setUseOpenCC: (useOpenCC: boolean) => void;
+  cgroups: {
+    data: { [name: string]: string };
+    timestamp: number | null;
+  };
 };
 
-const WasmContext = createContext<WasmContextType>({
+const AppContext = createContext<AppContextType>({
   wasm: null,
   useOpenCC: false,
-  setUseOpenCC: () => {},
+  setUseOpenCC: () => { },
+  cgroups: { data: {}, timestamp: null },
 });
 
-export const useWasm = () => useContext(WasmContext);
+export const useApp = () => useContext(AppContext);
 
-export const WasmProvider: React.FC<React.PropsWithChildren> = ({
+// Alias for backward compatibility during refactor, or we can just remove it.
+// keeping it temporarily might help if I miss one, but the goal is to replace.
+// export const useWasm = useApp;
+
+export const AppProvider: React.FC<React.PropsWithChildren> = ({
   children,
 }) => {
   // wasmCache stores the loaded WebAssembly modules to prevent re-fetching and re-instantiating
@@ -48,11 +57,18 @@ export const WasmProvider: React.FC<React.PropsWithChildren> = ({
     return stored ? JSON.parse(stored) : true;
   });
 
+  const [cgroups, setCGroups] = useState<{
+    data: { [name: string]: string };
+    timestamp: number | null;
+  }>({ data: {}, timestamp: null });
+
+  // Load WASM
   useEffect(() => {
     localStorage.setItem(`${PACKAGE.name}-opencc`, JSON.stringify(useOpenCC));
     const loadWasm = async () => {
-      console.time("Wasm loading");
       const cacheKey = useOpenCC ? "opencc" : "default";
+      const loadingLabel = `zhconv loading (${cacheKey})`
+      console.time(loadingLabel);
       // If the module is already in cache, use it directly.
       // This prevents setting wasm to null and avoids a loading indicator flash
       // if the user switches back and forth between already loaded modules.
@@ -60,9 +76,9 @@ export const WasmProvider: React.FC<React.PropsWithChildren> = ({
       if (wasmCache.current[cacheKey]) {
         setWasm(wasmCache.current[cacheKey]);
         console.log(
-          `Loaded cached zhconv ${useOpenCC ? "with" : "without"} OpenCC dicts.`,
+          `Using cached wasm`,
         );
-        console.timeEnd("Wasm loading");
+        console.timeEnd(loadingLabel);
         return;
       }
 
@@ -73,17 +89,31 @@ export const WasmProvider: React.FC<React.PropsWithChildren> = ({
         : await import("@pkg-default/zhconv.js");
       wasmCache.current[cacheKey] = wasmModule;
       setWasm(wasmModule);
-      console.log(
-        `Loaded zhconv ${useOpenCC ? "with" : "without"} OpenCC dicts.`,
-      );
-      console.timeEnd("Wasm loading");
+      console.timeEnd(loadingLabel);
     };
     loadWasm();
   }, [useOpenCC]);
 
+  // Load cgroups.json
+  useEffect(() => {
+    async function loadCGroups() {
+      try {
+        const res = await fetch("/cgroups.json");
+        const json = await res.json();
+        setCGroups({
+          data: json.data as { [name: string]: string },
+          timestamp: json.timestamp as number,
+        });
+      } catch (e) {
+        console.error("Failed to load cgroups.json", e);
+      }
+    }
+    loadCGroups();
+  }, []);
+
   return (
-    <WasmContext.Provider value={{ wasm, useOpenCC, setUseOpenCC }}>
+    <AppContext.Provider value={{ wasm, useOpenCC, setUseOpenCC, cgroups }}>
       {children}
-    </WasmContext.Provider>
+    </AppContext.Provider>
   );
 };
