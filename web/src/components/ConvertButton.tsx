@@ -86,7 +86,7 @@ function ConvertButton(
 
   return (
     <Grid container direction="column" alignItems="center">
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <ButtonGroup
           variant="outlined"
           color="primary"

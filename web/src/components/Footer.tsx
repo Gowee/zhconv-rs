@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <Box component="footer" sx={{ mt: 3 }}>
       <Grid container justifyContent="space-between">
-        <Grid item>
+        <Grid>
           <Typography variant="body2" color="textSecondary">
             <Link color="inherit" href="https://github.com/Gowee/zhconv-rs">
               <GitHubIcon sx={{ fontSize: "1rem" }} />
@@ -42,7 +42,7 @@ export default function Footer() {
             </Link>
           </Typography>
         </Grid>
-        <Grid item>
+        <Grid>
           <Typography variant="body2" color="textSecondary">
             {"Build: "}
             <Link
