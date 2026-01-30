@@ -19,7 +19,7 @@ import OptionsControl from "./components/OptionsControl";
 import { variants, Variant } from "./components/ConvertButton";
 import theme from "./theme";
 import { OptionsControlHandle } from "./components/OptionsControl";
-import { useWasm } from "./WasmContext";
+import { useApp } from "./AppContext";
 
 import PACKAGE from "../package.json";
 
@@ -36,9 +36,7 @@ function App() {
 
   const [dragging, setDragging] = useState(false);
 
-  const { wasm } = useWasm();
-
-  const [cgroups, setCGroups] = useState({} as { [name: string]: string });
+  const { wasm, cgroups } = useApp();
 
   const [activatedCGroups, setActivatedCGroups] = useState(() => {
     return JSON.parse(
@@ -67,15 +65,7 @@ function App() {
 
   const isMounting = useRef(true);
 
-  useEffect(() => {
-    async function loadCGroups() {
-      const res = await fetch("/cgroups.json");
-      const json = await res.json();
-      setCGroups(json.data as { [name: string]: string });
-    }
 
-    loadCGroups();
-  }, []);
 
   useEffect(() => {
     if (isMounting.current) {
@@ -94,13 +84,13 @@ function App() {
         return;
       }
 
-      const conversionLabel = `conversion (len=${text.length})`;
+      const conversionLabel = `conversion (text.len=${text.length}, variant=${targetVariant}, wikitext=${wikitextSupport}, cgroups.len=${activatedCGroups.length})`;
       console.time(conversionLabel);
       const result = await wasm.zhconv(
         text,
         targetVariant,
         wikitextSupport,
-        activatedCGroups.map((name) => cgroups[name]).join("\n"),
+        activatedCGroups.map((name) => cgroups.data[name]).join("\n"),
       );
       console.timeEnd(conversionLabel);
       return result;
@@ -266,7 +256,7 @@ function App() {
           <Paper component="section" elevation={1} sx={{ my: 1 }}>
             <Box p={1}>
               <OptionsControl
-                cgroups={Object.keys(cgroups)}
+                cgroups={Object.keys(cgroups.data)}
                 activatedCGroups={activatedCGroups}
                 onSelectCGroups={setActivatedCGroups}
                 wikitextSupport={wikitextSupport}

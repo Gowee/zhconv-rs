@@ -16,7 +16,7 @@ import OpenCCSwitch from "./OpenCCSwitch";
 import CGroupSelect from "./CGroupSelect";
 import ConvertButton, { Variant } from "./ConvertButton";
 
-import { useWasm } from "../WasmContext";
+import { useApp } from "../AppContext";
 
 export interface OptionsControlHandle {
   controlElement: HTMLDivElement | null;
@@ -45,7 +45,7 @@ function OptionsControl(
   },
   ref: ForwardedRef<OptionsControlHandle>,
 ) {
-  const { wasm } = useWasm();
+  const { wasm } = useApp();
   const loading = wasm === null;
   const controlDivRef = useRef<HTMLDivElement>(null);
   const convertButtonRef = useRef<HTMLButtonElement>(null);

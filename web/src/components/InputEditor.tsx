@@ -4,7 +4,7 @@ import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Tooltip from "@mui/material/Tooltip";
-import { useWasm } from "../WasmContext";
+import { useApp } from "../AppContext";
 
 import { countLines } from "../utils";
 
@@ -17,7 +17,7 @@ export default function InputEditor({
   input: string;
   setInput: (value: string) => void;
 }) {
-  const { wasm } = useWasm();
+  const { wasm } = useApp();
   return (
     <>
       <TextField

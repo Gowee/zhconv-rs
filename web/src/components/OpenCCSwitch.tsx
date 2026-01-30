@@ -2,10 +2,10 @@ import React from "react";
 import Switch from "@mui/material/Switch";
 import Tooltip from "@mui/material/Tooltip";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import { useWasm } from "../WasmContext";
+import { useApp } from "../AppContext";
 
 const OpenCCSwitch: React.FC<{ disabled: boolean }> = ({ disabled }) => {
-  const { useOpenCC, setUseOpenCC } = useWasm();
+  const { useOpenCC, setUseOpenCC } = useApp();
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUseOpenCC(event.target.checked);
