@@ -66,19 +66,23 @@ export default function AboutDialog({
         </DialogTitle>
         <MuiDialogContent dividers sx={{ p: 2 }}>
           <Typography gutterBottom>
-            <Link href="https://github.com/Gowee/zhconv-rs" target="_blank" rel="noopener">
+            <Link
+              href="https://github.com/Gowee/zhconv-rs"
+              target="_blank"
+              rel="noopener"
+            >
               <GitHubIcon sx={{ fontSize: "1rem" }} />
               {" zhconv-rs"}
             </Link>
-            &nbsp;completes conversion in the browser with no data transmitting out. 
-            Built-in conversion rulesets including built-in conversion tables
-            and CGroups are sourced from MediaWiki & OpenCC and maintained by
-            their communities. The accuracy is generally acceptable while
-            limited, and erroneous conversions are to be expected.
+            &nbsp;completes conversion in the browser with no data transmitting
+            out. Built-in conversion rulesets including built-in conversion
+            tables and CGroups are sourced from MediaWiki & OpenCC and
+            maintained by their communities. The accuracy is generally
+            acceptable while limited, and erroneous conversions are to be
+            expected.
           </Typography>
           <Typography gutterBottom>
-            轉換均在瀏覽器內完成，數據不會向外傳輸。
-            包括內建轉換表（
+            轉換均在瀏覽器內完成，數據不會向外傳輸。包括內建轉換表（
             <Link href="https://github.com/wikimedia/mediawiki/blob/master/includes/languages/Data/ZhConversion.php#L14">
               1
             </Link>

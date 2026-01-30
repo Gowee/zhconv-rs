@@ -4,7 +4,11 @@ import Box from "@mui/material/Box";
 
 import { countLines } from "../utils";
 
-export default function OutputStatusLine({ output }: { output: any }) {
+export default function OutputStatusLine({
+  output,
+}: {
+  output: string | undefined;
+}) {
   return (
     <Typography variant="caption" color="textSecondary">
       Lines/橫行: {useMemo(() => countLines(output), [output])}

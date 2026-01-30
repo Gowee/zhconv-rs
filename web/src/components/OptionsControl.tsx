@@ -1,4 +1,9 @@
-import { forwardRef, ForwardedRef, useRef, ChangeEventHandler } from "react";
+import {
+  forwardRef,
+  ForwardedRef,
+  useRef,
+  useImperativeHandle,
+} from "react";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 import Grid from "@mui/material/Grid";
@@ -12,6 +17,11 @@ import CGroupSelect from "./CGroupSelect";
 import ConvertButton, { Variant } from "./ConvertButton";
 
 import { useWasm } from "../WasmContext";
+
+export interface OptionsControlHandle {
+  controlElement: HTMLDivElement | null;
+  clickConvert: () => void;
+}
 
 function OptionsControl(
   {
@@ -33,11 +43,19 @@ function OptionsControl(
     targetVariant: Variant;
     setTargetVariant: (target: Variant) => void;
   },
-  ref: ForwardedRef<any>,
+  ref: ForwardedRef<OptionsControlHandle>,
 ) {
   const { wasm } = useWasm();
   const loading = wasm === null;
-  const convertButtonRef = useRef(null as any);
+  const controlDivRef = useRef<HTMLDivElement>(null);
+  const convertButtonRef = useRef<HTMLButtonElement>(null);
+
+  useImperativeHandle(ref, () => ({
+    controlElement: controlDivRef.current,
+    clickConvert: () => {
+      convertButtonRef.current?.click();
+    },
+  }));
 
   return (
     <Box className="options-control" sx={{ position: "relative" }}>
@@ -53,7 +71,7 @@ function OptionsControl(
         <Grid item>
           <Grid
             container
-            ref={ref}
+            ref={controlDivRef}
             direction="row"
             justifyContent="space-around"
             alignItems="center"

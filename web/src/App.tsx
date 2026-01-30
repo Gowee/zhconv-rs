@@ -18,6 +18,7 @@ import OutputEditor from "./components/OutputEditor";
 import OptionsControl from "./components/OptionsControl";
 import { variants, Variant } from "./components/ConvertButton";
 import theme from "./theme";
+import { OptionsControlHandle } from "./components/OptionsControl";
 import { useWasm } from "./WasmContext";
 
 import PACKAGE from "../package.json";
@@ -25,13 +26,13 @@ import PACKAGE from "../package.json";
 function App() {
   const { enqueueSnackbar } = useSnackbar();
 
-  const controlRef = useRef(null as any);
+  const controlRef = useRef<OptionsControlHandle>(null);
 
   const [input, setInput] = useState(
     () => localStorage.getItem(`${PACKAGE.name}-text`) || "",
   );
 
-  const [output, setOutput] = useState(undefined as any);
+  const [output, setOutput] = useState<string | undefined>(undefined);
 
   const [dragging, setDragging] = useState(false);
 
@@ -87,15 +88,6 @@ function App() {
     localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
   }, [activatedCGroups]);
 
-  useEffect(() => {
-    if (isMounting.current) {
-      return; // Already handled by the first useEffect
-    }
-    handleConvert();
-    const s = JSON.stringify(wikitextSupport);
-    localStorage.setItem(`${PACKAGE.name}-wikitext-support`, s);
-  }, [wikitextSupport]);
-
   const convertText = useCallback(
     async (text: string) => {
       if (!wasm) {
@@ -123,22 +115,29 @@ function App() {
     }
 
     setOutput(await convertText(input));
-
-    controlRef?.current &&
-      controlRef.current.scrollIntoView({ behavior: "smooth" });
+    if (controlRef.current?.controlElement) {
+      controlRef.current.controlElement.scrollIntoView({ behavior: "smooth" });
+    }
   }, [input, wasm, convertText]);
 
   useEffect(() => {
     if (isMounting.current) {
-      isMounting.current = false;
-
-      return;
+      return; // Already handled by the first useEffect
     }
-    handleConvert();
+    controlRef.current?.clickConvert();
     localStorage.setItem(`${PACKAGE.name}-target-variant`, targetVariant);
     window.history.replaceState({}, "", `#${targetVariant}`);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [targetVariant]);
+  }, [targetVariant, controlRef]);
+
+  useEffect(() => {
+    if (isMounting.current) {
+      return; // Already handled by the first useEffect
+    }
+
+    controlRef.current?.clickConvert();
+    const s = JSON.stringify(wikitextSupport);
+    localStorage.setItem(`${PACKAGE.name}-wikitext-support`, s);
+  }, [wikitextSupport, controlRef]);
 
   const handleFiles = useCallback(
     async (files: File[]) => {
@@ -163,14 +162,14 @@ function App() {
 
           let origName = file.name;
           let origExt = "";
-          const lastDotIndex = file.name.lastIndexOf('.');
+          const lastDotIndex = file.name.lastIndexOf(".");
 
           if (lastDotIndex > 0) {
             origName = file.name.substring(0, lastDotIndex);
             origExt = file.name.substring(lastDotIndex + 1);
           }
 
-          const newFileName = `${origName} ${targetVariant}${origExt ? `.${origExt}` : ''}`;
+          const newFileName = `${origName} ${targetVariant}${origExt ? `.${origExt}` : ""}`;
           a.download = newFileName;
           document.body.appendChild(a);
           a.click();
@@ -180,7 +179,7 @@ function App() {
           enqueueSnackbar(`Converted ${file.name}.`, {
             variant: "success",
           });
-        } catch (e: any) {
+        } catch (e: unknown) {
           let reason = "Unknown error";
 
           if (e instanceof TypeError && e.message.includes("decode")) {
@@ -209,17 +208,13 @@ function App() {
 
   const handleDragEnter = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
-
     e.stopPropagation();
-
     setDragging(true);
   };
 
   const handleDragLeave = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
-
     e.stopPropagation();
-
     if (!e.currentTarget.contains(e.relatedTarget as Node)) {
       setDragging(false);
     }
@@ -227,20 +222,15 @@ function App() {
 
   const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
-
     e.stopPropagation();
   };
 
   const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
-
     e.stopPropagation();
-
     setDragging(false);
-
     if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
       handleFiles(Array.from(e.dataTransfer.files));
-
       e.dataTransfer.clearData();
     }
   };
@@ -324,11 +314,14 @@ function App() {
         onChange={onFileChange}
       />
       <label htmlFor="fab-button-file">
-        <Tooltip title={<>
-          Convert one or more files in UTF-8 encoding
-          <br/>
-          / 轉換一個或多個 UTF-8 編碼的檔案
-          </>}>
+        <Tooltip
+          title={
+            <>
+              Convert one or more files in UTF-8 encoding
+              <br />/ 轉換一個或多個檔案（須為 UTF-8 編碼）
+            </>
+          }
+        >
           <Fab
             sx={{
               position: "fixed",

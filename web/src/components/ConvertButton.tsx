@@ -1,7 +1,7 @@
 import React, {
-  useEffect,
   useState,
   useRef,
+  useEffect,
   forwardRef,
   ForwardedRef,
 } from "react";
@@ -36,15 +36,26 @@ function ConvertButton(
     onConvert,
     targetVariant,
     setTargetVariant,
+    disabled,
   }: {
     onConvert: () => void;
     targetVariant: Variant;
     setTargetVariant: (variant: Variant) => void;
+    disabled: boolean;
   },
-  ref: ForwardedRef<any>,
+  ref: ForwardedRef<HTMLButtonElement>,
 ) {
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLDivElement>(null);
+  // The seemingly redundant anchorEl is used to prevent the lint warning:
+  // "Error: Cannot access refs during render"
+  const [anchorEl, setAnchorEl] = useState<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (anchorRef.current) {
+      setAnchorEl(anchorRef.current);
+    }
+  }, [anchorRef]);
 
   const handleClick = () => {
     onConvert();
@@ -81,6 +92,7 @@ function ConvertButton(
           color="primary"
           ref={anchorRef}
           aria-label="convert button"
+          disabled={disabled}
         >
           <Tooltip title="Convert to the target variant / 轉換到此變體">
             <Button ref={ref} onClick={handleClick}>
@@ -105,7 +117,7 @@ function ConvertButton(
         </ButtonGroup>
         <Popper
           open={open}
-          anchorEl={anchorRef.current}
+          anchorEl={anchorEl}
           role={undefined}
           style={{ zIndex: 1900 }}
           transition

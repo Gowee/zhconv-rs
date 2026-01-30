@@ -35,7 +35,7 @@ const WasmContext = createContext<WasmContextType>({
 
 export const useWasm = () => useContext(WasmContext);
 
-export const WasmProvider: React.FC<React.PropsWithChildren<{}>> = ({
+export const WasmProvider: React.FC<React.PropsWithChildren> = ({
   children,
 }) => {
   // wasmCache stores the loaded WebAssembly modules to prevent re-fetching and re-instantiating
