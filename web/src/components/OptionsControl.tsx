@@ -60,7 +60,7 @@ function OptionsControl(
   return (
     <Box className="options-control" sx={{ position: "relative" }}>
       <Grid container direction="row" justifyContent="space-around">
-        <Grid item>
+        <Grid>
           <CGroupSelect
             cgroups={cgroups}
             selected={activatedCGroups}
@@ -68,7 +68,7 @@ function OptionsControl(
             disabled={loading}
           />
         </Grid>
-        <Grid item>
+        <Grid>
           <Grid
             container
             ref={controlDivRef}
@@ -77,7 +77,7 @@ function OptionsControl(
             alignItems="center"
             style={{ alignItems: "center", height: "100%" }}
           >
-            <Grid item>
+            <Grid>
               <Tooltip
                 title={
                   <>
@@ -109,10 +109,10 @@ function OptionsControl(
                 />
               </Tooltip>
             </Grid>
-            <Grid item>
+            <Grid>
               <OpenCCSwitch disabled={loading} />
             </Grid>
-            <Grid item>
+            <Grid>
               <ConvertButton
                 ref={convertButtonRef}
                 onConvert={onConvert}

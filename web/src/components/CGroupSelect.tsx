@@ -92,7 +92,7 @@ function CGroupDialog({
       </DialogContent>
       <DialogActions>
         <Grid container direction="row" justifyContent="space-between">
-          <Grid item>
+          <Grid>
             <Button onClick={handleClear} color="primary">
               Clear / 清空
             </Button>
@@ -100,7 +100,7 @@ function CGroupDialog({
               Invert / 反選
             </Button>
           </Grid>
-          <Grid item>
+          <Grid>
             <Button onClick={handleClose} color="secondary">
               Ok / 好
             </Button>
@@ -152,7 +152,7 @@ export default function CGroupSelect({
               }}
             >
               {(selected as string[]).length === 0 ||
-              (selected as string[])[0] === "placeholder" ? (
+                (selected as string[])[0] === "placeholder" ? (
                 <Chip
                   key="add more"
                   label="Select CGroups / 選擇公共轉換組 ..."
