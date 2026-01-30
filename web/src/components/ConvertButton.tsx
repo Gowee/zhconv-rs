@@ -18,9 +18,7 @@ import MenuList from "@mui/material/MenuList";
 import Box from "@mui/material/Box";
 import Tooltip from "@mui/material/Tooltip";
 
-import PACKAGE from "../../package.json";
-
-const variants = {
+export const variants = {
   zh: "zh 原文",
   "zh-Hant": "zh-Hant 繁體",
   "zh-Hans": "zh-Hans 简体",
@@ -31,53 +29,34 @@ const variants = {
   "zh-SG": "zh-SG 新加坡简体",
   "zh-MY": "zh-MY 大马简体",
 };
-type Variant = keyof typeof variants;
+export type Variant = keyof typeof variants;
 
 function ConvertButton(
   {
-    onConvert: handleConvert,
+    onConvert,
+    targetVariant,
+    setTargetVariant,
   }: {
-    onConvert: (target: Variant) => void;
+    onConvert: () => void;
+    targetVariant: Variant;
+    setTargetVariant: (variant: Variant) => void;
   },
-  ref: ForwardedRef<any>
+  ref: ForwardedRef<any>,
 ) {
-  const isMounting = useRef(true);
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLDivElement>(null);
-  const [selectedVariant, setSelectedVariant] = useState<Variant>(() => {
-    const hash = window.location.hash.slice(1) as Variant;
-    if (variants[hash]) {
-      return hash;
-    } else {
-      return (
-        (localStorage.getItem(`${PACKAGE.name}-selected-variant`) as Variant) ??
-        "zh"
-      );
-    }
-  });
 
   const handleClick = () => {
-    handleConvert(selectedVariant);
+    onConvert();
   };
 
   const handleMenuItemClick = (
     event: React.MouseEvent<HTMLLIElement, MouseEvent>,
-    variant: string
+    variant: string,
   ) => {
-    setSelectedVariant(variant as Variant);
     setOpen(false);
+    setTargetVariant(variant as Variant);
   };
-
-  useEffect(() => {
-    if (isMounting.current) {
-      isMounting.current = false;
-      return;
-    }
-    handleConvert(selectedVariant);
-    localStorage.setItem(`${PACKAGE.name}-selected-variant`, selectedVariant);
-    window.history.replaceState({}, "", `#${selectedVariant}`);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedVariant]);
 
   const handleToggle = () => {
     setOpen((prevOpen) => !prevOpen);
@@ -103,16 +82,14 @@ function ConvertButton(
           ref={anchorRef}
           aria-label="convert button"
         >
-          <Tooltip title="Click to convert / 點擊以轉換">
+          <Tooltip title="Convert to the target variant / 轉換到此變體">
             <Button ref={ref} onClick={handleClick}>
               <small>To/至</small>
               &nbsp;
-              <Box sx={{ whiteSpace: "nowrap" }}>
-                {variants[selectedVariant]}
-              </Box>
+              <Box sx={{ whiteSpace: "nowrap" }}>{variants[targetVariant]}</Box>
             </Button>
           </Tooltip>
-          <Tooltip title="Click and select a target variant / 點擊並選擇目標變體">
+          <Tooltip title="Select a target variant / 選擇變體">
             <Button
               color="primary"
               size="small"
@@ -148,7 +125,7 @@ function ConvertButton(
                     {Object.entries(variants).map(([variant, option]) => (
                       <MenuItem
                         key={variant}
-                        selected={selectedVariant === variant}
+                        selected={targetVariant === variant}
                         onClick={(event) => handleMenuItemClick(event, variant)}
                         style={{ justifyContent: "center" }}
                       >

@@ -21,7 +21,14 @@ const OpenCCSwitch: React.FC<{ disabled: boolean }> = ({ disabled }) => {
       }
     >
       <FormControlLabel
-        control={<Switch checked={useOpenCC} onChange={handleChange} color="secondary" disabled={disabled} />}
+        control={
+          <Switch
+            checked={useOpenCC}
+            onChange={handleChange}
+            color="secondary"
+            disabled={disabled}
+          />
+        }
         label="OpenCC"
       />
     </Tooltip>

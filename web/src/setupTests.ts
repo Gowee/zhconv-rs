@@ -1,4 +1,3 @@
-
 const localStorageMock = (() => {
   let store: { [key: string]: string } = {};
   return {

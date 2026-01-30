@@ -1,9 +1,10 @@
-import { useMemo, useState, useEffect } from "react";
+import { useMemo } from "react";
 import TextField from "@mui/material/TextField";
 // import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Tooltip from "@mui/material/Tooltip";
+import { useWasm } from "../WasmContext";
 
 import { countLines } from "../utils";
 
@@ -16,21 +17,7 @@ export default function InputEditor({
   input: string;
   setInput: (value: string) => void;
 }) {
-  const [inferVariantConfidence, setInferVariantConfidence] = useState(
-    () => (_: string) => "LOADING"
-  );
-  // useEffect(() => {
-  //   () => import("../../../pkg/zhconv.js").then(({ infer_variant_confidence }) => setInferVariantConfidence(infer_variant_confidence))
-  // }, []);
-  useEffect(() => {
-    const loadMod = async () => {
-      const { infer_variant_confidence } = await import(
-        "../../../pkg/zhconv.js"
-      );
-      setInferVariantConfidence(() => infer_variant_confidence);
-    };
-    loadMod();
-  }, []);
+  const { wasm } = useWasm();
   return (
     <>
       <TextField
@@ -60,7 +47,7 @@ export default function InputEditor({
               ) : (
                 countLines(input)
               ),
-            [input]
+            [input],
           )}
           <Box
             component="span"
@@ -76,15 +63,15 @@ export default function InputEditor({
             ・
           </Box>
           Variant/變體:{" "}
-          {useMemo(
-            () =>
-              input.length > INPUT_STATS_MAX_LEN ? (
-                <NAwithTooltip />
-              ) : (
-                inferVariantConfidence(input ?? "")
-              ),
-            [input, inferVariantConfidence]
-          )}
+          {useMemo(() => {
+            if (input.length > INPUT_STATS_MAX_LEN) {
+              return <NAwithTooltip />;
+            }
+            if (!wasm) {
+              return "LOADING";
+            }
+            return wasm.infer_variant_confidence(input ?? "");
+          }, [input, wasm])}
         </Typography>
       </Box>
     </>

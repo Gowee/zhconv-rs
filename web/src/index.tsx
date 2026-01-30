@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { WasmProvider } from "./WasmContext";
+import { SnackbarProvider } from "notistack";
 
 const rootElement = document.getElementById("root");
 if (rootElement) {
@@ -11,9 +12,11 @@ if (rootElement) {
   root.render(
     <React.StrictMode>
       <WasmProvider>
-        <App />
+        <SnackbarProvider maxSnack={7}>
+          <App />
+        </SnackbarProvider>
       </WasmProvider>
-    </React.StrictMode>
+    </React.StrictMode>,
   );
 }
 
