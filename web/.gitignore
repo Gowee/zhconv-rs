@@ -28,3 +28,17 @@ yarn-error.log*
 
 dist/
 
+pkg-opencc
+pkg-default
+
+package-lock.json
+
+# yarn berry without zero install
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+

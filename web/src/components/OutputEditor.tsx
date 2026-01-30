@@ -3,7 +3,11 @@ import TextField from "@mui/material/TextField";
 
 import OutputStatusLine from "./OutputStatusLine";
 
-export default function OutputEditor({ output }: { output: any }) {
+export default function OutputEditor({
+  output,
+}: {
+  output: string | undefined;
+}) {
   return (
     <Box position="relative">
       {/* for Fab positioning */}

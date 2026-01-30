@@ -1,131 +1,141 @@
-import { forwardRef, ForwardedRef, useState, useEffect, useRef } from "react";
+import {
+  forwardRef,
+  ForwardedRef,
+  useRef,
+  useImperativeHandle,
+} from "react";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 import Grid from "@mui/material/Grid";
-// import ChangeCircleOutlinedIcon from '@mui/icons-material/ChangeCircleOutlined';
-import Tooltip /*, { TooltipProps }*/ from "@mui/material/Tooltip";
+import Tooltip from "@mui/material/Tooltip";
 import Box from "@mui/material/Box";
+import CircularProgress from "@mui/material/CircularProgress";
+import Backdrop from "@mui/material/Backdrop";
 
+import OpenCCSwitch from "./OpenCCSwitch";
 import CGroupSelect from "./CGroupSelect";
-import ConvertButton from "./ConvertButton";
+import ConvertButton, { Variant } from "./ConvertButton";
 
-import PACKAGE from "../../package.json";
+import { useWasm } from "../WasmContext";
+
+export interface OptionsControlHandle {
+  controlElement: HTMLDivElement | null;
+  clickConvert: () => void;
+}
 
 function OptionsControl(
   {
-    handleConvert,
+    cgroups,
+    activatedCGroups,
+    onSelectCGroups,
+    wikitextSupport,
+    onToggleWikitextSupport,
+    onConvert,
+    targetVariant,
+    setTargetVariant,
   }: {
-    handleConvert: (
-      target: string,
-      mediawiki?: boolean,
-      cgroup?: string
-    ) => void;
+    cgroups: string[];
+    activatedCGroups: string[];
+    onSelectCGroups: (groups: string[]) => void;
+    wikitextSupport: boolean;
+    onToggleWikitextSupport: () => void;
+    onConvert: () => void;
+    targetVariant: Variant;
+    setTargetVariant: (target: Variant) => void;
   },
-  ref: ForwardedRef<any>
+  ref: ForwardedRef<OptionsControlHandle>,
 ) {
-  const convertButtonRef = useRef(null as any);
-  const isMounting = useRef(true);
-  const [cgroups, setCGroups] = useState({} as { [name: string]: string });
-  const [activatedCGroups, setActivatedCGroups] = useState(() => {
-    return JSON.parse(
-      localStorage.getItem(`${PACKAGE.name}-activated-cgroups`) || "[]"
-    ) as string[];
-  });
-  const [parsingInline, setParsingInline] = useState(() => {
-    return JSON.parse(
-      localStorage.getItem(`${PACKAGE.name}-parsing-inline`) || "false"
-    ) as boolean;
-  });
-  useEffect(() => {
-    async function loadCGroups() {
-      const res = await fetch("/cgroups.json");
-      const json = await res.json();
-      setCGroups(json.data as { [name: string]: string });
-    }
-    loadCGroups();
-  }, []);
-  useEffect(() => {
-    if (isMounting.current) {
-      isMounting.current = false;
-      return;
-    }
-    const s = JSON.stringify(activatedCGroups);
-    localStorage.setItem(`${PACKAGE.name}-activated-cgroups`, s);
-  }, [activatedCGroups]);
-  useEffect(() => {
-    if (isMounting.current) {
-      // isMounting.current = false;
-      return;
-    }
-    const s = JSON.stringify(parsingInline);
-    localStorage.setItem(`${PACKAGE.name}-parsing-inline`, s);
-    convertButtonRef.current?.click();
-  }, [parsingInline]);
+  const { wasm } = useWasm();
+  const loading = wasm === null;
+  const controlDivRef = useRef<HTMLDivElement>(null);
+  const convertButtonRef = useRef<HTMLButtonElement>(null);
+
+  useImperativeHandle(ref, () => ({
+    controlElement: controlDivRef.current,
+    clickConvert: () => {
+      convertButtonRef.current?.click();
+    },
+  }));
+
   return (
-    <Grid container direction="row" justifyContent="space-around">
-      <Grid item>
-        <CGroupSelect
-          cgroups={Object.keys(cgroups)}
-          selected={activatedCGroups}
-          onSelect={setActivatedCGroups}
-        />
-      </Grid>
-      <Grid item>
-        <Grid
-          container
-          ref={ref}
-          direction="row"
-          justifyContent="space-around"
-          alignItems="center"
-          style={{ alignItems: "center", height: "100%" }}
-        >
-          <Grid item>
-            <Tooltip
-              title={
-                <>
-                  Parse and apply inline rules in MediaWiki LanguageConverter
-                  syntax
-                  <br />/ 解析並應用文本中的 MediaWiki 語言轉換規則
-                </>
-              }
-            >
-              <FormControlLabel
-                control={
-                  <Switch
-                    checked={parsingInline}
-                    onChange={() => setParsingInline(!parsingInline)}
-                    name="mediawiki"
-                    color="secondary"
-                  />
+    <Box className="options-control" sx={{ position: "relative" }}>
+      <Grid container direction="row" justifyContent="space-around">
+        <Grid item>
+          <CGroupSelect
+            cgroups={cgroups}
+            selected={activatedCGroups}
+            onSelect={onSelectCGroups}
+            disabled={loading}
+          />
+        </Grid>
+        <Grid item>
+          <Grid
+            container
+            ref={controlDivRef}
+            direction="row"
+            justifyContent="space-around"
+            alignItems="center"
+            style={{ alignItems: "center", height: "100%" }}
+          >
+            <Grid item>
+              <Tooltip
+                title={
+                  <>
+                    Enable MediaWiki conversion syntax support
+                    <br />/ 啟用 MediaWiki 字詞轉換語法
+                  </>
                 }
-                label={
-                  <Box
-                    component="span"
-                    display="flex"
-                    flexDirection="column"
-                    alignItems="center"
-                  >
-                    <span>Wikitext</span>
-                  </Box>
-                }
+              >
+                <FormControlLabel
+                  control={
+                    <Switch
+                      checked={wikitextSupport}
+                      onChange={onToggleWikitextSupport}
+                      name="mediawiki"
+                      color="secondary"
+                      disabled={loading}
+                    />
+                  }
+                  label={
+                    <Box
+                      component="span"
+                      display="flex"
+                      flexDirection="column"
+                      alignItems="center"
+                    >
+                      <span>Wikitext</span>
+                    </Box>
+                  }
+                />
+              </Tooltip>
+            </Grid>
+            <Grid item>
+              <OpenCCSwitch disabled={loading} />
+            </Grid>
+            <Grid item>
+              <ConvertButton
+                ref={convertButtonRef}
+                onConvert={onConvert}
+                targetVariant={targetVariant}
+                setTargetVariant={setTargetVariant}
+                disabled={loading}
               />
-            </Tooltip>
-          </Grid>
-          <Grid item>
-            <ConvertButton
-              ref={convertButtonRef}
-              onConvert={(target) =>
-                handleConvert(
-                  target,
-                  parsingInline,
-                  activatedCGroups.map((name) => cgroups[name]).join("\n")
-                )
-              }
-            />
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
-    </Grid>
+      <Backdrop
+        sx={{
+          position: "absolute",
+          color: "#fff",
+          zIndex: (theme) => theme.zIndex.drawer + 1,
+          backgroundColor: "rgba(0, 0, 0, 0.382)",
+        }}
+        open={loading}
+      >
+        <CircularProgress color="secondary" />
+      </Backdrop>
+    </Box>
   );
 }
 

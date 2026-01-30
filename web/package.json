@@ -1,19 +1,16 @@
 {
   "name": "zhconv-web",
-  "version": "0.2.0-beta",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.7",
     "@mui/material": "^7.3.7",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
-    "@testing-library/user-event": "^14.6.1",
-    "@types/jest": "^30.0.0",
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
+    "notistack": "^3.0.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "typescript": "^5.9.3",
@@ -21,17 +18,13 @@
   },
   "scripts": {
     "dev": "npm run build:wasm && vite",
-    "build:wasm": "cd .. && wasm-pack build --release -d pkg -- --features opencc --features wasm",
+    "build:wasm": "npm run build:wasm-opencc && npm run build:wasm-default",
+    "build:wasm-opencc": "cd .. && wasm-pack build --release -d web/pkg-opencc -- --features opencc --features wasm",
+    "build:wasm-default": "cd .. && wasm-pack build --release -d web/pkg-default -- --features wasm",
     "build": "npm run build:wasm && vite build",
     "preview": "vite preview",
-    "test": "vitest",
-    "format": "yarn prettier -w src/ && yarn eslint --fix src/"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "format": "prettier -w src/"
   },
   "browserslist": {
     "production": [
@@ -46,13 +39,18 @@
     ]
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@types/minimatch": "^6.0.0",
     "@vitejs/plugin-react-swc": "^4.2.2",
-    "jsdom": "^27.4.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.2.0",
+    "jiti": "^2.6.1",
     "prettier": "^3.8.1",
+    "typescript-eslint": "^8.54.0",
     "vite": "^7.3.1",
-    "vite-plugin-top-level-await": "^1.6.0",
-    "vite-plugin-wasm": "^3.5.0",
-    "vitest": "^4.0.18"
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-wasm": "^3.5.0"
   }
 }

@@ -4,8 +4,10 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useWasm } from "../WasmContext";
 
 export default function Footer() {
+  const { wasm } = useWasm();
   const [buildInfo, setBuildInfo] = useState(
     {} as {
       buildDate?: Date;
@@ -13,28 +15,23 @@ export default function Footer() {
       mediawikiCommit?: string;
       openccCommit?: string;
       cgroupDate?: Date;
-    }
+    },
   );
   useEffect(() => {
     async function loadBuildInfo() {
-      const {
-        get_build_timestamp,
-        get_commit,
-        get_mediawiki_commit,
-        get_opencc_commit,
-      } = await import("../../../pkg/zhconv.js");
+      if (!wasm) return;
       const res = await fetch("/cgroups.json");
       const { timestamp: cgroupTimestamp } = await res.json();
       setBuildInfo({
-        buildDate: new Date(get_build_timestamp() ?? 0),
-        commit: get_commit(),
-        mediawikiCommit: get_mediawiki_commit(),
-        openccCommit: get_opencc_commit(),
+        buildDate: new Date(wasm.get_build_timestamp() ?? 0),
+        commit: wasm.get_commit(),
+        mediawikiCommit: wasm.get_mediawiki_commit(),
+        openccCommit: wasm.get_opencc_commit(),
         cgroupDate: new Date(cgroupTimestamp * 1000),
       });
     }
     loadBuildInfo();
-  }, []);
+  }, [wasm]);
 
   return (
     <Box component="footer" sx={{ mt: 3 }}>

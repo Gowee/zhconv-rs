@@ -48,7 +48,7 @@ function CGroupDialog({
   const [_selected_, setSelected_] = useState([] as string[]);
   const handleCheck = (name: string, checked: boolean) => {
     setSelected_((prev: string[]) => {
-      let set = new Set(prev);
+      const set = new Set(prev);
       if (checked) {
         set.add(name);
       } else {
@@ -59,12 +59,13 @@ function CGroupDialog({
     });
   };
   // this might trigger an extra unnecessary render. but it won't cause an actually trouble
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setSelected_(selected), [selected]);
   const handleClear = () => {
     handleSelect([]);
   };
   const handleInvert = () => {
-    let set = new Set(selected);
+    const set = new Set(selected);
     handleSelect(cgroups.filter((name) => !set.has(name)));
   };
   return (

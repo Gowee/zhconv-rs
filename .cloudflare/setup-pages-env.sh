@@ -1,6 +1,8 @@
 #!/bin/sh
 set -eu
-npm install --global yarn || true
+# In Pages build environment version 3, the default is yarn berry. 
+# npm install --global yarn || true
+yarn --version
 
 curl -o rustup.sh https://sh.rustup.rs
 chmod +x rustup.sh
