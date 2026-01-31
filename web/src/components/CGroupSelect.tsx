@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import FormControl from "@mui/material/FormControl";
 import FormHelperText from "@mui/material/FormHelperText";
@@ -115,11 +116,15 @@ export default function CGroupSelect({
   cgroups,
   selected,
   onSelect: handleSelect,
+  disabled,
 }: {
-  cgroups: string[];
+  cgroups: string[] | null;
   selected: string[];
   onSelect: (selected: string[]) => void;
+  disabled?: boolean;
 }) {
+  const loading = cgroups === null;
+  const isDisabled = loading || disabled;
   const [dialogOpen, setDialogOpen] = useState(false);
   // const handleDelete = (name: string) => {
   //   const set = new Set(selected);
@@ -139,6 +144,7 @@ export default function CGroupSelect({
           onOpen={() => setDialogOpen(true)}
           style={{ width: "100%" }}
           fullWidth={true}
+          disabled={isDisabled}
           // input={<Input id="select-multiple-chip" />}
           renderValue={(selected) => (
             <Box
@@ -151,7 +157,9 @@ export default function CGroupSelect({
                 m: 0,
               }}
             >
-              {(selected as string[]).length === 0 ||
+              {loading ? (
+                <CircularProgress size={24} color="inherit" />
+              ) : (selected as string[]).length === 0 ||
                 (selected as string[])[0] === "placeholder" ? (
                 <Chip
                   key="add more"
@@ -188,7 +196,7 @@ export default function CGroupSelect({
         </Select>
       </FormControl>
       <CGroupDialog
-        cgroups={cgroups}
+        cgroups={cgroups || []}
         selected={selected}
         onSelect={handleSelect}
         open={dialogOpen}
