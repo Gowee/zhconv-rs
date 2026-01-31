@@ -25,7 +25,7 @@ export default function Footer() {
         commit: wasm.get_commit(),
         mediawikiCommit: wasm.get_mediawiki_commit(),
         openccCommit: wasm.get_opencc_commit(),
-        cgroupDate: cgroups.timestamp ? new Date(cgroups.timestamp * 1000) : undefined,
+        cgroupDate: cgroups?.timestamp ? new Date(cgroups.timestamp * 1000) : undefined,
       });
     }
     loadBuildInfo();

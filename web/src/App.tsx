@@ -145,7 +145,7 @@ function App() {
             continue;
           }
           const converted = await convertText(text);
-          const blob = new Blob([converted], { type: "text/plain" });
+          const blob = new Blob([converted ?? ""], { type: "text/plain" });
           const url = URL.createObjectURL(blob);
           const a = document.createElement("a");
           a.href = url;
