@@ -28,14 +28,14 @@ type AppContextType = {
   cgroups: {
     data: { [name: string]: string };
     timestamp: number | null;
-  };
+  } | null;
 };
 
 const AppContext = createContext<AppContextType>({
   wasm: null,
   useOpenCC: false,
   setUseOpenCC: () => { },
-  cgroups: { data: {}, timestamp: null },
+  cgroups: null,
 });
 
 export const useApp = () => useContext(AppContext);
@@ -54,13 +54,13 @@ export const AppProvider: React.FC<React.PropsWithChildren> = ({
   const [wasm, setWasm] = useState<WasmModule | null>(null);
   const [useOpenCC, setUseOpenCC] = useState(() => {
     const stored = localStorage.getItem(`${PACKAGE.name}-opencc`);
-    return stored ? JSON.parse(stored) : true;
+    return stored ? JSON.parse(stored) : false;
   });
 
   const [cgroups, setCGroups] = useState<{
     data: { [name: string]: string };
     timestamp: number | null;
-  }>({ data: {}, timestamp: null });
+  } | null>(null);
 
   // Load WASM
   useEffect(() => {

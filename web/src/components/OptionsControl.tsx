@@ -34,7 +34,7 @@ function OptionsControl(
     targetVariant,
     setTargetVariant,
   }: {
-    cgroups: string[];
+    cgroups: string[] | null;
     activatedCGroups: string[];
     onSelectCGroups: (groups: string[]) => void;
     wikitextSupport: boolean;

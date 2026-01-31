@@ -80,7 +80,7 @@ function App() {
 
   const convertText = useCallback(
     async (text: string) => {
-      if (!wasm) {
+      if (!wasm || !cgroups) {
         return;
       }
 
@@ -100,7 +100,7 @@ function App() {
   );
 
   const handleConvert = useCallback(async () => {
-    if (input.trim() === "" || !wasm) {
+    if (input.trim() === "" || !wasm || !cgroups) {
       return;
     }
 
@@ -108,7 +108,7 @@ function App() {
     if (controlRef.current?.controlElement) {
       controlRef.current.controlElement.scrollIntoView({ behavior: "smooth" });
     }
-  }, [input, wasm, convertText]);
+  }, [input, wasm, convertText, cgroups]);
 
   useEffect(() => {
     if (isMounting.current) {
@@ -131,7 +131,7 @@ function App() {
 
   const handleFiles = useCallback(
     async (files: File[]) => {
-      if (!files.length || !wasm) {
+      if (!files.length || !wasm || !cgroups) {
         return;
       }
 
@@ -185,7 +185,7 @@ function App() {
       }
     },
 
-    [wasm, convertText, targetVariant, enqueueSnackbar],
+    [wasm, convertText, targetVariant, enqueueSnackbar, cgroups],
   );
 
   const onFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -256,7 +256,7 @@ function App() {
           <Paper component="section" elevation={1} sx={{ my: 1 }}>
             <Box p={1}>
               <OptionsControl
-                cgroups={Object.keys(cgroups.data)}
+                cgroups={cgroups ? Object.keys(cgroups.data) : null}
                 activatedCGroups={activatedCGroups}
                 onSelectCGroups={setActivatedCGroups}
                 wikitextSupport={wikitextSupport}
