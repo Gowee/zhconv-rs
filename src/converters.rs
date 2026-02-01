@@ -19,32 +19,40 @@ use crate::{tables::*, Variant, ZhConverter, ZhConverterBuilder};
 pub static ZH_BLANK_CONVERTER: LazyLock<ZhConverter> =
     LazyLock::new(|| ZhConverterBuilder::new().target(Variant::Zh).build());
 /// Converter to `zh-Hant` (繁體中文), lazily built from [`ZH_HANT_TABLE`].
+#[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
 pub static ZH_TO_HANT_CONVERTER: LazyLock<ZhConverter> =
     LazyLock::new(|| deserialize_converter(Variant::ZhHant, ZH_HANT_DAAC, [ZH_HANT_TABLE]));
 /// Converter to `zh-Hans` (简体中文), lazily built from [`ZH_HANS_TABLE`].
+#[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
 pub static ZH_TO_HANS_CONVERTER: LazyLock<ZhConverter> =
     LazyLock::new(|| deserialize_converter(Variant::ZhHans, ZH_HANS_DAAC, [ZH_HANS_TABLE]));
 /// Converter to `zh-Hant-TW` (臺灣正體), lazily built from [`ZH_HANT_TABLE`] and [`ZH_TW_TABLE`].
+#[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
 pub static ZH_TO_TW_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
     deserialize_converter(Variant::ZhTW, ZH_HANT_TW_DAAC, [ZH_HANT_TABLE, ZH_TW_TABLE])
 });
 /// Coonverter to `zh-Hant-HK` (香港繁體), lazily built from [`ZH_HANT_TABLE`] and [`ZH_HK_TABLE`].
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub static ZH_TO_HK_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
     deserialize_converter(Variant::ZhHK, ZH_HANT_HK_DAAC, [ZH_HANT_TABLE, ZH_HK_TABLE])
 });
 /// Converter to `zh-Hant-MO` (澳門繁體), lazily built from [`ZH_HANT_TABLE`] and [`ZH_MO_TABLE`].
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub static ZH_TO_MO_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
     deserialize_converter(Variant::ZhMO, ZH_HANT_MO_DAAC, [ZH_HANT_TABLE, ZH_MO_TABLE])
 });
 /// Converter to `zh-Hans-CN` (大陆简体), lazily built from [`ZH_HANS_TABLE`] and [`ZH_CN_TABLE`].
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub static ZH_TO_CN_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
     deserialize_converter(Variant::ZhCN, ZH_HANS_CN_DAAC, [ZH_HANS_TABLE, ZH_CN_TABLE])
 });
 /// Converter to `zh-Hans-SG` (新加坡简体), lazily built from [`ZH_HANS_TABLE`] and [`ZH_SG_TABLE`].
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub static ZH_TO_SG_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
     deserialize_converter(Variant::ZhSG, ZH_HANS_SG_DAAC, [ZH_HANS_TABLE, ZH_SG_TABLE])
 });
 /// Converter to `zh-Hans-MY` (大马简体), lazily built from [`ZH_HANS_TABLE`] and [`ZH_MY_TABLE`].
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub static ZH_TO_MY_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
     deserialize_converter(Variant::ZhMY, ZH_HANS_MY_DAAC, [ZH_HANS_TABLE, ZH_MY_TABLE])
 });
@@ -53,16 +61,27 @@ pub static ZH_TO_MY_CONVERTER: LazyLock<ZhConverter> = LazyLock::new(|| {
 #[inline(always)]
 pub fn get_builtin_converter(target: Variant) -> &'static ZhConverter {
     use Variant::*;
+    // using zh-cn for zh-{sg, my} and zh-hk for zh-mo, like in MediaWiki
     match target {
         Zh => &ZH_BLANK_CONVERTER,
+        #[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
         ZhHant => &ZH_TO_HANT_CONVERTER,
+        #[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
         ZhHans => &ZH_TO_HANS_CONVERTER,
+        #[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
         ZhTW => &ZH_TO_TW_CONVERTER,
+        #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
         ZhHK => &ZH_TO_HK_CONVERTER,
+        #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
         ZhMO => &ZH_TO_MO_CONVERTER,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhCN => &ZH_TO_CN_CONVERTER,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhMY => &ZH_TO_MY_CONVERTER,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhSG => &ZH_TO_SG_CONVERTER,
+        #[allow(unreachable_patterns)]
+        _ => panic!("No converter targetted at {} enabled.", target),
     }
 }
 

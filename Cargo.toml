@@ -6,9 +6,10 @@ authors = ["Hung-I Wang <whygowe@gmail.com>"]
 categories = ["text-processing", "localization", "value-formatting", "wasm", "command-line-utilities"]
 description = "Traditional, Simplified and regional Chinese variants converter powered by MediaWiki & OpenCC rulesets and the Aho-Corasick algorithm 中文简繁及地區詞轉換"
 edition = "2021"
+# license (excluding bundled conversion tables) = "MIT OR Apache-2.0"
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-version = "0.4.0"
+version = "0.4.1"
 
 [workspace.lints]
 
@@ -31,17 +32,38 @@ path = "src/main.rs"
 required-features = ["bin-build"]
 
 [features]
-default = ["compress"]
-# Enable OpenCC rulesets.
-# Accuracy may be improved at the cost of binary size bloating and performance degration.
-opencc = []
-# Use s2twp and tw2sp dicts instead of s2tw and tw2s.
-# It seems too aggressive for general use, resulting in odd conversions.
-opencc-twp = ["opencc"]
-# Compressing built-in rulesets using zstd.
-# The decompression overhead during initialization is negligible, considering the I/O savings.
+default = ["compress", "mediawiki"]
+
+# Converters & conversion tables for each target variant, sourced from MediaWiki (GPLv2.0+)
+# (recommended for general use if GPL is acceptable)
+mediawiki = ["mediawiki-hans", "mediawiki-hant", "mediawiki-cn", "mediawiki-tw", "mediawiki-hk"]
+mediawiki-hans = ["_mediawiki-base"]
+mediawiki-hant = ["_mediawiki-base"]
+mediawiki-cn = ["_mediawiki-base"]
+mediawiki-tw = ["_mediawiki-base"]
+mediawiki-hk = ["_mediawiki-base"]
+_mediawiki-base = []
+
+# Converters & conversion tables for each target variant, sourced from OpenCC (Apache2.0)
+# (larger binary size)
+opencc = ["opencc-hans", "opencc-hant", "opencc-cn", "opencc-tw", "opencc-hk"]
+opencc-hans = ["_opencc-base"]
+opencc-hant = ["_opencc-base"]
+opencc-cn = ["_opencc-base"]
+opencc-tw = ["_opencc-base"]
+opencc-hk = ["_opencc-base"]
+_opencc-base = []
+# Use OpenCC's TWPhrases dicts when applicable (like in s2twp and tw2sp config), which appears to
+# be too aggressive for general use.
+opencc-twp = []
+
+# Compress bundled prebuilt automata with zstd
+# (recommended, since the decompression overhead during initialization is negligible, considering
+# the I/O savings)
 compress = ["zstd", "ruzstd"]
+
 wasm = []
+
 bin-build = ["structopt", "anyhow", "log", "env_logger", "tempfile"]
 
 [dependencies]
@@ -80,7 +102,7 @@ criterion = "0.7"
 wasm-bindgen-test = "0.3"
 
 # for benchmark only
-ferrous-opencc = { version = "0.2" }
+ferrous-opencc = { version = "0.3" }
 opencc-rust = { version = "1.1" }
 fast2s = { version = "0.3" }
 opencc-fmmseg = { version = "0.8" }

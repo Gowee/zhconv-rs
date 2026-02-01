@@ -15,8 +15,8 @@ const OpenCCSwitch: React.FC<{ disabled: boolean }> = ({ disabled }) => {
     <Tooltip
       title={
         <>
-          Enable OpenCC dictionaries (i.e. conversion tables)
-          <br />/ 啟用 OpenCC 字典（即轉換表）
+          Enable additional OpenCC dictionaries
+          <br />/ 啟用額外的 OpenCC 字典
         </>
       }
     >

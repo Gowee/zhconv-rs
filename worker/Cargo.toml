@@ -16,8 +16,19 @@ release = false
 wasm-opt = false
 
 [features]
-default = []
+default = ["zhconv/compress", "zhconv/mediawiki"]
+mediawiki = ["zhconv/mediawiki"]
 opencc = ["zhconv/opencc"]
+mediawiki-hans = ["zhconv/mediawiki-hans"]
+mediawiki-hant = ["zhconv/mediawiki-hant"]
+mediawiki-cn = ["zhconv/mediawiki-cn"]
+mediawiki-tw = ["zhconv/mediawiki-tw"]
+mediawiki-hk = ["zhconv/mediawiki-hk"]
+opencc-hans = ["zhconv/opencc-hans"]
+opencc-hant = ["zhconv/opencc-hant"]
+opencc-cn = ["zhconv/opencc-cn"]
+opencc-tw = ["zhconv/opencc-tw"]
+opencc-hk = ["zhconv/opencc-hk"]
 
 [lib]
 crate-type = ["cdylib"]
@@ -31,7 +42,7 @@ serde = "1.0"
 headers = "0.4"
 tower-service = "0.3.2"
 console_error_panic_hook = { version = "0.1.1" }
-zhconv = { path = "../", features=["serde"] }
+zhconv = { path = "../", default-features = false, features=["serde"] }
 
 [lints]
 workspace = true

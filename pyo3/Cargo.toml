@@ -13,11 +13,22 @@ name = "zhconv_rs"
 crate-type = ["cdylib"]
 
 [features]
-default = []
+default = ["zhconv/compress", "zhconv/mediawiki"]
+mediawiki = ["zhconv/mediawiki"]
 opencc = ["zhconv/opencc"]
+mediawiki-hans = ["zhconv/mediawiki-hans"]
+mediawiki-hant = ["zhconv/mediawiki-hant"]
+mediawiki-cn = ["zhconv/mediawiki-cn"]
+mediawiki-tw = ["zhconv/mediawiki-tw"]
+mediawiki-hk = ["zhconv/mediawiki-hk"]
+opencc-hans = ["zhconv/opencc-hans"]
+opencc-hant = ["zhconv/opencc-hant"]
+opencc-cn = ["zhconv/opencc-cn"]
+opencc-tw = ["zhconv/opencc-tw"]
+opencc-hk = ["zhconv/opencc-hk"]
 
 [dependencies]
-zhconv = { path = "../" }
+zhconv = { path = "../", default-features = false }
 pyo3 = { version = "0.26", features = ["extension-module", "abi3-py39"] }
 pyo3-file = "0.14.0"
 

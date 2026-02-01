@@ -24,29 +24,30 @@ use std::collections::HashMap;
 
 use std::collections::HashSet;
 use std::env;
-use std::fs::{self, File};
+use std::fs::File;
 use std::io;
 use std::io::Write;
 use std::iter;
 use std::path::Path;
 
 use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
+#[cfg(any(feature = "_mediawiki-base", feature = "_opencc-base"))]
 use hex_literal::hex;
-use regex::Regex;
-use sha2::{Digest, Sha256};
 use vergen::EmitBuilder;
 
-#[cfg(feature = "opencc")]
+#[cfg(feature = "_opencc-base")]
 use self::opencc::load_opencc_to;
 
 // To update upstream rulesets, run `data/update_basic.py and cargo fmt`.
+#[cfg(feature = "_mediawiki-base")]
 const MEDIAWIKI_COMMIT: &str = "7747d1cc8b84bd1c6922dfb3c2bd5c2128304a1d";
+#[cfg(feature = "_mediawiki-base")]
 const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("5cb0019b32bb39ec5c6e662029f90bd166f7a844efb3bc877f9be41fdd511bf2");
 
-#[cfg(feature = "opencc")]
+#[cfg(feature = "_opencc-base")]
 const OPENCC_COMMIT: &str = "e0d41d7f5e7c62f9be1cfdd9e6cb1d03847c06e7";
-#[cfg(feature = "opencc")]
+#[cfg(feature = "_opencc-base")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     (
         "HKVariants.txt",
@@ -94,6 +95,8 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
     ),
 ];
 
+const DELIMITER: &str = "|";
+
 fn main() -> io::Result<()> {
     let mut diagnostics_file =
         File::create(Path::new(&env::var_os("OUT_DIR").unwrap()).join("zhconv-diagnostics.txt"))?;
@@ -108,37 +111,48 @@ fn main() -> io::Result<()> {
             log_diag!("feature: {}\n", k.strip_prefix("CARGO_FEATURE_").unwrap())?;
         }
     }
+    #[cfg(feature = "_mediawiki-base")]
     log_diag!("MEDIAWIKI_COMMIT={}\n", MEDIAWIKI_COMMIT)?;
-    #[cfg(feature = "opencc")]
+    #[cfg(feature = "_opencc-base")]
     log_diag!("OPENCC_COMMIT={}\n", OPENCC_COMMIT)?;
     let start_time = std::time::Instant::now();
 
     // Load Mediawiki rulesets
-    let zhconv = read_and_validate_file("data/ZhConversion.php", &MEDIAWIKI_SHA256);
-    let mut zhconvs = parse_mediawiki(&zhconv);
-    #[allow(unused_variables, unused_mut)]
-    for (name, mut pairs) in zhconvs.iter_mut() {
-        write!(
-            diagnostics_file,
-            "Processing {}: MediaWiki rules = {}",
-            name,
-            pairs.len()
-        )?;
+    #[cfg(feature = "_mediawiki-base")]
+    let mut zhconvs = parse_mediawiki(&read_and_validate_file(
+        "data/ZhConversion.php",
+        &MEDIAWIKI_SHA256,
+    ));
+    #[cfg(not(feature = "_mediawiki-base"))]
+    let mut zhconvs = HashMap::new();
+
+    for name in [
+        "ZH_TO_HANT",
+        "ZH_TO_TW",
+        "ZH_TO_HK",
+        "ZH_TO_HANS",
+        "ZH_TO_CN",
+    ] {
+        #[allow(unused_mut)]
+        let mut pairs = zhconvs.entry(name.to_owned()).or_default();
+        log_diag!("Processing {}: MediaWiki.len = {}", name, pairs.len())?;
         // Load and append OpenCC rulesets
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
 
-        // Note: OpenCC conversion procededures take multi-pass for chaining rulesets.
-        // For efficiency and re-using the existing implementation, we chain the rulesets
-        // straightforward by chaining conversion pairs at different level in advance.
-        // It may result in conversion results different to the stock OpenCC implementation
-        // considering that some conversion pairs span over the border of several natural phrases
-        // while not covering them in whole.
-        #[cfg(feature = "opencc")]
-        match name.as_ref() {
+        // Note: The conversion of OpenCC takes multi-pass for applying dict groups step by step.
+        // For efficiency and re-using the existing implementation, we merge and flatten dict groups
+        // in advance.
+        // The conversion results may be different to the stock OpenCC implementation considering
+        // that some conversion pairs span over the border of several natural phrases while not
+        // covering them in whole.
+        #[cfg(feature = "_opencc-base")]
+        match name {
+            #[cfg(any(feature = "opencc-hans", feature = "opencc-cn"))]
             "ZH_TO_HANS" => {
                 // t2s
                 load_opencc_to!(&mut pairs, [TSCharacters, TSPhrases]);
-                // OpenCC has rules & configs for "de-regionalization" when targetted at hans/hant,
+
+                // OpenCC has rules & configs for de-regionalization when targetted at hans/hant,
                 // which are not present in https://opencc.byvoid.com/.
                 // We decide to skip here, also to keep consistency with Mediawiki's behavior.
                 // // hk2s & tw2s & t2s
@@ -153,14 +167,17 @@ fn main() -> io::Result<()> {
                 //     [TSCharacters, TSPhrases]
                 // );
             }
+            #[cfg(any(feature = "opencc-hant", feature = "opencc-tw", feature = "opencc-hk"))]
             "ZH_TO_HANT" => {
+                // s2t
+                load_opencc_to!(&mut pairs, [STCharacters, STPhrases]);
+
                 // ditto
                 // // hk2t & tw2t
                 // load_opencc_to!(&mut pairs, [HKVariantsRevPhrases, !HKVariants]);
                 // load_opencc_to!(&mut pairs, [TWVariantsRevPhrases, !TWVariants]);
-                // s2t
-                load_opencc_to!(&mut pairs, [STCharacters, STPhrases]);
             }
+            #[cfg(feature = "opencc-tw")]
             "ZH_TO_TW" => {
                 // Since s2twp appears to be too aggresive for general use, we make it optional.
                 if cfg!(feature = "opencc-twp") {
@@ -176,11 +193,12 @@ fn main() -> io::Result<()> {
                     load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [TWVariants]);
                 }
             }
+            #[cfg(feature = "opencc-hk")]
             "ZH_TO_HK" => {
                 // s2hk & t2hk
                 load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [HKVariants]);
             }
-            "ZH_TO_MO" => {}
+            #[cfg(feature = "opencc-cn")]
             "ZH_TO_CN" => {
                 // ditto
                 if cfg!(feature = "opencc-twp") {
@@ -211,57 +229,94 @@ fn main() -> io::Result<()> {
                     [TSPhrases, TSCharacters]
                 );
             }
-            "ZH_TO_SG" => {}
-            "ZH_TO_MY" => {}
+            // "ZH_TO_MO" => {}
+            // "ZH_TO_SG" => {}
+            // "ZH_TO_MY" => {}
             _ => (),
         }
-        #[cfg(feature = "opencc")]
-        log_diag!(", OpenCC merged = {}", pairs.len())?;
+        log_diag!(", withOpenCC.len = {}", pairs.len())?;
 
-        // longer phrases come first; lexicographically smaller phrases come first
+        // Longer phrases and lexicographically smaller phrases appear earlier and hence take
+        // precedence in the final dict.
         sort_and_dedup(pairs);
 
-        log_diag!(", sorted and deduped = {}\n", pairs.len())?;
+        log_diag!(", sortedAndDeduped.len = {}\n", pairs.len())?;
     }
 
     let hans_pairs = zhconvs.remove("ZH_TO_HANS").unwrap();
-    write_conv_file("ZH_TO_HANS", &hans_pairs)?;
-    write_daac_file("ZH_TO_HANS", &hans_pairs)?;
-    let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
+    if cfg!(any(
+        feature = "mediawiki-hans",
+        feature = "opencc-hans",
+        feature = "mediawiki-cn",
+        feature = "opencc-cn"
+    )) {
+        write_conv_file("ZH_TO_HANS", &hans_pairs)?;
+        write_daac_file("ZH_TO_HANS", &hans_pairs)?;
+    }
 
     let hant_pairs = zhconvs.remove("ZH_TO_HANT").unwrap();
-    write_conv_file("ZH_TO_HANT", &hant_pairs)?;
-    write_daac_file("ZH_TO_HANT", &hant_pairs)?;
-    let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
+    if cfg!(any(
+        feature = "mediawiki-hant",
+        feature = "opencc-hant",
+        feature = "mediawiki-tw",
+        feature = "opencc-tw",
+        feature = "mediawiki-hk",
+        feature = "opencc-hk"
+    )) {
+        write_conv_file("ZH_TO_HANT", &hant_pairs)?;
+        write_daac_file("ZH_TO_HANT", &hant_pairs)?;
+    }
 
+    // The complete table for cn (normalized as hans-cn) are formed by chaining hans table and
+    // cn-specific table, so that hans table can be reused for both hans and hans-cn converters,
+    // thus reducing the bundled asset size.
+    // Chaining does not work for daac, so we have to build complete daac for each target variant,
+    // tolerating the redundancy.
+    // The same logic applies to tw (hant-tw) and hk (hant-hk).
     let mut cn_pairs = zhconvs.remove("ZH_TO_CN").unwrap();
-    cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
-    write_conv_file("ZH_TO_CN", &cn_pairs)?;
-    let mut hans_cn_pairs = hans_pairs;
-    hans_cn_pairs.extend(cn_pairs);
-    write_daac_file("ZH_TO_HANS_CN", &hans_cn_pairs)?;
-    log_diag!("ZH_TO_HANS_CN: final rules = {}\n", hans_cn_pairs.len())?;
+    if cfg!(any(feature = "mediawiki-cn", feature = "opencc-cn")) {
+        let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
+        cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
+        write_conv_file("ZH_TO_CN", &cn_pairs)?;
+        let mut hans_cn_pairs = hans_pairs;
+        hans_cn_pairs.extend(cn_pairs);
+        write_daac_file("ZH_TO_HANS_CN", &hans_cn_pairs)?;
+        log_diag!("ZH_TO_HANS_CN: final.len = {}\n", hans_cn_pairs.len())?;
+    }
 
     // FIXME: doc
     // Here, ZH_TO_HANT | ZH_TO_TW => ZH_TO_HANT_TW, etc. In other places, ZH_TO_TW might imply ZH_TO_HANT_TW.
 
-    let mut tw_pairs = zhconvs.remove("ZH_TO_TW").unwrap();
-    tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-    write_conv_file("ZH_TO_TW", &tw_pairs)?;
-    let mut hant_tw_pairs = hant_pairs.clone();
-    hant_tw_pairs.extend(tw_pairs);
-    write_daac_file("ZH_TO_HANT_TW", &hant_tw_pairs)?;
-    log_diag!("ZH_TO_HANT_TW: final rules = {}\n", hant_tw_pairs.len())?;
+    if cfg!(any(
+        feature = "mediawiki-tw",
+        feature = "opencc-tw",
+        feature = "mediawiki-hk",
+        feature = "opencc-hk"
+    )) {
+        let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
 
-    let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
-    hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-    write_conv_file("ZH_TO_HK", &hk_pairs)?;
-    let mut hant_hk_pairs = hant_pairs;
-    hant_hk_pairs.extend(hk_pairs);
-    write_daac_file("ZH_TO_HANT_HK", &hant_hk_pairs)?;
-    log_diag!("ZH_TO_HANT_HK: final rules = {}\n", hant_hk_pairs.len())?;
+        let mut tw_pairs = zhconvs.remove("ZH_TO_TW").unwrap();
+        if cfg!(any(feature = "mediawiki-tw", feature = "opencc-tw")) {
+            tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
+            write_conv_file("ZH_TO_TW", &tw_pairs)?;
+            let mut hant_tw_pairs = hant_pairs.clone();
+            hant_tw_pairs.extend(tw_pairs);
+            write_daac_file("ZH_TO_HANT_TW", &hant_tw_pairs)?;
+            log_diag!("ZH_TO_HANT_TW: final.len = {}\n", hant_tw_pairs.len())?;
+        }
 
-    log_diag!("Processed in: {:?}\n=== DONE ===\n", start_time.elapsed())?;
+        let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
+        if cfg!(any(feature = "mediawiki-hk", feature = "opencc-hk")) {
+            hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
+            write_conv_file("ZH_TO_HK", &hk_pairs)?;
+            let mut hant_hk_pairs = hant_pairs;
+            hant_hk_pairs.extend(hk_pairs);
+            write_daac_file("ZH_TO_HANT_HK", &hant_hk_pairs)?;
+            log_diag!("ZH_TO_HANT_HK: final.len = {}\n", hant_hk_pairs.len())?;
+        }
+    }
+
+    log_diag!("Built in: {:?}\n=== DONE ===\n", start_time.elapsed())?;
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.
@@ -280,12 +335,14 @@ fn main() -> io::Result<()> {
                 .unwrap_or_else(|e| println!("cargo:warning=vergen failed: {:?}", e));
         }
     }
+    #[cfg(feature = "_mediawiki-base")]
     println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", MEDIAWIKI_COMMIT);
-    #[cfg(feature = "opencc")]
+    #[cfg(feature = "_opencc-base")]
     println!("cargo:rustc-env=OPENCC_COMMIT_HASH={}", OPENCC_COMMIT);
     println!("cargo:rerun-if-changed=build.rs");
+    #[cfg(feature = "_mediawiki-base")]
     println!("cargo:rerun-if-changed=data/ZhConversion.php");
-    #[cfg(feature = "opencc")]
+    #[cfg(feature = "_opencc-base")]
     for (opencc, _) in OPENCC_SHA256.iter() {
         println!("cargo:rerun-if-changed=data/{}", opencc);
     }
@@ -294,9 +351,10 @@ fn main() -> io::Result<()> {
     Ok(())
 }
 
+#[cfg(feature = "_mediawiki-base")]
 fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
-    let patb = Regex::new(r"public const (\w+) = \[([^]]+)\]?;").unwrap();
-    let patl = Regex::new(r"'(.+?)' *=> *'(.+?)' *,?\n").unwrap();
+    let patb = regex::Regex::new(r"public const (\w+) = \[([^]]+)\]?;").unwrap();
+    let patl = regex::Regex::new(r"'(.+?)' *=> *'(.+?)' *,?\n").unwrap();
     let mut res = HashMap::new();
 
     for block in patb.captures_iter(text) {
@@ -310,11 +368,23 @@ fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
         }
         assert!(res.insert(name.to_owned(), pairs).is_none());
     }
+    for name in [
+        "ZH_TO_HANS",
+        "ZH_TO_HANT",
+        "ZH_TO_CN",
+        "ZH_TO_TW",
+        "ZH_TO_HK",
+    ] {
+        assert!(res.contains_key(name));
+    }
     res
 }
 
 fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     let out_dir = env::var_os("OUT_DIR").unwrap();
+    // {from, to}.conv is just DELIMITER-separated list of {source, target} phrases.
+    // source phrases, which are coded into daac, are only useful for building new daacs.
+    // However, we still bundle it anyway for implementation convenience.
     let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
     let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
 
@@ -323,6 +393,13 @@ fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     let mut it = pairs.iter().peekable();
     let mut last_from = "";
     while let Some((from, to)) = it.next().map(|(f, t)| (f, t)) {
+        debug_assert!(
+            !from.contains(DELIMITER) && !to.contains(DELIMITER),
+            "Unexpected delimiter {} in pair {} -> {}",
+            DELIMITER,
+            from,
+            to
+        );
         for c in pair_reduce(from.chars(), last_from.chars()) {
             write!(ffrom, "{}", c)?;
         }
@@ -330,8 +407,8 @@ fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
             write!(fto, "{}", c)?;
         }
         if it.peek().is_some() {
-            write!(ffrom, "|")?;
-            write!(fto, "|")?;
+            write!(ffrom, "{}", DELIMITER)?;
+            write!(fto, "{}", DELIMITER)?;
         }
         last_from = from;
     }
@@ -408,7 +485,7 @@ fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
     pairs.dedup_by(|a, b| a.0 == b.0);
 }
 
-#[cfg(feature = "opencc")]
+#[cfg(feature = "_opencc-base")]
 mod opencc {
 
     use daachorse::{
@@ -564,11 +641,20 @@ mod opencc {
     }
 }
 
+#[cfg(any(feature = "_mediawiki-base", feature = "_opencc-base"))]
 fn read_and_validate_file(path: &str, sha256sum: &[u8; 32]) -> String {
+    fn sha256(text: &str) -> [u8; 32] {
+        use sha2::{Digest, Sha256};
+
+        let mut hasher = Sha256::new();
+        hasher.update(text.as_bytes());
+        hasher.finalize().into()
+    }
+
     let data_dir = env::var_os("CARGO_MANIFEST_DIR").unwrap();
     let path = Path::new(&data_dir).join(path);
     let content = String::from_utf8(
-        fs::read(&path).unwrap_or_else(|e| panic!("{} when reading {}", e, path.display())),
+        std::fs::read(&path).unwrap_or_else(|e| panic!("{} when reading {}", e, path.display())),
     )
     .unwrap_or_else(|e| panic!("{} is not in valid UTF-8 ({})", path.display(), e));
     assert_eq!(
@@ -578,10 +664,4 @@ fn read_and_validate_file(path: &str, sha256sum: &[u8; 32]) -> String {
         path.display()
     );
     content
-}
-
-fn sha256(text: &str) -> [u8; 32] {
-    let mut hasher = Sha256::new();
-    hasher.update(text.as_bytes());
-    hasher.finalize().into()
 }
