@@ -65,8 +65,6 @@ function App() {
 
   const isMounting = useRef(true);
 
-
-
   useEffect(() => {
     if (isMounting.current) {
       isMounting.current = false;

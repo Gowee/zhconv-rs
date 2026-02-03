@@ -14,8 +14,9 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      "@pkg-mediawiki": path.resolve(__dirname, "./pkg-mediawiki"),
       "@pkg-opencc": path.resolve(__dirname, "./pkg-opencc"),
-      "@pkg-default": path.resolve(__dirname, "./pkg-default"),
+      "@pkg-both": path.resolve(__dirname, "./pkg-both"),
     },
   },
 });

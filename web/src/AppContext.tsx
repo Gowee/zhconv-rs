@@ -21,10 +21,12 @@ type WasmModule = {
   infer_variant_confidence: (text: string) => string;
 };
 
+export type RulesetMode = "mediawiki" | "opencc" | "both";
+
 type AppContextType = {
   wasm: WasmModule | null;
-  useOpenCC: boolean;
-  setUseOpenCC: (useOpenCC: boolean) => void;
+  rulesetMode: RulesetMode;
+  setRulesetMode: (mode: RulesetMode) => void;
   cgroups: {
     data: { [name: string]: string };
     timestamp: number | null;
@@ -33,8 +35,8 @@ type AppContextType = {
 
 const AppContext = createContext<AppContextType>({
   wasm: null,
-  useOpenCC: false,
-  setUseOpenCC: () => { },
+  rulesetMode: "mediawiki",
+  setRulesetMode: () => {},
   cgroups: null,
 });
 
@@ -44,18 +46,33 @@ export const useApp = () => useContext(AppContext);
 // keeping it temporarily might help if I miss one, but the goal is to replace.
 // export const useWasm = useApp;
 
-// Initialize useOpenCC from localStorage immediately
-const getInitialUseOpenCC = () => {
-  const stored = localStorage.getItem(`${PACKAGE.name}-opencc`);
-  return stored ? JSON.parse(stored) : false;
+// Initialize rulesetMode from localStorage immediately
+const getInitialRulesetMode = (): RulesetMode => {
+  const stored = localStorage.getItem(`${PACKAGE.name}-ruleset-mode`);
+  if (
+    stored &&
+    (stored === "mediawiki" || stored === "opencc" || stored === "both")
+  ) {
+    return stored as RulesetMode;
+  }
+  return "mediawiki";
 };
 
-const initialUseOpenCC = getInitialUseOpenCC();
+const initialRulesetMode = getInitialRulesetMode();
 
 // Start loading WASM immediately
-const initialWasmPromise = initialUseOpenCC
-  ? import("@pkg-opencc/zhconv.js")
-  : import("@pkg-default/zhconv.js");
+const getWasmImportPath = (mode: RulesetMode) => {
+  switch (mode) {
+    case "mediawiki":
+      return import("@pkg-mediawiki/zhconv.js");
+    case "opencc":
+      return import("@pkg-opencc/zhconv.js");
+    case "both":
+      return import("@pkg-both/zhconv.js");
+  }
+};
+
+const initialWasmPromise = getWasmImportPath(initialRulesetMode);
 
 export const AppProvider: React.FC<React.PropsWithChildren> = ({
   children,
@@ -65,7 +82,8 @@ export const AppProvider: React.FC<React.PropsWithChildren> = ({
   // unnecessary loading indicator flashes.
   const wasmCache = useRef<{ [key: string]: WasmModule }>({});
   const [wasm, setWasm] = useState<WasmModule | null>(null);
-  const [useOpenCC, setUseOpenCC] = useState(initialUseOpenCC);
+  const [rulesetMode, setRulesetMode] =
+    useState<RulesetMode>(initialRulesetMode);
 
   const [cgroups, setCGroups] = useState<{
     data: { [name: string]: string };
@@ -75,61 +93,40 @@ export const AppProvider: React.FC<React.PropsWithChildren> = ({
   // Load WASM
   useEffect(() => {
     let cancelled = false;
-    localStorage.setItem(`${PACKAGE.name}-opencc`, JSON.stringify(useOpenCC));
+    localStorage.setItem(`${PACKAGE.name}-ruleset-mode`, rulesetMode);
     const loadWasm = async () => {
-      const cacheKey = useOpenCC ? "opencc" : "default";
+      const cacheKey = rulesetMode;
       const loadingLabel = `zhconv loading (${cacheKey})`;
       console.time(loadingLabel);
 
       // Check if this is the initial load and we have a matching preloaded promise
-      if (useOpenCC === initialUseOpenCC && !wasmCache.current[cacheKey]) {
+      if (rulesetMode === initialRulesetMode && !wasmCache.current[cacheKey]) {
         try {
-          // If we haven't cached it yet (which we haven't on first render),
-          // reuse the in-flight promise started at module scope.
-          // Note: If the user toggles *very* quickly before this resolves, 
-          // we might need to be careful, but the effect dependency [useOpenCC] handles logic reuse.
-          // Ideally: we just want to avoid starting a *new* import if the top-level one matches what we need.
-          // We can put the result into cache once resolved.
-
-          // Actually, simply waiting on the promise is fine. 
-          // Whatever the promise resolves to is the module.
           const wasmModule = await initialWasmPromise;
-
-          // Always cache the result, even if we are cancelled.
           wasmCache.current[cacheKey] = wasmModule;
 
           if (cancelled) return;
 
-          // Re-check if the component still wants this specific mode (though effect cleanup/race conditions are rare here for initial load)
-          // But effectively, we just want to populate cache with it.
           setWasm(wasmModule);
           console.log(`Using preloaded wasm`);
           console.timeEnd(loadingLabel);
           return;
         } catch (e) {
           console.error("Failed to load preloaded wasm", e);
-          // Fallthrough to normal loading if something weird happened (unlikely)
         }
       }
 
-      // If the module is already in cache, use it directly.
-      // This prevents setting wasm to null and avoids a loading indicator flash
-      // if the user switches back and forth between already loaded modules.
-      // Besides, dozens of ms delay is observed when relying on the automatic cache of browser.
+      // If the module is already in cache, use it directly
       if (wasmCache.current[cacheKey]) {
         setWasm(wasmCache.current[cacheKey]);
-        console.log(
-          `Using cached wasm`,
-        );
+        console.log(`Using cached wasm`);
         console.timeEnd(loadingLabel);
         return;
       }
 
-      // Set wasm to null to trigger the loading indicator in App.tsx
+      // Set wasm to null to trigger the loading indicator
       setWasm(null);
-      const wasmModule = useOpenCC
-        ? await import("@pkg-opencc/zhconv.js")
-        : await import("@pkg-default/zhconv.js");
+      const wasmModule = await getWasmImportPath(rulesetMode);
 
       // Always cache, even if cancelled
       wasmCache.current[cacheKey] = wasmModule;
@@ -143,7 +140,7 @@ export const AppProvider: React.FC<React.PropsWithChildren> = ({
     return () => {
       cancelled = true;
     };
-  }, [useOpenCC]);
+  }, [rulesetMode]);
 
   // Load cgroups.json
   useEffect(() => {
@@ -163,7 +160,7 @@ export const AppProvider: React.FC<React.PropsWithChildren> = ({
   }, []);
 
   return (
-    <AppContext.Provider value={{ wasm, useOpenCC, setUseOpenCC, cgroups }}>
+    <AppContext.Provider value={{ wasm, rulesetMode, setRulesetMode, cgroups }}>
       {children}
     </AppContext.Provider>
   );

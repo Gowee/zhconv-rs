@@ -12,6 +12,8 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import InfoOutlined from "@mui/icons-material/InfoOutlined";
 import Grid from "@mui/material/Grid";
 
 import CGroupCheckbox from "./CGroupCheckbox";
@@ -78,7 +80,21 @@ function CGroupDialog({
       aria-describedby="cgroups-dialog-description"
       keepMounted
     >
-      <DialogTitle id="cgroups-dialog-title">CGroups / 公共轉換組</DialogTitle>
+      <DialogTitle id="cgroups-dialog-title">
+        <Box display="flex" alignItems="center" gap={1}>
+          <span>CGroups / 轉換組</span>
+          <IconButton
+            size="small"
+            href="https://zh.wikipedia.org/wiki/WP:CGROUP"
+            target="_blank"
+            rel="noopener"
+            color="primary"
+            sx={{ p: 0.5 }}
+          >
+            <InfoOutlined fontSize="small" />
+          </IconButton>
+        </Box>
+      </DialogTitle>
       <DialogContent dividers>
         {cgroups.map((name) => (
           <CGroupCheckbox
@@ -134,7 +150,7 @@ export default function CGroupSelect({
   return (
     <>
       <FormControl variant="standard" sx={{ m: 1 }}>
-        <InputLabel id="cgroups-select-label">CGroups / 公共轉換組</InputLabel>
+        <InputLabel id="cgroups-select-label" color="primary">CGroups / 轉換組</InputLabel>
         <Select
           labelId="cgroups-select-label"
           id="cgroups-select"
@@ -145,6 +161,7 @@ export default function CGroupSelect({
           style={{ width: "100%" }}
           fullWidth={true}
           disabled={isDisabled}
+          color="primary"
           // input={<Input id="select-multiple-chip" />}
           renderValue={(selected) => (
             <Box
@@ -163,7 +180,7 @@ export default function CGroupSelect({
                 (selected as string[])[0] === "placeholder" ? (
                 <Chip
                   key="add more"
-                  label="Select CGroups / 選擇公共轉換組 ..."
+                  label="Select ... / 選擇 ..."
                   color="primary"
                   sx={{ m: 0.3, cursor: "pointer" }}
                   variant="outlined"

@@ -75,6 +75,9 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
     }
 
     run();
+</script>
+```
+
 
 </details>
 
@@ -99,7 +102,7 @@ Unlike OpenCC, whose dictionaries are bidirectional (e.g., `s2t`, `tw2s`), zhcon
 *Note:*  `zh-TW` and `zh-HK` are derived from `zh-Hant`. `zh-CN` is derived from `zh-Hans`. Currently, `zh-MO` shares the same dictionary as `zh-HK`, and `zh-MY`/`zh-SG` share the same dictionary as `zh-CN`, unless additional rules are provided.
 </details>
 
-Chained dictionary groups from OpenCC are flattened and merged with the MediaWiki conversion table for each target variant, then compiled into an Aho-Corasick automaton at compile-time. After internal compression, the bundled conversion tables and automata occupy ~0.6 MiB (without OpenCC) or ~2.7 MiB (with OpenCC enabled).
+Chained dictionary groups from OpenCC are flattened and merged with the MediaWiki conversion table for each target variant, then compiled into an Aho-Corasick automaton at compile-time. After internal compression, the bundled conversion tables and automata occupy ~0.6 MiB (with MediWiki enabled only) or ~2.7 MiB (with both MediaWiki and OpenCC enabled).
 
 ## Performance
 
@@ -209,4 +212,4 @@ The library itself is licensed under MIT OR Apache-2.0, at the licensee’s opti
 - Conversion tables from MediaWiki (the default, gated by the feature `mediawiki`) which are licensed under GPL-2.0-or-later.
 - Dictionaries from OpenCC (gated by the feature `opencc`)  licensed under Apache-2.0.
 
-To make the library MIT-compatible, disable the default `mediawiki` feature and enable the `opencc` feature (e.g. `zhconv = { version = ..., default-features = false, features = ["compress, "opencc"] }`).
+To make the library MIT-compatible, disable the default `mediawiki` feature and enable the `opencc` feature for prebuilt converters & conversion tables.

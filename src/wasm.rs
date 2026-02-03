@@ -31,8 +31,8 @@ pub fn get_commit() -> Option<String> {
     option_env!("VERGEN_GIT_SHA").map(|s| s.into())
 }
 #[wasm_bindgen]
-pub fn get_mediawiki_commit() -> String {
-    env!("MEDIAWIKI_COMMIT_HASH").into()
+pub fn get_mediawiki_commit() -> Option<String> {
+    option_env!("MEDIAWIKI_COMMIT_HASH").map(|s| s.into())
 }
 #[wasm_bindgen]
 pub fn get_opencc_commit() -> Option<String> {

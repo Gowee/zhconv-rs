@@ -124,7 +124,7 @@ fn main() -> io::Result<()> {
         &MEDIAWIKI_SHA256,
     ));
     #[cfg(not(feature = "_mediawiki-base"))]
-    let mut zhconvs = HashMap::new();
+    let mut zhconvs: HashMap<String, Vec<(String, String)>> = HashMap::new();
 
     for name in [
         "ZH_TO_HANT",
