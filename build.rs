@@ -180,6 +180,7 @@ fn main() -> io::Result<()> {
             #[cfg(feature = "opencc-tw")]
             "ZH_TO_TW" => {
                 // Since s2twp appears to be too aggresive for general use, we make it optional.
+                // For example, 电视频段 -> 電影片段 (#8), 雄壮的士兵 -> 雄壮計程車兵. 
                 if cfg!(feature = "opencc-twp") {
                     // s2tw & s2twp & t2tw
                     load_opencc_to!(
@@ -200,32 +201,38 @@ fn main() -> io::Result<()> {
             }
             #[cfg(feature = "opencc-cn")]
             "ZH_TO_CN" => {
-                // ditto
+                // OpenCC has no dicts for CN-specific phrases, we just do tw2s and hk2s here in
+                // addition to t2s when targeting zh-cn.
                 if cfg!(feature = "opencc-twp") {
                     // tw2sp
+                    // "!TWVariants" listed in tw2sp config is deliberately omitted here
                     load_opencc_to!(
                         &mut pairs,
                         [
                             !TWPhrasesIT,
                             !TWPhrasesName,
                             !TWPhrasesOther,
-                            TWVariantsRevPhrases,
-                            !TWVariants
+                            TWVariantsRevPhrases
                         ],
                         [TSPhrases, TSCharacters]
                     );
                 } else {
                     // tw2s
+                    // "!TWVariants" listed in tw2s config is deliberately omitted here
+                    // to prevent misconversions like 么 -> 幺, 抬 -> 檯, 著 -> 着.
+                    // Since TSCharacters should have covered conversions of character variants,
+                    // this is not expected to incur any side effects.
                     load_opencc_to!(
                         &mut pairs,
-                        [TWVariantsRevPhrases, !TWVariants],
+                        [TWVariantsRevPhrases],
                         [TSPhrases, TSCharacters]
                     );
                 }
                 // hk2s
+                // "!HKVariants" listed in hk2s config is deliberately omitted here.
                 load_opencc_to!(
                     &mut pairs,
-                    [HKVariantsRevPhrases, !HKVariants],
+                    [HKVariantsRevPhrases],
                     [TSPhrases, TSCharacters]
                 );
             }
