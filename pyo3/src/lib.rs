@@ -106,6 +106,10 @@ fn make_converter(py: Python<'_>, base: Option<&str>, pairs: Py<PyAny>) -> PyRes
 /// Determine whether the given text is more likely in Simplified Chinese than Traditional Chinese.
 #[pyfunction]
 #[pyo3(signature = (text, /))]
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant",),
+    any(feature = "mediawiki-hans", feature = "opencc-hans")
+))]
 fn is_hans(text: &str) -> bool {
     ::zhconv::is_hans(text)
 }
@@ -120,6 +124,10 @@ fn is_hans(text: &str) -> bool {
 //  Doc written by ChatGPT
 #[pyfunction]
 #[pyo3(signature = (text, /))]
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant",),
+    any(feature = "mediawiki-hans", feature = "opencc-hans")
+))]
 fn is_hans_confidence(text: &str) -> f32 {
     ::zhconv::is_hans_confidence(text)
 }
@@ -134,6 +142,13 @@ fn is_hans_confidence(text: &str) -> f32 {
 //  Doc written by ChatGPT
 #[pyfunction]
 #[pyo3(signature = (text, /))]
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 fn infer_variant(text: &str) -> String {
     ::zhconv::infer_variant(text).to_string()
 }
@@ -157,6 +172,13 @@ fn infer_variant(text: &str) -> String {
 //  Doc written by ChatGPT
 #[pyfunction]
 #[pyo3(signature = (text, /))]
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 fn infer_variant_confidence(text: &str) -> Vec<(String, f32)> {
     ::zhconv::infer_variant_confidence(text)
         .into_iter()
@@ -214,9 +236,31 @@ fn infer_variant_confidence(text: &str) -> Vec<(String, f32)> {
 fn zhconv_rs(_py: Python, m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(crate::zhconv, m)?)?;
     m.add_function(wrap_pyfunction!(crate::make_converter, m)?)?;
+    #[cfg(all(
+        any(feature = "mediawiki-hant", feature = "opencc-hant",),
+        any(feature = "mediawiki-hans", feature = "opencc-hans")
+    ))]
     m.add_function(wrap_pyfunction!(crate::is_hans, m)?)?;
+    #[cfg(all(
+        any(feature = "mediawiki-hant", feature = "opencc-hant",),
+        any(feature = "mediawiki-hans", feature = "opencc-hans")
+    ))]
     m.add_function(wrap_pyfunction!(crate::is_hans_confidence, m)?)?;
+    #[cfg(all(
+        any(feature = "mediawiki-hant", feature = "opencc-hant"),
+        any(feature = "mediawiki-tw", feature = "opencc-tw"),
+        any(feature = "mediawiki-hk", feature = "opencc-hk"),
+        any(feature = "mediawiki-hans", feature = "opencc-hans"),
+        any(feature = "mediawiki-cn", feature = "opencc-cn")
+    ))]
     m.add_function(wrap_pyfunction!(crate::infer_variant, m)?)?;
+    #[cfg(all(
+        any(feature = "mediawiki-hant", feature = "opencc-hant"),
+        any(feature = "mediawiki-tw", feature = "opencc-tw"),
+        any(feature = "mediawiki-hk", feature = "opencc-hk"),
+        any(feature = "mediawiki-hans", feature = "opencc-hans"),
+        any(feature = "mediawiki-cn", feature = "opencc-cn")
+    ))]
     m.add_function(wrap_pyfunction!(crate::infer_variant_confidence, m)?)?;
     m.add_class::<ZhConverter>()?;
     Ok(())

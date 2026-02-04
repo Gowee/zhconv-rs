@@ -1,4 +1,9 @@
-use zhconv::{is_hans_confidence, zhconv as zhconv_plain, zhconv_mw, Variant};
+#[cfg(all(
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-hant", feature = "opencc-hant")
+))]
+use zhconv::is_hans_confidence;
+use zhconv::{zhconv as zhconv_plain, zhconv_mw, Variant, ENABLED_TARGET_VARIANTS};
 
 use axum::{
     extract::{DefaultBodyLimit, Path, Query, State},
@@ -25,17 +30,22 @@ pub struct AppState {
 }
 
 fn router(state: AppState) -> Router {
-    Router::new()
+    let router = Router::new()
         .route("/", get(doc))
         .route("/convert/{target}", post(convert))
-        .route("/is-hans", post(is_hans))
         .route("/info", get(info))
         .layer(DefaultBodyLimit::max(
             state.body_limit.unwrap_or(DEFAULT_BODY_LIMIT),
         ))
         .fallback(handle_404)
         .method_not_allowed_fallback(handle_405)
-        .with_state(state)
+        .with_state(state);
+    #[cfg(all(
+        any(feature = "mediawiki-hans", feature = "opencc-hans"),
+        any(feature = "mediawiki-hant", feature = "opencc-hant")
+    ))]
+    let router = router.route("/is-hans", post(is_hans));
+    router
 }
 
 #[event(fetch)]
@@ -73,6 +83,12 @@ pub async fn convert(
     body: String,
 ) -> impl IntoResponse {
     ensure_authorized!(state, bearer);
+    if !ENABLED_TARGET_VARIANTS.contains(&target) {
+        return (
+            StatusCode::BAD_REQUEST,
+            String::from("400 Target variant not enabled"),
+        );
+    }
     let wikitext = params.wikitext;
 
     let response_body = if wikitext {
@@ -83,7 +99,10 @@ pub async fn convert(
 
     (StatusCode::OK, response_body)
 }
-
+#[cfg(all(
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-hant", feature = "opencc-hant")
+))]
 pub async fn is_hans(
     State(state): State<AppState>,
     bearer: Option<TypedHeader<Authorization<Bearer>>>,
@@ -99,6 +118,7 @@ pub struct Info {
     version: &'static str,
     auth_enabled: bool,
     body_limit: usize,
+    enabled_target_variants: &'static [Variant],
 }
 
 pub async fn info(State(state): State<AppState>) -> impl IntoResponse {
@@ -106,6 +126,7 @@ pub async fn info(State(state): State<AppState>) -> impl IntoResponse {
         version: option_env!("CARGO_PKG_VERSION").unwrap_or("UNKNOWN"),
         auth_enabled: state.api_token.is_some(),
         body_limit: state.body_limit.unwrap_or(DEFAULT_BODY_LIMIT),
+        enabled_target_variants: ENABLED_TARGET_VARIANTS,
     })
 }
 

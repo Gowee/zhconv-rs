@@ -5,7 +5,7 @@ use itertools::Itertools;
 use console_error_panic_hook;
 use wasm_bindgen::prelude::*;
 
-use crate::{get_builtin_converter, Variant, ZhConverterBuilder};
+use crate::{get_builtin_converter, Variant, ZhConverterBuilder, ENABLED_TARGET_VARIANTS};
 
 // #[wasm_bindgen(typescript_custom_section)]
 // const COMMIT_HASH: &str = concat!("COMMIT_HASH", env!("VERGEN_GIT_SHA"));
@@ -26,17 +26,31 @@ use crate::{get_builtin_converter, Variant, ZhConverterBuilder};
 pub fn get_build_timestamp() -> Option<String> {
     option_env!("VERGEN_BUILD_TIMESTAMP").map(|s| s.into())
 }
+
 #[wasm_bindgen]
 pub fn get_commit() -> Option<String> {
     option_env!("VERGEN_GIT_SHA").map(|s| s.into())
 }
+
 #[wasm_bindgen]
 pub fn get_mediawiki_commit() -> Option<String> {
     option_env!("MEDIAWIKI_COMMIT_HASH").map(|s| s.into())
 }
+
 #[wasm_bindgen]
 pub fn get_opencc_commit() -> Option<String> {
     option_env!("OPENCC_COMMIT_HASH").map(|s| s.into())
+}
+
+#[wasm_bindgen]
+pub fn get_enabled_target_variants() -> Option<String> {
+    use itertools::Itertools;
+    Some(format!(
+        "[{}]",
+        ENABLED_TARGET_VARIANTS
+            .iter()
+            .format_with(",", |v, f| f(&format_args!("\"{v}\"")))
+    ))
 }
 
 /// Convert text to a target Chinese variant.

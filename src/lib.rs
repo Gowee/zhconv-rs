@@ -23,26 +23,35 @@
 //! ### Example
 //! Convert simply:
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{zhconv, Variant};
 //! assert_eq!(zhconv("天干物燥 小心火烛", "zh-Hant".parse().unwrap()), "天乾物燥 小心火燭");
 //! assert_eq!(zhconv("鼠曲草", Variant::ZhHant), "鼠麴草");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhHant), "阿拉伯聯合酋長國");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
+//! # }
 //! ```
 //!
 //! Using MediaWiki conversion syntax:
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("天-{干}-物燥 小心火烛", "zh-Hant".parse::<Variant>().unwrap()), "天干物燥 小心火燭");
 //! assert_eq!(zhconv_mw("-{zh-tw:鼠麴草;zh-cn:香茅}-是菊科草本植物。", Variant::ZhCN), "香茅是菊科草本植物。");
 //! assert_eq!(zhconv_mw("菊科草本植物包括-{zh-tw:鼠麴草;zh-cn:香茅;}-等。", Variant::ZhTW), "菊科草本植物包括鼠麴草等。");
+//! # }
 //! ```
 //! And more (note that such global rules always apply globally regardless of their
 //! location, unlike in MediaWiki where they affect only the text that follows):
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // add
 //! assert_eq!(zhconv_mw("&二極體\n-{-|zh-hans:二极管; zh-hant:二極體}-\n", Variant::ZhCN), "&二极体\n\n"); // remove
+//! # }
 //! ```
 //!
 //! To customize the converter & conversion with fine-grained control, see [`ZhConverterBuilder`].
@@ -50,12 +59,15 @@
 //!
 //! Other useful function:
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{is_hans, is_hans_confidence, infer_variant, infer_variant_confidence};
 //! assert!(is_hans("清乾隆嘉庆间刻本"));
 //! assert!(!is_hans("秋冬濁而春夏清，晞於朝而生於夕"));
 //! assert!(is_hans_confidence("滴瀝明花苑，葳蕤泫竹叢") < 0.5);
 //! println!("{}", infer_variant("錦字緘愁過薊水，寒衣將淚到遼城"));
 //! println!("{:?}", infer_variant_confidence("zhconv-rs 中文简繁及地區詞轉換"));
+//! # }
 //! ```
 
 mod converter;
@@ -80,6 +92,26 @@ pub use self::converters::get_builtin_converter;
 use self::converters::*;
 pub use self::tables::get_builtin_tables;
 pub use self::variant::Variant;
+
+pub const ENABLED_TARGET_VARIANTS: &[Variant] = &[
+    Variant::Zh,
+    #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+    Variant::ZhCN,
+    #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+    Variant::ZhSG,
+    #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+    Variant::ZhMY,
+    #[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
+    Variant::ZhTW,
+    #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
+    Variant::ZhHK,
+    #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
+    Variant::ZhMO,
+    #[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
+    Variant::ZhHans,
+    #[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
+    Variant::ZhHant,
+];
 
 /// Helper function for general conversion using built-in converters.
 ///
@@ -273,6 +305,8 @@ pub trait TruncatedAround {
     /// # Examples
     ///
     /// ```
+    /// # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+    /// # {
     /// use zhconv::{TruncatedAround, is_hans};
     /// use std::fs;
     ///
@@ -284,7 +318,8 @@ pub trait TruncatedAround {
     /// let ls = fs::read_to_string("benches/data3185k.txt").unwrap(); // long string
     /// let tls = ls.truncated_around(100 * 1024 + 123); // truncated to ~ 100KiB
     /// assert_eq!(is_hans(&ls), is_hans(&tls));
-    /// ```
+    /// # }
+    // ```
     fn truncated_around(&self, index: usize) -> &Self;
 }
 
