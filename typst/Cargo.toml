@@ -9,7 +9,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 wasm-minimal-protocol = { git = "https://github.com/astrale-sharp/wasm-minimal-protocol.git"}
-zhconv = { path = "../", default-features = false, features = ["compress"] }
+zhconv = { path = "../" }
 
 [profile.release]
 lto = true          # Enable link-time optimization
@@ -19,3 +19,4 @@ codegen-units = 1   # Reduce number of codegen units to increase optimizations
 panic = 'abort'     # Abort on panic
 
 [workspace] # so that it is not included in the upper workspace
+
