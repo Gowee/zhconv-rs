@@ -38,14 +38,13 @@ fn router(state: AppState) -> Router {
             state.body_limit.unwrap_or(DEFAULT_BODY_LIMIT),
         ))
         .fallback(handle_404)
-        .method_not_allowed_fallback(handle_405)
-        .with_state(state);
+        .method_not_allowed_fallback(handle_405);
     #[cfg(all(
         any(feature = "mediawiki-hans", feature = "opencc-hans"),
         any(feature = "mediawiki-hant", feature = "opencc-hant")
     ))]
     let router = router.route("/is-hans", post(is_hans));
-    router
+    router.with_state(state)
 }
 
 #[event(fetch)]

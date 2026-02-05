@@ -5,37 +5,30 @@ use criterion::{criterion_group, criterion_main, Criterion};
 const DATA3185K: &str = include_str!("data3185k.txt");
 
 fn bench_compare_to_tw(c: &mut Criterion) {
-    let data = zhconv::zhconv(DATA3185K, zhconv::Variant::ZhCN);
+    let mediawiki = cfg!(feature = "mediawiki");
     let opencc = cfg!(feature = "opencc");
     let twp = cfg!(feature = "opencc-twp");
-    // let group_name = if twp {
-    //     "compare-bench-to-opencc-twp-3185K"
-    // } else if opencc {
-    //     "compare-bench-to-opencc-tw-3185K"
-    // } else {
-    //     "compare-bench-to-tw-3185K"
-    // };
+    let tag = match (mediawiki, opencc, twp) {
+        (true, true, false) => "zhconv-rs-mediawiki-opencc",
+        (true, true, true) => "zhconv-rs-mediawiki-opencc-twp",
+        (false, true, false) => "zhconv-rs-opencc",
+        (false, true, true) => "zhconv-rs-opencc-twp",
+        (true, false, false) => "zhconv-rs-mediawiki",
+        _ => return,
+    };
+    let data = zhconv::zhconv(DATA3185K, zhconv::Variant::ZhCN);
     let mut group = c.benchmark_group("compare-bench-to-tw-3185K");
     group.sample_size(20);
 
     // zhconv-rs
     // adjust the call below to match zhconv-rs API if needed
-    group.bench_function(
-        if twp {
-            "zhconv-rs-opencc-twp"
-        } else if opencc {
-            "zhconv-rs-opencc"
-        } else {
-            "zhconv-rs"
-        },
-        |b| {
-            b.iter_with_large_drop(|| {
-                let _result = zhconv::zhconv(&data, zhconv::Variant::ZhTW);
-                // ensure result is not optimized away
-                black_box(&_result);
-            })
-        },
-    );
+    group.bench_function(tag, |b| {
+        b.iter_with_large_drop(|| {
+            let _result = zhconv::zhconv(&data, zhconv::Variant::ZhTW);
+            // ensure result is not optimized away
+            black_box(&_result);
+        })
+    });
 
     // // fast2s (no 2tw support)
     // // adjust the call below to match fast2s API if needed
@@ -128,27 +121,27 @@ fn bench_compare_to_tw(c: &mut Criterion) {
 }
 
 fn bench_compare_to_hans(c: &mut Criterion) {
-    let data = zhconv::zhconv(DATA3185K, zhconv::Variant::ZhTW);
+    let mediawiki = cfg!(feature = "mediawiki");
     let opencc = cfg!(feature = "opencc");
+    let data = zhconv::zhconv(DATA3185K, zhconv::Variant::ZhTW);
+    let tag = match (mediawiki, opencc) {
+        (true, true) => "zhconv-rs-mediawiki-opencc",
+        (true, false) => "zhconv-rs-mediawiki",
+        (false, true) => "zhconv-rs-opencc",
+        _ => return,
+    };
     let mut group = c.benchmark_group("compare-bench-to-hans-3185K");
     group.sample_size(20);
 
     // zhconv-rs
     // adjust the call below to match zhconv-rs API if needed
-    group.bench_function(
-        if opencc {
-            "zhconv-rs-opencc"
-        } else {
-            "zhconv-rs"
-        },
-        |b| {
-            b.iter_with_large_drop(|| {
-                let _result = zhconv::zhconv(&data, zhconv::Variant::ZhHans);
-                // ensure result is not optimized away
-                black_box(&_result);
-            })
-        },
-    );
+    group.bench_function(tag, |b| {
+        b.iter_with_large_drop(|| {
+            let _result = zhconv::zhconv(&data, zhconv::Variant::ZhHans);
+            // ensure result is not optimized away
+            black_box(&_result);
+        })
+    });
 
     // fast2s
     // adjust the call below to match fast2s API if needed
