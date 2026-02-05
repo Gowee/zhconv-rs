@@ -30,7 +30,7 @@ pub struct AppState {
 }
 
 fn router(state: AppState) -> Router {
-    let router = Router::new()
+    let mut router = Router::new()
         .route("/", get(doc))
         .route("/convert/{target}", post(convert))
         .route("/info", get(info))
@@ -39,13 +39,12 @@ fn router(state: AppState) -> Router {
         ))
         .fallback(handle_404)
         .method_not_allowed_fallback(handle_405)
-        .with_state(state);
     #[cfg(all(
         any(feature = "mediawiki-hans", feature = "opencc-hans"),
         any(feature = "mediawiki-hant", feature = "opencc-hant")
     ))]
-    let router = router.route("/is-hans", post(is_hans));
-    router
+    router = router.route("/is-hans", post(is_hans));
+    router.with_state(state)
 }
 
 #[event(fetch)]
