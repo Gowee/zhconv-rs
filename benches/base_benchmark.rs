@@ -21,63 +21,25 @@ const CONVTUPLES: [(&str, Variant); 8] = [
 ];
 
 fn bench_load(c: &mut Criterion) {
-    // c.bench_function("build zh-Hant-HK", |b| {
-    //     b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANT_TABLE), black_box(ZH_HK_TABLE)))
-    // });
-    // c.bench_function("build zh-Hant-MO", |b| {
-    //     b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANT_TABLE), black_box(ZH_MO_TABLE)))
-    // });
-    // c.bench_function("build zh-Hans-CN", |b| {
-    //     b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_CN_TABLE)))
-    // });
-    // c.bench_function("build zh-Hans-SG", |b| {
-    //     b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_SG_TABLE)))
-    // });
-    // c.bench_function("build zh-Hans-MY", |b| {
-    //     b.iter_with_large_drop(|| merge_tables(black_box(ZH_HANS_TABLE), black_box(ZH_MY_TABLE)))
-    // });
-
-    // c.bench_function("test", |b| {
-    //     b.iter_with_large_drop(|| {
-    //         black_box(zhconv::tables::daac())
-    //     })
-    // });//lz4_flex::compress_prepend_size
-    {
-        // let mut build = c.benchmark_group("build-from-scratch");
-        // for (name, variant) in CONVTUPLES {
-        //     build.bench_function(name, |b| {
-        //         b.iter_with_large_drop(|| {
-        //             build_converter(variant, black_box(get_builtin_table(variant)))
-        //         })
-        //     });
-        // }
-
-        // c.bench_function("build all from scratch", |b| {
-        //     b.iter_with_large_drop(|| {
-        //         (
-        //             make_converter(black_box(ZH_HANS_TABLE)),
-        //             make_converter(black_box(ZH_HANT_TABLE)),
-        //             make_converter(black_box(ZH_CN_TABLE)),
-        //             make_converter(black_box(ZH_HK_TABLE)),
-        //             make_converter(black_box(ZH_TW_TABLE)),
-        //         )
-        //     })
-        // });
+    let mut group_name = String::from(
+        match (
+            cfg!(feature = "mediawiki"),
+            cfg!(feature = "opencc"),
+            cfg!(feature = "opencc-twp"),
+        ) {
+            (true, true, true) => "load-mediawiki-opencc-twp",
+            (true, true, false) => "load-mediawiki-opencc",
+            (true, false, _) => "load-mediawiki",
+            (false, true, false) => "load-opencc",
+            (false, true, true) => "load-opencc-twp",
+            _ => return,
+        },
+    );
+    if cfg!(feature = "compress") {
+        group_name.push_str("-compressed");
     }
-    let group_name = match (
-        cfg!(feature = "opencc"),
-        cfg!(feature = "opencc-twp"),
-        cfg!(feature = "compress"),
-    ) {
-        (_, true, true) => "load-opencc-twp-compressed-serialized",
-        (_, true, false) => "load-opencc-twp-serialized",
-        (true, false, true) => "load-opencc-compressed-serialized",
-        (true, false, false) => "load-opencc-serialized",
-        (false, _, true) => "load-compressed-serialized",
-        (false, _, false) => "load-serialized",
-    };
 
-    let mut load = c.benchmark_group(group_name);
+    let mut load = c.benchmark_group(&group_name);
     load.sample_size(20);
     for (name, variant) in CONVTUPLES {
         load.bench_function(name, |b| {
