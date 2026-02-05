@@ -1,9 +1,4 @@
-import {
-  forwardRef,
-  ForwardedRef,
-  useRef,
-  useImperativeHandle,
-} from "react";
+import { forwardRef, ForwardedRef, useRef, useImperativeHandle } from "react";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 import Grid from "@mui/material/Grid";
@@ -11,8 +6,11 @@ import Tooltip from "@mui/material/Tooltip";
 import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import Backdrop from "@mui/material/Backdrop";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Divider from "@mui/material/Divider";
 
-import OpenCCSwitch from "./OpenCCSwitch";
+import RulesetSelector from "./RulesetSelector";
 import CGroupSelect from "./CGroupSelect";
 import ConvertButton, { Variant } from "./ConvertButton";
 
@@ -47,6 +45,8 @@ function OptionsControl(
 ) {
   const { wasm } = useApp();
   const loading = wasm === null;
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const controlDivRef = useRef<HTMLDivElement>(null);
   const convertButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -59,59 +59,49 @@ function OptionsControl(
 
   return (
     <Box className="options-control" sx={{ position: "relative" }}>
-      <Grid container direction="row" justifyContent="space-around">
-        <Grid>
-          <CGroupSelect
-            cgroups={cgroups}
-            selected={activatedCGroups}
-            onSelect={onSelectCGroups}
-            disabled={loading}
-          />
-        </Grid>
-        <Grid>
-          <Grid
-            container
-            ref={controlDivRef}
-            direction="row"
-            justifyContent="space-around"
-            alignItems="center"
-            style={{ alignItems: "center", height: "100%" }}
-          >
-            <Grid>
-              <Tooltip
-                title={
-                  <>
-                    Enable MediaWiki conversion syntax support
-                    <br />/ 啟用 MediaWiki 字詞轉換語法
-                  </>
+      <Grid container direction={"row"} alignItems="center" flexWrap={{ xs: "wrap", md: "nowrap" }} justifyContent={{ xs: "center", md: "flex-start" }}>
+        <Grid container flexGrow={1} flexShrink={1} direction="row" justifyContent="space-around" alignSelf="stretch" alignItems="center" sx={{ minWidth: 0, order: { xs: 2, md: 1 } }}>
+          <Grid>
+            <CGroupSelect
+              cgroups={cgroups}
+              selected={activatedCGroups}
+              onSelect={onSelectCGroups}
+              disabled={loading}
+            />
+          </Grid>
+          <Grid>
+            <Tooltip
+              title={
+                <>
+                  Enable MediaWiki conversion syntax support
+                  <br />/ 啟用 MediaWiki 字詞轉換語法
+                </>
+              }
+            >
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={wikitextSupport}
+                    onChange={onToggleWikitextSupport}
+                    name="mediawiki"
+                    color="secondary"
+                    disabled={loading}
+                  />
                 }
-              >
-                <FormControlLabel
-                  control={
-                    <Switch
-                      checked={wikitextSupport}
-                      onChange={onToggleWikitextSupport}
-                      name="mediawiki"
-                      color="secondary"
-                      disabled={loading}
-                    />
-                  }
-                  label={
-                    <Box
-                      component="span"
-                      display="flex"
-                      flexDirection="column"
-                      alignItems="center"
-                    >
-                      <span>Wikitext</span>
-                    </Box>
-                  }
-                />
-              </Tooltip>
-            </Grid>
-            <Grid>
-              <OpenCCSwitch disabled={loading} />
-            </Grid>
+                label={
+                  <Box
+                    component="span"
+                    display="flex"
+                    flexDirection="column"
+                    alignItems="center"
+                  >
+                    <span>Wikitext</span>
+                  </Box>
+                }
+              />
+            </Tooltip>
+          </Grid>
+          <Grid>
             <Grid>
               <ConvertButton
                 ref={convertButtonRef}
@@ -122,6 +112,28 @@ function OptionsControl(
               />
             </Grid>
           </Grid>
+        </Grid>
+        <Divider
+          orientation={isMobile ? "horizontal" : "vertical"}
+          variant={isMobile ? "fullWidth" : "middle"}
+          flexItem
+          sx={{
+            mx: { xs: 0, md: 1 },
+            my: { xs: 0.5, md: 0 },
+            width: { xs: '100%', md: 'auto' },
+            order: { xs: 1, md: 2 }
+          }}
+        />
+        <Grid sx={{
+          flexBasis: { xs: '100%', md: 'auto' },
+          flexShrink: 0,
+          display: 'flex',
+          justifyContent: 'center',
+          mt: { xs: 0, md: 0 },
+          mb: { xs: 0.5, md: 0 },
+          order: { xs: 0, md: 3 }
+        }}>
+          <RulesetSelector disabled={loading} />
         </Grid>
       </Grid>
       <Backdrop
@@ -135,7 +147,7 @@ function OptionsControl(
       >
         <CircularProgress color="secondary" />
       </Backdrop>
-    </Box>
+    </Box >
   );
 }
 

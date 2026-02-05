@@ -5,47 +5,63 @@
   "rules": [
     {
       "original": null,
-      "conv": "zh-hans:初中;zh-tw:國中;zh-hk:初中"
+      "conv": "zh-cn:初中;zh-tw:國中;zh-hk:初中"
     },
     {
       "original": null,
       "conv": "Pretty Cure=>zh-hans:光之美少女;Pretty Cure=>zh-hant:光之美少女;Pretty Cure=>zh-cn:光之美少女;Pretty Cure=>zh-tw:光之美少女;Pretty Cure=>zh-hk:Pretty Cure;Pretty Cure=>zh-mo:Pretty Cure;Pretty Cure=>zh-my:光之美少女;Pretty Cure=>zh-sg:光之美少女;"
     },
     {
-      "original": null,
-      "conv": "zh-hans:Splash Star;zh-hk:Ⅲ;zh-tw:Splash Star"
+      "original": "石井あみ",
+      "conv": "zh-cn:石井亚美;zh-tw:石井亞實;zh-hk:石井亞美"
+    },
+    {
+      "original": "Dancing☆Starプリキュア",
+      "conv": "zh-hans:舞动之星☆光之美少年;zh-tw:舞動之星☆光之美少年;zh-hk:Dancing Star Precure"
+    },
+    {
+      "original": "Dancing Starプリキュア",
+      "conv": "zh-hans:舞动之星 光之美少年;zh-tw:舞動之星 光之美少年;zh-hk:Dancing Star Precure"
+    },
+    {
+      "original": "名探偵プリキュア！",
+      "conv": "zh-cn:名侦探光之美少女！;zh-hk:名偵探光之美少女"
     },
     {
       "original": null,
-      "conv": "zh-hans:Fresh;zh-hk:幸福精靈;zh-tw:幸福精靈"
+      "conv": "zh-cn:Splash Star;zh-hk:Ⅲ;zh-tw:Splash Star"
     },
     {
       "original": null,
-      "conv": "zh-hans:甜蜜天使;zh-cn:Heart Catch;zh-tw:甜蜜天使;zh-hk:甜蜜天使"
+      "conv": "zh-cn:Fresh;zh-hk:幸福精靈;zh-tw:幸福精靈"
     },
     {
       "original": null,
-      "conv": "zh-hans:美樂天使;zh-cn:Suite;zh-tw:美樂天使;zh-hk:美樂天使"
+      "conv": "zh-cn:Heart Catch;zh-tw:甜蜜天使;zh-hk:甜蜜天使"
     },
     {
       "original": null,
-      "conv": "zh-hans:心跳;zh-cn:心跳;zh-tw:DokiDoki;zh-hk:心動"
+      "conv": "zh-cn:Suite;zh-tw:美樂天使;zh-hk:美樂天使"
     },
     {
       "original": null,
-      "conv": "zh-hans:幸福爆发;zh-cn:HappinessCharge;zh-tw:幸福爆發;zh-hk:幸福爆發"
+      "conv": "zh-cn:心跳;zh-tw:DokiDoki;zh-hk:心動"
     },
     {
       "original": null,
-      "conv": "zh-hans:Healin' Good;zh-cn:Healin' Good;zh-tw:元氣魔法;zh-hk:元氣魔法"
+      "conv": "zh-cn:HappinessCharge;zh-tw:幸福爆發;zh-hk:幸福爆發"
     },
     {
       "original": null,
-      "conv": "zh-hans:热情闪耀;zh-hant:熱情閃耀;zh-cn:Tropical-Rouge;zh-tw:熱情閃耀"
+      "conv": "zh-cn:Healin' Good;zh-tw:元氣魔法;zh-hk:元氣魔法"
     },
     {
       "original": null,
-      "conv": "zh-hans:美味Party;zh-cn:美味派对;zh-tw:美味Party;zh-hk:美味PARTY"
+      "conv": "zh-hant:熱情閃耀;zh-cn:Tropical-Rouge;zh-tw:熱情閃耀"
+    },
+    {
+      "original": null,
+      "conv": "zh-cn:美味派对;zh-tw:美味Party;zh-hk:美味PARTY"
     },
     {
       "original": null,
@@ -53,63 +69,63 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:夢原望;zh-tw:夢原美美;zh-hk:夢原望美;"
+      "conv": "zh-cn:夢原望;zh-tw:夢原美美;zh-hk:夢原望美;"
     },
     {
       "original": null,
-      "conv": "zh-hans:望;zh-tw:美美;zh-hk:美美"
+      "conv": "zh-cn:望;zh-tw:美美;zh-hk:美美"
     },
     {
       "original": null,
-      "conv": "zh-hans:玲;zh-tw:玲;zh-hk:玲子;玲玲=>zh-hans:玲;玲玲=>zh-tw:玲;玲玲=>zh-hk:玲"
+      "conv": "zh-cn:玲;zh-tw:玲;zh-hk:玲子;玲玲=>zh-hans:玲;玲玲=>zh-tw:玲;玲玲=>zh-hk:玲"
     },
     {
       "original": null,
-      "conv": "zh-hans:丽;zh-tw:麗;zh-hk:麗子"
+      "conv": "zh-cn:丽;zh-tw:麗;zh-hk:麗子"
     },
     {
       "original": null,
-      "conv": "zh-hans:秋元小町;zh-tw:秋元叮叮;zh-hk:秋元小町"
+      "conv": "zh-cn:秋元小町;zh-tw:秋元叮叮;zh-hk:秋元小町"
     },
     {
       "original": null,
-      "conv": "zh-hans:小町;zh-tw:叮叮;zh-hk:町町"
+      "conv": "zh-cn:小町;zh-tw:叮叮;zh-hk:町町"
     },
     {
       "original": null,
-      "conv": "zh-hans:香恋;zh-tw:小香;zh-hk:香戀"
+      "conv": "zh-cn:香恋;zh-tw:小香;zh-hk:香戀"
     },
     {
       "original": null,
-      "conv": "zh-hans:口红天使;zh-tw:火天使;zh-hk:火天使"
+      "conv": "zh-cn:口红天使;zh-tw:火天使;zh-hk:火天使"
     },
     {
       "original": null,
-      "conv": "zh-hans:柠檬水天使;zh-tw:星天使;zh-hk:星天使"
+      "conv": "zh-cn:柠檬水天使;zh-tw:星天使;zh-hk:星天使"
     },
     {
       "original": null,
-      "conv": "zh-hans:薄荷天使;zh-tw:冰天使;zh-hk:冰天使"
+      "conv": "zh-cn:薄荷天使;zh-tw:冰天使;zh-hk:冰天使"
     },
     {
       "original": null,
-      "conv": "zh-hans:桃园爱;zh-hant:桃園愛;zh-hk:桃園小愛"
+      "conv": "zh-cn:桃园爱;zh-hant:桃園愛;zh-hk:桃園小愛"
     },
     {
       "original": null,
-      "conv": "zh-hans:Cure Peach;zh-tw:愛情精靈;zh-hk:Cure Peach"
+      "conv": "zh-cn:Cure Peach;zh-tw:愛情精靈;zh-hk:Cure Peach"
     },
     {
       "original": null,
-      "conv": "zh-hans:Cure Berry;zh-tw:希望精靈;zh-hk:Cure Berry"
+      "conv": "zh-cn:Cure Berry;zh-tw:希望精靈;zh-hk:Cure Berry"
     },
     {
       "original": null,
-      "conv": "zh-hans:Cure Pine;zh-tw:祈願精靈;zh-hk:Cure Pine"
+      "conv": "zh-cn:Cure Pine;zh-tw:祈願精靈;zh-hk:Cure Pine"
     },
     {
       "original": null,
-      "conv": "zh-hans:Cure Passion;zh-tw:幸運精靈;zh-hk:Cure Passion"
+      "conv": "zh-cn:Cure Passion;zh-tw:幸運精靈;zh-hk:Cure Passion"
     },
     {
       "original": null,
@@ -121,7 +137,7 @@
     },
     {
       "original": null,
-      "conv": "花蕾天使"
+      "conv": "zh-hans:花蕾天使;zh-hant:花蕾天使"
     },
     {
       "original": null,
@@ -141,7 +157,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:和佳;zh-tw:和佳;zh-hk:和香"
+      "conv": "zh-cn:和佳;zh-tw:和佳;zh-hk:和香"
     },
     {
       "original": null,
@@ -185,7 +201,7 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:沧海天使;zh-tw:人魚天使;zh-hk:Cure Lamer"
+      "conv": "沧海天使=>zh-hk:Cure Lamer;沧海天使=>zh-tw:人魚天使;Cure Lamer=>zh-cn:沧海天使;Cure Lamer=>zh-tw:人魚天使"
     },
     {
       "original": null,
@@ -256,6 +272,14 @@
       "conv": "zh-cn:心恋啾咪;zh-tw:心戀啾咪;zh-hk:觸動親吻"
     },
     {
+      "original": "田中 めろん",
+      "conv": "zh-hans:田中梅蘿;zh-tw:田中梅蘿;zh-hk:田中美樂"
+    },
+    {
+      "original": "たなか／田中",
+      "conv": "達內加=>zh-tw:田中;達內加／田中=>zh-tw:田中;"
+    },
+    {
       "original": "プリ",
       "conv": "zh-hans:噗哩;zh-tw:噗哩;zh-hk:Puri"
     },
@@ -270,6 +294,10 @@
     {
       "original": "メロ",
       "conv": "MELO=>zh-hans:梅洛;MELO=>zh-hant:梅洛;MELO=>zh-cn:梅洛;MELO=>zh-tw:梅洛;MELO=>zh-hk:MELO;MELO=>zh-mo:MELO;MELO=>zh-my:梅洛;MELO=>zh-sg:梅洛"
+    },
+    {
+      "original": "ココロレボリューション",
+      "conv": "zh-hans:心之革命;zh-tw:心之革命;zh-hk:心靈變革"
     },
     {
       "original": "キラッキランラン♪キュアアイドルデビュー！",
@@ -312,6 +340,134 @@
       "conv": "zh-hans:发行CD 偶像光之美少女;zh-tw:發行CD 偶像光之美少女;zh-hk:CD出道！偶像光之美少女！"
     },
     {
+      "original": "Trio Dream",
+      "conv": "zh-hans:梦想的三重奏;zh-tw:夢想的三重奏;zh-hk:三個人的夢想"
+    },
+    {
+      "original": "プリルン大好き♡メロロンがやってきた",
+      "conv": "zh-hans:最喜欢普莉露 梅宝来了;zh-tw:最喜歡普莉露 梅寶來了;zh-hk:最喜歡普莉露，美樂露來了"
+    },
+    {
+      "original": "フレッフレッ！キラキライト",
+      "conv": "zh-hans:挥啊…闪耀萤光棒;zh-tw:揮啊…閃耀螢光棒;zh-hk:加油加油！閃耀應援棒！"
+    },
+    {
+      "original": "お母さんへ～こころからのメッセージ",
+      "conv": "zh-hans:给妈妈 心心的留言;zh-tw:給媽媽 心心的留言;zh-hk:給媽媽...來自阿心的心意卡"
+    },
+    {
+      "original": "ねえたまメロメロ大作戦メロ～",
+      "conv": "zh-hans:让大姊神魂颠倒大作战 梅洛;zh-tw:讓大姊神魂顛倒大作戰 梅洛;zh-hk:吸引姐姐大人大作戰 MELO"
+    },
+    {
+      "original": "満開！特訓！はなみちタウンフェス",
+      "conv": "zh-hans:盛开 特训 花路镇音乐节;zh-tw:盛開 特訓 花路鎮音樂節;zh-hk:全力，特訓，花路鎮慶典！"
+    },
+    {
+      "original": "プリルンの決意！キラキランドへレッツゴー",
+      "conv": "zh-hans:普莉露的决心 前往闪耀乐园;zh-tw:普莉露的決心 前往閃耀樂園;zh-hk:普莉露的決心！一起前往閃耀樂園！"
+    },
+    {
+      "original": "キミは誰！？ハートズキューンされちゃった",
+      "conv": "zh-hans:你是谁 我的心被你掳获了;zh-tw:妳是誰 我的心被妳擄獲了;zh-hk:你是誰？我對你一見鍾情"
+    },
+    {
+      "original": "ふたりの誓い♪キュアズキューン＆キュアキッスデビュー",
+      "conv": "zh-hans:两人的誓言 心恋天使和亲亲天使出道;zh-tw:兩人的誓言 心戀天使和親親天使出道;zh-hk:兩個人的誓約，觸動天使和親吻天使出道！"
+    },
+    {
+      "original": "プリ～！思い出さがしのピクニック",
+      "conv": "zh-hans:噗哩 寻找回忆的野餐;zh-tw:噗哩 尋找回憶的野餐;zh-hk:PULI～！尋找回憶的野餐！"
+    },
+    {
+      "original": "とびっきり！キセキのユニゾン",
+      "conv": "zh-hans:闪耀无比 奇迹的合唱;zh-tw:閃耀無比 奇跡的合唱;zh-hk:精彩萬分，奇蹟的合唱！"
+    },
+    {
+      "original": "アイドルプリキュアVSズキューンキッス！",
+      "conv": "zh-hans:偶像光之美少女VS心恋啾咪;zh-tw:偶像光之美少女VS心戀啾咪;zh-hk:偶像光之美少女對決觸動親吻！？"
+    },
+    {
+      "original": "これが私のサイン",
+      "conv": "zh-hans:这就是我的签名;zh-tw:這就是我的簽名;zh-hk:這個就是我的簽名"
+    },
+    {
+      "original": "タナカーンの夏やすみ",
+      "conv": "zh-hans:田中的暑假;zh-tw:田中的暑假;zh-hk:達內加的暑假"
+    },
+    {
+      "original": "ひまわり畑でウインクし",
+      "conv": "zh-hans:在向日葵田眨眨眼;zh-tw:在向日葵田眨眨眼;zh-hk:在向日葵花海眨眼"
+    },
+    {
+      "original": "キュンこそものの上手なれ",
+      "conv": "zh-hans:心动才能让人进步;zh-tw:心動才能讓人進步;zh-hk:樂此不疲"
+    },
+    {
+      "original": "キュアチューブはじめました",
+      "conv": "zh-hans:在CureTube初次亮相;zh-tw:在CureTube初次亮相;zh-hk:開始拍CureTube呀！"
+    },
+    {
+      "original": "わんわん！きゅーちゃんと一緒",
+      "conv": "zh-hans:汪汪 和Q太郎一起;zh-tw:汪汪 和Q太郎一起;zh-hk:汪汪！和Q太郎一起！"
+    },
+    {
+      "original": "メロロンのともだ",
+      "conv": "zh-hans:梅宝的朋友;zh-tw:梅寶的朋友;zh-hk:美樂露的朋友"
+    },
+    {
+      "original": "プリキュア！キラッキラン・フォー・ユー",
+      "conv": "zh-hans:光之美少女 让你闪闪发光;zh-tw:光之美少女 讓你閃閃發光;zh-hk:光之美少女！令你閃閃發光！"
+    },
+    {
+      "original": "アイドルプリキュアのセンター！",
+      "conv": "zh-hans:偶像光之美少女的C位;zh-tw:偶像光之美少女的C位;zh-hk:偶像光之美少女的C位！？"
+    },
+    {
+      "original": "プリ！メロ！夢の学園生",
+      "conv": "zh-hans:噗哩 梅洛 梦想的校园生活;zh-tw:噗哩 梅洛 夢想的校園生活;zh-hk:PULI！MELO！夢想的校園生活"
+    },
+    {
+      "original": "どすこ～い！アイドルデビュー！",
+      "conv": "zh-hans:嘿咻 偶像出道;zh-tw:嘿咻 偶像出道;zh-hk:放馬過來！偶像出道！？"
+    },
+    {
+      "original": "名探偵はもりん！謎のメニューを追うぞな",
+      "conv": "zh-hans:名侦探羽森 追查神秘的菜单;zh-tw:名偵探羽森 追查神祕的菜單;zh-hk:名偵探羽森靈！追蹤神秘的menu！"
+    },
+    {
+      "original": "遊園地デートはとつぜんに！",
+      "conv": "zh-hans:游乐园约会来得好突然;zh-tw:遊樂園約會來得好突然;zh-hk:突如其來的遊樂場約會！？"
+    },
+    {
+      "original": "けってい！キミとのライブ",
+      "conv": "zh-hans:定案 你与我的演唱会;zh-tw:定案 你與我的演唱會;zh-hk:決定！演唱會與你！"
+    },
+    {
+      "original": "新たなチカラ！アイドルハートリボン",
+      "conv": "zh-hans:新的力量 偶像爱心蝴蝶结;zh-tw:新的力量 偶像愛心蝴蝶結;zh-hk:全新的力量！偶像愛心蝴蝶結！"
+    },
+    {
+      "original": "一緒に踏み出す！ウィンウィンハロウィン",
+      "conv": "zh-hans:一起向前进 眨眨眼万圣节;zh-tw:一起向前進 眨眨眼萬聖節;zh-hk:一起踏出一步！Win Win Halloween！"
+    },
+    {
+      "original": "まわれ！寸田先輩！",
+      "conv": "zh-hans:转吧 寸田学长;zh-tw:轉吧 寸田學長;zh-hk:旋轉啦！寸田前輩！"
+    },
+    {
+      "original": "聴いてください！なな色の旋律",
+      "conv": "zh-hans:请听听看 七色的旋律;zh-tw:請聽聽看 七色的旋律;zh-hk:細心傾聽充滿奈奈色彩的旋律！"
+    },
+    {
+      "original": "心キュンキュン守ります！",
+      "conv": "zh-hans:守护心动的感觉;zh-tw:守護心動的感覺;zh-hk:保護心動的感覺！"
+    },
+    {
+      "original": "コネクト！キミからのEcho",
+      "conv": "zh-hans:连结 你传来的共鸣;zh-tw:連結 你傳來的共鳴;zh-hk:Connect！來自你的Echo！"
+    },
+    {
       "original": null,
       "conv": "zh-hans:上田丽奈;zh-hant:上田麗奈"
     },
@@ -341,10 +497,6 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:完结;zh-hant:完結"
-    },
-    {
-      "original": null,
       "conv": "zh-hans:蝴蝶结;zh-hant:蝴蝶結"
     },
     {
@@ -361,6 +513,10 @@
     },
     {
       "original": null,
+      "conv": "zh-hans:绝望;zh-hant:絕望"
+    },
+    {
+      "original": null,
       "conv": "zh-hans:愿望;zh-hant:願望"
     },
     {
@@ -373,7 +529,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:完结;zh-hant:完結"
+      "conv": "zh-hans:完结;zh-hant:完結;zh-cn:完结;zh-tw:完結;zh-hk:完結;zh-mo:完結;zh-sg:完结;zh-my:完结"
+    },
+    {
+      "original": null,
+      "conv": "系列未完由依=>zh-cn:系列未完結;系列未完由依=>zh-hans:系列未完結"
     }
   ]
 }

@@ -25,7 +25,9 @@ export default function Footer() {
         commit: wasm.get_commit(),
         mediawikiCommit: wasm.get_mediawiki_commit(),
         openccCommit: wasm.get_opencc_commit(),
-        cgroupDate: cgroups.timestamp ? new Date(cgroups.timestamp * 1000) : undefined,
+        cgroupDate: cgroups?.timestamp
+          ? new Date(cgroups.timestamp * 1000)
+          : undefined,
       });
     }
     loadBuildInfo();
@@ -63,7 +65,9 @@ export default function Footer() {
               underline="always"
             >
               <code>
-                {buildInfo.mediawikiCommit?.substring(0, 8) ?? "????????"}
+                {wasm
+                  ? (buildInfo.mediawikiCommit?.substring(0, 8) ?? "__N.A.__")
+                  : "????????"}
               </code>
             </Link>
             {" | "}
@@ -75,8 +79,9 @@ export default function Footer() {
               underline="always"
             >
               <code>
-                {buildInfo.openccCommit?.substring(0, 8) ??
-                  (buildInfo.mediawikiCommit ? "__N.A.__" : "????????")}
+                {wasm
+                  ? (buildInfo.openccCommit?.substring(0, 8) ?? "__N.A.__")
+                  : "????????"}
               </code>
             </Link>
             {" | "}

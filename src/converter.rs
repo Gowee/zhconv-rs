@@ -543,6 +543,8 @@ impl ZhConverter {
 /// # Example
 /// Build a Zh2CN converter with some additional rules.
 /// ```
+/// # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+/// # {
 /// use zhconv::{zhconv, ZhConverterBuilder, Variant, get_builtin_tables};
 /// // extracted from https://zh.wikipedia.org/wiki/Template:CGroup/Template:CGroup/文學.
 /// let rules = r"zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客;
@@ -555,6 +557,7 @@ impl ZhConverter {
 /// let original = "《三劍客》是亞歷山大·仲馬的作品。《孤雛淚》是查爾斯·狄更斯的作品。";
 /// assert_eq!(converter.convert(original), "《三个火枪手》是亚历山大·仲马的作品。《雾都孤儿》是查尔斯·狄更斯的作品。");
 /// assert_eq!(zhconv(original, Variant::ZhCN), "《三剑客》是亚历山大·仲马的作品。《孤雏泪》是查尔斯·狄更斯的作品。")
+/// # }
 #[derive(Debug, Clone, Default)]
 pub struct ZhConverterBuilder<'t> {
     target: Variant,

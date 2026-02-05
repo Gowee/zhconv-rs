@@ -4,12 +4,80 @@
   "path": "Module:CGroup/Stranger Things",
   "rules": [
     {
+      "original": "Argyle",
+      "conv": "zh-hans:阿盖尔;zh-hant:阿蓋;"
+    },
+    {
       "original": "Barb",
-      "conv": "zh-hant:芭兒;zh-hans:芭珀;"
+      "conv": "zh-hans:芭珀;zh-hant:芭兒;"
     },
     {
       "original": "Bob",
-      "conv": "zh-hant:巴布;zh-hans:鲍伯;zh-hk:寳;"
+      "conv": "zh-hans:鲍伯;zh-hant:巴布;zh-hk:寳;"
+    },
+    {
+      "original": "Dr. Kay",
+      "conv": "zh-hans:凯博士;zh-hant:愷博士;"
+    },
+    {
+      "original": "Eddie",
+      "conv": "zh-hans:埃迪;zh-hant:艾迪;"
+    },
+    {
+      "original": "Erica",
+      "conv": "zh-hans:埃莉卡;zh-hant:艾瑞卡;"
+    },
+    {
+      "original": "Holly",
+      "conv": "zh-hans:霍莉;zh-hant:荷莉;"
+    },
+    {
+      "original": "Jonathan",
+      "conv": "zh-hans:乔纳森;zh-hant:強納森;zh-hk:壯力焚;"
+    },
+    {
+      "original": "Joyce",
+      "conv": "zh-hans:乔伊斯;zh-hant:喬絲;zh-hk:祖絲;"
+    },
+    {
+      "original": "Karen",
+      "conv": "zh-hans:凯伦;zh-hant:凱倫;zh-hk:嘉倫;"
+    },
+    {
+      "original": "Lucas",
+      "conv": "zh-hans:卢卡斯;zh-hant:路卡斯;"
+    },
+    {
+      "original": "Max",
+      "conv": "zh-hans:麦克斯;zh-hant:麥克絲;"
+    },
+    {
+      "original": "Mayfield",
+      "conv": "zh-hans:梅菲尔德;zh-hant:梅費德"
+    },
+    {
+      "original": "Mike",
+      "conv": "zh-hans:迈克;zh-hant:麥克;"
+    },
+    {
+      "original": "Murray",
+      "conv": "zh-hans:默里;zh-hant:莫瑞;"
+    },
+    {
+      "original": "Nancy",
+      "conv": "zh-hans:南茜;zh-hant:南西;zh-hk:南斯;"
+    },
+    {
+      "original": "Robin",
+      "conv": "zh-hans:罗宾;zh-hant:蘿蘋;"
+    },
+    {
+      "original": "Steve",
+      "conv": "zh-hans:史蒂夫;zh-hant:史帝夫;"
+    },
+    {
+      "original": "Vecna",
+      "conv": "zh-hans:维克那;zh-hant:威可那;"
     },
     {
       "original": "Brenner",
@@ -20,64 +88,40 @@
       "conv": "zh-hans:拜尔斯;zh-hant:拜爾斯;zh-hk:拜也斯;"
     },
     {
-      "original": "Erica",
-      "conv": "zh-hant:艾瑞卡;zh-hans:埃莉卡;"
+      "original": "Harrington",
+      "conv": "zh-hans:哈灵顿;zh-hant:哈林頓;"
+    },
+    {
+      "original": "Henderson",
+      "conv": "zh-hans:亨德森;zh-hant:韓德森;"
     },
     {
       "original": "Hopper",
-      "conv": "zh-hant:哈普;zh-hans:霍珀;zh-hk:鶴比;"
+      "conv": "zh-hans:霍珀;zh-hant:哈普;zh-hk:鶴比;"
     },
     {
-      "original": "Jonathan",
-      "conv": "zh-hant:強納森;zh-hans:乔纳森;zh-hk:壯力焚;"
+      "original": "Mayfield",
+      "conv": "zh-hans:梅菲尔德;zh-hant:梅費德"
     },
     {
-      "original": "Joyce",
-      "conv": "zh-hant:喬絲;zh-hans:乔伊斯;zh-hk:祖絲;"
-    },
-    {
-      "original": "Karen",
-      "conv": "zh-hans:凯伦;zh-hant:凱倫;zh-hk:嘉倫;"
-    },
-    {
-      "original": "Lucas",
-      "conv": "zh-hant:路卡斯;zh-hans:卢卡斯;"
-    },
-    {
-      "original": "Max",
-      "conv": "zh-hant:麥克絲;zh-hans:麦克斯;"
-    },
-    {
-      "original": "Mike",
-      "conv": "zh-hant:麥克;zh-hans:迈克;"
-    },
-    {
-      "original": "Nancy",
-      "conv": "zh-hant:南西;zh-hans:南茜;zh-hk:南斯;"
+      "original": "Munson",
+      "conv": "zh-hans:芒森;zh-hant:曼森;"
     },
     {
       "original": "Owens",
       "conv": "zh-hans:欧文斯;zh-hant:歐文斯;zh-hk:奧雲斯;"
     },
     {
-      "original": "Robin",
-      "conv": "zh-hans:罗宾;zh-hant:蘿蘋;"
-    },
-    {
       "original": "Sinclair",
       "conv": "zh-hans:辛克莱尔;zh-hant:辛克萊;"
     },
     {
-      "original": "Steve",
-      "conv": "zh-hant:史帝夫;zh-hans:史蒂夫;"
-    },
-    {
-      "original": "Vecna",
-      "conv": "zh-hans:维克那;zh-hant:威可那;"
+      "original": "Turnbow",
+      "conv": "zh-hans:特恩鲍;zh-hant:圖恩保;"
     },
     {
       "original": "Wheeler",
-      "conv": "zh-hans:惠勒;zh-hant:威勒;"
+      "conv": "zh-hans:威勒;zh-hant:惠勒;"
     },
     {
       "original": "Astin",
@@ -249,31 +293,35 @@
     },
     {
       "original": "Chapter One: The Crawl",
-      "conv": "zh-hans:第一集：匍匐潜行;zh-hant:第1章：匍匐潛行;"
+      "conv": "zh-hans:第一集：潜行;zh-hant:第1章：潛行;"
+    },
+    {
+      "original": "Chapter Two: The Vanishing of Holly Wheeler",
+      "conv": "zh-hans:第二集：霍莉·威勒失踪;zh-hant:第2章：荷莉·惠勒失蹤;"
     },
     {
       "original": "Chapter Three: The Turnbow Trap",
-      "conv": "zh-hans:第三集：特波陷阱;zh-hant:第3章：特波陷阱;"
+      "conv": "zh-hans:第三集：特恩鲍陷阱;zh-hant:第3章：圖恩保陷阱;"
     },
     {
       "original": "Chapter Four: Sorcerer",
-      "conv": "zh-hans:第四集：巫师;zh-hant:第4章：巫師;"
+      "conv": "zh-hans:第四集：魔法师;zh-hant:第4章：巫師;"
     },
     {
       "original": "Chapter Five: Shock Jock",
-      "conv": "zh-hans:第五集：电击唤魔;zh-hant:第5章：電擊喚魔;"
+      "conv": "zh-hans:第五集：电击唤魔;zh-hant:第5章：「電」台;"
     },
     {
       "original": "Chapter Six: Escape from Camazotz",
-      "conv": "zh-hans:第六集：逃离卡玛佐兹;zh-hant:第6章：逃離卡瑪佐茲;"
+      "conv": "zh-hans:第六集：逃离坎马卓兹;zh-hant:第6章：逃離暗域;"
     },
     {
       "original": "Chapter Seven: The Bridge",
-      "conv": "zh-hans:第七集：桥梁;zh-hant:第7章：橋樑;"
+      "conv": "zh-hans:第七集：桥梁;zh-hant:第7章：橋;"
     },
     {
       "original": "Chapter Eight: The Rightside Up",
-      "conv": "zh-hans:第八集：正常世界;zh-hant:第8章：正常世界;"
+      "conv": "zh-hans:第八集：正常世界;zh-hant:第8章：上下正常的世界;"
     },
     {
       "original": "Duffer",
@@ -286,6 +334,10 @@
     {
       "original": "Shawn Levy",
       "conv": "zh-cn:肖恩·利维;zh-hk:桑·里維;zh-tw:薛恩·李維;"
+    },
+    {
+      "original": "episodes",
+      "conv": "zh-hans:剧集;zh-tw:集數"
     }
   ]
 }

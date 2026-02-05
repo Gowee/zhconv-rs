@@ -852,6 +852,10 @@
       "conv": "zh-hans:哈茨;zh-hk:赫斯;zh-tw:哈茨;"
     },
     {
+      "original": "Dundee",
+      "conv": "zh-hans:邓迪;zh-hk:登地;zh-tw:登地;"
+    },
+    {
       "original": "Linfield F.C.",
       "conv": "zh-hans:林菲尔德;zh-hk:連菲特;zh-tw:林菲爾德;"
     },
@@ -944,6 +948,14 @@
       "conv": "zh-hans:博阿维什塔;zh-hk:博維斯塔;zh-tw:博阿維斯塔;"
     },
     {
+      "original": "União de Leiria",
+      "conv": "zh-hans:莱里亚体育;zh-hk:利亞拿體育會;zh-tw:雷里亞體育會;"
+    },
+    {
+      "original": "União de Leiria",
+      "conv": "zh-hans:莱里亚;zh-hk:利亞拿;zh-tw:雷里亞;"
+    },
+    {
       "original": "Olympiacos",
       "conv": "zh-hans:奥林匹亚科斯;zh-tw:奧林匹亞科斯;zh-hk:奧林比亞高斯;"
     },
@@ -974,6 +986,10 @@
     {
       "original": "POAK",
       "conv": "zh-hans:PAOK塞萨洛尼基;zh-hk:PAOK沙朗歷基;zh-tw:PAOK塞薩洛尼基;"
+    },
+    {
+      "original": "Panionios",
+      "conv": "zh-hans:泛伊奥尼亚;zh-tw:泛伊奧尼亞;zh-hk:彭尼奧尼奧斯;"
     },
     {
       "original": "Başakşehir",
@@ -1516,6 +1532,10 @@
       "conv": "zh-hans:罗瓦涅米;zh-hk:羅凡尼米;zh-tw:羅瓦涅米;"
     },
     {
+      "original": "Tampere United",
+      "conv": "zh-hans:坦佩雷联合;zh-hk:譚柏利;zh-tw:坦佩雷聯合;"
+    },
+    {
       "original": "Hafnarfjordur FH",
       "conv": "zh-hans:哈布纳菲厄泽;zh-tw:哈布納菲厄澤;zh-hk:夏拿佐杜亞;"
     },
@@ -1548,6 +1568,10 @@
       "conv": "zh-hans:斯蒂亚尔南;zh-hk:史達蘭;zh-tw:斯蒂亞爾南;"
     },
     {
+      "original": "Fylkir",
+      "conv": "zh-hans:菲尔基尔;zh-hk:費基亞;zh-tw:菲爾基爾;"
+    },
+    {
       "original": "Klaksvíkar Ítróttarfelag",
       "conv": "zh-hans:KI克拉克斯维克;zh-hk:基卡拉斯域卡;zh-tw:KI克拉克斯維克;"
     },
@@ -1566,6 +1590,10 @@
     {
       "original": "Víkingur Gøta",
       "conv": "zh-hans:格塔维京人;zh-hk:維京加高泰;zh-tw:格塔維京人;"
+    },
+    {
+      "original": "Gøta",
+      "conv": "zh-hans:格塔;zh-hk:高泰;zh-tw:格塔;"
     },
     {
       "original": "FC Red Bull Salzburg",
@@ -1788,6 +1816,10 @@
       "conv": "zh-hans:国际布拉迪斯拉发;zh-tw:國際布拉迪斯拉發;zh-hk:國際巴迪斯拉華;"
     },
     {
+      "original": "FC Petržalka akadémia",
+      "conv": "zh-hans:佩特扎尔卡;zh-tw:佩特扎爾卡;zh-hk:帕沙卡;"
+    },
+    {
       "original": "NK Olimpija Ljubljana",
       "conv": "zh-hans:奥林匹亚;zh-tw:奧林匹亞;zh-hk:奧林比亞;"
     },
@@ -1854,6 +1886,10 @@
     {
       "original": "NK Slaven Belupo",
       "conv": "zh-hans:贝鲁波;zh-hk:比路樸;zh-tw:貝魯波;"
+    },
+    {
+      "original": "Varaždin",
+      "conv": "zh-hans:瓦拉日丁;zh-hk:華拉薩甸;zh-tw:瓦拉日丁;"
     },
     {
       "original": "Red Star Belgrade",
@@ -2117,11 +2153,15 @@
     },
     {
       "original": "FC Timișoara",
-      "conv": "zh-hans:蒂米什瓦拉;zh-hk:添美索亞拿;zh-tw:蒂米什瓦拉;"
+      "conv": "zh-hans:蒂米什瓦拉;zh-hk:添米索亞拿;zh-mo:添美索亞拿;zh-tw:蒂米什瓦拉;"
     },
     {
       "original": "FC Astra Giurgiu",
       "conv": "zh-hans:阿斯特拉;zh-hk:艾斯特拉;zh-tw:阿斯特拉;"
+    },
+    {
+      "original": "Oțelul Galați",
+      "conv": "zh-hans:加拉茨;zh-tw:加拉茨;zh-hk:加拉治;"
     },
     {
       "original": "PFC Ludogorets Razgrad",
@@ -2180,6 +2220,10 @@
       "conv": "zh-cn:达契亚;zh-tw:達契亞;zh-hk:達斯亞;"
     },
     {
+      "original": "FC Nistru Otaci",
+      "conv": "zh-cn:奥塔奇;zh-tw:奧塔奇;zh-hk:奧泰斯;"
+    },
+    {
       "original": "FC Dinamo Batumi",
       "conv": "zh-tw:巴統迪納摩;zh-hans:巴统迪纳摩;zh-hk:巴杜米戴拿模;"
     },
@@ -2218,6 +2262,10 @@
     {
       "original": "FC Banants",
       "conv": "zh-hans:巴南茨;zh-hk:班蘭特斯;zh-tw:巴南茨;"
+    },
+    {
+      "original": "FC Shirak",
+      "conv": "zh-hans:希拉克;zh-hk:舒拉克;zh-tw:希拉克;"
     },
     {
       "original": "Neftçi PFK",
@@ -2266,6 +2314,10 @@
     {
       "original": "Folgore",
       "conv": "zh-hans:法尔恰诺霹雳;zh-tw:法爾恰諾霹靂;zh-hk:科哥里;"
+    },
+    {
+      "original": "A.C. Juvenes/Dogana",
+      "conv": "zh-hans:青年多加纳;zh-hk:祖雲尼斯杜加拿;zh-tw:青年多加納;"
     },
     {
       "original": "Valletta F.C.",
@@ -2346,6 +2398,10 @@
     {
       "original": "Beitar Jerusalem F.C.",
       "conv": "zh-hans:耶路撒冷贝塔尔;zh-hk:耶路撒冷比達;zh-tw:耶路撒冷貝塔爾;"
+    },
+    {
+      "original": "Hapoel Tel Aviv F.C.",
+      "conv": "zh-hans:特拉维夫哈普尔;zh-hk:特拉維夫夏普爾;zh-tw:特拉維夫哈普爾;"
     }
   ]
 }

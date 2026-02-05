@@ -8,7 +8,7 @@
 
 zhconv-rs converts Chinese between Traditional, Simplified and regional variants, using rulesets sourced from [MediaWiki](https://github.com/wikimedia/mediawiki)/Wikipedia and [OpenCC](https://github.com/BYVoid/OpenCC), which are merged, flattened and prebuilt into [Aho‑Corasick](https://en.wikipedia.org/wiki/Aho–Corasick_algorithm) automata for single-pass, linear-time conversions.
 
-🔗 **Web app (wasm):** <https://zhconv.pages.dev> (w/ OpenCC dictionaries)
+🔗 **Web app (wasm):** <https://zhconv.pages.dev>
 
 ⚙️ **Cli**: `cargo install zhconv` or download from [releases](https://github.com/Gowee/zhconv-rs/releases)
 
@@ -20,20 +20,21 @@ assert_eq!(zhconv("雾失楼台，月迷津渡", Variant::ZhTW), "霧失樓臺�
 assert_eq!(zhconv("驛寄梅花，魚傳尺素", "zh-Hans".parse().unwrap()), "驿寄梅花，鱼传尺素");
 ```
 
-🐍 **Python package w/ wheels**: `pip install zhconv-rs` or `pip install zhconv-rs-opencc` (for OpenCC dictionaries)
-
-<details open>
- <summary>Python snippet</summary>
+🐍 **Python package**: `pip install zhconv-rs` or `pip install zhconv-rs-opencc` (for additional OpenCC dictionaries)
 
 ```python
-# > pip install zhconv_rs
-# Convert using the built-in rulesets:
 from zhconv_rs import zhconv
 assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
+```
+
+<details>
+ <summary>More usage</summary>
+
+```python
 assert zhconv("《-{zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客}-》是亞歷山大·仲馬的作品。", "zh-cn", mediawiki=True) == "《三个火枪手》是亚历山大·仲马的作品。"
 assert zhconv("-{H|zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;}-《雾都孤儿》是查尔斯·狄更斯的作品。", "zh-tw", True) == "《孤雛淚》是查爾斯·狄更斯的作品。"
 
-# Convert using custom rules:
+# Customize conversion tables:
 from zhconv_rs import make_converter
 assert make_converter(None, [("天", "地"), ("水", "火")])("甘肅天水") == "甘肅地火"
 
@@ -78,11 +79,12 @@ assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去�
 </script>
 ```
 
+
 </details>
 
-## Variants and dictionaries
+## Variants and conversion tables
 
-Unlike OpenCC, whose dictionaries are bidirectional (e.g., `s2t`, `tw2s`), zhconv-rs follows MediaWiki’s approach and provides one dictionary per target variant:
+Unlike OpenCC, whose dictionaries are bidirectional (e.g., `s2t`, `tw2s`), zhconv-rs follows MediaWiki’s approach and provides one conversion table per target variant:
 
 <details>
  <summary>zh-Hant, zh-Hans, zh-TW, zh-HK, zh-MO, zh-CN, zh-SG, zh-MY</summary>
@@ -101,23 +103,23 @@ Unlike OpenCC, whose dictionaries are bidirectional (e.g., `s2t`, `tw2s`), zhcon
 *Note:*  `zh-TW` and `zh-HK` are derived from `zh-Hant`. `zh-CN` is derived from `zh-Hans`. Currently, `zh-MO` shares the same dictionary as `zh-HK`, and `zh-MY`/`zh-SG` share the same dictionary as `zh-CN`, unless additional rules are provided.
 </details>
 
-Chained dictionary groups from OpenCC are flattened and merged with MediaWiki dictionaries for each target variant, then compiled into a single Aho-Corasick automaton at build time. After internal compression, the bundled dictionaries and automata occupy ~0.6 MiB (without OpenCC) or ~2.7 MiB (with OpenCC enabled).
+Chained dictionary groups from OpenCC are flattened and merged with the MediaWiki conversion table for each target variant, then compiled into an Aho-Corasick automaton at compile-time. After internal compression, the bundled conversion tables and automata occupy ~0.6 MiB (with MediWiki enabled only) or ~2.7 MiB (with both MediaWiki and OpenCC enabled).
 
 ## Performance
 
-Even with all dictionaries enabled, zhconv-rs remains faster than most alternatives. Check with `cargo bench compare --features opencc`:
+Even with all rulesets enabled, zhconv-rs remains faster than most alternatives. Check with `cargo bench compare --features bench,mediawiki,opencc`:
 
 ![Comparison with other crates, targetting zh-Hans](violin-to-hans.svg)
 ![Comparison with other crates, targetting zh-TW](violin-to-tw.svg)
 
-Conversion runs in a single pass in `O(n+m)` linear time by default, where `n` is the length of the input text and `m` is the maximum length of source word in dictionaries, regardless of enabled dictionaries. When converting wikitext containing MediaWiki conversion rules, the time complexity may degrade to `O(n*m)` in the worst case, if the corresponding function or flag is explicitly chosen.
+Conversion runs in a single pass in `O(n+m)` linear time by default, where `n` is the length of the input text and `m` is the maximum length of source word in conversion tables, regardless of which rulesets are enabled. When converting wikitext containing MediaWiki conversion rules, the time complexity may degrade to `O(n*m)` in the worst case, if the corresponding function or flag is explicitly chosen.
 
 On a typical modern PC, prebuilt converters load in a few milliseconds with default features (~2–5 ms). Enabling the optional opencc feature increases load time (typically 20–25 ms per target). Throughput generally ranges from 100–200 MB/s.
 
-`cargo bench --features opencc` on `AMD EPYC 7B13` (GitPod) by v0.3:
+`cargo bench base --features bench` on `AMD EPYC 7B13` (GitPod) by v0.3:
 
 <details>
-<summary>w/ default features</summary>
+<summary>Using conversion tables sourced from MediaWiki by default</summary>
 
 ```
 load/zh2Hant            time:   [4.6368 ms 4.6862 ms 4.7595 ms]
@@ -148,7 +150,7 @@ infer_variant data3185k time:   [60.205 ms 60.412 ms 60.627 ms]
 </details>
 
 <details>
-<summary>w/ the additional non-default `opencc` feature</summary>
+<summary>Using conversion tables derived from OpenCC additionally (`--features opencc`)</summary>
 
 ```
 load/zh2Hant            time:   [22.074 ms 22.338 ms 22.624 ms]
@@ -186,13 +188,22 @@ Rule-based converters cannot capture every possible linguistic nuance. Like most
 
 ### Wikitext support
 
-The implementation supports most MediaWiki conversion rules, while not fully compliant with the original MediaWiki implementation.
+The implementation supports most MediaWiki conversion syntax, while not fully compliant with the original MediaWiki implementation.
 
 Since rebuilding automata dynamically is impractical, rules (e.g., `-{H|zh-hans:鹿|zh-hant:马}-` in MediaWiki syntax) in text are extracted in a first pass, a temporary automaton is constructed, and the text is converted in a second pass. The time complexity may degrade to `O(n*m)` in the worst case, where `n` is the input text length and `m` is the maximum length of source words in dictionaries, which is equivalent to a brute-force approach.
 
+## License
+
+The library itself is licensed under MIT OR Apache-2.0, at the licensee’s option. **BUT** it may bundle:
+
+- Conversion tables from MediaWiki (the default, gated by the feature `mediawiki`) which are licensed under GPL-2.0-or-later.
+- Dictionaries from OpenCC (gated by the feature `opencc`)  licensed under Apache-2.0.
+
+To make the library MIT-compatible, disable the default `mediawiki` feature and enable the `opencc` feature for prebuilt converters & conversion tables.
+
 ## Credits
 
-Rulesets/Dictionaries: [MediaWiki](https://github.com/wikimedia/mediawiki) and [OpenCC](https://github.com/BYVoid/OpenCC).
+Rulesets: [MediaWiki](https://github.com/wikimedia/mediawiki) and [OpenCC](https://github.com/BYVoid/OpenCC).
 
 Fast double-array Aho-Corasick automata implementation in Rust: [daachorse](https://github.com/daac-tools/daachorse)
 

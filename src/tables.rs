@@ -18,62 +18,99 @@ pub type Table<'s> = (&'s str, &'s str);
 pub const ZH_TABLE: Table<'static> = ("", "");
 pub(crate) const ZH_TABLES: [Table; 0] = [];
 /// Simplified Chinese to Traditional Chinese conversion table, including no region-specific phrases
+#[cfg(any(
+    feature = "mediawiki-hant",
+    feature = "opencc-hant",
+    feature = "mediawiki-tw",
+    feature = "opencc-tw",
+    feature = "mediawiki-hk",
+    feature = "opencc-hk",
+))]
 pub const ZH_HANT_TABLE: Table<'static> = (
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT.to.conv")),
 );
+#[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
 pub(crate) const ZH_HANT_TABLES: [Table; 1] = [ZH_HANT_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
 pub(crate) const ZH_HANT_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT.daac"));
+
 /// Traditional Chinese to Simplified Chinese conversion table, including no region-specific phrases
+#[cfg(any(
+    feature = "mediawiki-hans",
+    feature = "opencc-hans",
+    feature = "mediawiki-cn",
+    feature = "opencc-cn",
+))]
 pub const ZH_HANS_TABLE: Table<'static> = (
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS.to.conv")),
 );
+#[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
 pub(crate) const ZH_HANS_TABLES: [Table; 1] = [ZH_HANS_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
 pub(crate) const ZH_HANS_DAAC: &[u8] = include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS.daac"));
 /// Taiwan-specific phrases conversion table, excluding `ZH_HANT_TABLE`
+#[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
 pub const ZH_TW_TABLE: Table<'static> = (
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_TW.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_TW.to.conv")),
 );
+#[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
 pub(crate) const ZH_HANT_TW_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_TW_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
 pub(crate) const ZH_HANT_TW_DAAC: &[u8] =
     include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT_TW.daac"));
 /// Hong Kong-specific phrases conversion table, excluding `ZH_HANT_TABLE`
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub const ZH_HK_TABLE: Table<'static> = (
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HK.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_HK.to.conv")),
 );
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub(crate) const ZH_HANT_HK_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_HK_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub(crate) const ZH_HANT_HK_DAAC: &[u8] =
     include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANT_HK.daac"));
 /// Macao-specific phrases conversion table, excluding `ZH_HANT_TABLE`
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub const ZH_MO_TABLE: Table<'static> = ZH_HK_TABLE;
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub(crate) const ZH_HANT_MO_TABLES: [Table; 2] = [ZH_HANT_TABLE, ZH_MO_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
 pub(crate) const ZH_HANT_MO_DAAC: &[u8] = ZH_HANT_HK_DAAC;
 /// Mainland China-specific phrases conversion table, excluding `ZH_HANS_TABLE`
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub const ZH_CN_TABLE: Table<'static> = (
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_CN.from.conv")),
     include_str!(concat!(env!("OUT_DIR"), "/ZH_TO_CN.to.conv")),
 );
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub(crate) const ZH_HANS_CN_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_CN_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub(crate) const ZH_HANS_CN_DAAC: &[u8] =
     include_bytes!(concat!(env!("OUT_DIR"), "/ZH_TO_HANS_CN.daac"));
 /// Singapore-specific phrases conversion table, excluding `ZH_HANS_TABLE`
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub const ZH_SG_TABLE: Table<'static> = ZH_CN_TABLE;
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub(crate) const ZH_HANS_SG_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_SG_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub(crate) const ZH_HANS_SG_DAAC: &[u8] = ZH_HANS_CN_DAAC;
 /// Malaysia-specific phrases conversion table, excluding `ZH_HANS_TABLE`
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub const ZH_MY_TABLE: Table<'static> = ZH_SG_TABLE;
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub(crate) const ZH_HANS_MY_TABLES: [Table; 2] = [ZH_HANS_TABLE, ZH_MY_TABLE];
 #[doc(hidden)]
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
 pub(crate) const ZH_HANS_MY_DAAC: &[u8] = ZH_HANS_SG_DAAC;
 
 /// Expand a built-in conversion table.
@@ -138,14 +175,24 @@ pub fn get_builtin_tables(target: Variant) -> &'static [Table<'static>] {
 
     match target {
         Zh => &ZH_TABLES,
+        #[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
         ZhHant => &ZH_HANT_TABLES,
+        #[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
         ZhHans => &ZH_HANS_TABLES,
+        #[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
         ZhTW => &ZH_HANT_TW_TABLES,
+        #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
         ZhHK => &ZH_HANT_HK_TABLES,
+        #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
         ZhMO => &ZH_HANT_MO_TABLES,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhCN => &ZH_HANS_CN_TABLES,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhMY => &ZH_HANS_MY_TABLES,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhSG => &ZH_HANS_SG_TABLES,
+        #[allow(unreachable_patterns)]
+        _ => panic!("No tables for {} enabled.", target),
     }
 }
 
@@ -155,15 +202,25 @@ pub fn get_builtin_serialized_daac(target: Variant) -> &'static [u8] {
     use Variant::*;
 
     match target {
-        Zh => unimplemented!(),
+        Zh => unreachable!(),
+        #[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
         ZhHant => ZH_HANT_DAAC,
+        #[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
         ZhHans => ZH_HANS_DAAC,
+        #[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
         ZhTW => ZH_HANT_TW_DAAC,
+        #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
         ZhHK => ZH_HANT_HK_DAAC,
+        #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
         ZhMO => ZH_HANT_MO_DAAC,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhCN => ZH_HANS_CN_DAAC,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhMY => ZH_HANS_MY_DAAC,
+        #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhSG => ZH_HANS_SG_DAAC,
+        #[allow(unreachable_patterns)]
+        _ => panic!("No daac for {} enabled.", target),
     }
 }
 

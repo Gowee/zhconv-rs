@@ -1,0 +1,287 @@
+{
+  "name": "MCU",
+  "description": "[[漫威电影宇宙]]",
+  "path": "Module:CGroup/MCU",
+  "rules": [
+    {
+      "original": "Brand New Day",
+      "conv": "zh-tw:重生日; zh-hk:英雄重生; zh-cn:崭新之日;"
+    },
+    {
+      "original": "Doomsday",
+      "conv": "zh-tw:末日崛起; zh-hk:末日降臨; zh-cn:毁灭之日;"
+    },
+    {
+      "original": "Far From Home",
+      "conv": "zh-tw:離家日; zh-hk:決戰千里; zh-cn:英雄远征; zh-sg:决战千里;"
+    },
+    {
+      "original": "Homecoming",
+      "conv": "zh-tw:返校日; zh-hk:強勢回歸; zh-cn:英雄归来;"
+    },
+    {
+      "original": "Infinity War",
+      "conv": "zh-tw:無限之戰; zh-hk:無限之戰; zh-cn:无限战争;"
+    },
+    {
+      "original": "No Way Home",
+      "conv": "zh-tw:無家日; zh-hk:不戰無歸; zh-cn:英雄无归;"
+    },
+    {
+      "original": "Quantumania",
+      "conv": "zh-tw:量子狂熱; zh-hk:量子狂熱; zh-cn:量子狂潮;"
+    },
+    {
+      "original": "Atwell",
+      "conv": "zh-tw:艾特沃; zh-hk:艾維; zh-hans:阿特维尔;"
+    },
+    {
+      "original": "Bettany",
+      "conv": "zh-tw:貝特尼; zh-hk:班特尼; zh-cn:贝坦尼; zh-sg:贝塔尼;"
+    },
+    {
+      "original": "Boseman",
+      "conv": "zh-tw:鮑斯曼; zh-hk:保斯曼; zh-hans:博斯曼;"
+    },
+    {
+      "original": "Brolin",
+      "conv": "zh-tw:布洛林; zh-hk:布連; zh-cn:布洛林;"
+    },
+    {
+      "original": "Cheadle",
+      "conv": "zh-tw:奇鐸; zh-hk:卓度; zh-cn:钱德尔;"
+    },
+    {
+      "original": "Cooper",
+      "conv": "zh-tw:庫柏; zh-hk:谷巴; zh-cn:库珀; zh-sg:库柏;"
+    },
+    {
+      "original": "Cumberbatch",
+      "conv": "zh-tw:康柏拜區; zh-hk:甘巴貝治; zh-cn:康伯巴奇;"
+    },
+    {
+      "original": "Cumming",
+      "conv": "zh-tw:康明; zh-hk:甘明; zh-cn:卡明;"
+    },
+    {
+      "original": "Downey",
+      "conv": "zh-tw:道尼; zh-hk:唐尼; zh-cn:唐尼; zh-sg:道尼; zh-my:道尼;"
+    },
+    {
+      "original": "Evans",
+      "conv": "zh-tw:伊凡; zh-hk:伊雲斯; zh-cn:埃文斯; zh-my:伊凡; zh-sg:伊凡斯;"
+    },
+    {
+      "original": "Gillan",
+      "conv": "zh-tw:吉蘭; zh-hk:招莉仁; zh-cn:吉兰;"
+    },
+    {
+      "original": "Grammer",
+      "conv": "zh:格拉瑪; zh-tw:葛雷莫; zh-hk:格拉馬; zh-hans:格兰莫; zh-sg:葛莱姆; zh-cn:格拉玛;"
+    },
+    {
+      "original": "Grillo",
+      "conv": "zh-tw:葛里洛; zh-hk:葛里盧; zh-cn:格里罗;"
+    },
+    {
+      "original": "Harbour",
+      "conv": "zh-tw:哈伯; zh-hk:夏巴; zh-cn:哈伯;"
+    },
+    {
+      "original": "Hemsworth",
+      "conv": "zh-tw:漢斯沃; zh-hk:咸士禾夫; zh-cn:海姆斯沃斯;"
+    },
+    {
+      "original": "Hiddleston",
+      "conv": "zh-tw:希德斯頓; zh-hk:希丹斯頓; zh-sg:希德斯顿; zh-cn:希德勒斯顿;"
+    },
+    {
+      "original": "Holland",
+      "conv": "zh-tw:霍蘭德; zh-hk:賀蘭; zh-cn:霍兰德; zh-sg:霍兰;"
+    },
+    {
+      "original": "Ineson",
+      "conv": "zh:尹愛森; zh-tw:伊尼森; zh-hk:英納森; zh-cn:伊内森; zh-sg:尹爱森;"
+    },
+    {
+      "original": "Jackman",
+      "conv": "zh-tw:傑克曼; zh-hk:積曼; zh-cn:杰克曼;"
+    },
+    {
+      "original": "Johansson",
+      "conv": "zh-tw:喬韓森; zh-hk:祖安遜; zh-sg:约翰逊; zh-my:祖安逊; zh-cn: 约翰逊;"
+    },
+    {
+      "original": "Kirby",
+      "conv": "zh-tw:寇比; zh-hk:卻比; zh-cn:柯比;"
+    },
+    {
+      "original": "Klementieff",
+      "conv": "zh-tw:克萊門捷夫; zh-hk:姬曼迪夫; zh-cn:克莱门捷夫;"
+    },
+    {
+      "original": "Langford",
+      "conv": "zh-tw:蘭馥; zh-hk:蘭福; zh-hans:兰福德; zh-hant:蘭福德;"
+    },
+    {
+      "original": "Mackie",
+      "conv": "zh-tw:麥基; zh-hk:麥奇; zh-cn:麦凯;"
+    },
+    {
+      "original": "Marsden",
+      "conv": "zh-tw:馬斯登; zh-hk:馬史頓; zh-cn:马斯登;"
+    },
+    {
+      "original": "McKellen",
+      "conv": "zh-tw:麥克連; zh-hk:麥基倫; zh-sg:麦克连; zh-my:麦基伦; zh-cn:麦凯伦;"
+    },
+    {
+      "original": "Moss-Bachrach",
+      "conv": "zh-tw:摩斯-貝克許; zh-hk:摩斯-巴拉赫; zh-cn:莫斯-巴克拉赫;"
+    },
+    {
+      "original": "Olsen",
+      "conv": "zh-tw:歐森; zh-hk:奧遜; zh-cn:奥尔森; zh-sg:欧森;"
+    },
+    {
+      "original": "Paltrow",
+      "conv": "zh-tw:派特洛; zh-hk:柏德露; zh-sg:白德露; zh-cn:帕特罗;"
+    },
+    {
+      "original": "Pascal",
+      "conv": "zh-tw:帕斯卡; zh-hk:柏斯卡; zh-cn:帕斯卡;"
+    },
+    {
+      "original": "Portman",
+      "conv": "zh-tw:波曼; zh-hk:寶雯; zh-sg:波曼; zh-my:波曼; zh-cn:波特曼;"
+    },
+    {
+      "original": "Pratt",
+      "conv": "zh-tw:普瑞特; zh-hk:柏特; zh-cn:帕拉特;"
+    },
+    {
+      "original": "Pugh",
+      "conv": "zh-tw:普伊; zh-hk:佩芝; zh-cn:皮尤;"
+    },
+    {
+      "original": "Pullman",
+      "conv": "zh-tw:普曼; zh-hk:布文; zh-cn:普尔曼;"
+    },
+    {
+      "original": "Quinn",
+      "conv": "zh-tw:昆恩; zh-hk:昆恩; zh-cn:奎因;"
+    },
+    {
+      "original": "Ramirez",
+      "conv": "zh-tw:拉米瑞茲; zh-hk:雷美斯; zh-cn:拉米雷斯;"
+    },
+    {
+      "original": "Renner",
+      "conv": "zh-tw:雷納; zh-hk:維納; zh-cn:雷纳;"
+    },
+    {
+      "original": "Reynolds",
+      "conv": "zh-tw:雷諾斯; zh-hk:雷諾士; zh-cn:雷诺兹;"
+    },
+    {
+      "original": "Romijn",
+      "conv": "zh-tw:羅梅恩; zh-hk:露美; zh-cn:罗梅恩;"
+    },
+    {
+      "original": "Ruffalo",
+      "conv": "zh-tw:盧法洛; zh-hk:雷法路; zh-hans:鲁法洛;"
+    },
+    {
+      "original": "Saldana",
+      "conv": "zh-tw:莎達娜;zh-hk:蘇丹娜;zh-cn:索尔达娜;"
+    },
+    {
+      "original": "Stan",
+      "conv": "zh-tw:史坦; zh-hk:史丹; zh-cn:斯坦;"
+    },
+    {
+      "original": "Stewart",
+      "conv": "zh-tw:史都華; zh-hk:史釗活; zh-hans:斯图尔特;"
+    },
+    {
+      "original": "Tatum",
+      "conv": "zh-tw:塔圖; zh-hk:泰坦; zh-cn:塔图姆; zh-sg:塔图姆; zh-my:塔图;"
+    },
+    {
+      "original": "Weaving",
+      "conv": "zh-tw:威明; zh-hk:韋榮; zh-cn:维文;"
+    },
+    {
+      "original": "Wright",
+      "conv": "zh-tw:萊特; zh-hk:韋特; zh-cn:赖特;"
+    },
+    {
+      "original": "Wyatt",
+      "conv": "zh-tw:懷特; zh-hk:懷亞特; zh-cn:怀亚特;"
+    },
+    {
+      "original": "Cretton",
+      "conv": "zh-tw:克雷頓; zh-hk:卡頓; zh-hans:克里顿;"
+    },
+    {
+      "original": "Favreau",
+      "conv": "zh-tw:法夫洛; zh-hk:法來奧; zh-cn:法夫罗;"
+    },
+    {
+      "original": "Karpman",
+      "conv": "zh-hans:卡普曼;zh-hant:卡普曼;"
+    },
+    {
+      "original": "Levy",
+      "conv": "zh-tw:李維; zh-hk:里維; zh-cn:利维;"
+    },
+    {
+      "original": "Markus",
+      "conv": "zh-tw:馬庫斯; zh-hk:馬加斯; zh-hans:马库斯;"
+    },
+    {
+      "original": "McFeely",
+      "conv": "zh-tw:麥費利; zh-hk:麥費里; zh-cn:麦克菲利;"
+    },
+    {
+      "original": "Pearson",
+      "conv": "zh-tw:皮爾森; zh-hk:皮亞遜; zh-cn:皮尔逊;"
+    },
+    {
+      "original": "Schreier",
+      "conv": "zh-tw:史崔爾; zh-hk:沙格; zh-cn:施莱尔;"
+    },
+    {
+      "original": "Shakman",
+      "conv": "zh:沙克曼; zh-hant:薛克曼; zh-hk:沙克曼; zh-tw:夏克曼; zh-sg:夏克曼; zh-cn:沙克曼;"
+    },
+    {
+      "original": "Watts",
+      "conv": "zh-tw:華茲; zh-hk:華斯; zh-cn:沃茨;"
+    },
+    {
+      "original": "Alioth",
+      "conv": "zh-tw:玉衡; zh-hk:玉衡; zh-hans:艾利奥斯;"
+    },
+    {
+      "original": "Anchor Being",
+      "conv": "zh-tw:定錨者; zh-hk:骨幹人物; zh-cn:锚定之人;"
+    },
+    {
+      "original": "Minutemen",
+      "conv": "zh-tw:瞬息特警; zh-hk:瞬息特警; zh-cn:时间卫士;"
+    },
+    {
+      "original": "Sling Ring",
+      "conv": "zh-tw:靈環; zh-hk:施靈指環; zh-cn:悬戒;"
+    },
+    {
+      "original": "TemPad",
+      "conv": "zh-tw:時光平板; zh-hk:時間平板; zh-cn:时间控制器;"
+    },
+    {
+      "original": "Time Ripper",
+      "conv": "zh-tw:時間開膛手; zh-hk:碎時器; zh-cn:时间粉碎机;"
+    }
+  ]
+}

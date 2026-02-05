@@ -1,64 +1,73 @@
 //! zhconv-rs converts Chinese between Traditional, Simplified and regional variants, using
-//! rulesets sourced from [zhConversion.php](https://github.com/wikimedia/mediawiki/blob/master/includes/Languages/Data/ZhConversion.php)
-//! by MediaWiki and Chinese Wikipedia and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data),
+//! rulesets sourced from [MediaWiki/Wikipedia](https://github.com/wikimedia/mediawiki/blob/master/includes/Languages/Data/ZhConversion.php)
+//! and [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data),
 //! which are merged, flattened and then precompiled into [Aho-Corasick](https://en.wikipedia.org/wiki/Aho–Corasick_algorithm)
 //! automata by [daachorse](https://github.com/daac-tools/daachorse) for single-pass, linear-time
 //! conversions.
 //!
-//! The non-default feature `opencc` enables additional OpenCC dictionaries. Unlike other
-//! implementations, dictionaries cannot be chosen (enabled or disabled partly) at runtime since
-//! they are merged and precompiled into separate automata for each target variant.  
-//!
-//! As with MediaWiki and OpenCC, the accuracy is generally acceptable while limited.
-//! The converter optionally supports additional conversion rules in MediaWiki syntax (refer to [conversion groups](https://zh.wikipedia.org/wiki/Module:CGroup)
-//! and [manual conversion rules](https://zh.wikipedia.org/wiki/Help:高级字词转换语法) on Chinese
-//! Wikipedia), external rules defined line by line, and custom conversions defined by `(FROM, TO)`
-//! pairs. Prebuilding converter with custom rules or dictionaries is not yet supported.
+//! As with MediaWiki and OpenCC, the accuracy is generally acceptable, but remains limited.
+//! The converter optionally supports MediaWiki conversion syntax (ref: [1](https://zh.wikipedia.org/wiki/Module:CGroup),
+//!  [2](https://zh.wikipedia.org/wiki/Help:高级字词转换语法)).
 //!
 //! ## Usage
-//! The crate is [on crates.io](https://crates.io/crates/zhconv).
 //! ```toml
 //! [dependencies]
-//! zhconv = { version = "?", features = ["opencc"] } # enable additional OpenCC dictionaries
+//! # Bundle converters prebuilt from conversion tables sourced from MediaWiki (GPLv2.0+).
+//! zhconv = { version = ... } # by default, features = ["compress", "mediawiki"].
+//! # Bundle converters prebuilt from conversion tables sourced from OpenCC instead (Apache2.0).
+//! zhconv = { version = ..., default-features = false, features = ["compress", "opencc"]}
+//! # Combine conversion tables for one or more specific target variant(s) arbitrarily.
+//! zhconv = { version = ..., default-features = false, features = ["compress", "opencc-hant", "mediawiki-hant", "opencc-hans", "mediawiki-tw"]}
 //! ```
 //!
-//! ## Example
-//!
-//! Basic conversion:
+//! ### Example
+//! Convert simply:
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{zhconv, Variant};
 //! assert_eq!(zhconv("天干物燥 小心火烛", "zh-Hant".parse().unwrap()), "天乾物燥 小心火燭");
 //! assert_eq!(zhconv("鼠曲草", Variant::ZhHant), "鼠麴草");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhHant), "阿拉伯聯合酋長國");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
+//! # }
 //! ```
 //!
-//! With MediaWiki conversion syntax:
+//! Using MediaWiki conversion syntax:
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("天-{干}-物燥 小心火烛", "zh-Hant".parse::<Variant>().unwrap()), "天干物燥 小心火燭");
 //! assert_eq!(zhconv_mw("-{zh-tw:鼠麴草;zh-cn:香茅}-是菊科草本植物。", Variant::ZhCN), "香茅是菊科草本植物。");
 //! assert_eq!(zhconv_mw("菊科草本植物包括-{zh-tw:鼠麴草;zh-cn:香茅;}-等。", Variant::ZhTW), "菊科草本植物包括鼠麴草等。");
+//! # }
 //! ```
-//! Set global rules inline (note that such rules always apply globally regardless of their
+//! And more (note that such global rules always apply globally regardless of their
 //! location, unlike in MediaWiki where they affect only the text that follows):
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{zhconv_mw, Variant};
 //! assert_eq!(zhconv_mw("-{H|zh:馬;zh-cn:鹿;}-馬克思主義", Variant::ZhCN), "鹿克思主义"); // add
 //! assert_eq!(zhconv_mw("&二極體\n-{-|zh-hans:二极管; zh-hant:二極體}-\n", Variant::ZhCN), "&二极体\n\n"); // remove
+//! # }
 //! ```
 //!
-//! To load or add additional conversion rules such as CGroups or `(FROM, TO)` pairs,
-//! see [`ZhConverterBuilder`].
+//! To customize the converter & conversion with fine-grained control, see [`ZhConverterBuilder`].
+//! (De)Serialization of compiled converters is not supported yet.
 //!
 //! Other useful function:
 //! ```
+//! # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+//! # {
 //! use zhconv::{is_hans, is_hans_confidence, infer_variant, infer_variant_confidence};
 //! assert!(is_hans("清乾隆嘉庆间刻本"));
 //! assert!(!is_hans("秋冬濁而春夏清，晞於朝而生於夕"));
 //! assert!(is_hans_confidence("滴瀝明花苑，葳蕤泫竹叢") < 0.5);
 //! println!("{}", infer_variant("錦字緘愁過薊水，寒衣將淚到遼城"));
 //! println!("{:?}", infer_variant_confidence("zhconv-rs 中文简繁及地區詞轉換"));
+//! # }
 //! ```
 
 mod converter;
@@ -79,9 +88,30 @@ for_wasm! {
 
 pub use self::converter::{ZhConverter, ZhConverterBuilder};
 pub use self::converters::get_builtin_converter;
+#[allow(unused_imports)]
 use self::converters::*;
 pub use self::tables::get_builtin_tables;
 pub use self::variant::Variant;
+
+pub const ENABLED_TARGET_VARIANTS: &[Variant] = &[
+    Variant::Zh,
+    #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+    Variant::ZhCN,
+    #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+    Variant::ZhSG,
+    #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+    Variant::ZhMY,
+    #[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
+    Variant::ZhTW,
+    #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
+    Variant::ZhHK,
+    #[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
+    Variant::ZhMO,
+    #[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
+    Variant::ZhHans,
+    #[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
+    Variant::ZhHant,
+];
 
 /// Helper function for general conversion using built-in converters.
 ///
@@ -92,7 +122,7 @@ pub fn zhconv(text: &str, target: Variant) -> String {
     get_builtin_converter(target).convert(text)
 }
 
-/// Helper function for general conversion, activating wikitext support.
+/// Helper function for general conversion, activating MediaWiki conversion syntax support.
 ///
 /// It function share the same built-in conversion converters as [`zhconv`](#method.zhconv), but
 /// additionally supports conversion rules in MediaWiki syntax.
@@ -125,6 +155,10 @@ pub fn zhconv_mw(text: &str, target: Variant) -> String {
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
 ///
 /// Equivalent to `is_hans_confidence(text) > 0.5`.
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant",),
+    any(feature = "mediawiki-hans", feature = "opencc-hans")
+))]
 pub fn is_hans(text: &str) -> bool {
     is_hans_confidence(text) > 0.5
 }
@@ -135,6 +169,10 @@ pub fn is_hans(text: &str) -> bool {
 /// confidence level. A value close to 1 indicate high confidence. A value close to 0
 /// indicates low confidence. `0.5` indicates undeterminable (half-half).
 /// If there is no enough input, `NaN` is returned.
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant",),
+    any(feature = "mediawiki-hans", feature = "opencc-hans")
+))]
 pub fn is_hans_confidence(text: &str) -> f32 {
     let non_hant_score = ZH_TO_HANT_CONVERTER.count_replaced(text) as f32;
     let non_hans_score = ZH_TO_HANS_CONVERTER.count_replaced(text) as f32;
@@ -157,6 +195,13 @@ pub fn is_hans_confidence(text: &str) -> f32 {
 /// `zh-MY`, they would never be returned.
 ///
 /// The accuracy has not been assessed. Avoid relying on this for serious purposes.
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 pub fn infer_variant(text: &str) -> Variant {
     // let non_cn_score = ZH_TO_CN_CONVERTER.count_replaced(text);
     // let non_tw_score = ZH_TO_TW_CONVERTER.count_replaced(text);
@@ -187,6 +232,13 @@ pub fn infer_variant(text: &str) -> Variant {
 /// The accuracy has not been assessed. Avoid relying on this for serious purposes.
 // /// Note that, unlike [`is_hans_confidence`](is_hans_confidence), a `confidence_level` greater
 // /// than `0.5` might not imply high enough likelihood.
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 pub fn infer_variant_confidence(text: &str) -> [(Variant, f32); 5] {
     // let total = text.len() as f32;
     let non_cn_score = ZH_TO_CN_CONVERTER.count_replaced(text) as f32;
@@ -253,6 +305,8 @@ pub trait TruncatedAround {
     /// # Examples
     ///
     /// ```
+    /// # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
+    /// # {
     /// use zhconv::{TruncatedAround, is_hans};
     /// use std::fs;
     ///
@@ -264,7 +318,8 @@ pub trait TruncatedAround {
     /// let ls = fs::read_to_string("benches/data3185k.txt").unwrap(); // long string
     /// let tls = ls.truncated_around(100 * 1024 + 123); // truncated to ~ 100KiB
     /// assert_eq!(is_hans(&ls), is_hans(&tls));
-    /// ```
+    /// # }
+    // ```
     fn truncated_around(&self, index: usize) -> &Self;
 }
 

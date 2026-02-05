@@ -72,17 +72,23 @@ export default function AboutDialog({
               rel="noopener"
             >
               <GitHubIcon sx={{ fontSize: "1rem" }} />
-              {" zhconv-rs"}
+              {" This free and open-source project"}
             </Link>
-            &nbsp;completes conversion in the browser with no data transmitting
-            out. Built-in conversion rulesets including built-in conversion
-            tables and CGroups are sourced from MediaWiki & OpenCC and
-            maintained by their communities. The accuracy is generally
+            &nbsp;completes conversion locally via WebAssembly with no data transmitting
+            to the server. Conversion tables and CGroups are sourced from Wikipedia/MediaWiki & OpenCC. The accuracy is generally
             acceptable while limited, and erroneous conversions are to be
             expected.
           </Typography>
           <Typography gutterBottom>
-            轉換均在瀏覽器內完成，數據不會向外傳輸。包括內建轉換表（
+            <Link
+              href="https://github.com/Gowee/zhconv-rs"
+              target="_blank"
+              rel="noopener"
+            >
+              <GitHubIcon sx={{ fontSize: "1rem" }} />
+              {" 此自由與開源項目"}
+            </Link>
+            轉換均在本地以 WebAssembly 完成，數據不會傳輸到服務器。轉換表（
             <Link href="https://github.com/wikimedia/mediawiki/blob/master/includes/languages/Data/ZhConversion.php#L14">
               1
             </Link>
@@ -92,9 +98,9 @@ export default function AboutDialog({
             </Link>
             ） 和
             <Link href="https://zh.wikipedia.org/wiki/Wikipedia:%E5%AD%97%E8%A9%9E%E8%BD%89%E6%8F%9B%E8%99%95%E7%90%86/%E5%85%AC%E5%85%B1%E8%BD%89%E6%8F%9B%E7%B5%84">
-              公共轉換組
+              轉換組
             </Link>
-            在內的所有字詞轉換規則均來自中文維基百科（MediaWiki）和OpenCC，並由社群維護。轉換準確性尚可，但仍可預期地會包含錯誤轉換。
+            均來自中文維基百科/MediaWiki和OpenCC。轉換準確性尚可，但仍可預期地會包含錯誤轉換。
           </Typography>
           <Typography gutterBottom>
             {"See also / 另见 "}

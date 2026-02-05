@@ -96,10 +96,6 @@
       "conv": "zh-cn:博客;zh-hk:網誌;zh-tw:部落格;zh-my:部落格;"
     },
     {
-      "original": "Booster",
-      "conv": "zh-cn:助推器;zh-tw:動力車;"
-    },
-    {
       "original": "brake",
       "conv": "zh-cn:制动;zh-hk:制動;zh-tw:制軔;"
     },
@@ -1336,20 +1332,16 @@
       "conv": "下客=>zh-tw:下車;落客=>zh-tw:下車;"
     },
     {
-      "original": "-{筑}-豊",
-      "conv": "zh-hant:筑豐;zh-hans:筑丰;"
-    },
-    {
       "original": null,
       "conv": "zh-cn:末班;zh-hk:尾班;zh-tw:末班;"
     },
     {
       "original": "Brown line",
-      "conv": "zh-hans:棕线;zh-hant:棕線;zh-tw:棕線;zh-mo:啡線;zh-hk:啡綫;"
+      "conv": "zh-hans:棕线;zh-hant:棕線;zh-tw:棕線;zh-mo:啡線;zh-hk:啡線;"
     },
     {
       "original": "Orange line",
-      "conv": "zh-hans:橙线;zh-hant:橙線;zh-tw:橘線;zh-mo:橙線;zh-hk:橙綫;"
+      "conv": "zh-hans:橙线;zh-hant:橙線;zh-tw:橘線;zh-mo:橙線;zh-hk:橙線;"
     },
     {
       "original": "捷運行政（……）",
@@ -1384,6 +1376,10 @@
       "conv": "zh-hant:機車頭;zh-hans:机车头;"
     },
     {
+      "original": null,
+      "conv": "zh-hant:信息時報;zh-hans:信息时报;"
+    },
+    {
       "original": "Locomotive Works",
       "conv": "zh-hant:機車廠;zh-hans:机车厂;"
     },
@@ -1394,6 +1390,10 @@
     {
       "original": "都営地下鉄",
       "conv": "zh-cn:都营地铁;zh-hk:都營地鐵;zh-mo:都營地鐵;zh-sg:都营地铁;zh-tw:都營地下鐵;"
+    },
+    {
+      "original": "筑豊",
+      "conv": "zh-hant:筑豐;zh-hans:筑丰;"
     },
     {
       "original": null,

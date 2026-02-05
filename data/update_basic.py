@@ -27,9 +27,7 @@ OPENCC_FILES = [
     "STPhrases.txt",
     "TSCharacters.txt",
     "TSPhrases.txt",
-    "TWPhrasesIT.txt",
-    "TWPhrasesName.txt",
-    "TWPhrasesOther.txt",
+    "TWPhrases.txt",
     "TWVariants.txt",
     "TWVariantsRevPhrases.txt",
 ]

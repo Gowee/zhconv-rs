@@ -5,19 +5,19 @@
   "rules": [
     {
       "original": "Alpha",
-      "conv": "zh-cn:阿尔法; zh-hk:Alpha; zh-tw: Alpha; zh-sg: Alpha;"
+      "conv": "zh-cn:阿尔法; zh-hk:Alpha; zh-tw: Alpha; zh-sg: Alpha; zh-hant:阿爾法;"
     },
     {
       "original": "Beta",
-      "conv": "zh-cn:贝塔; zh-hk: Beta; zh-tw:Beta; zh-sg:Beta;"
+      "conv": "zh-cn:贝塔; zh-hk: Beta; zh-tw:Beta; zh-sg:Beta; zh-hant:貝塔;"
     },
     {
       "original": "Gamma",
-      "conv": "zh-cn:伽马; zh-hk:Gamma; zh-tw:Gamma; zh-sg:Gamma;"
+      "conv": "zh-cn:伽马; zh-hk:Gamma; zh-tw:Gamma; zh-sg:Gamma; zh-hant:伽馬;"
     },
     {
       "original": "Delta",
-      "conv": "zh-cn:德尔塔; zh-hk:Delta; zh-tw:Delta; zh-sg:Delta;"
+      "conv": "zh-cn:德尔塔; zh-hk:Delta; zh-tw:Delta; zh-sg:Delta; zh-hant:德爾塔;"
     },
     {
       "original": "Eta",
@@ -25,7 +25,7 @@
     },
     {
       "original": "Iota",
-      "conv": "zh-cn:约塔; zh-hk:Iota; zh-tw:Iota; zh-sg:Iota;"
+      "conv": "zh-cn:约塔; zh-hk:Iota; zh-tw:Iota; zh-sg:Iota; zh-hant:約塔;"
     },
     {
       "original": "Kappa",
@@ -33,7 +33,7 @@
     },
     {
       "original": "Lambda",
-      "conv": "zh-cn:拉姆达; zh-hk:Lambda; zh-tw:Lambda; zh-sg:Lambda;"
+      "conv": "zh-cn:拉姆达; zh-hk:Lambda; zh-tw:Lambda; zh-sg:Lambda; zh-hant:拉姆達;"
     },
     {
       "original": "Theta",
@@ -41,7 +41,7 @@
     },
     {
       "original": "Zeta",
-      "conv": "zh-cn:泽塔; zh-hk:Zeta; zh-tw:Zeta; zh-sg:Zeta;"
+      "conv": "zh-cn:泽塔; zh-hk:Zeta; zh-tw:Zeta; zh-sg:Zeta; zh-hant:澤塔;"
     },
     {
       "original": "Epsilon",
@@ -49,15 +49,15 @@
     },
     {
       "original": "Mu",
-      "conv": "zh-cn:缪; zh-hk:Mu; zh-tw:Mu; zh-sg:Mu;"
+      "conv": "zh-cn:缪; zh-hk:Mu; zh-tw:Mu; zh-sg:Mu; zh:繆;"
     },
     {
       "original": "Omicron",
-      "conv": "zh-cn:奥密克戎; zh-hk:Omicron; zh-tw:Omicron; zh-sg:奥密克戎;"
+      "conv": "zh-cn:奥密克戎; zh-hk:Omicron; zh-tw:Omicron; zh-sg:奥密克戎; zh-hant:奧密克戎;"
     },
     {
       "original": "Deltacron",
-      "conv": "zh-cn:德尔塔克戎; zh-hk:Deltacron; zh-tw:Deltacron; zh-sg:德尔塔克戎;"
+      "conv": "zh-cn:德尔塔克戎; zh-hk:Deltacron; zh-tw:Deltacron; zh-sg:德尔塔克戎; zh-hant:德爾塔克戎;"
     },
     {
       "original": "spike protein",

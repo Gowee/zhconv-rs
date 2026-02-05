@@ -45,11 +45,11 @@
     },
     {
       "original": "account",
-      "conv": "zh-cn:账号; zh-tw:帳號; zh-hk:帳號;"
+      "conv": "zh-cn:账号; zh-tw:帳號;"
     },
     {
       "original": "account",
-      "conv": "zh-cn:账户; zh-tw:帳戶; zh-hk:帳戶;"
+      "conv": "zh-cn:账户; zh-tw:帳戶;"
     },
     {
       "original": "activation",
@@ -956,6 +956,14 @@
       "conv": "zh:雲數據; zh-cn:云数据; zh-tw:雲端資料; zh-tw:雲端數據;"
     },
     {
+      "original": "Cloud Storage",
+      "conv": "zh-hans:云端硬盘; zh-hant:雲端硬碟;"
+    },
+    {
+      "original": "Closed-circuit television",
+      "conv": "zh-tw:監視器; zh-hans:闭路电视; zh-hk:閉路電視; zh-mo:閉路電視;"
+    },
+    {
       "original": "cluster",
       "conv": "zh-cn:集群; zh-tw:叢集;"
     },
@@ -1504,6 +1512,10 @@
       "conv": "zh:數字發行; zh-cn:数字发行; zh-sg:数码发行; zh-tw:數位發行; zh-hk:數碼發行;"
     },
     {
+      "original": "digital distribution",
+      "conv": "zh:數字分發; zh-cn:数字分发; zh-sg:数码分发; zh-tw:數位分發; zh-hk:數碼分發;"
+    },
+    {
       "original": "digital identity",
       "conv": "zh-cn:数字身份; zh-sg:数码身份; zh-my:数码身份; zh-tw:數位身分; zh-hk:數碼身份;"
     },
@@ -1578,6 +1590,10 @@
     {
       "original": "display device",
       "conv": "显示屏=>zh-tw:顯示器; 显示屏=>zh-hk:顯示器; 显示屏=>zh-mo:顯示器;"
+    },
+    {
+      "original": "display device",
+      "conv": "顯示屏=>zh-tw:顯示器; 顯示屏=>zh-hk:顯示器; 顯示屏=>zh-mo:顯示器;"
     },
     {
       "original": "display memory",
@@ -2280,6 +2296,10 @@
       "conv": "zh-cn:全局; zh-tw:全域;"
     },
     {
+      "original": "global variable",
+      "conv": "zh-cn:全局变量; zh-tw:總體變數;"
+    },
+    {
       "original": "Global System for Mobile Communications Association",
       "conv": "zh-cn:全球移动通信系统协会; zh-tw:全球行動通訊系統協會; zh-hk:全球流動通訊系統協會;"
     },
@@ -2293,7 +2313,11 @@
     },
     {
       "original": "Google Chrome Frame",
-      "conv": "zh-cn:谷歌浏览器内嵌框架; zh-tw:Google Chrome內嵌瀏覽框;"
+      "conv": "谷歌浏览器内嵌框架=>zh-tw:Google Chrome內嵌瀏覽框; 谷歌浏览器内嵌框架=>zh-hk:Google Chrome內嵌瀏覽框; 谷歌浏览器内嵌框架=>zh-mo:Google Chrome內嵌瀏覽框;"
+    },
+    {
+      "original": "Google Chrome Frame",
+      "conv": "zh-cn:Google Chrome内嵌框架; zh-tw:Google Chrome內嵌瀏覽框;"
     },
     {
       "original": "Google Docs",
@@ -3353,7 +3377,11 @@
     },
     {
       "original": "mobile computer",
-      "conv": "zh-cn:移动计算机; zh-tw:行動電腦; zh-hk:流動電腦;"
+      "conv": "zh-cn:移动计算机; zh-tw:行動電腦; zh-hk:流動電腦"
+    },
+    {
+      "original": "mobile computer",
+      "conv": "移动电脑=>zh-tw:行動電腦; 移动电脑=>zh-hk:流動電腦; 移动电脑=>zh-mo:流動電腦;"
     },
     {
       "original": "mobile computing",
@@ -3365,7 +3393,11 @@
     },
     {
       "original": "mobile data",
-      "conv": "zh-cn:移动数据; zh-tw:行動資料; zh-hk:流動數據;"
+      "conv": "zh-cn:移动数据; zh-tw:行動數據; zh-hk:流動數據;"
+    },
+    {
+      "original": "mobile data",
+      "conv": "行動資料=>zh-cn:移动数据; 行動資料=>zh-sg:移动数据; 行動資料=>zh-my:移动数据; 行動資料=>zh-hk:流動數據; 行動資料=>zh-mo:流動數據;"
     },
     {
       "original": "mobile device",
@@ -4093,11 +4125,11 @@
     },
     {
       "original": "preference",
-      "conv": "预置=>zh-tw:偏好設定; 预置=>zh-hk:參數設置; 预置=>zh-mo:參數設置;"
+      "conv": "预置=>zh-tw:偏好設定; 预置=>zh-hk:偏好設定; 预置=>zh-mo:偏好設定;"
     },
     {
       "original": "preference settings",
-      "conv": "zh-cn:首选项; zh-my:偏好设置; zh-tw:偏好設定; zh-hk:參數設置;"
+      "conv": "zh-cn:首选项; zh-my:偏好设置; zh-tw:偏好設定;"
     },
     {
       "original": "prefix",
@@ -4432,6 +4464,10 @@
       "conv": "zh-cn:正则表达式; zh-tw:正規表示式; zh-hk:正則表達式;"
     },
     {
+      "original": "regular expression",
+      "conv": "正規表達式=>zh-hk:正則表達式; 正規表達式=>zh-mo:正則表達式; 正規表達式=>zh-cn:正则表达式; 正規表達式=>zh-sg:正则表达式; 正規表達式=>zh-my:正则表达式;"
+    },
+    {
       "original": "regular language",
       "conv": "zh-cn:正则语言; zh-tw:正規語言; zh-hk:正則語言;"
     },
@@ -4564,16 +4600,20 @@
       "conv": "zh-cn:调度器; zh-tw:排程器;"
     },
     {
+      "original": "scope",
+      "conv": "zh-cn:作用域; zh-tw:範疇;"
+    },
+    {
       "original": "screen",
-      "conv": "zh-cn:屏幕; zh-tw:螢幕; zh-hk:螢幕;"
+      "conv": "zh-cn:屏幕; zh-tw:螢幕;"
     },
     {
       "original": "screensaver",
-      "conv": "zh-cn:屏幕保护程序; zh-tw:螢幕保護裝置; zh-hk:螢幕保護裝置;"
+      "conv": "zh-cn:屏幕保护程序; zh-tw:螢幕保護裝置;"
     },
     {
       "original": "screenshot",
-      "conv": "zh-cn:截屏; zh-tw:螢幕擷取; zh-hk:螢幕擷取;"
+      "conv": "zh-cn:截屏; zh-tw:螢幕擷取;"
     },
     {
       "original": "script",
@@ -4714,10 +4754,6 @@
     {
       "original": "session hijacking",
       "conv": "zh-cn:会话劫持; zh-tw:連線劫持;"
-    },
-    {
-      "original": "setting",
-      "conv": "zh-cn:设置; zh-tw:設定; zh-hk:設置;"
     },
     {
       "original": "set-top box",
@@ -5468,6 +5504,10 @@
       "conv": "zh-hans:视频游戏; zh-hant:電動遊戲;"
     },
     {
+      "original": "video hardware",
+      "conv": "zh-cn:视频硬件; zh-tw:視訊硬體; zh-hk:視像硬件;"
+    },
+    {
       "original": "video input",
       "conv": "zh-cn:视频输入; zh-tw:視訊輸入; zh-hk:視頻輸入;"
     },
@@ -5520,8 +5560,24 @@
       "conv": "zh-cn:虚拟内存; zh-tw:虛擬記憶體;"
     },
     {
-      "original": "Virtual Private Network",
-      "conv": "zh-cn:虚拟专用网; zh-tw:虛擬私人網路;"
+      "original": "virtual private network",
+      "conv": "虚拟专用网络=>zh-tw:虛擬專用網路; 虚拟专用网络=>zh-hk:虛擬私人網絡; 虚拟专用网络=>zh-mo:虛擬私人網絡;"
+    },
+    {
+      "original": "virtual private network",
+      "conv": "虛擬專用網路=>zh-cn:虚拟专用网络; 虛擬專用網路=>zh-sg:虚拟专用网络; 虛擬專用網路=>zh-my:虚拟专用网络; 虛擬專用網路=>zh-hk:虛擬私人網絡; 虛擬專用網路=>zh-mo:虛擬私人網絡;"
+    },
+    {
+      "original": "virtual private network",
+      "conv": "虛擬私有網路=>zh-cn:虚拟专用网络; 虛擬私有網路=>zh-sg:虚拟专用网络; 虛擬私有網路=>zh-my:虚拟专用网络; 虛擬私有網路=>zh-hk:虛擬私人網絡; 虛擬私有網路=>zh-mo:虛擬私人網絡;"
+    },
+    {
+      "original": "virtual private network",
+      "conv": "虛擬私人網路=>zh-cn:虚拟专用网络; 虛擬私人網路=>zh-sg:虚拟专用网络; 虛擬私人網路=>zh-my:虚拟专用网络; 虛擬私人網路=>zh-hk:虛擬私人網絡; 虛擬私人網路=>zh-mo:虛擬私人網絡;"
+    },
+    {
+      "original": "virtual private network",
+      "conv": "虛擬私人網絡=>zh-cn:虚拟专用网络; 虛擬私人網絡=>zh-sg:虚拟专用网络; 虛擬私人網絡=>zh-my:虚拟专用网络; 虛擬私人網絡=>zh-tw:虛擬私人網路;"
     },
     {
       "original": "virtual reality",
@@ -5912,6 +5968,14 @@
       "conv": "zh-hans:资讯台; zh-hant:資訊台;"
     },
     {
+      "original": "setting",
+      "conv": "设定=>zh-hans:设置;设定=>zh-cn:设置;设定=>zh-my:设置;设定=>zh-sg:设置;"
+    },
+    {
+      "original": "setting",
+      "conv": "设置=>zh-hant:設定;设置=>zh-tw:設定;设置=>zh-hk:設置;设置=>zh-mo:設置;"
+    },
+    {
       "original": "Wikimedia Commons",
       "conv": "zh-hans:维基共享资源; zh-hant:維基共享資源;"
     },
@@ -6234,6 +6298,10 @@
     {
       "original": "archives",
       "conv": "zh-hans:档案室; zh-hant:檔案室;"
+    },
+    {
+      "original": "CRI Online",
+      "conv": "zh-hans:国际在线; zh-hant:國際在線;"
     },
     {
       "original": "Hong Kong Supplementary Character Set",

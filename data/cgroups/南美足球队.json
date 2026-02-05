@@ -313,15 +313,19 @@
     },
     {
       "original": "Atlético Nacional",
-      "conv": "zh-cn:国民竞技;zh-hans:国民竞技;zh-tw:國民競技;zh-hk:國民體育會;"
+      "conv": "zh-hans:国民竞技;zh-tw:國民競技;zh-hk:國民體育會;"
     },
     {
       "original": "Boyaca Chico",
-      "conv": "zh:博亚卡小伙子;zh-hans:博亚卡小伙子;zh-hk:博亞卡捷高;zh-tw:博亞卡小伙子;"
+      "conv": "zh-hans:博亚卡小伙子;zh-hk:博亞卡捷高;zh-tw:博亞卡小伙子;"
     },
     {
       "original": "Santa Fe",
       "conv": "zh-hans:圣塔菲;zh-tw:聖塔菲;zh-hk:聖達菲;"
+    },
+    {
+      "original": "Millonarios",
+      "conv": "zh-hans:百万富翁;zh-hk:米倫拿列奧;zh-tw:百萬富翁;"
     },
     {
       "original": "CD Cruz Azul",
@@ -360,8 +364,16 @@
       "conv": "zh-hans:自由俱乐部;zh-hant:自由俱樂部;zh-tw:亞松森自由;zh-hk:利伯泰迪會;"
     },
     {
+      "original": "Club Olimpia",
+      "conv": "zh-hans:奥林匹亚俱乐部;zh-tw:奧林匹亞俱樂部;zh-hk:奧林比亞會;"
+    },
+    {
       "original": "Club de Alto Rendimiento Especializado Independiente del Valle",
       "conv": "zh-cn:山谷独立;zh-hk:迪華利獨立;zh-tw:山谷獨立;"
+    },
+    {
+      "original": "Club Sport Emelec",
+      "conv": "zh-cn:埃梅莱克;zh-hk:艾美歷克;zh-tw:埃梅萊克;"
     },
     {
       "original": "Club Nacional de Football",
@@ -402,6 +414,10 @@
     {
       "original": "Defensor Sporting Club",
       "conv": "zh-hans:捍卫者体育;zh-tw:捍衛者體育;zh-hk:迪芬沙士砵亭;"
+    },
+    {
+      "original": "Sporting Cristal",
+      "conv": "zh-hans:水晶体育;zh-tw:水晶體育;zh-hk:士砵亭水晶;"
     }
   ]
 }

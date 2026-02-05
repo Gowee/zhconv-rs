@@ -17,7 +17,7 @@
     },
     {
       "original": "Adventure Time",
-      "conv": "zh-cn:探险活宝;zh-hk:探險時光;zh-tw:探險活寶;"
+      "conv": "zh:探險時光;zh-cn:探险活宝;zh-hk:歷險孖寶;zh-tw:探險活寶;"
     },
     {
       "original": "American Dad!",
@@ -57,15 +57,23 @@
     },
     {
       "original": "Ben 10",
-      "conv": "zh:少年駭客;zh-hans:少年骇客;zh-cn:Ben 10 外星传奇;zh-sg:Ben 10;zh-tw:Ben 10;zh-hk:少年勇將;zh-mo:變身俠阿奔;"
+      "conv": "zh:少年駭客;zh-hans:少年骇客;zh-cn:Ben 10 外星传奇;zh-sg:Ben 10;zh-tw:Ben 10;zh-hk:少年勇將;"
+    },
+    {
+      "original": "Ben 10: Alien Force",
+      "conv": "zh-cn:Ben 10 外星英雄;zh-tw:Ben 10 外星英雄;zh-sg:Ben 10: 外星英雄;zh-hk:少年勇將外星力量;"
     },
     {
       "original": "Ben 10: Omniverse",
       "conv": "zh-cn:少年骇客：全面进化;zh-sg:Ben 10 全面进化;zh-tw:Ben 10 全面進化;zh-hk:少年勇將之宇宙激戰;"
     },
     {
+      "original": "Ben 10: Ultimate Alien",
+      "conv": "zh-cn:少年骇客终极异形;zh-sg:Ben 10 终极英雄;zh-tw:Ben 10 終極英雄;zh-hk:少年勇將之終極異形;"
+    },
+    {
       "original": "Ben 10 (2016)",
-      "conv": "zh-cn:少年骇客：再显神威;zh-sg:BEN 10 再显神威;zh-tw:Ben 10 再顯神威;zh-hk:少年勇將之再顯神威;zh-mo:變身俠阿奔;"
+      "conv": "zh-cn:少年骇客：再显神威;zh-sg:BEN 10 再显神威;zh-tw:Ben 10 再顯神威;zh-hk:少年勇將之再顯神威;"
     },
     {
       "original": "Big City Greens",
@@ -188,8 +196,24 @@
       "conv": "zh-cn:怪诞小镇;zh-sg:神秘小镇大冒险;zh-tw:神秘小鎮大冒險;zh-hk:神秘小鎮大冒險;"
     },
     {
+      "original": "The Grim Adventures of Billy & Mandy",
+      "conv": "zh-tw:愛酷一族;zh-hk:大鼻與酷蒂;zh-sg:大鼻与酷蒂;}--{-|大鼻與酷蒂"
+    },
+    {
+      "original": "Grizzy and the Lemmings",
+      "conv": "zh-hk:大笨熊與吱吱鼠;zh-tw:大灰熊與小旅鼠;zh-sg:大炮与小恶魔;zh-cn:熊鼠一家;"
+    },
+    {
+      "original": "Grizzy and the Lemmings",
+      "conv": "zh-hk:大砲與小惡魔;zh-tw:大砲與小惡魔;zh-sg:大炮与小恶魔;zh-cn:熊鼠一家;"
+    },
+    {
       "original": "Hazbin Hotel",
       "conv": "zh:地獄客棧;zh-tw:地獄旅館;zh-cn:地狱客栈;"
+    },
+    {
+      "original": "Hey Arnold!",
+      "conv": "zh-hk:智叻大頭仔;zh-tw:大頭仔天空;zh-cn:大头仔天空;"
     },
     {
       "original": "Hilda",
@@ -248,8 +272,16 @@
       "conv": "zh-cn:小马宝莉：友谊就是魔法;zh-sg:彩虹小马：友情就是魔法;zh-tw:彩虹小馬：友情就是魔法;zh-hk:小馬寶莉：友情就是魔法;"
     },
     {
+      "original": "Ninjago: Dragons Rising",
+      "conv": "zh-hk:Lego 旋風忍者：龍之崛起;zh-tw:樂高旋風忍者：猛龍崛起;zh-sg:乐高旋风忍者：猛龙崛起;"
+    },
+    {
       "original": "Oggy et les Cafards",
       "conv": "zh-cn:肥猫大战三小强;zh-tw:肥貓鬥小強;zh-hk:肥貓大戰三小強;"
+    },
+    {
+      "original": "Over the Garden Wall",
+      "conv": "zh-cn:花园墙外;zh-hk:花園牆外;zh-tw:謎樣森林;zh-sg:谜样森林;"
     },
     {
       "original": "The Owl House",
@@ -270,6 +302,10 @@
     {
       "original": "Phineas and Ferb",
       "conv": "zh-cn:飞哥与小佛;zh-tw:飛哥與小佛;zh-hk:飛哥與發仔;"
+    },
+    {
+      "original": "The Proud Family",
+      "conv": "zh-tw:榮耀家族;zh-sg:荣耀家族;zh-hk:鬼馬家族;"
     },
     {
       "original": "Regular Show",
@@ -348,6 +384,10 @@
       "conv": "zh-tw:夏令營奇幻島;zh-sg:夏令营奇幻岛;zh-cn:夏令营岛;"
     },
     {
+      "original": "The Sylvester & Tweety Mysteries",
+      "conv": "zh:傻大貓與崔弟的懸疑劇場;zh-tw:崔弟與傻大貓;zh-sg:崔弟与傻大猫;zh-cn:傻大猫和崔弟;zh-hk:阿寶與翠兒的懸疑劇場;"
+    },
+    {
       "original": "Tangled Ever After",
       "conv": "zh-cn:麻烦不断;zh-sg:魔发奇缘番外篇：麻烦不断;zh-hk:魔髮奇緣延續篇;zh-tw:魔髮奇緣：大喜之日;"
     },
@@ -365,7 +405,7 @@
     },
     {
       "original": "Thomas & Friends",
-      "conv": "zh:火車頭日記;zh-tw:湯瑪士小火車;zh-hk:湯瑪仕小火車;zh-my:汤马仕小火车;zh-cn:托马斯和朋友们;"
+      "conv": "zh:火車頭日記;zh-tw:湯瑪士小火車;zh-hk:湯馬仕小火車;zh-my:汤马仕小火车;zh-cn:托马斯和朋友们;zh-hans:托马斯小火车;"
     },
     {
       "original": "ThunderCats",
@@ -444,6 +484,30 @@
       "conv": "zh-tw:決戰少林;zh-hk:少林大戰;"
     },
     {
+      "original": "People's Choice Awards",
+      "conv": "zh:人民選擇獎;zh-hans:全美民选奖;zh-sg:全美观众票选奖;zh-tw:全美民選獎;zh-cn:人民选择奖;zh-hk:人民選擇大獎;"
+    },
+    {
+      "original": "Teen Choice Awards",
+      "conv": "zh:青少年選擇獎;zh-sg:青少年票选奖;zh-tw:青少年票選獎;zh-hk:Teen材大獎;zh-cn:青少年选择奖;"
+    },
+    {
+      "original": "Nickelodeon Kids' Choice Awards",
+      "conv": "zh:尼克頻道兒童選擇獎;zh-cn:尼克频道儿童选择奖;zh-hk:兒童選擇大獎;zh-tw:尼克頻道兒童票選獎;"
+    },
+    {
+      "original": "Nickelodeon Kids' Choice Awards",
+      "conv": "zh:兒童選擇獎;zh-cn:儿童选择奖;zh-hk:兒童選擇大獎;zh-tw:兒童票選獎;"
+    },
+    {
+      "original": "Annecy",
+      "conv": "zh-hant:安錫;zh-my:安锡;zh-cn:安纳西;"
+    },
+    {
+      "original": "Festival International du Film d'Animation d'Annecy",
+      "conv": "zh-hant:安錫國際動畫影展;zh-my:安锡动画国际影展;zh-cn:安纳西国际动画电影节;"
+    },
+    {
       "original": "digital remastering",
       "conv": "zh:數字修復;zh-tw:數位修復;zh-hk:數碼修復;zh-sg:数码修复;zh-my:数码修复;zh-cn:数字修复;"
     },
@@ -461,11 +525,19 @@
     },
     {
       "original": "Disney",
-      "conv": "迪斯尼=>zh-hk:迪士尼;迪斯尼=>zh-mo:迪士尼;"
+      "conv": "zh:迪斯尼;zh-hk:迪士尼;"
     },
     {
       "original": "dolby digital",
       "conv": "zh:杜比數字;zh-tw:杜比數位;zh-hk:杜比數碼;zh-sg:杜比数码;zh-my:杜比数码;zh-cn:杜比数字;"
+    },
+    {
+      "original": "Netflix",
+      "conv": "zh:奈飞;zh-hk:Netflix;zh-tw:Netflix;奈飞=>zh-my:Netflix;奈飞=>zh-sg:Netflix;"
+    },
+    {
+      "original": "Netflix",
+      "conv": "網飛=>zh-hk:Netflix;網飛=>zh-mo:Netflix;網飛=>zh-my:Netflix;網飛=>zh-sg:Netflix;网飞=>zh-hk:Netflix;网飞=>zh-mo:Netflix;网飞=>zh-my:Netflix;网飞=>zh-sg:Netflix;"
     },
     {
       "original": "optical disc",
@@ -482,6 +554,18 @@
     {
       "original": "web animation",
       "conv": "zh-tw:網路動畫;zh-hk:網絡動畫;zh-hans:网络动画;"
+    },
+    {
+      "original": "HD",
+      "conv": "zh-hk:高清;zh-hans:高清;zh-tw:高畫質;"
+    },
+    {
+      "original": "SD",
+      "conv": "zh-hk:標清;zh-hans:标清;zh-tw:標準畫質;"
+    },
+    {
+      "original": "UHD",
+      "conv": "zh-hk:超高清;zh-hans:超高清;zh-tw:超高畫質;"
     }
   ]
 }

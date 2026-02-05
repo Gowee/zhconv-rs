@@ -18,9 +18,10 @@
   },
   "scripts": {
     "dev": "npm run build:wasm && vite",
-    "build:wasm": "npm run build:wasm-opencc && npm run build:wasm-default",
-    "build:wasm-opencc": "cd .. && wasm-pack build --release -d web/pkg-opencc -- --features opencc --features wasm",
-    "build:wasm-default": "cd .. && wasm-pack build --release -d web/pkg-default -- --features wasm",
+    "build:wasm": "npm run build:wasm-mediawiki && npm run build:wasm-opencc && npm run build:wasm-both",
+    "build:wasm-mediawiki": "cd .. && wasm-pack build --release -d web/pkg-mediawiki -- --no-default-features --features compress,mediawiki,wasm",
+    "build:wasm-opencc": "cd .. && wasm-pack build --release -d web/pkg-opencc -- --no-default-features --features compress,opencc,wasm",
+    "build:wasm-both": "cd .. && wasm-pack build --release -d web/pkg-both -- --no-default-features --features compress,mediawiki,opencc,wasm",
     "build": "npm run build:wasm && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
