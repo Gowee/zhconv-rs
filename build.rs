@@ -90,6 +90,12 @@ const OPENCC_SHA256: [(&str, [u8; 32]); 9] = [
 const DELIMITER: &str = "|";
 
 fn main() -> io::Result<()> {
+    #[cfg(all(
+        feature = "opencc-twp",
+        not(any(feature = "opencc-tw", feature = "opencc-cn"))
+    ))]
+    panic!("opencc-twp should only be enabled together with opencc-tw or opencc-cn");
+
     let mut diagnostics_file =
         File::create(Path::new(&env::var_os("OUT_DIR").unwrap()).join("zhconv-diagnostics.txt"))?;
     macro_rules! log_diag {
