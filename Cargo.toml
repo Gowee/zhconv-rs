@@ -34,7 +34,7 @@ required-features = ["bin-build"]
 [features]
 default = ["compress", "mediawiki"]
 
-# Converters & conversion tables for each target variant, sourced from MediaWiki (GPLv2.0+)
+# Conversion tables for each target variant, sourced from MediaWiki (GPLv2.0+)
 # (recommended for general use if GPL is acceptable)
 mediawiki = ["mediawiki-hans", "mediawiki-hant", "mediawiki-cn", "mediawiki-tw", "mediawiki-hk"]
 mediawiki-hans = ["_mediawiki-base"]
@@ -44,7 +44,7 @@ mediawiki-tw = ["_mediawiki-base"]
 mediawiki-hk = ["_mediawiki-base"]
 _mediawiki-base = []
 
-# Converters & conversion tables for each target variant, sourced from OpenCC (Apache2.0)
+# Conversion tables for each target variant, derived from OpenCC (Apache-2.0)
 # (larger binary size)
 opencc = ["opencc-hans", "opencc-hant", "opencc-cn", "opencc-tw", "opencc-hk"]
 opencc-hans = ["_opencc-base"]
@@ -65,6 +65,7 @@ compress = ["zstd", "ruzstd"]
 wasm = []
 
 bin-build = ["structopt", "anyhow", "log", "env_logger", "tempfile"]
+bench = []
 
 [dependencies]
 daachorse = "1.0"
@@ -119,10 +120,12 @@ zstd = { version = "0.13", optional = true }
 
 [[bench]]
 harness = false
-name = "zhconv_benchmark"
+name = "base_benchmark"
+required-features = ["bench"]
 
 [[bench]]
 harness = false
 name = "compare_benchmark"
+required-features = ["bench"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
