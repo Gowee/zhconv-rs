@@ -1,6 +1,6 @@
 {
   "name": "NFL",
-  "description": "-{zh-hans:全国橄榄球联盟;zh-hant:美國國家美式足球聯盟;}-",
+  "description": "-{zh-hans:美国国家橄榄球联盟;zh-hant:美國國家美式足球聯盟;}-",
   "path": "Module:CGroup/NFL",
   "rules": [
     {
@@ -9,15 +9,15 @@
     },
     {
       "original": "National Football League",
-      "conv": "zh-hans:全国橄榄球联盟;zh-hant:國家美式足球聯盟;"
+      "conv": "zh-hans:国家橄榄球联盟;zh-hant:國家美式足球聯盟;"
     },
     {
       "original": "National Football League",
-      "conv": "国家美式足球联盟=>zh-cn:全国橄榄球联盟;国家美式足球联盟=>zh-sg:全国橄榄球联盟;国家美式足球联盟=>zh-my:全国橄榄球联盟;"
+      "conv": "国家美式足球联盟=>zh-cn:国家橄榄球联盟;国家美式足球联盟=>zh-sg:国家橄榄球联盟;国家美式足球联盟=>zh-my:国家橄榄球联盟;"
     },
     {
       "original": "National Football League",
-      "conv": "國家美式橄欖球聯盟=>zh-cn:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-sg:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-my:全国橄榄球联盟;國家美式橄欖球聯盟=>zh-tw:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-hk:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-mo:國家美式足球聯盟;"
+      "conv": "國家美式橄欖球聯盟=>zh-cn:国家橄榄球联盟;國家美式橄欖球聯盟=>zh-sg:国家橄榄球联盟;國家美式橄欖球聯盟=>zh-my:国家橄榄球联盟;國家美式橄欖球聯盟=>zh-tw:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-hk:國家美式足球聯盟;國家美式橄欖球聯盟=>zh-mo:國家美式足球聯盟;"
     },
     {
       "original": "National Football Conference",

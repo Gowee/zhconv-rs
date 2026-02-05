@@ -16,44 +16,32 @@
       "conv": "zh-cn:双铰接客车;zh-tw:三節公車;zh-hk:雙掛接巴士;zh-mo:雙掛接巴士;zh-my:三节巴士;zh-sg:三节巴士;"
     },
     {
-      "original": "BRT",
+      "original": "bus rapid transit",
       "conv": "zh-cn:快速公交;zh-tw:公車捷運;zh-hk:巴士快速交通;zh-sg:快捷巴士;zh-my:快捷巴士;"
     },
     {
-      "original": "bus",
-      "conv": "巴士=>zh-tw:公車;"
+      "original": "(public transport) bus",
+      "conv": "zh-cn:公共汽车;zh-tw:公共汽車;zh-hk:公共巴士;zh-sg:公共巴士;"
     },
     {
-      "original": "bus",
-      "conv": "公共汽车=>zh-hk:巴士;公共汽车=>zh-sg:巴士;公共汽车=>zh-mo:巴士;公共汽车=>zh-my:巴士;"
+      "original": "(public transport) bus",
+      "conv": "zh-cn:公交车;zh-tw:公車;zh-hk:公共巴士;zh-sg:公共巴士;"
     },
     {
-      "original": "bus",
-      "conv": "公共汽車=>zh-hk:巴士;公共汽車=>zh-sg:巴士;公共汽車=>zh-mo:巴士;公共汽車=>zh-my:巴士;"
+      "original": "(public transport) bus",
+      "conv": "zh:公交車;zh-cn:公交车;zh-tw:公車;zh-hk:公共巴士;zh-sg:公共巴士;"
     },
     {
-      "original": "bus",
-      "conv": "公车=>zh-hk:巴士;公车=>zh-sg:巴士;公车=>zh-mo:巴士;公车=>zh-my:巴士;"
+      "original": "(public transport) bus",
+      "conv": "zh:公车;zh-cn:公交车;zh-tw:公車;zh-hk:公共巴士;zh-sg:公共巴士;"
     },
     {
-      "original": "bus",
-      "conv": "公車=>zh-cn:公交车;公車=>zh-hk:巴士;公車=>zh-sg:巴士;公車=>zh-mo:巴士;公車=>zh-my:巴士;"
-    },
-    {
-      "original": "bus",
-      "conv": "公交=>zh-tw:公車;公交=>zh-hk:巴士;公交=>zh-sg:巴士;公交=>zh-mo:巴士;公交=>zh-my:巴士;"
-    },
-    {
-      "original": "bus",
-      "conv": "公交车=>zh-tw:公車;公交车=>zh-hk:巴士;公交车=>zh-sg:巴士;公交车=>zh-mo:巴士;公交车=>zh-my:巴士;"
-    },
-    {
-      "original": "bus",
-      "conv": "公交車=>zh-tw:公車;公交車=>zh-hk:巴士;公交車=>zh-sg:巴士;公交車=>zh-mo:巴士;公交車=>zh-my:巴士;"
+      "original": "(public transport) bus",
+      "conv": "公交=>zh-tw:公車;公交=>zh-hk:公共巴士;公交=>zh-sg:公共巴士;公交=>zh-mo:公共巴士;公交=>zh-my:公共巴士;"
     },
     {
       "original": "bus lane",
-      "conv": "zh-cn:公交车道;zh-tw:公車道;zh-hk:巴士線;zh-mo:巴士線;zh-sg:巴士道;}--{-|巴士線"
+      "conv": "zh-cn:公交车道;zh-tw:公車道;zh-hk:巴士線;zh-mo:巴士線;zh-sg:巴士道;"
     },
     {
       "original": "bus lane",
@@ -65,11 +53,23 @@
     },
     {
       "original": "double-decker bus",
-      "conv": "zh-cn:双层公共汽车;zh-tw:雙層公車;zh-hk:雙層巴士;zh-sg:双层巴士;zh-my:双层巴士;"
+      "conv": "zh-cn:双层公共汽车;zh-tw:雙層公共汽車;zh-hk:雙層巴士;zh-sg:双层巴士;zh-my:双层巴士;"
+    },
+    {
+      "original": "double-decker bus",
+      "conv": "zh-cn:双层公交车;zh-tw:雙層公車;zh-hk:雙層巴士;zh-sg:双层巴士;zh-my:双层巴士;"
     },
     {
       "original": "low-floor bus",
-      "conv": "zh-cn:低地板公交车;zh-tw:低底盤公車;zh-hk:特低地台巴士;"
+      "conv": "zh-cn:低地板公共汽车;zh-tw:低底盤公共汽車;zh-hk:低地台巴士;"
+    },
+    {
+      "original": "low-floor bus",
+      "conv": "zh-cn:低地板公交车;zh-tw:低底盤公車;zh-hk:低地台巴士;"
+    },
+    {
+      "original": "high-floor bus",
+      "conv": "zh-cn:高地板公共汽车;zh-tw:高底盤公共汽車;zh-hk:高地台巴士;"
     },
     {
       "original": "high-floor bus",
@@ -104,20 +104,24 @@
       "conv": "公共交通交匯處=>zh-cn:交通枢纽;公共交通交匯處=>zh-tw:轉運站;公共交通交匯處=>zh-my:综合交通中心;公共交通交匯處=>zh-sg:综合交通中心;"
     },
     {
-      "original": "Bus Interchange",
+      "original": "bus interchange",
       "conv": "zh-cn:公交枢纽;zh-tw:公車轉乘站;zh-hk:巴士轉乘站;zh-mo:巴士轉乘站;zh-my:巴士转乘站;zh-sg:巴士转换站;"
     },
     {
-      "original": "Bus Interchange",
-      "conv": "巴士轉換站=>zh-cn:公交枢纽;巴士轉換站=>zh-tw:公車轉乘站;巴士轉換站=>zh-hk:巴士轉乘站;巴士轉換站=>zh-mo:巴士轉乘站;巴士轉換站=>zh-my:巴士转乘站;"
+      "original": "bus interchange",
+      "conv": "zh:巴士轉換站;zh-cn:公交枢纽;zh-tw:公車轉乘站;zh-hk:巴士轉乘站;zh-mo:巴士轉乘站;zh-my:巴士转乘站;zh-sg:巴士转换站;"
     },
     {
-      "original": "Bus terminus",
+      "original": "bus terminus",
       "conv": "zh-cn:公交总站;zh-hk:巴士總站;zh-tw:公車起訖站;zh-mo:巴士總站;zh-my:巴士终站;zh-sg:巴士终站;"
     },
     {
       "original": "single-decker bus",
-      "conv": "zh-cn:单层公共汽车;zh-tw:單層公車;zh-hk:單層巴士;zh-sg:单层巴士;zh-my:单层巴士;"
+      "conv": "zh-cn:单层公共汽车;zh-tw:單層公共汽車;zh-hk:單層巴士;zh-sg:单层巴士;zh-my:单层巴士;"
+    },
+    {
+      "original": "single-decker bus",
+      "conv": "zh-cn:单层公交车;zh-tw:單層公車;zh-hk:單層巴士;zh-sg:单层巴士;zh-my:单层巴士;"
     },
     {
       "original": "intercity bus",
@@ -449,7 +453,7 @@
     },
     {
       "original": "Mercedes",
-      "conv": "zh-cn:梅赛德斯;zh-tw:梅賽德斯;zh-hk:梅斯特斯;zh-sg:马赛地;"
+      "conv": "zh-cn:梅赛德斯;zh-tw:梅賽德斯;zh-hk:梅賽德斯;zh-sg:马赛地;"
     },
     {
       "original": "Mercedes-Benz",
@@ -989,7 +993,11 @@
     },
     {
       "original": "overpass",
-      "conv": "zh-cn:高架路;zh-sg:行车天桥;zh-mo:行車天橋;zh-tw:高架道路;zh-hk:架空道路;"
+      "conv": "zh-cn:高架路;zh-sg:行车天桥;zh-tw:高架道路;zh-hk:行車天橋;"
+    },
+    {
+      "original": "overpass",
+      "conv": "zh:架空道路;zh-cn:高架路;zh-sg:行车天桥;zh-tw:高架道路;zh-hk:行車天橋;"
     },
     {
       "original": "overpass",
@@ -1360,6 +1368,26 @@
       "conv": "铁路綫=>zh-cn:铁路线"
     },
     {
+      "original": "railway lines",
+      "conv": "鐵路線=>zh-cn:铁路线"
+    },
+    {
+      "original": "railway lines",
+      "conv": "鐵路綫=>zh-cn:铁路线"
+    },
+    {
+      "original": "railway lines",
+      "conv": "铁路线=>zh-cn:铁路线"
+    },
+    {
+      "original": "Route",
+      "conv": "zh-hk:走綫;zh-cn:走线;zh-tw:走線;"
+    },
+    {
+      "original": "Routing",
+      "conv": "zh-hk:行車路綫;zh-cn:行车路线;zh-tw:行車路線;"
+    },
+    {
       "original": "through service",
       "conv": "zh-cn:贯通运营;zh-tw:直通運轉;zh-hk:直通運行;"
     },
@@ -1384,20 +1412,8 @@
       "conv": "zh-hans:里程碑;zh-hant:里程碑;"
     },
     {
-      "original": "Bastille",
-      "conv": "zh-hans:巴士底;zh-hant:巴士底;"
-    },
-    {
       "original": "Braemar Hill",
       "conv": "zh-hans:宝马山;zh-hant:寶馬山;"
-    },
-    {
-      "original": "Routing",
-      "conv": "zh-hans:行车路线;zh-hant:行車路線;"
-    },
-    {
-      "original": "Routing",
-      "conv": "zh:行車路綫;zh-hans:行车路线;zh-hant:行車路線;"
     },
     {
       "original": "Roads allowing vehicles to drive",
@@ -1434,10 +1450,6 @@
     {
       "original": null,
       "conv": "zh-cn:末班;zh-hk:尾班;zh-tw:末班;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hans:水上巴士;zh-hant:水上巴士;"
     },
     {
       "original": null,
@@ -1481,19 +1493,19 @@
     },
     {
       "original": null,
-      "conv": "zh-cn:马赛地铁;zh-tw:馬賽地鐵;zh-hk:馬賽地鐵;zh-sg:马赛地铁;"
+      "conv": "zh-hans:马赛地铁;zh-hant:馬賽地鐵;"
     },
     {
       "original": null,
-      "conv": "zh-hans:铁路客车;zh-hk:鐵路客車;zh-mo:鐵路客車;zh-tw:鐵路客車;"
+      "conv": "zh-hans:铁路客车;zh-hant:鐵路客車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:顺风车;zh-hant:順風車;"
     },
     {
       "original": "Bus Group",
       "conv": "zh-hant:公交集團;zh-hans:公交集团;"
-    },
-    {
-      "original": "Bus Group",
-      "conv": "zh-hant:巴士集團;zh-hans:巴士集团;"
     },
     {
       "original": null,
@@ -1505,35 +1517,7 @@
     },
     {
       "original": null,
-      "conv": "zh-hant:巴士股份;zh-hans:巴士股份;"
-    },
-    {
-      "original": null,
       "conv": "zh-hant:公交巴士;zh-hans:公交巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:一汽巴士;zh-hans:一汽巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:二汽巴士;zh-hans:二汽巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:三汽巴士;zh-hans:三汽巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:第一巴士;zh-hans:第一巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:第二巴士;zh-hans:第二巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:第三巴士;zh-hans:第三巴士;"
     },
     {
       "original": null,
@@ -1550,54 +1534,6 @@
     {
       "original": null,
       "conv": "zh-hant:第五公共汽車;zh-hans:第五公共汽车;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士一公司;zh-hans:巴士一公司;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士二公司;zh-hans:巴士二公司;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士三公司;zh-hans:巴士三公司;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士四公司;zh-hans:巴士四公司;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士五公司;zh-hans:巴士五公司;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士一汽;zh-hans:巴士一汽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士二汽;zh-hans:巴士二汽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士三汽;zh-hans:巴士三汽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士四汽;zh-hans:巴士四汽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士五汽;zh-hans:巴士五汽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士六汽;zh-hans:巴士六汽;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士電車;zh-hans:巴士电车;"
     },
     {
       "original": null,
@@ -1636,64 +1572,8 @@
       "conv": "zh-hans:北部公交;zh-hant:北部公交;"
     },
     {
-      "original": "KMB",
-      "conv": "zh-hant:九龍巴士;zh-hans:九龙巴士;"
-    },
-    {
-      "original": "CMB",
-      "conv": "zh-hant:中華巴士;zh-hans:中华巴士;"
-    },
-    {
-      "original": "LWB",
-      "conv": "zh-hant:龍運巴士;zh-hans:龙运巴士;"
-    },
-    {
-      "original": "NLB",
-      "conv": "zh-hant:新大嶼山巴士;zh-hans:新大屿山巴士;"
-    },
-    {
-      "original": "MTR Bus",
-      "conv": "zh-hant:港鐵巴士;zh-hans:港铁巴士;"
-    },
-    {
-      "original": "MTR Bus",
-      "conv": "zh-hant:港鐵接駁巴士;zh-hans:港铁接驳巴士;"
-    },
-    {
-      "original": "DBTSL",
-      "conv": "zh-hant:愉景灣巴士;zh-hans:愉景湾巴士;"
-    },
-    {
-      "original": "The Big Bus",
-      "conv": "zh-hant:大巴士;zh-hans:大巴士;"
-    },
-    {
-      "original": "Sun Bus",
-      "conv": "zh-hant:陽光巴士;zh-hans:阳光巴士;"
-    },
-    {
-      "original": "Kwoon Chung",
-      "conv": "zh-hant:冠忠巴士;zh-hans:冠忠巴士;"
-    },
-    {
       "original": "AMS",
       "conv": "zh-hant:進智公交;zh-hans:进智公交;"
-    },
-    {
-      "original": "Huangbus",
-      "conv": "zh-hant:皇巴士;zh-hans:皇巴士;"
-    },
-    {
-      "original": "Huangbus",
-      "conv": "zh-hant:黃巴士;zh-hans:黄巴士;"
-    },
-    {
-      "original": "HZMBus",
-      "conv": "zh-hant:港珠澳大橋穿梭巴士;zh-hans:港珠澳大桥穿梭巴士;"
-    },
-    {
-      "original": "Serviços de Ponte Flor de Lotus",
-      "conv": "zh-hant:蓮花口岸專線巴士;zh-hans:莲花口岸专线巴士;"
     },
     {
       "original": "TCM",
@@ -1708,30 +1588,6 @@
       "conv": "zh-hant:新時代公共汽車;zh-hans:新时代公共汽车;"
     },
     {
-      "original": "GZ/SZ Bus2",
-      "conv": "zh-hant:巴士二分;zh-hans:巴士二分;"
-    },
-    {
-      "original": "GZ/SZ Bus3",
-      "conv": "zh-hant:巴士三分;zh-hans:巴士三分;"
-    },
-    {
-      "original": "GZ Sunshine",
-      "conv": "zh-hant:新穗巴士;zh-hans:新穗巴士;"
-    },
-    {
-      "original": "GZ Transmac",
-      "conv": "zh-hant:新福利巴士;zh-hans:新福利巴士;"
-    },
-    {
-      "original": "GZ Yitong",
-      "conv": "zh-hant:溢通巴士;zh-hans:溢通巴士;"
-    },
-    {
-      "original": "GZ Nansha",
-      "conv": "zh-hant:南沙巴士;zh-hans:南沙巴士;"
-    },
-    {
       "original": "GZ Panyu",
       "conv": "zh-hant:番禺公共汽車;zh-hans:番禺公共汽车;"
     },
@@ -1742,14 +1598,6 @@
     {
       "original": "GZ Twincity",
       "conv": "zh-hant:雙城觀光巴士;zh-hans:双城观光巴士;"
-    },
-    {
-      "original": "GZ Jumbo",
-      "conv": "zh-hant:珍寶巴士;zh-hans:珍宝巴士;"
-    },
-    {
-      "original": "GZ Baima",
-      "conv": "zh-hant:白馬巴士;zh-hans:白马巴士;"
     },
     {
       "original": "GZ Jinxin",
@@ -1772,48 +1620,12 @@
       "conv": "zh-hant:荔通公共汽車;zh-hans:荔通公共汽车;"
     },
     {
-      "original": "GZ Litong",
-      "conv": "zh-hant:荔通巴士;zh-hans:荔通巴士;"
-    },
-    {
-      "original": "SZ Bus",
-      "conv": "zh-hant:深圳巴士;zh-hans:深圳巴士;"
-    },
-    {
       "original": "SZ East",
       "conv": "zh-hant:東部公交;zh-hans:东部公交;"
     },
     {
       "original": "SZ West",
       "conv": "zh-hant:西部公共汽車;zh-hans:西部公共汽车;"
-    },
-    {
-      "original": "SZ Shenshan",
-      "conv": "zh-hant:深汕巴士;zh-hans:深汕巴士;"
-    },
-    {
-      "original": "SZ Jinhuanan",
-      "conv": "zh-hant:金華南巴士;zh-hans:金华南巴士;"
-    },
-    {
-      "original": "SZ BusGongqi",
-      "conv": "zh-hant:巴士公汽;zh-hans:巴士公汽;"
-    },
-    {
-      "original": "SZ Bus1",
-      "conv": "zh-hant:巴士一分;zh-hans:巴士一分;"
-    },
-    {
-      "original": "SZ Bus4",
-      "conv": "zh-hant:巴士四分;zh-hans:巴士四分;"
-    },
-    {
-      "original": "SZ Bus5",
-      "conv": "zh-hant:巴士五分;zh-hans:巴士五分;"
-    },
-    {
-      "original": "DG Bus",
-      "conv": "zh-hant:東莞巴士;zh-hans:东莞巴士;"
     },
     {
       "original": "ZS Bus",
@@ -1826,18 +1638,6 @@
     {
       "original": "ZH Bus",
       "conv": "zh-hant:珠海公交巴士;zh-hans:珠海公交巴士;"
-    },
-    {
-      "original": "ZH KK",
-      "conv": "zh-hant:岐關觀光巴士;zh-hans:岐关观光巴士;"
-    },
-    {
-      "original": "HZ Bus",
-      "conv": "zh-hant:交投巴士;zh-hans:交投巴士;"
-    },
-    {
-      "original": "HZ Bus",
-      "conv": "zh-hant:惠交巴士;zh-hans:惠交巴士;"
     },
     {
       "original": "HZ Huinan",
@@ -1856,36 +1656,8 @@
       "conv": "zh-hant:久事公交;zh-hans:久事公交;"
     },
     {
-      "original": null,
-      "conv": "zh-hant:上海巴士;zh-hans:上海巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:上海空港巴士;zh-hans:上海空港巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士新新;zh-hans:巴士新新;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士一電;zh-hans:巴士一电;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:二電巴士;zh-hans:二电巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:巴士三電;zh-hans:巴士三电;"
-    },
-    {
       "original": "Kwoon Chung (Pudong)",
       "conv": "zh-hant:浦東冠忠公交;zh-hans:浦东冠忠公交;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:浦東巴士;zh-hans:浦东巴士;"
     },
     {
       "original": null,
@@ -1908,48 +1680,8 @@
       "conv": "zh-hant:浦東南匯公交;zh-hans:浦东南汇公交;"
     },
     {
-      "original": null,
-      "conv": "zh-hant:上海金山巴士;zh-hans:上海金山巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:寶山巴士;zh-hans:宝山巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:崇明巴士;zh-hans:崇明巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:奉賢巴士;zh-hans:奉贤巴士;"
-    },
-    {
-      "original": "CitiAir Bus",
-      "conv": "zh-hant:大有巴士;zh-hans:大有巴士;"
-    },
-    {
-      "original": "Evergreen Bus",
-      "conv": "zh-hant:長榮巴士;zh-hans:长荣巴士;"
-    },
-    {
-      "original": "Free Go Bus",
-      "conv": "zh-hant:飛狗巴士;zh-hans:飞狗巴士;"
-    },
-    {
-      "original": "Kuang-Hua Bus",
-      "conv": "zh-hant:光華巴士;zh-hans:光华巴士;"
-    },
-    {
       "original": "Tainan City Bus",
       "conv": "zh-hant:大台南公車;zh-hans:大台南公车;"
-    },
-    {
-      "original": "Zhongxing Bus",
-      "conv": "zh-hant:中興巴士;zh-hans:中兴巴士;"
-    },
-    {
-      "original": null,
-      "conv": "zh-hant:新北市新巴士;zh-hans:新北市新巴士;"
     },
     {
       "original": null,
@@ -1966,6 +1698,38 @@
     {
       "original": null,
       "conv": "zh-hans:东城公交;zh-hant:東城公交;"
+    },
+    {
+      "original": "bluegogo",
+      "conv": "zh-hans:小蓝单车;zh-hant:小藍單車;"
+    },
+    {
+      "original": "Mobike",
+      "conv": "zh-hans:摩拜单车;zh-hant:摩拜單車;"
+    },
+    {
+      "original": "U-bicycle",
+      "conv": "zh-hans:优拜单车;zh-hant:優拜單車;"
+    },
+    {
+      "original": "YouBike",
+      "conv": "zh-hans:微笑单车;zh-hant:微笑單車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:美团单车;zh-hant:美團單車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:町町单车;zh-hant:町町單車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:悟空单车;zh-hant:悟空單車;"
+    },
+    {
+      "original": null,
+      "conv": "zh-hans:小鸣单车;zh-hant:小鳴單車;"
     }
   ]
 }

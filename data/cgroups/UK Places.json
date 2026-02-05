@@ -28,6 +28,10 @@
       "conv": "zh-cn:阿因维克;zh-hk:安域;zh-mo:安域;zh-tw:安尼克;zh-hant:阿因維克;"
     },
     {
+      "original": "Amersham",
+      "conv": "zh-cn:阿默舍姆; zh-tw:阿麥斯罕; zh-hk:安瑪森;"
+    },
+    {
       "original": "Angel",
       "conv": "安吉爾=>zh-hk:天使;安吉爾=>zh-cn:安吉尔;安吉尔爾=>zh-hk:天使;安吉尔=>zh-tw:安吉爾;"
     },
@@ -48,6 +52,10 @@
       "conv": "zh:阿倫德爾; zh-cn:阿伦德尔;zh-tw:阿藍得;"
     },
     {
+      "original": "Ascot",
+      "conv": "zh-cn:阿斯科特;zh-hk:雅士谷;"
+    },
+    {
       "original": "Ashford",
       "conv": "zh-tw:阿士福特;zh-cn:阿什福德;"
     },
@@ -66,6 +74,10 @@
     {
       "original": "Barnet",
       "conv": "zh-hans:巴尼特;zh-hant:巴內特;zh-hk:班列特;"
+    },
+    {
+      "original": "Barnsley",
+      "conv": "zh-hk:班士利; zh-cn:巴恩斯利; zh-tw:巴恩斯利;"
     },
     {
       "original": "Barrow-in-Furness",
@@ -89,7 +101,7 @@
     },
     {
       "original": "Beaconsfield",
-      "conv": "zh:比肯斯菲爾德;zh-hans:比肯斯菲尔德;zh-hant:比更士菲;zh-tw:比康斯非;"
+      "conv": "zh:比肯斯菲爾德;zh-hans:比肯斯菲尔德;zh-hk:比更士菲;zh-tw:比康斯非;"
     },
     {
       "original": "Becontree",
@@ -169,7 +181,7 @@
     },
     {
       "original": "Bloomsbury",
-      "conv": "zh-cn:布卢姆茨伯里;zh-tw:布魯姆斯伯里;zh-hk:布林斯貝利;zh-hant:布盧姆茨伯里;"
+      "conv": "zh-cn:布卢姆茨伯里;zh-tw:布魯姆斯伯里;zh-hk:布林斯貝利;zh-hant:布盧姆茨伯里;zh-hans:布鲁姆斯伯里;"
     },
     {
       "original": "Blyth Valley",
@@ -905,7 +917,7 @@
     },
     {
       "original": "Maidenhead",
-      "conv": "zh-cn:梅登黑德;zh-hk:美登赫;zh-tw:美登赫;"
+      "conv": "zh-cn:梅登黑德;zh-hk:麥登赫;zh-tw:美登赫;"
     },
     {
       "original": "Maidstone",
@@ -1129,31 +1141,27 @@
     },
     {
       "original": "Rochdale",
-      "conv": "zh:羅奇代爾;zh-cn:罗奇代尔;zh-hk:羅慈地;zh-tw:洛赤代爾;"
+      "conv": "羅奇代爾=>zh-cn:罗奇代尔;羅奇代爾=>zh-hk:羅慈地;羅奇代爾=>zh-tw:洛赤代爾;"
     },
     {
       "original": "Rochdale",
-      "conv": "zh:羅虛代爾;zh-cn:罗奇代尔;zh-hk:羅慈地;zh-tw:洛赤代爾;"
+      "conv": "羅虛代爾=>zh-cn:罗奇代尔;羅虛代爾=>zh-hk:羅慈地;羅虛代爾=>zh-tw:洛赤代爾;"
     },
     {
       "original": "Rochdale",
-      "conv": "zh:罗虚代尔;zh-cn:罗奇代尔;zh-hk:羅慈地;zh-tw:洛赤代爾;"
+      "conv": "罗虚代尔=>zh-cn:罗奇代尔;罗虚代尔=>zh-hk:羅慈地;罗虚代尔=>zh-tw:洛赤代爾;"
     },
     {
       "original": "Rochdale",
-      "conv": "zh:羅虛戴爾;zh-cn:罗奇代尔;zh-hk:羅慈地;zh-tw:洛赤代爾;"
+      "conv": "羅虛戴爾=>zh-cn:罗奇代尔;羅虛戴爾=>zh-hk:羅慈地;羅虛戴爾=>zh-tw:洛赤代爾;"
     },
     {
       "original": "Rochdale",
-      "conv": "zh:罗虚戴尔;zh-cn:罗奇代尔;zh-hk:羅慈地;zh-tw:洛赤代爾;"
+      "conv": "罗虚戴尔=>zh-cn:罗奇代尔;罗虚戴尔=>zh-hk:羅慈地;罗虚戴尔=>zh-tw:洛赤代爾;"
     },
     {
       "original": "Rochford",
       "conv": "zh-hant:羅奇福德;zh-hans:罗奇福德;zh-hk:樂福德;"
-    },
-    {
-      "original": "Rotherham",
-      "conv": "zh-cn:罗瑟勒姆;zh-hk:洛達咸;zh-tw:羅瑟勒姆;"
     },
     {
       "original": "Rotherham",
@@ -1241,7 +1249,7 @@
     },
     {
       "original": "Sheffield",
-      "conv": "zh-hans:谢菲尔德;zh-tw:雪菲爾;zh-hk:錫菲;"
+      "conv": "zh-hans:谢菲尔德;zh-tw:雪菲爾;zh-hk:錫菲;zh-hant:謝菲爾德;"
     },
     {
       "original": "Sherborne",
@@ -1489,7 +1497,7 @@
     },
     {
       "original": "Vauxhall",
-      "conv": "zh-hans:沃克斯豪尔;zh-tw:沃克斯霍爾;zh-hk:獲素;"
+      "conv": "zh:沃克斯豪爾;zh-hans:沃克斯豪尔;zh-tw:沃克斯霍爾;zh-hk:獲素;"
     },
     {
       "original": "Wakefield",
@@ -1505,11 +1513,11 @@
     },
     {
       "original": "Walsall",
-      "conv": "zh-cn:沃尔索尔;zh-hk:華素爾;zh-tw:沃索爾;"
+      "conv": "zh-cn:沃尔索尔;zh-hk:華素爾;zh-tw:沃索爾;zh-hant:沃爾索爾;"
     },
     {
       "original": "Waltham Forest",
-      "conv": "zh-hant:沃爾瑟姆福里斯特;zh-cn:沃尔瑟姆福里斯特;zh-hk:窩咸森林;zh-tw:瓦爾珊森林;"
+      "conv": "zh-hant:沃爾瑟姆福里斯特;zh-cn:沃尔瑟姆福里斯特;zh-hk:窩咸森林;zh-tw:沃爾瑟姆森林;"
     },
     {
       "original": "Walthamstow",

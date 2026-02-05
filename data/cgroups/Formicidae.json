@@ -1,0 +1,183 @@
+{
+  "name": "Formicidae",
+  "description": "蚁科",
+  "path": "Module:CGroup/Formicidae",
+  "rules": [
+    {
+      "original": "Myrmicinae",
+      "conv": "zh-cn:切叶蚁亚科;zh-tw:家蟻亞科;zh-hk:切葉蟻亞科"
+    },
+    {
+      "original": "Attini",
+      "conv": "zh-cn:芭切叶蚁族;zh-tw:切葉蟻族;"
+    },
+    {
+      "original": "<i>Acanthognathus</i>",
+      "conv": "zh-cn:棘颚蚁属;zh-tw:刺顎家蟻屬;"
+    },
+    {
+      "original": "<i>Acromyrmex</i>",
+      "conv": "zh-cn:顶切叶蚁属;zh-tw:擬切葉家蟻屬;zh-hk:頂切葉蟻屬"
+    },
+    {
+      "original": "<i>Atta</i>",
+      "conv": "zh-cn:芭切叶蚁属;zh-tw:切葉家蟻屬;zh-hk:芭切葉蟻屬"
+    },
+    {
+      "original": "<i>Basiceros</i>",
+      "conv": "zh-cn:角沟蚁属;zh-tw:鈍角家蟻屬;zh-hk:角沟蟻屬"
+    },
+    {
+      "original": "<i>Daceton</i>",
+      "conv": "zh-cn:毒针蚁属;zh-tw:針刺家蟻屬;zh-hk:毒針蟻屬"
+    },
+    {
+      "original": "<i>Tetramorium</i>",
+      "conv": "zh-cn:铺道蚁属;zh-tw:皺家蟻屬;zh-hk:鋪道蟻屬"
+    },
+    {
+      "original": "<i>Vollenhovia</i>",
+      "conv": "zh-cn:扁胸切叶蚁属;zh-tw:網家蟻屬;zh-hk:扁胸切葉蟻屬"
+    },
+    {
+      "original": "<i>Monomorium</i>",
+      "conv": "zh-cn:小家蚁属;zh-tw:單家蟻屬;zh-hk:小家蟻屬"
+    },
+    {
+      "original": "<i>Solenopsis</i>",
+      "conv": "zh-cn:火蚁属;zh-tw:火家蟻屬;zh-hk:火蟻屬"
+    },
+    {
+      "original": "<i>Aphaenogaster</i>",
+      "conv": "zh-cn:盘腹蚁属;zh-tw:長腳家蟻屬;zh-hk:盘腹蟻屬"
+    },
+    {
+      "original": "<i>Messor</i>",
+      "conv": "zh-cn:收获蚁属;zh-tw:收割家蟻屬;zh-hk:收穫蟻屬"
+    },
+    {
+      "original": "<i>Novomessor</i>",
+      "conv": "zh-cn:新收获蚁属;zh-tw:新收割家蟻屬;zh-hk:新收穫蟻屬"
+    },
+    {
+      "original": "<i>Veromessor</i>",
+      "conv": "zh-cn:真收获蚁属;zh-tw:真收割家蟻屬;zh-hk:真收穫蟻屬"
+    },
+    {
+      "original": "Pseudomyrmecinae",
+      "conv": "zh-cn:伪切叶蚁亚科;zh-tw:擬家蟻亞科;zh-hk:偽切葉蟻亞科;"
+    },
+    {
+      "original": "Pseudomymecini",
+      "conv": "zh-cn:伪切叶蚁族;zh-tw:擬家蟻族;zh-hk:偽切葉蟻族;"
+    },
+    {
+      "original": "<i>Pseudomyrmex</i>",
+      "conv": "zh-cn:伪切叶蚁属;zh-tw:擬家蟻屬;"
+    },
+    {
+      "original": "<i>Tetraponera</i>",
+      "conv": "zh-cn:细长蚁属;zh-tw:四擬家蟻屬;"
+    },
+    {
+      "original": "<i>Tetraponera allaborans</i>",
+      "conv": "zh-cn:飘细长蚁;zh-tw:長腹四擬家蟻;zh-hk:飄細長蟻"
+    },
+    {
+      "original": "<i>Pseudomyrma allaborans</i>",
+      "conv": "zh-cn:飘伪切叶蚁;zh-tw:長腹擬家蟻;zh-hk:飄偽切葉蟻"
+    },
+    {
+      "original": "<i>Camponotus</i>",
+      "conv": "zh-cn:弓背蚁;zh-tw:巨山蟻;zh-hk:弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus japonicus</i>",
+      "conv": "zh-cn:日本弓背蚁;zh-tw:日本巨山蟻;zh-hk:日本弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus festinus</i>",
+      "conv": "zh-cn:迅捷弓背蚁;zh-tw:迅捷巨山蟻;zh-hk:迅捷弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus autrani</i>",
+      "conv": "zh-cn:奥特朗弓背蚁;zh-tw:奧特朗巨山蟻;zh-hk:奧特朗弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus festinus diligens</i>",
+      "conv": "zh-cn:勤奋弓背蚁;zh-tw:勤奮巨山蟻;zh-hk:勤奋弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus festinus eximius</i>",
+      "conv": "zh-cn:迅捷弓背蚁显著亚种;zh-tw:迅捷巨山蟻顯著亞種;zh-hk:迅捷弓背蟻顯著亞種"
+    },
+    {
+      "original": "<i>Camponotus festinus inezae</i>",
+      "conv": "zh-cn:伊内兹弓背蚁;zh-tw:伊內茲巨山蟻;zh-hk:伊內茲弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus formosensis</i>",
+      "conv": "zh-cn:台湾弓背蚁;zh-tw:臺北巨山蟻;zh-hk:台灣弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus pompeius</i> species group",
+      "conv": "zh-cn:弓背蚁庞培种团;zh-tw:巨山蟻龐培種團;zh-hk:弓背蟻龐培種團"
+    },
+    {
+      "original": "<i>Camponotus brevicollis</i>",
+      "conv": "zh-cn:短颈弓背蚁;zh-tw:短頸巨山蟻;zh-hk:短頸弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus langi</i>",
+      "conv": "zh-cn:朗氏弓背蚁;zh-tw:朗氏巨山蟻;zh-hk:朗氏弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus langi langi</i>",
+      "conv": "zh-cn:朗氏弓背蚁指名亚种;zh-tw:朗氏巨山蟻指名亞種;zh-hk:朗氏弓背蟻指名亞種"
+    },
+    {
+      "original": "<i>Camponotus langi jejunus</i>",
+      "conv": "zh-cn:朗氏弓背蚁贫瘠亚种;zh-tw:朗氏巨山蟻貧瘠亞種;zh-hk:朗氏弓背蟻貧瘠亞種"
+    },
+    {
+      "original": "<i>Camponotus massinissa</i>",
+      "conv": "zh-cn:马西尼萨弓背蚁;zh-tw:馬西尼薩巨山蟻;zh-hk:馬西尼薩弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus pompeius</i>",
+      "conv": "zh-cn:庞培弓背蚁;zh-tw:龐培巨山蟻;zh-hk:龐培弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus pompeius pompeius</i>",
+      "conv": "zh-cn:庞培弓背蚁指名亚种;zh-tw:龐培巨山蟻指名亞種;zh-hk:龐培弓背蟻指名亞種"
+    },
+    {
+      "original": "<i>Camponotus pompeius cassius </i>",
+      "conv": "zh-cn:庞培弓背蚁卡西乌斯亚种;zh-tw:龐培巨山蟻卡西烏斯亞種;zh-hk:龐培弓背蟻卡西烏斯亞種"
+    },
+    {
+      "original": "<i>Camponotus pompeius marius</i>",
+      "conv": "zh-cn:庞培弓背蚁马略亚种;zh-tw:龐培巨山蟻馬略亞種;zh-hk:龐培弓背蟻馬略亞種"
+    },
+    {
+      "original": "<i>Camponotus varus</i>",
+      "conv": "zh-cn:瓦卢斯弓背蚁;zh-tw:瓦盧斯巨山蟻;zh-hk:瓦盧斯弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus wellmani</i>",
+      "conv": "zh-cn:威尔曼弓背蚁;zh-tw:威爾曼巨山蟻;zh-hk:威爾曼弓背蟻"
+    },
+    {
+      "original": "<i>Camponotus wellmani wellmani</i>",
+      "conv": "zh-cn:威尔曼弓背蚁指名亚种;zh-tw:威爾曼巨山蟻指名亞種;zh-hk:威爾曼弓背蟻指名亞種"
+    },
+    {
+      "original": "<i>Camponotus wellmani gamma</i>",
+      "conv": "zh-cn:威尔曼弓背蚁伽马亚种;zh-tw:威爾曼巨山蟻伽馬亞種;zh-hk:威爾曼弓背蟻伽馬亞種"
+    },
+    {
+      "original": "<i>Camponotus wellmani rufipartis</i>",
+      "conv": "zh-cn:威尔曼弓背蚁红体亚种;zh-tw:威爾曼巨山蟻紅體亞種;zh-hk:威爾曼弓背蟻紅體亞種"
+    }
+  ]
+}

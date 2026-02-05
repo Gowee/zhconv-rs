@@ -140,6 +140,10 @@
       "conv": "zh-hans:预选赛;zh-hant:外圍賽;"
     },
     {
+      "original": "Qualification Round",
+      "conv": "zh-hans:预选赛轮;zh-tw:外圍賽輪;zh-hk:外圍賽圈;"
+    },
+    {
       "original": "Qualification",
       "conv": "zh-hans:常规赛;zh-tw:例行賽;zh-hk:正規賽;"
     },
@@ -282,6 +286,10 @@
     {
       "original": "Team dissolved",
       "conv": "zh-hans:球队解散;zh-hk:球隊解散;zh-tw:球隊解散;"
+    },
+    {
+      "original": "match-fixing",
+      "conv": "zh-hans:假球;zh-hk:假波;zh-tw:假球;"
     },
     {
       "original": "under-15",
@@ -804,6 +812,14 @@
       "conv": "zh-cn:凌空抽射;zh-hk:窩利;zh-tw:凌空射門;"
     },
     {
+      "original": "二十",
+      "conv": "廿=>zh-hans:二十;廿=>zh-cn:二十;廿=>zh-sg:二十;廿=>zh-my:二十;"
+    },
+    {
+      "original": "三十",
+      "conv": "卅=>zh-hans:三十;卅=>zh-cn:三十;卅=>zh-sg:三十;卅=>zh-my:三十;"
+    },
+    {
       "original": "To represent the team to play",
       "conv": "zh-hans:比赛;zh-hant:比賽;"
     },
@@ -834,6 +850,10 @@
     {
       "original": "",
       "conv": "zh-hans:女足球员;zh-hant:女足球員;"
+    },
+    {
+      "original": "Free agent",
+      "conv": "zh-hans:自由球员;zh-hant:自由球員;"
     }
   ]
 }

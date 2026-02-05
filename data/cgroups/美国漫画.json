@@ -848,6 +848,10 @@
       "conv": "zh-tw:幻影殺手;zh-hk:黑天使;zh-sg:致命天使;zh-cn:幻影杀手;"
     },
     {
+      "original": "Emma Frost",
+      "conv": "zh-hk:愛瑪·霍斯;zh-tw:艾瑪·佛斯特;zh-cn:艾玛·弗罗斯特;"
+    },
+    {
       "original": "Everett ( K. Ross)",
       "conv": "zh-hk:艾霍;zh-tw:艾佛瑞特;zh-cn:埃弗雷特;"
     },
@@ -968,12 +972,16 @@
       "conv": "zh-hk:黑妮絲;zh-tw:哈尼斯;zh-cn:哈克尼斯;"
     },
     {
+      "original": "He Who Remains",
+      "conv": "zh-cn:遗留之人;zh-hk:僅存的他;zh-tw:留存者;"
+    },
+    {
       "original": "Hela",
       "conv": "zh-tw:海拉;zh-hk:海娜;zh-cn:海拉;"
     },
     {
-      "original": "He Who Remains",
-      "conv": "zh-cn:遗留之人;zh-hk:僅存的他;zh-tw:留存者;"
+      "original": "Hercules",
+      "conv": "zh:赫拉克勒斯;zh-hk:海格力斯;zh-tw:海克力士;zh-cn:海格力斯;"
     },
     {
       "original": "High Evolutionary",
@@ -1049,7 +1057,7 @@
     },
     {
       "original": "Johnny Blaze",
-      "conv": "zh-tw:強尼·布雷茲;zh-hk:尊尼·卑斯;zh-cn:强尼·布雷泽;"
+      "conv": "zh-tw:強尼·布雷茲;zh-hk:尊尼·白熾;zh-cn:强尼·布雷泽;"
     },
     {
       "original": "Juggernaut",
@@ -1142,6 +1150,10 @@
     {
       "original": "Maria Hill",
       "conv": "zh-cn:玛丽亚·希尔;zh:瑪麗亞·希爾;zh-tw:瑪莉亞·希爾;zh-hk:瑪惠·希依;"
+    },
+    {
+      "original": "Mary Jane",
+      "conv": "zh-cn:玛丽·简;zh-hk:瑪麗·珍;zh-tw:瑪莉·珍;"
     },
     {
       "original": "Mary Jane Watson",
@@ -1813,7 +1825,7 @@
     },
     {
       "original": "Avengers: Doomsday",
-      "conv": "zh-tw:復仇者聯盟：末日之戰;zh-cn:复仇者联盟5：毁灭之日;"
+      "conv": "zh-tw:復仇者聯盟：末日崛起;zh-cn:复仇者联盟5：毁灭之日;zh-hk:復仇者聯盟5：末日降臨;"
     },
     {
       "original": "The Avengers: Earth's Mightiest Heroes",
@@ -2113,7 +2125,11 @@
     },
     {
       "original": "Blaze",
-      "conv": "zh-tw:布雷茲;zh-hk:卑斯;zh-cn:布雷泽;"
+      "conv": "zh-tw:布雷茲;zh-hk:白熾;zh-cn:布雷泽;"
+    },
+    {
+      "original": "Brian",
+      "conv": "zh-hk:拜仁;zh-tw:布萊恩;zh-cn:布莱恩;"
     },
     {
       "original": "Bruce",
@@ -2421,11 +2437,11 @@
     },
     {
       "original": "(Kevin) Feige",
-      "conv": "zh-cn:费奇;zh-tw:費吉;zh-hk:費治;"
+      "conv": "zh-cn:费奇;zh-my:费吉;zh-sg:费吉;zh-tw:費吉;zh-hk:費治;"
     },
     {
       "original": "Gunn",
-      "conv": "zh-cn:古恩;zh-tw:岡恩;zh-hk:根;}--{-|根"
+      "conv": "zh-cn:古恩;zh-sg:昆恩;zh-tw:岡恩;zh-hk:根;}--{-|根}--{-|昆恩"
     },
     {
       "original": "Jonathan Schwartz",

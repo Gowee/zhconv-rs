@@ -16,7 +16,7 @@
       "conv": "zh-cn:两栖攻击舰;zh-tw:兩棲突擊艦;zh-hk:兩棲突擊艦;"
     },
     {
-      "original": "[[航母|aircraft carrier]]",
+      "original": "[[航空母舰|aircraft carrier]]",
       "conv": "zh-cn:航母; zh-tw:航艦; zh-hk:航母;"
     },
     {
@@ -33,19 +33,23 @@
     },
     {
       "original": "[[澳紐軍團|Australian and New Zealand Army Corps]]",
-      "conv": "zh-cn:澳新军团; zh-hk:澳新軍團; zh-tw:紐澳軍團; zh-my:澳纽军团;"
+      "conv": "zh-cn:澳新军团; zh-hk:澳新軍團; zh-tw:澳紐軍團; zh-my:澳纽军团;"
     },
     {
       "original": "[[澳紐軍團|Australian and New Zealand Army Corps]]",
-      "conv": "紐澳=>zh-cn:澳新; 紐澳=>zh-hk:澳新; 紐澳=>zh-mo:澳新; 紐澳=>zh-my:澳纽; 紐澳=>zh-sg:澳纽;"
+      "conv": "紐澳軍團=>zh-cn:澳新军团; 紐澳軍團=>zh-tw:澳紐軍團; 紐澳軍團=>zh-hk:澳新軍團; 紐澳軍團=>zh-mo:澳新軍團; 紐澳軍團=>zh-my:澳纽军团;"
     },
     {
       "original": "[[澳紐軍團|Australian and New Zealand Army Corps]]",
-      "conv": "澳紐=>zh-cn:澳新; 澳紐=>zh-tw:紐澳; 澳紐=>zh-hk:澳新; 澳紐=>zh-mo:澳新; 澳紐=>zh-my:澳纽; 澳紐=>zh-sg:澳纽;"
+      "conv": "紐澳=>zh-cn:澳新; 紐澳=>zh-tw:澳紐; 紐澳=>zh-hk:澳新; 紐澳=>zh-mo:澳新; 紐澳=>zh-my:澳纽; 紐澳=>zh-sg:澳纽;"
     },
     {
       "original": "[[澳紐軍團|Australian and New Zealand Army Corps]]",
-      "conv": "澳纽=>zh-cn:澳新; 澳纽=>zh-tw:紐澳; 澳纽=>zh-hk:澳新; 澳纽=>zh-mo:澳新;"
+      "conv": "澳紐=>zh-cn:澳新; 澳紐=>zh-tw:澳紐; 澳紐=>zh-hk:澳新; 澳紐=>zh-mo:澳新; 澳紐=>zh-my:澳纽; 澳紐=>zh-sg:澳纽;"
+    },
+    {
+      "original": "[[澳紐軍團|Australian and New Zealand Army Corps]]",
+      "conv": "澳纽=>zh-cn:澳新; 澳纽=>zh-tw:澳紐; 澳纽=>zh-hk:澳新; 澳纽=>zh-mo:澳新;"
     },
     {
       "original": "[[戰艦|Battleship]]",
@@ -116,12 +120,16 @@
       "conv": "zh-cn:达索;zh-tw:達梭;zh-hk:達索;"
     },
     {
-      "original": "[[飆風戰機|Dassault Rafale]]",
+      "original": "[[陣風戰鬥機|Dassault Rafale]]",
       "conv": "zh-cn:阵风战斗机;zh-tw:疾風式戰鬥機;zh-hk:陣風式戰鬥機;"
     },
     {
       "original": "[[武裝親衛隊|Die Waffen Schutzstaffel]]",
       "conv": "zh-cn:武装党卫队; zh-sg:武装党卫队; zh-tw:武裝親衛隊; zh-hk:武裝黨衛隊;"
+    },
+    {
+      "original": "[[武裝親衛隊|Die Waffen Schutzstaffel]]",
+      "conv": "zh-cn:武装党卫军; zh-sg:武装党卫军; zh-tw:武裝親衛隊; zh-hk:武裝黨衛軍;"
     },
     {
       "original": "[[邓尼茨|Dönitz]]",
@@ -136,7 +144,7 @@
       "conv": "zh-cn:灑佈; zh-tw:灑撤;"
     },
     {
-      "original": "[[相位陣列|ESA]]",
+      "original": "[[相控阵|ESA]]",
       "conv": "zh-cn:相控阵;zh-tw:相位陣列;zh-hk:相位陣列;"
     },
     {
@@ -154,6 +162,10 @@
     {
       "original": "[[护卫舰|Frigate]]",
       "conv": "zh-cn:护卫舰;zh-hk:巡防艦;zh-tw:巡防艦;"
+    },
+    {
+      "original": "[[發焰筒|flare]]",
+      "conv": "zh-tw:信號彈;zh-cn:发焰筒;"
     },
     {
       "original": "[[Glantz]]",
@@ -280,6 +292,10 @@
       "conv": "zh-cn:埃里希·冯·曼施坦因;zh-tw:埃里希·馮·曼斯坦;zh-hk:埃里希·馮·曼斯坦;"
     },
     {
+      "original": "[[燃烧瓶|Molotov Cocktail]]",
+      "conv": "zh-hans:燃烧瓶;zh-hant:汽油彈;"
+    },
+    {
       "original": "[[核动力|nuclear power]]",
       "conv": "zh-cn:核动力; zh-tw:核子動力; zh-hk:核動力;"
     },
@@ -324,6 +340,10 @@
       "conv": "zh-cn:喷水推进器; zh-tw:噴射泵;"
     },
     {
+      "original": "[[狂风攻击机|Panavia Tornado]]",
+      "conv": "zh-hk:龍捲風攻擊機;zh-cn:狂风攻击机;zh-tw:龍捲風攻擊機;"
+    },
+    {
       "original": "Rafale",
       "conv": "zh-cn:阵风; zh-tw:疾風;zh-hk:陣風;"
     },
@@ -358,6 +378,10 @@
     {
       "original": "[[親衛隊|Schutzstaffel]]",
       "conv": "zh-cn:党卫队;zh-tw:親衛隊;zh-hk:親衛隊;zh-mo:黨衛隊;"
+    },
+    {
+      "original": "[[親衛隊|Schutzstaffel]]",
+      "conv": "zh-cn:党卫军;zh-tw:親衛隊;zh-hk:親衛隊;zh-mo:黨衛隊;"
     },
     {
       "original": "[[照準器|Sight (device)]]",
@@ -397,7 +421,11 @@
     },
     {
       "original": "[[阿爾弗雷德·馮·鐵必制|Tirpitz]]",
-      "conv": "zh-cn:提尔皮茨;zh-tw:鐵必制;zh-hk:鐵必制;;"
+      "conv": "zh-cn:提尔皮茨;zh-tw:鐵必制;zh-hk:鐵必制;"
+    },
+    {
+      "original": "[[狂风|Tornado]]",
+      "conv": "zh-cn:狂风;zh-tw:龍捲風;zh-hk:龍捲風;"
     },
     {
       "original": "[[U型潜艇|U-boat]]",
@@ -417,7 +445,7 @@
     },
     {
       "original": "[[生存遊戲_(射擊運動)|Wargame]]",
-      "conv": "zh-cn:真人CS; zh-tw:生存遊戲_; zh-hk:野戰遊戲;"
+      "conv": "zh-cn:真人CS; zh-tw:生存遊戲; zh-hk:野戰遊戲;"
     },
     {
       "original": null,
@@ -789,11 +817,11 @@
     },
     {
       "original": null,
-      "conv": "zh-hans:击发调变;zh-hant:切換射擊模式;;zh-cn:击发调变;zh-tw:切換射擊模式;;zh-hk:選射;"
+      "conv": "zh-hans:可选射击模式;zh-hant:可選射擊模式;zh-cn:可选射击模式;zh-tw:可選射擊模式;zh-hk:選射;"
     },
     {
       "original": null,
-      "conv": "zh:擊發調變;zh-hans:击发调变;zh-hant:切換射擊模式;zh-cn:击发调变;zh-tw:切換射擊模式;zh-hk:選射;"
+      "conv": "zh:可選射擊模式;zh-hans:可选射击模式;zh-hant:可選射擊模式;zh-cn:可选射击模式;zh-tw:可選射擊模式;zh-hk:選射;"
     },
     {
       "original": null,
@@ -1281,15 +1309,7 @@
     },
     {
       "original": null,
-      "conv": "zh:特種作戰開發群;zh-hans:特殊战开发大队;zh-hant:特殊戰開發群;"
-    },
-    {
-      "original": null,
-      "conv": "zh:海軍特種作戰司令部;zh-hans:海军特殊战司令部;zh-hant:海軍特殊戰司令部;"
-    },
-    {
-      "original": null,
-      "conv": "zh:海军特种作战司令部;zh-hans:海军特殊战司令部;zh-hant:海軍特殊戰司令部;"
+      "conv": "zh:特種作戰開發群;zh-hans:特殊战开发大队;zh-hant:特種作戰開發群;"
     },
     {
       "original": null,

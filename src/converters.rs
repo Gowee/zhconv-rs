@@ -81,7 +81,7 @@ pub fn get_builtin_converter(target: Variant) -> &'static ZhConverter {
         #[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
         ZhSG => &ZH_TO_SG_CONVERTER,
         #[allow(unreachable_patterns)]
-        _ => panic!("No converter targetted at {} enabled.", target),
+        _ => panic!("No converter targeting {} enabled.", target),
     }
 }
 

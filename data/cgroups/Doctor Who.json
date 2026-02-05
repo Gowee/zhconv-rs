@@ -1,11 +1,11 @@
 {
   "name": "Doctor Who",
-  "description": "-{zh-tw:超時空奇俠;zh-hk:異世奇人;zh-cn:神秘博士;}-",
+  "description": "-{zh:超時空博士;zh-tw:超時空奇俠;zh-my:超时空奇侠;zh-hk:異世奇人;zh-cn:神秘博士;}-",
   "path": "Template:CGroup/Doctor Who",
   "rules": [
     {
       "original": "Doctor Who",
-      "conv": "zh-tw:超時空奇俠;zh-hk:異世奇人;zh-cn:神秘博士;"
+      "conv": "zh:超時空博士;zh-tw:超時空奇俠;zh-my:超时空奇侠;zh-hk:異世奇人;zh-cn:神秘博士;"
     },
     {
       "original": "Torchwood",
@@ -85,11 +85,11 @@
     },
     {
       "original": "Christopher Eccleston",
-      "conv": "zh-hans:克里斯托弗·埃克斯顿;zh-hk:基斯杜化·艾克斯頓;zh-tw:克里斯多福·艾克斯頓;zh-mo:基斯杜化·艾克斯頓;"
+      "conv": "zh:基斯杜化·艾克斯頓;zh-hant:克里斯多福·艾克斯頓;zh-hk:基斯杜化·艾利斯頓;zh-tw:克里斯多夫·艾柯遜;zh-sg:克里斯多夫·艾柯逊;zh-cn:克里斯托弗·埃克莱斯顿;"
     },
     {
       "original": "Matt Smith",
-      "conv": "zh-hans:马特·史密斯;zh-hk:麥·斯密;zh-tw:馬特·史密斯;"
+      "conv": "zh:馬特·史密斯;zh-cn:马特·史密斯;zh-tw:麥特·史密斯;zh-hk:麥·史密夫;"
     },
     {
       "original": "Time Lord",

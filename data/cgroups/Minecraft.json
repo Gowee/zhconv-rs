@@ -76,6 +76,10 @@
       "conv": "zh:带釉陶瓦;zh-cn:带釉陶瓦;zh-tw:釉陶;zh-hk:釉陶;"
     },
     {
+      "original": "Scaffolding",
+      "conv": "zh:脚手架;zh-cn:脚手架;zh-tw:鷹架;zh-hk:棚架;"
+    },
+    {
       "original": "Sculk",
       "conv": "zh:幽匿;zh-cn:幽匿;zh-tw:伏聆;zh-hk:沉靈;"
     },
@@ -198,6 +202,10 @@
     {
       "original": "Wither Skeleton",
       "conv": "zh:凋灵骷髅;zh-cn:凋灵骷髅;zh-tw:凋零骷髏;zh-hk:凋零骷髏骨;"
+    },
+    {
+      "original": "Ender Dragon",
+      "conv": "zh:末影龙;zh-cn:末影龙;zh-tw:終界龍;"
     },
     {
       "original": "Enderman",
@@ -412,6 +420,14 @@
       "conv": "zh:马库斯·佩尔松;zh-cn:马库斯·佩尔松;zh-tw:馬庫斯·佩爾松"
     },
     {
+      "original": "Minecraft YouTuber",
+      "conv": "我的世界YouTuber => zh-tw:Minecraft YouTuber;我的世界YouTuber => zh-hk:Minecraft YouTuber;我的世界YouTuber => zh-mo:Minecraft YouTuber;"
+    },
+    {
+      "original": "Skin",
+      "conv": "zh-cn:皮肤;zh-tw:外觀;"
+    },
+    {
       "original": "Minecraft: Story Mode",
       "conv": "zh-tw:Minecraft：故事模式; zh-cn:我的世界：故事模式; zh-hk:Minecraft：故事模式;"
     },
@@ -424,11 +440,11 @@
       "conv": "zh-tw:Minecraft：地下城; zh-cn:我的世界：地下城; zh-hk:Minecraft：地下城;"
     },
     {
-      "original": "Minecraft Dungeons",
+      "original": "Minecraft – Volume Alpha",
       "conv": "zh-hans: Minecraft – Volume Alpha; zh-hant: Minecraft – Volume Alpha"
     },
     {
-      "original": "Minecraft Dungeons",
+      "original": "Minecraft – Volume Beta",
       "conv": "zh-hans: Minecraft – Volume Beta; zh-hant: Minecraft – Volume Beta"
     }
   ]

@@ -417,11 +417,19 @@
     },
     {
       "original": "render",
-      "conv": "zh-cn:渲染; zh-tw:彩現;"
+      "conv": "彩現=>zh-cn:渲染;彩現=>zh-my:渲染;彩現=>zh-sg:渲染;彩現=>zh-hk:渲染;彩現=>zh-mo:渲染;"
+    },
+    {
+      "original": "render",
+      "conv": "彩现=>zh-cn:渲染;彩现=>zh-my:渲染;彩现=>zh-sg:渲染;彩现=>zh-hk:渲染;彩现=>zh-mo:渲染;"
     },
     {
       "original": "real-time rendering",
-      "conv": "zh-cn:实时渲染; zh-tw:即時彩現;"
+      "conv": "zh-cn:实时渲染; zh-tw:即時渲染;"
+    },
+    {
+      "original": "real-time rendering",
+      "conv": "即時彩現=>zh-cn:实时渲染; 即時彩現=>zh-sg:实时渲染; 即時彩現=>zh-my:实时渲染;"
     },
     {
       "original": "vector graphics",
@@ -433,23 +441,23 @@
     },
     {
       "original": "bottom screen",
-      "conv": "下屏=>zh-tw:下螢幕; 下屏=>zh-hk:下熒幕; 下屏=>zh-mo:下熒幕;"
+      "conv": "下屏=>zh-tw:下螢幕; 下屏=>zh-hk:下螢幕; 下屏=>zh-mo:下螢幕;"
     },
     {
       "original": "bottom screen",
-      "conv": "zh-cn:下屏幕; zh-tw:下螢幕; zh-hk:下熒幕;"
+      "conv": "zh-cn:下屏幕; zh-tw:下螢幕"
     },
     {
       "original": "dual screen",
-      "conv": "双屏=>zh-tw:雙螢幕; 双屏=>zh-hk:雙熒幕; 双屏=>zh-mo:雙熒幕;"
+      "conv": "双屏=>zh-tw:雙螢幕; 双屏=>zh-hk:雙螢幕; 双屏=>zh-mo:雙螢幕;"
     },
     {
       "original": "dual screen",
-      "conv": "zh-cn:双屏幕; zh-tw:雙螢幕; zh-hk:雙熒幕;"
+      "conv": "zh-cn:双屏幕; zh-tw:雙螢幕;"
     },
     {
       "original": "full screen",
-      "conv": "zh-cn:全屏; zh-tw:全螢幕; zh-hk:全屏幕;"
+      "conv": "zh-cn:全屏; zh-tw:全螢幕;"
     },
     {
       "original": "high definition",
@@ -461,15 +469,15 @@
     },
     {
       "original": "multi-screen",
-      "conv": "多屏=>zh-tw:多螢幕; 多屏=>zh-hk:多熒幕; 多屏=>zh-mo:多熒幕;"
+      "conv": "多屏=>zh-tw:多螢幕; 多屏=>zh-hk:多螢幕; 多屏=>zh-mo:多螢幕;"
     },
     {
       "original": "multi-screen",
-      "conv": "zh-cn:多屏幕; zh-tw:多螢幕; zh-hk:多熒幕;"
+      "conv": "zh-cn:多屏幕; zh-tw:多螢幕;"
     },
     {
       "original": "screen",
-      "conv": "zh-cn:屏幕; zh-hk:熒幕; zh-tw:螢幕;"
+      "conv": "zh-cn:屏幕; zh-tw:螢幕;"
     },
     {
       "original": "screen capture",
@@ -481,15 +489,15 @@
     },
     {
       "original": "top screen",
-      "conv": "上屏=>zh-tw:上螢幕; 上屏=>zh-hk:上熒幕; 上屏=>zh-mo:上熒幕;"
+      "conv": "上屏=>zh-tw:上螢幕; 上屏=>zh-hk:上螢幕; 上屏=>zh-mo:上螢幕;"
     },
     {
       "original": "top screen",
-      "conv": "zh-cn:上屏幕; zh-tw:上螢幕; zh-hk:上熒幕;"
+      "conv": "zh-cn:上屏幕; zh-tw:上螢幕;"
     },
     {
       "original": "touchscreen",
-      "conv": "zh-cn:触摸屏; zh-hk:輕觸式熒幕; zh-tw:觸控螢幕;"
+      "conv": "zh-cn:触摸屏; zh-tw:觸控螢幕;"
     },
     {
       "original": "touchscreen",
@@ -497,11 +505,11 @@
     },
     {
       "original": "touchscreen",
-      "conv": "触控屏=>zh-hk:輕觸式熒幕; 触控屏=>zh-mo:輕觸式熒幕; 触控屏=>zh-tw:觸控螢幕;"
+      "conv": "触控屏=>zh-hk:輕觸式螢幕; 触控屏=>zh-mo:輕觸式螢幕; 触控屏=>zh-tw:觸控螢幕;"
     },
     {
       "original": "widescreen",
-      "conv": "zh-cn:宽屏; zh-tw:寬螢幕; zh-tw:寬熒幕;"
+      "conv": "zh-cn:宽屏; zh-tw:寬螢幕;"
     },
     {
       "original": "8-bit computer",
@@ -1036,6 +1044,10 @@
       "conv": "zh-cn:禁闭求生; zh-tw:微小世界生存戰;"
     },
     {
+      "original": "Hades",
+      "conv": "zh-cn:哈迪斯; zh-hk:哈帝斯; zh-tw:黑帝斯;"
+    },
+    {
       "original": "Heavenly Sword",
       "conv": "zh-cn:天剑; zh-tw:玄天神劍;"
     },
@@ -1121,7 +1133,7 @@
     },
     {
       "original": "Silent Hill",
-      "conv": "zh-cn:寂静岭; zh-tw:沉默之丘; zh-hk:鬼魅山房;"
+      "conv": "zh-cn:寂静岭; zh-sg:沉默之丘; zh-tw:沉默之丘; zh-hk:鬼魅山房;"
     },
     {
       "original": "Sleeping Dogs",
@@ -2033,7 +2045,7 @@
     },
     {
       "original": "Call of Duty",
-      "conv": "zh-cn:使命召唤; zh-tw:決勝時刻; zh-hk:使命召喚;"
+      "conv": "zh-cn:使命召唤; zh-tw:決勝時刻; zh-hk:決勝時刻;"
     },
     {
       "original": "Advanced Warfare",
@@ -2273,7 +2285,7 @@
     },
     {
       "original": "Army of Two: The Devil Cartel",
-      "conv": "zh-cn:：战地双雄：恶魔联盟; zh-tw:無間特攻：非法涉入;"
+      "conv": "zh-cn:战地双雄：恶魔联盟; zh-tw:無間特攻：非法涉入;"
     },
     {
       "original": "BioShock Infinite",

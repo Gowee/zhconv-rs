@@ -21,7 +21,7 @@
     },
     {
       "original": "barquillo",
-      "conv": "zh-tw:蛋捲;zh-hk:雞蛋卷;zh-cn:鸡蛋卷;"
+      "conv": "zh-tw:蛋捲;zh-hk:蛋卷;zh-cn:蛋卷;"
     },
     {
       "original": "black forest gateau",
@@ -57,7 +57,7 @@
     },
     {
       "original": "cupcake",
-      "conv": "zh-cn:杯子蛋糕;zh-tw:杯子蛋糕;zh-hk:紙杯蛋糕;zh-sg:纸杯蛋糕;"
+      "conv": "zh-cn:纸杯蛋糕;zh-tw:杯子蛋糕;zh-hk:紙杯蛋糕;zh-sg:纸杯蛋糕;"
     },
     {
       "original": "dessert",
@@ -101,7 +101,7 @@
     },
     {
       "original": "omelette",
-      "conv": "zh:欧姆蛋;zh-hans:西式蛋饼;zh-hant:西式蛋餅;zh-tw:歐姆蛋;zh-hk:奄列;zh-sg:杏力蛋;"
+      "conv": "zh:欧姆蛋;zh-hans:煎蛋卷;zh-hant:歐姆蛋;zh-tw:歐姆蛋;zh-hk:奄列;zh-sg:杏力蛋;"
     },
     {
       "original": "pancake",
@@ -400,6 +400,10 @@
       "conv": "zh-cn:味美思;zh-tw:香艾酒;zh-hk:威末酒;"
     },
     {
+      "original": "Mojito",
+      "conv": "zh-cn:莫吉托;zh-tw:莫希托;"
+    },
+    {
       "original": "dry vermouth",
       "conv": "zh-cn:干味美思;zh-tw:乾香艾酒;zh-hk:乾威末酒;"
     },
@@ -409,7 +413,7 @@
     },
     {
       "original": "martini",
-      "conv": "zh-cn:马天尼;zh-tw:馬丁尼;zh-hk:馬天尼;"
+      "conv": "zh-cn:马提尼;zh-tw:馬丁尼;zh-hk:馬天尼;"
     },
     {
       "original": "cendol",
@@ -498,6 +502,10 @@
     {
       "original": "Hardees",
       "conv": "zh-hans:哈迪斯;zh-hant:哈迪斯;zh-tw:哈帝漢堡;"
+    },
+    {
+      "original": "Cheeseburger",
+      "conv": "zh-cn:芝士汉堡;zh-hk:起司堡;zh-tw:起司漢堡;"
     },
     {
       "original": "avocado",
@@ -1037,7 +1045,7 @@
     },
     {
       "original": "disposable",
-      "conv": "zh-cn:一次性;zh-tw:抛棄式;zh-hk:即棄;zh-sg:用后即丢;"
+      "conv": "zh-cn:一次性;zh-tw:拋棄式;zh-hk:即棄;zh-sg:用后即丢;"
     },
     {
       "original": "disposable",

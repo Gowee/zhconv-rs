@@ -59,6 +59,7 @@ pub fn get_enabled_target_variants() -> Option<String> {
 /// If `wikitext` is `True`, inline conversion rules such as `-{foo...bar}-` are parsed.
 /// `rules` should be line-seperated in MediaWiki syntax without -{ or }- tags, like
 /// `zh-hans:鹿; zh-hant:馬`.
+/// Rules removing entries from built-in tables are not supported and are silently ignored.
 #[wasm_bindgen]
 pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<String>) -> String {
     console_error_panic_hook::set_once();

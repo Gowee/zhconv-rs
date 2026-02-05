@@ -196,6 +196,18 @@
       "conv": "莊遜=>zh-cn:约翰逊; 莊遜=>zh-hk:詹森; 莊遜=>zh-tw:詹森;"
     },
     {
+      "original": "Millard",
+      "conv": "zh-hans:米勒德; zh-hant:米拉德;"
+    },
+    {
+      "original": "Johnson",
+      "conv": "zh-hans:菲尔莫尔; zh-hant:菲爾莫爾; zh-hk:菲摩; zh-tw:費爾摩;"
+    },
+    {
+      "original": "Polk",
+      "conv": "zh-cn:波尔克; zh-hk:波爾克; zh-tw:波克;"
+    },
+    {
       "original": "Thomas",
       "conv": "zh-cn:托马斯;zh-tw:湯瑪斯;zh-hk:湯瑪士;"
     },
@@ -210,10 +222,6 @@
     {
       "original": "Blumenthal",
       "conv": "zh-hans:布卢门撒尔;zh-tw:布魯蒙索;zh-hk:布魯門薩爾;"
-    },
-    {
-      "original": "John Boehner",
-      "conv": "zh-hans:博纳;zh-tw:貝納;zh-hk:博納;"
     },
     {
       "original": "Boozman",
@@ -249,7 +257,7 @@
     },
     {
       "original": "Carper",
-      "conv": "zh-hans:卡珀;zh-hant:卡波;"
+      "conv": "zh-hans:卡珀;zh-hant:卡珀;zh-tw:卡伯;"
     },
     {
       "original": "Liz Cheney",
@@ -265,15 +273,15 @@
     },
     {
       "original": "Cornyn",
-      "conv": "zh-hans:科宁;zh-hant:康寧;"
+      "conv": "zh-hans:科宁;zh-tw:柯寧;zh-hant:科寧;"
     },
     {
       "original": "Cory",
-      "conv": "zh-hans:科里;zh-hant:柯瑞;"
+      "conv": "zh-hans:科里;zh-tw:柯瑞;"
     },
     {
       "original": "Tom Cotton",
-      "conv": "zh-hans:科顿;zh-tw:柯頓;zh-hk:卡頓;"
+      "conv": "zh-hans:科顿;zh-tw:柯頓;zh-hant:科頓;"
     },
     {
       "original": "Crapo",
@@ -300,24 +308,8 @@
       "conv": "zh-cn:道格·埃姆霍夫;zh-sg:任德龙;zh-my:任德龙;zh-tw:任德龍;"
     },
     {
-      "original": "Tammy Duckworth",
-      "conv": "zh-hans:塔米·达克沃思;zh-hant:譚美·達克沃斯;"
-    },
-    {
-      "original": "Tammy",
-      "conv": "zh-hans:塔米;zh-hant:譚美;"
-    },
-    {
-      "original": "Tammy",
-      "conv": "谭美=>zh-cn:塔米;谭美=>zh-my:塔米;谭美=>zh-sg:塔米;"
-    },
-    {
       "original": "Duckworth",
-      "conv": "zh-hans:达克沃思;zh-hant:達克沃斯;"
-    },
-    {
-      "original": "Duckworth",
-      "conv": "达克沃斯=>zh-cn:达克沃思;达克沃斯=>zh-my:达克沃思;达克沃斯=>zh-sg:达克沃思;"
+      "conv": "zh-hans:达克沃思;zh-hant:達克沃思;zh-tw:達克沃絲;"
     },
     {
       "original": "Joni Ernst",
@@ -412,16 +404,8 @@
       "conv": "zh-hans:金津格;zh-hant:金辛格;"
     },
     {
-      "original": "Amy Klobuchar",
-      "conv": "zh-hans:埃米·克洛布彻;zh-hant:艾米·克羅布徹;"
-    },
-    {
-      "original": "Amy Klobuchar",
-      "conv": "艾米·克罗布彻=>zh-cn:埃米·克洛布彻;艾米·克罗布彻=>zh-my:埃米·克洛布彻;艾米·克罗布彻=>zh-sg:埃米·克洛布彻;"
-    },
-    {
       "original": "Klobuchar",
-      "conv": "zh-hans:克洛布彻;zh-hant:克羅布徹;"
+      "conv": "zh-hans:克洛布查尔;zh-hant:克洛布查爾;zh-tw:克羅布查;"
     },
     {
       "original": "Ben Ray Luján",
@@ -477,11 +461,7 @@
     },
     {
       "original": "McSally",
-      "conv": "zh-hans:麦克萨利;zh-hant:麥薩利;"
-    },
-    {
-      "original": "McSally",
-      "conv": "麦萨利=>zh-cn:麦克萨利;麦萨利=>zh-my:麦克萨利;麦萨利=>zh-sg:麦克萨利;"
+      "conv": "zh-hans:麦克萨利;zh-hant:麥克薩利;zh-tw:麥莎莉"
     },
     {
       "original": "Menendez",
@@ -592,16 +572,12 @@
       "conv": "希尼玛=>zh-cn:西内马;希尼玛=>zh-my:西内马;希尼玛=>zh-sg:西内马;希尼玛=>zh-tw:席納瑪;希尼玛=>zh-hk:席納瑪;希尼玛=>zh-mo:席納瑪;"
     },
     {
-      "original": "Stabenow",
-      "conv": "zh-hans:施塔贝诺;zh-hant:史戴比拿;"
-    },
-    {
       "original": "Dan Sullivan",
       "conv": "zh-hans:沙利文;zh-tw:蘇利文;zh-hk:沙利文;"
     },
     {
       "original": "Tester",
-      "conv": "zh-hans:特斯特;zh-hant:泰斯塔;"
+      "conv": "zh-hans:特斯特;zh-hant:特斯特;zh-tw:泰斯特;"
     },
     {
       "original": "Tillis",

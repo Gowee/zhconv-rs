@@ -497,7 +497,7 @@
     },
     {
       "original": "Cape Verde",
-      "conv": "zh-cn:佛得角;zh-hk:維德角;zh-tw:維德角;"
+      "conv": "zh-cn:佛得角;zh-hk:佛得角;zh-tw:維德角;"
     },
     {
       "original": "Caracas",
@@ -689,7 +689,15 @@
     },
     {
       "original": "Delft",
-      "conv": "zh-hans:代尔夫特;zh-hk:代爾夫特;zh-tw:臺夫特;"
+      "conv": "zh-hans:代尔夫特; zh-hk:代爾夫特; zh-tw:臺夫特"
+    },
+    {
+      "original": "Delft",
+      "conv": "台夫特=>zh-hans:代尔夫特; 台夫特=>zh-hk:代爾夫特; 台夫特=>zh-tw:臺夫特"
+    },
+    {
+      "original": "Delft",
+      "conv": "德夫特=>zh-hans:代尔夫特; 德夫特=>zh-hk:代爾夫特; 德夫特=>zh-tw:臺夫特"
     },
     {
       "original": "Dibër",
@@ -1752,6 +1760,10 @@
       "conv": "昆士蘭省=>zh-cn:昆士兰州;昆士蘭省=>zh-my:昆士兰州;昆士蘭省=>zh-sg:昆士兰州;昆士蘭省=>zh-tw:昆士蘭州;昆士蘭省=>zh-hk:昆士蘭州;昆士蘭省=>zh-mo:昆士蘭州;"
     },
     {
+      "original": "Qashqadaryo",
+      "conv": "zh-cn:卡什卡达里亚;zh-tw:卡什卡達里亞;"
+    },
+    {
       "original": "Ramallah",
       "conv": "zh-cn:拉姆安拉;zh-tw:拉馬拉;"
     },
@@ -2190,6 +2202,10 @@
     {
       "original": "St.Helena",
       "conv": "zh-cn:圣赫勒拿;zh-hk:聖海倫娜;zh-tw:聖赫勒拿;"
+    },
+    {
+      "original": "St.Michael",
+      "conv": "zh:聖邁克爾; zh-cn:圣迈克尔; zh-hk:聖米高; zh-tw:聖麥可;"
     },
     {
       "original": "Sucre",

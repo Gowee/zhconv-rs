@@ -80,6 +80,10 @@
       "conv": "zh-cn:元分析; zh-tw:統合分析;"
     },
     {
+      "original": "Out-of-hospital cardiac arrest",
+      "conv": "zh-cn:到院前心肺功能停止; zh-tw:院外心臟停止;"
+    },
+    {
       "original": "esophagus",
       "conv": "zh-cn:食管; zh-tw:食道;"
     },
@@ -216,6 +220,10 @@
       "conv": "zh-hans:泰乐菌素; zh-hant:泰黴素;"
     },
     {
+      "original": "primaquine",
+      "conv": "zh-hans:伯氨喹; zh-tw:普來馬奎寧; zh-hk:伯氨喹;"
+    },
+    {
       "original": "acetaminophen",
       "conv": "zh-hans:对乙酰氨基酚; zh-hant:乙醯胺酚;"
     },
@@ -340,8 +348,16 @@
       "conv": "zh-cn:内窥镜; zh-tw:內視鏡;"
     },
     {
+      "original": "Ames test",
+      "conv": "zh-cn:埃姆斯试验; zh-hk:安姆氏試驗; zh-tw:艾美氏試驗;"
+    },
+    {
       "original": "Hantavirus",
       "conv": "zh-hans:汉坦病毒; zh-hant:漢他病毒;"
+    },
+    {
+      "original": "Nipah virus",
+      "conv": "zh-cn:尼帕病毒; zh-tw:立百病毒; zh-hk:尼帕病毒; zh-sg:立百病毒;"
     },
     {
       "original": "Zika virus",
@@ -354,6 +370,30 @@
     {
       "original": "SARS-CoV-2",
       "conv": "zh:严重急性呼吸系统综合征冠状病毒2;zh-cn:严重急性呼吸综合征冠状病毒2;zh-hk:嚴重急性呼吸綜合症冠狀病毒2型;zh-tw:嚴重急性呼吸道症候群冠狀病毒2型;"
+    },
+    {
+      "original": "human immunodeficiency virus disease",
+      "conv": "zh-cn:人类免疫缺陷病毒; zh-hk:人類免疫力缺乏病毒; zh-tw:人類免疫缺乏病毒;"
+    },
+    {
+      "original": "glycogen storage disease",
+      "conv": "zh-cn:糖原贮积症; zh-hk:糖原貯積症; zh-tw:肝糖儲積症;"
+    },
+    {
+      "original": "pseudorabies",
+      "conv": "zh-cn:伪狂犬病; zh-hk:假性狂犬病; zh-tw:假性狂犬病;"
+    },
+    {
+      "original": "Syndrome",
+      "conv": "zh-tw:症候群; zh-hk:綜合症; zh-cn:综合征; zh-sg:综合症;"
+    },
+    {
+      "original": "AIDS",
+      "conv": "zh-cn:艾滋病; zh-hk:愛滋病; zh-sg:爱之病; zh-tw:愛滋病; zh-my:爱滋病;"
+    },
+    {
+      "original": "acquired immunodeficiency syndrome",
+      "conv": "zh-cn:获得性免疫缺陷综合征; zh-tw:後天免疫缺乏症候群; zh-hk:後天免疫力缺乏症;"
     },
     {
       "original": "symptom",
@@ -686,6 +726,18 @@
     {
       "original": null,
       "conv": "zh-hans:制绒; zh-hant:製絨;"
+    },
+    {
+      "original": "emergency",
+      "conv": "zh-cn:急诊; zh-hk:急症; zh-tw:急診;"
+    },
+    {
+      "original": "intensive care unit",
+      "conv": "zh:重症監護室;zh-cn:重症监护室;zh-hk:深切治療部;zh-tw:加護病房;zh-my:加护病房;zh-sg:加护病房;"
+    },
+    {
+      "original": "pharmacy",
+      "conv": "zh-cn:藥局;zh-tw:藥局;zh-hk:藥房;"
     },
     {
       "original": "Johnson & Johnson",

@@ -109,23 +109,23 @@
     },
     {
       "original": "Massachusetts",
-      "conv": "馬薩諸塞州=>zh-tw:麻薩諸塞州;馬薩諸塞州=>zh-hk:麻省;馬薩諸塞州=>zh-mo:麻省;"
+      "conv": "馬薩諸塞州=>zh-cn:马萨诸塞州;zh-sg:马萨诸塞州;zh-my:马萨诸塞州;zh-mo:麻省;zh-hk:麻省;zh-mo:麻省;zh-tw:麻薩諸塞州;"
     },
     {
       "original": "Massachusetts",
-      "conv": "麻萨诸塞州=>zh-cn:马萨诸塞州;zh-sg:马萨诸塞州;zh-my:马萨诸塞州;zh-hk:麻省;zh-mo:麻省;"
+      "conv": "麻萨诸塞州=>zh-cn:马萨诸塞州;zh-sg:马萨诸塞州;zh-my:马萨诸塞州;zh-mo:麻省;zh-hk:麻省;zh-mo:麻省;zh-tw:麻薩諸塞州;"
     },
     {
       "original": "Massachusetts",
-      "conv": "麻州=>zh-cn:马萨诸塞州;zh-sg:马萨诸塞州;zh-my:马萨诸塞州;zh-hk:麻省;zh-mo:麻省;"
+      "conv": "麻州=>zh-mo:麻省;zh-hk:麻省;zh-tw:麻州;"
     },
     {
       "original": "Massachusetts",
-      "conv": "马萨诸塞=>zh-tw:麻薩諸塞;zh-hk:麻省;zh-mo:麻省;"
+      "conv": "马萨诸塞=>zh-cn:马萨诸塞;zh-sg:马萨诸塞;zh-my:马萨诸塞;zh-mo:麻省;zh-hk:麻省;zh-mo:麻省;zh-tw:麻薩諸塞;"
     },
     {
       "original": "Massachusetts",
-      "conv": "麻薩諸塞=>zh-cn:马萨诸塞;zh-sg:马萨诸塞;zh-my:马萨诸塞;zh-hk:麻省;zh-mo:麻省;"
+      "conv": "麻薩諸塞=>zh-cn:马萨诸塞;zh-sg:马萨诸塞;zh-my:马萨诸塞;zh-mo:麻省;zh-hk:麻省;zh-mo:麻省;zh-tw:麻薩諸塞;"
     },
     {
       "original": "Michigan",
@@ -321,7 +321,7 @@
     },
     {
       "original": "Providence",
-      "conv": "zh-cn:普罗维登斯; zh-tw:普洛維登斯;"
+      "conv": "zh-cn:普罗维登斯; zh-tw:普洛威頓斯; zh-hant:普羅維登斯;"
     },
     {
       "original": "Raleigh, North Carolina",
@@ -554,6 +554,10 @@
     {
       "original": "Denali",
       "conv": "zh-hant:迪納利;zh-cn:迪纳利;zh-hk:迪那利;zh-tw:德納利;"
+    },
+    {
+      "original": "Dickinson",
+      "conv": "zh-hant:迪金森; zh-hans:狄金森; zh-tw:狄金生; zh-hk:狄金森;"
     },
     {
       "original": "Durham, North Carolina",
@@ -856,12 +860,20 @@
       "conv": "zh-hans: 尼亚加拉瀑布; zh-hant:尼加拉大瀑布; zh-hk:尼亞加拉大瀑布;"
     },
     {
+      "original": "Nicaragua",
+      "conv": "zh-hans: 尼加拉瓜; zh-hant:尼加拉瓜; zh-hk:尼加拉瓜;"
+    },
+    {
       "original": "Oʻahu",
       "conv": "zh-hans:瓦胡岛;zh-tw:歐胡島;zh-hk:瓦胡島;"
     },
     {
       "original": "Oʻahu",
       "conv": "欧胡岛=>zh-cn:瓦胡岛;欧胡岛=>zh-sg:瓦胡岛;欧胡岛=>zh-my:瓦胡岛;欧胡岛=>zh-hk:瓦胡島;欧胡岛=>zh-mo:瓦胡島;"
+    },
+    {
+      "original": "OʻHare",
+      "conv": "zh-hans:奥黑尔; zh-hant:奧黑爾; zh-tw:歐海爾;"
     },
     {
       "original": "Oakland",
@@ -1010,6 +1022,10 @@
     {
       "original": "St. Louis",
       "conv": "zh-hans:圣路易斯;zh-tw:聖路易;zh-hk:聖路易斯;"
+    },
+    {
+      "original": "Stark",
+      "conv": "zh-cn:斯塔克; zh-tw:史塔克; zh-hk:史達;"
     },
     {
       "original": "Stirling",

@@ -377,11 +377,7 @@
     },
     {
       "original": "Buttigieg",
-      "conv": "zh-cn:布蒂吉格;zh-tw:布塔朱吉;zh-hk:砵得智;"
-    },
-    {
-      "original": "Buttigieg",
-      "conv": "布塔加智=>zh-cn:布蒂吉格;布塔加智=>zh-my:布蒂吉格;布塔加智=>zh-sg:布蒂吉格;布塔加智=>zh-tw:布塔朱吉;布塔加智=>zh-hk:砵得智;布塔加智=>zh-mo:砵得智;"
+      "conv": "zh-hans:布蒂吉格;zh-tw:布塔朱吉;zh-hant:布蒂吉格;"
     },
     {
       "original": "C. Ronaldo",
@@ -617,7 +613,7 @@
     },
     {
       "original": "David",
-      "conv": "zh:戴维·;zh-hant:大衛·; 戴维·=>zh-my:大卫·;"
+      "conv": "zh-hans:戴维;zh-hant:大衛;zh:大卫;"
     },
     {
       "original": "da Silva",
@@ -677,7 +673,11 @@
     },
     {
       "original": "Deutch",
-      "conv": "zh-cn:达奇;zh-tw:德區;zh-hk:德芝;"
+      "conv": "zh-cn:达奇;zh-hk:德芝;"
+    },
+    {
+      "original": "Deutch",
+      "conv": "达奇=>zh-tw:德區; 德芝=>zh-tw:德區;"
     },
     {
       "original": "Didier",
@@ -1109,7 +1109,7 @@
     },
     {
       "original": "Guterres",
-      "conv": "zh-hans:古特雷斯;zh-hk:古特雷斯;zh-tw:古特瑞斯;"
+      "conv": "zh-cn:古特雷斯;zh-tw:古特瑞斯;zh-mo:古德禮;"
     },
     {
       "original": "Hadji",
@@ -1190,10 +1190,6 @@
     {
       "original": "Higgins",
       "conv": "zh-hans:希金斯;zh-hant:希金斯;zh-hk:希堅斯;"
-    },
-    {
-      "original": "Highmore",
-      "conv": "zh-cn:海默;zh-tw:海默;zh-hk:夏摩亞;"
     },
     {
       "original": "Highmore",
@@ -1429,7 +1425,7 @@
     },
     {
       "original": "Jonathan",
-      "conv": "zh-cn:乔纳森; zh-tw:強納生; zh-hk:莊拿芬;"
+      "conv": "zh:喬納森; zh-cn:乔纳森; zh-tw:強納生; zh-hk:莊拿芬;"
     },
     {
       "original": "Jordan",
@@ -1676,6 +1672,10 @@
       "conv": "zh-cn:马克龙; zh-hk:馬克龍; zh-tw:馬克宏;"
     },
     {
+      "original": "Makarezos",
+      "conv": "zh-cn:马卡雷佐斯;zh-hk:馬卡雷佐斯;zh-tw:馬卡瑞藻斯;"
+    },
+    {
       "original": "Makélélé",
       "conv": "zh-cn:马克莱莱; zh-hk:馬基利尼; zh-tw:馬克萊萊;"
     },
@@ -1861,7 +1861,7 @@
     },
     {
       "original": "Mike",
-      "conv": "zh-cn:迈克;zh-tw:麥克;zh-hk:米克;"
+      "conv": "zh-hans:迈克·;zh-tw:麥克·;zh-hk:米克·;"
     },
     {
       "original": "Mikhail",
@@ -2053,7 +2053,7 @@
     },
     {
       "original": "Pellegrini",
-      "conv": "zh-cn:佩列格里尼;zh-hk:柏歷堅尼;zh-my:佩莱格里尼;zh-sg:佩莱格里尼;zh-tw:佩萊格里尼;"
+      "conv": "zh-hans:佩莱格里尼;zh-hk:柏歷堅尼;zh-hant:佩萊格里尼;"
     },
     {
       "original": "Penélope",
@@ -2205,15 +2205,15 @@
     },
     {
       "original": "Richelieu",
-      "conv": "zh-hans:黎塞留;zh-hant:黎希留;"
+      "conv": "zh-hans:黎塞留;zh-hant:黎塞留;"
     },
     {
       "original": "Richelieu",
-      "conv": "zh:黎胥留;zh-hans:黎塞留;zh-hant:黎希留;"
+      "conv": "zh:黎胥留;zh-hans:黎塞留;zh-hant:黎塞留;"
     },
     {
       "original": "Richelieu",
-      "conv": "zh:黎须留;zh-hans:黎塞留;zh-hant:黎希留;"
+      "conv": "zh:黎须留;zh-hans:黎塞留;zh-hant:黎塞留;"
     },
     {
       "original": "Risdon",
@@ -2322,6 +2322,10 @@
     {
       "original": "Rui Costa",
       "conv": "zh-cn:鲁伊·科斯塔;zh-hk:雷·哥斯達;zh-tw:魯伊·科斯塔;"
+    },
+    {
+      "original": "Rush",
+      "conv": "zh-cn:拉什; zh-hk:勒殊; zh-tw:拉許;"
     },
     {
       "original": "Rustem",
@@ -2516,8 +2520,12 @@
       "conv": "zh-cn:史蒂夫; zh-tw:史蒂夫; zh-hk:史提夫;"
     },
     {
-      "original": "Stephen/Steven",
-      "conv": "zh-cn:斯蒂芬; zh-my:史蒂芬; zh-tw:史蒂芬; zh-hk:史提芬;"
+      "original": "Stephen",
+      "conv": "zh-cn:斯蒂芬;zh-tw:史蒂芬;zh-hk:史提芬"
+    },
+    {
+      "original": "Steven",
+      "conv": "史蒂芬=>zh-cn:史蒂文; 史蒂芬=>zh-hk:史提芬"
     },
     {
       "original": "Stewart/Stuart",
@@ -2582,6 +2590,10 @@
     {
       "original": "Stirling",
       "conv": "史特林=>zh-cn:斯特林;史特林=>zh-sg:斯特林;史特林=>zh-hk:士他令;史特林=>zh-mo:士他令;史特林=>zh-tw:史特靈;"
+    },
+    {
+      "original": "Stockton",
+      "conv": "zh-hans:斯托克顿; zh-hant:斯托克頓; zh-hk:史托頓; zh-tw:史塔克頓;"
     },
     {
       "original": "Stoltenberg",

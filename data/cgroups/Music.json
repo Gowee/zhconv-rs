@@ -53,7 +53,7 @@
     },
     {
       "original": "Bishop",
-      "conv": "zh:畢夏普;zh-cn:毕晓普;zh-tw:畢曉普;zh-hk:比索;"
+      "conv": "zh:畢夏普;zh-cn:毕晓普;zh-tw:畢曉普;zh-hk:比索;}--{-|比索"
     },
     {
       "original": "Bishop",
@@ -72,12 +72,20 @@
       "conv": "zh-hans:鲍罗丁;zh-hant:鮑羅定;"
     },
     {
-      "original": "Boulez",
-      "conv": "zh-hans:布列兹;zh-hant:布萊茲;"
+      "original": "Pierre Boulez",
+      "conv": "zh-hans:皮埃尔·布列兹;zh-hant:皮耶·布萊茲;"
     },
     {
-      "original": "Brahms",
-      "conv": "zh-cn:勃拉姆斯;zh-tw:布拉姆斯;"
+      "original": "Pierre Boulez",
+      "conv": "zh-hans:布萊茲;zh-cn:布列兹;zh-tw:布萊茲;zh-hk:布萊茲;"
+    },
+    {
+      "original": "Johannes Brahms",
+      "conv": "zh-tw:約翰尼斯·布拉姆斯;zh-cn:约翰内斯·勃拉姆斯;"
+    },
+    {
+      "original": "Johannes Brahms",
+      "conv": "zh-cn:勃拉姆斯;zh-hk:布拉姆斯;zh-tw:布拉姆斯;"
     },
     {
       "original": "Britten",
@@ -92,12 +100,20 @@
       "conv": "zh-hans:费卢西奥·布索尼;zh-hant:費魯喬·布梭尼;"
     },
     {
+      "original": "Ferruccio Busoni",
+      "conv": "zh-hans:布索尼;zh-hant:布梭尼;"
+    },
+    {
       "original": "Celibidache",
       "conv": "zh-hans:切利比达克;zh-hant:傑利畢達克;"
     },
     {
+      "original": "Emmanuel Chabrier",
+      "conv": "zh-hans:埃马纽埃尔·夏布里埃;zh-hant:艾曼紐·夏布里耶;"
+    },
+    {
       "original": "Charpentier",
-      "conv": "zh-cn:夏庞蒂埃;zh-tw:夏邦提耶;"
+      "conv": "zh-cn:夏庞蒂埃;zh-tw:夏邦提耶;zh-hk:夏邦泰耶;"
     },
     {
       "original": "Chopin",
@@ -124,7 +140,11 @@
       "conv": "zh-cn:达律斯;zh-tw:大流士;zh-hk:戴流士;"
     },
     {
-      "original": "Debussy",
+      "original": "Claude Debussy",
+      "conv": "zh-cn:克洛德·德彪西;zh-hk:克勞德·德布西;zh-tw:克勞德·德布西;"
+    },
+    {
+      "original": "Claude Debussy",
       "conv": "zh-cn:德彪西;zh-hk:德布西;zh-tw:德布西;"
     },
     {
@@ -162,6 +182,14 @@
     {
       "original": "Furtwängler",
       "conv": "zh-hans:富特文格勒;zh-hant:福特萬格勒;"
+    },
+    {
+      "original": "Вале́рий Ге́ргиев (Valery Gergiev)",
+      "conv": "zh:瓦列里·捷吉耶夫;zh-cn:瓦列里·捷杰耶夫;zh-sg:瓦列里·格吉耶夫;zh-tw:瓦列里·葛濟夫;zh-hk:華萊里·格爾吉耶夫;"
+    },
+    {
+      "original": "Вале́рий Ге́ргиев (Valery Gergiev)",
+      "conv": "zh:捷吉耶夫;zh-cn:捷杰耶夫;zh-sg:格吉耶夫;zh-tw:葛濟夫;zh-hk:格爾吉耶夫;"
     },
     {
       "original": "Gershwin",
@@ -248,7 +276,11 @@
       "conv": "zh-hans:雅纳切克;zh-hk:楊納傑克;zh-tw:楊納傑克;"
     },
     {
-      "original": "Jansons",
+      "original": "Mariss Jansons",
+      "conv": "zh:馬里斯·楊頌斯;zh-cn:马里斯·扬松斯;zh-sg:马里斯·扬颂斯;zh-tw:馬利斯·楊頌斯;zh-hk:楊遜斯;"
+    },
+    {
+      "original": "Mariss Jansons",
       "conv": "zh:揚頌斯;zh-hans:杨松斯;zh-cn:扬松斯;zh-sg:扬颂斯;zh-tw:楊頌斯;zh-hk:楊遜斯;"
     },
     {
@@ -257,19 +289,27 @@
     },
     {
       "original": "Karlheinz",
-      "conv": "zh-hans:卡尔海因茨;zh-hant:卡爾海因茲;"
+      "conv": "zh:卡爾海因茨;zh-hans:卡尔海因茨;zh-hant:卡爾海因茲;"
     },
     {
-      "original": "Խաչատրյան (Xачатурян, Khachaturian)",
-      "conv": "zh-hans:哈恰图良;zh-hant:哈察都量;"
+      "original": "Արամ Խաչատրյան (Aram Khachaturian)",
+      "conv": "zh:阿拉姆·哈恰圖良;zh-cn:阿拉姆·哈恰图良;zh-tw:阿拉姆·哈察都量;zh-hk:哈察都量;"
     },
     {
-      "original": "Кисин (Kissin)",
-      "conv": "zh-hans:基辛;zh-hant:紀新;"
+      "original": "Արամ Խաչատրյան (Aram Khachaturian)",
+      "conv": "zh:哈恰圖良;zh-cn:哈恰图良;zh-tw:哈察都量;zh-hk:哈察都量;"
+    },
+    {
+      "original": "Евге́ний Ки́син (Evgénij Kísin)",
+      "conv": "zh-hans:叶甫根尼·基辛;zh-tw:艾夫根尼·紀新;zh-hk:祈辛;"
+    },
+    {
+      "original": "Евге́ний Ки́син (Evgénij Kísin)",
+      "conv": "zh-hans:基辛;zh-tw:紀新;zh-hk:祈辛;"
     },
     {
       "original": "Kodály",
-      "conv": "zh-hans:柯达伊;zh-hant:高大宜;"
+      "conv": "zh-cn:柯达伊;zh-tw:柯大宜;zh-hk:高大宜;"
     },
     {
       "original": "Gidon Kremer",
@@ -284,8 +324,20 @@
       "conv": "zh-cn:拉罗;zh-tw:拉羅;"
     },
     {
+      "original": "Lorin Maazel",
+      "conv": "zh:洛林·馬澤爾;zh-cn:洛林·马泽尔;zh-hk:羅倫·馬捷爾;zh-tw:洛林·馬捷爾;"
+    },
+    {
+      "original": "Lorin Maazel",
+      "conv": "zh-hans:马泽尔;zh-hk:馬捷爾;zh-tw:馬捷爾;"
+    },
+    {
       "original": "Mendelssohn",
-      "conv": "zh-cn:门德尔松;zh-tw:孟德爾頌;zh-hk:孟德爾遜;"
+      "conv": "zh:門德爾松;zh-cn:门德尔松;zh-tw:孟德爾頌;zh-hk:孟德爾遜;"
+    },
+    {
+      "original": "Felix Mendelssohn",
+      "conv": "zh:費利克斯·門德爾松;zh-cn:费利克斯·门德尔松;zh-tw:費利克斯·孟德爾頌;zh-hk:費利斯·孟德爾遜;"
     },
     {
       "original": "Yehudi Menuhin",
@@ -296,12 +348,20 @@
       "conv": "zh:梅紐因;zh-cn:梅纽因;zh-tw:曼紐因;zh-hk:曼奴軒;"
     },
     {
-      "original": "Messiaen",
-      "conv": "zh-hans:梅西安;zh-hant:梅湘;"
+      "original": "Olivier Messiaen",
+      "conv": "zh-hans:奥利维埃·梅西安;zh-cn:奥利维耶·梅西安;zh-hk:奧利華·梅湘;zh-tw:奧立佛·梅湘;"
     },
     {
-      "original": "Moszkowski",
-      "conv": "zh-cn:莫什科夫斯基;zh-tw:莫茲可夫斯基;"
+      "original": "Olivier Messiaen",
+      "conv": "zh-cn:梅西安;zh-hk:梅湘;zh-tw:梅湘;"
+    },
+    {
+      "original": "Moritz Moszkowski",
+      "conv": "zh-cn:莫里茨·莫什科夫斯基;zh-tw:莫利斯·莫茲可夫斯基;zh-sg:莫士高夫斯基;zh-hk:莫士高夫斯基;"
+    },
+    {
+      "original": "Moritz Moszkowski",
+      "conv": "zh-cn:莫什科夫斯基;zh-tw:莫茲可夫斯基;zh-sg:莫士高夫斯基;zh-hk:莫士高夫斯基;"
     },
     {
       "original": "Mozart",
@@ -324,6 +384,10 @@
       "conv": "zh-hans:涅特列布科;zh-hk:尼特立哥;zh-tw:涅翠柯;"
     },
     {
+      "original": "Yannick Nézet-Séguin",
+      "conv": "zh-cn:雅尼克·尼泽-塞冈;zh-hk:雅尼克·尼澤-塞甘;zh-tw:亞尼克·聶澤-賽金;"
+    },
+    {
       "original": "Ойстрах (Oistrakh)",
       "conv": "zh-cn:奥伊斯特拉赫;zh-tw:歐伊斯特拉赫;zh-hk:埃爾斯蒂克;"
     },
@@ -338,6 +402,10 @@
     {
       "original": "Itzhak Perlman",
       "conv": "zh-cn:伊扎克·帕尔曼;zh-tw:伊薩克·帕爾曼;zh-hk:以撒·普爾文;"
+    },
+    {
+      "original": "Кирилл Петренко (Kirill Petrenko)",
+      "conv": "zh-hans:基里尔·彼得连科;zh-hant:基里爾·佩特連科;zh-hk:柏廉迦;"
     },
     {
       "original": "Walter Piston",
@@ -361,7 +429,7 @@
     },
     {
       "original": "Simon Rattle",
-      "conv": "zh-hans:西蒙·拉特尔;zh-hant:賽門·拉圖;zh-hk:西門·力圖;"
+      "conv": "zh-hans:西蒙·拉特尔;zh-tw:賽門·拉圖;zh-hk:西門·力圖;"
     },
     {
       "original": "Римский-Корсаков (Rimsky-Korsakov)",
@@ -380,24 +448,24 @@
       "conv": "zh-hans:萨拉萨蒂;zh-tw:薩拉沙泰;zh-tw:薩拉沙蒂;"
     },
     {
-      "original": "Satie",
-      "conv": "zh-hans:萨蒂;zh-hant:薩蒂;zh-tw:薩提;"
+      "original": "Erik Satie",
+      "conv": "zh:埃里克·薩蒂;zh-cn:埃里克·萨蒂;zh-tw:艾瑞克·薩提;zh-hk:艾瑞克·薩替;"
     },
     {
-      "original": "Sawallisch, Wolfgang",
-      "conv": "zh-hans:萨瓦利希;zh-tw:沙瓦利許;"
+      "original": "Erik Satie",
+      "conv": "zh:薩蒂;zh-cn:萨蒂;zh-tw:薩提;zh-hk:薩替;"
     },
     {
-      "original": "Sawallisch",
-      "conv": "萨瓦里希=>zh-tw:沙瓦利許;"
+      "original": "Wolfgang Sawallisch",
+      "conv": "zh-cn:沃尔夫冈·萨瓦利希;zh-tw:沃夫岡·沙瓦利許;zh-hk:沙華利殊;"
+    },
+    {
+      "original": "Wolfgang Sawallisch",
+      "conv": "zh:薩瓦利希;zh-cn:萨瓦利希;zh-tw:沙瓦利許;zh-hk:沙華利殊;"
     },
     {
       "original": "Scarlatti",
       "conv": "zh-cn:斯卡拉蒂;zh-tw:史卡拉第;"
-    },
-    {
-      "original": "Скрябин (Scriabin)",
-      "conv": "zh-cn:斯克里亚宾;zh-tw:史克里亞賓;zh-hk:史加爾亞賓;"
     },
     {
       "original": "Шнитке (Schnittke)",
@@ -408,16 +476,20 @@
       "conv": "zh-cn:阿诺德·勋伯格;zh-tw:阿諾·荀貝格;zh-hk:亞諾·荀伯克;"
     },
     {
-      "original": "Schönberg",
-      "conv": "zh-cn:勋伯格;zh-tw:荀貝格;zh-hk:荀伯克;"
+      "original": "Arnold Schönberg",
+      "conv": "zh:勳伯格;zh-hant:荀白克;zh-cn:勋伯格;zh-tw:荀貝格;zh-hk:荀伯克;"
     },
     {
       "original": "Schütz",
-      "conv": "zh-hans:许茨;zh-hant:舒茲;"
+      "conv": "zh:許茨;zh-cn:许茨;zh-tw:舒茲;zh-hk:舒茨;zh-sg:舒茨;"
     },
     {
       "original": "Schwarzkopf",
-      "conv": "zh:舒瓦兹科普夫;zh-hans:施瓦茨科普夫;zh-tw:舒娃茲柯芙;zh-hk:舒瓦茲柯芙;"
+      "conv": "zh:舒瓦兹科普夫;zh-cn:施瓦茨科普夫;zh-tw:舒娃茲柯芙;zh-hk:舒瓦茲柯芙;"
+    },
+    {
+      "original": "Скрябин (Scriabin)",
+      "conv": "zh:斯克里亞賓;zh-cn:斯克里亚宾;zh-tw:史克里亞賓;zh-hk:史加爾亞賓;"
     },
     {
       "original": "Segerstam",
@@ -425,7 +497,7 @@
     },
     {
       "original": "Шостакович (Shostakovich)",
-      "conv": "zh:肖斯塔科維奇;zh-hant:蕭斯塔科維奇;zh-hans:萧斯塔科维奇;zh-cn:肖斯塔科维奇;zh-tw:蕭士塔高維奇;zh-hk:蕭斯達高維契;"
+      "conv": "zh:蕭斯塔科維奇;zh-hant:蕭士達高維契;zh-hans:肖斯塔科維奇;zh-cn:肖斯塔科维奇;zh-sg:萧斯塔科维奇;zh-tw:蕭士塔高維奇;zh-hk:蕭斯達高維契;"
     },
     {
       "original": "Jean Sibelius",
@@ -437,11 +509,15 @@
     },
     {
       "original": "Sinopoli",
-      "conv": "zh-hans:西诺波利;zh-hant:辛諾波里;"
+      "conv": "zh:西諾波利;zh-hans:西诺波利;zh-hant:辛諾波里;"
     },
     {
-      "original": "Smetana",
-      "conv": "zh-hans:斯美塔那;zh-hant:史麥塔納;"
+      "original": "Bedřich Smetana",
+      "conv": "zh-hans:贝多伊齐·斯美塔那;zh-cn:贝德里赫·斯美塔那;zh-tw:貝多伊齊·史麥塔納;zh-hk:史密塔納;"
+    },
+    {
+      "original": "Bedřich Smetana",
+      "conv": "zh:斯美塔纳;zh-cn:斯美塔那;zh-tw:史麥塔納;zh-hk:史密塔納;"
     },
     {
       "original": "Georg Solti",
@@ -456,23 +532,27 @@
       "conv": "zh:艾薩克·斯特恩;zh-cn:艾萨克·斯特恩;zh-tw:艾薩克·史坦;zh-sg:艾萨克·史坦;zh-hk:艾昔·史頓;"
     },
     {
-      "original": "Stockhausen",
-      "conv": "zh-hans:施托克豪森;zh-hant:史托克豪森;"
+      "original": "Karlheinz Stockhausen",
+      "conv": "zh:卡爾海因茨·施托克豪森;zh-cn:卡尔海因茨·施托克豪森;zh-tw:卡爾海因茲·史托克豪森;"
+    },
+    {
+      "original": "Karlheinz Stockhausen",
+      "conv": "zh:斯托克豪森;zh-cn:施托克豪森;zh-tw:史托克豪森;zh-hk:史托克豪森;"
     },
     {
       "original": "Stradivarius",
-      "conv": "zh-hans:斯特拉迪瓦里;zh-hant:史特拉第瓦里;zh-tw:史特拉底瓦里;"
+      "conv": "zh:史特拉第瓦里;zh-cn:斯特拉迪瓦里;zh-hk:史塔第發利;zh-tw:史特拉底瓦里;"
     },
     {
       "original": "Strauss",
-      "conv": "zh:施特勞斯;zh-cn:施特劳斯;zh-tw:史特勞斯;zh-hk:史特勞斯;"
+      "conv": "zh:施特勞斯;zh-hans:斯特劳斯;zh-cn:施特劳斯;zh-sg:施特劳斯;zh-tw:史特勞斯;zh-hk:史特勞斯;"
     },
     {
       "original": "Richard Strauss",
-      "conv": "zh:理查德·斯特劳斯;zh-hant:理查·施特勞斯;zh-hans:理查·施特劳斯;zh-cn:理查德·施特劳斯;zh-tw:理查·史特勞斯;zh-hk:理察·史特勞斯;"
+      "conv": "zh:理查德·斯特劳斯;zh-hant:理查·施特勞斯;zh-hans:理查德·施特劳斯;zh-cn:理查·施特劳斯;zh-sg:理查德·施特劳斯;zh-tw:理查·史特勞斯;zh-hk:理察·史特勞斯;"
     },
     {
-      "original": "Игорь Фёдорович Стравинский} (Igor Stravinsky)",
+      "original": "Игорь Фёдорович Стравинский (Igor Stravinsky)",
       "conv": "zh:伊戈尔·费奥多罗维奇·斯特拉文斯基;zh-hant:伊戈爾·斯特拉文斯基;zh-cn:伊戈尔·斯特拉文斯基;zh-tw:伊果·史特拉汶斯基;zh-hk:史達拉汶斯基;"
     },
     {
@@ -485,39 +565,55 @@
     },
     {
       "original": "Joan Sutherland",
-      "conv": "zh-hans:琼·萨瑟兰;zh-tw:瓊·蘇莎蘭;"
+      "conv": "zh:瓊·蘇瑟蘭;zh-cn:琼·萨瑟兰;zh-sg:钟·莎特兰;zh-tw:瓊·蘇莎蘭;zh-hk:鍾·修打蘭;"
     },
     {
-      "original": "Sutherland",
-      "conv": "zh-hans:萨瑟兰;zh-tw:蘇莎蘭;"
+      "original": "Joan Sutherland",
+      "conv": "zh-cn:萨瑟兰;zh-sg:莎特兰;zh-tw:蘇莎蘭;zh-hk:修打蘭;"
+    },
+    {
+      "original": "Szymanowski",
+      "conv": "zh:希曼诺夫斯基;zh-hant:席曼諾夫斯基;zh-cn:席曼诺夫斯基;zh-hk:史曼諾夫斯基;zh-tw:齊瑪諾夫斯基;"
     },
     {
       "original": "Kiri Te Kanawa",
-      "conv": "zh-hans:奇里·特·卡娜娃;zh-cn:基里·特·卡纳瓦;zh-hk:奇里·狄卡娜娃;zh-tw:吉莉·黛·卡娜娃;zh-hant:基莉·迪·卡娜娃;"
+      "conv": "zh:奇里·特·卡娜娃;zh-cn:基里·特·卡纳瓦;zh-hk:奇里·狄卡娜娃;zh-tw:吉莉·黛·卡娜娃;zh-sg:姬丽·黛坎艾娃;"
     },
     {
-      "original": "Te Kanawa",
-      "conv": "zh-hans:特·卡娜娃;zh-cn:特·卡纳瓦;zh-hk:狄卡娜娃;zh-tw:黛·卡娜娃;zh-hant:迪·卡娜娃;"
+      "original": "Kiri Te Kanawa",
+      "conv": "zh:特·卡娜娃;zh-cn:特·卡纳瓦;zh-hk:狄卡娜娃;zh-tw:黛·卡娜娃;zh-sg:黛坎艾娃;"
     },
     {
-      "original": "Telemann",
-      "conv": "zh-cn:泰勒曼;zh-tw:泰雷曼;zh-tw:泰利曼;"
+      "original": "Georg Philipp Telemann",
+      "conv": "zh-cn:格奥尔格·菲利普·泰勒曼;zh-tw:格奧爾格·菲利普·泰雷曼;zh-hk:泰利文;"
     },
     {
       "original": "Темирканов, Темыркъан (Temirkanov)",
-      "conv": "zh-hans:捷米尔卡诺夫;zh-hk:捷米爾卡諾夫;zh-tw:泰密卡諾夫;"
+      "conv": "zh:尤里·捷米爾卡諾夫;zh-cn:尤里·捷米尔卡诺夫;zh-sg:尤里·特米尔卡诺夫;zh-tw:尤里·泰密卡諾夫;zh-hk:坦美卡諾夫;zh-mo:尤里·捷米爾卡洛夫;"
+    },
+    {
+      "original": "Темирканов, Темыркъан (Temirkanov)",
+      "conv": "zh:捷米爾卡諾夫;zh-cn:捷米尔卡诺夫;zh-sg:特米尔卡诺夫;zh-tw:泰密卡諾夫;zh-hk:坦美卡諾夫;zh-mo:捷米爾卡洛夫;"
     },
     {
       "original": "Christian Thielemann",
-      "conv": "zh-hans:蒂勒曼;zh-tw:提勒曼;"
+      "conv": "zh-cn:克里斯蒂安·蒂勒曼;zh-tw:克里斯蒂安·提勒曼;zh-sg:克里斯蒂安·泰利曼;zh-mo:泰利曼;zh-hk:菲利曼;"
     },
     {
-      "original": "Villa-Lobos",
-      "conv": "zh-hans:维拉-罗伯斯;zh-tw:維拉-羅伯斯;zh-hk:魏拉-羅伯士;"
+      "original": "Christian Thielemann",
+      "conv": "zh-cn:蒂勒曼;zh-tw:提勒曼;zh-sg:泰利曼;zh-mo:泰利曼;zh-hk:菲利曼;"
+    },
+    {
+      "original": "Heitor Villa-Lobos",
+      "conv": "zh-cn:埃托尔·维拉-洛博斯;zh-sg:维拉-罗伯斯;zh-tw:海托爾·維拉-羅伯斯;zh-hk:魏拉-羅伯士;"
+    },
+    {
+      "original": "Heitor Villa-Lobos",
+      "conv": "zh-cn:维拉-洛博斯;zh-sg:维拉-罗伯斯;zh-tw:維拉-羅伯斯;zh-hk:魏拉-羅伯士;"
     },
     {
       "original": "Vivaldi",
-      "conv": "zh-cn:维瓦尔第;zh-hk:韋華第;zh-tw:韋瓦第;"
+      "conv": "zh:維瓦爾第;zh-cn:维瓦尔第;zh-hk:韋華第;zh-tw:韋瓦第;"
     },
     {
       "original": "Villazón",
@@ -528,24 +624,36 @@
       "conv": "zh:羅蘭多·比利亞松;zh-hans:罗兰多·比利亚松;zh-hk:羅蘭度·維拉臣;zh-tw:羅蘭·費亞松;"
     },
     {
-      "original": "Wagner",
-      "conv": "zh-cn:瓦格纳;zh-hk:華格納;zh-tw:華格納;"
+      "original": "Richard Wagner",
+      "conv": "zh:理查德·瓦格納;zh-hans:里夏德·瓦格纳;zh-hant:理查德·華格納;zh-cn:理查德·瓦格纳;zh-sg:理查·瓦格纳;zh-hk:理察·華格納;zh-tw:理查·華格納;"
+    },
+    {
+      "original": "Richard Wagner",
+      "conv": "zh:瓦格納;zh-cn:瓦格纳;zh-hk:華格納;zh-tw:華格納;"
     },
     {
       "original": "Bruno Walter",
-      "conv": "zh-cn:布努诺·瓦尔特;zh-tw:布魯諾·華爾特;zh-hk:彪洛·華爾特;"
+      "conv": "zh:布魯諾·瓦爾特;zh-hans:布鲁诺·瓦尔特;zh-cn:布努诺·瓦尔特;zh-sg:布鲁诺·华尔特;zh-tw:布魯諾·華爾特;zh-hk:彪洛·華爾特;"
+    },
+    {
+      "original": "Bruno Walter",
+      "conv": "zh:瓦爾特;zh-cn:瓦尔特;zh-sg:华尔特;zh-tw:華爾特;zh-hk:華爾特;"
+    },
+    {
+      "original": "William Walton",
+      "conv": "zh:沃爾頓;zh-cn:沃尔顿;zh-tw:華爾頓;zh-hk:華爾頓;"
     },
     {
       "original": "Webern",
-      "conv": "zh-cn:韦伯恩;zh-tw:魏本;zh-hk:魏本;"
+      "conv": "zh:韋伯恩;zh-cn:韦伯恩;zh-tw:魏本;zh-hk:魏本;"
     },
     {
       "original": "Franz Welser-Möst",
-      "conv": "zh-cn:弗朗茨·威尔瑟-莫斯特;zh-hans:弗朗兹·威尔瑟-莫斯特;zh-hant:弗朗茲·威爾瑟-莫斯特;"
+      "conv": "zh:弗朗茲·威爾瑟-莫斯特;zh-hans:弗朗兹·威尔瑟-莫斯特;zh-cn:弗朗茨·威尔瑟-莫斯特;zh-hk:魏瑟-莫斯特;zh-tw:法蘭茲·魏瑟-莫斯特;"
     },
     {
       "original": "Wieniawski",
-      "conv": "zh-cn:维尼亚夫斯基;zh-tw:維尼奧夫斯基;"
+      "conv": "zh:維尼亞夫斯基;zh-cn:维尼亚夫斯基;zh-tw:維尼奧夫斯基;zh-hk:維尼奧夫斯基;"
     },
     {
       "original": "Vaughan Williams",
@@ -561,19 +669,27 @@
     },
     {
       "original": "Eugène Auguste Ysaÿe",
-      "conv": "zh-cn:欧仁·伊萨伊;zh-hk:尤金·易沙意;zh-tw:尤金·易沙意 "
+      "conv": "zh-cn:欧仁·伊萨伊;zh-hk:尤金·易沙意;zh-tw:尤金·易沙意;"
     },
     {
-      "original": "Zemlinsky",
+      "original": "Eugène Auguste Ysaÿe",
+      "conv": "zh:伊薩伊;zh-cn:伊萨伊;zh-hk:易沙意;zh-tw:易沙意;"
+    },
+    {
+      "original": "Alexander von Zemlinsky",
+      "conv": "zh-cn:亚历山大·冯·策姆林斯基;zh-hk:亞歷山大·哲林斯基;zh-tw:亞歷山大·哲林斯基;"
+    },
+    {
+      "original": "Alexander von Zemlinsky",
       "conv": "zh-cn:策姆林斯基;zh-hk:哲林斯基;zh-tw:哲林斯基;"
     },
     {
-      "original": "Zimerman",
-      "conv": "zh-hans:齐默尔曼;zh-tw:齊瑪曼;zh-hk:齊瑪曼;"
+      "original": "Krystian Zimerman",
+      "conv": "zh-cn:克里斯蒂安·齐默尔曼;zh-tw:克里斯提安·齊瑪曼;zh-hk:齊默曼;"
     },
     {
       "original": "Krystian Zimerman",
-      "conv": "zh-hans:克里斯蒂安·齐默尔曼;zh-tw:克里斯提安·齊瑪曼;zh-hk:克里斯提安·齊瑪曼;"
+      "conv": "zh:齊默爾曼;zh-cn:齐默尔曼;zh-tw:齊瑪曼;zh-hk:齊默曼;"
     },
     {
       "original": "Pinchas Zukerman",
@@ -590,6 +706,10 @@
     {
       "original": "Aerosmith",
       "conv": "zh:空中鐵匠;zh-cn:空中铁匠;zh-sg:史密斯飞船;zh-tw:史密斯飛船;zh-hk:Aerosmith;}--{-|Aerosmith"
+    },
+    {
+      "original": "Against the Current",
+      "conv": "zh-tw:逆流而上樂團;zh-cn:逆流而上乐团;zh-hk:逆流而上樂隊;"
     },
     {
       "original": "Air Supply",
@@ -638,6 +758,10 @@
     {
       "original": "Bee Gees",
       "conv": "zh-tw:比吉斯;zh-cn:比吉斯;zh-hk:比知;zh-sg:比知;}--{-|比知"
+    },
+    {
+      "original": "Big Red Machine",
+      "conv": "zh-hans:大红机器;zh-hant:大紅機器;"
     },
     {
       "original": "The Black Eyed Peas",
@@ -717,7 +841,11 @@
     },
     {
       "original": "Depeche Mode",
-      "conv": "zh-cn:赶时髦;zh-tw:流行尖端;zh-hk:潮流尖端;zh-sg:潮流尖端;"
+      "conv": "zh-cn:赶时髦;zh-tw:流行尖端;zh-hk:滴柏芝舞;zh-sg:潮流尖端;"
+    },
+    {
+      "original": "Dimitri Vegas & Like Mike",
+      "conv": "zh-tw:狄米崔加斯＆愛麥可;zh-cn:比利时兄弟;zh-sg:Dimitri Vegas & Like Mike;zh-hk:Dimitri Vegas & Like Mike;}--{-|Dimitri Vegas & Like Mike"
     },
     {
       "original": "Dire Straits",
@@ -742,6 +870,10 @@
     {
       "original": "The Everly Brothers",
       "conv": "zh-tw:艾佛利兄弟二重唱;zh-cn:埃弗里兄弟;zh-sg:The Everly Brothers;zh-hk:The Everly Brothers;}--{-|The Everly Brothers"
+    },
+    {
+      "original": "Far East Movement",
+      "conv": "zh:遠東韻律;zh-cn:远东韵律;zh-tw:東方聯盟;zh-sg:Far⋆East Movement;zh-hk:Far⋆East Movement;}--{-|Far⋆East Movement"
     },
     {
       "original": "Fifth Harmony",
@@ -780,6 +912,18 @@
       "conv": "zh-cn:绿日乐队;zh-tw:年輕歲月;zh-hk:Green Day;zh-hans:Green Day;}--{-|Green Day"
     },
     {
+      "original": "Haim",
+      "conv": "zh-tw:海慕樂團;zh-cn:海慕乐队;zh-sg:Haim;zh-hk:Haim;}--{-|Haim"
+    },
+    {
+      "original": "Hall & Oates",
+      "conv": "zh:霍尔与奥兹;zh-cn:霍尔與欧茨;zh-tw:霍爾與奧茲;zh-sg:Hall & Oates;zh-hk:Hall & Oates;}--{-|Hall & Oates"
+    },
+    {
+      "original": "Heart",
+      "conv": "zh:紅心樂團;zh-cn:红心乐团;zh-tw:紅心合唱團;zh-hk:Heart;}--{-|Heart"
+    },
+    {
       "original": "Imagine Dragons",
       "conv": "zh:梦龙乐队;zh-cn:梦想之龙乐队;zh-tw:謎幻樂團;zh-hk:Imagine Dragons;zh-sg:Imagine Dragons;}--{-|Imagine Dragons"
     },
@@ -797,11 +941,11 @@
     },
     {
       "original": "Judas Priest",
-      "conv": "zh-hans:犹大圣徒;zh-hant:猶大祭司;"
+      "conv": "zh-cn:犹大圣徒;zh-tw:猶大祭司;zh-sg:Judas Priest;}--{-|Judas Priest"
     },
     {
       "original": "Justice",
-      "conv": "zh-cn:正义乐队;zh-hk:正義樂隊;zh-tw:正義樂團;"
+      "conv": "zh-cn:正义乐队;zh-tw:正義樂團;zh-sg:Justice;zh-hk:Justice;}--{-|Justice"
     },
     {
       "original": "Keane",
@@ -836,8 +980,12 @@
       "conv": "zh-tw:笑本部;zh-hk:LMFAO;}--{-|LMFAO"
     },
     {
+      "original": "Lukas Graham",
+      "conv": "zh:盧卡斯·葛拉漢樂團;zh-tw:盧卡斯葛拉漢樂團;zh-cn:卢卡斯·格拉汉姆乐队;zh-sg:Lukas Graham;zh-hk:Lukas Graham;}--{-|Lukas Graham"
+    },
+    {
       "original": "Madness",
-      "conv": "zh-cn:疯狂乐队;zh-tw:瘋子樂團;zh-hk:Madness;}--{-|Madness"
+      "conv": "zh:瘋狂樂隊;zh-cn:疯狂乐队;zh-tw:瘋子樂團;zh-hk:Madness;}--{-|Madness"
     },
     {
       "original": "Manic Street Preachers",
@@ -846,6 +994,10 @@
     {
       "original": "Maroon 5",
       "conv": "zh-tw:魔力紅;zh-cn:魔力红;zh-hk:Maroon 5;}--{-|Maroon 5"
+    },
+    {
+      "original": "Michael Learns to Rock",
+      "conv": "zh:迈克尔学摇滚;zh-cn:迈克学摇滚;zh-sg:麦克学摇滚;zh-tw:搖滾麥克;zh-hk:米高學搖滾;"
     },
     {
       "original": "The Monkees",
@@ -870,6 +1022,10 @@
     {
       "original": "My Chemical Romance",
       "conv": "zh:我的另类罗曼史;zh-tw:我的另類羅曼史;zh-cn:我的化学浪漫;zh-sg:My Chemical Romance;zh-hk:My Chemical Romance;}--{-|My Chemical Romance"
+    },
+    {
+      "original": "The National",
+      "conv": "zh-cn:国民乐队;zh-tw:國民樂團;zh-hk:國民樂隊;"
     },
     {
       "original": "New Kids on the Block",
@@ -924,6 +1080,10 @@
       "conv": "zh:珍珠果醬樂隊;zh-cn:珍珠果酱乐队;zh-tw:珍珠果醬樂團;zh-sg:Pearl Jam;zh-hk:Pearl Jam;}--{-|Pearl Jam"
     },
     {
+      "original": "Peter, Paul and Mary",
+      "conv": "zh:彼得、保羅和瑪麗;zh-tw:彼得、保羅與瑪麗;zh-hk:彼得、保羅與瑪莉;zh-cn:彼得、保罗和玛丽;"
+    },
+    {
       "original": "Pink Floyd",
       "conv": "zh:平克·佛洛依德;zh-hans:平克弗洛伊德;zh-hant:平克佛洛伊德;zh-cn:平克·弗洛伊德;zh-tw:平克·佛洛伊德;zh-sg:Pink Floyd;zh-hk:Pink Floyd;}--{-|Pink Floyd"
     },
@@ -972,6 +1132,10 @@
       "conv": "zh:羅尼特組合;zh-tw:露提絲合唱團;zh-cn:罗尼特组合;zh-sg:The Ronettes;zh-hk:The Ronettes;}--{-|The Ronettes"
     },
     {
+      "original": "Roxette",
+      "conv": "zh:羅克塞特;zh-cn:罗克塞特;zh-tw:羅克賽;zh-sg:Roxette;zh-hk:Roxette;}--{-|Roxette"
+    },
+    {
       "original": "Scissor Sisters",
       "conv": "zh-tw:剪刀姊妹;zh-cn:剪刀姐妹;zh-sg:Scissor Sisters;zh-hk:Scissor Sisters;}--{-|Scissor Sisters"
     },
@@ -989,7 +1153,7 @@
     },
     {
       "original": "Simon & Garfunkel",
-      "conv": "zh:西蒙和加芬克爾;zh-hans:西蒙与加芬克尔;zh-cn:西蒙和加芬克尔;zh-tw:賽門與葛芬柯;zh-sg:赛门与葛芬柯;zh-hk:Simon & Garfunkel;}--{-|Simon & Garfunkel"
+      "conv": "zh:西蒙和加芬克爾;zh-hans:西蒙与加芬克尔;zh-cn:西蒙和加芬克尔;zh-tw:賽門與葛芬柯;zh-hk:西門與加芬高;zh-sg:西门与加芬高;"
     },
     {
       "original": "Simply Red",
@@ -1020,6 +1184,10 @@
       "conv": "zh-cn:雪地巡游者;zh-tw:雪警樂團;zh-sg:Snow Patrol;zh-hk:Snow Patrol;}--{-|Snow Patrol"
     },
     {
+      "original": "Sonic Youth",
+      "conv": "zh-tw:音速青春;zh-cn:音速青年;zh-sg:Sonic Youth;zh-hk:Sonic Youth;}--{-|Sonic Youth"
+    },
+    {
       "original": "Soundgarden",
       "conv": "zh:聲音花園;zh-cn:声音花园;zh-tw:音園合唱團;zh-sg:Soundgarden;zh-hk:Soundgarden;}--{-|Soundgarden"
     },
@@ -1042,6 +1210,10 @@
     {
       "original": "The Stooges",
       "conv": "zh:丑角合唱团;zh-tw:丑角合唱團;zh-cn:傀儡乐队;zh-sg:The Stooges;zh-hk:The Stooges;}--{-|The Stooges"
+    },
+    {
+      "original": "Suede",
+      "conv": "zh-tw:麂皮;zh-cn:山羊皮;zh-sg:Suede;zh-hk:Suede;}--{-|Suede"
     },
     {
       "original": "Sugarland",
@@ -1084,6 +1256,10 @@
       "conv": "zh-cn:二十一名飞行员;zh-tw:二十一名飛員;zh-sg:Twenty Øne Piløts;zh-hk:Twenty Øne Piløts;"
     },
     {
+      "original": "U2",
+      "conv": "zh:U2乐团;zh-tw:U2樂團;zh-cn:U2乐队;zh-hk:U2樂隊;zh-sg:U2;}--{-|U2"
+    },
+    {
       "original": "The Velvet Underground",
       "conv": "zh:地下絲絨;zh-cn:地下丝绒;zh-tw:非法利益;zh-sg:The Velvet Underground;zh-hk:The Velvet Underground;}--{-|The Velvet Underground}--{-|非法利益"
     },
@@ -1106,6 +1282,14 @@
     {
       "original": "The Who",
       "conv": "zh:誰人樂隊;zh-hans:誰人樂團;zh-hk:誰合唱團;zh-cn:谁人乐队;zh-tw:何許人合唱團;zh-sg:The Who;}--{-|The Who"
+    },
+    {
+      "original": "Within Temptation",
+      "conv": "zh:誘惑本質;zh-cn:诱惑本质;zh-sg:Within Temptation;zh-hk:Within Temptation;}--{-|Within Temptation"
+    },
+    {
+      "original": "Within Temptation",
+      "conv": "誘惑本質=>zh-tw:致命誘惑;诱惑本质;=>zh-tw:致命誘惑;"
     },
     {
       "original": "The Yardbirds",
@@ -1133,7 +1317,7 @@
     },
     {
       "original": "Nessun dorma",
-      "conv": "zh-cn:今夜无人入睡;zh-tw:公主徹夜未眠;zh-hk:公主徹夜未眠;zh-sg:今夜无人入睡;"
+      "conv": "zh:今夜無人入睡;zh-cn:今夜无人入睡;zh-tw:公主徹夜未眠;zh-hk:公主徹夜未眠;"
     },
     {
       "original": "Le nozze di Figaro",
@@ -1176,8 +1360,12 @@
       "conv": "zh-tw:死蕊;zh-cn:死核;"
     },
     {
-      "original": "Disco",
+      "original": "disco",
       "conv": "zh-cn:迪斯科;zh-tw:迪斯可;zh-hk:的士高;"
+    },
+    {
+      "original": "doo-wop",
+      "conv": "zh-cn:嘟·喔普;zh-tw:嘟哇調;zh-hk:都翕;"
     },
     {
       "original": "electronicore",
@@ -1189,15 +1377,23 @@
     },
     {
       "original": "Flamenco",
-      "conv": "zh-cn:弗拉明戈;zh-sg:弗拉明戈;zh-hk:法蘭明歌;zh-tw:佛朗明哥;zh-my:佛朗明哥;"
+      "conv": "zh:弗拉门戈;zh-cn:弗拉明戈;zh-sg:弗拉明戈;zh-hk:法蘭明歌;zh-tw:佛朗明哥;zh-my:佛朗明哥;"
     },
     {
-      "original": "Gothenburg",
+      "original": "gangsta rap",
+      "conv": "zh:匪幫說唱;zh-cn:匪帮说唱;zh-tw:幫派饒舌;zh-sg:帮派饶舌;"
+    },
+    {
+      "original": "gothenburg",
       "conv": "zh-cn:哥德堡;zh-hk:哥德堡;zh-tw:哥特堡;"
     },
     {
-      "original": "Gothic",
+      "original": "gothic",
       "conv": "zh-cn:哥特;zh-tw:哥德;"
+    },
+    {
+      "original": "gothic metal",
+      "conv": "zh:哥特金屬;zh-hant:歌德金屬;zh-hans:哥德金属;zh-tw:哥德金屬;zh-cn:哥特金属;"
     },
     {
       "original": "grunge",
@@ -1221,7 +1417,7 @@
     },
     {
       "original": "oratorio",
-      "conv": "zh-cn:清唱剧;zh-tw:神劇;zh-hk:神劇;"
+      "conv": "zh-hans:清唱剧;zh-hant:神劇;"
     },
     {
       "original": "punk",
@@ -1237,7 +1433,7 @@
     },
     {
       "original": "Rhythm and blues",
-      "conv": "zh:節奏布魯斯;zh-cn:节奏布鲁斯;zh-sg:节奏蓝调;zh-my:节奏蓝调;zh-hk:節奏藍調;zh-tw:節奏藍調;"
+      "conv": "zh:節奏布魯斯;zh-cn:节奏布鲁斯;zh-sg:节奏蓝调;zh-my:节奏蓝调;zh-hk:節奏藍調;zh-tw:節奏藍調;}--{-|节奏蓝调}--{-|節奏藍調"
     },
     {
       "original": "song cycle",
@@ -1257,15 +1453,19 @@
     },
     {
       "original": "Backing Vocal",
-      "conv": "zh-cn:和声;zh-hk:和音;zh-tw:和聲歌手;"
+      "conv": "zh:和声歌手;zh-tw:和聲歌手;zh-cn:和声;zh-hk:和音;zh-sg:和音;"
     },
     {
-      "original": "Bass guitar",
-      "conv": "zh-cn:贝斯吉他;zh-hk:低音結他;zh-tw:貝斯吉他;"
+      "original": "banjo",
+      "conv": "zh-tw:斑鳩琴;zh-cn:班卓琴;zh-hk:班祖琴;"
     },
     {
       "original": "Bass guitar",
       "conv": "zh-cn:贝斯;zh-hk:低音結他;zh-tw:貝斯;"
+    },
+    {
+      "original": "Bass guitar",
+      "conv": "zh-cn:贝斯吉他;zh-hk:低音結他;zh-tw:貝斯吉他;"
     },
     {
       "original": "Bass guitar",
@@ -1326,6 +1526,30 @@
     {
       "original": "Ukulele",
       "conv": "zh-cn:尤克里里;zh-hk:夏威夷小結他;zh-tw:烏克麗麗;zh-my:乌克丽丽;"
+    },
+    {
+      "original": "band",
+      "conv": "zh:摇滚乐团;zh-tw:搖滾樂團;zh-hk:搖滾樂隊;摇滚乐团=>zh-cn:摇滚乐队;"
+    },
+    {
+      "original": "band",
+      "conv": "zh:摇滚乐队;zh-tw:搖滾樂團;zh-hk:搖滾樂隊;搖滾樂團=>zh-cn:摇滚乐队;"
+    },
+    {
+      "original": "band",
+      "conv": "zh:电子乐团;zh-cn:电子乐队;zh-hk:電子樂隊;zh-tw:電子樂團;"
+    },
+    {
+      "original": "band",
+      "conv": "zh-hans:嘻哈乐团;zh-cn:嘻哈乐队;zh-hk:Hip-hop樂隊;zh-tw:嘻哈樂團;"
+    },
+    {
+      "original": "band",
+      "conv": "zh-hans:独立乐团;zh-cn:独立乐队;zh-hk:獨立樂隊;zh-tw:獨立樂團;"
+    },
+    {
+      "original": "punk band",
+      "conv": "zh:朋克樂隊;zh-cn:朋克乐队;zh-sg:庞克乐队;zh-hk:龐克樂隊;zh-tw:龐克樂團;"
     },
     {
       "original": "drum and bugle corps",
@@ -1389,7 +1613,7 @@
     },
     {
       "original": "opera singer",
-      "conv": "zh-hans:歌剧演员;zh-tw:歌劇演唱家;"
+      "conv": "zh:歌劇演員;zh-cn:歌剧演员;zh-tw:歌劇演唱家;"
     },
     {
       "original": "CD",
@@ -1436,6 +1660,14 @@
       "conv": "zh:數字版;zh-cn:数字版;zh-hk:數碼版;zh-tw:數位版;zh-sg:数码版;zh-my:数码版;"
     },
     {
+      "original": "digitally",
+      "conv": "zh:數字方式;zh-cn:数字方式;zh-sg:数码方式;zh-hk:數碼方式;zh-tw:數位方式;"
+    },
+    {
+      "original": "digitally",
+      "conv": "zh:數字形式;zh-cn:数字形式;zh-sg:数码形式;zh-hk:數碼形式;zh-tw:數位形式;"
+    },
+    {
       "original": "extended play",
       "conv": "zh-cn:迷你专辑;zh-hk:細碟;zh-tw:迷你專輯;"
     },
@@ -1448,12 +1680,20 @@
       "conv": "zh-cn:低保真;zh-hk:低傳真;"
     },
     {
+      "original": "streaming",
+      "conv": "zh-cn:流媒量;zh-my:串流量;zh-tw:串流量;"
+    },
+    {
       "original": "streaming media",
       "conv": "zh:流媒體;zh-cn:流媒体;zh-my:串流媒体;zh-tw:串流媒體;"
     },
     {
       "original": "mainstream media",
       "conv": "zh-cn:主流媒体;zh-tw:主流媒體;zh-hk:主流傳媒;"
+    },
+    {
+      "original": "streaming",
+      "conv": "zh:在線流媒體;zh-hant:線上流媒體;zh-cn:在线流媒体;zh-my:线上串流;zh-tw:線上串流;zh-hk:線上串流;"
     },
     {
       "original": "video",
@@ -1529,7 +1769,7 @@
     },
     {
       "original": "Billboard",
-      "conv": "zh-tw:「告示牌;zh-cn:“公告牌》;zh-my:“Billboard;zh-hk:「Billboard;"
+      "conv": "zh-tw:「告示牌;zh-cn:“公告牌;zh-my:“Billboard;zh-hk:「Billboard;"
     },
     {
       "original": "Billboard",
@@ -1604,6 +1844,14 @@
       "conv": "zh:科切拉音樂節;zh-cn:科切拉音乐节;zh-hans:Coachella音乐节;zh-hk:Coachella音樂節;科切拉音樂節=>zh-tw:科切拉音樂節;"
     },
     {
+      "original": "contract",
+      "conv": "zh-cn:合同;zh-tw:契約;zh-hk:合約;zh-sg:合约;"
+    },
+    {
+      "original": "contract",
+      "conv": "合約=>zh-tw:合約;合约;=>zh-tw:合約;"
+    },
+    {
       "original": "Da capo",
       "conv": "zh-cn:返始;zh-tw:反始;"
     },
@@ -1625,15 +1873,15 @@
     },
     {
       "original": "MTV Video Music Awards",
-      "conv": "zh-hans:MTV音乐录影带大奖;zh-hk:MTV音樂短片大獎;zh-tw:MTV音樂錄影帶大獎;"
-    },
-    {
-      "original": "MTV Video Music Awards",
-      "conv": "MTV音乐视频大奖=>zh-hans:MTV音乐录影带大奖;MTV音乐视频大奖=>zh-hk:MTV音樂短片大獎;MTV音乐视频大奖=>zh-tw:MTV音樂錄影帶大獎;"
+      "conv": "zh:音乐视频大奖;zh-hans:音乐录影带大奖;zh-hk:音樂短片大獎;zh-tw:音樂錄影帶大獎;"
     },
     {
       "original": "Music Week",
       "conv": "zh-hans:音乐周刊;zh-hant:音樂週刊;"
+    },
+    {
+      "original": "Nashville",
+      "conv": "zh:納什維爾;zh-tw:納許維爾;zh-cn:纳什维尔;zh-hk:納士維;"
     },
     {
       "original": "Nickelodeon Kids' Choice Awards",
@@ -1657,7 +1905,7 @@
     },
     {
       "original": "Republic Records",
-      "conv": "zh:Republic唱片;zh-cn:Republic唱片;zh-hant:聯眾唱片;"
+      "conv": "zh-cn:Republic唱片;zh-hk:Republic唱片;zh-tw:聯眾唱片;"
     },
     {
       "original": "Sampling",

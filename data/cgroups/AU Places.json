@@ -9,7 +9,7 @@
     },
     {
       "original": "Adelaide",
-      "conv": "zh:阿德雷德; zh-cn:阿德莱德; zh-tw:阿得雷德; zh-hk:阿德萊德;"
+      "conv": "zh-cn:阿德莱德; zh-tw:阿得雷德; zh-hk:阿德萊德;"
     },
     {
       "original": "Alice Springs",
@@ -41,7 +41,7 @@
     },
     {
       "original": "Australia",
-      "conv": "zh:澳大利亞;zh-cn:澳大利亚;zh-hk:澳洲;zh-mo:澳洲;zh-tw:澳洲;"
+      "conv": "zh-cn:澳大利亚;zh-hk:澳洲;zh-mo:澳洲;zh-tw:澳洲;"
     },
     {
       "original": "Australia",
@@ -249,7 +249,7 @@
     },
     {
       "original": "Glenelg",
-      "conv": "zh-hans:格莱内尔格; zh-hant:己連拿奴; zh-tw:己連拿奴; zh-hk:己連拿奴;"
+      "conv": "zh-hans:格莱内尔格; zh-hant:己連拿奴; zh-tw:格萊內爾格; zh-hk:己連拿奴;"
     },
     {
       "original": "Goodwood",
@@ -265,7 +265,7 @@
     },
     {
       "original": "Heard Island and McDonald Island",
-      "conv": "zh-hans:赫德岛和麦克唐纳群岛 ;zh-hant:赫德島和麥克唐納群島 ;zh-tw:赫德及麥當勞群島 ;"
+      "conv": "zh-hans:赫德岛和麦克唐纳群岛; zh-hant:赫德島和麥克唐納群島; zh-tw:赫德及麥當勞群島 ;"
     },
     {
       "original": "Highgate",
@@ -278,6 +278,10 @@
     {
       "original": "Hobart",
       "conv": "zh-hans:霍巴特; zh-hant:荷巴特; zh-tw:荷巴特; zh-hk:荷伯特;"
+    },
+    {
+      "original": "Holdfast Bay",
+      "conv": "zh:豪德法斯特灣; zh-hant:灝發灣; zh-hans:豪德法斯特湾; zh-cn:霍尔德法斯特湾; zh-tw: 灝發灣; zh-hk:灝發灣;"
     },
     {
       "original": "Hornsby",
@@ -326,6 +330,10 @@
     {
       "original": "Martin Place",
       "conv": "zh-hans:马丁广场; zh-tw:馬丁廣場; zh-hk:馬田廣場;"
+    },
+    {
+      "original": "Maylands",
+      "conv": "zh-hans:梅兰茲; zh-hant:美崙; zh-tw:美崙; zh-hk:美崙;"
     },
     {
       "original": "Modbury",
@@ -422,6 +430,14 @@
     {
       "original": "Salisbury",
       "conv": "zh-hans:索尔兹伯里; zh-hant:索爾茲伯里; zh-tw:索茲斯柏立; zh-hk:梳士巴利; zh-mo:梳士巴利;"
+    },
+    {
+      "original": "Seacliff",
+      "conv": "zh-hans:锡克利夫; zh-hant:士記利富; zh-tw:士記利富; zh-hk:士記利富;"
+    },
+    {
+      "original": "Seacliff Park",
+      "conv": "zh-hans:锡克利夫帕克; zh-hant:士記利富柏; zh-tw:士記利富柏; zh-hk:士記利富柏;"
     },
     {
       "original": "Somerset",

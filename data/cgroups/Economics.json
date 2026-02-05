@@ -232,6 +232,10 @@
       "conv": "zh-tw:中間財;zh-hk:中間貨品;zh-cn:中间商品;"
     },
     {
+      "original": "Intermediate goods",
+      "conv": "中间产品=>zh-tw:中間財;中间产品=>zh-hk:中間貨品;"
+    },
+    {
       "original": "[[:neutral good|neutral good]]",
       "conv": "zh-cn:中性商品; zh-tw:中性財; zh-hk:中性商品;"
     },
@@ -406,6 +410,10 @@
     {
       "original": "[[:en:The General Theory of Employment, Interest and Money|The General Theory of Employment, Interest and Money]]",
       "conv": "zh-cn:就业、利息和货币通论; zh-sg:就业、利息和货币通论; zh-tw:就業、利息與貨幣的一般理論; zh-hk:就業、利息和貨幣通論;"
+    },
+    {
+      "original": "Transfer Payment",
+      "conv": "zh-tw:移轉性支付;zh-hk:轉移支付;zh-cn:转移支付;"
     },
     {
       "original": "variable",
@@ -981,7 +989,15 @@
     },
     {
       "original": "Adam Smith",
-      "conv": "zh-cn:亚当·斯密; zh-tw:亞當·史密斯; zh-hk:亞當·史密夫;"
+      "conv": "zh-hans:亚当·斯密; zh-hant:亞當·斯密;"
+    },
+    {
+      "original": "Adam Smith",
+      "conv": "亞當·史密斯=>zh-hans:亚当·斯密; 亞當·史密斯=>zh-hant:亞當·斯密;"
+    },
+    {
+      "original": "Adam Smith",
+      "conv": "亞當·史密夫=>zh-cn:亚当·斯密; 亞當·史密夫=>zh-hant:亞當·斯密;"
     },
     {
       "original": "Bayesian",

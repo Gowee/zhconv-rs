@@ -40,58 +40,50 @@ use self::opencc::load_opencc_to;
 
 // To update upstream rulesets, run `data/update_basic.py and cargo fmt`.
 #[cfg(feature = "_mediawiki-base")]
-const MEDIAWIKI_COMMIT: &str = "7747d1cc8b84bd1c6922dfb3c2bd5c2128304a1d";
+const MEDIAWIKI_COMMIT: &str = "ecf4342132cf089ac0c42436827e9038a738bb6f";
 #[cfg(feature = "_mediawiki-base")]
 const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("5cb0019b32bb39ec5c6e662029f90bd166f7a844efb3bc877f9be41fdd511bf2");
 
 #[cfg(feature = "_opencc-base")]
-const OPENCC_COMMIT: &str = "e0d41d7f5e7c62f9be1cfdd9e6cb1d03847c06e7";
+const OPENCC_COMMIT: &str = "eec2a142e9debfc2c6070d349a4bd183c4a5e046";
 #[cfg(feature = "_opencc-base")]
-const OPENCC_SHA256: [(&str, [u8; 32]); 11] = [
+const OPENCC_SHA256: [(&str, [u8; 32]); 9] = [
     (
         "HKVariants.txt",
-        hex!("c3c93c35885902ba2b12a3235a7761b00fb2b027f36aa8314db2f6b6ad51d374"),
+        hex!("a5ea8ec2061f066bc7c2b4679ea32efb8e169b9b0ce3fb8d0ce6caed65d7df4f"),
     ),
     (
         "HKVariantsRevPhrases.txt",
-        hex!("c2da309afa7fdd9061f204664039d33b000a4dca0ecae4e7480dcbf9e20f658e"),
+        hex!("5e9fdcd7c9e4cef05307ce24ebacf521bc785ad259cf4ef010337296327ed300"),
     ),
     (
         "STCharacters.txt",
-        hex!("ed1d268e0ad028511dcf5b0089faed0a980ad332449ec11d481ceefde6879f41"),
+        hex!("9cedfb8bf13a220087103d9a96d9f56050c341c24a809cbce5c85c9045456557"),
     ),
     (
         "STPhrases.txt",
-        hex!("b867f76161b76c9c6eb3f1d410fa51f8169e03c459f6c0a9e71c30ee00b86944"),
+        hex!("5d38237b501359b9313bbdd5f7988106a5d9532cc77fb35d16b3e6bf6a36f32b"),
     ),
     (
         "TSCharacters.txt",
-        hex!("6b5a0a799bea2bb22c001f635eaa3fc2904310f0c08addbff275477a80ecf09a"),
+        hex!("ad870b4feeb494cfa7b3b05242bd79af574b22f6b2bdeb89a1633e4b50ed0a3c"),
     ),
     (
         "TSPhrases.txt",
-        hex!("504169029c43f7f234b8e2ae470720af3657675c5574ff8aa0feb257e1dc5ce2"),
+        hex!("54170de095c6d389d557d0d0b0e1a10033f397d4feca80aaa30a74a67836f43a"),
     ),
     (
-        "TWPhrasesIT.txt",
-        hex!("3a4a2ad207f3a9442eb8f399630cf982c2ffc561df9c58b2ee352cfa023915c1"),
-    ),
-    (
-        "TWPhrasesName.txt",
-        hex!("76e643569a30ea54e7ab6e52621fd4c396e01ee6dc2d15b7d25bf23addf4438a"),
-    ),
-    (
-        "TWPhrasesOther.txt",
-        hex!("6d0365fd180283f3e14b44f63d19d1aca045d60b0e000765902ad889a90d7a33"),
+        "TWPhrases.txt",
+        hex!("e3b255a8e258a95e957a7ba1444ad1c54ae7f432181ad7296063adfa9f777cf8"),
     ),
     (
         "TWVariants.txt",
-        hex!("30e6f8395edbfdd74e293fd8b9c62105d787c849fbb208d2a7832eac696734d7"),
+        hex!("89473e96e3f61e9bd3f2e303b9d88ac9caa61effb1faadcef94ff5e65b8ed54b"),
     ),
     (
         "TWVariantsRevPhrases.txt",
-        hex!("bef60ceb4e57b6b062351406cb5d4644875574231d64787e03711317b7e773f3"),
+        hex!("6b58c0687af26b13cde81c1442dd6f570cc93f398c7ff361782244b47941ff43"),
     ),
 ];
 
@@ -136,26 +128,27 @@ fn main() -> io::Result<()> {
         #[allow(unused_mut)]
         let mut pairs = zhconvs.entry(name.to_owned()).or_default();
         log_diag!("Processing {}: MediaWiki.len = {}", name, pairs.len())?;
-        // Load and append OpenCC rulesets
+        // Load and append OpenCC dicts
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
 
         // Note: The conversion of OpenCC takes multi-pass for applying dict groups step by step.
-        // For efficiency and re-using the existing implementation, we merge and flatten dict groups
+        // For efficiency and reusing the existing implementation, we merge and flatten dict groups
         // in advance.
-        // The conversion results may be different to the stock OpenCC implementation considering
+        // The conversion results may differ from the stock OpenCC implementation considering
         // that some conversion pairs span over the border of several natural phrases while not
         // covering them in whole.
         #[cfg(feature = "_opencc-base")]
         match name {
+            // Used when targeting either zh-hans or zh-cn
             #[cfg(any(feature = "opencc-hans", feature = "opencc-cn"))]
             "ZH_TO_HANS" => {
-                // t2s
+                // config: t2s
                 load_opencc_to!(&mut pairs, [TSCharacters, TSPhrases]);
 
-                // OpenCC has rules & configs for de-regionalization when targetted at hans/hant,
-                // which are not present in https://opencc.byvoid.com/.
-                // We decide to skip here, also to keep consistency with Mediawiki's behavior.
-                // // hk2s & tw2s & t2s
+                // OpenCC has rules for de-regionalization when targeting zh-hans/hant,
+                // which are not present in https://opencc.byvoid.com.
+                // We decide to avoid here, also to keep consistency with Mediawiki's behavior.
+                // // config: hk2s & tw2s & t2s
                 // load_opencc_to!(
                 //     &mut pairs,
                 //     [HKVariantsRevPhrases, !HKVariants],
@@ -167,36 +160,37 @@ fn main() -> io::Result<()> {
                 //     [TSCharacters, TSPhrases]
                 // );
             }
+            // Used when targeting either zh-hant, zh-hk or zh-tw
             #[cfg(any(feature = "opencc-hant", feature = "opencc-tw", feature = "opencc-hk"))]
             "ZH_TO_HANT" => {
-                // s2t
+                // config: s2t
                 load_opencc_to!(&mut pairs, [STCharacters, STPhrases]);
 
                 // ditto
-                // // hk2t & tw2t
+                // // config: hk2t & tw2t
                 // load_opencc_to!(&mut pairs, [HKVariantsRevPhrases, !HKVariants]);
                 // load_opencc_to!(&mut pairs, [TWVariantsRevPhrases, !TWVariants]);
             }
             #[cfg(feature = "opencc-tw")]
             "ZH_TO_TW" => {
-                // Since s2twp appears to be too aggresive for general use, we make it optional.
-                // For example, 电视频段 -> 電影片段 (#8), 雄壮的士兵 -> 雄壮計程車兵. 
+                // twp appears too aggressive for general use, so we make it optional.
+                // For example, 电视频段 -> 電影片段 (#8), 雄壮的士兵 -> 雄壮計程車兵.
                 if cfg!(feature = "opencc-twp") {
-                    // s2tw & s2twp & t2tw
+                    // config: s2tw & s2twp & t2tw
                     load_opencc_to!(
                         &mut pairs,
                         [STPhrases, STCharacters],
-                        [TWPhrasesIT, TWPhrasesName, TWPhrasesOther],
+                        [TWPhrases],
                         [TWVariants]
                     );
                 } else {
-                    // s2tw & t2tw
+                    // config: s2tw & t2tw
                     load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [TWVariants]);
                 }
             }
             #[cfg(feature = "opencc-hk")]
             "ZH_TO_HK" => {
-                // s2hk & t2hk
+                // config: s2hk & t2hk
                 load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [HKVariants]);
             }
             #[cfg(feature = "opencc-cn")]
@@ -204,22 +198,17 @@ fn main() -> io::Result<()> {
                 // OpenCC has no dicts for CN-specific phrases, we just do tw2s and hk2s here in
                 // addition to t2s when targeting zh-cn.
                 if cfg!(feature = "opencc-twp") {
-                    // tw2sp
-                    // "!TWVariants" listed in tw2sp config is deliberately omitted here
+                    // config: tw2sp
+                    // "!TWVariants" is deliberately omitted here
                     load_opencc_to!(
                         &mut pairs,
-                        [
-                            !TWPhrasesIT,
-                            !TWPhrasesName,
-                            !TWPhrasesOther,
-                            TWVariantsRevPhrases
-                        ],
+                        [!TWPhrases, TWVariantsRevPhrases],
                         [TSPhrases, TSCharacters]
                     );
                 } else {
-                    // tw2s
-                    // "!TWVariants" listed in tw2s config is deliberately omitted here
-                    // to prevent misconversions like 么 -> 幺, 抬 -> 檯, 著 -> 着.
+                    // config: tw2s
+                    // "!TWVariants" is deliberately omitted here to prevent misconversions like
+                    // `么 -> 幺, 抬 -> 檯, 著 -> 着`.
                     // Since TSCharacters should have covered conversions of character variants,
                     // this is not expected to incur any side effects.
                     load_opencc_to!(
@@ -228,8 +217,8 @@ fn main() -> io::Result<()> {
                         [TSPhrases, TSCharacters]
                     );
                 }
-                // hk2s
-                // "!HKVariants" listed in hk2s config is deliberately omitted here.
+                // config: hk2s
+                // "!HKVariants" is deliberately omitted here.
                 load_opencc_to!(
                     &mut pairs,
                     [HKVariantsRevPhrases],
@@ -244,7 +233,7 @@ fn main() -> io::Result<()> {
         log_diag!(", withOpenCC.len = {}", pairs.len())?;
 
         // Longer phrases and lexicographically smaller phrases appear earlier and hence take
-        // precedence in the final dict.
+        // precedence in the final conversion table.
         sort_and_dedup(pairs);
 
         log_diag!(", sortedAndDeduped.len = {}\n", pairs.len())?;
