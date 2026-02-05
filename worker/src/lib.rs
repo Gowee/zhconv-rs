@@ -30,7 +30,7 @@ pub struct AppState {
 }
 
 fn router(state: AppState) -> Router {
-    let mut router = Router::new()
+    let router = Router::new()
         .route("/", get(doc))
         .route("/convert/{target}", post(convert))
         .route("/info", get(info))
@@ -38,12 +38,12 @@ fn router(state: AppState) -> Router {
             state.body_limit.unwrap_or(DEFAULT_BODY_LIMIT),
         ))
         .fallback(handle_404)
-        .method_not_allowed_fallback(handle_405)
+        .method_not_allowed_fallback(handle_405);
     #[cfg(all(
         any(feature = "mediawiki-hans", feature = "opencc-hans"),
         any(feature = "mediawiki-hant", feature = "opencc-hant")
     ))]
-    router = router.route("/is-hans", post(is_hans));
+    let router = router.route("/is-hans", post(is_hans));
     router.with_state(state)
 }
 
