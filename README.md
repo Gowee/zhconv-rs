@@ -199,7 +199,7 @@ The library itself is licensed under MIT OR Apache-2.0, at the licensee’s opti
 - Conversion tables from MediaWiki (the default, gated by the feature `mediawiki`) which are licensed under GPL-2.0-or-later.
 - Dictionaries from OpenCC (gated by the feature `opencc`)  licensed under Apache-2.0.
 
-To make the library MIT-compatible, disable the default `mediawiki` feature and enable the `opencc` feature for prebuilt converters & conversion tables.
+For MIT compatibility, disable the default `mediawiki` feature and enable `opencc` (with optional `compress`, recommended for reducing binary size) to use prebuilt converters and tables.
 
 ## Credits
 
