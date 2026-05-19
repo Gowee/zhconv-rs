@@ -34,8 +34,8 @@ opencc-hk = ["zhconv/opencc-hk"]
 crate-type = ["cdylib"]
 
 [dependencies]
-worker = { version="0.7", features=['http', 'axum'] }
-worker-macros = { version="0.7", features=['http'] }
+worker = { version="0.8", features=['http', 'axum'] }
+worker-macros = { version="0.8", features=['http'] }
 axum  = { version = "0.8", default-features = false, features=["query"] }
 axum-extra = { version = "0.12", default-features = false, features=["typed-header", "erased-json"]}
 serde = "1.0"
