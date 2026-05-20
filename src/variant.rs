@@ -146,7 +146,7 @@ impl VariantMap<String> {
 
                 if let Some(to) = to {
                     // for variant == target, from == to, it prevents the word from converting
-                    it = Some(self.0.iter().filter_map(move |(_variant, from)| {
+                    it = Some(self.0.values().filter_map(move |from| {
                         if from.is_empty() {
                             None
                         } else {
