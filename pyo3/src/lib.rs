@@ -2,6 +2,8 @@ use std::fs::File;
 use std::io::Read;
 use std::str::FromStr;
 
+// Doc originally drafted by ChatGPT; reviewed and cleaned up by MiniMax-M3 (2026-07-04).
+
 use pyo3::exceptions::PyTypeError;
 use pyo3::prelude::*;
 use pyo3::types::PyString;
@@ -119,9 +121,8 @@ fn is_hans(text: &str) -> bool {
 ///
 /// The return value is in the range of `[0, 1]`, where `0` indicates the text is completely in
 /// Traditional Chinese, `1` indicates the text is completely in Simplified Chinese, and a value of
-/// `0.5` suggests an equal proportion between the two variants. If there is no enough text to
-/// determine, `NaN` is returned.
-//  Doc written by ChatGPT
+/// `0.5` suggests an equal proportion between the two variants. `NaN` is returned if there is not
+/// enough text to determine.
 #[pyfunction]
 #[pyo3(signature = (text, /))]
 #[cfg(all(
@@ -139,7 +140,6 @@ fn is_hans_confidence(text: &str) -> f32 {
 /// would never return `zh-MO`, `zh-SG`, or `zh-MY`.
 ///
 /// The accuracy has not been assessed. Avoid relying on this for serious purposes.
-//  Doc written by ChatGPT
 #[pyfunction]
 #[pyo3(signature = (text, /))]
 #[cfg(all(
@@ -153,23 +153,19 @@ fn infer_variant(text: &str) -> String {
     ::zhconv::infer_variant(text).to_string()
 }
 
-/// Infer the Chinese character variant of the given text.
+/// Infer the Chinese character variant of the given text with confidence levels.
 ///
-/// This function analyzes the text by counting the matched source words using built-in converters,
-/// and calculates the likelihood of the text belonging to each Chinese variant. The inferred
-/// variants are returned as a vector of tuples, where each tuple contains the variant as a str and
-/// its corresponding confidence level as a float.
+/// The inferred variants are returned as a list of `(variant, confidence_level)` tuples, in
+/// descending order of confidence. `confidence_level` is in `[0, 1]`, or `NaN` if there is not
+/// enough text to analyze.
 ///
-/// Confidence levels are in the range of `[0, 1]`. It can be `NaN` if there is no enough text to
-/// analyze.
+/// Due to lack of rulesets, the result will never include `zh-MO`, `zh-SG`, or `zh-MY`.
 ///
-/// Due to lack of rulesets, it would never return `zh-MO`, `zh-SG`, or `zh-MY`.
-///
+/// # Limitations
 /// The confidence levels of script variants (`zh-Hant` and `zh-Hans`) are always greater than
 /// those of region variants (`zh-TW`, `zh-CN` and `zh-HK`) with the current implementation.
 ///
 /// The accuracy has not been assessed. Avoid relying on this for serious purposes.
-//  Doc written by ChatGPT
 #[pyfunction]
 #[pyo3(signature = (text, /))]
 #[cfg(all(
@@ -206,8 +202,7 @@ fn infer_variant_confidence(text: &str) -> Vec<(String, f32)> {
 /// assert convert("秀州西去湖州近 幾䖏樓臺罨畫間") == "秀州西去湖州近 几处楼台掩画间"
 ///
 /// Check if Simp/Trad
-/// ```
-/// python
+/// ```python
 /// from zhconv_rs import is_hans, is_hans_confidence
 /// text = "譬如鳥跡，空中現者，無有是處。"
 /// assert not is_hans(text)
