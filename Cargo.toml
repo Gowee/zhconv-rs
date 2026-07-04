@@ -102,12 +102,6 @@ console_error_panic_hook = { version = "0.1" } #, default-features = true, optio
 criterion = "0.7"
 wasm-bindgen-test = "0.3"
 
-# for benchmark only
-ferrous-opencc = { version = "0.3" }
-opencc-rust = { version = "1.1" }
-fast2s = { version = "0.3" }
-opencc-fmmseg = { version = "0.8" }
-
 [build-dependencies]
 daachorse = "1.0"
 hex-literal = "1.1"
@@ -121,11 +115,6 @@ zstd = { version = "0.13", optional = true }
 [[bench]]
 harness = false
 name = "base_benchmark"
-required-features = ["bench"]
-
-[[bench]]
-harness = false
-name = "compare_benchmark"
 required-features = ["bench"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
