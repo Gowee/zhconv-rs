@@ -102,11 +102,8 @@ fn bench_convert(c: &mut Criterion) {
     });
     convert.bench_function("zh2TW data55m", |b| {
         b.iter_with_large_drop(|| {
-            zhconv::converters::ZH_TO_TW_CONVERTER.convert(
-                &iter::repeat(DATA3185K)
-                    .take(17)
-                    .collect::<String>(),
-            )
+            zhconv::converters::ZH_TO_TW_CONVERTER
+                .convert(&iter::repeat(DATA3185K).take(17).collect::<String>())
         })
     });
 }
