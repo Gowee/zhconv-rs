@@ -89,7 +89,7 @@ export default function AboutDialog({
               {" 此自由與開源項目"}
             </Link>
             轉換均在本地以 WebAssembly 完成，數據不會傳輸到服務器。轉換表（
-            <Link href="https://github.com/wikimedia/mediawiki/blob/master/includes/languages/Data/ZhConversion.php#L14">
+            <Link href="https://github.com/wikimedia/mediawiki/blob/master/includes/Languages/Data/ZhConversion.php#L14">
               1
             </Link>
             、

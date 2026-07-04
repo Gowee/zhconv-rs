@@ -11,7 +11,6 @@ export default function OutputEditor({
   return (
     <Box position="relative">
       {/* for Fab positioning */}
-      {/* TODO: nowrap */}
       <TextField
         id="output"
         label="Output / 結果"
@@ -30,7 +29,6 @@ export default function OutputEditor({
       <Box sx={{ mt: 0.5, mb: -1 }}>
         <OutputStatusLine output={output} />
       </Box>
-      {/* <WarningFab invalidLines={output?.invalid} /> */}
     </Box>
   );
 }

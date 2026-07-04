@@ -13,7 +13,7 @@ type WasmModule = {
     target: string,
     mediawiki: boolean,
     cgroup: string,
-  ) => Promise<string>;
+  ) => string;
   get_build_timestamp: () => string;
   get_commit: () => string;
   get_mediawiki_commit: () => string;
@@ -72,6 +72,9 @@ const getWasmImportPath = (mode: RulesetMode) => {
   }
 };
 
+// Eagerly kick off the WASM module fetch for the initial ruleset so it can load in parallel
+// with React's initial render. The `import()` call only resolves at runtime in the browser;
+// only the package matching `initialRulesetMode` is fetched (Vite splits the bundles).
 const initialWasmPromise = getWasmImportPath(initialRulesetMode);
 
 export const AppProvider: React.FC<React.PropsWithChildren> = ({
