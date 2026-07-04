@@ -107,7 +107,7 @@ Chained dictionary groups from OpenCC are flattened and merged with the MediaWik
 
 ## Performance
 
-Even with all rulesets enabled, zhconv-rs remains faster than most alternatives. Check with `cargo bench compare --features bench,mediawiki,opencc`:
+Even with all rulesets enabled, zhconv-rs remains faster than most alternatives. Comparative benchmarks against other crates live in [`bench-compare/`](bench-compare/) (requires OpenCC ≤ 1.2). `cargo bench base --features bench,mediawiki,opencc` benchmarks `zhconv` alone.
 
 ![Comparison with other crates, targetting zh-Hans](violin-to-hans.svg)
 ![Comparison with other crates, targetting zh-TW](violin-to-tw.svg)
