@@ -1,4 +1,5 @@
 use std::hint::black_box;
+use std::iter;
 
 use criterion::{criterion_group, criterion_main, Criterion};
 
@@ -102,23 +103,9 @@ fn bench_convert(c: &mut Criterion) {
     convert.bench_function("zh2TW data55m", |b| {
         b.iter_with_large_drop(|| {
             zhconv::converters::ZH_TO_TW_CONVERTER.convert(
-                &(String::from(DATA3185K)
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K
-                    + DATA3185K),
+                &iter::repeat(DATA3185K)
+                    .take(17)
+                    .collect::<String>(),
             )
         })
     });

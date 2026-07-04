@@ -379,7 +379,7 @@ impl ZhConverter {
                 panic!("The secondary converter builder should not load conversion tables");
             }
             // let mut shadowing_pairs = HashMap::new();
-            let global_rules_in_page = PageRules::from_str(text).expect("infaillible");
+            let global_rules_in_page = PageRules::from_str(text).expect("infallible");
             for ca in global_rules_in_page.as_conv_actions() {
                 match ca.is_add() {
                     true => builder = builder.conv_pairs(ca.as_conv().get_conv_pairs(self.variant)),

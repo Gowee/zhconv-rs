@@ -95,6 +95,9 @@ pub fn deserialize_converter(
     #[cfg(feature = "compress")]
     let daac = zstd_decompress(daac);
 
+    // SAFETY: `daac` is always a `*_DAAC` constant from `crate::tables`, which is built by
+    // `build.rs` via `CharwiseDoubleArrayAhoCorasickBuilder::build()` + `serialize()` and embedded
+    // with `include_bytes!`. The bytes are never derived from runtime/external input.
     ZhConverter::with_target_variant(
         unsafe { CharwiseDoubleArrayAhoCorasick::deserialize_unchecked(&daac).0 },
         tables

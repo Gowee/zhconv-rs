@@ -107,7 +107,7 @@ fn main() -> Result<()> {
 
     if files.is_empty() {
         let mut input = String::new();
-        io::stdin().lock().read_to_string(&mut input).unwrap();
+        io::stdin().lock().read_to_string(&mut input)?;
         println!("{}", convert(&input));
     } else {
         let total = files.len();
@@ -132,5 +132,5 @@ fn main() -> Result<()> {
 fn tempfile_for(path: &Path) -> io::Result<NamedTempFile> {
     TempFileBuilder::new()
         .prefix(path.file_stem().unwrap_or(OsStr::new(".zhconvtmp")))
-        .tempfile_in(path.parent().unwrap_or(&"./".parse::<PathBuf>().unwrap()))
+        .tempfile_in(path.parent().unwrap_or(Path::new(".")))
 }

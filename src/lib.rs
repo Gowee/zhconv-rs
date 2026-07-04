@@ -203,18 +203,6 @@ pub fn is_hans_confidence(text: &str) -> f32 {
     any(feature = "mediawiki-cn", feature = "opencc-cn")
 ))]
 pub fn infer_variant(text: &str) -> Variant {
-    // let non_cn_score = ZH_TO_CN_CONVERTER.count_replaced(text);
-    // let non_tw_score = ZH_TO_TW_CONVERTER.count_replaced(text);
-    // let non_hk_score = ZH_TO_HK_CONVERTER.count_replaced(text);
-
-    // // authored by ChatGPT
-    // if non_cn_score <= non_tw_score && non_cn_score <= non_hk_score {
-    //     Variant::ZhCN
-    // } else if non_tw_score <= non_cn_score && non_tw_score <= non_hk_score {
-    //     Variant::ZhTW
-    // } else {
-    //     Variant::ZhHK
-    // }
     infer_variant_confidence(text)[0].0
 }
 

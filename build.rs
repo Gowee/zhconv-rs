@@ -286,7 +286,6 @@ fn main() -> io::Result<()> {
         log_diag!("ZH_TO_HANS_CN: final.len = {}\n", hans_cn_pairs.len())?;
     }
 
-    // FIXME: doc
     // Here, ZH_TO_HANT | ZH_TO_TW => ZH_TO_HANT_TW, etc. In other places, ZH_TO_TW might imply ZH_TO_HANT_TW.
 
     if cfg!(any(
