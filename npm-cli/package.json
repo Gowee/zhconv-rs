@@ -1,0 +1,23 @@
+{
+  "name": "@zhconv/cli",
+  "version": "${node_version}",
+  "description": "Native CLI for zhconv — convert Chinese between Trad/Simp and regional variants",
+  "license": "GPL-2.0-or-later",
+  "bin": { "zhconv": "bin/zhconv.js" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowee/zhconv-rs.git",
+    "directory": "npm-cli"
+  },
+  "publishConfig": { "provenance": true },
+  "optionalDependencies": {
+    "@zhconv/cli-linux-x64": "${node_version}",
+    "@zhconv/cli-linux-arm64": "${node_version}",
+    "@zhconv/cli-darwin-x64": "${node_version}",
+    "@zhconv/cli-darwin-arm64": "${node_version}",
+    "@zhconv/cli-windows-x64": "${node_version}",
+    "@zhconv/cli-windows-arm64": "${node_version}"
+  }
+}

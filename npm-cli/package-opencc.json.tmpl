@@ -1,0 +1,23 @@
+{
+  "name": "@zhconv/cli-opencc",
+  "version": "${node_version}",
+  "description": "Native CLI for zhconv with OpenCC dicts (adds OpenCC to MediaWiki) — convert Chinese between Trad/Simp and regional variants",
+  "license": "GPL-2.0-or-later",
+  "bin": { "zhconv": "bin/zhconv.js" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowee/zhconv-rs.git",
+    "directory": "npm-cli"
+  },
+  "publishConfig": { "provenance": true },
+  "optionalDependencies": {
+    "@zhconv/cli-opencc-linux-x64": "${node_version}",
+    "@zhconv/cli-opencc-linux-arm64": "${node_version}",
+    "@zhconv/cli-opencc-darwin-x64": "${node_version}",
+    "@zhconv/cli-opencc-darwin-arm64": "${node_version}",
+    "@zhconv/cli-opencc-windows-x64": "${node_version}",
+    "@zhconv/cli-opencc-windows-arm64": "${node_version}"
+  }
+}

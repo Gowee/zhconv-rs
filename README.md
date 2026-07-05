@@ -10,7 +10,7 @@ zhconv-rs converts Chinese between Traditional, Simplified and regional variants
 
 🔗 **Web app (wasm):** <https://zhconv.pages.dev>
 
-⚙️ **Cli**: `cargo install zhconv` or download from [releases](https://github.com/Gowee/zhconv-rs/releases)
+⚙️ **Cli**: `cargo install zhconv`, `npx @zhconv/cli`, or download from [releases](https://github.com/Gowee/zhconv-rs/releases)
 
 🦀 **Rust crate**: `cargo add zhconv` (see [docs](https://docs.rs/zhconv/latest/zhconv/) for details)
 
@@ -26,6 +26,15 @@ assert_eq!(zhconv("驛寄梅花，魚傳尺素", "zh-Hans".parse().unwrap()), "�
 from zhconv_rs import zhconv
 assert zhconv("天干物燥 小心火烛", "zh-tw") == "天乾物燥 小心火燭"
 ```
+
+📦 **Node.js CLI** (native binary, no wasm overhead):
+
+```sh
+npx @zhconv/cli zh-tw < input.txt        # MediaWiki dicts
+npx @zhconv/cli-opencc zh-tw < input.txt # MediaWiki + OpenCC dicts
+```
+
+Requires Node.js 18+. Auto-selects the right native binary for your platform (linux x64/arm64, macOS x64/arm64, Windows x64/arm64) via `optionalDependencies`. Published with Sigstore provenance via npm OIDC trusted publishing.
 
 <details>
  <summary>More usage</summary>
@@ -214,3 +223,62 @@ References & related implementations:
 - <https://zh.wikipedia.org/wiki/Wikipedia:字詞轉換處理>
 - <https://zh.wikipedia.org/wiki/Help:高级字词转换语法>
 - <https://github.com/wikimedia/mediawiki/blob/master/includes/language/LanguageConverter.php>
+
+## Publishing (maintainers)
+
+### One-time npm bootstrap
+
+The 14 `@zhconv/cli*` packages must exist on npm before the release workflow can publish them. This is a one-time setup.
+
+1. Upgrade npm locally to ≥ 11.15.0: `npm i -g npm@^11.15.0` (older npm lacks `npm trust`).
+2. Ensure your account has 2FA enabled and publish rights on the `@zhconv` org.
+3. Publish 14 empty `0.0.0` placeholder packages, then register GitHub Actions trusted publishing on each:
+
+   ```bash
+   # Phase 1: publish placeholders
+   ORG=zhconv
+   PLATFORMS=(linux-x64 linux-arm64 darwin-x64 darwin-arm64 windows-x64 windows-arm64)
+   PKGS=( "@${ORG}/cli" "@${ORG}/cli-opencc" )
+   for p in "${PLATFORMS[@]}"; do
+     PKGS+=( "@${ORG}/cli-${p}" "@${ORG}/cli-opencc-${p}" )
+   done
+   WORK=$(mktemp -d)
+   for pkg in "${PKGS[@]}"; do
+     name="${pkg#@${ORG}/}"
+     dir="${WORK}/${name}"
+     mkdir -p "$dir" && cd "$dir"
+     npm init -y >/dev/null
+     npm pkg set \
+       name="$pkg" version="0.0.0" \
+       description="zhconv CLI placeholder, replaced on next release" \
+       license="GPL-2.0-or-later" \
+       repository.type=git \
+       repository.url="https://github.com/Gowee/zhconv-rs.git" \
+       private=false
+     npm publish --access public --ignore-scripts
+     cd - >/dev/null
+   done
+   rm -rf "$WORK"
+
+   # Phase 2: register trusted publishing on each
+   # (first call triggers 2FA — visit the prompted URL, tick "skip 2FA for 5 min")
+   for pkg in "${PKGS[@]}"; do
+     npm trust github "$pkg" \
+       --file release.yml \
+       --repo Gowee/zhconv-rs \
+       --allow-publish --yes
+     sleep 2
+   done
+   ```
+
+4. Verify: `npm trust list @zhconv/cli` should show one GitHub Actions trust entry pointing at `Gowee/zhconv-rs/.github/workflows/release.yml`.
+
+Repeat the trust-config step (`npm trust ...`) if you ever rename the workflow file, add new packages to the `@zhconv/cli*` scope, or change the repo slug.
+
+### Regular releases
+
+Push a `v*` tag. The `Release` workflow builds all 6 platform binaries (default + OpenCC variants), assembles the meta packages, publishes 12 platform packages + 2 meta packages to npm via OIDC trusted publishing, and uploads GitHub Release binaries.
+
+```sh
+git tag vX.Y.Z && git push --tags
+```

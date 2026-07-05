@@ -1,0 +1,15 @@
+{
+  "name": "${node_pkg}",
+  "version": "${node_version}",
+  "description": "${node_pkg} — native binary for zhconv CLI",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowee/zhconv-rs.git",
+    "directory": "platforms/${node_pkg}"
+  },
+  "publishConfig": { "provenance": true },
+  "os": ["${node_os}"],
+  "cpu": ["${node_cpu}"],
+  "libc": ["${node_libc}"]
+}

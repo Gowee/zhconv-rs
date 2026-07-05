@@ -18,60 +18,100 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - target: x86_64-pc-windows-gnu
-            os: windows-2025
-            cargo: cargo
-            binext: .exe # binary extension
-            # archive: zip
           - target: x86_64-unknown-linux-musl
             os: ubuntu-latest
-            cargo: cargo
+            cargo: cross
             binext: ""
-            # archive: tar.gz tar.xz
+            platform: linux-x64
           - target: aarch64-unknown-linux-musl
             os: ubuntu-latest
             cargo: cross
             binext: ""
+            platform: linux-arm64
           - target: x86_64-apple-darwin
-            os: macos-latest
+            os: macos-14
             cargo: cargo
             binext: ""
-            # archive: zip
+            platform: darwin-x64
+          - target: aarch64-apple-darwin
+            os: macos-15
+            cargo: cargo
+            binext: ""
+            platform: darwin-arm64
+          - target: x86_64-pc-windows-msvc
+            os: windows-2022
+            cargo: cargo
+            binext: .exe
+            platform: windows-x64
+          - target: aarch64-pc-windows-msvc
+            os: windows-11-arm
+            cargo: cargo
+            binext: .exe
+            platform: windows-arm64
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions-rs/toolchain@v1
+      - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
         with:
-          toolchain: stable
-          target: ${{ matrix.target }}
-          override: true
-          profile: minimal
+          cache-on-failure: true
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
       - name: Install cross
-        run: |
-          cargo install cross --git https://github.com/cross-rs/cross.git
         if: matrix.cargo == 'cross'
-      - name: Build and strip
-        shell: bash # on win, the default is ps
+        run: cargo install cross --git https://github.com/cross-rs/cross.git
+      - name: Build default and opencc binaries
+        shell: bash
         run: |
-          mkdir bin
+          set -euo pipefail
+          mkdir -p platforms/@zhconv/cli-${{ matrix.platform }}/bin
+          mkdir -p platforms/@zhconv/cli-opencc-${{ matrix.platform }}/bin
+
+          # default (MediaWiki)
           ${{ matrix.cargo }} build --features bin-build --bin zhconv --release --target ${{ matrix.target }}
-          mv target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-${{ matrix.target }}${{ matrix.binext }}"
+          cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
+             platforms/@zhconv/cli-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
+          chmod +x platforms/@zhconv/cli-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
+
+          # opencc (MediaWiki + OpenCC)
           ${{ matrix.cargo }} build --features bin-build --features opencc --bin zhconv --release --target ${{ matrix.target }}
-          mv target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-opencc-${{ matrix.target }}${{ matrix.binext }}"
-          strip -v "$f" || echo "strip failed"
-          # if [ "${{ matrix.os }}" = "windows-2025" ]; then
-          #   7z a "$staging.zip" "$staging"
-          # else
-          #   tar czf "$staging.tar.gz" "$staging"
-          # fi
-      - name: Upload artifact
+          cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
+             platforms/@zhconv/cli-opencc-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
+          chmod +x platforms/@zhconv/cli-opencc-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
+
+          # GitHub Release binaries (kept for backwards compat)
+          mkdir -p bin
+          cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-${{ matrix.target }}${{ matrix.binext }}"
+      - name: Generate default platform package.json
+        env:
+          node_pkg: "@zhconv/cli-${{ matrix.platform }}"
+          node_version: ${{ github.ref_name }}
+          node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || matrix.platform startsWith 'darwin' && 'darwin' || 'win32' }}
+          node_cpu: ${{ matrix.platform endsWith 'x64' && 'x64' || 'arm64' }}
+          node_libc: musl
+        run: envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-${{ matrix.platform }}/package.json
+      - name: Generate opencc platform package.json
+        env:
+          node_pkg: "@zhconv/cli-opencc-${{ matrix.platform }}"
+          node_version: ${{ github.ref_name }}
+          node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || matrix.platform startsWith 'darwin' && 'darwin' || 'win32' }}
+          node_cpu: ${{ matrix.platform endsWith 'x64' && 'x64' || 'arm64' }}
+          node_libc: musl
+        run: envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-opencc-${{ matrix.platform }}/package.json
+      - name: Upload GitHub Release artifacts
         uses: actions/upload-artifact@v4
         with:
           name: binaries-${{ matrix.target }}
           path: bin/
+      - name: Upload npm platform artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: npm-platform-${{ matrix.platform }}
+          path: |
+            platforms/@zhconv/cli-${{ matrix.platform }}/
+            platforms/@zhconv/cli-opencc-${{ matrix.platform }}/
 
   release:
     runs-on: ubuntu-latest
-    # trigger real release only on tag push
     if: "startsWith(github.ref, 'refs/tags/')"
     needs: [build]
     steps:
@@ -84,3 +124,61 @@ jobs:
         with:
           files: |
             *
+
+  npm-publish:
+    name: Publish to npm
+    needs: [build]
+    if: "startsWith(github.ref, 'refs/tags/')"
+    runs-on: ubuntu-latest
+    environment: npm
+    permissions:
+      contents: read
+      id-token: write  # OIDC trusted publishing (npm >= 11.15.0, Node >= 22.14)
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: npm-platform-*
+          path: platforms/
+          merge-multiple: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Assemble meta packages
+        env:
+          version: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          mkdir -p published/@zhconv/cli/bin
+          cp npm-cli/bin/zhconv.js published/@zhconv/cli/bin/
+          cp npm-cli/README.md published/@zhconv/cli/
+          cp LICENSE-GPL published/@zhconv/cli/LICENSE
+          VERSION="$version" envsubst < npm-cli/package.json > published/@zhconv/cli/package.json
+
+          mkdir -p published/@zhconv/cli-opencc/bin
+          cp npm-cli/bin/zhconv.js published/@zhconv/cli-opencc/bin/
+          cp npm-cli/README.md published/@zhconv/cli-opencc/
+          cp LICENSE-GPL published/@zhconv/cli-opencc/LICENSE
+          VERSION="$version" envsubst < npm-cli/package-opencc.json.tmpl > published/@zhconv/cli-opencc/package.json
+      - name: Publish platform packages (default)
+        run: |
+          set -euo pipefail
+          for dir in platforms/@zhconv/cli-*; do
+            [ -d "$dir" ] || continue
+            echo "Publishing $dir..."
+            (cd "$dir" && npm publish --access public)
+          done
+      - name: Publish platform packages (opencc)
+        run: |
+          set -euo pipefail
+          for dir in platforms/@zhconv/cli-opencc-*; do
+            [ -d "$dir" ] || continue
+            echo "Publishing $dir..."
+            (cd "$dir" && npm publish --access public)
+          done
+      - name: Publish meta packages
+        run: |
+          set -euo pipefail
+          (cd published/@zhconv/cli && npm publish --access public)
+          (cd published/@zhconv/cli-opencc && npm publish --access public)

@@ -9,7 +9,7 @@ edition = "2021"
 # license (excluding bundled conversion tables) = "MIT OR Apache-2.0"
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-version = "0.4.1"
+version = "0.4.1-1"
 
 [workspace.lints]
 
@@ -64,7 +64,7 @@ compress = ["zstd", "ruzstd"]
 
 wasm = []
 
-bin-build = ["structopt", "anyhow", "log", "env_logger", "tempfile"]
+bin-build = ["structopt", "anyhow", "tempfile"]
 bench = []
 
 [dependencies]
@@ -78,8 +78,6 @@ serde = { version = "1.0", optional = true, features = ["derive"] }
 # for the binary
 structopt = { version = "0.3", optional = true }
 anyhow = { version = "1.0", optional = true }
-log = { version = "0.4", optional = true }
-env_logger = { version = "0.11", optional = true }
 tempfile = { version = "3.23", optional = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
@@ -118,3 +116,9 @@ name = "base_benchmark"
 required-features = ["bench"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = "symbols"

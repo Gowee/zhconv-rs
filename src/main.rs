@@ -4,7 +4,6 @@ use std::io::{self, Read, Write};
 use std::path::{Path, PathBuf};
 
 use anyhow::{Error, Result};
-use log::info;
 use structopt::{
     clap::AppSettings::{ColoredHelp, DeriveDisplayOrder},
     StructOpt,
@@ -113,7 +112,7 @@ fn main() -> Result<()> {
         let total = files.len();
         for (idx, path) in files.into_iter().enumerate() {
             let text = fs::read_to_string(&path)?;
-            info!(
+            eprintln!(
                 "Converting {} ... ({}/{})",
                 path.to_string_lossy(),
                 idx + 1,
