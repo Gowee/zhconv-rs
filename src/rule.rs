@@ -298,9 +298,8 @@ impl FromStr for Conv {
     #[allow(clippy::needless_as_bytes)]
     fn from_str(s: &str) -> Result<Conv, Self::Err> {
         let s = s.trim();
-        if s.is_empty() {
-            // TODO: return?
-        }
+        // Empty input parses to an empty `Conv::Map`. Falling through without an explicit
+        // early return achieves this because the loop below iterates over an empty string.
         let mut bid = HashMap::new();
         let mut unid = HashMap::new();
         // TODO: implement a clean iterator instead

@@ -176,7 +176,7 @@ impl<T> VariantMap<T> {
     }
 
     pub fn is_empty(&self) -> bool {
-        self.0.is_empty() // TODO: Deref
+        self.0.is_empty()
     }
 }
 
