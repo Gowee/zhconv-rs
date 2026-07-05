@@ -26,7 +26,7 @@ jobs:
         if: matrix.featureset.flag == ''
         run: |
           cargo build --features bin-build --bin zhconv --verbose
-- name: Test
+      - name: Test
         run: |
           cargo test --workspace ${{ matrix.featureset.flag }} --verbose
       - name: Check Format
