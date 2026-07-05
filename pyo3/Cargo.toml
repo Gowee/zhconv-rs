@@ -13,9 +13,16 @@ name = "zhconv_rs"
 crate-type = ["cdylib"]
 
 [features]
-default = ["zhconv/compress", "zhconv/mediawiki"]
-mediawiki = ["zhconv/mediawiki"]
-opencc = ["zhconv/opencc"]
+# Mirror zhconv's own [features] structure: top-level toggles (`compress`,
+# `mediawiki`) that the source's `#[cfg]` checks against; mid-level leaves
+# that the toggles activate; bottom-level aliases that propagate to the
+# dep. `default` enables the two most common paths (compressed tables +
+# mediawiki dicts); `opencc` is opt-in for the opencc-flavoured build
+# (maturin `-F opencc` for pyo3; manual `cargo --features opencc` for worker).
+default = ["compress", "mediawiki"]
+compress = ["zhconv/compress"]
+mediawiki = ["mediawiki-hans", "mediawiki-hant", "mediawiki-cn", "mediawiki-tw", "mediawiki-hk"]
+opencc = ["opencc-hans", "opencc-hant", "opencc-cn", "opencc-tw", "opencc-hk"]
 mediawiki-hans = ["zhconv/mediawiki-hans"]
 mediawiki-hant = ["zhconv/mediawiki-hant"]
 mediawiki-cn = ["zhconv/mediawiki-cn"]
@@ -26,7 +33,6 @@ opencc-hant = ["zhconv/opencc-hant"]
 opencc-cn = ["zhconv/opencc-cn"]
 opencc-tw = ["zhconv/opencc-tw"]
 opencc-hk = ["zhconv/opencc-hk"]
-
 [dependencies]
 zhconv = { path = "../", default-features = false }
 pyo3 = { version = "0.26", features = ["extension-module", "abi3-py39"] }

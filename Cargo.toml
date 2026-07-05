@@ -117,8 +117,26 @@ required-features = ["bench"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+# Fix for wasm-pack wasm-opt validation failure with Rust >= 1.87 (LLVM emits
+# bulk-memory ops without setting the feature flag).
+# See: https://github.com/rust-lang/rust/issues/141048
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = ["-O", "--enable-bulk-memory", "--enable-mutable-globals"]
+
 [profile.release]
 opt-level = 3
 lto = "fat"
 codegen-units = 1
 strip = "symbols"
+
+# The worker cdylib must NOT be stripped at LLD link time. The LLD
+# --strip-debug pass drops the wasm `target_features` custom section,
+# which wasm-bindgen 0.2.126 reads to detect reference-types for its
+# externref catch-wrapper transform. Stripping is done by wasm-opt
+# downstream instead. Per-crate override of a workspace profile field
+# is only supported via the [profile.<name>.package.<name>] form —
+# a member crate's own [profile.*] section is ignored when the
+# workspace has a matching one (cargo only warns, doesn't fail).
+# See: https://github.com/cloudflare/workers-rs/issues/1014
+[profile.release.package.zhconv-worker]
+strip = false

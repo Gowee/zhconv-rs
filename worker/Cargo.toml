@@ -10,15 +10,24 @@ version.workspace = true
 
 [package.metadata.release]
 release = false
-
-# https://github.com/rustwasm/wasm-pack/issues/1247
+# worker-build reads this section to populate its wasm-opt argument list,
+# then appends --all-features --debuginfo. Without --enable-bulk-memory,
+# Rust 1.87+ LLVM emits memory.copy/fill which wasm-opt then rejects
+# (rust-lang/rust#141048).
 [package.metadata.wasm-pack.profile.release]
-wasm-opt = false
+wasm-opt = ["-O", "--enable-bulk-memory", "--enable-mutable-globals"]
 
 [features]
-default = ["zhconv/compress", "zhconv/mediawiki"]
-mediawiki = ["zhconv/mediawiki"]
-opencc = ["zhconv/opencc"]
+# Mirror zhconv's own [features] structure: top-level toggles (`compress`,
+# `mediawiki`) that the source's `#[cfg]` checks against; mid-level leaves
+# that the toggles activate; bottom-level aliases that propagate to the
+# dep. `default` enables the two most common paths (compressed tables +
+# mediawiki dicts); `opencc` is opt-in for the opencc-flavoured build
+# (maturin `-F opencc` for pyo3; manual `cargo --features opencc` for worker).
+default = ["compress", "mediawiki"]
+compress = ["zhconv/compress"]
+mediawiki = ["mediawiki-hans", "mediawiki-hant", "mediawiki-cn", "mediawiki-tw", "mediawiki-hk"]
+opencc = ["opencc-hans", "opencc-hant", "opencc-cn", "opencc-tw", "opencc-hk"]
 mediawiki-hans = ["zhconv/mediawiki-hans"]
 mediawiki-hant = ["zhconv/mediawiki-hant"]
 mediawiki-cn = ["zhconv/mediawiki-cn"]

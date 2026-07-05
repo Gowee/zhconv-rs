@@ -3,7 +3,12 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2024-11-29"
 
 [build]
-command = "cargo install -q worker-build && worker-build --release"
+# RUSTFLAGS enables reference-types so wasm-bindgen 0.2.125 finds it in
+# the wasm target_features section when generating externref catch
+# wrappers (cloudflare/workers-rs#1014). worker-build's wasm-bindgen
+# invocation does not pass --reference-types. Combined with
+# strip = false in worker/Cargo.toml (preserving the section).
+command = "cargo install -q worker-build && RUSTFLAGS='-C target-feature=+reference-types' worker-build --release"
 
 [vars]
 # BODY_LIMIT = "2097152"
