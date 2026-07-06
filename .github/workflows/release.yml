@@ -82,6 +82,7 @@ jobs:
           mkdir -p bin
           cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-${{ matrix.target }}${{ matrix.binext }}"
       - name: Generate default platform package.json
+        shell: bash
         env:
           node_pkg: "@zhconv/cli-${{ matrix.platform }}"
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
@@ -94,6 +95,7 @@ jobs:
           version="${node_version#v}"
           version="$version" node_version="$version" envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-${{ matrix.platform }}/package.json
       - name: Generate opencc platform package.json
+        shell: bash
         env:
           node_pkg: "@zhconv/cli-opencc-${{ matrix.platform }}"
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
