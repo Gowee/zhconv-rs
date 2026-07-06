@@ -87,8 +87,8 @@ jobs:
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
           node_version: ${{ github.ref_name }}
           node_ext: ${{ matrix.binext }}
-          node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || matrix.platform startsWith 'darwin' && 'darwin' || 'win32' }}
-          node_cpu: ${{ matrix.platform endsWith 'x64' && 'x64' || 'arm64' }}
+          node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || startsWith(matrix.platform, 'darwin') && 'darwin' || 'win32' }}
+          node_cpu: ${{ endsWith(matrix.platform, 'x64') && 'x64' || 'arm64' }}
           node_libc: musl
         run: |
           version="${node_version#v}"
@@ -99,8 +99,8 @@ jobs:
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
           node_version: ${{ github.ref_name }}
           node_ext: ${{ matrix.binext }}
-          node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || matrix.platform startsWith 'darwin' && 'darwin' || 'win32' }}
-          node_cpu: ${{ matrix.platform endsWith 'x64' && 'x64' || 'arm64' }}
+          node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || startsWith(matrix.platform, 'darwin') && 'darwin' || 'win32' }}
+          node_cpu: ${{ endsWith(matrix.platform, 'x64') && 'x64' || 'arm64' }}
           node_libc: musl
         run: |
           version="${node_version#v}"
