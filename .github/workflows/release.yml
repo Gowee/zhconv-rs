@@ -63,20 +63,20 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p platforms/@zhconv/cli-${{ matrix.platform }}/bin
-          mkdir -p platforms/@zhconv/cli-opencc-${{ matrix.platform }}/bin
+          mkdir -p platforms/@zhconv/cli-${{ matrix.platform }}
+          mkdir -p platforms/@zhconv/cli-opencc-${{ matrix.platform }}
 
           # default (MediaWiki)
           ${{ matrix.cargo }} build --features bin-build --bin zhconv --release --target ${{ matrix.target }}
           cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
-             platforms/@zhconv/cli-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
-          chmod +x platforms/@zhconv/cli-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
+             platforms/@zhconv/cli-${{ matrix.platform }}/zhconv${{ matrix.binext }}
+          chmod +x platforms/@zhconv/cli-${{ matrix.platform }}/zhconv${{ matrix.binext }}
 
           # opencc (MediaWiki + OpenCC)
           ${{ matrix.cargo }} build --features bin-build --features opencc --bin zhconv --release --target ${{ matrix.target }}
           cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
-             platforms/@zhconv/cli-opencc-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
-          chmod +x platforms/@zhconv/cli-opencc-${{ matrix.platform }}/bin/zhconv${{ matrix.binext }}
+             platforms/@zhconv/cli-opencc-${{ matrix.platform }}/zhconv${{ matrix.binext }}
+          chmod +x platforms/@zhconv/cli-opencc-${{ matrix.platform }}/zhconv${{ matrix.binext }}
 
           # GitHub Release binaries (kept for backwards compat)
           mkdir -p bin
@@ -84,19 +84,27 @@ jobs:
       - name: Generate default platform package.json
         env:
           node_pkg: "@zhconv/cli-${{ matrix.platform }}"
+          # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
           node_version: ${{ github.ref_name }}
+          node_ext: ${{ matrix.binext }}
           node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || matrix.platform startsWith 'darwin' && 'darwin' || 'win32' }}
           node_cpu: ${{ matrix.platform endsWith 'x64' && 'x64' || 'arm64' }}
           node_libc: musl
-        run: envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-${{ matrix.platform }}/package.json
+        run: |
+          version="${node_version#v}"
+          version="$version" node_version="$version" envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-${{ matrix.platform }}/package.json
       - name: Generate opencc platform package.json
         env:
           node_pkg: "@zhconv/cli-opencc-${{ matrix.platform }}"
+          # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
           node_version: ${{ github.ref_name }}
+          node_ext: ${{ matrix.binext }}
           node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || matrix.platform startsWith 'darwin' && 'darwin' || 'win32' }}
           node_cpu: ${{ matrix.platform endsWith 'x64' && 'x64' || 'arm64' }}
           node_libc: musl
-        run: envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-opencc-${{ matrix.platform }}/package.json
+        run: |
+          version="${node_version#v}"
+          version="$version" node_version="$version" envsubst < npm-cli/package.json.tmpl > platforms/@zhconv/cli-opencc-${{ matrix.platform }}/package.json
       - name: Upload GitHub Release artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -150,17 +158,19 @@ jobs:
           version: ${{ github.ref_name }}
         run: |
           set -euo pipefail
+          # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
+          VERSION="${version#v}"
           mkdir -p published/@zhconv/cli/bin
           cp npm-cli/bin/zhconv.js published/@zhconv/cli/bin/
           cp npm-cli/README.md published/@zhconv/cli/
           cp LICENSE-GPL published/@zhconv/cli/LICENSE
-          VERSION="$version" envsubst < npm-cli/package.json > published/@zhconv/cli/package.json
+          node_version="$VERSION" envsubst < npm-cli/package.json > published/@zhconv/cli/package.json
 
           mkdir -p published/@zhconv/cli-opencc/bin
           cp npm-cli/bin/zhconv.js published/@zhconv/cli-opencc/bin/
           cp npm-cli/README.md published/@zhconv/cli-opencc/
           cp LICENSE-GPL published/@zhconv/cli-opencc/LICENSE
-          VERSION="$version" envsubst < npm-cli/package-opencc.json.tmpl > published/@zhconv/cli-opencc/package.json
+          node_version="$VERSION" envsubst < npm-cli/package-opencc.json.tmpl > published/@zhconv/cli-opencc/package.json
       - name: Publish platform packages (default)
         run: |
           set -euo pipefail
