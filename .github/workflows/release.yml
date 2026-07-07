@@ -7,8 +7,15 @@ on:
       - test
     tags:
       - v*
-  # release:
-  #   types: [created]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (without v prefix, e.g. 0.4.1-1)'
+        required: true
+        type: string
+
+env:
+  NODE_VERSION: '22'
 
 jobs:
   build:
@@ -86,7 +93,7 @@ jobs:
         env:
           node_pkg: "@zhconv/cli-${{ matrix.platform }}"
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
-          node_version: ${{ github.ref_name }}
+          node_version: ${{ inputs.version || github.ref_name }}
           node_ext: ${{ matrix.binext }}
           node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || startsWith(matrix.platform, 'darwin') && 'darwin' || 'win32' }}
           node_cpu: ${{ endsWith(matrix.platform, 'x64') && 'x64' || 'arm64' }}
@@ -99,7 +106,7 @@ jobs:
         env:
           node_pkg: "@zhconv/cli-opencc-${{ matrix.platform }}"
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
-          node_version: ${{ github.ref_name }}
+          node_version: ${{ inputs.version || github.ref_name }}
           node_ext: ${{ matrix.binext }}
           node_os: ${{ matrix.platform == 'linux-x64' && 'linux' || matrix.platform == 'linux-arm64' && 'linux' || startsWith(matrix.platform, 'darwin') && 'darwin' || 'win32' }}
           node_cpu: ${{ endsWith(matrix.platform, 'x64') && 'x64' || 'arm64' }}
@@ -138,7 +145,7 @@ jobs:
   npm-publish:
     name: Publish to npm
     needs: [build]
-    if: "startsWith(github.ref, 'refs/tags/')"
+    if: "inputs.version != '' || startsWith(github.ref, 'refs/tags/')"
     runs-on: ubuntu-latest
     environment: npm
     permissions:
@@ -153,11 +160,29 @@ jobs:
           merge-multiple: true
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://registry.npmjs.org'
+      - name: Debug npm configuration
+        run: |
+          set -euo pipefail
+          npm config list
+          npm whoami || echo "Not logged in"
+          npm token list || echo "No token list access"
+          echo "=== Version Info ==="
+          echo "NODE_VERSION: ${{ env.NODE_VERSION }}"
+          echo "INPUT_VERSION: ${{ inputs.version }}"
+          echo "GITHUB_REF_NAME: ${{ github.ref_name }}"
+          echo "=== Auth Env ==="
+          echo "NPM_CONFIG_USERCONFIG: ${NPM_CONFIG_USERCONFIG:-not set}"
+          echo "NODE_AUTH_TOKEN set: ${NODE_AUTH_TOKEN:+yes} (length: ${#NODE_AUTH_TOKEN})"
+          echo "ACTIONS_ID_TOKEN_REQUEST_URL: ${ACTIONS_ID_TOKEN_REQUEST_URL:-not set}"
+          echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+set}"
+          echo "=== OIDC Debug ==="
+          curl -s -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL" | head -c 500 || echo "OIDC request failed"
       - name: Assemble meta packages
         env:
-          version: ${{ github.ref_name }}
+          version: ${{ inputs.version || github.ref_name }}
         run: |
           set -euo pipefail
           # Strip leading 'v' from tag (e.g. v0.4.1-1 -> 0.4.1-1) so the version is valid semver
@@ -176,21 +201,24 @@ jobs:
       - name: Publish platform packages (default)
         run: |
           set -euo pipefail
+          echo "=== Checking platforms directory ==="
+          ls -la platforms/ 2>/dev/null || echo "platforms/ not found"
+          find platforms/ -type d -name "cli-*" 2>/dev/null || echo "No cli-* directories found"
           for dir in platforms/@zhconv/cli-*; do
-            [ -d "$dir" ] || continue
+            [ -d "$dir" ] || { echo "Skipping $dir - not a directory"; continue; }
             echo "Publishing $dir..."
-            (cd "$dir" && npm publish --access public)
+            (cd "$dir" && npm publish --access public --tag latest --loglevel verbose)
           done
       - name: Publish platform packages (opencc)
         run: |
           set -euo pipefail
           for dir in platforms/@zhconv/cli-opencc-*; do
-            [ -d "$dir" ] || continue
+            [ -d "$dir" ] || { echo "Skipping $dir - not a directory"; continue; }
             echo "Publishing $dir..."
-            (cd "$dir" && npm publish --access public)
+            (cd "$dir" && npm publish --access public --tag latest --loglevel verbose)
           done
       - name: Publish meta packages
         run: |
           set -euo pipefail
-          (cd published/@zhconv/cli && npm publish --access public)
-          (cd published/@zhconv/cli-opencc && npm publish --access public)
+          (cd published/@zhconv/cli && npm publish --access public --tag latest --loglevel verbose)
+          (cd published/@zhconv/cli-opencc && npm publish --access public --tag latest --loglevel verbose)
