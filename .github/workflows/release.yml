@@ -160,8 +160,6 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://registry.npmjs.org'
           auth-token: ${{ secrets.NPM_API_TOKEN }}
-      - name: Disable provenance
-        run: npm config set provenance false
       - name: Assemble meta packages
         env:
           version: ${{ inputs.version || github.ref_name }}
@@ -183,24 +181,21 @@ jobs:
       - name: Publish platform packages (default)
         run: |
           set -euo pipefail
-          echo "=== Checking platforms directory ==="
-          ls -la platforms/ 2>/dev/null || echo "platforms/ not found"
-          find platforms/ -type d -name "cli-*" 2>/dev/null || echo "No cli-* directories found"
-          echo "=== Package.json content ==="
-          cat platforms/@zhconv/cli-linux-x64/package.json 2>/dev/null || echo "package.json not found"
-          echo "=== Publishing first platform package with extra debug ==="
-          (cd platforms/@zhconv/cli-linux-x64 && npm publish --access public --tag latest --loglevel verbose 2>&1 | head -50)
-          echo "=== End of debug ==="
+          for dir in platforms/@zhconv/cli-linux-* platforms/@zhconv/cli-darwin-* platforms/@zhconv/cli-windows-*; do
+            [ -d "$dir" ] || { echo "Skipping $dir - not a directory"; continue; }
+            echo "Publishing $dir..."
+            (cd "$dir" && npm publish --access public --tag latest --no-provenance --loglevel verbose)
+          done
       - name: Publish platform packages (opencc)
         run: |
           set -euo pipefail
           for dir in platforms/@zhconv/cli-opencc-*; do
             [ -d "$dir" ] || { echo "Skipping $dir - not a directory"; continue; }
             echo "Publishing $dir..."
-            (cd "$dir" && npm publish --access public --tag latest --loglevel verbose)
+            (cd "$dir" && npm publish --access public --tag latest --no-provenance --loglevel verbose)
           done
       - name: Publish meta packages
         run: |
           set -euo pipefail
-          (cd published/@zhconv/cli && npm publish --access public --tag latest --loglevel verbose)
-          (cd published/@zhconv/cli-opencc && npm publish --access public --tag latest --loglevel verbose)
+          (cd published/@zhconv/cli && npm publish --access public --tag latest --no-provenance --loglevel verbose)
+          (cd published/@zhconv/cli-opencc && npm publish --access public --tag latest --no-provenance --loglevel verbose)
