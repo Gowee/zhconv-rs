@@ -172,12 +172,17 @@ jobs:
           echo "GITHUB_REF_NAME: ${{ github.ref_name }}"
           echo "=== Auth Env ==="
           echo "NPM_CONFIG_USERCONFIG: ${NPM_CONFIG_USERCONFIG:-not set}"
-          echo "NODE_AUTH_TOKEN set: ${NODE_AUTH_TOKEN:+yes} (length: ${#NODE_AUTH_TOKEN})"
+          echo "NODE_AUTH_TOKEN length: ${#NODE_AUTH_TOKEN}"
+          echo "NODE_AUTH_TOKEN prefix: ${NODE_AUTH_TOKEN:0:4}"
           echo "ACTIONS_ID_TOKEN_REQUEST_URL: ${ACTIONS_ID_TOKEN_REQUEST_URL:-not set}"
           echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+set}"
+          echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN length: ${#ACTIONS_ID_TOKEN_REQUEST_TOKEN}"
           echo "=== OIDC Debug ==="
           curl -s -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
-            "$ACTIONS_ID_TOKEN_REQUEST_URL" | head -c 500 || echo "OIDC request failed"
+            "$ACTIONS_ID_TOKEN_REQUEST_URL" 2>&1 | head -c 1000 || echo "OIDC request failed"
+          echo ""
+          echo "=== npm ping ==="
+          npm ping --registry https://registry.npmjs.org 2>&1 || echo "npm ping failed"
       - name: Assemble meta packages
         env:
           version: ${{ inputs.version || github.ref_name }}
