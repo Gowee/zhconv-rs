@@ -183,6 +183,14 @@ jobs:
           echo ""
           echo "=== npm ping ==="
           npm ping --registry https://registry.npmjs.org 2>&1 || echo "npm ping failed"
+          echo "=== Test OIDC token exchange ==="
+          curl -s -X POST -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
+            -H "Content-Type: application/json" \
+            -d "{\"audience\":\"npm:registry.npmjs.org\"}" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL" 2>&1 | head -c 500 || echo "OIDC token exchange failed"
+          echo ""
+          echo "=== Try npm view to check package access ==="
+          npm view @zhconv/cli versions --json 2>&1 || echo "npm view failed"
       - name: Assemble meta packages
         env:
           version: ${{ inputs.version || github.ref_name }}
