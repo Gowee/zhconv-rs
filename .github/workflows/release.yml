@@ -178,8 +178,12 @@ jobs:
           echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+set}"
           echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN length: ${#ACTIONS_ID_TOKEN_REQUEST_TOKEN}"
           echo "=== OIDC Debug ==="
-          curl -s -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
-            "$ACTIONS_ID_TOKEN_REQUEST_URL" 2>&1 | head -c 1000 || echo "OIDC request failed"
+          OIDC_RESPONSE=$(curl -s -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL" 2>&1)
+          echo "OIDC response: ${OIDC_RESPONSE}"
+          if command -v python3 &> /dev/null; then
+            echo "$OIDC_RESPONSE" | python3 -c "import sys,json,base64; d=json.load(sys.stdin); token=d.get('value',''); parts=token.split('.'); print('JWT header:', base64.b64decode(parts[0]+'===').decode())" 2>/dev/null || echo "Could not decode JWT"
+          fi
           echo ""
           echo "=== npm ping ==="
           npm ping --registry https://registry.npmjs.org 2>&1 || echo "npm ping failed"
