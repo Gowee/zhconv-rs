@@ -219,11 +219,11 @@ jobs:
           echo "=== Checking platforms directory ==="
           ls -la platforms/ 2>/dev/null || echo "platforms/ not found"
           find platforms/ -type d -name "cli-*" 2>/dev/null || echo "No cli-* directories found"
-          for dir in platforms/@zhconv/cli-*; do
-            [ -d "$dir" ] || { echo "Skipping $dir - not a directory"; continue; }
-            echo "Publishing $dir..."
-            (cd "$dir" && npm publish --access public --tag latest --loglevel verbose)
-          done
+          echo "=== Package.json content ==="
+          cat platforms/@zhconv/cli-linux-x64/package.json 2>/dev/null || echo "package.json not found"
+          echo "=== Publishing first platform package with extra debug ==="
+          (cd platforms/@zhconv/cli-linux-x64 && npm publish --access public --tag latest --loglevel verbose 2>&1 | head -50)
+          echo "=== End of debug ==="
       - name: Publish platform packages (opencc)
         run: |
           set -euo pipefail
