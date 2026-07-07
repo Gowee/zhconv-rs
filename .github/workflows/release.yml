@@ -148,7 +148,6 @@ jobs:
     environment: npm
     permissions:
       contents: read
-      id-token: write  # OIDC trusted publishing (npm >= 11.15.0, Node >= 22.14)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
@@ -160,41 +159,9 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://registry.npmjs.org'
-      - name: Debug npm configuration
-        run: |
-          set -euo pipefail
-          npm config list
-          npm whoami || echo "Not logged in"
-          npm token list || echo "No token list access"
-          echo "=== Version Info ==="
-          echo "NODE_VERSION: ${{ env.NODE_VERSION }}"
-          echo "INPUT_VERSION: ${{ inputs.version }}"
-          echo "GITHUB_REF_NAME: ${{ github.ref_name }}"
-          echo "=== Auth Env ==="
-          echo "NPM_CONFIG_USERCONFIG: ${NPM_CONFIG_USERCONFIG:-not set}"
-          echo "NODE_AUTH_TOKEN length: ${#NODE_AUTH_TOKEN}"
-          echo "NODE_AUTH_TOKEN prefix: ${NODE_AUTH_TOKEN:0:4}"
-          echo "ACTIONS_ID_TOKEN_REQUEST_URL: ${ACTIONS_ID_TOKEN_REQUEST_URL:-not set}"
-          echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+set}"
-          echo "ACTIONS_ID_TOKEN_REQUEST_TOKEN length: ${#ACTIONS_ID_TOKEN_REQUEST_TOKEN}"
-          echo "=== OIDC Debug ==="
-          OIDC_RESPONSE=$(curl -s -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
-            "$ACTIONS_ID_TOKEN_REQUEST_URL" 2>&1)
-          echo "OIDC response: ${OIDC_RESPONSE}"
-          if command -v python3 &> /dev/null; then
-            echo "$OIDC_RESPONSE" | python3 -c "import sys,json,base64; d=json.load(sys.stdin); token=d.get('value',''); parts=token.split('.'); print('JWT header:', base64.b64decode(parts[0]+'===').decode())" 2>/dev/null || echo "Could not decode JWT"
-          fi
-          echo ""
-          echo "=== npm ping ==="
-          npm ping --registry https://registry.npmjs.org 2>&1 || echo "npm ping failed"
-          echo "=== Test OIDC token exchange ==="
-          curl -s -X POST -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" \
-            -H "Content-Type: application/json" \
-            -d "{\"audience\":\"npm:registry.npmjs.org\"}" \
-            "$ACTIONS_ID_TOKEN_REQUEST_URL" 2>&1 | head -c 500 || echo "OIDC token exchange failed"
-          echo ""
-          echo "=== Try npm view to check package access ==="
-          npm view @zhconv/cli versions --json 2>&1 || echo "npm view failed"
+          auth-token: ${{ secrets.NPM_API_TOKEN }}
+      - name: Disable provenance
+        run: npm config set provenance false
       - name: Assemble meta packages
         env:
           version: ${{ inputs.version || github.ref_name }}
