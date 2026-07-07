@@ -120,13 +120,10 @@ jobs:
           name: binaries-${{ matrix.target }}
           path: bin/
       - name: Upload npm platform artifacts
-        working-directory: platforms
         uses: actions/upload-artifact@v4
         with:
           name: npm-platform-${{ matrix.platform }}
-          path: |
-            @zhconv/cli-${{ matrix.platform }}/
-            @zhconv/cli-opencc-${{ matrix.platform }}/
+          path: platforms
 
   release:
     runs-on: ubuntu-latest
