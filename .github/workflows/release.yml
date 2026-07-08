@@ -159,6 +159,13 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Set npm auth token
         run: echo "NODE_AUTH_TOKEN=${{ secrets.NPM_API_TOKEN }}" >> $GITHUB_ENV
+      - name: Restore executable bits on binaries
+        # GitHub Actions artifacts lose file mode on download, so
+        # re-chmod the binaries to make them executable in the published
+        # tarball (otherwise spawnSync in the launcher fails with EACCES).
+        run: |
+          set -euo pipefail
+          find platforms -type f -not -name '*.json' -exec chmod +x {} +
       - name: Assemble meta packages
         env:
           version: ${{ inputs.version || github.ref_name }}
