@@ -9,6 +9,7 @@ import Backdrop from "@mui/material/Backdrop";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Divider from "@mui/material/Divider";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 
 import RulesetSelector from "./RulesetSelector";
 import CGroupSelect from "./CGroupSelect";
@@ -43,12 +44,17 @@ function OptionsControl(
   },
   ref: ForwardedRef<OptionsControlHandle>,
 ) {
-  const { wasm } = useApp();
+  const { wasm, rulesetMode } = useApp();
   const loading = wasm === null;
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const controlDivRef = useRef<HTMLDivElement>(null);
   const convertButtonRef = useRef<HTMLButtonElement>(null);
+
+  const cliPackage = rulesetMode === "mediawiki" ? "@zhconv/cli" : "@zhconv/cli-opencc";
+  const wikitextFlag = wikitextSupport ? " --wikitext" : "";
+  const variantFlag = ` ${targetVariant.toLowerCase()}`;
+  const cliCommand = `npx ${cliPackage}${wikitextFlag}${variantFlag} < input.txt`;
 
   useImperativeHandle(ref, () => ({
     controlElement: controlDivRef.current,
@@ -111,6 +117,36 @@ function OptionsControl(
                 disabled={loading}
               />
             </Grid>
+          </Grid>
+          <Grid sx={{ flexBasis: "100%", display: "flex", justifyContent: "center", alignItems: "center", gap: 0.5, mt: 0.5 }}>
+            <Box
+              component="code"
+              sx={{
+                fontFamily: "monospace",
+                fontSize: "0.75rem",
+                color: "text.secondary",
+                userSelect: "all",
+              }}
+            >
+              <Box component="span" sx={{ color: "text.disabled", mr: 0.5, userSelect: "none" }}>
+                $
+              </Box>
+              {cliCommand}
+            </Box>
+            {rulesetMode === "opencc" && (
+              <Tooltip
+                title={
+                  <>
+                    @zhconv/cli-opencc bundles both MediaWiki &amp; OpenCC dicts (no OpenCC-only CLI package available).
+                    <br />/ @zhconv/cli-opencc 包含 MediaWiki 及 OpenCC 字典（暫無純 OpenCC CLI 版本）。
+                  </>
+                }
+              >
+                <InfoOutlinedIcon
+                  sx={{ fontSize: "0.85rem", cursor: "pointer", color: "text.secondary", opacity: 0.7 }}
+                />
+              </Tooltip>
+            )}
           </Grid>
         </Grid>
         <Divider
