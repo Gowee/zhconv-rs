@@ -30,6 +30,18 @@
 //! assert_eq!(zhconv("鼠曲草", Variant::ZhHant), "鼠麴草");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhHant), "阿拉伯聯合酋長國");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
+//! # for &target in zhconv::ENABLED_TARGET_VARIANTS {
+//! #     for text in [
+//! #         "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+//! #         "Formatter#start",
+//! #         "Open Chinese Convert (OpenCC) Dictionary",
+//! #         "File: Format: key value(s) License: Apache-2.0 Source: Used in configs:",
+//! #         "https://github.com/ByVoid/OpenCC",
+//! #         "~!@#$%^&*()_+`-={}|[]\\:\";'<>?,./ 1234567890",
+//! #     ] {
+//! #         assert_eq!(zhconv(text, target), text);
+//! #     }
+//! # }
 //! # }
 //! ```
 //!
