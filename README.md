@@ -10,7 +10,7 @@ zhconv-rs converts Chinese between Traditional, Simplified and regional variants
 
 🔗 **Web app (wasm):** <https://zhconv.pages.dev>
 
-⚙️ **Cli**: `npx @zhconv/cli zh-tw < input.txt` or `npx @zhconv/cli-opencc` for additional OpenCC dictionaries. Alternatively, `cargo install zhconv` or download from [releases](https://github.com/Gowee/zhconv-rs/releases).
+⚙️ **Cli**: `npx @zhconv/cli zh-tw < input.txt` or `npx @zhconv/cli-opencc zh-tw < input.txt` for additional OpenCC dictionaries. Alternatively, `cargo install zhconv --features bin-build` (or `--features "bin-build,opencc"`) or download from [releases](https://github.com/Gowee/zhconv-rs/releases).
 
 🦀 **Rust crate**: `cargo add zhconv` (see [docs](https://docs.rs/zhconv/latest/zhconv/) for details)
 
@@ -103,7 +103,7 @@ Unlike OpenCC, whose dictionaries are bidirectional (e.g., `s2t`, `tw2s`), zhcon
 *Note:*  `zh-TW` and `zh-HK` are derived from `zh-Hant`. `zh-CN` is derived from `zh-Hans`. Currently, `zh-MO` shares the same dictionary as `zh-HK`, and `zh-MY`/`zh-SG` share the same dictionary as `zh-CN`, unless additional rules are provided.
 </details>
 
-Chained dictionary groups from OpenCC are flattened and merged with the MediaWiki conversion table for each target variant, then compiled into an Aho-Corasick automaton at compile-time. After internal compression, the bundled conversion tables and automata occupy ~0.6 MiB (with MediWiki enabled only) or ~2.7 MiB (with both MediaWiki and OpenCC enabled).
+Chained dictionary groups from OpenCC are flattened and merged with the MediaWiki conversion table for each target variant, then compiled into an Aho-Corasick automaton at compile-time. After internal compression, the bundled conversion tables and automata occupy ~0.6 MiB (with MediaWiki enabled only) or ~2.7 MiB (with both MediaWiki and OpenCC enabled).
 
 ## Performance
 

@@ -27,7 +27,8 @@ if (target) {
 
 if (!subpath && !env.ZHCONV_BINARY) {
   console.error(`zhconv-cli: no prebuilt binary for ${platform}-${arch}.`);
-  console.error(`Build from source: cargo install zhconv --features bin-build`);
+  const features = prefix.includes("opencc") ? "bin-build,opencc" : "bin-build";
+  console.error(`Build from source: cargo install zhconv --features "${features}"`);
   console.error(`Or use the Python package: pip install zhconv-rs`);
   process.exit(1);
 }
