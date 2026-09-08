@@ -26,6 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed workspace feature propagation between `zhconv`, `zhconv-pyo3`, and `zhconv-worker` so regional conversion tables are properly bundled.
 - Fixed `clippy::iter_kv_map` warning by using `.values()`.
 - Crate packaging: configure explicit `include` allowlist in `Cargo.toml`, reducing `.crate` tarball from ~13 MB down to ~685 KB and preventing crates.io 10MB limit upload failures.
+- Fixed GitHub Actions release workflow to package both default and OpenCC binary variants for GitHub Releases.
+- Fixed `@zhconv/cli-opencc` launcher script to dynamically resolve `@zhconv/cli-opencc-*` platform packages instead of default packages.
 
 ## [0.4.1] - 2026-02-05
 

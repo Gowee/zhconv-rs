@@ -10,7 +10,7 @@ zhconv-rs converts Chinese between Traditional, Simplified and regional variants
 
 🔗 **Web app (wasm):** <https://zhconv.pages.dev>
 
-⚙️ **Cli**: `npx @zhconv/cli zh-tw < input.txt` or `npx @zhconv/cli-opencc` for additional OpenCC dictionaries. Alternatively, `cargo install zhconv` or downlaod from [releases](https://github.com/Gowee/zhconv-rs/releases).
+⚙️ **Cli**: `npx @zhconv/cli zh-tw < input.txt` or `npx @zhconv/cli-opencc` for additional OpenCC dictionaries. Alternatively, `cargo install zhconv` or download from [releases](https://github.com/Gowee/zhconv-rs/releases).
 
 🦀 **Rust crate**: `cargo add zhconv` (see [docs](https://docs.rs/zhconv/latest/zhconv/) for details)
 

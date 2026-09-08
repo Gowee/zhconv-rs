@@ -16,22 +16,12 @@ Requires Node.js 18+. The first run downloads the matching native binary for you
 
 ## Variants
 
-- **`@zhconv/cli`** — uses MediaWiki conversion tables (smaller binary, ~10 MB).
-- **`@zhconv/cli-opencc`** — includes BOTH MediaWiki and OpenCC tables (larger binary, ~20 MB). This matches Python's `zhconv-rs-opencc` package: it adds OpenCC dicts to the default MediaWiki dicts rather than replacing them. Use this if you need OpenCC-specific phrases (e.g., TW colloquialisms).
+- **`@zhconv/cli`** — uses MediaWiki conversion tables (smaller binary, ~3 MB).
+- **`@zhconv/cli-opencc`** — includes BOTH MediaWiki and OpenCC tables (larger binary, ~5 MB). This matches Python's `zhconv-rs-opencc` package: it adds OpenCC dicts to the default MediaWiki dicts rather than replacing them. Use this if you need OpenCC-specific phrases (e.g., TW colloquialisms).
 
 ## Usage
 
-```sh
-zhconv VARIANT [FILE...]
-zhconv zh-Hant                 # stdin → stdout
-zhconv zh-tw file.txt          # in-place edit
-zhconv --rule "X => Y" zh-cn   # custom rule
-zhconv --rules_file rules.txt zh-tw *.md
-zhconv --wikitext zh-mo article.txt
-zhconv --dump-table zh-hk      # print built-in table
-```
-
-Supported variants: `zh`, `zh-Hant`, `zh-Hans`, `zh-TW`, `zh-HK`, `zh-MO`, `zh-CN`, `zh-SG`, `zh-MY`.
+See the [GitHub repository](https://github.com/Gowee/zhconv-rs) for full documentation, CLI options, and usage examples.
 
 ## How it works
 
