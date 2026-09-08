@@ -401,6 +401,17 @@ fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
             from,
             to
         );
+        debug_assert!(
+            !from
+                .chars()
+                .any(|c| (SURROGATE_START..SURROGATE_END).contains(&c))
+                && !to
+                    .chars()
+                    .any(|c| (SURROGATE_START..SURROGATE_END).contains(&c)),
+            "Unexpected surrogate char in pair {} -> {}",
+            from,
+            to
+        );
         for c in pair_reduce(from.chars(), last_from.chars()) {
             write!(ffrom, "{}", c)?;
         }
@@ -447,7 +458,7 @@ fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
 }
 
 const SURROGATE_START: char = '\x00';
-const SURROGATE_END: char = '\x20';
+const SURROGATE_END: char = '\x20'; // exclusive
 
 // simple but efficient compression
 fn pair_reduce<'s>(
@@ -561,7 +572,16 @@ mod opencc {
         out_revconv: &mut HashMap<String, String>,
         s: &str,
     ) {
-        for line in s.lines().map(|l| l.trim()).filter(|l| !l.is_empty()) {
+        // Strip BOM if present,
+        // matching https://github.com/BYVoid/OpenCC/blob/master/src/Lexicon.cpp#L88
+        let s = s.strip_prefix('\u{feff}').unwrap_or(s);
+        for line in s
+            .lines()
+            .map(|l| l.trim())
+            // Ignore #-prefixed comment lines, but no trailing comments stripping,
+            // matching https://github.com/BYVoid/OpenCC/pull/1016
+            .filter(|l| !l.is_empty() && !l.starts_with('#'))
+        {
             if let Some((f, ts)) = line.split_once(char::is_whitespace) {
                 if f.is_empty() || ts.is_empty() {
                     continue;
