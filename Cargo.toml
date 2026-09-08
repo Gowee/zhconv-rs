@@ -22,6 +22,16 @@ edition.workspace = true
 license.workspace = true
 repository.workspace = true
 version.workspace = true
+include = [
+    "/src/**/*",
+    "/build.rs",
+    "/data/ZhConversion.php",
+    "/data/*.txt",
+    "/LICENSE*",
+    "/README.md",
+    "/CHANGELOG.md",
+    "/Cargo.toml",
+]
 
 [lib]
 crate-type = ["cdylib", "rlib"]

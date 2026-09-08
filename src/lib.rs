@@ -296,14 +296,13 @@ pub trait TruncatedAround {
     /// # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
     /// # {
     /// use zhconv::{TruncatedAround, is_hans};
-    /// use std::fs;
     ///
     /// let s = "鵲飛空繞樹月輪殊未圓";
     /// assert_eq!(s.len(), 30);
     /// assert_eq!(s.truncated_around(15), "鵲飛空繞樹");
     /// assert_eq!(s.truncated_around(100), s);
     ///
-    /// let ls = fs::read_to_string("benches/data3185k.txt").unwrap(); // long string
+    /// let ls = "鵲飛空繞樹月輪殊未圓".repeat(10_000); // long string
     /// let tls = ls.truncated_around(100 * 1024 + 123); // truncated to ~ 100KiB
     /// assert_eq!(is_hans(&ls), is_hans(&tls));
     /// # }

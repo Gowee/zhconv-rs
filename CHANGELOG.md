@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed Cloudflare Workers `externref` catch-wrapper transform by setting `strip = false` and passing `-C target-feature=+reference-types`.
 - Fixed workspace feature propagation between `zhconv`, `zhconv-pyo3`, and `zhconv-worker` so regional conversion tables are properly bundled.
 - Fixed `clippy::iter_kv_map` warning by using `.values()`.
+- Crate packaging: configure explicit `include` allowlist in `Cargo.toml`, reducing `.crate` tarball from ~13 MB down to ~685 KB and preventing crates.io 10MB limit upload failures.
 
 ## [0.4.1] - 2026-02-05
 
