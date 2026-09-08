@@ -46,44 +46,44 @@ const MEDIAWIKI_SHA256: [u8; 32] =
     hex!("5cb0019b32bb39ec5c6e662029f90bd166f7a844efb3bc877f9be41fdd511bf2");
 
 #[cfg(feature = "_opencc-base")]
-const OPENCC_COMMIT: &str = "eec2a142e9debfc2c6070d349a4bd183c4a5e046";
+const OPENCC_COMMIT: &str = "26753884f1984add422f3b0249ccee8613deaff6";
 #[cfg(feature = "_opencc-base")]
 const OPENCC_SHA256: [(&str, [u8; 32]); 9] = [
     (
         "HKVariants.txt",
-        hex!("a5ea8ec2061f066bc7c2b4679ea32efb8e169b9b0ce3fb8d0ce6caed65d7df4f"),
+        hex!("e5cd4345303224587102f2c9e4d2b67d2b7e349c6ce9152e4a118f4656cf7302"),
     ),
     (
         "HKVariantsRevPhrases.txt",
-        hex!("5e9fdcd7c9e4cef05307ce24ebacf521bc785ad259cf4ef010337296327ed300"),
+        hex!("35352aef4833c2631b2144bc85623cc44d5a09221dda9c32178ea024300d34d3"),
     ),
     (
         "STCharacters.txt",
-        hex!("9cedfb8bf13a220087103d9a96d9f56050c341c24a809cbce5c85c9045456557"),
+        hex!("a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b"),
     ),
     (
         "STPhrases.txt",
-        hex!("5d38237b501359b9313bbdd5f7988106a5d9532cc77fb35d16b3e6bf6a36f32b"),
+        hex!("f6eab5e5c6dd7640597878d3dfc6599ee1279d2bc91561eadd8e114194e2925a"),
     ),
     (
         "TSCharacters.txt",
-        hex!("ad870b4feeb494cfa7b3b05242bd79af574b22f6b2bdeb89a1633e4b50ed0a3c"),
+        hex!("737c21c66f55a419dd6956cb3089476cdefc5a36877452631617696df1e5d925"),
     ),
     (
         "TSPhrases.txt",
-        hex!("54170de095c6d389d557d0d0b0e1a10033f397d4feca80aaa30a74a67836f43a"),
+        hex!("362fa1b9a7d6edd04b462a32e12c9fef3adae822ab1dee9c83561cc37c06cb1f"),
     ),
     (
         "TWPhrases.txt",
-        hex!("e3b255a8e258a95e957a7ba1444ad1c54ae7f432181ad7296063adfa9f777cf8"),
+        hex!("bcb435b744ee3e522beb9b18fcc5486a36ed4763c6aa642ce18112fb5d604e31"),
     ),
     (
         "TWVariants.txt",
-        hex!("89473e96e3f61e9bd3f2e303b9d88ac9caa61effb1faadcef94ff5e65b8ed54b"),
+        hex!("e187278e119c427ca561180ac5da5b20e9f8681190458f35c327ce499e95a6a5"),
     ),
     (
         "TWVariantsRevPhrases.txt",
-        hex!("6b58c0687af26b13cde81c1442dd6f570cc93f398c7ff361782244b47941ff43"),
+        hex!("5ebfb4bdc938c2b14e01ace378988d5d3dc12462b3496ef1d424951ccd371256"),
     ),
 ];
 

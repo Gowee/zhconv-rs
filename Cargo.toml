@@ -9,7 +9,7 @@ edition = "2021"
 # license (excluding bundled conversion tables) = "MIT OR Apache-2.0"
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-version = "0.4.1-1"
+version = "0.4.2"
 
 [workspace.lints]
 
