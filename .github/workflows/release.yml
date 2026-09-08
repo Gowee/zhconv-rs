@@ -70,6 +70,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          mkdir -p bin
           mkdir -p platforms/@zhconv/cli-${{ matrix.platform }}
           mkdir -p platforms/@zhconv/cli-opencc-${{ matrix.platform }}
 
@@ -78,16 +79,16 @@ jobs:
           cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
              platforms/@zhconv/cli-${{ matrix.platform }}/zhconv${{ matrix.binext }}
           chmod +x platforms/@zhconv/cli-${{ matrix.platform }}/zhconv${{ matrix.binext }}
+          cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
+             "bin/zhconv-${{ matrix.target }}${{ matrix.binext }}"
 
           # opencc (MediaWiki + OpenCC)
           ${{ matrix.cargo }} build --features bin-build --features opencc --bin zhconv --release --target ${{ matrix.target }}
           cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
              platforms/@zhconv/cli-opencc-${{ matrix.platform }}/zhconv${{ matrix.binext }}
           chmod +x platforms/@zhconv/cli-opencc-${{ matrix.platform }}/zhconv${{ matrix.binext }}
-
-          # GitHub Release binaries (kept for backwards compat)
-          mkdir -p bin
-          cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} "bin/zhconv-${{ matrix.target }}${{ matrix.binext }}"
+          cp target/${{ matrix.target }}/release/zhconv${{ matrix.binext }} \
+             "bin/zhconv-opencc-${{ matrix.target }}${{ matrix.binext }}"
       - name: Generate default platform package.json
         shell: bash
         env:
