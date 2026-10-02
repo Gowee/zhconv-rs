@@ -70,17 +70,17 @@ opencc-twp = []
 # Compress bundled prebuilt automata with zstd
 # (recommended, since the decompression overhead during initialization is negligible, considering
 # the I/O savings)
-compress = ["zstd", "ruzstd"]
+compress = ["dep:zstd", "dep:ruzstd"]
 
-wasm = []
+wasm = ["dep:itertools"]
 
-bin-build = ["structopt", "anyhow", "tempfile"]
+bin-build = ["dep:structopt", "dep:anyhow", "dep:tempfile"]
 bench = []
+serde = ["dep:serde"]
 
 [dependencies]
 daachorse = "1.0"
-itertools = "0.14"
-once_cell = "1.21"
+itertools = { version = "0.14", optional = true }
 regex = "1.12"
 ruzstd = { version = "0.8", optional = true }
 strum = { version = "0.27", features = ["derive"] }
@@ -108,13 +108,11 @@ console_error_panic_hook = { version = "0.1" } #, default-features = true, optio
 
 [dev-dependencies]
 criterion = "0.7"
-wasm-bindgen-test = "0.3"
+# wasm-bindgen-test = "0.3"
 
 [build-dependencies]
 daachorse = "1.0"
 hex-literal = "1.1"
-itertools = "0.14"
-once_cell = "1.8"
 regex = "1.5"
 sha2 = "0.10"
 vergen = { version = "8.2", features = ["build", "git", "gitcl"] }
