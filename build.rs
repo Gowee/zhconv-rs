@@ -451,10 +451,16 @@ fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
         .serialize();
 
     #[cfg(feature = "compress")]
-    let daac = zstd::bulk::Compressor::new(21)
-        .unwrap()
-        .compress(&daac)
-        .unwrap();
+    let daac = {
+        let window_log = (daac.len().next_power_of_two().trailing_zeros()).clamp(17, 22);
+        let mut encoder = zstd::stream::Encoder::new(Vec::new(), 19)?;
+        encoder.set_pledged_src_size(Some(daac.len() as u64))?;
+        encoder.window_log(window_log)?;
+        encoder.include_checksum(false)?;
+        use std::io::Write;
+        encoder.write_all(&daac)?;
+        encoder.finish()?
+    };
 
     File::create(dest_path_daac)?.write_all(&daac)
 }

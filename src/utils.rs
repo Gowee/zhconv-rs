@@ -19,9 +19,21 @@ pub(crate) use for_wasm;
 
 #[cfg(feature = "compress")]
 pub fn zstd_decompress(bytes: &[u8]) -> Vec<u8> {
-    use std::io::Read;
+    let mut decoder = ruzstd::decoding::FrameDecoder::new();
+    let mut cursor = bytes;
+    if decoder.init(&mut cursor).is_ok() {
+        let size = decoder.content_size() as usize;
+        if size > 0 {
+            let mut buf = vec![0u8; size];
+            if let Ok(written) = decoder.decode_all(bytes, &mut buf) {
+                buf.truncate(written);
+                return buf;
+            }
+        }
+    }
 
-    let mut buf = vec![];
+    use std::io::Read;
+    let mut buf = Vec::new();
     ruzstd::decoding::StreamingDecoder::new(bytes)
         .unwrap()
         .read_to_end(&mut buf)
