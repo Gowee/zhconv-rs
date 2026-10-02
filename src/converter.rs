@@ -755,6 +755,8 @@ impl<'t> ZhConverterBuilder<'t> {
             Some(
                 CharwiseDoubleArrayAhoCorasickBuilder::new()
                     .match_kind(MatchKind::LeftmostLongest)
+                    // Disable prefilter: conversion tables have high text coverage, so prefiltering cannot skip ahead and only adds overhead.
+                    .use_prefilter(false)
                     .build(sequence.map(|(f, t)| {
                         target_words.push(t);
                         f

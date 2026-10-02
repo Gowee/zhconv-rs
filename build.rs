@@ -434,6 +434,8 @@ fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
     let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
     let daac = CharwiseDoubleArrayAhoCorasickBuilder::new()
         .match_kind(MatchKind::LeftmostLongest)
+        // Disable prefilter: conversion tables have high text coverage, so prefiltering cannot skip ahead and only adds overhead.
+        .use_prefilter(false)
         .build_with_values::<_, _, u32>(pairs.iter().enumerate().rev().filter_map(
             |(i, (f, _t))| {
                 // Note the rev here, which ensures later rules take precedence over earlier ones.
