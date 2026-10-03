@@ -1,9 +1,11 @@
 /// Generates conversion tables and data structures for Chinese character/phrase conversion.
 ///
 /// This build script:
-/// - Loads MediaWiki conversion rulesets from `ZhConversion.php`
-/// - Optionally merges OpenCC (Open Chinese Convert) rulesets when the "opencc" feature is enabled
-/// - Validates file integrity using SHA256 checksums
+/// - Loads MediaWiki conversion rulesets via `zhconv-data-mediawiki`
+/// - Optionally merges OpenCC rulesets via `zhconv-data-opencc`
+///   (each data crate parses its raw dataset internally and returns
+///   structured pairs; merging, sorting and codegen stay here so the
+///   per-target output remains a single automaton)
 /// - Sorts conversion pairs by length (longest first) and lexicographically
 /// - Deduplicates pairs, retaining only the first rule for each source mapping
 /// - Generates three types of output files:
@@ -31,61 +33,7 @@ use std::iter;
 use std::path::Path;
 
 use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
-#[cfg(any(feature = "_mediawiki-base", feature = "_opencc-base"))]
-use hex_literal::hex;
 use vergen::EmitBuilder;
-
-#[cfg(feature = "_opencc-base")]
-use self::opencc::load_opencc_to;
-
-// To update upstream rulesets, run `data/update_basic.py and cargo fmt`.
-#[cfg(feature = "_mediawiki-base")]
-const MEDIAWIKI_COMMIT: &str = "ecf4342132cf089ac0c42436827e9038a738bb6f";
-#[cfg(feature = "_mediawiki-base")]
-const MEDIAWIKI_SHA256: [u8; 32] =
-    hex!("5cb0019b32bb39ec5c6e662029f90bd166f7a844efb3bc877f9be41fdd511bf2");
-
-#[cfg(feature = "_opencc-base")]
-const OPENCC_COMMIT: &str = "26753884f1984add422f3b0249ccee8613deaff6";
-#[cfg(feature = "_opencc-base")]
-const OPENCC_SHA256: [(&str, [u8; 32]); 9] = [
-    (
-        "HKVariants.txt",
-        hex!("e5cd4345303224587102f2c9e4d2b67d2b7e349c6ce9152e4a118f4656cf7302"),
-    ),
-    (
-        "HKVariantsRevPhrases.txt",
-        hex!("35352aef4833c2631b2144bc85623cc44d5a09221dda9c32178ea024300d34d3"),
-    ),
-    (
-        "STCharacters.txt",
-        hex!("a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b"),
-    ),
-    (
-        "STPhrases.txt",
-        hex!("f6eab5e5c6dd7640597878d3dfc6599ee1279d2bc91561eadd8e114194e2925a"),
-    ),
-    (
-        "TSCharacters.txt",
-        hex!("737c21c66f55a419dd6956cb3089476cdefc5a36877452631617696df1e5d925"),
-    ),
-    (
-        "TSPhrases.txt",
-        hex!("362fa1b9a7d6edd04b462a32e12c9fef3adae822ab1dee9c83561cc37c06cb1f"),
-    ),
-    (
-        "TWPhrases.txt",
-        hex!("bcb435b744ee3e522beb9b18fcc5486a36ed4763c6aa642ce18112fb5d604e31"),
-    ),
-    (
-        "TWVariants.txt",
-        hex!("e187278e119c427ca561180ac5da5b20e9f8681190458f35c327ce499e95a6a5"),
-    ),
-    (
-        "TWVariantsRevPhrases.txt",
-        hex!("5ebfb4bdc938c2b14e01ace378988d5d3dc12462b3496ef1d424951ccd371256"),
-    ),
-];
 
 const DELIMITER: &str = "|";
 
@@ -110,17 +58,17 @@ fn main() -> io::Result<()> {
         }
     }
     #[cfg(feature = "_mediawiki-base")]
-    log_diag!("MEDIAWIKI_COMMIT={}\n", MEDIAWIKI_COMMIT)?;
+    log_diag!(
+        "MEDIAWIKI_COMMIT={}\n",
+        zhconv_data_mediawiki::MEDIAWIKI_COMMIT
+    )?;
     #[cfg(feature = "_opencc-base")]
-    log_diag!("OPENCC_COMMIT={}\n", OPENCC_COMMIT)?;
+    log_diag!("OPENCC_COMMIT={}\n", zhconv_data_opencc::OPENCC_COMMIT)?;
     let start_time = std::time::Instant::now();
 
-    // Load Mediawiki rulesets
+    // Load MediaWiki rulesets (parsed inside the data crate)
     #[cfg(feature = "_mediawiki-base")]
-    let mut zhconvs = parse_mediawiki(&read_and_validate_file(
-        "data/ZhConversion.php",
-        &MEDIAWIKI_SHA256,
-    ));
+    let mut zhconvs = zhconv_data_mediawiki::parse();
     #[cfg(not(feature = "_mediawiki-base"))]
     let mut zhconvs: HashMap<String, Vec<(String, String)>> = HashMap::new();
 
@@ -134,7 +82,10 @@ fn main() -> io::Result<()> {
         #[allow(unused_mut)]
         let mut pairs = zhconvs.entry(name.to_owned()).or_default();
         log_diag!("Processing {}: MediaWiki.len = {}", name, pairs.len())?;
-        // Load and append OpenCC dicts
+        // Load and append OpenCC dicts (staged/flattened inside the data crate).
+        // The per-target config mapping below mirrors OpenCC's
+        // `data/config/*.json`; only the call site lives here so feature
+        // gating stays with the main crate.
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
 
         // Note: The conversion of OpenCC takes multi-pass for applying dict groups step by step.
@@ -149,87 +100,26 @@ fn main() -> io::Result<()> {
             #[cfg(any(feature = "opencc-hans", feature = "opencc-cn"))]
             "ZH_TO_HANS" => {
                 // config: t2s
-                load_opencc_to!(&mut pairs, [TSCharacters, TSPhrases]);
-
-                // OpenCC has rules for de-regionalization when targeting zh-hans/hant,
-                // which are not present in https://opencc.byvoid.com.
-                // We decide to avoid here, also to keep consistency with Mediawiki's behavior.
-                // // config: hk2s & tw2s & t2s
-                // load_opencc_to!(
-                //     &mut pairs,
-                //     [HKVariantsRevPhrases, !HKVariants],
-                //     [TSCharacters, TSPhrases]
-                // );
-                // load_opencc_to!(
-                //     &mut pairs,
-                //     [TWVariantsRevPhrases, !TWVariants],
-                //     [TSCharacters, TSPhrases]
-                // );
+                zhconv_data_opencc::load_hans_pairs(pairs);
             }
             // Used when targeting either zh-hant, zh-hk or zh-tw
             #[cfg(any(feature = "opencc-hant", feature = "opencc-tw", feature = "opencc-hk"))]
             "ZH_TO_HANT" => {
                 // config: s2t
-                load_opencc_to!(&mut pairs, [STCharacters, STPhrases]);
-
-                // ditto
-                // // config: hk2t & tw2t
-                // load_opencc_to!(&mut pairs, [HKVariantsRevPhrases, !HKVariants]);
-                // load_opencc_to!(&mut pairs, [TWVariantsRevPhrases, !TWVariants]);
+                zhconv_data_opencc::load_hant_pairs(pairs);
             }
             #[cfg(feature = "opencc-tw")]
             "ZH_TO_TW" => {
-                // twp appears too aggressive for general use, so we make it optional.
-                // For example, 电视频段 -> 電影片段 (#8), 雄壮的士兵 -> 雄壮計程車兵.
-                if cfg!(feature = "opencc-twp") {
-                    // config: s2tw & s2twp & t2tw
-                    load_opencc_to!(
-                        &mut pairs,
-                        [STPhrases, STCharacters],
-                        [TWPhrases],
-                        [TWVariants]
-                    );
-                } else {
-                    // config: s2tw & t2tw
-                    load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [TWVariants]);
-                }
+                zhconv_data_opencc::load_tw_pairs(pairs, cfg!(feature = "opencc-twp"));
             }
             #[cfg(feature = "opencc-hk")]
             "ZH_TO_HK" => {
                 // config: s2hk & t2hk
-                load_opencc_to!(&mut pairs, [STPhrases, STCharacters], [HKVariants]);
+                zhconv_data_opencc::load_hk_pairs(pairs);
             }
             #[cfg(feature = "opencc-cn")]
             "ZH_TO_CN" => {
-                // OpenCC has no dicts for CN-specific phrases, we just do tw2s and hk2s here in
-                // addition to t2s when targeting zh-cn.
-                if cfg!(feature = "opencc-twp") {
-                    // config: tw2sp
-                    // "!TWVariants" is deliberately omitted here
-                    load_opencc_to!(
-                        &mut pairs,
-                        [!TWPhrases, TWVariantsRevPhrases],
-                        [TSPhrases, TSCharacters]
-                    );
-                } else {
-                    // config: tw2s
-                    // "!TWVariants" is deliberately omitted here to prevent misconversions like
-                    // `么 -> 幺, 抬 -> 檯, 著 -> 着`.
-                    // Since TSCharacters should have covered conversions of character variants,
-                    // this is not expected to incur any side effects.
-                    load_opencc_to!(
-                        &mut pairs,
-                        [TWVariantsRevPhrases],
-                        [TSPhrases, TSCharacters]
-                    );
-                }
-                // config: hk2s
-                // "!HKVariants" is deliberately omitted here.
-                load_opencc_to!(
-                    &mut pairs,
-                    [HKVariantsRevPhrases],
-                    [TSPhrases, TSCharacters]
-                );
+                zhconv_data_opencc::load_cn_pairs(pairs, cfg!(feature = "opencc-twp"));
             }
             // "ZH_TO_MO" => {}
             // "ZH_TO_SG" => {}
@@ -337,48 +227,19 @@ fn main() -> io::Result<()> {
         }
     }
     #[cfg(feature = "_mediawiki-base")]
-    println!("cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}", MEDIAWIKI_COMMIT);
+    println!(
+        "cargo:rustc-env=MEDIAWIKI_COMMIT_HASH={}",
+        zhconv_data_mediawiki::MEDIAWIKI_COMMIT
+    );
     #[cfg(feature = "_opencc-base")]
-    println!("cargo:rustc-env=OPENCC_COMMIT_HASH={}", OPENCC_COMMIT);
+    println!(
+        "cargo:rustc-env=OPENCC_COMMIT_HASH={}",
+        zhconv_data_opencc::OPENCC_COMMIT
+    );
     println!("cargo:rerun-if-changed=build.rs");
-    #[cfg(feature = "_mediawiki-base")]
-    println!("cargo:rerun-if-changed=data/ZhConversion.php");
-    #[cfg(feature = "_opencc-base")]
-    for (opencc, _) in OPENCC_SHA256.iter() {
-        println!("cargo:rerun-if-changed=data/{}", opencc);
-    }
     println!("cargo:rerun-if-changed=Cargo.toml");
 
     Ok(())
-}
-
-#[cfg(feature = "_mediawiki-base")]
-fn parse_mediawiki(text: &str) -> HashMap<String, Vec<(String, String)>> {
-    let patb = regex::Regex::new(r"public const (\w+) = \[([^]]+)\]?;").unwrap();
-    let patl = regex::Regex::new(r"'(.+?)' *=> *'(.+?)' *,?\n").unwrap();
-    let mut res = HashMap::new();
-
-    for block in patb.captures_iter(text) {
-        let name = block.get(1).unwrap().as_str();
-        let body = block.get(2).unwrap().as_str();
-        let mut pairs = vec![];
-        for line in patl.captures_iter(body) {
-            let from = line.get(1).unwrap().as_str();
-            let to = line.get(2).unwrap().as_str();
-            pairs.push((from.to_owned(), to.to_owned()));
-        }
-        assert!(res.insert(name.to_owned(), pairs).is_none());
-    }
-    for name in [
-        "ZH_TO_HANS",
-        "ZH_TO_HANT",
-        "ZH_TO_CN",
-        "ZH_TO_TW",
-        "ZH_TO_HK",
-    ] {
-        assert!(res.contains_key(name));
-    }
-    res
 }
 
 fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
@@ -503,194 +364,4 @@ fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {
     // earlier rules take precedence
     pairs.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.0.cmp(&b.0)));
     pairs.dedup_by(|a, b| a.0 == b.0);
-}
-
-#[cfg(feature = "_opencc-base")]
-mod opencc {
-
-    use daachorse::{
-        CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind,
-    };
-    // use aho_corasick::{AhoCorasick, AhoCorasickBuilder, MatchKind};
-    use std::collections::HashMap;
-    use std::sync::LazyLock;
-
-    use super::OPENCC_SHA256;
-
-    pub static OPENCC_SHA256_MAP: LazyLock<HashMap<String, [u8; 32]>> = LazyLock::new(|| {
-        OPENCC_SHA256
-            .into_iter()
-            .map(|(n, s)| (n.to_owned(), s))
-            .collect()
-    });
-
-    macro_rules! load_opencc_to {
-        ( @read_to $out_conv: expr, $out_revconv: expr, $name: ident) => {
-            let s = read_and_validate_file(concat!("data/", stringify!($name), ".txt"), crate::opencc::OPENCC_SHA256_MAP.get(stringify!($name.txt)).expect(stringify!($name.txt not found)));
-            crate::opencc::parse_opencc_to($out_conv, $out_revconv, &s);
-        };
-        ( @parse_to $out_conv: expr, $out_revconv: expr, $name: ident, $($remainings: tt)* ) => {
-            load_opencc_to!(@read_to $out_conv, $out_revconv, $name);
-            load_opencc_to!(@parse_to $out_conv, $out_revconv, $($remainings)*);
-        };
-        ( @parse_to $out_conv: expr, $out_revconv: expr, $name: ident ) => {
-            load_opencc_to!(@read_to $out_conv, $out_revconv, $name);
-        };
-        ( @parse_to $out_conv: expr, $out_revconv: expr, ! $name: ident, $($remainings: tt)* ) => {
-            load_opencc_to!(@read_to $out_revconv, $out_conv, $name);
-            load_opencc_to!(@parse_to $out_conv, $out_revconv, $($remainings)*);
-        };
-        ( @parse_to $out_conv: expr, $out_revconv: expr, ! $name: ident ) => {
-            load_opencc_to!(@read_to $out_revconv, $out_conv, $name);
-        };
-        ( @load_stage $out: expr, $prev_stage: ident, [ $($rule: tt)+ ] ) => {
-            let (mut prev_convs, prev_revconvs): (HashMap<String, String>, HashMap<String, String>) = $prev_stage.unwrap_or_else(|| (HashMap::new(), HashMap::new()));
-            let mut convs: HashMap<String, String> = HashMap::new();
-            let mut revconvs: HashMap<String, String> = HashMap::new();
-            load_opencc_to!(@parse_to &mut convs, &mut revconvs, $($rule)*);
-            let conver: crate::opencc::SimpleConverter = convs.clone().into();
-            let prev_revconver: crate::opencc::SimpleConverter = prev_revconvs.clone().into();
-            for (_f, t) in prev_convs.iter_mut() {
-                *t = conver.convert(t);
-            }
-            for (f, t) in convs.iter() {
-                prev_convs.insert(f.clone(), t.clone());
-                let ff = prev_revconver.convert(f);
-                if &ff != f && &ff != t /* ? */ {
-                    prev_convs.insert(ff.to_owned(), t.to_owned());
-                }
-            }
-            for (_f, t) in revconvs.iter_mut() {
-                *t = prev_revconver.convert(t);
-            }
-            revconvs.extend(prev_revconvs.iter().map(|(f, t)| (conver.convert(f), t.to_owned())));
-            revconvs.extend(prev_revconvs.iter().map(|(f, t)| (f.to_owned(), t.to_owned())));
-            $prev_stage = Some((prev_convs, revconvs));
-        };
-        ( $out: expr, $($stage: tt),+ ) => {
-            let mut prev_stage = None;
-            $(load_opencc_to!(@load_stage $out, prev_stage, $stage);)*
-            let (convs, _) = prev_stage.unwrap();
-            $out.extend(convs.into_iter());
-        };
-    }
-    pub(crate) use load_opencc_to;
-    pub fn parse_opencc_to(
-        out_conv: &mut HashMap<String, String>,
-        out_revconv: &mut HashMap<String, String>,
-        s: &str,
-    ) {
-        // Strip BOM if present,
-        // matching https://github.com/BYVoid/OpenCC/blob/master/src/Lexicon.cpp#L88
-        let s = s.strip_prefix('\u{feff}').unwrap_or(s);
-        for line in s
-            .lines()
-            .map(|l| l.trim())
-            // Ignore #-prefixed comment lines, but no trailing comments stripping,
-            // matching https://github.com/BYVoid/OpenCC/pull/1016
-            .filter(|l| !l.is_empty() && !l.starts_with('#'))
-        {
-            if let Some((f, ts)) = line.split_once(char::is_whitespace) {
-                if f.is_empty() || ts.is_empty() {
-                    continue;
-                }
-                let ts: Vec<_> = ts.split_whitespace().collect();
-                if !(ts.len() > 1 && ts.contains(&f)) {
-                    // be conservative when converting
-                    // e.g. 范 -> 範 范 can be simply eliminated
-                    out_conv.insert(f.to_owned(), ts[0].to_owned());
-                }
-                for t in ts {
-                    if !out_revconv.contains_key(t) {
-                        out_revconv.insert(t.to_owned(), f.to_owned());
-                    }
-                }
-            }
-        }
-    }
-
-    /// Simplified `ZhConverter` implementation for pre-processing rulesets from OpenCC
-    pub struct SimpleConverter {
-        automaton: Option<CharwiseDoubleArrayAhoCorasick<usize>>,
-        target_words: Vec<String>,
-    }
-
-    impl From<HashMap<String, String>> for SimpleConverter {
-        fn from(mapping: HashMap<String, String>) -> Self {
-            let mut target_words = Vec::with_capacity(mapping.len());
-            let automaton = if mapping.is_empty() {
-                None
-            } else {
-                Some(
-                    CharwiseDoubleArrayAhoCorasickBuilder::new()
-                        .match_kind(MatchKind::LeftmostLongest)
-                        .build(mapping.into_iter().map(|(f, t)| {
-                            target_words.push(t);
-                            f
-                        }))
-                        .expect("Conversion table is valid"),
-                )
-            };
-            Self {
-                automaton,
-                target_words,
-            }
-        }
-    }
-
-    impl SimpleConverter {
-        #[allow(dead_code)]
-        pub fn build<'s>(pairs: impl Iterator<Item = (&'s str, &'s str)>) -> Self {
-            let mapping = HashMap::from_iter(pairs.map(|(a, b)| (a.to_owned(), b.to_owned())));
-            mapping.into()
-        }
-
-        pub fn convert(&self, text: &str) -> String {
-            match &self.automaton {
-                Some(automaton) => {
-                    let mut output = String::new();
-                    let mut last = 0;
-                    // leftmost-longest matching
-                    for (s, e, ti) in automaton
-                        .leftmost_find_iter(text)
-                        .map(|m| (m.start(), m.end(), m.value()))
-                    {
-                        if s > last {
-                            output.push_str(&text[last..s]);
-                        }
-                        output.push_str(&self.target_words[ti]);
-                        last = e;
-                    }
-                    output.push_str(&text[last..]);
-                    output
-                }
-                None => String::from(text),
-            }
-        }
-    }
-}
-
-#[cfg(any(feature = "_mediawiki-base", feature = "_opencc-base"))]
-fn read_and_validate_file(path: &str, sha256sum: &[u8; 32]) -> String {
-    fn sha256(text: &str) -> [u8; 32] {
-        use sha2::{Digest, Sha256};
-
-        let mut hasher = Sha256::new();
-        hasher.update(text.as_bytes());
-        hasher.finalize().into()
-    }
-
-    let data_dir = env::var_os("CARGO_MANIFEST_DIR").unwrap();
-    let path = Path::new(&data_dir).join(path);
-    let content = String::from_utf8(
-        std::fs::read(&path).unwrap_or_else(|e| panic!("{} when reading {}", e, path.display())),
-    )
-    .unwrap_or_else(|e| panic!("{} is not in valid UTF-8 ({})", path.display(), e));
-    assert_eq!(
-        &sha256(&content),
-        sha256sum,
-        "Validating the checksum of {}",
-        path.display()
-    );
-    content
 }

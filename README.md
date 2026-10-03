@@ -199,7 +199,7 @@ The library itself is licensed under MIT OR Apache-2.0, at the licensee’s opti
 - Conversion tables from MediaWiki (the default, gated by the feature `mediawiki`) which are licensed under GPL-2.0-or-later.
 - Dictionaries from OpenCC (gated by the feature `opencc`)  licensed under Apache-2.0.
 
-For MIT compatibility, disable the default `mediawiki` feature and enable `opencc` (with optional `compress`, recommended for reducing binary size) to use prebuilt converters and tables.
+For MIT compatibility, disable the default `mediawiki` feature and enable `opencc` (with optional `compress`, recommended for reducing binary size) to use prebuilt converters and tables. Raw datasets live in `data/mediawiki` (`zhconv-data-mediawiki`, GPL) and `data/opencc` (`zhconv-data-opencc`, Apache-2.0).
 
 ## Credits
 

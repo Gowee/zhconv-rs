@@ -29,7 +29,12 @@
 //! assert_eq!(zhconv("天干物燥 小心火烛", "zh-Hant".parse().unwrap()), "天乾物燥 小心火燭");
 //! assert_eq!(zhconv("鼠曲草", Variant::ZhHant), "鼠麴草");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhHant), "阿拉伯聯合酋長國");
+//! // Region-specific phrasing differs by ruleset: MediaWiki adapts 酋长国 for TW,
+//! // OpenCC (default) keeps script-only conversion.
+//! #[cfg(feature = "mediawiki")]
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
+//! #[cfg(all(feature = "opencc", not(feature = "mediawiki")))]
+//! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合酋長國");
 //! # for &target in zhconv::ENABLED_TARGET_VARIANTS {
 //! #     for text in [
 //! #         "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",

@@ -1,5 +1,5 @@
 [workspace]
-members = ["pyo3", "worker"]
+members = ["pyo3", "worker", "data/mediawiki", "data/opencc"]
 
 [workspace.package]
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
@@ -13,6 +13,10 @@ version = "0.4.2"
 
 [workspace.lints]
 
+[workspace.dependencies]
+zhconv-data-mediawiki = { path = "data/mediawiki", version = "0.4.2" }
+zhconv-data-opencc = { path = "data/opencc", version = "0.4.2" }
+
 [package]
 name = "zhconv"
 authors.workspace = true
@@ -25,8 +29,6 @@ version.workspace = true
 include = [
     "/src/**/*",
     "/build.rs",
-    "/data/ZhConversion.php",
-    "/data/*.txt",
     "/LICENSE*",
     "/README.md",
     "/CHANGELOG.md",
@@ -52,7 +54,7 @@ mediawiki-hant = ["_mediawiki-base"]
 mediawiki-cn = ["_mediawiki-base"]
 mediawiki-tw = ["_mediawiki-base"]
 mediawiki-hk = ["_mediawiki-base"]
-_mediawiki-base = []
+_mediawiki-base = ["dep:zhconv-data-mediawiki"]
 
 # Conversion tables for each target variant, derived from OpenCC (Apache-2.0)
 # (larger binary size)
@@ -62,7 +64,7 @@ opencc-hant = ["_opencc-base"]
 opencc-cn = ["_opencc-base"]
 opencc-tw = ["_opencc-base"]
 opencc-hk = ["_opencc-base"]
-_opencc-base = []
+_opencc-base = ["dep:zhconv-data-opencc"]
 # Use OpenCC's TWPhrases dicts when applicable (like in s2twp and tw2sp config), which appears to
 # be too aggressive for general use.
 opencc-twp = []
@@ -112,11 +114,10 @@ criterion = "0.8"
 
 [build-dependencies]
 daachorse = "5.0"
-hex-literal = "1.1"
-regex = "1.13"
-sha2 = "0.11"
 vergen = { version = "8.2", features = ["build", "git", "gitcl"] }
 zstd = { version = "0.14", optional = true }
+zhconv-data-mediawiki = { workspace = true, optional = true }
+zhconv-data-opencc = { workspace = true, optional = true }
 
 [[bench]]
 harness = false

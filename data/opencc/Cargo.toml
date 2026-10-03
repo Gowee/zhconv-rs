@@ -1,0 +1,18 @@
+[package]
+name = "zhconv-data-opencc"
+version.workspace = true
+edition.workspace = true
+# Parsing code is MIT OR Apache-2.0 (see src/lib.rs);
+# bundled *.txt dictionaries are Apache-2.0 (upstream OpenCC).
+license = "Apache-2.0"
+repository.workspace = true
+description = "OpenCC dictionary raw dataset and parser for zhconv (Apache-2.0)"
+include = ["/src/**/*", "/*.txt", "/LICENSE-APACHE", "/Cargo.toml"]
+
+[dependencies]
+daachorse = "5.0"
+sha2 = "0.11"
+hex-literal = "1.1"
+
+[lints]
+workspace = true
