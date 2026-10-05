@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file. *(Generated
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- New OpenCC dictionaries integrated at pinned commit `26753884f1`: `CJK_Compatibility_Ideographs` (pre-normalization first stage in every OpenCC loader), `TWVariantsPhrases` / `HKVariantsPhrases` (phrase-level regional stages), `TWPhrasesRev` (replaces the derived `!TWPhrases` reversal in the `tw2sp` branch), and `HKPhrases` / `HKPhrasesRev` behind the new opt-in `opencc-hkp` feature (mirroring `opencc-twp`, covering `s2hkp` / `hk2sp` configs).
+- Emulated `STPhrases_GeneratedFromRegionalPhrases` at build time (regional-phrase keys via t2s, len>=3, merged into s2-family stage 1 as upstream `union[STPhrases, Generated]`); verified end-to-end (`内存条`→`記憶體模組` under `opencc-twp`).
+- Documented the single-automaton emulation contract: stages flatten as union + leftmost-longest with earlier rules winning; `short_circuit` shorter-match-wins is not emulated (infeasible).
+- Synced datasets to latest upstream: MediaWiki `1584f8371d` (ZH_TO_HANT 9776→10843 entries etc.), OpenCC `3ac34aa43` (TSCharacters/TSPhrases/TWVariants/CJK refreshes).
+
 ## [0.4.2-1] - 2026-09-08
 
 ### Added

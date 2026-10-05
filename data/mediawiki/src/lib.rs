@@ -13,9 +13,9 @@ use std::collections::HashMap;
 use hex_literal::hex;
 
 // To update the upstream ruleset, run `data/update_basic.py` and `cargo fmt`.
-pub const MEDIAWIKI_COMMIT: &str = "ecf4342132cf089ac0c42436827e9038a738bb6f";
+pub const MEDIAWIKI_COMMIT: &str = "1584f8371da4499e69d70504ccc4b0ae023840bc";
 pub const MEDIAWIKI_SHA256: [u8; 32] =
-    hex!("5cb0019b32bb39ec5c6e662029f90bd166f7a844efb3bc877f9be41fdd511bf2");
+    hex!("1c19b1c94cef09f3ff398498a6d65e504a510834999eb7e7cfb77cfd7c2580be");
 
 /// Raw `ZhConversion.php` text, validated on access via [`raw`].
 const RAW: &str = include_str!("../ZhConversion.php");

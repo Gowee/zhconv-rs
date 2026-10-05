@@ -22,9 +22,6 @@ OPENCC_DICTS_URL = (
 OPENCC_FILES = [
     "HKVariants.txt",
     "HKVariantsRevPhrases.txt",
-    # JP dictionaries deliberately skipped (out of scope for zh-Hans/Hant/TW/HK/CN).
-    # "JPShinjitaiCharacters.txt",
-    # "JPShinjitaiPhrases.txt",
     "STCharacters.txt",
     "STPhrases.txt",
     "TSCharacters.txt",
@@ -32,7 +29,16 @@ OPENCC_FILES = [
     "TWPhrases.txt",
     "TWVariants.txt",
     "TWVariantsRevPhrases.txt",
+    "CJK_Compatibility_Ideographs.txt",
+    "TWVariantsPhrases.txt",
+    "HKVariantsPhrases.txt",
+    "HKPhrases.txt",
+    "HKPhrasesRev.txt",
+    "TWPhrasesRev.txt",
 ]
+# JP dictionaries deliberately skipped (out of scope for zh-Hans/Hant/TW/HK/CN).
+# "JPShinjitaiCharacters.txt",
+# "JPShinjitaiPhrases.txt",
 
 
 def sha256(b):

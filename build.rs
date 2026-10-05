@@ -43,6 +43,11 @@ fn main() -> io::Result<()> {
         not(any(feature = "opencc-tw", feature = "opencc-cn"))
     ))]
     panic!("opencc-twp should only be enabled together with opencc-tw or opencc-cn");
+    #[cfg(all(
+        feature = "opencc-hkp",
+        not(any(feature = "opencc-hk", feature = "opencc-cn"))
+    ))]
+    panic!("opencc-hkp should only be enabled together with opencc-hk or opencc-cn");
 
     let mut diagnostics_file =
         File::create(Path::new(&env::var_os("OUT_DIR").unwrap()).join("zhconv-diagnostics.txt"))?;
@@ -88,12 +93,19 @@ fn main() -> io::Result<()> {
         // gating stays with the main crate.
         // ref: https://github.com/BYVoid/OpenCC/blob/29d33fb8edb8c95e34691c8bd1ef76a50d0b5251/data/config/
 
-        // Note: The conversion of OpenCC takes multi-pass for applying dict groups step by step.
-        // For efficiency and reusing the existing implementation, we merge and flatten dict groups
-        // in advance.
-        // The conversion results may differ from the stock OpenCC implementation considering
-        // that some conversion pairs span over the border of several natural phrases while not
-        // covering them in whole.
+        // Note: OpenCC applies dict groups multi-pass with per-group `match_policy`
+        // (`short_circuit` = first dict with any prefix wins, `union` = longest
+        // across all wins) plus `mmseg` pre-segmentation
+        // (`union[STPhrases, Generated]` keeps regional phrases whole; unmatched
+        // runs stay grouped; we observed 2-char keys of STPhrases segs incorrectly).
+        // For efficiency we merge and flatten to one
+        // LeftmostLongest AC, i.e. `union` semantics, no inline override by design.
+        // Audited against official configs: every forward `short_circuit`
+        // group ends in a single-character dict (len-1 keys cannot have a
+        // proper prefix, so nothing there can need pruning), and no phrase
+        // key extends an earlier dict's key (the tw2sp reverse pair has 2
+        // such cases, both identity mappings, hence benign). So on current
+        // data, union-flattening coincides with `short_circuit`.
         #[cfg(feature = "_opencc-base")]
         match name {
             // Used when targeting either zh-hans or zh-cn
@@ -114,12 +126,16 @@ fn main() -> io::Result<()> {
             }
             #[cfg(feature = "opencc-hk")]
             "ZH_TO_HK" => {
-                // config: s2hk & t2hk
-                zhconv_data_opencc::load_hk_pairs(pairs);
+                // config: s2hk & t2hk (+ s2hkp with opencc-hkp)
+                zhconv_data_opencc::load_hk_pairs(pairs, cfg!(feature = "opencc-hkp"));
             }
             #[cfg(feature = "opencc-cn")]
             "ZH_TO_CN" => {
-                zhconv_data_opencc::load_cn_pairs(pairs, cfg!(feature = "opencc-twp"));
+                zhconv_data_opencc::load_cn_pairs(
+                    pairs,
+                    cfg!(feature = "opencc-twp"),
+                    cfg!(feature = "opencc-hkp"),
+                );
             }
             // "ZH_TO_MO" => {}
             // "ZH_TO_SG" => {}

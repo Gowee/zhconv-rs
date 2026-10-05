@@ -9,13 +9,9 @@ edition = "2021"
 # license (excluding bundled conversion tables) = "MIT OR Apache-2.0"
 license = "GPL-2.0-or-later"
 repository = "https://github.com/Gowee/zhconv-rs"
-version = "0.4.2"
+version = "0.5.0"
 
 [workspace.lints]
-
-[workspace.dependencies]
-zhconv-data-mediawiki = { path = "data/mediawiki", version = "0.4.2" }
-zhconv-data-opencc = { path = "data/opencc", version = "0.4.2" }
 
 [package]
 name = "zhconv"
@@ -68,6 +64,9 @@ _opencc-base = ["dep:zhconv-data-opencc"]
 # Use OpenCC's TWPhrases dicts when applicable (like in s2twp and tw2sp config), which appears to
 # be too aggressive for general use.
 opencc-twp = []
+# Use OpenCC's HKPhrases dicts when applicable (like in s2hkp and hk2sp config).
+# Opt-in, mirroring opencc-twp.
+opencc-hkp = []
 
 # Compress bundled prebuilt automata with zstd
 # (recommended, since the decompression overhead during initialization is negligible, considering
@@ -116,8 +115,8 @@ criterion = "0.8"
 daachorse = "5.0"
 vergen = { version = "8.2", features = ["build", "git", "gitcl"] }
 zstd = { version = "0.14", optional = true }
-zhconv-data-mediawiki = { workspace = true, optional = true }
-zhconv-data-opencc = { workspace = true, optional = true }
+zhconv-data-mediawiki = { path = "data/mediawiki", version = "0.5.0", optional = true }
+zhconv-data-opencc = { path = "data/opencc", version = "0.5.0", optional = true }
 
 [[bench]]
 harness = false
