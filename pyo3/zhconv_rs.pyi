@@ -29,6 +29,9 @@ def make_converter(
 ) -> Callable[[str], str]:
     pass
 
+def normalize_cjk_compat(text: str) -> str:
+    pass
+
 def is_hans(text: str) -> bool:
     pass
 

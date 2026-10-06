@@ -30,11 +30,14 @@
 //! assert_eq!(zhconv("鼠曲草", Variant::ZhHant), "鼠麴草");
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhHant), "阿拉伯聯合酋長國");
 //! // Region-specific phrasing differs by ruleset: MediaWiki adapts 酋长国 for TW,
-//! // OpenCC (default) keeps script-only conversion.
+//! // OpenCC without twp keeps script-only conversion; twp regionalizes it
+//! // via TWPhrases (upstream data, not converter logic).
 //! #[cfg(feature = "mediawiki")]
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
-//! #[cfg(all(feature = "opencc", not(feature = "mediawiki")))]
+//! #[cfg(all(feature = "opencc", not(feature = "mediawiki"), not(feature = "opencc-twp")))]
 //! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合酋長國");
+//! #[cfg(all(feature = "opencc", feature = "opencc-twp", not(feature = "mediawiki")))]
+//! assert_eq!(zhconv("阿拉伯联合酋长国", Variant::ZhTW), "阿拉伯聯合大公國");
 //! # for &target in zhconv::ENABLED_TARGET_VARIANTS {
 //! #     for text in [
 //! #         "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -103,6 +106,8 @@ for_wasm! {
     mod wasm;
 }
 
+#[cfg(feature = "cjk-compat")]
+pub use self::converter::normalize_cjk_compat;
 pub use self::converter::{ZhConverter, ZhConverterBuilder};
 pub use self::converters::get_builtin_converter;
 #[allow(unused_imports)]
@@ -134,8 +139,13 @@ pub const ENABLED_TARGET_VARIANTS: &[Variant] = &[
 ///
 /// Built-in converters are pre-built, lazily loaded and cached for later use. For fine-grained
 /// control and custom conversion rules, check [`ZhConverter`] and [`ZhConverterBuilder`].
+///
+/// With the `cjk-compat` feature (on by default), input is first passed through
+/// [`normalize_cjk_compat()`]; [`ZhConverter`] itself never normalizes.
 #[inline(always)]
 pub fn zhconv(text: &str, target: Variant) -> String {
+    #[cfg(feature = "cjk-compat")]
+    let text: &str = &normalize_cjk_compat(text);
     get_builtin_converter(target).convert(text)
 }
 
@@ -154,6 +164,9 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 /// `get_builtin_converter(target).convert_as_wikitext_basic(text)` instead, which incurs no extra
 /// overhead.
 ///
+/// With the `cjk-compat` feature (on by default), text is first normalized with
+/// [`normalize_cjk_compat()`] (conversion rules in `-{…}-` blocks are skipped).
+///
 // /// Different from the implementation of MediaWiki, this crate use a automaton which makes it
 // /// infeasible to mutate global rules during converting. So the function always searches the text
 // /// for global rules such as `-{H|FOO BAR}-` in the first pass. If such rules exists, it build a
@@ -166,7 +179,23 @@ pub fn zhconv(text: &str, target: Variant) -> String {
 /// Although it is designed to replicate the behavior of the MediaWiki implementation, it is not
 /// fully compliant.
 pub fn zhconv_mw(text: &str, target: Variant) -> String {
-    get_builtin_converter(target).convert_as_wikitext_extended(text)
+    let mut output = String::with_capacity(text.len());
+    // Annotated: a bare `Some(normalize_cjk_compat)` binding would keep the
+    // fn-item type and fail against the pointer parameter below (E0308).
+    #[cfg(feature = "cjk-compat")]
+    let preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>> =
+        Some(normalize_cjk_compat);
+    #[cfg(not(feature = "cjk-compat"))]
+    let preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>> = None;
+    get_builtin_converter(target).convert_to_as_wikitext(
+        text,
+        &mut output,
+        &mut None,
+        true,
+        true,
+        preprocess,
+    );
+    output
 }
 
 /// Determine whether the given text looks like Simplified Chinese over Traditional Chinese.
@@ -191,6 +220,9 @@ pub fn is_hans(text: &str) -> bool {
     any(feature = "mediawiki-hans", feature = "opencc-hans")
 ))]
 pub fn is_hans_confidence(text: &str) -> f32 {
+    // TODO: normalize compat input first (cf. `normalize_cjk_compat`)? Compat
+    // chars match neither table the same way, skewing both scores — but they
+    // are ~absent in practice, and normalization may incur heap allocation.
     let non_hant_score = ZH_TO_HANT_CONVERTER.count_replaced(text) as f32;
     let non_hans_score = ZH_TO_HANS_CONVERTER.count_replaced(text) as f32;
     // let mut ratio = if non_hans_score == 0 {

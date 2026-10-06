@@ -179,6 +179,7 @@ macro_rules! load_chain_to {
             // Absorb all pairs of this stage into the chain mapping.
             // TODO: prefer earlier or later (cross-stage collisions measure 0
             // on current data, reported by agent today).
+            // FIXME: later for overriding with more specific stages?
             // TODO: log dups
             chain_mapping.insert(f.clone(), t.clone());
             // Chain backward: reverse-convert source words of this stage
@@ -241,20 +242,46 @@ pub fn load_dict_to(
 ) {
     for (f, ts) in parse_dict(s) {
         let ts: Vec<_> = ts.collect();
-        if !(ts.len() > 1 && ts.contains(&f)) {
-            // be conservative when converting
-            // e.g. 范 -> 範 范 can be simply eliminated
-            // 1-char identity pairs like 范 -> 范 is meaningless in our leftmost-longest
-            // matching, since longer source phrases containing the char always shadow it
-            // TO: allow identity conversion?
-
-            // Prefer earlier rules, matching the behavior of `union` match_policy in OpenCC.
-            out_mapping.entry(f.to_owned()).or_insert(ts[0].to_owned());
-        }
+        // Always take the first value, matching OpenCC's `DictEntry::GetDefault`
+        // (first value wins) used by `Conversion`/`PrefixMatch::LeafMatcher`.
+        //
+        // History and why not the alternatives:
+        // - Old HEAD skipped ambiguous entries (`key in values`, e.g.
+        //   `下面->[下面,下麪]`, `范->[範,范]`) entirely (conservative: leave
+        //   input unchanged, intended to protect surnames like `范`). That
+        //   drops needed multi-char guards: with no `下面` entry, `下面`
+        //   falls through to single-char `面->麵` in TW tables (`下麵`, wrong).
+        // - Interim tree mapped all ambiguous to identity (`f->f`). That fixes
+        //   `下面` but regresses entries whose first value is non-identity:
+        //   `冷面->[冷麪,冷面]`, `一出->[一齣,一出]`, `不准->[不準,不准]`
+        //   were pinned to identity, while stock OpenCC outputs the first
+        //   value (`冷麪/一齣/不準`). It also adds ~1.1k single-char entries
+        //   (1162 out of the 1266 ambiguous `key in values` lines counted
+        //   across all bundled `*.txt` dicts are single-char) that behave as
+        //   no-ops: matching one char and outputting the same char is
+        //   indistinguishable from having no entry (unmatched text is copied
+        //   through), so they only enlarge the automaton.
+        // - This choice (`ts[0]`) gives both `下面->下面` (guard) and
+        //   `冷面->冷麪` (reading) correctly. Measured against stock OpenCC
+        //   at the pinned commit `3ac34aa4` (configs `s2t.json`/`s2twp.json`),
+        //   before (HEAD skip) -> after (this choice):
+        //   data54k (676 lines) Hant 35->0, TW 49->14 divergent lines;
+        //   data3185k (52107 lines) Hant 4451->0, TW 4571->236, with zero
+        //   lines where this choice newly diverges (the fixed lines are
+        //   almost all single-char leftovers like `里/後/斗/願`; all remaining
+        //   gaps are separate chaining / CJK-rev issues, e.g. `函数`). The
+        //   internal `t2s` used for `STPHRASES_GENERATED` then also matches
+        //   upstream generation (e.g. `代谢综合征` with `征`, not `徵`).
+        //
+        // Known tradeoff: bare `范->範` follows stock OpenCC and over-converts
+        // the surname out of context; the `范蠡->范蠡` phrase guard still
+        // holds, and default MediaWiki-first builds override this key anyway.
+        // Prefer an explicit exception list over distorting all ambiguous
+        // entries if surname fidelity is needed.
+        // Prefer earlier rules, matching `union` first-wins.
+        out_mapping.entry(f.to_owned()).or_insert(ts[0].to_owned());
         for t in ts {
-            if !out_rev_mapping.contains_key(t) {
-                out_rev_mapping.insert(t.to_owned(), f.to_owned());
-            }
+            out_rev_mapping.entry(t.to_owned()).or_insert(f.to_owned());
         }
     }
 }
@@ -323,7 +350,7 @@ impl SimpleConverter {
 /// `data/scripts/generate_st_phrases_from_regional_phrases.py`
 /// (`--input HKPhrases.txt --input TWPhrases.txt`, stock `t2s.json`).
 /// Keys converted with our own flattened t2s tables (a `SimpleConverter`
-/// over `load_hans_pairs`, so CJK chaining is included); converted keys
+/// over `load_hans_pairs`, without cjk compat normalization); converted keys
 /// shorter than 3 chars are skipped, same as upstream (`len < 3`).
 /// Upstream FAILS the data build on key conflicts across inputs; here the
 /// first input file wins silently (HKPhrases before TWPhrases, CMake order),
@@ -372,21 +399,23 @@ static STPHRASES_GENERATED_TEXT: LazyLock<String> = LazyLock::new(|| {
 // (`load_dict_to` first-wins, matching OpenCC's union/first-wins). File
 // order follows upstream dict order. `short_circuit`'s first-dict-match-wins
 // is not emulated: a single leftmost-longest automaton cannot express it.
+//
+// No CJK compatibility stage here (upstream puts one first in every config):
+// the converter applies it as a runtime pre-pass instead (`normalize_cjk_compat`).
+// Merging it into the chain poisoned reverse projections (standard->compat
+// singles like `數->數` shadowed `數->数`, so `函數` projected to `函數`
+// instead of `函数`) and added ~21% dead keys; the pre-pass handles compat
+// input (incl. phrase composition) with zero table weight.
 
 // config: t2s (+ CJK pre-normalization, as in every upstream config)
 pub fn load_hans_pairs(out: &mut Vec<(String, String)>) {
-    load_chain_to!(
-        out,
-        [CJK_Compatibility_Ideographs],
-        [TSPhrases, TSCharacters]
-    );
+    load_chain_to!(out, [TSPhrases, TSCharacters]);
 }
 
 // config: s2t (+ CJK pre-normalization)
 pub fn load_hant_pairs(out: &mut Vec<(String, String)>) {
     load_chain_to!(
         out,
-        [CJK_Compatibility_Ideographs],
         [
             STPhrases,
             STPhrases_GeneratedFromRegionalPhrases,
@@ -403,7 +432,6 @@ pub fn load_tw_pairs(out: &mut Vec<(String, String)>, twp: bool) {
         // TWPhrases targets and the variants dicts).
         load_chain_to!(
             out,
-            [CJK_Compatibility_Ideographs],
             [
                 STPhrases,
                 STPhrases_GeneratedFromRegionalPhrases,
@@ -415,7 +443,6 @@ pub fn load_tw_pairs(out: &mut Vec<(String, String)>, twp: bool) {
         // config: s2tw & t2tw
         load_chain_to!(
             out,
-            [CJK_Compatibility_Ideographs],
             [
                 STPhrases,
                 STPhrases_GeneratedFromRegionalPhrases,
@@ -431,7 +458,6 @@ pub fn load_hk_pairs(out: &mut Vec<(String, String)>, hkp: bool) {
         // config: s2hk & s2hkp & t2hk
         load_chain_to!(
             out,
-            [CJK_Compatibility_Ideographs],
             [
                 STPhrases,
                 STPhrases_GeneratedFromRegionalPhrases,
@@ -443,7 +469,6 @@ pub fn load_hk_pairs(out: &mut Vec<(String, String)>, hkp: bool) {
         // config: s2hk & t2hk
         load_chain_to!(
             out,
-            [CJK_Compatibility_Ideographs],
             [
                 STPhrases,
                 STPhrases_GeneratedFromRegionalPhrases,
@@ -461,19 +486,14 @@ pub fn load_cn_pairs(out: &mut Vec<(String, String)>, twp: bool, hkp: bool) {
         // TWPhrases, so it replaces the derived `!TWPhrases` reversal here.
         load_chain_to!(
             out,
-            [CJK_Compatibility_Ideographs],
             [TWPhrasesRev, TWVariantsRevPhrases],
             [TSPhrases, TSCharacters]
         );
     } else {
         // config: tw2s; "!TWVariants" deliberately omitted to prevent
         // misconversions like `么 -> 幺, 抬 -> 檯, 著 -> 着`
-        load_chain_to!(
-            out,
-            [CJK_Compatibility_Ideographs],
-            [TWVariantsRevPhrases],
-            [TSPhrases, TSCharacters]
-        );
+        // TODO: mitigated by https://github.com/BYVoid/OpenCC/pull/1473/changes?
+        load_chain_to!(out, [TWVariantsRevPhrases], [TSPhrases, TSCharacters]);
     }
     if hkp {
         // config: hk2sp; "!HKVariants" deliberately omitted

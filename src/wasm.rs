@@ -1,11 +1,20 @@
 use std::str::FromStr;
 
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 use itertools::Itertools;
 
 use console_error_panic_hook;
 use wasm_bindgen::prelude::*;
 
-use crate::{get_builtin_converter, Variant, ZhConverterBuilder, ENABLED_TARGET_VARIANTS};
+use crate::{
+    get_builtin_converter, Variant, ZhConverterBuilder, ENABLED_TARGET_VARIANTS,
+};
 
 // #[wasm_bindgen(typescript_custom_section)]
 // const COMMIT_HASH: &str = concat!("COMMIT_HASH", env!("VERGEN_GIT_SHA"));
@@ -60,6 +69,8 @@ pub fn get_enabled_target_variants() -> Option<String> {
 /// `rules` should be line-seperated in MediaWiki syntax without -{ or }- tags, like
 /// `zh-hans:鹿; zh-hant:馬`.
 /// Rules removing entries from built-in tables are not supported and are silently ignored.
+/// 
+/// With `cjk-compat` feature enabled by default, `normalize_cjk_compat` is applied in a prepass.
 #[wasm_bindgen]
 pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<String>) -> String {
     console_error_panic_hook::set_once();
@@ -68,9 +79,17 @@ pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<St
     let target = Variant::from_str(target).expect("Unsupported target variant");
     let converter = get_builtin_converter(target);
     let mut builder = rules.map(|rs| ZhConverterBuilder::new().conv_lines(rs.lines()));
+    // Entry-point policy (mirrors the `zhconv()` helper): normalize CJK
+    // compatibility ideographs first; converters themselves never do by default.
     if wikitext {
-        converter.convert_as_wikitext(text, &mut builder, true, true)
+        #[cfg(feature = "cjk-compat")]
+        let preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>> = Some(crate::normalize_cjk_compat);
+        #[cfg(not(feature = "cjk-compat"))]
+        let preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>> = None;
+        converter.convert_as_wikitext(text, &mut builder, true, true, preprocess)
     } else {
+        #[cfg(feature = "cjk-compat")]
+        let text: &str = &crate::normalize_cjk_compat(text);
         match builder {
             Some(builder) => converter.convert_with_secondary_converter(text, &builder.build()),
             None => converter.convert(text),
@@ -78,6 +97,10 @@ pub fn zhconv(text: &str, target: &str, wikitext: Option<bool>, rules: Option<St
     }
 }
 
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant",),
+    any(feature = "mediawiki-hans", feature = "opencc-hans")
+))]
 #[wasm_bindgen]
 pub fn is_hans(text: &str) -> bool {
     console_error_panic_hook::set_once();
@@ -85,6 +108,10 @@ pub fn is_hans(text: &str) -> bool {
     crate::is_hans(text)
 }
 
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant",),
+    any(feature = "mediawiki-hans", feature = "opencc-hans")
+))]
 #[wasm_bindgen]
 pub fn is_hans_confidence(text: &str) -> f32 {
     console_error_panic_hook::set_once();
@@ -92,6 +119,13 @@ pub fn is_hans_confidence(text: &str) -> f32 {
     crate::is_hans_confidence(text)
 }
 
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 #[wasm_bindgen]
 pub fn infer_variant(text: &str) -> String {
     console_error_panic_hook::set_once();
@@ -99,6 +133,13 @@ pub fn infer_variant(text: &str) -> String {
     crate::infer_variant(text).to_string()
 }
 
+#[cfg(all(
+    any(feature = "mediawiki-hant", feature = "opencc-hant"),
+    any(feature = "mediawiki-tw", feature = "opencc-tw"),
+    any(feature = "mediawiki-hk", feature = "opencc-hk"),
+    any(feature = "mediawiki-hans", feature = "opencc-hans"),
+    any(feature = "mediawiki-cn", feature = "opencc-cn")
+))]
 #[wasm_bindgen]
 pub fn infer_variant_confidence(text: &str) -> String {
     console_error_panic_hook::set_once();
@@ -107,4 +148,10 @@ pub fn infer_variant_confidence(text: &str) -> String {
         .into_iter()
         .map(|(v, c)| format!("{};q={:.3}", v, c))
         .join(", ")
+}
+
+#[cfg(feature = "cjk-compat")]                                                                                                
+#[wasm_bindgen]                                                                                                               
+pub fn normalize_cjk_compat(text: &str) -> String {                                                                           
+    crate::normalize_cjk_compat(text).into_owned()                                                                            
 }

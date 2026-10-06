@@ -18,6 +18,138 @@ use crate::{
 // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L76
 const NESTED_RULE_MAX_DEPTH: usize = 10;
 
+// CJK compat table codegen'd by build.rs as a sorted static array. Direct
+// binary search suffices: every entry is 1-char -> 1-char, so no daachorse
+// automaton is built for it (and none of it enters the conversion chain).
+#[cfg(feature = "cjk-compat")]
+include!(concat!(env!("OUT_DIR"), "/cjk_norm.rs"));
+
+/// Normalize [CJK compatibility ideographs](https://github.com/BYVoid/OpenCC/blob/master/data/dictionary/CJK_Compatibility_Ideographs.txt)
+/// to their standard forms.
+///
+/// Mirrors OpenCC's `normalization` chain, which runs before
+/// segmentation/conversion in every upstream config.
+///
+/// This is a pre-pass, not part of conversion itself: [`ZhConverter`] never
+/// calls it (single-pass, no hidden work). It runs in the [`crate::zhconv()`] and
+/// [`crate::zhconv_mw()`] helpers — and anywhere else entry-point code chooses —
+/// so custom-converter users compose it explicitly when wanted.
+///
+/// Returns borrowed input when no compatibility character is present (zero
+/// allocation); otherwise an owned normalized string.
+///
+/// # Example
+/// ```
+/// # #[cfg(feature = "cjk-compat")]
+/// # {
+/// use zhconv::normalize_cjk_compat;
+/// assert_eq!(normalize_cjk_compat("函數").into_owned(), "函數");
+/// assert_eq!(normalize_cjk_compat("plain ascii"), "plain ascii");
+/// # }
+/// ```
+/// Why byte search works here (byte census of real prose): ordinary Chinese
+/// characters live outside the hunted ranges — CJK Unified is `E4–E9`-led,
+/// CJK-native punct is `E3`-led, ASCII/markup is 1 byte — so none of them
+/// can ever produce a candidate. The only `EF` in ordinary prose is fullwidth
+/// punctuation (`，（）：；－！？．`, U+FF01–FF1B, second byte `BC`),
+/// rows below the compat rows (`A4–AB`); `F0` means supplementary plane
+/// (emoji/CJK-ext, ~1 char per 55KB here), likewise verified byte-exact.
+/// Continuations (the bulk of bytes; 61% here) can never match by
+/// construction. Measured data54k (55,192 bytes): 946 `EF` + 1 `F0` + 0 true
+/// compat chars — i.e. the scan does vector work over everything and scalar
+/// work at ~1.7% of positions, with zero decodes and zero allocs.
+///
+/// Shape: SIMD byte scan (`memchr2`) for exact candidate leads, then a
+/// memchr-loop that copies each untouched stretch as a byte slice, decodes +
+/// looks up only at candidates, and allocates lazily — zero allocation
+/// unless a key truly maps (anything else passes through; borrowed when
+/// nothing mapped yet).
+///
+/// Cost model (measured `-O3` micro-harness vs full `zh2TW` convert):
+/// clean 54KB ~17µs (4.4%), clean 3.2MB ~1.4ms (3.3%); compat-sprinkled
+/// input (a compat char every ~50 chars) 55KB ~34µs — ~9x faster than a
+/// brute-force per-char scan (decode + look up every char). Byte detection
+/// is exact at range level
+/// (`EF A4..=AB` => U+F900..=U+FAFF; `F0` verified byte-exact); lookup may
+/// still miss on unmapped range codepoints and falls back to borrowed.
+///
+/// Known limitation (accepted): inputs consisting mostly of rejected `EF`
+/// hits — e.g. a synthetic wall of fullwidth punctuation, every ~3rd byte
+/// a hit, all rejected — scan slower than plain char decoding (measured
+/// ~2.5-3x on 103KB across runs), because each memchr restart costs on the
+/// order of ~10ns (single-box, drifts with load/CPU) against a few ns/char
+/// for decoding. Breakeven sits around ~15-25% hit density (estimate);
+/// ordinary prose at ~4% stays far below it, and compat-sprinkled input
+/// (~34µs above) is unaffected. Remedy if such walls ever occur in practice:
+/// detect-once-then-char-loop.
+#[cfg(feature = "cjk-compat")]
+pub fn normalize_cjk_compat(text: &str) -> std::borrow::Cow<'_, str> {
+    use std::borrow::Cow;
+    let b = text.as_bytes();
+    // Single cursor: always sits on a char boundary. It starts at 0, matches
+    // can only occur on lead bytes, and it advances by whole chars — length
+    // known from the lead byte alone (`EF` => 3, `F0` => 4), no decoding.
+    // Slices between stops (`text[pos..i]`) are therefore always
+    // boundary-safe.
+    let mut pos = 0usize;
+    let mut out: Option<String> = None;
+    // 0xEF/0xF0 occur only as lead bytes in valid UTF-8; followers of a lead
+    // always exist, so indexing below is safe. Length is known from the lead
+    // alone, so `pos` advances by whole chars and continuation bytes are
+    // never scanned as candidates.
+    while let Some(rel) = memchr::memchr2(b'\xEF', b'\xF0', &b[pos..]) {
+        let i = pos + rel;
+        // b[i] is EF or F0 (memchr guarantee): length known, compat tested.
+        let (len, is_compat) = match b[i] {
+            0xEF => (3, matches!(b[i + 1], 0xA4..=0xAB)),
+            _ => (
+                4,
+                b[i + 1] == 0xAF
+                    && matches!(b[i + 2], 0xA0..=0xA8)
+                    && (b[i + 2] != 0xA8 || matches!(b[i + 3], 0x80..=0x9D)),
+            ),
+        };
+        if is_compat {
+            // Candidate is in-range; map it only if it is a real key.
+            let ch = text[i..].chars().next().unwrap();
+            debug_assert_eq!(len, ch.len_utf8());
+            if let Ok(j) = CJK_NORM_PAIRS.binary_search_by_key(&(ch as u32), |&(k, _)| k) {
+                // First hit copies everything before it, not just `text[pos..i]`:
+                // earlier chars (e.g. the leading `，。` in `，。數x`) were
+                // scanned but never written, since `out` didn't exist yet.
+                let o = out.get_or_insert_with(|| {
+                    // Actually, we cannot guarantee there is no re-allocation
+                    // even with_capacity since the dict sometimes maps to longer
+                    // output, e.g. 𤋮 U+FA6C -> 𤋮 U+242EE
+                    let mut s = String::with_capacity(text.len());
+                    s.push_str(&text[..pos]);
+                    s
+                });
+                o.push_str(&text[pos..i]);
+                o.push(char::from_u32(CJK_NORM_PAIRS[j].1).unwrap());
+                pos = i + len;
+                continue;
+            }
+        }
+        // Pass-through (rejected punct/emoji, or unmapped range char): copy it
+        // now if output is live, else leave it for the next bulk copy.
+        // (Advancing `pos` without emitting here would silently drop input
+        // once `out` exists — the single-cursor invariant is "out holds the
+        // normalized form of text[..pos] whenever out is live".)
+        if let Some(o) = out.as_mut() {
+            o.push_str(&text[pos..i + len]);
+        }
+        pos = i + len;
+    }
+    match out {
+        Some(mut o) => {
+            o.push_str(&text[pos..]);
+            Cow::Owned(o)
+        }
+        None => Cow::Borrowed(text),
+    }
+}
+
 /// A ZhConverter, built by [`ZhConverterBuilder`].
 pub struct ZhConverter {
     variant: Variant,
@@ -89,6 +221,10 @@ impl ZhConverter {
     }
 
     /// Convert text.
+    ///
+    /// Note: unlike the [`crate::zhconv()`] helper, this performs no CJK
+    /// compatibility normalization beforehand. Call [`normalize_cjk_compat()`]
+    /// first when the input may contain compatibility ideographs.
     #[inline(always)]
     pub fn convert(&self, text: &str) -> String {
         let mut output = String::with_capacity(text.len());
@@ -97,6 +233,10 @@ impl ZhConverter {
     }
 
     /// Same as `convert`, except that it takes a `&mut String` as dest instead of returning a `String`.
+    ///
+    /// Note: unlike the [`crate::zhconv()`] helper, this performs no CJK
+    /// compatibility normalization beforehand. Call [`normalize_cjk_compat()`]
+    /// first when the input may contain compatibility ideographs.
     pub fn convert_to(&self, text: &str, output: &mut String) {
         let automaton = match self.automaton.as_ref() {
             Some(automaton) => automaton,
@@ -311,14 +451,14 @@ impl ZhConverter {
     /// instead of returning a `String`.
     #[inline(always)]
     pub fn convert_to_as_wikitext_basic(&self, text: &str, output: &mut String) {
-        self.convert_to_as_wikitext(text, output, &mut None, false, false)
+        self.convert_to_as_wikitext(text, output, &mut None, false, false, None)
     }
 
     /// Same as [`convert_to_as_wikitext_extended`](Self::convert_to_as_wikitext_extended), except
     /// that it takes a `&mut String` as dest instead of returning a `String`.
     #[inline(always)]
     pub fn convert_to_as_wikitext_extended(&self, text: &str, output: &mut String) {
-        self.convert_to_as_wikitext(text, output, &mut None, true, true)
+        self.convert_to_as_wikitext(text, output, &mut None, true, true, None)
     }
 
     /// The general implementation of MediaWiki syntax-aware conversion.
@@ -343,6 +483,7 @@ impl ZhConverter {
         secondary_converter_builder: &mut Option<ZhConverterBuilder>,
         skip_html_code_blocks: bool,
         apply_global_rules: bool,
+        preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>>,
     ) -> String {
         let mut output = String::with_capacity(text.len());
         self.convert_to_as_wikitext(
@@ -351,12 +492,35 @@ impl ZhConverter {
             secondary_converter_builder,
             skip_html_code_blocks,
             apply_global_rules,
+            preprocess,
         );
         output
     }
 
     /// Same as [`convert_as_wikitext`](Self::convert_as_wikitext), except
     /// that it takes a `&mut String` as dest instead of returning a `String`.
+    ///
+    /// `preprocess` runs on every prose span before conversion — never inside
+    /// `-{…}-` rule blocks. `None` means raw conversion. `Some` takes a plain
+    /// function pointer (`fn`s and non-capturing closures qualify; e.g.
+    /// `normalize_cjk_compat` with `cjk-compat`) — closures with captures
+    /// compose by pre-applying whole input instead.
+    ///
+    /// # Example
+    /// ```
+    /// use zhconv::ZhConverter;
+    /// let converter = ZhConverter::from_pairs([("函數", "函式")]);
+    /// # #[cfg(feature = "cjk-compat")]
+    /// # {
+    /// # use zhconv::normalize_cjk_compat;
+    /// # let mut out = String::new();
+    /// # converter.convert_to_as_wikitext("函數", &mut out, &mut None, false, false, Some(normalize_cjk_compat));
+    /// # assert_eq!(out, "函式");
+    /// # }
+    /// let mut out = String::new();
+    /// converter.convert_to_as_wikitext("函數", &mut out, &mut None, false, false, None);
+    /// assert_eq!(out, "函數");
+    /// ```
     pub fn convert_to_as_wikitext(
         &self,
         text: &str,
@@ -364,14 +528,22 @@ impl ZhConverter {
         secondary_converter_builder: &mut Option<ZhConverterBuilder>,
         skip_html_code_blocks: bool,
         apply_global_rules: bool,
+        preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>>,
     ) {
         // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L532
 
+        let preprocess = preprocess.as_ref();
         #[allow(clippy::type_complexity)]
         let mut convert_to: Box<dyn Fn(&str, &mut String)> =
-            Box::new(|text: &str, output: &mut String| self.convert_to(text, output));
+            Box::new(move |text: &str, output: &mut String| {
+                let text = match preprocess {
+                    Some(f) => &f(text),
+                    None => text,
+                };
+                self.convert_to(text, output)
+            });
         if secondary_converter_builder.is_some() || apply_global_rules {
             // build a secondary automaton from global rules specified in wikitext
             let mut builder = secondary_converter_builder.take().unwrap_or_default();
@@ -397,6 +569,10 @@ impl ZhConverter {
             *secondary_converter_builder = Some(builder);
             if shadowing_automaton.is_some() || !shadowed_source_words.is_empty() {
                 convert_to = Box::new(move |text: &str, output: &mut String| {
+                    let text = match preprocess {
+                        Some(f) => &f(text),
+                        None => text,
+                    };
                     self.convert_to_with(
                         text,
                         output,
@@ -802,5 +978,167 @@ impl<'t> ZhConverterBuilder<'t> {
                 .map(|(from, to)| (from.to_owned(), to.to_owned())),
         );
         mapping
+    }
+}
+
+#[cfg(all(test, feature = "cjk-compat"))]
+mod normalize_tests {
+    use super::normalize_cjk_compat;
+
+    fn norm(text: &str) -> String {
+        normalize_cjk_compat(text).into_owned()
+    }
+
+    #[test]
+    fn passthrough_basics() {
+        assert_eq!(norm(""), "");
+        assert_eq!(norm("plain ascii 123"), "plain ascii 123");
+        // Fullwidth punct + emoji are rejected at byte level, untouched.
+        assert_eq!(norm("Hello，世界🎉"), "Hello，世界🎉");
+        // BMP + supplementary mapped keys.
+        assert_eq!(norm("函數"), "函數");
+        // U+2F800 -> U+4E3D (later conversion turns 丽人 into 麗人).
+        assert_eq!(norm("丽人"), "丽人");
+    }
+
+    #[test]
+    fn no_drop_after_live_output() {
+        // Rejected hits (punct) after a mapped hit must survive: copied out
+        // at the next hit, or at the end if none follows.
+        assert_eq!(norm("數，。x"), "數，。x");
+        assert_eq!(norm("a數b，c"), "a數b，c");
+        // Unmapped in-range char (U+FA0E has no CJK entry) after a hit.
+        assert_eq!(norm("數﨎x"), "數﨎x");
+        // Hit at string end (nothing follows it).
+        assert_eq!(norm("x數"), "x數");
+    }
+
+    /// Differential test: the implementation must agree byte-for-byte with an
+    /// obviously-correct per-char reference (independent map-or-keep per
+    /// character — too slow and always-allocating for production, perfect as
+    /// an oracle) on fixed edge cases plus 500 seeded-random hostile inputs.
+    ///
+    /// The fixed inputs pin known shapes (empty, single mapped / unmapped /
+    /// punct / emoji char, all-compat, junk-before-first-hit like `，。數x`);
+    /// the random ones cover shapes nobody hand-picked. The extra `Borrowed`
+    /// assert pins the zero-alloc fast path: clean input must never allocate.
+    ///
+    /// Scope: the matching/copying algorithm only (drops, duplications,
+    /// boundary slicing). The table contents are shared with the
+    /// implementation (a wrong dict entry passes both sides); dict parsing
+    /// itself is covered by the data-crate tests and build-time asserts.
+    #[test]
+    fn matches_naive_reference() {
+        use std::borrow::Cow;
+        use std::collections::HashMap;
+        let reference: HashMap<char, char> = super::CJK_NORM_PAIRS
+            .iter()
+            .map(|&(k, v)| (char::from_u32(k).unwrap(), char::from_u32(v).unwrap()))
+            .collect();
+        let alphabet = [
+            'a', 'Z', ' ', '\n', '中', '文', '，', '。', '！', '「', '🎉', '🍜', '面', '數', '車',
+            '丽', '﨎', '﨏', // in-range but unmapped
+        ];
+        // Stand-in for a test RNG so the test needs no extra dev-dependency:
+        // one linear congruential generator (the Numerical Recipes
+        // constants 1664525/1013904223; `wrapping_*` = arithmetic mod 2^32,
+        // since plain `*`/`+` would panic on overflow in debug builds).
+        // Fixed seed ⇒ same inputs every run: reproducible, never flaky.
+        // Statistical quality is irrelevant here; any deterministic spread
+        // over the alphabet exercises the code paths.
+        let mut rng: u32 = 0x12345678;
+        let mut next_u32 = || {
+            rng = rng.wrapping_mul(1664525).wrapping_add(1013904223);
+            rng
+        };
+        let mut fixed: Vec<String> = vec![
+            String::new(),
+            "數".to_string(),
+            "﨎".to_string(),
+            "，".to_string(),
+            "🎉".to_string(),
+            "數車丽".to_string(),
+            "數，。﨎🎉x".to_string(),
+            "，。數x".to_string(), // junk before first hit
+        ];
+        for _ in 0..500 {
+            let len = (next_u32() % 60) as usize;
+            let mut s = String::new();
+            for _ in 0..len {
+                s.push(alphabet[(next_u32() % alphabet.len() as u32) as usize]);
+            }
+            fixed.push(s);
+        }
+        for s in &fixed {
+            let expected: String = s
+                .chars()
+                .map(|c| reference.get(&c).copied().unwrap_or(c))
+                .collect();
+            assert_eq!(
+                normalize_cjk_compat(s).into_owned(),
+                expected,
+                "mismatch on {s:?}"
+            );
+            // Zero-alloc property: no mapped key present implies borrowed.
+            if !s.chars().any(|c| reference.contains_key(&c)) {
+                assert!(
+                    matches!(normalize_cjk_compat(s), Cow::Borrowed(_)),
+                    "should borrow on {s:?}"
+                );
+            }
+        }
+    }
+}
+
+#[cfg(test)]
+mod converter_tests {
+    use super::ZhConverter;
+    use std::borrow::Cow;
+
+    #[test]
+    fn converter_performs_no_normalization() {
+        // `ZhConverter` is a pure single-pass primitive: compatibility
+        // ideographs pass through untouched unless the caller runs
+        // `normalize_cjk_compat()` (as the `zhconv()` helper does) first.
+        let c = ZhConverter::from_pairs([("a", "b")]);
+        assert_eq!(c.convert("a數"), "b數");
+    }
+
+    /// `zhconv_mw` normalizes prose per span via the hook, but `-{…}-` rule
+    /// content stays byte-exact (table backend only affects the prose part).
+    #[cfg(all(
+        feature = "cjk-compat",
+        any(feature = "mediawiki-tw", feature = "opencc-tw")
+    ))]
+    #[test]
+    fn zhconv_mw_keeps_rule_blocks_raw() {
+        let out = crate::zhconv_mw("函數-{zh-tw:滑數;zh-cn:鼠标}-", crate::Variant::ZhTW);
+        assert!(out.ends_with("滑數"), "rule block stays raw: {out:?}");
+        assert_eq!(
+            out.matches('數').count(),
+            1,
+            "prose normalized, rule untouched: {out:?}"
+        );
+    }
+
+    fn shouty(s: &str) -> Cow<'_, str> {
+        Cow::Owned(s.replace('b', "a"))
+    }
+
+    #[test]
+    fn wikitext_preprocess_hook() {
+        // Hook runs on prose spans. Plain `fn`s and non-capturing closures
+        // both coerce to the pointer; bare `None` means raw conversion.
+        let closed: for<'a> fn(&'a str) -> Cow<'a, str> = |s| Cow::Owned(s.replace('b', "a"));
+        let c = ZhConverter::from_pairs([("a", "A")]);
+        let hooks: [Option<for<'a> fn(&'a str) -> Cow<'a, str>>; 2] = [Some(shouty), Some(closed)];
+        for hook in hooks {
+            let mut out = String::new();
+            c.convert_to_as_wikitext("b", &mut out, &mut None, false, false, hook);
+            assert_eq!(out, "A");
+        }
+        let mut out = String::new();
+        c.convert_to_as_wikitext("b", &mut out, &mut None, false, false, None);
+        assert_eq!(out, "b");
     }
 }

@@ -19,8 +19,9 @@ crate-type = ["cdylib"]
 # dep. `default` enables the two most common paths (compressed tables +
 # mediawiki dicts); `opencc` is opt-in for the opencc-flavoured build
 # (maturin `-F opencc` for pyo3; manual `cargo --features opencc` for worker).
-default = ["compress", "mediawiki"]
+default = ["compress", "mediawiki", "cjk-compat"]
 compress = ["zhconv/compress"]
+cjk-compat = ["zhconv/cjk-compat"]
 mediawiki = ["mediawiki-hans", "mediawiki-hant", "mediawiki-cn", "mediawiki-tw", "mediawiki-hk"]
 opencc = ["opencc-hans", "opencc-hant", "opencc-cn", "opencc-tw", "opencc-hk"]
 mediawiki-hans = ["zhconv/mediawiki-hans"]

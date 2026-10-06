@@ -8,9 +8,11 @@
 ///   per-target output remains a single automaton)
 /// - Sorts conversion pairs by length (longest first) and lexicographically
 /// - Deduplicates pairs, retaining only the first rule for each source mapping
-/// - Generates three types of output files:
+/// - Generates output files:
 ///   - `.from.conv` and `.to.conv`: Compressed pair format for direct lookup
 ///   - `.daac`: Serialized Aho-Corasick automaton for efficient pattern matching
+///   - `cjk_norm.rs` (with `cjk-compat`): Sorted CJK compatibility pairs for
+///     the converter pre-pass (no automaton; see below)
 ///
 /// The conversion rulesets are processed for the following targets:
 /// - `ZH_TO_HANS`: Simplified Chinese
@@ -224,6 +226,53 @@ fn main() -> io::Result<()> {
     }
 
     log_diag!("Built in: {:?}\n=== DONE ===\n", start_time.elapsed())?;
+
+    // CJK compat table for the converter pre-pass (see `normalize_cjk_compat`):
+    // emitted as a key-sorted static array (`cjk_norm.rs`) for direct binary
+    // search — no automaton, since every entry is 1-char -> 1-char. The CJK
+    // dict stays out of the conversion chain: merging it made reverse lookups
+    // yield compat variants (`函數`) instead of simplified ones (`函数`) and
+    // added ~21% dead keys. Only emitted with `cjk-compat`.
+    #[cfg(feature = "cjk-compat")]
+    {
+        let s = zhconv_data_opencc::raw("CJK_Compatibility_Ideographs.txt");
+        let mut pairs: Vec<(u32, u32)> = Vec::new();
+        for line in s.lines().map(|l| l.trim()) {
+            if line.is_empty() || line.starts_with('#') {
+                continue;
+            }
+            let (k, vs) = line.split_once(char::is_whitespace).expect("well-formed");
+            let mut vs = vs.split_whitespace();
+            let (v, rest) = (vs.next().expect("well-formed"), vs.next());
+            assert!(rest.is_none(), "CJK dict is 1-char -> 1-char");
+            let (kc, vc) = (
+                k.chars().next().expect("well-formed"),
+                v.chars().next().expect("well-formed"),
+            );
+            assert!(
+                k.chars().count() == 1 && v.chars().count() == 1,
+                "CJK dict is 1-char -> 1-char"
+            );
+            pairs.push((kc as u32, vc as u32));
+            // The fast-path byte ranges in `normalize_cjk_compat` must cover exactly these.
+            assert!(
+                matches!(kc, '\u{F900}'..='\u{FAFF}' | '\u{2F800}'..='\u{2FA1D}'),
+                "CJK key outside fast-path ranges"
+            );
+        }
+        pairs.sort_unstable();
+        pairs.dedup();
+        let mut out = String::from("pub const CJK_NORM_PAIRS: &[(u32, u32)] = &[");
+        for (k, v) in &pairs {
+            out.push_str(&format!("({k},{v}),"));
+        }
+        out.push_str("];\n");
+        std::fs::write(
+            Path::new(&env::var_os("OUT_DIR").unwrap()).join("cjk_norm.rs"),
+            out,
+        )?;
+        log_diag!("CJK_NORM_PAIRS.len = {}\n", pairs.len())?;
+    }
 
     if std::env::var("DOCS_RS").is_err() {
         // vergen panics in docs.rs. It is only used by wasm.rs for now.

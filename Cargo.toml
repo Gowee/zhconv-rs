@@ -40,7 +40,12 @@ path = "src/main.rs"
 required-features = ["bin-build"]
 
 [features]
-default = ["compress", "mediawiki"]
+default = ["compress", "mediawiki", "cjk-compat"]
+
+# Normalize CJK compatibility ideographs before conversion (mirrors OpenCC's
+# `normalization` chain, present in every upstream config). Usable standalone
+# with any tables; enabled by default.
+cjk-compat = ["_opencc-base", "dep:memchr"]
 
 # Conversion tables for each target variant, sourced from MediaWiki (GPLv2.0+)
 # (recommended for general use if GPL is acceptable)
@@ -81,6 +86,7 @@ serde = ["dep:serde"]
 
 [dependencies]
 daachorse = "5.0"
+memchr = { version = "2", optional = true }
 itertools = { version = "0.15", optional = true }
 regex = "1.13"
 ruzstd = { version = "0.9", optional = true, default-features = false, features = ["std"] }

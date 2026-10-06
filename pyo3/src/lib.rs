@@ -43,6 +43,9 @@ fn zhconv(py: Python<'_>, text: &str, target: &str, wikitext: Option<bool>) -> P
 ///
 /// Convert text with the previously built converter. It is a callable object that behaves like a
 /// plain function, returned by `make_converter`.
+///
+/// No CJK compatibility normalization is applied; call `normalize_cjk_compat()` first
+/// on untrusted input that may contain compatibility ideographs.
 #[pyclass]
 struct ZhConverter(Converter);
 
@@ -61,6 +64,9 @@ impl ZhConverter {
 /// The returned converter is a callable function of the type `ZhConverter`:
 ///
 /// converter(text) -> result
+///
+/// Custom converters perform no CJK compatibility normalization; call
+/// `normalize_cjk_compat()` first on untrusted input that may contain them.
 #[pyfunction]
 #[pyo3(signature = (base, pairs, /))]
 fn make_converter(py: Python<'_>, base: Option<&str>, pairs: Py<PyAny>) -> PyResult<ZhConverter> {
@@ -103,6 +109,23 @@ fn make_converter(py: Python<'_>, base: Option<&str>, pairs: Py<PyAny>) -> PyRes
     };
 
     Ok(ZhConverter(builder.build()))
+}
+
+/// Normalize CJK compatibility ideographs to their standard forms.
+///
+/// Runs before conversion in `zhconv()`, but never inside custom converters,
+/// so call it explicitly when using `make_converter()`.
+///
+/// ```python
+/// from zhconv_rs import normalize_cjk_compat
+/// assert normalize_cjk_compat("函數") == "函數"
+/// assert normalize_cjk_compat("plain ascii") == "plain ascii"
+/// ```
+#[pyfunction]
+#[pyo3(signature = (text, /))]
+#[cfg(feature = "cjk-compat")]
+fn normalize_cjk_compat(py: Python<'_>, text: &str) -> String {
+    py.detach(move || ::zhconv::normalize_cjk_compat(text).into_owned())
 }
 
 /// Determine whether the given text is more likely in Simplified Chinese than Traditional Chinese.
@@ -231,6 +254,8 @@ fn infer_variant_confidence(text: &str) -> Vec<(String, f32)> {
 fn zhconv_rs(_py: Python, m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(crate::zhconv, m)?)?;
     m.add_function(wrap_pyfunction!(crate::make_converter, m)?)?;
+    #[cfg(feature = "cjk-compat")]
+    m.add_function(wrap_pyfunction!(crate::normalize_cjk_compat, m)?)?;
     #[cfg(all(
         any(feature = "mediawiki-hant", feature = "opencc-hant",),
         any(feature = "mediawiki-hans", feature = "opencc-hans")

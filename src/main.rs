@@ -10,8 +10,7 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
-use zhconv::get_builtin_tables;
-use zhconv::{get_builtin_converter, rule::Conv, Variant, ZhConverterBuilder};
+use zhconv::{get_builtin_converter, get_builtin_tables, rule::Conv, Variant, ZhConverterBuilder};
 
 #[derive(StructOpt, Debug)]
 #[structopt(name = "zhconv", about = "Convert Chinese between Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
@@ -77,16 +76,24 @@ fn main() -> Result<()> {
         return Ok(());
     }
 
+    // Entry-point policy (mirrors the `zhconv()` helper): normalize CJK
+    // compatibility ideographs first; converters themselves never do.
     #[allow(clippy::type_complexity)]
     let convert_to: Box<dyn Fn(&str, &mut String)> = if wikitext {
         let converter = get_builtin_converter(variant);
         Box::new(move |text: &str, output: &mut String| {
+            #[cfg(feature = "cjk-compat")]
+            let preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>> =
+                Some(zhconv::normalize_cjk_compat);
+            #[cfg(not(feature = "cjk-compat"))]
+            let preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>> = None;
             converter.convert_to_as_wikitext(
                 text,
                 output,
                 &mut Some(secondary_builder.clone()),
                 true,
                 true,
+                preprocess,
             );
         })
     } else {
@@ -94,6 +101,8 @@ fn main() -> Result<()> {
 
         let converter = get_builtin_converter(variant);
         Box::new(move |text: &str, output: &mut String| {
+            #[cfg(feature = "cjk-compat")]
+            let text: &str = &zhconv::normalize_cjk_compat(text);
             converter.convert_to_with_secondary_converter(text, output, &secondary_converter)
         })
     };
