@@ -2,7 +2,9 @@ use std::hint::black_box;
 
 use criterion::{criterion_group, criterion_main, Criterion};
 
-use zhconv::{converters::deserialize_converter, tables::*, Variant};
+use zhconv::{
+    converters::deserialize_converter, get_builtin_serialized_daac, get_builtin_store, Variant,
+};
 
 const WIKITEXT: &str = include_str!("wikitext.txt");
 const DATA54K: &str = include_str!("data54k.txt");
@@ -47,7 +49,7 @@ fn bench_load(c: &mut Criterion) {
                 deserialize_converter(
                     variant,
                     black_box(get_builtin_serialized_daac(variant)),
-                    black_box(get_builtin_tables(variant).iter().cloned()),
+                    black_box(get_builtin_store(variant)),
                 )
             })
         });

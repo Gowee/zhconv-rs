@@ -10,7 +10,7 @@ use structopt::{
 };
 use tempfile::{Builder as TempFileBuilder, NamedTempFile};
 
-use zhconv::{get_builtin_converter, get_builtin_tables, rule::Conv, Variant, ZhConverterBuilder};
+use zhconv::{get_builtin_converter, get_builtin_table, rule::Conv, Variant, ZhConverterBuilder};
 
 #[derive(StructOpt, Debug)]
 #[structopt(name = "zhconv", about = "Convert Chinese between Trad/Simp and regional variants of Chinese", global_settings(&[ColoredHelp, DeriveDisplayOrder]))]
@@ -66,7 +66,7 @@ fn main() -> Result<()> {
     }
 
     if dump_table {
-        secondary_builder = secondary_builder.tables(get_builtin_tables(variant));
+        secondary_builder = secondary_builder.table(get_builtin_table(variant));
         let mut pairs: Vec<(String, String)> =
             secondary_builder.build_mapping().into_iter().collect();
         pairs.sort_by(|a, b| a.0.len().cmp(&b.0.len()).then(a.0.cmp(&b.0)));

@@ -5,6 +5,8 @@ use std::iter::IntoIterator;
 use std::str::FromStr;
 
 use daachorse::{CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
+use zerovec::vecs::{Index32, VarZeroVecOwned};
+use zerovec::{VarZeroSlice, VarZeroVec};
 
 use crate::tables::Table;
 use crate::{
@@ -151,22 +153,26 @@ pub fn normalize_cjk_compat(text: &str) -> std::borrow::Cow<'_, str> {
 }
 
 /// A ZhConverter, built by [`ZhConverterBuilder`].
-pub struct ZhConverter {
+///
+/// `target_words` is borrowed for builtin converters (zero-copy over the
+/// bundled store) and owned for custom-built ones.
+pub struct ZhConverter<'a> {
     variant: Variant,
     automaton: Option<CharwiseDoubleArrayAhoCorasick<u32>>,
-    target_words: Vec<String>,
+    target_words: VarZeroVec<'a, str, Index32>,
 }
 
-impl ZhConverter {
+impl<'a> ZhConverter<'a> {
     /// Create a new converter from a automaton and a mapping.
     ///
     /// It is provided for convenience and not expected to be called directly.
     /// [`ZhConverterBuilder`] would take care of these
     /// details.
+    #[doc(hidden)]
     pub fn new(
         automaton: CharwiseDoubleArrayAhoCorasick<u32>,
-        target_words: Vec<String>,
-    ) -> ZhConverter {
+        target_words: VarZeroVec<'a, str, Index32>,
+    ) -> ZhConverter<'a> {
         ZhConverter {
             variant: Variant::Zh,
             automaton: Some(automaton),
@@ -180,16 +186,37 @@ impl ZhConverter {
     ///
     /// It is provided for convenience and not expected to be called directly.
     /// [`ZhConverterBuilder`] would take care of these details.
+    #[doc(hidden)]
     pub fn with_target_variant(
         automaton: CharwiseDoubleArrayAhoCorasick<u32>,
-        target_words: Vec<String>,
+        target_words: VarZeroVec<'a, str, Index32>,
         variant: Variant,
-    ) -> ZhConverter {
+    ) -> ZhConverter<'a> {
         ZhConverter {
             variant,
             automaton: Some(automaton),
             target_words,
         }
+    }
+
+    /// Break a converter back into its automaton, target_words, and variant.
+    ///
+    /// Inverse of [`new`](Self::new) / [`with_target_variant`](Self::with_target_variant).
+    /// `None` automaton means a blank converter (empty mapping).
+    #[doc(hidden)]
+    pub fn into_inner(
+        self,
+    ) -> (
+        Option<CharwiseDoubleArrayAhoCorasick<u32>>,
+        VarZeroVec<'a, str, Index32>,
+        Variant,
+    ) {
+        let Self {
+            variant,
+            automaton,
+            target_words,
+        } = self;
+        (automaton, target_words, variant)
     }
 
     /// Create a new converter of a sequence of `(from, to)` pairs.
@@ -198,7 +225,7 @@ impl ZhConverter {
     #[inline(always)]
     pub fn from_pairs(
         pairs: impl IntoIterator<Item = (impl Into<String>, impl Into<String>)>,
-    ) -> ZhConverter {
+    ) -> ZhConverter<'static> {
         ZhConverterBuilder::new().conv_pairs(pairs).build()
     }
 
@@ -213,7 +240,7 @@ impl ZhConverter {
     pub fn from_pairs_with_target_variant(
         variant: Variant,
         pairs: impl IntoIterator<Item = (impl Into<String>, impl Into<String>)>,
-    ) -> ZhConverter {
+    ) -> ZhConverter<'static> {
         ZhConverterBuilder::new()
             .target(variant)
             .conv_pairs(pairs)
@@ -250,6 +277,7 @@ impl ZhConverter {
         let mut last = 0;
         // let mut cnt = HashMap::<usize, usize>::new();
         // leftmost-longest matching
+        let target_words = self.target_words.as_slice();
         for (s, e, ti) in automaton
             .leftmost_find_iter(text)
             .map(|m| (m.start(), m.end(), m.value()))
@@ -258,7 +286,7 @@ impl ZhConverter {
                 output.push_str(&text[last..s]);
             }
             // *cnt.entry(text[s..e].chars().count()).or_insert(0) += 1;
-            output.push_str(&self.target_words[ti as usize]);
+            output.push_str(target_words.get(ti as usize).expect("daac value in range"));
             last = e;
         }
         output.push_str(&text[last..]);
@@ -326,7 +354,7 @@ impl ZhConverter {
         text: &str,
         output: &mut String,
         shadowing_automaton: Option<&CharwiseDoubleArrayAhoCorasick<u32>>,
-        shadowing_target_words: &[String],
+        shadowing_target_words: &VarZeroSlice<str, Index32>,
         shadowed_source_words: &HashSet<String>,
     ) {
         let automaton = match self.automaton.as_ref() {
@@ -341,6 +369,7 @@ impl ZhConverter {
         let mut last = 0;
         let mut left_match: Option<(usize, usize, &str)> = None;
         let mut right_match: Option<(usize, usize, &str)> = None;
+        let target_words = self.target_words.as_slice();
 
         while last < text.len() {
             // leftmost-longest matching
@@ -350,7 +379,9 @@ impl ZhConverter {
                     (
                         last + m.start(),
                         last + m.end(),
-                        self.target_words[m.value() as usize].as_str(),
+                        target_words
+                            .get(m.value() as usize)
+                            .expect("daac value in range"),
                     )
                 });
             }
@@ -363,7 +394,9 @@ impl ZhConverter {
                             (
                                 last + m.start(),
                                 last + m.end(),
-                                shadowing_target_words[m.value() as usize].as_str(),
+                                shadowing_target_words
+                                    .get(m.value() as usize)
+                                    .expect("daac value in range"),
                             )
                         })
                 });
@@ -483,7 +516,7 @@ impl ZhConverter {
         secondary_converter_builder: &mut Option<ZhConverterBuilder>,
         skip_html_code_blocks: bool,
         apply_global_rules: bool,
-        preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>>,
+        preprocess: Option<for<'hook> fn(&'hook str) -> std::borrow::Cow<'hook, str>>,
     ) -> String {
         let mut output = String::with_capacity(text.len());
         self.convert_to_as_wikitext(
@@ -528,7 +561,7 @@ impl ZhConverter {
         secondary_converter_builder: &mut Option<ZhConverterBuilder>,
         skip_html_code_blocks: bool,
         apply_global_rules: bool,
-        preprocess: Option<for<'a> fn(&'a str) -> std::borrow::Cow<'a, str>>,
+        preprocess: Option<for<'hook> fn(&'hook str) -> std::borrow::Cow<'hook, str>>,
     ) {
         // Ref: https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L855
         //  and https://github.com/wikimedia/mediawiki/blob/7bf779524ab1fd8e1d74f79ea4840564d48eea4d/includes/language/LanguageConverter.php#L910
@@ -685,11 +718,14 @@ impl ZhConverter {
         self.automaton
             .as_ref()
             .map(|automaton| {
+                let target_words = self.target_words.as_slice();
                 automaton.leftmost_find_iter(text).map(|m| {
                     (
                         m.start(),
                         m.end(),
-                        self.target_words[m.value() as usize].as_ref(),
+                        target_words
+                            .get(m.value() as usize)
+                            .expect("daac value in range"),
                     )
                 })
             })
@@ -721,13 +757,13 @@ impl ZhConverter {
 /// ```
 /// # #[cfg(any(feature = "mediawiki", feature = "opencc"))]
 /// # {
-/// use zhconv::{zhconv, ZhConverterBuilder, Variant, get_builtin_tables};
+/// use zhconv::{zhconv, ZhConverterBuilder, Variant, get_builtin_table};
 /// // extracted from https://zh.wikipedia.org/wiki/Template:CGroup/Template:CGroup/文學.
 /// let rules = r"zh-hans:三个火枪手;zh-hant:三劍客;zh-tw:三劍客;
 ///                    zh-cn:雾都孤儿;zh-tw:孤雛淚;zh-hk:苦海孤雛;zh-sg:雾都孤儿;zh-mo:苦海孤雛;";
 /// let converter = ZhConverterBuilder::new()
 ///                     .target(Variant::ZhCN)
-///                     .tables(get_builtin_tables(Variant::ZhCN))
+///                     .table(get_builtin_table(Variant::ZhCN))
 ///                     .conv_lines(rules.lines())
 ///                     .build();
 /// let original = "《三劍客》是亞歷山大·仲馬的作品。《孤雛淚》是查爾斯·狄更斯的作品。";
@@ -738,7 +774,7 @@ impl ZhConverter {
 pub struct ZhConverterBuilder<'t> {
     target: Variant,
     /// The base conversion table
-    tables: Vec<(&'t str, &'t str)>,
+    tables: Vec<Table<'t>>,
     /// Rules to be added, from page rules or cgroups
     adds: HashMap<String, String>,
     /// Rules to be removed, from page rules or cgroups
@@ -766,13 +802,14 @@ impl<'t> ZhConverterBuilder<'t> {
         self
     }
 
-    /// Add a conversion table, which is typically those in [`tables`](crate::tables).
+    /// Add a conversion table, which is typically those returned by
+    /// [`get_builtin_table`](crate::get_builtin_table).
     pub fn table(mut self, table: Table<'t>) -> Self {
         self.tables.push(table);
         self
     }
 
-    /// Add a set of conversion tables, which are typically returned by [`get_builtin_tables`](crate::get_builtin_tables).
+    /// Add conversion tables (e.g. a slice of `ZH_*_TABLE` constants).
     pub fn tables(mut self, tables: &[Table<'t>]) -> Self {
         self.tables.extend(tables.iter());
         self
@@ -922,31 +959,34 @@ impl<'t> ZhConverterBuilder<'t> {
     ///
     /// It internally aggregate previously specified tables, rules and pairs, from where an
     /// automaton and a mapping are built, which are then feed into the new converter.
-    pub fn build(&self) -> ZhConverter {
+    /// Custom-built converters always own their target_words; only builtin
+    /// converters borrow the bundled store.
+    pub fn build(&self) -> ZhConverter<'static> {
         let mapping = self.build_mapping();
-        let mut target_words = vec![];
-        let automaton = if !mapping.is_empty() {
-            target_words.reserve_exact(mapping.len());
-            let sequence = mapping.into_iter();
-            Some(
-                CharwiseDoubleArrayAhoCorasickBuilder::new()
-                    .match_kind(MatchKind::LeftmostLongest)
-                    // Disable prefilter: conversion tables have high text coverage, so prefiltering cannot skip ahead and only adds overhead.
-                    .use_prefilter(false)
-                    .build(sequence.map(|(f, t)| {
-                        target_words.push(t);
-                        f
-                    }))
-                    .expect("Rules feed to DAAC already filtered"),
-            )
-        } else {
-            None
-        };
-
+        if mapping.is_empty() {
+            return ZhConverter {
+                variant: self.target,
+                automaton: None,
+                target_words: VarZeroVec::from(VarZeroVecOwned::<str, Index32>::new()),
+            };
+        }
+        let mut target_words = Vec::with_capacity(mapping.len());
+        let automaton = CharwiseDoubleArrayAhoCorasickBuilder::new()
+            .match_kind(MatchKind::LeftmostLongest)
+            // Disable prefilter: conversion tables have high text coverage, so prefiltering cannot skip ahead and only adds overhead.
+            .use_prefilter(false)
+            .build(mapping.into_iter().map(|(f, t)| {
+                target_words.push(t);
+                f
+            }))
+            .expect("Rules feed to DAAC already filtered");
         ZhConverter {
             variant: self.target,
-            automaton,
-            target_words,
+            automaton: Some(automaton),
+            target_words: VarZeroVec::from(
+                VarZeroVecOwned::<str, Index32>::try_from_elements(&target_words)
+                    .expect("pack target words"),
+            ),
         }
     }
 
@@ -961,15 +1001,29 @@ impl<'t> ZhConverterBuilder<'t> {
             ..
         } = self;
         // TODO: do we need a HashMap at all?
+        // Size from view ranges (exact pair count), not byte lengths.
         let mut mapping = HashMap::with_capacity(
-            (tables.iter().map(|(fs, _ts)| fs.len()).sum::<usize>() + adds.len())
-                .saturating_sub(removes.len()),
+            (tables
+                .iter()
+                .map(|t| {
+                    t.ranges
+                        .iter()
+                        .map(|&(s, e)| e.saturating_sub(s))
+                        .sum::<usize>()
+                })
+                .sum::<usize>()
+                + adds.len())
+            .saturating_sub(removes.len()),
         );
         mapping.extend(
             tables
                 .iter()
                 .flat_map(|&table| expand_table(table))
-                .filter(|(from, to)| !(from.is_empty() && to.is_empty())) // empty str would trouble AC
+                // Empty sources would poison the automaton (daachorse
+                // ignores all other patterns when the set contains an
+                // empty string, silently stopping conversion);
+                // `expand_table` already drops them, belt and braces.
+                .filter(|(from, _to)| !from.is_empty())
                 .filter(|(from, _to)| !removes.contains_key(from)),
         );
         mapping.extend(
@@ -1126,6 +1180,7 @@ mod converter_tests {
     }
 
     #[test]
+    #[allow(clippy::type_complexity)]
     fn wikitext_preprocess_hook() {
         // Hook runs on prose spans. Plain `fn`s and non-capturing closures
         // both coerce to the pointer; bare `None` means raw conversion.

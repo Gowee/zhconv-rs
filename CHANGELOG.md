@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Documented the single-automaton emulation contract: stages flatten as union + leftmost-longest with earlier rules winning; `short_circuit` shorter-match-wins is not emulated (infeasible).
 - Synced datasets to latest upstream: MediaWiki `1584f8371d` (ZH_TO_HANT 9776→10843 entries etc.), OpenCC `3ac34aa43` (TSCharacters/TSPhrases/TWVariants/CJK refreshes).
 
+### Changed
+- **Breaking:** bundled tables are now monolithic `VarZeroVec<str, Index32>` side stores (`HANS_ALL` = hans ++ cn-extras, `HANT_ALL` = hant ++ tw-extras ++ hk-extras) instead of prefix-compressed `.from/.to.conv` splits. `Table` is an opaque struct (fields private; construct via `ZH_*_TABLE` / `get_builtin_table`, one self-contained view per variant), `expand_table` returns `Vec`, table types and functions are re-exported at the crate root (alongside `pub mod tables`), and `ZhConverter` carries a lifetime (`ZhConverter<'a>`; constructors return `'static`). Builtin converters borrow the store with zero per-string allocation; per-variant automata index into it (remapped for HK extras), pinned by build-time per-pair, retain-contract, and end-to-end matcher assertions.
+
 ## [0.4.2-1] - 2026-09-08
 
 ### Added

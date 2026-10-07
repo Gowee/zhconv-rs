@@ -9,8 +9,13 @@
 /// - Sorts conversion pairs by length (longest first) and lexicographically
 /// - Deduplicates pairs, retaining only the first rule for each source mapping
 /// - Generates output files:
-///   - `.from.conv` and `.to.conv`: Compressed pair format for direct lookup
-///   - `.daac`: Serialized Aho-Corasick automaton for efficient pattern matching
+///   - `.from.vzv` and `.to.vzv`: one monolithic [`VarZeroVec`](https://docs.rs/zerovec)<`str`,
+///     `Index32`> store per script side (`HANS_ALL` = hans ++ cn-extras,
+///     `HANT_ALL` = hant ++ tw-extras ++ hk-extras), full strings parsed
+///     zero-copy at runtime (zstd-compressed when `compress` is on)
+///   - `.daac`: Serialized Aho-Corasick automaton per target variant, whose
+///     values index into the side store (remapped for non-prefix segments)
+///   - `table_meta.rs`: element boundaries into the stores for views
 ///   - `cjk_norm.rs` (with `cjk-compat`): Sorted CJK compatibility pairs for
 ///     the converter pre-pass (no automaton; see below)
 ///
@@ -31,13 +36,10 @@ use std::env;
 use std::fs::File;
 use std::io;
 use std::io::Write;
-use std::iter;
 use std::path::Path;
 
 use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
 use vergen::EmitBuilder;
-
-const DELIMITER: &str = "|";
 
 fn main() -> io::Result<()> {
     #[cfg(all(
@@ -154,17 +156,124 @@ fn main() -> io::Result<()> {
     }
 
     let hans_pairs = zhconvs.remove("ZH_TO_HANS").unwrap();
+    let hant_pairs = zhconvs.remove("ZH_TO_HANT").unwrap();
+    let mut cn_pairs = zhconvs.remove("ZH_TO_CN").unwrap();
+    let mut tw_pairs = zhconvs.remove("ZH_TO_TW").unwrap();
+    let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
+
+    // Monolithic side stores: each variant's DAAC addresses one shared
+    // store, so target words are borrowed once instead of copied per
+    // variant. Hans-side: M = HANS ++ CN'; hant-side: M = HANT ++ TW' ++
+    // HK'. Tails are included only when their features are on, so
+    // feature-gated builds carry no foreign data.
+    // Chaining (hans+cn tables reused across converters) does not work
+    // for daac, so we build one automaton per target variant, tolerating
+    // the redundancy there — same as before, only the word store is now
+    // shared instead of split per table.
+
+    // ---- hans side ----
+    let mut m_hans = hans_pairs;
+    let hans_len = m_hans.len();
+    if cfg!(any(feature = "mediawiki-cn", feature = "opencc-cn")) {
+        let hans_map: HashMap<&str, &str> = m_hans
+            .iter()
+            .map(|(f, t)| (f.as_str(), t.as_str()))
+            .collect();
+        cn_pairs.retain(|p| hans_map.get(p.0.as_str()).copied() != Some(p.1.as_str()));
+        // A3: extras hold no base-identical pairs (else dead weight + remap noise).
+        assert!(
+            cn_pairs
+                .iter()
+                .all(|p| hans_map.get(p.0.as_str()).copied() != Some(p.1.as_str())),
+            "CN extras overlap base identicals"
+        );
+        m_hans.extend(cn_pairs);
+    }
+    let hans_total = m_hans.len();
+    // A1: boundaries sane.
+    assert!(hans_len <= hans_total, "hans split past store");
+    let (m_hans_froms, m_hans_tos): (Vec<&str>, Vec<&str>) =
+        m_hans.iter().map(|(f, t)| (f.as_str(), t.as_str())).unzip();
     if cfg!(any(
         feature = "mediawiki-hans",
         feature = "opencc-hans",
         feature = "mediawiki-cn",
         feature = "opencc-cn"
     )) {
-        write_conv_file("ZH_TO_HANS", &hans_pairs)?;
-        write_daac_file("ZH_TO_HANS", &hans_pairs)?;
+        write_vzv_file("ZH_TO_HANS_ALL", &m_hans)?;
+        // HANS values are positional: pairs == store prefix.
+        write_daac_file(
+            "ZH_TO_HANS",
+            &m_hans[..hans_len],
+            hans_len,
+            hans_len as u32,
+            &m_hans_froms,
+            &m_hans_tos,
+        )?;
+    }
+    if cfg!(any(feature = "mediawiki-cn", feature = "opencc-cn")) {
+        // HANS_CN values are positional: pairs == whole store.
+        write_daac_file(
+            "ZH_TO_HANS_CN",
+            &m_hans[..],
+            hans_total,
+            hans_total as u32,
+            &m_hans_froms,
+            &m_hans_tos,
+        )?;
+        log_diag!("ZH_TO_HANS_CN: final.len = {}\n", hans_total)?;
     }
 
-    let hant_pairs = zhconvs.remove("ZH_TO_HANT").unwrap();
+    // ---- hant side ----
+    let mut m_hant = hant_pairs;
+    let hant_len = m_hant.len();
+    let mut tw_end = hant_len;
+    if cfg!(any(feature = "mediawiki-tw", feature = "opencc-tw")) {
+        {
+            let hant_map: HashMap<&str, &str> = m_hant
+                .iter()
+                .map(|(f, t)| (f.as_str(), t.as_str()))
+                .collect();
+            tw_pairs.retain(|p| hant_map.get(p.0.as_str()).copied() != Some(p.1.as_str()));
+            // A3: same contract as CN.
+            assert!(
+                tw_pairs
+                    .iter()
+                    .all(|p| hant_map.get(p.0.as_str()).copied() != Some(p.1.as_str())),
+                "TW extras overlap base identicals"
+            );
+        }
+        m_hant.extend(tw_pairs);
+        tw_end = m_hant.len();
+    }
+    if cfg!(any(feature = "mediawiki-hk", feature = "opencc-hk")) {
+        {
+            // Base only: hk extras identical to tw extras must be kept —
+            // the TW segment is not in HK's automaton, so comparing
+            // against it would silently drop HK rules.
+            let hant_map: HashMap<&str, &str> = m_hant[..hant_len]
+                .iter()
+                .map(|(f, t)| (f.as_str(), t.as_str()))
+                .collect();
+            hk_pairs.retain(|p| hant_map.get(p.0.as_str()).copied() != Some(p.1.as_str()));
+            // A3: same contract as CN.
+            assert!(
+                hk_pairs
+                    .iter()
+                    .all(|p| hant_map.get(p.0.as_str()).copied() != Some(p.1.as_str())),
+                "HK extras overlap base identicals"
+            );
+        }
+        m_hant.extend(hk_pairs);
+    }
+    let hant_total = m_hant.len();
+    // A1: boundaries sane and ordered.
+    assert!(
+        hant_len <= tw_end && tw_end <= hant_total,
+        "hant splits out of order"
+    );
+    let (m_hant_froms, m_hant_tos): (Vec<&str>, Vec<&str>) =
+        m_hant.iter().map(|(f, t)| (f.as_str(), t.as_str())).unzip();
     if cfg!(any(
         feature = "mediawiki-hant",
         feature = "opencc-hant",
@@ -173,57 +282,68 @@ fn main() -> io::Result<()> {
         feature = "mediawiki-hk",
         feature = "opencc-hk"
     )) {
-        write_conv_file("ZH_TO_HANT", &hant_pairs)?;
-        write_daac_file("ZH_TO_HANT", &hant_pairs)?;
+        write_vzv_file("ZH_TO_HANT_ALL", &m_hant)?;
+        // HANT values are positional: pairs == store prefix.
+        write_daac_file(
+            "ZH_TO_HANT",
+            &m_hant[..hant_len],
+            hant_len,
+            hant_len as u32,
+            &m_hant_froms,
+            &m_hant_tos,
+        )?;
     }
-
-    // The complete table for cn (normalized as hans-cn) are formed by chaining hans table and
-    // cn-specific table, so that hans table can be reused for both hans and hans-cn converters,
-    // thus reducing the bundled asset size.
-    // Chaining does not work for daac, so we have to build complete daac for each target variant,
-    // tolerating the redundancy.
-    // The same logic applies to tw (hant-tw) and hk (hant-hk).
-    let mut cn_pairs = zhconvs.remove("ZH_TO_CN").unwrap();
-    if cfg!(any(feature = "mediawiki-cn", feature = "opencc-cn")) {
-        let hans_map: HashMap<_, _> = hans_pairs.iter().cloned().collect();
-        cn_pairs.retain(|(from, to)| hans_map.get(from.as_str()) != Some(to));
-        write_conv_file("ZH_TO_CN", &cn_pairs)?;
-        let mut hans_cn_pairs = hans_pairs;
-        hans_cn_pairs.extend(cn_pairs);
-        write_daac_file("ZH_TO_HANS_CN", &hans_cn_pairs)?;
-        log_diag!("ZH_TO_HANS_CN: final.len = {}\n", hans_cn_pairs.len())?;
-    }
-
     // Here, ZH_TO_HANT | ZH_TO_TW => ZH_TO_HANT_TW, etc. In other places, ZH_TO_TW might imply ZH_TO_HANT_TW.
-
-    if cfg!(any(
-        feature = "mediawiki-tw",
-        feature = "opencc-tw",
-        feature = "mediawiki-hk",
-        feature = "opencc-hk"
-    )) {
-        let hant_map: HashMap<_, _> = hant_pairs.iter().cloned().collect();
-
-        let mut tw_pairs = zhconvs.remove("ZH_TO_TW").unwrap();
-        if cfg!(any(feature = "mediawiki-tw", feature = "opencc-tw")) {
-            tw_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-            write_conv_file("ZH_TO_TW", &tw_pairs)?;
-            let mut hant_tw_pairs = hant_pairs.clone();
-            hant_tw_pairs.extend(tw_pairs);
-            write_daac_file("ZH_TO_HANT_TW", &hant_tw_pairs)?;
-            log_diag!("ZH_TO_HANT_TW: final.len = {}\n", hant_tw_pairs.len())?;
-        }
-
-        let mut hk_pairs = zhconvs.remove("ZH_TO_HK").unwrap();
-        if cfg!(any(feature = "mediawiki-hk", feature = "opencc-hk")) {
-            hk_pairs.retain(|(from, to)| hant_map.get(from.as_str()) != Some(to));
-            write_conv_file("ZH_TO_HK", &hk_pairs)?;
-            let mut hant_hk_pairs = hant_pairs;
-            hant_hk_pairs.extend(hk_pairs);
-            write_daac_file("ZH_TO_HANT_HK", &hant_hk_pairs)?;
-            log_diag!("ZH_TO_HANT_HK: final.len = {}\n", hant_hk_pairs.len())?;
-        }
+    if cfg!(any(feature = "mediawiki-tw", feature = "opencc-tw")) {
+        // HANT_TW values are positional: pairs == store prefix.
+        write_daac_file(
+            "ZH_TO_HANT_TW",
+            &m_hant[..tw_end],
+            tw_end,
+            tw_end as u32,
+            &m_hant_froms,
+            &m_hant_tos,
+        )?;
+        log_diag!("ZH_TO_HANT_TW: final.len = {}\n", tw_end)?;
     }
+    if cfg!(any(feature = "mediawiki-hk", feature = "opencc-hk")) {
+        // HK pairs are discontiguous in the store (base ++ hk-extras past
+        // the tw segment), so the tail remaps past it. Only segment needing
+        // non-identity values; A2 below pins every slot.
+        let hant_hk_pairs: Vec<(String, String)> = m_hant[..hant_len]
+            .iter()
+            .chain(m_hant[tw_end..].iter())
+            .cloned()
+            .collect();
+        write_daac_file(
+            "ZH_TO_HANT_HK",
+            &hant_hk_pairs,
+            hant_len,
+            tw_end as u32,
+            &m_hant_froms,
+            &m_hant_tos,
+        )?;
+        log_diag!(
+            "ZH_TO_HANT_HK: final.len = {}\n",
+            hant_len + (hant_total - tw_end)
+        )?;
+    }
+
+    // Element boundaries into the monolithic stores, for runtime table
+    // views (`Table.ranges` in tables.rs): base lengths and segment ends.
+    // DAAC value remaps use the same numbers via locals above, not these
+    // consts — both derive from one assembly, so they cannot drift.
+    // Always emitted; tables.rs references each under matching cfgs.
+    std::fs::write(
+        Path::new(&env::var_os("OUT_DIR").unwrap()).join("table_meta.rs"),
+        format!(
+            "pub const HANS_ALL_HANS_LEN: usize = {hans_len};\n\
+             pub const HANS_ALL_TOTAL: usize = {hans_total};\n\
+             pub const HANT_ALL_HANT_LEN: usize = {hant_len};\n\
+             pub const HANT_ALL_TW_END: usize = {tw_end};\n\
+             pub const HANT_ALL_TOTAL: usize = {hant_total};\n"
+        ),
+    )?;
 
     log_diag!("Built in: {:?}\n=== DONE ===\n", start_time.elapsed())?;
 
@@ -307,58 +427,71 @@ fn main() -> io::Result<()> {
     Ok(())
 }
 
-fn write_conv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
+fn write_vzv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
+    use zerovec::vecs::{Index32, VarZeroVecOwned};
     let out_dir = env::var_os("OUT_DIR").unwrap();
-    // {from, to}.conv is just DELIMITER-separated list of {source, target} phrases.
-    // source phrases, which are coded into daac, are only useful for building new daacs.
-    // However, we still bundle it anyway for implementation convenience.
-    let dest_path_from = Path::new(&out_dir).join(format!("{}.from.conv", name));
-    let dest_path_to = Path::new(&out_dir).join(format!("{}.to.conv", name));
-
-    let mut ffrom = File::create(dest_path_from)?;
-    let mut fto = File::create(dest_path_to)?;
-    let mut it = pairs.iter().peekable();
-    let mut last_from = "";
-    while let Some((from, to)) = it.next().map(|(f, t)| (f, t)) {
-        debug_assert!(
-            !from.contains(DELIMITER) && !to.contains(DELIMITER),
-            "Unexpected delimiter {} in pair {} -> {}",
-            DELIMITER,
-            from,
-            to
-        );
-        debug_assert!(
-            !from
-                .chars()
-                .any(|c| (SURROGATE_START..SURROGATE_END).contains(&c))
-                && !to
-                    .chars()
-                    .any(|c| (SURROGATE_START..SURROGATE_END).contains(&c)),
-            "Unexpected surrogate char in pair {} -> {}",
-            from,
-            to
-        );
-        for c in pair_reduce(from.chars(), last_from.chars()) {
-            write!(ffrom, "{}", c)?;
-        }
-        for c in pair_reduce(to.chars(), from.chars()) {
-            write!(fto, "{}", c)?;
-        }
-        if it.peek().is_some() {
-            write!(ffrom, "{}", DELIMITER)?;
-            write!(fto, "{}", DELIMITER)?;
-        }
-        last_from = from;
-    }
-
+    // {from, to}.vzv hold VarZeroVec<str, Index32> bytes: full strings,
+    // borrowed zero-copy at runtime (validated in debug builds).
+    // Index32: tables exceed the u16 range. zstd-compressed when
+    // `compress` is on (same settings as `.daac`).
+    let froms: Vec<&str> = pairs.iter().map(|(f, _)| f.as_str()).collect();
+    let tos: Vec<&str> = pairs.iter().map(|(_, t)| t.as_str()).collect();
+    let from_bytes = VarZeroVecOwned::<str, Index32>::try_from_elements(&froms)
+        .expect("VZV-encode froms")
+        .as_bytes()
+        .to_vec();
+    let to_bytes = VarZeroVecOwned::<str, Index32>::try_from_elements(&tos)
+        .expect("VZV-encode tos")
+        .as_bytes()
+        .to_vec();
+    #[cfg(feature = "compress")]
+    let from_bytes = zstd_compress(&from_bytes)?;
+    #[cfg(feature = "compress")]
+    let to_bytes = zstd_compress(&to_bytes)?;
+    std::fs::write(
+        Path::new(&out_dir).join(format!("{name}.from.vzv")),
+        from_bytes,
+    )?;
+    std::fs::write(Path::new(&out_dir).join(format!("{name}.to.vzv")), to_bytes)?;
     Ok(())
 }
 
-fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
+/// Value remap into the monolithic side store: the first `base_len` pairs
+/// keep positional values; the tail maps to `tail_base + (i - base_len)`.
+/// Prefix cases pass `tail_base == base_len` (identity).
+fn write_daac_file(
+    name: &str,
+    pairs: &[(String, String)],
+    base_len: usize,
+    tail_base: u32,
+    store_froms: &[&str],
+    store_tos: &[&str],
+) -> io::Result<()> {
+    assert!(base_len <= pairs.len(), "{name}: base past pairs");
+    assert!(
+        pairs.iter().all(|(f, _)| !f.is_empty()),
+        "{name}: empty from poisons the automaton"
+    );
+    let value_of = |i: usize| -> u32 {
+        if i < base_len {
+            i as u32
+        } else {
+            tail_base + (i - base_len) as u32
+        }
+    };
+    // A2: every pair's remapped slot holds exactly that pair.
+    for (i, (f, t)) in pairs.iter().enumerate() {
+        let v = value_of(i) as usize;
+        assert!(v < store_tos.len(), "{name}: value {v} out of store");
+        assert!(
+            store_froms[v] == f && store_tos[v] == t,
+            "{name}: remap mismatch at pair {i}"
+        );
+    }
     let mut seen = HashSet::new();
     let out_dir = env::var_os("OUT_DIR").unwrap();
-    let dest_path_daac = Path::new(&out_dir).join(format!("{}.daac", name));
-    let daac = CharwiseDoubleArrayAhoCorasickBuilder::new()
+    let dest_path_daac = Path::new(&out_dir).join(format!("{name}.daac"));
+    let automaton = CharwiseDoubleArrayAhoCorasickBuilder::new()
         .match_kind(MatchKind::LeftmostLongest)
         // Disable prefilter: conversion tables have high text coverage, so prefiltering cannot skip ahead and only adds overhead.
         .use_prefilter(false)
@@ -369,60 +502,50 @@ fn write_daac_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
                     None
                 } else {
                     seen.insert(f);
-                    Some((f, i as u32))
+                    Some((f, value_of(i)))
                 }
             },
         ))
-        .expect(name)
-        .serialize();
+        .expect(name);
+    // A4: end-to-end through the real matcher. Last-wins expectations mirror
+    // the rev-dedup above; each distinct key must resolve to its word.
+    {
+        let mut expected: HashMap<&str, &str> = HashMap::new();
+        for (f, t) in pairs {
+            expected.insert(f.as_str(), t.as_str());
+        }
+        for (&f, &t) in &expected {
+            let v = automaton
+                .leftmost_find_iter(f)
+                .next()
+                .unwrap_or_else(|| panic!("{name}: key {f:?} unfindable"))
+                .value();
+            assert!(
+                store_tos[v as usize] == t,
+                "{name}: match mismatch for {f:?}"
+            );
+        }
+    }
+    let daac = automaton.serialize();
 
     #[cfg(feature = "compress")]
-    let daac = {
-        let window_log = (daac.len().next_power_of_two().trailing_zeros()).clamp(17, 22);
-        let mut encoder = zstd::stream::Encoder::new(Vec::new(), 19)?;
-        encoder.set_pledged_src_size(Some(daac.len() as u64))?;
-        encoder.window_log(window_log)?;
-        encoder.include_checksum(false)?;
-        use std::io::Write;
-        encoder.write_all(&daac)?;
-        encoder.finish()?
-    };
+    let daac = zstd_compress(&daac)?;
 
     File::create(dest_path_daac)?.write_all(&daac)
 }
 
-const SURROGATE_START: char = '\x00';
-const SURROGATE_END: char = '\x20'; // exclusive
-
-// simple but efficient compression
-fn pair_reduce<'s>(
-    mut s: impl Iterator<Item = char> + 's + Clone,
-    mut base: impl Iterator<Item = char> + 's + Clone,
-) -> impl Iterator<Item = char> + 's + Clone {
-    let mut it = iter::from_fn(move || match (s.next(), base.next()) {
-        (Some(a), Some(b)) if a == b => Some(SURROGATE_START),
-        (Some(a), _) => Some(a),
-        (None, _) => None,
-    })
-    .peekable();
-
-    iter::from_fn(move || {
-        it.next().map(|curr| {
-            if curr == SURROGATE_START {
-                let mut count = 1;
-                while Some(&SURROGATE_START) == it.peek() {
-                    if (SURROGATE_START as u32) + (count + 1) >= (SURROGATE_END as u32) {
-                        break;
-                    }
-                    let _ = it.next();
-                    count += 1;
-                }
-                char::from_u32(SURROGATE_START as u32 + count).unwrap()
-            } else {
-                curr
-            }
-        })
-    })
+/// Shared zstd settings for bundled artifacts (level 19, no checksum):
+/// sized window for the payload, pledged size up front.
+#[cfg(feature = "compress")]
+fn zstd_compress(data: &[u8]) -> io::Result<Vec<u8>> {
+    let window_log = (data.len().max(1).next_power_of_two().trailing_zeros()).clamp(17, 22);
+    let mut encoder = zstd::stream::Encoder::new(Vec::new(), 19)?;
+    encoder.set_pledged_src_size(Some(data.len() as u64))?;
+    encoder.window_log(window_log)?;
+    encoder.include_checksum(false)?;
+    use std::io::Write;
+    encoder.write_all(data)?;
+    encoder.finish()
 }
 
 fn sort_and_dedup(pairs: &mut Vec<(String, String)>) {

@@ -11,7 +11,7 @@ use pyo3::types::PyString;
 use pyo3_file::PyFileLikeObject;
 
 use ::zhconv::{
-    get_builtin_tables, zhconv as zhconv_plain, zhconv_mw, Variant, ZhConverter as Converter,
+    get_builtin_table, zhconv as zhconv_plain, zhconv_mw, Variant, ZhConverter as Converter,
     ZhConverterBuilder,
 };
 
@@ -47,7 +47,7 @@ fn zhconv(py: Python<'_>, text: &str, target: &str, wikitext: Option<bool>) -> P
 /// No CJK compatibility normalization is applied; call `normalize_cjk_compat()` first
 /// on untrusted input that may contain compatibility ideographs.
 #[pyclass]
-struct ZhConverter(Converter);
+struct ZhConverter(Converter<'static>);
 
 #[pymethods]
 impl ZhConverter {
@@ -75,7 +75,7 @@ fn make_converter(py: Python<'_>, base: Option<&str>, pairs: Py<PyAny>) -> PyRes
         .unwrap_or(Variant::Zh);
     let mut builder = ZhConverterBuilder::new()
         .target(base)
-        .tables(get_builtin_tables(base));
+        .table(get_builtin_table(base));
     if let Ok(pairs) = pairs.extract::<Vec<(String, String)>>(py) {
         builder = builder.conv_pairs(pairs);
     } else {

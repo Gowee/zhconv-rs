@@ -86,6 +86,10 @@ serde = ["dep:serde"]
 
 [dependencies]
 daachorse = "5.0"
+# `alloc` is not default: owned/borrowed vec APIs live behind it.
+# Keep the version in sync with [build-dependencies]: build-time encoder
+# and runtime decoder must agree on the byte format.
+zerovec = { version = "0.11", features = ["alloc"] }
 memchr = { version = "2", optional = true }
 itertools = { version = "0.15", optional = true }
 regex = "1.13"
@@ -119,6 +123,8 @@ criterion = "0.8"
 
 [build-dependencies]
 daachorse = "5.0"
+# Same version as [dependencies] (see note there).
+zerovec = { version = "0.11", features = ["alloc"] }
 vergen = { version = "8.2", features = ["build", "git", "gitcl"] }
 zstd = { version = "0.14", optional = true }
 zhconv-data-mediawiki = { path = "data/mediawiki", version = "0.5.0", optional = true }

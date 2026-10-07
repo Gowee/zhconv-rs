@@ -94,6 +94,7 @@ mod converter;
 mod utils;
 
 pub mod converters;
+
 pub mod tables;
 
 pub mod pagerules;
@@ -112,7 +113,20 @@ pub use self::converter::{ZhConverter, ZhConverterBuilder};
 pub use self::converters::get_builtin_converter;
 #[allow(unused_imports)]
 use self::converters::*;
-pub use self::tables::get_builtin_tables;
+#[cfg(any(feature = "mediawiki-hans", feature = "opencc-hans"))]
+pub use self::tables::ZH_HANS_TABLE;
+#[cfg(any(feature = "mediawiki-hant", feature = "opencc-hant"))]
+pub use self::tables::ZH_HANT_TABLE;
+#[cfg(any(feature = "mediawiki-tw", feature = "opencc-tw"))]
+pub use self::tables::ZH_HANT_TW_TABLE;
+pub use self::tables::{
+    expand_table, get_builtin_serialized_daac, get_builtin_store, get_builtin_table, Table,
+    ZH_TABLE,
+};
+#[cfg(any(feature = "mediawiki-cn", feature = "opencc-cn"))]
+pub use self::tables::{ZH_HANS_CN_TABLE, ZH_HANS_MY_TABLE, ZH_HANS_SG_TABLE};
+#[cfg(any(feature = "mediawiki-hk", feature = "opencc-hk"))]
+pub use self::tables::{ZH_HANT_HK_TABLE, ZH_HANT_MO_TABLE};
 pub use self::variant::Variant;
 
 pub const ENABLED_TARGET_VARIANTS: &[Variant] = &[

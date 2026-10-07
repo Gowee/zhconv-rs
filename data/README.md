@@ -4,7 +4,7 @@
 
 - `mediawiki/` is the `zhconv-data-mediawiki` crate (GPL-2.0-or-later): `ZhConversion.php` from [MediaWiki](https://github.com/wikimedia/mediawiki/blob/master/includes/Languages/Data/ZhConversion.php) plus an internal parser. It returns structured tables; the parent `build.rs` merges them.
 - `opencc/` is the `zhconv-data-opencc` crate (Apache-2.0): `*.txt` from [OpenCC](https://github.com/BYVoid/OpenCC/tree/master/data) plus internal staging/flattening. Same contract.
-- `../build.rs` merges both sources into a **single** automaton per target (MediaWiki first, OpenCC appended; earlier rules win), then sorts, dedups and emits `.conv`/`.daac`.
+- `../build.rs` merges both sources into a **single** automaton per target (MediaWiki first, OpenCC appended; earlier rules win), then sorts, dedups and emits monolithic `.vzv` word stores (one per script side) plus per-target `.daac` automata.
 
 ## Files
 
