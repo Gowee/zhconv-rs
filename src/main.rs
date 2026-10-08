@@ -108,7 +108,7 @@ fn main() -> Result<()> {
     };
 
     let convert = |text: &str| {
-        let mut output = String::with_capacity(text.len());
+        let mut output = String::new();
         convert_to(text, &mut output);
         output
     };

@@ -45,7 +45,7 @@ fn bench_load(c: &mut Criterion) {
     load.sample_size(20);
     for (name, variant) in CONVTUPLES {
         load.bench_function(name, |b| {
-            b.iter_with_large_drop(|| {
+            b.iter_with_large_drop(|| unsafe {
                 deserialize_converter(
                     variant,
                     black_box(get_builtin_serialized_daac(variant)),

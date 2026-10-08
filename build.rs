@@ -194,13 +194,18 @@ fn main() -> io::Result<()> {
     assert!(hans_len <= hans_total, "hans split past store");
     let (m_hans_froms, m_hans_tos): (Vec<&str>, Vec<&str>) =
         m_hans.iter().map(|(f, t)| (f.as_str(), t.as_str())).unzip();
+    let mut hans_to_vzv_bytes = Vec::new();
     if cfg!(any(
         feature = "mediawiki-hans",
         feature = "opencc-hans",
         feature = "mediawiki-cn",
         feature = "opencc-cn"
     )) {
-        write_vzv_file("ZH_TO_HANS_ALL", &m_hans)?;
+        hans_to_vzv_bytes = write_vzv_file("ZH_TO_HANS_ALL", &m_hans)?;
+        assert!(
+            !hans_to_vzv_bytes.is_empty(),
+            "ZH_TO_HANS_ALL store bytes must be initialized"
+        );
         // HANS values are positional: pairs == store prefix.
         write_daac_file(
             "ZH_TO_HANS",
@@ -209,9 +214,14 @@ fn main() -> io::Result<()> {
             hans_len as u32,
             &m_hans_froms,
             &m_hans_tos,
+            &hans_to_vzv_bytes,
         )?;
     }
     if cfg!(any(feature = "mediawiki-cn", feature = "opencc-cn")) {
+        assert!(
+            !hans_to_vzv_bytes.is_empty(),
+            "ZH_TO_HANS_ALL store bytes must be initialized"
+        );
         // HANS_CN values are positional: pairs == whole store.
         write_daac_file(
             "ZH_TO_HANS_CN",
@@ -220,6 +230,7 @@ fn main() -> io::Result<()> {
             hans_total as u32,
             &m_hans_froms,
             &m_hans_tos,
+            &hans_to_vzv_bytes,
         )?;
         log_diag!("ZH_TO_HANS_CN: final.len = {}\n", hans_total)?;
     }
@@ -274,6 +285,7 @@ fn main() -> io::Result<()> {
     );
     let (m_hant_froms, m_hant_tos): (Vec<&str>, Vec<&str>) =
         m_hant.iter().map(|(f, t)| (f.as_str(), t.as_str())).unzip();
+    let mut hant_to_vzv_bytes = Vec::new();
     if cfg!(any(
         feature = "mediawiki-hant",
         feature = "opencc-hant",
@@ -282,7 +294,11 @@ fn main() -> io::Result<()> {
         feature = "mediawiki-hk",
         feature = "opencc-hk"
     )) {
-        write_vzv_file("ZH_TO_HANT_ALL", &m_hant)?;
+        hant_to_vzv_bytes = write_vzv_file("ZH_TO_HANT_ALL", &m_hant)?;
+        assert!(
+            !hant_to_vzv_bytes.is_empty(),
+            "ZH_TO_HANT_ALL store bytes must be initialized"
+        );
         // HANT values are positional: pairs == store prefix.
         write_daac_file(
             "ZH_TO_HANT",
@@ -291,10 +307,15 @@ fn main() -> io::Result<()> {
             hant_len as u32,
             &m_hant_froms,
             &m_hant_tos,
+            &hant_to_vzv_bytes,
         )?;
     }
     // Here, ZH_TO_HANT | ZH_TO_TW => ZH_TO_HANT_TW, etc. In other places, ZH_TO_TW might imply ZH_TO_HANT_TW.
     if cfg!(any(feature = "mediawiki-tw", feature = "opencc-tw")) {
+        assert!(
+            !hant_to_vzv_bytes.is_empty(),
+            "ZH_TO_HANT_ALL store bytes must be initialized"
+        );
         // HANT_TW values are positional: pairs == store prefix.
         write_daac_file(
             "ZH_TO_HANT_TW",
@@ -303,12 +324,17 @@ fn main() -> io::Result<()> {
             tw_end as u32,
             &m_hant_froms,
             &m_hant_tos,
+            &hant_to_vzv_bytes,
         )?;
         log_diag!("ZH_TO_HANT_TW: final.len = {}\n", tw_end)?;
     }
     if cfg!(any(feature = "mediawiki-hk", feature = "opencc-hk")) {
+        assert!(
+            !hant_to_vzv_bytes.is_empty(),
+            "ZH_TO_HANT_ALL store bytes must be initialized"
+        );
         // HK pairs are discontiguous in the store (base ++ hk-extras past
-        // the tw segment), so the tail remaps past it. Only segment needing
+        // the tw segment), so the tail remaps past it. Only segment with
         // non-identity values; A2 below pins every slot.
         let hant_hk_pairs: Vec<(String, String)> = m_hant[..hant_len]
             .iter()
@@ -322,6 +348,7 @@ fn main() -> io::Result<()> {
             tw_end as u32,
             &m_hant_froms,
             &m_hant_tos,
+            &hant_to_vzv_bytes,
         )?;
         log_diag!(
             "ZH_TO_HANT_HK: final.len = {}\n",
@@ -427,7 +454,7 @@ fn main() -> io::Result<()> {
     Ok(())
 }
 
-fn write_vzv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
+fn write_vzv_file(name: &str, pairs: &[(String, String)]) -> io::Result<Vec<u8>> {
     use zerovec::vecs::{Index32, VarZeroVecOwned};
     let out_dir = env::var_os("OUT_DIR").unwrap();
     // {from, to}.vzv hold VarZeroVec<str, Index32> bytes: full strings,
@@ -444,6 +471,7 @@ fn write_vzv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
         .expect("VZV-encode tos")
         .as_bytes()
         .to_vec();
+    let uncompressed_to_bytes = to_bytes.clone();
     #[cfg(feature = "compress")]
     let from_bytes = zstd_compress(&from_bytes)?;
     #[cfg(feature = "compress")]
@@ -453,9 +481,27 @@ fn write_vzv_file(name: &str, pairs: &[(String, String)]) -> io::Result<()> {
         from_bytes,
     )?;
     std::fs::write(Path::new(&out_dir).join(format!("{name}.to.vzv")), to_bytes)?;
-    Ok(())
+    Ok(uncompressed_to_bytes)
 }
 
+/// Write DAAC automaton file.
+///
+/// Pattern values directly encode `(offset << 10) | len` pointing into the side store's
+/// `to.vzv` byte slice, bypassing runtime VarZeroVec index lookups.
+///
+/// # Architecture Decision: Uniform Packing vs. Inlining
+/// We experimentally evaluated inlining short targets (1-char / 2-char words) directly into
+/// the `u32` DAAC value:
+/// - In prototype benchmarks, tagged inlining did not show consistent throughput advantages
+///   over uniform `(offset << 10) | len` (and showed regressions on sparse/mixed texts).
+/// - Suspected / theoretical reasons for the lack of improvement (hypotheses): tag checks add
+///   branching in the hot loop, runtime UTF-8 re-encoding of packed BMP codepoints adds ALU overhead,
+///   and widening to `u64` doubles automaton value memory which may degrade CPU cache locality.
+///
+/// Therefore, uniform `(offset << 10) | len` was selected for its branchless value unpacking,
+/// simpler code structure, and ability to leverage single-instruction 16B SIMD copying from
+/// pre-encoded UTF-8 memory.
+///
 /// Value remap into the monolithic side store: the first `base_len` pairs
 /// keep positional values; the tail maps to `tail_base + (i - base_len)`.
 /// Prefix cases pass `tail_base == base_len` (identity).
@@ -466,28 +512,79 @@ fn write_daac_file(
     tail_base: u32,
     store_froms: &[&str],
     store_tos: &[&str],
+    store_to_bytes: &[u8],
 ) -> io::Result<()> {
+    use zerovec::vecs::Index32;
+    use zerovec::VarZeroSlice;
+
     assert!(base_len <= pairs.len(), "{name}: base past pairs");
     assert!(
         pairs.iter().all(|(f, _)| !f.is_empty()),
         "{name}: empty from poisons the automaton"
     );
-    let value_of = |i: usize| -> u32 {
+    assert!(
+        store_to_bytes.len() <= 0x3FFFFF,
+        "{name}: total store bytes {} exceeds 22-bit addressable range (4MB)",
+        store_to_bytes.len()
+    );
+
+    let to_slice = VarZeroSlice::<str, Index32>::parse_bytes(store_to_bytes)
+        .expect("store_to_bytes must be valid VarZeroSlice");
+    assert_eq!(
+        to_slice.len(),
+        store_tos.len(),
+        "{name}: store slice count mismatch"
+    );
+
+    let slot_of = |i: usize| -> usize {
         if i < base_len {
-            i as u32
+            i
         } else {
-            tail_base + (i - base_len) as u32
+            (tail_base as usize) + (i - base_len)
         }
     };
+
     // A2: every pair's remapped slot holds exactly that pair.
     for (i, (f, t)) in pairs.iter().enumerate() {
-        let v = value_of(i) as usize;
+        let v = slot_of(i);
         assert!(v < store_tos.len(), "{name}: value {v} out of store");
         assert!(
             store_froms[v] == f && store_tos[v] == t,
             "{name}: remap mismatch at pair {i}"
         );
     }
+
+    let packed_val_of = |slot: usize| -> u32 {
+        let word = to_slice.get(slot).unwrap();
+        let offset = word.as_ptr() as usize - store_to_bytes.as_ptr() as usize;
+        let len = word.len();
+        assert!(
+            len <= 0x3FF,
+            "{name}: target word {word:?} length {len} exceeds 10-bit limit (1023 bytes)"
+        );
+        assert!(
+            offset <= 0x3FFFFF,
+            "{name}: target word {word:?} offset {offset} exceeds 22-bit limit (4MB)"
+        );
+        let packed = ((offset as u32) << 10) | (len as u32);
+        assert_eq!(
+            (packed >> 10) as usize,
+            offset,
+            "{name}: offset unpack mismatch"
+        );
+        assert_eq!(
+            (packed & 0x3FF) as usize,
+            len,
+            "{name}: len unpack mismatch"
+        );
+        assert_eq!(
+            &store_to_bytes[offset..offset + len],
+            word.as_bytes(),
+            "{name}: target slice mismatch"
+        );
+        packed
+    };
+
     let mut seen = HashSet::new();
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path_daac = Path::new(&out_dir).join(format!("{name}.daac"));
@@ -502,11 +599,13 @@ fn write_daac_file(
                     None
                 } else {
                     seen.insert(f);
-                    Some((f, value_of(i)))
+                    let slot = slot_of(i);
+                    Some((f, packed_val_of(slot)))
                 }
             },
         ))
         .expect(name);
+
     // A4: end-to-end through the real matcher. Last-wins expectations mirror
     // the rev-dedup above; each distinct key must resolve to its word.
     {
@@ -520,8 +619,11 @@ fn write_daac_file(
                 .next()
                 .unwrap_or_else(|| panic!("{name}: key {f:?} unfindable"))
                 .value();
-            assert!(
-                store_tos[v as usize] == t,
+            let offset = (v >> 10) as usize;
+            let len = (v & 0x3FF) as usize;
+            assert_eq!(
+                &store_to_bytes[offset..offset + len],
+                t.as_bytes(),
                 "{name}: match mismatch for {f:?}"
             );
         }
