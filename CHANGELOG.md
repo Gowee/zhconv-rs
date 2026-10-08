@@ -14,9 +14,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Emulated `STPhrases_GeneratedFromRegionalPhrases` at build time (regional-phrase keys via t2s, len>=3, merged into s2-family stage 1 as upstream `union[STPhrases, Generated]`); verified end-to-end (`内存条`→`記憶體模組` under `opencc-twp`).
 - Documented the single-automaton emulation contract: stages flatten as union + leftmost-longest with earlier rules winning; `short_circuit` shorter-match-wins is not emulated (infeasible).
 - Synced datasets to latest upstream: MediaWiki `1584f8371d` (ZH_TO_HANT 9776→10843 entries etc.), OpenCC `3ac34aa43` (TSCharacters/TSPhrases/TWVariants/CJK refreshes).
+- Documented architecture rationale in `build.rs` on uniform `(offset << 10) | len` packing over tagged inlining.
+- Regression tests for conversion buffer allocation policies, empty-string zero allocation, wikitext capacity, short dictionary bounds, and builder panics.
 
 ### Changed
 - **Breaking:** bundled tables are now monolithic `VarZeroVec<str, Index32>` side stores (`HANS_ALL` = hans ++ cn-extras, `HANT_ALL` = hant ++ tw-extras ++ hk-extras) instead of prefix-compressed `.from/.to.conv` splits. `Table` is an opaque struct (fields private; construct via `ZH_*_TABLE` / `get_builtin_table`, one self-contained view per variant), `expand_table` returns `Vec`, table types and functions are re-exported at the crate root (alongside `pub mod tables`), and `ZhConverter` carries a lifetime (`ZhConverter<'a>`; constructors return `'static`). Builtin converters borrow the store with zero per-string allocation; per-variant automata index into it (remapped for HK extras), pinned by build-time per-pair, retain-contract, and end-to-end matcher assertions.
+- **Breaking:** marked low-level constructors `deserialize_converter`, `ZhConverter::new`, and `ZhConverter::with_target_variant` as `unsafe fn` with documented `# Safety` contracts requiring valid `(offset << 10) | len` descriptors matching the target store.
+- **Performance:** packed DAAC match values directly as `(offset << 10) | len` descriptors into contiguous UTF-8 word stores (up to 4MB store, 1023B word length), completely eliminating runtime `VarZeroVec` `Index32` secondary table index lookups.
+- **Performance:** rewrote `ZhConverter::convert_to` with a single 16-byte unaligned SIMD copy (`u128`) for short targets (<= 16B) with `chunk_slack` capacity padding, contiguous-match (`gap == 0`) `memcpy` bypass, and bounds-checked fallback for long targets.
+- **Capacity policy:** differentiated buffer preallocation between plain text conversions (reserving `(len >> 6).min(512) + 32` headroom based on sub-linear corpus expansion statistics) and MediaWiki wikitext conversions (preallocating `text.len()` without headroom due to syntax tag stripping).
+- **Zero-allocation empty inputs:** all `String`-returning conversion functions return `capacity == 0` for empty inputs without heap allocations; `convert_to_as_wikitext` early-returns before closure heap allocation, builder setup, or regex matching.
 
 ## [0.4.2-1] - 2026-09-08
 
