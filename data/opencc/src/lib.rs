@@ -175,7 +175,14 @@ macro_rules! load_chain_to {
         for (_f, t) in chain_mapping.iter_mut() {
             *t = stage_conver.convert(t);
         }
-        for (f, t) in stage_mapping.iter() {
+        // Iterate the stage mapping in a deterministic (key-sorted) order.
+        // Insertions below mutate `chain_mapping` and derived entries can
+        // collide with direct ones, so HashMap iteration order would make the
+        // surviving entry (and thus the built table) depend on the process's
+        // random hash seed. See issue #17.
+        let mut stage_pairs: Vec<(&String, &String)> = stage_mapping.iter().collect();
+        stage_pairs.sort_by(|a, b| a.0.cmp(&b.0));
+        for (f, t) in stage_pairs {
             // Absorb all pairs of this stage into the chain mapping.
             // TODO: prefer earlier or later (cross-stage collisions measure 0
             // on current data, reported by agent today).
@@ -206,8 +213,13 @@ macro_rules! load_chain_to {
     ( $out: expr, $($stage: tt),+ ) => {
         let mut chain_mappings = None;
         $(load_chain_to!(@load_stage $out, chain_mappings, $stage);)*
-        let (chain_mapping, _) = chain_mappings.unwrap();
-        $out.extend(chain_mapping.into_iter());
+        let (mut chain_mapping, _) = chain_mappings.unwrap();
+        // Emit in a deterministic (key-sorted) order: downstream
+        // sort-and-dedup keeps the first entry per key, which must not
+        // depend on the process's random hash seed. See issue #17.
+        let mut entries: Vec<(String, String)> = chain_mapping.drain().collect();
+        entries.sort_by(|a, b| a.0.cmp(&b.0));
+        $out.extend(entries);
     };
 }
 
@@ -516,6 +528,42 @@ mod tests {
     fn raw_is_validated_and_nonempty() {
         assert!(!raw("STCharacters.txt").is_empty());
         assert!(!raw("TSPhrases.txt").is_empty());
+    }
+
+    #[test]
+    fn loaders_are_deterministic_per_process() {
+        // Each load builds its own HashMaps with a fresh RandomState, so two
+        // loads exercise two different iteration orders. Aggregation must not
+        // depend on that order: the emitted (key, value) sequence, and hence
+        // the built conversion tables, must be identical (issue #17).
+        let load_all = |twp: bool, hkp: bool| {
+            let mut tables: Vec<Vec<(String, String)>> = Vec::new();
+            for _ in 0..2 {
+                let mut cn = Vec::new();
+                load_cn_pairs(&mut cn, twp, hkp);
+                tables.push(cn);
+                let mut tw = Vec::new();
+                load_tw_pairs(&mut tw, twp);
+                tables.push(tw);
+                let mut hk = Vec::new();
+                load_hk_pairs(&mut hk, hkp);
+                tables.push(hk);
+            }
+            assert_eq!(
+                tables[0], tables[3],
+                "cn table differs between two loads (twp={twp}, hkp={hkp})"
+            );
+            assert_eq!(
+                tables[1], tables[4],
+                "tw table differs between two loads (twp={twp})"
+            );
+            assert_eq!(
+                tables[2], tables[5],
+                "hk table differs between two loads (hkp={hkp})"
+            );
+        };
+        load_all(false, false);
+        load_all(true, true);
     }
 
     #[test]
