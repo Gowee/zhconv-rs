@@ -52,32 +52,39 @@ jobs:
   build-typst:
     needs: build-main
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        typst-version: ["0.14.0", "0.15.1"]
     defaults:
       run:
         working-directory: typst/
     steps:
       - uses: actions/checkout@v3
-      - name: Install Wasm target for Rust
-        run: rustup target add wasm32-unknown-unknown
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pinned Rust toolchain and Wasm target
+        run: rustup show active-toolchain
       - name: Install Typst
+        env:
+          TYPST_VERSION: ${{ matrix.typst-version }}
         run: |
-          curl -fsSL -O https://github.com/typst/typst/releases/download/v0.14.0/typst-x86_64-unknown-linux-musl.tar.xz
-          tar xf typst-x86_64-unknown-linux-musl.tar.xz
-          mv typst-x86_64-unknown-linux-musl/typst /home/runner/
+          curl -fSL --retry 3 -o typst.tar.xz "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz"
+          tar xf typst.tar.xz
+          echo "/tmp/typst-x86_64-unknown-linux-musl" >> "$GITHUB_PATH"
         working-directory: /tmp
-      - name: Build
+      - name: Build and test isolated package
+        run: python3 tests/run.py
+      - name: Clippy (native and plugin)
         run: |
-          cargo --version
-          cargo build --release --verbose --target wasm32-unknown-unknown
-      - name: Typst Compile
-        run: |
-          cp target/wasm32-unknown-unknown/release/zhconv_typst.wasm ./
-          /home/runner/typst --version
-          /home/runner/typst compile example.typ
-      - name: Clippy
-        run: cargo clippy --target wasm32-unknown-unknown --all-features -- -D warnings
+          cargo clippy --locked --all-targets -- -D warnings
+          cargo clippy --locked --target wasm32-unknown-unknown -- -D warnings
       - name: Check Format
         run: cargo fmt -- --check
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zhconv-typst-${{ matrix.typst-version }}
+          path: typst/dist/package/
 
   # now Pages.dev do this for us
   # build-web:

@@ -1,0 +1,77 @@
+[
+  {
+    "text": "",
+    "expected": {
+      "zh-Hans": "",
+      "zh-Hant": "",
+      "zh-TW": "",
+      "zh-HK": "",
+      "zh-MO": "",
+      "zh-CN": "",
+      "zh-SG": "",
+      "zh-MY": ""
+    }
+  },
+  {
+    "text": "ASCII {field} https://example.org/a?x=1 0123",
+    "expected": {
+      "zh-Hans": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-Hant": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-TW": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-HK": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-MO": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-CN": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-SG": "ASCII {field} https://example.org/a?x=1 0123",
+      "zh-MY": "ASCII {field} https://example.org/a?x=1 0123"
+    }
+  },
+  {
+    "text": "汉字转换",
+    "expected": {
+      "zh-Hans": "汉字转换",
+      "zh-Hant": "漢字轉換",
+      "zh-TW": "漢字轉換"
+    }
+  },
+  {
+    "text": "漢字轉換",
+    "expected": {
+      "zh-Hans": "汉字转换"
+    }
+  },
+  {
+    "text": "软件在服务器上运行，鼠标和内存。"
+  },
+  {
+    "text": "阿拉伯联合酋长国",
+    "expected": {
+      "zh-TW": "阿拉伯聯合酋長國"
+    }
+  },
+  {
+    "text": "理发以后发现头发干了，干活的人在后台。"
+  },
+  {
+    "text": "簡繁混排：后台與後臺，里面和裡面。"
+  },
+  {
+    "text": "汉字\u0000繁體\r\n🦀𠀀é {field} {用户名称}"
+  },
+  {
+    "text": "神 神 﨑 崎"
+  },
+  {
+    "text": "-{zh-hans:甲;zh-hant:乙;}-",
+    "wikitext": true,
+    "expected": {
+      "zh-Hans": "甲",
+      "zh-Hant": "乙"
+    }
+  },
+  {
+    "text": "-{zh-hans:甲;zh-hant:乙;}-",
+    "expected": {
+      "zh-Hant": "-{zh-hans:甲;zh-hant:乙;}-"
+    }
+  }
+]
