@@ -7,8 +7,8 @@
 //! Staging/flattening follows OpenCC's `data/config/*.json` multi-pass dict
 //! groups, pre-flattened here so the parent crate can build a single
 //! automaton; see the parent crate's `build.rs`.
-use std::collections::HashMap;
 use std::collections::HashSet;
+use std::collections::{BTreeMap, HashMap};
 use std::sync::LazyLock;
 
 use daachorse::{CharwiseDoubleArrayAhoCorasick, CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
@@ -159,13 +159,17 @@ macro_rules! load_chain_to {
     // `$out` is only the final sink (see the top-level arm below); all
     // chaining state threads through `$chain_mappings: Option<(chain_mapping, chain_rev_mapping)>`.
     ( @load_stage $out: expr, $chain_mappings: ident, [ $($dict: tt)+ ] ) => {
-        // forward and backward mappings, flattened/aggregated so far
-        let (mut chain_mapping, chain_rev_mapping): (HashMap<String, String>, HashMap<String, String>) = $chain_mappings.unwrap_or_else(|| (HashMap::new(), HashMap::new()));
+        // forward and backward mappings, flattened/aggregated so far.
+        // Ordered maps keep every iteration deterministic: the aggregation
+        // below is order-sensitive (derived entries, last-write-wins), and
+        // the reverse maps feed the derived-key computation, so hash-map
+        // iteration order would leak into the built tables. See issue #17.
+        let (mut chain_mapping, chain_rev_mapping): (BTreeMap<String, String>, BTreeMap<String, String>) = $chain_mappings.unwrap_or_else(|| (BTreeMap::new(), BTreeMap::new()));
         // build forward & backward mappings of all dicts of this stage merged together
         // (OpenCC short_circuit match_policy is infeasible anyway with our single-pass AC, our
         // merging is functionally equivalent to union match_policy)
-        let mut stage_mapping: HashMap<String, String> = HashMap::new();
-        let mut stage_rev_mapping: HashMap<String, String> = HashMap::new();
+        let mut stage_mapping: BTreeMap<String, String> = BTreeMap::new();
+        let mut stage_rev_mapping: BTreeMap<String, String> = BTreeMap::new();
         load_chain_to!(@load_dicts_to &mut stage_mapping, &mut stage_rev_mapping, $($dict)*);
         let stage_conver: crate::SimpleConverter = stage_mapping.clone().into();
         let chain_revconver: crate::SimpleConverter = chain_rev_mapping.clone().into();
@@ -175,20 +179,30 @@ macro_rules! load_chain_to {
         for (_f, t) in chain_mapping.iter_mut() {
             *t = stage_conver.convert(t);
         }
+        // Absorb this stage's pairs in two explicit precedence rounds, both
+        // insert-if-absent so nothing overrides an existing entry:
+        //   round 1: explicit dictionary keys of this stage;
+        //   round 2: derived keys (this stage's source words reverse-converted
+        //     through earlier stages), which are implicit and rank below
+        //     explicit entries.
+        // Existing chain entries are never touched by either round: their
+        // values were just chain-forward-converted through this stage (the
+        // `iter_mut` pass above), which is exactly the OpenCC pipeline
+        // semantics for words seen by earlier stages. Together with the
+        // ordered maps, the built tables are independent of both hash
+        // iteration order and key sort direction (issue #17).
         for (f, t) in stage_mapping.iter() {
-            // Absorb all pairs of this stage into the chain mapping.
-            // TODO: prefer earlier or later (cross-stage collisions measure 0
-            // on current data, reported by agent today).
-            // FIXME: later for overriding with more specific stages?
-            // TODO: log dups
-            chain_mapping.insert(f.clone(), t.clone());
+            // TODO: log cross-stage key collisions
+            chain_mapping.entry(f.clone()).or_insert_with(|| t.clone());
+        }
+        for (f, t) in stage_mapping.iter() {
             // Chain backward: reverse-convert source words of this stage
             // through the reverse mapping of earlier stages,
             // e.g. `內存條 -> 記憶體模組` --rev--> `內存条 -> 記憶體模組`
             let ff = chain_revconver.convert(f);
             if &ff != f && &ff != t /* ? */ {
                 // TODO: log dups
-                chain_mapping.insert(ff.to_owned(), t.to_owned());
+                chain_mapping.entry(ff.to_owned()).or_insert_with(|| t.to_owned());
             }
         }
         // Chain forward & backward and absorb reverse pairs of this stage, for the reverse (backward)
@@ -207,7 +221,10 @@ macro_rules! load_chain_to {
         let mut chain_mappings = None;
         $(load_chain_to!(@load_stage $out, chain_mappings, $stage);)*
         let (chain_mapping, _) = chain_mappings.unwrap();
-        $out.extend(chain_mapping.into_iter());
+        // BTreeMap already yields key-sorted order; the downstream
+        // sort-and-dedup in build.rs keeps the first entry per key, which is
+        // now deterministic (issue #17).
+        $out.extend(chain_mapping);
     };
 }
 
@@ -236,8 +253,8 @@ fn parse_dict(s: &str) -> impl Iterator<Item = (&str, impl Iterator<Item = &str>
 }
 
 pub fn load_dict_to(
-    out_mapping: &mut HashMap<String, String>,
-    out_rev_mapping: &mut HashMap<String, String>,
+    out_mapping: &mut BTreeMap<String, String>,
+    out_rev_mapping: &mut BTreeMap<String, String>,
     s: &str,
 ) {
     for (f, ts) in parse_dict(s) {
@@ -292,26 +309,47 @@ pub struct SimpleConverter {
     target_words: Vec<String>,
 }
 
-impl From<HashMap<String, String>> for SimpleConverter {
-    fn from(mapping: HashMap<String, String>) -> Self {
-        let mut target_words = Vec::with_capacity(mapping.len());
-        let automaton = if mapping.is_empty() {
-            None
-        } else {
-            Some(
-                CharwiseDoubleArrayAhoCorasickBuilder::new()
-                    .match_kind(MatchKind::LeftmostLongest)
-                    .build(mapping.into_iter().map(|(f, t)| {
-                        target_words.push(t);
-                        f
-                    }))
-                    .expect("Conversion table is valid"),
-            )
-        };
+impl SimpleConverter {
+    fn from_ordered_pairs(pairs: impl Iterator<Item = (String, String)>) -> Self {
+        let pairs: Vec<(String, String)> = pairs.collect();
+        let mut target_words = Vec::with_capacity(pairs.len());
+        let automaton = CharwiseDoubleArrayAhoCorasickBuilder::new()
+            .match_kind(MatchKind::LeftmostLongest)
+            .build(pairs.iter().map(|(f, t)| {
+                target_words.push(t.clone());
+                f.as_str()
+            }))
+            .expect("Conversion table is valid");
         Self {
-            automaton,
+            automaton: Some(automaton),
             target_words,
         }
+    }
+}
+
+impl From<HashMap<String, String>> for SimpleConverter {
+    fn from(mapping: HashMap<String, String>) -> Self {
+        if mapping.is_empty() {
+            return Self {
+                automaton: None,
+                target_words: Vec::new(),
+            };
+        }
+        let mut pairs: Vec<(String, String)> = mapping.into_iter().collect();
+        pairs.sort_by(|a, b| a.0.cmp(&b.0));
+        Self::from_ordered_pairs(pairs.into_iter())
+    }
+}
+
+impl From<BTreeMap<String, String>> for SimpleConverter {
+    fn from(mapping: BTreeMap<String, String>) -> Self {
+        if mapping.is_empty() {
+            return Self {
+                automaton: None,
+                target_words: Vec::new(),
+            };
+        }
+        Self::from_ordered_pairs(mapping.into_iter())
     }
 }
 
@@ -516,6 +554,42 @@ mod tests {
     fn raw_is_validated_and_nonempty() {
         assert!(!raw("STCharacters.txt").is_empty());
         assert!(!raw("TSPhrases.txt").is_empty());
+    }
+
+    #[test]
+    fn loaders_are_deterministic_per_process() {
+        // Each load builds its own HashMaps with a fresh RandomState, so two
+        // loads exercise two different iteration orders. Aggregation must not
+        // depend on that order: the emitted (key, value) sequence, and hence
+        // the built conversion tables, must be identical (issue #17).
+        let load_all = |twp: bool, hkp: bool| {
+            let mut tables: Vec<Vec<(String, String)>> = Vec::new();
+            for _ in 0..2 {
+                let mut cn = Vec::new();
+                load_cn_pairs(&mut cn, twp, hkp);
+                tables.push(cn);
+                let mut tw = Vec::new();
+                load_tw_pairs(&mut tw, twp);
+                tables.push(tw);
+                let mut hk = Vec::new();
+                load_hk_pairs(&mut hk, hkp);
+                tables.push(hk);
+            }
+            assert_eq!(
+                tables[0], tables[3],
+                "cn table differs between two loads (twp={twp}, hkp={hkp})"
+            );
+            assert_eq!(
+                tables[1], tables[4],
+                "tw table differs between two loads (twp={twp})"
+            );
+            assert_eq!(
+                tables[2], tables[5],
+                "hk table differs between two loads (hkp={hkp})"
+            );
+        };
+        load_all(false, false);
+        load_all(true, true);
     }
 
     #[test]
