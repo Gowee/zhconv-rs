@@ -48,11 +48,11 @@ def main():
         subprocess.run(command + ["positive.typ", "positive.pdf"], cwd=root, check=True)
         for i, (expression, expected) in enumerate(negative):
             name = f"negative-{i}.typ"
-            (root / name).write_text(f'#import "@local/zhconv:{PKG_VERSION}": zhconv, zhconv-wasm\n#' + expression, encoding="utf-8")
+            (root / name).write_text(f'#import "@local/zhconv:{PKG_VERSION}": convert, convert-wikitext, zhconv-wasm\n#' + expression, encoding="utf-8")
             result = subprocess.run(command + [name, f"negative-{i}.pdf"], cwd=root, capture_output=True, text=True, encoding="utf-8")
             if result.returncode == 0 or expected not in result.stderr or "unreachable" in result.stderr:
                 raise AssertionError(f"{expression}: expected {expected!r}, got {result.stderr}")
-        example = (ROOT / "example.typ").read_text(encoding="utf-8").replace('#import "zhconv.typ": zhconv', f'#import "@local/zhconv:{PKG_VERSION}": zhconv')
+        example = (ROOT / "example.typ").read_text(encoding="utf-8").replace('#import "zhconv.typ": convert-content', f'#import "@local/zhconv:{PKG_VERSION}": convert-content')
         (root / "example.typ").write_text(example, encoding="utf-8")
         subprocess.run(command + ["example.typ", "example.pdf"], cwd=root, check=True)
     print(f"PASS: {len(rows)} native/WASM comparisons, content/API checks, {len(negative)} error cases, installed example")

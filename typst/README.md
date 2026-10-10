@@ -18,23 +18,35 @@ After building and installing this development package locally:
 ```typst
 #import "@local/zhconv:0.5.0": zhconv
 
-#zhconv("汉字转换", "zh-Hant") // 漢字轉換
-#zhconv([柳外輕雷池上雨], "zh-Hans")
-#zhconv("-{zh-hans:甲;zh-hant:乙;}-", "zh-Hant", wikitext: true) // 乙
+#convert("汉字转换", "zh-Hant") // 漢字轉換
+#convert-content([柳外輕雷池上雨], "zh-Hans")
+#convert-wikitext("-{zh-hans:甲;zh-hant:乙;}-", "zh-Hant") // 乙
 ```
 
 ## API and conversion behavior
 
-`zhconv(document, target, wikitext: false)` keeps the existing API. Strings return
-strings. Content is traversed using the existing `children`, `text` and `body`
-handling; other values pass through unchanged. The lower-level helpers
-`zhconv-str(text, target, wikitext: false)` and `is-hans-str(text)` remain available.
+The public API is redesigned around semantic names and explicit contracts:
 
-Targets are case-insensitive: `zh-Hans`, `zh-Hant`, `zh-TW`, `zh-HK`, `zh-MO`,
-`zh-CN`, `zh-SG`, `zh-MY`. The upstream `zh` target is also accepted (no script
-conversion in plain mode). Unknown targets and invalid UTF-8 at the byte-level
-plugin boundary produce errors. Wikitext processing is opt-in; its wire flag
-must be exactly one byte, either 0 or 1.
+- `convert(text, target)` — the single unambiguous entry point (`str -> str`).
+- `convert-wikitext(text, target)` — conversion aware of MediaWiki variant
+  markup, split out of the main signature so it stays free of rule flags.
+- `convert-content(doc, target)` — best-effort traversal of a content tree
+  using the existing `children`, `text` and `body` handling; other values pass
+  through unchanged. Its best-effort nature is part of the contract (below).
+- `detect(text)` — coarse script detection, returning `"zh-Hans"` or `"zh-Hant"`.
+- `variants` — the supported target tags.
+
+The previous names map as follows: `zhconv-str(text, target, wikitext: false)` →
+`convert` / `convert-wikitext`; `zhconv(document, target, wikitext: false)` →
+`convert-content` (its `wikitext` argument is dropped; use `convert-wikitext`
+on strings); `is-hans-str(text)` → `detect(text) == "zh-Hans"`.
+
+Targets are normalized case- and underscore-insensitively (`ZH-HANT`, `zh_hant`
+both work): `zh-Hans`, `zh-Hant`, `zh-TW`, `zh-HK`, `zh-MO`, `zh-CN`, `zh-SG`,
+`zh-MY`. The upstream `zh` target is also accepted (no script conversion in
+plain mode). Unknown targets and invalid UTF-8 at the byte-level plugin
+boundary produce errors. The wikitext wire flag must be exactly one byte,
+either 0 or 1.
 
 The standard build explicitly enables **OpenCC, compression and CJK compatibility
 normalization**, with default core features disabled. It embeds no MediaWiki
@@ -54,8 +66,9 @@ will change, even though the function signatures remain compatible.
 - These are zhconv's flattened OpenCC automata, not OpenCC's original multi-stage
   pipeline. Individual conversions can differ. Conversion is neither generally
   reversible nor a guarantee of linguistic correctness in every context.
-- Wikitext syntax remains supported without embedding MediaWiki's dataset.
-- Content traversal is a convenience, not a lossless rewrite of arbitrary Typst
+- Wikitext syntax remains supported without embedding MediaWiki's dataset,
+  via the separate `convert-wikitext` entry point.
+- `convert-content` is a convenience, not a lossless rewrite of arbitrary Typst
   content. In particular, explicit text styling can be lost, and words split
   across content nodes are converted separately. Convert a complete string
   before applying formatting when phrase context or styling matters.
