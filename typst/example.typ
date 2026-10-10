@@ -6,8 +6,8 @@
 
 = Usage
 At first:
-`#import "@local/zhconv:0.4.0": zhconv`
-// #import "@local/zhconv:0.4.0": zhconv
+`#import "@local/zhconv:0.5.0": zhconv`
+// #import "@local/zhconv:0.5.0": zhconv
 #import "zhconv.typ": zhconv
 
 #box(stroke: red,

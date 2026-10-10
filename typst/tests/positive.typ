@@ -1,4 +1,4 @@
-#import "@local/zhconv:0.4.0": zhconv, zhconv-str, is-hans-str
+#import "@local/zhconv:0.5.0": zhconv, zhconv-str, is-hans-str
 
 #for row in json("reference.json") {
   assert.eq(zhconv(row.text, row.target, wikitext: row.wikitext), row.expected)

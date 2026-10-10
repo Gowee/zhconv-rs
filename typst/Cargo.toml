@@ -10,7 +10,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 wasm-minimal-protocol = "=0.2.1"
-zhconv = { path = "../", default-features = false, features = ["opencc", "compress", "cjk-compat"] }
+zhconv = { path = "../", default-features = false, features = ["opencc", "opencc-twp", "opencc-hkp", "compress", "cjk-compat"] }
 
 [profile.release]
 lto = true          # Enable link-time optimization

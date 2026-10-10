@@ -76,9 +76,22 @@ def build():
         if "mediawiki" in packages[node["id"]]["name"] or any("mediawiki" in f for f in node["features"]):
             raise RuntimeError("MediaWiki dependency/features found in the resolved build graph")
     core = next(n for n in nodes if packages[n["id"]]["name"] == "zhconv")
-    required = {"opencc", "compress", "cjk-compat"}
-    if not required.issubset(core["features"]) or {"opencc-twp", "opencc-hkp", "wasm"}.intersection(core["features"]):
+    # Regional phrase dictionaries (OpenCC TWPhrases/HKPhrases, Apache-2.0) are
+    # part of the full zh-TW / zh-HK semantics; script-only conversion remains
+    # available via zh-Hant. Keep them required so the package cannot silently
+    # regress to region-less output.
+    required = {"opencc", "opencc-twp", "opencc-hkp", "compress", "cjk-compat"}
+    if not required.issubset(core["features"]) or {"wasm"}.intersection(core["features"]):
         raise RuntimeError(f"Unexpected core feature configuration: {core['features']}")
+    # The Typst package version tracks the core version (single source of truth:
+    # the workspace version in the repository root manifest).
+    core_version = packages[core["id"]]["version"]
+    pkg_manifest = tomllib.loads((ROOT / "typst.toml").read_text(encoding="utf-8"))["package"]
+    if pkg_manifest["version"] != core_version:
+        raise RuntimeError(
+            f"Package version {pkg_manifest['version']} does not track the core version {core_version}; "
+            "update typst.toml to match the workspace version"
+        )
     messages = [json.loads(line) for line in run(
         "cargo", "build", "--locked", "--release", "--target", TARGET,
         "--message-format=json",

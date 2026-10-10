@@ -7,14 +7,16 @@ regional variants using [zhconv-rs](https://github.com/Gowee/zhconv-rs).
 
 The currently published Universe package is `@preview/zhconv:0.3.1`. This source
 tree prepares an updated package; it is **not** that published release. The
-manifest's `0.4.0` version is the proposed Typst package version, independent of
-the Rust core's version. The core dependency comes from this checkout (currently
-0.5 development), not a crates.io 0.5 release.
+manifest's version **tracks the Rust core's workspace version** (currently
+`0.5.0`, matching the 0.5 development line); the build tooling enforces the
+sync between `typst.toml` and the core version, so the Typst package version
+always identifies the bundled core. The core dependency comes from this
+checkout (currently 0.5 development), not a crates.io 0.5 release.
 
 After building and installing this development package locally:
 
 ```typst
-#import "@local/zhconv:0.4.0": zhconv
+#import "@local/zhconv:0.5.0": zhconv
 
 #zhconv("汉字转换", "zh-Hant") // 漢字轉換
 #zhconv([柳外輕雷池上雨], "zh-Hans")
@@ -41,10 +43,14 @@ will change, even though the function signatures remain compatible.
 
 - Hans/Hant select script conversion rules; TW/HK additionally select their
   regional character rules. MO shares HK's rules; SG/MY share CN's rules.
-- The optional `opencc-twp` and `opencc-hkp` phrase-replacement features are not
-  enabled. Selecting TW is not a promise to localize every technical term.
-  For example, the test corpus expects `阿拉伯联合酋长国` → `阿拉伯聯合酋長國`
-  for TW, without the alternative regional phrase substitution.
+- The OpenCC regional phrase dictionaries (`opencc-twp` / `opencc-hkp`, both
+  Apache-2.0 OpenCC data) are **enabled**: `zh-TW` performs full Taiwan
+  localization (`阿拉伯联合酋长国` → `阿拉伯聯合大公國`, `软件在服务器上运行` →
+  `軟體在伺服器上執行`) and `zh-HK` applies Hong Kong phrasing (`滑鼠`).
+  Use `zh-Hant` for script-only conversion without regional substitution.
+  Selecting a regional phrase subset at runtime is not currently supported
+  upstream (the dictionaries are compile-time switches); raising that as a
+  follow-up option is tracked in #15.
 - These are zhconv's flattened OpenCC automata, not OpenCC's original multi-stage
   pipeline. Individual conversions can differ. Conversion is neither generally
   reversible nor a guarantee of linguistic correctness in every context.
@@ -62,11 +68,21 @@ The following differences were observed against the published 0.3.1 WASM under
 Typst 0.15.1. They reflect both dictionary selection and changes in the core,
 not an API change. A 12-case, eight-target smoke corpus is not a quality score.
 
-| Input / target | Published 0.3.1 | This OpenCC-only build |
+| Input / target | Published 0.3.1 | This build |
 | --- | --- | --- |
-| `软件在服务器上运行，鼠标和内存。` / TW | 軟體在伺服器上運行，滑鼠和內存。 | 軟件在服務器上運行，鼠標和內存。 |
-| `阿拉伯联合酋长国` / TW | 阿拉伯聯合大公國 | 阿拉伯聯合酋長國 |
+| `软件在服务器上运行，鼠标和内存。` / TW | 軟體在伺服器上運行，滑鼠和內存。 | 軟體在伺服器上執行，滑鼠和記憶體。 |
+| `软件在服务器上运行，鼠标和内存。` / HK | 軟件在伺服器上運行，鼠標和內存。 | 軟件在伺服器上運行，滑鼠和內存。 |
+| `阿拉伯联合酋长国` / TW | 阿拉伯聯合大公國 | 阿拉伯聯合大公國 |
 | `神 神 﨑 崎` / Hans | 神 神 﨑 崎 | 神 神 﨑 崎 |
+
+With the regional phrase dictionaries enabled, TW/HK technical vocabulary is
+restored and in places goes further than 0.3.1 (TW `運行` → `執行`, `內存` →
+`記憶體`; the 0.3.1 HK output lacked `滑鼠` entirely). The remaining observed
+differences come from CJK compatibility normalization (a newly enabled core
+feature) and from dictionary refactoring on the 0.5 development line. Note for
+message-template users: non-ASCII placeholder names are converted like any
+other Chinese text (e.g. `{用戶名稱}` → `{使用者名稱}` for TW); ASCII
+placeholders such as `{field}` are unaffected.
 
 The current core also has known conversion limitations exposed by these tests:
 
@@ -109,7 +125,7 @@ including content examples and expected-error cases. Native agreement validates
 the binding, not linguistic accuracy; the small semantic corpus is separate.
 
 To install manually, copy `dist/package/` to
-`<Typst data directory>/typst/packages/local/zhconv/0.4.0/` (or the package path
+`<Typst data directory>/typst/packages/local/zhconv/0.5.0/` (or the package path
 reported by `typst info`). Then use the `@local` import above. The test runner
 requires no persistent installation. `example.typ` can also be compiled after
 copying the built WASM next to `zhconv.typ` for source-tree development.
