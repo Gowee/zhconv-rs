@@ -27,10 +27,10 @@ def main():
     reference = subprocess.check_output(["cargo", "run", "--locked", "--quiet", "--example", "reference"], cwd=ROOT, text=True, encoding="utf-8")
     rows = json.loads(reference)
     negative = [
-        ('zhconv("text", "unknown")', "Unsupported target variant"),
-        ('zhconv("", "unknown")', "Unsupported target variant"),
-        ('zhconv("text", 42)', "expected"),
-        ('zhconv("text", "zh-hans", wikitext: "yes")', "expected boolean"),
+        ('convert("text", "unknown")', "Unsupported target variant"),
+        ('convert("", "unknown")', "Unsupported target variant"),
+        ('convert("text", 42)', "expected"),
+        ('convert-wikitext("text", "unknown")', "Unsupported target variant"),
         ('zhconv-wasm.zhconv(bytes((255,)), bytes("zh-hans"), bytes((0,)))', "Invalid text"),
         ('zhconv-wasm.zhconv(bytes("text"), bytes((255,)), bytes((0,)))', "Invalid target variant"),
         ('zhconv-wasm.zhconv(bytes("text"), bytes("zh-hans"), bytes(()))', "Invalid wikitext flag"),
