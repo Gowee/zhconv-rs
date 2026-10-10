@@ -1,5 +1,7 @@
 # zhconv-typst
 
+English | [简体中文](README.zh-CN.md)
+
 Convert Chinese strings and nested content between simplified, traditional and
 regional variants using [zhconv-rs](https://github.com/Gowee/zhconv-rs).
 
@@ -16,7 +18,7 @@ checkout (currently 0.5 development), not a crates.io 0.5 release.
 After building and installing this development package locally:
 
 ```typst
-#import "@local/zhconv:0.5.0": zhconv
+#import "@local/zhconv:0.5.0": convert, convert-content, convert-wikitext
 
 #convert("汉字转换", "zh-Hant") // 漢字轉換
 #convert-content([柳外輕雷池上雨], "zh-Hans")

@@ -111,7 +111,7 @@ def build():
     if stage.exists():
         shutil.rmtree(stage)
     stage.mkdir(parents=True)
-    for filename in ["zhconv.typ", "typst.toml", "README.md", "LICENSE", "LICENSE-MIT", "LICENSE-APACHE", "THIRD-PARTY-NOTICES.md"]:
+    for filename in ["zhconv.typ", "typst.toml", "README.md", "README.zh-CN.md", "LICENSE", "LICENSE-MIT", "LICENSE-APACHE", "THIRD-PARTY-NOTICES.md"]:
         shutil.copyfile(ROOT / filename, stage / filename)
     shutil.copyfile(wasm, stage / wasm.name)
     # Preserve dependency notices, including build tools, conservatively. Root
