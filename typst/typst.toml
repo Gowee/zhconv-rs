@@ -1,8 +1,10 @@
 [package]
 name = "zhconv"
-version = "0.4.0"
+version = "0.5.0"
 entrypoint = "zhconv.typ"
 authors = ["Hung-I Wang <whygowe@gmail.com>"]
-license = "GPL-2.0" # GPL 2.0 or later
+license = "(MIT OR Apache-2.0) AND Apache-2.0"
 description = "Convert Chinese text between Traditional/Simplified and regional variants. 中文简繁及地區詞轉換"
 repository = "https://github.com/Gowee/zhconv-rs"
+compiler = "0.14.0"
+exclude = ["/src", "/examples", "/tests", "/tools", "/target", "/dist", "/Cargo.toml", "/Cargo.lock", "/rust-toolchain.toml", "/.gitignore"]

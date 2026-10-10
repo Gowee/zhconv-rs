@@ -19,3 +19,6 @@ target/
 *.pdf
 test.typ
 *.wasm
+
+/dist/
+__pycache__/
